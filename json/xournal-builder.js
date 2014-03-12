@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xournal-builder"
+        "phrase": "xournal-builder",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "Builder",
           "package": "xournal-builder",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "Builder",
           "package": "xournal-builder",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "(\u003c\u003e)",
           "package": "xournal-builder",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "builder",
           "package": "xournal-builder",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "builder",
           "normalized": "Xournal-\u003eByteString",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "from2DCoord",
           "package": "xournal-builder",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "from2DCoord",
           "normalized": "Pair Double Double-\u003eBuilder",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "fromBackground",
           "package": "xournal-builder",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "fromBackground",
           "normalized": "Background-\u003eBuilder",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "fromLayer",
           "package": "xournal-builder",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "fromLayer",
           "normalized": "Layer-\u003eBuilder",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "fromPage",
           "package": "xournal-builder",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "fromPage",
           "normalized": "Page-\u003eBuilder",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "fromStroke",
           "package": "xournal-builder",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "fromStroke",
           "normalized": "Stroke-\u003eBuilder",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "fromTitle",
           "package": "xournal-builder",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "fromTitle",
           "normalized": "ByteString-\u003eBuilder",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "fromXournal",
           "package": "xournal-builder",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "fromXournal",
           "normalized": "Xournal-\u003eBuilder",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "xyFrom3DCoord",
           "package": "xournal-builder",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "xyFrom3DCoord",
           "normalized": "(Double,Double,Double)-\u003eBuilder",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:40 UTC 2014",
           "module": "Text.Xournal.Builder",
           "name": "zFrom3DCoord",
           "package": "xournal-builder",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Builder",
+          "indexed": "2014-03-11T20:43:40",
           "module": "Text.Xournal.Builder",
           "name": "zFrom3DCoord",
           "normalized": "(Double,Double,Double)-\u003eBuilder",

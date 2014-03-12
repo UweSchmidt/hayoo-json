@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "leveldb-haskell"
+        "phrase": "leveldb-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simplesmtpclient"
+        "phrase": "simplesmtpclient",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:36 UTC 2014",
           "module": "Network.SMTP.Client.Simple",
           "name": "Simple",
           "package": "simplesmtpclient",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client Simple",
+          "indexed": "2014-03-11T20:03:36",
           "module": "Network.SMTP.Client.Simple",
           "name": "Simple",
           "package": "simplesmtpclient",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif True then display debug info\n\u003c/p\u003e\u003cp\u003eSMTP authorization method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:36 UTC 2014",
           "module": "Network.SMTP.Client.Simple",
           "name": "SMTPAuthMethod",
           "package": "simplesmtpclient",
@@ -49,6 +52,7 @@
         "index": {
           "description": "if True then display debug info SMTP authorization method",
           "hierarchy": "Network SMTP Client Simple",
+          "indexed": "2014-03-11T20:03:36",
           "module": "Network.SMTP.Client.Simple",
           "name": "SMTPAuthMethod",
           "package": "simplesmtpclient",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:36 UTC 2014",
           "module": "Network.SMTP.Client.Simple",
           "name": "LoginSMTPAuth",
           "package": "simplesmtpclient",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client Simple",
+          "indexed": "2014-03-11T20:03:36",
           "module": "Network.SMTP.Client.Simple",
           "name": "LoginSMTPAuth",
           "package": "simplesmtpclient",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:36 UTC 2014",
           "module": "Network.SMTP.Client.Simple",
           "name": "PlainSMTPAuth",
           "package": "simplesmtpclient",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client Simple",
+          "indexed": "2014-03-11T20:03:36",
           "module": "Network.SMTP.Client.Simple",
           "name": "PlainSMTPAuth",
           "package": "simplesmtpclient",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:36 UTC 2014",
           "module": "Network.SMTP.Client.Simple",
           "name": "sendStringAsEMail",
           "package": "simplesmtpclient",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client Simple",
+          "indexed": "2014-03-11T20:03:36",
           "module": "Network.SMTP.Client.Simple",
           "name": "sendStringAsEMail",
           "normalized": "String-\u003eString-\u003eSMTPAuthMethod-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003ePortNumber-\u003eString-\u003eString-\u003e[String]-\u003eIO Bool",

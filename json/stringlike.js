@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stringlike"
+        "phrase": "stringlike",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "Like",
           "package": "stringlike",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "Like",
           "package": "stringlike",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type class can be used to transform any string like from\n lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, there is no default implementation for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e consciously,\n beacause we don't want to incite \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e using.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "StringLike",
           "package": "stringlike",
@@ -49,6 +52,7 @@
         "index": {
           "description": "This type class can be used to transform any string like from lazy Text there is no default implementation for String consciously beacause we don want to incite String using",
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "StringLike",
           "package": "stringlike",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type class can be used to transform any type to \u003ccode\u003e\u003ca\u003eStringLike\u003c/a\u003e\u003c/code\u003e type.\n Minimal complete definition: \u003ccode\u003e\u003ca\u003etoText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "ToString",
           "package": "stringlike",
@@ -72,6 +77,7 @@
         "index": {
           "description": "This type class can be used to transform any type to StringLike type Minimal complete definition toText",
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "ToString",
           "package": "stringlike",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe computation \u003ccode\u003e\u003ca\u003eappendFile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efile str\u003c/code\u003e function appends the string \u003ccode\u003estr\u003c/code\u003e,\n to the file \u003ccode\u003efile\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003ewriteFile\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eappendFile\u003c/a\u003e\u003c/code\u003e write a literal string\n to a file.  To write a value of any printable type, as with \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e,\n use the \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e function to convert the value to a string first.\n\u003c/p\u003e\u003cpre\u003e main = appendFile \"squares\" (show [(x,x*x) | x \u003c- [0,0.1..2]])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "appendFile",
           "package": "stringlike",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The computation appendFile file str function appends the string str to the file file Note that writeFile and appendFile write literal string to file To write value of any printable type as with print use the show function to convert the value to string first main appendFile squares show",
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "appendFile",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform any \u003ccode\u003e\u003ca\u003eToString\u003c/a\u003e\u003c/code\u003e type to strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "bs",
           "package": "stringlike",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Transform any ToString type to strict ByteString",
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "bs",
           "normalized": "a-\u003eByteString",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "fromLazyText",
           "package": "stringlike",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "fromLazyText",
           "normalized": "Text-\u003ea",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform any \u003ccode\u003e\u003ca\u003eToString\u003c/a\u003e\u003c/code\u003e type to lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "lbs",
           "package": "stringlike",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Transform any ToString type to lazy ByteString",
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "lbs",
           "normalized": "a-\u003eByteString",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform any \u003ccode\u003e\u003ca\u003eToString\u003c/a\u003e\u003c/code\u003e type to lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "ltext",
           "package": "stringlike",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Transform any ToString type to lazy Text",
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "ltext",
           "normalized": "a-\u003eText",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e function reads a file and\n returns the contents of the file as a string.\n The file is read lazily, on demand, as with \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "readFile",
           "package": "stringlike",
@@ -219,6 +236,7 @@
         "index": {
           "description": "The readFile function reads file and returns the contents of the file as string The file is read lazily on demand as with getContents",
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO String",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform any \u003ccode\u003e\u003ca\u003eToString\u003c/a\u003e\u003c/code\u003e type to any \u003ccode\u003e\u003ca\u003eStringLike\u003c/a\u003e\u003c/code\u003e type, it can be inferred\n or should be explicitly defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "string",
           "package": "stringlike",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Transform any ToString type to any StringLike type it can be inferred or should be explicitly defined",
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "string",
           "normalized": "a-\u003eb",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform any \u003ccode\u003e\u003ca\u003eToString\u003c/a\u003e\u003c/code\u003e type to strict \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "text",
           "package": "stringlike",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Transform any ToString type to strict Text",
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "text",
           "normalized": "a-\u003eText",
@@ -284,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "toText",
           "package": "stringlike",
@@ -293,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "toText",
           "normalized": "a-\u003eText",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe computation \u003ccode\u003e\u003ca\u003ewriteFile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efile str\u003c/code\u003e function writes the string \u003ccode\u003estr\u003c/code\u003e,\n to the file \u003ccode\u003efile\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:52 UTC 2014",
           "module": "Data.String.Like",
           "name": "writeFile",
           "package": "stringlike",
@@ -318,6 +343,7 @@
         "index": {
           "description": "The computation writeFile file str function writes the string str to the file file",
           "hierarchy": "Data String Like",
+          "indexed": "2014-03-11T20:12:52",
           "module": "Data.String.Like",
           "name": "writeFile",
           "normalized": "FilePath-\u003eString-\u003eIO()",

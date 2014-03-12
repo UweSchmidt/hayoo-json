@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sexp"
+        "phrase": "sexp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eS-Expressions are represented by \u003ccode\u003e\u003ca\u003eSexp\u003c/a\u003e\u003c/code\u003e.  Conversion to and from arbitrary types is\n done through \u003ccode\u003e\u003ca\u003eSexpable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe encoding and decoding functions from \u003ccode\u003e\u003ca\u003eSexpable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etoSexp\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003efromSexp\u003c/a\u003e\u003c/code\u003e all have\n \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e default implementations.  So, if your data-type has a \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e instance\n (which you can automatically get with the \u003ccode\u003eDeriveGeneric\u003c/code\u003e GHC extension), it also has a\n \u003ccode\u003e\u003ca\u003eSexpable\u003c/a\u003e\u003c/code\u003e instance:\n\u003c/p\u003e\u003cpre\u003e\n {-\u003ca name=\" LANGUAGE DeriveGeneric \"/\u003e-}\n\ndata MyType = Foo { unFoo :: Int }\n             deriving ( Generic )\n\ninstance Sexpable MyType\n   -- the default implementation uses the \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e representation of \u003ccode\u003eMyType\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eIf you want a specific encoding for your type, just fill in the \u003ccode\u003e\u003ca\u003eSexpable\u003c/a\u003e\u003c/code\u003e instance\n methods:\n\u003c/p\u003e\u003cpre\u003e\n {-\u003ca name=\" LANGUAGE OverloadedStrings \"/\u003e-}\n\nimport Control.Applicative ( (\u003ca\u003e$\u003c/a\u003e) )\n\ndata MyType = Foo { unFoo :: Int }\n\ninstance Sexpable MyType where\n     toSexp (Foo x) = List [Atom \u003ca\u003ethis\u003c/a\u003e, Atom \u003ca\u003eis\u003c/a\u003e, toSexp x]\n\nfromSexp (List [Atom \u003ca\u003ethis\u003c/a\u003e, Atom \u003ca\u003eis\u003c/a\u003e, s]) = Foo \u003ca\u003e$\u003c/a\u003e fromSexp s\n     fromSexp _                                  = fail \u003ca\u003einvalid MyType sexp\u003c/a\u003e\n\u003c/pre\u003e\u003cp\u003eThank you, \u003ccode\u003eaeson\u003c/code\u003e, for the model code for this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Data.Sexp",
           "name": "Sexp",
           "package": "sexp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "S-Expressions are represented by Sexp Conversion to and from arbitrary types is done through Sexpable The encoding and decoding functions from Sexpable toSexp and fromSexp all have Generic default implementations So if your data-type has Generic instance which you can automatically get with the DeriveGeneric GHC extension it also has Sexpable instance data MyType Foo unFoo Int deriving Generic instance Sexpable MyType the default implementation uses the Generic representation of MyType If you want specific encoding for your type just fill in the Sexpable instance methods import Control.Applicative data MyType Foo unFoo Int instance Sexpable MyType where toSexp Foo List Atom this Atom is toSexp fromSexp List Atom this Atom is Foo fromSexp fromSexp fail invalid MyType sexp Thank you aeson for the model code for this module",
           "hierarchy": "Data Sexp",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Data.Sexp",
           "name": "Sexp",
           "package": "sexp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e-based S-Expression.  Conceptually, a \u003ccode\u003e\u003ca\u003eSexp\u003c/a\u003e\u003c/code\u003e is\n either an single atom represented by a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, or a list of\n \u003ccode\u003e\u003ca\u003eSexp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Data.Sexp",
           "name": "Sexp",
           "package": "sexp",
@@ -51,6 +54,7 @@
         "index": {
           "description": "ByteString based S-Expression Conceptually Sexp is either an single atom represented by ByteString or list of Sexp",
           "hierarchy": "Data Sexp",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Data.Sexp",
           "name": "Sexp",
           "package": "sexp",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Data.Sexp",
           "name": "Sexpable",
           "package": "sexp",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Sexp",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Data.Sexp",
           "name": "Sexpable",
           "package": "sexp",
@@ -133,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Data.Sexp",
           "name": "escape",
           "package": "sexp",
@@ -142,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Sexp",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Data.Sexp",
           "name": "escape",
           "normalized": "ByteString-\u003eByteString",
@@ -156,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Data.Sexp",
           "name": "fromSexp",
           "package": "sexp",
@@ -165,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Sexp",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Data.Sexp",
           "name": "fromSexp",
           "normalized": "Sexp-\u003ea b",
@@ -180,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Data.Sexp",
           "name": "toSexp",
           "package": "sexp",
@@ -189,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Sexp",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Data.Sexp",
           "name": "toSexp",
           "normalized": "a-\u003eSexp",
@@ -205,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse of \u003ccode\u003e\u003ca\u003eescape\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Data.Sexp",
           "name": "unescape",
           "package": "sexp",
@@ -215,6 +228,7 @@
         "index": {
           "description": "The inverse of escape",
           "hierarchy": "Data Sexp",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Data.Sexp",
           "name": "unescape",
           "normalized": "ByteString-\u003eByteString",
@@ -229,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp.Parser",
           "name": "Parser",
           "package": "sexp",
@@ -237,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Language Sexp Parser",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp.Parser",
           "name": "Parser",
           "package": "sexp",
@@ -250,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp.Parser",
           "name": "ParseException",
           "package": "sexp",
@@ -258,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Language Sexp Parser",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp.Parser",
           "name": "ParseException",
           "package": "sexp",
@@ -272,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e-based S-Expression.  Conceptually, a \u003ccode\u003e\u003ca\u003eSexp\u003c/a\u003e\u003c/code\u003e is\n either an single atom represented by a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, or a list of\n \u003ccode\u003e\u003ca\u003eSexp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp.Parser",
           "name": "Sexp",
           "package": "sexp",
@@ -281,6 +300,7 @@
         "index": {
           "description": "ByteString based S-Expression Conceptually Sexp is either an single atom represented by ByteString or list of Sexp",
           "hierarchy": "Language Sexp Parser",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp.Parser",
           "name": "Sexp",
           "package": "sexp",
@@ -294,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp.Parser",
           "name": "ParseException",
           "package": "sexp",
@@ -303,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Language Sexp Parser",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp.Parser",
           "name": "ParseException",
           "package": "sexp",
@@ -317,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse S-Expressions from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  If the parse was\n successful, \u003ccode\u003eRight sexps\u003c/code\u003e is returned; otherwise, \u003ccode\u003eLeft (errorMsg,\n leftover)\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp.Parser",
           "name": "parse",
           "package": "sexp",
@@ -327,6 +350,7 @@
         "index": {
           "description": "Parse S-Expressions from lazy ByteString If the parse was successful Right sexps is returned otherwise Left errorMsg leftover is returned",
           "hierarchy": "Language Sexp Parser",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp.Parser",
           "name": "parse",
           "normalized": "ByteString-\u003eEither(String,ByteString)[Sexp]",
@@ -342,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e that throws a \u003ccode\u003e\u003ca\u003eParseException\u003c/a\u003e\u003c/code\u003e if the parse\n fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp.Parser",
           "name": "parseExn",
           "package": "sexp",
@@ -352,6 +377,7 @@
         "index": {
           "description": "variant of parse that throws ParseException if the parse fails",
           "hierarchy": "Language Sexp Parser",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp.Parser",
           "name": "parseExn",
           "normalized": "ByteString-\u003e[Sexp]",
@@ -368,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e that returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the parse fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp.Parser",
           "name": "parseMaybe",
           "package": "sexp",
@@ -378,6 +405,7 @@
         "index": {
           "description": "variant of parse that returns Nothing if the parse fails",
           "hierarchy": "Language Sexp Parser",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp.Parser",
           "name": "parseMaybe",
           "normalized": "ByteString-\u003eMaybe[Sexp]",
@@ -394,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser for S-Expressions.  Ignoring whitespace, we follow the\n following EBNF:\n\u003c/p\u003e\u003cp\u003eSEXP           ::= '(' ATOM* ')' | ATOM\n ATOM           ::= '\u003ca\u003e' ESCAPED_STRING* '\u003c/a\u003e' | [^ tn()]+\n ESCAPED_STRING ::= ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp.Parser",
           "name": "sexpParser",
           "package": "sexp",
@@ -404,6 +433,7 @@
         "index": {
           "description": "parser for S-Expressions Ignoring whitespace we follow the following EBNF SEXP ATOM ATOM ATOM ESCAPED STRING tn ESCAPED STRING",
           "hierarchy": "Language Sexp Parser",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp.Parser",
           "name": "sexpParser",
           "package": "sexp",
@@ -417,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp.Printer",
           "name": "Printer",
           "package": "sexp",
@@ -425,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Language Sexp Printer",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp.Printer",
           "name": "Printer",
           "package": "sexp",
@@ -439,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a \u003ccode\u003e\u003ca\u003eSexp\u003c/a\u003e\u003c/code\u003e in a human-friendly way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp.Printer",
           "name": "printHum",
           "package": "sexp",
@@ -449,6 +482,7 @@
         "index": {
           "description": "Pretty print Sexp in human-friendly way",
           "hierarchy": "Language Sexp Printer",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp.Printer",
           "name": "printHum",
           "normalized": "Sexp-\u003eByteString",
@@ -465,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a \u003ccode\u003e\u003ca\u003eSexp\u003c/a\u003e\u003c/code\u003e with minimal formatting.  Suitable for\n machine processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp.Printer",
           "name": "printMach",
           "package": "sexp",
@@ -475,6 +510,7 @@
         "index": {
           "description": "Pretty print Sexp with minimal formatting Suitable for machine processing",
           "hierarchy": "Language Sexp Printer",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp.Printer",
           "name": "printMach",
           "normalized": "Sexp-\u003eByteString",
@@ -490,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:27 UTC 2014",
           "module": "Language.Sexp",
           "name": "Sexp",
           "package": "sexp",
@@ -498,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Language Sexp",
+          "indexed": "2014-03-11T20:00:27",
           "module": "Language.Sexp",
           "name": "Sexp",
           "package": "sexp",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mime-mail-ses"
+        "phrase": "mime-mail-ses",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:53 UTC 2014",
           "module": "Network.Mail.Mime.SES",
           "name": "SES",
           "package": "mime-mail-ses",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime SES",
+          "indexed": "2014-03-11T19:17:53",
           "module": "Network.Mail.Mime.SES",
           "name": "SES",
           "package": "mime-mail-ses",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:53 UTC 2014",
           "module": "Network.Mail.Mime.SES",
           "name": "SES",
           "package": "mime-mail-ses",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime SES",
+          "indexed": "2014-03-11T19:17:53",
           "module": "Network.Mail.Mime.SES",
           "name": "SES",
           "package": "mime-mail-ses",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:53 UTC 2014",
           "module": "Network.Mail.Mime.SES",
           "name": "SES",
           "package": "mime-mail-ses",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime SES",
+          "indexed": "2014-03-11T19:17:53",
           "module": "Network.Mail.Mime.SES",
           "name": "SES",
           "package": "mime-mail-ses",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:53 UTC 2014",
           "module": "Network.Mail.Mime.SES",
           "name": "renderSendMailSES",
           "package": "mime-mail-ses",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime SES",
+          "indexed": "2014-03-11T19:17:53",
           "module": "Network.Mail.Mime.SES",
           "name": "renderSendMailSES",
           "normalized": "Manager-\u003eSES-\u003eMail-\u003ea()",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:53 UTC 2014",
           "module": "Network.Mail.Mime.SES",
           "name": "sendMailSES",
           "package": "mime-mail-ses",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime SES",
+          "indexed": "2014-03-11T19:17:53",
           "module": "Network.Mail.Mime.SES",
           "name": "sendMailSES",
           "normalized": "Manager-\u003eSES-\u003eByteString-\u003ea()",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:53 UTC 2014",
           "module": "Network.Mail.Mime.SES",
           "name": "sesAccessKey",
           "package": "mime-mail-ses",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime SES",
+          "indexed": "2014-03-11T19:17:53",
           "module": "Network.Mail.Mime.SES",
           "name": "sesAccessKey",
           "package": "mime-mail-ses",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:53 UTC 2014",
           "module": "Network.Mail.Mime.SES",
           "name": "sesFrom",
           "package": "mime-mail-ses",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime SES",
+          "indexed": "2014-03-11T19:17:53",
           "module": "Network.Mail.Mime.SES",
           "name": "sesFrom",
           "package": "mime-mail-ses",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:53 UTC 2014",
           "module": "Network.Mail.Mime.SES",
           "name": "sesSecretKey",
           "package": "mime-mail-ses",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime SES",
+          "indexed": "2014-03-11T19:17:53",
           "module": "Network.Mail.Mime.SES",
           "name": "sesSecretKey",
           "package": "mime-mail-ses",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:53 UTC 2014",
           "module": "Network.Mail.Mime.SES",
           "name": "sesTo",
           "package": "mime-mail-ses",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Mime SES",
+          "indexed": "2014-03-11T19:17:53",
           "module": "Network.Mail.Mime.SES",
           "name": "sesTo",
           "normalized": "[ByteString]",

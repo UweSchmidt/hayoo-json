@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "WashNGo"
+        "phrase": "WashNGo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "AbstractSelector",
           "package": "WashNGo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "AbstractSelector",
           "package": "WashNGo",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eabstract row\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "AR",
           "package": "WashNGo",
@@ -49,6 +52,7 @@
         "index": {
           "description": "abstract row",
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "AR",
           "package": "WashNGo",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eabstract table (twodimensional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "AT",
           "package": "WashNGo",
@@ -72,6 +77,7 @@
         "index": {
           "description": "abstract table twodimensional",
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "AT",
           "package": "WashNGo",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea selection group is a virtual field that never appears on the screen, but\n gives rise to a hidden input field!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "SelectionGroup",
           "package": "WashNGo",
@@ -95,6 +102,7 @@
         "index": {
           "description": "selection group is virtual field that never appears on the screen but gives rise to hidden input field",
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "SelectionGroup",
           "package": "WashNGo",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "AR",
           "package": "WashNGo",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "AR",
           "normalized": "AR[String]",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "AT",
           "package": "WashNGo",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "AT",
           "package": "WashNGo",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "SelectionGroup",
           "package": "WashNGo",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "SelectionGroup",
           "package": "WashNGo",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "as_cols",
           "package": "WashNGo",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "as_cols",
           "package": "WashNGo",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "as_raw",
           "package": "WashNGo",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "as_raw",
           "normalized": "[[String]]",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "as_rows",
           "package": "WashNGo",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "as_rows",
           "package": "WashNGo",
@@ -322,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "getAR",
           "package": "WashNGo",
@@ -331,6 +352,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "getAR",
           "normalized": "AT-\u003eInt-\u003eAR",
@@ -373,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "selectionBound",
           "package": "WashNGo",
@@ -382,6 +405,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "selectionBound",
           "package": "WashNGo",
@@ -474,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "selectionName",
           "package": "WashNGo",
@@ -483,6 +508,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "selectionName",
           "package": "WashNGo",
@@ -496,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "selectionString",
           "package": "WashNGo",
@@ -505,6 +532,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "selectionString",
           "package": "WashNGo",
@@ -518,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "selectionToken",
           "package": "WashNGo",
@@ -527,6 +556,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "selectionToken",
           "package": "WashNGo",
@@ -540,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.AbstractSelector",
           "name": "selectionValue",
           "package": "WashNGo",
@@ -549,6 +580,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI AbstractSelector",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.AbstractSelector",
           "name": "selectionValue",
           "package": "WashNGo",
@@ -613,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "BaseCombinators",
           "package": "WashNGo",
@@ -621,6 +654,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "BaseCombinators",
           "package": "WashNGo",
@@ -661,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExperimental implementation of continuous version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "askContinuously",
           "package": "WashNGo",
@@ -671,6 +706,7 @@
         "index": {
           "description": "Experimental implementation of continuous version",
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "askContinuously",
           "normalized": "WithHTML a b c-\u003eb()",
@@ -714,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of \u003ccode\u003e\u003ca\u003eask\u003c/a\u003e\u003c/code\u003e for the pure logged variant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "askResumptive",
           "package": "WashNGo",
@@ -724,6 +761,7 @@
         "index": {
           "description": "Implementation of ask for the pure logged variant",
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "askResumptive",
           "normalized": "WithHTML a b c-\u003eb()",
@@ -821,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a \u003ccode\u003e\u003ca\u003eCGI\u003c/a\u003e\u003c/code\u003e state transformer forever. Its specification is just\n\u003c/p\u003e\u003cpre\u003e feedback f x = f x \u003e\u003e= feedback f\n\u003c/pre\u003e\u003cp\u003eHowever, \u003ccode\u003e\u003ca\u003efeedback\u003c/a\u003e\u003c/code\u003e is more efficient because it avoids the \n buildup of long interaction logs by cutting back every time just before \u003ccode\u003ef\u003c/code\u003e \n is invoked. Unfortunately, it's useless due to typing restrictions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "feedback",
           "package": "WashNGo",
@@ -831,6 +870,7 @@
         "index": {
           "description": "Runs CGI state transformer forever Its specification is just feedback feedback However feedback is more efficient because it avoids the buildup of long interaction logs by cutting back every time just before is invoked Unfortunately it useless due to typing restrictions",
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "feedback",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",
@@ -871,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "frameTranslator",
           "package": "WashNGo",
@@ -880,6 +921,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "frameTranslator",
           "normalized": "([String]-\u003ea())-\u003e[String]-\u003ea()",
@@ -1081,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe variant of \u003ccode\u003e\u003ca\u003eonce\u003c/a\u003e\u003c/code\u003e:  returns the computed value only the first time\n and returns a default value in all later invocations.\n [deprecated]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "onceAndThen",
           "package": "WashNGo",
@@ -1091,6 +1134,7 @@
         "index": {
           "description": "Unsafe variant of once returns the computed value only the first time and returns default value in all later invocations deprecated",
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "onceAndThen",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -1106,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "rawTellContinuously",
           "package": "WashNGo",
@@ -1115,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "rawTellContinuously",
           "normalized": "a-\u003eCGIAction()",
@@ -1130,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "reportError",
           "package": "WashNGo",
@@ -1139,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "reportError",
           "normalized": "String-\u003eWithHTML a IO()-\u003eCGIState-\u003eIO(b,CGIState)",
@@ -1235,6 +1283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal: name for the submission variable and form field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "subVar",
           "package": "WashNGo",
@@ -1245,6 +1294,7 @@
         "index": {
           "description": "Internal name for the submission variable and form field",
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "subVar",
           "package": "WashNGo",
@@ -1285,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(experimental: continuous version) send argument to the browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "tellContinuously",
           "package": "WashNGo",
@@ -1295,6 +1346,7 @@
         "index": {
           "description": "experimental continuous version send argument to the browser",
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "tellContinuously",
           "normalized": "a-\u003eb()",
@@ -1310,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "tellError",
           "package": "WashNGo",
@@ -1319,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "tellError",
           "normalized": "String-\u003eElement-\u003eCGIAction a",
@@ -1335,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectly lifts the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad into the \u003ccode\u003e\u003ca\u003eCGI\u003c/a\u003e\u003c/code\u003e monad. This is generally unsafe\n and should be avoided. Use \u003ccode\u003e\u003ca\u003eio\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.BaseCombinators",
           "name": "unsafe_io",
           "package": "WashNGo",
@@ -1345,6 +1400,7 @@
         "index": {
           "description": "Directly lifts the IO monad into the CGI monad This is generally unsafe and should be avoided Use io instead",
           "hierarchy": "WASH CGI BaseCombinators",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.BaseCombinators",
           "name": "unsafe_io",
           "normalized": "IO a-\u003eCGI a",
@@ -1360,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOne stop shop for the WASH/CGI library. All high-level scripts should \n  get along with importing just this module. Low-level scripts may have to \n  import \u003ca\u003eRawCGI\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "CGI",
           "package": "WashNGo",
@@ -1369,6 +1426,7 @@
         "index": {
           "description": "One stop shop for the WASH CGI library All high-level scripts should get along with importing just this module Low-level scripts may have to import RawCGI",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "CGI",
           "package": "WashNGo",
@@ -1383,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-empty strings of digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "AllDigits",
           "package": "WashNGo",
@@ -1392,6 +1451,7 @@
         "index": {
           "description": "Non-empty strings of digits",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "AllDigits",
           "package": "WashNGo",
@@ -1405,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "CGI",
           "package": "WashNGo",
@@ -1413,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "CGI",
           "package": "WashNGo",
@@ -1426,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "CGIMonad",
           "package": "WashNGo",
@@ -1434,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "CGIMonad",
           "package": "WashNGo",
@@ -1447,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "CGIOption",
           "package": "WashNGo",
@@ -1455,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "CGIOption",
           "package": "WashNGo",
@@ -1468,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "CGIOptions",
           "package": "WashNGo",
@@ -1476,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "CGIOptions",
           "package": "WashNGo",
@@ -1489,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "CGIOutput",
           "package": "WashNGo",
@@ -1497,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "CGIOutput",
           "package": "WashNGo",
@@ -1511,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads credit card expiration dates in format \u003ca name=\"\"/\u003e/\u003ca name=\"\"/\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "CreditCardExp",
           "package": "WashNGo",
@@ -1520,6 +1591,7 @@
         "index": {
           "description": "Reads credit card expiration dates in format",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "CreditCardExp",
           "package": "WashNGo",
@@ -1534,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a credit card number and performs Luhn check on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "CreditCardNumber",
           "package": "WashNGo",
@@ -1543,6 +1616,7 @@
         "index": {
           "description": "Reads credit card number and performs Luhn check on it",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "CreditCardNumber",
           "package": "WashNGo",
@@ -1557,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type of decisions trees. These trees provide structured validation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "DTree",
           "package": "WashNGo",
@@ -1566,6 +1641,7 @@
         "index": {
           "description": "Abstract type of decisions trees These trees provide structured validation",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "DTree",
           "package": "WashNGo",
@@ -1580,6 +1656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an email address according to RFC 2822\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "EmailAddress",
           "package": "WashNGo",
@@ -1589,6 +1666,7 @@
         "index": {
           "description": "Reads an email address according to RFC",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "EmailAddress",
           "package": "WashNGo",
@@ -1602,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "F0",
           "package": "WashNGo",
@@ -1610,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "F0",
           "package": "WashNGo",
@@ -1622,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "F1",
           "package": "WashNGo",
@@ -1630,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "F1",
           "package": "WashNGo",
@@ -1642,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "F2",
           "package": "WashNGo",
@@ -1650,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "F2",
           "package": "WashNGo",
@@ -1662,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "F3",
           "package": "WashNGo",
@@ -1670,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "F3",
           "package": "WashNGo",
@@ -1682,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "F4",
           "package": "WashNGo",
@@ -1690,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "F4",
           "package": "WashNGo",
@@ -1702,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "F5",
           "package": "WashNGo",
@@ -1710,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "F5",
           "package": "WashNGo",
@@ -1722,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "F6",
           "package": "WashNGo",
@@ -1730,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "F6",
           "package": "WashNGo",
@@ -1742,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "F7",
           "package": "WashNGo",
@@ -1750,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "F7",
           "package": "WashNGo",
@@ -1762,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "F8",
           "package": "WashNGo",
@@ -1770,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "F8",
           "package": "WashNGo",
@@ -1783,6 +1879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFA\u003c/a\u003e\u003c/code\u003e comes handy when you want to tag an input handle with some extra\n information, which is not itsefl an input handle and which is not validated\n by a form submission. The tag is the first argument and the handle is the\n second argument of the data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "FA",
           "package": "WashNGo",
@@ -1792,6 +1889,7 @@
         "index": {
           "description": "FA comes handy when you want to tag an input handle with some extra information which is not itsefl an input handle and which is not validated by form submission The tag is the first argument and the handle is the second argument of the data constructor",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "FA",
           "package": "WashNGo",
@@ -1806,6 +1904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFL\u003c/a\u003e\u003c/code\u003e is required to pass an unknown number of handles of the same\n type need to the callback function in a form submission. The\n handles need to be collected in a list and then wrapped in the \u003ccode\u003e\u003ca\u003eFL\u003c/a\u003e\u003c/code\u003e data constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "FL",
           "package": "WashNGo",
@@ -1815,6 +1914,7 @@
         "index": {
           "description": "FL is required to pass an unknown number of handles of the same type need to the callback function in form submission The handles need to be collected in list and then wrapped in the FL data constructor",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "FL",
           "package": "WashNGo",
@@ -1828,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "FileReference",
           "package": "WashNGo",
@@ -1836,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "FileReference",
           "package": "WashNGo",
@@ -1850,6 +1952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverall layout of a frame set: row-wise or column-wise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "FrameLayout",
           "package": "WashNGo",
@@ -1859,6 +1962,7 @@
         "index": {
           "description": "Overall layout of frame set row-wise or column-wise",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "FrameLayout",
           "package": "WashNGo",
@@ -1873,6 +1977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type of frame set generators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "FrameSet",
           "package": "WashNGo",
@@ -1882,6 +1987,7 @@
         "index": {
           "description": "Abstract data type of frame set generators",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "FrameSet",
           "package": "WashNGo",
@@ -1896,6 +2002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision of space between elements of a frameset. See\n \u003ca\u003ehttp://wp.netscape.com/assist/net_sites/frame_syntax.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "FrameSpacing",
           "package": "WashNGo",
@@ -1905,6 +2012,7 @@
         "index": {
           "description": "Division of space between elements of frameset See http wp.netscape.com assist net sites frame syntax.html",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "FrameSpacing",
           "package": "WashNGo",
@@ -1918,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "FreeForm",
           "package": "WashNGo",
@@ -1926,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "FreeForm",
           "package": "WashNGo",
@@ -1940,6 +2050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery input widget maps the content generator for the widget (which may\n produce HTML elements or attributes) to the content generator of the widget. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "HTMLField",
           "package": "WashNGo",
@@ -1949,6 +2060,7 @@
         "index": {
           "description": "Every input widget maps the content generator for the widget which may produce HTML elements or attributes to the content generator of the widget",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "HTMLField",
           "package": "WashNGo",
@@ -1962,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "HasValue",
           "package": "WashNGo",
@@ -1970,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "HasValue",
           "package": "WashNGo",
@@ -1983,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "INVALID",
           "package": "WashNGo",
@@ -1991,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "INVALID",
           "package": "WashNGo",
@@ -2004,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "Image",
           "package": "WashNGo",
@@ -2012,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "Image",
           "package": "WashNGo",
@@ -2025,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "InputField",
           "package": "WashNGo",
@@ -2033,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "InputField",
           "package": "WashNGo",
@@ -2046,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "InputHandle",
           "package": "WashNGo",
@@ -2054,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "InputHandle",
           "package": "WashNGo",
@@ -2067,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "Location",
           "package": "WashNGo",
@@ -2075,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "Location",
           "package": "WashNGo",
@@ -2089,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-empty strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "NonEmpty",
           "package": "WashNGo",
@@ -2098,6 +2223,7 @@
         "index": {
           "description": "Non-empty strings",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "NonEmpty",
           "package": "WashNGo",
@@ -2112,6 +2238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for transforming a field into an optional one. The \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e syntax of\n \u003ccode\u003eAbsent\u003c/code\u003e is the empty string, whereas the \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e syntax of \u003ccode\u003ePresent a\u003c/code\u003e is just the\n \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e syntax of \u003ccode\u003ea\u003c/code\u003e. Analogously for \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "Optional",
           "package": "WashNGo",
@@ -2121,6 +2248,7 @@
         "index": {
           "description": "Data type for transforming field into an optional one The Read syntax of Absent is the empty string whereas the Read syntax of Present is just the Read syntax of Analogously for Show",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "Optional",
           "package": "WashNGo",
@@ -2135,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Password is a string of length \u003e= 8 with characters taken from at least\n three of the four sets: lower case characters, upper case characters, digits,\n and special characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "Password",
           "package": "WashNGo",
@@ -2144,6 +2273,7 @@
         "index": {
           "description": "Password is string of length with characters taken from at least three of the four sets lower case characters upper case characters digits and special characters",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "Password",
           "package": "WashNGo",
@@ -2158,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhone numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "Phone",
           "package": "WashNGo",
@@ -2167,6 +2298,7 @@
         "index": {
           "description": "Phone numbers",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "Phone",
           "package": "WashNGo",
@@ -2180,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "RadioGroup",
           "package": "WashNGo",
@@ -2188,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "RadioGroup",
           "package": "WashNGo",
@@ -2201,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "Status",
           "package": "WashNGo",
@@ -2209,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "Status",
           "package": "WashNGo",
@@ -2223,6 +2359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary string data. No quotes required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "Text",
           "package": "WashNGo",
@@ -2232,6 +2369,7 @@
         "index": {
           "description": "Arbitrary string data No quotes required",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "Text",
           "package": "WashNGo",
@@ -2245,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "URL",
           "package": "WashNGo",
@@ -2253,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "URL",
           "package": "WashNGo",
@@ -2266,6 +2406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "VALID",
           "package": "WashNGo",
@@ -2274,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "VALID",
           "package": "WashNGo",
@@ -3251,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "as_cols",
           "package": "WashNGo",
@@ -3260,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "as_cols",
           "normalized": "AT-\u003eInt",
@@ -3274,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "as_rows",
           "package": "WashNGo",
@@ -3283,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "as_rows",
           "normalized": "AT-\u003eInt",
@@ -5064,6 +5210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract a value from various kinds of input handles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGI",
           "name": "value",
           "package": "WashNGo",
@@ -5074,6 +5221,7 @@
         "index": {
           "description": "extract value from various kinds of input handles",
           "hierarchy": "WASH CGI CGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGI",
           "name": "value",
           "normalized": "a b VALID-\u003eb",
@@ -5088,6 +5236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "CGIConfig",
           "package": "WashNGo",
@@ -5096,6 +5245,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "CGIConfig",
           "package": "WashNGo",
@@ -5109,6 +5259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "catProgram",
           "package": "WashNGo",
@@ -5118,6 +5269,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "catProgram",
           "package": "WashNGo",
@@ -5131,6 +5283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "emailTmpDir",
           "package": "WashNGo",
@@ -5140,6 +5293,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "emailTmpDir",
           "package": "WashNGo",
@@ -5153,6 +5307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "frameDir",
           "package": "WashNGo",
@@ -5162,6 +5317,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "frameDir",
           "package": "WashNGo",
@@ -5176,6 +5332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eglobal root for WASH data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "globalRoot",
           "package": "WashNGo",
@@ -5186,6 +5343,7 @@
         "index": {
           "description": "global root for WASH data",
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "globalRoot",
           "package": "WashNGo",
@@ -5199,6 +5357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "imageDir",
           "package": "WashNGo",
@@ -5208,6 +5367,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "imageDir",
           "package": "WashNGo",
@@ -5221,6 +5381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "keyFile",
           "package": "WashNGo",
@@ -5230,6 +5391,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "keyFile",
           "package": "WashNGo",
@@ -5243,6 +5405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "pbmPath",
           "package": "WashNGo",
@@ -5252,6 +5415,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "pbmPath",
           "package": "WashNGo",
@@ -5265,6 +5429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "persistent2Dir",
           "package": "WashNGo",
@@ -5274,6 +5439,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "persistent2Dir",
           "package": "WashNGo",
@@ -5287,6 +5453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "persistentDir",
           "package": "WashNGo",
@@ -5296,6 +5463,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "persistentDir",
           "package": "WashNGo",
@@ -5309,6 +5477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "registryDir",
           "package": "WashNGo",
@@ -5318,6 +5487,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "registryDir",
           "package": "WashNGo",
@@ -5331,6 +5501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "sendmailProgram",
           "package": "WashNGo",
@@ -5340,6 +5511,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "sendmailProgram",
           "package": "WashNGo",
@@ -5353,6 +5525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "tmpDir",
           "package": "WashNGo",
@@ -5362,6 +5535,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "tmpDir",
           "package": "WashNGo",
@@ -5375,6 +5549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIConfig",
           "name": "varDir",
           "package": "WashNGo",
@@ -5384,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIConfig",
           "name": "varDir",
           "package": "WashNGo",
@@ -5397,6 +5573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "CGIGraphics",
           "package": "WashNGo",
@@ -5405,6 +5582,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "CGIGraphics",
           "package": "WashNGo",
@@ -5418,6 +5596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "ActionFun",
           "package": "WashNGo",
@@ -5426,6 +5605,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "ActionFun",
           "package": "WashNGo",
@@ -5439,6 +5619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "CGIImage",
           "package": "WashNGo",
@@ -5447,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "CGIImage",
           "package": "WashNGo",
@@ -5460,6 +5642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "Pixel",
           "package": "WashNGo",
@@ -5468,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "Pixel",
           "package": "WashNGo",
@@ -5481,6 +5665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "activateColor",
           "package": "WashNGo",
@@ -5490,6 +5675,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "activateColor",
           "normalized": "CGIImage-\u003ePixel-\u003eCGI()-\u003eCGIImage",
@@ -5505,6 +5691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "activateImage",
           "package": "WashNGo",
@@ -5514,6 +5701,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "activateImage",
           "normalized": "CGIImage-\u003eCGI()-\u003eCGIImage",
@@ -5529,6 +5717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "activateXY",
           "package": "WashNGo",
@@ -5538,6 +5727,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "activateXY",
           "normalized": "CGIImage-\u003eActionFun-\u003eCGIImage",
@@ -5553,6 +5743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "activeImage",
           "package": "WashNGo",
@@ -5562,6 +5753,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "activeImage",
           "normalized": "CGIImage-\u003eWithHTML a CGI()",
@@ -5577,6 +5769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "bmpImage",
           "package": "WashNGo",
@@ -5586,6 +5779,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "bmpImage",
           "normalized": "String-\u003eCGIImage",
@@ -5601,6 +5795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "drawLine",
           "package": "WashNGo",
@@ -5610,6 +5805,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "drawLine",
           "normalized": "CGIImage-\u003e(Int,Int)-\u003e(Int,Int)-\u003ePixel-\u003eCGIImage",
@@ -5625,6 +5821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "drawOval",
           "package": "WashNGo",
@@ -5634,6 +5831,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "drawOval",
           "normalized": "CGIImage-\u003e(Int,Int)-\u003e(Int,Int)-\u003ePixel-\u003eCGIImage",
@@ -5649,6 +5847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "drawPoint",
           "package": "WashNGo",
@@ -5658,6 +5857,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "drawPoint",
           "normalized": "CGIImage-\u003e(Int,Int)-\u003ePixel-\u003eCGIImage",
@@ -5673,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "drawRectangle",
           "package": "WashNGo",
@@ -5682,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "drawRectangle",
           "normalized": "CGIImage-\u003e(Int,Int)-\u003e(Int,Int)-\u003ePixel-\u003eCGIImage",
@@ -5697,6 +5899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "fillOval",
           "package": "WashNGo",
@@ -5706,6 +5909,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "fillOval",
           "normalized": "CGIImage-\u003e(Int,Int)-\u003e(Int,Int)-\u003ePixel-\u003eCGIImage",
@@ -5721,6 +5925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "fillRectangle",
           "package": "WashNGo",
@@ -5730,6 +5935,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "fillRectangle",
           "normalized": "CGIImage-\u003e(Int,Int)-\u003e(Int,Int)-\u003ePixel-\u003eCGIImage",
@@ -5745,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "gifImage",
           "package": "WashNGo",
@@ -5754,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "gifImage",
           "normalized": "String-\u003eCGIImage",
@@ -5769,6 +5977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "makeText",
           "package": "WashNGo",
@@ -5778,6 +5987,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "makeText",
           "normalized": "String-\u003ePixel-\u003eCGIImage",
@@ -5793,6 +6003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "newImage",
           "package": "WashNGo",
@@ -5802,6 +6013,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "newImage",
           "normalized": "(Int,Int)-\u003ePixel-\u003eCGIImage",
@@ -5817,6 +6029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "overlay",
           "package": "WashNGo",
@@ -5826,6 +6039,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "overlay",
           "normalized": "CGIImage-\u003eCGIImage-\u003e(Int,Int)-\u003ePixel-\u003eCGIImage",
@@ -5840,6 +6054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "storeDirectory",
           "package": "WashNGo",
@@ -5849,6 +6064,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "storeDirectory",
           "package": "WashNGo",
@@ -5862,6 +6078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "xpmImage",
           "package": "WashNGo",
@@ -5871,6 +6088,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "xpmImage",
           "normalized": "String-\u003eCGIImage",
@@ -5886,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIGraphics",
           "name": "xwdImage",
           "package": "WashNGo",
@@ -5895,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIGraphics",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIGraphics",
           "name": "xwdImage",
           "normalized": "String-\u003eCGIImage",
@@ -5910,6 +6130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "CGIHistory",
           "package": "WashNGo",
@@ -5918,6 +6139,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "CGIHistory",
           "package": "WashNGo",
@@ -5932,6 +6154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomprises the name of the application and a hash value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "StateID",
           "package": "WashNGo",
@@ -5941,6 +6164,7 @@
         "index": {
           "description": "comprises the name of the application and hash value",
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "StateID",
           "package": "WashNGo",
@@ -5954,6 +6178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "TableEntry",
           "package": "WashNGo",
@@ -5962,6 +6187,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "TableEntry",
           "package": "WashNGo",
@@ -5975,6 +6201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "TableEntry",
           "package": "WashNGo",
@@ -5984,6 +6211,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "TableEntry",
           "package": "WashNGo",
@@ -5998,6 +6226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the id of the current node, the id of the father node (if any), the\n current parameter, and (perhaps) a timeout value for the current interaction\n and enters a corresponding record into the history table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "createEntry",
           "package": "WashNGo",
@@ -6008,6 +6237,7 @@
         "index": {
           "description": "Takes the id of the current node the id of the father node if any the current parameter and perhaps timeout value for the current interaction and enters corresponding record into the history table",
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "createEntry",
           "normalized": "StateID-\u003eMaybe StateID-\u003ePARAMETER-\u003eMaybe Int-\u003eIO()",
@@ -6023,6 +6253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "history",
           "package": "WashNGo",
@@ -6032,6 +6263,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "history",
           "package": "WashNGo",
@@ -6045,6 +6277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estandard value for timeout of interaction threads: one hundred seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "historyTimeout",
           "package": "WashNGo",
@@ -6055,6 +6288,7 @@
         "index": {
           "description": "standard value for timeout of interaction threads one hundred seconds",
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "historyTimeout",
           "package": "WashNGo",
@@ -6069,6 +6303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escript name and hash key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "myID",
           "package": "WashNGo",
@@ -6079,6 +6314,7 @@
         "index": {
           "description": "script name and hash key",
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "myID",
           "package": "WashNGo",
@@ -6092,6 +6328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "nextparm",
           "package": "WashNGo",
@@ -6101,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "nextparm",
           "package": "WashNGo",
@@ -6114,6 +6352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to pass parameters and a handle to a thread waiting for the given\n stateID. Returns True if successful and False if no such thread was found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "notify",
           "package": "WashNGo",
@@ -6124,6 +6363,7 @@
         "index": {
           "description": "Attempts to pass parameters and handle to thread waiting for the given stateID Returns True if successful and False if no such thread was found",
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "notify",
           "normalized": "StateID-\u003eCGIParameters-\u003eHandle-\u003eIO Bool",
@@ -6139,6 +6379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eroot has no parent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "parentID",
           "package": "WashNGo",
@@ -6149,6 +6390,7 @@
         "index": {
           "description": "root has no parent",
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "parentID",
           "package": "WashNGo",
@@ -6163,6 +6405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuspends the current thread by waiting on an entry with the current node's\n id. Returns the parameters passed to this node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "readParameters",
           "package": "WashNGo",
@@ -6173,6 +6416,7 @@
         "index": {
           "description": "Suspends the current thread by waiting on an entry with the current node id Returns the parameters passed to this node",
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "readParameters",
           "normalized": "StateID-\u003eIO(CGIParameters,Handle)",
@@ -6189,6 +6433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enext round of parameters and output handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "threads",
           "package": "WashNGo",
@@ -6199,6 +6444,7 @@
         "index": {
           "description": "next round of parameters and output handle",
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "threads",
           "normalized": "MVar[MVar(CGIParameters,Handle)]",
@@ -6214,6 +6460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etimeout for this stage of interaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIHistory",
           "name": "timeout",
           "package": "WashNGo",
@@ -6224,6 +6471,7 @@
         "index": {
           "description": "timeout for this stage of interaction",
           "hierarchy": "WASH CGI CGIHistory",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIHistory",
           "name": "timeout",
           "package": "WashNGo",
@@ -6236,6 +6484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "CGIInternals",
           "package": "WashNGo",
@@ -6244,6 +6493,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "CGIInternals",
           "package": "WashNGo",
@@ -6258,6 +6508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery input widget maps the content generator for the widget (which may\n produce HTML elements or attributes) to the content generator of the widget. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "HTMLField",
           "package": "WashNGo",
@@ -6267,6 +6518,7 @@
         "index": {
           "description": "Every input widget maps the content generator for the widget which may produce HTML elements or attributes to the content generator of the widget",
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "HTMLField",
           "package": "WashNGo",
@@ -6280,6 +6532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "INVALID",
           "package": "WashNGo",
@@ -6288,6 +6541,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "INVALID",
           "package": "WashNGo",
@@ -6301,6 +6555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "Image",
           "package": "WashNGo",
@@ -6309,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "Image",
           "package": "WashNGo",
@@ -6322,6 +6578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "InputField",
           "package": "WashNGo",
@@ -6330,6 +6587,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "InputField",
           "package": "WashNGo",
@@ -6343,6 +6601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "InputType",
           "package": "WashNGo",
@@ -6351,6 +6610,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "InputType",
           "package": "WashNGo",
@@ -6364,6 +6624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "RadioGroup",
           "package": "WashNGo",
@@ -6372,6 +6633,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "RadioGroup",
           "package": "WashNGo",
@@ -6385,6 +6647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "VALID",
           "package": "WashNGo",
@@ -6393,6 +6656,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "VALID",
           "package": "WashNGo",
@@ -6406,6 +6670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "ValidationError",
           "package": "WashNGo",
@@ -6414,6 +6679,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "ValidationError",
           "package": "WashNGo",
@@ -6427,6 +6693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "BUTTON",
           "package": "WashNGo",
@@ -6436,6 +6703,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "BUTTON",
           "package": "WashNGo",
@@ -6449,6 +6717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "CHECKBOX",
           "package": "WashNGo",
@@ -6458,6 +6727,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "CHECKBOX",
           "package": "WashNGo",
@@ -6471,6 +6741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "FILE",
           "package": "WashNGo",
@@ -6480,6 +6751,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "FILE",
           "package": "WashNGo",
@@ -6493,6 +6765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "HIDDEN",
           "package": "WashNGo",
@@ -6502,6 +6775,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "HIDDEN",
           "package": "WashNGo",
@@ -6515,6 +6789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "IMAGE",
           "package": "WashNGo",
@@ -6524,6 +6799,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "IMAGE",
           "package": "WashNGo",
@@ -6537,6 +6813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "INVALID",
           "package": "WashNGo",
@@ -6546,6 +6823,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "INVALID",
           "package": "WashNGo",
@@ -6559,6 +6837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "Image",
           "package": "WashNGo",
@@ -6568,6 +6847,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "Image",
           "package": "WashNGo",
@@ -6581,6 +6861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "InputField",
           "package": "WashNGo",
@@ -6590,6 +6871,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "InputField",
           "package": "WashNGo",
@@ -6603,6 +6885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "PASSWORD",
           "package": "WashNGo",
@@ -6612,6 +6895,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "PASSWORD",
           "package": "WashNGo",
@@ -6625,6 +6909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "RADIO",
           "package": "WashNGo",
@@ -6634,6 +6919,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "RADIO",
           "package": "WashNGo",
@@ -6647,6 +6933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "RESET",
           "package": "WashNGo",
@@ -6656,6 +6943,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "RESET",
           "package": "WashNGo",
@@ -6669,6 +6957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "RadioGroup",
           "package": "WashNGo",
@@ -6678,6 +6967,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "RadioGroup",
           "package": "WashNGo",
@@ -6691,6 +6981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "SUBMIT",
           "package": "WashNGo",
@@ -6700,6 +6991,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "SUBMIT",
           "package": "WashNGo",
@@ -6713,6 +7005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "TEXT",
           "package": "WashNGo",
@@ -6722,6 +7015,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "TEXT",
           "package": "WashNGo",
@@ -6735,6 +7029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "VALID",
           "package": "WashNGo",
@@ -6744,6 +7039,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "VALID",
           "package": "WashNGo",
@@ -6757,6 +7053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "ValidationError",
           "package": "WashNGo",
@@ -6766,6 +7063,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "ValidationError",
           "package": "WashNGo",
@@ -6780,6 +7078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach a CGI action to the value returned by the input field. Activation\n means that data is submitted as soon as it is entered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "activateI",
           "package": "WashNGo",
@@ -6790,6 +7089,7 @@
         "index": {
           "description": "Attach CGI action to the value returned by the input field Activation means that data is submitted as soon as it is entered",
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "activateI",
           "normalized": "(a-\u003eb())-\u003eHTMLField b c d(InputField a INVALID)-\u003eHTMLField b c d()",
@@ -6805,6 +7105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to internal image via data URL (small images, only).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "dataImage",
           "package": "WashNGo",
@@ -6814,6 +7115,7 @@
         "index": {
           "description": "Reference to internal image via data URL small images only",
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "dataImage",
           "normalized": "FreeForm-\u003eString-\u003eWithHTML a b Image",
@@ -6829,6 +7131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "defaultSubmitField",
           "package": "WashNGo",
@@ -6838,6 +7141,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "defaultSubmitField",
           "normalized": "a()-\u003eHTMLField a b c()",
@@ -6854,6 +7158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the values of separately parsed fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "feither",
           "package": "WashNGo",
@@ -6864,6 +7169,7 @@
         "index": {
           "description": "Combine the values of separately parsed fields",
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "feither",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eEither a c-\u003eEither b d",
@@ -6878,6 +7184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "genericField",
           "package": "WashNGo",
@@ -6887,6 +7194,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "genericField",
           "normalized": "InputType-\u003e(Maybe String-\u003eMaybe a)-\u003eHTMLField b c d(InputField a INVALID)",
@@ -6902,6 +7210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "getPathInfo",
           "package": "WashNGo",
@@ -6911,6 +7220,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "getPathInfo",
           "package": "WashNGo",
@@ -6924,6 +7234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifBound",
           "package": "WashNGo",
@@ -6933,6 +7244,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifBound",
           "package": "WashNGo",
@@ -6946,6 +7258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifFty",
           "package": "WashNGo",
@@ -6955,6 +7268,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifFty",
           "package": "WashNGo",
@@ -6968,6 +7282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifName",
           "package": "WashNGo",
@@ -6977,6 +7292,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifName",
           "package": "WashNGo",
@@ -6990,6 +7306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifRaw",
           "package": "WashNGo",
@@ -6999,6 +7316,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifRaw",
           "package": "WashNGo",
@@ -7012,6 +7330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifString",
           "package": "WashNGo",
@@ -7021,6 +7340,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifString",
           "package": "WashNGo",
@@ -7034,6 +7354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifToken",
           "package": "WashNGo",
@@ -7043,6 +7364,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifToken",
           "package": "WashNGo",
@@ -7056,6 +7378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifValue",
           "package": "WashNGo",
@@ -7065,6 +7388,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "ifValue",
           "package": "WashNGo",
@@ -7078,6 +7402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "imageALT",
           "package": "WashNGo",
@@ -7087,6 +7412,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "imageALT",
           "package": "WashNGo",
@@ -7100,6 +7426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "imageSRC",
           "package": "WashNGo",
@@ -7109,6 +7436,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "imageSRC",
           "package": "WashNGo",
@@ -7123,6 +7451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerates a hyperlink that submits the current form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "internalSubmitLink",
           "package": "WashNGo",
@@ -7133,6 +7462,7 @@
         "index": {
           "description": "generates hyperlink that submits the current form",
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "internalSubmitLink",
           "normalized": "Bool-\u003eEither[ValidationError](a())-\u003eHTMLCons b c a()",
@@ -7149,6 +7479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to internal image via javascript URL (does not seem to work).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "jsImage",
           "package": "WashNGo",
@@ -7158,6 +7489,7 @@
         "index": {
           "description": "Reference to internal image via javascript URL does not seem to work",
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "jsImage",
           "normalized": "FreeForm-\u003eString-\u003eWithHTML a b Image",
@@ -7173,6 +7505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "maybeRead",
           "package": "WashNGo",
@@ -7182,6 +7515,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "maybeRead",
           "normalized": "String-\u003eMaybe a",
@@ -7197,6 +7531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "propagate",
           "package": "WashNGo",
@@ -7206,6 +7541,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "propagate",
           "normalized": "Either[a]b-\u003eEither[a]c-\u003eEither[a](b,c)",
@@ -7220,6 +7556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "radioBound",
           "package": "WashNGo",
@@ -7229,6 +7566,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "radioBound",
           "package": "WashNGo",
@@ -7242,6 +7580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "radioName",
           "package": "WashNGo",
@@ -7251,6 +7590,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "radioName",
           "package": "WashNGo",
@@ -7264,6 +7604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "radioString",
           "package": "WashNGo",
@@ -7273,6 +7614,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "radioString",
           "package": "WashNGo",
@@ -7286,6 +7628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "radioToken",
           "package": "WashNGo",
@@ -7295,6 +7638,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "radioToken",
           "package": "WashNGo",
@@ -7308,6 +7652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "radioValue",
           "package": "WashNGo",
@@ -7317,6 +7662,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "radioValue",
           "package": "WashNGo",
@@ -7331,6 +7677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a submit button. Unsafe. Internal use only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "submitField",
           "package": "WashNGo",
@@ -7341,6 +7688,7 @@
         "index": {
           "description": "Creates submit button Unsafe Internal use only",
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "submitField",
           "normalized": "a()-\u003eHTMLField a b c()",
@@ -7356,6 +7704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "textual",
           "package": "WashNGo",
@@ -7365,6 +7714,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "textual",
           "normalized": "InputType-\u003eBool",
@@ -7379,6 +7729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "veName",
           "package": "WashNGo",
@@ -7388,6 +7739,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "veName",
           "package": "WashNGo",
@@ -7401,6 +7753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "veString",
           "package": "WashNGo",
@@ -7410,6 +7763,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "veString",
           "package": "WashNGo",
@@ -7423,6 +7777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIInternals",
           "name": "veToken",
           "package": "WashNGo",
@@ -7432,6 +7787,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIInternals",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIInternals",
           "name": "veToken",
           "package": "WashNGo",
@@ -7446,6 +7802,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinition of the monad underlying the CGI library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIMonad",
           "package": "WashNGo",
@@ -7455,6 +7812,7 @@
         "index": {
           "description": "Definition of the monad underlying the CGI library",
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIMonad",
           "package": "WashNGo",
@@ -7468,6 +7826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGI",
           "package": "WashNGo",
@@ -7476,6 +7835,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGI",
           "package": "WashNGo",
@@ -7489,6 +7849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIAction",
           "package": "WashNGo",
@@ -7497,6 +7858,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIAction",
           "package": "WashNGo",
@@ -7510,6 +7872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIFieldName",
           "package": "WashNGo",
@@ -7518,6 +7881,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIFieldName",
           "package": "WashNGo",
@@ -7531,6 +7895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIMonad",
           "package": "WashNGo",
@@ -7539,6 +7904,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIMonad",
           "package": "WashNGo",
@@ -7552,6 +7918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIState",
           "package": "WashNGo",
@@ -7560,6 +7927,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIState",
           "package": "WashNGo",
@@ -7573,6 +7941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "PageInfo",
           "package": "WashNGo",
@@ -7581,6 +7950,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "PageInfo",
           "package": "WashNGo",
@@ -7594,6 +7964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGI",
           "package": "WashNGo",
@@ -7603,6 +7974,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGI",
           "package": "WashNGo",
@@ -7616,6 +7988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIFieldName",
           "package": "WashNGo",
@@ -7625,6 +7998,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIFieldName",
           "package": "WashNGo",
@@ -7638,6 +8012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIState",
           "package": "WashNGo",
@@ -7647,6 +8022,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "CGIState",
           "package": "WashNGo",
@@ -7660,6 +8036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "PageInfo",
           "package": "WashNGo",
@@ -7669,6 +8046,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "PageInfo",
           "package": "WashNGo",
@@ -7682,6 +8060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "actionTable",
           "package": "WashNGo",
@@ -7691,6 +8070,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "actionTable",
           "normalized": "[(String,Element-\u003eCGIAction())]",
@@ -7706,6 +8086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "addField",
           "package": "WashNGo",
@@ -7715,6 +8096,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "addField",
           "normalized": "String-\u003eBool-\u003ea()",
@@ -7730,6 +8112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "allFields",
           "package": "WashNGo",
@@ -7739,6 +8122,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "allFields",
           "normalized": "[(String,Bool)]",
@@ -7754,6 +8138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "bindings",
           "package": "WashNGo",
@@ -7763,6 +8148,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "bindings",
           "package": "WashNGo",
@@ -7775,6 +8161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "cgiInfo",
           "package": "WashNGo",
@@ -7784,6 +8171,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "cgiInfo",
           "package": "WashNGo",
@@ -7797,6 +8185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "chooser",
           "package": "WashNGo",
@@ -7806,6 +8195,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "chooser",
           "normalized": "a-\u003ea-\u003eb a",
@@ -7820,6 +8210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "cookieMap",
           "package": "WashNGo",
@@ -7829,6 +8220,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "cookieMap",
           "normalized": "[(String,(Maybe String,Maybe String))]",
@@ -7844,6 +8236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "cookiesToSend",
           "package": "WashNGo",
@@ -7853,6 +8246,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "cookiesToSend",
           "normalized": "[String]",
@@ -7868,6 +8262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "count",
           "package": "WashNGo",
@@ -7877,6 +8272,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "count",
           "package": "WashNGo",
@@ -7889,6 +8285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "encoder",
           "package": "WashNGo",
@@ -7898,6 +8295,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "encoder",
           "normalized": "String-\u003eString",
@@ -7912,6 +8310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "enctype",
           "package": "WashNGo",
@@ -7921,6 +8320,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "enctype",
           "package": "WashNGo",
@@ -7933,6 +8333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "faultyfields",
           "package": "WashNGo",
@@ -7942,6 +8343,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "faultyfields",
           "normalized": "[(String,String)]",
@@ -7956,6 +8358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "fnCount",
           "package": "WashNGo",
@@ -7965,6 +8368,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "fnCount",
           "package": "WashNGo",
@@ -7978,6 +8382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "fnMcount",
           "package": "WashNGo",
@@ -7987,6 +8392,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "fnMcount",
           "package": "WashNGo",
@@ -8000,6 +8406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "inFrame",
           "package": "WashNGo",
@@ -8009,6 +8416,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "inFrame",
           "package": "WashNGo",
@@ -8022,6 +8430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "incFrame",
           "package": "WashNGo",
@@ -8031,6 +8440,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "incFrame",
           "package": "WashNGo",
@@ -8044,6 +8454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "inparm",
           "package": "WashNGo",
@@ -8053,6 +8464,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "inparm",
           "normalized": "[PARAMETER]",
@@ -8067,6 +8479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "jsEnabled",
           "package": "WashNGo",
@@ -8076,6 +8489,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "jsEnabled",
           "package": "WashNGo",
@@ -8090,6 +8504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elift IO monad to CGI monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "lift",
           "package": "WashNGo",
@@ -8100,6 +8515,7 @@
         "index": {
           "description": "lift IO monad to CGI monad",
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "lift",
           "normalized": "IO a-\u003eCGI a",
@@ -8114,6 +8530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "mcount",
           "package": "WashNGo",
@@ -8123,6 +8540,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "mcount",
           "package": "WashNGo",
@@ -8135,6 +8553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "nextName",
           "package": "WashNGo",
@@ -8144,6 +8563,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "nextName",
           "package": "WashNGo",
@@ -8157,6 +8577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "nextaction",
           "package": "WashNGo",
@@ -8166,6 +8587,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "nextaction",
           "normalized": "Element-\u003eCGIAction()",
@@ -8180,6 +8602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "outparm",
           "package": "WashNGo",
@@ -8189,6 +8612,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "outparm",
           "normalized": "[PARAMETER]",
@@ -8203,6 +8627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "pageInfo",
           "package": "WashNGo",
@@ -8212,6 +8637,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "pageInfo",
           "package": "WashNGo",
@@ -8225,6 +8651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "registerAction",
           "package": "WashNGo",
@@ -8234,6 +8661,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "registerAction",
           "normalized": "String-\u003e(Element-\u003ea())-\u003ea()",
@@ -8249,6 +8677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "resetFrame",
           "package": "WashNGo",
@@ -8258,6 +8687,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "resetFrame",
           "normalized": "a()",
@@ -8273,6 +8703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "setAction",
           "package": "WashNGo",
@@ -8282,6 +8713,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "setAction",
           "normalized": "(Element-\u003ea())-\u003ea()",
@@ -8297,6 +8729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "setEnctype",
           "package": "WashNGo",
@@ -8306,6 +8739,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "setEnctype",
           "normalized": "String-\u003ea()",
@@ -8321,6 +8755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "setFaulty",
           "package": "WashNGo",
@@ -8330,6 +8765,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "setFaulty",
           "normalized": "[(String,String)]-\u003ea()",
@@ -8345,6 +8781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "stateID",
           "package": "WashNGo",
@@ -8354,6 +8791,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "stateID",
           "package": "WashNGo",
@@ -8367,6 +8805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "unCGI",
           "package": "WashNGo",
@@ -8376,6 +8815,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "unCGI",
           "package": "WashNGo",
@@ -8389,6 +8829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "unwrapCGI",
           "package": "WashNGo",
@@ -8398,6 +8839,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "unwrapCGI",
           "normalized": "a b-\u003eCGIAction b",
@@ -8413,6 +8855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "wrapCGI",
           "package": "WashNGo",
@@ -8422,6 +8865,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "wrapCGI",
           "normalized": "CGIAction a-\u003eb a",
@@ -8438,6 +8882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrapper to transform IO computation to CGIAction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIMonad",
           "name": "wrapIO",
           "package": "WashNGo",
@@ -8448,6 +8893,7 @@
         "index": {
           "description": "wrapper to transform IO computation to CGIAction",
           "hierarchy": "WASH CGI CGIMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIMonad",
           "name": "wrapIO",
           "normalized": "IO a-\u003eCGIAction a",
@@ -8464,6 +8910,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the class \u003ccode\u003e\u003ca\u003eCGIOutput\u003c/a\u003e\u003c/code\u003e of data types that can be output from a CGI\n program. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIOutput",
           "name": "CGIOutput",
           "package": "WashNGo",
@@ -8473,6 +8920,7 @@
         "index": {
           "description": "Defines the class CGIOutput of data types that can be output from CGI program",
           "hierarchy": "WASH CGI CGIOutput",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIOutput",
           "name": "CGIOutput",
           "package": "WashNGo",
@@ -8486,6 +8934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIOutput",
           "name": "CGIOutput",
           "package": "WashNGo",
@@ -8494,6 +8943,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIOutput",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIOutput",
           "name": "CGIOutput",
           "package": "WashNGo",
@@ -8507,6 +8957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIOutput",
           "name": "cgiPut",
           "package": "WashNGo",
@@ -8516,6 +8967,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIOutput",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIOutput",
           "name": "cgiPut",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -8531,6 +8983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIOutput",
           "name": "cgiPut'",
           "package": "WashNGo",
@@ -8540,6 +8993,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIOutput",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIOutput",
           "name": "cgiPut'",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -8555,6 +9009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIOutput",
           "name": "cgiPutList",
           "package": "WashNGo",
@@ -8564,6 +9019,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIOutput",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIOutput",
           "name": "cgiPutList",
           "normalized": "Handle-\u003e[a]-\u003eIO()",
@@ -8580,6 +9036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(internal) takes an output handle and a document without forms and input\n widgets, displays the document with suitable mime type and encoding, and\n terminates the program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIOutput",
           "name": "itell",
           "package": "WashNGo",
@@ -8590,6 +9047,7 @@
         "index": {
           "description": "internal takes an output handle and document without forms and input widgets displays the document with suitable mime type and encoding and terminates the program",
           "hierarchy": "WASH CGI CGIOutput",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIOutput",
           "name": "itell",
           "normalized": "Handle-\u003eWithHTML a IO()-\u003eIO b",
@@ -8605,6 +9063,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes of outputable data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "CGITypes",
           "package": "WashNGo",
@@ -8614,6 +9073,7 @@
         "index": {
           "description": "Types of outputable data",
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "CGITypes",
           "package": "WashNGo",
@@ -8627,6 +9087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "CGIOption",
           "package": "WashNGo",
@@ -8635,6 +9096,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "CGIOption",
           "package": "WashNGo",
@@ -8648,6 +9110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "CGIOptions",
           "package": "WashNGo",
@@ -8656,6 +9119,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "CGIOptions",
           "package": "WashNGo",
@@ -8669,6 +9133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "FileReference",
           "package": "WashNGo",
@@ -8677,6 +9142,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "FileReference",
           "package": "WashNGo",
@@ -8690,6 +9156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "FreeForm",
           "package": "WashNGo",
@@ -8698,6 +9165,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "FreeForm",
           "package": "WashNGo",
@@ -8711,6 +9179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "Location",
           "package": "WashNGo",
@@ -8719,6 +9188,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "Location",
           "package": "WashNGo",
@@ -8733,6 +9203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssumes that file contains correctly formatted HTTP Response starting with\n Content-Type. Used internally to implement frames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "ResponseFileReference",
           "package": "WashNGo",
@@ -8742,6 +9213,7 @@
         "index": {
           "description": "Assumes that file contains correctly formatted HTTP Response starting with Content-Type Used internally to implement frames",
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "ResponseFileReference",
           "package": "WashNGo",
@@ -8755,6 +9227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "SessionMode",
           "package": "WashNGo",
@@ -8763,6 +9236,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "SessionMode",
           "package": "WashNGo",
@@ -8776,6 +9250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "Status",
           "package": "WashNGo",
@@ -8784,6 +9259,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "Status",
           "package": "WashNGo",
@@ -8797,6 +9273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "URL",
           "package": "WashNGo",
@@ -8805,6 +9282,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "URL",
           "package": "WashNGo",
@@ -8819,6 +9297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elog and state id, server threads with replay as fallback (only with WSP)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "LogAndState",
           "package": "WashNGo",
@@ -8829,6 +9308,7 @@
         "index": {
           "description": "log and state id server threads with replay as fallback only with WSP",
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "LogAndState",
           "package": "WashNGo",
@@ -8843,6 +9323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate log in hidden field, full server replay (default)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "LogOnly",
           "package": "WashNGo",
@@ -8853,6 +9334,7 @@
         "index": {
           "description": "generate log in hidden field full server replay default",
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "LogOnly",
           "package": "WashNGo",
@@ -8866,6 +9348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "ResponseFileReference",
           "package": "WashNGo",
@@ -8875,6 +9358,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "ResponseFileReference",
           "package": "WashNGo",
@@ -8889,6 +9373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate state id, server threads without replay (only with WSP)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "StateIDOnly",
           "package": "WashNGo",
@@ -8899,6 +9384,7 @@
         "index": {
           "description": "generate state id server threads without replay only with WSP",
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "StateIDOnly",
           "package": "WashNGo",
@@ -8912,6 +9398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "sessionNeedsLog",
           "package": "WashNGo",
@@ -8921,6 +9408,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "sessionNeedsLog",
           "normalized": "SessionMode-\u003eBool",
@@ -8936,6 +9424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGITypes",
           "name": "sessionNeedsState",
           "package": "WashNGo",
@@ -8945,6 +9434,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGITypes",
           "name": "sessionNeedsState",
           "normalized": "SessionMode-\u003eBool",
@@ -8961,6 +9451,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOne stop shop for the WASH/CGI library. All high-level scripts should \n  get along with importing just this module. Low-level scripts may have to \n  import \u003ca\u003eRawCGI\u003c/a\u003e. This version requires features beyond Haskell98, in particular \n  multi parameter type classes and existential types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "CGIXX",
           "package": "WashNGo",
@@ -8970,6 +9461,7 @@
         "index": {
           "description": "One stop shop for the WASH CGI library All high-level scripts should get along with importing just this module Low-level scripts may have to import RawCGI This version requires features beyond Haskell98 in particular multi parameter type classes and existential types",
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "CGIXX",
           "package": "WashNGo",
@@ -8984,6 +9476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-empty strings of digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "AllDigits",
           "package": "WashNGo",
@@ -8993,6 +9486,7 @@
         "index": {
           "description": "Non-empty strings of digits",
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "AllDigits",
           "package": "WashNGo",
@@ -9006,6 +9500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "CGI",
           "package": "WashNGo",
@@ -9014,6 +9509,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "CGI",
           "package": "WashNGo",
@@ -9027,6 +9523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "CGIOption",
           "package": "WashNGo",
@@ -9035,6 +9532,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "CGIOption",
           "package": "WashNGo",
@@ -9048,6 +9546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "CGIOptions",
           "package": "WashNGo",
@@ -9056,6 +9555,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "CGIOptions",
           "package": "WashNGo",
@@ -9069,6 +9569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "CGIOutput",
           "package": "WashNGo",
@@ -9077,6 +9578,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "CGIOutput",
           "package": "WashNGo",
@@ -9091,6 +9593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads credit card expiration dates in format \u003ca name=\"\"/\u003e/\u003ca name=\"\"/\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "CreditCardExp",
           "package": "WashNGo",
@@ -9100,6 +9603,7 @@
         "index": {
           "description": "Reads credit card expiration dates in format",
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "CreditCardExp",
           "package": "WashNGo",
@@ -9114,6 +9618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a credit card number and performs Luhn check on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "CreditCardNumber",
           "package": "WashNGo",
@@ -9123,6 +9628,7 @@
         "index": {
           "description": "Reads credit card number and performs Luhn check on it",
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "CreditCardNumber",
           "package": "WashNGo",
@@ -9136,6 +9642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "DTree",
           "package": "WashNGo",
@@ -9144,6 +9651,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "DTree",
           "package": "WashNGo",
@@ -9158,6 +9666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an email address according to RFC 2822\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "EmailAddress",
           "package": "WashNGo",
@@ -9167,6 +9676,7 @@
         "index": {
           "description": "Reads an email address according to RFC",
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "EmailAddress",
           "package": "WashNGo",
@@ -9180,6 +9690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "FileReference",
           "package": "WashNGo",
@@ -9188,6 +9699,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "FileReference",
           "package": "WashNGo",
@@ -9202,6 +9714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverall layout of a frame set: row-wise or column-wise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "FrameLayout",
           "package": "WashNGo",
@@ -9211,6 +9724,7 @@
         "index": {
           "description": "Overall layout of frame set row-wise or column-wise",
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "FrameLayout",
           "package": "WashNGo",
@@ -9225,6 +9739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type of frame set generators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "FrameSet",
           "package": "WashNGo",
@@ -9234,6 +9749,7 @@
         "index": {
           "description": "Abstract data type of frame set generators",
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "FrameSet",
           "package": "WashNGo",
@@ -9248,6 +9764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision of space between elements of a frameset. See\n \u003ca\u003ehttp://wp.netscape.com/assist/net_sites/frame_syntax.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "FrameSpacing",
           "package": "WashNGo",
@@ -9257,6 +9774,7 @@
         "index": {
           "description": "Division of space between elements of frameset See http wp.netscape.com assist net sites frame syntax.html",
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "FrameSpacing",
           "package": "WashNGo",
@@ -9270,6 +9788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "FreeForm",
           "package": "WashNGo",
@@ -9278,6 +9797,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "FreeForm",
           "package": "WashNGo",
@@ -9292,6 +9812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery input widget maps the content generator for the widget (which may\n produce HTML elements or attributes) to the content generator of the widget. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "HTMLField",
           "package": "WashNGo",
@@ -9301,6 +9822,7 @@
         "index": {
           "description": "Every input widget maps the content generator for the widget which may produce HTML elements or attributes to the content generator of the widget",
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "HTMLField",
           "package": "WashNGo",
@@ -9314,6 +9836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "INVALID",
           "package": "WashNGo",
@@ -9322,6 +9845,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "INVALID",
           "package": "WashNGo",
@@ -9335,6 +9859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "Image",
           "package": "WashNGo",
@@ -9343,6 +9868,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "Image",
           "package": "WashNGo",
@@ -9356,6 +9882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "InputField",
           "package": "WashNGo",
@@ -9364,6 +9891,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "InputField",
           "package": "WashNGo",
@@ -9377,6 +9905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "Location",
           "package": "WashNGo",
@@ -9385,6 +9914,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "Location",
           "package": "WashNGo",
@@ -9399,6 +9929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-empty strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "NonEmpty",
           "package": "WashNGo",
@@ -9408,6 +9939,7 @@
         "index": {
           "description": "Non-empty strings",
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "NonEmpty",
           "package": "WashNGo",
@@ -9421,6 +9953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "RadioGroup",
           "package": "WashNGo",
@@ -9429,6 +9962,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "RadioGroup",
           "package": "WashNGo",
@@ -9442,6 +9976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "Status",
           "package": "WashNGo",
@@ -9450,6 +9985,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "Status",
           "package": "WashNGo",
@@ -9464,6 +10000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary string data. No quotes required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "Text",
           "package": "WashNGo",
@@ -9473,6 +10010,7 @@
         "index": {
           "description": "Arbitrary string data No quotes required",
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "Text",
           "package": "WashNGo",
@@ -9486,6 +10024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CGIXX",
           "name": "VALID",
           "package": "WashNGo",
@@ -9494,6 +10033,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CGIXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CGIXX",
           "name": "VALID",
           "package": "WashNGo",
@@ -9684,6 +10224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.ContentType",
           "name": "ContentType",
           "package": "WashNGo",
@@ -9692,6 +10233,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI ContentType",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.ContentType",
           "name": "ContentType",
           "package": "WashNGo",
@@ -9706,6 +10248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etries to derive a MIME content type from a file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.ContentType",
           "name": "guessContentType",
           "package": "WashNGo",
@@ -9716,6 +10259,7 @@
         "index": {
           "description": "tries to derive MIME content type from file name",
           "hierarchy": "WASH CGI ContentType",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.ContentType",
           "name": "guessContentType",
           "normalized": "String-\u003eString",
@@ -9732,6 +10276,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ecreating, setting, reading, and deleting cookies. Cookies are type-indexed,\n i.e., there is a different cookie for each name and type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Cookie",
           "name": "Cookie",
           "package": "WashNGo",
@@ -9741,6 +10286,7 @@
         "index": {
           "description": "creating setting reading and deleting cookies Cookies are type-indexed i.e there is different cookie for each name and type",
           "hierarchy": "WASH CGI Cookie",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Cookie",
           "name": "Cookie",
           "package": "WashNGo",
@@ -9755,6 +10301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of handles to a PE of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Cookie",
           "name": "T",
           "package": "WashNGo",
@@ -9764,6 +10311,7 @@
         "index": {
           "description": "type of handles to PE of type",
           "hierarchy": "WASH CGI Cookie",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Cookie",
           "name": "T",
           "package": "WashNGo",
@@ -9777,6 +10325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echeck name\u003c/code\u003e returns the current handle to cookie \u003ccode\u003ename\u003c/code\u003e if that exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Cookie",
           "name": "check",
           "package": "WashNGo",
@@ -9787,6 +10336,7 @@
         "index": {
           "description": "check name returns the current handle to cookie name if that exists",
           "hierarchy": "WASH CGI Cookie",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Cookie",
           "name": "check",
           "normalized": "String-\u003eCGI(Maybe(T a))",
@@ -9802,6 +10352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecreate name initValue\u003c/code\u003e creates cookie \u003ccode\u003ename\u003c/code\u003e with initial value \u003ccode\u003einitValue\u003c/code\u003e\n and returns its current handle. The cookie\n expires at the end of the current run of the browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Cookie",
           "name": "create",
           "package": "WashNGo",
@@ -9812,6 +10363,7 @@
         "index": {
           "description": "create name initValue creates cookie name with initial value initValue and returns its current handle The cookie expires at the end of the current run of the browser",
           "hierarchy": "WASH CGI Cookie",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Cookie",
           "name": "create",
           "normalized": "String-\u003ea-\u003eCGI(T a)",
@@ -9827,6 +10379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike \u003ccode\u003e\u003ca\u003ecreate\u003c/a\u003e\u003c/code\u003e with additional parameter specifying number of minutes until\n cookie expires.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Cookie",
           "name": "createExpiring",
           "package": "WashNGo",
@@ -9837,6 +10390,7 @@
         "index": {
           "description": "like create with additional parameter specifying number of minutes until cookie expires",
           "hierarchy": "WASH CGI Cookie",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Cookie",
           "name": "createExpiring",
           "normalized": "String-\u003eInt-\u003ea-\u003eCGI(T a)",
@@ -9853,6 +10407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecurrent handle\u003c/code\u003e returns \u003ccode\u003eNothing\u003c/code\u003e if \u003ccode\u003ehandle\u003c/code\u003e is still current. Otherwise, it\n returns \u003ccode\u003eJust newHandle\u003c/code\u003e where \u003ccode\u003enewHandle\u003c/code\u003e is current for the cookie pointed to by\n \u003ccode\u003ehandle\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Cookie",
           "name": "current",
           "package": "WashNGo",
@@ -9863,6 +10418,7 @@
         "index": {
           "description": "current handle returns Nothing if handle is still current Otherwise it returns Just newHandle where newHandle is current for the cookie pointed to by handle",
           "hierarchy": "WASH CGI Cookie",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Cookie",
           "name": "current",
           "normalized": "T a-\u003eCGI(Maybe(T a))",
@@ -9878,6 +10434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edelete handle\u003c/code\u003e removes the cookie determined by \u003ccode\u003ehandle\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Cookie",
           "name": "delete",
           "package": "WashNGo",
@@ -9888,6 +10445,7 @@
         "index": {
           "description": "delete handle removes the cookie determined by handle",
           "hierarchy": "WASH CGI Cookie",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Cookie",
           "name": "delete",
           "normalized": "T a-\u003eCGI()",
@@ -9903,6 +10461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eget handle\u003c/code\u003e returns the cookie's value if the handle is current, otherwise\n returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Cookie",
           "name": "get",
           "package": "WashNGo",
@@ -9913,6 +10472,7 @@
         "index": {
           "description": "get handle returns the cookie value if the handle is current otherwise returns Nothing",
           "hierarchy": "WASH CGI Cookie",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Cookie",
           "name": "get",
           "normalized": "T a-\u003eCGI(Maybe a)",
@@ -9928,6 +10488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einit name initValue\u003c/code\u003e returns current handle to cookie \u003ccode\u003ename\u003c/code\u003e. If the\n cookie did not exist before, it is created and set to \u003ccode\u003einitialValue\u003c/code\u003e. The cookie\n expires at the end of the current run of the browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Cookie",
           "name": "init",
           "package": "WashNGo",
@@ -9938,6 +10499,7 @@
         "index": {
           "description": "init name initValue returns current handle to cookie name If the cookie did not exist before it is created and set to initialValue The cookie expires at the end of the current run of the browser",
           "hierarchy": "WASH CGI Cookie",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Cookie",
           "name": "init",
           "normalized": "String-\u003ea-\u003eCGI(T a)",
@@ -9953,6 +10515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einitExpiring name minutes initValue\u003c/code\u003e works like \u003ccode\u003e\u003ca\u003einit\u003c/a\u003e\u003c/code\u003e except that the\n expiration time is \u003ccode\u003eminutes\u003c/code\u003e in the future.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Cookie",
           "name": "initExpiring",
           "package": "WashNGo",
@@ -9963,6 +10526,7 @@
         "index": {
           "description": "initExpiring name minutes initValue works like init except that the expiration time is minutes in the future",
           "hierarchy": "WASH CGI Cookie",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Cookie",
           "name": "initExpiring",
           "normalized": "String-\u003eInt-\u003ea-\u003eCGI(T a)",
@@ -9979,6 +10543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eset handle newValue\u003c/code\u003e overwrites the cookie's value with \u003ccode\u003enewValue\u003c/code\u003e if the\n handle is current. In that case it returns a handle which is current for\n \u003ccode\u003enewValue\u003c/code\u003e. Otherwise, the result is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Cookie",
           "name": "set",
           "package": "WashNGo",
@@ -9989,6 +10554,7 @@
         "index": {
           "description": "set handle newValue overwrites the cookie value with newValue if the handle is current In that case it returns handle which is current for newValue Otherwise the result is Nothing",
           "hierarchy": "WASH CGI Cookie",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Cookie",
           "name": "set",
           "normalized": "T a-\u003ea-\u003eCGI(Maybe(T a))",
@@ -10003,6 +10569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CookieIO",
           "name": "CookieIO",
           "package": "WashNGo",
@@ -10011,6 +10578,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CookieIO",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CookieIO",
           "name": "CookieIO",
           "package": "WashNGo",
@@ -10024,6 +10592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CookieIO",
           "name": "decodeCookie",
           "package": "WashNGo",
@@ -10033,6 +10602,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CookieIO",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CookieIO",
           "name": "decodeCookie",
           "normalized": "(String,String)-\u003e(String,(Maybe String,Maybe String))",
@@ -10048,6 +10618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CookieIO",
           "name": "encodeCookie",
           "package": "WashNGo",
@@ -10057,6 +10628,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CookieIO",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CookieIO",
           "name": "encodeCookie",
           "normalized": "(String,(Maybe String,Maybe String))-\u003e(String,String)",
@@ -10072,6 +10644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.CookieIO",
           "name": "putCookies",
           "package": "WashNGo",
@@ -10081,6 +10654,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI CookieIO",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.CookieIO",
           "name": "putCookies",
           "normalized": "CGIState-\u003eIO()",
@@ -10096,6 +10670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Debug",
           "name": "Debug",
           "package": "WashNGo",
@@ -10104,6 +10679,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Debug",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Debug",
           "name": "Debug",
           "package": "WashNGo",
@@ -10118,6 +10694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn this off for production use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Debug",
           "name": "debugging",
           "package": "WashNGo",
@@ -10128,6 +10705,7 @@
         "index": {
           "description": "Turn this off for production use",
           "hierarchy": "WASH CGI Debug",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Debug",
           "name": "debugging",
           "package": "WashNGo",
@@ -10140,6 +10718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Debug",
           "name": "dir",
           "package": "WashNGo",
@@ -10149,6 +10728,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Debug",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Debug",
           "name": "dir",
           "package": "WashNGo",
@@ -10162,6 +10742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a shell script suitable for replaying the interactive submission.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Debug",
           "name": "logInput",
           "package": "WashNGo",
@@ -10172,6 +10753,7 @@
         "index": {
           "description": "Creates shell script suitable for replaying the interactive submission",
           "hierarchy": "WASH CGI Debug",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Debug",
           "name": "logInput",
           "normalized": "CGIEnv-\u003eIO()",
@@ -10187,6 +10769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Debug",
           "name": "logOutput",
           "package": "WashNGo",
@@ -10196,6 +10779,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Debug",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Debug",
           "name": "logOutput",
           "normalized": "String-\u003e(Handle-\u003eIO())-\u003eIO()",
@@ -10211,6 +10795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Debug",
           "name": "timestamp",
           "package": "WashNGo",
@@ -10220,6 +10805,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Debug",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Debug",
           "name": "timestamp",
           "normalized": "IO(Int,Integer)",
@@ -10234,6 +10820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Debug",
           "name": "withLogFile",
           "package": "WashNGo",
@@ -10243,6 +10830,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Debug",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Debug",
           "name": "withLogFile",
           "normalized": "String-\u003e(Handle-\u003eIO())-\u003eIO()",
@@ -10258,6 +10846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "EventHandlers",
           "package": "WashNGo",
@@ -10266,6 +10855,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "EventHandlers",
           "package": "WashNGo",
@@ -10280,6 +10870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user aborts the loading of an image (for example by clicking a link or\n clicking the Stop button). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onAbort",
           "package": "WashNGo",
@@ -10290,6 +10881,7 @@
         "index": {
           "description": "The user aborts the loading of an image for example by clicking link or clicking the Stop button",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onAbort",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10306,6 +10898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA form element loses focus or when a window or frame loses focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onBlur",
           "package": "WashNGo",
@@ -10316,6 +10909,7 @@
         "index": {
           "description": "form element loses focus or when window or frame loses focus",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onBlur",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10332,6 +10926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA select, text, or textarea field loses focus and its value has been modified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onChange",
           "package": "WashNGo",
@@ -10342,6 +10937,7 @@
         "index": {
           "description": "select text or textarea field loses focus and its value has been modified",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onChange",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10358,6 +10954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn object on a form is clicked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onClick",
           "package": "WashNGo",
@@ -10368,6 +10965,7 @@
         "index": {
           "description": "An object on form is clicked",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onClick",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10384,6 +10982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user double-clicks a form element or a link.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onDblClick",
           "package": "WashNGo",
@@ -10394,6 +10993,7 @@
         "index": {
           "description": "The user double-clicks form element or link",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onDblClick",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10410,6 +11010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user drops an object onto the browser window, such as dropping a file on\n the browser window. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onDragDrop",
           "package": "WashNGo",
@@ -10420,6 +11021,7 @@
         "index": {
           "description": "The user drops an object onto the browser window such as dropping file on the browser window",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onDragDrop",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10436,6 +11038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe loading of a document or image causes an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onError",
           "package": "WashNGo",
@@ -10446,6 +11049,7 @@
         "index": {
           "description": "The loading of document or image causes an error",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onError",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10462,6 +11066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA window, frame, or frameset receives focus or when a form element receives\n input focus. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onFocus",
           "package": "WashNGo",
@@ -10472,6 +11077,7 @@
         "index": {
           "description": "window frame or frameset receives focus or when form element receives input focus",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onFocus",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10488,6 +11094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user depresses a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onKeyDown",
           "package": "WashNGo",
@@ -10498,6 +11105,7 @@
         "index": {
           "description": "The user depresses key",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onKeyDown",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10514,6 +11122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user presses or holds down a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onKeyPress",
           "package": "WashNGo",
@@ -10524,6 +11133,7 @@
         "index": {
           "description": "The user presses or holds down key",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onKeyPress",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10540,6 +11150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user releases a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onKeyUp",
           "package": "WashNGo",
@@ -10550,6 +11161,7 @@
         "index": {
           "description": "The user releases key",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onKeyUp",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10566,6 +11178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe browser finishes loading a window or all of the frames within a FRAMESET tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onLoad",
           "package": "WashNGo",
@@ -10576,6 +11189,7 @@
         "index": {
           "description": "The browser finishes loading window or all of the frames within FRAMESET tag",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onLoad",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10592,6 +11206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user depresses a mouse button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMouseDown",
           "package": "WashNGo",
@@ -10602,6 +11217,7 @@
         "index": {
           "description": "The user depresses mouse button",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMouseDown",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10618,6 +11234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user moves the cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMouseMove",
           "package": "WashNGo",
@@ -10628,6 +11245,7 @@
         "index": {
           "description": "The user moves the cursor",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMouseMove",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10644,6 +11262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cursor leaves an area (client-side image map) or link from inside that\n area or link. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMouseOut",
           "package": "WashNGo",
@@ -10654,6 +11273,7 @@
         "index": {
           "description": "The cursor leaves an area client-side image map or link from inside that area or link",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMouseOut",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10670,6 +11290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cursor moves over an object or area from outside that object or area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMouseOver",
           "package": "WashNGo",
@@ -10680,6 +11301,7 @@
         "index": {
           "description": "The cursor moves over an object or area from outside that object or area",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMouseOver",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10696,6 +11318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user releases a mouse button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMouseUp",
           "package": "WashNGo",
@@ -10706,6 +11329,7 @@
         "index": {
           "description": "The user releases mouse button",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMouseUp",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10722,6 +11346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user or script moves a window or frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMove",
           "package": "WashNGo",
@@ -10732,6 +11357,7 @@
         "index": {
           "description": "The user or script moves window or frame",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onMove",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10748,6 +11374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user resets a form (clicks a Reset button).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onReset",
           "package": "WashNGo",
@@ -10758,6 +11385,7 @@
         "index": {
           "description": "The user resets form clicks Reset button",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onReset",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10774,6 +11402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user or script resizes a window or frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onResize",
           "package": "WashNGo",
@@ -10784,6 +11413,7 @@
         "index": {
           "description": "The user or script resizes window or frame",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onResize",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10800,6 +11430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user selects some of the text within a text or textarea field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onSelect",
           "package": "WashNGo",
@@ -10810,6 +11441,7 @@
         "index": {
           "description": "The user selects some of the text within text or textarea field",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onSelect",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10826,6 +11458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user submits a form. Event handler must return true to continue\n submission. Returning false concels submission.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onSubmit",
           "package": "WashNGo",
@@ -10836,6 +11469,7 @@
         "index": {
           "description": "The user submits form Event handler must return true to continue submission Returning false concels submission",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onSubmit",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10852,6 +11486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user exits a document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "onUnload",
           "package": "WashNGo",
@@ -10862,6 +11497,7 @@
         "index": {
           "description": "The user exits document",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "onUnload",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10878,6 +11514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect result of form submission to specific target. Attach to submission\n button. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.EventHandlers",
           "name": "toTarget",
           "package": "WashNGo",
@@ -10888,6 +11525,7 @@
         "index": {
           "description": "Redirect result of form submission to specific target Attach to submission button",
           "hierarchy": "WASH CGI EventHandlers",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.EventHandlers",
           "name": "toTarget",
           "normalized": "String-\u003eWithHTML a b()",
@@ -10903,6 +11541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "Fields",
           "package": "WashNGo",
@@ -10911,6 +11550,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "Fields",
           "package": "WashNGo",
@@ -10925,6 +11565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-empty strings of digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "AllDigits",
           "package": "WashNGo",
@@ -10934,6 +11575,7 @@
         "index": {
           "description": "Non-empty strings of digits",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "AllDigits",
           "package": "WashNGo",
@@ -10948,6 +11590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads credit card expiration dates in format \u003ca name=\"\"/\u003e/\u003ca name=\"\"/\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "CreditCardExp",
           "package": "WashNGo",
@@ -10957,6 +11600,7 @@
         "index": {
           "description": "Reads credit card expiration dates in format",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "CreditCardExp",
           "package": "WashNGo",
@@ -10971,6 +11615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a credit card number and performs Luhn check on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "CreditCardNumber",
           "package": "WashNGo",
@@ -10980,6 +11625,7 @@
         "index": {
           "description": "Reads credit card number and performs Luhn check on it",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "CreditCardNumber",
           "package": "WashNGo",
@@ -10994,6 +11640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an email address according to RFC 2822\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "EmailAddress",
           "package": "WashNGo",
@@ -11003,6 +11650,7 @@
         "index": {
           "description": "Reads an email address according to RFC",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "EmailAddress",
           "package": "WashNGo",
@@ -11017,6 +11665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-empty strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "NonEmpty",
           "package": "WashNGo",
@@ -11026,6 +11675,7 @@
         "index": {
           "description": "Non-empty strings",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "NonEmpty",
           "package": "WashNGo",
@@ -11040,6 +11690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for transforming a field into an optional one. The \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e syntax of\n \u003ccode\u003eAbsent\u003c/code\u003e is the empty string, whereas the \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e syntax of \u003ccode\u003ePresent a\u003c/code\u003e is just the\n \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e syntax of \u003ccode\u003ea\u003c/code\u003e. Analogously for \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "Optional",
           "package": "WashNGo",
@@ -11049,6 +11700,7 @@
         "index": {
           "description": "Data type for transforming field into an optional one The Read syntax of Absent is the empty string whereas the Read syntax of Present is just the Read syntax of Analogously for Show",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "Optional",
           "package": "WashNGo",
@@ -11063,6 +11715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Password is a string of length \u003e= 8 with characters taken from at least\n three of the four sets: lower case characters, upper case characters, digits,\n and special characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "Password",
           "package": "WashNGo",
@@ -11072,6 +11725,7 @@
         "index": {
           "description": "Password is string of length with characters taken from at least three of the four sets lower case characters upper case characters digits and special characters",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "Password",
           "package": "WashNGo",
@@ -11086,6 +11740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhone numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "Phone",
           "package": "WashNGo",
@@ -11095,6 +11750,7 @@
         "index": {
           "description": "Phone numbers",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "Phone",
           "package": "WashNGo",
@@ -11109,6 +11765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emethod \u003ccode\u003e\u003ca\u003ereason\u003c/a\u003e\u003c/code\u003e of this class maps a value of type \u003cem\u003ea\u003c/em\u003e to an explanation of\n the input syntax for a value of type \u003cem\u003ea\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "Reason",
           "package": "WashNGo",
@@ -11118,6 +11775,7 @@
         "index": {
           "description": "method reason of this class maps value of type to an explanation of the input syntax for value of type",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "Reason",
           "package": "WashNGo",
@@ -11132,6 +11790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary string data. No quotes required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "Text",
           "package": "WashNGo",
@@ -11141,6 +11800,7 @@
         "index": {
           "description": "Arbitrary string data No quotes required",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "Text",
           "package": "WashNGo",
@@ -11155,6 +11815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to Maybe.fromMaybe\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "fromOptional",
           "package": "WashNGo",
@@ -11165,6 +11826,7 @@
         "index": {
           "description": "Analogous to Maybe.fromMaybe",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "fromOptional",
           "normalized": "a-\u003eOptional a-\u003ea",
@@ -11181,6 +11843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to Maybe.fromJust\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "fromPresent",
           "package": "WashNGo",
@@ -11191,6 +11854,7 @@
         "index": {
           "description": "Analogous to Maybe.fromJust",
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "fromPresent",
           "normalized": "Optional a-\u003ea",
@@ -11206,6 +11870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "reason",
           "package": "WashNGo",
@@ -11215,6 +11880,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "reason",
           "normalized": "a-\u003eString",
@@ -11229,6 +11895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Fields",
           "name": "washtype",
           "package": "WashNGo",
@@ -11238,6 +11905,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Fields",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Fields",
           "name": "washtype",
           "normalized": "a-\u003eString",
@@ -11252,6 +11920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Frames",
           "name": "Frames",
           "package": "WashNGo",
@@ -11260,6 +11929,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Frames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Frames",
           "name": "Frames",
           "package": "WashNGo",
@@ -11274,6 +11944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverall layout of a frame set: row-wise or column-wise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Frames",
           "name": "FrameLayout",
           "package": "WashNGo",
@@ -11283,6 +11954,7 @@
         "index": {
           "description": "Overall layout of frame set row-wise or column-wise",
           "hierarchy": "WASH CGI Frames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Frames",
           "name": "FrameLayout",
           "package": "WashNGo",
@@ -11297,6 +11969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type of frame set generators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Frames",
           "name": "FrameSet",
           "package": "WashNGo",
@@ -11306,6 +11979,7 @@
         "index": {
           "description": "Abstract data type of frame set generators",
           "hierarchy": "WASH CGI Frames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Frames",
           "name": "FrameSet",
           "package": "WashNGo",
@@ -11320,6 +11994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision of space between elements of a frameset. See\n \u003ca\u003ehttp://wp.netscape.com/assist/net_sites/frame_syntax.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Frames",
           "name": "FrameSpacing",
           "package": "WashNGo",
@@ -11329,6 +12004,7 @@
         "index": {
           "description": "Division of space between elements of frameset See http wp.netscape.com assist net sites frame syntax.html",
           "hierarchy": "WASH CGI Frames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Frames",
           "name": "FrameSpacing",
           "package": "WashNGo",
@@ -11342,6 +12018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Frames",
           "name": "FrameSet",
           "package": "WashNGo",
@@ -11351,6 +12028,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Frames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Frames",
           "name": "FrameSet",
           "package": "WashNGo",
@@ -11364,6 +12042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Frames",
           "name": "unFrameSet",
           "package": "WashNGo",
@@ -11373,6 +12052,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Frames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Frames",
           "name": "unFrameSet",
           "normalized": "WithHTML()IO()",
@@ -11388,6 +12068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "GuaranteedCGI",
           "package": "WashNGo",
@@ -11396,6 +12077,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "GuaranteedCGI",
           "package": "WashNGo",
@@ -11410,6 +12092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-empty strings of digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "AllDigits",
           "package": "WashNGo",
@@ -11419,6 +12102,7 @@
         "index": {
           "description": "Non-empty strings of digits",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "AllDigits",
           "package": "WashNGo",
@@ -11432,6 +12116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CGI",
           "package": "WashNGo",
@@ -11440,6 +12125,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CGI",
           "package": "WashNGo",
@@ -11453,6 +12139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CGIMonad",
           "package": "WashNGo",
@@ -11461,6 +12148,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CGIMonad",
           "package": "WashNGo",
@@ -11474,6 +12162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CGIOption",
           "package": "WashNGo",
@@ -11482,6 +12171,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CGIOption",
           "package": "WashNGo",
@@ -11495,6 +12185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CGIOptions",
           "package": "WashNGo",
@@ -11503,6 +12194,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CGIOptions",
           "package": "WashNGo",
@@ -11516,6 +12208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CGIOutput",
           "package": "WashNGo",
@@ -11524,6 +12217,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CGIOutput",
           "package": "WashNGo",
@@ -11538,6 +12232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads credit card expiration dates in format \u003ca name=\"\"/\u003e/\u003ca name=\"\"/\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CreditCardExp",
           "package": "WashNGo",
@@ -11547,6 +12242,7 @@
         "index": {
           "description": "Reads credit card expiration dates in format",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CreditCardExp",
           "package": "WashNGo",
@@ -11561,6 +12257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a credit card number and performs Luhn check on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CreditCardNumber",
           "package": "WashNGo",
@@ -11570,6 +12267,7 @@
         "index": {
           "description": "Reads credit card number and performs Luhn check on it",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "CreditCardNumber",
           "package": "WashNGo",
@@ -11584,6 +12282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type of decisions trees. These trees provide structured validation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "DTree",
           "package": "WashNGo",
@@ -11593,6 +12292,7 @@
         "index": {
           "description": "Abstract type of decisions trees These trees provide structured validation",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "DTree",
           "package": "WashNGo",
@@ -11607,6 +12307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an email address according to RFC 2822\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "EmailAddress",
           "package": "WashNGo",
@@ -11616,6 +12317,7 @@
         "index": {
           "description": "Reads an email address according to RFC",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "EmailAddress",
           "package": "WashNGo",
@@ -11629,6 +12331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F0",
           "package": "WashNGo",
@@ -11637,6 +12340,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F0",
           "package": "WashNGo",
@@ -11649,6 +12353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F1",
           "package": "WashNGo",
@@ -11657,6 +12362,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F1",
           "package": "WashNGo",
@@ -11669,6 +12375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F2",
           "package": "WashNGo",
@@ -11677,6 +12384,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F2",
           "package": "WashNGo",
@@ -11689,6 +12397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F3",
           "package": "WashNGo",
@@ -11697,6 +12406,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F3",
           "package": "WashNGo",
@@ -11709,6 +12419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F4",
           "package": "WashNGo",
@@ -11717,6 +12428,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F4",
           "package": "WashNGo",
@@ -11729,6 +12441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F5",
           "package": "WashNGo",
@@ -11737,6 +12450,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F5",
           "package": "WashNGo",
@@ -11749,6 +12463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F6",
           "package": "WashNGo",
@@ -11757,6 +12472,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F6",
           "package": "WashNGo",
@@ -11769,6 +12485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F8",
           "package": "WashNGo",
@@ -11777,6 +12494,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "F8",
           "package": "WashNGo",
@@ -11790,6 +12508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFA\u003c/a\u003e\u003c/code\u003e comes handy when you want to tag an input handle with some extra\n information, which is not itsefl an input handle and which is not validated\n by a form submission. The tag is the first argument and the handle is the\n second argument of the data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FA",
           "package": "WashNGo",
@@ -11799,6 +12518,7 @@
         "index": {
           "description": "FA comes handy when you want to tag an input handle with some extra information which is not itsefl an input handle and which is not validated by form submission The tag is the first argument and the handle is the second argument of the data constructor",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FA",
           "package": "WashNGo",
@@ -11813,6 +12533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFL\u003c/a\u003e\u003c/code\u003e is required to pass an unknown number of handles of the same\n type need to the callback function in a form submission. The\n handles need to be collected in a list and then wrapped in the \u003ccode\u003e\u003ca\u003eFL\u003c/a\u003e\u003c/code\u003e data constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FL",
           "package": "WashNGo",
@@ -11822,6 +12543,7 @@
         "index": {
           "description": "FL is required to pass an unknown number of handles of the same type need to the callback function in form submission The handles need to be collected in list and then wrapped in the FL data constructor",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FL",
           "package": "WashNGo",
@@ -11835,6 +12557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FileReference",
           "package": "WashNGo",
@@ -11843,6 +12566,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FileReference",
           "package": "WashNGo",
@@ -11857,6 +12581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverall layout of a frame set: row-wise or column-wise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FrameLayout",
           "package": "WashNGo",
@@ -11866,6 +12591,7 @@
         "index": {
           "description": "Overall layout of frame set row-wise or column-wise",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FrameLayout",
           "package": "WashNGo",
@@ -11880,6 +12606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type of frame set generators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FrameSet",
           "package": "WashNGo",
@@ -11889,6 +12616,7 @@
         "index": {
           "description": "Abstract data type of frame set generators",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FrameSet",
           "package": "WashNGo",
@@ -11903,6 +12631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision of space between elements of a frameset. See\n \u003ca\u003ehttp://wp.netscape.com/assist/net_sites/frame_syntax.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FrameSpacing",
           "package": "WashNGo",
@@ -11912,6 +12641,7 @@
         "index": {
           "description": "Division of space between elements of frameset See http wp.netscape.com assist net sites frame syntax.html",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FrameSpacing",
           "package": "WashNGo",
@@ -11925,6 +12655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FreeForm",
           "package": "WashNGo",
@@ -11933,6 +12664,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "FreeForm",
           "package": "WashNGo",
@@ -11947,6 +12679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery input widget maps the content generator for the widget (which may\n produce HTML elements or attributes) to the content generator of the widget. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "HTMLField",
           "package": "WashNGo",
@@ -11956,6 +12689,7 @@
         "index": {
           "description": "Every input widget maps the content generator for the widget which may produce HTML elements or attributes to the content generator of the widget",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "HTMLField",
           "package": "WashNGo",
@@ -11969,6 +12703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "HasValue",
           "package": "WashNGo",
@@ -11977,6 +12712,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "HasValue",
           "package": "WashNGo",
@@ -11990,6 +12726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "INVALID",
           "package": "WashNGo",
@@ -11998,6 +12735,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "INVALID",
           "package": "WashNGo",
@@ -12011,6 +12749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Image",
           "package": "WashNGo",
@@ -12019,6 +12758,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Image",
           "package": "WashNGo",
@@ -12032,6 +12772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "InputField",
           "package": "WashNGo",
@@ -12040,6 +12781,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "InputField",
           "package": "WashNGo",
@@ -12053,6 +12795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "InputHandle",
           "package": "WashNGo",
@@ -12061,6 +12804,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "InputHandle",
           "package": "WashNGo",
@@ -12074,6 +12818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Location",
           "package": "WashNGo",
@@ -12082,6 +12827,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Location",
           "package": "WashNGo",
@@ -12096,6 +12842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-empty strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "NonEmpty",
           "package": "WashNGo",
@@ -12105,6 +12852,7 @@
         "index": {
           "description": "Non-empty strings",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "NonEmpty",
           "package": "WashNGo",
@@ -12119,6 +12867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for transforming a field into an optional one. The \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e syntax of\n \u003ccode\u003eAbsent\u003c/code\u003e is the empty string, whereas the \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e syntax of \u003ccode\u003ePresent a\u003c/code\u003e is just the\n \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e syntax of \u003ccode\u003ea\u003c/code\u003e. Analogously for \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Optional",
           "package": "WashNGo",
@@ -12128,6 +12877,7 @@
         "index": {
           "description": "Data type for transforming field into an optional one The Read syntax of Absent is the empty string whereas the Read syntax of Present is just the Read syntax of Analogously for Show",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Optional",
           "package": "WashNGo",
@@ -12142,6 +12892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Password is a string of length \u003e= 8 with characters taken from at least\n three of the four sets: lower case characters, upper case characters, digits,\n and special characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Password",
           "package": "WashNGo",
@@ -12151,6 +12902,7 @@
         "index": {
           "description": "Password is string of length with characters taken from at least three of the four sets lower case characters upper case characters digits and special characters",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Password",
           "package": "WashNGo",
@@ -12165,6 +12917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhone numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Phone",
           "package": "WashNGo",
@@ -12174,6 +12927,7 @@
         "index": {
           "description": "Phone numbers",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Phone",
           "package": "WashNGo",
@@ -12187,6 +12941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "RadioGroup",
           "package": "WashNGo",
@@ -12195,6 +12950,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "RadioGroup",
           "package": "WashNGo",
@@ -12208,6 +12964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Status",
           "package": "WashNGo",
@@ -12216,6 +12973,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Status",
           "package": "WashNGo",
@@ -12230,6 +12988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary string data. No quotes required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Text",
           "package": "WashNGo",
@@ -12239,6 +12998,7 @@
         "index": {
           "description": "Arbitrary string data No quotes required",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "Text",
           "package": "WashNGo",
@@ -12252,6 +13012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "URL",
           "package": "WashNGo",
@@ -12260,6 +13021,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "URL",
           "package": "WashNGo",
@@ -12273,6 +13035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "VALID",
           "package": "WashNGo",
@@ -12281,6 +13044,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "VALID",
           "package": "WashNGo",
@@ -12294,6 +13058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "activate",
           "package": "WashNGo",
@@ -12303,6 +13068,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "activate",
           "normalized": "(a-\u003eb())-\u003eHTMLField b INPUT c(d a INVALID)-\u003eHTMLField b INPUT c(d a INVALID)",
@@ -12317,6 +13083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "activeInputField",
           "package": "WashNGo",
@@ -12326,6 +13093,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "activeInputField",
           "normalized": "(a-\u003eb())-\u003eHTMLField b INPUT c()",
@@ -12341,6 +13109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "ask",
           "package": "WashNGo",
@@ -12350,6 +13119,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "ask",
           "normalized": "WithHTML DOCUMENT a b-\u003ea()",
@@ -12364,6 +13134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "askOffline",
           "package": "WashNGo",
@@ -12373,6 +13144,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "askOffline",
           "normalized": "WithHTML HTML a b-\u003e(Element-\u003eIO())-\u003ea()",
@@ -12388,6 +13160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "backLink",
           "package": "WashNGo",
@@ -12397,6 +13170,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "backLink",
           "normalized": "HTMLCons A a b()",
@@ -12412,6 +13186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "checkboxInputField",
           "package": "WashNGo",
@@ -12421,6 +13196,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "checkboxInputField",
           "package": "WashNGo",
@@ -12434,6 +13210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "checkedFileInputField",
           "package": "WashNGo",
@@ -12443,6 +13220,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "checkedFileInputField",
           "normalized": "(Maybe FileReference-\u003eMaybe FileReference)-\u003eHTMLField a INPUT b(InputField FileReference INVALID)",
@@ -12458,6 +13236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "checkedTextInputField",
           "package": "WashNGo",
@@ -12467,6 +13246,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "checkedTextInputField",
           "normalized": "(Maybe String-\u003eMaybe String)-\u003eHTMLField a INPUT b(InputField String INVALID)",
@@ -12482,6 +13262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "cssHeader",
           "package": "WashNGo",
@@ -12491,6 +13272,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "cssHeader",
           "normalized": "String-\u003eString-\u003eWithHTML HTML a b-\u003eWithHTML c a()",
@@ -12506,6 +13288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "cssPage",
           "package": "WashNGo",
@@ -12515,6 +13298,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "cssPage",
           "normalized": "String-\u003eString-\u003eWithHTML BODY a b-\u003eWithHTML c a()",
@@ -12530,6 +13314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "defaultSubmit",
           "package": "WashNGo",
@@ -12539,6 +13324,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "defaultSubmit",
           "normalized": "a INVALID-\u003e(a VALID-\u003eb())-\u003eHTMLField b INPUT c()",
@@ -12554,6 +13340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "defaultSubmitLink",
           "package": "WashNGo",
@@ -12563,6 +13350,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "defaultSubmitLink",
           "normalized": "a INVALID-\u003e(a VALID-\u003eCGI())-\u003eHTMLCons A b CGI()",
@@ -12578,6 +13366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "fieldMAXLENGTH",
           "package": "WashNGo",
@@ -12587,6 +13376,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "fieldMAXLENGTH",
           "normalized": "a-\u003eWithHTML b c()",
@@ -12602,6 +13392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "fieldSIZE",
           "package": "WashNGo",
@@ -12611,6 +13402,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "fieldSIZE",
           "normalized": "a-\u003eWithHTML b c()",
@@ -12626,6 +13418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "fieldVALUE",
           "package": "WashNGo",
@@ -12635,6 +13428,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "fieldVALUE",
           "normalized": "a-\u003eWithHTML b c()",
@@ -12650,6 +13444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "fileInputField",
           "package": "WashNGo",
@@ -12659,6 +13454,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "fileInputField",
           "package": "WashNGo",
@@ -12672,6 +13468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "hlink",
           "package": "WashNGo",
@@ -12681,6 +13478,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "hlink",
           "normalized": "URL-\u003eHTMLCons A a b()",
@@ -12695,6 +13493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "htell",
           "package": "WashNGo",
@@ -12704,6 +13503,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "htell",
           "normalized": "WithHTML HTML IO()-\u003ea b",
@@ -12718,6 +13518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "html",
           "package": "WashNGo",
@@ -12727,6 +13528,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "html",
           "normalized": "WithHTML HTML a b-\u003eWithHTML c a()",
@@ -12741,6 +13543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "htmlHeader",
           "package": "WashNGo",
@@ -12750,6 +13553,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "htmlHeader",
           "normalized": "String-\u003eWithHTML HTML a b-\u003eWithHTML c a()",
@@ -12765,6 +13569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "imageField",
           "package": "WashNGo",
@@ -12774,6 +13579,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "imageField",
           "normalized": "Image-\u003eHTMLField a INPUT b(InputField(Int,Int)INVALID)",
@@ -12789,6 +13595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "inputField",
           "package": "WashNGo",
@@ -12798,6 +13605,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "inputField",
           "package": "WashNGo",
@@ -12811,6 +13619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeA",
           "package": "WashNGo",
@@ -12820,6 +13629,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeA",
           "normalized": "String-\u003eString-\u003eHTMLField a A b()",
@@ -12834,6 +13644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeButton",
           "package": "WashNGo",
@@ -12843,6 +13654,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeButton",
           "package": "WashNGo",
@@ -12856,6 +13668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeForm",
           "package": "WashNGo",
@@ -12865,6 +13678,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeForm",
           "normalized": "WithHTML FORM CGI a-\u003eWithHTML b CGI()",
@@ -12880,6 +13694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeFrame",
           "package": "WashNGo",
@@ -12889,6 +13704,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeFrame",
           "normalized": "WithHTML FRAME IO()-\u003eCGI()-\u003eCGI FrameSet",
@@ -12904,6 +13720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeImg",
           "package": "WashNGo",
@@ -12913,6 +13730,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeImg",
           "normalized": "Image-\u003eHTMLField a IMG b()",
@@ -12928,6 +13746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makePopupRef",
           "package": "WashNGo",
@@ -12937,6 +13756,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makePopupRef",
           "normalized": "String-\u003eString-\u003eHTMLField a A b()",
@@ -12952,6 +13772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeRef",
           "package": "WashNGo",
@@ -12961,6 +13782,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeRef",
           "normalized": "String-\u003eWithHTML A a()-\u003eb(WithHTML c a())",
@@ -12976,6 +13798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeTextarea",
           "package": "WashNGo",
@@ -12985,6 +13808,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "makeTextarea",
           "normalized": "String-\u003eHTMLField a TEXTAREA b(InputField String INVALID)",
@@ -13000,6 +13824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "passwordInputField",
           "package": "WashNGo",
@@ -13009,6 +13834,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "passwordInputField",
           "package": "WashNGo",
@@ -13022,6 +13848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "popuplink",
           "package": "WashNGo",
@@ -13031,6 +13858,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "popuplink",
           "normalized": "String-\u003eURL-\u003eHTMLCons A a b()",
@@ -13045,6 +13873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "radioButton",
           "package": "WashNGo",
@@ -13054,6 +13883,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "radioButton",
           "normalized": "RadioGroup a INVALID-\u003ea-\u003eHTMLField b INPUT c()",
@@ -13069,6 +13899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "radioError",
           "package": "WashNGo",
@@ -13078,6 +13909,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "radioError",
           "normalized": "RadioGroup a INVALID-\u003eWithHTML b c()",
@@ -13093,6 +13925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "resetField",
           "package": "WashNGo",
@@ -13102,6 +13935,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "resetField",
           "normalized": "HTMLField a INPUT b(InputField()INVALID)",
@@ -13117,6 +13951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "restart",
           "package": "WashNGo",
@@ -13126,6 +13961,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "restart",
           "normalized": "CGI()",
@@ -13140,6 +13976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "selectBounded",
           "package": "WashNGo",
@@ -13149,6 +13986,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "selectBounded",
           "normalized": "Maybe a-\u003eHTMLField b SELECT c(InputField a INVALID)",
@@ -13164,6 +14002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "selectMultiple",
           "package": "WashNGo",
@@ -13173,6 +14012,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "selectMultiple",
           "normalized": "(a-\u003eString)-\u003e[a]-\u003e[a]-\u003e(Int,Int)-\u003eHTMLField b SELECT c(InputField[a]INVALID)",
@@ -13188,6 +14028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "selectSingle",
           "package": "WashNGo",
@@ -13197,6 +14038,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "selectSingle",
           "normalized": "(a-\u003eString)-\u003eMaybe a-\u003e[a]-\u003eHTMLField b SELECT c(InputField a INVALID)",
@@ -13212,6 +14054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "standardPage",
           "package": "WashNGo",
@@ -13221,6 +14064,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "standardPage",
           "normalized": "String-\u003eWithHTML BODY a b-\u003eWithHTML c a()",
@@ -13236,6 +14080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "standardQuery",
           "package": "WashNGo",
@@ -13245,6 +14090,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "standardQuery",
           "normalized": "String-\u003eWithHTML FORM CGI a-\u003eCGI()",
@@ -13260,6 +14106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "submit",
           "package": "WashNGo",
@@ -13269,6 +14116,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "submit",
           "normalized": "a INVALID-\u003e(a VALID-\u003eb())-\u003eHTMLField b INPUT c()",
@@ -13283,6 +14131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "submit0",
           "package": "WashNGo",
@@ -13292,6 +14141,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "submit0",
           "normalized": "a()-\u003eHTMLField a INPUT b()",
@@ -13306,6 +14156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "submitLink",
           "package": "WashNGo",
@@ -13315,6 +14166,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "submitLink",
           "normalized": "a INVALID-\u003e(a VALID-\u003eb())-\u003eHTMLCons A c b()",
@@ -13330,6 +14182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "submitLink0",
           "package": "WashNGo",
@@ -13339,6 +14192,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "submitLink0",
           "normalized": "CGI()-\u003eHTMLCons A a CGI()",
@@ -13354,6 +14208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "submitx",
           "package": "WashNGo",
@@ -13363,6 +14218,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "submitx",
           "normalized": "DTree a INPUT b-\u003eHTMLField a INPUT b()",
@@ -13377,6 +14233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "textInputField",
           "package": "WashNGo",
@@ -13386,6 +14243,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "textInputField",
           "package": "WashNGo",
@@ -13400,6 +14258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract a value from various kinds of input handles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "value",
           "package": "WashNGo",
@@ -13410,6 +14269,7 @@
         "index": {
           "description": "extract value from various kinds of input handles",
           "hierarchy": "WASH CGI GuaranteedCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.GuaranteedCGI",
           "name": "value",
           "normalized": "a b VALID-\u003eb",
@@ -13424,6 +14284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTMLMail",
           "name": "HTMLMail",
           "package": "WashNGo",
@@ -13432,6 +14293,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTMLMail",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTMLMail",
           "name": "HTMLMail",
           "package": "WashNGo",
@@ -13446,6 +14308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform HTML Element into document suitable for sending as email.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTMLMail",
           "name": "htmlDOC",
           "package": "WashNGo",
@@ -13456,6 +14319,7 @@
         "index": {
           "description": "transform HTML Element into document suitable for sending as email",
           "hierarchy": "WASH CGI HTMLMail",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTMLMail",
           "name": "htmlDOC",
           "normalized": "Element-\u003eDOC",
@@ -13471,6 +14335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTMLWrapper",
           "name": "HTMLWrapper",
           "package": "WashNGo",
@@ -13479,6 +14344,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTMLWrapper",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTMLWrapper",
           "name": "HTMLWrapper",
           "package": "WashNGo",
@@ -13492,6 +14358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTTP",
           "name": "HTTP",
           "package": "WashNGo",
@@ -13500,6 +14367,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTTP",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTTP",
           "name": "HTTP",
           "package": "WashNGo",
@@ -13513,6 +14381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTTP",
           "name": "Method",
           "package": "WashNGo",
@@ -13521,6 +14390,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTTP",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTTP",
           "name": "Method",
           "package": "WashNGo",
@@ -13534,6 +14404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTTP",
           "name": "CONNECT",
           "package": "WashNGo",
@@ -13543,6 +14414,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTTP",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTTP",
           "name": "CONNECT",
           "package": "WashNGo",
@@ -13556,6 +14428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTTP",
           "name": "DELETE",
           "package": "WashNGo",
@@ -13565,6 +14438,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTTP",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTTP",
           "name": "DELETE",
           "package": "WashNGo",
@@ -13578,6 +14452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTTP",
           "name": "Extension",
           "package": "WashNGo",
@@ -13587,6 +14462,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTTP",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTTP",
           "name": "Extension",
           "package": "WashNGo",
@@ -13600,6 +14476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTTP",
           "name": "GET",
           "package": "WashNGo",
@@ -13609,6 +14486,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTTP",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTTP",
           "name": "GET",
           "package": "WashNGo",
@@ -13622,6 +14500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTTP",
           "name": "HEAD",
           "package": "WashNGo",
@@ -13631,6 +14510,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTTP",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTTP",
           "name": "HEAD",
           "package": "WashNGo",
@@ -13644,6 +14524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTTP",
           "name": "OPTIONS",
           "package": "WashNGo",
@@ -13653,6 +14534,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTTP",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTTP",
           "name": "OPTIONS",
           "package": "WashNGo",
@@ -13666,6 +14548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTTP",
           "name": "POST",
           "package": "WashNGo",
@@ -13675,6 +14558,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTTP",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTTP",
           "name": "POST",
           "package": "WashNGo",
@@ -13688,6 +14572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTTP",
           "name": "PUT",
           "package": "WashNGo",
@@ -13697,6 +14582,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTTP",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTTP",
           "name": "PUT",
           "package": "WashNGo",
@@ -13710,6 +14596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.HTTP",
           "name": "TRACE",
           "package": "WashNGo",
@@ -13719,6 +14606,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI HTTP",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.HTTP",
           "name": "TRACE",
           "package": "WashNGo",
@@ -13732,6 +14620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Images",
           "name": "Images",
           "package": "WashNGo",
@@ -13740,6 +14629,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Images",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Images",
           "name": "Images",
           "package": "WashNGo",
@@ -13753,6 +14643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Images",
           "name": "nothing",
           "package": "WashNGo",
@@ -13762,6 +14653,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Images",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Images",
           "name": "nothing",
           "package": "WashNGo",
@@ -13774,6 +14666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Images",
           "name": "nothingURL",
           "package": "WashNGo",
@@ -13783,6 +14676,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Images",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Images",
           "name": "nothingURL",
           "normalized": "[Char]",
@@ -13798,6 +14692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Images",
           "name": "question",
           "package": "WashNGo",
@@ -13807,6 +14702,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Images",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Images",
           "name": "question",
           "package": "WashNGo",
@@ -13819,6 +14715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Images",
           "name": "questionURL",
           "package": "WashNGo",
@@ -13828,6 +14725,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Images",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Images",
           "name": "questionURL",
           "normalized": "[Char]",
@@ -13844,6 +14742,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal use only.\n  Provides access to class \u003ca\u003eInputHandle\u003c/a\u003e and thus enables the construction \n  new instances of this class, which requires knowledge about programming of\n  validations. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.InputHandle",
           "name": "InputHandle",
           "package": "WashNGo",
@@ -13853,6 +14752,7 @@
         "index": {
           "description": "Internal use only Provides access to class InputHandle and thus enables the construction new instances of this class which requires knowledge about programming of validations",
           "hierarchy": "WASH CGI InputHandle",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.InputHandle",
           "name": "InputHandle",
           "package": "WashNGo",
@@ -13866,6 +14766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.InputHandle",
           "name": "HasValue",
           "package": "WashNGo",
@@ -13874,6 +14775,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI InputHandle",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.InputHandle",
           "name": "HasValue",
           "package": "WashNGo",
@@ -13887,6 +14789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.InputHandle",
           "name": "InputHandle",
           "package": "WashNGo",
@@ -13895,6 +14798,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI InputHandle",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.InputHandle",
           "name": "InputHandle",
           "package": "WashNGo",
@@ -13908,6 +14812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.InputHandle",
           "name": "ihNames",
           "package": "WashNGo",
@@ -13917,6 +14822,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI InputHandle",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.InputHandle",
           "name": "ihNames",
           "normalized": "a INVALID-\u003e[String]",
@@ -13932,6 +14838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.InputHandle",
           "name": "isBound",
           "package": "WashNGo",
@@ -13941,6 +14848,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI InputHandle",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.InputHandle",
           "name": "isBound",
           "normalized": "a INVALID-\u003eBool",
@@ -13957,6 +14865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransforms an unvalidated input handle into either an error or a valid handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.InputHandle",
           "name": "validate",
           "package": "WashNGo",
@@ -13967,6 +14876,7 @@
         "index": {
           "description": "transforms an unvalidated input handle into either an error or valid handle",
           "hierarchy": "WASH CGI InputHandle",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.InputHandle",
           "name": "validate",
           "normalized": "a INVALID-\u003eEither[ValidationError](a VALID)",
@@ -13982,6 +14892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract a value from various kinds of input handles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.InputHandle",
           "name": "value",
           "package": "WashNGo",
@@ -13992,6 +14903,7 @@
         "index": {
           "description": "extract value from various kinds of input handles",
           "hierarchy": "WASH CGI InputHandle",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.InputHandle",
           "name": "value",
           "normalized": "a b VALID-\u003eb",
@@ -14007,6 +14919,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinition of the type of the redo log entries\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "LogEntry",
           "package": "WashNGo",
@@ -14016,6 +14929,7 @@
         "index": {
           "description": "Definition of the type of the redo log entries",
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "LogEntry",
           "package": "WashNGo",
@@ -14029,6 +14943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "PARAMETER",
           "package": "WashNGo",
@@ -14037,6 +14952,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "PARAMETER",
           "package": "WashNGo",
@@ -14051,6 +14967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord of a \u003ccode\u003ecreate\u003c/code\u003e or \u003ccode\u003einit\u003c/code\u003e operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_CRE_TV",
           "package": "WashNGo",
@@ -14061,6 +14978,7 @@
         "index": {
           "description": "record of create or init operation",
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_CRE_TV",
           "package": "WashNGo",
@@ -14075,6 +14993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord entry for all DB operations.\n the string is already the result of a \n show operation for DB tuples, so it is\n doubly encoded :-(\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_DB",
           "package": "WashNGo",
@@ -14085,6 +15004,7 @@
         "index": {
           "description": "record entry for all DB operations the string is already the result of show operation for DB tuples so it is doubly encoded",
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_DB",
           "package": "WashNGo",
@@ -14099,6 +15019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord of a \u003ccode\u003eget\u003c/code\u003e operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_GET_TV",
           "package": "WashNGo",
@@ -14109,6 +15030,7 @@
         "index": {
           "description": "record of get operation",
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_GET_TV",
           "package": "WashNGo",
@@ -14122,6 +15044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_IGNORED",
           "package": "WashNGo",
@@ -14131,6 +15054,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_IGNORED",
           "package": "WashNGo",
@@ -14145,6 +15069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecorded stateID before the mark\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_MARK",
           "package": "WashNGo",
@@ -14155,6 +15080,7 @@
         "index": {
           "description": "recorded stateID before the mark",
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_MARK",
           "package": "WashNGo",
@@ -14169,6 +15095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord of a \u003ccode\u003eremove\u003c/code\u003e operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_REM_TV",
           "package": "WashNGo",
@@ -14179,6 +15106,7 @@
         "index": {
           "description": "record of remove operation",
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_REM_TV",
           "package": "WashNGo",
@@ -14193,6 +15121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresult of an IO operation shown as a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_RESULT",
           "package": "WashNGo",
@@ -14203,6 +15132,7 @@
         "index": {
           "description": "result of an IO operation shown as string",
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_RESULT",
           "package": "WashNGo",
@@ -14217,6 +15147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord of a \u003ccode\u003eset\u003c/code\u003e operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_SET_TV",
           "package": "WashNGo",
@@ -14227,6 +15158,7 @@
         "index": {
           "description": "record of set operation",
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_SET_TV",
           "package": "WashNGo",
@@ -14241,6 +15173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecorded stateID at start of transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_TRANS",
           "package": "WashNGo",
@@ -14251,6 +15184,7 @@
         "index": {
           "description": "recorded stateID at start of transaction",
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_TRANS",
           "package": "WashNGo",
@@ -14265,6 +15199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord of a form input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_VALUES",
           "package": "WashNGo",
@@ -14275,6 +15210,7 @@
         "index": {
           "description": "record of form input",
           "hierarchy": "WASH CGI LogEntry",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.LogEntry",
           "name": "PAR_VALUES",
           "package": "WashNGo",
@@ -14288,6 +15224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.MakeTypedName",
           "name": "MakeTypedName",
           "package": "WashNGo",
@@ -14296,6 +15233,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI MakeTypedName",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.MakeTypedName",
           "name": "MakeTypedName",
           "package": "WashNGo",
@@ -14310,6 +15248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a probabilistically unique filename from a name and a type\n descriptor. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.MakeTypedName",
           "name": "makeTypedName",
           "package": "WashNGo",
@@ -14320,6 +15259,7 @@
         "index": {
           "description": "Create probabilistically unique filename from name and type descriptor",
           "hierarchy": "WASH CGI MakeTypedName",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.MakeTypedName",
           "name": "makeTypedName",
           "normalized": "String-\u003eTySpec-\u003eString",
@@ -14336,6 +15276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a probabilistically unique filename from a name and the type of a given value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.MakeTypedName",
           "name": "makeTypedNameFromVal",
           "package": "WashNGo",
@@ -14346,6 +15287,7 @@
         "index": {
           "description": "Create probabilistically unique filename from name and the type of given value",
           "hierarchy": "WASH CGI MakeTypedName",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.MakeTypedName",
           "name": "makeTypedNameFromVal",
           "normalized": "String-\u003ea-\u003eString",
@@ -14361,6 +15303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "PPM",
           "package": "WashNGo",
@@ -14369,6 +15312,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "PPM",
           "package": "WashNGo",
@@ -14382,6 +15326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Color",
           "package": "WashNGo",
@@ -14390,6 +15335,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Color",
           "package": "WashNGo",
@@ -14403,6 +15349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Picture",
           "package": "WashNGo",
@@ -14411,6 +15358,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Picture",
           "package": "WashNGo",
@@ -14424,6 +15372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Pixel",
           "package": "WashNGo",
@@ -14432,6 +15381,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Pixel",
           "package": "WashNGo",
@@ -14445,6 +15395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Pixmap",
           "package": "WashNGo",
@@ -14453,6 +15404,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Pixmap",
           "package": "WashNGo",
@@ -14466,6 +15418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "And",
           "package": "WashNGo",
@@ -14475,6 +15428,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "And",
           "normalized": "And[Picture]",
@@ -14490,6 +15444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Circle",
           "package": "WashNGo",
@@ -14499,6 +15454,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Circle",
           "package": "WashNGo",
@@ -14512,6 +15468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Colored",
           "package": "WashNGo",
@@ -14521,6 +15478,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Colored",
           "package": "WashNGo",
@@ -14534,6 +15492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Invert",
           "package": "WashNGo",
@@ -14543,6 +15502,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Invert",
           "package": "WashNGo",
@@ -14556,6 +15516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Line",
           "package": "WashNGo",
@@ -14565,6 +15526,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Line",
           "package": "WashNGo",
@@ -14578,6 +15540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Or",
           "package": "WashNGo",
@@ -14587,6 +15550,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Or",
           "normalized": "Or[Picture]",
@@ -14602,6 +15566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Pixmap",
           "package": "WashNGo",
@@ -14611,6 +15576,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Pixmap",
           "package": "WashNGo",
@@ -14624,6 +15590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Rotate",
           "package": "WashNGo",
@@ -14633,6 +15600,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Rotate",
           "package": "WashNGo",
@@ -14646,6 +15614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Scale",
           "package": "WashNGo",
@@ -14655,6 +15624,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Scale",
           "normalized": "Scale(Double,Double)Picture",
@@ -14670,6 +15640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Square",
           "package": "WashNGo",
@@ -14679,6 +15650,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Square",
           "package": "WashNGo",
@@ -14692,6 +15664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "Translate",
           "package": "WashNGo",
@@ -14701,6 +15674,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "Translate",
           "normalized": "Translate(Double,Double)Picture",
@@ -14716,6 +15690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "create",
           "package": "WashNGo",
@@ -14725,6 +15700,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "create",
           "normalized": "Int-\u003eInt-\u003eInt-\u003ePixel-\u003ePixmap",
@@ -14739,6 +15715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "height",
           "package": "WashNGo",
@@ -14748,6 +15725,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "height",
           "package": "WashNGo",
@@ -14760,6 +15738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "line",
           "package": "WashNGo",
@@ -14769,6 +15748,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "line",
           "normalized": "Pixmap-\u003e(Int,Int)-\u003e(Int,Int)-\u003ePixel-\u003ePixmap",
@@ -14783,6 +15763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "maximumColorValue",
           "package": "WashNGo",
@@ -14792,6 +15773,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "maximumColorValue",
           "package": "WashNGo",
@@ -14805,6 +15787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "oval",
           "package": "WashNGo",
@@ -14814,6 +15797,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "oval",
           "normalized": "Pixmap-\u003e(Int,Int)-\u003e(Int,Int)-\u003ePixel-\u003eBool-\u003ePixmap",
@@ -14828,6 +15812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "pixelAt",
           "package": "WashNGo",
@@ -14837,6 +15822,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "pixelAt",
           "normalized": "Pixmap-\u003eInt-\u003eInt-\u003ePixel",
@@ -14852,6 +15838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "pixelFun",
           "package": "WashNGo",
@@ -14861,6 +15848,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "pixelFun",
           "normalized": "Int-\u003eInt-\u003ePixel",
@@ -14876,6 +15864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "rectangle",
           "package": "WashNGo",
@@ -14885,6 +15874,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "rectangle",
           "normalized": "Pixmap-\u003e(Int,Int)-\u003e(Int,Int)-\u003ePixel-\u003eBool-\u003ePixmap",
@@ -14899,6 +15889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "render",
           "package": "WashNGo",
@@ -14908,6 +15899,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "render",
           "normalized": "Picture-\u003eInt-\u003eInt-\u003eColor-\u003ePixmap",
@@ -14922,6 +15914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.PPM",
           "name": "width",
           "package": "WashNGo",
@@ -14931,6 +15924,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI PPM",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.PPM",
           "name": "width",
           "package": "WashNGo",
@@ -14944,6 +15938,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the preferred, type-indexed implementation of server-side state.\n\u003c/p\u003e\u003cp\u003eGlossary\n\u003c/p\u003e\u003cp\u003eA persistent entity (PE) is a time-indexed, named global value.\nThe current value of a PE is the value that the PE has now.\nA handle gives access to a snapshot of a persistent entity at a particular time, potentially in the past.\nA handle is \u003cem\u003ecurrent\u003c/em\u003e if the value of the PE has not been \u003ccode\u003eset\u003c/code\u003e or \u003ccode\u003eadd\u003c/code\u003eed to after the creation of the handle.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Persistent2",
           "name": "Persistent2",
           "package": "WashNGo",
@@ -14953,6 +15948,7 @@
         "index": {
           "description": "This is the preferred type-indexed implementation of server-side state Glossary persistent entity PE is time-indexed named global value The current value of PE is the value that the PE has now handle gives access to snapshot of persistent entity at particular time potentially in the past handle is current if the value of the PE has not been set or add ed to after the creation of the handle",
           "hierarchy": "WASH CGI Persistent2",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Persistent2",
           "name": "Persistent2",
           "package": "WashNGo",
@@ -14967,6 +15963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of handles to a PE of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Persistent2",
           "name": "T",
           "package": "WashNGo",
@@ -14976,6 +15973,7 @@
         "index": {
           "description": "type of handles to PE of type",
           "hierarchy": "WASH CGI Persistent2",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Persistent2",
           "name": "T",
           "package": "WashNGo",
@@ -14989,6 +15987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eadd handle addValue\u003c/code\u003e conceptually, this operation adds \u003ccode\u003eaddValue\u003c/code\u003e to the\n set of values stored in \u003ccode\u003ehandle\u003c/code\u003e. Since this set is represented as a list,\n \u003ccode\u003ehandle\u003c/code\u003e must point to a value of type \u003ccode\u003e[a]\u003c/code\u003e. Since the PE is assumed to\n contain a set, it does not matter if \u003ccode\u003ehandle\u003c/code\u003e is current. However, the\n returned handle is guaranteed to be current with a value that contains\n \u003ccode\u003eaddValue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Persistent2",
           "name": "add",
           "package": "WashNGo",
@@ -14999,6 +15998,7 @@
         "index": {
           "description": "add handle addValue conceptually this operation adds addValue to the set of values stored in handle Since this set is represented as list handle must point to value of type Since the PE is assumed to contain set it does not matter if handle is current However the returned handle is guaranteed to be current with value that contains addValue",
           "hierarchy": "WASH CGI Persistent2",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Persistent2",
           "name": "add",
           "normalized": "T[a]-\u003ea-\u003eCGI(T[a])",
@@ -15014,6 +16014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecurrent handle\u003c/code\u003e returns a handle to the PE pointed to by\n \u003ccode\u003ehandle\u003c/code\u003e. It returns \u003ccode\u003eNothing\u003c/code\u003e if \u003ccode\u003ehandle\u003c/code\u003e is still \u003cem\u003ecurrent\u003c/em\u003e. Otherwise, it\n returns \u003ccode\u003eJust newHandle\u003c/code\u003e where \u003ccode\u003enewHandle\u003c/code\u003e is \u003cem\u003ecurrent\u003c/em\u003e in the sense defined\n above. Using the \u003ccode\u003enewHandle\u003c/code\u003e obtained from \u003ccode\u003ecurrent\u003c/code\u003e explicitly discards the\n value pointed to by \u003ccode\u003ehandle\u003c/code\u003e in favor of a value that may have been stored\n by a concurrently executing script. Use with caution!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Persistent2",
           "name": "current",
           "package": "WashNGo",
@@ -15024,6 +16025,7 @@
         "index": {
           "description": "current handle returns handle to the PE pointed to by handle It returns Nothing if handle is still current Otherwise it returns Just newHandle where newHandle is current in the sense defined above Using the newHandle obtained from current explicitly discards the value pointed to by handle in favor of value that may have been stored by concurrently executing script Use with caution",
           "hierarchy": "WASH CGI Persistent2",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Persistent2",
           "name": "current",
           "normalized": "T a-\u003eCGI(Maybe(T a))",
@@ -15039,6 +16041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eget handle\u003c/code\u003e retrieves the value of \u003ccode\u003ehandle\u003c/code\u003e. This value may not be current\n because the handle may point to a snapshot from the past.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Persistent2",
           "name": "get",
           "package": "WashNGo",
@@ -15049,6 +16052,7 @@
         "index": {
           "description": "get handle retrieves the value of handle This value may not be current because the handle may point to snapshot from the past",
           "hierarchy": "WASH CGI Persistent2",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Persistent2",
           "name": "get",
           "normalized": "T a-\u003eCGI a",
@@ -15064,6 +16068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einit name initialValue\u003c/code\u003e creates a new PE with name \u003ccode\u003ename\u003c/code\u003e with initial\n value \u003ccode\u003einitialValue\u003c/code\u003e and returns the handle to the initial value. If the PE\n already exists, then \u003ccode\u003einit\u003c/code\u003e returns the handle to the current value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Persistent2",
           "name": "init",
           "package": "WashNGo",
@@ -15074,6 +16079,7 @@
         "index": {
           "description": "init name initialValue creates new PE with name name with initial value initialValue and returns the handle to the initial value If the PE already exists then init returns the handle to the current value",
           "hierarchy": "WASH CGI Persistent2",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Persistent2",
           "name": "init",
           "normalized": "String-\u003ea-\u003eCGI(T a)",
@@ -15089,6 +16095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eset handle newValue\u003c/code\u003e tries to overwrite the value of the pe pointed to by\n \u003ccode\u003ehandle\u003c/code\u003e with \u003ccode\u003enewValue\u003c/code\u003e. Succeeds \u003ccode\u003eJust handle1\u003c/code\u003e if \u003ccode\u003ehandle\u003c/code\u003e is current, in\n this case it returns a handle to the new value. Fails \u003ccode\u003eNothing\u003c/code\u003e if the handle\n is not current. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Persistent2",
           "name": "set",
           "package": "WashNGo",
@@ -15099,6 +16106,7 @@
         "index": {
           "description": "set handle newValue tries to overwrite the value of the pe pointed to by handle with newValue Succeeds Just handle1 if handle is current in this case it returns handle to the new value Fails Nothing if the handle is not current",
           "hierarchy": "WASH CGI Persistent2",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Persistent2",
           "name": "set",
           "normalized": "T a-\u003ea-\u003eCGI(Maybe(T a))",
@@ -15113,6 +16121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGI",
           "name": "RawCGI",
           "package": "WashNGo",
@@ -15121,6 +16130,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGI",
           "name": "RawCGI",
           "package": "WashNGo",
@@ -15134,6 +16144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGI",
           "name": "CGIOption",
           "package": "WashNGo",
@@ -15142,6 +16153,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGI",
           "name": "CGIOption",
           "package": "WashNGo",
@@ -15155,6 +16167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGI",
           "name": "CGIOptions",
           "package": "WashNGo",
@@ -15163,6 +16176,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGI",
           "name": "CGIOptions",
           "package": "WashNGo",
@@ -15176,6 +16190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGI",
           "name": "CGIProgram",
           "package": "WashNGo",
@@ -15184,6 +16199,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGI",
           "name": "CGIProgram",
           "package": "WashNGo",
@@ -15224,6 +16240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level interface to CGI scripting.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "RawCGIInternal",
           "package": "WashNGo",
@@ -15233,6 +16250,7 @@
         "index": {
           "description": "Low-level interface to CGI scripting",
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "RawCGIInternal",
           "package": "WashNGo",
@@ -15246,6 +16264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "advanceIC",
           "package": "WashNGo",
@@ -15255,6 +16274,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "advanceIC",
           "normalized": "String-\u003eString-\u003eMaybe String",
@@ -15270,6 +16290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "assoc",
           "package": "WashNGo",
@@ -15279,6 +16300,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "assoc",
           "normalized": "a-\u003e[(a,b)]-\u003eMaybe b",
@@ -15293,6 +16315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "assocParm",
           "package": "WashNGo",
@@ -15302,6 +16325,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "assocParm",
           "normalized": "String-\u003eCGIParameters-\u003eMaybe CGIValue",
@@ -15317,6 +16341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "assocParmL",
           "package": "WashNGo",
@@ -15326,6 +16351,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "assocParmL",
           "normalized": "String-\u003eCGIParameters-\u003e[CGIValue]",
@@ -15341,6 +16367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "assocParmR",
           "package": "WashNGo",
@@ -15350,6 +16377,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "assocParmR",
           "normalized": "String-\u003eCGIParameters-\u003eCGIParameters",
@@ -15365,6 +16393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "decode",
           "package": "WashNGo",
@@ -15374,6 +16403,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "decode",
           "normalized": "String-\u003eIO String",
@@ -15388,6 +16418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "decodeLine",
           "package": "WashNGo",
@@ -15397,6 +16428,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "decodeLine",
           "normalized": "String-\u003e(String,CGIRawValue)",
@@ -15412,6 +16444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "decodeMultiPart",
           "package": "WashNGo",
@@ -15421,6 +16454,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "decodeMultiPart",
           "normalized": "String-\u003eString-\u003e[(String,CGIRawValue)]",
@@ -15436,6 +16470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "decrypt",
           "package": "WashNGo",
@@ -15445,6 +16480,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "decrypt",
           "normalized": "String-\u003eString-\u003eString",
@@ -15459,6 +16495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "dropSpecialParameters",
           "package": "WashNGo",
@@ -15468,6 +16505,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "dropSpecialParameters",
           "normalized": "[(String,a)]-\u003e[(String,a)]",
@@ -15483,6 +16521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "encrypt",
           "package": "WashNGo",
@@ -15492,6 +16531,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "encrypt",
           "normalized": "String-\u003eString-\u003eString",
@@ -15506,6 +16546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "extendRandomly",
           "package": "WashNGo",
@@ -15515,6 +16556,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "extendRandomly",
           "normalized": "[Char]-\u003e[Char]",
@@ -15530,6 +16572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "extractBoundary",
           "package": "WashNGo",
@@ -15539,6 +16582,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "extractBoundary",
           "normalized": "String-\u003eMaybe String",
@@ -15554,6 +16598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "extractContents",
           "package": "WashNGo",
@@ -15563,6 +16608,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "extractContents",
           "normalized": "String-\u003eString-\u003eMaybe(String,String)",
@@ -15578,6 +16624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "fieldNames",
           "package": "WashNGo",
@@ -15587,6 +16634,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "fieldNames",
           "normalized": "CGIParameters-\u003e[String]",
@@ -15602,6 +16650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "generateKey",
           "package": "WashNGo",
@@ -15611,6 +16660,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "generateKey",
           "normalized": "IO(Maybe(Integer,String,String))",
@@ -15627,6 +16677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecoding of \u003ccode\u003e\u003ca\u003eCGIOption\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDecoding of \u003ccode\u003e\u003ca\u003eCGIOption\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDecoding of \u003ccode\u003e\u003ca\u003eCGIOption\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDecoding of \u003ccode\u003e\u003ca\u003eCGIOption\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInitial and default content type of a link submission\n\u003c/p\u003e\u003cp\u003eConstruct a CGI environment from the input and output handle of the current\n connection and the CGI variables in the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "initEnv",
           "package": "WashNGo",
@@ -15637,6 +16688,7 @@
         "index": {
           "description": "Decoding of CGIOption Decoding of CGIOption Decoding of CGIOption Decoding of CGIOption Initial and default content type of link submission Construct CGI environment from the input and output handle of the current connection and the CGI variables in the environment",
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "initEnv",
           "normalized": "Handle-\u003eHandle-\u003eIO CGIEnv",
@@ -15652,6 +16704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "makeEncoder",
           "package": "WashNGo",
@@ -15661,6 +16714,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "makeEncoder",
           "normalized": "Maybe(Integer,String,String)-\u003eString-\u003eString",
@@ -15676,6 +16730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "nrNonces",
           "package": "WashNGo",
@@ -15685,6 +16740,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "nrNonces",
           "package": "WashNGo",
@@ -15698,6 +16754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "parameterLines",
           "package": "WashNGo",
@@ -15707,6 +16764,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "parameterLines",
           "normalized": "String-\u003e[String]",
@@ -15722,6 +16780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "parseCookies",
           "package": "WashNGo",
@@ -15731,6 +16790,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "parseCookies",
           "normalized": "String-\u003e[(String,String)]",
@@ -15746,6 +16806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "resolveFiles",
           "package": "WashNGo",
@@ -15755,6 +16816,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "resolveFiles",
           "normalized": "[(String,CGIRawValue)]-\u003eIO CGIParameters",
@@ -15770,6 +16832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "startEnv",
           "package": "WashNGo",
@@ -15779,6 +16842,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGIInternal",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGIInternal",
           "name": "startEnv",
           "normalized": "CGIEnv-\u003eCGIOptions-\u003e(CGIInfo-\u003eCGIParameters-\u003eIO())-\u003eIO()",
@@ -15795,6 +16859,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level types for raw CGI programming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "RawCGITypes",
           "package": "WashNGo",
@@ -15804,6 +16869,7 @@
         "index": {
           "description": "Low-level types for raw CGI programming",
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "RawCGITypes",
           "package": "WashNGo",
@@ -15818,6 +16884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecorresponding to CGI environment variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIEnv",
           "package": "WashNGo",
@@ -15827,6 +16894,7 @@
         "index": {
           "description": "corresponding to CGI environment variables",
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIEnv",
           "package": "WashNGo",
@@ -15840,6 +16908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIInfo",
           "package": "WashNGo",
@@ -15848,6 +16917,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIInfo",
           "package": "WashNGo",
@@ -15861,6 +16931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIParameter",
           "package": "WashNGo",
@@ -15869,6 +16940,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIParameter",
           "package": "WashNGo",
@@ -15882,6 +16954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIParameters",
           "package": "WashNGo",
@@ -15890,6 +16963,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIParameters",
           "package": "WashNGo",
@@ -15903,6 +16977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIProgram",
           "package": "WashNGo",
@@ -15911,6 +16986,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIProgram",
           "package": "WashNGo",
@@ -15925,6 +17001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einternal representation of a CGI parameter value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIRawValue",
           "package": "WashNGo",
@@ -15934,6 +17011,7 @@
         "index": {
           "description": "internal representation of CGI parameter value",
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIRawValue",
           "package": "WashNGo",
@@ -15947,6 +17025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIValue",
           "package": "WashNGo",
@@ -15955,6 +17034,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIValue",
           "package": "WashNGo",
@@ -15968,6 +17048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIEnv",
           "package": "WashNGo",
@@ -15977,6 +17058,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIEnv",
           "package": "WashNGo",
@@ -15990,6 +17072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIInfo",
           "package": "WashNGo",
@@ -15999,6 +17082,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIInfo",
           "package": "WashNGo",
@@ -16013,6 +17097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename, contentType, content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIRawFile",
           "package": "WashNGo",
@@ -16023,6 +17108,7 @@
         "index": {
           "description": "name contentType content",
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIRawFile",
           "package": "WashNGo",
@@ -16036,6 +17122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIRawString",
           "package": "WashNGo",
@@ -16045,6 +17132,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "CGIRawString",
           "package": "WashNGo",
@@ -16058,6 +17146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "authType",
           "package": "WashNGo",
@@ -16067,6 +17156,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "authType",
           "package": "WashNGo",
@@ -16080,6 +17170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiArgs",
           "package": "WashNGo",
@@ -16089,6 +17180,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiArgs",
           "normalized": "[String]",
@@ -16104,6 +17196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiContentType",
           "package": "WashNGo",
@@ -16113,6 +17206,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiContentType",
           "package": "WashNGo",
@@ -16126,6 +17220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiContents",
           "package": "WashNGo",
@@ -16135,6 +17230,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiContents",
           "package": "WashNGo",
@@ -16148,6 +17244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiCookies",
           "package": "WashNGo",
@@ -16157,6 +17254,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiCookies",
           "normalized": "[(String,String)]",
@@ -16172,6 +17270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiHandle",
           "package": "WashNGo",
@@ -16181,6 +17280,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiHandle",
           "package": "WashNGo",
@@ -16194,6 +17294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiPathInfo",
           "package": "WashNGo",
@@ -16203,6 +17304,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiPathInfo",
           "package": "WashNGo",
@@ -16216,6 +17318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiScriptName",
           "package": "WashNGo",
@@ -16225,6 +17328,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiScriptName",
           "package": "WashNGo",
@@ -16238,6 +17342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiSessionMode",
           "package": "WashNGo",
@@ -16247,6 +17352,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiSessionMode",
           "package": "WashNGo",
@@ -16260,6 +17366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiUrl",
           "package": "WashNGo",
@@ -16269,6 +17376,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "cgiUrl",
           "package": "WashNGo",
@@ -16282,6 +17390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "contentLength",
           "package": "WashNGo",
@@ -16291,6 +17400,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "contentLength",
           "package": "WashNGo",
@@ -16304,6 +17414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "contentType",
           "package": "WashNGo",
@@ -16313,6 +17424,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "contentType",
           "package": "WashNGo",
@@ -16326,6 +17438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "gatewayInterface",
           "package": "WashNGo",
@@ -16335,6 +17448,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "gatewayInterface",
           "package": "WashNGo",
@@ -16348,6 +17462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "handle",
           "package": "WashNGo",
@@ -16357,6 +17472,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "handle",
           "package": "WashNGo",
@@ -16369,6 +17485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "httpAccept",
           "package": "WashNGo",
@@ -16378,6 +17495,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "httpAccept",
           "package": "WashNGo",
@@ -16391,6 +17509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "httpCookie",
           "package": "WashNGo",
@@ -16400,6 +17519,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "httpCookie",
           "package": "WashNGo",
@@ -16413,6 +17533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "httpsEnabled",
           "package": "WashNGo",
@@ -16422,6 +17543,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "httpsEnabled",
           "package": "WashNGo",
@@ -16435,6 +17557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "pathInfo",
           "package": "WashNGo",
@@ -16444,6 +17567,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "pathInfo",
           "package": "WashNGo",
@@ -16457,6 +17581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "pathTranslated",
           "package": "WashNGo",
@@ -16466,6 +17591,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "pathTranslated",
           "package": "WashNGo",
@@ -16479,6 +17605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "rawArgs",
           "package": "WashNGo",
@@ -16488,6 +17615,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "rawArgs",
           "normalized": "[String]",
@@ -16503,6 +17631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "rawContents",
           "package": "WashNGo",
@@ -16512,6 +17641,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "rawContents",
           "package": "WashNGo",
@@ -16525,6 +17655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "remoteAddr",
           "package": "WashNGo",
@@ -16534,6 +17665,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "remoteAddr",
           "package": "WashNGo",
@@ -16547,6 +17679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "remoteHost",
           "package": "WashNGo",
@@ -16556,6 +17689,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "remoteHost",
           "package": "WashNGo",
@@ -16569,6 +17703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "remoteUser",
           "package": "WashNGo",
@@ -16578,6 +17713,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "remoteUser",
           "package": "WashNGo",
@@ -16591,6 +17727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "requestMethod",
           "package": "WashNGo",
@@ -16600,6 +17737,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "requestMethod",
           "package": "WashNGo",
@@ -16613,6 +17751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "scriptName",
           "package": "WashNGo",
@@ -16622,6 +17761,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "scriptName",
           "package": "WashNGo",
@@ -16635,6 +17775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "serverName",
           "package": "WashNGo",
@@ -16644,6 +17785,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "serverName",
           "package": "WashNGo",
@@ -16657,6 +17799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "serverPort",
           "package": "WashNGo",
@@ -16666,6 +17809,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "serverPort",
           "package": "WashNGo",
@@ -16679,6 +17823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "serverProtocol",
           "package": "WashNGo",
@@ -16688,6 +17833,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "serverProtocol",
           "package": "WashNGo",
@@ -16701,6 +17847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.RawCGITypes",
           "name": "serverSoftware",
           "package": "WashNGo",
@@ -16710,6 +17857,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI RawCGITypes",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.RawCGITypes",
           "name": "serverSoftware",
           "package": "WashNGo",
@@ -16723,6 +17871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.StateItem",
           "name": "StateItem",
           "package": "WashNGo",
@@ -16731,6 +17880,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI StateItem",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.StateItem",
           "name": "StateItem",
           "package": "WashNGo",
@@ -16745,6 +17895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of handles to a PE of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.StateItem",
           "name": "T",
           "package": "WashNGo",
@@ -16754,6 +17905,7 @@
         "index": {
           "description": "type of handles to PE of type",
           "hierarchy": "WASH CGI StateItem",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.StateItem",
           "name": "T",
           "package": "WashNGo",
@@ -16766,6 +17918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.StateItem",
           "name": "T",
           "package": "WashNGo",
@@ -16775,6 +17928,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI StateItem",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.StateItem",
           "name": "T",
           "package": "WashNGo",
@@ -16787,6 +17941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.StateItem",
           "name": "Tvirtual",
           "package": "WashNGo",
@@ -16796,6 +17951,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI StateItem",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.StateItem",
           "name": "Tvirtual",
           "package": "WashNGo",
@@ -16809,6 +17965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.StateItem",
           "name": "tvirtual",
           "package": "WashNGo",
@@ -16818,6 +17975,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI StateItem",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.StateItem",
           "name": "tvirtual",
           "package": "WashNGo",
@@ -16830,6 +17988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Style",
           "name": "Style",
           "package": "WashNGo",
@@ -16838,6 +17997,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Style",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Style",
           "name": "Style",
           "package": "WashNGo",
@@ -16852,6 +18012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst class style elements. Intended for CSS2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Style",
           "name": "Style",
           "package": "WashNGo",
@@ -16861,6 +18022,7 @@
         "index": {
           "description": "First class style elements Intended for CSS2",
           "hierarchy": "WASH CGI Style",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Style",
           "name": "Style",
           "package": "WashNGo",
@@ -16875,6 +18037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprimitive style \u003ccode\u003ename :=: value\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Style",
           "name": ":=:",
           "package": "WashNGo",
@@ -16885,6 +18048,7 @@
         "index": {
           "description": "primitive style name value",
           "hierarchy": "WASH CGI Style",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Style",
           "name": ":=:",
           "package": "WashNGo",
@@ -16898,6 +18062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecombine two styles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Style",
           "name": ":^:",
           "package": "WashNGo",
@@ -16908,6 +18073,7 @@
         "index": {
           "description": "combine two styles",
           "hierarchy": "WASH CGI Style",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Style",
           "name": ":^:",
           "package": "WashNGo",
@@ -16921,6 +18087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference to style sheet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Style",
           "name": "Named",
           "package": "WashNGo",
@@ -16931,6 +18098,7 @@
         "index": {
           "description": "reference to style sheet",
           "hierarchy": "WASH CGI Style",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Style",
           "name": "Named",
           "package": "WashNGo",
@@ -16944,6 +18112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Style",
           "name": "NoStyle",
           "package": "WashNGo",
@@ -16953,6 +18122,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Style",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Style",
           "name": "NoStyle",
           "package": "WashNGo",
@@ -16967,6 +18137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches a style to a field constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Style",
           "name": "using",
           "package": "WashNGo",
@@ -16976,6 +18147,7 @@
         "index": {
           "description": "Attaches style to field constructor",
           "hierarchy": "WASH CGI Style",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Style",
           "name": "using",
           "normalized": "Style-\u003e(WithHTML a b c-\u003ed)-\u003eWithHTML a b c-\u003ed",
@@ -16991,6 +18163,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell98 version of the submission functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "Submit98",
           "package": "WashNGo",
@@ -17000,6 +18173,7 @@
         "index": {
           "description": "Haskell98 version of the submission functions",
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "Submit98",
           "package": "WashNGo",
@@ -17014,6 +18188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type of decisions trees. These trees provide structured validation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "DTree",
           "package": "WashNGo",
@@ -17023,6 +18198,7 @@
         "index": {
           "description": "Abstract type of decisions trees These trees provide structured validation",
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "DTree",
           "package": "WashNGo",
@@ -17036,6 +18212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "F0",
           "package": "WashNGo",
@@ -17044,6 +18221,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "F0",
           "package": "WashNGo",
@@ -17056,6 +18234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "F1",
           "package": "WashNGo",
@@ -17064,6 +18243,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "F1",
           "package": "WashNGo",
@@ -17076,6 +18256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "F2",
           "package": "WashNGo",
@@ -17084,6 +18265,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "F2",
           "package": "WashNGo",
@@ -17096,6 +18278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "F3",
           "package": "WashNGo",
@@ -17104,6 +18287,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "F3",
           "package": "WashNGo",
@@ -17116,6 +18300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "F4",
           "package": "WashNGo",
@@ -17124,6 +18309,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "F4",
           "package": "WashNGo",
@@ -17136,6 +18322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "F5",
           "package": "WashNGo",
@@ -17144,6 +18331,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "F5",
           "package": "WashNGo",
@@ -17156,6 +18344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "F6",
           "package": "WashNGo",
@@ -17164,6 +18353,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "F6",
           "package": "WashNGo",
@@ -17176,6 +18366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "F7",
           "package": "WashNGo",
@@ -17184,6 +18375,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "F7",
           "package": "WashNGo",
@@ -17196,6 +18388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "F8",
           "package": "WashNGo",
@@ -17204,6 +18397,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "F8",
           "package": "WashNGo",
@@ -17217,6 +18411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFA\u003c/a\u003e\u003c/code\u003e comes handy when you want to tag an input handle with some extra\n information, which is not itsefl an input handle and which is not validated\n by a form submission. The tag is the first argument and the handle is the\n second argument of the data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "FA",
           "package": "WashNGo",
@@ -17226,6 +18421,7 @@
         "index": {
           "description": "FA comes handy when you want to tag an input handle with some extra information which is not itsefl an input handle and which is not validated by form submission The tag is the first argument and the handle is the second argument of the data constructor",
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "FA",
           "package": "WashNGo",
@@ -17240,6 +18436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFL\u003c/a\u003e\u003c/code\u003e is required to pass an unknown number of handles of the same\n type need to the callback function in a form submission. The\n handles need to be collected in a list and then wrapped in the \u003ccode\u003e\u003ca\u003eFL\u003c/a\u003e\u003c/code\u003e data constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "FL",
           "package": "WashNGo",
@@ -17249,6 +18446,7 @@
         "index": {
           "description": "FL is required to pass an unknown number of handles of the same type need to the callback function in form submission The handles need to be collected in list and then wrapped in the FL data constructor",
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "FL",
           "package": "WashNGo",
@@ -17262,6 +18460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "HasValue",
           "package": "WashNGo",
@@ -17270,6 +18469,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "HasValue",
           "package": "WashNGo",
@@ -17283,6 +18483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "InputHandle",
           "package": "WashNGo",
@@ -17291,6 +18492,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "InputHandle",
           "package": "WashNGo",
@@ -17304,6 +18506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deF0",
           "package": "WashNGo",
@@ -17313,6 +18516,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deF0",
           "normalized": "a-\u003eF b-\u003ea",
@@ -17327,6 +18531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deF1",
           "package": "WashNGo",
@@ -17336,6 +18541,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deF1",
           "normalized": "(a b-\u003ec)-\u003eF a b-\u003ec",
@@ -17350,6 +18556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deF2",
           "package": "WashNGo",
@@ -17359,6 +18566,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deF2",
           "normalized": "(a b-\u003ec b-\u003ed)-\u003eF a c b-\u003ed",
@@ -17373,6 +18581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deF3",
           "package": "WashNGo",
@@ -17382,6 +18591,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deF3",
           "normalized": "(a b-\u003ec b-\u003ed b-\u003ee)-\u003eF a c d b-\u003ee",
@@ -17396,6 +18606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deF4",
           "package": "WashNGo",
@@ -17405,6 +18616,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deF4",
           "normalized": "(a b-\u003ec b-\u003ed b-\u003ee b-\u003ef)-\u003eF a c d e b-\u003ef",
@@ -17419,6 +18631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deF5",
           "package": "WashNGo",
@@ -17428,6 +18641,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deF5",
           "normalized": "(a b-\u003ec b-\u003ed b-\u003ee b-\u003ef b-\u003eg)-\u003eF a c d e f b-\u003eg",
@@ -17442,6 +18656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deF6",
           "package": "WashNGo",
@@ -17451,6 +18666,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deF6",
           "normalized": "(a b-\u003ec b-\u003ed b-\u003ee b-\u003ef b-\u003eg b-\u003eh)-\u003eF a c d e f g b-\u003eh",
@@ -17465,6 +18681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deF7",
           "package": "WashNGo",
@@ -17474,6 +18691,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deF7",
           "normalized": "(a b-\u003ec b-\u003ed b-\u003ee b-\u003ef b-\u003eg b-\u003eh b-\u003ei)-\u003eF a c d e f g h b-\u003ei",
@@ -17488,6 +18706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deF8",
           "package": "WashNGo",
@@ -17497,6 +18716,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deF8",
           "normalized": "(a b-\u003ec b-\u003ed b-\u003ee b-\u003ef b-\u003eg b-\u003eh b-\u003ei b-\u003ej)-\u003eF a c d e f g h i b-\u003ej",
@@ -17511,6 +18731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deFA",
           "package": "WashNGo",
@@ -17520,6 +18741,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deFA",
           "normalized": "(a-\u003eb c-\u003ed)-\u003eFA a b c-\u003ed",
@@ -17535,6 +18757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deFL",
           "package": "WashNGo",
@@ -17544,6 +18767,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deFL",
           "normalized": "([a b]-\u003ec)-\u003eFL a b-\u003ec",
@@ -17559,6 +18783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF0",
           "package": "WashNGo",
@@ -17568,6 +18793,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF0",
           "normalized": "a-\u003eF a-\u003ea",
@@ -17583,6 +18809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF1",
           "package": "WashNGo",
@@ -17592,6 +18819,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF1",
           "normalized": "(a-\u003eb)-\u003eF(c a)VALID-\u003eb",
@@ -17607,6 +18835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF2",
           "package": "WashNGo",
@@ -17616,6 +18845,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF2",
           "normalized": "(a-\u003ea-\u003eb)-\u003eF(c a)(c a)VALID-\u003eb",
@@ -17631,6 +18861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF3",
           "package": "WashNGo",
@@ -17640,6 +18871,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003eF(c a)(c a)(c a)VALID-\u003eb",
@@ -17655,6 +18887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF4",
           "package": "WashNGo",
@@ -17664,6 +18897,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eF(c a)(c a)(c a)(c a)VALID-\u003eb",
@@ -17679,6 +18913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF5",
           "package": "WashNGo",
@@ -17688,6 +18923,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF5",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eF(c a)(c a)(c a)(c a)(c a)VALID-\u003eb",
@@ -17703,6 +18939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF6",
           "package": "WashNGo",
@@ -17712,6 +18949,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF6",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eF(c a)(c a)(c a)(c a)(c a)(c a)VALID-\u003eb",
@@ -17727,6 +18965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF7",
           "package": "WashNGo",
@@ -17736,6 +18975,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF7",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eF(c a)(c a)(c a)(c a)(c a)(c a)(c a)VALID-\u003eb",
@@ -17751,6 +18991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF8",
           "package": "WashNGo",
@@ -17760,6 +19001,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deValueF8",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eF(c a)(c a)(c a)(c a)(c a)(c a)(c a)(c a)VALID-\u003eb",
@@ -17775,6 +19017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deValueFA",
           "package": "WashNGo",
@@ -17784,6 +19027,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deValueFA",
           "normalized": "(a-\u003eb-\u003ea)-\u003eFA a(c b)VALID-\u003ea",
@@ -17799,6 +19043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "deValueFL",
           "package": "WashNGo",
@@ -17808,6 +19053,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "deValueFL",
           "normalized": "([a]-\u003eb)-\u003eFL(c a)VALID-\u003eb",
@@ -17824,6 +19070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract a value from various kinds of input handles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Submit98",
           "name": "value",
           "package": "WashNGo",
@@ -17834,6 +19081,7 @@
         "index": {
           "description": "extract value from various kinds of input handles",
           "hierarchy": "WASH CGI Submit98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Submit98",
           "name": "value",
           "normalized": "a b VALID-\u003eb",
@@ -17849,6 +19097,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtended-Haskell version of the submission functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.SubmitXX",
           "name": "SubmitXX",
           "package": "WashNGo",
@@ -17858,6 +19107,7 @@
         "index": {
           "description": "Extended-Haskell version of the submission functions",
           "hierarchy": "WASH CGI SubmitXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.SubmitXX",
           "name": "SubmitXX",
           "package": "WashNGo",
@@ -17871,6 +19121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.SubmitXX",
           "name": "DTree",
           "package": "WashNGo",
@@ -17879,6 +19130,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI SubmitXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.SubmitXX",
           "name": "DTree",
           "package": "WashNGo",
@@ -17892,6 +19144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.SubmitXX",
           "name": "StripHandle",
           "package": "WashNGo",
@@ -17900,6 +19153,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI SubmitXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.SubmitXX",
           "name": "StripHandle",
           "package": "WashNGo",
@@ -17913,6 +19167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.SubmitXX",
           "name": "DTree",
           "package": "WashNGo",
@@ -17922,6 +19177,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI SubmitXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.SubmitXX",
           "name": "DTree",
           "package": "WashNGo",
@@ -17935,6 +19191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.SubmitXX",
           "name": "ihNames",
           "package": "WashNGo",
@@ -17944,6 +19201,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI SubmitXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.SubmitXX",
           "name": "ihNames",
           "normalized": "a-\u003e[String]",
@@ -17959,6 +19217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.SubmitXX",
           "name": "isBound",
           "package": "WashNGo",
@@ -17968,6 +19227,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI SubmitXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.SubmitXX",
           "name": "isBound",
           "normalized": "a-\u003eBool",
@@ -17983,6 +19243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.SubmitXX",
           "name": "unDTree",
           "package": "WashNGo",
@@ -17992,6 +19253,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI SubmitXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.SubmitXX",
           "name": "unDTree",
           "normalized": "HTMLField a b c()",
@@ -18007,6 +19269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.SubmitXX",
           "name": "validate",
           "package": "WashNGo",
@@ -18016,6 +19279,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI SubmitXX",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.SubmitXX",
           "name": "validate",
           "normalized": "a-\u003eEither[ValidationError]b",
@@ -18031,6 +19295,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrapper for the WASH.CGI.CGI monad type. Internal use only. Intended for\n-- wrapping transactions. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.TCGI",
           "name": "TCGI",
           "package": "WashNGo",
@@ -18040,6 +19305,7 @@
         "index": {
           "description": "Wrapper for the WASH.CGI.CGI monad type Internal use only Intended for wrapping transactions",
           "hierarchy": "WASH CGI TCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.TCGI",
           "name": "TCGI",
           "package": "WashNGo",
@@ -18054,6 +19320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of a \u003ccode\u003e\u003ca\u003eCGI\u003c/a\u003e\u003c/code\u003e action in a transactional scope with a result variable of\n type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.TCGI",
           "name": "TCGI",
           "package": "WashNGo",
@@ -18063,6 +19330,7 @@
         "index": {
           "description": "Type of CGI action in transactional scope with result variable of type",
           "hierarchy": "WASH CGI TCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.TCGI",
           "name": "TCGI",
           "package": "WashNGo",
@@ -18076,6 +19344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.TCGI",
           "name": "TCGI",
           "package": "WashNGo",
@@ -18085,6 +19354,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI TCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.TCGI",
           "name": "TCGI",
           "package": "WashNGo",
@@ -18098,6 +19368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.TCGI",
           "name": "into",
           "package": "WashNGo",
@@ -18107,6 +19378,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI TCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.TCGI",
           "name": "into",
           "normalized": "CGI a-\u003eTCGI b a",
@@ -18121,6 +19393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.TCGI",
           "name": "outof",
           "package": "WashNGo",
@@ -18130,6 +19403,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI TCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.TCGI",
           "name": "outof",
           "normalized": "TCGI a b-\u003eCGI b",
@@ -18144,6 +19418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.TCGI",
           "name": "unTCGI",
           "package": "WashNGo",
@@ -18153,6 +19428,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI TCGI",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.TCGI",
           "name": "unTCGI",
           "package": "WashNGo",
@@ -18167,6 +19443,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTransactional, type-indexed implementation of server-side state.\n\u003c/p\u003e\u003cp\u003eGlossary\n\u003c/p\u003e\u003cp\u003eA transactional entity (TE) is a named multi-versioned global variable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Transaction",
           "name": "Transaction",
           "package": "WashNGo",
@@ -18176,6 +19453,7 @@
         "index": {
           "description": "Transactional type-indexed implementation of server-side state Glossary transactional entity TE is named multi-versioned global variable",
           "hierarchy": "WASH CGI Transaction",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Transaction",
           "name": "Transaction",
           "package": "WashNGo",
@@ -18189,6 +19467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Transaction",
           "name": "Control",
           "package": "WashNGo",
@@ -18197,6 +19476,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Transaction",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Transaction",
           "name": "Control",
           "package": "WashNGo",
@@ -18211,6 +19491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle of a transactional variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Transaction",
           "name": "T",
           "package": "WashNGo",
@@ -18220,6 +19501,7 @@
         "index": {
           "description": "Handle of transactional variable",
           "hierarchy": "WASH CGI Transaction",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Transaction",
           "name": "T",
           "package": "WashNGo",
@@ -18233,6 +19515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of a \u003ccode\u003e\u003ca\u003eCGI\u003c/a\u003e\u003c/code\u003e action in a transactional scope with a result variable of\n type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Transaction",
           "name": "TCGI",
           "package": "WashNGo",
@@ -18242,6 +19525,7 @@
         "index": {
           "description": "Type of CGI action in transactional scope with result variable of type",
           "hierarchy": "WASH CGI Transaction",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Transaction",
           "name": "TCGI",
           "package": "WashNGo",
@@ -18305,6 +19589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a fresh transactional variable with an initial value and return its\n handle. Performs a physical write to ensure that the variable's name is\n unique. Locks the transaction directory during the write operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Transaction",
           "name": "create",
           "package": "WashNGo",
@@ -18315,6 +19600,7 @@
         "index": {
           "description": "Create fresh transactional variable with an initial value and return its handle Performs physical write to ensure that the variable name is unique Locks the transaction directory during the write operation",
           "hierarchy": "WASH CGI Transaction",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Transaction",
           "name": "create",
           "normalized": "a-\u003eTCGI b(T a)",
@@ -18330,6 +19616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead transactional variable through a typed handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Transaction",
           "name": "get",
           "package": "WashNGo",
@@ -18340,6 +19627,7 @@
         "index": {
           "description": "Read transactional variable through typed handle",
           "hierarchy": "WASH CGI Transaction",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Transaction",
           "name": "get",
           "normalized": "T a-\u003eTCGI b a",
@@ -18355,6 +19643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to create a new tv \u003ccode\u003en\u003c/code\u003e and set its initial value. Returns handle to\n the variable. If the variable already exists, then just returns the handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Transaction",
           "name": "init",
           "package": "WashNGo",
@@ -18365,6 +19654,7 @@
         "index": {
           "description": "Attempt to create new tv and set its initial value Returns handle to the variable If the variable already exists then just returns the handle",
           "hierarchy": "WASH CGI Transaction",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Transaction",
           "name": "init",
           "normalized": "String-\u003ea-\u003eTCGI b(T a)",
@@ -18380,6 +19670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a transactional variable. Subsequent read accesses to this variable\n will make the transaction fail. May throw an exception if the variable is not\n present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Transaction",
           "name": "remove",
           "package": "WashNGo",
@@ -18390,6 +19681,7 @@
         "index": {
           "description": "Remove transactional variable Subsequent read accesses to this variable will make the transaction fail May throw an exception if the variable is not present",
           "hierarchy": "WASH CGI Transaction",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Transaction",
           "name": "remove",
           "normalized": "T a-\u003eTCGI b()",
@@ -18405,6 +19697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to a transactional variable through typed handle. Only affects the\n log, no \u003cem\u003ephysical\u003c/em\u003e write happens. Checks physically for existence of the\n variable (but tries the log first). Raises exception if it does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Transaction",
           "name": "set",
           "package": "WashNGo",
@@ -18415,6 +19708,7 @@
         "index": {
           "description": "Write to transactional variable through typed handle Only affects the log no physical write happens Checks physically for existence of the variable but tries the log first Raises exception if it does not exist",
           "hierarchy": "WASH CGI Transaction",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Transaction",
           "name": "set",
           "normalized": "T a-\u003ea-\u003eTCGI b()",
@@ -18483,6 +19777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Transaction",
           "name": "with",
           "package": "WashNGo",
@@ -18492,6 +19787,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Transaction",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Transaction",
           "name": "with",
           "normalized": "a-\u003e(a-\u003eb())-\u003e(Control(TCGI a)a-\u003eTCGI a())-\u003eb()",
@@ -18507,6 +19803,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric utilities for implementing transactionsal memories\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.TransactionUtil",
           "name": "TransactionUtil",
           "package": "WashNGo",
@@ -18516,6 +19813,7 @@
         "index": {
           "description": "Generic utilities for implementing transactionsal memories",
           "hierarchy": "WASH CGI TransactionUtil",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.TransactionUtil",
           "name": "TransactionUtil",
           "package": "WashNGo",
@@ -18529,6 +19827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.TransactionUtil",
           "name": "Control",
           "package": "WashNGo",
@@ -18537,6 +19836,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI TransactionUtil",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.TransactionUtil",
           "name": "Control",
           "package": "WashNGo",
@@ -18551,6 +19851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnnested transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.TransactionUtil",
           "name": "withCGI",
           "package": "WashNGo",
@@ -18561,6 +19862,7 @@
         "index": {
           "description": "Unnested transaction",
           "hierarchy": "WASH CGI TransactionUtil",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.TransactionUtil",
           "name": "withCGI",
           "normalized": "([PARAMETER]-\u003eIO Bool)-\u003ea-\u003e(a-\u003eCGI())-\u003e(Control(TCGI a)a-\u003eTCGI a())-\u003eCGI()",
@@ -18577,6 +19879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enested transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.TransactionUtil",
           "name": "withTCGI",
           "package": "WashNGo",
@@ -18587,6 +19890,7 @@
         "index": {
           "description": "nested transaction",
           "hierarchy": "WASH CGI TransactionUtil",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.TransactionUtil",
           "name": "withTCGI",
           "normalized": "([PARAMETER]-\u003eIO Bool)-\u003ea-\u003e(a-\u003eTCGI a())-\u003e(Control(TCGI a)a-\u003eTCGI a())-\u003eTCGI a()",
@@ -18603,6 +19907,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Types module aims at providing a representation for (first-order)\nmonomorphic Haskell types. Two type representations are equal if and\nonly if the represented types have identical definitions. Thus a type\nrepresentation consists of a type term and the smallest list of all\n(data or newtype) definitions needed either in the type term or in\nanother definition. The list of definitions is sorted to make\nrepresentations unique.\n\u003c/p\u003e\u003cp\u003eThe main use of type representations is to provide a type index for\nstoring Haskell values externally and for reading them back into a\nrunning program without sacrificing type safety. Just reading them\nback with the \u003ccode\u003eRead\u003c/code\u003e class is not sufficient because\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eRead\u003c/code\u003e does not distinguish between \u003ccode\u003eInt\u003c/code\u003e and \u003ccode\u003eInteger\u003c/code\u003e, \u003ccode\u003eFloat\u003c/code\u003e and \u003ccode\u003eDouble\u003c/code\u003ey\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eRead\u003c/code\u003e cannot avoid accidental matches of constructor names\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMeanwhile, the \u003ccode\u003eData.Typeable\u003c/code\u003e class of GHC provides an encoding with similar\ngoals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "Types",
           "package": "WashNGo",
@@ -18612,6 +19917,7 @@
         "index": {
           "description": "The Types module aims at providing representation for first-order monomorphic Haskell types Two type representations are equal if and only if the represented types have identical definitions Thus type representation consists of type term and the smallest list of all data or newtype definitions needed either in the type term or in another definition The list of definitions is sorted to make representations unique The main use of type representations is to provide type index for storing Haskell values externally and for reading them back into running program without sacrificing type safety Just reading them back with the Read class is not sufficient because Read does not distinguish between Int and Integer Float and Double Read cannot avoid accidental matches of constructor names Meanwhile the Data.Typeable class of GHC provides an encoding with similar goals",
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "Types",
           "package": "WashNGo",
@@ -18626,6 +19932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constructor is represented by its name, a list of field names (if defined\n using record notation), and the list of its argument types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "ConRep",
           "package": "WashNGo",
@@ -18635,6 +19942,7 @@
         "index": {
           "description": "constructor is represented by its name list of field names if defined using record notation and the list of its argument types",
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "ConRep",
           "package": "WashNGo",
@@ -18648,6 +19956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "TID",
           "package": "WashNGo",
@@ -18656,6 +19965,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "TID",
           "package": "WashNGo",
@@ -18670,6 +19980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data declaration consists of the name of the data type, a list of type\n variables, and a list of constructor representations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "TyDecl",
           "package": "WashNGo",
@@ -18679,6 +19990,7 @@
         "index": {
           "description": "data declaration consists of the name of the data type list of type variables and list of constructor representations",
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "TyDecl",
           "package": "WashNGo",
@@ -18693,6 +20005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type representation is built from base types, type variables, tuples, and\n references to data-defined types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "TyRep",
           "package": "WashNGo",
@@ -18702,6 +20015,7 @@
         "index": {
           "description": "type representation is built from base types type variables tuples and references to data-defined types",
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "TyRep",
           "package": "WashNGo",
@@ -18716,6 +20030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type specification consists of a type representation \u003ccode\u003e\u003ca\u003eTyRep\u003c/a\u003e\u003c/code\u003e and a list of\n type declarations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "TySpec",
           "package": "WashNGo",
@@ -18725,6 +20040,7 @@
         "index": {
           "description": "type specification consists of type representation TyRep and list of type declarations",
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "TySpec",
           "package": "WashNGo",
@@ -18738,6 +20054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "Types",
           "package": "WashNGo",
@@ -18746,6 +20063,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "Types",
           "package": "WashNGo",
@@ -18759,6 +20077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "CR",
           "package": "WashNGo",
@@ -18768,6 +20087,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "CR",
           "normalized": "CR String(Maybe[String])[TyRep]",
@@ -18783,6 +20103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "TD",
           "package": "WashNGo",
@@ -18792,6 +20113,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "TD",
           "normalized": "TD String[String][ConRep]",
@@ -18807,6 +20129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "TRBase",
           "package": "WashNGo",
@@ -18816,6 +20139,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "TRBase",
           "package": "WashNGo",
@@ -18829,6 +20153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "TRData",
           "package": "WashNGo",
@@ -18838,6 +20163,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "TRData",
           "normalized": "TRData String[TyRep]",
@@ -18853,6 +20179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "TRTuple",
           "package": "WashNGo",
@@ -18862,6 +20189,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "TRTuple",
           "normalized": "TRTuple[TyRep]",
@@ -18877,6 +20205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "TRVar",
           "package": "WashNGo",
@@ -18886,6 +20215,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "TRVar",
           "package": "WashNGo",
@@ -18899,6 +20229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "TS",
           "package": "WashNGo",
@@ -18908,6 +20239,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "TS",
           "normalized": "TS TyRep[TyDecl]",
@@ -18923,6 +20255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "eitherDef",
           "package": "WashNGo",
@@ -18932,6 +20265,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "eitherDef",
           "package": "WashNGo",
@@ -18945,6 +20279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "listDef",
           "package": "WashNGo",
@@ -18954,6 +20289,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "listDef",
           "package": "WashNGo",
@@ -18967,6 +20303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "maybeDef",
           "package": "WashNGo",
@@ -18976,6 +20313,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "maybeDef",
           "package": "WashNGo",
@@ -18989,6 +20327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "merge",
           "package": "WashNGo",
@@ -18998,6 +20337,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "merge",
           "normalized": "[TyDecl]-\u003e[TyDecl]-\u003e[TyDecl]",
@@ -19012,6 +20352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "merges",
           "package": "WashNGo",
@@ -19021,6 +20362,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "merges",
           "normalized": "[[TyDecl]]-\u003e[TyDecl]",
@@ -19035,6 +20377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "tid",
           "package": "WashNGo",
@@ -19044,6 +20387,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "tid",
           "normalized": "a-\u003eShowS",
@@ -19058,6 +20402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.CGI.Types",
           "name": "ty",
           "package": "WashNGo",
@@ -19067,6 +20412,7 @@
         },
         "index": {
           "hierarchy": "WASH CGI Types",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.CGI.Types",
           "name": "ty",
           "normalized": "a-\u003eTySpec",
@@ -19081,6 +20427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "HTMLBase",
           "package": "WashNGo",
@@ -19089,6 +20436,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "HTMLBase",
           "package": "WashNGo",
@@ -19102,6 +20450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "ATTR_",
           "package": "WashNGo",
@@ -19110,6 +20459,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "ATTR_",
           "package": "WashNGo",
@@ -19123,6 +20473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "BT",
           "package": "WashNGo",
@@ -19131,6 +20482,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "BT",
           "package": "WashNGo",
@@ -19144,6 +20496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "CDATA_OPTIONS",
           "package": "WashNGo",
@@ -19152,6 +20505,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "CDATA_OPTIONS",
           "package": "WashNGo",
@@ -19165,6 +20519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "ELEMENT_",
           "package": "WashNGo",
@@ -19173,6 +20528,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "ELEMENT_",
           "package": "WashNGo",
@@ -19186,6 +20542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "ATTR_",
           "package": "WashNGo",
@@ -19195,6 +20552,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "ATTR_",
           "package": "WashNGo",
@@ -19208,6 +20566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "CDATA_",
           "package": "WashNGo",
@@ -19217,6 +20576,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "CDATA_",
           "package": "WashNGo",
@@ -19230,6 +20590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "CDATA_ENCODED",
           "package": "WashNGo",
@@ -19239,6 +20600,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "CDATA_ENCODED",
           "package": "WashNGo",
@@ -19252,6 +20614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "CDATA_FORMATTED",
           "package": "WashNGo",
@@ -19261,6 +20624,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "CDATA_FORMATTED",
           "package": "WashNGo",
@@ -19274,6 +20638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "COMMENT_",
           "package": "WashNGo",
@@ -19283,6 +20648,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "COMMENT_",
           "package": "WashNGo",
@@ -19296,6 +20662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "DOCTYPE_",
           "package": "WashNGo",
@@ -19305,6 +20672,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "DOCTYPE_",
           "package": "WashNGo",
@@ -19318,6 +20686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "DYNAMIC",
           "package": "WashNGo",
@@ -19327,6 +20696,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "DYNAMIC",
           "package": "WashNGo",
@@ -19340,6 +20710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "ELEMENT_",
           "package": "WashNGo",
@@ -19349,6 +20720,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "ELEMENT_",
           "package": "WashNGo",
@@ -19362,6 +20734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "EMPTY_",
           "package": "WashNGo",
@@ -19371,6 +20744,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "EMPTY_",
           "package": "WashNGo",
@@ -19384,6 +20758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "STATIC",
           "package": "WashNGo",
@@ -19393,6 +20768,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "STATIC",
           "package": "WashNGo",
@@ -19406,6 +20782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "TOPLEVEL",
           "package": "WashNGo",
@@ -19415,6 +20792,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "TOPLEVEL",
           "package": "WashNGo",
@@ -19428,6 +20806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "attr_BT",
           "package": "WashNGo",
@@ -19437,6 +20816,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "attr_BT",
           "package": "WashNGo",
@@ -19450,6 +20830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "attr_name",
           "package": "WashNGo",
@@ -19459,6 +20840,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "attr_name",
           "package": "WashNGo",
@@ -19471,6 +20853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "attr_value",
           "package": "WashNGo",
@@ -19480,6 +20863,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "attr_value",
           "package": "WashNGo",
@@ -19492,6 +20876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "attr_value_BT",
           "package": "WashNGo",
@@ -19501,6 +20886,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "attr_value_BT",
           "package": "WashNGo",
@@ -19514,6 +20900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "attrs",
           "package": "WashNGo",
@@ -19523,6 +20910,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "attrs",
           "normalized": "[ATTR_]",
@@ -19538,6 +20926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremoves illegal characters and sequences of -- from comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "commentEncode",
           "package": "WashNGo",
@@ -19548,6 +20937,7 @@
         "index": {
           "description": "removes illegal characters and sequences of from comment",
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "commentEncode",
           "normalized": "String-\u003eShowS",
@@ -19563,6 +20953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "doctype",
           "package": "WashNGo",
@@ -19572,6 +20963,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "doctype",
           "normalized": "[String]",
@@ -19586,6 +20978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "elem_BT",
           "package": "WashNGo",
@@ -19595,6 +20988,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "elem_BT",
           "package": "WashNGo",
@@ -19608,6 +21002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "elem_cdata",
           "package": "WashNGo",
@@ -19617,6 +21012,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "elem_cdata",
           "package": "WashNGo",
@@ -19629,6 +21025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "elem_comment",
           "package": "WashNGo",
@@ -19638,6 +21035,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "elem_comment",
           "package": "WashNGo",
@@ -19650,6 +21048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "elems",
           "package": "WashNGo",
@@ -19659,6 +21058,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "elems",
           "normalized": "[ELEMENT_]",
@@ -19673,6 +21073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "htmlAttr",
           "package": "WashNGo",
@@ -19682,6 +21083,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "htmlAttr",
           "normalized": "String-\u003eShowS",
@@ -19697,6 +21099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "htmlEncode",
           "package": "WashNGo",
@@ -19706,6 +21109,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "htmlEncode",
           "normalized": "String-\u003eString",
@@ -19721,6 +21125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "shows_attribute",
           "package": "WashNGo",
@@ -19730,6 +21135,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "shows_attribute",
           "normalized": "ATTR_-\u003eShowS",
@@ -19744,6 +21150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "shows_attributes",
           "package": "WashNGo",
@@ -19753,6 +21160,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "shows_attributes",
           "normalized": "[ATTR_]-\u003eShowS",
@@ -19767,6 +21175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "shows_element",
           "package": "WashNGo",
@@ -19776,6 +21185,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "shows_element",
           "normalized": "ELEMENT_-\u003eShowS",
@@ -19790,6 +21200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "shows_elements",
           "package": "WashNGo",
@@ -19799,6 +21210,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "shows_elements",
           "normalized": "[ELEMENT_]-\u003eShowS",
@@ -19813,6 +21225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLBase",
           "name": "tag",
           "package": "WashNGo",
@@ -19822,6 +21235,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLBase",
           "name": "tag",
           "package": "WashNGo",
@@ -19834,6 +21248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "HTMLMonad",
           "package": "WashNGo",
@@ -19842,6 +21257,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "HTMLMonad",
           "package": "WashNGo",
@@ -19855,6 +21271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "a",
           "package": "WashNGo",
@@ -19864,6 +21281,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "a",
           "package": "WashNGo",
@@ -19876,6 +21294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "a_S",
           "package": "WashNGo",
@@ -19885,6 +21304,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "a_S",
           "package": "WashNGo",
@@ -19897,6 +21317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "a_T",
           "package": "WashNGo",
@@ -19906,6 +21327,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "a_T",
           "package": "WashNGo",
@@ -19918,6 +21340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "abbr",
           "package": "WashNGo",
@@ -19927,6 +21350,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "abbr",
           "package": "WashNGo",
@@ -19939,6 +21363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "abbr_S",
           "package": "WashNGo",
@@ -19948,6 +21373,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "abbr_S",
           "package": "WashNGo",
@@ -19960,6 +21386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "abbr_T",
           "package": "WashNGo",
@@ -19969,6 +21396,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "abbr_T",
           "package": "WashNGo",
@@ -19981,6 +21409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "acronym",
           "package": "WashNGo",
@@ -19990,6 +21419,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "acronym",
           "package": "WashNGo",
@@ -20002,6 +21432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "acronym_S",
           "package": "WashNGo",
@@ -20011,6 +21442,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "acronym_S",
           "package": "WashNGo",
@@ -20023,6 +21455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "acronym_T",
           "package": "WashNGo",
@@ -20032,6 +21465,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "acronym_T",
           "package": "WashNGo",
@@ -20044,6 +21478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "address",
           "package": "WashNGo",
@@ -20053,6 +21488,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "address",
           "package": "WashNGo",
@@ -20065,6 +21501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "address_S",
           "package": "WashNGo",
@@ -20074,6 +21511,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "address_S",
           "package": "WashNGo",
@@ -20086,6 +21524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "address_T",
           "package": "WashNGo",
@@ -20095,6 +21534,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "address_T",
           "package": "WashNGo",
@@ -20107,6 +21547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "applet",
           "package": "WashNGo",
@@ -20116,6 +21557,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "applet",
           "package": "WashNGo",
@@ -20128,6 +21570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "applet_S",
           "package": "WashNGo",
@@ -20137,6 +21580,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "applet_S",
           "package": "WashNGo",
@@ -20149,6 +21593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "applet_T",
           "package": "WashNGo",
@@ -20158,6 +21603,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "applet_T",
           "package": "WashNGo",
@@ -20170,6 +21616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "area",
           "package": "WashNGo",
@@ -20179,6 +21626,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "area",
           "package": "WashNGo",
@@ -20191,6 +21639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "area_S",
           "package": "WashNGo",
@@ -20200,6 +21649,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "area_S",
           "package": "WashNGo",
@@ -20212,6 +21662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "area_T",
           "package": "WashNGo",
@@ -20221,6 +21672,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "area_T",
           "package": "WashNGo",
@@ -20233,6 +21685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "b",
           "package": "WashNGo",
@@ -20242,6 +21695,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "b",
           "package": "WashNGo",
@@ -20254,6 +21708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "b_S",
           "package": "WashNGo",
@@ -20263,6 +21718,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "b_S",
           "package": "WashNGo",
@@ -20275,6 +21731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "b_T",
           "package": "WashNGo",
@@ -20284,6 +21741,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "b_T",
           "package": "WashNGo",
@@ -20296,6 +21754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "base",
           "package": "WashNGo",
@@ -20305,6 +21764,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "base",
           "package": "WashNGo",
@@ -20317,6 +21777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "base_S",
           "package": "WashNGo",
@@ -20326,6 +21787,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "base_S",
           "package": "WashNGo",
@@ -20338,6 +21800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "base_T",
           "package": "WashNGo",
@@ -20347,6 +21810,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "base_T",
           "package": "WashNGo",
@@ -20359,6 +21823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "basefont",
           "package": "WashNGo",
@@ -20368,6 +21833,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "basefont",
           "package": "WashNGo",
@@ -20380,6 +21846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "basefont_S",
           "package": "WashNGo",
@@ -20389,6 +21856,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "basefont_S",
           "package": "WashNGo",
@@ -20401,6 +21869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "basefont_T",
           "package": "WashNGo",
@@ -20410,6 +21879,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "basefont_T",
           "package": "WashNGo",
@@ -20422,6 +21892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "bdo",
           "package": "WashNGo",
@@ -20431,6 +21902,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "bdo",
           "package": "WashNGo",
@@ -20443,6 +21915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "bdo_S",
           "package": "WashNGo",
@@ -20452,6 +21925,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "bdo_S",
           "package": "WashNGo",
@@ -20464,6 +21938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "bdo_T",
           "package": "WashNGo",
@@ -20473,6 +21948,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "bdo_T",
           "package": "WashNGo",
@@ -20485,6 +21961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "big",
           "package": "WashNGo",
@@ -20494,6 +21971,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "big",
           "package": "WashNGo",
@@ -20506,6 +21984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "big_S",
           "package": "WashNGo",
@@ -20515,6 +21994,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "big_S",
           "package": "WashNGo",
@@ -20527,6 +22007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "big_T",
           "package": "WashNGo",
@@ -20536,6 +22017,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "big_T",
           "package": "WashNGo",
@@ -20548,6 +22030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "blockquote",
           "package": "WashNGo",
@@ -20557,6 +22040,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "blockquote",
           "package": "WashNGo",
@@ -20569,6 +22053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "blockquote_S",
           "package": "WashNGo",
@@ -20578,6 +22063,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "blockquote_S",
           "package": "WashNGo",
@@ -20590,6 +22076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "blockquote_T",
           "package": "WashNGo",
@@ -20599,6 +22086,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "blockquote_T",
           "package": "WashNGo",
@@ -20611,6 +22099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "body",
           "package": "WashNGo",
@@ -20620,6 +22109,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "body",
           "package": "WashNGo",
@@ -20632,6 +22122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "body_S",
           "package": "WashNGo",
@@ -20641,6 +22132,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "body_S",
           "package": "WashNGo",
@@ -20653,6 +22145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "body_T",
           "package": "WashNGo",
@@ -20662,6 +22155,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "body_T",
           "package": "WashNGo",
@@ -20674,6 +22168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "br",
           "package": "WashNGo",
@@ -20683,6 +22178,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "br",
           "package": "WashNGo",
@@ -20695,6 +22191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "br_S",
           "package": "WashNGo",
@@ -20704,6 +22201,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "br_S",
           "package": "WashNGo",
@@ -20716,6 +22214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "br_T",
           "package": "WashNGo",
@@ -20725,6 +22224,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "br_T",
           "package": "WashNGo",
@@ -20737,6 +22237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "button",
           "package": "WashNGo",
@@ -20746,6 +22247,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "button",
           "package": "WashNGo",
@@ -20758,6 +22260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "button_S",
           "package": "WashNGo",
@@ -20767,6 +22270,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "button_S",
           "package": "WashNGo",
@@ -20779,6 +22283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "button_T",
           "package": "WashNGo",
@@ -20788,6 +22293,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "button_T",
           "package": "WashNGo",
@@ -20800,6 +22306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "caption",
           "package": "WashNGo",
@@ -20809,6 +22316,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "caption",
           "package": "WashNGo",
@@ -20821,6 +22329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "caption_S",
           "package": "WashNGo",
@@ -20830,6 +22339,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "caption_S",
           "package": "WashNGo",
@@ -20842,6 +22352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "caption_T",
           "package": "WashNGo",
@@ -20851,6 +22362,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "caption_T",
           "package": "WashNGo",
@@ -20863,6 +22375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "center",
           "package": "WashNGo",
@@ -20872,6 +22385,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "center",
           "package": "WashNGo",
@@ -20884,6 +22398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "center_S",
           "package": "WashNGo",
@@ -20893,6 +22408,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "center_S",
           "package": "WashNGo",
@@ -20905,6 +22421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "center_T",
           "package": "WashNGo",
@@ -20914,6 +22431,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "center_T",
           "package": "WashNGo",
@@ -20926,6 +22444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "cite",
           "package": "WashNGo",
@@ -20935,6 +22454,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "cite",
           "package": "WashNGo",
@@ -20947,6 +22467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "cite_S",
           "package": "WashNGo",
@@ -20956,6 +22477,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "cite_S",
           "package": "WashNGo",
@@ -20968,6 +22490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "cite_T",
           "package": "WashNGo",
@@ -20977,6 +22500,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "cite_T",
           "package": "WashNGo",
@@ -20989,6 +22513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "code",
           "package": "WashNGo",
@@ -20998,6 +22523,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "code",
           "package": "WashNGo",
@@ -21010,6 +22536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "code_S",
           "package": "WashNGo",
@@ -21019,6 +22546,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "code_S",
           "package": "WashNGo",
@@ -21031,6 +22559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "code_T",
           "package": "WashNGo",
@@ -21040,6 +22569,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "code_T",
           "package": "WashNGo",
@@ -21052,6 +22582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "col",
           "package": "WashNGo",
@@ -21061,6 +22592,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "col",
           "package": "WashNGo",
@@ -21073,6 +22605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "col_S",
           "package": "WashNGo",
@@ -21082,6 +22615,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "col_S",
           "package": "WashNGo",
@@ -21094,6 +22628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "col_T",
           "package": "WashNGo",
@@ -21103,6 +22638,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "col_T",
           "package": "WashNGo",
@@ -21115,6 +22651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "colgroup",
           "package": "WashNGo",
@@ -21124,6 +22661,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "colgroup",
           "package": "WashNGo",
@@ -21136,6 +22674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "colgroup_S",
           "package": "WashNGo",
@@ -21145,6 +22684,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "colgroup_S",
           "package": "WashNGo",
@@ -21157,6 +22697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "colgroup_T",
           "package": "WashNGo",
@@ -21166,6 +22707,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "colgroup_T",
           "package": "WashNGo",
@@ -21178,6 +22720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dd",
           "package": "WashNGo",
@@ -21187,6 +22730,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dd",
           "package": "WashNGo",
@@ -21199,6 +22743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dd_S",
           "package": "WashNGo",
@@ -21208,6 +22753,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dd_S",
           "package": "WashNGo",
@@ -21220,6 +22766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dd_T",
           "package": "WashNGo",
@@ -21229,6 +22776,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dd_T",
           "package": "WashNGo",
@@ -21241,6 +22789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "del",
           "package": "WashNGo",
@@ -21250,6 +22799,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "del",
           "package": "WashNGo",
@@ -21262,6 +22812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "del_S",
           "package": "WashNGo",
@@ -21271,6 +22822,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "del_S",
           "package": "WashNGo",
@@ -21283,6 +22835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "del_T",
           "package": "WashNGo",
@@ -21292,6 +22845,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "del_T",
           "package": "WashNGo",
@@ -21304,6 +22858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dfn",
           "package": "WashNGo",
@@ -21313,6 +22868,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dfn",
           "package": "WashNGo",
@@ -21325,6 +22881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dfn_S",
           "package": "WashNGo",
@@ -21334,6 +22891,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dfn_S",
           "package": "WashNGo",
@@ -21346,6 +22904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dfn_T",
           "package": "WashNGo",
@@ -21355,6 +22914,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dfn_T",
           "package": "WashNGo",
@@ -21367,6 +22927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dir",
           "package": "WashNGo",
@@ -21376,6 +22937,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dir",
           "package": "WashNGo",
@@ -21388,6 +22950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dir_S",
           "package": "WashNGo",
@@ -21397,6 +22960,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dir_S",
           "package": "WashNGo",
@@ -21409,6 +22973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dir_T",
           "package": "WashNGo",
@@ -21418,6 +22983,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dir_T",
           "package": "WashNGo",
@@ -21430,6 +22996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "div",
           "package": "WashNGo",
@@ -21439,6 +23006,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "div",
           "package": "WashNGo",
@@ -21451,6 +23019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "div_S",
           "package": "WashNGo",
@@ -21460,6 +23029,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "div_S",
           "package": "WashNGo",
@@ -21472,6 +23042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "div_T",
           "package": "WashNGo",
@@ -21481,6 +23052,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "div_T",
           "package": "WashNGo",
@@ -21493,6 +23065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dl",
           "package": "WashNGo",
@@ -21502,6 +23075,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dl",
           "package": "WashNGo",
@@ -21514,6 +23088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dl_S",
           "package": "WashNGo",
@@ -21523,6 +23098,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dl_S",
           "package": "WashNGo",
@@ -21535,6 +23111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dl_T",
           "package": "WashNGo",
@@ -21544,6 +23121,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dl_T",
           "package": "WashNGo",
@@ -21556,6 +23134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dt",
           "package": "WashNGo",
@@ -21565,6 +23144,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dt",
           "package": "WashNGo",
@@ -21577,6 +23157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dt_S",
           "package": "WashNGo",
@@ -21586,6 +23167,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dt_S",
           "package": "WashNGo",
@@ -21598,6 +23180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dt_T",
           "package": "WashNGo",
@@ -21607,6 +23190,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "dt_T",
           "package": "WashNGo",
@@ -21619,6 +23203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "em",
           "package": "WashNGo",
@@ -21628,6 +23213,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "em",
           "package": "WashNGo",
@@ -21640,6 +23226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "em_S",
           "package": "WashNGo",
@@ -21649,6 +23236,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "em_S",
           "package": "WashNGo",
@@ -21661,6 +23249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "em_T",
           "package": "WashNGo",
@@ -21670,6 +23259,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "em_T",
           "package": "WashNGo",
@@ -21682,6 +23272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "fieldset",
           "package": "WashNGo",
@@ -21691,6 +23282,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "fieldset",
           "package": "WashNGo",
@@ -21703,6 +23295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "fieldset_S",
           "package": "WashNGo",
@@ -21712,6 +23305,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "fieldset_S",
           "package": "WashNGo",
@@ -21724,6 +23318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "fieldset_T",
           "package": "WashNGo",
@@ -21733,6 +23328,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "fieldset_T",
           "package": "WashNGo",
@@ -21745,6 +23341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "font",
           "package": "WashNGo",
@@ -21754,6 +23351,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "font",
           "package": "WashNGo",
@@ -21766,6 +23364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "font_S",
           "package": "WashNGo",
@@ -21775,6 +23374,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "font_S",
           "package": "WashNGo",
@@ -21787,6 +23387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "font_T",
           "package": "WashNGo",
@@ -21796,6 +23397,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "font_T",
           "package": "WashNGo",
@@ -21808,6 +23410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "form",
           "package": "WashNGo",
@@ -21817,6 +23420,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "form",
           "package": "WashNGo",
@@ -21829,6 +23433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "form_S",
           "package": "WashNGo",
@@ -21838,6 +23443,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "form_S",
           "package": "WashNGo",
@@ -21850,6 +23456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "form_T",
           "package": "WashNGo",
@@ -21859,6 +23466,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "form_T",
           "package": "WashNGo",
@@ -21871,6 +23479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frame",
           "package": "WashNGo",
@@ -21880,6 +23489,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frame",
           "package": "WashNGo",
@@ -21892,6 +23502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frame_S",
           "package": "WashNGo",
@@ -21901,6 +23512,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frame_S",
           "package": "WashNGo",
@@ -21913,6 +23525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frame_T",
           "package": "WashNGo",
@@ -21922,6 +23535,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frame_T",
           "package": "WashNGo",
@@ -21934,6 +23548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frameset",
           "package": "WashNGo",
@@ -21943,6 +23558,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frameset",
           "package": "WashNGo",
@@ -21955,6 +23571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frameset_S",
           "package": "WashNGo",
@@ -21964,6 +23581,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frameset_S",
           "package": "WashNGo",
@@ -21976,6 +23594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frameset_T",
           "package": "WashNGo",
@@ -21985,6 +23604,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "frameset_T",
           "package": "WashNGo",
@@ -21997,6 +23617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h1",
           "package": "WashNGo",
@@ -22006,6 +23627,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h1",
           "package": "WashNGo",
@@ -22018,6 +23640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h1_S",
           "package": "WashNGo",
@@ -22027,6 +23650,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h1_S",
           "package": "WashNGo",
@@ -22039,6 +23663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h1_T",
           "package": "WashNGo",
@@ -22048,6 +23673,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h1_T",
           "package": "WashNGo",
@@ -22060,6 +23686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h2",
           "package": "WashNGo",
@@ -22069,6 +23696,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h2",
           "package": "WashNGo",
@@ -22081,6 +23709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h2_S",
           "package": "WashNGo",
@@ -22090,6 +23719,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h2_S",
           "package": "WashNGo",
@@ -22102,6 +23732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h2_T",
           "package": "WashNGo",
@@ -22111,6 +23742,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h2_T",
           "package": "WashNGo",
@@ -22123,6 +23755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h3",
           "package": "WashNGo",
@@ -22132,6 +23765,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h3",
           "package": "WashNGo",
@@ -22144,6 +23778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h3_S",
           "package": "WashNGo",
@@ -22153,6 +23788,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h3_S",
           "package": "WashNGo",
@@ -22165,6 +23801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h3_T",
           "package": "WashNGo",
@@ -22174,6 +23811,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h3_T",
           "package": "WashNGo",
@@ -22186,6 +23824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h4",
           "package": "WashNGo",
@@ -22195,6 +23834,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h4",
           "package": "WashNGo",
@@ -22207,6 +23847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h4_S",
           "package": "WashNGo",
@@ -22216,6 +23857,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h4_S",
           "package": "WashNGo",
@@ -22228,6 +23870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h4_T",
           "package": "WashNGo",
@@ -22237,6 +23880,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h4_T",
           "package": "WashNGo",
@@ -22249,6 +23893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h5",
           "package": "WashNGo",
@@ -22258,6 +23903,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h5",
           "package": "WashNGo",
@@ -22270,6 +23916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h5_S",
           "package": "WashNGo",
@@ -22279,6 +23926,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h5_S",
           "package": "WashNGo",
@@ -22291,6 +23939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h5_T",
           "package": "WashNGo",
@@ -22300,6 +23949,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h5_T",
           "package": "WashNGo",
@@ -22312,6 +23962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h6",
           "package": "WashNGo",
@@ -22321,6 +23972,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h6",
           "package": "WashNGo",
@@ -22333,6 +23985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h6_S",
           "package": "WashNGo",
@@ -22342,6 +23995,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h6_S",
           "package": "WashNGo",
@@ -22354,6 +24008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h6_T",
           "package": "WashNGo",
@@ -22363,6 +24018,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "h6_T",
           "package": "WashNGo",
@@ -22375,6 +24031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "head",
           "package": "WashNGo",
@@ -22384,6 +24041,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "head",
           "package": "WashNGo",
@@ -22396,6 +24054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "head_S",
           "package": "WashNGo",
@@ -22405,6 +24064,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "head_S",
           "package": "WashNGo",
@@ -22417,6 +24077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "head_T",
           "package": "WashNGo",
@@ -22426,6 +24087,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "head_T",
           "package": "WashNGo",
@@ -22438,6 +24100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "hr",
           "package": "WashNGo",
@@ -22447,6 +24110,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "hr",
           "package": "WashNGo",
@@ -22459,6 +24123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "hr_S",
           "package": "WashNGo",
@@ -22468,6 +24133,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "hr_S",
           "package": "WashNGo",
@@ -22480,6 +24146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "hr_T",
           "package": "WashNGo",
@@ -22489,6 +24156,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "hr_T",
           "package": "WashNGo",
@@ -22501,6 +24169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "html",
           "package": "WashNGo",
@@ -22510,6 +24179,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "html",
           "package": "WashNGo",
@@ -22522,6 +24192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "html_S",
           "package": "WashNGo",
@@ -22531,6 +24202,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "html_S",
           "package": "WashNGo",
@@ -22543,6 +24215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "html_T",
           "package": "WashNGo",
@@ -22552,6 +24225,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "html_T",
           "package": "WashNGo",
@@ -22564,6 +24238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "i",
           "package": "WashNGo",
@@ -22573,6 +24248,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "i",
           "package": "WashNGo",
@@ -22585,6 +24261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "i_S",
           "package": "WashNGo",
@@ -22594,6 +24271,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "i_S",
           "package": "WashNGo",
@@ -22606,6 +24284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "i_T",
           "package": "WashNGo",
@@ -22615,6 +24294,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "i_T",
           "package": "WashNGo",
@@ -22627,6 +24307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "iframe",
           "package": "WashNGo",
@@ -22636,6 +24317,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "iframe",
           "package": "WashNGo",
@@ -22648,6 +24330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "iframe_S",
           "package": "WashNGo",
@@ -22657,6 +24340,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "iframe_S",
           "package": "WashNGo",
@@ -22669,6 +24353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "iframe_T",
           "package": "WashNGo",
@@ -22678,6 +24363,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "iframe_T",
           "package": "WashNGo",
@@ -22690,6 +24376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "img",
           "package": "WashNGo",
@@ -22699,6 +24386,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "img",
           "package": "WashNGo",
@@ -22711,6 +24399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "img_S",
           "package": "WashNGo",
@@ -22720,6 +24409,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "img_S",
           "package": "WashNGo",
@@ -22732,6 +24422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "img_T",
           "package": "WashNGo",
@@ -22741,6 +24432,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "img_T",
           "package": "WashNGo",
@@ -22753,6 +24445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "input",
           "package": "WashNGo",
@@ -22762,6 +24455,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "input",
           "package": "WashNGo",
@@ -22774,6 +24468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "input_S",
           "package": "WashNGo",
@@ -22783,6 +24478,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "input_S",
           "package": "WashNGo",
@@ -22795,6 +24491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "input_T",
           "package": "WashNGo",
@@ -22804,6 +24501,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "input_T",
           "package": "WashNGo",
@@ -22816,6 +24514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ins",
           "package": "WashNGo",
@@ -22825,6 +24524,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ins",
           "package": "WashNGo",
@@ -22837,6 +24537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ins_S",
           "package": "WashNGo",
@@ -22846,6 +24547,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ins_S",
           "package": "WashNGo",
@@ -22858,6 +24560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ins_T",
           "package": "WashNGo",
@@ -22867,6 +24570,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ins_T",
           "package": "WashNGo",
@@ -22879,6 +24583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "isindex",
           "package": "WashNGo",
@@ -22888,6 +24593,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "isindex",
           "package": "WashNGo",
@@ -22900,6 +24606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "isindex_S",
           "package": "WashNGo",
@@ -22909,6 +24616,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "isindex_S",
           "package": "WashNGo",
@@ -22921,6 +24629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "isindex_T",
           "package": "WashNGo",
@@ -22930,6 +24639,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "isindex_T",
           "package": "WashNGo",
@@ -22942,6 +24652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "kbd",
           "package": "WashNGo",
@@ -22951,6 +24662,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "kbd",
           "package": "WashNGo",
@@ -22963,6 +24675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "kbd_S",
           "package": "WashNGo",
@@ -22972,6 +24685,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "kbd_S",
           "package": "WashNGo",
@@ -22984,6 +24698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "kbd_T",
           "package": "WashNGo",
@@ -22993,6 +24708,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "kbd_T",
           "package": "WashNGo",
@@ -23005,6 +24721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "label",
           "package": "WashNGo",
@@ -23014,6 +24731,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "label",
           "package": "WashNGo",
@@ -23026,6 +24744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "label_S",
           "package": "WashNGo",
@@ -23035,6 +24754,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "label_S",
           "package": "WashNGo",
@@ -23047,6 +24767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "label_T",
           "package": "WashNGo",
@@ -23056,6 +24777,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "label_T",
           "package": "WashNGo",
@@ -23068,6 +24790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "legend",
           "package": "WashNGo",
@@ -23077,6 +24800,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "legend",
           "package": "WashNGo",
@@ -23089,6 +24813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "legend_S",
           "package": "WashNGo",
@@ -23098,6 +24823,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "legend_S",
           "package": "WashNGo",
@@ -23110,6 +24836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "legend_T",
           "package": "WashNGo",
@@ -23119,6 +24846,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "legend_T",
           "package": "WashNGo",
@@ -23131,6 +24859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "li",
           "package": "WashNGo",
@@ -23140,6 +24869,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "li",
           "package": "WashNGo",
@@ -23152,6 +24882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "li_S",
           "package": "WashNGo",
@@ -23161,6 +24892,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "li_S",
           "package": "WashNGo",
@@ -23173,6 +24905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "li_T",
           "package": "WashNGo",
@@ -23182,6 +24915,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "li_T",
           "package": "WashNGo",
@@ -23194,6 +24928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "link",
           "package": "WashNGo",
@@ -23203,6 +24938,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "link",
           "package": "WashNGo",
@@ -23215,6 +24951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "link_S",
           "package": "WashNGo",
@@ -23224,6 +24961,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "link_S",
           "package": "WashNGo",
@@ -23236,6 +24974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "link_T",
           "package": "WashNGo",
@@ -23245,6 +24984,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "link_T",
           "package": "WashNGo",
@@ -23257,6 +24997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "map",
           "package": "WashNGo",
@@ -23266,6 +25007,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "map",
           "package": "WashNGo",
@@ -23278,6 +25020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "map_S",
           "package": "WashNGo",
@@ -23287,6 +25030,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "map_S",
           "package": "WashNGo",
@@ -23299,6 +25043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "map_T",
           "package": "WashNGo",
@@ -23308,6 +25053,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "map_T",
           "package": "WashNGo",
@@ -23320,6 +25066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "menu",
           "package": "WashNGo",
@@ -23329,6 +25076,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "menu",
           "package": "WashNGo",
@@ -23341,6 +25089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "menu_S",
           "package": "WashNGo",
@@ -23350,6 +25099,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "menu_S",
           "package": "WashNGo",
@@ -23362,6 +25112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "menu_T",
           "package": "WashNGo",
@@ -23371,6 +25122,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "menu_T",
           "package": "WashNGo",
@@ -23383,6 +25135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "meta",
           "package": "WashNGo",
@@ -23392,6 +25145,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "meta",
           "package": "WashNGo",
@@ -23404,6 +25158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "meta_S",
           "package": "WashNGo",
@@ -23413,6 +25168,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "meta_S",
           "package": "WashNGo",
@@ -23425,6 +25181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "meta_T",
           "package": "WashNGo",
@@ -23434,6 +25191,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "meta_T",
           "package": "WashNGo",
@@ -23446,6 +25204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noframes",
           "package": "WashNGo",
@@ -23455,6 +25214,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noframes",
           "package": "WashNGo",
@@ -23467,6 +25227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noframes_S",
           "package": "WashNGo",
@@ -23476,6 +25237,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noframes_S",
           "package": "WashNGo",
@@ -23488,6 +25250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noframes_T",
           "package": "WashNGo",
@@ -23497,6 +25260,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noframes_T",
           "package": "WashNGo",
@@ -23509,6 +25273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noscript",
           "package": "WashNGo",
@@ -23518,6 +25283,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noscript",
           "package": "WashNGo",
@@ -23530,6 +25296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noscript_S",
           "package": "WashNGo",
@@ -23539,6 +25306,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noscript_S",
           "package": "WashNGo",
@@ -23551,6 +25319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noscript_T",
           "package": "WashNGo",
@@ -23560,6 +25329,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "noscript_T",
           "package": "WashNGo",
@@ -23572,6 +25342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "object",
           "package": "WashNGo",
@@ -23581,6 +25352,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "object",
           "package": "WashNGo",
@@ -23593,6 +25365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "object_S",
           "package": "WashNGo",
@@ -23602,6 +25375,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "object_S",
           "package": "WashNGo",
@@ -23614,6 +25388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "object_T",
           "package": "WashNGo",
@@ -23623,6 +25398,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "object_T",
           "package": "WashNGo",
@@ -23635,6 +25411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ol",
           "package": "WashNGo",
@@ -23644,6 +25421,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ol",
           "package": "WashNGo",
@@ -23656,6 +25434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ol_S",
           "package": "WashNGo",
@@ -23665,6 +25444,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ol_S",
           "package": "WashNGo",
@@ -23677,6 +25457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ol_T",
           "package": "WashNGo",
@@ -23686,6 +25467,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ol_T",
           "package": "WashNGo",
@@ -23698,6 +25480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "optgroup",
           "package": "WashNGo",
@@ -23707,6 +25490,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "optgroup",
           "package": "WashNGo",
@@ -23719,6 +25503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "optgroup_S",
           "package": "WashNGo",
@@ -23728,6 +25513,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "optgroup_S",
           "package": "WashNGo",
@@ -23740,6 +25526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "optgroup_T",
           "package": "WashNGo",
@@ -23749,6 +25536,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "optgroup_T",
           "package": "WashNGo",
@@ -23761,6 +25549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "option",
           "package": "WashNGo",
@@ -23770,6 +25559,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "option",
           "package": "WashNGo",
@@ -23782,6 +25572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "option_S",
           "package": "WashNGo",
@@ -23791,6 +25582,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "option_S",
           "package": "WashNGo",
@@ -23803,6 +25595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "option_T",
           "package": "WashNGo",
@@ -23812,6 +25605,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "option_T",
           "package": "WashNGo",
@@ -23824,6 +25618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "p",
           "package": "WashNGo",
@@ -23833,6 +25628,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "p",
           "package": "WashNGo",
@@ -23845,6 +25641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "p_S",
           "package": "WashNGo",
@@ -23854,6 +25651,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "p_S",
           "package": "WashNGo",
@@ -23866,6 +25664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "p_T",
           "package": "WashNGo",
@@ -23875,6 +25674,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "p_T",
           "package": "WashNGo",
@@ -23887,6 +25687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "param",
           "package": "WashNGo",
@@ -23896,6 +25697,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "param",
           "package": "WashNGo",
@@ -23908,6 +25710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "param_S",
           "package": "WashNGo",
@@ -23917,6 +25720,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "param_S",
           "package": "WashNGo",
@@ -23929,6 +25733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "param_T",
           "package": "WashNGo",
@@ -23938,6 +25743,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "param_T",
           "package": "WashNGo",
@@ -23950,6 +25756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "pre",
           "package": "WashNGo",
@@ -23959,6 +25766,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "pre",
           "package": "WashNGo",
@@ -23971,6 +25779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "pre_S",
           "package": "WashNGo",
@@ -23980,6 +25789,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "pre_S",
           "package": "WashNGo",
@@ -23992,6 +25802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "pre_T",
           "package": "WashNGo",
@@ -24001,6 +25812,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "pre_T",
           "package": "WashNGo",
@@ -24013,6 +25825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "q",
           "package": "WashNGo",
@@ -24022,6 +25835,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "q",
           "package": "WashNGo",
@@ -24034,6 +25848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "q_S",
           "package": "WashNGo",
@@ -24043,6 +25858,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "q_S",
           "package": "WashNGo",
@@ -24055,6 +25871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "q_T",
           "package": "WashNGo",
@@ -24064,6 +25881,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "q_T",
           "package": "WashNGo",
@@ -24076,6 +25894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "s",
           "package": "WashNGo",
@@ -24085,6 +25904,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "s",
           "package": "WashNGo",
@@ -24097,6 +25917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "s_S",
           "package": "WashNGo",
@@ -24106,6 +25927,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "s_S",
           "package": "WashNGo",
@@ -24118,6 +25940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "s_T",
           "package": "WashNGo",
@@ -24127,6 +25950,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "s_T",
           "package": "WashNGo",
@@ -24139,6 +25963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "samp",
           "package": "WashNGo",
@@ -24148,6 +25973,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "samp",
           "package": "WashNGo",
@@ -24160,6 +25986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "samp_S",
           "package": "WashNGo",
@@ -24169,6 +25996,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "samp_S",
           "package": "WashNGo",
@@ -24181,6 +26009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "samp_T",
           "package": "WashNGo",
@@ -24190,6 +26019,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "samp_T",
           "package": "WashNGo",
@@ -24202,6 +26032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "script",
           "package": "WashNGo",
@@ -24211,6 +26042,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "script",
           "package": "WashNGo",
@@ -24223,6 +26055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "script_S",
           "package": "WashNGo",
@@ -24232,6 +26065,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "script_S",
           "package": "WashNGo",
@@ -24244,6 +26078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "script_T",
           "package": "WashNGo",
@@ -24253,6 +26088,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "script_T",
           "package": "WashNGo",
@@ -24265,6 +26101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "select",
           "package": "WashNGo",
@@ -24274,6 +26111,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "select",
           "package": "WashNGo",
@@ -24286,6 +26124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "select_S",
           "package": "WashNGo",
@@ -24295,6 +26134,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "select_S",
           "package": "WashNGo",
@@ -24307,6 +26147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "select_T",
           "package": "WashNGo",
@@ -24316,6 +26157,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "select_T",
           "package": "WashNGo",
@@ -24328,6 +26170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "small",
           "package": "WashNGo",
@@ -24337,6 +26180,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "small",
           "package": "WashNGo",
@@ -24349,6 +26193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "small_S",
           "package": "WashNGo",
@@ -24358,6 +26203,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "small_S",
           "package": "WashNGo",
@@ -24370,6 +26216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "small_T",
           "package": "WashNGo",
@@ -24379,6 +26226,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "small_T",
           "package": "WashNGo",
@@ -24391,6 +26239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "span",
           "package": "WashNGo",
@@ -24400,6 +26249,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "span",
           "package": "WashNGo",
@@ -24412,6 +26262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "span_S",
           "package": "WashNGo",
@@ -24421,6 +26272,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "span_S",
           "package": "WashNGo",
@@ -24433,6 +26285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "span_T",
           "package": "WashNGo",
@@ -24442,6 +26295,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "span_T",
           "package": "WashNGo",
@@ -24454,6 +26308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strike",
           "package": "WashNGo",
@@ -24463,6 +26318,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strike",
           "package": "WashNGo",
@@ -24475,6 +26331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strike_S",
           "package": "WashNGo",
@@ -24484,6 +26341,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strike_S",
           "package": "WashNGo",
@@ -24496,6 +26354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strike_T",
           "package": "WashNGo",
@@ -24505,6 +26364,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strike_T",
           "package": "WashNGo",
@@ -24517,6 +26377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strong",
           "package": "WashNGo",
@@ -24526,6 +26387,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strong",
           "package": "WashNGo",
@@ -24538,6 +26400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strong_S",
           "package": "WashNGo",
@@ -24547,6 +26410,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strong_S",
           "package": "WashNGo",
@@ -24559,6 +26423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strong_T",
           "package": "WashNGo",
@@ -24568,6 +26433,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "strong_T",
           "package": "WashNGo",
@@ -24580,6 +26446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "style",
           "package": "WashNGo",
@@ -24589,6 +26456,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "style",
           "package": "WashNGo",
@@ -24601,6 +26469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "style_S",
           "package": "WashNGo",
@@ -24610,6 +26479,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "style_S",
           "package": "WashNGo",
@@ -24622,6 +26492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "style_T",
           "package": "WashNGo",
@@ -24631,6 +26502,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "style_T",
           "package": "WashNGo",
@@ -24643,6 +26515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sub",
           "package": "WashNGo",
@@ -24652,6 +26525,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sub",
           "package": "WashNGo",
@@ -24664,6 +26538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sub_S",
           "package": "WashNGo",
@@ -24673,6 +26548,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sub_S",
           "package": "WashNGo",
@@ -24685,6 +26561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sub_T",
           "package": "WashNGo",
@@ -24694,6 +26571,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sub_T",
           "package": "WashNGo",
@@ -24706,6 +26584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sup",
           "package": "WashNGo",
@@ -24715,6 +26594,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sup",
           "package": "WashNGo",
@@ -24727,6 +26607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sup_S",
           "package": "WashNGo",
@@ -24736,6 +26617,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sup_S",
           "package": "WashNGo",
@@ -24748,6 +26630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sup_T",
           "package": "WashNGo",
@@ -24757,6 +26640,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "sup_T",
           "package": "WashNGo",
@@ -24769,6 +26653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "table",
           "package": "WashNGo",
@@ -24778,6 +26663,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "table",
           "package": "WashNGo",
@@ -24790,6 +26676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "table_S",
           "package": "WashNGo",
@@ -24799,6 +26686,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "table_S",
           "package": "WashNGo",
@@ -24811,6 +26699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "table_T",
           "package": "WashNGo",
@@ -24820,6 +26709,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "table_T",
           "package": "WashNGo",
@@ -24832,6 +26722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tbody",
           "package": "WashNGo",
@@ -24841,6 +26732,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tbody",
           "package": "WashNGo",
@@ -24853,6 +26745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tbody_S",
           "package": "WashNGo",
@@ -24862,6 +26755,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tbody_S",
           "package": "WashNGo",
@@ -24874,6 +26768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tbody_T",
           "package": "WashNGo",
@@ -24883,6 +26778,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tbody_T",
           "package": "WashNGo",
@@ -24895,6 +26791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "td",
           "package": "WashNGo",
@@ -24904,6 +26801,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "td",
           "package": "WashNGo",
@@ -24916,6 +26814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "td_S",
           "package": "WashNGo",
@@ -24925,6 +26824,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "td_S",
           "package": "WashNGo",
@@ -24937,6 +26837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "td_T",
           "package": "WashNGo",
@@ -24946,6 +26847,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "td_T",
           "package": "WashNGo",
@@ -24958,6 +26860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "textarea",
           "package": "WashNGo",
@@ -24967,6 +26870,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "textarea",
           "package": "WashNGo",
@@ -24979,6 +26883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "textarea_S",
           "package": "WashNGo",
@@ -24988,6 +26893,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "textarea_S",
           "package": "WashNGo",
@@ -25000,6 +26906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "textarea_T",
           "package": "WashNGo",
@@ -25009,6 +26916,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "textarea_T",
           "package": "WashNGo",
@@ -25021,6 +26929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tfoot",
           "package": "WashNGo",
@@ -25030,6 +26939,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tfoot",
           "package": "WashNGo",
@@ -25042,6 +26952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tfoot_S",
           "package": "WashNGo",
@@ -25051,6 +26962,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tfoot_S",
           "package": "WashNGo",
@@ -25063,6 +26975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tfoot_T",
           "package": "WashNGo",
@@ -25072,6 +26985,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tfoot_T",
           "package": "WashNGo",
@@ -25084,6 +26998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "th",
           "package": "WashNGo",
@@ -25093,6 +27008,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "th",
           "package": "WashNGo",
@@ -25105,6 +27021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "th_S",
           "package": "WashNGo",
@@ -25114,6 +27031,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "th_S",
           "package": "WashNGo",
@@ -25126,6 +27044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "th_T",
           "package": "WashNGo",
@@ -25135,6 +27054,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "th_T",
           "package": "WashNGo",
@@ -25147,6 +27067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "thead",
           "package": "WashNGo",
@@ -25156,6 +27077,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "thead",
           "package": "WashNGo",
@@ -25168,6 +27090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "thead_S",
           "package": "WashNGo",
@@ -25177,6 +27100,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "thead_S",
           "package": "WashNGo",
@@ -25189,6 +27113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "thead_T",
           "package": "WashNGo",
@@ -25198,6 +27123,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "thead_T",
           "package": "WashNGo",
@@ -25210,6 +27136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "title",
           "package": "WashNGo",
@@ -25219,6 +27146,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "title",
           "package": "WashNGo",
@@ -25231,6 +27159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "title_S",
           "package": "WashNGo",
@@ -25240,6 +27169,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "title_S",
           "package": "WashNGo",
@@ -25252,6 +27182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "title_T",
           "package": "WashNGo",
@@ -25261,6 +27192,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "title_T",
           "package": "WashNGo",
@@ -25273,6 +27205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tr",
           "package": "WashNGo",
@@ -25282,6 +27215,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tr",
           "package": "WashNGo",
@@ -25294,6 +27228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tr_S",
           "package": "WashNGo",
@@ -25303,6 +27238,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tr_S",
           "package": "WashNGo",
@@ -25315,6 +27251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tr_T",
           "package": "WashNGo",
@@ -25324,6 +27261,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tr_T",
           "package": "WashNGo",
@@ -25336,6 +27274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tt",
           "package": "WashNGo",
@@ -25345,6 +27284,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tt",
           "package": "WashNGo",
@@ -25357,6 +27297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tt_S",
           "package": "WashNGo",
@@ -25366,6 +27307,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tt_S",
           "package": "WashNGo",
@@ -25378,6 +27320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tt_T",
           "package": "WashNGo",
@@ -25387,6 +27330,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "tt_T",
           "package": "WashNGo",
@@ -25399,6 +27343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "u",
           "package": "WashNGo",
@@ -25408,6 +27353,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "u",
           "package": "WashNGo",
@@ -25420,6 +27366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "u_S",
           "package": "WashNGo",
@@ -25429,6 +27376,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "u_S",
           "package": "WashNGo",
@@ -25441,6 +27389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "u_T",
           "package": "WashNGo",
@@ -25450,6 +27399,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "u_T",
           "package": "WashNGo",
@@ -25462,6 +27412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ul",
           "package": "WashNGo",
@@ -25471,6 +27422,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ul",
           "package": "WashNGo",
@@ -25483,6 +27435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ul_S",
           "package": "WashNGo",
@@ -25492,6 +27445,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ul_S",
           "package": "WashNGo",
@@ -25504,6 +27458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ul_T",
           "package": "WashNGo",
@@ -25513,6 +27468,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "ul_T",
           "package": "WashNGo",
@@ -25525,6 +27481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "var",
           "package": "WashNGo",
@@ -25534,6 +27491,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "var",
           "package": "WashNGo",
@@ -25546,6 +27504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "var_S",
           "package": "WashNGo",
@@ -25555,6 +27514,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "var_S",
           "package": "WashNGo",
@@ -25567,6 +27527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonad",
           "name": "var_T",
           "package": "WashNGo",
@@ -25576,6 +27537,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonad",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonad",
           "name": "var_T",
           "package": "WashNGo",
@@ -25587,9 +27549,12 @@
     {
       "cmd": "insert",
       "document": {
-        "description": {},
+        "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014"
+        },
         "index": {
           "hierarchy": "getContentsFromDoc",
+          "indexed": "2014-03-11T17:04:12",
           "module": "getContentsFromDoc"
         },
         "uri": "http://hackage.haskell.org/package/WashNGo/docs/WASH-HTML-HTMLMonad98.html"
@@ -25599,6 +27564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "HTMLMonadAttrs",
           "package": "WashNGo",
@@ -25607,6 +27573,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "HTMLMonadAttrs",
           "package": "WashNGo",
@@ -25620,6 +27587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "abbr",
           "package": "WashNGo",
@@ -25629,6 +27597,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "abbr",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25643,6 +27612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "accept",
           "package": "WashNGo",
@@ -25652,6 +27622,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "accept",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25666,6 +27637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "accept_charset",
           "package": "WashNGo",
@@ -25675,6 +27647,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "accept_charset",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25689,6 +27662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "accesskey",
           "package": "WashNGo",
@@ -25698,6 +27672,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "accesskey",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25712,6 +27687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "action",
           "package": "WashNGo",
@@ -25721,6 +27697,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "action",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25735,6 +27712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "align",
           "package": "WashNGo",
@@ -25744,6 +27722,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "align",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25758,6 +27737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "alink",
           "package": "WashNGo",
@@ -25767,6 +27747,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "alink",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25781,6 +27762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "alt",
           "package": "WashNGo",
@@ -25790,6 +27772,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "alt",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25804,6 +27787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "archive",
           "package": "WashNGo",
@@ -25813,6 +27797,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "archive",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25827,6 +27812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "axis",
           "package": "WashNGo",
@@ -25836,6 +27822,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "axis",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25850,6 +27837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "background",
           "package": "WashNGo",
@@ -25859,6 +27847,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "background",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25873,6 +27862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "bgcolor",
           "package": "WashNGo",
@@ -25882,6 +27872,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "bgcolor",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25896,6 +27887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "border",
           "package": "WashNGo",
@@ -25905,6 +27897,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "border",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25919,6 +27912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "cellpadding",
           "package": "WashNGo",
@@ -25928,6 +27922,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "cellpadding",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25942,6 +27937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "cellspacing",
           "package": "WashNGo",
@@ -25951,6 +27947,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "cellspacing",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25965,6 +27962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "char",
           "package": "WashNGo",
@@ -25974,6 +27972,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "char",
           "normalized": "String-\u003eWithHTML a b()",
@@ -25988,6 +27987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "charoff",
           "package": "WashNGo",
@@ -25997,6 +27997,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "charoff",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26011,6 +28012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "charset",
           "package": "WashNGo",
@@ -26020,6 +28022,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "charset",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26034,6 +28037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "checked",
           "package": "WashNGo",
@@ -26043,6 +28047,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "checked",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26057,6 +28062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "cite",
           "package": "WashNGo",
@@ -26066,6 +28072,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "cite",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26080,6 +28087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "class'",
           "package": "WashNGo",
@@ -26089,6 +28097,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "class'",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26103,6 +28112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "classid",
           "package": "WashNGo",
@@ -26112,6 +28122,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "classid",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26126,6 +28137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "clear",
           "package": "WashNGo",
@@ -26135,6 +28147,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "clear",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26149,6 +28162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "code",
           "package": "WashNGo",
@@ -26158,6 +28172,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "code",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26172,6 +28187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "codebase",
           "package": "WashNGo",
@@ -26181,6 +28197,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "codebase",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26195,6 +28212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "codetype",
           "package": "WashNGo",
@@ -26204,6 +28222,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "codetype",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26218,6 +28237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "color",
           "package": "WashNGo",
@@ -26227,6 +28247,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "color",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26241,6 +28262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "cols",
           "package": "WashNGo",
@@ -26250,6 +28272,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "cols",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26264,6 +28287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "colspan",
           "package": "WashNGo",
@@ -26273,6 +28297,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "colspan",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26287,6 +28312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "compact",
           "package": "WashNGo",
@@ -26296,6 +28322,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "compact",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26310,6 +28337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "content",
           "package": "WashNGo",
@@ -26319,6 +28347,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "content",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26333,6 +28362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "coords",
           "package": "WashNGo",
@@ -26342,6 +28372,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "coords",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26356,6 +28387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "data'",
           "package": "WashNGo",
@@ -26365,6 +28397,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "data'",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26379,6 +28412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "datapagesize",
           "package": "WashNGo",
@@ -26388,6 +28422,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "datapagesize",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26402,6 +28437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "datetime",
           "package": "WashNGo",
@@ -26411,6 +28447,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "datetime",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26425,6 +28462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "declare",
           "package": "WashNGo",
@@ -26434,6 +28472,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "declare",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26448,6 +28487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "defer",
           "package": "WashNGo",
@@ -26457,6 +28497,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "defer",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26471,6 +28512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "dir",
           "package": "WashNGo",
@@ -26480,6 +28522,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "dir",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26494,6 +28537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "disabled",
           "package": "WashNGo",
@@ -26503,6 +28547,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "disabled",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26517,6 +28562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "enctype",
           "package": "WashNGo",
@@ -26526,6 +28572,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "enctype",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26540,6 +28587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "event",
           "package": "WashNGo",
@@ -26549,6 +28597,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "event",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26563,6 +28612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "face",
           "package": "WashNGo",
@@ -26572,6 +28622,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "face",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26586,6 +28637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "for",
           "package": "WashNGo",
@@ -26595,6 +28647,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "for",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26609,6 +28662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "frame",
           "package": "WashNGo",
@@ -26618,6 +28672,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "frame",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26632,6 +28687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "frameborder",
           "package": "WashNGo",
@@ -26641,6 +28697,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "frameborder",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26655,6 +28712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "headers",
           "package": "WashNGo",
@@ -26664,6 +28722,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "headers",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26678,6 +28737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "height",
           "package": "WashNGo",
@@ -26687,6 +28747,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "height",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26701,6 +28762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "href",
           "package": "WashNGo",
@@ -26710,6 +28772,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "href",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26724,6 +28787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "hreflang",
           "package": "WashNGo",
@@ -26733,6 +28797,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "hreflang",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26747,6 +28812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "hspace",
           "package": "WashNGo",
@@ -26756,6 +28822,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "hspace",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26770,6 +28837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "http_equiv",
           "package": "WashNGo",
@@ -26779,6 +28847,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "http_equiv",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26793,6 +28862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "id",
           "package": "WashNGo",
@@ -26802,6 +28872,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "id",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26816,6 +28887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "ismap",
           "package": "WashNGo",
@@ -26825,6 +28897,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "ismap",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26839,6 +28912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "label",
           "package": "WashNGo",
@@ -26848,6 +28922,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "label",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26862,6 +28937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "lang",
           "package": "WashNGo",
@@ -26871,6 +28947,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "lang",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26885,6 +28962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "language",
           "package": "WashNGo",
@@ -26894,6 +28972,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "language",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26908,6 +28987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "link",
           "package": "WashNGo",
@@ -26917,6 +28997,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "link",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26931,6 +29012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "longdesc",
           "package": "WashNGo",
@@ -26940,6 +29022,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "longdesc",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26954,6 +29037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "marginheight",
           "package": "WashNGo",
@@ -26963,6 +29047,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "marginheight",
           "normalized": "String-\u003eWithHTML a b()",
@@ -26977,6 +29062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "marginwidth",
           "package": "WashNGo",
@@ -26986,6 +29072,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "marginwidth",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27000,6 +29087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "maxlength",
           "package": "WashNGo",
@@ -27009,6 +29097,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "maxlength",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27023,6 +29112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "media",
           "package": "WashNGo",
@@ -27032,6 +29122,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "media",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27046,6 +29137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "method",
           "package": "WashNGo",
@@ -27055,6 +29147,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "method",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27069,6 +29162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "multiple",
           "package": "WashNGo",
@@ -27078,6 +29172,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "multiple",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27092,6 +29187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "name",
           "package": "WashNGo",
@@ -27101,6 +29197,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "name",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27115,6 +29212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "nohref",
           "package": "WashNGo",
@@ -27124,6 +29222,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "nohref",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27138,6 +29237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "noresize",
           "package": "WashNGo",
@@ -27147,6 +29247,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "noresize",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27161,6 +29262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "noshade",
           "package": "WashNGo",
@@ -27170,6 +29272,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "noshade",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27184,6 +29287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "nowrap",
           "package": "WashNGo",
@@ -27193,6 +29297,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "nowrap",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27207,6 +29312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "object",
           "package": "WashNGo",
@@ -27216,6 +29322,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "object",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27230,6 +29337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onblur",
           "package": "WashNGo",
@@ -27239,6 +29347,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onblur",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27253,6 +29362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onchange",
           "package": "WashNGo",
@@ -27262,6 +29372,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onchange",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27276,6 +29387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onclick",
           "package": "WashNGo",
@@ -27285,6 +29397,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onclick",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27299,6 +29412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "ondblclick",
           "package": "WashNGo",
@@ -27308,6 +29422,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "ondblclick",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27322,6 +29437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onfocus",
           "package": "WashNGo",
@@ -27331,6 +29447,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onfocus",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27345,6 +29462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onkeydown",
           "package": "WashNGo",
@@ -27354,6 +29472,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onkeydown",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27368,6 +29487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onkeypress",
           "package": "WashNGo",
@@ -27377,6 +29497,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onkeypress",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27391,6 +29512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onkeyup",
           "package": "WashNGo",
@@ -27400,6 +29522,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onkeyup",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27414,6 +29537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onload",
           "package": "WashNGo",
@@ -27423,6 +29547,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onload",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27437,6 +29562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onmousedown",
           "package": "WashNGo",
@@ -27446,6 +29572,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onmousedown",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27460,6 +29587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onmousemove",
           "package": "WashNGo",
@@ -27469,6 +29597,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onmousemove",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27483,6 +29612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onmouseout",
           "package": "WashNGo",
@@ -27492,6 +29622,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onmouseout",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27506,6 +29637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onmouseover",
           "package": "WashNGo",
@@ -27515,6 +29647,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onmouseover",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27529,6 +29662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onmouseup",
           "package": "WashNGo",
@@ -27538,6 +29672,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onmouseup",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27552,6 +29687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onreset",
           "package": "WashNGo",
@@ -27561,6 +29697,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onreset",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27575,6 +29712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onselect",
           "package": "WashNGo",
@@ -27584,6 +29722,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onselect",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27598,6 +29737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onsubmit",
           "package": "WashNGo",
@@ -27607,6 +29747,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onsubmit",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27621,6 +29762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onunload",
           "package": "WashNGo",
@@ -27630,6 +29772,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "onunload",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27644,6 +29787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "profile",
           "package": "WashNGo",
@@ -27653,6 +29797,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "profile",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27667,6 +29812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "prompt",
           "package": "WashNGo",
@@ -27676,6 +29822,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "prompt",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27690,6 +29837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "readonly",
           "package": "WashNGo",
@@ -27699,6 +29847,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "readonly",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27713,6 +29862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "rel",
           "package": "WashNGo",
@@ -27722,6 +29872,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "rel",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27736,6 +29887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "rev",
           "package": "WashNGo",
@@ -27745,6 +29897,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "rev",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27759,6 +29912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "rows",
           "package": "WashNGo",
@@ -27768,6 +29922,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "rows",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27782,6 +29937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "rowspan",
           "package": "WashNGo",
@@ -27791,6 +29947,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "rowspan",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27805,6 +29962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "rules",
           "package": "WashNGo",
@@ -27814,6 +29972,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "rules",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27828,6 +29987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "scheme",
           "package": "WashNGo",
@@ -27837,6 +29997,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "scheme",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27851,6 +30012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "scope",
           "package": "WashNGo",
@@ -27860,6 +30022,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "scope",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27874,6 +30037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "scrolling",
           "package": "WashNGo",
@@ -27883,6 +30047,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "scrolling",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27897,6 +30062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "selected",
           "package": "WashNGo",
@@ -27906,6 +30072,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "selected",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27920,6 +30087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "shape",
           "package": "WashNGo",
@@ -27929,6 +30097,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "shape",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27943,6 +30112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "size",
           "package": "WashNGo",
@@ -27952,6 +30122,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "size",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27966,6 +30137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "span",
           "package": "WashNGo",
@@ -27975,6 +30147,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "span",
           "normalized": "String-\u003eWithHTML a b()",
@@ -27989,6 +30162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "src",
           "package": "WashNGo",
@@ -27998,6 +30172,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "src",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28012,6 +30187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "standby",
           "package": "WashNGo",
@@ -28021,6 +30197,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "standby",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28035,6 +30212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "start",
           "package": "WashNGo",
@@ -28044,6 +30222,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "start",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28058,6 +30237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "style",
           "package": "WashNGo",
@@ -28067,6 +30247,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "style",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28081,6 +30262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "summary",
           "package": "WashNGo",
@@ -28090,6 +30272,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "summary",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28104,6 +30287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "tabindex",
           "package": "WashNGo",
@@ -28113,6 +30297,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "tabindex",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28127,6 +30312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "target",
           "package": "WashNGo",
@@ -28136,6 +30322,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "target",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28150,6 +30337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "text",
           "package": "WashNGo",
@@ -28159,6 +30347,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "text",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28173,6 +30362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "title",
           "package": "WashNGo",
@@ -28182,6 +30372,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "title",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28196,6 +30387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "type'",
           "package": "WashNGo",
@@ -28205,6 +30397,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "type'",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28219,6 +30412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "usemap",
           "package": "WashNGo",
@@ -28228,6 +30422,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "usemap",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28242,6 +30437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "valign",
           "package": "WashNGo",
@@ -28251,6 +30447,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "valign",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28265,6 +30462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "value",
           "package": "WashNGo",
@@ -28274,6 +30472,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "value",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28288,6 +30487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "valuetype",
           "package": "WashNGo",
@@ -28297,6 +30497,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "valuetype",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28311,6 +30512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "version",
           "package": "WashNGo",
@@ -28320,6 +30522,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "version",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28334,6 +30537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "vlink",
           "package": "WashNGo",
@@ -28343,6 +30547,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "vlink",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28357,6 +30562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "vspace",
           "package": "WashNGo",
@@ -28366,6 +30572,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "vspace",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28380,6 +30587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "width",
           "package": "WashNGo",
@@ -28389,6 +30597,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadAttrs",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadAttrs",
           "name": "width",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28403,6 +30612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "HTMLMonadBase",
           "package": "WashNGo",
@@ -28411,6 +30621,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "HTMLMonadBase",
           "package": "WashNGo",
@@ -28424,6 +30635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "ATTR_",
           "package": "WashNGo",
@@ -28432,6 +30644,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "ATTR_",
           "package": "WashNGo",
@@ -28445,6 +30658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "Attribute",
           "package": "WashNGo",
@@ -28453,6 +30667,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "Attribute",
           "package": "WashNGo",
@@ -28466,6 +30681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "Attributes",
           "package": "WashNGo",
@@ -28474,6 +30690,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "Attributes",
           "package": "WashNGo",
@@ -28487,6 +30704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "ELEMENT_",
           "package": "WashNGo",
@@ -28495,6 +30713,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "ELEMENT_",
           "package": "WashNGo",
@@ -28508,6 +30727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "Element",
           "package": "WashNGo",
@@ -28516,6 +30736,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "Element",
           "package": "WashNGo",
@@ -28529,6 +30750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "HTMLCons",
           "package": "WashNGo",
@@ -28537,6 +30759,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "HTMLCons",
           "package": "WashNGo",
@@ -28550,6 +30773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "WithHTML",
           "package": "WashNGo",
@@ -28558,6 +30782,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "WithHTML",
           "package": "WashNGo",
@@ -28571,6 +30796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "(@@)",
           "package": "WashNGo",
@@ -28580,6 +30806,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "(@@) @@",
           "normalized": "String-\u003eString-\u003eWithHTML a b()",
@@ -28594,6 +30821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "WithHTML",
           "package": "WashNGo",
@@ -28603,6 +30831,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "WithHTML",
           "package": "WashNGo",
@@ -28616,6 +30845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr",
           "package": "WashNGo",
@@ -28625,6 +30855,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr",
           "normalized": "String-\u003eString-\u003eWithHTML a b()",
@@ -28639,6 +30870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_SD",
           "package": "WashNGo",
@@ -28648,6 +30880,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_SD",
           "normalized": "String-\u003eString-\u003eWithHTML a b()",
@@ -28663,6 +30896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_SS",
           "package": "WashNGo",
@@ -28672,6 +30906,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_SS",
           "normalized": "String-\u003eString-\u003eWithHTML a b()",
@@ -28687,6 +30922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_TD",
           "package": "WashNGo",
@@ -28696,6 +30932,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_TD",
           "normalized": "String-\u003eString-\u003eWithHTML a b()",
@@ -28711,6 +30948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_TS",
           "package": "WashNGo",
@@ -28720,6 +30958,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_TS",
           "normalized": "String-\u003eString-\u003eWithHTML a b()",
@@ -28735,6 +30974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_name",
           "package": "WashNGo",
@@ -28744,6 +30984,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_name",
           "normalized": "ATTR_-\u003eString",
@@ -28758,6 +30999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_value",
           "package": "WashNGo",
@@ -28767,6 +31009,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "attr_value",
           "normalized": "ATTR_-\u003eString",
@@ -28781,6 +31024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "build_document",
           "package": "WashNGo",
@@ -28790,6 +31034,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "build_document",
           "normalized": "WithHTML a b c-\u003eb Element",
@@ -28804,6 +31049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "comment",
           "package": "WashNGo",
@@ -28813,6 +31059,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "comment",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28828,6 +31075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econcatenation of sequences\n\u003c/p\u003e\u003cp\u003ecleanup of attribute values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "comment_S",
           "package": "WashNGo",
@@ -28838,6 +31086,7 @@
         "index": {
           "description": "concatenation of sequences cleanup of attribute values",
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "comment_S",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28852,6 +31101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "comment_T",
           "package": "WashNGo",
@@ -28861,6 +31111,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "comment_T",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28876,6 +31127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty node sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "empty",
           "package": "WashNGo",
@@ -28886,6 +31138,7 @@
         "index": {
           "description": "empty node sequence",
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "empty",
           "normalized": "WithHTML a b()",
@@ -28900,6 +31153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "formattedtext",
           "package": "WashNGo",
@@ -28909,6 +31163,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "formattedtext",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28923,6 +31178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "formattedtext_S",
           "package": "WashNGo",
@@ -28932,6 +31188,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "formattedtext_S",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28946,6 +31203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "formattedtext_T",
           "package": "WashNGo",
@@ -28955,6 +31213,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "formattedtext_T",
           "normalized": "String-\u003eWithHTML a b()",
@@ -28969,6 +31228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "get_attrs",
           "package": "WashNGo",
@@ -28978,6 +31238,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "get_attrs",
           "package": "WashNGo",
@@ -28990,6 +31251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "lift",
           "package": "WashNGo",
@@ -28999,6 +31261,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "lift",
           "normalized": "a b-\u003eWithHTML c a b",
@@ -29013,6 +31276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkElement",
           "package": "WashNGo",
@@ -29022,6 +31286,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkElement",
           "normalized": "String-\u003eHTMLCons a b c d",
@@ -29037,6 +31302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkElement_S",
           "package": "WashNGo",
@@ -29046,6 +31312,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkElement_S",
           "normalized": "String-\u003eHTMLCons a b c d",
@@ -29061,6 +31328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkElement_T",
           "package": "WashNGo",
@@ -29070,6 +31338,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkElement_T",
           "normalized": "String-\u003eHTMLCons a b c d",
@@ -29085,6 +31354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkEmpty",
           "package": "WashNGo",
@@ -29094,6 +31364,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkEmpty",
           "normalized": "String-\u003eHTMLCons a b c d",
@@ -29109,6 +31380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkEmpty_S",
           "package": "WashNGo",
@@ -29118,6 +31390,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkEmpty_S",
           "normalized": "String-\u003eHTMLCons a b c d",
@@ -29133,6 +31406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkEmpty_T",
           "package": "WashNGo",
@@ -29142,6 +31416,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "mkEmpty_T",
           "normalized": "String-\u003eHTMLCons a b c d",
@@ -29158,6 +31433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a text node where the string is dropped into the webpage without\n change, e.g., preserving entities \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "rawtext",
           "package": "WashNGo",
@@ -29168,6 +31444,7 @@
         "index": {
           "description": "create text node where the string is dropped into the webpage without change e.g preserving entities",
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "rawtext",
           "normalized": "String-\u003eWithHTML a b()",
@@ -29182,6 +31459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "rawtext_S",
           "package": "WashNGo",
@@ -29191,6 +31469,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "rawtext_S",
           "normalized": "String-\u003eWithHTML a b()",
@@ -29205,6 +31484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "rawtext_T",
           "package": "WashNGo",
@@ -29214,6 +31494,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "rawtext_T",
           "normalized": "String-\u003eWithHTML a b()",
@@ -29229,6 +31510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a text node from any Showable type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "showText",
           "package": "WashNGo",
@@ -29239,6 +31521,7 @@
         "index": {
           "description": "create text node from any Showable type",
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "showText",
           "normalized": "a-\u003eWithHTML b c()",
@@ -29255,6 +31538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a text node with all illegal characters properly escaped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "text",
           "package": "WashNGo",
@@ -29265,6 +31549,7 @@
         "index": {
           "description": "create text node with all illegal characters properly escaped",
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "text",
           "normalized": "String-\u003eWithHTML a b()",
@@ -29279,6 +31564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "text_S",
           "package": "WashNGo",
@@ -29288,6 +31574,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "text_S",
           "normalized": "String-\u003eWithHTML a b()",
@@ -29302,6 +31589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "text_T",
           "package": "WashNGo",
@@ -29311,6 +31599,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "text_T",
           "normalized": "String-\u003eWithHTML a b()",
@@ -29325,6 +31614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "unWithHTML",
           "package": "WashNGo",
@@ -29334,6 +31624,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLMonadBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLMonadBase",
           "name": "unWithHTML",
           "normalized": "Element-\u003ea(b,Element)",
@@ -29348,9 +31639,12 @@
     {
       "cmd": "insert",
       "document": {
-        "description": {},
+        "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014"
+        },
         "index": {
           "hierarchy": "getContentsFromDoc",
+          "indexed": "2014-03-11T17:04:12",
           "module": "getContentsFromDoc"
         },
         "uri": "http://hackage.haskell.org/package/WashNGo/docs/WASH-HTML-HTMLPrelude.html"
@@ -29359,9 +31653,12 @@
     {
       "cmd": "insert",
       "document": {
-        "description": {},
+        "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014"
+        },
         "index": {
           "hierarchy": "getContentsFromDoc",
+          "indexed": "2014-03-11T17:04:12",
           "module": "getContentsFromDoc"
         },
         "uri": "http://hackage.haskell.org/package/WashNGo/docs/WASH-HTML-HTMLPrelude98.html"
@@ -29371,6 +31668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "HTMLTemplates",
           "package": "WashNGo",
@@ -29379,6 +31677,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "HTMLTemplates",
           "package": "WashNGo",
@@ -29392,6 +31691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "M",
           "package": "WashNGo",
@@ -29400,6 +31700,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "M",
           "package": "WashNGo",
@@ -29412,6 +31713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Mt",
           "package": "WashNGo",
@@ -29420,6 +31722,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Mt",
           "package": "WashNGo",
@@ -29433,6 +31736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Names",
           "package": "WashNGo",
@@ -29441,6 +31745,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Names",
           "package": "WashNGo",
@@ -29454,6 +31759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "ST",
           "package": "WashNGo",
@@ -29462,6 +31768,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "ST",
           "package": "WashNGo",
@@ -29475,6 +31782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Template",
           "package": "WashNGo",
@@ -29483,6 +31791,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Template",
           "package": "WashNGo",
@@ -29496,6 +31805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "TemplateItem",
           "package": "WashNGo",
@@ -29504,6 +31814,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "TemplateItem",
           "package": "WashNGo",
@@ -29517,6 +31828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Templates",
           "package": "WashNGo",
@@ -29525,6 +31837,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Templates",
           "package": "WashNGo",
@@ -29538,6 +31851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "M",
           "package": "WashNGo",
@@ -29547,6 +31861,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "M",
           "package": "WashNGo",
@@ -29559,6 +31874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Mt",
           "package": "WashNGo",
@@ -29568,6 +31884,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Mt",
           "package": "WashNGo",
@@ -29581,6 +31898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Names",
           "package": "WashNGo",
@@ -29590,6 +31908,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "Names",
           "package": "WashNGo",
@@ -29603,6 +31922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "ST",
           "package": "WashNGo",
@@ -29612,6 +31932,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "ST",
           "package": "WashNGo",
@@ -29625,6 +31946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "TCall",
           "package": "WashNGo",
@@ -29634,6 +31956,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "TCall",
           "normalized": "TCall Int[Template]",
@@ -29649,6 +31972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "TOut",
           "package": "WashNGo",
@@ -29658,6 +31982,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "TOut",
           "package": "WashNGo",
@@ -29671,6 +31996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "TVar",
           "package": "WashNGo",
@@ -29680,6 +32006,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "TVar",
           "package": "WashNGo",
@@ -29693,6 +32020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "actuals",
           "package": "WashNGo",
@@ -29702,6 +32030,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "actuals",
           "package": "WashNGo",
@@ -29714,6 +32043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "analyze",
           "package": "WashNGo",
@@ -29723,6 +32053,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "analyze",
           "normalized": "ELEMENT_-\u003e(Template,Mt)",
@@ -29737,6 +32068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "closed",
           "package": "WashNGo",
@@ -29746,6 +32078,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "closed",
           "normalized": "[(String,(Int,Int,Template))]",
@@ -29761,6 +32094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecollect takes an element, a list of open templates, a list of finished\n templates, and returns a pair (open templates, finished templates).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "collect",
           "package": "WashNGo",
@@ -29771,6 +32105,7 @@
         "index": {
           "description": "collect takes an element list of open templates list of finished templates and returns pair open templates finished templates",
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "collect",
           "normalized": "ELEMENT_-\u003eBT-\u003eTemplate-\u003eM Template",
@@ -29785,6 +32120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "count",
           "package": "WashNGo",
@@ -29794,6 +32130,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "count",
           "package": "WashNGo",
@@ -29806,6 +32143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "dynamics",
           "package": "WashNGo",
@@ -29815,6 +32153,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "dynamics",
           "normalized": "[Templates]",
@@ -29829,6 +32168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "get",
           "package": "WashNGo",
@@ -29838,6 +32178,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "get",
           "normalized": "(Mt-\u003ea)-\u003eM a",
@@ -29852,6 +32193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "getActuals",
           "package": "WashNGo",
@@ -29861,6 +32203,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "getActuals",
           "package": "WashNGo",
@@ -29874,6 +32217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "getST",
           "package": "WashNGo",
@@ -29883,6 +32227,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "getST",
           "package": "WashNGo",
@@ -29896,6 +32241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "maybePushActuals",
           "package": "WashNGo",
@@ -29905,6 +32251,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "maybePushActuals",
           "normalized": "Template-\u003eTemplate-\u003eM Template",
@@ -29920,6 +32267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "mergeActuals",
           "package": "WashNGo",
@@ -29929,6 +32277,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "mergeActuals",
           "normalized": "Template-\u003eM()",
@@ -29944,6 +32293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "nseen",
           "package": "WashNGo",
@@ -29953,6 +32303,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "nseen",
           "normalized": "[Int]",
@@ -29967,6 +32318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "ntable",
           "package": "WashNGo",
@@ -29976,6 +32328,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "ntable",
           "normalized": "[(String,Int)]",
@@ -29990,6 +32343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "open",
           "package": "WashNGo",
@@ -29999,6 +32353,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "open",
           "package": "WashNGo",
@@ -30011,6 +32366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "popOpen",
           "package": "WashNGo",
@@ -30020,6 +32376,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "popOpen",
           "package": "WashNGo",
@@ -30033,6 +32390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "pushActuals",
           "package": "WashNGo",
@@ -30042,6 +32400,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "pushActuals",
           "normalized": "Template-\u003eM Int",
@@ -30057,6 +32416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "pushClosed",
           "package": "WashNGo",
@@ -30066,6 +32426,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "pushClosed",
           "normalized": "Template-\u003eM Int",
@@ -30081,6 +32442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "pushOpen",
           "package": "WashNGo",
@@ -30090,6 +32452,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "pushOpen",
           "normalized": "Template-\u003eM()",
@@ -30105,6 +32468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "runST",
           "package": "WashNGo",
@@ -30114,6 +32478,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "runST",
           "normalized": "a-\u003eST a b-\u003eb",
@@ -30129,6 +32494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "setST",
           "package": "WashNGo",
@@ -30138,6 +32504,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "setST",
           "normalized": "a-\u003eST a()",
@@ -30153,6 +32520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "showTemplate",
           "package": "WashNGo",
@@ -30162,6 +32530,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "showTemplate",
           "normalized": "(Template,Mt)-\u003eShowS",
@@ -30177,6 +32546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "showTemplatified",
           "package": "WashNGo",
@@ -30186,6 +32556,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "showTemplatified",
           "normalized": "ELEMENT_-\u003eShowS",
@@ -30201,6 +32572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "tout",
           "package": "WashNGo",
@@ -30210,6 +32582,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "tout",
           "normalized": "String-\u003e[TemplateItem]-\u003e[TemplateItem]",
@@ -30224,6 +32597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "unM",
           "package": "WashNGo",
@@ -30233,6 +32607,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "unM",
           "normalized": "Mt-\u003e(a,Mt)",
@@ -30247,6 +32622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "unST",
           "package": "WashNGo",
@@ -30256,6 +32632,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTemplates",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTemplates",
           "name": "unST",
           "normalized": "a-\u003e(b,a)",
@@ -30271,6 +32648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "HTMLTypedBase",
           "package": "WashNGo",
@@ -30279,6 +32657,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "HTMLTypedBase",
           "package": "WashNGo",
@@ -30292,6 +32671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "ATTR",
           "package": "WashNGo",
@@ -30300,6 +32680,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "ATTR",
           "package": "WashNGo",
@@ -30313,6 +32694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "ATTRIBUTE",
           "package": "WashNGo",
@@ -30321,6 +32703,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "ATTRIBUTE",
           "package": "WashNGo",
@@ -30334,6 +32717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "AddAttr",
           "package": "WashNGo",
@@ -30342,6 +32726,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "AddAttr",
           "package": "WashNGo",
@@ -30355,6 +32740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "AddTo",
           "package": "WashNGo",
@@ -30363,6 +32749,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "AddTo",
           "package": "WashNGo",
@@ -30376,6 +32763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "AttrValue",
           "package": "WashNGo",
@@ -30384,6 +32772,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "AttrValue",
           "package": "WashNGo",
@@ -30397,6 +32786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "CDATA",
           "package": "WashNGo",
@@ -30405,6 +32795,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "CDATA",
           "package": "WashNGo",
@@ -30418,6 +32809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "DOCUMENT",
           "package": "WashNGo",
@@ -30426,6 +32818,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "DOCUMENT",
           "package": "WashNGo",
@@ -30439,6 +32832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "ELT",
           "package": "WashNGo",
@@ -30447,6 +32841,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "ELT",
           "package": "WashNGo",
@@ -30460,6 +32855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "TAG",
           "package": "WashNGo",
@@ -30468,6 +32864,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "TAG",
           "package": "WashNGo",
@@ -30481,6 +32878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "ATTR",
           "package": "WashNGo",
@@ -30490,6 +32888,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "ATTR",
           "package": "WashNGo",
@@ -30503,6 +32902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "CDATA",
           "package": "WashNGo",
@@ -30512,6 +32912,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "CDATA",
           "package": "WashNGo",
@@ -30525,6 +32926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "DOCUMENT",
           "package": "WashNGo",
@@ -30534,6 +32936,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "DOCUMENT",
           "package": "WashNGo",
@@ -30547,6 +32950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "ELT",
           "package": "WashNGo",
@@ -30556,6 +32960,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "ELT",
           "package": "WashNGo",
@@ -30569,6 +32974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "add",
           "package": "WashNGo",
@@ -30578,6 +32984,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "add",
           "normalized": "ELT a-\u003eELT b-\u003eELT a",
@@ -30592,6 +32999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "add'",
           "package": "WashNGo",
@@ -30601,6 +33009,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "add'",
           "normalized": "ELT a-\u003eELT b-\u003eELT b",
@@ -30615,6 +33024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "add_attr",
           "package": "WashNGo",
@@ -30624,6 +33034,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "add_attr",
           "normalized": "ELT a-\u003eATTR b-\u003eELT a",
@@ -30638,6 +33049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "attr'",
           "package": "WashNGo",
@@ -30647,6 +33059,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "attr'",
           "normalized": "ATTR a-\u003eELT b-\u003eELT b",
@@ -30661,6 +33074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "comment",
           "package": "WashNGo",
@@ -30670,6 +33084,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "comment",
           "normalized": "String-\u003eELT a-\u003eELT a",
@@ -30684,6 +33099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "formattedtext",
           "package": "WashNGo",
@@ -30693,6 +33109,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "formattedtext",
           "normalized": "String-\u003eELT a-\u003eELT a",
@@ -30707,6 +33124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "make",
           "package": "WashNGo",
@@ -30716,6 +33134,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "make",
           "normalized": "a-\u003eELT a",
@@ -30730,6 +33149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "mkAttr",
           "package": "WashNGo",
@@ -30739,6 +33159,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "mkAttr",
           "normalized": "a-\u003eb-\u003eATTR a",
@@ -30754,6 +33175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "mkUAttr",
           "package": "WashNGo",
@@ -30763,6 +33185,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "mkUAttr",
           "normalized": "a-\u003eString-\u003eATTR a",
@@ -30778,6 +33201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "rawtext",
           "package": "WashNGo",
@@ -30787,6 +33211,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "rawtext",
           "normalized": "String-\u003eELT a-\u003eELT a",
@@ -30801,6 +33226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "show_document",
           "package": "WashNGo",
@@ -30810,6 +33236,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "show_document",
           "normalized": "ELT DOCUMENT-\u003eString",
@@ -30824,6 +33251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "show_name",
           "package": "WashNGo",
@@ -30833,6 +33261,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "show_name",
           "normalized": "a-\u003eString",
@@ -30847,6 +33276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "show_tag",
           "package": "WashNGo",
@@ -30856,6 +33286,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "show_tag",
           "normalized": "a-\u003eString",
@@ -30870,6 +33301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "text",
           "package": "WashNGo",
@@ -30879,6 +33311,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "text",
           "normalized": "String-\u003eELT a-\u003eELT a",
@@ -30893,6 +33326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "unATTR",
           "package": "WashNGo",
@@ -30902,6 +33336,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "unATTR",
           "package": "WashNGo",
@@ -30915,6 +33350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "unELT",
           "package": "WashNGo",
@@ -30924,6 +33360,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase",
           "name": "unELT",
           "package": "WashNGo",
@@ -30937,6 +33374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "HTMLTypedBase98",
           "package": "WashNGo",
@@ -30945,6 +33383,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "HTMLTypedBase98",
           "package": "WashNGo",
@@ -30958,6 +33397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "ATTR",
           "package": "WashNGo",
@@ -30966,6 +33406,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "ATTR",
           "package": "WashNGo",
@@ -30979,6 +33420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "ATTRIBUTE",
           "package": "WashNGo",
@@ -30987,6 +33429,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "ATTRIBUTE",
           "package": "WashNGo",
@@ -31000,6 +33443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "AdmitChildCDATA",
           "package": "WashNGo",
@@ -31008,6 +33452,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "AdmitChildCDATA",
           "package": "WashNGo",
@@ -31021,6 +33466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "CDATA",
           "package": "WashNGo",
@@ -31029,6 +33475,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "CDATA",
           "package": "WashNGo",
@@ -31042,6 +33489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "DOCUMENT",
           "package": "WashNGo",
@@ -31050,6 +33498,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "DOCUMENT",
           "package": "WashNGo",
@@ -31063,6 +33512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "ELT",
           "package": "WashNGo",
@@ -31071,6 +33521,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "ELT",
           "package": "WashNGo",
@@ -31084,6 +33535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "TAG",
           "package": "WashNGo",
@@ -31092,6 +33544,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "TAG",
           "package": "WashNGo",
@@ -31105,6 +33558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "ATTR",
           "package": "WashNGo",
@@ -31114,6 +33568,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "ATTR",
           "package": "WashNGo",
@@ -31127,6 +33582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "CDATA",
           "package": "WashNGo",
@@ -31136,6 +33592,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "CDATA",
           "package": "WashNGo",
@@ -31149,6 +33606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "DOCUMENT",
           "package": "WashNGo",
@@ -31158,6 +33616,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "DOCUMENT",
           "package": "WashNGo",
@@ -31171,6 +33630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "ELT",
           "package": "WashNGo",
@@ -31180,6 +33640,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "ELT",
           "package": "WashNGo",
@@ -31193,6 +33654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "comment",
           "package": "WashNGo",
@@ -31202,6 +33664,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "comment",
           "normalized": "String-\u003eELT a-\u003eELT a",
@@ -31216,6 +33679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "formattedtext",
           "package": "WashNGo",
@@ -31225,6 +33689,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "formattedtext",
           "normalized": "String-\u003eELT a-\u003eELT a",
@@ -31239,6 +33704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "make",
           "package": "WashNGo",
@@ -31248,6 +33714,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "make",
           "normalized": "a-\u003eELT a",
@@ -31262,6 +33729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "mkUAttr",
           "package": "WashNGo",
@@ -31271,6 +33739,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "mkUAttr",
           "normalized": "a-\u003eString-\u003eATTR a",
@@ -31286,6 +33755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "rawtext",
           "package": "WashNGo",
@@ -31295,6 +33765,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "rawtext",
           "normalized": "String-\u003eELT a-\u003eELT a",
@@ -31309,6 +33780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "show_document",
           "package": "WashNGo",
@@ -31318,6 +33790,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "show_document",
           "normalized": "ELT DOCUMENT-\u003eString",
@@ -31332,6 +33805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "show_name",
           "package": "WashNGo",
@@ -31341,6 +33815,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "show_name",
           "normalized": "a-\u003eString",
@@ -31355,6 +33830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "show_tag",
           "package": "WashNGo",
@@ -31364,6 +33840,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "show_tag",
           "normalized": "a-\u003eString",
@@ -31378,6 +33855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "text",
           "package": "WashNGo",
@@ -31387,6 +33865,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "text",
           "normalized": "String-\u003eELT a-\u003eELT a",
@@ -31401,6 +33880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "unATTR",
           "package": "WashNGo",
@@ -31410,6 +33890,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "unATTR",
           "package": "WashNGo",
@@ -31423,6 +33904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "unELT",
           "package": "WashNGo",
@@ -31432,6 +33914,7 @@
         },
         "index": {
           "hierarchy": "WASH HTML HTMLTypedBase98",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.HTML.HTMLTypedBase98",
           "name": "unELT",
           "package": "WashNGo",
@@ -31445,6 +33928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "ContentDisposition",
           "package": "WashNGo",
@@ -31453,6 +33937,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "ContentDisposition",
           "package": "WashNGo",
@@ -31466,6 +33951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "ContentDisposition",
           "package": "WashNGo",
@@ -31474,6 +33960,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "ContentDisposition",
           "package": "WashNGo",
@@ -31487,6 +33974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "ContentDispositionParm",
           "package": "WashNGo",
@@ -31495,6 +33983,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "ContentDispositionParm",
           "package": "WashNGo",
@@ -31508,6 +33997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "Attachment",
           "package": "WashNGo",
@@ -31517,6 +34007,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "Attachment",
           "package": "WashNGo",
@@ -31530,6 +34021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "CreationDateParm",
           "package": "WashNGo",
@@ -31539,6 +34031,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "CreationDateParm",
           "package": "WashNGo",
@@ -31552,6 +34045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "FileNameParm",
           "package": "WashNGo",
@@ -31561,6 +34055,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "FileNameParm",
           "package": "WashNGo",
@@ -31574,6 +34069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "Inline",
           "package": "WashNGo",
@@ -31583,6 +34079,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "Inline",
           "package": "WashNGo",
@@ -31596,6 +34093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "ModificationDateParm",
           "package": "WashNGo",
@@ -31605,6 +34103,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "ModificationDateParm",
           "package": "WashNGo",
@@ -31618,6 +34117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "None",
           "package": "WashNGo",
@@ -31627,6 +34127,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "None",
           "package": "WashNGo",
@@ -31640,6 +34141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "ReadDateParm",
           "package": "WashNGo",
@@ -31649,6 +34151,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "ReadDateParm",
           "package": "WashNGo",
@@ -31662,6 +34165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "SizeParm",
           "package": "WashNGo",
@@ -31671,6 +34175,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "SizeParm",
           "package": "WashNGo",
@@ -31684,6 +34189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.ContentDisposition",
           "name": "parameters",
           "package": "WashNGo",
@@ -31693,6 +34199,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail ContentDisposition",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.ContentDisposition",
           "name": "parameters",
           "normalized": "[ContentDispositionParm]",
@@ -31707,6 +34214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "Email",
           "package": "WashNGo",
@@ -31715,6 +34223,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "Email",
           "package": "WashNGo",
@@ -31729,6 +34238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efrom sysexit.h\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "SYSEXIT",
           "package": "WashNGo",
@@ -31738,6 +34248,7 @@
         "index": {
           "description": "from sysexit.h",
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "SYSEXIT",
           "package": "WashNGo",
@@ -31751,6 +34262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_CANTCREAT",
           "package": "WashNGo",
@@ -31760,6 +34272,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_CANTCREAT",
           "package": "WashNGo",
@@ -31773,6 +34286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_CONFIG",
           "package": "WashNGo",
@@ -31782,6 +34296,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_CONFIG",
           "package": "WashNGo",
@@ -31795,6 +34310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_DATAERR",
           "package": "WashNGo",
@@ -31804,6 +34320,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_DATAERR",
           "package": "WashNGo",
@@ -31817,6 +34334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_IOERR",
           "package": "WashNGo",
@@ -31826,6 +34344,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_IOERR",
           "package": "WashNGo",
@@ -31839,6 +34358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_NOHOST",
           "package": "WashNGo",
@@ -31848,6 +34368,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_NOHOST",
           "package": "WashNGo",
@@ -31861,6 +34382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_NOINPUT",
           "package": "WashNGo",
@@ -31870,6 +34392,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_NOINPUT",
           "package": "WashNGo",
@@ -31883,6 +34406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_NOPERM",
           "package": "WashNGo",
@@ -31892,6 +34416,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_NOPERM",
           "package": "WashNGo",
@@ -31905,6 +34430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_NOUSER",
           "package": "WashNGo",
@@ -31914,6 +34440,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_NOUSER",
           "package": "WashNGo",
@@ -31927,6 +34454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_OK",
           "package": "WashNGo",
@@ -31936,6 +34464,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_OK",
           "package": "WashNGo",
@@ -31949,6 +34478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_OSERR",
           "package": "WashNGo",
@@ -31958,6 +34488,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_OSERR",
           "package": "WashNGo",
@@ -31971,6 +34502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_OSFILE",
           "package": "WashNGo",
@@ -31980,6 +34512,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_OSFILE",
           "package": "WashNGo",
@@ -31993,6 +34526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_PROTOCOL",
           "package": "WashNGo",
@@ -32002,6 +34536,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_PROTOCOL",
           "package": "WashNGo",
@@ -32015,6 +34550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_SOFTWARE",
           "package": "WashNGo",
@@ -32024,6 +34560,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_SOFTWARE",
           "package": "WashNGo",
@@ -32037,6 +34574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_TEMPFAIL",
           "package": "WashNGo",
@@ -32046,6 +34584,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_TEMPFAIL",
           "package": "WashNGo",
@@ -32059,6 +34598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_UNAVAILABLE",
           "package": "WashNGo",
@@ -32068,6 +34608,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_UNAVAILABLE",
           "package": "WashNGo",
@@ -32081,6 +34622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_UNKNOWN",
           "package": "WashNGo",
@@ -32090,6 +34632,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_UNKNOWN",
           "package": "WashNGo",
@@ -32103,6 +34646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "EX_USAGE",
           "package": "WashNGo",
@@ -32112,6 +34656,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "EX_USAGE",
           "package": "WashNGo",
@@ -32125,6 +34670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "exitcodeToSYSEXIT",
           "package": "WashNGo",
@@ -32134,6 +34680,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "exitcodeToSYSEXIT",
           "normalized": "ExitCode-\u003eSYSEXIT",
@@ -32149,6 +34696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "inventMessageId",
           "package": "WashNGo",
@@ -32158,6 +34706,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "inventMessageId",
           "package": "WashNGo",
@@ -32171,6 +34720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Email",
           "name": "sendmail",
           "package": "WashNGo",
@@ -32180,6 +34730,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Email",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Email",
           "name": "sendmail",
           "normalized": "Mail-\u003eIO ExitCode",
@@ -32194,6 +34745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.EmailConfig",
           "name": "EmailConfig",
           "package": "WashNGo",
@@ -32202,6 +34754,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail EmailConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.EmailConfig",
           "name": "EmailConfig",
           "package": "WashNGo",
@@ -32215,6 +34768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.EmailConfig",
           "name": "emailTmpDir",
           "package": "WashNGo",
@@ -32224,6 +34778,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail EmailConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.EmailConfig",
           "name": "emailTmpDir",
           "package": "WashNGo",
@@ -32237,6 +34792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.EmailConfig",
           "name": "sendmailProgram",
           "package": "WashNGo",
@@ -32246,6 +34802,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail EmailConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.EmailConfig",
           "name": "sendmailProgram",
           "package": "WashNGo",
@@ -32259,6 +34816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.EmailConfig",
           "name": "tmpDir",
           "package": "WashNGo",
@@ -32268,6 +34826,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail EmailConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.EmailConfig",
           "name": "tmpDir",
           "package": "WashNGo",
@@ -32281,6 +34840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.EmailConfig",
           "name": "varDir",
           "package": "WashNGo",
@@ -32290,6 +34850,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail EmailConfig",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.EmailConfig",
           "name": "varDir",
           "package": "WashNGo",
@@ -32303,6 +34864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.HeaderField",
           "name": "HeaderField",
           "package": "WashNGo",
@@ -32311,6 +34873,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail HeaderField",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.HeaderField",
           "name": "HeaderField",
           "package": "WashNGo",
@@ -32324,6 +34887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.HeaderField",
           "name": "Header",
           "package": "WashNGo",
@@ -32332,6 +34896,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail HeaderField",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.HeaderField",
           "name": "Header",
           "package": "WashNGo",
@@ -32345,6 +34910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.HeaderField",
           "name": "KV",
           "package": "WashNGo",
@@ -32353,6 +34919,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail HeaderField",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.HeaderField",
           "name": "KV",
           "package": "WashNGo",
@@ -32366,6 +34933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.HeaderField",
           "name": "MediaType",
           "package": "WashNGo",
@@ -32374,6 +34942,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail HeaderField",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.HeaderField",
           "name": "MediaType",
           "package": "WashNGo",
@@ -32387,6 +34956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.HeaderField",
           "name": "Header",
           "package": "WashNGo",
@@ -32396,6 +34966,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail HeaderField",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.HeaderField",
           "name": "Header",
           "normalized": "Header(String,String)",
@@ -32411,6 +34982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.HeaderField",
           "name": "KV",
           "package": "WashNGo",
@@ -32420,6 +34992,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail HeaderField",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.HeaderField",
           "name": "KV",
           "normalized": "KV(String,String)",
@@ -32435,6 +35008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.HeaderField",
           "name": "MediaType",
           "package": "WashNGo",
@@ -32444,6 +35018,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail HeaderField",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.HeaderField",
           "name": "MediaType",
           "normalized": "MediaType(String,String)",
@@ -32459,6 +35034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "MIME",
           "package": "WashNGo",
@@ -32467,6 +35043,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "MIME",
           "package": "WashNGo",
@@ -32480,6 +35057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "CRLF",
           "package": "WashNGo",
@@ -32488,6 +35066,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "CRLF",
           "package": "WashNGo",
@@ -32501,6 +35080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "DOC",
           "package": "WashNGo",
@@ -32509,6 +35089,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "DOC",
           "package": "WashNGo",
@@ -32522,6 +35103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "Mail",
           "package": "WashNGo",
@@ -32530,6 +35112,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "Mail",
           "package": "WashNGo",
@@ -32543,6 +35126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "Send",
           "package": "WashNGo",
@@ -32551,6 +35135,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "Send",
           "package": "WashNGo",
@@ -32564,6 +35149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "SendControl",
           "package": "WashNGo",
@@ -32572,6 +35158,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "SendControl",
           "package": "WashNGo",
@@ -32585,6 +35172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "SendMode",
           "package": "WashNGo",
@@ -32593,6 +35181,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "SendMode",
           "package": "WashNGo",
@@ -32606,6 +35195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "CRLF",
           "package": "WashNGo",
@@ -32615,6 +35205,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "CRLF",
           "package": "WashNGo",
@@ -32628,6 +35219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "DOC",
           "package": "WashNGo",
@@ -32637,6 +35229,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "DOC",
           "package": "WashNGo",
@@ -32650,6 +35243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "EightBit",
           "package": "WashNGo",
@@ -32659,6 +35253,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "EightBit",
           "package": "WashNGo",
@@ -32672,6 +35267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "Mail",
           "package": "WashNGo",
@@ -32681,6 +35277,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "Mail",
           "package": "WashNGo",
@@ -32694,6 +35291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "SendControl",
           "package": "WashNGo",
@@ -32703,6 +35301,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "SendControl",
           "package": "WashNGo",
@@ -32716,6 +35315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "SevenBit",
           "package": "WashNGo",
@@ -32725,6 +35325,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "SevenBit",
           "package": "WashNGo",
@@ -32738,6 +35339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "bcc",
           "package": "WashNGo",
@@ -32747,6 +35349,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "bcc",
           "normalized": "[String]",
@@ -32761,6 +35364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "cc",
           "package": "WashNGo",
@@ -32770,6 +35374,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "cc",
           "normalized": "[String]",
@@ -32785,6 +35390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets Content-Disposition, e.g. for suggesting a filename\n depending on mediatype only one of the following is relevant:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "contentDisposition",
           "package": "WashNGo",
@@ -32795,6 +35401,7 @@
         "index": {
           "description": "sets Content-Disposition e.g for suggesting filename depending on mediatype only one of the following is relevant",
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "contentDisposition",
           "package": "WashNGo",
@@ -32808,6 +35415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "contents",
           "package": "WashNGo",
@@ -32817,6 +35425,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "contents",
           "package": "WashNGo",
@@ -32830,6 +35439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esuggested filename, OBSOLETE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "filename",
           "package": "WashNGo",
@@ -32840,6 +35450,7 @@
         "index": {
           "description": "suggested filename OBSOLETE",
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "filename",
           "package": "WashNGo",
@@ -32852,6 +35463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "hSend",
           "package": "WashNGo",
@@ -32861,6 +35473,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "hSend",
           "normalized": "SendControl-\u003ea-\u003eIO()",
@@ -32876,6 +35489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "headers",
           "package": "WashNGo",
@@ -32885,6 +35499,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "headers",
           "normalized": "[Header]",
@@ -32899,6 +35514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "mediatype",
           "package": "WashNGo",
@@ -32908,6 +35524,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "mediatype",
           "package": "WashNGo",
@@ -32921,6 +35538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata, only relevant for binary data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "messageData",
           "package": "WashNGo",
@@ -32931,6 +35549,7 @@
         "index": {
           "description": "data only relevant for binary data",
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "messageData",
           "package": "WashNGo",
@@ -32945,6 +35564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparameters of the media type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "parameters",
           "package": "WashNGo",
@@ -32955,6 +35575,7 @@
         "index": {
           "description": "parameters of the media type",
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "parameters",
           "normalized": "[KV]",
@@ -32970,6 +35591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata, only relevant for multipart mediatypes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "parts",
           "package": "WashNGo",
@@ -32980,6 +35602,7 @@
         "index": {
           "description": "data only relevant for multipart mediatypes",
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "parts",
           "normalized": "[DOC]",
@@ -32994,6 +35617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "send",
           "package": "WashNGo",
@@ -33003,6 +35627,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "send",
           "normalized": "a-\u003eIO()",
@@ -33017,6 +35642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "sendH",
           "package": "WashNGo",
@@ -33026,6 +35652,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "sendH",
           "package": "WashNGo",
@@ -33038,6 +35665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "sendMode",
           "package": "WashNGo",
@@ -33047,6 +35675,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "sendMode",
           "package": "WashNGo",
@@ -33060,6 +35689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "subject",
           "package": "WashNGo",
@@ -33069,6 +35699,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "subject",
           "package": "WashNGo",
@@ -33081,6 +35712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "subtype",
           "package": "WashNGo",
@@ -33090,6 +35722,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "subtype",
           "package": "WashNGo",
@@ -33103,6 +35736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elines, only relevant for text mediatypes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "textLines",
           "package": "WashNGo",
@@ -33113,6 +35747,7 @@
         "index": {
           "description": "lines only relevant for text mediatypes",
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "textLines",
           "normalized": "[String]",
@@ -33128,6 +35763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MIME",
           "name": "to",
           "package": "WashNGo",
@@ -33137,6 +35773,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MIME",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MIME",
           "name": "to",
           "normalized": "[String]",
@@ -33151,6 +35788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MailParser",
           "name": "MailParser",
           "package": "WashNGo",
@@ -33159,6 +35797,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MailParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MailParser",
           "name": "MailParser",
           "package": "WashNGo",
@@ -33172,6 +35811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MailParser",
           "name": "RawMessage",
           "package": "WashNGo",
@@ -33180,6 +35820,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MailParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MailParser",
           "name": "RawMessage",
           "package": "WashNGo",
@@ -33193,6 +35834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MailParser",
           "name": "RawMessage",
           "package": "WashNGo",
@@ -33202,6 +35844,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MailParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MailParser",
           "name": "RawMessage",
           "package": "WashNGo",
@@ -33215,6 +35858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MailParser",
           "name": "digestMessage",
           "package": "WashNGo",
@@ -33224,6 +35868,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MailParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MailParser",
           "name": "digestMessage",
           "normalized": "RawMessage-\u003eMessage",
@@ -33239,6 +35884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MailParser",
           "name": "digestMessage'",
           "package": "WashNGo",
@@ -33248,6 +35894,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MailParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MailParser",
           "name": "digestMessage'",
           "normalized": "ContentType-\u003eRawMessage-\u003eMessage",
@@ -33263,6 +35910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MailParser",
           "name": "rawHeaders",
           "package": "WashNGo",
@@ -33272,6 +35920,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MailParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MailParser",
           "name": "rawHeaders",
           "normalized": "[Header]",
@@ -33287,6 +35936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.MailParser",
           "name": "rawLines",
           "package": "WashNGo",
@@ -33296,6 +35946,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail MailParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.MailParser",
           "name": "rawLines",
           "normalized": "[String]",
@@ -33311,6 +35962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "Message",
           "package": "WashNGo",
@@ -33319,6 +35971,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "Message",
           "package": "WashNGo",
@@ -33332,6 +35985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "ContentDescription",
           "package": "WashNGo",
@@ -33340,6 +35994,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "ContentDescription",
           "package": "WashNGo",
@@ -33353,6 +36008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "ContentDisposition",
           "package": "WashNGo",
@@ -33361,6 +36017,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "ContentDisposition",
           "package": "WashNGo",
@@ -33374,6 +36031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "ContentID",
           "package": "WashNGo",
@@ -33382,6 +36040,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "ContentID",
           "package": "WashNGo",
@@ -33395,6 +36054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "ContentTransferEncoding",
           "package": "WashNGo",
@@ -33403,6 +36063,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "ContentTransferEncoding",
           "package": "WashNGo",
@@ -33416,6 +36077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "ContentType",
           "package": "WashNGo",
@@ -33424,6 +36086,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "ContentType",
           "package": "WashNGo",
@@ -33437,6 +36100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "Message",
           "package": "WashNGo",
@@ -33445,6 +36109,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "Message",
           "package": "WashNGo",
@@ -33458,6 +36123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "ContentDescription",
           "package": "WashNGo",
@@ -33467,6 +36133,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "ContentDescription",
           "package": "WashNGo",
@@ -33480,6 +36147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "ContentDisposition",
           "package": "WashNGo",
@@ -33489,6 +36157,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "ContentDisposition",
           "normalized": "ContentDisposition String[(String,String)]",
@@ -33504,6 +36173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "ContentID",
           "package": "WashNGo",
@@ -33513,6 +36183,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "ContentID",
           "package": "WashNGo",
@@ -33526,6 +36197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "ContentTransferEncoding",
           "package": "WashNGo",
@@ -33535,6 +36207,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "ContentTransferEncoding",
           "package": "WashNGo",
@@ -33548,6 +36221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "ContentType",
           "package": "WashNGo",
@@ -33557,6 +36231,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "ContentType",
           "normalized": "ContentType String String[(String,String)]",
@@ -33572,6 +36247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "Multipart",
           "package": "WashNGo",
@@ -33581,6 +36257,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "Multipart",
           "package": "WashNGo",
@@ -33594,6 +36271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "Singlepart",
           "package": "WashNGo",
@@ -33603,6 +36281,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "Singlepart",
           "package": "WashNGo",
@@ -33616,6 +36295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "getContentDisposition",
           "package": "WashNGo",
@@ -33625,6 +36305,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "getContentDisposition",
           "package": "WashNGo",
@@ -33638,6 +36319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "getContentTransferEncoding",
           "package": "WashNGo",
@@ -33647,6 +36329,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "getContentTransferEncoding",
           "package": "WashNGo",
@@ -33660,6 +36343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "getContentType",
           "package": "WashNGo",
@@ -33669,6 +36353,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "getContentType",
           "package": "WashNGo",
@@ -33682,6 +36367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "getDecoded",
           "package": "WashNGo",
@@ -33691,6 +36377,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "getDecoded",
           "normalized": "[Char]",
@@ -33706,6 +36393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "getHeaders",
           "package": "WashNGo",
@@ -33715,6 +36403,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "getHeaders",
           "normalized": "[Header]",
@@ -33730,6 +36419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "getLines",
           "package": "WashNGo",
@@ -33739,6 +36429,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "getLines",
           "normalized": "[String]",
@@ -33754,6 +36445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.Message",
           "name": "getParts",
           "package": "WashNGo",
@@ -33763,6 +36455,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail Message",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.Message",
           "name": "getParts",
           "normalized": "[Message]",
@@ -33778,6 +36471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "RFC2822",
           "package": "WashNGo",
@@ -33786,6 +36480,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "RFC2822",
           "package": "WashNGo",
@@ -33799,6 +36494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "Date2822",
           "package": "WashNGo",
@@ -33807,6 +36503,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "Date2822",
           "package": "WashNGo",
@@ -33821,6 +36518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse contents of Date field according to RFC2822\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "DateTime2822",
           "package": "WashNGo",
@@ -33830,6 +36528,7 @@
         "index": {
           "description": "parse contents of Date field according to RFC2822",
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "DateTime2822",
           "package": "WashNGo",
@@ -33843,6 +36542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "DayOfWeek",
           "package": "WashNGo",
@@ -33851,6 +36551,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "DayOfWeek",
           "package": "WashNGo",
@@ -33864,6 +36565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "Time2822",
           "package": "WashNGo",
@@ -33872,6 +36574,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "Time2822",
           "package": "WashNGo",
@@ -33885,6 +36588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "TimeOfDay2822",
           "package": "WashNGo",
@@ -33893,6 +36597,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "TimeOfDay2822",
           "package": "WashNGo",
@@ -33906,6 +36611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "Zone2822",
           "package": "WashNGo",
@@ -33914,6 +36620,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "Zone2822",
           "package": "WashNGo",
@@ -33927,6 +36634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "Date2822",
           "package": "WashNGo",
@@ -33936,6 +36644,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "Date2822",
           "package": "WashNGo",
@@ -33949,6 +36658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "DateTime2822",
           "package": "WashNGo",
@@ -33958,6 +36668,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "DateTime2822",
           "package": "WashNGo",
@@ -33971,6 +36682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "Time2822",
           "package": "WashNGo",
@@ -33980,6 +36692,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "Time2822",
           "package": "WashNGo",
@@ -33993,6 +36706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "TimeOfDay2822",
           "package": "WashNGo",
@@ -34002,6 +36716,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "TimeOfDay2822",
           "package": "WashNGo",
@@ -34015,6 +36730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Mail.RFC2822",
           "name": "Zone2822",
           "package": "WashNGo",
@@ -34024,6 +36740,7 @@
         },
         "index": {
           "hierarchy": "WASH Mail RFC2822",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Mail.RFC2822",
           "name": "Zone2822",
           "package": "WashNGo",
@@ -34037,6 +36754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Auxiliary",
           "name": "Auxiliary",
           "package": "WashNGo",
@@ -34045,6 +36763,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Auxiliary",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Auxiliary",
           "name": "Auxiliary",
           "package": "WashNGo",
@@ -34058,6 +36777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Auxiliary",
           "name": "appendDebugFile",
           "package": "WashNGo",
@@ -34067,6 +36787,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Auxiliary",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Auxiliary",
           "name": "appendDebugFile",
           "normalized": "String-\u003eString-\u003eIO()",
@@ -34082,6 +36803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Auxiliary",
           "name": "assertDirectoryExists",
           "package": "WashNGo",
@@ -34091,6 +36813,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Auxiliary",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Auxiliary",
           "name": "assertDirectoryExists",
           "normalized": "FilePath-\u003eIO()-\u003eIO()",
@@ -34106,6 +36829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Auxiliary",
           "name": "protectedGetEnv",
           "package": "WashNGo",
@@ -34115,6 +36839,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Auxiliary",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Auxiliary",
           "name": "protectedGetEnv",
           "normalized": "String-\u003eString-\u003eIO String",
@@ -34130,6 +36855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Auxiliary",
           "name": "readFileNonExistent",
           "package": "WashNGo",
@@ -34139,6 +36865,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Auxiliary",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Auxiliary",
           "name": "readFileNonExistent",
           "normalized": "FilePath-\u003eString-\u003eIO String",
@@ -34154,6 +36881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Auxiliary",
           "name": "readFileStrictly",
           "package": "WashNGo",
@@ -34163,6 +36891,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Auxiliary",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Auxiliary",
           "name": "readFileStrictly",
           "normalized": "FilePath-\u003eIO String",
@@ -34178,6 +36907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Auxiliary",
           "name": "writeDebugFile",
           "package": "WashNGo",
@@ -34187,6 +36917,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Auxiliary",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Auxiliary",
           "name": "writeDebugFile",
           "normalized": "String-\u003eString-\u003eIO()",
@@ -34202,6 +36933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Base32",
           "name": "Base32",
           "package": "WashNGo",
@@ -34210,6 +36942,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Base32",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Base32",
           "name": "Base32",
           "package": "WashNGo",
@@ -34223,6 +36956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Base32",
           "name": "decode",
           "package": "WashNGo",
@@ -34232,6 +36966,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Base32",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Base32",
           "name": "decode",
           "normalized": "String-\u003eString",
@@ -34246,6 +36981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Base32",
           "name": "encode",
           "package": "WashNGo",
@@ -34255,6 +36991,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Base32",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Base32",
           "name": "encode",
           "normalized": "String-\u003eString",
@@ -34270,6 +37007,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements RFC 2045 MIME coding.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Base64",
           "name": "Base64",
           "package": "WashNGo",
@@ -34279,6 +37017,7 @@
         "index": {
           "description": "Implements RFC MIME coding",
           "hierarchy": "WASH Utility Base64",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Base64",
           "name": "Base64",
           "package": "WashNGo",
@@ -34293,6 +37032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase64 alphabet in encoding order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Base64",
           "name": "alphabet_list",
           "package": "WashNGo",
@@ -34303,6 +37043,7 @@
         "index": {
           "description": "Base64 alphabet in encoding order",
           "hierarchy": "WASH Utility Base64",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Base64",
           "name": "alphabet_list",
           "package": "WashNGo",
@@ -34316,6 +37057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectly applicable to email body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Base64",
           "name": "decode",
           "package": "WashNGo",
@@ -34326,6 +37068,7 @@
         "index": {
           "description": "Directly applicable to email body",
           "hierarchy": "WASH Utility Base64",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Base64",
           "name": "decode",
           "normalized": "String-\u003eString",
@@ -34341,6 +37084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly applicable to stream of Base64 characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Base64",
           "name": "decode'",
           "package": "WashNGo",
@@ -34351,6 +37095,7 @@
         "index": {
           "description": "Only applicable to stream of Base64 characters",
           "hierarchy": "WASH Utility Base64",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Base64",
           "name": "decode'",
           "normalized": "String-\u003eString",
@@ -34366,6 +37111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields encoded input cropped to lines of less than 76 characters. Directly\n usable as email body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Base64",
           "name": "encode",
           "package": "WashNGo",
@@ -34376,6 +37122,7 @@
         "index": {
           "description": "Yields encoded input cropped to lines of less than characters Directly usable as email body",
           "hierarchy": "WASH Utility Base64",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Base64",
           "name": "encode",
           "normalized": "String-\u003eString",
@@ -34391,6 +37138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eyields continuous stream of bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Base64",
           "name": "encode'",
           "package": "WashNGo",
@@ -34401,6 +37149,7 @@
         "index": {
           "description": "yields continuous stream of bytes",
           "hierarchy": "WASH Utility Base64",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Base64",
           "name": "encode'",
           "normalized": "String-\u003eString",
@@ -34415,6 +37164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.BulkIO",
           "name": "BulkIO",
           "package": "WashNGo",
@@ -34423,6 +37173,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility BulkIO",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.BulkIO",
           "name": "BulkIO",
           "package": "WashNGo",
@@ -34436,6 +37187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.BulkIO",
           "name": "rawGetBytes",
           "package": "WashNGo",
@@ -34445,6 +37197,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility BulkIO",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.BulkIO",
           "name": "rawGetBytes",
           "normalized": "Handle-\u003eInt-\u003eIO String",
@@ -34460,6 +37213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.BulkIO",
           "name": "rawHandleCopy",
           "package": "WashNGo",
@@ -34469,6 +37223,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility BulkIO",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.BulkIO",
           "name": "rawHandleCopy",
           "normalized": "Handle-\u003eHandle-\u003eIO()",
@@ -34485,6 +37240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCollection of function for manipulating file names.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.FileNames",
           "name": "FileNames",
           "package": "WashNGo",
@@ -34494,6 +37250,7 @@
         "index": {
           "description": "Collection of function for manipulating file names",
           "hierarchy": "WASH Utility FileNames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.FileNames",
           "name": "FileNames",
           "package": "WashNGo",
@@ -34508,6 +37265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elongest prefix so that the rest contains \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e; entire string if no \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e present\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.FileNames",
           "name": "baseName",
           "package": "WashNGo",
@@ -34518,6 +37276,7 @@
         "index": {
           "description": "longest prefix so that the rest contains entire string if no present",
           "hierarchy": "WASH Utility FileNames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.FileNames",
           "name": "baseName",
           "normalized": "String-\u003eString",
@@ -34534,6 +37293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edrop the last component of a file path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.FileNames",
           "name": "dropLastComponent",
           "package": "WashNGo",
@@ -34544,6 +37304,7 @@
         "index": {
           "description": "drop the last component of file path",
           "hierarchy": "WASH Utility FileNames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.FileNames",
           "name": "dropLastComponent",
           "normalized": "String-\u003eString",
@@ -34560,6 +37321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elongest suffix of path that does not contain \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.FileNames",
           "name": "extName",
           "package": "WashNGo",
@@ -34570,6 +37332,7 @@
         "index": {
           "description": "longest suffix of path that does not contain",
           "hierarchy": "WASH Utility FileNames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.FileNames",
           "name": "extName",
           "normalized": "String-\u003eString",
@@ -34586,6 +37349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elongest suffix of path that does not contain \u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.FileNames",
           "name": "filePart",
           "package": "WashNGo",
@@ -34596,6 +37360,7 @@
         "index": {
           "description": "longest suffix of path that does not contain",
           "hierarchy": "WASH Utility FileNames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.FileNames",
           "name": "filePart",
           "normalized": "String-\u003eString",
@@ -34612,6 +37377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplits input at each \u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.FileNames",
           "name": "fileToPath",
           "package": "WashNGo",
@@ -34622,6 +37388,7 @@
         "index": {
           "description": "splits input at each",
           "hierarchy": "WASH Utility FileNames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.FileNames",
           "name": "fileToPath",
           "normalized": "String-\u003e[String]",
@@ -34637,6 +37404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.FileNames",
           "name": "longestSuffix",
           "package": "WashNGo",
@@ -34646,6 +37414,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility FileNames",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.FileNames",
           "name": "longestSuffix",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -34661,6 +37430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Hex",
           "name": "Hex",
           "package": "WashNGo",
@@ -34669,6 +37439,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Hex",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Hex",
           "name": "Hex",
           "package": "WashNGo",
@@ -34682,6 +37453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Hex",
           "name": "alternative_indices",
           "package": "WashNGo",
@@ -34691,6 +37463,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Hex",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Hex",
           "name": "alternative_indices",
           "normalized": "[(Int,Char)]",
@@ -34705,6 +37478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Hex",
           "name": "hexDigitVal",
           "package": "WashNGo",
@@ -34714,6 +37488,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Hex",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Hex",
           "name": "hexDigitVal",
           "normalized": "Char-\u003eInt",
@@ -34729,6 +37504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Hex",
           "name": "hexdigit",
           "package": "WashNGo",
@@ -34738,6 +37514,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Hex",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Hex",
           "name": "hexdigit",
           "normalized": "Int-\u003eChar",
@@ -34752,6 +37529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Hex",
           "name": "hexdigits'_indices",
           "package": "WashNGo",
@@ -34761,6 +37539,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Hex",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Hex",
           "name": "hexdigits'_indices",
           "normalized": "[(Int,Char)]",
@@ -34775,6 +37554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Hex",
           "name": "isHexdigit",
           "package": "WashNGo",
@@ -34784,6 +37564,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Hex",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Hex",
           "name": "isHexdigit",
           "normalized": "Char-\u003eBool",
@@ -34799,6 +37580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Hex",
           "name": "showHex2",
           "package": "WashNGo",
@@ -34808,6 +37590,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Hex",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Hex",
           "name": "showHex2",
           "normalized": "Int-\u003eString",
@@ -34823,6 +37606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Hex",
           "name": "showsHex",
           "package": "WashNGo",
@@ -34832,6 +37616,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Hex",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Hex",
           "name": "showsHex",
           "normalized": "Int-\u003eInt-\u003eShowS",
@@ -34847,6 +37632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISO8601",
           "package": "WashNGo",
@@ -34855,6 +37641,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISO8601",
           "package": "WashNGo",
@@ -34868,6 +37655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODate",
           "package": "WashNGo",
@@ -34876,6 +37664,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODate",
           "package": "WashNGo",
@@ -34890,6 +37679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata type for representing ISO time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODateAndTime",
           "package": "WashNGo",
@@ -34899,6 +37689,7 @@
         "index": {
           "description": "data type for representing ISO time",
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODateAndTime",
           "package": "WashNGo",
@@ -34912,6 +37703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODayOfMonthSpec",
           "package": "WashNGo",
@@ -34920,6 +37712,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODayOfMonthSpec",
           "package": "WashNGo",
@@ -34933,6 +37726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODayOfWeekSpec",
           "package": "WashNGo",
@@ -34941,6 +37735,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODayOfWeekSpec",
           "package": "WashNGo",
@@ -34954,6 +37749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODayOfYearSpec",
           "package": "WashNGo",
@@ -34962,6 +37758,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODayOfYearSpec",
           "package": "WashNGo",
@@ -34975,6 +37772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOHourSpec",
           "package": "WashNGo",
@@ -34983,6 +37781,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOHourSpec",
           "package": "WashNGo",
@@ -34996,6 +37795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOMinuteSpec",
           "package": "WashNGo",
@@ -35004,6 +37804,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOMinuteSpec",
           "package": "WashNGo",
@@ -35017,6 +37818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOMonthSpec",
           "package": "WashNGo",
@@ -35025,6 +37827,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOMonthSpec",
           "package": "WashNGo",
@@ -35038,6 +37841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOSecondSpec",
           "package": "WashNGo",
@@ -35046,6 +37850,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOSecondSpec",
           "package": "WashNGo",
@@ -35059,6 +37864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOTime",
           "package": "WashNGo",
@@ -35067,6 +37873,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOTime",
           "package": "WashNGo",
@@ -35080,6 +37887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOTimeZoneSpec",
           "package": "WashNGo",
@@ -35088,6 +37896,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOTimeZoneSpec",
           "package": "WashNGo",
@@ -35101,6 +37910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOWeekSpec",
           "package": "WashNGo",
@@ -35109,6 +37919,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOWeekSpec",
           "package": "WashNGo",
@@ -35122,6 +37933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOYearSpec",
           "package": "WashNGo",
@@ -35130,6 +37942,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOYearSpec",
           "package": "WashNGo",
@@ -35143,6 +37956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "LeapSeconds",
           "package": "WashNGo",
@@ -35151,6 +37965,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "LeapSeconds",
           "package": "WashNGo",
@@ -35164,6 +37979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ToSeconds",
           "package": "WashNGo",
@@ -35172,6 +37988,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ToSeconds",
           "package": "WashNGo",
@@ -35185,6 +38002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "AnyWeek",
           "package": "WashNGo",
@@ -35194,6 +38012,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "AnyWeek",
           "package": "WashNGo",
@@ -35207,6 +38026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "Century",
           "package": "WashNGo",
@@ -35216,6 +38036,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "Century",
           "package": "WashNGo",
@@ -35229,6 +38050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "DayOfMonth",
           "package": "WashNGo",
@@ -35238,6 +38060,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "DayOfMonth",
           "package": "WashNGo",
@@ -35251,6 +38074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "DayOfWeek",
           "package": "WashNGo",
@@ -35260,6 +38084,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "DayOfWeek",
           "package": "WashNGo",
@@ -35273,6 +38098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "DayOfYear",
           "package": "WashNGo",
@@ -35282,6 +38108,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "DayOfYear",
           "package": "WashNGo",
@@ -35295,6 +38122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "Hour",
           "package": "WashNGo",
@@ -35304,6 +38132,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "Hour",
           "package": "WashNGo",
@@ -35317,6 +38146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODate",
           "package": "WashNGo",
@@ -35326,6 +38156,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODate",
           "package": "WashNGo",
@@ -35339,6 +38170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODateAndTime",
           "package": "WashNGo",
@@ -35348,6 +38180,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISODateAndTime",
           "package": "WashNGo",
@@ -35361,6 +38194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOTime",
           "package": "WashNGo",
@@ -35370,6 +38204,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ISOTime",
           "package": "WashNGo",
@@ -35383,6 +38218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitCentury",
           "package": "WashNGo",
@@ -35392,6 +38228,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitCentury",
           "package": "WashNGo",
@@ -35405,6 +38242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitDecade",
           "package": "WashNGo",
@@ -35414,6 +38252,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitDecade",
           "package": "WashNGo",
@@ -35427,6 +38266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitHour",
           "package": "WashNGo",
@@ -35436,6 +38276,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitHour",
           "package": "WashNGo",
@@ -35449,6 +38290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitMinute",
           "package": "WashNGo",
@@ -35458,6 +38300,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitMinute",
           "package": "WashNGo",
@@ -35471,6 +38314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitMonth",
           "package": "WashNGo",
@@ -35480,6 +38324,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitMonth",
           "package": "WashNGo",
@@ -35493,6 +38338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitWeek",
           "package": "WashNGo",
@@ -35502,6 +38348,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitWeek",
           "package": "WashNGo",
@@ -35515,6 +38362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitYear",
           "package": "WashNGo",
@@ -35524,6 +38372,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "ImplicitYear",
           "package": "WashNGo",
@@ -35537,6 +38386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "LeapSecond",
           "package": "WashNGo",
@@ -35546,6 +38396,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "LeapSecond",
           "package": "WashNGo",
@@ -35559,6 +38410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "LocalTime",
           "package": "WashNGo",
@@ -35568,6 +38420,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "LocalTime",
           "package": "WashNGo",
@@ -35581,6 +38434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "MinusTime",
           "package": "WashNGo",
@@ -35590,6 +38444,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "MinusTime",
           "package": "WashNGo",
@@ -35603,6 +38458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "Minute",
           "package": "WashNGo",
@@ -35612,6 +38468,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "Minute",
           "package": "WashNGo",
@@ -35625,6 +38482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "Month",
           "package": "WashNGo",
@@ -35634,6 +38492,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "Month",
           "package": "WashNGo",
@@ -35647,6 +38506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "MonthDay",
           "package": "WashNGo",
@@ -35656,6 +38516,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "MonthDay",
           "package": "WashNGo",
@@ -35669,6 +38530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "NoDayOfMonth",
           "package": "WashNGo",
@@ -35678,6 +38540,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "NoDayOfMonth",
           "package": "WashNGo",
@@ -35691,6 +38554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "NoDayOfWeek",
           "package": "WashNGo",
@@ -35700,6 +38564,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "NoDayOfWeek",
           "package": "WashNGo",
@@ -35713,6 +38578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "NoDayOfYear",
           "package": "WashNGo",
@@ -35722,6 +38588,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "NoDayOfYear",
           "package": "WashNGo",
@@ -35735,6 +38602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "NoMinute",
           "package": "WashNGo",
@@ -35744,6 +38612,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "NoMinute",
           "package": "WashNGo",
@@ -35757,6 +38626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "NoSecond",
           "package": "WashNGo",
@@ -35766,6 +38636,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "NoSecond",
           "package": "WashNGo",
@@ -35779,6 +38650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "NotLeapSecond",
           "package": "WashNGo",
@@ -35788,6 +38660,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "NotLeapSecond",
           "package": "WashNGo",
@@ -35801,6 +38674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "PlusTime",
           "package": "WashNGo",
@@ -35810,6 +38684,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "PlusTime",
           "package": "WashNGo",
@@ -35823,6 +38698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "Second",
           "package": "WashNGo",
@@ -35832,6 +38708,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "Second",
           "package": "WashNGo",
@@ -35845,6 +38722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "UTCTime",
           "package": "WashNGo",
@@ -35854,6 +38732,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "UTCTime",
           "package": "WashNGo",
@@ -35867,6 +38746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "Week",
           "package": "WashNGo",
@@ -35876,6 +38756,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "Week",
           "package": "WashNGo",
@@ -35889,6 +38770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "WeekAndDay",
           "package": "WashNGo",
@@ -35898,6 +38780,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "WeekAndDay",
           "package": "WashNGo",
@@ -35911,6 +38794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "Year",
           "package": "WashNGo",
@@ -35920,6 +38804,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "Year",
           "package": "WashNGo",
@@ -35933,6 +38818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "applyToCalT",
           "package": "WashNGo",
@@ -35942,6 +38828,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "applyToCalT",
           "normalized": "(CalendarTime-\u003ea)-\u003eIO a",
@@ -35957,6 +38844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "isoDateAndTimeToClockTime",
           "package": "WashNGo",
@@ -35966,6 +38854,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "isoDateAndTimeToClockTime",
           "normalized": "ISODateAndTime-\u003eClockTime",
@@ -35981,6 +38870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "isoDateAndTimeToSeconds",
           "package": "WashNGo",
@@ -35990,6 +38880,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "isoDateAndTimeToSeconds",
           "normalized": "ISODateAndTime-\u003eIO Integer",
@@ -36005,6 +38896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "isoDateToClockTime",
           "package": "WashNGo",
@@ -36014,6 +38906,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "isoDateToClockTime",
           "normalized": "ISODate-\u003eClockTime",
@@ -36029,6 +38922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "isoDateToSeconds",
           "package": "WashNGo",
@@ -36038,6 +38932,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "isoDateToSeconds",
           "normalized": "ISODate-\u003eIO Integer",
@@ -36053,6 +38948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "isoTimeToSeconds",
           "package": "WashNGo",
@@ -36062,6 +38958,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "isoTimeToSeconds",
           "normalized": "ISOTime-\u003eIO Integer",
@@ -36078,6 +38975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompute weekday of Jan 1\n\u003c/p\u003e\u003cp\u003ein seconds from epoch; needs to be updated when time leaps again\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "leapSeconds",
           "package": "WashNGo",
@@ -36088,6 +38986,7 @@
         "index": {
           "description": "compute weekday of Jan in seconds from epoch needs to be updated when time leaps again",
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "leapSeconds",
           "normalized": "[Integer]",
@@ -36103,6 +39002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "parseDateAndTimeFromString",
           "package": "WashNGo",
@@ -36112,6 +39012,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "parseDateAndTimeFromString",
           "normalized": "String-\u003eMaybe ISODateAndTime",
@@ -36127,6 +39028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "parseDateFromString",
           "package": "WashNGo",
@@ -36136,6 +39038,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "parseDateFromString",
           "normalized": "String-\u003eMaybe ISODate",
@@ -36151,6 +39054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "parseTimeFromString",
           "package": "WashNGo",
@@ -36160,6 +39064,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "parseTimeFromString",
           "normalized": "String-\u003eMaybe ISOTime",
@@ -36175,6 +39080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "toRawSeconds",
           "package": "WashNGo",
@@ -36184,6 +39090,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "toRawSeconds",
           "normalized": "a-\u003eCalendarTime-\u003eInteger",
@@ -36200,6 +39107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns number of seconds since reference point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.ISO8601",
           "name": "toSeconds",
           "package": "WashNGo",
@@ -36210,6 +39118,7 @@
         "index": {
           "description": "returns number of seconds since reference point",
           "hierarchy": "WASH Utility ISO8601",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.ISO8601",
           "name": "toSeconds",
           "normalized": "a-\u003eCalendarTime-\u003eInteger",
@@ -36225,6 +39134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.IntToString",
           "name": "IntToString",
           "package": "WashNGo",
@@ -36233,6 +39143,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility IntToString",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.IntToString",
           "name": "IntToString",
           "package": "WashNGo",
@@ -36246,6 +39157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.JavaScript",
           "name": "JavaScript",
           "package": "WashNGo",
@@ -36254,6 +39166,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility JavaScript",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.JavaScript",
           "name": "JavaScript",
           "package": "WashNGo",
@@ -36267,6 +39180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.JavaScript",
           "name": "jsShow",
           "package": "WashNGo",
@@ -36276,6 +39190,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility JavaScript",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.JavaScript",
           "name": "jsShow",
           "normalized": "String-\u003eString",
@@ -36292,6 +39207,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements Locking via directory creation, which seems to be the only portable\nway to do it through Haskell's standard IO library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Locking",
           "name": "Locking",
           "package": "WashNGo",
@@ -36301,6 +39217,7 @@
         "index": {
           "description": "Implements Locking via directory creation which seems to be the only portable way to do it through Haskell standard IO library",
           "hierarchy": "WASH Utility Locking",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Locking",
           "name": "Locking",
           "package": "WashNGo",
@@ -36314,6 +39231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Locking",
           "name": "obtainLock",
           "package": "WashNGo",
@@ -36323,6 +39241,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Locking",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Locking",
           "name": "obtainLock",
           "normalized": "FilePath-\u003eIO()",
@@ -36338,6 +39257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Locking",
           "name": "releaseLock",
           "package": "WashNGo",
@@ -36347,6 +39267,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Locking",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Locking",
           "name": "releaseLock",
           "normalized": "FilePath-\u003eIO()",
@@ -36362,6 +39283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.QuotedPrintable",
           "name": "QuotedPrintable",
           "package": "WashNGo",
@@ -36370,6 +39292,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility QuotedPrintable",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.QuotedPrintable",
           "name": "QuotedPrintable",
           "package": "WashNGo",
@@ -36383,6 +39306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.QuotedPrintable",
           "name": "decode",
           "package": "WashNGo",
@@ -36392,6 +39316,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility QuotedPrintable",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.QuotedPrintable",
           "name": "decode",
           "normalized": "String-\u003eString",
@@ -36406,6 +39331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.QuotedPrintable",
           "name": "encode",
           "package": "WashNGo",
@@ -36415,6 +39341,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility QuotedPrintable",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.QuotedPrintable",
           "name": "encode",
           "normalized": "String-\u003eString",
@@ -36429,6 +39356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.QuotedPrintable",
           "name": "encode'",
           "package": "WashNGo",
@@ -36438,6 +39366,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility QuotedPrintable",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.QuotedPrintable",
           "name": "encode'",
           "normalized": "String-\u003eString",
@@ -36452,6 +39381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.RFC2047",
           "name": "RFC2047",
           "package": "WashNGo",
@@ -36460,6 +39390,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility RFC2047",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.RFC2047",
           "name": "RFC2047",
           "package": "WashNGo",
@@ -36474,6 +39405,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements UTF-8 encoding\n\u003c/p\u003e\u003cp\u003eUCS-4 range (hex.)           UTF-8 octet sequence (binary)\n  0000 0000-0000 007F   0xxxxxxx\n  0000 0080-0000 07FF   110xxxxx 10xxxxxx\n  0000 0800-0000 FFFF   1110xxxx 10xxxxxx 10xxxxxx\n  0001 0000-001F FFFF   11110xxx 10xxxxxx 10xxxxxx 10xxxxxx\n  0020 0000-03FF FFFF   111110xx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx\n  0400 0000-7FFF FFFF   1111110x 10xxxxxx ... 10xxxxxx\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.RFC2279",
           "name": "RFC2279",
           "package": "WashNGo",
@@ -36483,6 +39415,7 @@
         "index": {
           "description": "Implements UTF-8 encoding UCS-4 range hex UTF-8 octet sequence binary xxxxxxx FF xxxxx xxxxxx FFFF xxxx xxxxxx xxxxxx FFFF xxx xxxxxx xxxxxx xxxxxx FF FFFF xx xxxxxx xxxxxx xxxxxx xxxxxx FFF FFFF xxxxxx xxxxxx",
           "hierarchy": "WASH Utility RFC2279",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.RFC2279",
           "name": "RFC2279",
           "package": "WashNGo",
@@ -36497,6 +39430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaps list of octets in UTF-8 encoding to Unicode string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.RFC2279",
           "name": "decode",
           "package": "WashNGo",
@@ -36507,6 +39441,7 @@
         "index": {
           "description": "maps list of octets in UTF-8 encoding to Unicode string",
           "hierarchy": "WASH Utility RFC2279",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.RFC2279",
           "name": "decode",
           "normalized": "String-\u003eString",
@@ -36522,6 +39457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaps Unicode string to list of octets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.RFC2279",
           "name": "encode",
           "package": "WashNGo",
@@ -36532,6 +39468,7 @@
         "index": {
           "description": "maps Unicode string to list of octets",
           "hierarchy": "WASH Utility RFC2279",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.RFC2279",
           "name": "encode",
           "normalized": "String-\u003eString",
@@ -36546,6 +39483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.RFC2397",
           "name": "RFC2397",
           "package": "WashNGo",
@@ -36554,6 +39492,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility RFC2397",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.RFC2397",
           "name": "RFC2397",
           "package": "WashNGo",
@@ -36567,6 +39506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.RFC2397",
           "name": "ENC",
           "package": "WashNGo",
@@ -36575,6 +39515,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility RFC2397",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.RFC2397",
           "name": "ENC",
           "package": "WashNGo",
@@ -36588,6 +39529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.RFC2397",
           "name": "BASE64",
           "package": "WashNGo",
@@ -36597,6 +39539,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility RFC2397",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.RFC2397",
           "name": "BASE64",
           "package": "WashNGo",
@@ -36610,6 +39553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.RFC2397",
           "name": "URL",
           "package": "WashNGo",
@@ -36619,6 +39563,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility RFC2397",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.RFC2397",
           "name": "URL",
           "package": "WashNGo",
@@ -36632,6 +39577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.RFC2397",
           "name": "breakList",
           "package": "WashNGo",
@@ -36641,6 +39587,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility RFC2397",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.RFC2397",
           "name": "breakList",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -36657,6 +39604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaps data URL to \u003ccode\u003eJust (mediatype, contents)\u003c/code\u003e or \u003ccode\u003eNothing\u003c/code\u003e in case of a\n syntax error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.RFC2397",
           "name": "decode",
           "package": "WashNGo",
@@ -36667,6 +39615,7 @@
         "index": {
           "description": "maps data URL to Just mediatype contents or Nothing in case of syntax error",
           "hierarchy": "WASH Utility RFC2397",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.RFC2397",
           "name": "decode",
           "normalized": "String-\u003eMaybe(String,String)",
@@ -36682,6 +39631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaps (mediatype, contents) to data URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.RFC2397",
           "name": "encode",
           "package": "WashNGo",
@@ -36692,6 +39642,7 @@
         "index": {
           "description": "maps mediatype contents to data URL",
           "hierarchy": "WASH Utility RFC2397",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.RFC2397",
           "name": "encode",
           "normalized": "(String,String)-\u003eString",
@@ -36706,6 +39657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.SHA1",
           "name": "SHA1",
           "package": "WashNGo",
@@ -36714,6 +39666,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility SHA1",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.SHA1",
           "name": "SHA1",
           "package": "WashNGo",
@@ -36727,6 +39680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.SHA1",
           "name": "sha1",
           "package": "WashNGo",
@@ -36736,6 +39690,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility SHA1",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.SHA1",
           "name": "sha1",
           "normalized": "String-\u003eString",
@@ -36750,6 +39705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.SHA1",
           "name": "sha1_size",
           "package": "WashNGo",
@@ -36759,6 +39715,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility SHA1",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.SHA1",
           "name": "sha1_size",
           "normalized": "a-\u003eString-\u003eString",
@@ -36774,6 +39731,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines functions for shell quotation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Shell",
           "name": "Shell",
           "package": "WashNGo",
@@ -36783,6 +39741,7 @@
         "index": {
           "description": "Defines functions for shell quotation",
           "hierarchy": "WASH Utility Shell",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Shell",
           "name": "Shell",
           "package": "WashNGo",
@@ -36797,6 +39756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShell meta characters are \u003cem\u003e! & ; \\` \\' \\\" | * ? ~ \\\u003c \\\u003e ^ ( ) [ ] true $ n r\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Shell",
           "name": "metaCharacters",
           "package": "WashNGo",
@@ -36807,6 +39767,7 @@
         "index": {
           "description": "Shell meta characters are true",
           "hierarchy": "WASH Utility Shell",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Shell",
           "name": "metaCharacters",
           "package": "WashNGo",
@@ -36821,6 +39782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuotes all shell meta characters and removes non printable ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Shell",
           "name": "quote",
           "package": "WashNGo",
@@ -36831,6 +39793,7 @@
         "index": {
           "description": "Quotes all shell meta characters and removes non printable ones",
           "hierarchy": "WASH Utility Shell",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Shell",
           "name": "quote",
           "normalized": "String-\u003eString",
@@ -36845,6 +39808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.SimpleParser",
           "name": "SimpleParser",
           "package": "WashNGo",
@@ -36853,6 +39817,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility SimpleParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.SimpleParser",
           "name": "SimpleParser",
           "package": "WashNGo",
@@ -36866,6 +39831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.SimpleParser",
           "name": "Parser",
           "package": "WashNGo",
@@ -36874,6 +39840,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility SimpleParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.SimpleParser",
           "name": "Parser",
           "package": "WashNGo",
@@ -36887,6 +39854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.SimpleParser",
           "name": "Parser",
           "package": "WashNGo",
@@ -36896,6 +39864,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility SimpleParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.SimpleParser",
           "name": "Parser",
           "normalized": "Parser(a-\u003e[(b,a)])",
@@ -36911,6 +39880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.SimpleParser",
           "name": "option",
           "package": "WashNGo",
@@ -36920,6 +39890,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility SimpleParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.SimpleParser",
           "name": "option",
           "normalized": "a-\u003eParser b a-\u003eParser b a",
@@ -36934,6 +39905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.SimpleParser",
           "name": "parseFromString",
           "package": "WashNGo",
@@ -36943,6 +39915,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility SimpleParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.SimpleParser",
           "name": "parseFromString",
           "normalized": "Parser String a-\u003eString-\u003eMaybe a",
@@ -36958,6 +39931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.SimpleParser",
           "name": "parserToRead",
           "package": "WashNGo",
@@ -36967,6 +39941,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility SimpleParser",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.SimpleParser",
           "name": "parserToRead",
           "normalized": "Parser String a-\u003eReadS a",
@@ -36983,6 +39958,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements coding of non-alphanumeric characters in URLs and CGI-requests.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.URLCoding",
           "name": "URLCoding",
           "package": "WashNGo",
@@ -36992,6 +39968,7 @@
         "index": {
           "description": "Implements coding of non-alphanumeric characters in URLs and CGI-requests",
           "hierarchy": "WASH Utility URLCoding",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.URLCoding",
           "name": "URLCoding",
           "package": "WashNGo",
@@ -37006,6 +39983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform URI decoding to a list of bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.URLCoding",
           "name": "decode",
           "package": "WashNGo",
@@ -37016,6 +39994,7 @@
         "index": {
           "description": "Perform URI decoding to list of bytes",
           "hierarchy": "WASH Utility URLCoding",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.URLCoding",
           "name": "decode",
           "normalized": "String-\u003eString",
@@ -37031,6 +40010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform URI encoding of a list of bytes. See \n \u003ca\u003ehttp://www.w3.org/International/O-URL-code.html\u003c/a\u003e\n To encode a list of characters, the string first has to be UTF-8 encoded!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.URLCoding",
           "name": "encode",
           "package": "WashNGo",
@@ -37041,6 +40021,7 @@
         "index": {
           "description": "Perform URI encoding of list of bytes See http www.w3.org International O-URL-code.html To encode list of characters the string first has to be UTF-8 encoded",
           "hierarchy": "WASH Utility URLCoding",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.URLCoding",
           "name": "encode",
           "normalized": "String-\u003eString",
@@ -37055,6 +40036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Unique",
           "name": "Unique",
           "package": "WashNGo",
@@ -37063,6 +40045,7 @@
         },
         "index": {
           "hierarchy": "WASH Utility Unique",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Unique",
           "name": "Unique",
           "package": "WashNGo",
@@ -37077,6 +40060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unique temporary file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Unique",
           "name": "inventFilePath",
           "package": "WashNGo",
@@ -37087,6 +40071,7 @@
         "index": {
           "description": "Create unique temporary file name",
           "hierarchy": "WASH Utility Unique",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Unique",
           "name": "inventFilePath",
           "package": "WashNGo",
@@ -37101,6 +40086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a unique string from a given length and alphabet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Unique",
           "name": "inventKey",
           "package": "WashNGo",
@@ -37111,6 +40097,7 @@
         "index": {
           "description": "Creates unique string from given length and alphabet",
           "hierarchy": "WASH Utility Unique",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Unique",
           "name": "inventKey",
           "normalized": "Int-\u003eString-\u003eIO String",
@@ -37127,6 +40114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a random string of 20 letters and digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:12 UTC 2014",
           "module": "WASH.Utility.Unique",
           "name": "inventStdKey",
           "package": "WashNGo",
@@ -37137,6 +40125,7 @@
         "index": {
           "description": "Creates random string of letters and digits",
           "hierarchy": "WASH Utility Unique",
+          "indexed": "2014-03-11T17:04:12",
           "module": "WASH.Utility.Unique",
           "name": "inventStdKey",
           "package": "WashNGo",

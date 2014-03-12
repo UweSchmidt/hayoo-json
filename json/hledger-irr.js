@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hledger-irr"
+        "phrase": "hledger-irr",
+        "type": "phrase"
       },
       "type": "context"
     }

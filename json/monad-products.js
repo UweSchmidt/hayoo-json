@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-products"
+        "phrase": "monad-products",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad Products \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:30 UTC 2014",
           "module": "Control.Monad.Product",
           "name": "Product",
           "package": "monad-products",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Monad Products",
           "hierarchy": "Control Monad Product",
+          "indexed": "2014-03-11T19:20:30",
           "module": "Control.Monad.Product",
           "name": "Product",
           "package": "monad-products",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisjoint \u003ccode\u003eGraph\u003c/code\u003e union as a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e product\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:30 UTC 2014",
           "module": "Control.Monad.Product",
           "name": "Product",
           "package": "monad-products",
@@ -51,6 +54,7 @@
         "index": {
           "description": "disjoint Graph union as Monad product",
           "hierarchy": "Control Monad Product",
+          "indexed": "2014-03-11T19:20:30",
           "module": "Control.Monad.Product",
           "name": "Product",
           "package": "monad-products",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:30 UTC 2014",
           "module": "Control.Monad.Product",
           "name": "Product",
           "package": "monad-products",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Product",
+          "indexed": "2014-03-11T19:20:30",
           "module": "Control.Monad.Product",
           "name": "Product",
           "package": "monad-products",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:30 UTC 2014",
           "module": "Control.Monad.Product",
           "name": "runProduct",
           "package": "monad-products",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Product",
+          "indexed": "2014-03-11T19:20:30",
           "module": "Control.Monad.Product",
           "name": "runProduct",
           "normalized": "(a b,c b)",

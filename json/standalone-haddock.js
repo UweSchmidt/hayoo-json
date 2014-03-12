@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "standalone-haddock"
+        "phrase": "standalone-haddock",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dph-seq"
+        "phrase": "dph-seq",
+        "type": "phrase"
       },
       "type": "context"
     }

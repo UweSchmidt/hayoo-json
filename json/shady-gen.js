@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shady-gen"
+        "phrase": "shady-gen",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eName supply monad.  Non-abstract synonym for \u003ccode\u003eState [String]\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.NameM",
           "name": "NameM",
           "package": "shady-gen",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Name supply monad Non-abstract synonym for State String",
           "hierarchy": "Data NameM",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.NameM",
           "name": "NameM",
           "package": "shady-gen",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.NameM",
           "name": "NameM",
           "package": "shady-gen",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data NameM",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.NameM",
           "name": "NameM",
           "package": "shady-gen",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.NameM",
           "name": "allNames",
           "package": "shady-gen",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data NameM",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.NameM",
           "name": "allNames",
           "normalized": "[String]",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.NameM",
           "name": "genName",
           "package": "shady-gen",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data NameM",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.NameM",
           "name": "genName",
           "normalized": "State[a]a",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.NameM",
           "name": "runNameM",
           "package": "shady-gen",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data NameM",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.NameM",
           "name": "runNameM",
           "normalized": "NameM a-\u003ea",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePolymorphic memoization based using stable names.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.PolyStableMemo",
           "name": "PolyStableMemo",
           "package": "shady-gen",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Polymorphic memoization based using stable names",
           "hierarchy": "Data PolyStableMemo",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.PolyStableMemo",
           "name": "PolyStableMemo",
           "package": "shady-gen",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.PolyStableMemo",
           "name": ":--\u003e",
           "package": "shady-gen",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data PolyStableMemo",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.PolyStableMemo",
           "name": ":--\u003e",
           "package": "shady-gen",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePointer-based memoization.  Evaluates keys to WHNF to improve hit rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.PolyStableMemo",
           "name": "memo",
           "package": "shady-gen",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Pointer-based memoization Evaluates keys to WHNF to improve hit rate",
           "hierarchy": "Data PolyStableMemo",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.PolyStableMemo",
           "name": "memo",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMemoization based using stable names.  WHNFs keys.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.StableMemo",
           "name": "StableMemo",
           "package": "shady-gen",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Memoization based using stable names WHNFs keys",
           "hierarchy": "Data StableMemo",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.StableMemo",
           "name": "StableMemo",
           "package": "shady-gen",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePointer-based memoization.  Evaluates keys to WHNF to improve hit rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.StableMemo",
           "name": "memo",
           "package": "shady-gen",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Pointer-based memoization Evaluates keys to WHNF to improve hit rate",
           "hierarchy": "Data StableMemo",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.StableMemo",
           "name": "memo",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoized binary function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.StableMemo",
           "name": "memo2",
           "package": "shady-gen",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Memoized binary function",
           "hierarchy": "Data StableMemo",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.StableMemo",
           "name": "memo2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ea-\u003eb-\u003ec",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoized ternary function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Data.StableMemo",
           "name": "memo3",
           "package": "shady-gen",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Memoized ternary function",
           "hierarchy": "Data StableMemo",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Data.StableMemo",
           "name": "memo3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ea-\u003eb-\u003ec-\u003ed",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGenerate and compile vertex and fragment shaders.\n\u003c/p\u003e\u003cp\u003eIn this version, shader programs are represented by functions function\n a single expression to a single expression.  See also CompileEs, which\n allows functions between more flexible representations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileE",
           "name": "CompileE",
           "package": "shady-gen",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Generate and compile vertex and fragment shaders In this version shader programs are represented by functions function single expression to single expression See also CompileEs which allows functions between more flexible representations",
           "hierarchy": "Shady CompileE",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileE",
           "name": "CompileE",
           "package": "shady-gen",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor building vertex/fragment shader pairs.  The idea is that a\n complete parameterized shader program has type \u003ccode\u003eu :=\u003e a :- v :--\u003e o\u003c/code\u003e,\n which expands to \u003ccode\u003eu :=\u003e (a :-^\u003e v, v :-* o)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eu == uniform, a == (vertex) attribute, v == varying, o == fragment output.\n\u003c/p\u003e\u003cp\u003eWhen \u003ccode\u003eo == ()\u003c/code\u003e (color-only output), use the short-hand \u003ccode\u003eu :=\u003e a :-\u003e v\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eGeneral vertex/fragment shader pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileE",
           "name": ":-\u003e",
           "package": "shady-gen",
@@ -333,6 +360,7 @@
         "index": {
           "description": "For building vertex fragment shader pairs The idea is that complete parameterized shader program has type which expands to uniform vertex attribute varying fragment output When color-only output use the short-hand General vertex fragment shader pair",
           "hierarchy": "Shady CompileE",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileE",
           "name": ":-\u003e",
           "package": "shady-gen",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGLSL vertex program, fragment program, uniform and vertex attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileE",
           "name": "GLSL",
           "package": "shady-gen",
@@ -355,6 +384,7 @@
         "index": {
           "description": "GLSL vertex program fragment program uniform and vertex attribute",
           "hierarchy": "Shady CompileE",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileE",
           "name": "GLSL",
           "package": "shady-gen",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor gl_Position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileE",
           "name": "Pos",
           "package": "shady-gen",
@@ -378,6 +409,7 @@
         "index": {
           "description": "For gl Position",
           "hierarchy": "Shady CompileE",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileE",
           "name": "Pos",
           "package": "shady-gen",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertex/fragment pair with no extra output besides color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileE",
           "name": "ShaderVF",
           "package": "shady-gen",
@@ -401,6 +434,7 @@
         "index": {
           "description": "Vertex fragment pair with no extra output besides color",
           "hierarchy": "Shady CompileE",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileE",
           "name": "ShaderVF",
           "package": "shady-gen",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileE",
           "name": "GLSL",
           "package": "shady-gen",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Shady CompileE",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileE",
           "name": "GLSL",
           "package": "shady-gen",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileE",
           "name": "ShaderVF",
           "package": "shady-gen",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Shady CompileE",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileE",
           "name": "ShaderVF",
           "package": "shady-gen",
@@ -459,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a parameterized shader program.  TODO: generalize to non-()\n outputs, i.e., to \u003ccode\u003eu :=\u003e a :-\u003e o\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileE",
           "name": "shaderProgram",
           "package": "shady-gen",
@@ -469,6 +508,7 @@
         "index": {
           "description": "Compile parameterized shader program TODO generalize to non outputs i.e to",
           "hierarchy": "Shady CompileE",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileE",
           "name": "shaderProgram",
           "normalized": "ShaderVF a)-\u003eGLSL b a",
@@ -485,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGenerate and compile vertex and fragment shaders.  Unlike\n \u003ca\u003eShady.CompileE\u003c/a\u003e, this version allows a looser structure to\n the inputs & outputs of shaders, according to \u003ccode\u003e\u003ca\u003eFromE\u003c/a\u003e\u003c/code\u003e.  You can use\n the types and \u003ccode\u003ecompile\u003c/code\u003e in this module, or just \u003ccode\u003e\u003ca\u003eshaders\u003c/a\u003e\u003c/code\u003e, along with\n \u003ca\u003eShady.CompileE\u003c/a\u003e, e.g., \u003ccode\u003ecompile (shaders sh)\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileEs",
           "name": "CompileEs",
           "package": "shady-gen",
@@ -494,6 +535,7 @@
         "index": {
           "description": "Generate and compile vertex and fragment shaders Unlike Shady.CompileE this version allows looser structure to the inputs outputs of shaders according to FromE You can use the types and compile in this module or just shaders along with Shady.CompileE e.g compile shaders sh",
           "hierarchy": "Shady CompileEs",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileEs",
           "name": "CompileEs",
           "package": "shady-gen",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral vertex/fragment shader pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileEs",
           "name": ":-\u003e",
           "package": "shady-gen",
@@ -517,6 +560,7 @@
         "index": {
           "description": "General vertex fragment shader pair",
           "hierarchy": "Shady CompileEs",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileEs",
           "name": ":-\u003e",
           "package": "shady-gen",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGLSL vertex program, fragment program, uniform and vertex attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileEs",
           "name": "GLSL",
           "package": "shady-gen",
@@ -539,6 +584,7 @@
         "index": {
           "description": "GLSL vertex program fragment program uniform and vertex attribute",
           "hierarchy": "Shady CompileEs",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileEs",
           "name": "GLSL",
           "package": "shady-gen",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor gl_Position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileEs",
           "name": "Pos",
           "package": "shady-gen",
@@ -562,6 +609,7 @@
         "index": {
           "description": "For gl Position",
           "hierarchy": "Shady CompileEs",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileEs",
           "name": "Pos",
           "package": "shady-gen",
@@ -576,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertex/fragment pair with no extra output besides color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileEs",
           "name": "ShaderVF",
           "package": "shady-gen",
@@ -585,6 +634,7 @@
         "index": {
           "description": "Vertex fragment pair with no extra output besides color",
           "hierarchy": "Shady CompileEs",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileEs",
           "name": "ShaderVF",
           "package": "shady-gen",
@@ -598,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileEs",
           "name": "ShaderVF",
           "package": "shady-gen",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Shady CompileEs",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileEs",
           "name": "ShaderVF",
           "package": "shady-gen",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a parameterized shader program.  TODO: generalize to non-()\n outputs, i.e., to \u003ccode\u003eu :=\u003e a :-\u003e o\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileEs",
           "name": "shaderProgram",
           "package": "shady-gen",
@@ -631,6 +684,7 @@
         "index": {
           "description": "Compile parameterized shader program TODO generalize to non outputs i.e to",
           "hierarchy": "Shady CompileEs",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileEs",
           "name": "shaderProgram",
           "normalized": "(a-\u003eShaderVF b)-\u003eGLSL c d",
@@ -647,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert loosely structured shaders into single-exp shader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.CompileEs",
           "name": "shaders",
           "package": "shady-gen",
@@ -657,6 +712,7 @@
         "index": {
           "description": "Convert loosely structured shaders into single-exp shader",
           "hierarchy": "Shady CompileEs",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.CompileEs",
           "name": "shaders",
           "normalized": "(a-\u003eb)",
@@ -672,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex numbers.  This version is modified from Data.Complex in base.\n It eliminates the RealFloat requirement by using a more naive\n definition of \u003ccode\u003e\u003ca\u003emagnitude\u003c/a\u003e\u003c/code\u003e.  Also, defines instances for vector-space classes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": "Complex",
           "package": "shady-gen",
@@ -681,6 +738,7 @@
         "index": {
           "description": "Complex numbers This version is modified from Data.Complex in base It eliminates the RealFloat requirement by using more naive definition of magnitude Also defines instances for vector-space classes",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": "Complex",
           "package": "shady-gen",
@@ -695,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex numbers are an algebraic type.\n\u003c/p\u003e\u003cp\u003eFor a complex number \u003ccode\u003ez\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e z\u003c/code\u003e is a number with the magnitude of \u003ccode\u003ez\u003c/code\u003e,\n but oriented in the positive real direction, whereas \u003ccode\u003e\u003ccode\u003e\u003ca\u003esignum\u003c/a\u003e\u003c/code\u003e z\u003c/code\u003e\n has the phase of \u003ccode\u003ez\u003c/code\u003e, but unit magnitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": "Complex",
           "package": "shady-gen",
@@ -704,6 +763,7 @@
         "index": {
           "description": "Complex numbers are an algebraic type For complex number abs is number with the magnitude of but oriented in the positive real direction whereas signum has the phase of but unit magnitude",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": "Complex",
           "package": "shady-gen",
@@ -718,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eforms a complex number from its real and imaginary\n rectangular components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": ":+",
           "package": "shady-gen",
@@ -728,6 +789,7 @@
         "index": {
           "description": "forms complex number from its real and imaginary rectangular components",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": ":+",
           "package": "shady-gen",
@@ -741,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ecis\u003c/a\u003e\u003c/code\u003e t\u003c/code\u003e is a complex value with magnitude \u003ccode\u003e1\u003c/code\u003e\n and phase \u003ccode\u003et\u003c/code\u003e (modulo \u003ccode\u003e2*\u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": "cis",
           "package": "shady-gen",
@@ -751,6 +814,7 @@
         "index": {
           "description": "cis is complex value with magnitude and phase modulo pi",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": "cis",
           "normalized": "a-\u003eComplex a",
@@ -766,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe conjugate of a complex number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": "conjugate",
           "package": "shady-gen",
@@ -776,6 +841,7 @@
         "index": {
           "description": "The conjugate of complex number",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": "conjugate",
           "package": "shady-gen",
@@ -789,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the imaginary part of a complex number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": "imagPart",
           "package": "shady-gen",
@@ -799,6 +866,7 @@
         "index": {
           "description": "Extracts the imaginary part of complex number",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": "imagPart",
           "normalized": "Complex a-\u003ea",
@@ -815,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm a complex number from polar components of magnitude and phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": "mkPolar",
           "package": "shady-gen",
@@ -825,6 +894,7 @@
         "index": {
           "description": "Form complex number from polar components of magnitude and phase",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": "mkPolar",
           "normalized": "a-\u003ea-\u003eComplex a",
@@ -841,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperate on the real & imaginary components\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": "onRI",
           "package": "shady-gen",
@@ -851,6 +922,7 @@
         "index": {
           "description": "Operate on the real imaginary components",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": "onRI",
           "normalized": "Unop a-\u003eUnop(Complex a)",
@@ -867,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperate on the real & imaginary components\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": "onRI2",
           "package": "shady-gen",
@@ -877,6 +950,7 @@
         "index": {
           "description": "Operate on the real imaginary components",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": "onRI2",
           "normalized": "Binop a-\u003eBinop(Complex a)",
@@ -893,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe phase of a complex number, in the range \u003ccode\u003e(-\u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e.\n If the magnitude is zero, then so is the phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": "phase",
           "package": "shady-gen",
@@ -903,6 +978,7 @@
         "index": {
           "description": "The phase of complex number in the range pi pi If the magnitude is zero then so is the phase",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": "phase",
           "normalized": "Complex a-\u003ea",
@@ -918,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003epolar\u003c/a\u003e\u003c/code\u003e takes a complex number and\n returns a (magnitude, phase) pair in canonical form:\n the magnitude is nonnegative, and the phase in the range \u003ccode\u003e(-\u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e;\n if the magnitude is zero, then so is the phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": "polar",
           "package": "shady-gen",
@@ -928,6 +1005,7 @@
         "index": {
           "description": "The function polar takes complex number and returns magnitude phase pair in canonical form the magnitude is nonnegative and the phase in the range pi pi if the magnitude is zero then so is the phase",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": "polar",
           "normalized": "Complex a-\u003e(a,a)",
@@ -943,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the real part of a complex number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Complex",
           "name": "realPart",
           "package": "shady-gen",
@@ -953,6 +1032,7 @@
         "index": {
           "description": "Extracts the real part of complex number",
           "hierarchy": "Shady Complex",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Complex",
           "name": "realPart",
           "normalized": "Complex a-\u003ea",
@@ -969,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon subexpression elimination.\n\u003c/p\u003e\u003cp\u003eTODO: Improve variable names (now \"x8\" etc).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Cse",
           "name": "Cse",
           "package": "shady-gen",
@@ -978,6 +1059,7 @@
         "index": {
           "description": "Common subexpression elimination TODO Improve variable names now x8 etc",
           "hierarchy": "Shady Language Cse",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Cse",
           "name": "Cse",
           "package": "shady-gen",
@@ -992,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon subexpression elimination.  Use with care, since it breaks\n referential transparency on the \u003cem\u003erepresentation\u003c/em\u003e of expressions, but\n not on their meaning.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Cse",
           "name": "cse",
           "package": "shady-gen",
@@ -1002,6 +1085,7 @@
         "index": {
           "description": "Common subexpression elimination Use with care since it breaks referential transparency on the representation of expressions but not on their meaning",
           "hierarchy": "Shady Language Cse",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Cse",
           "name": "cse",
           "normalized": "E a-\u003eE a",
@@ -1017,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExpressions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "Exp",
           "package": "shady-gen",
@@ -1026,6 +1111,7 @@
         "index": {
           "description": "Expressions",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "Exp",
           "package": "shady-gen",
@@ -1040,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction from expressions.  Nestable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": ":=\u003e",
           "package": "shady-gen",
@@ -1049,6 +1136,7 @@
         "index": {
           "description": "Function from expressions Nestable",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": ":=\u003e",
           "package": "shady-gen",
@@ -1062,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression to expression.  Ends a chain of '(:=\u003e)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": ":=\u003e*",
           "package": "shady-gen",
@@ -1071,6 +1160,7 @@
         "index": {
           "description": "Expression to expression Ends chain of",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": ":=\u003e*",
           "package": "shady-gen",
@@ -1084,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "BoolE",
           "package": "shady-gen",
@@ -1093,6 +1184,7 @@
         "index": {
           "description": "Bool",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "BoolE",
           "package": "shady-gen",
@@ -1107,6 +1199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex-valued expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "ComplexE",
           "package": "shady-gen",
@@ -1116,6 +1209,7 @@
         "index": {
           "description": "Complex-valued expressions",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "ComplexE",
           "package": "shady-gen",
@@ -1130,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple expressions (no \u003ccode\u003eLet\u003c/code\u003e).  Statically typed.\n Constructors for operator/constant (\u003ccode\u003e\u003ca\u003eOp\u003c/a\u003e\u003c/code\u003e), variable (\u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e),\n application ('(:^)'), and abstraction (\u003ccode\u003e\u003ca\u003eLam\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "E",
           "package": "shady-gen",
@@ -1139,6 +1234,7 @@
         "index": {
           "description": "Simple expressions no Let Statically typed Constructors for operator constant Op variable Var application and abstraction Lam",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "E",
           "package": "shady-gen",
@@ -1152,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "FloatE",
           "package": "shady-gen",
@@ -1161,6 +1258,7 @@
         "index": {
           "description": "Float expression",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "FloatE",
           "package": "shady-gen",
@@ -1175,6 +1273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue convertible from an expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "FromE",
           "package": "shady-gen",
@@ -1184,6 +1283,7 @@
         "index": {
           "description": "Value convertible from an expression",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "FromE",
           "package": "shady-gen",
@@ -1198,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "Id",
           "package": "shady-gen",
@@ -1207,6 +1308,7 @@
         "index": {
           "description": "Variable name",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "Id",
           "package": "shady-gen",
@@ -1221,6 +1323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "Pat",
           "package": "shady-gen",
@@ -1230,6 +1333,7 @@
         "index": {
           "description": "Variable patterns",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "Pat",
           "package": "shady-gen",
@@ -1243,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "R1E",
           "package": "shady-gen",
@@ -1251,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "R1E",
           "package": "shady-gen",
@@ -1263,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "R2E",
           "package": "shady-gen",
@@ -1271,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "R2E",
           "package": "shady-gen",
@@ -1283,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "R3E",
           "package": "shady-gen",
@@ -1291,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "R3E",
           "package": "shady-gen",
@@ -1303,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "R4E",
           "package": "shady-gen",
@@ -1311,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "R4E",
           "package": "shady-gen",
@@ -1323,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "SamplerE",
           "package": "shady-gen",
@@ -1331,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "SamplerE",
           "package": "shady-gen",
@@ -1345,6 +1459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "TPath",
           "package": "shady-gen",
@@ -1354,6 +1469,7 @@
         "index": {
           "description": "Type path",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "TPath",
           "package": "shady-gen",
@@ -1368,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue convertible to an expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "ToE",
           "package": "shady-gen",
@@ -1377,6 +1494,7 @@
         "index": {
           "description": "Value convertible to an expression",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "ToE",
           "package": "shady-gen",
@@ -1391,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "V",
           "package": "shady-gen",
@@ -1400,6 +1519,7 @@
         "index": {
           "description": "Typed variables",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "V",
           "package": "shady-gen",
@@ -1413,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "VecE",
           "package": "shady-gen",
@@ -1422,6 +1543,7 @@
         "index": {
           "description": "Expression vector",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "VecE",
           "package": "shady-gen",
@@ -1436,6 +1558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector inequality, resulting in a single Bool.   See also '(/=*)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "(/=^)",
           "package": "shady-gen",
@@ -1446,6 +1569,7 @@
         "index": {
           "description": "Vector inequality resulting in single Bool See also",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "(/=^) /=^",
           "package": "shady-gen",
@@ -1459,6 +1583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation of vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "(\u003c+\u003e)",
           "package": "shady-gen",
@@ -1469,6 +1594,7 @@
         "index": {
           "description": "Concatenation of vectors",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "package": "shady-gen",
@@ -1482,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector equality, resulting in a single Bool.  See also '(==*)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "(==^)",
           "package": "shady-gen",
@@ -1492,6 +1619,7 @@
         "index": {
           "description": "Vector equality resulting in single Bool See also",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "(==^) ==^",
           "package": "shady-gen",
@@ -1504,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": ":^",
           "package": "shady-gen",
@@ -1513,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": ":^",
           "normalized": "E(a-\u003eb)-\u003eE a-\u003eE b",
@@ -1527,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "Lam",
           "package": "shady-gen",
@@ -1536,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "Lam",
           "normalized": "V a-\u003eE b-\u003eE(a-\u003eb)",
@@ -1551,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "Op",
           "package": "shady-gen",
@@ -1560,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "Op",
           "normalized": "Op a-\u003eE a",
@@ -1575,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "V",
           "package": "shady-gen",
@@ -1584,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "V",
           "package": "shady-gen",
@@ -1596,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "Var",
           "package": "shady-gen",
@@ -1605,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "Var",
           "normalized": "V a-\u003eE a",
@@ -1621,6 +1759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre all of the \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003es true?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "allV",
           "package": "shady-gen",
@@ -1631,6 +1770,7 @@
         "index": {
           "description": "Are all of the Bool true",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "allV",
           "package": "shady-gen",
@@ -1644,6 +1784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs all of the \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003es true?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "anyV",
           "package": "shady-gen",
@@ -1654,6 +1795,7 @@
         "index": {
           "description": "Is all of the Bool true",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "anyV",
           "package": "shady-gen",
@@ -1666,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "ceilingE",
           "package": "shady-gen",
@@ -1675,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "ceilingE",
           "package": "shady-gen",
@@ -1688,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty type path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "emptyP",
           "package": "shady-gen",
@@ -1698,6 +1843,7 @@
         "index": {
           "description": "Empty type path",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "emptyP",
           "package": "shady-gen",
@@ -1710,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "floorE",
           "package": "shady-gen",
@@ -1719,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "floorE",
           "package": "shady-gen",
@@ -1732,6 +1880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a unary operator, with constant-folding and simplifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "fmapE",
           "package": "shady-gen",
@@ -1742,6 +1891,7 @@
         "index": {
           "description": "Apply unary operator with constant-folding and simplifications",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "fmapE",
           "package": "shady-gen",
@@ -1754,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "fromE",
           "package": "shady-gen",
@@ -1763,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "fromE",
           "normalized": "E(ExpT a)-\u003ea",
@@ -1778,6 +1930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression-lifted \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "fstE",
           "package": "shady-gen",
@@ -1788,6 +1941,7 @@
         "index": {
           "description": "Expression-lifted fst",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "fstE",
           "normalized": "E(a,b)-\u003eE a",
@@ -1802,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "fstP",
           "package": "shady-gen",
@@ -1811,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "fstP",
           "normalized": "TPath-\u003eTPath",
@@ -1825,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "genVar",
           "package": "shady-gen",
@@ -1834,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "genVar",
           "package": "shady-gen",
@@ -1848,6 +2006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract vector component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "get",
           "package": "shady-gen",
@@ -1858,6 +2017,7 @@
         "index": {
           "description": "Extract vector component",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "get",
           "package": "shady-gen",
@@ -1871,6 +2031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract W component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "getW",
           "package": "shady-gen",
@@ -1881,6 +2042,7 @@
         "index": {
           "description": "Extract component",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "getW",
           "package": "shady-gen",
@@ -1894,6 +2056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract X component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "getX",
           "package": "shady-gen",
@@ -1904,6 +2067,7 @@
         "index": {
           "description": "Extract component",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "getX",
           "package": "shady-gen",
@@ -1917,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract Y component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "getY",
           "package": "shady-gen",
@@ -1927,6 +2092,7 @@
         "index": {
           "description": "Extract component",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "getY",
           "package": "shady-gen",
@@ -1940,6 +2106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract Z component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "getZ",
           "package": "shady-gen",
@@ -1950,6 +2117,7 @@
         "index": {
           "description": "Extract component",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "getZ",
           "package": "shady-gen",
@@ -1963,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand for beta-redex\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "letE",
           "package": "shady-gen",
@@ -1973,6 +2142,7 @@
         "index": {
           "description": "Short-hand for beta-redex",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "letE",
           "normalized": "V a-\u003eE a-\u003eE b-\u003eE b",
@@ -1988,6 +2158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a binary operator, with constant-folding and simplifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "liftE2",
           "package": "shady-gen",
@@ -1998,6 +2169,7 @@
         "index": {
           "description": "Apply binary operator with constant-folding and simplifications",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "liftE2",
           "package": "shady-gen",
@@ -2011,6 +2183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a ternary operator, with constant-folding and simplifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "liftE3",
           "package": "shady-gen",
@@ -2021,6 +2194,7 @@
         "index": {
           "description": "Apply ternary operator with constant-folding and simplifications",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "liftE3",
           "package": "shady-gen",
@@ -2034,6 +2208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an quaternary operator, with constant-folding and simplifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "liftE4",
           "package": "shady-gen",
@@ -2044,6 +2219,7 @@
         "index": {
           "description": "Apply an quaternary operator with constant-folding and simplifications",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "liftE4",
           "package": "shady-gen",
@@ -2057,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "lit",
           "package": "shady-gen",
@@ -2067,6 +2244,7 @@
         "index": {
           "description": "Literal value",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "lit",
           "normalized": "a-\u003eE a",
@@ -2082,6 +2260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAugment a variable name with a type path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "namePath",
           "package": "shady-gen",
@@ -2092,6 +2271,7 @@
         "index": {
           "description": "Augment variable name with type path",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "namePath",
           "normalized": "String-\u003eTPath-\u003eString",
@@ -2108,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransitional synonym for notB\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "notE",
           "package": "shady-gen",
@@ -2118,6 +2299,7 @@
         "index": {
           "description": "Transitional synonym for notB",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "notE",
           "package": "shady-gen",
@@ -2131,6 +2313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient operator application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "op1",
           "package": "shady-gen",
@@ -2141,6 +2324,7 @@
         "index": {
           "description": "Convenient operator application",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "op1",
           "package": "shady-gen",
@@ -2154,6 +2338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient operator application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "op2",
           "package": "shady-gen",
@@ -2164,6 +2349,7 @@
         "index": {
           "description": "Convenient operator application",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "op2",
           "package": "shady-gen",
@@ -2177,6 +2363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient operator application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "op3",
           "package": "shady-gen",
@@ -2187,6 +2374,7 @@
         "index": {
           "description": "Convenient operator application",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "op3",
           "package": "shady-gen",
@@ -2200,6 +2388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient operator application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "op4",
           "package": "shady-gen",
@@ -2210,6 +2399,7 @@
         "index": {
           "description": "Convenient operator application",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "op4",
           "package": "shady-gen",
@@ -2223,6 +2413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression-lifted '(,)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "pairE",
           "package": "shady-gen",
@@ -2233,6 +2424,7 @@
         "index": {
           "description": "Expression-lifted",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "pairE",
           "normalized": "E a-\u003eE b-\u003eE(a,b)",
@@ -2248,6 +2440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a variable pattern, inferring the type from context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "pat",
           "package": "shady-gen",
@@ -2258,6 +2451,7 @@
         "index": {
           "description": "Make variable pattern inferring the type from context",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "pat",
           "normalized": "String-\u003ePat a",
@@ -2273,6 +2467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a pattern into an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "patE",
           "package": "shady-gen",
@@ -2283,6 +2478,7 @@
         "index": {
           "description": "Turn pattern into an expression",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "patE",
           "normalized": "Pat a-\u003eE a",
@@ -2298,6 +2494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "patT",
           "package": "shady-gen",
@@ -2308,6 +2505,7 @@
         "index": {
           "description": "The type of pattern",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "patT",
           "normalized": "Pat a-\u003eType a",
@@ -2323,6 +2521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "pureE",
           "package": "shady-gen",
@@ -2333,6 +2532,7 @@
         "index": {
           "description": "Literal expression",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "pureE",
           "normalized": "a-\u003eE a",
@@ -2347,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "roundE",
           "package": "shady-gen",
@@ -2356,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "roundE",
           "package": "shady-gen",
@@ -2369,6 +2571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression-lifted \u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "sndE",
           "package": "shady-gen",
@@ -2379,6 +2582,7 @@
         "index": {
           "description": "Expression-lifted snd",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "sndE",
           "normalized": "E(a,b)-\u003eE b",
@@ -2394,6 +2598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a type path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "sndP",
           "package": "shady-gen",
@@ -2404,6 +2609,7 @@
         "index": {
           "description": "Extend type path",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "sndP",
           "normalized": "TPath-\u003eTPath",
@@ -2419,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTexturing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "texture",
           "package": "shady-gen",
@@ -2429,6 +2636,7 @@
         "index": {
           "description": "Texturing",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "texture",
           "package": "shady-gen",
@@ -2442,6 +2650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to an expression, using fresh name supply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "toE",
           "package": "shady-gen",
@@ -2452,6 +2661,7 @@
         "index": {
           "description": "Convert to an expression using fresh name supply",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "toE",
           "normalized": "a-\u003eE(ExpT a)",
@@ -2466,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "toEN",
           "package": "shady-gen",
@@ -2475,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "toEN",
           "normalized": "a-\u003eNameM(E(ExpT a))",
@@ -2491,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an \u003ccode\u003e\u003ca\u003eE\u003c/a\u003e\u003c/code\u003e transformer from an \u003ccode\u003e\u003ca\u003eExpT\u003c/a\u003e\u003c/code\u003e transformer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "toFromE",
           "package": "shady-gen",
@@ -2501,6 +2714,7 @@
         "index": {
           "description": "Construct an transformer from an ExpT transformer",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "toFromE",
           "normalized": "(a-\u003eb)-\u003eE(ExpT a)-\u003eE(ExpT b)",
@@ -2516,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "truncateE",
           "package": "shady-gen",
@@ -2525,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "truncateE",
           "package": "shady-gen",
@@ -2537,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "un2",
           "package": "shady-gen",
@@ -2546,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "un2",
           "normalized": "(E(One a),E(One a))",
@@ -2560,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "un3",
           "package": "shady-gen",
@@ -2569,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "un3",
           "normalized": "(E(One a),E(One a),E(One a))",
@@ -2583,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "un4",
           "package": "shady-gen",
@@ -2592,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "un4",
           "normalized": "(E(One a),E(One a),E(One a),E(One a))",
@@ -2607,6 +2829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack a pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "unPairE",
           "package": "shady-gen",
@@ -2617,6 +2840,7 @@
         "index": {
           "description": "Unpack pair",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "unPairE",
           "normalized": "E(a,b)-\u003e(E a,E b)",
@@ -2633,6 +2857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform version of a function on vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "uniform",
           "package": "shady-gen",
@@ -2643,6 +2868,7 @@
         "index": {
           "description": "Uniform version of function on vectors",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "uniform",
           "normalized": "(E(Vec a b)-\u003ec)-\u003eE(One b)-\u003ec",
@@ -2658,6 +2884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "uniformV",
           "package": "shady-gen",
@@ -2668,6 +2895,7 @@
         "index": {
           "description": "Uniform vector",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "uniformV",
           "package": "shady-gen",
@@ -2681,6 +2909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression-lifted '()'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "unitE",
           "package": "shady-gen",
@@ -2691,6 +2920,7 @@
         "index": {
           "description": "Expression-lifted",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "unitE",
           "normalized": "E()",
@@ -2706,6 +2936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a variable, inferring the type from context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "var",
           "package": "shady-gen",
@@ -2716,6 +2947,7 @@
         "index": {
           "description": "Make variable inferring the type from context",
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "var",
           "normalized": "Id-\u003eV a",
@@ -2730,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "varName",
           "package": "shady-gen",
@@ -2739,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "varName",
           "package": "shady-gen",
@@ -2752,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "varType",
           "package": "shady-gen",
@@ -2761,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "varType",
           "package": "shady-gen",
@@ -2774,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "vec2",
           "package": "shady-gen",
@@ -2783,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "vec2",
           "package": "shady-gen",
@@ -2795,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "vec3",
           "package": "shady-gen",
@@ -2804,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "vec3",
           "package": "shady-gen",
@@ -2816,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Exp",
           "name": "vec4",
           "package": "shady-gen",
@@ -2825,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Exp",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Exp",
           "name": "vec4",
           "package": "shady-gen",
@@ -2838,6 +3080,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstract syntax for GLSL.  Evolving.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "GLSL",
           "package": "shady-gen",
@@ -2847,6 +3090,7 @@
         "index": {
           "description": "Abstract syntax for GLSL Evolving",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "GLSL",
           "package": "shady-gen",
@@ -2861,6 +3105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable binding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Bind",
           "package": "shady-gen",
@@ -2870,6 +3115,7 @@
         "index": {
           "description": "Variable binding",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Bind",
           "package": "shady-gen",
@@ -2884,6 +3130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinding with open (exposed) type.  Build with '(=::)' and '(#)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "BindO",
           "package": "shady-gen",
@@ -2893,6 +3140,7 @@
         "index": {
           "description": "Binding with open exposed type Build with and",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "BindO",
           "package": "shady-gen",
@@ -2907,6 +3155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable declaration/initialization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Declaration",
           "package": "shady-gen",
@@ -2916,6 +3165,7 @@
         "index": {
           "description": "Variable declaration initialization",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Declaration",
           "package": "shady-gen",
@@ -2930,6 +3180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-level definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Definition",
           "package": "shady-gen",
@@ -2939,6 +3190,7 @@
         "index": {
           "description": "Top-level definition",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Definition",
           "package": "shady-gen",
@@ -2953,6 +3205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Id",
           "package": "shady-gen",
@@ -2962,6 +3215,7 @@
         "index": {
           "description": "Variable name",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Id",
           "package": "shady-gen",
@@ -2976,6 +3230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformal parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Param",
           "package": "shady-gen",
@@ -2985,6 +3240,7 @@
         "index": {
           "description": "formal parameter",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Param",
           "package": "shady-gen",
@@ -2999,6 +3255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram: Vertex shader and Fragment shader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Program",
           "package": "shady-gen",
@@ -3008,6 +3265,7 @@
         "index": {
           "description": "Program Vertex shader and Fragment shader",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Program",
           "package": "shady-gen",
@@ -3022,6 +3280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStorage qualifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Qualifier",
           "package": "shady-gen",
@@ -3031,6 +3290,7 @@
         "index": {
           "description": "Storage qualifier",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Qualifier",
           "package": "shady-gen",
@@ -3044,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "ScalarT",
           "package": "shady-gen",
@@ -3052,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "ScalarT",
           "package": "shady-gen",
@@ -3066,6 +3328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Shader",
           "package": "shady-gen",
@@ -3075,6 +3338,7 @@
         "index": {
           "description": "Shader",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Shader",
           "package": "shady-gen",
@@ -3089,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Statement",
           "package": "shady-gen",
@@ -3098,6 +3363,7 @@
         "index": {
           "description": "Statement",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Statement",
           "package": "shady-gen",
@@ -3111,6 +3377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "VectorT",
           "package": "shady-gen",
@@ -3119,6 +3386,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "VectorT",
           "package": "shady-gen",
@@ -3133,6 +3401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssignment statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "(=:)",
           "package": "shady-gen",
@@ -3143,6 +3412,7 @@
         "index": {
           "description": "Assignment statement",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "(=:) =:",
           "normalized": "Pat a-\u003eE a-\u003eStatement",
@@ -3158,6 +3428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eV\u003c/a\u003e\u003c/code\u003e specialization of '(=:)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "(=::)",
           "package": "shady-gen",
@@ -3168,6 +3439,7 @@
         "index": {
           "description": "specialization of",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "(=::) =::",
           "normalized": "V a-\u003eE a-\u003eBindO a",
@@ -3182,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Assign",
           "package": "shady-gen",
@@ -3191,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Assign",
           "package": "shady-gen",
@@ -3204,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Attribute",
           "package": "shady-gen",
@@ -3213,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Attribute",
           "package": "shady-gen",
@@ -3226,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "B",
           "package": "shady-gen",
@@ -3235,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "B",
           "package": "shady-gen",
@@ -3270,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "D",
           "package": "shady-gen",
@@ -3279,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "D",
           "normalized": "a b D[Qualifier](Pat b)",
@@ -3293,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "F",
           "package": "shady-gen",
@@ -3302,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "F",
           "normalized": "a b c F(Maybe(VectorT b c))Id[Param]Statement",
@@ -3362,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "LetS",
           "package": "shady-gen",
@@ -3371,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "LetS",
           "package": "shady-gen",
@@ -3384,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "M",
           "package": "shady-gen",
@@ -3393,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "M",
           "package": "shady-gen",
@@ -3405,6 +3691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "P",
           "package": "shady-gen",
@@ -3414,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "P",
           "package": "shady-gen",
@@ -3426,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Sh",
           "package": "shady-gen",
@@ -3435,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Sh",
           "normalized": "Sh[Declaration][Definition]",
@@ -3450,6 +3740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "SkipS",
           "package": "shady-gen",
@@ -3459,6 +3750,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "SkipS",
           "package": "shady-gen",
@@ -3472,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "ThenS",
           "package": "shady-gen",
@@ -3481,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "ThenS",
           "package": "shady-gen",
@@ -3494,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Uniform",
           "package": "shady-gen",
@@ -3503,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Uniform",
           "package": "shady-gen",
@@ -3516,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "Varying",
           "package": "shady-gen",
@@ -3525,6 +3822,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "Varying",
           "package": "shady-gen",
@@ -3562,6 +3860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose an open binding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "closeB",
           "package": "shady-gen",
@@ -3572,6 +3871,7 @@
         "index": {
           "description": "Close an open binding",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "closeB",
           "normalized": "BindO a-\u003eStatement",
@@ -3587,6 +3887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard gl_FragColor variable, which must be set in a fragment shader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "glFragColor",
           "package": "shady-gen",
@@ -3597,6 +3898,7 @@
         "index": {
           "description": "The standard gl FragColor variable which must be set in fragment shader",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "glFragColor",
           "package": "shady-gen",
@@ -3611,6 +3913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard gl_Position variable, which must be set in a vertex shader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "glPosition",
           "package": "shady-gen",
@@ -3621,6 +3924,7 @@
         "index": {
           "description": "The standard gl Position variable which must be set in vertex shader",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "glPosition",
           "package": "shady-gen",
@@ -3635,6 +3939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emain\u003c/code\u003e in a shader program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "mainDef",
           "package": "shady-gen",
@@ -3645,6 +3950,7 @@
         "index": {
           "description": "main in shader program",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "mainDef",
           "normalized": "Statement-\u003eDefinition",
@@ -3661,6 +3967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a normal using the standard normal matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "nTrans",
           "package": "shady-gen",
@@ -3671,6 +3978,7 @@
         "index": {
           "description": "Transform normal using the standard normal matrix",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "nTrans",
           "normalized": "E R-\u003eE R",
@@ -3686,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "pFragment",
           "package": "shady-gen",
@@ -3695,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "pFragment",
           "package": "shady-gen",
@@ -3708,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "pVertex",
           "package": "shady-gen",
@@ -3717,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "pVertex",
           "package": "shady-gen",
@@ -3731,6 +4043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a vertex using the standard model/view matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.GLSL",
           "name": "vTrans",
           "package": "shady-gen",
@@ -3741,6 +4054,7 @@
         "index": {
           "description": "Transform vertex using the standard model view matrix",
           "hierarchy": "Shady Language GLSL",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.GLSL",
           "name": "vTrans",
           "normalized": "E R-\u003eE R",
@@ -3757,6 +4071,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTyped conglomerate of values\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": "Glom",
           "package": "shady-gen",
@@ -3766,6 +4081,7 @@
         "index": {
           "description": "Typed conglomerate of values",
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": "Glom",
           "package": "shady-gen",
@@ -3780,6 +4096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a polymorphic function over a conglomerate (preserving\n structure).  The required laws are the same as with \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": "FunctorU",
           "package": "shady-gen",
@@ -3789,6 +4106,7 @@
         "index": {
           "description": "Map polymorphic function over conglomerate preserving structure The required laws are the same as with Functor",
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": "FunctorU",
           "package": "shady-gen",
@@ -3803,6 +4121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typed conglomerate of values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": "Glom",
           "package": "shady-gen",
@@ -3812,6 +4131,7 @@
         "index": {
           "description": "typed conglomerate of values",
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": "Glom",
           "package": "shady-gen",
@@ -3825,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": "MonadU",
           "package": "shady-gen",
@@ -3833,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": "MonadU",
           "package": "shady-gen",
@@ -3846,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": ":*",
           "package": "shady-gen",
@@ -3855,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": ":*",
           "normalized": "Glom a b-\u003eGlom a c-\u003eGlom a(b,c)",
@@ -3869,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": "BaseG",
           "package": "shady-gen",
@@ -3878,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": "BaseG",
           "normalized": "a b-\u003eGlom a b",
@@ -3893,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": "UnitG",
           "package": "shady-gen",
@@ -3902,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": "UnitG",
           "normalized": "Glom a()",
@@ -3917,6 +4245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": "extendU",
           "package": "shady-gen",
@@ -3926,6 +4255,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": "extendU",
           "normalized": "(a b c d-\u003ee f d)-\u003ea b e c d-\u003ee f d",
@@ -3940,6 +4270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": "fmapU",
           "package": "shady-gen",
@@ -3949,6 +4280,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": "fmapU",
           "normalized": "(a b c d-\u003ee d)-\u003ea b f c d-\u003ef e d",
@@ -3964,6 +4296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold over a \u003ccode\u003e\u003ca\u003eGlom\u003c/a\u003e\u003c/code\u003e, given handlers for '(:*)', \u003ccode\u003e\u003ca\u003eUnitG\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eBaseG\u003c/a\u003e\u003c/code\u003e,\n respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": "foldG",
           "package": "shady-gen",
@@ -3974,6 +4307,7 @@
         "index": {
           "description": "Fold over Glom given handlers for UnitG and BaseG respectively",
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": "foldG",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003e(b c d e-\u003ea)-\u003eGlom d f-\u003ea",
@@ -3989,6 +4323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplicative/monadic map over a \u003ccode\u003e\u003ca\u003eGlom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": "mapAG",
           "package": "shady-gen",
@@ -3999,6 +4334,7 @@
         "index": {
           "description": "Applicative monadic map over Glom",
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": "mapAG",
           "normalized": "(a b c d-\u003ee(f d))-\u003ea b Glom c d-\u003ee(Glom f d)",
@@ -4014,6 +4350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Glom",
           "name": "returnU",
           "package": "shady-gen",
@@ -4023,6 +4360,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Glom",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Glom",
           "name": "returnU",
           "normalized": "a b-\u003ec a b",
@@ -4038,6 +4376,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBased on a typed variant of Andy Gill's data-reify.  After several\n tries, I wasn't able to reuse data-reify or my typed variant of it.\n The problem was that I need my \u003ccode\u003e\u003ca\u003eHasType\u003c/a\u003e\u003c/code\u003e class and \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e type, but I\n couldn't parameterize data-reify by the \u003cem\u003eclass\u003c/em\u003e \u003ccode\u003e\u003ca\u003eHasType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "Graph",
           "package": "shady-gen",
@@ -4047,6 +4386,7 @@
         "index": {
           "description": "Based on typed variant of Andy Gill data-reify After several tries wasn able to reuse data-reify or my typed variant of it The problem was that need my HasType class and Type type but couldn parameterize data-reify by the class HasType",
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "Graph",
           "package": "shady-gen",
@@ -4061,6 +4401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinding pair \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "Bind",
           "package": "shady-gen",
@@ -4070,6 +4411,7 @@
         "index": {
           "description": "Binding pair",
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "Bind",
           "package": "shady-gen",
@@ -4084,6 +4426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph, described by bindings and a root variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "Graph",
           "package": "shady-gen",
@@ -4093,6 +4436,7 @@
         "index": {
           "description": "Graph described by bindings and root variable",
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "Graph",
           "package": "shady-gen",
@@ -4106,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "N",
           "package": "shady-gen",
@@ -4114,6 +4459,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "N",
           "package": "shady-gen",
@@ -4127,6 +4473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode Identifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "NodeId",
           "package": "shady-gen",
@@ -4136,6 +4483,7 @@
         "index": {
           "description": "Node Identifiers",
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "NodeId",
           "package": "shady-gen",
@@ -4150,6 +4498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "Tid",
           "package": "shady-gen",
@@ -4159,6 +4508,7 @@
         "index": {
           "description": "Typed variables",
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "Tid",
           "package": "shady-gen",
@@ -4172,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "App",
           "package": "shady-gen",
@@ -4181,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "App",
           "normalized": "Tid(a-\u003eb)-\u003eTid a-\u003eN b",
@@ -4196,6 +4548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "Bind",
           "package": "shady-gen",
@@ -4205,6 +4558,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "Bind",
           "package": "shady-gen",
@@ -4218,6 +4572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "Graph",
           "package": "shady-gen",
@@ -4227,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "Graph",
           "normalized": "Graph[Bind](Tid a)",
@@ -4242,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "ON",
           "package": "shady-gen",
@@ -4251,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "ON",
           "normalized": "Op a-\u003eN a",
@@ -4266,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "Tid",
           "package": "shady-gen",
@@ -4275,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "Tid",
           "package": "shady-gen",
@@ -4288,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "VN",
           "package": "shady-gen",
@@ -4297,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "VN",
           "normalized": "V a-\u003eN a",
@@ -4312,6 +4674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Graph",
           "name": "mapDeRef",
           "package": "shady-gen",
@@ -4321,6 +4684,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Graph",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Graph",
           "name": "mapDeRef",
           "normalized": "E a-\u003eb(N a)",
@@ -4337,6 +4701,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKnown constants\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Operator",
           "package": "shady-gen",
@@ -4346,6 +4711,7 @@
         "index": {
           "description": "Known constants",
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Operator",
           "package": "shady-gen",
@@ -4359,6 +4725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Op",
           "package": "shady-gen",
@@ -4367,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Op",
           "package": "shady-gen",
@@ -4380,6 +4748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "OpInfo",
           "package": "shady-gen",
@@ -4388,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "OpInfo",
           "package": "shady-gen",
@@ -4401,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Abs",
           "package": "shady-gen",
@@ -4410,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Abs",
           "package": "shady-gen",
@@ -4423,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Acos",
           "package": "shady-gen",
@@ -4432,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Acos",
           "package": "shady-gen",
@@ -4445,6 +4819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Acosh",
           "package": "shady-gen",
@@ -4454,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Acosh",
           "package": "shady-gen",
@@ -4467,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Add",
           "package": "shady-gen",
@@ -4476,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Add",
           "package": "shady-gen",
@@ -4489,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "AllV",
           "package": "shady-gen",
@@ -4498,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "AllV",
           "normalized": "Op(Vec a Bool-\u003eB)",
@@ -4513,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "And",
           "package": "shady-gen",
@@ -4522,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "And",
           "package": "shady-gen",
@@ -4535,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "AnyV",
           "package": "shady-gen",
@@ -4544,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "AnyV",
           "normalized": "Op(Vec a Bool-\u003eB)",
@@ -4559,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Asin",
           "package": "shady-gen",
@@ -4568,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Asin",
           "package": "shady-gen",
@@ -4581,6 +4967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Asinh",
           "package": "shady-gen",
@@ -4590,6 +4977,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Asinh",
           "package": "shady-gen",
@@ -4603,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Atan",
           "package": "shady-gen",
@@ -4612,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Atan",
           "package": "shady-gen",
@@ -4625,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Atanh",
           "package": "shady-gen",
@@ -4634,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Atanh",
           "package": "shady-gen",
@@ -4647,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Cat",
           "package": "shady-gen",
@@ -4656,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Cat",
           "normalized": "Nat a-\u003eNat b-\u003eVectorT(a b)c-\u003eOp(Vec a c-\u003eVec b c-\u003eVec(a b)c)",
@@ -4671,6 +5065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Ceiling",
           "package": "shady-gen",
@@ -4680,6 +5075,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Ceiling",
           "package": "shady-gen",
@@ -4693,6 +5089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Cos",
           "package": "shady-gen",
@@ -4702,6 +5099,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Cos",
           "package": "shady-gen",
@@ -4715,6 +5113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Cosh",
           "package": "shady-gen",
@@ -4724,6 +5123,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Cosh",
           "package": "shady-gen",
@@ -4737,6 +5137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Div",
           "package": "shady-gen",
@@ -4746,6 +5147,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Div",
           "package": "shady-gen",
@@ -4759,6 +5161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Divide",
           "package": "shady-gen",
@@ -4768,6 +5171,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Divide",
           "package": "shady-gen",
@@ -4781,6 +5185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Dot",
           "package": "shady-gen",
@@ -4790,6 +5195,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Dot",
           "normalized": "Op(Vec a R-\u003eVec a R-\u003eR)",
@@ -4805,6 +5211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Equal",
           "package": "shady-gen",
@@ -4814,6 +5221,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Equal",
           "package": "shady-gen",
@@ -4827,6 +5235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "EqualV",
           "package": "shady-gen",
@@ -4836,6 +5245,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "EqualV",
           "normalized": "Nat a-\u003eOp(Vec a b-\u003eVec a b-\u003eVec a Bool)",
@@ -4851,6 +5261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Exp",
           "package": "shady-gen",
@@ -4860,6 +5271,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Exp",
           "package": "shady-gen",
@@ -4873,6 +5285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "FMod",
           "package": "shady-gen",
@@ -4882,6 +5295,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "FMod",
           "package": "shady-gen",
@@ -4895,6 +5309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Floor",
           "package": "shady-gen",
@@ -4904,6 +5319,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Floor",
           "package": "shady-gen",
@@ -4917,6 +5333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Fst",
           "package": "shady-gen",
@@ -4926,6 +5343,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Fst",
           "normalized": "Op((a,b)-\u003ea)",
@@ -4941,6 +5359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "If",
           "package": "shady-gen",
@@ -4950,6 +5369,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "If",
           "normalized": "Op(B-\u003eBinop a)",
@@ -4965,6 +5385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Le",
           "package": "shady-gen",
@@ -4974,6 +5395,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Le",
           "normalized": "Nat a-\u003eOp(Vec a b-\u003eVec a b-\u003eVec a Bool)",
@@ -4989,6 +5411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Lit",
           "package": "shady-gen",
@@ -4998,6 +5421,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Lit",
           "normalized": "a-\u003eOp a",
@@ -5013,6 +5437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Log",
           "package": "shady-gen",
@@ -5022,6 +5447,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Log",
           "package": "shady-gen",
@@ -5035,6 +5461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Lt",
           "package": "shady-gen",
@@ -5044,6 +5471,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Lt",
           "normalized": "Nat a-\u003eOp(Vec a b-\u003eVec a b-\u003eVec a Bool)",
@@ -5059,6 +5487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Max",
           "package": "shady-gen",
@@ -5068,6 +5497,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Max",
           "package": "shady-gen",
@@ -5081,6 +5511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Min",
           "package": "shady-gen",
@@ -5090,6 +5521,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Min",
           "package": "shady-gen",
@@ -5103,6 +5535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Mod",
           "package": "shady-gen",
@@ -5112,6 +5545,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Mod",
           "package": "shady-gen",
@@ -5125,6 +5559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Mul",
           "package": "shady-gen",
@@ -5134,6 +5569,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Mul",
           "package": "shady-gen",
@@ -5147,6 +5583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Negate",
           "package": "shady-gen",
@@ -5156,6 +5593,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Negate",
           "package": "shady-gen",
@@ -5169,6 +5607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Not",
           "package": "shady-gen",
@@ -5178,6 +5617,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Not",
           "package": "shady-gen",
@@ -5191,6 +5631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "OpInfo",
           "package": "shady-gen",
@@ -5200,6 +5641,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "OpInfo",
           "package": "shady-gen",
@@ -5213,6 +5655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Or",
           "package": "shady-gen",
@@ -5222,6 +5665,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Or",
           "package": "shady-gen",
@@ -5235,6 +5679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Pair",
           "package": "shady-gen",
@@ -5244,6 +5689,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Pair",
           "normalized": "Op(a-\u003eb-\u003e(a,b))",
@@ -5259,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Quot",
           "package": "shady-gen",
@@ -5268,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Quot",
           "package": "shady-gen",
@@ -5281,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Recip",
           "package": "shady-gen",
@@ -5290,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Recip",
           "package": "shady-gen",
@@ -5303,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Rem",
           "package": "shady-gen",
@@ -5312,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Rem",
           "package": "shady-gen",
@@ -5325,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Round",
           "package": "shady-gen",
@@ -5334,6 +5787,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Round",
           "package": "shady-gen",
@@ -5347,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Scale",
           "package": "shady-gen",
@@ -5356,6 +5811,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Scale",
           "normalized": "Op(One a-\u003eUnop(Vec b a))",
@@ -5371,6 +5827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Signum",
           "package": "shady-gen",
@@ -5380,6 +5837,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Signum",
           "package": "shady-gen",
@@ -5393,6 +5851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Sin",
           "package": "shady-gen",
@@ -5402,6 +5861,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Sin",
           "package": "shady-gen",
@@ -5415,6 +5875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Sinh",
           "package": "shady-gen",
@@ -5424,6 +5885,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Sinh",
           "package": "shady-gen",
@@ -5437,6 +5899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Snd",
           "package": "shady-gen",
@@ -5446,6 +5909,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Snd",
           "normalized": "Op((a,b)-\u003eb)",
@@ -5461,6 +5925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Sqrt",
           "package": "shady-gen",
@@ -5470,6 +5935,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Sqrt",
           "package": "shady-gen",
@@ -5483,6 +5949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Sub",
           "package": "shady-gen",
@@ -5492,6 +5959,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Sub",
           "package": "shady-gen",
@@ -5505,6 +5973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Swizzle",
           "package": "shady-gen",
@@ -5514,6 +5983,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Swizzle",
           "normalized": "Vec a(Index b)-\u003eOp(Vec b c-\u003eVec a c)",
@@ -5529,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Texture",
           "package": "shady-gen",
@@ -5538,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Texture",
           "normalized": "Nat a-\u003eOp(Sampler a-\u003eVec a R-\u003eR)",
@@ -5553,6 +6025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Truncate",
           "package": "shady-gen",
@@ -5562,6 +6035,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Truncate",
           "package": "shady-gen",
@@ -5575,6 +6049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "UniformV",
           "package": "shady-gen",
@@ -5584,6 +6059,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "UniformV",
           "normalized": "VectorT a b-\u003eOp(One b-\u003eVec a b)",
@@ -5599,6 +6075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "Unit",
           "package": "shady-gen",
@@ -5608,6 +6085,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "Unit",
           "normalized": "Op()",
@@ -5623,6 +6101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "VVec2",
           "package": "shady-gen",
@@ -5632,6 +6111,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "VVec2",
           "normalized": "Op(One a-\u003eOne a-\u003eTwo a)",
@@ -5647,6 +6127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "VVec3",
           "package": "shady-gen",
@@ -5656,6 +6137,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "VVec3",
           "normalized": "Op(One a-\u003eOne a-\u003eOne a-\u003eThree a)",
@@ -5671,6 +6153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "VVec4",
           "package": "shady-gen",
@@ -5680,6 +6163,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "VVec4",
           "normalized": "Op(One a-\u003eOne a-\u003eOne a-\u003eOne a-\u003eFour a)",
@@ -5695,6 +6179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "info",
           "package": "shady-gen",
@@ -5704,6 +6189,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "info",
           "normalized": "Op a-\u003eOpInfo a",
@@ -5718,6 +6204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "oiFix",
           "package": "shady-gen",
@@ -5727,6 +6214,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "oiFix",
           "package": "shady-gen",
@@ -5740,6 +6228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "oiName",
           "package": "shady-gen",
@@ -5749,6 +6238,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "oiName",
           "package": "shady-gen",
@@ -5762,6 +6252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "oiVal",
           "package": "shady-gen",
@@ -5771,6 +6262,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "oiVal",
           "package": "shady-gen",
@@ -5784,6 +6276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "opEq",
           "package": "shady-gen",
@@ -5793,6 +6286,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "opEq",
           "normalized": "Op a-\u003eOp b-\u003eBool",
@@ -5809,6 +6303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "opExpr",
           "package": "shady-gen",
@@ -5819,6 +6314,7 @@
         "index": {
           "description": "Operator application",
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "opExpr",
           "normalized": "Op a-\u003e[Expr]-\u003eExpr",
@@ -5834,6 +6330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Operator",
           "name": "opVal",
           "package": "shady-gen",
@@ -5843,6 +6340,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Operator",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Operator",
           "name": "opVal",
           "normalized": "Op a-\u003ea",
@@ -5859,6 +6357,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiscover representation sharing in expressions\n Variation on Andy Gill's Data.Reify.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Reify",
           "name": "Reify",
           "package": "shady-gen",
@@ -5868,6 +6367,7 @@
         "index": {
           "description": "Discover representation sharing in expressions Variation on Andy Gill Data.Reify",
           "hierarchy": "Shady Language Reify",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Reify",
           "name": "Reify",
           "package": "shady-gen",
@@ -5882,6 +6382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereifyGraph\u003c/a\u003e\u003c/code\u003e takes a data structure that admits \u003ccode\u003eMuRef\u003c/code\u003e, and returns\n a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e that contains the dereferenced nodes, with their children as\n integers rather than recursive values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Reify",
           "name": "reifyGraph",
           "package": "shady-gen",
@@ -5892,6 +6393,7 @@
         "index": {
           "description": "reifyGraph takes data structure that admits MuRef and returns Graph that contains the dereferenced nodes with their children as integers rather than recursive values",
           "hierarchy": "Shady Language Reify",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Reify",
           "name": "reifyGraph",
           "normalized": "E a-\u003eIO(Graph a)",
@@ -5908,6 +6410,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExperiments with sharing recovery on GADT-based expression representations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Share",
           "name": "Share",
           "package": "shady-gen",
@@ -5917,6 +6420,7 @@
         "index": {
           "description": "Experiments with sharing recovery on GADT-based expression representations",
           "hierarchy": "Shady Language Share",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Share",
           "name": "Share",
           "package": "shady-gen",
@@ -5930,6 +6434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Share",
           "name": "cse",
           "package": "shady-gen",
@@ -5939,6 +6444,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Share",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Share",
           "name": "cse",
           "normalized": "E a-\u003eE a",
@@ -5954,6 +6460,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "Type",
           "package": "shady-gen",
@@ -5963,6 +6470,7 @@
         "index": {
           "description": "Types",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "Type",
           "package": "shady-gen",
@@ -5977,6 +6485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic alternative for pairing.  Convenient for right-associative\n infix use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": ":#",
           "package": "shady-gen",
@@ -5986,6 +6495,7 @@
         "index": {
           "description": "Syntactic alternative for pairing Convenient for right-associative infix use",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": ":#",
           "package": "shady-gen",
@@ -5999,6 +6509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType equality proof\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": ":=:",
           "package": "shady-gen",
@@ -6007,6 +6518,7 @@
         "index": {
           "description": "Type equality proof",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": ":=:",
           "package": "shady-gen",
@@ -6020,6 +6532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle boolean\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "B1",
           "package": "shady-gen",
@@ -6029,6 +6542,7 @@
         "index": {
           "description": "Single boolean",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "B1",
           "package": "shady-gen",
@@ -6042,6 +6556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKnown types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "HasType",
           "package": "shady-gen",
@@ -6051,6 +6566,7 @@
         "index": {
           "description": "Known types",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "HasType",
           "package": "shady-gen",
@@ -6065,6 +6581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHas scalar type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "IsScalar",
           "package": "shady-gen",
@@ -6074,6 +6591,7 @@
         "index": {
           "description": "Has scalar type",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "IsScalar",
           "package": "shady-gen",
@@ -6088,6 +6606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemonstration that a type argument is a vector type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "IsVec",
           "package": "shady-gen",
@@ -6097,6 +6616,7 @@
         "index": {
           "description": "Demonstration that type argument is vector type",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "IsVec",
           "package": "shady-gen",
@@ -6110,6 +6630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "PairF",
           "package": "shady-gen",
@@ -6118,6 +6639,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "PairF",
           "package": "shady-gen",
@@ -6132,6 +6654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "Pred1",
           "package": "shady-gen",
@@ -6141,6 +6664,7 @@
         "index": {
           "description": "Unary predicate",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "Pred1",
           "package": "shady-gen",
@@ -6155,6 +6679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "Pred2",
           "package": "shady-gen",
@@ -6164,6 +6689,7 @@
         "index": {
           "description": "Binary predicate",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "Pred2",
           "package": "shady-gen",
@@ -6177,6 +6703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "R",
           "package": "shady-gen",
@@ -6185,6 +6712,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "R",
           "package": "shady-gen",
@@ -6198,6 +6726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient short-hand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "R1",
           "package": "shady-gen",
@@ -6207,6 +6736,7 @@
         "index": {
           "description": "Convenient short-hand",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "R1",
           "package": "shady-gen",
@@ -6220,6 +6750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient short-hand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "R2",
           "package": "shady-gen",
@@ -6229,6 +6760,7 @@
         "index": {
           "description": "Convenient short-hand",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "R2",
           "package": "shady-gen",
@@ -6242,6 +6774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient short-hand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "R3",
           "package": "shady-gen",
@@ -6251,6 +6784,7 @@
         "index": {
           "description": "Convenient short-hand",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "R3",
           "package": "shady-gen",
@@ -6264,6 +6798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient short-hand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "R4",
           "package": "shady-gen",
@@ -6273,6 +6808,7 @@
         "index": {
           "description": "Convenient short-hand",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "R4",
           "package": "shady-gen",
@@ -6286,6 +6822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003en\u003c/code\u003e-dimensional GLSL sampler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "Sampler",
           "package": "shady-gen",
@@ -6295,6 +6832,7 @@
         "index": {
           "description": "An dimensional GLSL sampler",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "Sampler",
           "package": "shady-gen",
@@ -6308,6 +6846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "Sampler1",
           "package": "shady-gen",
@@ -6316,6 +6855,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "Sampler1",
           "package": "shady-gen",
@@ -6329,6 +6869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "Sampler2",
           "package": "shady-gen",
@@ -6337,6 +6878,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "Sampler2",
           "package": "shady-gen",
@@ -6350,6 +6892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "Sampler3",
           "package": "shady-gen",
@@ -6358,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "Sampler3",
           "package": "shady-gen",
@@ -6371,6 +6915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "ScalarT",
           "package": "shady-gen",
@@ -6379,6 +6924,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "ScalarT",
           "package": "shady-gen",
@@ -6393,6 +6939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic equality.  Requires same argument type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "SynEq",
           "package": "shady-gen",
@@ -6402,6 +6949,7 @@
         "index": {
           "description": "Syntactic equality Requires same argument type",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "SynEq",
           "package": "shady-gen",
@@ -6416,6 +6964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigher-order variant of \u003ccode\u003e\u003ca\u003eSynEq\u003c/a\u003e\u003c/code\u003e.  Can be defined via '(=-=)', or vice versa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "SynEq2",
           "package": "shady-gen",
@@ -6425,6 +6974,7 @@
         "index": {
           "description": "Higher-order variant of SynEq Can be defined via or vice versa",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "SynEq2",
           "package": "shady-gen",
@@ -6439,6 +6989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding of texture ids in values.  I'm using \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e instead of\n \u003ccode\u003eGLuint\u003c/code\u003e here to avoid depending on OpenGL in this module & package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "TextureId",
           "package": "shady-gen",
@@ -6448,6 +6999,7 @@
         "index": {
           "description": "Encoding of texture ids in values using Int instead of GLuint here to avoid depending on OpenGL in this module package",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "TextureId",
           "package": "shady-gen",
@@ -6462,6 +7014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtended types.  Vector types, samplers, unit, pairing, and functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "Type",
           "package": "shady-gen",
@@ -6471,6 +7024,7 @@
         "index": {
           "description": "Extended types Vector types samplers unit pairing and functions",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "Type",
           "package": "shady-gen",
@@ -6484,6 +7038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "UnitF",
           "package": "shady-gen",
@@ -6492,6 +7047,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "UnitF",
           "package": "shady-gen",
@@ -6505,6 +7061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "VectorT",
           "package": "shady-gen",
@@ -6513,6 +7070,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "VectorT",
           "package": "shady-gen",
@@ -6526,6 +7084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "(#)",
           "package": "shady-gen",
@@ -6535,6 +7094,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "(#) #",
           "normalized": "a b-\u003ea c-\u003ea(b # c)",
@@ -6549,6 +7109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "(=--=)",
           "package": "shady-gen",
@@ -6558,6 +7119,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "(=--=) =--=",
           "normalized": "a b c-\u003ea b c-\u003eBool",
@@ -6572,6 +7134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "(=-=)",
           "package": "shady-gen",
@@ -6581,6 +7144,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "(=-=) =-=",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -6596,6 +7160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame type and syntactically equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "(===)",
           "package": "shady-gen",
@@ -6606,6 +7171,7 @@
         "index": {
           "description": "Same type and syntactically equal",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "(===) ===",
           "normalized": "a b-\u003ea c-\u003eBool",
@@ -6621,6 +7187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRefl\u003c/a\u003e\u003c/code\u003e if type-compatible \u003cem\u003eand\u003c/em\u003e equal.  Otherwise \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "(=:=)",
           "package": "shady-gen",
@@ -6631,6 +7198,7 @@
         "index": {
           "description": "Yields Just Refl if type-compatible and equal Otherwise Nothing",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "(=:=) =:=",
           "normalized": "a b-\u003ea c-\u003eMaybe(b c)",
@@ -6645,6 +7213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": ":*:",
           "package": "shady-gen",
@@ -6654,6 +7223,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": ":*:",
           "normalized": "Type a-\u003eType b-\u003eType(a,b)",
@@ -6668,6 +7238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": ":-\u003e:",
           "package": "shady-gen",
@@ -6677,6 +7248,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": ":-\u003e:",
           "normalized": "Type a-\u003eType b-\u003eType(a-\u003eb)",
@@ -6691,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "IsVec",
           "package": "shady-gen",
@@ -6700,6 +7273,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "IsVec",
           "package": "shady-gen",
@@ -6713,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "Refl",
           "package": "shady-gen",
@@ -6721,6 +7296,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "Refl",
           "package": "shady-gen",
@@ -6734,6 +7310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "Sampler",
           "package": "shady-gen",
@@ -6743,6 +7320,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "Sampler",
           "package": "shady-gen",
@@ -6756,6 +7334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "SamplerT",
           "package": "shady-gen",
@@ -6765,6 +7344,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "SamplerT",
           "normalized": "Nat a-\u003eType(Sampler a)",
@@ -6780,6 +7360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "UnitT",
           "package": "shady-gen",
@@ -6789,6 +7370,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "UnitT",
           "normalized": "Type()",
@@ -6804,6 +7386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "VecT",
           "package": "shady-gen",
@@ -6813,6 +7396,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "VecT",
           "normalized": "VectorT a b-\u003eType(Vec a b)",
@@ -6829,6 +7413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck for a vector type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "checkVec",
           "package": "shady-gen",
@@ -6839,6 +7424,7 @@
         "index": {
           "description": "Check for vector type",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "checkVec",
           "package": "shady-gen",
@@ -6853,6 +7439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient wrapper around \u003ccode\u003e\u003ca\u003echeckVec\u003c/a\u003e\u003c/code\u003e.  Ignores argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "checkVec'",
           "package": "shady-gen",
@@ -6863,6 +7450,7 @@
         "index": {
           "description": "Convenient wrapper around checkVec Ignores argument",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "checkVec'",
           "normalized": "a b-\u003eMaybe(IsVec b)",
@@ -6879,6 +7467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo two values have the same type.  If so, return a proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "compatible",
           "package": "shady-gen",
@@ -6889,6 +7478,7 @@
         "index": {
           "description": "Do two values have the same type If so return proof",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "compatible",
           "normalized": "a-\u003eb-\u003eMaybe(a b)",
@@ -6904,6 +7494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo two values have the same argument type.  If so, return a proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "compatible1",
           "package": "shady-gen",
@@ -6914,6 +7505,7 @@
         "index": {
           "description": "Do two values have the same argument type If so return proof",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "compatible1",
           "normalized": "a b-\u003ec d-\u003eMaybe(b d)",
@@ -6929,6 +7521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to prove equality of primitive types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "ptyEq",
           "package": "shady-gen",
@@ -6939,6 +7532,7 @@
         "index": {
           "description": "Try to prove equality of primitive types",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "ptyEq",
           "normalized": "ScalarT a-\u003eScalarT b-\u003eMaybe(a b)",
@@ -6954,6 +7548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "sampler1",
           "package": "shady-gen",
@@ -6963,6 +7558,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "sampler1",
           "normalized": "TextureId-\u003eSampler",
@@ -6977,6 +7573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "sampler2",
           "package": "shady-gen",
@@ -6986,6 +7583,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "sampler2",
           "normalized": "TextureId-\u003eSampler",
@@ -7000,6 +7598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "sampler3",
           "package": "shady-gen",
@@ -7009,6 +7608,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "sampler3",
           "normalized": "TextureId-\u003eSampler",
@@ -7023,6 +7623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "samplerDim",
           "package": "shady-gen",
@@ -7032,6 +7633,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "samplerDim",
           "package": "shady-gen",
@@ -7045,6 +7647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "samplerTexture",
           "package": "shady-gen",
@@ -7054,6 +7657,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "samplerTexture",
           "package": "shady-gen",
@@ -7067,6 +7671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "scalarT",
           "package": "shady-gen",
@@ -7076,6 +7681,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "scalarT",
           "package": "shady-gen",
@@ -7089,6 +7695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to prove equality of types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "tyEq",
           "package": "shady-gen",
@@ -7099,6 +7706,7 @@
         "index": {
           "description": "Try to prove equality of types",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "tyEq",
           "normalized": "Type a-\u003eType b-\u003eMaybe(a b)",
@@ -7115,6 +7723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReify a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "typeOf",
           "package": "shady-gen",
@@ -7125,6 +7734,7 @@
         "index": {
           "description": "Reify type",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "typeOf",
           "normalized": "a-\u003eType a",
@@ -7141,6 +7751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReify a type argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "typeOf1",
           "package": "shady-gen",
@@ -7151,6 +7762,7 @@
         "index": {
           "description": "Reify type argument",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "typeOf1",
           "normalized": "a b-\u003eType b",
@@ -7167,6 +7779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReify a type argument's argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "typeOf2",
           "package": "shady-gen",
@@ -7177,6 +7790,7 @@
         "index": {
           "description": "Reify type argument argument",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "typeOf2",
           "normalized": "a(b c)-\u003eType c",
@@ -7192,6 +7806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "typeT",
           "package": "shady-gen",
@@ -7201,6 +7816,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "typeT",
           "package": "shady-gen",
@@ -7213,6 +7829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "unit",
           "package": "shady-gen",
@@ -7222,6 +7839,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "unit",
           "normalized": "a()",
@@ -7236,6 +7854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "vectorT",
           "package": "shady-gen",
@@ -7245,6 +7864,7 @@
         },
         "index": {
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "vectorT",
           "package": "shady-gen",
@@ -7258,6 +7878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to prove equality of types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Language.Type",
           "name": "vtyEq",
           "package": "shady-gen",
@@ -7268,6 +7889,7 @@
         "index": {
           "description": "Try to prove equality of types",
           "hierarchy": "Shady Language Type",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Language.Type",
           "name": "vtyEq",
           "normalized": "VectorT a b-\u003eVectorT c d-\u003eMaybe(Vec a b Vec c d)",
@@ -7284,6 +7906,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMisc useful definitions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "Misc",
           "package": "shady-gen",
@@ -7293,6 +7916,7 @@
         "index": {
           "description": "Misc useful definitions",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "Misc",
           "package": "shady-gen",
@@ -7307,6 +7931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003eIO ()\u003c/code\u003e.  Obviates some parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "Action",
           "package": "shady-gen",
@@ -7316,6 +7941,7 @@
         "index": {
           "description": "Synonym for IO Obviates some parentheses",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "Action",
           "package": "shady-gen",
@@ -7330,6 +7956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary transformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "Binop",
           "package": "shady-gen",
@@ -7339,6 +7966,7 @@
         "index": {
           "description": "Binary transformation",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "Binop",
           "package": "shady-gen",
@@ -7352,6 +7980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "EyePos",
           "package": "shady-gen",
@@ -7360,6 +7989,7 @@
         },
         "index": {
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "EyePos",
           "package": "shady-gen",
@@ -7374,6 +8004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal-valued modulo.  You can use \u003ccode\u003e\u003ca\u003efmodRF\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e types and\n \u003ccode\u003e\u003ca\u003efmodViaFrac\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eFrac\u003c/a\u003e\u003c/code\u003e types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "FMod",
           "package": "shady-gen",
@@ -7383,6 +8014,7 @@
         "index": {
           "description": "Real-valued modulo You can use fmodRF for RealFrac types and fmodViaFrac for Frac types",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "FMod",
           "package": "shady-gen",
@@ -7397,6 +8029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake fractional component(s).  Always non-negative.  You can use\n \u003ccode\u003e\u003ca\u003efracRF\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e types and \u003ccode\u003e\u003ca\u003efracViaFmod\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003eFmod\u003c/code\u003e types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "Frac",
           "package": "shady-gen",
@@ -7406,6 +8039,7 @@
         "index": {
           "description": "Take fractional component Always non-negative You can use fracRF for RealFrac types and fracViaFmod for Fmod types",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "Frac",
           "package": "shady-gen",
@@ -7419,6 +8053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "R",
           "package": "shady-gen",
@@ -7427,6 +8062,7 @@
         },
         "index": {
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "R",
           "package": "shady-gen",
@@ -7440,6 +8076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink of information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "Sink",
           "package": "shady-gen",
@@ -7449,6 +8086,7 @@
         "index": {
           "description": "Sink of information",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "Sink",
           "package": "shady-gen",
@@ -7463,6 +8101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary transformation (endomorphism)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "Unop",
           "package": "shady-gen",
@@ -7472,6 +8111,7 @@
         "index": {
           "description": "Unary transformation endomorphism",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "Unop",
           "package": "shady-gen",
@@ -7486,6 +8126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine sinks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "(\u003e+\u003e)",
           "package": "shady-gen",
@@ -7496,6 +8137,7 @@
         "index": {
           "description": "Combine sinks",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "(\u003e+\u003e) \u003e+\u003e",
           "normalized": "Sink a-\u003eSink b-\u003eSink(a,b)",
@@ -7511,6 +8153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClamp to a given range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "clamp",
           "package": "shady-gen",
@@ -7521,6 +8164,7 @@
         "index": {
           "description": "Clamp to given range",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "clamp",
           "normalized": "(a,a)-\u003ea-\u003ea",
@@ -7536,6 +8180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariation on \u003ccode\u003e\u003ca\u003eclamp\u003c/a\u003e\u003c/code\u003e, using \u003ccode\u003e\u003ca\u003eOrdB\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "clampB",
           "package": "shady-gen",
@@ -7546,6 +8191,7 @@
         "index": {
           "description": "Variation on clamp using OrdB instead of Ord",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "clampB",
           "normalized": "(a,a)-\u003ea-\u003ea",
@@ -7561,6 +8207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove first argument to first place (for style uniformity)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "flip1",
           "package": "shady-gen",
@@ -7571,6 +8218,7 @@
         "index": {
           "description": "Move first argument to first place for style uniformity",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "flip1",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -7586,6 +8234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove second argument to first place (\u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e synonym for style uniformity)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "flip2",
           "package": "shady-gen",
@@ -7596,6 +8245,7 @@
         "index": {
           "description": "Move second argument to first place flip synonym for style uniformity",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "flip2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eb-\u003ea-\u003ec",
@@ -7611,6 +8261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove third argument to first place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "flip3",
           "package": "shady-gen",
@@ -7621,6 +8272,7 @@
         "index": {
           "description": "Move third argument to first place",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "flip3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ec-\u003ea-\u003eb-\u003ed",
@@ -7636,6 +8288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove fourth argument to first place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "flip4",
           "package": "shady-gen",
@@ -7646,6 +8299,7 @@
         "index": {
           "description": "Move fourth argument to first place",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "flip4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003ed-\u003ea-\u003eb-\u003ec-\u003ee",
@@ -7660,6 +8314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "fmod",
           "package": "shady-gen",
@@ -7669,6 +8324,7 @@
         },
         "index": {
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "fmod",
           "normalized": "a-\u003ea-\u003ea",
@@ -7684,6 +8340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFractional modulo.  Useful for defining \u003ccode\u003e\u003ca\u003efmod\u003c/a\u003e\u003c/code\u003e on \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "fmodRF",
           "package": "shady-gen",
@@ -7694,6 +8351,7 @@
         "index": {
           "description": "Fractional modulo Useful for defining fmod on RealFrac types",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "fmodRF",
           "normalized": "a-\u003ea-\u003ea",
@@ -7710,6 +8368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy defining \u003ccode\u003e\u003ca\u003efmod\u003c/a\u003e\u003c/code\u003e on a \u003ccode\u003e\u003ca\u003eFrac\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "fmodViaFrac",
           "package": "shady-gen",
@@ -7720,6 +8379,7 @@
         "index": {
           "description": "Handy defining fmod on Frac type",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "fmodViaFrac",
           "normalized": "a-\u003ea-\u003ea",
@@ -7736,6 +8396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard a functor value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "forget",
           "package": "shady-gen",
@@ -7746,6 +8407,7 @@
         "index": {
           "description": "Discard functor value",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "forget",
           "normalized": "a b-\u003ea()",
@@ -7760,6 +8422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "frac",
           "package": "shady-gen",
@@ -7769,6 +8432,7 @@
         },
         "index": {
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "frac",
           "normalized": "a-\u003ea",
@@ -7784,6 +8448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFractional component.  Useful for defining \u003ccode\u003e\u003ca\u003efrac\u003c/a\u003e\u003c/code\u003e on \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "fracRF",
           "package": "shady-gen",
@@ -7794,6 +8459,7 @@
         "index": {
           "description": "Fractional component Useful for defining frac on RealFrac types",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "fracRF",
           "normalized": "a-\u003ea",
@@ -7810,6 +8476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy defining \u003ccode\u003e\u003ca\u003efrac\u003c/a\u003e\u003c/code\u003e on a \u003ccode\u003e\u003ca\u003eFMod\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "fracViaFmod",
           "package": "shady-gen",
@@ -7820,6 +8487,7 @@
         "index": {
           "description": "Handy defining frac on FMod type",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "fracViaFmod",
           "normalized": "a-\u003ea",
@@ -7836,6 +8504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad a string to the given length, adding spaces on the right as needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "padTo",
           "package": "shady-gen",
@@ -7846,6 +8515,7 @@
         "index": {
           "description": "Pad string to the given length adding spaces on the right as needed",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "padTo",
           "normalized": "Int-\u003eString-\u003eString",
@@ -7862,6 +8532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmooth, clamped transition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Misc",
           "name": "smoothStep",
           "package": "shady-gen",
@@ -7872,6 +8543,7 @@
         "index": {
           "description": "Smooth clamped transition",
           "hierarchy": "Shady Misc",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Misc",
           "name": "smoothStep",
           "normalized": "(a,a)-\u003ea-\u003ea",
@@ -7888,6 +8560,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTest new CSE stuff\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.CseTest",
           "name": "CseTest",
           "package": "shady-gen",
@@ -7897,6 +8570,7 @@
         "index": {
           "description": "Test new CSE stuff",
           "hierarchy": "Shady Play CseTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.CseTest",
           "name": "CseTest",
           "package": "shady-gen",
@@ -7910,6 +8584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.CseTest",
           "name": "Point",
           "package": "shady-gen",
@@ -7918,6 +8593,7 @@
         },
         "index": {
           "hierarchy": "Shady Play CseTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.CseTest",
           "name": "Point",
           "package": "shady-gen",
@@ -7931,6 +8607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.CseTest",
           "name": "a1",
           "package": "shady-gen",
@@ -7940,6 +8617,7 @@
         },
         "index": {
           "hierarchy": "Shady Play CseTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.CseTest",
           "name": "a1",
           "package": "shady-gen",
@@ -7952,6 +8630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.CseTest",
           "name": "q",
           "package": "shady-gen",
@@ -7961,6 +8640,7 @@
         },
         "index": {
           "hierarchy": "Shady Play CseTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.CseTest",
           "name": "q",
           "package": "shady-gen",
@@ -7973,6 +8653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.CseTest",
           "name": "t",
           "package": "shady-gen",
@@ -7982,6 +8663,7 @@
         },
         "index": {
           "hierarchy": "Shady Play CseTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.CseTest",
           "name": "t",
           "package": "shady-gen",
@@ -7994,6 +8676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.CseTest",
           "name": "t1",
           "package": "shady-gen",
@@ -8003,6 +8686,7 @@
         },
         "index": {
           "hierarchy": "Shady Play CseTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.CseTest",
           "name": "t1",
           "package": "shady-gen",
@@ -8015,6 +8699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.CseTest",
           "name": "t2",
           "package": "shady-gen",
@@ -8024,6 +8709,7 @@
         },
         "index": {
           "hierarchy": "Shady Play CseTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.CseTest",
           "name": "t2",
           "package": "shady-gen",
@@ -8036,6 +8722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.CseTest",
           "name": "u",
           "package": "shady-gen",
@@ -8045,6 +8732,7 @@
         },
         "index": {
           "hierarchy": "Shady Play CseTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.CseTest",
           "name": "u",
           "package": "shady-gen",
@@ -8057,6 +8745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.CseTest",
           "name": "uv",
           "package": "shady-gen",
@@ -8066,6 +8755,7 @@
         },
         "index": {
           "hierarchy": "Shady Play CseTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.CseTest",
           "name": "uv",
           "package": "shady-gen",
@@ -8078,6 +8768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.CseTest",
           "name": "v",
           "package": "shady-gen",
@@ -8087,6 +8778,7 @@
         },
         "index": {
           "hierarchy": "Shady Play CseTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.CseTest",
           "name": "v",
           "package": "shady-gen",
@@ -8099,6 +8791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.CseTest",
           "name": "x",
           "package": "shady-gen",
@@ -8108,6 +8801,7 @@
         },
         "index": {
           "hierarchy": "Shady Play CseTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.CseTest",
           "name": "x",
           "normalized": "a-\u003eExpr",
@@ -8123,6 +8817,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTest auto vectorization\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.VectorTest",
           "name": "VectorTest",
           "package": "shady-gen",
@@ -8132,6 +8827,7 @@
         "index": {
           "description": "Test auto vectorization",
           "hierarchy": "Shady Play VectorTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.VectorTest",
           "name": "VectorTest",
           "package": "shady-gen",
@@ -8145,6 +8841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.VectorTest",
           "name": "l",
           "package": "shady-gen",
@@ -8154,6 +8851,7 @@
         },
         "index": {
           "hierarchy": "Shady Play VectorTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.VectorTest",
           "name": "l",
           "package": "shady-gen",
@@ -8166,6 +8864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.VectorTest",
           "name": "m",
           "package": "shady-gen",
@@ -8175,6 +8874,7 @@
         },
         "index": {
           "hierarchy": "Shady Play VectorTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.VectorTest",
           "name": "m",
           "package": "shady-gen",
@@ -8187,6 +8887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.VectorTest",
           "name": "n",
           "package": "shady-gen",
@@ -8196,6 +8897,7 @@
         },
         "index": {
           "hierarchy": "Shady Play VectorTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.VectorTest",
           "name": "n",
           "package": "shady-gen",
@@ -8208,6 +8910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.VectorTest",
           "name": "q",
           "package": "shady-gen",
@@ -8217,6 +8920,7 @@
         },
         "index": {
           "hierarchy": "Shady Play VectorTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.VectorTest",
           "name": "q",
           "package": "shady-gen",
@@ -8229,6 +8933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.VectorTest",
           "name": "r",
           "package": "shady-gen",
@@ -8238,6 +8943,7 @@
         },
         "index": {
           "hierarchy": "Shady Play VectorTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.VectorTest",
           "name": "r",
           "package": "shady-gen",
@@ -8250,6 +8956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Play.VectorTest",
           "name": "x",
           "package": "shady-gen",
@@ -8259,6 +8966,7 @@
         },
         "index": {
           "hierarchy": "Shady Play VectorTest",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Play.VectorTest",
           "name": "x",
           "normalized": "a-\u003eExpr",
@@ -8274,6 +8982,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExperiment in length-typed vectors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Vec",
           "package": "shady-gen",
@@ -8283,6 +8992,7 @@
         "index": {
           "description": "Experiment in length-typed vectors",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Vec",
           "package": "shady-gen",
@@ -8297,6 +9007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of type-level numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": ":+:",
           "package": "shady-gen",
@@ -8306,6 +9017,7 @@
         "index": {
           "description": "Sum of type-level numbers",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": ":+:",
           "package": "shady-gen",
@@ -8319,6 +9031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProof that \u003ccode\u003em \u003c n\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": ":\u003c:",
           "package": "shady-gen",
@@ -8328,6 +9041,7 @@
         "index": {
           "description": "Proof that",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": ":\u003c:",
           "package": "shady-gen",
@@ -8340,6 +9054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Four",
           "package": "shady-gen",
@@ -8348,6 +9063,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Four",
           "package": "shady-gen",
@@ -8361,6 +9077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "FourT",
           "package": "shady-gen",
@@ -8369,6 +9086,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "FourT",
           "package": "shady-gen",
@@ -8383,6 +9101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA number under the given limit, with proof\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Index",
           "package": "shady-gen",
@@ -8392,6 +9111,7 @@
         "index": {
           "description": "number under the given limit with proof",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Index",
           "package": "shady-gen",
@@ -8406,6 +9126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003en\u003c/code\u003e a vector length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "IsNat",
           "package": "shady-gen",
@@ -8415,6 +9136,7 @@
         "index": {
           "description": "vector length",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "IsNat",
           "package": "shady-gen",
@@ -8428,6 +9150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Nat",
           "package": "shady-gen",
@@ -8436,6 +9159,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Nat",
           "package": "shady-gen",
@@ -8449,6 +9173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "One",
           "package": "shady-gen",
@@ -8457,6 +9182,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "One",
           "package": "shady-gen",
@@ -8470,6 +9196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "OneT",
           "package": "shady-gen",
@@ -8478,6 +9205,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "OneT",
           "package": "shady-gen",
@@ -8492,6 +9220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level representation of successor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "S",
           "package": "shady-gen",
@@ -8501,6 +9230,7 @@
         "index": {
           "description": "Type-level representation of successor",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "S",
           "package": "shady-gen",
@@ -8513,6 +9243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Three",
           "package": "shady-gen",
@@ -8521,6 +9252,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Three",
           "package": "shady-gen",
@@ -8534,6 +9266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "ThreeT",
           "package": "shady-gen",
@@ -8542,6 +9275,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "ThreeT",
           "package": "shady-gen",
@@ -8555,6 +9289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Two",
           "package": "shady-gen",
@@ -8563,6 +9298,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Two",
           "package": "shady-gen",
@@ -8576,6 +9312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "TwoT",
           "package": "shady-gen",
@@ -8584,6 +9321,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "TwoT",
           "package": "shady-gen",
@@ -8598,6 +9336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVectors with type-determined length, having empty vector (\u003ccode\u003e\u003ca\u003eZVec\u003c/a\u003e\u003c/code\u003e) and\n vector cons ('(:\u003c)').\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Vec",
           "package": "shady-gen",
@@ -8607,6 +9346,7 @@
         "index": {
           "description": "Vectors with type-determined length having empty vector ZVec and vector cons",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Vec",
           "package": "shady-gen",
@@ -8621,6 +9361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level representation of zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Z",
           "package": "shady-gen",
@@ -8630,6 +9371,7 @@
         "index": {
           "description": "Type-level representation of zero",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Z",
           "package": "shady-gen",
@@ -8642,6 +9384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Zero",
           "package": "shady-gen",
@@ -8650,6 +9393,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Zero",
           "package": "shady-gen",
@@ -8663,6 +9407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "ZeroT",
           "package": "shady-gen",
@@ -8671,6 +9416,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "ZeroT",
           "package": "shady-gen",
@@ -8685,6 +9431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation of vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "(\u003c+\u003e)",
           "package": "shady-gen",
@@ -8695,6 +9442,7 @@
         "index": {
           "description": "Concatenation of vectors",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Vec a b-\u003eVec c b-\u003eVec(a c)b",
@@ -8709,6 +9457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": ":\u003c",
           "package": "shady-gen",
@@ -8718,6 +9467,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": ":\u003c",
           "normalized": "a-\u003eVec b a-\u003eVec(S b)a",
@@ -8732,6 +9482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Index",
           "package": "shady-gen",
@@ -8741,6 +9492,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Index",
           "package": "shady-gen",
@@ -8754,6 +9506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Succ",
           "package": "shady-gen",
@@ -8763,6 +9516,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Succ",
           "normalized": "Nat a-\u003eNat(S a)",
@@ -8778,6 +9532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "ZVec",
           "package": "shady-gen",
@@ -8787,6 +9542,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "ZVec",
           "package": "shady-gen",
@@ -8800,6 +9556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "Zero",
           "package": "shady-gen",
@@ -8809,6 +9566,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "Zero",
           "package": "shady-gen",
@@ -8822,6 +9580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "elemsV",
           "package": "shady-gen",
@@ -8831,6 +9590,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "elemsV",
           "normalized": "[a]-\u003eVec b a",
@@ -8845,6 +9605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "four",
           "package": "shady-gen",
@@ -8854,6 +9615,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "four",
           "package": "shady-gen",
@@ -8867,6 +9629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral indexing, taking a proof that the index is within bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "get",
           "package": "shady-gen",
@@ -8877,6 +9640,7 @@
         "index": {
           "description": "General indexing taking proof that the index is within bounds",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "get",
           "normalized": "Index a-\u003eVec a b-\u003eOne b",
@@ -8891,6 +9655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "get0",
           "package": "shady-gen",
@@ -8900,6 +9665,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "get0",
           "normalized": "Vec(S a)b-\u003eOne b",
@@ -8914,6 +9680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "get1",
           "package": "shady-gen",
@@ -8923,6 +9690,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "get1",
           "normalized": "Vec(S(S a))b-\u003eOne b",
@@ -8937,6 +9705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "get2",
           "package": "shady-gen",
@@ -8946,6 +9715,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "get2",
           "normalized": "Vec(S(S(S a)))b-\u003eOne b",
@@ -8960,6 +9730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "get3",
           "package": "shady-gen",
@@ -8969,6 +9740,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "get3",
           "normalized": "Vec(S(S(S(S a))))b-\u003eOne b",
@@ -8983,6 +9755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "index0",
           "package": "shady-gen",
@@ -8992,6 +9765,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "index0",
           "package": "shady-gen",
@@ -9004,6 +9778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "index1",
           "package": "shady-gen",
@@ -9013,6 +9788,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "index1",
           "package": "shady-gen",
@@ -9025,6 +9801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "index2",
           "package": "shady-gen",
@@ -9034,6 +9811,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "index2",
           "package": "shady-gen",
@@ -9046,6 +9824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "index3",
           "package": "shady-gen",
@@ -9055,6 +9834,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "index3",
           "package": "shady-gen",
@@ -9068,6 +9848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndices under \u003ccode\u003en\u003c/code\u003e: \u003ccode\u003e\u003ca\u003eindex0\u003c/a\u003e\u003c/code\u003e :\u003c \u003ccode\u003e\u003ca\u003eindex1\u003c/a\u003e\u003c/code\u003e :\u003c ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "indices",
           "package": "shady-gen",
@@ -9078,6 +9859,7 @@
         "index": {
           "description": "Indices under index0 index1",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "indices",
           "normalized": "Nat a-\u003eVec a(Index a)",
@@ -9092,6 +9874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "nat",
           "package": "shady-gen",
@@ -9101,6 +9884,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "nat",
           "package": "shady-gen",
@@ -9114,6 +9898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of naturals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "natAdd",
           "package": "shady-gen",
@@ -9124,6 +9909,7 @@
         "index": {
           "description": "Sum of naturals",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "natAdd",
           "normalized": "Nat a-\u003eNat b-\u003eNat(a b)",
@@ -9140,6 +9926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "natEq",
           "package": "shady-gen",
@@ -9150,6 +9937,7 @@
         "index": {
           "description": "Equality test",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "natEq",
           "normalized": "Nat a-\u003eNat b-\u003eMaybe(a b)",
@@ -9165,6 +9953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "natIsNat",
           "package": "shady-gen",
@@ -9174,6 +9963,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "natIsNat",
           "package": "shady-gen",
@@ -9187,6 +9977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "natSucc",
           "package": "shady-gen",
@@ -9196,6 +9987,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "natSucc",
           "normalized": "Nat a-\u003eNat(S a)",
@@ -9212,6 +10004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret a \u003ccode\u003e\u003ca\u003eNat\u003c/a\u003e\u003c/code\u003e as an \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "natToZ",
           "package": "shady-gen",
@@ -9222,6 +10015,7 @@
         "index": {
           "description": "Interpret Nat as an Integer",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "natToZ",
           "normalized": "Nat a-\u003eInteger",
@@ -9237,6 +10031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "one",
           "package": "shady-gen",
@@ -9246,6 +10041,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "one",
           "package": "shady-gen",
@@ -9258,6 +10054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "peekV",
           "package": "shady-gen",
@@ -9267,6 +10064,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "peekV",
           "normalized": "Ptr a-\u003eIO(Vec b a)",
@@ -9281,6 +10079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "pokeV",
           "package": "shady-gen",
@@ -9290,6 +10089,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "pokeV",
           "normalized": "Ptr a-\u003eSink(Vec b a)",
@@ -9304,6 +10104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "pureV",
           "package": "shady-gen",
@@ -9313,6 +10114,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "pureV",
           "normalized": "a-\u003eVec b a",
@@ -9327,6 +10129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "succI",
           "package": "shady-gen",
@@ -9336,6 +10139,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "succI",
           "normalized": "Index a-\u003eIndex(S a)",
@@ -9351,6 +10155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwizzling.  Extract multiple elements simultaneously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "swizzle",
           "package": "shady-gen",
@@ -9361,6 +10166,7 @@
         "index": {
           "description": "Swizzling Extract multiple elements simultaneously",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "swizzle",
           "normalized": "Vec a(Index b)-\u003eVec b c-\u003eVec a c",
@@ -9375,6 +10181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "three",
           "package": "shady-gen",
@@ -9384,6 +10191,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "three",
           "package": "shady-gen",
@@ -9396,6 +10204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "two",
           "package": "shady-gen",
@@ -9405,6 +10214,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "two",
           "package": "shady-gen",
@@ -9418,6 +10228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "un1",
           "package": "shady-gen",
@@ -9428,6 +10239,7 @@
         "index": {
           "description": "Extract element",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "un1",
           "normalized": "One a-\u003ea",
@@ -9443,6 +10255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "un2",
           "package": "shady-gen",
@@ -9453,6 +10266,7 @@
         "index": {
           "description": "Extract elements",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "un2",
           "normalized": "Two a-\u003e(a,a)",
@@ -9468,6 +10282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "un3",
           "package": "shady-gen",
@@ -9478,6 +10293,7 @@
         "index": {
           "description": "Extract elements",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "un3",
           "normalized": "Three a-\u003e(a,a,a)",
@@ -9493,6 +10309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "un4",
           "package": "shady-gen",
@@ -9503,6 +10320,7 @@
         "index": {
           "description": "Extract elements",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "un4",
           "normalized": "Four a-\u003e(a,a,a,a)",
@@ -9518,6 +10336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate the elements of a vector.  See also \u003ccode\u003e\u003ca\u003eelemsV\u003c/a\u003e\u003c/code\u003e\n vElems :: Vec n a -\u003e [a]\n vElems ZVec      = []\n vElems (a :\u003c as) = a : vElems as\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "vElems",
           "package": "shady-gen",
@@ -9528,6 +10347,7 @@
         "index": {
           "description": "Enumerate the elements of vector See also elemsV vElems Vec vElems ZVec vElems as vElems as",
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "vElems",
           "normalized": "Vec a b-\u003e[b]",
@@ -9543,6 +10363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "vec1",
           "package": "shady-gen",
@@ -9552,6 +10373,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "vec1",
           "normalized": "a-\u003eOne a",
@@ -9566,6 +10388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "vec2",
           "package": "shady-gen",
@@ -9575,6 +10398,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "vec2",
           "normalized": "a-\u003ea-\u003eTwo a",
@@ -9589,6 +10413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "vec3",
           "package": "shady-gen",
@@ -9598,6 +10423,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "vec3",
           "normalized": "a-\u003ea-\u003ea-\u003eThree a",
@@ -9612,6 +10438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "vec4",
           "package": "shady-gen",
@@ -9621,6 +10448,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "vec4",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eFour a",
@@ -9635,6 +10463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "withIsNat",
           "package": "shady-gen",
@@ -9644,6 +10473,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "withIsNat",
           "normalized": "Nat a-\u003eb)-\u003eNat a-\u003eb",
@@ -9659,6 +10489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Shady.Vec",
           "name": "zero",
           "package": "shady-gen",
@@ -9668,6 +10499,7 @@
         },
         "index": {
           "hierarchy": "Shady Vec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Shady.Vec",
           "name": "zero",
           "package": "shady-gen",
@@ -9681,6 +10513,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVariation of Twan van Laarhoven's simple-reflect\n \u003ca\u003ehttp://hackage.haskell.org/cgi-bin/hackage-scripts/package/simple-reflect\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eDifferences from Twan's version:\n + Generates pretty-printings instead of strings\n + No evaluation\n + Removed overloadings that disagree with semantic versions (e.g., '(==)')\n + A few stylistic tweaks\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "DocExpr",
           "package": "shady-gen",
@@ -9690,6 +10523,7 @@
         "index": {
           "description": "Variation of Twan van Laarhoven simple-reflect http hackage.haskell.org cgi-bin hackage-scripts package simple-reflect Differences from Twan version Generates pretty-printings instead of strings No evaluation Removed overloadings that disagree with semantic versions e.g few stylistic tweaks",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "DocExpr",
           "package": "shady-gen",
@@ -9704,6 +10538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type specifies the associativity of operators: left, right or none. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "Associativity",
           "package": "shady-gen",
@@ -9713,6 +10548,7 @@
         "index": {
           "description": "This data type specifies the associativity of operators left right or none",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "Associativity",
           "package": "shady-gen",
@@ -9727,6 +10563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reflected expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "Expr",
           "package": "shady-gen",
@@ -9736,6 +10573,7 @@
         "index": {
           "description": "reflected expression",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "Expr",
           "package": "shady-gen",
@@ -9750,6 +10588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from \u003ccode\u003e\u003ca\u003eExpr\u003c/a\u003e\u003c/code\u003e to other types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "FromExpr",
           "package": "shady-gen",
@@ -9759,6 +10598,7 @@
         "index": {
           "description": "Conversion from Expr to other types",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "FromExpr",
           "package": "shady-gen",
@@ -9772,6 +10612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "HasExpr",
           "package": "shady-gen",
@@ -9780,6 +10621,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "HasExpr",
           "package": "shady-gen",
@@ -9793,6 +10635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "HasExprU",
           "package": "shady-gen",
@@ -9801,6 +10644,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "HasExprU",
           "package": "shady-gen",
@@ -9815,6 +10659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "($$)",
           "package": "shady-gen",
@@ -9825,6 +10670,7 @@
         "index": {
           "description": "Function application",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "($$) $$",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -9839,6 +10685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "Expr",
           "package": "shady-gen",
@@ -9848,6 +10695,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "Expr",
           "package": "shady-gen",
@@ -9861,6 +10709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "Infix",
           "package": "shady-gen",
@@ -9870,6 +10719,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "Infix",
           "package": "shady-gen",
@@ -9883,6 +10733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "InfixL",
           "package": "shady-gen",
@@ -9892,6 +10743,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "InfixL",
           "package": "shady-gen",
@@ -9905,6 +10757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "InfixR",
           "package": "shady-gen",
@@ -9914,6 +10767,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "InfixR",
           "package": "shady-gen",
@@ -9927,6 +10781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "apply",
           "package": "shady-gen",
@@ -9936,6 +10791,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "apply",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -9951,6 +10807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC-style call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "ccall",
           "package": "shady-gen",
@@ -9961,6 +10818,7 @@
         "index": {
           "description": "C-style call",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "ccall",
           "normalized": "String-\u003e[Expr]-\u003eExpr",
@@ -9976,6 +10834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of showParen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "docParen",
           "package": "shady-gen",
@@ -9986,6 +10845,7 @@
         "index": {
           "description": "Variant of showParen",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "docParen",
           "normalized": "Bool-\u003eDoc-\u003eDoc",
@@ -10002,6 +10862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ee.foo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "dotX",
           "package": "shady-gen",
@@ -10012,6 +10873,7 @@
         "index": {
           "description": "e.foo",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "dotX",
           "normalized": "String-\u003eExpr-\u003eExpr",
@@ -10027,6 +10889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate doc, given contextual precedence level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "edoc",
           "package": "shady-gen",
@@ -10037,6 +10900,7 @@
         "index": {
           "description": "Generate doc given contextual precedence level",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "edoc",
           "normalized": "Int-\u003eDoc",
@@ -10051,6 +10915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "expr",
           "package": "shady-gen",
@@ -10060,6 +10925,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "expr",
           "normalized": "a-\u003eExpr",
@@ -10074,6 +10940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "exprU",
           "package": "shady-gen",
@@ -10083,6 +10950,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "exprU",
           "normalized": "a b c d-\u003eExpr",
@@ -10097,6 +10965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "fromExpr",
           "package": "shady-gen",
@@ -10106,6 +10975,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "fromExpr",
           "normalized": "Expr-\u003ea",
@@ -10122,6 +10992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic, overloaded, function variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "fun",
           "package": "shady-gen",
@@ -10132,6 +11003,7 @@
         "index": {
           "description": "generic overloaded function variable",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "fun",
           "normalized": "String-\u003ea",
@@ -10147,6 +11019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lambda expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "lambdaX",
           "package": "shady-gen",
@@ -10157,6 +11030,7 @@
         "index": {
           "description": "lambda expression",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "lambdaX",
           "normalized": "String-\u003eExpr-\u003eExpr",
@@ -10172,6 +11046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \"let\" expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "letX",
           "package": "shady-gen",
@@ -10182,6 +11057,7 @@
         "index": {
           "description": "let expression",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "letX",
           "normalized": "String-\u003eExpr-\u003eExpr-\u003eExpr",
@@ -10196,6 +11072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "lift",
           "package": "shady-gen",
@@ -10205,6 +11082,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "lift",
           "normalized": "a-\u003eExpr",
@@ -10220,6 +11098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAltering the generated Doc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "onDoc",
           "package": "shady-gen",
@@ -10230,6 +11109,7 @@
         "index": {
           "description": "Altering the generated Doc",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "onDoc",
           "normalized": "(Doc-\u003eDoc)-\u003eExpr-\u003eExpr",
@@ -10246,6 +11126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix operator with the given associativity, precedence and name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "op",
           "package": "shady-gen",
@@ -10256,6 +11137,7 @@
         "index": {
           "description": "An infix operator with the given associativity precedence and name",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "op",
           "normalized": "Associativity-\u003eInt-\u003eString-\u003eExpr-\u003eExpr-\u003eExpr",
@@ -10271,6 +11153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient for defining \u003ccode\u003e\u003ca\u003ePrettyPrec\u003c/a\u003e\u003c/code\u003e when we have a \u003ccode\u003e\u003ca\u003eHasExpr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "prettyExpr",
           "package": "shady-gen",
@@ -10281,6 +11164,7 @@
         "index": {
           "description": "Convenient for defining PrettyPrec when we have HasExpr",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "prettyExpr",
           "normalized": "Int-\u003ea-\u003eDoc",
@@ -10297,6 +11181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "tupleX",
           "package": "shady-gen",
@@ -10307,6 +11192,7 @@
         "index": {
           "description": "tuple expression",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "tupleX",
           "normalized": "[Expr]-\u003eExpr",
@@ -10322,6 +11208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable with the given name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "var",
           "package": "shady-gen",
@@ -10332,6 +11219,7 @@
         "index": {
           "description": "variable with the given name",
           "hierarchy": "Text PrettyPrint Leijen DocExpr",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.DocExpr",
           "name": "var",
           "normalized": "String-\u003eExpr",
@@ -10347,6 +11235,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty class with precedence\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "PrettyPrec",
           "package": "shady-gen",
@@ -10356,6 +11245,7 @@
         "index": {
           "description": "Pretty class with precedence",
           "hierarchy": "Text PrettyPrint Leijen PrettyPrec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "PrettyPrec",
           "package": "shady-gen",
@@ -10370,6 +11260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printing with precedence.  A cross between \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePretty\u003c/a\u003e\u003c/code\u003e.\n The \u003ccode\u003e\u003ca\u003eprettyPrec\u003c/a\u003e\u003c/code\u003e method defaults to discarding the context precedence\n and invoking \u003ccode\u003e\u003ca\u003epretty\u003c/a\u003e\u003c/code\u003e.  The reason \u003ccode\u003e\u003ca\u003ePrettyPrec\u003c/a\u003e\u003c/code\u003e derives from Pretty is\n that so that this default is possible.\n\u003c/p\u003e\u003cp\u003eTo make a \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance for a \u003ccode\u003e\u003ca\u003ePrettyPrec\u003c/a\u003e\u003c/code\u003e instance \u003ccode\u003eFoo\u003c/code\u003e, define\n\u003c/p\u003e\u003cp\u003einstance Show Foo where showsPrec p e = showsPrec p (prettyPrec p e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "PrettyPrec",
           "package": "shady-gen",
@@ -10379,6 +11270,7 @@
         "index": {
           "description": "Pretty printing with precedence cross between Show and Pretty The prettyPrec method defaults to discarding the context precedence and invoking pretty The reason PrettyPrec derives from Pretty is that so that this default is possible To make Show instance for PrettyPrec instance Foo define instance Show Foo where showsPrec showsPrec prettyPrec",
           "hierarchy": "Text PrettyPrint Leijen PrettyPrec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "PrettyPrec",
           "package": "shady-gen",
@@ -10392,6 +11284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "prettyPrec",
           "package": "shady-gen",
@@ -10401,6 +11294,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Leijen PrettyPrec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "prettyPrec",
           "normalized": "Int-\u003ea-\u003eDoc",
@@ -10417,6 +11311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient definition for \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance.  Uses\n ribbon fraction of 0.9 and width of 80.  To set these values, use\n \u003ccode\u003e\u003ca\u003eshowsPretty'\u003c/a\u003e\u003c/code\u003e instead.  If you want to take precedence into account,\n use \u003ccode\u003e\u003ca\u003eshowsPrettyPrec\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "showsPretty",
           "package": "shady-gen",
@@ -10427,6 +11322,7 @@
         "index": {
           "description": "Convenient definition for showsPrec in Show instance Uses ribbon fraction of and width of To set these values use showsPretty instead If you want to take precedence into account use showsPrettyPrec instead",
           "hierarchy": "Text PrettyPrint Leijen PrettyPrec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "showsPretty",
           "normalized": "Int-\u003ea-\u003eShowS",
@@ -10443,6 +11339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient definition for \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance.\n Arguments are ribbon fraction and line width.  To get my defaults, use\n \u003ccode\u003e\u003ca\u003eshowsPretty\u003c/a\u003e\u003c/code\u003e instead.  Ignores precedence, which \u003ccode\u003e\u003ca\u003ePretty\u003c/a\u003e\u003c/code\u003e doesn't\n understand.  If you have a \u003ccode\u003e\u003ca\u003ePrettyPrec\u003c/a\u003e\u003c/code\u003e instance, you can use\n \u003ccode\u003e\u003ca\u003eshowsPrettyPrec\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "showsPretty'",
           "package": "shady-gen",
@@ -10453,6 +11350,7 @@
         "index": {
           "description": "Convenient definition for showsPrec in Show instance Arguments are ribbon fraction and line width To get my defaults use showsPretty instead Ignores precedence which Pretty doesn understand If you have PrettyPrec instance you can use showsPrettyPrec instead",
           "hierarchy": "Text PrettyPrint Leijen PrettyPrec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "showsPretty'",
           "normalized": "Float-\u003eInt-\u003eInt-\u003ea-\u003eShowS",
@@ -10469,6 +11367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient definition for \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance.  Uses\n ribbon fraction of 0.9 and width of 80.  To set these values, use\n \u003ccode\u003e\u003ca\u003eshowsPrettyPrec'\u003c/a\u003e\u003c/code\u003e instead.  See also \u003ccode\u003e\u003ca\u003eshowsPretty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "showsPrettyPrec",
           "package": "shady-gen",
@@ -10479,6 +11378,7 @@
         "index": {
           "description": "Convenient definition for showsPrec in Show instance Uses ribbon fraction of and width of To set these values use showsPrettyPrec instead See also showsPretty",
           "hierarchy": "Text PrettyPrint Leijen PrettyPrec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "showsPrettyPrec",
           "normalized": "Int-\u003ea-\u003eShowS",
@@ -10495,6 +11395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient definition for \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance.\n Arguments are ribbon fraction and line width.  To get my defaults, use\n \u003ccode\u003eshowsPrettyPretty\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:49 UTC 2014",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "showsPrettyPrec'",
           "package": "shady-gen",
@@ -10505,6 +11406,7 @@
         "index": {
           "description": "Convenient definition for showsPrec in Show instance Arguments are ribbon fraction and line width To get my defaults use showsPrettyPretty instead",
           "hierarchy": "Text PrettyPrint Leijen PrettyPrec",
+          "indexed": "2014-03-11T20:00:49",
           "module": "Text.PrettyPrint.Leijen.PrettyPrec",
           "name": "showsPrettyPrec'",
           "normalized": "Float-\u003eInt-\u003eInt-\u003ea-\u003eShowS",

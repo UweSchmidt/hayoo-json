@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vowpal-utils"
+        "phrase": "vowpal-utils",
+        "type": "phrase"
       },
       "type": "context"
     }

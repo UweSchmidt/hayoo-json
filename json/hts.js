@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hts"
+        "phrase": "hts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Ascribe",
           "name": "Ascribe",
           "package": "hts",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Ascribe",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Ascribe",
           "name": "Ascribe",
           "package": "hts",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003emm_ascribe_chd\u003c/a\u003e\u003c/code\u003e post-processed by \u003ccode\u003e\u003ca\u003eset_note_duration\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Ascribe",
           "name": "mm_ascribe",
           "package": "hts",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Variant of mm ascribe chd post-processed by set note duration",
           "hierarchy": "Music Typesetting Ascribe",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Ascribe",
           "name": "mm_ascribe",
           "normalized": "[[Duration_A]]-\u003e[Note]-\u003e[[Note]]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate \u003cem\u003eor\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Ascribe",
           "name": "p_or",
           "package": "hts",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Predicate or",
           "hierarchy": "Music Typesetting Ascribe",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Ascribe",
           "name": "p_or",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eBool)-\u003ea-\u003eBool",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop annotation on repeated notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Ascribe",
           "name": "set_note_duration",
           "package": "hts",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Drop annotation on repeated notes",
           "hierarchy": "Music Typesetting Ascribe",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Ascribe",
           "name": "set_note_duration",
           "normalized": "(Duration_A,Note)-\u003eNote",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDynamic mark literals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "Dynamic",
           "package": "hts",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Dynamic mark literals",
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "Dynamic",
           "package": "hts",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "cresc",
           "package": "hts",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "cresc",
           "package": "hts",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "dim",
           "package": "hts",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "dim",
           "package": "hts",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "dynamic_mark",
           "package": "hts",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "dynamic_mark",
           "normalized": "Dynamic_Mark_T-\u003eN_Annotation",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "end_hairpin",
           "package": "hts",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "end_hairpin",
           "package": "hts",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "f",
           "package": "hts",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "f",
           "package": "hts",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "ff",
           "package": "hts",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "ff",
           "package": "hts",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "fff",
           "package": "hts",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "fff",
           "package": "hts",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "ffff",
           "package": "hts",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "ffff",
           "package": "hts",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "fp",
           "package": "hts",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "fp",
           "package": "hts",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "mf",
           "package": "hts",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "mf",
           "package": "hts",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "mp",
           "package": "hts",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "mp",
           "package": "hts",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "niente",
           "package": "hts",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "niente",
           "package": "hts",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "p",
           "package": "hts",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "p",
           "package": "hts",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "pp",
           "package": "hts",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "pp",
           "package": "hts",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "ppp",
           "package": "hts",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "ppp",
           "package": "hts",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "pppp",
           "package": "hts",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "pppp",
           "package": "hts",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "sfz",
           "package": "hts",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal Dynamic",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal.Dynamic",
           "name": "sfz",
           "package": "hts",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "Literal",
           "package": "hts",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "Literal",
           "package": "hts",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "(&)",
           "package": "hts",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "(&) &",
           "normalized": "Note-\u003eN_Annotation-\u003eNote",
@@ -541,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003e\u003ca\u003em_annotate\u003c/a\u003e\u003c/code\u003e with reverse argument order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "(&.)",
           "package": "hts",
@@ -551,6 +600,7 @@
         "index": {
           "description": "Infix variant of annotate with reverse argument order",
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "(&.) &.",
           "normalized": "Measure-\u003eM_Annotation-\u003eMeasure",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "accent",
           "package": "hts",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "accent",
           "package": "hts",
@@ -586,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "alto_clef",
           "package": "hts",
@@ -595,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "alto_clef",
           "package": "hts",
@@ -608,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to first and last elements of list.\n\u003c/p\u003e\u003cpre\u003e annotate_bracket (+) (9,7) [1,2,3] == [10,2,10]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "annotate_bracket",
           "package": "hts",
@@ -618,6 +673,7 @@
         "index": {
           "description": "Apply function to first and last elements of list annotate bracket",
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "annotate_bracket",
           "normalized": "(a-\u003eb-\u003eb)-\u003e(a,a)-\u003e[b]-\u003e[b]",
@@ -633,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to all but the last element of list.\n\u003c/p\u003e\u003cpre\u003e annotate_except_last (+) 7 [1,2,3] == [8,9,3]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "annotate_except_last",
           "package": "hts",
@@ -643,6 +700,7 @@
         "index": {
           "description": "Apply function to all but the last element of list annotate except last",
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "annotate_except_last",
           "normalized": "(a-\u003eb-\u003eb)-\u003ea-\u003e[b]-\u003e[b]",
@@ -658,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to first element of list.\n\u003c/p\u003e\u003cpre\u003e annotate_first (+) 9 [1,2,3] == [10,2,3]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "annotate_first",
           "package": "hts",
@@ -668,6 +727,7 @@
         "index": {
           "description": "Apply function to first element of list annotate first",
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "annotate_first",
           "normalized": "(a-\u003eb-\u003eb)-\u003ea-\u003e[b]-\u003e[b]",
@@ -683,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to last element of list.\n\u003c/p\u003e\u003cpre\u003e annotate_last (+) 7 [1,2,3] == [1,2,10]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "annotate_last",
           "package": "hts",
@@ -693,6 +754,7 @@
         "index": {
           "description": "Apply function to last element of list annotate last",
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "annotate_last",
           "normalized": "(a-\u003eb-\u003eb)-\u003ea-\u003e[b]-\u003e[b]",
@@ -708,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to middle elements of list.\n\u003c/p\u003e\u003cpre\u003e annotate_middle (+) 9 [1,2,3,4] == [1,11,12,4]\n annotate_middle (+) 9 [1,4] == [1,4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "annotate_middle",
           "package": "hts",
@@ -718,6 +781,7 @@
         "index": {
           "description": "Apply function to middle elements of list annotate middle annotate middle",
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "annotate_middle",
           "normalized": "(a-\u003eb-\u003eb)-\u003ea-\u003e[b]-\u003e[b]",
@@ -732,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "arpeggiate",
           "package": "hts",
@@ -741,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "arpeggiate",
           "package": "hts",
@@ -753,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "bass_8vb_clef",
           "package": "hts",
@@ -762,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "bass_8vb_clef",
           "package": "hts",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "bass_clef",
           "package": "hts",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "bass_clef",
           "package": "hts",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "begin_slide",
           "package": "hts",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "begin_slide",
           "package": "hts",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "begin_slur",
           "package": "hts",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "begin_slur",
           "package": "hts",
@@ -837,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "empty_measure",
           "package": "hts",
@@ -846,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "empty_measure",
           "normalized": "(Integer,Integer)-\u003eMeasure",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "end_slide",
           "package": "hts",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "end_slide",
           "package": "hts",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "end_slur",
           "package": "hts",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "end_slur",
           "package": "hts",
@@ -902,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "fermata",
           "package": "hts",
@@ -911,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "fermata",
           "package": "hts",
@@ -924,6 +1006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate from \u003ccode\u003e\u003ca\u003eD_Annotation\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eN_Annotation\u003c/a\u003e\u003c/code\u003e.  Note: does not\n necessarily translate \u003ccode\u003e\u003ca\u003eBegin_Tuplet\u003c/a\u003e\u003c/code\u003e correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "from_d_annotation",
           "package": "hts",
@@ -934,6 +1017,7 @@
         "index": {
           "description": "Translate from Annotation to Annotation Note does not necessarily translate Begin Tuplet correctly",
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "from_d_annotation",
           "normalized": "D_Annotation-\u003eN_Annotation",
@@ -948,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "group",
           "package": "hts",
@@ -957,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "group",
           "normalized": "Name-\u003e[Part]-\u003ePart",
@@ -971,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "laissez_vibrer",
           "package": "hts",
@@ -980,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "laissez_vibrer",
           "package": "hts",
@@ -992,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "m_annotate",
           "package": "hts",
@@ -1001,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "m_annotate",
           "normalized": "M_Annotation-\u003eMeasure-\u003eMeasure",
@@ -1015,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "m_annotate_bracket",
           "package": "hts",
@@ -1024,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "m_annotate_bracket",
           "normalized": "(M_Annotation,M_Annotation)-\u003e[Measure]-\u003e[Measure]",
@@ -1038,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "m_annotate_first",
           "package": "hts",
@@ -1047,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "m_annotate_first",
           "normalized": "[M_Annotation]-\u003e[Measure]-\u003e[Measure]",
@@ -1061,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "m_annotate_l",
           "package": "hts",
@@ -1070,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "m_annotate_l",
           "normalized": "[M_Annotation]-\u003eMeasure-\u003eMeasure",
@@ -1084,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "m_annotate_last",
           "package": "hts",
@@ -1093,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "m_annotate_last",
           "normalized": "[M_Annotation]-\u003e[Measure]-\u003e[Measure]",
@@ -1107,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "m_duration",
           "package": "hts",
@@ -1116,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "m_duration",
           "normalized": "Measure-\u003e[Duration]",
@@ -1130,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "m_duration_rq",
           "package": "hts",
@@ -1139,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "m_duration_rq",
           "normalized": "Measure-\u003eRational",
@@ -1153,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate",
           "package": "hts",
@@ -1162,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate",
           "normalized": "N_Annotation-\u003eNote-\u003eNote",
@@ -1176,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate_bracket",
           "package": "hts",
@@ -1185,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate_bracket",
           "normalized": "(N_Annotation,N_Annotation)-\u003e[Note]-\u003e[Note]",
@@ -1199,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate_first",
           "package": "hts",
@@ -1208,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate_first",
           "normalized": "[N_Annotation]-\u003e[Note]-\u003e[Note]",
@@ -1222,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate_l",
           "package": "hts",
@@ -1231,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate_l",
           "normalized": "[N_Annotation]-\u003eNote-\u003eNote",
@@ -1245,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate_last",
           "package": "hts",
@@ -1254,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate_last",
           "normalized": "[N_Annotation]-\u003e[Note]-\u003e[Note]",
@@ -1269,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply annotations to the start and end points of each tied note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate_tie_endpoints",
           "package": "hts",
@@ -1279,6 +1392,7 @@
         "index": {
           "description": "Apply annotations to the start and end points of each tied note",
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "n_annotate_tie_endpoints",
           "normalized": "([N_Annotation],[N_Annotation])-\u003eNote-\u003eNote",
@@ -1293,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "n_edit_duration",
           "package": "hts",
@@ -1302,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "n_edit_duration",
           "normalized": "(Duration-\u003eDuration)-\u003eNote-\u003eNote",
@@ -1316,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "part",
           "package": "hts",
@@ -1325,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "part",
           "normalized": "Name-\u003e[Measure]-\u003ePart",
@@ -1339,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_change",
           "package": "hts",
@@ -1348,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_change",
           "package": "hts",
@@ -1360,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_continue",
           "package": "hts",
@@ -1369,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_continue",
           "package": "hts",
@@ -1381,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_down",
           "package": "hts",
@@ -1390,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_down",
           "package": "hts",
@@ -1402,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_down_mark",
           "package": "hts",
@@ -1411,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_down_mark",
           "package": "hts",
@@ -1423,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_up",
           "package": "hts",
@@ -1432,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_up",
           "package": "hts",
@@ -1444,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_up_mark",
           "package": "hts",
@@ -1453,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "pedal_up_mark",
           "package": "hts",
@@ -1465,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "percussion_clef",
           "package": "hts",
@@ -1474,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "percussion_clef",
           "package": "hts",
@@ -1486,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "stem_tremolo",
           "package": "hts",
@@ -1495,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "stem_tremolo",
           "normalized": "Integer-\u003eNote-\u003eNote",
@@ -1509,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "tenor_clef",
           "package": "hts",
@@ -1518,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "tenor_clef",
           "package": "hts",
@@ -1530,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "treble_15ma_clef",
           "package": "hts",
@@ -1539,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "treble_15ma_clef",
           "package": "hts",
@@ -1551,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "treble_8va_clef",
           "package": "hts",
@@ -1560,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "treble_8va_clef",
           "package": "hts",
@@ -1572,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "treble_8vb_clef",
           "package": "hts",
@@ -1581,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "treble_8vb_clef",
           "package": "hts",
@@ -1593,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "treble_clef",
           "package": "hts",
@@ -1602,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "treble_clef",
           "package": "hts",
@@ -1614,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "trill_mark",
           "package": "hts",
@@ -1623,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "trill_mark",
           "package": "hts",
@@ -1635,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "tuplet",
           "package": "hts",
@@ -1644,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "tuplet",
           "normalized": "(Integer,Integer)-\u003e[Note]-\u003e[Note]",
@@ -1659,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge parallel voices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Literal",
           "name": "voices",
           "package": "hts",
@@ -1669,6 +1818,7 @@
         "index": {
           "description": "Merge parallel voices",
           "hierarchy": "Music Typesetting Literal",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Literal",
           "name": "voices",
           "normalized": "[[Measure]]-\u003e[Measure]",
@@ -1683,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Model",
           "package": "hts",
@@ -1691,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Model",
           "package": "hts",
@@ -1704,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Articulation_T",
           "package": "hts",
@@ -1712,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Articulation_T",
           "package": "hts",
@@ -1725,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Beam_T",
           "package": "hts",
@@ -1733,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Beam_T",
           "package": "hts",
@@ -1746,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Direction_T",
           "package": "hts",
@@ -1754,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Direction_T",
           "package": "hts",
@@ -1767,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Font_Family_T",
           "package": "hts",
@@ -1775,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Font_Family_T",
           "package": "hts",
@@ -1788,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Font_Size_T",
           "package": "hts",
@@ -1796,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Font_Size_T",
           "package": "hts",
@@ -1809,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Font_Style_T",
           "package": "hts",
@@ -1817,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Font_Style_T",
           "package": "hts",
@@ -1830,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Font_T",
           "package": "hts",
@@ -1838,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Font_T",
           "package": "hts",
@@ -1851,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Font_Weight_T",
           "package": "hts",
@@ -1859,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Font_Weight_T",
           "package": "hts",
@@ -1872,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "G_Annotation",
           "package": "hts",
@@ -1880,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "G_Annotation",
           "package": "hts",
@@ -1893,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Group_Symbol_T",
           "package": "hts",
@@ -1901,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Group_Symbol_T",
           "package": "hts",
@@ -1914,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Harmonic_T",
           "package": "hts",
@@ -1922,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Harmonic_T",
           "package": "hts",
@@ -1935,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "ID",
           "package": "hts",
@@ -1943,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "ID",
           "package": "hts",
@@ -1956,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "M_Annotation",
           "package": "hts",
@@ -1964,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "M_Annotation",
           "package": "hts",
@@ -1977,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Measure",
           "package": "hts",
@@ -1985,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Measure",
           "package": "hts",
@@ -1999,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered to meet musicxml requirements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Annotation",
           "package": "hts",
@@ -2008,6 +2189,7 @@
         "index": {
           "description": "Ordered to meet musicxml requirements",
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Annotation",
           "package": "hts",
@@ -2021,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Name",
           "package": "hts",
@@ -2029,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Name",
           "package": "hts",
@@ -2042,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Note",
           "package": "hts",
@@ -2050,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Note",
           "package": "hts",
@@ -2063,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Notehead_T",
           "package": "hts",
@@ -2071,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Notehead_T",
           "package": "hts",
@@ -2084,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Ornament_T",
           "package": "hts",
@@ -2092,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Ornament_T",
           "package": "hts",
@@ -2105,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "P_Annotation",
           "package": "hts",
@@ -2113,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "P_Annotation",
           "package": "hts",
@@ -2126,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Part",
           "package": "hts",
@@ -2134,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Part",
           "package": "hts",
@@ -2147,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Pedal_T",
           "package": "hts",
@@ -2155,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Pedal_T",
           "package": "hts",
@@ -2168,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Placement_T",
           "package": "hts",
@@ -2176,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Placement_T",
           "package": "hts",
@@ -2189,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Score",
           "package": "hts",
@@ -2197,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Score",
           "package": "hts",
@@ -2210,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Sound_T",
           "package": "hts",
@@ -2218,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Sound_T",
           "package": "hts",
@@ -2231,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Technical_T",
           "package": "hts",
@@ -2239,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Technical_T",
           "package": "hts",
@@ -2252,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Tuplet_T",
           "package": "hts",
@@ -2260,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Tuplet_T",
           "package": "hts",
@@ -2273,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Above",
           "package": "hts",
@@ -2282,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Above",
           "package": "hts",
@@ -2295,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Accent",
           "package": "hts",
@@ -2304,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Accent",
           "package": "hts",
@@ -2317,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Artifical_Harmonic",
           "package": "hts",
@@ -2326,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Artifical_Harmonic",
           "package": "hts",
@@ -2339,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Beam_Begin",
           "package": "hts",
@@ -2348,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Beam_Begin",
           "package": "hts",
@@ -2361,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Beam_Continue",
           "package": "hts",
@@ -2370,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Beam_Continue",
           "package": "hts",
@@ -2383,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Beam_End",
           "package": "hts",
@@ -2392,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Beam_End",
           "package": "hts",
@@ -2405,6 +2623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Below",
           "package": "hts",
@@ -2414,6 +2633,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Below",
           "package": "hts",
@@ -2427,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Brace",
           "package": "hts",
@@ -2436,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Brace",
           "package": "hts",
@@ -2449,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Bracket",
           "package": "hts",
@@ -2458,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Bracket",
           "package": "hts",
@@ -2471,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "D_Dynamic_Mark",
           "package": "hts",
@@ -2480,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "D_Dynamic_Mark",
           "package": "hts",
@@ -2493,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "D_Hairpin",
           "package": "hts",
@@ -2502,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "D_Hairpin",
           "package": "hts",
@@ -2515,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "D_Laissez_Vibrer",
           "package": "hts",
@@ -2524,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "D_Laissez_Vibrer",
           "package": "hts",
@@ -2537,6 +2767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "D_Pedal",
           "package": "hts",
@@ -2546,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "D_Pedal",
           "package": "hts",
@@ -2559,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "D_Tempo_Marking",
           "package": "hts",
@@ -2568,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "D_Tempo_Marking",
           "package": "hts",
@@ -2581,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Down_Bow",
           "package": "hts",
@@ -2590,6 +2825,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Down_Bow",
           "package": "hts",
@@ -2603,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Font",
           "package": "hts",
@@ -2612,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Font",
           "package": "hts",
@@ -2625,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Font_Style_Italic",
           "package": "hts",
@@ -2634,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Font_Style_Italic",
           "package": "hts",
@@ -2647,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Font_Style_Normal",
           "package": "hts",
@@ -2656,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Font_Style_Normal",
           "package": "hts",
@@ -2669,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Font_Weight_Bold",
           "package": "hts",
@@ -2678,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Font_Weight_Bold",
           "package": "hts",
@@ -2691,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Font_Weight_Normal",
           "package": "hts",
@@ -2700,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Font_Weight_Normal",
           "package": "hts",
@@ -2713,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "G_Name",
           "package": "hts",
@@ -2722,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "G_Name",
           "package": "hts",
@@ -2735,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "G_Symbol",
           "package": "hts",
@@ -2744,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "G_Symbol",
           "package": "hts",
@@ -2757,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Group",
           "package": "hts",
@@ -2766,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Group",
           "normalized": "Group(Maybe ID)[G_Annotation][Part]",
@@ -2781,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Harmonic",
           "package": "hts",
@@ -2790,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Harmonic",
           "package": "hts",
@@ -2803,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Line",
           "package": "hts",
@@ -2812,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Line",
           "package": "hts",
@@ -2825,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "M_Clef",
           "package": "hts",
@@ -2834,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "M_Clef",
           "package": "hts",
@@ -2847,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "M_Direction",
           "package": "hts",
@@ -2856,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "M_Direction",
           "package": "hts",
@@ -2869,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "M_Division",
           "package": "hts",
@@ -2878,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "M_Division",
           "package": "hts",
@@ -2891,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "M_Key",
           "package": "hts",
@@ -2900,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "M_Key",
           "package": "hts",
@@ -2913,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "M_Staves",
           "package": "hts",
@@ -2922,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "M_Staves",
           "package": "hts",
@@ -2935,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "M_Time_Signature",
           "package": "hts",
@@ -2944,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "M_Time_Signature",
           "package": "hts",
@@ -2957,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Measure",
           "package": "hts",
@@ -2966,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Measure",
           "package": "hts",
@@ -2979,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Arpeggiate",
           "package": "hts",
@@ -2988,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Arpeggiate",
           "package": "hts",
@@ -3001,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Articulation",
           "package": "hts",
@@ -3010,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Articulation",
           "package": "hts",
@@ -3023,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Backup",
           "package": "hts",
@@ -3032,6 +3307,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Backup",
           "normalized": "N_Backup[Duration]",
@@ -3047,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Beam",
           "package": "hts",
@@ -3056,6 +3333,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Beam",
           "package": "hts",
@@ -3069,6 +3347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Begin_Glissando",
           "package": "hts",
@@ -3078,6 +3357,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Begin_Glissando",
           "package": "hts",
@@ -3091,6 +3371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Begin_Slide",
           "package": "hts",
@@ -3100,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Begin_Slide",
           "package": "hts",
@@ -3113,6 +3395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Begin_Slur",
           "package": "hts",
@@ -3122,6 +3405,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Begin_Slur",
           "package": "hts",
@@ -3135,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Begin_Tied",
           "package": "hts",
@@ -3144,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Begin_Tied",
           "package": "hts",
@@ -3157,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Begin_Tuplet",
           "package": "hts",
@@ -3166,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Begin_Tuplet",
           "package": "hts",
@@ -3179,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Chord",
           "package": "hts",
@@ -3188,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Chord",
           "package": "hts",
@@ -3201,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Direction",
           "package": "hts",
@@ -3210,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Direction",
           "package": "hts",
@@ -3223,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_End_Glissando",
           "package": "hts",
@@ -3232,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_End_Glissando",
           "package": "hts",
@@ -3245,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_End_Slide",
           "package": "hts",
@@ -3254,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_End_Slide",
           "package": "hts",
@@ -3267,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_End_Slur",
           "package": "hts",
@@ -3276,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_End_Slur",
           "package": "hts",
@@ -3289,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_End_Tied",
           "package": "hts",
@@ -3298,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_End_Tied",
           "package": "hts",
@@ -3311,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_End_Tuplet",
           "package": "hts",
@@ -3320,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_End_Tuplet",
           "package": "hts",
@@ -3333,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Fermata",
           "package": "hts",
@@ -3342,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Fermata",
           "package": "hts",
@@ -3355,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Grace",
           "package": "hts",
@@ -3364,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Grace",
           "package": "hts",
@@ -3377,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Notehead",
           "package": "hts",
@@ -3386,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Notehead",
           "package": "hts",
@@ -3399,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Ornament",
           "package": "hts",
@@ -3408,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Ornament",
           "package": "hts",
@@ -3421,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Pitch",
           "package": "hts",
@@ -3430,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Pitch",
           "package": "hts",
@@ -3443,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Rest",
           "package": "hts",
@@ -3452,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Rest",
           "package": "hts",
@@ -3465,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Staff",
           "package": "hts",
@@ -3474,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Staff",
           "package": "hts",
@@ -3487,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Stem_Tremolo",
           "package": "hts",
@@ -3496,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Stem_Tremolo",
           "package": "hts",
@@ -3509,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Technical",
           "package": "hts",
@@ -3518,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Technical",
           "package": "hts",
@@ -3531,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Unpitched",
           "package": "hts",
@@ -3540,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Unpitched",
           "package": "hts",
@@ -3553,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "N_Voice",
           "package": "hts",
@@ -3562,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "N_Voice",
           "package": "hts",
@@ -3575,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Natural_Harmonic",
           "package": "hts",
@@ -3584,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Natural_Harmonic",
           "package": "hts",
@@ -3597,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "None",
           "package": "hts",
@@ -3606,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "None",
           "package": "hts",
@@ -3619,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Note",
           "package": "hts",
@@ -3628,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Note",
           "package": "hts",
@@ -3641,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Notehead_Cross",
           "package": "hts",
@@ -3650,6 +3981,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Notehead_Cross",
           "package": "hts",
@@ -3663,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Notehead_Diamond",
           "package": "hts",
@@ -3672,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Notehead_Diamond",
           "package": "hts",
@@ -3685,6 +4019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Notehead_Square",
           "package": "hts",
@@ -3694,6 +4029,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Notehead_Square",
           "package": "hts",
@@ -3707,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Notehead_Triangle",
           "package": "hts",
@@ -3716,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Notehead_Triangle",
           "package": "hts",
@@ -3729,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Open_String",
           "package": "hts",
@@ -3738,6 +4077,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Open_String",
           "package": "hts",
@@ -3751,6 +4091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Other_Technical",
           "package": "hts",
@@ -3760,6 +4101,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Other_Technical",
           "package": "hts",
@@ -3773,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "P_Name",
           "package": "hts",
@@ -3782,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "P_Name",
           "package": "hts",
@@ -3795,6 +4139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Part",
           "package": "hts",
@@ -3804,6 +4149,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Part",
           "normalized": "Part(Maybe ID)[P_Annotation][Measure]",
@@ -3819,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Pedal_Change",
           "package": "hts",
@@ -3828,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Pedal_Change",
           "package": "hts",
@@ -3841,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Pedal_Continue",
           "package": "hts",
@@ -3850,6 +4199,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Pedal_Continue",
           "package": "hts",
@@ -3863,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Pedal_Start",
           "package": "hts",
@@ -3872,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Pedal_Start",
           "package": "hts",
@@ -3885,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Pedal_Stop",
           "package": "hts",
@@ -3894,6 +4247,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Pedal_Stop",
           "package": "hts",
@@ -3907,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Score",
           "package": "hts",
@@ -3916,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Score",
           "normalized": "Score[Part]",
@@ -3931,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Snap_Pizzicato",
           "package": "hts",
@@ -3940,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Snap_Pizzicato",
           "package": "hts",
@@ -3953,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Sound_Dynamics",
           "package": "hts",
@@ -3962,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Sound_Dynamics",
           "package": "hts",
@@ -3975,6 +4335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Sound_Tempo",
           "package": "hts",
@@ -3984,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Sound_Tempo",
           "package": "hts",
@@ -3997,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Staccato",
           "package": "hts",
@@ -4006,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Staccato",
           "package": "hts",
@@ -4019,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Stopped",
           "package": "hts",
@@ -4028,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Stopped",
           "package": "hts",
@@ -4041,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Strong_Accent",
           "package": "hts",
@@ -4050,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Strong_Accent",
           "package": "hts",
@@ -4063,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Tenuto",
           "package": "hts",
@@ -4072,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Tenuto",
           "package": "hts",
@@ -4085,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Trill_Mark",
           "package": "hts",
@@ -4094,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Trill_Mark",
           "package": "hts",
@@ -4107,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "Up_Bow",
           "package": "hts",
@@ -4116,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "Up_Bow",
           "package": "hts",
@@ -4129,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "m_annotations",
           "package": "hts",
@@ -4138,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "m_annotations",
           "normalized": "[M_Annotation]",
@@ -4152,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "m_notes",
           "package": "hts",
@@ -4161,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "m_notes",
           "normalized": "[Note]",
@@ -4175,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "n_annotations",
           "package": "hts",
@@ -4184,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "n_annotations",
           "normalized": "[N_Annotation]",
@@ -4198,6 +4578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "n_duration",
           "package": "hts",
@@ -4207,6 +4588,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "n_duration",
           "package": "hts",
@@ -4219,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "pedal_line",
           "package": "hts",
@@ -4228,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "pedal_line",
           "package": "hts",
@@ -4240,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "pedal_sign",
           "package": "hts",
@@ -4249,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "pedal_sign",
           "package": "hts",
@@ -4261,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Model",
           "name": "pedal_type",
           "package": "hts",
@@ -4270,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Model",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Model",
           "name": "pedal_type",
           "package": "hts",
@@ -4283,6 +4671,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003ePitch\u003c/code\u003e names lifted to \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "Name",
           "package": "hts",
@@ -4292,6 +4681,7 @@
         "index": {
           "description": "Pitch names lifted to Note values",
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "Name",
           "package": "hts",
@@ -4305,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "a0",
           "package": "hts",
@@ -4314,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "a0",
           "package": "hts",
@@ -4326,6 +4718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "a1",
           "package": "hts",
@@ -4335,6 +4728,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "a1",
           "package": "hts",
@@ -4347,6 +4741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "a2",
           "package": "hts",
@@ -4356,6 +4751,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "a2",
           "package": "hts",
@@ -4368,6 +4764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "a3",
           "package": "hts",
@@ -4377,6 +4774,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "a3",
           "package": "hts",
@@ -4389,6 +4787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "a4",
           "package": "hts",
@@ -4398,6 +4797,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "a4",
           "package": "hts",
@@ -4410,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "a5",
           "package": "hts",
@@ -4419,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "a5",
           "package": "hts",
@@ -4431,6 +4833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "a6",
           "package": "hts",
@@ -4440,6 +4843,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "a6",
           "package": "hts",
@@ -4452,6 +4856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "a7",
           "package": "hts",
@@ -4461,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "a7",
           "package": "hts",
@@ -4473,6 +4879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeh3",
           "package": "hts",
@@ -4482,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeh3",
           "package": "hts",
@@ -4494,6 +4902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeh4",
           "package": "hts",
@@ -4503,6 +4912,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeh4",
           "package": "hts",
@@ -4515,6 +4925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeh5",
           "package": "hts",
@@ -4524,6 +4935,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeh5",
           "package": "hts",
@@ -4536,6 +4948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeh6",
           "package": "hts",
@@ -4545,6 +4958,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeh6",
           "package": "hts",
@@ -4557,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes1",
           "package": "hts",
@@ -4566,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes1",
           "package": "hts",
@@ -4578,6 +4994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes2",
           "package": "hts",
@@ -4587,6 +5004,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes2",
           "package": "hts",
@@ -4599,6 +5017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes3",
           "package": "hts",
@@ -4608,6 +5027,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes3",
           "package": "hts",
@@ -4620,6 +5040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes4",
           "package": "hts",
@@ -4629,6 +5050,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes4",
           "package": "hts",
@@ -4641,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes5",
           "package": "hts",
@@ -4650,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes5",
           "package": "hts",
@@ -4662,6 +5086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes6",
           "package": "hts",
@@ -4671,6 +5096,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes6",
           "package": "hts",
@@ -4683,6 +5109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes7",
           "package": "hts",
@@ -4692,6 +5119,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aes7",
           "package": "hts",
@@ -4704,6 +5132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeseh3",
           "package": "hts",
@@ -4713,6 +5142,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeseh3",
           "package": "hts",
@@ -4725,6 +5155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeseh4",
           "package": "hts",
@@ -4734,6 +5165,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeseh4",
           "package": "hts",
@@ -4746,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeseh5",
           "package": "hts",
@@ -4755,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeseh5",
           "package": "hts",
@@ -4767,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeseh6",
           "package": "hts",
@@ -4776,6 +5211,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeseh6",
           "package": "hts",
@@ -4788,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeses4",
           "package": "hts",
@@ -4797,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeses4",
           "package": "hts",
@@ -4809,6 +5247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeses5",
           "package": "hts",
@@ -4818,6 +5257,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aeses5",
           "package": "hts",
@@ -4830,6 +5270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aih3",
           "package": "hts",
@@ -4839,6 +5280,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aih3",
           "package": "hts",
@@ -4851,6 +5293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aih4",
           "package": "hts",
@@ -4860,6 +5303,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aih4",
           "package": "hts",
@@ -4872,6 +5316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aih5",
           "package": "hts",
@@ -4881,6 +5326,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aih5",
           "package": "hts",
@@ -4893,6 +5339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aih6",
           "package": "hts",
@@ -4902,6 +5349,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aih6",
           "package": "hts",
@@ -4914,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais0",
           "package": "hts",
@@ -4923,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais0",
           "package": "hts",
@@ -4935,6 +5385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais1",
           "package": "hts",
@@ -4944,6 +5395,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais1",
           "package": "hts",
@@ -4956,6 +5408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais2",
           "package": "hts",
@@ -4965,6 +5418,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais2",
           "package": "hts",
@@ -4977,6 +5431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais3",
           "package": "hts",
@@ -4986,6 +5441,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais3",
           "package": "hts",
@@ -4998,6 +5454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais4",
           "package": "hts",
@@ -5007,6 +5464,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais4",
           "package": "hts",
@@ -5019,6 +5477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais5",
           "package": "hts",
@@ -5028,6 +5487,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais5",
           "package": "hts",
@@ -5040,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais6",
           "package": "hts",
@@ -5049,6 +5510,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais6",
           "package": "hts",
@@ -5061,6 +5523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais7",
           "package": "hts",
@@ -5070,6 +5533,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ais7",
           "package": "hts",
@@ -5082,6 +5546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisih3",
           "package": "hts",
@@ -5091,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisih3",
           "package": "hts",
@@ -5103,6 +5569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisih4",
           "package": "hts",
@@ -5112,6 +5579,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisih4",
           "package": "hts",
@@ -5124,6 +5592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisih5",
           "package": "hts",
@@ -5133,6 +5602,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisih5",
           "package": "hts",
@@ -5145,6 +5615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisih6",
           "package": "hts",
@@ -5154,6 +5625,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisih6",
           "package": "hts",
@@ -5166,6 +5638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisis2",
           "package": "hts",
@@ -5175,6 +5648,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisis2",
           "package": "hts",
@@ -5187,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisis3",
           "package": "hts",
@@ -5196,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisis3",
           "package": "hts",
@@ -5208,6 +5684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisis4",
           "package": "hts",
@@ -5217,6 +5694,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisis4",
           "package": "hts",
@@ -5229,6 +5707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisis5",
           "package": "hts",
@@ -5238,6 +5717,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "aisis5",
           "package": "hts",
@@ -5250,6 +5730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "b0",
           "package": "hts",
@@ -5259,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "b0",
           "package": "hts",
@@ -5271,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "b1",
           "package": "hts",
@@ -5280,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "b1",
           "package": "hts",
@@ -5292,6 +5776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "b2",
           "package": "hts",
@@ -5301,6 +5786,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "b2",
           "package": "hts",
@@ -5313,6 +5799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "b3",
           "package": "hts",
@@ -5322,6 +5809,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "b3",
           "package": "hts",
@@ -5334,6 +5822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "b4",
           "package": "hts",
@@ -5343,6 +5832,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "b4",
           "package": "hts",
@@ -5355,6 +5845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "b5",
           "package": "hts",
@@ -5364,6 +5855,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "b5",
           "package": "hts",
@@ -5376,6 +5868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "b6",
           "package": "hts",
@@ -5385,6 +5878,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "b6",
           "package": "hts",
@@ -5397,6 +5891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "b7",
           "package": "hts",
@@ -5406,6 +5901,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "b7",
           "package": "hts",
@@ -5418,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "beh3",
           "package": "hts",
@@ -5427,6 +5924,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "beh3",
           "package": "hts",
@@ -5439,6 +5937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "beh4",
           "package": "hts",
@@ -5448,6 +5947,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "beh4",
           "package": "hts",
@@ -5460,6 +5960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "beh5",
           "package": "hts",
@@ -5469,6 +5970,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "beh5",
           "package": "hts",
@@ -5481,6 +5983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "beh6",
           "package": "hts",
@@ -5490,6 +5993,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "beh6",
           "package": "hts",
@@ -5502,6 +6006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes0",
           "package": "hts",
@@ -5511,6 +6016,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes0",
           "package": "hts",
@@ -5523,6 +6029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes1",
           "package": "hts",
@@ -5532,6 +6039,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes1",
           "package": "hts",
@@ -5544,6 +6052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes2",
           "package": "hts",
@@ -5553,6 +6062,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes2",
           "package": "hts",
@@ -5565,6 +6075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes3",
           "package": "hts",
@@ -5574,6 +6085,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes3",
           "package": "hts",
@@ -5586,6 +6098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes4",
           "package": "hts",
@@ -5595,6 +6108,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes4",
           "package": "hts",
@@ -5607,6 +6121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes5",
           "package": "hts",
@@ -5616,6 +6131,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes5",
           "package": "hts",
@@ -5628,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes6",
           "package": "hts",
@@ -5637,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes6",
           "package": "hts",
@@ -5649,6 +6167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes7",
           "package": "hts",
@@ -5658,6 +6177,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bes7",
           "package": "hts",
@@ -5670,6 +6190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "beseh3",
           "package": "hts",
@@ -5679,6 +6200,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "beseh3",
           "package": "hts",
@@ -5691,6 +6213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "beseh4",
           "package": "hts",
@@ -5700,6 +6223,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "beseh4",
           "package": "hts",
@@ -5712,6 +6236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "beseh5",
           "package": "hts",
@@ -5721,6 +6246,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "beseh5",
           "package": "hts",
@@ -5733,6 +6259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "beseh6",
           "package": "hts",
@@ -5742,6 +6269,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "beseh6",
           "package": "hts",
@@ -5754,6 +6282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "beses4",
           "package": "hts",
@@ -5763,6 +6292,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "beses4",
           "package": "hts",
@@ -5775,6 +6305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "beses5",
           "package": "hts",
@@ -5784,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "beses5",
           "package": "hts",
@@ -5796,6 +6328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bih3",
           "package": "hts",
@@ -5805,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bih3",
           "package": "hts",
@@ -5817,6 +6351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bih4",
           "package": "hts",
@@ -5826,6 +6361,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bih4",
           "package": "hts",
@@ -5838,6 +6374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bih5",
           "package": "hts",
@@ -5847,6 +6384,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bih5",
           "package": "hts",
@@ -5859,6 +6397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bih6",
           "package": "hts",
@@ -5868,6 +6407,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bih6",
           "package": "hts",
@@ -5880,6 +6420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis0",
           "package": "hts",
@@ -5889,6 +6430,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis0",
           "package": "hts",
@@ -5901,6 +6443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis1",
           "package": "hts",
@@ -5910,6 +6453,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis1",
           "package": "hts",
@@ -5922,6 +6466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis2",
           "package": "hts",
@@ -5931,6 +6476,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis2",
           "package": "hts",
@@ -5943,6 +6489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis3",
           "package": "hts",
@@ -5952,6 +6499,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis3",
           "package": "hts",
@@ -5964,6 +6512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis4",
           "package": "hts",
@@ -5973,6 +6522,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis4",
           "package": "hts",
@@ -5985,6 +6535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis5",
           "package": "hts",
@@ -5994,6 +6545,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis5",
           "package": "hts",
@@ -6006,6 +6558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis6",
           "package": "hts",
@@ -6015,6 +6568,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis6",
           "package": "hts",
@@ -6027,6 +6581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis7",
           "package": "hts",
@@ -6036,6 +6591,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bis7",
           "package": "hts",
@@ -6048,6 +6604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisih3",
           "package": "hts",
@@ -6057,6 +6614,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisih3",
           "package": "hts",
@@ -6069,6 +6627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisih4",
           "package": "hts",
@@ -6078,6 +6637,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisih4",
           "package": "hts",
@@ -6090,6 +6650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisih5",
           "package": "hts",
@@ -6099,6 +6660,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisih5",
           "package": "hts",
@@ -6111,6 +6673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisih6",
           "package": "hts",
@@ -6120,6 +6683,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisih6",
           "package": "hts",
@@ -6132,6 +6696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisis2",
           "package": "hts",
@@ -6141,6 +6706,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisis2",
           "package": "hts",
@@ -6153,6 +6719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisis3",
           "package": "hts",
@@ -6162,6 +6729,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisis3",
           "package": "hts",
@@ -6174,6 +6742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisis4",
           "package": "hts",
@@ -6183,6 +6752,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisis4",
           "package": "hts",
@@ -6195,6 +6765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisis5",
           "package": "hts",
@@ -6204,6 +6775,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "bisis5",
           "package": "hts",
@@ -6216,6 +6788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "c1",
           "package": "hts",
@@ -6225,6 +6798,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "c1",
           "package": "hts",
@@ -6237,6 +6811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "c2",
           "package": "hts",
@@ -6246,6 +6821,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "c2",
           "package": "hts",
@@ -6258,6 +6834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "c3",
           "package": "hts",
@@ -6267,6 +6844,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "c3",
           "package": "hts",
@@ -6279,6 +6857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "c4",
           "package": "hts",
@@ -6288,6 +6867,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "c4",
           "package": "hts",
@@ -6300,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "c5",
           "package": "hts",
@@ -6309,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "c5",
           "package": "hts",
@@ -6321,6 +6903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "c6",
           "package": "hts",
@@ -6330,6 +6913,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "c6",
           "package": "hts",
@@ -6342,6 +6926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "c7",
           "package": "hts",
@@ -6351,6 +6936,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "c7",
           "package": "hts",
@@ -6363,6 +6949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "c8",
           "package": "hts",
@@ -6372,6 +6959,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "c8",
           "package": "hts",
@@ -6384,6 +6972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceh3",
           "package": "hts",
@@ -6393,6 +6982,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceh3",
           "package": "hts",
@@ -6405,6 +6995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceh4",
           "package": "hts",
@@ -6414,6 +7005,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceh4",
           "package": "hts",
@@ -6426,6 +7018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceh5",
           "package": "hts",
@@ -6435,6 +7028,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceh5",
           "package": "hts",
@@ -6447,6 +7041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceh6",
           "package": "hts",
@@ -6456,6 +7051,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceh6",
           "package": "hts",
@@ -6468,6 +7064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces1",
           "package": "hts",
@@ -6477,6 +7074,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces1",
           "package": "hts",
@@ -6489,6 +7087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces2",
           "package": "hts",
@@ -6498,6 +7097,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces2",
           "package": "hts",
@@ -6510,6 +7110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces3",
           "package": "hts",
@@ -6519,6 +7120,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces3",
           "package": "hts",
@@ -6531,6 +7133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces4",
           "package": "hts",
@@ -6540,6 +7143,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces4",
           "package": "hts",
@@ -6552,6 +7156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces5",
           "package": "hts",
@@ -6561,6 +7166,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces5",
           "package": "hts",
@@ -6573,6 +7179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces6",
           "package": "hts",
@@ -6582,6 +7189,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces6",
           "package": "hts",
@@ -6594,6 +7202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces7",
           "package": "hts",
@@ -6603,6 +7212,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ces7",
           "package": "hts",
@@ -6615,6 +7225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceseh3",
           "package": "hts",
@@ -6624,6 +7235,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceseh3",
           "package": "hts",
@@ -6636,6 +7248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceseh4",
           "package": "hts",
@@ -6645,6 +7258,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceseh4",
           "package": "hts",
@@ -6657,6 +7271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceseh5",
           "package": "hts",
@@ -6666,6 +7281,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceseh5",
           "package": "hts",
@@ -6678,6 +7294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceseh6",
           "package": "hts",
@@ -6687,6 +7304,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceseh6",
           "package": "hts",
@@ -6699,6 +7317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceses4",
           "package": "hts",
@@ -6708,6 +7327,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceses4",
           "package": "hts",
@@ -6720,6 +7340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceses5",
           "package": "hts",
@@ -6729,6 +7350,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ceses5",
           "package": "hts",
@@ -6741,6 +7363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cih3",
           "package": "hts",
@@ -6750,6 +7373,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cih3",
           "package": "hts",
@@ -6762,6 +7386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cih4",
           "package": "hts",
@@ -6771,6 +7396,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cih4",
           "package": "hts",
@@ -6783,6 +7409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cih5",
           "package": "hts",
@@ -6792,6 +7419,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cih5",
           "package": "hts",
@@ -6804,6 +7432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cih6",
           "package": "hts",
@@ -6813,6 +7442,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cih6",
           "package": "hts",
@@ -6825,6 +7455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis1",
           "package": "hts",
@@ -6834,6 +7465,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis1",
           "package": "hts",
@@ -6846,6 +7478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis2",
           "package": "hts",
@@ -6855,6 +7488,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis2",
           "package": "hts",
@@ -6867,6 +7501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis3",
           "package": "hts",
@@ -6876,6 +7511,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis3",
           "package": "hts",
@@ -6888,6 +7524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis4",
           "package": "hts",
@@ -6897,6 +7534,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis4",
           "package": "hts",
@@ -6909,6 +7547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis5",
           "package": "hts",
@@ -6918,6 +7557,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis5",
           "package": "hts",
@@ -6930,6 +7570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis6",
           "package": "hts",
@@ -6939,6 +7580,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis6",
           "package": "hts",
@@ -6951,6 +7593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis7",
           "package": "hts",
@@ -6960,6 +7603,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis7",
           "package": "hts",
@@ -6972,6 +7616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis8",
           "package": "hts",
@@ -6981,6 +7626,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cis8",
           "package": "hts",
@@ -6993,6 +7639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisih3",
           "package": "hts",
@@ -7002,6 +7649,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisih3",
           "package": "hts",
@@ -7014,6 +7662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisih4",
           "package": "hts",
@@ -7023,6 +7672,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisih4",
           "package": "hts",
@@ -7035,6 +7685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisih5",
           "package": "hts",
@@ -7044,6 +7695,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisih5",
           "package": "hts",
@@ -7056,6 +7708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisih6",
           "package": "hts",
@@ -7065,6 +7718,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisih6",
           "package": "hts",
@@ -7077,6 +7731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisis2",
           "package": "hts",
@@ -7086,6 +7741,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisis2",
           "package": "hts",
@@ -7098,6 +7754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisis3",
           "package": "hts",
@@ -7107,6 +7764,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisis3",
           "package": "hts",
@@ -7119,6 +7777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisis4",
           "package": "hts",
@@ -7128,6 +7787,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisis4",
           "package": "hts",
@@ -7140,6 +7800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisis5",
           "package": "hts",
@@ -7149,6 +7810,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "cisis5",
           "package": "hts",
@@ -7161,6 +7823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "d1",
           "package": "hts",
@@ -7170,6 +7833,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "d1",
           "package": "hts",
@@ -7182,6 +7846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "d2",
           "package": "hts",
@@ -7191,6 +7856,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "d2",
           "package": "hts",
@@ -7203,6 +7869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "d3",
           "package": "hts",
@@ -7212,6 +7879,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "d3",
           "package": "hts",
@@ -7224,6 +7892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "d4",
           "package": "hts",
@@ -7233,6 +7902,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "d4",
           "package": "hts",
@@ -7245,6 +7915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "d5",
           "package": "hts",
@@ -7254,6 +7925,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "d5",
           "package": "hts",
@@ -7266,6 +7938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "d6",
           "package": "hts",
@@ -7275,6 +7948,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "d6",
           "package": "hts",
@@ -7287,6 +7961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "d7",
           "package": "hts",
@@ -7296,6 +7971,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "d7",
           "package": "hts",
@@ -7308,6 +7984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "d8",
           "package": "hts",
@@ -7317,6 +7994,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "d8",
           "package": "hts",
@@ -7329,6 +8007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "deh3",
           "package": "hts",
@@ -7338,6 +8017,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "deh3",
           "package": "hts",
@@ -7350,6 +8030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "deh4",
           "package": "hts",
@@ -7359,6 +8040,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "deh4",
           "package": "hts",
@@ -7371,6 +8053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "deh5",
           "package": "hts",
@@ -7380,6 +8063,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "deh5",
           "package": "hts",
@@ -7392,6 +8076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "deh6",
           "package": "hts",
@@ -7401,6 +8086,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "deh6",
           "package": "hts",
@@ -7413,6 +8099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "des1",
           "package": "hts",
@@ -7422,6 +8109,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "des1",
           "package": "hts",
@@ -7434,6 +8122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "des2",
           "package": "hts",
@@ -7443,6 +8132,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "des2",
           "package": "hts",
@@ -7455,6 +8145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "des3",
           "package": "hts",
@@ -7464,6 +8155,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "des3",
           "package": "hts",
@@ -7476,6 +8168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "des4",
           "package": "hts",
@@ -7485,6 +8178,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "des4",
           "package": "hts",
@@ -7497,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "des5",
           "package": "hts",
@@ -7506,6 +8201,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "des5",
           "package": "hts",
@@ -7518,6 +8214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "des6",
           "package": "hts",
@@ -7527,6 +8224,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "des6",
           "package": "hts",
@@ -7539,6 +8237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "des7",
           "package": "hts",
@@ -7548,6 +8247,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "des7",
           "package": "hts",
@@ -7560,6 +8260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "deseh3",
           "package": "hts",
@@ -7569,6 +8270,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "deseh3",
           "package": "hts",
@@ -7581,6 +8283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "deseh4",
           "package": "hts",
@@ -7590,6 +8293,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "deseh4",
           "package": "hts",
@@ -7602,6 +8306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "deseh5",
           "package": "hts",
@@ -7611,6 +8316,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "deseh5",
           "package": "hts",
@@ -7623,6 +8329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "deseh6",
           "package": "hts",
@@ -7632,6 +8339,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "deseh6",
           "package": "hts",
@@ -7644,6 +8352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "deses4",
           "package": "hts",
@@ -7653,6 +8362,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "deses4",
           "package": "hts",
@@ -7665,6 +8375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "deses5",
           "package": "hts",
@@ -7674,6 +8385,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "deses5",
           "package": "hts",
@@ -7686,6 +8398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "dih3",
           "package": "hts",
@@ -7695,6 +8408,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "dih3",
           "package": "hts",
@@ -7707,6 +8421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "dih4",
           "package": "hts",
@@ -7716,6 +8431,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "dih4",
           "package": "hts",
@@ -7728,6 +8444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "dih5",
           "package": "hts",
@@ -7737,6 +8454,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "dih5",
           "package": "hts",
@@ -7749,6 +8467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "dih6",
           "package": "hts",
@@ -7758,6 +8477,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "dih6",
           "package": "hts",
@@ -7770,6 +8490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis1",
           "package": "hts",
@@ -7779,6 +8500,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis1",
           "package": "hts",
@@ -7791,6 +8513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis2",
           "package": "hts",
@@ -7800,6 +8523,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis2",
           "package": "hts",
@@ -7812,6 +8536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis3",
           "package": "hts",
@@ -7821,6 +8546,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis3",
           "package": "hts",
@@ -7833,6 +8559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis4",
           "package": "hts",
@@ -7842,6 +8569,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis4",
           "package": "hts",
@@ -7854,6 +8582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis5",
           "package": "hts",
@@ -7863,6 +8592,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis5",
           "package": "hts",
@@ -7875,6 +8605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis6",
           "package": "hts",
@@ -7884,6 +8615,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis6",
           "package": "hts",
@@ -7896,6 +8628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis7",
           "package": "hts",
@@ -7905,6 +8638,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "dis7",
           "package": "hts",
@@ -7917,6 +8651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "disih3",
           "package": "hts",
@@ -7926,6 +8661,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "disih3",
           "package": "hts",
@@ -7938,6 +8674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "disih4",
           "package": "hts",
@@ -7947,6 +8684,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "disih4",
           "package": "hts",
@@ -7959,6 +8697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "disih5",
           "package": "hts",
@@ -7968,6 +8707,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "disih5",
           "package": "hts",
@@ -7980,6 +8720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "disih6",
           "package": "hts",
@@ -7989,6 +8730,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "disih6",
           "package": "hts",
@@ -8001,6 +8743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "disis2",
           "package": "hts",
@@ -8010,6 +8753,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "disis2",
           "package": "hts",
@@ -8022,6 +8766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "disis3",
           "package": "hts",
@@ -8031,6 +8776,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "disis3",
           "package": "hts",
@@ -8043,6 +8789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "disis4",
           "package": "hts",
@@ -8052,6 +8799,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "disis4",
           "package": "hts",
@@ -8064,6 +8812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "disis5",
           "package": "hts",
@@ -8073,6 +8822,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "disis5",
           "package": "hts",
@@ -8085,6 +8835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "e1",
           "package": "hts",
@@ -8094,6 +8845,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "e1",
           "package": "hts",
@@ -8106,6 +8858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "e2",
           "package": "hts",
@@ -8115,6 +8868,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "e2",
           "package": "hts",
@@ -8127,6 +8881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "e3",
           "package": "hts",
@@ -8136,6 +8891,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "e3",
           "package": "hts",
@@ -8148,6 +8904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "e4",
           "package": "hts",
@@ -8157,6 +8914,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "e4",
           "package": "hts",
@@ -8169,6 +8927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "e5",
           "package": "hts",
@@ -8178,6 +8937,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "e5",
           "package": "hts",
@@ -8190,6 +8950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "e6",
           "package": "hts",
@@ -8199,6 +8960,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "e6",
           "package": "hts",
@@ -8211,6 +8973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "e7",
           "package": "hts",
@@ -8220,6 +8983,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "e7",
           "package": "hts",
@@ -8232,6 +8996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeh3",
           "package": "hts",
@@ -8241,6 +9006,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeh3",
           "package": "hts",
@@ -8253,6 +9019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeh4",
           "package": "hts",
@@ -8262,6 +9029,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeh4",
           "package": "hts",
@@ -8274,6 +9042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeh5",
           "package": "hts",
@@ -8283,6 +9052,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeh5",
           "package": "hts",
@@ -8295,6 +9065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeh6",
           "package": "hts",
@@ -8304,6 +9075,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeh6",
           "package": "hts",
@@ -8316,6 +9088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees1",
           "package": "hts",
@@ -8325,6 +9098,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees1",
           "package": "hts",
@@ -8337,6 +9111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees2",
           "package": "hts",
@@ -8346,6 +9121,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees2",
           "package": "hts",
@@ -8358,6 +9134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees3",
           "package": "hts",
@@ -8367,6 +9144,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees3",
           "package": "hts",
@@ -8379,6 +9157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees4",
           "package": "hts",
@@ -8388,6 +9167,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees4",
           "package": "hts",
@@ -8400,6 +9180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees5",
           "package": "hts",
@@ -8409,6 +9190,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees5",
           "package": "hts",
@@ -8421,6 +9203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees6",
           "package": "hts",
@@ -8430,6 +9213,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees6",
           "package": "hts",
@@ -8442,6 +9226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees7",
           "package": "hts",
@@ -8451,6 +9236,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ees7",
           "package": "hts",
@@ -8463,6 +9249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeseh3",
           "package": "hts",
@@ -8472,6 +9259,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeseh3",
           "package": "hts",
@@ -8484,6 +9272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeseh4",
           "package": "hts",
@@ -8493,6 +9282,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeseh4",
           "package": "hts",
@@ -8505,6 +9295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeseh5",
           "package": "hts",
@@ -8514,6 +9305,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeseh5",
           "package": "hts",
@@ -8526,6 +9318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeseh6",
           "package": "hts",
@@ -8535,6 +9328,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeseh6",
           "package": "hts",
@@ -8547,6 +9341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeses4",
           "package": "hts",
@@ -8556,6 +9351,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeses4",
           "package": "hts",
@@ -8568,6 +9364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeses5",
           "package": "hts",
@@ -8577,6 +9374,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eeses5",
           "package": "hts",
@@ -8589,6 +9387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eih3",
           "package": "hts",
@@ -8598,6 +9397,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eih3",
           "package": "hts",
@@ -8610,6 +9410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eih4",
           "package": "hts",
@@ -8619,6 +9420,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eih4",
           "package": "hts",
@@ -8631,6 +9433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eih5",
           "package": "hts",
@@ -8640,6 +9443,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eih5",
           "package": "hts",
@@ -8652,6 +9456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eih6",
           "package": "hts",
@@ -8661,6 +9466,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eih6",
           "package": "hts",
@@ -8673,6 +9479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis1",
           "package": "hts",
@@ -8682,6 +9489,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis1",
           "package": "hts",
@@ -8694,6 +9502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis2",
           "package": "hts",
@@ -8703,6 +9512,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis2",
           "package": "hts",
@@ -8715,6 +9525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis3",
           "package": "hts",
@@ -8724,6 +9535,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis3",
           "package": "hts",
@@ -8736,6 +9548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis4",
           "package": "hts",
@@ -8745,6 +9558,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis4",
           "package": "hts",
@@ -8757,6 +9571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis5",
           "package": "hts",
@@ -8766,6 +9581,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis5",
           "package": "hts",
@@ -8778,6 +9594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis6",
           "package": "hts",
@@ -8787,6 +9604,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis6",
           "package": "hts",
@@ -8799,6 +9617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis7",
           "package": "hts",
@@ -8808,6 +9627,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eis7",
           "package": "hts",
@@ -8820,6 +9640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisih3",
           "package": "hts",
@@ -8829,6 +9650,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisih3",
           "package": "hts",
@@ -8841,6 +9663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisih4",
           "package": "hts",
@@ -8850,6 +9673,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisih4",
           "package": "hts",
@@ -8862,6 +9686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisih5",
           "package": "hts",
@@ -8871,6 +9696,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisih5",
           "package": "hts",
@@ -8883,6 +9709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisih6",
           "package": "hts",
@@ -8892,6 +9719,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisih6",
           "package": "hts",
@@ -8904,6 +9732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisis2",
           "package": "hts",
@@ -8913,6 +9742,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisis2",
           "package": "hts",
@@ -8925,6 +9755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisis3",
           "package": "hts",
@@ -8934,6 +9765,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisis3",
           "package": "hts",
@@ -8946,6 +9778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisis4",
           "package": "hts",
@@ -8955,6 +9788,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisis4",
           "package": "hts",
@@ -8967,6 +9801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisis5",
           "package": "hts",
@@ -8976,6 +9811,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "eisis5",
           "package": "hts",
@@ -8988,6 +9824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "f1",
           "package": "hts",
@@ -8997,6 +9834,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "f1",
           "package": "hts",
@@ -9009,6 +9847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "f2",
           "package": "hts",
@@ -9018,6 +9857,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "f2",
           "package": "hts",
@@ -9030,6 +9870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "f3",
           "package": "hts",
@@ -9039,6 +9880,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "f3",
           "package": "hts",
@@ -9051,6 +9893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "f4",
           "package": "hts",
@@ -9060,6 +9903,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "f4",
           "package": "hts",
@@ -9072,6 +9916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "f5",
           "package": "hts",
@@ -9081,6 +9926,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "f5",
           "package": "hts",
@@ -9093,6 +9939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "f6",
           "package": "hts",
@@ -9102,6 +9949,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "f6",
           "package": "hts",
@@ -9114,6 +9962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "f7",
           "package": "hts",
@@ -9123,6 +9972,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "f7",
           "package": "hts",
@@ -9135,6 +9985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "feh3",
           "package": "hts",
@@ -9144,6 +9995,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "feh3",
           "package": "hts",
@@ -9156,6 +10008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "feh4",
           "package": "hts",
@@ -9165,6 +10018,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "feh4",
           "package": "hts",
@@ -9177,6 +10031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "feh5",
           "package": "hts",
@@ -9186,6 +10041,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "feh5",
           "package": "hts",
@@ -9198,6 +10054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "feh6",
           "package": "hts",
@@ -9207,6 +10064,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "feh6",
           "package": "hts",
@@ -9219,6 +10077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes1",
           "package": "hts",
@@ -9228,6 +10087,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes1",
           "package": "hts",
@@ -9240,6 +10100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes2",
           "package": "hts",
@@ -9249,6 +10110,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes2",
           "package": "hts",
@@ -9261,6 +10123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes3",
           "package": "hts",
@@ -9270,6 +10133,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes3",
           "package": "hts",
@@ -9282,6 +10146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes4",
           "package": "hts",
@@ -9291,6 +10156,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes4",
           "package": "hts",
@@ -9303,6 +10169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes5",
           "package": "hts",
@@ -9312,6 +10179,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes5",
           "package": "hts",
@@ -9324,6 +10192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes6",
           "package": "hts",
@@ -9333,6 +10202,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes6",
           "package": "hts",
@@ -9345,6 +10215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes7",
           "package": "hts",
@@ -9354,6 +10225,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fes7",
           "package": "hts",
@@ -9366,6 +10238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "feseh3",
           "package": "hts",
@@ -9375,6 +10248,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "feseh3",
           "package": "hts",
@@ -9387,6 +10261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "feseh4",
           "package": "hts",
@@ -9396,6 +10271,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "feseh4",
           "package": "hts",
@@ -9408,6 +10284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "feseh5",
           "package": "hts",
@@ -9417,6 +10294,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "feseh5",
           "package": "hts",
@@ -9429,6 +10307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "feseh6",
           "package": "hts",
@@ -9438,6 +10317,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "feseh6",
           "package": "hts",
@@ -9450,6 +10330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "feses4",
           "package": "hts",
@@ -9459,6 +10340,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "feses4",
           "package": "hts",
@@ -9471,6 +10353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "feses5",
           "package": "hts",
@@ -9480,6 +10363,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "feses5",
           "package": "hts",
@@ -9492,6 +10376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fih3",
           "package": "hts",
@@ -9501,6 +10386,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fih3",
           "package": "hts",
@@ -9513,6 +10399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fih4",
           "package": "hts",
@@ -9522,6 +10409,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fih4",
           "package": "hts",
@@ -9534,6 +10422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fih5",
           "package": "hts",
@@ -9543,6 +10432,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fih5",
           "package": "hts",
@@ -9555,6 +10445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fih6",
           "package": "hts",
@@ -9564,6 +10455,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fih6",
           "package": "hts",
@@ -9576,6 +10468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis1",
           "package": "hts",
@@ -9585,6 +10478,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis1",
           "package": "hts",
@@ -9597,6 +10491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis2",
           "package": "hts",
@@ -9606,6 +10501,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis2",
           "package": "hts",
@@ -9618,6 +10514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis3",
           "package": "hts",
@@ -9627,6 +10524,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis3",
           "package": "hts",
@@ -9639,6 +10537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis4",
           "package": "hts",
@@ -9648,6 +10547,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis4",
           "package": "hts",
@@ -9660,6 +10560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis5",
           "package": "hts",
@@ -9669,6 +10570,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis5",
           "package": "hts",
@@ -9681,6 +10583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis6",
           "package": "hts",
@@ -9690,6 +10593,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis6",
           "package": "hts",
@@ -9702,6 +10606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis7",
           "package": "hts",
@@ -9711,6 +10616,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fis7",
           "package": "hts",
@@ -9723,6 +10629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisih3",
           "package": "hts",
@@ -9732,6 +10639,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisih3",
           "package": "hts",
@@ -9744,6 +10652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisih4",
           "package": "hts",
@@ -9753,6 +10662,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisih4",
           "package": "hts",
@@ -9765,6 +10675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisih5",
           "package": "hts",
@@ -9774,6 +10685,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisih5",
           "package": "hts",
@@ -9786,6 +10698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisih6",
           "package": "hts",
@@ -9795,6 +10708,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisih6",
           "package": "hts",
@@ -9807,6 +10721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisis2",
           "package": "hts",
@@ -9816,6 +10731,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisis2",
           "package": "hts",
@@ -9828,6 +10744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisis3",
           "package": "hts",
@@ -9837,6 +10754,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisis3",
           "package": "hts",
@@ -9849,6 +10767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisis4",
           "package": "hts",
@@ -9858,6 +10777,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisis4",
           "package": "hts",
@@ -9870,6 +10790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisis5",
           "package": "hts",
@@ -9879,6 +10800,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "fisis5",
           "package": "hts",
@@ -9891,6 +10813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "g1",
           "package": "hts",
@@ -9900,6 +10823,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "g1",
           "package": "hts",
@@ -9912,6 +10836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "g2",
           "package": "hts",
@@ -9921,6 +10846,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "g2",
           "package": "hts",
@@ -9933,6 +10859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "g3",
           "package": "hts",
@@ -9942,6 +10869,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "g3",
           "package": "hts",
@@ -9954,6 +10882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "g4",
           "package": "hts",
@@ -9963,6 +10892,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "g4",
           "package": "hts",
@@ -9975,6 +10905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "g5",
           "package": "hts",
@@ -9984,6 +10915,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "g5",
           "package": "hts",
@@ -9996,6 +10928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "g6",
           "package": "hts",
@@ -10005,6 +10938,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "g6",
           "package": "hts",
@@ -10017,6 +10951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "g7",
           "package": "hts",
@@ -10026,6 +10961,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "g7",
           "package": "hts",
@@ -10038,6 +10974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "geh3",
           "package": "hts",
@@ -10047,6 +10984,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "geh3",
           "package": "hts",
@@ -10059,6 +10997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "geh4",
           "package": "hts",
@@ -10068,6 +11007,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "geh4",
           "package": "hts",
@@ -10080,6 +11020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "geh5",
           "package": "hts",
@@ -10089,6 +11030,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "geh5",
           "package": "hts",
@@ -10101,6 +11043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "geh6",
           "package": "hts",
@@ -10110,6 +11053,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "geh6",
           "package": "hts",
@@ -10122,6 +11066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges1",
           "package": "hts",
@@ -10131,6 +11076,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges1",
           "package": "hts",
@@ -10143,6 +11089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges2",
           "package": "hts",
@@ -10152,6 +11099,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges2",
           "package": "hts",
@@ -10164,6 +11112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges3",
           "package": "hts",
@@ -10173,6 +11122,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges3",
           "package": "hts",
@@ -10185,6 +11135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges4",
           "package": "hts",
@@ -10194,6 +11145,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges4",
           "package": "hts",
@@ -10206,6 +11158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges5",
           "package": "hts",
@@ -10215,6 +11168,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges5",
           "package": "hts",
@@ -10227,6 +11181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges6",
           "package": "hts",
@@ -10236,6 +11191,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges6",
           "package": "hts",
@@ -10248,6 +11204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges7",
           "package": "hts",
@@ -10257,6 +11214,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "ges7",
           "package": "hts",
@@ -10269,6 +11227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "geseh3",
           "package": "hts",
@@ -10278,6 +11237,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "geseh3",
           "package": "hts",
@@ -10290,6 +11250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "geseh4",
           "package": "hts",
@@ -10299,6 +11260,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "geseh4",
           "package": "hts",
@@ -10311,6 +11273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "geseh5",
           "package": "hts",
@@ -10320,6 +11283,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "geseh5",
           "package": "hts",
@@ -10332,6 +11296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "geseh6",
           "package": "hts",
@@ -10341,6 +11306,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "geseh6",
           "package": "hts",
@@ -10353,6 +11319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "geses4",
           "package": "hts",
@@ -10362,6 +11329,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "geses4",
           "package": "hts",
@@ -10374,6 +11342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "geses5",
           "package": "hts",
@@ -10383,6 +11352,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "geses5",
           "package": "hts",
@@ -10395,6 +11365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gih3",
           "package": "hts",
@@ -10404,6 +11375,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gih3",
           "package": "hts",
@@ -10416,6 +11388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gih4",
           "package": "hts",
@@ -10425,6 +11398,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gih4",
           "package": "hts",
@@ -10437,6 +11411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gih5",
           "package": "hts",
@@ -10446,6 +11421,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gih5",
           "package": "hts",
@@ -10458,6 +11434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gih6",
           "package": "hts",
@@ -10467,6 +11444,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gih6",
           "package": "hts",
@@ -10479,6 +11457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis1",
           "package": "hts",
@@ -10488,6 +11467,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis1",
           "package": "hts",
@@ -10500,6 +11480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis2",
           "package": "hts",
@@ -10509,6 +11490,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis2",
           "package": "hts",
@@ -10521,6 +11503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis3",
           "package": "hts",
@@ -10530,6 +11513,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis3",
           "package": "hts",
@@ -10542,6 +11526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis4",
           "package": "hts",
@@ -10551,6 +11536,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis4",
           "package": "hts",
@@ -10563,6 +11549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis5",
           "package": "hts",
@@ -10572,6 +11559,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis5",
           "package": "hts",
@@ -10584,6 +11572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis6",
           "package": "hts",
@@ -10593,6 +11582,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis6",
           "package": "hts",
@@ -10605,6 +11595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis7",
           "package": "hts",
@@ -10614,6 +11605,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gis7",
           "package": "hts",
@@ -10626,6 +11618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisih3",
           "package": "hts",
@@ -10635,6 +11628,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisih3",
           "package": "hts",
@@ -10647,6 +11641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisih4",
           "package": "hts",
@@ -10656,6 +11651,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisih4",
           "package": "hts",
@@ -10668,6 +11664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisih5",
           "package": "hts",
@@ -10677,6 +11674,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisih5",
           "package": "hts",
@@ -10689,6 +11687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisih6",
           "package": "hts",
@@ -10698,6 +11697,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisih6",
           "package": "hts",
@@ -10710,6 +11710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisis2",
           "package": "hts",
@@ -10719,6 +11720,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisis2",
           "package": "hts",
@@ -10731,6 +11733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisis3",
           "package": "hts",
@@ -10740,6 +11743,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisis3",
           "package": "hts",
@@ -10752,6 +11756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisis4",
           "package": "hts",
@@ -10761,6 +11766,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisis4",
           "package": "hts",
@@ -10773,6 +11779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisis5",
           "package": "hts",
@@ -10782,6 +11789,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "gisis5",
           "package": "hts",
@@ -10794,6 +11802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Note.Name",
           "name": "pitch_to_note",
           "package": "hts",
@@ -10803,6 +11812,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Note Name",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Note.Name",
           "name": "pitch_to_note",
           "normalized": "Pitch-\u003eNote",
@@ -10817,6 +11827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "Binding",
           "package": "hts",
@@ -10825,6 +11836,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "Binding",
           "package": "hts",
@@ -10838,6 +11850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "ATTR",
           "package": "hts",
@@ -10846,6 +11859,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "ATTR",
           "package": "hts",
@@ -10859,6 +11873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "DocType",
           "package": "hts",
@@ -10867,6 +11882,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "DocType",
           "package": "hts",
@@ -10880,6 +11896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "ELEM",
           "package": "hts",
@@ -10888,6 +11905,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "ELEM",
           "package": "hts",
@@ -10901,6 +11919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "EMPTY_ELEM",
           "package": "hts",
@@ -10909,6 +11928,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "EMPTY_ELEM",
           "package": "hts",
@@ -10922,6 +11942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "NUMERICAL_ELEM",
           "package": "hts",
@@ -10930,6 +11951,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "NUMERICAL_ELEM",
           "package": "hts",
@@ -10943,6 +11965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "PCDATA_ELEM",
           "package": "hts",
@@ -10951,6 +11974,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "PCDATA_ELEM",
           "package": "hts",
@@ -10964,6 +11988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "accent",
           "package": "hts",
@@ -10973,6 +11998,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "accent",
           "package": "hts",
@@ -10985,6 +12011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "accidental",
           "package": "hts",
@@ -10994,6 +12021,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "accidental",
           "package": "hts",
@@ -11006,6 +12034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "actual_notes",
           "package": "hts",
@@ -11015,6 +12044,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "actual_notes",
           "package": "hts",
@@ -11027,6 +12057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "alter",
           "package": "hts",
@@ -11036,6 +12067,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "alter",
           "package": "hts",
@@ -11048,6 +12080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "arpeggiate",
           "package": "hts",
@@ -11057,6 +12090,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "arpeggiate",
           "package": "hts",
@@ -11069,6 +12103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "articulations",
           "package": "hts",
@@ -11078,6 +12113,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "articulations",
           "package": "hts",
@@ -11090,6 +12126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "artificial",
           "package": "hts",
@@ -11099,6 +12136,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "artificial",
           "package": "hts",
@@ -11111,6 +12149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "attributes",
           "package": "hts",
@@ -11120,6 +12159,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "attributes",
           "package": "hts",
@@ -11132,6 +12172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "backup",
           "package": "hts",
@@ -11141,6 +12182,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "backup",
           "package": "hts",
@@ -11153,6 +12195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "beam",
           "package": "hts",
@@ -11162,6 +12205,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "beam",
           "package": "hts",
@@ -11174,6 +12218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "beat_type",
           "package": "hts",
@@ -11183,6 +12228,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "beat_type",
           "package": "hts",
@@ -11195,6 +12241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "beat_unit",
           "package": "hts",
@@ -11204,6 +12251,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "beat_unit",
           "package": "hts",
@@ -11216,6 +12264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "beat_unit_dot",
           "package": "hts",
@@ -11225,6 +12274,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "beat_unit_dot",
           "package": "hts",
@@ -11237,6 +12287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "beats",
           "package": "hts",
@@ -11246,6 +12297,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "beats",
           "package": "hts",
@@ -11258,6 +12310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "bracket",
           "package": "hts",
@@ -11267,6 +12320,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "bracket",
           "package": "hts",
@@ -11280,6 +12334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdinary character data, subject to escaping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "cdata",
           "package": "hts",
@@ -11290,6 +12345,7 @@
         "index": {
           "description": "Ordinary character data subject to escaping",
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "cdata",
           "normalized": "String-\u003eContent",
@@ -11304,6 +12360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "chord",
           "package": "hts",
@@ -11313,6 +12370,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "chord",
           "package": "hts",
@@ -11325,6 +12383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "clef",
           "package": "hts",
@@ -11334,6 +12393,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "clef",
           "package": "hts",
@@ -11346,6 +12406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "clef_octave_change",
           "package": "hts",
@@ -11355,6 +12416,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "clef_octave_change",
           "package": "hts",
@@ -11367,6 +12429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "creator",
           "package": "hts",
@@ -11376,6 +12439,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "creator",
           "package": "hts",
@@ -11388,6 +12452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "credit",
           "package": "hts",
@@ -11397,6 +12462,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "credit",
           "package": "hts",
@@ -11409,6 +12475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "credit_words",
           "package": "hts",
@@ -11418,6 +12485,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "credit_words",
           "package": "hts",
@@ -11430,6 +12498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "cue",
           "package": "hts",
@@ -11439,6 +12508,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "cue",
           "package": "hts",
@@ -11451,6 +12521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "direction",
           "package": "hts",
@@ -11460,6 +12531,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "direction",
           "package": "hts",
@@ -11472,6 +12544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "direction_type",
           "package": "hts",
@@ -11481,6 +12554,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "direction_type",
           "package": "hts",
@@ -11493,6 +12567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "divisions",
           "package": "hts",
@@ -11502,6 +12577,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "divisions",
           "package": "hts",
@@ -11514,6 +12590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "dot",
           "package": "hts",
@@ -11523,6 +12600,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "dot",
           "package": "hts",
@@ -11535,6 +12613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "down_bow",
           "package": "hts",
@@ -11544,6 +12623,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "down_bow",
           "package": "hts",
@@ -11556,6 +12636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "duration",
           "package": "hts",
@@ -11565,6 +12646,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "duration",
           "package": "hts",
@@ -11577,6 +12659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "dynamics",
           "package": "hts",
@@ -11586,6 +12669,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "dynamics",
           "package": "hts",
@@ -11598,6 +12682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "dynamics'",
           "package": "hts",
@@ -11607,6 +12692,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "dynamics'",
           "package": "hts",
@@ -11619,6 +12705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "fermata",
           "package": "hts",
@@ -11628,6 +12715,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "fermata",
           "package": "hts",
@@ -11640,6 +12728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "fifths",
           "package": "hts",
@@ -11649,6 +12738,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "fifths",
           "package": "hts",
@@ -11661,6 +12751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "font_family",
           "package": "hts",
@@ -11670,6 +12761,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "font_family",
           "package": "hts",
@@ -11682,6 +12774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "font_size",
           "package": "hts",
@@ -11691,6 +12784,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "font_size",
           "package": "hts",
@@ -11703,6 +12797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "font_style",
           "package": "hts",
@@ -11712,6 +12807,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "font_style",
           "package": "hts",
@@ -11724,6 +12820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "font_weight",
           "package": "hts",
@@ -11733,6 +12830,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "font_weight",
           "package": "hts",
@@ -11745,6 +12843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "forward",
           "package": "hts",
@@ -11754,6 +12853,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "forward",
           "package": "hts",
@@ -11766,6 +12866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "glissando",
           "package": "hts",
@@ -11775,6 +12876,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "glissando",
           "package": "hts",
@@ -11787,6 +12889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "grace",
           "package": "hts",
@@ -11796,6 +12899,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "grace",
           "package": "hts",
@@ -11808,6 +12912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "group_abbreviation",
           "package": "hts",
@@ -11817,6 +12922,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "group_abbreviation",
           "package": "hts",
@@ -11829,6 +12935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "group_barline",
           "package": "hts",
@@ -11838,6 +12945,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "group_barline",
           "package": "hts",
@@ -11850,6 +12958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "group_name",
           "package": "hts",
@@ -11859,6 +12968,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "group_name",
           "package": "hts",
@@ -11871,6 +12981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "group_symbol",
           "package": "hts",
@@ -11880,6 +12991,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "group_symbol",
           "package": "hts",
@@ -11892,6 +13004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "harmonic",
           "package": "hts",
@@ -11901,6 +13014,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "harmonic",
           "package": "hts",
@@ -11913,6 +13027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "id_A",
           "package": "hts",
@@ -11922,6 +13037,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "id_A",
           "package": "hts",
@@ -11934,6 +13050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "identification",
           "package": "hts",
@@ -11943,6 +13060,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "identification",
           "package": "hts",
@@ -11955,6 +13073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "implicit",
           "package": "hts",
@@ -11964,6 +13083,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "implicit",
           "package": "hts",
@@ -11976,6 +13096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "instrument_name",
           "package": "hts",
@@ -11985,6 +13106,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "instrument_name",
           "package": "hts",
@@ -11997,6 +13119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "key",
           "package": "hts",
@@ -12006,6 +13129,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "key",
           "package": "hts",
@@ -12018,6 +13142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "line",
           "package": "hts",
@@ -12027,6 +13152,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "line",
           "package": "hts",
@@ -12039,6 +13165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "measure",
           "package": "hts",
@@ -12048,6 +13175,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "measure",
           "package": "hts",
@@ -12060,6 +13188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "metronome",
           "package": "hts",
@@ -12069,6 +13198,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "metronome",
           "package": "hts",
@@ -12081,6 +13211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_attr",
           "package": "hts",
@@ -12090,6 +13221,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_attr",
           "normalized": "String-\u003eATTR",
@@ -12104,6 +13236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_elem",
           "package": "hts",
@@ -12113,6 +13246,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_elem",
           "normalized": "String-\u003eELEM",
@@ -12127,6 +13261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_empty_elem",
           "package": "hts",
@@ -12136,6 +13271,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_empty_elem",
           "normalized": "String-\u003eEMPTY_ELEM",
@@ -12150,6 +13286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_empty_elem_no_attr",
           "package": "hts",
@@ -12159,6 +13296,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_empty_elem_no_attr",
           "normalized": "String-\u003eContent",
@@ -12173,6 +13311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_numerical_elem",
           "package": "hts",
@@ -12182,6 +13321,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_numerical_elem",
           "normalized": "String-\u003eNUMERICAL_ELEM",
@@ -12196,6 +13336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_pcdata_elem",
           "package": "hts",
@@ -12205,6 +13346,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mk_pcdata_elem",
           "normalized": "String-\u003ePCDATA_ELEM",
@@ -12219,6 +13361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mode",
           "package": "hts",
@@ -12228,6 +13371,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "mode",
           "package": "hts",
@@ -12240,6 +13384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "musicxml_partwise",
           "package": "hts",
@@ -12249,6 +13394,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "musicxml_partwise",
           "package": "hts",
@@ -12261,6 +13407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "musicxml_xml",
           "package": "hts",
@@ -12270,6 +13417,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "musicxml_xml",
           "package": "hts",
@@ -12282,6 +13430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "natural",
           "package": "hts",
@@ -12291,6 +13440,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "natural",
           "package": "hts",
@@ -12303,6 +13453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "normal_dot",
           "package": "hts",
@@ -12312,6 +13463,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "normal_dot",
           "package": "hts",
@@ -12324,6 +13476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "normal_notes",
           "package": "hts",
@@ -12333,6 +13486,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "normal_notes",
           "package": "hts",
@@ -12345,6 +13499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "normal_type",
           "package": "hts",
@@ -12354,6 +13509,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "normal_type",
           "package": "hts",
@@ -12366,6 +13522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "notations",
           "package": "hts",
@@ -12375,6 +13532,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "notations",
           "package": "hts",
@@ -12387,6 +13545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "note",
           "package": "hts",
@@ -12396,6 +13555,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "note",
           "package": "hts",
@@ -12408,6 +13568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "notehead",
           "package": "hts",
@@ -12417,6 +13578,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "notehead",
           "package": "hts",
@@ -12429,6 +13591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "number",
           "package": "hts",
@@ -12438,6 +13601,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "number",
           "package": "hts",
@@ -12450,6 +13614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "octave",
           "package": "hts",
@@ -12459,6 +13624,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "octave",
           "package": "hts",
@@ -12471,6 +13637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "offset",
           "package": "hts",
@@ -12480,6 +13647,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "offset",
           "package": "hts",
@@ -12492,6 +13660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "open_string",
           "package": "hts",
@@ -12501,6 +13670,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "open_string",
           "package": "hts",
@@ -12513,6 +13683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "ornaments",
           "package": "hts",
@@ -12522,6 +13693,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "ornaments",
           "package": "hts",
@@ -12534,6 +13706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "other_technical",
           "package": "hts",
@@ -12543,6 +13716,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "other_technical",
           "package": "hts",
@@ -12555,6 +13729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "part",
           "package": "hts",
@@ -12564,6 +13739,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "part",
           "package": "hts",
@@ -12576,6 +13752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "part_abbreviation",
           "package": "hts",
@@ -12585,6 +13762,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "part_abbreviation",
           "package": "hts",
@@ -12597,6 +13775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "part_group",
           "package": "hts",
@@ -12606,6 +13785,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "part_group",
           "package": "hts",
@@ -12618,6 +13798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "part_list",
           "package": "hts",
@@ -12627,6 +13808,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "part_list",
           "package": "hts",
@@ -12639,6 +13821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "part_name",
           "package": "hts",
@@ -12648,6 +13831,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "part_name",
           "package": "hts",
@@ -12660,6 +13844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "pedal",
           "package": "hts",
@@ -12669,6 +13854,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "pedal",
           "package": "hts",
@@ -12681,6 +13867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "per_minute",
           "package": "hts",
@@ -12690,6 +13877,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "per_minute",
           "package": "hts",
@@ -12702,6 +13890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "pitch",
           "package": "hts",
@@ -12711,6 +13900,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "pitch",
           "package": "hts",
@@ -12723,6 +13913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "placement",
           "package": "hts",
@@ -12732,6 +13923,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "placement",
           "package": "hts",
@@ -12744,6 +13936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "rest",
           "package": "hts",
@@ -12753,6 +13946,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "rest",
           "package": "hts",
@@ -12765,6 +13959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "rights",
           "package": "hts",
@@ -12774,6 +13969,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "rights",
           "package": "hts",
@@ -12786,6 +13982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "score_instrument",
           "package": "hts",
@@ -12795,6 +13992,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "score_instrument",
           "package": "hts",
@@ -12807,6 +14005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "score_part",
           "package": "hts",
@@ -12816,6 +14015,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "score_part",
           "package": "hts",
@@ -12828,6 +14028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "score_partwise",
           "package": "hts",
@@ -12837,6 +14038,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "score_partwise",
           "package": "hts",
@@ -12849,6 +14051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "show_number",
           "package": "hts",
@@ -12858,6 +14061,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "show_number",
           "package": "hts",
@@ -12870,6 +14074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "show_type",
           "package": "hts",
@@ -12879,6 +14084,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "show_type",
           "package": "hts",
@@ -12891,6 +14097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "sign",
           "package": "hts",
@@ -12900,6 +14107,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "sign",
           "package": "hts",
@@ -12912,6 +14120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "slash",
           "package": "hts",
@@ -12921,6 +14130,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "slash",
           "package": "hts",
@@ -12933,6 +14143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "slide",
           "package": "hts",
@@ -12942,6 +14153,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "slide",
           "package": "hts",
@@ -12954,6 +14166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "slur",
           "package": "hts",
@@ -12963,6 +14176,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "slur",
           "package": "hts",
@@ -12975,6 +14189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "snap_pizzicato",
           "package": "hts",
@@ -12984,6 +14199,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "snap_pizzicato",
           "package": "hts",
@@ -12996,6 +14212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "sound",
           "package": "hts",
@@ -13005,6 +14222,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "sound",
           "package": "hts",
@@ -13017,6 +14235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "spread",
           "package": "hts",
@@ -13026,6 +14245,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "spread",
           "package": "hts",
@@ -13038,6 +14258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "staff",
           "package": "hts",
@@ -13047,6 +14268,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "staff",
           "package": "hts",
@@ -13059,6 +14281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "staves",
           "package": "hts",
@@ -13068,6 +14291,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "staves",
           "package": "hts",
@@ -13080,6 +14304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "stem",
           "package": "hts",
@@ -13089,6 +14314,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "stem",
           "package": "hts",
@@ -13101,6 +14327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "step",
           "package": "hts",
@@ -13110,6 +14337,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "step",
           "package": "hts",
@@ -13122,6 +14350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "stopped",
           "package": "hts",
@@ -13131,6 +14360,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "stopped",
           "package": "hts",
@@ -13143,6 +14373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "technical",
           "package": "hts",
@@ -13152,6 +14383,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "technical",
           "package": "hts",
@@ -13164,6 +14396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tempo",
           "package": "hts",
@@ -13173,6 +14406,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tempo",
           "package": "hts",
@@ -13185,6 +14419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tie",
           "package": "hts",
@@ -13194,6 +14429,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tie",
           "package": "hts",
@@ -13206,6 +14442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tied",
           "package": "hts",
@@ -13215,6 +14452,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tied",
           "package": "hts",
@@ -13227,6 +14465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "time",
           "package": "hts",
@@ -13236,6 +14475,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "time",
           "package": "hts",
@@ -13248,6 +14488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "time_modification",
           "package": "hts",
@@ -13257,6 +14498,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "time_modification",
           "package": "hts",
@@ -13269,6 +14511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tremolo",
           "package": "hts",
@@ -13278,6 +14521,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tremolo",
           "package": "hts",
@@ -13290,6 +14534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet",
           "package": "hts",
@@ -13299,6 +14544,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet",
           "package": "hts",
@@ -13311,6 +14557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet_actual",
           "package": "hts",
@@ -13320,6 +14567,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet_actual",
           "package": "hts",
@@ -13332,6 +14580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet_dot",
           "package": "hts",
@@ -13341,6 +14590,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet_dot",
           "package": "hts",
@@ -13353,6 +14603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet_normal",
           "package": "hts",
@@ -13362,6 +14613,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet_normal",
           "package": "hts",
@@ -13374,6 +14626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet_number",
           "package": "hts",
@@ -13383,6 +14636,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet_number",
           "package": "hts",
@@ -13395,6 +14649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet_type",
           "package": "hts",
@@ -13404,6 +14659,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "tuplet_type",
           "package": "hts",
@@ -13416,6 +14672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "type_A",
           "package": "hts",
@@ -13425,6 +14682,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "type_A",
           "package": "hts",
@@ -13437,6 +14695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "type_E",
           "package": "hts",
@@ -13446,6 +14705,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "type_E",
           "package": "hts",
@@ -13458,6 +14718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "up_bow",
           "package": "hts",
@@ -13467,6 +14728,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "up_bow",
           "package": "hts",
@@ -13479,6 +14741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "voice",
           "package": "hts",
@@ -13488,6 +14751,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "voice",
           "package": "hts",
@@ -13500,6 +14764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "wedge",
           "package": "hts",
@@ -13509,6 +14774,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "wedge",
           "package": "hts",
@@ -13521,6 +14787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "words'",
           "package": "hts",
@@ -13530,6 +14797,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "words'",
           "package": "hts",
@@ -13542,6 +14810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "work",
           "package": "hts",
@@ -13551,6 +14820,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "work",
           "package": "hts",
@@ -13563,6 +14833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "work_number",
           "package": "hts",
@@ -13572,6 +14843,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "work_number",
           "package": "hts",
@@ -13584,6 +14856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "work_title",
           "package": "hts",
@@ -13593,6 +14866,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML Binding",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML.Binding",
           "name": "work_title",
           "package": "hts",
@@ -13605,6 +14879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "MusicXML",
           "package": "hts",
@@ -13613,6 +14888,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "MusicXML",
           "package": "hts",
@@ -13626,6 +14902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "c_hs_to_xml",
           "package": "hts",
@@ -13635,6 +14912,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "c_hs_to_xml",
           "normalized": "Char-\u003eChar",
@@ -13649,6 +14927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "c_underscore_to_hyphen",
           "package": "hts",
@@ -13658,6 +14937,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "c_underscore_to_hyphen",
           "normalized": "Char-\u003eChar",
@@ -13672,6 +14952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "duration_rq_to_dv",
           "package": "hts",
@@ -13681,6 +14962,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "duration_rq_to_dv",
           "normalized": "Rational-\u003eInteger",
@@ -13695,6 +14977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "dynamic_mark_to_sound_value",
           "package": "hts",
@@ -13704,6 +14987,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "dynamic_mark_to_sound_value",
           "normalized": "Dynamic_Mark_T-\u003eMaybe Double",
@@ -13718,6 +15002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "key_mode_t",
           "package": "hts",
@@ -13727,6 +15012,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "key_mode_t",
           "normalized": "Mode_T-\u003eString",
@@ -13741,6 +15027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "part_set_id",
           "package": "hts",
@@ -13750,6 +15037,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "part_set_id",
           "normalized": "(ID,Part)-\u003e(ID,Part)",
@@ -13764,6 +15052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "renderMusicXML",
           "package": "hts",
@@ -13773,6 +15062,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "renderMusicXML",
           "normalized": "[Content]-\u003eString",
@@ -13788,6 +15078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "score_partwise'",
           "package": "hts",
@@ -13797,6 +15088,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "score_partwise'",
           "normalized": "[Attr]-\u003e[Content]-\u003eElement",
@@ -13811,6 +15103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "score_set_ids",
           "package": "hts",
@@ -13820,6 +15113,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "score_set_ids",
           "normalized": "Score-\u003eScore",
@@ -13834,6 +15128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "set_divisions",
           "package": "hts",
@@ -13843,6 +15138,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "set_divisions",
           "normalized": "[Measure]-\u003e[Measure]",
@@ -13857,6 +15153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_accidental",
           "package": "hts",
@@ -13866,6 +15163,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_accidental",
           "normalized": "[N_Annotation]-\u003e[Content]",
@@ -13880,6 +15178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_alteration_t",
           "package": "hts",
@@ -13889,6 +15188,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_alteration_t",
           "normalized": "Alteration_T-\u003eString",
@@ -13903,6 +15203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_articulation",
           "package": "hts",
@@ -13912,6 +15213,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_articulation",
           "normalized": "N_Annotation-\u003eMaybe Content",
@@ -13926,6 +15228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_articulation_t",
           "package": "hts",
@@ -13935,6 +15238,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_articulation_t",
           "normalized": "Articulation_T-\u003eContent",
@@ -13949,6 +15253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_articulations",
           "package": "hts",
@@ -13958,6 +15263,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_articulations",
           "normalized": "[N_Annotation]-\u003eMaybe Content",
@@ -13972,6 +15278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_attribute",
           "package": "hts",
@@ -13981,6 +15288,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_attribute",
           "normalized": "M_Annotation-\u003eMaybe Content",
@@ -13995,6 +15303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_attributes",
           "package": "hts",
@@ -14004,6 +15313,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_attributes",
           "normalized": "[M_Annotation]-\u003eContent",
@@ -14018,6 +15328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_beam",
           "package": "hts",
@@ -14027,6 +15338,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_beam",
           "normalized": "[N_Annotation]-\u003e[Content]",
@@ -14041,6 +15353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_beam_t",
           "package": "hts",
@@ -14050,6 +15363,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_beam_t",
           "normalized": "Beam_T-\u003e[Content]",
@@ -14064,6 +15378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_clef",
           "package": "hts",
@@ -14073,6 +15388,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_clef",
           "normalized": "Clef Integer-\u003eInteger-\u003eContent",
@@ -14087,6 +15403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_clef_t",
           "package": "hts",
@@ -14096,6 +15413,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_clef_t",
           "normalized": "Clef_T-\u003e(String,Integer)",
@@ -14110,6 +15428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_direction",
           "package": "hts",
@@ -14119,6 +15438,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_direction",
           "normalized": "Direction_T-\u003eMaybe Content",
@@ -14133,6 +15453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_divisions",
           "package": "hts",
@@ -14142,6 +15463,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_divisions",
           "package": "hts",
@@ -14154,6 +15476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_duration",
           "package": "hts",
@@ -14163,6 +15486,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_duration",
           "normalized": "Duration-\u003e(Content,[Content],Maybe Content)",
@@ -14177,6 +15501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_dynamic_mark_t",
           "package": "hts",
@@ -14186,6 +15511,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_dynamic_mark_t",
           "normalized": "Dynamic_Mark_T-\u003eContent",
@@ -14200,6 +15526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_font_attr",
           "package": "hts",
@@ -14209,6 +15536,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_font_attr",
           "normalized": "Maybe Font_T-\u003e[Attr]",
@@ -14223,6 +15551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_font_style",
           "package": "hts",
@@ -14232,6 +15561,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_font_style",
           "normalized": "Font_Style_T-\u003eString",
@@ -14246,6 +15576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_font_weight",
           "package": "hts",
@@ -14255,6 +15586,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_font_weight",
           "normalized": "Font_Weight_T-\u003eString",
@@ -14269,6 +15601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_g_annotation",
           "package": "hts",
@@ -14278,6 +15611,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_g_annotation",
           "normalized": "G_Annotation-\u003e[Content]",
@@ -14292,6 +15626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_group_name",
           "package": "hts",
@@ -14301,6 +15636,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_group_name",
           "normalized": "Name-\u003e[Content]",
@@ -14315,6 +15651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_group_symbol_t",
           "package": "hts",
@@ -14324,6 +15661,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_group_symbol_t",
           "normalized": "Group_Symbol_T-\u003eContent",
@@ -14339,6 +15677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake header from tuple of \u003cem\u003etitle\u003c/em\u003e, \u003cem\u003enumber\u003c/em\u003e, \u003cem\u003ededication\u003c/em\u003e and\n \u003cem\u003ecomposer\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_header",
           "package": "hts",
@@ -14349,6 +15688,7 @@
         "index": {
           "description": "Make header from tuple of title number dedication and composer",
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_header",
           "normalized": "(String,String,String,String)-\u003e[Content]",
@@ -14363,6 +15703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_key",
           "package": "hts",
@@ -14372,6 +15713,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_key",
           "normalized": "(Note_T,Maybe Alteration_T,Mode_T)-\u003eContent",
@@ -14386,6 +15728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_m_direction",
           "package": "hts",
@@ -14395,6 +15738,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_m_direction",
           "normalized": "M_Annotation-\u003eMaybe Content",
@@ -14409,6 +15753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_measure",
           "package": "hts",
@@ -14418,6 +15763,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_measure",
           "normalized": "(Integer,Measure)-\u003eContent",
@@ -14432,6 +15778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_metronome",
           "package": "hts",
@@ -14441,6 +15788,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_metronome",
           "normalized": "Tempo_Marking-\u003eContent",
@@ -14455,6 +15803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_multiplier",
           "package": "hts",
@@ -14464,6 +15813,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_multiplier",
           "normalized": "Rational-\u003eContent",
@@ -14478,6 +15828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_n_direction",
           "package": "hts",
@@ -14487,6 +15838,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_n_direction",
           "normalized": "N_Annotation-\u003eMaybe Content",
@@ -14501,6 +15853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_notation",
           "package": "hts",
@@ -14510,6 +15863,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_notation",
           "normalized": "N_Annotation-\u003eMaybe Content",
@@ -14524,6 +15878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_notations",
           "package": "hts",
@@ -14533,6 +15888,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_notations",
           "normalized": "[N_Annotation]-\u003eMaybe Content",
@@ -14547,6 +15903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_note",
           "package": "hts",
@@ -14556,6 +15913,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_note",
           "normalized": "Note-\u003e[Content]",
@@ -14570,6 +15928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_note_elem",
           "package": "hts",
@@ -14579,6 +15938,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_note_elem",
           "normalized": "N_Annotation-\u003eMaybe Content",
@@ -14593,6 +15953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_notehead",
           "package": "hts",
@@ -14602,6 +15963,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_notehead",
           "normalized": "[N_Annotation]-\u003e[Content]",
@@ -14616,6 +15978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_notehead_t",
           "package": "hts",
@@ -14625,6 +15988,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_notehead_t",
           "normalized": "Notehead_T-\u003e[Content]",
@@ -14639,6 +16003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_ornament",
           "package": "hts",
@@ -14648,6 +16013,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_ornament",
           "normalized": "N_Annotation-\u003eMaybe Content",
@@ -14662,6 +16028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_ornament_t",
           "package": "hts",
@@ -14671,6 +16038,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_ornament_t",
           "normalized": "Ornament_T-\u003eContent",
@@ -14685,6 +16053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_ornaments",
           "package": "hts",
@@ -14694,6 +16063,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_ornaments",
           "normalized": "[N_Annotation]-\u003eMaybe Content",
@@ -14708,6 +16078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_p_annotation",
           "package": "hts",
@@ -14717,6 +16088,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_p_annotation",
           "normalized": "P_Annotation-\u003e[Content]",
@@ -14731,6 +16103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_part",
           "package": "hts",
@@ -14740,6 +16113,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_part",
           "normalized": "Part-\u003eContent",
@@ -14754,6 +16128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_part_group",
           "package": "hts",
@@ -14763,6 +16138,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_part_group",
           "normalized": "Part-\u003e[Content]",
@@ -14777,6 +16153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_part_list",
           "package": "hts",
@@ -14786,6 +16163,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_part_list",
           "normalized": "[Part]-\u003eContent",
@@ -14800,6 +16178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_part_name",
           "package": "hts",
@@ -14809,6 +16188,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_part_name",
           "normalized": "Name-\u003e[Content]",
@@ -14823,6 +16203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_pedal_type",
           "package": "hts",
@@ -14832,6 +16213,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_pedal_type",
           "normalized": "Pedal_T-\u003eAttr",
@@ -14846,6 +16228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_pitch",
           "package": "hts",
@@ -14855,6 +16238,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_pitch",
           "normalized": "Pitch-\u003eContent",
@@ -14869,6 +16253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_pitch_accidental",
           "package": "hts",
@@ -14878,6 +16263,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_pitch_accidental",
           "normalized": "Pitch-\u003eContent",
@@ -14892,6 +16278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_placement_t",
           "package": "hts",
@@ -14901,6 +16288,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_placement_t",
           "normalized": "Placement_T-\u003eAttr",
@@ -14915,6 +16303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_score",
           "package": "hts",
@@ -14924,6 +16313,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_score",
           "normalized": "Score-\u003e[Content]",
@@ -14938,6 +16328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_score_part",
           "package": "hts",
@@ -14947,6 +16338,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_score_part",
           "normalized": "Part-\u003eContent",
@@ -14961,6 +16353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_sound",
           "package": "hts",
@@ -14970,6 +16363,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_sound",
           "normalized": "Sound_T-\u003eContent",
@@ -14984,6 +16378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_staff",
           "package": "hts",
@@ -14993,6 +16388,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_staff",
           "normalized": "[N_Annotation]-\u003e[Content]",
@@ -15007,6 +16403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_technical",
           "package": "hts",
@@ -15016,6 +16413,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_technical",
           "normalized": "[N_Annotation]-\u003eMaybe Content",
@@ -15030,6 +16428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_technical_el",
           "package": "hts",
@@ -15039,6 +16438,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_technical_el",
           "normalized": "N_Annotation-\u003eMaybe Content",
@@ -15053,6 +16453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_time",
           "package": "hts",
@@ -15062,6 +16463,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_time",
           "normalized": "Time_Signature-\u003eContent",
@@ -15076,6 +16478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_tuplet_t",
           "package": "hts",
@@ -15085,6 +16488,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_tuplet_t",
           "normalized": "Maybe Tuplet_T-\u003e[Content]",
@@ -15099,6 +16503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_tuplet_t_elem",
           "package": "hts",
@@ -15108,6 +16513,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_tuplet_t_elem",
           "normalized": "(Integer,Duration)-\u003e[Content]",
@@ -15122,6 +16528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_voice",
           "package": "hts",
@@ -15131,6 +16538,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Output MusicXML",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Output.MusicXML",
           "name": "x_voice",
           "normalized": "[N_Annotation]-\u003e[Content]",
@@ -15145,6 +16553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Process",
           "name": "Process",
           "package": "hts",
@@ -15153,6 +16562,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Process",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Process",
           "name": "Process",
           "package": "hts",
@@ -15167,6 +16577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eM_Annotation\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eM_Clef\u003c/a\u003e\u003c/code\u003e set the staff number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Process",
           "name": "m_clef_set_staff",
           "package": "hts",
@@ -15177,6 +16588,7 @@
         "index": {
           "description": "If Annotation is Clef set the staff number",
           "hierarchy": "Music Typesetting Process",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Process",
           "name": "m_clef_set_staff",
           "normalized": "Integer-\u003eM_Annotation-\u003eMaybe M_Annotation",
@@ -15191,6 +16603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Process",
           "name": "m_delete_annotation",
           "package": "hts",
@@ -15200,6 +16613,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Process",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Process",
           "name": "m_delete_annotation",
           "normalized": "M_Annotation-\u003eMeasure-\u003eMeasure",
@@ -15214,6 +16628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Process",
           "name": "m_remove_duplicate_tempo_marking",
           "package": "hts",
@@ -15223,6 +16638,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Process",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Process",
           "name": "m_remove_duplicate_tempo_marking",
           "normalized": "[Measure]-\u003e[Measure]",
@@ -15237,6 +16653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Process",
           "name": "m_remove_duplicate_ts",
           "package": "hts",
@@ -15246,6 +16663,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Process",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Process",
           "name": "m_remove_duplicate_ts",
           "normalized": "[Measure]-\u003e[Measure]",
@@ -15261,6 +16679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e sequence adding \u003ccode\u003eD_End_Hairpin\u003c/code\u003e annotations as\n required, ie. where there is an open hairpin annotation and a\n \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e has a dyamic annotation without a close hairpin annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Process",
           "name": "n_add_end_hairpins",
           "package": "hts",
@@ -15271,6 +16690,7 @@
         "index": {
           "description": "Process Note sequence adding End Hairpin annotations as required ie where there is an open hairpin annotation and Note has dyamic annotation without close hairpin annotation",
           "hierarchy": "Music Typesetting Process",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Process",
           "name": "n_add_end_hairpins",
           "normalized": "[Note]-\u003e[Note]",
@@ -15286,6 +16706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete persistent annotations or like.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Process",
           "name": "prune",
           "package": "hts",
@@ -15296,6 +16717,7 @@
         "index": {
           "description": "Delete persistent annotations or like",
           "hierarchy": "Music Typesetting Process",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Process",
           "name": "prune",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e(b-\u003eMaybe a)-\u003e(a-\u003eb-\u003eb)-\u003e[b]-\u003e[b]",
@@ -15310,6 +16732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "Query",
           "package": "hts",
@@ -15318,6 +16741,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "Query",
           "package": "hts",
@@ -15331,6 +16755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "At_Tied",
           "package": "hts",
@@ -15339,6 +16764,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "At_Tied",
           "package": "hts",
@@ -15352,6 +16778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "SI_Map",
           "package": "hts",
@@ -15360,6 +16787,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "SI_Map",
           "package": "hts",
@@ -15373,6 +16801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "Tempo_Marking_Map",
           "package": "hts",
@@ -15381,6 +16810,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "Tempo_Marking_Map",
           "package": "hts",
@@ -15394,6 +16824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "Temporal_Map",
           "package": "hts",
@@ -15402,6 +16833,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "Temporal_Map",
           "package": "hts",
@@ -15415,6 +16847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "Time_Signature_Map",
           "package": "hts",
@@ -15423,6 +16856,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "Time_Signature_Map",
           "package": "hts",
@@ -15436,6 +16870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "At_Begin_Tied",
           "package": "hts",
@@ -15445,6 +16880,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "At_Begin_Tied",
           "package": "hts",
@@ -15458,6 +16894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "At_Either_Tied",
           "package": "hts",
@@ -15467,6 +16904,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "At_Either_Tied",
           "package": "hts",
@@ -15480,6 +16918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "At_End_Tied",
           "package": "hts",
@@ -15489,6 +16928,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "At_End_Tied",
           "package": "hts",
@@ -15503,6 +16943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edx -\u003e d\n\u003c/p\u003e\u003cpre\u003e integrate [1,3,6,10] == [1,4,10,20]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "integrate",
           "package": "hts",
@@ -15513,6 +16954,7 @@
         "index": {
           "description": "dx integrate",
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "integrate",
           "normalized": "[a]-\u003e[a]",
@@ -15528,6 +16970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003cem\u003ea\u003c/em\u003e for singleton list, else \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "list_to_maybe",
           "package": "hts",
@@ -15538,6 +16981,7 @@
         "index": {
           "description": "Just for singleton list else Nothing",
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "list_to_maybe",
           "normalized": "[a]-\u003eMaybe a",
@@ -15552,6 +16996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "locate_notes",
           "package": "hts",
@@ -15561,6 +17006,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "locate_notes",
           "normalized": "[[Measure]]-\u003e[(Rational,Note)]",
@@ -15575,6 +17021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "m_tempo_marking",
           "package": "hts",
@@ -15584,6 +17031,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "m_tempo_marking",
           "normalized": "Measure-\u003e[M_Annotation]",
@@ -15598,6 +17046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "m_tempo_marking'",
           "package": "hts",
@@ -15607,6 +17056,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "m_tempo_marking'",
           "normalized": "Measure-\u003eMaybe M_Annotation",
@@ -15621,6 +17071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "m_tempo_marking_t",
           "package": "hts",
@@ -15630,6 +17081,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "m_tempo_marking_t",
           "normalized": "Measure-\u003e[Tempo_Marking]",
@@ -15644,6 +17096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "m_time_signature",
           "package": "hts",
@@ -15653,6 +17106,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "m_time_signature",
           "normalized": "Measure-\u003e[M_Annotation]",
@@ -15667,6 +17121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "m_time_signature'",
           "package": "hts",
@@ -15676,6 +17131,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "m_time_signature'",
           "normalized": "Measure-\u003eMaybe M_Annotation",
@@ -15690,6 +17146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "m_time_signature_t",
           "package": "hts",
@@ -15699,6 +17156,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "m_time_signature_t",
           "normalized": "Measure-\u003e[Time_Signature]",
@@ -15713,6 +17171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "ma_tempo_marking_t",
           "package": "hts",
@@ -15722,6 +17181,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "ma_tempo_marking_t",
           "normalized": "M_Annotation-\u003eMaybe Tempo_Marking",
@@ -15736,6 +17196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "ma_time_signature_t",
           "package": "hts",
@@ -15745,6 +17206,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "ma_time_signature_t",
           "normalized": "M_Annotation-\u003eMaybe Time_Signature",
@@ -15759,6 +17221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "mm_tempo_marking_map",
           "package": "hts",
@@ -15768,6 +17231,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "mm_tempo_marking_map",
           "normalized": "[Measure]-\u003eTempo_Marking_Map",
@@ -15782,6 +17246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "mm_temporal_map",
           "package": "hts",
@@ -15791,6 +17256,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "mm_temporal_map",
           "normalized": "[Measure]-\u003eTemporal_Map",
@@ -15805,6 +17271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "mm_time_signature_map",
           "package": "hts",
@@ -15814,6 +17281,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "mm_time_signature_map",
           "normalized": "[Measure]-\u003eTime_Signature_Map",
@@ -15828,6 +17296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_duration_forward",
           "package": "hts",
@@ -15837,6 +17306,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_duration_forward",
           "normalized": "Note-\u003eMaybe Duration",
@@ -15851,6 +17321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_dynamic_mark",
           "package": "hts",
@@ -15860,6 +17331,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_dynamic_mark",
           "normalized": "Note-\u003eMaybe Dynamic_Mark_T",
@@ -15874,6 +17346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_has_annotation",
           "package": "hts",
@@ -15883,6 +17356,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_has_annotation",
           "normalized": "N_Annotation-\u003eNote-\u003eBool",
@@ -15897,6 +17371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_has_dynamic_mark",
           "package": "hts",
@@ -15906,6 +17381,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_has_dynamic_mark",
           "normalized": "Note-\u003eBool",
@@ -15920,6 +17396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_has_pitch",
           "package": "hts",
@@ -15929,6 +17406,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_has_pitch",
           "normalized": "Note-\u003eBool",
@@ -15943,6 +17421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_is_chord_elem",
           "package": "hts",
@@ -15952,6 +17431,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_is_chord_elem",
           "normalized": "Note-\u003eBool",
@@ -15966,6 +17446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_is_final_tie",
           "package": "hts",
@@ -15975,6 +17456,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_is_final_tie",
           "normalized": "Note-\u003eBool",
@@ -15989,6 +17471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_is_initial_tie",
           "package": "hts",
@@ -15998,6 +17481,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_is_initial_tie",
           "normalized": "Note-\u003eBool",
@@ -16012,6 +17496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_is_rest",
           "package": "hts",
@@ -16021,6 +17506,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_is_rest",
           "normalized": "Note-\u003eBool",
@@ -16035,6 +17521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_is_untied",
           "package": "hts",
@@ -16044,6 +17531,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_is_untied",
           "normalized": "Note-\u003eBool",
@@ -16058,6 +17546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_locate",
           "package": "hts",
@@ -16067,6 +17556,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_locate",
           "normalized": "(Rational,Rational,Tempo_Marking)-\u003e[Note]-\u003e[(Rational,Note)]",
@@ -16081,6 +17571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "n_pitch",
           "package": "hts",
@@ -16090,6 +17581,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "n_pitch",
           "normalized": "Note-\u003eMaybe Pitch",
@@ -16104,6 +17596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "na_annotated_tied_lr",
           "package": "hts",
@@ -16113,6 +17606,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "na_annotated_tied_lr",
           "normalized": "[N_Annotation]-\u003e(Bool,Bool)",
@@ -16127,6 +17621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "na_annotation_at_end_tied_only",
           "package": "hts",
@@ -16136,6 +17631,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "na_annotation_at_end_tied_only",
           "normalized": "N_Annotation-\u003eBool",
@@ -16150,6 +17646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "na_annotation_at_tied",
           "package": "hts",
@@ -16159,6 +17656,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "na_annotation_at_tied",
           "normalized": "N_Annotation-\u003eAt_Tied",
@@ -16173,6 +17671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "na_annotation_at_tied_either",
           "package": "hts",
@@ -16182,6 +17681,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "na_annotation_at_tied_either",
           "normalized": "N_Annotation-\u003eBool",
@@ -16196,6 +17696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "na_dynamic_mark",
           "package": "hts",
@@ -16205,6 +17706,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "na_dynamic_mark",
           "normalized": "N_Annotation-\u003eMaybe Dynamic_Mark_T",
@@ -16219,6 +17721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "na_is_begin_dynamic",
           "package": "hts",
@@ -16228,6 +17731,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "na_is_begin_dynamic",
           "normalized": "N_Annotation-\u003eBool",
@@ -16242,6 +17746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "na_is_begin_hairpin",
           "package": "hts",
@@ -16251,6 +17756,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "na_is_begin_hairpin",
           "normalized": "N_Annotation-\u003eBool",
@@ -16265,6 +17771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "na_is_dynamic_annotation",
           "package": "hts",
@@ -16274,6 +17781,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "na_is_dynamic_annotation",
           "normalized": "N_Annotation-\u003eBool",
@@ -16288,6 +17796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "na_is_dynamic_mark",
           "package": "hts",
@@ -16297,6 +17806,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "na_is_dynamic_mark",
           "normalized": "N_Annotation-\u003eBool",
@@ -16311,6 +17821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "na_pitch",
           "package": "hts",
@@ -16320,6 +17831,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "na_pitch",
           "normalized": "N_Annotation-\u003eMaybe Pitch",
@@ -16334,6 +17846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "si_map_to_sequence",
           "package": "hts",
@@ -16343,6 +17856,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "si_map_to_sequence",
           "normalized": "Integer-\u003ea-\u003eSI_Map a-\u003e[a]",
@@ -16357,6 +17871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:57 UTC 2014",
           "module": "Music.Typesetting.Query",
           "name": "temporal_map_locate",
           "package": "hts",
@@ -16366,6 +17881,7 @@
         },
         "index": {
           "hierarchy": "Music Typesetting Query",
+          "indexed": "2014-03-11T18:51:57",
           "module": "Music.Typesetting.Query",
           "name": "temporal_map_locate",
           "normalized": "Temporal_Map-\u003e[(Rational,Rational,Tempo_Marking)]",

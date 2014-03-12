@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "postgresql-copy-escape"
+        "phrase": "postgresql-copy-escape",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:23 UTC 2014",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "Escape",
           "package": "postgresql-copy-escape",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Copy Escape",
+          "indexed": "2014-03-11T19:42:23",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "Escape",
           "package": "postgresql-copy-escape",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:23 UTC 2014",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "EscapeCopyValue",
           "package": "postgresql-copy-escape",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Copy Escape",
+          "indexed": "2014-03-11T19:42:23",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "EscapeCopyValue",
           "package": "postgresql-copy-escape",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw binary data destined for storage in a \u003ccode\u003eBYTEA\u003c/code\u003e column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:23 UTC 2014",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "EscapeCopyBytea",
           "package": "postgresql-copy-escape",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Raw binary data destined for storage in BYTEA column",
           "hierarchy": "Database PostgreSQL Copy Escape",
+          "indexed": "2014-03-11T19:42:23",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "EscapeCopyBytea",
           "package": "postgresql-copy-escape",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:23 UTC 2014",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "EscapeCopyNull",
           "package": "postgresql-copy-escape",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Copy Escape",
+          "indexed": "2014-03-11T19:42:23",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "EscapeCopyNull",
           "package": "postgresql-copy-escape",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PostgreSQL datum in its text representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:23 UTC 2014",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "EscapeCopyText",
           "package": "postgresql-copy-escape",
@@ -117,6 +126,7 @@
         "index": {
           "description": "PostgreSQL datum in its text representation",
           "hierarchy": "Database PostgreSQL Copy Escape",
+          "indexed": "2014-03-11T19:42:23",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "EscapeCopyText",
           "package": "postgresql-copy-escape",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape a row of data for use with a COPY FROM statement.\n Include a trailing newline at the end.\n\u003c/p\u003e\u003cp\u003eThis assumes text format (rather than BINARY or CSV) with the default\n delimiter (tab) and default null string (\\N).  A suitable query looks like:\n\u003c/p\u003e\u003cpre\u003eCOPY tablename (id, col1, col2) FROM stdin;\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:23 UTC 2014",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "escapeCopyRow",
           "package": "postgresql-copy-escape",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Escape row of data for use with COPY FROM statement Include trailing newline at the end This assumes text format rather than BINARY or CSV with the default delimiter tab and default null string suitable query looks like COPY tablename id col1 col2 FROM stdin",
           "hierarchy": "Database PostgreSQL Copy Escape",
+          "indexed": "2014-03-11T19:42:23",
           "module": "Database.PostgreSQL.Copy.Escape",
           "name": "escapeCopyRow",
           "normalized": "[EscapeCopyValue]-\u003eByteString",

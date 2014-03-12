@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "classy-parallel"
+        "phrase": "classy-parallel",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines classes of monads that can perform multiple computations in parallel and, more importantly,\n combine the results of those parallel computations.\n\u003c/p\u003e\u003cp\u003eThere are two classes exported by this module, \u003ccode\u003e\u003ca\u003eParallel\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFork\u003c/a\u003e\u003c/code\u003e. The former is more generic, but the\n latter is easier to use: when invoking any expensive computation that could be performed in parallel, simply wrap the\n call in \u003ccode\u003e\u003ca\u003eforkExec\u003c/a\u003e\u003c/code\u003e. The function immediately returns a handle to the running computation. The handle can be used to\n obtain the result of the computation when needed:\n\u003c/p\u003e\u003cpre\u003e\n   do child \u003c- forkExec expensive\n      otherStuff\n      result \u003c- child\n\u003c/pre\u003e\u003cp\u003eIn this example, the computations \u003cem\u003eexpensive\u003c/em\u003e and \u003cem\u003eotherStuff\u003c/em\u003e would be performed in parallel. When using the\n \u003ccode\u003e\u003ca\u003eParallel\u003c/a\u003e\u003c/code\u003e class, both parallel computations must be specified at once:\n\u003c/p\u003e\u003cpre\u003e\n   bindM2 (\\ childResult otherResult -\u003e ...) expensive otherStuff\n\u003c/pre\u003e\u003cp\u003eIn either case, for best results the costs of the two computations should be roughly equal.\n\u003c/p\u003e\u003cp\u003eAny monad that is an instance of the \u003ccode\u003e\u003ca\u003eFork\u003c/a\u003e\u003c/code\u003e class can also be instance of the \u003ccode\u003e\u003ca\u003eParallel\u003c/a\u003e\u003c/code\u003e class\n by the following rule:\n\u003c/p\u003e\u003cpre\u003e bindM2 f ma mb = do {a' \u003c- forkExec ma; b \u003c- mb; a \u003c- a'; f a b}\u003c/pre\u003e\u003cp\u003eWhen operating with monads free of side-effects, such as \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eforkExec\u003c/a\u003e\u003c/code\u003e is equivalent to \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003ebindM2\u003c/a\u003e\u003c/code\u003e is equivalent to \u003ccode\u003e \\ f ma mb -\u003e do {a \u003c- ma; b \u003c- mb; f a b} \u003c/code\u003e &#8212; the only difference is in the\n resource utilisation. With the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad, on the other hand, there may be visible difference in the results because\n the side effects of \u003cem\u003ema\u003c/em\u003e and \u003cem\u003emb\u003c/em\u003e may be arbitrarily reordered.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "Parallel",
           "package": "classy-parallel",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines classes of monads that can perform multiple computations in parallel and more importantly combine the results of those parallel computations There are two classes exported by this module Parallel and Fork The former is more generic but the latter is easier to use when invoking any expensive computation that could be performed in parallel simply wrap the call in forkExec The function immediately returns handle to the running computation The handle can be used to obtain the result of the computation when needed do child forkExec expensive otherStuff result child In this example the computations expensive and otherStuff would be performed in parallel When using the Parallel class both parallel computations must be specified at once bindM2 childResult otherResult expensive otherStuff In either case for best results the costs of the two computations should be roughly equal Any monad that is an instance of the Fork class can also be instance of the Parallel class by the following rule bindM2 ma mb do forkExec ma mb When operating with monads free of side-effects such as Identity or Maybe forkExec is equivalent to return and bindM2 is equivalent to ma mb do ma mb the only difference is in the resource utilisation With the IO monad on the other hand there may be visible difference in the results because the side effects of ma and mb may be arbitrarily reordered",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "Parallel",
           "package": "classy-parallel",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of monads that can fork a parallel computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "Fork",
           "package": "classy-parallel",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Class of monads that can fork parallel computation",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "Fork",
           "package": "classy-parallel",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types that can perform two computations in parallel and bind their results together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "Parallel",
           "package": "classy-parallel",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Class of types that can perform two computations in parallel and bind their results together",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "Parallel",
           "package": "classy-parallel",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eap\u003c/a\u003e\u003c/code\u003e, but evaluating the function and its argument in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "ap",
           "package": "classy-parallel",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Like ap but evaluating the function and its argument in parallel",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "ap",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform two monadic computations in parallel; when they are both finished, pass the results to the function.\n Apart from the possible ordering of side effects, this function is equivalent to\n \u003ccode\u003e\\f ma mb-\u003e do {a \u003c- ma; b \u003c- mb; f a b}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "bindM2",
           "package": "classy-parallel",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Perform two monadic computations in parallel when they are both finished pass the results to the function Apart from the possible ordering of side effects this function is equivalent to ma mb do ma mb",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "bindM2",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec a-\u003ec b-\u003ec d",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform three monadic computations in parallel; when they are all finished, pass their results to the function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "bindM3",
           "package": "classy-parallel",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Perform three monadic computations in parallel when they are all finished pass their results to the function",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "bindM3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003ed a-\u003ed b-\u003ed c-\u003ed e",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon bind pattern for monad transformers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "bindTrans",
           "package": "classy-parallel",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Common bind pattern for monad transformers",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "bindTrans",
           "normalized": "(a-\u003eb-\u003ec d e)-\u003ec d a-\u003ec d b-\u003ec d e",
@@ -188,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "defaultBindM2",
           "package": "classy-parallel",
@@ -197,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "defaultBindM2",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec a-\u003ec b-\u003ec d",
@@ -212,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "defaultForkExec",
           "package": "classy-parallel",
@@ -221,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "defaultForkExec",
           "normalized": "a b-\u003ea(a b)",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork a child monadic computation to be performed in parallel with the current one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "forkExec",
           "package": "classy-parallel",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Fork child monadic computation to be performed in parallel with the current one",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "forkExec",
           "normalized": "a b-\u003ea(a b)",
@@ -262,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "forkTrans",
           "package": "classy-parallel",
@@ -271,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "forkTrans",
           "normalized": "a b c-\u003ea b(a b c)",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eliftM2\u003c/a\u003e\u003c/code\u003e, but evaluating its two monadic arguments in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "liftM2",
           "package": "classy-parallel",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Like liftM2 but evaluating its two monadic arguments in parallel",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "liftM2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -312,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eliftM3\u003c/a\u003e\u003c/code\u003e, but evaluating its three monadic arguments in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "liftM3",
           "package": "classy-parallel",
@@ -322,6 +347,7 @@
         "index": {
           "description": "Like liftM3 but evaluating its three monadic arguments in parallel",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "liftM3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e, but applying the function to the individual list items in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "mapM",
           "package": "classy-parallel",
@@ -347,6 +374,7 @@
         "index": {
           "description": "Like mapM but applying the function to the individual list items in parallel",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003e[a]-\u003eb[c]",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines \u003ccode\u003e\u003ca\u003ebindM2\u003c/a\u003e\u003c/code\u003e in terms of \u003ccode\u003e\u003ca\u003eforkExec\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "parallelIO",
           "package": "classy-parallel",
@@ -372,6 +401,7 @@
         "index": {
           "description": "Defines bindM2 in terms of forkExec",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "parallelIO",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec a-\u003ec b-\u003ec d",
@@ -388,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ereplicateM\u003c/a\u003e\u003c/code\u003e, but executing the action multiple times in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "replicateM",
           "package": "classy-parallel",
@@ -398,6 +429,7 @@
         "index": {
           "description": "Like replicateM but executing the action multiple times in parallel",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "replicateM",
           "normalized": "Int-\u003ea b-\u003ea[b]",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ereplicateM_\u003c/a\u003e\u003c/code\u003e, but executing the action multiple times in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "replicateM_",
           "package": "classy-parallel",
@@ -423,6 +456,7 @@
         "index": {
           "description": "Like replicateM but executing the action multiple times in parallel",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "replicateM_",
           "normalized": "Int-\u003ea b-\u003ea()",
@@ -438,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esequence\u003c/a\u003e\u003c/code\u003e, but executing the actions in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "sequence",
           "package": "classy-parallel",
@@ -448,6 +483,7 @@
         "index": {
           "description": "Like sequence but executing the actions in parallel",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "sequence",
           "normalized": "[a b]-\u003ea[b]",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esequence_\u003c/a\u003e\u003c/code\u003e, but executing the actions in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:28 UTC 2014",
           "module": "Control.Monad.Parallel",
           "name": "sequence_",
           "package": "classy-parallel",
@@ -473,6 +510,7 @@
         "index": {
           "description": "Like sequence but executing the actions in parallel",
           "hierarchy": "Control Monad Parallel",
+          "indexed": "2014-03-11T17:33:28",
           "module": "Control.Monad.Parallel",
           "name": "sequence_",
           "normalized": "[a b]-\u003ea()",

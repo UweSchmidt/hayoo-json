@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cblrepo"
+        "phrase": "cblrepo",
+        "type": "phrase"
       },
       "type": "context"
     }

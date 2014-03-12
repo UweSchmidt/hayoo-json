@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sde-solver"
+        "phrase": "sde-solver",
+        "type": "phrase"
       },
       "type": "context"
     }

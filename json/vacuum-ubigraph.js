@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vacuum-ubigraph"
+        "phrase": "vacuum-ubigraph",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInteractively visualize Haskell heap values using Ubigraph\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "Ubigraph",
           "package": "vacuum-ubigraph",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Interactively visualize Haskell heap values using Ubigraph",
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "Ubigraph",
           "package": "vacuum-ubigraph",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "Options",
           "package": "vacuum-ubigraph",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "Options",
           "package": "vacuum-ubigraph",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "Options",
           "package": "vacuum-ubigraph",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "Options",
           "package": "vacuum-ubigraph",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edefaultServer\u003c/a\u003e\u003c/code\u003e is an URL of the Ubigraph RPC server invoked by the \u003ccode\u003e\u003ca\u003eview\u003c/a\u003e\u003c/code\u003e function, \n its value is \u003ca\u003ehttp://127.0.0.1:20738/RPC2\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ecustomView\u003c/a\u003e\u003c/code\u003e renders value with custom settings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "customView",
           "package": "vacuum-ubigraph",
@@ -95,6 +102,7 @@
         "index": {
           "description": "defaultServer is an URL of the Ubigraph RPC server invoked by the view function its value is http RPC2 customView renders value with custom settings",
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "customView",
           "normalized": "Options-\u003eString-\u003ea-\u003eIO()",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "defaultEdgeStyle",
           "package": "vacuum-ubigraph",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "defaultEdgeStyle",
           "normalized": "Maybe HNode-\u003eMaybe HNode-\u003e[EAttr]",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "defaultExternNodeStyle",
           "package": "vacuum-ubigraph",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "defaultExternNodeStyle",
           "normalized": "[VAttr]",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "defaultNodeStyle",
           "package": "vacuum-ubigraph",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "defaultNodeStyle",
           "normalized": "HNode-\u003e[VAttr]",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "defaultOptions",
           "package": "vacuum-ubigraph",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "defaultOptions",
           "package": "vacuum-ubigraph",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "defaultServer",
           "package": "vacuum-ubigraph",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "defaultServer",
           "normalized": "[Char]",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "edgeStyle",
           "package": "vacuum-ubigraph",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "edgeStyle",
           "normalized": "Maybe HNode-\u003eMaybe HNode-\u003e[EAttr]",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "externNodeStyle",
           "package": "vacuum-ubigraph",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "externNodeStyle",
           "normalized": "[VAttr]",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehubigraphView\u003c/a\u003e\u003c/code\u003e renders a value in the Hubigraph monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "hubigraphView",
           "package": "vacuum-ubigraph",
@@ -287,6 +310,7 @@
         "index": {
           "description": "hubigraphView renders value in the Hubigraph monad",
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "hubigraphView",
           "normalized": "a-\u003eOptions-\u003eHubigraph()",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "nodeStyle",
           "package": "vacuum-ubigraph",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "nodeStyle",
           "normalized": "HNode-\u003e[VAttr]",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eview\u003c/a\u003e\u003c/code\u003e renders value with default settings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:12 UTC 2014",
           "module": "System.Vacuum.Ubigraph",
           "name": "view",
           "package": "vacuum-ubigraph",
@@ -337,6 +364,7 @@
         "index": {
           "description": "view renders value with default settings",
           "hierarchy": "System Vacuum Ubigraph",
+          "indexed": "2014-03-11T20:33:12",
           "module": "System.Vacuum.Ubigraph",
           "name": "view",
           "normalized": "a-\u003eIO()",

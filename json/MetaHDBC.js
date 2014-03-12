@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MetaHDBC"
+        "phrase": "MetaHDBC",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.Connection",
           "name": "Connection",
           "package": "MetaHDBC",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC Connection",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.Connection",
           "name": "Connection",
           "package": "MetaHDBC",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.Connection",
           "name": "CachingConnection",
           "package": "MetaHDBC",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC Connection",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.Connection",
           "name": "CachingConnection",
           "package": "MetaHDBC",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.Connection",
           "name": "CachingConnection",
           "package": "MetaHDBC",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC Connection",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.Connection",
           "name": "CachingConnection",
           "package": "MetaHDBC",
@@ -107,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.Connection",
           "name": "cachingPrepare",
           "package": "MetaHDBC",
@@ -116,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC Connection",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.Connection",
           "name": "cachingPrepare",
           "normalized": "CachingConnection-\u003eString-\u003eIO Statement",
@@ -131,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.Connection",
           "name": "hdbcConnection",
           "package": "MetaHDBC",
@@ -140,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC Connection",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.Connection",
           "name": "hdbcConnection",
           "package": "MetaHDBC",
@@ -153,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.Connection",
           "name": "statementMap",
           "package": "MetaHDBC",
@@ -162,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC Connection",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.Connection",
           "name": "statementMap",
           "package": "MetaHDBC",
@@ -175,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.OdbcInferTypes",
           "name": "OdbcInferTypes",
           "package": "MetaHDBC",
@@ -183,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC OdbcInferTypes",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.OdbcInferTypes",
           "name": "OdbcInferTypes",
           "package": "MetaHDBC",
@@ -197,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsks a ODBC database to infer selected types and placeholder types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.OdbcInferTypes",
           "name": "dbInferTypes",
           "package": "MetaHDBC",
@@ -206,6 +221,7 @@
         "index": {
           "description": "Asks ODBC database to infer selected types and placeholder types",
           "hierarchy": "Database MetaHDBC OdbcInferTypes",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.OdbcInferTypes",
           "name": "dbInferTypes",
           "normalized": "String-\u003eString-\u003eIO([SqlColDesc],[SqlColDesc])",
@@ -221,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.OdbcInferTypes",
           "name": "strictList",
           "package": "MetaHDBC",
@@ -230,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC OdbcInferTypes",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.OdbcInferTypes",
           "name": "strictList",
           "normalized": "[a]-\u003eIO[a]",
@@ -245,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SimpleSqlParser",
           "name": "SimpleSqlParser",
           "package": "MetaHDBC",
@@ -253,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SimpleSqlParser",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SimpleSqlParser",
           "name": "SimpleSqlParser",
           "package": "MetaHDBC",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an extended SQL string. The extionsion is that we allow\n variable-ids after placeholders (question marks). We return the\n list of identifiers and the SQL string without the variable-ids. If\n no variable-id is found after a placeholder, the empty string is\n returned as variable-id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SimpleSqlParser",
           "name": "simpleSqlParser",
           "package": "MetaHDBC",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Parses an extended SQL string The extionsion is that we allow variable-ids after placeholders question marks We return the list of identifiers and the SQL string without the variable-ids If no variable-id is found after placeholder the empty string is returned as variable-id",
           "hierarchy": "Database MetaHDBC SimpleSqlParser",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SimpleSqlParser",
           "name": "simpleSqlParser",
           "normalized": "String-\u003e([String],String)",
@@ -292,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "SqlExpr",
           "package": "MetaHDBC",
@@ -300,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "SqlExpr",
           "package": "MetaHDBC",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon parts for both statements run directly (runStmt) and\n prepared statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "ExprParts",
           "package": "MetaHDBC",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Common parts for both statements run directly runStmt and prepared statements",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "ExprParts",
           "package": "MetaHDBC",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribing a positional parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "Parameter",
           "package": "MetaHDBC",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Describing positional parameter",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "Parameter",
           "package": "MetaHDBC",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParts used in prepared statements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "PrepareParts",
           "package": "MetaHDBC",
@@ -369,6 +398,7 @@
         "index": {
           "description": "Parts used in prepared statements",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "PrepareParts",
           "package": "MetaHDBC",
@@ -382,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "ExprParts",
           "package": "MetaHDBC",
@@ -391,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "ExprParts",
           "package": "MetaHDBC",
@@ -404,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "Parameter",
           "package": "MetaHDBC",
@@ -413,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "Parameter",
           "package": "MetaHDBC",
@@ -426,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "PrepareParts",
           "package": "MetaHDBC",
@@ -435,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "PrepareParts",
           "package": "MetaHDBC",
@@ -449,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the \u003ccode\u003eConnection\u003c/code\u003e parameter. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "connectionName",
           "package": "MetaHDBC",
@@ -459,6 +496,7 @@
         "index": {
           "description": "Name of the Connection parameter",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "connectionName",
           "package": "MetaHDBC",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SQL expression which is passed on to the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "dbSqlExpr",
           "package": "MetaHDBC",
@@ -483,6 +522,7 @@
         "index": {
           "description": "The SQL expression which is passed on to the database",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "dbSqlExpr",
           "package": "MetaHDBC",
@@ -497,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA StmtQ to execute a statement on a database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "execPrepStmtRHS",
           "package": "MetaHDBC",
@@ -507,6 +548,7 @@
         "index": {
           "description": "StmtQ to execute statement on database",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "execPrepStmtRHS",
           "normalized": "PrepareParts-\u003eStmtQ",
@@ -522,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "exprParts",
           "package": "MetaHDBC",
@@ -531,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "exprParts",
           "package": "MetaHDBC",
@@ -544,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "isBound",
           "package": "MetaHDBC",
@@ -553,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "isBound",
           "package": "MetaHDBC",
@@ -567,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContructs expression-parts. A database is contacting to parse the\n SQL and infer correct types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "makeExprParts",
           "package": "MetaHDBC",
@@ -577,6 +624,7 @@
         "index": {
           "description": "Contructs expression-parts database is contacting to parse the SQL and infer correct types",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "makeExprParts",
           "normalized": "String-\u003eString-\u003eQ ExprParts",
@@ -593,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates parts for a prepared statement. Calls \u003ccode\u003e\u003ca\u003emakeExprParts\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "makePrepStmtParts",
           "package": "MetaHDBC",
@@ -603,6 +652,7 @@
         "index": {
           "description": "Creates parts for prepared statement Calls makeExprParts",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "makePrepStmtParts",
           "normalized": "String-\u003eString-\u003eQ PrepareParts",
@@ -619,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositional parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "parameters",
           "package": "MetaHDBC",
@@ -629,6 +680,7 @@
         "index": {
           "description": "Positional parameters",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "parameters",
           "normalized": "[Parameter]",
@@ -643,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "parmName",
           "package": "MetaHDBC",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "parmName",
           "package": "MetaHDBC",
@@ -666,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLambda for prepared statements. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "prepStmtLHS",
           "package": "MetaHDBC",
@@ -676,6 +731,7 @@
         "index": {
           "description": "Lambda for prepared statements",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "prepStmtLHS",
           "normalized": "PrepareParts-\u003e[StmtQ]-\u003eExpQ",
@@ -692,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA StmtQ which prepares a statement on a database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "prepStmtQ",
           "package": "MetaHDBC",
@@ -702,6 +759,7 @@
         "index": {
           "description": "StmtQ which prepares statement on database",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "prepStmtQ",
           "normalized": "PrepareParts-\u003eStmtQ",
@@ -718,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatically typed prepared SQL statement. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "prepareStmt",
           "package": "MetaHDBC",
@@ -727,6 +786,7 @@
         "index": {
           "description": "Statically typed prepared SQL statement",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "prepareStmt",
           "normalized": "String-\u003eString-\u003eExpQ",
@@ -742,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "rethrowDoing",
           "package": "MetaHDBC",
@@ -751,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "rethrowDoing",
           "normalized": "IO a-\u003eString-\u003eIO a",
@@ -767,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a StmtQ of type: IO (a1-an -\u003e IO ... ). Where a1-an are\n the parameters which must be bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "returnExecPrepStmtLHS",
           "package": "MetaHDBC",
@@ -777,6 +840,7 @@
         "index": {
           "description": "Creates StmtQ of type IO a1-an IO Where a1-an are the parameters which must be bound",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "returnExecPrepStmtLHS",
           "normalized": "PrepareParts-\u003e[StmtQ]-\u003eStmtQ",
@@ -793,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of values returned from a SQL statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "returnTypes",
           "package": "MetaHDBC",
@@ -803,6 +868,7 @@
         "index": {
           "description": "Description of values returned from SQL statement",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "returnTypes",
           "normalized": "[SqlColDesc]",
@@ -819,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatically typed one-off (not prepared) SQL statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "runStmt",
           "package": "MetaHDBC",
@@ -828,6 +895,7 @@
         "index": {
           "description": "Statically typed one-off not prepared SQL statement",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "runStmt",
           "normalized": "String-\u003eString-\u003eExpQ",
@@ -844,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a lambda which given a connection and parameters will\n execute \u003ccode\u003eexpr\u003c/code\u003e. See \u003ccode\u003e\u003ca\u003erunStmtRHS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "runStmtLHS",
           "package": "MetaHDBC",
@@ -853,6 +922,7 @@
         "index": {
           "description": "Constructs lambda which given connection and parameters will execute expr See runStmtRHS",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "runStmtLHS",
           "normalized": "ExprParts-\u003eExpQ-\u003eExpQ",
@@ -869,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an exprresion which runs a SQL statement on a database\n server.  It is expected that the connection variable and parameters\n has already been bound. See also \u003ccode\u003e\u003ca\u003erunStmtLHS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "runStmtRHS",
           "package": "MetaHDBC",
@@ -879,6 +950,7 @@
         "index": {
           "description": "Creates an exprresion which runs SQL statement on database server It is expected that the connection variable and parameters has already been bound See also runStmtLHS",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "runStmtRHS",
           "normalized": "ExprParts-\u003eExpQ",
@@ -895,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns textual information about a query. The returned \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n is useful as presentation to a user, not for further processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "sqlInfo",
           "package": "MetaHDBC",
@@ -905,6 +978,7 @@
         "index": {
           "description": "Returns textual information about query The returned String is useful as presentation to user not for further processing",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "sqlInfo",
           "normalized": "String-\u003eString-\u003eIO String",
@@ -920,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "stmtName",
           "package": "MetaHDBC",
@@ -929,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "stmtName",
           "package": "MetaHDBC",
@@ -943,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes the query result from prepareStmt or runStmt strict.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "strict",
           "package": "MetaHDBC",
@@ -953,6 +1030,7 @@
         "index": {
           "description": "Makes the query result from prepareStmt or runStmt strict",
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "strict",
           "normalized": "IO[a]-\u003eIO[a]",
@@ -967,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "typeID",
           "package": "MetaHDBC",
@@ -976,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SqlExpr",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlExpr",
           "name": "typeID",
           "package": "MetaHDBC",
@@ -989,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlTypeIdExpQ",
           "name": "SqlTypeIdExpQ",
           "package": "MetaHDBC",
@@ -997,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC SqlTypeIdExpQ",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlTypeIdExpQ",
           "name": "SqlTypeIdExpQ",
           "package": "MetaHDBC",
@@ -1011,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efromSqlTypeId\u003c/a\u003e\u003c/code\u003e but also considers if the SqlValue is nullable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlTypeIdExpQ",
           "name": "fromSqlColDesc",
           "package": "MetaHDBC",
@@ -1021,6 +1104,7 @@
         "index": {
           "description": "Like fromSqlTypeId but also considers if the SqlValue is nullable",
           "hierarchy": "Database MetaHDBC SqlTypeIdExpQ",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlTypeIdExpQ",
           "name": "fromSqlColDesc",
           "normalized": "SqlColDesc-\u003eExpQ",
@@ -1037,6 +1121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eSqlTypeId\u003c/a\u003e\u003c/code\u003e it returns a function f which transforms a\n SqlValue into another type. The return type of f is dependent upon\n the value of \u003ccode\u003e\u003ca\u003eSqlTypeId\u003c/a\u003e\u003c/code\u003e. The function f is encapsulated in an\n \u003ccode\u003e\u003ca\u003eExpQ\u003c/a\u003e\u003c/code\u003e. Also see \u003ccode\u003e\u003ca\u003etoSqlTypeId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlTypeIdExpQ",
           "name": "fromSqlTypeId",
           "package": "MetaHDBC",
@@ -1047,6 +1132,7 @@
         "index": {
           "description": "Given SqlTypeId it returns function which transforms SqlValue into another type The return type of is dependent upon the value of SqlTypeId The function is encapsulated in an ExpQ Also see toSqlTypeId",
           "hierarchy": "Database MetaHDBC SqlTypeIdExpQ",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlTypeIdExpQ",
           "name": "fromSqlTypeId",
           "normalized": "SqlTypeId-\u003eExpQ",
@@ -1063,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etoSqlTypeId\u003c/a\u003e\u003c/code\u003e but also considers if the SqlValue is nullable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlTypeIdExpQ",
           "name": "toSqlColDesc",
           "package": "MetaHDBC",
@@ -1073,6 +1160,7 @@
         "index": {
           "description": "Like toSqlTypeId but also considers if the SqlValue is nullable",
           "hierarchy": "Database MetaHDBC SqlTypeIdExpQ",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlTypeIdExpQ",
           "name": "toSqlColDesc",
           "normalized": "SqlColDesc-\u003eExpQ",
@@ -1089,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opposite of \u003ccode\u003e\u003ca\u003efromSqlTypeId\u003c/a\u003e\u003c/code\u003e in that it returns a function\n from a type to \u003ccode\u003e\u003ca\u003eSqlValue\u003c/a\u003e\u003c/code\u003e. Similarly the function is returned in a\n \u003ccode\u003e\u003ca\u003eExpQ\u003c/a\u003e\u003c/code\u003e. See \u003ccode\u003e\u003ca\u003efromSqlTypeId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC.SqlTypeIdExpQ",
           "name": "toSqlTypeId",
           "package": "MetaHDBC",
@@ -1099,6 +1188,7 @@
         "index": {
           "description": "The opposite of fromSqlTypeId in that it returns function from type to SqlValue Similarly the function is returned in ExpQ See fromSqlTypeId",
           "hierarchy": "Database MetaHDBC SqlTypeIdExpQ",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC.SqlTypeIdExpQ",
           "name": "toSqlTypeId",
           "normalized": "SqlTypeId-\u003eExpQ",
@@ -1115,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRe-exports MetaHDBC modules and a little part HDBC.ODBC.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC",
           "name": "MetaHDBC",
           "package": "MetaHDBC",
@@ -1124,6 +1215,7 @@
         "index": {
           "description": "Re-exports MetaHDBC modules and little part HDBC.ODBC",
           "hierarchy": "Database MetaHDBC",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC",
           "name": "MetaHDBC",
           "package": "MetaHDBC",
@@ -1137,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC",
           "name": "Connection",
           "package": "MetaHDBC",
@@ -1144,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Database MetaHDBC",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC",
           "name": "Connection",
           "package": "MetaHDBC",
@@ -1158,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit any pending data to the database.\n\u003c/p\u003e\u003cp\u003eRequired to make any changes take effect. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC",
           "name": "commit",
           "package": "MetaHDBC",
@@ -1167,6 +1262,7 @@
         "index": {
           "description": "Commit any pending data to the database Required to make any changes take effect",
           "hierarchy": "Database MetaHDBC",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC",
           "name": "commit",
           "normalized": "a-\u003eIO()",
@@ -1182,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to an ODBC server.\n\u003c/p\u003e\u003cp\u003eFor information on the meaning of the passed string, please see:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://msdn2.microsoft.com/en-us/library/ms715433(VS.85).aspx\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAn example string is:\n\u003c/p\u003e\u003cpre\u003e\"DSN=hdbctest1\"\n\u003c/pre\u003e\u003cp\u003eThis, and all other functions that use ODBC directly or indirectly, can raise\nSqlErrors just like other HDBC backends.  The seErrorMsg field is specified\nas a String in HDBC.  ODBC specifies this data as a list of strings.\nTherefore, this driver uses show on the data from ODBC.  For friendly display,\nor handling of individual component messages in your code, you can use \nread on the seErrorMsg field in a context that expects \u003ccode\u003e[String]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eImportant note for MySQL users:\n\u003c/p\u003e\u003cp\u003eUnless you are going to use InnoDB tables, you are strongly encouraged to set\n\u003c/p\u003e\u003cpre\u003eOption = 262144\n\u003c/pre\u003e\u003cp\u003ein your odbc.ini (for Unix users), or to disable transaction support in your\nDSN setup for Windows users.\n\u003c/p\u003e\u003cp\u003eIf you fail to do this, the MySQL ODBC driver will incorrectly state that it\nsupports transactions.  dbTransactionSupport will incorrectly return True.\ncommit and rollback will then silently fail.  This is certainly \u003cem\u003eNOT\u003c/em\u003e what you\nwant.  It is a bug (or misfeature) in the MySQL driver, not in HDBC.\n\u003c/p\u003e\u003cp\u003eYou should ignore this advice if you are using InnoDB tables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC",
           "name": "connectODBC",
           "package": "MetaHDBC",
@@ -1191,6 +1288,7 @@
         "index": {
           "description": "Connect to an ODBC server For information on the meaning of the passed string please see http msdn2.microsoft.com en-us library ms715433 VS.85 aspx An example string is DSN hdbctest1 This and all other functions that use ODBC directly or indirectly can raise SqlErrors just like other HDBC backends The seErrorMsg field is specified as String in HDBC ODBC specifies this data as list of strings Therefore this driver uses show on the data from ODBC For friendly display or handling of individual component messages in your code you can use read on the seErrorMsg field in context that expects String Important note for MySQL users Unless you are going to use InnoDB tables you are strongly encouraged to set Option in your odbc.ini for Unix users or to disable transaction support in your DSN setup for Windows users If you fail to do this the MySQL ODBC driver will incorrectly state that it supports transactions dbTransactionSupport will incorrectly return True commit and rollback will then silently fail This is certainly NOT what you want It is bug or misfeature in the MySQL driver not in HDBC You should ignore this advice if you are using InnoDB tables",
           "hierarchy": "Database MetaHDBC",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC",
           "name": "connectODBC",
           "normalized": "String-\u003eIO Connection",
@@ -1207,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisconnect from the remote database.\n\u003c/p\u003e\u003cp\u003eYou do not need to explicitly close an IConnection object, but you may do so if\nyou so desire.  If you don't, the object will disconnect from the database\nin a sane way when it is garbage-collected.  However, a disconnection may\nraise an error, so you are encouraged to explicitly call \u003ccode\u003e\u003ca\u003edisconnect\u003c/a\u003e\u003c/code\u003e.  Also,\ngarbage collection may not run when the program terminates, and some databases\nreally like an explicit disconnect.\n\u003c/p\u003e\u003cp\u003eSo, bottom line is, you're best off calling \u003ccode\u003e\u003ca\u003edisconnect\u003c/a\u003e\u003c/code\u003e directly, but the\nworld won't end if you forget.\n\u003c/p\u003e\u003cp\u003eThis function discards any data not committed already.  Database driver\nimplementators should explicitly call \u003ccode\u003e\u003ca\u003erollback\u003c/a\u003e\u003c/code\u003e if their databases don't\ndo this automatically on disconnect.\n\u003c/p\u003e\u003cp\u003eBad Things (TM) could happen if you call this while you have \u003ccode\u003e\u003ca\u003eStatement\u003c/a\u003e\u003c/code\u003es \nactive.  In more precise language, the results in such situations are undefined\nand vary by database.  So don't do it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC",
           "name": "disconnect",
           "package": "MetaHDBC",
@@ -1216,6 +1315,7 @@
         "index": {
           "description": "Disconnect from the remote database You do not need to explicitly close an IConnection object but you may do so if you so desire If you don the object will disconnect from the database in sane way when it is garbage-collected However disconnection may raise an error so you are encouraged to explicitly call disconnect Also garbage collection may not run when the program terminates and some databases really like an explicit disconnect So bottom line is you re best off calling disconnect directly but the world won end if you forget This function discards any data not committed already Database driver implementators should explicitly call rollback if their databases don do this automatically on disconnect Bad Things TM could happen if you call this while you have Statement active In more precise language the results in such situations are undefined and vary by database So don do it",
           "hierarchy": "Database MetaHDBC",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC",
           "name": "disconnect",
           "normalized": "a-\u003eIO()",
@@ -1231,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoll back to the state the database was in prior to the\n                   last \u003ccode\u003e\u003ca\u003ecommit\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erollback\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:40 UTC 2014",
           "module": "Database.MetaHDBC",
           "name": "rollback",
           "package": "MetaHDBC",
@@ -1240,6 +1341,7 @@
         "index": {
           "description": "Roll back to the state the database was in prior to the last commit or rollback",
           "hierarchy": "Database MetaHDBC",
+          "indexed": "2014-03-11T16:52:40",
           "module": "Database.MetaHDBC",
           "name": "rollback",
           "normalized": "a-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "distributed-process-p2p"
+        "phrase": "distributed-process-p2p",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePeer-to-peer node discovery backend for Cloud Haskell based on the TCP\n transport. Provided with a known node address it discovers and maintains\n the knowledge of it's peers.\n\u003c/p\u003e\u003cpre\u003e import qualified Control.Distributed.Backend.P2P as P2P\n import           Control.Monad.Trans (liftIO)\n import           Control.Concurrent (threadDelay)\n\n main = P2P.bootstrap \"myhostname\" \"9001\" [P2P.makeNodeId \"seedhost:9000\"] $ do\n     liftIO $ threadDelay 1000000 -- give dispatcher a second to discover other nodes\n     P2P.nsendPeers \"myService\" (\"some\", \"message\")\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:07 UTC 2014",
           "module": "Control.Distributed.Backend.P2P",
           "name": "P2P",
           "package": "distributed-process-p2p",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Peer-to-peer node discovery backend for Cloud Haskell based on the TCP transport Provided with known node address it discovers and maintains the knowledge of it peers import qualified Control.Distributed.Backend.P2P as P2P import Control.Monad.Trans liftIO import Control.Concurrent threadDelay main P2P.bootstrap myhostname P2P.makeNodeId seedhost do liftIO threadDelay give dispatcher second to discover other nodes P2P.nsendPeers myService some message",
           "hierarchy": "Control Distributed Backend P2P",
+          "indexed": "2014-03-11T17:57:07",
           "module": "Control.Distributed.Backend.P2P",
           "name": "P2P",
           "package": "distributed-process-p2p",
@@ -41,6 +43,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a controller service process and aquire connections to a swarm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:07 UTC 2014",
           "module": "Control.Distributed.Backend.P2P",
           "name": "bootstrap",
           "package": "distributed-process-p2p",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Start controller service process and aquire connections to swarm",
           "hierarchy": "Control Distributed Backend P2P",
+          "indexed": "2014-03-11T17:57:07",
           "module": "Control.Distributed.Backend.P2P",
           "name": "bootstrap",
           "normalized": "HostName-\u003eServiceName-\u003e[NodeId]-\u003eRemoteTable-\u003eProcess()-\u003eIO()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoll a network for a list of specific service providers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:07 UTC 2014",
           "module": "Control.Distributed.Backend.P2P",
           "name": "getCapable",
           "package": "distributed-process-p2p",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Poll network for list of specific service providers",
           "hierarchy": "Control Distributed Backend P2P",
+          "indexed": "2014-03-11T17:57:07",
           "module": "Control.Distributed.Backend.P2P",
           "name": "getCapable",
           "normalized": "String-\u003eProcess[ProcessId]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of currently available peer nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:07 UTC 2014",
           "module": "Control.Distributed.Backend.P2P",
           "name": "getPeers",
           "package": "distributed-process-p2p",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Get list of currently available peer nodes",
           "hierarchy": "Control Distributed Backend P2P",
+          "indexed": "2014-03-11T17:57:07",
           "module": "Control.Distributed.Backend.P2P",
           "name": "getPeers",
           "normalized": "Process[NodeId]",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a NodeId from \u003ca\u003ehost:port\u003c/a\u003e string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:07 UTC 2014",
           "module": "Control.Distributed.Backend.P2P",
           "name": "makeNodeId",
           "package": "distributed-process-p2p",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Make NodeId from host port string",
           "hierarchy": "Control Distributed Backend P2P",
+          "indexed": "2014-03-11T17:57:07",
           "module": "Control.Distributed.Backend.P2P",
           "name": "makeNodeId",
           "normalized": "String-\u003eNodeId",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBroadcast a message to a service of on nodes currently running it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:07 UTC 2014",
           "module": "Control.Distributed.Backend.P2P",
           "name": "nsendCapable",
           "package": "distributed-process-p2p",
@@ -154,6 +165,7 @@
         "index": {
           "description": "Broadcast message to service of on nodes currently running it",
           "hierarchy": "Control Distributed Backend P2P",
+          "indexed": "2014-03-11T17:57:07",
           "module": "Control.Distributed.Backend.P2P",
           "name": "nsendCapable",
           "normalized": "String-\u003ea-\u003eProcess()",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBroadcast a message to a specific service on all peers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:07 UTC 2014",
           "module": "Control.Distributed.Backend.P2P",
           "name": "nsendPeers",
           "package": "distributed-process-p2p",
@@ -180,6 +193,7 @@
         "index": {
           "description": "Broadcast message to specific service on all peers",
           "hierarchy": "Control Distributed Backend P2P",
+          "indexed": "2014-03-11T17:57:07",
           "module": "Control.Distributed.Backend.P2P",
           "name": "nsendPeers",
           "normalized": "String-\u003ea-\u003eProcess()",
@@ -196,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA P2P controller service process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:07 UTC 2014",
           "module": "Control.Distributed.Backend.P2P",
           "name": "peerController",
           "package": "distributed-process-p2p",
@@ -206,6 +221,7 @@
         "index": {
           "description": "P2P controller service process",
           "hierarchy": "Control Distributed Backend P2P",
+          "indexed": "2014-03-11T17:57:07",
           "module": "Control.Distributed.Backend.P2P",
           "name": "peerController",
           "normalized": "[NodeId]-\u003eProcess()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reified-records"
+        "phrase": "reified-records",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record.Reify",
           "name": "Reify",
           "package": "reified-records",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Record Reify",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record.Reify",
           "name": "Reify",
           "package": "reified-records",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflect a \u003ccode\u003eMap\u003c/code\u003e of strings to an arbitrary type. If the type is a record, each of\n its field names will be looked up in the record. If any of the types don't match\n or if \u003ccode\u003ea\u003c/code\u003e isn't a record, \u003ccode\u003eNothing\u003c/code\u003e will be returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record.Reify",
           "name": "reflect",
           "package": "reified-records",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Reflect Map of strings to an arbitrary type If the type is record each of its field names will be looked up in the record If any of the types don match or if isn record Nothing will be returned",
           "hierarchy": "Data Generics Record Reify",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record.Reify",
           "name": "reflect",
           "normalized": "Map String Dynamic-\u003eMaybe a",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReify a record to a \u003ccode\u003eMap\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record.Reify",
           "name": "reify",
           "package": "reified-records",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Reify record to Map",
           "hierarchy": "Data Generics Record Reify",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record.Reify",
           "name": "reify",
           "normalized": "RecordT a-\u003ea-\u003eMap String Dynamic",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003ea\u003c/code\u003e is a record, this will return a \u003ccode\u003eMap\u003c/code\u003e where the keys\n are the field names and the values are wrapped in \u003ccode\u003etoDyn\u003c/code\u003e. Otherwise\n \u003ccode\u003eNothing\u003c/code\u003e will be returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record.Reify",
           "name": "reifyMay",
           "package": "reified-records",
@@ -100,6 +107,7 @@
         "index": {
           "description": "If is record this will return Map where the keys are the field names and the values are wrapped in toDyn Otherwise Nothing will be returned",
           "hierarchy": "Data Generics Record Reify",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record.Reify",
           "name": "reifyMay",
           "normalized": "a-\u003eMaybe(Map String Dynamic)",
@@ -115,6 +123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record.Subtype",
           "name": "Subtype",
           "package": "reified-records",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Record Subtype",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record.Subtype",
           "name": "Subtype",
           "package": "reified-records",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA witness for a subtyping relation between two records so that \u003ccode\u003e a \u003c: b \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record.Subtype",
           "name": ":\u003c:",
           "package": "reified-records",
@@ -146,6 +157,7 @@
         "index": {
           "description": "witness for subtyping relation between two records so that",
           "hierarchy": "Data Generics Record Subtype",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record.Subtype",
           "name": ":\u003c:",
           "package": "reified-records",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a witness for a subtyping relation for \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e by traversing\n the fields of \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e and pairing each field of \u003ccode\u003ea\u003c/code\u003e with\n the first one of the same type in \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record.Subtype",
           "name": "genSubtype",
           "package": "reified-records",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Returns witness for subtyping relation for and by traversing the fields of and and pairing each field of with the first one of the same type in",
           "hierarchy": "Data Generics Record Subtype",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record.Subtype",
           "name": "genSubtype",
           "normalized": "RecordT a-\u003eRecordT b-\u003eMaybe(a b)",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if \u003ccode\u003e a \u003c: b \u003c/code\u003e according to the algorithm for \u003ccode\u003egenSubtype\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record.Subtype",
           "name": "isSubtype",
           "package": "reified-records",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Returns true if according to the algorithm for genSubtype",
           "hierarchy": "Data Generics Record Subtype",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record.Subtype",
           "name": "isSubtype",
           "normalized": "RecordT a-\u003eRecordT b-\u003eBool",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpcast a type according to a subtyping witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record.Subtype",
           "name": "upcast",
           "package": "reified-records",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Upcast type according to subtyping witness",
           "hierarchy": "Data Generics Record Subtype",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record.Subtype",
           "name": "upcast",
           "normalized": "(a b)-\u003ea-\u003eb",
@@ -235,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record",
           "name": "Record",
           "package": "reified-records",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Record",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record",
           "name": "Record",
           "package": "reified-records",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA phantom type used to parameterize functions based on records.\n This let's us avoid passing \u003ccode\u003eundefined\u003c/code\u003es or manually creating instances\n all the time. It can only be created for types which are records and\n is used as a token to most of the API's functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record",
           "name": "RecordT",
           "package": "reified-records",
@@ -266,6 +287,7 @@
         "index": {
           "description": "phantom type used to parameterize functions based on records This let us avoid passing undefined or manually creating instances all the time It can only be created for types which are records and is used as token to most of the API functions",
           "hierarchy": "Data Generics Record",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record",
           "name": "RecordT",
           "package": "reified-records",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a record where all fields are _|_\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record",
           "name": "emptyRecord",
           "package": "reified-records",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Return record where all fields are",
           "hierarchy": "Data Generics Record",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record",
           "name": "emptyRecord",
           "normalized": "RecordT a-\u003ea",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the fields for the record \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record",
           "name": "fields",
           "package": "reified-records",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Returns the fields for the record",
           "hierarchy": "Data Generics Record",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record",
           "name": "fields",
           "normalized": "RecordT a-\u003e[String]",
@@ -331,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e if \u003ccode\u003ea\u003c/code\u003e is a data type with a single constructor\n and is a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record",
           "name": "isRecord",
           "package": "reified-records",
@@ -341,6 +368,7 @@
         "index": {
           "description": "Returns True if is data type with single constructor and is record",
           "hierarchy": "Data Generics Record",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record",
           "name": "isRecord",
           "normalized": "a-\u003eBool",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a records structure of as a list of types paired with field names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record",
           "name": "recordStructure",
           "package": "reified-records",
@@ -367,6 +396,7 @@
         "index": {
           "description": "Return records structure of as list of types paired with field names",
           "hierarchy": "Data Generics Record",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record",
           "name": "recordStructure",
           "normalized": "RecordT a-\u003e[(TypeRep,String)]",
@@ -383,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe smart constructor for \u003ccode\u003eRecordT\u003c/code\u003es. This\n will return a \u003ccode\u003eRecordT\u003c/code\u003e if and only if the type is a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:26 UTC 2014",
           "module": "Data.Generics.Record",
           "name": "recordT",
           "package": "reified-records",
@@ -393,6 +424,7 @@
         "index": {
           "description": "The smart constructor for RecordT This will return RecordT if and only if the type is record",
           "hierarchy": "Data Generics Record",
+          "indexed": "2014-03-11T19:52:26",
           "module": "Data.Generics.Record",
           "name": "recordT",
           "package": "reified-records",

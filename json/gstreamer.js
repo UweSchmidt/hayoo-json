@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gstreamer"
+        "phrase": "gstreamer",
+        "type": "phrase"
       },
       "type": "context"
     }

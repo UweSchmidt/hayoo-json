@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hircules"
+        "phrase": "hircules",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scotty-tls"
+        "phrase": "scotty-tls",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:35 UTC 2014",
           "module": "Web.Scotty.TLS",
           "name": "TLS",
           "package": "scotty-tls",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty TLS",
+          "indexed": "2014-03-11T19:58:35",
           "module": "Web.Scotty.TLS",
           "name": "TLS",
           "package": "scotty-tls",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Scotty application over TLS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:35 UTC 2014",
           "module": "Web.Scotty.TLS",
           "name": "scottyTLS",
           "package": "scotty-tls",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Run Scotty application over TLS",
           "hierarchy": "Web Scotty TLS",
+          "indexed": "2014-03-11T19:58:35",
           "module": "Web.Scotty.TLS",
           "name": "scottyTLS",
           "normalized": "Port-\u003eFilePath-\u003eFilePath-\u003eScottyM()-\u003eIO()",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:35 UTC 2014",
           "module": "Web.Scotty.TLS",
           "name": "scottyTTLS",
           "package": "scotty-tls",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty TLS",
+          "indexed": "2014-03-11T19:58:35",
           "module": "Web.Scotty.TLS",
           "name": "scottyTTLS",
           "normalized": "Port-\u003eFilePath-\u003eFilePath-\u003e(a b c d-\u003ee d)-\u003e(c Response-\u003eIO Response)-\u003eScottyT c()-\u003ee()",

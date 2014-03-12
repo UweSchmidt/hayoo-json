@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pubsub"
+        "phrase": "pubsub",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTaking care of the details of creating & tearing down network connections,\n both client and server connections.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "Connection",
           "package": "pubsub",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Taking care of the details of creating tearing down network connections both client and server connections",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "Connection",
           "package": "pubsub",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "ClientOptions",
           "package": "pubsub",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "ClientOptions",
           "package": "pubsub",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "Connection",
           "package": "pubsub",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "Connection",
           "package": "pubsub",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "ConnectionOptions",
           "package": "pubsub",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "ConnectionOptions",
           "package": "pubsub",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "Server",
           "package": "pubsub",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "Server",
           "package": "pubsub",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "ServerOptions",
           "package": "pubsub",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "ServerOptions",
           "package": "pubsub",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "ClientOptions",
           "package": "pubsub",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "ClientOptions",
           "package": "pubsub",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "Connection",
           "package": "pubsub",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "Connection",
           "package": "pubsub",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "ConnectionOptions",
           "package": "pubsub",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "ConnectionOptions",
           "package": "pubsub",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "ServerOptions",
           "package": "pubsub",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "ServerOptions",
           "package": "pubsub",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "acceptConnection",
           "package": "pubsub",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "acceptConnection",
           "normalized": "Server-\u003eIO(Connection,SockAddr)",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "bufMode",
           "package": "pubsub",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "bufMode",
           "package": "pubsub",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "cliOpts",
           "package": "pubsub",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "cliOpts",
           "package": "pubsub",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "cliProto",
           "package": "pubsub",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "cliProto",
           "package": "pubsub",
@@ -325,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eclientConnection opts\u003c/code\u003e tries to open up a connection\n as requested by the \u003ccode\u003e\u003ca\u003eClientOptions\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eopts\u003c/code\u003e. If successful, returns\n a \u003ccode\u003eHandle\u003c/code\u003e and its underlying \u003ccode\u003eSocket\u003c/code\u003e. The latter is only meant\n to be used when doing orderly & draining shutdowns. All I/O is\n expected to happen over the \u003ccode\u003eHandle\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "clientConnection",
           "package": "pubsub",
@@ -335,6 +364,7 @@
         "index": {
           "description": "clientConnection opts tries to open up connection as requested by the ClientOptions opts If successful returns Handle and its underlying Socket The latter is only meant to be used when doing orderly draining shutdowns All is expected to happen over the Handle",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "clientConnection",
           "normalized": "ClientOptions-\u003eIO Connection",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "clientOpts",
           "package": "pubsub",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "clientOpts",
           "package": "pubsub",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "closeConnection",
           "package": "pubsub",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "closeConnection",
           "normalized": "Connection-\u003eIO()",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "closeSession",
           "package": "pubsub",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "closeSession",
           "normalized": "Connection-\u003eServer-\u003eIO()",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "coHandle",
           "package": "pubsub",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "coHandle",
           "package": "pubsub",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "coServer",
           "package": "pubsub",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "coServer",
           "package": "pubsub",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "coSocket",
           "package": "pubsub",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "coSocket",
           "package": "pubsub",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "connMode",
           "package": "pubsub",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "connMode",
           "package": "pubsub",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "defaultConnectionOptions",
           "package": "pubsub",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "defaultConnectionOptions",
           "package": "pubsub",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "host",
           "package": "pubsub",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "host",
           "package": "pubsub",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "ioMode",
           "package": "pubsub",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "ioMode",
           "package": "pubsub",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "localEnd",
           "package": "pubsub",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "localEnd",
           "package": "pubsub",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "newServer",
           "package": "pubsub",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "newServer",
           "normalized": "ServerOptions-\u003eIO Server",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "port",
           "package": "pubsub",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "port",
           "package": "pubsub",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "servInterface",
           "package": "pubsub",
@@ -649,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "servInterface",
           "package": "pubsub",
@@ -662,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "servOpts",
           "package": "pubsub",
@@ -671,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "servOpts",
           "package": "pubsub",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "servPort",
           "package": "pubsub",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "servPort",
           "package": "pubsub",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "servProto",
           "package": "pubsub",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "servProto",
           "package": "pubsub",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Network.Connection",
           "name": "serverOpts",
           "package": "pubsub",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Network.Connection",
           "name": "serverOpts",
           "package": "pubsub",
@@ -751,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLicense     : See the file LICENSE\n\u003c/p\u003e\u003cp\u003eStatus      : Coded\n\u003c/p\u003e\u003cp\u003eCodec for de/encoding URI strings via percent encodings\n (cf. RFC 3986.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Codec.Percent",
           "name": "Percent",
           "package": "pubsub",
@@ -760,6 +827,7 @@
         "index": {
           "description": "License See the file LICENSE Status Coded Codec for de encoding URI strings via percent encodings cf RFC",
           "hierarchy": "Web Codec Percent",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Codec.Percent",
           "name": "Percent",
           "package": "pubsub",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Codec.Percent",
           "name": "getDecodedChar",
           "package": "pubsub",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Web Codec Percent",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Codec.Percent",
           "name": "getDecodedChar",
           "normalized": "String-\u003eMaybe(Char,String)",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Codec.Percent",
           "name": "getDecodedString",
           "package": "pubsub",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Web Codec Percent",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Codec.Percent",
           "name": "getDecodedString",
           "normalized": "String-\u003eString",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Codec.Percent",
           "name": "getEncodedChar",
           "package": "pubsub",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Web Codec Percent",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Codec.Percent",
           "name": "getEncodedChar",
           "normalized": "Char-\u003eMaybe String",
@@ -845,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Codec.Percent",
           "name": "getEncodedString",
           "package": "pubsub",
@@ -854,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Web Codec Percent",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Codec.Percent",
           "name": "getEncodedString",
           "normalized": "String-\u003eString",
@@ -870,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLicense     : See the file LICENSE\n\u003c/p\u003e\u003cp\u003eStatus      : Coded\n\u003c/p\u003e\u003cp\u003eCodec for de/encoding form data shipped in URL query strings\n or in POST request bodies. (application/x-www-form-urlencoded)\n (cf. RFC 3986.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Codec.URLEncoder",
           "name": "URLEncoder",
           "package": "pubsub",
@@ -879,6 +956,7 @@
         "index": {
           "description": "License See the file LICENSE Status Coded Codec for de encoding form data shipped in URL query strings or in POST request bodies application x-www-form-urlencoded cf RFC",
           "hierarchy": "Web Codec URLEncoder",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Codec.URLEncoder",
           "name": "URLEncoder",
           "package": "pubsub",
@@ -892,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Codec.URLEncoder",
           "name": "decodeString",
           "package": "pubsub",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Web Codec URLEncoder",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Codec.URLEncoder",
           "name": "decodeString",
           "normalized": "String-\u003eString",
@@ -916,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Codec.URLEncoder",
           "name": "encodeString",
           "package": "pubsub",
@@ -925,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Web Codec URLEncoder",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Codec.URLEncoder",
           "name": "encodeString",
           "normalized": "String-\u003eString",
@@ -941,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eisUTF8Encoded str\u003c/code\u003e tries to recognize input string as being in UTF-8 form.\n Will soon migrate to \u003ccode\u003eutf8-string\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Codec.URLEncoder",
           "name": "isUTF8Encoded",
           "package": "pubsub",
@@ -951,6 +1034,7 @@
         "index": {
           "description": "isUTF8Encoded str tries to recognize input string as being in UTF-8 form Will soon migrate to utf8-string",
           "hierarchy": "Web Codec URLEncoder",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Codec.URLEncoder",
           "name": "isUTF8Encoded",
           "normalized": "String-\u003eBool",
@@ -966,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Codec.URLEncoder",
           "name": "utf8Encode",
           "package": "pubsub",
@@ -975,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Web Codec URLEncoder",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Codec.URLEncoder",
           "name": "utf8Encode",
           "normalized": "String-\u003eString",
@@ -991,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types and defs behind the PubSubHub protocol.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "Types",
           "package": "pubsub",
@@ -1000,6 +1087,7 @@
         "index": {
           "description": "Basic types and defs behind the PubSubHub protocol",
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "Types",
           "package": "pubsub",
@@ -1013,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "HubLink",
           "package": "pubsub",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "HubLink",
           "package": "pubsub",
@@ -1035,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eSubscribe\u003c/code\u003e represents both subscribe and subscribe requests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "Subscribe",
           "package": "pubsub",
@@ -1044,6 +1135,7 @@
         "index": {
           "description": "Subscribe represents both subscribe and subscribe requests",
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "Subscribe",
           "package": "pubsub",
@@ -1057,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "VerifyMode",
           "package": "pubsub",
@@ -1065,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "VerifyMode",
           "package": "pubsub",
@@ -1078,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "VerifyToken",
           "package": "pubsub",
@@ -1086,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "VerifyToken",
           "package": "pubsub",
@@ -1099,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "HubLink",
           "package": "pubsub",
@@ -1108,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "HubLink",
           "package": "pubsub",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "Subscribe",
           "package": "pubsub",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "Subscribe",
           "package": "pubsub",
@@ -1143,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "VerifySync",
           "package": "pubsub",
@@ -1152,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "VerifySync",
           "package": "pubsub",
@@ -1165,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "linkURL",
           "package": "pubsub",
@@ -1174,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "linkURL",
           "package": "pubsub",
@@ -1187,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "subCallback",
           "package": "pubsub",
@@ -1196,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "subCallback",
           "package": "pubsub",
@@ -1209,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "subLeaseSecs",
           "package": "pubsub",
@@ -1218,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "subLeaseSecs",
           "package": "pubsub",
@@ -1231,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "subMode",
           "package": "pubsub",
@@ -1240,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "subMode",
           "package": "pubsub",
@@ -1253,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "subTopic",
           "package": "pubsub",
@@ -1262,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "subTopic",
           "package": "pubsub",
@@ -1275,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "subVerify",
           "package": "pubsub",
@@ -1284,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "subVerify",
           "normalized": "[VerifyMode]",
@@ -1299,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub.Types",
           "name": "subVerifyToken",
           "package": "pubsub",
@@ -1308,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub.Types",
           "name": "subVerifyToken",
           "package": "pubsub",
@@ -1322,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003efor publish-subscribing to URL change notifications over HTTP.\n Nice and simple (the protocol, that is :-) )\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub",
           "name": "PubSub",
           "package": "pubsub",
@@ -1331,6 +1448,7 @@
         "index": {
           "description": "for publish-subscribing to URL change notifications over HTTP Nice and simple the protocol that is",
           "hierarchy": "Web PubSub",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub",
           "name": "PubSub",
           "package": "pubsub",
@@ -1344,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub",
           "name": "discover",
           "package": "pubsub",
@@ -1353,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub",
           "name": "discover",
           "normalized": "URLString-\u003eIO(Maybe Feed)",
@@ -1367,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub",
           "name": "getContent",
           "package": "pubsub",
@@ -1376,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub",
           "name": "getContent",
           "normalized": "URLString-\u003eMaybe Integer-\u003eIO(Maybe Feed)",
@@ -1391,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub",
           "name": "getHubLink",
           "package": "pubsub",
@@ -1400,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub",
           "name": "getHubLink",
           "normalized": "Feed-\u003eMaybe HubLink",
@@ -1416,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn response to a (un)subscription POST request, a hub will\n do a POSTback to verify the request. The \u003ccode\u003e\u003ca\u003eSubscribe\u003c/a\u003e\u003c/code\u003e argument\n is the same as the one used to issue the original (un)subscription\n request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub",
           "name": "handleVerify",
           "package": "pubsub",
@@ -1426,6 +1551,7 @@
         "index": {
           "description": "In response to un subscription POST request hub will do POSTback to verify the request The Subscribe argument is the same as the one used to issue the original un subscription request",
           "hierarchy": "Web PubSub",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub",
           "name": "handleVerify",
           "normalized": "Subscribe-\u003eRequest-\u003eResponse",
@@ -1442,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle incoming POST notification of updated topic content. Checks to\n see that the MIME type is indeed \u003ccode\u003eatom\u003c/code\u003e. Returns the feed along with\n status code (and headers) to respond with. A result of \u003ccode\u003eNothing\u003c/code\u003e should\n be interpreted as an error and responded to accordingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub",
           "name": "notifyContent",
           "package": "pubsub",
@@ -1452,6 +1579,7 @@
         "index": {
           "description": "Handle incoming POST notification of updated topic content Checks to see that the MIME type is indeed atom Returns the feed along with status code and headers to respond with result of Nothing should be interpreted as an error and responded to accordingly",
           "hierarchy": "Web PubSub",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub",
           "name": "notifyContent",
           "normalized": "Request-\u003eIO(Response,Maybe Feed)",
@@ -1467,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub",
           "name": "notifyPublish",
           "package": "pubsub",
@@ -1476,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub",
           "name": "notifyPublish",
           "normalized": "Maybe AuthUser-\u003eURLString-\u003eURLString-\u003eIO()",
@@ -1491,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.PubSub",
           "name": "subscribe",
           "package": "pubsub",
@@ -1500,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Web PubSub",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.PubSub",
           "name": "subscribe",
           "normalized": "Maybe AuthUser-\u003eURLString-\u003eSubscribe-\u003eIO()",
@@ -1515,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003efor publish-subscribing to URL change notifications over HTTP.\n Nice and simple (the protocol, that is :-) )\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Types",
           "name": "Types",
           "package": "pubsub",
@@ -1524,6 +1657,7 @@
         "index": {
           "description": "for publish-subscribing to URL change notifications over HTTP Nice and simple the protocol that is",
           "hierarchy": "Web Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Types",
           "name": "Types",
           "package": "pubsub",
@@ -1537,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Types",
           "name": "URLString",
           "package": "pubsub",
@@ -1545,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Web Types",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Types",
           "name": "URLString",
           "package": "pubsub",
@@ -1559,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple GET/de-ref of URLs; abstracting out networking backend/package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Fetch",
           "name": "Fetch",
           "package": "pubsub",
@@ -1568,6 +1705,7 @@
         "index": {
           "description": "Simple GET de-ref of URLs abstracting out networking backend package",
           "hierarchy": "Web Utils Fetch",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Fetch",
           "name": "Fetch",
           "package": "pubsub",
@@ -1581,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Fetch",
           "name": "AuthUser",
           "package": "pubsub",
@@ -1589,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Fetch",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Fetch",
           "name": "AuthUser",
           "package": "pubsub",
@@ -1603,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCookie\u003c/code\u003e is the Haskell representation of HTTP cookie values.\n See its relevant specs for authoritative details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Fetch",
           "name": "Cookie",
           "package": "pubsub",
@@ -1611,6 +1752,7 @@
         "index": {
           "description": "Cookie is the Haskell representation of HTTP cookie values See its relevant specs for authoritative details",
           "hierarchy": "Web Utils Fetch",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Fetch",
           "name": "Cookie",
           "package": "pubsub",
@@ -1624,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Fetch",
           "name": "AuthUser",
           "package": "pubsub",
@@ -1633,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Fetch",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Fetch",
           "name": "AuthUser",
           "package": "pubsub",
@@ -1646,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Fetch",
           "name": "addDefaultHeaders",
           "package": "pubsub",
@@ -1655,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Fetch",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Fetch",
           "name": "addDefaultHeaders",
           "normalized": "Int-\u003e[(String,String)]-\u003e[(String,String)]",
@@ -1670,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Fetch",
           "name": "authUserName",
           "package": "pubsub",
@@ -1679,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Fetch",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Fetch",
           "name": "authUserName",
           "package": "pubsub",
@@ -1692,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Fetch",
           "name": "authUserPass",
           "package": "pubsub",
@@ -1701,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Fetch",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Fetch",
           "name": "authUserPass",
           "package": "pubsub",
@@ -1714,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Fetch",
           "name": "nullAuthUser",
           "package": "pubsub",
@@ -1723,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Fetch",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Fetch",
           "name": "nullAuthUser",
           "package": "pubsub",
@@ -1736,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Fetch",
           "name": "postContentsURL",
           "package": "pubsub",
@@ -1745,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Fetch",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Fetch",
           "name": "postContentsURL",
           "normalized": "Maybe AuthUser-\u003eURLString-\u003e[(String,String)]-\u003e[Cookie]-\u003eString-\u003eIO([Cookie],[(String,String)],String)",
@@ -1760,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Fetch",
           "name": "readContentsURL",
           "package": "pubsub",
@@ -1769,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Fetch",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Fetch",
           "name": "readContentsURL",
           "normalized": "URLString-\u003eIO String",
@@ -1784,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Fetch",
           "name": "readUserContentsURL",
           "package": "pubsub",
@@ -1793,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Fetch",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Fetch",
           "name": "readUserContentsURL",
           "normalized": "Maybe AuthUser-\u003eBool-\u003eBool-\u003eURLString-\u003e[(String,String)]-\u003eIO([(String,String)],String)",
@@ -1809,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAd-hoc, one-off, but convenient untyped representation of\n HTTP requests and responses. Includes instances for serializing\n both via JSON.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "HTTP",
           "package": "pubsub",
@@ -1818,6 +1977,7 @@
         "index": {
           "description": "Ad-hoc one-off but convenient untyped representation of HTTP requests and responses Includes instances for serializing both via JSON",
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "HTTP",
           "package": "pubsub",
@@ -1831,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "Request",
           "package": "pubsub",
@@ -1839,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "Request",
           "package": "pubsub",
@@ -1852,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "Response",
           "package": "pubsub",
@@ -1860,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "Response",
           "package": "pubsub",
@@ -1873,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "Request",
           "package": "pubsub",
@@ -1882,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "Request",
           "package": "pubsub",
@@ -1895,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "Response",
           "package": "pubsub",
@@ -1904,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "Response",
           "package": "pubsub",
@@ -1917,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "jsonRequest",
           "package": "pubsub",
@@ -1926,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "jsonRequest",
           "normalized": "String-\u003eMaybe Request",
@@ -1941,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "jsonResponse",
           "package": "pubsub",
@@ -1950,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "jsonResponse",
           "normalized": "Response-\u003eString",
@@ -1965,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "readRequest",
           "package": "pubsub",
@@ -1974,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "readRequest",
           "normalized": "JSValue-\u003eResult Request",
@@ -1989,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "readResponse",
           "package": "pubsub",
@@ -1998,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "readResponse",
           "normalized": "JSValue-\u003eResult Response",
@@ -2013,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "reqBody",
           "package": "pubsub",
@@ -2022,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "reqBody",
           "package": "pubsub",
@@ -2035,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "reqHeaders",
           "package": "pubsub",
@@ -2044,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "reqHeaders",
           "normalized": "[(String,String)]",
@@ -2059,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "reqMethod",
           "package": "pubsub",
@@ -2068,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "reqMethod",
           "package": "pubsub",
@@ -2081,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "reqURL",
           "package": "pubsub",
@@ -2090,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "reqURL",
           "package": "pubsub",
@@ -2103,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "reqVars",
           "package": "pubsub",
@@ -2112,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "reqVars",
           "normalized": "[(String,String)]",
@@ -2127,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "respBody",
           "package": "pubsub",
@@ -2136,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "respBody",
           "package": "pubsub",
@@ -2149,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "respHeaders",
           "package": "pubsub",
@@ -2158,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "respHeaders",
           "normalized": "[(String,String)]",
@@ -2173,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "respStatus",
           "package": "pubsub",
@@ -2182,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "respStatus",
           "package": "pubsub",
@@ -2195,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "showRequest",
           "package": "pubsub",
@@ -2204,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "showRequest",
           "normalized": "Request-\u003eJSValue",
@@ -2219,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "showResponse",
           "package": "pubsub",
@@ -2228,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "showResponse",
           "normalized": "Response-\u003eJSValue",
@@ -2243,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "statusMap",
           "package": "pubsub",
@@ -2252,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "statusMap",
           "normalized": "[(Integer,String)]",
@@ -2267,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.HTTP",
           "name": "toStatusString",
           "package": "pubsub",
@@ -2276,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Web Utils HTTP",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.HTTP",
           "name": "toStatusString",
           "normalized": "Integer-\u003eString",
@@ -2292,6 +2492,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWorking with MIME content; missing bits.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.MIME",
           "name": "MIME",
           "package": "pubsub",
@@ -2301,6 +2502,7 @@
         "index": {
           "description": "Working with MIME content missing bits",
           "hierarchy": "Web Utils MIME",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.MIME",
           "name": "MIME",
           "package": "pubsub",
@@ -2314,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.MIME",
           "name": "crnl",
           "package": "pubsub",
@@ -2323,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Web Utils MIME",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.MIME",
           "name": "crnl",
           "package": "pubsub",
@@ -2335,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.MIME",
           "name": "mixedType",
           "package": "pubsub",
@@ -2344,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Web Utils MIME",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.MIME",
           "name": "mixedType",
           "normalized": "IO(MIMEValue,String)",
@@ -2359,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.MIME",
           "name": "showDispParam",
           "package": "pubsub",
@@ -2368,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Web Utils MIME",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.MIME",
           "name": "showDispParam",
           "normalized": "DispParam-\u003eString",
@@ -2383,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.MIME",
           "name": "showDispType",
           "package": "pubsub",
@@ -2392,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Web Utils MIME",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.MIME",
           "name": "showDispType",
           "normalized": "DispType-\u003eString",
@@ -2407,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.MIME",
           "name": "showDisposition",
           "package": "pubsub",
@@ -2416,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Web Utils MIME",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.MIME",
           "name": "showDisposition",
           "normalized": "Disposition-\u003eString",
@@ -2431,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.MIME",
           "name": "showMIMEContent",
           "package": "pubsub",
@@ -2440,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Web Utils MIME",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.MIME",
           "name": "showMIMEContent",
           "normalized": "String-\u003eMIMEContent-\u003eString",
@@ -2455,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.MIME",
           "name": "showMIMEValue",
           "package": "pubsub",
@@ -2464,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Web Utils MIME",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.MIME",
           "name": "showMIMEValue",
           "normalized": "String-\u003eMIMEValue-\u003e([(String,String)],String)",
@@ -2479,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.MIME",
           "name": "uploadFile",
           "package": "pubsub",
@@ -2488,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Web Utils MIME",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.MIME",
           "name": "uploadFile",
           "normalized": "String-\u003eFilePath-\u003eIO MIMEValue",
@@ -2503,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.MIME",
           "name": "uploadFileType",
           "package": "pubsub",
@@ -2512,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Web Utils MIME",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.MIME",
           "name": "uploadFileType",
           "normalized": "String-\u003eType",
@@ -2528,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWorking with POSTed form payloads.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "Post",
           "package": "pubsub",
@@ -2537,6 +2758,7 @@
         "index": {
           "description": "Working with POSTed form payloads",
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "Post",
           "package": "pubsub",
@@ -2550,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "PostKind",
           "package": "pubsub",
@@ -2558,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "PostKind",
           "package": "pubsub",
@@ -2571,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "PostParam",
           "package": "pubsub",
@@ -2579,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "PostParam",
           "package": "pubsub",
@@ -2592,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "PostReq",
           "package": "pubsub",
@@ -2600,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "PostReq",
           "package": "pubsub",
@@ -2613,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "PostFile",
           "package": "pubsub",
@@ -2622,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "PostFile",
           "package": "pubsub",
@@ -2635,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "PostFormData",
           "package": "pubsub",
@@ -2644,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "PostFormData",
           "package": "pubsub",
@@ -2657,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "PostNameValue",
           "package": "pubsub",
@@ -2666,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "PostNameValue",
           "package": "pubsub",
@@ -2679,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "PostQuery",
           "package": "pubsub",
@@ -2688,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "PostQuery",
           "package": "pubsub",
@@ -2701,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "PostReq",
           "package": "pubsub",
@@ -2710,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "PostReq",
           "package": "pubsub",
@@ -2723,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "PostWWWForm",
           "package": "pubsub",
@@ -2732,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "PostWWWForm",
           "package": "pubsub",
@@ -2746,6 +2986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaddQueryNameValue nm val req\u003c/code\u003e performs same function as \u003ccode\u003eaddNameValue\u003c/code\u003e,\n but adds the constraint that the binding must be transmitted as part of the\n body of the POST request, forcing the payload to be of MIME type \u003ccode\u003eapplication/x-www-form-urlencoded\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "addBodyNameValue",
           "package": "pubsub",
@@ -2756,6 +2997,7 @@
         "index": {
           "description": "addQueryNameValue nm val req performs same function as addNameValue but adds the constraint that the binding must be transmitted as part of the body of the POST request forcing the payload to be of MIME type application x-www-form-urlencoded",
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "addBodyNameValue",
           "normalized": "String-\u003eString-\u003ePostReq-\u003ePostReq",
@@ -2772,6 +3014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaddNameFile nm fb mbMimeType req\u003c/code\u003e augments the request \u003ccode\u003ereq\u003c/code\u003e with a binding\n of name \u003ccode\u003enm\u003c/code\u003e to the local file \u003ccode\u003efb\u003c/code\u003e. It will be slurped in and included in the\n POST request, as part of a multi-part payload.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "addNameFile",
           "package": "pubsub",
@@ -2782,6 +3025,7 @@
         "index": {
           "description": "addNameFile nm fb mbMimeType req augments the request req with binding of name nm to the local file fb It will be slurped in and included in the POST request as part of multi-part payload",
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "addNameFile",
           "normalized": "String-\u003eFilePath-\u003eMaybe String-\u003ePostReq-\u003ePostReq",
@@ -2798,6 +3042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaddNameValue nm val req\u003c/code\u003e augments the request \u003ccode\u003ereq\u003c/code\u003e with a binding\n for \u003ccode\u003e(nm,val)\u003c/code\u003e. Neither \u003ccode\u003enm\u003c/code\u003e nor \u003ccode\u003eval\u003c/code\u003e are assumed encoded. It leaves it\n until the serialization phase to fix on how to communicate the binding\n for the POST request (i.e., via the query portion or in the request's body.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "addNameValue",
           "package": "pubsub",
@@ -2808,6 +3053,7 @@
         "index": {
           "description": "addNameValue nm val req augments the request req with binding for nm val Neither nm nor val are assumed encoded It leaves it until the serialization phase to fix on how to communicate the binding for the POST request i.e via the query portion or in the request body",
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "addNameValue",
           "normalized": "String-\u003eString-\u003ePostReq-\u003ePostReq",
@@ -2824,6 +3070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaddQueryNameValue nm val req\u003c/code\u003e performs same function as \u003ccode\u003eaddNameValue\u003c/code\u003e,\n but adds the constraint that the binding must be transmitted as part of the query\n portion of the URL it ends up going out via.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "addQueryNameValue",
           "package": "pubsub",
@@ -2834,6 +3081,7 @@
         "index": {
           "description": "addQueryNameValue nm val req performs same function as addNameValue but adds the constraint that the binding must be transmitted as part of the query portion of the URL it ends up going out via",
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "addQueryNameValue",
           "normalized": "String-\u003eString-\u003ePostReq-\u003ePostReq",
@@ -2849,6 +3097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "fromPostParam",
           "package": "pubsub",
@@ -2858,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "fromPostParam",
           "normalized": "String-\u003ePostParam-\u003eIO MIMEValue",
@@ -2873,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "getMIMEType",
           "package": "pubsub",
@@ -2882,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "getMIMEType",
           "normalized": "String-\u003eIO Type",
@@ -2897,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "isPostFile",
           "package": "pubsub",
@@ -2906,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "isPostFile",
           "normalized": "PostParam-\u003eBool",
@@ -2921,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "mustBeBody",
           "package": "pubsub",
@@ -2930,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "mustBeBody",
           "normalized": "PostParam-\u003eBool",
@@ -2945,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "mustBeQuery",
           "package": "pubsub",
@@ -2954,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "mustBeQuery",
           "normalized": "PostParam-\u003eBool",
@@ -2969,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "newPostRequest",
           "package": "pubsub",
@@ -2978,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "newPostRequest",
           "normalized": "String-\u003ePostReq",
@@ -2993,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "prName",
           "package": "pubsub",
@@ -3002,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "prName",
           "package": "pubsub",
@@ -3015,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "prVals",
           "package": "pubsub",
@@ -3024,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "prVals",
           "normalized": "[PostParam]",
@@ -3039,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "testRequest",
           "package": "pubsub",
@@ -3048,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "testRequest",
           "normalized": "PostReq-\u003eMaybe PostKind-\u003eIO()",
@@ -3063,6 +3329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "toAmpString",
           "package": "pubsub",
@@ -3072,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "toAmpString",
           "normalized": "[PostParam]-\u003eString",
@@ -3087,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "toMIMEType",
           "package": "pubsub",
@@ -3096,6 +3365,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "toMIMEType",
           "normalized": "String-\u003eIO Type",
@@ -3111,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "toMIMEValue",
           "package": "pubsub",
@@ -3120,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "toMIMEValue",
           "normalized": "[PostParam]-\u003eIO MIMEValue",
@@ -3135,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:51 UTC 2014",
           "module": "Web.Utils.Post",
           "name": "toRequest",
           "package": "pubsub",
@@ -3144,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Web Utils Post",
+          "indexed": "2014-03-11T19:45:51",
           "module": "Web.Utils.Post",
           "name": "toRequest",
           "normalized": "PostReq-\u003eMaybe PostKind-\u003eIO(String,[(String,String)],String)",

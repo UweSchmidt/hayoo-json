@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tcache-AWS"
+        "phrase": "tcache-AWS",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:51 UTC 2014",
           "module": "Data.TCache.AWS",
           "name": "AWS",
           "package": "tcache-AWS",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data TCache AWS",
+          "indexed": "2014-03-11T20:17:51",
           "module": "Data.TCache.AWS",
           "name": "AWS",
           "package": "tcache-AWS",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a default persistence mechanism in Amazon S3.\n . It uses the credentials using \u003ccode\u003e\u003ca\u003ebaseConfiguration\u003c/a\u003e\u003c/code\u003e from the package aws,\n which read them from the environment or from a file.\n See \u003ccode\u003e\u003ca\u003ebaseConfiguration\u003c/a\u003e\u003c/code\u003e doc. for further information\n\u003c/p\u003e\u003cp\u003eHere is an example of default persistence for a user defined data structure:\n\u003c/p\u003e\u003cpre\u003e import Data.TCache.DefaultPersistence\n import Data.TCache.AWS\n\n instance  Serializable MyData where\n  serialize=  pack . show\n  deserialize=   read . unpack\n  setPersist =  const . Just amazonSDBPersist \"mydomain\" False\n\u003c/pre\u003e\u003cp\u003eIf you like to use Amazon S3 for all your data structures by default:\n\u003c/p\u003e\u003cpre\u003e instance  Serializable MyData where\n  serialize=  pack . show\n  deserialize=   read . unpack\n  setPersist =  Nothing\n\u003c/pre\u003e\u003cpre\u003e setDefaultPersist  amazonSDBPersist\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:17:51 UTC 2014",
           "module": "Data.TCache.AWS",
           "name": "amazonS3Persist",
           "package": "tcache-AWS",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Define default persistence mechanism in Amazon S3 It uses the credentials using baseConfiguration from the package aws which read them from the environment or from file See baseConfiguration doc for further information Here is an example of default persistence for user defined data structure import Data.TCache.DefaultPersistence import Data.TCache.AWS instance Serializable MyData where serialize pack show deserialize read unpack setPersist const Just amazonSDBPersist mydomain False If you like to use Amazon S3 for all your data structures by default instance Serializable MyData where serialize pack show deserialize read unpack setPersist Nothing setDefaultPersist amazonSDBPersist",
           "hierarchy": "Data TCache AWS",
+          "indexed": "2014-03-11T20:17:51",
           "module": "Data.TCache.AWS",
           "name": "amazonS3Persist",
           "normalized": "Bucket-\u003ePersist",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a default persistence mechanism in Simple AWS.\n . It uses the credentials using \u003ccode\u003e\u003ca\u003ebaseConfiguration\u003c/a\u003e\u003c/code\u003e from the package aws,\n which read them from the environment or from a file.\n See \u003ccode\u003e\u003ca\u003ebaseConfiguration\u003c/a\u003e\u003c/code\u003e doc. for further information\n\u003c/p\u003e\u003cp\u003eThe second parameter specify either if the domain will be cleared or not\n\u003c/p\u003e\u003cp\u003eHere is an example of default persistence for a user defined data structure:\n\u003c/p\u003e\u003cpre\u003e import Data.TCache.DefaultPersistence\n import Data.TCache.AWS\n\n instance  Serializable MyData where\n  serialize  =  pack . show\n  deserialize=  read . unpack\n  setPersist =  const . Just $ amazonSDBPersist \"mydomain\" False\n\u003c/pre\u003e\u003cp\u003eIf you like to use Simple AWS for all your data structures by default:\n\u003c/p\u003e\u003cpre\u003e instance  Serializable MyData where\n  serialize  =  pack . show\n  deserialize=  read . unpack\n  setPersist =  Nothing\n\u003c/pre\u003e\u003cpre\u003e setDefaultPersist  amazonSDBPersist\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:17:51 UTC 2014",
           "module": "Data.TCache.AWS",
           "name": "amazonSDBPersist",
           "package": "tcache-AWS",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Define default persistence mechanism in Simple AWS It uses the credentials using baseConfiguration from the package aws which read them from the environment or from file See baseConfiguration doc for further information The second parameter specify either if the domain will be cleared or not Here is an example of default persistence for user defined data structure import Data.TCache.DefaultPersistence import Data.TCache.AWS instance Serializable MyData where serialize pack show deserialize read unpack setPersist const Just amazonSDBPersist mydomain False If you like to use Simple AWS for all your data structures by default instance Serializable MyData where serialize pack show deserialize read unpack setPersist Nothing setDefaultPersist amazonSDBPersist",
           "hierarchy": "Data TCache AWS",
+          "indexed": "2014-03-11T20:17:51",
           "module": "Data.TCache.AWS",
           "name": "amazonSDBPersist",
           "normalized": "Text-\u003eBool-\u003ePersist",

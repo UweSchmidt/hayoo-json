@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "quickcheck-assertions"
+        "phrase": "quickcheck-assertions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule provides convenient functions to do some assertions in QuickCheck properties with pretty printed reasons.\nFor example you can do something like that:\n\u003c/p\u003e\u003cpre\u003e module Main where\n\n import Test.Hspec\n import Test.Hspec.QuickCheck\n import Test.QuickCheck.Assertions\n import Test.QuickCheck.Property\n\n someProp :: Int -\u003e Int -\u003e Result\n someProp a b = (a ?\u003e b)\n\n someOtherProp :: Double -\u003e Double -\u003e Result\n someOtherProp a b = (a ?== b)\n\n main = hspec $ describe \"failing test\" $ do\n   prop \"must fail\" $ someProp\n   prop \"must fail again\" $ someOtherProp\n\u003c/pre\u003e\u003cp\u003eAnd receive pretty printed fail message when testing:\n\u003c/p\u003e\u003cpre\u003e failing test\n   - must fail FAILED [1]\n   - must fail again FAILED [2]\n\n 1) failing test must fail FAILED\n *** Failed! (after 1 test):\n \u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e the value\n 0\n \u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e should be greater than value\n 0\n 0\n 0\n\n\n 2) failing test must fail again FAILED\n *** Failed! (after 2 tests and 4 shrinks):\n \u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e expected\n 0.0\n \u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e but got\n 1.0\n 0.0\n 1.0\n\u003c/pre\u003e\u003cp\u003eOk, not very well printed, but better than nothing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "Assertions",
           "package": "quickcheck-assertions",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module provides convenient functions to do some assertions in QuickCheck properties with pretty printed reasons For example you can do something like that module Main where import Test.Hspec import Test.Hspec.QuickCheck import Test.QuickCheck.Assertions import Test.QuickCheck.Property someProp Int Int Result someProp someOtherProp Double Double Result someOtherProp main hspec describe failing test do prop must fail someProp prop must fail again someOtherProp And receive pretty printed fail message when testing failing test must fail FAILED must fail again FAILED failing test must fail FAILED Failed after test the value should be greater than value failing test must fail again FAILED Failed after tests and shrinks expected but got Ok not very well printed but better than nothing",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "Assertions",
           "package": "quickcheck-assertions",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight value is almost equal to left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(~==?)",
           "package": "quickcheck-assertions",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Right value is almost equal to left",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(~==?) ~==?",
           "normalized": "a-\u003ea-\u003eResult",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight argument should not equal to left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(/=?)",
           "package": "quickcheck-assertions",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Right argument should not equal to left",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(/=?) /=?",
           "normalized": "a-\u003ea-\u003eResult",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight argument is greater or equal to left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(\u003c=?)",
           "package": "quickcheck-assertions",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Right argument is greater or equal to left",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(\u003c=?) \u003c=?",
           "normalized": "a-\u003ea-\u003eResult",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight argument is greater than left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(\u003c?)",
           "package": "quickcheck-assertions",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Right argument is greater than left",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(\u003c?) \u003c?",
           "normalized": "a-\u003ea-\u003eResult",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight argument should be equal to left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(==?)",
           "package": "quickcheck-assertions",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Right argument should be equal to left",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(==?) ==?",
           "normalized": "a-\u003ea-\u003eResult",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight argument is less or equal to left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(\u003e=?)",
           "package": "quickcheck-assertions",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Right argument is less or equal to left",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(\u003e=?) \u003e=?",
           "normalized": "a-\u003ea-\u003eResult",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight argument is less then left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(\u003e?)",
           "package": "quickcheck-assertions",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Right argument is less then left",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(\u003e?) \u003e?",
           "normalized": "a-\u003ea-\u003eResult",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft value is almost equal to right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?~==)",
           "package": "quickcheck-assertions",
@@ -227,6 +244,7 @@
         "index": {
           "description": "Left value is almost equal to right",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?~==) ?~==",
           "normalized": "a-\u003ea-\u003eResult",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft argument should not equal to right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?/=)",
           "package": "quickcheck-assertions",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Left argument should not equal to right",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?/=) ?/=",
           "normalized": "a-\u003ea-\u003eResult",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft argument is less then right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?\u003c)",
           "package": "quickcheck-assertions",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Left argument is less then right",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?\u003c) ?\u003c",
           "normalized": "a-\u003ea-\u003eResult",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft argument is less or equal to right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?\u003c=)",
           "package": "quickcheck-assertions",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Left argument is less or equal to right",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?\u003c=) ?\u003c=",
           "normalized": "a-\u003ea-\u003eResult",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft argument should be equal to right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?==)",
           "package": "quickcheck-assertions",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Left argument should be equal to right",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?==) ?==",
           "normalized": "a-\u003ea-\u003eResult",
@@ -342,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft argument is greater than right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?\u003e)",
           "package": "quickcheck-assertions",
@@ -352,6 +379,7 @@
         "index": {
           "description": "Left argument is greater than right",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?\u003e) ?\u003e",
           "normalized": "a-\u003ea-\u003eResult",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft argument is greater or equal to right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?\u003e=)",
           "package": "quickcheck-assertions",
@@ -377,6 +406,7 @@
         "index": {
           "description": "Left argument is greater or equal to right",
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "(?\u003e=) ?\u003e=",
           "normalized": "a-\u003ea-\u003eResult",
@@ -391,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:16 UTC 2014",
           "module": "Test.QuickCheck.Assertions",
           "name": "binAsrt",
           "package": "quickcheck-assertions",
@@ -399,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Assertions",
+          "indexed": "2014-03-11T19:47:16",
           "module": "Test.QuickCheck.Assertions",
           "name": "binAsrt",
           "normalized": "String-\u003eBool-\u003eResult",

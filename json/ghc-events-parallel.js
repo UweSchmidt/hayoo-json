@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-events-parallel"
+        "phrase": "ghc-events-parallel",
+        "type": "phrase"
       },
       "type": "context"
     }

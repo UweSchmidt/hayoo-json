@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alure"
+        "phrase": "alure",
+        "type": "phrase"
       },
       "type": "context"
     }

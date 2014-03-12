@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "test-framework-golden"
+        "phrase": "test-framework-golden",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:08 UTC 2014",
           "module": "Test.Golden.Advanced",
           "name": "Advanced",
           "package": "test-framework-golden",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Golden Advanced",
+          "indexed": "2014-03-11T20:19:08",
           "module": "Test.Golden.Advanced",
           "name": "Advanced",
           "package": "test-framework-golden",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action that yields a value (either golden or tested).\n\u003c/p\u003e\u003cp\u003eCPS allows closing the file handle when using lazy IO to read data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:08 UTC 2014",
           "module": "Test.Golden.Advanced",
           "name": "ValueGetter",
           "package": "test-framework-golden",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An action that yields value either golden or tested CPS allows closing the file handle when using lazy IO to read data",
           "hierarchy": "Test Golden Advanced",
+          "indexed": "2014-03-11T20:19:08",
           "module": "Test.Golden.Advanced",
           "name": "ValueGetter",
           "package": "test-framework-golden",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:08 UTC 2014",
           "module": "Test.Golden.Advanced",
           "name": "ValueGetter",
           "package": "test-framework-golden",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Test Golden Advanced",
+          "indexed": "2014-03-11T20:19:08",
           "module": "Test.Golden.Advanced",
           "name": "ValueGetter",
           "package": "test-framework-golden",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA very general testing function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:08 UTC 2014",
           "module": "Test.Golden.Advanced",
           "name": "goldenTest",
           "package": "test-framework-golden",
@@ -94,6 +101,7 @@
         "index": {
           "description": "very general testing function",
           "hierarchy": "Test Golden Advanced",
+          "indexed": "2014-03-11T20:19:08",
           "module": "Test.Golden.Advanced",
           "name": "goldenTest",
           "normalized": "TestName-\u003e(a b ValueGetter c d)-\u003e(a b ValueGetter c d)-\u003e(d-\u003ed-\u003eIO(Maybe String))-\u003e(d-\u003eIO())-\u003eTest",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:08 UTC 2014",
           "module": "Test.Golden.Advanced",
           "name": "runValueGetter",
           "package": "test-framework-golden",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Test Golden Advanced",
+          "indexed": "2014-03-11T20:19:08",
           "module": "Test.Golden.Advanced",
           "name": "runValueGetter",
           "package": "test-framework-golden",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily read a file. The file handle will be closed after the\n \u003ccode\u003e\u003ca\u003eValueGetter\u003c/a\u003e\u003c/code\u003e action is run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:08 UTC 2014",
           "module": "Test.Golden.Advanced",
           "name": "vgReadFile",
           "package": "test-framework-golden",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Lazily read file The file handle will be closed after the ValueGetter action is run",
           "hierarchy": "Test Golden Advanced",
+          "indexed": "2014-03-11T20:19:08",
           "module": "Test.Golden.Advanced",
           "name": "vgReadFile",
           "normalized": "FilePath-\u003eValueGetter a ByteString",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a simplified interface. If you want more, see\n\u003ca\u003eTest.Golden.Advanced\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:08 UTC 2014",
           "module": "Test.Golden",
           "name": "Golden",
           "package": "test-framework-golden",
@@ -167,6 +180,7 @@
         "index": {
           "description": "This module provides simplified interface If you want more see Test.Golden.Advanced",
           "hierarchy": "Test Golden",
+          "indexed": "2014-03-11T20:19:08",
           "module": "Test.Golden",
           "name": "Golden",
           "package": "test-framework-golden",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare a given file contents against the golden file contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:08 UTC 2014",
           "module": "Test.Golden",
           "name": "goldenVsFile",
           "package": "test-framework-golden",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Compare given file contents against the golden file contents",
           "hierarchy": "Test Golden",
+          "indexed": "2014-03-11T20:19:08",
           "module": "Test.Golden",
           "name": "goldenVsFile",
           "normalized": "TestName-\u003eFilePath-\u003eFilePath-\u003eIO()-\u003eTest",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egoldenVsFile\u003c/a\u003e\u003c/code\u003e, but invokes an external diff command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:08 UTC 2014",
           "module": "Test.Golden",
           "name": "goldenVsFileDiff",
           "package": "test-framework-golden",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Same as goldenVsFile but invokes an external diff command",
           "hierarchy": "Test Golden",
+          "indexed": "2014-03-11T20:19:08",
           "module": "Test.Golden",
           "name": "goldenVsFileDiff",
           "normalized": "TestName-\u003e(FilePath-\u003eFilePath-\u003e[String])-\u003eFilePath-\u003eFilePath-\u003eIO()-\u003eTest",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare a given string against the golden file contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:08 UTC 2014",
           "module": "Test.Golden",
           "name": "goldenVsString",
           "package": "test-framework-golden",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Compare given string against the golden file contents",
           "hierarchy": "Test Golden",
+          "indexed": "2014-03-11T20:19:08",
           "module": "Test.Golden",
           "name": "goldenVsString",
           "normalized": "TestName-\u003eFilePath-\u003eIO ByteString-\u003eTest",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egoldenVsString\u003c/a\u003e\u003c/code\u003e, but invokes an external diff command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:08 UTC 2014",
           "module": "Test.Golden",
           "name": "goldenVsStringDiff",
           "package": "test-framework-golden",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Same as goldenVsString but invokes an external diff command",
           "hierarchy": "Test Golden",
+          "indexed": "2014-03-11T20:19:08",
           "module": "Test.Golden",
           "name": "goldenVsStringDiff",
           "normalized": "TestName-\u003e(FilePath-\u003eFilePath-\u003e[String])-\u003eFilePath-\u003eIO ByteString-\u003eTest",

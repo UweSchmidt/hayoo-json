@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hps-cairo"
+        "phrase": "hps-cairo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCairo rendering for \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003ehps\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:11 UTC 2014",
           "module": "Graphics.PS.Cairo",
           "name": "Cairo",
           "package": "hps-cairo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Cairo rendering for Image from hps",
           "hierarchy": "Graphics PS Cairo",
+          "indexed": "2014-03-11T18:45:11",
           "module": "Graphics.PS.Cairo",
           "name": "Cairo",
           "package": "hps-cairo",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCairo rendering variant of \u003ccode\u003e\u003ca\u003eps\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:11 UTC 2014",
           "module": "Graphics.PS.Cairo",
           "name": "cg",
           "package": "hps-cairo",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Cairo rendering variant of ps",
           "hierarchy": "Graphics PS Cairo",
+          "indexed": "2014-03-11T18:45:11",
           "module": "Graphics.PS.Cairo",
           "name": "cg",
           "normalized": "String-\u003ePaper-\u003e[Image]-\u003eIO()",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e in cairo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:11 UTC 2014",
           "module": "Graphics.PS.Cairo",
           "name": "renderImage",
           "package": "hps-cairo",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Render an Image in cairo",
           "hierarchy": "Graphics PS Cairo",
+          "indexed": "2014-03-11T18:45:11",
           "module": "Graphics.PS.Cairo",
           "name": "renderImage",
           "normalized": "Image-\u003eRender()",

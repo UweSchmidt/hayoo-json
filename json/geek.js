@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "geek"
+        "phrase": "geek",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Application",
           "name": "Application",
           "package": "geek",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Application",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Application",
           "name": "Application",
           "package": "geek",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Application",
           "name": "geek",
           "package": "geek",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Application",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Application",
           "name": "geek",
           "normalized": "Runtime-\u003eApplication",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Application",
           "name": "initialize_geek",
           "package": "geek",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Application",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Application",
           "name": "initialize_geek",
           "normalized": "Config-\u003e[MarkupEngine]-\u003eIO Application",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Config",
           "name": "Config",
           "package": "geek",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Config",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Config",
           "name": "Config",
           "package": "geek",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Config",
           "name": "default_config_string",
           "package": "geek",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Config",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Config",
           "name": "default_config_string",
           "package": "geek",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Config",
           "name": "geek_usage",
           "package": "geek",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Config",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Config",
           "name": "geek_usage",
           "package": "geek",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Config",
           "name": "get_config_from_args",
           "package": "geek",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Config",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Config",
           "name": "get_config_from_args",
           "package": "geek",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Config",
           "name": "parse_config",
           "package": "geek",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Config",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Config",
           "name": "parse_config",
           "normalized": "ByteString-\u003eMaybe Config",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Config",
           "name": "post_date_length",
           "package": "geek",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Config",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Config",
           "name": "post_date_length",
           "normalized": "String-\u003eInteger",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Config",
           "name": "read_config_from_path",
           "package": "geek",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Config",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Config",
           "name": "read_config_from_path",
           "normalized": "FilePath-\u003eIO(Maybe Config)",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Config",
           "name": "spec",
           "package": "geek",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Config",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Config",
           "name": "spec",
           "package": "geek",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.DefaultConfig",
           "name": "DefaultConfig",
           "package": "geek",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Web Geek DefaultConfig",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.DefaultConfig",
           "name": "DefaultConfig",
           "package": "geek",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.DefaultConfig",
           "name": "default_config",
           "package": "geek",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Web Geek DefaultConfig",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.DefaultConfig",
           "name": "default_config",
           "package": "geek",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.DefaultConfig",
           "name": "main",
           "package": "geek",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Web Geek DefaultConfig",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.DefaultConfig",
           "name": "main",
           "normalized": "IO()",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.DemoMiddlewareStack",
           "name": "DemoMiddlewareStack",
           "package": "geek",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Web Geek DemoMiddlewareStack",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.DemoMiddlewareStack",
           "name": "DemoMiddlewareStack",
           "package": "geek",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.DemoMiddlewareStack",
           "name": "debug",
           "package": "geek",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Web Geek DemoMiddlewareStack",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.DemoMiddlewareStack",
           "name": "debug",
           "package": "geek",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.DemoMiddlewareStack",
           "name": "demo_middleware_stack",
           "package": "geek",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Web Geek DemoMiddlewareStack",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.DemoMiddlewareStack",
           "name": "demo_middleware_stack",
           "normalized": "[Middleware]",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Post",
           "name": "Post",
           "package": "geek",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Post",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Post",
           "name": "Post",
           "package": "geek",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Post",
           "name": "markup",
           "package": "geek",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Post",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Post",
           "name": "markup",
           "normalized": "[MarkupEngine]-\u003eFilePath-\u003eText-\u003eHTMLText",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Post",
           "name": "parse_meta",
           "package": "geek",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Post",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Post",
           "name": "parse_meta",
           "normalized": "Text-\u003e(Meta,Text)",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Post",
           "name": "parse_title_and_date_from_path",
           "package": "geek",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Post",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Post",
           "name": "parse_title_and_date_from_path",
           "normalized": "String-\u003eFilePath-\u003e(Text,Maybe UTCTime)",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Post",
           "name": "post_link",
           "package": "geek",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Post",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Post",
           "name": "post_link",
           "normalized": "Post-\u003eURIEscapedText",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Post",
           "name": "post_tags",
           "package": "geek",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Post",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Post",
           "name": "post_tags",
           "normalized": "Text-\u003ePost-\u003e[Text]",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Post",
           "name": "spec",
           "package": "geek",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Post",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Post",
           "name": "spec",
           "package": "geek",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Post",
           "name": "test_meta",
           "package": "geek",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Post",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Post",
           "name": "test_meta",
           "package": "geek",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.RSS",
           "name": "RSS",
           "package": "geek",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Web Geek RSS",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.RSS",
           "name": "RSS",
           "package": "geek",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.RSS",
           "name": "rss",
           "package": "geek",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Web Geek RSS",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.RSS",
           "name": "rss",
           "normalized": "Config-\u003e[Post]-\u003eMaybe Text-\u003eByteString",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Runtime",
           "name": "Runtime",
           "package": "geek",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Runtime",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Runtime",
           "name": "Runtime",
           "package": "geek",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Runtime",
           "name": "build_markup_engines",
           "package": "geek",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Runtime",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Runtime",
           "name": "build_markup_engines",
           "normalized": "[Text]-\u003e[MarkupEngine]-\u003e[MarkupEngine]",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Runtime",
           "name": "get_post_from_path",
           "package": "geek",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Runtime",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Runtime",
           "name": "get_post_from_path",
           "normalized": "Config-\u003e[MarkupEngine]-\u003eFilePath-\u003eIO Post",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Runtime",
           "name": "get_posts",
           "package": "geek",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Runtime",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Runtime",
           "name": "get_posts",
           "normalized": "Config-\u003e[MarkupEngine]-\u003eIO[Post]",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Runtime",
           "name": "glob_dir",
           "package": "geek",
@@ -710,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Runtime",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Runtime",
           "name": "glob_dir",
           "normalized": "String-\u003eFilePath-\u003eIO[String]",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Runtime",
           "name": "initialize_runtime",
           "package": "geek",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Runtime",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Runtime",
           "name": "initialize_runtime",
           "normalized": "Config-\u003e[MarkupEngine]-\u003eIO Runtime",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Runtime",
           "name": "monitor_posts",
           "package": "geek",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Runtime",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Runtime",
           "name": "monitor_posts",
           "normalized": "Config-\u003e[MarkupEngine]-\u003eChan Event-\u003eIORef[Post]-\u003eIO()",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Runtime",
           "name": "register_monitor",
           "package": "geek",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Runtime",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Runtime",
           "name": "register_monitor",
           "normalized": "WatchManager-\u003eFilePath-\u003e(FilePath-\u003eIO())-\u003eIO()",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Runtime",
           "name": "spec",
           "package": "geek",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Runtime",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Runtime",
           "name": "spec",
           "package": "geek",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Serve",
           "name": "Serve",
           "package": "geek",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Serve",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Serve",
           "name": "Serve",
           "package": "geek",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Serve",
           "name": "Port",
           "package": "geek",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Serve",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Serve",
           "name": "Port",
           "package": "geek",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Serve",
           "name": "serve",
           "package": "geek",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Serve",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Serve",
           "name": "serve",
           "normalized": "[MarkupEngine]-\u003e[Middleware]-\u003e(Application-\u003ePort-\u003eIO())-\u003eIO()",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Spec",
           "name": "Spec",
           "package": "geek",
@@ -887,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Spec",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Spec",
           "name": "Spec",
           "package": "geek",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Spec",
           "name": "spec",
           "package": "geek",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Spec",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Spec",
           "name": "spec",
           "package": "geek",
@@ -921,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "Type",
           "package": "geek",
@@ -929,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "Type",
           "package": "geek",
@@ -942,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "Config",
           "package": "geek",
@@ -950,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "Config",
           "package": "geek",
@@ -963,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "HTMLText",
           "package": "geek",
@@ -971,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "HTMLText",
           "package": "geek",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "MarkupEngine",
           "package": "geek",
@@ -992,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "MarkupEngine",
           "package": "geek",
@@ -1005,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "Meta",
           "package": "geek",
@@ -1013,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "Meta",
           "package": "geek",
@@ -1026,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "Post",
           "package": "geek",
@@ -1034,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "Post",
           "package": "geek",
@@ -1047,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "Runtime",
           "package": "geek",
@@ -1055,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "Runtime",
           "package": "geek",
@@ -1068,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "TagCount",
           "package": "geek",
@@ -1076,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "TagCount",
           "package": "geek",
@@ -1089,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "URIEscapedText",
           "package": "geek",
@@ -1097,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "URIEscapedText",
           "package": "geek",
@@ -1110,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "Config",
           "package": "geek",
@@ -1119,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "Config",
           "package": "geek",
@@ -1132,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "HTMLText",
           "package": "geek",
@@ -1141,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "HTMLText",
           "package": "geek",
@@ -1154,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "MarkupEngine",
           "package": "geek",
@@ -1163,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "MarkupEngine",
           "package": "geek",
@@ -1176,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "Post",
           "package": "geek",
@@ -1185,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "Post",
           "package": "geek",
@@ -1198,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "Runtime",
           "package": "geek",
@@ -1207,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "Runtime",
           "package": "geek",
@@ -1220,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "TagCount",
           "package": "geek",
@@ -1229,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "TagCount",
           "package": "geek",
@@ -1242,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "URIEscapedText",
           "package": "geek",
@@ -1251,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "URIEscapedText",
           "package": "geek",
@@ -1264,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__blog_directory",
           "package": "geek",
@@ -1273,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__blog_directory",
           "normalized": "-\u003eConfig FilePath",
@@ -1287,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__body",
           "package": "geek",
@@ -1296,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__body",
           "normalized": "-\u003ePost HTMLText",
@@ -1310,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__date",
           "package": "geek",
@@ -1319,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__date",
           "normalized": "-\u003ePost(Maybe UTCTime)",
@@ -1333,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__full_text_search",
           "package": "geek",
@@ -1342,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__full_text_search",
           "normalized": "-\u003eConfig Bool",
@@ -1356,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__index_file_path",
           "package": "geek",
@@ -1365,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__index_file_path",
           "normalized": "-\u003eConfig Text",
@@ -1379,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__link",
           "package": "geek",
@@ -1388,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__link",
           "normalized": "-\u003ePost URIEscapedText",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__markup_engine_names",
           "package": "geek",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__markup_engine_names",
           "normalized": "-\u003eConfig[Text]",
@@ -1425,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__maximum_number_of_posts_per_page",
           "package": "geek",
@@ -1434,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__maximum_number_of_posts_per_page",
           "normalized": "-\u003eConfig Integer",
@@ -1448,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__meta",
           "package": "geek",
@@ -1457,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__meta",
           "normalized": "-\u003ePost Meta",
@@ -1471,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__meta_date_keyword",
           "package": "geek",
@@ -1480,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__meta_date_keyword",
           "normalized": "-\u003eConfig Text",
@@ -1494,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__meta_tag_keyword",
           "package": "geek",
@@ -1503,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__meta_tag_keyword",
           "normalized": "-\u003eConfig Text",
@@ -1517,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__number_of_posts_per_feed",
           "package": "geek",
@@ -1526,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__number_of_posts_per_feed",
           "normalized": "-\u003eConfig Integer",
@@ -1540,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__path",
           "package": "geek",
@@ -1549,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__path",
           "normalized": "-\u003ePost FilePath",
@@ -1563,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__post_date_format",
           "package": "geek",
@@ -1572,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__post_date_format",
           "normalized": "-\u003eConfig String",
@@ -1586,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__post_directory",
           "package": "geek",
@@ -1595,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__post_directory",
           "normalized": "-\u003eConfig FilePath",
@@ -1609,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__raw_body",
           "package": "geek",
@@ -1618,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__raw_body",
           "normalized": "-\u003ePost Text",
@@ -1632,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__rss_site_description",
           "package": "geek",
@@ -1641,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__rss_site_description",
           "normalized": "-\u003eConfig Text",
@@ -1655,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__rss_site_link",
           "package": "geek",
@@ -1664,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__rss_site_link",
           "normalized": "-\u003eConfig Text",
@@ -1678,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__rss_site_root_prefix",
           "package": "geek",
@@ -1687,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__rss_site_root_prefix",
           "normalized": "-\u003eConfig Text",
@@ -1701,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__rss_site_title",
           "package": "geek",
@@ -1710,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__rss_site_title",
           "normalized": "-\u003eConfig Text",
@@ -1724,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__server_port",
           "package": "geek",
@@ -1733,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__server_port",
           "normalized": "-\u003eConfig Int",
@@ -1747,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__static_serve",
           "package": "geek",
@@ -1756,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__static_serve",
           "normalized": "-\u003eConfig(Map Text[Text])",
@@ -1770,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__tags",
           "package": "geek",
@@ -1779,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__tags",
           "normalized": "-\u003ePost[Text]",
@@ -1793,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "__title",
           "package": "geek",
@@ -1802,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "__title",
           "normalized": "-\u003ePost Text",
@@ -1816,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "blog_directory",
           "package": "geek",
@@ -1825,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "blog_directory",
           "package": "geek",
@@ -1837,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "body",
           "package": "geek",
@@ -1846,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "body",
           "package": "geek",
@@ -1858,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "config",
           "package": "geek",
@@ -1867,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "config",
           "package": "geek",
@@ -1879,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "date",
           "package": "geek",
@@ -1888,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "date",
           "package": "geek",
@@ -1900,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "extensions",
           "package": "geek",
@@ -1909,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "extensions",
           "normalized": "[Text]",
@@ -1923,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "full_text_search",
           "package": "geek",
@@ -1932,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "full_text_search",
           "package": "geek",
@@ -1944,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "full_text_search_map_ref",
           "package": "geek",
@@ -1953,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "full_text_search_map_ref",
           "normalized": "IORef(Map Text[Int])",
@@ -1967,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "index_file_path",
           "package": "geek",
@@ -1976,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "index_file_path",
           "package": "geek",
@@ -1988,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "link",
           "package": "geek",
@@ -1997,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "link",
           "package": "geek",
@@ -2009,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "markup_engine_name",
           "package": "geek",
@@ -2018,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "markup_engine_name",
           "package": "geek",
@@ -2030,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "markup_engine_names",
           "package": "geek",
@@ -2039,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "markup_engine_names",
           "normalized": "[Text]",
@@ -2053,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "markup_engines",
           "package": "geek",
@@ -2062,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "markup_engines",
           "normalized": "[MarkupEngine]",
@@ -2076,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "maximum_number_of_posts_per_page",
           "package": "geek",
@@ -2085,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "maximum_number_of_posts_per_page",
           "package": "geek",
@@ -2097,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "meta",
           "package": "geek",
@@ -2106,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "meta",
           "package": "geek",
@@ -2118,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "meta_date_keyword",
           "package": "geek",
@@ -2127,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "meta_date_keyword",
           "package": "geek",
@@ -2139,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "meta_tag_keyword",
           "package": "geek",
@@ -2148,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "meta_tag_keyword",
           "package": "geek",
@@ -2160,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "number_of_posts_per_feed",
           "package": "geek",
@@ -2169,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "number_of_posts_per_feed",
           "package": "geek",
@@ -2181,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "path",
           "package": "geek",
@@ -2190,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "path",
           "package": "geek",
@@ -2202,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "post_date_format",
           "package": "geek",
@@ -2211,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "post_date_format",
           "package": "geek",
@@ -2223,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "post_directory",
           "package": "geek",
@@ -2232,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "post_directory",
           "package": "geek",
@@ -2244,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "posts_ref",
           "package": "geek",
@@ -2253,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "posts_ref",
           "normalized": "IORef[Post]",
@@ -2267,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "pretty_print_config",
           "package": "geek",
@@ -2276,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "pretty_print_config",
           "normalized": "Config-\u003eText",
@@ -2290,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "raw_body",
           "package": "geek",
@@ -2299,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "raw_body",
           "package": "geek",
@@ -2311,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "rss_site_description",
           "package": "geek",
@@ -2320,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "rss_site_description",
           "package": "geek",
@@ -2332,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "rss_site_link",
           "package": "geek",
@@ -2341,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "rss_site_link",
           "package": "geek",
@@ -2353,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "rss_site_root_prefix",
           "package": "geek",
@@ -2362,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "rss_site_root_prefix",
           "package": "geek",
@@ -2374,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "rss_site_title",
           "package": "geek",
@@ -2383,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "rss_site_title",
           "package": "geek",
@@ -2395,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "server_port",
           "package": "geek",
@@ -2404,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "server_port",
           "package": "geek",
@@ -2416,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "static_serve",
           "package": "geek",
@@ -2425,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "static_serve",
           "normalized": "Map Text[Text]",
@@ -2439,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "tag_count",
           "package": "geek",
@@ -2448,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "tag_count",
           "package": "geek",
@@ -2460,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "tag_name",
           "package": "geek",
@@ -2469,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "tag_name",
           "package": "geek",
@@ -2481,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "tags",
           "package": "geek",
@@ -2490,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "tags",
           "normalized": "[Text]",
@@ -2504,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "title",
           "package": "geek",
@@ -2513,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "title",
           "package": "geek",
@@ -2525,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "transformer",
           "package": "geek",
@@ -2534,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "transformer",
           "normalized": "Text-\u003eHTMLText",
@@ -2548,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "unHTMLText",
           "package": "geek",
@@ -2557,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "unHTMLText",
           "package": "geek",
@@ -2570,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:29 UTC 2014",
           "module": "Web.Geek.Type",
           "name": "unURIEscapedText",
           "package": "geek",
@@ -2579,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "Web Geek Type",
+          "indexed": "2014-03-11T18:14:29",
           "module": "Web.Geek.Type",
           "name": "unURIEscapedText",
           "package": "geek",

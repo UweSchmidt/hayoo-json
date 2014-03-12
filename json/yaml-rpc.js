@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yaml-rpc"
+        "phrase": "yaml-rpc",
+        "type": "phrase"
       },
       "type": "context"
     }

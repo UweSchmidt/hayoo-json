@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gloss-raster-accelerate"
+        "phrase": "gloss-raster-accelerate",
+        "type": "phrase"
       },
       "type": "context"
     }

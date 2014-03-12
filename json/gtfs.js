@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtfs"
+        "phrase": "gtfs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing GTFS files.\n\u003c/p\u003e\u003cp\u003eBesides these functions, this module provides many orphan\n instances of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003eParseRow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Parse",
           "name": "Parse",
           "package": "gtfs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parsing GTFS files Besides these functions this module provides many orphan instances of Field and ParseRow",
           "hierarchy": "Data GTFS Parse",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Parse",
           "name": "Parse",
           "package": "gtfs",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an entire feed directory.\n\u003c/p\u003e\u003cp\u003eEach individual file is read and parsed only when its field in \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFeed\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n is forced.  The usual caveats of lazy I/O apply.  Parsing within a file\n is not lazy.\n\u003c/p\u003e\u003cp\u003eAlternatives to this function include \u003ccode\u003e\u003ccode\u003e\u003ca\u003eparseFile\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003eparseRow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Parse",
           "name": "parseFeed",
           "package": "gtfs",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Parse an entire feed directory Each individual file is read and parsed only when its field in Feed is forced The usual caveats of lazy apply Parsing within file is not lazy Alternatives to this function include parseFile and parseRow",
           "hierarchy": "Data GTFS Parse",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Parse",
           "name": "parseFeed",
           "normalized": "FilePath-\u003eIO Feed",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single GTFS data file.\n\u003c/p\u003e\u003cp\u003eSince some files are optional, this produces an empty list\n if the file does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Parse",
           "name": "parseFile",
           "package": "gtfs",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Parse single GTFS data file Since some files are optional this produces an empty list if the file does not exist",
           "hierarchy": "Data GTFS Parse",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Parse",
           "name": "parseFile",
           "normalized": "FilePath-\u003eIO[a]",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes in a GTFS feed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Types",
           "package": "gtfs",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Types in GTFS feed",
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Types",
           "package": "gtfs",
@@ -116,6 +124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Agency",
           "package": "gtfs",
@@ -124,6 +133,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Agency",
           "package": "gtfs",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "AgencyID",
           "package": "gtfs",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "AgencyID",
           "package": "gtfs",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "BlockID",
           "package": "gtfs",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "BlockID",
           "package": "gtfs",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Calendar",
           "package": "gtfs",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Calendar",
           "package": "gtfs",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "CalendarDate",
           "package": "gtfs",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "CalendarDate",
           "package": "gtfs",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Color",
           "package": "gtfs",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Color",
           "package": "gtfs",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Currency",
           "package": "gtfs",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Currency",
           "package": "gtfs",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYear, month, day.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Date",
           "package": "gtfs",
@@ -273,6 +296,7 @@
         "index": {
           "description": "Year month day",
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Date",
           "package": "gtfs",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "DirectionID",
           "package": "gtfs",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "DirectionID",
           "package": "gtfs",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Distance",
           "package": "gtfs",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Distance",
           "package": "gtfs",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "ExceptionType",
           "package": "gtfs",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "ExceptionType",
           "package": "gtfs",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "FareAttribute",
           "package": "gtfs",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "FareAttribute",
           "package": "gtfs",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "FareID",
           "package": "gtfs",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "FareID",
           "package": "gtfs",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "FareRule",
           "package": "gtfs",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "FareRule",
           "package": "gtfs",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Feed",
           "package": "gtfs",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Feed",
           "package": "gtfs",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Frequency",
           "package": "gtfs",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Frequency",
           "package": "gtfs",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Language",
           "package": "gtfs",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Language",
           "package": "gtfs",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "LatLon",
           "package": "gtfs",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "LatLon",
           "package": "gtfs",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "LocationType",
           "package": "gtfs",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "LocationType",
           "package": "gtfs",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "OnOffType",
           "package": "gtfs",
@@ -525,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "OnOffType",
           "package": "gtfs",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "PaymentMethod",
           "package": "gtfs",
@@ -546,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "PaymentMethod",
           "package": "gtfs",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Phone",
           "package": "gtfs",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Phone",
           "package": "gtfs",
@@ -580,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Price",
           "package": "gtfs",
@@ -588,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Price",
           "package": "gtfs",
@@ -601,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Route",
           "package": "gtfs",
@@ -609,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Route",
           "package": "gtfs",
@@ -622,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "RouteID",
           "package": "gtfs",
@@ -630,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "RouteID",
           "package": "gtfs",
@@ -643,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "RouteType",
           "package": "gtfs",
@@ -651,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "RouteType",
           "package": "gtfs",
@@ -664,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Seconds",
           "package": "gtfs",
@@ -672,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Seconds",
           "package": "gtfs",
@@ -685,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Sequence",
           "package": "gtfs",
@@ -693,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Sequence",
           "package": "gtfs",
@@ -706,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "ServiceFlag",
           "package": "gtfs",
@@ -714,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "ServiceFlag",
           "package": "gtfs",
@@ -727,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "ServiceID",
           "package": "gtfs",
@@ -735,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "ServiceID",
           "package": "gtfs",
@@ -748,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Shape",
           "package": "gtfs",
@@ -756,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Shape",
           "package": "gtfs",
@@ -769,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "ShapeID",
           "package": "gtfs",
@@ -777,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "ShapeID",
           "package": "gtfs",
@@ -790,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Stop",
           "package": "gtfs",
@@ -798,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Stop",
           "package": "gtfs",
@@ -811,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "StopID",
           "package": "gtfs",
@@ -819,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "StopID",
           "package": "gtfs",
@@ -832,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "StopTime",
           "package": "gtfs",
@@ -840,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "StopTime",
           "package": "gtfs",
@@ -854,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHour, minute, second.\n\u003c/p\u003e\u003cp\u003eHours over 23 are legal, representing the next day\n relative to the start of a trip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Time",
           "package": "gtfs",
@@ -863,6 +942,7 @@
         "index": {
           "description": "Hour minute second Hours over are legal representing the next day relative to the start of trip",
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Time",
           "package": "gtfs",
@@ -876,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Timezone",
           "package": "gtfs",
@@ -884,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Timezone",
           "package": "gtfs",
@@ -897,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Transfer",
           "package": "gtfs",
@@ -905,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Transfer",
           "package": "gtfs",
@@ -918,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "TransferLimit",
           "package": "gtfs",
@@ -926,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "TransferLimit",
           "package": "gtfs",
@@ -939,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "TransferType",
           "package": "gtfs",
@@ -947,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "TransferType",
           "package": "gtfs",
@@ -960,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Trip",
           "package": "gtfs",
@@ -968,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Trip",
           "package": "gtfs",
@@ -981,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "TripID",
           "package": "gtfs",
@@ -989,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "TripID",
           "package": "gtfs",
@@ -1002,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "URL",
           "package": "gtfs",
@@ -1010,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "URL",
           "package": "gtfs",
@@ -1023,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "ZoneID",
           "package": "gtfs",
@@ -1031,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "ZoneID",
           "package": "gtfs",
@@ -1044,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Agency",
           "package": "gtfs",
@@ -1053,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Agency",
           "package": "gtfs",
@@ -1066,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Bus",
           "package": "gtfs",
@@ -1075,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Bus",
           "package": "gtfs",
@@ -1088,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "CableCar",
           "package": "gtfs",
@@ -1097,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "CableCar",
           "package": "gtfs",
@@ -1110,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Calendar",
           "package": "gtfs",
@@ -1119,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Calendar",
           "package": "gtfs",
@@ -1132,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "CalendarDate",
           "package": "gtfs",
@@ -1141,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "CalendarDate",
           "package": "gtfs",
@@ -1154,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Date",
           "package": "gtfs",
@@ -1163,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Date",
           "package": "gtfs",
@@ -1176,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "DirectionA",
           "package": "gtfs",
@@ -1185,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "DirectionA",
           "package": "gtfs",
@@ -1198,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "DirectionB",
           "package": "gtfs",
@@ -1207,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "DirectionB",
           "package": "gtfs",
@@ -1220,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "FareAttribute",
           "package": "gtfs",
@@ -1229,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "FareAttribute",
           "package": "gtfs",
@@ -1242,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "FareRule",
           "package": "gtfs",
@@ -1251,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "FareRule",
           "package": "gtfs",
@@ -1264,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Feed",
           "package": "gtfs",
@@ -1273,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Feed",
           "package": "gtfs",
@@ -1286,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Ferry",
           "package": "gtfs",
@@ -1295,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Ferry",
           "package": "gtfs",
@@ -1308,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Frequency",
           "package": "gtfs",
@@ -1317,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Frequency",
           "package": "gtfs",
@@ -1330,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Funicular",
           "package": "gtfs",
@@ -1339,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Funicular",
           "package": "gtfs",
@@ -1352,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Gondola",
           "package": "gtfs",
@@ -1361,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Gondola",
           "package": "gtfs",
@@ -1374,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "HasService",
           "package": "gtfs",
@@ -1383,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "HasService",
           "package": "gtfs",
@@ -1396,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "LocStation",
           "package": "gtfs",
@@ -1405,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "LocStation",
           "package": "gtfs",
@@ -1418,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "LocStop",
           "package": "gtfs",
@@ -1427,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "LocStop",
           "package": "gtfs",
@@ -1440,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Metro",
           "package": "gtfs",
@@ -1449,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Metro",
           "package": "gtfs",
@@ -1462,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "MinimumTransfer",
           "package": "gtfs",
@@ -1471,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "MinimumTransfer",
           "package": "gtfs",
@@ -1484,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "MustAskDriver",
           "package": "gtfs",
@@ -1493,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "MustAskDriver",
           "package": "gtfs",
@@ -1506,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "MustPhone",
           "package": "gtfs",
@@ -1515,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "MustPhone",
           "package": "gtfs",
@@ -1528,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "NoException",
           "package": "gtfs",
@@ -1537,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "NoException",
           "package": "gtfs",
@@ -1550,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "NoService",
           "package": "gtfs",
@@ -1559,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "NoService",
           "package": "gtfs",
@@ -1572,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "NoTransfer",
           "package": "gtfs",
@@ -1581,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "NoTransfer",
           "package": "gtfs",
@@ -1594,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "NotAvailable",
           "package": "gtfs",
@@ -1603,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "NotAvailable",
           "package": "gtfs",
@@ -1616,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "PayBeforeBoarding",
           "package": "gtfs",
@@ -1625,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "PayBeforeBoarding",
           "package": "gtfs",
@@ -1638,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "PayOnBoard",
           "package": "gtfs",
@@ -1647,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "PayOnBoard",
           "package": "gtfs",
@@ -1660,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Rail",
           "package": "gtfs",
@@ -1669,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Rail",
           "package": "gtfs",
@@ -1682,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "RecommendedTransfer",
           "package": "gtfs",
@@ -1691,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "RecommendedTransfer",
           "package": "gtfs",
@@ -1704,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "RegularlyScheduled",
           "package": "gtfs",
@@ -1713,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "RegularlyScheduled",
           "package": "gtfs",
@@ -1726,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Route",
           "package": "gtfs",
@@ -1735,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Route",
           "package": "gtfs",
@@ -1748,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "ServiceAdded",
           "package": "gtfs",
@@ -1757,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "ServiceAdded",
           "package": "gtfs",
@@ -1770,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "ServiceRemoved",
           "package": "gtfs",
@@ -1779,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "ServiceRemoved",
           "package": "gtfs",
@@ -1792,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Shape",
           "package": "gtfs",
@@ -1801,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Shape",
           "package": "gtfs",
@@ -1814,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Stop",
           "package": "gtfs",
@@ -1823,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Stop",
           "package": "gtfs",
@@ -1836,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "StopTime",
           "package": "gtfs",
@@ -1845,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "StopTime",
           "package": "gtfs",
@@ -1858,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Time",
           "package": "gtfs",
@@ -1867,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Time",
           "package": "gtfs",
@@ -1880,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "TimedTransfer",
           "package": "gtfs",
@@ -1889,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "TimedTransfer",
           "package": "gtfs",
@@ -1902,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Tram",
           "package": "gtfs",
@@ -1911,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Tram",
           "package": "gtfs",
@@ -1924,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Transfer",
           "package": "gtfs",
@@ -1933,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Transfer",
           "package": "gtfs",
@@ -1946,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "Trip",
           "package": "gtfs",
@@ -1955,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "Trip",
           "package": "gtfs",
@@ -1968,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "a_agency_id",
           "package": "gtfs",
@@ -1977,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "a_agency_id",
           "package": "gtfs",
@@ -1989,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "a_agency_lang",
           "package": "gtfs",
@@ -1998,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "a_agency_lang",
           "package": "gtfs",
@@ -2010,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "a_agency_name",
           "package": "gtfs",
@@ -2019,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "a_agency_name",
           "package": "gtfs",
@@ -2031,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "a_agency_phone",
           "package": "gtfs",
@@ -2040,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "a_agency_phone",
           "package": "gtfs",
@@ -2052,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "a_agency_timezone",
           "package": "gtfs",
@@ -2061,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "a_agency_timezone",
           "package": "gtfs",
@@ -2073,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "a_agency_url",
           "package": "gtfs",
@@ -2082,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "a_agency_url",
           "package": "gtfs",
@@ -2094,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "c_end_date",
           "package": "gtfs",
@@ -2103,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "c_end_date",
           "package": "gtfs",
@@ -2115,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "c_friday",
           "package": "gtfs",
@@ -2124,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "c_friday",
           "package": "gtfs",
@@ -2136,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "c_monday",
           "package": "gtfs",
@@ -2145,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "c_monday",
           "package": "gtfs",
@@ -2157,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "c_saturday",
           "package": "gtfs",
@@ -2166,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "c_saturday",
           "package": "gtfs",
@@ -2178,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "c_service_id",
           "package": "gtfs",
@@ -2187,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "c_service_id",
           "package": "gtfs",
@@ -2199,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "c_start_date",
           "package": "gtfs",
@@ -2208,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "c_start_date",
           "package": "gtfs",
@@ -2220,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "c_sunday",
           "package": "gtfs",
@@ -2229,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "c_sunday",
           "package": "gtfs",
@@ -2241,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "c_thursday",
           "package": "gtfs",
@@ -2250,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "c_thursday",
           "package": "gtfs",
@@ -2262,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "c_tuesday",
           "package": "gtfs",
@@ -2271,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "c_tuesday",
           "package": "gtfs",
@@ -2283,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "c_wednesday",
           "package": "gtfs",
@@ -2292,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "c_wednesday",
           "package": "gtfs",
@@ -2304,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "cd_date",
           "package": "gtfs",
@@ -2313,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "cd_date",
           "package": "gtfs",
@@ -2325,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "cd_exception_type",
           "package": "gtfs",
@@ -2334,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "cd_exception_type",
           "package": "gtfs",
@@ -2346,6 +2562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "cd_service_id",
           "package": "gtfs",
@@ -2355,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "cd_service_id",
           "package": "gtfs",
@@ -2367,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_agency",
           "package": "gtfs",
@@ -2376,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_agency",
           "normalized": "[Agency]",
@@ -2390,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_calendar",
           "package": "gtfs",
@@ -2399,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_calendar",
           "normalized": "[Calendar]",
@@ -2413,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_calendar_dates",
           "package": "gtfs",
@@ -2422,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_calendar_dates",
           "normalized": "[CalendarDate]",
@@ -2436,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_fare_attributes",
           "package": "gtfs",
@@ -2445,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_fare_attributes",
           "normalized": "[FareAttribute]",
@@ -2459,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_fare_rules",
           "package": "gtfs",
@@ -2468,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_fare_rules",
           "normalized": "[FareRule]",
@@ -2482,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_frequencies",
           "package": "gtfs",
@@ -2491,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_frequencies",
           "normalized": "[Frequency]",
@@ -2505,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_routes",
           "package": "gtfs",
@@ -2514,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_routes",
           "normalized": "[Route]",
@@ -2528,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_shapes",
           "package": "gtfs",
@@ -2537,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_shapes",
           "normalized": "[Shape]",
@@ -2551,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_stop_times",
           "package": "gtfs",
@@ -2560,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_stop_times",
           "normalized": "[StopTime]",
@@ -2574,6 +2810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_stops",
           "package": "gtfs",
@@ -2583,6 +2820,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_stops",
           "normalized": "[Stop]",
@@ -2597,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_transfers",
           "package": "gtfs",
@@ -2606,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_transfers",
           "normalized": "[Transfer]",
@@ -2620,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "f_trips",
           "package": "gtfs",
@@ -2629,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "f_trips",
           "normalized": "[Trip]",
@@ -2643,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fa_currency_type",
           "package": "gtfs",
@@ -2652,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fa_currency_type",
           "package": "gtfs",
@@ -2664,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fa_fare_id",
           "package": "gtfs",
@@ -2673,6 +2918,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fa_fare_id",
           "package": "gtfs",
@@ -2685,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fa_payment_method",
           "package": "gtfs",
@@ -2694,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fa_payment_method",
           "package": "gtfs",
@@ -2706,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fa_price",
           "package": "gtfs",
@@ -2715,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fa_price",
           "package": "gtfs",
@@ -2727,6 +2977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fa_transfer_duration",
           "package": "gtfs",
@@ -2736,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fa_transfer_duration",
           "package": "gtfs",
@@ -2748,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fa_transfers",
           "package": "gtfs",
@@ -2757,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fa_transfers",
           "package": "gtfs",
@@ -2769,6 +3023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fq_end_time",
           "package": "gtfs",
@@ -2778,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fq_end_time",
           "package": "gtfs",
@@ -2790,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fq_headway_secs",
           "package": "gtfs",
@@ -2799,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fq_headway_secs",
           "package": "gtfs",
@@ -2811,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fq_start_time",
           "package": "gtfs",
@@ -2820,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fq_start_time",
           "package": "gtfs",
@@ -2832,6 +3092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fq_trip_id",
           "package": "gtfs",
@@ -2841,6 +3102,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fq_trip_id",
           "package": "gtfs",
@@ -2853,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fr_contains_id",
           "package": "gtfs",
@@ -2862,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fr_contains_id",
           "package": "gtfs",
@@ -2874,6 +3138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fr_destination_id",
           "package": "gtfs",
@@ -2883,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fr_destination_id",
           "package": "gtfs",
@@ -2895,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fr_fare_id",
           "package": "gtfs",
@@ -2904,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fr_fare_id",
           "package": "gtfs",
@@ -2916,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fr_origin_id",
           "package": "gtfs",
@@ -2925,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fr_origin_id",
           "package": "gtfs",
@@ -2937,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "fr_route_id",
           "package": "gtfs",
@@ -2946,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "fr_route_id",
           "package": "gtfs",
@@ -2958,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "r_agency_id",
           "package": "gtfs",
@@ -2967,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "r_agency_id",
           "package": "gtfs",
@@ -2979,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "r_route_color",
           "package": "gtfs",
@@ -2988,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "r_route_color",
           "package": "gtfs",
@@ -3000,6 +3276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "r_route_desc",
           "package": "gtfs",
@@ -3009,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "r_route_desc",
           "package": "gtfs",
@@ -3021,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "r_route_id",
           "package": "gtfs",
@@ -3030,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "r_route_id",
           "package": "gtfs",
@@ -3042,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "r_route_long_name",
           "package": "gtfs",
@@ -3051,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "r_route_long_name",
           "package": "gtfs",
@@ -3063,6 +3345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "r_route_short_name",
           "package": "gtfs",
@@ -3072,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "r_route_short_name",
           "package": "gtfs",
@@ -3084,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "r_route_text_color",
           "package": "gtfs",
@@ -3093,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "r_route_text_color",
           "package": "gtfs",
@@ -3105,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "r_route_type",
           "package": "gtfs",
@@ -3114,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "r_route_type",
           "package": "gtfs",
@@ -3126,6 +3414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "r_route_url",
           "package": "gtfs",
@@ -3135,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "r_route_url",
           "package": "gtfs",
@@ -3147,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "s_location_type",
           "package": "gtfs",
@@ -3156,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "s_location_type",
           "package": "gtfs",
@@ -3168,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "s_parent_station",
           "package": "gtfs",
@@ -3177,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "s_parent_station",
           "package": "gtfs",
@@ -3189,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "s_stop_code",
           "package": "gtfs",
@@ -3198,6 +3493,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "s_stop_code",
           "package": "gtfs",
@@ -3210,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "s_stop_desc",
           "package": "gtfs",
@@ -3219,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "s_stop_desc",
           "package": "gtfs",
@@ -3231,6 +3529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "s_stop_id",
           "package": "gtfs",
@@ -3240,6 +3539,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "s_stop_id",
           "package": "gtfs",
@@ -3252,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "s_stop_lat",
           "package": "gtfs",
@@ -3261,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "s_stop_lat",
           "package": "gtfs",
@@ -3273,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "s_stop_lon",
           "package": "gtfs",
@@ -3282,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "s_stop_lon",
           "package": "gtfs",
@@ -3294,6 +3598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "s_stop_name",
           "package": "gtfs",
@@ -3303,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "s_stop_name",
           "package": "gtfs",
@@ -3315,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "s_stop_url",
           "package": "gtfs",
@@ -3324,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "s_stop_url",
           "package": "gtfs",
@@ -3336,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "s_zone_id",
           "package": "gtfs",
@@ -3345,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "s_zone_id",
           "package": "gtfs",
@@ -3357,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "sh_shape_dist_traveled",
           "package": "gtfs",
@@ -3366,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "sh_shape_dist_traveled",
           "package": "gtfs",
@@ -3378,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "sh_shape_id",
           "package": "gtfs",
@@ -3387,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "sh_shape_id",
           "package": "gtfs",
@@ -3399,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "sh_shape_pt_lat",
           "package": "gtfs",
@@ -3408,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "sh_shape_pt_lat",
           "package": "gtfs",
@@ -3420,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "sh_shape_pt_lon",
           "package": "gtfs",
@@ -3429,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "sh_shape_pt_lon",
           "package": "gtfs",
@@ -3441,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "sh_shape_pt_sequence",
           "package": "gtfs",
@@ -3450,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "sh_shape_pt_sequence",
           "package": "gtfs",
@@ -3462,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "st_arrival_time",
           "package": "gtfs",
@@ -3471,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "st_arrival_time",
           "package": "gtfs",
@@ -3483,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "st_departure_time",
           "package": "gtfs",
@@ -3492,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "st_departure_time",
           "package": "gtfs",
@@ -3504,6 +3828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "st_drop_off_type",
           "package": "gtfs",
@@ -3513,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "st_drop_off_type",
           "package": "gtfs",
@@ -3525,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "st_pickup_type",
           "package": "gtfs",
@@ -3534,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "st_pickup_type",
           "package": "gtfs",
@@ -3546,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "st_shape_dist_traveled",
           "package": "gtfs",
@@ -3555,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "st_shape_dist_traveled",
           "package": "gtfs",
@@ -3567,6 +3897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "st_stop_headsign",
           "package": "gtfs",
@@ -3576,6 +3907,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "st_stop_headsign",
           "package": "gtfs",
@@ -3588,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "st_stop_id",
           "package": "gtfs",
@@ -3597,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "st_stop_id",
           "package": "gtfs",
@@ -3609,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "st_stop_sequence",
           "package": "gtfs",
@@ -3618,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "st_stop_sequence",
           "package": "gtfs",
@@ -3630,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "st_trip_id",
           "package": "gtfs",
@@ -3639,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "st_trip_id",
           "package": "gtfs",
@@ -3651,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "t_block_id",
           "package": "gtfs",
@@ -3660,6 +3999,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "t_block_id",
           "package": "gtfs",
@@ -3672,6 +4012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "t_direction_id",
           "package": "gtfs",
@@ -3681,6 +4022,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "t_direction_id",
           "package": "gtfs",
@@ -3693,6 +4035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "t_route_id",
           "package": "gtfs",
@@ -3702,6 +4045,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "t_route_id",
           "package": "gtfs",
@@ -3714,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "t_service_id",
           "package": "gtfs",
@@ -3723,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "t_service_id",
           "package": "gtfs",
@@ -3735,6 +4081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "t_shape_id",
           "package": "gtfs",
@@ -3744,6 +4091,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "t_shape_id",
           "package": "gtfs",
@@ -3756,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "t_trip_headsign",
           "package": "gtfs",
@@ -3765,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "t_trip_headsign",
           "package": "gtfs",
@@ -3777,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "t_trip_id",
           "package": "gtfs",
@@ -3786,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "t_trip_id",
           "package": "gtfs",
@@ -3798,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "t_trip_short_name",
           "package": "gtfs",
@@ -3807,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "t_trip_short_name",
           "package": "gtfs",
@@ -3819,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "x_from_stop_id",
           "package": "gtfs",
@@ -3828,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "x_from_stop_id",
           "package": "gtfs",
@@ -3840,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "x_min_transfer_time",
           "package": "gtfs",
@@ -3849,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "x_min_transfer_time",
           "package": "gtfs",
@@ -3861,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "x_to_stop_id",
           "package": "gtfs",
@@ -3870,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "x_to_stop_id",
           "package": "gtfs",
@@ -3882,6 +4242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:14 UTC 2014",
           "module": "Data.GTFS.Types",
           "name": "x_transfer_type",
           "package": "gtfs",
@@ -3891,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "Data GTFS Types",
+          "indexed": "2014-03-11T18:22:14",
           "module": "Data.GTFS.Types",
           "name": "x_transfer_type",
           "package": "gtfs",

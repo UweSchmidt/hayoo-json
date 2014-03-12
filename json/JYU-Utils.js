@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "JYU-Utils"
+        "phrase": "JYU-Utils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.BinaryInstances",
           "name": "BinaryInstances",
           "package": "JYU-Utils",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Utils BinaryInstances",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.BinaryInstances",
           "name": "BinaryInstances",
           "package": "JYU-Utils",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Darcs",
           "name": "Darcs",
           "package": "JYU-Utils",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Utils Darcs",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Darcs",
           "name": "Darcs",
           "package": "JYU-Utils",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.DynMap",
           "name": "DynMap",
           "package": "JYU-Utils",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Utils DynMap",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.DynMap",
           "name": "DynMap",
           "package": "JYU-Utils",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.DynMap",
           "name": "PropertyMap",
           "package": "JYU-Utils",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Utils DynMap",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.DynMap",
           "name": "PropertyMap",
           "package": "JYU-Utils",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.DynMap",
           "name": "(=:)",
           "package": "JYU-Utils",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Utils DynMap",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.DynMap",
           "name": "(=:) =:",
           "normalized": "String-\u003ea-\u003eState PropertyMap()",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.DynMap",
           "name": "PM",
           "package": "JYU-Utils",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Utils DynMap",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.DynMap",
           "name": "PM",
           "normalized": "PM(Map String(String,Dynamic))",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.DynMap",
           "name": "emptyD",
           "package": "JYU-Utils",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Utils DynMap",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.DynMap",
           "name": "emptyD",
           "package": "JYU-Utils",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Exception",
           "name": "Exception",
           "package": "JYU-Utils",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Utils Exception",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Exception",
           "name": "Exception",
           "package": "JYU-Utils",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.File",
           "name": "File",
           "package": "JYU-Utils",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Utils File",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.File",
           "name": "File",
           "package": "JYU-Utils",
@@ -213,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCache results of operation op under name \u003ccode\u003efn\u003c/code\u003e. \n   if correct file is found, its contents are used, otherwise \u003ccode\u003eop\u003c/code\u003e is performed and it's results\n   are saved to the filed and returned from the call. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.File",
           "name": "Cacheable",
           "package": "JYU-Utils",
@@ -222,6 +241,7 @@
         "index": {
           "description": "Cache results of operation op under name fn if correct file is found its contents are used otherwise op is performed and it results are saved to the filed and returned from the call",
           "hierarchy": "Utils File",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.File",
           "name": "Cacheable",
           "package": "JYU-Utils",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.File",
           "name": "cached",
           "package": "JYU-Utils",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Utils File",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.File",
           "name": "cached",
           "normalized": "FilePath-\u003eIO a-\u003eIO a",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.File",
           "name": "inDirectory",
           "package": "JYU-Utils",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Utils File",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.File",
           "name": "inDirectory",
           "normalized": "FilePath-\u003eIO a-\u003eIO a",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.File",
           "name": "readCache",
           "package": "JYU-Utils",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Utils File",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.File",
           "name": "readCache",
           "normalized": "FilePath-\u003eIO a",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.File",
           "name": "writeCache",
           "package": "JYU-Utils",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Utils File",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.File",
           "name": "writeCache",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Function",
           "name": "Function",
           "package": "JYU-Utils",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Function",
           "name": "Function",
           "package": "JYU-Utils",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Function",
           "name": "maxBy",
           "package": "JYU-Utils",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Function",
           "name": "maxBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ea-\u003ea-\u003ea",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Function",
           "name": "minBy",
           "package": "JYU-Utils",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Function",
           "name": "minBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ea-\u003ea-\u003ea",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.List",
           "name": "List",
           "package": "JYU-Utils",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.List",
           "name": "List",
           "package": "JYU-Utils",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.List",
           "name": "applyMapM",
           "package": "JYU-Utils",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.List",
           "name": "applyMapM",
           "normalized": "a-\u003e[a-\u003eb c]-\u003eb[c]",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.List",
           "name": "changesM",
           "package": "JYU-Utils",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.List",
           "name": "changesM",
           "normalized": "[a-\u003eb c]-\u003ea-\u003eb[c]",
@@ -468,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup list into indevidual pairs: [1,2,3,4] =\u003e [(1,2),(3,4)]. \n   Works only with even number of elements\n\u003c/p\u003e\u003cp\u003eUndo pairs function\n\u003c/p\u003e\u003cp\u003eGroup list into pairs: [1,2,3] =\u003e [(1,2),(2,3)]. \n   Works with non null lists\n\u003c/p\u003e\u003cp\u003eUndo pairs1 function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.List",
           "name": "clusterBy",
           "package": "JYU-Utils",
@@ -478,6 +519,7 @@
         "index": {
           "description": "Group list into indevidual pairs Works only with even number of elements Undo pairs function Group list into pairs Works with non null lists Undo pairs1 function",
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.List",
           "name": "clusterBy",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[[a]]",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.List",
           "name": "schwartzianTransform",
           "package": "JYU-Utils",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.List",
           "name": "schwartzianTransform",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[a]",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.List",
           "name": "splitBy",
           "package": "JYU-Utils",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.List",
           "name": "splitBy",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Monad",
           "name": "Monad",
           "package": "JYU-Utils",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Utils Monad",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Monad",
           "name": "Monad",
           "package": "JYU-Utils",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Monad",
           "name": "doWhile",
           "package": "JYU-Utils",
@@ -571,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Utils Monad",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Monad",
           "name": "doWhile",
           "normalized": "(a-\u003eb(Maybe a))-\u003ea-\u003eb a",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Monad",
           "name": "sequenceWithParM",
           "package": "JYU-Utils",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Utils Monad",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Monad",
           "name": "sequenceWithParM",
           "normalized": "a-\u003e[a-\u003eb a]-\u003eb a",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Monad",
           "name": "untilM",
           "package": "JYU-Utils",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Utils Monad",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Monad",
           "name": "untilM",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb a",
@@ -633,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "MonadRandom",
           "package": "JYU-Utils",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "MonadRandom",
           "package": "JYU-Utils",
@@ -654,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "MonadRandom",
           "package": "JYU-Utils",
@@ -662,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "MonadRandom",
           "package": "JYU-Utils",
@@ -675,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "Rand",
           "package": "JYU-Utils",
@@ -683,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "Rand",
           "package": "JYU-Utils",
@@ -696,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "RandomT",
           "package": "JYU-Utils",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "RandomT",
           "package": "JYU-Utils",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "cauchyR",
           "package": "JYU-Utils",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "cauchyR",
           "normalized": "Double-\u003eDouble-\u003ea Double",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "chooseAtRandom",
           "package": "JYU-Utils",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "chooseAtRandom",
           "normalized": "(a,a)-\u003eb a",
@@ -764,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "evalRand",
           "package": "JYU-Utils",
@@ -773,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "evalRand",
           "normalized": "Rand a b-\u003ea-\u003eb",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "evalRandomIO",
           "package": "JYU-Utils",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "evalRandomIO",
           "normalized": "RandomT StdGen a b-\u003ea b",
@@ -812,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "evalRandomT",
           "package": "JYU-Utils",
@@ -821,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "evalRandomT",
           "normalized": "RandomT a b c-\u003ea-\u003eb c",
@@ -836,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "fromList",
           "package": "JYU-Utils",
@@ -845,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "fromList",
           "normalized": "[(a,Rational)]-\u003eb a",
@@ -860,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "fromNonWeightedList",
           "package": "JYU-Utils",
@@ -869,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "fromNonWeightedList",
           "normalized": "[a]-\u003eb a",
@@ -884,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "gaussianPerturbation",
           "package": "JYU-Utils",
@@ -893,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "gaussianPerturbation",
           "normalized": "a-\u003e[a]-\u003eb[a]",
@@ -908,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "gaussianPerturbationR",
           "package": "JYU-Utils",
@@ -917,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "gaussianPerturbationR",
           "normalized": "[a]-\u003e[a]-\u003eb[a]",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "gaussianRand",
           "package": "JYU-Utils",
@@ -941,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "gaussianRand",
           "normalized": "a[b]",
@@ -956,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "gaussianVector",
           "package": "JYU-Utils",
@@ -965,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "gaussianVector",
           "normalized": "a-\u003eInt-\u003eb[a]",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "getRandom",
           "package": "JYU-Utils",
@@ -989,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "getRandom",
           "package": "JYU-Utils",
@@ -1002,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "getRandomR",
           "package": "JYU-Utils",
@@ -1011,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "getRandomR",
           "normalized": "(a,a)-\u003eb a",
@@ -1026,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "normRand",
           "package": "JYU-Utils",
@@ -1035,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "normRand",
           "normalized": "a-\u003ea-\u003eb a",
@@ -1050,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "randomList",
           "package": "JYU-Utils",
@@ -1059,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "randomList",
           "normalized": "[a]-\u003eInt-\u003eb[a]",
@@ -1074,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "randomRoll",
           "package": "JYU-Utils",
@@ -1083,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "randomRoll",
           "normalized": "[a]-\u003eb[a]",
@@ -1098,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "runRandomT",
           "package": "JYU-Utils",
@@ -1107,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "runRandomT",
           "normalized": "RandomT a b c-\u003ea-\u003eb(c,a)",
@@ -1122,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "uniformRandomVector",
           "package": "JYU-Utils",
@@ -1131,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "uniformRandomVector",
           "normalized": "Int-\u003ea[b]",
@@ -1146,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "uniformRandomVectorRS",
           "package": "JYU-Utils",
@@ -1155,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "uniformRandomVectorRS",
           "normalized": "[(a,a)]-\u003eb[a]",
@@ -1170,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "withProbability",
           "package": "JYU-Utils",
@@ -1179,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "withProbability",
           "normalized": "Double-\u003ea b-\u003ea b-\u003ea b",
@@ -1194,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "withRandomPair",
           "package": "JYU-Utils",
@@ -1203,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "withRandomPair",
           "normalized": "(a-\u003ea-\u003eb c)-\u003e[a]-\u003eb c",
@@ -1218,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.MonadRandom",
           "name": "withRandomThree",
           "package": "JYU-Utils",
@@ -1227,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Utils MonadRandom",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.MonadRandom",
           "name": "withRandomThree",
           "normalized": "(a-\u003ea-\u003ea-\u003eb c)-\u003e[a]-\u003eb c",
@@ -1242,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Numeric",
           "name": "Numeric",
           "package": "JYU-Utils",
@@ -1250,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Utils Numeric",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Numeric",
           "name": "Numeric",
           "package": "JYU-Utils",
@@ -1263,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Numeric",
           "name": "widths",
           "package": "JYU-Utils",
@@ -1272,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Utils Numeric",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Numeric",
           "name": "widths",
           "normalized": "[(a,a)]-\u003e[a]",
@@ -1286,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Parallel",
           "name": "Parallel",
           "package": "JYU-Utils",
@@ -1294,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Utils Parallel",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Parallel",
           "name": "Parallel",
           "package": "JYU-Utils",
@@ -1307,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Parallel",
           "name": "TaskRunnerStrategy",
           "package": "JYU-Utils",
@@ -1315,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Utils Parallel",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Parallel",
           "name": "TaskRunnerStrategy",
           "package": "JYU-Utils",
@@ -1328,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Parallel",
           "name": "Failing",
           "package": "JYU-Utils",
@@ -1337,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Utils Parallel",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Parallel",
           "name": "Failing",
           "package": "JYU-Utils",
@@ -1350,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Parallel",
           "name": "Persistent",
           "package": "JYU-Utils",
@@ -1359,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Utils Parallel",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Parallel",
           "name": "Persistent",
           "package": "JYU-Utils",
@@ -1372,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Parallel",
           "name": "fork",
           "package": "JYU-Utils",
@@ -1381,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Utils Parallel",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Parallel",
           "name": "fork",
           "normalized": "(a-\u003eIO b)-\u003e[a]-\u003eIO[MVar b]",
@@ -1395,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Parallel",
           "name": "fork1",
           "package": "JYU-Utils",
@@ -1404,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Utils Parallel",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Parallel",
           "name": "fork1",
           "normalized": "(a-\u003eIO b)-\u003ea-\u003eIO(MVar b)",
@@ -1418,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Parallel",
           "name": "forkAndJoin",
           "package": "JYU-Utils",
@@ -1427,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Utils Parallel",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Parallel",
           "name": "forkAndJoin",
           "normalized": "(a-\u003eIO b)-\u003e[a]-\u003eIO[b]",
@@ -1442,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Parallel",
           "name": "joinMVars",
           "package": "JYU-Utils",
@@ -1451,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Utils Parallel",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Parallel",
           "name": "joinMVars",
           "normalized": "[MVar a]-\u003eIO[a]",
@@ -1466,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Parallel",
           "name": "parRun",
           "package": "JYU-Utils",
@@ -1475,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Utils Parallel",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Parallel",
           "name": "parRun",
           "normalized": "TaskRunnerStrategy-\u003eInt-\u003e[IO()]-\u003eIO()",
@@ -1490,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Parallel",
           "name": "parRunWithMonitor",
           "package": "JYU-Utils",
@@ -1499,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Utils Parallel",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Parallel",
           "name": "parRunWithMonitor",
           "normalized": "TaskRunnerStrategy-\u003eInt-\u003e(TVar[IO()]-\u003e[TVar Bool]-\u003eIO())-\u003e[IO()]-\u003eIO()",
@@ -1514,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Parallel",
           "name": "taskRunner",
           "package": "JYU-Utils",
@@ -1523,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Utils Parallel",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Parallel",
           "name": "taskRunner",
           "normalized": "TaskRunnerStrategy-\u003eTVar Bool-\u003eTVar[IO()]-\u003eIO()",
@@ -1538,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Point",
           "name": "Point",
           "package": "JYU-Utils",
@@ -1546,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Utils Point",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Point",
           "name": "Point",
           "package": "JYU-Utils",
@@ -1559,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Point",
           "name": "Pt",
           "package": "JYU-Utils",
@@ -1567,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Utils Point",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Point",
           "name": "Pt",
           "package": "JYU-Utils",
@@ -1580,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Point",
           "name": "norm2",
           "package": "JYU-Utils",
@@ -1589,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Utils Point",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Point",
           "name": "norm2",
           "normalized": "Pt a-\u003ea",
@@ -1603,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "package": "JYU-Utils",
@@ -1611,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "package": "JYU-Utils",
@@ -1624,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "package": "JYU-Utils",
@@ -1632,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "package": "JYU-Utils",
@@ -1645,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "package": "JYU-Utils",
@@ -1654,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "normalized": "Rectangle((a,a),(a,a))",
@@ -1670,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate rectangle around point (x,y)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "prop_Corners",
           "package": "JYU-Utils",
@@ -1680,6 +1825,7 @@
         "index": {
           "description": "Create rectangle around point",
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Rectangle",
           "name": "prop_Corners",
           "normalized": "(Int,Int)-\u003e(Int,Int)-\u003eBool",
@@ -1695,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Sampling",
           "name": "Sampling",
           "package": "JYU-Utils",
@@ -1703,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Utils Sampling",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Sampling",
           "name": "Sampling",
           "package": "JYU-Utils",
@@ -1716,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Sampling",
           "name": "sus",
           "package": "JYU-Utils",
@@ -1725,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Utils Sampling",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Sampling",
           "name": "sus",
           "normalized": "[(Double,a)]-\u003eInt-\u003eDouble-\u003e[a]",
@@ -1739,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.SemanticEditors",
           "name": "SemanticEditors",
           "package": "JYU-Utils",
@@ -1747,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Utils SemanticEditors",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.SemanticEditors",
           "name": "SemanticEditors",
           "package": "JYU-Utils",
@@ -1760,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Shuffle",
           "name": "Shuffle",
           "package": "JYU-Utils",
@@ -1768,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Utils Shuffle",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Shuffle",
           "name": "Shuffle",
           "package": "JYU-Utils",
@@ -1781,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Shuffle",
           "name": "doShuffle",
           "package": "JYU-Utils",
@@ -1790,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Utils Shuffle",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Shuffle",
           "name": "doShuffle",
           "normalized": "[a]-\u003eb[a]",
@@ -1805,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Shuffle",
           "name": "shuffle",
           "package": "JYU-Utils",
@@ -1814,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Utils Shuffle",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Shuffle",
           "name": "shuffle",
           "normalized": "[a]-\u003e[Int]-\u003e[a]",
@@ -1828,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.ShuffleMWC",
           "name": "ShuffleMWC",
           "package": "JYU-Utils",
@@ -1836,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Utils ShuffleMWC",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.ShuffleMWC",
           "name": "ShuffleMWC",
           "package": "JYU-Utils",
@@ -1849,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.ShuffleMWC",
           "name": "doShuffle",
           "package": "JYU-Utils",
@@ -1858,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Utils ShuffleMWC",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.ShuffleMWC",
           "name": "doShuffle",
           "normalized": "Gen(PrimState a)-\u003e[b]-\u003ea[b]",
@@ -1873,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.ShuffleMWC",
           "name": "shuffle",
           "package": "JYU-Utils",
@@ -1882,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Utils ShuffleMWC",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.ShuffleMWC",
           "name": "shuffle",
           "normalized": "[a]-\u003e[Int]-\u003e[a]",
@@ -1896,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "Stream",
           "package": "JYU-Utils",
@@ -1904,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "Stream",
           "package": "JYU-Utils",
@@ -1918,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeating stream\n\u003c/p\u003e\u003cp\u003eCreate a stream by iterating a monadic action\n\u003c/p\u003e\u003cp\u003ePure and monadic left fold over a stream\n\u003c/p\u003e\u003cp\u003eMerge two (time)streams\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "LRB",
           "package": "JYU-Utils",
@@ -1927,6 +2094,7 @@
         "index": {
           "description": "Repeating stream Create stream by iterating monadic action Pure and monadic left fold over stream Merge two time streams",
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "LRB",
           "package": "JYU-Utils",
@@ -1941,6 +2109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream of monadic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "Stream",
           "package": "JYU-Utils",
@@ -1950,6 +2119,7 @@
         "index": {
           "description": "Stream of monadic values",
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "Stream",
           "package": "JYU-Utils",
@@ -1963,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "B",
           "package": "JYU-Utils",
@@ -1972,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "B",
           "package": "JYU-Utils",
@@ -1984,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "L",
           "package": "JYU-Utils",
@@ -1993,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "L",
           "package": "JYU-Utils",
@@ -2005,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "R",
           "package": "JYU-Utils",
@@ -2014,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "R",
           "package": "JYU-Utils",
@@ -2026,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "Terminated",
           "package": "JYU-Utils",
@@ -2035,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "Terminated",
           "package": "JYU-Utils",
@@ -2048,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "Value",
           "package": "JYU-Utils",
@@ -2057,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "Value",
           "normalized": "Value(a(b,Stream a b))",
@@ -2073,6 +2253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop elements from the stream. Due to stream structure, this operation cannot\n  fail gracefully when dropping more elements than what is found in the stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "dropS",
           "package": "JYU-Utils",
@@ -2083,6 +2264,7 @@
         "index": {
           "description": "Drop elements from the stream Due to stream structure this operation cannot fail gracefully when dropping more elements than what is found in the stream",
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "dropS",
           "normalized": "Int-\u003eStream a b-\u003eStream a b",
@@ -2097,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "mapMS",
           "package": "JYU-Utils",
@@ -2106,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "mapMS",
           "normalized": "(a-\u003eb c)-\u003eStream b a-\u003eStream b c",
@@ -2121,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "pairS",
           "package": "JYU-Utils",
@@ -2130,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "pairS",
           "normalized": "Stream a b-\u003eStream a(b,b)",
@@ -2144,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "sequenceS",
           "package": "JYU-Utils",
@@ -2153,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "sequenceS",
           "normalized": "Stream a(a b)-\u003eStream a b",
@@ -2168,6 +2356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaching side effects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "sideEffect",
           "package": "JYU-Utils",
@@ -2178,6 +2367,7 @@
         "index": {
           "description": "Attaching side effects",
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "sideEffect",
           "normalized": "(a-\u003eb())-\u003eStream b a-\u003eStream b a",
@@ -2193,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "takeS",
           "package": "JYU-Utils",
@@ -2202,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "takeS",
           "normalized": "Int-\u003eStream a b-\u003eStream a b",
@@ -2216,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Stream",
           "name": "terminateOn",
           "package": "JYU-Utils",
@@ -2225,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Stream",
           "name": "terminateOn",
           "normalized": "(a-\u003eBool)-\u003eStream b a-\u003eStream b a",
@@ -2240,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.String",
           "name": "String",
           "package": "JYU-Utils",
@@ -2248,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Utils String",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.String",
           "name": "String",
           "package": "JYU-Utils",
@@ -2261,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.String",
           "name": "columnS",
           "package": "JYU-Utils",
@@ -2270,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "Utils String",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.String",
           "name": "columnS",
           "normalized": "[(String,a)]-\u003eString",
@@ -2284,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.String",
           "name": "columns",
           "package": "JYU-Utils",
@@ -2293,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Utils String",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.String",
           "name": "columns",
           "normalized": "[(String,String)]-\u003eString",
@@ -2307,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "Table",
           "package": "JYU-Utils",
@@ -2315,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "Table",
           "package": "JYU-Utils",
@@ -2328,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "Stripe",
           "package": "JYU-Utils",
@@ -2336,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "Stripe",
           "package": "JYU-Utils",
@@ -2349,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "Table",
           "package": "JYU-Utils",
@@ -2357,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "Table",
           "package": "JYU-Utils",
@@ -2370,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "colNames",
           "package": "JYU-Utils",
@@ -2379,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "colNames",
           "normalized": "Table a b c-\u003e[b]",
@@ -2394,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "column",
           "package": "JYU-Utils",
@@ -2403,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "column",
           "normalized": "a-\u003eTable b a c-\u003eStripe b c",
@@ -2417,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "columns",
           "package": "JYU-Utils",
@@ -2426,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "columns",
           "normalized": "Table a b c-\u003eMap b(Stripe a c)",
@@ -2440,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "fromCols",
           "package": "JYU-Utils",
@@ -2449,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "fromCols",
           "normalized": "Map a(Stripe b c)-\u003eTable b a c",
@@ -2464,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "fromRows",
           "package": "JYU-Utils",
@@ -2473,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "fromRows",
           "normalized": "Map a(Stripe b c)-\u003eTable a b c",
@@ -2488,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "intersectionWith",
           "package": "JYU-Utils",
@@ -2497,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "intersectionWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eTable d e a-\u003eTable d e b-\u003eTable d e c",
@@ -2512,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "row",
           "package": "JYU-Utils",
@@ -2521,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "row",
           "normalized": "a-\u003eTable a b c-\u003eStripe b c",
@@ -2535,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "rowNames",
           "package": "JYU-Utils",
@@ -2544,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "rowNames",
           "normalized": "Table a b c-\u003e[a]",
@@ -2559,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Table",
           "name": "rows",
           "package": "JYU-Utils",
@@ -2568,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Utils Table",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Table",
           "name": "rows",
           "normalized": "Table a b c-\u003eMap a(Stripe b c)",
@@ -2582,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Vector",
           "name": "Vector",
           "package": "JYU-Utils",
@@ -2590,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Utils Vector",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Vector",
           "name": "Vector",
           "package": "JYU-Utils",
@@ -2603,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Vector",
           "name": "Vector",
           "package": "JYU-Utils",
@@ -2611,6 +2838,7 @@
         },
         "index": {
           "hierarchy": "Utils Vector",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Vector",
           "name": "Vector",
           "package": "JYU-Utils",
@@ -2624,6 +2852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Vector",
           "name": "showMatrix",
           "package": "JYU-Utils",
@@ -2633,6 +2862,7 @@
         },
         "index": {
           "hierarchy": "Utils Vector",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Vector",
           "name": "showMatrix",
           "normalized": "Int-\u003e[Vector]-\u003eString",
@@ -2648,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Vector",
           "name": "showMatrix1",
           "package": "JYU-Utils",
@@ -2657,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "Utils Vector",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Vector",
           "name": "showMatrix1",
           "normalized": "Int-\u003e[Vector]-\u003eString",
@@ -2672,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Vector",
           "name": "showVector",
           "package": "JYU-Utils",
@@ -2681,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "Utils Vector",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Vector",
           "name": "showVector",
           "normalized": "Int-\u003eVector-\u003eString",
@@ -2696,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Vector",
           "name": "snap",
           "package": "JYU-Utils",
@@ -2705,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Utils Vector",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Vector",
           "name": "snap",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -2719,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:14 UTC 2014",
           "module": "Utils.Vector",
           "name": "stdDev",
           "package": "JYU-Utils",
@@ -2728,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Utils Vector",
+          "indexed": "2014-03-11T16:50:14",
           "module": "Utils.Vector",
           "name": "stdDev",
           "normalized": "[Vector]-\u003eDouble",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HSlippyMap"
+        "phrase": "HSlippyMap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:31 UTC 2014",
           "module": "HSlippyMap",
           "name": "HSlippyMap",
           "package": "HSlippyMap",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HSlippyMap",
+          "indexed": "2014-03-11T16:46:31",
           "module": "HSlippyMap",
           "name": "HSlippyMap",
           "package": "HSlippyMap",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:31 UTC 2014",
           "module": "HSlippyMap",
           "name": "Tile",
           "package": "HSlippyMap",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HSlippyMap",
+          "indexed": "2014-03-11T16:46:31",
           "module": "HSlippyMap",
           "name": "Tile",
           "package": "HSlippyMap",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:31 UTC 2014",
           "module": "HSlippyMap",
           "name": "tileFromLatLong",
           "package": "HSlippyMap",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "HSlippyMap",
+          "indexed": "2014-03-11T16:46:31",
           "module": "HSlippyMap",
           "name": "tileFromLatLong",
           "normalized": "Lat-\u003eLong-\u003eZLevel-\u003eTile",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:31 UTC 2014",
           "module": "HSlippyMap",
           "name": "tileFromXY",
           "package": "HSlippyMap",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "HSlippyMap",
+          "indexed": "2014-03-11T16:46:31",
           "module": "HSlippyMap",
           "name": "tileFromXY",
           "normalized": "X-\u003eY-\u003eZLevel-\u003eTile",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:31 UTC 2014",
           "module": "HSlippyMap",
           "name": "tilesFromBBox",
           "package": "HSlippyMap",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "HSlippyMap",
+          "indexed": "2014-03-11T16:46:31",
           "module": "HSlippyMap",
           "name": "tilesFromBBox",
           "normalized": "Tile-\u003eTile-\u003e[Tile]",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:31 UTC 2014",
           "module": "HSlippyMap",
           "name": "tlat",
           "package": "HSlippyMap",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "HSlippyMap",
+          "indexed": "2014-03-11T16:46:31",
           "module": "HSlippyMap",
           "name": "tlat",
           "normalized": "Tile-\u003eLat",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:31 UTC 2014",
           "module": "HSlippyMap",
           "name": "tlong",
           "package": "HSlippyMap",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "HSlippyMap",
+          "indexed": "2014-03-11T16:46:31",
           "module": "HSlippyMap",
           "name": "tlong",
           "normalized": "Tile-\u003eLong",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:31 UTC 2014",
           "module": "HSlippyMap",
           "name": "tx",
           "package": "HSlippyMap",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "HSlippyMap",
+          "indexed": "2014-03-11T16:46:31",
           "module": "HSlippyMap",
           "name": "tx",
           "normalized": "Tile-\u003eX",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:31 UTC 2014",
           "module": "HSlippyMap",
           "name": "ty",
           "package": "HSlippyMap",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "HSlippyMap",
+          "indexed": "2014-03-11T16:46:31",
           "module": "HSlippyMap",
           "name": "ty",
           "normalized": "Tile-\u003eY",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:31 UTC 2014",
           "module": "HSlippyMap",
           "name": "tz",
           "package": "HSlippyMap",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "HSlippyMap",
+          "indexed": "2014-03-11T16:46:31",
           "module": "HSlippyMap",
           "name": "tz",
           "normalized": "Tile-\u003eZLevel",

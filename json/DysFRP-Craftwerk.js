@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DysFRP-Craftwerk"
+        "phrase": "DysFRP-Craftwerk",
+        "type": "phrase"
       },
       "type": "context"
     }

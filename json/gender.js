@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gender"
+        "phrase": "gender",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:38 UTC 2014",
           "module": "Language.Gender",
           "name": "Gender",
           "package": "gender",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Gender",
+          "indexed": "2014-03-11T18:14:38",
           "module": "Language.Gender",
           "name": "Gender",
           "package": "gender",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:38 UTC 2014",
           "module": "Language.Gender",
           "name": "Gender",
           "package": "gender",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Gender",
+          "indexed": "2014-03-11T18:14:38",
           "module": "Language.Gender",
           "name": "Gender",
           "package": "gender",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:38 UTC 2014",
           "module": "Language.Gender",
           "name": "Female",
           "package": "gender",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Language Gender",
+          "indexed": "2014-03-11T18:14:38",
           "module": "Language.Gender",
           "name": "Female",
           "package": "gender",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:38 UTC 2014",
           "module": "Language.Gender",
           "name": "Male",
           "package": "gender",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language Gender",
+          "indexed": "2014-03-11T18:14:38",
           "module": "Language.Gender",
           "name": "Male",
           "package": "gender",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:38 UTC 2014",
           "module": "Language.Gender",
           "name": "MostlyFemale",
           "package": "gender",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Language Gender",
+          "indexed": "2014-03-11T18:14:38",
           "module": "Language.Gender",
           "name": "MostlyFemale",
           "package": "gender",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:38 UTC 2014",
           "module": "Language.Gender",
           "name": "MostlyMale",
           "package": "gender",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Language Gender",
+          "indexed": "2014-03-11T18:14:38",
           "module": "Language.Gender",
           "name": "MostlyMale",
           "package": "gender",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:38 UTC 2014",
           "module": "Language.Gender",
           "name": "Unisex",
           "package": "gender",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Language Gender",
+          "indexed": "2014-03-11T18:14:38",
           "module": "Language.Gender",
           "name": "Unisex",
           "package": "gender",
@@ -171,6 +185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the default dictionary file from disk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:38 UTC 2014",
           "module": "Language.Gender",
           "name": "defaultDictionary",
           "package": "gender",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Loads the default dictionary file from disk",
           "hierarchy": "Language Gender",
+          "indexed": "2014-03-11T18:14:38",
           "module": "Language.Gender",
           "name": "defaultDictionary",
           "normalized": "IO[(Text,Gender)]",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault dictionary file: $datadir/nam_dict.txt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:38 UTC 2014",
           "module": "Language.Gender",
           "name": "defaultDictionaryFile",
           "package": "gender",
@@ -207,6 +224,7 @@
         "index": {
           "description": "Default dictionary file datadir nam dict.txt",
           "hierarchy": "Language Gender",
+          "indexed": "2014-03-11T18:14:38",
           "module": "Language.Gender",
           "name": "defaultDictionaryFile",
           "package": "gender",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses Text with the nam_dict format into a lookup table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:38 UTC 2014",
           "module": "Language.Gender",
           "name": "parseDictionary",
           "package": "gender",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Parses Text with the nam dict format into lookup table",
           "hierarchy": "Language Gender",
+          "indexed": "2014-03-11T18:14:38",
           "module": "Language.Gender",
           "name": "parseDictionary",
           "normalized": "Text-\u003e[(Text,Gender)]",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns parseDictionary from a FilePath\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:38 UTC 2014",
           "module": "Language.Gender",
           "name": "parseDictionaryFile",
           "package": "gender",
@@ -257,6 +278,7 @@
         "index": {
           "description": "Runs parseDictionary from FilePath",
           "hierarchy": "Language Gender",
+          "indexed": "2014-03-11T18:14:38",
           "module": "Language.Gender",
           "name": "parseDictionaryFile",
           "normalized": "FilePath-\u003eIO[(Text,Gender)]",

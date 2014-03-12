@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "supercollider-ht"
+        "phrase": "supercollider-ht",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRemember to call \u003ccode\u003ewithSC3 reset\u003c/code\u003e before trying any example.\nAn example can be tested with \u003ccode\u003e\u003ca\u003eaudition\u003c/a\u003e\u003c/code\u003e.\nThe sound can be stopped with \u003ccode\u003ewithSC3 reset\u003c/code\u003e, again.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "Effect",
           "package": "supercollider-ht",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Remember to call withSC3 reset before trying any example An example can be tested with audition The sound can be stopped with withSC3 reset again",
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "Effect",
           "package": "supercollider-ht",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "analogBubbles",
           "package": "supercollider-ht",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "analogBubbles",
           "package": "supercollider-ht",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "bassFilter",
           "package": "supercollider-ht",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "bassFilter",
           "package": "supercollider-ht",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "bassFilterGlissando",
           "package": "supercollider-ht",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "bassFilterGlissando",
           "package": "supercollider-ht",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "bassFilterRun",
           "package": "supercollider-ht",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "bassFilterRun",
           "normalized": "IO()",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "dbl",
           "package": "supercollider-ht",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "dbl",
           "normalized": "a-\u003e(a,a)",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "envPerc'",
           "package": "supercollider-ht",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "envPerc'",
           "normalized": "[UGen]",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "filterPerc",
           "package": "supercollider-ht",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "filterPerc",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "filterSweep",
           "package": "supercollider-ht",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "filterSweep",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "formant0",
           "package": "supercollider-ht",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "formant0",
           "package": "supercollider-ht",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "formant1",
           "package": "supercollider-ht",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "formant1",
           "package": "supercollider-ht",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "formant2",
           "package": "supercollider-ht",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "formant2",
           "package": "supercollider-ht",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "loadEffect",
           "package": "supercollider-ht",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "loadEffect",
           "normalized": "String-\u003eUGen-\u003ea OSC",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "loadTone",
           "package": "supercollider-ht",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "loadTone",
           "normalized": "String-\u003e(UGen-\u003eUGen-\u003eUGen)-\u003ea OSC",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "newGroup",
           "package": "supercollider-ht",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "newGroup",
           "normalized": "Int-\u003eInt-\u003ea()",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "pg",
           "package": "supercollider-ht",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "pg",
           "normalized": "UGen-\u003eUGen",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "pgmouse",
           "package": "supercollider-ht",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "pgmouse",
           "normalized": "UGen-\u003eUGen",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "playEffect",
           "package": "supercollider-ht",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "playEffect",
           "normalized": "Int-\u003eString-\u003ea()",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "playFilterSweep",
           "package": "supercollider-ht",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "playFilterSweep",
           "normalized": "IO()",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "playScale",
           "package": "supercollider-ht",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "playScale",
           "normalized": "IO()",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "playSimpleSweep",
           "package": "supercollider-ht",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "playSimpleSweep",
           "normalized": "IO()",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "playSuccSweep",
           "package": "supercollider-ht",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "playSuccSweep",
           "normalized": "IO()",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "playTone",
           "package": "supercollider-ht",
@@ -536,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "playTone",
           "normalized": "String-\u003eDouble-\u003eDouble-\u003ea()",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "playToneInGroup",
           "package": "supercollider-ht",
@@ -560,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "playToneInGroup",
           "normalized": "Int-\u003eString-\u003eDouble-\u003eDouble-\u003ea()",
@@ -575,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "playToneSep",
           "package": "supercollider-ht",
@@ -584,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "playToneSep",
           "normalized": "String-\u003eDouble-\u003eDouble-\u003ea()",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "ps",
           "package": "supercollider-ht",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "ps",
           "package": "supercollider-ht",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "pt",
           "package": "supercollider-ht",
@@ -629,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "pt",
           "package": "supercollider-ht",
@@ -641,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "randomPerc",
           "package": "supercollider-ht",
@@ -650,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "randomPerc",
           "normalized": "IO()",
@@ -665,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "render",
           "package": "supercollider-ht",
@@ -674,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "render",
           "normalized": "FilePath-\u003eDouble-\u003eUGen-\u003eIO()",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "renderAnalogBubbles",
           "package": "supercollider-ht",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "renderAnalogBubbles",
           "normalized": "IO()",
@@ -712,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "renderBassFilter",
           "package": "supercollider-ht",
@@ -721,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "renderBassFilter",
           "normalized": "IO()",
@@ -736,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "renderWind",
           "package": "supercollider-ht",
@@ -745,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "renderWind",
           "normalized": "IO()",
@@ -760,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "sawPerc",
           "package": "supercollider-ht",
@@ -769,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "sawPerc",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "seed",
           "package": "supercollider-ht",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "seed",
           "package": "supercollider-ht",
@@ -805,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "toneToFreq",
           "package": "supercollider-ht",
@@ -814,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "toneToFreq",
           "normalized": "Int-\u003eDouble",
@@ -829,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "wind",
           "package": "supercollider-ht",
@@ -838,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "wind",
           "normalized": "UGen-\u003eUGen",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Example.Effect",
           "name": "windMouse",
           "package": "supercollider-ht",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Example Effect",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Example.Effect",
           "name": "windMouse",
           "normalized": "UGen-\u003eUGen",
@@ -876,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "PlayEasy",
           "package": "supercollider-ht",
@@ -884,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "PlayEasy",
           "package": "supercollider-ht",
@@ -897,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "NodeId",
           "package": "supercollider-ht",
@@ -905,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "NodeId",
           "package": "supercollider-ht",
@@ -919,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewithSC3 . play\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "audition",
           "package": "supercollider-ht",
@@ -929,6 +1008,7 @@
         "index": {
           "description": "withSC3 play",
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "audition",
           "normalized": "UGen-\u003eIO OSC",
@@ -943,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "autoId",
           "package": "supercollider-ht",
@@ -952,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "autoId",
           "package": "supercollider-ht",
@@ -965,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "d_recv_synthdef",
           "package": "supercollider-ht",
@@ -974,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "d_recv_synthdef",
           "normalized": "String-\u003eUGen-\u003eOSC",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "homeId",
           "package": "supercollider-ht",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "homeId",
           "package": "supercollider-ht",
@@ -1010,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "lastId",
           "package": "supercollider-ht",
@@ -1019,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "lastId",
           "package": "supercollider-ht",
@@ -1033,6 +1121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns 1 for mono signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "mceDegree",
           "package": "supercollider-ht",
@@ -1043,6 +1132,7 @@
         "index": {
           "description": "Returns for mono signals",
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "mceDegree",
           "normalized": "UGen-\u003eInt",
@@ -1058,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "noId",
           "package": "supercollider-ht",
@@ -1067,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "noId",
           "package": "supercollider-ht",
@@ -1081,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an instrument definition, send \u003cem\u003ed_recv and \u003c/em\u003es_new messages to scsynth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "play",
           "package": "supercollider-ht",
@@ -1091,6 +1184,7 @@
         "index": {
           "description": "Construct an instrument definition send recv and new messages to scsynth",
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "play",
           "normalized": "UGen-\u003ea OSC",
@@ -1105,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "playId",
           "package": "supercollider-ht",
@@ -1114,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "playId",
           "normalized": "NodeId-\u003eUGen-\u003ea OSC",
@@ -1129,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "playIdCustomOut",
           "package": "supercollider-ht",
@@ -1138,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "playIdCustomOut",
           "normalized": "NodeId-\u003eUGen-\u003ea OSC",
@@ -1154,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all nodes and re-create group node with id \u003ccode\u003e\u003ca\u003ehomeId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "reset",
           "package": "supercollider-ht",
@@ -1164,6 +1263,7 @@
         "index": {
           "description": "Free all nodes and re-create group node with id homeId",
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "reset",
           "normalized": "a()",
@@ -1178,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "rootId",
           "package": "supercollider-ht",
@@ -1187,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "rootId",
           "package": "supercollider-ht",
@@ -1200,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "set",
           "package": "supercollider-ht",
@@ -1209,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "set",
           "normalized": "String-\u003eDouble-\u003ea()",
@@ -1223,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "setId",
           "package": "supercollider-ht",
@@ -1232,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "setId",
           "normalized": "NodeId-\u003eString-\u003eDouble-\u003ea()",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "setMulti",
           "package": "supercollider-ht",
@@ -1256,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "setMulti",
           "normalized": "[(String,Double)]-\u003ea()",
@@ -1271,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "simpleSync",
           "package": "supercollider-ht",
@@ -1280,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "simpleSync",
           "normalized": "OSC-\u003ea()",
@@ -1296,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all nodes at the group with node id \u003ccode\u003e\u003ca\u003ehomeId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "stop",
           "package": "supercollider-ht",
@@ -1306,6 +1417,7 @@
         "index": {
           "description": "Free all nodes at the group with node id homeId",
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "stop",
           "normalized": "a()",
@@ -1320,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "stopId",
           "package": "supercollider-ht",
@@ -1329,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "stopId",
           "normalized": "NodeId-\u003ea()",
@@ -1344,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "sync",
           "package": "supercollider-ht",
@@ -1353,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "sync",
           "normalized": "OSC-\u003ea OSC",
@@ -1368,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBracket SC3 communication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "withSC3",
           "package": "supercollider-ht",
@@ -1378,6 +1495,7 @@
         "index": {
           "description": "Bracket SC3 communication",
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "withSC3",
           "normalized": "T UDP a-\u003eIO a",
@@ -1394,6 +1512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite SC3 communication to a command file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "withSC3File",
           "package": "supercollider-ht",
@@ -1404,6 +1523,7 @@
         "index": {
           "description": "Write SC3 communication to command file",
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "withSC3File",
           "normalized": "FilePath-\u003eT T a-\u003eIO a",
@@ -1420,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBracket SC3 communication via TCP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "withSC3TCP",
           "package": "supercollider-ht",
@@ -1430,6 +1551,7 @@
         "index": {
           "description": "Bracket SC3 communication via TCP",
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "withSC3TCP",
           "normalized": "T TCP a-\u003eIO a",
@@ -1446,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBracket SC3 communication via UDP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:54 UTC 2014",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "withSC3UDP",
           "package": "supercollider-ht",
@@ -1456,6 +1579,7 @@
         "index": {
           "description": "Bracket SC3 communication via UDP",
           "hierarchy": "Sound SC3 Server PlayEasy",
+          "indexed": "2014-03-11T20:13:54",
           "module": "Sound.SC3.Server.PlayEasy",
           "name": "withSC3UDP",
           "normalized": "T UDP a-\u003eIO a",

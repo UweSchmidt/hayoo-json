@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Chart-cairo"
+        "phrase": "Chart-cairo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe backend to render charts with cairo.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "Cairo",
           "package": "Chart-cairo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The backend to render charts with cairo",
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "Cairo",
           "package": "Chart-cairo",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "FileFormat",
           "package": "Chart-cairo",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "FileFormat",
           "package": "Chart-cairo",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "FileOptions",
           "package": "Chart-cairo",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "FileOptions",
           "package": "Chart-cairo",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "FileOptions",
           "package": "Chart-cairo",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "FileOptions",
           "package": "Chart-cairo",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "PDF",
           "package": "Chart-cairo",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "PDF",
           "package": "Chart-cairo",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "PNG",
           "package": "Chart-cairo",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "PNG",
           "package": "Chart-cairo",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "PS",
           "package": "Chart-cairo",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "PS",
           "package": "Chart-cairo",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "SVG",
           "package": "Chart-cairo",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "SVG",
           "package": "Chart-cairo",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "_fo_format",
           "package": "Chart-cairo",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "_fo_format",
           "package": "Chart-cairo",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "_fo_size",
           "package": "Chart-cairo",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "_fo_size",
           "normalized": "(Int,Int)",
@@ -238,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an image file for the given drawing instructions, at the specified path. Size and\n format are set through the \u003ccode\u003e\u003ca\u003eFileOptions\u003c/a\u003e\u003c/code\u003e parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "cBackendToFile",
           "package": "Chart-cairo",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Generate an image file for the given drawing instructions at the specified path Size and format are set through the FileOptions parameter",
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "cBackendToFile",
           "normalized": "FileOptions-\u003eChartBackend a-\u003eFilePath-\u003eIO a",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a environment with no transformation and clipping. \n   It will use the default styles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "defaultEnv",
           "package": "Chart-cairo",
@@ -274,6 +297,7 @@
         "index": {
           "description": "Produce environment with no transformation and clipping It will use the default styles",
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "defaultEnv",
           "normalized": "AlignmentFns-\u003eCEnv",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "fo_format",
           "package": "Chart-cairo",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "fo_format",
           "package": "Chart-cairo",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "fo_size",
           "package": "Chart-cairo",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "fo_size",
           "normalized": "Lens' FileOptions(Int,Int)",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an image file for the given renderable, at the specified path. Size and\n format are set through the \u003ccode\u003e\u003ca\u003eFileOptions\u003c/a\u003e\u003c/code\u003e parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "renderableToFile",
           "package": "Chart-cairo",
@@ -344,6 +373,7 @@
         "index": {
           "description": "Generate an image file for the given renderable at the specified path Size and format are set through the FileOptions parameter",
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "renderableToFile",
           "normalized": "FileOptions-\u003eRenderable a-\u003eFilePath-\u003eIO(PickFn a)",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderableToFile\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eOutput the given renderable to a PDF file of the specifed size\n   (in points), to the specified file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "renderableToPDFFile",
           "package": "Chart-cairo",
@@ -370,6 +401,7 @@
         "index": {
           "description": "Deprecated use renderableToFile Output the given renderable to PDF file of the specifed size in points to the specified file",
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "renderableToPDFFile",
           "normalized": "Renderable a-\u003eInt-\u003eInt-\u003eFilePath-\u003eIO()",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderableToFile\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "renderableToPNGFile",
           "package": "Chart-cairo",
@@ -396,6 +429,7 @@
         "index": {
           "description": "Deprecated use renderableToFile",
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "renderableToPNGFile",
           "normalized": "Renderable a-\u003eInt-\u003eInt-\u003eFilePath-\u003eIO(PickFn a)",
@@ -412,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderableToFile\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eOutput the given renderable to a postscript file of the specifed size\n   (in points), to the specified file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "renderableToPSFile",
           "package": "Chart-cairo",
@@ -422,6 +457,7 @@
         "index": {
           "description": "Deprecated use renderableToFile Output the given renderable to postscript file of the specifed size in points to the specified file",
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "renderableToPSFile",
           "normalized": "Renderable a-\u003eInt-\u003eInt-\u003eFilePath-\u003eIO()",
@@ -438,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderableToFile\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eOutput the given renderable to an SVG file of the specifed size\n   (in points), to the specified file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "renderableToSVGFile",
           "package": "Chart-cairo",
@@ -448,6 +485,7 @@
         "index": {
           "description": "Deprecated use renderableToFile Output the given renderable to an SVG file of the specifed size in points to the specified file",
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "renderableToSVGFile",
           "normalized": "Renderable a-\u003eInt-\u003eInt-\u003eFilePath-\u003eIO()",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun this backends renderer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "runBackend",
           "package": "Chart-cairo",
@@ -473,6 +512,7 @@
         "index": {
           "description": "Run this backends renderer",
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "runBackend",
           "normalized": "CEnv-\u003eChartBackend a-\u003eRender a",
@@ -489,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderableToFile\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eGenerate a PDF for the sparkline, using its natural size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "sparkLineToPDF",
           "package": "Chart-cairo",
@@ -499,6 +540,7 @@
         "index": {
           "description": "Deprecated use renderableToFile Generate PDF for the sparkline using its natural size",
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "sparkLineToPDF",
           "normalized": "FilePath-\u003eSparkLine-\u003eIO()",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderableToFile\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eGenerate a PNG for the sparkline, using its natural size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:22 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "sparkLineToPNG",
           "package": "Chart-cairo",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Deprecated use renderableToFile Generate PNG for the sparkline using its natural size",
           "hierarchy": "Graphics Rendering Chart Backend Cairo",
+          "indexed": "2014-03-11T16:36:22",
           "module": "Graphics.Rendering.Chart.Backend.Cairo",
           "name": "sparkLineToPNG",
           "normalized": "FilePath-\u003eSparkLine-\u003eIO(PickFn())",

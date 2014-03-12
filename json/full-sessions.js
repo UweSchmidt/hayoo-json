@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "full-sessions"
+        "phrase": "full-sessions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePi-calculus style communication and concurrency primitives which come with session types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "FullSession",
           "package": "full-sessions",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pi-calculus style communication and concurrency primitives which come with session types",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "FullSession",
           "package": "full-sessions",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level snoc (reversed version of cons \u003ccode\u003e(:)\u003c/code\u003e). \u003ccode\u003ess :\u003e s\u003c/code\u003e denotes a list \u003ccode\u003ess\u003c/code\u003e with \u003ccode\u003es\u003c/code\u003e on its end.  (FIXME:English)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": ":\u003e",
           "package": "full-sessions",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type-level snoc reversed version of cons ss denotes list ss with on its end FIXME English",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": ":\u003e",
           "package": "full-sessions",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype-level \u003ccode\u003e\u003ca\u003e&&\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "And",
           "package": "full-sessions",
@@ -73,6 +78,7 @@
         "index": {
           "description": "type-level",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "And",
           "package": "full-sessions",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "AppendEnd",
           "package": "full-sessions",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "AppendEnd",
           "package": "full-sessions",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "AppendEnd'",
           "package": "full-sessions",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "AppendEnd'",
           "package": "full-sessions",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBot\u003c/a\u003e\u003c/code\u003e is the type for a channel whose both endpoints are already engaged by two processes, so that no further processes can own that channel. \n   For example,  in \u003ccode\u003eforkIO (send k e) \u003e\u003e\u003e recv k\u003c/code\u003e, \u003ccode\u003ek\u003c/code\u003e has type \u003ccode\u003e\u003ca\u003eBot\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Bot",
           "package": "full-sessions",
@@ -138,6 +149,7 @@
         "index": {
           "description": "Bot is the type for channel whose both endpoints are already engaged by two processes so that no further processes can own that channel For example in forkIO send recv has type Bot",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Bot",
           "package": "full-sessions",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eCatch\u003c/a\u003e\u003c/code\u003e u1 u2\u003c/code\u003e is the input of a channel with session type \u003ccode\u003eu1\u003c/code\u003e followed by a behavior of type \u003ccode\u003eu2\u003c/code\u003e. \n Use of \u003ccode\u003e\u003ccode\u003erecvS\u003c/code\u003e\u003c/code\u003e on a channel changes its session type from \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCatch\u003c/a\u003e\u003c/code\u003e u1 u2\u003c/code\u003e into \u003ccode\u003eu2\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Catch",
           "package": "full-sessions",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Catch u1 u2 is the input of channel with session type u1 followed by behavior of type u2 Use of recvS on channel changes its session type from Catch u1 u2 into u2",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Catch",
           "package": "full-sessions",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe channel type. The type-level number \u003ccode\u003en\u003c/code\u003e points to the session-type in type environments. For example, in the type\n  \u003ccode\u003eSession t (Nil:\u003eSend Int End) (Nil:\u003eEnd) ()\u003c/code\u003e, \n the usage of the channel \u003ccode\u003ec :: Channel t Z\u003c/code\u003e is \u003ccode\u003eSend Int End\u003c/code\u003e in pretype and \u003ccode\u003eEnd\u003c/code\u003e in posttype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Channel",
           "package": "full-sessions",
@@ -184,6 +199,7 @@
         "index": {
           "description": "The channel type The type-level number points to the session-type in type environments For example in the type Session Nil Send Int End Nil End the usage of the channel Channel is Send Int End in pretype and End in posttype",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Channel",
           "package": "full-sessions",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eClose\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e denotes a session that can do nothing but closing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Close",
           "package": "full-sessions",
@@ -207,6 +224,7 @@
         "index": {
           "description": "Close denotes session that can do nothing but closing it",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Close",
           "package": "full-sessions",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esesion type algebra\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Comp",
           "package": "full-sessions",
@@ -230,6 +249,7 @@
         "index": {
           "description": "sesion type algebra",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Comp",
           "package": "full-sessions",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Diff",
           "package": "full-sessions",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Diff",
           "package": "full-sessions",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Diff'",
           "package": "full-sessions",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Diff'",
           "package": "full-sessions",
@@ -286,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eduality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Dual",
           "package": "full-sessions",
@@ -295,6 +320,7 @@
         "index": {
           "description": "duality",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Dual",
           "package": "full-sessions",
@@ -309,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eEnd\u003c/a\u003e\u003c/code\u003e denotes a terminated session. Further communication along a channel with type \u003ccode\u003e\u003ca\u003eEnd\u003c/a\u003e\u003c/code\u003e cannot take place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "End",
           "package": "full-sessions",
@@ -318,6 +345,7 @@
         "index": {
           "description": "End denotes terminated session Further communication along channel with type End cannot take place",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "End",
           "package": "full-sessions",
@@ -332,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eEnded\u003c/a\u003e\u003c/code\u003e n ss\u003c/code\u003e denotes that the session-type environment \u003ccode\u003ess\u003c/code\u003e (the length of it is \u003ccode\u003en\u003c/code\u003e) is Ended. The all elements in an Ended type environments are \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEnd\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Ended",
           "package": "full-sessions",
@@ -341,6 +370,7 @@
         "index": {
           "description": "Ended ss denotes that the session-type environment ss the length of it is is Ended The all elements in an Ended type environments are End",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Ended",
           "package": "full-sessions",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "EndedWithout",
           "package": "full-sessions",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "EndedWithout",
           "package": "full-sessions",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "EndedWithout'",
           "package": "full-sessions",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "EndedWithout'",
           "package": "full-sessions",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "EndedWithout2",
           "package": "full-sessions",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "EndedWithout2",
           "package": "full-sessions",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "EndedWithout2'",
           "package": "full-sessions",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "EndedWithout2'",
           "package": "full-sessions",
@@ -439,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality on type-level natural numbers.  \u003ccode\u003eb ~ \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e if \u003ccode\u003ex == y\u003c/code\u003e. Otherwise \u003ccode\u003eb ~ F\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "EqNat",
           "package": "full-sessions",
@@ -448,6 +487,7 @@
         "index": {
           "description": "Equality on type-level natural numbers if Otherwise",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "EqNat",
           "package": "full-sessions",
@@ -462,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level \u003ccode\u003eFalse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "F",
           "package": "full-sessions",
@@ -471,6 +512,7 @@
         "index": {
           "description": "Type level False",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "F",
           "package": "full-sessions",
@@ -484,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eIsEnded\u003c/a\u003e\u003c/code\u003e ss b\u003c/code\u003e denotes that b ~ T if \u003ccode\u003ess\u003c/code\u003e is Ended, otherwise \u003ccode\u003eb ~ F\u003c/code\u003e.  In other words, \u003ccode\u003eb ~ T\u003c/code\u003e if the all elements of ss are End\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "IsEnded",
           "package": "full-sessions",
@@ -493,6 +536,7 @@
         "index": {
           "description": "IsEnded ss denotes that if ss is Ended otherwise In other words if the all elements of ss are End",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "IsEnded",
           "package": "full-sessions",
@@ -506,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "IsEndedST",
           "package": "full-sessions",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "IsEndedST",
           "package": "full-sessions",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Message",
           "package": "full-sessions",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Message",
           "package": "full-sessions",
@@ -549,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class which covers type-level natural numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Nat",
           "package": "full-sessions",
@@ -558,6 +607,7 @@
         "index": {
           "description": "The class which covers type-level natural numbers",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Nat",
           "package": "full-sessions",
@@ -572,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level empty list (\u003ccode\u003e[]\u003c/code\u003e). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Nil",
           "package": "full-sessions",
@@ -581,6 +632,7 @@
         "index": {
           "description": "Type-level empty list",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Nil",
           "package": "full-sessions",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "NwDual",
           "package": "full-sessions",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "NwDual",
           "package": "full-sessions",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "NwReceiveOnly",
           "package": "full-sessions",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "NwReceiveOnly",
           "package": "full-sessions",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "NwReceiver",
           "package": "full-sessions",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "NwReceiver",
           "package": "full-sessions",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "NwSendOnly",
           "package": "full-sessions",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "NwSendOnly",
           "package": "full-sessions",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "NwSender",
           "package": "full-sessions",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "NwSender",
           "package": "full-sessions",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "NwService",
           "package": "full-sessions",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "NwService",
           "package": "full-sessions",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "NwService2",
           "package": "full-sessions",
@@ -728,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "NwService2",
           "package": "full-sessions",
@@ -741,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "NwSession",
           "package": "full-sessions",
@@ -749,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "NwSession",
           "package": "full-sessions",
@@ -763,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eOffer\u003c/a\u003e\u003c/code\u003e u1 u2\u003c/code\u003e denotes a behavior like either \u003ccode\u003eu1\u003c/code\u003e or \u003ccode\u003eu2\u003c/code\u003e according to the incoming label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Offer",
           "package": "full-sessions",
@@ -772,6 +841,7 @@
         "index": {
           "description": "Offer u1 u2 denotes behavior like either u1 or u2 according to the incoming label",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Offer",
           "package": "full-sessions",
@@ -785,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "OfferN",
           "package": "full-sessions",
@@ -793,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "OfferN",
           "package": "full-sessions",
@@ -807,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level predecessor (only for internal use). \u003ccode\u003e\u003ccode\u003e\u003ca\u003eP\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e denotes \u003ccode\u003e(n-1)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "P",
           "package": "full-sessions",
@@ -816,6 +889,7 @@
         "index": {
           "description": "Type level predecessor only for internal use denotes n-1",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "P",
           "package": "full-sessions",
@@ -829,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epointwise extension of \u003ccode\u003e\u003ca\u003eComp\u003c/a\u003e\u003c/code\u003e -- FIXME: method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Par",
           "package": "full-sessions",
@@ -838,6 +913,7 @@
         "index": {
           "description": "pointwise extension of Comp FIXME method",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Par",
           "package": "full-sessions",
@@ -852,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe specialized case for \u003ccode\u003eended\u003c/code\u003e ss -- FIXME\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Par'",
           "package": "full-sessions",
@@ -861,6 +938,7 @@
         "index": {
           "description": "the specialized case for ended ss FIXME",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Par'",
           "package": "full-sessions",
@@ -875,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ePickup\u003c/a\u003e\u003c/code\u003e ss n s\u003c/code\u003e denotes that the \u003ccode\u003en\u003c/code\u003e-th element of the list \u003ccode\u003ess\u003c/code\u003e is \u003ccode\u003es\u003c/code\u003e. \n   This type class plays an important role in session-type inference.\n\u003c/p\u003e\u003cp\u003eFormally, \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePickup\u003c/a\u003e\u003c/code\u003e ss n s\u003c/code\u003e if \u003ccode\u003es = pickup ss n\u003c/code\u003e where \u003ccode\u003epickup\u003c/code\u003e is:\n\u003c/p\u003e\u003cpre\u003e\n   pickup ss n = pickupR ss (len ss - (n+1))\n     where pickupR (ss:\u003es) Z     = s\n           pickupR (ss:\u003es) (S n) = pickupR ss n\n           len Nil     = 0\n           len (ss:\u003es) = (len ss) + 1\n\u003c/pre\u003e\u003cp\u003eFor example, \u003ccode\u003ePickup (End :\u003e Bot :\u003e Send Int End) Z t)\u003c/code\u003e is an instance of \u003ccode\u003ePickup\u003c/code\u003e, and \u003ccode\u003et\u003c/code\u003e is unified with \u003ccode\u003eBot\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that the list counts from left to right. \n   For example, The \u003ccode\u003e0\u003c/code\u003e-th element of the list \u003ccode\u003e((Nil :\u003e End) :\u003e Bot) :\u003e Send Int End\u003c/code\u003e is \u003ccode\u003eEnd\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eUsually the list is accessed from the right end. \n   The context \n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003eSList\u003c/a\u003e\u003c/code\u003e ss (S n), \u003ccode\u003e\u003ca\u003ePickup\u003c/a\u003e\u003c/code\u003e (ss:\u003eBot:\u003eRecv Char End) n s\n\u003c/pre\u003e\u003cp\u003eis expanded into\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003eSList\u003c/a\u003e\u003c/code\u003e ss (S n), \u003ccode\u003e\u003ca\u003ePickupR\u003c/a\u003e\u003c/code\u003e (ss:\u003eBot:\u003eRecv Char End) (\u003ccode\u003e\u003ca\u003eSubT\u003c/a\u003e\u003c/code\u003e (S n) (S n)) s, \u003ccode\u003e\u003ca\u003eSub\u003c/a\u003e\u003c/code\u003e (S n) (S n)\n\u003c/pre\u003e\u003cp\u003esince \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSubT\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eS\u003c/a\u003e\u003c/code\u003e n) (\u003ccode\u003e\u003ca\u003eS\u003c/a\u003e\u003c/code\u003e n) ~ Z\u003c/code\u003e,  it will be reduced to \n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ePickupR\u003c/a\u003e\u003c/code\u003e (ss:\u003eBot:\u003eRecv Char End) Z s\n\u003c/pre\u003e\u003cp\u003eand then \u003ccode\u003es\u003c/code\u003e is unified with \u003ccode\u003eRecv Char End\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Pickup",
           "package": "full-sessions",
@@ -884,6 +963,7 @@
         "index": {
           "description": "Pickup ss denotes that the th element of the list ss is This type class plays an important role in session-type inference Formally Pickup ss if pickup ss where pickup is pickup ss pickupR ss len ss where pickupR ss pickupR ss pickupR ss len Nil len ss len ss For example Pickup End Bot Send Int End is an instance of Pickup and is unified with Bot Note that the list counts from left to right For example The th element of the list Nil End Bot Send Int End is End Usually the list is accessed from the right end The context SList ss Pickup ss Bot Recv Char End is expanded into SList ss PickupR ss Bot Recv Char End SubT Sub since SubT it will be reduced to PickupR ss Bot Recv Char End and then is unified with Recv Char End",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Pickup",
           "package": "full-sessions",
@@ -898,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reversed version of \u003ccode\u003e\u003ca\u003ePickup\u003c/a\u003e\u003c/code\u003e which accesses lists in reversed order (counts from right to left).\n   I.e., \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePickupR\u003c/a\u003e\u003c/code\u003e (End :\u003e Bot :\u003e Send Int End) Z (Send Int End)\u003c/code\u003e is an instance of \u003ccode\u003e\u003ca\u003ePickupR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "PickupR",
           "package": "full-sessions",
@@ -907,6 +988,7 @@
         "index": {
           "description": "The reversed version of Pickup which accesses lists in reversed order counts from right to left I.e PickupR End Bot Send Int End Send Int End is an instance of PickupR",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "PickupR",
           "package": "full-sessions",
@@ -921,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e m r\u003c/code\u003e denotes recursive session, where \u003ccode\u003em\u003c/code\u003e represents the binder of recursion variable. \n a type-level natural numer (like \u003ccode\u003e\u003ccode\u003e\u003ca\u003eS\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eZ\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e). nesting level of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, and\n \u003ccode\u003er\u003c/code\u003e is the body of the recursion which may contain \u003ccode\u003e\u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Rec",
           "package": "full-sessions",
@@ -930,6 +1013,7 @@
         "index": {
           "description": "Rec denotes recursive session where represents the binder of recursion variable type-level natural numer like nesting level of Rec and is the body of the recursion which may contain Var",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Rec",
           "package": "full-sessions",
@@ -943,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "RecFold",
           "package": "full-sessions",
@@ -951,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "RecFold",
           "package": "full-sessions",
@@ -964,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "RecFold2",
           "package": "full-sessions",
@@ -972,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "RecFold2",
           "package": "full-sessions",
@@ -985,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "RecFoldCont",
           "package": "full-sessions",
@@ -993,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "RecFoldCont",
           "package": "full-sessions",
@@ -1006,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "RecFoldCont2",
           "package": "full-sessions",
@@ -1014,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "RecFoldCont2",
           "package": "full-sessions",
@@ -1027,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "RecUnfold",
           "package": "full-sessions",
@@ -1035,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "RecUnfold",
           "package": "full-sessions",
@@ -1048,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "RecUnfoldCont",
           "package": "full-sessions",
@@ -1056,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "RecUnfoldCont",
           "package": "full-sessions",
@@ -1070,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eRecv\u003c/a\u003e\u003c/code\u003e v u\u003c/code\u003e denotes a protocol of receiving a value of type \u003ccode\u003ev\u003c/code\u003e followed by a behavior of type \u003ccode\u003eu\u003c/code\u003e.\n Use of \u003ccode\u003e\u003ccode\u003erecv\u003c/code\u003e\u003c/code\u003e on a channel changes its session type from \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRecv\u003c/a\u003e\u003c/code\u003e v u\u003c/code\u003e into \u003ccode\u003eu\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Recv",
           "package": "full-sessions",
@@ -1079,6 +1176,7 @@
         "index": {
           "description": "Recv denotes protocol of receiving value of type followed by behavior of type Use of recv on channel changes its session type from Recv into",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Recv",
           "package": "full-sessions",
@@ -1093,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level successor. \u003ccode\u003e\u003ccode\u003e\u003ca\u003eS\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e denotes \u003ccode\u003e(n+1)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "S",
           "package": "full-sessions",
@@ -1102,6 +1201,7 @@
         "index": {
           "description": "Type level successor denotes",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "S",
           "package": "full-sessions",
@@ -1115,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class which covers session-type environments. The second parameter of the class denotes the length of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "SList",
           "package": "full-sessions",
@@ -1124,6 +1225,7 @@
         "index": {
           "description": "The class which covers session-type environments The second parameter of the class denotes the length of the list",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "SList",
           "package": "full-sessions",
@@ -1138,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eSelect\u003c/a\u003e\u003c/code\u003e u1 u2\u003c/code\u003e denotes to be either behavior of type \u003ccode\u003eu1\u003c/code\u003e or type \u003ccode\u003eu2\u003c/code\u003e after emitting a corresponding label \u003ccode\u003e1\u003c/code\u003e or \u003ccode\u003e2\u003c/code\u003e.\n Use of \u003ccode\u003e\u003ccode\u003esel1\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003e\u003ccode\u003esel2\u003c/code\u003e\u003c/code\u003e on a channel changes its session type from \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSelect\u003c/a\u003e\u003c/code\u003e u1 u2\u003c/code\u003e into \u003ccode\u003eu1\u003c/code\u003e or \u003ccode\u003eu2\u003c/code\u003e, respectively. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Select",
           "package": "full-sessions",
@@ -1147,6 +1250,7 @@
         "index": {
           "description": "Select u1 u2 denotes to be either behavior of type u1 or type u2 after emitting corresponding label or Use of sel1 or sel2 on channel changes its session type from Select u1 u2 into u1 or u2 respectively",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Select",
           "package": "full-sessions",
@@ -1160,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "SelectN",
           "package": "full-sessions",
@@ -1168,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "SelectN",
           "package": "full-sessions",
@@ -1182,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e v u\u003c/code\u003e denotes a protocol to emit a value of type \u003ccode\u003ev\u003c/code\u003e followed by a behavior of type \u003ccode\u003eu\u003c/code\u003e. \n Use of \u003ccode\u003e\u003ccode\u003esend\u003c/code\u003e\u003c/code\u003e on a channel changes its session type from \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e v u\u003c/code\u003e into \u003ccode\u003eu\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Send",
           "package": "full-sessions",
@@ -1191,6 +1298,7 @@
         "index": {
           "description": "Send denotes protocol to emit value of type followed by behavior of type Use of send on channel changes its session type from Send into",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Send",
           "package": "full-sessions",
@@ -1204,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Service",
           "package": "full-sessions",
@@ -1212,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Service",
           "package": "full-sessions",
@@ -1226,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSession\u003c/code\u003e monad. \u003ccode\u003ess\u003c/code\u003e and \u003ccode\u003ett\u003c/code\u003e denotes the \u003cem\u003eusage\u003c/em\u003e of channels. \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ess\u003c/code\u003e denotes \u003cem\u003epre-type\u003c/em\u003e, which denotes the type-level list of session types \u003cem\u003erequired\u003c/em\u003e to run the session.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ett\u003c/code\u003e denotes \u003cem\u003epost-type\u003c/em\u003e, which denotes the type-level lists of session types \u003cem\u003eproduced\u003c/em\u003e by the session.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003ccode\u003et\u003c/code\u003e denotes a \u003cem\u003etype-tag\u003c/em\u003e, which prevents abuse of use of channels. For detail, see \u003ccode\u003e\u003ca\u003erunS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Session",
           "package": "full-sessions",
@@ -1235,6 +1346,7 @@
         "index": {
           "description": "The Session monad ss and tt denotes the usage of channels ss denotes pre-type which denotes the type-level list of session types required to run the session tt denotes post-type which denotes the type-level lists of session types produced by the session denotes type-tag which prevents abuse of use of channels For detail see runS",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Session",
           "package": "full-sessions",
@@ -1249,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes subtraction of \u003ccode\u003en\u003c/code\u003e by \u003ccode\u003en'\u003c/code\u003e (FIXME:OK?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Sub",
           "package": "full-sessions",
@@ -1258,6 +1371,7 @@
         "index": {
           "description": "Computes subtraction of by FIXME OK",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Sub",
           "package": "full-sessions",
@@ -1272,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes subtraction of \u003ccode\u003en\u003c/code\u003e by \u003ccode\u003en'\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "SubT",
           "package": "full-sessions",
@@ -1281,6 +1396,7 @@
         "index": {
           "description": "Computes subtraction of by",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "SubT",
           "package": "full-sessions",
@@ -1295,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "T",
           "package": "full-sessions",
@@ -1304,6 +1421,7 @@
         "index": {
           "description": "Type level True",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "T",
           "package": "full-sessions",
@@ -1317,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eThrow\u003c/a\u003e\u003c/code\u003e u1 u2\u003c/code\u003e denotes a behavior to output of a channel with session type \u003ccode\u003eu1\u003c/code\u003e followed by a behavior of type \u003ccode\u003eu2\u003c/code\u003e. \n Use of \u003ccode\u003e\u003ccode\u003esendS\u003c/code\u003e\u003c/code\u003e on a channel changes its session type from \u003ccode\u003e\u003ccode\u003e\u003ca\u003eThrow\u003c/a\u003e\u003c/code\u003e u1 u2\u003c/code\u003e into \u003ccode\u003eu2\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Throw",
           "package": "full-sessions",
@@ -1326,6 +1445,7 @@
         "index": {
           "description": "Throw u1 u2 denotes behavior to output of channel with session type u1 followed by behavior of type u2 Use of sendS on channel changes its session type from Throw u1 u2 into u2",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Throw",
           "package": "full-sessions",
@@ -1339,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "TypeEq",
           "package": "full-sessions",
@@ -1347,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "TypeEq",
           "package": "full-sessions",
@@ -1360,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "TypeEq'",
           "package": "full-sessions",
@@ -1368,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "TypeEq'",
           "package": "full-sessions",
@@ -1381,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "TypeEq''",
           "package": "full-sessions",
@@ -1389,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "TypeEq''",
           "package": "full-sessions",
@@ -1403,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eUpdate\u003c/a\u003e\u003c/code\u003e ss n t ss'\u003c/code\u003e denotes that \u003ccode\u003ess'\u003c/code\u003e is same as \u003ccode\u003ess\u003c/code\u003e except that its \u003ccode\u003en\u003c/code\u003e-th element is \u003ccode\u003et\u003c/code\u003e.\n   Formally, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUpdate\u003c/a\u003e\u003c/code\u003e ss n t ss'\u003c/code\u003e if \u003ccode\u003ess' = update ss n t\u003c/code\u003e where \u003ccode\u003eupdate\u003c/code\u003e is:\n\u003c/p\u003e\u003cpre\u003e\n   update ss n t = updateR ss (len ss - (n+1)) t\n     where updateR (ss:\u003e_) Z     t = ss :\u003e t\n           updateR (ss:\u003es) (S n) t = updateR ss n t :\u003e s\n           len Nil     = 0\n           len (ss:\u003es) = (len ss) + 1\n\u003c/pre\u003e\u003cp\u003eIn other words, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUpdate\u003c/a\u003e\u003c/code\u003e (End :\u003e Bot :\u003e Send Int End) Z End (End :\u003e Bot :\u003e End))\u003c/code\u003e is an instance of \u003ccode\u003eUpdate\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that the list counts from left to right, as in the case of \u003ccode\u003ePickup\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Update",
           "package": "full-sessions",
@@ -1412,6 +1539,7 @@
         "index": {
           "description": "Update ss ss denotes that ss is same as ss except that its th element is Formally Update ss ss if ss update ss where update is update ss updateR ss len ss where updateR ss ss updateR ss updateR ss len Nil len ss len ss In other words Update End Bot Send Int End End End Bot End is an instance of Update Note that the list counts from left to right as in the case of Pickup",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Update",
           "package": "full-sessions",
@@ -1426,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reversed version of \u003ccode\u003e\u003ca\u003eUpdate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "UpdateR",
           "package": "full-sessions",
@@ -1435,6 +1564,7 @@
         "index": {
           "description": "The reversed version of Update",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "UpdateR",
           "package": "full-sessions",
@@ -1449,6 +1579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursion variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Var",
           "package": "full-sessions",
@@ -1458,6 +1589,7 @@
         "index": {
           "description": "Recursion variable",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Var",
           "package": "full-sessions",
@@ -1472,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "Z",
           "package": "full-sessions",
@@ -1481,6 +1614,7 @@
         "index": {
           "description": "Type level zero",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "Z",
           "package": "full-sessions",
@@ -1493,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "(\u003e\u003e\u003e)",
           "package": "full-sessions",
@@ -1502,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "Session a b c d-\u003eSession a c e f-\u003eSession a b e f",
@@ -1517,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind (a.k.a \u003ccode\u003e\u003e\u003e=\u003c/code\u003e) operation for \u003ccode\u003e\u003ca\u003eSession\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "(\u003e\u003e\u003e=)",
           "package": "full-sessions",
@@ -1527,6 +1664,7 @@
         "index": {
           "description": "Bind a.k.a operation for Session monad",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "(\u003e\u003e\u003e=) \u003e\u003e\u003e=",
           "normalized": "Session a b c d-\u003e(d-\u003eSession a c e f)-\u003eSession a b e f",
@@ -1541,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "accept",
           "package": "full-sessions",
@@ -1550,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "accept",
           "normalized": "Service a-\u003eSession b c(c a)(Channel b d)",
@@ -1564,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "acceptOneNw2",
           "package": "full-sessions",
@@ -1573,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "acceptOneNw2",
           "normalized": "NwService a b-\u003eSession c d((d a)b)(Channel c e,Channel c(S e))",
@@ -1588,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "acceptRunS",
           "package": "full-sessions",
@@ -1597,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "acceptRunS",
           "normalized": "Service a-\u003e(b c Channel d Z-\u003eSession d(Nil a)e f)-\u003eIO f",
@@ -1612,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "channeltype1",
           "package": "full-sessions",
@@ -1621,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "channeltype1",
           "normalized": "(Channel a Z-\u003eSession a(Nil b)c d)-\u003e(b,e)",
@@ -1635,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "channeltype2",
           "package": "full-sessions",
@@ -1644,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "channeltype2",
           "normalized": "(Channel a Z-\u003eChannel a(S Z)-\u003eSession a((Nil b)a)c d)-\u003e((b,e),(a,f))",
@@ -1658,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "close",
           "package": "full-sessions",
@@ -1667,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "close",
           "normalized": "Channel a b-\u003eSession a c d()",
@@ -1681,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "connect",
           "package": "full-sessions",
@@ -1690,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "connect",
           "normalized": "Service a-\u003eSession b c(c d)(Channel b e)",
@@ -1704,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "connectNw",
           "package": "full-sessions",
@@ -1713,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "connectNw",
           "normalized": "NwService a-\u003eSession b c(c a)(Channel b d)",
@@ -1728,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "connectNw2",
           "package": "full-sessions",
@@ -1737,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "connectNw2",
           "normalized": "NwService a b-\u003eSession c d((d a)b)(Channel c e,Channel c(S e))",
@@ -1752,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "connectRunS",
           "package": "full-sessions",
@@ -1761,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "connectRunS",
           "normalized": "Service a-\u003e(b c Channel d Z-\u003eSession d(Nil e)f g)-\u003eIO g",
@@ -1776,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "dualNw",
           "package": "full-sessions",
@@ -1785,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "dualNw",
           "normalized": "NwService a-\u003eNwService b",
@@ -1800,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "dualNw2",
           "package": "full-sessions",
@@ -1809,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "dualNw2",
           "normalized": "NwService a a-\u003eNwService a a",
@@ -1824,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "finallys",
           "package": "full-sessions",
@@ -1833,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "finallys",
           "normalized": "Session a b c()-\u003eIO()-\u003eSession a b c()",
@@ -1848,6 +2012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart a new thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "forkIOs",
           "package": "full-sessions",
@@ -1858,6 +2023,7 @@
         "index": {
           "description": "start new thread",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "forkIOs",
           "normalized": "Session a b c()-\u003eSession a d e ThreadId",
@@ -1874,6 +2040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart a new thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "forkOSs",
           "package": "full-sessions",
@@ -1884,6 +2051,7 @@
         "index": {
           "description": "start new thread",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "forkOSs",
           "normalized": "Session a b c()-\u003eSession a d e ThreadId",
@@ -1899,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "ifSelect",
           "package": "full-sessions",
@@ -1908,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "ifSelect",
           "normalized": "Channel a b-\u003eBool-\u003eSession a c d e-\u003eSession a f g e-\u003eSession a h i e",
@@ -1923,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "ifSelectN",
           "package": "full-sessions",
@@ -1932,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "ifSelectN",
           "normalized": "Channel a b-\u003eBool-\u003eSession a c d e-\u003eSession a f g e-\u003eSession a h i e",
@@ -1947,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "io",
           "package": "full-sessions",
@@ -1956,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "io",
           "normalized": "IO a-\u003eSession b c c a",
@@ -1970,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "io_",
           "package": "full-sessions",
@@ -1979,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "io_",
           "normalized": "IO a-\u003eSession b c c()",
@@ -1994,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit (a.k.a \u003ccode\u003ereturn\u003c/code\u003e) operation for \u003ccode\u003e\u003ca\u003eSession\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "ireturn",
           "package": "full-sessions",
@@ -2004,6 +2181,7 @@
         "index": {
           "description": "Unit a.k.a return operation for Session monad",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "ireturn",
           "normalized": "a-\u003eSession b c c a",
@@ -2018,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "mkNwService",
           "package": "full-sessions",
@@ -2027,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "mkNwService",
           "normalized": "String-\u003eInt-\u003ea-\u003eNwService a",
@@ -2042,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "mkNwService2",
           "package": "full-sessions",
@@ -2051,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "mkNwService2",
           "normalized": "String-\u003eInt-\u003ea-\u003eb-\u003eNwService a b",
@@ -2066,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "new",
           "package": "full-sessions",
@@ -2075,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "new",
           "package": "full-sessions",
@@ -2087,6 +2271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "newService",
           "package": "full-sessions",
@@ -2096,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "newService",
           "package": "full-sessions",
@@ -2109,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "offer",
           "package": "full-sessions",
@@ -2118,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "offer",
           "normalized": "Channel a b-\u003eSession a c d e-\u003eSession a f g e-\u003eSession a h i e",
@@ -2132,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "offerN",
           "package": "full-sessions",
@@ -2141,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "offerN",
           "normalized": "Channel a b-\u003eSession a c d e-\u003eSession a f g e-\u003eSession a h i e",
@@ -2155,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "parseMessage",
           "package": "full-sessions",
@@ -2164,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "parseMessage",
           "normalized": "String-\u003eMaybe(a,String)",
@@ -2179,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "recur1",
           "package": "full-sessions",
@@ -2188,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "recur1",
           "normalized": "(Channel a b-\u003eSession a c d())-\u003eChannel a b-\u003eSession a e d()",
@@ -2202,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "recur2",
           "package": "full-sessions",
@@ -2211,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "recur2",
           "normalized": "(Channel a b-\u003eChannel a c-\u003eSession a d e())-\u003eChannel a b-\u003eChannel a c-\u003eSession a f e()",
@@ -2225,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "recv",
           "package": "full-sessions",
@@ -2234,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "recv",
           "normalized": "Channel a b-\u003eSession a c d e",
@@ -2248,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "recvS",
           "package": "full-sessions",
@@ -2257,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "recvS",
           "normalized": "Channel a b-\u003eSession a c(d e)(Channel a f)",
@@ -2272,6 +2472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erunS\u003c/a\u003e\u003c/code\u003e runs the \u003ccode\u003e\u003ca\u003eSession\u003c/a\u003e\u003c/code\u003e. The pretype (see \u003ccode\u003e\u003ca\u003eSession\u003c/a\u003e\u003c/code\u003e) must be \u003ccode\u003e\u003ca\u003eNil\u003c/a\u003e\u003c/code\u003e. \n   The posttype must be \u003ccode\u003e\u003ca\u003eEnded\u003c/a\u003e\u003c/code\u003e, i.e. all channels must be \u003ccode\u003e\u003ca\u003eEnd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eForall'd type variable \u003ccode\u003et\u003c/code\u003e prevents abuse of use of channels inside different run.\n   For example, \u003ccode\u003enew \u003e\u003e\u003e= c -\u003e \u003ccode\u003eio_\u003c/code\u003e (runS ( ... send c ...) )\u003c/code\u003e is rejected by the Haskell typechecker with error \u003ccode\u003eInferred type is less polymorphic than expected\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "runS",
           "package": "full-sessions",
@@ -2282,6 +2483,7 @@
         "index": {
           "description": "runS runs the Session The pretype see Session must be Nil The posttype must be Ended i.e all channels must be End Forall type variable prevents abuse of use of channels inside different run For example new io runS send is rejected by the Haskell typechecker with error Inferred type is less polymorphic than expected",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "runS",
           "normalized": "a b c(a d Session e Nil f b)-\u003eIO b",
@@ -2297,6 +2499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutput a label `1'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "sel1",
           "package": "full-sessions",
@@ -2307,6 +2510,7 @@
         "index": {
           "description": "output label",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "sel1",
           "normalized": "Channel a b-\u003eSession a c d()",
@@ -2322,6 +2526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutput a label `1'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "sel1N",
           "package": "full-sessions",
@@ -2332,6 +2537,7 @@
         "index": {
           "description": "output label",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "sel1N",
           "normalized": "Channel a b-\u003eSession a c d()",
@@ -2347,6 +2553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutput a label `2'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "sel2",
           "package": "full-sessions",
@@ -2357,6 +2564,7 @@
         "index": {
           "description": "output label",
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "sel2",
           "normalized": "Channel a b-\u003eSession a c d()",
@@ -2371,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "sel2N",
           "package": "full-sessions",
@@ -2380,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "sel2N",
           "normalized": "Channel a b-\u003eSession a c d()",
@@ -2394,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "send",
           "package": "full-sessions",
@@ -2403,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "send",
           "normalized": "Channel a b-\u003ec-\u003eSession a d e()",
@@ -2417,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "sendS",
           "package": "full-sessions",
@@ -2426,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "sendS",
           "normalized": "Channel a b-\u003eChannel a b-\u003eSession a c d()",
@@ -2440,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "showMessage",
           "package": "full-sessions",
@@ -2449,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "showMessage",
           "normalized": "a-\u003eString",
@@ -2464,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "typecheck1",
           "package": "full-sessions",
@@ -2473,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "typecheck1",
           "normalized": "(Channel a b-\u003eSession a(c d)e f)-\u003eSession a(c d)e f",
@@ -2487,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "typecheck2",
           "package": "full-sessions",
@@ -2496,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "typecheck2",
           "normalized": "(Channel a b-\u003eChannel a(S b)-\u003eSession a((c d)d)e f)-\u003eSession a((c d)d)e f",
@@ -2510,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "unwind0",
           "package": "full-sessions",
@@ -2519,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "unwind0",
           "normalized": "Channel a b-\u003eSession a c d()",
@@ -2533,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "unwind1",
           "package": "full-sessions",
@@ -2542,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "unwind1",
           "normalized": "Channel a b-\u003eSession a c d()",
@@ -2556,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:14 UTC 2014",
           "module": "Control.Concurrent.FullSession",
           "name": "unwind2",
           "package": "full-sessions",
@@ -2565,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent FullSession",
+          "indexed": "2014-03-11T18:13:14",
           "module": "Control.Concurrent.FullSession",
           "name": "unwind2",
           "normalized": "Channel a b-\u003eSession a c d()",

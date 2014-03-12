@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DrHylo"
+        "phrase": "DrHylo",
+        "type": "phrase"
       },
       "type": "context"
     }

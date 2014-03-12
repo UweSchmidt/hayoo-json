@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "omaketex"
+        "phrase": "omaketex",
+        "type": "phrase"
       },
       "type": "context"
     }

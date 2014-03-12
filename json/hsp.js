@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsp"
+        "phrase": "hsp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAttempt to render XHTML as well-formed HTML 4.01:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e no short tags are used, e.g., \u003cscript\u003e\u003c/script\u003e instead of \u003cscript /\u003e\n\u003c/li\u003e\u003cli\u003e the end tag is forbidden for some elements, for these we:\n\u003c/li\u003e\u003c/ol\u003e\u003cul\u003e\u003cli\u003e render only the open tag, e.g., \u003cbr\u003e\n\u003c/li\u003e\u003cli\u003e throw an error if the tag contains children\n\u003c/li\u003e\u003c/ul\u003e\u003col\u003e\u003cli\u003e optional end tags are always rendered\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eCurrently no validation is performed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.HTML4",
           "name": "HTML4",
           "package": "hsp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Attempt to render XHTML as well-formed HTML no short tags are used e.g script script instead of script the end tag is forbidden for some elements for these we render only the open tag e.g br throw an error if the tag contains children optional end tags are always rendered Currently no validation is performed",
           "hierarchy": "HSP HTML4",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.HTML4",
           "name": "HTML4",
           "package": "hsp",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.HTML4",
           "name": "html4Strict",
           "package": "hsp",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "HSP HTML4",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.HTML4",
           "name": "html4Strict",
           "package": "hsp",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.HTML4",
           "name": "html4StrictFrag",
           "package": "hsp",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "HSP HTML4",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.HTML4",
           "name": "html4StrictFrag",
           "package": "hsp",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.HTML4",
           "name": "htmlEscapeChars",
           "package": "hsp",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "HSP HTML4",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.HTML4",
           "name": "htmlEscapeChars",
           "normalized": "[(Char,Builder)]",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-prints HTML values.\n\u003c/p\u003e\u003cp\u003eError Handling:\n\u003c/p\u003e\u003cp\u003eSome tags (such as img) can not contain children in HTML. However,\n there is nothing to stop the caller from passing in XML which\n contains an img tag with children. There are three basic ways to\n handle this:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e drop the bogus children silently\n\u003c/li\u003e\u003cli\u003e call \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e / raise an exception\n\u003c/li\u003e\u003cli\u003e render the img tag with children -- even though it is invalid\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eCurrently we are taking approach #3, since no other attempts to\n validate the data are made in this function. Instead, you can run\n the output through a full HTML validator to detect the errors.\n\u003c/p\u003e\u003cp\u003e#1 seems like a poor choice, since it makes is easy to overlook the\n fact that data went missing.\n\u003c/p\u003e\u003cp\u003eWe could raising errors, but you have to be in the IO monad to\n catch them. Also, you have to use evaluate if you want to check for\n errors. This means you can not start sending the page until the\n whole page has been rendered. And you have to store the whole page\n in RAM at once. Similar problems occur if we return Either\n instead. We mostly care about catching errors and showing them in\n the browser during testing, so perhaps this can be configurable.\n\u003c/p\u003e\u003cp\u003eAnother solution would be a compile time error if an empty-only\n tag contained children.\n\u003c/p\u003e\u003cp\u003eFIXME: also verify that the domain is correct\n\u003c/p\u003e\u003cp\u003eFIXME: what to do if a namespace is encountered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.HTML4",
           "name": "renderAsHTML",
           "package": "hsp",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Pretty-prints HTML values Error Handling Some tags such as img can not contain children in HTML However there is nothing to stop the caller from passing in XML which contains an img tag with children There are three basic ways to handle this drop the bogus children silently call error raise an exception render the img tag with children even though it is invalid Currently we are taking approach since no other attempts to validate the data are made in this function Instead you can run the output through full HTML validator to detect the errors seems like poor choice since it makes is easy to overlook the fact that data went missing We could raising errors but you have to be in the IO monad to catch them Also you have to use evaluate if you want to check for errors This means you can not start sending the page until the whole page has been rendered And you have to store the whole page in RAM at once Similar problems occur if we return Either instead We mostly care about catching errors and showing them in the browser during testing so perhaps this can be configurable Another solution would be compile time error if an empty-only tag contained children FIXME also verify that the domain is correct FIXME what to do if namespace is encountered",
           "hierarchy": "HSP HTML4",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.HTML4",
           "name": "renderAsHTML",
           "normalized": "XML-\u003eText",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.Monad",
           "name": "Monad",
           "package": "hsp",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "HSP Monad",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.Monad",
           "name": "Monad",
           "package": "hsp",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.Monad",
           "name": "HSPT",
           "package": "hsp",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "HSP Monad",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.Monad",
           "name": "HSPT",
           "package": "hsp",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.Monad",
           "name": "HSPT",
           "package": "hsp",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "HSP Monad",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.Monad",
           "name": "HSPT",
           "package": "hsp",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.Monad",
           "name": "unHSPT",
           "package": "hsp",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "HSP Monad",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.Monad",
           "name": "unHSPT",
           "package": "hsp",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEscaping between CDATA \u003ca\u003e=\u003c/a\u003e PCDATA\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML.PCDATA",
           "name": "PCDATA",
           "package": "hsp",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Escaping between CDATA PCDATA",
           "hierarchy": "HSP XML PCDATA",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML.PCDATA",
           "name": "PCDATA",
           "package": "hsp",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a normal string and transform it to PCDATA by escaping special characters.\n calls \u003ccode\u003e\u003ca\u003eescaper\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003exmlEscapeChars\u003c/a\u003e\u003c/code\u003e\n See also: \u003ccode\u003e\u003ca\u003eescaper\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML.PCDATA",
           "name": "escape",
           "package": "hsp",
@@ -255,6 +276,7 @@
         "index": {
           "description": "Take normal string and transform it to PCDATA by escaping special characters calls escaper with xmlEscapeChars See also escaper",
           "hierarchy": "HSP XML PCDATA",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML.PCDATA",
           "name": "escape",
           "normalized": "Text-\u003eBuilder",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a normal string and transform it to PCDATA by escaping special characters.\n See also: \u003ccode\u003e\u003ca\u003eescape\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003exmlEscapeChars\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML.PCDATA",
           "name": "escaper",
           "package": "hsp",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Take normal string and transform it to PCDATA by escaping special characters See also escape xmlEscapeChars",
           "hierarchy": "HSP XML PCDATA",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML.PCDATA",
           "name": "escaper",
           "normalized": "[(Char,Builder)]-\u003eText-\u003eBuilder",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML.PCDATA",
           "name": "xmlEscapeChars",
           "package": "hsp",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "HSP XML PCDATA",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML.PCDATA",
           "name": "xmlEscapeChars",
           "normalized": "[(Char,Builder)]",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatypes and type classes comprising the basic model behind\n the scenes of Haskell Server Pages tags.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "XML",
           "package": "hsp",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Datatypes and type classes comprising the basic model behind the scenes of Haskell Server Pages tags",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "XML",
           "package": "hsp",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an attribue value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "AttrValue",
           "package": "hsp",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Represents an attribue value",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "AttrValue",
           "package": "hsp",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "Attribute",
           "package": "hsp",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "Attribute",
           "package": "hsp",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "Attributes",
           "package": "hsp",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "Attributes",
           "package": "hsp",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "Children",
           "package": "hsp",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "Children",
           "package": "hsp",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "NSName",
           "package": "hsp",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "NSName",
           "package": "hsp",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "Namespace",
           "package": "hsp",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "Namespace",
           "package": "hsp",
@@ -469,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe XML datatype representation. Is either an Element or CDATA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "XML",
           "package": "hsp",
@@ -478,6 +519,7 @@
         "index": {
           "description": "The XML datatype representation Is either an Element or CDATA",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "XML",
           "package": "hsp",
@@ -492,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe XMLMetaData datatype\n\u003c/p\u003e\u003cp\u003eSpecify the DOCTYPE, content-type, and preferred render for XML data.\n\u003c/p\u003e\u003cp\u003eSee also: \u003ccode\u003e\u003ca\u003esetMetaData\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ewithMetaData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "XMLMetaData",
           "package": "hsp",
@@ -501,6 +544,7 @@
         "index": {
           "description": "The XMLMetaData datatype Specify the DOCTYPE content-type and preferred render for XML data See also setMetaData and withMetaData",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "XMLMetaData",
           "package": "hsp",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "CDATA",
           "package": "hsp",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "CDATA",
           "package": "hsp",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "Element",
           "package": "hsp",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "Element",
           "package": "hsp",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "MkAttr",
           "package": "hsp",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "MkAttr",
           "normalized": "MkAttr(NSName,AttrValue)",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "NoValue",
           "package": "hsp",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "NoValue",
           "package": "hsp",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "Value",
           "package": "hsp",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "Value",
           "package": "hsp",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "XMLMetaData",
           "package": "hsp",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "XMLMetaData",
           "package": "hsp",
@@ -649,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an attribue value from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "attrVal",
           "package": "hsp",
@@ -659,6 +716,7 @@
         "index": {
           "description": "Create an attribue value from string",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "attrVal",
           "normalized": "Text-\u003eAttrValue",
@@ -675,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbeds a string as a CDATA XML value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "cdata",
           "package": "hsp",
@@ -685,6 +744,7 @@
         "index": {
           "description": "Embeds string as CDATA XML value",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "cdata",
           "normalized": "Text-\u003eXML",
@@ -699,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "contentType",
           "package": "hsp",
@@ -708,6 +769,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "contentType",
           "package": "hsp",
@@ -722,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(show doctype when rendering, DOCTYPE string)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "doctype",
           "package": "hsp",
@@ -732,6 +795,7 @@
         "index": {
           "description": "show doctype when rendering DOCTYPE string",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "doctype",
           "normalized": "(Bool,Text)",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "fromStringLit",
           "package": "hsp",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "fromStringLit",
           "normalized": "String-\u003eText",
@@ -771,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether an XML value is an Element or CDATA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "isCDATA",
           "package": "hsp",
@@ -781,6 +848,7 @@
         "index": {
           "description": "Test whether an XML value is an Element or CDATA",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "isCDATA",
           "normalized": "XML-\u003eBool",
@@ -797,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether an XML value is an Element or CDATA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "isElement",
           "package": "hsp",
@@ -807,6 +876,7 @@
         "index": {
           "description": "Test whether an XML value is an Element or CDATA",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "isElement",
           "normalized": "XML-\u003eBool",
@@ -823,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an attribue value from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "pAttrVal",
           "package": "hsp",
@@ -833,6 +904,7 @@
         "index": {
           "description": "Create an attribue value from string",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "pAttrVal",
           "normalized": "Text-\u003eAttrValue",
@@ -849,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbeds a string as a CDATA XML value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "pcdata",
           "package": "hsp",
@@ -859,6 +932,7 @@
         "index": {
           "description": "Embeds string as CDATA XML value",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "pcdata",
           "normalized": "Text-\u003eXML",
@@ -873,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "preferredRenderer",
           "package": "hsp",
@@ -882,6 +957,7 @@
         },
         "index": {
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "preferredRenderer",
           "normalized": "XML-\u003eBuilder",
@@ -898,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-prints XML values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XML",
           "name": "renderXML",
           "package": "hsp",
@@ -908,6 +985,7 @@
         "index": {
           "description": "Pretty-prints XML values",
           "hierarchy": "HSP XML",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XML",
           "name": "renderXML",
           "normalized": "XML-\u003eText",
@@ -924,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe class and monad transformer that forms the basis of the literal XML\n syntax translation. Literal tags will be translated into functions of\n the GenerateXML class, and any instantiating monads with associated XML\n types can benefit from that syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "XMLGenerator",
           "package": "hsp",
@@ -933,6 +1012,7 @@
         "index": {
           "description": "The class and monad transformer that forms the basis of the literal XML syntax translation Literal tags will be translated into functions of the GenerateXML class and any instantiating monads with associated XML types can benefit from that syntax",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "XMLGenerator",
           "package": "hsp",
@@ -946,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "AppendChild",
           "package": "hsp",
@@ -954,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "AppendChild",
           "package": "hsp",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "Attr",
           "package": "hsp",
@@ -975,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "Attr",
           "package": "hsp",
@@ -989,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilarly embed values as attributes of an XML element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "EmbedAsAttr",
           "package": "hsp",
@@ -998,6 +1083,7 @@
         "index": {
           "description": "Similarly embed values as attributes of an XML element",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "EmbedAsAttr",
           "package": "hsp",
@@ -1012,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed values as child nodes of an XML element. The parent type will be clear\n from the context so it is not mentioned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "EmbedAsChild",
           "package": "hsp",
@@ -1021,6 +1108,7 @@
         "index": {
           "description": "Embed values as child nodes of an XML element The parent type will be clear from the context so it is not mentioned",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "EmbedAsChild",
           "package": "hsp",
@@ -1034,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "GenAttribute",
           "package": "hsp",
@@ -1042,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "GenAttribute",
           "package": "hsp",
@@ -1055,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "GenAttributeList",
           "package": "hsp",
@@ -1063,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "GenAttributeList",
           "package": "hsp",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "GenChild",
           "package": "hsp",
@@ -1084,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "GenChild",
           "package": "hsp",
@@ -1097,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "GenChildList",
           "package": "hsp",
@@ -1105,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "GenChildList",
           "package": "hsp",
@@ -1119,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonyms to avoid writing out the XMLnGenT all the time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "GenXML",
           "package": "hsp",
@@ -1128,6 +1225,7 @@
         "index": {
           "description": "Type synonyms to avoid writing out the XMLnGenT all the time",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "GenXML",
           "package": "hsp",
@@ -1141,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "GenXMLList",
           "package": "hsp",
@@ -1149,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "GenXMLList",
           "package": "hsp",
@@ -1163,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames can be simple or qualified with a domain. We want to conveniently\n use both simple strings or pairs wherever a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e is expected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "IsName",
           "package": "hsp",
@@ -1172,6 +1273,7 @@
         "index": {
           "description": "Names can be simple or qualified with domain We want to conveniently use both simple strings or pairs wherever Name is expected",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "IsName",
           "package": "hsp",
@@ -1185,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "Name",
           "package": "hsp",
@@ -1193,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "Name",
           "package": "hsp",
@@ -1207,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet attributes on XML elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "SetAttr",
           "package": "hsp",
@@ -1216,6 +1321,7 @@
         "index": {
           "description": "Set attributes on XML elements",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "SetAttr",
           "package": "hsp",
@@ -1229,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "TypeCast",
           "package": "hsp",
@@ -1237,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "TypeCast",
           "package": "hsp",
@@ -1250,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "TypeCast'",
           "package": "hsp",
@@ -1258,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "TypeCast'",
           "package": "hsp",
@@ -1271,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "TypeCast''",
           "package": "hsp",
@@ -1279,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "TypeCast''",
           "package": "hsp",
@@ -1292,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "TypeCastM",
           "package": "hsp",
@@ -1300,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "TypeCastM",
           "package": "hsp",
@@ -1313,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "TypeCastM'",
           "package": "hsp",
@@ -1321,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "TypeCastM'",
           "package": "hsp",
@@ -1334,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "TypeCastM''",
           "package": "hsp",
@@ -1342,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "TypeCastM''",
           "package": "hsp",
@@ -1356,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate XML values in some XMLGenerator monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "XMLGen",
           "package": "hsp",
@@ -1365,6 +1484,7 @@
         "index": {
           "description": "Generate XML values in some XMLGenerator monad",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "XMLGen",
           "package": "hsp",
@@ -1379,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monad transformer that allows a monad to generate XML values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "XMLGenT",
           "package": "hsp",
@@ -1388,6 +1509,7 @@
         "index": {
           "description": "The monad transformer that allows monad to generate XML values",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "XMLGenT",
           "package": "hsp",
@@ -1401,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "XMLGenerator",
           "package": "hsp",
@@ -1409,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "XMLGenerator",
           "package": "hsp",
@@ -1423,6 +1547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprepend the list of \u003ccode\u003eattr\u003c/code\u003e to the attributes for the \u003ccode\u003eelem\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "(\u003c\u003c@)",
           "package": "hsp",
@@ -1433,6 +1558,7 @@
         "index": {
           "description": "prepend the list of attr to the attributes for the elem",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "(\u003c\u003c@) \u003c\u003c@",
           "normalized": "a-\u003e[b]-\u003eGenXML c",
@@ -1448,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eappend children to the children of \u003ccode\u003eelem\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "(\u003c\u003c:)",
           "package": "hsp",
@@ -1458,6 +1585,7 @@
         "index": {
           "description": "append children to the children of elem",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "(\u003c\u003c:) \u003c\u003c:",
           "normalized": "a-\u003e[b]-\u003eGenXML c",
@@ -1473,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprepend \u003ccode\u003eattr\u003c/code\u003e to the list of attributes for the \u003ccode\u003eelem\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "(\u003c@)",
           "package": "hsp",
@@ -1483,6 +1612,7 @@
         "index": {
           "description": "prepend attr to the list of attributes for the elem",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "(\u003c@) \u003c@",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1498,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eappend child to the children of \u003ccode\u003eelem\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "(\u003c:)",
           "package": "hsp",
@@ -1508,6 +1639,7 @@
         "index": {
           "description": "append child to the children of elem",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "(\u003c:) \u003c:",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1522,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": ":=",
           "package": "hsp",
@@ -1531,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": ":=",
           "package": "hsp",
@@ -1543,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "XMLGenT",
           "package": "hsp",
@@ -1552,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "XMLGenT",
           "package": "hsp",
@@ -1566,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eappend child to the children of \u003ccode\u003eelem\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "app",
           "package": "hsp",
@@ -1576,6 +1713,7 @@
         "index": {
           "description": "append child to the children of elem",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "app",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1590,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "appAll",
           "package": "hsp",
@@ -1599,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "appAll",
           "normalized": "a-\u003eGenChildList b-\u003eGenXML b",
@@ -1614,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "appChild",
           "package": "hsp",
@@ -1623,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "appChild",
           "normalized": "a-\u003eGenChild b-\u003eGenXML b",
@@ -1638,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "asAttr",
           "package": "hsp",
@@ -1647,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "asAttr",
           "normalized": "a-\u003eGenAttributeList b",
@@ -1662,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "asChild",
           "package": "hsp",
@@ -1671,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "asChild",
           "normalized": "a-\u003eGenChildList b",
@@ -1686,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "genEElement",
           "package": "hsp",
@@ -1695,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "genEElement",
           "normalized": "Name(StringType a)-\u003e[XMLGenT a[AttributeType a]]-\u003eXMLGenT a(XMLType a)",
@@ -1710,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "genElement",
           "package": "hsp",
@@ -1719,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "genElement",
           "normalized": "Name(StringType a)-\u003e[XMLGenT a[AttributeType a]]-\u003e[XMLGenT a[ChildType a]]-\u003eXMLGenT a(XMLType a)",
@@ -1735,6 +1885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emap the inner monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "mapXMLGenT",
           "package": "hsp",
@@ -1745,6 +1896,7 @@
         "index": {
           "description": "map the inner monad",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "mapXMLGenT",
           "normalized": "(a b-\u003ec d)-\u003eXMLGenT a b-\u003eXMLGenT c d",
@@ -1760,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "pcdataToChild",
           "package": "hsp",
@@ -1769,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "pcdataToChild",
           "normalized": "StringType a-\u003eChildType a",
@@ -1785,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprepend \u003ccode\u003eattr\u003c/code\u003e to the list of attributes for the \u003ccode\u003eelem\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "set",
           "package": "hsp",
@@ -1795,6 +1950,7 @@
         "index": {
           "description": "prepend attr to the list of attributes for the elem",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "set",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1809,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "setAll",
           "package": "hsp",
@@ -1818,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "setAll",
           "normalized": "a-\u003eGenAttributeList b-\u003eGenXML b",
@@ -1833,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "setAttr",
           "package": "hsp",
@@ -1842,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "setAttr",
           "normalized": "a-\u003eGenAttribute b-\u003eGenXML b",
@@ -1857,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "toName",
           "package": "hsp",
@@ -1866,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "toName",
           "normalized": "a-\u003eName b",
@@ -1881,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "typeCast",
           "package": "hsp",
@@ -1890,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "typeCast",
           "normalized": "a-\u003eb",
@@ -1905,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "typeCast'",
           "package": "hsp",
@@ -1914,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "typeCast'",
           "normalized": "a-\u003eb-\u003ec",
@@ -1929,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "typeCast''",
           "package": "hsp",
@@ -1938,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "typeCast''",
           "normalized": "a-\u003eb-\u003ec",
@@ -1953,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "typeCastM",
           "package": "hsp",
@@ -1962,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "typeCastM",
           "normalized": "a b-\u003ec b",
@@ -1977,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "typeCastM'",
           "package": "hsp",
@@ -1986,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "typeCastM'",
           "normalized": "a-\u003eb c-\u003ed c",
@@ -2001,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "typeCastM''",
           "package": "hsp",
@@ -2010,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "typeCastM''",
           "normalized": "a-\u003eb c-\u003ed c",
@@ -2026,6 +2200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eun-lift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "unXMLGenT",
           "package": "hsp",
@@ -2036,6 +2211,7 @@
         "index": {
           "description": "un-lift",
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "unXMLGenT",
           "normalized": "XMLGenT a b-\u003ea b",
@@ -2051,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP.XMLGenerator",
           "name": "xmlToChild",
           "package": "hsp",
@@ -2060,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "HSP XMLGenerator",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP.XMLGenerator",
           "name": "xmlToChild",
           "normalized": "XMLType a-\u003eChildType a",
@@ -2075,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:31 UTC 2014",
           "module": "HSP",
           "name": "HSP",
           "package": "hsp",
@@ -2083,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "HSP",
+          "indexed": "2014-03-11T18:49:31",
           "module": "HSP",
           "name": "HSP",
           "package": "hsp",

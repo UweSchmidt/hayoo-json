@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ltl"
+        "phrase": "ltl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUsing linear temporal logic (LTL) to verify embedded software and hardware.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:46 UTC 2014",
           "module": "Language.LTL",
           "name": "LTL",
           "package": "ltl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Using linear temporal logic LTL to verify embedded software and hardware",
           "hierarchy": "Language LTL",
+          "indexed": "2014-03-11T19:12:46",
           "module": "Language.LTL",
           "name": "LTL",
           "package": "ltl",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:46 UTC 2014",
           "module": "Language.LTL",
           "name": "B",
           "package": "ltl",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Language LTL",
+          "indexed": "2014-03-11T19:12:46",
           "module": "Language.LTL",
           "name": "B",
           "package": "ltl",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerification directives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:46 UTC 2014",
           "module": "Language.LTL",
           "name": "Directive",
           "package": "ltl",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Verification directives",
           "hierarchy": "Language LTL",
+          "indexed": "2014-03-11T19:12:46",
           "module": "Language.LTL",
           "name": "Directive",
           "package": "ltl",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLTL (and other) expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:46 UTC 2014",
           "module": "Language.LTL",
           "name": "E",
           "package": "ltl",
@@ -94,6 +101,7 @@
         "index": {
           "description": "LTL and other expressions",
           "hierarchy": "Language LTL",
+          "indexed": "2014-03-11T19:12:46",
           "module": "Language.LTL",
           "name": "E",
           "package": "ltl",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:46 UTC 2014",
           "module": "Language.LTL",
           "name": "F",
           "package": "ltl",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Language LTL",
+          "indexed": "2014-03-11T19:12:46",
           "module": "Language.LTL",
           "name": "F",
           "package": "ltl",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:46 UTC 2014",
           "module": "Language.LTL",
           "name": "N",
           "package": "ltl",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Language LTL",
+          "indexed": "2014-03-11T19:12:46",
           "module": "Language.LTL",
           "name": "N",
           "package": "ltl",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:46 UTC 2014",
           "module": "Language.LTL",
           "name": "R",
           "package": "ltl",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Language LTL",
+          "indexed": "2014-03-11T19:12:46",
           "module": "Language.LTL",
           "name": "R",
           "package": "ltl",
@@ -167,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty must be true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:46 UTC 2014",
           "module": "Language.LTL",
           "name": "Assert",
           "package": "ltl",
@@ -177,6 +192,7 @@
         "index": {
           "description": "Property must be true",
           "hierarchy": "Language LTL",
+          "indexed": "2014-03-11T19:12:46",
           "module": "Language.LTL",
           "name": "Assert",
           "package": "ltl",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty is assumed to be true.  Becomes an assertion in simulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:46 UTC 2014",
           "module": "Language.LTL",
           "name": "Assume",
           "package": "ltl",
@@ -201,6 +218,7 @@
         "index": {
           "description": "Property is assumed to be true Becomes an assertion in simulation",
           "hierarchy": "Language LTL",
+          "indexed": "2014-03-11T19:12:46",
           "module": "Language.LTL",
           "name": "Assume",
           "package": "ltl",
@@ -215,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence must be excited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:46 UTC 2014",
           "module": "Language.LTL",
           "name": "Cover",
           "package": "ltl",
@@ -225,6 +244,7 @@
         "index": {
           "description": "Sequence must be excited",
           "hierarchy": "Language LTL",
+          "indexed": "2014-03-11T19:12:46",
           "module": "Language.LTL",
           "name": "Cover",
           "package": "ltl",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck VCD data against a set of verification directives.  Returns a list of violations with time of failure (Just: safety violation, Nothing: liveness violation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:46 UTC 2014",
           "module": "Language.LTL",
           "name": "checkVCD",
           "package": "ltl",
@@ -249,6 +270,7 @@
         "index": {
           "description": "Check VCD data against set of verification directives Returns list of violations with time of failure Just safety violation Nothing liveness violation",
           "hierarchy": "Language LTL",
+          "indexed": "2014-03-11T19:12:46",
           "module": "Language.LTL",
           "name": "checkVCD",
           "normalized": "String-\u003eInt-\u003e[Directive]-\u003e[(Directive,Maybe Int)]",

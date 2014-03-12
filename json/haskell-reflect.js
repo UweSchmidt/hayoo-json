@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-reflect"
+        "phrase": "haskell-reflect",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "Types",
           "package": "haskell-reflect",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "Types",
           "package": "haskell-reflect",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HDatatype",
           "package": "haskell-reflect",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HDatatype",
           "package": "haskell-reflect",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HFunction",
           "package": "haskell-reflect",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HFunction",
           "package": "haskell-reflect",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HInstance",
           "package": "haskell-reflect",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HInstance",
           "package": "haskell-reflect",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HModule",
           "package": "haskell-reflect",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HModule",
           "package": "haskell-reflect",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HName",
           "package": "haskell-reflect",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HName",
           "package": "haskell-reflect",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HType",
           "package": "haskell-reflect",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HType",
           "package": "haskell-reflect",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HTypeclass",
           "package": "haskell-reflect",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HTypeclass",
           "package": "haskell-reflect",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HDatatype",
           "package": "haskell-reflect",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HDatatype",
           "package": "haskell-reflect",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HFunction",
           "package": "haskell-reflect",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HFunction",
           "package": "haskell-reflect",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HInstance",
           "package": "haskell-reflect",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HInstance",
           "package": "haskell-reflect",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HModule",
           "package": "haskell-reflect",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HModule",
           "package": "haskell-reflect",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HType",
           "package": "haskell-reflect",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HType",
           "package": "haskell-reflect",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HTypeclass",
           "package": "haskell-reflect",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "HTypeclass",
           "package": "haskell-reflect",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "QName",
           "package": "haskell-reflect",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "QName",
           "package": "haskell-reflect",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "TyVar",
           "package": "haskell-reflect",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "TyVar",
           "package": "haskell-reflect",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "datatypeConstructors",
           "package": "haskell-reflect",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "datatypeConstructors",
           "package": "haskell-reflect",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "datatypeKind",
           "package": "haskell-reflect",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "datatypeKind",
           "package": "haskell-reflect",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "datatypeName",
           "package": "haskell-reflect",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "datatypeName",
           "package": "haskell-reflect",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "functionContext",
           "package": "haskell-reflect",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "functionContext",
           "normalized": "[HType]",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "functionName",
           "package": "haskell-reflect",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "functionName",
           "package": "haskell-reflect",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "functionSignature",
           "package": "haskell-reflect",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "functionSignature",
           "package": "haskell-reflect",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "functionType",
           "package": "haskell-reflect",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "functionType",
           "normalized": "[HType]",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "moduleDatatypes",
           "package": "haskell-reflect",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "moduleDatatypes",
           "package": "haskell-reflect",
@@ -542,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "moduleFunctions",
           "package": "haskell-reflect",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "moduleFunctions",
           "package": "haskell-reflect",
@@ -564,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "moduleName",
           "package": "haskell-reflect",
@@ -573,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "moduleName",
           "package": "haskell-reflect",
@@ -586,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "moduleTypeclasses",
           "package": "haskell-reflect",
@@ -595,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "moduleTypeclasses",
           "package": "haskell-reflect",
@@ -608,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "typeArgs",
           "package": "haskell-reflect",
@@ -617,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "typeArgs",
           "normalized": "[HType]",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "typeName",
           "package": "haskell-reflect",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "typeName",
           "package": "haskell-reflect",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "typeclassInstances",
           "package": "haskell-reflect",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "typeclassInstances",
           "normalized": "[HInstance]",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "typeclassMembers",
           "package": "haskell-reflect",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "typeclassMembers",
           "normalized": "[HFunction]",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect.Types",
           "name": "typeclassName",
           "package": "haskell-reflect",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect Types",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect.Types",
           "name": "typeclassName",
           "package": "haskell-reflect",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect",
           "name": "Reflect",
           "package": "haskell-reflect",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect",
           "name": "Reflect",
           "package": "haskell-reflect",
@@ -746,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether the given modules are installed in the\n package database or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect",
           "name": "checkModuleAvailability",
           "package": "haskell-reflect",
@@ -756,6 +823,7 @@
         "index": {
           "description": "Checks whether the given modules are installed in the package database or not",
           "hierarchy": "Language Haskell Reflect",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect",
           "name": "checkModuleAvailability",
           "normalized": "[String]-\u003ea[(String,Bool)]",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect",
           "name": "readContextFromSignature",
           "package": "haskell-reflect",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect",
           "name": "readContextFromSignature",
           "normalized": "String-\u003ea",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect",
           "name": "readKindFromSignature",
           "package": "haskell-reflect",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect",
           "name": "readKindFromSignature",
           "normalized": "String-\u003ea",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect",
           "name": "reflectModules",
           "package": "haskell-reflect",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect",
           "name": "reflectModules",
           "normalized": "[String]-\u003ea(Map String InterpreterError,Map String HModule)",
@@ -843,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:18 UTC 2014",
           "module": "Language.Haskell.Reflect",
           "name": "reflectTypeclasses",
           "package": "haskell-reflect",
@@ -852,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Reflect",
+          "indexed": "2014-03-11T18:31:18",
           "module": "Language.Haskell.Reflect",
           "name": "reflectTypeclasses",
           "normalized": "[String]-\u003ea[(String,Maybe HTypeclass)]",

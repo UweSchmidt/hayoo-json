@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ddc-war"
+        "phrase": "ddc-war",
+        "type": "phrase"
       },
       "type": "context"
     }

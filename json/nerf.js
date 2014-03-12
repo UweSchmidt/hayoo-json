@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nerf"
+        "phrase": "nerf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompare two NE-annotated datasets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Compare",
           "name": "Compare",
           "package": "nerf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Compare two NE-annotated datasets",
           "hierarchy": "NLP Nerf Compare",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Compare",
           "name": "Compare",
           "package": "nerf",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatistics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Compare",
           "name": "Stats",
           "package": "nerf",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Statistics",
           "hierarchy": "NLP Nerf Compare",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Compare",
           "name": "Stats",
           "package": "nerf",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd stats.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Compare",
           "name": "(.+.)",
           "package": "nerf",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Add stats",
           "hierarchy": "NLP Nerf Compare",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Compare",
           "name": "(.+.) .+.",
           "normalized": "Stats-\u003eStats-\u003eStats",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Compare",
           "name": "Stats",
           "package": "nerf",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Compare",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Compare",
           "name": "Stats",
           "package": "nerf",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two NE-annotated datasets.  The function assumes, that\n forest pairs correspond to the same sentences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Compare",
           "name": "compare",
           "package": "nerf",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Compare two NE-annotated datasets The function assumes that forest pairs correspond to the same sentences",
           "hierarchy": "NLP Nerf Compare",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Compare",
           "name": "compare",
           "normalized": "[(NeForest a Text,NeForest a Text)]-\u003eMap a Stats",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efalse negative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Compare",
           "name": "fn",
           "package": "nerf",
@@ -147,6 +158,7 @@
         "index": {
           "description": "false negative",
           "hierarchy": "NLP Nerf Compare",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Compare",
           "name": "fn",
           "package": "nerf",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efalse positive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Compare",
           "name": "fp",
           "package": "nerf",
@@ -170,6 +183,7 @@
         "index": {
           "description": "false positive",
           "hierarchy": "NLP Nerf Compare",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Compare",
           "name": "fp",
           "package": "nerf",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etrue negative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Compare",
           "name": "tn",
           "package": "nerf",
@@ -193,6 +208,7 @@
         "index": {
           "description": "true negative",
           "hierarchy": "NLP Nerf Compare",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Compare",
           "name": "tn",
           "package": "nerf",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etrue positive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Compare",
           "name": "tp",
           "package": "nerf",
@@ -216,6 +233,7 @@
         "index": {
           "description": "true positive",
           "hierarchy": "NLP Nerf Compare",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Compare",
           "name": "tp",
           "package": "nerf",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types for dictionary handling. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Base",
           "package": "nerf",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Basic types for dictionary handling",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Base",
           "package": "nerf",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDict\u003c/a\u003e\u003c/code\u003e is a map from forms to labels.  Each form may be annotated\n with multiple labels.  The map is represented using the directed acyclic\n word graph.\n type Dict = D.DAWG (S.Set Label)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "DAWG",
           "package": "nerf",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Dict is map from forms to labels Each form may be annotated with multiple labels The map is represented using the directed acyclic word graph type Dict D.DAWG S.Set Label",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "DAWG",
           "package": "nerf",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Dict",
           "package": "nerf",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Dict",
           "package": "nerf",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Named Entity entry from the LMF dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Entry",
           "package": "nerf",
@@ -305,6 +330,7 @@
         "index": {
           "description": "Named Entity entry from the LMF dictionary",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Entry",
           "package": "nerf",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA orthographic form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Form",
           "package": "nerf",
@@ -328,6 +355,7 @@
         "index": {
           "description": "orthographic form",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Form",
           "package": "nerf",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDictionary label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Label",
           "package": "nerf",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Dictionary label",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Label",
           "package": "nerf",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of named entity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "NeType",
           "package": "nerf",
@@ -374,6 +405,7 @@
         "index": {
           "description": "type of named entity",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "NeType",
           "package": "nerf",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Entry",
           "package": "nerf",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "Entry",
           "package": "nerf",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferentiate labels from separate dictionaries using\n dictionary-unique prefixes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "diff",
           "package": "nerf",
@@ -420,6 +455,7 @@
         "index": {
           "description": "Differentiate labels from separate dictionaries using dictionary-unique prefixes",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "diff",
           "normalized": "[Dict]-\u003e[Dict]",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct dictionary from the list of entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "fromEntries",
           "package": "nerf",
@@ -445,6 +482,7 @@
         "index": {
           "description": "Construct dictionary from the list of entries",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "fromEntries",
           "normalized": "[Entry]-\u003eDict",
@@ -461,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct dictionary from the list of form/label pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "fromPairs",
           "package": "nerf",
@@ -471,6 +510,7 @@
         "index": {
           "description": "Construct dictionary from the list of form label pairs",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "fromPairs",
           "normalized": "[(Form,Label)]-\u003eDict",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the form a multiword one?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "isMultiWord",
           "package": "nerf",
@@ -497,6 +538,7 @@
         "index": {
           "description": "Is the form multiword one",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "isMultiWord",
           "normalized": "Form-\u003eBool",
@@ -513,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad the dictionary from the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "loadDict",
           "package": "nerf",
@@ -523,6 +566,7 @@
         "index": {
           "description": "Load the dictionary from the file",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "loadDict",
           "normalized": "FilePath-\u003eIO Dict",
@@ -539,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge dictionary resources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "merge",
           "package": "nerf",
@@ -549,6 +594,7 @@
         "index": {
           "description": "Merge dictionary resources",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "merge",
           "normalized": "[Dict]-\u003eDict",
@@ -564,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrthographic form of the NE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "neOrth",
           "package": "nerf",
@@ -574,6 +621,7 @@
         "index": {
           "description": "Orthographic form of the NE",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "neOrth",
           "package": "nerf",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the NE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "neType",
           "package": "nerf",
@@ -598,6 +647,7 @@
         "index": {
           "description": "Type of the NE",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "neType",
           "package": "nerf",
@@ -612,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave the dictionary in the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "saveDict",
           "package": "nerf",
@@ -622,6 +673,7 @@
         "index": {
           "description": "Save the dictionary in the file",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "saveDict",
           "normalized": "FilePath-\u003eDict-\u003eIO()",
@@ -638,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove dictionary entries which do not satisfy the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Base",
           "name": "siftDict",
           "package": "nerf",
@@ -648,6 +701,7 @@
         "index": {
           "description": "Remove dictionary entries which do not satisfy the predicate",
           "hierarchy": "NLP Nerf Dict Base",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Base",
           "name": "siftDict",
           "normalized": "(Form-\u003eSet Label-\u003eBool)-\u003eDict-\u003eDict",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHandling the NELexicon dictionary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.NELexicon",
           "name": "NELexicon",
           "package": "nerf",
@@ -673,6 +728,7 @@
         "index": {
           "description": "Handling the NELexicon dictionary",
           "hierarchy": "NLP Nerf Dict NELexicon",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.NELexicon",
           "name": "NELexicon",
           "package": "nerf",
@@ -687,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the NELexicon into a list of entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.NELexicon",
           "name": "parseNELexicon",
           "package": "nerf",
@@ -697,6 +754,7 @@
         "index": {
           "description": "Parse the NELexicon into list of entries",
           "hierarchy": "NLP Nerf Dict NELexicon",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.NELexicon",
           "name": "parseNELexicon",
           "normalized": "Text-\u003e[Entry]",
@@ -713,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the dictionary from the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.NELexicon",
           "name": "readNELexicon",
           "package": "nerf",
@@ -723,6 +782,7 @@
         "index": {
           "description": "Read the dictionary from the file",
           "hierarchy": "NLP Nerf Dict NELexicon",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.NELexicon",
           "name": "readNELexicon",
           "normalized": "FilePath-\u003eIO[Entry]",
@@ -739,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing the Gazetteer for Polish Named Entities (used formerly within\n the SProUT platform) in the LMF format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNEG",
           "name": "PNEG",
           "package": "nerf",
@@ -748,6 +809,7 @@
         "index": {
           "description": "Parsing the Gazetteer for Polish Named Entities used formerly within the SProUT platform in the LMF format",
           "hierarchy": "NLP Nerf Dict PNEG",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNEG",
           "name": "PNEG",
           "package": "nerf",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the dictionary to the list of entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNEG",
           "name": "parsePNEG",
           "package": "nerf",
@@ -772,6 +835,7 @@
         "index": {
           "description": "Parse the dictionary to the list of entries",
           "hierarchy": "NLP Nerf Dict PNEG",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNEG",
           "name": "parsePNEG",
           "normalized": "Text-\u003e[Entry]",
@@ -788,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the dictionary from the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNEG",
           "name": "readPNEG",
           "package": "nerf",
@@ -798,6 +863,7 @@
         "index": {
           "description": "Read the dictionary from the file",
           "hierarchy": "NLP Nerf Dict PNEG",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNEG",
           "name": "readPNEG",
           "normalized": "FilePath-\u003eIO[Entry]",
@@ -814,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePolish Named Entity Triggers \u003ca\u003ehttp://zil.ipipan.waw.pl/PNET\u003c/a\u003e dictionary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "PNET",
           "package": "nerf",
@@ -823,6 +890,7 @@
         "index": {
           "description": "Polish Named Entity Triggers http zil.ipipan.waw.pl PNET dictionary",
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "PNET",
           "package": "nerf",
@@ -837,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePNET entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "Entry",
           "package": "nerf",
@@ -846,6 +915,7 @@
         "index": {
           "description": "PNET entry",
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "Entry",
           "package": "nerf",
@@ -860,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrigger type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "Typ",
           "package": "nerf",
@@ -869,6 +940,7 @@
         "index": {
           "description": "Trigger type",
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "Typ",
           "package": "nerf",
@@ -882,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "Entry",
           "package": "nerf",
@@ -891,6 +964,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "Entry",
           "package": "nerf",
@@ -904,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "External",
           "package": "nerf",
@@ -913,6 +988,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "External",
           "package": "nerf",
@@ -926,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "Internal",
           "package": "nerf",
@@ -935,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "Internal",
           "package": "nerf",
@@ -948,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "base",
           "package": "nerf",
@@ -957,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "base",
           "package": "nerf",
@@ -969,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "example",
           "package": "nerf",
@@ -978,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "example",
           "package": "nerf",
@@ -991,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes entry represents a trigger of the given type?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "hasTyp",
           "package": "nerf",
@@ -1001,6 +1084,7 @@
         "index": {
           "description": "Does entry represents trigger of the given type",
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "hasTyp",
           "normalized": "Typ-\u003eEntry-\u003eBool",
@@ -1016,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "neTyp",
           "package": "nerf",
@@ -1025,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "neTyp",
           "package": "nerf",
@@ -1038,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "orth",
           "package": "nerf",
@@ -1047,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "orth",
           "package": "nerf",
@@ -1060,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse dictionary into a list of entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "parsePNET",
           "package": "nerf",
@@ -1070,6 +1159,7 @@
         "index": {
           "description": "Parse dictionary into list of entries",
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "parsePNET",
           "normalized": "Text-\u003e[Entry]",
@@ -1086,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead dictionary from the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "readPNET",
           "package": "nerf",
@@ -1096,6 +1187,7 @@
         "index": {
           "description": "Read dictionary from the file",
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "readPNET",
           "normalized": "FilePath-\u003eIO[Entry]",
@@ -1111,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "tag",
           "package": "nerf",
@@ -1120,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "tag",
           "package": "nerf",
@@ -1132,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "typ",
           "package": "nerf",
@@ -1141,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Dict PNET",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.PNET",
           "name": "typ",
           "package": "nerf",
@@ -1154,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHandling Prolexbase dictionaries, both with the\n same storage format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Prolexbase",
           "name": "Prolexbase",
           "package": "nerf",
@@ -1163,6 +1260,7 @@
         "index": {
           "description": "Handling Prolexbase dictionaries both with the same storage format",
           "hierarchy": "NLP Nerf Dict Prolexbase",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Prolexbase",
           "name": "Prolexbase",
           "package": "nerf",
@@ -1177,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse dictionary into a list of entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Prolexbase",
           "name": "parseProlexbase",
           "package": "nerf",
@@ -1187,6 +1286,7 @@
         "index": {
           "description": "Parse dictionary into list of entries",
           "hierarchy": "NLP Nerf Dict Prolexbase",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Prolexbase",
           "name": "parseProlexbase",
           "normalized": "Text-\u003e[Entry]",
@@ -1203,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the dictionary from the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict.Prolexbase",
           "name": "readProlexbase",
           "package": "nerf",
@@ -1213,6 +1314,7 @@
         "index": {
           "description": "Read the dictionary from the file",
           "hierarchy": "NLP Nerf Dict Prolexbase",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict.Prolexbase",
           "name": "readProlexbase",
           "normalized": "FilePath-\u003eIO[Entry]",
@@ -1229,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtraction utilities for various dictionary resources.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict",
           "name": "Dict",
           "package": "nerf",
@@ -1238,6 +1341,7 @@
         "index": {
           "description": "Extraction utilities for various dictionary resources",
           "hierarchy": "NLP Nerf Dict",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict",
           "name": "Dict",
           "package": "nerf",
@@ -1252,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract external triggers from PNET dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict",
           "name": "extractExtTriggers",
           "package": "nerf",
@@ -1261,6 +1366,7 @@
         "index": {
           "description": "Extract external triggers from PNET dictionary",
           "hierarchy": "NLP Nerf Dict",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict",
           "name": "extractExtTriggers",
           "normalized": "FilePath-\u003eIO Dict",
@@ -1277,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract internal triggers from PNET dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict",
           "name": "extractIntTriggers",
           "package": "nerf",
@@ -1286,6 +1393,7 @@
         "index": {
           "description": "Extract internal triggers from PNET dictionary",
           "hierarchy": "NLP Nerf Dict",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict",
           "name": "extractIntTriggers",
           "normalized": "FilePath-\u003eIO Dict",
@@ -1302,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract NEs dictionary from NELexicon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict",
           "name": "extractNELexicon",
           "package": "nerf",
@@ -1311,6 +1420,7 @@
         "index": {
           "description": "Extract NEs dictionary from NELexicon",
           "hierarchy": "NLP Nerf Dict",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict",
           "name": "extractNELexicon",
           "normalized": "FilePath-\u003eIO Dict",
@@ -1327,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract NEs dictionary from PNEG.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict",
           "name": "extractPNEG",
           "package": "nerf",
@@ -1336,6 +1447,7 @@
         "index": {
           "description": "Extract NEs dictionary from PNEG",
           "hierarchy": "NLP Nerf Dict",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict",
           "name": "extractPNEG",
           "normalized": "FilePath-\u003eIO Dict",
@@ -1352,6 +1464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract NEs dictionary from PoliMorf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict",
           "name": "extractPoliMorf",
           "package": "nerf",
@@ -1361,6 +1474,7 @@
         "index": {
           "description": "Extract NEs dictionary from PoliMorf",
           "hierarchy": "NLP Nerf Dict",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict",
           "name": "extractPoliMorf",
           "normalized": "FilePath-\u003eIO Dict",
@@ -1377,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract NEs dictionary from Prolexbase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Dict",
           "name": "extractProlexbase",
           "package": "nerf",
@@ -1386,6 +1501,7 @@
         "index": {
           "description": "Extract NEs dictionary from Prolexbase",
           "hierarchy": "NLP Nerf Dict",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Dict",
           "name": "extractProlexbase",
           "normalized": "FilePath-\u003eIO Dict",
@@ -1402,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eObservation schema blocks for Nerf.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "Schema",
           "package": "nerf",
@@ -1411,6 +1528,7 @@
         "index": {
           "description": "Observation schema blocks for Nerf",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "Schema",
           "package": "nerf",
@@ -1425,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA block is a chunk of the Ox computation performed within the\n context of the sentence and the list of absolute sentence positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "Block",
           "package": "nerf",
@@ -1434,6 +1553,7 @@
         "index": {
           "description": "block is chunk of the Ox computation performed within the context of the sentence and the list of absolute sentence positions",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "Block",
           "package": "nerf",
@@ -1448,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBody of configuration entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "Body",
           "package": "nerf",
@@ -1457,6 +1578,7 @@
         "index": {
           "description": "Body of configuration entry",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "Body",
           "package": "nerf",
@@ -1471,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "Entry",
           "package": "nerf",
@@ -1480,6 +1603,7 @@
         "index": {
           "description": "Maybe entry",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "Entry",
           "package": "nerf",
@@ -1494,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Ox monad specialized to word token type and text observations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "Ox",
           "package": "nerf",
@@ -1503,6 +1628,7 @@
         "index": {
           "description": "The Ox monad specialized to word token type and text observations",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "Ox",
           "package": "nerf",
@@ -1517,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA schema is a block of the Ox computation performed within the\n context of the sentence and the absolute sentence position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "Schema",
           "package": "nerf",
@@ -1526,6 +1653,7 @@
         "index": {
           "description": "schema is block of the Ox computation performed within the context of the sentence and the absolute sentence position",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "Schema",
           "package": "nerf",
@@ -1540,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of the schema.  All configuration elements specify the\n range over which a particular observation type should be taken on account.\n For example, the \u003ccode\u003e[-1, 0, 2]\u003c/code\u003e range means that observations of particular\n type will be extracted with respect to previous (\u003ccode\u003ek - 1\u003c/code\u003e), current (\u003ccode\u003ek\u003c/code\u003e)\n and after the next (\u003ccode\u003ek + 2\u003c/code\u003e) positions when identifying the observation\n set for position \u003ccode\u003ek\u003c/code\u003e in the input sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "SchemaConf",
           "package": "nerf",
@@ -1549,6 +1678,7 @@
         "index": {
           "description": "Configuration of the schema All configuration elements specify the range over which particular observation type should be taken on account For example the range means that observations of particular type will be extracted with respect to previous current and after the next positions when identifying the observation set for position in the input sentence",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "SchemaConf",
           "package": "nerf",
@@ -1562,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "Body",
           "package": "nerf",
@@ -1571,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "Body",
           "package": "nerf",
@@ -1584,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "SchemaConf",
           "package": "nerf",
@@ -1593,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "SchemaConf",
           "package": "nerf",
@@ -1607,6 +1741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional arguments for the schema block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "args",
           "package": "nerf",
@@ -1617,6 +1752,7 @@
         "index": {
           "description": "Additional arguments for the schema block",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "args",
           "package": "nerf",
@@ -1630,6 +1766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault configuration of the observation schema.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "defaultConf",
           "package": "nerf",
@@ -1639,6 +1776,7 @@
         "index": {
           "description": "Default configuration of the observation schema",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "defaultConf",
           "normalized": "[Dict]-\u003eMaybe Dict-\u003eMaybe Dict-\u003eIO SchemaConf",
@@ -1655,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain dictionary search determined with respect to the list of\n relative positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "dictB",
           "package": "nerf",
@@ -1665,6 +1804,7 @@
         "index": {
           "description": "Plain dictionary search determined with respect to the list of relative positions",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "dictB",
           "normalized": "Dict-\u003eBlock()",
@@ -1680,6 +1820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDictionaries of NEs (\u003ccode\u003e\u003ca\u003edictB\u003c/a\u003e\u003c/code\u003e schema block).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "dictC",
           "package": "nerf",
@@ -1690,6 +1831,7 @@
         "index": {
           "description": "Dictionaries of NEs dictB schema block",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "dictC",
           "normalized": "Entry[Dict]",
@@ -1705,6 +1847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain entry with no additional arugments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "entry",
           "package": "nerf",
@@ -1715,6 +1858,7 @@
         "index": {
           "description": "Plain entry with no additional arugments",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "entry",
           "normalized": "[Int]-\u003eEntry()",
@@ -1730,6 +1874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry with additional arguemnts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "entryWith",
           "package": "nerf",
@@ -1740,6 +1885,7 @@
         "index": {
           "description": "Entry with additional arguemnts",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "entryWith",
           "normalized": "a-\u003e[Int]-\u003eEntry a",
@@ -1756,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDictionary of external triggers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "extTrigsC",
           "package": "nerf",
@@ -1766,6 +1913,7 @@
         "index": {
           "description": "Dictionary of external triggers",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "extTrigsC",
           "package": "nerf",
@@ -1780,6 +1928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the block to the schema depending on the list of\n relative sentence positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "fromBlock",
           "package": "nerf",
@@ -1790,6 +1939,7 @@
         "index": {
           "description": "Transform the block to the schema depending on the list of relative sentence positions",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "fromBlock",
           "normalized": "Block a-\u003e[Int]-\u003eSchema a",
@@ -1806,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild the schema based on the configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "fromConf",
           "package": "nerf",
@@ -1816,6 +1967,7 @@
         "index": {
           "description": "Build the schema based on the configuration",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "fromConf",
           "normalized": "SchemaConf-\u003eSchema()",
@@ -1832,6 +1984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDictionary of internal triggers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "intTrigsC",
           "package": "nerf",
@@ -1842,6 +1995,7 @@
         "index": {
           "description": "Dictionary of internal triggers",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "intTrigsC",
           "package": "nerf",
@@ -1856,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLemma substitute parametrized by the number specifying the span\n over which lowercased prefixes and suffixes will be \u003ccode\u003e\u003ca\u003esave\u003c/a\u003e\u003c/code\u003ed.\n For example, \u003ccode\u003elemmaB 2\u003c/code\u003e will take affixes of lengths \u003ccode\u003e0, -1\u003c/code\u003e and \u003ccode\u003e-2\u003c/code\u003e\n on account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "lemmaB",
           "package": "nerf",
@@ -1866,6 +2021,7 @@
         "index": {
           "description": "Lemma substitute parametrized by the number specifying the span over which lowercased prefixes and suffixes will be save For example lemmaB will take affixes of lengths and on account",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "lemmaB",
           "normalized": "Int-\u003eBlock()",
@@ -1881,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003elemmaB\u003c/a\u003e\u003c/code\u003e schema block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "lemmaC",
           "package": "nerf",
@@ -1891,6 +2048,7 @@
         "index": {
           "description": "The lemmaB schema block",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "lemmaC",
           "package": "nerf",
@@ -1904,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of lowercased prefixes of given lengths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "lowPrefixesB",
           "package": "nerf",
@@ -1914,6 +2073,7 @@
         "index": {
           "description": "List of lowercased prefixes of given lengths",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "lowPrefixesB",
           "normalized": "[Int]-\u003eBlock()",
@@ -1930,6 +2090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003elowPrefixesB\u003c/a\u003e\u003c/code\u003e schema block.  The first list of ints\n represents lengths of prefixes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "lowPrefixesC",
           "package": "nerf",
@@ -1940,6 +2101,7 @@
         "index": {
           "description": "The lowPrefixesB schema block The first list of ints represents lengths of prefixes",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "lowPrefixesC",
           "normalized": "Entry[Int]",
@@ -1956,6 +2118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of lowercased suffixes of given lengths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "lowSuffixesB",
           "package": "nerf",
@@ -1966,6 +2129,7 @@
         "index": {
           "description": "List of lowercased suffixes of given lengths",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "lowSuffixesB",
           "normalized": "[Int]-\u003eBlock()",
@@ -1982,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003elowSuffixesB\u003c/a\u003e\u003c/code\u003e schema block.  The first list of ints\n represents lengths of suffixes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "lowSuffixesC",
           "package": "nerf",
@@ -1992,6 +2157,7 @@
         "index": {
           "description": "The lowSuffixesB schema block The first list of ints represents lengths of suffixes",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "lowSuffixesC",
           "normalized": "Entry[Int]",
@@ -2008,6 +2174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNull configuration of the observation schema.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "nullConf",
           "package": "nerf",
@@ -2018,6 +2185,7 @@
         "index": {
           "description": "Null configuration of the observation schema",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "nullConf",
           "package": "nerf",
@@ -2032,6 +2200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrthographic form at the current position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "orthB",
           "package": "nerf",
@@ -2042,6 +2211,7 @@
         "index": {
           "description": "Orthographic form at the current position",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "orthB",
           "normalized": "Block()",
@@ -2057,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eorthB\u003c/a\u003e\u003c/code\u003e schema block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "orthC",
           "package": "nerf",
@@ -2067,6 +2238,7 @@
         "index": {
           "description": "The orthB schema block",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "orthC",
           "normalized": "Entry()",
@@ -2082,6 +2254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePacked shape of the word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "packedB",
           "package": "nerf",
@@ -2092,6 +2265,7 @@
         "index": {
           "description": "Packed shape of the word",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "packedB",
           "normalized": "Block()",
@@ -2107,6 +2281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003epackedB\u003c/a\u003e\u003c/code\u003e schema block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "packedC",
           "package": "nerf",
@@ -2117,6 +2292,7 @@
         "index": {
           "description": "The packedB schema block",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "packedC",
           "normalized": "Entry()",
@@ -2132,6 +2308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombined packed shapes of two consecutive (at \u003ccode\u003ek-1\u003c/code\u003e and \u003ccode\u003ek\u003c/code\u003e positions)\n words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "packedPairB",
           "package": "nerf",
@@ -2142,6 +2319,7 @@
         "index": {
           "description": "Combined packed shapes of two consecutive at k-1 and positions words",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "packedPairB",
           "normalized": "Block()",
@@ -2158,6 +2336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003epackedPairB\u003c/a\u003e\u003c/code\u003e schema block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "packedPairC",
           "package": "nerf",
@@ -2168,6 +2347,7 @@
         "index": {
           "description": "The packedPairB schema block",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "packedPairC",
           "normalized": "Entry()",
@@ -2184,6 +2364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRange argument for the schema block. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "range",
           "package": "nerf",
@@ -2194,6 +2375,7 @@
         "index": {
           "description": "Range argument for the schema block",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "range",
           "normalized": "[Int]",
@@ -2209,6 +2391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the schema to extract observations from the sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "schematize",
           "package": "nerf",
@@ -2219,6 +2402,7 @@
         "index": {
           "description": "Use the schema to extract observations from the sentence",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "schematize",
           "normalized": "Schema a-\u003e[Word]-\u003eSent Ob",
@@ -2234,6 +2418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence the list of schemas (or blocks) and discard individual values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "sequenceS_",
           "package": "nerf",
@@ -2244,6 +2429,7 @@
         "index": {
           "description": "Sequence the list of schemas or blocks and discard individual values",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "sequenceS_",
           "normalized": "[Vector Word-\u003ea-\u003eOx b]-\u003eVector Word-\u003ea-\u003eOx()",
@@ -2259,6 +2445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShape of the word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "shapeB",
           "package": "nerf",
@@ -2269,6 +2456,7 @@
         "index": {
           "description": "Shape of the word",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "shapeB",
           "normalized": "Block()",
@@ -2284,6 +2472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eshapeB\u003c/a\u003e\u003c/code\u003e schema block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "shapeC",
           "package": "nerf",
@@ -2294,6 +2483,7 @@
         "index": {
           "description": "The shapeB schema block",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "shapeC",
           "normalized": "Entry()",
@@ -2309,6 +2499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombined shapes of two consecutive (at \u003ccode\u003ek-1\u003c/code\u003e and \u003ccode\u003ek\u003c/code\u003e positions) words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "shapePairB",
           "package": "nerf",
@@ -2319,6 +2510,7 @@
         "index": {
           "description": "Combined shapes of two consecutive at k-1 and positions words",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "shapePairB",
           "normalized": "Block()",
@@ -2335,6 +2527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eshapePairB\u003c/a\u003e\u003c/code\u003e schema block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "shapePairC",
           "package": "nerf",
@@ -2345,6 +2538,7 @@
         "index": {
           "description": "The shapePairB schema block",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "shapePairC",
           "normalized": "Entry()",
@@ -2361,6 +2555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrthographic form split into two observations: the lowercased form and\n the original form (only when different than the lowercased one).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "splitOrthB",
           "package": "nerf",
@@ -2371,6 +2566,7 @@
         "index": {
           "description": "Orthographic form split into two observations the lowercased form and the original form only when different than the lowercased one",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "splitOrthB",
           "normalized": "Block()",
@@ -2387,6 +2583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esplitOrthB\u003c/a\u003e\u003c/code\u003e schema block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "splitOrthC",
           "package": "nerf",
@@ -2397,6 +2594,7 @@
         "index": {
           "description": "The splitOrthB schema block",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "splitOrthC",
           "normalized": "Entry()",
@@ -2413,6 +2611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dummy schema block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Schema",
           "name": "void",
           "package": "nerf",
@@ -2423,6 +2622,7 @@
         "index": {
           "description": "dummy schema block",
           "hierarchy": "NLP Nerf Schema",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Schema",
           "name": "void",
           "normalized": "a-\u003eSchema a",
@@ -2437,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Server",
           "name": "Server",
           "package": "nerf",
@@ -2445,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Server",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Server",
           "name": "Server",
           "package": "nerf",
@@ -2459,6 +2661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform NER tagging on the input sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Server",
           "name": "ner",
           "package": "nerf",
@@ -2469,6 +2672,7 @@
         "index": {
           "description": "Perform NER tagging on the input sentence",
           "hierarchy": "NLP Nerf Server",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Server",
           "name": "ner",
           "normalized": "HostName-\u003ePortID-\u003eString-\u003eIO(NeForest NE Word)",
@@ -2484,6 +2688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Nerf server on a given port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Server",
           "name": "runNerfServer",
           "package": "nerf",
@@ -2494,6 +2699,7 @@
         "index": {
           "description": "Run Nerf server on given port",
           "hierarchy": "NLP Nerf Server",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Server",
           "name": "runNerfServer",
           "normalized": "Nerf-\u003ePortID-\u003eIO()",
@@ -2510,6 +2716,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module implements the tokenization used within Nerf\n and some other tokenization-related stuff.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Tokenize",
           "name": "Tokenize",
           "package": "nerf",
@@ -2519,6 +2726,7 @@
         "index": {
           "description": "The module implements the tokenization used within Nerf and some other tokenization-related stuff",
           "hierarchy": "NLP Nerf Tokenize",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Tokenize",
           "name": "Tokenize",
           "package": "nerf",
@@ -2533,6 +2741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of objects which can be converted to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Tokenize",
           "name": "Word",
           "package": "nerf",
@@ -2542,6 +2751,7 @@
         "index": {
           "description": "class of objects which can be converted to String",
           "hierarchy": "NLP Nerf Tokenize",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Tokenize",
           "name": "Word",
           "package": "nerf",
@@ -2556,6 +2766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronize the list of NE trees with the new tokenization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Tokenize",
           "name": "sync",
           "package": "nerf",
@@ -2565,6 +2776,7 @@
         "index": {
           "description": "Synchronize the list of NE trees with the new tokenization",
           "hierarchy": "NLP Nerf Tokenize",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Tokenize",
           "name": "sync",
           "normalized": "NeForest a b-\u003e[c]-\u003eNeForest a c",
@@ -2580,6 +2792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTokenize sentence using the default tokenizer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Tokenize",
           "name": "tokenize",
           "package": "nerf",
@@ -2590,6 +2803,7 @@
         "index": {
           "description": "Tokenize sentence using the default tokenizer",
           "hierarchy": "NLP Nerf Tokenize",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Tokenize",
           "name": "tokenize",
           "normalized": "String-\u003e[String]",
@@ -2604,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Tokenize",
           "name": "word",
           "package": "nerf",
@@ -2613,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf Tokenize",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Tokenize",
           "name": "word",
           "normalized": "a-\u003eString",
@@ -2628,6 +2844,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Types",
           "name": "Types",
           "package": "nerf",
@@ -2637,6 +2854,7 @@
         "index": {
           "description": "Basic types",
           "hierarchy": "NLP Nerf Types",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Types",
           "name": "Types",
           "package": "nerf",
@@ -2651,6 +2869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label is created by encoding the named entity forest using the\n IOB method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Types",
           "name": "Lb",
           "package": "nerf",
@@ -2660,6 +2879,7 @@
         "index": {
           "description": "label is created by encoding the named entity forest using the IOB method",
           "hierarchy": "NLP Nerf Types",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Types",
           "name": "Lb",
           "package": "nerf",
@@ -2674,6 +2894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA named entity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Types",
           "name": "NE",
           "package": "nerf",
@@ -2683,6 +2904,7 @@
         "index": {
           "description": "named entity",
           "hierarchy": "NLP Nerf Types",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Types",
           "name": "NE",
           "package": "nerf",
@@ -2697,6 +2919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn observation consist of an index (of list type) and an actual\n observation value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Types",
           "name": "Ob",
           "package": "nerf",
@@ -2706,6 +2929,7 @@
         "index": {
           "description": "An observation consist of an index of list type and an actual observation value",
           "hierarchy": "NLP Nerf Types",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Types",
           "name": "Ob",
           "package": "nerf",
@@ -2720,6 +2944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.Types",
           "name": "Word",
           "package": "nerf",
@@ -2729,6 +2954,7 @@
         "index": {
           "description": "word",
           "hierarchy": "NLP Nerf Types",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.Types",
           "name": "Word",
           "package": "nerf",
@@ -2743,6 +2969,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for the XCES format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.XCES",
           "name": "XCES",
           "package": "nerf",
@@ -2752,6 +2979,7 @@
         "index": {
           "description": "Support for the XCES format",
           "hierarchy": "NLP Nerf XCES",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.XCES",
           "name": "XCES",
           "package": "nerf",
@@ -2766,6 +2994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate XCES (in a form of a tag list) with NEs with respect\n to the given NER function.\n nerXCES :: Nerf.Nerf -\u003e L.Text -\u003e L.Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf.XCES",
           "name": "nerXCES",
           "package": "nerf",
@@ -2776,6 +3005,7 @@
         "index": {
           "description": "Annotate XCES in form of tag list with NEs with respect to the given NER function nerXCES Nerf.Nerf L.Text L.Text",
           "hierarchy": "NLP Nerf XCES",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf.XCES",
           "name": "nerXCES",
           "normalized": "(String-\u003eNeForest NE Word)-\u003eText-\u003eText",
@@ -2792,6 +3022,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain module of the Nerf tool.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf",
           "name": "Nerf",
           "package": "nerf",
@@ -2801,6 +3032,7 @@
         "index": {
           "description": "Main module of the Nerf tool",
           "hierarchy": "NLP Nerf",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf",
           "name": "Nerf",
           "package": "nerf",
@@ -2815,6 +3047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Nerf consists of the observation schema configuration and the CRF model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf",
           "name": "Nerf",
           "package": "nerf",
@@ -2824,6 +3057,7 @@
         "index": {
           "description": "Nerf consists of the observation schema configuration and the CRF model",
           "hierarchy": "NLP Nerf",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf",
           "name": "Nerf",
           "package": "nerf",
@@ -2837,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf",
           "name": "Nerf",
           "package": "nerf",
@@ -2846,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf",
           "name": "Nerf",
           "package": "nerf",
@@ -2859,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf",
           "name": "crf",
           "package": "nerf",
@@ -2868,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf",
           "name": "crf",
           "package": "nerf",
@@ -2881,6 +3119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform named entity recognition (NER) using the Nerf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf",
           "name": "ner",
           "package": "nerf",
@@ -2891,6 +3130,7 @@
         "index": {
           "description": "Perform named entity recognition NER using the Nerf",
           "hierarchy": "NLP Nerf",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf",
           "name": "ner",
           "normalized": "Nerf-\u003eString-\u003eNeForest NE Word",
@@ -2905,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf",
           "name": "schemaConf",
           "package": "nerf",
@@ -2914,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "NLP Nerf",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf",
           "name": "schemaConf",
           "package": "nerf",
@@ -2928,6 +3170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain Nerf on the input data using the SGD method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf",
           "name": "train",
           "package": "nerf",
@@ -2937,6 +3180,7 @@
         "index": {
           "description": "Train Nerf on the input data using the SGD method",
           "hierarchy": "NLP Nerf",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf",
           "name": "train",
           "normalized": "SgdArgs-\u003eSchemaConf-\u003eFilePath-\u003eMaybe FilePath-\u003eIO Nerf",
@@ -2952,6 +3196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow results of observation extraction on the input ENAMEX file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:40 UTC 2014",
           "module": "NLP.Nerf",
           "name": "tryOx",
           "package": "nerf",
@@ -2962,6 +3207,7 @@
         "index": {
           "description": "Show results of observation extraction on the input ENAMEX file",
           "hierarchy": "NLP Nerf",
+          "indexed": "2014-03-11T19:26:40",
           "module": "NLP.Nerf",
           "name": "tryOx",
           "normalized": "SchemaConf-\u003eFilePath-\u003eIO()",

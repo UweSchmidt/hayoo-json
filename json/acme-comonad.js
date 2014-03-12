@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-comonad"
+        "phrase": "acme-comonad",
+        "type": "phrase"
       },
       "type": "context"
     }

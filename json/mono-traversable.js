@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mono-traversable"
+        "phrase": "mono-traversable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWarning: This module should be considered highly experimental.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "Containers",
           "package": "mono-traversable",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Warning This module should be considered highly experimental",
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "Containers",
           "package": "mono-traversable",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "IsMap",
           "package": "mono-traversable",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "IsMap",
           "package": "mono-traversable",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "IsSet",
           "package": "mono-traversable",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "IsSet",
           "package": "mono-traversable",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ezip operations on MonoFunctors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "MonoZip",
           "package": "mono-traversable",
@@ -93,6 +100,7 @@
         "index": {
           "description": "zip operations on MonoFunctors",
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "MonoZip",
           "package": "mono-traversable",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA guaranteed-polymorphic \u003ccode\u003eMap\u003c/code\u003e, which allows for more polymorphic versions\n of functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "PolyMap",
           "package": "mono-traversable",
@@ -116,6 +125,7 @@
         "index": {
           "description": "guaranteed-polymorphic Map which allows for more polymorphic versions of functions",
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "PolyMap",
           "package": "mono-traversable",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "SetContainer",
           "package": "mono-traversable",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "SetContainer",
           "package": "mono-traversable",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "adjustMap",
           "package": "mono-traversable",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "adjustMap",
           "normalized": "(MapValue a-\u003eMapValue a)-\u003eContainerKey a-\u003ea-\u003ea",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "adjustWithKey",
           "package": "mono-traversable",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "adjustWithKey",
           "normalized": "(ContainerKey a-\u003eMapValue a-\u003eMapValue a)-\u003eContainerKey a-\u003ea-\u003ea",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "alterMap",
           "package": "mono-traversable",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "alterMap",
           "normalized": "(Maybe(MapValue a)-\u003eMaybe(MapValue a))-\u003eContainerKey a-\u003ea-\u003ea",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "deleteMap",
           "package": "mono-traversable",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "deleteMap",
           "normalized": "ContainerKey a-\u003ea-\u003ea",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "deleteSet",
           "package": "mono-traversable",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "deleteSet",
           "normalized": "Element a-\u003ea-\u003ea",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "difference",
           "package": "mono-traversable",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "difference",
           "normalized": "a-\u003ea-\u003ea",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "differenceMap",
           "package": "mono-traversable",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "differenceMap",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "findWithDefault",
           "package": "mono-traversable",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "findWithDefault",
           "normalized": "MapValue a-\u003eContainerKey a-\u003ea-\u003eMapValue a",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "insertLookupWithKey",
           "package": "mono-traversable",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "insertLookupWithKey",
           "normalized": "(ContainerKey a-\u003eMapValue a-\u003eMapValue a-\u003eMapValue a)-\u003eContainerKey a-\u003eMapValue a-\u003ea-\u003e(Maybe(MapValue a),a)",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "insertMap",
           "package": "mono-traversable",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "insertMap",
           "normalized": "ContainerKey a-\u003eMapValue a-\u003ea-\u003ea",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "insertSet",
           "package": "mono-traversable",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "insertSet",
           "normalized": "Element a-\u003ea-\u003ea",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "insertWith",
           "package": "mono-traversable",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "insertWith",
           "normalized": "(MapValue a-\u003eMapValue a-\u003eMapValue a)-\u003eContainerKey a-\u003eMapValue a-\u003ea-\u003ea",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "insertWithKey",
           "package": "mono-traversable",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "insertWithKey",
           "normalized": "(ContainerKey a-\u003eMapValue a-\u003eMapValue a-\u003eMapValue a)-\u003eContainerKey a-\u003eMapValue a-\u003ea-\u003ea",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "intersection",
           "package": "mono-traversable",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "intersection",
           "normalized": "a-\u003ea-\u003ea",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "intersectionMap",
           "package": "mono-traversable",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "intersectionMap",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "intersectionWithMap",
           "package": "mono-traversable",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "intersectionWithMap",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003eb a-\u003eb a",
@@ -532,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "lookup",
           "package": "mono-traversable",
@@ -541,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "lookup",
           "normalized": "ContainerKey a-\u003ea-\u003eMaybe(MapValue a)",
@@ -555,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "mapFromList",
           "package": "mono-traversable",
@@ -564,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "mapFromList",
           "normalized": "[(ContainerKey a,MapValue a)]-\u003ea",
@@ -579,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "mapKeysWith",
           "package": "mono-traversable",
@@ -588,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "mapKeysWith",
           "normalized": "(MapValue a-\u003eMapValue a-\u003eMapValue a)-\u003e(ContainerKey a-\u003eContainerKey a)-\u003ea-\u003ea",
@@ -603,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "mapToList",
           "package": "mono-traversable",
@@ -612,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "mapToList",
           "normalized": "a-\u003e[(ContainerKey a,MapValue a)]",
@@ -627,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "mapWithKey",
           "package": "mono-traversable",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "mapWithKey",
           "normalized": "(ContainerKey a-\u003eMapValue a-\u003eMapValue a)-\u003ea-\u003ea",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "member",
           "package": "mono-traversable",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "member",
           "normalized": "ContainerKey a-\u003ea-\u003eBool",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "notMember",
           "package": "mono-traversable",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "notMember",
           "normalized": "ContainerKey a-\u003ea-\u003eBool",
@@ -698,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "ounzip",
           "package": "mono-traversable",
@@ -707,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "ounzip",
           "normalized": "[(Element a,Element a)]-\u003e(a,a)",
@@ -721,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "ozip",
           "package": "mono-traversable",
@@ -730,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "ozip",
           "normalized": "a-\u003ea-\u003e[(Element a,Element a)]",
@@ -744,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "ozipWith",
           "package": "mono-traversable",
@@ -753,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "ozipWith",
           "normalized": "(Element a-\u003eElement a-\u003eElement a)-\u003ea-\u003ea-\u003ea",
@@ -768,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "setFromList",
           "package": "mono-traversable",
@@ -777,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "setFromList",
           "normalized": "[Element a]-\u003ea",
@@ -792,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "setToList",
           "package": "mono-traversable",
@@ -801,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "setToList",
           "normalized": "a-\u003e[Element a]",
@@ -816,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "singletonMap",
           "package": "mono-traversable",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "singletonMap",
           "normalized": "ContainerKey a-\u003eMapValue a-\u003ea",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "singletonSet",
           "package": "mono-traversable",
@@ -849,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "singletonSet",
           "normalized": "Element a-\u003ea",
@@ -864,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "union",
           "package": "mono-traversable",
@@ -873,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "union",
           "normalized": "a-\u003ea-\u003ea",
@@ -887,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "unionWith",
           "package": "mono-traversable",
@@ -896,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "unionWith",
           "normalized": "(MapValue a-\u003eMapValue a-\u003eMapValue a)-\u003ea-\u003ea-\u003ea",
@@ -911,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "unionWithKey",
           "package": "mono-traversable",
@@ -920,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "unionWithKey",
           "normalized": "(ContainerKey a-\u003eMapValue a-\u003eMapValue a-\u003eMapValue a)-\u003ea-\u003ea-\u003ea",
@@ -935,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "unionsWith",
           "package": "mono-traversable",
@@ -944,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "unionsWith",
           "normalized": "(MapValue a-\u003eMapValue a-\u003eMapValue a)-\u003e[a]-\u003ea",
@@ -959,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "updateLookupWithKey",
           "package": "mono-traversable",
@@ -968,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "updateLookupWithKey",
           "normalized": "(ContainerKey a-\u003eMapValue a-\u003eMaybe(MapValue a))-\u003eContainerKey a-\u003ea-\u003e(Maybe(MapValue a),a)",
@@ -983,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "updateMap",
           "package": "mono-traversable",
@@ -992,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "updateMap",
           "normalized": "(MapValue a-\u003eMaybe(MapValue a))-\u003eContainerKey a-\u003ea-\u003ea",
@@ -1007,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Containers",
           "name": "updateWithKey",
           "package": "mono-traversable",
@@ -1016,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Containers",
           "name": "updateWithKey",
           "normalized": "(ContainerKey a-\u003eMapValue a-\u003eMaybe(MapValue a))-\u003eContainerKey a-\u003ea-\u003ea",
@@ -1031,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "MinLen",
           "package": "mono-traversable",
@@ -1039,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "MinLen",
           "package": "mono-traversable",
@@ -1053,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eolength (x \u003ca/\u003e y) \u003e= olength x + olength y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "GrowingAppend",
           "package": "mono-traversable",
@@ -1062,6 +1151,7 @@
         "index": {
           "description": "olength olength olength",
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "GrowingAppend",
           "package": "mono-traversable",
@@ -1075,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "MinLen",
           "package": "mono-traversable",
@@ -1083,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "MinLen",
           "package": "mono-traversable",
@@ -1096,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "Succ",
           "package": "mono-traversable",
@@ -1104,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "Succ",
           "package": "mono-traversable",
@@ -1117,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "TypeNat",
           "package": "mono-traversable",
@@ -1125,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "TypeNat",
           "package": "mono-traversable",
@@ -1138,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "Zero",
           "package": "mono-traversable",
@@ -1146,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "Zero",
           "package": "mono-traversable",
@@ -1159,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "Succ",
           "package": "mono-traversable",
@@ -1168,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "Succ",
           "package": "mono-traversable",
@@ -1181,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "Zero",
           "package": "mono-traversable",
@@ -1190,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "Zero",
           "package": "mono-traversable",
@@ -1203,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "head",
           "package": "mono-traversable",
@@ -1212,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "head",
           "normalized": "MinLen(Succ a)b-\u003eElement b",
@@ -1226,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "init",
           "package": "mono-traversable",
@@ -1235,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "init",
           "normalized": "MinLen(Succ a)b-\u003eMinLen a b",
@@ -1249,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "last",
           "package": "mono-traversable",
@@ -1258,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "last",
           "normalized": "MinLen(Succ a)b-\u003eElement b",
@@ -1272,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "mlappend",
           "package": "mono-traversable",
@@ -1281,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "mlappend",
           "normalized": "MinLen a b-\u003eMinLen c b-\u003eMinLen(AddNat a c)b",
@@ -1295,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "mlcons",
           "package": "mono-traversable",
@@ -1304,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "mlcons",
           "normalized": "Element a-\u003eMinLen b a-\u003eMinLen(Succ b)a",
@@ -1318,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "mlunion",
           "package": "mono-traversable",
@@ -1327,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "mlunion",
           "normalized": "MinLen a b-\u003eMinLen c b-\u003eMinLen(MaxNat a c)b",
@@ -1341,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "tail",
           "package": "mono-traversable",
@@ -1350,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "tail",
           "normalized": "MinLen(Succ a)b-\u003eMinLen a b",
@@ -1364,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "toMinLen",
           "package": "mono-traversable",
@@ -1373,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "toMinLen",
           "normalized": "a-\u003eMaybe(MinLen b a)",
@@ -1388,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "toMinLenZero",
           "package": "mono-traversable",
@@ -1397,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "toMinLenZero",
           "normalized": "a-\u003eMinLen Zero a",
@@ -1412,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "toValueNat",
           "package": "mono-traversable",
@@ -1421,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "toValueNat",
           "normalized": "a-\u003eb",
@@ -1436,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MinLen",
           "name": "unMinLen",
           "package": "mono-traversable",
@@ -1445,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Data MinLen",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MinLen",
           "name": "unMinLen",
           "normalized": "MinLen a b-\u003eb",
@@ -1461,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType classes mirroring standard typeclasses, but working with monomorphic containers.\n\u003c/p\u003e\u003cp\u003eThe motivation is that some commonly used data types (i.e., \u003ccode\u003eByteString\u003c/code\u003e and\n \u003ccode\u003eText\u003c/code\u003e) do not allow for instances of typeclasses like \u003ccode\u003eFunctor\u003c/code\u003e and\n \u003ccode\u003eFoldable\u003c/code\u003e, since they are monomorphic structures. This module allows both\n monomorphic and polymorphic data types to be instances of the same\n typeclasses.\n\u003c/p\u003e\u003cp\u003eAll of the laws for the polymorphic typeclasses apply to their monomorphic\n cousins. Thus, even though a \u003ccode\u003eMonoFunctor\u003c/code\u003e instance for \u003ccode\u003eSet\u003c/code\u003e could\n theoretically be defined, it is omitted since it could violate the functor\n law of \u003ccode\u003eomap f . omap g = omap (f . g)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that all typeclasses have been prefixed with \u003ccode\u003eMono\u003c/code\u003e, and functions have\n been prefixed with \u003ccode\u003eo\u003c/code\u003e. The mnemonic for \u003ccode\u003eo\u003c/code\u003e is \"only one,\" or alternatively\n \"it's mono, but m is overused in Haskell, so we'll use the second letter\n instead.\" (Agreed, it's not a great mangling scheme, input is welcome!)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "MonoTraversable",
           "package": "mono-traversable",
@@ -1470,6 +1595,7 @@
         "index": {
           "description": "Type classes mirroring standard typeclasses but working with monomorphic containers The motivation is that some commonly used data types i.e ByteString and Text do not allow for instances of typeclasses like Functor and Foldable since they are monomorphic structures This module allows both monomorphic and polymorphic data types to be instances of the same typeclasses All of the laws for the polymorphic typeclasses apply to their monomorphic cousins Thus even though MonoFunctor instance for Set could theoretically be defined it is omitted since it could violate the functor law of omap omap omap Note that all typeclasses have been prefixed with Mono and functions have been prefixed with The mnemonic for is only one or alternatively it mono but is overused in Haskell so we ll use the second letter instead Agreed it not great mangling scheme input is welcome",
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "MonoTraversable",
           "package": "mono-traversable",
@@ -1483,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "Element",
           "package": "mono-traversable",
@@ -1491,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "Element",
           "package": "mono-traversable",
@@ -1504,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "MonoFoldable",
           "package": "mono-traversable",
@@ -1512,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "MonoFoldable",
           "package": "mono-traversable",
@@ -1525,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "MonoFoldableMonoid",
           "package": "mono-traversable",
@@ -1533,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "MonoFoldableMonoid",
           "package": "mono-traversable",
@@ -1547,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass for \u003ccode\u003eMonoFoldable\u003c/code\u003es containing elements which are an instance\n of \u003ccode\u003eOrd\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "MonoFoldableOrd",
           "package": "mono-traversable",
@@ -1556,6 +1689,7 @@
         "index": {
           "description": "typeclass for MonoFoldable containing elements which are an instance of Ord",
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "MonoFoldableOrd",
           "package": "mono-traversable",
@@ -1569,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "MonoFunctor",
           "package": "mono-traversable",
@@ -1577,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "MonoFunctor",
           "package": "mono-traversable",
@@ -1590,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "MonoTraversable",
           "package": "mono-traversable",
@@ -1598,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "MonoTraversable",
           "package": "mono-traversable",
@@ -1611,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "headEx",
           "package": "mono-traversable",
@@ -1620,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "headEx",
           "normalized": "a-\u003eElement a",
@@ -1636,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List.head, but not partial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "headMay",
           "package": "mono-traversable",
@@ -1646,6 +1787,7 @@
         "index": {
           "description": "like Data.List.head but not partial",
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "headMay",
           "normalized": "a-\u003eMaybe(Element a)",
@@ -1661,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "lastEx",
           "package": "mono-traversable",
@@ -1670,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "lastEx",
           "normalized": "a-\u003eElement a",
@@ -1686,6 +1830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List.last, but not partial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "lastMay",
           "package": "mono-traversable",
@@ -1696,6 +1841,7 @@
         "index": {
           "description": "like Data.List.last but not partial",
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "lastMay",
           "normalized": "a-\u003eMaybe(Element a)",
@@ -1711,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "maximumByEx",
           "package": "mono-traversable",
@@ -1720,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "maximumByEx",
           "normalized": "(Element a-\u003eElement a-\u003eOrdering)-\u003ea-\u003eElement a",
@@ -1735,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "maximumByMay",
           "package": "mono-traversable",
@@ -1744,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "maximumByMay",
           "normalized": "(Element a-\u003eElement a-\u003eOrdering)-\u003ea-\u003eMaybe(Element a)",
@@ -1759,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "maximumEx",
           "package": "mono-traversable",
@@ -1768,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "maximumEx",
           "normalized": "a-\u003eElement a",
@@ -1783,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "maximumMay",
           "package": "mono-traversable",
@@ -1792,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "maximumMay",
           "normalized": "a-\u003eMaybe(Element a)",
@@ -1807,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "minimumByEx",
           "package": "mono-traversable",
@@ -1816,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "minimumByEx",
           "normalized": "(Element a-\u003eElement a-\u003eOrdering)-\u003ea-\u003eElement a",
@@ -1831,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "minimumByMay",
           "package": "mono-traversable",
@@ -1840,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "minimumByMay",
           "normalized": "(Element a-\u003eElement a-\u003eOrdering)-\u003ea-\u003eMaybe(Element a)",
@@ -1855,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "minimumEx",
           "package": "mono-traversable",
@@ -1864,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "minimumEx",
           "normalized": "a-\u003eElement a",
@@ -1879,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "minimumMay",
           "package": "mono-traversable",
@@ -1888,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "minimumMay",
           "normalized": "a-\u003eMaybe(Element a)",
@@ -1903,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "oall",
           "package": "mono-traversable",
@@ -1912,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "oall",
           "normalized": "(Element a-\u003eBool)-\u003ea-\u003eBool",
@@ -1926,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "oany",
           "package": "mono-traversable",
@@ -1935,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "oany",
           "normalized": "(Element a-\u003eBool)-\u003ea-\u003eBool",
@@ -1949,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ocompareLength",
           "package": "mono-traversable",
@@ -1958,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ocompareLength",
           "normalized": "a-\u003eb-\u003eOrdering",
@@ -1973,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "oconcatMap",
           "package": "mono-traversable",
@@ -1982,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "oconcatMap",
           "normalized": "(Element a-\u003ea)-\u003ea-\u003ea",
@@ -1998,6 +2168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic strict left fold, together with an unwrap function.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003efoldlUnwrap\u003c/code\u003e, but allows monadic actions. To be used with\n \u003ccode\u003eimpurely\u003c/code\u003e from \u003ccode\u003efoldl\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.3.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ofoldMUnwrap",
           "package": "mono-traversable",
@@ -2008,6 +2179,7 @@
         "index": {
           "description": "monadic strict left fold together with an unwrap function Similar to foldlUnwrap but allows monadic actions To be used with impurely from foldl Since",
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ofoldMUnwrap",
           "normalized": "(a-\u003eElement b-\u003ec a)-\u003ec a-\u003e(a-\u003ec d)-\u003eb-\u003ec d",
@@ -2023,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ofoldMap",
           "package": "mono-traversable",
@@ -2032,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ofoldMap",
           "normalized": "(Element a-\u003eb)-\u003ea-\u003eb",
@@ -2048,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: this is a partial function. On an empty \u003ccode\u003eMonoFoldable\u003c/code\u003e, it will\n throw an exception. See \u003ca\u003eData.NonNull\u003c/a\u003e for a total version of this\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ofoldMap1Ex",
           "package": "mono-traversable",
@@ -2058,6 +2233,7 @@
         "index": {
           "description": "Note this is partial function On an empty MonoFoldable it will throw an exception See Data.NonNull for total version of this function",
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ofoldMap1Ex",
           "normalized": "(Element a-\u003eb)-\u003ea-\u003eb",
@@ -2073,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ofoldl'",
           "package": "mono-traversable",
@@ -2082,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ofoldl'",
           "normalized": "(a-\u003eElement b-\u003ea)-\u003ea-\u003eb-\u003ea",
@@ -2097,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: this is a partial function. On an empty \u003ccode\u003eMonoFoldable\u003c/code\u003e, it will\n throw an exception. See \u003ca\u003eData.NonNull\u003c/a\u003e for a total version of this\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ofoldl1Ex'",
           "package": "mono-traversable",
@@ -2107,6 +2286,7 @@
         "index": {
           "description": "Note this is partial function On an empty MonoFoldable it will throw an exception See Data.NonNull for total version of this function",
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ofoldl1Ex'",
           "normalized": "(Element a-\u003eElement a-\u003eElement a)-\u003ea-\u003eElement a",
@@ -2122,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ofoldlM",
           "package": "mono-traversable",
@@ -2131,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ofoldlM",
           "normalized": "(a-\u003eElement b-\u003ec a)-\u003ea-\u003eb-\u003ec a",
@@ -2146,6 +2328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict left fold, together with an unwrap function.\n\u003c/p\u003e\u003cp\u003eThis is convenient when the accumulator value is not the same as the final\n expected type. It is provided mainly for integration with the \u003ccode\u003efoldl\u003c/code\u003e\n package, to be used in conjunction with \u003ccode\u003epurely\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.3.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ofoldlUnwrap",
           "package": "mono-traversable",
@@ -2156,6 +2339,7 @@
         "index": {
           "description": "strict left fold together with an unwrap function This is convenient when the accumulator value is not the same as the final expected type It is provided mainly for integration with the foldl package to be used in conjunction with purely Since",
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ofoldlUnwrap",
           "normalized": "(a-\u003eElement b-\u003ea)-\u003ea-\u003e(a-\u003ec)-\u003eb-\u003ec",
@@ -2171,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ofoldr",
           "package": "mono-traversable",
@@ -2180,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ofoldr",
           "normalized": "(Element a-\u003eb-\u003eb)-\u003eb-\u003ea-\u003eb",
@@ -2195,6 +2381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: this is a partial function. On an empty \u003ccode\u003eMonoFoldable\u003c/code\u003e, it will\n throw an exception. See \u003ca\u003eData.NonNull\u003c/a\u003e for a total version of this\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ofoldr1Ex",
           "package": "mono-traversable",
@@ -2205,6 +2392,7 @@
         "index": {
           "description": "Note this is partial function On an empty MonoFoldable it will throw an exception See Data.NonNull for total version of this function",
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ofoldr1Ex",
           "normalized": "(Element a-\u003eElement a-\u003eElement a)-\u003ea-\u003eElement a",
@@ -2220,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ofor",
           "package": "mono-traversable",
@@ -2229,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ofor",
           "normalized": "a-\u003e(Element a-\u003eb(Element a))-\u003eb a",
@@ -2243,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "oforM",
           "package": "mono-traversable",
@@ -2252,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "oforM",
           "normalized": "a-\u003e(Element a-\u003eb(Element a))-\u003eb a",
@@ -2266,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "oforM_",
           "package": "mono-traversable",
@@ -2275,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "oforM_",
           "normalized": "a-\u003e(Element a-\u003eb c)-\u003eb()",
@@ -2289,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "ofor_",
           "package": "mono-traversable",
@@ -2298,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "ofor_",
           "normalized": "a-\u003e(Element a-\u003eb c)-\u003eb()",
@@ -2312,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "olength",
           "package": "mono-traversable",
@@ -2321,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "olength",
           "normalized": "a-\u003eInt",
@@ -2335,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "olength64",
           "package": "mono-traversable",
@@ -2344,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "olength64",
           "normalized": "a-\u003eInt",
@@ -2358,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "omap",
           "package": "mono-traversable",
@@ -2367,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "omap",
           "normalized": "(Element a-\u003eElement a)-\u003ea-\u003ea",
@@ -2381,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "omapM",
           "package": "mono-traversable",
@@ -2390,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "omapM",
           "normalized": "(Element a-\u003eb(Element a))-\u003ea-\u003eb a",
@@ -2404,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "omapM_",
           "package": "mono-traversable",
@@ -2413,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "omapM_",
           "normalized": "(Element a-\u003eb c)-\u003ea-\u003eb()",
@@ -2427,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "onull",
           "package": "mono-traversable",
@@ -2436,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "onull",
           "normalized": "a-\u003eBool",
@@ -2451,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eproduct\u003c/code\u003e function computes the product of the numbers of a structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "oproduct",
           "package": "mono-traversable",
@@ -2461,6 +2670,7 @@
         "index": {
           "description": "The product function computes the product of the numbers of structure",
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "oproduct",
           "normalized": "a-\u003eElement a",
@@ -2476,6 +2686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003esum\u003c/code\u003e function computes the sum of the numbers of a structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "osum",
           "package": "mono-traversable",
@@ -2486,6 +2697,7 @@
         "index": {
           "description": "The sum function computes the sum of the numbers of structure",
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "osum",
           "normalized": "a-\u003eElement a",
@@ -2500,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "otoList",
           "package": "mono-traversable",
@@ -2509,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "otoList",
           "normalized": "a-\u003e[Element a]",
@@ -2524,6 +2738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "otraverse",
           "package": "mono-traversable",
@@ -2533,6 +2748,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "otraverse",
           "normalized": "(Element a-\u003eb(Element a))-\u003ea-\u003eb a",
@@ -2547,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "otraverse_",
           "package": "mono-traversable",
@@ -2556,6 +2773,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "otraverse_",
           "normalized": "(Element a-\u003eb c)-\u003ea-\u003eb()",
@@ -2570,6 +2788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "unsafeHead",
           "package": "mono-traversable",
@@ -2579,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "unsafeHead",
           "normalized": "a-\u003eElement a",
@@ -2594,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.MonoTraversable",
           "name": "unsafeLast",
           "package": "mono-traversable",
@@ -2603,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Data MonoTraversable",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.MonoTraversable",
           "name": "unsafeLast",
           "normalized": "a-\u003eElement a",
@@ -2619,6 +2841,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWarning, this is Experimental!\n\u003c/p\u003e\u003cp\u003eData.NonNull attempts to extend the concepts from\n \u003ca\u003eData.List.NonEmpty\u003c/a\u003e to any \u003ccode\u003e\u003ca\u003eMonoFoldable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eNonNull\u003c/a\u003e\u003c/code\u003e is a typeclass for a container with 1 or more elements.\n \u003ca\u003eData.List.NonEmpty\u003c/a\u003e and 'NotEmpty a' are members of the typeclass\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "NonNull",
           "package": "mono-traversable",
@@ -2628,6 +2851,7 @@
         "index": {
           "description": "Warning this is Experimental Data.NonNull attempts to extend the concepts from Data.List.NonEmpty to any MonoFoldable NonNull is typeclass for container with or more elements Data.List.NonEmpty and NotEmpty are members of the typeclass",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "NonNull",
           "package": "mono-traversable",
@@ -2642,6 +2866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eNonNull\u003c/a\u003e\u003c/code\u003e has 1 or more items\n\u003c/p\u003e\u003cp\u003eIn contrast, \u003ccode\u003e\u003ca\u003eMonoFoldable\u003c/a\u003e\u003c/code\u003e is allowed to have zero items.\n\u003c/p\u003e\u003cp\u003eAny NonNull functions that\n decreases the number of elements in the sequences\n will return a different \u003ccode\u003e\u003ca\u003eNullable\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003cp\u003eThe Nullable type for a \u003ccode\u003eNonEmpty\u003c/code\u003e List is the normal List '[]'\n\u003c/p\u003e\u003cp\u003eNonNull allows one to safely perform what would otherwise be partial functions.\n Hopefully you have abandoned partial functions, perhaps you are using the safe package.\n However, safe essentially provides convenience functions for null checking.\n With NonNull rather than always reacting with null checks we can proactively encode in our program when we know that a type is NonNull.\n Now we have an invariant encoded in our types, making our program easier to understand.\n This information is leveraged to avoid awkward null checking later on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "NonNull",
           "package": "mono-traversable",
@@ -2651,6 +2876,7 @@
         "index": {
           "description": "NonNull has or more items In contrast MonoFoldable is allowed to have zero items Any NonNull functions that decreases the number of elements in the sequences will return different Nullable type The Nullable type for NonEmpty List is the normal List NonNull allows one to safely perform what would otherwise be partial functions Hopefully you have abandoned partial functions perhaps you are using the safe package However safe essentially provides convenience functions for null checking With NonNull rather than always reacting with null checks we can proactively encode in our program when we know that type is NonNull Now we have an invariant encoded in our types making our program easier to understand This information is leveraged to avoid awkward null checking later on",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "NonNull",
           "package": "mono-traversable",
@@ -2665,6 +2891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea newtype wrapper indicating there are 1 or more elements\n unwrap with \u003ccode\u003e\u003ca\u003etoNullable\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "NotEmpty",
           "package": "mono-traversable",
@@ -2674,6 +2901,7 @@
         "index": {
           "description": "newtype wrapper indicating there are or more elements unwrap with toNullable",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "NotEmpty",
           "package": "mono-traversable",
@@ -2688,6 +2916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend an element to a NonNull\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "(\u003c|)",
           "package": "mono-traversable",
@@ -2698,6 +2927,7 @@
         "index": {
           "description": "Prepend an element to NonNull",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "(\u003c|) \u003c|",
           "normalized": "Element a-\u003ea-\u003ea",
@@ -2713,6 +2943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper functions for type inferences.\n\u003c/p\u003e\u003cp\u003eSince 0.3.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "asNotEmpty",
           "package": "mono-traversable",
@@ -2723,6 +2954,7 @@
         "index": {
           "description": "Helper functions for type inferences Since",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "asNotEmpty",
           "normalized": "NotEmpty a-\u003eNotEmpty a",
@@ -2739,6 +2971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esafely construct a \u003ccode\u003e\u003ca\u003eNonNull\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003eNonEmpty\u003c/code\u003e list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "fromNonEmpty",
           "package": "mono-traversable",
@@ -2749,6 +2982,7 @@
         "index": {
           "description": "safely construct NonNull from NonEmpty list",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "fromNonEmpty",
           "normalized": "NonEmpty(Element a)-\u003ea",
@@ -2765,6 +2999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esafely convert a \u003ccode\u003e\u003ca\u003eNullable\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eNonNull\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "fromNullable",
           "package": "mono-traversable",
@@ -2775,6 +3010,7 @@
         "index": {
           "description": "safely convert Nullable to NonNull",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "fromNullable",
           "normalized": "Nullable a-\u003eMaybe a",
@@ -2791,6 +3027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List, but not partial on a NonEmpty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "head",
           "package": "mono-traversable",
@@ -2801,6 +3038,7 @@
         "index": {
           "description": "like Data.List but not partial on NonEmpty",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "head",
           "normalized": "a-\u003eElement a",
@@ -2816,6 +3054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List, but not partial on a NonEmpty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "init",
           "package": "mono-traversable",
@@ -2826,6 +3065,7 @@
         "index": {
           "description": "like Data.List but not partial on NonEmpty",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "init",
           "normalized": "a-\u003eNullable a",
@@ -2841,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List, but not partial on a NonEmpty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "last",
           "package": "mono-traversable",
@@ -2851,6 +3092,7 @@
         "index": {
           "description": "like Data.List but not partial on NonEmpty",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "last",
           "normalized": "a-\u003eElement a",
@@ -2866,6 +3108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List, but not partial on a NonNull\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "maximum",
           "package": "mono-traversable",
@@ -2876,6 +3119,7 @@
         "index": {
           "description": "like Data.List but not partial on NonNull",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "maximum",
           "normalized": "a-\u003eElement a",
@@ -2891,6 +3135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List, but not partial on a NonNull\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "maximumBy",
           "package": "mono-traversable",
@@ -2901,6 +3146,7 @@
         "index": {
           "description": "like Data.List but not partial on NonNull",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "maximumBy",
           "normalized": "(Element a-\u003eElement a-\u003eOrdering)-\u003ea-\u003eElement a",
@@ -2917,6 +3163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List, but not partial on a NonNull\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "minimum",
           "package": "mono-traversable",
@@ -2927,6 +3174,7 @@
         "index": {
           "description": "like Data.List but not partial on NonNull",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "minimum",
           "normalized": "a-\u003eElement a",
@@ -2942,6 +3190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List, but not partial on a NonNull\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "minimumBy",
           "package": "mono-traversable",
@@ -2952,6 +3201,7 @@
         "index": {
           "description": "like Data.List but not partial on NonNull",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "minimumBy",
           "normalized": "(Element a-\u003eElement a-\u003eOrdering)-\u003ea-\u003eElement a",
@@ -2968,6 +3218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ei must be \u003e 0. like \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003ei \u003c= 0 is treated the same as providing 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "nReplicate",
           "package": "mono-traversable",
@@ -2978,6 +3229,7 @@
         "index": {
           "description": "must be like replicate is treated the same as providing",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "nReplicate",
           "normalized": "Index(Nullable a)-\u003eElement a-\u003ea",
@@ -2994,6 +3246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike cons, prepends an element.\n However, the prepend is to a Nullable, creating a \u003ccode\u003e\u003ca\u003eNonNull\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eGenerally this uses cons underneath.\n cons is not efficient for most data structures.\n\u003c/p\u003e\u003cp\u003eAlternatives:\n   * if you don't need to cons, use \u003ccode\u003e\u003ca\u003efromNullable\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003enonNull\u003c/a\u003e\u003c/code\u003e if you can create your structure in one go.\n   * if you need to cons, you might be able to start off with an efficient data structure such as a \u003ccode\u003eNonEmpty\u003c/code\u003e List.\n     \u003ccode\u003efronNonEmpty\u003c/code\u003e will convert that to your data structure using the structure's fromList function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "ncons",
           "package": "mono-traversable",
@@ -3004,6 +3257,7 @@
         "index": {
           "description": "Like cons prepends an element However the prepend is to Nullable creating NonNull Generally this uses cons underneath cons is not efficient for most data structures Alternatives if you don need to cons use fromNullable or nonNull if you can create your structure in one go if you need to cons you might be able to start off with an efficient data structure such as NonEmpty List fronNonEmpty will convert that to your data structure using the structure fromList function",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "ncons",
           "normalized": "Element a-\u003eNullable a-\u003ea",
@@ -3019,6 +3273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike \u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e, but starts with a NonNull\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "nfilter",
           "package": "mono-traversable",
@@ -3029,6 +3284,7 @@
         "index": {
           "description": "like filter but starts with NonNull",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "nfilter",
           "normalized": "(Element a-\u003eBool)-\u003ea-\u003eNullable a",
@@ -3044,6 +3300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike \u003ccode\u003e\u003ca\u003efilterM\u003c/a\u003e\u003c/code\u003e, but starts with a NonNull\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "nfilterM",
           "package": "mono-traversable",
@@ -3054,6 +3311,7 @@
         "index": {
           "description": "like filterM but starts with NonNull",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "nfilterM",
           "normalized": "(Element a-\u003eb Bool)-\u003ea-\u003eb(Nullable a)",
@@ -3069,6 +3327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a \u003ccode\u003e\u003ca\u003eNullable\u003c/a\u003e\u003c/code\u003e with elements to a \u003ccode\u003e\u003ca\u003eNonNull\u003c/a\u003e\u003c/code\u003e\n throw an exception if the \u003ccode\u003e\u003ca\u003eNullable\u003c/a\u003e\u003c/code\u003e is empty.\n do not use this unless you have proved your structure is non-null\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "nonNull",
           "package": "mono-traversable",
@@ -3079,6 +3338,7 @@
         "index": {
           "description": "convert Nullable with elements to NonNull throw an exception if the Nullable is empty do not use this unless you have proved your structure is non-null",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "nonNull",
           "normalized": "Nullable a-\u003ea",
@@ -3095,6 +3355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike \u003ccode\u003e\u003ca\u003euncons\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eSemiSequence\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "nuncons",
           "package": "mono-traversable",
@@ -3105,6 +3366,7 @@
         "index": {
           "description": "like uncons of SemiSequence",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "nuncons",
           "normalized": "a-\u003e(Element a,Maybe a)",
@@ -3119,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "ofold1",
           "package": "mono-traversable",
@@ -3128,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "ofold1",
           "normalized": "a-\u003eElement a",
@@ -3142,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "ofoldMap1",
           "package": "mono-traversable",
@@ -3151,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "ofoldMap1",
           "normalized": "(Element a-\u003eb)-\u003ea-\u003eb",
@@ -3167,6 +3433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of 'ofoldl\\'' that has no base case,\n and thus may only be applied to non-empty structures.\n\u003c/p\u003e\u003cpre\u003e'foldl1\\'' f = \u003ccode\u003e\u003ca\u003efoldl1\u003c/a\u003e\u003c/code\u003e f . \u003ccode\u003e\u003ca\u003eotoList\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "ofoldl1'",
           "package": "mono-traversable",
@@ -3177,6 +3444,7 @@
         "index": {
           "description": "variant of ofoldl that has no base case and thus may only be applied to non-empty structures foldl1 foldl1 otoList",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "ofoldl1'",
           "normalized": "(Element a-\u003eElement a-\u003eElement a)-\u003ea-\u003eElement a",
@@ -3191,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "ofoldr1",
           "package": "mono-traversable",
@@ -3200,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "ofoldr1",
           "normalized": "(Element a-\u003eElement a-\u003eElement a)-\u003ea-\u003eElement a",
@@ -3215,6 +3485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike \u003ccode\u003e\u003ca\u003euncons\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eSemiSequence\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "splitFirst",
           "package": "mono-traversable",
@@ -3225,6 +3496,7 @@
         "index": {
           "description": "like uncons of SemiSequence",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "splitFirst",
           "normalized": "a-\u003e(Element a,Nullable a)",
@@ -3241,6 +3513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List, but not partial on a NonEmpty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "tail",
           "package": "mono-traversable",
@@ -3251,6 +3524,7 @@
         "index": {
           "description": "like Data.List but not partial on NonEmpty",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "tail",
           "normalized": "a-\u003eNullable a",
@@ -3266,6 +3540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused internally to construct a \u003ccode\u003e\u003ca\u003eNonNull\u003c/a\u003e\u003c/code\u003e.\n does not check whether the \u003ccode\u003e\u003ca\u003eNullable\u003c/a\u003e\u003c/code\u003e is empty\n do not use this unless you have proved your structure is nonNull\n nonNullUnsafe :: Nullable seq -\u003e seq\n\u003c/p\u003e\u003cp\u003econvert a \u003ccode\u003e\u003ca\u003eNonNull\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eNullable\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.NonNull",
           "name": "toNullable",
           "package": "mono-traversable",
@@ -3276,6 +3551,7 @@
         "index": {
           "description": "used internally to construct NonNull does not check whether the Nullable is empty do not use this unless you have proved your structure is nonNull nonNullUnsafe Nullable seq seq convert NonNull to Nullable",
           "hierarchy": "Data NonNull",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.NonNull",
           "name": "toNullable",
           "normalized": "a-\u003eNullable a",
@@ -3292,6 +3568,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWarning: This module should be considered highly experimental.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "Sequences",
           "package": "mono-traversable",
@@ -3301,6 +3578,7 @@
         "index": {
           "description": "Warning This module should be considered highly experimental",
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "Sequences",
           "package": "mono-traversable",
@@ -3314,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "EqSequence",
           "package": "mono-traversable",
@@ -3322,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "EqSequence",
           "package": "mono-traversable",
@@ -3336,6 +3616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence Laws:\n\u003c/p\u003e\u003cpre\u003e fromList . otoList = id\n fromList (x \u003c\u003e y) = fromList x \u003c\u003e fromList y\n otoList (fromList x \u003c\u003e fromList y) = x \u003c\u003e y\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "IsSequence",
           "package": "mono-traversable",
@@ -3345,6 +3626,7 @@
         "index": {
           "description": "Sequence Laws fromList otoList id fromList fromList fromList otoList fromList fromList",
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "IsSequence",
           "package": "mono-traversable",
@@ -3358,6 +3640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "OrdSequence",
           "package": "mono-traversable",
@@ -3366,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "OrdSequence",
           "package": "mono-traversable",
@@ -3380,6 +3664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSemiSequence\u003c/a\u003e\u003c/code\u003e was created to share code between \u003ccode\u003e\u003ca\u003eIsSequence\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003eNonNull\u003c/code\u003e.\n You should always use \u003ccode\u003e\u003ca\u003eIsSequence\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003eNonNull\u003c/code\u003e rather than using \u003ccode\u003e\u003ca\u003eSemiSequence\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eSemiSequence\u003c/a\u003e\u003c/code\u003e is exported so that you can define new instances of \u003ccode\u003e\u003ca\u003eIsSequence\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003eNonNull\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eSemi\u003c/code\u003e means \u003ccode\u003eSemiGroup\u003c/code\u003e\n A \u003ccode\u003e\u003ca\u003eSemiSequence\u003c/a\u003e\u003c/code\u003e can accomodate a \u003ccode\u003eSemiGroup\u003c/code\u003e such as \u003ccode\u003eNonEmpty\u003c/code\u003e\n A Monoid should be able to fill out \u003ccode\u003e\u003ca\u003eIsSequence\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eAs a base for \u003ccode\u003eNonNull\u003c/code\u003e,\n a \u003ccode\u003e\u003ca\u003eSemiSequence\u003c/a\u003e\u003c/code\u003e keeps the same type when increasing its number of elements.\n However, a decreasing function such as filter may change a \u003ccode\u003eNonNull\u003c/code\u003e type.\n For example, from \u003ccode\u003eNonEmpty\u003c/code\u003e to '[]'\n This exists on \u003ccode\u003eNonNull\u003c/code\u003e as \u003ccode\u003enfilter\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e and other such functions are placed in \u003ccode\u003e\u003ca\u003eIsSequence\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "SemiSequence",
           "package": "mono-traversable",
@@ -3389,6 +3674,7 @@
         "index": {
           "description": "SemiSequence was created to share code between IsSequence and NonNull You should always use IsSequence or NonNull rather than using SemiSequence SemiSequence is exported so that you can define new instances of IsSequence or NonNull Semi means SemiGroup SemiSequence can accomodate SemiGroup such as NonEmpty Monoid should be able to fill out IsSequence As base for NonNull SemiSequence keeps the same type when increasing its number of elements However decreasing function such as filter may change NonNull type For example from NonEmpty to This exists on NonNull as nfilter filter and other such functions are placed in IsSequence",
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "SemiSequence",
           "package": "mono-traversable",
@@ -3402,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "Textual",
           "package": "mono-traversable",
@@ -3410,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "Textual",
           "package": "mono-traversable",
@@ -3423,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "break",
           "package": "mono-traversable",
@@ -3432,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "break",
           "normalized": "(Element a-\u003eBool)-\u003ea-\u003e(a,a)",
@@ -3446,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "breakLine",
           "package": "mono-traversable",
@@ -3455,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "breakLine",
           "normalized": "a-\u003e(a,a)",
@@ -3470,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "breakWord",
           "package": "mono-traversable",
@@ -3479,6 +3772,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "breakWord",
           "normalized": "a-\u003e(a,a)",
@@ -3494,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "cons",
           "package": "mono-traversable",
@@ -3503,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "cons",
           "normalized": "Element a-\u003ea-\u003ea",
@@ -3517,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "defaultCons",
           "package": "mono-traversable",
@@ -3526,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "defaultCons",
           "normalized": "Element a-\u003ea-\u003ea",
@@ -3541,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "defaultFind",
           "package": "mono-traversable",
@@ -3550,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "defaultFind",
           "normalized": "(Element a-\u003eBool)-\u003ea-\u003eMaybe(Element a)",
@@ -3565,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "defaultIntersperse",
           "package": "mono-traversable",
@@ -3574,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "defaultIntersperse",
           "normalized": "Element a-\u003ea-\u003ea",
@@ -3589,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "defaultReverse",
           "package": "mono-traversable",
@@ -3598,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "defaultReverse",
           "normalized": "a-\u003ea",
@@ -3613,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "defaultSnoc",
           "package": "mono-traversable",
@@ -3622,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "defaultSnoc",
           "normalized": "a-\u003eElement a-\u003ea",
@@ -3637,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "defaultSortBy",
           "package": "mono-traversable",
@@ -3646,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "defaultSortBy",
           "normalized": "(Element a-\u003eElement a-\u003eOrdering)-\u003ea-\u003ea",
@@ -3661,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "drop",
           "package": "mono-traversable",
@@ -3670,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "drop",
           "normalized": "Index a-\u003ea-\u003ea",
@@ -3684,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "dropWhile",
           "package": "mono-traversable",
@@ -3693,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "dropWhile",
           "normalized": "(Element a-\u003eBool)-\u003ea-\u003ea",
@@ -3708,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "elem",
           "package": "mono-traversable",
@@ -3717,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "elem",
           "normalized": "Element a-\u003ea-\u003eBool",
@@ -3731,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "filter",
           "package": "mono-traversable",
@@ -3740,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "filter",
           "normalized": "(Element a-\u003eBool)-\u003ea-\u003ea",
@@ -3754,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "filterM",
           "package": "mono-traversable",
@@ -3763,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "filterM",
           "normalized": "(Element a-\u003eb Bool)-\u003ea-\u003eb a",
@@ -3777,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "find",
           "package": "mono-traversable",
@@ -3786,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "find",
           "normalized": "(Element a-\u003eBool)-\u003ea-\u003eMaybe(Element a)",
@@ -3800,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "fromList",
           "package": "mono-traversable",
@@ -3809,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "fromList",
           "normalized": "[Element a]-\u003ea",
@@ -3824,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "group",
           "package": "mono-traversable",
@@ -3833,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "group",
           "normalized": "a-\u003e[a]",
@@ -3848,6 +4172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to standard \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e, but operates on the whole collection,\n not just the consecutive items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "groupAll",
           "package": "mono-traversable",
@@ -3858,6 +4183,7 @@
         "index": {
           "description": "Similar to standard group but operates on the whole collection not just the consecutive items",
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "groupAll",
           "normalized": "a-\u003e[a]",
@@ -3874,6 +4200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to standard \u003ccode\u003e\u003ca\u003egroupBy\u003c/a\u003e\u003c/code\u003e, but operates on the whole collection,\n not just the consecutive items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "groupAllOn",
           "package": "mono-traversable",
@@ -3884,6 +4211,7 @@
         "index": {
           "description": "Similar to standard groupBy but operates on the whole collection not just the consecutive items",
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "groupAllOn",
           "normalized": "(Element a-\u003eb)-\u003ea-\u003e[a]",
@@ -3899,6 +4227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "groupBy",
           "package": "mono-traversable",
@@ -3908,6 +4237,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "groupBy",
           "normalized": "(Element a-\u003eElement a-\u003eBool)-\u003ea-\u003e[a]",
@@ -3924,6 +4254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List.init, but an input of \u003ccode\u003emempty\u003c/code\u003e returns \u003ccode\u003emempty\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "initDef",
           "package": "mono-traversable",
@@ -3934,6 +4265,7 @@
         "index": {
           "description": "like Data.List.init but an input of mempty returns mempty",
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "initDef",
           "normalized": "a-\u003ea",
@@ -3949,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "initEx",
           "package": "mono-traversable",
@@ -3958,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "initEx",
           "normalized": "a-\u003ea",
@@ -3973,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "intersperse",
           "package": "mono-traversable",
@@ -3982,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "intersperse",
           "normalized": "Element a-\u003ea-\u003ea",
@@ -3996,6 +4332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "isInfixOf",
           "package": "mono-traversable",
@@ -4005,6 +4342,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "isInfixOf",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4020,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "isPrefixOf",
           "package": "mono-traversable",
@@ -4029,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "isPrefixOf",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4044,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "isSuffixOf",
           "package": "mono-traversable",
@@ -4053,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "isSuffixOf",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4068,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "lines",
           "package": "mono-traversable",
@@ -4077,6 +4420,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "lines",
           "normalized": "a-\u003e[a]",
@@ -4091,6 +4435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "notElem",
           "package": "mono-traversable",
@@ -4100,6 +4445,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "notElem",
           "normalized": "Element a-\u003ea-\u003eBool",
@@ -4115,6 +4461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "partition",
           "package": "mono-traversable",
@@ -4124,6 +4471,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "partition",
           "normalized": "(Element a-\u003eBool)-\u003ea-\u003e(a,a)",
@@ -4138,6 +4486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "permutations",
           "package": "mono-traversable",
@@ -4147,6 +4496,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "permutations",
           "normalized": "a-\u003e[a]",
@@ -4161,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "replicate",
           "package": "mono-traversable",
@@ -4170,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "replicate",
           "normalized": "Index a-\u003eElement a-\u003ea",
@@ -4184,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "replicateM",
           "package": "mono-traversable",
@@ -4193,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "replicateM",
           "normalized": "Index a-\u003eb(Element a)-\u003eb a",
@@ -4207,6 +4561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "reverse",
           "package": "mono-traversable",
@@ -4216,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "reverse",
           "normalized": "a-\u003ea",
@@ -4230,6 +4586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "singleton",
           "package": "mono-traversable",
@@ -4239,6 +4596,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "singleton",
           "normalized": "Element a-\u003ea",
@@ -4253,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "snoc",
           "package": "mono-traversable",
@@ -4262,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "snoc",
           "normalized": "a-\u003eElement a-\u003ea",
@@ -4276,6 +4636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "sort",
           "package": "mono-traversable",
@@ -4285,6 +4646,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "sort",
           "normalized": "a-\u003ea",
@@ -4299,6 +4661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "sortBy",
           "package": "mono-traversable",
@@ -4308,6 +4671,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "sortBy",
           "normalized": "(Element a-\u003eElement a-\u003eOrdering)-\u003ea-\u003ea",
@@ -4323,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "span",
           "package": "mono-traversable",
@@ -4332,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "span",
           "normalized": "(Element a-\u003eBool)-\u003ea-\u003e(a,a)",
@@ -4346,6 +4712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "splitAt",
           "package": "mono-traversable",
@@ -4355,6 +4722,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "splitAt",
           "normalized": "Index a-\u003ea-\u003e(a,a)",
@@ -4370,6 +4738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "stripPrefix",
           "package": "mono-traversable",
@@ -4379,6 +4748,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "stripPrefix",
           "normalized": "a-\u003ea-\u003eMaybe a",
@@ -4394,6 +4764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "stripSuffix",
           "package": "mono-traversable",
@@ -4403,6 +4774,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "stripSuffix",
           "normalized": "a-\u003ea-\u003eMaybe a",
@@ -4418,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "subsequences",
           "package": "mono-traversable",
@@ -4427,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "subsequences",
           "normalized": "a-\u003e[a]",
@@ -4442,6 +4816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike Data.List.tail, but an input of \u003ccode\u003emempty\u003c/code\u003e returns \u003ccode\u003emempty\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "tailDef",
           "package": "mono-traversable",
@@ -4452,6 +4827,7 @@
         "index": {
           "description": "like Data.List.tail but an input of mempty returns mempty",
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "tailDef",
           "normalized": "a-\u003ea",
@@ -4467,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "tailEx",
           "package": "mono-traversable",
@@ -4476,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "tailEx",
           "normalized": "a-\u003ea",
@@ -4491,6 +4869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "take",
           "package": "mono-traversable",
@@ -4500,6 +4879,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "take",
           "normalized": "Index a-\u003ea-\u003ea",
@@ -4514,6 +4894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "takeWhile",
           "package": "mono-traversable",
@@ -4523,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "takeWhile",
           "normalized": "(Element a-\u003eBool)-\u003ea-\u003ea",
@@ -4538,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "toCaseFold",
           "package": "mono-traversable",
@@ -4547,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "toCaseFold",
           "normalized": "a-\u003ea",
@@ -4562,6 +4946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "toLower",
           "package": "mono-traversable",
@@ -4571,6 +4956,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "toLower",
           "normalized": "a-\u003ea",
@@ -4586,6 +4972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "toUpper",
           "package": "mono-traversable",
@@ -4595,6 +4982,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "toUpper",
           "normalized": "a-\u003ea",
@@ -4610,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "uncons",
           "package": "mono-traversable",
@@ -4619,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "uncons",
           "normalized": "a-\u003eMaybe(Element a,a)",
@@ -4633,6 +5023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "unlines",
           "package": "mono-traversable",
@@ -4642,6 +5033,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "unlines",
           "normalized": "[a]-\u003ea",
@@ -4656,6 +5048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "unsafeDrop",
           "package": "mono-traversable",
@@ -4665,6 +5058,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "unsafeDrop",
           "normalized": "Index a-\u003ea-\u003ea",
@@ -4680,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "unsafeInit",
           "package": "mono-traversable",
@@ -4689,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "unsafeInit",
           "normalized": "a-\u003ea",
@@ -4704,6 +5100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "unsafeSplitAt",
           "package": "mono-traversable",
@@ -4713,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "unsafeSplitAt",
           "normalized": "Index a-\u003ea-\u003e(a,a)",
@@ -4728,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "unsafeTail",
           "package": "mono-traversable",
@@ -4737,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "unsafeTail",
           "normalized": "a-\u003ea",
@@ -4752,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "unsafeTake",
           "package": "mono-traversable",
@@ -4761,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "unsafeTake",
           "normalized": "Index a-\u003ea-\u003ea",
@@ -4776,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "unsnoc",
           "package": "mono-traversable",
@@ -4785,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "unsnoc",
           "normalized": "a-\u003eMaybe(a,Element a)",
@@ -4799,6 +5203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "unwords",
           "package": "mono-traversable",
@@ -4808,6 +5213,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "unwords",
           "normalized": "[a]-\u003ea",
@@ -4822,6 +5228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:06 UTC 2014",
           "module": "Data.Sequences",
           "name": "words",
           "package": "mono-traversable",
@@ -4831,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Data Sequences",
+          "indexed": "2014-03-11T19:22:06",
           "module": "Data.Sequences",
           "name": "words",
           "normalized": "a-\u003e[a]",

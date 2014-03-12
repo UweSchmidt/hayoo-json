@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "qd-vec"
+        "phrase": "qd-vec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVec instances for QD types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Vec",
           "package": "qd-vec",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Vec instances for QD types",
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Vec",
           "package": "qd-vec",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat22DD",
           "package": "qd-vec",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat22DD",
           "package": "qd-vec",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat22QD",
           "package": "qd-vec",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat22QD",
           "package": "qd-vec",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat23DD",
           "package": "qd-vec",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat23DD",
           "package": "qd-vec",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat23QD",
           "package": "qd-vec",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat23QD",
           "package": "qd-vec",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat24DD",
           "package": "qd-vec",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat24DD",
           "package": "qd-vec",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat24QD",
           "package": "qd-vec",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat24QD",
           "package": "qd-vec",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat32DD",
           "package": "qd-vec",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat32DD",
           "package": "qd-vec",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat32QD",
           "package": "qd-vec",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat32QD",
           "package": "qd-vec",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat33DD",
           "package": "qd-vec",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat33DD",
           "package": "qd-vec",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat33QD",
           "package": "qd-vec",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat33QD",
           "package": "qd-vec",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat34DD",
           "package": "qd-vec",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat34DD",
           "package": "qd-vec",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat34QD",
           "package": "qd-vec",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat34QD",
           "package": "qd-vec",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat42DD",
           "package": "qd-vec",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat42DD",
           "package": "qd-vec",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat42QD",
           "package": "qd-vec",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat42QD",
           "package": "qd-vec",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat43DD",
           "package": "qd-vec",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat43DD",
           "package": "qd-vec",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat43QD",
           "package": "qd-vec",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat43QD",
           "package": "qd-vec",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat44DD",
           "package": "qd-vec",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat44DD",
           "package": "qd-vec",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Mat44QD",
           "package": "qd-vec",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Mat44QD",
           "package": "qd-vec",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Vec2DD",
           "package": "qd-vec",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Vec2DD",
           "package": "qd-vec",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Vec2QD",
           "package": "qd-vec",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Vec2QD",
           "package": "qd-vec",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Vec3DD",
           "package": "qd-vec",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Vec3DD",
           "package": "qd-vec",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Vec3QD",
           "package": "qd-vec",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Vec3QD",
           "package": "qd-vec",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Vec4DD",
           "package": "qd-vec",
@@ -511,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Vec4DD",
           "package": "qd-vec",
@@ -524,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:55 UTC 2014",
           "module": "Numeric.QD.Vec",
           "name": "Vec4QD",
           "package": "qd-vec",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Numeric QD Vec",
+          "indexed": "2014-03-11T19:46:55",
           "module": "Numeric.QD.Vec",
           "name": "Vec4QD",
           "package": "qd-vec",

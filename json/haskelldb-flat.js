@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskelldb-flat"
+        "phrase": "haskelldb-flat",
+        "type": "phrase"
       },
       "type": "context"
     }

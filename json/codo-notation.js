@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "codo-notation"
+        "phrase": "codo-notation",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:29 UTC 2014",
           "module": "Language.Haskell.Codo",
           "name": "Codo",
           "package": "codo-notation",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Codo",
+          "indexed": "2014-03-11T17:35:29",
           "module": "Language.Haskell.Codo",
           "name": "Codo",
           "package": "codo-notation",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:29 UTC 2014",
           "module": "Language.Haskell.Codo",
           "name": "codo",
           "package": "codo-notation",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Codo",
+          "indexed": "2014-03-11T17:35:29",
           "module": "Language.Haskell.Codo",
           "name": "codo",
           "package": "codo-notation",

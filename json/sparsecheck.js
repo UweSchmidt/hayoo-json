@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sparsecheck"
+        "phrase": "sparsecheck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "SparseCheck",
           "package": "sparsecheck",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "SparseCheck",
           "package": "sparsecheck",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Alts",
           "package": "sparsecheck",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Alts",
           "package": "sparsecheck",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "CaseType",
           "package": "sparsecheck",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "CaseType",
           "package": "sparsecheck",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Conv",
           "package": "sparsecheck",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Conv",
           "package": "sparsecheck",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Convert",
           "package": "sparsecheck",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Convert",
           "package": "sparsecheck",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Exp",
           "package": "sparsecheck",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Exp",
           "package": "sparsecheck",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Family",
           "package": "sparsecheck",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Family",
           "package": "sparsecheck",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "LP",
           "package": "sparsecheck",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "LP",
           "package": "sparsecheck",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Ordered",
           "package": "sparsecheck",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Ordered",
           "package": "sparsecheck",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Pair",
           "package": "sparsecheck",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Pair",
           "package": "sparsecheck",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Pred",
           "package": "sparsecheck",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Pred",
           "package": "sparsecheck",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Residual",
           "package": "sparsecheck",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Residual",
           "package": "sparsecheck",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "State",
           "package": "sparsecheck",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "State",
           "package": "sparsecheck",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Status",
           "package": "sparsecheck",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Status",
           "package": "sparsecheck",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Term",
           "package": "sparsecheck",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Term",
           "package": "sparsecheck",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Tuple",
           "package": "sparsecheck",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Tuple",
           "package": "sparsecheck",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Var",
           "package": "sparsecheck",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Var",
           "package": "sparsecheck",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "(|\u003c|)",
           "package": "sparsecheck",
@@ -384,6 +419,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "(|\u003c|) |\u003c|",
           "normalized": "Term a-\u003eTerm a-\u003ePred",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "(|\u003c=|)",
           "package": "sparsecheck",
@@ -407,6 +444,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "(|\u003c=|) |\u003c=|",
           "normalized": "Term a-\u003eTerm a-\u003ePred",
@@ -421,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "(|\u003e|)",
           "package": "sparsecheck",
@@ -430,6 +469,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "(|\u003e|) |\u003e|",
           "normalized": "Term a-\u003eTerm a-\u003ePred",
@@ -444,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "(|\u003e=|)",
           "package": "sparsecheck",
@@ -453,6 +494,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "(|\u003e=|) |\u003e=|",
           "normalized": "Term a-\u003eTerm a-\u003ePred",
@@ -467,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "(&)",
           "package": "sparsecheck",
@@ -476,6 +519,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "(&) &",
           "normalized": "LP a-\u003eLP b-\u003eLP b",
@@ -490,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "(***)",
           "package": "sparsecheck",
@@ -499,6 +544,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "(***) ***",
           "normalized": "Term a-\u003eTerm b-\u003eTerm(Pair a b)",
@@ -513,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "(-+-)",
           "package": "sparsecheck",
@@ -522,6 +569,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "(-+-) -+-",
           "normalized": "(a-\u003e(b-\u003ec a,b-\u003ec a))-\u003e(a-\u003e(b-\u003ec a,b-\u003ec a))-\u003ea-\u003e(b-\u003ec a,b-\u003ec a)",
@@ -536,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "(=/=)",
           "package": "sparsecheck",
@@ -545,6 +594,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "(=/=) =/=",
           "normalized": "Term a-\u003eTerm a-\u003eLP()",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "(===)",
           "package": "sparsecheck",
@@ -568,6 +619,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "(===) ===",
           "normalized": "a-\u003ea-\u003eLP()",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "(?)",
           "package": "sparsecheck",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "(?) ?",
           "normalized": "LP a-\u003eLP a-\u003eLP a",
@@ -605,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "(\\/)",
           "package": "sparsecheck",
@@ -614,6 +669,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "(\\/) \\/",
           "normalized": "(Int-\u003ea)-\u003e(Int-\u003eb)-\u003eInt-\u003ePair a b",
@@ -628,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": ":|:",
           "package": "sparsecheck",
@@ -637,6 +694,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": ":|:",
           "package": "sparsecheck",
@@ -649,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": ":-",
           "package": "sparsecheck",
@@ -658,6 +717,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": ":-",
           "package": "sparsecheck",
@@ -670,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": ":-\u003e",
           "package": "sparsecheck",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": ":-\u003e",
           "normalized": "a-\u003eb",
@@ -693,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Bound",
           "package": "sparsecheck",
@@ -702,6 +765,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Bound",
           "package": "sparsecheck",
@@ -715,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Ctr",
           "package": "sparsecheck",
@@ -724,6 +789,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Ctr",
           "normalized": "Ctr Int[Exp]",
@@ -739,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Instantiate",
           "package": "sparsecheck",
@@ -748,6 +815,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Instantiate",
           "package": "sparsecheck",
@@ -761,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "LP",
           "package": "sparsecheck",
@@ -770,6 +839,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "LP",
           "package": "sparsecheck",
@@ -783,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Residuate",
           "package": "sparsecheck",
@@ -792,6 +863,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Residuate",
           "package": "sparsecheck",
@@ -805,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "State",
           "package": "sparsecheck",
@@ -814,6 +887,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "State",
           "package": "sparsecheck",
@@ -827,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Term",
           "package": "sparsecheck",
@@ -836,6 +911,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Term",
           "package": "sparsecheck",
@@ -849,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Unbound",
           "package": "sparsecheck",
@@ -858,6 +935,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Unbound",
           "normalized": "Unbound Int[Residual]",
@@ -873,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "Var",
           "package": "sparsecheck",
@@ -882,6 +961,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "Var",
           "package": "sparsecheck",
@@ -895,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "add",
           "package": "sparsecheck",
@@ -904,6 +985,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "add",
           "normalized": "Term Int-\u003eTerm Int-\u003eTerm Int-\u003ePred",
@@ -918,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "append",
           "package": "sparsecheck",
@@ -927,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "append",
           "normalized": "Term[a]-\u003eTerm[a]-\u003eTerm[a]-\u003ePred",
@@ -941,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "bindVar",
           "package": "sparsecheck",
@@ -950,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "bindVar",
           "normalized": "Var-\u003eExp-\u003eLP()",
@@ -965,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "caseOf",
           "package": "sparsecheck",
@@ -974,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "caseOf",
           "normalized": "a-\u003e(b-\u003eAlts a(LP c))-\u003eLP c",
@@ -989,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "caseType",
           "package": "sparsecheck",
@@ -998,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "caseType",
           "package": "sparsecheck",
@@ -1011,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "check",
           "package": "sparsecheck",
@@ -1020,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "check",
           "normalized": "Int-\u003e(Term a-\u003ePred)-\u003e(a-\u003eBool)-\u003e[a]",
@@ -1034,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "check2",
           "package": "sparsecheck",
@@ -1043,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "check2",
           "normalized": "Int-\u003e(Term a-\u003eTerm a-\u003ePred)-\u003e(a-\u003ea-\u003eBool)-\u003e[(a,a)]",
@@ -1057,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "check3",
           "package": "sparsecheck",
@@ -1066,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "check3",
           "normalized": "Int-\u003e(Term a-\u003eTerm a-\u003eTerm a-\u003ePred)-\u003e(a-\u003ea-\u003ea-\u003eBool)-\u003e[(a,a,a)]",
@@ -1080,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "check4",
           "package": "sparsecheck",
@@ -1089,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "check4",
           "normalized": "Int-\u003e(Term a-\u003eTerm a-\u003eTerm a-\u003eTerm a-\u003ePred)-\u003e(a-\u003ea-\u003ea-\u003ea-\u003eBool)-\u003e[(a,a,a,a)]",
@@ -1103,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "conv0",
           "package": "sparsecheck",
@@ -1112,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "conv0",
           "normalized": "a-\u003eInt-\u003eConv a",
@@ -1126,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "conv1",
           "package": "sparsecheck",
@@ -1135,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "conv1",
           "normalized": "(a-\u003eb)-\u003eInt-\u003eConv b",
@@ -1149,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "conv2",
           "package": "sparsecheck",
@@ -1158,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "conv2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eInt-\u003eConv c",
@@ -1172,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "conv3",
           "package": "sparsecheck",
@@ -1181,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "conv3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eInt-\u003eConv d",
@@ -1195,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "conv4",
           "package": "sparsecheck",
@@ -1204,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "conv4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eInt-\u003eConv e",
@@ -1218,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "converter",
           "package": "sparsecheck",
@@ -1227,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "converter",
           "normalized": "(a-\u003e(b,a-\u003eMaybe c))-\u003e(b,a-\u003ec)",
@@ -1241,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "ctr0",
           "package": "sparsecheck",
@@ -1250,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "ctr0",
           "normalized": "a-\u003eInt-\u003eTerm a",
@@ -1264,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "ctr1",
           "package": "sparsecheck",
@@ -1273,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "ctr1",
           "normalized": "(a-\u003eb)-\u003eInt-\u003eTerm a-\u003eTerm b",
@@ -1287,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "ctr2",
           "package": "sparsecheck",
@@ -1296,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "ctr2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eInt-\u003eTerm a-\u003eTerm b-\u003eTerm c",
@@ -1310,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "ctr3",
           "package": "sparsecheck",
@@ -1319,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "ctr3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eInt-\u003eTerm a-\u003eTerm b-\u003eTerm c-\u003eTerm d",
@@ -1333,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "ctr4",
           "package": "sparsecheck",
@@ -1342,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "ctr4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eInt-\u003eTerm a-\u003eTerm b-\u003eTerm c-\u003eTerm d-\u003eTerm e",
@@ -1356,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "datatype",
           "package": "sparsecheck",
@@ -1365,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "datatype",
           "normalized": "(Int-\u003ea)-\u003ea",
@@ -1379,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "deepRoot",
           "package": "sparsecheck",
@@ -1388,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "deepRoot",
           "normalized": "Exp-\u003eLP Exp",
@@ -1403,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "depthBound",
           "package": "sparsecheck",
@@ -1412,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "depthBound",
           "package": "sparsecheck",
@@ -1425,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "env",
           "package": "sparsecheck",
@@ -1434,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "env",
           "package": "sparsecheck",
@@ -1446,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "eq",
           "package": "sparsecheck",
@@ -1455,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "eq",
           "normalized": "Exp-\u003eExp-\u003eLP()-\u003eLP()",
@@ -1469,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "exists",
           "package": "sparsecheck",
@@ -1478,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "exists",
           "normalized": "(a-\u003eLP b)-\u003eLP b",
@@ -1492,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "expr",
           "package": "sparsecheck",
@@ -1501,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "expr",
           "package": "sparsecheck",
@@ -1513,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "fal",
           "package": "sparsecheck",
@@ -1522,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "fal",
           "package": "sparsecheck",
@@ -1534,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "false",
           "package": "sparsecheck",
@@ -1543,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "false",
           "package": "sparsecheck",
@@ -1555,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "flattenAlts",
           "package": "sparsecheck",
@@ -1564,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "flattenAlts",
           "normalized": "Alts a b-\u003e[(a,b)]",
@@ -1579,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "forall",
           "package": "sparsecheck",
@@ -1588,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "forall",
           "normalized": "Term[a]-\u003e(Term a-\u003ePred)-\u003ePred",
@@ -1602,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "forany",
           "package": "sparsecheck",
@@ -1611,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "forany",
           "normalized": "Term[a]-\u003e(Term a-\u003ePred)-\u003ePred",
@@ -1625,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "free",
           "package": "sparsecheck",
@@ -1634,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "free",
           "package": "sparsecheck",
@@ -1646,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "fresh",
           "package": "sparsecheck",
@@ -1655,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "fresh",
           "package": "sparsecheck",
@@ -1667,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "getCaseType",
           "package": "sparsecheck",
@@ -1676,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "getCaseType",
           "package": "sparsecheck",
@@ -1689,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "i",
           "package": "sparsecheck",
@@ -1698,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "i",
           "normalized": "Int-\u003eTerm Int",
@@ -1712,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "ifBound",
           "package": "sparsecheck",
@@ -1721,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "ifBound",
           "normalized": "Var-\u003e(Exp-\u003eLP a)-\u003eLP a-\u003eLP a",
@@ -1736,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "initState",
           "package": "sparsecheck",
@@ -1745,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "initState",
           "normalized": "Int-\u003eState",
@@ -1760,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "instCtr",
           "package": "sparsecheck",
@@ -1769,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "instCtr",
           "normalized": "Var-\u003e(Int,Int)-\u003ePred",
@@ -1784,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "instantiate",
           "package": "sparsecheck",
@@ -1793,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "instantiate",
           "normalized": "a-\u003e[(a,LP b)]-\u003eLP b",
@@ -1807,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "left",
           "package": "sparsecheck",
@@ -1816,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "left",
           "normalized": "Term a-\u003eTerm(Either a b)",
@@ -1830,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "len",
           "package": "sparsecheck",
@@ -1839,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "len",
           "normalized": "Term[a]-\u003eTerm Int-\u003ePred",
@@ -1853,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "lower",
           "package": "sparsecheck",
@@ -1862,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "lower",
           "normalized": "(Term a-\u003eLP a)-\u003ea-\u003eBool",
@@ -1876,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "lower2",
           "package": "sparsecheck",
@@ -1885,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "lower2",
           "normalized": "(Term a-\u003eTerm a-\u003eLP a)-\u003ea-\u003ea-\u003eBool",
@@ -1899,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "lower3",
           "package": "sparsecheck",
@@ -1908,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "lower3",
           "normalized": "(Term a-\u003eTerm a-\u003eTerm a-\u003eLP a)-\u003ea-\u003ea-\u003ea-\u003eBool",
@@ -1922,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "lower4",
           "package": "sparsecheck",
@@ -1931,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "lower4",
           "normalized": "(Term a-\u003eTerm a-\u003eTerm a-\u003eTerm a-\u003eLP a)-\u003ea-\u003ea-\u003ea-\u003ea-\u003eBool",
@@ -1945,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "mapP",
           "package": "sparsecheck",
@@ -1954,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "mapP",
           "normalized": "(Term a-\u003eTerm b-\u003ePred)-\u003eTerm[a]-\u003eTerm[b]-\u003ePred",
@@ -1968,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "match",
           "package": "sparsecheck",
@@ -1977,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "match",
           "normalized": "a-\u003ea-\u003e(LP()-\u003eLP b)-\u003eLP b",
@@ -1991,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "matchExp",
           "package": "sparsecheck",
@@ -2000,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "matchExp",
           "normalized": "Exp-\u003eExp-\u003e(LP()-\u003eLP a)-\u003eLP a",
@@ -2015,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "mkConv",
           "package": "sparsecheck",
@@ -2024,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "mkConv",
           "normalized": "Int-\u003e([Exp]-\u003ea)-\u003eExp-\u003eMaybe a",
@@ -2039,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "mkInst",
           "package": "sparsecheck",
@@ -2048,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "mkInst",
           "normalized": "Int-\u003eInt-\u003e([Exp]-\u003ePred)-\u003eTerm a-\u003ePred",
@@ -2063,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "mul",
           "package": "sparsecheck",
@@ -2072,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "mul",
           "normalized": "Term Int-\u003eTerm Int-\u003eTerm Int-\u003ePred",
@@ -2086,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "newVar",
           "package": "sparsecheck",
@@ -2095,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "newVar",
           "package": "sparsecheck",
@@ -2108,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "nil",
           "package": "sparsecheck",
@@ -2117,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "nil",
           "normalized": "Term[a]",
@@ -2131,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "nothing",
           "package": "sparsecheck",
@@ -2140,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "nothing",
           "package": "sparsecheck",
@@ -2152,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "pair",
           "package": "sparsecheck",
@@ -2161,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "pair",
           "normalized": "Term a-\u003eTerm b-\u003eTerm(a,b)",
@@ -2175,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "pow",
           "package": "sparsecheck",
@@ -2184,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "pow",
           "normalized": "Term Int-\u003eTerm Int-\u003eTerm Int-\u003ePred",
@@ -2198,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "quotrem",
           "package": "sparsecheck",
@@ -2207,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "quotrem",
           "normalized": "Term Int-\u003eTerm Int-\u003eTerm Int-\u003eTerm Int-\u003ePred",
@@ -2221,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "readVar",
           "package": "sparsecheck",
@@ -2230,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "readVar",
           "normalized": "Var-\u003eLP Status",
@@ -2245,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "resid",
           "package": "sparsecheck",
@@ -2254,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "resid",
           "normalized": "LP a-\u003eLP a",
@@ -2268,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "residuate",
           "package": "sparsecheck",
@@ -2277,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "residuate",
           "normalized": "a-\u003e[(a,LP b)]-\u003eLP b",
@@ -2291,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "resumeOn",
           "package": "sparsecheck",
@@ -2300,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "resumeOn",
           "normalized": "[Residual]-\u003eExp-\u003eLP()",
@@ -2315,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "rigid",
           "package": "sparsecheck",
@@ -2324,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "rigid",
           "normalized": "(Term a-\u003eLP b)-\u003eTerm a-\u003eLP b",
@@ -2338,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "rigidExp",
           "package": "sparsecheck",
@@ -2347,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "rigidExp",
           "normalized": "(Exp-\u003eLP a)-\u003eExp-\u003eLP a",
@@ -2362,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "root",
           "package": "sparsecheck",
@@ -2371,6 +2580,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "root",
           "normalized": "Exp-\u003eLP Exp",
@@ -2385,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "runLP",
           "package": "sparsecheck",
@@ -2394,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "runLP",
           "normalized": "Int-\u003eLP[Exp]-\u003e[[Exp]]",
@@ -2409,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "setDepth",
           "package": "sparsecheck",
@@ -2418,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "setDepth",
           "normalized": "Int-\u003eExp-\u003eLP()",
@@ -2433,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "solve",
           "package": "sparsecheck",
@@ -2442,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "solve",
           "normalized": "Int-\u003e(Term a-\u003ePred)-\u003e[a]",
@@ -2456,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "solve2",
           "package": "sparsecheck",
@@ -2465,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "solve2",
           "normalized": "Int-\u003e(Term a-\u003eTerm b-\u003ePred)-\u003e[(a,b)]",
@@ -2479,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "solve3",
           "package": "sparsecheck",
@@ -2488,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "solve3",
           "normalized": "Int-\u003e(Term a-\u003eTerm b-\u003eTerm c-\u003ePred)-\u003e[(a,b,c)]",
@@ -2502,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "solve4",
           "package": "sparsecheck",
@@ -2511,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "solve4",
           "normalized": "Int-\u003e(Term a-\u003eTerm b-\u003eTerm c-\u003eTerm d-\u003ePred)-\u003e[(a,b,c,d)]",
@@ -2525,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "solveHelp",
           "package": "sparsecheck",
@@ -2534,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "solveHelp",
           "normalized": "Int-\u003e([Exp]-\u003eLP a)-\u003eLP[Exp]",
@@ -2549,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "sub",
           "package": "sparsecheck",
@@ -2558,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "sub",
           "normalized": "Term Int-\u003eTerm Int-\u003eTerm Int-\u003ePred",
@@ -2572,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "sub'",
           "package": "sparsecheck",
@@ -2581,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "sub'",
           "normalized": "Term Int-\u003eTerm Int-\u003eTerm(Either Int Int)-\u003ePred",
@@ -2595,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "succInt",
           "package": "sparsecheck",
@@ -2604,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "succInt",
           "normalized": "Int-\u003eInt",
@@ -2619,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "term",
           "package": "sparsecheck",
@@ -2628,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "term",
           "normalized": "a-\u003eTerm a",
@@ -2642,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "true",
           "package": "sparsecheck",
@@ -2651,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "true",
           "normalized": "LP()",
@@ -2665,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "unLP",
           "package": "sparsecheck",
@@ -2674,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "unLP",
           "normalized": "State-\u003e(State-\u003ea-\u003e[[Exp]])-\u003e[[Exp]]",
@@ -2689,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "unifyExp",
           "package": "sparsecheck",
@@ -2698,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "unifyExp",
           "normalized": "Exp-\u003eExp-\u003eLP()",
@@ -2713,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "unifyVar",
           "package": "sparsecheck",
@@ -2722,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "unifyVar",
           "normalized": "Var-\u003eVar-\u003eLP()",
@@ -2737,6 +2977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "unterm",
           "package": "sparsecheck",
@@ -2746,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "unterm",
           "normalized": "(Term a-\u003eLP(),Exp-\u003ea)",
@@ -2760,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "writeVar",
           "package": "sparsecheck",
@@ -2769,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "writeVar",
           "normalized": "Var-\u003eStatus-\u003eLP()",
@@ -2784,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "zero",
           "package": "sparsecheck",
@@ -2793,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "zero",
           "package": "sparsecheck",
@@ -2805,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:46 UTC 2014",
           "module": "SparseCheck",
           "name": "zeroInt",
           "package": "sparsecheck",
@@ -2814,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "SparseCheck",
+          "indexed": "2014-03-11T20:07:46",
           "module": "SparseCheck",
           "name": "zeroInt",
           "package": "sparsecheck",

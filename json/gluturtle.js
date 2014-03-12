@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gluturtle"
+        "phrase": "gluturtle",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "Turtle",
           "package": "gluturtle",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "Turtle",
           "package": "gluturtle",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "ColorClass",
           "package": "gluturtle",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "ColorClass",
           "package": "gluturtle",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "Console",
           "package": "gluturtle",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "Console",
           "package": "gluturtle",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "Field",
           "package": "gluturtle",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "Field",
           "package": "gluturtle",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "Turtle",
           "package": "gluturtle",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "Turtle",
           "package": "gluturtle",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "addshape",
           "package": "gluturtle",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "addshape",
           "normalized": "Turtle-\u003eString-\u003e[(Double,Double)]-\u003eIO()",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "backward",
           "package": "gluturtle",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "backward",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "beginfill",
           "package": "gluturtle",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "beginfill",
           "normalized": "Turtle-\u003eIO()",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "beginpoly",
           "package": "gluturtle",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "beginpoly",
           "normalized": "Turtle-\u003eIO()",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "bgcolor",
           "package": "gluturtle",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "bgcolor",
           "normalized": "Turtle-\u003ea-\u003eIO()",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "center",
           "package": "gluturtle",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "center",
           "normalized": "Field-\u003eIO()",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "circle",
           "package": "gluturtle",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "circle",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "clear",
           "package": "gluturtle",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "clear",
           "normalized": "Turtle-\u003eIO()",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "closeField",
           "package": "gluturtle",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "closeField",
           "normalized": "Field-\u003eIO()",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "consoleOutput",
           "package": "gluturtle",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "consoleOutput",
           "normalized": "Console-\u003eString-\u003eIO()",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "consolePrompt",
           "package": "gluturtle",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "consolePrompt",
           "normalized": "Console-\u003eString-\u003eIO()",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "degrees",
           "package": "gluturtle",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "degrees",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "distance",
           "package": "gluturtle",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "distance",
           "normalized": "Turtle-\u003eDouble-\u003eDouble-\u003eIO Double",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "dot",
           "package": "gluturtle",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "dot",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "endfill",
           "package": "gluturtle",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "endfill",
           "normalized": "Turtle-\u003eIO()",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "endpoly",
           "package": "gluturtle",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "endpoly",
           "normalized": "Turtle-\u003eIO[(Double,Double)]",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "fillcolor",
           "package": "gluturtle",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "fillcolor",
           "normalized": "Turtle-\u003ea-\u003eIO()",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "flush",
           "package": "gluturtle",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "flush",
           "normalized": "Turtle-\u003eIO()",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "flushoff",
           "package": "gluturtle",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "flushoff",
           "normalized": "Turtle-\u003eIO()",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "flushon",
           "package": "gluturtle",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "flushon",
           "normalized": "Turtle-\u003eIO()",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "forward",
           "package": "gluturtle",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "forward",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -609,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "getSVG",
           "package": "gluturtle",
@@ -618,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "getSVG",
           "normalized": "Turtle-\u003eIO[SVG]",
@@ -633,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "getshapes",
           "package": "gluturtle",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "getshapes",
           "normalized": "Turtle-\u003eIO[String]",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "goto",
           "package": "gluturtle",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "goto",
           "normalized": "Turtle-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -679,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "heading",
           "package": "gluturtle",
@@ -688,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "heading",
           "normalized": "Turtle-\u003eIO Double",
@@ -702,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "hideturtle",
           "package": "gluturtle",
@@ -711,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "hideturtle",
           "normalized": "Turtle-\u003eIO()",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "home",
           "package": "gluturtle",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "home",
           "normalized": "Turtle-\u003eIO()",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "image",
           "package": "gluturtle",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "image",
           "normalized": "Turtle-\u003eFilePath-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "initialize",
           "package": "gluturtle",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "initialize",
           "normalized": "IO[String]",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "inputs",
           "package": "gluturtle",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "inputs",
           "normalized": "Turtle-\u003eIO[TurtleInput]",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "isdown",
           "package": "gluturtle",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "isdown",
           "normalized": "Turtle-\u003eIO Bool",
@@ -840,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "isvisible",
           "package": "gluturtle",
@@ -849,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "isvisible",
           "normalized": "Turtle-\u003eIO Bool",
@@ -863,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "killTurtle",
           "package": "gluturtle",
@@ -872,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "killTurtle",
           "normalized": "Turtle-\u003eIO()",
@@ -887,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "left",
           "package": "gluturtle",
@@ -896,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "left",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -910,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "newTurtle",
           "package": "gluturtle",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "newTurtle",
           "normalized": "Field-\u003eIO Turtle",
@@ -934,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "notundo",
           "package": "gluturtle",
@@ -943,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "notundo",
           "normalized": "Turtle-\u003eIO()",
@@ -957,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "onclick",
           "package": "gluturtle",
@@ -966,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "onclick",
           "normalized": "Field-\u003e(Int-\u003eDouble-\u003eDouble-\u003eIO Bool)-\u003eIO()",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "oncommand",
           "package": "gluturtle",
@@ -989,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "oncommand",
           "normalized": "Field-\u003e(String-\u003eIO Bool)-\u003eIO()",
@@ -1003,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "ondrag",
           "package": "gluturtle",
@@ -1012,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "ondrag",
           "normalized": "Field-\u003e(Int-\u003eDouble-\u003eDouble-\u003eIO())-\u003eIO()",
@@ -1026,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "onkeypress",
           "package": "gluturtle",
@@ -1035,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "onkeypress",
           "normalized": "Field-\u003e(Char-\u003eIO Bool)-\u003eIO()",
@@ -1049,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "onmotion",
           "package": "gluturtle",
@@ -1058,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "onmotion",
           "normalized": "Field-\u003e(Double-\u003eDouble-\u003eIO())-\u003eIO()",
@@ -1072,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "onrelease",
           "package": "gluturtle",
@@ -1081,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "onrelease",
           "normalized": "Field-\u003e(Int-\u003eDouble-\u003eDouble-\u003eIO Bool)-\u003eIO()",
@@ -1095,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "ontimer",
           "package": "gluturtle",
@@ -1104,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "ontimer",
           "normalized": "Field-\u003eInt-\u003eIO Bool-\u003eIO()",
@@ -1118,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "openConsole",
           "package": "gluturtle",
@@ -1127,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "openConsole",
           "normalized": "String-\u003eInt-\u003eInt-\u003eIO Console",
@@ -1142,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "openField",
           "package": "gluturtle",
@@ -1151,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "openField",
           "normalized": "String-\u003eInt-\u003eInt-\u003eIO Field",
@@ -1166,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "pencolor",
           "package": "gluturtle",
@@ -1175,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "pencolor",
           "normalized": "Turtle-\u003ea-\u003eIO()",
@@ -1189,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "pendown",
           "package": "gluturtle",
@@ -1198,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "pendown",
           "normalized": "Turtle-\u003eIO()",
@@ -1212,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "pensize",
           "package": "gluturtle",
@@ -1221,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "pensize",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -1235,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "penup",
           "package": "gluturtle",
@@ -1244,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "penup",
           "normalized": "Turtle-\u003eIO()",
@@ -1258,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "position",
           "package": "gluturtle",
@@ -1267,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "position",
           "normalized": "Turtle-\u003eIO(Double,Double)",
@@ -1281,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "radians",
           "package": "gluturtle",
@@ -1290,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "radians",
           "normalized": "Turtle-\u003eIO()",
@@ -1304,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "right",
           "package": "gluturtle",
@@ -1313,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "right",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -1327,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "runInputs",
           "package": "gluturtle",
@@ -1336,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "runInputs",
           "normalized": "Turtle-\u003e[TurtleInput]-\u003eIO()",
@@ -1351,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "setConsole",
           "package": "gluturtle",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "setConsole",
           "normalized": "Field-\u003eConsole-\u003eIO()",
@@ -1375,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "setFieldSize",
           "package": "gluturtle",
@@ -1384,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "setFieldSize",
           "normalized": "Field-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -1399,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "setheading",
           "package": "gluturtle",
@@ -1408,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "setheading",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -1422,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "setx",
           "package": "gluturtle",
@@ -1431,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "setx",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -1445,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "sety",
           "package": "gluturtle",
@@ -1454,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "sety",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -1468,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "shape",
           "package": "gluturtle",
@@ -1477,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "shape",
           "normalized": "Turtle-\u003eString-\u003eIO()",
@@ -1491,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "shapesize",
           "package": "gluturtle",
@@ -1500,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "shapesize",
           "normalized": "Turtle-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -1514,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "showturtle",
           "package": "gluturtle",
@@ -1523,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "showturtle",
           "normalized": "Turtle-\u003eIO()",
@@ -1537,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "sleep",
           "package": "gluturtle",
@@ -1546,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "sleep",
           "normalized": "Turtle-\u003eInt-\u003eIO()",
@@ -1560,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "speed",
           "package": "gluturtle",
@@ -1569,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "speed",
           "normalized": "Turtle-\u003eString-\u003eIO()",
@@ -1583,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "stamp",
           "package": "gluturtle",
@@ -1592,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "stamp",
           "normalized": "Turtle-\u003eIO()",
@@ -1606,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "topleft",
           "package": "gluturtle",
@@ -1615,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "topleft",
           "normalized": "Field-\u003eIO()",
@@ -1629,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "towards",
           "package": "gluturtle",
@@ -1638,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "towards",
           "normalized": "Turtle-\u003eDouble-\u003eDouble-\u003eIO Double",
@@ -1652,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "undo",
           "package": "gluturtle",
@@ -1661,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "undo",
           "normalized": "Turtle-\u003eIO()",
@@ -1675,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "windowHeight",
           "package": "gluturtle",
@@ -1684,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "windowHeight",
           "normalized": "Turtle-\u003eIO Double",
@@ -1699,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "windowWidth",
           "package": "gluturtle",
@@ -1708,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "windowWidth",
           "normalized": "Turtle-\u003eIO Double",
@@ -1723,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "write",
           "package": "gluturtle",
@@ -1732,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "write",
           "normalized": "Turtle-\u003eString-\u003eDouble-\u003eString-\u003eIO()",
@@ -1746,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "xcor",
           "package": "gluturtle",
@@ -1755,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "xcor",
           "normalized": "Turtle-\u003eIO Double",
@@ -1769,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "xturtleVersion",
           "package": "gluturtle",
@@ -1778,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "xturtleVersion",
           "normalized": "(Int,String)",
@@ -1793,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:36 UTC 2014",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "ycor",
           "package": "gluturtle",
@@ -1802,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Turtle",
+          "indexed": "2014-03-11T18:18:36",
           "module": "Graphics.UI.GLUT.Turtle",
           "name": "ycor",
           "normalized": "Turtle-\u003eIO Double",

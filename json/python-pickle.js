@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "python-pickle"
+        "phrase": "python-pickle",
+        "type": "phrase"
       },
       "type": "context"
     }

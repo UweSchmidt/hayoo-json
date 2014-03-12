@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hls"
+        "phrase": "hls",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLindenmayer system definition, expander and renderer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "LSystem",
           "package": "hls",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Lindenmayer system definition expander and renderer",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "LSystem",
           "package": "hls",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn axiom (sequence of \u003ccode\u003eElements\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "Axiom",
           "package": "hls",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An axiom sequence of Elements",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "Axiom",
           "package": "hls",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement of \u003ccode\u003e\u003ca\u003eAxiom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "Element",
           "package": "hls",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Element of Axiom",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "Element",
           "package": "hls",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eLSystem\u003c/a\u003e\u003c/code\u003e is an \u003ccode\u003e\u003ca\u003eAxiom\u003c/a\u003e\u003c/code\u003e and a set of \u003ccode\u003e\u003ca\u003eRules\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "LSystem",
           "package": "hls",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An LSystem is an Axiom and set of Rules",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "LSystem",
           "package": "hls",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eAxiom\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "Rules",
           "package": "hls",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Map from Element to Axiom",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "Rules",
           "package": "hls",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "LSystem",
           "package": "hls",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "LSystem",
           "package": "hls",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRule application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "applyRule",
           "package": "hls",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Rule application",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "applyRule",
           "normalized": "[Element]-\u003eRules-\u003e[Element]",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperational \u003ccode\u003e\u003ca\u003eTurtle\u003c/a\u003e\u003c/code\u003e commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "cmd",
           "package": "hls",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Operational Turtle commands",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "cmd",
           "normalized": "(Turtle-\u003ea-\u003e(Turtle,a))-\u003eElement-\u003eTurtle-\u003ea-\u003e(Turtle,a)",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003en\u003c/em\u003e iterations of the specified \u003ccode\u003e\u003ca\u003eLSystem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e expand (lSystem \"F+F+F\" [('F',\"F-F+F\")]) 1 == \"F-F+F+F-F+F+F-F+F\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "expand",
           "package": "hls",
@@ -217,6 +234,7 @@
         "index": {
           "description": "iterations of the specified LSystem expand lSystem F-F F-F F-F F-F",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "expand",
           "normalized": "LSystem-\u003eInt-\u003e[Element]",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRule lookup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "getRule",
           "package": "hls",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Rule lookup",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "getRule",
           "normalized": "Rules-\u003eElement-\u003e[Element]",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eL-System constructor.\n\u003c/p\u003e\u003cpre\u003e lSystem \"F+F+F\" [('F',\"F-F+F\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "lSystem",
           "package": "hls",
@@ -268,6 +289,7 @@
         "index": {
           "description": "L-System constructor lSystem F-F",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "lSystem",
           "normalized": "Axiom-\u003e[(Element,[Element])]-\u003eLSystem",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold over an expanded L-system using standard turtle commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "render",
           "package": "hls",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Fold over an expanded L-system using standard turtle commands",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "render",
           "normalized": "a-\u003e(a-\u003ePt R-\u003ePt R-\u003ea)-\u003e[Element]-\u003eTurtle-\u003ea",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState transformer \u003ccode\u003e\u003ca\u003eTurtle\u003c/a\u003e\u003c/code\u003e commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.LSystem",
           "name": "stateT",
           "package": "hls",
@@ -319,6 +344,7 @@
         "index": {
           "description": "State transformer Turtle commands",
           "hierarchy": "LSystem LSystem",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.LSystem",
           "name": "stateT",
           "normalized": "Element-\u003eTurtle-\u003eTurtle",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePostscript renderer for \u003ccode\u003e\u003ca\u003eLSystem\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Render.PS",
           "name": "PS",
           "package": "hls",
@@ -343,6 +370,7 @@
         "index": {
           "description": "Postscript renderer for LSystem",
           "hierarchy": "LSystem Render PS",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Render.PS",
           "name": "PS",
           "package": "hls",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw output of \u003ccode\u003e\u003ca\u003erenderL\u003c/a\u003e\u003c/code\u003e normalised, scaled to \u003cem\u003em\u003c/em\u003e and translated\n by \u003cem\u003eo\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Render.PS",
           "name": "draw",
           "package": "hls",
@@ -367,6 +396,7 @@
         "index": {
           "description": "Draw output of renderL normalised scaled to and translated by",
           "hierarchy": "LSystem Render PS",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Render.PS",
           "name": "draw",
           "normalized": "R-\u003eR-\u003e[Ln R]-\u003eImage",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven initial \u003ccode\u003e\u003ca\u003eta\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003els\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ells\u003c/a\u003e\u003c/code\u003e values render \u003cem\u003ei\u003c/em\u003e steps of an\n \u003ccode\u003e\u003ca\u003eLSystem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Render.PS",
           "name": "renderL",
           "package": "hls",
@@ -392,6 +423,7 @@
         "index": {
           "description": "Given initial ta ls and lls values render steps of an LSystem",
           "hierarchy": "LSystem Render PS",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Render.PS",
           "name": "renderL",
           "normalized": "(LSystem,Double,Double)-\u003eInt-\u003eDouble-\u003e[Ln R]",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious \u003ccode\u003e\u003ca\u003eLSystem\u003c/a\u003e\u003c/code\u003es.\n For \u003ccode\u003e\u003ca\u003el0\u003c/a\u003e\u003c/code\u003e through \u003ccode\u003e\u003ca\u003elB\u003c/a\u003e\u003c/code\u003e see \u003ca\u003ehttp://paulbourke.net/fractals/lsys/\u003c/a\u003e.\n For \u003ccode\u003e\u003ca\u003elC\u003c/a\u003e\u003c/code\u003e see \u003ca\u003ehttp://en.wikipedia.org/wiki/Penrose_tiling\u003c/a\u003e.\n For \u003ccode\u003e\u003ca\u003elD\u003c/a\u003e\u003c/code\u003e see \u003ca\u003ehttp://hackage.haskell.org/package/nymphaea\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "Systems",
           "package": "hls",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Various LSystem For l0 through lB see http paulbourke.net fractals lsys For lC see http en.wikipedia.org wiki Penrose tiling For lD see http hackage.haskell.org package nymphaea",
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "Systems",
           "package": "hls",
@@ -429,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l0",
           "package": "hls",
@@ -438,6 +473,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l0",
           "package": "hls",
@@ -450,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l0d",
           "package": "hls",
@@ -459,6 +496,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l0d",
           "normalized": "(LSystem,Double,Double)",
@@ -473,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l0l",
           "package": "hls",
@@ -482,6 +521,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l0l",
           "normalized": "[Ln R]",
@@ -496,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l1",
           "package": "hls",
@@ -505,6 +546,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l1",
           "package": "hls",
@@ -517,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l1d",
           "package": "hls",
@@ -526,6 +569,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l1d",
           "normalized": "(LSystem,Double,Double)",
@@ -540,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l1l",
           "package": "hls",
@@ -549,6 +594,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l1l",
           "normalized": "[Ln R]",
@@ -563,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l2",
           "package": "hls",
@@ -572,6 +619,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l2",
           "package": "hls",
@@ -584,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l2d",
           "package": "hls",
@@ -593,6 +642,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l2d",
           "normalized": "(LSystem,Double,Double)",
@@ -607,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l2l",
           "package": "hls",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l2l",
           "normalized": "[Ln R]",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l3",
           "package": "hls",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l3",
           "package": "hls",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l3d",
           "package": "hls",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l3d",
           "normalized": "(LSystem,Double,Double)",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l3l",
           "package": "hls",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l3l",
           "normalized": "[Ln R]",
@@ -697,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l4",
           "package": "hls",
@@ -706,6 +765,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l4",
           "package": "hls",
@@ -718,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l4d",
           "package": "hls",
@@ -727,6 +788,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l4d",
           "normalized": "(LSystem,Double,Double)",
@@ -741,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l4l",
           "package": "hls",
@@ -750,6 +813,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l4l",
           "normalized": "[Ln R]",
@@ -764,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l5",
           "package": "hls",
@@ -773,6 +838,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l5",
           "package": "hls",
@@ -785,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l5d",
           "package": "hls",
@@ -794,6 +861,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l5d",
           "normalized": "(LSystem,Double,Double)",
@@ -808,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l5l",
           "package": "hls",
@@ -817,6 +886,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l5l",
           "normalized": "[Ln R]",
@@ -831,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l6",
           "package": "hls",
@@ -840,6 +911,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l6",
           "package": "hls",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l6d",
           "package": "hls",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l6d",
           "normalized": "(LSystem,Double,Double)",
@@ -875,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l6l",
           "package": "hls",
@@ -884,6 +959,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l6l",
           "normalized": "[Ln R]",
@@ -898,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l7",
           "package": "hls",
@@ -907,6 +984,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l7",
           "package": "hls",
@@ -919,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l7d",
           "package": "hls",
@@ -928,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l7d",
           "normalized": "(LSystem,Double,Double)",
@@ -942,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l7l",
           "package": "hls",
@@ -951,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l7l",
           "normalized": "[Ln R]",
@@ -965,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l8",
           "package": "hls",
@@ -974,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l8",
           "package": "hls",
@@ -986,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l8d",
           "package": "hls",
@@ -995,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l8d",
           "normalized": "(LSystem,Double,Double)",
@@ -1009,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l8l",
           "package": "hls",
@@ -1018,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l8l",
           "normalized": "[Ln R]",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l9",
           "package": "hls",
@@ -1041,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l9",
           "package": "hls",
@@ -1053,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l9d",
           "package": "hls",
@@ -1062,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l9d",
           "normalized": "(LSystem,Double,Double)",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "l9l",
           "package": "hls",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "l9l",
           "normalized": "[Ln R]",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lA",
           "package": "hls",
@@ -1108,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lA",
           "package": "hls",
@@ -1120,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lAd",
           "package": "hls",
@@ -1129,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lAd",
           "normalized": "(LSystem,Double,Double)",
@@ -1144,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lAl",
           "package": "hls",
@@ -1153,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lAl",
           "normalized": "[Ln R]",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lB",
           "package": "hls",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lB",
           "package": "hls",
@@ -1189,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lBd",
           "package": "hls",
@@ -1198,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lBd",
           "normalized": "(LSystem,Double,Double)",
@@ -1213,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lBl",
           "package": "hls",
@@ -1222,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lBl",
           "normalized": "[Ln R]",
@@ -1237,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lC",
           "package": "hls",
@@ -1246,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lC",
           "package": "hls",
@@ -1258,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lCd",
           "package": "hls",
@@ -1267,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lCd",
           "normalized": "(LSystem,Double,Double)",
@@ -1282,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lCl",
           "package": "hls",
@@ -1291,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lCl",
           "normalized": "[Ln R]",
@@ -1306,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lD",
           "package": "hls",
@@ -1315,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lD",
           "package": "hls",
@@ -1327,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lDd",
           "package": "hls",
@@ -1336,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lDd",
           "normalized": "(LSystem,Double,Double)",
@@ -1351,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "lDl",
           "package": "hls",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "lDl",
           "normalized": "[Ln R]",
@@ -1375,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "systems_i",
           "package": "hls",
@@ -1384,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "systems_i",
           "normalized": "[Image]",
@@ -1398,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "systems_l",
           "package": "hls",
@@ -1407,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "systems_l",
           "normalized": "[[Ln R]]",
@@ -1422,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate postscript file with drawings of \u003ccode\u003e\u003ca\u003el0\u003c/a\u003e\u003c/code\u003e through \u003ccode\u003e\u003ca\u003elD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e systems_ps \"/tmp/hls.ps\"\n System.Process.system \"gv /tmp/hls.ps\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Systems",
           "name": "systems_ps",
           "package": "hls",
@@ -1432,6 +1555,7 @@
         "index": {
           "description": "Generate postscript file with drawings of l0 through lD systems ps tmp hls.ps System.Process.system gv tmp hls.ps",
           "hierarchy": "LSystem Systems",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Systems",
           "name": "systems_ps",
           "normalized": "FilePath-\u003eIO()",
@@ -1447,6 +1571,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStandard \u003ccode\u003e\u003ca\u003eTurtle\u003c/a\u003e\u003c/code\u003e graphics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "Turtle",
           "package": "hls",
@@ -1456,6 +1581,7 @@
         "index": {
           "description": "Standard Turtle graphics",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "Turtle",
           "package": "hls",
@@ -1470,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurtle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "Turtle",
           "package": "hls",
@@ -1479,6 +1606,7 @@
         "index": {
           "description": "Turtle",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "Turtle",
           "package": "hls",
@@ -1492,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "Turtle",
           "package": "hls",
@@ -1501,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "Turtle",
           "package": "hls",
@@ -1515,6 +1645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrement line length (\u003ccode\u003e\u003ca\u003ell\u003c/a\u003e\u003c/code\u003e) by dividing by line length scalar\n (\u003ccode\u003e\u003ca\u003ells\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "decrLine",
           "package": "hls",
@@ -1525,6 +1656,7 @@
         "index": {
           "description": "Decrement line length ll by dividing by line length scalar lls",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "decrLine",
           "normalized": "Turtle-\u003eTurtle",
@@ -1541,6 +1673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove \u003ccode\u003e\u003ca\u003eloc\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eTurtle\u003c/a\u003e\u003c/code\u003e by \u003ccode\u003e\u003ca\u003ell\u003c/a\u003e\u003c/code\u003e on current \u003ccode\u003e\u003ca\u003ehdg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "forward",
           "package": "hls",
@@ -1551,6 +1684,7 @@
         "index": {
           "description": "Move loc of Turtle by ll on current hdg",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "forward",
           "normalized": "Turtle-\u003eTurtle",
@@ -1566,6 +1700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eheading\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "hdg",
           "package": "hls",
@@ -1576,6 +1711,7 @@
         "index": {
           "description": "heading",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "hdg",
           "package": "hls",
@@ -1589,6 +1725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement line length (\u003ccode\u003e\u003ca\u003ell\u003c/a\u003e\u003c/code\u003e) by multiplying by line length scalar\n (\u003ccode\u003e\u003ca\u003ells\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "incrLine",
           "package": "hls",
@@ -1599,6 +1736,7 @@
         "index": {
           "description": "Increment line length ll by multiplying by line length scalar lls",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "incrLine",
           "normalized": "Turtle-\u003eTurtle",
@@ -1615,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eline length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "ll",
           "package": "hls",
@@ -1625,6 +1764,7 @@
         "index": {
           "description": "line length",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "ll",
           "package": "hls",
@@ -1638,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eline length scalar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "lls",
           "package": "hls",
@@ -1648,6 +1789,7 @@
         "index": {
           "description": "line length scalar",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "lls",
           "package": "hls",
@@ -1661,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "loc",
           "package": "hls",
@@ -1671,6 +1814,7 @@
         "index": {
           "description": "location",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "loc",
           "package": "hls",
@@ -1684,6 +1828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch \u003ccode\u003e\u003ca\u003eTurtle\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003estk\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "pop",
           "package": "hls",
@@ -1694,6 +1839,7 @@
         "index": {
           "description": "Fetch Turtle from stk",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "pop",
           "normalized": "Turtle-\u003eTurtle",
@@ -1709,6 +1855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush \u003ccode\u003e\u003ca\u003eTurtle\u003c/a\u003e\u003c/code\u003e onto \u003ccode\u003e\u003ca\u003estk\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "push",
           "package": "hls",
@@ -1719,6 +1866,7 @@
         "index": {
           "description": "Push Turtle onto stk",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "push",
           "normalized": "Turtle-\u003eTurtle",
@@ -1734,6 +1882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven state processing function \u003cem\u003ef\u003c/em\u003e, a \u003ccode\u003e\u003ca\u003eTurtle\u003c/a\u003e\u003c/code\u003e and an initial\n state, step \u003ccode\u003e\u003ca\u003eTurtle\u003c/a\u003e\u003c/code\u003e and state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "stepTurtle",
           "package": "hls",
@@ -1744,6 +1893,7 @@
         "index": {
           "description": "Given state processing function Turtle and an initial state step Turtle and state",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "stepTurtle",
           "normalized": "(a-\u003ePt R-\u003ePt R-\u003eb)-\u003eTurtle-\u003ea-\u003e(Turtle,b)",
@@ -1760,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eturtle stack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "stk",
           "package": "hls",
@@ -1770,6 +1921,7 @@
         "index": {
           "description": "turtle stack",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "stk",
           "normalized": "[Turtle]",
@@ -1785,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eturning angle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "ta",
           "package": "hls",
@@ -1795,6 +1948,7 @@
         "index": {
           "description": "turning angle",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "ta",
           "package": "hls",
@@ -1808,6 +1962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eturning angle increment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "tai",
           "package": "hls",
@@ -1818,6 +1973,7 @@
         "index": {
           "description": "turning angle increment",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "tai",
           "package": "hls",
@@ -1831,6 +1987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e180\u003c/code\u003e degree turn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "turnBack",
           "package": "hls",
@@ -1841,6 +1998,7 @@
         "index": {
           "description": "degree turn",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "turnBack",
           "normalized": "Turtle-\u003eTurtle",
@@ -1857,6 +2015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft turn by \u003ccode\u003e\u003ca\u003eta\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "turnLeft",
           "package": "hls",
@@ -1867,6 +2026,7 @@
         "index": {
           "description": "Left turn by ta",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "turnLeft",
           "normalized": "Turtle-\u003eTurtle",
@@ -1883,6 +2043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight turn by \u003ccode\u003e\u003ca\u003eta\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:30 UTC 2014",
           "module": "LSystem.Turtle",
           "name": "turnRight",
           "package": "hls",
@@ -1893,6 +2054,7 @@
         "index": {
           "description": "Right turn by ta",
           "hierarchy": "LSystem Turtle",
+          "indexed": "2014-03-11T18:41:30",
           "module": "LSystem.Turtle",
           "name": "turnRight",
           "normalized": "Turtle-\u003eTurtle",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-eq"
+        "phrase": "type-eq",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher.Unsafe",
           "name": "Unsafe",
           "package": "type-eq",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher Unsafe",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher.Unsafe",
           "name": "Unsafe",
           "package": "type-eq",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery unsafe! The same rules apply as for \u003ccode\u003e\u003ca\u003eunsafeCoerce\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher.Unsafe",
           "name": "unsafeCoercion1",
           "package": "type-eq",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Very unsafe The same rules apply as for unsafeCoerce",
           "hierarchy": "Type Eq Higher Unsafe",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher.Unsafe",
           "name": "unsafeCoercion1",
           "package": "type-eq",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery unsafe! The same rules apply as for \u003ccode\u003e\u003ca\u003eunsafeCoerce\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher.Unsafe",
           "name": "unsafeCoercion2",
           "package": "type-eq",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Very unsafe The same rules apply as for unsafeCoerce",
           "hierarchy": "Type Eq Higher Unsafe",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher.Unsafe",
           "name": "unsafeCoercion2",
           "package": "type-eq",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery unsafe!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher.Unsafe",
           "name": "unsafeInnerEq1",
           "package": "type-eq",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Very unsafe",
           "hierarchy": "Type Eq Higher Unsafe",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher.Unsafe",
           "name": "unsafeInnerEq1",
           "package": "type-eq",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery unsafe!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher.Unsafe",
           "name": "unsafeOuterEq1",
           "package": "type-eq",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Very unsafe",
           "hierarchy": "Type Eq Higher Unsafe",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher.Unsafe",
           "name": "unsafeOuterEq1",
           "package": "type-eq",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and functions for storing and manipulating evidence of equality between types of higher kind.\n\u003c/p\u003e\u003cp\u003eAvailable up to \u003ccode\u003e* -\u003e * -\u003e *\u003c/code\u003e. Yell if you need more.\n\u003c/p\u003e\u003cp\u003eIn GHC 7.8, this module uses \u003ccode\u003eData.OldTypeable\u003c/code\u003e. Future uncertain.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "Higher",
           "package": "type-eq",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Types and functions for storing and manipulating evidence of equality between types of higher kind Available up to Yell if you need more In GHC this module uses Data.OldTypeable Future uncertain",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "Higher",
           "package": "type-eq",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "::~::",
           "package": "type-eq",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "::~::",
           "package": "type-eq",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": ":::~:::",
           "package": "type-eq",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": ":::~:::",
           "package": "type-eq",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "InnerEq1",
           "package": "type-eq",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "InnerEq1",
           "package": "type-eq",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "OuterEq1",
           "package": "type-eq",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "OuterEq1",
           "package": "type-eq",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCongruence?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "(||$||)",
           "package": "type-eq",
@@ -251,6 +272,7 @@
         "index": {
           "description": "Congruence",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "(||$||) ||$||",
           "package": "type-eq",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransitivity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "(||.||)",
           "package": "type-eq",
@@ -274,6 +297,7 @@
         "index": {
           "description": "Transitivity",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "(||.||) ||.||",
           "package": "type-eq",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCongruence?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "(|$|)",
           "package": "type-eq",
@@ -297,6 +322,7 @@
         "index": {
           "description": "Congruence",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "(|$|) |$|",
           "normalized": "a)-\u003e(b c)-\u003ed b a c",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransitivity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "(|.|)",
           "package": "type-eq",
@@ -322,6 +349,7 @@
         "index": {
           "description": "Transitivity",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "(|.|) |.|",
           "package": "type-eq",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "Eq1",
           "package": "type-eq",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "Eq1",
           "package": "type-eq",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "Eq2",
           "package": "type-eq",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "Eq2",
           "package": "type-eq",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "InnerEq1",
           "package": "type-eq",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "InnerEq1",
           "package": "type-eq",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "OuterEq1",
           "package": "type-eq",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "OuterEq1",
           "package": "type-eq",
@@ -423,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCongruence?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "applyEq1",
           "package": "type-eq",
@@ -433,6 +470,7 @@
         "index": {
           "description": "Congruence",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "applyEq1",
           "normalized": "a)-\u003e(b c)-\u003ed b a c",
@@ -449,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCongruence?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "applyEq2",
           "package": "type-eq",
@@ -459,6 +498,7 @@
         "index": {
           "description": "Congruence",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "applyEq2",
           "package": "type-eq",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType constructors are injective\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "argumentEq1",
           "package": "type-eq",
@@ -483,6 +524,7 @@
         "index": {
           "description": "Type constructors are injective",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "argumentEq1",
           "normalized": "a b)-\u003ec b",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "assembleEq1",
           "package": "type-eq",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "assembleEq1",
           "package": "type-eq",
@@ -521,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransitivity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "composeEq1",
           "package": "type-eq",
@@ -531,6 +576,7 @@
         "index": {
           "description": "Transitivity",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "composeEq1",
           "package": "type-eq",
@@ -545,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransitivity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "composeEq2",
           "package": "type-eq",
@@ -555,6 +602,7 @@
         "index": {
           "description": "Transitivity",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "composeEq2",
           "package": "type-eq",
@@ -569,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType constructors are generative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "constructorEq",
           "package": "type-eq",
@@ -579,6 +628,7 @@
         "index": {
           "description": "Type constructors are generative",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "constructorEq",
           "package": "type-eq",
@@ -593,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType constructors are generative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "constructorEq1",
           "package": "type-eq",
@@ -603,6 +654,7 @@
         "index": {
           "description": "Type constructors are generative",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "constructorEq1",
           "package": "type-eq",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime type equality evidence from \u003ccode\u003eTypeable1\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "dynamicEq1",
           "package": "type-eq",
@@ -627,6 +680,7 @@
         "index": {
           "description": "Runtime type equality evidence from Typeable1",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "dynamicEq1",
           "package": "type-eq",
@@ -641,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime type equality evidence from \u003ccode\u003eTypeable2\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "dynamicEq2",
           "package": "type-eq",
@@ -651,6 +706,7 @@
         "index": {
           "description": "Runtime type equality evidence from Typeable2",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "dynamicEq2",
           "package": "type-eq",
@@ -665,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "flipEq1",
           "package": "type-eq",
@@ -675,6 +732,7 @@
         "index": {
           "description": "Symmetry",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "flipEq1",
           "package": "type-eq",
@@ -689,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "flipEq2",
           "package": "type-eq",
@@ -699,6 +758,7 @@
         "index": {
           "description": "Symmetry",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "flipEq2",
           "package": "type-eq",
@@ -713,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflexivity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "idEq1",
           "package": "type-eq",
@@ -723,6 +784,7 @@
         "index": {
           "description": "Reflexivity",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "idEq1",
           "package": "type-eq",
@@ -737,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflexivity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "idEq2",
           "package": "type-eq",
@@ -747,6 +810,7 @@
         "index": {
           "description": "Reflexivity",
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "idEq2",
           "package": "type-eq",
@@ -760,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "innerEq1",
           "package": "type-eq",
@@ -769,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "innerEq1",
           "normalized": "a)-\u003eInnerEq b a",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "outerEq1",
           "package": "type-eq",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "outerEq1",
           "normalized": "a)-\u003eOuterEq b a",
@@ -808,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "sameInnerEq1",
           "package": "type-eq",
@@ -817,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "sameInnerEq1",
           "normalized": "InnerEq a b-\u003eInnerEq c b-\u003ea c",
@@ -832,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "sameOuterEq",
           "package": "type-eq",
@@ -841,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "sameOuterEq",
           "package": "type-eq",
@@ -854,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "sameOuterEq1",
           "package": "type-eq",
@@ -863,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "sameOuterEq1",
           "package": "type-eq",
@@ -876,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "withEq1",
           "package": "type-eq",
@@ -885,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "withEq1",
           "normalized": "a)-\u003eb",
@@ -900,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "withEq2",
           "package": "type-eq",
@@ -909,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "withEq2",
           "normalized": "a)-\u003eb",
@@ -924,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "withInnerEq1",
           "package": "type-eq",
@@ -933,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "withInnerEq1",
           "normalized": "a)-\u003eInnerEq b c-\u003ea",
@@ -948,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Higher",
           "name": "withOuterEq1",
           "package": "type-eq",
@@ -957,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Higher",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Higher",
           "name": "withOuterEq1",
           "normalized": "a)-\u003eOuterEq b c-\u003ea",
@@ -973,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKind-polymorphic functions for manipulating type equality evidence.\n\u003c/p\u003e\u003cp\u003eThis module is available only if \u003ccode\u003ePolyKinds\u003c/code\u003e are available (GHC 7.6+).\n\u003c/p\u003e\u003cp\u003eIn GHC 7.8, this module uses \u003ccode\u003eData.OldTypeable\u003c/code\u003e. Future uncertain.\n\u003c/p\u003e\u003cp\u003eFor kind-polymorphic \u003ccode\u003eData.Typeable\u003c/code\u003e, use \u003ccode\u003e\u003ca\u003edynamicEq\u003c/a\u003e\u003c/code\u003e from the \u003ca\u003eType.Eq\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "Poly",
           "package": "type-eq",
@@ -982,6 +1065,7 @@
         "index": {
           "description": "Kind-polymorphic functions for manipulating type equality evidence This module is available only if PolyKinds are available GHC In GHC this module uses Data.OldTypeable Future uncertain For kind-polymorphic Data.Typeable use dynamicEq from the Type.Eq module",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "Poly",
           "package": "type-eq",
@@ -996,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCongruence?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "(|$|)",
           "package": "type-eq",
@@ -1006,6 +1091,7 @@
         "index": {
           "description": "Congruence",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "(|$|) |$|",
           "normalized": "(a b)-\u003e(c d)-\u003ea c b d",
@@ -1021,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecomposeEq\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Kind-polymorphic, unlike \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "(|.|)",
           "package": "type-eq",
@@ -1031,6 +1118,7 @@
         "index": {
           "description": "Synonym for composeEq Kind-polymorphic unlike",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "(|.|) |.|",
           "normalized": "(a b)-\u003e(c a)-\u003ec b",
@@ -1046,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCongruence?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "applyEq",
           "package": "type-eq",
@@ -1056,6 +1145,7 @@
         "index": {
           "description": "Congruence",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "applyEq",
           "normalized": "(a b)-\u003e(c d)-\u003ea c b d",
@@ -1072,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType constructors are generative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "constructorEq",
           "package": "type-eq",
@@ -1082,6 +1173,7 @@
         "index": {
           "description": "Type constructors are generative",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "constructorEq",
           "normalized": "(a b c d)-\u003ea c",
@@ -1098,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime type equality evidence from \u003ccode\u003eTypeable1\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq1",
           "package": "type-eq",
@@ -1108,6 +1201,7 @@
         "index": {
           "description": "Runtime type equality evidence from Typeable1",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq1",
           "package": "type-eq",
@@ -1122,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime type equality evidence from \u003ccode\u003eTypeable2\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq2",
           "package": "type-eq",
@@ -1132,6 +1227,7 @@
         "index": {
           "description": "Runtime type equality evidence from Typeable2",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq2",
           "package": "type-eq",
@@ -1146,6 +1242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime type equality evidence from \u003ccode\u003eTypeable3\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq3",
           "package": "type-eq",
@@ -1156,6 +1253,7 @@
         "index": {
           "description": "Runtime type equality evidence from Typeable3",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq3",
           "package": "type-eq",
@@ -1170,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime type equality evidence from \u003ccode\u003eTypeable4\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq4",
           "package": "type-eq",
@@ -1180,6 +1279,7 @@
         "index": {
           "description": "Runtime type equality evidence from Typeable4",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq4",
           "package": "type-eq",
@@ -1194,6 +1294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime type equality evidence from \u003ccode\u003eTypeable5\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq5",
           "package": "type-eq",
@@ -1204,6 +1305,7 @@
         "index": {
           "description": "Runtime type equality evidence from Typeable5",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq5",
           "package": "type-eq",
@@ -1218,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime type equality evidence from \u003ccode\u003eTypeable6\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq6",
           "package": "type-eq",
@@ -1228,6 +1331,7 @@
         "index": {
           "description": "Runtime type equality evidence from Typeable6",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq6",
           "package": "type-eq",
@@ -1242,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime type equality evidence from \u003ccode\u003eTypeable7\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq7",
           "package": "type-eq",
@@ -1252,6 +1357,7 @@
         "index": {
           "description": "Runtime type equality evidence from Typeable7",
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "dynamicEq7",
           "package": "type-eq",
@@ -1265,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "fromEq1",
           "package": "type-eq",
@@ -1274,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "fromEq1",
           "normalized": "a)-\u003eb a",
@@ -1289,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "fromEq2",
           "package": "type-eq",
@@ -1298,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "fromEq2",
           "normalized": "a)-\u003eb a",
@@ -1313,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "fromInnerEq1",
           "package": "type-eq",
@@ -1322,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "fromInnerEq1",
           "normalized": "InnerEq a b-\u003eInnerEq a b",
@@ -1337,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "fromOuterEq1",
           "package": "type-eq",
@@ -1346,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "fromOuterEq1",
           "normalized": "OuterEq a b-\u003eOuterEq a b",
@@ -1361,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "sameOuterEq",
           "package": "type-eq",
@@ -1370,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "sameOuterEq",
           "normalized": "OuterEq a b-\u003eOuterEq c b-\u003ea c",
@@ -1385,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "toEq1",
           "package": "type-eq",
@@ -1394,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "toEq1",
           "package": "type-eq",
@@ -1407,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "toEq2",
           "package": "type-eq",
@@ -1416,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "toEq2",
           "package": "type-eq",
@@ -1429,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "toInnerEq1",
           "package": "type-eq",
@@ -1438,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "toInnerEq1",
           "normalized": "InnerEq a b-\u003eInnerEq a b",
@@ -1453,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Poly",
           "name": "toOuterEq1",
           "package": "type-eq",
@@ -1462,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Type Eq Poly",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Poly",
           "name": "toOuterEq1",
           "normalized": "OuterEq a b-\u003eOuterEq a b",
@@ -1478,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is kind-polymorphic if \u003ccode\u003ePolyKinds\u003c/code\u003e are available (GHC 7.6+).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Unsafe",
           "name": "Unsafe",
           "package": "type-eq",
@@ -1487,6 +1612,7 @@
         "index": {
           "description": "This module is kind-polymorphic if PolyKinds are available GHC",
           "hierarchy": "Type Eq Unsafe",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Unsafe",
           "name": "Unsafe",
           "package": "type-eq",
@@ -1501,6 +1627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery unsafe! The same rules apply as for \u003ccode\u003e\u003ca\u003eunsafeCoerce\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Unsafe",
           "name": "unsafeCoercion",
           "package": "type-eq",
@@ -1511,6 +1638,7 @@
         "index": {
           "description": "Very unsafe The same rules apply as for unsafeCoerce",
           "hierarchy": "Type Eq Unsafe",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Unsafe",
           "name": "unsafeCoercion",
           "package": "type-eq",
@@ -1525,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery unsafe!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Unsafe",
           "name": "unsafeInnerEq",
           "package": "type-eq",
@@ -1535,6 +1664,7 @@
         "index": {
           "description": "Very unsafe",
           "hierarchy": "Type Eq Unsafe",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Unsafe",
           "name": "unsafeInnerEq",
           "package": "type-eq",
@@ -1549,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery unsafe!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq.Unsafe",
           "name": "unsafeOuterEq",
           "package": "type-eq",
@@ -1559,6 +1690,7 @@
         "index": {
           "description": "Very unsafe",
           "hierarchy": "Type Eq Unsafe",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq.Unsafe",
           "name": "unsafeOuterEq",
           "package": "type-eq",
@@ -1573,6 +1705,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and functions for storing and manipulating type equality evidence.\n\u003c/p\u003e\u003cp\u003eThis module is kind-polymorphic if \u003ccode\u003ePolyKinds\u003c/code\u003e are available (GHC 7.6+).\n\u003c/p\u003e\u003cp\u003eNotable functions missing from this module include \u003ccode\u003eapplyEq\u003c/code\u003e, \u003ccode\u003econstructorEq\u003c/code\u003e, and \u003ccode\u003esameOuterEq\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eType.Eq.Higher\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eType.Eq.Poly\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "Eq",
           "package": "type-eq",
@@ -1582,6 +1715,7 @@
         "index": {
           "description": "Types and functions for storing and manipulating type equality evidence This module is kind-polymorphic if PolyKinds are available GHC Notable functions missing from this module include applyEq constructorEq and sameOuterEq See also Type.Eq.Higher and Type.Eq.Poly",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "Eq",
           "package": "type-eq",
@@ -1596,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvidence that \u003ccode\u003ea\u003c/code\u003e is the same type as \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instances of \u003ccode\u003eMaybe\u003c/code\u003e\n   are very useful for working with values of type \u003ccode\u003eMaybe (a :~: b)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": ":~:",
           "package": "type-eq",
@@ -1605,6 +1740,7 @@
         "index": {
           "description": "Evidence that is the same type as The Functor Applicative and Monad instances of Maybe are very useful for working with values of type Maybe",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": ":~:",
           "package": "type-eq",
@@ -1618,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvidence that \u003ccode\u003ei\u003c/code\u003e is the argument type of the outermost type constructor of \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "InnerEq",
           "package": "type-eq",
@@ -1627,6 +1764,7 @@
         "index": {
           "description": "Evidence that is the argument type of the outermost type constructor of",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "InnerEq",
           "package": "type-eq",
@@ -1641,6 +1779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvidence that \u003ccode\u003ef\u003c/code\u003e is the outermost type constructor of \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "OuterEq",
           "package": "type-eq",
@@ -1650,6 +1789,7 @@
         "index": {
           "description": "Evidence that is the outermost type constructor of",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "OuterEq",
           "package": "type-eq",
@@ -1664,6 +1804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan be implemented by types storing evidence of type equalities, i.e. GADTs.\n\u003c/p\u003e\u003cp\u003eA return value of \u003ccode\u003eNothing\u003c/code\u003e can mean any of definite inequality, impossible arguments, or insufficient information.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003emaybeEq\u003c/code\u003e or \u003ccode\u003e(~~)\u003c/code\u003e, plus either:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003epiecewiseMaybeEq\u003c/code\u003e, or\n\u003c/li\u003e\u003cli\u003e both \u003ccode\u003emaybeOuterEq\u003c/code\u003e and \u003ccode\u003emaybeInnerEq\u003c/code\u003e. or\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e(\u003c~\u003e)\u003c/code\u003e, or\n\u003c/li\u003e\u003cli\u003e both \u003ccode\u003e(~\u003e)\u003c/code\u003e and \u003ccode\u003e(\u003c~)\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eDue to \u003ca\u003ehttp://hackage.haskell.org/trac/ghc/ticket/5591\u003c/a\u003e you may have to use \u003ccode\u003e\u003ca\u003eunsafeOuterEq\u003c/a\u003e\u003c/code\u003e and/or \u003ccode\u003e\u003ca\u003eunsafeInnerEq\u003c/a\u003e\u003c/code\u003e to define some of these.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "TypeCompare",
           "package": "type-eq",
@@ -1673,6 +1814,7 @@
         "index": {
           "description": "Can be implemented by types storing evidence of type equalities i.e GADTs return value of Nothing can mean any of definite inequality impossible arguments or insufficient information Minimal complete definition maybeEq or plus either piecewiseMaybeEq or both maybeOuterEq and maybeInnerEq or or both and Due to http hackage.haskell.org trac ghc ticket you may have to use unsafeOuterEq and or unsafeInnerEq to define some of these",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "TypeCompare",
           "package": "type-eq",
@@ -1687,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse equality evidence to cast between types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "(|\u003e)",
           "package": "type-eq",
@@ -1697,6 +1840,7 @@
         "index": {
           "description": "Use equality evidence to cast between types",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "(|\u003e) |\u003e",
           "normalized": "a-\u003e(a b)-\u003eb",
@@ -1711,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "Eq",
           "package": "type-eq",
@@ -1720,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "Eq",
           "package": "type-eq",
@@ -1733,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "InnerEq",
           "package": "type-eq",
@@ -1742,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "InnerEq",
           "package": "type-eq",
@@ -1755,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "OuterEq",
           "package": "type-eq",
@@ -1764,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "OuterEq",
           "package": "type-eq",
@@ -1778,6 +1928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType constructors are injective\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "argumentEq",
           "package": "type-eq",
@@ -1788,6 +1939,7 @@
         "index": {
           "description": "Type constructors are injective",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "argumentEq",
           "normalized": "(a b c d)-\u003eb d",
@@ -1803,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "assembleEq",
           "package": "type-eq",
@@ -1812,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "assembleEq",
           "normalized": "OuterEq a b-\u003eInnerEq c b-\u003ea c b",
@@ -1828,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse equality evidence to cast between types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "cast",
           "package": "type-eq",
@@ -1838,6 +1993,7 @@
         "index": {
           "description": "Use equality evidence to cast between types",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "cast",
           "normalized": "a-\u003e(a b)-\u003eb",
@@ -1853,6 +2009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransitivity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "composeEq",
           "package": "type-eq",
@@ -1863,6 +2020,7 @@
         "index": {
           "description": "Transitivity",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "composeEq",
           "normalized": "(a b)-\u003e(c a)-\u003ec b",
@@ -1878,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "dynamicEq",
           "package": "type-eq",
@@ -1887,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "dynamicEq",
           "package": "type-eq",
@@ -1901,6 +2061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "flipEq",
           "package": "type-eq",
@@ -1911,6 +2072,7 @@
         "index": {
           "description": "Symmetry",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "flipEq",
           "normalized": "(a b)-\u003eb a",
@@ -1927,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflexivity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "idEq",
           "package": "type-eq",
@@ -1937,6 +2100,7 @@
         "index": {
           "description": "Reflexivity",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "idEq",
           "package": "type-eq",
@@ -1950,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "innerEq",
           "package": "type-eq",
@@ -1959,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "innerEq",
           "normalized": "(a b c)-\u003eInnerEq b c",
@@ -1974,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "maybeEq",
           "package": "type-eq",
@@ -1983,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "maybeEq",
           "normalized": "a b-\u003ea c-\u003eMaybe(b c)",
@@ -1998,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "maybeInnerEq",
           "package": "type-eq",
@@ -2007,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "maybeInnerEq",
           "normalized": "a(b c)-\u003ea d-\u003eMaybe(InnerEq c d)",
@@ -2022,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "maybeOuterEq",
           "package": "type-eq",
@@ -2031,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "maybeOuterEq",
           "normalized": "a(b c)-\u003ea d-\u003eMaybe(OuterEq b d)",
@@ -2046,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "outerEq",
           "package": "type-eq",
@@ -2055,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "outerEq",
           "normalized": "(a b c)-\u003eOuterEq a c",
@@ -2071,6 +2245,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e uncurry (liftA2 assembleEq) (a \u003c~\u003e b) = a ~~ b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "piecewiseMaybeEq",
           "package": "type-eq",
@@ -2081,6 +2256,7 @@
         "index": {
           "description": "uncurry liftA2 assembleEq",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "piecewiseMaybeEq",
           "normalized": "a(b c)-\u003ea d-\u003e(Maybe(OuterEq b d),Maybe(InnerEq c d))",
@@ -2096,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "sameInnerEq",
           "package": "type-eq",
@@ -2105,6 +2282,7 @@
         },
         "index": {
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "sameInnerEq",
           "normalized": "InnerEq a b-\u003eInnerEq c b-\u003ea c",
@@ -2121,6 +2299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack equality evidence and use it.\n\u003c/p\u003e\u003cp\u003eThis function compiles with GHC 6.10, but doesn't work.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "withEq",
           "package": "type-eq",
@@ -2131,6 +2310,7 @@
         "index": {
           "description": "Unpack equality evidence and use it This function compiles with GHC but doesn work",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "withEq",
           "normalized": "a)-\u003e(b c)-\u003ea",
@@ -2147,6 +2327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack partial equality evidence and use it.\n\u003c/p\u003e\u003cp\u003eThis function compiles with GHC 6.10, but doesn't work.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "withInnerEq",
           "package": "type-eq",
@@ -2157,6 +2338,7 @@
         "index": {
           "description": "Unpack partial equality evidence and use it This function compiles with GHC but doesn work",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "withInnerEq",
           "normalized": "a)-\u003eInnerEq b c-\u003ea",
@@ -2173,6 +2355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack partial equality evidence and use it.\n\u003c/p\u003e\u003cp\u003eThis function compiles with GHC 6.10, but doesn't work.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:08 UTC 2014",
           "module": "Type.Eq",
           "name": "withOuterEq",
           "package": "type-eq",
@@ -2183,6 +2366,7 @@
         "index": {
           "description": "Unpack partial equality evidence and use it This function compiles with GHC but doesn work",
           "hierarchy": "Type Eq",
+          "indexed": "2014-03-11T20:27:08",
           "module": "Type.Eq",
           "name": "withOuterEq",
           "normalized": "a)-\u003eOuterEq b c-\u003ea",

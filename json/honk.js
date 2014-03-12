@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "honk"
+        "phrase": "honk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow level FFI interface. You should never need to use this directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Internal",
           "name": "Internal",
           "package": "honk",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Low level FFI interface You should never need to use this directly",
           "hierarchy": "Sound Honk Internal",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Internal",
           "name": "Internal",
           "package": "honk",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Internal",
           "name": "BeepFd",
           "package": "honk",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Sound Honk Internal",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Internal",
           "name": "BeepFd",
           "package": "honk",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Internal",
           "name": "BeepFd",
           "package": "honk",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Sound Honk Internal",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Internal",
           "name": "BeepFd",
           "package": "honk",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Internal",
           "name": "beepClose",
           "package": "honk",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Close the handle",
           "hierarchy": "Sound Honk Internal",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Internal",
           "name": "beepClose",
           "normalized": "BeepFd-\u003eIO()",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a beep.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Internal",
           "name": "beepDo",
           "package": "honk",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Perform beep",
           "hierarchy": "Sound Honk Internal",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Internal",
           "name": "beepDo",
           "normalized": "BeepFd-\u003eRational-\u003eDouble-\u003eIO()",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a handle to the console.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003ewithBeepFd\u003c/a\u003e\u003c/code\u003e instead if possible, since it keeps track of closing\n the handle automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Internal",
           "name": "beepOpen",
           "package": "honk",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Open handle to the console Use withBeepFd instead if possible since it keeps track of closing the handle automatically",
           "hierarchy": "Sound Honk Internal",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Internal",
           "name": "beepOpen",
           "package": "honk",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a function that uses a \u003ccode\u003e\u003ca\u003eBeepFd\u003c/a\u003e\u003c/code\u003e, opening and closing the\n handle automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Internal",
           "name": "withBeepFd",
           "package": "honk",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Run function that uses BeepFd opening and closing the handle automatically",
           "hierarchy": "Sound Honk Internal",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Internal",
           "name": "withBeepFd",
           "normalized": "(BeepFd-\u003eIO a)-\u003eIO a",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCore data types used by Honk.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Types",
           "name": "Types",
           "package": "honk",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Core data types used by Honk",
           "hierarchy": "Sound Honk Types",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Types",
           "name": "Types",
           "package": "honk",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a single note, with a duration in seconds and a\n frequency in hertz.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Types",
           "name": "Note",
           "package": "honk",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Represents single note with duration in seconds and frequency in hertz",
           "hierarchy": "Sound Honk Types",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Types",
           "name": "Note",
           "package": "honk",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Types",
           "name": "Note",
           "package": "honk",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Sound Honk Types",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Types",
           "name": "Note",
           "package": "honk",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Types",
           "name": "duration",
           "package": "honk",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Sound Honk Types",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Types",
           "name": "duration",
           "package": "honk",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Types",
           "name": "frequency",
           "package": "honk",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Sound Honk Types",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Types",
           "name": "frequency",
           "package": "honk",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRandom utility functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Util",
           "name": "Util",
           "package": "honk",
@@ -305,6 +330,7 @@
         "index": {
           "description": "Random utility functions",
           "hierarchy": "Sound Honk Util",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Util",
           "name": "Util",
           "package": "honk",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a frequency to a MIDI note value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Util",
           "name": "freqToMidi",
           "package": "honk",
@@ -329,6 +356,7 @@
         "index": {
           "description": "Convert frequency to MIDI note value",
           "hierarchy": "Sound Honk Util",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Util",
           "name": "freqToMidi",
           "normalized": "a-\u003ea",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat a sequence a specified number of times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Util",
           "name": "loop",
           "package": "honk",
@@ -355,6 +384,7 @@
         "index": {
           "description": "Repeat sequence specified number of times",
           "hierarchy": "Sound Honk Util",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Util",
           "name": "loop",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a MIDI note value to a frequency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk.Util",
           "name": "midiToFreq",
           "package": "honk",
@@ -380,6 +411,7 @@
         "index": {
           "description": "Convert MIDI note value to frequency",
           "hierarchy": "Sound Honk Util",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk.Util",
           "name": "midiToFreq",
           "normalized": "a-\u003ea",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCross-platform interface to the PC speaker.\n\u003c/p\u003e\u003cp\u003eHere's an example:\n\u003c/p\u003e\u003cpre\u003e simpleBeep = play [Note 1.0 440]\n\u003c/pre\u003e\u003cp\u003eFor more examples, see the readme.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk",
           "name": "Honk",
           "package": "honk",
@@ -405,6 +438,7 @@
         "index": {
           "description": "Cross-platform interface to the PC speaker Here an example simpleBeep play Note For more examples see the readme",
           "hierarchy": "Sound Honk",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk",
           "name": "Honk",
           "package": "honk",
@@ -419,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay multiple notes in order, one after the other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk",
           "name": "play",
           "package": "honk",
@@ -429,6 +464,7 @@
         "index": {
           "description": "Play multiple notes in order one after the other",
           "hierarchy": "Sound Honk",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk",
           "name": "play",
           "normalized": "[Note]-\u003eIO()",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay a single note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:25 UTC 2014",
           "module": "Sound.Honk",
           "name": "playOne",
           "package": "honk",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Play single note",
           "hierarchy": "Sound Honk",
+          "indexed": "2014-03-11T18:43:25",
           "module": "Sound.Honk",
           "name": "playOne",
           "normalized": "Note-\u003eIO()",

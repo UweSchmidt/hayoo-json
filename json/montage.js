@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "montage"
+        "phrase": "montage",
+        "type": "phrase"
       },
       "type": "context"
     }

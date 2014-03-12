@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cautious-file"
+        "phrase": "cautious-file",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIt is recommended to write\n\u003c/p\u003e\u003cp\u003eimport Prelude hiding (writeFile)\n\u003c/p\u003e\u003cp\u003ewhen importing this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.IO.Cautious",
           "name": "Cautious",
           "package": "cautious-file",
@@ -28,6 +29,7 @@
         "index": {
           "description": "It is recommended to write import Prelude hiding writeFile when importing this module",
           "hierarchy": "System IO Cautious",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.IO.Cautious",
           "name": "Cautious",
           "package": "cautious-file",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.IO.Cautious",
           "name": "writeFile",
           "package": "cautious-file",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "System IO Cautious",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.IO.Cautious",
           "name": "writeFile",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.IO.Cautious",
           "name": "writeFileL",
           "package": "cautious-file",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "System IO Cautious",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.IO.Cautious",
           "name": "writeFileL",
           "normalized": "FilePath-\u003eByteString-\u003eIO()",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacks up the old version of the file with \u003ca\u003ebackup\u003c/a\u003e. \u003ca\u003ebackup\u003c/a\u003e must not fail if there is no\n old version of the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.IO.Cautious",
           "name": "writeFileWithBackup",
           "package": "cautious-file",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Backs up the old version of the file with backup backup must not fail if there is no old version of the file",
           "hierarchy": "System IO Cautious",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.IO.Cautious",
           "name": "writeFileWithBackup",
           "normalized": "IO()-\u003eFilePath-\u003eString-\u003eIO()",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacks up the old version of the file with \u003ca\u003ebackup\u003c/a\u003e. \u003ca\u003ebackup\u003c/a\u003e must not fail if there is no\n old version of the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.IO.Cautious",
           "name": "writeFileWithBackupL",
           "package": "cautious-file",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Backs up the old version of the file with backup backup must not fail if there is no old version of the file",
           "hierarchy": "System IO Cautious",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.IO.Cautious",
           "name": "writeFileWithBackupL",
           "normalized": "IO()-\u003eFilePath-\u003eByteString-\u003eIO()",
@@ -141,6 +151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.Posix.ByteLevel",
           "name": "ByteLevel",
           "package": "cautious-file",
@@ -149,6 +160,7 @@
         },
         "index": {
           "hierarchy": "System Posix ByteLevel",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.Posix.ByteLevel",
           "name": "ByteLevel",
           "package": "cautious-file",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.Posix.ByteLevel",
           "name": "fdWrite",
           "package": "cautious-file",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "System Posix ByteLevel",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.Posix.ByteLevel",
           "name": "fdWrite",
           "normalized": "Fd-\u003eCStringLen-\u003eIO ByteCount",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.Posix.ByteLevel",
           "name": "fdWriteB",
           "package": "cautious-file",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "System Posix ByteLevel",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.Posix.ByteLevel",
           "name": "fdWriteB",
           "normalized": "Fd-\u003eByteString-\u003eIO Int",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the entire contents of the strict bytestring. Assumes blocking mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.Posix.ByteLevel",
           "name": "writeAllB",
           "package": "cautious-file",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Write the entire contents of the strict bytestring Assumes blocking mode",
           "hierarchy": "System Posix ByteLevel",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.Posix.ByteLevel",
           "name": "writeAllB",
           "normalized": "Fd-\u003eByteString-\u003eIO()",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the entire contents of the lazy bytestring. Assumes blocking mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.Posix.ByteLevel",
           "name": "writeAllL",
           "package": "cautious-file",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Write the entire contents of the lazy bytestring Assumes blocking mode",
           "hierarchy": "System Posix ByteLevel",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.Posix.ByteLevel",
           "name": "writeAllL",
           "normalized": "Fd-\u003eByteString-\u003eIO()",
@@ -262,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.Posix.Fsync",
           "name": "Fsync",
           "package": "cautious-file",
@@ -270,6 +291,7 @@
         },
         "index": {
           "hierarchy": "System Posix Fsync",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.Posix.Fsync",
           "name": "Fsync",
           "package": "cautious-file",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:36 UTC 2014",
           "module": "System.Posix.Fsync",
           "name": "fsync",
           "package": "cautious-file",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "System Posix Fsync",
+          "indexed": "2014-03-11T17:30:36",
           "module": "System.Posix.Fsync",
           "name": "fsync",
           "normalized": "Fd-\u003eIO()",

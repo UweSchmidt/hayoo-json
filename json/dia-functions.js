@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dia-functions"
+        "phrase": "dia-functions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.Colors",
           "name": "Colors",
           "package": "dia-functions",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams Colors",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.Colors",
           "name": "Colors",
           "package": "dia-functions",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSVG color codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.Colors",
           "name": "colorMap",
           "package": "dia-functions",
@@ -50,6 +53,7 @@
         "index": {
           "description": "SVG color codes",
           "hierarchy": "Graphics Diagrams Colors",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.Colors",
           "name": "colorMap",
           "normalized": "Map String(Double,Double,Double)",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.Colors",
           "name": "colors",
           "package": "dia-functions",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams Colors",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.Colors",
           "name": "colors",
           "normalized": "[String]",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.Colors",
           "name": "toRGB",
           "package": "dia-functions",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams Colors",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.Colors",
           "name": "toRGB",
           "normalized": "String-\u003eMaybe(Double,Double,Double)",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict evaluation of diagrams with time and size limit\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.Escape",
           "name": "Escape",
           "package": "dia-functions",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Strict evaluation of diagrams with time and size limit",
           "hierarchy": "Graphics Diagrams Escape",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.Escape",
           "name": "Escape",
           "package": "dia-functions",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict evaluation of diagrams with time and size limit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.Escape",
           "name": "escapeDiagram",
           "package": "dia-functions",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Strict evaluation of diagrams with time and size limit",
           "hierarchy": "Graphics Diagrams Escape",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.Escape",
           "name": "escapeDiagram",
           "normalized": "TimeLimit-\u003eSizeLimit-\u003eDiagram-\u003eIO Diagram",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError message extraction and numbering\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.Escape",
           "name": "numberErrors",
           "package": "dia-functions",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Error message extraction and numbering",
           "hierarchy": "Graphics Diagrams Escape",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.Escape",
           "name": "numberErrors",
           "normalized": "Diagram-\u003e(Diagram,[(String,String)])",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisplay function graphs and arcs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "FunctionGraphs",
           "package": "dia-functions",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Display function graphs and arcs",
           "hierarchy": "Graphics Diagrams FunctionGraphs",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "FunctionGraphs",
           "package": "dia-functions",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe coordinate system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "coords",
           "package": "dia-functions",
@@ -221,6 +238,7 @@
         "index": {
           "description": "The coordinate system",
           "hierarchy": "Graphics Diagrams FunctionGraphs",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "coords",
           "normalized": "Point-\u003ePoint-\u003eDiagram",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay an arc given by a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "displayArc",
           "package": "dia-functions",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Display an arc given by function",
           "hierarchy": "Graphics Diagrams FunctionGraphs",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "displayArc",
           "normalized": "Point-\u003ePoint-\u003e(Double,Double)-\u003e(a-\u003e(b,c))-\u003eDiagram",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a function defined on integer values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "displayDiscreteFun",
           "package": "dia-functions",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Display function defined on integer values",
           "hierarchy": "Graphics Diagrams FunctionGraphs",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "displayDiscreteFun",
           "normalized": "Point-\u003ePoint-\u003e(a-\u003eb)-\u003eDiagram",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a continuous function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "displayFun",
           "package": "dia-functions",
@@ -295,6 +318,7 @@
         "index": {
           "description": "Display continuous function",
           "hierarchy": "Graphics Diagrams FunctionGraphs",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "displayFun",
           "normalized": "Point-\u003ePoint-\u003e(a-\u003eb)-\u003eDiagram",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin points to form a continuous path with singularities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "joinPoints",
           "package": "dia-functions",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Join points to form continuous path with singularities",
           "hierarchy": "Graphics Diagrams FunctionGraphs",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "joinPoints",
           "normalized": "[Point]-\u003eDiagram",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw the given function graph with gray coordinate system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "withCoords",
           "package": "dia-functions",
@@ -347,6 +374,7 @@
         "index": {
           "description": "Draw the given function graph with gray coordinate system",
           "hierarchy": "Graphics Diagrams FunctionGraphs",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.FunctionGraphs",
           "name": "withCoords",
           "normalized": "Point-\u003ePoint-\u003eDiagram-\u003eDiagram",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiagrams SVG backend\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.SVG",
           "name": "SVG",
           "package": "dia-functions",
@@ -372,6 +401,7 @@
         "index": {
           "description": "Diagrams SVG backend",
           "hierarchy": "Graphics Diagrams SVG",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.SVG",
           "name": "SVG",
           "package": "dia-functions",
@@ -385,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:56 UTC 2014",
           "module": "Graphics.Diagrams.SVG",
           "name": "render",
           "package": "dia-functions",
@@ -393,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams SVG",
+          "indexed": "2014-03-11T17:53:56",
           "module": "Graphics.Diagrams.SVG",
           "name": "render",
           "normalized": "Double-\u003ePoint-\u003ePoint-\u003eTimeLimit-\u003eSizeLimit-\u003eString-\u003eDiagram-\u003eIO(Html,[(String,String)])",

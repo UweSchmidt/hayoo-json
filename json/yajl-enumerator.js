@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yajl-enumerator"
+        "phrase": "yajl-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "labyrinth-server"
+        "phrase": "labyrinth-server",
+        "type": "phrase"
       },
       "type": "context"
     }

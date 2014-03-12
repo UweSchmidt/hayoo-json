@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HsSVN"
+        "phrase": "HsSVN",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "machines"
+        "phrase": "machines",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvide a notion of fanout wherein a single input is passed to\n several consumers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Fanout",
           "name": "Fanout",
           "package": "machines",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provide notion of fanout wherein single input is passed to several consumers",
           "hierarchy": "Data Machine Fanout",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Fanout",
           "name": "Fanout",
           "package": "machines",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShare inputs with each of a list of processes in lockstep. Any\n values yielded by the processes are combined into a single yield\n from the composite process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Fanout",
           "name": "fanout",
           "package": "machines",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Share inputs with each of list of processes in lockstep Any values yielded by the processes are combined into single yield from the composite process",
           "hierarchy": "Data Machine Fanout",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Fanout",
           "name": "fanout",
           "normalized": "[ProcessT a b c]-\u003eProcessT a b c",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShare inputs with each of a list of processes in lockstep. If\n none of the processes yields a value, the composite process will\n itself yield \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e. The idea is to provide a handle on steps\n only executed for their side effects. For instance, if you want to\n run a collection of \u003ccode\u003e\u003ca\u003eProcessT\u003c/a\u003e\u003c/code\u003es that await but don't yield some\n number of times, you can use 'fanOutSteps . map (fmap (const ()))'\n followed by a \u003ccode\u003e\u003ca\u003etaking\u003c/a\u003e\u003c/code\u003e process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Fanout",
           "name": "fanoutSteps",
           "package": "machines",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Share inputs with each of list of processes in lockstep If none of the processes yields value the composite process will itself yield mempty The idea is to provide handle on steps only executed for their side effects For instance if you want to run collection of ProcessT that await but don yield some number of times you can use fanOutSteps map fmap const followed by taking process",
           "hierarchy": "Data Machine Fanout",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Fanout",
           "name": "fanoutSteps",
           "normalized": "[ProcessT a b c]-\u003eProcessT a b c",
@@ -92,6 +98,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Is",
           "name": "Is",
           "package": "machines",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Is",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Is",
           "name": "Is",
           "package": "machines",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWitnessed type equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Is",
           "name": "Is",
           "package": "machines",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Witnessed type equality",
           "hierarchy": "Data Machine Is",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Is",
           "name": "Is",
           "package": "machines",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Is",
           "name": "Refl",
           "package": "machines",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Is",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Is",
           "name": "Refl",
           "package": "machines",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://en.wikipedia.org/wiki/Mealy_machine\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Mealy",
           "name": "Mealy",
           "package": "machines",
@@ -168,6 +181,7 @@
         "index": {
           "description": "http en.wikipedia.org wiki Mealy machine",
           "hierarchy": "Data Machine Mealy",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Mealy",
           "name": "Mealy",
           "package": "machines",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMealy\u003c/a\u003e\u003c/code\u003e machines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Mealy",
           "name": "Mealy",
           "package": "machines",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Mealy machines",
           "hierarchy": "Data Machine Mealy",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Mealy",
           "name": "Mealy",
           "package": "machines",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Mealy",
           "name": "Mealy",
           "package": "machines",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Mealy",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Mealy",
           "name": "Mealy",
           "package": "machines",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulate history.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Mealy",
           "name": "logMealy",
           "package": "machines",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Accumulate history",
           "hierarchy": "Data Machine Mealy",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Mealy",
           "name": "logMealy",
           "package": "machines",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Mealy",
           "name": "runMealy",
           "package": "machines",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Mealy",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Mealy",
           "name": "runMealy",
           "normalized": "a-\u003e(b,Mealy a b)",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMealy\u003c/a\u003e\u003c/code\u003e machine modeled with explicit state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Mealy",
           "name": "unfoldMealy",
           "package": "machines",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Mealy machine modeled with explicit state",
           "hierarchy": "Data Machine Mealy",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Mealy",
           "name": "unfoldMealy",
           "normalized": "(a-\u003eb-\u003e(c,a))-\u003ea-\u003eMealy b c",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://en.wikipedia.org/wiki/Moore_machine\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Moore",
           "name": "Moore",
           "package": "machines",
@@ -310,6 +335,7 @@
         "index": {
           "description": "http en.wikipedia.org wiki Moore machine",
           "hierarchy": "Data Machine Moore",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Moore",
           "name": "Moore",
           "package": "machines",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMoore\u003c/a\u003e\u003c/code\u003e machines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Moore",
           "name": "Moore",
           "package": "machines",
@@ -333,6 +360,7 @@
         "index": {
           "description": "Moore machines",
           "hierarchy": "Data Machine Moore",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Moore",
           "name": "Moore",
           "package": "machines",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Moore",
           "name": "Moore",
           "package": "machines",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Moore",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Moore",
           "name": "Moore",
           "normalized": "Moore a(b-\u003eMoore b a)",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulate the input as a sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Moore",
           "name": "logMoore",
           "package": "machines",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Accumulate the input as sequence",
           "hierarchy": "Data Machine Moore",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Moore",
           "name": "logMoore",
           "package": "machines",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a Moore machine from a state valuation and transition function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Moore",
           "name": "unfoldMoore",
           "package": "machines",
@@ -405,6 +438,7 @@
         "index": {
           "description": "Construct Moore machine from state valuation and transition function",
           "hierarchy": "Data Machine Moore",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Moore",
           "name": "unfoldMoore",
           "normalized": "(a-\u003e(b,c-\u003ea))-\u003ea-\u003eMoore c b",
@@ -420,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Plan",
           "name": "Plan",
           "package": "machines",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Plan",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Plan",
           "name": "Plan",
           "package": "machines",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003e k o a\u003c/code\u003e is a specification for a pure \u003ccode\u003eMachine\u003c/code\u003e, that reads inputs selected by \u003ccode\u003ek\u003c/code\u003e\n with types based on \u003ccode\u003ei\u003c/code\u003e, writes values of type \u003ccode\u003eo\u003c/code\u003e, and has intermediate results of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePlanT\u003c/a\u003e\u003c/code\u003e k o a\u003c/code\u003e can be used as a \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePlanT\u003c/a\u003e\u003c/code\u003e k o m a\u003c/code\u003e for any \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt is perhaps easier to think of \u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003e in its un-cps'ed form, which would\n look like:\n\u003c/p\u003e\u003cpre\u003e\n data \u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003e k o a\n   = Done a\n   | Yield o (Plan k o a)\n   | forall z. Await (z -\u003e Plan k o a) (k z) (Plan k o a)\n   | Fail\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Plan",
           "name": "Plan",
           "package": "machines",
@@ -451,6 +488,7 @@
         "index": {
           "description": "Plan is specification for pure Machine that reads inputs selected by with types based on writes values of type and has intermediate results of type PlanT can be used as PlanT for any Monad It is perhaps easier to think of Plan in its un-cps ed form which would look like data Plan Done Yield Plan forall Await Plan Plan Fail",
           "hierarchy": "Data Machine Plan",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Plan",
           "name": "Plan",
           "package": "machines",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can \u003ccode\u003econstruct\u003c/code\u003e a \u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003e (or \u003ccode\u003e\u003ca\u003ePlanT\u003c/a\u003e\u003c/code\u003e), turning it into a\n \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e (or \u003ccode\u003e\u003ca\u003eMachineT\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Plan",
           "name": "PlanT",
           "package": "machines",
@@ -474,6 +513,7 @@
         "index": {
           "description": "You can construct Plan or PlanT turning it into Machine or MachineT",
           "hierarchy": "Data Machine Plan",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Plan",
           "name": "PlanT",
           "package": "machines",
@@ -487,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Plan",
           "name": "PlanT",
           "package": "machines",
@@ -496,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Plan",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Plan",
           "name": "PlanT",
           "package": "machines",
@@ -510,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for input.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eawait\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eawaits\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Plan",
           "name": "await",
           "package": "machines",
@@ -520,6 +563,7 @@
         "index": {
           "description": "Wait for input await awaits id",
           "hierarchy": "Data Machine Plan",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Plan",
           "name": "await",
           "package": "machines",
@@ -533,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for a particular input.\n\u003c/p\u003e\u003cpre\u003e\n awaits \u003ccode\u003eL\u003c/code\u003e  :: \u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003eT\u003c/code\u003e a b) o a\n awaits \u003ccode\u003eR\u003c/code\u003e  :: \u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003eT\u003c/code\u003e a b) o b\n awaits \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eIs\u003c/a\u003e\u003c/code\u003e i) o i\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Plan",
           "name": "awaits",
           "package": "machines",
@@ -543,6 +588,7 @@
         "index": {
           "description": "Wait for particular input awaits Plan awaits Plan awaits id Plan Is",
           "hierarchy": "Data Machine Plan",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Plan",
           "name": "awaits",
           "normalized": "a b-\u003ePlan a c b",
@@ -558,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstruct a \u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003e without reference to a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Plan",
           "name": "runPlan",
           "package": "machines",
@@ -568,6 +615,7 @@
         "index": {
           "description": "Deconstruct Plan without reference to Monad",
           "hierarchy": "Data Machine Plan",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Plan",
           "name": "runPlan",
           "normalized": "PlanT a b Identity c-\u003e(c-\u003ed)-\u003e(b-\u003ed-\u003ed)-\u003e(e f(g-\u003ed)-\u003ea g-\u003ed-\u003ed)-\u003ed-\u003ed",
@@ -583,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Plan",
           "name": "runPlanT",
           "package": "machines",
@@ -592,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Plan",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Plan",
           "name": "runPlanT",
           "normalized": "a b(c-\u003ed e)-\u003e(f-\u003ed e-\u003ed e)-\u003e(a g(h-\u003ed e)-\u003ei h-\u003ed e-\u003ed e)-\u003ed e-\u003ed e",
@@ -608,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003estop\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Plan",
           "name": "stop",
           "package": "machines",
@@ -618,6 +669,7 @@
         "index": {
           "description": "stop empty",
           "hierarchy": "Data Machine Plan",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Plan",
           "name": "stop",
           "package": "machines",
@@ -631,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Plan",
           "name": "yield",
           "package": "machines",
@@ -641,6 +694,7 @@
         "index": {
           "description": "Output result",
           "hierarchy": "Data Machine Plan",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Plan",
           "name": "yield",
           "normalized": "a-\u003ePlan b a()",
@@ -655,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "Process",
           "package": "machines",
@@ -663,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "Process",
           "package": "machines",
@@ -677,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eAutomaton\u003c/a\u003e\u003c/code\u003e is can be automatically lifted into a \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "Automaton",
           "package": "machines",
@@ -686,6 +743,7 @@
         "index": {
           "description": "An Automaton is can be automatically lifted into Process",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "Automaton",
           "package": "machines",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e a b\u003c/code\u003e is a stream transducer that can consume values of type \u003ccode\u003ea\u003c/code\u003e\n from its input, and produce values of type \u003ccode\u003eb\u003c/code\u003e for its output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "Process",
           "package": "machines",
@@ -709,6 +768,7 @@
         "index": {
           "description": "Process is stream transducer that can consume values of type from its input and produce values of type for its output",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "Process",
           "package": "machines",
@@ -723,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ccode\u003e\u003ca\u003eProcessT\u003c/a\u003e\u003c/code\u003e m a b\u003c/code\u003e is a stream transducer that can consume values of type \u003ccode\u003ea\u003c/code\u003e\n from its input, and produce values of type \u003ccode\u003eb\u003c/code\u003e and has side-effects in the\n \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "ProcessT",
           "package": "machines",
@@ -732,6 +793,7 @@
         "index": {
           "description": "ProcessT is stream transducer that can consume values of type from its input and produce values of type and has side-effects in the Monad",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "ProcessT",
           "package": "machines",
@@ -746,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlipped (\u003ccode\u003e\u003ca\u003e\u003c~\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "(~\u003e)",
           "package": "machines",
@@ -756,6 +819,7 @@
         "index": {
           "description": "Flipped",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "(~\u003e) ~\u003e",
           "normalized": "MachineT a b c-\u003eProcessT a c d-\u003eMachineT a b d",
@@ -771,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a new \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e by adding a \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e to the output of an old \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n (\u003ccode\u003e\u003ca\u003e\u003c~\u003c/a\u003e\u003c/code\u003e) :: \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e b c -\u003e \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e a b -\u003e \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e a c\n (\u003ccode\u003e\u003ca\u003e\u003c~\u003c/a\u003e\u003c/code\u003e) :: \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e c d -\u003e \u003ccode\u003e\u003ca\u003eTee\u003c/a\u003e\u003c/code\u003e a b c -\u003e \u003ccode\u003e\u003ca\u003eTee\u003c/a\u003e\u003c/code\u003e a b d\n (\u003ccode\u003e\u003ca\u003e\u003c~\u003c/a\u003e\u003c/code\u003e) :: \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e b c -\u003e \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e k b -\u003e \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e k c\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "(\u003c~)",
           "package": "machines",
@@ -781,6 +846,7 @@
         "index": {
           "description": "Build new Machine by adding Process to the output of an old Machine Process Process Process Process Tee Tee Process Machine Machine",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "(\u003c~) \u003c~",
           "normalized": "ProcessT a b c-\u003eMachineT a d b-\u003eMachineT a d c",
@@ -796,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak each input into pieces that are fed downstream\n individually.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "asParts",
           "package": "machines",
@@ -806,6 +873,7 @@
         "index": {
           "description": "Break each input into pieces that are fed downstream individually",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "asParts",
           "package": "machines",
@@ -819,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "auto",
           "package": "machines",
@@ -828,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "auto",
           "normalized": "a b c-\u003eProcess b c",
@@ -843,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic function to each element of a \u003ccode\u003e\u003ca\u003eProcessT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "autoM",
           "package": "machines",
@@ -853,6 +924,7 @@
         "index": {
           "description": "Apply monadic function to each element of ProcessT",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "autoM",
           "normalized": "(a-\u003eb c)-\u003eProcessT b a c",
@@ -868,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChunk up the input into \u003ccode\u003en\u003c/code\u003e element lists.\n\u003c/p\u003e\u003cp\u003eAvoids returning empty lists and deals with the truncation of the last group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "buffered",
           "package": "machines",
@@ -878,6 +951,7 @@
         "index": {
           "description": "Chunk up the input into element lists Avoids returning empty lists and deals with the truncation of the last group",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "buffered",
           "normalized": "Int-\u003eProcess a[a]",
@@ -893,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e that drops the first \u003ccode\u003en\u003c/code\u003e, then repeats the rest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "dropping",
           "package": "machines",
@@ -903,6 +978,7 @@
         "index": {
           "description": "Process that drops the first then repeats the rest",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "dropping",
           "normalized": "Int-\u003eProcess a a",
@@ -918,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e that drops elements while a predicate holds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "droppingWhile",
           "package": "machines",
@@ -928,6 +1005,7 @@
         "index": {
           "description": "Process that drops elements while predicate holds",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "droppingWhile",
           "normalized": "(a-\u003eBool)-\u003eProcess a a",
@@ -944,6 +1022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe trivial \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e that simply repeats each input it receives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "echo",
           "package": "machines",
@@ -954,6 +1033,7 @@
         "index": {
           "description": "The trivial Process that simply repeats each input it receives",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "echo",
           "package": "machines",
@@ -967,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e that only passes through inputs that match a predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "filtered",
           "package": "machines",
@@ -977,6 +1058,7 @@
         "index": {
           "description": "Process that only passes through inputs that match predicate",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "filtered",
           "normalized": "(a-\u003eBool)-\u003eProcess a a",
@@ -992,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e from a left-folding operation.\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003e\u003ca\u003escan\u003c/a\u003e\u003c/code\u003e, but only yielding the final value.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e :: (a -\u003e b -\u003e a) -\u003e a -\u003e Process b a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "fold",
           "package": "machines",
@@ -1002,6 +1085,7 @@
         "index": {
           "description": "Construct Process from left-folding operation Like scan but only yielding the final value fold Process",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "fold",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eMachine(c b)a",
@@ -1017,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e that prepends the elements of a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e onto its input, then repeats its input from there.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "prepended",
           "package": "machines",
@@ -1027,6 +1112,7 @@
         "index": {
           "description": "Process that prepends the elements of Foldable onto its input then repeats its input from there",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "prepended",
           "normalized": "a b-\u003eProcess b b",
@@ -1042,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a machine into a process, with a little bit of help.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003eprocess\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eL\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e a c -\u003e \u003ccode\u003e\u003ca\u003eTee\u003c/a\u003e\u003c/code\u003e a b c\n \u003ccode\u003e\u003ca\u003eprocess\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e b c -\u003e \u003ccode\u003e\u003ca\u003eTee\u003c/a\u003e\u003c/code\u003e a b c\n \u003ccode\u003e\u003ca\u003eprocess\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e a b -\u003e \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e a b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "process",
           "package": "machines",
@@ -1052,6 +1139,7 @@
         "index": {
           "description": "Convert machine into process with little bit of help process Process Tee process Process Tee process id Process Process",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "process",
           "normalized": "(a b c d-\u003ee-\u003ed)-\u003eMachineT f c g-\u003eProcessT f e g",
@@ -1067,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e from a left-scanning operation.\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e, but yielding intermediate values.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003escan\u003c/a\u003e\u003c/code\u003e :: (a -\u003e b -\u003e a) -\u003e a -\u003e Process b a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "scan",
           "package": "machines",
@@ -1077,6 +1166,7 @@
         "index": {
           "description": "Construct Process from left-scanning operation Like fold but yielding intermediate values scan Process",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "scan",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eMachine(c b)a",
@@ -1092,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esinkPart_ toParts sink\u003c/code\u003e creates a process that uses the\n \u003ccode\u003etoParts\u003c/code\u003e function to break input into a tuple of \u003ccode\u003e(passAlong,\n sinkPart)\u003c/code\u003e for which the second projection is given to the supplied\n \u003ccode\u003esink\u003c/code\u003e \u003ccode\u003e\u003ca\u003eProcessT\u003c/a\u003e\u003c/code\u003e (that produces no output) while the first\n projection is passed down the pipeline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "sinkPart_",
           "package": "machines",
@@ -1102,6 +1193,7 @@
         "index": {
           "description": "sinkPart toParts sink creates process that uses the toParts function to break input into tuple of passAlong sinkPart for which the second projection is given to the supplied sink ProcessT that produces no output while the first projection is passed down the pipeline",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "sinkPart_",
           "normalized": "(a-\u003e(b,c))-\u003eProcessT d c Void-\u003eProcessT d a b",
@@ -1118,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e some input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "supply",
           "package": "machines",
@@ -1128,6 +1221,7 @@
         "index": {
           "description": "Feed Process some input",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "supply",
           "normalized": "[a]-\u003eProcessT b a c-\u003eProcessT b a c",
@@ -1143,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e that passes through the first \u003ccode\u003en\u003c/code\u003e elements from its input then stops\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "taking",
           "package": "machines",
@@ -1153,6 +1248,7 @@
         "index": {
           "description": "Process that passes through the first elements from its input then stops",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "taking",
           "normalized": "Int-\u003eProcess a a",
@@ -1168,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e that passes through elements until a predicate ceases to hold, then stops\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Process",
           "name": "takingWhile",
           "package": "machines",
@@ -1178,6 +1275,7 @@
         "index": {
           "description": "Process that passes through elements until predicate ceases to hold then stops",
           "hierarchy": "Data Machine Process",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Process",
           "name": "takingWhile",
           "normalized": "(a-\u003eBool)-\u003eProcess a a",
@@ -1193,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Source",
           "name": "Source",
           "package": "machines",
@@ -1201,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Source",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Source",
           "name": "Source",
           "package": "machines",
@@ -1215,6 +1315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e never reads from its inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Source",
           "name": "Source",
           "package": "machines",
@@ -1224,6 +1325,7 @@
         "index": {
           "description": "Source never reads from its inputs",
           "hierarchy": "Data Machine Source",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Source",
           "name": "Source",
           "package": "machines",
@@ -1238,6 +1340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSourceT\u003c/a\u003e\u003c/code\u003e never reads from its inputs, but may have monadic side-effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Source",
           "name": "SourceT",
           "package": "machines",
@@ -1247,6 +1350,7 @@
         "index": {
           "description": "SourceT never reads from its inputs but may have monadic side-effects",
           "hierarchy": "Data Machine Source",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Source",
           "name": "SourceT",
           "package": "machines",
@@ -1261,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can transform a \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAlternately you can view this as capping the \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e end of a \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e,\n yielding a new \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003ecap\u003c/a\u003e\u003c/code\u003e l r = l \u003ccode\u003e\u003ca\u003e\u003c~\u003c/a\u003e\u003c/code\u003e r\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Source",
           "name": "cap",
           "package": "machines",
@@ -1271,6 +1376,7 @@
         "index": {
           "description": "You can transform Source with Process Alternately you can view this as capping the Source end of Process yielding new Source cap",
           "hierarchy": "Data Machine Source",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Source",
           "name": "cap",
           "normalized": "Process a b-\u003eSource a-\u003eSource b",
@@ -1286,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop through a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e container over and over.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Source",
           "name": "cycled",
           "package": "machines",
@@ -1296,6 +1403,7 @@
         "index": {
           "description": "Loop through Foldable container over and over",
           "hierarchy": "Data Machine Source",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Source",
           "name": "cycled",
           "normalized": "a b-\u003eSource b",
@@ -1311,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat the same value, over and over.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Source",
           "name": "repeated",
           "package": "machines",
@@ -1321,6 +1430,7 @@
         "index": {
           "description": "Repeat the same value over and over",
           "hierarchy": "Data Machine Source",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Source",
           "name": "repeated",
           "normalized": "a-\u003eSource a",
@@ -1336,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e from any \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e container.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Source",
           "name": "source",
           "package": "machines",
@@ -1346,6 +1457,7 @@
         "index": {
           "description": "Generate Source from any Foldable container",
           "hierarchy": "Data Machine Source",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Source",
           "name": "source",
           "normalized": "a b-\u003eSource b",
@@ -1360,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Tee",
           "name": "Tee",
           "package": "machines",
@@ -1368,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Tee",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Tee",
           "name": "Tee",
           "package": "machines",
@@ -1382,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe input descriptor for a \u003ccode\u003e\u003ca\u003eTee\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eTeeT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Tee",
           "name": "T",
           "package": "machines",
@@ -1391,6 +1506,7 @@
         "index": {
           "description": "The input descriptor for Tee or TeeT",
           "hierarchy": "Data Machine Tee",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Tee",
           "name": "T",
           "package": "machines",
@@ -1404,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e that can read from two input stream in a deterministic manner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Tee",
           "name": "Tee",
           "package": "machines",
@@ -1413,6 +1530,7 @@
         "index": {
           "description": "Machine that can read from two input stream in deterministic manner",
           "hierarchy": "Data Machine Tee",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Tee",
           "name": "Tee",
           "package": "machines",
@@ -1427,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e that can read from two input stream in a deterministic manner with monadic side-effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Tee",
           "name": "TeeT",
           "package": "machines",
@@ -1436,6 +1555,7 @@
         "index": {
           "description": "Machine that can read from two input stream in deterministic manner with monadic side-effects",
           "hierarchy": "Data Machine Tee",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Tee",
           "name": "TeeT",
           "package": "machines",
@@ -1449,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Tee",
           "name": "L",
           "package": "machines",
@@ -1458,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Tee",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Tee",
           "name": "L",
           "package": "machines",
@@ -1470,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Tee",
           "name": "R",
           "package": "machines",
@@ -1479,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Tee",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Tee",
           "name": "R",
           "package": "machines",
@@ -1492,6 +1616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecompose a pipe onto the left input of a tee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Tee",
           "name": "addL",
           "package": "machines",
@@ -1502,6 +1627,7 @@
         "index": {
           "description": "Precompose pipe onto the left input of tee",
           "hierarchy": "Data Machine Tee",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Tee",
           "name": "addL",
           "normalized": "ProcessT a b c-\u003eTeeT a c d e-\u003eTeeT a b d e",
@@ -1517,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecompose a pipe onto the right input of a tee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Tee",
           "name": "addR",
           "package": "machines",
@@ -1527,6 +1654,7 @@
         "index": {
           "description": "Precompose pipe onto the right input of tee",
           "hierarchy": "Data Machine Tee",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Tee",
           "name": "addR",
           "normalized": "ProcessT a b c-\u003eTeeT a d c e-\u003eTeeT a d b e",
@@ -1542,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTie off one input of a tee by connecting it to a known source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Tee",
           "name": "capL",
           "package": "machines",
@@ -1552,6 +1681,7 @@
         "index": {
           "description": "Tie off one input of tee by connecting it to known source",
           "hierarchy": "Data Machine Tee",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Tee",
           "name": "capL",
           "normalized": "SourceT a b-\u003eTeeT a b c d-\u003eProcessT a c d",
@@ -1567,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTie off one input of a tee by connecting it to a known source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Tee",
           "name": "capR",
           "package": "machines",
@@ -1577,6 +1708,7 @@
         "index": {
           "description": "Tie off one input of tee by connecting it to known source",
           "hierarchy": "Data Machine Tee",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Tee",
           "name": "capR",
           "normalized": "SourceT a b-\u003eTeeT a c b d-\u003eProcessT a c d",
@@ -1592,6 +1724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a pair of pipes onto the front of a Tee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Tee",
           "name": "tee",
           "package": "machines",
@@ -1602,6 +1735,7 @@
         "index": {
           "description": "Compose pair of pipes onto the front of Tee",
           "hierarchy": "Data Machine Tee",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Tee",
           "name": "tee",
           "normalized": "ProcessT a b c-\u003eProcessT a d e-\u003eTeeT a c e f-\u003eTeeT a b d f",
@@ -1616,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "Type",
           "package": "machines",
@@ -1624,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "Type",
           "package": "machines",
@@ -1638,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn input type that supports merging requests from multiple machines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "Appliance",
           "package": "machines",
@@ -1647,6 +1784,7 @@
         "index": {
           "description": "An input type that supports merging requests from multiple machines",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "Appliance",
           "package": "machines",
@@ -1661,6 +1799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e reads from a number of inputs and may yield results before stopping.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e can be used as a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMachineT\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e for any \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "Machine",
           "package": "machines",
@@ -1670,6 +1809,7 @@
         "index": {
           "description": "Machine reads from number of inputs and may yield results before stopping Machine can be used as MachineT for any Monad",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "Machine",
           "package": "machines",
@@ -1684,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMachineT\u003c/a\u003e\u003c/code\u003e reads from a number of inputs and may yield results before stopping\n with monadic side-effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "MachineT",
           "package": "machines",
@@ -1693,6 +1834,7 @@
         "index": {
           "description": "MachineT reads from number of inputs and may yield results before stopping with monadic side-effects",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "MachineT",
           "package": "machines",
@@ -1707,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the base functor for a \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMachineT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: A \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e is usually constructed from \u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003e, so it does not need to be CPS'd.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "Step",
           "package": "machines",
@@ -1716,6 +1859,7 @@
         "index": {
           "description": "This is the base functor for Machine or MachineT Note Machine is usually constructed from Plan so it does not need to be CPS",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "Step",
           "package": "machines",
@@ -1729,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "Await",
           "package": "machines",
@@ -1738,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "Await",
           "normalized": "a b Await(b-\u003ec)(d b)c",
@@ -1753,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "MachineT",
           "package": "machines",
@@ -1762,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "MachineT",
           "package": "machines",
@@ -1775,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "Stop",
           "package": "machines",
@@ -1784,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "Stop",
           "package": "machines",
@@ -1797,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "Yield",
           "package": "machines",
@@ -1806,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "Yield",
           "package": "machines",
@@ -1819,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "applied",
           "package": "machines",
@@ -1828,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "applied",
           "normalized": "MachineT a b(c-\u003ed)-\u003eMachineT a b c-\u003eMachineT a b d",
@@ -1843,6 +1997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a machine until it stops, and then yield answers according to the supplied model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "before",
           "package": "machines",
@@ -1853,6 +2008,7 @@
         "index": {
           "description": "Evaluate machine until it stops and then yield answers according to the supplied model",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "before",
           "normalized": "MachineT a b c-\u003ePlanT b c a d-\u003eMachineT a b c",
@@ -1868,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a machine to a model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "construct",
           "package": "machines",
@@ -1878,6 +2035,7 @@
         "index": {
           "description": "Compile machine to model",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "construct",
           "normalized": "PlanT a b c d-\u003eMachineT c a b",
@@ -1892,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "deconstruct",
           "package": "machines",
@@ -1901,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "deconstruct",
           "normalized": "MachineT a b(Either c d)-\u003ePlanT b d a c",
@@ -1916,6 +2076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack a \u003ccode\u003e\u003ca\u003eStep\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "encased",
           "package": "machines",
@@ -1926,6 +2087,7 @@
         "index": {
           "description": "Pack Step of Machine into Machine",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "encased",
           "normalized": "Step a b(MachineT c a b)-\u003eMachineT c a b",
@@ -1941,6 +2103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a function to produce and mark a yielded value as the\n terminal value of a \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e. All yielded values for which the\n given function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e are yielded down the pipeline, but\n the first value for which the function returns a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e value will\n be returned by a \u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003e created via \u003ccode\u003e\u003ca\u003edeconstruct\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "finishWith",
           "package": "machines",
@@ -1951,6 +2114,7 @@
         "index": {
           "description": "Use function to produce and mark yielded value as the terminal value of Machine All yielded values for which the given function returns Nothing are yielded down the pipeline but the first value for which the function returns Just value will be returned by Plan created via deconstruct",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "finishWith",
           "normalized": "(a-\u003eMaybe b)-\u003eMachineT c d a-\u003eMachineT c d(Either b a)",
@@ -1967,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect different kinds of machines.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efit\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "fit",
           "package": "machines",
@@ -1977,6 +2142,7 @@
         "index": {
           "description": "Connect different kinds of machines fit id id",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "fit",
           "normalized": "(a b c d-\u003ee d)-\u003eMachineT f c g-\u003eMachineT f e g",
@@ -1991,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "fitM",
           "package": "machines",
@@ -2000,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "fitM",
           "normalized": "(a b c d-\u003ee d)-\u003eMachineT c f g-\u003eMachineT e f g",
@@ -2015,6 +2183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a handle, ignore all other inputs and just stream input from that handle.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003epass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e a a\n \u003ccode\u003e\u003ca\u003epass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eL\u003c/a\u003e\u003c/code\u003e  :: \u003ccode\u003e\u003ca\u003eTee\u003c/a\u003e\u003c/code\u003e a b a\n \u003ccode\u003e\u003ca\u003epass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e  :: \u003ccode\u003e\u003ca\u003eTee\u003c/a\u003e\u003c/code\u003e a b b\n \u003ccode\u003e\u003ca\u003epass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eX\u003c/a\u003e\u003c/code\u003e  :: \u003ccode\u003e\u003ca\u003eWye\u003c/a\u003e\u003c/code\u003e a b a\n \u003ccode\u003e\u003ca\u003epass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eY\u003c/a\u003e\u003c/code\u003e  :: \u003ccode\u003e\u003ca\u003eWye\u003c/a\u003e\u003c/code\u003e a b b\n \u003ccode\u003e\u003ca\u003epass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eZ\u003c/a\u003e\u003c/code\u003e  :: \u003ccode\u003e\u003ca\u003eWye\u003c/a\u003e\u003c/code\u003e a b (Either a b)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "pass",
           "package": "machines",
@@ -2025,6 +2194,7 @@
         "index": {
           "description": "Given handle ignore all other inputs and just stream input from that handle pass id Process pass Tee pass Tee pass Wye pass Wye pass Wye Either",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "pass",
           "normalized": "a b-\u003eMachine a b",
@@ -2040,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a model that runs a machine until it stops, then start it up again.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erepeatedly\u003c/a\u003e\u003c/code\u003e m = \u003ccode\u003e\u003ca\u003econstruct\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eforever\u003c/a\u003e\u003c/code\u003e m)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "repeatedly",
           "package": "machines",
@@ -2050,6 +2221,7 @@
         "index": {
           "description": "Generates model that runs machine until it stops then start it up again repeatedly construct forever",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "repeatedly",
           "normalized": "PlanT a b c d-\u003eMachineT c a b",
@@ -2065,6 +2237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a pure machine and extract an answer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "run",
           "package": "machines",
@@ -2075,6 +2248,7 @@
         "index": {
           "description": "Run pure machine and extract an answer",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "run",
           "normalized": "MachineT Identity a b-\u003e[b]",
@@ -2090,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunMachine\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003erunIdentity\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003erunMachineT\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "runMachine",
           "package": "machines",
@@ -2100,6 +2275,7 @@
         "index": {
           "description": "runMachine runIdentity runMachineT",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "runMachine",
           "normalized": "MachineT Identity a b-\u003eStep a b(MachineT Identity a b)",
@@ -2115,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "runMachineT",
           "package": "machines",
@@ -2124,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "runMachineT",
           "package": "machines",
@@ -2138,6 +2316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop feeding input into model and extract an answer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "runT",
           "package": "machines",
@@ -2148,6 +2327,7 @@
         "index": {
           "description": "Stop feeding input into model and extract an answer",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "runT",
           "normalized": "MachineT a b c-\u003ea[c]",
@@ -2163,6 +2343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop feeding input into model, taking only the effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "runT_",
           "package": "machines",
@@ -2173,6 +2354,7 @@
         "index": {
           "description": "Stop feeding input into model taking only the effects",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "runT_",
           "normalized": "MachineT a b c-\u003ea()",
@@ -2188,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a stopped \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "stopped",
           "package": "machines",
@@ -2198,6 +2381,7 @@
         "index": {
           "description": "This is stopped Machine",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "stopped",
           "package": "machines",
@@ -2211,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a predicate to mark a yielded value as the terminal value of\n this \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e. This is useful in combination with \u003ccode\u003e\u003ca\u003edeconstruct\u003c/a\u003e\u003c/code\u003e to\n combine \u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Type",
           "name": "tagDone",
           "package": "machines",
@@ -2221,6 +2406,7 @@
         "index": {
           "description": "Use predicate to mark yielded value as the terminal value of this Machine This is useful in combination with deconstruct to combine Plan",
           "hierarchy": "Data Machine Type",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Type",
           "name": "tagDone",
           "normalized": "(a-\u003eBool)-\u003eMachineT b c a-\u003eMachineT b c(Either a a)",
@@ -2236,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Unread",
           "name": "Unread",
           "package": "machines",
@@ -2244,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Unread",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Unread",
           "name": "Unread",
           "package": "machines",
@@ -2258,6 +2446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a simple process type that knows how to push back input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Unread",
           "name": "Unread",
           "package": "machines",
@@ -2267,6 +2456,7 @@
         "index": {
           "description": "This is simple process type that knows how to push back input",
           "hierarchy": "Data Machine Unread",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Unread",
           "name": "Unread",
           "package": "machines",
@@ -2280,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Unread",
           "name": "Read",
           "package": "machines",
@@ -2289,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Unread",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Unread",
           "name": "Read",
           "package": "machines",
@@ -2302,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Unread",
           "name": "Unread",
           "package": "machines",
@@ -2311,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Unread",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Unread",
           "name": "Unread",
           "normalized": "a-\u003eUnread a()",
@@ -2327,6 +2521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeek at the next value in the input stream without consuming it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Unread",
           "name": "peek",
           "package": "machines",
@@ -2337,6 +2532,7 @@
         "index": {
           "description": "Peek at the next value in the input stream without consuming it",
           "hierarchy": "Data Machine Unread",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Unread",
           "name": "peek",
           "package": "machines",
@@ -2350,6 +2546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush back into the input stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Unread",
           "name": "unread",
           "package": "machines",
@@ -2360,6 +2557,7 @@
         "index": {
           "description": "Push back into the input stream",
           "hierarchy": "Data Machine Unread",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Unread",
           "name": "unread",
           "normalized": "a-\u003ePlan(Unread a)b()",
@@ -2374,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "Wye",
           "package": "machines",
@@ -2382,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "Wye",
           "package": "machines",
@@ -2396,6 +2596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e that can read from two input stream in a non-deterministic manner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "Wye",
           "package": "machines",
@@ -2405,6 +2606,7 @@
         "index": {
           "description": "Machine that can read from two input stream in non-deterministic manner",
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "Wye",
           "package": "machines",
@@ -2419,6 +2621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMachine\u003c/a\u003e\u003c/code\u003e that can read from two input stream in a non-deterministic manner with monadic side-effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "WyeT",
           "package": "machines",
@@ -2428,6 +2631,7 @@
         "index": {
           "description": "Machine that can read from two input stream in non-deterministic manner with monadic side-effects",
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "WyeT",
           "package": "machines",
@@ -2442,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe input descriptor for a \u003ccode\u003e\u003ca\u003eWye\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eWyeT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "Y",
           "package": "machines",
@@ -2451,6 +2656,7 @@
         "index": {
           "description": "The input descriptor for Wye or WyeT",
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "Y",
           "package": "machines",
@@ -2463,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "X",
           "package": "machines",
@@ -2472,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "X",
           "package": "machines",
@@ -2484,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "Y",
           "package": "machines",
@@ -2493,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "Y",
           "package": "machines",
@@ -2505,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "Z",
           "package": "machines",
@@ -2514,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "Z",
           "package": "machines",
@@ -2527,6 +2739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecompose a pipe onto the left input of a wye.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "addX",
           "package": "machines",
@@ -2537,6 +2750,7 @@
         "index": {
           "description": "Precompose pipe onto the left input of wye",
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "addX",
           "normalized": "ProcessT a b c-\u003eWyeT a c d e-\u003eWyeT a b d e",
@@ -2552,6 +2766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecompose a pipe onto the right input of a tee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "addY",
           "package": "machines",
@@ -2562,6 +2777,7 @@
         "index": {
           "description": "Precompose pipe onto the right input of tee",
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "addY",
           "normalized": "ProcessT a b c-\u003eWyeT a d c e-\u003eWyeT a d b e",
@@ -2577,6 +2793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTie off one input of a tee by connecting it to a known source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "capX",
           "package": "machines",
@@ -2587,6 +2804,7 @@
         "index": {
           "description": "Tie off one input of tee by connecting it to known source",
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "capX",
           "normalized": "SourceT a b-\u003eWyeT a b c d-\u003eProcessT a c d",
@@ -2602,6 +2820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTie off one input of a tee by connecting it to a known source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "capY",
           "package": "machines",
@@ -2612,6 +2831,7 @@
         "index": {
           "description": "Tie off one input of tee by connecting it to known source",
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "capY",
           "normalized": "SourceT a b-\u003eWyeT a c b d-\u003eProcessT a c d",
@@ -2627,6 +2847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a pair of pipes onto the front of a \u003ccode\u003e\u003ca\u003eWye\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003ePrecompose a \u003ccode\u003e\u003ca\u003eProcess\u003c/a\u003e\u003c/code\u003e onto each input of a \u003ccode\u003e\u003ca\u003eWye\u003c/a\u003e\u003c/code\u003e (or \u003ccode\u003e\u003ca\u003eWyeT\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eThis is left biased in that it tries to draw values from the \u003ccode\u003e\u003ca\u003eX\u003c/a\u003e\u003c/code\u003e input whenever they are\n available, and only draws from the \u003ccode\u003e\u003ca\u003eY\u003c/a\u003e\u003c/code\u003e input when \u003ccode\u003e\u003ca\u003eX\u003c/a\u003e\u003c/code\u003e would block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine.Wye",
           "name": "wye",
           "package": "machines",
@@ -2637,6 +2858,7 @@
         "index": {
           "description": "Compose pair of pipes onto the front of Wye Precompose Process onto each input of Wye or WyeT This is left biased in that it tries to draw values from the input whenever they are available and only draws from the input when would block",
           "hierarchy": "Data Machine Wye",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine.Wye",
           "name": "wye",
           "normalized": "ProcessT a b c-\u003eProcessT a d e-\u003eWyeT a c e f-\u003eWyeT a b d f",
@@ -2651,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:25 UTC 2014",
           "module": "Data.Machine",
           "name": "Machine",
           "package": "machines",
@@ -2659,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Data Machine",
+          "indexed": "2014-03-11T19:13:25",
           "module": "Data.Machine",
           "name": "Machine",
           "package": "machines",

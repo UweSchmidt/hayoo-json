@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "inject-function"
+        "phrase": "inject-function",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "InjFun",
           "package": "inject-function",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "InjFun",
           "package": "inject-function",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction able to be injected parameters in.\n \u003ccode\u003ec\u003c/code\u003e is the injected control parameters, \u003ccode\u003ei\u003c/code\u003e represents its input, \u003ccode\u003em\u003c/code\u003e is the resulting monad\n and \u003ccode\u003eo\u003c/code\u003e is the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "InjFun",
           "package": "inject-function",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Function able to be injected parameters in is the injected control parameters represents its input is the resulting monad and is the output",
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "InjFun",
           "package": "inject-function",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequencing operator. It&#8217;s a helper function that composes with \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e the two \u003ccode\u003e\u003ca\u003eInjFun\u003c/a\u003e\u003c/code\u003e, respecting\n the order.\n\u003c/p\u003e\u003cp\u003eThat version (with double `|`) means that the two injected parameters are considered\n different.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "(||-\u003e)",
           "package": "inject-function",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Sequencing operator It helper function that composes with the two InjFun respecting the order That version with double means that the two injected parameters are considered different",
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "(||-\u003e) ||-\u003e",
           "normalized": "InjFun a b c d-\u003eInjFun e d c f-\u003eInjFun(a,e)b c f",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequencing operator. It&#8217;s a helper function that composes with \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e the two \u003ccode\u003e\u003ca\u003eInjFun\u003c/a\u003e\u003c/code\u003e, respecting\n the order.\n\u003c/p\u003e\u003cp\u003eThat version (with a single `|`) means that both the two injected parameters are considered\n the same; then they&#8217;re shared as a single \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "(|-\u003e)",
           "package": "inject-function",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Sequencing operator It helper function that composes with the two InjFun respecting the order That version with single means that both the two injected parameters are considered the same then they re shared as single",
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "(|-\u003e) |-\u003e",
           "normalized": "InjFun a b c d-\u003eInjFun a d c e-\u003eInjFun a b c e",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplode an \u003ccode\u003e\u003ca\u003eInjFun\u003c/a\u003e\u003c/code\u003e and feed two other ones with exploded parts of it.\n\u003c/p\u003e\u003cp\u003eIn that version, each of the three functions has its own inject parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "(-\u003c)",
           "package": "inject-function",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Explode an InjFun and feed two other ones with exploded parts of it In that version each of the three functions has its own inject parameter",
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "(-\u003c) -\u003c",
           "normalized": "InjFun a b c(d,d)-\u003e(InjFun e d c d,InjFun f d c d)-\u003e(InjFun(a,e)b c d,InjFun(a,f)b c d)",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplode an \u003ccode\u003e\u003ca\u003eInjFun\u003c/a\u003e\u003c/code\u003e and feed two other ones with exploded parts of it.\n\u003c/p\u003e\u003cp\u003eIn that version, all the three functions share the same inject parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "(-\u003c|)",
           "package": "inject-function",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Explode an InjFun and feed two other ones with exploded parts of it In that version all the three functions share the same inject parameter",
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "(-\u003c|) -\u003c|",
           "normalized": "InjFun a b c(d,d)-\u003e(InjFun a d c d,InjFun a d c d)-\u003e(InjFun a b c d,InjFun a b c d)",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two \u003ccode\u003e\u003ca\u003eInjFun\u003c/a\u003e\u003c/code\u003e and feed another one with the merged function.\n\u003c/p\u003e\u003cp\u003eIn that version, each of the three functions has it its own inject parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "(\u003e-)",
           "package": "inject-function",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Merge two InjFun and feed another one with the merged function In that version each of the three functions has it its own inject parameter",
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "(\u003e-) \u003e-",
           "normalized": "(InjFun a b c d,InjFun a b c d)-\u003eInjFun a(d,d)c e-\u003eInjFun(a,a,a)(b,b)c e",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two \u003ccode\u003e\u003ca\u003eInjFun\u003c/a\u003e\u003c/code\u003e and feed another one with the merged function.\n\u003c/p\u003e\u003cp\u003eIn that version, all the three functions share the same inject parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "(\u003e-|)",
           "package": "inject-function",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Merge two InjFun and feed another one with the merged function In that version all the three functions share the same inject parameter",
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "(\u003e-|) \u003e-|",
           "normalized": "(InjFun a b c d,InjFun a b c d)-\u003eInjFun a(d,d)c e-\u003eInjFun a(b,b)c e",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a \u003ccode\u003e\u003ca\u003eInjFun\u003c/a\u003e\u003c/code\u003e with its regular parameters and injected parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "cfapply",
           "package": "inject-function",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Feed InjFun with its regular parameters and injected parameters",
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "cfapply",
           "normalized": "InjFun a b c d-\u003ea-\u003eb-\u003ec d",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplode an \u003ccode\u003e\u003ca\u003eInjFun\u003c/a\u003e\u003c/code\u003e that outputs two values into two other \u003ccode\u003e\u003ca\u003eInjFun\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "explode",
           "package": "inject-function",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Explode an InjFun that outputs two values into two other InjFun",
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "explode",
           "normalized": "InjFun a b c(d,d)-\u003e(InjFun a b c d,InjFun a b c d)",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an inject function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "inject",
           "package": "inject-function",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Create an inject function",
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "inject",
           "normalized": "(a-\u003eb-\u003ec d)-\u003eInjFun a b c d",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two \u003ccode\u003e\u003ca\u003eInjFun\u003c/a\u003e\u003c/code\u003e into one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:55 UTC 2014",
           "module": "Control.InjFun",
           "name": "merge",
           "package": "inject-function",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Merge two InjFun into one",
           "hierarchy": "Control InjFun",
+          "indexed": "2014-03-11T18:57:55",
           "module": "Control.InjFun",
           "name": "merge",
           "normalized": "InjFun a b c d-\u003eInjFun a b c d-\u003eInjFun(a,a)(b,b)c(d,d)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "posix-acl"
+        "phrase": "posix-acl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for POSIX.1e \u003cem\u003eAccess Control Lists\u003c/em\u003e (ACL), defined in\n section 23 of the draft standard IEEE Std 1003.1e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "ACL",
           "package": "posix-acl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Support for POSIX.1e Access Control Lists ACL defined in section of the draft standard IEEE Std",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "ACL",
           "package": "posix-acl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a valid ACL as defined in POSIX.1e. The \u003ccode\u003e\u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n instance is defined to output the \u003cem\u003eLong Text Form\u003c/em\u003e of the ACL\n (section 23.3.1), while the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instance is defined to be able\n to parse both the long and short text form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "ACL",
           "package": "posix-acl",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Represent valid ACL as defined in POSIX.1e The Show instance is defined to output the Long Text Form of the ACL section while the Read instance is defined to be able to parse both the long and short text form",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "ACL",
           "package": "posix-acl",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combination of read, write and execute permissions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "Permset",
           "package": "posix-acl",
@@ -74,6 +79,7 @@
         "index": {
           "description": "combination of read write and execute permissions",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "Permset",
           "package": "posix-acl",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "ExtendedACL",
           "package": "posix-acl",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "ExtendedACL",
           "package": "posix-acl",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "MinimumACL",
           "package": "posix-acl",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "MinimumACL",
           "package": "posix-acl",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "Permset",
           "package": "posix-acl",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "Permset",
           "package": "posix-acl",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the default ACL from a directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "deleteDefaultACL",
           "package": "posix-acl",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Delete the default ACL from directory",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "deleteDefaultACL",
           "normalized": "FilePath-\u003eIO()",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo permission.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "emptyPermset",
           "package": "posix-acl",
@@ -190,6 +205,7 @@
         "index": {
           "description": "No permission",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "emptyPermset",
           "package": "posix-acl",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the ACL from a file, given its file descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "fdGetACL",
           "package": "posix-acl",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Retrieve the ACL from file given its file descriptor",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "fdGetACL",
           "normalized": "Fd-\u003eIO ACL",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the ACL for a file, given its file descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "fdSetACL",
           "package": "posix-acl",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Set the ACL for file given its file descriptor",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "fdSetACL",
           "normalized": "Fd-\u003eACL-\u003eIO()",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead, write and execute permissions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "fullPermset",
           "package": "posix-acl",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Read write and execute permissions",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "fullPermset",
           "package": "posix-acl",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the ACL from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "getACL",
           "package": "posix-acl",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Retrieve the ACL from file",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "getACL",
           "normalized": "FilePath-\u003eIO ACL",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the default ACL from a directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "getDefaultACL",
           "package": "posix-acl",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Retrieve the default ACL from directory",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "getDefaultACL",
           "normalized": "FilePath-\u003eIO ACL",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "groupsPerms",
           "package": "posix-acl",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "groupsPerms",
           "package": "posix-acl",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "hasExecute",
           "package": "posix-acl",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "hasExecute",
           "package": "posix-acl",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "hasRead",
           "package": "posix-acl",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "hasRead",
           "package": "posix-acl",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "hasWrite",
           "package": "posix-acl",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "hasWrite",
           "package": "posix-acl",
@@ -420,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive a permission if both the arguments grant that permission.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "intersectPermsets",
           "package": "posix-acl",
@@ -430,6 +465,7 @@
         "index": {
           "description": "Give permission if both the arguments grant that permission",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "intersectPermsets",
           "normalized": "Permset-\u003ePermset-\u003ePermset",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an ACL to its \u003cem\u003eLong Text Form\u003c/em\u003e (see section 23.3.1 of\n IEEE Std 1003.1e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "longTextForm",
           "package": "posix-acl",
@@ -456,6 +493,7 @@
         "index": {
           "description": "Convert an ACL to its Long Text Form see section of IEEE Std",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "longTextForm",
           "normalized": "ACL-\u003eString",
@@ -471,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "mask",
           "package": "posix-acl",
@@ -480,6 +519,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "mask",
           "package": "posix-acl",
@@ -492,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "otherPerms",
           "package": "posix-acl",
@@ -501,6 +542,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "otherPerms",
           "package": "posix-acl",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "ownerPerms",
           "package": "posix-acl",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "ownerPerms",
           "package": "posix-acl",
@@ -536,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "owningGroupPerms",
           "package": "posix-acl",
@@ -545,6 +590,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "owningGroupPerms",
           "package": "posix-acl",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the ACL for a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "setACL",
           "package": "posix-acl",
@@ -569,6 +616,7 @@
         "index": {
           "description": "Set the ACL for file",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "setACL",
           "normalized": "FilePath-\u003eACL-\u003eIO()",
@@ -585,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the default ACL for a directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "setDefaultACL",
           "package": "posix-acl",
@@ -595,6 +644,7 @@
         "index": {
           "description": "Set the default ACL for directory",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "setDefaultACL",
           "normalized": "FilePath-\u003eACL-\u003eIO()",
@@ -611,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an ACL to its \u003cem\u003eShort Text Form\u003c/em\u003e (see section 23.3.2 of\n IEEE Std 1003.1e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "shortTextFrom",
           "package": "posix-acl",
@@ -621,6 +672,7 @@
         "index": {
           "description": "Convert an ACL to its Short Text Form see section of IEEE Std",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "shortTextFrom",
           "normalized": "ACL-\u003eString",
@@ -637,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive a permission if any of the two arguments grant that permission.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "unionPermsets",
           "package": "posix-acl",
@@ -647,6 +700,7 @@
         "index": {
           "description": "Give permission if any of the two arguments grant that permission",
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "unionPermsets",
           "normalized": "Permset-\u003ePermset-\u003ePermset",
@@ -662,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:00 UTC 2014",
           "module": "System.Posix.ACL",
           "name": "usersPerms",
           "package": "posix-acl",
@@ -671,6 +726,7 @@
         },
         "index": {
           "hierarchy": "System Posix ACL",
+          "indexed": "2014-03-11T19:42:00",
           "module": "System.Posix.ACL",
           "name": "usersPerms",
           "package": "posix-acl",

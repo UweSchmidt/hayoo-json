@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cairo-appbase"
+        "phrase": "cairo-appbase",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shakespeare-css"
+        "phrase": "shakespeare-css",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "Cassius",
           "package": "shakespeare-css",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "Cassius",
           "package": "shakespeare-css",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot intended for direct use, see \u003ccode\u003e\u003ca\u003emkSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "AbsoluteSize",
           "package": "shakespeare-css",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Not intended for direct use see mkSize",
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "AbsoluteSize",
           "package": "shakespeare-css",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolute size units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "AbsoluteUnit",
           "package": "shakespeare-css",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Absolute size units",
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "AbsoluteUnit",
           "package": "shakespeare-css",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "Color",
           "package": "shakespeare-css",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "Color",
           "package": "shakespeare-css",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "Css",
           "package": "shakespeare-css",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "Css",
           "package": "shakespeare-css",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "CssUrl",
           "package": "shakespeare-css",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "CssUrl",
           "package": "shakespeare-css",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "EmSize",
           "package": "shakespeare-css",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "EmSize",
           "package": "shakespeare-css",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "ExSize",
           "package": "shakespeare-css",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "ExSize",
           "package": "shakespeare-css",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot intended for direct use, see \u003ccode\u003e\u003ca\u003emkSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "PercentageSize",
           "package": "shakespeare-css",
@@ -200,6 +217,7 @@
         "index": {
           "description": "Not intended for direct use see mkSize",
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "PercentageSize",
           "package": "shakespeare-css",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "PixelSize",
           "package": "shakespeare-css",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "PixelSize",
           "package": "shakespeare-css",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "ToCss",
           "package": "shakespeare-css",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "ToCss",
           "package": "shakespeare-css",
@@ -585,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "cassius",
           "package": "shakespeare-css",
@@ -594,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "cassius",
           "package": "shakespeare-css",
@@ -606,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "cassiusFile",
           "package": "shakespeare-css",
@@ -615,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "cassiusFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -630,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "cassiusFileDebug",
           "package": "shakespeare-css",
@@ -639,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "cassiusFileDebug",
           "normalized": "FilePath-\u003eQ Exp",
@@ -654,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "cassiusFileReload",
           "package": "shakespeare-css",
@@ -663,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "cassiusFileReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -679,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine which identifiers are used by the given template, useful for\n creating systems like yesod devel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "cassiusUsedIdentifiers",
           "package": "shakespeare-css",
@@ -689,6 +720,7 @@
         "index": {
           "description": "Determine which identifiers are used by the given template useful for creating systems like yesod devel",
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "cassiusUsedIdentifiers",
           "normalized": "String-\u003e[(Deref,VarType)]",
@@ -879,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Cassius",
           "name": "toCss",
           "package": "shakespeare-css",
@@ -888,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Text Cassius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Cassius",
           "name": "toCss",
           "normalized": "a-\u003eBuilder",
@@ -903,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "Lucius",
           "package": "shakespeare-css",
@@ -911,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "Lucius",
           "package": "shakespeare-css",
@@ -925,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot intended for direct use, see \u003ccode\u003e\u003ca\u003emkSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "AbsoluteSize",
           "package": "shakespeare-css",
@@ -934,6 +971,7 @@
         "index": {
           "description": "Not intended for direct use see mkSize",
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "AbsoluteSize",
           "package": "shakespeare-css",
@@ -948,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolute size units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "AbsoluteUnit",
           "package": "shakespeare-css",
@@ -957,6 +996,7 @@
         "index": {
           "description": "Absolute size units",
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "AbsoluteUnit",
           "package": "shakespeare-css",
@@ -970,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "Color",
           "package": "shakespeare-css",
@@ -978,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "Color",
           "package": "shakespeare-css",
@@ -991,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "Css",
           "package": "shakespeare-css",
@@ -999,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "Css",
           "package": "shakespeare-css",
@@ -1012,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "CssUrl",
           "package": "shakespeare-css",
@@ -1020,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "CssUrl",
           "package": "shakespeare-css",
@@ -1033,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "EmSize",
           "package": "shakespeare-css",
@@ -1041,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "EmSize",
           "package": "shakespeare-css",
@@ -1054,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "ExSize",
           "package": "shakespeare-css",
@@ -1062,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "ExSize",
           "package": "shakespeare-css",
@@ -1075,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "Mixin",
           "package": "shakespeare-css",
@@ -1083,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "Mixin",
           "package": "shakespeare-css",
@@ -1097,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot intended for direct use, see \u003ccode\u003e\u003ca\u003emkSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "PercentageSize",
           "package": "shakespeare-css",
@@ -1106,6 +1159,7 @@
         "index": {
           "description": "Not intended for direct use see mkSize",
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "PercentageSize",
           "package": "shakespeare-css",
@@ -1119,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "PixelSize",
           "package": "shakespeare-css",
@@ -1127,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "PixelSize",
           "package": "shakespeare-css",
@@ -1140,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "RTValue",
           "package": "shakespeare-css",
@@ -1148,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "RTValue",
           "package": "shakespeare-css",
@@ -1161,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "ToCss",
           "package": "shakespeare-css",
@@ -1169,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "ToCss",
           "package": "shakespeare-css",
@@ -1182,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "RTVMixin",
           "package": "shakespeare-css",
@@ -1191,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "RTVMixin",
           "package": "shakespeare-css",
@@ -1204,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "RTVRaw",
           "package": "shakespeare-css",
@@ -1213,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "RTVRaw",
           "package": "shakespeare-css",
@@ -1227,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erenderCss ([lucius|foo{bar:baz}|] undefined)\n\u003c/code\u003e\u003c/strong\u003e\"foo{bar:baz}\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "lucius",
           "package": "shakespeare-css",
@@ -1237,6 +1302,7 @@
         "index": {
           "description": "renderCss lucius foo bar baz undefined foo bar baz",
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "lucius",
           "package": "shakespeare-css",
@@ -1249,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "luciusFile",
           "package": "shakespeare-css",
@@ -1258,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "luciusFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1273,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "luciusFileDebug",
           "package": "shakespeare-css",
@@ -1282,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "luciusFileDebug",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1297,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "luciusFileReload",
           "package": "shakespeare-css",
@@ -1306,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "luciusFileReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1321,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "luciusMixin",
           "package": "shakespeare-css",
@@ -1330,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "luciusMixin",
           "package": "shakespeare-css",
@@ -1343,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "luciusRT",
           "package": "shakespeare-css",
@@ -1352,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "luciusRT",
           "normalized": "Text-\u003e[(Text,Text)]-\u003eEither String Text",
@@ -1367,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "luciusRT'",
           "package": "shakespeare-css",
@@ -1376,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "luciusRT'",
           "normalized": "Text-\u003eEither String([(Text,Text)]-\u003eEither String[TopLevel Resolved])",
@@ -1392,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eluciusRT\u003c/a\u003e\u003c/code\u003e, but output has no added whitespace.\n\u003c/p\u003e\u003cp\u003eSince 1.0.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "luciusRTMinified",
           "package": "shakespeare-css",
@@ -1402,6 +1481,7 @@
         "index": {
           "description": "Same as luciusRT but output has no added whitespace Since",
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "luciusRTMinified",
           "normalized": "Text-\u003e[(Text,Text)]-\u003eEither String Text",
@@ -1418,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime Lucius with mixin support.\n\u003c/p\u003e\u003cp\u003eSince 1.0.6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "luciusRTMixin",
           "package": "shakespeare-css",
@@ -1427,6 +1508,7 @@
         "index": {
           "description": "Runtime Lucius with mixin support Since",
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "luciusRTMixin",
           "normalized": "Text-\u003eBool-\u003e[(Text,RTValue)]-\u003eEither String Text",
@@ -1443,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine which identifiers are used by the given template, useful for\n creating systems like yesod devel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "luciusUsedIdentifiers",
           "package": "shakespeare-css",
@@ -1453,6 +1536,7 @@
         "index": {
           "description": "Determine which identifiers are used by the given template useful for creating systems like yesod devel",
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "luciusUsedIdentifiers",
           "normalized": "String-\u003e[(Deref,VarType)]",
@@ -1468,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "parseTopLevels",
           "package": "shakespeare-css",
@@ -1477,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "parseTopLevels",
           "normalized": "Parser[TopLevel Unresolved]",
@@ -1492,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:05 UTC 2014",
           "module": "Text.Lucius",
           "name": "toCss",
           "package": "shakespeare-css",
@@ -1501,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Text Lucius",
+          "indexed": "2014-03-11T20:01:05",
           "module": "Text.Lucius",
           "name": "toCss",
           "normalized": "a-\u003eBuilder",

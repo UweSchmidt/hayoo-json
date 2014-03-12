@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "inspection-proxy"
+        "phrase": "inspection-proxy",
+        "type": "phrase"
       },
       "type": "context"
     }

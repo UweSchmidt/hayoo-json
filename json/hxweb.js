@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxweb"
+        "phrase": "hxweb",
+        "type": "phrase"
       },
       "type": "context"
     }

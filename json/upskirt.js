@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "upskirt"
+        "phrase": "upskirt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Markdown",
           "name": "Markdown",
           "package": "upskirt",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Markdown",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Markdown",
           "name": "Markdown",
           "package": "upskirt",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of switches to enable or disable markdown features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Markdown",
           "name": "Extensions",
           "package": "upskirt",
@@ -49,6 +52,7 @@
         "index": {
           "description": "set of switches to enable or disable markdown features",
           "hierarchy": "Text Upskirt Markdown",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Markdown",
           "name": "Extensions",
           "package": "upskirt",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Markdown",
           "name": "Extensions",
           "package": "upskirt",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Markdown",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Markdown",
           "name": "Extensions",
           "package": "upskirt",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003ccode\u003e\u003ca\u003eExtensions\u003c/a\u003e\u003c/code\u003e enabled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Markdown",
           "name": "allExtensions",
           "package": "upskirt",
@@ -95,6 +102,7 @@
         "index": {
           "description": "All Extensions enabled",
           "hierarchy": "Text Upskirt Markdown",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Markdown",
           "name": "allExtensions",
           "package": "upskirt",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Markdown",
           "name": "extAutolink",
           "package": "upskirt",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Markdown",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Markdown",
           "name": "extAutolink",
           "package": "upskirt",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Markdown",
           "name": "extFencedCode",
           "package": "upskirt",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Markdown",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Markdown",
           "name": "extFencedCode",
           "package": "upskirt",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Markdown",
           "name": "extLaxHtmlBlocks",
           "package": "upskirt",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Markdown",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Markdown",
           "name": "extLaxHtmlBlocks",
           "package": "upskirt",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Markdown",
           "name": "extNoIntraEmphasis",
           "package": "upskirt",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Markdown",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Markdown",
           "name": "extNoIntraEmphasis",
           "package": "upskirt",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Markdown",
           "name": "extStrikethrough",
           "package": "upskirt",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Markdown",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Markdown",
           "name": "extStrikethrough",
           "package": "upskirt",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Markdown",
           "name": "extTables",
           "package": "upskirt",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Markdown",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Markdown",
           "name": "extTables",
           "package": "upskirt",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003ccode\u003e\u003ca\u003eExtensions\u003c/a\u003e\u003c/code\u003e disabled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Markdown",
           "name": "noExtensions",
           "package": "upskirt",
@@ -251,6 +272,7 @@
         "index": {
           "description": "All Extensions disabled",
           "hierarchy": "Text Upskirt Markdown",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Markdown",
           "name": "noExtensions",
           "package": "upskirt",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "Html",
           "package": "upskirt",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "Html",
           "package": "upskirt",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "HtmlRenderMode",
           "package": "upskirt",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "HtmlRenderMode",
           "package": "upskirt",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "HtmlRenderMode",
           "package": "upskirt",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "HtmlRenderMode",
           "package": "upskirt",
@@ -329,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the \u003ccode\u003e\u003ca\u003eHtmlRenderMode\u003c/a\u003e\u003c/code\u003e enabled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "allHtmlModes",
           "package": "upskirt",
@@ -339,6 +368,7 @@
         "index": {
           "description": "All the HtmlRenderMode enabled",
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "allHtmlModes",
           "package": "upskirt",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlExpandTabs",
           "package": "upskirt",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlExpandTabs",
           "package": "upskirt",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlGithubBlockcode",
           "package": "upskirt",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlGithubBlockcode",
           "package": "upskirt",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlHardWrap",
           "package": "upskirt",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlHardWrap",
           "package": "upskirt",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlSafelink",
           "package": "upskirt",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlSafelink",
           "package": "upskirt",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlSkipHtml",
           "package": "upskirt",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlSkipHtml",
           "package": "upskirt",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlSkipImages",
           "package": "upskirt",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlSkipImages",
           "package": "upskirt",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlSkipLinks",
           "package": "upskirt",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlSkipLinks",
           "package": "upskirt",
@@ -506,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlSkipStyle",
           "package": "upskirt",
@@ -515,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlSkipStyle",
           "package": "upskirt",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlToc",
           "package": "upskirt",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlToc",
           "package": "upskirt",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlUseXhtml",
           "package": "upskirt",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "htmlUseXhtml",
           "package": "upskirt",
@@ -573,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the \u003ccode\u003e\u003ca\u003eHtmlRenderMode\u003c/a\u003e\u003c/code\u003e disabled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "noHtmlModes",
           "package": "upskirt",
@@ -583,6 +634,7 @@
         "index": {
           "description": "All the HtmlRenderMode disabled",
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "noHtmlModes",
           "package": "upskirt",
@@ -597,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e containing the markdown, returns the Html\n code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "renderHtml",
           "package": "upskirt",
@@ -607,6 +660,7 @@
         "index": {
           "description": "Parses ByteString containing the markdown returns the Html code",
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "renderHtml",
           "normalized": "ByteString-\u003eExtensions-\u003eHtmlRenderMode-\u003eByteString",
@@ -623,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts punctuation in Html entities,\n \u003ca\u003ehttp://daringfireball.net/projects/smartypants/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "smartypants",
           "package": "upskirt",
@@ -633,6 +688,7 @@
         "index": {
           "description": "Converts punctuation in Html entities http daringfireball.net projects smartypants",
           "hierarchy": "Text Upskirt Renderers Html",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt.Renderers.Html",
           "name": "smartypants",
           "normalized": "ByteString-\u003eByteString",
@@ -648,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBindings to the github fork of the upskirt library:\n\u003ca\u003ehttps://github.com/tanoku/upskirt\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eExample usage:\n\u003c/p\u003e\u003cpre\u003e import Text.Upskirt\n import Text.Upskirt.Renderers.Html\n import qualified Data.ByteString as BS\n import qualified Data.ByteString.UTF8 as UTF8\n import System (getArgs)\n import Control.Monad (liftM)\n\n main :: IO ()\n main = do\n   input \u003c- liftM (!! 0) getArgs \u003e\u003e= BS.readFile\n   putStrLn $ UTF8.toString $ renderHtml input allExtensions noHtmlModes\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:22 UTC 2014",
           "module": "Text.Upskirt",
           "name": "Upskirt",
           "package": "upskirt",
@@ -657,6 +714,7 @@
         "index": {
           "description": "Bindings to the github fork of the upskirt library https github.com tanoku upskirt Example usage import Text.Upskirt import Text.Upskirt.Renderers.Html import qualified Data.ByteString as BS import qualified Data.ByteString.UTF8 as UTF8 import System getArgs import Control.Monad liftM main IO main do input liftM getArgs BS.readFile putStrLn UTF8.toString renderHtml input allExtensions noHtmlModes",
           "hierarchy": "Text Upskirt",
+          "indexed": "2014-03-11T20:31:22",
           "module": "Text.Upskirt",
           "name": "Upskirt",
           "package": "upskirt",

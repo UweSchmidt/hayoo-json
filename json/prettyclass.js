@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prettyclass"
+        "phrase": "prettyclass",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printing class, simlar to \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e but nicer looking.\n Note that the precedence level is a \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e so there is an unlimited number of levels.\n Based on \u003ca\u003eText.PrettyPrint.HughesPJ\u003c/a\u003e, which is re-exported.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:42 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "HughesPJClass",
           "package": "prettyclass",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pretty printing class simlar to Show but nicer looking Note that the precedence level is Rational so there is an unlimited number of levels Based on Text.PrettyPrint.HughesPJ which is re-exported",
           "hierarchy": "Text PrettyPrint HughesPJClass",
+          "indexed": "2014-03-11T19:43:42",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "HughesPJClass",
           "package": "prettyclass",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printing class.  The precedence level is used in a similar way as in the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class.\n Minimal complete definition is either \u003ccode\u003e\u003ca\u003epPrintPrec\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003epPrint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:42 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "Pretty",
           "package": "prettyclass",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Pretty printing class The precedence level is used in similar way as in the Show class Minimal complete definition is either pPrintPrec or pPrint",
           "hierarchy": "Text PrettyPrint HughesPJClass",
+          "indexed": "2014-03-11T19:43:42",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "Pretty",
           "package": "prettyclass",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLevel of detail in the pretty printed output.\n Level 0 is the least detail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:42 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "PrettyLevel",
           "package": "prettyclass",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Level of detail in the pretty printed output Level is the least detail",
           "hierarchy": "Text PrettyPrint HughesPJClass",
+          "indexed": "2014-03-11T19:43:42",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "PrettyLevel",
           "package": "prettyclass",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:42 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "PrettyLevel",
           "package": "prettyclass",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint HughesPJClass",
+          "indexed": "2014-03-11T19:43:42",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "PrettyLevel",
           "package": "prettyclass",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:42 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "pPrint",
           "package": "prettyclass",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint HughesPJClass",
+          "indexed": "2014-03-11T19:43:42",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "pPrint",
           "normalized": "a-\u003eDoc",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:42 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "pPrintList",
           "package": "prettyclass",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint HughesPJClass",
+          "indexed": "2014-03-11T19:43:42",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "pPrintList",
           "normalized": "PrettyLevel-\u003e[a]-\u003eDoc",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:42 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "pPrintPrec",
           "package": "prettyclass",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint HughesPJClass",
+          "indexed": "2014-03-11T19:43:42",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "pPrintPrec",
           "normalized": "PrettyLevel-\u003eRational-\u003ea-\u003eDoc",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:42 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "prettyNormal",
           "package": "prettyclass",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint HughesPJClass",
+          "indexed": "2014-03-11T19:43:42",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "prettyNormal",
           "package": "prettyclass",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParenthesize an value if the boolean is true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:42 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "prettyParen",
           "package": "prettyclass",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Parenthesize an value if the boolean is true",
           "hierarchy": "Text PrettyPrint HughesPJClass",
+          "indexed": "2014-03-11T19:43:42",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "prettyParen",
           "normalized": "Bool-\u003eDoc-\u003eDoc",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a value with the \u003ccode\u003e\u003ca\u003eprettyNormal\u003c/a\u003e\u003c/code\u003e level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:42 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "prettyShow",
           "package": "prettyclass",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Pretty print value with the prettyNormal level",
           "hierarchy": "Text PrettyPrint HughesPJClass",
+          "indexed": "2014-03-11T19:43:42",
           "module": "Text.PrettyPrint.HughesPJClass",
           "name": "prettyShow",
           "normalized": "a-\u003eString",

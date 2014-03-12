@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reactive-banana-wx"
+        "phrase": "reactive-banana-wx",
+        "type": "phrase"
       },
       "type": "context"
     }

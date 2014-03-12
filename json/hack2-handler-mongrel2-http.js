@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack2-handler-mongrel2-http"
+        "phrase": "hack2-handler-mongrel2-http",
+        "type": "phrase"
       },
       "type": "context"
     }

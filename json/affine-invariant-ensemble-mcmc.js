@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "affine-invariant-ensemble-mcmc"
+        "phrase": "affine-invariant-ensemble-mcmc",
+        "type": "phrase"
       },
       "type": "context"
     }

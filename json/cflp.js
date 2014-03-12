@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cflp"
+        "phrase": "cflp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "Sat",
           "package": "cflp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "Sat",
           "package": "cflp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "SatCtx",
           "package": "cflp",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "SatCtx",
           "package": "cflp",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": ".",
           "package": "cflp",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": ".",
           "normalized": "Nondet a b Boolean-\u003eNondet a b Boolean-\u003eNondet a b Boolean",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": ".||.",
           "package": "cflp",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": ".||.",
           "normalized": "Nondet a b Boolean-\u003eNondet a b Boolean-\u003eNondet a b Boolean",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "BooleanSolver",
           "package": "cflp",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "BooleanSolver",
           "package": "cflp",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "assertBoolean",
           "package": "cflp",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "assertBoolean",
           "normalized": "a-\u003eBoolean-\u003ea-\u003eb a",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "booleanToBool",
           "package": "cflp",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "booleanToBool",
           "normalized": "Data a Boolean-\u003eContext(Ctx a)-\u003eData a Bool",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "ifThen",
           "package": "cflp",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "ifThen",
           "normalized": "Data a Boolean-\u003eData a b-\u003eContext(Ctx a)-\u003eData a b",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "ifThenElse",
           "package": "cflp",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "ifThenElse",
           "normalized": "Data a Boolean-\u003eData a b-\u003eData a b-\u003eContext(Ctx a)-\u003eData a b",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "lookupBoolean",
           "package": "cflp",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "lookupBoolean",
           "normalized": "Int-\u003ea-\u003eMaybe Bool",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "neg",
           "package": "cflp",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "neg",
           "normalized": "Nondet a b Boolean-\u003eNondet a b Boolean",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "no",
           "package": "cflp",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "no",
           "package": "cflp",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "satSolving",
           "package": "cflp",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "satSolving",
           "normalized": "a b-\u003eSat a(SatCtx b)",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Constraints.Boolean",
           "name": "yes",
           "package": "cflp",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "CFLP Constraints Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Constraints.Boolean",
           "name": "yes",
           "package": "cflp",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.CallTimeChoice",
           "name": "CTC",
           "package": "cflp",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies CallTimeChoice",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.CallTimeChoice",
           "name": "CTC",
           "package": "cflp",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.CallTimeChoice",
           "name": "StoreCTC",
           "package": "cflp",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies CallTimeChoice",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.CallTimeChoice",
           "name": "StoreCTC",
           "package": "cflp",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.CallTimeChoice",
           "name": "callTimeChoice",
           "package": "cflp",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies CallTimeChoice",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.CallTimeChoice",
           "name": "callTimeChoice",
           "normalized": "a b-\u003eCTC a(StoreCTC b)",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "Depth",
           "package": "cflp",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthCounter",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "Depth",
           "package": "cflp",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "DepthCtx",
           "package": "cflp",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthCounter",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "DepthCtx",
           "package": "cflp",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "DepthCounter",
           "package": "cflp",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthCounter",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "DepthCounter",
           "package": "cflp",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "countDepth",
           "package": "cflp",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthCounter",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "countDepth",
           "normalized": "a b-\u003eDepth a(DepthCtx b)",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "currentDepth",
           "package": "cflp",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthCounter",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "currentDepth",
           "normalized": "a-\u003eInt",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "incrementDepth",
           "package": "cflp",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthCounter",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthCounter",
           "name": "incrementDepth",
           "normalized": "a-\u003ea-\u003ea",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "DepthLim",
           "package": "cflp",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthLimit",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "DepthLim",
           "package": "cflp",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "DepthLimCtx",
           "package": "cflp",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthLimit",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "DepthLimCtx",
           "package": "cflp",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "DepthLimiter",
           "package": "cflp",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthLimit",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "DepthLimiter",
           "package": "cflp",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "depthLimit",
           "package": "cflp",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthLimit",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "depthLimit",
           "normalized": "a-\u003eInt",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "limitDepth",
           "package": "cflp",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthLimit",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "limitDepth",
           "normalized": "Int-\u003ea b-\u003eDepthLim a(DepthLimCtx b)",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "resetDepthLimit",
           "package": "cflp",
@@ -657,6 +714,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthLimit",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "resetDepthLimit",
           "normalized": "a-\u003eInt-\u003ea-\u003ea",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "setDepthLimit",
           "package": "cflp",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies DepthLimit",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.DepthLimit",
           "name": "setDepthLimit",
           "normalized": "a-\u003eInt-\u003eb()",
@@ -696,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.Random",
           "name": "Rnd",
           "package": "cflp",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies Random",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.Random",
           "name": "Rnd",
           "package": "cflp",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.Random",
           "name": "RndCtx",
           "package": "cflp",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies Random",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.Random",
           "name": "RndCtx",
           "package": "cflp",
@@ -738,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.Random",
           "name": "Randomiser",
           "package": "cflp",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies Random",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.Random",
           "name": "Randomiser",
           "package": "cflp",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.Random",
           "name": "getRandomGen",
           "package": "cflp",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies Random",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.Random",
           "name": "getRandomGen",
           "normalized": "a-\u003eStdGen",
@@ -783,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.Random",
           "name": "randomise",
           "package": "cflp",
@@ -792,6 +861,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies Random",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.Random",
           "name": "randomise",
           "normalized": "a b-\u003eRnd a(RndCtx b)",
@@ -806,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies.Random",
           "name": "setRandomGen",
           "package": "cflp",
@@ -815,6 +886,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies Random",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies.Random",
           "name": "setRandomGen",
           "normalized": "a-\u003eStdGen-\u003ea-\u003ea",
@@ -830,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "Computation",
           "package": "cflp",
@@ -838,6 +911,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "Computation",
           "package": "cflp",
@@ -851,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "bfs",
           "package": "cflp",
@@ -860,6 +935,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "bfs",
           "normalized": "[CTC(Monadic(UpdateT(StoreCTC())Levels))(StoreCTC())]",
@@ -874,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "bfs_B",
           "package": "cflp",
@@ -883,6 +960,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "bfs_B",
           "normalized": "[CTC(Sat(Monadic(UpdateT(StoreCTC(SatCtx()))Levels)))(StoreCTC(SatCtx()))]",
@@ -897,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "dfs",
           "package": "cflp",
@@ -906,6 +985,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "dfs",
           "normalized": "[CTC(Monadic(UpdateT(StoreCTC())[]))(StoreCTC())]",
@@ -920,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "dfs_B",
           "package": "cflp",
@@ -929,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "dfs_B",
           "normalized": "[CTC(Sat(Monadic(UpdateT(StoreCTC(SatCtx()))[])))(StoreCTC(SatCtx()))]",
@@ -943,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "diag",
           "package": "cflp",
@@ -952,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "diag",
           "normalized": "[CTC(Monadic(UpdateT(StoreCTC())Omega))(StoreCTC())]",
@@ -966,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "diag_B",
           "package": "cflp",
@@ -975,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "diag_B",
           "normalized": "[CTC(Sat(Monadic(UpdateT(StoreCTC(SatCtx()))Omega)))(StoreCTC(SatCtx()))]",
@@ -989,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "fair",
           "package": "cflp",
@@ -998,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "fair",
           "normalized": "[CTC(Monadic(UpdateT(StoreCTC())Stream))(StoreCTC())]",
@@ -1012,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "fair_B",
           "package": "cflp",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "fair_B",
           "normalized": "[CTC(Sat(Monadic(UpdateT(StoreCTC(SatCtx()))Stream)))(StoreCTC(SatCtx()))]",
@@ -1035,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "iterDFS",
           "package": "cflp",
@@ -1044,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "iterDFS",
           "normalized": "[CTC(Depth(DepthLim(Monadic(UpdateT(StoreCTC(DepthCtx(DepthLimCtx())))[]))))(StoreCTC(DepthCtx(DepthLimCtx())))]",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "iterDFS_B",
           "package": "cflp",
@@ -1068,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "iterDFS_B",
           "normalized": "[CTC(Depth(DepthLim(Sat(Monadic(UpdateT(StoreCTC(DepthCtx(DepthLimCtx(SatCtx()))))[])))))(StoreCTC(DepthCtx(DepthLimCtx(SatCtx()))))]",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "limDFS",
           "package": "cflp",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "limDFS",
           "normalized": "Int-\u003e[CTC(Depth(DepthLim(Monadic(UpdateT(StoreCTC(DepthCtx(DepthLimCtx())))[]))))(StoreCTC(DepthCtx(DepthLimCtx())))]",
@@ -1107,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "limDFS_B",
           "package": "cflp",
@@ -1116,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "limDFS_B",
           "normalized": "Int-\u003e[CTC(Depth(DepthLim(Sat(Monadic(UpdateT(StoreCTC(DepthCtx(DepthLimCtx(SatCtx()))))[])))))(StoreCTC(DepthCtx(DepthLimCtx(SatCtx()))))]",
@@ -1131,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "rndDFS",
           "package": "cflp",
@@ -1140,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "rndDFS",
           "normalized": "[CTC(Rnd(Monadic(UpdateT(StoreCTC(RndCtx()))[])))(StoreCTC(RndCtx()))]",
@@ -1155,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Strategies",
           "name": "rndDFS_B",
           "package": "cflp",
@@ -1164,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "CFLP Strategies",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Strategies",
           "name": "rndDFS_B",
           "normalized": "[CTC(Rnd(Sat(Monadic(UpdateT(StoreCTC(RndCtx(SatCtx())))[]))))(StoreCTC(RndCtx(SatCtx())))]",
@@ -1179,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.Boolean",
           "name": "assertVariable",
           "package": "cflp",
@@ -1188,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.Boolean",
           "name": "assertVariable",
           "package": "cflp",
@@ -1201,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.Boolean",
           "name": "tests",
           "package": "cflp",
@@ -1210,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.Boolean",
           "name": "tests",
           "package": "cflp",
@@ -1222,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.Boolean",
           "name": "unsatisfiable",
           "package": "cflp",
@@ -1231,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.Boolean",
           "name": "unsatisfiable",
           "package": "cflp",
@@ -1243,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.Boolean",
           "name": "unsatisfiableWithBacktracking",
           "package": "cflp",
@@ -1252,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.Boolean",
           "name": "unsatisfiableWithBacktracking",
           "package": "cflp",
@@ -1265,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.Boolean",
           "name": "xAndYandZ",
           "package": "cflp",
@@ -1274,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests Boolean",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.Boolean",
           "name": "xAndYandZ",
           "package": "cflp",
@@ -1287,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "ignoreFirstNarrowSecond",
           "package": "cflp",
@@ -1296,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests CallTimeChoice",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "ignoreFirstNarrowSecond",
           "package": "cflp",
@@ -1309,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "ignot",
           "package": "cflp",
@@ -1318,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests CallTimeChoice",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "ignot",
           "normalized": "Data a b-\u003eData a Bool-\u003eContext(Ctx a)-\u003eData a Bool",
@@ -1332,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "negHeads",
           "package": "cflp",
@@ -1341,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests CallTimeChoice",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "negHeads",
           "normalized": "Data a[Bool]-\u003eContext(Ctx a)-\u003eData a[Bool]",
@@ -1356,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "noDemandOnSharedVar",
           "package": "cflp",
@@ -1365,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests CallTimeChoice",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "noDemandOnSharedVar",
           "package": "cflp",
@@ -1378,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "sharedCompoundTerms",
           "package": "cflp",
@@ -1387,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests CallTimeChoice",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "sharedCompoundTerms",
           "package": "cflp",
@@ -1400,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "sharedVarsAreEqual",
           "package": "cflp",
@@ -1409,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests CallTimeChoice",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "sharedVarsAreEqual",
           "package": "cflp",
@@ -1422,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "tests",
           "package": "cflp",
@@ -1431,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests CallTimeChoice",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "tests",
           "package": "cflp",
@@ -1443,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "two",
           "package": "cflp",
@@ -1452,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests CallTimeChoice",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.CallTimeChoice",
           "name": "two",
           "normalized": "Nondet a b c-\u003eNondet a b[c]",
@@ -1466,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "after",
           "package": "cflp",
@@ -1475,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "after",
           "normalized": "Data a(b-\u003ec)-\u003eData a(d-\u003eb)-\u003eData a(d-\u003ec)",
@@ -1489,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "applyBinCons",
           "package": "cflp",
@@ -1498,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "applyBinCons",
           "package": "cflp",
@@ -1511,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "applyChoice",
           "package": "cflp",
@@ -1520,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "applyChoice",
           "package": "cflp",
@@ -1533,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "applyNotFunction",
           "package": "cflp",
@@ -1542,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "applyNotFunction",
           "package": "cflp",
@@ -1555,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "callTimeChoice",
           "package": "cflp",
@@ -1564,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "callTimeChoice",
           "package": "cflp",
@@ -1577,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "flip",
           "package": "cflp",
@@ -1586,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "flip",
           "normalized": "Data a(b-\u003ec-\u003ed)-\u003eData a c-\u003eData a b-\u003eContext(Ctx a)-\u003eID-\u003eData a d",
@@ -1600,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "functionConversion",
           "package": "cflp",
@@ -1609,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "functionConversion",
           "package": "cflp",
@@ -1622,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "id",
           "package": "cflp",
@@ -1631,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "id",
           "normalized": "Data a b-\u003eData a b",
@@ -1645,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "mapSharedUnknowns",
           "package": "cflp",
@@ -1654,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "mapSharedUnknowns",
           "package": "cflp",
@@ -1667,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "memberWithFold",
           "package": "cflp",
@@ -1676,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "memberWithFold",
           "package": "cflp",
@@ -1689,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "overApplication",
           "package": "cflp",
@@ -1698,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "overApplication",
           "package": "cflp",
@@ -1711,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "pointfreeReverse",
           "package": "cflp",
@@ -1720,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "pointfreeReverse",
           "package": "cflp",
@@ -1733,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "reverseWithFoldr",
           "package": "cflp",
@@ -1742,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "reverseWithFoldr",
           "package": "cflp",
@@ -1755,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "tests",
           "package": "cflp",
@@ -1764,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "tests",
           "package": "cflp",
@@ -1776,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests.HigherOrder",
           "name": "two",
           "package": "cflp",
@@ -1785,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests HigherOrder",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests.HigherOrder",
           "name": "two",
           "normalized": "Nondet a b c-\u003eNondet a b[c]",
@@ -1799,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests",
           "name": "assertResults",
           "package": "cflp",
@@ -1808,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests",
           "name": "assertResults",
           "normalized": "Computation a-\u003e[a]-\u003eAssertion",
@@ -1823,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests",
           "name": "assertResultsLimit",
           "package": "cflp",
@@ -1832,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests",
           "name": "assertResultsLimit",
           "normalized": "Maybe Int-\u003eComputation a-\u003e[a]-\u003eAssertion",
@@ -1847,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Tests",
           "name": "assertResultsN",
           "package": "cflp",
@@ -1856,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "CFLP Tests",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Tests",
           "name": "assertResultsN",
           "normalized": "Int-\u003eComputation a-\u003e[a]-\u003eAssertion",
@@ -1871,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.Bool",
           "name": "===",
           "package": "cflp",
@@ -1880,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types Bool",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.Bool",
           "name": "===",
           "normalized": "Data a b-\u003eData a b-\u003eContext(Ctx a)-\u003eData a Bool",
@@ -1894,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.Bool",
           "name": "false",
           "package": "cflp",
@@ -1903,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types Bool",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.Bool",
           "name": "false",
           "package": "cflp",
@@ -1915,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.Bool",
           "name": "not",
           "package": "cflp",
@@ -1924,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types Bool",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.Bool",
           "name": "not",
           "normalized": "Data a Bool-\u003eContext(Ctx a)-\u003eData a Bool",
@@ -1938,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.Bool",
           "name": "pFalse",
           "package": "cflp",
@@ -1947,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types Bool",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.Bool",
           "name": "pFalse",
           "normalized": "(Context a-\u003eNondet a b c)-\u003eMatch Bool a b c",
@@ -1962,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.Bool",
           "name": "pTrue",
           "package": "cflp",
@@ -1971,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types Bool",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.Bool",
           "name": "pTrue",
           "normalized": "(Context a-\u003eNondet a b c)-\u003eMatch Bool a b c",
@@ -1986,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.Bool",
           "name": "true",
           "package": "cflp",
@@ -1995,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types Bool",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.Bool",
           "name": "true",
           "package": "cflp",
@@ -2007,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.List",
           "name": "^:",
           "package": "cflp",
@@ -2016,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types List",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.List",
           "name": "^:",
           "normalized": "Nondet a b c-\u003eNondet a b[c]-\u003eNondet a b[c]",
@@ -2030,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.List",
           "name": "dCons",
           "package": "cflp",
@@ -2039,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types List",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.List",
           "name": "dCons",
           "normalized": "Decons[a]",
@@ -2054,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.List",
           "name": "dNil",
           "package": "cflp",
@@ -2063,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types List",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.List",
           "name": "dNil",
           "normalized": "Decons[a]",
@@ -2078,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.List",
           "name": "foldr",
           "package": "cflp",
@@ -2087,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types List",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.List",
           "name": "foldr",
           "normalized": "Data a(b-\u003ec-\u003ec)-\u003eData a c-\u003eData a[b]-\u003eContext(Ctx a)-\u003eID-\u003eData a c",
@@ -2101,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.List",
           "name": "head",
           "package": "cflp",
@@ -2110,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types List",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.List",
           "name": "head",
           "normalized": "Data a[b]-\u003eContext(Ctx a)-\u003eData a b",
@@ -2124,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.List",
           "name": "map",
           "package": "cflp",
@@ -2133,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types List",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.List",
           "name": "map",
           "normalized": "Data a(b-\u003ec)-\u003eData a[b]-\u003eContext(Ctx a)-\u003eID-\u003eData a[c]",
@@ -2147,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.List",
           "name": "nil",
           "package": "cflp",
@@ -2156,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types List",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.List",
           "name": "nil",
           "normalized": "Nondet a b[c]",
@@ -2170,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.List",
           "name": "null",
           "package": "cflp",
@@ -2179,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types List",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.List",
           "name": "null",
           "normalized": "Data a[b]-\u003eContext(Ctx a)-\u003eData a Bool",
@@ -2193,6 +2385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.List",
           "name": "pCons",
           "package": "cflp",
@@ -2202,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types List",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.List",
           "name": "pCons",
           "normalized": "(Context a-\u003eNondet a b c-\u003eNondet a b[c]-\u003eNondet a b d)-\u003eMatch[c]a b d",
@@ -2217,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.List",
           "name": "pNil",
           "package": "cflp",
@@ -2226,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types List",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.List",
           "name": "pNil",
           "normalized": "(Context a-\u003eNondet a b c)-\u003eMatch[d]a b c",
@@ -2241,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP.Types.List",
           "name": "tail",
           "package": "cflp",
@@ -2250,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "CFLP Types List",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP.Types.List",
           "name": "tail",
           "normalized": "Data a[b]-\u003eContext(Ctx a)-\u003eData a[b]",
@@ -2264,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "ConsPatList",
           "package": "cflp",
@@ -2272,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "ConsPatList",
           "package": "cflp",
@@ -2285,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "Context",
           "package": "cflp",
@@ -2293,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "Context",
           "package": "cflp",
@@ -2306,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "Ctx",
           "package": "cflp",
@@ -2315,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "Ctx",
           "package": "cflp",
@@ -2328,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "Data",
           "package": "cflp",
@@ -2336,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "Data",
           "package": "cflp",
@@ -2349,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "Decons",
           "package": "cflp",
@@ -2357,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "Decons",
           "package": "cflp",
@@ -2370,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "ID",
           "package": "cflp",
@@ -2378,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "ID",
           "package": "cflp",
@@ -2391,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "Match",
           "package": "cflp",
@@ -2399,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "Match",
           "package": "cflp",
@@ -2412,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "Monadic",
           "package": "cflp",
@@ -2420,6 +2633,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "Monadic",
           "package": "cflp",
@@ -2433,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "Nondet",
           "package": "cflp",
@@ -2441,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "Nondet",
           "package": "cflp",
@@ -2454,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "NormalForm",
           "package": "cflp",
@@ -2462,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "NormalForm",
           "package": "cflp",
@@ -2475,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "Result",
           "package": "cflp",
@@ -2483,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "Result",
           "package": "cflp",
@@ -2496,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "UpdateT",
           "package": "cflp",
@@ -2504,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "UpdateT",
           "package": "cflp",
@@ -2517,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "!",
           "package": "cflp",
@@ -2526,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "!",
           "normalized": "(Int-\u003eGenericOps a)-\u003e(Int-\u003eGenericOps a)-\u003eInt-\u003eGenericOps a",
@@ -2540,6 +2764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "?",
           "package": "cflp",
@@ -2549,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "?",
           "normalized": "Nondet a b c-\u003eNondet a b c-\u003eID-\u003eNondet a b c",
@@ -2563,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "ApplyCons",
           "package": "cflp",
@@ -2571,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "ApplyCons",
           "package": "cflp",
@@ -2584,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "CFLP",
           "package": "cflp",
@@ -2592,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "CFLP",
           "package": "cflp",
@@ -2605,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "Enumerable",
           "package": "cflp",
@@ -2613,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "Enumerable",
           "package": "cflp",
@@ -2626,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "Generic",
           "package": "cflp",
@@ -2634,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "Generic",
           "package": "cflp",
@@ -2647,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "Narrow",
           "package": "cflp",
@@ -2655,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "Narrow",
           "package": "cflp",
@@ -2668,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "apply",
           "package": "cflp",
@@ -2677,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "apply",
           "normalized": "Nondet a b(c-\u003ed)-\u003eNondet a b c-\u003eContext a-\u003eID-\u003eNondet a b d",
@@ -2691,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "applyCons",
           "package": "cflp",
@@ -2700,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "applyCons",
           "normalized": "a-\u003e[NormalForm]-\u003eResult a",
@@ -2715,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "caseOf",
           "package": "cflp",
@@ -2724,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "caseOf",
           "normalized": "Nondet a b c-\u003e[Match c a b d]-\u003eContext a-\u003eNondet a b d",
@@ -2739,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "caseOf_",
           "package": "cflp",
@@ -2748,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "caseOf_",
           "normalized": "Nondet a b c-\u003e[Match c a b d]-\u003eNondet a b d-\u003eContext a-\u003eNondet a b d",
@@ -2763,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "cons",
           "package": "cflp",
@@ -2772,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "cons",
           "normalized": "String-\u003ea-\u003eDecons a-\u003eInt-\u003eGenericOps(Result a)",
@@ -2786,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "constr",
           "package": "cflp",
@@ -2795,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "constr",
           "normalized": "Int-\u003eGenericOps a",
@@ -2809,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "constructors",
           "package": "cflp",
@@ -2818,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "constructors",
           "package": "cflp",
@@ -2830,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "enumeration",
           "package": "cflp",
@@ -2839,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "enumeration",
           "normalized": "a b-\u003e[b]",
@@ -2853,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "eval",
           "package": "cflp",
@@ -2862,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "eval",
           "normalized": "[a(Ctx a)]-\u003e(Context(Ctx a)-\u003eID-\u003eData a b)-\u003eIO[b]",
@@ -2876,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "evalPartial",
           "package": "cflp",
@@ -2885,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "evalPartial",
           "normalized": "[a(Ctx a)]-\u003e(Context(Ctx a)-\u003eID-\u003eData a b)-\u003eIO[b]",
@@ -2900,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "evalPrint",
           "package": "cflp",
@@ -2909,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "evalPrint",
           "normalized": "[a(Ctx a)]-\u003e(Context(Ctx a)-\u003eID-\u003eData a b)-\u003eIO()",
@@ -2924,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "failure",
           "package": "cflp",
@@ -2933,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "failure",
           "package": "cflp",
@@ -2945,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "fun",
           "package": "cflp",
@@ -2954,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "fun",
           "normalized": "a-\u003eNondet b c d",
@@ -2968,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "generic",
           "package": "cflp",
@@ -2977,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "generic",
           "normalized": "a-\u003eNormalForm",
@@ -2991,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "genericOps",
           "package": "cflp",
@@ -3000,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "genericOps",
           "package": "cflp",
@@ -3013,6 +3279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "groundNormalForm",
           "package": "cflp",
@@ -3022,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "groundNormalForm",
           "normalized": "a b-\u003eNondet b a c-\u003ed(NormalForm,b)",
@@ -3037,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "initID",
           "package": "cflp",
@@ -3046,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "initID",
           "package": "cflp",
@@ -3059,6 +3329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "monadic",
           "package": "cflp",
@@ -3068,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "monadic",
           "normalized": "Monadic(UpdateT a b)()",
@@ -3082,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "narrow",
           "package": "cflp",
@@ -3091,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "narrow",
           "normalized": "Context a-\u003eID-\u003eNondet a b c",
@@ -3105,6 +3379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "nondet",
           "package": "cflp",
@@ -3114,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "nondet",
           "normalized": "a-\u003eNondet b c a",
@@ -3128,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "oneOf",
           "package": "cflp",
@@ -3137,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "oneOf",
           "normalized": "[Nondet a b c]-\u003eContext a-\u003eID-\u003eNondet a b c",
@@ -3152,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "partialNormalForm",
           "package": "cflp",
@@ -3161,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "partialNormalForm",
           "normalized": "a b-\u003eNondet b a c-\u003ed(NormalForm,b)",
@@ -3176,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "patterns",
           "package": "cflp",
@@ -3185,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "patterns",
           "package": "cflp",
@@ -3197,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "primitive",
           "package": "cflp",
@@ -3206,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "primitive",
           "normalized": "NormalForm-\u003ea",
@@ -3220,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "unknown",
           "package": "cflp",
@@ -3229,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "unknown",
           "normalized": "ID-\u003eNondet a b c",
@@ -3243,6 +3529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "withHNF",
           "package": "cflp",
@@ -3252,6 +3539,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "withHNF",
           "normalized": "Nondet a b c-\u003e(HeadNormalForm a b-\u003eContext a-\u003eNondet a b d)-\u003eContext a-\u003eNondet a b d",
@@ -3267,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:13 UTC 2014",
           "module": "CFLP",
           "name": "withUnique",
           "package": "cflp",
@@ -3276,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "CFLP",
+          "indexed": "2014-03-11T17:31:13",
           "module": "CFLP",
           "name": "withUnique",
           "normalized": "a-\u003eID-\u003eNondet(C ID a)(M ID a)(T ID a)",

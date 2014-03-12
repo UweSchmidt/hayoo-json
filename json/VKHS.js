@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "VKHS"
+        "phrase": "VKHS",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Aeson",
           "name": "Aeson",
           "package": "VKHS",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Aeson",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Aeson",
           "name": "Aeson",
           "package": "VKHS",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Aeson",
           "name": "api",
           "package": "VKHS",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Aeson",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Aeson",
           "name": "api",
           "normalized": "Env CallEnv-\u003eString-\u003e[(String,String)]-\u003eIO(Either String Value)",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Aeson",
           "name": "api'",
           "package": "VKHS",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Aeson",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Aeson",
           "name": "api'",
           "normalized": "Env CallEnv-\u003eString-\u003e[(String,String)]-\u003eIO(Either String a)",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "Types",
           "package": "VKHS",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "Types",
           "package": "VKHS",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "MusicRecord",
           "package": "VKHS",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "MusicRecord",
           "package": "VKHS",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "Response",
           "package": "VKHS",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "Response",
           "package": "VKHS",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "SizedList",
           "package": "VKHS",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "SizedList",
           "package": "VKHS",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "UserRecord",
           "package": "VKHS",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "UserRecord",
           "package": "VKHS",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "WallRecord",
           "package": "VKHS",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "WallRecord",
           "package": "VKHS",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "MR",
           "package": "VKHS",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "MR",
           "package": "VKHS",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "Response",
           "package": "VKHS",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "Response",
           "package": "VKHS",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "SL",
           "package": "VKHS",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "SL",
           "package": "VKHS",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "UR",
           "package": "VKHS",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "UR",
           "package": "VKHS",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "WR",
           "package": "VKHS",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "WR",
           "package": "VKHS",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "aid",
           "package": "VKHS",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "aid",
           "package": "VKHS",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "artist",
           "package": "VKHS",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "artist",
           "package": "VKHS",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "duration",
           "package": "VKHS",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "duration",
           "package": "VKHS",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "faculty",
           "package": "VKHS",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "faculty",
           "package": "VKHS",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "faculty_name",
           "package": "VKHS",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "faculty_name",
           "package": "VKHS",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "first_name",
           "package": "VKHS",
@@ -435,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "first_name",
           "package": "VKHS",
@@ -447,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "from_id",
           "package": "VKHS",
@@ -456,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "from_id",
           "package": "VKHS",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "graduation",
           "package": "VKHS",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "graduation",
           "package": "VKHS",
@@ -489,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "last_name",
           "package": "VKHS",
@@ -498,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "last_name",
           "package": "VKHS",
@@ -510,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "owner_id",
           "package": "VKHS",
@@ -519,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "owner_id",
           "package": "VKHS",
@@ -531,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "photo",
           "package": "VKHS",
@@ -540,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "photo",
           "package": "VKHS",
@@ -552,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "title",
           "package": "VKHS",
@@ -561,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "title",
           "package": "VKHS",
@@ -573,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "to_id",
           "package": "VKHS",
@@ -582,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "to_id",
           "package": "VKHS",
@@ -594,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "uid",
           "package": "VKHS",
@@ -603,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "uid",
           "package": "VKHS",
@@ -615,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "university",
           "package": "VKHS",
@@ -624,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "university",
           "package": "VKHS",
@@ -636,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "university_name",
           "package": "VKHS",
@@ -645,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "university_name",
           "package": "VKHS",
@@ -657,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "url",
           "package": "VKHS",
@@ -666,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "url",
           "package": "VKHS",
@@ -678,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "wdate",
           "package": "VKHS",
@@ -687,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "wdate",
           "package": "VKHS",
@@ -699,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "wid",
           "package": "VKHS",
@@ -708,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "wid",
           "package": "VKHS",
@@ -720,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API.Types",
           "name": "wtext",
           "package": "VKHS",
@@ -729,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API.Types",
           "name": "wtext",
           "package": "VKHS",
@@ -741,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API",
           "name": "API",
           "package": "VKHS",
@@ -749,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API",
           "name": "API",
           "package": "VKHS",
@@ -763,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvoke the request. Return answer (normally, string representation of\n JSON data). See documentation:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://vk.com/developers.php?oid=-1&p=%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%B2_API\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API",
           "name": "api",
           "package": "VKHS",
@@ -772,6 +843,7 @@
         "index": {
           "description": "Invoke the request Return answer normally string representation of JSON data See documentation http vk.com developers.php oid D0 D0 BF D0 B8 D1 D0 B0 D0 BD D0 B8 D0 B5 D0 BC D0 B5 D1 D0 BE D0 B4 D0 BE D0 B2 API",
           "hierarchy": "Web VKHS API",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API",
           "name": "api",
           "normalized": "Env CallEnv-\u003eString-\u003e[(String,String)]-\u003eIO(Either String ByteString)",
@@ -786,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.API",
           "name": "envcall",
           "package": "VKHS",
@@ -795,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS API",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.API",
           "name": "envcall",
           "normalized": "String-\u003eEnv CallEnv",
@@ -809,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Curl",
           "name": "Curl",
           "package": "VKHS",
@@ -817,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Curl",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Curl",
           "name": "Curl",
           "package": "VKHS",
@@ -830,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Curl",
           "name": "pack",
           "package": "VKHS",
@@ -839,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Curl",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Curl",
           "name": "pack",
           "normalized": "[Char]-\u003eByteString",
@@ -853,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Curl",
           "name": "unpack",
           "package": "VKHS",
@@ -862,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Curl",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Curl",
           "name": "unpack",
           "normalized": "ByteString-\u003e[Char]",
@@ -877,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric request sender. Returns whole HTTP answer as a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Curl",
           "name": "vk_curl",
           "package": "VKHS",
@@ -887,6 +968,7 @@
         "index": {
           "description": "Generic request sender Returns whole HTTP answer as ByteString",
           "hierarchy": "Web VKHS Curl",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Curl",
           "name": "vk_curl",
           "normalized": "Env a-\u003eWriter[CURLoption]()-\u003eIO(Either String ByteString)",
@@ -902,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDownloads the file and saves it on disk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Curl",
           "name": "vk_curl_file",
           "package": "VKHS",
@@ -911,6 +994,7 @@
         "index": {
           "description": "Downloads the file and saves it on disk",
           "hierarchy": "Web VKHS Curl",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Curl",
           "name": "vk_curl_file",
           "normalized": "Env a-\u003eString-\u003e(ByteString-\u003eIO())-\u003eIO(Either String())",
@@ -926,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn HTTP payload, ignore headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Curl",
           "name": "vk_curl_payload",
           "package": "VKHS",
@@ -936,6 +1021,7 @@
         "index": {
           "description": "Return HTTP payload ignore headers",
           "hierarchy": "Web VKHS Curl",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Curl",
           "name": "vk_curl_payload",
           "normalized": "Env a-\u003eWriter[CURLoption]()-\u003eIO(Either String ByteString)",
@@ -950,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Login",
           "name": "Login",
           "package": "VKHS",
@@ -958,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Login",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Login",
           "name": "Login",
           "package": "VKHS",
@@ -972,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGathers login information into Env data set. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Login",
           "name": "env",
           "package": "VKHS",
@@ -981,6 +1070,7 @@
         "index": {
           "description": "Gathers login information into Env data set",
           "hierarchy": "Web VKHS Login",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Login",
           "name": "env",
           "normalized": "String-\u003eString-\u003eString-\u003e[AccessRight]-\u003eEnv LoginEnv",
@@ -996,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute login procedure, return (Right AccessToken) on success\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Login",
           "name": "login",
           "package": "VKHS",
@@ -1006,6 +1097,7 @@
         "index": {
           "description": "Execute login procedure return Right AccessToken on success",
           "hierarchy": "Web VKHS Login",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Login",
           "name": "login",
           "normalized": "Env LoginEnv-\u003eIO(Either String AccessToken)",
@@ -1020,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Types",
           "package": "VKHS",
@@ -1028,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Types",
           "package": "VKHS",
@@ -1042,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess rigth to request from VK.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "AccessRight",
           "package": "VKHS",
@@ -1051,6 +1146,7 @@
         "index": {
           "description": "Access rigth to request from VK",
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "AccessRight",
           "package": "VKHS",
@@ -1064,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "AccessToken",
           "package": "VKHS",
@@ -1072,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "AccessToken",
           "package": "VKHS",
@@ -1085,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "CallEnv",
           "package": "VKHS",
@@ -1093,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "CallEnv",
           "package": "VKHS",
@@ -1106,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "ClientId",
           "package": "VKHS",
@@ -1114,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "ClientId",
           "package": "VKHS",
@@ -1128,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVKHS environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Env",
           "package": "VKHS",
@@ -1137,6 +1240,7 @@
         "index": {
           "description": "VKHS environment",
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Env",
           "package": "VKHS",
@@ -1150,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "LoginEnv",
           "package": "VKHS",
@@ -1158,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "LoginEnv",
           "package": "VKHS",
@@ -1172,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerbosity level. Debug will dump *html and output curl log\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Verbosity",
           "package": "VKHS",
@@ -1181,6 +1288,7 @@
         "index": {
           "description": "Verbosity level Debug will dump html and output curl log",
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Verbosity",
           "package": "VKHS",
@@ -1194,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Ads",
           "package": "VKHS",
@@ -1203,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Ads",
           "package": "VKHS",
@@ -1216,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Audio",
           "package": "VKHS",
@@ -1225,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Audio",
           "package": "VKHS",
@@ -1238,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "CallEnv",
           "package": "VKHS",
@@ -1247,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "CallEnv",
           "package": "VKHS",
@@ -1260,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Debug",
           "package": "VKHS",
@@ -1269,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Debug",
           "package": "VKHS",
@@ -1282,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Docs",
           "package": "VKHS",
@@ -1291,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Docs",
           "package": "VKHS",
@@ -1304,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Env",
           "package": "VKHS",
@@ -1313,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Env",
           "package": "VKHS",
@@ -1326,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Friends",
           "package": "VKHS",
@@ -1335,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Friends",
           "package": "VKHS",
@@ -1348,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Groups",
           "package": "VKHS",
@@ -1357,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Groups",
           "package": "VKHS",
@@ -1370,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "LoginEnv",
           "package": "VKHS",
@@ -1379,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "LoginEnv",
           "package": "VKHS",
@@ -1392,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Messages",
           "package": "VKHS",
@@ -1401,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Messages",
           "package": "VKHS",
@@ -1414,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Normal",
           "package": "VKHS",
@@ -1423,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Normal",
           "package": "VKHS",
@@ -1436,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Notes",
           "package": "VKHS",
@@ -1445,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Notes",
           "package": "VKHS",
@@ -1458,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Notifications",
           "package": "VKHS",
@@ -1467,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Notifications",
           "package": "VKHS",
@@ -1480,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Notify",
           "package": "VKHS",
@@ -1489,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Notify",
           "package": "VKHS",
@@ -1502,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Offers",
           "package": "VKHS",
@@ -1511,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Offers",
           "package": "VKHS",
@@ -1524,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Offline",
           "package": "VKHS",
@@ -1533,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Offline",
           "package": "VKHS",
@@ -1546,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Pages",
           "package": "VKHS",
@@ -1555,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Pages",
           "package": "VKHS",
@@ -1568,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Photos",
           "package": "VKHS",
@@ -1577,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Photos",
           "package": "VKHS",
@@ -1590,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Questions",
           "package": "VKHS",
@@ -1599,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Questions",
           "package": "VKHS",
@@ -1612,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Stats",
           "package": "VKHS",
@@ -1621,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Stats",
           "package": "VKHS",
@@ -1634,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Status",
           "package": "VKHS",
@@ -1643,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Status",
           "package": "VKHS",
@@ -1656,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Trace",
           "package": "VKHS",
@@ -1665,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Trace",
           "package": "VKHS",
@@ -1678,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Video",
           "package": "VKHS",
@@ -1687,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Video",
           "package": "VKHS",
@@ -1700,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "Wall",
           "package": "VKHS",
@@ -1709,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "Wall",
           "package": "VKHS",
@@ -1723,6 +1879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess rights, required by later API calls\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "ac_rights",
           "package": "VKHS",
@@ -1733,6 +1890,7 @@
         "index": {
           "description": "Access rights required by later API calls",
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "ac_rights",
           "normalized": "[AccessRight]",
@@ -1748,6 +1906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess token, the result of login operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "access_token",
           "package": "VKHS",
@@ -1758,6 +1917,7 @@
         "index": {
           "description": "Access token the result of login operation",
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "access_token",
           "package": "VKHS",
@@ -1770,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "allAccess",
           "package": "VKHS",
@@ -1779,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "allAccess",
           "normalized": "[AccessRight]",
@@ -1794,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "callEnv",
           "package": "VKHS",
@@ -1803,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "callEnv",
           "normalized": "Env a-\u003eString-\u003eEnv CallEnv",
@@ -1819,6 +1983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication ID provided by vk.com\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "clientId",
           "package": "VKHS",
@@ -1829,6 +1994,7 @@
         "index": {
           "description": "Application ID provided by vk.com",
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "clientId",
           "package": "VKHS",
@@ -1843,6 +2009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay after each transaction, in milliseconds. Library uses it for\n preventing application from being banned for flooding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "delay_ms",
           "package": "VKHS",
@@ -1853,6 +2020,7 @@
         "index": {
           "description": "Delay after each transaction in milliseconds Library uses it for preventing application from being banned for flooding",
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "delay_ms",
           "package": "VKHS",
@@ -1866,6 +2034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDictionary containig forms input/value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "formdata",
           "package": "VKHS",
@@ -1876,6 +2045,7 @@
         "index": {
           "description": "Dictionary containig forms input value",
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "formdata",
           "normalized": "[(String,String)]",
@@ -1890,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "mkEnv",
           "package": "VKHS",
@@ -1899,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "mkEnv",
           "normalized": "a-\u003eEnv a",
@@ -1914,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "sub",
           "package": "VKHS",
@@ -1923,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "sub",
           "package": "VKHS",
@@ -1936,6 +2110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser agent identifier, defaults to Mozilla Firefox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "useragent",
           "package": "VKHS",
@@ -1946,6 +2121,7 @@
         "index": {
           "description": "User agent identifier defaults to Mozilla Firefox",
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "useragent",
           "package": "VKHS",
@@ -1959,6 +2135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerbosity level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS.Types",
           "name": "verbose",
           "package": "VKHS",
@@ -1969,6 +2146,7 @@
         "index": {
           "description": "Verbosity level",
           "hierarchy": "Web VKHS Types",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS.Types",
           "name": "verbose",
           "package": "VKHS",
@@ -1982,6 +2160,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eVKHS\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eVKHS is written in Haskell and provides access to Vkontakte \u003ca\u003ehttp://vk.com\u003c/a\u003e\nsocial network, popular mainly in Russia. Library can be used to login into the\nnetwork as a standalone application (OAuth implicit flow as they call it).\nInteraction with user is not required. For now, vkhs offers limited error\ndetection and no captcha support.\n\u003c/p\u003e\u003cp\u003eFollowing example illustrates basic usage (please fill client_id, email and\npassword with correct values):\n\u003c/p\u003e\u003cpre\u003e   import Web.VKHS.Login\n   import Web.VKHS.API\n\n   main = do\n       let client_id = \"111111\"\n       let e = env client_id \"user@example.com\" \"password\" [Photos,Audio,Groups]\n       (Right at) \u003c- login e\n\n       let user_of_interest = \"222222\"\n       (Right ans) \u003c- api e at \"users.get\" [\n             (\"uids\",user_of_interest)\n           , (\"fields\",\"first_name,last_name,nickname,screen_name\")\n           , (\"name_case\",\"nom\")\n           ]\n       putStrLn ans\n\u003c/pre\u003e\u003cp\u003eclient_id is an application identifier, provided by vk.com. Users receive it\nafter registering their applications after SMS confirmation. Registration form is \nlocated here \u003ca\u003ehttp://vk.com/editapp?act=create\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eInternally, library uses small curl-based HTTP automata and tagsoup for jumping\nover relocations and submitting various 'Yes I agree' forms. Curl .so library is\nrequired for vkhs to work. I am using curl-7.26.0 on my system.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eDebugging\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eTo authenticate the user, vkhs acts like a browser: it analyzes html but fills\nall forms by itself instead of displaying pages. Of cause, would vk.com change\nhtml design, things stop working.\n\u003c/p\u003e\u003cp\u003eTo deal with that potential problem, I've included some debugging facilities:\nchanging:\n\u003c/p\u003e\u003cp\u003ewriting\n\u003c/p\u003e\u003cpre\u003e       (Right at) \u003c- login e { verbose = Debug }\n\u003c/pre\u003e\u003cp\u003ewill trigger curl output plus html dumping to the current directory. Please,\nmail those .html to me if problem appears.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eLimitations\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cul\u003e\u003cli\u003e Ignores 'Invalid password' answers\n\u003c/li\u003e\u003cli\u003e Captchas are treated as errors\n\u003c/li\u003e\u003cli\u003e Implicit-flow authentication, see documentation in\n      Russian \u003ca\u003ehttp://vk.com/developers.php\u003c/a\u003e\n      for details\n\u003c/li\u003e\u003cli\u003e Probably, low speed due to restarting curl session on every request. But\n      anyway, vk.com limits request rate to 3 per second.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:03:33 UTC 2014",
           "module": "Web.VKHS",
           "name": "VKHS",
           "package": "VKHS",
@@ -1991,6 +2170,7 @@
         "index": {
           "description": "VKHS VKHS is written in Haskell and provides access to Vkontakte http vk.com social network popular mainly in Russia Library can be used to login into the network as standalone application OAuth implicit flow as they call it Interaction with user is not required For now vkhs offers limited error detection and no captcha support Following example illustrates basic usage please fill client id email and password with correct values import Web.VKHS.Login import Web.VKHS.API main do let client id let env client id user@example.com password Photos Audio Groups Right at login let user of interest Right ans api at users.get uids user of interest fields first name last name nickname screen name name case nom putStrLn ans client id is an application identifier provided by vk.com Users receive it after registering their applications after SMS confirmation Registration form is located here http vk.com editapp act create Internally library uses small curl-based HTTP automata and tagsoup for jumping over relocations and submitting various Yes agree forms Curl so library is required for vkhs to work am using curl-7.26.0 on my system Debugging To authenticate the user vkhs acts like browser it analyzes html but fills all forms by itself instead of displaying pages Of cause would vk.com change html design things stop working To deal with that potential problem ve included some debugging facilities changing writing Right at login verbose Debug will trigger curl output plus html dumping to the current directory Please mail those html to me if problem appears Limitations Ignores Invalid password answers Captchas are treated as errors Implicit-flow authentication see documentation in Russian http vk.com developers.php for details Probably low speed due to restarting curl session on every request But anyway vk.com limits request rate to per second",
           "hierarchy": "Web VKHS",
+          "indexed": "2014-03-11T17:03:33",
           "module": "Web.VKHS",
           "name": "VKHS",
           "package": "VKHS",

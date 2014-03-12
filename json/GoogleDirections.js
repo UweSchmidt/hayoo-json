@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GoogleDirections"
+        "phrase": "GoogleDirections",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Directions",
           "package": "GoogleDirections",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Directions",
           "package": "GoogleDirections",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Avoidable",
           "package": "GoogleDirections",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Avoidable",
           "package": "GoogleDirections",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Coord",
           "package": "GoogleDirections",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Coord",
           "package": "GoogleDirections",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Directions",
           "package": "GoogleDirections",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Directions",
           "package": "GoogleDirections",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Distance",
           "package": "GoogleDirections",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Distance",
           "package": "GoogleDirections",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Duration",
           "package": "GoogleDirections",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Duration",
           "package": "GoogleDirections",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Leg",
           "package": "GoogleDirections",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Leg",
           "package": "GoogleDirections",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "PolyLine",
           "package": "GoogleDirections",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "PolyLine",
           "package": "GoogleDirections",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Route",
           "package": "GoogleDirections",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Route",
           "package": "GoogleDirections",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "StatusCode",
           "package": "GoogleDirections",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "StatusCode",
           "package": "GoogleDirections",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Step",
           "package": "GoogleDirections",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Step",
           "package": "GoogleDirections",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "TravelMode",
           "package": "GoogleDirections",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "TravelMode",
           "package": "GoogleDirections",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Units",
           "package": "GoogleDirections",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Units",
           "package": "GoogleDirections",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Waypoints",
           "package": "GoogleDirections",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Waypoints",
           "package": "GoogleDirections",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Bicycling",
           "package": "GoogleDirections",
@@ -321,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Bicycling",
           "package": "GoogleDirections",
@@ -334,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Directions",
           "package": "GoogleDirections",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Directions",
           "package": "GoogleDirections",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Dist",
           "package": "GoogleDirections",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Dist",
           "package": "GoogleDirections",
@@ -378,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Driving",
           "package": "GoogleDirections",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Driving",
           "package": "GoogleDirections",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Dur",
           "package": "GoogleDirections",
@@ -409,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Dur",
           "package": "GoogleDirections",
@@ -422,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Highways",
           "package": "GoogleDirections",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Highways",
           "package": "GoogleDirections",
@@ -444,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Imperial",
           "package": "GoogleDirections",
@@ -453,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Imperial",
           "package": "GoogleDirections",
@@ -466,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "InvalidRequest",
           "package": "GoogleDirections",
@@ -475,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "InvalidRequest",
           "package": "GoogleDirections",
@@ -488,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Leg",
           "package": "GoogleDirections",
@@ -497,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Leg",
           "package": "GoogleDirections",
@@ -510,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "MaxWaypointsExceeded",
           "package": "GoogleDirections",
@@ -519,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "MaxWaypointsExceeded",
           "package": "GoogleDirections",
@@ -532,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Metric",
           "package": "GoogleDirections",
@@ -541,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Metric",
           "package": "GoogleDirections",
@@ -554,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "NotFound",
           "package": "GoogleDirections",
@@ -563,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "NotFound",
           "package": "GoogleDirections",
@@ -576,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "OK",
           "package": "GoogleDirections",
@@ -585,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "OK",
           "package": "GoogleDirections",
@@ -598,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "OverQueryLimit",
           "package": "GoogleDirections",
@@ -607,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "OverQueryLimit",
           "package": "GoogleDirections",
@@ -620,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "PolyLine",
           "package": "GoogleDirections",
@@ -629,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "PolyLine",
           "package": "GoogleDirections",
@@ -642,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "RequestDenied",
           "package": "GoogleDirections",
@@ -651,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "RequestDenied",
           "package": "GoogleDirections",
@@ -664,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Route",
           "package": "GoogleDirections",
@@ -673,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Route",
           "package": "GoogleDirections",
@@ -686,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Step",
           "package": "GoogleDirections",
@@ -695,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Step",
           "package": "GoogleDirections",
@@ -708,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Tolls",
           "package": "GoogleDirections",
@@ -717,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Tolls",
           "package": "GoogleDirections",
@@ -730,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "UnknownError",
           "package": "GoogleDirections",
@@ -739,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "UnknownError",
           "package": "GoogleDirections",
@@ -752,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Walking",
           "package": "GoogleDirections",
@@ -761,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Walking",
           "package": "GoogleDirections",
@@ -774,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "Waypoints",
           "package": "GoogleDirections",
@@ -783,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "Waypoints",
           "normalized": "Waypoints Bool[ByteString]",
@@ -798,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "ZeroResults",
           "package": "GoogleDirections",
@@ -807,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "ZeroResults",
           "package": "GoogleDirections",
@@ -820,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "copyrights",
           "package": "GoogleDirections",
@@ -829,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "copyrights",
           "package": "GoogleDirections",
@@ -841,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "directions",
           "package": "GoogleDirections",
@@ -850,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "directions",
           "normalized": "ByteString-\u003eByteString-\u003eMaybe TravelMode-\u003eMaybe Waypoints-\u003eBool-\u003e[Avoidable]-\u003eMaybe Units-\u003eBool-\u003eIO(Either String Directions)",
@@ -864,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "endAddress",
           "package": "GoogleDirections",
@@ -873,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "endAddress",
           "package": "GoogleDirections",
@@ -886,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "htmlInstructions",
           "package": "GoogleDirections",
@@ -895,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "htmlInstructions",
           "package": "GoogleDirections",
@@ -908,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "legDistance",
           "package": "GoogleDirections",
@@ -917,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "legDistance",
           "package": "GoogleDirections",
@@ -930,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "legDuration",
           "package": "GoogleDirections",
@@ -939,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "legDuration",
           "package": "GoogleDirections",
@@ -952,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "legEndLocation",
           "package": "GoogleDirections",
@@ -961,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "legEndLocation",
           "package": "GoogleDirections",
@@ -974,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "legStartLocation",
           "package": "GoogleDirections",
@@ -983,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "legStartLocation",
           "package": "GoogleDirections",
@@ -996,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "legs",
           "package": "GoogleDirections",
@@ -1005,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "legs",
           "normalized": "[Leg]",
@@ -1019,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "levels",
           "package": "GoogleDirections",
@@ -1028,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "levels",
           "package": "GoogleDirections",
@@ -1040,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "points",
           "package": "GoogleDirections",
@@ -1049,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "points",
           "package": "GoogleDirections",
@@ -1061,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "routes",
           "package": "GoogleDirections",
@@ -1070,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "routes",
           "normalized": "[Route]",
@@ -1084,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "startAddress",
           "package": "GoogleDirections",
@@ -1093,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "startAddress",
           "package": "GoogleDirections",
@@ -1106,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "status",
           "package": "GoogleDirections",
@@ -1115,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "status",
           "package": "GoogleDirections",
@@ -1127,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "stepDistance",
           "package": "GoogleDirections",
@@ -1136,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "stepDistance",
           "package": "GoogleDirections",
@@ -1149,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "stepDuration",
           "package": "GoogleDirections",
@@ -1158,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "stepDuration",
           "package": "GoogleDirections",
@@ -1171,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "stepEndLocation",
           "package": "GoogleDirections",
@@ -1180,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "stepEndLocation",
           "package": "GoogleDirections",
@@ -1193,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "stepStartLocation",
           "package": "GoogleDirections",
@@ -1202,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "stepStartLocation",
           "package": "GoogleDirections",
@@ -1215,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "steps",
           "package": "GoogleDirections",
@@ -1224,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "steps",
           "normalized": "[Step]",
@@ -1238,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "summary",
           "package": "GoogleDirections",
@@ -1247,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "summary",
           "package": "GoogleDirections",
@@ -1259,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "warnings",
           "package": "GoogleDirections",
@@ -1268,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "warnings",
           "normalized": "[ByteString]",
@@ -1282,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:25 UTC 2014",
           "module": "Google.Directions",
           "name": "waypointOrder",
           "package": "GoogleDirections",
@@ -1291,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Google Directions",
+          "indexed": "2014-03-11T16:43:25",
           "module": "Google.Directions",
           "name": "waypointOrder",
           "normalized": "[Integer]",

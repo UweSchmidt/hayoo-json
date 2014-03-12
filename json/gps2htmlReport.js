@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gps2htmlReport"
+        "phrase": "gps2htmlReport",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.DrawOsm",
           "name": "DrawOsm",
           "package": "gps2htmlReport",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data GPS Gps2HtmlReport DrawOsm",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.DrawOsm",
           "name": "DrawOsm",
           "package": "gps2htmlReport",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the destination directory for the web content,\n the (Trail WptType), and uses the DrawOsm functions\n to generate an `osm.png' file showing the trail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.DrawOsm",
           "name": "generateOsmMap",
           "package": "gps2htmlReport",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Takes the destination directory for the web content the Trail WptType and uses the DrawOsm functions to generate an osm.png file showing the trail",
           "hierarchy": "Data GPS Gps2HtmlReport DrawOsm",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.DrawOsm",
           "name": "generateOsmMap",
           "normalized": "String-\u003e[WptType]-\u003eIO()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eHTMLGenerator\u003c/code\u003e module generates the HTML content for the index.html generated\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.HTMLGenerator",
           "name": "HTMLGenerator",
           "package": "gps2htmlReport",
@@ -75,6 +80,7 @@
         "index": {
           "description": "The HTMLGenerator module generates the HTML content for the index.html generated",
           "hierarchy": "Data GPS Gps2HtmlReport HTMLGenerator",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.HTMLGenerator",
           "name": "HTMLGenerator",
           "package": "gps2htmlReport",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes all the WayPoints and generates the HTML file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.HTMLGenerator",
           "name": "generateHtmlPage",
           "package": "gps2htmlReport",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Takes all the WayPoints and generates the HTML file",
           "hierarchy": "Data GPS Gps2HtmlReport HTMLGenerator",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.HTMLGenerator",
           "name": "generateHtmlPage",
           "normalized": "[WptType]-\u003eHtml",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module uses the JourneyStats module to generate\n the statistics about the journey WayPoints, then\n uses the Cairo bindings to generate the charts\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyCharts",
           "name": "JourneyCharts",
           "package": "gps2htmlReport",
@@ -124,6 +133,7 @@
         "index": {
           "description": "This module uses the JourneyStats module to generate the statistics about the journey WayPoints then uses the Cairo bindings to generate the charts",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyCharts",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyCharts",
           "name": "JourneyCharts",
           "package": "gps2htmlReport",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyCharts",
           "name": "chart1",
           "package": "gps2htmlReport",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Data GPS Gps2HtmlReport JourneyCharts",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyCharts",
           "name": "chart1",
           "normalized": "[WptType]-\u003e(String,OutputType-\u003eRenderable())",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyCharts",
           "name": "chart2",
           "package": "gps2htmlReport",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Data GPS Gps2HtmlReport JourneyCharts",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyCharts",
           "name": "chart2",
           "normalized": "[WptType]-\u003e(String,OutputType-\u003eRenderable())",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyCharts",
           "name": "renderToPng",
           "package": "gps2htmlReport",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Data GPS Gps2HtmlReport JourneyCharts",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyCharts",
           "name": "renderToPng",
           "normalized": "(a,OutputType-\u003eRenderable b)-\u003eFilePath-\u003eIO(PickFn b)",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the JourneyCharts and HTMLGenerator \n modules with statistics for the charts, and the journey statistics\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "JourneyStats",
           "package": "gps2htmlReport",
@@ -217,6 +234,7 @@
         "index": {
           "description": "This module provides the JourneyCharts and HTMLGenerator modules with statistics for the charts and the journey statistics",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyStats",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "JourneyStats",
           "package": "gps2htmlReport",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes all WayPoints, and creates a list of tuples containing (TimeStamp,JourneyDistanceAtPoint)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "accumDistance",
           "package": "gps2htmlReport",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Takes all WayPoints and creates list of tuples containing TimeStamp JourneyDistanceAtPoint",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyStats",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "accumDistance",
           "normalized": "[WptType]-\u003eDouble-\u003e[(LocalTime,Distance)]",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes all WayPoints, and creates a list of tuples containing (TimeStamp,AvrSpeedAtThisPoint)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "avrSpeedOverTime",
           "package": "gps2htmlReport",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Takes all WayPoints and creates list of tuples containing TimeStamp AvrSpeedAtThisPoint",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyStats",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "avrSpeedOverTime",
           "normalized": "[(LocalTime,Speed)]-\u003eDouble-\u003eDouble-\u003e[(LocalTime,Speed)]-\u003e[(LocalTime,Speed)]",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the date of the journey (from the first WayPoint)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "dateOfJourney",
           "package": "gps2htmlReport",
@@ -293,6 +316,7 @@
         "index": {
           "description": "Extracts the date of the journey from the first WayPoint",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyStats",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "dateOfJourney",
           "normalized": "[a]-\u003eMaybe Day",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes all WayPoints, an element in wptType, and an Eq function, returning a single WayPoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "findPoint",
           "package": "gps2htmlReport",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Takes all WayPoints an element in wptType and an Eq function returning single WayPoint",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyStats",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "findPoint",
           "normalized": "[WptType]-\u003eWptType-\u003e(WptType-\u003eMaybe Double)-\u003e(Double-\u003eDouble-\u003eBool)-\u003eMaybe(LocalTime,Double)",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the total journey distance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "journeyDistance",
           "package": "gps2htmlReport",
@@ -345,6 +372,7 @@
         "index": {
           "description": "Calculates the total journey distance",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyStats",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "journeyDistance",
           "normalized": "[a]-\u003eDistance",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the total journey time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "journeyTime",
           "package": "gps2htmlReport",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Calculates the total journey time",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyStats",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "journeyTime",
           "normalized": "[a]-\u003eNominalDiffTime",
@@ -387,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the maximum speed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "maxSpeed",
           "package": "gps2htmlReport",
@@ -397,6 +428,7 @@
         "index": {
           "description": "Calculates the maximum speed",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyStats",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "maxSpeed",
           "normalized": "[WptType]-\u003eSpeed",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the average elevation throughout the journey\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "meanElevation",
           "package": "gps2htmlReport",
@@ -423,6 +456,7 @@
         "index": {
           "description": "Calculates the average elevation throughout the journey",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyStats",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "meanElevation",
           "normalized": "[a]-\u003eDouble",
@@ -439,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the average speed of the journey\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "meanJourneySpeed",
           "package": "gps2htmlReport",
@@ -449,6 +484,7 @@
         "index": {
           "description": "Calculates the average speed of the journey",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyStats",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "meanJourneySpeed",
           "normalized": "[a]-\u003eDistance",
@@ -465,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes all WayPoints, and creates a list of tuples containing (TimeStamp,Elevation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:33 UTC 2014",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "ptsElevation",
           "package": "gps2htmlReport",
@@ -475,6 +512,7 @@
         "index": {
           "description": "Takes all WayPoints and creates list of tuples containing TimeStamp Elevation",
           "hierarchy": "Data GPS Gps2HtmlReport JourneyStats",
+          "indexed": "2014-03-11T18:19:33",
           "module": "Data.GPS.Gps2HtmlReport.JourneyStats",
           "name": "ptsElevation",
           "normalized": "[WptType]-\u003e[(LocalTime,Double)]",

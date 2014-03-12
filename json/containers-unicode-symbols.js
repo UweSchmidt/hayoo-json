@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "containers-unicode-symbols"
+        "phrase": "containers-unicode-symbols",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8709;) = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2205, EMPTY SET\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∅)",
           "package": "containers-unicode-symbols",
@@ -50,6 +53,7 @@
         "index": {
           "description": "empty EMPTY SET",
           "hierarchy": "Data IntMap Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∅) ∅",
           "package": "containers-unicode-symbols",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric difference\n\u003c/p\u003e\u003cp\u003ea &#8710; b = (a &#8726; b) &#8746; (b &#8726; a)\n\u003c/p\u003e\u003cp\u003eU+2206, INCREMENT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∆)",
           "package": "containers-unicode-symbols",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Symmetric difference INCREMENT",
           "hierarchy": "Data IntMap Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∆) ∆",
           "normalized": "IntMap a-\u003eIntMap a-\u003eIntMap a",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8712;) = \u003ccode\u003e\u003ca\u003emember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2208, ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∈)",
           "package": "containers-unicode-symbols",
@@ -98,6 +105,7 @@
         "index": {
           "description": "member ELEMENT OF",
           "hierarchy": "Data IntMap Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∈) ∈",
           "normalized": "Int-\u003eIntMap a-\u003eBool",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8713;) = \u003ccode\u003e\u003ca\u003enotMember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2209, NOT AN ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∉)",
           "package": "containers-unicode-symbols",
@@ -123,6 +132,7 @@
         "index": {
           "description": "notMember NOT AN ELEMENT OF",
           "hierarchy": "Data IntMap Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∉) ∉",
           "normalized": "Int-\u003eIntMap a-\u003eBool",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8715;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8712;)\n\u003c/p\u003e\u003cp\u003eU+220B, CONTAINS AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∋)",
           "package": "containers-unicode-symbols",
@@ -148,6 +159,7 @@
         "index": {
           "description": "flip CONTAINS AS MEMBER",
           "hierarchy": "Data IntMap Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∋) ∋",
           "normalized": "IntMap a-\u003eInt-\u003eBool",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8716;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8713;)\n\u003c/p\u003e\u003cp\u003eU+220C, DOES NOT CONTAIN AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∌)",
           "package": "containers-unicode-symbols",
@@ -173,6 +186,7 @@
         "index": {
           "description": "flip DOES NOT CONTAIN AS MEMBER",
           "hierarchy": "Data IntMap Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∌) ∌",
           "normalized": "IntMap a-\u003eInt-\u003eBool",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8726;) = \u003ccode\u003e\u003ca\u003edifference\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2216, SET MINUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∖)",
           "package": "containers-unicode-symbols",
@@ -198,6 +213,7 @@
         "index": {
           "description": "difference SET MINUS",
           "hierarchy": "Data IntMap Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∖) ∖",
           "normalized": "IntMap a-\u003eIntMap b-\u003eIntMap a",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8745;) = \u003ccode\u003e\u003ca\u003eintersection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2229, INTERSECTION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∩)",
           "package": "containers-unicode-symbols",
@@ -223,6 +240,7 @@
         "index": {
           "description": "intersection INTERSECTION",
           "hierarchy": "Data IntMap Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∩) ∩",
           "normalized": "IntMap a-\u003eIntMap b-\u003eIntMap a",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8746;) = \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+222A, UNION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∪)",
           "package": "containers-unicode-symbols",
@@ -248,6 +267,7 @@
         "index": {
           "description": "union UNION",
           "hierarchy": "Data IntMap Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Lazy.Unicode",
           "name": "(∪) ∪",
           "normalized": "IntMap a-\u003eIntMap a-\u003eIntMap a",
@@ -262,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -270,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8709;) = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2205, EMPTY SET\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∅)",
           "package": "containers-unicode-symbols",
@@ -294,6 +317,7 @@
         "index": {
           "description": "empty EMPTY SET",
           "hierarchy": "Data IntMap Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∅) ∅",
           "package": "containers-unicode-symbols",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric difference\n\u003c/p\u003e\u003cp\u003ea &#8710; b = (a &#8726; b) &#8746; (b &#8726; a)\n\u003c/p\u003e\u003cp\u003eU+2206, INCREMENT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∆)",
           "package": "containers-unicode-symbols",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Symmetric difference INCREMENT",
           "hierarchy": "Data IntMap Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∆) ∆",
           "normalized": "IntMap a-\u003eIntMap a-\u003eIntMap a",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8712;) = \u003ccode\u003e\u003ca\u003emember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2208, ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∈)",
           "package": "containers-unicode-symbols",
@@ -342,6 +369,7 @@
         "index": {
           "description": "member ELEMENT OF",
           "hierarchy": "Data IntMap Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∈) ∈",
           "normalized": "Int-\u003eIntMap a-\u003eBool",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8713;) = \u003ccode\u003e\u003ca\u003enotMember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2209, NOT AN ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∉)",
           "package": "containers-unicode-symbols",
@@ -367,6 +396,7 @@
         "index": {
           "description": "notMember NOT AN ELEMENT OF",
           "hierarchy": "Data IntMap Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∉) ∉",
           "normalized": "Int-\u003eIntMap a-\u003eBool",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8715;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8712;)\n\u003c/p\u003e\u003cp\u003eU+220B, CONTAINS AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∋)",
           "package": "containers-unicode-symbols",
@@ -392,6 +423,7 @@
         "index": {
           "description": "flip CONTAINS AS MEMBER",
           "hierarchy": "Data IntMap Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∋) ∋",
           "normalized": "IntMap a-\u003eInt-\u003eBool",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8716;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8713;)\n\u003c/p\u003e\u003cp\u003eU+220C, DOES NOT CONTAIN AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∌)",
           "package": "containers-unicode-symbols",
@@ -417,6 +450,7 @@
         "index": {
           "description": "flip DOES NOT CONTAIN AS MEMBER",
           "hierarchy": "Data IntMap Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∌) ∌",
           "normalized": "IntMap a-\u003eInt-\u003eBool",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8726;) = \u003ccode\u003e\u003ca\u003edifference\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2216, SET MINUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∖)",
           "package": "containers-unicode-symbols",
@@ -442,6 +477,7 @@
         "index": {
           "description": "difference SET MINUS",
           "hierarchy": "Data IntMap Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∖) ∖",
           "normalized": "IntMap a-\u003eIntMap b-\u003eIntMap a",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8745;) = \u003ccode\u003e\u003ca\u003eintersection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2229, INTERSECTION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∩)",
           "package": "containers-unicode-symbols",
@@ -467,6 +504,7 @@
         "index": {
           "description": "intersection INTERSECTION",
           "hierarchy": "Data IntMap Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∩) ∩",
           "normalized": "IntMap a-\u003eIntMap b-\u003eIntMap a",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8746;) = \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+222A, UNION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∪)",
           "package": "containers-unicode-symbols",
@@ -492,6 +531,7 @@
         "index": {
           "description": "union UNION",
           "hierarchy": "Data IntMap Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Strict.Unicode",
           "name": "(∪) ∪",
           "normalized": "IntMap a-\u003eIntMap a-\u003eIntMap a",
@@ -506,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntMap.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -514,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntMap.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -527,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -535,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -549,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8709;) = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2205, EMPTY SET\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(∅)",
           "package": "containers-unicode-symbols",
@@ -559,6 +604,7 @@
         "index": {
           "description": "empty EMPTY SET",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(∅) ∅",
           "package": "containers-unicode-symbols",
@@ -572,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric difference\n\u003c/p\u003e\u003cp\u003ea &#8710; b = (a &#8726; b) &#8746; (b &#8726; a)\n\u003c/p\u003e\u003cp\u003eU+2206, INCREMENT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(∆)",
           "package": "containers-unicode-symbols",
@@ -582,6 +629,7 @@
         "index": {
           "description": "Symmetric difference INCREMENT",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(∆) ∆",
           "normalized": "IntSet-\u003eIntSet-\u003eIntSet",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8712;) = \u003ccode\u003e\u003ca\u003emember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2208, ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(∈)",
           "package": "containers-unicode-symbols",
@@ -607,6 +656,7 @@
         "index": {
           "description": "member ELEMENT OF",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(∈) ∈",
           "normalized": "Int-\u003eIntSet-\u003eBool",
@@ -622,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8713;) = \u003ccode\u003e\u003ca\u003enotMember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2209, NOT AN ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(∉)",
           "package": "containers-unicode-symbols",
@@ -632,6 +683,7 @@
         "index": {
           "description": "notMember NOT AN ELEMENT OF",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(∉) ∉",
           "normalized": "Int-\u003eIntSet-\u003eBool",
@@ -647,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8715;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8712;)\n\u003c/p\u003e\u003cp\u003eU+220B, CONTAINS AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(∋)",
           "package": "containers-unicode-symbols",
@@ -657,6 +710,7 @@
         "index": {
           "description": "flip CONTAINS AS MEMBER",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(∋) ∋",
           "normalized": "IntSet-\u003eInt-\u003eBool",
@@ -672,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8716;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8713;)\n\u003c/p\u003e\u003cp\u003eU+220C, DOES NOT CONTAIN AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(∌)",
           "package": "containers-unicode-symbols",
@@ -682,6 +737,7 @@
         "index": {
           "description": "flip DOES NOT CONTAIN AS MEMBER",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(∌) ∌",
           "normalized": "IntSet-\u003eInt-\u003eBool",
@@ -697,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8726;) = \u003ccode\u003e\u003ca\u003edifference\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2216, SET MINUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(∖)",
           "package": "containers-unicode-symbols",
@@ -707,6 +764,7 @@
         "index": {
           "description": "difference SET MINUS",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(∖) ∖",
           "normalized": "IntSet-\u003eIntSet-\u003eIntSet",
@@ -722,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8745;) = \u003ccode\u003e\u003ca\u003eintersection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2229, INTERSECTION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(∩)",
           "package": "containers-unicode-symbols",
@@ -732,6 +791,7 @@
         "index": {
           "description": "intersection INTERSECTION",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(∩) ∩",
           "normalized": "IntSet-\u003eIntSet-\u003eIntSet",
@@ -747,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8746;) = \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+222A, UNION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(∪)",
           "package": "containers-unicode-symbols",
@@ -757,6 +818,7 @@
         "index": {
           "description": "union UNION",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(∪) ∪",
           "normalized": "IntSet-\u003eIntSet-\u003eIntSet",
@@ -772,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8834;) = \u003ccode\u003e\u003ca\u003eisProperSubsetOf\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2282, SUBSET OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(⊂)",
           "package": "containers-unicode-symbols",
@@ -782,6 +845,7 @@
         "index": {
           "description": "isProperSubsetOf SUBSET OF",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(⊂) ⊂",
           "normalized": "IntSet-\u003eIntSet-\u003eBool",
@@ -797,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8835;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8834;)\n\u003c/p\u003e\u003cp\u003eU+2283, SUPERSET OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(⊃)",
           "package": "containers-unicode-symbols",
@@ -807,6 +872,7 @@
         "index": {
           "description": "flip SUPERSET OF",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(⊃) ⊃",
           "normalized": "IntSet-\u003eIntSet-\u003eBool",
@@ -822,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea &#8836; b = \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e (a &#8834; b)\n\u003c/p\u003e\u003cp\u003eU+2284, NOT A SUBSET OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(⊄)",
           "package": "containers-unicode-symbols",
@@ -832,6 +899,7 @@
         "index": {
           "description": "not NOT SUBSET OF",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(⊄) ⊄",
           "normalized": "IntSet-\u003eIntSet-\u003eBool",
@@ -847,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea &#8837; b = \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e (a &#8835; b)\n\u003c/p\u003e\u003cp\u003eU+2285, NOT A SUPERSET OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(⊅)",
           "package": "containers-unicode-symbols",
@@ -857,6 +926,7 @@
         "index": {
           "description": "not NOT SUPERSET OF",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(⊅) ⊅",
           "normalized": "IntSet-\u003eIntSet-\u003eBool",
@@ -872,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8838;) = \u003ccode\u003e\u003ca\u003eisSubsetOf\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2286, SUBSET OF OR EQUAL TO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(⊆)",
           "package": "containers-unicode-symbols",
@@ -882,6 +953,7 @@
         "index": {
           "description": "isSubsetOf SUBSET OF OR EQUAL TO",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(⊆) ⊆",
           "normalized": "IntSet-\u003eIntSet-\u003eBool",
@@ -897,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8839;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8838;)\n\u003c/p\u003e\u003cp\u003eU+2287, SUPERSET OF OR EQUAL TO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(⊇)",
           "package": "containers-unicode-symbols",
@@ -907,6 +980,7 @@
         "index": {
           "description": "flip SUPERSET OF OR EQUAL TO",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(⊇) ⊇",
           "normalized": "IntSet-\u003eIntSet-\u003eBool",
@@ -922,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea &#8840; b = (a &#8802; b) &#8743; (a &#8836; b)\n\u003c/p\u003e\u003cp\u003eU+2288, NEITHER A SUBSET OF NOR EQUAL TO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(⊈)",
           "package": "containers-unicode-symbols",
@@ -932,6 +1007,7 @@
         "index": {
           "description": "NEITHER SUBSET OF NOR EQUAL TO",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(⊈) ⊈",
           "normalized": "IntSet-\u003eIntSet-\u003eBool",
@@ -947,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea &#8841; b = (a &#8802; b) &#8743; (a &#8837; b)\n\u003c/p\u003e\u003cp\u003eU+2289, NEITHER A SUPERSET OF NOR EQUAL TO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.IntSet.Unicode",
           "name": "(⊉)",
           "package": "containers-unicode-symbols",
@@ -957,6 +1034,7 @@
         "index": {
           "description": "NEITHER SUPERSET OF NOR EQUAL TO",
           "hierarchy": "Data IntSet Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.IntSet.Unicode",
           "name": "(⊉) ⊉",
           "normalized": "IntSet-\u003eIntSet-\u003eBool",
@@ -971,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Lazy.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -979,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Data Map Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Lazy.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -993,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8709;) = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2205, EMPTY SET\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∅)",
           "package": "containers-unicode-symbols",
@@ -1003,6 +1084,7 @@
         "index": {
           "description": "empty EMPTY SET",
           "hierarchy": "Data Map Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∅) ∅",
           "package": "containers-unicode-symbols",
@@ -1016,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric difference\n\u003c/p\u003e\u003cp\u003ea &#8710; b = (a &#8726; b) &#8746; (b &#8726; a)\n\u003c/p\u003e\u003cp\u003eU+2206, INCREMENT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∆)",
           "package": "containers-unicode-symbols",
@@ -1026,6 +1109,7 @@
         "index": {
           "description": "Symmetric difference INCREMENT",
           "hierarchy": "Data Map Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∆) ∆",
           "normalized": "Map a b-\u003eMap a b-\u003eMap a b",
@@ -1041,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8712;) = \u003ccode\u003e\u003ca\u003emember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2208, ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∈)",
           "package": "containers-unicode-symbols",
@@ -1051,6 +1136,7 @@
         "index": {
           "description": "member ELEMENT OF",
           "hierarchy": "Data Map Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∈) ∈",
           "normalized": "a-\u003eMap a b-\u003eBool",
@@ -1066,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8713;) = \u003ccode\u003e\u003ca\u003enotMember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2209, NOT AN ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∉)",
           "package": "containers-unicode-symbols",
@@ -1076,6 +1163,7 @@
         "index": {
           "description": "notMember NOT AN ELEMENT OF",
           "hierarchy": "Data Map Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∉) ∉",
           "normalized": "a-\u003eMap a b-\u003eBool",
@@ -1091,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8715;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8712;)\n\u003c/p\u003e\u003cp\u003eU+220B, CONTAINS AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∋)",
           "package": "containers-unicode-symbols",
@@ -1101,6 +1190,7 @@
         "index": {
           "description": "flip CONTAINS AS MEMBER",
           "hierarchy": "Data Map Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∋) ∋",
           "normalized": "Map a b-\u003ea-\u003eBool",
@@ -1116,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8716;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8713;)\n\u003c/p\u003e\u003cp\u003eU+220C, DOES NOT CONTAIN AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∌)",
           "package": "containers-unicode-symbols",
@@ -1126,6 +1217,7 @@
         "index": {
           "description": "flip DOES NOT CONTAIN AS MEMBER",
           "hierarchy": "Data Map Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∌) ∌",
           "normalized": "Map a b-\u003ea-\u003eBool",
@@ -1141,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8726;) = \u003ccode\u003e\u003ca\u003edifference\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2216, SET MINUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∖)",
           "package": "containers-unicode-symbols",
@@ -1151,6 +1244,7 @@
         "index": {
           "description": "difference SET MINUS",
           "hierarchy": "Data Map Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∖) ∖",
           "normalized": "Map a b-\u003eMap a c-\u003eMap a b",
@@ -1166,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8745;) = \u003ccode\u003e\u003ca\u003eintersection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2229, INTERSECTION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∩)",
           "package": "containers-unicode-symbols",
@@ -1176,6 +1271,7 @@
         "index": {
           "description": "intersection INTERSECTION",
           "hierarchy": "Data Map Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∩) ∩",
           "normalized": "Map a b-\u003eMap a c-\u003eMap a b",
@@ -1191,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8746;) = \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+222A, UNION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∪)",
           "package": "containers-unicode-symbols",
@@ -1201,6 +1298,7 @@
         "index": {
           "description": "union UNION",
           "hierarchy": "Data Map Lazy Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Lazy.Unicode",
           "name": "(∪) ∪",
           "normalized": "Map a b-\u003eMap a b-\u003eMap a b",
@@ -1215,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Strict.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -1223,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Data Map Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Strict.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -1237,6 +1337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8709;) = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2205, EMPTY SET\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∅)",
           "package": "containers-unicode-symbols",
@@ -1247,6 +1348,7 @@
         "index": {
           "description": "empty EMPTY SET",
           "hierarchy": "Data Map Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∅) ∅",
           "package": "containers-unicode-symbols",
@@ -1260,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric difference\n\u003c/p\u003e\u003cp\u003ea &#8710; b = (a &#8726; b) &#8746; (b &#8726; a)\n\u003c/p\u003e\u003cp\u003eU+2206, INCREMENT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∆)",
           "package": "containers-unicode-symbols",
@@ -1270,6 +1373,7 @@
         "index": {
           "description": "Symmetric difference INCREMENT",
           "hierarchy": "Data Map Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∆) ∆",
           "normalized": "Map a b-\u003eMap a b-\u003eMap a b",
@@ -1285,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8712;) = \u003ccode\u003e\u003ca\u003emember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2208, ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∈)",
           "package": "containers-unicode-symbols",
@@ -1295,6 +1400,7 @@
         "index": {
           "description": "member ELEMENT OF",
           "hierarchy": "Data Map Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∈) ∈",
           "normalized": "a-\u003eMap a b-\u003eBool",
@@ -1310,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8713;) = \u003ccode\u003e\u003ca\u003enotMember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2209, NOT AN ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∉)",
           "package": "containers-unicode-symbols",
@@ -1320,6 +1427,7 @@
         "index": {
           "description": "notMember NOT AN ELEMENT OF",
           "hierarchy": "Data Map Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∉) ∉",
           "normalized": "a-\u003eMap a b-\u003eBool",
@@ -1335,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8715;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8712;)\n\u003c/p\u003e\u003cp\u003eU+220B, CONTAINS AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∋)",
           "package": "containers-unicode-symbols",
@@ -1345,6 +1454,7 @@
         "index": {
           "description": "flip CONTAINS AS MEMBER",
           "hierarchy": "Data Map Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∋) ∋",
           "normalized": "Map a b-\u003ea-\u003eBool",
@@ -1360,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8716;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8713;)\n\u003c/p\u003e\u003cp\u003eU+220C, DOES NOT CONTAIN AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∌)",
           "package": "containers-unicode-symbols",
@@ -1370,6 +1481,7 @@
         "index": {
           "description": "flip DOES NOT CONTAIN AS MEMBER",
           "hierarchy": "Data Map Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∌) ∌",
           "normalized": "Map a b-\u003ea-\u003eBool",
@@ -1385,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8726;) = \u003ccode\u003e\u003ca\u003edifference\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2216, SET MINUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∖)",
           "package": "containers-unicode-symbols",
@@ -1395,6 +1508,7 @@
         "index": {
           "description": "difference SET MINUS",
           "hierarchy": "Data Map Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∖) ∖",
           "normalized": "Map a b-\u003eMap a c-\u003eMap a b",
@@ -1410,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8745;) = \u003ccode\u003e\u003ca\u003eintersection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2229, INTERSECTION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∩)",
           "package": "containers-unicode-symbols",
@@ -1420,6 +1535,7 @@
         "index": {
           "description": "intersection INTERSECTION",
           "hierarchy": "Data Map Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∩) ∩",
           "normalized": "Map a b-\u003eMap a c-\u003eMap a b",
@@ -1435,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8746;) = \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+222A, UNION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∪)",
           "package": "containers-unicode-symbols",
@@ -1445,6 +1562,7 @@
         "index": {
           "description": "union UNION",
           "hierarchy": "Data Map Strict Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Strict.Unicode",
           "name": "(∪) ∪",
           "normalized": "Map a b-\u003eMap a b-\u003eMap a b",
@@ -1459,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Map.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -1467,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Data Map Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Map.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -1480,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Sequence.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -1488,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Sequence.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -1502,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8709;) = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2205, EMPTY SET\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Sequence.Unicode",
           "name": "(∅)",
           "package": "containers-unicode-symbols",
@@ -1512,6 +1635,7 @@
         "index": {
           "description": "empty EMPTY SET",
           "hierarchy": "Data Sequence Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Sequence.Unicode",
           "name": "(∅) ∅",
           "package": "containers-unicode-symbols",
@@ -1525,6 +1649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8882;) = (\u003ccode\u003e\u003ca\u003e\u003c|\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eU+22B2, NORMAL SUBGROUP OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Sequence.Unicode",
           "name": "(⊲)",
           "package": "containers-unicode-symbols",
@@ -1535,6 +1660,7 @@
         "index": {
           "description": "B2 NORMAL SUBGROUP OF",
           "hierarchy": "Data Sequence Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Sequence.Unicode",
           "name": "(⊲) ⊲",
           "normalized": "a-\u003eSeq a-\u003eSeq a",
@@ -1550,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8883;) = (\u003ccode\u003e\u003ca\u003e|\u003e\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eU+22B3, CONTAINS AS NORMAL SUBGROUP\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Sequence.Unicode",
           "name": "(⊳)",
           "package": "containers-unicode-symbols",
@@ -1560,6 +1687,7 @@
         "index": {
           "description": "B3 CONTAINS AS NORMAL SUBGROUP",
           "hierarchy": "Data Sequence Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Sequence.Unicode",
           "name": "(⊳) ⊳",
           "normalized": "Seq a-\u003ea-\u003eSeq a",
@@ -1575,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8904;) = (\u003ccode\u003e\u003ca\u003e\u003e\u003c\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eU+22C8, BOWTIE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Sequence.Unicode",
           "name": "(⋈)",
           "package": "containers-unicode-symbols",
@@ -1585,6 +1714,7 @@
         "index": {
           "description": "C8 BOWTIE",
           "hierarchy": "Data Sequence Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Sequence.Unicode",
           "name": "(⋈) ⋈",
           "normalized": "Seq a-\u003eSeq a-\u003eSeq a",
@@ -1599,6 +1729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -1607,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "Unicode",
           "package": "containers-unicode-symbols",
@@ -1621,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8709;) = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2205, EMPTY SET\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(∅)",
           "package": "containers-unicode-symbols",
@@ -1631,6 +1764,7 @@
         "index": {
           "description": "empty EMPTY SET",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(∅) ∅",
           "package": "containers-unicode-symbols",
@@ -1644,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric difference\n\u003c/p\u003e\u003cp\u003ea &#8710; b = (a &#8726; b) &#8746; (b &#8726; a)\n\u003c/p\u003e\u003cp\u003eU+2206, INCREMENT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(∆)",
           "package": "containers-unicode-symbols",
@@ -1654,6 +1789,7 @@
         "index": {
           "description": "Symmetric difference INCREMENT",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(∆) ∆",
           "normalized": "Set a-\u003eSet a-\u003eSet a",
@@ -1669,6 +1805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8712;) = \u003ccode\u003e\u003ca\u003emember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2208, ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(∈)",
           "package": "containers-unicode-symbols",
@@ -1679,6 +1816,7 @@
         "index": {
           "description": "member ELEMENT OF",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(∈) ∈",
           "normalized": "a-\u003eSet a-\u003eBool",
@@ -1694,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8713;) = \u003ccode\u003e\u003ca\u003enotMember\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2209, NOT AN ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(∉)",
           "package": "containers-unicode-symbols",
@@ -1704,6 +1843,7 @@
         "index": {
           "description": "notMember NOT AN ELEMENT OF",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(∉) ∉",
           "normalized": "a-\u003eSet a-\u003eBool",
@@ -1719,6 +1859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8715;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8712;)\n\u003c/p\u003e\u003cp\u003eU+220B, CONTAINS AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(∋)",
           "package": "containers-unicode-symbols",
@@ -1729,6 +1870,7 @@
         "index": {
           "description": "flip CONTAINS AS MEMBER",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(∋) ∋",
           "normalized": "Set a-\u003ea-\u003eBool",
@@ -1744,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8716;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8713;)\n\u003c/p\u003e\u003cp\u003eU+220C, DOES NOT CONTAIN AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(∌)",
           "package": "containers-unicode-symbols",
@@ -1754,6 +1897,7 @@
         "index": {
           "description": "flip DOES NOT CONTAIN AS MEMBER",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(∌) ∌",
           "normalized": "Set a-\u003ea-\u003eBool",
@@ -1769,6 +1913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8726;) = \u003ccode\u003e\u003ca\u003edifference\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2216, SET MINUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(∖)",
           "package": "containers-unicode-symbols",
@@ -1779,6 +1924,7 @@
         "index": {
           "description": "difference SET MINUS",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(∖) ∖",
           "normalized": "Set a-\u003eSet a-\u003eSet a",
@@ -1794,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8745;) = \u003ccode\u003e\u003ca\u003eintersection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2229, INTERSECTION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(∩)",
           "package": "containers-unicode-symbols",
@@ -1804,6 +1951,7 @@
         "index": {
           "description": "intersection INTERSECTION",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(∩) ∩",
           "normalized": "Set a-\u003eSet a-\u003eSet a",
@@ -1819,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8746;) = \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+222A, UNION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(∪)",
           "package": "containers-unicode-symbols",
@@ -1829,6 +1978,7 @@
         "index": {
           "description": "union UNION",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(∪) ∪",
           "normalized": "Set a-\u003eSet a-\u003eSet a",
@@ -1844,6 +1994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8834;) = \u003ccode\u003e\u003ca\u003eisProperSubsetOf\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2282, SUBSET OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(⊂)",
           "package": "containers-unicode-symbols",
@@ -1854,6 +2005,7 @@
         "index": {
           "description": "isProperSubsetOf SUBSET OF",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(⊂) ⊂",
           "normalized": "Set a-\u003eSet a-\u003eBool",
@@ -1869,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8835;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8834;)\n\u003c/p\u003e\u003cp\u003eU+2283, SUPERSET OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(⊃)",
           "package": "containers-unicode-symbols",
@@ -1879,6 +2032,7 @@
         "index": {
           "description": "flip SUPERSET OF",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(⊃) ⊃",
           "normalized": "Set a-\u003eSet a-\u003eBool",
@@ -1894,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea &#8836; b = \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e (a &#8834; b)\n\u003c/p\u003e\u003cp\u003eU+2284, NOT A SUBSET OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(⊄)",
           "package": "containers-unicode-symbols",
@@ -1904,6 +2059,7 @@
         "index": {
           "description": "not NOT SUBSET OF",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(⊄) ⊄",
           "normalized": "Set a-\u003eSet a-\u003eBool",
@@ -1919,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea &#8837; b = \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e (a &#8835; b)\n\u003c/p\u003e\u003cp\u003eU+2285, NOT A SUPERSET OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(⊅)",
           "package": "containers-unicode-symbols",
@@ -1929,6 +2086,7 @@
         "index": {
           "description": "not NOT SUPERSET OF",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(⊅) ⊅",
           "normalized": "Set a-\u003eSet a-\u003eBool",
@@ -1944,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8838;) = \u003ccode\u003e\u003ca\u003eisSubsetOf\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2286, SUBSET OF OR EQUAL TO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(⊆)",
           "package": "containers-unicode-symbols",
@@ -1954,6 +2113,7 @@
         "index": {
           "description": "isSubsetOf SUBSET OF OR EQUAL TO",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(⊆) ⊆",
           "normalized": "Set a-\u003eSet a-\u003eBool",
@@ -1969,6 +2129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8839;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8838;)\n\u003c/p\u003e\u003cp\u003eU+2287, SUPERSET OF OR EQUAL TO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(⊇)",
           "package": "containers-unicode-symbols",
@@ -1979,6 +2140,7 @@
         "index": {
           "description": "flip SUPERSET OF OR EQUAL TO",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(⊇) ⊇",
           "normalized": "Set a-\u003eSet a-\u003eBool",
@@ -1994,6 +2156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea &#8840; b = (a &#8802; b) &#8743; (a &#8836; b)\n\u003c/p\u003e\u003cp\u003eU+2288, NEITHER A SUBSET OF NOR EQUAL TO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(⊈)",
           "package": "containers-unicode-symbols",
@@ -2004,6 +2167,7 @@
         "index": {
           "description": "NEITHER SUBSET OF NOR EQUAL TO",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(⊈) ⊈",
           "normalized": "Set a-\u003eSet a-\u003eBool",
@@ -2019,6 +2183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea &#8841; b = (a &#8802; b) &#8743; (a &#8837; b)\n\u003c/p\u003e\u003cp\u003eU+2289, NEITHER A SUPERSET OF NOR EQUAL TO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:42 UTC 2014",
           "module": "Data.Set.Unicode",
           "name": "(⊉)",
           "package": "containers-unicode-symbols",
@@ -2029,6 +2194,7 @@
         "index": {
           "description": "NEITHER SUPERSET OF NOR EQUAL TO",
           "hierarchy": "Data Set Unicode",
+          "indexed": "2014-03-11T17:39:42",
           "module": "Data.Set.Unicode",
           "name": "(⊉) ⊉",
           "normalized": "Set a-\u003eSet a-\u003eBool",

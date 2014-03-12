@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dpkg"
+        "phrase": "dpkg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DB",
           "name": "DB",
           "package": "dpkg",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DB",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DB",
           "name": "DB",
           "package": "dpkg",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DB",
           "name": "c'dpkg_version_compare",
           "package": "dpkg",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DB",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DB",
           "name": "c'dpkg_version_compare",
           "normalized": "Ptr C'dpkg_version-\u003ePtr C'dpkg_version-\u003eIO CInt",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DB",
           "name": "c'parseversion",
           "package": "dpkg",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DB",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DB",
           "name": "c'parseversion",
           "normalized": "Ptr C'dpkg_version-\u003eCString-\u003ePtr C'dpkg_error-\u003eIO CInt",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DB",
           "name": "msdbInit",
           "package": "dpkg",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DB",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DB",
           "name": "msdbInit",
           "normalized": "IO()",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DB",
           "name": "parseVersion",
           "package": "dpkg",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DB",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DB",
           "name": "parseVersion",
           "normalized": "ByteString-\u003eIO(Either String C'dpkg_version)",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DB",
           "name": "pkgList",
           "package": "dpkg",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DB",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DB",
           "name": "pkgList",
           "normalized": "IO[C'pkginfo]",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DB",
           "name": "setDbDir",
           "package": "dpkg",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DB",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DB",
           "name": "setDbDir",
           "normalized": "String-\u003eIO()",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "DpkgVersion",
           "package": "dpkg",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DpkgVersion",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "DpkgVersion",
           "package": "dpkg",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "DpkgVersion",
           "package": "dpkg",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DpkgVersion",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "DpkgVersion",
           "package": "dpkg",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "DpkgVersion",
           "package": "dpkg",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DpkgVersion",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "DpkgVersion",
           "package": "dpkg",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "getConfigVersion",
           "package": "dpkg",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DpkgVersion",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "getConfigVersion",
           "normalized": "C'pkginfo-\u003eIO String",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "peekDpkgVersion",
           "package": "dpkg",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DpkgVersion",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "peekDpkgVersion",
           "normalized": "C'dpkg_version-\u003eIO DpkgVersion",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "vr_epoch",
           "package": "dpkg",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DpkgVersion",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "vr_epoch",
           "package": "dpkg",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "vr_revision",
           "package": "dpkg",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DpkgVersion",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "vr_revision",
           "package": "dpkg",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "vr_version",
           "package": "dpkg",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg DpkgVersion",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.DpkgVersion",
           "name": "vr_version",
           "package": "dpkg",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Enums",
           "package": "dpkg",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Enums",
           "package": "dpkg",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "PkgEflag",
           "package": "dpkg",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "PkgEflag",
           "package": "dpkg",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "PkgPriority",
           "package": "dpkg",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "PkgPriority",
           "package": "dpkg",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "PkgStatus",
           "package": "dpkg",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "PkgStatus",
           "package": "dpkg",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "PkgWant",
           "package": "dpkg",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "PkgWant",
           "package": "dpkg",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Eflag_ok",
           "package": "dpkg",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Eflag_ok",
           "package": "dpkg",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Eflag_reinstreq",
           "package": "dpkg",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Eflag_reinstreq",
           "package": "dpkg",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_extra",
           "package": "dpkg",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_extra",
           "package": "dpkg",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_important",
           "package": "dpkg",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_important",
           "package": "dpkg",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_optional",
           "package": "dpkg",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_optional",
           "package": "dpkg",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_other",
           "package": "dpkg",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_other",
           "package": "dpkg",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_required",
           "package": "dpkg",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_required",
           "package": "dpkg",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_standard",
           "package": "dpkg",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_standard",
           "package": "dpkg",
@@ -637,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_unknown",
           "package": "dpkg",
@@ -646,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_unknown",
           "package": "dpkg",
@@ -659,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_unset",
           "package": "dpkg",
@@ -668,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Pri_unset",
           "package": "dpkg",
@@ -681,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_configfiles",
           "package": "dpkg",
@@ -690,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_configfiles",
           "package": "dpkg",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_halfconfigured",
           "package": "dpkg",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_halfconfigured",
           "package": "dpkg",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_halfinstalled",
           "package": "dpkg",
@@ -734,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_halfinstalled",
           "package": "dpkg",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_installed",
           "package": "dpkg",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_installed",
           "package": "dpkg",
@@ -769,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_notinstalled",
           "package": "dpkg",
@@ -778,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_notinstalled",
           "package": "dpkg",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_triggersawaited",
           "package": "dpkg",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_triggersawaited",
           "package": "dpkg",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_triggerspending",
           "package": "dpkg",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_triggerspending",
           "package": "dpkg",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_unpacked",
           "package": "dpkg",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Stat_unpacked",
           "package": "dpkg",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_deinstall",
           "package": "dpkg",
@@ -866,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_deinstall",
           "package": "dpkg",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_hold",
           "package": "dpkg",
@@ -888,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_hold",
           "package": "dpkg",
@@ -901,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_install",
           "package": "dpkg",
@@ -910,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_install",
           "package": "dpkg",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_purge",
           "package": "dpkg",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_purge",
           "package": "dpkg",
@@ -945,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_sentinel",
           "package": "dpkg",
@@ -954,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_sentinel",
           "package": "dpkg",
@@ -967,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_unknown",
           "package": "dpkg",
@@ -976,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Enums",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Enums",
           "name": "Want_unknown",
           "package": "dpkg",
@@ -989,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.PkgSpec",
           "name": "PkgSpec",
           "package": "dpkg",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg PkgSpec",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.PkgSpec",
           "name": "PkgSpec",
           "package": "dpkg",
@@ -1010,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.PkgSpec",
           "name": "pkgSpecParsePkg",
           "package": "dpkg",
@@ -1019,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg PkgSpec",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.PkgSpec",
           "name": "pkgSpecParsePkg",
           "normalized": "String-\u003eIO C'pkginfo",
@@ -1034,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "Types",
           "package": "dpkg",
@@ -1042,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "Types",
           "package": "dpkg",
@@ -1055,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'dpkg_error",
           "package": "dpkg",
@@ -1063,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'dpkg_error",
           "package": "dpkg",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'dpkg_msg_type",
           "package": "dpkg",
@@ -1084,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'dpkg_msg_type",
           "package": "dpkg",
@@ -1097,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'dpkg_version",
           "package": "dpkg",
@@ -1105,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'dpkg_version",
           "package": "dpkg",
@@ -1118,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'filedetails",
           "package": "dpkg",
@@ -1126,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'filedetails",
           "package": "dpkg",
@@ -1139,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'perpackagestate",
           "package": "dpkg",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'perpackagestate",
           "package": "dpkg",
@@ -1160,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgbin",
           "package": "dpkg",
@@ -1168,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgbin",
           "package": "dpkg",
@@ -1181,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgeflag",
           "package": "dpkg",
@@ -1189,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgeflag",
           "package": "dpkg",
@@ -1202,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkginfo",
           "package": "dpkg",
@@ -1210,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkginfo",
           "package": "dpkg",
@@ -1223,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgiterator",
           "package": "dpkg",
@@ -1231,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgiterator",
           "package": "dpkg",
@@ -1244,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgpriority",
           "package": "dpkg",
@@ -1252,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgpriority",
           "package": "dpkg",
@@ -1265,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgset",
           "package": "dpkg",
@@ -1273,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgset",
           "package": "dpkg",
@@ -1286,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgstatus",
           "package": "dpkg",
@@ -1294,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgstatus",
           "package": "dpkg",
@@ -1307,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgwant",
           "package": "dpkg",
@@ -1315,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgwant",
           "package": "dpkg",
@@ -1328,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'dpkg_error",
           "package": "dpkg",
@@ -1337,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'dpkg_error",
           "package": "dpkg",
@@ -1350,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'dpkg_version",
           "package": "dpkg",
@@ -1359,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'dpkg_version",
           "package": "dpkg",
@@ -1372,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'filedetails",
           "package": "dpkg",
@@ -1381,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'filedetails",
           "package": "dpkg",
@@ -1394,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'perpackagestate",
           "package": "dpkg",
@@ -1403,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'perpackagestate",
           "package": "dpkg",
@@ -1416,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgbin",
           "package": "dpkg",
@@ -1425,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgbin",
           "package": "dpkg",
@@ -1438,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkginfo",
           "package": "dpkg",
@@ -1447,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkginfo",
           "package": "dpkg",
@@ -1460,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgiterator",
           "package": "dpkg",
@@ -1469,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgiterator",
           "package": "dpkg",
@@ -1482,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgset",
           "package": "dpkg",
@@ -1491,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "C'pkgset",
           "package": "dpkg",
@@ -1504,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'dpkg_error'str",
           "package": "dpkg",
@@ -1513,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'dpkg_error'str",
           "package": "dpkg",
@@ -1525,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'dpkg_error'type",
           "package": "dpkg",
@@ -1534,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'dpkg_error'type",
           "package": "dpkg",
@@ -1546,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'dpkg_version'epoch",
           "package": "dpkg",
@@ -1555,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'dpkg_version'epoch",
           "package": "dpkg",
@@ -1567,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'dpkg_version'revision",
           "package": "dpkg",
@@ -1576,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'dpkg_version'revision",
           "package": "dpkg",
@@ -1588,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'dpkg_version'version",
           "package": "dpkg",
@@ -1597,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'dpkg_version'version",
           "package": "dpkg",
@@ -1609,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'filedetails'md5sum",
           "package": "dpkg",
@@ -1618,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'filedetails'md5sum",
           "package": "dpkg",
@@ -1630,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'filedetails'msdosname",
           "package": "dpkg",
@@ -1639,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'filedetails'msdosname",
           "package": "dpkg",
@@ -1651,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'filedetails'name",
           "package": "dpkg",
@@ -1660,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'filedetails'name",
           "package": "dpkg",
@@ -1672,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'filedetails'next",
           "package": "dpkg",
@@ -1681,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'filedetails'next",
           "package": "dpkg",
@@ -1693,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'filedetails'size",
           "package": "dpkg",
@@ -1702,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'filedetails'size",
           "package": "dpkg",
@@ -1714,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'arch_next",
           "package": "dpkg",
@@ -1723,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'arch_next",
           "package": "dpkg",
@@ -1735,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'available",
           "package": "dpkg",
@@ -1744,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'available",
           "package": "dpkg",
@@ -1756,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'clientdata",
           "package": "dpkg",
@@ -1765,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'clientdata",
           "package": "dpkg",
@@ -1777,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'configversion",
           "package": "dpkg",
@@ -1786,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'configversion",
           "package": "dpkg",
@@ -1798,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'eflag",
           "package": "dpkg",
@@ -1807,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'eflag",
           "package": "dpkg",
@@ -1819,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'files",
           "package": "dpkg",
@@ -1828,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'files",
           "package": "dpkg",
@@ -1840,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'installed",
           "package": "dpkg",
@@ -1849,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'installed",
           "package": "dpkg",
@@ -1861,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'otherpriority",
           "package": "dpkg",
@@ -1870,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'otherpriority",
           "package": "dpkg",
@@ -1882,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'priority",
           "package": "dpkg",
@@ -1891,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'priority",
           "package": "dpkg",
@@ -1903,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'section",
           "package": "dpkg",
@@ -1912,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'section",
           "package": "dpkg",
@@ -1924,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'set",
           "package": "dpkg",
@@ -1933,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'set",
           "package": "dpkg",
@@ -1945,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'status",
           "package": "dpkg",
@@ -1954,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'status",
           "package": "dpkg",
@@ -1966,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'want",
           "package": "dpkg",
@@ -1975,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkginfo'want",
           "package": "dpkg",
@@ -1987,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkgset'name",
           "package": "dpkg",
@@ -1996,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkgset'name",
           "package": "dpkg",
@@ -2008,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkgset'next",
           "package": "dpkg",
@@ -2017,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkgset'next",
           "package": "dpkg",
@@ -2029,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkgset'pkg",
           "package": "dpkg",
@@ -2038,6 +2225,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "c'pkgset'pkg",
           "package": "dpkg",
@@ -2050,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'dpkg_error'str",
           "package": "dpkg",
@@ -2059,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'dpkg_error'str",
           "normalized": "Ptr C'dpkg_error-\u003ePtr CString",
@@ -2073,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'dpkg_error'type",
           "package": "dpkg",
@@ -2082,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'dpkg_error'type",
           "normalized": "Ptr C'dpkg_error-\u003ePtr C'dpkg_msg_type",
@@ -2096,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'dpkg_version'epoch",
           "package": "dpkg",
@@ -2105,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'dpkg_version'epoch",
           "normalized": "Ptr C'dpkg_version-\u003ePtr CInt",
@@ -2119,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'dpkg_version'revision",
           "package": "dpkg",
@@ -2128,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'dpkg_version'revision",
           "normalized": "Ptr C'dpkg_version-\u003ePtr CString",
@@ -2142,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'dpkg_version'version",
           "package": "dpkg",
@@ -2151,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'dpkg_version'version",
           "normalized": "Ptr C'dpkg_version-\u003ePtr CString",
@@ -2165,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'filedetails'md5sum",
           "package": "dpkg",
@@ -2174,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'filedetails'md5sum",
           "normalized": "Ptr C'filedetails-\u003ePtr CString",
@@ -2188,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'filedetails'msdosname",
           "package": "dpkg",
@@ -2197,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'filedetails'msdosname",
           "normalized": "Ptr C'filedetails-\u003ePtr CString",
@@ -2211,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'filedetails'name",
           "package": "dpkg",
@@ -2220,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'filedetails'name",
           "normalized": "Ptr C'filedetails-\u003ePtr CString",
@@ -2234,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'filedetails'next",
           "package": "dpkg",
@@ -2243,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'filedetails'next",
           "normalized": "Ptr C'filedetails-\u003ePtr(Ptr C'filedetails)",
@@ -2257,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'filedetails'size",
           "package": "dpkg",
@@ -2266,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'filedetails'size",
           "normalized": "Ptr C'filedetails-\u003ePtr CString",
@@ -2280,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'arch_next",
           "package": "dpkg",
@@ -2289,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'arch_next",
           "normalized": "Ptr C'pkginfo-\u003ePtr(Ptr C'pkginfo)",
@@ -2303,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'available",
           "package": "dpkg",
@@ -2312,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'available",
           "normalized": "Ptr C'pkginfo-\u003ePtr C'pkgbin",
@@ -2326,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'clientdata",
           "package": "dpkg",
@@ -2335,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'clientdata",
           "normalized": "Ptr C'pkginfo-\u003ePtr(Ptr C'perpackagestate)",
@@ -2349,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'configversion",
           "package": "dpkg",
@@ -2358,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'configversion",
           "normalized": "Ptr C'pkginfo-\u003ePtr C'dpkg_version",
@@ -2372,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'eflag",
           "package": "dpkg",
@@ -2381,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'eflag",
           "normalized": "Ptr C'pkginfo-\u003ePtr C'pkgeflag",
@@ -2395,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'files",
           "package": "dpkg",
@@ -2404,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'files",
           "normalized": "Ptr C'pkginfo-\u003ePtr(Ptr C'filedetails)",
@@ -2418,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'installed",
           "package": "dpkg",
@@ -2427,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'installed",
           "normalized": "Ptr C'pkginfo-\u003ePtr C'pkgbin",
@@ -2441,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'otherpriority",
           "package": "dpkg",
@@ -2450,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'otherpriority",
           "normalized": "Ptr C'pkginfo-\u003ePtr CString",
@@ -2464,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'priority",
           "package": "dpkg",
@@ -2473,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'priority",
           "normalized": "Ptr C'pkginfo-\u003ePtr C'pkgpriority",
@@ -2487,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'section",
           "package": "dpkg",
@@ -2496,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'section",
           "normalized": "Ptr C'pkginfo-\u003ePtr CString",
@@ -2510,6 +2738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'set",
           "package": "dpkg",
@@ -2519,6 +2748,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'set",
           "normalized": "Ptr C'pkginfo-\u003ePtr(Ptr C'pkgset)",
@@ -2533,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'status",
           "package": "dpkg",
@@ -2542,6 +2773,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'status",
           "normalized": "Ptr C'pkginfo-\u003ePtr C'pkgstatus",
@@ -2556,6 +2788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'want",
           "package": "dpkg",
@@ -2565,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkginfo'want",
           "normalized": "Ptr C'pkginfo-\u003ePtr C'pkgwant",
@@ -2579,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkgset'name",
           "package": "dpkg",
@@ -2588,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkgset'name",
           "normalized": "Ptr C'pkgset-\u003ePtr CString",
@@ -2602,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkgset'next",
           "package": "dpkg",
@@ -2611,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkgset'next",
           "normalized": "Ptr C'pkgset-\u003ePtr(Ptr C'pkgset)",
@@ -2625,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkgset'pkg",
           "package": "dpkg",
@@ -2634,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg Types",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg.Types",
           "name": "p'pkgset'pkg",
           "normalized": "Ptr C'pkgset-\u003ePtr C'pkginfo",
@@ -2648,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:57 UTC 2014",
           "module": "Debian.Dpkg",
           "name": "Dpkg",
           "package": "dpkg",
@@ -2656,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Debian Dpkg",
+          "indexed": "2014-03-11T17:58:57",
           "module": "Debian.Dpkg",
           "name": "Dpkg",
           "package": "dpkg",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "apache-md5"
+        "phrase": "apache-md5",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eApacheMD5 is one of the hash algorithms used by Apache HTTP server for basic\n authentication. It is Apache specific, but e.g. nginx supports this\n algorithm since version 1.0.3\n \u003ca\u003ehttp://wiki.nginx.org/HttpAuthBasicModule#auth_basic_user_file\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis is a naive implementation that doesn't aim for high speed, but to be\n reasonably fast it uses \u003ccode\u003eMD5()\u003c/code\u003e function from OpenSSL library so during\n compilation you'll nead to have it installed including header files.\n Many Linux distributions have separate dev packages for this.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:33 UTC 2014",
           "module": "Data.Digest.ApacheMD5",
           "name": "ApacheMD5",
           "package": "apache-md5",
@@ -28,6 +29,7 @@
         "index": {
           "description": "ApacheMD5 is one of the hash algorithms used by Apache HTTP server for basic authentication It is Apache specific but e.g nginx supports this algorithm since version http wiki.nginx.org HttpAuthBasicModule auth basic user file This is naive implementation that doesn aim for high speed but to be reasonably fast it uses MD5 function from OpenSSL library so during compilation you ll nead to have it installed including header files Many Linux distributions have separate dev packages for this",
           "hierarchy": "Data Digest ApacheMD5",
+          "indexed": "2014-03-11T17:11:33",
           "module": "Data.Digest.ApacheMD5",
           "name": "ApacheMD5",
           "package": "apache-md5",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlphabet used by \u003ccode\u003e\u003ca\u003eencode64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:33 UTC 2014",
           "module": "Data.Digest.ApacheMD5",
           "name": "alpha64",
           "package": "apache-md5",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Alphabet used by encode64",
           "hierarchy": "Data Digest ApacheMD5",
+          "indexed": "2014-03-11T17:11:33",
           "module": "Data.Digest.ApacheMD5",
           "name": "alpha64",
           "package": "apache-md5",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTaking password and salt this function produces resulting ApacheMD5 hash\n which is already base 64 encoded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:33 UTC 2014",
           "module": "Data.Digest.ApacheMD5",
           "name": "apacheMD5",
           "package": "apache-md5",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Taking password and salt this function produces resulting ApacheMD5 hash which is already base encoded",
           "hierarchy": "Data Digest ApacheMD5",
+          "indexed": "2014-03-11T17:11:33",
           "module": "Data.Digest.ApacheMD5",
           "name": "apacheMD5",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw Apache MD5 implementation that is parametrized by MD5 implementation\n and doesn't encode result in to base 64.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:33 UTC 2014",
           "module": "Data.Digest.ApacheMD5",
           "name": "apacheMD5'",
           "package": "apache-md5",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Raw Apache MD5 implementation that is parametrized by MD5 implementation and doesn encode result in to base",
           "hierarchy": "Data Digest ApacheMD5",
+          "indexed": "2014-03-11T17:11:33",
           "module": "Data.Digest.ApacheMD5",
           "name": "apacheMD5'",
           "normalized": "(ByteString-\u003eByteString)-\u003eByteString-\u003eByteString-\u003eByteString",
@@ -115,6 +123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:33 UTC 2014",
           "module": "Data.Digest.ApacheMD5",
           "name": "encode64",
           "package": "apache-md5",
@@ -124,6 +133,7 @@
         },
         "index": {
           "hierarchy": "Data Digest ApacheMD5",
+          "indexed": "2014-03-11T17:11:33",
           "module": "Data.Digest.ApacheMD5",
           "name": "encode64",
           "normalized": "ByteString-\u003eByteString",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:33 UTC 2014",
           "module": "Data.Digest.ApacheMD5",
           "name": "md5DigestLength",
           "package": "apache-md5",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Data Digest ApacheMD5",
+          "indexed": "2014-03-11T17:11:33",
           "module": "Data.Digest.ApacheMD5",
           "name": "md5DigestLength",
           "package": "apache-md5",

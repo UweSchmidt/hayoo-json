@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "geodetic"
+        "phrase": "geodetic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn azimuth in degrees between 0 and 360.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "Azimuth",
           "package": "geodetic",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An azimuth in degrees between and",
           "hierarchy": "Data Geo Geodetic Azimuth",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "Azimuth",
           "package": "geodetic",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "Azimuth",
           "package": "geodetic",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Azimuth",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "Azimuth",
           "package": "geodetic",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "HasAzimuth",
           "package": "geodetic",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Azimuth",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "HasAzimuth",
           "package": "geodetic",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "azimuth",
           "package": "geodetic",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Azimuth",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "azimuth",
           "package": "geodetic",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an azimuth such that if the given value is out of bounds,\n a modulus is taken to keep it within 0 inclusive and 360 exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodAzimuth 7\n\u003c/code\u003e\u003c/strong\u003eAzimuth 7.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodAzimuth 0\n\u003c/code\u003e\u003c/strong\u003eAzimuth 0.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodAzimuth 360\n\u003c/code\u003e\u003c/strong\u003eAzimuth 0.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodAzimuth 361\n\u003c/code\u003e\u003c/strong\u003eAzimuth 1.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodAzimuth 359.999\n\u003c/code\u003e\u003c/strong\u003eAzimuth 359.9990\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "modAzimuth",
           "package": "geodetic",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Construct an azimuth such that if the given value is out of bounds modulus is taken to keep it within inclusive and exclusive modAzimuth Azimuth modAzimuth Azimuth modAzimuth Azimuth modAzimuth Azimuth modAzimuth Azimuth",
           "hierarchy": "Data Geo Geodetic Azimuth",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "modAzimuth",
           "normalized": "Double-\u003eAzimuth",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prism on azimuth to an integer between 0 and 359 inclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7 ^? nAzimuth\n\u003c/code\u003e\u003c/strong\u003eJust (Azimuth 7.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0 ^? nAzimuth\n\u003c/code\u003e\u003c/strong\u003eJust (Azimuth 0.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e359.999 ^? nAzimuth\n\u003c/code\u003e\u003c/strong\u003eJust (Azimuth 359.9990)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e360 ^? nAzimuth\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre\u003eall (\\m -\u003e nAzimuth # m == n) (n ^? nAzimuth)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "nAzimuth",
           "package": "geodetic",
@@ -141,6 +152,7 @@
         "index": {
           "description": "prism on azimuth to an integer between and inclusive nAzimuth Just Azimuth nAzimuth Just Azimuth nAzimuth Just Azimuth nAzimuth Nothing all nAzimuth nAzimuth",
           "hierarchy": "Data Geo Geodetic Azimuth",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Azimuth",
           "name": "nAzimuth",
           "package": "geodetic",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA bearing in degrees between 0 and 360.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "Bearing",
           "package": "geodetic",
@@ -164,6 +177,7 @@
         "index": {
           "description": "bearing in degrees between and",
           "hierarchy": "Data Geo Geodetic Bearing",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "Bearing",
           "package": "geodetic",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "Bearing",
           "package": "geodetic",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Bearing",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "Bearing",
           "package": "geodetic",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "HasBearing",
           "package": "geodetic",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Bearing",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "HasBearing",
           "package": "geodetic",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "bearing",
           "package": "geodetic",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Bearing",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "bearing",
           "package": "geodetic",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prism on bearing to a double between 0 inclusive and 360 exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7 ^? degreeBearing\n\u003c/code\u003e\u003c/strong\u003eJust (Bearing 7.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0 ^? degreeBearing\n\u003c/code\u003e\u003c/strong\u003eJust (Bearing 0.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e359 ^? degreeBearing\n\u003c/code\u003e\u003c/strong\u003eJust (Bearing 359.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e359.997 ^? degreeBearing\n\u003c/code\u003e\u003c/strong\u003eJust (Bearing 359.9970)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e360 ^? degreeBearing\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre\u003eall (\\m -\u003e degreeBearing # m == n) (n ^? degreeBearing)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "degreeBearing",
           "package": "geodetic",
@@ -251,6 +272,7 @@
         "index": {
           "description": "prism on bearing to double between inclusive and exclusive degreeBearing Just Bearing degreeBearing Just Bearing degreeBearing Just Bearing degreeBearing Just Bearing degreeBearing Nothing all degreeBearing degreeBearing",
           "hierarchy": "Data Geo Geodetic Bearing",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "degreeBearing",
           "package": "geodetic",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a bearing such that if the given value is out of bounds,\n a modulus is taken to keep it within 0 inclusive and 360 exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodBearing 7\n\u003c/code\u003e\u003c/strong\u003eBearing 7.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodBearing 0\n\u003c/code\u003e\u003c/strong\u003eBearing 0.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodBearing (-0.0001)\n\u003c/code\u003e\u003c/strong\u003eBearing 359.9999\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodBearing 360\n\u003c/code\u003e\u003c/strong\u003eBearing 0.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodBearing 359.99999\n\u003c/code\u003e\u003c/strong\u003eBearing 360.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodBearing 359.999\n\u003c/code\u003e\u003c/strong\u003eBearing 359.9990\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "modBearing",
           "package": "geodetic",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Construct bearing such that if the given value is out of bounds modulus is taken to keep it within inclusive and exclusive modBearing Bearing modBearing Bearing modBearing Bearing modBearing Bearing modBearing Bearing modBearing Bearing",
           "hierarchy": "Data Geo Geodetic Bearing",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "modBearing",
           "normalized": "Double-\u003eBearing",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prism on bearing to a double between 0 and &#960; exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(2 * pi - 0.0000000001) ^? radianBearing\n\u003c/code\u003e\u003c/strong\u003eJust (Bearing 360.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0 ^? radianBearing\n\u003c/code\u003e\u003c/strong\u003eJust (Bearing 0.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0.001 ^? radianBearing\n\u003c/code\u003e\u003c/strong\u003eJust (Bearing 0.0573)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e1.78391 ^? radianBearing\n\u003c/code\u003e\u003c/strong\u003eJust (Bearing 102.2105)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003epi ^? radianBearing\n\u003c/code\u003e\u003c/strong\u003eJust (Bearing 180.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(2 * pi) ^? radianBearing\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-0.001) ^? radianBearing\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "radianBearing",
           "package": "geodetic",
@@ -301,6 +326,7 @@
         "index": {
           "description": "prism on bearing to double between and exclusive pi radianBearing Just Bearing radianBearing Just Bearing radianBearing Just Bearing radianBearing Just Bearing pi radianBearing Just Bearing pi radianBearing Nothing radianBearing Nothing",
           "hierarchy": "Data Geo Geodetic Bearing",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Bearing",
           "name": "radianBearing",
           "package": "geodetic",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA geodetic curve is made of a distance in metres, an azimuth and a reverse azimuth.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "Curve",
           "package": "geodetic",
@@ -324,6 +351,7 @@
         "index": {
           "description": "geodetic curve is made of distance in metres an azimuth and reverse azimuth",
           "hierarchy": "Data Geo Geodetic Curve",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "Curve",
           "package": "geodetic",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "Curve",
           "package": "geodetic",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Curve",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "Curve",
           "package": "geodetic",
@@ -359,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a geodetic curve with the given parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "curve",
           "package": "geodetic",
@@ -368,6 +399,7 @@
         "index": {
           "description": "Construct geodetic curve with the given parameters",
           "hierarchy": "Data Geo Geodetic Curve",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "curve",
           "normalized": "Double-\u003eAzimuth-\u003eAzimuth-\u003eCurve",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "curveAzimuth",
           "package": "geodetic",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Curve",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "curveAzimuth",
           "package": "geodetic",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "curveDistance",
           "package": "geodetic",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Curve",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "curveDistance",
           "package": "geodetic",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "curveReverseAzimuth",
           "package": "geodetic",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Curve",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Curve",
           "name": "curveReverseAzimuth",
           "package": "geodetic",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "Ellipsoid",
           "package": "geodetic",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "Ellipsoid",
           "package": "geodetic",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "Ellipsoid",
           "package": "geodetic",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "Ellipsoid",
           "package": "geodetic",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "HasEllipsoid",
           "package": "geodetic",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "HasEllipsoid",
           "package": "geodetic",
@@ -511,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "HasFlattening",
           "package": "geodetic",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "HasFlattening",
           "package": "geodetic",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "HasInverseFlattening",
           "package": "geodetic",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "HasInverseFlattening",
           "package": "geodetic",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "HasSemiMajor",
           "package": "geodetic",
@@ -561,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "HasSemiMajor",
           "package": "geodetic",
@@ -574,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "HasSemiMinor",
           "package": "geodetic",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "HasSemiMinor",
           "package": "geodetic",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "airy1830",
           "package": "geodetic",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "airy1830",
           "package": "geodetic",
@@ -616,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "ans",
           "package": "geodetic",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "ans",
           "package": "geodetic",
@@ -637,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "au1965",
           "package": "geodetic",
@@ -646,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "au1965",
           "package": "geodetic",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "bessel1841",
           "package": "geodetic",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "bessel1841",
           "package": "geodetic",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "clarke1858",
           "package": "geodetic",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "clarke1858",
           "package": "geodetic",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "clarke1866",
           "package": "geodetic",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "clarke1866",
           "package": "geodetic",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "clarke1880",
           "package": "geodetic",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "clarke1880",
           "package": "geodetic",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "ellipsoid",
           "package": "geodetic",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "ellipsoid",
           "package": "geodetic",
@@ -763,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "everest1830",
           "package": "geodetic",
@@ -772,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "everest1830",
           "package": "geodetic",
@@ -784,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "flattening",
           "package": "geodetic",
@@ -793,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "flattening",
           "package": "geodetic",
@@ -805,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "grs67",
           "package": "geodetic",
@@ -814,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "grs67",
           "package": "geodetic",
@@ -826,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "grs80",
           "package": "geodetic",
@@ -835,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "grs80",
           "package": "geodetic",
@@ -847,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "hayford1909",
           "package": "geodetic",
@@ -856,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "hayford1909",
           "package": "geodetic",
@@ -868,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "international1924",
           "package": "geodetic",
@@ -877,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "international1924",
           "package": "geodetic",
@@ -889,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "inverseFlattening",
           "package": "geodetic",
@@ -898,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "inverseFlattening",
           "package": "geodetic",
@@ -911,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "krasovsky1940",
           "package": "geodetic",
@@ -920,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "krasovsky1940",
           "package": "geodetic",
@@ -932,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMajor",
           "package": "geodetic",
@@ -941,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMajor",
           "package": "geodetic",
@@ -954,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMajorFlattening",
           "package": "geodetic",
@@ -962,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMajorFlattening",
           "normalized": "Double-\u003eDouble-\u003eEllipsoid",
@@ -977,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMajorInverseFlattening",
           "package": "geodetic",
@@ -985,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMajorInverseFlattening",
           "normalized": "Double-\u003eDouble-\u003eEllipsoid",
@@ -1000,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMinor",
           "package": "geodetic",
@@ -1009,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMinor",
           "package": "geodetic",
@@ -1022,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMinorFlattening",
           "package": "geodetic",
@@ -1030,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMinorFlattening",
           "normalized": "Double-\u003eDouble-\u003eEllipsoid",
@@ -1045,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMinorInverseFlattening",
           "package": "geodetic",
@@ -1053,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "semiMinorInverseFlattening",
           "normalized": "Double-\u003eDouble-\u003eEllipsoid",
@@ -1068,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "wgs72",
           "package": "geodetic",
@@ -1077,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "wgs72",
           "package": "geodetic",
@@ -1089,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "wgs84",
           "package": "geodetic",
@@ -1098,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Ellipsoid",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Ellipsoid",
           "name": "wgs84",
           "package": "geodetic",
@@ -1111,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGreat circle geodetic distance algorithm.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.GreatCircle",
           "name": "GreatCircle",
           "package": "geodetic",
@@ -1120,6 +1221,7 @@
         "index": {
           "description": "Great circle geodetic distance algorithm",
           "hierarchy": "Data Geo Geodetic GreatCircle",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.GreatCircle",
           "name": "GreatCircle",
           "package": "geodetic",
@@ -1134,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreat circle spherical law algorithm.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (sphericalLaw earthMean fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"15000950.5589\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- (-16.7889) ..#.. 41.935; to \u003c- 6.933 ..#.. (-162.55); return (sphericalLaw earthMean fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"17128743.0669\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (sphericalLaw (6350000 ^. nSphere) fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"14959840.4461\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- (-16.7889) ..#.. 41.935; to \u003c- 6.933 ..#.. (-162.55); return (sphericalLaw (6350000 ^. nSphere) fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"17081801.7377\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.GreatCircle",
           "name": "sphericalLaw",
           "package": "geodetic",
@@ -1143,6 +1246,7 @@
         "index": {
           "description": "Great circle spherical law algorithm fmap printf do fr to return sphericalLaw earthMean fr to Maybe String Just fmap printf do fr to return sphericalLaw earthMean fr to Maybe String Just fmap printf do fr to return sphericalLaw nSphere fr to Maybe String Just fmap printf do fr to return sphericalLaw nSphere fr to Maybe String Just",
           "hierarchy": "Data Geo Geodetic GreatCircle",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.GreatCircle",
           "name": "sphericalLaw",
           "normalized": "Sphere-\u003ea-\u003ea-\u003eDouble",
@@ -1159,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreat circle spherical law algorithm with an optionally applied default sphere of the earth mean.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (sphericalLaw' fr to :: Double)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"15000950.5589\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- (-16.7889) ..#.. 41.935; to \u003c- 6.933 ..#.. (-162.55); return (sphericalLaw' fr to :: Double)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"17128743.0669\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.GreatCircle",
           "name": "sphericalLaw'",
           "package": "geodetic",
@@ -1169,6 +1274,7 @@
         "index": {
           "description": "Great circle spherical law algorithm with an optionally applied default sphere of the earth mean fmap printf do fr to return sphericalLaw fr to Double Maybe String Just fmap printf do fr to return sphericalLaw fr to Double Maybe String Just",
           "hierarchy": "Data Geo Geodetic GreatCircle",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.GreatCircle",
           "name": "sphericalLaw'",
           "package": "geodetic",
@@ -1183,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreat circle spherical law algorithm with a default sphere of the earth mean.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (sphericalLawD fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"15000950.5589\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- (-16.7889) ..#.. 41.935; to \u003c- 6.933 ..#.. (-162.55); return (sphericalLawD fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"17128743.0669\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.GreatCircle",
           "name": "sphericalLawD",
           "package": "geodetic",
@@ -1192,6 +1299,7 @@
         "index": {
           "description": "Great circle spherical law algorithm with default sphere of the earth mean fmap printf do fr to return sphericalLawD fr to Maybe String Just fmap printf do fr to return sphericalLawD fr to Maybe String Just",
           "hierarchy": "Data Geo Geodetic GreatCircle",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.GreatCircle",
           "name": "sphericalLawD",
           "normalized": "a-\u003ea-\u003eDouble",
@@ -1208,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaversine geodetic distance algorithm.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Haversine",
           "name": "Haversine",
           "package": "geodetic",
@@ -1217,6 +1326,7 @@
         "index": {
           "description": "Haversine geodetic distance algorithm",
           "hierarchy": "Data Geo Geodetic Haversine",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Haversine",
           "name": "Haversine",
           "package": "geodetic",
@@ -1231,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaversine algorithm.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (haversine earthMean fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"15000950.5589\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- (-16.7889) ..#.. 41.935; to \u003c- 6.933 ..#.. (-162.55); return (haversine earthMean fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"17128743.0669\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (haversine (6350000 ^. nSphere) fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"14959840.4461\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- (-16.7889) ..#.. 41.935; to \u003c- 6.933 ..#.. (-162.55); return (haversine (6350000 ^. nSphere) fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"17081801.7377\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Haversine",
           "name": "haversine",
           "package": "geodetic",
@@ -1240,6 +1351,7 @@
         "index": {
           "description": "Haversine algorithm fmap printf do fr to return haversine earthMean fr to Maybe String Just fmap printf do fr to return haversine earthMean fr to Maybe String Just fmap printf do fr to return haversine nSphere fr to Maybe String Just fmap printf do fr to return haversine nSphere fr to Maybe String Just",
           "hierarchy": "Data Geo Geodetic Haversine",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Haversine",
           "name": "haversine",
           "normalized": "Sphere-\u003ea-\u003ea-\u003eDouble",
@@ -1255,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaversine algorithm with an optionally applied default sphere of the earth mean.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (haversine' fr to :: Double)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"15000950.5589\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- (-16.7889) ..#.. 41.935; to \u003c- 6.933 ..#.. (-162.55); return (haversine' fr to :: Double)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"17128743.0669\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Haversine",
           "name": "haversine'",
           "package": "geodetic",
@@ -1265,6 +1378,7 @@
         "index": {
           "description": "Haversine algorithm with an optionally applied default sphere of the earth mean fmap printf do fr to return haversine fr to Double Maybe String Just fmap printf do fr to return haversine fr to Double Maybe String Just",
           "hierarchy": "Data Geo Geodetic Haversine",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Haversine",
           "name": "haversine'",
           "package": "geodetic",
@@ -1278,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaversine algorithm with a default sphere of the earth mean.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (haversineD fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"15000950.5589\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (printf \"%0.4f\") (do fr \u003c- (-16.7889) ..#.. 41.935; to \u003c- 6.933 ..#.. (-162.55); return (haversineD fr to)) :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eJust \"17128743.0669\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Haversine",
           "name": "haversineD",
           "package": "geodetic",
@@ -1287,6 +1402,7 @@
         "index": {
           "description": "Haversine algorithm with default sphere of the earth mean fmap printf do fr to return haversineD fr to Maybe String Just fmap printf do fr to return haversineD fr to Maybe String Just",
           "hierarchy": "Data Geo Geodetic Haversine",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Haversine",
           "name": "haversineD",
           "normalized": "a-\u003ea-\u003eDouble",
@@ -1302,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA sphere with a radius in metres.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "Sphere",
           "package": "geodetic",
@@ -1311,6 +1428,7 @@
         "index": {
           "description": "sphere with radius in metres",
           "hierarchy": "Data Geo Geodetic Sphere",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "Sphere",
           "package": "geodetic",
@@ -1324,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "HasSphere",
           "package": "geodetic",
@@ -1332,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Sphere",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "HasSphere",
           "package": "geodetic",
@@ -1345,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "Sphere",
           "package": "geodetic",
@@ -1353,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Sphere",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "Sphere",
           "package": "geodetic",
@@ -1366,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "earthMean",
           "package": "geodetic",
@@ -1375,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Sphere",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "earthMean",
           "package": "geodetic",
@@ -1389,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn isomorphism on sphere to a double.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7 ^. nSphere\n\u003c/code\u003e\u003c/strong\u003eSphere 7.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0 ^. nSphere\n\u003c/code\u003e\u003c/strong\u003eSphere 0.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-7) ^. nSphere\n\u003c/code\u003e\u003c/strong\u003eSphere -7.0000\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "nSphere",
           "package": "geodetic",
@@ -1399,6 +1524,7 @@
         "index": {
           "description": "An isomorphism on sphere to double nSphere Sphere nSphere Sphere nSphere Sphere",
           "hierarchy": "Data Geo Geodetic Sphere",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "nSphere",
           "package": "geodetic",
@@ -1412,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "sphere",
           "package": "geodetic",
@@ -1421,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Sphere",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Sphere",
           "name": "sphere",
           "package": "geodetic",
@@ -1434,6 +1562,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn implementation of Thaddeus Vincenty's direct and inverse geodetic algorithms. \u003ca\u003ehttp://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "Vincenty",
           "package": "geodetic",
@@ -1443,6 +1572,7 @@
         "index": {
           "description": "An implementation of Thaddeus Vincenty direct and inverse geodetic algorithms http www.ngs.noaa.gov PUBS LIB inverse.pdf",
           "hierarchy": "Data Geo Geodetic Vincenty",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "Vincenty",
           "package": "geodetic",
@@ -1456,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "Convergence",
           "package": "geodetic",
@@ -1464,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Vincenty",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "Convergence",
           "package": "geodetic",
@@ -1477,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "VincentyDirectResult",
           "package": "geodetic",
@@ -1485,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic Vincenty",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "VincentyDirectResult",
           "package": "geodetic",
@@ -1499,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typically acceptable convergence value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "convergence",
           "package": "geodetic",
@@ -1509,6 +1644,7 @@
         "index": {
           "description": "typically acceptable convergence value",
           "hierarchy": "Data Geo Geodetic Vincenty",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "convergence",
           "package": "geodetic",
@@ -1522,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVincenty direct algorithm.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (\\c' -\u003e direct wgs84 convergence c' (modBearing 165.34) 4235) (27.812 ..#.. 154.295)\n\u003c/code\u003e\u003c/strong\u003eJust (VincentyDirectResult (Coordinate (Latitude (DegreesLatitude 27) (Minutes 46) (Seconds 30.0981)) (Longitude (DegreesLongitude 154) (Minutes 18) (Seconds 21.1466))) (Bearing 165.3451))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (\\c' -\u003e direct wgs84 convergence c' (modBearing 165.34) 4235) ((-66.093) ..#.. 12.84)\n\u003c/code\u003e\u003c/strong\u003eJust (VincentyDirectResult (Coordinate (Latitude (DegreesLatitude (-66)) (Minutes 7) (Seconds 47.0667)) (Longitude (DegreesLongitude 12) (Minutes 51) (Seconds 49.4142))) (Bearing 165.3183))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (\\c' -\u003e direct ans convergence c' (modBearing 165.34) 4235) (27.812 ..#.. 154.295)\n\u003c/code\u003e\u003c/strong\u003eJust (VincentyDirectResult (Coordinate (Latitude (DegreesLatitude 27) (Minutes 46) (Seconds 30.0986)) (Longitude (DegreesLongitude 154) (Minutes 18) (Seconds 21.1464))) (Bearing 165.3451))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (\\c' -\u003e direct ans convergence c' (modBearing 165.34) 4235) ((-66.093) ..#.. 12.84)\n\u003c/code\u003e\u003c/strong\u003eJust (VincentyDirectResult (Coordinate (Latitude (DegreesLatitude (-66)) (Minutes 7) (Seconds 47.0662)) (Longitude (DegreesLongitude 12) (Minutes 51) (Seconds 49.4139))) (Bearing 165.3183))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "direct",
           "package": "geodetic",
@@ -1531,6 +1668,7 @@
         "index": {
           "description": "Vincenty direct algorithm fmap direct wgs84 convergence modBearing Just VincentyDirectResult Coordinate Latitude DegreesLatitude Minutes Seconds Longitude DegreesLongitude Minutes Seconds Bearing fmap direct wgs84 convergence modBearing Just VincentyDirectResult Coordinate Latitude DegreesLatitude Minutes Seconds Longitude DegreesLongitude Minutes Seconds Bearing fmap direct ans convergence modBearing Just VincentyDirectResult Coordinate Latitude DegreesLatitude Minutes Seconds Longitude DegreesLongitude Minutes Seconds Bearing fmap direct ans convergence modBearing Just VincentyDirectResult Coordinate Latitude DegreesLatitude Minutes Seconds Longitude DegreesLongitude Minutes Seconds Bearing",
           "hierarchy": "Data Geo Geodetic Vincenty",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "direct",
           "normalized": "a-\u003eConvergence-\u003eb-\u003ec-\u003eDouble-\u003eVincentyDirectResult",
@@ -1546,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVincenty direct algorithm with an optionally applied default ellipsoid of WGS84 and standard convergence.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (\\c' -\u003e direct' c' (modBearing 165.34) (4235 :: Double) :: VincentyDirectResult) (27.812 ..#.. 154.295)\n\u003c/code\u003e\u003c/strong\u003eJust (VincentyDirectResult (Coordinate (Latitude (DegreesLatitude 27) (Minutes 46) (Seconds 30.0981)) (Longitude (DegreesLongitude 154) (Minutes 18) (Seconds 21.1466))) (Bearing 165.3451))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (\\c' -\u003e direct' c' (modBearing 165.34) (4235 :: Double) :: VincentyDirectResult) ((-66.093) ..#.. 12.84)\n\u003c/code\u003e\u003c/strong\u003eJust (VincentyDirectResult (Coordinate (Latitude (DegreesLatitude (-66)) (Minutes 7) (Seconds 47.0667)) (Longitude (DegreesLongitude 12) (Minutes 51) (Seconds 49.4142))) (Bearing 165.3183))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "direct'",
           "package": "geodetic",
@@ -1556,6 +1695,7 @@
         "index": {
           "description": "Vincenty direct algorithm with an optionally applied default ellipsoid of WGS84 and standard convergence fmap direct modBearing Double VincentyDirectResult Just VincentyDirectResult Coordinate Latitude DegreesLatitude Minutes Seconds Longitude DegreesLongitude Minutes Seconds Bearing fmap direct modBearing Double VincentyDirectResult Just VincentyDirectResult Coordinate Latitude DegreesLatitude Minutes Seconds Longitude DegreesLongitude Minutes Seconds Bearing",
           "hierarchy": "Data Geo Geodetic Vincenty",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "direct'",
           "package": "geodetic",
@@ -1569,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVincenty direct algorithm with a default ellipsoid of WGS84 and standard convergence.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (\\c' -\u003e directD c' (modBearing 165.34) 4235) (27.812 ..#.. 154.295)\n\u003c/code\u003e\u003c/strong\u003eJust (VincentyDirectResult (Coordinate (Latitude (DegreesLatitude 27) (Minutes 46) (Seconds 30.0981)) (Longitude (DegreesLongitude 154) (Minutes 18) (Seconds 21.1466))) (Bearing 165.3451))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (\\c' -\u003e directD c' (modBearing 165.34) 4235) ((-66.093) ..#.. 12.84)\n\u003c/code\u003e\u003c/strong\u003eJust (VincentyDirectResult (Coordinate (Latitude (DegreesLatitude (-66)) (Minutes 7) (Seconds 47.0667)) (Longitude (DegreesLongitude 12) (Minutes 51) (Seconds 49.4142))) (Bearing 165.3183))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "directD",
           "package": "geodetic",
@@ -1578,6 +1719,7 @@
         "index": {
           "description": "Vincenty direct algorithm with default ellipsoid of WGS84 and standard convergence fmap directD modBearing Just VincentyDirectResult Coordinate Latitude DegreesLatitude Minutes Seconds Longitude DegreesLongitude Minutes Seconds Bearing fmap directD modBearing Just VincentyDirectResult Coordinate Latitude DegreesLatitude Minutes Seconds Longitude DegreesLongitude Minutes Seconds Bearing",
           "hierarchy": "Data Geo Geodetic Vincenty",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "directD",
           "normalized": "a-\u003eb-\u003eDouble-\u003eVincentyDirectResult",
@@ -1593,6 +1735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVincenty inverse algorithm.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (inverse wgs84 convergence fr to)\n\u003c/code\u003e\u003c/strong\u003eJust (GeodeticCurve 14998576.9860 Azimuth 180.0000 Azimuth 0.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo fr \u003c- 27.812 ..#.. 154.295; to \u003c- 87.7769 ..#.. 19.944; return (inverse wgs84 convergence fr to)\n\u003c/code\u003e\u003c/strong\u003eJust (GeodeticCurve 7099204.2589 Azimuth 0.0000 Azimuth 180.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (inverse ans convergence fr to)\n\u003c/code\u003e\u003c/strong\u003eJust (GeodeticCurve 14998630.4056 Azimuth 180.0000 Azimuth 0.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo fr \u003c- 27.812 ..#.. 154.295; to \u003c- 87.7769 ..#.. 19.944; return (inverse ans convergence fr to)\n\u003c/code\u003e\u003c/strong\u003eJust (GeodeticCurve 7099229.9126 Azimuth 0.0000 Azimuth 180.0000)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "inverse",
           "package": "geodetic",
@@ -1602,6 +1745,7 @@
         "index": {
           "description": "Vincenty inverse algorithm do fr to return inverse wgs84 convergence fr to Just GeodeticCurve Azimuth Azimuth do fr to return inverse wgs84 convergence fr to Just GeodeticCurve Azimuth Azimuth do fr to return inverse ans convergence fr to Just GeodeticCurve Azimuth Azimuth do fr to return inverse ans convergence fr to Just GeodeticCurve Azimuth Azimuth",
           "hierarchy": "Data Geo Geodetic Vincenty",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "inverse",
           "normalized": "a-\u003eConvergence-\u003eb-\u003eb-\u003eCurve",
@@ -1617,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVincenty inverse algorithm with an optionally applied default ellipsoid of WGS84 and standard convergence.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (inverse' fr to :: Curve)\n\u003c/code\u003e\u003c/strong\u003eJust (GeodeticCurve 14998576.9860 Azimuth 180.0000 Azimuth 0.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo fr \u003c- 27.812 ..#.. 154.295; to \u003c- 87.7769 ..#.. 19.944; return (inverse' fr to :: Curve)\n\u003c/code\u003e\u003c/strong\u003eJust (GeodeticCurve 7099204.2589 Azimuth 0.0000 Azimuth 180.0000)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "inverse'",
           "package": "geodetic",
@@ -1627,6 +1772,7 @@
         "index": {
           "description": "Vincenty inverse algorithm with an optionally applied default ellipsoid of WGS84 and standard convergence do fr to return inverse fr to Curve Just GeodeticCurve Azimuth Azimuth do fr to return inverse fr to Curve Just GeodeticCurve Azimuth Azimuth",
           "hierarchy": "Data Geo Geodetic Vincenty",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "inverse'",
           "package": "geodetic",
@@ -1640,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVincenty inverse algorithm with a default ellipsoid of WGS84 and standard convergence.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo fr \u003c- 27.812 ..#.. 154.295; to \u003c- (-66.093) ..#.. 12.84; return (inverseD fr to)\n\u003c/code\u003e\u003c/strong\u003eJust (GeodeticCurve 14998576.9860 Azimuth 180.0000 Azimuth 0.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo fr \u003c- 27.812 ..#.. 154.295; to \u003c- 87.7769 ..#.. 19.944; return (inverseD fr to)\n\u003c/code\u003e\u003c/strong\u003eJust (GeodeticCurve 7099204.2589 Azimuth 0.0000 Azimuth 180.0000)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "inverseD",
           "package": "geodetic",
@@ -1649,6 +1796,7 @@
         "index": {
           "description": "Vincenty inverse algorithm with default ellipsoid of WGS84 and standard convergence do fr to return inverseD fr to Just GeodeticCurve Azimuth Azimuth do fr to return inverseD fr to Just GeodeticCurve Azimuth Azimuth",
           "hierarchy": "Data Geo Geodetic Vincenty",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic.Vincenty",
           "name": "inverseD",
           "normalized": "a-\u003ea-\u003eCurve",
@@ -1663,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:31 UTC 2014",
           "module": "Data.Geo.Geodetic",
           "name": "Geodetic",
           "package": "geodetic",
@@ -1671,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Geodetic",
+          "indexed": "2014-03-11T18:15:31",
           "module": "Data.Geo.Geodetic",
           "name": "Geodetic",
           "package": "geodetic",

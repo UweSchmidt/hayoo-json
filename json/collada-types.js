@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "collada-types"
+        "phrase": "collada-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ColladaTypes",
           "package": "collada-types",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ColladaTypes",
           "package": "collada-types",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "AnimChannel",
           "package": "collada-types",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "AnimChannel",
           "package": "collada-types",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Animation",
           "package": "collada-types",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Animation",
           "package": "collada-types",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Attenuation",
           "package": "collada-types",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Attenuation",
           "package": "collada-types",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "C",
           "package": "collada-types",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "C",
           "package": "collada-types",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Camera",
           "package": "collada-types",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Camera",
           "package": "collada-types",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Color",
           "package": "collada-types",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Color",
           "package": "collada-types",
@@ -164,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Controller",
           "package": "collada-types",
@@ -172,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Controller",
           "package": "collada-types",
@@ -185,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Effect",
           "package": "collada-types",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Effect",
           "package": "collada-types",
@@ -206,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Fx_common_color_type",
           "package": "collada-types",
@@ -214,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Fx_common_color_type",
           "package": "collada-types",
@@ -227,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Fx_common_texture_type",
           "package": "collada-types",
@@ -235,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Fx_common_texture_type",
           "package": "collada-types",
@@ -248,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Geometry",
           "package": "collada-types",
@@ -256,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Geometry",
           "package": "collada-types",
@@ -269,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ID",
           "package": "collada-types",
@@ -277,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ID",
           "package": "collada-types",
@@ -290,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Interpolation",
           "package": "collada-types",
@@ -298,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Interpolation",
           "package": "collada-types",
@@ -311,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Light",
           "package": "collada-types",
@@ -319,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Light",
           "package": "collada-types",
@@ -332,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LinePrimitive",
           "package": "collada-types",
@@ -340,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LinePrimitive",
           "package": "collada-types",
@@ -353,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Material",
           "package": "collada-types",
@@ -361,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Material",
           "package": "collada-types",
@@ -374,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Mesh",
           "package": "collada-types",
@@ -382,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Mesh",
           "package": "collada-types",
@@ -395,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "NewParam",
           "package": "collada-types",
@@ -403,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "NewParam",
           "package": "collada-types",
@@ -416,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "NodeType",
           "package": "collada-types",
@@ -424,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "NodeType",
           "package": "collada-types",
@@ -437,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Polygon",
           "package": "collada-types",
@@ -445,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Polygon",
           "package": "collada-types",
@@ -458,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Profile",
           "package": "collada-types",
@@ -466,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Profile",
           "package": "collada-types",
@@ -479,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "SID",
           "package": "collada-types",
@@ -487,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "SID",
           "package": "collada-types",
@@ -500,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Scene",
           "package": "collada-types",
@@ -508,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Scene",
           "package": "collada-types",
@@ -521,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "SceneNode",
           "package": "collada-types",
@@ -529,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "SceneNode",
           "package": "collada-types",
@@ -542,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Semantic",
           "package": "collada-types",
@@ -550,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Semantic",
           "package": "collada-types",
@@ -563,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TechniqueCommon",
           "package": "collada-types",
@@ -571,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TechniqueCommon",
           "package": "collada-types",
@@ -584,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Texture",
           "package": "collada-types",
@@ -592,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Texture",
           "package": "collada-types",
@@ -605,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Transform",
           "package": "collada-types",
@@ -613,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Transform",
           "package": "collada-types",
@@ -626,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Vertices",
           "package": "collada-types",
@@ -634,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Vertices",
           "package": "collada-types",
@@ -647,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ViewSize",
           "package": "collada-types",
@@ -655,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ViewSize",
           "package": "collada-types",
@@ -668,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Z",
           "package": "collada-types",
@@ -676,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Z",
           "package": "collada-types",
@@ -688,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Ambient",
           "package": "collada-types",
@@ -697,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Ambient",
           "package": "collada-types",
@@ -710,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "AnimChannel",
           "package": "collada-types",
@@ -719,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "AnimChannel",
           "package": "collada-types",
@@ -732,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Annotat",
           "package": "collada-types",
@@ -741,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Annotat",
           "package": "collada-types",
@@ -754,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Attenuation",
           "package": "collada-types",
@@ -763,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Attenuation",
           "package": "collada-types",
@@ -776,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "BRIDGE",
           "package": "collada-types",
@@ -785,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "BRIDGE",
           "package": "collada-types",
@@ -798,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Bezier",
           "package": "collada-types",
@@ -807,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Bezier",
           "normalized": "Bezier[Float][Float]",
@@ -822,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Blinn",
           "package": "collada-types",
@@ -831,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Blinn",
           "package": "collada-types",
@@ -844,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CAmbient",
           "package": "collada-types",
@@ -853,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CAmbient",
           "package": "collada-types",
@@ -866,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CDiffuse",
           "package": "collada-types",
@@ -875,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CDiffuse",
           "package": "collada-types",
@@ -888,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CEmission",
           "package": "collada-types",
@@ -897,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CEmission",
           "package": "collada-types",
@@ -910,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CG",
           "package": "collada-types",
@@ -919,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CG",
           "package": "collada-types",
@@ -932,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CIndex_of_refraction",
           "package": "collada-types",
@@ -941,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CIndex_of_refraction",
           "package": "collada-types",
@@ -954,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "COMMON",
           "package": "collada-types",
@@ -963,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "COMMON",
           "package": "collada-types",
@@ -976,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CReflective",
           "package": "collada-types",
@@ -985,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CReflective",
           "package": "collada-types",
@@ -998,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CReflectivity",
           "package": "collada-types",
@@ -1007,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CReflectivity",
           "package": "collada-types",
@@ -1020,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CShininess",
           "package": "collada-types",
@@ -1029,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CShininess",
           "package": "collada-types",
@@ -1042,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CSpecular",
           "package": "collada-types",
@@ -1051,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CSpecular",
           "package": "collada-types",
@@ -1064,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CTransparency",
           "package": "collada-types",
@@ -1073,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CTransparency",
           "package": "collada-types",
@@ -1086,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CTransparent",
           "package": "collada-types",
@@ -1095,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "CTransparent",
           "package": "collada-types",
@@ -1108,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Color",
           "package": "collada-types",
@@ -1117,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Color",
           "package": "collada-types",
@@ -1130,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Constant",
           "package": "collada-types",
@@ -1139,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Constant",
           "package": "collada-types",
@@ -1152,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Controller",
           "package": "collada-types",
@@ -1161,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Controller",
           "package": "collada-types",
@@ -1174,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Directional",
           "package": "collada-types",
@@ -1183,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Directional",
           "package": "collada-types",
@@ -1196,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "EmptyAnim",
           "package": "collada-types",
@@ -1205,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "EmptyAnim",
           "package": "collada-types",
@@ -1218,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "EmptyRoot",
           "package": "collada-types",
@@ -1227,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "EmptyRoot",
           "package": "collada-types",
@@ -1240,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "GLES",
           "package": "collada-types",
@@ -1249,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "GLES",
           "package": "collada-types",
@@ -1262,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "GLES2",
           "package": "collada-types",
@@ -1271,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "GLES2",
           "package": "collada-types",
@@ -1284,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "GLSL",
           "package": "collada-types",
@@ -1293,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "GLSL",
           "package": "collada-types",
@@ -1306,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Geometry",
           "package": "collada-types",
@@ -1315,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Geometry",
           "package": "collada-types",
@@ -1328,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "JOINT",
           "package": "collada-types",
@@ -1337,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "JOINT",
           "package": "collada-types",
@@ -1351,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LP",
           "package": "collada-types",
@@ -1361,6 +1486,7 @@
         "index": {
           "description": "Lines",
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LP",
           "package": "collada-types",
@@ -1375,6 +1501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLineStrips\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LS",
           "package": "collada-types",
@@ -1385,6 +1512,7 @@
         "index": {
           "description": "LineStrips",
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LS",
           "package": "collada-types",
@@ -1398,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LambertCol",
           "package": "collada-types",
@@ -1407,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LambertCol",
           "normalized": "LambertCol[Fx_common_color_type]",
@@ -1422,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LambertTex",
           "package": "collada-types",
@@ -1431,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LambertTex",
           "normalized": "LambertTex[Fx_common_texture_type][[Float]]",
@@ -1446,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LinePrimitive",
           "package": "collada-types",
@@ -1455,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LinePrimitive",
           "package": "collada-types",
@@ -1468,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Linear",
           "package": "collada-types",
@@ -1477,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Linear",
           "package": "collada-types",
@@ -1490,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LookAt",
           "package": "collada-types",
@@ -1499,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "LookAt",
           "package": "collada-types",
@@ -1512,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Matrix",
           "package": "collada-types",
@@ -1521,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Matrix",
           "package": "collada-types",
@@ -1534,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Modifier",
           "package": "collada-types",
@@ -1543,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Modifier",
           "package": "collada-types",
@@ -1556,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "NODE",
           "package": "collada-types",
@@ -1565,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "NODE",
           "package": "collada-types",
@@ -1578,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "NOTYPE",
           "package": "collada-types",
@@ -1587,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "NOTYPE",
           "package": "collada-types",
@@ -1600,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "NoParam",
           "package": "collada-types",
@@ -1609,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "NoParam",
           "package": "collada-types",
@@ -1622,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Orthographic",
           "package": "collada-types",
@@ -1631,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Orthographic",
           "package": "collada-types",
@@ -1645,6 +1795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolygon: Contains polygon primitives which may contain holes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "P",
           "package": "collada-types",
@@ -1655,6 +1806,7 @@
         "index": {
           "description": "Polygon Contains polygon primitives which may contain holes",
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "P",
           "package": "collada-types",
@@ -1668,6 +1820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolyList: Contains polygon primitives that cannot contain holes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "PL",
           "package": "collada-types",
@@ -1678,6 +1831,7 @@
         "index": {
           "description": "PolyList Contains polygon primitives that cannot contain holes",
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "PL",
           "package": "collada-types",
@@ -1691,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Perspective",
           "package": "collada-types",
@@ -1700,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Perspective",
           "package": "collada-types",
@@ -1713,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "PhongCol",
           "package": "collada-types",
@@ -1722,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "PhongCol",
           "normalized": "PhongCol[Fx_common_color_type]",
@@ -1737,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "PhongTex",
           "package": "collada-types",
@@ -1746,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "PhongTex",
           "normalized": "PhongTex[Fx_common_texture_type][[Float]]",
@@ -1761,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Point",
           "package": "collada-types",
@@ -1770,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Point",
           "package": "collada-types",
@@ -1783,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Polygon",
           "package": "collada-types",
@@ -1792,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Polygon",
           "package": "collada-types",
@@ -1805,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "RGB",
           "package": "collada-types",
@@ -1814,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "RGB",
           "package": "collada-types",
@@ -1827,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Rotate",
           "package": "collada-types",
@@ -1836,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Rotate",
           "package": "collada-types",
@@ -1850,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "S",
           "package": "collada-types",
@@ -1860,6 +2029,7 @@
         "index": {
           "description": "Splines",
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "S",
           "package": "collada-types",
@@ -1872,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Scale",
           "package": "collada-types",
@@ -1881,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Scale",
           "package": "collada-types",
@@ -1894,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "SceneNode",
           "package": "collada-types",
@@ -1903,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "SceneNode",
           "package": "collada-types",
@@ -1916,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Semantic",
           "package": "collada-types",
@@ -1925,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Semantic",
           "package": "collada-types",
@@ -1938,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Skew",
           "package": "collada-types",
@@ -1947,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Skew",
           "package": "collada-types",
@@ -1960,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Spot",
           "package": "collada-types",
@@ -1969,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Spot",
           "package": "collada-types",
@@ -1982,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Step",
           "package": "collada-types",
@@ -1991,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Step",
           "package": "collada-types",
@@ -2004,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TAmbient",
           "package": "collada-types",
@@ -2013,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TAmbient",
           "package": "collada-types",
@@ -2026,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TDiffuse",
           "package": "collada-types",
@@ -2035,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TDiffuse",
           "package": "collada-types",
@@ -2048,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TEmission",
           "package": "collada-types",
@@ -2057,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TEmission",
           "package": "collada-types",
@@ -2070,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TIndex_of_refraction",
           "package": "collada-types",
@@ -2079,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TIndex_of_refraction",
           "package": "collada-types",
@@ -2092,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TReflective",
           "package": "collada-types",
@@ -2101,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TReflective",
           "package": "collada-types",
@@ -2114,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TReflectivity",
           "package": "collada-types",
@@ -2123,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TReflectivity",
           "package": "collada-types",
@@ -2136,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TShininess",
           "package": "collada-types",
@@ -2145,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TShininess",
           "package": "collada-types",
@@ -2158,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TSpecular",
           "package": "collada-types",
@@ -2167,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TSpecular",
           "package": "collada-types",
@@ -2180,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TTransparency",
           "package": "collada-types",
@@ -2189,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TTransparency",
           "package": "collada-types",
@@ -2202,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TTransparent",
           "package": "collada-types",
@@ -2211,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "TTransparent",
           "package": "collada-types",
@@ -2224,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Texture",
           "package": "collada-types",
@@ -2233,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Texture",
           "package": "collada-types",
@@ -2247,6 +2451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriangles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Tr",
           "package": "collada-types",
@@ -2257,6 +2462,7 @@
         "index": {
           "description": "Triangles",
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Tr",
           "package": "collada-types",
@@ -2270,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Translate",
           "package": "collada-types",
@@ -2279,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Translate",
           "package": "collada-types",
@@ -2293,6 +2501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriFans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Trf",
           "package": "collada-types",
@@ -2303,6 +2512,7 @@
         "index": {
           "description": "TriFans",
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Trf",
           "package": "collada-types",
@@ -2317,6 +2527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriStrips\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Trs",
           "package": "collada-types",
@@ -2327,6 +2538,7 @@
         "index": {
           "description": "TriStrips",
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Trs",
           "package": "collada-types",
@@ -2340,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Vertices",
           "package": "collada-types",
@@ -2349,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Vertices",
           "package": "collada-types",
@@ -2362,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ViewSizeX",
           "package": "collada-types",
@@ -2371,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ViewSizeX",
           "package": "collada-types",
@@ -2384,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ViewSizeXY",
           "package": "collada-types",
@@ -2393,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ViewSizeXY",
           "normalized": "ViewSizeXY(Float,Float)",
@@ -2408,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ViewSizeY",
           "package": "collada-types",
@@ -2417,6 +2636,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ViewSizeY",
           "package": "collada-types",
@@ -2430,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Z",
           "package": "collada-types",
@@ -2439,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "Z",
           "package": "collada-types",
@@ -2451,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ambientColor",
           "package": "collada-types",
@@ -2460,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ambientColor",
           "package": "collada-types",
@@ -2473,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ambientID",
           "package": "collada-types",
@@ -2482,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ambientID",
           "package": "collada-types",
@@ -2495,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "attenuationConstant",
           "package": "collada-types",
@@ -2504,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "attenuationConstant",
           "package": "collada-types",
@@ -2517,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "attenuationLinear",
           "package": "collada-types",
@@ -2526,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "attenuationLinear",
           "package": "collada-types",
@@ -2539,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "attenuationQuadratic",
           "package": "collada-types",
@@ -2548,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "attenuationQuadratic",
           "package": "collada-types",
@@ -2561,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "contrId",
           "package": "collada-types",
@@ -2570,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "contrId",
           "package": "collada-types",
@@ -2583,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "directionalColor",
           "package": "collada-types",
@@ -2592,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "directionalColor",
           "package": "collada-types",
@@ -2605,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "directionalID",
           "package": "collada-types",
@@ -2614,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "directionalID",
           "package": "collada-types",
@@ -2627,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "imageSID",
           "package": "collada-types",
@@ -2636,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "imageSID",
           "package": "collada-types",
@@ -2649,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "input",
           "package": "collada-types",
@@ -2658,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "input",
           "normalized": "(ID,[Float],Accessor)",
@@ -2672,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "interp",
           "package": "collada-types",
@@ -2681,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "interp",
           "normalized": "[Interpolation]",
@@ -2695,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lineN",
           "package": "collada-types",
@@ -2704,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lineN",
           "package": "collada-types",
@@ -2716,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lineP",
           "package": "collada-types",
@@ -2725,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lineP",
           "package": "collada-types",
@@ -2737,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lineT",
           "package": "collada-types",
@@ -2746,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lineT",
           "package": "collada-types",
@@ -2758,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lookAtEye",
           "package": "collada-types",
@@ -2767,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lookAtEye",
           "package": "collada-types",
@@ -2780,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lookAtInterest",
           "package": "collada-types",
@@ -2789,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lookAtInterest",
           "package": "collada-types",
@@ -2802,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lookAtUp",
           "package": "collada-types",
@@ -2811,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "lookAtUp",
           "package": "collada-types",
@@ -2824,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "mesh",
           "package": "collada-types",
@@ -2833,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "mesh",
           "normalized": "[Mesh]",
@@ -2847,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "meshID",
           "package": "collada-types",
@@ -2856,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "meshID",
           "package": "collada-types",
@@ -2869,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "morph",
           "package": "collada-types",
@@ -2878,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "morph",
           "normalized": "[Morph]",
@@ -2892,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ms",
           "package": "collada-types",
@@ -2901,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "ms",
           "normalized": "[Material]",
@@ -2915,6 +3179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "name",
           "package": "collada-types",
@@ -2924,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "name",
           "package": "collada-types",
@@ -2936,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeCameras",
           "package": "collada-types",
@@ -2945,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeCameras",
           "normalized": "[Camera]",
@@ -2960,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeController",
           "package": "collada-types",
@@ -2969,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeController",
           "normalized": "[Controller]",
@@ -2984,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeGeometries",
           "package": "collada-types",
@@ -2993,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeGeometries",
           "normalized": "[Geometry]",
@@ -3008,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeId",
           "package": "collada-types",
@@ -3017,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeId",
           "package": "collada-types",
@@ -3030,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeLayers",
           "package": "collada-types",
@@ -3039,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeLayers",
           "normalized": "[String]",
@@ -3054,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeLights",
           "package": "collada-types",
@@ -3063,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeLights",
           "normalized": "[Light]",
@@ -3078,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeTransformations",
           "package": "collada-types",
@@ -3087,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeTransformations",
           "normalized": "[(SID,Transform)]",
@@ -3102,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeType",
           "package": "collada-types",
@@ -3111,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "nodeType",
           "package": "collada-types",
@@ -3124,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "normals",
           "package": "collada-types",
@@ -3133,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "normals",
           "package": "collada-types",
@@ -3145,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "orthographicID",
           "package": "collada-types",
@@ -3154,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "orthographicID",
           "package": "collada-types",
@@ -3167,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "orthographicViewSize",
           "package": "collada-types",
@@ -3176,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "orthographicViewSize",
           "package": "collada-types",
@@ -3189,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "orthographicZ",
           "package": "collada-types",
@@ -3198,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "orthographicZ",
           "package": "collada-types",
@@ -3210,6 +3500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "output",
           "package": "collada-types",
@@ -3219,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "output",
           "normalized": "(ID,[Float],Accessor)",
@@ -3233,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "path",
           "package": "collada-types",
@@ -3242,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "path",
           "package": "collada-types",
@@ -3254,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "perspectiveFov",
           "package": "collada-types",
@@ -3263,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "perspectiveFov",
           "package": "collada-types",
@@ -3276,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "perspectiveID",
           "package": "collada-types",
@@ -3285,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "perspectiveID",
           "package": "collada-types",
@@ -3298,6 +3596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "perspectiveZ",
           "package": "collada-types",
@@ -3307,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "perspectiveZ",
           "package": "collada-types",
@@ -3319,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "pointAttenuation",
           "package": "collada-types",
@@ -3328,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "pointAttenuation",
           "package": "collada-types",
@@ -3341,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "pointColor",
           "package": "collada-types",
@@ -3350,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "pointColor",
           "package": "collada-types",
@@ -3363,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "pointID",
           "package": "collada-types",
@@ -3372,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "pointID",
           "package": "collada-types",
@@ -3385,6 +3691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "polygonMs",
           "package": "collada-types",
@@ -3394,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "polygonMs",
           "normalized": "[Material]",
@@ -3409,6 +3717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "polygonPh",
           "package": "collada-types",
@@ -3418,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "polygonPh",
           "normalized": "(Vector Int,Vector Int)",
@@ -3433,6 +3743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "poylgonN",
           "package": "collada-types",
@@ -3442,6 +3753,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "poylgonN",
           "package": "collada-types",
@@ -3454,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "poylgonP",
           "package": "collada-types",
@@ -3463,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "poylgonP",
           "package": "collada-types",
@@ -3475,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "skewAngle",
           "package": "collada-types",
@@ -3484,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "skewAngle",
           "package": "collada-types",
@@ -3497,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "skewRotation",
           "package": "collada-types",
@@ -3506,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "skewRotation",
           "package": "collada-types",
@@ -3519,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "skewTranslation",
           "package": "collada-types",
@@ -3528,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "skewTranslation",
           "package": "collada-types",
@@ -3541,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "skin",
           "package": "collada-types",
@@ -3550,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "skin",
           "normalized": "[Skin]",
@@ -3564,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "spotAttenuation",
           "package": "collada-types",
@@ -3573,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "spotAttenuation",
           "package": "collada-types",
@@ -3586,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "spotColor",
           "package": "collada-types",
@@ -3595,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "spotColor",
           "package": "collada-types",
@@ -3608,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "spotFallOffAngle",
           "package": "collada-types",
@@ -3617,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "spotFallOffAngle",
           "package": "collada-types",
@@ -3630,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "spotFallOffExponent",
           "package": "collada-types",
@@ -3639,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "spotFallOffExponent",
           "package": "collada-types",
@@ -3652,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "spotID",
           "package": "collada-types",
@@ -3661,6 +3992,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "spotID",
           "package": "collada-types",
@@ -3674,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "targets",
           "package": "collada-types",
@@ -3683,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "targets",
           "normalized": "[(TargetID,AccessorName)]",
@@ -3697,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "texObj",
           "package": "collada-types",
@@ -3706,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "texObj",
           "package": "collada-types",
@@ -3719,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "vertices",
           "package": "collada-types",
@@ -3728,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "vertices",
           "package": "collada-types",
@@ -3740,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "verts",
           "package": "collada-types",
@@ -3749,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "verts",
           "package": "collada-types",
@@ -3761,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "zFar",
           "package": "collada-types",
@@ -3770,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "zFar",
           "package": "collada-types",
@@ -3783,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "zNear",
           "package": "collada-types",
@@ -3792,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada ColladaTypes",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.ColladaTypes",
           "name": "zNear",
           "package": "collada-types",
@@ -3805,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "GenerateObjects",
           "package": "collada-types",
@@ -3813,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "GenerateObjects",
           "package": "collada-types",
@@ -3827,6 +4173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery scene needs a camera and light\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "aCube",
           "package": "collada-types",
@@ -3837,6 +4184,7 @@
         "index": {
           "description": "Every scene needs camera and light",
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "aCube",
           "package": "collada-types",
@@ -3851,6 +4199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample scene with a cube\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "aScene",
           "package": "collada-types",
@@ -3861,6 +4210,7 @@
         "index": {
           "description": "Example scene with cube",
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "aScene",
           "package": "collada-types",
@@ -3875,6 +4225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn animated cube\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "animatedCube",
           "package": "collada-types",
@@ -3885,6 +4236,7 @@
         "index": {
           "description": "An animated cube",
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "animatedCube",
           "normalized": "(Scene,[Animation])",
@@ -3901,6 +4253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample animation of the cube\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "animation",
           "package": "collada-types",
@@ -3911,6 +4264,7 @@
         "index": {
           "description": "Example animation of the cube",
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "animation",
           "normalized": "[Animation]",
@@ -3926,6 +4280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnimation of several cubes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "animation2",
           "package": "collada-types",
@@ -3936,6 +4291,7 @@
         "index": {
           "description": "Animation of several cubes",
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "animation2",
           "normalized": "[Animation]",
@@ -3951,6 +4307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA blue/textured cube\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "cube",
           "package": "collada-types",
@@ -3961,6 +4318,7 @@
         "index": {
           "description": "blue textured cube",
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "cube",
           "package": "collada-types",
@@ -3973,6 +4331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "emptyAnim",
           "package": "collada-types",
@@ -3982,6 +4341,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "emptyAnim",
           "normalized": "[Animation]",
@@ -3997,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "emptyAnimation",
           "package": "collada-types",
@@ -4006,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "emptyAnimation",
           "normalized": "[[Animation]]",
@@ -4021,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "en",
           "package": "collada-types",
@@ -4030,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "en",
           "normalized": "[(Float,Float,Float)]",
@@ -4044,6 +4408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "ge",
           "package": "collada-types",
@@ -4053,6 +4418,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "ge",
           "normalized": "Geometry-\u003eSceneNode",
@@ -4067,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "lightedGeometry",
           "package": "collada-types",
@@ -4076,6 +4443,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "lightedGeometry",
           "normalized": "[Geometry]-\u003eScene",
@@ -4091,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "lightedScene",
           "package": "collada-types",
@@ -4100,6 +4469,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "lightedScene",
           "normalized": "Scene-\u003eScene",
@@ -4115,6 +4485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "lightedSceneNode",
           "package": "collada-types",
@@ -4124,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "lightedSceneNode",
           "normalized": "SceneNode-\u003eScene",
@@ -4139,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "lines",
           "package": "collada-types",
@@ -4148,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "lines",
           "normalized": "Vector V-\u003eVector V-\u003eVector(Vector Int)-\u003eVector(Vector Int)-\u003e[Geometry]",
@@ -4163,6 +4537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate an animation that points to the cubes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "new_channels",
           "package": "collada-types",
@@ -4173,6 +4548,7 @@
         "index": {
           "description": "generate an animation that points to the cubes",
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "new_channels",
           "normalized": "AnimChannel-\u003e[SceneNode]-\u003eAnimChannel",
@@ -4187,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "obj",
           "package": "collada-types",
@@ -4196,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "obj",
           "normalized": "String-\u003e[Geometry]-\u003eV-\u003eSceneNode",
@@ -4210,6 +4588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "polys",
           "package": "collada-types",
@@ -4219,6 +4598,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "polys",
           "normalized": "Vector V-\u003eVector V-\u003eVector(Vector Int)-\u003eVector(Vector Int)-\u003e[Geometry]",
@@ -4233,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "rename",
           "package": "collada-types",
@@ -4242,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "rename",
           "normalized": "SceneNode-\u003eString-\u003eSceneNode",
@@ -4256,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "scene2",
           "package": "collada-types",
@@ -4265,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "scene2",
           "package": "collada-types",
@@ -4277,6 +4661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "streamAnimation",
           "package": "collada-types",
@@ -4286,6 +4671,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "streamAnimation",
           "normalized": "[(Float,Float,Float)]-\u003e[SceneNode]-\u003e[Animation]",
@@ -4301,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "streamScene",
           "package": "collada-types",
@@ -4310,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "streamScene",
           "normalized": "[SceneNode]-\u003eScene",
@@ -4325,6 +4713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "test_objs",
           "package": "collada-types",
@@ -4334,6 +4723,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "test_objs",
           "normalized": "[SceneNode]",
@@ -4349,6 +4739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea helper function for xyz_grid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "tran",
           "package": "collada-types",
@@ -4359,6 +4750,7 @@
         "index": {
           "description": "helper function for xyz grid",
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "tran",
           "normalized": "SceneNode-\u003eV-\u003eString-\u003eSceneNode",
@@ -4373,6 +4765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "trifans",
           "package": "collada-types",
@@ -4382,6 +4775,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "trifans",
           "normalized": "Vector V-\u003eVector V-\u003eVector(Vector Int)-\u003eVector(Vector Int)-\u003e[Geometry]",
@@ -4396,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "tristrips",
           "package": "collada-types",
@@ -4405,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "tristrips",
           "normalized": "Vector V-\u003eVector V-\u003eVector(Vector Int)-\u003eVector(Vector Int)-\u003e[Geometry]",
@@ -4420,6 +4816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a 3 dimensional grid where an object (stored in a SceneNode) is repeated in along the grid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "xyz_grid",
           "package": "collada-types",
@@ -4430,6 +4827,7 @@
         "index": {
           "description": "Generate dimensional grid where an object stored in SceneNode is repeated in along the grid",
           "hierarchy": "Graphics Formats Collada GenerateObjects",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.GenerateObjects",
           "name": "xyz_grid",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eFloat-\u003eSceneNode-\u003e[SceneNode]",
@@ -4444,6 +4842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "Transformations",
           "package": "collada-types",
@@ -4452,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Transformations",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "Transformations",
           "package": "collada-types",
@@ -4465,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "atop",
           "package": "collada-types",
@@ -4474,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Transformations",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "atop",
           "normalized": "Geometry-\u003eGeometry-\u003eGeometry",
@@ -4488,6 +4890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "changeAmbientColor",
           "package": "collada-types",
@@ -4497,6 +4900,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Transformations",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "changeAmbientColor",
           "normalized": "String-\u003eV-\u003eGeometry-\u003eGeometry",
@@ -4512,6 +4916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "changeDiffuseColor",
           "package": "collada-types",
@@ -4521,6 +4926,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Transformations",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "changeDiffuseColor",
           "normalized": "String-\u003eV-\u003eGeometry-\u003eGeometry",
@@ -4536,6 +4942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "cycleN",
           "package": "collada-types",
@@ -4545,6 +4952,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Transformations",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "cycleN",
           "normalized": "a-\u003eVector a-\u003eVector(Vector a)",
@@ -4560,6 +4968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn a list containing lists of every element with its neighbour\n i.e. [e1,e2,e3] -\u003e [ [e1,e2], [e2,e3], [e3, e1] ]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "cycleNeighbours",
           "package": "collada-types",
@@ -4570,6 +4979,7 @@
         "index": {
           "description": "return list containing lists of every element with its neighbour i.e e1 e2 e3 e1 e2 e2 e3 e3 e1",
           "hierarchy": "Graphics Formats Collada Transformations",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "cycleNeighbours",
           "normalized": "Vector a-\u003eVector(Vector a)",
@@ -4585,6 +4995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "extr_outline",
           "package": "collada-types",
@@ -4594,6 +5005,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Transformations",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "extr_outline",
           "normalized": "Vector Int-\u003eVector(Vector Int)",
@@ -4609,6 +5021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextrude a 2d polygon to 3d, the same points are added again with extrusion direction v\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "extrude",
           "package": "collada-types",
@@ -4619,6 +5032,7 @@
         "index": {
           "description": "extrude polygon to the same points are added again with extrusion direction",
           "hierarchy": "Graphics Formats Collada Transformations",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "extrude",
           "normalized": "V-\u003eGeometry-\u003eGeometry",
@@ -4633,6 +5047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "translate",
           "package": "collada-types",
@@ -4642,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Transformations",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Transformations",
           "name": "translate",
           "normalized": "V-\u003eGeometry-\u003eGeometry",
@@ -4656,6 +5072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "Vector2D3D",
           "package": "collada-types",
@@ -4664,6 +5081,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "Vector2D3D",
           "package": "collada-types",
@@ -4678,6 +5096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn angle is a number between -pi and pi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "Angle",
           "package": "collada-types",
@@ -4687,6 +5106,7 @@
         "index": {
           "description": "An angle is number between pi and pi",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "Angle",
           "package": "collada-types",
@@ -4701,6 +5121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D affine transformation. No shearing allowed, only translation,\n rotation, and scaling. Transformations can be chained with\n \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e is the identity transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "T2",
           "package": "collada-types",
@@ -4710,6 +5131,7 @@
         "index": {
           "description": "affine transformation No shearing allowed only translation rotation and scaling Transformations can be chained with mappend and mempty is the identity transformation",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "T2",
           "package": "collada-types",
@@ -4723,6 +5145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D vector: a pair of coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V2",
           "package": "collada-types",
@@ -4732,6 +5155,7 @@
         "index": {
           "description": "vector pair of coordinates",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V2",
           "package": "collada-types",
@@ -4744,6 +5168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V3",
           "package": "collada-types",
@@ -4752,6 +5177,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V3",
           "package": "collada-types",
@@ -4764,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V4",
           "package": "collada-types",
@@ -4772,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V4",
           "package": "collada-types",
@@ -4785,6 +5213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication with a scalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "(*.)",
           "package": "collada-types",
@@ -4795,6 +5224,7 @@
         "index": {
           "description": "Multiplication with scalar",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "(*.) *.",
           "normalized": "V-\u003eFloat-\u003eV",
@@ -4810,6 +5240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformation applied to a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "(\u003c\u003e)",
           "package": "collada-types",
@@ -4820,6 +5251,7 @@
         "index": {
           "description": "Transformation applied to vector",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "T-\u003eV-\u003eV",
@@ -4834,6 +5266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V",
           "package": "collada-types",
@@ -4843,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V",
           "package": "collada-types",
@@ -4855,6 +5289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V3",
           "package": "collada-types",
@@ -4864,6 +5299,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V3",
           "package": "collada-types",
@@ -4876,6 +5312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V4",
           "package": "collada-types",
@@ -4885,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "V4",
           "package": "collada-types",
@@ -4898,6 +5336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerp-dot product (2D cross product).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "cross",
           "package": "collada-types",
@@ -4908,6 +5347,7 @@
         "index": {
           "description": "Perp-dot product cross product",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "cross",
           "normalized": "V-\u003eV-\u003eFloat",
@@ -4923,6 +5363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3D cross product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "cross3",
           "package": "collada-types",
@@ -4933,6 +5374,7 @@
         "index": {
           "description": "cross product",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "cross3",
           "normalized": "V-\u003eV-\u003eV",
@@ -4948,6 +5390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3d Vector length.\n\u003c/p\u003e\u003cp\u003eSet Vector length.\n\u003c/p\u003e\u003cp\u003eThe angle of a vector with respect to the X axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "dir",
           "package": "collada-types",
@@ -4958,6 +5401,7 @@
         "index": {
           "description": "Vector length Set Vector length The angle of vector with respect to the axis",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "dir",
           "normalized": "V-\u003eAngle",
@@ -4972,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "divide",
           "package": "collada-types",
@@ -4981,6 +5426,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "divide",
           "normalized": "V-\u003eFloat-\u003eV",
@@ -4996,6 +5442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication with a scalar.\n\u003c/p\u003e\u003cp\u003eDivision by a scalar.\n\u003c/p\u003e\u003cp\u003eDot product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "dot",
           "package": "collada-types",
@@ -5006,6 +5453,7 @@
         "index": {
           "description": "Multiplication with scalar Division by scalar Dot product",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "dot",
           "normalized": "V-\u003eV-\u003eFloat",
@@ -5021,6 +5469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "dot3",
           "package": "collada-types",
@@ -5031,6 +5480,7 @@
         "index": {
           "description": "Dot product",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "dot3",
           "normalized": "V-\u003eV-\u003eFloat",
@@ -5046,6 +5496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse transformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "inverse",
           "package": "collada-types",
@@ -5056,6 +5507,7 @@
         "index": {
           "description": "Inverse transformation",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "inverse",
           "normalized": "T-\u003eT",
@@ -5071,6 +5523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "mag",
           "package": "collada-types",
@@ -5081,6 +5534,7 @@
         "index": {
           "description": "Vector length",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "mag",
           "normalized": "V-\u003eFloat",
@@ -5095,6 +5549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "mul",
           "package": "collada-types",
@@ -5104,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "mul",
           "normalized": "V-\u003eFloat-\u003eV",
@@ -5119,6 +5575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector normalisation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "norm",
           "package": "collada-types",
@@ -5129,6 +5586,7 @@
         "index": {
           "description": "Vector normalisation",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "norm",
           "normalized": "V-\u003eV",
@@ -5144,6 +5602,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eparv v1 v2 == (turn v1 v2 == EQ)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "parv",
           "package": "collada-types",
@@ -5154,6 +5613,7 @@
         "index": {
           "description": "parv v1 v2 turn v1 v2 EQ",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "parv",
           "normalized": "V-\u003eV-\u003eBool",
@@ -5169,6 +5629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector rotated 90 degrees leftwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "perpL",
           "package": "collada-types",
@@ -5179,6 +5640,7 @@
         "index": {
           "description": "Vector rotated degrees leftwards",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "perpL",
           "normalized": "V-\u003eV",
@@ -5194,6 +5656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector rotated 90 degrees rightwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "perpR",
           "package": "collada-types",
@@ -5204,6 +5667,7 @@
         "index": {
           "description": "Vector rotated degrees rightwards",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "perpR",
           "normalized": "V-\u003eV",
@@ -5219,6 +5683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformation representing a rotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "rotate",
           "package": "collada-types",
@@ -5229,6 +5694,7 @@
         "index": {
           "description": "Transformation representing rotation",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "rotate",
           "normalized": "Angle-\u003eT",
@@ -5244,6 +5710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rotation factor of a transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "rotationOf",
           "package": "collada-types",
@@ -5254,6 +5721,7 @@
         "index": {
           "description": "The rotation factor of transformation",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "rotationOf",
           "normalized": "T-\u003eAngle",
@@ -5270,6 +5738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformation representing a scaling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "scale",
           "package": "collada-types",
@@ -5280,6 +5749,7 @@
         "index": {
           "description": "Transformation representing scaling",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "scale",
           "normalized": "Float-\u003eT",
@@ -5295,6 +5765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe scaling factor of a transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "scaleOf",
           "package": "collada-types",
@@ -5305,6 +5776,7 @@
         "index": {
           "description": "The scaling factor of transformation",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "scaleOf",
           "normalized": "T-\u003eFloat",
@@ -5320,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "set_len",
           "package": "collada-types",
@@ -5329,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "set_len",
           "normalized": "V-\u003eFloat-\u003eV",
@@ -5344,6 +5818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector length squared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "square",
           "package": "collada-types",
@@ -5354,6 +5829,7 @@
         "index": {
           "description": "Vector length squared",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "square",
           "normalized": "V-\u003eFloat",
@@ -5369,6 +5845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformation representing a translation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "translate",
           "package": "collada-types",
@@ -5379,6 +5856,7 @@
         "index": {
           "description": "Transformation representing translation",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "translate",
           "normalized": "V-\u003eT",
@@ -5394,6 +5872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe translation factor of a transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "translationOf",
           "package": "collada-types",
@@ -5404,6 +5883,7 @@
         "index": {
           "description": "The translation factor of transformation",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "translationOf",
           "normalized": "T-\u003eV",
@@ -5420,6 +5900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelative direction of two vectors: \u003ccode\u003eturn v1 v2\u003c/code\u003e equals \u003ccode\u003eGT\u003c/code\u003e if\n \u003ccode\u003ev2\u003c/code\u003e takes a left turn with respect to \u003ccode\u003ev1\u003c/code\u003e, \u003ccode\u003eLT\u003c/code\u003e if it is a right\n turn, and \u003ccode\u003eEQ\u003c/code\u003e if they are parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "turn",
           "package": "collada-types",
@@ -5430,6 +5911,7 @@
         "index": {
           "description": "Relative direction of two vectors turn v1 v2 equals GT if v2 takes left turn with respect to v1 LT if it is right turn and EQ if they are parallel",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "turn",
           "normalized": "V-\u003eV-\u003eOrdering",
@@ -5445,6 +5927,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eturnL v1 v2 == (turn v1 v2 == GT)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "turnL",
           "package": "collada-types",
@@ -5455,6 +5938,7 @@
         "index": {
           "description": "turnL v1 v2 turn v1 v2 GT",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "turnL",
           "normalized": "V-\u003eV-\u003eBool",
@@ -5470,6 +5954,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eturnNL v1 v2 == (turn v1 v2 /= GT)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "turnNL",
           "package": "collada-types",
@@ -5480,6 +5965,7 @@
         "index": {
           "description": "turnNL v1 v2 turn v1 v2 GT",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "turnNL",
           "normalized": "V-\u003eV-\u003eBool",
@@ -5496,6 +5982,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eturnNR v1 v2 == (turn v1 v2 /= LT)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "turnNR",
           "package": "collada-types",
@@ -5506,6 +5993,7 @@
         "index": {
           "description": "turnNR v1 v2 turn v1 v2 LT",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "turnNR",
           "normalized": "V-\u003eV-\u003eBool",
@@ -5522,6 +6010,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eturnR v1 v2 == (turn v1 v2 == LT)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "turnR",
           "package": "collada-types",
@@ -5532,6 +6021,7 @@
         "index": {
           "description": "turnR v1 v2 turn v1 v2 LT",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "turnR",
           "normalized": "V-\u003eV-\u003eBool",
@@ -5547,6 +6037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit vector with the given direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "unit",
           "package": "collada-types",
@@ -5557,6 +6048,7 @@
         "index": {
           "description": "Unit vector with the given direction",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "unit",
           "normalized": "Angle-\u003eV",
@@ -5571,6 +6063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "v_len",
           "package": "collada-types",
@@ -5580,6 +6073,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "v_len",
           "normalized": "V-\u003eFloat",
@@ -5595,6 +6089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplacing the rotation factor of a transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "withRotation",
           "package": "collada-types",
@@ -5605,6 +6100,7 @@
         "index": {
           "description": "Replacing the rotation factor of transformation",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "withRotation",
           "normalized": "T-\u003eAngle-\u003eT",
@@ -5621,6 +6117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplacing the scaling factor of a transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "withScale",
           "package": "collada-types",
@@ -5631,6 +6128,7 @@
         "index": {
           "description": "Replacing the scaling factor of transformation",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "withScale",
           "normalized": "T-\u003eFloat-\u003eT",
@@ -5647,6 +6145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplacing the translation factor of a transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:46 UTC 2014",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "withTranslation",
           "package": "collada-types",
@@ -5657,6 +6156,7 @@
         "index": {
           "description": "Replacing the translation factor of transformation",
           "hierarchy": "Graphics Formats Collada Vector2D3D",
+          "indexed": "2014-03-11T17:35:46",
           "module": "Graphics.Formats.Collada.Vector2D3D",
           "name": "withTranslation",
           "normalized": "T-\u003eV-\u003eT",

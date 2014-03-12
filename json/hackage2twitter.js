@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hackage2twitter"
+        "phrase": "hackage2twitter",
+        "type": "phrase"
       },
       "type": "context"
     }

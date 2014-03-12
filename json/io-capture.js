@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "io-capture"
+        "phrase": "io-capture",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:57 UTC 2014",
           "module": "System.IO.Capture",
           "name": "Capture",
           "package": "io-capture",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System IO Capture",
+          "indexed": "2014-03-11T18:58:57",
           "module": "System.IO.Capture",
           "name": "Capture",
           "package": "io-capture",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes an IO as action to run, and a String as given stdin,\n  then returns whole stdout and stderr as String of tuple.\n\u003c/p\u003e\u003cpre\u003e import System.IO.Capture (capture)\n\n main = print =\u003c\u003c capture (getLine \u003e\u003e= putStr) \"foobar\"\n   -- prints (\"foobar\",\"\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:58:57 UTC 2014",
           "module": "System.IO.Capture",
           "name": "capture",
           "package": "io-capture",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Takes an IO as action to run and String as given stdin then returns whole stdout and stderr as String of tuple import System.IO.Capture capture main print capture getLine putStr foobar prints foobar",
           "hierarchy": "System IO Capture",
+          "indexed": "2014-03-11T18:58:57",
           "module": "System.IO.Capture",
           "name": "capture",
           "normalized": "IO a-\u003eString-\u003eIO(String,String)",

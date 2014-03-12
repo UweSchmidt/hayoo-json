@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hcltest"
+        "phrase": "hcltest",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the basic test type, HClTest, which is a monad. It also provides functions\n for creating and running tests. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "Monad",
           "package": "hcltest",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines the basic test type HClTest which is monad It also provides functions for creating and running tests",
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "Monad",
           "package": "hcltest",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe config is passed in a Reader to the test cases. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "Config",
           "package": "hcltest",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The config is passed in Reader to the test cases",
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "Config",
           "package": "hcltest",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HClTest monad. A HClTest action describes a single test case. The first argument is the type\n of the trace entries. For tests, this should be \u003ccode\u003e\u003ca\u003eTrace\u003c/a\u003e\u003c/code\u003e. For a single test step, this should be \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "HClTest",
           "package": "hcltest",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The HClTest monad HClTest action describes single test case The first argument is the type of the trace entries For tests this should be Trace For single test step this should be String",
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "HClTest",
           "package": "hcltest",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "Config",
           "package": "hcltest",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "Config",
           "package": "hcltest",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "HClTest",
           "package": "hcltest",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "HClTest",
           "package": "hcltest",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "_timeoutFactor",
           "package": "hcltest",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "_timeoutFactor",
           "package": "hcltest",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "_wdLock",
           "package": "hcltest",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "_wdLock",
           "package": "hcltest",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a HClTest action that always fails. The first argument is the trace to leave.\n If you want to fail without leaving a trace, you can just use \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "failTest",
           "package": "hcltest",
@@ -186,6 +201,7 @@
         "index": {
           "description": "This is HClTest action that always fails The first argument is the trace to leave If you want to fail without leaving trace you can just use mzero",
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "failTest",
           "normalized": "a-\u003eHClTest a b",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a number of tests in parallel, in random order. The first argument is the number of threads\n to use. Note that if the test cases require different working directories, some of the threads\n may block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "randomParallel",
           "package": "hcltest",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Run number of tests in parallel in random order The first argument is the number of threads to use Note that if the test cases require different working directories some of the threads may block",
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "randomParallel",
           "normalized": "Int-\u003e[HClTest Trace()]-\u003eHClTest Trace()",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike runHClTestTrace, but already shows the trace so that you get a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "runHClTest",
           "package": "hcltest",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Like runHClTestTrace but already shows the trace so that you get string",
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "runHClTest",
           "normalized": "Double-\u003eHClTest Trace()-\u003eIO(Bool,String)",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a HClTest. The first argument is the timeout for waiting for output\n of the process, in milliseconds. The second argument is the test case.\n\u003c/p\u003e\u003cp\u003eThis will run the test in a temporary working directory. Use the functions\n in Test.HClTest.Setup to setup the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "runHClTestTrace",
           "package": "hcltest",
@@ -264,6 +285,7 @@
         "index": {
           "description": "Run HClTest The first argument is the timeout for waiting for output of the process in milliseconds The second argument is the test case This will run the test in temporary working directory Use the functions in Test.HClTest.Setup to setup the environment",
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "runHClTestTrace",
           "normalized": "Double-\u003eHClTest Trace()-\u003eIO(Bool,DList Trace)",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an IO action, and fail if that action returns false. The first argument\n is a description of the IO action which will be used for the trace messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "testIO",
           "package": "hcltest",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Run an IO action and fail if that action returns false The first argument is description of the IO action which will be used for the trace messages",
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "testIO",
           "normalized": "String-\u003eIO Bool-\u003eHClTest Trace()",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single test step. The first argument is a description of the step. The test step\n can produce trace messages of type \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e. Those will be collected an exactly one\n \u003ccode\u003e\u003ca\u003eTrace\u003c/a\u003e\u003c/code\u003e will be emitted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "testStep",
           "package": "hcltest",
@@ -316,6 +341,7 @@
         "index": {
           "description": "single test step The first argument is description of the step The test step can produce trace messages of type String Those will be collected an exactly one Trace will be emitted",
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "testStep",
           "normalized": "String-\u003eHClTest String a-\u003eHClTest Trace a",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "timeoutFactor",
           "package": "hcltest",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "timeoutFactor",
           "package": "hcltest",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a message to the log.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "traceMsg",
           "package": "hcltest",
@@ -364,6 +393,7 @@
         "index": {
           "description": "Add message to the log",
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "traceMsg",
           "normalized": "a-\u003eHClTest a()",
@@ -379,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "unHClTest",
           "package": "hcltest",
@@ -388,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "unHClTest",
           "package": "hcltest",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "wdLock",
           "package": "hcltest",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "wdLock",
           "package": "hcltest",
@@ -424,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a test in the given directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Monad",
           "name": "withWorkingDirectory",
           "package": "hcltest",
@@ -434,6 +469,7 @@
         "index": {
           "description": "Run test in the given directory",
           "hierarchy": "Test HClTest Monad",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Monad",
           "name": "withWorkingDirectory",
           "normalized": "FilePath-\u003eHClTest Trace a-\u003eHClTest Trace a",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn this module there are functions for creating test cases that run\n programs. It also provides functions for running programs that require input.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "Program",
           "package": "hcltest",
@@ -459,6 +496,7 @@
         "index": {
           "description": "In this module there are functions for creating test cases that run programs It also provides functions for running programs that require input",
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "Program",
           "package": "hcltest",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe driver monad. The driver monad is used to run programs that require input. It allows\n you to specify a \u003ca\u003escript\u003c/a\u003e of actions, like \u003ca\u003esend input\u003c/a\u003e or \u003ca\u003eexpect output\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "Driver",
           "package": "hcltest",
@@ -482,6 +521,7 @@
         "index": {
           "description": "The driver monad The driver monad is used to run programs that require input It allows you to specify script of actions like send input or expect output",
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "Driver",
           "package": "hcltest",
@@ -496,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA output stream. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "Stream",
           "package": "hcltest",
@@ -505,6 +546,7 @@
         "index": {
           "description": "output stream",
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "Stream",
           "package": "hcltest",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "Stderr",
           "package": "hcltest",
@@ -527,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "Stderr",
           "package": "hcltest",
@@ -540,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "Stdout",
           "package": "hcltest",
@@ -549,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "Stdout",
           "package": "hcltest",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that the process outputs the given text on the given output stream. This only\n matches a prefix, so it also succeeds if the process produces more output. If you want\n to check that this is the only output, use expectEOF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "expect",
           "package": "hcltest",
@@ -573,6 +620,7 @@
         "index": {
           "description": "Check that the process outputs the given text on the given output stream This only matches prefix so it also succeeds if the process produces more output If you want to check that this is the only output use expectEOF",
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "expect",
           "normalized": "Stream-\u003eText-\u003eDriver()",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that the process' output ended.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "expectEOF",
           "package": "hcltest",
@@ -598,6 +647,7 @@
         "index": {
           "description": "Check that the process output ended",
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "expectEOF",
           "normalized": "Stream-\u003eDriver()",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a driver. The first argument is the timeout for waiting for output of the process.\n The second argument are handles to stdin, stdout and stderr of the process. The third\n argument is the driver to run. This produces a test step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "runDriver",
           "package": "hcltest",
@@ -624,6 +675,7 @@
         "index": {
           "description": "Run driver The first argument is the timeout for waiting for output of the process The second argument are handles to stdin stdout and stderr of the process The third argument is the driver to run This produces test step",
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "runDriver",
           "normalized": "Int-\u003e(Handle,Handle,Handle)-\u003eDriver a-\u003eHClTest String a",
@@ -640,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend some text to the process. The text will be encoded as UTF-8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "send",
           "package": "hcltest",
@@ -650,6 +703,7 @@
         "index": {
           "description": "Send some text to the process The text will be encoded as UTF-8",
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "send",
           "normalized": "Text-\u003eDriver()",
@@ -665,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA restricted form of testInteractive that only tests that the process exits with the given exit code.\n See \u003ccode\u003e\u003ca\u003etestInteractive\u003c/a\u003e\u003c/code\u003e for a description of the arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "testExitCode",
           "package": "hcltest",
@@ -675,6 +730,7 @@
         "index": {
           "description": "restricted form of testInteractive that only tests that the process exits with the given exit code See testInteractive for description of the arguments",
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "testExitCode",
           "normalized": "Maybe FilePath-\u003eInt-\u003eFilePath-\u003e[String]-\u003eExitCode-\u003eHClTest Trace()",
@@ -691,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a test step for an interactive program. The first argument is either the working directory\n or Nothing, which doesn't change the working directory. The second argument is the timeout in seconds \n for waiting for output of the process. The third argument is the executable file. The forth argument\n are the arguments for the executable and the fifth is the driver to use. The driver should return\n the expected exit code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "testInteractive",
           "package": "hcltest",
@@ -701,6 +758,7 @@
         "index": {
           "description": "Make test step for an interactive program The first argument is either the working directory or Nothing which doesn change the working directory The second argument is the timeout in seconds for waiting for output of the process The third argument is the executable file The forth argument are the arguments for the executable and the fifth is the driver to use The driver should return the expected exit code",
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "testInteractive",
           "normalized": "Maybe FilePath-\u003eInt-\u003eFilePath-\u003e[String]-\u003eDriver ExitCode-\u003eHClTest Trace()",
@@ -717,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA restricted form of testInteractive that Only tests that the process produces the given output on stderr, and no more. See \n \u003ccode\u003e\u003ca\u003etestInteractive\u003c/a\u003e\u003c/code\u003e for a description of the arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Program",
           "name": "testStdout",
           "package": "hcltest",
@@ -727,6 +786,7 @@
         "index": {
           "description": "restricted form of testInteractive that Only tests that the process produces the given output on stderr and no more See testInteractive for description of the arguments",
           "hierarchy": "Test HClTest Program",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Program",
           "name": "testStdout",
           "normalized": "Maybe FilePath-\u003eInt-\u003eFilePath-\u003e[String]-\u003eExitCode-\u003eText-\u003eHClTest Trace()",
@@ -742,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Setup",
           "name": "Setup",
           "package": "hcltest",
@@ -750,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Setup",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Setup",
           "name": "Setup",
           "package": "hcltest",
@@ -764,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecopyFiles source target\u003c/code\u003e copies all the files in the \u003ccode\u003esource\u003c/code\u003e directory to the directory \u003ccode\u003etarget\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Setup",
           "name": "copyFiles",
           "package": "hcltest",
@@ -774,6 +837,7 @@
         "index": {
           "description": "copyFiles source target copies all the files in the source directory to the directory target",
           "hierarchy": "Test HClTest Setup",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Setup",
           "name": "copyFiles",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -790,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecopyFilesHere source\u003c/code\u003e copies all the files from source to the current directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Setup",
           "name": "copyFilesHere",
           "package": "hcltest",
@@ -800,6 +865,7 @@
         "index": {
           "description": "copyFilesHere source copies all the files from source to the current directory",
           "hierarchy": "Test HClTest Setup",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Setup",
           "name": "copyFilesHere",
           "normalized": "FilePath-\u003eIO()",
@@ -816,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Trace is a log entry for a single test step.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Trace",
           "name": "Trace",
           "package": "hcltest",
@@ -825,6 +892,7 @@
         "index": {
           "description": "Trace is log entry for single test step",
           "hierarchy": "Test HClTest Trace",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Trace",
           "name": "Trace",
           "package": "hcltest",
@@ -839,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA trace has a step description and some messages produced by that step in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Trace",
           "name": "Trace",
           "package": "hcltest",
@@ -848,6 +917,7 @@
         "index": {
           "description": "trace has step description and some messages produced by that step in it",
           "hierarchy": "Test HClTest Trace",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Trace",
           "name": "Trace",
           "package": "hcltest",
@@ -861,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Trace",
           "name": "Trace",
           "package": "hcltest",
@@ -870,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Trace",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Trace",
           "name": "Trace",
           "package": "hcltest",
@@ -883,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Trace",
           "name": "messages",
           "package": "hcltest",
@@ -892,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Trace",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Trace",
           "name": "messages",
           "normalized": "[String]",
@@ -907,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a trace. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Trace",
           "name": "showTrace",
           "package": "hcltest",
@@ -917,6 +992,7 @@
         "index": {
           "description": "Pretty print trace",
           "hierarchy": "Test HClTest Trace",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Trace",
           "name": "showTrace",
           "normalized": "Trace-\u003eString",
@@ -932,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest.Trace",
           "name": "stepDescription",
           "package": "hcltest",
@@ -941,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest Trace",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest.Trace",
           "name": "stepDescription",
           "package": "hcltest",
@@ -954,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.HClTest",
           "name": "HClTest",
           "package": "hcltest",
@@ -962,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Test HClTest",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.HClTest",
           "name": "HClTest",
           "package": "hcltest",
@@ -976,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides support for running hcltest cases using tasty.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.Tasty.HClTest",
           "name": "HClTest",
           "package": "hcltest",
@@ -985,6 +1066,7 @@
         "index": {
           "description": "This module provides support for running hcltest cases using tasty",
           "hierarchy": "Test Tasty HClTest",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.Tasty.HClTest",
           "name": "HClTest",
           "package": "hcltest",
@@ -999,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a new test case with the given name using a HClTest for testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:06 UTC 2014",
           "module": "Test.Tasty.HClTest",
           "name": "hcltest",
           "package": "hcltest",
@@ -1009,6 +1092,7 @@
         "index": {
           "description": "Make new test case with the given name using HClTest for testing",
           "hierarchy": "Test Tasty HClTest",
+          "indexed": "2014-03-11T18:35:06",
           "module": "Test.Tasty.HClTest",
           "name": "hcltest",
           "normalized": "TestName-\u003eHClTest Trace()-\u003eTestTree",

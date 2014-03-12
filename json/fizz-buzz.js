@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fizz-buzz"
+        "phrase": "fizz-buzz",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:12 UTC 2014",
           "module": "Math.FizzBuzz",
           "name": "FizzBuzz",
           "package": "fizz-buzz",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math FizzBuzz",
+          "indexed": "2014-03-11T18:10:12",
           "module": "Math.FizzBuzz",
           "name": "FizzBuzz",
           "package": "fizz-buzz",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:12 UTC 2014",
           "module": "Math.FizzBuzz",
           "name": "toFizz",
           "package": "fizz-buzz",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Math FizzBuzz",
+          "indexed": "2014-03-11T18:10:12",
           "module": "Math.FizzBuzz",
           "name": "toFizz",
           "normalized": "Int-\u003eString",

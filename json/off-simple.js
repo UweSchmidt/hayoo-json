@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "off-simple"
+        "phrase": "off-simple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple datatype and parser for 3D OFF files. A single type is\n used for OFF information with or without color. Loosely based on\n \u003ca\u003ehttp://people.sc.fsu.edu/~jburkardt/data/off/off.html\u003c/a\u003e, but uses the\n file header to determine whether the object's faces contain color\n values. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "Simple",
           "package": "off-simple",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple datatype and parser for OFF files single type is used for OFF information with or without color Loosely based on http people.sc.fsu.edu jburkardt data off off.html but uses the file header to determine whether the object faces contain color values",
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "Simple",
           "package": "off-simple",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA face is a vector of vertex indices and an optional color value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "Face",
           "package": "off-simple",
@@ -51,6 +54,7 @@
         "index": {
           "description": "face is vector of vertex indices and an optional color value",
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "Face",
           "package": "off-simple",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of an object in OFF format; a pair of vectors\n containing the vertices and the faces of the object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "OFF",
           "package": "off-simple",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Representation of an object in OFF format pair of vectors containing the vertices and the faces of the object",
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "OFF",
           "package": "off-simple",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "Face",
           "package": "off-simple",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "Face",
           "package": "off-simple",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "OFF",
           "package": "off-simple",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "OFF",
           "package": "off-simple",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of faces in an \u003ccode\u003e\u003ca\u003eOFF\u003c/a\u003e\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "faceCount",
           "package": "off-simple",
@@ -142,6 +153,7 @@
         "index": {
           "description": "The number of faces in an OFF object",
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "faceCount",
           "normalized": "OFF-\u003eInt",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "faces",
           "package": "off-simple",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "faces",
           "package": "off-simple",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the \u003ccode\u003e\u003ca\u003eOFF\u003c/a\u003e\u003c/code\u003e object has color values associated\n with its faces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "hasColor",
           "package": "off-simple",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Returns True if the OFF object has color values associated with its faces",
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "hasColor",
           "normalized": "OFF-\u003eBool",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003eText\u003c/code\u003e string representing an OFF object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "parseOFF",
           "package": "off-simple",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Parse Text string representing an OFF object",
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "parseOFF",
           "package": "off-simple",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an OFF object from the given \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e, returning either\n the corresponding \u003ccode\u003e\u003ca\u003eOFF\u003c/a\u003e\u003c/code\u003e value or a \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "readOFFFile",
           "package": "off-simple",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Read an OFF object from the given FilePath returning either the corresponding OFF value or ParseError",
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "readOFFFile",
           "normalized": "FilePath-\u003eIO(Either ParseError OFF)",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of vertices in an \u003ccode\u003e\u003ca\u003eOFF\u003c/a\u003e\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "vertexCount",
           "package": "off-simple",
@@ -265,6 +286,7 @@
         "index": {
           "description": "The number of vertices in an OFF object",
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "vertexCount",
           "normalized": "OFF-\u003eInt",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:15 UTC 2014",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "vertices",
           "package": "off-simple",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats OFF Simple",
+          "indexed": "2014-03-11T19:31:15",
           "module": "Graphics.Formats.OFF.Simple",
           "name": "vertices",
           "package": "off-simple",

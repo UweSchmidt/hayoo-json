@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hfov"
+        "phrase": "hfov",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHFOV is a library for calculating field of view in a 2D raster grid, such\n as those found in roguelike games.\n\u003c/p\u003e\u003cp\u003eThanks to Greg McIntyre for the original C library to which this Haskell\n library binds. It can be found at \u003ca\u003ehttp://libfov.sourceforge.net/wiki\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "FOV",
           "package": "hfov",
@@ -28,6 +29,7 @@
         "index": {
           "description": "HFOV is library for calculating field of view in raster grid such as those found in roguelike games Thanks to Greg McIntyre for the original library to which this Haskell library binds It can be found at http libfov.sourceforge.net wiki",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "FOV",
           "package": "hfov",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "Direction",
           "package": "hfov",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "Direction",
           "package": "hfov",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque data structure for holding information about FOV calculation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "Settings",
           "package": "hfov",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Opaque data structure for holding information about FOV calculation",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "Settings",
           "package": "hfov",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShape of the field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "Shape",
           "package": "hfov",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Shape of the field",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "Shape",
           "package": "hfov",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit the field to a circle shape calculated on the fly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "Circle",
           "package": "hfov",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Limit the field to circle shape calculated on the fly",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "Circle",
           "package": "hfov",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit the field of view to a circle radius R by precalculating the\n circle shape. This consumes memory at the rate of 4*(R+2) bytes per R\n used in calls to fovCircle. Each radius is only calculated once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "CirclePrecalculate",
           "package": "hfov",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Limit the field of view to circle radius by precalculating the circle shape This consumes memory at the rate of bytes per used in calls to fovCircle Each radius is only calculated once",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "CirclePrecalculate",
           "package": "hfov",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "East",
           "package": "hfov",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "East",
           "package": "hfov",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "North",
           "package": "hfov",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "North",
           "package": "hfov",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "NorthEast",
           "package": "hfov",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "NorthEast",
           "package": "hfov",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "NorthWest",
           "package": "hfov",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "NorthWest",
           "package": "hfov",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit the field to an octagon with maximum radius R.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "Octagon",
           "package": "hfov",
@@ -255,6 +276,7 @@
         "index": {
           "description": "Limit the field to an octagon with maximum radius",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "Octagon",
           "package": "hfov",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "South",
           "package": "hfov",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "South",
           "package": "hfov",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "SouthEast",
           "package": "hfov",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "SouthEast",
           "package": "hfov",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "SouthWest",
           "package": "hfov",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "SouthWest",
           "package": "hfov",
@@ -335,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit the field to an RxR square.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "Square",
           "package": "hfov",
@@ -345,6 +374,7 @@
         "index": {
           "description": "Limit the field to an RxR square",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "Square",
           "package": "hfov",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "West",
           "package": "hfov",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "West",
           "package": "hfov",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast a beam.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "beam",
           "package": "hfov",
@@ -390,6 +423,7 @@
         "index": {
           "description": "Cast beam",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "beam",
           "normalized": "Settings-\u003e(Int,Int)-\u003eInt-\u003eDirection-\u003eFloat-\u003e(Int-\u003eInt-\u003eIO())-\u003e(Int-\u003eInt-\u003eIO Bool)-\u003eIO()",
@@ -405,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast a 360 degree field of view.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "circle",
           "package": "hfov",
@@ -414,6 +449,7 @@
         "index": {
           "description": "Cast degree field of view",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "circle",
           "normalized": "Settings-\u003e(Int,Int)-\u003eInt-\u003e(Int-\u003eInt-\u003eIO())-\u003e(Int-\u003eInt-\u003eIO Bool)-\u003eIO()",
@@ -429,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new FOV settings structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "newSettings",
           "package": "hfov",
@@ -439,6 +476,7 @@
         "index": {
           "description": "Create new FOV settings structure",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "newSettings",
           "package": "hfov",
@@ -453,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets whether or not to apply lighting to opaque squares.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "setOpaqueApply",
           "package": "hfov",
@@ -463,6 +502,7 @@
         "index": {
           "description": "Sets whether or not to apply lighting to opaque squares",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "setOpaqueApply",
           "normalized": "Settings-\u003eBool-\u003eIO()",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the shape of the field of view. The default is CirclePrecalculate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:08 UTC 2014",
           "module": "FOV",
           "name": "setShape",
           "package": "hfov",
@@ -489,6 +530,7 @@
         "index": {
           "description": "Set the shape of the field of view The default is CirclePrecalculate",
           "hierarchy": "FOV",
+          "indexed": "2014-03-11T18:38:08",
           "module": "FOV",
           "name": "setShape",
           "normalized": "Settings-\u003eShape-\u003eIO()",

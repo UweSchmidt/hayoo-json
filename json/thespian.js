@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "thespian"
+        "phrase": "thespian",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements Erlang-style actors \n (what Erlang calls processes). It does not implement \n network distribution (yet?). Here is an example:\n\u003c/p\u003e\u003cpre\u003e\nact1 :: Actor\nact1 = do\n    me \u003c- self\n    liftIO $ print \u003ca\u003eact1 started\u003c/a\u003e\n    forever $ receive\n      [ Case $ ((n, a) :: (Int, Address)) -\u003e\n            if n \u003e 10000\n                then do\n                    liftIO . throwIO $ NonTermination \n                else do\n                    liftIO . putStrLn $ \u003ca\u003eact1 got \u003c/a\u003e ++ (show n) ++ \u003ca\u003e from \u003c/a\u003e ++ (show a)\n                    send a (n+1, me)\n      , Case $ (e :: RemoteException) -\u003e \n            liftIO . print $ \u003ca\u003eact1 received a remote exception\u003c/a\u003e\n      , Default $ liftIO . print $ \u003ca\u003eact1: received a malformed message\u003c/a\u003e\n      ]\n\nact2 :: Address -\u003e Actor\nact2 addr = do\n    monitor addr\n    -- setFlag TrapRemoteExceptions\n    me \u003c- self\n    send addr (0 :: Int, me)\n    forever $ receive \n      [ Case $ ((n, a) :: (Int, Address)) -\u003e do\n                    liftIO . putStrLn $ \u003ca\u003eact2 got \u003c/a\u003e ++ (show n) ++ \u003ca\u003e from \u003c/a\u003e ++ (show a)\n                    send a (n+1, me)\n      , Case $ (e :: RemoteException) -\u003e \n            liftIO . print $ \u003ca\u003eact2 received a remote exception: \u003c/a\u003e ++ (show e)\n      ]\n\nact3 :: Address -\u003e Actor\nact3 addr = do\n    monitor addr\n    setFlag TrapRemoteExceptions\n    forever $ receive\n      [ Case $ (e :: RemoteException) -\u003e \n            liftIO . print $ \u003ca\u003eact3 received a remote exception: \u003c/a\u003e ++ (show e)\n      ]\n\nmain = do\n    addr1 \u003c- spawn act1\n    addr2 \u003c- spawn (act2 addr1)\n    spawn (act3 addr2)\n    threadDelay 20000000\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "Actor",
           "package": "thespian",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements Erlang-style actors what Erlang calls processes It does not implement network distribution yet Here is an example act1 Actor act1 do me self liftIO print act1 started forever receive Case Int Address if then do liftIO throwIO NonTermination else do liftIO putStrLn act1 got show from show send me Case RemoteException liftIO print act1 received remote exception Default liftIO print act1 received malformed message act2 Address Actor act2 addr do monitor addr setFlag TrapRemoteExceptions me self send addr Int me forever receive Case Int Address do liftIO putStrLn act2 got show from show send me Case RemoteException liftIO print act2 received remote exception show act3 Address Actor act3 addr do monitor addr setFlag TrapRemoteExceptions forever receive Case RemoteException liftIO print act3 received remote exception show main do addr1 spawn act1 addr2 spawn act2 addr1 spawn act3 addr2 threadDelay",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "Actor",
           "package": "thespian",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of an actor. It is just a monadic action\n in the \u003ccode\u003e\u003ca\u003eActorM\u003c/a\u003e\u003c/code\u003e monad, returning ()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "Actor",
           "package": "thespian",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The type of an actor It is just monadic action in the ActorM monad returning",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "Actor",
           "package": "thespian",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException raised by an actor on exit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "ActorExitNormal",
           "package": "thespian",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Exception raised by an actor on exit",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "ActorExitNormal",
           "package": "thespian",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actor monad, just a reader monad on top of \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "ActorM",
           "package": "thespian",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The actor monad just reader monad on top of IO",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "ActorM",
           "package": "thespian",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe address of an actor, used to send messages \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "Address",
           "package": "thespian",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The address of an actor used to send messages",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "Address",
           "package": "thespian",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "Flag",
           "package": "thespian",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "Flag",
           "package": "thespian",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "Handler",
           "package": "thespian",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "Handler",
           "package": "thespian",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "RemoteException",
           "package": "thespian",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "RemoteException",
           "package": "thespian",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix form of \u003ccode\u003e\u003ca\u003esend\u003c/a\u003e\u003c/code\u003e with the arguments flipped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "(▷)",
           "package": "thespian",
@@ -207,6 +224,7 @@
         "index": {
           "description": "Infix form of send with the arguments flipped",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "(▷) ▷",
           "normalized": "a-\u003eAddress-\u003eActorM()",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix form of \u003ccode\u003e\u003ca\u003esend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "(◁)",
           "package": "thespian",
@@ -232,6 +251,7 @@
         "index": {
           "description": "Infix form of send",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "(◁) ◁",
           "normalized": "Address-\u003ea-\u003eActorM()",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "Case",
           "package": "thespian",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "Case",
           "normalized": "Case(a-\u003eActorM())",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "Default",
           "package": "thespian",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "Default",
           "normalized": "Default(ActorM())",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "TrapRemoteExceptions",
           "package": "thespian",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "TrapRemoteExceptions",
           "package": "thespian",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears the specified flag in the actor's environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "clearFlag",
           "package": "thespian",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Clears the specified flag in the actor environment",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "clearFlag",
           "normalized": "Flag-\u003eActorM()",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emonitor\u003c/a\u003e\u003c/code\u003e, but bi-directional\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "link",
           "package": "thespian",
@@ -353,6 +382,7 @@
         "index": {
           "description": "Like monitor but bi-directional",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "link",
           "normalized": "Address-\u003eActorM()",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonitors the actor at the specified address.\n If an exception is raised in the monitored actor's \n thread, it is wrapped in an \u003ccode\u003eActorException\u003c/code\u003e and \n forwarded to the monitoring actor. If the monitored\n actor terminates, an \u003ccode\u003eActorException\u003c/code\u003e is raised in\n the monitoring Actor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "monitor",
           "package": "thespian",
@@ -378,6 +409,7 @@
         "index": {
           "description": "Monitors the actor at the specified address If an exception is raised in the monitored actor thread it is wrapped in an ActorException and forwarded to the monitoring actor If the monitored actor terminates an ActorException is raised in the monitoring Actor",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "monitor",
           "normalized": "Address-\u003eActorM()",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to handle a message using a list of handlers.\n The first handler matching the type of the message \n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "receive",
           "package": "thespian",
@@ -403,6 +436,7 @@
         "index": {
           "description": "Try to handle message using list of handlers The first handler matching the type of the message is used",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "receive",
           "normalized": "[Handler]-\u003eActorM()",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as receive, but times out after a specified \n amount of time and runs a default action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "receiveWithTimeout",
           "package": "thespian",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Same as receive but times out after specified amount of time and runs default action",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "receiveWithTimeout",
           "normalized": "Int-\u003e[Handler]-\u003eActorM()-\u003eActorM()",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to obtain an actor's own address inside the actor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "self",
           "package": "thespian",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Used to obtain an actor own address inside the actor",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "self",
           "package": "thespian",
@@ -467,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a message from inside the \u003ccode\u003e\u003ca\u003eActorM\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "send",
           "package": "thespian",
@@ -477,6 +516,7 @@
         "index": {
           "description": "Sends message from inside the ActorM monad",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "send",
           "normalized": "Address-\u003ea-\u003eActorM()",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the specified flag in the actor's environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "setFlag",
           "package": "thespian",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Sets the specified flag in the actor environment",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "setFlag",
           "normalized": "Flag-\u003eActorM()",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpawn a new actor with default flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "spawn",
           "package": "thespian",
@@ -528,6 +571,7 @@
         "index": {
           "description": "Spawn new actor with default flags",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "spawn",
           "normalized": "Actor-\u003eIO Address",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the specified flag is set in the actor's environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "testFlag",
           "package": "thespian",
@@ -553,6 +598,7 @@
         "index": {
           "description": "Checks if the specified flag is set in the actor environment",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "testFlag",
           "normalized": "Flag-\u003eActorM Bool",
@@ -569,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToggles the specified flag in the actor's environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:34 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "toggleFlag",
           "package": "thespian",
@@ -579,6 +626,7 @@
         "index": {
           "description": "Toggles the specified flag in the actor environment",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T20:21:34",
           "module": "Control.Concurrent.Actor",
           "name": "toggleFlag",
           "normalized": "Flag-\u003eActorM()",

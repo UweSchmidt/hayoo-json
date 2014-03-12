@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simseq"
+        "phrase": "simseq",
+        "type": "phrase"
       },
       "type": "context"
     }

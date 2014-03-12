@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hcg-minus"
+        "phrase": "hcg-minus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArrows\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Arrow",
           "name": "Arrow",
           "package": "hcg-minus",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Arrows",
           "hierarchy": "Data CG Minus Arrow",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Arrow",
           "name": "Arrow",
           "package": "hcg-minus",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the arrow body \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e and the arrow length and arrow angle\n (in radians) \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e calculate the \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e of each arrow tip.\n\u003c/p\u003e\u003cpre\u003e arrow_coord (Ln (Pt 0 0) (Pt 1 1)) 0.1 (pi/9)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Arrow",
           "name": "arrow_coord",
           "package": "hcg-minus",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Given the arrow body Ln and the arrow length and arrow angle in radians calculate the Pt of each arrow tip arrow coord Ln Pt Pt pi",
           "hierarchy": "Data CG Minus Arrow",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Arrow",
           "name": "arrow_coord",
           "normalized": "Ln R-\u003eR-\u003eR-\u003e(Pt R,Pt R)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompass bearings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "Bearing",
           "package": "hcg-minus",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Compass bearings",
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "Bearing",
           "package": "hcg-minus",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of compass bearings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "Bearing",
           "package": "hcg-minus",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Enumeration of compass bearings",
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "Bearing",
           "package": "hcg-minus",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "E",
           "package": "hcg-minus",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "E",
           "package": "hcg-minus",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "ENE",
           "package": "hcg-minus",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "ENE",
           "package": "hcg-minus",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "ESE",
           "package": "hcg-minus",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "ESE",
           "package": "hcg-minus",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "N",
           "package": "hcg-minus",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "N",
           "package": "hcg-minus",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "NE",
           "package": "hcg-minus",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "NE",
           "package": "hcg-minus",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "NNE",
           "package": "hcg-minus",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "NNE",
           "package": "hcg-minus",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "NNW",
           "package": "hcg-minus",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "NNW",
           "package": "hcg-minus",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "NW",
           "package": "hcg-minus",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "NW",
           "package": "hcg-minus",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "S",
           "package": "hcg-minus",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "S",
           "package": "hcg-minus",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "SE",
           "package": "hcg-minus",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "SE",
           "package": "hcg-minus",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "SSE",
           "package": "hcg-minus",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "SSE",
           "package": "hcg-minus",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "SSW",
           "package": "hcg-minus",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "SSW",
           "package": "hcg-minus",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "SW",
           "package": "hcg-minus",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "SW",
           "package": "hcg-minus",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "W",
           "package": "hcg-minus",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "W",
           "package": "hcg-minus",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "WNW",
           "package": "hcg-minus",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "WNW",
           "package": "hcg-minus",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "WSW",
           "package": "hcg-minus",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "WSW",
           "package": "hcg-minus",
@@ -461,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBearing from \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e \u003cem\u003ep\u003c/em\u003e to \u003cem\u003eq\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e let f (x,y) = bearing (Pt 0 0) (Pt x y)\n map f [(0,1),(1,1),(1,0),(1,-1)] == [N,NE,E,SE]\n map f [(0,-1),(-1,-1),(-1,0),(-1,1)] == [S,SW,W,NW]\n map f [(1/4,1),(1,1/4),(1,-1/4),(1/4,-1)] == [NNE,ENE,ESE,SSE]\n map f [(-1/4,-1),(-1,-1/4),(-1,1.4),(-1/4,1)] == [SSW,WSW,NW,NNW]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "bearing",
           "package": "hcg-minus",
@@ -471,6 +512,7 @@
         "index": {
           "description": "Bearing from Pt to let bearing Pt Pt map NE SE map SW NW map NNE ENE ESE SSE map SSW WSW NW NNW",
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "bearing",
           "normalized": "Pt R-\u003ePt R-\u003eBearing",
@@ -486,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBearing to nearest eight point compass bearing\n\u003c/p\u003e\u003cpre\u003e let f (x,y) = bearing_8 (Pt 0 0) (Pt x y)\n map f [(1/4,1),(1,1/4),(1,-1/4),(1/4,-1)] == [N,E,E,S]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "bearing_8",
           "package": "hcg-minus",
@@ -496,6 +539,7 @@
         "index": {
           "description": "Bearing to nearest eight point compass bearing let bearing Pt Pt map",
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "bearing_8",
           "normalized": "Pt R-\u003ePt R-\u003eBearing",
@@ -511,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate that is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if bearings are opposite.\n\u003c/p\u003e\u003cpre\u003e bearing_opposite (NW,SE) == True\n map bearing_opposite (zip [N,E,S,W] [S,W,N,E]) == [True,True,True,True]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Bearing",
           "name": "bearing_opposite",
           "package": "hcg-minus",
@@ -521,6 +566,7 @@
         "index": {
           "description": "Predicate that is True if bearings are opposite bearing opposite NW SE True map bearing opposite zip True True True True",
           "hierarchy": "Data CG Minus Bearing",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Bearing",
           "name": "bearing_opposite",
           "normalized": "(Bearing,Bearing)-\u003eBool",
@@ -536,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlanck radiation equation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour.Planck",
           "name": "Planck",
           "package": "hcg-minus",
@@ -545,6 +592,7 @@
         "index": {
           "description": "Planck radiation equation",
           "hierarchy": "Data CG Minus Colour Planck",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour.Planck",
           "name": "Planck",
           "package": "hcg-minus",
@@ -559,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etoC\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ek_to_rgb\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour.Planck",
           "name": "k_to_colour",
           "package": "hcg-minus",
@@ -569,6 +618,7 @@
         "index": {
           "description": "toC to rgb",
           "hierarchy": "Data CG Minus Colour Planck",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour.Planck",
           "name": "k_to_colour",
           "normalized": "Double-\u003eC",
@@ -584,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the color of a black body emitting light at a given\n temperature.  The Planck radiation equation is solved directly for\n the \u003ccode\u003eR\u003c/code\u003e, \u003ccode\u003eG\u003c/code\u003e, and \u003ccode\u003eB\u003c/code\u003e wavelengths defined for the CIE 1931 Standard\n Colorimetric Observer.  The colour temperature is specified in\n degrees Kelvin.  Typical constraints for star temperatures are \u003ccode\u003e\u003e=\u003c/code\u003e\n 2600\u003ccode\u003eK\u003c/code\u003e (\u003cem\u003eS Cephei, R Andromedae\u003c/em\u003e) and \u003ccode\u003e\u003c=\u003c/code\u003e 28,000\u003ccode\u003eK\u003c/code\u003e (\u003cem\u003eSpica\u003c/em\u003e).\n\u003c/p\u003e\u003cpre\u003e let h (r,g,b) = let f = floor . (*) 255 in (f r,f g,f b)\n in map (h . k_to_rgb) [2600,28000] == [(255,95,22),(49,118,254)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour.Planck",
           "name": "k_to_rgb",
           "package": "hcg-minus",
@@ -594,6 +645,7 @@
         "index": {
           "description": "Return the color of black body emitting light at given temperature The Planck radiation equation is solved directly for the and wavelengths defined for the CIE Standard Colorimetric Observer The colour temperature is specified in degrees Kelvin Typical constraints for star temperatures are Cephei Andromedae and Spica let let floor in in map to rgb",
           "hierarchy": "Data CG Minus Colour Planck",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour.Planck",
           "name": "k_to_rgb",
           "normalized": "a-\u003e(a,a,a)",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven wavelength (in microns) and temperature (in degrees Kelvin)\n solve Planck's radiation equation.\n\u003c/p\u003e\u003cpre\u003e planck_rad_eq 0.7 2600 == 8.22656629154115e7\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour.Planck",
           "name": "planck_rad_eq",
           "package": "hcg-minus",
@@ -619,6 +672,7 @@
         "index": {
           "description": "Given wavelength in microns and temperature in degrees Kelvin solve Planck radiation equation planck rad eq e7",
           "hierarchy": "Data CG Minus Colour Planck",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour.Planck",
           "name": "planck_rad_eq",
           "normalized": "a-\u003ea-\u003ea",
@@ -634,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eColour related functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "Colour",
           "package": "hcg-minus",
@@ -643,6 +698,7 @@
         "index": {
           "description": "Colour related functions",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "Colour",
           "package": "hcg-minus",
@@ -657,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "C",
           "package": "hcg-minus",
@@ -666,6 +723,7 @@
         "index": {
           "description": "Opaque colour",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "C",
           "package": "hcg-minus",
@@ -679,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColour with \u003cem\u003ealpha\u003c/em\u003e channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "Ca",
           "package": "hcg-minus",
@@ -688,6 +747,7 @@
         "index": {
           "description": "Colour with alpha channel",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "Ca",
           "package": "hcg-minus",
@@ -702,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCandlelight yellow (\u003ccode\u003e#fcd116\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "candlelightYellow",
           "package": "hcg-minus",
@@ -712,6 +773,7 @@
         "index": {
           "description": "Candlelight yellow fcd116",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "candlelightYellow",
           "package": "hcg-minus",
@@ -726,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDye magenta (\u003ccode\u003e#ca1f7b\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "dyeMagenta",
           "package": "hcg-minus",
@@ -736,6 +799,7 @@
         "index": {
           "description": "Dye magenta ca1f7b",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "dyeMagenta",
           "package": "hcg-minus",
@@ -750,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFern green (\u003ccode\u003e#009246\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "fernGreen",
           "package": "hcg-minus",
@@ -760,6 +825,7 @@
         "index": {
           "description": "Fern green",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "fernGreen",
           "package": "hcg-minus",
@@ -774,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrey \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "mk_grey",
           "package": "hcg-minus",
@@ -784,6 +851,7 @@
         "index": {
           "description": "Grey Colour",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "mk_grey",
           "normalized": "a-\u003eColour a",
@@ -799,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of named colours defined in this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "non_svg_colour_set",
           "package": "hcg-minus",
@@ -809,6 +878,7 @@
         "index": {
           "description": "The set of named colours defined in this module",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "non_svg_colour_set",
           "normalized": "[C]",
@@ -824,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard \u003cem\u003ealpha\u003c/em\u003e channel, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "pureColour",
           "package": "hcg-minus",
@@ -834,6 +905,7 @@
         "index": {
           "description": "Discard alpha channel if possible",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "pureColour",
           "normalized": "AlphaColour a-\u003eColour a",
@@ -850,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafety orange (\u003ccode\u003e#ff6600\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "safetyOrange",
           "package": "hcg-minus",
@@ -860,6 +933,7 @@
         "index": {
           "description": "Safety orange ff6600",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "safetyOrange",
           "package": "hcg-minus",
@@ -874,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSepia brown (\u003ccode\u003e#704214\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "sepiaBrown",
           "package": "hcg-minus",
@@ -884,6 +959,7 @@
         "index": {
           "description": "Sepia brown",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "sepiaBrown",
           "package": "hcg-minus",
@@ -898,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtractive primary cyan (\u003ccode\u003e#00B7EB\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "subtractivePrimaryCyan",
           "package": "hcg-minus",
@@ -908,6 +985,7 @@
         "index": {
           "description": "Subtractive primary cyan B7EB",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "subtractivePrimaryCyan",
           "package": "hcg-minus",
@@ -922,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of named colours in the \u003ccode\u003eSVG\u003c/code\u003e specification (in\n alphabetical order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "svg_colour_set",
           "package": "hcg-minus",
@@ -932,6 +1011,7 @@
         "index": {
           "description": "The set of named colours in the SVG specification in alphabetical order",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "svg_colour_set",
           "normalized": "[C]",
@@ -947,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwedish azure blue (\u003ccode\u003e#005b99\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "swedishAzureBlue",
           "package": "hcg-minus",
@@ -957,6 +1038,7 @@
         "index": {
           "description": "Swedish azure blue b99",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "swedishAzureBlue",
           "package": "hcg-minus",
@@ -971,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple to \u003ccode\u003e\u003ca\u003eC\u003c/a\u003e\u003c/code\u003e, inverse of \u003ccode\u003e\u003ca\u003eunC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "toC",
           "package": "hcg-minus",
@@ -981,6 +1064,7 @@
         "index": {
           "description": "Tuple to inverse of unC",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "toC",
           "normalized": "(Double,Double,Double)-\u003eC",
@@ -996,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple to \u003ccode\u003e\u003ca\u003eCa\u003c/a\u003e\u003c/code\u003e, inverse of \u003ccode\u003e\u003ca\u003eunCa\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "toCa",
           "package": "hcg-minus",
@@ -1006,6 +1091,7 @@
         "index": {
           "description": "Tuple to Ca inverse of unCa",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "toCa",
           "normalized": "(Double,Double,Double,Double)-\u003eCa",
@@ -1022,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e to grey.  Constants are \u003ccode\u003e0.3\u003c/code\u003e, \u003ccode\u003e0.59\u003c/code\u003e and \u003ccode\u003e0.11\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "to_greyscale",
           "package": "hcg-minus",
@@ -1032,6 +1119,7 @@
         "index": {
           "description": "Reduce Colour to grey Constants are and",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "to_greyscale",
           "normalized": "Colour a-\u003ea",
@@ -1047,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emk_grey\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eto_greyscale\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "to_greyscale_c",
           "package": "hcg-minus",
@@ -1057,6 +1146,7 @@
         "index": {
           "description": "mk grey to greyscale",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "to_greyscale_c",
           "normalized": "Colour a-\u003eColour a",
@@ -1072,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eC\u003c/a\u003e\u003c/code\u003e to \u003cem\u003e(red,green,blue)\u003c/em\u003e tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "unC",
           "package": "hcg-minus",
@@ -1082,6 +1173,7 @@
         "index": {
           "description": "to red green blue tuple",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "unC",
           "normalized": "C-\u003e(Double,Double,Double)",
@@ -1097,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCa\u003c/a\u003e\u003c/code\u003e to \u003cem\u003e(red,green,blue,alpha)\u003c/em\u003e tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "unCa",
           "package": "hcg-minus",
@@ -1107,6 +1200,7 @@
         "index": {
           "description": "Ca to red green blue alpha tuple",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "unCa",
           "normalized": "Ca-\u003e(Double,Double,Double,Double)",
@@ -1123,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVenetian red (\u003ccode\u003e#c80815\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus.Colour",
           "name": "venetianRed",
           "package": "hcg-minus",
@@ -1133,6 +1228,7 @@
         "index": {
           "description": "Venetian red c80815",
           "hierarchy": "Data CG Minus Colour",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus.Colour",
           "name": "venetianRed",
           "package": "hcg-minus",
@@ -1147,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCG library (minus).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Minus",
           "package": "hcg-minus",
@@ -1156,6 +1253,7 @@
         "index": {
           "description": "CG library minus",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Minus",
           "package": "hcg-minus",
@@ -1170,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo-dimensional line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Ln",
           "package": "hcg-minus",
@@ -1179,6 +1278,7 @@
         "index": {
           "description": "Two-dimensional line",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Ln",
           "package": "hcg-minus",
@@ -1193,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Ls",
           "package": "hcg-minus",
@@ -1202,6 +1303,7 @@
         "index": {
           "description": "Line segments",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Ls",
           "package": "hcg-minus",
@@ -1216,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformation matrix data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Matrix",
           "package": "hcg-minus",
@@ -1225,6 +1328,7 @@
         "index": {
           "description": "Transformation matrix data type",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Matrix",
           "package": "hcg-minus",
@@ -1239,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Matrix_Index",
           "package": "hcg-minus",
@@ -1248,6 +1353,7 @@
         "index": {
           "description": "Enumeration of Matrix indices",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Matrix_Index",
           "package": "hcg-minus",
@@ -1262,6 +1368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo-dimensional point.\n\u003c/p\u003e\u003cp\u003ePt are \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e, pointwise, ie:\n\u003c/p\u003e\u003cpre\u003e Pt 1 2 + Pt 3 4 == Pt 4 6\n Pt 1 2 * Pt 3 4 == Pt 3 8\n negate (Pt 0 1) == Pt 0 (-1)\n abs (Pt (-1) 1) == Pt 1 1\n signum (Pt (-1/2) (1/2)) == Pt (-1) 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Pt",
           "package": "hcg-minus",
@@ -1271,6 +1378,7 @@
         "index": {
           "description": "Two-dimensional point Pt are Num pointwise ie Pt Pt Pt Pt Pt Pt negate Pt Pt abs Pt Pt signum Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Pt",
           "package": "hcg-minus",
@@ -1285,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal number, synonym for \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "R",
           "package": "hcg-minus",
@@ -1294,6 +1403,7 @@
         "index": {
           "description": "Real number synonym for Double",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "R",
           "package": "hcg-minus",
@@ -1307,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo-dimensional vector.  Vector are \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e in the same manner as\n \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Vc",
           "package": "hcg-minus",
@@ -1316,6 +1427,7 @@
         "index": {
           "description": "Two-dimensional vector Vector are Num in the same manner as Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Vc",
           "package": "hcg-minus",
@@ -1330,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWindow, given by a \u003cem\u003elower left\u003c/em\u003e \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e and an \u003cem\u003eextent\u003c/em\u003e \u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Wn",
           "package": "hcg-minus",
@@ -1339,6 +1452,7 @@
         "index": {
           "description": "Window given by lower left Pt and an extent Vc",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Wn",
           "package": "hcg-minus",
@@ -1353,6 +1467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs absolute difference less than \u003ccode\u003e\u003ca\u003eepsilon\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "(~=)",
           "package": "hcg-minus",
@@ -1363,6 +1478,7 @@
         "index": {
           "description": "Is absolute difference less than epsilon",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "(~=) ~=",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1377,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "I0",
           "package": "hcg-minus",
@@ -1386,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "I0",
           "package": "hcg-minus",
@@ -1398,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "I1",
           "package": "hcg-minus",
@@ -1407,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "I1",
           "package": "hcg-minus",
@@ -1419,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "I2",
           "package": "hcg-minus",
@@ -1428,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "I2",
           "package": "hcg-minus",
@@ -1440,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Ln",
           "package": "hcg-minus",
@@ -1449,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Ln",
           "package": "hcg-minus",
@@ -1462,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Matrix",
           "package": "hcg-minus",
@@ -1471,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Matrix",
           "package": "hcg-minus",
@@ -1484,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Pt",
           "package": "hcg-minus",
@@ -1493,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Pt",
           "package": "hcg-minus",
@@ -1506,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Vc",
           "package": "hcg-minus",
@@ -1515,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Vc",
           "package": "hcg-minus",
@@ -1528,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "Wn",
           "package": "hcg-minus",
@@ -1537,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "Wn",
           "package": "hcg-minus",
@@ -1550,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "bezier3",
           "package": "hcg-minus",
@@ -1559,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "bezier3",
           "normalized": "Pt a-\u003ePt a-\u003ePt a-\u003ea-\u003ePt a",
@@ -1574,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFour-point bezier curve interpolation.  The index \u003cem\u003emu\u003c/em\u003e is\n   in the range zero to one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "bezier4",
           "package": "hcg-minus",
@@ -1584,6 +1719,7 @@
         "index": {
           "description": "Four-point bezier curve interpolation The index mu is in the range zero to one",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "bezier4",
           "normalized": "Pt a-\u003ePt a-\u003ePt a-\u003ePt a-\u003ea-\u003ePt a",
@@ -1599,6 +1735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003eln_midpoint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e cc_midpoint (Just (Pt 0 0),Nothing) == Pt 0 0\n cc_midpoint (Nothing,Just (Pt 2 1)) == Pt 2 1\n cc_midpoint (Just (Pt 0 0),Just (Pt 2 1)) == Pt 1 (1/2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "cc_midpoint",
           "package": "hcg-minus",
@@ -1609,6 +1746,7 @@
         "index": {
           "description": "Variant on ln midpoint cc midpoint Just Pt Nothing Pt cc midpoint Nothing Just Pt Pt cc midpoint Just Pt Just Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "cc_midpoint",
           "normalized": "(Maybe(Pt R),Maybe(Pt R))-\u003ePt R",
@@ -1624,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete elements of a list using a predicate over the\n previous and current elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "delete_f",
           "package": "hcg-minus",
@@ -1634,6 +1773,7 @@
         "index": {
           "description": "Delete elements of list using predicate over the previous and current elements",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "delete_f",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -1649,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEpsilon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "epsilon",
           "package": "hcg-minus",
@@ -1659,6 +1800,7 @@
         "index": {
           "description": "Epsilon",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "epsilon",
           "package": "hcg-minus",
@@ -1672,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003cem\u003eleft\u003c/em\u003e and \u003cem\u003eright\u003c/em\u003e, is \u003cem\u003ex\u003c/em\u003e in range (inclusive).\n\u003c/p\u003e\u003cpre\u003e map (in_range 0 1) [-1,0,1,2] == [False,True,True,False]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "in_range",
           "package": "hcg-minus",
@@ -1682,6 +1825,7 @@
         "index": {
           "description": "Given left and right is in range inclusive map in range False True True False",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "in_range",
           "normalized": "a-\u003ea-\u003ea-\u003eBool",
@@ -1697,6 +1841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e which takes \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e co-ordinates as duples.\n\u003c/p\u003e\u003cpre\u003e ln' (0,0) (1,1) == Ln (Pt 0 0) (Pt 1 1)\n ln_start (Ln (Pt 0 0) (Pt 1 1)) == Pt 0 0\n ln_end (Ln (Pt 0 0) (Pt 1 1)) == Pt 1 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln'",
           "package": "hcg-minus",
@@ -1707,6 +1852,7 @@
         "index": {
           "description": "Variant on Ln which takes Pt co-ordinates as duples ln Ln Pt Pt ln start Ln Pt Pt Pt ln end Ln Pt Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln'",
           "normalized": "(a,a)-\u003e(a,a)-\u003eLn a",
@@ -1722,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e to have equal starting \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e but magnitude \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_adjust (sqrt 2) (Ln (Pt 0 0) (Pt 2 2)) == Ln (Pt 0 0) (Pt 1 1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_adjust",
           "package": "hcg-minus",
@@ -1732,6 +1879,7 @@
         "index": {
           "description": "Adjust Ln to have equal starting Pt but magnitude ln adjust sqrt Ln Pt Pt Ln Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_adjust",
           "normalized": "a-\u003eLn a-\u003eLn a",
@@ -1747,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe angle, in \u003cem\u003eradians\u003c/em\u003e, anti-clockwise from the \u003cem\u003ex\u003c/em\u003e-axis.\n\u003c/p\u003e\u003cpre\u003e ln_angle (ln' (0,0) (0,0)) == 0\n ln_angle (ln' (0,0) (1,1)) == pi/4\n ln_angle (ln' (0,0) (0,1)) == pi/2\n ln_angle (ln' (0,0) (-1,1)) == pi * 3/4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_angle",
           "package": "hcg-minus",
@@ -1757,6 +1906,7 @@
         "index": {
           "description": "The angle in radians anti-clockwise from the axis ln angle ln ln angle ln pi ln angle ln pi ln angle ln pi",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_angle",
           "normalized": "Ln R-\u003eR",
@@ -1771,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_end",
           "package": "hcg-minus",
@@ -1780,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_end",
           "package": "hcg-minus",
@@ -1793,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e by \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e, ie. \u003ccode\u003e\u003ca\u003eln_adjust\u003c/a\u003e\u003c/code\u003e with \u003cem\u003en\u003c/em\u003e added to\n \u003ccode\u003e\u003ca\u003eln_magnitude\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_extend (sqrt 2) (Ln (Pt 0 0) (Pt 1 1)) ~= Ln (Pt 0 0) (Pt 2 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_extend",
           "package": "hcg-minus",
@@ -1803,6 +1956,7 @@
         "index": {
           "description": "Extend Ln by ie ln adjust with added to ln magnitude ln extend sqrt Ln Pt Pt Ln Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_extend",
           "normalized": "R-\u003eLn R-\u003eLn R",
@@ -1818,6 +1972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant definition of \u003ccode\u003e\u003ca\u003eln_extend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_extend_ (sqrt 2) (Ln (Pt 0 0) (Pt 1 1)) == Ln (Pt 0 0) (Pt 2 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_extend_",
           "package": "hcg-minus",
@@ -1828,6 +1983,7 @@
         "index": {
           "description": "Variant definition of ln extend ln extend sqrt Ln Pt Pt Ln Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_extend_",
           "normalized": "R-\u003eLn R-\u003eLn R",
@@ -1843,6 +1999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e horizontal, ie. is \u003ccode\u003e\u003ca\u003eln_slope\u003c/a\u003e\u003c/code\u003e zero.\n\u003c/p\u003e\u003cpre\u003e ln_horizontal (ln' (0,0) (1,0)) == True\n ln_horizontal (ln' (1,0) (0,0)) == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_horizontal",
           "package": "hcg-minus",
@@ -1853,6 +2010,7 @@
         "index": {
           "description": "Is Ln horizontal ie is ln slope zero ln horizontal ln True ln horizontal ln True",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_horizontal",
           "normalized": "Ln a-\u003eBool",
@@ -1867,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_intersect",
           "package": "hcg-minus",
@@ -1876,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_intersect",
           "normalized": "Ln a-\u003eLn a-\u003eMaybe(a,a)",
@@ -1891,6 +2051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate variant of \u003ccode\u003e\u003ca\u003eln_intersection\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_intersect_p (ln' (1,1) (3,8)) (ln' (0.5,2) (4,7)) == True\n ln_intersect_p (ln' (3.5,9) (3.5,0.5)) (ln' (3,1) (9,1)) == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_intersect_p",
           "package": "hcg-minus",
@@ -1901,6 +2062,7 @@
         "index": {
           "description": "Predicate variant of ln intersection ln intersect ln ln True ln intersect ln ln True",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_intersect_p",
           "normalized": "Ln a-\u003eLn a-\u003eBool",
@@ -1916,6 +2078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo two \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003es intersect, and if so at which \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_intersection (ln' (0,0) (5,5)) (ln' (5,0) (0,5)) == Just (Pt 2.5 2.5)\n ln_intersection (ln' (1,3) (9,3)) (ln' (0,1) (2,1)) == Nothing\n ln_intersection (ln' (1,5) (6,8)) (ln' (0.5,3) (6,4)) == Nothing\n ln_intersection (ln' (1,2) (3,6)) (ln' (2,4) (4,8)) == Nothing\n ln_intersection (ln' (2,3) (7,9)) (ln' (1,2) (5,7)) == Nothing\n ln_intersection (ln' (0,0) (1,1)) (ln' (0,0) (1,0)) == Just (Pt 0 0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_intersection",
           "package": "hcg-minus",
@@ -1926,6 +2089,7 @@
         "index": {
           "description": "Do two Ln intersect and if so at which Pt ln intersection ln ln Just Pt ln intersection ln ln Nothing ln intersection ln ln Nothing ln intersection ln ln Nothing ln intersection ln ln Nothing ln intersection ln ln Just Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_intersection",
           "normalized": "Ln a-\u003eLn a-\u003eMaybe(Pt a)",
@@ -1941,6 +2105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant definition of \u003ccode\u003e\u003ca\u003eln_intersection\u003c/a\u003e\u003c/code\u003e, using algorithm at\n \u003ca\u003ehttp://paulbourke.net/geometry/lineline2d/\u003c/a\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_intersection_ (ln' (1,2) (3,6)) (ln' (2,4) (4,8)) == Nothing\n ln_intersection_ (ln' (0,0) (1,1)) (ln' (0,0) (1,0)) == Just (Pt 0 0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_intersection_",
           "package": "hcg-minus",
@@ -1951,6 +2116,7 @@
         "index": {
           "description": "Variant definition of ln intersection using algorithm at http paulbourke.net geometry lineline2d ln intersection ln ln Nothing ln intersection ln ln Just Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_intersection_",
           "normalized": "Ln a-\u003eLn a-\u003eMaybe(Pt a)",
@@ -1966,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMagnitude of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e, ie. length of line.\n\u003c/p\u003e\u003cpre\u003e ln_magnitude (Ln (Pt 0 0) (Pt 1 1)) == sqrt 2\n pt_x (pt_to_polar (Pt 1 1)) == sqrt 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_magnitude",
           "package": "hcg-minus",
@@ -1976,6 +2143,7 @@
         "index": {
           "description": "Magnitude of Ln ie length of line ln magnitude Ln Pt Pt sqrt pt pt to polar Pt sqrt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_magnitude",
           "normalized": "Ln R-\u003eR",
@@ -1991,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMidpoint of a \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_midpoint (Ln (Pt 0 0) (Pt 2 1)) == Pt 1 (1/2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_midpoint",
           "package": "hcg-minus",
@@ -2001,6 +2170,7 @@
         "index": {
           "description": "Midpoint of Ln ln midpoint Ln Pt Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_midpoint",
           "normalized": "Ln a-\u003ePt a",
@@ -2016,6 +2186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e normalise \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_normalise_w",
           "package": "hcg-minus",
@@ -2026,6 +2197,7 @@
         "index": {
           "description": "Given Wn normalise Ln",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_normalise_w",
           "normalized": "Wn R-\u003eLn R-\u003eLn R",
@@ -2041,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003es parallel, ie. have equal \u003ccode\u003e\u003ca\u003eln_slope\u003c/a\u003e\u003c/code\u003e.  Note that the\n direction of the \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e is not relevant, ie. this is not equal to\n \u003ccode\u003e\u003ca\u003eln_same_direction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_parallel (ln' (0,0) (1,1)) (ln' (2,2) (1,1)) == True\n ln_parallel (ln' (0,0) (1,1)) (ln' (2,0) (1,1)) == False\n ln_parallel (ln' (1,2) (3,6)) (ln' (2,4) (4,8)) == True\n map ln_slope [ln' (2,2) (1,1),ln' (2,0) (1,1)] == [Just 1,Just (-1)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_parallel",
           "package": "hcg-minus",
@@ -2051,6 +2224,7 @@
         "index": {
           "description": "Are Ln parallel ie have equal ln slope Note that the direction of the Ln is not relevant ie this is not equal to ln same direction ln parallel ln ln True ln parallel ln ln False ln parallel ln ln True map ln slope ln ln Just Just",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_parallel",
           "normalized": "Ln a-\u003eLn a-\u003eBool",
@@ -2066,6 +2240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003es parallel, ie. have equal \u003ccode\u003e\u003ca\u003eln_angle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_parallel_ (ln' (0,0) (1,1)) (ln' (2,2) (1,1)) == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_parallel_",
           "package": "hcg-minus",
@@ -2076,6 +2251,7 @@
         "index": {
           "description": "Are Ln parallel ie have equal ln angle ln parallel ln ln True",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_parallel_",
           "normalized": "Ln R-\u003eLn R-\u003eBool",
@@ -2091,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003es parallel, ie. does \u003ccode\u003e\u003ca\u003eln_vc\u003c/a\u003e\u003c/code\u003e of each equal \u003ccode\u003e\u003ca\u003eln_same_direction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_parallel__ (ln' (0,0) (1,1)) (ln' (2,2) (1,1)) == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_parallel__",
           "package": "hcg-minus",
@@ -2101,6 +2278,7 @@
         "index": {
           "description": "Are Ln parallel ie does ln vc of each equal ln same direction ln parallel ln ln True",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_parallel__",
           "normalized": "Ln R-\u003eLn R-\u003eBool",
@@ -2116,6 +2294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart and end points of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_pt (Ln (Pt 1 0) (Pt 0 0)) == (Pt 1 0,Pt 0 0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_pt",
           "package": "hcg-minus",
@@ -2126,6 +2305,7 @@
         "index": {
           "description": "Start and end points of Ln ln pt Ln Pt Pt Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_pt",
           "normalized": "Ln a-\u003e(Pt a,Pt a)",
@@ -2141,6 +2321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eln_pt\u003c/a\u003e\u003c/code\u003e giving co-ordinates as duples.\n\u003c/p\u003e\u003cpre\u003e ln_pt' (Ln (Pt 1 0) (Pt 0 0)) == ((1,0),(0,0))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_pt'",
           "package": "hcg-minus",
@@ -2151,6 +2332,7 @@
         "index": {
           "description": "Variant of ln pt giving co-ordinates as duples ln pt Ln Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_pt'",
           "normalized": "Ln a-\u003e((a,a),(a,a))",
@@ -2165,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_pt_along",
           "package": "hcg-minus",
@@ -2174,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_pt_along",
           "normalized": "a-\u003eLn a-\u003ePt a",
@@ -2189,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003es have same direction (within tolerance).\n\u003c/p\u003e\u003cpre\u003e ln_same_direction (ln' (0,0) (1,1)) (ln' (0,0) (2,2)) == True\n ln_same_direction (ln' (0,0) (1,1)) (ln' (2,2) (0,0)) == False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_same_direction",
           "package": "hcg-minus",
@@ -2199,6 +2384,7 @@
         "index": {
           "description": "Do Ln have same direction within tolerance ln same direction ln ln True ln same direction ln ln False",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_same_direction",
           "normalized": "Ln a-\u003eLn a-\u003eBool",
@@ -2214,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ept_scale\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_scale",
           "package": "hcg-minus",
@@ -2224,6 +2411,7 @@
         "index": {
           "description": "pt scale at Ln",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_scale",
           "normalized": "a-\u003eLn a-\u003eLn a",
@@ -2239,6 +2427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlope of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003cem\u003evertical\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e let l = zipWith ln' (repeat (0,0)) [(1,0),(2,1),(1,1),(0,1),(-1,1)]\n in map ln_slope l == [Just 0,Just (1/2),Just 1,Nothing,Just (-1)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_slope",
           "package": "hcg-minus",
@@ -2249,6 +2438,7 @@
         "index": {
           "description": "Slope of Ln or Nothing if vertical let zipWith ln repeat in map ln slope Just Just Just Nothing Just",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_slope",
           "normalized": "Ln a-\u003eMaybe a",
@@ -2264,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrder \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e so that \u003cem\u003ep\u003c/em\u003e is to the left of \u003cem\u003eq\u003c/em\u003e.  If \u003cem\u003ex\u003c/em\u003e\n fields are equal, sort on \u003cem\u003ey\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_sort (Ln (Pt 1 0) (Pt 0 0)) == Ln (Pt 0 0) (Pt 1 0)\n ln_sort (Ln (Pt 0 1) (Pt 0 0)) == Ln (Pt 0 0) (Pt 0 1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_sort",
           "package": "hcg-minus",
@@ -2274,6 +2465,7 @@
         "index": {
           "description": "Order Pt at Ln so that is to the left of If fields are equal sort on ln sort Ln Pt Pt Ln Pt Pt ln sort Ln Pt Pt Ln Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_sort",
           "normalized": "Ln a-\u003eLn a",
@@ -2288,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_start",
           "package": "hcg-minus",
@@ -2297,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_start",
           "package": "hcg-minus",
@@ -2310,6 +2504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e UOp at \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_uop",
           "package": "hcg-minus",
@@ -2320,6 +2515,7 @@
         "index": {
           "description": "Pt UOp at Ln",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_uop",
           "normalized": "(Pt a-\u003ePt b)-\u003eLn a-\u003eLn b",
@@ -2335,6 +2531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e that \u003ccode\u003e\u003ca\u003ept_translate\u003c/a\u003e\u003c/code\u003es start \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e to end \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let l = Ln (Pt 0 0) (Pt 1 1)\n in ln_start l `pt_translate` ln_vc l == Pt 1 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_vc",
           "package": "hcg-minus",
@@ -2345,6 +2542,7 @@
         "index": {
           "description": "Vc that pt translate start Pt to end Pt of Ln let Ln Pt Pt in ln start pt translate ln vc Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_vc",
           "normalized": "Ln a-\u003eVc a",
@@ -2360,6 +2558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e vertical, ie. is \u003ccode\u003e\u003ca\u003eln_slope\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_vertical (ln' (0,0) (0,1)) == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ln_vertical",
           "package": "hcg-minus",
@@ -2370,6 +2569,7 @@
         "index": {
           "description": "Is Ln vertical ie is ln slope Nothing ln vertical ln True",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ln_vertical",
           "normalized": "Ln a-\u003eBool",
@@ -2385,6 +2585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ept_minmax\u003c/a\u003e\u003c/code\u003e for set of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "lns_minmax",
           "package": "hcg-minus",
@@ -2395,6 +2596,7 @@
         "index": {
           "description": "pt minmax for set of Ln",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "lns_minmax",
           "normalized": "[Ln R]-\u003e(Pt R,Pt R)",
@@ -2410,6 +2612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalise to (0,m).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "lns_normalise",
           "package": "hcg-minus",
@@ -2420,6 +2623,7 @@
         "index": {
           "description": "Normalise to",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "lns_normalise",
           "normalized": "R-\u003e[Ln R]-\u003e[Ln R]",
@@ -2435,6 +2639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls",
           "package": "hcg-minus",
@@ -2445,6 +2650,7 @@
         "index": {
           "description": "Ls constructor",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls",
           "normalized": "[Pt a]-\u003eLs a",
@@ -2460,6 +2666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e constructor from \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e co-ordinates as duples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls'",
           "package": "hcg-minus",
@@ -2470,6 +2677,7 @@
         "index": {
           "description": "Variant Ls constructor from Pt co-ordinates as duples",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls'",
           "normalized": "[(a,a)]-\u003eLs a",
@@ -2485,6 +2693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck all \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e are \u003ccode\u003e\u003ca\u003ept_is_normal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_check_normalised",
           "package": "hcg-minus",
@@ -2495,6 +2704,7 @@
         "index": {
           "description": "Check all Pt at Ls are pt is normal",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_check_normalised",
           "normalized": "Ls a-\u003eBool",
@@ -2510,6 +2720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre any points at \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e within the window \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_enters_window",
           "package": "hcg-minus",
@@ -2520,6 +2731,7 @@
         "index": {
           "description": "Are any points at Ls within the window Wn",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_enters_window",
           "normalized": "Wn R-\u003eLs R-\u003eBool",
@@ -2535,6 +2747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre all points at \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e within the \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_in_window",
           "package": "hcg-minus",
@@ -2545,6 +2758,7 @@
         "index": {
           "description": "Are all points at Ls within the Wn",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_in_window",
           "normalized": "Wn R-\u003eLs R-\u003eBool",
@@ -2560,6 +2774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate \u003cem\u003eminima\u003c/em\u003e and \u003cem\u003emaxima\u003c/em\u003e \u003ccode\u003ePoint\u003c/code\u003es from \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_minmax",
           "package": "hcg-minus",
@@ -2570,6 +2785,7 @@
         "index": {
           "description": "Generate minima and maxima Point from Ls",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_minmax",
           "normalized": "Ls a-\u003e(Pt a,Pt a)",
@@ -2585,6 +2801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate \u003cem\u003ey\u003c/em\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_negate_y",
           "package": "hcg-minus",
@@ -2595,6 +2812,7 @@
         "index": {
           "description": "Negate elements",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_negate_y",
           "normalized": "Ls a-\u003eLs a",
@@ -2610,6 +2828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e normalise the \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_normalise_w",
           "package": "hcg-minus",
@@ -2620,6 +2839,7 @@
         "index": {
           "description": "Given Wn normalise the Ls",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_normalise_w",
           "normalized": "Wn R-\u003eLs R-\u003eLs R",
@@ -2635,6 +2855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre all points at \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e outside the \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_not_in_window",
           "package": "hcg-minus",
@@ -2645,6 +2866,7 @@
         "index": {
           "description": "Are all points at Ls outside the Wn",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_not_in_window",
           "normalized": "Wn R-\u003eLs R-\u003eBool",
@@ -2660,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if point \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e lies inside polygon \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ls_pt_inside (ls' [(0,0),(1,0),(1,1),(0,1)]) (Pt 0.5 0.5) == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_pt_inside",
           "package": "hcg-minus",
@@ -2670,6 +2893,7 @@
         "index": {
           "description": "Test if point Pt lies inside polygon Ls ls pt inside ls Pt True",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_pt_inside",
           "normalized": "Ls R-\u003ePt R-\u003eBool",
@@ -2685,6 +2909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant that counts points at vertices as inside.\n\u003c/p\u003e\u003cpre\u003e ls_pt_inside' (ls' [(0,0),(1,0),(1,1),(0,1)]) (Pt 0 1) == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_pt_inside'",
           "package": "hcg-minus",
@@ -2695,6 +2920,7 @@
         "index": {
           "description": "Variant that counts points at vertices as inside ls pt inside ls Pt True",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_pt_inside'",
           "normalized": "Ls R-\u003ePt R-\u003eBool",
@@ -2710,6 +2936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e into segments that are entirely within the \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_segment_window",
           "package": "hcg-minus",
@@ -2720,6 +2947,7 @@
         "index": {
           "description": "Break Ls into segments that are entirely within the Wn",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_segment_window",
           "normalized": "Wn R-\u003eLs R-\u003e[Ls R]",
@@ -2735,6 +2963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e at points where the \u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e from one element to the\n next exceeds the indicated distance.\n\u003c/p\u003e\u003cpre\u003e map length (ls_separate (Vc 2 2) (map (uncurry Pt) [(0,0),(1,1),(3,3)])) == [2,1]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_separate",
           "package": "hcg-minus",
@@ -2745,6 +2974,7 @@
         "index": {
           "description": "Separate Ls at points where the Vc from one element to the next exceeds the indicated distance map length ls separate Vc map uncurry Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_separate",
           "normalized": "Vc a-\u003eLs a-\u003e[Ls a]",
@@ -2760,6 +2990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e so that no two \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e are within a tolerance\n given by \u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_tolerate",
           "package": "hcg-minus",
@@ -2770,6 +3001,7 @@
         "index": {
           "description": "Delete Pt from Ls so that no two Pt are within tolerance given by Vc",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_tolerate",
           "normalized": "Vc a-\u003eLs a-\u003eLs a",
@@ -2785,6 +3017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003els_tolerate\u003c/a\u003e\u003c/code\u003e where \u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e is optional, and \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e gives \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_tolerate'",
           "package": "hcg-minus",
@@ -2795,6 +3028,7 @@
         "index": {
           "description": "Variant of ls tolerate where Vc is optional and Nothing gives id",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_tolerate'",
           "normalized": "Maybe(Vc a)-\u003eLs a-\u003eLs a",
@@ -2810,6 +3044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e containing \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ls_window (ls' [(0,0),(1,1),(2,0)]) == wn' (0,0) (2,1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_window",
           "package": "hcg-minus",
@@ -2820,6 +3055,7 @@
         "index": {
           "description": "Wn containing Ls ls window ls wn",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_window",
           "normalized": "Ls a-\u003eWn a",
@@ -2835,6 +3071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine co-ordinates as \u003cem\u003ex\u003c/em\u003e,\u003cem\u003ey\u003c/em\u003e list.\n\u003c/p\u003e\u003cpre\u003e ls_xy [Pt 0 0,Pt 1 1] == [0,0,1,1]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "ls_xy",
           "package": "hcg-minus",
@@ -2845,6 +3082,7 @@
         "index": {
           "description": "Line co-ordinates as list ls xy Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "ls_xy",
           "normalized": "Ls a-\u003e[a]",
@@ -2860,6 +3098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esqrt\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003emag_sq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mag",
           "package": "hcg-minus",
@@ -2870,6 +3109,7 @@
         "index": {
           "description": "sqrt of mag sq",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mag",
           "normalized": "a-\u003ea-\u003ea",
@@ -2885,6 +3125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of squares.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mag_sq",
           "package": "hcg-minus",
@@ -2895,6 +3136,7 @@
         "index": {
           "description": "Sum of squares",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mag_sq",
           "normalized": "a-\u003ea-\u003ea",
@@ -2909,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_adjoint",
           "package": "hcg-minus",
@@ -2918,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_adjoint",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -2933,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePointwise binary operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_binop",
           "package": "hcg-minus",
@@ -2943,6 +3188,7 @@
         "index": {
           "description": "Pointwise binary operator",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_binop",
           "normalized": "(a-\u003ea-\u003ea)-\u003eMatrix a-\u003eMatrix a-\u003eMatrix a",
@@ -2957,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_col",
           "package": "hcg-minus",
@@ -2966,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_col",
           "normalized": "Matrix a-\u003eMatrix_Index-\u003e(a,a,a)",
@@ -2981,6 +3229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_identity",
           "package": "hcg-minus",
@@ -2991,6 +3240,7 @@
         "index": {
           "description": "The identity matrix",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_identity",
           "package": "hcg-minus",
@@ -3003,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_invert",
           "package": "hcg-minus",
@@ -3012,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_invert",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -3026,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_list",
           "package": "hcg-minus",
@@ -3035,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_list",
           "normalized": "Matrix a-\u003e[a]",
@@ -3049,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_multiply",
           "package": "hcg-minus",
@@ -3058,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_multiply",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -3072,6 +3328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_rotate",
           "package": "hcg-minus",
@@ -3081,6 +3338,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_rotate",
           "normalized": "a-\u003eMatrix a-\u003eMatrix a",
@@ -3096,6 +3354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rotation matrix through the indicated angle (in radians).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_rotation",
           "package": "hcg-minus",
@@ -3106,6 +3365,7 @@
         "index": {
           "description": "rotation matrix through the indicated angle in radians",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_rotation",
           "normalized": "a-\u003eMatrix a",
@@ -3120,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_row",
           "package": "hcg-minus",
@@ -3129,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_row",
           "normalized": "Matrix a-\u003eMatrix_Index-\u003e(a,a,a)",
@@ -3143,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_scalar_multiply",
           "package": "hcg-minus",
@@ -3152,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_scalar_multiply",
           "normalized": "a-\u003eMatrix a-\u003eMatrix a",
@@ -3166,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_scale",
           "package": "hcg-minus",
@@ -3175,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_scale",
           "normalized": "a-\u003ea-\u003eMatrix a-\u003eMatrix a",
@@ -3190,6 +3456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA scaling matrix with independent x and y scalars.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_scaling",
           "package": "hcg-minus",
@@ -3200,6 +3467,7 @@
         "index": {
           "description": "scaling matrix with independent and scalars",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_scaling",
           "normalized": "a-\u003ea-\u003eMatrix a",
@@ -3214,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_translate",
           "package": "hcg-minus",
@@ -3223,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_translate",
           "normalized": "a-\u003ea-\u003eMatrix a-\u003eMatrix a",
@@ -3238,6 +3508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA translation matrix with independent x and y offsets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_translation",
           "package": "hcg-minus",
@@ -3248,6 +3519,7 @@
         "index": {
           "description": "translation matrix with independent and offsets",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_translation",
           "normalized": "a-\u003ea-\u003eMatrix a",
@@ -3263,6 +3535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePointwise unary operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "mx_uop",
           "package": "hcg-minus",
@@ -3273,6 +3546,7 @@
         "index": {
           "description": "Pointwise unary operator",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "mx_uop",
           "normalized": "(a-\u003ea)-\u003eMatrix a-\u003eMatrix a",
@@ -3288,6 +3562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll adjacent pairs of a list.\n\u003c/p\u003e\u003cpre\u003e pairs [1..5] == [(1,2),(2,3),(3,4),(4,5)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pairs",
           "package": "hcg-minus",
@@ -3298,6 +3573,7 @@
         "index": {
           "description": "All adjacent pairs of list pairs",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pairs",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -3313,6 +3589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt'",
           "package": "hcg-minus",
@@ -3323,6 +3600,7 @@
         "index": {
           "description": "Tuple constructor",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt'",
           "normalized": "(a,a)-\u003ePt a",
@@ -3338,6 +3616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle from \u003cem\u003ep\u003c/em\u003e to \u003cem\u003eq\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_angle (Pt 0 (-1)) (Pt 0 1) == pi/2\n pt_angle (Pt 1 0) (Pt 0 1) == pi * 3/4\n pt_angle (Pt 0 1) (Pt 0 1) == 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_angle",
           "package": "hcg-minus",
@@ -3348,6 +3627,7 @@
         "index": {
           "description": "Angle from to pt angle Pt Pt pi pt angle Pt Pt pi pt angle Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_angle",
           "normalized": "Pt R-\u003ePt R-\u003eR",
@@ -3363,6 +3643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle to origin.\n\u003c/p\u003e\u003cpre\u003e pt_angle_o (Pt 0 1) == pi / 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_angle_o",
           "package": "hcg-minus",
@@ -3373,6 +3654,7 @@
         "index": {
           "description": "Angle to origin pt angle Pt pi",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_angle_o",
           "normalized": "Pt R-\u003eR",
@@ -3388,6 +3670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary operator at \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e, ie. basis for \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_binop",
           "package": "hcg-minus",
@@ -3398,6 +3681,7 @@
         "index": {
           "description": "Binary operator at Pt ie basis for Num instances",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_binop",
           "normalized": "(a-\u003eb-\u003ec)-\u003ePt a-\u003ePt b-\u003ePt c",
@@ -3413,6 +3697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip \u003cem\u003ex\u003c/em\u003e and \u003cem\u003ey\u003c/em\u003e to lie in \u003cem\u003e(0,n)\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_clipu 1 (Pt 0.5 1.5) == Pt 0.5 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_clipu",
           "package": "hcg-minus",
@@ -3423,6 +3708,7 @@
         "index": {
           "description": "Clip and to lie in pt clipu Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_clipu",
           "normalized": "a-\u003ePt a-\u003ePt a",
@@ -3438,6 +3724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003econstrain\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_constrain",
           "package": "hcg-minus",
@@ -3448,6 +3735,7 @@
         "index": {
           "description": "Pt variant of constrain",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_constrain",
           "normalized": "(Pt R,Pt R)-\u003ePt R-\u003ePt R",
@@ -3463,6 +3751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance from \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e \u003cem\u003ep\u003c/em\u003e to \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e \u003cem\u003eq\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_distance (Pt 0 0) (Pt 0 1) == 1\n pt_distance (Pt 0 0) (Pt 1 1) == sqrt 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_distance",
           "package": "hcg-minus",
@@ -3473,6 +3762,7 @@
         "index": {
           "description": "Distance from Pt to Pt pt distance Pt Pt pt distance Pt Pt sqrt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_distance",
           "normalized": "Pt a-\u003ePt a-\u003ea",
@@ -3488,6 +3778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ept_uop\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efromIntegral\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_from_i",
           "package": "hcg-minus",
@@ -3498,6 +3789,7 @@
         "index": {
           "description": "pt uop fromIntegral",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_from_i",
           "normalized": "Pt a-\u003ePt b",
@@ -3513,6 +3805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolar to cartesian, inverse of \u003ccode\u003e\u003ca\u003ept_to_polar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_from_polar (Pt pi (pi/2)) ~= Pt 0 pi\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_from_polar",
           "package": "hcg-minus",
@@ -3523,6 +3816,7 @@
         "index": {
           "description": "Polar to cartesian inverse of pt to polar pt from polar Pt pi pi Pt pi",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_from_polar",
           "normalized": "Pt R-\u003ePt R",
@@ -3538,6 +3832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e at \u003cem\u003e(n,n)\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_from_scalar 1 == Pt 1 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_from_scalar",
           "package": "hcg-minus",
@@ -3548,6 +3843,7 @@
         "index": {
           "description": "Pt at pt from scalar Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_from_scalar",
           "normalized": "a-\u003ePt a",
@@ -3563,6 +3859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e within \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e exclusive of edge.\n\u003c/p\u003e\u003cpre\u003e map (pt_in_window (wn' (0,0) (1,1))) [Pt 0.5 0.5,Pt 1 1] == [True,False]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_in_window",
           "package": "hcg-minus",
@@ -3573,6 +3870,7 @@
         "index": {
           "description": "Is Pt within Wn exclusive of edge map pt in window wn Pt Pt True False",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_in_window",
           "normalized": "Wn a-\u003ePt a-\u003eBool",
@@ -3588,6 +3886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre \u003cem\u003ex\u003c/em\u003e and \u003cem\u003ey\u003c/em\u003e of \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e \u003cem\u003ep\u003c/em\u003e in range (0,1).\n\u003c/p\u003e\u003cpre\u003e map pt_is_normal [Pt 0 0,Pt 1 1,Pt 2 2] == [True,True,False]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_is_normal",
           "package": "hcg-minus",
@@ -3598,6 +3897,7 @@
         "index": {
           "description": "Are and of Pt in range map pt is normal Pt Pt Pt True True False",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_is_normal",
           "normalized": "Pt a-\u003eBool",
@@ -3613,6 +3913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the point that extends a line by length \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_linear_extension (sqrt 2) (Ln (Pt 1 1) (Pt 2 2)) ~= Pt 3 3\n pt_linear_extension 1 (Ln (Pt 1 1) (Pt 1 2)) ~= Pt 1 3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_linear_extension",
           "package": "hcg-minus",
@@ -3623,6 +3924,7 @@
         "index": {
           "description": "Calculate the point that extends line by length pt linear extension sqrt Ln Pt Pt Pt pt linear extension Ln Pt Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_linear_extension",
           "normalized": "R-\u003eLn R-\u003ePt R",
@@ -3638,6 +3940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emag\u003c/a\u003e\u003c/code\u003e of \u003cem\u003ex\u003c/em\u003e \u003cem\u003ey\u003c/em\u003e of \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_mag",
           "package": "hcg-minus",
@@ -3648,6 +3951,7 @@
         "index": {
           "description": "mag of of Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_mag",
           "normalized": "Pt a-\u003ea",
@@ -3663,6 +3967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emag_sq\u003c/a\u003e\u003c/code\u003e of \u003cem\u003ex\u003c/em\u003e \u003cem\u003ey\u003c/em\u003e of \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_mag_sq",
           "package": "hcg-minus",
@@ -3673,6 +3978,7 @@
         "index": {
           "description": "mag sq of of Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_mag_sq",
           "normalized": "Pt a-\u003ea",
@@ -3688,6 +3994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePointwise \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_max",
           "package": "hcg-minus",
@@ -3698,6 +4005,7 @@
         "index": {
           "description": "Pointwise max",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_max",
           "normalized": "Pt a-\u003ePt a-\u003ePt a",
@@ -3713,6 +4021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePointwise \u003ccode\u003e\u003ca\u003emin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_min",
           "package": "hcg-minus",
@@ -3723,6 +4032,7 @@
         "index": {
           "description": "Pointwise min",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_min",
           "normalized": "Pt a-\u003ePt a-\u003ePt a",
@@ -3738,6 +4048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003cem\u003e(minima,maxima)\u003c/em\u003e pair, expand so as to include \u003cem\u003ep\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_minmax (Pt 0 0,Pt 1 1) (Pt (-1) 2) == (Pt (-1) 0,Pt 1 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_minmax",
           "package": "hcg-minus",
@@ -3748,6 +4059,7 @@
         "index": {
           "description": "Given minima maxima pair expand so as to include pt minmax Pt Pt Pt Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_minmax",
           "normalized": "(Pt a,Pt a)-\u003ePt a-\u003e(Pt a,Pt a)",
@@ -3763,6 +4075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate \u003cem\u003ey\u003c/em\u003e element of \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_negate_y (Pt 1 1) == Pt 1 (-1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_negate_y",
           "package": "hcg-minus",
@@ -3773,6 +4086,7 @@
         "index": {
           "description": "Negate element of Pt pt negate Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_negate_y",
           "normalized": "Pt a-\u003ePt a",
@@ -3788,6 +4102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_offset 1 pt_origin == Pt 1 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_offset",
           "package": "hcg-minus",
@@ -3798,6 +4113,7 @@
         "index": {
           "description": "Scalar Pt pt offset pt origin Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_offset",
           "normalized": "a-\u003ePt a-\u003ePt a",
@@ -3813,6 +4129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e \u003cem\u003ep\u003c/em\u003e lie on \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e (inclusive).\n\u003c/p\u003e\u003cpre\u003e let {f = pt_on_line (Ln (Pt 0 0) (Pt 1 1))\n     ;r = [True,False,False,True]}\n in map f [Pt 0.5 0.5,Pt 2 2,Pt (-1) (-1),Pt 0 0] == r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_on_line",
           "package": "hcg-minus",
@@ -3823,6 +4140,7 @@
         "index": {
           "description": "Does Pt lie on Ln inclusive let pt on line Ln Pt Pt True False False True in map Pt Pt Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_on_line",
           "normalized": "Ln R-\u003ePt R-\u003eBool",
@@ -3838,6 +4156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e of (0,0).\n\u003c/p\u003e\u003cpre\u003e pt_origin == Pt 0 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_origin",
           "package": "hcg-minus",
@@ -3848,6 +4167,7 @@
         "index": {
           "description": "Pt of pt origin Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_origin",
           "package": "hcg-minus",
@@ -3861,6 +4181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e \u003cem\u003en\u003c/em\u003e radians.\n\u003c/p\u003e\u003cpre\u003e pt_rotate pi (Pt 1 0) ~= Pt (-1) 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_rotate",
           "package": "hcg-minus",
@@ -3871,6 +4192,7 @@
         "index": {
           "description": "Rotate Pt radians pt rotate pi Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_rotate",
           "normalized": "a-\u003ePt a-\u003ePt a",
@@ -3886,6 +4208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_scale 2 (Pt 1 2) == Pt 2 4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_scale",
           "package": "hcg-minus",
@@ -3896,6 +4219,7 @@
         "index": {
           "description": "Scalar Pt pt scale Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_scale",
           "normalized": "a-\u003ePt a-\u003ePt a",
@@ -3911,6 +4235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift lower left \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e by indicated \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_shift_w",
           "package": "hcg-minus",
@@ -3921,6 +4246,7 @@
         "index": {
           "description": "Shift lower left Pt of Wn by indicated Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_shift_w",
           "normalized": "Pt a-\u003eWn a-\u003eWn a",
@@ -3936,6 +4262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap \u003cem\u003ex\u003c/em\u003e and \u003cem\u003ey\u003c/em\u003e coordinates at \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_swap (Pt 1 2) == Pt 2 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_swap",
           "package": "hcg-minus",
@@ -3946,6 +4273,7 @@
         "index": {
           "description": "Swap and coordinates at Pt pt swap Pt Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_swap",
           "normalized": "Pt a-\u003ePt a",
@@ -3961,6 +4289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to \u003cem\u003ex\u003c/em\u003e and \u003cem\u003ey\u003c/em\u003e fields of three \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_ternary_f",
           "package": "hcg-minus",
@@ -3971,6 +4300,7 @@
         "index": {
           "description": "Apply function to and fields of three Pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_ternary_f",
           "normalized": "(a-\u003ea-\u003eb-\u003eb-\u003ec-\u003ec-\u003ed)-\u003ePt a-\u003ePt b-\u003ePt c-\u003ed",
@@ -3986,6 +4316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCartesian to polar.\n\u003c/p\u003e\u003cpre\u003e pt_to_polar (Pt 0 pi) == Pt pi (pi/2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_to_polar",
           "package": "hcg-minus",
@@ -3996,6 +4327,7 @@
         "index": {
           "description": "Cartesian to polar pt to polar Pt pi Pt pi pi",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_to_polar",
           "normalized": "Pt R-\u003ePt R",
@@ -4011,6 +4343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003e\u003ca\u003er_to_radians\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e pt_to_radians (Pt 90 270) == Pt (pi/2) (pi*(3/2))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_to_radians",
           "package": "hcg-minus",
@@ -4021,6 +4354,7 @@
         "index": {
           "description": "Pt variant of to radians pt to radians Pt Pt pi pi",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_to_radians",
           "normalized": "Pt R-\u003ePt R",
@@ -4036,6 +4370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation matrix to a point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_transform",
           "package": "hcg-minus",
@@ -4046,6 +4381,7 @@
         "index": {
           "description": "Apply transformation matrix to point",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_transform",
           "normalized": "Matrix a-\u003ePt a-\u003ePt a",
@@ -4061,6 +4397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePointwise \u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003ept_translate (Pt 0 0) (vc 1 1) == pt 1 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_translate",
           "package": "hcg-minus",
@@ -4071,6 +4408,7 @@
         "index": {
           "description": "Pointwise pt translate Pt vc pt",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_translate",
           "normalized": "Pt a-\u003eVc a-\u003ePt a",
@@ -4086,6 +4424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary operator at \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e, ie. basis for \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_uop",
           "package": "hcg-minus",
@@ -4096,6 +4435,7 @@
         "index": {
           "description": "Unary operator at Pt ie basis for Num instances",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_uop",
           "normalized": "(a-\u003eb)-\u003ePt a-\u003ePt b",
@@ -4110,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_x",
           "package": "hcg-minus",
@@ -4119,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_x",
           "package": "hcg-minus",
@@ -4132,6 +4474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple accessor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_xy",
           "package": "hcg-minus",
@@ -4142,6 +4485,7 @@
         "index": {
           "description": "Tuple accessor",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_xy",
           "normalized": "Pt a-\u003e(a,a)",
@@ -4156,6 +4500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "pt_y",
           "package": "hcg-minus",
@@ -4165,6 +4510,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "pt_y",
           "package": "hcg-minus",
@@ -4178,6 +4524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e modulo within range.\n\u003c/p\u003e\u003cpre\u003e map (r_constrain (3,5)) [2.75,5.25] == [4.75,3.25]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "r_constrain",
           "package": "hcg-minus",
@@ -4188,6 +4535,7 @@
         "index": {
           "description": "modulo within range map constrain",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "r_constrain",
           "normalized": "(R,R)-\u003eR-\u003eR",
@@ -4203,6 +4551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRadians to degrees, inverse of \u003ccode\u003e\u003ca\u003er_to_radians\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e map r_from_radians [-pi,-pi/2,0,pi/2,pi] == [-180,-90,0,90,180]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "r_from_radians",
           "package": "hcg-minus",
@@ -4213,6 +4562,7 @@
         "index": {
           "description": "Radians to degrees inverse of to radians map from radians pi pi pi pi",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "r_from_radians",
           "normalized": "R-\u003eR",
@@ -4228,6 +4578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDegrees to radians.\n\u003c/p\u003e\u003cpre\u003e map r_to_radians [-180,-90,0,90,180] == [-pi,-pi/2,0,pi/2,pi]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "r_to_radians",
           "package": "hcg-minus",
@@ -4238,6 +4589,7 @@
         "index": {
           "description": "Degrees to radians map to radians pi pi pi pi",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "r_to_radians",
           "normalized": "R-\u003eR",
@@ -4253,6 +4605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003esplit_f\u003c/a\u003e\u003c/code\u003e that segments input.\n\u003c/p\u003e\u003cpre\u003e segment_f (\\p q -\u003e abs (q - p) \u003c 3) [1,3,7,9,15] == [[1,3],[7,9],[15]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "segment_f",
           "package": "hcg-minus",
@@ -4263,6 +4616,7 @@
         "index": {
           "description": "Variant on split that segments input segment abs",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "segment_f",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -4278,6 +4632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit list at element where predicate \u003cem\u003ef\u003c/em\u003e over adjacent elements\n first holds.\n\u003c/p\u003e\u003cpre\u003e split_f (\\p q -\u003e q - p \u003c 3) [1,2,4,7,11] == ([1,2,4],[7,11])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "split_f",
           "package": "hcg-minus",
@@ -4288,6 +4643,7 @@
         "index": {
           "description": "Split list at element where predicate over adjacent elements first holds split",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "split_f",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -4303,6 +4659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe angle between two vectors on a plane. The angle is from v1 to\n v2, positive anticlockwise.  The result is in (-pi,pi)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "vc_angle",
           "package": "hcg-minus",
@@ -4313,6 +4670,7 @@
         "index": {
           "description": "The angle between two vectors on plane The angle is from v1 to v2 positive anticlockwise The result is in pi pi",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "vc_angle",
           "normalized": "Vc R-\u003eVc R-\u003eR",
@@ -4328,6 +4686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary operator at \u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e, ie. basis for \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "vc_binop",
           "package": "hcg-minus",
@@ -4338,6 +4697,7 @@
         "index": {
           "description": "Binary operator at Vc ie basis for Num instances",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "vc_binop",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVc a-\u003eVc b-\u003eVc c",
@@ -4353,6 +4713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e dot product.\n\u003c/p\u003e\u003cpre\u003e vc_dot (Vc 1 2) (Vc 3 4) == 11\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "vc_dot",
           "package": "hcg-minus",
@@ -4363,6 +4724,7 @@
         "index": {
           "description": "Vc dot product vc dot Vc Vc",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "vc_dot",
           "normalized": "Vc a-\u003eVc a-\u003ea",
@@ -4378,6 +4740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emag\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "vc_mag",
           "package": "hcg-minus",
@@ -4388,6 +4751,7 @@
         "index": {
           "description": "mag of Vc",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "vc_mag",
           "normalized": "Vc a-\u003ea",
@@ -4403,6 +4767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emag_sq\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "vc_mag_sq",
           "package": "hcg-minus",
@@ -4413,6 +4778,7 @@
         "index": {
           "description": "mag sq of Vc",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "vc_mag_sq",
           "normalized": "Vc a-\u003ea",
@@ -4428,6 +4794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre two vectors are in the same direction (to within a small\n tolerance).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "vc_same_direction",
           "package": "hcg-minus",
@@ -4438,6 +4805,7 @@
         "index": {
           "description": "Are two vectors are in the same direction to within small tolerance",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "vc_same_direction",
           "normalized": "Vc a-\u003eVc a-\u003eBool",
@@ -4453,6 +4821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply \u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e pointwise by scalar.\n\u003c/p\u003e\u003cpre\u003e vc_scale 2 (Vc 3 4) == Vc 6 8\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "vc_scale",
           "package": "hcg-minus",
@@ -4463,6 +4832,7 @@
         "index": {
           "description": "Multiply Vc pointwise by scalar vc scale Vc Vc",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "vc_scale",
           "normalized": "a-\u003eVc a-\u003eVc a",
@@ -4478,6 +4848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale \u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e to have unit magnitude (to within tolerance).\n\u003c/p\u003e\u003cpre\u003e vc_unit (Vc 1 1) ~= let x = (sqrt 2) / 2 in Vc x x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "vc_unit",
           "package": "hcg-minus",
@@ -4488,6 +4859,7 @@
         "index": {
           "description": "Scale Vc to have unit magnitude to within tolerance vc unit Vc let sqrt in Vc",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "vc_unit",
           "normalized": "Vc a-\u003eVc a",
@@ -4503,6 +4875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary operator at \u003ccode\u003e\u003ca\u003eVc\u003c/a\u003e\u003c/code\u003e, ie. basis for \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "vc_uop",
           "package": "hcg-minus",
@@ -4513,6 +4886,7 @@
         "index": {
           "description": "Unary operator at Vc ie basis for Num instances",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "vc_uop",
           "normalized": "(a-\u003eb)-\u003eVc a-\u003eVc b",
@@ -4527,6 +4901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "vc_x",
           "package": "hcg-minus",
@@ -4536,6 +4911,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "vc_x",
           "package": "hcg-minus",
@@ -4548,6 +4924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "vc_y",
           "package": "hcg-minus",
@@ -4557,6 +4934,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "vc_y",
           "package": "hcg-minus",
@@ -4570,6 +4948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "wn'",
           "package": "hcg-minus",
@@ -4580,6 +4959,7 @@
         "index": {
           "description": "Variant Wn constructor",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "wn'",
           "normalized": "(a,a)-\u003e(a,a)-\u003eWn a",
@@ -4594,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "wn_ex",
           "package": "hcg-minus",
@@ -4603,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "wn_ex",
           "package": "hcg-minus",
@@ -4616,6 +4998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract \u003cem\u003e(x,y)\u003c/em\u003e and \u003cem\u003e(dx,dy)\u003c/em\u003e pairs.\n\u003c/p\u003e\u003cpre\u003e wn_extract (Wn (Pt 0 0) (Vc 1 1)) == ((0,0),(1,1))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "wn_extract",
           "package": "hcg-minus",
@@ -4626,6 +5009,7 @@
         "index": {
           "description": "Extract and dx dy pairs wn extract Wn Pt Vc",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "wn_extract",
           "normalized": "Wn a-\u003e((a,a),(a,a))",
@@ -4641,6 +5025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e from \u003cem\u003e(lower-left,upper-right)\u003c/em\u003e extent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "wn_from_extent",
           "package": "hcg-minus",
@@ -4651,6 +5036,7 @@
         "index": {
           "description": "Wn from lower-left upper-right extent",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "wn_from_extent",
           "normalized": "(Pt a,Pt a)-\u003eWn a",
@@ -4666,6 +5052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredictate to determine if two \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003es intersect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "wn_intersect",
           "package": "hcg-minus",
@@ -4676,6 +5063,7 @@
         "index": {
           "description": "Predictate to determine if two Wn intersect",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "wn_intersect",
           "normalized": "Wn a-\u003eWn a-\u003eBool",
@@ -4691,6 +5079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e that encompasses both input \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "wn_join",
           "package": "hcg-minus",
@@ -4701,6 +5090,7 @@
         "index": {
           "description": "Wn that encompasses both input Wn",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "wn_join",
           "normalized": "Wn a-\u003eWn a-\u003eWn a",
@@ -4715,6 +5105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "wn_ll",
           "package": "hcg-minus",
@@ -4724,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "wn_ll",
           "package": "hcg-minus",
@@ -4737,6 +5129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate \u003cem\u003ey\u003c/em\u003e field of lower left \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "wn_negate_y",
           "package": "hcg-minus",
@@ -4747,6 +5140,7 @@
         "index": {
           "description": "Negate field of lower left Pt of Wn",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "wn_negate_y",
           "normalized": "Wn a-\u003eWn a",
@@ -4762,6 +5156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalisation function for \u003ccode\u003e\u003ca\u003eWn\u003c/a\u003e\u003c/code\u003e, ie. map \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e to lie within (0,1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "wn_normalise_f",
           "package": "hcg-minus",
@@ -4772,6 +5167,7 @@
         "index": {
           "description": "Normalisation function for Wn ie map Pt to lie within",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "wn_normalise_f",
           "normalized": "Wn R-\u003ePt R-\u003ePt R",
@@ -4787,6 +5183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow function for window with fixed precision of \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e wn_show 1 (Wn (Pt 0 0) (Vc 1 1)) == \"((0.0,0.0),(1.0,1.0))\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:59 UTC 2014",
           "module": "Data.CG.Minus",
           "name": "wn_show",
           "package": "hcg-minus",
@@ -4797,6 +5194,7 @@
         "index": {
           "description": "Show function for window with fixed precision of wn show Wn Pt Vc",
           "hierarchy": "Data CG Minus",
+          "indexed": "2014-03-11T18:34:59",
           "module": "Data.CG.Minus",
           "name": "wn_show",
           "normalized": "Int-\u003eWn R-\u003eString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Graph500"
+        "phrase": "Graph500",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generator for Graph500 benchmark. Translated from Graph500 specification in GNU Octave.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.Generate",
           "name": "Generate",
           "package": "Graph500",
@@ -28,6 +29,7 @@
         "index": {
           "description": "generator for Graph500 benchmark Translated from Graph500 specification in GNU Octave",
           "hierarchy": "G500 Generate",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.Generate",
           "name": "Generate",
           "package": "Graph500",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.Generate",
           "name": "generate",
           "package": "Graph500",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "G500 Generate",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.Generate",
           "name": "generate",
           "normalized": "Int-\u003eInt-\u003eIO(GraphArr,GraphArr)",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFile generation utilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.GenerateFile",
           "name": "GenerateFile",
           "package": "Graph500",
@@ -73,6 +78,7 @@
         "index": {
           "description": "File generation utilities",
           "hierarchy": "G500 GenerateFile",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.GenerateFile",
           "name": "GenerateFile",
           "package": "Graph500",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.GenerateFile",
           "name": "GraphType",
           "package": "Graph500",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "G500 GenerateFile",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.GenerateFile",
           "name": "GraphType",
           "package": "Graph500",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.GenerateFile",
           "name": "Graph500",
           "package": "Graph500",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "G500 GenerateFile",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.GenerateFile",
           "name": "Graph500",
           "package": "Graph500",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.GenerateFile",
           "name": "Simple",
           "package": "Graph500",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "G500 GenerateFile",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.GenerateFile",
           "name": "Simple",
           "package": "Graph500",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerage file with graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.GenerateFile",
           "name": "generateWriteFile",
           "package": "Graph500",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Generage file with graph",
           "hierarchy": "G500 GenerateFile",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.GenerateFile",
           "name": "generateWriteFile",
           "normalized": "String-\u003eGraphType-\u003eInt-\u003eInt-\u003eIO()",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinition for the type of indices.\n\u003c/p\u003e\u003cp\u003eI think index type can change over time, so I made that\n little file with type definition and class that allows one's code\n to work with different index types.\n\u003c/p\u003e\u003cp\u003eOn the second thought it looks like overengineering. Let it be.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.Index",
           "name": "Index",
           "package": "Graph500",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Definition for the type of indices think index type can change over time so made that little file with type definition and class that allows one code to work with different index types On the second thought it looks like overengineering Let it be",
           "hierarchy": "G500 Index",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.Index",
           "name": "Index",
           "package": "Graph500",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBig enough for Graph500 benchmark purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.Index",
           "name": "Index",
           "package": "Graph500",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Big enough for Graph500 benchmark purposes",
           "hierarchy": "G500 Index",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.Index",
           "name": "Index",
           "package": "Graph500",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.Index",
           "name": "RandomIndex",
           "package": "Graph500",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "G500 Index",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.Index",
           "name": "RandomIndex",
           "package": "Graph500",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate random index.\n Accepts max value and generator.\n Returns random index and updated generator.\n Max value should be power of 2 (valid for Graph500 generator).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.Index",
           "name": "randomIndex",
           "package": "Graph500",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Generate random index Accepts max value and generator Returns random index and updated generator Max value should be power of valid for Graph500 generator",
           "hierarchy": "G500 Index",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.Index",
           "name": "randomIndex",
           "normalized": "a-\u003eb-\u003e(a,b)",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module that reads files generated by Gen (graph500gen) program\n one directory level above.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.Read",
           "name": "Read",
           "package": "Graph500",
@@ -279,6 +302,7 @@
         "index": {
           "description": "module that reads files generated by Gen graph500gen program one directory level above",
           "hierarchy": "G500 Read",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.Read",
           "name": "Read",
           "package": "Graph500",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym for IO action that performs a read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.Read",
           "name": "Graph500Reader",
           "package": "Graph500",
@@ -302,6 +327,7 @@
         "index": {
           "description": "synonym for IO action that performs read",
           "hierarchy": "G500 Read",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.Read",
           "name": "Graph500Reader",
           "package": "Graph500",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a graph reader structure.\n The \u003ccode\u003ehandle\u003c/code\u003e should be opened to read as a binary file.\n Also the handle gets captured in result of the function and will\n be closed at the end of operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500.Read",
           "name": "mkGraph500Reader",
           "package": "Graph500",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Create graph reader structure The handle should be opened to read as binary file Also the handle gets captured in result of the function and will be closed at the end of operation",
           "hierarchy": "G500 Read",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500.Read",
           "name": "mkGraph500Reader",
           "normalized": "Handle-\u003eInt-\u003eIO Graph Reader",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTop-level module for everything Graph500 related.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:40 UTC 2014",
           "module": "G500",
           "name": "G500",
           "package": "Graph500",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Top-level module for everything Graph500 related",
           "hierarchy": "G500",
+          "indexed": "2014-03-11T16:43:40",
           "module": "G500",
           "name": "G500",
           "package": "Graph500",

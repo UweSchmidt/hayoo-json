@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cake3"
+        "phrase": "cake3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrWeb",
           "package": "cake3",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrWeb",
           "package": "cake3",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "JSFunc",
           "package": "cake3",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "JSFunc",
           "package": "cake3",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "JSType",
           "package": "cake3",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "JSType",
           "package": "cake3",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "ToUrpLine",
           "package": "cake3",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "ToUrpLine",
           "package": "cake3",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "ToUrpWord",
           "package": "cake3",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "ToUrpWord",
           "package": "cake3",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UWExe",
           "package": "cake3",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UWExe",
           "package": "cake3",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UWLib",
           "package": "cake3",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UWLib",
           "package": "cake3",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "Urp",
           "package": "cake3",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "Urp",
           "package": "cake3",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpAllow",
           "package": "cake3",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpAllow",
           "package": "cake3",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpGen",
           "package": "cake3",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpGen",
           "package": "cake3",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpHdrToken",
           "package": "cake3",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpHdrToken",
           "package": "cake3",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpLike",
           "package": "cake3",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpLike",
           "package": "cake3",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpModToken",
           "package": "cake3",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpModToken",
           "package": "cake3",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpRewrite",
           "package": "cake3",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpRewrite",
           "package": "cake3",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpState",
           "package": "cake3",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpState",
           "package": "cake3",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "JSFunc",
           "package": "cake3",
@@ -342,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "JSFunc",
           "package": "cake3",
@@ -355,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "JSType",
           "package": "cake3",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "JSType",
           "package": "cake3",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UWExe",
           "package": "cake3",
@@ -386,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UWExe",
           "package": "cake3",
@@ -399,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UWLib",
           "package": "cake3",
@@ -408,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UWLib",
           "package": "cake3",
@@ -421,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "Urp",
           "package": "cake3",
@@ -430,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "Urp",
           "package": "cake3",
@@ -443,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpAll",
           "package": "cake3",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpAll",
           "package": "cake3",
@@ -465,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpAllow",
           "package": "cake3",
@@ -474,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpAllow",
           "package": "cake3",
@@ -487,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpDatabase",
           "package": "cake3",
@@ -496,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpDatabase",
           "package": "cake3",
@@ -509,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpDebug",
           "package": "cake3",
@@ -518,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpDebug",
           "package": "cake3",
@@ -531,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpFFI",
           "package": "cake3",
@@ -540,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpFFI",
           "package": "cake3",
@@ -553,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpGen",
           "package": "cake3",
@@ -562,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpGen",
           "package": "cake3",
@@ -575,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpInclude",
           "package": "cake3",
@@ -584,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpInclude",
           "package": "cake3",
@@ -598,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule name, UrWeb name, JavaScript name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpJSFunc",
           "package": "cake3",
@@ -608,6 +663,7 @@
         "index": {
           "description": "Module name UrWeb name JavaScript name",
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpJSFunc",
           "package": "cake3",
@@ -621,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpLibrary",
           "package": "cake3",
@@ -630,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpLibrary",
           "package": "cake3",
@@ -643,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpLink",
           "package": "cake3",
@@ -652,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpLink",
           "package": "cake3",
@@ -665,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpMime",
           "package": "cake3",
@@ -674,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpMime",
           "package": "cake3",
@@ -687,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpModule1",
           "package": "cake3",
@@ -696,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpModule1",
           "package": "cake3",
@@ -709,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpModule2",
           "package": "cake3",
@@ -718,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpModule2",
           "package": "cake3",
@@ -731,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpModuleSys",
           "package": "cake3",
@@ -740,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpModuleSys",
           "package": "cake3",
@@ -753,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpPkgConfig",
           "package": "cake3",
@@ -762,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpPkgConfig",
           "package": "cake3",
@@ -775,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpResponseHeader",
           "package": "cake3",
@@ -784,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpResponseHeader",
           "package": "cake3",
@@ -797,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpRewrite",
           "package": "cake3",
@@ -806,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpRewrite",
           "package": "cake3",
@@ -819,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpSafeGet",
           "package": "cake3",
@@ -828,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpSafeGet",
           "package": "cake3",
@@ -841,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpScript",
           "package": "cake3",
@@ -850,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpScript",
           "package": "cake3",
@@ -863,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpSql",
           "package": "cake3",
@@ -872,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpSql",
           "package": "cake3",
@@ -885,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpSrc",
           "package": "cake3",
@@ -894,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpSrc",
           "package": "cake3",
@@ -907,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpState",
           "package": "cake3",
@@ -916,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpState",
           "package": "cake3",
@@ -929,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpStyle",
           "package": "cake3",
@@ -938,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpStyle",
           "package": "cake3",
@@ -951,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpUrl",
           "package": "cake3",
@@ -960,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "UrpUrl",
           "package": "cake3",
@@ -973,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "addHdr",
           "package": "cake3",
@@ -982,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "addHdr",
           "normalized": "UrpHdrToken-\u003ea()",
@@ -997,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "addMod",
           "package": "cake3",
@@ -1006,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "addMod",
           "normalized": "UrpModToken-\u003ea()",
@@ -1021,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "all",
           "package": "cake3",
@@ -1030,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "all",
           "package": "cake3",
@@ -1042,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "allow",
           "package": "cake3",
@@ -1051,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "allow",
           "normalized": "UrpAllow-\u003eString-\u003eUrpGen a()",
@@ -1065,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "bin",
           "package": "cake3",
@@ -1074,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "bin",
           "normalized": "File-\u003eFile-\u003eUrpGen a()",
@@ -1088,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "bin'",
           "package": "cake3",
@@ -1097,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "bin'",
           "normalized": "File-\u003eFilePath-\u003eByteString-\u003eUrpGen a()",
@@ -1111,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "csrc",
           "package": "cake3",
@@ -1120,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "csrc",
           "normalized": "File-\u003eUrpGen a()",
@@ -1134,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "csrc'",
           "package": "cake3",
@@ -1143,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "csrc'",
           "normalized": "File-\u003eString-\u003eString-\u003eUrpGen a()",
@@ -1157,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "database",
           "package": "cake3",
@@ -1166,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "database",
           "normalized": "String-\u003eUrpGen a()",
@@ -1180,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "debug",
           "package": "cake3",
@@ -1189,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "debug",
           "normalized": "UrpGen a()",
@@ -1203,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "defState",
           "package": "cake3",
@@ -1212,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "defState",
           "normalized": "File-\u003eUrpState",
@@ -1228,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a file from external project. It is expected, that this project has a\n \u003ccode\u003eMakwfile\u003c/code\u003e in it's root directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "externalMake",
           "package": "cake3",
@@ -1237,6 +1348,7 @@
         "index": {
           "description": "Build file from external project It is expected that this project has Makwfile in it root directory",
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "externalMake",
           "normalized": "File-\u003eMake[File]",
@@ -1253,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a file using external Makefile facility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "externalMake'",
           "package": "cake3",
@@ -1262,6 +1375,7 @@
         "index": {
           "description": "Build file using external Makefile facility",
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "externalMake'",
           "normalized": "File-\u003eFile-\u003eMake[File]",
@@ -1278,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a file from external project. It is expected, that this project has a\n fiel.mk (a Makefile with an unusual name) in it's root directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "externalMake2",
           "package": "cake3",
@@ -1288,6 +1403,7 @@
         "index": {
           "description": "Build file from external project It is expected that this project has fiel.mk Makefile with an unusual name in it root directory",
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "externalMake2",
           "normalized": "File-\u003eMake[File]",
@@ -1303,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "ffi",
           "package": "cake3",
@@ -1312,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "ffi",
           "normalized": "File-\u003eUrpGen a()",
@@ -1326,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "guessMime",
           "package": "cake3",
@@ -1335,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "guessMime",
           "normalized": "String-\u003e[Char]",
@@ -1350,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "include",
           "package": "cake3",
@@ -1359,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "include",
           "normalized": "File-\u003eUrpGen a()",
@@ -1373,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "jsFunc",
           "package": "cake3",
@@ -1382,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "jsFunc",
           "normalized": "String-\u003eString-\u003eString-\u003ea()",
@@ -1398,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJavaScript name of this function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "jsname",
           "package": "cake3",
@@ -1408,6 +1533,7 @@
         "index": {
           "description": "JavaScript name of this function",
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "jsname",
           "package": "cake3",
@@ -1421,6 +1547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclude a library defined somewhere in the current project\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "library",
           "package": "cake3",
@@ -1431,6 +1558,7 @@
         "index": {
           "description": "Include library defined somewhere in the current project",
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "library",
           "normalized": "UWLib-\u003eUrpGen a()",
@@ -1446,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDir name , file to embed\n data UrEmbed = Urembed File File\n   deriving (Show)\n\u003c/p\u003e\u003cp\u003eA general method of including a library into the UrWeb project.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "library'",
           "package": "cake3",
@@ -1455,6 +1584,7 @@
         "index": {
           "description": "Dir name file to embed data UrEmbed Urembed File File deriving Show general method of including library into the UrWeb project",
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "library'",
           "normalized": "Make[File]-\u003eUrpGen a()",
@@ -1469,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "liftUrp",
           "package": "cake3",
@@ -1478,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "liftUrp",
           "normalized": "a-\u003ea",
@@ -1493,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "line",
           "package": "cake3",
@@ -1502,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "line",
           "normalized": "String-\u003ea()",
@@ -1516,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "link",
           "package": "cake3",
@@ -1525,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "link",
           "normalized": "File-\u003eUrpGen a()",
@@ -1539,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "link'",
           "package": "cake3",
@@ -1548,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "link'",
           "normalized": "File-\u003eString-\u003eUrpGen a()",
@@ -1562,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "maskPkgCfg",
           "package": "cake3",
@@ -1571,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "maskPkgCfg",
           "normalized": "[Char]-\u003e[Char]",
@@ -1586,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "mime",
           "package": "cake3",
@@ -1595,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "mime",
           "package": "cake3",
@@ -1607,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "module_",
           "package": "cake3",
@@ -1616,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "module_",
           "normalized": "UrpModToken-\u003eUrpGen a()",
@@ -1630,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "pair",
           "package": "cake3",
@@ -1639,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "pair",
           "normalized": "File-\u003eUrpModToken",
@@ -1654,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the JavaScript file, extract top-level functions, convert their\n signatures into Ur/Web format, return them as the list of strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "parse_js",
           "package": "cake3",
@@ -1664,6 +1811,7 @@
         "index": {
           "description": "Parse the JavaScript file extract top-level functions convert their signatures into Ur Web format return them as the list of strings",
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "parse_js",
           "normalized": "ByteString-\u003eMake(Either String([JSType],[JSFunc]))",
@@ -1678,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "pkgconfig",
           "package": "cake3",
@@ -1687,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "pkgconfig",
           "normalized": "String-\u003eUrpGen a()",
@@ -1701,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "responseHeader",
           "package": "cake3",
@@ -1710,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "responseHeader",
           "package": "cake3",
@@ -1723,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "rewrite",
           "package": "cake3",
@@ -1732,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "rewrite",
           "normalized": "UrpRewrite-\u003eString-\u003eUrpGen a()",
@@ -1746,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "safeGet",
           "package": "cake3",
@@ -1755,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "safeGet",
           "normalized": "String-\u003ea()",
@@ -1770,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "script",
           "package": "cake3",
@@ -1779,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "script",
           "normalized": "String-\u003eUrpGen a()",
@@ -1793,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "single",
           "package": "cake3",
@@ -1802,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "single",
           "normalized": "File-\u003eUrpModToken",
@@ -1816,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "sql",
           "package": "cake3",
@@ -1825,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "sql",
           "normalized": "File-\u003eUrpGen a()",
@@ -1839,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "style",
           "package": "cake3",
@@ -1848,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "style",
           "package": "cake3",
@@ -1860,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "sys",
           "package": "cake3",
@@ -1869,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "sys",
           "normalized": "String-\u003eUrpModToken",
@@ -1883,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "tempfiles",
           "package": "cake3",
@@ -1892,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "tempfiles",
           "normalized": "a-\u003e[File]",
@@ -1906,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "toFile",
           "package": "cake3",
@@ -1915,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "toFile",
           "normalized": "FileT FilePath-\u003eWriter String a-\u003eb()",
@@ -1930,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "toUrp",
           "package": "cake3",
@@ -1939,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "toUrp",
           "normalized": "a-\u003eUrp",
@@ -1954,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "toUrpLine",
           "package": "cake3",
@@ -1963,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "toUrpLine",
           "normalized": "FilePath-\u003ea-\u003eString",
@@ -1978,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "toUrpWord",
           "package": "cake3",
@@ -1987,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "toUrpWord",
           "normalized": "a-\u003eString",
@@ -2002,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "uexe",
           "package": "cake3",
@@ -2011,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "uexe",
           "package": "cake3",
@@ -2023,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "uhdr",
           "package": "cake3",
@@ -2032,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "uhdr",
           "normalized": "[UrpHdrToken]",
@@ -2046,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "umod",
           "package": "cake3",
@@ -2055,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "umod",
           "normalized": "[UrpModToken]",
@@ -2069,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "unUrpGen",
           "package": "cake3",
@@ -2078,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "unUrpGen",
           "package": "cake3",
@@ -2091,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "ur",
           "package": "cake3",
@@ -2100,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "ur",
           "normalized": "UrpModToken-\u003eUrpGen a()",
@@ -2115,6 +2301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURS declaration for this function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urdecl",
           "package": "cake3",
@@ -2125,6 +2312,7 @@
         "index": {
           "description": "URS declaration for this function",
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urdecl",
           "package": "cake3",
@@ -2137,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "url",
           "package": "cake3",
@@ -2146,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "url",
           "package": "cake3",
@@ -2159,6 +2349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUrWeb name of this function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urname",
           "package": "cake3",
@@ -2169,6 +2360,7 @@
         "index": {
           "description": "UrWeb name of this function",
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urname",
           "package": "cake3",
@@ -2181,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urp",
           "package": "cake3",
@@ -2190,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urp",
           "package": "cake3",
@@ -2202,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpDeps",
           "package": "cake3",
@@ -2211,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpDeps",
           "normalized": "Urp-\u003e[File]",
@@ -2226,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpExe",
           "package": "cake3",
@@ -2235,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpExe",
           "normalized": "Urp-\u003eFile",
@@ -2250,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpExe'",
           "package": "cake3",
@@ -2259,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpExe'",
           "normalized": "Urp-\u003eMaybe File",
@@ -2274,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpLibs",
           "package": "cake3",
@@ -2283,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpLibs",
           "normalized": "Urp-\u003e[File]",
@@ -2298,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpObjs",
           "package": "cake3",
@@ -2307,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpObjs",
           "normalized": "Urp-\u003e[File]",
@@ -2322,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpPkgCfg",
           "package": "cake3",
@@ -2331,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpPkgCfg",
           "normalized": "Urp-\u003e[String]",
@@ -2346,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpSql",
           "package": "cake3",
@@ -2355,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpSql",
           "normalized": "Urp-\u003eFile",
@@ -2370,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpSql'",
           "package": "cake3",
@@ -2379,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpSql'",
           "normalized": "Urp-\u003eMaybe File",
@@ -2394,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpSrcs",
           "package": "cake3",
@@ -2403,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpSrcs",
           "normalized": "Urp-\u003e[(File,String)]",
@@ -2418,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpUp",
           "package": "cake3",
@@ -2427,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpUp",
           "normalized": "File-\u003eFilePath",
@@ -2442,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpst",
           "package": "cake3",
@@ -2451,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urpst",
           "package": "cake3",
@@ -2463,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urtdecl",
           "package": "cake3",
@@ -2472,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "urtdecl",
           "package": "cake3",
@@ -2484,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "uwapp",
           "package": "cake3",
@@ -2493,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "uwapp",
           "normalized": "String-\u003eFile-\u003eUrpGen(Make' IO)()-\u003eMake UWExe",
@@ -2507,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "uwlib",
           "package": "cake3",
@@ -2516,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Ext UrWeb",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Ext.UrWeb",
           "name": "uwlib",
           "normalized": "File-\u003eUrpGen(Make' IO)()-\u003eMake UWLib",
@@ -2530,6 +2752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "Monad",
           "package": "cake3",
@@ -2538,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "Monad",
           "package": "cake3",
@@ -2552,6 +2776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerison of Action monad with fixed parents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "A",
           "package": "cake3",
@@ -2561,6 +2786,7 @@
         "index": {
           "description": "Verison of Action monad with fixed parents",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "A",
           "package": "cake3",
@@ -2574,6 +2800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eA\u003c/a\u003e\u003c/code\u003e here stands for Action. It is a State monad carrying a Recipe as its\n state.  Various monadic actions add targets, prerequisites and shell commands\n to this recipe. After that, \u003ccode\u003erule\u003c/code\u003e function records it to the \u003ccode\u003eMakeState\u003c/code\u003e.\n After the recording, no modification is allowed for this recipe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "A'",
           "package": "cake3",
@@ -2583,6 +2810,7 @@
         "index": {
           "description": "here stands for Action It is State monad carrying Recipe as its state Various monadic actions add targets prerequisites and shell commands to this recipe After that rule function records it to the MakeState After the recording no modification is allowed for this recipe",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "A'",
           "package": "cake3",
@@ -2597,6 +2825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple wrapper for strings, a target for various typeclass instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "CakeString",
           "package": "cake3",
@@ -2606,6 +2835,7 @@
         "index": {
           "description": "Simple wrapper for strings target for various typeclass instances",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "CakeString",
           "package": "cake3",
@@ -2619,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "CommandGen",
           "package": "cake3",
@@ -2627,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "CommandGen",
           "package": "cake3",
@@ -2641,6 +2873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommandGen is a recipe-builder packed in the newtype to prevent partial\n expantion of it's commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "CommandGen'",
           "package": "cake3",
@@ -2650,6 +2883,7 @@
         "index": {
           "description": "CommandGen is recipe-builder packed in the newtype to prevent partial expantion of it commands",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "CommandGen'",
           "package": "cake3",
@@ -2663,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "Location",
           "package": "cake3",
@@ -2671,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "Location",
           "package": "cake3",
@@ -2684,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "Make",
           "package": "cake3",
@@ -2692,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "Make",
           "package": "cake3",
@@ -2705,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "Make'",
           "package": "cake3",
@@ -2713,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "Make'",
           "package": "cake3",
@@ -2727,6 +2967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakeState describes the state of the EDSL synthesizers during the\n the program execution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "MakeState",
           "package": "cake3",
@@ -2736,6 +2977,7 @@
         "index": {
           "description": "MakeState describes the state of the EDSL synthesizers during the the program execution",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "MakeState",
           "package": "cake3",
@@ -2750,6 +2992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of monads providing access to the underlying A monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "MonadAction",
           "package": "cake3",
@@ -2759,6 +3002,7 @@
         "index": {
           "description": "class of monads providing access to the underlying monad",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "MonadAction",
           "package": "cake3",
@@ -2773,6 +3017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Monad providing access to MakeState. TODO: not mention IO here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "MonadMake",
           "package": "cake3",
@@ -2782,6 +3027,7 @@
         "index": {
           "description": "Monad providing access to MakeState TODO not mention IO here",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "MonadMake",
           "package": "cake3",
@@ -2796,6 +3042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of things which may be referenced using '$(expr)' from inside\n of quasy-quoted shell expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "RefInput",
           "package": "cake3",
@@ -2805,6 +3052,7 @@
         "index": {
           "description": "Class of things which may be referenced using expr from inside of quasy-quoted shell expressions",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "RefInput",
           "package": "cake3",
@@ -2819,6 +3067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of things which may be referenced using '@(expr)' syntax of the\n quasi-quoted shell expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "RefOutput",
           "package": "cake3",
@@ -2828,6 +3077,7 @@
         "index": {
           "description": "Class of things which may be referenced using expr syntax of the quasi-quoted shell expressions",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "RefOutput",
           "package": "cake3",
@@ -2841,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "A'",
           "package": "cake3",
@@ -2850,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "A'",
           "package": "cake3",
@@ -2863,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "CakeString",
           "package": "cake3",
@@ -2872,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "CakeString",
           "package": "cake3",
@@ -2908,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "MS",
           "package": "cake3",
@@ -2917,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "MS",
           "package": "cake3",
@@ -2930,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "Make",
           "package": "cake3",
@@ -2939,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "Make",
           "package": "cake3",
@@ -2952,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "addMakeDep",
           "package": "cake3",
@@ -2961,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "addMakeDep",
           "normalized": "File-\u003eMake()",
@@ -2976,6 +3236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "addPlacement",
           "package": "cake3",
@@ -2985,6 +3246,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "addPlacement",
           "normalized": "Int-\u003eFile-\u003eMake()",
@@ -3000,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "addRecipe",
           "package": "cake3",
@@ -3009,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "addRecipe",
           "normalized": "Recipe-\u003eMake()",
@@ -3025,6 +3289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind recipes without targets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "checkForEmptyTarget",
           "package": "cake3",
@@ -3035,6 +3300,7 @@
         "index": {
           "description": "Find recipes without targets",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "checkForEmptyTarget",
           "normalized": "a Recipe-\u003eString",
@@ -3051,6 +3317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind recipes sharing a target\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "checkForTargetConflicts",
           "package": "cake3",
@@ -3061,6 +3328,7 @@
         "index": {
           "description": "Find recipes sharing target",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "checkForTargetConflicts",
           "normalized": "a Recipe-\u003eString",
@@ -3101,6 +3369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack the command builder into a CommandGen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "commandGen",
           "package": "cake3",
@@ -3111,6 +3380,7 @@
         "index": {
           "description": "Pack the command builder into CommandGen",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "commandGen",
           "normalized": "A Command-\u003eCommandGen",
@@ -3127,6 +3397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd commands to the list of commands of a current recipe under\n construction. Warning: this function behaves like unsafeShell i.e. it doesn't\n analyze the command text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "commands",
           "package": "cake3",
@@ -3137,6 +3408,7 @@
         "index": {
           "description": "Add commands to the list of commands of current recipe under construction Warning this function behaves like unsafeShell i.e it doesn analyze the command text",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "commands",
           "normalized": "[Command]-\u003eA' a()",
@@ -3177,6 +3449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors found so far\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "errors",
           "package": "cake3",
@@ -3187,6 +3460,7 @@
         "index": {
           "description": "Errors found so far",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "errors",
           "package": "cake3",
@@ -3200,6 +3474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a MakeState\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "evalMake",
           "package": "cake3",
@@ -3210,6 +3485,7 @@
         "index": {
           "description": "Returns MakeState",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "evalMake",
           "normalized": "File-\u003eMake' a b-\u003ea MakeState",
@@ -3226,6 +3502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet additional flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "flags",
           "package": "cake3",
@@ -3236,6 +3513,7 @@
         "index": {
           "description": "Set additional flags",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "flags",
           "normalized": "Set Flag-\u003eA' a()",
@@ -3250,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "getLoc",
           "package": "cake3",
@@ -3259,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "getLoc",
           "package": "cake3",
@@ -3272,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "getPlacementPos",
           "package": "cake3",
@@ -3281,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "getPlacementPos",
           "package": "cake3",
@@ -3321,6 +3603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "inbetween",
           "package": "cake3",
@@ -3330,6 +3613,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "inbetween",
           "normalized": "a-\u003eb[[a]]-\u003eb[a]",
@@ -3372,6 +3656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of files to include in the output file (Makefile specific thing)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "includes",
           "package": "cake3",
@@ -3382,6 +3667,7 @@
         "index": {
           "description": "Set of files to include in the output file Makefile specific thing",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "includes",
           "package": "cake3",
@@ -3394,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "initialMakeState",
           "package": "cake3",
@@ -3403,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "initialMakeState",
           "normalized": "File-\u003eMakeState",
@@ -3418,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "liftAction",
           "package": "cake3",
@@ -3427,6 +3716,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "liftAction",
           "normalized": "A' a b-\u003ec b",
@@ -3442,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "liftMake",
           "package": "cake3",
@@ -3451,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "liftMake",
           "normalized": "Make' IO a-\u003eb a",
@@ -3467,6 +3759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the recipe's location in the Cakefile.hs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "location",
           "package": "cake3",
@@ -3477,6 +3770,7 @@
         "index": {
           "description": "Set the recipe location in the Cakefile.hs",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "location",
           "normalized": "String-\u003eA' a()",
@@ -3492,6 +3786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of files which the Makefile depends on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "makeDeps",
           "package": "cake3",
@@ -3502,6 +3797,7 @@
         "index": {
           "description": "Set of files which the Makefile depends on",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "makeDeps",
           "package": "cake3",
@@ -3516,6 +3812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark the recipe as \u003ccode\u003eINTERMEDIATE\u003c/code\u003e i.e. claim that all it's targets may be\n removed after the build process. Makefile-specific.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "markIntermediate",
           "package": "cake3",
@@ -3526,6 +3823,7 @@
         "index": {
           "description": "Mark the recipe as INTERMEDIATE i.e claim that all it targets may be removed after the build process Makefile-specific",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "markIntermediate",
           "normalized": "A' a()",
@@ -3542,6 +3840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark the recipe as \u003ccode\u003ePHONY\u003c/code\u003e i.e. claim that all it's targets are not real\n files. Makefile-specific.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "markPhony",
           "package": "cake3",
@@ -3552,6 +3851,7 @@
         "index": {
           "description": "Mark the recipe as PHONY i.e claim that all it targets are not real files Makefile-specific",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "markPhony",
           "normalized": "A' a()",
@@ -3567,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "modifyLoc",
           "package": "cake3",
@@ -3576,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "modifyLoc",
           "normalized": "(Location-\u003eLocation)-\u003ea()",
@@ -3591,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "outputFile",
           "package": "cake3",
@@ -3600,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "outputFile",
           "package": "cake3",
@@ -3614,6 +3918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlacement list is the order of targets to be placed in the output file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "placement",
           "package": "cake3",
@@ -3624,6 +3929,7 @@
         "index": {
           "description": "Placement list is the order of targets to be placed in the output file",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "placement",
           "normalized": "[File]",
@@ -3665,6 +3971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostbuild commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "postbuilds",
           "package": "cake3",
@@ -3675,6 +3982,7 @@
         "index": {
           "description": "Postbuild commands",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "postbuilds",
           "package": "cake3",
@@ -3714,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrebuild commands. targets/prerequsites of the recipe are ignored,\n commands are executed before any target\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "prebuilds",
           "package": "cake3",
@@ -3724,6 +4033,7 @@
         "index": {
           "description": "Prebuild commands targets prerequsites of the recipe are ignored commands are executed before any target",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "prebuilds",
           "package": "cake3",
@@ -3812,6 +4122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of recipes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "recipes",
           "package": "cake3",
@@ -3822,6 +4133,7 @@
         "index": {
           "description": "The set of recipes",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "recipes",
           "package": "cake3",
@@ -3835,6 +4147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister the input item, return it's shell-script representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "refInput",
           "package": "cake3",
@@ -3845,6 +4158,7 @@
         "index": {
           "description": "Register the input item return it shell-script representation",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "refInput",
           "normalized": "a-\u003eb Command",
@@ -3861,6 +4175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister the output item, return it's shell-command representation. Files\n are rendered using space protection quotation, variables are wrapped into\n $(VAR) syntax, item lists are converted into space-separated lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "refOutput",
           "package": "cake3",
@@ -3871,6 +4186,7 @@
         "index": {
           "description": "Register the output item return it shell-command representation Files are rendered using space protection quotation variables are wrapped into VAR syntax item lists are converted into space-separated lists",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "refOutput",
           "normalized": "a-\u003eA' b Command",
@@ -3887,6 +4203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new empty recipe and run action on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "runA",
           "package": "cake3",
@@ -3896,6 +4213,7 @@
         "index": {
           "description": "Create new empty recipe and run action on it",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "runA",
           "normalized": "String-\u003eA' a b-\u003ea(Recipe,b)",
@@ -3911,6 +4229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the Action monad, using already existing Recipe as input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "runA'",
           "package": "cake3",
@@ -3921,6 +4240,7 @@
         "index": {
           "description": "Run the Action monad using already existing Recipe as input",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "runA'",
           "normalized": "Recipe-\u003eA' a b-\u003ea(Recipe,b)",
@@ -3937,6 +4257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of runA discarding the result of A's computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "runA_",
           "package": "cake3",
@@ -3947,6 +4268,7 @@
         "index": {
           "description": "Version of runA discarding the result of computation",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "runA_",
           "normalized": "String-\u003eA' a b-\u003ea Recipe",
@@ -3987,6 +4309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent location. FIXME: fix or remove\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "sloc",
           "package": "cake3",
@@ -3997,6 +4320,7 @@
         "index": {
           "description": "Current location FIXME fix or remove",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "sloc",
           "package": "cake3",
@@ -4009,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "spacify",
           "package": "cake3",
@@ -4018,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "spacify",
           "normalized": "a[[CommandPiece]]-\u003ea[CommandPiece]",
@@ -4059,6 +4385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of targets added so far\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "targets",
           "package": "cake3",
@@ -4069,6 +4396,7 @@
         "index": {
           "description": "Get list of targets added so far",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "targets",
           "package": "cake3",
@@ -4081,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "unA'",
           "package": "cake3",
@@ -4090,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "unA'",
           "package": "cake3",
@@ -4126,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "unMake",
           "package": "cake3",
@@ -4135,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "unMake",
           "package": "cake3",
@@ -4176,6 +4508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd variables to the list of variables referenced by the current recipe\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "variables",
           "package": "cake3",
@@ -4185,6 +4518,7 @@
         "index": {
           "description": "Add variables to the list of variables referenced by the current recipe",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "variables",
           "normalized": "a Variable-\u003eA' b()",
@@ -4200,6 +4534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarnings found so far\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Monad",
           "name": "warnings",
           "package": "cake3",
@@ -4210,6 +4545,7 @@
         "index": {
           "description": "Warnings found so far",
           "hierarchy": "Development Cake3 Monad",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Monad",
           "name": "warnings",
           "package": "cake3",
@@ -4222,6 +4558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "Types",
           "package": "cake3",
@@ -4230,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "Types",
           "package": "cake3",
@@ -4244,6 +4582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand represents OS command line and consists of a list of fragments.\n Each fragment is either text (may contain spaces) or FilePath (spaces should\n be escaped)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "Command",
           "package": "cake3",
@@ -4253,6 +4592,7 @@
         "index": {
           "description": "Command represents OS command line and consists of list of fragments Each fragment is either text may contain spaces or FilePath spaces should be escaped",
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "Command",
           "package": "cake3",
@@ -4266,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "CommandPiece",
           "package": "cake3",
@@ -4274,6 +4615,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "CommandPiece",
           "package": "cake3",
@@ -4287,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "Flag",
           "package": "cake3",
@@ -4295,6 +4638,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "Flag",
           "package": "cake3",
@@ -4309,6 +4653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecipe answers to the question 'How to build the targets'. Internally, it\n contains sets of targets and prerequisites, as well as shell commands\n required to build former from latter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "Recipe",
           "package": "cake3",
@@ -4318,6 +4663,7 @@
         "index": {
           "description": "Recipe answers to the question How to build the targets Internally it contains sets of targets and prerequisites as well as shell commands required to build former from latter",
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "Recipe",
           "package": "cake3",
@@ -4331,6 +4677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "Target",
           "package": "cake3",
@@ -4339,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "Target",
           "package": "cake3",
@@ -4353,6 +4701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe representation of Makefile variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "Variable",
           "package": "cake3",
@@ -4362,6 +4711,7 @@
         "index": {
           "description": "The representation of Makefile variable",
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "Variable",
           "package": "cake3",
@@ -4375,6 +4725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "CmdFile",
           "package": "cake3",
@@ -4384,6 +4735,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "CmdFile",
           "package": "cake3",
@@ -4397,6 +4749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "CmdStr",
           "package": "cake3",
@@ -4406,6 +4759,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "CmdStr",
           "package": "cake3",
@@ -4419,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "Intermediate",
           "package": "cake3",
@@ -4428,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "Intermediate",
           "package": "cake3",
@@ -4441,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "Phony",
           "package": "cake3",
@@ -4450,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "Phony",
           "package": "cake3",
@@ -4463,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "Recipe",
           "package": "cake3",
@@ -4472,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "Recipe",
           "package": "cake3",
@@ -4485,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "Variable",
           "package": "cake3",
@@ -4494,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "Variable",
           "package": "cake3",
@@ -4507,6 +4869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "addPrerequisite",
           "package": "cake3",
@@ -4516,6 +4879,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "addPrerequisite",
           "normalized": "File-\u003eRecipe-\u003eRecipe",
@@ -4531,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "addPrerequisites",
           "package": "cake3",
@@ -4540,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "addPrerequisites",
           "normalized": "Set File-\u003eRecipe-\u003eRecipe",
@@ -4555,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "applyPlacement",
           "package": "cake3",
@@ -4564,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "applyPlacement",
           "normalized": "[File]-\u003ea Recipe-\u003e[Recipe]",
@@ -4579,6 +4947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "applyPlacement'",
           "package": "cake3",
@@ -4588,6 +4957,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "applyPlacement'",
           "normalized": "[File]-\u003eMap File a-\u003e[a]",
@@ -4603,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "emptyRecipe",
           "package": "cake3",
@@ -4612,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "emptyRecipe",
           "normalized": "String-\u003eRecipe",
@@ -4653,6 +5025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "flattern",
           "package": "cake3",
@@ -4662,6 +5035,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "flattern",
           "normalized": "[Set a]-\u003e[a]",
@@ -4676,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "groupRecipes",
           "package": "cake3",
@@ -4685,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "groupRecipes",
           "normalized": "a Recipe-\u003eMap File(Set Recipe)",
@@ -4700,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "groupSet",
           "package": "cake3",
@@ -4709,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "groupSet",
           "normalized": "(a-\u003eSet b)-\u003ec a-\u003eMap b(Set a)",
@@ -4773,6 +5151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "queryTargets",
           "package": "cake3",
@@ -4782,6 +5161,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "queryTargets",
           "normalized": "a Recipe-\u003eSet File",
@@ -4797,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "queryVariables",
           "package": "cake3",
@@ -4806,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "queryVariables",
           "normalized": "a Recipe-\u003eSet Variable",
@@ -4821,6 +5203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "queryVariablesE",
           "package": "cake3",
@@ -4830,6 +5213,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "queryVariablesE",
           "normalized": "a Recipe-\u003eEither String(Set Variable)",
@@ -4846,6 +5230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of shell commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "rcmd",
           "package": "cake3",
@@ -4856,6 +5241,7 @@
         "index": {
           "description": "list of shell commands",
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "rcmd",
           "normalized": "[Command]",
@@ -4870,6 +5256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "return_file",
           "package": "cake3",
@@ -4879,6 +5266,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "return_file",
           "normalized": "File-\u003ea[CommandPiece]",
@@ -4893,6 +5281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "return_text",
           "package": "cake3",
@@ -4902,6 +5291,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "return_text",
           "normalized": "String-\u003ea[CommandPiece]",
@@ -4916,6 +5306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "rflags",
           "package": "cake3",
@@ -4925,6 +5316,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "rflags",
           "package": "cake3",
@@ -4937,6 +5329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "rloc",
           "package": "cake3",
@@ -4946,6 +5339,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "rloc",
           "package": "cake3",
@@ -4959,6 +5353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrerequisites\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "rsrc",
           "package": "cake3",
@@ -4969,6 +5364,7 @@
         "index": {
           "description": "Prerequisites",
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "rsrc",
           "package": "cake3",
@@ -4982,6 +5378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTargets \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "rtgt",
           "package": "cake3",
@@ -4992,6 +5389,7 @@
         "index": {
           "description": "Targets",
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "rtgt",
           "package": "cake3",
@@ -5005,6 +5403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainer of variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "rvars",
           "package": "cake3",
@@ -5015,6 +5414,7 @@
         "index": {
           "description": "Container of variables",
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "rvars",
           "package": "cake3",
@@ -5027,6 +5427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "transformRecipes",
           "package": "cake3",
@@ -5036,6 +5437,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "transformRecipes",
           "normalized": "(Recipe-\u003ea(Set Recipe))-\u003eSet Recipe-\u003ea(Set Recipe)",
@@ -5051,6 +5453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "transformRecipesM_",
           "package": "cake3",
@@ -5060,6 +5463,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "transformRecipesM_",
           "normalized": "(Recipe-\u003ea())-\u003eb Recipe-\u003ea()",
@@ -5075,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "var",
           "package": "cake3",
@@ -5084,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "var",
           "normalized": "String-\u003eMaybe String-\u003eVariable",
@@ -5099,6 +5505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "vname",
           "package": "cake3",
@@ -5109,6 +5516,7 @@
         "index": {
           "description": "The name of variable",
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "vname",
           "package": "cake3",
@@ -5122,6 +5530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing means that variable is defined elsewhere (eg. borrowed from the\n environment)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Types",
           "name": "vval",
           "package": "cake3",
@@ -5132,6 +5541,7 @@
         "index": {
           "description": "Nothing means that variable is defined elsewhere eg borrowed from the environment",
           "hierarchy": "Development Cake3 Types",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Types",
           "name": "vval",
           "package": "cake3",
@@ -5144,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Utils.Find",
           "name": "Find",
           "package": "cake3",
@@ -5152,6 +5563,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Utils Find",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Utils.Find",
           "name": "Find",
           "package": "cake3",
@@ -5165,6 +5577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Utils.Find",
           "name": "filterExts",
           "package": "cake3",
@@ -5174,6 +5587,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Utils Find",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Utils.Find",
           "name": "filterExts",
           "normalized": "[String]-\u003e[File]-\u003e[File]",
@@ -5189,6 +5603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Utils.Find",
           "name": "getDirectoryContentsRecursive",
           "package": "cake3",
@@ -5198,6 +5613,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Utils Find",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Utils.Find",
           "name": "getDirectoryContentsRecursive",
           "normalized": "File-\u003ea[File]",
@@ -5213,6 +5629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Writer",
           "name": "Writer",
           "package": "cake3",
@@ -5221,6 +5638,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3 Writer",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Writer",
           "name": "Writer",
           "package": "cake3",
@@ -5262,6 +5680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRule referring to the \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3.Writer",
           "name": "defaultMakefile",
           "package": "cake3",
@@ -5272,6 +5691,7 @@
         "index": {
           "description": "Rule referring to the",
           "hierarchy": "Development Cake3 Writer",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3.Writer",
           "name": "defaultMakefile",
           "package": "cake3",
@@ -5285,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "Cake3",
           "package": "cake3",
@@ -5293,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "Cake3",
           "package": "cake3",
@@ -5307,6 +5729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerison of Action monad with fixed parents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "A",
           "package": "cake3",
@@ -5316,6 +5739,7 @@
         "index": {
           "description": "Verison of Action monad with fixed parents",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "A",
           "package": "cake3",
@@ -5329,6 +5753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple wrapper for strings, a target for various typeclass instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "CakeString",
           "package": "cake3",
@@ -5338,6 +5763,7 @@
         "index": {
           "description": "Simple wrapper for strings target for various typeclass instances",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "CakeString",
           "package": "cake3",
@@ -5352,6 +5778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommandGen is a recipe-builder packed in the newtype to prevent partial\n expantion of it's commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "CommandGen'",
           "package": "cake3",
@@ -5361,6 +5788,7 @@
         "index": {
           "description": "CommandGen is recipe-builder packed in the newtype to prevent partial expantion of it commands",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "CommandGen'",
           "package": "cake3",
@@ -5375,6 +5803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple wrapper for FilePath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "File",
           "package": "cake3",
@@ -5384,6 +5813,7 @@
         "index": {
           "description": "Simple wrapper for FilePath",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "File",
           "package": "cake3",
@@ -5397,6 +5827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "FileLike",
           "package": "cake3",
@@ -5405,6 +5836,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "FileLike",
           "package": "cake3",
@@ -5418,6 +5850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "Make",
           "package": "cake3",
@@ -5426,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "Make",
           "package": "cake3",
@@ -5440,6 +5874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Monad providing access to MakeState. TODO: not mention IO here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "MonadMake",
           "package": "cake3",
@@ -5449,6 +5884,7 @@
         "index": {
           "description": "Monad providing access to MakeState TODO not mention IO here",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "MonadMake",
           "package": "cake3",
@@ -5462,6 +5898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "ProjectLocation",
           "package": "cake3",
@@ -5470,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "ProjectLocation",
           "package": "cake3",
@@ -5484,6 +5922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecipe answers to the question 'How to build the targets'. Internally, it\n contains sets of targets and prerequisites, as well as shell commands\n required to build former from latter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "Recipe",
           "package": "cake3",
@@ -5493,6 +5932,7 @@
         "index": {
           "description": "Recipe answers to the question How to build the targets Internally it contains sets of targets and prerequisites as well as shell commands required to build former from latter",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "Recipe",
           "package": "cake3",
@@ -5507,6 +5947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of things which may be referenced using '$(expr)' from inside\n of quasy-quoted shell expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "RefInput",
           "package": "cake3",
@@ -5516,6 +5957,7 @@
         "index": {
           "description": "Class of things which may be referenced using expr from inside of quasy-quoted shell expressions",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "RefInput",
           "package": "cake3",
@@ -5530,6 +5972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of things which may be referenced using '@(expr)' syntax of the\n quasi-quoted shell expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "RefOutput",
           "package": "cake3",
@@ -5539,6 +5982,7 @@
         "index": {
           "description": "Class of things which may be referenced using expr syntax of the quasi-quoted shell expressions",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "RefOutput",
           "package": "cake3",
@@ -5553,6 +5997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe representation of Makefile variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "Variable",
           "package": "cake3",
@@ -5562,6 +6007,7 @@
         "index": {
           "description": "The representation of Makefile variable",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "Variable",
           "package": "cake3",
@@ -5627,6 +6073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "ProjectLocation",
           "package": "cake3",
@@ -5636,6 +6083,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "ProjectLocation",
           "package": "cake3",
@@ -5649,6 +6097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "combine",
           "package": "cake3",
@@ -5658,6 +6107,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "combine",
           "normalized": "a-\u003eString-\u003ea",
@@ -5672,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "currentDirLocation",
           "package": "cake3",
@@ -5681,6 +6132,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "currentDirLocation",
           "package": "cake3",
@@ -5694,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "dropExtension",
           "package": "cake3",
@@ -5703,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "dropExtension",
           "normalized": "a-\u003ea",
@@ -5718,6 +6172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "dropExtensions",
           "package": "cake3",
@@ -5727,6 +6182,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "dropExtensions",
           "normalized": "a-\u003ea",
@@ -5742,6 +6198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "file'",
           "package": "cake3",
@@ -5751,6 +6208,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "file'",
           "normalized": "ProjectLocation-\u003eString-\u003eFile",
@@ -5765,6 +6223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "liftMake",
           "package": "cake3",
@@ -5774,6 +6233,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "liftMake",
           "normalized": "Make' IO a-\u003eb a",
@@ -5789,6 +6249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "makeRelative",
           "package": "cake3",
@@ -5798,6 +6259,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "makeRelative",
           "normalized": "a-\u003ea-\u003ea",
@@ -5813,6 +6275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "off",
           "package": "cake3",
@@ -5822,6 +6285,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "off",
           "package": "cake3",
@@ -5835,6 +6299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the phony target for a rule. Typical usage:\n\u003c/p\u003e\u003cpre\u003e rule $ do\n  phony \"clean\"\n  unsafeShell [cmd|rm $elf $os $d|]\n\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "phony",
           "package": "cake3",
@@ -5844,6 +6309,7 @@
         "index": {
           "description": "Adds the phony target for rule Typical usage rule do phony clean unsafeShell cmd rm elf os",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "phony",
           "normalized": "String-\u003eA()",
@@ -5859,6 +6325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister the input item, return it's shell-script representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "refInput",
           "package": "cake3",
@@ -5869,6 +6336,7 @@
         "index": {
           "description": "Register the input item return it shell-script representation",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "refInput",
           "normalized": "a-\u003eb Command",
@@ -5885,6 +6353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister the output item, return it's shell-command representation. Files\n are rendered using space protection quotation, variables are wrapped into\n $(VAR) syntax, item lists are converted into space-separated lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "refOutput",
           "package": "cake3",
@@ -5895,6 +6364,7 @@
         "index": {
           "description": "Register the output item return it shell-command representation Files are rendered using space protection quotation variables are wrapped into VAR syntax item lists are converted into space-separated lists",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "refOutput",
           "normalized": "a-\u003eA' b Command",
@@ -5910,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "replaceExtension",
           "package": "cake3",
@@ -5919,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "replaceExtension",
           "normalized": "a-\u003eString-\u003ea",
@@ -5934,6 +6406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "root",
           "package": "cake3",
@@ -5943,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "root",
           "package": "cake3",
@@ -5956,6 +6430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of rule2. Rule places it's recipe above all recipies defined so\n far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "rule",
           "package": "cake3",
@@ -5965,6 +6440,7 @@
         "index": {
           "description": "version of rule2 Rule places it recipe above all recipies defined so far",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "rule",
           "normalized": "A a-\u003eMake a",
@@ -5980,6 +6456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of rule, without monad set explicitly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "rule'",
           "package": "cake3",
@@ -5990,6 +6467,7 @@
         "index": {
           "description": "version of rule without monad set explicitly",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "rule'",
           "normalized": "A a-\u003eb a",
@@ -6005,6 +6483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a Recipe using recipe builder provided, than record the Recipe to the\n MakeState. Return the copy of Recipe (which should not be changed in future)\n and the result of recipe builder. The typical recipe builder result is the\n list of it's targets.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eExample\u003c/em\u003e\n Lets declare a rule which builds \u003ca\u003emain.o\u003c/a\u003e out of \u003ca\u003emain.c\u003c/a\u003e and \u003ca\u003eCFLAGS\u003c/a\u003e\n variable\n\u003c/p\u003e\u003cpre\u003e let c = file \"main.c\"\n rule $ shell [cmd| gcc -c $(extvar \"CFLAGS\") -o @(c.=\"o\") $c |]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "rule2",
           "package": "cake3",
@@ -6014,6 +6493,7 @@
         "index": {
           "description": "Build Recipe using recipe builder provided than record the Recipe to the MakeState Return the copy of Recipe which should not be changed in future and the result of recipe builder The typical recipe builder result is the list of it targets Example Lets declare rule which builds main.o out of main.c and CFLAGS variable let file main.c rule shell cmd gcc extvar CFLAGS",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "rule2",
           "normalized": "A a-\u003eb(Recipe,a)",
@@ -6029,6 +6509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA General Make runner. Executes the monad, returns the Makefile as a\n String. Errors go to stdout. fail is possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "runMake",
           "package": "cake3",
@@ -6039,6 +6520,7 @@
         "index": {
           "description": "General Make runner Executes the monad returns the Makefile as String Errors go to stdout fail is possible",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "runMake",
           "normalized": "Make a-\u003eIO String",
@@ -6054,6 +6536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "takeBaseName",
           "package": "cake3",
@@ -6063,6 +6546,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "takeBaseName",
           "normalized": "a-\u003eString",
@@ -6078,6 +6562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "takeDirectory",
           "package": "cake3",
@@ -6087,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "takeDirectory",
           "normalized": "a-\u003ea",
@@ -6102,6 +6588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "takeExtension",
           "package": "cake3",
@@ -6111,6 +6598,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "takeExtension",
           "normalized": "a-\u003eString",
@@ -6126,6 +6614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "takeExtensions",
           "package": "cake3",
@@ -6135,6 +6624,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "takeExtensions",
           "normalized": "a-\u003eString",
@@ -6150,6 +6640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "takeFileName",
           "package": "cake3",
@@ -6159,6 +6650,7 @@
         },
         "index": {
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "takeFileName",
           "normalized": "a-\u003eString",
@@ -6202,6 +6694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the Make monad, build the Makefile, write it to the output file. Also\n note, that errors (if any) go to the stderr. fail will be executed in such\n cases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Development.Cake3",
           "name": "writeMake",
           "package": "cake3",
@@ -6211,6 +6704,7 @@
         "index": {
           "description": "Execute the Make monad build the Makefile write it to the output file Also note that errors if any go to the stderr fail will be executed in such cases",
           "hierarchy": "Development Cake3",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Development.Cake3",
           "name": "writeMake",
           "normalized": "File-\u003eMake a-\u003eIO()",
@@ -6226,6 +6720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "Wrapper",
           "package": "cake3",
@@ -6234,6 +6729,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "Wrapper",
           "package": "cake3",
@@ -6248,6 +6744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple wrapper for FilePath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "File",
           "package": "cake3",
@@ -6257,6 +6754,7 @@
         "index": {
           "description": "Simple wrapper for FilePath",
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "File",
           "package": "cake3",
@@ -6270,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "FileLike",
           "package": "cake3",
@@ -6278,6 +6777,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "FileLike",
           "package": "cake3",
@@ -6291,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "FileT",
           "package": "cake3",
@@ -6299,6 +6800,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "FileT",
           "package": "cake3",
@@ -6312,6 +6814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "FileT",
           "package": "cake3",
@@ -6321,6 +6824,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "FileT",
           "package": "cake3",
@@ -6334,6 +6838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "combine",
           "package": "cake3",
@@ -6343,6 +6848,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "combine",
           "normalized": "a-\u003eString-\u003ea",
@@ -6357,6 +6863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "dropExtension",
           "package": "cake3",
@@ -6366,6 +6873,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "dropExtension",
           "normalized": "a-\u003ea",
@@ -6381,6 +6889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "dropExtensions",
           "package": "cake3",
@@ -6390,6 +6899,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "dropExtensions",
           "normalized": "a-\u003ea",
@@ -6405,6 +6915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "fromFilePath",
           "package": "cake3",
@@ -6414,6 +6925,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "fromFilePath",
           "normalized": "FilePath-\u003eFileT FilePath",
@@ -6429,6 +6941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "makeRelative",
           "package": "cake3",
@@ -6438,6 +6951,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "makeRelative",
           "normalized": "a-\u003ea-\u003ea",
@@ -6453,6 +6967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "replaceExtension",
           "package": "cake3",
@@ -6462,6 +6977,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "replaceExtension",
           "normalized": "a-\u003eString-\u003ea",
@@ -6477,6 +6993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "takeBaseName",
           "package": "cake3",
@@ -6486,6 +7003,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "takeBaseName",
           "normalized": "a-\u003eString",
@@ -6501,6 +7019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "takeDirectory",
           "package": "cake3",
@@ -6510,6 +7029,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "takeDirectory",
           "normalized": "a-\u003ea",
@@ -6525,6 +7045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "takeExtension",
           "package": "cake3",
@@ -6534,6 +7055,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "takeExtension",
           "normalized": "a-\u003eString",
@@ -6549,6 +7071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "takeExtensions",
           "package": "cake3",
@@ -6558,6 +7081,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "takeExtensions",
           "normalized": "a-\u003eString",
@@ -6573,6 +7097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "System.FilePath.Wrapper",
           "name": "takeFileName",
           "package": "cake3",
@@ -6582,6 +7107,7 @@
         },
         "index": {
           "hierarchy": "System FilePath Wrapper",
+          "indexed": "2014-03-11T17:29:17",
           "module": "System.FilePath.Wrapper",
           "name": "takeFileName",
           "normalized": "a-\u003eString",
@@ -6598,6 +7124,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuasyString-like module. Tweaked for the cake3\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Text.QuasiMake",
           "name": "QuasiMake",
           "package": "cake3",
@@ -6607,6 +7134,7 @@
         "index": {
           "description": "QuasyString-like module Tweaked for the cake3",
           "hierarchy": "Text QuasiMake",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Text.QuasiMake",
           "name": "QuasiMake",
           "package": "cake3",
@@ -6621,6 +7149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChunk is a part of quasy-quotation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Text.QuasiMake",
           "name": "Chunk",
           "package": "cake3",
@@ -6630,6 +7159,7 @@
         "index": {
           "description": "Chunk is part of quasy-quotation",
           "hierarchy": "Text QuasiMake",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Text.QuasiMake",
           "name": "Chunk",
           "package": "cake3",
@@ -6644,6 +7174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e$(expr) or @(expr)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Text.QuasiMake",
           "name": "E",
           "package": "cake3",
@@ -6654,6 +7185,7 @@
         "index": {
           "description": "expr or expr",
           "hierarchy": "Text QuasiMake",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Text.QuasiMake",
           "name": "E",
           "package": "cake3",
@@ -6667,6 +7199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Text.QuasiMake",
           "name": "T",
           "package": "cake3",
@@ -6677,6 +7210,7 @@
         "index": {
           "description": "the text",
           "hierarchy": "Text QuasiMake",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Text.QuasiMake",
           "name": "T",
           "package": "cake3",
@@ -6690,6 +7224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple \u003ccode\u003e\u003ca\u003eQuasiQuoter\u003c/a\u003e\u003c/code\u003e to interpolate \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into other pieces of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n Expressions can be embedded using $(expr) or @(expr), and values can be\n interpolated with $name. Inside $( )s, if you have a string of ambiguous\n type, it will default to the Show instance for toText, which will escape\n unicode characters in the string, and add quotes around them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:17 UTC 2014",
           "module": "Text.QuasiMake",
           "name": "getChunks",
           "package": "cake3",
@@ -6700,6 +7235,7 @@
         "index": {
           "description": "simple QuasiQuoter to interpolate Text into other pieces of Text Expressions can be embedded using expr or expr and values can be interpolated with name Inside if you have string of ambiguous type it will default to the Show instance for toText which will escape unicode characters in the string and add quotes around them",
           "hierarchy": "Text QuasiMake",
+          "indexed": "2014-03-11T17:29:17",
           "module": "Text.QuasiMake",
           "name": "getChunks",
           "normalized": "Text-\u003e[Chunk]",

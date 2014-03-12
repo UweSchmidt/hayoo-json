@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Noise"
+        "phrase": "Noise",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Abs",
           "name": "Abs",
           "package": "Noise",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Abs",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Abs",
           "name": "Abs",
           "package": "Noise",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Abs",
           "name": "Absolute",
           "package": "Noise",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Abs",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Abs",
           "name": "Absolute",
           "package": "Noise",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Abs",
           "name": "Absolute",
           "package": "Noise",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Abs",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Abs",
           "name": "Absolute",
           "package": "Noise",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Abs",
           "name": "absolute",
           "package": "Noise",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Abs",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Abs",
           "name": "absolute",
           "package": "Noise",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Billow",
           "name": "Billow",
           "package": "Noise",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Billow",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Billow",
           "name": "Billow",
           "package": "Noise",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Billow",
           "name": "Billow",
           "package": "Noise",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Billow",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Billow",
           "name": "Billow",
           "package": "Noise",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Billow",
           "name": "Billow",
           "package": "Noise",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Billow",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Billow",
           "name": "Billow",
           "package": "Noise",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Billow",
           "name": "billow",
           "package": "Noise",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Billow",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Billow",
           "name": "billow",
           "package": "Noise",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowFrequency",
           "package": "Noise",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Billow",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowFrequency",
           "package": "Noise",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowLacunarity",
           "package": "Noise",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Billow",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowLacunarity",
           "package": "Noise",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowMaxOctave",
           "package": "Noise",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Billow",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowMaxOctave",
           "package": "Noise",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowOctaves",
           "package": "Noise",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Billow",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowOctaves",
           "package": "Noise",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowPersistence",
           "package": "Noise",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Billow",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowPersistence",
           "package": "Noise",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowSeed",
           "package": "Noise",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Billow",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Billow",
           "name": "billowSeed",
           "package": "Noise",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Perlin",
           "name": "Perlin",
           "package": "Noise",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Perlin",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Perlin",
           "name": "Perlin",
           "package": "Noise",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Perlin",
           "name": "Perlin",
           "package": "Noise",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Perlin",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Perlin",
           "name": "Perlin",
           "package": "Noise",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Perlin",
           "name": "Perlin",
           "package": "Noise",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Perlin",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Perlin",
           "name": "Perlin",
           "package": "Noise",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Perlin",
           "name": "c_perlin",
           "package": "Noise",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Perlin",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Perlin",
           "name": "c_perlin",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCInt-\u003eCDouble-\u003eCInt-\u003eCDouble",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlin",
           "package": "Noise",
@@ -416,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Perlin",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlin",
           "package": "Noise",
@@ -429,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrequency of the first octave\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlinFrequency",
           "package": "Noise",
@@ -439,6 +478,7 @@
         "index": {
           "description": "Frequency of the first octave",
           "hierarchy": "Math Noise Modules Perlin",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlinFrequency",
           "package": "Noise",
@@ -453,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrequency multiplier between successive octaves\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlinLacunarity",
           "package": "Noise",
@@ -463,6 +504,7 @@
         "index": {
           "description": "Frequency multiplier between successive octaves",
           "hierarchy": "Math Noise Modules Perlin",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlinLacunarity",
           "package": "Noise",
@@ -477,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal number of octaves that generate the Perlin noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlinOctaves",
           "package": "Noise",
@@ -487,6 +530,7 @@
         "index": {
           "description": "Total number of octaves that generate the Perlin noise",
           "hierarchy": "Math Noise Modules Perlin",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlinOctaves",
           "package": "Noise",
@@ -501,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersistence of the Perlin noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlinPersistence",
           "package": "Noise",
@@ -511,6 +556,7 @@
         "index": {
           "description": "Persistence of the Perlin noise",
           "hierarchy": "Math Noise Modules Perlin",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlinPersistence",
           "package": "Noise",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlinSeed",
           "package": "Noise",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Perlin",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Perlin",
           "name": "perlinSeed",
           "package": "Noise",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "ScaleBias",
           "package": "Noise",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules ScaleBias",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "ScaleBias",
           "package": "Noise",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "ScaleBias",
           "package": "Noise",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules ScaleBias",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "ScaleBias",
           "package": "Noise",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "ScaleBias",
           "package": "Noise",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules ScaleBias",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "ScaleBias",
           "package": "Noise",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "bias",
           "package": "Noise",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules ScaleBias",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "bias",
           "package": "Noise",
@@ -631,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "scale",
           "package": "Noise",
@@ -640,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules ScaleBias",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "scale",
           "package": "Noise",
@@ -652,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "scalebias",
           "package": "Noise",
@@ -661,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules ScaleBias",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.ScaleBias",
           "name": "scalebias",
           "package": "Noise",
@@ -673,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Select",
           "name": "Select",
           "package": "Noise",
@@ -681,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Select",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Select",
           "name": "Select",
           "package": "Noise",
@@ -694,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Select",
           "name": "Select",
           "package": "Noise",
@@ -702,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Select",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Select",
           "name": "Select",
           "package": "Noise",
@@ -715,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Select",
           "name": "Select",
           "package": "Noise",
@@ -724,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Select",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Select",
           "name": "Select",
           "package": "Noise",
@@ -737,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Select",
           "name": "controller",
           "package": "Noise",
@@ -746,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Select",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Select",
           "name": "controller",
           "package": "Noise",
@@ -758,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Select",
           "name": "edgeFallOff",
           "package": "Noise",
@@ -767,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Select",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Select",
           "name": "edgeFallOff",
           "package": "Noise",
@@ -780,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Select",
           "name": "lowerBound",
           "package": "Noise",
@@ -789,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Select",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Select",
           "name": "lowerBound",
           "package": "Noise",
@@ -803,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjusts select values so that they are correct (i.e. lowerBound \u003c upperBound, etcc...)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Select",
           "name": "sanitizeSelect",
           "package": "Noise",
@@ -813,6 +886,7 @@
         "index": {
           "description": "Adjusts select values so that they are correct i.e lowerBound upperBound etcc",
           "hierarchy": "Math Noise Modules Select",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Select",
           "name": "sanitizeSelect",
           "normalized": "Select-\u003eSelect",
@@ -828,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Select",
           "name": "select",
           "package": "Noise",
@@ -837,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Select",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Select",
           "name": "select",
           "package": "Noise",
@@ -849,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.Modules.Select",
           "name": "upperBound",
           "package": "Noise",
@@ -858,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Math Noise Modules Select",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.Modules.Select",
           "name": "upperBound",
           "package": "Noise",
@@ -871,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseGen",
           "name": "NoiseGen",
           "package": "Noise",
@@ -879,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseGen",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseGen",
           "name": "NoiseGen",
           "package": "Noise",
@@ -892,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseGen",
           "name": "c_gradientNoise",
           "package": "Noise",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseGen",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseGen",
           "name": "c_gradientNoise",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble-\u003eCInt-\u003eCDouble",
@@ -917,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a gradient-coherent-noise value from the coordinates of a 3D value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseGen",
           "name": "gradientCoherentNoise3D",
           "package": "Noise",
@@ -927,6 +1010,7 @@
         "index": {
           "description": "Generates gradient-coherent-noise value from the coordinates of value",
           "hierarchy": "Math Noise NoiseGen",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseGen",
           "name": "gradientCoherentNoise3D",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eInt-\u003eDouble",
@@ -943,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a gradient-noise value from the coordinates of a 3D input value and\nthe integer coordinates of a nearby 3D value \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseGen",
           "name": "gradientNoise3D",
           "package": "Noise",
@@ -953,6 +1038,7 @@
         "index": {
           "description": "Generates gradient-noise value from the coordinates of input value and the integer coordinates of nearby value",
           "hierarchy": "Math Noise NoiseGen",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseGen",
           "name": "gradientNoise3D",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eDouble",
@@ -968,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseGen",
           "name": "seedNoiseGen",
           "package": "Noise",
@@ -977,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseGen",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseGen",
           "name": "seedNoiseGen",
           "package": "Noise",
@@ -990,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseGen",
           "name": "shiftNoiseGen",
           "package": "Noise",
@@ -999,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseGen",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseGen",
           "name": "shiftNoiseGen",
           "package": "Noise",
@@ -1012,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseGen",
           "name": "xNoiseGen",
           "package": "Noise",
@@ -1021,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseGen",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseGen",
           "name": "xNoiseGen",
           "package": "Noise",
@@ -1034,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseGen",
           "name": "yNoiseGen",
           "package": "Noise",
@@ -1043,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseGen",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseGen",
           "name": "yNoiseGen",
           "package": "Noise",
@@ -1056,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseGen",
           "name": "zNoiseGen",
           "package": "Noise",
@@ -1065,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseGen",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseGen",
           "name": "zNoiseGen",
           "package": "Noise",
@@ -1078,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "NoiseModule",
           "package": "Noise",
@@ -1086,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "NoiseModule",
           "package": "Noise",
@@ -1099,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "NoiseClass",
           "package": "Noise",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "NoiseClass",
           "package": "Noise",
@@ -1120,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "NoiseModule",
           "package": "Noise",
@@ -1128,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "NoiseModule",
           "package": "Noise",
@@ -1141,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "OneNoise",
           "package": "Noise",
@@ -1149,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "OneNoise",
           "package": "Noise",
@@ -1162,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "ZeroNoise",
           "package": "Noise",
@@ -1170,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "ZeroNoise",
           "package": "Noise",
@@ -1183,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "NoiseModule",
           "package": "Noise",
@@ -1192,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "NoiseModule",
           "package": "Noise",
@@ -1205,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "OneNoise",
           "package": "Noise",
@@ -1214,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "OneNoise",
           "package": "Noise",
@@ -1227,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "ZeroNoise",
           "package": "Noise",
@@ -1236,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "ZeroNoise",
           "package": "Noise",
@@ -1249,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "andModule",
           "package": "Noise",
@@ -1258,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "andModule",
           "normalized": "a-\u003eb-\u003eNoiseModule",
@@ -1273,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "areSourcesOf",
           "package": "Noise",
@@ -1282,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "areSourcesOf",
           "normalized": "NoiseModule-\u003ea-\u003eNoiseModule",
@@ -1297,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "gen",
           "package": "Noise",
@@ -1306,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "gen",
           "normalized": "a-\u003eNoiseModule",
@@ -1320,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "getNoiseValue",
           "package": "Noise",
@@ -1329,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "getNoiseValue",
           "normalized": "a-\u003e[NoiseModule]-\u003e(Double,Double,Double)-\u003eMaybe Double",
@@ -1344,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "getValue",
           "package": "Noise",
@@ -1353,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "getValue",
           "normalized": "a-\u003e(Double,Double,Double)-\u003eMaybe Double",
@@ -1368,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "isSourceOf",
           "package": "Noise",
@@ -1377,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "isSourceOf",
           "normalized": "a-\u003eb-\u003eNoiseModule",
@@ -1392,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "noiseFunc",
           "package": "Noise",
@@ -1401,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "noiseFunc",
           "package": "Noise",
@@ -1414,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "one",
           "package": "Noise",
@@ -1423,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "one",
           "package": "Noise",
@@ -1435,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "sanitize",
           "package": "Noise",
@@ -1444,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "sanitize",
           "normalized": "a-\u003ea",
@@ -1458,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "sources",
           "package": "Noise",
@@ -1467,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "sources",
           "normalized": "[NoiseModule]",
@@ -1481,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise.NoiseModule",
           "name": "zero",
           "package": "Noise",
@@ -1490,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Math Noise NoiseModule",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise.NoiseModule",
           "name": "zero",
           "package": "Noise",
@@ -1502,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "Noise",
           "package": "Noise",
@@ -1510,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "Noise",
           "package": "Noise",
@@ -1523,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "NoiseVector",
           "package": "Noise",
@@ -1531,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "NoiseVector",
           "package": "Noise",
@@ -1544,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "NoiseVector",
           "package": "Noise",
@@ -1553,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "NoiseVector",
           "package": "Noise",
@@ -1567,6 +1707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constant list of Doubles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "constList",
           "package": "Noise",
@@ -1577,6 +1718,7 @@
         "index": {
           "description": "constant list of Doubles",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "constList",
           "normalized": "[Double]",
@@ -1593,6 +1735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms cubic interpolation between two values bound between two other values\n - The alpha value should range from 0.0 to 1.0. \n - If the alpha value is 0.0, this function returns the first value.\n - If the alpha vlaue is 1.0, this function returns the second value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "cubic",
           "package": "Noise",
@@ -1603,6 +1746,7 @@
         "index": {
           "description": "Performs cubic interpolation between two values bound between two other values The alpha value should range from to If the alpha value is this function returns the first value If the alpha vlaue is this function returns the second value",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "cubic",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble",
@@ -1618,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a normalized vector based on four numbers on the range of [-1.0, 1.0]\n - This function uses the Cook (1957) method, and may reject pairs \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "genNormalized",
           "package": "Noise",
@@ -1628,6 +1773,7 @@
         "index": {
           "description": "Generates normalized vector based on four numbers on the range of This function uses the Cook method and may reject pairs",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "genNormalized",
           "normalized": "(Double,Double,Double,Double)-\u003eMaybe NoiseVector",
@@ -1644,6 +1790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a uniform distribution of Double values on the range [-1.0, 1.0]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "genUniformDistribution",
           "package": "Noise",
@@ -1654,6 +1801,7 @@
         "index": {
           "description": "Generates uniform distribution of Double values on the range",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "genUniformDistribution",
           "normalized": "Int-\u003e[Double]",
@@ -1670,6 +1818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a list of uniformly distributed normalized vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "genVectors",
           "package": "Noise",
@@ -1680,6 +1829,7 @@
         "index": {
           "description": "Generates list of uniformly distributed normalized vectors",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "genVectors",
           "normalized": "Int-\u003eMaybe[NoiseVector]",
@@ -1696,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a uniform distribution that has at least n*4 values that won't be rejected by the vector generation function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "getSuitableUniformDist",
           "package": "Noise",
@@ -1706,6 +1857,7 @@
         "index": {
           "description": "Generates uniform distribution that has at least values that won be rejected by the vector generation function",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "getSuitableUniformDist",
           "normalized": "Int-\u003eMaybe[(Double,Double,Double,Double)]",
@@ -1721,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "isNormalized",
           "package": "Noise",
@@ -1730,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "isNormalized",
           "normalized": "NoiseVector-\u003eDouble",
@@ -1746,6 +1900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms linear interpolation between two values.\n - The alpha value should range from 0.0 to 1.0.\n - If the alpha value is 0.0, this function returns the first value.\n - If the alpha value is 1.0, this function returns the second value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "linear",
           "package": "Noise",
@@ -1756,6 +1911,7 @@
         "index": {
           "description": "Performs linear interpolation between two values The alpha value should range from to If the alpha value is this function returns the first value If the alpha value is this function returns the second value",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "linear",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble",
@@ -1771,6 +1927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an immutable array from a list of Doubles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "listTable",
           "package": "Noise",
@@ -1781,6 +1938,7 @@
         "index": {
           "description": "Creates an immutable array from list of Doubles",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "listTable",
           "normalized": "[Double]-\u003eUArray Int Double",
@@ -1797,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps a value onto a cubic S-curve\n - the derivative of a cubic S-curve is zero at 0.0 and \u003ca\u003evalue\u003c/a\u003e at 1.0 \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "scurve3",
           "package": "Noise",
@@ -1807,6 +1966,7 @@
         "index": {
           "description": "Maps value onto cubic S-curve the derivative of cubic S-curve is zero at and value at",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "scurve3",
           "normalized": "Double-\u003eDouble",
@@ -1822,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps a value onto a quintic S-curve.\n - The first derivative is zero at 0.0 and \u003ca\u003evalue\u003c/a\u003e at 1.0\n - The second derivative is zero at 0.0 and \u003ca\u003evalue\u003c/a\u003e at 1.0 \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "scurve5",
           "package": "Noise",
@@ -1832,6 +1993,7 @@
         "index": {
           "description": "Maps value onto quintic S-curve The first derivative is zero at and value at The second derivative is zero at and value at",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "scurve5",
           "normalized": "Double-\u003eDouble",
@@ -1846,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "staticTable",
           "package": "Noise",
@@ -1855,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "staticTable",
           "package": "Noise",
@@ -1869,6 +2033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn immutable table of predefined vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "staticTable2",
           "package": "Noise",
@@ -1879,6 +2044,7 @@
         "index": {
           "description": "An immutable table of predefined vectors",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "staticTable2",
           "package": "Noise",
@@ -1893,6 +2059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a list of Doubles with 0.0 separating each set of 3 Doubles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:19 UTC 2014",
           "module": "Math.Noise",
           "name": "toList",
           "package": "Noise",
@@ -1903,6 +2070,7 @@
         "index": {
           "description": "Creates list of Doubles with separating each set of Doubles",
           "hierarchy": "Math Noise",
+          "indexed": "2014-03-11T16:54:19",
           "module": "Math.Noise",
           "name": "toList",
           "normalized": "[NoiseVector]-\u003e[Double]",

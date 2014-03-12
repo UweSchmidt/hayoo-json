@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "photoname"
+        "phrase": "photoname",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bliplib"
+        "phrase": "bliplib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePython 3 bytecode.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "Bytecode",
           "package": "bliplib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Python bytecode",
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "Bytecode",
           "package": "bliplib",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "Bytecode",
           "package": "bliplib",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "Bytecode",
           "package": "bliplib",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BytecodeArg",
           "package": "bliplib",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BytecodeArg",
           "package": "bliplib",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BytecodeSeq",
           "package": "bliplib",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BytecodeSeq",
           "package": "bliplib",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "Opcode",
           "package": "bliplib",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "Opcode",
           "package": "bliplib",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "Arg16",
           "package": "bliplib",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "Arg16",
           "package": "bliplib",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_ADD",
           "package": "bliplib",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_ADD",
           "package": "bliplib",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_AND",
           "package": "bliplib",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_AND",
           "package": "bliplib",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_FLOOR_DIVIDE",
           "package": "bliplib",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_FLOOR_DIVIDE",
           "package": "bliplib",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_LSHIFT",
           "package": "bliplib",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_LSHIFT",
           "package": "bliplib",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_MODULO",
           "package": "bliplib",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_MODULO",
           "package": "bliplib",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_MULTIPLY",
           "package": "bliplib",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_MULTIPLY",
           "package": "bliplib",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_OR",
           "package": "bliplib",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_OR",
           "package": "bliplib",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_POWER",
           "package": "bliplib",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_POWER",
           "package": "bliplib",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_RSHIFT",
           "package": "bliplib",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_RSHIFT",
           "package": "bliplib",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_SUBSCR",
           "package": "bliplib",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_SUBSCR",
           "package": "bliplib",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_SUBTRACT",
           "package": "bliplib",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_SUBTRACT",
           "package": "bliplib",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_TRUE_DIVIDE",
           "package": "bliplib",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_TRUE_DIVIDE",
           "package": "bliplib",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BINARY_XOR",
           "package": "bliplib",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BINARY_XOR",
           "package": "bliplib",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BREAK_LOOP",
           "package": "bliplib",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BREAK_LOOP",
           "package": "bliplib",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BUILD_LIST",
           "package": "bliplib",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BUILD_LIST",
           "package": "bliplib",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BUILD_MAP",
           "package": "bliplib",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BUILD_MAP",
           "package": "bliplib",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BUILD_SET",
           "package": "bliplib",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BUILD_SET",
           "package": "bliplib",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BUILD_SLICE",
           "package": "bliplib",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BUILD_SLICE",
           "package": "bliplib",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BUILD_TUPLE",
           "package": "bliplib",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BUILD_TUPLE",
           "package": "bliplib",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "Bytecode",
           "package": "bliplib",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "Bytecode",
           "package": "bliplib",
@@ -587,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "BytecodeSeq",
           "package": "bliplib",
@@ -596,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "BytecodeSeq",
           "normalized": "BytecodeSeq[Bytecode]",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "CALL_FUNCTION",
           "package": "bliplib",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "CALL_FUNCTION",
           "package": "bliplib",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "CALL_FUNCTION_KW",
           "package": "bliplib",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "CALL_FUNCTION_KW",
           "package": "bliplib",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "CALL_FUNCTION_VAR",
           "package": "bliplib",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "CALL_FUNCTION_VAR",
           "package": "bliplib",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "CALL_FUNCTION_VAR_KW",
           "package": "bliplib",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "CALL_FUNCTION_VAR_KW",
           "package": "bliplib",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "COMPARE_OP",
           "package": "bliplib",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "COMPARE_OP",
           "package": "bliplib",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "CONTINUE_LOOP",
           "package": "bliplib",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "CONTINUE_LOOP",
           "package": "bliplib",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "DELETE_ATTR",
           "package": "bliplib",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "DELETE_ATTR",
           "package": "bliplib",
@@ -765,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "DELETE_DEREF",
           "package": "bliplib",
@@ -774,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "DELETE_DEREF",
           "package": "bliplib",
@@ -787,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "DELETE_FAST",
           "package": "bliplib",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "DELETE_FAST",
           "package": "bliplib",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "DELETE_GLOBAL",
           "package": "bliplib",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "DELETE_GLOBAL",
           "package": "bliplib",
@@ -831,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "DELETE_NAME",
           "package": "bliplib",
@@ -840,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "DELETE_NAME",
           "package": "bliplib",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "DELETE_SUBSCR",
           "package": "bliplib",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "DELETE_SUBSCR",
           "package": "bliplib",
@@ -875,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "DUP_TOP",
           "package": "bliplib",
@@ -884,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "DUP_TOP",
           "package": "bliplib",
@@ -897,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "DUP_TOP_TWO",
           "package": "bliplib",
@@ -906,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "DUP_TOP_TWO",
           "package": "bliplib",
@@ -919,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "END_FINALLY",
           "package": "bliplib",
@@ -928,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "END_FINALLY",
           "package": "bliplib",
@@ -941,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "EXTENDED_ARG",
           "package": "bliplib",
@@ -950,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "EXTENDED_ARG",
           "package": "bliplib",
@@ -963,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "FOR_ITER",
           "package": "bliplib",
@@ -972,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "FOR_ITER",
           "package": "bliplib",
@@ -985,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "GET_ITER",
           "package": "bliplib",
@@ -994,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "GET_ITER",
           "package": "bliplib",
@@ -1007,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "IMPORT_FROM",
           "package": "bliplib",
@@ -1016,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "IMPORT_FROM",
           "package": "bliplib",
@@ -1029,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "IMPORT_NAME",
           "package": "bliplib",
@@ -1038,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "IMPORT_NAME",
           "package": "bliplib",
@@ -1051,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "IMPORT_STAR",
           "package": "bliplib",
@@ -1060,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "IMPORT_STAR",
           "package": "bliplib",
@@ -1073,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_ADD",
           "package": "bliplib",
@@ -1082,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_ADD",
           "package": "bliplib",
@@ -1095,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_AND",
           "package": "bliplib",
@@ -1104,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_AND",
           "package": "bliplib",
@@ -1117,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_FLOOR_DIVIDE",
           "package": "bliplib",
@@ -1126,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_FLOOR_DIVIDE",
           "package": "bliplib",
@@ -1139,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_LSHIFT",
           "package": "bliplib",
@@ -1148,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_LSHIFT",
           "package": "bliplib",
@@ -1161,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_MODULO",
           "package": "bliplib",
@@ -1170,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_MODULO",
           "package": "bliplib",
@@ -1183,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_MULTIPLY",
           "package": "bliplib",
@@ -1192,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_MULTIPLY",
           "package": "bliplib",
@@ -1205,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_OR",
           "package": "bliplib",
@@ -1214,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_OR",
           "package": "bliplib",
@@ -1227,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_POWER",
           "package": "bliplib",
@@ -1236,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_POWER",
           "package": "bliplib",
@@ -1249,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_RSHIFT",
           "package": "bliplib",
@@ -1258,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_RSHIFT",
           "package": "bliplib",
@@ -1271,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_SUBTRACT",
           "package": "bliplib",
@@ -1280,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_SUBTRACT",
           "package": "bliplib",
@@ -1293,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_TRUE_DIVIDE",
           "package": "bliplib",
@@ -1302,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_TRUE_DIVIDE",
           "package": "bliplib",
@@ -1315,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "INPLACE_XOR",
           "package": "bliplib",
@@ -1324,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "INPLACE_XOR",
           "package": "bliplib",
@@ -1337,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "JUMP_ABSOLUTE",
           "package": "bliplib",
@@ -1346,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "JUMP_ABSOLUTE",
           "package": "bliplib",
@@ -1359,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "JUMP_FORWARD",
           "package": "bliplib",
@@ -1368,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "JUMP_FORWARD",
           "package": "bliplib",
@@ -1381,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "JUMP_IF_FALSE_OR_POP",
           "package": "bliplib",
@@ -1390,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "JUMP_IF_FALSE_OR_POP",
           "package": "bliplib",
@@ -1403,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "JUMP_IF_TRUE_OR_POP",
           "package": "bliplib",
@@ -1412,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "JUMP_IF_TRUE_OR_POP",
           "package": "bliplib",
@@ -1425,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "LIST_APPEND",
           "package": "bliplib",
@@ -1434,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "LIST_APPEND",
           "package": "bliplib",
@@ -1447,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "LOAD_ATTR",
           "package": "bliplib",
@@ -1456,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "LOAD_ATTR",
           "package": "bliplib",
@@ -1469,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "LOAD_BUILD_CLASS",
           "package": "bliplib",
@@ -1478,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "LOAD_BUILD_CLASS",
           "package": "bliplib",
@@ -1491,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "LOAD_CLOSURE",
           "package": "bliplib",
@@ -1500,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "LOAD_CLOSURE",
           "package": "bliplib",
@@ -1513,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "LOAD_CONST",
           "package": "bliplib",
@@ -1522,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "LOAD_CONST",
           "package": "bliplib",
@@ -1535,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "LOAD_DEREF",
           "package": "bliplib",
@@ -1544,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "LOAD_DEREF",
           "package": "bliplib",
@@ -1557,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "LOAD_FAST",
           "package": "bliplib",
@@ -1566,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "LOAD_FAST",
           "package": "bliplib",
@@ -1579,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "LOAD_GLOBAL",
           "package": "bliplib",
@@ -1588,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "LOAD_GLOBAL",
           "package": "bliplib",
@@ -1601,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "LOAD_NAME",
           "package": "bliplib",
@@ -1610,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "LOAD_NAME",
           "package": "bliplib",
@@ -1623,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "MAKE_CLOSURE",
           "package": "bliplib",
@@ -1632,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "MAKE_CLOSURE",
           "package": "bliplib",
@@ -1645,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "MAKE_FUNCTION",
           "package": "bliplib",
@@ -1654,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "MAKE_FUNCTION",
           "package": "bliplib",
@@ -1667,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "MAP_ADD",
           "package": "bliplib",
@@ -1676,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "MAP_ADD",
           "package": "bliplib",
@@ -1689,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "NOP",
           "package": "bliplib",
@@ -1698,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "NOP",
           "package": "bliplib",
@@ -1711,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "POP_BLOCK",
           "package": "bliplib",
@@ -1720,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "POP_BLOCK",
           "package": "bliplib",
@@ -1733,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "POP_EXCEPT",
           "package": "bliplib",
@@ -1742,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "POP_EXCEPT",
           "package": "bliplib",
@@ -1755,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "POP_JUMP_IF_FALSE",
           "package": "bliplib",
@@ -1764,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "POP_JUMP_IF_FALSE",
           "package": "bliplib",
@@ -1777,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "POP_JUMP_IF_TRUE",
           "package": "bliplib",
@@ -1786,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "POP_JUMP_IF_TRUE",
           "package": "bliplib",
@@ -1799,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "POP_TOP",
           "package": "bliplib",
@@ -1808,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "POP_TOP",
           "package": "bliplib",
@@ -1821,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "PRINT_EXPR",
           "package": "bliplib",
@@ -1830,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "PRINT_EXPR",
           "package": "bliplib",
@@ -1843,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "RAISE_VARARGS",
           "package": "bliplib",
@@ -1852,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "RAISE_VARARGS",
           "package": "bliplib",
@@ -1865,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "RETURN_VALUE",
           "package": "bliplib",
@@ -1874,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "RETURN_VALUE",
           "package": "bliplib",
@@ -1887,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "ROT_THREE",
           "package": "bliplib",
@@ -1896,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "ROT_THREE",
           "package": "bliplib",
@@ -1909,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "ROT_TWO",
           "package": "bliplib",
@@ -1918,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "ROT_TWO",
           "package": "bliplib",
@@ -1931,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "SETUP_EXCEPT",
           "package": "bliplib",
@@ -1940,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "SETUP_EXCEPT",
           "package": "bliplib",
@@ -1953,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "SETUP_FINALLY",
           "package": "bliplib",
@@ -1962,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "SETUP_FINALLY",
           "package": "bliplib",
@@ -1975,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "SETUP_LOOP",
           "package": "bliplib",
@@ -1984,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "SETUP_LOOP",
           "package": "bliplib",
@@ -1997,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "SETUP_WITH",
           "package": "bliplib",
@@ -2006,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "SETUP_WITH",
           "package": "bliplib",
@@ -2019,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "SET_ADD",
           "package": "bliplib",
@@ -2028,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "SET_ADD",
           "package": "bliplib",
@@ -2041,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "STORE_ATTR",
           "package": "bliplib",
@@ -2050,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "STORE_ATTR",
           "package": "bliplib",
@@ -2063,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "STORE_DEREF",
           "package": "bliplib",
@@ -2072,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "STORE_DEREF",
           "package": "bliplib",
@@ -2085,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "STORE_FAST",
           "package": "bliplib",
@@ -2094,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "STORE_FAST",
           "package": "bliplib",
@@ -2107,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "STORE_GLOBAL",
           "package": "bliplib",
@@ -2116,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "STORE_GLOBAL",
           "package": "bliplib",
@@ -2129,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "STORE_LOCALS",
           "package": "bliplib",
@@ -2138,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "STORE_LOCALS",
           "package": "bliplib",
@@ -2151,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "STORE_MAP",
           "package": "bliplib",
@@ -2160,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "STORE_MAP",
           "package": "bliplib",
@@ -2174,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHAVE_ARGUMENT         -- 90    Opcodes from here have an argument: \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "STORE_NAME",
           "package": "bliplib",
@@ -2184,6 +2381,7 @@
         "index": {
           "description": "HAVE ARGUMENT Opcodes from here have an argument",
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "STORE_NAME",
           "package": "bliplib",
@@ -2197,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "STORE_SUBSCR",
           "package": "bliplib",
@@ -2206,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "STORE_SUBSCR",
           "package": "bliplib",
@@ -2219,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "UNARY_INVERT",
           "package": "bliplib",
@@ -2228,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "UNARY_INVERT",
           "package": "bliplib",
@@ -2241,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "UNARY_NEGATIVE",
           "package": "bliplib",
@@ -2250,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "UNARY_NEGATIVE",
           "package": "bliplib",
@@ -2263,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "UNARY_NOT",
           "package": "bliplib",
@@ -2272,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "UNARY_NOT",
           "package": "bliplib",
@@ -2285,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "UNARY_POSITIVE",
           "package": "bliplib",
@@ -2294,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "UNARY_POSITIVE",
           "package": "bliplib",
@@ -2307,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "UNPACK_EX",
           "package": "bliplib",
@@ -2316,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "UNPACK_EX",
           "package": "bliplib",
@@ -2329,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "UNPACK_SEQUENCE",
           "package": "bliplib",
@@ -2338,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "UNPACK_SEQUENCE",
           "package": "bliplib",
@@ -2351,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "WITH_CLEANUP",
           "package": "bliplib",
@@ -2360,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "WITH_CLEANUP",
           "package": "bliplib",
@@ -2373,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "YIELD_FROM",
           "package": "bliplib",
@@ -2382,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "YIELD_FROM",
           "package": "bliplib",
@@ -2395,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "YIELD_VALUE",
           "package": "bliplib",
@@ -2404,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "YIELD_VALUE",
           "package": "bliplib",
@@ -2417,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "args",
           "package": "bliplib",
@@ -2426,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "args",
           "package": "bliplib",
@@ -2438,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "bytecodeSize",
           "package": "bliplib",
@@ -2447,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "bytecodeSize",
           "normalized": "Bytecode-\u003eInt",
@@ -2462,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "decode",
           "package": "bliplib",
@@ -2471,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "decode",
           "normalized": "ByteString-\u003e[Bytecode]",
@@ -2485,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "encode",
           "package": "bliplib",
@@ -2494,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "encode",
           "normalized": "[Bytecode]-\u003eByteString",
@@ -2508,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Bytecode",
           "name": "opcode",
           "package": "bliplib",
@@ -2517,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Blip Bytecode",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Bytecode",
           "name": "opcode",
           "package": "bliplib",
@@ -2530,6 +2758,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReading, writing and representation of Python bytecode files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "Marshal",
           "package": "bliplib",
@@ -2539,6 +2768,7 @@
         "index": {
           "description": "Reading writing and representation of Python bytecode files",
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "Marshal",
           "package": "bliplib",
@@ -2552,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "CodeObjectFlagMask",
           "package": "bliplib",
@@ -2560,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "CodeObjectFlagMask",
           "package": "bliplib",
@@ -2573,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "PyObject",
           "package": "bliplib",
@@ -2581,6 +2814,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "PyObject",
           "package": "bliplib",
@@ -2594,6 +2828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "PycFile",
           "package": "bliplib",
@@ -2602,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "PycFile",
           "package": "bliplib",
@@ -2615,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "Code",
           "package": "bliplib",
@@ -2624,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "Code",
           "package": "bliplib",
@@ -2637,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "Complex",
           "package": "bliplib",
@@ -2646,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "Complex",
           "package": "bliplib",
@@ -2659,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "Ellipsis",
           "package": "bliplib",
@@ -2668,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "Ellipsis",
           "package": "bliplib",
@@ -2681,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "FalseObj",
           "package": "bliplib",
@@ -2690,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "FalseObj",
           "package": "bliplib",
@@ -2703,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "Float",
           "package": "bliplib",
@@ -2712,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "Float",
           "package": "bliplib",
@@ -2725,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "Int",
           "package": "bliplib",
@@ -2734,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "Int",
           "package": "bliplib",
@@ -2747,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "Long",
           "package": "bliplib",
@@ -2756,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "Long",
           "package": "bliplib",
@@ -2769,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "None",
           "package": "bliplib",
@@ -2778,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "None",
           "package": "bliplib",
@@ -2791,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "PycFile",
           "package": "bliplib",
@@ -2800,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "PycFile",
           "package": "bliplib",
@@ -2813,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "String",
           "package": "bliplib",
@@ -2822,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "String",
           "package": "bliplib",
@@ -2835,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "TrueObj",
           "package": "bliplib",
@@ -2844,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "TrueObj",
           "package": "bliplib",
@@ -2857,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "Tuple",
           "package": "bliplib",
@@ -2866,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "Tuple",
           "package": "bliplib",
@@ -2879,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "Unicode",
           "package": "bliplib",
@@ -2888,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "Unicode",
           "package": "bliplib",
@@ -2901,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "argcount",
           "package": "bliplib",
@@ -2910,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "argcount",
           "package": "bliplib",
@@ -2922,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "cellvars",
           "package": "bliplib",
@@ -2931,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "cellvars",
           "package": "bliplib",
@@ -2943,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "co_generator",
           "package": "bliplib",
@@ -2952,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "co_generator",
           "package": "bliplib",
@@ -2964,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "co_nested",
           "package": "bliplib",
@@ -2973,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "co_nested",
           "package": "bliplib",
@@ -2985,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "co_newlocals",
           "package": "bliplib",
@@ -2994,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "co_newlocals",
           "package": "bliplib",
@@ -3006,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "co_nofree",
           "package": "bliplib",
@@ -3015,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "co_nofree",
           "package": "bliplib",
@@ -3027,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "co_optimized",
           "package": "bliplib",
@@ -3036,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "co_optimized",
           "package": "bliplib",
@@ -3048,6 +3324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "co_varargs",
           "package": "bliplib",
@@ -3057,6 +3334,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "co_varargs",
           "package": "bliplib",
@@ -3069,6 +3347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "co_varkeywords",
           "package": "bliplib",
@@ -3078,6 +3357,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "co_varkeywords",
           "package": "bliplib",
@@ -3090,6 +3370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "code",
           "package": "bliplib",
@@ -3099,6 +3380,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "code",
           "package": "bliplib",
@@ -3111,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "consts",
           "package": "bliplib",
@@ -3120,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "consts",
           "package": "bliplib",
@@ -3132,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "elements",
           "package": "bliplib",
@@ -3141,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "elements",
           "normalized": "[PyObject]",
@@ -3155,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "filename",
           "package": "bliplib",
@@ -3164,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "filename",
           "package": "bliplib",
@@ -3176,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "firstlineno",
           "package": "bliplib",
@@ -3185,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "firstlineno",
           "package": "bliplib",
@@ -3197,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "flags",
           "package": "bliplib",
@@ -3206,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "flags",
           "package": "bliplib",
@@ -3218,6 +3510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "float_value",
           "package": "bliplib",
@@ -3227,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "float_value",
           "package": "bliplib",
@@ -3239,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "freevars",
           "package": "bliplib",
@@ -3248,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "freevars",
           "package": "bliplib",
@@ -3260,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "imaginary",
           "package": "bliplib",
@@ -3269,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "imaginary",
           "package": "bliplib",
@@ -3281,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "int_value",
           "package": "bliplib",
@@ -3290,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "int_value",
           "package": "bliplib",
@@ -3302,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "kwonlyargcount",
           "package": "bliplib",
@@ -3311,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "kwonlyargcount",
           "package": "bliplib",
@@ -3323,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "lnotab",
           "package": "bliplib",
@@ -3332,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "lnotab",
           "package": "bliplib",
@@ -3344,6 +3648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "long_value",
           "package": "bliplib",
@@ -3353,6 +3658,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "long_value",
           "package": "bliplib",
@@ -3365,6 +3671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "magic",
           "package": "bliplib",
@@ -3374,6 +3681,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "magic",
           "package": "bliplib",
@@ -3386,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "modified_time",
           "package": "bliplib",
@@ -3395,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "modified_time",
           "package": "bliplib",
@@ -3407,6 +3717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "name",
           "package": "bliplib",
@@ -3416,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "name",
           "package": "bliplib",
@@ -3428,6 +3740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "names",
           "package": "bliplib",
@@ -3437,6 +3750,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "names",
           "package": "bliplib",
@@ -3449,6 +3763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "nlocals",
           "package": "bliplib",
@@ -3458,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "nlocals",
           "package": "bliplib",
@@ -3470,6 +3786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "object",
           "package": "bliplib",
@@ -3479,6 +3796,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "object",
           "package": "bliplib",
@@ -3491,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "readPyc",
           "package": "bliplib",
@@ -3500,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "readPyc",
           "normalized": "Handle-\u003eIO PycFile",
@@ -3515,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "real",
           "package": "bliplib",
@@ -3524,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "real",
           "package": "bliplib",
@@ -3536,6 +3858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "size",
           "package": "bliplib",
@@ -3545,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "size",
           "package": "bliplib",
@@ -3557,6 +3881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "stacksize",
           "package": "bliplib",
@@ -3566,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "stacksize",
           "package": "bliplib",
@@ -3578,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "string",
           "package": "bliplib",
@@ -3587,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "string",
           "package": "bliplib",
@@ -3599,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "unicode",
           "package": "bliplib",
@@ -3608,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "unicode",
           "package": "bliplib",
@@ -3620,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "varnames",
           "package": "bliplib",
@@ -3629,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "varnames",
           "package": "bliplib",
@@ -3641,6 +3973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Marshal",
           "name": "writePyc",
           "package": "bliplib",
@@ -3650,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "Blip Marshal",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Marshal",
           "name": "writePyc",
           "normalized": "Handle-\u003ePycFile-\u003eIO()",
@@ -3666,6 +4000,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert Haskell Doubles to and from a list of bytes.\n\u003c/p\u003e\u003cp\u003eXXX not sure if this is complete or immune from endian issues.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.MarshalDouble",
           "name": "MarshalDouble",
           "package": "bliplib",
@@ -3675,6 +4010,7 @@
         "index": {
           "description": "Convert Haskell Doubles to and from list of bytes XXX not sure if this is complete or immune from endian issues",
           "hierarchy": "Blip MarshalDouble",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.MarshalDouble",
           "name": "MarshalDouble",
           "package": "bliplib",
@@ -3688,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.MarshalDouble",
           "name": "bytesToDouble",
           "package": "bliplib",
@@ -3697,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "Blip MarshalDouble",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.MarshalDouble",
           "name": "bytesToDouble",
           "normalized": "[Word]-\u003eDouble",
@@ -3712,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.MarshalDouble",
           "name": "doubleToBytes",
           "package": "bliplib",
@@ -3721,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Blip MarshalDouble",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.MarshalDouble",
           "name": "doubleToBytes",
           "normalized": "Double-\u003e[Word]",
@@ -3737,6 +4077,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printing utilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Pretty",
           "name": "Pretty",
           "package": "bliplib",
@@ -3746,6 +4087,7 @@
         "index": {
           "description": "Pretty printing utilities",
           "hierarchy": "Blip Pretty",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Pretty",
           "name": "Pretty",
           "package": "bliplib",
@@ -3760,6 +4102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printing interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Pretty",
           "name": "Pretty",
           "package": "bliplib",
@@ -3769,6 +4112,7 @@
         "index": {
           "description": "Pretty printing interface",
           "hierarchy": "Blip Pretty",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Pretty",
           "name": "Pretty",
           "package": "bliplib",
@@ -3783,6 +4127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a document for a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Pretty",
           "name": "pretty",
           "package": "bliplib",
@@ -3793,6 +4138,7 @@
         "index": {
           "description": "Generate document for value",
           "hierarchy": "Blip Pretty",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -3807,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Pretty",
           "name": "prettyList",
           "package": "bliplib",
@@ -3816,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "Blip Pretty",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Pretty",
           "name": "prettyList",
           "normalized": "[Doc]-\u003eDoc",
@@ -3832,6 +4180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an instance of \u003ca\u003ePretty\u003c/a\u003e as a \u003ca\u003eString\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Pretty",
           "name": "prettyString",
           "package": "bliplib",
@@ -3842,6 +4191,7 @@
         "index": {
           "description": "Render an instance of Pretty as String",
           "hierarchy": "Blip Pretty",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Pretty",
           "name": "prettyString",
           "normalized": "a-\u003eString",
@@ -3857,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Pretty",
           "name": "prettyTuple",
           "package": "bliplib",
@@ -3866,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Blip Pretty",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Pretty",
           "name": "prettyTuple",
           "normalized": "[Doc]-\u003eDoc",
@@ -3882,6 +4234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an instance of \u003ca\u003eBits\u003c/a\u003e as a \u003ca\u003eString\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Pretty",
           "name": "showBits",
           "package": "bliplib",
@@ -3892,6 +4245,7 @@
         "index": {
           "description": "Render an instance of Bits as String",
           "hierarchy": "Blip Pretty",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Pretty",
           "name": "showBits",
           "normalized": "a-\u003eString",
@@ -3908,6 +4262,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion number of Blip, derived magically from cabal file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Version",
           "name": "Version",
           "package": "bliplib",
@@ -3917,6 +4272,7 @@
         "index": {
           "description": "Version number of Blip derived magically from cabal file",
           "hierarchy": "Blip Version",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Version",
           "name": "Version",
           "package": "bliplib",
@@ -3930,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Version",
           "name": "version",
           "package": "bliplib",
@@ -3939,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Blip Version",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Version",
           "name": "version",
           "package": "bliplib",
@@ -3951,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:27 UTC 2014",
           "module": "Blip.Version",
           "name": "versionString",
           "package": "bliplib",
@@ -3960,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Blip Version",
+          "indexed": "2014-03-11T17:24:27",
           "module": "Blip.Version",
           "name": "versionString",
           "package": "bliplib",

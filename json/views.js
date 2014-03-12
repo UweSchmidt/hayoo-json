@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "views"
+        "phrase": "views",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module extending the functionality of the State Monad with Views\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Control.Monad.State.View",
           "name": "View",
           "package": "views",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module extending the functionality of the State Monad with Views",
           "hierarchy": "Control Monad State View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Control.Monad.State.View",
           "name": "View",
           "package": "views",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the given view from the whole state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Control.Monad.State.View",
           "name": "getting",
           "package": "views",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Gets the given view from the whole state",
           "hierarchy": "Control Monad State View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Control.Monad.State.View",
           "name": "getting",
           "normalized": "View a b-\u003ec b",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the view by the given function. \u003ccode\u003emodifying v f\u003c/code\u003e is equivalent to \u003ccode\u003eviewing v (modify f)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Control.Monad.State.View",
           "name": "modifying",
           "package": "views",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Modifies the view by the given function modifying is equivalent to viewing modify",
           "hierarchy": "Control Monad State View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Control.Monad.State.View",
           "name": "modifying",
           "normalized": "View a b-\u003e(b-\u003eb)-\u003ec()",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjects the given value into the whole state. \u003ccode\u003eputting v x\u003c/code\u003e is equivalent to \u003ccode\u003eviewing v (put x)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Control.Monad.State.View",
           "name": "putting",
           "package": "views",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Injects the given value into the whole state putting is equivalent to viewing put",
           "hierarchy": "Control Monad State View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Control.Monad.State.View",
           "name": "putting",
           "normalized": "View a b-\u003eb-\u003ec()",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esaving v m\u003c/code\u003e executes \u003ccode\u003em\u003c/code\u003e, while preserving the value of the View \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Control.Monad.State.View",
           "name": "saving",
           "package": "views",
@@ -127,6 +136,7 @@
         "index": {
           "description": "saving executes while preserving the value of the View",
           "hierarchy": "Control Monad State View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Control.Monad.State.View",
           "name": "saving",
           "normalized": "View a b-\u003ec d-\u003ec d",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special case of \u003ccode\u003e\u003ca\u003eswappingWith\u003c/a\u003e\u003c/code\u003e with a constant value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Control.Monad.State.View",
           "name": "swapping",
           "package": "views",
@@ -152,6 +163,7 @@
         "index": {
           "description": "special case of swappingWith with constant value",
           "hierarchy": "Control Monad State View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Control.Monad.State.View",
           "name": "swapping",
           "normalized": "View a b-\u003eb-\u003ec d-\u003ec d",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eswappingWith v f m\u003c/code\u003e executes \u003ccode\u003em\u003c/code\u003e in an environment where the view \u003ccode\u003ev\u003c/code\u003e was modified by \u003ccode\u003ef\u003c/code\u003e,\n preserving the old value of \u003ccode\u003ev\u003c/code\u003e (it swaps the old value and the new, and then swaps back after \u003ccode\u003em\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Control.Monad.State.View",
           "name": "swappingWith",
           "package": "views",
@@ -177,6 +190,7 @@
         "index": {
           "description": "swappingWith executes in an environment where the view was modified by preserving the old value of it swaps the old value and the new and then swaps back after",
           "hierarchy": "Control Monad State View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Control.Monad.State.View",
           "name": "swappingWith",
           "normalized": "View a b-\u003e(b-\u003eb)-\u003ec d-\u003ec d",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a State monad that acts on a View.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Control.Monad.State.View",
           "name": "viewState",
           "package": "views",
@@ -203,6 +218,7 @@
         "index": {
           "description": "Constructs State monad that acts on View",
           "hierarchy": "Control Monad State View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Control.Monad.State.View",
           "name": "viewState",
           "normalized": "View a b-\u003e(b-\u003e(c,b))-\u003ed c",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a state restricted to the given View.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Control.Monad.State.View",
           "name": "viewing",
           "package": "views",
@@ -229,6 +246,7 @@
         "index": {
           "description": "Executes state restricted to the given View",
           "hierarchy": "Control Monad State View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Control.Monad.State.View",
           "name": "viewing",
           "normalized": "View a b-\u003eState b c-\u003ed c",
@@ -243,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "View",
           "package": "views",
@@ -251,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "View",
           "package": "views",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type definition of a view from \u003ccode\u003ea\u003c/code\u003e to \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eViews allow you to operate on part (the \u003cem\u003eview\u003c/em\u003e) of a data structure (the \u003cem\u003ewhole\u003c/em\u003e)\nwhile abstracting the rest.\n\u003c/p\u003e\u003cp\u003eNote that while views are mostly used for operating on record fields, there are\nvery interesting abstractions that may be conceived from them having nothing\nwhatsoever to do with fields (for example, a view for the bounds of an array,\nthat allows for easy redimensioning, or a view for the associated value to a\ngiven key in a map)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "View",
           "package": "views",
@@ -274,6 +295,7 @@
         "index": {
           "description": "The type definition of view from to Views allow you to operate on part the view of data structure the whole while abstracting the rest Note that while views are mostly used for operating on record fields there are very interesting abstractions that may be conceived from them having nothing whatsoever to do with fields for example view for the bounds of an array that allows for easy redimensioning or view for the associated value to given key in map",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "View",
           "package": "views",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-to-left composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "(\u003c\u003c\u003c)",
           "package": "views",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Right-to-left composition",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "(\u003c\u003c\u003c) \u003c\u003c\u003c",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -312,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-to-right composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "(\u003e\u003e\u003e)",
           "package": "views",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Left-to-right composition",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "a b c-\u003ea c d-\u003ea b d",
@@ -335,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "View",
           "package": "views",
@@ -344,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "View",
           "package": "views",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to extract the view from the whole\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "extract",
           "package": "views",
@@ -368,6 +397,7 @@
         "index": {
           "description": "Function to extract the view from the whole",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "extract",
           "normalized": "a-\u003eb",
@@ -383,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA view that encapsulates a function.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e A View created with \u003ccode\u003e\u003ca\u003ef_\u003c/a\u003e\u003c/code\u003e is not a full View, as it doesn't allow\nreinjection of the view into the whole. This function is thus to be\nused only for convenience when chaining Views and pure functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "f_",
           "package": "views",
@@ -393,6 +424,7 @@
         "index": {
           "description": "view that encapsulates function Note View created with is not full View as it doesn allow reinjection of the view into the whole This function is thus to be used only for convenience when chaining Views and pure functions",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "f_",
           "normalized": "(a-\u003eb)-\u003eView a b",
@@ -408,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA view for the first element of a pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "fst_",
           "package": "views",
@@ -418,6 +451,7 @@
         "index": {
           "description": "view for the first element of pair",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "fst_",
           "normalized": "View(a,b)a",
@@ -433,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA view for the head of a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "head_",
           "package": "views",
@@ -443,6 +478,7 @@
         "index": {
           "description": "view for the head of list",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "head_",
           "normalized": "View[a]a",
@@ -458,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "id_",
           "package": "views",
@@ -468,6 +505,7 @@
         "index": {
           "description": "The identity view",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "id_",
           "package": "views",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to reinject the view into the whole\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "inject",
           "package": "views",
@@ -491,6 +530,7 @@
         "index": {
           "description": "Function to reinject the view into the whole",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "inject",
           "normalized": "a-\u003eb-\u003eb",
@@ -506,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ef \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e v\u003c/code\u003e expands \u003ccode\u003ef\u003c/code\u003e to act on the whole of v. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "on",
           "package": "views",
@@ -516,6 +557,7 @@
         "index": {
           "description": "on expands to act on the whole of",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "on",
           "normalized": "(a-\u003ea)-\u003eView a a-\u003ea-\u003ea",
@@ -531,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA view for the second element of a pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "snd_",
           "package": "views",
@@ -541,6 +584,7 @@
         "index": {
           "description": "view for the second element of pair",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "snd_",
           "normalized": "View(a,b)b",
@@ -556,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA view for the tail of a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:04 UTC 2014",
           "module": "Data.View",
           "name": "tail_",
           "package": "views",
@@ -566,6 +611,7 @@
         "index": {
           "description": "view for the tail of list",
           "hierarchy": "Data View",
+          "indexed": "2014-03-11T20:35:04",
           "module": "Data.View",
           "name": "tail_",
           "normalized": "View[a][a]",

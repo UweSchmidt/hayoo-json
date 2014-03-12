@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lambda-devs"
+        "phrase": "lambda-devs",
+        "type": "phrase"
       },
       "type": "context"
     }

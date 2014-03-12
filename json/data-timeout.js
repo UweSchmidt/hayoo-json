@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-timeout"
+        "phrase": "data-timeout",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Control.Concurrent.Timeout",
           "name": "Timeout",
           "package": "data-timeout",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Control.Concurrent.Timeout",
           "name": "Timeout",
           "package": "data-timeout",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003ethreadDelay\u003c/a\u003e\u003c/code\u003e that takes \u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e instead of number of\n   microseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Control.Concurrent.Timeout",
           "name": "threadDelay",
           "package": "data-timeout",
@@ -50,6 +53,7 @@
         "index": {
           "description": "version of threadDelay that takes Timeout instead of number of microseconds",
           "hierarchy": "Control Concurrent Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Control.Concurrent.Timeout",
           "name": "threadDelay",
           "normalized": "Timeout-\u003ea()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e that takes \u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e instead of number of\n   microseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Control.Concurrent.Timeout",
           "name": "timeout",
           "package": "data-timeout",
@@ -76,6 +81,7 @@
         "index": {
           "description": "version of timeout that takes Timeout instead of number of microseconds",
           "hierarchy": "Control Concurrent Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Control.Concurrent.Timeout",
           "name": "timeout",
           "normalized": "Timeout-\u003eIO a-\u003eb(Maybe a)",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "Timeout",
           "package": "data-timeout",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "Timeout",
           "package": "data-timeout",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException that is raised when an operation times out.\n   Not used by the package itself, it is here so that users don't need to\n   roll their own exception type every time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "TimedOut",
           "package": "data-timeout",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Exception that is raised when an operation times out Not used by the package itself it is here so that users don need to roll their own exception type every time",
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "TimedOut",
           "package": "data-timeout",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimeout in nanoseconds. The \u003ccode\u003e\u003ca\u003ePrintable\u003c/a\u003e\u003c/code\u003e instance renders timeouts as\n   series of \u003cem\u003eAmount\u003c/em\u003e\u003ccode\u003eUnit\u003c/code\u003e tokens, e.g.\n\u003c/p\u003e\u003cpre\u003e\n      \u003ccode\u003e\u003ca\u003etoString\u003c/a\u003e\u003c/code\u003e (\u003cem\u003e1\u003c/em\u003e # \u003ccode\u003e\u003ca\u003eDay\u003c/a\u003e\u003c/code\u003e + \u003cem\u003e1500\u003c/em\u003e # \u003ccode\u003e\u003ca\u003eMilliSecond\u003c/a\u003e\u003c/code\u003e) = \u003cem\u003e\"1d1s500ms\"\u003c/em\u003e\n\u003c/pre\u003e\u003cp\u003eThe full list of timeout unit abbreviations:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNanoSecond\u003c/a\u003e\u003c/code\u003e - \u003cem\u003ens\u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMicroSecond\u003c/a\u003e\u003c/code\u003e - \u003cem\u003eus\u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMilliSecond\u003c/a\u003e\u003c/code\u003e - \u003cem\u003ems\u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eSecond\u003c/a\u003e\u003c/code\u003e - \u003cem\u003es\u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMinute\u003c/a\u003e\u003c/code\u003e - \u003cem\u003em\u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHour\u003c/a\u003e\u003c/code\u003e - \u003cem\u003eh\u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eDay\u003c/a\u003e\u003c/code\u003e - \u003cem\u003ed\u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eWeek\u003c/a\u003e\u003c/code\u003e - \u003cem\u003ew\u003c/em\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eTextual\u003c/a\u003e\u003c/code\u003e instance accepts this syntax and allows decimal\n   fractions to be used as amounts:\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003etoString\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efromStringAs\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eaTimeout\u003c/a\u003e\u003c/code\u003e \u003cem\u003e\"1m1.5s0.2us\"\u003c/em\u003e) = \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003cem\u003e\"1m1s500ms200ns\"\u003c/em\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "Timeout",
           "package": "data-timeout",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Timeout in nanoseconds The Printable instance renders timeouts as series of Amount Unit tokens e.g toString Day MilliSecond d1s500ms The full list of timeout unit abbreviations NanoSecond ns MicroSecond us MilliSecond ms Second Minute Hour Day Week The Textual instance accepts this syntax and allows decimal fractions to be used as amounts fmap toString fromStringAs aTimeout m1.5s0.2us Just m1s500ms200ns",
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "Timeout",
           "package": "data-timeout",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimeout unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "TimeoutUnit",
           "package": "data-timeout",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Timeout unit",
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "TimeoutUnit",
           "package": "data-timeout",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the given number of timeout units to \u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "(#)",
           "package": "data-timeout",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Convert the given number of timeout units to Timeout",
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "(#) #",
           "normalized": "Word-\u003eTimeoutUnit-\u003eTimeout",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract number of units (rounding down).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "(#\u003c)",
           "package": "data-timeout",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Extract number of units rounding down",
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "(#\u003c) #\u003c",
           "normalized": "Timeout-\u003eTimeoutUnit-\u003eWord",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract number of units (rounding up).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "(#\u003e)",
           "package": "data-timeout",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Extract number of units rounding up",
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "(#\u003e) #\u003e",
           "normalized": "Timeout-\u003eTimeoutUnit-\u003eWord",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "Day",
           "package": "data-timeout",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "Day",
           "package": "data-timeout",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "Hour",
           "package": "data-timeout",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "Hour",
           "package": "data-timeout",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "MicroSecond",
           "package": "data-timeout",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "MicroSecond",
           "package": "data-timeout",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "MilliSecond",
           "package": "data-timeout",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "MilliSecond",
           "package": "data-timeout",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "Minute",
           "package": "data-timeout",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "Minute",
           "package": "data-timeout",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "NanoSecond",
           "package": "data-timeout",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "NanoSecond",
           "package": "data-timeout",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "Second",
           "package": "data-timeout",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "Second",
           "package": "data-timeout",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "TimedOut",
           "package": "data-timeout",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "TimedOut",
           "package": "data-timeout",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "Timeout",
           "package": "data-timeout",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "Timeout",
           "package": "data-timeout",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "Week",
           "package": "data-timeout",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "Week",
           "package": "data-timeout",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "aTimeout",
           "package": "data-timeout",
@@ -486,6 +527,7 @@
         "index": {
           "description": "Timeout proxy value",
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "aTimeout",
           "package": "data-timeout",
@@ -500,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTimeoutUnit\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "aTimeoutUnit",
           "package": "data-timeout",
@@ -510,6 +553,7 @@
         "index": {
           "description": "TimeoutUnit proxy value",
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "aTimeoutUnit",
           "package": "data-timeout",
@@ -524,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero timeout. The event in question should occur immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "instantly",
           "package": "data-timeout",
@@ -534,6 +579,7 @@
         "index": {
           "description": "Zero timeout The event in question should occur immediately",
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "instantly",
           "package": "data-timeout",
@@ -547,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmount of nanoseconds in a timeout unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:59 UTC 2014",
           "module": "Data.Timeout",
           "name": "timeoutUnitNanos",
           "package": "data-timeout",
@@ -557,6 +604,7 @@
         "index": {
           "description": "Amount of nanoseconds in timeout unit",
           "hierarchy": "Data Timeout",
+          "indexed": "2014-03-11T17:49:59",
           "module": "Data.Timeout",
           "name": "timeoutUnitNanos",
           "normalized": "TimeoutUnit-\u003eWord",

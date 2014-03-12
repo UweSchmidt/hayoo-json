@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-object"
+        "phrase": "data-object",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe core of this package is the \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e data type, which is used for\n handling scalars, sequences and mappings in a nested manner. This\n is the same structure used in JSON or Yaml data.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e data type is polymorphic in its keys and values. Submodules\n within this package provide more concrete datatypes, such as a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e and a specialized scalar type.\n\u003c/p\u003e\u003cp\u003eBesides the \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e data type, there are utility functions and type classes\n for converting objects around. Care has been taken to avoid any overloaded\n instances for these type classes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Object",
           "package": "data-object",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The core of this package is the Object data type which is used for handling scalars sequences and mappings in nested manner This is the same structure used in JSON or Yaml data The Object data type is polymorphic in its keys and values Submodules within this package provide more concrete datatypes such as String Object and specialized scalar type Besides the Object data type there are utility functions and type classes for converting objects around Care has been taken to avoid any overloaded instances for these type classes",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Object",
           "package": "data-object",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan represent nested values as scalars, sequences and mappings.  A\n sequence is synonymous with a list, while a mapping is synonymous with a\n list of pairs.\n\u003c/p\u003e\u003cp\u003eNote that instances of standard library type classes for this data type\n leave the key untouched while altering the value. For example, the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e\n instance defines \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e to be synonymous with \u003ccode\u003e\u003ca\u003emapValues\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Object",
           "package": "data-object",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Can represent nested values as scalars sequences and mappings sequence is synonymous with list while mapping is synonymous with list of pairs Note that instances of standard library type classes for this data type leave the key untouched while altering the value For example the Functor instance defines fmap to be synonymous with mapValues",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Object",
           "package": "data-object",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error value returned when an unexpected node is encountered, eg you\n were expecting a \u003ccode\u003e\u003ca\u003eScalar\u003c/a\u003e\u003c/code\u003e and found a \u003ccode\u003e\u003ca\u003eMapping\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "ObjectExtractError",
           "package": "data-object",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An error value returned when an unexpected node is encountered eg you were expecting Scalar and found Mapping",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "ObjectExtractError",
           "package": "data-object",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Scalar",
           "package": "data-object",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Scalar",
           "package": "data-object",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "ScalarObject",
           "package": "data-object",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "ScalarObject",
           "package": "data-object",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "StringObject",
           "package": "data-object",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "StringObject",
           "package": "data-object",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003es with keys and values of strict \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "TextObject",
           "package": "data-object",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Object with keys and values of strict Text",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "TextObject",
           "package": "data-object",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Binary",
           "package": "data-object",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Binary",
           "package": "data-object",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Bool",
           "package": "data-object",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Bool",
           "package": "data-object",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "ExpectedMapping",
           "package": "data-object",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "ExpectedMapping",
           "package": "data-object",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "ExpectedScalar",
           "package": "data-object",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "ExpectedScalar",
           "package": "data-object",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "ExpectedSequence",
           "package": "data-object",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "ExpectedSequence",
           "package": "data-object",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Mapping",
           "package": "data-object",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Mapping",
           "normalized": "Mapping[(a,Object a b)]",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "MissingKey",
           "package": "data-object",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "MissingKey",
           "package": "data-object",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Null",
           "package": "data-object",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Null",
           "package": "data-object",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Numeric",
           "package": "data-object",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Numeric",
           "package": "data-object",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Scalar",
           "package": "data-object",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Scalar",
           "package": "data-object",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Sequence",
           "package": "data-object",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Sequence",
           "normalized": "Sequence[Object a b]",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Text",
           "package": "data-object",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Text",
           "package": "data-object",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "Timestamp",
           "package": "data-object",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "Timestamp",
           "package": "data-object",
@@ -464,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a mapping from the input, failing if the input is a scalar or\n sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "fromMapping",
           "package": "data-object",
@@ -474,6 +515,7 @@
         "index": {
           "description": "Extract mapping from the input failing if the input is scalar or sequence",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "fromMapping",
           "normalized": "Object a b-\u003ec[(a,Object a b)]",
@@ -490,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a scalar from the input, failing if the input is a sequence or\n mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "fromScalar",
           "package": "data-object",
@@ -500,6 +543,7 @@
         "index": {
           "description": "Extract scalar from the input failing if the input is sequence or mapping",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "fromScalar",
           "normalized": "Object a b-\u003ec b",
@@ -516,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a sequence from the input, failing if the input is a scalar or\n mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "fromSequence",
           "package": "data-object",
@@ -526,6 +571,7 @@
         "index": {
           "description": "Extract sequence from the input failing if the input is scalar or mapping",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "fromSequence",
           "normalized": "Object a b-\u003ec[Object a b]",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "lookupMapping",
           "package": "data-object",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "lookupMapping",
           "normalized": "a-\u003e[(a,Object a b)]-\u003ec[(a,Object a b)]",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "lookupObject",
           "package": "data-object",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "lookupObject",
           "normalized": "a-\u003e[(a,Object a b)]-\u003ec(Object a b)",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "lookupScalar",
           "package": "data-object",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "lookupScalar",
           "normalized": "a-\u003e[(a,Object a b)]-\u003ec b",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "lookupSequence",
           "package": "data-object",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "lookupSequence",
           "normalized": "a-\u003e[(a,Object a b)]-\u003ec[Object a b]",
@@ -638,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply some conversion to the keys of an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e, leaving the values\n unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "mapKeys",
           "package": "data-object",
@@ -648,6 +703,7 @@
         "index": {
           "description": "Apply some conversion to the keys of an Object leaving the values unchanged",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "mapKeys",
           "normalized": "(a-\u003eb)-\u003eObject a c-\u003eObject b c",
@@ -664,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a conversion to both the keys and values of an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "mapKeysValues",
           "package": "data-object",
@@ -674,6 +731,7 @@
         "index": {
           "description": "Apply conversion to both the keys and values of an Object",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "mapKeysValues",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eObject a c-\u003eObject b d",
@@ -690,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e conversion to both the keys and values of an\n \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "mapKeysValuesA",
           "package": "data-object",
@@ -700,6 +759,7 @@
         "index": {
           "description": "Apply an Applicative conversion to both the keys and values of an Object",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "mapKeysValuesA",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003eObject a d-\u003eb(Object c e)",
@@ -716,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003emapKeysValuesA\u003c/a\u003e\u003c/code\u003e, but using a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e since some people are\n more comfortable with \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003es and not all \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003es are \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "mapKeysValuesM",
           "package": "data-object",
@@ -726,6 +787,7 @@
         "index": {
           "description": "The same as mapKeysValuesA but using Monad since some people are more comfortable with Monad and not all Monad are Applicative",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "mapKeysValuesM",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003eObject a d-\u003eb(Object c e)",
@@ -742,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply some conversion to the values of an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e, leaving the keys\n unchanged. This is equivalent to \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:14 UTC 2014",
           "module": "Data.Object",
           "name": "mapValues",
           "package": "data-object",
@@ -752,6 +815,7 @@
         "index": {
           "description": "Apply some conversion to the values of an Object leaving the keys unchanged This is equivalent to fmap",
           "hierarchy": "Data Object",
+          "indexed": "2014-03-11T17:49:14",
           "module": "Data.Object",
           "name": "mapValues",
           "normalized": "(a-\u003eb)-\u003eObject c a-\u003eObject c b",

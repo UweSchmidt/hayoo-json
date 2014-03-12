@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "testrunner"
+        "phrase": "testrunner",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTest.Runner.Backends contains the types and functions that make it possible\n   to run tests constructed with different test packages with the same driver\n   framework from Test.Runner.Driver.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Backends",
           "name": "Backends",
           "package": "testrunner",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Test.Runner.Backends contains the types and functions that make it possible to run tests constructed with different test packages with the same driver framework from Test.Runner.Driver",
           "hierarchy": "Test Runner Backends",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Backends",
           "name": "Backends",
           "package": "testrunner",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRunWithQuickCheck\u003c/a\u003e\u003c/code\u003e turns a QuickCheck test into something that can be run\n   with testrunner. This type-level indirection is necessary to please the\n   type checker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Backends",
           "name": "RunWithQuickCheck",
           "package": "testrunner",
@@ -51,6 +54,7 @@
         "index": {
           "description": "RunWithQuickCheck turns QuickCheck test into something that can be run with testrunner This type-level indirection is necessary to please the type checker",
           "hierarchy": "Test Runner Backends",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Backends",
           "name": "RunWithQuickCheck",
           "package": "testrunner",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of all types that testrunner can treat as a test. The method\n   \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e should return \u003ccode\u003eNothing\u003c/code\u003e if the test succeeds, or \u003ccode\u003eJust s\u003c/code\u003e if the test\n   fails, where \u003ccode\u003es\u003c/code\u003e is a human-readable description of the failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Backends",
           "name": "RunnableTest",
           "package": "testrunner",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The class of all types that testrunner can treat as test The method run should return Nothing if the test succeeds or Just if the test fails where is human-readable description of the failure",
           "hierarchy": "Test Runner Backends",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Backends",
           "name": "RunnableTest",
           "package": "testrunner",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA TestRunnerTest is a data type that hides the actual type of the test -\n   QuickCheck, plain IO action, or any other RunnableTest. This is required to\n   be able to put tests of different types in a single list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Backends",
           "name": "TestRunnerTest",
           "package": "testrunner",
@@ -97,6 +104,7 @@
         "index": {
           "description": "TestRunnerTest is data type that hides the actual type of the test QuickCheck plain IO action or any other RunnableTest This is required to be able to put tests of different types in single list",
           "hierarchy": "Test Runner Backends",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Backends",
           "name": "TestRunnerTest",
           "package": "testrunner",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Backends",
           "name": "RunWithQuickCheck",
           "package": "testrunner",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Test Runner Backends",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Backends",
           "name": "RunWithQuickCheck",
           "normalized": "a-\u003eRunWithQuickCheck",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Backends",
           "name": "TestRunnerTest",
           "package": "testrunner",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Test Runner Backends",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Backends",
           "name": "TestRunnerTest",
           "normalized": "a-\u003eTestRunnerTest",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Backends",
           "name": "run",
           "package": "testrunner",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Test Runner Backends",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Backends",
           "name": "run",
           "normalized": "a-\u003eIO(Maybe String)",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erunWithArgs\u003c/a\u003e\u003c/code\u003e runs the test with specified QuickCheck arguments. For\n   all non-QuickCheck tests, this defaults to just \u003ccode\u003erun\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Backends",
           "name": "runWithArgs",
           "package": "testrunner",
@@ -192,6 +207,7 @@
         "index": {
           "description": "runWithArgs runs the test with specified QuickCheck arguments For all non-QuickCheck tests this defaults to just run",
           "hierarchy": "Test Runner Backends",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Backends",
           "name": "runWithArgs",
           "normalized": "Args-\u003ea-\u003eIO(Maybe String)",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function to go from something testable by QuickCheck to a\n   \u003ccode\u003eTestRunnerTest\u003c/code\u003e in one step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Backends",
           "name": "runWithQuickCheck",
           "package": "testrunner",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Convenience function to go from something testable by QuickCheck to TestRunnerTest in one step",
           "hierarchy": "Test Runner Backends",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Backends",
           "name": "runWithQuickCheck",
           "normalized": "a-\u003eTestRunnerTest",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTest.Runner.Driver contains the functions that determine which tests are\n   run, with which parameters and by how many threads.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Driver",
           "name": "Driver",
           "package": "testrunner",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Test.Runner.Driver contains the functions that determine which tests are run with which parameters and by how many threads",
           "hierarchy": "Test Runner Driver",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Driver",
           "name": "Driver",
           "package": "testrunner",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of the test runner mentions how many tests passed, and the names\n   and failure messages of the tests that failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Driver",
           "name": "Result",
           "package": "testrunner",
@@ -266,6 +287,7 @@
         "index": {
           "description": "The result of the test runner mentions how many tests passed and the names and failure messages of the tests that failed",
           "hierarchy": "Test Runner Driver",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Driver",
           "name": "Result",
           "package": "testrunner",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Driver",
           "name": "Result",
           "package": "testrunner",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Test Runner Driver",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Driver",
           "name": "Result",
           "package": "testrunner",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Driver",
           "name": "failures",
           "package": "testrunner",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Test Runner Driver",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Driver",
           "name": "failures",
           "normalized": "[(String,String)]",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Driver",
           "name": "numPassed",
           "package": "testrunner",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Test Runner Driver",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Driver",
           "name": "numPassed",
           "package": "testrunner",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a list of named tests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Driver",
           "name": "runTests",
           "package": "testrunner",
@@ -357,6 +386,7 @@
         "index": {
           "description": "Run list of named tests",
           "hierarchy": "Test Runner Driver",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Driver",
           "name": "runTests",
           "normalized": "[(String,TestRunnerTest)]-\u003eIO Result",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses multiple threads to run a set of unit tests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Driver",
           "name": "runTestsParallel",
           "package": "testrunner",
@@ -382,6 +413,7 @@
         "index": {
           "description": "Uses multiple threads to run set of unit tests",
           "hierarchy": "Test Runner Driver",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Driver",
           "name": "runTestsParallel",
           "normalized": "Int-\u003e[(String,TestRunnerTest)]-\u003eIO Result",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse multiple threads to run a set of unit tests, and run the QuickCheck\n   tests with the given QuickCheck \u003ccode\u003eArgs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Driver",
           "name": "runTestsParallelWithArgs",
           "package": "testrunner",
@@ -407,6 +440,7 @@
         "index": {
           "description": "Use multiple threads to run set of unit tests and run the QuickCheck tests with the given QuickCheck Args",
           "hierarchy": "Test Runner Driver",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Driver",
           "name": "runTestsParallelWithArgs",
           "normalized": "Int-\u003eArgs-\u003e[(String,TestRunnerTest)]-\u003eIO Result",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a list of named tests, using the given QuickCheck \u003ccode\u003eArgs\u003c/code\u003e for the\n   QuickCHeck tests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Driver",
           "name": "runTestsWithArgs",
           "package": "testrunner",
@@ -433,6 +468,7 @@
         "index": {
           "description": "Run list of named tests using the given QuickCheck Args for the QuickCHeck tests",
           "hierarchy": "Test Runner Driver",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Driver",
           "name": "runTestsWithArgs",
           "normalized": "Args-\u003e[(String,TestRunnerTest)]-\u003eIO Result",
@@ -449,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTest.Runner.Frontend contains the code for the prefabricated unit test\n   executable, like command-line argument parsing and handling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Frontend",
           "name": "Frontend",
           "package": "testrunner",
@@ -458,6 +495,7 @@
         "index": {
           "description": "Test.Runner.Frontend contains the code for the prefabricated unit test executable like command-line argument parsing and handling",
           "hierarchy": "Test Runner Frontend",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Frontend",
           "name": "Frontend",
           "package": "testrunner",
@@ -472,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etestRunnerMain is intended to be used as the main function of a unit test\n   program. It takes as an argument the complete list of unit tests for a\n   package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner.Frontend",
           "name": "testRunnerMain",
           "package": "testrunner",
@@ -482,6 +521,7 @@
         "index": {
           "description": "testRunnerMain is intended to be used as the main function of unit test program It takes as an argument the complete list of unit tests for package",
           "hierarchy": "Test Runner Frontend",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner.Frontend",
           "name": "testRunnerMain",
           "normalized": "[(String,TestRunnerTest)]-\u003eIO()",
@@ -497,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:59 UTC 2014",
           "module": "Test.Runner",
           "name": "Runner",
           "package": "testrunner",
@@ -505,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Test Runner",
+          "indexed": "2014-03-11T20:19:59",
           "module": "Test.Runner",
           "name": "Runner",
           "package": "testrunner",

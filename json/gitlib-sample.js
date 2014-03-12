@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gitlib-sample"
+        "phrase": "gitlib-sample",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:42 UTC 2014",
           "module": "Git.Sample",
           "name": "Sample",
           "package": "gitlib-sample",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Git Sample",
+          "indexed": "2014-03-11T18:17:42",
           "module": "Git.Sample",
           "name": "Sample",
           "package": "gitlib-sample",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:42 UTC 2014",
           "module": "Git.Sample",
           "name": "SampleRepository",
           "package": "gitlib-sample",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Git Sample",
+          "indexed": "2014-03-11T18:17:42",
           "module": "Git.Sample",
           "name": "SampleRepository",
           "package": "gitlib-sample",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:42 UTC 2014",
           "module": "Git.Sample",
           "name": "SampleRepository",
           "package": "gitlib-sample",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Git Sample",
+          "indexed": "2014-03-11T18:17:42",
           "module": "Git.Sample",
           "name": "SampleRepository",
           "package": "gitlib-sample",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:42 UTC 2014",
           "module": "Git.Sample",
           "name": "sampleFactory",
           "package": "gitlib-sample",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Git Sample",
+          "indexed": "2014-03-11T18:17:42",
           "module": "Git.Sample",
           "name": "sampleFactory",
           "package": "gitlib-sample",

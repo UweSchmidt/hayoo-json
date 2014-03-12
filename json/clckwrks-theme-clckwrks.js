@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clckwrks-theme-clckwrks"
+        "phrase": "clckwrks-theme-clckwrks",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "Paths_clckwrks_theme_clckwrks",
           "package": "clckwrks-theme-clckwrks",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_theme_clckwrks",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "Paths_clckwrks_theme_clckwrks",
           "package": "clckwrks-theme-clckwrks",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "getBinDir",
           "package": "clckwrks-theme-clckwrks",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_theme_clckwrks",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "getBinDir",
           "package": "clckwrks-theme-clckwrks",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "getDataDir",
           "package": "clckwrks-theme-clckwrks",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_theme_clckwrks",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "getDataDir",
           "package": "clckwrks-theme-clckwrks",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "getDataFileName",
           "package": "clckwrks-theme-clckwrks",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_theme_clckwrks",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "getDataFileName",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "getLibDir",
           "package": "clckwrks-theme-clckwrks",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_theme_clckwrks",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "getLibDir",
           "package": "clckwrks-theme-clckwrks",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "getLibexecDir",
           "package": "clckwrks-theme-clckwrks",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_theme_clckwrks",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "getLibexecDir",
           "package": "clckwrks-theme-clckwrks",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "version",
           "package": "clckwrks-theme-clckwrks",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_theme_clckwrks",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Paths_clckwrks_theme_clckwrks",
           "name": "version",
           "package": "clckwrks-theme-clckwrks",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Theme",
           "name": "Theme",
           "package": "clckwrks-theme-clckwrks",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Theme",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Theme",
           "name": "Theme",
           "package": "clckwrks-theme-clckwrks",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Theme",
           "name": "genNavBar",
           "package": "clckwrks-theme-clckwrks",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Theme",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Theme",
           "name": "genNavBar",
           "package": "clckwrks-theme-clckwrks",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Theme",
           "name": "mkNavBarItem",
           "package": "clckwrks-theme-clckwrks",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Theme",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Theme",
           "name": "mkNavBarItem",
           "normalized": "NavBarItem-\u003eGenXML(Clck ClckURL)",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Theme",
           "name": "navBarHTML",
           "package": "clckwrks-theme-clckwrks",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Theme",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Theme",
           "name": "navBarHTML",
           "normalized": "NavBar-\u003eGenXML(Clck ClckURL)",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Theme",
           "name": "standardStyle",
           "package": "clckwrks-theme-clckwrks",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Theme",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Theme",
           "name": "standardStyle",
           "package": "clckwrks-theme-clckwrks",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Theme",
           "name": "standardTemplate",
           "package": "clckwrks-theme-clckwrks",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Theme",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Theme",
           "name": "standardTemplate",
           "normalized": "Text-\u003ea-\u003eb-\u003eXMLGenT(ClckT ClckURL(ServerPartT IO))XML",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:08 UTC 2014",
           "module": "Theme",
           "name": "theme",
           "package": "clckwrks-theme-clckwrks",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Theme",
+          "indexed": "2014-03-11T17:34:08",
           "module": "Theme",
           "name": "theme",
           "package": "clckwrks-theme-clckwrks",

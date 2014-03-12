@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "opentheory-prime"
+        "phrase": "opentheory-prime",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:29 UTC 2014",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "Sieve",
           "package": "opentheory-prime",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Number Natural Prime Sieve",
+          "indexed": "2014-03-11T19:32:29",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "Sieve",
           "package": "opentheory-prime",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:29 UTC 2014",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "Sieve",
           "package": "opentheory-prime",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Number Natural Prime Sieve",
+          "indexed": "2014-03-11T19:32:29",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "Sieve",
           "package": "opentheory-prime",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:29 UTC 2014",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "Sieve",
           "package": "opentheory-prime",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Number Natural Prime Sieve",
+          "indexed": "2014-03-11T19:32:29",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "Sieve",
           "package": "opentheory-prime",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:29 UTC 2014",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "increment",
           "package": "opentheory-prime",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Number Natural Prime Sieve",
+          "indexed": "2014-03-11T19:32:29",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "increment",
           "normalized": "Sieve-\u003e(Bool,Sieve)",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:29 UTC 2014",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "initial",
           "package": "opentheory-prime",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Number Natural Prime Sieve",
+          "indexed": "2014-03-11T19:32:29",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "initial",
           "package": "opentheory-prime",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:29 UTC 2014",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "next",
           "package": "opentheory-prime",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Number Natural Prime Sieve",
+          "indexed": "2014-03-11T19:32:29",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "next",
           "normalized": "Sieve-\u003e(Natural,Sieve)",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:29 UTC 2014",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "perimeter",
           "package": "opentheory-prime",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Number Natural Prime Sieve",
+          "indexed": "2014-03-11T19:32:29",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "perimeter",
           "normalized": "Sieve-\u003eNatural",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:29 UTC 2014",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "unSieve",
           "package": "opentheory-prime",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Number Natural Prime Sieve",
+          "indexed": "2014-03-11T19:32:29",
           "module": "OpenTheory.Number.Natural.Prime.Sieve",
           "name": "unSieve",
           "normalized": "(Natural,[(Natural,(Natural,Natural))])",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:29 UTC 2014",
           "module": "OpenTheory.Number.Natural.Prime",
           "name": "Prime",
           "package": "opentheory-prime",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Number Natural Prime",
+          "indexed": "2014-03-11T19:32:29",
           "module": "OpenTheory.Number.Natural.Prime",
           "name": "Prime",
           "package": "opentheory-prime",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:29 UTC 2014",
           "module": "OpenTheory.Number.Natural.Prime",
           "name": "all",
           "package": "opentheory-prime",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Number Natural Prime",
+          "indexed": "2014-03-11T19:32:29",
           "module": "OpenTheory.Number.Natural.Prime",
           "name": "all",
           "normalized": "[Natural]",

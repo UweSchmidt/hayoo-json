@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fast-tags"
+        "phrase": "fast-tags",
+        "type": "phrase"
       },
       "type": "context"
     }

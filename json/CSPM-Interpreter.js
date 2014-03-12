@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CSPM-Interpreter"
+        "phrase": "CSPM-Interpreter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions dealing with closure sets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "ClosureSet",
           "package": "CSPM-Interpreter",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Utility functions dealing with closure sets",
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "ClosureSet",
           "package": "CSPM-Interpreter",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "closureStateNext",
           "package": "CSPM-Interpreter",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "closureStateNext",
           "normalized": "ClosureState-\u003eField-\u003eClosureState",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "closureToSet",
           "package": "CSPM-Interpreter",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "closureToSet",
           "normalized": "ClosureSet-\u003eSet Value",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "fieldsToPT",
           "package": "CSPM-Interpreter",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "fieldsToPT",
           "normalized": "[Value]-\u003e[FieldSet]-\u003ePrefixTrie",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "hackValueToEvent",
           "package": "CSPM-Interpreter",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "hackValueToEvent",
           "normalized": "Value-\u003eEvent",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "memberPrefixTrie",
           "package": "CSPM-Interpreter",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "memberPrefixTrie",
           "normalized": "[Field]-\u003ePrefixTrie-\u003eBool",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "mkClosureSet",
           "package": "CSPM-Interpreter",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "mkClosureSet",
           "normalized": "PrefixTrie-\u003eClosureSet",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "mkEventClosure",
           "package": "CSPM-Interpreter",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "mkEventClosure",
           "normalized": "[Value]-\u003eEM ClosureSet",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "prefixTrieNext",
           "package": "CSPM-Interpreter",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "prefixTrieNext",
           "normalized": "PrefixTrie-\u003eField-\u003eMaybe PrefixTrie",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "prefixTrieToSet",
           "package": "CSPM-Interpreter",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "prefixTrieToSet",
           "normalized": "PrefixTrie-\u003eSet Value",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "ptUnions",
           "package": "CSPM-Interpreter",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "ptUnions",
           "normalized": "[PrefixTrie]-\u003ePrefixTrie",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "setToClosure",
           "package": "CSPM-Interpreter",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "setToClosure",
           "normalized": "Set Value-\u003eClosureSet",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "setToPrefixTrie",
           "package": "CSPM-Interpreter",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "setToPrefixTrie",
           "normalized": "Set Value-\u003ePrefixTrie",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "singleEventToClosureSet",
           "package": "CSPM-Interpreter",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "singleEventToClosureSet",
           "normalized": "Event-\u003eClosureSet",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "valueToPT",
           "package": "CSPM-Interpreter",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter ClosureSet",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.ClosureSet",
           "name": "valueToPT",
           "normalized": "Value-\u003ePrefixTrie",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines some class instances that make the interpreter\n an implementation of the interface defined in package CSPM-CoreLanguage.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.CoreInstances",
           "name": "CoreInstances",
           "package": "CSPM-Interpreter",
@@ -387,6 +418,7 @@
         "index": {
           "description": "This module defines some class instances that make the interpreter an implementation of the interface defined in package CSPM-CoreLanguage",
           "hierarchy": "CSPM Interpreter CoreInstances",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.CoreInstances",
           "name": "CoreInstances",
           "package": "CSPM-Interpreter",
@@ -401,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main eval function of the Interpreter.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Eval",
           "name": "Eval",
           "package": "CSPM-Interpreter",
@@ -410,6 +443,7 @@
         "index": {
           "description": "The main eval function of the Interpreter",
           "hierarchy": "CSPM Interpreter Eval",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Eval",
           "name": "Eval",
           "package": "CSPM-Interpreter",
@@ -424,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an expression in the \u003ccode\u003e\u003ca\u003eEM\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Eval",
           "name": "eval",
           "package": "CSPM-Interpreter",
@@ -434,6 +469,7 @@
         "index": {
           "description": "Evaluate an expression in the EM monad",
           "hierarchy": "CSPM Interpreter Eval",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Eval",
           "name": "eval",
           "normalized": "LExp-\u003eEM Value",
@@ -448,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Eval",
           "name": "evalBool",
           "package": "CSPM-Interpreter",
@@ -457,6 +494,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Eval",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Eval",
           "name": "evalBool",
           "normalized": "LExp-\u003eEM Bool",
@@ -472,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Eval",
           "name": "evalFieldSet",
           "package": "CSPM-Interpreter",
@@ -481,6 +520,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Eval",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Eval",
           "name": "evalFieldSet",
           "normalized": "LExp-\u003eEM FieldSet",
@@ -497,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a module and return the top-level envirionment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Eval",
           "name": "evalModule",
           "package": "CSPM-Interpreter",
@@ -507,6 +548,7 @@
         "index": {
           "description": "Process module and return the top-level envirionment",
           "hierarchy": "CSPM Interpreter Eval",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Eval",
           "name": "evalModule",
           "normalized": "Module INT-\u003eEnv",
@@ -522,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Eval",
           "name": "evalOutField",
           "package": "CSPM-Interpreter",
@@ -531,6 +574,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Eval",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Eval",
           "name": "evalOutField",
           "normalized": "LExp-\u003eEM Field",
@@ -546,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Eval",
           "name": "evalProcess",
           "package": "CSPM-Interpreter",
@@ -555,6 +600,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Eval",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Eval",
           "name": "evalProcess",
           "normalized": "LExp-\u003eEM Process",
@@ -596,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the \u003ccode\u003e\u003ca\u003eEM\u003c/a\u003e\u003c/code\u003e monad with a given envirionment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Eval",
           "name": "runEM",
           "package": "CSPM-Interpreter",
@@ -606,6 +653,7 @@
         "index": {
           "description": "Run the EM monad with given envirionment",
           "hierarchy": "CSPM Interpreter Eval",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Eval",
           "name": "runEM",
           "normalized": "EM a-\u003eEnv-\u003ea",
@@ -622,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInstances of the Hash class for interpreter types and core language types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Hash",
           "name": "Hash",
           "package": "CSPM-Interpreter",
@@ -631,6 +680,7 @@
         "index": {
           "description": "Instances of the Hash class for interpreter types and core language types",
           "hierarchy": "CSPM Interpreter Hash",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Hash",
           "name": "Hash",
           "package": "CSPM-Interpreter",
@@ -644,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Hash",
           "name": "Hash",
           "package": "CSPM-Interpreter",
@@ -652,6 +703,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Hash",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Hash",
           "name": "Hash",
           "package": "CSPM-Interpreter",
@@ -665,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Hash",
           "name": "MD5Digest",
           "package": "CSPM-Interpreter",
@@ -673,6 +726,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Hash",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Hash",
           "name": "MD5Digest",
           "package": "CSPM-Interpreter",
@@ -686,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Hash",
           "name": "MD5Digest",
           "package": "CSPM-Interpreter",
@@ -695,6 +750,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Hash",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Hash",
           "name": "MD5Digest",
           "package": "CSPM-Interpreter",
@@ -708,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Hash",
           "name": "closureDigest",
           "package": "CSPM-Interpreter",
@@ -717,6 +774,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Hash",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Hash",
           "name": "closureDigest",
           "normalized": "LExp-\u003eEnv-\u003eFreeNames-\u003eDigest",
@@ -732,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Hash",
           "name": "hash",
           "package": "CSPM-Interpreter",
@@ -741,6 +800,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Hash",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Hash",
           "name": "hash",
           "normalized": "a-\u003eMD Digest",
@@ -755,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Hash",
           "name": "hs",
           "package": "CSPM-Interpreter",
@@ -764,6 +825,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Hash",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Hash",
           "name": "hs",
           "normalized": "String-\u003eDigest",
@@ -778,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Hash",
           "name": "mix",
           "package": "CSPM-Interpreter",
@@ -787,6 +850,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Hash",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Hash",
           "name": "mix",
           "normalized": "MD Digest-\u003eMD Digest-\u003eMD Digest",
@@ -801,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Hash",
           "name": "mix3",
           "package": "CSPM-Interpreter",
@@ -810,6 +875,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Hash",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Hash",
           "name": "mix3",
           "normalized": "MD Digest-\u003eMD Digest-\u003eMD Digest-\u003eMD Digest",
@@ -824,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Hash",
           "name": "mixInt",
           "package": "CSPM-Interpreter",
@@ -833,6 +900,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Hash",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Hash",
           "name": "mixInt",
           "normalized": "MD Digest-\u003eInt-\u003eMD Digest",
@@ -849,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pretty-printer for values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Pretty",
           "name": "Pretty",
           "package": "CSPM-Interpreter",
@@ -858,6 +927,7 @@
         "index": {
           "description": "pretty-printer for values",
           "hierarchy": "CSPM Interpreter Pretty",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Pretty",
           "name": "Pretty",
           "package": "CSPM-Interpreter",
@@ -872,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is mainly useful for testing the functional sub language.\n This module does not allow tracing of processes\n (tracing is implemented in an other package).\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003erunFile\u003c/a\u003e\u003c/code\u003e loads a CSPM-specification from a file and evaluates an expression in\n the context of that specification.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003erunFile\u003c/a\u003e\u003c/code\u003e fib.csp fib(10)\n\u003c/p\u003e\u003cp\u003ewhere the file fib.csp contains:\n    fib(x)= if x \u003c2 then 1 else fib(x-1)+fib(x-2)\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003erunFile\u003c/a\u003e\u003c/code\u003e writes to \u003ccode\u003estdout\u003c/code\u003e and handles some exceptions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Test.CLI",
           "name": "CLI",
           "package": "CSPM-Interpreter",
@@ -881,6 +952,7 @@
         "index": {
           "description": "This is mainly useful for testing the functional sub language This module does not allow tracing of processes tracing is implemented in an other package runFile loads CSPM-specification from file and evaluates an expression in the context of that specification Example runFile fib.csp fib where the file fib.csp contains fib if then else fib x-1 fib x-2 runFile writes to stdout and handles some exceptions",
           "hierarchy": "CSPM Interpreter Test CLI",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Test.CLI",
           "name": "CLI",
           "package": "CSPM-Interpreter",
@@ -973,6 +1045,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinitions of most of the types used in the interpreter.\n Also Instance declarations for the core language type families.\n \u003ccode\u003e\u003ca\u003eINT\u003c/a\u003e\u003c/code\u003e is the type (index) for the CSPM interpreter.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Types",
           "package": "CSPM-Interpreter",
@@ -982,6 +1055,7 @@
         "index": {
           "description": "Definitions of most of the types used in the interpreter Also Instance declarations for the core language type families INT is the type index for the CSPM interpreter",
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Types",
           "package": "CSPM-Interpreter",
@@ -995,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Bindings",
           "package": "CSPM-Interpreter",
@@ -1003,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Bindings",
           "package": "CSPM-Interpreter",
@@ -1016,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Channel",
           "package": "CSPM-Interpreter",
@@ -1024,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Channel",
           "package": "CSPM-Interpreter",
@@ -1037,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureSet",
           "package": "CSPM-Interpreter",
@@ -1045,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureSet",
           "package": "CSPM-Interpreter",
@@ -1058,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureState",
           "package": "CSPM-Interpreter",
@@ -1066,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureState",
           "package": "CSPM-Interpreter",
@@ -1079,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Constructor",
           "package": "CSPM-Interpreter",
@@ -1087,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Constructor",
           "package": "CSPM-Interpreter",
@@ -1100,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Digest",
           "package": "CSPM-Interpreter",
@@ -1108,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Digest",
           "package": "CSPM-Interpreter",
@@ -1121,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "EM",
           "package": "CSPM-Interpreter",
@@ -1129,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "EM",
           "package": "CSPM-Interpreter",
@@ -1142,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Env",
           "package": "CSPM-Interpreter",
@@ -1150,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Env",
           "package": "CSPM-Interpreter",
@@ -1163,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Eval",
           "package": "CSPM-Interpreter",
@@ -1171,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Eval",
           "package": "CSPM-Interpreter",
@@ -1184,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Event",
           "package": "CSPM-Interpreter",
@@ -1192,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Event",
           "package": "CSPM-Interpreter",
@@ -1205,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Field",
           "package": "CSPM-Interpreter",
@@ -1213,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Field",
           "package": "CSPM-Interpreter",
@@ -1226,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "FieldSet",
           "package": "CSPM-Interpreter",
@@ -1234,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "FieldSet",
           "package": "CSPM-Interpreter",
@@ -1247,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "FunClosure",
           "package": "CSPM-Interpreter",
@@ -1255,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "FunClosure",
           "package": "CSPM-Interpreter",
@@ -1268,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "GenericBufferPrefix",
           "package": "CSPM-Interpreter",
@@ -1276,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "GenericBufferPrefix",
           "package": "CSPM-Interpreter",
@@ -1289,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "INT",
           "package": "CSPM-Interpreter",
@@ -1297,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "INT",
           "package": "CSPM-Interpreter",
@@ -1310,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "InterpreterError",
           "package": "CSPM-Interpreter",
@@ -1318,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "InterpreterError",
           "package": "CSPM-Interpreter",
@@ -1331,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "PrefixState",
           "package": "CSPM-Interpreter",
@@ -1339,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "PrefixState",
           "package": "CSPM-Interpreter",
@@ -1352,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "PrefixTrie",
           "package": "CSPM-Interpreter",
@@ -1360,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "PrefixTrie",
           "package": "CSPM-Interpreter",
@@ -1373,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Process",
           "package": "CSPM-Interpreter",
@@ -1381,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Process",
           "package": "CSPM-Interpreter",
@@ -1394,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "RenamingRelation",
           "package": "CSPM-Interpreter",
@@ -1402,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "RenamingRelation",
           "package": "CSPM-Interpreter",
@@ -1415,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Sigma",
           "package": "CSPM-Interpreter",
@@ -1423,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Sigma",
           "package": "CSPM-Interpreter",
@@ -1436,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "SwitchedOffProc",
           "package": "CSPM-Interpreter",
@@ -1444,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "SwitchedOffProc",
           "package": "CSPM-Interpreter",
@@ -1457,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Value",
           "package": "CSPM-Interpreter",
@@ -1465,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Value",
           "package": "CSPM-Interpreter",
@@ -1478,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Channel",
           "package": "CSPM-Interpreter",
@@ -1487,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Channel",
           "package": "CSPM-Interpreter",
@@ -1500,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureSet",
           "package": "CSPM-Interpreter",
@@ -1509,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureSet",
           "package": "CSPM-Interpreter",
@@ -1522,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureStateFailed",
           "package": "CSPM-Interpreter",
@@ -1531,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureStateFailed",
           "package": "CSPM-Interpreter",
@@ -1544,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureStateNormal",
           "package": "CSPM-Interpreter",
@@ -1553,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureStateNormal",
           "package": "CSPM-Interpreter",
@@ -1566,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureStateSucc",
           "package": "CSPM-Interpreter",
@@ -1575,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "ClosureStateSucc",
           "package": "CSPM-Interpreter",
@@ -1588,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Constructor",
           "package": "CSPM-Interpreter",
@@ -1597,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Constructor",
           "package": "CSPM-Interpreter",
@@ -1610,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "EM",
           "package": "CSPM-Interpreter",
@@ -1619,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "EM",
           "package": "CSPM-Interpreter",
@@ -1632,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "Env",
           "package": "CSPM-Interpreter",
@@ -1641,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "Env",
           "package": "CSPM-Interpreter",
@@ -1654,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "FeatureNotImplemented",
           "package": "CSPM-Interpreter",
@@ -1663,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "FeatureNotImplemented",
           "package": "CSPM-Interpreter",
@@ -1676,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "FunClosure",
           "package": "CSPM-Interpreter",
@@ -1685,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "FunClosure",
           "package": "CSPM-Interpreter",
@@ -1698,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "GBFinished",
           "package": "CSPM-Interpreter",
@@ -1707,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "GBFinished",
           "package": "CSPM-Interpreter",
@@ -1720,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "GBInput",
           "package": "CSPM-Interpreter",
@@ -1729,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "GBInput",
           "package": "CSPM-Interpreter",
@@ -1742,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "GBInputGeneric",
           "package": "CSPM-Interpreter",
@@ -1751,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "GBInputGeneric",
           "normalized": "GBInputGeneric[Value]PrefixState",
@@ -1766,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "GBInputGuard",
           "package": "CSPM-Interpreter",
@@ -1775,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "GBInputGuard",
           "package": "CSPM-Interpreter",
@@ -1788,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "GBOut",
           "package": "CSPM-Interpreter",
@@ -1797,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "GBOut",
           "normalized": "GBOut[Value]PrefixState",
@@ -1812,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "InternalError",
           "package": "CSPM-Interpreter",
@@ -1821,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "InternalError",
           "package": "CSPM-Interpreter",
@@ -1834,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "PTAny",
           "package": "CSPM-Interpreter",
@@ -1843,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "PTAny",
           "package": "CSPM-Interpreter",
@@ -1856,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "PTClosure",
           "package": "CSPM-Interpreter",
@@ -1865,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "PTClosure",
           "package": "CSPM-Interpreter",
@@ -1878,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "PTMap",
           "package": "CSPM-Interpreter",
@@ -1887,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "PTMap",
           "package": "CSPM-Interpreter",
@@ -1900,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "PTNil",
           "package": "CSPM-Interpreter",
@@ -1909,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "PTNil",
           "package": "CSPM-Interpreter",
@@ -1922,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "PTRec",
           "package": "CSPM-Interpreter",
@@ -1931,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "PTRec",
           "package": "CSPM-Interpreter",
@@ -1944,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "PTSingle",
           "package": "CSPM-Interpreter",
@@ -1953,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "PTSingle",
           "package": "CSPM-Interpreter",
@@ -1966,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "PatternMatchError",
           "package": "CSPM-Interpreter",
@@ -1975,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "PatternMatchError",
           "package": "CSPM-Interpreter",
@@ -1988,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "PrefixState",
           "package": "CSPM-Interpreter",
@@ -1997,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "PrefixState",
           "package": "CSPM-Interpreter",
@@ -2010,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "RenamingRelation",
           "package": "CSPM-Interpreter",
@@ -2019,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "RenamingRelation",
           "package": "CSPM-Interpreter",
@@ -2032,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "ScriptError",
           "package": "CSPM-Interpreter",
@@ -2041,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "ScriptError",
           "package": "CSPM-Interpreter",
@@ -2054,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "SwitchedOffProc",
           "package": "CSPM-Interpreter",
@@ -2063,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "SwitchedOffProc",
           "package": "CSPM-Interpreter",
@@ -2076,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "TypingError",
           "package": "CSPM-Interpreter",
@@ -2085,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "TypingError",
           "package": "CSPM-Interpreter",
@@ -2098,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VAllInts",
           "package": "CSPM-Interpreter",
@@ -2107,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VAllInts",
           "package": "CSPM-Interpreter",
@@ -2120,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VAllSequences",
           "package": "CSPM-Interpreter",
@@ -2129,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VAllSequences",
           "package": "CSPM-Interpreter",
@@ -2142,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VBool",
           "package": "CSPM-Interpreter",
@@ -2151,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VBool",
           "package": "CSPM-Interpreter",
@@ -2164,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VChannel",
           "package": "CSPM-Interpreter",
@@ -2173,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VChannel",
           "package": "CSPM-Interpreter",
@@ -2186,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VClosure",
           "package": "CSPM-Interpreter",
@@ -2195,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VClosure",
           "package": "CSPM-Interpreter",
@@ -2208,6 +2394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VConstructor",
           "package": "CSPM-Interpreter",
@@ -2217,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VConstructor",
           "package": "CSPM-Interpreter",
@@ -2230,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VDataType",
           "package": "CSPM-Interpreter",
@@ -2239,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VDataType",
           "normalized": "VDataType[Constructor]",
@@ -2254,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VDotTuple",
           "package": "CSPM-Interpreter",
@@ -2263,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VDotTuple",
           "normalized": "VDotTuple[Value]",
@@ -2278,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VFun",
           "package": "CSPM-Interpreter",
@@ -2287,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VFun",
           "package": "CSPM-Interpreter",
@@ -2300,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VInt",
           "package": "CSPM-Interpreter",
@@ -2309,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VInt",
           "package": "CSPM-Interpreter",
@@ -2322,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VList",
           "package": "CSPM-Interpreter",
@@ -2331,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VList",
           "normalized": "VList[Value]",
@@ -2346,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VNameType",
           "package": "CSPM-Interpreter",
@@ -2355,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VNameType",
           "normalized": "VNameType[FieldSet]",
@@ -2370,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VPartialApplied",
           "package": "CSPM-Interpreter",
@@ -2379,6 +2580,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VPartialApplied",
           "normalized": "VPartialApplied FunClosure[Value]",
@@ -2394,6 +2596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VProcess",
           "package": "CSPM-Interpreter",
@@ -2403,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VProcess",
           "package": "CSPM-Interpreter",
@@ -2416,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VSet",
           "package": "CSPM-Interpreter",
@@ -2425,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VSet",
           "package": "CSPM-Interpreter",
@@ -2438,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VTuple",
           "package": "CSPM-Interpreter",
@@ -2447,6 +2654,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VTuple",
           "normalized": "VTuple[Value]",
@@ -2462,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "VUnit",
           "package": "CSPM-Interpreter",
@@ -2471,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "VUnit",
           "package": "CSPM-Interpreter",
@@ -2484,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "argBindings",
           "package": "CSPM-Interpreter",
@@ -2493,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "argBindings",
           "package": "CSPM-Interpreter",
@@ -2506,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "chanFields",
           "package": "CSPM-Interpreter",
@@ -2515,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "chanFields",
           "normalized": "[FieldSet]",
@@ -2530,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "chanId",
           "package": "CSPM-Interpreter",
@@ -2539,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "chanId",
           "package": "CSPM-Interpreter",
@@ -2552,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "chanLen",
           "package": "CSPM-Interpreter",
@@ -2561,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "chanLen",
           "package": "CSPM-Interpreter",
@@ -2574,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "chanName",
           "package": "CSPM-Interpreter",
@@ -2583,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "chanName",
           "package": "CSPM-Interpreter",
@@ -2596,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "closureSetDigest",
           "package": "CSPM-Interpreter",
@@ -2605,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "closureSetDigest",
           "package": "CSPM-Interpreter",
@@ -2618,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "closureSetTrie",
           "package": "CSPM-Interpreter",
@@ -2627,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "closureSetTrie",
           "package": "CSPM-Interpreter",
@@ -2640,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "constrFields",
           "package": "CSPM-Interpreter",
@@ -2649,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "constrFields",
           "normalized": "[FieldSet]",
@@ -2664,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "constrId",
           "package": "CSPM-Interpreter",
@@ -2673,6 +2900,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "constrId",
           "package": "CSPM-Interpreter",
@@ -2686,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "constrName",
           "package": "CSPM-Interpreter",
@@ -2695,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "constrName",
           "package": "CSPM-Interpreter",
@@ -2708,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "currentPrefixTrie",
           "package": "CSPM-Interpreter",
@@ -2717,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "currentPrefixTrie",
           "package": "CSPM-Interpreter",
@@ -2730,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "emptyEnvirionment",
           "package": "CSPM-Interpreter",
@@ -2739,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "emptyEnvirionment",
           "package": "CSPM-Interpreter",
@@ -2752,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "errLoc",
           "package": "CSPM-Interpreter",
@@ -2761,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "errLoc",
           "package": "CSPM-Interpreter",
@@ -2774,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "errMsg",
           "package": "CSPM-Interpreter",
@@ -2783,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "errMsg",
           "package": "CSPM-Interpreter",
@@ -2796,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "errVal",
           "package": "CSPM-Interpreter",
@@ -2805,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "errVal",
           "package": "CSPM-Interpreter",
@@ -2818,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "evalM",
           "package": "CSPM-Interpreter",
@@ -2827,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "evalM",
           "normalized": "LExp-\u003ea Value",
@@ -2841,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "getArgBindings",
           "package": "CSPM-Interpreter",
@@ -2850,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "getArgBindings",
           "normalized": "Env-\u003eBindings",
@@ -2865,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "getChannel",
           "package": "CSPM-Interpreter",
@@ -2874,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "getChannel",
           "normalized": "Field-\u003eChannel",
@@ -2889,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "getEnv",
           "package": "CSPM-Interpreter",
@@ -2898,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "getEnv",
           "package": "CSPM-Interpreter",
@@ -2911,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "getFunArgNum",
           "package": "CSPM-Interpreter",
@@ -2920,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "getFunArgNum",
           "package": "CSPM-Interpreter",
@@ -2933,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "getFunCases",
           "package": "CSPM-Interpreter",
@@ -2942,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "getFunCases",
           "normalized": "[FunCase]",
@@ -2957,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "getFunEnv",
           "package": "CSPM-Interpreter",
@@ -2966,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "getFunEnv",
           "package": "CSPM-Interpreter",
@@ -2979,6 +3233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "getFunId",
           "package": "CSPM-Interpreter",
@@ -2988,6 +3243,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "getFunId",
           "package": "CSPM-Interpreter",
@@ -3001,6 +3257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "getLetBindings",
           "package": "CSPM-Interpreter",
@@ -3010,6 +3267,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "getLetBindings",
           "normalized": "Env-\u003eBindings",
@@ -3025,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "isChannelField",
           "package": "CSPM-Interpreter",
@@ -3034,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "isChannelField",
           "normalized": "Field-\u003eBool",
@@ -3049,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "letBindings",
           "package": "CSPM-Interpreter",
@@ -3058,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "letBindings",
           "package": "CSPM-Interpreter",
@@ -3071,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "letDigests",
           "package": "CSPM-Interpreter",
@@ -3080,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "letDigests",
           "package": "CSPM-Interpreter",
@@ -3093,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "origClosureSet",
           "package": "CSPM-Interpreter",
@@ -3102,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "origClosureSet",
           "package": "CSPM-Interpreter",
@@ -3115,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixBody",
           "package": "CSPM-Interpreter",
@@ -3124,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixBody",
           "package": "CSPM-Interpreter",
@@ -3137,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixDigest",
           "package": "CSPM-Interpreter",
@@ -3146,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixDigest",
           "package": "CSPM-Interpreter",
@@ -3159,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixEnv",
           "package": "CSPM-Interpreter",
@@ -3168,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixEnv",
           "package": "CSPM-Interpreter",
@@ -3181,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixFields",
           "package": "CSPM-Interpreter",
@@ -3190,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixFields",
           "normalized": "[LCommField]",
@@ -3205,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixPatternFailed",
           "package": "CSPM-Interpreter",
@@ -3214,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixPatternFailed",
           "package": "CSPM-Interpreter",
@@ -3227,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixRHS",
           "package": "CSPM-Interpreter",
@@ -3236,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "prefixRHS",
           "package": "CSPM-Interpreter",
@@ -3249,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "renamingDigest",
           "package": "CSPM-Interpreter",
@@ -3258,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "renamingDigest",
           "package": "CSPM-Interpreter",
@@ -3271,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "renamingDomain",
           "package": "CSPM-Interpreter",
@@ -3280,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "renamingDomain",
           "package": "CSPM-Interpreter",
@@ -3293,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "renamingPairs",
           "package": "CSPM-Interpreter",
@@ -3302,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "renamingPairs",
           "normalized": "Set(Event,Event)",
@@ -3317,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "renamingRange",
           "package": "CSPM-Interpreter",
@@ -3326,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "renamingRange",
           "package": "CSPM-Interpreter",
@@ -3339,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "setArgBindings",
           "package": "CSPM-Interpreter",
@@ -3348,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "setArgBindings",
           "normalized": "Env-\u003eBindings-\u003eEnv",
@@ -3363,6 +3651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "setLetBindings",
           "package": "CSPM-Interpreter",
@@ -3372,6 +3661,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "setLetBindings",
           "normalized": "Env-\u003eBindings-\u003eEnv",
@@ -3387,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "switchedOffDigest",
           "package": "CSPM-Interpreter",
@@ -3396,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "switchedOffDigest",
           "package": "CSPM-Interpreter",
@@ -3409,6 +3701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "switchedOffExpr",
           "package": "CSPM-Interpreter",
@@ -3418,6 +3711,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "switchedOffExpr",
           "package": "CSPM-Interpreter",
@@ -3431,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "switchedOffProcess",
           "package": "CSPM-Interpreter",
@@ -3440,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "switchedOffProcess",
           "package": "CSPM-Interpreter",
@@ -3453,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "throwFeatureNotImplemented",
           "package": "CSPM-Interpreter",
@@ -3462,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "throwFeatureNotImplemented",
           "normalized": "String-\u003eMaybe SrcLoc-\u003ea",
@@ -3477,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "throwInternalError",
           "package": "CSPM-Interpreter",
@@ -3486,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "throwInternalError",
           "normalized": "String-\u003eMaybe SrcLoc-\u003eMaybe Value-\u003ea",
@@ -3501,6 +3801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "throwPatternMatchError",
           "package": "CSPM-Interpreter",
@@ -3510,6 +3811,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "throwPatternMatchError",
           "normalized": "String-\u003eMaybe SrcLoc-\u003ea",
@@ -3525,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "throwScriptError",
           "package": "CSPM-Interpreter",
@@ -3534,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "throwScriptError",
           "normalized": "String-\u003eMaybe SrcLoc-\u003eMaybe Value-\u003ea",
@@ -3549,6 +3853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "throwTypingError",
           "package": "CSPM-Interpreter",
@@ -3558,6 +3863,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "throwTypingError",
           "normalized": "String-\u003eMaybe SrcLoc-\u003eMaybe Value-\u003ea",
@@ -3573,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter.Types",
           "name": "unEM",
           "package": "CSPM-Interpreter",
@@ -3582,6 +3889,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter Types",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter.Types",
           "name": "unEM",
           "package": "CSPM-Interpreter",
@@ -3596,6 +3904,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn API for the Interpreter.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter",
           "name": "Interpreter",
           "package": "CSPM-Interpreter",
@@ -3605,6 +3914,7 @@
         "index": {
           "description": "An API for the Interpreter",
           "hierarchy": "CSPM Interpreter",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter",
           "name": "Interpreter",
           "package": "CSPM-Interpreter",
@@ -3618,6 +3928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter",
           "name": "bindIdent",
           "package": "CSPM-Interpreter",
@@ -3627,6 +3938,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter",
           "name": "bindIdent",
           "normalized": "LIdent-\u003eValue-\u003eBindings-\u003eBindings",
@@ -3642,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter",
           "name": "emptyBindings",
           "package": "CSPM-Interpreter",
@@ -3651,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter",
           "name": "emptyBindings",
           "package": "CSPM-Interpreter",
@@ -3665,6 +3979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version of the CSPM-Interpreter library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter",
           "name": "interpreterVersion",
           "package": "CSPM-Interpreter",
@@ -3675,6 +3990,7 @@
         "index": {
           "description": "The version of the CSPM-Interpreter library",
           "hierarchy": "CSPM Interpreter",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter",
           "name": "interpreterVersion",
           "package": "CSPM-Interpreter",
@@ -3688,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter",
           "name": "lookupAllChannels",
           "package": "CSPM-Interpreter",
@@ -3697,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter",
           "name": "lookupAllChannels",
           "normalized": "EM[Channel]",
@@ -3712,6 +4030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter",
           "name": "lookupIdent",
           "package": "CSPM-Interpreter",
@@ -3721,6 +4040,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter",
           "name": "lookupIdent",
           "normalized": "LIdent-\u003eEM Value",
@@ -3736,6 +4056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter",
           "name": "prepareAST",
           "package": "CSPM-Interpreter",
@@ -3745,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "CSPM Interpreter",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter",
           "name": "prepareAST",
           "normalized": "ModuleFromRenaming-\u003eModule INT",
@@ -3761,6 +4083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the interpreter for a given module and top-level identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter",
           "name": "runInterpreter",
           "package": "CSPM-Interpreter",
@@ -3771,6 +4094,7 @@
         "index": {
           "description": "Run the interpreter for given module and top-level identifier",
           "hierarchy": "CSPM Interpreter",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter",
           "name": "runInterpreter",
           "normalized": "Module INT-\u003eUniqueIdent-\u003e(Value,Env)",
@@ -3787,6 +4111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the interpreter for a given module and top-level identifier.\n Cast result to a process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:53 UTC 2014",
           "module": "CSPM.Interpreter",
           "name": "runInterpreterP",
           "package": "CSPM-Interpreter",
@@ -3797,6 +4122,7 @@
         "index": {
           "description": "Run the interpreter for given module and top-level identifier Cast result to process",
           "hierarchy": "CSPM Interpreter",
+          "indexed": "2014-03-11T16:35:53",
           "module": "CSPM.Interpreter",
           "name": "runInterpreterP",
           "normalized": "Module INT-\u003eUniqueIdent-\u003e(Process,Env)",

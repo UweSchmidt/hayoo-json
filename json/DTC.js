@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DTC"
+        "phrase": "DTC",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClass definition from a data declaration.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Class",
           "name": "Class",
           "package": "DTC",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Class definition from data declaration",
           "hierarchy": "Language Haskell DTC Class",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Class",
           "name": "Class",
           "package": "DTC",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a data declaration to a class definition.\n Equivalent to \u003ccode\u003edataToClassWith \"t\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Class",
           "name": "dataToClass",
           "package": "DTC",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Transform data declaration to class definition Equivalent to dataToClassWith",
           "hierarchy": "Language Haskell DTC Class",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Class",
           "name": "dataToClass",
           "normalized": "Decl-\u003eDecl",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a data declaration to a class definition.\n The \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e argument will be the name of the type variable of the class definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Class",
           "name": "dataToClassWith",
           "package": "DTC",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Transform data declaration to class definition The String argument will be the name of the type variable of the class definition",
           "hierarchy": "Language Haskell DTC Class",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Class",
           "name": "dataToClassWith",
           "normalized": "String-\u003eDecl-\u003eDecl",
@@ -93,6 +99,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "DataInfo",
           "package": "DTC",
@@ -101,6 +108,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell DTC DataInfo",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "DataInfo",
           "package": "DTC",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about names in a data declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "DataInfo",
           "package": "DTC",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Information about names in data declaration",
           "hierarchy": "Language Haskell DTC DataInfo",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "DataInfo",
           "package": "DTC",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "DataInfo",
           "package": "DTC",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell DTC DataInfo",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "DataInfo",
           "package": "DTC",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdinary constructor names, and their number of arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "consList",
           "package": "DTC",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Ordinary constructor names and their number of arguments",
           "hierarchy": "Language Haskell DTC DataInfo",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "consList",
           "normalized": "[(Name,Int)]",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a \u003ccode\u003e\u003ca\u003eDataInfo\u003c/a\u003e\u003c/code\u003e from a declaration. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the argument is not a data declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "dataInfo",
           "package": "DTC",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Extract DataInfo from declaration Returns Nothing if the argument is not data declaration",
           "hierarchy": "Language Haskell DTC DataInfo",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "dataInfo",
           "normalized": "Decl-\u003eMaybe DataInfo",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data type name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "dataName",
           "package": "DTC",
@@ -222,6 +239,7 @@
         "index": {
           "description": "The data type name",
           "hierarchy": "Language Haskell DTC DataInfo",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "dataName",
           "package": "DTC",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract \u003ccode\u003e\u003ca\u003eDataInfo\u003c/a\u003e\u003c/code\u003e from all data declarations in a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "moduleDataInfo",
           "package": "DTC",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Extract DataInfo from all data declarations in module",
           "hierarchy": "Language Haskell DTC DataInfo",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "moduleDataInfo",
           "normalized": "Module-\u003e[DataInfo]",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord constructor names and their field names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "rconsList",
           "package": "DTC",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Record constructor names and their field names",
           "hierarchy": "Language Haskell DTC DataInfo",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.DataInfo",
           "name": "rconsList",
           "normalized": "[(Name,[Name])]",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome useful functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Mod",
           "name": "Mod",
           "package": "DTC",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Some useful functions",
           "hierarchy": "Language Haskell DTC Mod",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Mod",
           "name": "Mod",
           "package": "DTC",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a function over \u003ccode\u003e[\u003c/code\u003e\u003ccode\u003eHsDecl\u003c/code\u003e\u003ccode\u003e]\u003c/code\u003e to a function over \u003ccode\u003eHsModule\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Mod",
           "name": "modifyHsDecls",
           "package": "DTC",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Lift function over HsDecl to function over HsModule",
           "hierarchy": "Language Haskell DTC Mod",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Mod",
           "name": "modifyHsDecls",
           "normalized": "([Decl]-\u003e[Decl])-\u003eModule-\u003eModule",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a function over \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a function over \u003ccode\u003eHsName\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Mod",
           "name": "modifyHsName",
           "package": "DTC",
@@ -347,6 +374,7 @@
         "index": {
           "description": "Lift function over String to function over HsName",
           "hierarchy": "Language Haskell DTC Mod",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Mod",
           "name": "modifyHsName",
           "normalized": "(String-\u003eString)-\u003eName-\u003eName",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eTyVarBind\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Mod",
           "name": "tyVarName",
           "package": "DTC",
@@ -373,6 +402,7 @@
         "index": {
           "description": "Extract the Name of TyVarBind",
           "hierarchy": "Language Haskell DTC Mod",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Mod",
           "name": "tyVarName",
           "normalized": "TyVarBind-\u003eName",
@@ -389,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip a bang in a type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Mod",
           "name": "unBangType",
           "package": "DTC",
@@ -399,6 +430,7 @@
         "index": {
           "description": "Skip bang in type",
           "hierarchy": "Language Haskell DTC Mod",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Mod",
           "name": "unBangType",
           "normalized": "BangType-\u003eType",
@@ -415,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAll you need to parse a module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "Parser",
           "package": "DTC",
@@ -424,6 +457,7 @@
         "index": {
           "description": "All you need to parse module",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "Parser",
           "package": "DTC",
@@ -438,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA complete Haskell source module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "Module",
           "package": "DTC",
@@ -446,6 +481,7 @@
         "index": {
           "description": "complete Haskell source module",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "Module",
           "package": "DTC",
@@ -460,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatic parameters governing a parse.\n   Note that the various parse functions in \u003ca\u003eLanguage.Haskell.Exts.Parser\u003c/a\u003e\n   never look at LANGUAGE pragmas, regardless of\n   what the \u003ccode\u003eignoreLanguagePragmas\u003c/code\u003e flag is set to.\n   Only the various \u003ccode\u003eparseFile\u003c/code\u003e functions in \u003ca\u003eLanguage.Haskell.Exts\u003c/a\u003e will\n   act on it, when set to \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ParseMode",
           "package": "DTC",
@@ -468,6 +505,7 @@
         "index": {
           "description": "Static parameters governing parse Note that the various parse functions in Language.Haskell.Exts.Parser never look at LANGUAGE pragmas regardless of what the ignoreLanguagePragmas flag is set to Only the various parseFile functions in Language.Haskell.Exts will act on it when set to False",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ParseMode",
           "package": "DTC",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ParseResult",
           "package": "DTC",
@@ -490,6 +529,7 @@
         "index": {
           "description": "The result of parse",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ParseResult",
           "package": "DTC",
@@ -504,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parse failed at the specified\n source location, with an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ParseFailed",
           "package": "DTC",
@@ -513,6 +554,7 @@
         "index": {
           "description": "The parse failed at the specified source location with an error message",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ParseFailed",
           "package": "DTC",
@@ -526,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ParseMode",
           "package": "DTC",
@@ -534,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ParseMode",
           "package": "DTC",
@@ -548,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parse succeeded, yielding a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ParseOk",
           "package": "DTC",
@@ -557,6 +602,7 @@
         "index": {
           "description": "The parse succeeded yielding value",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ParseOk",
           "package": "DTC",
@@ -571,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault parameters for a parse.\n   The default is an unknown filename,\n   no extensions (i.e. Haskell 98),\n   don't ignore LANGUAGE pragmas, do ignore LINE pragmas,\n   and be aware of fixities from the \u003ccode\u003ePrelude\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "defaultParseMode",
           "package": "DTC",
@@ -580,6 +627,7 @@
         "index": {
           "description": "Default parameters for parse The default is an unknown filename no extensions i.e Haskell don ignore LANGUAGE pragmas do ignore LINE pragmas and be aware of fixities from the Prelude",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "defaultParseMode",
           "package": "DTC",
@@ -594,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of extensions enabled for parsing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "extensions",
           "package": "DTC",
@@ -603,6 +652,7 @@
         "index": {
           "description": "list of extensions enabled for parsing",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "extensions",
           "normalized": "[Extension]",
@@ -618,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of fixities to be aware of\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "fixities",
           "package": "DTC",
@@ -627,6 +678,7 @@
         "index": {
           "description": "list of fixities to be aware of",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "fixities",
           "normalized": "Maybe[Fixity]",
@@ -642,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the parser won't care about further extensions\n   in LANGUAGE pragmas in source files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ignoreLanguagePragmas",
           "package": "DTC",
@@ -651,6 +704,7 @@
         "index": {
           "description": "if True the parser won care about further extensions in LANGUAGE pragmas in source files",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ignoreLanguagePragmas",
           "package": "DTC",
@@ -665,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the parser won't read line position information\n   from LINE pragmas in source files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ignoreLinePragmas",
           "package": "DTC",
@@ -674,6 +729,7 @@
         "index": {
           "description": "if True the parser won read line position information from LINE pragmas in source files",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "ignoreLinePragmas",
           "package": "DTC",
@@ -688,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoriginal name of the file being parsed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "parseFilename",
           "package": "DTC",
@@ -697,6 +754,7 @@
         "index": {
           "description": "original name of the file being parsed",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "parseFilename",
           "package": "DTC",
@@ -711,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string, which should contain a complete Haskell module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "parseModule",
           "package": "DTC",
@@ -720,6 +779,7 @@
         "index": {
           "description": "Parse of string which should contain complete Haskell module",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "parseModule",
           "normalized": "String-\u003eParseResult Module",
@@ -736,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string containing a complete Haskell module, using an explicit mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "parseModuleWithMode",
           "package": "DTC",
@@ -745,6 +806,7 @@
         "index": {
           "description": "Parse of string containing complete Haskell module using an explicit mode",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "parseModuleWithMode",
           "normalized": "ParseMode-\u003eString-\u003eParseResult Module",
@@ -761,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a module from a source code file. It throws an error if parsing fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC.Parser",
           "name": "parseModuleWithSrc",
           "package": "DTC",
@@ -771,6 +834,7 @@
         "index": {
           "description": "Parse module from source code file It throws an error if parsing fails",
           "hierarchy": "Language Haskell DTC Parser",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC.Parser",
           "name": "parseModuleWithSrc",
           "normalized": "FilePath-\u003eParseMode-\u003eIO Module",
@@ -787,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain module of \u003ccode\u003eDTC\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:17 UTC 2014",
           "module": "Language.Haskell.DTC",
           "name": "DTC",
           "package": "DTC",
@@ -796,6 +861,7 @@
         "index": {
           "description": "Main module of DTC",
           "hierarchy": "Language Haskell DTC",
+          "indexed": "2014-03-11T16:38:17",
           "module": "Language.Haskell.DTC",
           "name": "DTC",
           "package": "DTC",

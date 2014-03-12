@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gulcii"
+        "phrase": "gulcii",
+        "type": "phrase"
       },
       "type": "context"
     }

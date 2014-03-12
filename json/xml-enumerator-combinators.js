@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-enumerator-combinators"
+        "phrase": "xml-enumerator-combinators",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.General",
           "name": "General",
           "package": "xml-enumerator-combinators",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XML Enumerator Combinators General",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.General",
           "name": "General",
           "package": "xml-enumerator-combinators",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003echoose\u003c/code\u003e, but also returns the list of elements that were \u003cem\u003enot\u003c/em\u003e chosen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.General",
           "name": "chooseSplit",
           "package": "xml-enumerator-combinators",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Like choose but also returns the list of elements that were not chosen",
           "hierarchy": "Text XML Enumerator Combinators General",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.General",
           "name": "chooseSplit",
           "normalized": "(a-\u003eb(Maybe c))-\u003e[a]-\u003eb(Maybe(c,[a]))",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermute all parsers until none return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.General",
           "name": "permute",
           "package": "xml-enumerator-combinators",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Permute all parsers until none return Just",
           "hierarchy": "Text XML Enumerator Combinators General",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.General",
           "name": "permute",
           "normalized": "(a-\u003eb(Maybe c))-\u003e[a]-\u003eb(Maybe[c])",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermute all parsers until none return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e, but always test some fallback parsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.General",
           "name": "permuteFallback",
           "package": "xml-enumerator-combinators",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Permute all parsers until none return Just but always test some fallback parsers",
           "hierarchy": "Text XML Enumerator Combinators General",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.General",
           "name": "permuteFallback",
           "normalized": "a(Maybe[b])-\u003e(c-\u003ea(Maybe b))-\u003e[c]-\u003ea(Maybe[b])",
@@ -116,6 +124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "Tags",
           "package": "xml-enumerator-combinators",
@@ -124,6 +133,7 @@
         },
         "index": {
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "Tags",
           "package": "xml-enumerator-combinators",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies how often an element may repeat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "Repetition",
           "package": "xml-enumerator-combinators",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Specifies how often an element may repeat",
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "Repetition",
           "package": "xml-enumerator-combinators",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "Repeat",
           "package": "xml-enumerator-combinators",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "Repeat",
           "package": "xml-enumerator-combinators",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement may occur any number of times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repeatMany",
           "package": "xml-enumerator-combinators",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Element may occur any number of times",
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repeatMany",
           "package": "xml-enumerator-combinators",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement may never occur.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repeatNever",
           "package": "xml-enumerator-combinators",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Element may never occur",
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repeatNever",
           "package": "xml-enumerator-combinators",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement may occur exactly once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repeatOnce",
           "package": "xml-enumerator-combinators",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Element may occur exactly once",
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repeatOnce",
           "package": "xml-enumerator-combinators",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement may occur up to once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repeatOptional",
           "package": "xml-enumerator-combinators",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Element may occur up to once",
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repeatOptional",
           "package": "xml-enumerator-combinators",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement may occur at least once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repeatSome",
           "package": "xml-enumerator-combinators",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Element may occur at least once",
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repeatSome",
           "package": "xml-enumerator-combinators",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repetitionAllowsMore",
           "package": "xml-enumerator-combinators",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repetitionAllowsMore",
           "package": "xml-enumerator-combinators",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repetitionConsume",
           "package": "xml-enumerator-combinators",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repetitionConsume",
           "package": "xml-enumerator-combinators",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repetitionNeedsMore",
           "package": "xml-enumerator-combinators",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "repetitionNeedsMore",
           "package": "xml-enumerator-combinators",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatefully and efficiently parse a list of tags.\n\u003c/p\u003e\u003cp\u003eThe first parameter is a function that, given state and an element name, returns\n either \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, to indicate that the element is invalid, or a pair of attribute\n and element content parsers in \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eThe second parameter is a function that, given the current state, returns a\n \u003ca\u003efallback\u003c/a\u003e parser to be executed when no valid element has been found.\n\u003c/p\u003e\u003cp\u003eThe third parameter is the initial state.\n\u003c/p\u003e\u003cp\u003eThis function updates the state as it goes along, but it also accumulates a list of\n elements as they occur.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "tags",
           "package": "xml-enumerator-combinators",
@@ -379,6 +410,7 @@
         "index": {
           "description": "Statefully and efficiently parse list of tags The first parameter is function that given state and an element name returns either Nothing to indicate that the element is invalid or pair of attribute and element content parsers in Just The second parameter is function that given the current state returns fallback parser to be executed when no valid element has been found The third parameter is the initial state This function updates the state as it goes along but it also accumulates list of elements as they occur",
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "tags",
           "normalized": "(a-\u003eName-\u003eMaybe(AttrParser b,b-\u003eIteratee Event c(Maybe(a,Maybe d))))-\u003e(a-\u003eIteratee Event c(Maybe(a,Maybe d)))-\u003ea-\u003eIteratee Event c(a,[d])",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a permutation of tags.\n\u003c/p\u003e\u003cp\u003eThe first parameter is a function to preprocess Names for equality testing, because\n sometimes XML documents contain inconsistent naming. This allows the user to deal\n with it.\n\u003c/p\u003e\u003cp\u003eThe second parameter is a map of tags to attribute and element content parsers.\n\u003c/p\u003e\u003cp\u003eThe third parameter is a fallback parser. The outer Maybe indicates whether it succeeds,\n and the inner Maybe whether an element should be added to the output list.\n\u003c/p\u003e\u003cp\u003eThis function accumulates a list of elements for each step that produces one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "tagsPermute",
           "package": "xml-enumerator-combinators",
@@ -404,6 +437,7 @@
         "index": {
           "description": "Parse permutation of tags The first parameter is function to preprocess Names for equality testing because sometimes XML documents contain inconsistent naming This allows the user to deal with it The second parameter is map of tags to attribute and element content parsers The third parameter is fallback parser The outer Maybe indicates whether it succeeds and the inner Maybe whether an element should be added to the output list This function accumulates list of elements for each step that produces one",
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "tagsPermute",
           "normalized": "(Name-\u003ea)-\u003eMap a(AttrParser b,b-\u003eIteratee Event c(Maybe d))-\u003eIteratee Event c(Maybe(Maybe d))-\u003eIteratee Event c(Maybe[d])",
@@ -420,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a permutation of tags, with some repeating elements.\n\u003c/p\u003e\u003cp\u003eThe first parameter is a function to preprocess Names for equality testing, because\n sometimes XML documents contain inconsistent naming. This allows the user to deal\n with it.\n\u003c/p\u003e\u003cp\u003eThe second parameter is a map of tags to attribute and element content parsers.\n It also specifies how often elements may repeat.\n\u003c/p\u003e\u003cp\u003eThe third parameter is a fallback parser. The outer Maybe indicates whether it succeeds,\n and the inner Maybe whether an element should be added to the output list.\n\u003c/p\u003e\u003cp\u003eThis function accumulates a list of elements for each step that produces one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:14 UTC 2014",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "tagsPermuteRepetition",
           "package": "xml-enumerator-combinators",
@@ -430,6 +465,7 @@
         "index": {
           "description": "Parse permutation of tags with some repeating elements The first parameter is function to preprocess Names for equality testing because sometimes XML documents contain inconsistent naming This allows the user to deal with it The second parameter is map of tags to attribute and element content parsers It also specifies how often elements may repeat The third parameter is fallback parser The outer Maybe indicates whether it succeeds and the inner Maybe whether an element should be added to the output list This function accumulates list of elements for each step that produces one",
           "hierarchy": "Text XML Enumerator Combinators Tags",
+          "indexed": "2014-03-11T20:42:14",
           "module": "Text.XML.Enumerator.Combinators.Tags",
           "name": "tagsPermuteRepetition",
           "normalized": "(Name-\u003ea)-\u003eMap a(Repetition,AttrParser b,b-\u003eIteratee Event c(Maybe d))-\u003eIteratee Event c(Maybe(Maybe(a,d)))-\u003eIteratee Event c(Maybe[(a,d)])",

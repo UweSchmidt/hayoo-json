@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FailureT"
+        "phrase": "FailureT",
+        "type": "phrase"
       },
       "type": "context"
     }

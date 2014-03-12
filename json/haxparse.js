@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haxparse"
+        "phrase": "haxparse",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST.TH",
           "name": "TH",
           "package": "haxparse",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST TH",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST.TH",
           "name": "TH",
           "package": "haxparse",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST.TH",
           "name": "makeIsFn",
           "package": "haxparse",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST TH",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST.TH",
           "name": "makeIsFn",
           "normalized": "Con-\u003eQ[Dec]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST.TH",
           "name": "makeIsFns",
           "package": "haxparse",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST TH",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST.TH",
           "name": "makeIsFns",
           "normalized": "Name-\u003eQ[Dec]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "AST",
           "package": "haxparse",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "AST",
           "package": "haxparse",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Action",
           "package": "haxparse",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Action",
           "package": "haxparse",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Color",
           "package": "haxparse",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Color",
           "package": "haxparse",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Direction",
           "package": "haxparse",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Direction",
           "package": "haxparse",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Disc",
           "package": "haxparse",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Disc",
           "package": "haxparse",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Event",
           "package": "haxparse",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Event",
           "package": "haxparse",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Mask",
           "package": "haxparse",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Mask",
           "package": "haxparse",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Move",
           "package": "haxparse",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Move",
           "package": "haxparse",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Player",
           "package": "haxparse",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Player",
           "package": "haxparse",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Replay",
           "package": "haxparse",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Replay",
           "package": "haxparse",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Room",
           "package": "haxparse",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Room",
           "package": "haxparse",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Side",
           "package": "haxparse",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Side",
           "package": "haxparse",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Stadium",
           "package": "haxparse",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Stadium",
           "package": "haxparse",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Action",
           "package": "haxparse",
@@ -369,6 +402,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Action",
           "package": "haxparse",
@@ -382,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Big",
           "package": "haxparse",
@@ -391,6 +426,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Big",
           "package": "haxparse",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "BigEasy",
           "package": "haxparse",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "BigEasy",
           "package": "haxparse",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "BigHockey",
           "package": "haxparse",
@@ -435,6 +474,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "BigHockey",
           "package": "haxparse",
@@ -448,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "BigRounded",
           "package": "haxparse",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "BigRounded",
           "package": "haxparse",
@@ -470,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Blue",
           "package": "haxparse",
@@ -479,6 +522,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Blue",
           "package": "haxparse",
@@ -492,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "ChangeAvatar",
           "package": "haxparse",
@@ -501,6 +546,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "ChangeAvatar",
           "package": "haxparse",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Chat",
           "package": "haxparse",
@@ -523,6 +570,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Chat",
           "package": "haxparse",
@@ -536,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Classic",
           "package": "haxparse",
@@ -545,6 +594,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Classic",
           "package": "haxparse",
@@ -558,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Color",
           "package": "haxparse",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Color",
           "package": "haxparse",
@@ -580,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Custom",
           "package": "haxparse",
@@ -589,6 +642,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Custom",
           "package": "haxparse",
@@ -602,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Departure",
           "package": "haxparse",
@@ -611,6 +666,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Departure",
           "package": "haxparse",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Disc",
           "package": "haxparse",
@@ -633,6 +690,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Disc",
           "package": "haxparse",
@@ -646,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "DiscMove",
           "package": "haxparse",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "DiscMove",
           "package": "haxparse",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Down",
           "package": "haxparse",
@@ -677,6 +738,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Down",
           "package": "haxparse",
@@ -690,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Easy",
           "package": "haxparse",
@@ -699,6 +762,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Easy",
           "package": "haxparse",
@@ -712,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Hockey",
           "package": "haxparse",
@@ -721,6 +786,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Hockey",
           "package": "haxparse",
@@ -734,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Huge",
           "package": "haxparse",
@@ -743,6 +810,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Huge",
           "package": "haxparse",
@@ -756,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Kick",
           "package": "haxparse",
@@ -765,6 +834,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Kick",
           "package": "haxparse",
@@ -778,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Left",
           "package": "haxparse",
@@ -787,6 +858,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Left",
           "package": "haxparse",
@@ -800,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Mask",
           "package": "haxparse",
@@ -809,6 +882,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Mask",
           "normalized": "Mask[String]",
@@ -824,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Move",
           "package": "haxparse",
@@ -833,6 +908,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Move",
           "normalized": "Move[Direction]",
@@ -848,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "MoveKick",
           "package": "haxparse",
@@ -857,6 +934,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "MoveKick",
           "normalized": "MoveKick[Direction]",
@@ -872,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "NewPlayer",
           "package": "haxparse",
@@ -881,6 +960,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "NewPlayer",
           "package": "haxparse",
@@ -894,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Nop",
           "package": "haxparse",
@@ -903,6 +984,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Nop",
           "package": "haxparse",
@@ -916,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "PingBroadcast",
           "package": "haxparse",
@@ -925,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "PingBroadcast",
           "normalized": "PingBroadcast[(Word,Word)]",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Player",
           "package": "haxparse",
@@ -949,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Player",
           "package": "haxparse",
@@ -962,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Red",
           "package": "haxparse",
@@ -971,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Red",
           "package": "haxparse",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Replay",
           "package": "haxparse",
@@ -993,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Replay",
           "package": "haxparse",
@@ -1006,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Right",
           "package": "haxparse",
@@ -1015,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Right",
           "package": "haxparse",
@@ -1028,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Room",
           "package": "haxparse",
@@ -1037,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Room",
           "package": "haxparse",
@@ -1050,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Rounded",
           "package": "haxparse",
@@ -1059,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Rounded",
           "package": "haxparse",
@@ -1072,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Small",
           "package": "haxparse",
@@ -1081,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Small",
           "package": "haxparse",
@@ -1094,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Spec",
           "package": "haxparse",
@@ -1103,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Spec",
           "package": "haxparse",
@@ -1116,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "StartMatch",
           "package": "haxparse",
@@ -1125,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "StartMatch",
           "package": "haxparse",
@@ -1138,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "StopMatch",
           "package": "haxparse",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "StopMatch",
           "package": "haxparse",
@@ -1160,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "TeamChange",
           "package": "haxparse",
@@ -1169,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "TeamChange",
           "package": "haxparse",
@@ -1182,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "TimeUpdate",
           "package": "haxparse",
@@ -1191,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "TimeUpdate",
           "package": "haxparse",
@@ -1204,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "Up",
           "package": "haxparse",
@@ -1213,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "Up",
           "package": "haxparse",
@@ -1226,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "actEvent",
           "package": "haxparse",
@@ -1235,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "actEvent",
           "package": "haxparse",
@@ -1248,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "actFrameCount",
           "package": "haxparse",
@@ -1257,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "actFrameCount",
           "package": "haxparse",
@@ -1270,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "actPlayerId",
           "package": "haxparse",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "actPlayerId",
           "package": "haxparse",
@@ -1292,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "admin",
           "package": "haxparse",
@@ -1301,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "admin",
           "package": "haxparse",
@@ -1313,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "autoKick",
           "package": "haxparse",
@@ -1322,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "autoKick",
           "package": "haxparse",
@@ -1335,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "avatar",
           "package": "haxparse",
@@ -1344,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "avatar",
           "package": "haxparse",
@@ -1356,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "bCoefficient",
           "package": "haxparse",
@@ -1365,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "bCoefficient",
           "package": "haxparse",
@@ -1378,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "ballCoords",
           "package": "haxparse",
@@ -1387,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "ballCoords",
           "normalized": "(Double,Double)",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "banned",
           "package": "haxparse",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "banned",
           "package": "haxparse",
@@ -1423,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "blueScore",
           "package": "haxparse",
@@ -1432,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "blueScore",
           "package": "haxparse",
@@ -1445,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "color",
           "package": "haxparse",
@@ -1454,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "color",
           "package": "haxparse",
@@ -1466,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "country",
           "package": "haxparse",
@@ -1475,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "country",
           "package": "haxparse",
@@ -1487,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "dId",
           "package": "haxparse",
@@ -1496,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "dId",
           "package": "haxparse",
@@ -1509,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "damping",
           "package": "haxparse",
@@ -1518,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "damping",
           "package": "haxparse",
@@ -1530,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "desync",
           "package": "haxparse",
@@ -1539,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "desync",
           "package": "haxparse",
@@ -1551,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "discId",
           "package": "haxparse",
@@ -1560,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "discId",
           "package": "haxparse",
@@ -1573,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "discs",
           "package": "haxparse",
@@ -1582,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "discs",
           "normalized": "[Disc]",
@@ -1596,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "events",
           "package": "haxparse",
@@ -1605,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "events",
           "normalized": "[Action]",
@@ -1619,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "firstFrame",
           "package": "haxparse",
@@ -1628,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "firstFrame",
           "package": "haxparse",
@@ -1641,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "frameCount",
           "package": "haxparse",
@@ -1650,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "frameCount",
           "package": "haxparse",
@@ -1663,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "group",
           "package": "haxparse",
@@ -1672,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "group",
           "package": "haxparse",
@@ -1684,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "handicap",
           "package": "haxparse",
@@ -1693,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "handicap",
           "package": "haxparse",
@@ -1705,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "inProgress",
           "package": "haxparse",
@@ -1714,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "inProgress",
           "package": "haxparse",
@@ -1727,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "initial",
           "package": "haxparse",
@@ -1736,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "initial",
           "package": "haxparse",
@@ -1748,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "input",
           "package": "haxparse",
@@ -1757,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "input",
           "package": "haxparse",
@@ -1769,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "invMass",
           "package": "haxparse",
@@ -1778,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "invMass",
           "package": "haxparse",
@@ -1791,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "isChangeAvatar",
           "package": "haxparse",
@@ -1800,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "isChangeAvatar",
           "normalized": "Event-\u003eBool",
@@ -1815,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "isChat",
           "package": "haxparse",
@@ -1824,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "isChat",
           "normalized": "Event-\u003eBool",
@@ -1839,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "isDeparture",
           "package": "haxparse",
@@ -1848,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "isDeparture",
           "normalized": "Event-\u003eBool",
@@ -1863,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "isDiscMove",
           "package": "haxparse",
@@ -1872,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "isDiscMove",
           "normalized": "Event-\u003eBool",
@@ -1887,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "isNewPlayer",
           "package": "haxparse",
@@ -1896,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "isNewPlayer",
           "normalized": "Event-\u003eBool",
@@ -1911,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "isPingBroadcast",
           "package": "haxparse",
@@ -1920,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "isPingBroadcast",
           "normalized": "Event-\u003eBool",
@@ -1935,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "isStartMatch",
           "package": "haxparse",
@@ -1944,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "isStartMatch",
           "normalized": "Event-\u003eBool",
@@ -1959,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "isStopMatch",
           "package": "haxparse",
@@ -1968,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "isStopMatch",
           "normalized": "Event-\u003eBool",
@@ -1983,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "isTeamChange",
           "package": "haxparse",
@@ -1992,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "isTeamChange",
           "normalized": "Event-\u003eBool",
@@ -2007,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "isTimeUpdate",
           "package": "haxparse",
@@ -2016,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "isTimeUpdate",
           "normalized": "Event-\u003eBool",
@@ -2031,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "kicked",
           "package": "haxparse",
@@ -2040,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "kicked",
           "package": "haxparse",
@@ -2052,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "kickoffSide",
           "package": "haxparse",
@@ -2061,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "kickoffSide",
           "package": "haxparse",
@@ -2074,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "kickoffTaken",
           "package": "haxparse",
@@ -2083,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "kickoffTaken",
           "package": "haxparse",
@@ -2096,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "locked",
           "package": "haxparse",
@@ -2105,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "locked",
           "package": "haxparse",
@@ -2117,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "mask",
           "package": "haxparse",
@@ -2126,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "mask",
           "package": "haxparse",
@@ -2138,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "name",
           "package": "haxparse",
@@ -2147,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "name",
           "package": "haxparse",
@@ -2159,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "npAdmin",
           "package": "haxparse",
@@ -2168,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "npAdmin",
           "package": "haxparse",
@@ -2181,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "npCountry",
           "package": "haxparse",
@@ -2190,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "npCountry",
           "package": "haxparse",
@@ -2203,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "npId",
           "package": "haxparse",
@@ -2212,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "npId",
           "package": "haxparse",
@@ -2225,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "npName",
           "package": "haxparse",
@@ -2234,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "npName",
           "package": "haxparse",
@@ -2247,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "number",
           "package": "haxparse",
@@ -2256,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "number",
           "package": "haxparse",
@@ -2268,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "pDiscId",
           "package": "haxparse",
@@ -2277,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "pDiscId",
           "package": "haxparse",
@@ -2290,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "pauseTimer",
           "package": "haxparse",
@@ -2299,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "pauseTimer",
           "package": "haxparse",
@@ -2312,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "players",
           "package": "haxparse",
@@ -2321,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "players",
           "package": "haxparse",
@@ -2333,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "pos",
           "package": "haxparse",
@@ -2342,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "pos",
           "normalized": "(Double,Double)",
@@ -2356,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "radius",
           "package": "haxparse",
@@ -2365,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "radius",
           "package": "haxparse",
@@ -2377,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "reason",
           "package": "haxparse",
@@ -2386,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "reason",
           "package": "haxparse",
@@ -2398,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "redScore",
           "package": "haxparse",
@@ -2407,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "redScore",
           "package": "haxparse",
@@ -2420,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "room",
           "package": "haxparse",
@@ -2429,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "room",
           "package": "haxparse",
@@ -2441,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "roomName",
           "package": "haxparse",
@@ -2450,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "roomName",
           "package": "haxparse",
@@ -2463,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "rules",
           "package": "haxparse",
@@ -2472,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "rules",
           "package": "haxparse",
@@ -2484,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "scoreLimit",
           "package": "haxparse",
@@ -2493,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "scoreLimit",
           "package": "haxparse",
@@ -2506,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "speed",
           "package": "haxparse",
@@ -2515,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "speed",
           "normalized": "(Double,Double)",
@@ -2529,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "stadium",
           "package": "haxparse",
@@ -2538,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "stadium",
           "package": "haxparse",
@@ -2550,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "team",
           "package": "haxparse",
@@ -2559,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "team",
           "package": "haxparse",
@@ -2571,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "timeLimit",
           "package": "haxparse",
@@ -2580,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "timeLimit",
           "package": "haxparse",
@@ -2593,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "timer",
           "package": "haxparse",
@@ -2602,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "timer",
           "package": "haxparse",
@@ -2614,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.AST",
           "name": "version",
           "package": "haxparse",
@@ -2623,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "HaxParse AST",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.AST",
           "name": "version",
           "package": "haxparse",
@@ -2635,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "Parser",
           "package": "haxparse",
@@ -2643,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "Parser",
           "package": "haxparse",
@@ -2656,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "Parser",
           "package": "haxparse",
@@ -2664,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "Parser",
           "package": "haxparse",
@@ -2677,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "ParserState",
           "package": "haxparse",
@@ -2685,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "ParserState",
           "package": "haxparse",
@@ -2698,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "ParserState",
           "package": "haxparse",
@@ -2707,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "ParserState",
           "package": "haxparse",
@@ -2720,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "bool",
           "package": "haxparse",
@@ -2729,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "bool",
           "package": "haxparse",
@@ -2741,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "curDiscId",
           "package": "haxparse",
@@ -2750,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "curDiscId",
           "package": "haxparse",
@@ -2763,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "departure",
           "package": "haxparse",
@@ -2772,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "departure",
           "package": "haxparse",
@@ -2784,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "disc",
           "package": "haxparse",
@@ -2793,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "disc",
           "package": "haxparse",
@@ -2805,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "discMove",
           "package": "haxparse",
@@ -2814,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "discMove",
           "package": "haxparse",
@@ -2827,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "discs_",
           "package": "haxparse",
@@ -2836,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "discs_",
           "normalized": "Parser[Disc]",
@@ -2850,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "double",
           "package": "haxparse",
@@ -2859,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "double",
           "package": "haxparse",
@@ -2871,6 +3131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "event",
           "package": "haxparse",
@@ -2880,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "event",
           "package": "haxparse",
@@ -2892,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "frame",
           "package": "haxparse",
@@ -2901,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "frame",
           "package": "haxparse",
@@ -2913,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "haxParser",
           "package": "haxparse",
@@ -2922,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "haxParser",
           "package": "haxparse",
@@ -2935,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "int16",
           "package": "haxparse",
@@ -2944,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "int16",
           "package": "haxparse",
@@ -2956,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "int32",
           "package": "haxparse",
@@ -2965,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "int32",
           "package": "haxparse",
@@ -2977,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "int64",
           "package": "haxparse",
@@ -2986,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "int64",
           "package": "haxparse",
@@ -2998,6 +3270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "int8",
           "package": "haxparse",
@@ -3007,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "int8",
           "package": "haxparse",
@@ -3019,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "mask_",
           "package": "haxparse",
@@ -3028,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "mask_",
           "package": "haxparse",
@@ -3040,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "newPlayer",
           "package": "haxparse",
@@ -3049,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "newPlayer",
           "package": "haxparse",
@@ -3062,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "parseFile",
           "package": "haxparse",
@@ -3071,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "parseFile",
           "normalized": "FilePath-\u003eIO(Either ParseError Replay)",
@@ -3086,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "parseFromFile",
           "package": "haxparse",
@@ -3095,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "parseFromFile",
           "normalized": "Parser a-\u003eFilePath-\u003eIO(Either ParseError a)",
@@ -3110,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "pingBroadcast",
           "package": "haxparse",
@@ -3119,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "pingBroadcast",
           "package": "haxparse",
@@ -3132,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "player",
           "package": "haxparse",
@@ -3141,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "player",
           "normalized": "Parser()",
@@ -3155,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "playerList",
           "package": "haxparse",
@@ -3164,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "playerList",
           "package": "haxparse",
@@ -3177,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "players_",
           "package": "haxparse",
@@ -3186,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "players_",
           "normalized": "Parser()",
@@ -3200,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "room_",
           "package": "haxparse",
@@ -3209,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "room_",
           "package": "haxparse",
@@ -3221,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "side",
           "package": "haxparse",
@@ -3230,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "side",
           "package": "haxparse",
@@ -3242,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "stadium_",
           "package": "haxparse",
@@ -3251,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "stadium_",
           "package": "haxparse",
@@ -3263,6 +3559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:29 UTC 2014",
           "module": "HaxParse.Parser",
           "name": "str",
           "package": "haxparse",
@@ -3272,6 +3569,7 @@
         },
         "index": {
           "hierarchy": "HaxParse Parser",
+          "indexed": "2014-03-11T18:34:29",
           "module": "HaxParse.Parser",
           "name": "str",
           "package": "haxparse",

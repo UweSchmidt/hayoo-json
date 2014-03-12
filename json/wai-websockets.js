@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-websockets"
+        "phrase": "wai-websockets",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:06 UTC 2014",
           "module": "Network.Wai.Handler.WebSockets",
           "name": "WebSockets",
           "package": "wai-websockets",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler WebSockets",
+          "indexed": "2014-03-11T20:37:06",
           "module": "Network.Wai.Handler.WebSockets",
           "name": "WebSockets",
           "package": "wai-websockets",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor use with \u003ccode\u003esettingsIntercept\u003c/code\u003e from the Warp web server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:06 UTC 2014",
           "module": "Network.Wai.Handler.WebSockets",
           "name": "intercept",
           "package": "wai-websockets",
@@ -50,6 +53,7 @@
         "index": {
           "description": "For use with settingsIntercept from the Warp web server",
           "hierarchy": "Network Wai Handler WebSockets",
+          "indexed": "2014-03-11T20:37:06",
           "module": "Network.Wai.Handler.WebSockets",
           "name": "intercept",
           "normalized": "ServerApp-\u003eRequest-\u003eMaybe(Source IO ByteString-\u003eConnection-\u003eIO())",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariation of \u003ccode\u003e\u003ca\u003eintercept\u003c/a\u003e\u003c/code\u003e which allows custom options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:06 UTC 2014",
           "module": "Network.Wai.Handler.WebSockets",
           "name": "interceptWith",
           "package": "wai-websockets",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Variation of intercept which allows custom options",
           "hierarchy": "Network Wai Handler WebSockets",
+          "indexed": "2014-03-11T20:37:06",
           "module": "Network.Wai.Handler.WebSockets",
           "name": "interceptWith",
           "normalized": "ConnectionOptions-\u003eServerApp-\u003eRequest-\u003eMaybe(Source IO ByteString-\u003eConnection-\u003eIO())",

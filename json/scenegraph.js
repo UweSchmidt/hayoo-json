@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scenegraph"
+        "phrase": "scenegraph",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gsl-random-fu"
+        "phrase": "gsl-random-fu",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:04 UTC 2014",
           "module": "Data.Random.Source.GSL",
           "name": "WrappedRNG",
           "package": "gsl-random-fu",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Random Source GSL",
+          "indexed": "2014-03-11T18:22:04",
           "module": "Data.Random.Source.GSL",
           "name": "WrappedRNG",
           "package": "gsl-random-fu",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:04 UTC 2014",
           "module": "Data.Random.Source.GSL",
           "name": "newWrappedRNG",
           "package": "gsl-random-fu",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Random Source GSL",
+          "indexed": "2014-03-11T18:22:04",
           "module": "Data.Random.Source.GSL",
           "name": "newWrappedRNG",
           "normalized": "RNGType-\u003eIO WrappedRNG",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:04 UTC 2014",
           "module": "Data.Random.Source.GSL",
           "name": "wrapRNG",
           "package": "gsl-random-fu",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Random Source GSL",
+          "indexed": "2014-03-11T18:22:04",
           "module": "Data.Random.Source.GSL",
           "name": "wrapRNG",
           "normalized": "RNG-\u003eIO WrappedRNG",

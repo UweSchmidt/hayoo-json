@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-stringmap"
+        "phrase": "data-stringmap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn efficient implementation of maps from strings to arbitrary values.\n\u003c/p\u003e\u003cp\u003eValues can be associated with an arbitrary [Char] key. Searching for keys is very fast.\n  The main differences to Data.Map and Data.IntMap are the special\n  \u003ccode\u003e\u003ca\u003eprefixFind\u003c/a\u003e\u003c/code\u003e functions, which can be used to perform prefix queries. The interface is\n  heavily borrowed from \u003ca\u003eData.Map\u003c/a\u003e and \u003ca\u003eData.IntMap\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eMost other function names clash with \u003ca\u003ePrelude\u003c/a\u003e names, therefore this module is usually\n  imported \u003ccode\u003equalified\u003c/code\u003e, e.g.\n\u003c/p\u003e\u003cpre\u003e import           Data.StringMap (StringMap)\n import qualified Data.StringMap as M\n\u003c/pre\u003e\u003cp\u003eMany functions have a worst-case complexity of \u003cem\u003eO(min(n,L))\u003c/em\u003e. This means that the operation\n  can become linear with the number of elements with a maximum of \u003cem\u003eL\u003c/em\u003e, the length of the\n  key (the number of bytes in the list). The functions for searching a prefix have a worst-case\n  complexity of \u003cem\u003eO(max(L,R))\u003c/em\u003e. This means that the operation can become linear with\n  \u003cem\u003eR\u003c/em\u003e, the number of elements found for the prefix, with a minimum of \u003cem\u003eL\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "Base",
           "package": "data-stringmap",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An efficient implementation of maps from strings to arbitrary values Values can be associated with an arbitrary Char key Searching for keys is very fast The main differences to Data.Map and Data.IntMap are the special prefixFind functions which can be used to perform prefix queries The interface is heavily borrowed from Data.Map and Data.IntMap Most other function names clash with Prelude names therefore this module is usually imported qualified e.g import Data.StringMap StringMap import qualified Data.StringMap as Many functions have worst-case complexity of min This means that the operation can become linear with the number of elements with maximum of the length of the key the number of bytes in the list The functions for searching prefix have worst-case complexity of max This means that the operation can become linear with the number of elements found for the prefix with minimum of",
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "Base",
           "package": "data-stringmap",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "Key",
           "package": "data-stringmap",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "Key",
           "package": "data-stringmap",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estrict list of chars with unpacked fields\n and packing of 2 or 3 chars into a single object\n\u003c/p\u003e\u003cp\u003efor internal use in prefix tree to optimize space efficiency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "Key1",
           "package": "data-stringmap",
@@ -72,6 +77,7 @@
         "index": {
           "description": "strict list of chars with unpacked fields and packing of or chars into single object for internal use in prefix tree to optimize space efficiency",
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "Key1",
           "package": "data-stringmap",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "StringMap",
           "package": "data-stringmap",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "StringMap",
           "package": "data-stringmap",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "StringMapVisitor",
           "package": "data-stringmap",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "StringMapVisitor",
           "package": "data-stringmap",
@@ -153,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "BrSeL",
           "package": "data-stringmap",
@@ -162,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "BrSeL",
           "package": "data-stringmap",
@@ -175,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "BrSeq",
           "package": "data-stringmap",
@@ -184,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "BrSeq",
           "package": "data-stringmap",
@@ -197,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "BrVal",
           "package": "data-stringmap",
@@ -206,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "BrVal",
           "package": "data-stringmap",
@@ -219,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "Branch",
           "package": "data-stringmap",
@@ -228,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "Branch",
           "package": "data-stringmap",
@@ -241,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "C1",
           "package": "data-stringmap",
@@ -250,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "C1",
           "package": "data-stringmap",
@@ -262,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "C2",
           "package": "data-stringmap",
@@ -271,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "C2",
           "package": "data-stringmap",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "C3",
           "package": "data-stringmap",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "C3",
           "package": "data-stringmap",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "C4",
           "package": "data-stringmap",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "C4",
           "package": "data-stringmap",
@@ -325,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "Empty",
           "package": "data-stringmap",
@@ -334,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "Empty",
           "package": "data-stringmap",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "Last",
           "package": "data-stringmap",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "Last",
           "package": "data-stringmap",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "Leaf",
           "package": "data-stringmap",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "Leaf",
           "package": "data-stringmap",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "LsSeL",
           "package": "data-stringmap",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "LsSeL",
           "package": "data-stringmap",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "LsSeq",
           "package": "data-stringmap",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "LsSeq",
           "package": "data-stringmap",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "LsVal",
           "package": "data-stringmap",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "LsVal",
           "package": "data-stringmap",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "Nil",
           "package": "data-stringmap",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "Nil",
           "package": "data-stringmap",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "PTV",
           "package": "data-stringmap",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "PTV",
           "package": "data-stringmap",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "S1",
           "package": "data-stringmap",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "S1",
           "package": "data-stringmap",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "S2",
           "package": "data-stringmap",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "S2",
           "package": "data-stringmap",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "S3",
           "package": "data-stringmap",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "S3",
           "package": "data-stringmap",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "S4",
           "package": "data-stringmap",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "S4",
           "package": "data-stringmap",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "Val",
           "package": "data-stringmap",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "Val",
           "package": "data-stringmap",
@@ -656,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "branch",
           "package": "data-stringmap",
@@ -665,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "branch",
           "normalized": "Sym-\u003eStringMap a-\u003eStringMap a-\u003eStringMap a",
@@ -679,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "child",
           "package": "data-stringmap",
@@ -688,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "child",
           "package": "data-stringmap",
@@ -700,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "cutAllPx'",
           "package": "data-stringmap",
@@ -709,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "cutAllPx'",
           "normalized": "StringSet-\u003eStringMap a-\u003eStringMap a",
@@ -724,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "cutPx'",
           "package": "data-stringmap",
@@ -733,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "cutPx'",
           "normalized": "StringSet-\u003eStringMap a-\u003eStringMap a",
@@ -748,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "deepNorm",
           "package": "data-stringmap",
@@ -757,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "deepNorm",
           "normalized": "StringMap a-\u003eStringMap a",
@@ -772,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "deepUnNorm",
           "package": "data-stringmap",
@@ -781,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "deepUnNorm",
           "normalized": "StringMap a-\u003eStringMap a",
@@ -1138,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "fromKey",
           "package": "data-stringmap",
@@ -1147,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "fromKey",
           "normalized": "Key-\u003eKey",
@@ -1402,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove all entries from the map with key less than the argument key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "lookupGE",
           "package": "data-stringmap",
@@ -1412,6 +1479,7 @@
         "index": {
           "description": "remove all entries from the map with key less than the argument key",
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "lookupGE",
           "normalized": "Key-\u003eStringMap a-\u003eStringMap a",
@@ -1428,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove all entries from the map with keys not having the argument key\n as prefix and are larger than the argument key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "lookupLE",
           "package": "data-stringmap",
@@ -1438,6 +1507,7 @@
         "index": {
           "description": "remove all entries from the map with keys not having the argument key as prefix and are larger than the argument key",
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "lookupLE",
           "normalized": "Key-\u003eStringMap a-\u003eStringMap a",
@@ -1639,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "next",
           "package": "data-stringmap",
@@ -1648,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "next",
           "package": "data-stringmap",
@@ -1660,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "norm",
           "package": "data-stringmap",
@@ -1669,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "norm",
           "normalized": "StringMap a-\u003eStringMap a",
@@ -1683,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "normError'",
           "package": "data-stringmap",
@@ -1692,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "normError'",
           "normalized": "String-\u003eString-\u003ea",
@@ -1840,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "siseq",
           "package": "data-stringmap",
@@ -1849,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "siseq",
           "normalized": "Key-\u003eStringMap a-\u003eStringMap a",
@@ -1889,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "sym",
           "package": "data-stringmap",
@@ -1898,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "sym",
           "package": "data-stringmap",
@@ -1910,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "syms",
           "package": "data-stringmap",
@@ -1919,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "syms",
           "package": "data-stringmap",
@@ -1931,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "toKey",
           "package": "data-stringmap",
@@ -1940,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "toKey",
           "normalized": "Key-\u003eKey",
@@ -2036,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "tree",
           "package": "data-stringmap",
@@ -2045,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "tree",
           "package": "data-stringmap",
@@ -2057,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "unNorm",
           "package": "data-stringmap",
@@ -2066,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "unNorm",
           "normalized": "StringMap a-\u003eStringMap a",
@@ -2241,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "v_branch",
           "package": "data-stringmap",
@@ -2250,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "v_branch",
           "normalized": "Sym-\u003ea-\u003ea-\u003ea",
@@ -2264,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "v_brsel",
           "package": "data-stringmap",
@@ -2273,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "v_brsel",
           "normalized": "Key-\u003ea-\u003eb-\u003eb",
@@ -2287,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "v_brseq",
           "package": "data-stringmap",
@@ -2296,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "v_brseq",
           "normalized": "Key-\u003ea-\u003ea-\u003ea",
@@ -2310,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "v_brval",
           "package": "data-stringmap",
@@ -2319,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "v_brval",
           "normalized": "Sym-\u003ea-\u003eb-\u003eb",
@@ -2333,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "v_empty",
           "package": "data-stringmap",
@@ -2342,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "v_empty",
           "package": "data-stringmap",
@@ -2354,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "v_last",
           "package": "data-stringmap",
@@ -2363,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "v_last",
           "normalized": "Sym-\u003ea-\u003ea",
@@ -2377,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "v_leaf",
           "package": "data-stringmap",
@@ -2386,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "v_leaf",
           "normalized": "a-\u003eb",
@@ -2400,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "v_lssel",
           "package": "data-stringmap",
@@ -2409,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "v_lssel",
           "normalized": "Key-\u003ea-\u003eb",
@@ -2423,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "v_lsseq",
           "package": "data-stringmap",
@@ -2432,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "v_lsseq",
           "normalized": "Key-\u003ea-\u003ea",
@@ -2446,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "v_lsval",
           "package": "data-stringmap",
@@ -2455,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "v_lsval",
           "normalized": "Sym-\u003ea-\u003eb",
@@ -2469,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "v_val",
           "package": "data-stringmap",
@@ -2478,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "v_val",
           "normalized": "a-\u003eb-\u003eb",
@@ -2492,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "val",
           "package": "data-stringmap",
@@ -2501,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "val",
           "normalized": "a-\u003eStringMap a-\u003eStringMap a",
@@ -2541,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "value'",
           "package": "data-stringmap",
@@ -2550,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "value'",
           "package": "data-stringmap",
@@ -2589,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Base",
           "name": "visit",
           "package": "data-stringmap",
@@ -2598,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Base",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Base",
           "name": "visit",
           "normalized": "StringMapVisitor a b-\u003eStringMap a-\u003eb",
@@ -2613,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e2-dimensional range search of numeric values, e.g. pairs of Ints or Doubles\n  using StringMap and prefix search\n\u003c/p\u003e\u003cp\u003eAssumption: The coordinates, e.g. Int values are converted into strings\n  of equal length such that the ordering is preserved by the lexikographic ordering.\n\u003c/p\u003e\u003cp\u003eExample: convert an Int (\u003e= 0) into a String\n  \u003ccode\u003eintToString = reverse . take 19 . (++ repeat '0') . reverse . show\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eDo this for both coordinates of a tuple\n  \u003ccode\u003e(x,y)::(Int,Int)\u003c/code\u003e\n  and merge the two strings character by character.\n  The resulting string is used as key and stored together with an attribute\n  in a StringMap.\n\u003c/p\u003e\u003cp\u003eA range search for all keys within a rectangle \u003ccode\u003e(p1, p2) = ((x1,y1),(x2,y2))\u003c/code\u003e\n  in a map \u003ccode\u003em\u003c/code\u003e can be done by \u003ccode\u003elookupGE p1' . lookupLE p2' $ m\u003c/code\u003e with\n  \u003ccode\u003ep1'\u003c/code\u003e and \u003ccode\u003ep2'\u003c/code\u003e as the to string converted points of the rectangle.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003elookupGE p1'\u003c/code\u003e throws away all keys not located in the quadrant with \u003ccode\u003ep1\u003c/code\u003e\n  as lower left corner, \u003ccode\u003elookupLE p2'\u003c/code\u003e all key not located in the quadrant\n  with \u003ccode\u003ep2\u003c/code\u003e as upper right corner. So the combination (\u003ccode\u003elookupRange\u003c/code\u003e) computed\n  the intersection of these two quadrants.\n\u003c/p\u003e\u003cp\u003eEfficiency of these two function is about the same as a normal lookup\n  from StringMap.Base.\n\u003c/p\u003e\u003cp\u003eThis module should be imported \u003ccode\u003equalified\u003c/code\u003e, the names in Data.StringMap.Dim2Search are the\n  same as theirs siblings in Data.StringMap:\n\u003c/p\u003e\u003cpre\u003e import           Data.StringMap (StringMap)\n import qualified Data.StringMap             as M\n import qualified Data.StringMap.Dim2Search  as Dim2\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Dim2Search",
           "name": "Dim2Search",
           "package": "data-stringmap",
@@ -2622,6 +2739,7 @@
         "index": {
           "description": "dimensional range search of numeric values e.g pairs of Ints or Doubles using StringMap and prefix search Assumption The coordinates e.g Int values are converted into strings of equal length such that the ordering is preserved by the lexikographic ordering Example convert an Int into String intToString reverse take repeat reverse show Do this for both coordinates of tuple Int Int and merge the two strings character by character The resulting string is used as key and stored together with an attribute in StringMap range search for all keys within rectangle p1 p2 x1 y1 x2 y2 in map can be done by lookupGE p1 lookupLE p2 with p1 and p2 as the to string converted points of the rectangle lookupGE p1 throws away all keys not located in the quadrant with p1 as lower left corner lookupLE p2 all key not located in the quadrant with p2 as upper right corner So the combination lookupRange computed the intersection of these two quadrants Efficiency of these two function is about the same as normal lookup from StringMap.Base This module should be imported qualified the names in Data.StringMap.Dim2Search are the same as theirs siblings in Data.StringMap import Data.StringMap StringMap import qualified Data.StringMap as import qualified Data.StringMap.Dim2Search as Dim2",
           "hierarchy": "Data StringMap Dim2Search",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Dim2Search",
           "name": "Dim2Search",
           "package": "data-stringmap",
@@ -2636,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove all entries from the map with key less than the argument key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Dim2Search",
           "name": "lookupGE",
           "package": "data-stringmap",
@@ -2646,6 +2765,7 @@
         "index": {
           "description": "remove all entries from the map with key less than the argument key",
           "hierarchy": "Data StringMap Dim2Search",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Dim2Search",
           "name": "lookupGE",
           "normalized": "Key-\u003eStringMap a-\u003eStringMap a",
@@ -2661,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Dim2Search",
           "name": "lookupLE",
           "package": "data-stringmap",
@@ -2670,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Dim2Search",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Dim2Search",
           "name": "lookupLE",
           "normalized": "Key-\u003eStringMap a-\u003eStringMap a",
@@ -2686,6 +2808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombination of \u003ccode\u003e\u003ca\u003elookupLE\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elookupGE\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e keys $ lookupRange \"a\" \"b\" $ fromList $ zip [\"\", \"a\", \"ab\", \"b\", \"ba\", \"c\"] [1..] = [\"a\",\"ab\",\"b\"]\n\u003c/pre\u003e\u003cp\u003eFor all keys in \u003ccode\u003ek = keys $ lookupRange lb ub m\u003c/code\u003e, this property holts true: \u003ccode\u003ek \u003e= ub && k \u003c= lb\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Dim2Search",
           "name": "lookupRange",
           "package": "data-stringmap",
@@ -2696,6 +2819,7 @@
         "index": {
           "description": "Combination of lookupLE and lookupGE keys lookupRange fromList zip ab ba ab For all keys in keys lookupRange lb ub this property holts true ub lb",
           "hierarchy": "Data StringMap Dim2Search",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Dim2Search",
           "name": "lookupRange",
           "normalized": "Key-\u003eKey-\u003eStringMap a-\u003eStringMap a",
@@ -2712,6 +2836,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn efficient implementation of maps from strings to arbitrary values.\n\u003c/p\u003e\u003cp\u003eValues can associated with an arbitrary byte key. Searching for keys is very fast, but\n  the prefix tree probably consumes more memory than \u003ca\u003eData.Map\u003c/a\u003e. The main differences are the special\n  \u003ccode\u003e\u003ca\u003eprefixFind\u003c/a\u003e\u003c/code\u003e functions, which can be used to perform prefix queries. The interface is\n  heavily borrowed from \u003ca\u003eData.Map\u003c/a\u003e and \u003ca\u003eData.IntMap\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eMost other function names clash with \u003ca\u003ePrelude\u003c/a\u003e names, therefore this module is usually\n  imported \u003ccode\u003equalified\u003c/code\u003e, e.g.\n\u003c/p\u003e\u003cpre\u003e import Data.StringMap (StringMap)\n import qualified Data.StringMap as T\n\u003c/pre\u003e\u003cp\u003eMany functions have a worst-case complexity of \u003cem\u003eO(min(n,L))\u003c/em\u003e. This means that the operation\n  can become linear with the number of elements with a maximum of \u003cem\u003eL\u003c/em\u003e, the length of the\n  key (the number of bytes in the list). The functions for searching a prefix have a worst-case\n  complexity of \u003cem\u003eO(max(L,R))\u003c/em\u003e. This means that the operation can become linear with\n  \u003cem\u003eR\u003c/em\u003e, the number of elements found for the prefix, with a minimum of \u003cem\u003eL\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe module exports include the internal data types, their constructors and access\n  functions for ultimate flexibility. Derived modules should not export these\n  (as shown in \u003ca\u003eHolumbus.Data.StrMap\u003c/a\u003e) to provide only a restricted interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Lazy",
           "name": "Lazy",
           "package": "data-stringmap",
@@ -2721,6 +2846,7 @@
         "index": {
           "description": "An efficient implementation of maps from strings to arbitrary values Values can associated with an arbitrary byte key Searching for keys is very fast but the prefix tree probably consumes more memory than Data.Map The main differences are the special prefixFind functions which can be used to perform prefix queries The interface is heavily borrowed from Data.Map and Data.IntMap Most other function names clash with Prelude names therefore this module is usually imported qualified e.g import Data.StringMap StringMap import qualified Data.StringMap as Many functions have worst-case complexity of min This means that the operation can become linear with the number of elements with maximum of the length of the key the number of bytes in the list The functions for searching prefix have worst-case complexity of max This means that the operation can become linear with the number of elements found for the prefix with minimum of The module exports include the internal data types their constructors and access functions for ultimate flexibility Derived modules should not export these as shown in Holumbus.Data.StrMap to provide only restricted interface",
           "hierarchy": "Data StringMap Lazy",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Lazy",
           "name": "Lazy",
           "package": "data-stringmap",
@@ -2734,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Lazy",
           "name": "Key",
           "package": "data-stringmap",
@@ -2742,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Lazy",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Lazy",
           "name": "Key",
           "package": "data-stringmap",
@@ -2755,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Lazy",
           "name": "StringMap",
           "package": "data-stringmap",
@@ -2763,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Lazy",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Lazy",
           "name": "StringMap",
           "package": "data-stringmap",
@@ -2858,6 +2988,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn efficient implementation of maps from strings to arbitrary values.\n\u003c/p\u003e\u003cp\u003eValues can be associated with an arbitrary [Char] key. Searching for keys is very fast.\n  The main differences to Data.Map and Data.IntMap are the special\n  \u003ccode\u003e\u003ca\u003eprefixFind\u003c/a\u003e\u003c/code\u003e functions, which can be used to perform prefix queries. The interface is\n  heavily borrowed from \u003ca\u003eData.Map\u003c/a\u003e and \u003ca\u003eData.IntMap\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eMost other function names clash with \u003ca\u003ePrelude\u003c/a\u003e names, therefore this module is usually\n  imported \u003ccode\u003equalified\u003c/code\u003e, e.g.\n\u003c/p\u003e\u003cpre\u003e import           Data.StringMap.Strict (StringMap)\n import qualified Data.StringMap.Strict as M\n\u003c/pre\u003e\u003cp\u003eMany functions have a worst-case complexity of \u003cem\u003eO(min(n,L))\u003c/em\u003e. This means that the operation\n  can become linear with the number of elements with a maximum of \u003cem\u003eL\u003c/em\u003e, the length of the\n  key (the number of bytes in the list). The functions for searching a prefix have a worst-case\n  complexity of \u003cem\u003eO(max(L,R))\u003c/em\u003e. This means that the operation can become linear with\n  \u003cem\u003eR\u003c/em\u003e, the number of elements found for the prefix, with a minimum of \u003cem\u003eL\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThis module has versions of the \"modifying\" operations,\n  like insert, update, delete and map, that force evaluating\n  the attribute values before doing the operation.\n  All \"reading\" operations and the data types are reexported\n  from Data.StringMap.Base.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "Strict",
           "package": "data-stringmap",
@@ -2867,6 +2998,7 @@
         "index": {
           "description": "An efficient implementation of maps from strings to arbitrary values Values can be associated with an arbitrary Char key Searching for keys is very fast The main differences to Data.Map and Data.IntMap are the special prefixFind functions which can be used to perform prefix queries The interface is heavily borrowed from Data.Map and Data.IntMap Most other function names clash with Prelude names therefore this module is usually imported qualified e.g import Data.StringMap.Strict StringMap import qualified Data.StringMap.Strict as Many functions have worst-case complexity of min This means that the operation can become linear with the number of elements with maximum of the length of the key the number of bytes in the list The functions for searching prefix have worst-case complexity of max This means that the operation can become linear with the number of elements found for the prefix with minimum of This module has versions of the modifying operations like insert update delete and map that force evaluating the attribute values before doing the operation All reading operations and the data types are reexported from Data.StringMap.Base",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "Strict",
           "package": "data-stringmap",
@@ -2880,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "Key",
           "package": "data-stringmap",
@@ -2888,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "Key",
           "package": "data-stringmap",
@@ -2901,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "StringMap",
           "package": "data-stringmap",
@@ -2909,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "StringMap",
           "package": "data-stringmap",
@@ -2922,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "adjust",
           "package": "data-stringmap",
@@ -2931,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eKey-\u003eStringMap a-\u003eStringMap a",
@@ -2945,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "adjustWithKey",
           "package": "data-stringmap",
@@ -2954,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "adjustWithKey",
           "normalized": "(Key-\u003ea-\u003ea)-\u003eKey-\u003eStringMap a-\u003eStringMap a",
@@ -2970,6 +3110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(n,L))\u003c/em\u003e Delete an element from the map. If no element exists for the key, the map\n remains unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "delete",
           "package": "data-stringmap",
@@ -2980,6 +3121,7 @@
         "index": {
           "description": "min Delete an element from the map If no element exists for the key the map remains unchanged",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "delete",
           "normalized": "Key-\u003eStringMap a-\u003eStringMap a",
@@ -2995,6 +3137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Creates a string map from a list of key/value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "fromList",
           "package": "data-stringmap",
@@ -3005,6 +3148,7 @@
         "index": {
           "description": "Creates string map from list of key value pairs",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "fromList",
           "normalized": "[(Key,a)]-\u003eStringMap a",
@@ -3021,6 +3165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(n,L))\u003c/em\u003e Insert a new key and value into the map. If the key is already present in\n the map, the associated value will be replaced with the new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "insert",
           "package": "data-stringmap",
@@ -3031,6 +3176,7 @@
         "index": {
           "description": "min Insert new key and value into the map If the key is already present in the map the associated value will be replaced with the new value",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "insert",
           "normalized": "Key-\u003ea-\u003eStringMap a-\u003eStringMap a",
@@ -3046,6 +3192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(n,L))\u003c/em\u003e Insert with a combining function. If the key is already present in the map,\n the value of \u003ccode\u003ef new_value old_value\u003c/code\u003e will be inserted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "insertWith",
           "package": "data-stringmap",
@@ -3056,6 +3203,7 @@
         "index": {
           "description": "min Insert with combining function If the key is already present in the map the value of new value old value will be inserted",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eKey-\u003ea-\u003eStringMap a-\u003eStringMap a",
@@ -3072,6 +3220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(n,L))\u003c/em\u003e Insert with a combining function. If the key is already present in the map,\n the value of \u003ccode\u003ef key new_value old_value\u003c/code\u003e will be inserted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "insertWithKey",
           "package": "data-stringmap",
@@ -3082,6 +3231,7 @@
         "index": {
           "description": "min Insert with combining function If the key is already present in the map the value of key new value old value will be inserted",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "insertWithKey",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003eKey-\u003ea-\u003eStringMap a-\u003eStringMap a",
@@ -3098,6 +3248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Map a function over all values in the string map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "map",
           "package": "data-stringmap",
@@ -3108,6 +3259,7 @@
         "index": {
           "description": "Map function over all values in the string map",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eStringMap a-\u003eStringMap b",
@@ -3123,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "mapM",
           "package": "data-stringmap",
@@ -3133,6 +3286,7 @@
         "index": {
           "description": "Monadic map",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003eStringMap a-\u003eb(StringMap c)",
@@ -3148,6 +3302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Updates a value or deletes the element,\n if the result of the updating function is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "mapMaybe",
           "package": "data-stringmap",
@@ -3158,6 +3313,7 @@
         "index": {
           "description": "Updates value or deletes the element if the result of the updating function is Nothing",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eStringMap a-\u003eStringMap b",
@@ -3174,6 +3330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Same as \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e, but with an additional paramter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "mapWithKey",
           "package": "data-stringmap",
@@ -3184,6 +3341,7 @@
         "index": {
           "description": "Same as map but with an additional paramter",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "mapWithKey",
           "normalized": "(Key-\u003ea-\u003eb)-\u003eStringMap a-\u003eStringMap b",
@@ -3200,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic \u003ccode\u003e\u003ca\u003emapWithKey\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "mapWithKeyM",
           "package": "data-stringmap",
@@ -3210,6 +3369,7 @@
         "index": {
           "description": "Monadic mapWithKey",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "mapWithKeyM",
           "normalized": "(Key-\u003ea-\u003eb c)-\u003eStringMap a-\u003eb(StringMap c)",
@@ -3226,6 +3386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Create a map with a single element.\n\u003c/p\u003e\u003cp\u003ethe attribute value is evaluated to WHNF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "singleton",
           "package": "data-stringmap",
@@ -3236,6 +3397,7 @@
         "index": {
           "description": "Create map with single element the attribute value is evaluated to WHNF",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "singleton",
           "normalized": "Key-\u003ea-\u003eStringMap a",
@@ -3251,6 +3413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Left-biased union of two maps. It prefers the first map when duplicate keys are\n encountered, i.e. (\u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e == \u003ccode\u003e\u003ca\u003eunionWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "union",
           "package": "data-stringmap",
@@ -3261,6 +3424,7 @@
         "index": {
           "description": "Left-biased union of two maps It prefers the first map when duplicate keys are encountered i.e union unionWith const",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "union",
           "normalized": "StringMap a-\u003eStringMap a-\u003eStringMap a",
@@ -3276,6 +3440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralisation of \u003ccode\u003e\u003ca\u003eunionWith\u003c/a\u003e\u003c/code\u003e. The second map may have another attribute type than the first one.\n Conversion and merging of the maps is done in a single step.\n This is much more efficient than mapping the second map and then call \u003ccode\u003e\u003ca\u003eunionWith\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003eunionWithConf to ( x y -\u003e x \u003ccode\u003eop\u003c/code\u003e to y) m1 m2 = unionWith op m1 (fmap to m2)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "unionMapWith",
           "package": "data-stringmap",
@@ -3286,6 +3451,7 @@
         "index": {
           "description": "Generalisation of unionWith The second map may have another attribute type than the first one Conversion and merging of the maps is done in single step This is much more efficient than mapping the second map and then call unionWith unionWithConf to op to m1 m2 unionWith op m1 fmap to m2",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "unionMapWith",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003eb)-\u003eStringMap b-\u003eStringMap a-\u003eStringMap b",
@@ -3302,6 +3468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "unionWith",
           "package": "data-stringmap",
@@ -3312,6 +3479,7 @@
         "index": {
           "description": "union with combining function",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eStringMap a-\u003eStringMap a-\u003eStringMap a",
@@ -3328,6 +3496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(n,L))\u003c/em\u003e Updates a value at a given key (if that key is in the trie) or deletes the\n element if the result of the updating function is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e. If the key is not found, the trie\n is returned unchanged.\n The updated value is evaluated to WHNF before insertion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "update",
           "package": "data-stringmap",
@@ -3338,6 +3507,7 @@
         "index": {
           "description": "min Updates value at given key if that key is in the trie or deletes the element if the result of the updating function is Nothing If the key is not found the trie is returned unchanged The updated value is evaluated to WHNF before insertion",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "update",
           "normalized": "(a-\u003eMaybe a)-\u003eKey-\u003eStringMap a-\u003eStringMap a",
@@ -3353,6 +3523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(n,L))\u003c/em\u003e Updates a value at a given key (if that key is in the trie) or deletes the\n element if the result of the updating function is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e. If the key is not found, the trie\n is returned unchanged.\n The updated value is evaluated to WHNF before insertion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Strict",
           "name": "updateWithKey",
           "package": "data-stringmap",
@@ -3363,6 +3534,7 @@
         "index": {
           "description": "min Updates value at given key if that key is in the trie or deletes the element if the result of the updating function is Nothing If the key is not found the trie is returned unchanged The updated value is evaluated to WHNF before insertion",
           "hierarchy": "Data StringMap Strict",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Strict",
           "name": "updateWithKey",
           "normalized": "(Key-\u003ea-\u003eMaybe a)-\u003eKey-\u003eStringMap a-\u003eStringMap a",
@@ -3379,6 +3551,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simplified version of StringMap for implementing sets.\n\u003c/p\u003e\u003cp\u003eThere is one important difference to the StringMap implementation:\n  The fields are not marked to be strict. This enables building the\n  set on the fly.\n\u003c/p\u003e\u003cp\u003eThis feature is used in fuzzy search, when an index tree is restricted\n  to a set of keys, e.g. the set of all none case significant keys\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "StringSet",
           "package": "data-stringmap",
@@ -3388,6 +3561,7 @@
         "index": {
           "description": "simplified version of StringMap for implementing sets There is one important difference to the StringMap implementation The fields are not marked to be strict This enables building the set on the fly This feature is used in fuzzy search when an index tree is restricted to set of keys e.g the set of all none case significant keys",
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "StringSet",
           "package": "data-stringmap",
@@ -3402,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of strings implemented as lazy prefix tree.\n \u003ccode\u003etype StringSet = StringMap ()\u003c/code\u003e is not feasable because of\n the strict fields in the StringMap definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "StringSet",
           "package": "data-stringmap",
@@ -3411,6 +3586,7 @@
         "index": {
           "description": "Set of strings implemented as lazy prefix tree type StringSet StringMap is not feasable because of the strict fields in the StringMap definition",
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "StringSet",
           "package": "data-stringmap",
@@ -3424,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "PSelem",
           "package": "data-stringmap",
@@ -3433,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "PSelem",
           "package": "data-stringmap",
@@ -3446,6 +3624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "PSempty",
           "package": "data-stringmap",
@@ -3455,6 +3634,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "PSempty",
           "package": "data-stringmap",
@@ -3468,6 +3648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "PSnext",
           "package": "data-stringmap",
@@ -3477,6 +3658,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "PSnext",
           "package": "data-stringmap",
@@ -3490,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "elem0PS",
           "package": "data-stringmap",
@@ -3499,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "elem0PS",
           "package": "data-stringmap",
@@ -3512,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "elemPS",
           "package": "data-stringmap",
@@ -3521,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "elemPS",
           "normalized": "StringSet-\u003eStringSet",
@@ -3536,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "elemsPS",
           "package": "data-stringmap",
@@ -3545,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "elemsPS",
           "normalized": "StringSet-\u003e[Key]",
@@ -3560,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "emptyPS",
           "package": "data-stringmap",
@@ -3569,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "emptyPS",
           "package": "data-stringmap",
@@ -3582,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "foldPS",
           "package": "data-stringmap",
@@ -3591,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "foldPS",
           "normalized": "(Key-\u003ea-\u003ea)-\u003ea-\u003e(Key-\u003eKey)-\u003eStringSet-\u003ea",
@@ -3606,6 +3798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "foldWithKeyPS",
           "package": "data-stringmap",
@@ -3615,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "foldWithKeyPS",
           "normalized": "(Key-\u003ea-\u003ea)-\u003ea-\u003eStringSet-\u003ea",
@@ -3630,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "fuzzyCharPS",
           "package": "data-stringmap",
@@ -3639,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "fuzzyCharPS",
           "normalized": "(Sym-\u003e[Sym])-\u003eStringSet-\u003eStringSet",
@@ -3654,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "fuzzyCharsPS",
           "package": "data-stringmap",
@@ -3663,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "fuzzyCharsPS",
           "normalized": "(Sym-\u003e[Key])-\u003eStringSet-\u003eStringSet",
@@ -3678,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "lastPS",
           "package": "data-stringmap",
@@ -3687,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "lastPS",
           "normalized": "Sym-\u003eStringSet-\u003eStringSet",
@@ -3702,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "nextPS",
           "package": "data-stringmap",
@@ -3711,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "nextPS",
           "normalized": "Sym-\u003eStringSet-\u003eStringSet-\u003eStringSet",
@@ -3726,6 +3928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "nullPS",
           "package": "data-stringmap",
@@ -3735,6 +3938,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "nullPS",
           "normalized": "StringSet-\u003eBool",
@@ -3750,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "prefixPS",
           "package": "data-stringmap",
@@ -3759,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "prefixPS",
           "normalized": "Key-\u003eStringSet",
@@ -3774,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "singlePS",
           "package": "data-stringmap",
@@ -3783,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "singlePS",
           "normalized": "Key-\u003eStringSet",
@@ -3798,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.StringSet",
           "name": "unionPS",
           "package": "data-stringmap",
@@ -3807,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap StringSet",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.StringSet",
           "name": "unionPS",
           "normalized": "StringSet-\u003eStringSet-\u003eStringSet",
@@ -3823,6 +4033,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types used in all StringMap modules\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Types",
           "name": "Types",
           "package": "data-stringmap",
@@ -3832,6 +4043,7 @@
         "index": {
           "description": "Data types used in all StringMap modules",
           "hierarchy": "Data StringMap Types",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Types",
           "name": "Types",
           "package": "data-stringmap",
@@ -3845,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Types",
           "name": "Key",
           "package": "data-stringmap",
@@ -3853,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Types",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Types",
           "name": "Key",
           "package": "data-stringmap",
@@ -3866,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap.Types",
           "name": "Sym",
           "package": "data-stringmap",
@@ -3874,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap Types",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap.Types",
           "name": "Sym",
           "package": "data-stringmap",
@@ -3888,6 +4104,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn efficient implementation of maps from strings to arbitrary values.\n\u003c/p\u003e\u003cp\u003eValues can be associated with an arbitrary [Char] key. Searching for keys is very fast.\n  The main differences to Data.Map and Data.IntMap are the special\n  \u003ccode\u003e\u003ca\u003eprefixFind\u003c/a\u003e\u003c/code\u003e functions, which can be used to perform prefix queries. The interface is\n  heavily borrowed from \u003ca\u003eData.Map\u003c/a\u003e and \u003ca\u003eData.IntMap\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eMost other function names clash with \u003ca\u003ePrelude\u003c/a\u003e names, therefore this module is usually\n  imported \u003ccode\u003equalified\u003c/code\u003e, e.g.\n\u003c/p\u003e\u003cpre\u003e import           Data.StringMap (StringMap)\n import qualified Data.StringMap as M\n\u003c/pre\u003e\u003cp\u003eMany functions have a worst-case complexity of \u003cem\u003eO(min(n,L))\u003c/em\u003e. This means that the operation\n  can become linear with the number of elements with a maximum of \u003cem\u003eL\u003c/em\u003e, the length of the\n  key (the number of bytes in the list). The functions for searching a prefix have a worst-case\n  complexity of \u003cem\u003eO(max(L,R))\u003c/em\u003e. This means that the operation can become linear with\n  \u003cem\u003eR\u003c/em\u003e, the number of elements found for the prefix, with a minimum of \u003cem\u003eL\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThis module reexports all generally usefull types and operations\n  from Data.StringMap.Base.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap",
           "name": "StringMap",
           "package": "data-stringmap",
@@ -3897,6 +4114,7 @@
         "index": {
           "description": "An efficient implementation of maps from strings to arbitrary values Values can be associated with an arbitrary Char key Searching for keys is very fast The main differences to Data.Map and Data.IntMap are the special prefixFind functions which can be used to perform prefix queries The interface is heavily borrowed from Data.Map and Data.IntMap Most other function names clash with Prelude names therefore this module is usually imported qualified e.g import Data.StringMap StringMap import qualified Data.StringMap as Many functions have worst-case complexity of min This means that the operation can become linear with the number of elements with maximum of the length of the key the number of bytes in the list The functions for searching prefix have worst-case complexity of max This means that the operation can become linear with the number of elements found for the prefix with minimum of This module reexports all generally usefull types and operations from Data.StringMap.Base",
           "hierarchy": "Data StringMap",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap",
           "name": "StringMap",
           "package": "data-stringmap",
@@ -3910,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap",
           "name": "Key",
           "package": "data-stringmap",
@@ -3918,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap",
           "name": "Key",
           "package": "data-stringmap",
@@ -3931,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:51 UTC 2014",
           "module": "Data.StringMap",
           "name": "StringMap",
           "package": "data-stringmap",
@@ -3939,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Data StringMap",
+          "indexed": "2014-03-11T17:49:51",
           "module": "Data.StringMap",
           "name": "StringMap",
           "package": "data-stringmap",

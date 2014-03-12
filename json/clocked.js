@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clocked"
+        "phrase": "clocked",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:29 UTC 2014",
           "module": "Clocked",
           "name": "Clocked",
           "package": "clocked",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Clocked",
+          "indexed": "2014-03-11T17:34:29",
           "module": "Clocked",
           "name": "Clocked",
           "package": "clocked",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:29 UTC 2014",
           "module": "Clocked",
           "name": "Timer",
           "package": "clocked",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Clocked",
+          "indexed": "2014-03-11T17:34:29",
           "module": "Clocked",
           "name": "Timer",
           "package": "clocked",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns a monotonic time in seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:29 UTC 2014",
           "module": "Clocked",
           "name": "getTimeDouble",
           "package": "clocked",
@@ -71,6 +76,7 @@
         "index": {
           "description": "returns monotonic time in seconds",
           "hierarchy": "Clocked",
+          "indexed": "2014-03-11T17:34:29",
           "module": "Clocked",
           "name": "getTimeDouble",
           "package": "clocked",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWaits the given amount of seconds minus the elapsed time\n since the last call to \u003ccode\u003e\u003ca\u003ewaitTimer\u003c/a\u003e\u003c/code\u003e (or the initialisation of the timer).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:29 UTC 2014",
           "module": "Clocked",
           "name": "waitTimer",
           "package": "clocked",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Waits the given amount of seconds minus the elapsed time since the last call to waitTimer or the initialisation of the timer",
           "hierarchy": "Clocked",
+          "indexed": "2014-03-11T17:34:29",
           "module": "Clocked",
           "name": "waitTimer",
           "normalized": "Timer-\u003eDouble-\u003eIO()",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a monadic action with a \u003ccode\u003e\u003ca\u003eTimer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:29 UTC 2014",
           "module": "Clocked",
           "name": "withTimer",
           "package": "clocked",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Run monadic action with Timer",
           "hierarchy": "Clocked",
+          "indexed": "2014-03-11T17:34:29",
           "module": "Clocked",
           "name": "withTimer",
           "normalized": "(Timer-\u003ea b)-\u003ea b",

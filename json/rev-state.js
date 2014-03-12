@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rev-state"
+        "phrase": "rev-state",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.RevState.Class",
           "name": "Class",
           "package": "rev-state",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad RevState Class",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.RevState.Class",
           "name": "Class",
           "package": "rev-state",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.RevState.Class",
           "name": "MonadRevState",
           "package": "rev-state",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad RevState Class",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.RevState.Class",
           "name": "MonadRevState",
           "package": "rev-state",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.RevState.Class",
           "name": "get",
           "package": "rev-state",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad RevState Class",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.RevState.Class",
           "name": "get",
           "package": "rev-state",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.RevState.Class",
           "name": "gets",
           "package": "rev-state",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Control Monad RevState Class",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.RevState.Class",
           "name": "gets",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.RevState.Class",
           "name": "modify",
           "package": "rev-state",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Control Monad RevState Class",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.RevState.Class",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.RevState.Class",
           "name": "put",
           "package": "rev-state",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Control Monad RevState Class",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.RevState.Class",
           "name": "put",
           "normalized": "a-\u003eb()",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.RevState.Class",
           "name": "state",
           "package": "rev-state",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Control Monad RevState Class",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.RevState.Class",
           "name": "state",
           "normalized": "(a-\u003e(b,a))-\u003ec b",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.RevState",
           "name": "RevState",
           "package": "rev-state",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Control Monad RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.RevState",
           "name": "RevState",
           "package": "rev-state",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "RevState",
           "package": "rev-state",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "RevState",
           "package": "rev-state",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "State",
           "package": "rev-state",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "State",
           "package": "rev-state",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "StateT",
           "package": "rev-state",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "StateT",
           "package": "rev-state",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "StateT",
           "package": "rev-state",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "StateT",
           "package": "rev-state",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "evalState",
           "package": "rev-state",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "evalState",
           "normalized": "State a b-\u003ea-\u003eb",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "evalStateT",
           "package": "rev-state",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "evalStateT",
           "normalized": "StateT a b c-\u003ea-\u003eb c",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "execState",
           "package": "rev-state",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "execState",
           "normalized": "State a b-\u003ea-\u003ea",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "execStateT",
           "package": "rev-state",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "execStateT",
           "normalized": "StateT a b c-\u003ea-\u003eb a",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "get",
           "package": "rev-state",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "get",
           "package": "rev-state",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "gets",
           "package": "rev-state",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "gets",
           "normalized": "(a-\u003eb)-\u003eStateT a c b",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "mapState",
           "package": "rev-state",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "mapState",
           "normalized": "((a,b)-\u003e(c,b))-\u003eState b a-\u003eState b c",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "mapStateT",
           "package": "rev-state",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "mapStateT",
           "normalized": "(a(b,c)-\u003ed(e,c))-\u003eStateT c a b-\u003eStateT c d e",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "modify",
           "package": "rev-state",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eStateT a b()",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "put",
           "package": "rev-state",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "put",
           "normalized": "a-\u003eStateT a b()",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "runState",
           "package": "rev-state",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "runState",
           "normalized": "State a b-\u003ea-\u003e(b,a)",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "runStateT",
           "package": "rev-state",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "runStateT",
           "normalized": "a-\u003eb(c,a)",
@@ -561,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "state",
           "package": "rev-state",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "state",
           "normalized": "(a-\u003e(b,a))-\u003eStateT a c b",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "withState",
           "package": "rev-state",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "withState",
           "normalized": "(a-\u003ea)-\u003eState a b-\u003eState a b",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:03 UTC 2014",
           "module": "Control.Monad.Trans.RevState",
           "name": "withStateT",
           "package": "rev-state",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RevState",
+          "indexed": "2014-03-11T19:54:03",
           "module": "Control.Monad.Trans.RevState",
           "name": "withStateT",
           "normalized": "(a-\u003ea)-\u003eStateT a b c-\u003eStateT a b c",

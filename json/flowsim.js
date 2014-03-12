@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flowsim"
+        "phrase": "flowsim",
+        "type": "phrase"
       },
       "type": "context"
     }

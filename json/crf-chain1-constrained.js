@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crf-chain1-constrained"
+        "phrase": "crf-chain1-constrained",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "Codec",
           "package": "crf-chain1-constrained",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "Codec",
           "package": "crf-chain1-constrained",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA codec.  The first component is used to encode observations\n of type a, the second one is used to encode labels of type b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "Codec",
           "package": "crf-chain1-constrained",
@@ -49,6 +52,7 @@
         "index": {
           "description": "codec The first component is used to encode observations of type the second one is used to encode labels of type",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "Codec",
           "package": "crf-chain1-constrained",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for the codec monad.  It is important to notice that by a\n codec we denote here a structure of two \u003ccode\u003e\u003ca\u003eAtomCodec\u003c/a\u003e\u003c/code\u003es while in the\n monad-codec package it denotes a monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "CodecM",
           "package": "crf-chain1-constrained",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Type synonym for the codec monad It is important to notice that by codec we denote here structure of two AtomCodec while in the monad-codec package it denotes monad",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "CodecM",
           "package": "crf-chain1-constrained",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "decodeLabel",
           "package": "crf-chain1-constrained",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Decode the label",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "decodeLabel",
           "normalized": "Codec a b-\u003eLb-\u003eMaybe b",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the sequence of labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "decodeLabels",
           "package": "crf-chain1-constrained",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Decode the sequence of labels",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "decodeLabels",
           "normalized": "Codec a b-\u003e[Lb]-\u003e[Maybe b]",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the dataset with the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeData",
           "package": "crf-chain1-constrained",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Encode the dataset with the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeData",
           "normalized": "Codec a b-\u003e[Sent a b]-\u003e[Xs]",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled dataset using the codec.  Substitute the default\n label for any label not present in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeDataL",
           "package": "crf-chain1-constrained",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Encode the labeled dataset using the codec Substitute the default label for any label not present in the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeDataL",
           "normalized": "Codec a b-\u003e[SentL a b]-\u003e[(Xs,Ys)]",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode labels into an ascending vector of distinct label codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeLabels",
           "package": "crf-chain1-constrained",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Encode labels into an ascending vector of distinct label codes",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeLabels",
           "normalized": "Codec a b-\u003e[b]-\u003eAVec Lb",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the sentence using the given codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSent",
           "package": "crf-chain1-constrained",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Encode the sentence using the given codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSent",
           "normalized": "Codec a b-\u003eSent a b-\u003eXs",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the sentence and do *not* update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSent'Cn",
           "package": "crf-chain1-constrained",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Encode the sentence and do not update the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSent'Cn",
           "normalized": "Sent a b-\u003eCodecM a b Xs",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the sentence and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSent'Cu",
           "package": "crf-chain1-constrained",
@@ -278,6 +299,7 @@
         "index": {
           "description": "Encode the sentence and update the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSent'Cu",
           "normalized": "Sent a b-\u003eCodecM a b Xs",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled sentence with the given codec.  Substitute the\n default label for any label not present in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSentL",
           "package": "crf-chain1-constrained",
@@ -304,6 +327,7 @@
         "index": {
           "description": "Encode the labeled sentence with the given codec Substitute the default label for any label not present in the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSentL",
           "normalized": "Codec a b-\u003eSentL a b-\u003e(Xs,Ys)",
@@ -320,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled sentence and do *not* update the codec.\n Substitute the default label for any label not present in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSentL'Cn",
           "package": "crf-chain1-constrained",
@@ -330,6 +355,7 @@
         "index": {
           "description": "Encode the labeled sentence and do not update the codec Substitute the default label for any label not present in the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSentL'Cn",
           "normalized": "SentL a b-\u003eCodecM a b(Xs,Ys)",
@@ -346,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled sentence and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSentL'Cu",
           "package": "crf-chain1-constrained",
@@ -356,6 +383,7 @@
         "index": {
           "description": "Encode the labeled sentence and update the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeSentL'Cu",
           "normalized": "SentL a b-\u003eCodecM a b(Xs,Ys)",
@@ -372,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the word and do *not* update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeWord'Cn",
           "package": "crf-chain1-constrained",
@@ -382,6 +411,7 @@
         "index": {
           "description": "Encode the word and do not update the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeWord'Cn",
           "normalized": "Word a b-\u003eCodecM a b X",
@@ -398,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the word and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeWord'Cu",
           "package": "crf-chain1-constrained",
@@ -408,6 +439,7 @@
         "index": {
           "description": "Encode the word and update the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeWord'Cu",
           "normalized": "Word a b-\u003eCodecM a b X",
@@ -424,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodec the labeled word and do *not* update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeWordL'Cn",
           "package": "crf-chain1-constrained",
@@ -434,6 +467,7 @@
         "index": {
           "description": "Encodec the labeled word and do not update the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeWordL'Cn",
           "normalized": "WordL a b-\u003eCodecM a b(X,Y)",
@@ -450,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled word and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeWordL'Cu",
           "package": "crf-chain1-constrained",
@@ -460,6 +495,7 @@
         "index": {
           "description": "Encode the labeled word and update the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "encodeWordL'Cu",
           "normalized": "WordL a b-\u003eCodecM a b(X,Y)",
@@ -476,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum internal label included in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "lbMax",
           "package": "crf-chain1-constrained",
@@ -486,6 +523,7 @@
         "index": {
           "description": "The maximum internal label included in the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "lbMax",
           "normalized": "Codec a b-\u003eLb",
@@ -502,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate codec on the basis of the labeled dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "mkCodec",
           "package": "crf-chain1-constrained",
@@ -512,6 +551,7 @@
         "index": {
           "description": "Create codec on the basis of the labeled dataset",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "mkCodec",
           "normalized": "[SentL a b]-\u003eCodec a b",
@@ -528,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum internal observation included in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "obMax",
           "package": "crf-chain1-constrained",
@@ -538,6 +579,7 @@
         "index": {
           "description": "The maximum internal observation included in the codec",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "obMax",
           "normalized": "Codec a b-\u003eOb",
@@ -554,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the label when \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e or one of the unknown values\n when \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "unJust",
           "package": "crf-chain1-constrained",
@@ -564,6 +607,7 @@
         "index": {
           "description": "Return the label when Just or one of the unknown values when Nothing",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "unJust",
           "normalized": "Codec a b-\u003eWord a b-\u003eMaybe b-\u003eb",
@@ -580,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e labels with all unknown labels from\n the set of potential interpretations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "unJusts",
           "package": "crf-chain1-constrained",
@@ -590,6 +635,7 @@
         "index": {
           "description": "Replace Nothing labels with all unknown labels from the set of potential interpretations",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Codec",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Codec",
           "name": "unJusts",
           "normalized": "Codec a b-\u003eWord a b-\u003e[Maybe b]-\u003e[b]",
@@ -605,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "External",
           "package": "crf-chain1-constrained",
@@ -613,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Dataset External",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "External",
           "package": "crf-chain1-constrained",
@@ -627,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA probability distribution defined over elements of type a.\n All elements not included in the map have probability equal\n to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "Prob",
           "package": "crf-chain1-constrained",
@@ -636,6 +685,7 @@
         "index": {
           "description": "probability distribution defined over elements of type All elements not included in the map have probability equal to",
           "hierarchy": "Data CRF Chain1 Constrained Dataset External",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "Prob",
           "package": "crf-chain1-constrained",
@@ -650,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "Sent",
           "package": "crf-chain1-constrained",
@@ -659,6 +710,7 @@
         "index": {
           "description": "sentence of words",
           "hierarchy": "Data CRF Chain1 Constrained Dataset External",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "Sent",
           "package": "crf-chain1-constrained",
@@ -673,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of labeled words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "SentL",
           "package": "crf-chain1-constrained",
@@ -682,6 +735,7 @@
         "index": {
           "description": "sentence of labeled words",
           "hierarchy": "Data CRF Chain1 Constrained Dataset External",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "SentL",
           "package": "crf-chain1-constrained",
@@ -696,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Word is represented by a set of observations\n and a set of potential interpretation labels.\n When the set of potential labels is empty the word\n is considered to be unknown and the default potential\n set is used in its place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "Word",
           "package": "crf-chain1-constrained",
@@ -705,6 +760,7 @@
         "index": {
           "description": "Word is represented by set of observations and set of potential interpretation labels When the set of potential labels is empty the word is considered to be unknown and the default potential set is used in its place",
           "hierarchy": "Data CRF Chain1 Constrained Dataset External",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "Word",
           "package": "crf-chain1-constrained",
@@ -719,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WordL is a labeled word, i.e. a word with probability distribution\n defined over labels.  We assume that every label from the distribution\n domain is a member of the set of potential labels corresponding to the\n word.  Use the \u003ccode\u003e\u003ca\u003emkWordL\u003c/a\u003e\u003c/code\u003e smart constructor to build \u003ccode\u003e\u003ca\u003eWordL\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "WordL",
           "package": "crf-chain1-constrained",
@@ -728,6 +785,7 @@
         "index": {
           "description": "WordL is labeled word i.e word with probability distribution defined over labels We assume that every label from the distribution domain is member of the set of potential labels corresponding to the word Use the mkWordL smart constructor to build WordL",
           "hierarchy": "Data CRF Chain1 Constrained Dataset External",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.External",
           "name": "WordL",
           "package": "crf-chain1-constrained",
@@ -892,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Internal",
           "package": "crf-chain1-constrained",
@@ -900,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Internal",
           "package": "crf-chain1-constrained",
@@ -914,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAscending vector of unique interger elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "AVec",
           "package": "crf-chain1-constrained",
@@ -923,6 +984,7 @@
         "index": {
           "description": "Ascending vector of unique interger elements",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "AVec",
           "package": "crf-chain1-constrained",
@@ -937,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Lb",
           "package": "crf-chain1-constrained",
@@ -946,6 +1009,7 @@
         "index": {
           "description": "label",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Lb",
           "package": "crf-chain1-constrained",
@@ -960,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn observation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Ob",
           "package": "crf-chain1-constrained",
@@ -969,6 +1034,7 @@
         "index": {
           "description": "An observation",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Ob",
           "package": "crf-chain1-constrained",
@@ -983,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA word represented by a list of its observations\n and a list of its potential label interpretations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "X",
           "package": "crf-chain1-constrained",
@@ -992,6 +1059,7 @@
         "index": {
           "description": "word represented by list of its observations and list of its potential label interpretations",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "X",
           "package": "crf-chain1-constrained",
@@ -1005,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSentence of words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Xs",
           "package": "crf-chain1-constrained",
@@ -1014,6 +1083,7 @@
         "index": {
           "description": "Sentence of words",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Xs",
           "package": "crf-chain1-constrained",
@@ -1028,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability distribution over labels.  We assume, that when y is\n a member of chosen labels list it is also a member of the list\n potential labels for corresponding \u003ccode\u003e\u003ca\u003eX\u003c/a\u003e\u003c/code\u003e word.\n TODO: Perhaps we should substitute \u003ccode\u003e\u003ca\u003eLb\u003c/a\u003e\u003c/code\u003es with label indices\n corresponding to labels from the vector of potential labels?\n FIXME: The type definition is incorrect (see \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e definition),\n it should be something like AVec2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Y",
           "package": "crf-chain1-constrained",
@@ -1037,6 +1108,7 @@
         "index": {
           "description": "Probability distribution over labels We assume that when is member of chosen labels list it is also member of the list potential labels for corresponding word TODO Perhaps we should substitute Lb with label indices corresponding to labels from the vector of potential labels FIXME The type definition is incorrect see fromList definition it should be something like AVec2",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Y",
           "package": "crf-chain1-constrained",
@@ -1050,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSentence of Y (label choices).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Ys",
           "package": "crf-chain1-constrained",
@@ -1059,6 +1132,7 @@
         "index": {
           "description": "Sentence of label choices",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Ys",
           "package": "crf-chain1-constrained",
@@ -1072,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Lb",
           "package": "crf-chain1-constrained",
@@ -1081,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Lb",
           "package": "crf-chain1-constrained",
@@ -1094,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Ob",
           "package": "crf-chain1-constrained",
@@ -1103,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Ob",
           "package": "crf-chain1-constrained",
@@ -1117,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe word with custom set of potential labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "R",
           "package": "crf-chain1-constrained",
@@ -1127,6 +1206,7 @@
         "index": {
           "description": "The word with custom set of potential labels",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "R",
           "package": "crf-chain1-constrained",
@@ -1140,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe word with default set of potential interpretations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "X",
           "package": "crf-chain1-constrained",
@@ -1150,6 +1231,7 @@
         "index": {
           "description": "The word with default set of potential interpretations",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "X",
           "package": "crf-chain1-constrained",
@@ -1162,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Y",
           "package": "crf-chain1-constrained",
@@ -1171,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "Y",
           "package": "crf-chain1-constrained",
@@ -1183,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "_unR",
           "package": "crf-chain1-constrained",
@@ -1192,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "_unR",
           "package": "crf-chain1-constrained",
@@ -1204,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "_unX",
           "package": "crf-chain1-constrained",
@@ -1213,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "_unX",
           "package": "crf-chain1-constrained",
@@ -1225,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "_unY",
           "package": "crf-chain1-constrained",
@@ -1234,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "_unY",
           "normalized": "AVec(Lb,Double)",
@@ -1249,6 +1339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart AVec constructor which ensures that the\n underlying vector satisfies the AVec properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "fromList",
           "package": "crf-chain1-constrained",
@@ -1259,6 +1350,7 @@
         "index": {
           "description": "Smart AVec constructor which ensures that the underlying vector satisfies the AVec properties",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "fromList",
           "normalized": "[a]-\u003eAVec a",
@@ -1275,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart AVec constructor which ensures that the\n underlying vector satisfies the AVec properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "fromSet",
           "package": "crf-chain1-constrained",
@@ -1285,6 +1378,7 @@
         "index": {
           "description": "Smart AVec constructor which ensures that the underlying vector satisfies the AVec properties",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "fromSet",
           "normalized": "Set a-\u003eAVec a",
@@ -1301,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eX constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "mkX",
           "package": "crf-chain1-constrained",
@@ -1311,6 +1406,7 @@
         "index": {
           "description": "constructor",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "mkX",
           "normalized": "[Ob]-\u003e[Lb]-\u003eX",
@@ -1326,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eY constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "mkY",
           "package": "crf-chain1-constrained",
@@ -1336,6 +1433,7 @@
         "index": {
           "description": "constructor",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "mkY",
           "normalized": "[(Lb,Double)]-\u003eY",
@@ -1350,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "unLb",
           "package": "crf-chain1-constrained",
@@ -1359,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "unLb",
           "package": "crf-chain1-constrained",
@@ -1372,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "unOb",
           "package": "crf-chain1-constrained",
@@ -1381,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "unOb",
           "package": "crf-chain1-constrained",
@@ -1395,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of potential labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "unR",
           "package": "crf-chain1-constrained",
@@ -1405,6 +1508,7 @@
         "index": {
           "description": "List of potential labels",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "unR",
           "normalized": "AVec Lb-\u003eX-\u003e[Lb]",
@@ -1420,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of observations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "unX",
           "package": "crf-chain1-constrained",
@@ -1430,6 +1535,7 @@
         "index": {
           "description": "List of observations",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "unX",
           "normalized": "X-\u003e[Ob]",
@@ -1445,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eY deconstructor symetric to mkY.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "unY",
           "package": "crf-chain1-constrained",
@@ -1455,6 +1562,7 @@
         "index": {
           "description": "deconstructor symetric to mkY",
           "hierarchy": "Data CRF Chain1 Constrained Dataset Internal",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Dataset.Internal",
           "name": "unY",
           "normalized": "Y-\u003e[(Lb,Double)]",
@@ -1470,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides feature selection functions which extract\n hidden features, i.e. all features which can be constructed \n on the basis of observations and potential labels (constraints)\n corresponding to individual words.\n\u003c/p\u003e\u003cp\u003eYou can mix functions defined here with the selection functions\n from the \u003ca\u003eData.CRF.Chain1.Constrained.Feature.Present\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature.Hidden",
           "name": "Hidden",
           "package": "crf-chain1-constrained",
@@ -1479,6 +1588,7 @@
         "index": {
           "description": "The module provides feature selection functions which extract hidden features i.e all features which can be constructed on the basis of observations and potential labels constraints corresponding to individual words You can mix functions defined here with the selection functions from the Data.CRF.Chain1.Constrained.Feature.Present module",
           "hierarchy": "Data CRF Chain1 Constrained Feature Hidden",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature.Hidden",
           "name": "Hidden",
           "package": "crf-chain1-constrained",
@@ -1493,6 +1603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHidden \u003ccode\u003e\u003ca\u003eFeature\u003c/a\u003e\u003c/code\u003es of all types which can be constructed\n on the basis of the dataset.  The default set of potential\n interpretations is used for all unknown words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature.Hidden",
           "name": "hiddenFeats",
           "package": "crf-chain1-constrained",
@@ -1503,6 +1614,7 @@
         "index": {
           "description": "Hidden Feature of all types which can be constructed on the basis of the dataset The default set of potential interpretations is used for all unknown words",
           "hierarchy": "Data CRF Chain1 Constrained Feature Hidden",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature.Hidden",
           "name": "hiddenFeats",
           "normalized": "AVec Lb-\u003e[(Xs,a)]-\u003e[Feature]",
@@ -1519,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHidden \u003ccode\u003e\u003ca\u003eOFeature\u003c/a\u003e\u003c/code\u003es which can be constructed based on the dataset.\n The default set of potential interpretations is used for all unknown words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature.Hidden",
           "name": "hiddenOFeats",
           "package": "crf-chain1-constrained",
@@ -1529,6 +1642,7 @@
         "index": {
           "description": "Hidden OFeature which can be constructed based on the dataset The default set of potential interpretations is used for all unknown words",
           "hierarchy": "Data CRF Chain1 Constrained Feature Hidden",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature.Hidden",
           "name": "hiddenOFeats",
           "normalized": "AVec Lb-\u003e[(Xs,a)]-\u003e[Feature]",
@@ -1545,6 +1659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHidden \u003ccode\u003e\u003ca\u003eSFeature\u003c/a\u003e\u003c/code\u003es which can be constructed based on the dataset.\n The default set of potential interpretations is used for all unknown words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature.Hidden",
           "name": "hiddenSFeats",
           "package": "crf-chain1-constrained",
@@ -1555,6 +1670,7 @@
         "index": {
           "description": "Hidden SFeature which can be constructed based on the dataset The default set of potential interpretations is used for all unknown words",
           "hierarchy": "Data CRF Chain1 Constrained Feature Hidden",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature.Hidden",
           "name": "hiddenSFeats",
           "normalized": "AVec Lb-\u003e[(Xs,a)]-\u003e[Feature]",
@@ -1571,6 +1687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHidden \u003ccode\u003e\u003ca\u003eTFeature\u003c/a\u003e\u003c/code\u003es which can be constructed based on the dataset.\n The default set of potential interpretations is used for all unknown words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature.Hidden",
           "name": "hiddenTFeats",
           "package": "crf-chain1-constrained",
@@ -1581,6 +1698,7 @@
         "index": {
           "description": "Hidden TFeature which can be constructed based on the dataset The default set of potential interpretations is used for all unknown words",
           "hierarchy": "Data CRF Chain1 Constrained Feature Hidden",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature.Hidden",
           "name": "hiddenTFeats",
           "normalized": "AVec Lb-\u003e[(Xs,a)]-\u003e[Feature]",
@@ -1597,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides feature selection functions which extract\n features present in the dataset, i.e. features which directly occure\n the dataset.\n\u003c/p\u003e\u003cp\u003eYou can mix functions defined here with the selection functions\n from the \u003ca\u003eData.CRF.Chain1.Constrained.Feature.Hidden\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature.Present",
           "name": "Present",
           "package": "crf-chain1-constrained",
@@ -1606,6 +1725,7 @@
         "index": {
           "description": "The module provides feature selection functions which extract features present in the dataset i.e features which directly occure the dataset You can mix functions defined here with the selection functions from the Data.CRF.Chain1.Constrained.Feature.Hidden module",
           "hierarchy": "Data CRF Chain1 Constrained Feature Present",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature.Present",
           "name": "Present",
           "package": "crf-chain1-constrained",
@@ -1620,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFeature\u003c/a\u003e\u003c/code\u003es of all kinds which occur in the dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature.Present",
           "name": "presentFeats",
           "package": "crf-chain1-constrained",
@@ -1630,6 +1751,7 @@
         "index": {
           "description": "Feature of all kinds which occur in the dataset",
           "hierarchy": "Data CRF Chain1 Constrained Feature Present",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature.Present",
           "name": "presentFeats",
           "normalized": "[(Xs,Ys)]-\u003e[Feature]",
@@ -1646,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eOFeature\u003c/a\u003e\u003c/code\u003es which occur in the dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature.Present",
           "name": "presentOFeats",
           "package": "crf-chain1-constrained",
@@ -1656,6 +1779,7 @@
         "index": {
           "description": "OFeature which occur in the dataset",
           "hierarchy": "Data CRF Chain1 Constrained Feature Present",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature.Present",
           "name": "presentOFeats",
           "normalized": "[(Xs,Ys)]-\u003e[Feature]",
@@ -1672,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSFeature\u003c/a\u003e\u003c/code\u003es which occur in the dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature.Present",
           "name": "presentSFeats",
           "package": "crf-chain1-constrained",
@@ -1682,6 +1807,7 @@
         "index": {
           "description": "SFeature which occur in the dataset",
           "hierarchy": "Data CRF Chain1 Constrained Feature Present",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature.Present",
           "name": "presentSFeats",
           "normalized": "[(a,Ys)]-\u003e[Feature]",
@@ -1698,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTFeature\u003c/a\u003e\u003c/code\u003es which occur in the dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature.Present",
           "name": "presentTFeats",
           "package": "crf-chain1-constrained",
@@ -1708,6 +1835,7 @@
         "index": {
           "description": "TFeature which occur in the dataset",
           "hierarchy": "Data CRF Chain1 Constrained Feature Present",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature.Present",
           "name": "presentTFeats",
           "normalized": "[(a,Ys)]-\u003e[Feature]",
@@ -1723,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "Feature",
           "package": "crf-chain1-constrained",
@@ -1731,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Feature",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "Feature",
           "package": "crf-chain1-constrained",
@@ -1745,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Feature is either an observation feature OFeature o x, which\n models relation between observation o and label x assigned to\n the same word, or a transition feature TFeature x y (SFeature x\n for the first position in the sentence), which models relation\n between two subsequent labels, x (on i-th position) and y\n (on (i-1)-th positoin).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "Feature",
           "package": "crf-chain1-constrained",
@@ -1754,6 +1885,7 @@
         "index": {
           "description": "Feature is either an observation feature OFeature which models relation between observation and label assigned to the same word or transition feature TFeature SFeature for the first position in the sentence which models relation between two subsequent labels on i-th position and on i-1 th positoin",
           "hierarchy": "Data CRF Chain1 Constrained Feature",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "Feature",
           "package": "crf-chain1-constrained",
@@ -1767,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "OFeature",
           "package": "crf-chain1-constrained",
@@ -1776,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Feature",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "OFeature",
           "package": "crf-chain1-constrained",
@@ -1789,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "SFeature",
           "package": "crf-chain1-constrained",
@@ -1798,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Feature",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "SFeature",
           "package": "crf-chain1-constrained",
@@ -1811,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "TFeature",
           "package": "crf-chain1-constrained",
@@ -1820,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Feature",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "TFeature",
           "package": "crf-chain1-constrained",
@@ -1834,6 +1972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll features with assigned probabilities in given labeled sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "featuresIn",
           "package": "crf-chain1-constrained",
@@ -1844,6 +1983,7 @@
         "index": {
           "description": "All features with assigned probabilities in given labeled sentence",
           "hierarchy": "Data CRF Chain1 Constrained Feature",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "featuresIn",
           "normalized": "Xs-\u003eYs-\u003e[(Feature,LogFloat)]",
@@ -1860,6 +2000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it an \u003ccode\u003e\u003ca\u003eOFeature\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "isOFeat",
           "package": "crf-chain1-constrained",
@@ -1870,6 +2011,7 @@
         "index": {
           "description": "Is it an OFeature",
           "hierarchy": "Data CRF Chain1 Constrained Feature",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "isOFeat",
           "normalized": "Feature-\u003eBool",
@@ -1886,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it a \u003ccode\u003e\u003ca\u003eSFeature\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "isSFeat",
           "package": "crf-chain1-constrained",
@@ -1896,6 +2039,7 @@
         "index": {
           "description": "Is it SFeature",
           "hierarchy": "Data CRF Chain1 Constrained Feature",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "isSFeat",
           "normalized": "Feature-\u003eBool",
@@ -1912,6 +2056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it a \u003ccode\u003e\u003ca\u003eTFeature\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "isTFeat",
           "package": "crf-chain1-constrained",
@@ -1922,6 +2067,7 @@
         "index": {
           "description": "Is it TFeature",
           "hierarchy": "Data CRF Chain1 Constrained Feature",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Feature",
           "name": "isTFeat",
           "normalized": "Feature-\u003eBool",
@@ -1937,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "Inference",
           "package": "crf-chain1-constrained",
@@ -1945,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Inference",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "Inference",
           "package": "crf-chain1-constrained",
@@ -1959,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the accuracy of the model with respect to the labeled dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "accuracy",
           "package": "crf-chain1-constrained",
@@ -1969,6 +2118,7 @@
         "index": {
           "description": "Compute the accuracy of the model with respect to the labeled dataset",
           "hierarchy": "Data CRF Chain1 Constrained Inference",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "accuracy",
           "normalized": "Model-\u003e[(Xs,Ys)]-\u003eDouble",
@@ -1984,6 +2134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of features (represented by feature indices) defined within\n the context of the sentence accompanied by expected probabilities\n determined on the basis of the model. \n\u003c/p\u003e\u003cp\u003eOne feature can occur multiple times in the output list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "expectedFeaturesIn",
           "package": "crf-chain1-constrained",
@@ -1994,6 +2145,7 @@
         "index": {
           "description": "list of features represented by feature indices defined within the context of the sentence accompanied by expected probabilities determined on the basis of the model One feature can occur multiple times in the output list",
           "hierarchy": "Data CRF Chain1 Constrained Inference",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "expectedFeaturesIn",
           "normalized": "Model-\u003eXs-\u003e[(FeatIx,LogFloat)]",
@@ -2010,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag probabilities with respect to marginal distributions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "marginals",
           "package": "crf-chain1-constrained",
@@ -2020,6 +2173,7 @@
         "index": {
           "description": "Tag probabilities with respect to marginal distributions",
           "hierarchy": "Data CRF Chain1 Constrained Inference",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "marginals",
           "normalized": "Model-\u003eXs-\u003e[[(Lb,LogFloat)]]",
@@ -2035,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the most probable label sequence (with probabilities of individual\n lables determined with respect to marginal distributions) satisfying the\n constraints imposed over label values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "tag",
           "package": "crf-chain1-constrained",
@@ -2045,6 +2200,7 @@
         "index": {
           "description": "Find the most probable label sequence with probabilities of individual lables determined with respect to marginal distributions satisfying the constraints imposed over label values",
           "hierarchy": "Data CRF Chain1 Constrained Inference",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "tag",
           "normalized": "Model-\u003eXs-\u003e[Lb]",
@@ -2060,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet (at most) k best tags for each word and return them in\n descending order.  TODO: Tagging with respect to marginal\n distributions might not be the best idea.  Think of some\n more elegant method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "tagK",
           "package": "crf-chain1-constrained",
@@ -2070,6 +2227,7 @@
         "index": {
           "description": "Get at most best tags for each word and return them in descending order TODO Tagging with respect to marginal distributions might not be the best idea Think of some more elegant method",
           "hierarchy": "Data CRF Chain1 Constrained Inference",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "tagK",
           "normalized": "Int-\u003eModel-\u003eXs-\u003e[[(Lb,LogFloat)]]",
@@ -2085,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalization factor computed for the \u003ccode\u003e\u003ca\u003eXs\u003c/a\u003e\u003c/code\u003e sentence using the\n backward computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "zx",
           "package": "crf-chain1-constrained",
@@ -2095,6 +2254,7 @@
         "index": {
           "description": "Normalization factor computed for the Xs sentence using the backward computation",
           "hierarchy": "Data CRF Chain1 Constrained Inference",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "zx",
           "normalized": "Model-\u003eXs-\u003eLogFloat",
@@ -2110,6 +2270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalization factor computed for the \u003ccode\u003e\u003ca\u003eXs\u003c/a\u003e\u003c/code\u003e sentence using the\n forward computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "zx'",
           "package": "crf-chain1-constrained",
@@ -2120,6 +2281,7 @@
         "index": {
           "description": "Normalization factor computed for the Xs sentence using the forward computation",
           "hierarchy": "Data CRF Chain1 Constrained Inference",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Inference",
           "name": "zx'",
           "normalized": "Model-\u003eXs-\u003eLogFloat",
@@ -2135,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal implementation of the CRF model.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "Model",
           "package": "crf-chain1-constrained",
@@ -2144,6 +2307,7 @@
         "index": {
           "description": "Internal implementation of the CRF model",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "Model",
           "package": "crf-chain1-constrained",
@@ -2158,6 +2322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA feature index.  To every model feature a unique index is assigned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "FeatIx",
           "package": "crf-chain1-constrained",
@@ -2167,6 +2332,7 @@
         "index": {
           "description": "feature index To every model feature unique index is assigned",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "FeatIx",
           "package": "crf-chain1-constrained",
@@ -2181,6 +2347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe model is actually a map from features to their respective potentials,\n but for the sake of efficiency the internal representation is more complex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "Model",
           "package": "crf-chain1-constrained",
@@ -2190,6 +2357,7 @@
         "index": {
           "description": "The model is actually map from features to their respective potentials but for the sake of efficiency the internal representation is more complex",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "Model",
           "package": "crf-chain1-constrained",
@@ -2203,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "FeatIx",
           "package": "crf-chain1-constrained",
@@ -2212,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "FeatIx",
           "package": "crf-chain1-constrained",
@@ -2225,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "Model",
           "package": "crf-chain1-constrained",
@@ -2234,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "Model",
           "package": "crf-chain1-constrained",
@@ -2248,6 +2420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine index for the given feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "featToIx",
           "package": "crf-chain1-constrained",
@@ -2258,6 +2431,7 @@
         "index": {
           "description": "Determine index for the given feature",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "featToIx",
           "normalized": "Model-\u003eFeature-\u003eMaybe FeatIx",
@@ -2274,6 +2448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine index for the given feature and return it as an integer.\n Throw error when the feature is not a member of the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "featToJustInt",
           "package": "crf-chain1-constrained",
@@ -2284,6 +2459,7 @@
         "index": {
           "description": "Determine index for the given feature and return it as an integer Throw error when the feature is not member of the model",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "featToJustInt",
           "normalized": "Model-\u003eFeature-\u003eInt",
@@ -2300,6 +2476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine index for the given feature.  Throw error when\n the feature is not a member of the model. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "featToJustIx",
           "package": "crf-chain1-constrained",
@@ -2310,6 +2487,7 @@
         "index": {
           "description": "Determine index for the given feature Throw error when the feature is not member of the model",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "featToJustIx",
           "normalized": "Model-\u003eFeature-\u003eFeatIx",
@@ -2326,6 +2504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from features to feature indices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "ixMap",
           "package": "crf-chain1-constrained",
@@ -2336,6 +2515,7 @@
         "index": {
           "description": "map from features to feature indices",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "ixMap",
           "package": "crf-chain1-constrained",
@@ -2350,6 +2530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the model from the list of features.  All parameters will be\n set to 0.  There can be repetitions in the input list.\n We assume that the set of labels is of the {0, 1, .. \u003ccode\u003elbMax\u003c/code\u003e} form and,\n similarly, the set of observations is of the {0, 1, .. \u003ccode\u003eobMax\u003c/code\u003e} form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "mkModel",
           "package": "crf-chain1-constrained",
@@ -2360,6 +2541,7 @@
         "index": {
           "description": "Construct the model from the list of features All parameters will be set to There can be repetitions in the input list We assume that the set of labels is of the lbMax form and similarly the set of observations is of the obMax form",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "mkModel",
           "normalized": "Ob-\u003eLb-\u003e[Feature]-\u003eModel",
@@ -2376,6 +2558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of ,,next'' labels which constitute a valid feature in combination\n with the ,,current'' label accompanied by feature indices determined by\n ,,next'' labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "nextIxs",
           "package": "crf-chain1-constrained",
@@ -2386,6 +2569,7 @@
         "index": {
           "description": "List of next labels which constitute valid feature in combination with the current label accompanied by feature indices determined by next labels",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "nextIxs",
           "normalized": "Model-\u003eLb-\u003eAVec LbIx",
@@ -2402,6 +2586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of ,,next'' labels for the value of the ,,current'' label.\n Both labels constitute a transition feature present in the the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "nextIxsV",
           "package": "crf-chain1-constrained",
@@ -2412,6 +2597,7 @@
         "index": {
           "description": "Set of next labels for the value of the current label Both labels constitute transition feature present in the the model",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "nextIxsV",
           "package": "crf-chain1-constrained",
@@ -2426,6 +2612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of labels which constitute a valid feature in combination with\n the given observation accompanied by feature indices determined by\n these labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "obIxs",
           "package": "crf-chain1-constrained",
@@ -2436,6 +2623,7 @@
         "index": {
           "description": "List of labels which constitute valid feature in combination with the given observation accompanied by feature indices determined by these labels",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "obIxs",
           "normalized": "Model-\u003eOb-\u003eAVec LbIx",
@@ -2452,6 +2640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of labels for the given observation which, together with the\n observation, constitute an observation feature of the model. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "obIxsV",
           "package": "crf-chain1-constrained",
@@ -2462,6 +2651,7 @@
         "index": {
           "description": "Set of labels for the given observation which together with the observation constitute an observation feature of the model",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "obIxsV",
           "package": "crf-chain1-constrained",
@@ -2476,6 +2666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of ,,previous'' labels which constitute a valid feature in\n combination with the ,,current'' label accompanied by feature indices\n determined by ,,previous'' labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "prevIxs",
           "package": "crf-chain1-constrained",
@@ -2486,6 +2677,7 @@
         "index": {
           "description": "List of previous labels which constitute valid feature in combination with the current label accompanied by feature indices determined by previous labels",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "prevIxs",
           "normalized": "Model-\u003eLb-\u003eAVec LbIx",
@@ -2502,6 +2694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of ,,previous'' labels for the value of the ,,current'' label.\n Both labels constitute a transition feature present in the the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "prevIxsV",
           "package": "crf-chain1-constrained",
@@ -2512,6 +2705,7 @@
         "index": {
           "description": "Set of previous labels for the value of the current label Both labels constitute transition feature present in the the model",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "prevIxsV",
           "package": "crf-chain1-constrained",
@@ -2526,6 +2720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default set of labels.  It is used on sentence positions for which\n no constraints are assigned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "r0",
           "package": "crf-chain1-constrained",
@@ -2536,6 +2731,7 @@
         "index": {
           "description": "default set of labels It is used on sentence positions for which no constraints are assigned",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "r0",
           "package": "crf-chain1-constrained",
@@ -2549,6 +2745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of labels which can be located on the first position of\n a sentence together with feature indices determined by them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "sgIxs",
           "package": "crf-chain1-constrained",
@@ -2559,6 +2756,7 @@
         "index": {
           "description": "List of labels which can be located on the first position of sentence together with feature indices determined by them",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "sgIxs",
           "normalized": "Model-\u003e[LbIx]",
@@ -2575,6 +2773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular feature index for the given label.  Index is equall to -1\n if feature is not present in the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "sgIxsV",
           "package": "crf-chain1-constrained",
@@ -2585,6 +2784,7 @@
         "index": {
           "description": "Singular feature index for the given label Index is equall to if feature is not present in the model",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "sgIxsV",
           "package": "crf-chain1-constrained",
@@ -2599,6 +2799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePotential value (in log domain) of the singular feature with the\n given label.  The value defaults to 1 (0 in log domain) when the feature\n is not a member of the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "sgValue",
           "package": "crf-chain1-constrained",
@@ -2609,6 +2810,7 @@
         "index": {
           "description": "Potential value in log domain of the singular feature with the given label The value defaults to in log domain when the feature is not member of the model",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "sgValue",
           "normalized": "Model-\u003eLb-\u003eLogFloat",
@@ -2624,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "unFeatIx",
           "package": "crf-chain1-constrained",
@@ -2633,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "unFeatIx",
           "package": "crf-chain1-constrained",
@@ -2647,6 +2851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModel potential defined for the given feature interpreted as a\n number in logarithmic domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "valueL",
           "package": "crf-chain1-constrained",
@@ -2657,6 +2862,7 @@
         "index": {
           "description": "Model potential defined for the given feature interpreted as number in logarithmic domain",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "valueL",
           "normalized": "Model-\u003eFeatIx-\u003eLogFloat",
@@ -2672,6 +2878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue (potential) of the model for feature index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "values",
           "package": "crf-chain1-constrained",
@@ -2682,6 +2889,7 @@
         "index": {
           "description": "Value potential of the model for feature index",
           "hierarchy": "Data CRF Chain1 Constrained Model",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Model",
           "name": "values",
           "package": "crf-chain1-constrained",
@@ -2694,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "Train",
           "package": "crf-chain1-constrained",
@@ -2702,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Train",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "Train",
           "package": "crf-chain1-constrained",
@@ -2716,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA conditional random field model with additional codec used for\n data encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "CRF",
           "package": "crf-chain1-constrained",
@@ -2725,6 +2936,7 @@
         "index": {
           "description": "conditional random field model with additional codec used for data encoding",
           "hierarchy": "Data CRF Chain1 Constrained Train",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "CRF",
           "package": "crf-chain1-constrained",
@@ -2738,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "CRF",
           "package": "crf-chain1-constrained",
@@ -2747,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Constrained Train",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "CRF",
           "package": "crf-chain1-constrained",
@@ -2761,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect labels assigned to words in a dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "anyChosen",
           "package": "crf-chain1-constrained",
@@ -2771,6 +2986,7 @@
         "index": {
           "description": "Collect labels assigned to words in dataset",
           "hierarchy": "Data CRF Chain1 Constrained Train",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "anyChosen",
           "normalized": "[SentL a b]-\u003eSet b",
@@ -2787,6 +3003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect interpretations (also labels assigned) of words in a dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "anyInterps",
           "package": "crf-chain1-constrained",
@@ -2797,6 +3014,7 @@
         "index": {
           "description": "Collect interpretations also labels assigned of words in dataset",
           "hierarchy": "Data CRF Chain1 Constrained Train",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "anyInterps",
           "normalized": "[SentL a b]-\u003eSet b",
@@ -2813,6 +3031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe codec is used to transform data into internal representation,\n where each observation and each label is represented by a unique\n integer number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "codec",
           "package": "crf-chain1-constrained",
@@ -2823,6 +3042,7 @@
         "index": {
           "description": "The codec is used to transform data into internal representation where each observation and each label is represented by unique integer number",
           "hierarchy": "Data CRF Chain1 Constrained Train",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "codec",
           "package": "crf-chain1-constrained",
@@ -2836,6 +3056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual model, which is a map from \u003ccode\u003e\u003ca\u003eFeature\u003c/a\u003e\u003c/code\u003es to potentials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "model",
           "package": "crf-chain1-constrained",
@@ -2846,6 +3067,7 @@
         "index": {
           "description": "The actual model which is map from Feature to potentials",
           "hierarchy": "Data CRF Chain1 Constrained Train",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "model",
           "package": "crf-chain1-constrained",
@@ -2859,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect labels assigned to OOV words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "oovChosen",
           "package": "crf-chain1-constrained",
@@ -2869,6 +3092,7 @@
         "index": {
           "description": "Collect labels assigned to OOV words",
           "hierarchy": "Data CRF Chain1 Constrained Train",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "oovChosen",
           "normalized": "[SentL a b]-\u003eSet b",
@@ -2885,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain the CRF using the stochastic gradient descent method.\n\u003c/p\u003e\u003cp\u003eThe resulting model will contain features extracted with the user supplied\n extraction function.  You can use the functions provided by the\n \u003ca\u003eData.CRF.Chain1.Constrained.Feature.Present\u003c/a\u003e and\n \u003ca\u003eData.CRF.Chain1.Constrained.Feature.Hidden\u003c/a\u003e\n modules for this purpose.\n\u003c/p\u003e\u003cp\u003eYou also have to supply R0 construction method (e.g. \u003ccode\u003e\u003ca\u003eoovChosen\u003c/a\u003e\u003c/code\u003e)\n which determines the contents of the default set of labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "train",
           "package": "crf-chain1-constrained",
@@ -2894,6 +3119,7 @@
         "index": {
           "description": "Train the CRF using the stochastic gradient descent method The resulting model will contain features extracted with the user supplied extraction function You can use the functions provided by the Data.CRF.Chain1.Constrained.Feature.Present and Data.CRF.Chain1.Constrained.Feature.Hidden modules for this purpose You also have to supply R0 construction method e.g oovChosen which determines the contents of the default set of labels",
           "hierarchy": "Data CRF Chain1 Constrained Train",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained.Train",
           "name": "train",
           "normalized": "SgdArgs-\u003eBool-\u003e([SentL a b]-\u003eSet b)-\u003e(AVec Lb-\u003e[(Xs,Ys)]-\u003e[Feature])-\u003eIO[SentL a b]-\u003eIO[SentL a b]-\u003eIO(CRF a b)",
@@ -2909,6 +3135,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides first-order, linear-chain conditional random fields\n (CRFs) with position-wide constraints over label values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "Constrained",
           "package": "crf-chain1-constrained",
@@ -2918,6 +3145,7 @@
         "index": {
           "description": "The module provides first-order linear-chain conditional random fields CRFs with position-wide constraints over label values",
           "hierarchy": "Data CRF Chain1 Constrained",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "Constrained",
           "package": "crf-chain1-constrained",
@@ -2932,6 +3160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA probability distribution defined over elements of type a.\n All elements not included in the map have probability equal\n to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "Prob",
           "package": "crf-chain1-constrained",
@@ -2941,6 +3170,7 @@
         "index": {
           "description": "probability distribution defined over elements of type All elements not included in the map have probability equal to",
           "hierarchy": "Data CRF Chain1 Constrained",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "Prob",
           "package": "crf-chain1-constrained",
@@ -2955,6 +3185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "Sent",
           "package": "crf-chain1-constrained",
@@ -2964,6 +3195,7 @@
         "index": {
           "description": "sentence of words",
           "hierarchy": "Data CRF Chain1 Constrained",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "Sent",
           "package": "crf-chain1-constrained",
@@ -2978,6 +3210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of labeled words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "SentL",
           "package": "crf-chain1-constrained",
@@ -2987,6 +3220,7 @@
         "index": {
           "description": "sentence of labeled words",
           "hierarchy": "Data CRF Chain1 Constrained",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "SentL",
           "package": "crf-chain1-constrained",
@@ -3001,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Word is represented by a set of observations\n and a set of potential interpretation labels.\n When the set of potential labels is empty the word\n is considered to be unknown and the default potential\n set is used in its place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "Word",
           "package": "crf-chain1-constrained",
@@ -3010,6 +3245,7 @@
         "index": {
           "description": "Word is represented by set of observations and set of potential interpretation labels When the set of potential labels is empty the word is considered to be unknown and the default potential set is used in its place",
           "hierarchy": "Data CRF Chain1 Constrained",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "Word",
           "package": "crf-chain1-constrained",
@@ -3024,6 +3260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WordL is a labeled word, i.e. a word with probability distribution\n defined over labels.  We assume that every label from the distribution\n domain is a member of the set of potential labels corresponding to the\n word.  Use the \u003ccode\u003e\u003ca\u003emkWordL\u003c/a\u003e\u003c/code\u003e smart constructor to build \u003ccode\u003e\u003ca\u003eWordL\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "WordL",
           "package": "crf-chain1-constrained",
@@ -3033,6 +3270,7 @@
         "index": {
           "description": "WordL is labeled word i.e word with probability distribution defined over labels We assume that every label from the distribution domain is member of the set of potential labels corresponding to the word Use the mkWordL smart constructor to build WordL",
           "hierarchy": "Data CRF Chain1 Constrained",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "WordL",
           "package": "crf-chain1-constrained",
@@ -3047,6 +3285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the most probable label sequence within the context of the\n given sentence using the model provided by the \u003ccode\u003e\u003ca\u003eCRF\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "tag",
           "package": "crf-chain1-constrained",
@@ -3057,6 +3296,7 @@
         "index": {
           "description": "Determine the most probable label sequence within the context of the given sentence using the model provided by the CRF",
           "hierarchy": "Data CRF Chain1 Constrained",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "tag",
           "normalized": "CRF a b-\u003eSent a b-\u003e[b]",
@@ -3072,6 +3312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the most probable label sets of the given size (at maximum)\n for each position in the input sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:59 UTC 2014",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "tagK",
           "package": "crf-chain1-constrained",
@@ -3082,6 +3323,7 @@
         "index": {
           "description": "Determine the most probable label sets of the given size at maximum for each position in the input sentence",
           "hierarchy": "Data CRF Chain1 Constrained",
+          "indexed": "2014-03-11T17:42:59",
           "module": "Data.CRF.Chain1.Constrained",
           "name": "tagK",
           "normalized": "Int-\u003eCRF a b-\u003eSent a b-\u003e[[b]]",

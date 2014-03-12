@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "effects"
+        "phrase": "effects",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Cont",
           "name": "Cont",
           "package": "effects",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Cont",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Cont",
           "name": "Cont",
           "package": "effects",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Cont",
           "name": "reset",
           "package": "effects",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Cont",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Cont",
           "name": "reset",
           "package": "effects",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Cont",
           "name": "shift",
           "package": "effects",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Cont",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Cont",
           "name": "shift",
           "normalized": "Effect a b-\u003e((b c-\u003eb a)-\u003eb a)-\u003ed c",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Either",
           "name": "Either",
           "package": "effects",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Either",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Either",
           "name": "Either",
           "package": "effects",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Either",
           "name": "catchEither",
           "package": "effects",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Either",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Either",
           "name": "catchEither",
           "normalized": "(a-\u003eb c)-\u003eHandler(Either a c)c b c",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Either",
           "name": "throwEither",
           "package": "effects",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Either",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Either",
           "name": "throwEither",
           "normalized": "Effect(Either a b)c-\u003ea-\u003ed Void",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Error",
           "name": "Error",
           "package": "effects",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Error",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Error",
           "name": "Error",
           "package": "effects",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Error",
           "name": "catchError",
           "package": "effects",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Error",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Error",
           "name": "catchError",
           "normalized": "(a-\u003eb c)-\u003eHandler((a-\u003eb c)-\u003eb c)c b c",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Error",
           "name": "throwError",
           "package": "effects",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Error",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Error",
           "name": "throwError",
           "normalized": "Effect((a-\u003eb c)-\u003eb c)b-\u003ea-\u003ed Void",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.NonDet",
           "name": "NonDet",
           "package": "effects",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Control Effects NonDet",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.NonDet",
           "name": "NonDet",
           "package": "effects",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.NonDet",
           "name": "accumulate",
           "package": "effects",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Control Effects NonDet",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.NonDet",
           "name": "accumulate",
           "normalized": "(a-\u003eb)-\u003eHandler b c d a",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.NonDet",
           "name": "alternatives",
           "package": "effects",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Control Effects NonDet",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.NonDet",
           "name": "alternatives",
           "package": "effects",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.NonDet",
           "name": "bfs",
           "package": "effects",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Control Effects NonDet",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.NonDet",
           "name": "bfs",
           "normalized": "(a-\u003eb)-\u003eHandler(BFS b)b c a",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.NonDet",
           "name": "choose",
           "package": "effects",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Control Effects NonDet",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.NonDet",
           "name": "choose",
           "normalized": "Effect a b-\u003ec d-\u003ee d",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.NonDet",
           "name": "dfs",
           "package": "effects",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Control Effects NonDet",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.NonDet",
           "name": "dfs",
           "normalized": "(a-\u003eb)-\u003eHandler b b c a",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.NonDet",
           "name": "guard",
           "package": "effects",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Control Effects NonDet",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.NonDet",
           "name": "guard",
           "normalized": "Effect a b-\u003eBool-\u003ec()",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.NonDet",
           "name": "set",
           "package": "effects",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Control Effects NonDet",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.NonDet",
           "name": "set",
           "package": "effects",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.State",
           "name": "State",
           "package": "effects",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Control Effects State",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.State",
           "name": "State",
           "package": "effects",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.State",
           "name": "State",
           "package": "effects",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Control Effects State",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.State",
           "name": "State",
           "package": "effects",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.State",
           "name": "(=:)",
           "package": "effects",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Control Effects State",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.State",
           "name": "(=:) =:",
           "normalized": "Effect(State a b c)b-\u003ed a-\u003ed()",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.State",
           "name": "get",
           "package": "effects",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Control Effects State",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.State",
           "name": "get",
           "normalized": "Effect(State a b c)b-\u003ed a",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.State",
           "name": "local",
           "package": "effects",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Control Effects State",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.State",
           "name": "local",
           "normalized": "Effect(State a b c)b-\u003e(a-\u003ea)-\u003ed e-\u003ed e",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.State",
           "name": "modify",
           "package": "effects",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Control Effects State",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.State",
           "name": "modify",
           "normalized": "Effect(State a b c)b-\u003e(a-\u003ea)-\u003ed()",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.State",
           "name": "put",
           "package": "effects",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Control Effects State",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.State",
           "name": "put",
           "normalized": "Effect(State a b c)b-\u003ea-\u003ed()",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.State",
           "name": "ref",
           "package": "effects",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Control Effects State",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.State",
           "name": "ref",
           "normalized": "a-\u003eHandler(State a b c)c b c",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Writer",
           "name": "Writer",
           "package": "effects",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Writer",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Writer",
           "name": "Writer",
           "package": "effects",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Writer",
           "name": "tell",
           "package": "effects",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Writer",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Writer",
           "name": "tell",
           "normalized": "Effect(a,b)c-\u003ea-\u003ed()",
@@ -623,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects.Writer",
           "name": "writer",
           "package": "effects",
@@ -632,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Control Effects Writer",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects.Writer",
           "name": "writer",
           "normalized": "Handler(a,b)(a,b)c b",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "Effects",
           "package": "effects",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "Effects",
           "package": "effects",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "AutoLift",
           "package": "effects",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "AutoLift",
           "package": "effects",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "AutoLiftBase",
           "package": "effects",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "AutoLiftBase",
           "package": "effects",
@@ -710,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eBase m\u003c/code\u003e is a newtype wrapper around a monadic computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "Base",
           "package": "effects",
@@ -719,6 +782,7 @@
         "index": {
           "description": "Base is newtype wrapper around monadic computation",
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "Base",
           "package": "effects",
@@ -733,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eEffect e m\u003c/code\u003e is a proxy for the type checker to be able to work with multiple effects at the same time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "Effect",
           "package": "effects",
@@ -742,6 +807,7 @@
         "index": {
           "description": "Effect is proxy for the type checker to be able to work with multiple effects at the same time",
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "Effect",
           "package": "effects",
@@ -756,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eHandler e r m a\u003c/code\u003e is a handler of effects with type \u003ccode\u003ee\u003c/code\u003e. \n   The \u003ccode\u003eret\u003c/code\u003e field provides a function to lift pure values into the effect.\n   The \u003ccode\u003efin\u003c/code\u003e field provides a function to extract a final value of type \u003ccode\u003er\u003c/code\u003e from the effect.\n   The parameter \u003ccode\u003em\u003c/code\u003e should normally be left polymorphic, it's the monad that handles the other effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "Handler",
           "package": "effects",
@@ -765,6 +832,7 @@
         "index": {
           "description": "Handler is handler of effects with type The ret field provides function to lift pure values into the effect The fin field provides function to extract final value of type from the effect The parameter should normally be left polymorphic it the monad that handles the other effects",
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "Handler",
           "package": "effects",
@@ -779,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLayer e m\u003c/code\u003e is a monad that adds an effect \u003ccode\u003ee\u003c/code\u003e to the underlying monad \u003ccode\u003em\u003c/code\u003e.\n   (It is the continuation monad transformer with a friendlier name.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "Layer",
           "package": "effects",
@@ -788,6 +857,7 @@
         "index": {
           "description": "Layer is monad that adds an effect to the underlying monad It is the continuation monad transformer with friendlier name",
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "Layer",
           "package": "effects",
@@ -802,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePure\u003c/code\u003e is the identity monad and is used when no other base monad is needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "Pure",
           "package": "effects",
@@ -811,6 +882,7 @@
         "index": {
           "description": "Pure is the identity monad and is used when no other base monad is needed",
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "Pure",
           "package": "effects",
@@ -824,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "Base",
           "package": "effects",
@@ -833,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "Base",
           "package": "effects",
@@ -846,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "Handler",
           "package": "effects",
@@ -855,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "Handler",
           "package": "effects",
@@ -868,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "Layer",
           "package": "effects",
@@ -877,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "Layer",
           "package": "effects",
@@ -890,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "Pure",
           "package": "effects",
@@ -899,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "Pure",
           "package": "effects",
@@ -913,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebase\u003c/code\u003e takes a computation in the base monad and auto-lifts it so it can be used inside any effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "base",
           "package": "effects",
@@ -923,6 +1004,7 @@
         "index": {
           "description": "base takes computation in the base monad and auto-lifts it so it can be used inside any effect",
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "base",
           "normalized": "a b-\u003ec b",
@@ -937,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "fin",
           "package": "effects",
@@ -946,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "fin",
           "normalized": "a-\u003eb c",
@@ -961,6 +1045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eoperation\u003c/code\u003e takes an effect identifier generated by \u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e and a function which takes a continuation as parameter.\n   The result is auto-lifted so it can be used inside any other effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "operation",
           "package": "effects",
@@ -971,6 +1056,7 @@
         "index": {
           "description": "operation takes an effect identifier generated by with and function which takes continuation as parameter The result is auto-lifted so it can be used inside any other effect",
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "operation",
           "normalized": "Effect a b-\u003e((c-\u003eb a)-\u003eb a)-\u003ed c",
@@ -985,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "ret",
           "package": "effects",
@@ -994,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "ret",
           "normalized": "a-\u003eb c",
@@ -1009,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap the result of the top-level effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "run",
           "package": "effects",
@@ -1019,6 +1108,7 @@
         "index": {
           "description": "Unwrap the result of the top-level effect",
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "run",
           "normalized": "Base Pure a-\u003ea",
@@ -1034,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap the result of a computation using a base monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "runBase",
           "package": "effects",
@@ -1044,6 +1135,7 @@
         "index": {
           "description": "Unwrap the result of computation using base monad",
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "runBase",
           "normalized": "Base a b-\u003ea b",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "runLayer",
           "package": "effects",
@@ -1068,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "runLayer",
           "normalized": "(a-\u003eb c)-\u003eb c",
@@ -1084,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewith\u003c/code\u003e takes a handler and creates a new effect instance.\n   The \u003ccode\u003eEffect\u003c/code\u003e is passed on to a function which can use it to do operations with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:10 UTC 2014",
           "module": "Control.Effects",
           "name": "with",
           "package": "effects",
@@ -1094,6 +1189,7 @@
         "index": {
           "description": "with takes handler and creates new effect instance The Effect is passed on to function which can use it to do operations with it",
           "hierarchy": "Control Effects",
+          "indexed": "2014-03-11T18:01:10",
           "module": "Control.Effects",
           "name": "with",
           "normalized": "Handler a b c d-\u003e(Effect a c-\u003eLayer a c d)-\u003ec b",

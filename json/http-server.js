@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-server"
+        "phrase": "http-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "HtmlForm",
           "package": "http-server",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server HtmlForm",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "HtmlForm",
           "package": "http-server",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstraction of a map mapping form fields to their values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "FormFields",
           "package": "http-server",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An abstraction of map mapping form fields to their values",
           "hierarchy": "Network HTTP Server HtmlForm",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "FormFields",
           "package": "http-server",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe names of the fields that were posted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "fieldNames",
           "package": "http-server",
@@ -73,6 +78,7 @@
         "index": {
           "description": "The names of the fields that were posted",
           "hierarchy": "Network HTTP Server HtmlForm",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "fieldNames",
           "normalized": "FormFields-\u003e[String]",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to parse the body of a request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "fromRequest",
           "package": "http-server",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Try to parse the body of request",
           "hierarchy": "Network HTTP Server HtmlForm",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "fromRequest",
           "normalized": "Request String-\u003eMaybe FormFields",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo we have the given field?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "hasField",
           "package": "http-server",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Do we have the given field",
           "hierarchy": "Network HTTP Server HtmlForm",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "hasField",
           "normalized": "FormFields-\u003eString-\u003eBool",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a field value and try to parse it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "lookupRead",
           "package": "http-server",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Lookup field value and try to parse it",
           "hierarchy": "Network HTTP Server HtmlForm",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "lookupRead",
           "normalized": "FormFields-\u003eString-\u003eMaybe a",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a field value as a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "lookupString",
           "package": "http-server",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Lookup field value as string",
           "hierarchy": "Network HTTP Server HtmlForm",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "lookupString",
           "normalized": "FormFields-\u003eString-\u003eMaybe String",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fields as pairs of strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "toList",
           "package": "http-server",
@@ -203,6 +218,7 @@
         "index": {
           "description": "The fields as pairs of strings",
           "hierarchy": "Network HTTP Server HtmlForm",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.HtmlForm",
           "name": "toList",
           "normalized": "FormFields-\u003e[(String,String)]",
@@ -218,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "Logger",
           "package": "http-server",
@@ -226,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "Logger",
           "package": "http-server",
@@ -239,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "LogItem",
           "package": "http-server",
@@ -247,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "LogItem",
           "package": "http-server",
@@ -260,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "LogType",
           "package": "http-server",
@@ -268,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "LogType",
           "package": "http-server",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type used by the server to report various events.\n Useful for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "Logger",
           "package": "http-server",
@@ -291,6 +314,7 @@
         "index": {
           "description": "type used by the server to report various events Useful for debugging",
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "Logger",
           "package": "http-server",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "Debug",
           "package": "http-server",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "Debug",
           "package": "http-server",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "Error",
           "package": "http-server",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "Error",
           "package": "http-server",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "Info",
           "package": "http-server",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "Info",
           "package": "http-server",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "LogItem",
           "package": "http-server",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "LogItem",
           "package": "http-server",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "Logger",
           "package": "http-server",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "Logger",
           "package": "http-server",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "Warning",
           "package": "http-server",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "Warning",
           "package": "http-server",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "filterLog",
           "package": "http-server",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "filterLog",
           "normalized": "Maybe Int-\u003e(LogType-\u003eBool)-\u003e[LogItem]-\u003e[LogItem]",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "getLog",
           "package": "http-server",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "getLog",
           "normalized": "Maybe Int-\u003e(LogType-\u003eBool)-\u003eIO[LogItem]",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "item_data",
           "package": "http-server",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "item_data",
           "package": "http-server",
@@ -505,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "item_type",
           "package": "http-server",
@@ -514,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "item_type",
           "package": "http-server",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "logDebug",
           "package": "http-server",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "logDebug",
           "normalized": "String-\u003eIO()",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "logError",
           "package": "http-server",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "logError",
           "normalized": "String-\u003eIO()",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "logInfo",
           "package": "http-server",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "logInfo",
           "normalized": "Int-\u003eString-\u003eIO()",
@@ -598,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "logWarning",
           "package": "http-server",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "logWarning",
           "normalized": "String-\u003eIO()",
@@ -623,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logger that does not report anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "quietLogger",
           "package": "http-server",
@@ -633,6 +686,7 @@
         "index": {
           "description": "logger that does not report anything",
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "quietLogger",
           "package": "http-server",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "readLogItem",
           "package": "http-server",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "readLogItem",
           "normalized": "String-\u003eMaybe LogItem",
@@ -670,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "showLogItem",
           "package": "http-server",
@@ -679,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "showLogItem",
           "normalized": "LogItem-\u003eString",
@@ -695,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logger that uses the standard output and standard error.\n Text is UTF8 encoded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "stdLogger",
           "package": "http-server",
@@ -705,6 +764,7 @@
         "index": {
           "description": "logger that uses the standard output and standard error Text is UTF8 encoded",
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "stdLogger",
           "package": "http-server",
@@ -719,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logger that uses the given handles for output and errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Logger",
           "name": "utf8Logger",
           "package": "http-server",
@@ -729,6 +790,7 @@
         "index": {
           "description": "logger that uses the given handles for output and errors",
           "hierarchy": "Network HTTP Server Logger",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Logger",
           "name": "utf8Logger",
           "normalized": "Handle-\u003eHandle-\u003eLogger",
@@ -744,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "Response",
           "package": "http-server",
@@ -752,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "Response",
           "package": "http-server",
@@ -766,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP/1.1 status codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "StatusCode",
           "package": "http-server",
@@ -775,6 +840,7 @@
         "index": {
           "description": "HTTP status codes",
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "StatusCode",
           "package": "http-server",
@@ -789,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e202\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "Accepted",
           "package": "http-server",
@@ -798,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "Accepted",
           "package": "http-server",
@@ -812,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e502\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "BadGateway",
           "package": "http-server",
@@ -821,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "BadGateway",
           "package": "http-server",
@@ -835,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e400\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "BadRequest",
           "package": "http-server",
@@ -844,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "BadRequest",
           "package": "http-server",
@@ -858,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e409\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "Conflict",
           "package": "http-server",
@@ -867,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "Conflict",
           "package": "http-server",
@@ -881,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e100\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "Continue",
           "package": "http-server",
@@ -890,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "Continue",
           "package": "http-server",
@@ -904,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e201\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "Created",
           "package": "http-server",
@@ -913,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "Created",
           "package": "http-server",
@@ -927,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e417\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "ExpectationFailed",
           "package": "http-server",
@@ -936,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "ExpectationFailed",
           "package": "http-server",
@@ -950,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e403\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "Forbidden",
           "package": "http-server",
@@ -959,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "Forbidden",
           "package": "http-server",
@@ -973,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e302\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "Found",
           "package": "http-server",
@@ -982,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "Found",
           "package": "http-server",
@@ -996,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e504\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "GatewayTimeout",
           "package": "http-server",
@@ -1005,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "GatewayTimeout",
           "package": "http-server",
@@ -1019,6 +1105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e410\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "Gone",
           "package": "http-server",
@@ -1028,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "Gone",
           "package": "http-server",
@@ -1042,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e505\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "HTTPVersionNotSupported",
           "package": "http-server",
@@ -1051,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "HTTPVersionNotSupported",
           "package": "http-server",
@@ -1065,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e500\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "InternalServerError",
           "package": "http-server",
@@ -1074,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "InternalServerError",
           "package": "http-server",
@@ -1088,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e411\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "LengthRequired",
           "package": "http-server",
@@ -1097,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "LengthRequired",
           "package": "http-server",
@@ -1111,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e405\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "MethodNotAllowed",
           "package": "http-server",
@@ -1120,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "MethodNotAllowed",
           "package": "http-server",
@@ -1134,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e301\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "MovedPermanently",
           "package": "http-server",
@@ -1143,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "MovedPermanently",
           "package": "http-server",
@@ -1157,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e300\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "MultipleChoices",
           "package": "http-server",
@@ -1166,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "MultipleChoices",
           "package": "http-server",
@@ -1180,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e204\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "NoContent",
           "package": "http-server",
@@ -1189,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "NoContent",
           "package": "http-server",
@@ -1203,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e203  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "NonAuthoritativeInformation",
           "package": "http-server",
@@ -1212,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "NonAuthoritativeInformation",
           "package": "http-server",
@@ -1226,6 +1330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e406\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "NotAcceptable",
           "package": "http-server",
@@ -1235,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "NotAcceptable",
           "package": "http-server",
@@ -1249,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e404\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "NotFound",
           "package": "http-server",
@@ -1258,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "NotFound",
           "package": "http-server",
@@ -1272,6 +1380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e501\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "NotImplemented",
           "package": "http-server",
@@ -1281,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "NotImplemented",
           "package": "http-server",
@@ -1295,6 +1405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e304\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "NotModified",
           "package": "http-server",
@@ -1304,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "NotModified",
           "package": "http-server",
@@ -1318,6 +1430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e200\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "OK",
           "package": "http-server",
@@ -1327,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "OK",
           "package": "http-server",
@@ -1341,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e206\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "PartialContent",
           "package": "http-server",
@@ -1350,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "PartialContent",
           "package": "http-server",
@@ -1364,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e402\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "PaymentRequired",
           "package": "http-server",
@@ -1373,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "PaymentRequired",
           "package": "http-server",
@@ -1387,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e412\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "PreconditionFailed",
           "package": "http-server",
@@ -1396,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "PreconditionFailed",
           "package": "http-server",
@@ -1410,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e407\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "ProxyAuthenticationRequired",
           "package": "http-server",
@@ -1419,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "ProxyAuthenticationRequired",
           "package": "http-server",
@@ -1433,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e413\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "RequestEntityTooLarge",
           "package": "http-server",
@@ -1442,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "RequestEntityTooLarge",
           "package": "http-server",
@@ -1456,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e408\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "RequestTimeout",
           "package": "http-server",
@@ -1465,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "RequestTimeout",
           "package": "http-server",
@@ -1479,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e414\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "RequestURITooLong",
           "package": "http-server",
@@ -1488,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "RequestURITooLong",
           "package": "http-server",
@@ -1502,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e416\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "RequestedRangeNotSatisfiable",
           "package": "http-server",
@@ -1511,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "RequestedRangeNotSatisfiable",
           "package": "http-server",
@@ -1525,6 +1655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e205\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "ResetContent",
           "package": "http-server",
@@ -1534,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "ResetContent",
           "package": "http-server",
@@ -1548,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e303\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "SeeOther",
           "package": "http-server",
@@ -1557,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "SeeOther",
           "package": "http-server",
@@ -1571,6 +1705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e503\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "ServiceUnavailable",
           "package": "http-server",
@@ -1580,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "ServiceUnavailable",
           "package": "http-server",
@@ -1594,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e101\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "SwitchingProtocols",
           "package": "http-server",
@@ -1603,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "SwitchingProtocols",
           "package": "http-server",
@@ -1617,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e307\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "TemporaryRedirect",
           "package": "http-server",
@@ -1626,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "TemporaryRedirect",
           "package": "http-server",
@@ -1639,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "Unauthorized",
           "package": "http-server",
@@ -1648,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "Unauthorized",
           "package": "http-server",
@@ -1662,6 +1804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e415\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "UnsupportedMediaType",
           "package": "http-server",
@@ -1671,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "UnsupportedMediaType",
           "package": "http-server",
@@ -1685,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e305\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "UseProxy",
           "package": "http-server",
@@ -1694,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "UseProxy",
           "package": "http-server",
@@ -1708,6 +1854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a simple response with the given status and body.\n Intended to be used for (bad) errors.\n Adds a \u003ca\u003eclose\u003c/a\u003e header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "err_response",
           "package": "http-server",
@@ -1718,6 +1865,7 @@
         "index": {
           "description": "Make simple response with the given status and body Intended to be used for bad errors Adds close header",
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "err_response",
           "normalized": "StatusCode-\u003eResponse a",
@@ -1733,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA brief description of what happend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "reason",
           "package": "http-server",
@@ -1743,6 +1892,7 @@
         "index": {
           "description": "brief description of what happend",
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "reason",
           "normalized": "StatusCode-\u003eString",
@@ -1758,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a simple response with the given status and body.\n No headers or body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "respond",
           "package": "http-server",
@@ -1768,6 +1919,7 @@
         "index": {
           "description": "Make simple response with the given status and body No headers or body",
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "respond",
           "normalized": "StatusCode-\u003eResponse a",
@@ -1782,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server.Response",
           "name": "statusCodeTriplet",
           "package": "http-server",
@@ -1791,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server Response",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server.Response",
           "name": "statusCodeTriplet",
           "normalized": "StatusCode-\u003e(Int,Int,Int)",
@@ -1806,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "Server",
           "package": "http-server",
@@ -1814,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "Server",
           "package": "http-server",
@@ -1828,6 +1984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "Config",
           "package": "http-server",
@@ -1837,6 +1994,7 @@
         "index": {
           "description": "Server configuration",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "Config",
           "package": "http-server",
@@ -1851,6 +2009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandlers invoked to process requests.\n The type parameter is for the type of the payload in the body.\n It is a variation on string of some sort (e.g., String, ByteString, etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "Handler",
           "package": "http-server",
@@ -1860,6 +2019,7 @@
         "index": {
           "description": "Handlers invoked to process requests The type parameter is for the type of the payload in the body It is variation on string of some sort e.g String ByteString etc",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "Handler",
           "package": "http-server",
@@ -1874,6 +2034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTTP Request.\n The \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance of this type is used for message serialisation,\n which means no body data is output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "Request",
           "package": "http-server",
@@ -1882,6 +2043,7 @@
         "index": {
           "description": "An HTTP Request The Show instance of this type is used for message serialisation which means no body data is output",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "Request",
           "package": "http-server",
@@ -1896,6 +2058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HTTP request method, to be used in the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e object.\n We are missing a few of the stranger methods, but these are\n not really necessary until we add full TLS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "RequestMethod",
           "package": "http-server",
@@ -1904,6 +2067,7 @@
         "index": {
           "description": "The HTTP request method to be used in the Request object We are missing few of the stranger methods but these are not really necessary until we add full TLS",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "RequestMethod",
           "package": "http-server",
@@ -1918,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTTP Response.\n The \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance of this type is used for message serialisation,\n which means no body data is output, additionally the output will\n show an HTTP version of 1.1 instead of the actual version returned\n by a server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "Response",
           "package": "http-server",
@@ -1926,6 +2091,7 @@
         "index": {
           "description": "An HTTP Response The Show instance of this type is used for message serialisation which means no body data is output additionally the output will show an HTTP version of instead of the actual version returned by server",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "Response",
           "package": "http-server",
@@ -1939,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "CONNECT",
           "package": "http-server",
@@ -1947,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "CONNECT",
           "package": "http-server",
@@ -1960,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "Config",
           "package": "http-server",
@@ -1969,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "Config",
           "package": "http-server",
@@ -1982,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "Custom",
           "package": "http-server",
@@ -1990,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "Custom",
           "package": "http-server",
@@ -2003,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "DELETE",
           "package": "http-server",
@@ -2011,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "DELETE",
           "package": "http-server",
@@ -2024,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "GET",
           "package": "http-server",
@@ -2032,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "GET",
           "package": "http-server",
@@ -2045,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "HEAD",
           "package": "http-server",
@@ -2053,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "HEAD",
           "package": "http-server",
@@ -2066,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "OPTIONS",
           "package": "http-server",
@@ -2074,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "OPTIONS",
           "package": "http-server",
@@ -2087,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "POST",
           "package": "http-server",
@@ -2095,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "POST",
           "package": "http-server",
@@ -2108,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "PUT",
           "package": "http-server",
@@ -2116,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "PUT",
           "package": "http-server",
@@ -2129,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "Request",
           "package": "http-server",
@@ -2137,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "Request",
           "package": "http-server",
@@ -2150,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "Response",
           "package": "http-server",
@@ -2158,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "Response",
           "package": "http-server",
@@ -2171,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "TRACE",
           "package": "http-server",
@@ -2179,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "TRACE",
           "package": "http-server",
@@ -2193,6 +2383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome default options for a server:\n no logging output, listen on \"localhost:8000\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "defaultConfig",
           "package": "http-server",
@@ -2203,6 +2394,7 @@
         "index": {
           "description": "Some default options for server no logging output listen on localhost",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "defaultConfig",
           "package": "http-server",
@@ -2216,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "rqBody",
           "package": "http-server",
@@ -2224,6 +2417,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "rqBody",
           "package": "http-server",
@@ -2237,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "rqHeaders",
           "package": "http-server",
@@ -2245,6 +2440,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "rqHeaders",
           "normalized": "[Header]",
@@ -2260,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "rqMethod",
           "package": "http-server",
@@ -2268,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "rqMethod",
           "package": "http-server",
@@ -2282,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emight need changing in future\n  1) to support \u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e uri in OPTIONS request\n  2) transparent support for both relative\n     & absolute uris, although this should\n     already work (leave scheme & host parts empty).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "rqURI",
           "package": "http-server",
@@ -2291,6 +2490,7 @@
         "index": {
           "description": "might need changing in future to support uri in OPTIONS request transparent support for both relative absolute uris although this should already work leave scheme host parts empty",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "rqURI",
           "package": "http-server",
@@ -2304,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "rspBody",
           "package": "http-server",
@@ -2312,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "rspBody",
           "package": "http-server",
@@ -2325,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "rspCode",
           "package": "http-server",
@@ -2333,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "rspCode",
           "package": "http-server",
@@ -2346,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "rspHeaders",
           "package": "http-server",
@@ -2354,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "rspHeaders",
           "normalized": "[Header]",
@@ -2369,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "rspReason",
           "package": "http-server",
@@ -2377,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "rspReason",
           "package": "http-server",
@@ -2391,6 +2599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a server with the default configuration, and the given handler.\n  Requests are handled in separate threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "server",
           "package": "http-server",
@@ -2401,6 +2610,7 @@
         "index": {
           "description": "Start server with the default configuration and the given handler Requests are handled in separate threads",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "server",
           "normalized": "Handler a-\u003eIO()",
@@ -2416,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a server with the given configuration and handler.\n  Requests are handled in separate threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "serverWith",
           "package": "http-server",
@@ -2426,6 +2637,7 @@
         "index": {
           "description": "Start server with the given configuration and handler Requests are handled in separate threads",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "serverWith",
           "normalized": "Config-\u003eHandler a-\u003eIO()",
@@ -2442,6 +2654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name to bind to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "srvHost",
           "package": "http-server",
@@ -2452,6 +2665,7 @@
         "index": {
           "description": "Host name to bind to",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "srvHost",
           "package": "http-server",
@@ -2466,6 +2680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer reports what's going on here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "srvLog",
           "package": "http-server",
@@ -2476,6 +2691,7 @@
         "index": {
           "description": "Server reports what going on here",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "srvLog",
           "package": "http-server",
@@ -2490,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort to listen on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:57 UTC 2014",
           "module": "Network.HTTP.Server",
           "name": "srvPort",
           "package": "http-server",
@@ -2500,6 +2717,7 @@
         "index": {
           "description": "Port to listen on",
           "hierarchy": "Network HTTP Server",
+          "indexed": "2014-03-11T18:52:57",
           "module": "Network.HTTP.Server",
           "name": "srvPort",
           "package": "http-server",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "special-functors"
+        "phrase": "special-functors",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tracker"
+        "phrase": "tracker",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uulib"
+        "phrase": "uulib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "PPrint",
           "package": "uulib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "PPrint",
           "package": "uulib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "Doc",
           "package": "uulib",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "Doc",
           "package": "uulib",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "Pretty",
           "package": "uulib",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "Pretty",
           "package": "uulib",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "SimpleDoc",
           "package": "uulib",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "SimpleDoc",
           "package": "uulib",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "(\u003c$$\u003e)",
           "package": "uulib",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "(\u003c$$\u003e) \u003c$$\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "(\u003c$\u003e)",
           "package": "uulib",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "(\u003c+\u003e)",
           "package": "uulib",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "(\u003c//\u003e)",
           "package": "uulib",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "(\u003c//\u003e) \u003c//\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "(\u003c/\u003e)",
           "package": "uulib",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "(\u003c\u003e)",
           "package": "uulib",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "SChar",
           "package": "uulib",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "SChar",
           "package": "uulib",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "SEmpty",
           "package": "uulib",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "SEmpty",
           "package": "uulib",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "SLine",
           "package": "uulib",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "SLine",
           "package": "uulib",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "SText",
           "package": "uulib",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "SText",
           "package": "uulib",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "align",
           "package": "uulib",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "align",
           "normalized": "Doc-\u003eDoc",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "angles",
           "package": "uulib",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "angles",
           "normalized": "Doc-\u003eDoc",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "backslash",
           "package": "uulib",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "backslash",
           "package": "uulib",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "bool",
           "package": "uulib",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "bool",
           "normalized": "Bool-\u003eDoc",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "braces",
           "package": "uulib",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "braces",
           "normalized": "Doc-\u003eDoc",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "brackets",
           "package": "uulib",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "brackets",
           "normalized": "Doc-\u003eDoc",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "cat",
           "package": "uulib",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "cat",
           "normalized": "[Doc]-\u003eDoc",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "char",
           "package": "uulib",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "char",
           "normalized": "Char-\u003eDoc",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "colon",
           "package": "uulib",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "colon",
           "package": "uulib",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "column",
           "package": "uulib",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "column",
           "normalized": "(Int-\u003eDoc)-\u003eDoc",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "comma",
           "package": "uulib",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "comma",
           "package": "uulib",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "displayIO",
           "package": "uulib",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "displayIO",
           "normalized": "Handle-\u003eSimpleDoc-\u003eIO()",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "displayS",
           "package": "uulib",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "displayS",
           "normalized": "SimpleDoc-\u003eShowS",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "dot",
           "package": "uulib",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "dot",
           "package": "uulib",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "double",
           "package": "uulib",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "double",
           "normalized": "Double-\u003eDoc",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "dquote",
           "package": "uulib",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "dquote",
           "package": "uulib",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "dquotes",
           "package": "uulib",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "dquotes",
           "normalized": "Doc-\u003eDoc",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "empty",
           "package": "uulib",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "empty",
           "package": "uulib",
@@ -731,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "encloseSep",
           "package": "uulib",
@@ -740,6 +805,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "encloseSep",
           "normalized": "Doc-\u003eDoc-\u003eDoc-\u003e[Doc]-\u003eDoc",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "equals",
           "package": "uulib",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "equals",
           "package": "uulib",
@@ -776,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "fill",
           "package": "uulib",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "fill",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -799,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "fillBreak",
           "package": "uulib",
@@ -808,6 +879,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "fillBreak",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -823,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "fillCat",
           "package": "uulib",
@@ -832,6 +905,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "fillCat",
           "normalized": "[Doc]-\u003eDoc",
@@ -847,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "fillSep",
           "package": "uulib",
@@ -856,6 +931,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "fillSep",
           "normalized": "[Doc]-\u003eDoc",
@@ -871,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "float",
           "package": "uulib",
@@ -880,6 +957,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "float",
           "normalized": "Float-\u003eDoc",
@@ -894,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "group",
           "package": "uulib",
@@ -903,6 +982,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "group",
           "normalized": "Doc-\u003eDoc",
@@ -917,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "hPutDoc",
           "package": "uulib",
@@ -926,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "hPutDoc",
           "normalized": "Handle-\u003eDoc-\u003eIO()",
@@ -941,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "hang",
           "package": "uulib",
@@ -950,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "hang",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -964,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "hcat",
           "package": "uulib",
@@ -973,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "hcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -987,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "hsep",
           "package": "uulib",
@@ -996,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "hsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -1010,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "indent",
           "package": "uulib",
@@ -1019,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "indent",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -1033,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "int",
           "package": "uulib",
@@ -1042,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "int",
           "normalized": "Int-\u003eDoc",
@@ -1056,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "integer",
           "package": "uulib",
@@ -1065,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "integer",
           "normalized": "Integer-\u003eDoc",
@@ -1079,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "langle",
           "package": "uulib",
@@ -1088,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "langle",
           "package": "uulib",
@@ -1100,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "lbrace",
           "package": "uulib",
@@ -1109,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "lbrace",
           "package": "uulib",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "lbracket",
           "package": "uulib",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "lbracket",
           "package": "uulib",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "line",
           "package": "uulib",
@@ -1151,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "line",
           "package": "uulib",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "linebreak",
           "package": "uulib",
@@ -1172,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "linebreak",
           "package": "uulib",
@@ -1184,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "list",
           "package": "uulib",
@@ -1193,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "list",
           "normalized": "[Doc]-\u003eDoc",
@@ -1207,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "lparen",
           "package": "uulib",
@@ -1216,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "lparen",
           "package": "uulib",
@@ -1228,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "nest",
           "package": "uulib",
@@ -1237,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "nest",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -1251,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "nesting",
           "package": "uulib",
@@ -1260,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "nesting",
           "normalized": "(Int-\u003eDoc)-\u003eDoc",
@@ -1274,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "parens",
           "package": "uulib",
@@ -1283,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "parens",
           "normalized": "Doc-\u003eDoc",
@@ -1297,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "pretty",
           "package": "uulib",
@@ -1306,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -1320,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "punctuate",
           "package": "uulib",
@@ -1329,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "punctuate",
           "normalized": "Doc-\u003e[Doc]-\u003e[Doc]",
@@ -1343,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "putDoc",
           "package": "uulib",
@@ -1352,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "putDoc",
           "normalized": "Doc-\u003eIO()",
@@ -1367,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "rangle",
           "package": "uulib",
@@ -1376,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "rangle",
           "package": "uulib",
@@ -1388,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "rational",
           "package": "uulib",
@@ -1397,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "rational",
           "normalized": "Rational-\u003eDoc",
@@ -1411,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "rbrace",
           "package": "uulib",
@@ -1420,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "rbrace",
           "package": "uulib",
@@ -1432,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "rbracket",
           "package": "uulib",
@@ -1441,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "rbracket",
           "package": "uulib",
@@ -1453,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "renderCompact",
           "package": "uulib",
@@ -1462,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "renderCompact",
           "normalized": "Doc-\u003eSimpleDoc",
@@ -1477,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "renderPretty",
           "package": "uulib",
@@ -1486,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "renderPretty",
           "normalized": "Float-\u003eInt-\u003eDoc-\u003eSimpleDoc",
@@ -1501,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "rparen",
           "package": "uulib",
@@ -1510,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "rparen",
           "package": "uulib",
@@ -1522,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "semi",
           "package": "uulib",
@@ -1531,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "semi",
           "package": "uulib",
@@ -1543,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "semiBraces",
           "package": "uulib",
@@ -1552,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "semiBraces",
           "normalized": "[Doc]-\u003eDoc",
@@ -1567,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "sep",
           "package": "uulib",
@@ -1576,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "sep",
           "normalized": "[Doc]-\u003eDoc",
@@ -1591,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specialised variant of \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e, using precedence context\n zero, and returning an ordinary \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "show",
           "package": "uulib",
@@ -1600,6 +1741,7 @@
         "index": {
           "description": "specialised variant of showsPrec using precedence context zero and returning an ordinary String",
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "show",
           "normalized": "a-\u003eString",
@@ -1614,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "softbreak",
           "package": "uulib",
@@ -1623,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "softbreak",
           "package": "uulib",
@@ -1635,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "softline",
           "package": "uulib",
@@ -1644,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "softline",
           "package": "uulib",
@@ -1656,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "space",
           "package": "uulib",
@@ -1665,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "space",
           "package": "uulib",
@@ -1677,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "squote",
           "package": "uulib",
@@ -1686,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "squote",
           "package": "uulib",
@@ -1698,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "squotes",
           "package": "uulib",
@@ -1707,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "squotes",
           "normalized": "Doc-\u003eDoc",
@@ -1721,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "string",
           "package": "uulib",
@@ -1730,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "string",
           "normalized": "[Char]-\u003eDoc",
@@ -1744,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "text",
           "package": "uulib",
@@ -1753,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "text",
           "normalized": "[Char]-\u003eDoc",
@@ -1767,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "tupled",
           "package": "uulib",
@@ -1776,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "tupled",
           "normalized": "[Doc]-\u003eDoc",
@@ -1790,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "vcat",
           "package": "uulib",
@@ -1799,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "vcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -1813,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "vsep",
           "package": "uulib",
@@ -1822,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "vsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -1836,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.PPrint",
           "name": "width",
           "package": "uulib",
@@ -1845,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "UU PPrint",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.PPrint",
           "name": "width",
           "normalized": "Doc-\u003e(Int-\u003eDoc)-\u003eDoc",
@@ -1859,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.CharParser",
           "name": "CharParser",
           "package": "uulib",
@@ -1867,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing CharParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.CharParser",
           "name": "CharParser",
           "package": "uulib",
@@ -1880,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.CharParser",
           "name": "CharParser",
           "package": "uulib",
@@ -1888,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing CharParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.CharParser",
           "name": "CharParser",
           "package": "uulib",
@@ -1901,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.CharParser",
           "name": "Input",
           "package": "uulib",
@@ -1909,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing CharParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.CharParser",
           "name": "Input",
           "package": "uulib",
@@ -1922,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.CharParser",
           "name": "Input",
           "package": "uulib",
@@ -1931,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing CharParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.CharParser",
           "name": "Input",
           "package": "uulib",
@@ -1944,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.CharParser",
           "name": "parseFile",
           "package": "uulib",
@@ -1953,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing CharParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.CharParser",
           "name": "parseFile",
           "normalized": "(Message Char Pos-\u003eString)-\u003eCharParser a-\u003e[Char]-\u003eIO a",
@@ -1968,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.CharParser",
           "name": "parseString",
           "package": "uulib",
@@ -1977,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing CharParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.CharParser",
           "name": "parseString",
           "normalized": "CharParser a-\u003e[Char]-\u003eSteps(Pair a(Pair Input()))Char Pos",
@@ -1992,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.CharParser",
           "name": "parseStringIO",
           "package": "uulib",
@@ -2001,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing CharParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.CharParser",
           "name": "parseStringIO",
           "normalized": "(Message Char Pos-\u003eString)-\u003eCharParser a-\u003e[Char]-\u003eIO a",
@@ -2016,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "Derived",
           "package": "uulib",
@@ -2024,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "Derived",
           "package": "uulib",
@@ -2037,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c$$\u003e)",
           "package": "uulib",
@@ -2046,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c$$\u003e) \u003c$$\u003e",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed b-\u003ed(a-\u003ec)",
@@ -2061,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuppose we have a parser a with two alternatives that both start\n with recognizing a non-terminal p, then we will typically rewrite:\n\u003c/p\u003e\u003cpre\u003e a =     f \u003c$\u003e p \u003c*\u003e q \n     \u003c|\u003e g \u003c$\u003e p \u003c*\u003e r \n\u003c/pre\u003e\u003cp\u003einto: \n\u003c/p\u003e\u003cpre\u003e a = p \u003c**\u003e (f \u003c$$\u003e q \u003c|\u003e g \u003c$$\u003e r)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c**\u003e)",
           "package": "uulib",
@@ -2071,6 +2254,7 @@
         "index": {
           "description": "Suppose we have parser with two alternatives that both start with recognizing non-terminal then we will typically rewrite into",
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c**\u003e) \u003c**\u003e",
           "normalized": "a b-\u003ea(b-\u003ec)-\u003ea c",
@@ -2086,6 +2270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the sequence of \u003ccode\u003epa\u003c/code\u003e and \u003ccode\u003epb\u003c/code\u003e, and combines them as a tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c+\u003e)",
           "package": "uulib",
@@ -2096,6 +2281,7 @@
         "index": {
           "description": "Parses the sequence of pa and pb and combines them as tuple",
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -2110,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c?\u003e)",
           "package": "uulib",
@@ -2119,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c?\u003e) \u003c?\u003e",
           "normalized": "a b-\u003eString-\u003ea b",
@@ -2133,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c??\u003e)",
           "package": "uulib",
@@ -2142,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c??\u003e) \u003c??\u003e",
           "normalized": "a b-\u003ea(b-\u003eb)-\u003ea b",
@@ -2157,6 +2347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the specified range, see also \u003ccode\u003e\u003ca\u003epRange\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e pDig = 'a' \u003c..\u003e 'z'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c..\u003e)",
           "package": "uulib",
@@ -2167,6 +2358,7 @@
         "index": {
           "description": "Parses the specified range see also pRange Example pDig",
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "(\u003c..\u003e) \u003c..\u003e",
           "normalized": "a-\u003ea-\u003eb a",
@@ -2182,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the parser accepts epsilon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "acceptsepsilon",
           "package": "uulib",
@@ -2192,6 +2385,7 @@
         "index": {
           "description": "Checks if the parser accepts epsilon",
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "acceptsepsilon",
           "normalized": "a b-\u003eBool",
@@ -2206,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "asList",
           "package": "uulib",
@@ -2215,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "asList",
           "normalized": "Expecting a-\u003eb c-\u003eb c",
@@ -2230,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "asList1",
           "package": "uulib",
@@ -2239,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "asList1",
           "normalized": "Expecting a-\u003eb c-\u003eb c",
@@ -2254,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "asOpt",
           "package": "uulib",
@@ -2263,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "asOpt",
           "normalized": "Expecting a-\u003eb c-\u003eb c",
@@ -2278,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "list_alg",
           "package": "uulib",
@@ -2287,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "list_alg",
           "normalized": "(a-\u003e[a]-\u003e[a],[a])",
@@ -2301,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "mnz",
           "package": "uulib",
@@ -2310,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "mnz",
           "normalized": "a b-\u003ec-\u003eString-\u003ec",
@@ -2325,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptionally recognize parser \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ep\u003c/code\u003e can be recognized, the return value of \u003ccode\u003ep\u003c/code\u003e is used. Otherwise,\n the value \u003ccode\u003ev\u003c/code\u003e is used. Note that opt is greedy, if you do not want\n this use \u003ccode\u003e... \u003ca\u003e|\u003c/a\u003e pSucceed v\u003c/code\u003e  instead. Furthermore, \u003ccode\u003ep\u003c/code\u003e should not\n recognise the empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "opt",
           "package": "uulib",
@@ -2335,6 +2540,7 @@
         "index": {
           "description": "Optionally recognize parser If can be recognized the return value of is used Otherwise the value is used Note that opt is greedy if you do not want this use pSucceed instead Furthermore should not recognise the empty string",
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "opt",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -2350,6 +2556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses using any of the parsers in the list \u003ccode\u003el\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWarning: \u003ccode\u003el\u003c/code\u003e may not be an empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pAny",
           "package": "uulib",
@@ -2360,6 +2567,7 @@
         "index": {
           "description": "Parses using any of the parsers in the list Warning may not be an empty list",
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pAny",
           "normalized": "(a-\u003eb a)-\u003e[a]-\u003eb a",
@@ -2376,6 +2584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses any of the symbols in \u003ccode\u003el\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pAnySym",
           "package": "uulib",
@@ -2386,6 +2595,7 @@
         "index": {
           "description": "Parses any of the symbols in",
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pAnySym",
           "normalized": "[a]-\u003eb a",
@@ -2401,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pChainl",
           "package": "uulib",
@@ -2410,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pChainl",
           "normalized": "a(b-\u003eb-\u003eb)-\u003ea b-\u003ea b",
@@ -2425,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pChainl_gr",
           "package": "uulib",
@@ -2434,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pChainl_gr",
           "normalized": "a(b-\u003eb-\u003eb)-\u003ea b-\u003ea b",
@@ -2449,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pChainl_ng",
           "package": "uulib",
@@ -2458,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pChainl_ng",
           "normalized": "a(b-\u003eb-\u003eb)-\u003ea b-\u003ea b",
@@ -2473,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pChainr",
           "package": "uulib",
@@ -2482,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pChainr",
           "normalized": "a(b-\u003eb-\u003eb)-\u003ea b-\u003ea b",
@@ -2497,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pChainr_gr",
           "package": "uulib",
@@ -2506,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pChainr_gr",
           "normalized": "a(b-\u003eb-\u003eb)-\u003ea b-\u003ea b",
@@ -2521,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pChainr_ng",
           "package": "uulib",
@@ -2530,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pChainr_ng",
           "normalized": "a(b-\u003eb-\u003eb)-\u003ea b-\u003ea b",
@@ -2545,6 +2767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pExcept",
           "package": "uulib",
@@ -2554,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pExcept",
           "normalized": "(a,a,a)-\u003e[a]-\u003eb a",
@@ -2569,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr",
           "package": "uulib",
@@ -2578,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ec a-\u003ec b",
@@ -2593,6 +2819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1",
           "package": "uulib",
@@ -2602,6 +2829,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ec a-\u003ec b",
@@ -2617,6 +2845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1Sep",
           "package": "uulib",
@@ -2626,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1Sep",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ec a-\u003ec a-\u003ec b",
@@ -2641,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1Sep_gr",
           "package": "uulib",
@@ -2650,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1Sep_gr",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ec a-\u003ec a-\u003ec b",
@@ -2665,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1Sep_ng",
           "package": "uulib",
@@ -2674,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1Sep_ng",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ec a-\u003ec a-\u003ec b",
@@ -2689,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1_gr",
           "package": "uulib",
@@ -2698,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1_gr",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ec a-\u003ec b",
@@ -2713,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1_ng",
           "package": "uulib",
@@ -2722,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr1_ng",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ec a-\u003ec b",
@@ -2737,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldrSep",
           "package": "uulib",
@@ -2746,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldrSep",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ec d-\u003ec a-\u003ec b",
@@ -2761,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldrSep_gr",
           "package": "uulib",
@@ -2770,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldrSep_gr",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ec d-\u003ec a-\u003ec b",
@@ -2785,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldrSep_ng",
           "package": "uulib",
@@ -2794,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldrSep_ng",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ec d-\u003ec a-\u003ec b",
@@ -2809,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr_gr",
           "package": "uulib",
@@ -2818,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr_gr",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ec a-\u003ec b",
@@ -2833,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr_ng",
           "package": "uulib",
@@ -2842,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pFoldr_ng",
           "normalized": "(a-\u003ea-\u003ea,a)-\u003eb a-\u003eb a",
@@ -2857,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pList",
           "package": "uulib",
@@ -2866,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pList",
           "normalized": "a b-\u003ea[b]",
@@ -2881,6 +3131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pList1",
           "package": "uulib",
@@ -2890,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pList1",
           "normalized": "a b-\u003ea[b]",
@@ -2905,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pList1Sep",
           "package": "uulib",
@@ -2914,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pList1Sep",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -2929,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pList1Sep_gr",
           "package": "uulib",
@@ -2938,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pList1Sep_gr",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -2953,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pList1Sep_ng",
           "package": "uulib",
@@ -2962,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pList1Sep_ng",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -2977,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pList1_gr",
           "package": "uulib",
@@ -2986,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pList1_gr",
           "normalized": "a b-\u003ea[b]",
@@ -3001,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pList1_ng",
           "package": "uulib",
@@ -3010,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pList1_ng",
           "normalized": "a b-\u003ea[b]",
@@ -3025,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pListSep",
           "package": "uulib",
@@ -3034,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pListSep",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -3049,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pListSep_gr",
           "package": "uulib",
@@ -3058,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pListSep_gr",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -3073,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pListSep_ng",
           "package": "uulib",
@@ -3082,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pListSep_ng",
           "normalized": "a b-\u003ea b-\u003ea[b]",
@@ -3097,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pList_gr",
           "package": "uulib",
@@ -3106,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pList_gr",
           "normalized": "a b-\u003ea[b]",
@@ -3121,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pList_ng",
           "package": "uulib",
@@ -3130,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pList_ng",
           "normalized": "a b-\u003ea[b]",
@@ -3145,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pLocate",
           "package": "uulib",
@@ -3154,6 +3427,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pLocate",
           "normalized": "[[a]]-\u003eb[a]",
@@ -3170,6 +3444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis can be used to parse \u003ccode\u003ex\u003c/code\u003e surrounded by \u003ccode\u003el\u003c/code\u003e and \u003ccode\u003er\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e pParens = pPacked pOParen pCParen\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pPacked",
           "package": "uulib",
@@ -3180,6 +3455,7 @@
         "index": {
           "description": "This can be used to parse surrounded by and Example pParens pPacked pOParen pCParen",
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pPacked",
           "normalized": "a b-\u003ea c-\u003ea c-\u003ea c",
@@ -3195,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Derived",
           "name": "pToks",
           "package": "uulib",
@@ -3204,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Derived",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Derived",
           "name": "pToks",
           "normalized": "[a]-\u003eb[a]",
@@ -3219,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "Interface",
           "package": "uulib",
@@ -3227,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "Interface",
           "package": "uulib",
@@ -3240,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "AnaParser",
           "package": "uulib",
@@ -3248,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "AnaParser",
           "package": "uulib",
@@ -3262,6 +3544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eIsParser\u003c/a\u003e\u003c/code\u003e class contains the base combinators with which\n to write parsers. A minimal complete instance definition consists of\n definitions for '(\u003ca\u003e*\u003c/a\u003e)', '(\u003ca\u003e|\u003c/a\u003e)', \u003ccode\u003e\u003ca\u003epSucceed\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epLow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epFail\u003c/a\u003e\u003c/code\u003e, \n \u003ccode\u003e\u003ca\u003epCostRange\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epCostSym\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egetfirsts\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetfirsts\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003egetzerop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "IsParser",
           "package": "uulib",
@@ -3271,6 +3554,7 @@
         "index": {
           "description": "The IsParser class contains the base combinators with which to write parsers minimal complete instance definition consists of definitions for pSucceed pLow pFail pCostRange pCostSym getfirsts setfirsts and getzerop",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "IsParser",
           "package": "uulib",
@@ -3284,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "Pair",
           "package": "uulib",
@@ -3292,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "Pair",
           "package": "uulib",
@@ -3305,6 +3591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "Parser",
           "package": "uulib",
@@ -3313,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "Parser",
           "package": "uulib",
@@ -3326,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "(*\u003e)",
           "package": "uulib",
@@ -3335,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "(*\u003e) *\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -3350,6 +3640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative combinator. Succeeds if either of the two arguments\n succeed, and returns the result of the best success parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "(\u003c|\u003e)",
           "package": "uulib",
@@ -3360,6 +3651,7 @@
         "index": {
           "description": "Alternative combinator Succeeds if either of the two arguments succeed and returns the result of the best success parse",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3374,6 +3666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "(\u003c$)",
           "package": "uulib",
@@ -3383,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "(\u003c$) \u003c$",
           "normalized": "a-\u003eb c-\u003eb a",
@@ -3398,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies the function f to the result of p after parsing p.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "(\u003c$\u003e)",
           "package": "uulib",
@@ -3408,6 +3703,7 @@
         "index": {
           "description": "Applies the function to the result of after parsing",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -3423,6 +3719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue ignoring versions of sequential composition. These ignore\n either the value returned by the parser on the right-hand side or \n the left-hand side, depending on the visual direction of the\n combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "(\u003c*)",
           "package": "uulib",
@@ -3433,6 +3730,7 @@
         "index": {
           "description": "Value ignoring versions of sequential composition These ignore either the value returned by the parser on the right-hand side or the left-hand side depending on the visual direction of the combinator",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "(\u003c*) \u003c*",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -3448,6 +3746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential composition. Often used in combination with \u003ca\u003e$\u003c/a\u003e.\n The function returned by parsing the left-hand side is applied \n to the value returned by parsing the right-hand side.\n Note: Implementations of this combinator should lazily match on\n and evaluate the right-hand side parser. The derived combinators \n for list parsing will explode if they do not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "(\u003c*\u003e)",
           "package": "uulib",
@@ -3458,6 +3757,7 @@
         "index": {
           "description": "Sequential composition Often used in combination with The function returned by parsing the left-hand side is applied to the value returned by parsing the right-hand side Note Implementations of this combinator should lazily match on and evaluate the right-hand side parser The derived combinators for list parsing will explode if they do not",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -3472,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "Pair",
           "package": "uulib",
@@ -3481,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "Pair",
           "package": "uulib",
@@ -3494,6 +3796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "evalStepsIO",
           "package": "uulib",
@@ -3503,6 +3806,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "evalStepsIO",
           "normalized": "(Message a b-\u003eString)-\u003eSteps c a b-\u003eIO c",
@@ -3518,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "evalStepsIO'",
           "package": "uulib",
@@ -3527,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "evalStepsIO'",
           "normalized": "(Message a b-\u003eString)-\u003eInt-\u003eSteps c a b-\u003eIO c",
@@ -3542,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "getInputState",
           "package": "uulib",
@@ -3551,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "getInputState",
           "package": "uulib",
@@ -3565,6 +3873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the firsts set from the parser, i.e. the symbols it expects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "getfirsts",
           "package": "uulib",
@@ -3575,6 +3884,7 @@
         "index": {
           "description": "Get the firsts set from the parser i.e the symbols it expects",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "getfirsts",
           "normalized": "a b-\u003eExpecting c",
@@ -3590,6 +3900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetonep\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003eNothing\u003c/code\u003e if the parser can only parse the empty\n string, and returns \u003ccode\u003eJust p\u003c/code\u003e with \u003ccode\u003ep\u003c/code\u003e a parser that does not parse any\n empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "getonep",
           "package": "uulib",
@@ -3600,6 +3911,7 @@
         "index": {
           "description": "getonep returns Nothing if the parser can only parse the empty string and returns Just with parser that does not parse any empty string",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "getonep",
           "normalized": "a b-\u003eMaybe(a b)",
@@ -3615,6 +3927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetzerop\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003eNothing\u003c/code\u003e if the parser can not parse the empty\n string, and returns \u003ccode\u003eJust p\u003c/code\u003e with \u003ccode\u003ep\u003c/code\u003e a parser that parses the empty \n string and returns the appropriate value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "getzerop",
           "package": "uulib",
@@ -3625,6 +3938,7 @@
         "index": {
           "description": "getzerop returns Nothing if the parser can not parse the empty string and returns Just with parser that parses the empty string and returns the appropriate value",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "getzerop",
           "normalized": "a b-\u003eMaybe(a b)",
@@ -3639,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "handleEof",
           "package": "uulib",
@@ -3648,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "handleEof",
           "normalized": "a-\u003eSteps(Pair a())b c",
@@ -3663,6 +3979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "pCost",
           "package": "uulib",
@@ -3672,6 +3989,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "pCost",
           "normalized": "Int #-\u003eAnaParser a b c d()",
@@ -3688,6 +4006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a range of symbols with an associated cost and the symbol to\n insert if no symbol in the range is present. Returns the actual symbol\n parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "pCostRange",
           "package": "uulib",
@@ -3698,6 +4017,7 @@
         "index": {
           "description": "Parses range of symbols with an associated cost and the symbol to insert if no symbol in the range is present Returns the actual symbol parsed",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "pCostRange",
           "normalized": "Int #-\u003ea-\u003eSymbolR a-\u003eb a",
@@ -3714,6 +4034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a symbol with an associated cost and the symbol to insert if\n the symbol to parse isn't present. Returns either the symbol parsed or\n the symbol inserted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "pCostSym",
           "package": "uulib",
@@ -3724,6 +4045,7 @@
         "index": {
           "description": "Parses symbol with an associated cost and the symbol to insert if the symbol to parse isn present Returns either the symbol parsed or the symbol inserted",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "pCostSym",
           "normalized": "Int #-\u003ea-\u003ea-\u003eb a",
@@ -3740,6 +4062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parser always fails, and never returns any value at all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "pFail",
           "package": "uulib",
@@ -3750,6 +4073,7 @@
         "index": {
           "description": "This parser always fails and never returns any value at all",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "pFail",
           "package": "uulib",
@@ -3764,6 +4088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epLow\u003c/a\u003e\u003c/code\u003e parses the empty string, but alternatives to pLow are always\n preferred over \u003ccode\u003e\u003ca\u003epLow\u003c/a\u003e\u003c/code\u003e parsing the empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "pLow",
           "package": "uulib",
@@ -3774,6 +4099,7 @@
         "index": {
           "description": "pLow parses the empty string but alternatives to pLow are always preferred over pLow parsing the empty string",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "pLow",
           "normalized": "a-\u003eb a",
@@ -3814,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "pRange",
           "package": "uulib",
@@ -3823,6 +4150,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "pRange",
           "normalized": "a-\u003eSymbolR a-\u003eb a",
@@ -3839,6 +4167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo variants of the parser for empty strings. \u003ccode\u003e\u003ca\u003epSucceed\u003c/a\u003e\u003c/code\u003e parses the\n empty string, and fully counts as an alternative parse. It returns the\n value passed to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "pSucceed",
           "package": "uulib",
@@ -3849,6 +4178,7 @@
         "index": {
           "description": "Two variants of the parser for empty strings pSucceed parses the empty string and fully counts as an alternative parse It returns the value passed to it",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "pSucceed",
           "normalized": "a-\u003eb a",
@@ -3865,6 +4195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a symbol. Returns the symbol parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "pSym",
           "package": "uulib",
@@ -3875,6 +4206,7 @@
         "index": {
           "description": "Parses symbol Returns the symbol parsed",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "pSym",
           "normalized": "a-\u003eb a",
@@ -3915,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "parse",
           "package": "uulib",
@@ -3924,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "parse",
           "normalized": "AnaParser a Pair b c d-\u003ea-\u003eSteps(Pair d(Pair a()))b c",
@@ -3938,6 +4272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "parseIOMessage",
           "package": "uulib",
@@ -3947,6 +4282,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "parseIOMessage",
           "normalized": "(Message a b-\u003eString)-\u003eAnaParser c Pair a b d-\u003ec-\u003eIO d",
@@ -3962,6 +4298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "parseIOMessageN",
           "package": "uulib",
@@ -3971,6 +4308,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "parseIOMessageN",
           "normalized": "(Message a b-\u003eString)-\u003eInt-\u003eAnaParser c Pair a b d-\u003ec-\u003eIO d",
@@ -3987,6 +4325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the firsts set in the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Interface",
           "name": "setfirsts",
           "package": "uulib",
@@ -3997,6 +4336,7 @@
         "index": {
           "description": "Set the firsts set in the parser",
           "hierarchy": "UU Parsing Interface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Interface",
           "name": "setfirsts",
           "normalized": "Expecting a-\u003eb c-\u003eb c",
@@ -4011,6 +4351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "Machine",
           "package": "uulib",
@@ -4019,6 +4360,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "Machine",
           "package": "uulib",
@@ -4032,6 +4374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "AnaParser",
           "package": "uulib",
@@ -4040,6 +4383,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "AnaParser",
           "package": "uulib",
@@ -4053,6 +4397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "Nat",
           "package": "uulib",
@@ -4061,6 +4406,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "Nat",
           "package": "uulib",
@@ -4074,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "OneDescr",
           "package": "uulib",
@@ -4082,6 +4429,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "OneDescr",
           "package": "uulib",
@@ -4095,6 +4443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "ParsRec",
           "package": "uulib",
@@ -4103,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "ParsRec",
           "package": "uulib",
@@ -4116,6 +4466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "RealAccept",
           "package": "uulib",
@@ -4124,6 +4475,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "RealAccept",
           "package": "uulib",
@@ -4137,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "RealParser",
           "package": "uulib",
@@ -4145,6 +4498,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "RealParser",
           "package": "uulib",
@@ -4158,6 +4512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "RealRecogn",
           "package": "uulib",
@@ -4166,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "RealRecogn",
           "package": "uulib",
@@ -4179,6 +4535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "TableEntry",
           "package": "uulib",
@@ -4187,6 +4544,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "TableEntry",
           "package": "uulib",
@@ -4200,6 +4558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "ToBeat",
           "package": "uulib",
@@ -4208,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "ToBeat",
           "package": "uulib",
@@ -4221,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "A",
           "package": "uulib",
@@ -4230,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "A",
           "normalized": "A(a b(c-\u003eSteps d e f)-\u003ec-\u003eSteps(g h d)e f)",
@@ -4244,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "AnaParser",
           "package": "uulib",
@@ -4253,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "AnaParser",
           "package": "uulib",
@@ -4266,6 +4630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "Infinite",
           "package": "uulib",
@@ -4275,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "Infinite",
           "package": "uulib",
@@ -4288,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "OneDescr",
           "package": "uulib",
@@ -4297,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "OneDescr",
           "package": "uulib",
@@ -4310,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "P",
           "package": "uulib",
@@ -4319,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "P",
           "normalized": "P(a b c(d-\u003ee-\u003eb)-\u003e(f-\u003eSteps e g h)-\u003ef-\u003eSteps b g h)",
@@ -4333,6 +4703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "PR",
           "package": "uulib",
@@ -4342,6 +4713,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "PR",
           "normalized": "PR(RealParser a b c d,RealRecogn a b c,RealAccept a e b c d)",
@@ -4357,6 +4729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "R",
           "package": "uulib",
@@ -4366,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "R",
           "normalized": "R(a b(c-\u003eSteps d e f)-\u003ec-\u003eSteps d e f)",
@@ -4380,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "Succ",
           "package": "uulib",
@@ -4389,6 +4764,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "Succ",
           "package": "uulib",
@@ -4402,6 +4778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "TableEntry",
           "package": "uulib",
@@ -4411,6 +4788,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "TableEntry",
           "normalized": "TableEntry(ParsRec a b c d e)(Expecting c-\u003eParsRec a b c d e)",
@@ -4426,6 +4804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "ToBeat",
           "package": "uulib",
@@ -4435,6 +4814,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "ToBeat",
           "package": "uulib",
@@ -4448,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "Zero",
           "package": "uulib",
@@ -4457,6 +4838,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "Zero",
           "package": "uulib",
@@ -4470,6 +4852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "addToMessage",
           "package": "uulib",
@@ -4479,6 +4862,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "addToMessage",
           "normalized": "Message a b-\u003eExpecting a-\u003eMessage a b",
@@ -4494,6 +4878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "addexpecting",
           "package": "uulib",
@@ -4503,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "addexpecting",
           "normalized": "Expecting a-\u003eSteps b a c-\u003eSteps b a c",
@@ -4517,6 +4903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "anaCostRange",
           "package": "uulib",
@@ -4526,6 +4913,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "anaCostRange",
           "normalized": "Int #-\u003ea-\u003eSymbolR a-\u003eAnaParser b c a d a",
@@ -4541,6 +4929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "anaDynE",
           "package": "uulib",
@@ -4550,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "anaDynE",
           "normalized": "ParsRec a b c d e-\u003eAnaParser a b c d e",
@@ -4565,6 +4955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "anaDynL",
           "package": "uulib",
@@ -4574,6 +4965,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "anaDynL",
           "normalized": "ParsRec a b c d e-\u003eAnaParser a b c d e",
@@ -4589,6 +4981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "anaFail",
           "package": "uulib",
@@ -4598,6 +4991,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "anaFail",
           "package": "uulib",
@@ -4611,6 +5005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "anaGetFirsts",
           "package": "uulib",
@@ -4620,6 +5015,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "anaGetFirsts",
           "normalized": "AnaParser a b c d e-\u003eExpecting c",
@@ -4635,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "anaLow",
           "package": "uulib",
@@ -4644,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "anaLow",
           "normalized": "a-\u003eAnaParser b c d e a",
@@ -4659,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "anaOr",
           "package": "uulib",
@@ -4668,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "anaOr",
           "normalized": "AnaParser a b c d e-\u003eAnaParser a b c d e-\u003eAnaParser a b c d e",
@@ -4683,6 +5083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "anaSeq",
           "package": "uulib",
@@ -4692,6 +5093,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "anaSeq",
           "normalized": "(a-\u003eParsRec a a b a a-\u003eParsRec c d b e f)-\u003e(ParsRec a a b a a-\u003eParsRec a a b a a-\u003eParsRec c d b e f)-\u003e(a-\u003ea-\u003ef)-\u003eAnaParser a a b a a-\u003eAnaParser a a b a a-\u003eAnaParser c d b e f",
@@ -4707,6 +5109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "anaSetFirsts",
           "package": "uulib",
@@ -4716,6 +5119,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "anaSetFirsts",
           "normalized": "Expecting a-\u003eAnaParser b c a d e-\u003eAnaParser b c a d e",
@@ -4731,6 +5135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "anaSucceed",
           "package": "uulib",
@@ -4740,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "anaSucceed",
           "normalized": "a-\u003eAnaParser b c d e a",
@@ -4755,6 +5161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "eor",
           "package": "uulib",
@@ -4764,6 +5171,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "eor",
           "normalized": "Expecting a-\u003eExpecting a-\u003eExpecting a",
@@ -4778,6 +5186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "firsts",
           "package": "uulib",
@@ -4787,6 +5196,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "firsts",
           "package": "uulib",
@@ -4799,6 +5209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "getStart",
           "package": "uulib",
@@ -4808,6 +5219,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "getStart",
           "normalized": "Message a a-\u003eExpecting a",
@@ -4823,6 +5235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "hasSuccess",
           "package": "uulib",
@@ -4832,6 +5245,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "hasSuccess",
           "normalized": "Steps a b c-\u003eBool",
@@ -4847,6 +5261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "leng",
           "package": "uulib",
@@ -4856,6 +5271,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "leng",
           "package": "uulib",
@@ -4868,6 +5284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libAccept",
           "package": "uulib",
@@ -4877,6 +5294,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libAccept",
           "package": "uulib",
@@ -4890,6 +5308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libBest",
           "package": "uulib",
@@ -4899,6 +5318,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libBest",
           "normalized": "Steps a b c-\u003eSteps a b c-\u003eSteps a b c",
@@ -4914,6 +5334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libBest'",
           "package": "uulib",
@@ -4923,6 +5344,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libBest'",
           "normalized": "Steps a b c-\u003eSteps d b c-\u003e(a-\u003ee)-\u003e(d-\u003ee)-\u003eSteps e b c",
@@ -4938,6 +5360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libCorrect",
           "package": "uulib",
@@ -4947,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libCorrect",
           "normalized": "Steps a b c-\u003eSteps d b c-\u003e(a-\u003ee)-\u003e(d-\u003ee)-\u003eSteps e b c",
@@ -4962,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libDollar",
           "package": "uulib",
@@ -4971,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libDollar",
           "normalized": "(a-\u003ea)-\u003eParsRec a a a a a-\u003eParsRec a b a a a",
@@ -4986,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libDollarL",
           "package": "uulib",
@@ -4995,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libDollarL",
           "normalized": "a-\u003eParsRec a a a a a-\u003eParsRec a b a a a",
@@ -5010,6 +5438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libDollarR",
           "package": "uulib",
@@ -5019,6 +5448,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libDollarR",
           "normalized": "a-\u003eParsRec a a a a a-\u003eParsRec a b a a a",
@@ -5034,6 +5464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libFail",
           "package": "uulib",
@@ -5043,6 +5474,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libFail",
           "package": "uulib",
@@ -5056,6 +5488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libInsert",
           "package": "uulib",
@@ -5065,6 +5498,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libInsert",
           "normalized": "Int #-\u003ea-\u003eExpecting a-\u003eParsRec a b a a a",
@@ -5080,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libMap",
           "package": "uulib",
@@ -5089,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libMap",
           "normalized": "(a b c(d-\u003eb-\u003ee)-\u003ef-\u003eSteps(g,b)h i-\u003e(f,Steps e h i))-\u003e(a j f-\u003eSteps b h i-\u003e(f,Steps b h i))-\u003eParsRec f k h i g-\u003eParsRec f k h i d",
@@ -5104,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libOr",
           "package": "uulib",
@@ -5113,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libOr",
           "normalized": "ParsRec a a a a a-\u003eParsRec a a a a a-\u003eParsRec a b a a a",
@@ -5128,6 +5566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libSeq",
           "package": "uulib",
@@ -5137,6 +5576,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libSeq",
           "normalized": "ParsRec a a a a(a-\u003ea)-\u003eParsRec a a a a a-\u003eParsRec a b a a a",
@@ -5152,6 +5592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libSeqL",
           "package": "uulib",
@@ -5161,6 +5602,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libSeqL",
           "normalized": "ParsRec a a a a a-\u003eParsRec a a a a a-\u003eParsRec a b a a a",
@@ -5176,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libSeqR",
           "package": "uulib",
@@ -5185,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libSeqR",
           "normalized": "ParsRec a a a a a-\u003eParsRec a a a a a-\u003eParsRec a b a a a",
@@ -5200,6 +5644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libSucceed",
           "package": "uulib",
@@ -5209,6 +5654,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libSucceed",
           "normalized": "a-\u003eParsRec a b a a a",
@@ -5224,6 +5670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "libWrap",
           "package": "uulib",
@@ -5233,6 +5680,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "libWrap",
           "normalized": "(a b c(d-\u003eb-\u003ee)-\u003ef-\u003eSteps(g,b)h i-\u003e(f-\u003eSteps b h i)-\u003e(f,Steps e h i,f-\u003eSteps b h i))-\u003e(a j f-\u003eSteps b h i-\u003e(f-\u003eSteps b h i)-\u003e(f,Steps b h i,f-\u003eSteps b h i))-\u003eParsRec f k h i g-\u003eParsRec f k h i d",
@@ -5248,6 +5696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "lib_correct",
           "package": "uulib",
@@ -5257,6 +5706,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "lib_correct",
           "normalized": "(a-\u003eb-\u003eSteps c d e)-\u003e(a-\u003eb-\u003eSteps c d e)-\u003ea-\u003eb-\u003eSteps c d e",
@@ -5271,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "lookupSym",
           "package": "uulib",
@@ -5280,6 +5731,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "lookupSym",
           "normalized": "BinSearchTree(SymbolR a,b)-\u003ea-\u003eMaybe b",
@@ -5295,6 +5747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "mapOnePars",
           "package": "uulib",
@@ -5304,6 +5757,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "mapOnePars",
           "normalized": "(ParsRec a a b a a-\u003eParsRec c d b e f)-\u003eOneDescr a a b a a-\u003eOneDescr c d b e f",
@@ -5319,6 +5773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "mergeTables",
           "package": "uulib",
@@ -5328,6 +5783,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "mergeTables",
           "normalized": "[(SymbolR a,ParsRec b b b b b)]-\u003e[(SymbolR a,ParsRec b b b b b)]-\u003e[(SymbolR a,ParsRec b b b b b)]",
@@ -5343,6 +5799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "mkPR",
           "package": "uulib",
@@ -5352,6 +5809,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "mkPR",
           "normalized": "(RealParser a a a a,RealRecogn a a a)-\u003eParsRec a b a a a",
@@ -5367,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "mkParser",
           "package": "uulib",
@@ -5376,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "mkParser",
           "normalized": "Nat-\u003eMaybe(Bool,Either a(ParsRec b c d e a))-\u003eOneDescr b c d e a-\u003eAnaParser b c d e a",
@@ -5391,6 +5851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "nat_add",
           "package": "uulib",
@@ -5400,6 +5861,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "nat_add",
           "normalized": "Nat-\u003eNat-\u003eNat",
@@ -5414,6 +5876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "nat_le",
           "package": "uulib",
@@ -5423,6 +5886,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "nat_le",
           "normalized": "Nat-\u003eNat-\u003eBool",
@@ -5437,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "nat_min",
           "package": "uulib",
@@ -5446,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "nat_min",
           "normalized": "Nat-\u003eNat-\u003e(Nat,(a-\u003ea-\u003eb)-\u003ea-\u003ea-\u003eb)",
@@ -5460,6 +5926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "noOneParser",
           "package": "uulib",
@@ -5469,6 +5936,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "noOneParser",
           "package": "uulib",
@@ -5482,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "onep",
           "package": "uulib",
@@ -5491,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "onep",
           "package": "uulib",
@@ -5503,6 +5973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "orOneOneDescr",
           "package": "uulib",
@@ -5512,6 +5983,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "orOneOneDescr",
           "normalized": "OneDescr a b c d e-\u003eOneDescr a b c d e-\u003eBool-\u003eOneDescr a b c d e",
@@ -5527,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "pDynE",
           "package": "uulib",
@@ -5536,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "pDynE",
           "normalized": "ParsRec a b c d e-\u003eAnaParser a b c d e",
@@ -5551,6 +6025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "pDynL",
           "package": "uulib",
@@ -5560,6 +6035,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "pDynL",
           "normalized": "ParsRec a b c d e-\u003eAnaParser a b c d e",
@@ -5575,6 +6051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "pEmpty",
           "package": "uulib",
@@ -5584,6 +6061,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "pEmpty",
           "normalized": "ParsRec a b c d e-\u003e(Bool,Either e(ParsRec a b c d e))-\u003eAnaParser a b c d e",
@@ -5599,6 +6077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "pars",
           "package": "uulib",
@@ -5608,6 +6087,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "pars",
           "package": "uulib",
@@ -5620,6 +6100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "parseRecbasic",
           "package": "uulib",
@@ -5629,6 +6110,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "parseRecbasic",
           "normalized": "(a-\u003eSteps(b c d)e f)-\u003eParsRec a b e f g-\u003ea-\u003eSteps(b g(b c d))e f",
@@ -5644,6 +6126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "parsebasic",
           "package": "uulib",
@@ -5653,6 +6136,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "parsebasic",
           "normalized": "(a-\u003eSteps(b c d)e f)-\u003eAnaParser a b e f g-\u003ea-\u003eSteps(b g(b c d))e f",
@@ -5667,6 +6151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "seqZeroZero",
           "package": "uulib",
@@ -5676,6 +6161,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "seqZeroZero",
           "normalized": "Maybe(Bool,Either a a)-\u003eMaybe(Bool,Either a(ParsRec a b a a a))-\u003e(a-\u003eParsRec a b a a a-\u003ec)-\u003e(a-\u003eParsRec a b a a a-\u003ec)-\u003e(a-\u003ea-\u003ed)-\u003eMaybe(Bool,Either d c)",
@@ -5691,6 +6177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "starting",
           "package": "uulib",
@@ -5700,6 +6187,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "starting",
           "normalized": "Steps a b c-\u003eExpecting b",
@@ -5714,6 +6202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "table",
           "package": "uulib",
@@ -5723,6 +6212,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "table",
           "normalized": "[(SymbolR a,TableEntry b c a d e)]",
@@ -5737,6 +6227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "traverse",
           "package": "uulib",
@@ -5746,6 +6237,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "traverse",
           "normalized": "ToBeat(Steps a b c)-\u003e(Steps d b c-\u003eSteps a b c,Steps d b c)-\u003eInt #-\u003eInt #-\u003eToBeat(Steps a b c)",
@@ -5760,6 +6252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "unP",
           "package": "uulib",
@@ -5769,6 +6262,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "unP",
           "normalized": "RealParser a a a a-\u003e(a-\u003eb-\u003ec)-\u003e(a-\u003eSteps b a a)-\u003ea-\u003eSteps c a a",
@@ -5783,6 +6277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "unR",
           "package": "uulib",
@@ -5792,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "unR",
           "normalized": "RealRecogn a a a-\u003e(a-\u003eSteps b a a)-\u003ea-\u003eSteps b a a",
@@ -5806,6 +6302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Machine",
           "name": "zerop",
           "package": "uulib",
@@ -5815,6 +6312,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Machine",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Machine",
           "name": "zerop",
           "normalized": "Maybe(Bool,Either a(ParsRec b c d e a))",
@@ -5829,6 +6327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "MachineInterface",
           "package": "uulib",
@@ -5837,6 +6336,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "MachineInterface",
           "package": "uulib",
@@ -5850,6 +6350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Action",
           "package": "uulib",
@@ -5858,6 +6359,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Action",
           "package": "uulib",
@@ -5871,6 +6373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Either'",
           "package": "uulib",
@@ -5879,6 +6382,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Either'",
           "package": "uulib",
@@ -5892,6 +6396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Expecting",
           "package": "uulib",
@@ -5900,6 +6405,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Expecting",
           "package": "uulib",
@@ -5914,6 +6420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eInputState\u003c/a\u003e\u003c/code\u003e class contains the interface that the AnaParser\n parsers expect for the input. A minimal complete instance definition\n consists of \u003ccode\u003e\u003ca\u003esplitStateE\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esplitState\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egetPosition\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "InputState",
           "package": "uulib",
@@ -5923,6 +6430,7 @@
         "index": {
           "description": "The InputState class contains the interface that the AnaParser parsers expect for the input minimal complete instance definition consists of splitStateE splitState and getPosition",
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "InputState",
           "package": "uulib",
@@ -5936,6 +6444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Message",
           "package": "uulib",
@@ -5944,6 +6453,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Message",
           "package": "uulib",
@@ -5957,6 +6467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "OutputState",
           "package": "uulib",
@@ -5965,6 +6476,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "OutputState",
           "package": "uulib",
@@ -5978,6 +6490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Steps",
           "package": "uulib",
@@ -5986,6 +6499,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Steps",
           "package": "uulib",
@@ -5999,6 +6513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Symbol",
           "package": "uulib",
@@ -6007,6 +6522,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Symbol",
           "package": "uulib",
@@ -6020,6 +6536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "SymbolR",
           "package": "uulib",
@@ -6028,6 +6545,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "SymbolR",
           "package": "uulib",
@@ -6041,6 +6559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Best",
           "package": "uulib",
@@ -6050,6 +6569,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Best",
           "package": "uulib",
@@ -6063,6 +6583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Cost",
           "package": "uulib",
@@ -6072,6 +6593,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Cost",
           "package": "uulib",
@@ -6085,6 +6607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Delete",
           "package": "uulib",
@@ -6094,6 +6617,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Delete",
           "package": "uulib",
@@ -6107,6 +6631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "EOr",
           "package": "uulib",
@@ -6116,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "EOr",
           "normalized": "EOr[Expecting a]",
@@ -6131,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "ESeq",
           "package": "uulib",
@@ -6140,6 +6667,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "ESeq",
           "normalized": "ESeq[Expecting a]",
@@ -6155,6 +6683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "EStr",
           "package": "uulib",
@@ -6164,6 +6693,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "EStr",
           "package": "uulib",
@@ -6177,6 +6707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "ESym",
           "package": "uulib",
@@ -6186,6 +6717,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "ESym",
           "package": "uulib",
@@ -6199,6 +6731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "EmptyR",
           "package": "uulib",
@@ -6208,6 +6741,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "EmptyR",
           "package": "uulib",
@@ -6221,6 +6755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Insert",
           "package": "uulib",
@@ -6230,6 +6765,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Insert",
           "package": "uulib",
@@ -6243,6 +6779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Left'",
           "package": "uulib",
@@ -6252,6 +6789,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Left'",
           "package": "uulib",
@@ -6265,6 +6803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Msg",
           "package": "uulib",
@@ -6274,6 +6813,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Msg",
           "package": "uulib",
@@ -6287,6 +6827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "NoMoreSteps",
           "package": "uulib",
@@ -6296,6 +6837,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "NoMoreSteps",
           "package": "uulib",
@@ -6309,6 +6851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Ok",
           "package": "uulib",
@@ -6318,6 +6861,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Ok",
           "package": "uulib",
@@ -6331,6 +6875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "OkVal",
           "package": "uulib",
@@ -6340,6 +6885,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "OkVal",
           "normalized": "a b OkVal(b-\u003ec)(Steps b d e)",
@@ -6355,6 +6901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Other",
           "package": "uulib",
@@ -6364,6 +6911,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Other",
           "package": "uulib",
@@ -6377,6 +6925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Range",
           "package": "uulib",
@@ -6386,6 +6935,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Range",
           "package": "uulib",
@@ -6399,6 +6949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "Right'",
           "package": "uulib",
@@ -6408,6 +6959,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "Right'",
           "package": "uulib",
@@ -6421,6 +6973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "StRepair",
           "package": "uulib",
@@ -6430,6 +6983,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "StRepair",
           "package": "uulib",
@@ -6443,6 +6997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "acceptR",
           "package": "uulib",
@@ -6452,6 +7007,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "acceptR",
           "normalized": "a-\u003eb-\u003ec a b",
@@ -6466,6 +7022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "costing",
           "package": "uulib",
@@ -6475,6 +7032,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "costing",
           "package": "uulib",
@@ -6487,6 +7045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "deleteCost",
           "package": "uulib",
@@ -6496,6 +7055,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "deleteCost",
           "normalized": "a-\u003eInt #",
@@ -6512,6 +7072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the state as the result of deleting a symbol \u003ccode\u003es\u003c/code\u003e from the input.\n The symbol that has already been deleted from the input state is passed.\n It should normally not be deleted from the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "deleteSymbol",
           "package": "uulib",
@@ -6522,6 +7083,7 @@
         "index": {
           "description": "Modify the state as the result of deleting symbol from the input The symbol that has already been deleted from the input state is passed It should normally not be deleted from the state",
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "deleteSymbol",
           "normalized": "a-\u003eb-\u003eb",
@@ -6537,6 +7099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "evalSteps",
           "package": "uulib",
@@ -6546,6 +7109,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "evalSteps",
           "normalized": "Steps a b c-\u003ea",
@@ -6561,6 +7125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "except",
           "package": "uulib",
@@ -6570,6 +7135,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "except",
           "normalized": "SymbolR a-\u003e[a]-\u003e[SymbolR a]",
@@ -6584,6 +7150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "getMsgs",
           "package": "uulib",
@@ -6593,6 +7160,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "getMsgs",
           "normalized": "Steps a b c-\u003e[Message b c]",
@@ -6609,6 +7177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the current position in the input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "getPosition",
           "package": "uulib",
@@ -6619,6 +7188,7 @@
         "index": {
           "description": "Gets the current position in the input",
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "getPosition",
           "normalized": "a-\u003eb",
@@ -6635,6 +7205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the state as the result of inserting a symbol \u003ccode\u003es\u003c/code\u003e in the input.\n The symbol that has already been considered as having been inserted \n is passed. It should normally not be added to the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "insertSymbol",
           "package": "uulib",
@@ -6645,6 +7216,7 @@
         "index": {
           "description": "Modify the state as the result of inserting symbol in the input The symbol that has already been considered as having been inserted is passed It should normally not be added to the state",
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "insertSymbol",
           "normalized": "a-\u003eb-\u003eb",
@@ -6660,6 +7232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "m",
           "package": "uulib",
@@ -6669,6 +7242,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "m",
           "package": "uulib",
@@ -6681,6 +7255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "mk_range",
           "package": "uulib",
@@ -6690,6 +7265,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "mk_range",
           "normalized": "a-\u003ea-\u003eSymbolR a",
@@ -6704,6 +7280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "nextR",
           "package": "uulib",
@@ -6713,6 +7290,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "nextR",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d-\u003ea)-\u003ee d b-\u003ec",
@@ -6728,6 +7306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReports an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "reportError",
           "package": "uulib",
@@ -6738,6 +7317,7 @@
         "index": {
           "description": "Reports an error",
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "reportError",
           "normalized": "Message a b-\u003ec-\u003ec",
@@ -6753,6 +7333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "rest",
           "package": "uulib",
@@ -6762,6 +7343,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "rest",
           "package": "uulib",
@@ -6775,6 +7357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits the state in the first symbol and the remaining state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "splitState",
           "package": "uulib",
@@ -6785,6 +7368,7 @@
         "index": {
           "description": "Splits the state in the first symbol and the remaining state",
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "splitState",
           "normalized": "a-\u003e(#s,a #)",
@@ -6801,6 +7385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits the state in a strict variant of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e, with \u003ccode\u003e\u003ca\u003eLeft'\u003c/a\u003e\u003c/code\u003e if a symbol\n   can be split off and \u003ccode\u003e\u003ca\u003eRight'\u003c/a\u003e\u003c/code\u003e if none can\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "splitStateE",
           "package": "uulib",
@@ -6811,6 +7396,7 @@
         "index": {
           "description": "Splits the state in strict variant of Either with Left if symbol can be split off and Right if none can",
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "splitStateE",
           "normalized": "a-\u003eEither' a b",
@@ -6826,6 +7412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "symAfter",
           "package": "uulib",
@@ -6835,6 +7422,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "symAfter",
           "normalized": "a-\u003ea",
@@ -6850,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "symBefore",
           "package": "uulib",
@@ -6859,6 +7448,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "symBefore",
           "normalized": "a-\u003ea",
@@ -6874,6 +7464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "symInRange",
           "package": "uulib",
@@ -6883,6 +7474,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "symInRange",
           "normalized": "SymbolR a-\u003ea-\u003eBool",
@@ -6898,6 +7490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "symRS",
           "package": "uulib",
@@ -6907,6 +7500,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "symRS",
           "normalized": "SymbolR a-\u003ea-\u003eOrdering",
@@ -6922,6 +7516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "systemerror",
           "package": "uulib",
@@ -6931,6 +7526,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "systemerror",
           "normalized": "[Char]-\u003e[Char]-\u003ea",
@@ -6945,6 +7541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "usererror",
           "package": "uulib",
@@ -6954,6 +7551,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "usererror",
           "normalized": "[Char]-\u003ea",
@@ -6968,6 +7566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.MachineInterface",
           "name": "val",
           "package": "uulib",
@@ -6977,6 +7576,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing MachineInterface",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.MachineInterface",
           "name": "val",
           "normalized": "(a-\u003eb)-\u003eSteps a c d-\u003eSteps b c d",
@@ -6991,6 +7591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Merge",
           "name": "Merge",
           "package": "uulib",
@@ -6999,6 +7600,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Merge",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Merge",
           "name": "Merge",
           "package": "uulib",
@@ -7012,6 +7614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Merge",
           "name": "(\u003c||\u003e)",
           "package": "uulib",
@@ -7021,6 +7624,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Merge",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Merge",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "(a,b(c-\u003ec),d-\u003ee-\u003ef)-\u003e(g,b(h-\u003eh),f-\u003ei-\u003ej)-\u003e((a,g),b((c,h)-\u003e(c,h)),d-\u003e(e,i)-\u003ej)",
@@ -7035,6 +7639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Merge",
           "name": "list_of",
           "package": "uulib",
@@ -7044,6 +7649,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Merge",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Merge",
           "name": "list_of",
           "normalized": "a b-\u003e([c],a([b]-\u003e[b]),d-\u003ed)",
@@ -7058,6 +7664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Merge",
           "name": "pMerged",
           "package": "uulib",
@@ -7067,6 +7674,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Merge",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Merge",
           "name": "pMerged",
           "normalized": "a-\u003e(b,c(b-\u003eb),a-\u003eb-\u003ed)-\u003ec d",
@@ -7082,6 +7690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "Offside",
           "package": "uulib",
@@ -7090,6 +7699,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "Offside",
           "package": "uulib",
@@ -7103,6 +7713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "OffsideInput",
           "package": "uulib",
@@ -7111,6 +7722,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "OffsideInput",
           "package": "uulib",
@@ -7124,6 +7736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "OffsideParser",
           "package": "uulib",
@@ -7132,6 +7745,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "OffsideParser",
           "package": "uulib",
@@ -7145,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "OffsideSymbol",
           "package": "uulib",
@@ -7153,6 +7768,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "OffsideSymbol",
           "package": "uulib",
@@ -7166,6 +7782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "OffsideTrigger",
           "package": "uulib",
@@ -7174,6 +7791,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "OffsideTrigger",
           "package": "uulib",
@@ -7187,6 +7805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "Stream",
           "package": "uulib",
@@ -7195,6 +7814,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "Stream",
           "package": "uulib",
@@ -7208,6 +7828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "CloseBrace",
           "package": "uulib",
@@ -7217,6 +7838,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "CloseBrace",
           "package": "uulib",
@@ -7230,6 +7852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "OP",
           "package": "uulib",
@@ -7239,6 +7862,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "OP",
           "package": "uulib",
@@ -7252,6 +7876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "OpenBrace",
           "package": "uulib",
@@ -7261,6 +7886,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "OpenBrace",
           "package": "uulib",
@@ -7274,6 +7900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "SemiColon",
           "package": "uulib",
@@ -7283,6 +7910,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "SemiColon",
           "package": "uulib",
@@ -7296,6 +7924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "Symbol",
           "package": "uulib",
@@ -7305,6 +7934,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "Symbol",
           "package": "uulib",
@@ -7318,6 +7948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "Trigger_IndentGE",
           "package": "uulib",
@@ -7327,6 +7958,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "Trigger_IndentGE",
           "package": "uulib",
@@ -7340,6 +7972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "Trigger_IndentGT",
           "package": "uulib",
@@ -7349,6 +7982,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "Trigger_IndentGT",
           "package": "uulib",
@@ -7362,6 +7996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "pBlock",
           "package": "uulib",
@@ -7371,6 +8006,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "pBlock",
           "normalized": "OffsideParser a b c d e-\u003eOffsideParser a b c d f-\u003eOffsideParser a b c d g-\u003eOffsideParser a b c d h-\u003eOffsideParser a b c d[h]",
@@ -7386,6 +8022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "pBlock1",
           "package": "uulib",
@@ -7395,6 +8032,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "pBlock1",
           "normalized": "OffsideParser a b c d e-\u003eOffsideParser a b c d f-\u003eOffsideParser a b c d g-\u003eOffsideParser a b c d h-\u003eOffsideParser a b c d[h]",
@@ -7410,6 +8048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "pClose",
           "package": "uulib",
@@ -7419,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "pClose",
           "normalized": "OffsideParser a b c d()",
@@ -7434,6 +8074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "pOffside",
           "package": "uulib",
@@ -7443,6 +8084,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "pOffside",
           "normalized": "OffsideParser a b c d e-\u003eOffsideParser a b c d f-\u003eOffsideParser a b c d g-\u003eOffsideParser a b c d g-\u003eOffsideParser a b c d g",
@@ -7458,6 +8100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "pOpen",
           "package": "uulib",
@@ -7467,6 +8110,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "pOpen",
           "normalized": "OffsideParser a b c d()",
@@ -7482,6 +8126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "pSeparator",
           "package": "uulib",
@@ -7491,6 +8136,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "pSeparator",
           "normalized": "OffsideParser a b c d()",
@@ -7506,6 +8152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "parseOffside",
           "package": "uulib",
@@ -7515,6 +8162,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "parseOffside",
           "normalized": "OffsideParser a Pair b c d-\u003eOffsideInput a b c-\u003eSteps(d,OffsideInput a b c)(OffsideSymbol b)c",
@@ -7531,6 +8179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplainly lift tokens to offside tokens\n scanLiftTokensToOffside :: (InputState i s p) =\u003e [i] -\u003e OffsideInput i s p -\u003e OffsideInput i s p\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "scanLiftTokensToOffside",
           "package": "uulib",
@@ -7541,6 +8190,7 @@
         "index": {
           "description": "plainly lift tokens to offside tokens scanLiftTokensToOffside InputState OffsideInput OffsideInput",
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "scanLiftTokensToOffside",
           "normalized": "a-\u003eOffsideInput b c d-\u003eOffsideInput b c d",
@@ -7557,6 +8207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert tokens to offside tokens, dealing with Haskell's layout rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "scanOffside",
           "package": "uulib",
@@ -7567,6 +8218,7 @@
         "index": {
           "description": "convert tokens to offside tokens dealing with Haskell layout rule",
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "scanOffside",
           "normalized": "a-\u003ea-\u003ea-\u003e[a]-\u003eb-\u003eOffsideInput b a c",
@@ -7582,6 +8234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Offside",
           "name": "scanOffsideWithTriggers",
           "package": "uulib",
@@ -7591,6 +8244,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Offside",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Offside",
           "name": "scanOffsideWithTriggers",
           "normalized": "a-\u003ea-\u003ea-\u003e[(OffsideTrigger,a)]-\u003eb-\u003eOffsideInput b a c",
@@ -7606,6 +8260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Perms",
           "name": "Perms",
           "package": "uulib",
@@ -7614,6 +8269,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Perms",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Perms",
           "name": "Perms",
           "package": "uulib",
@@ -7627,6 +8283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Perms",
           "name": "Perms",
           "package": "uulib",
@@ -7635,6 +8292,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Perms",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Perms",
           "name": "Perms",
           "package": "uulib",
@@ -7648,6 +8306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Perms",
           "name": "(~$~)",
           "package": "uulib",
@@ -7657,6 +8316,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Perms",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Perms",
           "name": "(~$~) ~$~",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ePerms c b",
@@ -7671,6 +8331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Perms",
           "name": "(~*~)",
           "package": "uulib",
@@ -7680,6 +8341,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Perms",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Perms",
           "name": "(~*~) ~*~",
           "normalized": "Perms a(b-\u003ec)-\u003ea b-\u003ePerms a c",
@@ -7694,6 +8356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Perms",
           "name": "pPerms",
           "package": "uulib",
@@ -7703,6 +8366,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Perms",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Perms",
           "name": "pPerms",
           "normalized": "Perms a b-\u003ea b",
@@ -7718,6 +8382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Perms",
           "name": "pPermsSep",
           "package": "uulib",
@@ -7727,6 +8392,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Perms",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Perms",
           "name": "pPermsSep",
           "normalized": "a b-\u003ePerms a c-\u003ea c",
@@ -7742,6 +8408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.Perms",
           "name": "succeedPerms",
           "package": "uulib",
@@ -7751,6 +8418,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing Perms",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.Perms",
           "name": "succeedPerms",
           "normalized": "a-\u003ePerms b a",
@@ -7766,6 +8434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.StateParser",
           "name": "StateParser",
           "package": "uulib",
@@ -7774,6 +8443,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing StateParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.StateParser",
           "name": "StateParser",
           "package": "uulib",
@@ -7787,6 +8457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.StateParser",
           "name": "StateParser",
           "package": "uulib",
@@ -7795,6 +8466,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing StateParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.StateParser",
           "name": "StateParser",
           "package": "uulib",
@@ -7808,6 +8480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.StateParser",
           "name": "change",
           "package": "uulib",
@@ -7817,6 +8490,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing StateParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.StateParser",
           "name": "change",
           "normalized": "(a-\u003ea)-\u003eb a",
@@ -7831,6 +8505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.StateParser",
           "name": "get",
           "package": "uulib",
@@ -7840,6 +8515,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing StateParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.StateParser",
           "name": "get",
           "package": "uulib",
@@ -7852,6 +8528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing.StateParser",
           "name": "set",
           "package": "uulib",
@@ -7861,6 +8538,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing StateParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing.StateParser",
           "name": "set",
           "normalized": "a-\u003eb a",
@@ -7875,6 +8553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing",
           "name": "Parsing",
           "package": "uulib",
@@ -7883,6 +8562,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing",
           "name": "Parsing",
           "package": "uulib",
@@ -7896,6 +8576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Parsing",
           "name": "parseIO",
           "package": "uulib",
@@ -7905,6 +8586,7 @@
         },
         "index": {
           "hierarchy": "UU Parsing",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Parsing",
           "name": "parseIO",
           "normalized": "Parser a b-\u003e[a]-\u003eIO b",
@@ -7920,6 +8602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "Basic",
           "package": "uulib",
@@ -7928,6 +8611,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "Basic",
           "package": "uulib",
@@ -7941,6 +8625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "PP",
           "package": "uulib",
@@ -7949,6 +8634,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "PP",
           "package": "uulib",
@@ -7962,6 +8648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "PP_Doc",
           "package": "uulib",
@@ -7970,6 +8657,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "PP_Doc",
           "package": "uulib",
@@ -7983,6 +8671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "PP_Exp",
           "package": "uulib",
@@ -7991,6 +8680,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "PP_Exp",
           "package": "uulib",
@@ -8004,6 +8694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e|\u003c)",
           "package": "uulib",
@@ -8013,6 +8704,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e|\u003c) \u003e|\u003c",
           "normalized": "a-\u003eb-\u003ePP_Doc",
@@ -8027,6 +8719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e-\u003c)",
           "package": "uulib",
@@ -8036,6 +8729,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e-\u003c) \u003e-\u003c",
           "normalized": "a-\u003eb-\u003ePP_Doc",
@@ -8050,6 +8744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e//\u003c)",
           "package": "uulib",
@@ -8059,6 +8754,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e//\u003c) \u003e//\u003c",
           "normalized": "a-\u003eb-\u003ePP_Doc",
@@ -8073,6 +8769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e\u003e|\u003c\u003c)",
           "package": "uulib",
@@ -8082,6 +8779,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e\u003e|\u003c\u003c) \u003e\u003e|\u003c\u003c",
           "normalized": "PP_Exp-\u003ePP_Exp-\u003ePP_Exp",
@@ -8096,6 +8794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e\u003e$\u003c)",
           "package": "uulib",
@@ -8105,6 +8804,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e\u003e$\u003c) \u003e\u003e$\u003c",
           "normalized": "PP_Exp-\u003e[a]-\u003ePP_Doc",
@@ -8119,6 +8819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e\u003e$\u003c\u003c)",
           "package": "uulib",
@@ -8128,6 +8829,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e\u003e$\u003c\u003c) \u003e\u003e$\u003c\u003c",
           "normalized": "PP_Exp-\u003e[PP_Exp]-\u003ePP_Exp",
@@ -8142,6 +8844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e\u003e-\u003c\u003c)",
           "package": "uulib",
@@ -8151,6 +8854,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e\u003e-\u003c\u003c) \u003e\u003e-\u003c\u003c",
           "normalized": "PP_Exp-\u003ePP_Exp-\u003ePP_Exp",
@@ -8165,6 +8869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e\u003e//\u003c\u003c)",
           "package": "uulib",
@@ -8174,6 +8879,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "(\u003e\u003e//\u003c\u003c) \u003e\u003e//\u003c\u003c",
           "normalized": "PP_Exp-\u003ePP_Exp-\u003ePP_Exp",
@@ -8188,6 +8894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "c2e",
           "package": "uulib",
@@ -8197,6 +8904,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "c2e",
           "normalized": "a-\u003ePP_Exp",
@@ -8211,6 +8919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "disp",
           "package": "uulib",
@@ -8220,6 +8929,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "disp",
           "normalized": "PP_Doc-\u003eInt-\u003eShowS",
@@ -8234,6 +8944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "eelement_h1",
           "package": "uulib",
@@ -8243,6 +8954,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "eelement_h1",
           "normalized": "PP_Exp-\u003ePP_Exp",
@@ -8257,6 +8969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "eindent",
           "package": "uulib",
@@ -8266,6 +8979,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "eindent",
           "normalized": "Int-\u003ePP_Exp-\u003ePP_Exp",
@@ -8280,6 +8994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "ejoin",
           "package": "uulib",
@@ -8289,6 +9004,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "ejoin",
           "normalized": "PP_Exp-\u003ePP_Exp",
@@ -8303,6 +9019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "element_h1",
           "package": "uulib",
@@ -8312,6 +9029,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "element_h1",
           "normalized": "PP_Doc-\u003ePP_Doc",
@@ -8326,6 +9044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "empty",
           "package": "uulib",
@@ -8335,6 +9054,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "empty",
           "package": "uulib",
@@ -8347,6 +9067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "fill",
           "package": "uulib",
@@ -8356,6 +9077,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "fill",
           "normalized": "[a]-\u003ePP_Doc",
@@ -8370,6 +9092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "fillblock",
           "package": "uulib",
@@ -8379,6 +9102,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "fillblock",
           "normalized": "Int-\u003e[a]-\u003ePP_Doc",
@@ -8393,6 +9117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "fpar",
           "package": "uulib",
@@ -8402,6 +9127,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "fpar",
           "package": "uulib",
@@ -8414,6 +9140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "indent",
           "package": "uulib",
@@ -8423,6 +9150,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "indent",
           "normalized": "Int-\u003ea-\u003ePP_Doc",
@@ -8437,6 +9165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "invisible",
           "package": "uulib",
@@ -8446,6 +9175,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "invisible",
           "normalized": "PP_Doc-\u003ePP_Doc",
@@ -8460,6 +9190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "join",
           "package": "uulib",
@@ -8469,6 +9200,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "join",
           "normalized": "PP_Doc-\u003ePP_Doc",
@@ -8483,6 +9215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "par",
           "package": "uulib",
@@ -8492,6 +9225,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "par",
           "package": "uulib",
@@ -8504,6 +9238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "pp",
           "package": "uulib",
@@ -8513,6 +9248,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "pp",
           "normalized": "a-\u003ePP_Doc",
@@ -8527,6 +9263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "ppList",
           "package": "uulib",
@@ -8536,6 +9273,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "ppList",
           "normalized": "[a]-\u003ePP_Doc",
@@ -8551,6 +9289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "render",
           "package": "uulib",
@@ -8560,6 +9299,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "render",
           "normalized": "PP_Doc-\u003eInt-\u003eIO()",
@@ -8574,6 +9314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "renderAll",
           "package": "uulib",
@@ -8583,6 +9324,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "renderAll",
           "normalized": "PP_Doc-\u003eInt-\u003eIO()",
@@ -8598,6 +9340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "spar",
           "package": "uulib",
@@ -8607,6 +9350,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "spar",
           "package": "uulib",
@@ -8619,6 +9363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "text",
           "package": "uulib",
@@ -8628,6 +9373,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "text",
           "normalized": "String-\u003ePP_Doc",
@@ -8642,6 +9388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Basic",
           "name": "vcenter",
           "package": "uulib",
@@ -8651,6 +9398,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Basic",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Basic",
           "name": "vcenter",
           "normalized": "[a]-\u003ePP_Doc",
@@ -8665,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "Ext",
           "package": "uulib",
@@ -8673,6 +9422,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "Ext",
           "package": "uulib",
@@ -8686,6 +9436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e|\u003c\u003c)",
           "package": "uulib",
@@ -8695,6 +9446,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e|\u003c\u003c) \u003e|\u003c\u003c",
           "normalized": "a-\u003ePP_Exp-\u003ePP_Exp",
@@ -8709,6 +9461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e#\u003c)",
           "package": "uulib",
@@ -8718,6 +9471,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e#\u003c) \u003e#\u003c",
           "normalized": "a-\u003eb-\u003ePP_Doc",
@@ -8732,6 +9486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e-\u003c\u003c)",
           "package": "uulib",
@@ -8741,6 +9496,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e-\u003c\u003c) \u003e-\u003c\u003c",
           "normalized": "a-\u003ePP_Exp-\u003ePP_Exp",
@@ -8755,6 +9511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e\u003e|\u003c)",
           "package": "uulib",
@@ -8764,6 +9521,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e\u003e|\u003c) \u003e\u003e|\u003c",
           "normalized": "PP_Exp-\u003ea-\u003ePP_Exp",
@@ -8778,6 +9536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e\u003e#\u003c\u003c)",
           "package": "uulib",
@@ -8787,6 +9546,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e\u003e#\u003c\u003c) \u003e\u003e#\u003c\u003c",
           "normalized": "PP_Exp-\u003ePP_Exp-\u003ePP_Exp",
@@ -8801,6 +9561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e\u003e-\u003c)",
           "package": "uulib",
@@ -8810,6 +9571,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e\u003e-\u003c) \u003e\u003e-\u003c",
           "normalized": "PP_Exp-\u003ea-\u003ePP_Exp",
@@ -8824,6 +9586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e\u003e^\u003c\u003c)",
           "package": "uulib",
@@ -8833,6 +9596,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e\u003e^\u003c\u003c) \u003e\u003e^\u003c\u003c",
           "normalized": "PP_Exp-\u003ePP_Exp-\u003ePP_Exp",
@@ -8847,6 +9611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e^\u003c)",
           "package": "uulib",
@@ -8856,6 +9621,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "(\u003e^\u003c) \u003e^\u003c",
           "normalized": "a-\u003eb-\u003ePP_Doc",
@@ -8870,6 +9636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "hlist",
           "package": "uulib",
@@ -8879,6 +9646,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "hlist",
           "normalized": "[a]-\u003ePP_Doc",
@@ -8893,6 +9661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "hlist_h1",
           "package": "uulib",
@@ -8902,6 +9671,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "hlist_h1",
           "normalized": "[PP_Doc]-\u003ePP_Doc",
@@ -8916,6 +9686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "hlist_sp",
           "package": "uulib",
@@ -8925,6 +9696,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "hlist_sp",
           "normalized": "[a]-\u003ePP_Doc",
@@ -8939,6 +9711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "hv",
           "package": "uulib",
@@ -8948,6 +9721,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "hv",
           "normalized": "[a]-\u003ePP_Doc",
@@ -8962,6 +9736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "hv_sp",
           "package": "uulib",
@@ -8971,6 +9746,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "hv_sp",
           "normalized": "[a]-\u003ePP_Doc",
@@ -8985,6 +9761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "list_h1",
           "package": "uulib",
@@ -8994,6 +9771,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "list_h1",
           "normalized": "[PP_Doc]-\u003e[PP_Doc]",
@@ -9008,6 +9786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_block",
           "package": "uulib",
@@ -9017,6 +9796,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_block",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003e[PP_Doc]-\u003ePP_Doc",
@@ -9031,6 +9811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_braces",
           "package": "uulib",
@@ -9040,6 +9821,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_braces",
           "normalized": "PP_Doc-\u003ePP_Doc",
@@ -9054,6 +9836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_brackets",
           "package": "uulib",
@@ -9063,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_brackets",
           "normalized": "PP_Doc-\u003ePP_Doc",
@@ -9077,6 +9861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_doubleQuotes",
           "package": "uulib",
@@ -9086,6 +9871,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_doubleQuotes",
           "normalized": "PP_Doc-\u003ePP_Doc",
@@ -9101,6 +9887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_es",
           "package": "uulib",
@@ -9110,6 +9897,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_es",
           "normalized": "[a]-\u003ePP_Doc",
@@ -9124,6 +9912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_ite",
           "package": "uulib",
@@ -9133,6 +9922,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_ite",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eb-\u003eb-\u003eb-\u003ePP_Doc",
@@ -9147,6 +9937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_list",
           "package": "uulib",
@@ -9156,6 +9947,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_list",
           "normalized": "Int-\u003eString-\u003eString-\u003eString-\u003e[PP_Doc]-\u003ePP_Doc",
@@ -9170,6 +9962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_parens",
           "package": "uulib",
@@ -9179,6 +9972,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_parens",
           "normalized": "PP_Doc-\u003ePP_Doc",
@@ -9193,6 +9987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_parens_list",
           "package": "uulib",
@@ -9202,6 +9997,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_parens_list",
           "normalized": "Int-\u003e[PP_Doc]-\u003ePP_Doc",
@@ -9216,6 +10012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_quotes",
           "package": "uulib",
@@ -9225,6 +10022,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_quotes",
           "normalized": "PP_Doc-\u003ePP_Doc",
@@ -9239,6 +10037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_slist",
           "package": "uulib",
@@ -9248,6 +10047,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_slist",
           "normalized": "Int-\u003eString-\u003eString-\u003eString-\u003e[PP_Doc]-\u003ePP_Doc",
@@ -9262,6 +10062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "pp_wrap",
           "package": "uulib",
@@ -9271,6 +10072,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "pp_wrap",
           "normalized": "a-\u003ea-\u003ePP_Doc-\u003ePP_Doc",
@@ -9285,6 +10087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "vdisp",
           "package": "uulib",
@@ -9294,6 +10097,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "vdisp",
           "normalized": "Int-\u003e[PP_Doc]-\u003eShowS",
@@ -9308,6 +10112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "vlist",
           "package": "uulib",
@@ -9317,6 +10122,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "vlist",
           "normalized": "[a]-\u003ePP_Doc",
@@ -9331,6 +10137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty.Ext",
           "name": "wide_text",
           "package": "uulib",
@@ -9340,6 +10147,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty Ext",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty.Ext",
           "name": "wide_text",
           "normalized": "Int-\u003e[Char]-\u003ePP_Doc",
@@ -9354,6 +10162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Pretty",
           "name": "Pretty",
           "package": "uulib",
@@ -9362,6 +10171,7 @@
         },
         "index": {
           "hierarchy": "UU Pretty",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Pretty",
           "name": "Pretty",
           "package": "uulib",
@@ -9375,6 +10185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenToken",
           "name": "GenToken",
           "package": "uulib",
@@ -9383,6 +10194,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenToken",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenToken",
           "name": "GenToken",
           "package": "uulib",
@@ -9396,6 +10208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenToken",
           "name": "GenToken",
           "package": "uulib",
@@ -9404,6 +10217,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenToken",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenToken",
           "name": "GenToken",
           "package": "uulib",
@@ -9417,6 +10231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenToken",
           "name": "Reserved",
           "package": "uulib",
@@ -9426,6 +10241,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenToken",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenToken",
           "name": "Reserved",
           "package": "uulib",
@@ -9439,6 +10255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenToken",
           "name": "ValToken",
           "package": "uulib",
@@ -9448,6 +10265,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenToken",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenToken",
           "name": "ValToken",
           "package": "uulib",
@@ -9461,6 +10279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenToken",
           "name": "position",
           "package": "uulib",
@@ -9470,6 +10289,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenToken",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenToken",
           "name": "position",
           "normalized": "GenToken a b c-\u003ePos",
@@ -9484,6 +10304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenOrd",
           "name": "GenTokenOrd",
           "package": "uulib",
@@ -9492,6 +10313,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenOrd",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenOrd",
           "name": "GenTokenOrd",
           "package": "uulib",
@@ -9505,6 +10327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenParser",
           "name": "GenTokenParser",
           "package": "uulib",
@@ -9513,6 +10336,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenParser",
           "name": "GenTokenParser",
           "package": "uulib",
@@ -9526,6 +10350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pCostReserved",
           "package": "uulib",
@@ -9535,6 +10360,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pCostReserved",
           "normalized": "Int-\u003ea-\u003eb Pos",
@@ -9550,6 +10376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pCostReserved'",
           "package": "uulib",
@@ -9559,6 +10386,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pCostReserved'",
           "normalized": "Int-\u003ea-\u003eb(GenToken a c d)",
@@ -9574,6 +10402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pCostValToken",
           "package": "uulib",
@@ -9583,6 +10412,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pCostValToken",
           "normalized": "Int-\u003ea-\u003eb-\u003ec(b,Pos)",
@@ -9598,6 +10428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pCostValToken'",
           "package": "uulib",
@@ -9607,6 +10438,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pCostValToken'",
           "normalized": "Int-\u003ea-\u003eb-\u003ec(GenToken d a b)",
@@ -9622,6 +10454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pReserved",
           "package": "uulib",
@@ -9631,6 +10464,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pReserved",
           "normalized": "a-\u003eb Pos",
@@ -9646,6 +10480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pReserved'",
           "package": "uulib",
@@ -9655,6 +10490,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pReserved'",
           "normalized": "a-\u003eb(GenToken a c d)",
@@ -9670,6 +10506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pValToken",
           "package": "uulib",
@@ -9679,6 +10516,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pValToken",
           "normalized": "a-\u003eb-\u003ec(b,Pos)",
@@ -9694,6 +10532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pValToken'",
           "package": "uulib",
@@ -9703,6 +10542,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pValToken'",
           "normalized": "a-\u003eb-\u003ec(GenToken d a b)",
@@ -9718,6 +10558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pValTokenNoPos",
           "package": "uulib",
@@ -9727,6 +10568,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenParser",
           "name": "pValTokenNoPos",
           "normalized": "a-\u003eb-\u003ec b",
@@ -9742,6 +10584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.GenTokenSymbol",
           "name": "GenTokenSymbol",
           "package": "uulib",
@@ -9750,6 +10593,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner GenTokenSymbol",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.GenTokenSymbol",
           "name": "GenTokenSymbol",
           "package": "uulib",
@@ -9763,6 +10607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "Position",
           "package": "uulib",
@@ -9771,6 +10616,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "Position",
           "package": "uulib",
@@ -9784,6 +10630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "Column",
           "package": "uulib",
@@ -9792,6 +10639,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "Column",
           "package": "uulib",
@@ -9805,6 +10653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "Filename",
           "package": "uulib",
@@ -9813,6 +10662,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "Filename",
           "package": "uulib",
@@ -9826,6 +10676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "Line",
           "package": "uulib",
@@ -9834,6 +10685,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "Line",
           "package": "uulib",
@@ -9847,6 +10699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "Pos",
           "package": "uulib",
@@ -9855,6 +10708,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "Pos",
           "package": "uulib",
@@ -9868,6 +10722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "Position",
           "package": "uulib",
@@ -9876,6 +10731,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "Position",
           "package": "uulib",
@@ -9889,6 +10745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "Pos",
           "package": "uulib",
@@ -9898,6 +10755,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "Pos",
           "package": "uulib",
@@ -9911,6 +10769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "adv",
           "package": "uulib",
@@ -9920,6 +10779,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "adv",
           "normalized": "Pos-\u003eChar-\u003ePos",
@@ -9934,6 +10794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "advc",
           "package": "uulib",
@@ -9943,6 +10804,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "advc",
           "normalized": "Column-\u003ePos-\u003ePos",
@@ -9957,6 +10819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "advc'",
           "package": "uulib",
@@ -9966,6 +10829,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "advc'",
           "normalized": "Int-\u003ePos-\u003e(Pos-\u003ea)-\u003ea",
@@ -9980,6 +10844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "advl",
           "package": "uulib",
@@ -9989,6 +10854,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "advl",
           "normalized": "Line-\u003ePos-\u003ePos",
@@ -10003,6 +10869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "column",
           "package": "uulib",
@@ -10012,6 +10879,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "column",
           "normalized": "a-\u003eColumn",
@@ -10026,6 +10894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "file",
           "package": "uulib",
@@ -10035,6 +10904,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "file",
           "normalized": "a-\u003eFilename",
@@ -10049,6 +10919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "initPos",
           "package": "uulib",
@@ -10058,6 +10929,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "initPos",
           "normalized": "FilePath-\u003ePos",
@@ -10073,6 +10945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "line",
           "package": "uulib",
@@ -10082,6 +10955,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "line",
           "normalized": "a-\u003eLine",
@@ -10096,6 +10970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "newl",
           "package": "uulib",
@@ -10105,6 +10980,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "newl",
           "normalized": "Pos-\u003ePos",
@@ -10119,6 +10995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "newl'",
           "package": "uulib",
@@ -10128,6 +11005,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "newl'",
           "normalized": "Pos-\u003e(Pos-\u003ea)-\u003ea",
@@ -10142,6 +11020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "noPos",
           "package": "uulib",
@@ -10151,6 +11030,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "noPos",
           "package": "uulib",
@@ -10164,6 +11044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "tab",
           "package": "uulib",
@@ -10173,6 +11054,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "tab",
           "normalized": "Pos-\u003ePos",
@@ -10187,6 +11069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "tab'",
           "package": "uulib",
@@ -10196,6 +11079,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "tab'",
           "normalized": "Pos-\u003e(Pos-\u003ea)-\u003ea",
@@ -10210,6 +11094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "tabWidth",
           "package": "uulib",
@@ -10219,6 +11104,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "tabWidth",
           "normalized": "Column-\u003eInt",
@@ -10234,6 +11120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "updPos",
           "package": "uulib",
@@ -10243,6 +11130,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "updPos",
           "normalized": "Char-\u003ePos-\u003ePos",
@@ -10258,6 +11146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Position",
           "name": "updPos'",
           "package": "uulib",
@@ -10267,6 +11156,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Position",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Position",
           "name": "updPos'",
           "normalized": "Char-\u003ePos-\u003e(Pos-\u003ea)-\u003ea",
@@ -10282,6 +11172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "Scanner",
           "package": "uulib",
@@ -10290,6 +11181,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "Scanner",
           "package": "uulib",
@@ -10303,6 +11195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "getEscChar",
           "package": "uulib",
@@ -10312,6 +11205,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "getEscChar",
           "normalized": "[Char]-\u003e(Maybe Char,Int,[Char])",
@@ -10327,6 +11221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "getNumber",
           "package": "uulib",
@@ -10336,6 +11231,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "getNumber",
           "normalized": "[Char]-\u003e(EnumValToken,[Char],Int,[Char])",
@@ -10351,6 +11247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "getchar",
           "package": "uulib",
@@ -10360,6 +11257,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "getchar",
           "normalized": "[Char]-\u003e(Maybe Char,Int,[Char])",
@@ -10374,6 +11272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "isHexaDigit",
           "package": "uulib",
@@ -10383,6 +11282,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "isHexaDigit",
           "normalized": "Char-\u003eBool",
@@ -10398,6 +11298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "isOctalDigit",
           "package": "uulib",
@@ -10407,6 +11308,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "isOctalDigit",
           "normalized": "Char-\u003eBool",
@@ -10422,6 +11324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "lexNest",
           "package": "uulib",
@@ -10431,6 +11334,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "lexNest",
           "normalized": "(Pos-\u003eString-\u003e[Token])-\u003ePos-\u003eString-\u003e[Token]",
@@ -10446,6 +11350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "readn",
           "package": "uulib",
@@ -10455,6 +11360,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "readn",
           "normalized": "Int-\u003e[Char]-\u003eInt",
@@ -10469,6 +11375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "scan",
           "package": "uulib",
@@ -10478,6 +11385,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "scan",
           "normalized": "[String]-\u003e[String]-\u003eString-\u003eString-\u003ePos-\u003eString-\u003e[Token]",
@@ -10492,6 +11400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "scanChar",
           "package": "uulib",
@@ -10501,6 +11410,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "scanChar",
           "normalized": "[Char]-\u003e(Maybe Char,Int,[Char])",
@@ -10516,6 +11426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "scanFile",
           "package": "uulib",
@@ -10525,6 +11436,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "scanFile",
           "normalized": "[String]-\u003e[String]-\u003eString-\u003eString-\u003eFilePath-\u003eIO[Token]",
@@ -10540,6 +11452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "scanString",
           "package": "uulib",
@@ -10549,6 +11462,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "scanString",
           "normalized": "String-\u003e(String,Int,String)",
@@ -10564,6 +11478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Scanner",
           "name": "value",
           "package": "uulib",
@@ -10573,6 +11488,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Scanner",
           "name": "value",
           "normalized": "Char-\u003eInt",
@@ -10587,6 +11503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "Token",
           "package": "uulib",
@@ -10595,6 +11512,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "Token",
           "package": "uulib",
@@ -10608,6 +11526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "EnumValToken",
           "package": "uulib",
@@ -10616,6 +11535,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "EnumValToken",
           "package": "uulib",
@@ -10629,6 +11549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "Token",
           "package": "uulib",
@@ -10637,6 +11558,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "Token",
           "package": "uulib",
@@ -10650,6 +11572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkChar",
           "package": "uulib",
@@ -10659,6 +11582,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkChar",
           "package": "uulib",
@@ -10672,6 +11596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkConOp",
           "package": "uulib",
@@ -10681,6 +11606,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkConOp",
           "package": "uulib",
@@ -10694,6 +11620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkConid",
           "package": "uulib",
@@ -10703,6 +11630,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkConid",
           "package": "uulib",
@@ -10716,6 +11644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkError",
           "package": "uulib",
@@ -10725,6 +11654,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkError",
           "package": "uulib",
@@ -10738,6 +11668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkFraction",
           "package": "uulib",
@@ -10747,6 +11678,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkFraction",
           "package": "uulib",
@@ -10760,6 +11692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkInteger10",
           "package": "uulib",
@@ -10769,6 +11702,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkInteger10",
           "package": "uulib",
@@ -10782,6 +11716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkInteger16",
           "package": "uulib",
@@ -10791,6 +11726,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkInteger16",
           "package": "uulib",
@@ -10804,6 +11740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkInteger8",
           "package": "uulib",
@@ -10813,6 +11750,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkInteger8",
           "package": "uulib",
@@ -10826,6 +11764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkOp",
           "package": "uulib",
@@ -10835,6 +11774,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkOp",
           "package": "uulib",
@@ -10848,6 +11788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkString",
           "package": "uulib",
@@ -10857,6 +11798,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkString",
           "package": "uulib",
@@ -10870,6 +11812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkTextln",
           "package": "uulib",
@@ -10879,6 +11822,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkTextln",
           "package": "uulib",
@@ -10892,6 +11836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkTextnm",
           "package": "uulib",
@@ -10901,6 +11846,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkTextnm",
           "package": "uulib",
@@ -10914,6 +11860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "TkVarid",
           "package": "uulib",
@@ -10923,6 +11870,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "TkVarid",
           "package": "uulib",
@@ -10936,6 +11884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "errToken",
           "package": "uulib",
@@ -10945,6 +11894,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "errToken",
           "normalized": "String-\u003ePos-\u003eToken",
@@ -10960,6 +11910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "reserved",
           "package": "uulib",
@@ -10969,6 +11920,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "reserved",
           "normalized": "String-\u003ePos-\u003eToken",
@@ -10983,6 +11935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.Token",
           "name": "valueToken",
           "package": "uulib",
@@ -10992,6 +11945,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner Token",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.Token",
           "name": "valueToken",
           "normalized": "EnumValToken-\u003eString-\u003ePos-\u003eToken",
@@ -11007,6 +11961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "TokenParser",
           "package": "uulib",
@@ -11015,6 +11970,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "TokenParser",
           "package": "uulib",
@@ -11028,6 +11984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pBracks",
           "package": "uulib",
@@ -11037,6 +11994,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pBracks",
           "normalized": "a b-\u003ea b",
@@ -11052,6 +12010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pBracks_pCommas",
           "package": "uulib",
@@ -11061,6 +12020,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pBracks_pCommas",
           "normalized": "a b-\u003ea[b]",
@@ -11076,6 +12036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pCBrack",
           "package": "uulib",
@@ -11085,6 +12046,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pCBrack",
           "package": "uulib",
@@ -11098,6 +12060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pCBrackPos",
           "package": "uulib",
@@ -11107,6 +12070,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pCBrackPos",
           "package": "uulib",
@@ -11120,6 +12084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pCCurly",
           "package": "uulib",
@@ -11129,6 +12094,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pCCurly",
           "package": "uulib",
@@ -11142,6 +12108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pCCurlyPos",
           "package": "uulib",
@@ -11151,6 +12118,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pCCurlyPos",
           "package": "uulib",
@@ -11164,6 +12132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pCParen",
           "package": "uulib",
@@ -11173,6 +12142,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pCParen",
           "package": "uulib",
@@ -11186,6 +12156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pCParenPos",
           "package": "uulib",
@@ -11195,6 +12166,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pCParenPos",
           "package": "uulib",
@@ -11208,6 +12180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pChar",
           "package": "uulib",
@@ -11217,6 +12190,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pChar",
           "package": "uulib",
@@ -11230,6 +12204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pCharPos",
           "package": "uulib",
@@ -11239,6 +12214,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pCharPos",
           "normalized": "a(String,Pos)",
@@ -11254,6 +12230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pComma",
           "package": "uulib",
@@ -11263,6 +12240,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pComma",
           "package": "uulib",
@@ -11276,6 +12254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pCommaPos",
           "package": "uulib",
@@ -11285,6 +12264,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pCommaPos",
           "package": "uulib",
@@ -11298,6 +12278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pCommas",
           "package": "uulib",
@@ -11307,6 +12288,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pCommas",
           "normalized": "a b-\u003ea[b]",
@@ -11322,6 +12304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pConid",
           "package": "uulib",
@@ -11331,6 +12314,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pConid",
           "package": "uulib",
@@ -11344,6 +12328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pConidPos",
           "package": "uulib",
@@ -11353,6 +12338,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pConidPos",
           "normalized": "a(String,Pos)",
@@ -11368,6 +12354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pConsym",
           "package": "uulib",
@@ -11377,6 +12364,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pConsym",
           "package": "uulib",
@@ -11390,6 +12378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pConsymPos",
           "package": "uulib",
@@ -11399,6 +12388,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pConsymPos",
           "normalized": "a(String,Pos)",
@@ -11414,6 +12404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pCurly",
           "package": "uulib",
@@ -11423,6 +12414,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pCurly",
           "normalized": "a b-\u003ea b",
@@ -11438,6 +12430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pCurly_pSemics",
           "package": "uulib",
@@ -11447,6 +12440,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pCurly_pSemics",
           "normalized": "a b-\u003ea[b]",
@@ -11462,6 +12456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pFraction",
           "package": "uulib",
@@ -11471,6 +12466,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pFraction",
           "package": "uulib",
@@ -11484,6 +12480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pFractionPos",
           "package": "uulib",
@@ -11493,6 +12490,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pFractionPos",
           "normalized": "a(String,Pos)",
@@ -11508,6 +12506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger",
           "package": "uulib",
@@ -11517,6 +12516,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger",
           "package": "uulib",
@@ -11530,6 +12530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger10",
           "package": "uulib",
@@ -11539,6 +12540,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger10",
           "package": "uulib",
@@ -11552,6 +12554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger10Pos",
           "package": "uulib",
@@ -11561,6 +12564,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger10Pos",
           "normalized": "a(String,Pos)",
@@ -11576,6 +12580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger16",
           "package": "uulib",
@@ -11585,6 +12590,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger16",
           "package": "uulib",
@@ -11598,6 +12604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger16Pos",
           "package": "uulib",
@@ -11607,6 +12614,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger16Pos",
           "normalized": "a(String,Pos)",
@@ -11622,6 +12630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger8",
           "package": "uulib",
@@ -11631,6 +12640,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger8",
           "package": "uulib",
@@ -11644,6 +12654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger8Pos",
           "package": "uulib",
@@ -11653,6 +12664,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pInteger8Pos",
           "normalized": "a(String,Pos)",
@@ -11668,6 +12680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pIntegerPos",
           "package": "uulib",
@@ -11677,6 +12690,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pIntegerPos",
           "normalized": "a(String,Pos)",
@@ -11692,6 +12706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pKey",
           "package": "uulib",
@@ -11701,6 +12716,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pKey",
           "normalized": "String-\u003ea String",
@@ -11716,6 +12732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pKeyPos",
           "package": "uulib",
@@ -11725,6 +12742,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pKeyPos",
           "normalized": "String-\u003ea Pos",
@@ -11740,6 +12758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pOBrack",
           "package": "uulib",
@@ -11749,6 +12768,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pOBrack",
           "package": "uulib",
@@ -11762,6 +12782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pOBrackPos",
           "package": "uulib",
@@ -11771,6 +12792,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pOBrackPos",
           "package": "uulib",
@@ -11784,6 +12806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pOCurly",
           "package": "uulib",
@@ -11793,6 +12816,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pOCurly",
           "package": "uulib",
@@ -11806,6 +12830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pOCurlyPos",
           "package": "uulib",
@@ -11815,6 +12840,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pOCurlyPos",
           "package": "uulib",
@@ -11828,6 +12854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pOParen",
           "package": "uulib",
@@ -11837,6 +12864,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pOParen",
           "package": "uulib",
@@ -11850,6 +12878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pOParenPos",
           "package": "uulib",
@@ -11859,6 +12888,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pOParenPos",
           "package": "uulib",
@@ -11872,6 +12902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pParens",
           "package": "uulib",
@@ -11881,6 +12912,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pParens",
           "normalized": "a b-\u003ea b",
@@ -11896,6 +12928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pParens_pCommas",
           "package": "uulib",
@@ -11905,6 +12938,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pParens_pCommas",
           "normalized": "a b-\u003ea[b]",
@@ -11920,6 +12954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pSemi",
           "package": "uulib",
@@ -11929,6 +12964,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pSemi",
           "package": "uulib",
@@ -11942,6 +12978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pSemiPos",
           "package": "uulib",
@@ -11951,6 +12988,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pSemiPos",
           "package": "uulib",
@@ -11964,6 +13002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pSemics",
           "package": "uulib",
@@ -11973,6 +13012,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pSemics",
           "normalized": "a b-\u003ea[b]",
@@ -11988,6 +13028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pSpec",
           "package": "uulib",
@@ -11997,6 +13038,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pSpec",
           "normalized": "Char-\u003ea String",
@@ -12012,6 +13054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pSpecPos",
           "package": "uulib",
@@ -12021,6 +13064,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pSpecPos",
           "normalized": "Char-\u003ea Pos",
@@ -12036,6 +13080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pString",
           "package": "uulib",
@@ -12045,6 +13090,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pString",
           "package": "uulib",
@@ -12058,6 +13104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pStringPos",
           "package": "uulib",
@@ -12067,6 +13114,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pStringPos",
           "normalized": "a(String,Pos)",
@@ -12082,6 +13130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pTextln",
           "package": "uulib",
@@ -12091,6 +13140,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pTextln",
           "package": "uulib",
@@ -12104,6 +13154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pTextlnPos",
           "package": "uulib",
@@ -12113,6 +13164,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pTextlnPos",
           "normalized": "a(String,Pos)",
@@ -12128,6 +13180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pTextnm",
           "package": "uulib",
@@ -12137,6 +13190,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pTextnm",
           "package": "uulib",
@@ -12150,6 +13204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pTextnmPos",
           "package": "uulib",
@@ -12159,6 +13214,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pTextnmPos",
           "normalized": "a(String,Pos)",
@@ -12174,6 +13230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pVarid",
           "package": "uulib",
@@ -12183,6 +13240,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pVarid",
           "package": "uulib",
@@ -12196,6 +13254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pVaridPos",
           "package": "uulib",
@@ -12205,6 +13264,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pVaridPos",
           "normalized": "a(String,Pos)",
@@ -12220,6 +13280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pVarsym",
           "package": "uulib",
@@ -12229,6 +13290,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pVarsym",
           "package": "uulib",
@@ -12242,6 +13304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenParser",
           "name": "pVarsymPos",
           "package": "uulib",
@@ -12251,6 +13314,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenParser",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenParser",
           "name": "pVarsymPos",
           "normalized": "a(String,Pos)",
@@ -12266,6 +13330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner.TokenShow",
           "name": "TokenShow",
           "package": "uulib",
@@ -12274,6 +13339,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner TokenShow",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner.TokenShow",
           "name": "TokenShow",
           "package": "uulib",
@@ -12287,6 +13353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Scanner",
           "name": "Scanner",
           "package": "uulib",
@@ -12295,6 +13362,7 @@
         },
         "index": {
           "hierarchy": "UU Scanner",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Scanner",
           "name": "Scanner",
           "package": "uulib",
@@ -12308,6 +13376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.BinaryTrees",
           "name": "BinaryTrees",
           "package": "uulib",
@@ -12316,6 +13385,7 @@
         },
         "index": {
           "hierarchy": "UU Util BinaryTrees",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.BinaryTrees",
           "name": "BinaryTrees",
           "package": "uulib",
@@ -12329,6 +13399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.BinaryTrees",
           "name": "BinSearchTree",
           "package": "uulib",
@@ -12337,6 +13408,7 @@
         },
         "index": {
           "hierarchy": "UU Util BinaryTrees",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.BinaryTrees",
           "name": "BinSearchTree",
           "package": "uulib",
@@ -12350,6 +13422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.BinaryTrees",
           "name": "Nil",
           "package": "uulib",
@@ -12359,6 +13432,7 @@
         },
         "index": {
           "hierarchy": "UU Util BinaryTrees",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.BinaryTrees",
           "name": "Nil",
           "package": "uulib",
@@ -12372,6 +13446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.BinaryTrees",
           "name": "Node",
           "package": "uulib",
@@ -12381,6 +13456,7 @@
         },
         "index": {
           "hierarchy": "UU Util BinaryTrees",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.BinaryTrees",
           "name": "Node",
           "package": "uulib",
@@ -12394,6 +13470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.BinaryTrees",
           "name": "btFind",
           "package": "uulib",
@@ -12403,6 +13480,7 @@
         },
         "index": {
           "hierarchy": "UU Util BinaryTrees",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.BinaryTrees",
           "name": "btFind",
           "normalized": "(a-\u003eb-\u003eOrdering)-\u003eBinSearchTree(a,c)-\u003eb-\u003eMaybe c",
@@ -12418,6 +13496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.BinaryTrees",
           "name": "btLocateIn",
           "package": "uulib",
@@ -12427,6 +13506,7 @@
         },
         "index": {
           "hierarchy": "UU Util BinaryTrees",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.BinaryTrees",
           "name": "btLocateIn",
           "normalized": "(a-\u003eb-\u003eOrdering)-\u003eBinSearchTree a-\u003eb-\u003eMaybe a",
@@ -12442,6 +13522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.BinaryTrees",
           "name": "btLookup",
           "package": "uulib",
@@ -12451,6 +13532,7 @@
         },
         "index": {
           "hierarchy": "UU Util BinaryTrees",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.BinaryTrees",
           "name": "btLookup",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec)-\u003e(b-\u003ed-\u003eOrdering)-\u003eBinSearchTree a-\u003ed-\u003eMaybe c",
@@ -12466,6 +13548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.BinaryTrees",
           "name": "tab2tree",
           "package": "uulib",
@@ -12475,6 +13558,7 @@
         },
         "index": {
           "hierarchy": "UU Util BinaryTrees",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.BinaryTrees",
           "name": "tab2tree",
           "normalized": "[a]-\u003eBinSearchTree a",
@@ -12489,6 +13573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.PermTree",
           "name": "PermTree",
           "package": "uulib",
@@ -12497,6 +13582,7 @@
         },
         "index": {
           "hierarchy": "UU Util PermTree",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.PermTree",
           "name": "PermTree",
           "package": "uulib",
@@ -12510,6 +13596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.PermTree",
           "name": "Branch",
           "package": "uulib",
@@ -12518,6 +13605,7 @@
         },
         "index": {
           "hierarchy": "UU Util PermTree",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.PermTree",
           "name": "Branch",
           "package": "uulib",
@@ -12531,6 +13619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.PermTree",
           "name": "Perms",
           "package": "uulib",
@@ -12539,6 +13628,7 @@
         },
         "index": {
           "hierarchy": "UU Util PermTree",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.PermTree",
           "name": "Perms",
           "package": "uulib",
@@ -12552,6 +13642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.PermTree",
           "name": "(\u003c||\u003e)",
           "package": "uulib",
@@ -12561,6 +13652,7 @@
         },
         "index": {
           "hierarchy": "UU Util PermTree",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.PermTree",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "Perms a(b-\u003ec)-\u003ea b-\u003ePerms a c",
@@ -12575,6 +13667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.PermTree",
           "name": "(\u003c|?\u003e)",
           "package": "uulib",
@@ -12584,6 +13677,7 @@
         },
         "index": {
           "hierarchy": "UU Util PermTree",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.PermTree",
           "name": "(\u003c|?\u003e) \u003c|?\u003e",
           "normalized": "Perms a(b-\u003ec)-\u003e(b,a b)-\u003ePerms a c",
@@ -12598,6 +13692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.PermTree",
           "name": "(\u003c$$\u003e)",
           "package": "uulib",
@@ -12607,6 +13702,7 @@
         },
         "index": {
           "hierarchy": "UU Util PermTree",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.PermTree",
           "name": "(\u003c$$\u003e) \u003c$$\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ePerms c b",
@@ -12621,6 +13717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.PermTree",
           "name": "(\u003c$?\u003e)",
           "package": "uulib",
@@ -12630,6 +13727,7 @@
         },
         "index": {
           "hierarchy": "UU Util PermTree",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.PermTree",
           "name": "(\u003c$?\u003e) \u003c$?\u003e",
           "normalized": "(a-\u003eb)-\u003e(a,c a)-\u003ePerms c b",
@@ -12644,6 +13742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.PermTree",
           "name": "Br",
           "package": "uulib",
@@ -12653,6 +13752,7 @@
         },
         "index": {
           "hierarchy": "UU Util PermTree",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.PermTree",
           "name": "Br",
           "normalized": "a b Br(c b)(Perms c(b-\u003ed))",
@@ -12668,6 +13768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.PermTree",
           "name": "Choice",
           "package": "uulib",
@@ -12677,6 +13778,7 @@
         },
         "index": {
           "hierarchy": "UU Util PermTree",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.PermTree",
           "name": "Choice",
           "normalized": "Choice(Maybe a)[Branch b a]",
@@ -12692,6 +13794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.PermTree",
           "name": "add",
           "package": "uulib",
@@ -12701,6 +13804,7 @@
         },
         "index": {
           "hierarchy": "UU Util PermTree",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.PermTree",
           "name": "add",
           "normalized": "Maybe a-\u003eb a-\u003ePerms b(a-\u003ec)-\u003ePerms b c",
@@ -12715,6 +13819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.PermTree",
           "name": "empty",
           "package": "uulib",
@@ -12724,6 +13829,7 @@
         },
         "index": {
           "hierarchy": "UU Util PermTree",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.PermTree",
           "name": "empty",
           "normalized": "a-\u003ePerms b a",
@@ -12738,6 +13844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.Utils",
           "name": "Utils",
           "package": "uulib",
@@ -12746,6 +13853,7 @@
         },
         "index": {
           "hierarchy": "UU Util Utils",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.Utils",
           "name": "Utils",
           "package": "uulib",
@@ -12759,6 +13867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.Utils",
           "name": "Id",
           "package": "uulib",
@@ -12767,6 +13876,7 @@
         },
         "index": {
           "hierarchy": "UU Util Utils",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.Utils",
           "name": "Id",
           "package": "uulib",
@@ -12780,6 +13890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.Utils",
           "name": "Id",
           "package": "uulib",
@@ -12789,6 +13900,7 @@
         },
         "index": {
           "hierarchy": "UU Util Utils",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.Utils",
           "name": "Id",
           "package": "uulib",
@@ -12802,6 +13914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.Utils",
           "name": "cross",
           "package": "uulib",
@@ -12811,6 +13924,7 @@
         },
         "index": {
           "hierarchy": "UU Util Utils",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.Utils",
           "name": "cross",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e(a,c)-\u003e(b,d)",
@@ -12825,6 +13939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.Utils",
           "name": "fst3",
           "package": "uulib",
@@ -12834,6 +13949,7 @@
         },
         "index": {
           "hierarchy": "UU Util Utils",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.Utils",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -12848,6 +13964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.Utils",
           "name": "snd3",
           "package": "uulib",
@@ -12857,6 +13974,7 @@
         },
         "index": {
           "hierarchy": "UU Util Utils",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.Utils",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -12871,6 +13989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.Utils",
           "name": "split",
           "package": "uulib",
@@ -12880,6 +13999,7 @@
         },
         "index": {
           "hierarchy": "UU Util Utils",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.Utils",
           "name": "split",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec)-\u003ea-\u003e(b,c)",
@@ -12894,6 +14014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:48 UTC 2014",
           "module": "UU.Util.Utils",
           "name": "thd3",
           "package": "uulib",
@@ -12903,6 +14024,7 @@
         },
         "index": {
           "hierarchy": "UU Util Utils",
+          "indexed": "2014-03-11T20:32:48",
           "module": "UU.Util.Utils",
           "name": "thd3",
           "normalized": "(a,b,c)-\u003ec",

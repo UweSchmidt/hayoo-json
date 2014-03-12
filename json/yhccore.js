@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yhccore"
+        "phrase": "yhccore",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Binary",
           "name": "Binary",
           "package": "yhccore",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Binary",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Binary",
           "name": "Binary",
           "package": "yhccore",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.CaseElimination",
           "name": "CaseElimination",
           "package": "yhccore",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core CaseElimination",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.CaseElimination",
           "name": "CaseElimination",
           "package": "yhccore",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEliminate useless default statements\n   where the other options cover everything\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.CaseElimination",
           "name": "coreCaseElim",
           "package": "yhccore",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Eliminate useless default statements where the other options cover everything",
           "hierarchy": "Yhc Core CaseElimination",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.CaseElimination",
           "name": "coreCaseElim",
           "normalized": "Core-\u003eCore",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Clean",
           "name": "Clean",
           "package": "yhccore",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Clean",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Clean",
           "name": "Clean",
           "package": "yhccore",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a \u003ccode\u003e\u003ca\u003eCore\u003c/a\u003e\u003c/code\u003e program, and output Clean.\n   Currently one definition per line, although this is not guaranteed (pretty printing would be nice!)\n   Does not include a \u003cem\u003emodule\u003c/em\u003e definition, or imports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Clean",
           "name": "coreClean",
           "package": "yhccore",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Take Core program and output Clean Currently one definition per line although this is not guaranteed pretty printing would be nice Does not include module definition or imports",
           "hierarchy": "Yhc Core Clean",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Clean",
           "name": "coreClean",
           "normalized": "Core-\u003eString",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEqual checks if two CoreExpr's are equal ignoring any children\n    expressions. Usually \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e is what is wanted, but for some stuff\n    this is more appropriate.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Equal",
           "name": "Equal",
           "package": "yhccore",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Equal checks if two CoreExpr are equal ignoring any children expressions Usually Eq is what is wanted but for some stuff this is more appropriate",
           "hierarchy": "Yhc Core Equal",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Equal",
           "name": "Equal",
           "package": "yhccore",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould be equivalent to:\n\u003c/p\u003e\u003cpre\u003e eqCoreExpr1 x y = length xs == length ys && _x vs == _y vs\n     where\n         vs = replicate (length xs) (CoreVar \"\")\n         (xs,_x) = uniplate x\n         (ys,_y) = uniplate y\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Equal",
           "name": "CoreExpr1",
           "package": "yhccore",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Should be equivalent to eqCoreExpr1 length xs length ys vs vs where vs replicate length xs CoreVar xs uniplate ys uniplate",
           "hierarchy": "Yhc Core Equal",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Equal",
           "name": "CoreExpr1",
           "package": "yhccore",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Equal",
           "name": "coreExpr1",
           "package": "yhccore",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Equal",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Equal",
           "name": "coreExpr1",
           "normalized": "CoreExpr-\u003eCoreExpr",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Equal",
           "name": "eqCoreExpr1",
           "package": "yhccore",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Equal",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Equal",
           "name": "eqCoreExpr1",
           "normalized": "CoreExpr-\u003eCoreExpr-\u003eBool",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn: x -\u003e y x\n\u003c/p\u003e\u003cp\u003ex is bound\n\u003c/p\u003e\u003cp\u003ey is free\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar",
           "name": "FreeVar",
           "package": "yhccore",
@@ -237,6 +256,7 @@
         "index": {
           "description": "In is bound is free",
           "hierarchy": "Yhc Core FreeVar",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar",
           "name": "FreeVar",
           "package": "yhccore",
@@ -386,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust \u003ccode\u003euniqueFreeVarsWith\u003c/code\u003e, but with a default set of variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar",
           "name": "uniqueBoundVars",
           "package": "yhccore",
@@ -396,6 +417,7 @@
         "index": {
           "description": "Just uniqueFreeVarsWith but with default set of variables",
           "hierarchy": "Yhc Core FreeVar",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar",
           "name": "uniqueBoundVars",
           "normalized": "CoreExpr-\u003eCoreExpr",
@@ -412,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a whole Core program have unique free variables.\n   Between functions, they may share variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar",
           "name": "uniqueBoundVarsCore",
           "package": "yhccore",
@@ -422,6 +445,7 @@
         "index": {
           "description": "Make whole Core program have unique free variables Between functions they may share variables",
           "hierarchy": "Yhc Core FreeVar",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar",
           "name": "uniqueBoundVarsCore",
           "normalized": "Core-\u003eCore",
@@ -438,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a whole function have unique free variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar",
           "name": "uniqueBoundVarsFunc",
           "package": "yhccore",
@@ -448,6 +473,7 @@
         "index": {
           "description": "Make whole function have unique free variables",
           "hierarchy": "Yhc Core FreeVar",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar",
           "name": "uniqueBoundVarsFunc",
           "normalized": "CoreFunc-\u003eCoreFunc",
@@ -464,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all variables which are locally defined with new names\n   from the given list. Raises an error if not enough free variables\n   are supplied\n\u003c/p\u003e\u003cp\u003eIf any in the new list clashes with a name in \u003ccode\u003e\u003ca\u003ecollectFreeVars\u003c/a\u003e\u003c/code\u003e this\n   will return a program with different semantics!\n\u003c/p\u003e\u003cp\u003eProperty: collectFreeVars (uniqueFreeVarsWith newvars x) \u003ccode\u003esubset\u003c/code\u003e newvars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar",
           "name": "uniqueBoundVarsWith",
           "package": "yhccore",
@@ -474,6 +501,7 @@
         "index": {
           "description": "Replace all variables which are locally defined with new names from the given list Raises an error if not enough free variables are supplied If any in the new list clashes with name in collectFreeVars this will return program with different semantics Property collectFreeVars uniqueFreeVarsWith newvars subset newvars",
           "hierarchy": "Yhc Core FreeVar",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar",
           "name": "uniqueBoundVarsWith",
           "normalized": "[String]-\u003eCoreExpr-\u003eCoreExpr",
@@ -490,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust \u003ccode\u003euniqueFreeVarsWith\u003c/code\u003e, but with a certain set excluded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar",
           "name": "uniqueBoundVarsWithout",
           "package": "yhccore",
@@ -500,6 +529,7 @@
         "index": {
           "description": "Just uniqueFreeVarsWith but with certain set excluded",
           "hierarchy": "Yhc Core FreeVar",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar",
           "name": "uniqueBoundVarsWithout",
           "normalized": "[String]-\u003eCoreExpr-\u003eCoreExpr",
@@ -516,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a prefix, generate a stream of variables\n   Each will be unique in the series\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar",
           "name": "variableSupply",
           "package": "yhccore",
@@ -526,6 +557,7 @@
         "index": {
           "description": "Given prefix generate stream of variables Each will be unique in the series",
           "hierarchy": "Yhc Core FreeVar",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar",
           "name": "variableSupply",
           "normalized": "Char-\u003e[String]",
@@ -542,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn: x -\u003e y x\n\u003c/p\u003e\u003cp\u003ex is bound\n\u003c/p\u003e\u003cp\u003ey is free\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar2",
           "name": "FreeVar2",
           "package": "yhccore",
@@ -551,6 +584,7 @@
         "index": {
           "description": "In is bound is free",
           "hierarchy": "Yhc Core FreeVar2",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar2",
           "name": "FreeVar2",
           "package": "yhccore",
@@ -564,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar2",
           "name": "FreeVar",
           "package": "yhccore",
@@ -572,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar2",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar2",
           "name": "FreeVar",
           "package": "yhccore",
@@ -585,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar2",
           "name": "deleteVars",
           "package": "yhccore",
@@ -594,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar2",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar2",
           "name": "deleteVars",
           "normalized": "[String]-\u003eFreeVar()",
@@ -609,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar2",
           "name": "freeVars",
           "package": "yhccore",
@@ -618,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar2",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar2",
           "name": "freeVars",
           "normalized": "Char-\u003e[String]",
@@ -633,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar2",
           "name": "getVar",
           "package": "yhccore",
@@ -642,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar2",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar2",
           "name": "getVar",
           "package": "yhccore",
@@ -655,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar2",
           "name": "getVars",
           "package": "yhccore",
@@ -664,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar2",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar2",
           "name": "getVars",
           "normalized": "FreeVar[String]",
@@ -679,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar2",
           "name": "putVars",
           "package": "yhccore",
@@ -688,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar2",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar2",
           "name": "putVars",
           "normalized": "[String]-\u003eFreeVar()",
@@ -703,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar2",
           "name": "runFreeVars",
           "package": "yhccore",
@@ -712,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar2",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar2",
           "name": "runFreeVars",
           "normalized": "FreeVar a-\u003ea",
@@ -728,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all variables which are locally defined with new names\n   from the given list. Raises an error if not enough free variables\n   are supplied\n\u003c/p\u003e\u003cp\u003eIf any in the new list clashes with a name in \u003ccode\u003e\u003ca\u003ecollectFreeVars\u003c/a\u003e\u003c/code\u003e this\n   will return a program with different semantics!\n\u003c/p\u003e\u003cp\u003eProperty: collectFreeVars (uniqueFreeVarsWith newvars x) \u003ccode\u003esubset\u003c/code\u003e newvars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar2",
           "name": "uniqueBoundVars",
           "package": "yhccore",
@@ -738,6 +787,7 @@
         "index": {
           "description": "Replace all variables which are locally defined with new names from the given list Raises an error if not enough free variables are supplied If any in the new list clashes with name in collectFreeVars this will return program with different semantics Property collectFreeVars uniqueFreeVarsWith newvars subset newvars",
           "hierarchy": "Yhc Core FreeVar2",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar2",
           "name": "uniqueBoundVars",
           "normalized": "CoreExpr-\u003eFreeVar CoreExpr",
@@ -754,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a whole Core program have unique free variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar2",
           "name": "uniqueBoundVarsCore",
           "package": "yhccore",
@@ -764,6 +815,7 @@
         "index": {
           "description": "Make whole Core program have unique free variables",
           "hierarchy": "Yhc Core FreeVar2",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar2",
           "name": "uniqueBoundVarsCore",
           "normalized": "Core-\u003eFreeVar Core",
@@ -780,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a whole function have unique free variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar2",
           "name": "uniqueBoundVarsFunc",
           "package": "yhccore",
@@ -790,6 +843,7 @@
         "index": {
           "description": "Make whole function have unique free variables",
           "hierarchy": "Yhc Core FreeVar2",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar2",
           "name": "uniqueBoundVarsFunc",
           "normalized": "CoreFunc-\u003eFreeVar CoreFunc",
@@ -806,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn: x -\u003e y x\n\u003c/p\u003e\u003cp\u003ex is bound\n\u003c/p\u003e\u003cp\u003ey is free\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar3",
           "name": "FreeVar3",
           "package": "yhccore",
@@ -815,6 +870,7 @@
         "index": {
           "description": "In is bound is free",
           "hierarchy": "Yhc Core FreeVar3",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar3",
           "name": "FreeVar3",
           "package": "yhccore",
@@ -829,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that the free variables in the second expression\n   are also in the first one. It usually indicates an error to\n   introduce new free variables in transformation.\n\u003c/p\u003e\u003cp\u003eReturn True for safe, False for probably buggy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar3",
           "name": "checkFreeVar",
           "package": "yhccore",
@@ -839,6 +896,7 @@
         "index": {
           "description": "Check that the free variables in the second expression are also in the first one It usually indicates an error to introduce new free variables in transformation Return True for safe False for probably buggy",
           "hierarchy": "Yhc Core FreeVar3",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar3",
           "name": "checkFreeVar",
           "normalized": "CoreExpr-\u003eCoreExpr-\u003eBool",
@@ -854,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar3",
           "name": "duplicateExpr",
           "package": "yhccore",
@@ -863,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar3",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar3",
           "name": "duplicateExpr",
           "normalized": "CoreExpr-\u003ea CoreExpr",
@@ -878,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar3",
           "name": "freeVars",
           "package": "yhccore",
@@ -887,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar3",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar3",
           "name": "freeVars",
           "normalized": "Char-\u003e[String]",
@@ -902,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar3",
           "name": "getVar",
           "package": "yhccore",
@@ -911,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar3",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar3",
           "name": "getVar",
           "package": "yhccore",
@@ -924,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar3",
           "name": "getVars",
           "package": "yhccore",
@@ -933,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar3",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar3",
           "name": "getVars",
           "normalized": "Int-\u003ea[CoreVarName]",
@@ -948,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar3",
           "name": "replaceFreeVarsUnique",
           "package": "yhccore",
@@ -957,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core FreeVar3",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar3",
           "name": "replaceFreeVarsUnique",
           "normalized": "[(CoreVarName,CoreExpr)]-\u003eCoreExpr-\u003ea CoreExpr",
@@ -973,6 +1041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the variables that are defined to one-level depth\n   and a function to replace them\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar3",
           "name": "uniplateBoundVars",
           "package": "yhccore",
@@ -983,6 +1052,7 @@
         "index": {
           "description": "Get the variables that are defined to one-level depth and function to replace them",
           "hierarchy": "Yhc Core FreeVar3",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar3",
           "name": "uniplateBoundVars",
           "normalized": "CoreExpr-\u003e([CoreVarName],[CoreVarName]-\u003eCoreExpr)",
@@ -999,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake care: If v123 is a free variable, then make sure getVar starts above that\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar3",
           "name": "uniqueBoundVars",
           "package": "yhccore",
@@ -1009,6 +1080,7 @@
         "index": {
           "description": "Take care If v123 is free variable then make sure getVar starts above that",
           "hierarchy": "Yhc Core FreeVar3",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar3",
           "name": "uniqueBoundVars",
           "normalized": "CoreExpr-\u003ea CoreExpr",
@@ -1025,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a whole Core program have unique free variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar3",
           "name": "uniqueBoundVarsCore",
           "package": "yhccore",
@@ -1035,6 +1108,7 @@
         "index": {
           "description": "Make whole Core program have unique free variables",
           "hierarchy": "Yhc Core FreeVar3",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar3",
           "name": "uniqueBoundVarsCore",
           "normalized": "Core-\u003ea Core",
@@ -1051,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a whole function have unique free variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.FreeVar3",
           "name": "uniqueBoundVarsFunc",
           "package": "yhccore",
@@ -1061,6 +1136,7 @@
         "index": {
           "description": "Make whole function have unique free variables",
           "hierarchy": "Yhc Core FreeVar3",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.FreeVar3",
           "name": "uniqueBoundVarsFunc",
           "normalized": "CoreFunc-\u003ea CoreFunc",
@@ -1076,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Haskell",
           "name": "Haskell",
           "package": "yhccore",
@@ -1084,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Haskell",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Haskell",
           "name": "Haskell",
           "package": "yhccore",
@@ -1098,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a \u003ccode\u003e\u003ca\u003eCore\u003c/a\u003e\u003c/code\u003e program, and output Haskell.\n   Fix up as much as possible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Haskell",
           "name": "coreHaskell",
           "package": "yhccore",
@@ -1108,6 +1187,7 @@
         "index": {
           "description": "Take Core program and output Haskell Fix up as much as possible",
           "hierarchy": "Yhc Core Haskell",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Haskell",
           "name": "coreHaskell",
           "normalized": "Core-\u003eString",
@@ -1124,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a \u003ccode\u003e\u003ca\u003eCore\u003c/a\u003e\u003c/code\u003e program, and output Haskell.\n   Currently one definition per line, although this is not guaranteed (pretty printing would be nice!)\n   Does not include a \u003cem\u003emodule\u003c/em\u003e definition, or imports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Haskell",
           "name": "coreHaskellDirect",
           "package": "yhccore",
@@ -1134,6 +1215,7 @@
         "index": {
           "description": "Take Core program and output Haskell Currently one definition per line although this is not guaranteed pretty printing would be nice Does not include module definition or imports",
           "hierarchy": "Yhc Core Haskell",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Haskell",
           "name": "coreHaskellDirect",
           "normalized": "Core-\u003eString",
@@ -1149,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Html",
           "name": "Html",
           "package": "yhccore",
@@ -1157,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Html",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Html",
           "name": "Html",
           "package": "yhccore",
@@ -1170,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Html",
           "name": "coreHtml",
           "package": "yhccore",
@@ -1179,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Html",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Html",
           "name": "coreHtml",
           "normalized": "Core-\u003eString",
@@ -1195,6 +1281,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInlining module.\n\u003c/p\u003e\u003cp\u003eThis module will let you perform some inlining on Yhc.Core code. The \u003ccode\u003e\u003ca\u003eInlineMode\u003c/a\u003e\u003c/code\u003e argument\n    lets you select what algorithm is used. All should be terminating, and none should\n    increase the number of function calls in a program.\n\u003c/p\u003e\u003cp\u003eFor comparison, GHC's inlining mode is more powerful than \u003ccode\u003e\u003ca\u003eInlineForward\u003c/a\u003e\u003c/code\u003e, but less\n    powerful than \u003ccode\u003e\u003ca\u003eInlineFull\u003c/a\u003e\u003c/code\u003e. (And just so people understand, powerful does not mean more\n    performance, it means more inlining - the two are not always the same!)\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eInlineNone\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eNo inlining. Equivalent to \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e :)\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eInlineAlias\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eA function is inlined if it is aliased to another function.\n\u003c/p\u003e\u003cp\u003eA function is aliased if all it does is call another function with the\n    same arguments in the same order. i.e.\n\u003c/p\u003e\u003cpre\u003e f x y z = g x y z\n\u003c/pre\u003e\u003cp\u003eNote that a function is not aliased if any argument is duplicated, the\n    RHS is a primitive or a constructor, or the arguments are reordered.\n\u003c/p\u003e\u003cp\u003eThis restriction means that inlining can even occur when f is used\n    higher order, g can be replaced.\n\u003c/p\u003e\u003cp\u003eThis mode will never increase the code size.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eInlineForward\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eA function is inlined if it is a forwarder.\n\u003c/p\u003e\u003cp\u003eA function is a forwarder if all it does is call another function,\n    using only the given arguments, possibly reordered but not duplicated.\n    A forwarder can also be a single constant value, or a simple argument\n    value (a projection), or a constructor with no arguments. i.e.\n\u003c/p\u003e\u003cpre\u003e f x y z = 12\n f x y z = g z y\n f x y z = x\n\u003c/pre\u003e\u003cp\u003eThe function is only inlined if it is called saturated.\n\u003c/p\u003e\u003cp\u003eThis mode will never increase the code size.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eInlineCallOnce\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eA function is inlined if it is a forwarder, or if there is only one\n    caller. Only inlined if called saturated. Will never increase the code\n    size.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eInlineFull\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThis does the most inlining it can, but never inlines the same function\n    more than once in a given expression - to ensure termination. Also doesn't\n    inline CAF's, since that would go wrong. Large functions, recursive functions,\n    duplicated arguments etc - all are inlined without question.\n\u003c/p\u003e\u003cp\u003eDuplicated arguments are moved into a let, to ensure they are not computed\n    additional times.\n\u003c/p\u003e\u003cp\u003eThis mode is more than likely to increase the code size in most programs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Inline",
           "name": "Inline",
           "package": "yhccore",
@@ -1204,6 +1291,7 @@
         "index": {
           "description": "Inlining module This module will let you perform some inlining on Yhc.Core code The InlineMode argument lets you select what algorithm is used All should be terminating and none should increase the number of function calls in program For comparison GHC inlining mode is more powerful than InlineForward but less powerful than InlineFull And just so people understand powerful does not mean more performance it means more inlining the two are not always the same InlineNone No inlining Equivalent to id InlineAlias function is inlined if it is aliased to another function function is aliased if all it does is call another function with the same arguments in the same order i.e Note that function is not aliased if any argument is duplicated the RHS is primitive or constructor or the arguments are reordered This restriction means that inlining can even occur when is used higher order can be replaced This mode will never increase the code size InlineForward function is inlined if it is forwarder function is forwarder if all it does is call another function using only the given arguments possibly reordered but not duplicated forwarder can also be single constant value or simple argument value projection or constructor with no arguments i.e The function is only inlined if it is called saturated This mode will never increase the code size InlineCallOnce function is inlined if it is forwarder or if there is only one caller Only inlined if called saturated Will never increase the code size InlineFull This does the most inlining it can but never inlines the same function more than once in given expression to ensure termination Also doesn inline CAF since that would go wrong Large functions recursive functions duplicated arguments etc all are inlined without question Duplicated arguments are moved into let to ensure they are not computed additional times This mode is more than likely to increase the code size in most programs",
           "hierarchy": "Yhc Core Inline",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Inline",
           "name": "Inline",
           "package": "yhccore",
@@ -1217,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Inline",
           "name": "InlineMode",
           "package": "yhccore",
@@ -1225,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Inline",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Inline",
           "name": "InlineMode",
           "package": "yhccore",
@@ -1239,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ef a b c = g a b c, calls to g become calls to f\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Inline",
           "name": "InlineAlias",
           "package": "yhccore",
@@ -1249,6 +1340,7 @@
         "index": {
           "description": "calls to become calls to",
           "hierarchy": "Yhc Core Inline",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Inline",
           "name": "InlineAlias",
           "package": "yhccore",
@@ -1263,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ef is called only once\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Inline",
           "name": "InlineCallOnce",
           "package": "yhccore",
@@ -1273,6 +1366,7 @@
         "index": {
           "description": "is called only once",
           "hierarchy": "Yhc Core Inline",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Inline",
           "name": "InlineCallOnce",
           "package": "yhccore",
@@ -1287,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ef a b c = g a b, g b a, a (g may be a constructor)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Inline",
           "name": "InlineForward",
           "package": "yhccore",
@@ -1297,6 +1392,7 @@
         "index": {
           "description": "may be constructor",
           "hierarchy": "Yhc Core Inline",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Inline",
           "name": "InlineForward",
           "package": "yhccore",
@@ -1311,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf you can inline it, do so! Breaks on first recursive call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Inline",
           "name": "InlineFull",
           "package": "yhccore",
@@ -1321,6 +1418,7 @@
         "index": {
           "description": "If you can inline it do so Breaks on first recursive call",
           "hierarchy": "Yhc Core Inline",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Inline",
           "name": "InlineFull",
           "package": "yhccore",
@@ -1335,6 +1433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno inlining at all\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Inline",
           "name": "InlineNone",
           "package": "yhccore",
@@ -1345,6 +1444,7 @@
         "index": {
           "description": "no inlining at all",
           "hierarchy": "Yhc Core Inline",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Inline",
           "name": "InlineNone",
           "package": "yhccore",
@@ -1358,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Inline",
           "name": "coreInline",
           "package": "yhccore",
@@ -1367,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Inline",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Inline",
           "name": "coreInline",
           "normalized": "InlineMode-\u003eCore-\u003eCore",
@@ -1383,6 +1485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline a function, fails if it would produce a lambda\n   See \u003ccode\u003e\u003ca\u003ecoreInlineFuncLambda\u003c/a\u003e\u003c/code\u003e for a version without this property\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Inline",
           "name": "coreInlineFunc",
           "package": "yhccore",
@@ -1393,6 +1496,7 @@
         "index": {
           "description": "Inline function fails if it would produce lambda See coreInlineFuncLambda for version without this property",
           "hierarchy": "Yhc Core Inline",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Inline",
           "name": "coreInlineFunc",
           "normalized": "CoreFunc-\u003e[CoreExpr]-\u003eMaybe CoreExpr",
@@ -1409,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline a function, generating a lambda if necessary\n   NOTE: Should this return a CoreLam now we have this in the AST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Inline",
           "name": "coreInlineFuncLambda",
           "package": "yhccore",
@@ -1419,6 +1524,7 @@
         "index": {
           "description": "Inline function generating lambda if necessary NOTE Should this return CoreLam now we have this in the AST",
           "hierarchy": "Yhc Core Inline",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Inline",
           "name": "coreInlineFuncLambda",
           "normalized": "CoreFunc-\u003e[CoreExpr]-\u003e([String],CoreExpr)",
@@ -1434,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Binary",
           "name": "Binary",
           "package": "yhccore",
@@ -1442,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Binary",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Binary",
           "name": "Binary",
           "package": "yhccore",
@@ -1455,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Binary",
           "name": "Binary",
           "package": "yhccore",
@@ -1463,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Binary",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Binary",
           "name": "Binary",
           "package": "yhccore",
@@ -1476,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Binary",
           "name": "get",
           "package": "yhccore",
@@ -1485,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Binary",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Binary",
           "name": "get",
           "normalized": "Handle-\u003eIO a",
@@ -1499,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Binary",
           "name": "getByte",
           "package": "yhccore",
@@ -1508,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Binary",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Binary",
           "name": "getByte",
           "normalized": "Handle-\u003eIO Int",
@@ -1523,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Binary",
           "name": "putByte",
           "package": "yhccore",
@@ -1532,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Binary",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Binary",
           "name": "putByte",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -1547,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Binary",
           "name": "put_",
           "package": "yhccore",
@@ -1556,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Binary",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Binary",
           "name": "put_",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -1570,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Binary",
           "name": "readBinary",
           "package": "yhccore",
@@ -1579,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Binary",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Binary",
           "name": "readBinary",
           "normalized": "FilePath-\u003eIO a",
@@ -1594,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Binary",
           "name": "showGet",
           "package": "yhccore",
@@ -1603,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Binary",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Binary",
           "name": "showGet",
           "normalized": "Handle-\u003eIO a",
@@ -1618,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Binary",
           "name": "showPut",
           "package": "yhccore",
@@ -1627,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Binary",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Binary",
           "name": "showPut",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -1642,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Binary",
           "name": "writeBinary",
           "package": "yhccore",
@@ -1651,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Binary",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Binary",
           "name": "writeBinary",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -1666,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.General",
           "name": "General",
           "package": "yhccore",
@@ -1674,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal General",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.General",
           "name": "General",
           "package": "yhccore",
@@ -1687,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.General",
           "name": "disjoint",
           "package": "yhccore",
@@ -1696,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal General",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.General",
           "name": "disjoint",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -1710,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.General",
           "name": "ordNub",
           "package": "yhccore",
@@ -1719,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal General",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.General",
           "name": "ordNub",
           "normalized": "[a]-\u003e[a]",
@@ -1735,6 +1867,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJohn Hughes's and Simon Peyton Jones's Pretty Printer Combinators\n\u003c/p\u003e\u003cp\u003eBased on \u003cem\u003eThe Design of a Pretty-printing Library\u003c/em\u003e\n in Advanced Functional Programming,\n Johan Jeuring and Erik Meijer (eds), LNCS 925\n \u003ca\u003ehttp://www.cs.chalmers.se/~rjmh/Papers/pretty.ps\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eHeavily modified by Simon Peyton Jones, Dec 96\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "HughesPJ",
           "package": "yhccore",
@@ -1744,6 +1877,7 @@
         "index": {
           "description": "John Hughes and Simon Peyton Jones Pretty Printer Combinators Based on The Design of Pretty-printing Library in Advanced Functional Programming Johan Jeuring and Erik Meijer eds LNCS http www.cs.chalmers.se rjmh Papers pretty.ps Heavily modified by Simon Peyton Jones Dec",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "HughesPJ",
           "package": "yhccore",
@@ -1758,6 +1892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract type of documents.\n The \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance is equivalent to using \u003ccode\u003e\u003ca\u003erender\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Doc",
           "package": "yhccore",
@@ -1767,6 +1902,7 @@
         "index": {
           "description": "The abstract type of documents The Show instance is equivalent to using render",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Doc",
           "package": "yhccore",
@@ -1781,6 +1917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Mode",
           "package": "yhccore",
@@ -1790,6 +1927,7 @@
         "index": {
           "description": "Rendering mode",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Mode",
           "package": "yhccore",
@@ -1804,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rendering style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Style",
           "package": "yhccore",
@@ -1813,6 +1952,7 @@
         "index": {
           "description": "rendering style",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Style",
           "package": "yhccore",
@@ -1826,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "TextDetails",
           "package": "yhccore",
@@ -1834,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "TextDetails",
           "package": "yhccore",
@@ -1848,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbove, except that if the last line of the first argument stops\n at least one position before the first line of the second begins,\n these two lines are overlapped.  For example:\n\u003c/p\u003e\u003cpre\u003e    text \"hi\" $$ nest 5 (text \"there\")\n\u003c/pre\u003e\u003cp\u003elays out as\n\u003c/p\u003e\u003cpre\u003e    hi   there\n\u003c/pre\u003e\u003cp\u003erather than\n\u003c/p\u003e\u003cpre\u003e    hi\n         there\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e, and also satisfies\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e(x \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e y) \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e z = x \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e (y \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e z)\u003c/code\u003e, if \u003ccode\u003ey\u003c/code\u003e non-empty.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "($$)",
           "package": "yhccore",
@@ -1858,6 +2001,7 @@
         "index": {
           "description": "Above except that if the last line of the first argument stops at least one position before the first line of the second begins these two lines are overlapped For example text hi nest text there lays out as hi there rather than hi there is associative with identity empty and also satisfies if non-empty",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "($$) $$",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -1873,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbove, with no overlapping.\n \u003ccode\u003e\u003ca\u003e$+$\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "($+$)",
           "package": "yhccore",
@@ -1883,6 +2028,7 @@
         "index": {
           "description": "Above with no overlapping is associative with identity empty",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "($+$) $+$",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -1898,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeside, separated by space, unless one of the arguments is \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "(\u003c+\u003e)",
           "package": "yhccore",
@@ -1908,6 +2055,7 @@
         "index": {
           "description": "Beside separated by space unless one of the arguments is empty is associative with identity empty",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -1923,6 +2071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeside.\n \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "(\u003c\u003e)",
           "package": "yhccore",
@@ -1933,6 +2082,7 @@
         "index": {
           "description": "Beside is associative with identity empty",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -1947,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Chr",
           "package": "yhccore",
@@ -1956,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Chr",
           "package": "yhccore",
@@ -1970,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo indentation, infinitely long lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "LeftMode",
           "package": "yhccore",
@@ -1980,6 +2133,7 @@
         "index": {
           "description": "No indentation infinitely long lines",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "LeftMode",
           "package": "yhccore",
@@ -1994,6 +2148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll on one line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "OneLineMode",
           "package": "yhccore",
@@ -2004,6 +2159,7 @@
         "index": {
           "description": "All on one line",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "OneLineMode",
           "package": "yhccore",
@@ -2017,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "PStr",
           "package": "yhccore",
@@ -2026,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "PStr",
           "package": "yhccore",
@@ -2040,6 +2198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "PageMode",
           "package": "yhccore",
@@ -2050,6 +2209,7 @@
         "index": {
           "description": "Normal",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "PageMode",
           "package": "yhccore",
@@ -2063,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Str",
           "package": "yhccore",
@@ -2072,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Str",
           "package": "yhccore",
@@ -2085,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Style",
           "package": "yhccore",
@@ -2094,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "Style",
           "package": "yhccore",
@@ -2108,6 +2272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith zig-zag cuts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "ZigZagMode",
           "package": "yhccore",
@@ -2118,6 +2283,7 @@
         "index": {
           "description": "With zig-zag cuts",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "ZigZagMode",
           "package": "yhccore",
@@ -2132,6 +2298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e{...}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "braces",
           "package": "yhccore",
@@ -2142,6 +2309,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "braces",
           "normalized": "Doc-\u003eDoc",
@@ -2157,6 +2325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e[...]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "brackets",
           "package": "yhccore",
@@ -2167,6 +2336,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "brackets",
           "normalized": "Doc-\u003eDoc",
@@ -2182,6 +2352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither \u003ccode\u003e\u003ca\u003ehcat\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003evcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "cat",
           "package": "yhccore",
@@ -2192,6 +2363,7 @@
         "index": {
           "description": "Either hcat or vcat",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "cat",
           "normalized": "[Doc]-\u003eDoc",
@@ -2207,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA document of height and width 1, containing a literal character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "char",
           "package": "yhccore",
@@ -2217,6 +2390,7 @@
         "index": {
           "description": "document of height and width containing literal character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "char",
           "normalized": "Char-\u003eDoc",
@@ -2232,6 +2406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e:\u003c/code\u003e character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "colon",
           "package": "yhccore",
@@ -2242,6 +2417,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "colon",
           "package": "yhccore",
@@ -2255,6 +2431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ',' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "comma",
           "package": "yhccore",
@@ -2265,6 +2442,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "comma",
           "package": "yhccore",
@@ -2278,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003edouble n = text (show n)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "double",
           "package": "yhccore",
@@ -2288,6 +2467,7 @@
         "index": {
           "description": "double text show",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "double",
           "normalized": "Double-\u003eDoc",
@@ -2303,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e\"...\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "doubleQuotes",
           "package": "yhccore",
@@ -2313,6 +2494,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "doubleQuotes",
           "normalized": "Doc-\u003eDoc",
@@ -2329,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty document, with no height and no width.\n \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e is the identity for \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e$+$\u003c/a\u003e\u003c/code\u003e, and anywhere\n in the argument list for \u003ccode\u003e\u003ca\u003esep\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ehcat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ehsep\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003evcat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efcat\u003c/a\u003e\u003c/code\u003e etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "empty",
           "package": "yhccore",
@@ -2339,6 +2522,7 @@
         "index": {
           "description": "The empty document with no height and no width empty is the identity for and and anywhere in the argument list for sep hcat hsep vcat fcat etc",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "empty",
           "package": "yhccore",
@@ -2352,6 +2536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '=' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "equals",
           "package": "yhccore",
@@ -2362,6 +2547,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "equals",
           "package": "yhccore",
@@ -2375,6 +2561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Paragraph fill\" version of \u003ccode\u003e\u003ca\u003ecat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "fcat",
           "package": "yhccore",
@@ -2385,6 +2572,7 @@
         "index": {
           "description": "Paragraph fill version of cat",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "fcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -2400,6 +2588,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003efloat n = text (show n)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "float",
           "package": "yhccore",
@@ -2410,6 +2599,7 @@
         "index": {
           "description": "float text show",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "float",
           "normalized": "Float-\u003eDoc",
@@ -2425,6 +2615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Paragraph fill\" version of \u003ccode\u003e\u003ca\u003esep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "fsep",
           "package": "yhccore",
@@ -2435,6 +2626,7 @@
         "index": {
           "description": "Paragraph fill version of sep",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "fsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -2450,6 +2642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe general rendering interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "fullRender",
           "package": "yhccore",
@@ -2459,6 +2652,7 @@
         "index": {
           "description": "The general rendering interface",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "fullRender",
           "normalized": "Mode-\u003eInt-\u003eFloat-\u003e(TextDetails-\u003ea-\u003ea)-\u003ea-\u003eDoc-\u003ea",
@@ -2475,6 +2669,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ehang d1 n d2 = sep [d1, nest n d2]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "hang",
           "package": "yhccore",
@@ -2485,6 +2680,7 @@
         "index": {
           "description": "hang d1 d2 sep d1 nest d2",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "hang",
           "normalized": "Doc-\u003eInt-\u003eDoc-\u003eDoc",
@@ -2500,6 +2696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "hcat",
           "package": "yhccore",
@@ -2510,6 +2707,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "hcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -2525,6 +2723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "hsep",
           "package": "yhccore",
@@ -2535,6 +2734,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "hsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -2550,6 +2750,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eint n = text (show n)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "int",
           "package": "yhccore",
@@ -2560,6 +2761,7 @@
         "index": {
           "description": "int text show",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "int",
           "normalized": "Int-\u003eDoc",
@@ -2575,6 +2777,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003einteger n = text (show n)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "integer",
           "package": "yhccore",
@@ -2585,6 +2788,7 @@
         "index": {
           "description": "integer text show",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "integer",
           "normalized": "Integer-\u003eDoc",
@@ -2600,6 +2804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the document is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "isEmpty",
           "package": "yhccore",
@@ -2610,6 +2815,7 @@
         "index": {
           "description": "Returns True if the document is empty",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "isEmpty",
           "normalized": "Doc-\u003eBool",
@@ -2626,6 +2832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '{' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "lbrace",
           "package": "yhccore",
@@ -2636,6 +2843,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "lbrace",
           "package": "yhccore",
@@ -2649,6 +2857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '[' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "lbrack",
           "package": "yhccore",
@@ -2659,6 +2868,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "lbrack",
           "package": "yhccore",
@@ -2672,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of line, in chars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "lineLength",
           "package": "yhccore",
@@ -2682,6 +2893,7 @@
         "index": {
           "description": "Length of line in chars",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "lineLength",
           "package": "yhccore",
@@ -2696,6 +2908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '(' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "lparen",
           "package": "yhccore",
@@ -2706,6 +2919,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "lparen",
           "package": "yhccore",
@@ -2719,6 +2933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rendering mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "mode",
           "package": "yhccore",
@@ -2729,6 +2944,7 @@
         "index": {
           "description": "The rendering mode",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "mode",
           "package": "yhccore",
@@ -2742,6 +2958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNest (or indent) a document by a given number of positions\n (which may also be negative).  \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e satisfies the laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e 0 x = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k (\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k' x) = \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e (k+k') x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k (x \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e y) = \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k z \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k y\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k (x \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e y) = \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k x \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k y\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k y = x \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e, if \u003ccode\u003ex\u003c/code\u003e non-empty\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe side condition on the last law is needed because\n \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e is a left identity for \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "nest",
           "package": "yhccore",
@@ -2752,6 +2969,7 @@
         "index": {
           "description": "Nest or indent document by given number of positions which may also be negative nest satisfies the laws nest nest nest nest nest nest nest nest nest nest nest empty empty nest if non-empty The side condition on the last law is needed because empty is left identity for",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "nest",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -2767,6 +2985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e(...)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "parens",
           "package": "yhccore",
@@ -2777,6 +2996,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "parens",
           "normalized": "Doc-\u003eDoc",
@@ -2792,6 +3012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn obsolete function, now identical to \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "ptext",
           "package": "yhccore",
@@ -2802,6 +3023,7 @@
         "index": {
           "description": "An obsolete function now identical to text",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "ptext",
           "normalized": "String-\u003eDoc",
@@ -2817,6 +3039,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003epunctuate p [d1, ... dn] = [d1 \u003c\u003e p, d2 \u003c\u003e p, ... dn-1 \u003c\u003e p, dn]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "punctuate",
           "package": "yhccore",
@@ -2827,6 +3050,7 @@
         "index": {
           "description": "punctuate d1 dn d1 d2 dn-1 dn",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "punctuate",
           "normalized": "Doc-\u003e[Doc]-\u003e[Doc]",
@@ -2842,6 +3066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e'...'\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "quotes",
           "package": "yhccore",
@@ -2852,6 +3077,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "quotes",
           "normalized": "Doc-\u003eDoc",
@@ -2867,6 +3093,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003erational n = text (show n)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "rational",
           "package": "yhccore",
@@ -2877,6 +3104,7 @@
         "index": {
           "description": "rational text show",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "rational",
           "normalized": "Rational-\u003eDoc",
@@ -2892,6 +3120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '}' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "rbrace",
           "package": "yhccore",
@@ -2902,6 +3131,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "rbrace",
           "package": "yhccore",
@@ -2915,6 +3145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ']' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "rbrack",
           "package": "yhccore",
@@ -2925,6 +3156,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "rbrack",
           "package": "yhccore",
@@ -2938,6 +3170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the document as a string using the default \u003ccode\u003e\u003ca\u003estyle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "render",
           "package": "yhccore",
@@ -2948,6 +3181,7 @@
         "index": {
           "description": "Renders the document as string using the default style",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "render",
           "normalized": "Doc-\u003eString",
@@ -2963,6 +3197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the document as a string using a specified style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "renderStyle",
           "package": "yhccore",
@@ -2973,6 +3208,7 @@
         "index": {
           "description": "Render the document as string using specified style",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "renderStyle",
           "normalized": "Style-\u003eDoc-\u003eString",
@@ -2989,6 +3225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRatio of ribbon length to line length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "ribbonsPerLine",
           "package": "yhccore",
@@ -2999,6 +3236,7 @@
         "index": {
           "description": "Ratio of ribbon length to line length",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "ribbonsPerLine",
           "package": "yhccore",
@@ -3013,6 +3251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ')' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "rparen",
           "package": "yhccore",
@@ -3023,6 +3262,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "rparen",
           "package": "yhccore",
@@ -3036,6 +3276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ';' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "semi",
           "package": "yhccore",
@@ -3046,6 +3287,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "semi",
           "package": "yhccore",
@@ -3059,6 +3301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither \u003ccode\u003e\u003ca\u003ehsep\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003evcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "sep",
           "package": "yhccore",
@@ -3069,6 +3312,7 @@
         "index": {
           "description": "Either hsep or vcat",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "sep",
           "normalized": "[Doc]-\u003eDoc",
@@ -3084,6 +3328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "space",
           "package": "yhccore",
@@ -3094,6 +3339,7 @@
         "index": {
           "description": "space character",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "space",
           "package": "yhccore",
@@ -3107,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default style (\u003ccode\u003emode=PageMode, lineLength=100, ribbonsPerLine=1.5\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "style",
           "package": "yhccore",
@@ -3117,6 +3364,7 @@
         "index": {
           "description": "The default style mode PageMode lineLength ribbonsPerLine",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "style",
           "package": "yhccore",
@@ -3130,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA document of height 1 containing a literal string.\n \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e satisfies the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e s \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e t = \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e (s\u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003et)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e \"\" \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e x = x\u003c/code\u003e, if \u003ccode\u003ex\u003c/code\u003e non-empty\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe side condition on the last law is necessary because \u003ccode\u003e\u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e \"\"\u003c/code\u003e\n has height 1, while \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e has no height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "text",
           "package": "yhccore",
@@ -3140,6 +3389,7 @@
         "index": {
           "description": "document of height containing literal string text satisfies the following laws text text text text if non-empty The side condition on the last law is necessary because text has height while empty has no height",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "text",
           "normalized": "String-\u003eDoc",
@@ -3155,6 +3405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "vcat",
           "package": "yhccore",
@@ -3165,6 +3416,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "vcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -3180,6 +3432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome text, but without any width. Use for non-printing text\n such as a HTML or Latex tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "zeroText",
           "package": "yhccore",
@@ -3190,6 +3443,7 @@
         "index": {
           "description": "Some text but without any width Use for non-printing text such as HTML or Latex tags",
           "hierarchy": "Yhc Core Internal HughesPJ",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.HughesPJ",
           "name": "zeroText",
           "normalized": "String-\u003eDoc",
@@ -3205,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Play",
           "name": "Play",
           "package": "yhccore",
@@ -3213,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Play",
           "name": "Play",
           "package": "yhccore",
@@ -3226,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Play",
           "name": "Play",
           "package": "yhccore",
@@ -3234,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Play",
           "name": "Play",
           "package": "yhccore",
@@ -3247,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Play",
           "name": "allChildren",
           "package": "yhccore",
@@ -3256,6 +3515,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Play",
           "name": "allChildren",
           "normalized": "a-\u003e[a]",
@@ -3271,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Play",
           "name": "getChildren",
           "package": "yhccore",
@@ -3280,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Play",
           "name": "getChildren",
           "normalized": "a-\u003e[a]",
@@ -3295,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Play",
           "name": "mapOver",
           "package": "yhccore",
@@ -3304,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Play",
           "name": "mapOver",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -3319,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Play",
           "name": "mapUnder",
           "package": "yhccore",
@@ -3328,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Play",
           "name": "mapUnder",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -3343,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Play",
           "name": "mapUnderM",
           "package": "yhccore",
@@ -3352,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Play",
           "name": "mapUnderM",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",
@@ -3367,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Internal.Play",
           "name": "setChildren",
           "package": "yhccore",
@@ -3376,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Internal Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Internal.Play",
           "name": "setChildren",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -3391,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant.LambdaLift",
           "name": "LambdaLift",
           "package": "yhccore",
@@ -3399,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Invariant LambdaLift",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant.LambdaLift",
           "name": "LambdaLift",
           "package": "yhccore",
@@ -3412,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant.LambdaLift",
           "name": "coreLambdaLift",
           "package": "yhccore",
@@ -3421,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Invariant LambdaLift",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant.LambdaLift",
           "name": "coreLambdaLift",
           "normalized": "Core-\u003eCore",
@@ -3436,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "Invariant",
           "package": "yhccore",
@@ -3444,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "Invariant",
           "package": "yhccore",
@@ -3458,6 +3734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote, not all combinations are yet implemented - they crash at runtime.\n   If you want any invariant, just email the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "Invariant",
           "package": "yhccore",
@@ -3467,6 +3744,7 @@
         "index": {
           "description": "Note not all combinations are yet implemented they crash at runtime If you want any invariant just email the list",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "Invariant",
           "package": "yhccore",
@@ -3481,6 +3759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow function numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "ConsecutiveFuncs",
           "package": "yhccore",
@@ -3491,6 +3770,7 @@
         "index": {
           "description": "Low function numbers",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "ConsecutiveFuncs",
           "package": "yhccore",
@@ -3505,6 +3785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll CoreCon's must be enclosed in a CoreApp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "CoreAppCon",
           "package": "yhccore",
@@ -3515,6 +3796,7 @@
         "index": {
           "description": "All CoreCon must be enclosed in CoreApp",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "CoreAppCon",
           "package": "yhccore",
@@ -3529,6 +3811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll CoreFun's must be enclosed in a CoreApp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "CoreAppFun",
           "package": "yhccore",
@@ -3539,6 +3822,7 @@
         "index": {
           "description": "All CoreFun must be enclosed in CoreApp",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "CoreAppFun",
           "package": "yhccore",
@@ -3553,6 +3837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll CoreCase's must be on a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "CoreCaseVar",
           "package": "yhccore",
@@ -3563,6 +3848,7 @@
         "index": {
           "description": "All CoreCase must be on variable",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "CoreCaseVar",
           "package": "yhccore",
@@ -3577,6 +3863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll CoreApp CoreFun's must have at most one argument directly present\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "FuncArityAtMostOne",
           "package": "yhccore",
@@ -3587,6 +3874,7 @@
         "index": {
           "description": "All CoreApp CoreFun must have at most one argument directly present",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "FuncArityAtMostOne",
           "package": "yhccore",
@@ -3601,6 +3889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll CoreApp CoreFun's must have exactly one argument present\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "FuncArityExactlyOne",
           "package": "yhccore",
@@ -3611,6 +3900,7 @@
         "index": {
           "description": "All CoreApp CoreFun must have exactly one argument present",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "FuncArityExactlyOne",
           "package": "yhccore",
@@ -3625,6 +3915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll CoreCase's must be on constructors, not constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "NoCaseConst",
           "package": "yhccore",
@@ -3635,6 +3926,7 @@
         "index": {
           "description": "All CoreCase must be on constructors not constants",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "NoCaseConst",
           "package": "yhccore",
@@ -3649,6 +3941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll constructor CoreCase's must not contain a default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "NoCaseDefault",
           "package": "yhccore",
@@ -3659,6 +3952,7 @@
         "index": {
           "description": "All constructor CoreCase must not contain default",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "NoCaseDefault",
           "package": "yhccore",
@@ -3673,6 +3967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll constructor CoreCase defaults must represent at least two constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "NoCaseDefaultOne",
           "package": "yhccore",
@@ -3683,6 +3978,7 @@
         "index": {
           "description": "All constructor CoreCase defaults must represent at least two constructors",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "NoCaseDefaultOne",
           "package": "yhccore",
@@ -3697,6 +3993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CoreLam constructor must not occur.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "NoCoreLam",
           "package": "yhccore",
@@ -3707,6 +4004,7 @@
         "index": {
           "description": "The CoreLam constructor must not occur",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "NoCoreLam",
           "package": "yhccore",
@@ -3721,6 +4019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CoreLet constructor must not occur. Removal reduces sharing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "NoCoreLet",
           "package": "yhccore",
@@ -3731,6 +4030,7 @@
         "index": {
           "description": "The CoreLet constructor must not occur Removal reduces sharing",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "NoCoreLet",
           "package": "yhccore",
@@ -3745,6 +4045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CorePos constructor must not occur.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "NoCorePos",
           "package": "yhccore",
@@ -3755,6 +4056,7 @@
         "index": {
           "description": "The CorePos constructor must not occur",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "NoCorePos",
           "package": "yhccore",
@@ -3769,6 +4071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll CoreApp's must not have an empty argument list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "NoEmptyApp",
           "package": "yhccore",
@@ -3779,6 +4082,7 @@
         "index": {
           "description": "All CoreApp must not have an empty argument list",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "NoEmptyApp",
           "package": "yhccore",
@@ -3793,6 +4097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo partial applications of CoreCon\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "NoPartialAppCon",
           "package": "yhccore",
@@ -3803,6 +4108,7 @@
         "index": {
           "description": "No partial applications of CoreCon",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "NoPartialAppCon",
           "package": "yhccore",
@@ -3817,6 +4123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo partial applications of CoreFun to a CorePrim\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "NoPartialAppPrim",
           "package": "yhccore",
@@ -3827,6 +4134,7 @@
         "index": {
           "description": "No partial applications of CoreFun to CorePrim",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "NoPartialAppPrim",
           "package": "yhccore",
@@ -3841,6 +4149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoreLet's must not be recursive. Removal reduces sharing in limited cases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "NoRecursiveLet",
           "package": "yhccore",
@@ -3851,6 +4160,7 @@
         "index": {
           "description": "CoreLet must not be recursive Removal reduces sharing in limited cases",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "NoRecursiveLet",
           "package": "yhccore",
@@ -3865,6 +4175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique variables in the whole program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "UniqueVarsCore",
           "package": "yhccore",
@@ -3875,6 +4186,7 @@
         "index": {
           "description": "Unique variables in the whole program",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "UniqueVarsCore",
           "package": "yhccore",
@@ -3889,6 +4201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique variables in each function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "UniqueVarsFunc",
           "package": "yhccore",
@@ -3899,6 +4212,7 @@
         "index": {
           "description": "Unique variables in each function",
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "UniqueVarsFunc",
           "package": "yhccore",
@@ -3912,6 +4226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "checkInvariant",
           "package": "yhccore",
@@ -3921,6 +4236,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "checkInvariant",
           "normalized": "Invariant-\u003eCore-\u003eBool",
@@ -3936,6 +4252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "checkInvariants",
           "package": "yhccore",
@@ -3945,6 +4262,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "checkInvariants",
           "normalized": "[Invariant]-\u003eCore-\u003eBool",
@@ -3960,6 +4278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "ensureInvariant",
           "package": "yhccore",
@@ -3969,6 +4288,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "ensureInvariant",
           "normalized": "Invariant-\u003eCore-\u003eCore",
@@ -3984,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Invariant",
           "name": "ensureInvariants",
           "package": "yhccore",
@@ -3993,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Invariant",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Invariant",
           "name": "ensureInvariants",
           "normalized": "[Invariant]-\u003eCore-\u003eCore",
@@ -4008,6 +4330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Overlay",
           "name": "Overlay",
           "package": "yhccore",
@@ -4016,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Overlay",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Overlay",
           "name": "Overlay",
           "package": "yhccore",
@@ -4030,6 +4354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecoreOverlay original overlay, returns original with the overlay substituted in\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Overlay",
           "name": "coreOverlay",
           "package": "yhccore",
@@ -4040,6 +4365,7 @@
         "index": {
           "description": "coreOverlay original overlay returns original with the overlay substituted in",
           "hierarchy": "Yhc Core Overlay",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Overlay",
           "name": "coreOverlay",
           "normalized": "Core-\u003eCore-\u003eCore",
@@ -4055,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Play",
           "name": "Play",
           "package": "yhccore",
@@ -4063,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Play",
           "name": "Play",
           "package": "yhccore",
@@ -4076,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Play",
           "name": "PlayCore",
           "package": "yhccore",
@@ -4084,6 +4413,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Play",
           "name": "PlayCore",
           "package": "yhccore",
@@ -4097,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Play",
           "name": "allCore",
           "package": "yhccore",
@@ -4106,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Play",
           "name": "allCore",
           "normalized": "a-\u003e[CoreExpr]",
@@ -4122,6 +4454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the variables in a CoreExpr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Play",
           "name": "allCoreVar",
           "package": "yhccore",
@@ -4132,6 +4465,7 @@
         "index": {
           "description": "All the variables in CoreExpr",
           "hierarchy": "Yhc Core Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Play",
           "name": "allCoreVar",
           "normalized": "CoreExpr-\u003e[String]",
@@ -4147,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Play",
           "name": "getChildrenCore",
           "package": "yhccore",
@@ -4156,6 +4491,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Play",
           "name": "getChildrenCore",
           "normalized": "a-\u003e[CoreExpr]",
@@ -4171,6 +4507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Play",
           "name": "mapOverCore",
           "package": "yhccore",
@@ -4180,6 +4517,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Play",
           "name": "mapOverCore",
           "normalized": "(CoreExpr-\u003eCoreExpr)-\u003ea-\u003ea",
@@ -4195,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Play",
           "name": "mapUnderCore",
           "package": "yhccore",
@@ -4204,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Play",
           "name": "mapUnderCore",
           "normalized": "(CoreExpr-\u003eCoreExpr)-\u003ea-\u003ea",
@@ -4219,6 +4559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Play",
           "name": "mapUnderCoreM",
           "package": "yhccore",
@@ -4228,6 +4569,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Play",
           "name": "mapUnderCoreM",
           "normalized": "(CoreExpr-\u003ea CoreExpr)-\u003eb-\u003ea b",
@@ -4243,6 +4585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Play",
           "name": "setChildrenCore",
           "package": "yhccore",
@@ -4252,6 +4595,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Play",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Play",
           "name": "setChildrenCore",
           "normalized": "a-\u003e[CoreExpr]-\u003ea",
@@ -4267,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "Prim",
           "package": "yhccore",
@@ -4275,6 +4620,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "Prim",
           "package": "yhccore",
@@ -4288,6 +4634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "Prim",
           "package": "yhccore",
@@ -4296,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "Prim",
           "package": "yhccore",
@@ -4309,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimOp",
           "package": "yhccore",
@@ -4317,6 +4666,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimOp",
           "package": "yhccore",
@@ -4330,6 +4680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimType",
           "package": "yhccore",
@@ -4338,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimType",
           "package": "yhccore",
@@ -4351,6 +4703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "Prim",
           "package": "yhccore",
@@ -4360,6 +4713,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "Prim",
           "package": "yhccore",
@@ -4373,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimAbs",
           "package": "yhccore",
@@ -4382,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimAbs",
           "package": "yhccore",
@@ -4395,6 +4751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimAdd",
           "package": "yhccore",
@@ -4404,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimAdd",
           "package": "yhccore",
@@ -4417,6 +4775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimBool",
           "package": "yhccore",
@@ -4426,6 +4785,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimBool",
           "package": "yhccore",
@@ -4439,6 +4799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimCast",
           "package": "yhccore",
@@ -4448,6 +4809,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimCast",
           "package": "yhccore",
@@ -4461,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimChar",
           "package": "yhccore",
@@ -4470,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimChar",
           "package": "yhccore",
@@ -4483,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimDiv",
           "package": "yhccore",
@@ -4492,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimDiv",
           "package": "yhccore",
@@ -4505,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimDouble",
           "package": "yhccore",
@@ -4514,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimDouble",
           "package": "yhccore",
@@ -4527,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimEq",
           "package": "yhccore",
@@ -4536,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimEq",
           "package": "yhccore",
@@ -4549,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimFloat",
           "package": "yhccore",
@@ -4558,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimFloat",
           "package": "yhccore",
@@ -4571,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimGe",
           "package": "yhccore",
@@ -4580,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimGe",
           "package": "yhccore",
@@ -4593,6 +4967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimGt",
           "package": "yhccore",
@@ -4602,6 +4977,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimGt",
           "package": "yhccore",
@@ -4615,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimHaskell",
           "package": "yhccore",
@@ -4624,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimHaskell",
           "package": "yhccore",
@@ -4637,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimIO",
           "package": "yhccore",
@@ -4646,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimIO",
           "package": "yhccore",
@@ -4659,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimInt",
           "package": "yhccore",
@@ -4668,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimInt",
           "package": "yhccore",
@@ -4681,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimInteger",
           "package": "yhccore",
@@ -4690,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimInteger",
           "package": "yhccore",
@@ -4703,6 +5087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimLe",
           "package": "yhccore",
@@ -4712,6 +5097,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimLe",
           "package": "yhccore",
@@ -4725,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimLt",
           "package": "yhccore",
@@ -4734,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimLt",
           "package": "yhccore",
@@ -4747,6 +5135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimMul",
           "package": "yhccore",
@@ -4756,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimMul",
           "package": "yhccore",
@@ -4769,6 +5159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimNe",
           "package": "yhccore",
@@ -4778,6 +5169,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimNe",
           "package": "yhccore",
@@ -4791,6 +5183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimNeg",
           "package": "yhccore",
@@ -4800,6 +5193,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimNeg",
           "package": "yhccore",
@@ -4813,6 +5207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimOrd",
           "package": "yhccore",
@@ -4822,6 +5217,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimOrd",
           "package": "yhccore",
@@ -4835,6 +5231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimOther",
           "package": "yhccore",
@@ -4844,6 +5241,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimOther",
           "package": "yhccore",
@@ -4857,6 +5255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimQuot",
           "package": "yhccore",
@@ -4866,6 +5265,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimQuot",
           "package": "yhccore",
@@ -4879,6 +5279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimQuotRem",
           "package": "yhccore",
@@ -4888,6 +5289,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimQuotRem",
           "package": "yhccore",
@@ -4901,6 +5303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimRem",
           "package": "yhccore",
@@ -4910,6 +5313,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimRem",
           "package": "yhccore",
@@ -4923,6 +5327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimSeq",
           "package": "yhccore",
@@ -4932,6 +5337,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimSeq",
           "package": "yhccore",
@@ -4945,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimSignum",
           "package": "yhccore",
@@ -4954,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimSignum",
           "package": "yhccore",
@@ -4967,6 +5375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimString",
           "package": "yhccore",
@@ -4976,6 +5385,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimString",
           "package": "yhccore",
@@ -4989,6 +5399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimSub",
           "package": "yhccore",
@@ -4998,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimSub",
           "package": "yhccore",
@@ -5011,6 +5423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimTypeAny",
           "package": "yhccore",
@@ -5020,6 +5433,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimTypeAny",
           "package": "yhccore",
@@ -5033,6 +5447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimTypeHaskell",
           "package": "yhccore",
@@ -5042,6 +5457,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimTypeHaskell",
           "package": "yhccore",
@@ -5055,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "PrimTypeUnknown",
           "package": "yhccore",
@@ -5064,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "PrimTypeUnknown",
           "package": "yhccore",
@@ -5077,6 +5495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "coreBytecodePrims",
           "package": "yhccore",
@@ -5086,6 +5505,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "coreBytecodePrims",
           "normalized": "[Prim]",
@@ -5101,6 +5521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "coreHaskellPrims",
           "package": "yhccore",
@@ -5110,6 +5531,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "coreHaskellPrims",
           "normalized": "[Prim]",
@@ -5125,6 +5547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "coreHaskellTypes",
           "package": "yhccore",
@@ -5134,6 +5557,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "coreHaskellTypes",
           "normalized": "[(String,String)]",
@@ -5149,6 +5573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "corePrim",
           "package": "yhccore",
@@ -5158,6 +5583,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "corePrim",
           "normalized": "String-\u003ePrim",
@@ -5173,6 +5599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "corePrimMaybe",
           "package": "yhccore",
@@ -5182,6 +5609,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "corePrimMaybe",
           "normalized": "String-\u003eMaybe Prim",
@@ -5197,6 +5625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "corePrims",
           "package": "yhccore",
@@ -5206,6 +5635,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "corePrims",
           "normalized": "[Prim]",
@@ -5221,6 +5651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "primArity",
           "package": "yhccore",
@@ -5230,6 +5661,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "primArity",
           "normalized": "Prim-\u003eInt",
@@ -5246,6 +5678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue is strict in argument n, [] is unknown\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "primEval",
           "package": "yhccore",
@@ -5256,6 +5689,7 @@
         "index": {
           "description": "True is strict in argument is unknown",
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "primEval",
           "normalized": "[CoreExpr]-\u003eCoreExpr",
@@ -5271,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "primName",
           "package": "yhccore",
@@ -5280,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "primName",
           "package": "yhccore",
@@ -5293,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "primOp",
           "package": "yhccore",
@@ -5302,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "primOp",
           "package": "yhccore",
@@ -5316,6 +5754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea function signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "primStrict",
           "package": "yhccore",
@@ -5326,6 +5765,7 @@
         "index": {
           "description": "function signature",
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "primStrict",
           "normalized": "[Bool]",
@@ -5341,6 +5781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Prim",
           "name": "primType",
           "package": "yhccore",
@@ -5350,6 +5791,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Prim",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Prim",
           "name": "primType",
           "normalized": "[PrimType]",
@@ -5365,6 +5807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Reachable",
           "name": "Reachable",
           "package": "yhccore",
@@ -5373,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Reachable",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Reachable",
           "name": "Reachable",
           "package": "yhccore",
@@ -5386,6 +5830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Reachable",
           "name": "coreReachable",
           "package": "yhccore",
@@ -5395,6 +5840,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Reachable",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Reachable",
           "name": "coreReachable",
           "normalized": "[CoreFuncName]-\u003eCore-\u003eCore",
@@ -5410,6 +5856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Reachable",
           "name": "coreReachableMap",
           "package": "yhccore",
@@ -5419,6 +5866,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Reachable",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Reachable",
           "name": "coreReachableMap",
           "normalized": "[CoreFuncName]-\u003eCoreFuncMap-\u003eCoreFuncMap",
@@ -5434,6 +5882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.RecursiveLet",
           "name": "RecursiveLet",
           "package": "yhccore",
@@ -5442,6 +5891,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core RecursiveLet",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.RecursiveLet",
           "name": "RecursiveLet",
           "package": "yhccore",
@@ -5456,6 +5906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a CoreLet recursive, i.e. do any of the introduced variables (LHS of bind)\n   also show up in the RHS of bind.\n\u003c/p\u003e\u003cp\u003eReturns False if the expression is not a CoreLet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.RecursiveLet",
           "name": "isCoreLetRec",
           "package": "yhccore",
@@ -5466,6 +5917,7 @@
         "index": {
           "description": "Is CoreLet recursive i.e do any of the introduced variables LHS of bind also show up in the RHS of bind Returns False if the expression is not CoreLet",
           "hierarchy": "Yhc Core RecursiveLet",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.RecursiveLet",
           "name": "isCoreLetRec",
           "normalized": "CoreExpr-\u003eBool",
@@ -5482,6 +5934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce the number of recursive lets, but splitting lets\n   which have recursive bindings, but can be linearised\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.RecursiveLet",
           "name": "reduceRecursiveLet",
           "package": "yhccore",
@@ -5492,6 +5945,7 @@
         "index": {
           "description": "Reduce the number of recursive lets but splitting lets which have recursive bindings but can be linearised",
           "hierarchy": "Yhc Core RecursiveLet",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.RecursiveLet",
           "name": "reduceRecursiveLet",
           "normalized": "Core-\u003eCore",
@@ -5508,6 +5962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove recursive lets\n\u003c/p\u003e\u003cp\u003eLet's are rearranged so a variable is not used in the defining block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.RecursiveLet",
           "name": "removeRecursiveLet",
           "package": "yhccore",
@@ -5518,6 +5973,7 @@
         "index": {
           "description": "Remove recursive lets Let are rearranged so variable is not used in the defining block",
           "hierarchy": "Yhc Core RecursiveLet",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.RecursiveLet",
           "name": "removeRecursiveLet",
           "normalized": "Core-\u003eCore",
@@ -5533,6 +5989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Saturated",
           "name": "Saturated",
           "package": "yhccore",
@@ -5541,6 +5998,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Saturated",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Saturated",
           "name": "Saturated",
           "package": "yhccore",
@@ -5555,6 +6013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an expr (normally a \u003ccode\u003e\u003ca\u003eCoreApp\u003c/a\u003e\u003c/code\u003e)\n   say if it is saturated or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Saturated",
           "name": "coreSaturated",
           "package": "yhccore",
@@ -5565,6 +6024,7 @@
         "index": {
           "description": "Given an expr normally CoreApp say if it is saturated or not",
           "hierarchy": "Yhc Core Saturated",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Saturated",
           "name": "coreSaturated",
           "normalized": "Core-\u003eCoreExpr-\u003eBool",
@@ -5580,6 +6040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Serialise",
           "name": "Serialise",
           "package": "yhccore",
@@ -5588,6 +6049,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Serialise",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Serialise",
           "name": "Serialise",
           "package": "yhccore",
@@ -5601,6 +6063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Serialise",
           "name": "loadCore",
           "package": "yhccore",
@@ -5610,6 +6073,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Serialise",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Serialise",
           "name": "loadCore",
           "normalized": "FilePath-\u003eIO Core",
@@ -5625,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Serialise",
           "name": "saveCore",
           "package": "yhccore",
@@ -5634,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Serialise",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Serialise",
           "name": "saveCore",
           "normalized": "FilePath-\u003eCore-\u003eIO()",
@@ -5649,6 +6115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Show",
           "name": "Show",
           "package": "yhccore",
@@ -5657,6 +6124,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Show",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Show",
           "name": "Show",
           "package": "yhccore",
@@ -5670,6 +6138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Show",
           "name": "isCoreOperator",
           "package": "yhccore",
@@ -5679,6 +6148,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Show",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Show",
           "name": "isCoreOperator",
           "normalized": "String-\u003eBool",
@@ -5695,6 +6165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a CoreExpr, but with brackets if needed\n   so the result is a group. Does not bracket\n   simple variables or constants etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Show",
           "name": "showCoreExprGroup",
           "package": "yhccore",
@@ -5705,6 +6176,7 @@
         "index": {
           "description": "Show CoreExpr but with brackets if needed so the result is group Does not bracket simple variables or constants etc",
           "hierarchy": "Yhc Core Show",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Show",
           "name": "showCoreExprGroup",
           "normalized": "CoreExpr-\u003eString",
@@ -5721,6 +6193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShowRaw is intended for debugging, to print a rather complete\n    syntax tree. The basic rule is that every constructor MUST appear\n    visibly in the output. For example, \u003ccode\u003eshow (CoreApp x []) == show x\u003c/code\u003e,\n    but \u003ccode\u003e(showRaw x == showRaw y) ==\u003e (x == y)\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.ShowRaw",
           "name": "ShowRaw",
           "package": "yhccore",
@@ -5730,6 +6203,7 @@
         "index": {
           "description": "ShowRaw is intended for debugging to print rather complete syntax tree The basic rule is that every constructor MUST appear visibly in the output For example show CoreApp show but showRaw showRaw",
           "hierarchy": "Yhc Core ShowRaw",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.ShowRaw",
           "name": "ShowRaw",
           "package": "yhccore",
@@ -5743,6 +6217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.ShowRaw",
           "name": "ShowRaw",
           "package": "yhccore",
@@ -5751,6 +6226,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core ShowRaw",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.ShowRaw",
           "name": "ShowRaw",
           "package": "yhccore",
@@ -5764,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.ShowRaw",
           "name": "showRaw",
           "package": "yhccore",
@@ -5773,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core ShowRaw",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.ShowRaw",
           "name": "showRaw",
           "normalized": "a-\u003eString",
@@ -5788,6 +6266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Simplify",
           "name": "Simplify",
           "package": "yhccore",
@@ -5796,6 +6275,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Simplify",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Simplify",
           "name": "Simplify",
           "package": "yhccore",
@@ -5809,6 +6289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplify",
           "package": "yhccore",
@@ -5818,6 +6299,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Simplify",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplify",
           "normalized": "a-\u003ea",
@@ -5834,6 +6316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the Case (Case ..) rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyCaseCase",
           "package": "yhccore",
@@ -5844,6 +6327,7 @@
         "index": {
           "description": "Apply the Case Case rule",
           "hierarchy": "Yhc Core Simplify",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyCaseCase",
           "normalized": "CoreExpr-\u003eCoreExpr",
@@ -5860,6 +6344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the Case (CoreCon ..) rule\n   This rule has a serious sharing bug (doh!)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyCaseCon",
           "package": "yhccore",
@@ -5870,6 +6355,7 @@
         "index": {
           "description": "Apply the Case CoreCon rule This rule has serious sharing bug doh",
           "hierarchy": "Yhc Core Simplify",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyCaseCon",
           "normalized": "CoreExpr-\u003eCoreExpr",
@@ -5886,6 +6372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the Case (Let ..) rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyCaseLet",
           "package": "yhccore",
@@ -5896,6 +6383,7 @@
         "index": {
           "description": "Apply the Case Let rule",
           "hierarchy": "Yhc Core Simplify",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyCaseLet",
           "normalized": "CoreExpr-\u003eCoreExpr",
@@ -5912,6 +6400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplify a single Core Expr.\n\u003c/p\u003e\u003cp\u003ePerforms NO inlining, guaranteed to run in same or better\n   space and time. May increase code size.\n\u003c/p\u003e\u003cp\u003eBugs lurk here, with inadvertant free variable capture. Move to\n   a proper free variable monad and a guarantee of uniqueness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyExpr",
           "package": "yhccore",
@@ -5922,6 +6411,7 @@
         "index": {
           "description": "Simplify single Core Expr Performs NO inlining guaranteed to run in same or better space and time May increase code size Bugs lurk here with inadvertant free variable capture Move to proper free variable monad and guarantee of uniqueness",
           "hierarchy": "Yhc Core Simplify",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyExpr",
           "normalized": "CoreExpr-\u003eCoreExpr",
@@ -5938,6 +6428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecondition:\n    All variables must be unique\n\u003c/p\u003e\u003cp\u003eThe following patterns must not occur:\n\u003c/p\u003e\u003cp\u003eCoreApp _ []\n    CoreLet [] _\n    CoreLam [] _\n    CorePos _ _\n\u003c/p\u003e\u003cp\u003eCoreCase on _ =\u003e on \u003ccode\u003e\u003ca\u003enotElem\u003c/a\u003e\u003c/code\u003e {CoreCon _, CoreApp (CoreCon _) _, CoreLet _ _, CoreCase _ _}\n    CoreApp x _ =\u003e x \u003ccode\u003e\u003ca\u003enotElem\u003c/a\u003e\u003c/code\u003e {CoreApp _ _, CoreLet _ _, CoreCase _ _, CoreLam _ _}\n    CoreLet bind _ =\u003e all (map snd bind) \u003ccode\u003e\u003ca\u003enotElem\u003c/a\u003e\u003c/code\u003e {CoreLet _ _, CoreVar _}\n\u003c/p\u003e\u003cp\u003eThe following should be applied if possible (and not breaking sharing):\n\u003c/p\u003e\u003cp\u003eCoreLet bind x =\u003e replaceFreeVars bind x\n    CoreLet (CoreCase x alts) =\u003e CoreCase x (CoreLet inside each alt)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyExprUnique",
           "package": "yhccore",
@@ -5948,6 +6439,7 @@
         "index": {
           "description": "Precondition All variables must be unique The following patterns must not occur CoreApp CoreLet CoreLam CorePos CoreCase on on notElem CoreCon CoreApp CoreCon CoreLet CoreCase CoreApp notElem CoreApp CoreLet CoreCase CoreLam CoreLet bind all map snd bind notElem CoreLet CoreVar The following should be applied if possible and not breaking sharing CoreLet bind replaceFreeVars bind CoreLet CoreCase alts CoreCase CoreLet inside each alt",
           "hierarchy": "Yhc Core Simplify",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyExprUnique",
           "normalized": "CoreExpr-\u003ea CoreExpr",
@@ -5964,6 +6456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSismplify in an extensible manner.\n\u003c/p\u003e\u003cpre\u003emyfunc retransform\u003c/pre\u003e\u003cp\u003eYou should invoke retransform on all constructors you create.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyExprUniqueExt",
           "package": "yhccore",
@@ -5974,6 +6467,7 @@
         "index": {
           "description": "Sismplify in an extensible manner myfunc retransform You should invoke retransform on all constructors you create",
           "hierarchy": "Yhc Core Simplify",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Simplify",
           "name": "coreSimplifyExprUniqueExt",
           "normalized": "((CoreExpr-\u003ea CoreExpr)-\u003eCoreExpr-\u003ea CoreExpr)-\u003eCoreExpr-\u003ea CoreExpr",
@@ -5989,6 +6483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Strictness",
           "name": "Strictness",
           "package": "yhccore",
@@ -5997,6 +6492,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Strictness",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Strictness",
           "name": "Strictness",
           "package": "yhccore",
@@ -6011,6 +6507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a function, return a list of arguments.\n   True is strict in that argument, False is not.\n   [] is unknown strictness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Strictness",
           "name": "coreStrictness",
           "package": "yhccore",
@@ -6021,6 +6518,7 @@
         "index": {
           "description": "Given function return list of arguments True is strict in that argument False is not is unknown strictness",
           "hierarchy": "Yhc Core Strictness",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Strictness",
           "name": "coreStrictness",
           "normalized": "Core-\u003eCoreFuncName-\u003e[Bool]",
@@ -6036,6 +6534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "Type",
           "package": "yhccore",
@@ -6044,6 +6543,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "Type",
           "package": "yhccore",
@@ -6057,6 +6557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "Core",
           "package": "yhccore",
@@ -6065,6 +6566,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "Core",
           "package": "yhccore",
@@ -6078,6 +6580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreCtor",
           "package": "yhccore",
@@ -6086,6 +6589,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreCtor",
           "package": "yhccore",
@@ -6099,6 +6603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreCtorName",
           "package": "yhccore",
@@ -6107,6 +6612,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreCtorName",
           "package": "yhccore",
@@ -6120,6 +6626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreData",
           "package": "yhccore",
@@ -6128,6 +6635,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreData",
           "package": "yhccore",
@@ -6141,6 +6649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreDataName",
           "package": "yhccore",
@@ -6149,6 +6658,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreDataName",
           "package": "yhccore",
@@ -6162,6 +6672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreExpr",
           "package": "yhccore",
@@ -6170,6 +6681,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreExpr",
           "package": "yhccore",
@@ -6183,6 +6695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreFieldName",
           "package": "yhccore",
@@ -6191,6 +6704,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreFieldName",
           "package": "yhccore",
@@ -6204,6 +6718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreFunc",
           "package": "yhccore",
@@ -6212,6 +6727,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreFunc",
           "package": "yhccore",
@@ -6225,6 +6741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreFuncMap",
           "package": "yhccore",
@@ -6233,6 +6750,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreFuncMap",
           "package": "yhccore",
@@ -6246,6 +6764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreFuncName",
           "package": "yhccore",
@@ -6254,6 +6773,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreFuncName",
           "package": "yhccore",
@@ -6267,6 +6787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreLit",
           "package": "yhccore",
@@ -6275,6 +6796,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreLit",
           "package": "yhccore",
@@ -6288,6 +6810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CorePat",
           "package": "yhccore",
@@ -6296,6 +6819,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CorePat",
           "package": "yhccore",
@@ -6309,6 +6833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreVarName",
           "package": "yhccore",
@@ -6317,6 +6842,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreVarName",
           "package": "yhccore",
@@ -6330,6 +6856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "Core",
           "package": "yhccore",
@@ -6339,6 +6866,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "Core",
           "package": "yhccore",
@@ -6352,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreApp",
           "package": "yhccore",
@@ -6361,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreApp",
           "normalized": "CoreApp CoreExpr[CoreExpr]",
@@ -6376,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreCase",
           "package": "yhccore",
@@ -6385,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreCase",
           "normalized": "CoreCase CoreExpr[(CorePat,CoreExpr)]",
@@ -6400,6 +6932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreChr",
           "package": "yhccore",
@@ -6409,6 +6942,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreChr",
           "package": "yhccore",
@@ -6422,6 +6956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreCon",
           "package": "yhccore",
@@ -6431,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreCon",
           "package": "yhccore",
@@ -6444,6 +6980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreCtor",
           "package": "yhccore",
@@ -6453,6 +6990,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreCtor",
           "package": "yhccore",
@@ -6466,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreData",
           "package": "yhccore",
@@ -6475,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreData",
           "package": "yhccore",
@@ -6488,6 +7028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreDouble",
           "package": "yhccore",
@@ -6497,6 +7038,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreDouble",
           "package": "yhccore",
@@ -6510,6 +7052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreFloat",
           "package": "yhccore",
@@ -6519,6 +7062,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreFloat",
           "package": "yhccore",
@@ -6532,6 +7076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreFun",
           "package": "yhccore",
@@ -6541,6 +7086,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreFun",
           "package": "yhccore",
@@ -6554,6 +7100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreFunc",
           "package": "yhccore",
@@ -6563,6 +7110,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreFunc",
           "package": "yhccore",
@@ -6576,6 +7124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreInt",
           "package": "yhccore",
@@ -6585,6 +7134,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreInt",
           "package": "yhccore",
@@ -6598,6 +7148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreInteger",
           "package": "yhccore",
@@ -6607,6 +7158,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreInteger",
           "package": "yhccore",
@@ -6620,6 +7172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreLam",
           "package": "yhccore",
@@ -6629,6 +7182,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreLam",
           "normalized": "CoreLam[CoreVarName]CoreExpr",
@@ -6644,6 +7198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreLet",
           "package": "yhccore",
@@ -6653,6 +7208,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreLet",
           "normalized": "CoreLet[(CoreVarName,CoreExpr)]CoreExpr",
@@ -6668,6 +7224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreLit",
           "package": "yhccore",
@@ -6677,6 +7234,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreLit",
           "package": "yhccore",
@@ -6690,6 +7248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CorePos",
           "package": "yhccore",
@@ -6699,6 +7258,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CorePos",
           "package": "yhccore",
@@ -6712,6 +7272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CorePrim",
           "package": "yhccore",
@@ -6721,6 +7282,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CorePrim",
           "package": "yhccore",
@@ -6734,6 +7296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreStr",
           "package": "yhccore",
@@ -6743,6 +7306,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreStr",
           "package": "yhccore",
@@ -6756,6 +7320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "CoreVar",
           "package": "yhccore",
@@ -6765,6 +7330,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "CoreVar",
           "package": "yhccore",
@@ -6778,6 +7344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "PatCon",
           "package": "yhccore",
@@ -6787,6 +7354,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "PatCon",
           "package": "yhccore",
@@ -6800,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "PatDefault",
           "package": "yhccore",
@@ -6809,6 +7378,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "PatDefault",
           "package": "yhccore",
@@ -6822,6 +7392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "PatLit",
           "package": "yhccore",
@@ -6831,6 +7402,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "PatLit",
           "package": "yhccore",
@@ -6845,6 +7417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a function that operates on bodies, and apply it to a program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "applyBodyCore",
           "package": "yhccore",
@@ -6855,6 +7428,7 @@
         "index": {
           "description": "Take function that operates on bodies and apply it to program",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "applyBodyCore",
           "normalized": "(CoreExpr-\u003eCoreExpr)-\u003eCore-\u003eCore",
@@ -6870,6 +7444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "applyBodyCoreM",
           "package": "yhccore",
@@ -6879,6 +7454,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "applyBodyCoreM",
           "normalized": "(CoreExpr-\u003ea CoreExpr)-\u003eCore-\u003ea Core",
@@ -6895,6 +7471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a function that operates on bodies, and apply it to a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "applyBodyFunc",
           "package": "yhccore",
@@ -6905,6 +7482,7 @@
         "index": {
           "description": "Take function that operates on bodies and apply it to function",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "applyBodyFunc",
           "normalized": "(CoreExpr-\u003eCoreExpr)-\u003eCoreFunc-\u003eCoreFunc",
@@ -6920,6 +7498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "applyCtorCore",
           "package": "yhccore",
@@ -6929,6 +7508,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "applyCtorCore",
           "normalized": "(CoreCtor-\u003eCoreCtor)-\u003eCore-\u003eCore",
@@ -6944,6 +7524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "applyCtorData",
           "package": "yhccore",
@@ -6953,6 +7534,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "applyCtorData",
           "normalized": "(CoreCtor-\u003eCoreCtor)-\u003eCoreData-\u003eCoreData",
@@ -6968,6 +7550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "applyDataCore",
           "package": "yhccore",
@@ -6977,6 +7560,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "applyDataCore",
           "normalized": "(CoreData-\u003eCoreData)-\u003eCore-\u003eCore",
@@ -6993,6 +7577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a function that operates on functions, and apply it to a program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "applyFuncCore",
           "package": "yhccore",
@@ -7003,6 +7588,7 @@
         "index": {
           "description": "Take function that operates on functions and apply it to program",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "applyFuncCore",
           "normalized": "(CoreFunc-\u003eCoreFunc)-\u003eCore-\u003eCore",
@@ -7018,6 +7604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "applyFuncCoreM",
           "package": "yhccore",
@@ -7027,6 +7614,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "applyFuncCoreM",
           "normalized": "(CoreFunc-\u003ea CoreFunc)-\u003eCore-\u003ea Core",
@@ -7042,6 +7630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreApp",
           "package": "yhccore",
@@ -7051,6 +7640,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreApp",
           "normalized": "CoreExpr-\u003e[CoreExpr]-\u003eCoreExpr",
@@ -7066,6 +7656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreCtor",
           "package": "yhccore",
@@ -7075,6 +7666,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreCtor",
           "normalized": "Core-\u003eCoreCtorName-\u003eCoreCtor",
@@ -7090,6 +7682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreCtorData",
           "package": "yhccore",
@@ -7099,6 +7692,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreCtorData",
           "normalized": "Core-\u003eCoreCtorName-\u003eCoreData",
@@ -7115,6 +7709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eCoreData\u003c/a\u003e\u003c/code\u003e from a ctor name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreCtorDataMaybe",
           "package": "yhccore",
@@ -7125,6 +7720,7 @@
         "index": {
           "description": "Get CoreData from ctor name",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreCtorDataMaybe",
           "normalized": "Core-\u003eCoreCtorName-\u003eMaybe CoreData",
@@ -7140,6 +7736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreCtorFields",
           "package": "yhccore",
@@ -7149,6 +7746,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreCtorFields",
           "normalized": "[(String,Maybe CoreFieldName)]",
@@ -7164,6 +7762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreCtorName",
           "package": "yhccore",
@@ -7173,6 +7772,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreCtorName",
           "package": "yhccore",
@@ -7186,6 +7786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreData",
           "package": "yhccore",
@@ -7195,6 +7796,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreData",
           "normalized": "Core-\u003eCoreDataName-\u003eCoreData",
@@ -7210,6 +7812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreDataCtors",
           "package": "yhccore",
@@ -7219,6 +7822,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreDataCtors",
           "normalized": "[CoreCtor]",
@@ -7234,6 +7838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreDataName",
           "package": "yhccore",
@@ -7243,6 +7848,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreDataName",
           "package": "yhccore",
@@ -7257,6 +7863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecan pretty print much nicer, just something that works for now\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreDataTypeJoin",
           "package": "yhccore",
@@ -7267,6 +7874,7 @@
         "index": {
           "description": "can pretty print much nicer just something that works for now",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreDataTypeJoin",
           "normalized": "[String]-\u003eString",
@@ -7283,6 +7891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit up a coreDataType into lexical elements\n   None of the result elements will be space, or blank\n   Some may be \u003ca\u003e(\u003c/a\u003e, \u003ca\u003e)\u003c/a\u003e or \u003ca\u003e!\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreDataTypeSplit",
           "package": "yhccore",
@@ -7293,6 +7902,7 @@
         "index": {
           "description": "Split up coreDataType into lexical elements None of the result elements will be space or blank Some may be or",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreDataTypeSplit",
           "normalized": "String-\u003e[String]",
@@ -7308,6 +7918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreDataTypes",
           "package": "yhccore",
@@ -7317,6 +7928,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreDataTypes",
           "normalized": "[String]",
@@ -7332,6 +7944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreDatas",
           "package": "yhccore",
@@ -7341,6 +7954,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreDatas",
           "normalized": "[CoreData]",
@@ -7356,6 +7970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFieldCtor",
           "package": "yhccore",
@@ -7365,6 +7980,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFieldCtor",
           "normalized": "Core-\u003eCoreFieldName-\u003eCoreCtor",
@@ -7381,6 +7997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eCoreCtor\u003c/a\u003e\u003c/code\u003e from a field name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFieldCtorMaybe",
           "package": "yhccore",
@@ -7391,6 +8008,7 @@
         "index": {
           "description": "Get CoreCtor from field name",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFieldCtorMaybe",
           "normalized": "Core-\u003eCoreFieldName-\u003eMaybe CoreCtor",
@@ -7406,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFieldData",
           "package": "yhccore",
@@ -7415,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFieldData",
           "normalized": "Core-\u003eCoreFieldName-\u003eCoreData",
@@ -7431,6 +8051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eCoreData\u003c/a\u003e\u003c/code\u003e from a field (the snd element of \u003ccode\u003e\u003ca\u003ecoreCtorFields\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFieldDataMaybe",
           "package": "yhccore",
@@ -7441,6 +8062,7 @@
         "index": {
           "description": "Get CoreData from field the snd element of coreCtorFields",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFieldDataMaybe",
           "normalized": "Core-\u003eCoreFieldName-\u003eMaybe CoreData",
@@ -7457,6 +8079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a function from a Core type\n   crashes if the function does not exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFunc",
           "package": "yhccore",
@@ -7467,6 +8090,7 @@
         "index": {
           "description": "Get function from Core type crashes if the function does not exist",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFunc",
           "normalized": "Core-\u003eCoreFuncName-\u003eCoreFunc",
@@ -7482,6 +8106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFuncArgList",
           "package": "yhccore",
@@ -7491,6 +8116,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFuncArgList",
           "normalized": "CoreFunc-\u003e[CoreVarName]",
@@ -7506,6 +8132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFuncArgs",
           "package": "yhccore",
@@ -7515,6 +8142,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFuncArgs",
           "normalized": "[CoreVarName]",
@@ -7530,6 +8158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFuncArity",
           "package": "yhccore",
@@ -7539,6 +8168,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFuncArity",
           "normalized": "CoreFunc-\u003eInt",
@@ -7554,6 +8184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFuncBody",
           "package": "yhccore",
@@ -7563,6 +8194,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFuncBody",
           "package": "yhccore",
@@ -7576,6 +8208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFuncMap",
           "package": "yhccore",
@@ -7585,6 +8218,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFuncMap",
           "normalized": "CoreFuncMap-\u003eCoreFuncName-\u003eCoreFunc",
@@ -7600,6 +8234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFuncMapMaybe",
           "package": "yhccore",
@@ -7609,6 +8244,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFuncMapMaybe",
           "normalized": "CoreFuncMap-\u003eCoreFuncName-\u003eMaybe CoreFunc",
@@ -7625,6 +8261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA non-crashing version of \u003ccode\u003e\u003ca\u003ecoreFunc\u003c/a\u003e\u003c/code\u003e\n   returns Nothing if the function does not exist.\n   If multiple functions with the same name exist, this crashes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFuncMaybe",
           "package": "yhccore",
@@ -7635,6 +8272,7 @@
         "index": {
           "description": "non-crashing version of coreFunc returns Nothing if the function does not exist If multiple functions with the same name exist this crashes",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFuncMaybe",
           "normalized": "Core-\u003eCoreFuncName-\u003eMaybe CoreFunc",
@@ -7650,6 +8288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFuncName",
           "package": "yhccore",
@@ -7659,6 +8298,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFuncName",
           "package": "yhccore",
@@ -7672,6 +8312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreFuncs",
           "package": "yhccore",
@@ -7681,6 +8322,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreFuncs",
           "normalized": "[CoreFunc]",
@@ -7696,6 +8338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreImports",
           "package": "yhccore",
@@ -7705,6 +8348,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreImports",
           "normalized": "[String]",
@@ -7720,6 +8364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreLam",
           "package": "yhccore",
@@ -7729,6 +8374,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreLam",
           "normalized": "[CoreVarName]-\u003eCoreExpr-\u003eCoreExpr",
@@ -7744,6 +8390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreLet",
           "package": "yhccore",
@@ -7753,6 +8400,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreLet",
           "normalized": "[(CoreVarName,CoreExpr)]-\u003eCoreExpr-\u003eCoreExpr",
@@ -7768,6 +8416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "coreName",
           "package": "yhccore",
@@ -7777,6 +8426,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "coreName",
           "package": "yhccore",
@@ -7790,6 +8440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "corePrimArity",
           "package": "yhccore",
@@ -7799,6 +8450,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "corePrimArity",
           "package": "yhccore",
@@ -7812,6 +8464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "corePrimConv",
           "package": "yhccore",
@@ -7821,6 +8474,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "corePrimConv",
           "package": "yhccore",
@@ -7834,6 +8488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "corePrimExternal",
           "package": "yhccore",
@@ -7843,6 +8498,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "corePrimExternal",
           "package": "yhccore",
@@ -7856,6 +8512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "corePrimImport",
           "package": "yhccore",
@@ -7865,6 +8522,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "corePrimImport",
           "package": "yhccore",
@@ -7878,6 +8536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "corePrimTypes",
           "package": "yhccore",
@@ -7887,6 +8546,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "corePrimTypes",
           "normalized": "[String]",
@@ -7903,6 +8563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edrop a module from a Core declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "dropModule",
           "package": "yhccore",
@@ -7913,6 +8574,7 @@
         "index": {
           "description": "drop module from Core declaration",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "dropModule",
           "normalized": "String-\u003eString",
@@ -7928,6 +8590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "exprToPat",
           "package": "yhccore",
@@ -7937,6 +8600,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "exprToPat",
           "normalized": "CoreExpr-\u003eCorePat",
@@ -7952,6 +8616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "fromCoreApp",
           "package": "yhccore",
@@ -7961,6 +8626,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "fromCoreApp",
           "normalized": "CoreExpr-\u003e(CoreExpr,[CoreExpr])",
@@ -7976,6 +8642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "fromCoreCon",
           "package": "yhccore",
@@ -7985,6 +8652,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "fromCoreCon",
           "normalized": "CoreExpr-\u003eString",
@@ -8000,6 +8668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "fromCoreFun",
           "package": "yhccore",
@@ -8009,6 +8678,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "fromCoreFun",
           "normalized": "CoreExpr-\u003eString",
@@ -8024,6 +8694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "fromCoreFuncMap",
           "package": "yhccore",
@@ -8033,6 +8704,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "fromCoreFuncMap",
           "normalized": "Core-\u003eCoreFuncMap-\u003eCore",
@@ -8048,6 +8720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "fromCoreLam",
           "package": "yhccore",
@@ -8057,6 +8730,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "fromCoreLam",
           "normalized": "CoreExpr-\u003e([CoreVarName],CoreExpr)",
@@ -8072,6 +8746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "fromCoreLet",
           "package": "yhccore",
@@ -8081,6 +8756,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "fromCoreLet",
           "normalized": "CoreExpr-\u003e([(CoreVarName,CoreExpr)],CoreExpr)",
@@ -8096,6 +8772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "fromCoreLit",
           "package": "yhccore",
@@ -8105,6 +8782,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "fromCoreLit",
           "normalized": "CoreExpr-\u003eCoreLit",
@@ -8120,6 +8798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "fromCoreVar",
           "package": "yhccore",
@@ -8129,6 +8808,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "fromCoreVar",
           "normalized": "CoreExpr-\u003eString",
@@ -8144,6 +8824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreCase",
           "package": "yhccore",
@@ -8153,6 +8834,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreCase",
           "normalized": "CoreExpr-\u003eBool",
@@ -8168,6 +8850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreChr",
           "package": "yhccore",
@@ -8177,6 +8860,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreChr",
           "normalized": "CoreLit-\u003eBool",
@@ -8192,6 +8876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreCon",
           "package": "yhccore",
@@ -8201,6 +8886,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreCon",
           "normalized": "CoreExpr-\u003eBool",
@@ -8216,6 +8902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreFun",
           "package": "yhccore",
@@ -8225,6 +8912,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreFun",
           "normalized": "CoreExpr-\u003eBool",
@@ -8240,6 +8928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreFunc",
           "package": "yhccore",
@@ -8249,6 +8938,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreFunc",
           "normalized": "CoreFunc-\u003eBool",
@@ -8264,6 +8954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreInt",
           "package": "yhccore",
@@ -8273,6 +8964,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreInt",
           "normalized": "CoreLit-\u003eBool",
@@ -8288,6 +8980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreLam",
           "package": "yhccore",
@@ -8297,6 +8990,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreLam",
           "normalized": "CoreExpr-\u003eBool",
@@ -8312,6 +9006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreLet",
           "package": "yhccore",
@@ -8321,6 +9016,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreLet",
           "normalized": "CoreExpr-\u003eBool",
@@ -8336,6 +9032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreLit",
           "package": "yhccore",
@@ -8345,6 +9042,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreLit",
           "normalized": "CoreExpr-\u003eBool",
@@ -8361,6 +9059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true for constants that take a small, bounded\n amount of space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreLitSmall",
           "package": "yhccore",
@@ -8371,6 +9070,7 @@
         "index": {
           "description": "Returns true for constants that take small bounded amount of space",
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreLitSmall",
           "normalized": "CoreLit-\u003eBool",
@@ -8386,6 +9086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCorePos",
           "package": "yhccore",
@@ -8395,6 +9096,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCorePos",
           "normalized": "CoreExpr-\u003eBool",
@@ -8410,6 +9112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCorePrim",
           "package": "yhccore",
@@ -8419,6 +9122,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCorePrim",
           "normalized": "CoreFunc-\u003eBool",
@@ -8434,6 +9138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreStr",
           "package": "yhccore",
@@ -8443,6 +9148,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreStr",
           "normalized": "CoreLit-\u003eBool",
@@ -8458,6 +9164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isCoreVar",
           "package": "yhccore",
@@ -8467,6 +9174,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isCoreVar",
           "normalized": "CoreExpr-\u003eBool",
@@ -8482,6 +9190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isPatCon",
           "package": "yhccore",
@@ -8491,6 +9200,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isPatCon",
           "normalized": "CorePat-\u003eBool",
@@ -8506,6 +9216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isPatDefault",
           "package": "yhccore",
@@ -8515,6 +9226,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isPatDefault",
           "normalized": "CorePat-\u003eBool",
@@ -8530,6 +9242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "isPatLit",
           "package": "yhccore",
@@ -8539,6 +9252,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "isPatLit",
           "normalized": "CorePat-\u003eBool",
@@ -8554,6 +9268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "patCon",
           "package": "yhccore",
@@ -8563,6 +9278,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "patCon",
           "package": "yhccore",
@@ -8576,6 +9292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "patLit",
           "package": "yhccore",
@@ -8585,6 +9302,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "patLit",
           "package": "yhccore",
@@ -8598,6 +9316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "patToExpr",
           "package": "yhccore",
@@ -8607,6 +9326,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "patToExpr",
           "normalized": "CorePat-\u003eCoreExpr",
@@ -8622,6 +9342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "patVars",
           "package": "yhccore",
@@ -8631,6 +9352,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "patVars",
           "normalized": "[CoreVarName]",
@@ -8646,6 +9368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "remCorePos",
           "package": "yhccore",
@@ -8655,6 +9378,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "remCorePos",
           "normalized": "CoreExpr-\u003eCoreExpr",
@@ -8670,6 +9394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Type",
           "name": "toCoreFuncMap",
           "package": "yhccore",
@@ -8679,6 +9404,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Type",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Type",
           "name": "toCoreFuncMap",
           "normalized": "Core-\u003eCoreFuncMap",
@@ -8694,6 +9420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Uniplate",
           "name": "Uniplate",
           "package": "yhccore",
@@ -8702,6 +9429,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Uniplate",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Uniplate",
           "name": "Uniplate",
           "package": "yhccore",
@@ -8715,6 +9443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Uniplate",
           "name": "UniplateExpr",
           "package": "yhccore",
@@ -8723,6 +9452,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Uniplate",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Uniplate",
           "name": "UniplateExpr",
           "package": "yhccore",
@@ -8736,6 +9466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Uniplate",
           "name": "uniplateExpr",
           "package": "yhccore",
@@ -8745,6 +9476,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Uniplate",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Uniplate",
           "name": "uniplateExpr",
           "package": "yhccore",
@@ -8758,6 +9490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.Uniplate",
           "name": "universeExprVar",
           "package": "yhccore",
@@ -8767,6 +9500,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core Uniplate",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.Uniplate",
           "name": "universeExprVar",
           "normalized": "a-\u003e[String]",
@@ -8783,6 +9517,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements unique ID's in Yhc.Core.\n\u003c/p\u003e\u003cp\u003eThe intention is that a program can use this interface to a unique ID quite cheaply.\n    Or an existing state monad can be reused.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueId",
           "name": "UniqueId",
           "package": "yhccore",
@@ -8792,6 +9527,7 @@
         "index": {
           "description": "This module implements unique ID in Yhc.Core The intention is that program can use this interface to unique ID quite cheaply Or an existing state monad can be reused",
           "hierarchy": "Yhc Core UniqueId",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueId",
           "name": "UniqueId",
           "package": "yhccore",
@@ -8805,6 +9541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueId",
           "name": "UniqueId",
           "package": "yhccore",
@@ -8813,6 +9550,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core UniqueId",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueId",
           "name": "UniqueId",
           "package": "yhccore",
@@ -8826,6 +9564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueId",
           "name": "UniqueIdM",
           "package": "yhccore",
@@ -8834,6 +9573,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core UniqueId",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueId",
           "name": "UniqueIdM",
           "package": "yhccore",
@@ -8847,6 +9587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueId",
           "name": "getId",
           "package": "yhccore",
@@ -8856,6 +9597,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core UniqueId",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueId",
           "name": "getId",
           "normalized": "a-\u003eInt",
@@ -8871,6 +9613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueId",
           "name": "getIdM",
           "package": "yhccore",
@@ -8880,6 +9623,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core UniqueId",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueId",
           "name": "getIdM",
           "package": "yhccore",
@@ -8893,6 +9637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueId",
           "name": "nextId",
           "package": "yhccore",
@@ -8902,6 +9647,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core UniqueId",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueId",
           "name": "nextId",
           "package": "yhccore",
@@ -8915,6 +9661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueId",
           "name": "putId",
           "package": "yhccore",
@@ -8924,6 +9671,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core UniqueId",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueId",
           "name": "putId",
           "normalized": "Int-\u003ea-\u003ea",
@@ -8939,6 +9687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueId",
           "name": "putIdM",
           "package": "yhccore",
@@ -8948,6 +9697,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core UniqueId",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueId",
           "name": "putIdM",
           "normalized": "Int-\u003ea()",
@@ -8964,6 +9714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements unique names in Yhc.Core.\n\u003c/p\u003e\u003cp\u003eGiven a name, it can be dividied into [rest][digits].     \n    The digits form a number (0 for no digits).\n\u003c/p\u003e\u003cp\u003eGiven a set of names, they must all represent unique numbers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueName",
           "name": "UniqueName",
           "package": "yhccore",
@@ -8973,6 +9724,7 @@
         "index": {
           "description": "This module implements unique names in Yhc.Core Given name it can be dividied into rest digits The digits form number for no digits Given set of names they must all represent unique numbers",
           "hierarchy": "Yhc Core UniqueName",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueName",
           "name": "UniqueName",
           "package": "yhccore",
@@ -8986,6 +9738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueFuncsNext",
           "package": "yhccore",
@@ -8995,6 +9748,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core UniqueName",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueFuncsNext",
           "normalized": "Core-\u003eInt",
@@ -9011,6 +9765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename functions so they use consecutive numbers starting at 2,\n   to aid human understanding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueFuncsRename",
           "package": "yhccore",
@@ -9021,6 +9776,7 @@
         "index": {
           "description": "Rename functions so they use consecutive numbers starting at to aid human understanding",
           "hierarchy": "Yhc Core UniqueName",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueFuncsRename",
           "normalized": "Core-\u003eCore",
@@ -9037,6 +9793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more advanced combinator to capture the pattern of splitting\n   one function into many (i.e. recursive let's, lambda lifting)\n\u003c/p\u003e\u003cp\u003eNeeds rank-2 types to do properly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueFuncsSplit",
           "package": "yhccore",
@@ -9047,6 +9804,7 @@
         "index": {
           "description": "more advanced combinator to capture the pattern of splitting one function into many i.e recursive let lambda lifting Needs rank-2 types to do properly",
           "hierarchy": "Yhc Core UniqueName",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueFuncsSplit",
           "normalized": "(FuncsSplitM CoreFuncName-\u003e(CoreFunc-\u003eFuncsSplitM())-\u003eCoreExpr-\u003eFuncsSplitM CoreExpr)-\u003eCore-\u003eCore",
@@ -9063,6 +9821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a name, and a unique id, join them together.\n   Replaces any existing id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueJoin",
           "package": "yhccore",
@@ -9073,6 +9832,7 @@
         "index": {
           "description": "Given name and unique id join them together Replaces any existing id",
           "hierarchy": "Yhc Core UniqueName",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueJoin",
           "normalized": "String-\u003eInt-\u003eString",
@@ -9088,6 +9848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueNamesNext",
           "package": "yhccore",
@@ -9097,6 +9858,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core UniqueName",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueNamesNext",
           "normalized": "[String]-\u003eInt",
@@ -9113,6 +9875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a name into a prefix and a unique id.\n   0 means no trailing number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueSplit",
           "package": "yhccore",
@@ -9123,6 +9886,7 @@
         "index": {
           "description": "Split name into prefix and unique id means no trailing number",
           "hierarchy": "Yhc Core UniqueName",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core.UniqueName",
           "name": "uniqueSplit",
           "normalized": "String-\u003e(String,Int)",
@@ -9138,6 +9902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:52 UTC 2014",
           "module": "Yhc.Core",
           "name": "Core",
           "package": "yhccore",
@@ -9146,6 +9911,7 @@
         },
         "index": {
           "hierarchy": "Yhc Core",
+          "indexed": "2014-03-11T20:46:52",
           "module": "Yhc.Core",
           "name": "Core",
           "package": "yhccore",

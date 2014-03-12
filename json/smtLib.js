@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "smtLib"
+        "phrase": "smtLib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_AUFBV",
           "name": "QF_AUFBV",
           "package": "smtLib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_AUFBV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_AUFBV",
           "name": "QF_AUFBV",
           "package": "smtLib",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eselect array index\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_AUFBV",
           "name": "select",
           "package": "smtLib",
@@ -50,6 +53,7 @@
         "index": {
           "description": "select array index",
           "hierarchy": "SMTLib1 QF_AUFBV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_AUFBV",
           "name": "select",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003estore array index value\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_AUFBV",
           "name": "store",
           "package": "smtLib",
@@ -75,6 +80,7 @@
         "index": {
           "description": "store array index value",
           "hierarchy": "SMTLib1 QF_AUFBV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_AUFBV",
           "name": "store",
           "normalized": "Term-\u003eTerm-\u003eTerm-\u003eTerm",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'tArray i n' is an array indexed by bitvectors of widht \u003ccode\u003ei\u003c/code\u003e,\n and storing bitvectors of width \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_AUFBV",
           "name": "tArray",
           "package": "smtLib",
@@ -100,6 +107,7 @@
         "index": {
           "description": "tArray is an array indexed by bitvectors of widht and storing bitvectors of width",
           "hierarchy": "SMTLib1 QF_AUFBV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_AUFBV",
           "name": "tArray",
           "normalized": "Integer-\u003eInteger-\u003eSort",
@@ -115,6 +123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "QF_BV",
           "package": "smtLib",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "QF_BV",
           "package": "smtLib",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitVec[1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bit0",
           "package": "smtLib",
@@ -147,6 +158,7 @@
         "index": {
           "description": "BitVec",
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bit0",
           "package": "smtLib",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitVec[1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bit1",
           "package": "smtLib",
@@ -170,6 +183,7 @@
         "index": {
           "description": "BitVec",
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bit1",
           "package": "smtLib",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bv",
           "package": "smtLib",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bv",
           "normalized": "Integer-\u003eInteger-\u003eTerm",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvadd",
           "package": "smtLib",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvadd",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvand",
           "package": "smtLib",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvand",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvashr",
           "package": "smtLib",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvashr",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvcomp",
           "package": "smtLib",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvcomp",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvlshr",
           "package": "smtLib",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvlshr",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvmul",
           "package": "smtLib",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvmul",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvnand",
           "package": "smtLib",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvnand",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvneg",
           "package": "smtLib",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvneg",
           "normalized": "Term-\u003eTerm",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvnor",
           "package": "smtLib",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvnor",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvnot",
           "package": "smtLib",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvnot",
           "normalized": "Term-\u003eTerm",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvor",
           "package": "smtLib",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvor",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvsdiv",
           "package": "smtLib",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvsdiv",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvsge",
           "package": "smtLib",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvsge",
           "normalized": "Term-\u003eTerm-\u003eFormula",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvsgt",
           "package": "smtLib",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvsgt",
           "normalized": "Term-\u003eTerm-\u003eFormula",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvshl",
           "package": "smtLib",
@@ -536,6 +581,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvshl",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvsle",
           "package": "smtLib",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvsle",
           "normalized": "Term-\u003eTerm-\u003eFormula",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvslt",
           "package": "smtLib",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvslt",
           "normalized": "Term-\u003eTerm-\u003eFormula",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvsmod",
           "package": "smtLib",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvsmod",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -619,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvsrem",
           "package": "smtLib",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvsrem",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvsub",
           "package": "smtLib",
@@ -651,6 +706,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvsub",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -665,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvudiv",
           "package": "smtLib",
@@ -674,6 +731,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvudiv",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvuge",
           "package": "smtLib",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvuge",
           "normalized": "Term-\u003eTerm-\u003eFormula",
@@ -711,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvugt",
           "package": "smtLib",
@@ -720,6 +781,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvugt",
           "normalized": "Term-\u003eTerm-\u003eFormula",
@@ -734,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvule",
           "package": "smtLib",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvule",
           "normalized": "Term-\u003eTerm-\u003eFormula",
@@ -757,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvurem",
           "package": "smtLib",
@@ -766,6 +831,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvurem",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -780,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvxnor",
           "package": "smtLib",
@@ -789,6 +856,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvxnor",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -803,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "bvxor",
           "package": "smtLib",
@@ -812,6 +881,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "bvxor",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -827,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003em\u003c/dt\u003e\u003cdd\u003e -\u003e [n] -\u003e [m+n]\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "concat",
           "package": "smtLib",
@@ -836,6 +907,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "concat",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -850,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "extract",
           "package": "smtLib",
@@ -859,6 +932,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "extract",
           "normalized": "Integer-\u003eInteger-\u003eTerm-\u003eTerm",
@@ -873,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "isBitVec",
           "package": "smtLib",
@@ -882,6 +957,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "isBitVec",
           "normalized": "Sort-\u003eMaybe Integer",
@@ -897,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "repeat",
           "package": "smtLib",
@@ -906,6 +983,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "repeat",
           "normalized": "Integer-\u003eTerm-\u003eTerm",
@@ -920,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "rotate_left",
           "package": "smtLib",
@@ -929,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "rotate_left",
           "normalized": "Integer-\u003eTerm-\u003eTerm",
@@ -943,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "rotate_right",
           "package": "smtLib",
@@ -952,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "rotate_right",
           "normalized": "Integer-\u003eTerm-\u003eTerm",
@@ -966,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "sign_extend",
           "package": "smtLib",
@@ -975,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "sign_extend",
           "normalized": "Integer-\u003eTerm-\u003eTerm",
@@ -989,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "tBitVec",
           "package": "smtLib",
@@ -998,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "tBitVec",
           "normalized": "Integer-\u003eSort",
@@ -1013,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1.QF_BV",
           "name": "zero_extend",
           "package": "smtLib",
@@ -1022,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1 QF_BV",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1.QF_BV",
           "name": "zero_extend",
           "normalized": "Integer-\u003eTerm-\u003eTerm",
@@ -1036,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "SMTLib1",
           "package": "smtLib",
@@ -1044,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "SMTLib1",
           "package": "smtLib",
@@ -1057,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Annot",
           "package": "smtLib",
@@ -1065,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Annot",
           "package": "smtLib",
@@ -1078,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Binder",
           "package": "smtLib",
@@ -1086,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Binder",
           "package": "smtLib",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Command",
           "package": "smtLib",
@@ -1107,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Command",
           "package": "smtLib",
@@ -1120,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Conn",
           "package": "smtLib",
@@ -1128,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Conn",
           "package": "smtLib",
@@ -1141,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Formula",
           "package": "smtLib",
@@ -1149,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Formula",
           "package": "smtLib",
@@ -1162,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "FunDecl",
           "package": "smtLib",
@@ -1170,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "FunDecl",
           "package": "smtLib",
@@ -1183,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Ident",
           "package": "smtLib",
@@ -1191,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Ident",
           "package": "smtLib",
@@ -1204,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Literal",
           "package": "smtLib",
@@ -1212,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Literal",
           "package": "smtLib",
@@ -1225,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Name",
           "package": "smtLib",
@@ -1233,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Name",
           "package": "smtLib",
@@ -1246,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "PP",
           "package": "smtLib",
@@ -1254,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "PP",
           "package": "smtLib",
@@ -1267,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "PredDecl",
           "package": "smtLib",
@@ -1275,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "PredDecl",
           "package": "smtLib",
@@ -1288,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Quant",
           "package": "smtLib",
@@ -1296,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Quant",
           "package": "smtLib",
@@ -1309,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Script",
           "package": "smtLib",
@@ -1317,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Script",
           "package": "smtLib",
@@ -1330,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Sort",
           "package": "smtLib",
@@ -1338,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Sort",
           "package": "smtLib",
@@ -1351,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Status",
           "package": "smtLib",
@@ -1359,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Status",
           "package": "smtLib",
@@ -1372,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Term",
           "package": "smtLib",
@@ -1380,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Term",
           "package": "smtLib",
@@ -1393,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "(=/=)",
           "package": "smtLib",
@@ -1402,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "(=/=) =/=",
           "normalized": "Term-\u003eTerm-\u003eFormula",
@@ -1416,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "(===)",
           "package": "smtLib",
@@ -1425,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "(===) ===",
           "normalized": "Term-\u003eTerm-\u003eFormula",
@@ -1440,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "(.\u003c.)",
           "package": "smtLib",
@@ -1450,6 +1577,7 @@
         "index": {
           "description": "For Int",
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "(.\u003c.) .\u003c.",
           "normalized": "Term-\u003eTerm-\u003eFormula",
@@ -1465,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "(.\u003e.)",
           "package": "smtLib",
@@ -1475,6 +1604,7 @@
         "index": {
           "description": "For Int",
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "(.\u003e.) .\u003e.",
           "normalized": "Term-\u003eTerm-\u003eFormula",
@@ -1489,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "And",
           "package": "smtLib",
@@ -1498,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "And",
           "package": "smtLib",
@@ -1511,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "App",
           "package": "smtLib",
@@ -1520,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "App",
           "normalized": "App Ident[Term]",
@@ -1535,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Attr",
           "package": "smtLib",
@@ -1544,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Attr",
           "package": "smtLib",
@@ -1557,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Bind",
           "package": "smtLib",
@@ -1566,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Bind",
           "package": "smtLib",
@@ -1579,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "CmdAnnot",
           "package": "smtLib",
@@ -1588,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "CmdAnnot",
           "package": "smtLib",
@@ -1601,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "CmdAssumption",
           "package": "smtLib",
@@ -1610,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "CmdAssumption",
           "package": "smtLib",
@@ -1623,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "CmdExtraFuns",
           "package": "smtLib",
@@ -1632,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "CmdExtraFuns",
           "normalized": "CmdExtraFuns[FunDecl]",
@@ -1647,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "CmdExtraPreds",
           "package": "smtLib",
@@ -1656,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "CmdExtraPreds",
           "normalized": "CmdExtraPreds[PredDecl]",
@@ -1671,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "CmdExtraSorts",
           "package": "smtLib",
@@ -1680,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "CmdExtraSorts",
           "normalized": "CmdExtraSorts[Sort]",
@@ -1695,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "CmdFormula",
           "package": "smtLib",
@@ -1704,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "CmdFormula",
           "package": "smtLib",
@@ -1717,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "CmdLogic",
           "package": "smtLib",
@@ -1726,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "CmdLogic",
           "package": "smtLib",
@@ -1739,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "CmdNotes",
           "package": "smtLib",
@@ -1748,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "CmdNotes",
           "package": "smtLib",
@@ -1761,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "CmdStatus",
           "package": "smtLib",
@@ -1770,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "CmdStatus",
           "package": "smtLib",
@@ -1783,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Conn",
           "package": "smtLib",
@@ -1792,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Conn",
           "normalized": "Conn Conn[Formula]",
@@ -1807,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Exists",
           "package": "smtLib",
@@ -1816,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Exists",
           "package": "smtLib",
@@ -1829,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "FAnnot",
           "package": "smtLib",
@@ -1838,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "FAnnot",
           "normalized": "FAnnot Formula[Annot]",
@@ -1853,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "FFalse",
           "package": "smtLib",
@@ -1862,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "FFalse",
           "package": "smtLib",
@@ -1875,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "FLet",
           "package": "smtLib",
@@ -1884,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "FLet",
           "package": "smtLib",
@@ -1897,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "FPred",
           "package": "smtLib",
@@ -1906,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "FPred",
           "normalized": "FPred Ident[Term]",
@@ -1921,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "FTrue",
           "package": "smtLib",
@@ -1930,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "FTrue",
           "package": "smtLib",
@@ -1943,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "FVar",
           "package": "smtLib",
@@ -1952,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "FVar",
           "package": "smtLib",
@@ -1965,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Forall",
           "package": "smtLib",
@@ -1974,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Forall",
           "package": "smtLib",
@@ -1987,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "FunDecl",
           "package": "smtLib",
@@ -1996,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "FunDecl",
           "package": "smtLib",
@@ -2009,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "I",
           "package": "smtLib",
@@ -2018,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "I",
           "normalized": "I Name[Integer]",
@@ -2032,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "ITE",
           "package": "smtLib",
@@ -2041,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "ITE",
           "package": "smtLib",
@@ -2054,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "IfThenElse",
           "package": "smtLib",
@@ -2063,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "IfThenElse",
           "package": "smtLib",
@@ -2076,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Iff",
           "package": "smtLib",
@@ -2085,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Iff",
           "package": "smtLib",
@@ -2098,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Implies",
           "package": "smtLib",
@@ -2107,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Implies",
           "package": "smtLib",
@@ -2120,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Let",
           "package": "smtLib",
@@ -2129,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Let",
           "package": "smtLib",
@@ -2142,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Lit",
           "package": "smtLib",
@@ -2151,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Lit",
           "package": "smtLib",
@@ -2164,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "LitFrac",
           "package": "smtLib",
@@ -2173,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "LitFrac",
           "package": "smtLib",
@@ -2186,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "LitNum",
           "package": "smtLib",
@@ -2195,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "LitNum",
           "package": "smtLib",
@@ -2208,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "LitStr",
           "package": "smtLib",
@@ -2217,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "LitStr",
           "package": "smtLib",
@@ -2230,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "N",
           "package": "smtLib",
@@ -2239,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "N",
           "package": "smtLib",
@@ -2251,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Not",
           "package": "smtLib",
@@ -2260,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Not",
           "package": "smtLib",
@@ -2273,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Or",
           "package": "smtLib",
@@ -2282,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Or",
           "package": "smtLib",
@@ -2295,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "PredDecl",
           "package": "smtLib",
@@ -2304,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "PredDecl",
           "package": "smtLib",
@@ -2317,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Quant",
           "package": "smtLib",
@@ -2326,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Quant",
           "normalized": "Quant Quant[Binder]Formula",
@@ -2341,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Sat",
           "package": "smtLib",
@@ -2350,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Sat",
           "package": "smtLib",
@@ -2363,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Script",
           "package": "smtLib",
@@ -2372,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Script",
           "package": "smtLib",
@@ -2385,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "TAnnot",
           "package": "smtLib",
@@ -2394,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "TAnnot",
           "normalized": "TAnnot Term[Annot]",
@@ -2409,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Unknown",
           "package": "smtLib",
@@ -2418,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Unknown",
           "package": "smtLib",
@@ -2431,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Unsat",
           "package": "smtLib",
@@ -2440,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Unsat",
           "package": "smtLib",
@@ -2453,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Var",
           "package": "smtLib",
@@ -2462,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Var",
           "package": "smtLib",
@@ -2475,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "Xor",
           "package": "smtLib",
@@ -2484,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "Xor",
           "package": "smtLib",
@@ -2497,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "assume",
           "package": "smtLib",
@@ -2506,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "assume",
           "normalized": "Formula-\u003eCommand",
@@ -2520,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "attrName",
           "package": "smtLib",
@@ -2529,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "attrName",
           "package": "smtLib",
@@ -2542,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "attrVal",
           "package": "smtLib",
@@ -2551,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "attrVal",
           "package": "smtLib",
@@ -2564,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "bindSort",
           "package": "smtLib",
@@ -2573,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "bindSort",
           "package": "smtLib",
@@ -2586,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "bindVar",
           "package": "smtLib",
@@ -2595,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "bindVar",
           "package": "smtLib",
@@ -2608,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "constDef",
           "package": "smtLib",
@@ -2617,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "constDef",
           "normalized": "Ident-\u003eSort-\u003eCommand",
@@ -2632,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "funAnnots",
           "package": "smtLib",
@@ -2641,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "funAnnots",
           "normalized": "[Annot]",
@@ -2656,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "funArgs",
           "package": "smtLib",
@@ -2665,6 +2900,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "funArgs",
           "normalized": "[Sort]",
@@ -2680,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "funDef",
           "package": "smtLib",
@@ -2689,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "funDef",
           "normalized": "Ident-\u003e[Sort]-\u003eSort-\u003eCommand",
@@ -2704,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "funName",
           "package": "smtLib",
@@ -2713,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "funName",
           "package": "smtLib",
@@ -2726,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "funRes",
           "package": "smtLib",
@@ -2735,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "funRes",
           "package": "smtLib",
@@ -2748,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "goal",
           "package": "smtLib",
@@ -2757,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "goal",
           "normalized": "Formula-\u003eCommand",
@@ -2771,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "logic",
           "package": "smtLib",
@@ -2780,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "logic",
           "normalized": "Ident-\u003eCommand",
@@ -2794,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "pp",
           "package": "smtLib",
@@ -2803,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "pp",
           "normalized": "a-\u003eDoc",
@@ -2817,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "predAnnots",
           "package": "smtLib",
@@ -2826,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "predAnnots",
           "normalized": "[Annot]",
@@ -2841,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "predArgs",
           "package": "smtLib",
@@ -2850,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "predArgs",
           "normalized": "[Sort]",
@@ -2865,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "predName",
           "package": "smtLib",
@@ -2874,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "predName",
           "package": "smtLib",
@@ -2887,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "scrCommands",
           "package": "smtLib",
@@ -2896,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "scrCommands",
           "normalized": "[Command]",
@@ -2911,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "scrName",
           "package": "smtLib",
@@ -2920,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "scrName",
           "package": "smtLib",
@@ -2933,6 +3191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib1",
           "name": "tInt",
           "package": "smtLib",
@@ -2942,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "SMTLib1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib1",
           "name": "tInt",
           "package": "smtLib",
@@ -2955,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Array",
           "name": "Array",
           "package": "smtLib",
@@ -2963,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Array",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Array",
           "name": "Array",
           "package": "smtLib",
@@ -2976,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Array",
           "name": "select",
           "package": "smtLib",
@@ -2985,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Array",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Array",
           "name": "select",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -2999,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Array",
           "name": "store",
           "package": "smtLib",
@@ -3008,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Array",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Array",
           "name": "store",
           "normalized": "Expr-\u003eExpr-\u003eExpr-\u003eExpr",
@@ -3022,6 +3288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Array",
           "name": "tArray",
           "package": "smtLib",
@@ -3031,6 +3298,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Array",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Array",
           "name": "tArray",
           "normalized": "Type-\u003eType-\u003eType",
@@ -3046,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "BitVector",
           "package": "smtLib",
@@ -3054,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "BitVector",
           "package": "smtLib",
@@ -3067,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bv",
           "package": "smtLib",
@@ -3076,6 +3347,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bv",
           "normalized": "Integer-\u003eInteger-\u003eExpr",
@@ -3090,6 +3362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvadd",
           "package": "smtLib",
@@ -3099,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvadd",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3113,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvand",
           "package": "smtLib",
@@ -3122,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvand",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3136,6 +3412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvashr",
           "package": "smtLib",
@@ -3145,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvashr",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3159,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvcomp",
           "package": "smtLib",
@@ -3168,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvcomp",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3182,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvlshr",
           "package": "smtLib",
@@ -3191,6 +3472,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvlshr",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3205,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvmul",
           "package": "smtLib",
@@ -3214,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvmul",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3228,6 +3512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvnand",
           "package": "smtLib",
@@ -3237,6 +3522,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvnand",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3251,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvneg",
           "package": "smtLib",
@@ -3260,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvneg",
           "normalized": "Expr-\u003eExpr",
@@ -3274,6 +3562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvnor",
           "package": "smtLib",
@@ -3283,6 +3572,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvnor",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3297,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvnot",
           "package": "smtLib",
@@ -3306,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvnot",
           "normalized": "Expr-\u003eExpr",
@@ -3320,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvor",
           "package": "smtLib",
@@ -3329,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvor",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3343,6 +3637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvsdiv",
           "package": "smtLib",
@@ -3352,6 +3647,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvsdiv",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3366,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvsge",
           "package": "smtLib",
@@ -3375,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvsge",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3389,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvsgt",
           "package": "smtLib",
@@ -3398,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvsgt",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3412,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvshl",
           "package": "smtLib",
@@ -3421,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvshl",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3435,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvsle",
           "package": "smtLib",
@@ -3444,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvsle",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3458,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvslt",
           "package": "smtLib",
@@ -3467,6 +3772,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvslt",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3481,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvsmod",
           "package": "smtLib",
@@ -3490,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvsmod",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3504,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvsrem",
           "package": "smtLib",
@@ -3513,6 +3822,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvsrem",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3527,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvsub",
           "package": "smtLib",
@@ -3536,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvsub",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3550,6 +3862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvudiv",
           "package": "smtLib",
@@ -3559,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvudiv",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3573,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvuge",
           "package": "smtLib",
@@ -3582,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvuge",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3596,6 +3912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvugt",
           "package": "smtLib",
@@ -3605,6 +3922,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvugt",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3619,6 +3937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvule",
           "package": "smtLib",
@@ -3628,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvule",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3642,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvult",
           "package": "smtLib",
@@ -3651,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvult",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3665,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvurem",
           "package": "smtLib",
@@ -3674,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvurem",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3688,6 +4012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvxnor",
           "package": "smtLib",
@@ -3697,6 +4022,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvxnor",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3711,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "bvxor",
           "package": "smtLib",
@@ -3720,6 +4047,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "bvxor",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3734,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "concat",
           "package": "smtLib",
@@ -3743,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "concat",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -3757,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "extract",
           "package": "smtLib",
@@ -3766,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "extract",
           "normalized": "Integer-\u003eInteger-\u003eExpr-\u003eExpr",
@@ -3780,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "repeat",
           "package": "smtLib",
@@ -3789,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "repeat",
           "normalized": "Integer-\u003eExpr-\u003eExpr-\u003eExpr",
@@ -3803,6 +4137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "rotate_left",
           "package": "smtLib",
@@ -3812,6 +4147,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "rotate_left",
           "normalized": "Integer-\u003eExpr-\u003eExpr",
@@ -3826,6 +4162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "rotate_right",
           "package": "smtLib",
@@ -3835,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "rotate_right",
           "normalized": "Integer-\u003eExpr-\u003eExpr",
@@ -3849,6 +4187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "sign_extend",
           "package": "smtLib",
@@ -3858,6 +4197,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "sign_extend",
           "normalized": "Integer-\u003eExpr-\u003eExpr",
@@ -3872,6 +4212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "tBitVec",
           "package": "smtLib",
@@ -3881,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "tBitVec",
           "normalized": "Integer-\u003eType",
@@ -3896,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.BitVector",
           "name": "zero_extend",
           "package": "smtLib",
@@ -3905,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 BitVector",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.BitVector",
           "name": "zero_extend",
           "normalized": "Integer-\u003eExpr-\u003eExpr",
@@ -3919,6 +4263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "Compat1",
           "package": "smtLib",
@@ -3927,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "Compat1",
           "package": "smtLib",
@@ -3940,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "Trans",
           "package": "smtLib",
@@ -3948,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "Trans",
           "package": "smtLib",
@@ -3961,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "Fail",
           "package": "smtLib",
@@ -3970,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "Fail",
           "package": "smtLib",
@@ -3983,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "OK",
           "package": "smtLib",
@@ -3992,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "OK",
           "package": "smtLib",
@@ -4005,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "annot",
           "package": "smtLib",
@@ -4014,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "annot",
           "normalized": "Annot-\u003eTrans Attr",
@@ -4028,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "binder",
           "package": "smtLib",
@@ -4037,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "binder",
           "normalized": "Binder-\u003eBinder",
@@ -4051,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "command",
           "package": "smtLib",
@@ -4060,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "command",
           "normalized": "Command-\u003eTrans[Command]",
@@ -4074,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "err",
           "package": "smtLib",
@@ -4083,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "err",
           "normalized": "Doc-\u003eTrans a",
@@ -4097,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "formula",
           "package": "smtLib",
@@ -4106,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "formula",
           "normalized": "Formula-\u003eTrans Expr",
@@ -4120,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "ident",
           "package": "smtLib",
@@ -4129,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "ident",
           "normalized": "Ident-\u003eIdent",
@@ -4143,6 +4507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "literal",
           "package": "smtLib",
@@ -4152,6 +4517,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "literal",
           "normalized": "Literal-\u003eLiteral",
@@ -4166,6 +4532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "name",
           "package": "smtLib",
@@ -4175,6 +4542,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "name",
           "normalized": "Name-\u003eName",
@@ -4189,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "quant",
           "package": "smtLib",
@@ -4198,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "quant",
           "normalized": "Quant-\u003eQuant",
@@ -4212,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "script",
           "package": "smtLib",
@@ -4221,6 +4592,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "script",
           "normalized": "Script-\u003eTrans Script",
@@ -4235,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "sort",
           "package": "smtLib",
@@ -4244,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "sort",
           "normalized": "Sort-\u003eType",
@@ -4258,6 +4632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "term",
           "package": "smtLib",
@@ -4267,6 +4642,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "term",
           "normalized": "Term-\u003eTrans Expr",
@@ -4281,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "toEither",
           "package": "smtLib",
@@ -4290,6 +4667,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "toEither",
           "normalized": "Trans a-\u003eEither Doc a",
@@ -4305,6 +4683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Compat1",
           "name": "toMaybe",
           "package": "smtLib",
@@ -4314,6 +4693,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Compat1",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Compat1",
           "name": "toMaybe",
           "normalized": "Trans a-\u003eMaybe a",
@@ -4329,6 +4709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "Core",
           "package": "smtLib",
@@ -4337,6 +4718,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "Core",
           "package": "smtLib",
@@ -4350,6 +4732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "(=/=)",
           "package": "smtLib",
@@ -4359,6 +4742,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "(=/=) =/=",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4373,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "(===)",
           "package": "smtLib",
@@ -4382,6 +4767,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "(===) ===",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4396,6 +4782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "(==\u003e)",
           "package": "smtLib",
@@ -4405,6 +4792,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "(==\u003e) ==\u003e",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4419,6 +4807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "and",
           "package": "smtLib",
@@ -4428,6 +4817,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "and",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4442,6 +4832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "false",
           "package": "smtLib",
@@ -4451,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "false",
           "package": "smtLib",
@@ -4463,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "ite",
           "package": "smtLib",
@@ -4472,6 +4865,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "ite",
           "normalized": "Expr-\u003eExpr-\u003eExpr-\u003eExpr",
@@ -4486,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "not",
           "package": "smtLib",
@@ -4495,6 +4890,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "not",
           "normalized": "Expr-\u003eExpr",
@@ -4509,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "or",
           "package": "smtLib",
@@ -4518,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "or",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4532,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "tBool",
           "package": "smtLib",
@@ -4541,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "tBool",
           "package": "smtLib",
@@ -4554,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "true",
           "package": "smtLib",
@@ -4563,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "true",
           "package": "smtLib",
@@ -4575,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Core",
           "name": "xor",
           "package": "smtLib",
@@ -4584,6 +4987,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Core",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Core",
           "name": "xor",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4598,6 +5002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "Int",
           "package": "smtLib",
@@ -4606,6 +5011,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "Int",
           "package": "smtLib",
@@ -4619,6 +5025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "nAbs",
           "package": "smtLib",
@@ -4628,6 +5035,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "nAbs",
           "normalized": "Expr-\u003eExpr",
@@ -4643,6 +5051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "nAdd",
           "package": "smtLib",
@@ -4652,6 +5061,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "nAdd",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4667,6 +5077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "nDiv",
           "package": "smtLib",
@@ -4676,6 +5087,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "nDiv",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4691,6 +5103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "nGeq",
           "package": "smtLib",
@@ -4700,6 +5113,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "nGeq",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4715,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "nGt",
           "package": "smtLib",
@@ -4724,6 +5139,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "nGt",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4739,6 +5155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "nLeq",
           "package": "smtLib",
@@ -4748,6 +5165,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "nLeq",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4763,6 +5181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "nLt",
           "package": "smtLib",
@@ -4772,6 +5191,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "nLt",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4787,6 +5207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "nMod",
           "package": "smtLib",
@@ -4796,6 +5217,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "nMod",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4811,6 +5233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "nMul",
           "package": "smtLib",
@@ -4820,6 +5243,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "nMul",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4835,6 +5259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "nNeg",
           "package": "smtLib",
@@ -4844,6 +5269,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "nNeg",
           "normalized": "Expr-\u003eExpr",
@@ -4859,6 +5285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "nSub",
           "package": "smtLib",
@@ -4868,6 +5295,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "nSub",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -4883,6 +5311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "num",
           "package": "smtLib",
@@ -4892,6 +5321,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "num",
           "normalized": "a-\u003eExpr",
@@ -4906,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2.Int",
           "name": "tInt",
           "package": "smtLib",
@@ -4915,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2 Int",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2.Int",
           "name": "tInt",
           "package": "smtLib",
@@ -4928,6 +5360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "SMTLib2",
           "package": "smtLib",
@@ -4936,6 +5369,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "SMTLib2",
           "package": "smtLib",
@@ -4949,6 +5383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Attr",
           "package": "smtLib",
@@ -4957,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Attr",
           "package": "smtLib",
@@ -4970,6 +5406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "AttrVal",
           "package": "smtLib",
@@ -4978,6 +5415,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "AttrVal",
           "package": "smtLib",
@@ -4991,6 +5429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Binder",
           "package": "smtLib",
@@ -4999,6 +5438,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Binder",
           "package": "smtLib",
@@ -5012,6 +5452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Command",
           "package": "smtLib",
@@ -5020,6 +5461,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Command",
           "package": "smtLib",
@@ -5033,6 +5475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Defn",
           "package": "smtLib",
@@ -5041,6 +5484,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Defn",
           "package": "smtLib",
@@ -5054,6 +5498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Expr",
           "package": "smtLib",
@@ -5062,6 +5507,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Expr",
           "package": "smtLib",
@@ -5075,6 +5521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Ident",
           "package": "smtLib",
@@ -5083,6 +5530,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Ident",
           "package": "smtLib",
@@ -5096,6 +5544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "InfoFlag",
           "package": "smtLib",
@@ -5104,6 +5553,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "InfoFlag",
           "package": "smtLib",
@@ -5117,6 +5567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Literal",
           "package": "smtLib",
@@ -5125,6 +5576,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Literal",
           "package": "smtLib",
@@ -5138,6 +5590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Name",
           "package": "smtLib",
@@ -5146,6 +5599,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Name",
           "package": "smtLib",
@@ -5159,6 +5613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Option",
           "package": "smtLib",
@@ -5167,6 +5622,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Option",
           "package": "smtLib",
@@ -5180,6 +5636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "PP",
           "package": "smtLib",
@@ -5188,6 +5645,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "PP",
           "package": "smtLib",
@@ -5201,6 +5659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Quant",
           "package": "smtLib",
@@ -5209,6 +5668,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Quant",
           "package": "smtLib",
@@ -5222,6 +5682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Script",
           "package": "smtLib",
@@ -5230,6 +5691,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Script",
           "package": "smtLib",
@@ -5243,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Type",
           "package": "smtLib",
@@ -5251,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Type",
           "package": "smtLib",
@@ -5264,6 +5728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Annot",
           "package": "smtLib",
@@ -5273,6 +5738,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Annot",
           "normalized": "Annot Expr[Attr]",
@@ -5288,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "App",
           "package": "smtLib",
@@ -5297,6 +5764,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "App",
           "normalized": "App Ident(Maybe Type)[Expr]",
@@ -5312,6 +5780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Attr",
           "package": "smtLib",
@@ -5321,6 +5790,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Attr",
           "package": "smtLib",
@@ -5334,6 +5804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Bind",
           "package": "smtLib",
@@ -5343,6 +5814,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Bind",
           "package": "smtLib",
@@ -5356,6 +5828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdAssert",
           "package": "smtLib",
@@ -5365,6 +5838,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdAssert",
           "package": "smtLib",
@@ -5378,6 +5852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdCheckSat",
           "package": "smtLib",
@@ -5387,6 +5862,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdCheckSat",
           "package": "smtLib",
@@ -5400,6 +5876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdDeclareFun",
           "package": "smtLib",
@@ -5409,6 +5886,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdDeclareFun",
           "normalized": "CmdDeclareFun Name[Type]Type",
@@ -5424,6 +5902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdDeclareType",
           "package": "smtLib",
@@ -5433,6 +5912,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdDeclareType",
           "package": "smtLib",
@@ -5446,6 +5926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdDefineFun",
           "package": "smtLib",
@@ -5455,6 +5936,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdDefineFun",
           "normalized": "CmdDefineFun Name[Binder]Type Expr",
@@ -5470,6 +5952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdDefineType",
           "package": "smtLib",
@@ -5479,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdDefineType",
           "normalized": "CmdDefineType Name[Name]Type",
@@ -5494,6 +5978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdExit",
           "package": "smtLib",
@@ -5503,6 +5988,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdExit",
           "package": "smtLib",
@@ -5516,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdGetAssertions",
           "package": "smtLib",
@@ -5525,6 +6012,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdGetAssertions",
           "package": "smtLib",
@@ -5538,6 +6026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdGetInfo",
           "package": "smtLib",
@@ -5547,6 +6036,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdGetInfo",
           "package": "smtLib",
@@ -5560,6 +6050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdGetOption",
           "package": "smtLib",
@@ -5569,6 +6060,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdGetOption",
           "package": "smtLib",
@@ -5582,6 +6074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdGetProof",
           "package": "smtLib",
@@ -5591,6 +6084,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdGetProof",
           "package": "smtLib",
@@ -5604,6 +6098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdGetUnsatCore",
           "package": "smtLib",
@@ -5613,6 +6108,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdGetUnsatCore",
           "package": "smtLib",
@@ -5626,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdGetValue",
           "package": "smtLib",
@@ -5635,6 +6132,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdGetValue",
           "normalized": "CmdGetValue[Expr]",
@@ -5650,6 +6148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdPop",
           "package": "smtLib",
@@ -5659,6 +6158,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdPop",
           "package": "smtLib",
@@ -5672,6 +6172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdPush",
           "package": "smtLib",
@@ -5681,6 +6182,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdPush",
           "package": "smtLib",
@@ -5694,6 +6196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdSetInfo",
           "package": "smtLib",
@@ -5703,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdSetInfo",
           "package": "smtLib",
@@ -5716,6 +6220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdSetLogic",
           "package": "smtLib",
@@ -5725,6 +6230,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdSetLogic",
           "package": "smtLib",
@@ -5738,6 +6244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "CmdSetOption",
           "package": "smtLib",
@@ -5747,6 +6254,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "CmdSetOption",
           "package": "smtLib",
@@ -5760,6 +6268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Defn",
           "package": "smtLib",
@@ -5769,6 +6278,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Defn",
           "package": "smtLib",
@@ -5782,6 +6292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Exists",
           "package": "smtLib",
@@ -5791,6 +6302,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Exists",
           "package": "smtLib",
@@ -5804,6 +6316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Forall",
           "package": "smtLib",
@@ -5813,6 +6326,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Forall",
           "package": "smtLib",
@@ -5826,6 +6340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "I",
           "package": "smtLib",
@@ -5835,6 +6350,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "I",
           "normalized": "I Name[Integer]",
@@ -5849,6 +6365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "InfoAllStatistics",
           "package": "smtLib",
@@ -5858,6 +6375,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "InfoAllStatistics",
           "package": "smtLib",
@@ -5871,6 +6389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "InfoAttr",
           "package": "smtLib",
@@ -5880,6 +6399,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "InfoAttr",
           "package": "smtLib",
@@ -5893,6 +6413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "InfoAuthors",
           "package": "smtLib",
@@ -5902,6 +6423,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "InfoAuthors",
           "package": "smtLib",
@@ -5915,6 +6437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "InfoErrorBehavior",
           "package": "smtLib",
@@ -5924,6 +6447,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "InfoErrorBehavior",
           "package": "smtLib",
@@ -5937,6 +6461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "InfoName",
           "package": "smtLib",
@@ -5946,6 +6471,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "InfoName",
           "package": "smtLib",
@@ -5959,6 +6485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "InfoReasonUnknown",
           "package": "smtLib",
@@ -5968,6 +6495,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "InfoReasonUnknown",
           "package": "smtLib",
@@ -5981,6 +6509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "InfoStatus",
           "package": "smtLib",
@@ -5990,6 +6519,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "InfoStatus",
           "package": "smtLib",
@@ -6003,6 +6533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "InfoVersion",
           "package": "smtLib",
@@ -6012,6 +6543,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "InfoVersion",
           "package": "smtLib",
@@ -6025,6 +6557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Let",
           "package": "smtLib",
@@ -6034,6 +6567,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Let",
           "normalized": "Let[Defn]Expr",
@@ -6049,6 +6583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Lit",
           "package": "smtLib",
@@ -6058,6 +6593,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Lit",
           "package": "smtLib",
@@ -6072,6 +6608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue, width (in bits)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "LitBV",
           "package": "smtLib",
@@ -6082,6 +6619,7 @@
         "index": {
           "description": "value width in bits",
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "LitBV",
           "package": "smtLib",
@@ -6095,6 +6633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "LitFrac",
           "package": "smtLib",
@@ -6104,6 +6643,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "LitFrac",
           "package": "smtLib",
@@ -6117,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "LitNum",
           "package": "smtLib",
@@ -6126,6 +6667,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "LitNum",
           "package": "smtLib",
@@ -6139,6 +6681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "LitStr",
           "package": "smtLib",
@@ -6148,6 +6691,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "LitStr",
           "package": "smtLib",
@@ -6161,6 +6705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "N",
           "package": "smtLib",
@@ -6170,6 +6715,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "N",
           "package": "smtLib",
@@ -6182,6 +6728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptAttr",
           "package": "smtLib",
@@ -6191,6 +6738,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptAttr",
           "package": "smtLib",
@@ -6204,6 +6752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptDiagnosticOutputChannel",
           "package": "smtLib",
@@ -6213,6 +6762,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptDiagnosticOutputChannel",
           "package": "smtLib",
@@ -6226,6 +6776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptExpandDefinitions",
           "package": "smtLib",
@@ -6235,6 +6786,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptExpandDefinitions",
           "package": "smtLib",
@@ -6248,6 +6800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptInteractiveMode",
           "package": "smtLib",
@@ -6257,6 +6810,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptInteractiveMode",
           "package": "smtLib",
@@ -6270,6 +6824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptPrintSuccess",
           "package": "smtLib",
@@ -6279,6 +6834,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptPrintSuccess",
           "package": "smtLib",
@@ -6292,6 +6848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptProduceAssignments",
           "package": "smtLib",
@@ -6301,6 +6858,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptProduceAssignments",
           "package": "smtLib",
@@ -6314,6 +6872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptProduceModels",
           "package": "smtLib",
@@ -6323,6 +6882,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptProduceModels",
           "package": "smtLib",
@@ -6336,6 +6896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptProduceProofs",
           "package": "smtLib",
@@ -6345,6 +6906,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptProduceProofs",
           "package": "smtLib",
@@ -6358,6 +6920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptProduceUnsatCores",
           "package": "smtLib",
@@ -6367,6 +6930,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptProduceUnsatCores",
           "package": "smtLib",
@@ -6380,6 +6944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptRandomSeed",
           "package": "smtLib",
@@ -6389,6 +6954,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptRandomSeed",
           "package": "smtLib",
@@ -6402,6 +6968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptRegularOutputChannel",
           "package": "smtLib",
@@ -6411,6 +6978,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptRegularOutputChannel",
           "package": "smtLib",
@@ -6424,6 +6992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "OptVerbosity",
           "package": "smtLib",
@@ -6433,6 +7002,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "OptVerbosity",
           "package": "smtLib",
@@ -6446,6 +7016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Quant",
           "package": "smtLib",
@@ -6455,6 +7026,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Quant",
           "normalized": "Quant Quant[Binder]Expr",
@@ -6470,6 +7042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "Script",
           "package": "smtLib",
@@ -6479,6 +7052,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "Script",
           "normalized": "Script[Command]",
@@ -6494,6 +7068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "TApp",
           "package": "smtLib",
@@ -6503,6 +7078,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "TApp",
           "normalized": "TApp Ident[Type]",
@@ -6518,6 +7094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "TVar",
           "package": "smtLib",
@@ -6527,6 +7104,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "TVar",
           "package": "smtLib",
@@ -6540,6 +7118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "app",
           "package": "smtLib",
@@ -6549,6 +7128,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "app",
           "normalized": "Ident-\u003e[Expr]-\u003eExpr",
@@ -6563,6 +7143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "attrName",
           "package": "smtLib",
@@ -6572,6 +7153,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "attrName",
           "package": "smtLib",
@@ -6585,6 +7167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "attrVal",
           "package": "smtLib",
@@ -6594,6 +7177,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "attrVal",
           "package": "smtLib",
@@ -6607,6 +7191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "bindType",
           "package": "smtLib",
@@ -6616,6 +7201,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "bindType",
           "package": "smtLib",
@@ -6629,6 +7215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "bindVar",
           "package": "smtLib",
@@ -6638,6 +7225,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "bindVar",
           "package": "smtLib",
@@ -6651,6 +7239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "defExpr",
           "package": "smtLib",
@@ -6660,6 +7249,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "defExpr",
           "package": "smtLib",
@@ -6673,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "defVar",
           "package": "smtLib",
@@ -6682,6 +7273,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "defVar",
           "package": "smtLib",
@@ -6695,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:39 UTC 2014",
           "module": "SMTLib2",
           "name": "pp",
           "package": "smtLib",
@@ -6704,6 +7297,7 @@
         },
         "index": {
           "hierarchy": "SMTLib2",
+          "indexed": "2014-03-11T20:04:39",
           "module": "SMTLib2",
           "name": "pp",
           "normalized": "a-\u003eDoc",

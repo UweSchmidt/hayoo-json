@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "EuroIT"
+        "phrase": "EuroIT",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:26 UTC 2014",
           "module": "Data.EuroIT",
           "name": "EuroIT",
           "package": "EuroIT",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data EuroIT",
+          "indexed": "2014-03-11T16:40:26",
           "module": "Data.EuroIT",
           "name": "EuroIT",
           "package": "EuroIT",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:26 UTC 2014",
           "module": "Data.EuroIT",
           "name": "DEuro",
           "package": "EuroIT",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data EuroIT",
+          "indexed": "2014-03-11T16:40:26",
           "module": "Data.EuroIT",
           "name": "DEuro",
           "package": "EuroIT",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:26 UTC 2014",
           "module": "Data.EuroIT",
           "name": "Euro",
           "package": "EuroIT",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data EuroIT",
+          "indexed": "2014-03-11T16:40:26",
           "module": "Data.EuroIT",
           "name": "Euro",
           "package": "EuroIT",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:26 UTC 2014",
           "module": "Data.EuroIT",
           "name": "($^)",
           "package": "EuroIT",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data EuroIT",
+          "indexed": "2014-03-11T16:40:26",
           "module": "Data.EuroIT",
           "name": "($^) $^",
           "normalized": "DEuro-\u003eEuro-\u003eEuro",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:26 UTC 2014",
           "module": "Data.EuroIT",
           "name": "DEuro",
           "package": "EuroIT",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data EuroIT",
+          "indexed": "2014-03-11T16:40:26",
           "module": "Data.EuroIT",
           "name": "DEuro",
           "normalized": "DEuro(Euro-\u003eEuro)",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:26 UTC 2014",
           "module": "Data.EuroIT",
           "name": "Euro",
           "package": "EuroIT",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data EuroIT",
+          "indexed": "2014-03-11T16:40:26",
           "module": "Data.EuroIT",
           "name": "Euro",
           "package": "EuroIT",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:26 UTC 2014",
           "module": "Data.EuroIT",
           "name": "mkDEuro",
           "package": "EuroIT",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data EuroIT",
+          "indexed": "2014-03-11T16:40:26",
           "module": "Data.EuroIT",
           "name": "mkDEuro",
           "normalized": "Euro-\u003eDEuro",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:26 UTC 2014",
           "module": "Data.EuroIT",
           "name": "opposite",
           "package": "EuroIT",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data EuroIT",
+          "indexed": "2014-03-11T16:40:26",
           "module": "Data.EuroIT",
           "name": "opposite",
           "normalized": "DEuro-\u003eDEuro",

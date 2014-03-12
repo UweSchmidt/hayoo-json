@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "digamma"
+        "phrase": "digamma",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:59 UTC 2014",
           "module": "Numeric.Digamma",
           "name": "Digamma",
           "package": "digamma",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric Digamma",
+          "indexed": "2014-03-11T17:54:59",
           "module": "Numeric.Digamma",
           "name": "Digamma",
           "package": "digamma",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA robust implementation of the digamma function\n This code is based on the implementation by Tom Minka\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:59 UTC 2014",
           "module": "Numeric.Digamma",
           "name": "digamma",
           "package": "digamma",
@@ -50,6 +53,7 @@
         "index": {
           "description": "robust implementation of the digamma function This code is based on the implementation by Tom Minka",
           "hierarchy": "Numeric Digamma",
+          "indexed": "2014-03-11T17:54:59",
           "module": "Numeric.Digamma",
           "name": "digamma",
           "normalized": "a-\u003ea",

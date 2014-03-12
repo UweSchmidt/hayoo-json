@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parconc-examples"
+        "phrase": "parconc-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-s3"
+        "phrase": "yesod-s3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:29 UTC 2014",
           "module": "Yesod.S3",
           "name": "S3",
           "package": "yesod-s3",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod S3",
+          "indexed": "2014-03-11T20:46:29",
           "module": "Yesod.S3",
           "name": "S3",
           "package": "yesod-s3",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:29 UTC 2014",
           "module": "Yesod.S3",
           "name": "extractFile",
           "package": "yesod-s3",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Yesod S3",
+          "indexed": "2014-03-11T20:46:29",
           "module": "Yesod.S3",
           "name": "extractFile",
           "normalized": "FileInfo-\u003eIO ByteString",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:29 UTC 2014",
           "module": "Yesod.S3",
           "name": "getLink",
           "package": "yesod-s3",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Yesod S3",
+          "indexed": "2014-03-11T20:46:29",
           "module": "Yesod.S3",
           "name": "getLink",
           "normalized": "AWSConnection-\u003eString-\u003eString-\u003eInteger-\u003eIO URI",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:29 UTC 2014",
           "module": "Yesod.S3",
           "name": "uploadFile",
           "package": "yesod-s3",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Yesod S3",
+          "indexed": "2014-03-11T20:46:29",
           "module": "Yesod.S3",
           "name": "uploadFile",
           "normalized": "AWSConnection-\u003eFileInfo-\u003eString-\u003eString-\u003eIO(AWSResult())",

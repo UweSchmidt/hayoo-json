@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cal3d-examples"
+        "phrase": "cal3d-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

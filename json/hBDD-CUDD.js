@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hBDD-CUDD"
+        "phrase": "hBDD-CUDD",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-ref"
+        "phrase": "data-ref",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "Ref",
           "package": "data-ref",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "Ref",
           "package": "data-ref",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "C",
           "package": "data-ref",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "C",
           "package": "data-ref",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "T",
           "package": "data-ref",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "T",
           "package": "data-ref",
@@ -79,6 +85,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "Cons",
           "package": "data-ref",
@@ -88,6 +95,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "Cons",
           "package": "data-ref",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "lift",
           "package": "data-ref",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "lift",
           "normalized": "T a b-\u003eT(c a)b",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "liftIO",
           "package": "data-ref",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "liftIO",
           "normalized": "T IO a-\u003eT b a",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "modify",
           "package": "data-ref",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "modify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003ea()",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "new",
           "package": "data-ref",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "new",
           "normalized": "a-\u003eb(T b a)",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "newCons",
           "package": "data-ref",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "newCons",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003ea-\u003eb())-\u003e(c-\u003eb a)-\u003ea-\u003eb(T b a)",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "newLifted",
           "package": "data-ref",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "newLifted",
           "normalized": "a-\u003eb c(T(b c)a)",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "read",
           "package": "data-ref",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "read",
           "package": "data-ref",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:34 UTC 2014",
           "module": "Data.Ref",
           "name": "write",
           "package": "data-ref",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Data Ref",
+          "indexed": "2014-03-11T17:49:34",
           "module": "Data.Ref",
           "name": "write",
           "normalized": "a-\u003eb()",

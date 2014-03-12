@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TernaryTrees"
+        "phrase": "TernaryTrees",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "StringMap",
           "package": "TernaryTrees",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "StringMap",
           "package": "TernaryTrees",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStringMap v is ternary tree. It is commonly used for storing word lists\n like dictionaries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "StringMap",
           "package": "TernaryTrees",
@@ -49,6 +52,7 @@
         "index": {
           "description": "StringMap is ternary tree It is commonly used for storing word lists like dictionaries",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "StringMap",
           "package": "TernaryTrees",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "(!)",
           "package": "TernaryTrees",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "(!) !",
           "normalized": "StringMap a-\u003eString-\u003eMaybe a",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a (sorted) list of all keys in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "assocs",
           "package": "TernaryTrees",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Returns sorted list of all keys in the map",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "assocs",
           "normalized": "StringMap a-\u003e[(String,a)]",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a list of all the values in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "elems",
           "package": "TernaryTrees",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Makes list of all the values in the map",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "elems",
           "normalized": "StringMap a-\u003e[a]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "findWithDefault",
           "package": "TernaryTrees",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "findWithDefault",
           "normalized": "a-\u003eString-\u003eStringMap a-\u003ea",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new tree from a list of \u003ccode\u003estrings\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "fromList",
           "package": "TernaryTrees",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Creates new tree from list of strings",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "fromList",
           "normalized": "[(String,a)]-\u003eStringMap a",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts an entrie into a tree. Values with the same key will be replaced\n with the newer value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "insert",
           "package": "TernaryTrees",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Inserts an entrie into tree Values with the same key will be replaced with the newer value",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "insert",
           "normalized": "String-\u003ea-\u003eStringMap a-\u003eStringMap a",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a new value into the tree with a given function that combines the new value\n and the old value together to for a new entry.\n\u003c/p\u003e\u003cpre\u003e insertWith f key newval (fromList [(notkey,val1),(key,oldval)]) == fromList [(notkey,val1),(key,f newval oldval)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "insertWith",
           "package": "TernaryTrees",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Inserts new value into the tree with given function that combines the new value and the old value together to for new entry insertWith key newval fromList notkey val1 key oldval fromList notkey val1 key newval oldval",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eString-\u003ea-\u003eStringMap a-\u003eStringMap a",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a new value into the tree with a given function that combines the new value\n and the old value together to for a new entry.\n\u003c/p\u003e\u003cpre\u003e insertWithKey f key newval (fromList [(notkey,val1),(key,oldval)]) == fromList [(notkey,val1),(key,f key newval oldval)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "insertWithKey",
           "package": "TernaryTrees",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Inserts new value into the tree with given function that combines the new value and the old value together to for new entry insertWithKey key newval fromList notkey val1 key oldval fromList notkey val1 key key newval oldval",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "insertWithKey",
           "normalized": "(String-\u003ea-\u003ea-\u003ea)-\u003eString-\u003ea-\u003eStringMap a-\u003eStringMap a",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a (sorted) list of all keys in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "keys",
           "package": "TernaryTrees",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Returns sorted list of all keys in the map",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "keys",
           "normalized": "StringMap a-\u003e[String]",
@@ -287,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "lookup",
           "package": "TernaryTrees",
@@ -296,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "lookup",
           "normalized": "String-\u003eStringMap a-\u003eMaybe a",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e is a key in the TernaryMap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "member",
           "package": "TernaryTrees",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Returns true if the String is key in the TernaryMap",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "member",
           "normalized": "String-\u003eStringMap a-\u003eBool",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the map is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "null",
           "package": "TernaryTrees",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Returns true if the map is empty",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "null",
           "normalized": "StringMap a-\u003eBool",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickly build a tree without an initial tree. This should be used\n to create an initial tree, using insert there after.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "singleton",
           "package": "TernaryTrees",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Quickly build tree without an initial tree This should be used to create an initial tree using insert there after",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "singleton",
           "normalized": "String-\u003ea-\u003eStringMap a",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts how many entries there are in the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.StringMap",
           "name": "size",
           "package": "TernaryTrees",
@@ -396,6 +427,7 @@
         "index": {
           "description": "Counts how many entries there are in the tree",
           "hierarchy": "Data Map StringMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.StringMap",
           "name": "size",
           "normalized": "StringMap a-\u003eInt",
@@ -410,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "TernaryMap",
           "package": "TernaryTrees",
@@ -418,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "TernaryMap",
           "package": "TernaryTrees",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTernaryMap k v is ternary tree. It is commonly used for storing word lists\n like dictionaries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "TernaryMap",
           "package": "TernaryTrees",
@@ -441,6 +476,7 @@
         "index": {
           "description": "TernaryMap is ternary tree It is commonly used for storing word lists like dictionaries",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "TernaryMap",
           "package": "TernaryTrees",
@@ -454,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "(!)",
           "package": "TernaryTrees",
@@ -463,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "(!) !",
           "normalized": "TernaryMap a b-\u003e[a]-\u003eMaybe b",
@@ -478,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a (sorted) list of all keys in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "assocs",
           "package": "TernaryTrees",
@@ -488,6 +527,7 @@
         "index": {
           "description": "Returns sorted list of all keys in the map",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "assocs",
           "normalized": "TernaryMap a b-\u003e[([a],b)]",
@@ -503,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a list of all the values in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "elems",
           "package": "TernaryTrees",
@@ -513,6 +554,7 @@
         "index": {
           "description": "Makes list of all the values in the map",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "elems",
           "normalized": "TernaryMap a b-\u003e[b]",
@@ -527,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "findWithDefault",
           "package": "TernaryTrees",
@@ -536,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "findWithDefault",
           "normalized": "a-\u003e[b]-\u003eTernaryMap b a-\u003ea",
@@ -552,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new tree from a list of \u003ccode\u003estrings\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "fromList",
           "package": "TernaryTrees",
@@ -562,6 +607,7 @@
         "index": {
           "description": "Creates new tree from list of strings",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "fromList",
           "normalized": "[([a],b)]-\u003eTernaryMap a b",
@@ -578,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts an entrie into a tree. Values with the same key will be replaced\n with the newer value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "insert",
           "package": "TernaryTrees",
@@ -588,6 +635,7 @@
         "index": {
           "description": "Inserts an entrie into tree Values with the same key will be replaced with the newer value",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "insert",
           "normalized": "[a]-\u003eb-\u003eTernaryMap a b-\u003eTernaryMap a b",
@@ -603,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a new value into the tree with a given function that combines the new value\n and the old value together to for a new entry.\n\u003c/p\u003e\u003cpre\u003e insertWith f key newval (fromList [(notkey,val1),(key,oldval)]) == fromList [(notkey,val1),(key,f newval oldval)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "insertWith",
           "package": "TernaryTrees",
@@ -613,6 +662,7 @@
         "index": {
           "description": "Inserts new value into the tree with given function that combines the new value and the old value together to for new entry insertWith key newval fromList notkey val1 key oldval fromList notkey val1 key newval oldval",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[b]-\u003ea-\u003eTernaryMap b a-\u003eTernaryMap b a",
@@ -629,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a new value into the tree with a given function that combines the new value\n and the old value together to for a new entry.\n\u003c/p\u003e\u003cpre\u003e insertWithKey f key newval (fromList [(notkey,val1),(key,oldval)]) == fromList [(notkey,val1),(key,f key newval oldval)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "insertWithKey",
           "package": "TernaryTrees",
@@ -639,6 +690,7 @@
         "index": {
           "description": "Inserts new value into the tree with given function that combines the new value and the old value together to for new entry insertWithKey key newval fromList notkey val1 key oldval fromList notkey val1 key key newval oldval",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "insertWithKey",
           "normalized": "([a]-\u003eb-\u003eb-\u003eb)-\u003e[a]-\u003eb-\u003eTernaryMap a b-\u003eTernaryMap a b",
@@ -655,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a (sorted) list of all keys in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "keys",
           "package": "TernaryTrees",
@@ -665,6 +718,7 @@
         "index": {
           "description": "Returns sorted list of all keys in the map",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "keys",
           "normalized": "TernaryMap a b-\u003e[[a]]",
@@ -679,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "lookup",
           "package": "TernaryTrees",
@@ -688,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "lookup",
           "normalized": "[a]-\u003eTernaryMap a b-\u003eMaybe b",
@@ -703,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the `[k]` is a key in the TernaryMap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "member",
           "package": "TernaryTrees",
@@ -713,6 +770,7 @@
         "index": {
           "description": "Returns true if the is key in the TernaryMap",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "member",
           "normalized": "[a]-\u003eTernaryMap a b-\u003eBool",
@@ -728,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the map is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "null",
           "package": "TernaryTrees",
@@ -738,6 +797,7 @@
         "index": {
           "description": "Returns true if the map is empty",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "null",
           "normalized": "TernaryMap a b-\u003eBool",
@@ -753,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickly build a tree without an initial tree. This should be used\n to create an initial tree, using insert there after.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "singleton",
           "package": "TernaryTrees",
@@ -763,6 +824,7 @@
         "index": {
           "description": "Quickly build tree without an initial tree This should be used to create an initial tree using insert there after",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "singleton",
           "normalized": "[a]-\u003eb-\u003eTernaryMap a b",
@@ -778,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts how many entries there are in the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Map.TernaryMap",
           "name": "size",
           "package": "TernaryTrees",
@@ -788,6 +851,7 @@
         "index": {
           "description": "Counts how many entries there are in the tree",
           "hierarchy": "Data Map TernaryMap",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Map.TernaryMap",
           "name": "size",
           "normalized": "TernaryMap a b-\u003eInt",
@@ -802,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.StringSet",
           "name": "StringSet",
           "package": "TernaryTrees",
@@ -810,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Data Set StringSet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.StringSet",
           "name": "StringSet",
           "package": "TernaryTrees",
@@ -824,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStringSet is ternary tree. It is commonly used for storing word lists\n like dictionaries for spell checking etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.StringSet",
           "name": "StringSet",
           "package": "TernaryTrees",
@@ -833,6 +900,7 @@
         "index": {
           "description": "StringSet is ternary tree It is commonly used for storing word lists like dictionaries for spell checking etc",
           "hierarchy": "Data Set StringSet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.StringSet",
           "name": "StringSet",
           "package": "TernaryTrees",
@@ -847,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a (sorted) list of all strings inserted into the set.\n\u003c/p\u003e\u003cpre\u003e (elems . fromList) xs == (nub . sort) xs\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.StringSet",
           "name": "elems",
           "package": "TernaryTrees",
@@ -857,6 +926,7 @@
         "index": {
           "description": "Returns sorted list of all strings inserted into the set elems fromList xs nub sort xs",
           "hierarchy": "Data Set StringSet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.StringSet",
           "name": "elems",
           "normalized": "StringSet-\u003e[String]",
@@ -872,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.StringSet",
           "name": "empty",
           "package": "TernaryTrees",
@@ -882,6 +953,7 @@
         "index": {
           "description": "An empty set",
           "hierarchy": "Data Set StringSet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.StringSet",
           "name": "empty",
           "package": "TernaryTrees",
@@ -895,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new tree from a list of \u003ccode\u003eStrings\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.StringSet",
           "name": "fromList",
           "package": "TernaryTrees",
@@ -905,6 +978,7 @@
         "index": {
           "description": "Creates new tree from list of Strings",
           "hierarchy": "Data Set StringSet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.StringSet",
           "name": "fromList",
           "normalized": "[String]-\u003eStringSet",
@@ -921,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a new \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e element into a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.StringSet",
           "name": "insert",
           "package": "TernaryTrees",
@@ -931,6 +1006,7 @@
         "index": {
           "description": "Inserts new String element into tree",
           "hierarchy": "Data Set StringSet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.StringSet",
           "name": "insert",
           "normalized": "String-\u003eStringSet-\u003eStringSet",
@@ -946,6 +1022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the string is in the StringSet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.StringSet",
           "name": "member",
           "package": "TernaryTrees",
@@ -956,6 +1033,7 @@
         "index": {
           "description": "Returns true if the string is in the StringSet",
           "hierarchy": "Data Set StringSet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.StringSet",
           "name": "member",
           "normalized": "String-\u003eStringSet-\u003eBool",
@@ -971,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the set is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.StringSet",
           "name": "null",
           "package": "TernaryTrees",
@@ -981,6 +1060,7 @@
         "index": {
           "description": "Returns true if the set is empty",
           "hierarchy": "Data Set StringSet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.StringSet",
           "name": "null",
           "normalized": "StringSet-\u003eBool",
@@ -996,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickly build an initial tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.StringSet",
           "name": "singleton",
           "package": "TernaryTrees",
@@ -1006,6 +1087,7 @@
         "index": {
           "description": "Quickly build an initial tree",
           "hierarchy": "Data Set StringSet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.StringSet",
           "name": "singleton",
           "normalized": "String-\u003eStringSet",
@@ -1021,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts how many entries there are in the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.StringSet",
           "name": "size",
           "package": "TernaryTrees",
@@ -1031,6 +1114,7 @@
         "index": {
           "description": "Counts how many entries there are in the tree",
           "hierarchy": "Data Set StringSet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.StringSet",
           "name": "size",
           "normalized": "StringSet-\u003eInt",
@@ -1045,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.TernarySet",
           "name": "TernarySet",
           "package": "TernaryTrees",
@@ -1053,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Data Set TernarySet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.TernarySet",
           "name": "TernarySet",
           "package": "TernaryTrees",
@@ -1067,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTernarySet a is ternary tree. It is commonly used for storing word lists\n like dictionaries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.TernarySet",
           "name": "TernarySet",
           "package": "TernaryTrees",
@@ -1076,6 +1163,7 @@
         "index": {
           "description": "TernarySet is ternary tree It is commonly used for storing word lists like dictionaries",
           "hierarchy": "Data Set TernarySet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.TernarySet",
           "name": "TernarySet",
           "package": "TernaryTrees",
@@ -1090,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a (sorted) list of all elements inserted into the set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.TernarySet",
           "name": "elems",
           "package": "TernaryTrees",
@@ -1100,6 +1189,7 @@
         "index": {
           "description": "Returns sorted list of all elements inserted into the set",
           "hierarchy": "Data Set TernarySet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.TernarySet",
           "name": "elems",
           "normalized": "TernarySet a-\u003e[[a]]",
@@ -1115,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new tree from a list of \u003ccode\u003estrings\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.TernarySet",
           "name": "fromList",
           "package": "TernaryTrees",
@@ -1125,6 +1216,7 @@
         "index": {
           "description": "Creates new tree from list of strings",
           "hierarchy": "Data Set TernarySet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.TernarySet",
           "name": "fromList",
           "normalized": "[[a]]-\u003eTernarySet a",
@@ -1141,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts an entries into a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.TernarySet",
           "name": "insert",
           "package": "TernaryTrees",
@@ -1151,6 +1244,7 @@
         "index": {
           "description": "Inserts an entries into tree",
           "hierarchy": "Data Set TernarySet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.TernarySet",
           "name": "insert",
           "normalized": "[a]-\u003eTernarySet a-\u003eTernarySet a",
@@ -1166,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the `[a]` is in the TernarySet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.TernarySet",
           "name": "member",
           "package": "TernaryTrees",
@@ -1176,6 +1271,7 @@
         "index": {
           "description": "Returns true if the is in the TernarySet",
           "hierarchy": "Data Set TernarySet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.TernarySet",
           "name": "member",
           "normalized": "[a]-\u003eTernarySet a-\u003eBool",
@@ -1191,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the set is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.TernarySet",
           "name": "null",
           "package": "TernaryTrees",
@@ -1201,6 +1298,7 @@
         "index": {
           "description": "Returns true if the set is empty",
           "hierarchy": "Data Set TernarySet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.TernarySet",
           "name": "null",
           "normalized": "TernarySet a-\u003eBool",
@@ -1216,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickly build a tree without an initial tree. This should be used\n to create an initial tree, using insert there after.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.TernarySet",
           "name": "singleton",
           "package": "TernaryTrees",
@@ -1226,6 +1325,7 @@
         "index": {
           "description": "Quickly build tree without an initial tree This should be used to create an initial tree using insert there after",
           "hierarchy": "Data Set TernarySet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.TernarySet",
           "name": "singleton",
           "normalized": "[a]-\u003eTernarySet a",
@@ -1241,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts how many entries there are in the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:12 UTC 2014",
           "module": "Data.Set.TernarySet",
           "name": "size",
           "package": "TernaryTrees",
@@ -1251,6 +1352,7 @@
         "index": {
           "description": "Counts how many entries there are in the tree",
           "hierarchy": "Data Set TernarySet",
+          "indexed": "2014-03-11T17:02:12",
           "module": "Data.Set.TernarySet",
           "name": "size",
           "normalized": "TernarySet a-\u003eInt",

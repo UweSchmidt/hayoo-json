@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "epanet-haskell"
+        "phrase": "epanet-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "Epanet",
           "package": "epanet-haskell",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "Epanet",
           "package": "epanet-haskell",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "addPattern",
           "package": "epanet-haskell",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "addPattern",
           "normalized": "String-\u003eInt",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENaddpattern",
           "package": "epanet-haskell",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENaddpattern",
           "normalized": "CString-\u003eCInt",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENclose",
           "package": "epanet-haskell",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENclose",
           "package": "epanet-haskell",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENcloseH",
           "package": "epanet-haskell",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENcloseH",
           "package": "epanet-haskell",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENcloseQ",
           "package": "epanet-haskell",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENcloseQ",
           "package": "epanet-haskell",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENepanet",
           "package": "epanet-haskell",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENepanet",
           "normalized": "CString-\u003eCString-\u003eCString-\u003ePtr CInt-\u003eCInt",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetcontrol",
           "package": "epanet-haskell",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetcontrol",
           "normalized": "CInt-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CFloat-\u003ePtr CInt-\u003ePtr CFloat-\u003eCInt",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetcount",
           "package": "epanet-haskell",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetcount",
           "normalized": "CInt-\u003ePtr CInt-\u003eCInt",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgeterror",
           "package": "epanet-haskell",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgeterror",
           "normalized": "CInt-\u003eCString-\u003eCInt-\u003eCInt",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetflowunits",
           "package": "epanet-haskell",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetflowunits",
           "normalized": "Ptr CInt-\u003eCInt",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetlinkid",
           "package": "epanet-haskell",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetlinkid",
           "normalized": "CInt-\u003eCString-\u003eCInt",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetlinkindex",
           "package": "epanet-haskell",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetlinkindex",
           "normalized": "CString-\u003ePtr CInt-\u003eCInt",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetlinknodes",
           "package": "epanet-haskell",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetlinknodes",
           "normalized": "CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eCInt",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetlinktype",
           "package": "epanet-haskell",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetlinktype",
           "normalized": "CInt-\u003ePtr CInt-\u003eCInt",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetlinkvalue",
           "package": "epanet-haskell",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetlinkvalue",
           "normalized": "CInt-\u003eCInt-\u003ePtr CFloat-\u003eCInt",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetnodeid",
           "package": "epanet-haskell",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetnodeid",
           "normalized": "CInt-\u003eCString-\u003eCInt",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetnodeindex",
           "package": "epanet-haskell",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetnodeindex",
           "normalized": "CString-\u003ePtr CInt-\u003eCInt",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetnodetype",
           "package": "epanet-haskell",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetnodetype",
           "normalized": "CInt-\u003ePtr CInt-\u003eCInt",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetnodevalue",
           "package": "epanet-haskell",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetnodevalue",
           "normalized": "CInt-\u003eCInt-\u003ePtr CFloat-\u003eCInt",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetoption",
           "package": "epanet-haskell",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetoption",
           "normalized": "CInt-\u003ePtr CFloat-\u003eCInt",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetpatternid",
           "package": "epanet-haskell",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetpatternid",
           "normalized": "CInt-\u003eCString-\u003eCInt",
@@ -537,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetpatternindex",
           "package": "epanet-haskell",
@@ -546,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetpatternindex",
           "normalized": "CString-\u003ePtr CInt-\u003eCInt",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetpatternlen",
           "package": "epanet-haskell",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetpatternlen",
           "normalized": "CInt-\u003ePtr CInt-\u003eCInt",
@@ -585,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetpatternvalue",
           "package": "epanet-haskell",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetpatternvalue",
           "normalized": "CInt-\u003eCInt-\u003ePtr CFloat-\u003eCInt",
@@ -609,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetqualtype",
           "package": "epanet-haskell",
@@ -618,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetqualtype",
           "normalized": "Ptr CInt-\u003ePtr CInt-\u003eCInt",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgettimeparam",
           "package": "epanet-haskell",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgettimeparam",
           "normalized": "CInt-\u003ePtr CLong-\u003eCInt",
@@ -657,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENgetversion",
           "package": "epanet-haskell",
@@ -666,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENgetversion",
           "normalized": "Ptr CInt-\u003eCInt",
@@ -681,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENinitH",
           "package": "epanet-haskell",
@@ -690,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENinitH",
           "normalized": "CInt-\u003eCInt",
@@ -705,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENinitQ",
           "package": "epanet-haskell",
@@ -714,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENinitQ",
           "normalized": "CInt-\u003eCInt",
@@ -729,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENnextH",
           "package": "epanet-haskell",
@@ -738,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENnextH",
           "normalized": "Ptr CLong-\u003eCInt",
@@ -753,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENnextQ",
           "package": "epanet-haskell",
@@ -762,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENnextQ",
           "normalized": "Ptr CLong-\u003eCInt",
@@ -777,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENopen",
           "package": "epanet-haskell",
@@ -786,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENopen",
           "normalized": "CString-\u003eCString-\u003eCString-\u003eCInt",
@@ -801,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENopenH",
           "package": "epanet-haskell",
@@ -810,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENopenH",
           "package": "epanet-haskell",
@@ -823,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENopenQ",
           "package": "epanet-haskell",
@@ -832,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENopenQ",
           "package": "epanet-haskell",
@@ -845,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENreport",
           "package": "epanet-haskell",
@@ -854,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENreport",
           "package": "epanet-haskell",
@@ -867,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENresetreport",
           "package": "epanet-haskell",
@@ -876,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENresetreport",
           "package": "epanet-haskell",
@@ -889,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENrunH",
           "package": "epanet-haskell",
@@ -898,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENrunH",
           "normalized": "Ptr CLong-\u003eCInt",
@@ -913,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENrunQ",
           "package": "epanet-haskell",
@@ -922,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENrunQ",
           "normalized": "Ptr CLong-\u003eCInt",
@@ -937,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsaveH",
           "package": "epanet-haskell",
@@ -946,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsaveH",
           "package": "epanet-haskell",
@@ -959,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsavehydfile",
           "package": "epanet-haskell",
@@ -968,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsavehydfile",
           "normalized": "CString-\u003eCInt",
@@ -983,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsaveinpfile",
           "package": "epanet-haskell",
@@ -992,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsaveinpfile",
           "normalized": "CString-\u003eCInt",
@@ -1007,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsetcontrol",
           "package": "epanet-haskell",
@@ -1016,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsetcontrol",
           "normalized": "CInt-\u003eCInt-\u003eCInt-\u003eCFloat-\u003eCInt-\u003eCFloat-\u003eCInt",
@@ -1031,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsetlinkvalue",
           "package": "epanet-haskell",
@@ -1040,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsetlinkvalue",
           "normalized": "CInt-\u003eCInt-\u003eCFloat-\u003eCInt",
@@ -1055,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsetnodevalue",
           "package": "epanet-haskell",
@@ -1064,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsetnodevalue",
           "normalized": "CInt-\u003eCInt-\u003eCFloat-\u003eCInt",
@@ -1079,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsetoption",
           "package": "epanet-haskell",
@@ -1088,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsetoption",
           "normalized": "CInt-\u003eCFloat-\u003eCInt",
@@ -1103,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsetpatternvalue",
           "package": "epanet-haskell",
@@ -1112,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsetpatternvalue",
           "normalized": "CInt-\u003eCInt-\u003eCFloat-\u003eCInt",
@@ -1127,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsetqualtype",
           "package": "epanet-haskell",
@@ -1136,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsetqualtype",
           "normalized": "CInt-\u003eCString-\u003eCString-\u003eCString-\u003eCInt",
@@ -1151,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsetreport",
           "package": "epanet-haskell",
@@ -1160,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsetreport",
           "normalized": "CString-\u003eCInt",
@@ -1175,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsetstatusreport",
           "package": "epanet-haskell",
@@ -1184,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsetstatusreport",
           "normalized": "CInt-\u003eCInt",
@@ -1199,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsettimeparam",
           "package": "epanet-haskell",
@@ -1208,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsettimeparam",
           "normalized": "CInt-\u003eCLong-\u003eCInt",
@@ -1223,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsolveH",
           "package": "epanet-haskell",
@@ -1232,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsolveH",
           "package": "epanet-haskell",
@@ -1245,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENsolveQ",
           "package": "epanet-haskell",
@@ -1254,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENsolveQ",
           "package": "epanet-haskell",
@@ -1267,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENstepQ",
           "package": "epanet-haskell",
@@ -1276,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENstepQ",
           "normalized": "Ptr CLong-\u003eCInt",
@@ -1291,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENusehydfile",
           "package": "epanet-haskell",
@@ -1300,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENusehydfile",
           "normalized": "CString-\u003eCInt",
@@ -1315,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "c_ENwriteline",
           "package": "epanet-haskell",
@@ -1324,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "c_ENwriteline",
           "normalized": "CString-\u003eCInt",
@@ -1339,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "close",
           "package": "epanet-haskell",
@@ -1348,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "close",
           "package": "epanet-haskell",
@@ -1360,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "closeH",
           "package": "epanet-haskell",
@@ -1369,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "closeH",
           "package": "epanet-haskell",
@@ -1381,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "closeQ",
           "package": "epanet-haskell",
@@ -1390,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "closeQ",
           "package": "epanet-haskell",
@@ -1402,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_ACCURACY",
           "package": "epanet-haskell",
@@ -1411,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_ACCURACY",
           "package": "epanet-haskell",
@@ -1424,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_AFD",
           "package": "epanet-haskell",
@@ -1433,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_AFD",
           "package": "epanet-haskell",
@@ -1446,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_AGE",
           "package": "epanet-haskell",
@@ -1455,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_AGE",
           "package": "epanet-haskell",
@@ -1468,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_AVERAGE",
           "package": "epanet-haskell",
@@ -1477,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_AVERAGE",
           "package": "epanet-haskell",
@@ -1490,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_BASEDEMAND",
           "package": "epanet-haskell",
@@ -1499,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_BASEDEMAND",
           "package": "epanet-haskell",
@@ -1512,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_CFS",
           "package": "epanet-haskell",
@@ -1521,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_CFS",
           "package": "epanet-haskell",
@@ -1534,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_CHEM",
           "package": "epanet-haskell",
@@ -1543,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_CHEM",
           "package": "epanet-haskell",
@@ -1556,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_CMD",
           "package": "epanet-haskell",
@@ -1565,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_CMD",
           "package": "epanet-haskell",
@@ -1578,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_CMH",
           "package": "epanet-haskell",
@@ -1587,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_CMH",
           "package": "epanet-haskell",
@@ -1600,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_CONCEN",
           "package": "epanet-haskell",
@@ -1609,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_CONCEN",
           "package": "epanet-haskell",
@@ -1622,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_CONTROLCOUNT",
           "package": "epanet-haskell",
@@ -1631,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_CONTROLCOUNT",
           "package": "epanet-haskell",
@@ -1644,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_CURVECOUNT",
           "package": "epanet-haskell",
@@ -1653,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_CURVECOUNT",
           "package": "epanet-haskell",
@@ -1666,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_CVPIPE",
           "package": "epanet-haskell",
@@ -1675,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_CVPIPE",
           "package": "epanet-haskell",
@@ -1688,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_DEMAND",
           "package": "epanet-haskell",
@@ -1697,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_DEMAND",
           "package": "epanet-haskell",
@@ -1710,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_DEMANDMULT",
           "package": "epanet-haskell",
@@ -1719,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_DEMANDMULT",
           "package": "epanet-haskell",
@@ -1732,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_DIAMETER",
           "package": "epanet-haskell",
@@ -1741,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_DIAMETER",
           "package": "epanet-haskell",
@@ -1754,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_DURATION",
           "package": "epanet-haskell",
@@ -1763,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_DURATION",
           "package": "epanet-haskell",
@@ -1776,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_ELEVATION",
           "package": "epanet-haskell",
@@ -1785,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_ELEVATION",
           "package": "epanet-haskell",
@@ -1798,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_EMITEXPON",
           "package": "epanet-haskell",
@@ -1807,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_EMITEXPON",
           "package": "epanet-haskell",
@@ -1820,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_EMITTER",
           "package": "epanet-haskell",
@@ -1829,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_EMITTER",
           "package": "epanet-haskell",
@@ -1842,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_ENERGY",
           "package": "epanet-haskell",
@@ -1851,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_ENERGY",
           "package": "epanet-haskell",
@@ -1864,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_FCV",
           "package": "epanet-haskell",
@@ -1873,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_FCV",
           "package": "epanet-haskell",
@@ -1886,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_FIFO",
           "package": "epanet-haskell",
@@ -1895,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_FIFO",
           "package": "epanet-haskell",
@@ -1908,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_FLOW",
           "package": "epanet-haskell",
@@ -1917,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_FLOW",
           "package": "epanet-haskell",
@@ -1930,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_FLOWPACED",
           "package": "epanet-haskell",
@@ -1939,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_FLOWPACED",
           "package": "epanet-haskell",
@@ -1952,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_GPM",
           "package": "epanet-haskell",
@@ -1961,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_GPM",
           "package": "epanet-haskell",
@@ -1974,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_GPV",
           "package": "epanet-haskell",
@@ -1983,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_GPV",
           "package": "epanet-haskell",
@@ -1996,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_HEAD",
           "package": "epanet-haskell",
@@ -2005,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_HEAD",
           "package": "epanet-haskell",
@@ -2018,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_HEADLOSS",
           "package": "epanet-haskell",
@@ -2027,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_HEADLOSS",
           "package": "epanet-haskell",
@@ -2040,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_HILEVEL",
           "package": "epanet-haskell",
@@ -2049,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_HILEVEL",
           "package": "epanet-haskell",
@@ -2062,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_HYDSTEP",
           "package": "epanet-haskell",
@@ -2071,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_HYDSTEP",
           "package": "epanet-haskell",
@@ -2084,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_IMGD",
           "package": "epanet-haskell",
@@ -2093,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_IMGD",
           "package": "epanet-haskell",
@@ -2106,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_INITFLOW",
           "package": "epanet-haskell",
@@ -2115,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_INITFLOW",
           "package": "epanet-haskell",
@@ -2128,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_INITQUAL",
           "package": "epanet-haskell",
@@ -2137,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_INITQUAL",
           "package": "epanet-haskell",
@@ -2150,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_INITSETTING",
           "package": "epanet-haskell",
@@ -2159,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_INITSETTING",
           "package": "epanet-haskell",
@@ -2172,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_INITSTATUS",
           "package": "epanet-haskell",
@@ -2181,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_INITSTATUS",
           "package": "epanet-haskell",
@@ -2194,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_INITVOLUME",
           "package": "epanet-haskell",
@@ -2203,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_INITVOLUME",
           "package": "epanet-haskell",
@@ -2216,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_JUNCTION",
           "package": "epanet-haskell",
@@ -2225,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_JUNCTION",
           "package": "epanet-haskell",
@@ -2238,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_KBULK",
           "package": "epanet-haskell",
@@ -2247,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_KBULK",
           "package": "epanet-haskell",
@@ -2260,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_KWALL",
           "package": "epanet-haskell",
@@ -2269,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_KWALL",
           "package": "epanet-haskell",
@@ -2282,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_LENGTH",
           "package": "epanet-haskell",
@@ -2291,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_LENGTH",
           "package": "epanet-haskell",
@@ -2304,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_LIFO",
           "package": "epanet-haskell",
@@ -2313,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_LIFO",
           "package": "epanet-haskell",
@@ -2326,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_LINKCOUNT",
           "package": "epanet-haskell",
@@ -2335,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_LINKCOUNT",
           "package": "epanet-haskell",
@@ -2348,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_LOWLEVEL",
           "package": "epanet-haskell",
@@ -2357,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_LOWLEVEL",
           "package": "epanet-haskell",
@@ -2370,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_LPM",
           "package": "epanet-haskell",
@@ -2379,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_LPM",
           "package": "epanet-haskell",
@@ -2392,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_LPS",
           "package": "epanet-haskell",
@@ -2401,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_LPS",
           "package": "epanet-haskell",
@@ -2414,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MASS",
           "package": "epanet-haskell",
@@ -2423,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MASS",
           "package": "epanet-haskell",
@@ -2436,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MAXIMUM",
           "package": "epanet-haskell",
@@ -2445,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MAXIMUM",
           "package": "epanet-haskell",
@@ -2458,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MAXLEVEL",
           "package": "epanet-haskell",
@@ -2467,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MAXLEVEL",
           "package": "epanet-haskell",
@@ -2480,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MGD",
           "package": "epanet-haskell",
@@ -2489,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MGD",
           "package": "epanet-haskell",
@@ -2502,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MINIMUM",
           "package": "epanet-haskell",
@@ -2511,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MINIMUM",
           "package": "epanet-haskell",
@@ -2524,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MINLEVEL",
           "package": "epanet-haskell",
@@ -2533,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MINLEVEL",
           "package": "epanet-haskell",
@@ -2546,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MINORLOSS",
           "package": "epanet-haskell",
@@ -2555,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MINORLOSS",
           "package": "epanet-haskell",
@@ -2568,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MINVOLUME",
           "package": "epanet-haskell",
@@ -2577,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MINVOLUME",
           "package": "epanet-haskell",
@@ -2590,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MIX1",
           "package": "epanet-haskell",
@@ -2599,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MIX1",
           "package": "epanet-haskell",
@@ -2612,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MIX2",
           "package": "epanet-haskell",
@@ -2621,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MIX2",
           "package": "epanet-haskell",
@@ -2634,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MIXFRACTION",
           "package": "epanet-haskell",
@@ -2643,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MIXFRACTION",
           "package": "epanet-haskell",
@@ -2656,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MIXMODEL",
           "package": "epanet-haskell",
@@ -2665,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MIXMODEL",
           "package": "epanet-haskell",
@@ -2678,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MIXZONEVOL",
           "package": "epanet-haskell",
@@ -2687,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MIXZONEVOL",
           "package": "epanet-haskell",
@@ -2700,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_MLD",
           "package": "epanet-haskell",
@@ -2709,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_MLD",
           "package": "epanet-haskell",
@@ -2722,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_NODECOUNT",
           "package": "epanet-haskell",
@@ -2731,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_NODECOUNT",
           "package": "epanet-haskell",
@@ -2744,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_NONE",
           "package": "epanet-haskell",
@@ -2753,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_NONE",
           "package": "epanet-haskell",
@@ -2766,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_NOSAVE",
           "package": "epanet-haskell",
@@ -2775,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_NOSAVE",
           "package": "epanet-haskell",
@@ -2788,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_PATCOUNT",
           "package": "epanet-haskell",
@@ -2797,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_PATCOUNT",
           "package": "epanet-haskell",
@@ -2810,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_PATTERN",
           "package": "epanet-haskell",
@@ -2819,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_PATTERN",
           "package": "epanet-haskell",
@@ -2832,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_PATTERNSTART",
           "package": "epanet-haskell",
@@ -2841,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_PATTERNSTART",
           "package": "epanet-haskell",
@@ -2854,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_PATTERNSTEP",
           "package": "epanet-haskell",
@@ -2863,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_PATTERNSTEP",
           "package": "epanet-haskell",
@@ -2876,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_PBV",
           "package": "epanet-haskell",
@@ -2885,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_PBV",
           "package": "epanet-haskell",
@@ -2898,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_PERIODS",
           "package": "epanet-haskell",
@@ -2907,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_PERIODS",
           "package": "epanet-haskell",
@@ -2920,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_PIPE",
           "package": "epanet-haskell",
@@ -2929,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_PIPE",
           "package": "epanet-haskell",
@@ -2942,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_PRESSURE",
           "package": "epanet-haskell",
@@ -2951,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_PRESSURE",
           "package": "epanet-haskell",
@@ -2964,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_PRV",
           "package": "epanet-haskell",
@@ -2973,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_PRV",
           "package": "epanet-haskell",
@@ -2986,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_PSV",
           "package": "epanet-haskell",
@@ -2995,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_PSV",
           "package": "epanet-haskell",
@@ -3008,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_PUMP",
           "package": "epanet-haskell",
@@ -3017,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_PUMP",
           "package": "epanet-haskell",
@@ -3030,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_QUALITY",
           "package": "epanet-haskell",
@@ -3039,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_QUALITY",
           "package": "epanet-haskell",
@@ -3052,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_QUALSTEP",
           "package": "epanet-haskell",
@@ -3061,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_QUALSTEP",
           "package": "epanet-haskell",
@@ -3074,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_RANGE",
           "package": "epanet-haskell",
@@ -3083,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_RANGE",
           "package": "epanet-haskell",
@@ -3096,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_REPORTSTART",
           "package": "epanet-haskell",
@@ -3105,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_REPORTSTART",
           "package": "epanet-haskell",
@@ -3118,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_REPORTSTEP",
           "package": "epanet-haskell",
@@ -3127,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_REPORTSTEP",
           "package": "epanet-haskell",
@@ -3140,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_RESERVOIR",
           "package": "epanet-haskell",
@@ -3149,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_RESERVOIR",
           "package": "epanet-haskell",
@@ -3162,6 +3440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_ROUGHNESS",
           "package": "epanet-haskell",
@@ -3171,6 +3450,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_ROUGHNESS",
           "package": "epanet-haskell",
@@ -3184,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_RULESTEP",
           "package": "epanet-haskell",
@@ -3193,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_RULESTEP",
           "package": "epanet-haskell",
@@ -3206,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_SAVE",
           "package": "epanet-haskell",
@@ -3215,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_SAVE",
           "package": "epanet-haskell",
@@ -3228,6 +3512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_SETPOINT",
           "package": "epanet-haskell",
@@ -3237,6 +3522,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_SETPOINT",
           "package": "epanet-haskell",
@@ -3250,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_SETTING",
           "package": "epanet-haskell",
@@ -3259,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_SETTING",
           "package": "epanet-haskell",
@@ -3272,6 +3560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_SOURCEMASS",
           "package": "epanet-haskell",
@@ -3281,6 +3570,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_SOURCEMASS",
           "package": "epanet-haskell",
@@ -3294,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_SOURCEPAT",
           "package": "epanet-haskell",
@@ -3303,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_SOURCEPAT",
           "package": "epanet-haskell",
@@ -3316,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_SOURCEQUAL",
           "package": "epanet-haskell",
@@ -3325,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_SOURCEQUAL",
           "package": "epanet-haskell",
@@ -3338,6 +3632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_SOURCETYPE",
           "package": "epanet-haskell",
@@ -3347,6 +3642,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_SOURCETYPE",
           "package": "epanet-haskell",
@@ -3360,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_STATISTIC",
           "package": "epanet-haskell",
@@ -3369,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_STATISTIC",
           "package": "epanet-haskell",
@@ -3382,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_STATUS",
           "package": "epanet-haskell",
@@ -3391,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_STATUS",
           "package": "epanet-haskell",
@@ -3404,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_TANK",
           "package": "epanet-haskell",
@@ -3413,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_TANK",
           "package": "epanet-haskell",
@@ -3426,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_TANKCOUNT",
           "package": "epanet-haskell",
@@ -3435,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_TANKCOUNT",
           "package": "epanet-haskell",
@@ -3448,6 +3752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_TANKDIAM",
           "package": "epanet-haskell",
@@ -3457,6 +3762,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_TANKDIAM",
           "package": "epanet-haskell",
@@ -3470,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_TANKLEVEL",
           "package": "epanet-haskell",
@@ -3479,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_TANKLEVEL",
           "package": "epanet-haskell",
@@ -3492,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_TANK_KBULK",
           "package": "epanet-haskell",
@@ -3501,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_TANK_KBULK",
           "package": "epanet-haskell",
@@ -3514,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_TCV",
           "package": "epanet-haskell",
@@ -3523,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_TCV",
           "package": "epanet-haskell",
@@ -3536,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_TIMEOFDAY",
           "package": "epanet-haskell",
@@ -3545,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_TIMEOFDAY",
           "package": "epanet-haskell",
@@ -3558,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_TIMER",
           "package": "epanet-haskell",
@@ -3567,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_TIMER",
           "package": "epanet-haskell",
@@ -3580,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_TOLERANCE",
           "package": "epanet-haskell",
@@ -3589,6 +3906,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_TOLERANCE",
           "package": "epanet-haskell",
@@ -3602,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_TRACE",
           "package": "epanet-haskell",
@@ -3611,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_TRACE",
           "package": "epanet-haskell",
@@ -3624,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_TRIALS",
           "package": "epanet-haskell",
@@ -3633,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_TRIALS",
           "package": "epanet-haskell",
@@ -3646,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_VELOCITY",
           "package": "epanet-haskell",
@@ -3655,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_VELOCITY",
           "package": "epanet-haskell",
@@ -3668,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "en_VOLCURVE",
           "package": "epanet-haskell",
@@ -3677,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "en_VOLCURVE",
           "package": "epanet-haskell",
@@ -3690,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "epanet",
           "package": "epanet-haskell",
@@ -3699,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "epanet",
           "normalized": "String-\u003eString-\u003eString-\u003eInt",
@@ -3713,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getControl",
           "package": "epanet-haskell",
@@ -3722,6 +4051,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getControl",
           "normalized": "Int-\u003eEither Int(Int,Int,Float,Int,Float)",
@@ -3737,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getCount",
           "package": "epanet-haskell",
@@ -3746,6 +4077,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getCount",
           "normalized": "Int-\u003eEither Int Int",
@@ -3761,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getError",
           "package": "epanet-haskell",
@@ -3770,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getError",
           "normalized": "Int-\u003eInt-\u003eEither Int String",
@@ -3785,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getFlowUnits",
           "package": "epanet-haskell",
@@ -3794,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getFlowUnits",
           "package": "epanet-haskell",
@@ -3807,6 +4143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getLinkId",
           "package": "epanet-haskell",
@@ -3816,6 +4153,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getLinkId",
           "normalized": "Int-\u003eEither Int String",
@@ -3831,6 +4169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getLinkIndex",
           "package": "epanet-haskell",
@@ -3840,6 +4179,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getLinkIndex",
           "normalized": "String-\u003eEither Int Int",
@@ -3855,6 +4195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getLinkNodes",
           "package": "epanet-haskell",
@@ -3864,6 +4205,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getLinkNodes",
           "normalized": "Int-\u003eEither Int(Int,Int)",
@@ -3879,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getLinkType",
           "package": "epanet-haskell",
@@ -3888,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getLinkType",
           "normalized": "Int-\u003eEither Int Int",
@@ -3903,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getLinkValue",
           "package": "epanet-haskell",
@@ -3912,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getLinkValue",
           "normalized": "Int-\u003eInt-\u003eEither Int Float",
@@ -3927,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getNodeId",
           "package": "epanet-haskell",
@@ -3936,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getNodeId",
           "normalized": "Int-\u003eEither Int String",
@@ -3951,6 +4299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getNodeIndex",
           "package": "epanet-haskell",
@@ -3960,6 +4309,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getNodeIndex",
           "normalized": "String-\u003eEither Int Int",
@@ -3975,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getNodeType",
           "package": "epanet-haskell",
@@ -3984,6 +4335,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getNodeType",
           "normalized": "Int-\u003eEither Int Int",
@@ -3999,6 +4351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getNodeValue",
           "package": "epanet-haskell",
@@ -4008,6 +4361,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getNodeValue",
           "normalized": "Int-\u003eInt-\u003eEither Int Float",
@@ -4023,6 +4377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getOption",
           "package": "epanet-haskell",
@@ -4032,6 +4387,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getOption",
           "normalized": "Int-\u003eEither Int Float",
@@ -4047,6 +4403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getPatternId",
           "package": "epanet-haskell",
@@ -4056,6 +4413,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getPatternId",
           "normalized": "Int-\u003eEither Int String",
@@ -4071,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getPatternIndex",
           "package": "epanet-haskell",
@@ -4080,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getPatternIndex",
           "normalized": "String-\u003eEither Int Int",
@@ -4095,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getPatternLen",
           "package": "epanet-haskell",
@@ -4104,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getPatternLen",
           "normalized": "Int-\u003eEither Int Int",
@@ -4119,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getPatternValue",
           "package": "epanet-haskell",
@@ -4128,6 +4491,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getPatternValue",
           "normalized": "Int-\u003eInt-\u003eEither Int Float",
@@ -4143,6 +4507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getQualType",
           "package": "epanet-haskell",
@@ -4152,6 +4517,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getQualType",
           "normalized": "Either Int(Int,Int)",
@@ -4167,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getTimeParam",
           "package": "epanet-haskell",
@@ -4176,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getTimeParam",
           "normalized": "Int-\u003eEither Int Int",
@@ -4191,6 +4559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "getVersion",
           "package": "epanet-haskell",
@@ -4200,6 +4569,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "getVersion",
           "package": "epanet-haskell",
@@ -4213,6 +4583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "initH",
           "package": "epanet-haskell",
@@ -4222,6 +4593,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "initH",
           "normalized": "Int-\u003eInt",
@@ -4236,6 +4608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "initQ",
           "package": "epanet-haskell",
@@ -4245,6 +4618,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "initQ",
           "normalized": "Int-\u003eInt",
@@ -4259,6 +4633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "nextH",
           "package": "epanet-haskell",
@@ -4268,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "nextH",
           "package": "epanet-haskell",
@@ -4280,6 +4656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "nextQ",
           "package": "epanet-haskell",
@@ -4289,6 +4666,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "nextQ",
           "package": "epanet-haskell",
@@ -4301,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "open",
           "package": "epanet-haskell",
@@ -4310,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "open",
           "normalized": "String-\u003eString-\u003eString-\u003eInt",
@@ -4324,6 +4704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "openH",
           "package": "epanet-haskell",
@@ -4333,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "openH",
           "package": "epanet-haskell",
@@ -4345,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "openQ",
           "package": "epanet-haskell",
@@ -4354,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "openQ",
           "package": "epanet-haskell",
@@ -4366,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "report",
           "package": "epanet-haskell",
@@ -4375,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "report",
           "package": "epanet-haskell",
@@ -4387,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "resetReport",
           "package": "epanet-haskell",
@@ -4396,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "resetReport",
           "package": "epanet-haskell",
@@ -4409,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "runH",
           "package": "epanet-haskell",
@@ -4418,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "runH",
           "package": "epanet-haskell",
@@ -4430,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "runQ",
           "package": "epanet-haskell",
@@ -4439,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "runQ",
           "package": "epanet-haskell",
@@ -4451,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "saveH",
           "package": "epanet-haskell",
@@ -4460,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "saveH",
           "package": "epanet-haskell",
@@ -4472,6 +4866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "saveHydFile",
           "package": "epanet-haskell",
@@ -4481,6 +4876,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "saveHydFile",
           "normalized": "String-\u003eInt",
@@ -4496,6 +4892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "saveInpFile",
           "package": "epanet-haskell",
@@ -4505,6 +4902,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "saveInpFile",
           "normalized": "String-\u003eInt",
@@ -4520,6 +4918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "setControl",
           "package": "epanet-haskell",
@@ -4529,6 +4928,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "setControl",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eFloat-\u003eInt-\u003eFloat-\u003eInt",
@@ -4544,6 +4944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "setLinkValue",
           "package": "epanet-haskell",
@@ -4553,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "setLinkValue",
           "normalized": "Int-\u003eInt-\u003eFloat-\u003eInt",
@@ -4568,6 +4970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "setNodeValue",
           "package": "epanet-haskell",
@@ -4577,6 +4980,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "setNodeValue",
           "normalized": "Int-\u003eInt-\u003eFloat-\u003eInt",
@@ -4592,6 +4996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "setOption",
           "package": "epanet-haskell",
@@ -4601,6 +5006,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "setOption",
           "normalized": "Int-\u003eFloat-\u003eInt",
@@ -4616,6 +5022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "setPatternValue",
           "package": "epanet-haskell",
@@ -4625,6 +5032,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "setPatternValue",
           "normalized": "Int-\u003eInt-\u003eFloat-\u003eInt",
@@ -4640,6 +5048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "setQualType",
           "package": "epanet-haskell",
@@ -4649,6 +5058,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "setQualType",
           "normalized": "Int-\u003eString-\u003eString-\u003eString-\u003eInt",
@@ -4664,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "setReport",
           "package": "epanet-haskell",
@@ -4673,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "setReport",
           "normalized": "String-\u003eInt",
@@ -4688,6 +5100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "setStatusReport",
           "package": "epanet-haskell",
@@ -4697,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "setStatusReport",
           "normalized": "Int-\u003eInt",
@@ -4712,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "setTimeParam",
           "package": "epanet-haskell",
@@ -4721,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "setTimeParam",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -4736,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "solveH",
           "package": "epanet-haskell",
@@ -4745,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "solveH",
           "package": "epanet-haskell",
@@ -4757,6 +5175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "solveQ",
           "package": "epanet-haskell",
@@ -4766,6 +5185,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "solveQ",
           "package": "epanet-haskell",
@@ -4778,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "stepQ",
           "package": "epanet-haskell",
@@ -4787,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "stepQ",
           "package": "epanet-haskell",
@@ -4799,6 +5221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "useHydFile",
           "package": "epanet-haskell",
@@ -4808,6 +5231,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "useHydFile",
           "normalized": "String-\u003eInt",
@@ -4823,6 +5247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:08 UTC 2014",
           "module": "Epanet",
           "name": "writeLine",
           "package": "epanet-haskell",
@@ -4832,6 +5257,7 @@
         },
         "index": {
           "hierarchy": "Epanet",
+          "indexed": "2014-03-11T18:03:08",
           "module": "Epanet",
           "name": "writeLine",
           "normalized": "String-\u003eInt",

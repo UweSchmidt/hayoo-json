@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "conjure"
+        "phrase": "conjure",
+        "type": "phrase"
       },
       "type": "context"
     }

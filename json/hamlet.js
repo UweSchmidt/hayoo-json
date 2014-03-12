@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hamlet"
+        "phrase": "hamlet",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMost everything exported here is exported also by \u003ca\u003eText.Hamlet\u003c/a\u003e. The\n exceptions to that rule should not be necessary for normal usage.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "RT",
           "package": "hamlet",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Most everything exported here is exported also by Text.Hamlet The exceptions to that rule should not be necessary for normal usage",
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "RT",
           "package": "hamlet",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HamletData",
           "package": "hamlet",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HamletData",
           "package": "hamlet",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HamletException",
           "package": "hamlet",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HamletException",
           "package": "hamlet",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HamletMap",
           "package": "hamlet",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HamletMap",
           "package": "hamlet",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HamletRT",
           "package": "hamlet",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HamletRT",
           "package": "hamlet",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "SimpleDoc",
           "package": "hamlet",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "SimpleDoc",
           "package": "hamlet",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HDBool",
           "package": "hamlet",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HDBool",
           "package": "hamlet",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HDHtml",
           "package": "hamlet",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HDHtml",
           "package": "hamlet",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HDList",
           "package": "hamlet",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HDList",
           "normalized": "HDList[HamletMap a]",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HDMaybe",
           "package": "hamlet",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HDMaybe",
           "package": "hamlet",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HDTemplate",
           "package": "hamlet",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HDTemplate",
           "package": "hamlet",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HDUrl",
           "package": "hamlet",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HDUrl",
           "package": "hamlet",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HDUrlParams",
           "package": "hamlet",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HDUrlParams",
           "normalized": "HDUrlParams a[(Text,Text)]",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HamletParseException",
           "package": "hamlet",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HamletParseException",
           "package": "hamlet",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HamletRT",
           "package": "hamlet",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HamletRT",
           "normalized": "HamletRT[SimpleDoc]",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HamletRenderException",
           "package": "hamlet",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HamletRenderException",
           "package": "hamlet",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "HamletUnsupportedDocException",
           "package": "hamlet",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "HamletUnsupportedDocException",
           "package": "hamlet",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "SDCond",
           "package": "hamlet",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "SDCond",
           "normalized": "SDCond[([String],[SimpleDoc])][SimpleDoc]",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "SDForall",
           "package": "hamlet",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "SDForall",
           "normalized": "SDForall[String]String[SimpleDoc]",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "SDMaybe",
           "package": "hamlet",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "SDMaybe",
           "normalized": "SDMaybe[String]String[SimpleDoc][SimpleDoc]",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "SDRaw",
           "package": "hamlet",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "SDRaw",
           "package": "hamlet",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "SDTemplate",
           "package": "hamlet",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "SDTemplate",
           "normalized": "SDTemplate[String]",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "SDUrl",
           "package": "hamlet",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "SDUrl",
           "normalized": "SDUrl Bool[String]",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "SDVar",
           "package": "hamlet",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "SDVar",
           "normalized": "SDVar[String]",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "parseHamletRT",
           "package": "hamlet",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "parseHamletRT",
           "normalized": "HamletSettings-\u003eString-\u003ea HamletRT",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "renderHamletRT",
           "package": "hamlet",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "renderHamletRT",
           "normalized": "HamletRT-\u003eHamletMap a-\u003eUrlRenderer a-\u003eb Html",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet.RT",
           "name": "renderHamletRT'",
           "package": "hamlet",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet RT",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet.RT",
           "name": "renderHamletRT'",
           "normalized": "Bool-\u003eHamletRT-\u003eHamletMap a-\u003e(a-\u003e[(Text,Text)]-\u003eText)-\u003eb Html",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "Hamlet",
           "package": "hamlet",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "Hamlet",
           "package": "hamlet",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "CloseStyle",
           "package": "hamlet",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "CloseStyle",
           "package": "hamlet",
@@ -674,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "Env",
           "package": "hamlet",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "Env",
           "package": "hamlet",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "HamletRules",
           "package": "hamlet",
@@ -703,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "HamletRules",
           "package": "hamlet",
@@ -717,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for parsing of a hamlet document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "HamletSettings",
           "package": "hamlet",
@@ -726,6 +789,7 @@
         "index": {
           "description": "Settings for parsing of hamlet document",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "HamletSettings",
           "package": "hamlet",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "Html",
           "package": "hamlet",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "Html",
           "package": "hamlet",
@@ -760,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function generating an \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e given a URL-rendering function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "HtmlUrl",
           "package": "hamlet",
@@ -769,6 +836,7 @@
         "index": {
           "description": "function generating an Html given URL-rendering function",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "HtmlUrl",
           "package": "hamlet",
@@ -783,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function generating an \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e given a message translator and a URL rendering function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "HtmlUrlI18n",
           "package": "hamlet",
@@ -792,6 +861,7 @@
         "index": {
           "description": "function generating an Html given message translator and URL rendering function",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "HtmlUrlI18n",
           "package": "hamlet",
@@ -805,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "NewlineStyle",
           "package": "hamlet",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "NewlineStyle",
           "package": "hamlet",
@@ -827,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert some value to a list of attribute pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "ToAttributes",
           "package": "hamlet",
@@ -836,6 +909,7 @@
         "index": {
           "description": "Convert some value to list of attribute pairs",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "ToAttributes",
           "package": "hamlet",
@@ -850,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd newlines everywhere\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "AlwaysNewlines",
           "package": "hamlet",
@@ -860,6 +935,7 @@
         "index": {
           "description": "add newlines everywhere",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "AlwaysNewlines",
           "package": "hamlet",
@@ -873,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "CloseInside",
           "package": "hamlet",
@@ -882,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "CloseInside",
           "package": "hamlet",
@@ -895,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "CloseSeparate",
           "package": "hamlet",
@@ -904,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "CloseSeparate",
           "package": "hamlet",
@@ -917,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "DefaultNewlineStyle",
           "package": "hamlet",
@@ -926,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "DefaultNewlineStyle",
           "package": "hamlet",
@@ -939,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "Env",
           "package": "hamlet",
@@ -948,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "Env",
           "package": "hamlet",
@@ -961,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "HamletRules",
           "package": "hamlet",
@@ -970,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "HamletRules",
           "package": "hamlet",
@@ -983,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "HamletSettings",
           "package": "hamlet",
@@ -992,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "HamletSettings",
           "package": "hamlet",
@@ -1006,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd newlines between consecutive text lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "NewlinesText",
           "package": "hamlet",
@@ -1016,6 +1105,7 @@
         "index": {
           "description": "add newlines between consecutive text lines",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "NewlinesText",
           "package": "hamlet",
@@ -1029,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "NoClose",
           "package": "hamlet",
@@ -1038,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "NoClose",
           "package": "hamlet",
@@ -1052,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enever add newlines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "NoNewlines",
           "package": "hamlet",
@@ -1062,6 +1155,7 @@
         "index": {
           "description": "never add newlines",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "NoNewlines",
           "package": "hamlet",
@@ -1075,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "asHtmlUrl",
           "package": "hamlet",
@@ -1084,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "asHtmlUrl",
           "normalized": "HtmlUrl a-\u003eHtmlUrl a",
@@ -1099,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "attrsToHtml",
           "package": "hamlet",
@@ -1108,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "attrsToHtml",
           "normalized": "[(Text,Text)]-\u003eHtml",
@@ -1124,6 +1222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks for truth in the left value in each pair in the first argument. If\n a true exists, then the corresponding right action is performed. Only the\n first is performed. In there are no true values, then the second argument is\n performed, if supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "condH",
           "package": "hamlet",
@@ -1134,6 +1233,7 @@
         "index": {
           "description": "Checks for truth in the left value in each pair in the first argument If true exists then the corresponding right action is performed Only the first is performed In there are no true values then the second argument is performed if supplied",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "condH",
           "normalized": "[(Bool,a())]-\u003eMaybe(a())-\u003ea()",
@@ -1149,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults settings: HTML5 doctype and HTML-style empty tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "defaultHamletSettings",
           "package": "hamlet",
@@ -1159,6 +1260,7 @@
         "index": {
           "description": "Defaults settings HTML5 doctype and HTML-style empty tags",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "defaultHamletSettings",
           "package": "hamlet",
@@ -1172,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hamlet",
           "package": "hamlet",
@@ -1181,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hamlet",
           "package": "hamlet",
@@ -1194,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow a tag should be closed. Use this to switch between HTML, XHTML\n or even XML output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hamletCloseStyle",
           "package": "hamlet",
@@ -1204,6 +1309,7 @@
         "index": {
           "description": "How tag should be closed Use this to switch between HTML XHTML or even XML output",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hamletCloseStyle",
           "normalized": "String-\u003eCloseStyle",
@@ -1220,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value to replace a \"!!!\" with. Do not include the trailing\n newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hamletDoctype",
           "package": "hamlet",
@@ -1230,6 +1337,7 @@
         "index": {
           "description": "The value to replace with Do not include the trailing newline",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hamletDoctype",
           "package": "hamlet",
@@ -1244,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from short names in \"$doctype\" statements to full doctype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hamletDoctypeNames",
           "package": "hamlet",
@@ -1254,6 +1363,7 @@
         "index": {
           "description": "Mapping from short names in doctype statements to full doctype",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hamletDoctypeNames",
           "normalized": "[(String,String)]",
@@ -1269,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hamletFile",
           "package": "hamlet",
@@ -1278,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hamletFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1293,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hamletFileReload",
           "package": "hamlet",
@@ -1302,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hamletFileReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1317,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hamletFileWithSettings",
           "package": "hamlet",
@@ -1326,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hamletFileWithSettings",
           "normalized": "Q HamletRules-\u003eHamletSettings-\u003eFilePath-\u003eQ Exp",
@@ -1342,6 +1458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould we add newlines to the output, making it more human-readable?\n  Useful for client-side debugging but may alter browser page layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hamletNewlines",
           "package": "hamlet",
@@ -1352,6 +1469,7 @@
         "index": {
           "description": "Should we add newlines to the output making it more human-readable Useful for client-side debugging but may alter browser page layout",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hamletNewlines",
           "package": "hamlet",
@@ -1365,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hamletRules",
           "package": "hamlet",
@@ -1374,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hamletRules",
           "package": "hamlet",
@@ -1387,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hamletWithSettings",
           "package": "hamlet",
@@ -1396,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hamletWithSettings",
           "normalized": "Q HamletRules-\u003eHamletSettings-\u003eQuasiQuoter",
@@ -1411,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hrEmbed",
           "package": "hamlet",
@@ -1420,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hrEmbed",
           "normalized": "Env-\u003eExp-\u003eQ Exp",
@@ -1435,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hrFromHtml",
           "package": "hamlet",
@@ -1444,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hrFromHtml",
           "package": "hamlet",
@@ -1457,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "hrWithEnv",
           "package": "hamlet",
@@ -1466,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "hrWithEnv",
           "normalized": "(Env-\u003eQ Exp)-\u003eQ Exp",
@@ -1481,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "htmlRules",
           "package": "hamlet",
@@ -1490,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "htmlRules",
           "package": "hamlet",
@@ -1503,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "ihamlet",
           "package": "hamlet",
@@ -1512,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "ihamlet",
           "package": "hamlet",
@@ -1524,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "ihamletFile",
           "package": "hamlet",
@@ -1533,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "ihamletFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1548,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "ihamletFileReload",
           "package": "hamlet",
@@ -1557,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "ihamletFileReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1572,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "ihamletRules",
           "package": "hamlet",
@@ -1581,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "ihamletRules",
           "package": "hamlet",
@@ -1595,6 +1733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the second argument with the value in the first, if available.\n Otherwise, runs the third argument, if available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "maybeH",
           "package": "hamlet",
@@ -1605,6 +1744,7 @@
         "index": {
           "description": "Runs the second argument with the value in the first if available Otherwise runs the third argument if available",
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "maybeH",
           "normalized": "Maybe a-\u003e(a-\u003eb())-\u003eMaybe(b())-\u003eb()",
@@ -1619,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "msgRender",
           "package": "hamlet",
@@ -1628,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "msgRender",
           "normalized": "Maybe((Exp-\u003eQ Exp)-\u003eQ Exp)",
@@ -1643,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "shamlet",
           "package": "hamlet",
@@ -1652,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "shamlet",
           "package": "hamlet",
@@ -1664,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "shamletFile",
           "package": "hamlet",
@@ -1673,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "shamletFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1688,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "toAttributes",
           "package": "hamlet",
@@ -1697,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "toAttributes",
           "normalized": "a-\u003e[(Text,Text)]",
@@ -1712,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "urlRender",
           "package": "hamlet",
@@ -1721,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "urlRender",
           "normalized": "Maybe((Exp-\u003eQ Exp)-\u003eQ Exp)",
@@ -1736,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "xhamlet",
           "package": "hamlet",
@@ -1745,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "xhamlet",
           "package": "hamlet",
@@ -1757,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "xhamletFile",
           "package": "hamlet",
@@ -1766,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "xhamletFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1781,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "xhtmlHamletSettings",
           "package": "hamlet",
@@ -1790,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "xhtmlHamletSettings",
           "package": "hamlet",
@@ -1803,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "xshamlet",
           "package": "hamlet",
@@ -1812,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "xshamlet",
           "package": "hamlet",
@@ -1824,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:34 UTC 2014",
           "module": "Text.Hamlet",
           "name": "xshamletFile",
           "package": "hamlet",
@@ -1833,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet",
+          "indexed": "2014-03-11T18:27:34",
           "module": "Text.Hamlet",
           "name": "xshamletFile",
           "normalized": "FilePath-\u003eQ Exp",

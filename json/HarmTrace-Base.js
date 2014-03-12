@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HarmTrace-Base"
+        "phrase": "HarmTrace-Base",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Some general parsing utilities used for parsing textual chord\n representations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "ChordTokenizer",
           "package": "HarmTrace-Base",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Summary Some general parsing utilities used for parsing textual chord representations",
           "hierarchy": "HarmTrace Base ChordTokenizer",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "ChordTokenizer",
           "package": "HarmTrace-Base",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the a \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eAddition\u003c/a\u003e\u003c/code\u003e (or the removal of a chord addition, \n prefixed by  a \u003ccode\u003e*\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pAddition",
           "package": "HarmTrace-Base",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Parses the Chord Addition or the removal of chord addition prefixed by",
           "hierarchy": "HarmTrace Base ChordTokenizer",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pAddition",
           "package": "HarmTrace-Base",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a list of \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eAddition\u003c/a\u003e\u003c/code\u003es within parenthesis \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pAdditions",
           "package": "HarmTrace-Base",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Parses list of Chord Addition within parenthesis",
           "hierarchy": "HarmTrace Base ChordTokenizer",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pAdditions",
           "normalized": "Parser[Addition]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003eChordLabel\u003c/a\u003e\u003c/code\u003e in Harte et al. syntax including possible additions, \n and removal of chord additions. If a chord has no \u003ccode\u003e\u003ca\u003eShorthand\u003c/a\u003e\u003c/code\u003e, the \u003ccode\u003eDegree\u003c/code\u003e \n list (if any) is analysed and depending on the \u003ccode\u003e\u003ca\u003eTriad\u003c/a\u003e\u003c/code\u003e (if any) a \n \u003ccode\u003e\u003ca\u003eMaj\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMin\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eAug\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eDim\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eShorthand\u003c/a\u003e\u003c/code\u003e is stored. By default all the \n duration stored in every \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e is 1 (where the unit is application \n dependend, often these are beats, but they can also be eightnotes)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pChord",
           "package": "HarmTrace-Base",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Parses ChordLabel in Harte et al syntax including possible additions and removal of chord additions If chord has no Shorthand the Degree list if any is analysed and depending on the Triad if any Maj Min Aug or Dim Shorthand is stored By default all the duration stored in every Chord is where the unit is application dependend often these are beats but they can also be eightnotes",
           "hierarchy": "HarmTrace Base ChordTokenizer",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pChord",
           "package": "HarmTrace-Base",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparses a musical key description, e.g. \u003ccode\u003eC:maj\u003c/code\u003e, or \u003ccode\u003eD:min\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pKey",
           "package": "HarmTrace-Base",
@@ -126,6 +135,7 @@
         "index": {
           "description": "parses musical key description e.g maj or min",
           "hierarchy": "HarmTrace Base ChordTokenizer",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pKey",
           "package": "HarmTrace-Base",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003eRoot\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e, e.g. \u003ccode\u003eA\u003c/code\u003e, \u003ccode\u003eBb\u003c/code\u003e, or \u003ccode\u003eF#\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pRoot",
           "package": "HarmTrace-Base",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Parses Root Note e.g Bb or",
           "hierarchy": "HarmTrace Base ChordTokenizer",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pRoot",
           "package": "HarmTrace-Base",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a shorthand following Harte et al. syntax, but also the shorthands\n added to the Billboard dataset, e.g. \u003ccode\u003emaj\u003c/code\u003e, \u003ccode\u003emin\u003c/code\u003e, or \u003ccode\u003e9\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pShorthand",
           "package": "HarmTrace-Base",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Parses shorthand following Harte et al syntax but also the shorthands added to the Billboard dataset e.g maj min or",
           "hierarchy": "HarmTrace Base ChordTokenizer",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pShorthand",
           "package": "HarmTrace-Base",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser that parses a string of whitespace-separated \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003es, e.g.\n \u003ccode\u003eC:maj Bb:9(s11);1 E:min7;1 Eb:min7;1 Ab:7;1 D:min7;1 G:7(13);1 C:maj6(9);1\u003c/code\u003e\n The first \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e must be the key of the piece, and the after each chord\n the semicolumn and an Integer representing the duration of the chord must \n be presented\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pSongAbs",
           "package": "HarmTrace-Base",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Parser that parses string of whitespace-separated Chord e.g maj Bb s11 min7 Eb min7 Ab min7 maj6 The first Chord must be the key of the piece and the after each chord the semicolumn and an Integer representing the duration of the chord must be presented",
           "hierarchy": "HarmTrace Base ChordTokenizer",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "pSongAbs",
           "package": "HarmTrace-Base",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop level parser that parsers a string into a \u003ccode\u003e\u003ca\u003ePieceLabel\u003c/a\u003e\u003c/code\u003e and a posibly\n empty list of errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "parseChordSeq",
           "package": "HarmTrace-Base",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Top level parser that parsers string into PieceLabel and posibly empty list of errors",
           "hierarchy": "HarmTrace Base ChordTokenizer",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.ChordTokenizer",
           "name": "parseChordSeq",
           "normalized": "String-\u003e(PieceLabel,[Error LineColPos])",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: A set of types and classes for representing musical chords. The \n chord datatypes are based on the unambiguous chord representation presented \n in: Christopher Harte, Mark Sandler and Samer Abdallah (2005), \n \u003cem\u003eSymbolic representation of musical chords: a proposed syntax for text annotations\u003c/em\u003e, \n In: Proceedings of 6th International Conference on Music Information \n Retrieval (\u003ca\u003ehttp://ismir2005.ismir.net/proceedings/1080.pdf\u003c/a\u003e). \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MusicRep",
           "package": "HarmTrace-Base",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Summary set of types and classes for representing musical chords The chord datatypes are based on the unambiguous chord representation presented in Christopher Harte Mark Sandler and Samer Abdallah Symbolic representation of musical chords proposed syntax for text annotations In Proceedings of th International Conference on Music Information Retrieval http ismir2005.ismir.net proceedings pdf",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MusicRep",
           "package": "HarmTrace-Base",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA musical \u003ccode\u003e\u003ca\u003eAccidental\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Accidental",
           "package": "HarmTrace-Base",
@@ -270,6 +291,7 @@
         "index": {
           "description": "musical Accidental",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Accidental",
           "package": "HarmTrace-Base",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntervals for additonal chord notes    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Addition",
           "package": "HarmTrace-Base",
@@ -293,6 +316,7 @@
         "index": {
           "description": "Intervals for additonal chord notes",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Addition",
           "package": "HarmTrace-Base",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe representation for a single chord \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Chord",
           "package": "HarmTrace-Base",
@@ -316,6 +341,7 @@
         "index": {
           "description": "The representation for single chord",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Chord",
           "package": "HarmTrace-Base",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chord based on relative \u003ccode\u003e\u003ca\u003eScaleDegree\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "ChordDegree",
           "package": "HarmTrace-Base",
@@ -339,6 +366,7 @@
         "index": {
           "description": "chord based on relative ScaleDegree",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "ChordDegree",
           "package": "HarmTrace-Base",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chord based on absolute \u003ccode\u003e\u003ca\u003eRoot\u003c/a\u003e\u003c/code\u003e notes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "ChordLabel",
           "package": "HarmTrace-Base",
@@ -362,6 +391,7 @@
         "index": {
           "description": "chord based on absolute Root notes",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "ChordLabel",
           "package": "HarmTrace-Base",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe introduce four chord categories: major chords, minor chords, dominant\n seventh chords, and diminshed seventh chords\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "ClassType",
           "package": "HarmTrace-Base",
@@ -385,6 +416,7 @@
         "index": {
           "description": "We introduce four chord categories major chords minor chords dominant seventh chords and diminshed seventh chords",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "ClassType",
           "package": "HarmTrace-Base",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll Diatonic scale degrees \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "DiatonicDegree",
           "package": "HarmTrace-Base",
@@ -408,6 +441,7 @@
         "index": {
           "description": "All Diatonic scale degrees",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "DiatonicDegree",
           "package": "HarmTrace-Base",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe seven diatonic naturals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "DiatonicNatural",
           "package": "HarmTrace-Base",
@@ -431,6 +466,7 @@
         "index": {
           "description": "The seven diatonic naturals",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "DiatonicNatural",
           "package": "HarmTrace-Base",
@@ -445,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiatonic major intervals used to denote \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eAddition\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Interval",
           "package": "HarmTrace-Base",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Diatonic major intervals used to denote Chord Addition",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Interval",
           "package": "HarmTrace-Base",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA musical key consising of a \u003ccode\u003e\u003ca\u003eRoot\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Key",
           "package": "HarmTrace-Base",
@@ -477,6 +516,7 @@
         "index": {
           "description": "musical key consising of Root and Mode",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Key",
           "package": "HarmTrace-Base",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMode\u003c/a\u003e\u003c/code\u003e of a key, which can be major or minor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Mode",
           "package": "HarmTrace-Base",
@@ -500,6 +541,7 @@
         "index": {
           "description": "The Mode of key which can be major or minor",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Mode",
           "package": "HarmTrace-Base",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA musical note is a pitch (either absolute or relative) posibly modified\n by an \u003ccode\u003e\u003ca\u003eAccidental\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Note",
           "package": "HarmTrace-Base",
@@ -523,6 +566,7 @@
         "index": {
           "description": "musical note is pitch either absolute or relative posibly modified by an Accidental",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Note",
           "package": "HarmTrace-Base",
@@ -537,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container type combinint a key and a list of \u003ccode\u003e\u003ca\u003eChordLabel\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "PieceLabel",
           "package": "HarmTrace-Base",
@@ -546,6 +591,7 @@
         "index": {
           "description": "container type combinint key and list of ChordLabel",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "PieceLabel",
           "package": "HarmTrace-Base",
@@ -560,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresenting absolute \u003ccode\u003e\u003ca\u003eRoot\u003c/a\u003e\u003c/code\u003e notes  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Root",
           "package": "HarmTrace-Base",
@@ -569,6 +616,7 @@
         "index": {
           "description": "Representing absolute Root notes",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Root",
           "package": "HarmTrace-Base",
@@ -583,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey relative scale degrees to abstract from the absolute Root notes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "ScaleDegree",
           "package": "HarmTrace-Base",
@@ -592,6 +641,7 @@
         "index": {
           "description": "Key relative scale degrees to abstract from the absolute Root notes",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "ScaleDegree",
           "package": "HarmTrace-Base",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Shorthand",
           "package": "HarmTrace-Base",
@@ -613,6 +664,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Shorthand",
           "package": "HarmTrace-Base",
@@ -627,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTriad\u003c/a\u003e\u003c/code\u003e comes in four flavours: major, minor, augmented, dimished, and \n sometimes a chord does not have a triad (e.g. suspended chords, etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Triad",
           "package": "HarmTrace-Base",
@@ -636,6 +689,7 @@
         "index": {
           "description": "Triad comes in four flavours major minor augmented dimished and sometimes chord does not have triad e.g suspended chords etc",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Triad",
           "package": "HarmTrace-Base",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "A",
           "package": "HarmTrace-Base",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "A",
           "package": "HarmTrace-Base",
@@ -670,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Add",
           "package": "HarmTrace-Base",
@@ -679,6 +736,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Add",
           "package": "HarmTrace-Base",
@@ -692,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Aug",
           "package": "HarmTrace-Base",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Aug",
           "package": "HarmTrace-Base",
@@ -714,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "AugTriad",
           "package": "HarmTrace-Base",
@@ -723,6 +784,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "AugTriad",
           "package": "HarmTrace-Base",
@@ -736,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "B",
           "package": "HarmTrace-Base",
@@ -745,6 +808,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "B",
           "package": "HarmTrace-Base",
@@ -757,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "C",
           "package": "HarmTrace-Base",
@@ -766,6 +831,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "C",
           "package": "HarmTrace-Base",
@@ -778,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Chord",
           "package": "HarmTrace-Base",
@@ -787,6 +854,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Chord",
           "package": "HarmTrace-Base",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "D",
           "package": "HarmTrace-Base",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "D",
           "package": "HarmTrace-Base",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Dim",
           "package": "HarmTrace-Base",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Dim",
           "package": "HarmTrace-Base",
@@ -843,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Dim7",
           "package": "HarmTrace-Base",
@@ -852,6 +925,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Dim7",
           "package": "HarmTrace-Base",
@@ -865,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "DimClass",
           "package": "HarmTrace-Base",
@@ -874,6 +949,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "DimClass",
           "package": "HarmTrace-Base",
@@ -887,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "DimTriad",
           "package": "HarmTrace-Base",
@@ -896,6 +973,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "DimTriad",
           "package": "HarmTrace-Base",
@@ -909,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "DomClass",
           "package": "HarmTrace-Base",
@@ -918,6 +997,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "DomClass",
           "package": "HarmTrace-Base",
@@ -931,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "E",
           "package": "HarmTrace-Base",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "E",
           "package": "HarmTrace-Base",
@@ -952,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Eleven",
           "package": "HarmTrace-Base",
@@ -961,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Eleven",
           "package": "HarmTrace-Base",
@@ -974,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "F",
           "package": "HarmTrace-Base",
@@ -983,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "F",
           "package": "HarmTrace-Base",
@@ -996,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edouble flat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "FF",
           "package": "HarmTrace-Base",
@@ -1006,6 +1093,7 @@
         "index": {
           "description": "double flat",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "FF",
           "package": "HarmTrace-Base",
@@ -1020,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePower chords\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Five",
           "package": "HarmTrace-Base",
@@ -1030,6 +1119,7 @@
         "index": {
           "description": "Power chords",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Five",
           "package": "HarmTrace-Base",
@@ -1044,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Fl",
           "package": "HarmTrace-Base",
@@ -1054,6 +1145,7 @@
         "index": {
           "description": "flat",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Fl",
           "package": "HarmTrace-Base",
@@ -1067,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "G",
           "package": "HarmTrace-Base",
@@ -1076,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "G",
           "package": "HarmTrace-Base",
@@ -1088,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "HDim7",
           "package": "HarmTrace-Base",
@@ -1097,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "HDim7",
           "package": "HarmTrace-Base",
@@ -1110,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I",
           "package": "HarmTrace-Base",
@@ -1119,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I",
           "package": "HarmTrace-Base",
@@ -1131,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I1",
           "package": "HarmTrace-Base",
@@ -1140,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I1",
           "package": "HarmTrace-Base",
@@ -1152,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I10",
           "package": "HarmTrace-Base",
@@ -1161,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I10",
           "package": "HarmTrace-Base",
@@ -1173,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I11",
           "package": "HarmTrace-Base",
@@ -1182,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I11",
           "package": "HarmTrace-Base",
@@ -1194,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I12",
           "package": "HarmTrace-Base",
@@ -1203,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I12",
           "package": "HarmTrace-Base",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I13",
           "package": "HarmTrace-Base",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I13",
           "package": "HarmTrace-Base",
@@ -1236,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I2",
           "package": "HarmTrace-Base",
@@ -1245,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I2",
           "package": "HarmTrace-Base",
@@ -1257,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I3",
           "package": "HarmTrace-Base",
@@ -1266,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I3",
           "package": "HarmTrace-Base",
@@ -1278,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I4",
           "package": "HarmTrace-Base",
@@ -1287,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I4",
           "package": "HarmTrace-Base",
@@ -1299,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I5",
           "package": "HarmTrace-Base",
@@ -1308,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I5",
           "package": "HarmTrace-Base",
@@ -1320,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I6",
           "package": "HarmTrace-Base",
@@ -1329,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I6",
           "package": "HarmTrace-Base",
@@ -1341,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I7",
           "package": "HarmTrace-Base",
@@ -1350,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I7",
           "package": "HarmTrace-Base",
@@ -1362,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I8",
           "package": "HarmTrace-Base",
@@ -1371,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I8",
           "package": "HarmTrace-Base",
@@ -1383,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I9",
           "package": "HarmTrace-Base",
@@ -1392,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "I9",
           "package": "HarmTrace-Base",
@@ -1404,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "II",
           "package": "HarmTrace-Base",
@@ -1413,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "II",
           "package": "HarmTrace-Base",
@@ -1426,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "III",
           "package": "HarmTrace-Base",
@@ -1435,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "III",
           "package": "HarmTrace-Base",
@@ -1448,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "IV",
           "package": "HarmTrace-Base",
@@ -1457,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "IV",
           "package": "HarmTrace-Base",
@@ -1471,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor unrepresentable scale degrees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Imp",
           "package": "HarmTrace-Base",
@@ -1481,6 +1612,7 @@
         "index": {
           "description": "for unrepresentable scale degrees",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Imp",
           "package": "HarmTrace-Base",
@@ -1494,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Key",
           "package": "HarmTrace-Base",
@@ -1503,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Key",
           "package": "HarmTrace-Base",
@@ -1517,6 +1651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriadic chords\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Maj",
           "package": "HarmTrace-Base",
@@ -1527,6 +1662,7 @@
         "index": {
           "description": "Triadic chords",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Maj",
           "package": "HarmTrace-Base",
@@ -1540,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Maj13",
           "package": "HarmTrace-Base",
@@ -1549,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Maj13",
           "package": "HarmTrace-Base",
@@ -1563,6 +1701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSixth chords\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Maj6",
           "package": "HarmTrace-Base",
@@ -1573,6 +1712,7 @@
         "index": {
           "description": "Sixth chords",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Maj6",
           "package": "HarmTrace-Base",
@@ -1587,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeventh chords\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Maj7",
           "package": "HarmTrace-Base",
@@ -1597,6 +1738,7 @@
         "index": {
           "description": "Seventh chords",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Maj7",
           "package": "HarmTrace-Base",
@@ -1610,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Maj9",
           "package": "HarmTrace-Base",
@@ -1619,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Maj9",
           "package": "HarmTrace-Base",
@@ -1632,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MajClass",
           "package": "HarmTrace-Base",
@@ -1641,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MajClass",
           "package": "HarmTrace-Base",
@@ -1654,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MajMode",
           "package": "HarmTrace-Base",
@@ -1663,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MajMode",
           "package": "HarmTrace-Base",
@@ -1676,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MajTriad",
           "package": "HarmTrace-Base",
@@ -1685,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MajTriad",
           "package": "HarmTrace-Base",
@@ -1698,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min",
           "package": "HarmTrace-Base",
@@ -1707,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min",
           "package": "HarmTrace-Base",
@@ -1720,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min11",
           "package": "HarmTrace-Base",
@@ -1729,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min11",
           "package": "HarmTrace-Base",
@@ -1742,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min13",
           "package": "HarmTrace-Base",
@@ -1751,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min13",
           "package": "HarmTrace-Base",
@@ -1764,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min6",
           "package": "HarmTrace-Base",
@@ -1773,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min6",
           "package": "HarmTrace-Base",
@@ -1786,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min7",
           "package": "HarmTrace-Base",
@@ -1795,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min7",
           "package": "HarmTrace-Base",
@@ -1808,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min9",
           "package": "HarmTrace-Base",
@@ -1817,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Min9",
           "package": "HarmTrace-Base",
@@ -1830,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MinClass",
           "package": "HarmTrace-Base",
@@ -1839,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MinClass",
           "package": "HarmTrace-Base",
@@ -1852,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MinMaj7",
           "package": "HarmTrace-Base",
@@ -1861,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MinMaj7",
           "package": "HarmTrace-Base",
@@ -1874,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MinMode",
           "package": "HarmTrace-Base",
@@ -1883,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MinMode",
           "package": "HarmTrace-Base",
@@ -1896,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MinTriad",
           "package": "HarmTrace-Base",
@@ -1905,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "MinTriad",
           "package": "HarmTrace-Base",
@@ -1919,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor no root\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "N",
           "package": "HarmTrace-Base",
@@ -1929,6 +2100,7 @@
         "index": {
           "description": "for no root",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "N",
           "package": "HarmTrace-Base",
@@ -1942,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtended chords\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Nin",
           "package": "HarmTrace-Base",
@@ -1952,6 +2125,7 @@
         "index": {
           "description": "Extended chords",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Nin",
           "package": "HarmTrace-Base",
@@ -1965,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "NoAdd",
           "package": "HarmTrace-Base",
@@ -1974,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "NoAdd",
           "package": "HarmTrace-Base",
@@ -1987,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "NoClass",
           "package": "HarmTrace-Base",
@@ -1996,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "NoClass",
           "package": "HarmTrace-Base",
@@ -2009,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "NoTriad",
           "package": "HarmTrace-Base",
@@ -2018,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "NoTriad",
           "package": "HarmTrace-Base",
@@ -2031,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "None",
           "package": "HarmTrace-Base",
@@ -2040,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "None",
           "package": "HarmTrace-Base",
@@ -2053,6 +2235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Note",
           "package": "HarmTrace-Base",
@@ -2062,6 +2245,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Note",
           "package": "HarmTrace-Base",
@@ -2075,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "PieceLabel",
           "package": "HarmTrace-Base",
@@ -2084,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "PieceLabel",
           "normalized": "PieceLabel Key[ChordLabel]",
@@ -2100,6 +2286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edouble sharp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "SS",
           "package": "HarmTrace-Base",
@@ -2110,6 +2297,7 @@
         "index": {
           "description": "double sharp",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "SS",
           "package": "HarmTrace-Base",
@@ -2123,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Sev",
           "package": "HarmTrace-Base",
@@ -2132,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Sev",
           "package": "HarmTrace-Base",
@@ -2146,6 +2336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esharp \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Sh",
           "package": "HarmTrace-Base",
@@ -2156,6 +2347,7 @@
         "index": {
           "description": "sharp",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Sh",
           "package": "HarmTrace-Base",
@@ -2169,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Sus2",
           "package": "HarmTrace-Base",
@@ -2178,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Sus2",
           "package": "HarmTrace-Base",
@@ -2192,6 +2386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuspended chords\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Sus4",
           "package": "HarmTrace-Base",
@@ -2202,6 +2397,7 @@
         "index": {
           "description": "Suspended chords",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Sus4",
           "package": "HarmTrace-Base",
@@ -2215,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Thirteen",
           "package": "HarmTrace-Base",
@@ -2224,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "Thirteen",
           "package": "HarmTrace-Base",
@@ -2237,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "V",
           "package": "HarmTrace-Base",
@@ -2246,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "V",
           "package": "HarmTrace-Base",
@@ -2258,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "VI",
           "package": "HarmTrace-Base",
@@ -2267,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "VI",
           "package": "HarmTrace-Base",
@@ -2280,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "VII",
           "package": "HarmTrace-Base",
@@ -2289,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "VII",
           "package": "HarmTrace-Base",
@@ -2303,6 +2507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor representing unknown roots (used in MIREX)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "X",
           "package": "HarmTrace-Base",
@@ -2313,6 +2518,7 @@
         "index": {
           "description": "for representing unknown roots used in MIREX",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "X",
           "package": "HarmTrace-Base",
@@ -2326,6 +2532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalyses a degree list and returns \u003ccode\u003e\u003ca\u003eMajTriad\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMinTriad\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNoTriad\u003c/a\u003e\u003c/code\u003e if\n the degrees make a chord a major, minor, or no triad, respectivly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "analyseDegTriad",
           "package": "HarmTrace-Base",
@@ -2336,6 +2543,7 @@
         "index": {
           "description": "Analyses degree list and returns MajTriad MinTriad or NoTriad if the degrees make chord major minor or no triad respectivly",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "analyseDegTriad",
           "normalized": "[Addition]-\u003eTriad",
@@ -2351,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "chordAdditions",
           "package": "HarmTrace-Base",
@@ -2360,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "chordAdditions",
           "normalized": "[Addition]",
@@ -2375,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "chordRoot",
           "package": "HarmTrace-Base",
@@ -2384,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "chordRoot",
           "package": "HarmTrace-Base",
@@ -2397,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "chordShorthand",
           "package": "HarmTrace-Base",
@@ -2406,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "chordShorthand",
           "package": "HarmTrace-Base",
@@ -2420,6 +2634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe duration of the chord \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "duration",
           "package": "HarmTrace-Base",
@@ -2430,6 +2645,7 @@
         "index": {
           "description": "the duration of the chord",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "duration",
           "package": "HarmTrace-Base",
@@ -2443,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe index of the chord in the list of tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "getLoc",
           "package": "HarmTrace-Base",
@@ -2453,6 +2670,7 @@
         "index": {
           "description": "the index of the chord in the list of tokens",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "getLoc",
           "package": "HarmTrace-Base",
@@ -2467,6 +2685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eAddition\u003c/a\u003e\u003c/code\u003e represents an addition and not \n a degree that has to be removed (*).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "isAddition",
           "package": "HarmTrace-Base",
@@ -2477,6 +2696,7 @@
         "index": {
           "description": "Returns true if the Chord Addition represents an addition and not degree that has to be removed",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "isAddition",
           "normalized": "Addition-\u003eBool",
@@ -2493,6 +2713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eRoot\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eN\u003c/a\u003e\u003c/code\u003e, and False otherwise \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "isNone",
           "package": "HarmTrace-Base",
@@ -2503,6 +2724,7 @@
         "index": {
           "description": "Returns True if the Root is and False otherwise",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "isNone",
           "normalized": "Root-\u003eBool",
@@ -2519,6 +2741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eChordLabel\u003c/a\u003e\u003c/code\u003e is not a chord, and False otherwise \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "isNoneChord",
           "package": "HarmTrace-Base",
@@ -2529,6 +2752,7 @@
         "index": {
           "description": "Returns True if the ChordLabel is not chord and False otherwise",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "isNoneChord",
           "normalized": "ChordLabel-\u003eBool",
@@ -2545,6 +2769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eRoot\u003c/a\u003e\u003c/code\u003e is not unknown or none\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "isRoot",
           "package": "HarmTrace-Base",
@@ -2555,6 +2780,7 @@
         "index": {
           "description": "Returns True if the Root is not unknown or none",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "isRoot",
           "normalized": "Root-\u003eBool",
@@ -2571,6 +2797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eRoot\u003c/a\u003e\u003c/code\u003e is unknown, and False otherwise \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "isUnknown",
           "package": "HarmTrace-Base",
@@ -2581,6 +2808,7 @@
         "index": {
           "description": "Returns True if the Root is unknown and False otherwise",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "isUnknown",
           "normalized": "Root-\u003eBool",
@@ -2596,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "keyMode",
           "package": "HarmTrace-Base",
@@ -2605,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "keyMode",
           "package": "HarmTrace-Base",
@@ -2618,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "keyRoot",
           "package": "HarmTrace-Base",
@@ -2627,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "keyRoot",
           "package": "HarmTrace-Base",
@@ -2641,6 +2873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo Chord label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "noneLabel",
           "package": "HarmTrace-Base",
@@ -2651,6 +2884,7 @@
         "index": {
           "description": "No Chord label",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "noneLabel",
           "package": "HarmTrace-Base",
@@ -2665,6 +2899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplify note roots to a single enharmonic representation.\n For instance, D&#9837; becomes C&#9839;, E&#9839; becomes F, and G&#119083; becomes F.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "simplifyRoot",
           "package": "HarmTrace-Base",
@@ -2675,6 +2910,7 @@
         "index": {
           "description": "Simplify note roots to single enharmonic representation For instance becomes becomes and becomes",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "simplifyRoot",
           "normalized": "Root-\u003eRoot",
@@ -2691,6 +2927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e, calculates the the \u003ccode\u003e\u003ca\u003eChordDegree\u003c/a\u003e\u003c/code\u003e (i.e. relative, \n \u003ccode\u003e\u003ca\u003eScaleDegree\u003c/a\u003e\u003c/code\u003e based \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e) for an absolute \u003ccode\u003e\u003ca\u003eChordLabel\u003c/a\u003e\u003c/code\u003e using \n \u003ccode\u003e\u003ca\u003etoScaleDegree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toChordDegree",
           "package": "HarmTrace-Base",
@@ -2701,6 +2938,7 @@
         "index": {
           "description": "Given Key calculates the the ChordDegree i.e relative ScaleDegree based Chord for an absolute ChordLabel using toScaleDegree",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toChordDegree",
           "normalized": "Key-\u003eChordLabel-\u003eChordDegree",
@@ -2717,6 +2955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003eClassType\u003c/a\u003e\u003c/code\u003e given a \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e. This function uses \n \u003ccode\u003eanalyseDegClassType\u003c/code\u003e to analyse a chord and derive the \u003ccode\u003e\u003ca\u003eClassType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toClassType",
           "package": "HarmTrace-Base",
@@ -2727,6 +2966,7 @@
         "index": {
           "description": "Returns the ClassType given Chord This function uses analyseDegClassType to analyse chord and derive the ClassType",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toClassType",
           "normalized": "Chord a-\u003eClassType",
@@ -2743,6 +2983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a Chord into a list of relative degrees (i.e. \u003ccode\u003e\u003ca\u003eAddition\u003c/a\u003e\u003c/code\u003es,\n without the root note).\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoDegreeList (Chord (Note Nothing C) HDim7 [Add (Note (Just Sh) I11)] 0 0)\n\u003c/code\u003e\u003c/strong\u003e[3b,5b,7b,11#]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoDegreeList (Chord (Note Nothing C) Min13 [NoAdd (Note Nothing I11)] 0 0)\n\u003c/code\u003e\u003c/strong\u003e[3b,5,7b,9,13]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoDegreeList (parseData pChord \"D:7(b9)\")\n\u003c/code\u003e\u003c/strong\u003e[3,5,7b,9b]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toDegreeList",
           "package": "HarmTrace-Base",
@@ -2753,6 +2994,7 @@
         "index": {
           "description": "Transforms Chord into list of relative degrees i.e Addition without the root note toDegreeList Chord Note Nothing HDim7 Add Note Just Sh I11 toDegreeList Chord Note Nothing Min13 NoAdd Note Nothing I11 toDegreeList parseData pChord b9",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toDegreeList",
           "normalized": "Chord a-\u003e[Addition]",
@@ -2769,6 +3011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eShorthand\u003c/a\u003e\u003c/code\u003e to either a \u003ccode\u003e\u003ca\u003eMajClass\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMinClass\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNoClass\u003c/a\u003e\u003c/code\u003e \n \u003ccode\u003e\u003ca\u003eClassType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toMajMin",
           "package": "HarmTrace-Base",
@@ -2779,6 +3022,7 @@
         "index": {
           "description": "Converts Shorthand to either MajClass MinClass or NoClass ClassType",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toMajMin",
           "normalized": "Triad-\u003eClassType",
@@ -2795,6 +3039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplies \u003ccode\u003e\u003ca\u003etoMajMin\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toMajMinChord",
           "package": "HarmTrace-Base",
@@ -2805,6 +3050,7 @@
         "index": {
           "description": "applies toMajMin to Chord",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toMajMinChord",
           "normalized": "ChordLabel-\u003eChordLabel",
@@ -2821,6 +3067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eShorthand\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toMode",
           "package": "HarmTrace-Base",
@@ -2831,6 +3078,7 @@
         "index": {
           "description": "Converts Shorthand to Mode",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toMode",
           "normalized": "Triad-\u003eMode",
@@ -2847,6 +3095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reverse of \u003ccode\u003e\u003ca\u003etoSemitone\u003c/a\u003e\u003c/code\u003e returning the 'Note DiatonicNatural' given a \n Integer [0..11] semitone, where 0 represents C. When the integer is out \n of the range [0..11] an error is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toRoot",
           "package": "HarmTrace-Base",
@@ -2857,6 +3106,7 @@
         "index": {
           "description": "The reverse of toSemitone returning the Note DiatonicNatural given Integer semitone where represents When the integer is out of the range an error is thrown",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toRoot",
           "normalized": "Int-\u003eRoot",
@@ -2873,6 +3123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformes a absolute \u003ccode\u003e\u003ca\u003eRoot\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e into a relative \u003ccode\u003e\u003ca\u003eScaleDegree\u003c/a\u003e\u003c/code\u003e, given\n a \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toScaleDegree",
           "package": "HarmTrace-Base",
@@ -2883,6 +3134,7 @@
         "index": {
           "description": "Transformes absolute Root Note into relative ScaleDegree given Key",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toScaleDegree",
           "normalized": "Key-\u003eRoot-\u003eScaleDegree",
@@ -2899,6 +3151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the semitone value [0 .. 11] of a \u003ccode\u003e\u003ca\u003eScaleDegree\u003c/a\u003e\u003c/code\u003e where\n 0 = C, e.g. F# = 6. For the constructors \u003ccode\u003e\u003ca\u003eN\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eX\u003c/a\u003e\u003c/code\u003e an error is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toSemitone",
           "package": "HarmTrace-Base",
@@ -2909,6 +3162,7 @@
         "index": {
           "description": "Returns the semitone value of ScaleDegree where e.g For the constructors and an error is thrown",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toSemitone",
           "normalized": "Note a-\u003eInt",
@@ -2925,6 +3179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e and determines the \u003ccode\u003e\u003ca\u003eTriad\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoTriad (Chord (Note Nothing C) Min [NoAdd (Note (Just Fl) I3),Add (Note Nothing I3)] 0 0)\n\u003c/code\u003e\u003c/strong\u003emaj \n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoTriad (Chord (Note Nothing C) HDim7 [Add (Note (Just Sh) I11)] 0 0)\n\u003c/code\u003e\u003c/strong\u003edim\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoTriad (Chord (Note Nothing C) Min [NoAdd (Note (Just Fl) I3)] 0 0)\n\u003c/code\u003e\u003c/strong\u003eNoTriad\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toTriad",
           "package": "HarmTrace-Base",
@@ -2935,6 +3190,7 @@
         "index": {
           "description": "Takes Chord and determines the Triad toTriad Chord Note Nothing Min NoAdd Note Just Fl I3 Add Note Nothing I3 maj toTriad Chord Note Nothing HDim7 Add Note Just Sh I11 dim toTriad Chord Note Nothing Min NoAdd Note Just Fl I3 NoTriad",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "toTriad",
           "normalized": "Chord a-\u003eTriad",
@@ -2951,6 +3207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransposes a scale degree with \u003ccode\u003esem\u003c/code\u003e semitones up\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "transposeSem",
           "package": "HarmTrace-Base",
@@ -2961,6 +3218,7 @@
         "index": {
           "description": "Transposes scale degree with sem semitones up",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "transposeSem",
           "normalized": "ScaleDegree-\u003eInt-\u003eScaleDegree",
@@ -2977,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnknown Chord label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicRep",
           "name": "unknownLabel",
           "package": "HarmTrace-Base",
@@ -2987,6 +3246,7 @@
         "index": {
           "description": "Unknown Chord label",
           "hierarchy": "HarmTrace Base MusicRep",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicRep",
           "name": "unknownLabel",
           "package": "HarmTrace-Base",
@@ -3001,6 +3261,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: A set of types and classes for representing musical time, mainly\n (but not necessarily) in the context of recognising chords \n from an arbitrary audio source.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "MusicTime",
           "package": "HarmTrace-Base",
@@ -3010,6 +3271,7 @@
         "index": {
           "description": "Summary set of types and classes for representing musical time mainly but not necessarily in the context of recognising chords from an arbitrary audio source",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "MusicTime",
           "package": "HarmTrace-Base",
@@ -3024,6 +3286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroups the three types of VAMP plug-in data: \u003ccode\u003e\u003ca\u003eChordinoData\u003c/a\u003e\u003c/code\u003e, \n \u003ccode\u003e\u003ca\u003eBarTimeTrackData\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eKeyStrengthData\u003c/a\u003e\u003c/code\u003e. See for more information:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.vamp-plugins.org\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://isophonics.net/nnls-chroma\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://omras2.org/SonicAnnotator\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "AudioFeat",
           "package": "HarmTrace-Base",
@@ -3033,6 +3296,7 @@
         "index": {
           "description": "Groups the three types of VAMP plug-in data ChordinoData BarTimeTrackData and KeyStrengthData See for more information http www.vamp-plugins.org http isophonics.net nnls-chroma http omras2.org SonicAnnotator",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "AudioFeat",
           "package": "HarmTrace-Base",
@@ -3047,6 +3311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a musical time stamp, which is a \u003ccode\u003e\u003ca\u003eNumData\u003c/a\u003e\u003c/code\u003e possibly augmented\n with a \u003ccode\u003e\u003ca\u003eBeat\u003c/a\u003e\u003c/code\u003e denoting the position of the time stamp within a bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "BarTime",
           "package": "HarmTrace-Base",
@@ -3056,6 +3321,7 @@
         "index": {
           "description": "Represents musical time stamp which is NumData possibly augmented with Beat denoting the position of the time stamp within bar",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "BarTime",
           "package": "HarmTrace-Base",
@@ -3069,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "BarTimeTrackData",
           "package": "HarmTrace-Base",
@@ -3077,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "BarTimeTrackData",
           "package": "HarmTrace-Base",
@@ -3091,6 +3359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor now, we fix the number of available beats to four, because this is also\n hard-coded into the bar and beat-tracker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Beat",
           "package": "HarmTrace-Base",
@@ -3100,6 +3369,7 @@
         "index": {
           "description": "For now we fix the number of available beats to four because this is also hard-coded into the bar and beat-tracker",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Beat",
           "package": "HarmTrace-Base",
@@ -3113,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "BeatChroma",
           "package": "HarmTrace-Base",
@@ -3121,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "BeatChroma",
           "package": "HarmTrace-Base",
@@ -3134,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "BeatTrackerData",
           "package": "HarmTrace-Base",
@@ -3142,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "BeatTrackerData",
           "package": "HarmTrace-Base",
@@ -3156,6 +3430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chord annotation consists of a\n list with chords and segment boundaries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordAnnotation",
           "package": "HarmTrace-Base",
@@ -3165,6 +3440,7 @@
         "index": {
           "description": "chord annotation consists of list with chords and segment boundaries",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordAnnotation",
           "package": "HarmTrace-Base",
@@ -3179,6 +3455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chord candidate: an intermediate datatype that matches shorthand, \n chord structure and root note (plus inversion)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordCand",
           "package": "HarmTrace-Base",
@@ -3188,6 +3465,7 @@
         "index": {
           "description": "chord candidate an intermediate datatype that matches shorthand chord structure and root note plus inversion",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordCand",
           "package": "HarmTrace-Base",
@@ -3202,6 +3480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chord template is list of \u003ccode\u003e\u003ca\u003eNumData\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordStruct",
           "package": "HarmTrace-Base",
@@ -3211,6 +3490,7 @@
         "index": {
           "description": "chord template is list of NumData",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordStruct",
           "package": "HarmTrace-Base",
@@ -3224,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordinoData",
           "package": "HarmTrace-Base",
@@ -3232,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordinoData",
           "package": "HarmTrace-Base",
@@ -3246,6 +3528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents two chroma features and a time stamp. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordinoLine",
           "package": "HarmTrace-Base",
@@ -3255,6 +3538,7 @@
         "index": {
           "description": "Represents two chroma features and time stamp",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordinoLine",
           "package": "HarmTrace-Base",
@@ -3268,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "KeyStrengthData",
           "package": "HarmTrace-Base",
@@ -3276,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "KeyStrengthData",
           "package": "HarmTrace-Base",
@@ -3290,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym is defined for our main numerical representation, this \n allows us to easily change the precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "NumData",
           "package": "HarmTrace-Base",
@@ -3299,6 +3586,7 @@
         "index": {
           "description": "type synonym is defined for our main numerical representation this allows us to easily change the precision",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "NumData",
           "package": "HarmTrace-Base",
@@ -3313,6 +3601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines a \u003ccode\u003e\u003ca\u003eChordLabel\u003c/a\u003e\u003c/code\u003e with a probability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ProbChord",
           "package": "HarmTrace-Base",
@@ -3322,6 +3611,7 @@
         "index": {
           "description": "Combines ChordLabel with probability",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ProbChord",
           "package": "HarmTrace-Base",
@@ -3336,6 +3626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClustering \u003ccode\u003e\u003ca\u003eProbChord\u003c/a\u003e\u003c/code\u003es in a collection of chords that share a key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ProbChordSeg",
           "package": "HarmTrace-Base",
@@ -3345,6 +3636,7 @@
         "index": {
           "description": "Clustering ProbChord in collection of chords that share key",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ProbChordSeg",
           "package": "HarmTrace-Base",
@@ -3359,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype that wraps around an (musical) datatype, adding information \n about the musical time to this datatype. Musical time is stored as \n a list of \u003ccode\u003e\u003ca\u003eBarTime\u003c/a\u003e\u003c/code\u003e time stamps that can optionally be augmented\n with information about the \u003ccode\u003e\u003ca\u003eBeat\u003c/a\u003e\u003c/code\u003e position of the particular time stamp \n inside the bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "TimedData",
           "package": "HarmTrace-Base",
@@ -3368,6 +3661,7 @@
         "index": {
           "description": "datatype that wraps around an musical datatype adding information about the musical time to this datatype Musical time is stored as list of BarTime time stamps that can optionally be augmented with information about the Beat position of the particular time stamp inside the bar",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "TimedData",
           "package": "HarmTrace-Base",
@@ -3381,6 +3675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "AudioFeat",
           "package": "HarmTrace-Base",
@@ -3390,6 +3685,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "AudioFeat",
           "package": "HarmTrace-Base",
@@ -3403,6 +3699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "BarTime",
           "package": "HarmTrace-Base",
@@ -3412,6 +3709,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "BarTime",
           "package": "HarmTrace-Base",
@@ -3425,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordCand",
           "package": "HarmTrace-Base",
@@ -3434,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordCand",
           "package": "HarmTrace-Base",
@@ -3447,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordinoLine",
           "package": "HarmTrace-Base",
@@ -3456,6 +3757,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ChordinoLine",
           "package": "HarmTrace-Base",
@@ -3469,6 +3771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Four",
           "package": "HarmTrace-Base",
@@ -3478,6 +3781,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Four",
           "package": "HarmTrace-Base",
@@ -3491,6 +3795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "NoBeat",
           "package": "HarmTrace-Base",
@@ -3500,6 +3805,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "NoBeat",
           "package": "HarmTrace-Base",
@@ -3513,6 +3819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "One",
           "package": "HarmTrace-Base",
@@ -3522,6 +3829,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "One",
           "package": "HarmTrace-Base",
@@ -3535,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ProbChord",
           "package": "HarmTrace-Base",
@@ -3544,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "ProbChord",
           "package": "HarmTrace-Base",
@@ -3557,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Segment",
           "package": "HarmTrace-Base",
@@ -3566,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Segment",
           "package": "HarmTrace-Base",
@@ -3579,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Three",
           "package": "HarmTrace-Base",
@@ -3588,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Three",
           "package": "HarmTrace-Base",
@@ -3601,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Time",
           "package": "HarmTrace-Base",
@@ -3610,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Time",
           "package": "HarmTrace-Base",
@@ -3623,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "TimedData",
           "package": "HarmTrace-Base",
@@ -3632,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "TimedData",
           "package": "HarmTrace-Base",
@@ -3645,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Two",
           "package": "HarmTrace-Base",
@@ -3654,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "Two",
           "package": "HarmTrace-Base",
@@ -3668,6 +3988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the bass chroma feature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "bass",
           "package": "HarmTrace-Base",
@@ -3678,6 +3999,7 @@
         "index": {
           "description": "Returns the bass chroma feature",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "bass",
           "normalized": "[NumData]",
@@ -3693,6 +4015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003eNumData\u003c/a\u003e\u003c/code\u003e timestamp, given a \u003ccode\u003e\u003ca\u003eBarTime\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "beat",
           "package": "HarmTrace-Base",
@@ -3703,6 +4026,7 @@
         "index": {
           "description": "Returns the NumData timestamp given BarTime",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "beat",
           "normalized": "BarTime-\u003eBeat",
@@ -3717,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "chordLab",
           "package": "HarmTrace-Base",
@@ -3726,6 +4051,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "chordLab",
           "package": "HarmTrace-Base",
@@ -3739,6 +4065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "chordStructCC",
           "package": "HarmTrace-Base",
@@ -3748,6 +4075,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "chordStructCC",
           "package": "HarmTrace-Base",
@@ -3762,6 +4090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econcatenates the \u003ccode\u003e\u003ca\u003eBarTime\u003c/a\u003e\u003c/code\u003e timestamps of two \u003ccode\u003e\u003ca\u003eTimedData\u003c/a\u003e\u003c/code\u003es and \n creates a new \u003ccode\u003e\u003ca\u003eTimedData\u003c/a\u003e\u003c/code\u003e that stores the first argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "concatTimedData",
           "package": "HarmTrace-Base",
@@ -3772,6 +4101,7 @@
         "index": {
           "description": "concatenates the BarTime timestamps of two TimedData and creates new TimedData that stores the first argument",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "concatTimedData",
           "normalized": "a-\u003eTimedData a-\u003eTimedData a-\u003eTimedData a",
@@ -3788,6 +4118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edrops the probabilties paired with chordlabels (in a list of \u003ccode\u003e\u003ca\u003eProbChord\u003c/a\u003e\u003c/code\u003es)\n and returns a list of \u003ccode\u003e\u003ca\u003eChordLabel\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "dropProb",
           "package": "HarmTrace-Base",
@@ -3798,6 +4129,7 @@
         "index": {
           "description": "drops the probabilties paired with chordlabels in list of ProbChord and returns list of ChordLabel",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "dropProb",
           "normalized": "[TimedData ProbChord]-\u003e[TimedData ChordLabel]",
@@ -3814,6 +4146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edrops the time (with or without \u003ccode\u003e\u003ca\u003eBeat\u003c/a\u003e\u003c/code\u003e) information of a list \n \u003ccode\u003eTimed\u003c/code\u003e data structure \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "dropTimed",
           "package": "HarmTrace-Base",
@@ -3824,6 +4157,7 @@
         "index": {
           "description": "drops the time with or without Beat information of list Timed data structure",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "dropTimed",
           "normalized": "[TimedData a]-\u003e[a]",
@@ -3839,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getAudioFeatId",
           "package": "HarmTrace-Base",
@@ -3848,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getAudioFeatId",
           "package": "HarmTrace-Base",
@@ -3862,6 +4198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the start time stamp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getBarTime",
           "package": "HarmTrace-Base",
@@ -3872,6 +4209,7 @@
         "index": {
           "description": "Returns the start time stamp",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getBarTime",
           "normalized": "TimedData a-\u003eBarTime",
@@ -3888,6 +4226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the start \u003ccode\u003e\u003ca\u003eBeat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getBeat",
           "package": "HarmTrace-Base",
@@ -3898,6 +4237,7 @@
         "index": {
           "description": "Returns the start Beat",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getBeat",
           "normalized": "TimedData a-\u003eBeat",
@@ -3914,6 +4254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts  \u003ccode\u003e\u003ca\u003eBarTimeTrackData\u003c/a\u003e\u003c/code\u003e into \u003ccode\u003e\u003ca\u003eBeatTrackerData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getBeatTrack",
           "package": "HarmTrace-Base",
@@ -3924,6 +4265,7 @@
         "index": {
           "description": "Converts BarTimeTrackData into BeatTrackerData",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getBeatTrack",
           "normalized": "BarTimeTrackData-\u003eBeatTrackerData",
@@ -3939,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getBeats",
           "package": "HarmTrace-Base",
@@ -3948,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getBeats",
           "package": "HarmTrace-Base",
@@ -3961,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getChroma",
           "package": "HarmTrace-Base",
@@ -3970,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getChroma",
           "package": "HarmTrace-Base",
@@ -3984,6 +4330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the contained datatype \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getData",
           "package": "HarmTrace-Base",
@@ -3994,6 +4341,7 @@
         "index": {
           "description": "Returns the contained datatype",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getData",
           "package": "HarmTrace-Base",
@@ -4007,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getKeys",
           "package": "HarmTrace-Base",
@@ -4016,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getKeys",
           "package": "HarmTrace-Base",
@@ -4030,6 +4380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the list of TimeStamps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getTimeStamps",
           "package": "HarmTrace-Base",
@@ -4040,6 +4391,7 @@
         "index": {
           "description": "Returns the list of TimeStamps",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "getTimeStamps",
           "normalized": "[BarTime]",
@@ -4055,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "inversionRootCC",
           "package": "HarmTrace-Base",
@@ -4064,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "inversionRootCC",
           "package": "HarmTrace-Base",
@@ -4078,6 +4432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the next beat, e.g. \u003ccode\u003e nextBeat Two = Three \u003c/code\u003e. \n Following the (current) definition of \u003ccode\u003e\u003ca\u003eBeat\u003c/a\u003e\u003c/code\u003e, we still assume 4/4, in the \n future this function should also have the meter as an argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "nextBeat",
           "package": "HarmTrace-Base",
@@ -4088,6 +4443,7 @@
         "index": {
           "description": "returns the next beat e.g nextBeat Two Three Following the current definition of Beat we still assume in the future this function should also have the meter as an argument",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "nextBeat",
           "normalized": "Beat-\u003eBeat",
@@ -4104,6 +4460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the offset time stamp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "offset",
           "package": "HarmTrace-Base",
@@ -4114,6 +4471,7 @@
         "index": {
           "description": "Returns the offset time stamp",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "offset",
           "normalized": "TimedData a-\u003eNumData",
@@ -4129,6 +4487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the onset time stamp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "onset",
           "package": "HarmTrace-Base",
@@ -4139,6 +4498,7 @@
         "index": {
           "description": "Returns the onset time stamp",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "onset",
           "normalized": "TimedData a-\u003eNumData",
@@ -4153,6 +4513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "originalRootCC",
           "package": "HarmTrace-Base",
@@ -4162,6 +4523,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "originalRootCC",
           "package": "HarmTrace-Base",
@@ -4176,6 +4538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the previous \u003ccode\u003e\u003ca\u003eBeat\u003c/a\u003e\u003c/code\u003e, similar to \u003ccode\u003e\u003ca\u003eprevBeat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003ereturns the next beat, e.g. \u003ccode\u003e nextBeat Two = Three \u003c/code\u003e. \n Following the (current) definition of \u003ccode\u003e\u003ca\u003eBeat\u003c/a\u003e\u003c/code\u003e, we still assume 4/4, in the \n future this function should also have the meter as an argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "prevBeat",
           "package": "HarmTrace-Base",
@@ -4186,6 +4549,7 @@
         "index": {
           "description": "returns the previous Beat similar to prevBeat returns the next beat e.g nextBeat Two Three Following the current definition of Beat we still assume in the future this function should also have the meter as an argument",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "prevBeat",
           "normalized": "Beat-\u003eBeat",
@@ -4201,6 +4565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "prob",
           "package": "HarmTrace-Base",
@@ -4210,6 +4575,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "prob",
           "package": "HarmTrace-Base",
@@ -4222,6 +4588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "segChords",
           "package": "HarmTrace-Base",
@@ -4231,6 +4598,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "segChords",
           "normalized": "[TimedData[ProbChord]]",
@@ -4246,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "segKey",
           "package": "HarmTrace-Base",
@@ -4255,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "segKey",
           "package": "HarmTrace-Base",
@@ -4269,6 +4639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewraps a datatype in \u003ccode\u003e\u003ca\u003eTimedData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "setData",
           "package": "HarmTrace-Base",
@@ -4279,6 +4650,7 @@
         "index": {
           "description": "wraps datatype in TimedData",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "setData",
           "normalized": "TimedData a-\u003eb-\u003eTimedData b",
@@ -4294,6 +4666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "shorthardCC",
           "package": "HarmTrace-Base",
@@ -4303,6 +4676,7 @@
         },
         "index": {
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "shorthardCC",
           "package": "HarmTrace-Base",
@@ -4317,6 +4691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the time stamp of the chroma features\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "time",
           "package": "HarmTrace-Base",
@@ -4327,6 +4702,7 @@
         "index": {
           "description": "Returns the time stamp of the chroma features",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "time",
           "package": "HarmTrace-Base",
@@ -4340,6 +4716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003eNumData\u003c/a\u003e\u003c/code\u003e timestamp, given a \u003ccode\u003e\u003ca\u003eBarTime\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "timeStamp",
           "package": "HarmTrace-Base",
@@ -4350,6 +4727,7 @@
         "index": {
           "description": "Returns the NumData timestamp given BarTime",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "timeStamp",
           "normalized": "BarTime-\u003eNumData",
@@ -4366,6 +4744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealternative \u003ccode\u003e\u003ca\u003eTimedData\u003c/a\u003e\u003c/code\u003e constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "timedData",
           "package": "HarmTrace-Base",
@@ -4376,6 +4755,7 @@
         "index": {
           "description": "alternative TimedData constructor",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "timedData",
           "normalized": "a-\u003eNumData-\u003eNumData-\u003eTimedData a",
@@ -4392,6 +4772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealternative \u003ccode\u003e\u003ca\u003eTimedData\u003c/a\u003e\u003c/code\u003e constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "timedDataBT",
           "package": "HarmTrace-Base",
@@ -4402,6 +4783,7 @@
         "index": {
           "description": "alternative TimedData constructor",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "timedDataBT",
           "normalized": "a-\u003eBarTime-\u003eBarTime-\u003eTimedData a",
@@ -4418,6 +4800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the treble chroma feature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "treb",
           "package": "HarmTrace-Base",
@@ -4428,6 +4811,7 @@
         "index": {
           "description": "Returns the treble chroma feature",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "treb",
           "normalized": "[NumData]",
@@ -4443,6 +4827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates transforms ChordLabel wrapped in a \u003ccode\u003e\u003ca\u003eProbChord\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTimedData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.MusicTime",
           "name": "updateTPChord",
           "package": "HarmTrace-Base",
@@ -4453,6 +4838,7 @@
         "index": {
           "description": "Updates transforms ChordLabel wrapped in ProbChord and TimedData",
           "hierarchy": "HarmTrace Base MusicTime",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.MusicTime",
           "name": "updateTPChord",
           "normalized": "(ChordLabel-\u003eChordLabel)-\u003eTimedData ProbChord-\u003eTimedData ProbChord",
@@ -4469,6 +4855,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Some general parsing utilities used for parsing textual chord\n representations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.Parsing",
           "name": "Parsing",
           "package": "HarmTrace-Base",
@@ -4478,6 +4865,7 @@
         "index": {
           "description": "Summary Some general parsing utilities used for parsing textual chord representations",
           "hierarchy": "HarmTrace Base Parsing",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.Parsing",
           "name": "Parsing",
           "package": "HarmTrace-Base",
@@ -4492,6 +4880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses UNIX and DOS/WINDOWS line endings including trailing whitespace\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.Parsing",
           "name": "pLineEnd",
           "package": "HarmTrace-Base",
@@ -4502,6 +4891,7 @@
         "index": {
           "description": "Parses UNIX and DOS WINDOWS line endings including trailing whitespace",
           "hierarchy": "HarmTrace Base Parsing",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.Parsing",
           "name": "pLineEnd",
           "package": "HarmTrace-Base",
@@ -4516,6 +4906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an arbitrary times the first parsing combinator until the parsing \n second parsing combinator is encountered. The result of the second parsing\n combinator is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.Parsing",
           "name": "pManyTill",
           "package": "HarmTrace-Base",
@@ -4526,6 +4917,7 @@
         "index": {
           "description": "Parses an arbitrary times the first parsing combinator until the parsing second parsing combinator is encountered The result of the second parsing combinator is ignored",
           "hierarchy": "HarmTrace Base Parsing",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.Parsing",
           "name": "pManyTill",
           "normalized": "P a b-\u003eP a c-\u003eP a[b]",
@@ -4542,6 +4934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a specific string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.Parsing",
           "name": "pString",
           "package": "HarmTrace-Base",
@@ -4552,6 +4945,7 @@
         "index": {
           "description": "Parses specific string",
           "hierarchy": "HarmTrace Base Parsing",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.Parsing",
           "name": "pString",
           "normalized": "[a]-\u003eP(Str a b c)[a]",
@@ -4568,6 +4962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToplevel parser that ignores error-reporting, regardless of there were\n error in the parse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.Parsing",
           "name": "parseData",
           "package": "HarmTrace-Base",
@@ -4578,6 +4973,7 @@
         "index": {
           "description": "Toplevel parser that ignores error-reporting regardless of there were error in the parse",
           "hierarchy": "HarmTrace Base Parsing",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.Parsing",
           "name": "parseData",
           "normalized": "P(Str a b LineColPos)c-\u003eb-\u003ec",
@@ -4594,6 +4990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is identical to \u003ccode\u003e\u003ca\u003eparseData\u003c/a\u003e\u003c/code\u003e however it will throw an \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e when\n the the list with parsing errors is not empty. No, this will not make your\n program more safe. However, in certain cases you really want to be sure\n that parsing has finished without errors. In those cases you should use\n \u003ccode\u003e\u003ca\u003eparseDataSafe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.Parsing",
           "name": "parseDataSafe",
           "package": "HarmTrace-Base",
@@ -4604,6 +5001,7 @@
         "index": {
           "description": "This is identical to parseData however it will throw an error when the the list with parsing errors is not empty No this will not make your program more safe However in certain cases you really want to be sure that parsing has finished without errors In those cases you should use parseDataSafe",
           "hierarchy": "HarmTrace Base Parsing",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.Parsing",
           "name": "parseDataSafe",
           "normalized": "P(Str a b LineColPos)c-\u003eb-\u003ec",
@@ -4620,6 +5018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToplevel parser that returns both the result as well as a (possibly empty)\n list of error-corrections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:39 UTC 2014",
           "module": "HarmTrace.Base.Parsing",
           "name": "parseDataWithErrors",
           "package": "HarmTrace-Base",
@@ -4630,6 +5029,7 @@
         "index": {
           "description": "Toplevel parser that returns both the result as well as possibly empty list of error-corrections",
           "hierarchy": "HarmTrace Base Parsing",
+          "indexed": "2014-03-11T16:47:39",
           "module": "HarmTrace.Base.Parsing",
           "name": "parseDataWithErrors",
           "normalized": "P(Str a b LineColPos)c-\u003eb-\u003e(c,[Error LineColPos])",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fpipe"
+        "phrase": "fpipe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:44 UTC 2014",
           "module": "Control.FPipe",
           "name": "FPipe",
           "package": "fpipe",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control FPipe",
+          "indexed": "2014-03-11T18:11:44",
           "module": "Control.FPipe",
           "name": "FPipe",
           "package": "fpipe",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:44 UTC 2014",
           "module": "Control.FPipe",
           "name": "($\u003e)",
           "package": "fpipe",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control FPipe",
+          "indexed": "2014-03-11T18:11:44",
           "module": "Control.FPipe",
           "name": "($\u003e) $\u003e",
           "normalized": "a-\u003e(a-\u003ea)-\u003ea",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese operators provide trivial F#-style pipes for function composition and\n application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:44 UTC 2014",
           "module": "Control.FPipe",
           "name": "(\u003c$)",
           "package": "fpipe",
@@ -73,6 +78,7 @@
         "index": {
           "description": "These operators provide trivial style pipes for function composition and application",
           "hierarchy": "Control FPipe",
+          "indexed": "2014-03-11T18:11:44",
           "module": "Control.FPipe",
           "name": "(\u003c$) \u003c$",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:44 UTC 2014",
           "module": "Control.FPipe",
           "name": "(\u003c.)",
           "package": "fpipe",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control FPipe",
+          "indexed": "2014-03-11T18:11:44",
           "module": "Control.FPipe",
           "name": "(\u003c.) \u003c.",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003eb",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:44 UTC 2014",
           "module": "Control.FPipe",
           "name": "(.\u003e)",
           "package": "fpipe",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Control FPipe",
+          "indexed": "2014-03-11T18:11:44",
           "module": "Control.FPipe",
           "name": "(.\u003e) .\u003e",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec)-\u003ea-\u003ec",

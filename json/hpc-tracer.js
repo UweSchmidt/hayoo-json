@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hpc-tracer"
+        "phrase": "hpc-tracer",
+        "type": "phrase"
       },
       "type": "context"
     }

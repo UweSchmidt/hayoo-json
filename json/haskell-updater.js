@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-updater"
+        "phrase": "haskell-updater",
+        "type": "phrase"
       },
       "type": "context"
     }

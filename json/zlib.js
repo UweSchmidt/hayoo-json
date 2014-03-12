@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zlib"
+        "phrase": "zlib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompression and decompression of data streams in the gzip format.\n\u003c/p\u003e\u003cp\u003eThe format is described in detail in RFC #1952:\n \u003ca\u003ehttp://www.ietf.org/rfc/rfc1952.txt\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eSee also the zlib home page: \u003ca\u003ehttp://zlib.net/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "GZip",
           "package": "zlib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Compression and decompression of data streams in the gzip format The format is described in detail in RFC http www.ietf.org rfc rfc1952.txt See also the zlib home page http zlib.net",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "GZip",
           "package": "zlib",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full set of parameters for compression. The defaults are\n \u003ccode\u003e\u003ca\u003edefaultCompressParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ecompressBufferSize\u003c/a\u003e\u003c/code\u003e is the size of the first output buffer containing\n the compressed data. If you know an approximate upper bound on the size of\n the compressed data then setting this parameter can save memory. The default\n compression output buffer size is \u003ccode\u003e16k\u003c/code\u003e. If your extimate is wrong it does\n not matter too much, the default buffer size will be used for the remaining\n chunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "CompressParams",
           "package": "zlib",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The full set of parameters for compression The defaults are defaultCompressParams The compressBufferSize is the size of the first output buffer containing the compressed data If you know an approximate upper bound on the size of the compressed data then setting this parameter can save memory The default compression output buffer size is If your extimate is wrong it does not matter too much the default buffer size will be used for the remaining chunks",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "CompressParams",
           "package": "zlib",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compression level parameter controls the amount of compression. This\n is a trade-off between the amount of compression and the time required to do\n the compression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "CompressionLevel",
           "package": "zlib",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The compression level parameter controls the amount of compression This is trade-off between the amount of compression and the time required to do the compression",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "CompressionLevel",
           "package": "zlib",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strategy parameter is used to tune the compression algorithm.\n\u003c/p\u003e\u003cp\u003eThe strategy parameter only affects the compression ratio but not the\n correctness of the compressed output even if it is not set appropriately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "CompressionStrategy",
           "package": "zlib",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The strategy parameter is used to tune the compression algorithm The strategy parameter only affects the compression ratio but not the correctness of the compressed output even if it is not set appropriately",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "CompressionStrategy",
           "package": "zlib",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full set of parameters for decompression. The defaults are\n \u003ccode\u003e\u003ca\u003edefaultDecompressParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e is the size of the first output buffer,\n containing the uncompressed data. If you know an exact or approximate upper\n bound on the size of the decompressed data then setting this parameter can\n save memory. The default decompression output buffer size is \u003ccode\u003e32k\u003c/code\u003e. If your\n extimate is wrong it does not matter too much, the default buffer size will\n be used for the remaining chunks.\n\u003c/p\u003e\u003cp\u003eOne particular use case for setting the \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e is if you\n know the exact size of the decompressed data and want to produce a strict\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. The compression and deccompression functions\n use lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es but if you set the\n \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e correctly then you can generate a lazy\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e with exactly one chunk, which can be\n converted to a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eO(1)\u003c/code\u003e time using\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etoChunks\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "DecompressParams",
           "package": "zlib",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The full set of parameters for decompression The defaults are defaultDecompressParams The decompressBufferSize is the size of the first output buffer containing the uncompressed data If you know an exact or approximate upper bound on the size of the decompressed data then setting this parameter can save memory The default decompression output buffer size is If your extimate is wrong it does not matter too much the default buffer size will be used for the remaining chunks One particular use case for setting the decompressBufferSize is if you know the exact size of the decompressed data and want to produce strict ByteString The compression and deccompression functions use lazy ByteString but if you set the decompressBufferSize correctly then you can generate lazy ByteString with exactly one chunk which can be converted to strict ByteString in time using concat toChunks",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "DecompressParams",
           "package": "zlib",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e parameter specifies how much memory should be allocated\n for the internal compression state. It is a tradoff between memory usage,\n compression ratio and compression speed. Using more memory allows faster\n compression and a better compression ratio.\n\u003c/p\u003e\u003cp\u003eThe total amount of memory used for compression depends on the \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e\n and the \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e. For decompression it depends only on the\n \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e. The totals are given by the functions:\n\u003c/p\u003e\u003cpre\u003e compressTotal windowBits memLevel = 4 * 2^windowBits + 512 * 2^memLevel\n decompressTotal windowBits = 2^windowBits\n\u003c/pre\u003e\u003cp\u003eFor example, for compression with the default \u003ccode\u003ewindowBits = 15\u003c/code\u003e and\n \u003ccode\u003ememLevel = 8\u003c/code\u003e uses \u003ccode\u003e256Kb\u003c/code\u003e. So for example a network server with 100\n concurrent compressed streams would use \u003ccode\u003e25Mb\u003c/code\u003e. The memory per stream can be\n halved (at the cost of somewhat degraded and slower compressionby) by\n reducing the \u003ccode\u003ewindowBits\u003c/code\u003e and \u003ccode\u003ememLevel\u003c/code\u003e by one.\n\u003c/p\u003e\u003cp\u003eDecompression takes less memory, the default \u003ccode\u003ewindowBits = 15\u003c/code\u003e corresponds\n to just \u003ccode\u003e32Kb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "MemoryLevel",
           "package": "zlib",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The MemoryLevel parameter specifies how much memory should be allocated for the internal compression state It is tradoff between memory usage compression ratio and compression speed Using more memory allows faster compression and better compression ratio The total amount of memory used for compression depends on the WindowBits and the MemoryLevel For decompression it depends only on the WindowBits The totals are given by the functions compressTotal windowBits memLevel windowBits memLevel decompressTotal windowBits windowBits For example for compression with the default windowBits and memLevel uses Kb So for example network server with concurrent compressed streams would use Mb The memory per stream can be halved at the cost of somewhat degraded and slower compressionby by reducing the windowBits and memLevel by one Decompression takes less memory the default windowBits corresponds to just Kb",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "MemoryLevel",
           "package": "zlib",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compression method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "Method",
           "package": "zlib",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The compression method",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "Method",
           "package": "zlib",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis specifies the size of the compression window. Larger values of this\n parameter result in better compression at the expense of higher memory\n usage.\n\u003c/p\u003e\u003cp\u003eThe compression window size is the value of the the window bits raised to\n the power 2. The window bits must be in the range \u003ccode\u003e8..15\u003c/code\u003e which corresponds\n to compression window sizes of 256b to 32Kb. The default is 15 which is also\n the maximum size.\n\u003c/p\u003e\u003cp\u003eThe total amount of memory used depends on the window bits and the\n \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e. See the \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e for the details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "WindowBits",
           "package": "zlib",
@@ -189,6 +204,7 @@
         "index": {
           "description": "This specifies the size of the compression window Larger values of this parameter result in better compression at the expense of higher memory usage The compression window size is the value of the the window bits raised to the power The window bits must be in the range which corresponds to compression window sizes of to Kb The default is which is also the maximum size The total amount of memory used depends on the window bits and the MemoryLevel See the MemoryLevel for the details",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "WindowBits",
           "package": "zlib",
@@ -668,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress a stream of data into the gzip format.\n\u003c/p\u003e\u003cp\u003eThis uses the default compression parameters. In partiular it uses the\n default compression level which favours a higher compression ratio over\n compression speed, though it does not use the maximum compression level.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003ecompressWith\u003c/a\u003e\u003c/code\u003e to adjust the compression level or other compression\n parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "compress",
           "package": "zlib",
@@ -678,6 +695,7 @@
         "index": {
           "description": "Compress stream of data into the gzip format This uses the default compression parameters In partiular it uses the default compression level which favours higher compression ratio over compression speed though it does not use the maximum compression level Use compressWith to adjust the compression level or other compression parameters",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "compress",
           "normalized": "ByteString-\u003eByteString",
@@ -854,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecompress\u003c/a\u003e\u003c/code\u003e but with the ability to specify various compression\n parameters. Typical usage:\n\u003c/p\u003e\u003cpre\u003e compressWith defaultCompressParams { ... }\n\u003c/pre\u003e\u003cp\u003eIn particular you can set the compression level:\n\u003c/p\u003e\u003cpre\u003e compressWith defaultCompressParams { compressLevel = BestCompression }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "compressWith",
           "package": "zlib",
@@ -864,6 +883,7 @@
         "index": {
           "description": "Like compress but with the ability to specify various compression parameters Typical usage compressWith defaultCompressParams In particular you can set the compression level compressWith defaultCompressParams compressLevel BestCompression",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "compressWith",
           "normalized": "CompressParams-\u003eByteString-\u003eByteString",
@@ -907,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompress a stream of data in the gzip format.\n\u003c/p\u003e\u003cp\u003eThere are a number of errors that can occur. In each case an exception will\n be thrown. The possible error conditions are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e if the stream does not start with a valid gzip header\n\u003c/li\u003e\u003cli\u003e if the compressed stream is corrupted\n\u003c/li\u003e\u003cli\u003e if the compressed stream ends permaturely\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNote that the decompression is performed \u003cem\u003elazily\u003c/em\u003e. Errors in the data stream\n may not be detected until the end of the stream is demanded (since it is\n only at the end that the final checksum can be checked). If this is\n important to you, you must make sure to consume the whole decompressed\n stream before doing any IO action that depends on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "decompress",
           "package": "zlib",
@@ -917,6 +938,7 @@
         "index": {
           "description": "Decompress stream of data in the gzip format There are number of errors that can occur In each case an exception will be thrown The possible error conditions are if the stream does not start with valid gzip header if the compressed stream is corrupted if the compressed stream ends permaturely Note that the decompression is performed lazily Errors in the data stream may not be detected until the end of the stream is demanded since it is only at the end that the final checksum can be checked If this is important to you you must make sure to consume the whole decompressed stream before doing any IO action that depends on it",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "decompress",
           "normalized": "ByteString-\u003eByteString",
@@ -1001,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edecompress\u003c/a\u003e\u003c/code\u003e but with the ability to specify various decompression\n parameters. Typical usage:\n\u003c/p\u003e\u003cpre\u003e decompressWith defaultCompressParams { ... }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.GZip",
           "name": "decompressWith",
           "package": "zlib",
@@ -1011,6 +1034,7 @@
         "index": {
           "description": "Like decompress but with the ability to specify various decompression parameters Typical usage decompressWith defaultCompressParams",
           "hierarchy": "Codec Compression GZip",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.GZip",
           "name": "decompressWith",
           "normalized": "DecompressParams-\u003eByteString-\u003eByteString",
@@ -1381,6 +1405,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePure stream based interface to lower level zlib wrapper\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "Internal",
           "package": "zlib",
@@ -1390,6 +1415,7 @@
         "index": {
           "description": "Pure stream based interface to lower level zlib wrapper",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "Internal",
           "package": "zlib",
@@ -1404,6 +1430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full set of parameters for compression. The defaults are\n \u003ccode\u003e\u003ca\u003edefaultCompressParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ecompressBufferSize\u003c/a\u003e\u003c/code\u003e is the size of the first output buffer containing\n the compressed data. If you know an approximate upper bound on the size of\n the compressed data then setting this parameter can save memory. The default\n compression output buffer size is \u003ccode\u003e16k\u003c/code\u003e. If your extimate is wrong it does\n not matter too much, the default buffer size will be used for the remaining\n chunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "CompressParams",
           "package": "zlib",
@@ -1413,6 +1440,7 @@
         "index": {
           "description": "The full set of parameters for compression The defaults are defaultCompressParams The compressBufferSize is the size of the first output buffer containing the compressed data If you know an approximate upper bound on the size of the compressed data then setting this parameter can save memory The default compression output buffer size is If your extimate is wrong it does not matter too much the default buffer size will be used for the remaining chunks",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "CompressParams",
           "package": "zlib",
@@ -1427,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compression level parameter controls the amount of compression. This\n is a trade-off between the amount of compression and the time required to do\n the compression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "CompressionLevel",
           "package": "zlib",
@@ -1436,6 +1465,7 @@
         "index": {
           "description": "The compression level parameter controls the amount of compression This is trade-off between the amount of compression and the time required to do the compression",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "CompressionLevel",
           "package": "zlib",
@@ -1450,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strategy parameter is used to tune the compression algorithm.\n\u003c/p\u003e\u003cp\u003eThe strategy parameter only affects the compression ratio but not the\n correctness of the compressed output even if it is not set appropriately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "CompressionStrategy",
           "package": "zlib",
@@ -1459,6 +1490,7 @@
         "index": {
           "description": "The strategy parameter is used to tune the compression algorithm The strategy parameter only affects the compression ratio but not the correctness of the compressed output even if it is not set appropriately",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "CompressionStrategy",
           "package": "zlib",
@@ -1473,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible error cases when decompressing a stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "DecompressError",
           "package": "zlib",
@@ -1482,6 +1515,7 @@
         "index": {
           "description": "The possible error cases when decompressing stream",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "DecompressError",
           "package": "zlib",
@@ -1496,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full set of parameters for decompression. The defaults are\n \u003ccode\u003e\u003ca\u003edefaultDecompressParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e is the size of the first output buffer,\n containing the uncompressed data. If you know an exact or approximate upper\n bound on the size of the decompressed data then setting this parameter can\n save memory. The default decompression output buffer size is \u003ccode\u003e32k\u003c/code\u003e. If your\n extimate is wrong it does not matter too much, the default buffer size will\n be used for the remaining chunks.\n\u003c/p\u003e\u003cp\u003eOne particular use case for setting the \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e is if you\n know the exact size of the decompressed data and want to produce a strict\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. The compression and deccompression functions\n use lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es but if you set the\n \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e correctly then you can generate a lazy\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e with exactly one chunk, which can be\n converted to a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eO(1)\u003c/code\u003e time using\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etoChunks\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "DecompressParams",
           "package": "zlib",
@@ -1505,6 +1540,7 @@
         "index": {
           "description": "The full set of parameters for decompression The defaults are defaultDecompressParams The decompressBufferSize is the size of the first output buffer containing the uncompressed data If you know an exact or approximate upper bound on the size of the decompressed data then setting this parameter can save memory The default decompression output buffer size is If your extimate is wrong it does not matter too much the default buffer size will be used for the remaining chunks One particular use case for setting the decompressBufferSize is if you know the exact size of the decompressed data and want to produce strict ByteString The compression and deccompression functions use lazy ByteString but if you set the decompressBufferSize correctly then you can generate lazy ByteString with exactly one chunk which can be converted to strict ByteString in time using concat toChunks",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "DecompressParams",
           "package": "zlib",
@@ -1519,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequence of chunks of data produced from decompression.\n\u003c/p\u003e\u003cp\u003eThe difference from a simple list is that it contains a representation of\n errors as data rather than as exceptions. This allows you to handle error\n conditions explicitly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "DecompressStream",
           "package": "zlib",
@@ -1528,6 +1565,7 @@
         "index": {
           "description": "sequence of chunks of data produced from decompression The difference from simple list is that it contains representation of errors as data rather than as exceptions This allows you to handle error conditions explicitly",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "DecompressStream",
           "package": "zlib",
@@ -1542,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe format used for compression or decompression. There are three\n variations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "Format",
           "package": "zlib",
@@ -1551,6 +1590,7 @@
         "index": {
           "description": "The format used for compression or decompression There are three variations",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "Format",
           "package": "zlib",
@@ -1565,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e parameter specifies how much memory should be allocated\n for the internal compression state. It is a tradoff between memory usage,\n compression ratio and compression speed. Using more memory allows faster\n compression and a better compression ratio.\n\u003c/p\u003e\u003cp\u003eThe total amount of memory used for compression depends on the \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e\n and the \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e. For decompression it depends only on the\n \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e. The totals are given by the functions:\n\u003c/p\u003e\u003cpre\u003e compressTotal windowBits memLevel = 4 * 2^windowBits + 512 * 2^memLevel\n decompressTotal windowBits = 2^windowBits\n\u003c/pre\u003e\u003cp\u003eFor example, for compression with the default \u003ccode\u003ewindowBits = 15\u003c/code\u003e and\n \u003ccode\u003ememLevel = 8\u003c/code\u003e uses \u003ccode\u003e256Kb\u003c/code\u003e. So for example a network server with 100\n concurrent compressed streams would use \u003ccode\u003e25Mb\u003c/code\u003e. The memory per stream can be\n halved (at the cost of somewhat degraded and slower compressionby) by\n reducing the \u003ccode\u003ewindowBits\u003c/code\u003e and \u003ccode\u003ememLevel\u003c/code\u003e by one.\n\u003c/p\u003e\u003cp\u003eDecompression takes less memory, the default \u003ccode\u003ewindowBits = 15\u003c/code\u003e corresponds\n to just \u003ccode\u003e32Kb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "MemoryLevel",
           "package": "zlib",
@@ -1574,6 +1615,7 @@
         "index": {
           "description": "The MemoryLevel parameter specifies how much memory should be allocated for the internal compression state It is tradoff between memory usage compression ratio and compression speed Using more memory allows faster compression and better compression ratio The total amount of memory used for compression depends on the WindowBits and the MemoryLevel For decompression it depends only on the WindowBits The totals are given by the functions compressTotal windowBits memLevel windowBits memLevel decompressTotal windowBits windowBits For example for compression with the default windowBits and memLevel uses Kb So for example network server with concurrent compressed streams would use Mb The memory per stream can be halved at the cost of somewhat degraded and slower compressionby by reducing the windowBits and memLevel by one Decompression takes less memory the default windowBits corresponds to just Kb",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "MemoryLevel",
           "package": "zlib",
@@ -1588,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compression method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "Method",
           "package": "zlib",
@@ -1597,6 +1640,7 @@
         "index": {
           "description": "The compression method",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "Method",
           "package": "zlib",
@@ -1611,6 +1655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis specifies the size of the compression window. Larger values of this\n parameter result in better compression at the expense of higher memory\n usage.\n\u003c/p\u003e\u003cp\u003eThe compression window size is the value of the the window bits raised to\n the power 2. The window bits must be in the range \u003ccode\u003e8..15\u003c/code\u003e which corresponds\n to compression window sizes of 256b to 32Kb. The default is 15 which is also\n the maximum size.\n\u003c/p\u003e\u003cp\u003eThe total amount of memory used depends on the window bits and the\n \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e. See the \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e for the details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "WindowBits",
           "package": "zlib",
@@ -1620,6 +1665,7 @@
         "index": {
           "description": "This specifies the size of the compression window Larger values of this parameter result in better compression at the expense of higher memory usage The compression window size is the value of the the window bits raised to the power The window bits must be in the range which corresponds to compression window sizes of to Kb The default is which is also the maximum size The total amount of memory used depends on the window bits and the MemoryLevel See the MemoryLevel for the details",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "WindowBits",
           "package": "zlib",
@@ -1634,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the compressed data stream is corrupted in any way then you will\n get this error, for example if the input data just isn't a compressed\n zlib data stream. In particular if the data checksum turns out to be\n wrong then you will get all the decompressed data but this error at the\n end, instead of the normal sucessful \u003ccode\u003e\u003ca\u003eStreamEnd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "DataError",
           "package": "zlib",
@@ -1644,6 +1691,7 @@
         "index": {
           "description": "If the compressed data stream is corrupted in any way then you will get this error for example if the input data just isn compressed zlib data stream In particular if the data checksum turns out to be wrong then you will get all the decompressed data but this error at the end instead of the normal sucessful StreamEnd",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "DataError",
           "package": "zlib",
@@ -1658,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is possible to do zlib compression with a custom dictionary. This\n allows slightly higher compression ratios for short files. However such\n compressed streams require the same dictionary when decompressing. This\n error is for when we encounter a compressed stream that needs a\n dictionary, and it's not provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "DictionaryRequired",
           "package": "zlib",
@@ -1668,6 +1717,7 @@
         "index": {
           "description": "It is possible to do zlib compression with custom dictionary This allows slightly higher compression ratios for short files However such compressed streams require the same dictionary when decompressing This error is for when we encounter compressed stream that needs dictionary and it not provided",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "DictionaryRequired",
           "package": "zlib",
@@ -1682,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use gzipFormat. Format constructors will be hidden in version 0.7\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "GZip",
           "package": "zlib",
@@ -1692,6 +1743,7 @@
         "index": {
           "description": "Deprecated Use gzipFormat Format constructors will be hidden in version",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "GZip",
           "package": "zlib",
@@ -1706,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use gzipOrZlibFormat. Format constructors will be hidden in version 0.7\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "GZipOrZlib",
           "package": "zlib",
@@ -1716,6 +1769,7 @@
         "index": {
           "description": "Deprecated Use gzipOrZlibFormat Format constructors will be hidden in version",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "GZipOrZlib",
           "package": "zlib",
@@ -1730,6 +1784,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use rawFormat. Format constructors will be hidden in version 0.7\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "Raw",
           "package": "zlib",
@@ -1740,6 +1795,7 @@
         "index": {
           "description": "Deprecated Use rawFormat Format constructors will be hidden in version",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "Raw",
           "package": "zlib",
@@ -1753,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "StreamChunk",
           "package": "zlib",
@@ -1762,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "StreamChunk",
           "package": "zlib",
@@ -1775,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "StreamEnd",
           "package": "zlib",
@@ -1784,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "StreamEnd",
           "package": "zlib",
@@ -1798,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error code and a human readable error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "StreamError",
           "package": "zlib",
@@ -1808,6 +1869,7 @@
         "index": {
           "description": "An error code and human readable error message",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "StreamError",
           "package": "zlib",
@@ -1822,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compressed data stream ended prematurely. This may happen if the\n input data stream was truncated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "TruncatedInput",
           "package": "zlib",
@@ -1832,6 +1895,7 @@
         "index": {
           "description": "The compressed data stream ended prematurely This may happen if the input data stream was truncated",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "TruncatedInput",
           "package": "zlib",
@@ -1846,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use zlibFormat. Format constructors will be hidden in version 0.7\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "Zlib",
           "package": "zlib",
@@ -1856,6 +1921,7 @@
         "index": {
           "description": "Deprecated Use zlibFormat Format constructors will be hidden in version",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "Zlib",
           "package": "zlib",
@@ -1870,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress a data stream.\n\u003c/p\u003e\u003cp\u003eThere are no expected error conditions. All input data streams are valid. It\n is possible for unexpected errors to occur, such as running out of memory,\n or finding the wrong version of the zlib C library, these are thrown as\n exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "compress",
           "package": "zlib",
@@ -1880,6 +1947,7 @@
         "index": {
           "description": "Compress data stream There are no expected error conditions All input data streams are valid It is possible for unexpected errors to occur such as running out of memory or finding the wrong version of the zlib library these are thrown as exceptions",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "compress",
           "normalized": "Format-\u003eCompressParams-\u003eByteString-\u003eByteString",
@@ -1895,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompress a data stream.\n\u003c/p\u003e\u003cp\u003eIt will throw an exception if any error is encountered in the input data. If\n you need more control over error handling then use \u003ccode\u003e\u003ca\u003edecompressWithErrors\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "decompress",
           "package": "zlib",
@@ -1905,6 +1974,7 @@
         "index": {
           "description": "Decompress data stream It will throw an exception if any error is encountered in the input data If you need more control over error handling then use decompressWithErrors",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "decompress",
           "normalized": "Format-\u003eDecompressParams-\u003eByteString-\u003eByteString",
@@ -1920,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edecompress\u003c/a\u003e\u003c/code\u003e but returns a \u003ccode\u003e\u003ca\u003eDecompressStream\u003c/a\u003e\u003c/code\u003e data structure that\n contains an explicit representation of the error conditions that one may\n encounter when decompressing.\n\u003c/p\u003e\u003cp\u003eNote that in addition to errors in the input data, it is possible for other\n unexpected errors to occur, such as out of memory, or finding the wrong\n version of the zlib C library, these are still thrown as exceptions (because\n representing them as data would make this function impure).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "decompressWithErrors",
           "package": "zlib",
@@ -1930,6 +2001,7 @@
         "index": {
           "description": "Like decompress but returns DecompressStream data structure that contains an explicit representation of the error conditions that one may encounter when decompressing Note that in addition to errors in the input data it is possible for other unexpected errors to occur such as out of memory or finding the wrong version of the zlib library these are still thrown as exceptions because representing them as data would make this function impure",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "decompressWithErrors",
           "normalized": "Format-\u003eDecompressParams-\u003eByteString-\u003eDecompressStream",
@@ -1946,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold an \u003ccode\u003eDecompressionStream\u003c/code\u003e. Just like \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e but with an extra error\n case. For example to convert to a list and translate the errors into\n exceptions:\n\u003c/p\u003e\u003cpre\u003e foldDecompressStream (:) [] (\\code msg -\u003e error msg)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "foldDecompressStream",
           "package": "zlib",
@@ -1956,6 +2029,7 @@
         "index": {
           "description": "Fold an DecompressionStream Just like foldr but with an extra error case For example to convert to list and translate the errors into exceptions foldDecompressStream code msg error msg",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "foldDecompressStream",
           "normalized": "(ByteString-\u003ea-\u003ea)-\u003ea-\u003e(DecompressError-\u003eString-\u003ea)-\u003eDecompressStream-\u003ea",
@@ -1972,6 +2046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eDecompressStream\u003c/a\u003e\u003c/code\u003e to a lazy \u003ccode\u003eByteString\u003c/code\u003e. If any decompression\n errors are encountered then they are thrown as exceptions.\n\u003c/p\u003e\u003cp\u003eThis is a special case of \u003ccode\u003e\u003ca\u003efoldDecompressStream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "fromDecompressStream",
           "package": "zlib",
@@ -1982,6 +2057,7 @@
         "index": {
           "description": "Convert DecompressStream to lazy ByteString If any decompression errors are encountered then they are thrown as exceptions This is special case of foldDecompressStream",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "fromDecompressStream",
           "normalized": "DecompressStream-\u003eByteString",
@@ -1998,6 +2074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe gzip format uses a header with a checksum and some optional meta-data\n about the compressed file. It is intended primarily for compressing\n individual files but is also sometimes used for network protocols such as\n HTTP. The format is described in detail in RFC #1952\n \u003ca\u003ehttp://www.ietf.org/rfc/rfc1952.txt\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "gzipFormat",
           "package": "zlib",
@@ -2008,6 +2085,7 @@
         "index": {
           "description": "The gzip format uses header with checksum and some optional meta-data about the compressed file It is intended primarily for compressing individual files but is also sometimes used for network protocols such as HTTP The format is described in detail in RFC http www.ietf.org rfc rfc1952.txt",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "gzipFormat",
           "package": "zlib",
@@ -2022,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is not a format as such. It enabled zlib or gzip decoding with\n automatic header detection. This only makes sense for decompression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "gzipOrZlibFormat",
           "package": "zlib",
@@ -2032,6 +2111,7 @@
         "index": {
           "description": "This is not format as such It enabled zlib or gzip decoding with automatic header detection This only makes sense for decompression",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "gzipOrZlibFormat",
           "package": "zlib",
@@ -2046,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 'raw' format is just the compressed data stream without any\n additional header, meta-data or data-integrity checksum. The format is\n described in detail in RFC #1951 \u003ca\u003ehttp://www.ietf.org/rfc/rfc1951.txt\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "rawFormat",
           "package": "zlib",
@@ -2056,6 +2137,7 @@
         "index": {
           "description": "The raw format is just the compressed data stream without any additional header meta-data or data-integrity checksum The format is described in detail in RFC http www.ietf.org rfc rfc1951.txt",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "rawFormat",
           "package": "zlib",
@@ -2070,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe zlib format uses a minimal header with a checksum but no other\n meta-data. It is especially designed for use in network protocols. The\n format is described in detail in RFC #1950\n \u003ca\u003ehttp://www.ietf.org/rfc/rfc1950.txt\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "zlibFormat",
           "package": "zlib",
@@ -2080,6 +2163,7 @@
         "index": {
           "description": "The zlib format uses minimal header with checksum but no other meta-data It is especially designed for use in network protocols The format is described in detail in RFC http www.ietf.org rfc rfc1950.txt",
           "hierarchy": "Codec Compression Zlib Internal",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Internal",
           "name": "zlibFormat",
           "package": "zlib",
@@ -2094,6 +2178,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompression and decompression of data streams in the raw deflate format.\n\u003c/p\u003e\u003cp\u003eThe format is described in detail in RFC #1951:\n \u003ca\u003ehttp://www.ietf.org/rfc/rfc1951.txt\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eSee also the zlib home page: \u003ca\u003ehttp://zlib.net/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "Raw",
           "package": "zlib",
@@ -2103,6 +2188,7 @@
         "index": {
           "description": "Compression and decompression of data streams in the raw deflate format The format is described in detail in RFC http www.ietf.org rfc rfc1951.txt See also the zlib home page http zlib.net",
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "Raw",
           "package": "zlib",
@@ -2117,6 +2203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full set of parameters for compression. The defaults are\n \u003ccode\u003e\u003ca\u003edefaultCompressParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ecompressBufferSize\u003c/a\u003e\u003c/code\u003e is the size of the first output buffer containing\n the compressed data. If you know an approximate upper bound on the size of\n the compressed data then setting this parameter can save memory. The default\n compression output buffer size is \u003ccode\u003e16k\u003c/code\u003e. If your extimate is wrong it does\n not matter too much, the default buffer size will be used for the remaining\n chunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "CompressParams",
           "package": "zlib",
@@ -2126,6 +2213,7 @@
         "index": {
           "description": "The full set of parameters for compression The defaults are defaultCompressParams The compressBufferSize is the size of the first output buffer containing the compressed data If you know an approximate upper bound on the size of the compressed data then setting this parameter can save memory The default compression output buffer size is If your extimate is wrong it does not matter too much the default buffer size will be used for the remaining chunks",
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "CompressParams",
           "package": "zlib",
@@ -2140,6 +2228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compression level parameter controls the amount of compression. This\n is a trade-off between the amount of compression and the time required to do\n the compression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "CompressionLevel",
           "package": "zlib",
@@ -2149,6 +2238,7 @@
         "index": {
           "description": "The compression level parameter controls the amount of compression This is trade-off between the amount of compression and the time required to do the compression",
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "CompressionLevel",
           "package": "zlib",
@@ -2163,6 +2253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strategy parameter is used to tune the compression algorithm.\n\u003c/p\u003e\u003cp\u003eThe strategy parameter only affects the compression ratio but not the\n correctness of the compressed output even if it is not set appropriately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "CompressionStrategy",
           "package": "zlib",
@@ -2172,6 +2263,7 @@
         "index": {
           "description": "The strategy parameter is used to tune the compression algorithm The strategy parameter only affects the compression ratio but not the correctness of the compressed output even if it is not set appropriately",
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "CompressionStrategy",
           "package": "zlib",
@@ -2186,6 +2278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full set of parameters for decompression. The defaults are\n \u003ccode\u003e\u003ca\u003edefaultDecompressParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e is the size of the first output buffer,\n containing the uncompressed data. If you know an exact or approximate upper\n bound on the size of the decompressed data then setting this parameter can\n save memory. The default decompression output buffer size is \u003ccode\u003e32k\u003c/code\u003e. If your\n extimate is wrong it does not matter too much, the default buffer size will\n be used for the remaining chunks.\n\u003c/p\u003e\u003cp\u003eOne particular use case for setting the \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e is if you\n know the exact size of the decompressed data and want to produce a strict\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. The compression and deccompression functions\n use lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es but if you set the\n \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e correctly then you can generate a lazy\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e with exactly one chunk, which can be\n converted to a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eO(1)\u003c/code\u003e time using\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etoChunks\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "DecompressParams",
           "package": "zlib",
@@ -2195,6 +2288,7 @@
         "index": {
           "description": "The full set of parameters for decompression The defaults are defaultDecompressParams The decompressBufferSize is the size of the first output buffer containing the uncompressed data If you know an exact or approximate upper bound on the size of the decompressed data then setting this parameter can save memory The default decompression output buffer size is If your extimate is wrong it does not matter too much the default buffer size will be used for the remaining chunks One particular use case for setting the decompressBufferSize is if you know the exact size of the decompressed data and want to produce strict ByteString The compression and deccompression functions use lazy ByteString but if you set the decompressBufferSize correctly then you can generate lazy ByteString with exactly one chunk which can be converted to strict ByteString in time using concat toChunks",
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "DecompressParams",
           "package": "zlib",
@@ -2209,6 +2303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e parameter specifies how much memory should be allocated\n for the internal compression state. It is a tradoff between memory usage,\n compression ratio and compression speed. Using more memory allows faster\n compression and a better compression ratio.\n\u003c/p\u003e\u003cp\u003eThe total amount of memory used for compression depends on the \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e\n and the \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e. For decompression it depends only on the\n \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e. The totals are given by the functions:\n\u003c/p\u003e\u003cpre\u003e compressTotal windowBits memLevel = 4 * 2^windowBits + 512 * 2^memLevel\n decompressTotal windowBits = 2^windowBits\n\u003c/pre\u003e\u003cp\u003eFor example, for compression with the default \u003ccode\u003ewindowBits = 15\u003c/code\u003e and\n \u003ccode\u003ememLevel = 8\u003c/code\u003e uses \u003ccode\u003e256Kb\u003c/code\u003e. So for example a network server with 100\n concurrent compressed streams would use \u003ccode\u003e25Mb\u003c/code\u003e. The memory per stream can be\n halved (at the cost of somewhat degraded and slower compressionby) by\n reducing the \u003ccode\u003ewindowBits\u003c/code\u003e and \u003ccode\u003ememLevel\u003c/code\u003e by one.\n\u003c/p\u003e\u003cp\u003eDecompression takes less memory, the default \u003ccode\u003ewindowBits = 15\u003c/code\u003e corresponds\n to just \u003ccode\u003e32Kb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "MemoryLevel",
           "package": "zlib",
@@ -2218,6 +2313,7 @@
         "index": {
           "description": "The MemoryLevel parameter specifies how much memory should be allocated for the internal compression state It is tradoff between memory usage compression ratio and compression speed Using more memory allows faster compression and better compression ratio The total amount of memory used for compression depends on the WindowBits and the MemoryLevel For decompression it depends only on the WindowBits The totals are given by the functions compressTotal windowBits memLevel windowBits memLevel decompressTotal windowBits windowBits For example for compression with the default windowBits and memLevel uses Kb So for example network server with concurrent compressed streams would use Mb The memory per stream can be halved at the cost of somewhat degraded and slower compressionby by reducing the windowBits and memLevel by one Decompression takes less memory the default windowBits corresponds to just Kb",
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "MemoryLevel",
           "package": "zlib",
@@ -2232,6 +2328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compression method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "Method",
           "package": "zlib",
@@ -2241,6 +2338,7 @@
         "index": {
           "description": "The compression method",
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "Method",
           "package": "zlib",
@@ -2255,6 +2353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis specifies the size of the compression window. Larger values of this\n parameter result in better compression at the expense of higher memory\n usage.\n\u003c/p\u003e\u003cp\u003eThe compression window size is the value of the the window bits raised to\n the power 2. The window bits must be in the range \u003ccode\u003e8..15\u003c/code\u003e which corresponds\n to compression window sizes of 256b to 32Kb. The default is 15 which is also\n the maximum size.\n\u003c/p\u003e\u003cp\u003eThe total amount of memory used depends on the window bits and the\n \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e. See the \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e for the details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "WindowBits",
           "package": "zlib",
@@ -2264,6 +2363,7 @@
         "index": {
           "description": "This specifies the size of the compression window Larger values of this parameter result in better compression at the expense of higher memory usage The compression window size is the value of the the window bits raised to the power The window bits must be in the range which corresponds to compression window sizes of to Kb The default is which is also the maximum size The total amount of memory used depends on the window bits and the MemoryLevel See the MemoryLevel for the details",
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "WindowBits",
           "package": "zlib",
@@ -2277,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "compress",
           "package": "zlib",
@@ -2286,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "compress",
           "normalized": "ByteString-\u003eByteString",
@@ -2300,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "compressWith",
           "package": "zlib",
@@ -2309,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "compressWith",
           "normalized": "CompressParams-\u003eByteString-\u003eByteString",
@@ -2324,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "decompress",
           "package": "zlib",
@@ -2333,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "decompress",
           "normalized": "ByteString-\u003eByteString",
@@ -2347,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "decompressWith",
           "package": "zlib",
@@ -2356,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Zlib Raw",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib.Raw",
           "name": "decompressWith",
           "normalized": "DecompressParams-\u003eByteString-\u003eByteString",
@@ -2372,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompression and decompression of data streams in the zlib format.\n\u003c/p\u003e\u003cp\u003eThe format is described in detail in RFC #1950:\n \u003ca\u003ehttp://www.ietf.org/rfc/rfc1950.txt\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eSee also the zlib home page: \u003ca\u003ehttp://zlib.net/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "Zlib",
           "package": "zlib",
@@ -2381,6 +2490,7 @@
         "index": {
           "description": "Compression and decompression of data streams in the zlib format The format is described in detail in RFC http www.ietf.org rfc rfc1950.txt See also the zlib home page http zlib.net",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "Zlib",
           "package": "zlib",
@@ -2395,6 +2505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full set of parameters for compression. The defaults are\n \u003ccode\u003e\u003ca\u003edefaultCompressParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ecompressBufferSize\u003c/a\u003e\u003c/code\u003e is the size of the first output buffer containing\n the compressed data. If you know an approximate upper bound on the size of\n the compressed data then setting this parameter can save memory. The default\n compression output buffer size is \u003ccode\u003e16k\u003c/code\u003e. If your extimate is wrong it does\n not matter too much, the default buffer size will be used for the remaining\n chunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "CompressParams",
           "package": "zlib",
@@ -2404,6 +2515,7 @@
         "index": {
           "description": "The full set of parameters for compression The defaults are defaultCompressParams The compressBufferSize is the size of the first output buffer containing the compressed data If you know an approximate upper bound on the size of the compressed data then setting this parameter can save memory The default compression output buffer size is If your extimate is wrong it does not matter too much the default buffer size will be used for the remaining chunks",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "CompressParams",
           "package": "zlib",
@@ -2418,6 +2530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compression level parameter controls the amount of compression. This\n is a trade-off between the amount of compression and the time required to do\n the compression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "CompressionLevel",
           "package": "zlib",
@@ -2427,6 +2540,7 @@
         "index": {
           "description": "The compression level parameter controls the amount of compression This is trade-off between the amount of compression and the time required to do the compression",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "CompressionLevel",
           "package": "zlib",
@@ -2441,6 +2555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strategy parameter is used to tune the compression algorithm.\n\u003c/p\u003e\u003cp\u003eThe strategy parameter only affects the compression ratio but not the\n correctness of the compressed output even if it is not set appropriately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "CompressionStrategy",
           "package": "zlib",
@@ -2450,6 +2565,7 @@
         "index": {
           "description": "The strategy parameter is used to tune the compression algorithm The strategy parameter only affects the compression ratio but not the correctness of the compressed output even if it is not set appropriately",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "CompressionStrategy",
           "package": "zlib",
@@ -2464,6 +2580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full set of parameters for decompression. The defaults are\n \u003ccode\u003e\u003ca\u003edefaultDecompressParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e is the size of the first output buffer,\n containing the uncompressed data. If you know an exact or approximate upper\n bound on the size of the decompressed data then setting this parameter can\n save memory. The default decompression output buffer size is \u003ccode\u003e32k\u003c/code\u003e. If your\n extimate is wrong it does not matter too much, the default buffer size will\n be used for the remaining chunks.\n\u003c/p\u003e\u003cp\u003eOne particular use case for setting the \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e is if you\n know the exact size of the decompressed data and want to produce a strict\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. The compression and deccompression functions\n use lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es but if you set the\n \u003ccode\u003e\u003ca\u003edecompressBufferSize\u003c/a\u003e\u003c/code\u003e correctly then you can generate a lazy\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e with exactly one chunk, which can be\n converted to a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eO(1)\u003c/code\u003e time using\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etoChunks\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "DecompressParams",
           "package": "zlib",
@@ -2473,6 +2590,7 @@
         "index": {
           "description": "The full set of parameters for decompression The defaults are defaultDecompressParams The decompressBufferSize is the size of the first output buffer containing the uncompressed data If you know an exact or approximate upper bound on the size of the decompressed data then setting this parameter can save memory The default decompression output buffer size is If your extimate is wrong it does not matter too much the default buffer size will be used for the remaining chunks One particular use case for setting the decompressBufferSize is if you know the exact size of the decompressed data and want to produce strict ByteString The compression and deccompression functions use lazy ByteString but if you set the decompressBufferSize correctly then you can generate lazy ByteString with exactly one chunk which can be converted to strict ByteString in time using concat toChunks",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "DecompressParams",
           "package": "zlib",
@@ -2487,6 +2605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e parameter specifies how much memory should be allocated\n for the internal compression state. It is a tradoff between memory usage,\n compression ratio and compression speed. Using more memory allows faster\n compression and a better compression ratio.\n\u003c/p\u003e\u003cp\u003eThe total amount of memory used for compression depends on the \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e\n and the \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e. For decompression it depends only on the\n \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e. The totals are given by the functions:\n\u003c/p\u003e\u003cpre\u003e compressTotal windowBits memLevel = 4 * 2^windowBits + 512 * 2^memLevel\n decompressTotal windowBits = 2^windowBits\n\u003c/pre\u003e\u003cp\u003eFor example, for compression with the default \u003ccode\u003ewindowBits = 15\u003c/code\u003e and\n \u003ccode\u003ememLevel = 8\u003c/code\u003e uses \u003ccode\u003e256Kb\u003c/code\u003e. So for example a network server with 100\n concurrent compressed streams would use \u003ccode\u003e25Mb\u003c/code\u003e. The memory per stream can be\n halved (at the cost of somewhat degraded and slower compressionby) by\n reducing the \u003ccode\u003ewindowBits\u003c/code\u003e and \u003ccode\u003ememLevel\u003c/code\u003e by one.\n\u003c/p\u003e\u003cp\u003eDecompression takes less memory, the default \u003ccode\u003ewindowBits = 15\u003c/code\u003e corresponds\n to just \u003ccode\u003e32Kb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "MemoryLevel",
           "package": "zlib",
@@ -2496,6 +2615,7 @@
         "index": {
           "description": "The MemoryLevel parameter specifies how much memory should be allocated for the internal compression state It is tradoff between memory usage compression ratio and compression speed Using more memory allows faster compression and better compression ratio The total amount of memory used for compression depends on the WindowBits and the MemoryLevel For decompression it depends only on the WindowBits The totals are given by the functions compressTotal windowBits memLevel windowBits memLevel decompressTotal windowBits windowBits For example for compression with the default windowBits and memLevel uses Kb So for example network server with concurrent compressed streams would use Mb The memory per stream can be halved at the cost of somewhat degraded and slower compressionby by reducing the windowBits and memLevel by one Decompression takes less memory the default windowBits corresponds to just Kb",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "MemoryLevel",
           "package": "zlib",
@@ -2510,6 +2630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compression method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "Method",
           "package": "zlib",
@@ -2519,6 +2640,7 @@
         "index": {
           "description": "The compression method",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "Method",
           "package": "zlib",
@@ -2533,6 +2655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis specifies the size of the compression window. Larger values of this\n parameter result in better compression at the expense of higher memory\n usage.\n\u003c/p\u003e\u003cp\u003eThe compression window size is the value of the the window bits raised to\n the power 2. The window bits must be in the range \u003ccode\u003e8..15\u003c/code\u003e which corresponds\n to compression window sizes of 256b to 32Kb. The default is 15 which is also\n the maximum size.\n\u003c/p\u003e\u003cp\u003eThe total amount of memory used depends on the window bits and the\n \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e. See the \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e for the details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "WindowBits",
           "package": "zlib",
@@ -2542,6 +2665,7 @@
         "index": {
           "description": "This specifies the size of the compression window Larger values of this parameter result in better compression at the expense of higher memory usage The compression window size is the value of the the window bits raised to the power The window bits must be in the range which corresponds to compression window sizes of to Kb The default is which is also the maximum size The total amount of memory used depends on the window bits and the MemoryLevel See the MemoryLevel for the details",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "WindowBits",
           "package": "zlib",
@@ -2556,6 +2680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress a stream of data into the zlib format.\n\u003c/p\u003e\u003cp\u003eThis uses the default compression parameters. In partiular it uses the\n default compression level which favours a higher compression ratio over\n compression speed, though it does not use the maximum compression level.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003ecompressWith\u003c/a\u003e\u003c/code\u003e to adjust the compression level or other compression\n parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "compress",
           "package": "zlib",
@@ -2566,6 +2691,7 @@
         "index": {
           "description": "Compress stream of data into the zlib format This uses the default compression parameters In partiular it uses the default compression level which favours higher compression ratio over compression speed though it does not use the maximum compression level Use compressWith to adjust the compression level or other compression parameters",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "compress",
           "normalized": "ByteString-\u003eByteString",
@@ -2581,6 +2707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecompress\u003c/a\u003e\u003c/code\u003e but with the ability to specify various compression\n parameters. Typical usage:\n\u003c/p\u003e\u003cpre\u003e compressWith defaultCompressParams { ... }\n\u003c/pre\u003e\u003cp\u003eIn particular you can set the compression level:\n\u003c/p\u003e\u003cpre\u003e compressWith defaultCompressParams { compressLevel = BestCompression }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "compressWith",
           "package": "zlib",
@@ -2591,6 +2718,7 @@
         "index": {
           "description": "Like compress but with the ability to specify various compression parameters Typical usage compressWith defaultCompressParams In particular you can set the compression level compressWith defaultCompressParams compressLevel BestCompression",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "compressWith",
           "normalized": "CompressParams-\u003eByteString-\u003eByteString",
@@ -2607,6 +2735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompress a stream of data in the zlib format.\n\u003c/p\u003e\u003cp\u003eThere are a number of errors that can occur. In each case an exception will\n be thrown. The possible error conditions are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e if the stream does not start with a valid gzip header\n\u003c/li\u003e\u003cli\u003e if the compressed stream is corrupted\n\u003c/li\u003e\u003cli\u003e if the compressed stream ends permaturely\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNote that the decompression is performed \u003cem\u003elazily\u003c/em\u003e. Errors in the data stream\n may not be detected until the end of the stream is demanded (since it is\n only at the end that the final checksum can be checked). If this is\n important to you, you must make sure to consume the whole decompressed\n stream before doing any IO action that depends on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "decompress",
           "package": "zlib",
@@ -2617,6 +2746,7 @@
         "index": {
           "description": "Decompress stream of data in the zlib format There are number of errors that can occur In each case an exception will be thrown The possible error conditions are if the stream does not start with valid gzip header if the compressed stream is corrupted if the compressed stream ends permaturely Note that the decompression is performed lazily Errors in the data stream may not be detected until the end of the stream is demanded since it is only at the end that the final checksum can be checked If this is important to you you must make sure to consume the whole decompressed stream before doing any IO action that depends on it",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "decompress",
           "normalized": "ByteString-\u003eByteString",
@@ -2632,6 +2762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edecompress\u003c/a\u003e\u003c/code\u003e but with the ability to specify various decompression\n parameters. Typical usage:\n\u003c/p\u003e\u003cpre\u003e decompressWith defaultCompressParams { ... }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:21 UTC 2014",
           "module": "Codec.Compression.Zlib",
           "name": "decompressWith",
           "package": "zlib",
@@ -2642,6 +2773,7 @@
         "index": {
           "description": "Like decompress but with the ability to specify various decompression parameters Typical usage decompressWith defaultCompressParams",
           "hierarchy": "Codec Compression Zlib",
+          "indexed": "2014-03-11T20:48:21",
           "module": "Codec.Compression.Zlib",
           "name": "decompressWith",
           "normalized": "DecompressParams-\u003eByteString-\u003eByteString",

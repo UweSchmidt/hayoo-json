@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hemokit"
+        "phrase": "hemokit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Conduit",
           "name": "Conduit",
           "package": "hemokit",
@@ -25,6 +26,7 @@
         },
         "index": {
           "hierarchy": "Hemokit Conduit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Conduit",
           "name": "Conduit",
           "package": "hemokit",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Conduit",
           "name": "emotivPackets",
           "package": "hemokit",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Hemokit Conduit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Conduit",
           "name": "emotivPackets",
           "normalized": "EmotivDevice-\u003eSource a EmotivPacket",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Conduit",
           "name": "emotivStates",
           "package": "hemokit",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Hemokit Conduit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Conduit",
           "name": "emotivStates",
           "normalized": "EmotivDevice-\u003eSource a EmotivState",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Conduit",
           "name": "jsonConduit",
           "package": "hemokit",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Hemokit Conduit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Conduit",
           "name": "jsonConduit",
           "package": "hemokit",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Conduit",
           "name": "parsePackets",
           "package": "hemokit",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Hemokit Conduit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Conduit",
           "name": "parsePackets",
           "normalized": "EmotivDevice-\u003eConduit EmotivRawData a(EmotivState,EmotivPacket)",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Conduit",
           "name": "rawSource",
           "package": "hemokit",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Hemokit Conduit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Conduit",
           "name": "rawSource",
           "normalized": "EmotivDevice-\u003eSource a EmotivRawData",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Conduit",
           "name": "tcpSink",
           "package": "hemokit",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Hemokit Conduit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Conduit",
           "name": "tcpSink",
           "normalized": "String-\u003eInt-\u003eSink ByteString a()",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Conduit",
           "name": "websocketSink",
           "package": "hemokit",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Hemokit Conduit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Conduit",
           "name": "websocketSink",
           "normalized": "String-\u003eInt-\u003eSink ByteString a()",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Internal.Utils",
           "name": "Utils",
           "package": "hemokit",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Hemokit Internal Utils",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Internal.Utils",
           "name": "Utils",
           "package": "hemokit",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the monadic action as long as the producer returns Justs.\n Returns True if the action was ever executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Internal.Utils",
           "name": "untilNothing",
           "package": "hemokit",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Runs the monadic action as long as the producer returns Justs Returns True if the action was ever executed",
           "hierarchy": "Hemokit Internal Utils",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Internal.Utils",
           "name": "untilNothing",
           "normalized": "a(Maybe b)-\u003e(b-\u003ea())-\u003ea Bool",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the monad retuns a Just, runs the function on its contents.\n Returns True if the action was executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Internal.Utils",
           "name": "withJustM",
           "package": "hemokit",
@@ -252,6 +273,7 @@
         "index": {
           "description": "If the monad retuns Just runs the function on its contents Returns True if the action was executed",
           "hierarchy": "Hemokit Internal Utils",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Internal.Utils",
           "name": "withJustM",
           "normalized": "a(Maybe b)-\u003e(b-\u003ea())-\u003ea Bool",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome convenience for building applications that want to read Emotiv data.\n\u003c/p\u003e\u003cp\u003eYou can use this if you are writing an EEG application and don't want to do\n the whole device selection / opening yourself.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Start",
           "name": "Start",
           "package": "hemokit",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Some convenience for building applications that want to read Emotiv data You can use this if you are writing an EEG application and don want to do the whole device selection opening yourself",
           "hierarchy": "Hemokit Start",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Start",
           "name": "Start",
           "package": "hemokit",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommonly used options for EEG command line applications.\n Mainly deals with input selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Start",
           "name": "EmotivArgs",
           "package": "hemokit",
@@ -298,6 +323,7 @@
         "index": {
           "description": "Commonly used options for EEG command line applications Mainly deals with input selection",
           "hierarchy": "Hemokit Start",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Start",
           "name": "EmotivArgs",
           "package": "hemokit",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Start",
           "name": "EmotivArgs",
           "package": "hemokit",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Hemokit Start",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Start",
           "name": "EmotivArgs",
           "package": "hemokit",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line parser for EEG selection. See \u003ccode\u003e\u003ca\u003eEmotivArgs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Start",
           "name": "emotivArgsParser",
           "package": "hemokit",
@@ -342,6 +371,7 @@
         "index": {
           "description": "Command line parser for EEG selection See EmotivArgs",
           "hierarchy": "Hemokit Start",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Start",
           "name": "emotivArgsParser",
           "package": "hemokit",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the given device or dump file for input.\n   If not given, HIDAPI is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Start",
           "name": "fromFile",
           "package": "hemokit",
@@ -365,6 +396,7 @@
         "index": {
           "description": "Use the given device or dump file for input If not given HIDAPI is used",
           "hierarchy": "Hemokit Start",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Start",
           "name": "fromFile",
           "package": "hemokit",
@@ -379,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDepending on some common EEG-choice-related user input, list devices or\n try to open the correct device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Start",
           "name": "getEmotivDeviceFromArgs",
           "package": "hemokit",
@@ -388,6 +421,7 @@
         "index": {
           "description": "Depending on some common EEG-choice-related user input list devices or try to open the correct device",
           "hierarchy": "Hemokit Start",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Start",
           "name": "getEmotivDeviceFromArgs",
           "normalized": "EmotivArgs-\u003eIO(Either String EmotivDevice)",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat model to use for decryption.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Start",
           "name": "model",
           "package": "hemokit",
@@ -413,6 +448,7 @@
         "index": {
           "description": "What model to use for decryption",
           "hierarchy": "Hemokit Start",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Start",
           "name": "model",
           "package": "hemokit",
@@ -426,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a command line parser. The given program description is used for the\n --help message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Start",
           "name": "parseArgs",
           "package": "hemokit",
@@ -435,6 +472,7 @@
         "index": {
           "description": "Runs command line parser The given program description is used for the help message",
           "hierarchy": "Hemokit Start",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Start",
           "name": "parseArgs",
           "normalized": "String-\u003eParser a-\u003eIO a",
@@ -451,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEEG model command line parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Start",
           "name": "parseModel",
           "package": "hemokit",
@@ -460,6 +499,7 @@
         "index": {
           "description": "EEG model command line parser",
           "hierarchy": "Hemokit Start",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Start",
           "name": "parseModel",
           "normalized": "String-\u003ea EmotivModel",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat serial to use for decryption.\n   Also allows to pick a certain device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit.Start",
           "name": "serial",
           "package": "hemokit",
@@ -485,6 +526,7 @@
         "index": {
           "description": "What serial to use for decryption Also allows to pick certain device",
           "hierarchy": "Hemokit Start",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit.Start",
           "name": "serial",
           "package": "hemokit",
@@ -498,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for reading from an Emotic EPOC EEG.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Use \u003ccode\u003e\u003ca\u003egetEmotivDevices\u003c/a\u003e\u003c/code\u003e to list available EEGs.\n\u003c/li\u003e\u003cli\u003e Use \u003ccode\u003e\u003ca\u003eopenEmotivDevice\u003c/a\u003e\u003c/code\u003e to open a device for reading.\n\u003c/li\u003e\u003cli\u003e Use \u003ccode\u003e\u003ca\u003ereadEmotiv\u003c/a\u003e\u003c/code\u003e read from an open device.\n\u003c/li\u003e\u003cli\u003e You will obtain \u003ccode\u003e\u003ca\u003eEmotivPacket\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eEmotivState\u003c/a\u003e\u003c/code\u003es.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "Hemokit",
           "package": "hemokit",
@@ -506,6 +549,7 @@
         "index": {
           "description": "library for reading from an Emotic EPOC EEG Use getEmotivDevices to list available EEGs Use openEmotivDevice to open device for reading Use readEmotiv read from an open device You will obtain EmotivPacket and EmotivState",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "Hemokit",
           "package": "hemokit",
@@ -520,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes the indices of bits to make up a certain value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "BitMask",
           "package": "hemokit",
@@ -528,6 +573,7 @@
         "index": {
           "description": "Describes the indices of bits to make up certain value",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "BitMask",
           "package": "hemokit",
@@ -542,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies an open Emotiv device.\n Also contains the cumulative \u003ccode\u003e\u003ca\u003eEmotivState\u003c/a\u003e\u003c/code\u003e of the EEG.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivDevice",
           "package": "hemokit",
@@ -550,6 +597,7 @@
         "index": {
           "description": "Identifies an open Emotiv device Also contains the cumulative EmotivState of the EEG",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivDevice",
           "package": "hemokit",
@@ -564,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies an Emotiv device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivDeviceInfo",
           "package": "hemokit",
@@ -572,6 +621,7 @@
         "index": {
           "description": "Identifies an Emotiv device",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivDeviceInfo",
           "package": "hemokit",
@@ -586,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmotiv related errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivException",
           "package": "hemokit",
@@ -594,6 +645,7 @@
         "index": {
           "description": "Emotiv related errors",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivException",
           "package": "hemokit",
@@ -608,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the EPOC is a consumer or developer model.\n\u003c/p\u003e\u003cp\u003eThis affects how the EEG data is to be decrypted.\n\u003c/p\u003e\u003cp\u003eYou can check if you are using the correct model by seeing if the packet\n \u003ccode\u003e\u003ca\u003ecounter\u003c/a\u003e\u003c/code\u003e increases from 0 until 128 on subsequent packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivModel",
           "package": "hemokit",
@@ -616,6 +669,7 @@
         "index": {
           "description": "Whether the EPOC is consumer or developer model This affects how the EEG data is to be decrypted You can check if you are using the correct model by seeing if the packet counter increases from until on subsequent packets",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivModel",
           "package": "hemokit",
@@ -630,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains the data of a single packet sent from the device.\n Accumulated data (the current state) is available in \u003ccode\u003e\u003ca\u003eEmotivState\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivPacket",
           "package": "hemokit",
@@ -638,6 +693,7 @@
         "index": {
           "description": "Contains the data of single packet sent from the device Accumulated data the current state is available in EmotivState",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivPacket",
           "package": "hemokit",
@@ -652,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps (unencrypted) Emotiv raw data. Ensures that it is 32 bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivRawData",
           "package": "hemokit",
@@ -660,6 +717,7 @@
         "index": {
           "description": "Wraps unencrypted Emotiv raw data Ensures that it is bytes",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivRawData",
           "package": "hemokit",
@@ -674,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ca\u003eopen\u003c/a\u003e data source to read bytes from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivRawDevice",
           "package": "hemokit",
@@ -682,6 +741,7 @@
         "index": {
           "description": "An open data source to read bytes from",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivRawDevice",
           "package": "hemokit",
@@ -696,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains the \u003ca\u003ecurrent state\u003c/a\u003e of the EEG, cumulateively updated by\n incoming \u003ccode\u003e\u003ca\u003eEmotivPacket\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivState",
           "package": "hemokit",
@@ -704,6 +765,7 @@
         "index": {
           "description": "Contains the current state of the EEG cumulateively updated by incoming EmotivPacket",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivState",
           "package": "hemokit",
@@ -718,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sensors of an Emotiv EPOC.\n Uses the names from the International 10-20 system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "Sensor",
           "package": "hemokit",
@@ -726,6 +789,7 @@
         "index": {
           "description": "The sensors of an Emotiv EPOC Uses the names from the International system",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "Sensor",
           "package": "hemokit",
@@ -740,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA valid Emotiv serial number. 16 bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "SerialNumber",
           "package": "hemokit",
@@ -748,6 +813,7 @@
         "index": {
           "description": "valid Emotiv serial number bytes",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "SerialNumber",
           "package": "hemokit",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "AF3",
           "package": "hemokit",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "AF3",
           "package": "hemokit",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "AF4",
           "package": "hemokit",
@@ -790,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "AF4",
           "package": "hemokit",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "BitMask",
           "package": "hemokit",
@@ -811,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "BitMask",
           "normalized": "BitMask[Word]",
@@ -826,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "Consumer",
           "package": "hemokit",
@@ -834,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "Consumer",
           "package": "hemokit",
@@ -848,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe could not read the serial from the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "CouldNotReadSerial",
           "package": "hemokit",
@@ -857,6 +932,7 @@
         "index": {
           "description": "We could not read the serial from the device",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "CouldNotReadSerial",
           "package": "hemokit",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "Developer",
           "package": "hemokit",
@@ -878,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "Developer",
           "package": "hemokit",
@@ -891,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivDevice",
           "package": "hemokit",
@@ -899,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivDevice",
           "package": "hemokit",
@@ -912,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivDeviceInfo",
           "package": "hemokit",
@@ -920,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivDeviceInfo",
           "package": "hemokit",
@@ -933,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivPacket",
           "package": "hemokit",
@@ -941,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivPacket",
           "package": "hemokit",
@@ -954,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivRawData",
           "package": "hemokit",
@@ -962,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivRawData",
           "package": "hemokit",
@@ -975,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "EmotivState",
           "package": "hemokit",
@@ -983,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "EmotivState",
           "package": "hemokit",
@@ -996,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "F3",
           "package": "hemokit",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "F3",
           "package": "hemokit",
@@ -1016,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "F4",
           "package": "hemokit",
@@ -1024,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "F4",
           "package": "hemokit",
@@ -1036,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "F7",
           "package": "hemokit",
@@ -1044,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "F7",
           "package": "hemokit",
@@ -1056,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "F8",
           "package": "hemokit",
@@ -1064,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "F8",
           "package": "hemokit",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "FC5",
           "package": "hemokit",
@@ -1084,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "FC5",
           "package": "hemokit",
@@ -1097,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "FC6",
           "package": "hemokit",
@@ -1105,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "FC6",
           "package": "hemokit",
@@ -1118,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "HandleDevice",
           "package": "hemokit",
@@ -1126,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "HandleDevice",
           "package": "hemokit",
@@ -1139,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "HidapiDevice",
           "package": "hemokit",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "HidapiDevice",
           "package": "hemokit",
@@ -1161,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerial does not have right format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "InvalidSerialNumber",
           "package": "hemokit",
@@ -1170,6 +1275,7 @@
         "index": {
           "description": "Serial does not have right format",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "InvalidSerialNumber",
           "package": "hemokit",
@@ -1183,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "O1",
           "package": "hemokit",
@@ -1191,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "O1",
           "package": "hemokit",
@@ -1203,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "O2",
           "package": "hemokit",
@@ -1211,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "O2",
           "package": "hemokit",
@@ -1223,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "OtherEmotivException",
           "package": "hemokit",
@@ -1231,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "OtherEmotivException",
           "package": "hemokit",
@@ -1244,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "P7",
           "package": "hemokit",
@@ -1252,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "P7",
           "package": "hemokit",
@@ -1264,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "P8",
           "package": "hemokit",
@@ -1272,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "P8",
           "package": "hemokit",
@@ -1284,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "T7",
           "package": "hemokit",
@@ -1292,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "T7",
           "package": "hemokit",
@@ -1304,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "T8",
           "package": "hemokit",
@@ -1312,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "T8",
           "package": "hemokit",
@@ -1325,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe USB product ID of the Emotiv EPOC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "_EMOTIV_PRODUCT_ID",
           "package": "hemokit",
@@ -1334,6 +1455,7 @@
         "index": {
           "description": "The USB product ID of the Emotiv EPOC",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "_EMOTIV_PRODUCT_ID",
           "package": "hemokit",
@@ -1348,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe USB vendor ID of the Emotiv EPOC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "_EMOTIV_VENDOR_ID",
           "package": "hemokit",
@@ -1357,6 +1480,7 @@
         "index": {
           "description": "The USB vendor ID of the Emotiv EPOC",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "_EMOTIV_VENDOR_ID",
           "package": "hemokit",
@@ -1371,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains all \u003ccode\u003e\u003ca\u003eSensor\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "allSensors",
           "package": "hemokit",
@@ -1380,6 +1505,7 @@
         "index": {
           "description": "Contains all Sensor",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "allSensors",
           "normalized": "[Sensor]",
@@ -1396,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current battery percentage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "battery",
           "package": "hemokit",
@@ -1405,6 +1532,7 @@
         "index": {
           "description": "the current battery percentage",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "battery",
           "package": "hemokit",
@@ -1418,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a battery percentage value from a byte.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "batteryValue",
           "package": "hemokit",
@@ -1427,6 +1556,7 @@
         "index": {
           "description": "Parses battery percentage value from byte",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "batteryValue",
           "normalized": "Word-\u003eInt",
@@ -1443,6 +1573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecounts up from 0 to 127 (128 Hz)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "counter",
           "package": "hemokit",
@@ -1452,6 +1583,7 @@
         "index": {
           "description": "counts up from to Hz",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "counter",
           "package": "hemokit",
@@ -1465,6 +1597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a 32 bytes encrypted EEG data, returns 32 bytes decrypted EEG data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "decrypt",
           "package": "hemokit",
@@ -1474,6 +1607,7 @@
         "index": {
           "description": "Takes bytes encrypted EEG data returns bytes decrypted EEG data",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "decrypt",
           "normalized": "SerialNumber-\u003eEmotivModel-\u003eByteString-\u003eEmotivRawData",
@@ -1489,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConveniently expose the serial number of a device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "deviceInfoSerial",
           "package": "hemokit",
@@ -1498,6 +1633,7 @@
         "index": {
           "description": "Conveniently expose the serial number of device",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "deviceInfoSerial",
           "normalized": "EmotivDeviceInfo-\u003eMaybe SerialNumber",
@@ -1514,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the EEG is a consumer or developer model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "emotivModel",
           "package": "hemokit",
@@ -1523,6 +1660,7 @@
         "index": {
           "description": "Whether the EEG is consumer or developer model",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "emotivModel",
           "package": "hemokit",
@@ -1536,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "emotivRawDataBytes",
           "package": "hemokit",
@@ -1544,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "emotivRawDataBytes",
           "package": "hemokit",
@@ -1558,6 +1698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists all EPOC devices, ordered by interface number.\n If you do not actively choose amongst them, the last one is usually the one\n you want (especially if only 1 EEG is connected).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "getEmotivDevices",
           "package": "hemokit",
@@ -1567,6 +1708,7 @@
         "index": {
           "description": "Lists all EPOC devices ordered by interface number If you do not actively choose amongst them the last one is usually the one you want especially if only EEG is connected",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "getEmotivDevices",
           "normalized": "IO[EmotivDeviceInfo]",
@@ -1583,6 +1725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the sensor value for the given sensor from Emotiv raw data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "getLevel",
           "package": "hemokit",
@@ -1592,6 +1735,7 @@
         "index": {
           "description": "Extracts the sensor value for the given sensor from Emotiv raw data",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "getLevel",
           "normalized": "EmotivRawData-\u003eBitMask-\u003eInt",
@@ -1608,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes which bits in a raw data packet make up the given sensor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "getSensorMask",
           "package": "hemokit",
@@ -1617,6 +1762,7 @@
         "index": {
           "description": "Describes which bits in raw data packet make up the given sensor",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "getSensorMask",
           "normalized": "Sensor-\u003eBitMask",
@@ -1633,6 +1779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eturning \u003ca\u003eleft\u003c/a\u003e gives positive numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "gyroX",
           "package": "hemokit",
@@ -1642,6 +1789,7 @@
         "index": {
           "description": "turning left gives positive numbers",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "gyroX",
           "package": "hemokit",
@@ -1655,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eturning \u003ca\u003edown\u003c/a\u003e gives positive numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "gyroY",
           "package": "hemokit",
@@ -1664,6 +1813,7 @@
         "index": {
           "description": "turning down gives positive numbers",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "gyroY",
           "package": "hemokit",
@@ -1677,6 +1827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA conventional \u003ccode\u003eHandle\u003c/code\u003e, e.g. an open file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "handleDevice",
           "package": "hemokit",
@@ -1686,6 +1837,7 @@
         "index": {
           "description": "conventional Handle e.g an open file",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "handleDevice",
           "package": "hemokit",
@@ -1700,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe open hidapi device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "hidapiDevice",
           "package": "hemokit",
@@ -1709,6 +1862,7 @@
         "index": {
           "description": "The open hidapi device",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "hidapiDevice",
           "package": "hemokit",
@@ -1723,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hidapi device info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "hidapiDeviceInfo",
           "package": "hemokit",
@@ -1732,6 +1887,7 @@
         "index": {
           "description": "The hidapi device info",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "hidapiDeviceInfo",
           "package": "hemokit",
@@ -1746,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTreat a \u003ccode\u003eByteString\u003c/code\u003e as Emotiv raw data.\n Errors if the input is non 32 bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "makeEmotivRawData",
           "package": "hemokit",
@@ -1755,6 +1912,7 @@
         "index": {
           "description": "Treat ByteString as Emotiv raw data Errors if the input is non bytes",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "makeEmotivRawData",
           "normalized": "ByteString-\u003eEmotivRawData",
@@ -1771,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks an Emotiv serial, returning a \u003ccode\u003e\u003ca\u003eSerialNumber\u003c/a\u003e\u003c/code\u003e if it's valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "makeSerialNumber",
           "package": "hemokit",
@@ -1780,6 +1939,7 @@
         "index": {
           "description": "Checks an Emotiv serial returning SerialNumber if it valid",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "makeSerialNumber",
           "normalized": "ByteString-\u003eMaybe SerialNumber",
@@ -1796,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emakeSerialNumber\u003c/a\u003e\u003c/code\u003e, using a \u003ccode\u003eString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "makeSerialNumberFromString",
           "package": "hemokit",
@@ -1805,6 +1966,7 @@
         "index": {
           "description": "Like makeSerialNumber using String",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "makeSerialNumberFromString",
           "normalized": "String-\u003eMaybe SerialNumber",
@@ -1821,6 +1983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a given Emotiv device.\n Returns an \u003ccode\u003e\u003ca\u003eEmotivDevice\u003c/a\u003e\u003c/code\u003e to read from with \u003ccode\u003e\u003ca\u003ereadEmotiv\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "openEmotivDevice",
           "package": "hemokit",
@@ -1830,6 +1993,7 @@
         "index": {
           "description": "Opens given Emotiv device Returns an EmotivDevice to read from with readEmotiv",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "openEmotivDevice",
           "normalized": "EmotivModel-\u003eEmotivDeviceInfo-\u003eIO EmotivDevice",
@@ -1846,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an \u003ccode\u003e\u003ca\u003eEmotivDevice\u003c/a\u003e\u003c/code\u003e device from a path, e.g. a device like\n \u003ccode\u003e\u003cem\u003edev\u003c/em\u003ehidraw1\u003c/code\u003e or a normal file containing dumped binary data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "openEmotivDeviceFile",
           "package": "hemokit",
@@ -1855,6 +2020,7 @@
         "index": {
           "description": "Creates an EmotivDevice device from path e.g device like dev hidraw1 or normal file containing dumped binary data",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "openEmotivDeviceFile",
           "normalized": "EmotivModel-\u003eSerialNumber-\u003eString-\u003eIO EmotivDevice",
@@ -1871,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an \u003ccode\u003e\u003ca\u003eEmotivDevice\u003c/a\u003e\u003c/code\u003e device from an open file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "openEmotivDeviceHandle",
           "package": "hemokit",
@@ -1880,6 +2047,7 @@
         "index": {
           "description": "Creates an EmotivDevice device from an open file handle",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "openEmotivDeviceHandle",
           "normalized": "EmotivModel-\u003eSerialNumber-\u003eHandle-\u003eIO EmotivDevice",
@@ -1896,6 +2064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current battery percentage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "packetBattery",
           "package": "hemokit",
@@ -1905,6 +2074,7 @@
         "index": {
           "description": "the current battery percentage",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "packetBattery",
           "package": "hemokit",
@@ -1919,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecounts up from 0 to 127 (128 Hz)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "packetCounter",
           "package": "hemokit",
@@ -1928,6 +2099,7 @@
         "index": {
           "description": "counts up from to Hz",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "packetCounter",
           "package": "hemokit",
@@ -1942,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eturning \u003ca\u003eleft\u003c/a\u003e gives positive numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "packetGyroX",
           "package": "hemokit",
@@ -1951,6 +2124,7 @@
         "index": {
           "description": "turning left gives positive numbers",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "packetGyroX",
           "package": "hemokit",
@@ -1965,6 +2139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eturning \u003ca\u003edown\u003c/a\u003e gives positive numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "packetGyroY",
           "package": "hemokit",
@@ -1974,6 +2149,7 @@
         "index": {
           "description": "turning down gives positive numbers",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "packetGyroY",
           "package": "hemokit",
@@ -1988,6 +2164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEEG sensor-to-skin connectivity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "packetQuality",
           "package": "hemokit",
@@ -1997,6 +2174,7 @@
         "index": {
           "description": "EEG sensor-to-skin connectivity",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "packetQuality",
           "normalized": "Maybe(Sensor,Int)",
@@ -2013,6 +2191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEEG sensor values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "packetSensors",
           "package": "hemokit",
@@ -2022,6 +2201,7 @@
         "index": {
           "description": "EEG sensor values",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "packetSensors",
           "package": "hemokit",
@@ -2036,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an \u003ccode\u003e\u003ca\u003eEmotivPacket\u003c/a\u003e\u003c/code\u003e from raw bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "parsePacket",
           "package": "hemokit",
@@ -2045,6 +2226,7 @@
         "index": {
           "description": "Parses an EmotivPacket from raw bytes",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "parsePacket",
           "normalized": "EmotivRawData-\u003eEmotivPacket",
@@ -2061,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEEG sensor-to-skin connectivity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "qualities",
           "package": "hemokit",
@@ -2070,6 +2253,7 @@
         "index": {
           "description": "EEG sensor-to-skin connectivity",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "qualities",
           "package": "hemokit",
@@ -2083,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes which bits in a raw data packat make up a sensor quality value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "qualityMask",
           "package": "hemokit",
@@ -2092,6 +2277,7 @@
         "index": {
           "description": "Describes which bits in raw data packat make up sensor quality value",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "qualityMask",
           "package": "hemokit",
@@ -2106,6 +2292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich sensor's quality is transmitted in the packet\n (depends on first byte, the packet counter).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "qualitySensorFromByte0",
           "package": "hemokit",
@@ -2115,6 +2302,7 @@
         "index": {
           "description": "Which sensor quality is transmitted in the packet depends on first byte the packet counter",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "qualitySensorFromByte0",
           "normalized": "Word-\u003eMaybe Sensor",
@@ -2131,6 +2319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere we get our data from, some form of \u003ca\u003eopen handle\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "rawDevice",
           "package": "hemokit",
@@ -2140,6 +2329,7 @@
         "index": {
           "description": "Where we get our data from some form of open handle",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "rawDevice",
           "package": "hemokit",
@@ -2154,6 +2344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads one 32 byte packet from the device, parses the raw bytes into an\n \u003ccode\u003e\u003ca\u003eEmotivPacket\u003c/a\u003e\u003c/code\u003e and updates the cumulative \u003ccode\u003e\u003ca\u003eEmotivState\u003c/a\u003e\u003c/code\u003e that we maintain\n for that device.\n\u003c/p\u003e\u003cp\u003eReturns both the packet read from the device and the updated state.\n\u003c/p\u003e\u003cp\u003eReturns Nothing on end of input (or if there are \u003c 32 bytes before it).\n\u003c/p\u003e\u003cp\u003eNote that if the EEG is (turned) off, this function block until\n it is turned on again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "readEmotiv",
           "package": "hemokit",
@@ -2163,6 +2354,7 @@
         "index": {
           "description": "Reads one byte packet from the device parses the raw bytes into an EmotivPacket and updates the cumulative EmotivState that we maintain for that device Returns both the packet read from the device and the updated state Returns Nothing on end of input or if there are bytes before it Note that if the EEG is turned off this function block until it is turned on again",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "readEmotiv",
           "normalized": "EmotivDevice-\u003eIO(Maybe(EmotivState,EmotivPacket))",
@@ -2179,6 +2371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads one 32 byte packet from the device and decrypts it to raw data.\n\u003c/p\u003e\u003cp\u003eReturns Nothing on end of input (or if there are \u003c 32 bytes before it).\n\u003c/p\u003e\u003cp\u003eNote that if the EEG is (turned) off, this function block until\n it is turned on again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "readEmotivRaw",
           "package": "hemokit",
@@ -2188,6 +2381,7 @@
         "index": {
           "description": "Reads one byte packet from the device and decrypts it to raw data Returns Nothing on end of input or if there are bytes before it Note that if the EEG is turned off this function block until it is turned on again",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "readEmotivRaw",
           "normalized": "EmotivDevice-\u003eIO(Maybe EmotivRawData)",
@@ -2204,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEEG sensor values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "sensors",
           "package": "hemokit",
@@ -2213,6 +2408,7 @@
         "index": {
           "description": "EEG sensor values",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "sensors",
           "package": "hemokit",
@@ -2226,6 +2422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe EEG's serial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "serial",
           "package": "hemokit",
@@ -2235,6 +2432,7 @@
         "index": {
           "description": "The EEG serial",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "serial",
           "package": "hemokit",
@@ -2248,6 +2446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe EEG's cumulative state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "stateRef",
           "package": "hemokit",
@@ -2257,6 +2456,7 @@
         "index": {
           "description": "The EEG cumulative state",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "stateRef",
           "package": "hemokit",
@@ -2271,6 +2471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a device and a Emotiv raw data, parses the raw data into an\n \u003ccode\u003e\u003ca\u003eEmotivPacket\u003c/a\u003e\u003c/code\u003e and updates the cumulative \u003ccode\u003e\u003ca\u003eEmotivState\u003c/a\u003e\u003c/code\u003e that we maintain\n for that device.\n\u003c/p\u003e\u003cp\u003eCare should be taken that raw data is fed into this function in the right\n order (e.g. respecting the EEG's increasing sequence numbers and quality\n updates).\n\u003c/p\u003e\u003cp\u003eThis function is only neededif you want to obtain both raw data and\n parsed packages.\n If you are not interested in raw data, use \u003ccode\u003e\u003ca\u003ereadEmotiv\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eReturns both the packet read from the device and the updated state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "updateEmotivState",
           "package": "hemokit",
@@ -2280,6 +2481,7 @@
         "index": {
           "description": "Given device and Emotiv raw data parses the raw data into an EmotivPacket and updates the cumulative EmotivState that we maintain for that device Care should be taken that raw data is fed into this function in the right order e.g respecting the EEG increasing sequence numbers and quality updates This function is only neededif you want to obtain both raw data and parsed packages If you are not interested in raw data use readEmotiv instead Returns both the packet read from the device and the updated state",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "updateEmotivState",
           "normalized": "EmotivDevice-\u003eEmotivRawData-\u003eIO(EmotivState,EmotivPacket)",
@@ -2296,6 +2498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens and reads from the last available device, giving all data from it\n to the given function. Stops if end of input is reached.\n\u003c/p\u003e\u003cp\u003eIntended for use with ghci.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003ewithDataFromLastEEG Consumer print\nwithDataFromLastEEG Consumer (print . packetQuality . snd)\nwithDataFromLastEEG Consumer (putStrLn . unwords . map show . V.toList . qualities . fst)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:50 UTC 2014",
           "module": "Hemokit",
           "name": "withDataFromLastEEG",
           "package": "hemokit",
@@ -2305,6 +2508,7 @@
         "index": {
           "description": "Opens and reads from the last available device giving all data from it to the given function Stops if end of input is reached Intended for use with ghci Examples withDataFromLastEEG Consumer print withDataFromLastEEG Consumer print packetQuality snd withDataFromLastEEG Consumer putStrLn unwords map show V.toList qualities fst",
           "hierarchy": "Hemokit",
+          "indexed": "2014-03-11T18:36:50",
           "module": "Hemokit",
           "name": "withDataFromLastEEG",
           "normalized": "EmotivModel-\u003e((EmotivState,EmotivPacket)-\u003eIO())-\u003eIO()",

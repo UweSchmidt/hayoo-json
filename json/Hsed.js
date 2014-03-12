@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Hsed"
+        "phrase": "Hsed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main types used in the program\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Ast",
           "package": "Hsed",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The main types used in the program",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Ast",
           "package": "Hsed",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn address is either a decimal number that counts input lines cumulatively across files, \n   a \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e character that addresses the last line of input, or a context address as BRE \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Addr",
           "package": "Hsed",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An address is either decimal number that counts input lines cumulatively across files character that addresses the last line of input or context address as BRE",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Addr",
           "package": "Hsed",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA permissable address is representing by zero, one or two addresses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Address",
           "package": "Hsed",
@@ -74,6 +79,7 @@
         "index": {
           "description": "permissable address is representing by zero one or two addresses",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Address",
           "package": "Hsed",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags used in the substitute command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Flags",
           "package": "Hsed",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Flags used in the substitute command",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Flags",
           "package": "Hsed",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Invert",
           "package": "Hsed",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Invert",
           "package": "Hsed",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Label",
           "package": "Hsed",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Label",
           "package": "Hsed",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in the replacement string. An appersand (\u003ccode\u003e&\u003c/code\u003e) will be replaced by the\n   string matched the BRE. The characters \u003ca\u003en\u003c/a\u003e, where n is a digit will be\n   replaced by the corresponding back-reference expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Occurrence",
           "package": "Hsed",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Used in the replacement string An appersand will be replaced by the string matched the BRE The characters where is digit will be replaced by the corresponding back-reference expression",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Occurrence",
           "package": "Hsed",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe allowed sequence of the Occurrence and OutputPat flags in the substitute\n   function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "OccurrencePrint",
           "package": "Hsed",
@@ -185,6 +200,7 @@
         "index": {
           "description": "The allowed sequence of the Occurrence and OutputPat flags in the substitute function",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "OccurrencePrint",
           "package": "Hsed",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe flag to control the pattern space output in the substitute function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "OutputPat",
           "package": "Hsed",
@@ -208,6 +225,7 @@
         "index": {
           "description": "The flag to control the pattern space output in the substitute function",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "OutputPat",
           "package": "Hsed",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Replacement",
           "package": "Hsed",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Replacement",
           "package": "Hsed",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditing commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "SedCmd",
           "package": "Hsed",
@@ -252,6 +273,7 @@
         "index": {
           "description": "Editing commands",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "SedCmd",
           "package": "Hsed",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions represents a single-character command verb\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "SedFun",
           "package": "Hsed",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Functions represents single-character command verb",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "SedFun",
           "package": "Hsed",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Text",
           "package": "Hsed",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Text",
           "package": "Hsed",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Address",
           "package": "Hsed",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Address",
           "package": "Hsed",
@@ -332,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea - append text following each line matched by address \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Append",
           "package": "Hsed",
@@ -342,6 +371,7 @@
         "index": {
           "description": "append text following each line matched by address",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Append",
           "package": "Hsed",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eH - add newline followed by pattern space into the hold space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "AppendHold",
           "package": "Hsed",
@@ -366,6 +397,7 @@
         "index": {
           "description": "add newline followed by pattern space into the hold space",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "AppendHold",
           "package": "Hsed",
@@ -380,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eN - add next input line and newline into pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "AppendLinePat",
           "package": "Hsed",
@@ -390,6 +423,7 @@
         "index": {
           "description": "add next input line and newline into pattern space",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "AppendLinePat",
           "package": "Hsed",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eG - add newline followed by hold space into the pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "AppendPat",
           "package": "Hsed",
@@ -414,6 +449,7 @@
         "index": {
           "description": "add newline followed by hold space into the pattern space",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "AppendPat",
           "package": "Hsed",
@@ -428,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eb - transfer control to Label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Branch",
           "package": "Hsed",
@@ -438,6 +475,7 @@
         "index": {
           "description": "transfer control to Label",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Branch",
           "package": "Hsed",
@@ -452,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ec - replace the lines selected by the address with Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Change",
           "package": "Hsed",
@@ -462,6 +501,7 @@
         "index": {
           "description": "replace the lines selected by the address with Text",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Change",
           "package": "Hsed",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca name=\" - ignore a line in the script except \\\"\"/\u003en\" in the first line \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Comment",
           "package": "Hsed",
@@ -486,6 +527,7 @@
         "index": {
           "description": "in the first line",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Comment",
           "package": "Hsed",
@@ -500,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ed - delete line(s) from pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "DeleteLine",
           "package": "Hsed",
@@ -510,6 +553,7 @@
         "index": {
           "description": "delete line from pattern space",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "DeleteLine",
           "package": "Hsed",
@@ -524,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eD - delete (up to newline) of multiline pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "DeletePat",
           "package": "Hsed",
@@ -534,6 +579,7 @@
         "index": {
           "description": "delete up to newline of multiline pattern space",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "DeletePat",
           "package": "Hsed",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e ignore spaces\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "EmptyCmd",
           "package": "Hsed",
@@ -558,6 +605,7 @@
         "index": {
           "description": "ignore spaces",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "EmptyCmd",
           "package": "Hsed",
@@ -572,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ex - exchange pattern space with hold space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Exchange",
           "package": "Hsed",
@@ -582,6 +631,7 @@
         "index": {
           "description": "exchange pattern space with hold space",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Exchange",
           "package": "Hsed",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Flags",
           "package": "Hsed",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Flags",
           "package": "Hsed",
@@ -618,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e{ - group of the sed commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Group",
           "package": "Hsed",
@@ -628,6 +681,7 @@
         "index": {
           "description": "group of the sed commands",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Group",
           "normalized": "Group[SedCmd]",
@@ -644,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ei - insert Text before each line matched by address \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Insert",
           "package": "Hsed",
@@ -654,6 +709,7 @@
         "index": {
           "description": "insert Text before each line matched by address",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Insert",
           "package": "Hsed",
@@ -668,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e: - label a line in the scipt for transfering by b or t.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Label",
           "package": "Hsed",
@@ -678,6 +735,7 @@
         "index": {
           "description": "label line in the scipt for transfering by or",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Label",
           "package": "Hsed",
@@ -691,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "LastLine",
           "package": "Hsed",
@@ -700,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "LastLine",
           "package": "Hsed",
@@ -714,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e= - write to standard output the current line number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "LineNum",
           "package": "Hsed",
@@ -724,6 +785,7 @@
         "index": {
           "description": "write to standard output the current line number",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "LineNum",
           "package": "Hsed",
@@ -737,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "LineNumber",
           "package": "Hsed",
@@ -746,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "LineNumber",
           "package": "Hsed",
@@ -760,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003el - list the pattern space, showing non-printing chars in ASCII\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "List",
           "package": "Hsed",
@@ -770,6 +835,7 @@
         "index": {
           "description": "list the pattern space showing non-printing chars in ASCII",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "List",
           "package": "Hsed",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003en - read next line of input into pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "NextLine",
           "package": "Hsed",
@@ -794,6 +861,7 @@
         "index": {
           "description": "read next line of input into pattern space",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "NextLine",
           "package": "Hsed",
@@ -807,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "OccurrencePrint",
           "package": "Hsed",
@@ -816,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "OccurrencePrint",
           "package": "Hsed",
@@ -829,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Pat",
           "package": "Hsed",
@@ -838,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Pat",
           "package": "Hsed",
@@ -851,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "PrintOccurrence",
           "package": "Hsed",
@@ -860,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "PrintOccurrence",
           "package": "Hsed",
@@ -874,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ep - print the addressed line(s)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "PrintPat",
           "package": "Hsed",
@@ -884,6 +959,7 @@
         "index": {
           "description": "print the addressed line",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "PrintPat",
           "package": "Hsed",
@@ -898,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eq - quit when address is encounterd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Quit",
           "package": "Hsed",
@@ -908,6 +985,7 @@
         "index": {
           "description": "quit when address is encounterd",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Quit",
           "package": "Hsed",
@@ -922,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003er - add contents of file to the pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "ReadFile",
           "package": "Hsed",
@@ -932,6 +1011,7 @@
         "index": {
           "description": "add contents of file to the pattern space",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "ReadFile",
           "package": "Hsed",
@@ -945,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Replace",
           "package": "Hsed",
@@ -954,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Replace",
           "package": "Hsed",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "ReplaceAll",
           "package": "Hsed",
@@ -976,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "ReplaceAll",
           "package": "Hsed",
@@ -990,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eh - copy pattern space into hold space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "ReplaceHold",
           "package": "Hsed",
@@ -1000,6 +1085,7 @@
         "index": {
           "description": "copy pattern space into hold space",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "ReplaceHold",
           "package": "Hsed",
@@ -1014,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eg - copy hold space into the pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "ReplacePat",
           "package": "Hsed",
@@ -1024,6 +1111,7 @@
         "index": {
           "description": "copy hold space into the pattern space",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "ReplacePat",
           "package": "Hsed",
@@ -1037,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "SedCmd",
           "package": "Hsed",
@@ -1046,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "SedCmd",
           "package": "Hsed",
@@ -1060,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003es - substitute Replacement for Pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Substitute",
           "package": "Hsed",
@@ -1070,6 +1161,7 @@
         "index": {
           "description": "substitute Replacement for Pattern",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Substitute",
           "package": "Hsed",
@@ -1084,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003et - branch to line marked by :label if substitution was made \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Test",
           "package": "Hsed",
@@ -1094,6 +1187,7 @@
         "index": {
           "description": "branch to line marked by label if substitution was made",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Test",
           "package": "Hsed",
@@ -1108,6 +1202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ey - transform each char by position in Text to Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "Transform",
           "package": "Hsed",
@@ -1118,6 +1213,7 @@
         "index": {
           "description": "transform each char by position in Text to Text",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "Transform",
           "package": "Hsed",
@@ -1132,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ew - write the line to file if a replacement was done\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "WriteFile",
           "package": "Hsed",
@@ -1142,6 +1239,7 @@
         "index": {
           "description": "write the line to file if replacement was done",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "WriteFile",
           "package": "Hsed",
@@ -1156,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eP - print (up to newline) of multiline pattern space   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Ast",
           "name": "WriteUpPat",
           "package": "Hsed",
@@ -1166,6 +1265,7 @@
         "index": {
           "description": "print up to newline of multiline pattern space",
           "hierarchy": "Hsed Ast",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Ast",
           "name": "WriteUpPat",
           "package": "Hsed",
@@ -1180,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSed commands parser. See \u003ca\u003eThe Open Group Base Specifications Issue 7\u003c/a\u003e for\n parsing requirements. The current version of the Haskell Sed doesn't supports\n the back-references in the RE.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "Parsec",
           "package": "Hsed",
@@ -1189,6 +1290,7 @@
         "index": {
           "description": "Sed commands parser See The Open Group Base Specifications Issue for parsing requirements The current version of the Haskell Sed doesn supports the back-references in the RE",
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "Parsec",
           "package": "Hsed",
@@ -1203,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf an RE is empty last RE used in the last command applied \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "ParserState",
           "package": "Hsed",
@@ -1212,6 +1315,7 @@
         "index": {
           "description": "If an RE is empty last RE used in the last command applied",
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "ParserState",
           "package": "Hsed",
@@ -1225,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "SedParser",
           "package": "Hsed",
@@ -1233,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "SedParser",
           "package": "Hsed",
@@ -1246,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "Stream",
           "package": "Hsed",
@@ -1254,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "Stream",
           "package": "Hsed",
@@ -1267,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "ParserState",
           "package": "Hsed",
@@ -1276,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "ParserState",
           "package": "Hsed",
@@ -1289,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "address",
           "package": "Hsed",
@@ -1298,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "address",
           "package": "Hsed",
@@ -1310,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "argFun",
           "package": "Hsed",
@@ -1319,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "argFun",
           "normalized": "Char-\u003e(ByteString-\u003eSedFun)-\u003eSedParser SedFun",
@@ -1334,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "bareFun",
           "package": "Hsed",
@@ -1343,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "bareFun",
           "normalized": "Char-\u003eSedFun-\u003eSedParser SedFun",
@@ -1358,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "fileFun",
           "package": "Hsed",
@@ -1367,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "fileFun",
           "normalized": "Char-\u003e(FilePath-\u003eSedFun)-\u003eSedParser SedFun",
@@ -1382,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "gotoFun",
           "package": "Hsed",
@@ -1391,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "gotoFun",
           "normalized": "Char-\u003e(Maybe Label-\u003eSedFun)-\u003eSedParser SedFun",
@@ -1406,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "lastRE",
           "package": "Hsed",
@@ -1415,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "lastRE",
           "package": "Hsed",
@@ -1428,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "parseRE",
           "package": "Hsed",
@@ -1437,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "parseRE",
           "normalized": "String-\u003eSedParser Pattern",
@@ -1452,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "parseSed",
           "package": "Hsed",
@@ -1461,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "parseSed",
           "normalized": "SedParser a-\u003eStream-\u003eEither ParseError a",
@@ -1476,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "sedCmd",
           "package": "Hsed",
@@ -1485,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "sedCmd",
           "package": "Hsed",
@@ -1498,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "sedCmds",
           "package": "Hsed",
@@ -1507,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "sedCmds",
           "normalized": "SedParser[SedCmd]",
@@ -1522,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "sedFun",
           "package": "Hsed",
@@ -1531,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "sedFun",
           "package": "Hsed",
@@ -1544,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Parsec",
           "name": "textFun",
           "package": "Hsed",
@@ -1553,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Hsed Parsec",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Parsec",
           "name": "textFun",
           "normalized": "Char-\u003e(Text-\u003eSedFun)-\u003eSedParser SedFun",
@@ -1569,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions to execute the sed script. \n See \u003ccode\u003e\u003ca\u003eexecScript\u003c/a\u003e\u003c/code\u003e below for an example\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Sed",
           "name": "Sed",
           "package": "Hsed",
@@ -1578,6 +1713,7 @@
         "index": {
           "description": "This module provides functions to execute the sed script See execScript below for an example",
           "hierarchy": "Hsed Sed",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Sed",
           "name": "Sed",
           "package": "Hsed",
@@ -1591,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Sed",
           "name": "SedScript",
           "package": "Hsed",
@@ -1599,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Hsed Sed",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Sed",
           "name": "SedScript",
           "package": "Hsed",
@@ -1613,6 +1751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the sed script and print the output to ByteString. \n Example. Suppose the ..\u003cem\u003etests\u003c/em\u003eTransform.in file contains the line 'Hello world!'.\n execScript [\"..\u003cem\u003etests\u003c/em\u003eTransform.in\"] \"y\u003cem\u003eabcdefghijklmnopqrstuvwxyz\u003c/em\u003eABCDEFGHIJKLMNOPQRSTUVWXYZ/\"\n will produce 'HELLO WORLD!' bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Sed",
           "name": "execScript",
           "package": "Hsed",
@@ -1623,6 +1762,7 @@
         "index": {
           "description": "Execute the sed script and print the output to ByteString Example Suppose the tests Transform.in file contains the line Hello world execScript tests Transform.in abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ will produce HELLO WORLD bytestring",
           "hierarchy": "Hsed Sed",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Sed",
           "name": "execScript",
           "normalized": "[FilePath]-\u003eSedScript-\u003eIO ByteString",
@@ -1639,6 +1779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the sed script and print the result to stdout \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.Sed",
           "name": "execScript_",
           "package": "Hsed",
@@ -1649,6 +1790,7 @@
         "index": {
           "description": "Execute the sed script and print the result to stdout",
           "hierarchy": "Hsed Sed",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.Sed",
           "name": "execScript_",
           "normalized": "[FilePath]-\u003eSedScript-\u003eIO()",
@@ -1664,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedRegex",
           "name": "SedRegex",
           "package": "Hsed",
@@ -1672,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedRegex",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedRegex",
           "name": "SedRegex",
           "package": "Hsed",
@@ -1685,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedRegex",
           "name": "Pattern",
           "package": "Hsed",
@@ -1693,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedRegex",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedRegex",
           "name": "Pattern",
           "package": "Hsed",
@@ -1707,6 +1853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces every occurance of the given regexp with the replacement string. \n   Modification of the subRegex function from regex-posix package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedRegex",
           "name": "sedSubRegex",
           "package": "Hsed",
@@ -1716,6 +1863,7 @@
         "index": {
           "description": "Replaces every occurance of the given regexp with the replacement string Modification of the subRegex function from regex-posix package",
           "hierarchy": "Hsed SedRegex",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedRegex",
           "name": "sedSubRegex",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eInt-\u003e(ByteString,Bool)",
@@ -1732,6 +1880,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe state of the program \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "SedState",
           "package": "Hsed",
@@ -1741,6 +1890,7 @@
         "index": {
           "description": "The state of the program",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "SedState",
           "package": "Hsed",
@@ -1754,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "Env",
           "package": "Hsed",
@@ -1762,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "Env",
           "package": "Hsed",
@@ -1775,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "SedState",
           "package": "Hsed",
@@ -1783,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "SedState",
           "package": "Hsed",
@@ -1796,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "Env",
           "package": "Hsed",
@@ -1805,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "Env",
           "package": "Hsed",
@@ -1818,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "appendSpace",
           "package": "Hsed",
@@ -1827,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "appendSpace",
           "normalized": "T Env[ByteString]",
@@ -1843,6 +2001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe buffer to keep the append lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "appendSpace_",
           "package": "Hsed",
@@ -1853,6 +2012,7 @@
         "index": {
           "description": "The buffer to keep the append lines",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "appendSpace_",
           "normalized": "[ByteString]",
@@ -1868,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "ast",
           "package": "Hsed",
@@ -1877,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "ast",
           "normalized": "T Env[SedCmd]",
@@ -1892,6 +2054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsed Sed commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "ast_",
           "package": "Hsed",
@@ -1902,6 +2065,7 @@
         "index": {
           "description": "Parsed Sed commands",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "ast_",
           "normalized": "[SedCmd]",
@@ -1916,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "curFile",
           "package": "Hsed",
@@ -1925,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "curFile",
           "normalized": "T Env(Handle,Bool)",
@@ -1941,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent input file handle  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "curFile_",
           "package": "Hsed",
@@ -1951,6 +2118,7 @@
         "index": {
           "description": "Current input file handle",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "curFile_",
           "normalized": "(Handle,Bool)",
@@ -1966,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "curLine",
           "package": "Hsed",
@@ -1975,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "curLine",
           "package": "Hsed",
@@ -1989,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current line index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "curLine_",
           "package": "Hsed",
@@ -1999,6 +2170,7 @@
         "index": {
           "description": "The current line index",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "curLine_",
           "package": "Hsed",
@@ -2012,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "defOutput",
           "package": "Hsed",
@@ -2021,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "defOutput",
           "package": "Hsed",
@@ -2035,6 +2209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuppress the default output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "defOutput_",
           "package": "Hsed",
@@ -2045,6 +2220,7 @@
         "index": {
           "description": "Suppress the default output",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "defOutput_",
           "package": "Hsed",
@@ -2058,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "exit",
           "package": "Hsed",
@@ -2067,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "exit",
           "package": "Hsed",
@@ -2080,6 +2258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExit the stream editor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "exit_",
           "package": "Hsed",
@@ -2090,6 +2269,7 @@
         "index": {
           "description": "Exit the stream editor",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "exit_",
           "package": "Hsed",
@@ -2102,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "fileout",
           "package": "Hsed",
@@ -2111,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "fileout",
           "normalized": "T Env[(FilePath,Handle)]",
@@ -2126,6 +2308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite (w command) files handles \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "fileout_",
           "package": "Hsed",
@@ -2136,6 +2319,7 @@
         "index": {
           "description": "Write command files handles",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "fileout_",
           "normalized": "[(FilePath,Handle)]",
@@ -2150,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "get",
           "package": "Hsed",
@@ -2159,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "get",
           "normalized": "T Env a-\u003eSedState a",
@@ -2173,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "holdSpace",
           "package": "Hsed",
@@ -2182,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "holdSpace",
           "package": "Hsed",
@@ -2196,6 +2384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe buffer to keep the line(s) temporarily\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "holdSpace_",
           "package": "Hsed",
@@ -2206,6 +2395,7 @@
         "index": {
           "description": "The buffer to keep the line temporarily",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "holdSpace_",
           "package": "Hsed",
@@ -2219,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "inRange",
           "package": "Hsed",
@@ -2228,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "inRange",
           "package": "Hsed",
@@ -2242,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs pattern space matches the address range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "inRange_",
           "package": "Hsed",
@@ -2252,6 +2445,7 @@
         "index": {
           "description": "Is pattern space matches the address range",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "inRange_",
           "package": "Hsed",
@@ -2265,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "initEnv",
           "package": "Hsed",
@@ -2274,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "initEnv",
           "package": "Hsed",
@@ -2287,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "lastLine",
           "package": "Hsed",
@@ -2296,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "lastLine",
           "package": "Hsed",
@@ -2310,6 +2508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe last line index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "lastLine_",
           "package": "Hsed",
@@ -2320,6 +2519,7 @@
         "index": {
           "description": "The last line index",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "lastLine_",
           "package": "Hsed",
@@ -2333,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "memorySpace",
           "package": "Hsed",
@@ -2342,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "memorySpace",
           "package": "Hsed",
@@ -2356,6 +2558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore the output in the memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "memorySpace_",
           "package": "Hsed",
@@ -2366,6 +2569,7 @@
         "index": {
           "description": "Store the output in the memory",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "memorySpace_",
           "package": "Hsed",
@@ -2379,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "modify",
           "package": "Hsed",
@@ -2388,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "modify",
           "normalized": "T Env a-\u003e(a-\u003ea)-\u003eSedState()",
@@ -2402,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "patternSpace",
           "package": "Hsed",
@@ -2411,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "patternSpace",
           "package": "Hsed",
@@ -2425,6 +2633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe buffer to keep the selected line(s)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "patternSpace_",
           "package": "Hsed",
@@ -2435,6 +2644,7 @@
         "index": {
           "description": "The buffer to keep the selected line",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "patternSpace_",
           "package": "Hsed",
@@ -2448,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "set",
           "package": "Hsed",
@@ -2457,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "set",
           "normalized": "T Env a-\u003ea-\u003eSedState()",
@@ -2471,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "subst",
           "package": "Hsed",
@@ -2480,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "subst",
           "package": "Hsed",
@@ -2493,6 +2707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of the last substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "subst_",
           "package": "Hsed",
@@ -2503,6 +2718,7 @@
         "index": {
           "description": "The result of the last substitution",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "subst_",
           "package": "Hsed",
@@ -2515,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "useMemSpace",
           "package": "Hsed",
@@ -2524,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "useMemSpace",
           "package": "Hsed",
@@ -2538,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf True the Sed output is stored in the memory buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.SedState",
           "name": "useMemSpace_",
           "package": "Hsed",
@@ -2548,6 +2767,7 @@
         "index": {
           "description": "If True the Sed output is stored in the memory buffer",
           "hierarchy": "Hsed SedState",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.SedState",
           "name": "useMemSpace_",
           "package": "Hsed",
@@ -2562,6 +2782,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Sed runtime engine\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "StreamEd",
           "package": "Hsed",
@@ -2571,6 +2792,7 @@
         "index": {
           "description": "The Sed runtime engine",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "StreamEd",
           "package": "Hsed",
@@ -2584,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "FlowControl",
           "package": "Hsed",
@@ -2592,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "FlowControl",
           "package": "Hsed",
@@ -2605,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "SedEngine",
           "package": "Hsed",
@@ -2613,6 +2838,7 @@
         },
         "index": {
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "SedEngine",
           "package": "Hsed",
@@ -2626,6 +2852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "Status",
           "package": "Hsed",
@@ -2634,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "Status",
           "package": "Hsed",
@@ -2648,6 +2876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the new line to the pattern space and apply sed script  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "Break",
           "package": "Hsed",
@@ -2658,6 +2887,7 @@
         "index": {
           "description": "Read the new line to the pattern space and apply sed script",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "Break",
           "package": "Hsed",
@@ -2671,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "Cont",
           "package": "Hsed",
@@ -2680,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "Cont",
           "package": "Hsed",
@@ -2694,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReapply the sed script to the current pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "Continue",
           "package": "Hsed",
@@ -2704,6 +2937,7 @@
         "index": {
           "description": "Reapply the sed script to the current pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "Continue",
           "package": "Hsed",
@@ -2717,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "EOF",
           "package": "Hsed",
@@ -2726,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "EOF",
           "package": "Hsed",
@@ -2740,6 +2976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuit \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "Exit",
           "package": "Hsed",
@@ -2750,6 +2987,7 @@
         "index": {
           "description": "Quit",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "Exit",
           "package": "Hsed",
@@ -2764,6 +3002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJump to the marked sed command and apply it to the pattern space   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "Goto",
           "package": "Hsed",
@@ -2774,6 +3013,7 @@
         "index": {
           "description": "Jump to the marked sed command and apply it to the pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "Goto",
           "package": "Hsed",
@@ -2788,6 +3028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the next sed command from the script to the pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "Next",
           "package": "Hsed",
@@ -2798,6 +3039,7 @@
         "index": {
           "description": "Apply the next sed command from the script to the pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "Next",
           "package": "Hsed",
@@ -2812,6 +3054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'a\\\\ntext' Places the text variable in output before reading \n the next input line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "append",
           "package": "Hsed",
@@ -2822,6 +3065,7 @@
         "index": {
           "description": "ntext Places the text variable in output before reading the next input line",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "append",
           "normalized": "ByteString-\u003eSedState FlowControl",
@@ -2837,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eH\u003c/code\u003e Append newline and contents of pattern space to contents \n of the hold space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "appendHold",
           "package": "Hsed",
@@ -2847,6 +3092,7 @@
         "index": {
           "description": "Append newline and contents of pattern space to contents of the hold space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "appendHold",
           "package": "Hsed",
@@ -2861,6 +3107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eN\u003c/code\u003e Append next input line to contents of pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "appendLinePat",
           "package": "Hsed",
@@ -2871,6 +3118,7 @@
         "index": {
           "description": "Append next input line to contents of pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "appendLinePat",
           "package": "Hsed",
@@ -2885,6 +3133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eG\u003c/code\u003e Append newline followed by contents of hold space \n to contents of the pattern space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "appendPat",
           "package": "Hsed",
@@ -2895,6 +3144,7 @@
         "index": {
           "description": "Append newline followed by contents of hold space to contents of the pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "appendPat",
           "package": "Hsed",
@@ -2909,6 +3159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'b label' Transfer control to :label elsewhere in script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "branch",
           "package": "Hsed",
@@ -2919,6 +3170,7 @@
         "index": {
           "description": "label Transfer control to label elsewhere in script",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "branch",
           "normalized": "Maybe Label-\u003eSedState FlowControl",
@@ -2934,6 +3186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'c\\\\ntext' Replace the lines with the text variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "change",
           "package": "Hsed",
@@ -2944,6 +3197,7 @@
         "index": {
           "description": "ntext Replace the lines with the text variable",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "change",
           "normalized": "ByteString-\u003eSedState FlowControl",
@@ -2959,6 +3213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the Sed commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "compile",
           "package": "Hsed",
@@ -2969,6 +3224,7 @@
         "index": {
           "description": "Parse the Sed commands",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "compile",
           "normalized": "String-\u003eSedState()",
@@ -2984,6 +3240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ed\u003c/code\u003e Delete line(s) from pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "deleteLine",
           "package": "Hsed",
@@ -2994,6 +3251,7 @@
         "index": {
           "description": "Delete line from pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "deleteLine",
           "package": "Hsed",
@@ -3008,6 +3266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eD\u003c/code\u003e Delete first part (up to embedded newline) of multiline pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "deletePat",
           "package": "Hsed",
@@ -3018,6 +3277,7 @@
         "index": {
           "description": "Delete first part up to embedded newline of multiline pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "deletePat",
           "package": "Hsed",
@@ -3032,6 +3292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ex\u003c/code\u003e Exchange contents of the pattern space with the \n contents of the hold space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "exchange",
           "package": "Hsed",
@@ -3042,6 +3303,7 @@
         "index": {
           "description": "Exchange contents of the pattern space with the contents of the hold space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "exchange",
           "package": "Hsed",
@@ -3055,6 +3317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the Sed function if the address is matched\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "execCmd",
           "package": "Hsed",
@@ -3065,6 +3328,7 @@
         "index": {
           "description": "Execute the Sed function if the address is matched",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "execCmd",
           "normalized": "SedCmd-\u003eSedState FlowControl",
@@ -3081,6 +3345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute sed script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "execCmds",
           "package": "Hsed",
@@ -3091,6 +3356,7 @@
         "index": {
           "description": "Execute sed script",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "execCmds",
           "normalized": "[SedCmd]-\u003eSedEngine()",
@@ -3107,6 +3373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the parsed Sed commands against input data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "execute",
           "package": "Hsed",
@@ -3117,6 +3384,7 @@
         "index": {
           "description": "Execute the parsed Sed commands against input data",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "execute",
           "normalized": "[FilePath]-\u003eSedEngine()",
@@ -3132,6 +3400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'{cmd...}' Groups subcommands enclosed in {} (braces)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "group",
           "package": "Hsed",
@@ -3142,6 +3411,7 @@
         "index": {
           "description": "cmd Groups subcommands enclosed in braces",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "group",
           "normalized": "[SedCmd]-\u003eSedState FlowControl",
@@ -3157,6 +3427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'i\\\\ntext' Writes the text variable to standard output before \n reading the next line into the pattern space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "insert",
           "package": "Hsed",
@@ -3167,6 +3438,7 @@
         "index": {
           "description": "ntext Writes the text variable to standard output before reading the next line into the pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "insert",
           "normalized": "ByteString-\u003eSedState FlowControl",
@@ -3182,6 +3454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the current line in the pattern space is the last line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "isLastLine",
           "package": "Hsed",
@@ -3192,6 +3465,7 @@
         "index": {
           "description": "Check if the current line in the pattern space is the last line",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "isLastLine",
           "package": "Hsed",
@@ -3206,6 +3480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransfer control to the command marked with the label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "jump",
           "package": "Hsed",
@@ -3216,6 +3491,7 @@
         "index": {
           "description": "Transfer control to the command marked with the label",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "jump",
           "normalized": "[SedCmd]-\u003eMaybe Label-\u003e[SedCmd]",
@@ -3231,6 +3507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an input line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "line",
           "package": "Hsed",
@@ -3241,6 +3518,7 @@
         "index": {
           "description": "Read an input line",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "line",
           "normalized": "SedState(Status,ByteString)",
@@ -3256,6 +3534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'=' Writes the current line number to standard output as a line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "lineNum",
           "package": "Hsed",
@@ -3266,6 +3545,7 @@
         "index": {
           "description": "Writes the current line number to standard output as line",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "lineNum",
           "package": "Hsed",
@@ -3280,6 +3560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003el\u003c/code\u003e List the contents of the pattern space, showing \n nonprinting characters as ASCII codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "list",
           "package": "Hsed",
@@ -3290,6 +3571,7 @@
         "index": {
           "description": "List the contents of the pattern space showing nonprinting characters as ASCII codes",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "list",
           "package": "Hsed",
@@ -3303,6 +3585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the address interval is matched  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "matchAddress",
           "package": "Hsed",
@@ -3313,6 +3596,7 @@
         "index": {
           "description": "Check if the address interval is matched",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "matchAddress",
           "normalized": "Address-\u003eSedState Bool",
@@ -3329,6 +3613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003en\u003c/code\u003e Read next line of input into pattern space. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "next",
           "package": "Hsed",
@@ -3339,6 +3624,7 @@
         "index": {
           "description": "Read next line of input into pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "next",
           "package": "Hsed",
@@ -3352,6 +3638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess the next input line from the file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "nextLine",
           "package": "Hsed",
@@ -3362,6 +3649,7 @@
         "index": {
           "description": "Process the next input line from the file",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "nextLine",
           "normalized": "SedEngine()",
@@ -3378,6 +3666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ep\u003c/code\u003e Print the lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "printPat",
           "package": "Hsed",
@@ -3388,6 +3677,7 @@
         "index": {
           "description": "Print the lines",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "printPat",
           "package": "Hsed",
@@ -3402,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip label, comment and empty command\n\u003c/p\u003e\u003cp\u003ePrint the pattern space to the standard output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "printPatSpace",
           "package": "Hsed",
@@ -3412,6 +3703,7 @@
         "index": {
           "description": "Skip label comment and empty command Print the pattern space to the standard output",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "printPatSpace",
           "normalized": "SedState()",
@@ -3428,6 +3720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as prnStr, but for char\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "prnChar",
           "package": "Hsed",
@@ -3438,6 +3731,7 @@
         "index": {
           "description": "The same as prnStr but for char",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "prnChar",
           "normalized": "Char-\u003eSedState()",
@@ -3454,6 +3748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the character as three-digit octal number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "prnPrintf",
           "package": "Hsed",
@@ -3464,6 +3759,7 @@
         "index": {
           "description": "Print the character as three-digit octal number",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "prnPrintf",
           "normalized": "Char-\u003eSedState()",
@@ -3480,6 +3776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites the string to the standard output or save the string in the memory buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "prnStr",
           "package": "Hsed",
@@ -3490,6 +3787,7 @@
         "index": {
           "description": "Writes the string to the standard output or save the string in the memory buffer",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "prnStr",
           "normalized": "ByteString-\u003eSedState()",
@@ -3506,6 +3804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as prnStr, but adds a newline character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "prnStrLn",
           "package": "Hsed",
@@ -3516,6 +3815,7 @@
         "index": {
           "description": "The same as prnStr but adds newline character",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "prnStrLn",
           "normalized": "ByteString-\u003eSedState()",
@@ -3532,6 +3832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess the input text files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "processFiles",
           "package": "Hsed",
@@ -3542,6 +3843,7 @@
         "index": {
           "description": "Process the input text files",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "processFiles",
           "normalized": "[FilePath]-\u003eSedEngine()",
@@ -3558,6 +3860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eq\u003c/code\u003e Quit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "quit",
           "package": "Hsed",
@@ -3568,6 +3871,7 @@
         "index": {
           "description": "Quit",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "quit",
           "package": "Hsed",
@@ -3581,6 +3885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003er\u003c/code\u003e Read contents of file and append after the contents of the \n pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "readF",
           "package": "Hsed",
@@ -3591,6 +3896,7 @@
         "index": {
           "description": "Read contents of file and append after the contents of the pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "readF",
           "normalized": "FilePath-\u003eSedState FlowControl",
@@ -3606,6 +3912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eh\u003c/code\u003e Copy pattern space into hold space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "replaceHold",
           "package": "Hsed",
@@ -3616,6 +3923,7 @@
         "index": {
           "description": "Copy pattern space into hold space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "replaceHold",
           "package": "Hsed",
@@ -3630,6 +3938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eg\u003c/code\u003e Copy contents of hold space into the pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "replacePat",
           "package": "Hsed",
@@ -3640,6 +3949,7 @@
         "index": {
           "description": "Copy contents of hold space into the pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "replacePat",
           "package": "Hsed",
@@ -3654,6 +3964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the Sed function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "runCmd",
           "package": "Hsed",
@@ -3664,6 +3975,7 @@
         "index": {
           "description": "Execute the Sed function",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "runCmd",
           "normalized": "SedFun-\u003eSedState FlowControl",
@@ -3680,6 +3992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile and execute the sed script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "runSed",
           "package": "Hsed",
@@ -3690,6 +4003,7 @@
         "index": {
           "description": "Compile and execute the sed script",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "runSed",
           "normalized": "[FilePath]-\u003eString-\u003eEnv-\u003eIO Env",
@@ -3706,6 +4020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e's\u003cem\u003epattern\u003c/em\u003ereplacement/[flags]' Substitute replacement for pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "substitute",
           "package": "Hsed",
@@ -3716,6 +4031,7 @@
         "index": {
           "description": "pattern replacement flags Substitute replacement for pattern",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "substitute",
           "normalized": "ByteString-\u003eByteString-\u003eFlags-\u003eSedState FlowControl",
@@ -3731,6 +4047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e't label' Jump to line if successful substitutions have been made\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "test",
           "package": "Hsed",
@@ -3741,6 +4058,7 @@
         "index": {
           "description": "label Jump to line if successful substitutions have been made",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "test",
           "normalized": "Maybe Label-\u003eSedState FlowControl",
@@ -3756,6 +4074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'y/abc/xyz' Transform each character by position in string abc \n to its equivalent in string xyz\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "transform",
           "package": "Hsed",
@@ -3766,6 +4085,7 @@
         "index": {
           "description": "abc xyz Transform each character by position in string abc to its equivalent in string xyz",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "transform",
           "normalized": "ByteString-\u003eByteString-\u003eSedState FlowControl",
@@ -3781,6 +4101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'w file' Append contents of pattern space to file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "writeF",
           "package": "Hsed",
@@ -3791,6 +4112,7 @@
         "index": {
           "description": "file Append contents of pattern space to file",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "writeF",
           "normalized": "FilePath-\u003eSedState FlowControl",
@@ -3806,6 +4128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eP\u003c/code\u003e Print first part (up to embedded newline) of \n multiline pattern space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:23 UTC 2014",
           "module": "Hsed.StreamEd",
           "name": "writeUpPat",
           "package": "Hsed",
@@ -3816,6 +4139,7 @@
         "index": {
           "description": "Print first part up to embedded newline of multiline pattern space",
           "hierarchy": "Hsed StreamEd",
+          "indexed": "2014-03-11T16:49:23",
           "module": "Hsed.StreamEd",
           "name": "writeUpPat",
           "package": "Hsed",

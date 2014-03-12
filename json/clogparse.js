@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clogparse"
+        "phrase": "clogparse",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse events from \u003ccode\u003eclog\u003c/code\u003e output, such as the files\n at \u003ca\u003ehttp://tunes.org/~nef/logs/haskell/\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIRC has no single standard character encoding.  This\n module decodes messages as UTF-8 following common\n practice on Freenode.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.CLog.Parse",
           "name": "Parse",
           "package": "clogparse",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parse events from clog output such as the files at http tunes.org nef logs haskell IRC has no single standard character encoding This module decodes messages as UTF-8 following common practice on Freenode",
           "hierarchy": "Data IRC CLog Parse",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.CLog.Parse",
           "name": "Parse",
           "package": "clogparse",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguring the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.CLog.Parse",
           "name": "Config",
           "package": "clogparse",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Configuring the parser",
           "hierarchy": "Data IRC CLog Parse",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.CLog.Parse",
           "name": "Config",
           "package": "clogparse",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.CLog.Parse",
           "name": "Config",
           "package": "clogparse",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data IRC CLog Parse",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.CLog.Parse",
           "name": "Config",
           "package": "clogparse",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eConfig\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e value suitable for parsing \u003ccode\u003e#haskell\u003c/code\u003e logs on Linux.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.CLog.Parse",
           "name": "haskellConfig",
           "package": "clogparse",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Config value suitable for parsing haskell logs on Linux",
           "hierarchy": "Data IRC CLog Parse",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.CLog.Parse",
           "name": "haskellConfig",
           "package": "clogparse",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a log file.\n\u003c/p\u003e\u003cp\u003eThe file name (after any directory) is significant.\n It is used to set the date for timestamps.\n It should have the form \u003ccode\u003eYY.MM.DD\u003c/code\u003e, as do the files on\n \u003ccode\u003etunes.org\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.CLog.Parse",
           "name": "parseLog",
           "package": "clogparse",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Parse log file The file name after any directory is significant It is used to set the date for timestamps It should have the form YY.MM.DD as do the files on tunes.org",
           "hierarchy": "Data IRC CLog Parse",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.CLog.Parse",
           "name": "parseLog",
           "normalized": "Config-\u003eFilePath-\u003eIO[EventAt]",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimestamp time zone; an Olson time zone name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.CLog.Parse",
           "name": "timeZone",
           "package": "clogparse",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Timestamp time zone an Olson time zone name",
           "hierarchy": "Data IRC CLog Parse",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.CLog.Parse",
           "name": "timeZone",
           "package": "clogparse",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectory for time zone files; \u003ccode\u003e$TZDIR\u003c/code\u003e overrides.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.CLog.Parse",
           "name": "zoneInfo",
           "package": "clogparse",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Directory for time zone files TZDIR overrides",
           "hierarchy": "Data IRC CLog Parse",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.CLog.Parse",
           "name": "zoneInfo",
           "package": "clogparse",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresents events in an IRC channel.\n These do not correspond precisely to messages of the IRC\n protocol.  They provide a somewhat higher-level view.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Event",
           "package": "clogparse",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Represents events in an IRC channel These do not correspond precisely to messages of the IRC protocol They provide somewhat higher-level view",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Event",
           "package": "clogparse",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents in an IRC channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Event",
           "package": "clogparse",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Events in an IRC channel",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Event",
           "package": "clogparse",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent with timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "EventAt",
           "package": "clogparse",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Event with timestamp",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "EventAt",
           "package": "clogparse",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor working with \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es generically.\n\u003c/p\u003e\u003cp\u003eIndicates the \"subject\" of an event, if any, followed\n by other text.\n\u003c/p\u003e\u003cp\u003eThe subject of a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eReNick\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e event is the old nick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "GenericEvent",
           "package": "clogparse",
@@ -263,6 +284,7 @@
         "index": {
           "description": "For working with Event generically Indicates the subject of an event if any followed by other text The subject of ReNick event is the old nick",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "GenericEvent",
           "package": "clogparse",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRC nicks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Nick",
           "package": "clogparse",
@@ -286,6 +309,7 @@
         "index": {
           "description": "IRC nicks",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Nick",
           "package": "clogparse",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser acted (\u003ccode\u003eCTCP ACTION\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Act",
           "package": "clogparse",
@@ -310,6 +335,7 @@
         "index": {
           "description": "User acted CTCP ACTION",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Act",
           "package": "clogparse",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent with timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "EventAt",
           "package": "clogparse",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Event with timestamp",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "EventAt",
           "package": "clogparse",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "GenericEvent",
           "package": "clogparse",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "GenericEvent",
           "normalized": "GenericEvent Constr(Maybe Nick)[Text]",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser joined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Join",
           "package": "clogparse",
@@ -382,6 +413,7 @@
         "index": {
           "description": "User joined",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Join",
           "package": "clogparse",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser was kicked by user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Kick",
           "package": "clogparse",
@@ -406,6 +439,7 @@
         "index": {
           "description": "User was kicked by user",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Kick",
           "package": "clogparse",
@@ -420,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogging started or stopped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Log",
           "package": "clogparse",
@@ -430,6 +465,7 @@
         "index": {
           "description": "Logging started or stopped",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Log",
           "package": "clogparse",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser set mode on the channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Mode",
           "package": "clogparse",
@@ -454,6 +491,7 @@
         "index": {
           "description": "User set mode on the channel",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Mode",
           "package": "clogparse",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsers list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Names",
           "package": "clogparse",
@@ -478,6 +517,7 @@
         "index": {
           "description": "Users list",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Names",
           "package": "clogparse",
@@ -491,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Nick",
           "package": "clogparse",
@@ -500,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Nick",
           "package": "clogparse",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnparsable line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "NoParse",
           "package": "clogparse",
@@ -524,6 +567,7 @@
         "index": {
           "description": "Unparsable line",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "NoParse",
           "package": "clogparse",
@@ -538,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser spoke (\u003ccode\u003eNOTICE\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Notice",
           "package": "clogparse",
@@ -548,6 +593,7 @@
         "index": {
           "description": "User spoke NOTICE",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Notice",
           "package": "clogparse",
@@ -562,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser left the channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Part",
           "package": "clogparse",
@@ -572,6 +619,7 @@
         "index": {
           "description": "User left the channel",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Part",
           "package": "clogparse",
@@ -586,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser quit the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Quit",
           "package": "clogparse",
@@ -596,6 +645,7 @@
         "index": {
           "description": "User quit the server",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Quit",
           "package": "clogparse",
@@ -610,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser changed from one to another nick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "ReNick",
           "package": "clogparse",
@@ -620,6 +671,7 @@
         "index": {
           "description": "User changed from one to another nick",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "ReNick",
           "package": "clogparse",
@@ -634,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser spoke (\u003ccode\u003ePRIVMSG\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Talk",
           "package": "clogparse",
@@ -644,6 +697,7 @@
         "index": {
           "description": "User spoke PRIVMSG",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Talk",
           "package": "clogparse",
@@ -658,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTopic listing or change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "Topic",
           "package": "clogparse",
@@ -668,6 +723,7 @@
         "index": {
           "description": "Topic listing or change",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "Topic",
           "package": "clogparse",
@@ -682,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose an \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eGenericEvent\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:32 UTC 2014",
           "module": "Data.IRC.Event",
           "name": "decompose",
           "package": "clogparse",
@@ -692,6 +749,7 @@
         "index": {
           "description": "Decompose an Event into GenericEvent",
           "hierarchy": "Data IRC Event",
+          "indexed": "2014-03-11T17:34:32",
           "module": "Data.IRC.Event",
           "name": "decompose",
           "normalized": "Event-\u003eGenericEvent",

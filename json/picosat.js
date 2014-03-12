@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "picosat"
+        "phrase": "picosat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe solve function takes a nested list of integers representing variables in clauses and returns the\n   solution. Usage:\n\u003c/p\u003e\u003cpre\u003e\nimport Picosat\n\nmain :: IO [Int]\nmain = do\n  solve [[1, -2, 3], [2,4,5], [4,6]]\n  -- Solution [1,-2,3,4,5,6]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:39 UTC 2014",
           "module": "Picosat",
           "name": "Picosat",
           "package": "picosat",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The solve function takes nested list of integers representing variables in clauses and returns the solution Usage import Picosat main IO Int main do solve Solution",
           "hierarchy": "Picosat",
+          "indexed": "2014-03-11T19:38:39",
           "module": "Picosat",
           "name": "Picosat",
           "package": "picosat",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:39 UTC 2014",
           "module": "Picosat",
           "name": "Solution",
           "package": "picosat",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Picosat",
+          "indexed": "2014-03-11T19:38:39",
           "module": "Picosat",
           "name": "Solution",
           "package": "picosat",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:39 UTC 2014",
           "module": "Picosat",
           "name": "Solution",
           "package": "picosat",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Picosat",
+          "indexed": "2014-03-11T19:38:39",
           "module": "Picosat",
           "name": "Solution",
           "normalized": "Solution[Int]",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:39 UTC 2014",
           "module": "Picosat",
           "name": "Unknown",
           "package": "picosat",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Picosat",
+          "indexed": "2014-03-11T19:38:39",
           "module": "Picosat",
           "name": "Unknown",
           "package": "picosat",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:39 UTC 2014",
           "module": "Picosat",
           "name": "Unsatisfiable",
           "package": "picosat",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Picosat",
+          "indexed": "2014-03-11T19:38:39",
           "module": "Picosat",
           "name": "Unsatisfiable",
           "package": "picosat",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:39 UTC 2014",
           "module": "Picosat",
           "name": "solve",
           "package": "picosat",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Picosat",
+          "indexed": "2014-03-11T19:38:39",
           "module": "Picosat",
           "name": "solve",
           "normalized": "[[a]]-\u003eIO Solution",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:39 UTC 2014",
           "module": "Picosat",
           "name": "solveST",
           "package": "picosat",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Picosat",
+          "indexed": "2014-03-11T19:38:39",
           "module": "Picosat",
           "name": "solveST",
           "normalized": "[[a]]-\u003eST b Solution",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:39 UTC 2014",
           "module": "Picosat",
           "name": "unsafeSolve",
           "package": "picosat",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Picosat",
+          "indexed": "2014-03-11T19:38:39",
           "module": "Picosat",
           "name": "unsafeSolve",
           "normalized": "[[a]]-\u003eSolution",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hruby"
+        "phrase": "hruby",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "Bindings",
           "package": "hruby",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "Bindings",
           "package": "hruby",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ruby built-in types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RBuiltin",
           "package": "hruby",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The ruby built-in types",
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RBuiltin",
           "package": "hruby",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Ruby ID type, mostly used for symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RID",
           "package": "hruby",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The Ruby ID type mostly used for symbols",
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RID",
           "package": "hruby",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuby native types, as encoded in the Value type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RType",
           "package": "hruby",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Ruby native types as encoded in the Value type",
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RType",
           "package": "hruby",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the type of Ruby values. It is defined as a pointer to some unsigned long, just like Ruby does. The actual value is either pointed to, or encoded in the pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RValue",
           "package": "hruby",
@@ -118,6 +127,7 @@
         "index": {
           "description": "This is the type of Ruby values It is defined as pointer to some unsigned long just like Ruby does The actual value is either pointed to or encoded in the pointer",
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RValue",
           "package": "hruby",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "Registered0",
           "package": "hruby",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "Registered0",
           "package": "hruby",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "Registered1",
           "package": "hruby",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "Registered1",
           "package": "hruby",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "Registered2",
           "package": "hruby",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "Registered2",
           "package": "hruby",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RegisteredCB3",
           "package": "hruby",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RegisteredCB3",
           "package": "hruby",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "ShimDispatch",
           "package": "hruby",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "ShimDispatch",
           "package": "hruby",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RARRAY",
           "package": "hruby",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RARRAY",
           "package": "hruby",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RBIGNUM",
           "package": "hruby",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RBIGNUM",
           "package": "hruby",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RBLKTAG",
           "package": "hruby",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RBLKTAG",
           "package": "hruby",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RBuiltin",
           "package": "hruby",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RBuiltin",
           "package": "hruby",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RCLASS",
           "package": "hruby",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RCLASS",
           "package": "hruby",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RDATA",
           "package": "hruby",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RDATA",
           "package": "hruby",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFALSE",
           "package": "hruby",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFALSE",
           "package": "hruby",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFILE",
           "package": "hruby",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFILE",
           "package": "hruby",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFIXNUM",
           "package": "hruby",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFIXNUM",
           "package": "hruby",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFLOAT",
           "package": "hruby",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFLOAT",
           "package": "hruby",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFalse",
           "package": "hruby",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFalse",
           "package": "hruby",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFixNum",
           "package": "hruby",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RFixNum",
           "package": "hruby",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RHASH",
           "package": "hruby",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RHASH",
           "package": "hruby",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RICLASS",
           "package": "hruby",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RICLASS",
           "package": "hruby",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RMATCH",
           "package": "hruby",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RMATCH",
           "package": "hruby",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RMODULE",
           "package": "hruby",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RMODULE",
           "package": "hruby",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RNIL",
           "package": "hruby",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RNIL",
           "package": "hruby",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RNODE",
           "package": "hruby",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RNODE",
           "package": "hruby",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RNONE",
           "package": "hruby",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RNONE",
           "package": "hruby",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RNil",
           "package": "hruby",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RNil",
           "package": "hruby",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "ROBJECT",
           "package": "hruby",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "ROBJECT",
           "package": "hruby",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RREGEXP",
           "package": "hruby",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RREGEXP",
           "package": "hruby",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RSCOPE",
           "package": "hruby",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RSCOPE",
           "package": "hruby",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RSTRING",
           "package": "hruby",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RSTRING",
           "package": "hruby",
@@ -764,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RSTRUCT",
           "package": "hruby",
@@ -773,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RSTRUCT",
           "package": "hruby",
@@ -786,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RSYMBOL",
           "package": "hruby",
@@ -795,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RSYMBOL",
           "package": "hruby",
@@ -808,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RSymbol",
           "package": "hruby",
@@ -817,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RSymbol",
           "package": "hruby",
@@ -830,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RTRUE",
           "package": "hruby",
@@ -839,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RTRUE",
           "package": "hruby",
@@ -852,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RTrue",
           "package": "hruby",
@@ -861,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RTrue",
           "package": "hruby",
@@ -874,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RUNDEF",
           "package": "hruby",
@@ -883,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RUNDEF",
           "package": "hruby",
@@ -896,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RUndef",
           "package": "hruby",
@@ -905,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RUndef",
           "package": "hruby",
@@ -918,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "RVARMAP",
           "package": "hruby",
@@ -927,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "RVARMAP",
           "package": "hruby",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "ShimDispatch",
           "package": "hruby",
@@ -949,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "ShimDispatch",
           "normalized": "ShimDispatch String String[RValue]",
@@ -964,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "arrayLength",
           "package": "hruby",
@@ -973,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "arrayLength",
           "normalized": "RValue-\u003eIO CLong",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_define_class",
           "package": "hruby",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_define_class",
           "normalized": "CString-\u003eRValue-\u003eIO RValue",
@@ -1011,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_define_global_function",
           "package": "hruby",
@@ -1020,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_define_global_function",
           "normalized": "CString-\u003eFunPtr a-\u003eInt-\u003eIO()",
@@ -1034,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_define_method",
           "package": "hruby",
@@ -1043,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_define_method",
           "normalized": "RValue-\u003eCString-\u003eFunPtr a-\u003eInt-\u003eIO()",
@@ -1057,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_define_module",
           "package": "hruby",
@@ -1066,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_define_module",
           "normalized": "CString-\u003eIO()",
@@ -1080,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_0",
           "package": "hruby",
@@ -1089,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_0",
           "normalized": "RValue-\u003eRID-\u003eInt-\u003eIO RValue",
@@ -1103,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_1",
           "package": "hruby",
@@ -1112,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_1",
           "normalized": "RValue-\u003eRID-\u003eInt-\u003eRValue-\u003eIO RValue",
@@ -1126,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_2",
           "package": "hruby",
@@ -1135,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_2",
           "normalized": "RValue-\u003eRID-\u003eInt-\u003eRValue-\u003eRValue-\u003eIO RValue",
@@ -1149,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_3",
           "package": "hruby",
@@ -1158,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_3",
           "normalized": "RValue-\u003eRID-\u003eInt-\u003eRValue-\u003eRValue-\u003eRValue-\u003eIO RValue",
@@ -1172,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_4",
           "package": "hruby",
@@ -1181,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_4",
           "normalized": "RValue-\u003eRID-\u003eInt-\u003eRValue-\u003eRValue-\u003eRValue-\u003eRValue-\u003eIO RValue",
@@ -1195,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_5",
           "package": "hruby",
@@ -1204,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_funcall_5",
           "normalized": "RValue-\u003eRID-\u003eInt-\u003eRValue-\u003eRValue-\u003eRValue-\u003eRValue-\u003eRValue-\u003eIO RValue",
@@ -1218,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_gv_get",
           "package": "hruby",
@@ -1227,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_gv_get",
           "normalized": "CString-\u003eIO RValue",
@@ -1241,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_intern",
           "package": "hruby",
@@ -1250,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_intern",
           "normalized": "CString-\u003eIO RID",
@@ -1264,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_iv_set",
           "package": "hruby",
@@ -1273,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_iv_set",
           "normalized": "RValue-\u003eCString-\u003eRValue-\u003eIO RValue",
@@ -1287,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_load_protect",
           "package": "hruby",
@@ -1296,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_load_protect",
           "normalized": "RValue-\u003eInt-\u003ePtr Int-\u003eIO()",
@@ -1310,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_protect",
           "package": "hruby",
@@ -1319,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_protect",
           "normalized": "FunPtr(RValue-\u003eIO RValue)-\u003eRValue-\u003ePtr Int-\u003eIO RValue",
@@ -1333,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_str_new2",
           "package": "hruby",
@@ -1342,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_str_new2",
           "normalized": "CString-\u003eIO RValue",
@@ -1356,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_string_value_cstr",
           "package": "hruby",
@@ -1365,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_string_value_cstr",
           "normalized": "Ptr RValue-\u003eIO CString",
@@ -1379,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_string_value_ptr",
           "package": "hruby",
@@ -1388,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "c_rb_string_value_ptr",
           "normalized": "Ptr RValue-\u003eIO CString",
@@ -1402,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "getClass",
           "package": "hruby",
@@ -1411,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "getClass",
           "normalized": "String-\u003eIO RValue",
@@ -1426,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "id2sym",
           "package": "hruby",
@@ -1435,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "id2sym",
           "normalized": "RID-\u003eRValue",
@@ -1449,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "int2num",
           "package": "hruby",
@@ -1458,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "int2num",
           "normalized": "CLong-\u003eIO RValue",
@@ -1553,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "mkRegisteredCB3",
           "package": "hruby",
@@ -1562,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "mkRegisteredCB3",
           "normalized": "RegisteredCB-\u003eIO(FunPtr RegisteredCB)",
@@ -1577,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "newFloat",
           "package": "hruby",
@@ -1586,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "newFloat",
           "normalized": "Double-\u003eIO RValue",
@@ -1601,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "num2dbl",
           "package": "hruby",
@@ -1610,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "num2dbl",
           "normalized": "RValue-\u003eIO Double",
@@ -1624,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "num2long",
           "package": "hruby",
@@ -1633,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "num2long",
           "normalized": "RValue-\u003eIO CLong",
@@ -1647,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rbFalse",
           "package": "hruby",
@@ -1656,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rbFalse",
           "package": "hruby",
@@ -1669,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rbMethodCall",
           "package": "hruby",
@@ -1678,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rbMethodCall",
           "normalized": "String-\u003eString-\u003e[RValue]-\u003eIO RValue",
@@ -1693,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rbNil",
           "package": "hruby",
@@ -1702,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rbNil",
           "package": "hruby",
@@ -1715,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rbTrue",
           "package": "hruby",
@@ -1724,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rbTrue",
           "package": "hruby",
@@ -1737,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rbUndef",
           "package": "hruby",
@@ -1746,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rbUndef",
           "package": "hruby",
@@ -1759,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_ary_entry",
           "package": "hruby",
@@ -1768,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_ary_entry",
           "normalized": "RValue-\u003eCLong-\u003eIO RValue",
@@ -1782,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_ary_new",
           "package": "hruby",
@@ -1791,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_ary_new",
           "package": "hruby",
@@ -1803,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_ary_new2",
           "package": "hruby",
@@ -1812,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_ary_new2",
           "normalized": "CLong-\u003eIO RValue",
@@ -1826,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_ary_new4",
           "package": "hruby",
@@ -1835,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_ary_new4",
           "normalized": "CLong-\u003ePtr RValue-\u003eIO RValue",
@@ -1849,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_ary_push",
           "package": "hruby",
@@ -1858,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_ary_push",
           "normalized": "RValue-\u003eRValue-\u003eIO RValue",
@@ -1872,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_big2str",
           "package": "hruby",
@@ -1881,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_big2str",
           "normalized": "RValue-\u003eCInt-\u003eIO RValue",
@@ -1895,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_cObject",
           "package": "hruby",
@@ -1904,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_cObject",
           "package": "hruby",
@@ -1917,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_const_get",
           "package": "hruby",
@@ -1926,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_const_get",
           "normalized": "RValue-\u003eRID-\u003eIO RValue",
@@ -1940,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_cstr_to_inum",
           "package": "hruby",
@@ -1949,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_cstr_to_inum",
           "normalized": "CString-\u003eCInt-\u003eCInt-\u003eIO RValue",
@@ -1963,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_define_class",
           "package": "hruby",
@@ -1972,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_define_class",
           "normalized": "String-\u003eRValue-\u003eIO RValue",
@@ -2011,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_define_method",
           "package": "hruby",
@@ -2020,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_define_method",
           "normalized": "RValue-\u003eString-\u003eFunPtr a-\u003eInt-\u003eIO()",
@@ -2034,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_define_module",
           "package": "hruby",
@@ -2043,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_define_module",
           "normalized": "String-\u003eIO()",
@@ -2057,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_funcall",
           "package": "hruby",
@@ -2066,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_funcall",
           "normalized": "RValue-\u003eRID-\u003e[RValue]-\u003eIO RValue",
@@ -2080,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_gv_get",
           "package": "hruby",
@@ -2089,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_gv_get",
           "normalized": "String-\u003eIO RValue",
@@ -2103,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_hash_aset",
           "package": "hruby",
@@ -2112,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_hash_aset",
           "normalized": "RValue-\u003eRValue-\u003eRValue-\u003eIO RValue",
@@ -2126,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_hash_foreach",
           "package": "hruby",
@@ -2135,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_hash_foreach",
           "normalized": "RValue-\u003eFunPtr a-\u003eRValue-\u003eIO()",
@@ -2149,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_hash_new",
           "package": "hruby",
@@ -2158,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_hash_new",
           "package": "hruby",
@@ -2170,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_id2name",
           "package": "hruby",
@@ -2179,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_id2name",
           "normalized": "RID-\u003eIO CString",
@@ -2193,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_intern",
           "package": "hruby",
@@ -2202,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_intern",
           "normalized": "String-\u003eIO RID",
@@ -2266,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_str_new2",
           "package": "hruby",
@@ -2275,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_str_new2",
           "normalized": "String-\u003eIO RValue",
@@ -2289,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_string_value_cstr",
           "package": "hruby",
@@ -2298,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_string_value_cstr",
           "normalized": "RValue-\u003eIO String",
@@ -2312,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_string_value_ptr",
           "package": "hruby",
@@ -2321,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rb_string_value_ptr",
           "normalized": "RValue-\u003eIO String",
@@ -2335,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rtype",
           "package": "hruby",
@@ -2344,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rtype",
           "normalized": "RValue-\u003eIO RType",
@@ -2358,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "rubyType",
           "package": "hruby",
@@ -2367,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "rubyType",
           "normalized": "RValue-\u003eIO CInt",
@@ -2382,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "ruby_errinfo",
           "package": "hruby",
@@ -2391,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "ruby_errinfo",
           "package": "hruby",
@@ -2403,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "ruby_finalize",
           "package": "hruby",
@@ -2412,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "ruby_finalize",
           "normalized": "IO()",
@@ -2426,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "ruby_init",
           "package": "hruby",
@@ -2435,6 +2636,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "ruby_init",
           "normalized": "IO()",
@@ -2449,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "ruby_init_loadpath",
           "package": "hruby",
@@ -2458,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "ruby_init_loadpath",
           "normalized": "IO()",
@@ -2472,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "safeCallback",
           "package": "hruby",
@@ -2481,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "safeCallback",
           "normalized": "FunPtr(RValue-\u003eIO RValue)",
@@ -2496,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Bindings",
           "name": "sym2id",
           "package": "hruby",
@@ -2505,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Bindings",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Bindings",
           "name": "sym2id",
           "normalized": "RValue-\u003eRID",
@@ -2519,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Helpers",
           "name": "Helpers",
           "package": "hruby",
@@ -2527,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Helpers",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Helpers",
           "name": "Helpers",
           "package": "hruby",
@@ -2541,6 +2751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of things that can be converted from Ruby values. Note that\n there are a ton of stuff that are Ruby values, hence the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e type,\n as the instances will probably be incomplete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Helpers",
           "name": "FromRuby",
           "package": "hruby",
@@ -2550,6 +2761,7 @@
         "index": {
           "description": "The class of things that can be converted from Ruby values Note that there are ton of stuff that are Ruby values hence the Maybe type as the instances will probably be incomplete",
           "hierarchy": "Foreign Ruby Helpers",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Helpers",
           "name": "FromRuby",
           "package": "hruby",
@@ -2564,6 +2776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhenever you use \u003ccode\u003e\u003ca\u003eToRuby\u003c/a\u003e\u003c/code\u003e, don't forget to use something like\n \u003ccode\u003e\u003ca\u003efreezeGC\u003c/a\u003e\u003c/code\u003e or you will get random segfaults.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Helpers",
           "name": "ToRuby",
           "package": "hruby",
@@ -2573,6 +2786,7 @@
         "index": {
           "description": "Whenever you use ToRuby don forget to use something like freezeGC or you will get random segfaults",
           "hierarchy": "Foreign Ruby Helpers",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Helpers",
           "name": "ToRuby",
           "package": "hruby",
@@ -2586,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Helpers",
           "name": "defineGlobalClass",
           "package": "hruby",
@@ -2595,6 +2810,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Helpers",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Helpers",
           "name": "defineGlobalClass",
           "normalized": "String-\u003eIO RValue",
@@ -2719,6 +2935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo define more instances, please look at the instances defined in\n \u003ca\u003eForeign.Ruby.Helpers\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Helpers",
           "name": "fromRuby",
           "package": "hruby",
@@ -2729,6 +2946,7 @@
         "index": {
           "description": "To define more instances please look at the instances defined in Foreign.Ruby.Helpers",
           "hierarchy": "Foreign Ruby Helpers",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Helpers",
           "name": "fromRuby",
           "normalized": "RValue-\u003eIO(Maybe a)",
@@ -2744,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Helpers",
           "name": "fromRubyArray",
           "package": "hruby",
@@ -2753,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Helpers",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Helpers",
           "name": "fromRubyArray",
           "normalized": "RValue-\u003eIO(Maybe[a])",
@@ -2768,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Helpers",
           "name": "fromRubyIntegral",
           "package": "hruby",
@@ -2777,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Helpers",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Helpers",
           "name": "fromRubyIntegral",
           "normalized": "RValue-\u003eIO(Maybe a)",
@@ -2792,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Helpers",
           "name": "runscript",
           "package": "hruby",
@@ -2801,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Helpers",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Helpers",
           "name": "runscript",
           "normalized": "String-\u003eIO(Either String())",
@@ -2919,6 +3143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Helpers",
           "name": "toRuby",
           "package": "hruby",
@@ -2928,6 +3153,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Helpers",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Helpers",
           "name": "toRuby",
           "normalized": "a-\u003eIO RValue",
@@ -2943,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Helpers",
           "name": "toRubyIntegral",
           "package": "hruby",
@@ -2952,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Helpers",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Helpers",
           "name": "toRubyIntegral",
           "normalized": "a-\u003eIO RValue",
@@ -2968,6 +3196,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules materializes the ruby interpreters as the\n \u003ccode\u003e\u003ca\u003eRubyInterpreter\u003c/a\u003e\u003c/code\u003e data type. All the calls using these APIs are\n garanteed to run in the OS thread that the interpreter expects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "Safe",
           "package": "hruby",
@@ -2977,6 +3206,7 @@
         "index": {
           "description": "This modules materializes the ruby interpreters as the RubyInterpreter data type All the calls using these APIs are garanteed to run in the OS thread that the interpreter expects",
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "Safe",
           "package": "hruby",
@@ -2991,6 +3221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the type of Ruby values. It is defined as a pointer to some unsigned long, just like Ruby does. The actual value is either pointed to, or encoded in the pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "RValue",
           "package": "hruby",
@@ -3000,6 +3231,7 @@
         "index": {
           "description": "This is the type of Ruby values It is defined as pointer to some unsigned long just like Ruby does The actual value is either pointed to or encoded in the pointer",
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "RValue",
           "package": "hruby",
@@ -3013,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyError",
           "package": "hruby",
@@ -3021,6 +3254,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyError",
           "package": "hruby",
@@ -3035,6 +3269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll those function types can be used to register functions to the Ruby\n runtime. Please note that the first argument is always set (it is\n \"self\"). For this reason, there is no \u003ccode\u003eRubyFunction0\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyFunction1",
           "package": "hruby",
@@ -3044,6 +3279,7 @@
         "index": {
           "description": "All those function types can be used to register functions to the Ruby runtime Please note that the first argument is always set it is self For this reason there is no RubyFunction0 type",
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyFunction1",
           "package": "hruby",
@@ -3057,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyFunction2",
           "package": "hruby",
@@ -3065,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyFunction2",
           "package": "hruby",
@@ -3078,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyFunction3",
           "package": "hruby",
@@ -3086,6 +3325,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyFunction3",
           "package": "hruby",
@@ -3099,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyFunction4",
           "package": "hruby",
@@ -3107,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyFunction4",
           "package": "hruby",
@@ -3120,6 +3362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyFunction5",
           "package": "hruby",
@@ -3128,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyFunction5",
           "package": "hruby",
@@ -3142,6 +3386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is acutally a newtype around a \u003ccode\u003e\u003ca\u003eTQueue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyInterpreter",
           "package": "hruby",
@@ -3151,6 +3396,7 @@
         "index": {
           "description": "This is acutally newtype around TQueue",
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "RubyInterpreter",
           "package": "hruby",
@@ -3164,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "Stack",
           "package": "hruby",
@@ -3173,6 +3420,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "Stack",
           "package": "hruby",
@@ -3186,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "WithOutput",
           "package": "hruby",
@@ -3195,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "WithOutput",
           "package": "hruby",
@@ -3209,6 +3459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis will shut the internal server down.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "closeRubyInterpreter",
           "package": "hruby",
@@ -3219,6 +3470,7 @@
         "index": {
           "description": "This will shut the internal server down",
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "closeRubyInterpreter",
           "normalized": "RubyInterpreter-\u003eIO()",
@@ -3235,6 +3487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA safe version of the corresponding \u003ca\u003eForeign.Ruby\u003c/a\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "embedHaskellValue",
           "package": "hruby",
@@ -3245,6 +3498,7 @@
         "index": {
           "description": "safe version of the corresponding Foreign.Ruby function",
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "embedHaskellValue",
           "normalized": "RubyInterpreter-\u003ea-\u003eIO(Either RubyError RValue)",
@@ -3260,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "loadFile",
           "package": "hruby",
@@ -3269,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "loadFile",
           "normalized": "RubyInterpreter-\u003eFilePath-\u003eIO(Either RubyError())",
@@ -3285,6 +3541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns an arbitrary computation in the Ruby interpreter thread. This is\n useful if you want to embed calls from lower level functions. You still\n need to be careful about the GC's behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "makeSafe",
           "package": "hruby",
@@ -3295,6 +3552,7 @@
         "index": {
           "description": "Runs an arbitrary computation in the Ruby interpreter thread This is useful if you want to embed calls from lower level functions You still need to be careful about the GC behavior",
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "makeSafe",
           "normalized": "RubyInterpreter-\u003eIO a-\u003eIO(Either RubyError a)",
@@ -3310,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "registerGlobalFunction1",
           "package": "hruby",
@@ -3319,6 +3578,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "registerGlobalFunction1",
           "normalized": "RubyInterpreter-\u003eString-\u003eRubyFunction-\u003eIO(Either RubyError())",
@@ -3334,6 +3594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "registerGlobalFunction2",
           "package": "hruby",
@@ -3343,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "registerGlobalFunction2",
           "normalized": "RubyInterpreter-\u003eString-\u003eRubyFunction-\u003eIO(Either RubyError())",
@@ -3358,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "registerGlobalFunction3",
           "package": "hruby",
@@ -3367,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "registerGlobalFunction3",
           "normalized": "RubyInterpreter-\u003eString-\u003eRubyFunction-\u003eIO(Either RubyError())",
@@ -3382,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "registerGlobalFunction4",
           "package": "hruby",
@@ -3391,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "registerGlobalFunction4",
           "normalized": "RubyInterpreter-\u003eString-\u003eRubyFunction-\u003eIO(Either RubyError())",
@@ -3406,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "registerGlobalFunction5",
           "package": "hruby",
@@ -3415,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "registerGlobalFunction5",
           "normalized": "RubyInterpreter-\u003eString-\u003eRubyFunction-\u003eIO(Either RubyError())",
@@ -3431,6 +3699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA safe version of the corresponding \u003ca\u003eForeign.Ruby\u003c/a\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "safeMethodCall",
           "package": "hruby",
@@ -3441,6 +3710,7 @@
         "index": {
           "description": "safe version of the corresponding Foreign.Ruby function",
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "safeMethodCall",
           "normalized": "RubyInterpreter-\u003eString-\u003eString-\u003e[RValue]-\u003eIO(Either RubyError RValue)",
@@ -3457,6 +3727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializes a Ruby interpreter. This should only be called once. It\n actually runs an internal server in a dedicated OS thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby.Safe",
           "name": "startRubyInterpreter",
           "package": "hruby",
@@ -3467,6 +3738,7 @@
         "index": {
           "description": "Initializes Ruby interpreter This should only be called once It actually runs an internal server in dedicated OS thread",
           "hierarchy": "Foreign Ruby Safe",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby.Safe",
           "name": "startRubyInterpreter",
           "package": "hruby",
@@ -3481,6 +3753,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the main module of this library. Other functionnalities are\n exposed in \u003ca\u003eForeign.Ruby.Bindings\u003c/a\u003e and \u003ca\u003eForeign.Ruby.Helpers\u003c/a\u003e, but this\n should be enough for most cases.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby",
           "name": "Ruby",
           "package": "hruby",
@@ -3490,6 +3763,7 @@
         "index": {
           "description": "This is the main module of this library Other functionnalities are exposed in Foreign.Ruby.Bindings and Foreign.Ruby.Helpers but this should be enough for most cases",
           "hierarchy": "Foreign Ruby",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby",
           "name": "Ruby",
           "package": "hruby",
@@ -3504,6 +3778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of things that can be converted from Ruby values. Note that\n there are a ton of stuff that are Ruby values, hence the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e type,\n as the instances will probably be incomplete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby",
           "name": "FromRuby",
           "package": "hruby",
@@ -3513,6 +3788,7 @@
         "index": {
           "description": "The class of things that can be converted from Ruby values Note that there are ton of stuff that are Ruby values hence the Maybe type as the instances will probably be incomplete",
           "hierarchy": "Foreign Ruby",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby",
           "name": "FromRuby",
           "package": "hruby",
@@ -3527,6 +3803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Ruby ID type, mostly used for symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby",
           "name": "RID",
           "package": "hruby",
@@ -3536,6 +3813,7 @@
         "index": {
           "description": "The Ruby ID type mostly used for symbols",
           "hierarchy": "Foreign Ruby",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby",
           "name": "RID",
           "package": "hruby",
@@ -3550,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the type of Ruby values. It is defined as a pointer to some unsigned long, just like Ruby does. The actual value is either pointed to, or encoded in the pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby",
           "name": "RValue",
           "package": "hruby",
@@ -3559,6 +3838,7 @@
         "index": {
           "description": "This is the type of Ruby values It is defined as pointer to some unsigned long just like Ruby does The actual value is either pointed to or encoded in the pointer",
           "hierarchy": "Foreign Ruby",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby",
           "name": "RValue",
           "package": "hruby",
@@ -3573,6 +3853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhenever you use \u003ccode\u003e\u003ca\u003eToRuby\u003c/a\u003e\u003c/code\u003e, don't forget to use something like\n \u003ccode\u003e\u003ca\u003efreezeGC\u003c/a\u003e\u003c/code\u003e or you will get random segfaults.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby",
           "name": "ToRuby",
           "package": "hruby",
@@ -3582,6 +3863,7 @@
         "index": {
           "description": "Whenever you use ToRuby don forget to use something like freezeGC or you will get random segfaults",
           "hierarchy": "Foreign Ruby",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby",
           "name": "ToRuby",
           "package": "hruby",
@@ -3596,6 +3878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou might want to run this when you are done with all the Ruby stuff.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby",
           "name": "finalize",
           "package": "hruby",
@@ -3606,6 +3889,7 @@
         "index": {
           "description": "You might want to run this when you are done with all the Ruby stuff",
           "hierarchy": "Foreign Ruby",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby",
           "name": "finalize",
           "normalized": "IO()",
@@ -3621,6 +3905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo define more instances, please look at the instances defined in\n \u003ca\u003eForeign.Ruby.Helpers\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby",
           "name": "fromRuby",
           "package": "hruby",
@@ -3631,6 +3916,7 @@
         "index": {
           "description": "To define more instances please look at the instances defined in Foreign.Ruby.Helpers",
           "hierarchy": "Foreign Ruby",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby",
           "name": "fromRuby",
           "normalized": "RValue-\u003eIO(Maybe a)",
@@ -3647,6 +3933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the \u003ccode\u003e\u003ca\u003eRValue\u003c/a\u003e\u003c/code\u003e correponding to the given named symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby",
           "name": "getSymbol",
           "package": "hruby",
@@ -3657,6 +3944,7 @@
         "index": {
           "description": "Gets the RValue correponding to the given named symbol",
           "hierarchy": "Foreign Ruby",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby",
           "name": "getSymbol",
           "normalized": "String-\u003eIO RValue",
@@ -3673,6 +3961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou must run this before anything else.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby",
           "name": "initialize",
           "package": "hruby",
@@ -3683,6 +3972,7 @@
         "index": {
           "description": "You must run this before anything else",
           "hierarchy": "Foreign Ruby",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby",
           "name": "initialize",
           "normalized": "IO()",
@@ -3697,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:34 UTC 2014",
           "module": "Foreign.Ruby",
           "name": "toRuby",
           "package": "hruby",
@@ -3706,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Foreign Ruby",
+          "indexed": "2014-03-11T18:45:34",
           "module": "Foreign.Ruby",
           "name": "toRuby",
           "normalized": "a-\u003eIO RValue",

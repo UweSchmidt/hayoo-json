@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "json-enumerator"
+        "phrase": "json-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.Enumerator",
           "name": "Enumerator",
           "package": "json-enumerator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Enumerator",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.Enumerator",
           "name": "Enumerator",
           "package": "json-enumerator",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.Enumerator",
           "name": "JsonException",
           "package": "json-enumerator",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Enumerator",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.Enumerator",
           "name": "JsonException",
           "package": "json-enumerator",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.Enumerator",
           "name": "ExpectedAttributeName",
           "package": "json-enumerator",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Enumerator",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.Enumerator",
           "name": "ExpectedAttributeName",
           "package": "json-enumerator",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.Enumerator",
           "name": "UnexpectedAttributeName",
           "package": "json-enumerator",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Enumerator",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.Enumerator",
           "name": "UnexpectedAttributeName",
           "package": "json-enumerator",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.Enumerator",
           "name": "UnexpectedEndArray",
           "package": "json-enumerator",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Enumerator",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.Enumerator",
           "name": "UnexpectedEndArray",
           "package": "json-enumerator",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.Enumerator",
           "name": "UnexpectedEndObject",
           "package": "json-enumerator",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Enumerator",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.Enumerator",
           "name": "UnexpectedEndObject",
           "package": "json-enumerator",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.Enumerator",
           "name": "renderAtom",
           "package": "json-enumerator",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Enumerator",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.Enumerator",
           "name": "renderAtom",
           "normalized": "Atom-\u003eBuilder",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.Enumerator",
           "name": "renderEvents",
           "package": "json-enumerator",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Enumerator",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.Enumerator",
           "name": "renderEvents",
           "package": "json-enumerator",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.Enumerator",
           "name": "renderEventsToBytes",
           "package": "json-enumerator",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Enumerator",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.Enumerator",
           "name": "renderEventsToBytes",
           "package": "json-enumerator",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.Enumerator",
           "name": "renderValue",
           "package": "json-enumerator",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Enumerator",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.Enumerator",
           "name": "renderValue",
           "normalized": "Value-\u003eBuilder",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.ToJson",
           "name": "ToJson",
           "package": "json-enumerator",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ToJson",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.ToJson",
           "name": "ToJson",
           "package": "json-enumerator",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.ToJson",
           "name": "ToJson",
           "package": "json-enumerator",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ToJson",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.ToJson",
           "name": "ToJson",
           "package": "json-enumerator",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.ToJson",
           "name": "toJson",
           "package": "json-enumerator",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ToJson",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.ToJson",
           "name": "toJson",
           "normalized": "a-\u003eValue",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:00 UTC 2014",
           "module": "Text.JSON.ToJson",
           "name": "toJsons",
           "package": "json-enumerator",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Text JSON ToJson",
+          "indexed": "2014-03-11T19:02:00",
           "module": "Text.JSON.ToJson",
           "name": "toJsons",
           "normalized": "[a]-\u003eValue",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ruler"
+        "phrase": "ruler",
+        "type": "phrase"
       },
       "type": "context"
     }

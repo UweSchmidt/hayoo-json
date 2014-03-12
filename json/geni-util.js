@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "geni-util"
+        "phrase": "geni-util",
+        "type": "phrase"
       },
       "type": "context"
     }

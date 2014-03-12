@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gitlib-s3"
+        "phrase": "gitlib-s3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "S3",
           "package": "gitlib-s3",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "S3",
           "package": "gitlib-s3",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "BackendCallbacks",
           "package": "gitlib-s3",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "BackendCallbacks",
           "package": "gitlib-s3",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "ObjectLength",
           "package": "gitlib-s3",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "ObjectLength",
           "package": "gitlib-s3",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "ObjectStatus",
           "package": "gitlib-s3",
@@ -88,6 +95,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "ObjectStatus",
           "package": "gitlib-s3",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "ObjectType",
           "package": "gitlib-s3",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "ObjectType",
           "package": "gitlib-s3",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "QuotaStatus",
           "package": "gitlib-s3",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "QuotaStatus",
           "package": "gitlib-s3",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "S3MockService",
           "package": "gitlib-s3",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "S3MockService",
           "package": "gitlib-s3",
@@ -164,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "BackendCallbacks",
           "package": "gitlib-s3",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "BackendCallbacks",
           "package": "gitlib-s3",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "ObjectInPack",
           "package": "gitlib-s3",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "ObjectInPack",
           "package": "gitlib-s3",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "ObjectLength",
           "package": "gitlib-s3",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "ObjectLength",
           "package": "gitlib-s3",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "ObjectLoose",
           "package": "gitlib-s3",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "ObjectLoose",
           "package": "gitlib-s3",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "ObjectLooseMetaKnown",
           "package": "gitlib-s3",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "ObjectLooseMetaKnown",
           "package": "gitlib-s3",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "ObjectType",
           "package": "gitlib-s3",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "ObjectType",
           "package": "gitlib-s3",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "QuotaCheckSuccess",
           "package": "gitlib-s3",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "QuotaCheckSuccess",
           "package": "gitlib-s3",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "QuotaHardLimitExceeded",
           "package": "gitlib-s3",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "QuotaHardLimitExceeded",
           "package": "gitlib-s3",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "QuotaSoftLimitExceeded",
           "package": "gitlib-s3",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "QuotaSoftLimitExceeded",
           "package": "gitlib-s3",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "acquireLock",
           "package": "gitlib-s3",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "acquireLock",
           "normalized": "Text-\u003eIO Text",
@@ -387,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a repository object obtained from Libgit2, add an S3 backend to it,\n   making it the primary store for objects associated with that repository.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "addS3Backend",
           "package": "gitlib-s3",
@@ -396,6 +431,7 @@
         "index": {
           "description": "Given repository object obtained from Libgit2 add an S3 backend to it making it the primary store for objects associated with that repository",
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "addS3Backend",
           "normalized": "LgRepo-\u003eText-\u003eText-\u003eText-\u003eText-\u003eMaybe Manager-\u003eMaybe Text-\u003eLogLevel-\u003eFilePath-\u003eBackendCallbacks-\u003ea LgRepo",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "checkQuota",
           "package": "gitlib-s3",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "checkQuota",
           "normalized": "ObjectLength-\u003eIO(Maybe QuotaStatus)",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "getBucket",
           "package": "gitlib-s3",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "getBucket",
           "normalized": "Text-\u003eText-\u003eResourceT a(Maybe[Text])",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "getObject",
           "package": "gitlib-s3",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "getObject",
           "normalized": "Text-\u003eText-\u003eMaybe(Int,Int)-\u003eResourceT a(Maybe(Either Text ByteString))",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "getObjectLength",
           "package": "gitlib-s3",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "getObjectLength",
           "package": "gitlib-s3",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "getObjectType",
           "package": "gitlib-s3",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "getObjectType",
           "package": "gitlib-s3",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "headObject",
           "package": "gitlib-s3",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "headObject",
           "normalized": "Text-\u003eText-\u003eResourceT a(Maybe Bool)",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "lookupObject",
           "package": "gitlib-s3",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "lookupObject",
           "normalized": "SHA-\u003eIO(Maybe ObjectStatus)",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "mockGetBucket",
           "package": "gitlib-s3",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "mockGetBucket",
           "normalized": "S MockService-\u003eText-\u003eText-\u003ea(Maybe[Text])",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "mockGetObject",
           "package": "gitlib-s3",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "mockGetObject",
           "normalized": "S MockService-\u003eText-\u003eText-\u003eMaybe(Int,Int)-\u003ea(Maybe(Either Text ByteString))",
@@ -623,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "mockHeadObject",
           "package": "gitlib-s3",
@@ -632,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "mockHeadObject",
           "normalized": "S MockService-\u003eText-\u003eText-\u003ea(Maybe Bool)",
@@ -647,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "mockPutObject",
           "package": "gitlib-s3",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "mockPutObject",
           "normalized": "S MockService-\u003eText-\u003eText-\u003eInt-\u003eByteString-\u003ea(Maybe(Either Text()))",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "odbS3Backend",
           "package": "gitlib-s3",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "odbS3Backend",
           "normalized": "S Configuration NormalQuery-\u003eConfiguration-\u003eManager-\u003eText-\u003eText-\u003eFilePath-\u003eBackendCallbacks-\u003ea(Ptr C'git_odb_backend)",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "putObject",
           "package": "gitlib-s3",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "putObject",
           "normalized": "Text-\u003eText-\u003eObjectLength-\u003eByteString-\u003eResourceT a(Maybe(Either Text()))",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "quotaStatusAmount",
           "package": "gitlib-s3",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "quotaStatusAmount",
           "package": "gitlib-s3",
@@ -741,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "quotaStatusLimit",
           "package": "gitlib-s3",
@@ -750,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "quotaStatusLimit",
           "package": "gitlib-s3",
@@ -763,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "registerObject",
           "package": "gitlib-s3",
@@ -772,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "registerObject",
           "normalized": "SHA-\u003eMaybe(ObjectLength,ObjectType)-\u003eIO()",
@@ -787,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "registerPackFile",
           "package": "gitlib-s3",
@@ -796,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "registerPackFile",
           "normalized": "Text-\u003e[SHA]-\u003eIO()",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "releaseLock",
           "package": "gitlib-s3",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "releaseLock",
           "normalized": "Text-\u003eIO()",
@@ -835,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "resolveRef",
           "package": "gitlib-s3",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "resolveRef",
           "normalized": "RefName-\u003eIO(Maybe Text)",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "s3Factory",
           "package": "gitlib-s3",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "s3Factory",
           "normalized": "Maybe Text-\u003eText-\u003eText-\u003eFilePath-\u003eBackendCallbacks-\u003eRepositoryFactory(ReaderT LgRepo(NoLoggingT a))a LgRepo",
@@ -883,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "s3MockService",
           "package": "gitlib-s3",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "s3MockService",
           "package": "gitlib-s3",
@@ -905,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "setException",
           "package": "gitlib-s3",
@@ -914,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "setException",
           "normalized": "GitException-\u003eIO()",
@@ -929,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "shuttingDown",
           "package": "gitlib-s3",
@@ -938,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "shuttingDown",
           "normalized": "IO()",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:39 UTC 2014",
           "module": "Git.S3",
           "name": "updateRef",
           "package": "gitlib-s3",
@@ -962,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Git S3",
+          "indexed": "2014-03-11T18:17:39",
           "module": "Git.S3",
           "name": "updateRef",
           "normalized": "RefName-\u003eText-\u003eIO()",

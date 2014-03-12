@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "structures"
+        "phrase": "structures",
+        "type": "phrase"
       },
       "type": "context"
     }

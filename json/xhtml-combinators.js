@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xhtml-combinators"
+        "phrase": "xhtml-combinators",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Attributes",
           "name": "Attributes",
           "package": "xhtml-combinators",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Attributes",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Attributes",
           "name": "Attributes",
           "package": "xhtml-combinators",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset.Attributes",
           "name": "Attributes",
           "package": "xhtml-combinators",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset Attributes",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset.Attributes",
           "name": "Attributes",
           "package": "xhtml-combinators",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "Frameset",
           "package": "xhtml-combinators",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "Frameset",
           "package": "xhtml-combinators",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "AContent",
           "package": "xhtml-combinators",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "AContent",
           "package": "xhtml-combinators",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "AddressContent",
           "package": "xhtml-combinators",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "AddressContent",
           "package": "xhtml-combinators",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "BlockContent",
           "package": "xhtml-combinators",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "BlockContent",
           "package": "xhtml-combinators",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ButtonContent",
           "package": "xhtml-combinators",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ButtonContent",
           "package": "xhtml-combinators",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ColgroupContent",
           "package": "xhtml-combinators",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ColgroupContent",
           "package": "xhtml-combinators",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "DlContent",
           "package": "xhtml-combinators",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "DlContent",
           "package": "xhtml-combinators",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "FieldsetContent",
           "package": "xhtml-combinators",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "FieldsetContent",
           "package": "xhtml-combinators",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "FormContent",
           "package": "xhtml-combinators",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "FormContent",
           "package": "xhtml-combinators",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "FramesetContent",
           "package": "xhtml-combinators",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "FramesetContent",
           "package": "xhtml-combinators",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "HeadContent",
           "package": "xhtml-combinators",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "HeadContent",
           "package": "xhtml-combinators",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "HtmlContent",
           "package": "xhtml-combinators",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "HtmlContent",
           "package": "xhtml-combinators",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "InlineContent",
           "package": "xhtml-combinators",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "InlineContent",
           "package": "xhtml-combinators",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ListContent",
           "package": "xhtml-combinators",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ListContent",
           "package": "xhtml-combinators",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "MapContent",
           "package": "xhtml-combinators",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "MapContent",
           "package": "xhtml-combinators",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "NoframesContent",
           "package": "xhtml-combinators",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "NoframesContent",
           "package": "xhtml-combinators",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ObjectContent",
           "package": "xhtml-combinators",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ObjectContent",
           "package": "xhtml-combinators",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "OptgroupContent",
           "package": "xhtml-combinators",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "OptgroupContent",
           "package": "xhtml-combinators",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "PreContent",
           "package": "xhtml-combinators",
@@ -446,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "PreContent",
           "package": "xhtml-combinators",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "SelectContent",
           "package": "xhtml-combinators",
@@ -467,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "SelectContent",
           "package": "xhtml-combinators",
@@ -480,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "TableContent",
           "package": "xhtml-combinators",
@@ -488,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "TableContent",
           "package": "xhtml-combinators",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "TableSectionContent",
           "package": "xhtml-combinators",
@@ -509,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "TableSectionContent",
           "package": "xhtml-combinators",
@@ -522,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "TrContent",
           "package": "xhtml-combinators",
@@ -530,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "TrContent",
           "package": "xhtml-combinators",
@@ -543,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml1",
           "package": "xhtml-combinators",
@@ -551,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml1",
           "package": "xhtml-combinators",
@@ -564,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml10",
           "package": "xhtml-combinators",
@@ -572,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml10",
           "package": "xhtml-combinators",
@@ -585,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml11",
           "package": "xhtml-combinators",
@@ -593,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml11",
           "package": "xhtml-combinators",
@@ -606,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml12",
           "package": "xhtml-combinators",
@@ -614,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml12",
           "package": "xhtml-combinators",
@@ -627,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml13",
           "package": "xhtml-combinators",
@@ -635,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml13",
           "package": "xhtml-combinators",
@@ -648,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml14",
           "package": "xhtml-combinators",
@@ -656,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml14",
           "package": "xhtml-combinators",
@@ -669,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml15",
           "package": "xhtml-combinators",
@@ -677,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml15",
           "package": "xhtml-combinators",
@@ -690,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml16",
           "package": "xhtml-combinators",
@@ -698,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml16",
           "package": "xhtml-combinators",
@@ -711,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml17",
           "package": "xhtml-combinators",
@@ -719,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml17",
           "package": "xhtml-combinators",
@@ -732,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml2",
           "package": "xhtml-combinators",
@@ -740,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml2",
           "package": "xhtml-combinators",
@@ -753,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml3",
           "package": "xhtml-combinators",
@@ -761,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml3",
           "package": "xhtml-combinators",
@@ -774,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml4",
           "package": "xhtml-combinators",
@@ -782,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml4",
           "package": "xhtml-combinators",
@@ -795,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml5",
           "package": "xhtml-combinators",
@@ -803,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml5",
           "package": "xhtml-combinators",
@@ -816,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml6",
           "package": "xhtml-combinators",
@@ -824,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml6",
           "package": "xhtml-combinators",
@@ -837,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml7",
           "package": "xhtml-combinators",
@@ -845,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml7",
           "package": "xhtml-combinators",
@@ -858,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml8",
           "package": "xhtml-combinators",
@@ -866,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml8",
           "package": "xhtml-combinators",
@@ -879,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml9",
           "package": "xhtml-combinators",
@@ -887,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "XHtml9",
           "package": "xhtml-combinators",
@@ -900,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "a",
           "package": "xhtml-combinators",
@@ -909,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "a",
           "normalized": "XHtmlT a AContent-\u003eXHtmlT a b",
@@ -923,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "a'",
           "package": "xhtml-combinators",
@@ -932,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "a'",
           "normalized": "Attrs-\u003eXHtmlT a AContent-\u003eXHtmlT a b",
@@ -946,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "abbr",
           "package": "xhtml-combinators",
@@ -955,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "abbr",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -969,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "abbr'",
           "package": "xhtml-combinators",
@@ -978,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "abbr'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -992,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "acronym",
           "package": "xhtml-combinators",
@@ -1001,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "acronym",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1015,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "acronym'",
           "package": "xhtml-combinators",
@@ -1024,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "acronym'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1038,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "address",
           "package": "xhtml-combinators",
@@ -1047,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "address",
           "normalized": "XHtmlT a AddressContent-\u003eXHtmlT a b",
@@ -1061,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "address'",
           "package": "xhtml-combinators",
@@ -1070,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "address'",
           "normalized": "Attrs-\u003eXHtmlT a AddressContent-\u003eXHtmlT a b",
@@ -1176,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "b",
           "package": "xhtml-combinators",
@@ -1185,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "b",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1199,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "b'",
           "package": "xhtml-combinators",
@@ -1208,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "b'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1222,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "base",
           "package": "xhtml-combinators",
@@ -1231,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "base",
           "package": "xhtml-combinators",
@@ -1243,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "base'",
           "package": "xhtml-combinators",
@@ -1252,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "base'",
           "normalized": "Attrs-\u003eXHtmlT a HeadContent",
@@ -1358,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "big",
           "package": "xhtml-combinators",
@@ -1367,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "big",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1381,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "big'",
           "package": "xhtml-combinators",
@@ -1390,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "big'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1404,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "blockquote",
           "package": "xhtml-combinators",
@@ -1413,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "blockquote",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -1427,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "blockquote'",
           "package": "xhtml-combinators",
@@ -1436,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "blockquote'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -1450,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "body",
           "package": "xhtml-combinators",
@@ -1459,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "body",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a NoframesContent",
@@ -1473,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "body'",
           "package": "xhtml-combinators",
@@ -1482,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "body'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a NoframesContent",
@@ -1496,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "br",
           "package": "xhtml-combinators",
@@ -1505,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "br",
           "package": "xhtml-combinators",
@@ -1517,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "br'",
           "package": "xhtml-combinators",
@@ -1526,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "br'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -1540,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "button",
           "package": "xhtml-combinators",
@@ -1549,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "button",
           "normalized": "XHtmlT a ButtonContent-\u003eXHtmlT a b",
@@ -1563,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "button'",
           "package": "xhtml-combinators",
@@ -1572,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "button'",
           "normalized": "Attrs-\u003eXHtmlT a ButtonContent-\u003eXHtmlT a b",
@@ -1586,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "caption",
           "package": "xhtml-combinators",
@@ -1595,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "caption",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a TableContent",
@@ -1609,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "caption'",
           "package": "xhtml-combinators",
@@ -1618,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "caption'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a TableContent",
@@ -1632,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "center",
           "package": "xhtml-combinators",
@@ -1641,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "center",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -1655,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "center'",
           "package": "xhtml-combinators",
@@ -1664,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "center'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -1678,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "cite",
           "package": "xhtml-combinators",
@@ -1687,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "cite",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1701,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "cite'",
           "package": "xhtml-combinators",
@@ -1710,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "cite'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1724,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "code",
           "package": "xhtml-combinators",
@@ -1733,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "code",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1747,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "code'",
           "package": "xhtml-combinators",
@@ -1756,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "code'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1770,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "col",
           "package": "xhtml-combinators",
@@ -1779,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "col",
           "package": "xhtml-combinators",
@@ -1791,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "col'",
           "package": "xhtml-combinators",
@@ -1800,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "col'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -1814,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "colgroup",
           "package": "xhtml-combinators",
@@ -1823,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "colgroup",
           "normalized": "XHtmlT a ColgroupContent-\u003eXHtmlT a TableContent",
@@ -1837,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "colgroup'",
           "package": "xhtml-combinators",
@@ -1846,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "colgroup'",
           "normalized": "Attrs-\u003eXHtmlT a ColgroupContent-\u003eXHtmlT a TableContent",
@@ -1860,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dd",
           "package": "xhtml-combinators",
@@ -1869,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dd",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a DlContent",
@@ -1883,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dd'",
           "package": "xhtml-combinators",
@@ -1892,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dd'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a DlContent",
@@ -1906,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "del",
           "package": "xhtml-combinators",
@@ -1915,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "del",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -1929,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "del'",
           "package": "xhtml-combinators",
@@ -1938,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "del'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -1952,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dfn",
           "package": "xhtml-combinators",
@@ -1961,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dfn",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1975,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dfn'",
           "package": "xhtml-combinators",
@@ -1984,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dfn'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -1998,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dir",
           "package": "xhtml-combinators",
@@ -2007,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dir",
           "normalized": "XHtmlT a ListContent-\u003eXHtmlT a b",
@@ -2021,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dir'",
           "package": "xhtml-combinators",
@@ -2030,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dir'",
           "normalized": "Attrs-\u003eXHtmlT a ListContent-\u003eXHtmlT a b",
@@ -2044,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "div'",
           "package": "xhtml-combinators",
@@ -2053,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "div'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -2067,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "div_",
           "package": "xhtml-combinators",
@@ -2076,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "div_",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -2090,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dl",
           "package": "xhtml-combinators",
@@ -2099,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dl",
           "normalized": "XHtmlT a DlContent-\u003eXHtmlT a b",
@@ -2113,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dl'",
           "package": "xhtml-combinators",
@@ -2122,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dl'",
           "normalized": "Attrs-\u003eXHtmlT a DlContent-\u003eXHtmlT a b",
@@ -2136,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dt",
           "package": "xhtml-combinators",
@@ -2145,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dt",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a DlContent",
@@ -2159,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dt'",
           "package": "xhtml-combinators",
@@ -2168,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "dt'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a DlContent",
@@ -2182,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "em",
           "package": "xhtml-combinators",
@@ -2191,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "em",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2205,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "em'",
           "package": "xhtml-combinators",
@@ -2214,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "em'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2228,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "fieldset",
           "package": "xhtml-combinators",
@@ -2237,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "fieldset",
           "normalized": "XHtmlT a FieldsetContent-\u003eXHtmlT a b",
@@ -2251,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "fieldset'",
           "package": "xhtml-combinators",
@@ -2260,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "fieldset'",
           "normalized": "Attrs-\u003eXHtmlT a FieldsetContent-\u003eXHtmlT a b",
@@ -2274,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "font",
           "package": "xhtml-combinators",
@@ -2283,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "font",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2297,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "font'",
           "package": "xhtml-combinators",
@@ -2306,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "font'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2366,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "frame",
           "package": "xhtml-combinators",
@@ -2375,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "frame",
           "package": "xhtml-combinators",
@@ -2387,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "frame'",
           "package": "xhtml-combinators",
@@ -2396,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "frame'",
           "normalized": "Attrs-\u003eXHtmlT a FramesetContent",
@@ -2410,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "frameset",
           "package": "xhtml-combinators",
@@ -2419,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "frameset",
           "normalized": "XHtmlT a FramesetContent-\u003eXHtmlT a b",
@@ -2433,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "frameset'",
           "package": "xhtml-combinators",
@@ -2442,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "frameset'",
           "normalized": "Attrs-\u003eXHtmlT a FramesetContent-\u003eXHtmlT a b",
@@ -2456,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h1",
           "package": "xhtml-combinators",
@@ -2465,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h1",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2479,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h1'",
           "package": "xhtml-combinators",
@@ -2488,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h1'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2502,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h2",
           "package": "xhtml-combinators",
@@ -2511,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h2",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2525,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h2'",
           "package": "xhtml-combinators",
@@ -2534,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h2'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2548,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h3",
           "package": "xhtml-combinators",
@@ -2557,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h3",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2571,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h3'",
           "package": "xhtml-combinators",
@@ -2580,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h3'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2594,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h4",
           "package": "xhtml-combinators",
@@ -2603,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h4",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2617,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h4'",
           "package": "xhtml-combinators",
@@ -2626,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h4'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2640,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h5",
           "package": "xhtml-combinators",
@@ -2649,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h5",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2663,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h5'",
           "package": "xhtml-combinators",
@@ -2672,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h5'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2686,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h6",
           "package": "xhtml-combinators",
@@ -2695,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h6",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2709,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h6'",
           "package": "xhtml-combinators",
@@ -2718,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "h6'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2732,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "head'",
           "package": "xhtml-combinators",
@@ -2741,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "head'",
           "normalized": "Attrs-\u003eXHtmlT a HeadContent-\u003eXHtmlT a HtmlContent",
@@ -2755,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "head_",
           "package": "xhtml-combinators",
@@ -2764,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "head_",
           "normalized": "XHtmlT a HeadContent-\u003eXHtmlT a HtmlContent",
@@ -2778,6 +3006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "hr",
           "package": "xhtml-combinators",
@@ -2787,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "hr",
           "package": "xhtml-combinators",
@@ -2799,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "hr'",
           "package": "xhtml-combinators",
@@ -2808,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "hr'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -2822,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "html",
           "package": "xhtml-combinators",
@@ -2831,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "html",
           "normalized": "XHtmlT a HtmlContent-\u003eXHtmlT a Root",
@@ -2845,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "html'",
           "package": "xhtml-combinators",
@@ -2854,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "html'",
           "normalized": "Attrs-\u003eXHtmlT a HtmlContent-\u003eXHtmlT a Root",
@@ -2868,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "i",
           "package": "xhtml-combinators",
@@ -2877,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "i",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2891,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "i'",
           "package": "xhtml-combinators",
@@ -2900,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "i'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -2914,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "iframe",
           "package": "xhtml-combinators",
@@ -2923,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "iframe",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -2937,6 +3179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "iframe'",
           "package": "xhtml-combinators",
@@ -2946,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "iframe'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -3006,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "input",
           "package": "xhtml-combinators",
@@ -3015,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "input",
           "package": "xhtml-combinators",
@@ -3027,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "input'",
           "package": "xhtml-combinators",
@@ -3036,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "input'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -3050,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ins",
           "package": "xhtml-combinators",
@@ -3059,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ins",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -3073,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ins'",
           "package": "xhtml-combinators",
@@ -3082,6 +3333,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ins'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -3096,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "isindex",
           "package": "xhtml-combinators",
@@ -3105,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "isindex",
           "package": "xhtml-combinators",
@@ -3117,6 +3371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "isindex'",
           "package": "xhtml-combinators",
@@ -3126,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "isindex'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -3140,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "kbd",
           "package": "xhtml-combinators",
@@ -3149,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "kbd",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -3163,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "kbd'",
           "package": "xhtml-combinators",
@@ -3172,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "kbd'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -3186,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "label",
           "package": "xhtml-combinators",
@@ -3195,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "label",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -3209,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "label'",
           "package": "xhtml-combinators",
@@ -3218,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "label'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -3232,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "legend",
           "package": "xhtml-combinators",
@@ -3241,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "legend",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a FieldsetContent",
@@ -3255,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "legend'",
           "package": "xhtml-combinators",
@@ -3264,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "legend'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a FieldsetContent",
@@ -3278,6 +3546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "li",
           "package": "xhtml-combinators",
@@ -3287,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "li",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a ListContent",
@@ -3301,6 +3571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "li'",
           "package": "xhtml-combinators",
@@ -3310,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "li'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a ListContent",
@@ -3324,6 +3596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "link",
           "package": "xhtml-combinators",
@@ -3333,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "link",
           "package": "xhtml-combinators",
@@ -3345,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "link'",
           "package": "xhtml-combinators",
@@ -3354,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "link'",
           "normalized": "Attrs-\u003eXHtmlT a HeadContent",
@@ -3414,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "menu",
           "package": "xhtml-combinators",
@@ -3423,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "menu",
           "normalized": "XHtmlT a ListContent-\u003eXHtmlT a b",
@@ -3437,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "menu'",
           "package": "xhtml-combinators",
@@ -3446,6 +3725,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "menu'",
           "normalized": "Attrs-\u003eXHtmlT a ListContent-\u003eXHtmlT a b",
@@ -3506,6 +3786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "noframes",
           "package": "xhtml-combinators",
@@ -3515,6 +3796,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "noframes",
           "normalized": "XHtmlT a NoframesContent-\u003eXHtmlT a FramesetContent",
@@ -3529,6 +3811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "noframes'",
           "package": "xhtml-combinators",
@@ -3538,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "noframes'",
           "normalized": "Attrs-\u003eXHtmlT a NoframesContent-\u003eXHtmlT a FramesetContent",
@@ -3552,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "noscript",
           "package": "xhtml-combinators",
@@ -3561,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "noscript",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -3575,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "noscript'",
           "package": "xhtml-combinators",
@@ -3584,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "noscript'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -3598,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "object",
           "package": "xhtml-combinators",
@@ -3607,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "object",
           "normalized": "XHtmlT a ObjectContent-\u003eXHtmlT a b",
@@ -3621,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "object'",
           "package": "xhtml-combinators",
@@ -3630,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "object'",
           "normalized": "Attrs-\u003eXHtmlT a ObjectContent-\u003eXHtmlT a b",
@@ -3644,6 +3936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ol",
           "package": "xhtml-combinators",
@@ -3653,6 +3946,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ol",
           "normalized": "XHtmlT a ListContent-\u003eXHtmlT a b",
@@ -3667,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ol'",
           "package": "xhtml-combinators",
@@ -3676,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ol'",
           "normalized": "Attrs-\u003eXHtmlT a ListContent-\u003eXHtmlT a b",
@@ -3736,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "option",
           "package": "xhtml-combinators",
@@ -3745,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "option",
           "normalized": "Text-\u003eXHtmlT a b",
@@ -3759,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "option'",
           "package": "xhtml-combinators",
@@ -3768,6 +4067,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "option'",
           "normalized": "Attrs-\u003eText-\u003eXHtmlT a b",
@@ -3782,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "p",
           "package": "xhtml-combinators",
@@ -3791,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "p",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -3805,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "p'",
           "package": "xhtml-combinators",
@@ -3814,6 +4117,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "p'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -3874,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "pre",
           "package": "xhtml-combinators",
@@ -3883,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "pre",
           "normalized": "XHtmlT a PreContent-\u003eXHtmlT a b",
@@ -3897,6 +4203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "pre'",
           "package": "xhtml-combinators",
@@ -3906,6 +4213,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "pre'",
           "normalized": "Attrs-\u003eXHtmlT a PreContent-\u003eXHtmlT a b",
@@ -3920,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "q",
           "package": "xhtml-combinators",
@@ -3929,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "q",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -3943,6 +4253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "q'",
           "package": "xhtml-combinators",
@@ -3952,6 +4263,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "q'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -3966,6 +4278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "s",
           "package": "xhtml-combinators",
@@ -3975,6 +4288,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "s",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -3989,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "s'",
           "package": "xhtml-combinators",
@@ -3998,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "s'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4012,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "samp",
           "package": "xhtml-combinators",
@@ -4021,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "samp",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4035,6 +4353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "samp'",
           "package": "xhtml-combinators",
@@ -4044,6 +4363,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "samp'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4104,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "select",
           "package": "xhtml-combinators",
@@ -4113,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "select",
           "normalized": "XHtmlT a SelectContent-\u003eXHtmlT a b",
@@ -4127,6 +4449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "select'",
           "package": "xhtml-combinators",
@@ -4136,6 +4459,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "select'",
           "normalized": "Attrs-\u003eXHtmlT a SelectContent-\u003eXHtmlT a b",
@@ -4150,6 +4474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "small",
           "package": "xhtml-combinators",
@@ -4159,6 +4484,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "small",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4173,6 +4499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "small'",
           "package": "xhtml-combinators",
@@ -4182,6 +4509,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "small'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4196,6 +4524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "span'",
           "package": "xhtml-combinators",
@@ -4205,6 +4534,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "span'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4219,6 +4549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "span_",
           "package": "xhtml-combinators",
@@ -4228,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "span_",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4242,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "strike",
           "package": "xhtml-combinators",
@@ -4251,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "strike",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4265,6 +4599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "strike'",
           "package": "xhtml-combinators",
@@ -4274,6 +4609,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "strike'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4288,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "strong",
           "package": "xhtml-combinators",
@@ -4297,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "strong",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4311,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "strong'",
           "package": "xhtml-combinators",
@@ -4320,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "strong'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4380,6 +4720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "sub",
           "package": "xhtml-combinators",
@@ -4389,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "sub",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4403,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "sub'",
           "package": "xhtml-combinators",
@@ -4412,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "sub'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4426,6 +4770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "sup",
           "package": "xhtml-combinators",
@@ -4435,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "sup",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4449,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "sup'",
           "package": "xhtml-combinators",
@@ -4458,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "sup'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4472,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "table",
           "package": "xhtml-combinators",
@@ -4481,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "table",
           "normalized": "XHtmlT a TableContent-\u003eXHtmlT a b",
@@ -4495,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "table'",
           "package": "xhtml-combinators",
@@ -4504,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "table'",
           "normalized": "Attrs-\u003eXHtmlT a TableContent-\u003eXHtmlT a b",
@@ -4518,6 +4870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tbody",
           "package": "xhtml-combinators",
@@ -4527,6 +4880,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tbody",
           "normalized": "XHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -4541,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tbody'",
           "package": "xhtml-combinators",
@@ -4550,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tbody'",
           "normalized": "Attrs-\u003eXHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -4564,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "td",
           "package": "xhtml-combinators",
@@ -4573,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "td",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a TrContent",
@@ -4587,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "td'",
           "package": "xhtml-combinators",
@@ -4596,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "td'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a TrContent",
@@ -4656,6 +5016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tfoot",
           "package": "xhtml-combinators",
@@ -4665,6 +5026,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tfoot",
           "normalized": "XHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -4679,6 +5041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tfoot'",
           "package": "xhtml-combinators",
@@ -4688,6 +5051,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tfoot'",
           "normalized": "Attrs-\u003eXHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -4702,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "th",
           "package": "xhtml-combinators",
@@ -4711,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "th",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a TrContent",
@@ -4725,6 +5091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "th'",
           "package": "xhtml-combinators",
@@ -4734,6 +5101,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "th'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a TrContent",
@@ -4748,6 +5116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "thead",
           "package": "xhtml-combinators",
@@ -4757,6 +5126,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "thead",
           "normalized": "XHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -4771,6 +5141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "thead'",
           "package": "xhtml-combinators",
@@ -4780,6 +5151,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "thead'",
           "normalized": "Attrs-\u003eXHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -4794,6 +5166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "title",
           "package": "xhtml-combinators",
@@ -4803,6 +5176,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "title",
           "normalized": "Text-\u003eXHtmlT a HeadContent",
@@ -4817,6 +5191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "title'",
           "package": "xhtml-combinators",
@@ -4826,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "title'",
           "normalized": "Attrs-\u003eText-\u003eXHtmlT a HeadContent",
@@ -4840,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tr",
           "package": "xhtml-combinators",
@@ -4849,6 +5226,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tr",
           "normalized": "XHtmlT a TrContent-\u003eXHtmlT a b",
@@ -4863,6 +5241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tr'",
           "package": "xhtml-combinators",
@@ -4872,6 +5251,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tr'",
           "normalized": "Attrs-\u003eXHtmlT a TrContent-\u003eXHtmlT a b",
@@ -4886,6 +5266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tt",
           "package": "xhtml-combinators",
@@ -4895,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tt",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4909,6 +5291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tt'",
           "package": "xhtml-combinators",
@@ -4918,6 +5301,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "tt'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4932,6 +5316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "u",
           "package": "xhtml-combinators",
@@ -4941,6 +5326,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "u",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4955,6 +5341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "u'",
           "package": "xhtml-combinators",
@@ -4964,6 +5351,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "u'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -4978,6 +5366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ul",
           "package": "xhtml-combinators",
@@ -4987,6 +5376,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ul",
           "normalized": "XHtmlT a ListContent-\u003eXHtmlT a b",
@@ -5001,6 +5391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ul'",
           "package": "xhtml-combinators",
@@ -5010,6 +5401,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "ul'",
           "normalized": "Attrs-\u003eXHtmlT a ListContent-\u003eXHtmlT a b",
@@ -5024,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "var",
           "package": "xhtml-combinators",
@@ -5033,6 +5426,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "var",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -5047,6 +5441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "var'",
           "package": "xhtml-combinators",
@@ -5056,6 +5451,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Frameset",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Frameset",
           "name": "var'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -5070,6 +5466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Internal",
           "package": "xhtml-combinators",
@@ -5078,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Internal",
           "package": "xhtml-combinators",
@@ -5091,6 +5489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Attr",
           "package": "xhtml-combinators",
@@ -5099,6 +5498,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Attr",
           "package": "xhtml-combinators",
@@ -5112,6 +5512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Attrs",
           "package": "xhtml-combinators",
@@ -5120,6 +5521,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Attrs",
           "package": "xhtml-combinators",
@@ -5133,6 +5535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "CData",
           "package": "xhtml-combinators",
@@ -5141,6 +5544,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "CData",
           "package": "xhtml-combinators",
@@ -5154,6 +5558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Content",
           "package": "xhtml-combinators",
@@ -5162,6 +5567,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Content",
           "package": "xhtml-combinators",
@@ -5175,6 +5581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Node",
           "package": "xhtml-combinators",
@@ -5183,6 +5590,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Node",
           "package": "xhtml-combinators",
@@ -5196,6 +5604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Root",
           "package": "xhtml-combinators",
@@ -5204,6 +5613,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Root",
           "package": "xhtml-combinators",
@@ -5217,6 +5627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "XHtml",
           "package": "xhtml-combinators",
@@ -5225,6 +5636,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "XHtml",
           "package": "xhtml-combinators",
@@ -5238,6 +5650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "XHtmlMT",
           "package": "xhtml-combinators",
@@ -5246,6 +5659,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "XHtmlMT",
           "package": "xhtml-combinators",
@@ -5259,6 +5673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "XHtmlT",
           "package": "xhtml-combinators",
@@ -5267,6 +5682,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "XHtmlT",
           "package": "xhtml-combinators",
@@ -5280,6 +5696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Attr",
           "package": "xhtml-combinators",
@@ -5289,6 +5706,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Attr",
           "package": "xhtml-combinators",
@@ -5302,6 +5720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Node",
           "package": "xhtml-combinators",
@@ -5311,6 +5730,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Node",
           "package": "xhtml-combinators",
@@ -5324,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Root",
           "package": "xhtml-combinators",
@@ -5333,6 +5754,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "Root",
           "package": "xhtml-combinators",
@@ -5346,6 +5768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "TextNode",
           "package": "xhtml-combinators",
@@ -5355,6 +5778,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "TextNode",
           "package": "xhtml-combinators",
@@ -5368,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "XHtmlMT",
           "package": "xhtml-combinators",
@@ -5377,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "XHtmlMT",
           "package": "xhtml-combinators",
@@ -5390,6 +5816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "cdata",
           "package": "xhtml-combinators",
@@ -5399,6 +5826,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "cdata",
           "normalized": "Text-\u003ea",
@@ -5413,6 +5841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "empty",
           "package": "xhtml-combinators",
@@ -5422,6 +5851,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "empty",
           "package": "xhtml-combinators",
@@ -5434,6 +5864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "emptyNode",
           "package": "xhtml-combinators",
@@ -5443,6 +5874,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "emptyNode",
           "normalized": "Text-\u003eAttrs-\u003eAttrs-\u003eNode",
@@ -5458,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "execXHtmlMT",
           "package": "xhtml-combinators",
@@ -5467,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "execXHtmlMT",
           "normalized": "XHtmlMT a b()-\u003eb(Seq a)",
@@ -5482,6 +5916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "first",
           "package": "xhtml-combinators",
@@ -5491,6 +5926,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "first",
           "normalized": "Seq a-\u003ea",
@@ -5505,6 +5941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "node",
           "package": "xhtml-combinators",
@@ -5514,6 +5951,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "node",
           "normalized": "Text-\u003eAttrs-\u003eAttrs-\u003eXHtmlT a b-\u003ea Node",
@@ -5528,6 +5966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "rootToNode",
           "package": "xhtml-combinators",
@@ -5537,6 +5976,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "rootToNode",
           "package": "xhtml-combinators",
@@ -5550,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "tellEmptyNode",
           "package": "xhtml-combinators",
@@ -5559,6 +6000,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "tellEmptyNode",
           "normalized": "(Node-\u003ea)-\u003eText-\u003eAttrs-\u003eAttrs-\u003eXHtmlT b a",
@@ -5574,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "tellNode",
           "package": "xhtml-combinators",
@@ -5583,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "tellNode",
           "normalized": "(Node-\u003ea)-\u003eText-\u003eAttrs-\u003eAttrs-\u003eXHtmlT b c-\u003eXHtmlT b a",
@@ -5598,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "tellS",
           "package": "xhtml-combinators",
@@ -5607,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "tellS",
           "normalized": "a-\u003eXHtmlMT a b()",
@@ -5621,6 +6067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "tellTextNode",
           "package": "xhtml-combinators",
@@ -5630,6 +6077,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "tellTextNode",
           "normalized": "(Node-\u003ea)-\u003eText-\u003eAttrs-\u003eAttrs-\u003eText-\u003eXHtmlT b a",
@@ -5645,6 +6093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "text",
           "package": "xhtml-combinators",
@@ -5654,6 +6103,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "text",
           "normalized": "Text-\u003eXHtmlT a b",
@@ -5668,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "textNode",
           "package": "xhtml-combinators",
@@ -5677,6 +6128,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "textNode",
           "normalized": "Text-\u003eAttrs-\u003eAttrs-\u003eText-\u003eNode",
@@ -5692,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "toContent",
           "package": "xhtml-combinators",
@@ -5701,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "toContent",
           "normalized": "a-\u003eNode",
@@ -5716,6 +6170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "unXHtmlMT",
           "package": "xhtml-combinators",
@@ -5725,6 +6180,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Internal",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Internal",
           "name": "unXHtmlMT",
           "package": "xhtml-combinators",
@@ -5738,6 +6194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "Render",
           "package": "xhtml-combinators",
@@ -5746,6 +6203,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "Render",
           "package": "xhtml-combinators",
@@ -5759,6 +6217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "Escaper",
           "package": "xhtml-combinators",
@@ -5767,6 +6226,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "Escaper",
           "package": "xhtml-combinators",
@@ -5780,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "Escaper",
           "package": "xhtml-combinators",
@@ -5789,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "Escaper",
           "package": "xhtml-combinators",
@@ -5802,6 +6264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "childEscaper",
           "package": "xhtml-combinators",
@@ -5811,6 +6274,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "childEscaper",
           "normalized": "Text-\u003eEscaper a",
@@ -5826,6 +6290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "encoder",
           "package": "xhtml-combinators",
@@ -5835,6 +6300,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "encoder",
           "normalized": "Text-\u003ea",
@@ -5849,6 +6315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "escapeAttr",
           "package": "xhtml-combinators",
@@ -5858,6 +6325,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "escapeAttr",
           "normalized": "Attr-\u003eAttr",
@@ -5873,6 +6341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "escapeText",
           "package": "xhtml-combinators",
@@ -5882,6 +6351,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "escapeText",
           "normalized": "Text-\u003eText",
@@ -5897,6 +6367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "render",
           "package": "xhtml-combinators",
@@ -5906,6 +6377,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "render",
           "normalized": "Escaper a-\u003eXHtml b-\u003ea",
@@ -5920,6 +6392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "renderAttr",
           "package": "xhtml-combinators",
@@ -5929,6 +6402,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "renderAttr",
           "normalized": "Attr-\u003eText",
@@ -5944,6 +6418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "renderAttrs",
           "package": "xhtml-combinators",
@@ -5953,6 +6428,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "renderAttrs",
           "normalized": "Escaper a-\u003eAttrs-\u003eText",
@@ -5968,6 +6444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "renderNode",
           "package": "xhtml-combinators",
@@ -5977,6 +6454,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "renderNode",
           "normalized": "Escaper a-\u003eNode-\u003eText",
@@ -5993,6 +6471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickly render a xhtml page to text.\n\u003c/p\u003e\u003cp\u003eThis function will render the entire page on a single line, which\n is somewhat unreadable. On the plus side, it's relatively fast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "renderT",
           "package": "xhtml-combinators",
@@ -6003,6 +6482,7 @@
         "index": {
           "description": "Quickly render xhtml page to text This function will render the entire page on single line which is somewhat unreadable On the plus side it relatively fast",
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "renderT",
           "normalized": "Escaper a-\u003eXHtmlT b c-\u003eb a",
@@ -6017,6 +6497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Render",
           "name": "unsafe",
           "package": "xhtml-combinators",
@@ -6026,6 +6507,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Render",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Render",
           "name": "unsafe",
           "package": "xhtml-combinators",
@@ -6038,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict.Attributes",
           "name": "Attributes",
           "package": "xhtml-combinators",
@@ -6046,6 +6529,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict Attributes",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict.Attributes",
           "name": "Attributes",
           "package": "xhtml-combinators",
@@ -6059,6 +6543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "Strict",
           "package": "xhtml-combinators",
@@ -6067,6 +6552,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "Strict",
           "package": "xhtml-combinators",
@@ -6080,6 +6566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "AContent",
           "package": "xhtml-combinators",
@@ -6088,6 +6575,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "AContent",
           "package": "xhtml-combinators",
@@ -6101,6 +6589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "BlockContent",
           "package": "xhtml-combinators",
@@ -6109,6 +6598,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "BlockContent",
           "package": "xhtml-combinators",
@@ -6122,6 +6612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ButtonContent",
           "package": "xhtml-combinators",
@@ -6130,6 +6621,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ButtonContent",
           "package": "xhtml-combinators",
@@ -6143,6 +6635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ColgroupContent",
           "package": "xhtml-combinators",
@@ -6151,6 +6644,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ColgroupContent",
           "package": "xhtml-combinators",
@@ -6164,6 +6658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "DlContent",
           "package": "xhtml-combinators",
@@ -6172,6 +6667,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "DlContent",
           "package": "xhtml-combinators",
@@ -6185,6 +6681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "FieldsetContent",
           "package": "xhtml-combinators",
@@ -6193,6 +6690,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "FieldsetContent",
           "package": "xhtml-combinators",
@@ -6206,6 +6704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "FlowContent",
           "package": "xhtml-combinators",
@@ -6214,6 +6713,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "FlowContent",
           "package": "xhtml-combinators",
@@ -6227,6 +6727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "FormContent",
           "package": "xhtml-combinators",
@@ -6235,6 +6736,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "FormContent",
           "package": "xhtml-combinators",
@@ -6248,6 +6750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "HeadContent",
           "package": "xhtml-combinators",
@@ -6256,6 +6759,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "HeadContent",
           "package": "xhtml-combinators",
@@ -6269,6 +6773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "HtmlContent",
           "package": "xhtml-combinators",
@@ -6277,6 +6782,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "HtmlContent",
           "package": "xhtml-combinators",
@@ -6290,6 +6796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "InlineContent",
           "package": "xhtml-combinators",
@@ -6298,6 +6805,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "InlineContent",
           "package": "xhtml-combinators",
@@ -6311,6 +6819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ListContent",
           "package": "xhtml-combinators",
@@ -6319,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ListContent",
           "package": "xhtml-combinators",
@@ -6332,6 +6842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "MapContent",
           "package": "xhtml-combinators",
@@ -6340,6 +6851,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "MapContent",
           "package": "xhtml-combinators",
@@ -6353,6 +6865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ObjectContent",
           "package": "xhtml-combinators",
@@ -6361,6 +6874,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ObjectContent",
           "package": "xhtml-combinators",
@@ -6374,6 +6888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "OptgroupContent",
           "package": "xhtml-combinators",
@@ -6382,6 +6897,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "OptgroupContent",
           "package": "xhtml-combinators",
@@ -6395,6 +6911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "PreContent",
           "package": "xhtml-combinators",
@@ -6403,6 +6920,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "PreContent",
           "package": "xhtml-combinators",
@@ -6416,6 +6934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "SelectContent",
           "package": "xhtml-combinators",
@@ -6424,6 +6943,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "SelectContent",
           "package": "xhtml-combinators",
@@ -6437,6 +6957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "TableContent",
           "package": "xhtml-combinators",
@@ -6445,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "TableContent",
           "package": "xhtml-combinators",
@@ -6458,6 +6980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "TableSectionContent",
           "package": "xhtml-combinators",
@@ -6466,6 +6989,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "TableSectionContent",
           "package": "xhtml-combinators",
@@ -6479,6 +7003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "TrContent",
           "package": "xhtml-combinators",
@@ -6487,6 +7012,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "TrContent",
           "package": "xhtml-combinators",
@@ -6500,6 +7026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml1",
           "package": "xhtml-combinators",
@@ -6508,6 +7035,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml1",
           "package": "xhtml-combinators",
@@ -6521,6 +7049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml10",
           "package": "xhtml-combinators",
@@ -6529,6 +7058,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml10",
           "package": "xhtml-combinators",
@@ -6542,6 +7072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml11",
           "package": "xhtml-combinators",
@@ -6550,6 +7081,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml11",
           "package": "xhtml-combinators",
@@ -6563,6 +7095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml12",
           "package": "xhtml-combinators",
@@ -6571,6 +7104,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml12",
           "package": "xhtml-combinators",
@@ -6584,6 +7118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml13",
           "package": "xhtml-combinators",
@@ -6592,6 +7127,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml13",
           "package": "xhtml-combinators",
@@ -6605,6 +7141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml2",
           "package": "xhtml-combinators",
@@ -6613,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml2",
           "package": "xhtml-combinators",
@@ -6626,6 +7164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml3",
           "package": "xhtml-combinators",
@@ -6634,6 +7173,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml3",
           "package": "xhtml-combinators",
@@ -6647,6 +7187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml4",
           "package": "xhtml-combinators",
@@ -6655,6 +7196,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml4",
           "package": "xhtml-combinators",
@@ -6668,6 +7210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml5",
           "package": "xhtml-combinators",
@@ -6676,6 +7219,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml5",
           "package": "xhtml-combinators",
@@ -6689,6 +7233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml6",
           "package": "xhtml-combinators",
@@ -6697,6 +7242,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml6",
           "package": "xhtml-combinators",
@@ -6710,6 +7256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml7",
           "package": "xhtml-combinators",
@@ -6718,6 +7265,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml7",
           "package": "xhtml-combinators",
@@ -6731,6 +7279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml8",
           "package": "xhtml-combinators",
@@ -6739,6 +7288,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml8",
           "package": "xhtml-combinators",
@@ -6752,6 +7302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml9",
           "package": "xhtml-combinators",
@@ -6760,6 +7311,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "XHtml9",
           "package": "xhtml-combinators",
@@ -6773,6 +7325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "a",
           "package": "xhtml-combinators",
@@ -6782,6 +7335,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "a",
           "normalized": "XHtmlT a AContent-\u003eXHtmlT a b",
@@ -6796,6 +7350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "a'",
           "package": "xhtml-combinators",
@@ -6805,6 +7360,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "a'",
           "normalized": "Attrs-\u003eXHtmlT a AContent-\u003eXHtmlT a b",
@@ -6819,6 +7375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "abbr",
           "package": "xhtml-combinators",
@@ -6828,6 +7385,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "abbr",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -6842,6 +7400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "abbr'",
           "package": "xhtml-combinators",
@@ -6851,6 +7410,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "abbr'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -6865,6 +7425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "acronym",
           "package": "xhtml-combinators",
@@ -6874,6 +7435,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "acronym",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -6888,6 +7450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "acronym'",
           "package": "xhtml-combinators",
@@ -6897,6 +7460,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "acronym'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -6911,6 +7475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "address",
           "package": "xhtml-combinators",
@@ -6920,6 +7485,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "address",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -6934,6 +7500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "address'",
           "package": "xhtml-combinators",
@@ -6943,6 +7510,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "address'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -6957,6 +7525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "b",
           "package": "xhtml-combinators",
@@ -6966,6 +7535,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "b",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -6980,6 +7550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "b'",
           "package": "xhtml-combinators",
@@ -6989,6 +7560,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "b'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7003,6 +7575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "base",
           "package": "xhtml-combinators",
@@ -7011,6 +7584,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "base",
           "normalized": "Text-\u003eXHtmlT a HeadContent",
@@ -7025,6 +7599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "base'",
           "package": "xhtml-combinators",
@@ -7033,6 +7608,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "base'",
           "normalized": "Text-\u003eAttrs-\u003eXHtmlT a HeadContent",
@@ -7047,6 +7623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "big",
           "package": "xhtml-combinators",
@@ -7056,6 +7633,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "big",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7070,6 +7648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "big'",
           "package": "xhtml-combinators",
@@ -7079,6 +7658,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "big'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7093,6 +7673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "blockquote",
           "package": "xhtml-combinators",
@@ -7102,6 +7683,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "blockquote",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -7116,6 +7698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "blockquote'",
           "package": "xhtml-combinators",
@@ -7125,6 +7708,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "blockquote'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -7139,6 +7723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "body",
           "package": "xhtml-combinators",
@@ -7148,6 +7733,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "body",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a HtmlContent",
@@ -7162,6 +7748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "body'",
           "package": "xhtml-combinators",
@@ -7171,6 +7758,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "body'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a HtmlContent",
@@ -7185,6 +7773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "br",
           "package": "xhtml-combinators",
@@ -7194,6 +7783,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "br",
           "package": "xhtml-combinators",
@@ -7206,6 +7796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "br'",
           "package": "xhtml-combinators",
@@ -7215,6 +7806,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "br'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -7229,6 +7821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "button",
           "package": "xhtml-combinators",
@@ -7238,6 +7831,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "button",
           "normalized": "XHtmlT a ButtonContent-\u003eXHtmlT a b",
@@ -7252,6 +7846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "button'",
           "package": "xhtml-combinators",
@@ -7261,6 +7856,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "button'",
           "normalized": "Attrs-\u003eXHtmlT a ButtonContent-\u003eXHtmlT a b",
@@ -7275,6 +7871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "caption",
           "package": "xhtml-combinators",
@@ -7284,6 +7881,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "caption",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a TableContent",
@@ -7298,6 +7896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "caption'",
           "package": "xhtml-combinators",
@@ -7307,6 +7906,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "caption'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a TableContent",
@@ -7321,6 +7921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "cite",
           "package": "xhtml-combinators",
@@ -7330,6 +7931,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "cite",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7344,6 +7946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "cite'",
           "package": "xhtml-combinators",
@@ -7353,6 +7956,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "cite'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7367,6 +7971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "code",
           "package": "xhtml-combinators",
@@ -7376,6 +7981,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "code",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7390,6 +7996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "code'",
           "package": "xhtml-combinators",
@@ -7399,6 +8006,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "code'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7413,6 +8021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "col",
           "package": "xhtml-combinators",
@@ -7422,6 +8031,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "col",
           "package": "xhtml-combinators",
@@ -7434,6 +8044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "col'",
           "package": "xhtml-combinators",
@@ -7443,6 +8054,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "col'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -7457,6 +8069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "colgroup",
           "package": "xhtml-combinators",
@@ -7466,6 +8079,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "colgroup",
           "normalized": "XHtmlT a ColgroupContent-\u003eXHtmlT a TableContent",
@@ -7480,6 +8094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "colgroup'",
           "package": "xhtml-combinators",
@@ -7489,6 +8104,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "colgroup'",
           "normalized": "Attrs-\u003eXHtmlT a ColgroupContent-\u003eXHtmlT a TableContent",
@@ -7503,6 +8119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dd",
           "package": "xhtml-combinators",
@@ -7512,6 +8129,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dd",
           "normalized": "XHtmlT a FlowContent-\u003eXHtmlT a DlContent",
@@ -7526,6 +8144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dd'",
           "package": "xhtml-combinators",
@@ -7535,6 +8154,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dd'",
           "normalized": "Attrs-\u003eXHtmlT a FlowContent-\u003eXHtmlT a DlContent",
@@ -7549,6 +8169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "del",
           "package": "xhtml-combinators",
@@ -7558,6 +8179,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "del",
           "normalized": "XHtmlT a FlowContent-\u003eXHtmlT a b",
@@ -7572,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "del'",
           "package": "xhtml-combinators",
@@ -7581,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "del'",
           "normalized": "Attrs-\u003eXHtmlT a FlowContent-\u003eXHtmlT a b",
@@ -7595,6 +8219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dfn",
           "package": "xhtml-combinators",
@@ -7604,6 +8229,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dfn",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7618,6 +8244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dfn'",
           "package": "xhtml-combinators",
@@ -7627,6 +8254,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dfn'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7641,6 +8269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "div'",
           "package": "xhtml-combinators",
@@ -7650,6 +8279,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "div'",
           "normalized": "Attrs-\u003eXHtmlT a FlowContent-\u003eXHtmlT a b",
@@ -7664,6 +8294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "div_",
           "package": "xhtml-combinators",
@@ -7673,6 +8304,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "div_",
           "normalized": "XHtmlT a FlowContent-\u003eXHtmlT a b",
@@ -7687,6 +8319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dl",
           "package": "xhtml-combinators",
@@ -7696,6 +8329,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dl",
           "normalized": "XHtmlT a DlContent-\u003eXHtmlT a b",
@@ -7710,6 +8344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dl'",
           "package": "xhtml-combinators",
@@ -7719,6 +8354,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dl'",
           "normalized": "Attrs-\u003eXHtmlT a DlContent-\u003eXHtmlT a b",
@@ -7733,6 +8369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dt",
           "package": "xhtml-combinators",
@@ -7742,6 +8379,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dt",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a DlContent",
@@ -7756,6 +8394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dt'",
           "package": "xhtml-combinators",
@@ -7765,6 +8404,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "dt'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a DlContent",
@@ -7779,6 +8419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "em",
           "package": "xhtml-combinators",
@@ -7788,6 +8429,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "em",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7802,6 +8444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "em'",
           "package": "xhtml-combinators",
@@ -7811,6 +8454,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "em'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7825,6 +8469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "fieldset",
           "package": "xhtml-combinators",
@@ -7834,6 +8479,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "fieldset",
           "normalized": "XHtmlT a FieldsetContent-\u003eXHtmlT a b",
@@ -7848,6 +8494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "fieldset'",
           "package": "xhtml-combinators",
@@ -7857,6 +8504,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "fieldset'",
           "normalized": "Attrs-\u003eXHtmlT a FieldsetContent-\u003eXHtmlT a b",
@@ -7871,6 +8519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h1",
           "package": "xhtml-combinators",
@@ -7880,6 +8529,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h1",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7894,6 +8544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h1'",
           "package": "xhtml-combinators",
@@ -7903,6 +8554,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h1'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7917,6 +8569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h2",
           "package": "xhtml-combinators",
@@ -7926,6 +8579,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h2",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7940,6 +8594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h2'",
           "package": "xhtml-combinators",
@@ -7949,6 +8604,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h2'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7963,6 +8619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h3",
           "package": "xhtml-combinators",
@@ -7972,6 +8629,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h3",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -7986,6 +8644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h3'",
           "package": "xhtml-combinators",
@@ -7995,6 +8654,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h3'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8009,6 +8669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h4",
           "package": "xhtml-combinators",
@@ -8018,6 +8679,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h4",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8032,6 +8694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h4'",
           "package": "xhtml-combinators",
@@ -8041,6 +8704,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h4'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8055,6 +8719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h5",
           "package": "xhtml-combinators",
@@ -8064,6 +8729,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h5",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8078,6 +8744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h5'",
           "package": "xhtml-combinators",
@@ -8087,6 +8754,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h5'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8101,6 +8769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h6",
           "package": "xhtml-combinators",
@@ -8110,6 +8779,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h6",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8124,6 +8794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h6'",
           "package": "xhtml-combinators",
@@ -8133,6 +8804,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "h6'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8147,6 +8819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "head'",
           "package": "xhtml-combinators",
@@ -8156,6 +8829,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "head'",
           "normalized": "Attrs-\u003eXHtmlT a HeadContent-\u003eXHtmlT a HtmlContent",
@@ -8170,6 +8844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "head_",
           "package": "xhtml-combinators",
@@ -8179,6 +8854,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "head_",
           "normalized": "XHtmlT a HeadContent-\u003eXHtmlT a HtmlContent",
@@ -8193,6 +8869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "hr",
           "package": "xhtml-combinators",
@@ -8202,6 +8879,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "hr",
           "package": "xhtml-combinators",
@@ -8214,6 +8892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "hr'",
           "package": "xhtml-combinators",
@@ -8223,6 +8902,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "hr'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -8237,6 +8917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "html",
           "package": "xhtml-combinators",
@@ -8246,6 +8927,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "html",
           "normalized": "XHtmlT a HtmlContent-\u003eXHtmlT a Root",
@@ -8260,6 +8942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "html'",
           "package": "xhtml-combinators",
@@ -8269,6 +8952,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "html'",
           "normalized": "Attrs-\u003eXHtmlT a HtmlContent-\u003eXHtmlT a Root",
@@ -8283,6 +8967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "i",
           "package": "xhtml-combinators",
@@ -8292,6 +8977,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "i",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8306,6 +8992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "i'",
           "package": "xhtml-combinators",
@@ -8315,6 +9002,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "i'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8329,6 +9017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "input",
           "package": "xhtml-combinators",
@@ -8338,6 +9027,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "input",
           "package": "xhtml-combinators",
@@ -8350,6 +9040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "input'",
           "package": "xhtml-combinators",
@@ -8359,6 +9050,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "input'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -8373,6 +9065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ins",
           "package": "xhtml-combinators",
@@ -8382,6 +9075,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ins",
           "normalized": "XHtmlT a FlowContent-\u003eXHtmlT a b",
@@ -8396,6 +9090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ins'",
           "package": "xhtml-combinators",
@@ -8405,6 +9100,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ins'",
           "normalized": "Attrs-\u003eXHtmlT a FlowContent-\u003eXHtmlT a b",
@@ -8419,6 +9115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "kbd",
           "package": "xhtml-combinators",
@@ -8428,6 +9125,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "kbd",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8442,6 +9140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "kbd'",
           "package": "xhtml-combinators",
@@ -8451,6 +9150,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "kbd'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8465,6 +9165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "label",
           "package": "xhtml-combinators",
@@ -8474,6 +9175,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "label",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8488,6 +9190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "label'",
           "package": "xhtml-combinators",
@@ -8497,6 +9200,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "label'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8511,6 +9215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "legend",
           "package": "xhtml-combinators",
@@ -8520,6 +9225,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "legend",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a FieldsetContent",
@@ -8534,6 +9240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "legend'",
           "package": "xhtml-combinators",
@@ -8543,6 +9250,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "legend'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a FieldsetContent",
@@ -8557,6 +9265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "li",
           "package": "xhtml-combinators",
@@ -8566,6 +9275,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "li",
           "normalized": "XHtmlT a FlowContent-\u003eXHtmlT a ListContent",
@@ -8580,6 +9290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "li'",
           "package": "xhtml-combinators",
@@ -8589,6 +9300,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "li'",
           "normalized": "Attrs-\u003eXHtmlT a FlowContent-\u003eXHtmlT a ListContent",
@@ -8603,6 +9315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "link",
           "package": "xhtml-combinators",
@@ -8612,6 +9325,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "link",
           "package": "xhtml-combinators",
@@ -8624,6 +9338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "link'",
           "package": "xhtml-combinators",
@@ -8633,6 +9348,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "link'",
           "normalized": "Attrs-\u003eXHtmlT a HeadContent",
@@ -8647,6 +9363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "noscript",
           "package": "xhtml-combinators",
@@ -8656,6 +9373,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "noscript",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -8670,6 +9388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "noscript'",
           "package": "xhtml-combinators",
@@ -8679,6 +9398,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "noscript'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -8693,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "object",
           "package": "xhtml-combinators",
@@ -8702,6 +9423,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "object",
           "normalized": "XHtmlT a ObjectContent-\u003eXHtmlT a b",
@@ -8716,6 +9438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "object'",
           "package": "xhtml-combinators",
@@ -8725,6 +9448,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "object'",
           "normalized": "Attrs-\u003eXHtmlT a ObjectContent-\u003eXHtmlT a b",
@@ -8739,6 +9463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ol",
           "package": "xhtml-combinators",
@@ -8748,6 +9473,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ol",
           "normalized": "XHtmlT a ListContent-\u003eXHtmlT a b",
@@ -8762,6 +9488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ol'",
           "package": "xhtml-combinators",
@@ -8771,6 +9498,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ol'",
           "normalized": "Attrs-\u003eXHtmlT a ListContent-\u003eXHtmlT a b",
@@ -8785,6 +9513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "option",
           "package": "xhtml-combinators",
@@ -8794,6 +9523,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "option",
           "normalized": "Text-\u003eXHtmlT a b",
@@ -8808,6 +9538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "option'",
           "package": "xhtml-combinators",
@@ -8817,6 +9548,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "option'",
           "normalized": "Attrs-\u003eText-\u003eXHtmlT a b",
@@ -8831,6 +9563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "p",
           "package": "xhtml-combinators",
@@ -8840,6 +9573,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "p",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8854,6 +9588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "p'",
           "package": "xhtml-combinators",
@@ -8863,6 +9598,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "p'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8877,6 +9613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "param",
           "package": "xhtml-combinators",
@@ -8886,6 +9623,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "param",
           "package": "xhtml-combinators",
@@ -8898,6 +9636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "param'",
           "package": "xhtml-combinators",
@@ -8907,6 +9646,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "param'",
           "normalized": "Attrs-\u003eXHtmlT a ObjectContent",
@@ -8921,6 +9661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "pre",
           "package": "xhtml-combinators",
@@ -8930,6 +9671,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "pre",
           "normalized": "XHtmlT a PreContent-\u003eXHtmlT a b",
@@ -8944,6 +9686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "pre'",
           "package": "xhtml-combinators",
@@ -8953,6 +9696,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "pre'",
           "normalized": "Attrs-\u003eXHtmlT a PreContent-\u003eXHtmlT a b",
@@ -8967,6 +9711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "q",
           "package": "xhtml-combinators",
@@ -8976,6 +9721,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "q",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -8990,6 +9736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "q'",
           "package": "xhtml-combinators",
@@ -8999,6 +9746,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "q'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9013,6 +9761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "samp",
           "package": "xhtml-combinators",
@@ -9022,6 +9771,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "samp",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9036,6 +9786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "samp'",
           "package": "xhtml-combinators",
@@ -9045,6 +9796,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "samp'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9059,6 +9811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "select",
           "package": "xhtml-combinators",
@@ -9068,6 +9821,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "select",
           "normalized": "XHtmlT a SelectContent-\u003eXHtmlT a b",
@@ -9082,6 +9836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "select'",
           "package": "xhtml-combinators",
@@ -9091,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "select'",
           "normalized": "Attrs-\u003eXHtmlT a SelectContent-\u003eXHtmlT a b",
@@ -9105,6 +9861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "small",
           "package": "xhtml-combinators",
@@ -9114,6 +9871,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "small",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9128,6 +9886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "small'",
           "package": "xhtml-combinators",
@@ -9137,6 +9896,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "small'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9151,6 +9911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "span'",
           "package": "xhtml-combinators",
@@ -9160,6 +9921,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "span'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9174,6 +9936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "span_",
           "package": "xhtml-combinators",
@@ -9183,6 +9946,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "span_",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9197,6 +9961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "strong",
           "package": "xhtml-combinators",
@@ -9206,6 +9971,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "strong",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9220,6 +9986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "strong'",
           "package": "xhtml-combinators",
@@ -9229,6 +9996,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "strong'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9243,6 +10011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "sub",
           "package": "xhtml-combinators",
@@ -9252,6 +10021,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "sub",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9266,6 +10036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "sub'",
           "package": "xhtml-combinators",
@@ -9275,6 +10046,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "sub'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9289,6 +10061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "sup",
           "package": "xhtml-combinators",
@@ -9298,6 +10071,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "sup",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9312,6 +10086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "sup'",
           "package": "xhtml-combinators",
@@ -9321,6 +10096,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "sup'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9335,6 +10111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "table",
           "package": "xhtml-combinators",
@@ -9344,6 +10121,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "table",
           "normalized": "XHtmlT a TableContent-\u003eXHtmlT a b",
@@ -9358,6 +10136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "table'",
           "package": "xhtml-combinators",
@@ -9367,6 +10146,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "table'",
           "normalized": "Attrs-\u003eXHtmlT a TableContent-\u003eXHtmlT a b",
@@ -9381,6 +10161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tbody",
           "package": "xhtml-combinators",
@@ -9390,6 +10171,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tbody",
           "normalized": "XHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -9404,6 +10186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tbody'",
           "package": "xhtml-combinators",
@@ -9413,6 +10196,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tbody'",
           "normalized": "Attrs-\u003eXHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -9427,6 +10211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "td",
           "package": "xhtml-combinators",
@@ -9436,6 +10221,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "td",
           "normalized": "XHtmlT a FlowContent-\u003eXHtmlT a TrContent",
@@ -9450,6 +10236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "td'",
           "package": "xhtml-combinators",
@@ -9459,6 +10246,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "td'",
           "normalized": "Attrs-\u003eXHtmlT a FlowContent-\u003eXHtmlT a TrContent",
@@ -9473,6 +10261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tfoot",
           "package": "xhtml-combinators",
@@ -9482,6 +10271,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tfoot",
           "normalized": "XHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -9496,6 +10286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tfoot'",
           "package": "xhtml-combinators",
@@ -9505,6 +10296,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tfoot'",
           "normalized": "Attrs-\u003eXHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -9519,6 +10311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "th",
           "package": "xhtml-combinators",
@@ -9528,6 +10321,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "th",
           "normalized": "XHtmlT a FlowContent-\u003eXHtmlT a TrContent",
@@ -9542,6 +10336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "th'",
           "package": "xhtml-combinators",
@@ -9551,6 +10346,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "th'",
           "normalized": "Attrs-\u003eXHtmlT a FlowContent-\u003eXHtmlT a TrContent",
@@ -9565,6 +10361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "thead",
           "package": "xhtml-combinators",
@@ -9574,6 +10371,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "thead",
           "normalized": "XHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -9588,6 +10386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "thead'",
           "package": "xhtml-combinators",
@@ -9597,6 +10396,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "thead'",
           "normalized": "Attrs-\u003eXHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -9611,6 +10411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "title",
           "package": "xhtml-combinators",
@@ -9620,6 +10421,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "title",
           "normalized": "Text-\u003eXHtmlT a HeadContent",
@@ -9634,6 +10436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "title'",
           "package": "xhtml-combinators",
@@ -9643,6 +10446,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "title'",
           "normalized": "Attrs-\u003eText-\u003eXHtmlT a HeadContent",
@@ -9657,6 +10461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tr",
           "package": "xhtml-combinators",
@@ -9666,6 +10471,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tr",
           "normalized": "XHtmlT a TrContent-\u003eXHtmlT a b",
@@ -9680,6 +10486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tr'",
           "package": "xhtml-combinators",
@@ -9689,6 +10496,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tr'",
           "normalized": "Attrs-\u003eXHtmlT a TrContent-\u003eXHtmlT a b",
@@ -9703,6 +10511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tt",
           "package": "xhtml-combinators",
@@ -9712,6 +10521,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tt",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9726,6 +10536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tt'",
           "package": "xhtml-combinators",
@@ -9735,6 +10546,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "tt'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9749,6 +10561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ul",
           "package": "xhtml-combinators",
@@ -9758,6 +10571,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ul",
           "normalized": "XHtmlT a ListContent-\u003eXHtmlT a b",
@@ -9772,6 +10586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ul'",
           "package": "xhtml-combinators",
@@ -9781,6 +10596,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "ul'",
           "normalized": "Attrs-\u003eXHtmlT a ListContent-\u003eXHtmlT a b",
@@ -9795,6 +10611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "var",
           "package": "xhtml-combinators",
@@ -9804,6 +10621,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "var",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9818,6 +10636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "var'",
           "package": "xhtml-combinators",
@@ -9827,6 +10646,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Strict",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Strict",
           "name": "var'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -9841,6 +10661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional.Attributes",
           "name": "Attributes",
           "package": "xhtml-combinators",
@@ -9849,6 +10670,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional Attributes",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional.Attributes",
           "name": "Attributes",
           "package": "xhtml-combinators",
@@ -9862,6 +10684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "Transitional",
           "package": "xhtml-combinators",
@@ -9870,6 +10693,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "Transitional",
           "package": "xhtml-combinators",
@@ -9883,6 +10707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "AContent",
           "package": "xhtml-combinators",
@@ -9891,6 +10716,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "AContent",
           "package": "xhtml-combinators",
@@ -9904,6 +10730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "AddressContent",
           "package": "xhtml-combinators",
@@ -9912,6 +10739,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "AddressContent",
           "package": "xhtml-combinators",
@@ -9925,6 +10753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "BlockContent",
           "package": "xhtml-combinators",
@@ -9933,6 +10762,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "BlockContent",
           "package": "xhtml-combinators",
@@ -9946,6 +10776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ButtonContent",
           "package": "xhtml-combinators",
@@ -9954,6 +10785,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ButtonContent",
           "package": "xhtml-combinators",
@@ -9967,6 +10799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ColgroupContent",
           "package": "xhtml-combinators",
@@ -9975,6 +10808,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ColgroupContent",
           "package": "xhtml-combinators",
@@ -9988,6 +10822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "DlContent",
           "package": "xhtml-combinators",
@@ -9996,6 +10831,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "DlContent",
           "package": "xhtml-combinators",
@@ -10009,6 +10845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "FieldsetContent",
           "package": "xhtml-combinators",
@@ -10017,6 +10854,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "FieldsetContent",
           "package": "xhtml-combinators",
@@ -10030,6 +10868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "FormContent",
           "package": "xhtml-combinators",
@@ -10038,6 +10877,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "FormContent",
           "package": "xhtml-combinators",
@@ -10051,6 +10891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "HeadContent",
           "package": "xhtml-combinators",
@@ -10059,6 +10900,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "HeadContent",
           "package": "xhtml-combinators",
@@ -10072,6 +10914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "HtmlContent",
           "package": "xhtml-combinators",
@@ -10080,6 +10923,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "HtmlContent",
           "package": "xhtml-combinators",
@@ -10093,6 +10937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "InlineContent",
           "package": "xhtml-combinators",
@@ -10101,6 +10946,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "InlineContent",
           "package": "xhtml-combinators",
@@ -10114,6 +10960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ListContent",
           "package": "xhtml-combinators",
@@ -10122,6 +10969,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ListContent",
           "package": "xhtml-combinators",
@@ -10135,6 +10983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "MapContent",
           "package": "xhtml-combinators",
@@ -10143,6 +10992,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "MapContent",
           "package": "xhtml-combinators",
@@ -10156,6 +11006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ObjectContent",
           "package": "xhtml-combinators",
@@ -10164,6 +11015,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ObjectContent",
           "package": "xhtml-combinators",
@@ -10177,6 +11029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "OptgroupContent",
           "package": "xhtml-combinators",
@@ -10185,6 +11038,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "OptgroupContent",
           "package": "xhtml-combinators",
@@ -10198,6 +11052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "PreContent",
           "package": "xhtml-combinators",
@@ -10206,6 +11061,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "PreContent",
           "package": "xhtml-combinators",
@@ -10219,6 +11075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "SelectContent",
           "package": "xhtml-combinators",
@@ -10227,6 +11084,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "SelectContent",
           "package": "xhtml-combinators",
@@ -10240,6 +11098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "TableContent",
           "package": "xhtml-combinators",
@@ -10248,6 +11107,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "TableContent",
           "package": "xhtml-combinators",
@@ -10261,6 +11121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "TableSectionContent",
           "package": "xhtml-combinators",
@@ -10269,6 +11130,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "TableSectionContent",
           "package": "xhtml-combinators",
@@ -10282,6 +11144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "TrContent",
           "package": "xhtml-combinators",
@@ -10290,6 +11153,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "TrContent",
           "package": "xhtml-combinators",
@@ -10303,6 +11167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml1",
           "package": "xhtml-combinators",
@@ -10311,6 +11176,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml1",
           "package": "xhtml-combinators",
@@ -10324,6 +11190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml10",
           "package": "xhtml-combinators",
@@ -10332,6 +11199,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml10",
           "package": "xhtml-combinators",
@@ -10345,6 +11213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml11",
           "package": "xhtml-combinators",
@@ -10353,6 +11222,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml11",
           "package": "xhtml-combinators",
@@ -10366,6 +11236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml12",
           "package": "xhtml-combinators",
@@ -10374,6 +11245,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml12",
           "package": "xhtml-combinators",
@@ -10387,6 +11259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml13",
           "package": "xhtml-combinators",
@@ -10395,6 +11268,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml13",
           "package": "xhtml-combinators",
@@ -10408,6 +11282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml14",
           "package": "xhtml-combinators",
@@ -10416,6 +11291,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml14",
           "package": "xhtml-combinators",
@@ -10429,6 +11305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml15",
           "package": "xhtml-combinators",
@@ -10437,6 +11314,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml15",
           "package": "xhtml-combinators",
@@ -10450,6 +11328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml16",
           "package": "xhtml-combinators",
@@ -10458,6 +11337,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml16",
           "package": "xhtml-combinators",
@@ -10471,6 +11351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml2",
           "package": "xhtml-combinators",
@@ -10479,6 +11360,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml2",
           "package": "xhtml-combinators",
@@ -10492,6 +11374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml3",
           "package": "xhtml-combinators",
@@ -10500,6 +11383,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml3",
           "package": "xhtml-combinators",
@@ -10513,6 +11397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml4",
           "package": "xhtml-combinators",
@@ -10521,6 +11406,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml4",
           "package": "xhtml-combinators",
@@ -10534,6 +11420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml5",
           "package": "xhtml-combinators",
@@ -10542,6 +11429,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml5",
           "package": "xhtml-combinators",
@@ -10555,6 +11443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml6",
           "package": "xhtml-combinators",
@@ -10563,6 +11452,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml6",
           "package": "xhtml-combinators",
@@ -10576,6 +11466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml7",
           "package": "xhtml-combinators",
@@ -10584,6 +11475,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml7",
           "package": "xhtml-combinators",
@@ -10597,6 +11489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml8",
           "package": "xhtml-combinators",
@@ -10605,6 +11498,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml8",
           "package": "xhtml-combinators",
@@ -10618,6 +11512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml9",
           "package": "xhtml-combinators",
@@ -10626,6 +11521,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "XHtml9",
           "package": "xhtml-combinators",
@@ -10639,6 +11535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "a",
           "package": "xhtml-combinators",
@@ -10648,6 +11545,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "a",
           "normalized": "XHtmlT a AContent-\u003eXHtmlT a b",
@@ -10662,6 +11560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "a'",
           "package": "xhtml-combinators",
@@ -10671,6 +11570,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "a'",
           "normalized": "Attrs-\u003eXHtmlT a AContent-\u003eXHtmlT a b",
@@ -10685,6 +11585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "abbr",
           "package": "xhtml-combinators",
@@ -10694,6 +11595,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "abbr",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -10708,6 +11610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "abbr'",
           "package": "xhtml-combinators",
@@ -10717,6 +11620,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "abbr'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -10731,6 +11635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "acronym",
           "package": "xhtml-combinators",
@@ -10740,6 +11645,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "acronym",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -10754,6 +11660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "acronym'",
           "package": "xhtml-combinators",
@@ -10763,6 +11670,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "acronym'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -10777,6 +11685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "address",
           "package": "xhtml-combinators",
@@ -10786,6 +11695,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "address",
           "normalized": "XHtmlT a AddressContent-\u003eXHtmlT a b",
@@ -10800,6 +11710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "address'",
           "package": "xhtml-combinators",
@@ -10809,6 +11720,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "address'",
           "normalized": "Attrs-\u003eXHtmlT a AddressContent-\u003eXHtmlT a b",
@@ -10823,6 +11735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "b",
           "package": "xhtml-combinators",
@@ -10832,6 +11745,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "b",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -10846,6 +11760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "b'",
           "package": "xhtml-combinators",
@@ -10855,6 +11770,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "b'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -10869,6 +11785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "base",
           "package": "xhtml-combinators",
@@ -10878,6 +11795,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "base",
           "package": "xhtml-combinators",
@@ -10890,6 +11808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "base'",
           "package": "xhtml-combinators",
@@ -10899,6 +11818,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "base'",
           "normalized": "Attrs-\u003eXHtmlT a HeadContent",
@@ -10913,6 +11833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "big",
           "package": "xhtml-combinators",
@@ -10922,6 +11843,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "big",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -10936,6 +11858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "big'",
           "package": "xhtml-combinators",
@@ -10945,6 +11868,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "big'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -10959,6 +11883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "blockquote",
           "package": "xhtml-combinators",
@@ -10968,6 +11893,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "blockquote",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -10982,6 +11908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "blockquote'",
           "package": "xhtml-combinators",
@@ -10991,6 +11918,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "blockquote'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -11005,6 +11933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "body",
           "package": "xhtml-combinators",
@@ -11014,6 +11943,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "body",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a HtmlContent",
@@ -11028,6 +11958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "body'",
           "package": "xhtml-combinators",
@@ -11037,6 +11968,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "body'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a HtmlContent",
@@ -11051,6 +11983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "br",
           "package": "xhtml-combinators",
@@ -11060,6 +11993,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "br",
           "package": "xhtml-combinators",
@@ -11072,6 +12006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "br'",
           "package": "xhtml-combinators",
@@ -11081,6 +12016,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "br'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -11095,6 +12031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "button",
           "package": "xhtml-combinators",
@@ -11104,6 +12041,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "button",
           "normalized": "XHtmlT a ButtonContent-\u003eXHtmlT a b",
@@ -11118,6 +12056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "button'",
           "package": "xhtml-combinators",
@@ -11127,6 +12066,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "button'",
           "normalized": "Attrs-\u003eXHtmlT a ButtonContent-\u003eXHtmlT a b",
@@ -11141,6 +12081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "caption",
           "package": "xhtml-combinators",
@@ -11150,6 +12091,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "caption",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a TableContent",
@@ -11164,6 +12106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "caption'",
           "package": "xhtml-combinators",
@@ -11173,6 +12116,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "caption'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a TableContent",
@@ -11187,6 +12131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "center",
           "package": "xhtml-combinators",
@@ -11196,6 +12141,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "center",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -11210,6 +12156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "center'",
           "package": "xhtml-combinators",
@@ -11219,6 +12166,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "center'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -11233,6 +12181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "cite",
           "package": "xhtml-combinators",
@@ -11242,6 +12191,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "cite",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11256,6 +12206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "cite'",
           "package": "xhtml-combinators",
@@ -11265,6 +12216,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "cite'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11279,6 +12231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "code",
           "package": "xhtml-combinators",
@@ -11288,6 +12241,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "code",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11302,6 +12256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "code'",
           "package": "xhtml-combinators",
@@ -11311,6 +12266,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "code'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11325,6 +12281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "col",
           "package": "xhtml-combinators",
@@ -11334,6 +12291,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "col",
           "package": "xhtml-combinators",
@@ -11346,6 +12304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "col'",
           "package": "xhtml-combinators",
@@ -11355,6 +12314,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "col'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -11369,6 +12329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "colgroup",
           "package": "xhtml-combinators",
@@ -11378,6 +12339,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "colgroup",
           "normalized": "XHtmlT a ColgroupContent-\u003eXHtmlT a TableContent",
@@ -11392,6 +12354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "colgroup'",
           "package": "xhtml-combinators",
@@ -11401,6 +12364,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "colgroup'",
           "normalized": "Attrs-\u003eXHtmlT a ColgroupContent-\u003eXHtmlT a TableContent",
@@ -11415,6 +12379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dd",
           "package": "xhtml-combinators",
@@ -11424,6 +12389,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dd",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a DlContent",
@@ -11438,6 +12404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dd'",
           "package": "xhtml-combinators",
@@ -11447,6 +12414,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dd'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a DlContent",
@@ -11461,6 +12429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "del",
           "package": "xhtml-combinators",
@@ -11470,6 +12439,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "del",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -11484,6 +12454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "del'",
           "package": "xhtml-combinators",
@@ -11493,6 +12464,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "del'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -11507,6 +12479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dfn",
           "package": "xhtml-combinators",
@@ -11516,6 +12489,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dfn",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11530,6 +12504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dfn'",
           "package": "xhtml-combinators",
@@ -11539,6 +12514,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dfn'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11553,6 +12529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dir",
           "package": "xhtml-combinators",
@@ -11562,6 +12539,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dir",
           "normalized": "XHtmlT a ListContent-\u003eXHtmlT a b",
@@ -11576,6 +12554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dir'",
           "package": "xhtml-combinators",
@@ -11585,6 +12564,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dir'",
           "normalized": "Attrs-\u003eXHtmlT a ListContent-\u003eXHtmlT a b",
@@ -11599,6 +12579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "div'",
           "package": "xhtml-combinators",
@@ -11608,6 +12589,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "div'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -11622,6 +12604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "div_",
           "package": "xhtml-combinators",
@@ -11631,6 +12614,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "div_",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -11645,6 +12629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dl",
           "package": "xhtml-combinators",
@@ -11654,6 +12639,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dl",
           "normalized": "XHtmlT a DlContent-\u003eXHtmlT a b",
@@ -11668,6 +12654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dl'",
           "package": "xhtml-combinators",
@@ -11677,6 +12664,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dl'",
           "normalized": "Attrs-\u003eXHtmlT a DlContent-\u003eXHtmlT a b",
@@ -11691,6 +12679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dt",
           "package": "xhtml-combinators",
@@ -11700,6 +12689,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dt",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a DlContent",
@@ -11714,6 +12704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dt'",
           "package": "xhtml-combinators",
@@ -11723,6 +12714,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "dt'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a DlContent",
@@ -11737,6 +12729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "em",
           "package": "xhtml-combinators",
@@ -11746,6 +12739,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "em",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11760,6 +12754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "em'",
           "package": "xhtml-combinators",
@@ -11769,6 +12764,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "em'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11783,6 +12779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "fieldset",
           "package": "xhtml-combinators",
@@ -11792,6 +12789,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "fieldset",
           "normalized": "XHtmlT a FieldsetContent-\u003eXHtmlT a b",
@@ -11806,6 +12804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "fieldset'",
           "package": "xhtml-combinators",
@@ -11815,6 +12814,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "fieldset'",
           "normalized": "Attrs-\u003eXHtmlT a FieldsetContent-\u003eXHtmlT a b",
@@ -11829,6 +12829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "font",
           "package": "xhtml-combinators",
@@ -11838,6 +12839,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "font",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11852,6 +12854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "font'",
           "package": "xhtml-combinators",
@@ -11861,6 +12864,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "font'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11875,6 +12879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h1",
           "package": "xhtml-combinators",
@@ -11884,6 +12889,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h1",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11898,6 +12904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h1'",
           "package": "xhtml-combinators",
@@ -11907,6 +12914,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h1'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11921,6 +12929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h2",
           "package": "xhtml-combinators",
@@ -11930,6 +12939,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h2",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11944,6 +12954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h2'",
           "package": "xhtml-combinators",
@@ -11953,6 +12964,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h2'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11967,6 +12979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h3",
           "package": "xhtml-combinators",
@@ -11976,6 +12989,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h3",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -11990,6 +13004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h3'",
           "package": "xhtml-combinators",
@@ -11999,6 +13014,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h3'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12013,6 +13029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h4",
           "package": "xhtml-combinators",
@@ -12022,6 +13039,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h4",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12036,6 +13054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h4'",
           "package": "xhtml-combinators",
@@ -12045,6 +13064,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h4'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12059,6 +13079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h5",
           "package": "xhtml-combinators",
@@ -12068,6 +13089,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h5",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12082,6 +13104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h5'",
           "package": "xhtml-combinators",
@@ -12091,6 +13114,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h5'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12105,6 +13129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h6",
           "package": "xhtml-combinators",
@@ -12114,6 +13139,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h6",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12128,6 +13154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h6'",
           "package": "xhtml-combinators",
@@ -12137,6 +13164,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "h6'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12151,6 +13179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "head'",
           "package": "xhtml-combinators",
@@ -12160,6 +13189,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "head'",
           "normalized": "Attrs-\u003eXHtmlT a HeadContent-\u003eXHtmlT a HtmlContent",
@@ -12174,6 +13204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "head_",
           "package": "xhtml-combinators",
@@ -12183,6 +13214,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "head_",
           "normalized": "XHtmlT a HeadContent-\u003eXHtmlT a HtmlContent",
@@ -12197,6 +13229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "hr",
           "package": "xhtml-combinators",
@@ -12206,6 +13239,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "hr",
           "package": "xhtml-combinators",
@@ -12218,6 +13252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "hr'",
           "package": "xhtml-combinators",
@@ -12227,6 +13262,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "hr'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -12241,6 +13277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "html",
           "package": "xhtml-combinators",
@@ -12250,6 +13287,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "html",
           "normalized": "XHtmlT a HtmlContent-\u003eXHtmlT a Root",
@@ -12264,6 +13302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "html'",
           "package": "xhtml-combinators",
@@ -12273,6 +13312,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "html'",
           "normalized": "Attrs-\u003eXHtmlT a HtmlContent-\u003eXHtmlT a Root",
@@ -12287,6 +13327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "i",
           "package": "xhtml-combinators",
@@ -12296,6 +13337,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "i",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12310,6 +13352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "i'",
           "package": "xhtml-combinators",
@@ -12319,6 +13362,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "i'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12333,6 +13377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "iframe",
           "package": "xhtml-combinators",
@@ -12342,6 +13387,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "iframe",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -12356,6 +13402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "iframe'",
           "package": "xhtml-combinators",
@@ -12365,6 +13412,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "iframe'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -12379,6 +13427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "input",
           "package": "xhtml-combinators",
@@ -12388,6 +13437,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "input",
           "package": "xhtml-combinators",
@@ -12400,6 +13450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "input'",
           "package": "xhtml-combinators",
@@ -12409,6 +13460,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "input'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -12423,6 +13475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ins",
           "package": "xhtml-combinators",
@@ -12432,6 +13485,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ins",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -12446,6 +13500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ins'",
           "package": "xhtml-combinators",
@@ -12455,6 +13510,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ins'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -12469,6 +13525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "isindex",
           "package": "xhtml-combinators",
@@ -12478,6 +13535,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "isindex",
           "package": "xhtml-combinators",
@@ -12490,6 +13548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "isindex'",
           "package": "xhtml-combinators",
@@ -12499,6 +13558,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "isindex'",
           "normalized": "Attrs-\u003eXHtmlT a b",
@@ -12513,6 +13573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "kbd",
           "package": "xhtml-combinators",
@@ -12522,6 +13583,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "kbd",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12536,6 +13598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "kbd'",
           "package": "xhtml-combinators",
@@ -12545,6 +13608,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "kbd'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12559,6 +13623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "label",
           "package": "xhtml-combinators",
@@ -12568,6 +13633,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "label",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12582,6 +13648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "label'",
           "package": "xhtml-combinators",
@@ -12591,6 +13658,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "label'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -12605,6 +13673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "legend",
           "package": "xhtml-combinators",
@@ -12614,6 +13683,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "legend",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a FieldsetContent",
@@ -12628,6 +13698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "legend'",
           "package": "xhtml-combinators",
@@ -12637,6 +13708,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "legend'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a FieldsetContent",
@@ -12651,6 +13723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "li",
           "package": "xhtml-combinators",
@@ -12660,6 +13733,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "li",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a ListContent",
@@ -12674,6 +13748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "li'",
           "package": "xhtml-combinators",
@@ -12683,6 +13758,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "li'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a ListContent",
@@ -12697,6 +13773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "link",
           "package": "xhtml-combinators",
@@ -12706,6 +13783,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "link",
           "package": "xhtml-combinators",
@@ -12718,6 +13796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "link'",
           "package": "xhtml-combinators",
@@ -12727,6 +13806,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "link'",
           "normalized": "Attrs-\u003eXHtmlT a HeadContent",
@@ -12741,6 +13821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "menu",
           "package": "xhtml-combinators",
@@ -12750,6 +13831,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "menu",
           "normalized": "XHtmlT a ListContent-\u003eXHtmlT a b",
@@ -12764,6 +13846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "menu'",
           "package": "xhtml-combinators",
@@ -12773,6 +13856,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "menu'",
           "normalized": "Attrs-\u003eXHtmlT a ListContent-\u003eXHtmlT a b",
@@ -12787,6 +13871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "noframes",
           "package": "xhtml-combinators",
@@ -12796,6 +13881,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "noframes",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -12810,6 +13896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "noframes'",
           "package": "xhtml-combinators",
@@ -12819,6 +13906,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "noframes'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -12833,6 +13921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "noscript",
           "package": "xhtml-combinators",
@@ -12842,6 +13931,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "noscript",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -12856,6 +13946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "noscript'",
           "package": "xhtml-combinators",
@@ -12865,6 +13956,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "noscript'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a b",
@@ -12879,6 +13971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "object",
           "package": "xhtml-combinators",
@@ -12888,6 +13981,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "object",
           "normalized": "XHtmlT a ObjectContent-\u003eXHtmlT a b",
@@ -12902,6 +13996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "object'",
           "package": "xhtml-combinators",
@@ -12911,6 +14006,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "object'",
           "normalized": "Attrs-\u003eXHtmlT a ObjectContent-\u003eXHtmlT a b",
@@ -12925,6 +14021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ol",
           "package": "xhtml-combinators",
@@ -12934,6 +14031,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ol",
           "normalized": "XHtmlT a ListContent-\u003eXHtmlT a b",
@@ -12948,6 +14046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ol'",
           "package": "xhtml-combinators",
@@ -12957,6 +14056,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ol'",
           "normalized": "Attrs-\u003eXHtmlT a ListContent-\u003eXHtmlT a b",
@@ -12971,6 +14071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "option",
           "package": "xhtml-combinators",
@@ -12980,6 +14081,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "option",
           "normalized": "Text-\u003eXHtmlT a b",
@@ -12994,6 +14096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "option'",
           "package": "xhtml-combinators",
@@ -13003,6 +14106,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "option'",
           "normalized": "Attrs-\u003eText-\u003eXHtmlT a b",
@@ -13017,6 +14121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "p",
           "package": "xhtml-combinators",
@@ -13026,6 +14131,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "p",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13040,6 +14146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "p'",
           "package": "xhtml-combinators",
@@ -13049,6 +14156,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "p'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13063,6 +14171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "pre",
           "package": "xhtml-combinators",
@@ -13072,6 +14181,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "pre",
           "normalized": "XHtmlT a PreContent-\u003eXHtmlT a b",
@@ -13086,6 +14196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "pre'",
           "package": "xhtml-combinators",
@@ -13095,6 +14206,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "pre'",
           "normalized": "Attrs-\u003eXHtmlT a PreContent-\u003eXHtmlT a b",
@@ -13109,6 +14221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "q",
           "package": "xhtml-combinators",
@@ -13118,6 +14231,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "q",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13132,6 +14246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "q'",
           "package": "xhtml-combinators",
@@ -13141,6 +14256,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "q'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13155,6 +14271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "s",
           "package": "xhtml-combinators",
@@ -13164,6 +14281,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "s",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13178,6 +14296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "s'",
           "package": "xhtml-combinators",
@@ -13187,6 +14306,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "s'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13201,6 +14321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "samp",
           "package": "xhtml-combinators",
@@ -13210,6 +14331,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "samp",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13224,6 +14346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "samp'",
           "package": "xhtml-combinators",
@@ -13233,6 +14356,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "samp'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13247,6 +14371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "select",
           "package": "xhtml-combinators",
@@ -13256,6 +14381,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "select",
           "normalized": "XHtmlT a SelectContent-\u003eXHtmlT a b",
@@ -13270,6 +14396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "select'",
           "package": "xhtml-combinators",
@@ -13279,6 +14406,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "select'",
           "normalized": "Attrs-\u003eXHtmlT a SelectContent-\u003eXHtmlT a b",
@@ -13293,6 +14421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "small",
           "package": "xhtml-combinators",
@@ -13302,6 +14431,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "small",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13316,6 +14446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "small'",
           "package": "xhtml-combinators",
@@ -13325,6 +14456,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "small'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13339,6 +14471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "span'",
           "package": "xhtml-combinators",
@@ -13348,6 +14481,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "span'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13362,6 +14496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "span_",
           "package": "xhtml-combinators",
@@ -13371,6 +14506,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "span_",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13385,6 +14521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "strike",
           "package": "xhtml-combinators",
@@ -13394,6 +14531,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "strike",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13408,6 +14546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "strike'",
           "package": "xhtml-combinators",
@@ -13417,6 +14556,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "strike'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13431,6 +14571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "strong",
           "package": "xhtml-combinators",
@@ -13440,6 +14581,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "strong",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13454,6 +14596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "strong'",
           "package": "xhtml-combinators",
@@ -13463,6 +14606,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "strong'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13477,6 +14621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "sub",
           "package": "xhtml-combinators",
@@ -13486,6 +14631,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "sub",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13500,6 +14646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "sub'",
           "package": "xhtml-combinators",
@@ -13509,6 +14656,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "sub'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13523,6 +14671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "sup",
           "package": "xhtml-combinators",
@@ -13532,6 +14681,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "sup",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13546,6 +14696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "sup'",
           "package": "xhtml-combinators",
@@ -13555,6 +14706,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "sup'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13569,6 +14721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "table",
           "package": "xhtml-combinators",
@@ -13578,6 +14731,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "table",
           "normalized": "XHtmlT a TableContent-\u003eXHtmlT a b",
@@ -13592,6 +14746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "table'",
           "package": "xhtml-combinators",
@@ -13601,6 +14756,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "table'",
           "normalized": "Attrs-\u003eXHtmlT a TableContent-\u003eXHtmlT a b",
@@ -13615,6 +14771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tbody",
           "package": "xhtml-combinators",
@@ -13624,6 +14781,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tbody",
           "normalized": "XHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -13638,6 +14796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tbody'",
           "package": "xhtml-combinators",
@@ -13647,6 +14806,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tbody'",
           "normalized": "Attrs-\u003eXHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -13661,6 +14821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "td",
           "package": "xhtml-combinators",
@@ -13670,6 +14831,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "td",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a TrContent",
@@ -13684,6 +14846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "td'",
           "package": "xhtml-combinators",
@@ -13693,6 +14856,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "td'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a TrContent",
@@ -13707,6 +14871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tfoot",
           "package": "xhtml-combinators",
@@ -13716,6 +14881,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tfoot",
           "normalized": "XHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -13730,6 +14896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tfoot'",
           "package": "xhtml-combinators",
@@ -13739,6 +14906,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tfoot'",
           "normalized": "Attrs-\u003eXHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -13753,6 +14921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "th",
           "package": "xhtml-combinators",
@@ -13762,6 +14931,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "th",
           "normalized": "XHtmlT a BlockContent-\u003eXHtmlT a TrContent",
@@ -13776,6 +14946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "th'",
           "package": "xhtml-combinators",
@@ -13785,6 +14956,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "th'",
           "normalized": "Attrs-\u003eXHtmlT a BlockContent-\u003eXHtmlT a TrContent",
@@ -13799,6 +14971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "thead",
           "package": "xhtml-combinators",
@@ -13808,6 +14981,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "thead",
           "normalized": "XHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -13822,6 +14996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "thead'",
           "package": "xhtml-combinators",
@@ -13831,6 +15006,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "thead'",
           "normalized": "Attrs-\u003eXHtmlT a TableSectionContent-\u003eXHtmlT a TableContent",
@@ -13845,6 +15021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "title",
           "package": "xhtml-combinators",
@@ -13854,6 +15031,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "title",
           "normalized": "Text-\u003eXHtmlT a HeadContent",
@@ -13868,6 +15046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "title'",
           "package": "xhtml-combinators",
@@ -13877,6 +15056,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "title'",
           "normalized": "Attrs-\u003eText-\u003eXHtmlT a HeadContent",
@@ -13891,6 +15071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tr",
           "package": "xhtml-combinators",
@@ -13900,6 +15081,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tr",
           "normalized": "XHtmlT a TrContent-\u003eXHtmlT a b",
@@ -13914,6 +15096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tr'",
           "package": "xhtml-combinators",
@@ -13923,6 +15106,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tr'",
           "normalized": "Attrs-\u003eXHtmlT a TrContent-\u003eXHtmlT a b",
@@ -13937,6 +15121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tt",
           "package": "xhtml-combinators",
@@ -13946,6 +15131,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tt",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13960,6 +15146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tt'",
           "package": "xhtml-combinators",
@@ -13969,6 +15156,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "tt'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -13983,6 +15171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "u",
           "package": "xhtml-combinators",
@@ -13992,6 +15181,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "u",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -14006,6 +15196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "u'",
           "package": "xhtml-combinators",
@@ -14015,6 +15206,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "u'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -14029,6 +15221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ul",
           "package": "xhtml-combinators",
@@ -14038,6 +15231,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ul",
           "normalized": "XHtmlT a ListContent-\u003eXHtmlT a b",
@@ -14052,6 +15246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ul'",
           "package": "xhtml-combinators",
@@ -14061,6 +15256,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "ul'",
           "normalized": "Attrs-\u003eXHtmlT a ListContent-\u003eXHtmlT a b",
@@ -14075,6 +15271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "var",
           "package": "xhtml-combinators",
@@ -14084,6 +15281,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "var",
           "normalized": "XHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -14098,6 +15296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "var'",
           "package": "xhtml-combinators",
@@ -14107,6 +15306,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators Transitional",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators.Transitional",
           "name": "var'",
           "normalized": "Attrs-\u003eXHtmlT a InlineContent-\u003eXHtmlT a b",
@@ -14121,6 +15321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:39 UTC 2014",
           "module": "Text.XHtmlCombinators",
           "name": "XHtmlCombinators",
           "package": "xhtml-combinators",
@@ -14129,6 +15330,7 @@
         },
         "index": {
           "hierarchy": "Text XHtmlCombinators",
+          "indexed": "2014-03-11T20:41:39",
           "module": "Text.XHtmlCombinators",
           "name": "XHtmlCombinators",
           "package": "xhtml-combinators",

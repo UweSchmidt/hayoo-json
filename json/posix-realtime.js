@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "posix-realtime"
+        "phrase": "posix-realtime",
+        "type": "phrase"
       },
       "type": "context"
     }

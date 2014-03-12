@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hdbi-tests"
+        "phrase": "hdbi-tests",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "Tests",
           "package": "hdbi-tests",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "Tests",
           "package": "hdbi-tests",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabase specific type names for each SqlValue type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "TestFieldTypes",
           "package": "hdbi-tests",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Database specific type names for each SqlValue type",
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "TestFieldTypes",
           "package": "hdbi-tests",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "TestFieldTypes",
           "package": "hdbi-tests",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "TestFieldTypes",
           "package": "hdbi-tests",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "allTests",
           "package": "hdbi-tests",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "allTests",
           "normalized": "TestFieldTypes-\u003ea-\u003eTest",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfBitField",
           "package": "hdbi-tests",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfBitField",
           "package": "hdbi-tests",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfBlob",
           "package": "hdbi-tests",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfBlob",
           "package": "hdbi-tests",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfBool",
           "package": "hdbi-tests",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfBool",
           "package": "hdbi-tests",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfDecimal",
           "package": "hdbi-tests",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfDecimal",
           "package": "hdbi-tests",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfDouble",
           "package": "hdbi-tests",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfDouble",
           "package": "hdbi-tests",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfInteger",
           "package": "hdbi-tests",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfInteger",
           "package": "hdbi-tests",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfLocalDate",
           "package": "hdbi-tests",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfLocalDate",
           "package": "hdbi-tests",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfLocalTime",
           "package": "hdbi-tests",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfLocalTime",
           "package": "hdbi-tests",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfLocalTimeOfDay",
           "package": "hdbi-tests",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfLocalTimeOfDay",
           "package": "hdbi-tests",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfText",
           "package": "hdbi-tests",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfText",
           "package": "hdbi-tests",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfUTCTime",
           "package": "hdbi-tests",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfUTCTime",
           "package": "hdbi-tests",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:35 UTC 2014",
           "module": "Database.HDBI.Tests",
           "name": "tfUUID",
           "package": "hdbi-tests",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Database HDBI Tests",
+          "indexed": "2014-03-11T18:35:35",
           "module": "Database.HDBI.Tests",
           "name": "tfUUID",
           "package": "hdbi-tests",

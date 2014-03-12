@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "case-conversion"
+        "phrase": "case-conversion",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "CaseConversion",
           "package": "case-conversion",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "CaseConversion",
           "package": "case-conversion",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "WordCase",
           "package": "case-conversion",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "WordCase",
           "package": "case-conversion",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "Camel",
           "package": "case-conversion",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "Camel",
           "package": "case-conversion",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "Snake",
           "package": "case-conversion",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "Snake",
           "package": "case-conversion",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "Spinal",
           "package": "case-conversion",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "Spinal",
           "package": "case-conversion",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "convertCase",
           "package": "case-conversion",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "convertCase",
           "normalized": "WordCase-\u003eWordCase-\u003e[Char]-\u003e[Char]",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "fromCamelCase",
           "package": "case-conversion",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "fromCamelCase",
           "normalized": "[Char]-\u003e[[Char]]",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "fromCase",
           "package": "case-conversion",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "fromCase",
           "normalized": "WordCase-\u003e[Char]-\u003e[[Char]]",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "fromSnakeCase",
           "package": "case-conversion",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "fromSnakeCase",
           "normalized": "[Char]-\u003e[[Char]]",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "fromSpinalCase",
           "package": "case-conversion",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "fromSpinalCase",
           "normalized": "[Char]-\u003e[[Char]]",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "toCamelCase",
           "package": "case-conversion",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "toCamelCase",
           "normalized": "[[Char]]-\u003e[Char]",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "toCase",
           "package": "case-conversion",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "toCase",
           "normalized": "WordCase-\u003e[[Char]]-\u003e[Char]",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "toSnakeCase",
           "package": "case-conversion",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "toSnakeCase",
           "normalized": "[[Char]]-\u003e[Char]",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:00 UTC 2014",
           "module": "Text.CaseConversion",
           "name": "toSpinalCase",
           "package": "case-conversion",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Text CaseConversion",
+          "indexed": "2014-03-11T17:30:00",
           "module": "Text.CaseConversion",
           "name": "toSpinalCase",
           "normalized": "[[Char]]-\u003e[Char]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-boogie"
+        "phrase": "language-boogie",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstract syntax tree for Boogie 2\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "AST",
           "package": "language-boogie",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Abstract syntax tree for Boogie",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "AST",
           "package": "language-boogie",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-level declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "BareDecl",
           "package": "language-boogie",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Top-level declaration",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "BareDecl",
           "package": "language-boogie",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "BareExpression",
           "package": "language-boogie",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Expression",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "BareExpression",
           "package": "language-boogie",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatement labeled by multiple labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "BareLStatement",
           "package": "language-boogie",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Statement labeled by multiple labels",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "BareLStatement",
           "package": "language-boogie",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "BareStatement",
           "package": "language-boogie",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Statement",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "BareStatement",
           "package": "language-boogie",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic block is a list of statements labeled by a single label;\n the list contains no jump, if or while statements,\n except for the last statement, which can be a goto or return\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "BasicBlock",
           "package": "language-boogie",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Basic block is list of statements labeled by single label the list contains no jump if or while statements except for the last statement which can be goto or return",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "BasicBlock",
           "package": "language-boogie",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcedure body transformed to basic blocks:\n consists of local variable declarations and a set of basic blocks\n (represented as a map from their labels to statement lists)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "BasicBody",
           "package": "language-boogie",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Procedure body transformed to basic blocks consists of local variable declarations and set of basic blocks represented as map from their labels to statement lists",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "BasicBody",
           "package": "language-boogie",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary operators  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "BinOp",
           "package": "language-boogie",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Binary operators",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "BinOp",
           "package": "language-boogie",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatement block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Block",
           "package": "language-boogie",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Statement block",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Block",
           "package": "language-boogie",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcedure body: consists of local variable declarations and a statement block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Body",
           "package": "language-boogie",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Procedure body consists of local variable declarations and statement block",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Body",
           "package": "language-boogie",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcedure contract clause \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Contract",
           "package": "language-boogie",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Procedure contract clause",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Contract",
           "package": "language-boogie",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-level declaration with a source position attached  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Decl",
           "package": "language-boogie",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Top-level declaration with source position attached",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Decl",
           "package": "language-boogie",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression with a source position attached  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Expression",
           "package": "language-boogie",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Expression with source position attached",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Expression",
           "package": "language-boogie",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal argument of a function  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "FArg",
           "package": "language-boogie",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Formal argument of function",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "FArg",
           "package": "language-boogie",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Id",
           "package": "language-boogie",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Identifier",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Id",
           "package": "language-boogie",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName declaration (identifier, type)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "IdType",
           "package": "language-boogie",
@@ -373,6 +404,7 @@
         "index": {
           "description": "Name declaration identifier type",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "IdType",
           "package": "language-boogie",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName declaration with a where clause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "IdTypeWhere",
           "package": "language-boogie",
@@ -396,6 +429,7 @@
         "index": {
           "description": "Name declaration with where clause",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "IdTypeWhere",
           "package": "language-boogie",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatement labeled by multiple labels with a source position attached  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "LStatement",
           "package": "language-boogie",
@@ -419,6 +454,7 @@
         "index": {
           "description": "Statement labeled by multiple labels with source position attached",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "LStatement",
           "package": "language-boogie",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "NewType",
           "package": "language-boogie",
@@ -442,6 +479,7 @@
         "index": {
           "description": "Definition of type",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "NewType",
           "package": "language-boogie",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParent edge of a constant declaration (uniqueness, parent name)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "ParentEdge",
           "package": "language-boogie",
@@ -465,6 +504,7 @@
         "index": {
           "description": "Parent edge of constant declaration uniqueness parent name",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "ParentEdge",
           "package": "language-boogie",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParent information in a constant declaration\n (Nothing means no information, while empty list means no parents)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "ParentInfo",
           "package": "language-boogie",
@@ -488,6 +529,7 @@
         "index": {
           "description": "Parent information in constant declaration Nothing means no information while empty list means no parents",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "ParentInfo",
           "package": "language-boogie",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram: a list of top-level declarations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Program",
           "package": "language-boogie",
@@ -511,6 +554,7 @@
         "index": {
           "description": "Program list of top-level declarations",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Program",
           "package": "language-boogie",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuantifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "QOp",
           "package": "language-boogie",
@@ -534,6 +579,7 @@
         "index": {
           "description": "Quantifiers",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "QOp",
           "package": "language-boogie",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecification clause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "SpecClause",
           "package": "language-boogie",
@@ -557,6 +604,7 @@
         "index": {
           "description": "Specification clause",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "SpecClause",
           "package": "language-boogie",
@@ -571,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of specification clauses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "SpecType",
           "package": "language-boogie",
@@ -580,6 +629,7 @@
         "index": {
           "description": "Types of specification clauses",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "SpecType",
           "package": "language-boogie",
@@ -594,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatement with a source position attached  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Statement",
           "package": "language-boogie",
@@ -603,6 +654,7 @@
         "index": {
           "description": "Statement with source position attached",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Statement",
           "package": "language-boogie",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Type",
           "package": "language-boogie",
@@ -626,6 +679,7 @@
         "index": {
           "description": "Type",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Type",
           "package": "language-boogie",
@@ -640,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "UnOp",
           "package": "language-boogie",
@@ -649,6 +704,7 @@
         "index": {
           "description": "Unary operators",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "UnOp",
           "package": "language-boogie",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWildcard or expression  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "WildcardExpression",
           "package": "language-boogie",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Wildcard or expression",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "WildcardExpression",
           "package": "language-boogie",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "And",
           "package": "language-boogie",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "And",
           "package": "language-boogie",
@@ -708,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eApplication\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef args\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Application",
           "package": "language-boogie",
@@ -718,6 +779,7 @@
         "index": {
           "description": "Application args",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Application",
           "normalized": "Application Id[Expression]",
@@ -734,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAssign\u003c/a\u003e\u003c/code\u003e \u003ccode\u003evar_map_selects rhss\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Assign",
           "package": "language-boogie",
@@ -744,6 +807,7 @@
         "index": {
           "description": "Assign var map selects rhss",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Assign",
           "normalized": "Assign[(Id,[[Expression]])][Expression]",
@@ -759,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Axiom",
           "package": "language-boogie",
@@ -768,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Axiom",
           "package": "language-boogie",
@@ -781,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "AxiomDecl",
           "package": "language-boogie",
@@ -790,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "AxiomDecl",
           "package": "language-boogie",
@@ -803,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "BinaryExpression",
           "package": "language-boogie",
@@ -812,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "BinaryExpression",
           "package": "language-boogie",
@@ -826,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebool \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "BoolType",
           "package": "language-boogie",
@@ -836,6 +907,7 @@
         "index": {
           "description": "bool",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "BoolType",
           "package": "language-boogie",
@@ -850,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBreak\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elabel\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Break",
           "package": "language-boogie",
@@ -860,6 +933,7 @@
         "index": {
           "description": "Break label",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Break",
           "package": "language-boogie",
@@ -874,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCall\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elhss proc_name args\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Call",
           "package": "language-boogie",
@@ -884,6 +959,7 @@
         "index": {
           "description": "Call lhss proc name args",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Call",
           "normalized": "Call[Id]Id[Expression]",
@@ -900,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCallForall\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eproc_name args\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "CallForall",
           "package": "language-boogie",
@@ -910,6 +987,7 @@
         "index": {
           "description": "CallForall proc name args",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "CallForall",
           "normalized": "CallForall Id[WildcardExpression]",
@@ -925,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Coercion",
           "package": "language-boogie",
@@ -934,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Coercion",
           "package": "language-boogie",
@@ -948,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eConstantDecl\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eunique names type orderSpec complete\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "ConstantDecl",
           "package": "language-boogie",
@@ -958,6 +1039,7 @@
         "index": {
           "description": "ConstantDecl unique names type orderSpec complete",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "ConstantDecl",
           "normalized": "ConstantDecl Bool[Id]Type ParentInfo Bool",
@@ -973,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Div",
           "package": "language-boogie",
@@ -982,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Div",
           "package": "language-boogie",
@@ -996,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eEnsures\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ee free\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Ensures",
           "package": "language-boogie",
@@ -1006,6 +1091,7 @@
         "index": {
           "description": "Ensures free",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Ensures",
           "package": "language-boogie",
@@ -1019,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Eq",
           "package": "language-boogie",
@@ -1028,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Eq",
           "package": "language-boogie",
@@ -1041,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Equiv",
           "package": "language-boogie",
@@ -1050,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Equiv",
           "package": "language-boogie",
@@ -1063,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Exists",
           "package": "language-boogie",
@@ -1072,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Exists",
           "package": "language-boogie",
@@ -1085,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Explies",
           "package": "language-boogie",
@@ -1094,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Explies",
           "package": "language-boogie",
@@ -1107,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Expr",
           "package": "language-boogie",
@@ -1116,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Expr",
           "package": "language-boogie",
@@ -1130,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efalse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "FF",
           "package": "language-boogie",
@@ -1140,6 +1237,7 @@
         "index": {
           "description": "false",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "FF",
           "package": "language-boogie",
@@ -1153,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Forall",
           "package": "language-boogie",
@@ -1162,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Forall",
           "package": "language-boogie",
@@ -1176,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFunctionDecl\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ename type_args formals ret body\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "FunctionDecl",
           "package": "language-boogie",
@@ -1186,6 +1287,7 @@
         "index": {
           "description": "FunctionDecl name type args formals ret body",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "FunctionDecl",
           "normalized": "FunctionDecl Id[Id][FArg]FArg(Maybe Expression)",
@@ -1201,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Geq",
           "package": "language-boogie",
@@ -1210,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Geq",
           "package": "language-boogie",
@@ -1224,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGoto\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elabels\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Goto",
           "package": "language-boogie",
@@ -1234,6 +1339,7 @@
         "index": {
           "description": "Goto labels",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Goto",
           "normalized": "Goto[Id]",
@@ -1249,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Gt",
           "package": "language-boogie",
@@ -1258,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Gt",
           "package": "language-boogie",
@@ -1272,6 +1380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHavoc\u003c/a\u003e\u003c/code\u003e \u003ccode\u003evar_names\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Havoc",
           "package": "language-boogie",
@@ -1282,6 +1391,7 @@
         "index": {
           "description": "Havoc var names",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Havoc",
           "normalized": "Havoc[Id]",
@@ -1297,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "IdType",
           "package": "language-boogie",
@@ -1306,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "IdType",
           "normalized": "IdType Id[Type]",
@@ -1321,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "IdTypeWhere",
           "package": "language-boogie",
@@ -1330,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "IdTypeWhere",
           "package": "language-boogie",
@@ -1344,6 +1458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIf\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ewild_or_expr then_block else_block\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "If",
           "package": "language-boogie",
@@ -1354,6 +1469,7 @@
         "index": {
           "description": "If wild or expr then block else block",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "If",
           "package": "language-boogie",
@@ -1368,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIfExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003econd eThen eElse\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "IfExpr",
           "package": "language-boogie",
@@ -1378,6 +1495,7 @@
         "index": {
           "description": "IfExpr cond eThen eElse",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "IfExpr",
           "package": "language-boogie",
@@ -1392,6 +1510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eImplementationDecl\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ename type_args formals rets body\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "ImplementationDecl",
           "package": "language-boogie",
@@ -1402,6 +1521,7 @@
         "index": {
           "description": "ImplementationDecl name type args formals rets body",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "ImplementationDecl",
           "normalized": "ImplementationDecl Id[Id][IdType][IdType][Body]",
@@ -1417,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Implies",
           "package": "language-boogie",
@@ -1426,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Implies",
           "package": "language-boogie",
@@ -1439,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Inline",
           "package": "language-boogie",
@@ -1448,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Inline",
           "package": "language-boogie",
@@ -1462,6 +1586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "IntType",
           "package": "language-boogie",
@@ -1472,6 +1597,7 @@
         "index": {
           "description": "int",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "IntType",
           "package": "language-boogie",
@@ -1485,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Lambda",
           "package": "language-boogie",
@@ -1494,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Lambda",
           "package": "language-boogie",
@@ -1507,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Lc",
           "package": "language-boogie",
@@ -1516,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Lc",
           "package": "language-boogie",
@@ -1529,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Leq",
           "package": "language-boogie",
@@ -1538,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Leq",
           "package": "language-boogie",
@@ -1551,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "LoopInvariant",
           "package": "language-boogie",
@@ -1560,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "LoopInvariant",
           "package": "language-boogie",
@@ -1573,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Ls",
           "package": "language-boogie",
@@ -1582,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Ls",
           "package": "language-boogie",
@@ -1596,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMapSelection\u003c/a\u003e\u003c/code\u003e \u003ccode\u003emap indexes\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "MapSelection",
           "package": "language-boogie",
@@ -1606,6 +1743,7 @@
         "index": {
           "description": "MapSelection map indexes",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "MapSelection",
           "normalized": "MapSelection Expression[Expression]",
@@ -1621,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "MapType",
           "package": "language-boogie",
@@ -1630,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "MapType",
           "normalized": "MapType[Id][Type]Type",
@@ -1646,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMapUpdate\u003c/a\u003e\u003c/code\u003e \u003ccode\u003emap indexes rhs\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "MapUpdate",
           "package": "language-boogie",
@@ -1656,6 +1797,7 @@
         "index": {
           "description": "MapUpdate map indexes rhs",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "MapUpdate",
           "normalized": "MapUpdate Expression[Expression]Expression",
@@ -1671,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Minus",
           "package": "language-boogie",
@@ -1680,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Minus",
           "package": "language-boogie",
@@ -1693,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Mod",
           "package": "language-boogie",
@@ -1702,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Mod",
           "package": "language-boogie",
@@ -1716,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eModifies\u003c/a\u003e\u003c/code\u003e \u003ccode\u003evar_names free\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Modifies",
           "package": "language-boogie",
@@ -1726,6 +1873,7 @@
         "index": {
           "description": "Modifies var names free",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Modifies",
           "normalized": "Modifies Bool[Id]",
@@ -1741,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Neg",
           "package": "language-boogie",
@@ -1750,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Neg",
           "package": "language-boogie",
@@ -1763,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Neq",
           "package": "language-boogie",
@@ -1772,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Neq",
           "package": "language-boogie",
@@ -1785,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "NewType",
           "package": "language-boogie",
@@ -1794,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "NewType",
           "package": "language-boogie",
@@ -1807,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Not",
           "package": "language-boogie",
@@ -1816,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Not",
           "package": "language-boogie",
@@ -1830,6 +1986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNumeral\u003c/a\u003e\u003c/code\u003e \u003ccode\u003evalue\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Numeral",
           "package": "language-boogie",
@@ -1840,6 +1997,7 @@
         "index": {
           "description": "Numeral value",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Numeral",
           "package": "language-boogie",
@@ -1853,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Old",
           "package": "language-boogie",
@@ -1862,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Old",
           "package": "language-boogie",
@@ -1875,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Or",
           "package": "language-boogie",
@@ -1884,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Or",
           "package": "language-boogie",
@@ -1897,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Plus",
           "package": "language-boogie",
@@ -1906,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Plus",
           "package": "language-boogie",
@@ -1919,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Postcondition",
           "package": "language-boogie",
@@ -1928,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Postcondition",
           "package": "language-boogie",
@@ -1941,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Precondition",
           "package": "language-boogie",
@@ -1950,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Precondition",
           "package": "language-boogie",
@@ -1964,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate statement (assume or assert)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Predicate",
           "package": "language-boogie",
@@ -1974,6 +2143,7 @@
         "index": {
           "description": "Predicate statement assume or assert",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Predicate",
           "package": "language-boogie",
@@ -1988,6 +2158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eProcedureDecl\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ename type_args formals rets contract body\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "ProcedureDecl",
           "package": "language-boogie",
@@ -1998,6 +2169,7 @@
         "index": {
           "description": "ProcedureDecl name type args formals rets contract body",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "ProcedureDecl",
           "normalized": "ProcedureDecl Id[Id][IdTypeWhere][IdTypeWhere][Contract](Maybe Body)",
@@ -2013,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Program",
           "package": "language-boogie",
@@ -2022,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Program",
           "normalized": "Program[Decl]",
@@ -2038,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eQuantified\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eqop type_vars bound_vars expr\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Quantified",
           "package": "language-boogie",
@@ -2048,6 +2223,7 @@
         "index": {
           "description": "Quantified qop type vars bound vars expr",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Quantified",
           "normalized": "Quantified QOp[Id][IdType]Expression",
@@ -2064,6 +2240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRequires\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ee free\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Requires",
           "package": "language-boogie",
@@ -2074,6 +2251,7 @@
         "index": {
           "description": "Requires free",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Requires",
           "package": "language-boogie",
@@ -2087,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Return",
           "package": "language-boogie",
@@ -2096,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Return",
           "package": "language-boogie",
@@ -2110,6 +2290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly used at the end of a block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Skip",
           "package": "language-boogie",
@@ -2120,6 +2301,7 @@
         "index": {
           "description": "only used at the end of block",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Skip",
           "package": "language-boogie",
@@ -2133,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "SpecClause",
           "package": "language-boogie",
@@ -2142,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "SpecClause",
           "package": "language-boogie",
@@ -2156,6 +2340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etrue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "TT",
           "package": "language-boogie",
@@ -2166,6 +2351,7 @@
         "index": {
           "description": "true",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "TT",
           "package": "language-boogie",
@@ -2179,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Times",
           "package": "language-boogie",
@@ -2188,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Times",
           "package": "language-boogie",
@@ -2201,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "TypeDecl",
           "package": "language-boogie",
@@ -2210,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "TypeDecl",
           "normalized": "TypeDecl[NewType]",
@@ -2225,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "UnaryExpression",
           "package": "language-boogie",
@@ -2234,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "UnaryExpression",
           "package": "language-boogie",
@@ -2248,6 +2440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ename\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Var",
           "package": "language-boogie",
@@ -2258,6 +2451,7 @@
         "index": {
           "description": "Var name",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Var",
           "package": "language-boogie",
@@ -2271,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "VarDecl",
           "package": "language-boogie",
@@ -2280,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "VarDecl",
           "normalized": "VarDecl[IdTypeWhere]",
@@ -2295,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Where",
           "package": "language-boogie",
@@ -2304,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Where",
           "package": "language-boogie",
@@ -2318,6 +2516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWhile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ewild_or_expr free_loop_inv loop_body\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "While",
           "package": "language-boogie",
@@ -2328,6 +2527,7 @@
         "index": {
           "description": "While wild or expr free loop inv loop body",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "While",
           "normalized": "While WildcardExpression[SpecClause]Block",
@@ -2343,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "Wildcard",
           "package": "language-boogie",
@@ -2352,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "Wildcard",
           "package": "language-boogie",
@@ -2366,6 +2568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument name used for unnamed function arguments\n (does not matter, because it is never referred to from function's body)  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "dummyFArg",
           "package": "language-boogie",
@@ -2376,6 +2579,7 @@
         "index": {
           "description": "Argument name used for unnamed function arguments does not matter because it is never referred to from function body",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "dummyFArg",
           "normalized": "[Char]",
@@ -2391,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "itwId",
           "package": "language-boogie",
@@ -2400,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "itwId",
           "package": "language-boogie",
@@ -2413,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "itwType",
           "package": "language-boogie",
@@ -2422,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "itwType",
           "package": "language-boogie",
@@ -2435,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "itwWhere",
           "package": "language-boogie",
@@ -2444,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "itwWhere",
           "package": "language-boogie",
@@ -2458,6 +2668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emapSelectExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em args\u003c/code\u003e : map selection expression with position of \u003ccode\u003em\u003c/code\u003e attached\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "mapSelectExpr",
           "package": "language-boogie",
@@ -2468,6 +2679,7 @@
         "index": {
           "description": "mapSelectExpr args map selection expression with position of attached",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "mapSelectExpr",
           "normalized": "Pos BareExpression-\u003e[Expression]-\u003ePos BareExpression",
@@ -2484,6 +2696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDummy type used during type checking to denote error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "noType",
           "package": "language-boogie",
@@ -2494,6 +2707,7 @@
         "index": {
           "description": "Dummy type used during type checking to denote error",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "noType",
           "package": "language-boogie",
@@ -2508,6 +2722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the where clause  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "noWhere",
           "package": "language-boogie",
@@ -2518,6 +2733,7 @@
         "index": {
           "description": "Strip the where clause",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "noWhere",
           "normalized": "IdTypeWhere-\u003e(Id,Type)",
@@ -2534,6 +2750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003enullaryType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eid\u003c/code\u003e : type denoted by \u003ccode\u003eid\u003c/code\u003e without arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "nullaryType",
           "package": "language-boogie",
@@ -2544,6 +2761,7 @@
         "index": {
           "description": "nullaryType id type denoted by id without arguments",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "nullaryType",
           "normalized": "Id-\u003eType",
@@ -2560,6 +2778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock consisting of a single non-labeled statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "singletonBlock",
           "package": "language-boogie",
@@ -2570,6 +2789,7 @@
         "index": {
           "description": "Block consisting of single non-labeled statement",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "singletonBlock",
           "normalized": "Pos a-\u003e[Pos([a],Pos a)]",
@@ -2586,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "specExpr",
           "package": "language-boogie",
@@ -2596,6 +2817,7 @@
         "index": {
           "description": "Boolean expression",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "specExpr",
           "package": "language-boogie",
@@ -2610,6 +2832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it free (assumption) or checked (assertions)?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "specFree",
           "package": "language-boogie",
@@ -2620,6 +2843,7 @@
         "index": {
           "description": "Is it free assumption or checked assertions",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "specFree",
           "package": "language-boogie",
@@ -2634,6 +2858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource of the clause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "specType",
           "package": "language-boogie",
@@ -2644,6 +2869,7 @@
         "index": {
           "description": "Source of the clause",
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "specType",
           "package": "language-boogie",
@@ -2657,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "tArgs",
           "package": "language-boogie",
@@ -2666,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "tArgs",
           "normalized": "[Id]",
@@ -2681,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "tId",
           "package": "language-boogie",
@@ -2690,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "tId",
           "package": "language-boogie",
@@ -2703,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.AST",
           "name": "tValue",
           "package": "language-boogie",
@@ -2712,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie AST",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.AST",
           "name": "tValue",
           "package": "language-boogie",
@@ -2726,6 +2958,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic block transformation for imperative Boogie code\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.BasicBlocks",
           "name": "BasicBlocks",
           "package": "language-boogie",
@@ -2735,6 +2968,7 @@
         "index": {
           "description": "Basic block transformation for imperative Boogie code",
           "hierarchy": "Language Boogie BasicBlocks",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.BasicBlocks",
           "name": "BasicBlocks",
           "package": "language-boogie",
@@ -2749,6 +2983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel of the first block in a procedure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.BasicBlocks",
           "name": "startLabel",
           "package": "language-boogie",
@@ -2759,6 +2994,7 @@
         "index": {
           "description": "Label of the first block in procedure",
           "hierarchy": "Language Boogie BasicBlocks",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.BasicBlocks",
           "name": "startLabel",
           "normalized": "[Char]",
@@ -2775,6 +3011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform procedure body into a sequence of basic blocks.\n A basic block starts with a label and contains no jump, if or while statements,\n except for the last statement, which can be a goto or return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.BasicBlocks",
           "name": "toBasicBlocks",
           "package": "language-boogie",
@@ -2785,6 +3022,7 @@
         "index": {
           "description": "Transform procedure body into sequence of basic blocks basic block starts with label and contains no jump if or while statements except for the last statement which can be goto or return",
           "hierarchy": "Language Boogie BasicBlocks",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.BasicBlocks",
           "name": "toBasicBlocks",
           "normalized": "Block-\u003e[BasicBlock]",
@@ -2801,6 +3039,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExecution state for the interpreter\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "Environment",
           "package": "language-boogie",
@@ -2810,6 +3049,7 @@
         "index": {
           "description": "Execution state for the interpreter",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "Environment",
           "package": "language-boogie",
@@ -2824,6 +3064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract memory: stores constraints associated with names and references\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "AbstractMemory",
           "package": "language-boogie",
@@ -2833,6 +3074,7 @@
         "index": {
           "description": "Abstract memory stores constraints associated with names and references",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "AbstractMemory",
           "package": "language-boogie",
@@ -2847,6 +3089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecution state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "Environment",
           "package": "language-boogie",
@@ -2856,6 +3099,7 @@
         "index": {
           "description": "Execution state",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "Environment",
           "package": "language-boogie",
@@ -2870,6 +3114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of a map value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "MapRepr",
           "package": "language-boogie",
@@ -2879,6 +3124,7 @@
         "index": {
           "description": "Representation of map value",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "MapRepr",
           "package": "language-boogie",
@@ -2893,6 +3139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory: stores concrete values associated with names and references\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "Memory",
           "package": "language-boogie",
@@ -2902,6 +3149,7 @@
         "index": {
           "description": "Memory stores concrete values associated with names and references",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "Memory",
           "package": "language-boogie",
@@ -2916,6 +3164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore: stores variable values at runtime \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "Store",
           "package": "language-boogie",
@@ -2925,6 +3174,7 @@
         "index": {
           "description": "Store stores variable values at runtime",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "Store",
           "package": "language-boogie",
@@ -2939,6 +3189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens that selects a store from memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "StoreLens",
           "package": "language-boogie",
@@ -2948,6 +3199,7 @@
         "index": {
           "description": "Lens that selects store from memory",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "StoreLens",
           "package": "language-boogie",
@@ -2962,6 +3214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun-time value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "Value",
           "package": "language-boogie",
@@ -2971,6 +3224,7 @@
         "index": {
           "description": "Run-time value",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "Value",
           "package": "language-boogie",
@@ -2985,6 +3239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "BoolValue",
           "package": "language-boogie",
@@ -2995,6 +3250,7 @@
         "index": {
           "description": "Boolean value",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "BoolValue",
           "package": "language-boogie",
@@ -3009,6 +3265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of a user-defined type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "CustomValue",
           "package": "language-boogie",
@@ -3019,6 +3276,7 @@
         "index": {
           "description": "Value of user-defined type",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "CustomValue",
           "package": "language-boogie",
@@ -3033,6 +3291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap that is derived from another map by redefining values at some keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "Derived",
           "package": "language-boogie",
@@ -3043,6 +3302,7 @@
         "index": {
           "description": "Map that is derived from another map by redefining values at some keys",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "Derived",
           "normalized": "Derived Ref(Map[Value]Value)",
@@ -3059,6 +3319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "IntValue",
           "package": "language-boogie",
@@ -3069,6 +3330,7 @@
         "index": {
           "description": "Integer value",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "IntValue",
           "package": "language-boogie",
@@ -3083,6 +3345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of a map type: consists of an optional reference to the base map (if derived from base by updating) and key-value pairs that override base\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "MapValue",
           "package": "language-boogie",
@@ -3093,6 +3356,7 @@
         "index": {
           "description": "Value of map type consists of an optional reference to the base map if derived from base by updating and key-value pairs that override base",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "MapValue",
           "package": "language-boogie",
@@ -3107,6 +3371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to a map stored in the heap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "Reference",
           "package": "language-boogie",
@@ -3117,6 +3382,7 @@
         "index": {
           "description": "Reference to map stored in the heap",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "Reference",
           "package": "language-boogie",
@@ -3131,6 +3397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap that comes directly from a non-deterministic choice, possibly with some key-value pairs defined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "Source",
           "package": "language-boogie",
@@ -3141,6 +3408,7 @@
         "index": {
           "description": "Map that comes directly from non-deterministic choice possibly with some key-value pairs defined",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "Source",
           "normalized": "Source(Map[Value]Value)",
@@ -3156,6 +3424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "addGlobalDefinition",
           "package": "language-boogie",
@@ -3165,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "addGlobalDefinition",
           "normalized": "Id-\u003eFDef-\u003eEnvironment a-\u003eEnvironment a",
@@ -3180,6 +3450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "addMapConstraint",
           "package": "language-boogie",
@@ -3189,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "addMapConstraint",
           "normalized": "Ref-\u003eFDef-\u003eEnvironment a-\u003eEnvironment a",
@@ -3204,6 +3476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "addMapDefinition",
           "package": "language-boogie",
@@ -3213,6 +3486,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "addMapDefinition",
           "normalized": "Ref-\u003eFDef-\u003eEnvironment a-\u003eEnvironment a",
@@ -3228,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "addProcedureImpl",
           "package": "language-boogie",
@@ -3237,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "addProcedureImpl",
           "normalized": "Id-\u003ePDef-\u003eEnvironment a-\u003eEnvironment a",
@@ -3252,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "amGlobals",
           "package": "language-boogie",
@@ -3261,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "amGlobals",
           "package": "language-boogie",
@@ -3274,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "amHeap",
           "package": "language-boogie",
@@ -3283,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "amHeap",
           "package": "language-boogie",
@@ -3296,6 +3576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "amLocals",
           "package": "language-boogie",
@@ -3305,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "amLocals",
           "package": "language-boogie",
@@ -3319,6 +3601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edeepDeref\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eh v\u003c/code\u003e: Completely dereference value \u003ccode\u003ev\u003c/code\u003e given heap \u003ccode\u003eh\u003c/code\u003e (so that no references are left in \u003ccode\u003ev\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "deepDeref",
           "package": "language-boogie",
@@ -3329,6 +3612,7 @@
         "index": {
           "description": "deepDeref Completely dereference value given heap so that no references are left in",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "deepDeref",
           "normalized": "Heap Value-\u003eValue-\u003eValue",
@@ -3345,6 +3629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of an empty map  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "emptyMap",
           "package": "language-boogie",
@@ -3355,6 +3640,7 @@
         "index": {
           "description": "Representation of an empty map",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "emptyMap",
           "package": "language-boogie",
@@ -3369,6 +3655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "emptyMemory",
           "package": "language-boogie",
@@ -3379,6 +3666,7 @@
         "index": {
           "description": "Empty memory",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "emptyMemory",
           "package": "language-boogie",
@@ -3393,6 +3681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA store with no variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "emptyStore",
           "package": "language-boogie",
@@ -3403,6 +3692,7 @@
         "index": {
           "description": "store with no variables",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "emptyStore",
           "package": "language-boogie",
@@ -3416,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "envConstraints",
           "package": "language-boogie",
@@ -3425,6 +3716,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "envConstraints",
           "package": "language-boogie",
@@ -3438,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "envCustomCount",
           "package": "language-boogie",
@@ -3447,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "envCustomCount",
           "package": "language-boogie",
@@ -3460,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "envGenerator",
           "package": "language-boogie",
@@ -3469,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "envGenerator",
           "package": "language-boogie",
@@ -3482,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "envInOld",
           "package": "language-boogie",
@@ -3491,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "envInOld",
           "package": "language-boogie",
@@ -3504,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "envMemory",
           "package": "language-boogie",
@@ -3513,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "envMemory",
           "package": "language-boogie",
@@ -3526,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "envProcedures",
           "package": "language-boogie",
@@ -3535,6 +3836,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "envProcedures",
           "normalized": "a b Lens(Environment c)(Environment c)(Map Id[PDef])(Map Id[PDef])",
@@ -3550,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "envQBound",
           "package": "language-boogie",
@@ -3559,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "envQBound",
           "package": "language-boogie",
@@ -3572,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "envTypeContext",
           "package": "language-boogie",
@@ -3581,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "envTypeContext",
           "package": "language-boogie",
@@ -3595,6 +3901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource reference and key-value pairs of a reference in a heap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "flattenMap",
           "package": "language-boogie",
@@ -3605,6 +3912,7 @@
         "index": {
           "description": "Source reference and key-value pairs of reference in heap",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "flattenMap",
           "normalized": "Heap Value-\u003eRef-\u003e(Ref,Map[Value]Value)",
@@ -3621,6 +3929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efunctionConst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ename\u003c/code\u003e : name of a map constant that corresponds function \u003ccode\u003ename\u003c/code\u003e\n (must be distinct from all global names)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "functionConst",
           "package": "language-boogie",
@@ -3631,6 +3940,7 @@
         "index": {
           "description": "functionConst name name of map constant that corresponds function name must be distinct from all global names",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "functionConst",
           "normalized": "[Char]-\u003e[Char]",
@@ -3647,6 +3957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einitEnv\u003c/a\u003e\u003c/code\u003e \u003ccode\u003etc gen\u003c/code\u003e: Initial environment in a type context \u003ccode\u003etc\u003c/code\u003e with a value generator \u003ccode\u003egen\u003c/code\u003e  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "initEnv",
           "package": "language-boogie",
@@ -3657,6 +3968,7 @@
         "index": {
           "description": "initEnv tc gen Initial environment in type context tc with value generator gen",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "initEnv",
           "normalized": "Context-\u003eGenerator a-\u003eMaybe Integer-\u003eEnvironment a",
@@ -3672,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "lookupCustomCount",
           "package": "language-boogie",
@@ -3681,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "lookupCustomCount",
           "normalized": "Id-\u003eEnvironment a-\u003eInt",
@@ -3696,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "lookupMapConstraints",
           "package": "language-boogie",
@@ -3705,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "lookupMapConstraints",
           "normalized": "Ref-\u003eEnvironment a-\u003eConstraintSet",
@@ -3720,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "lookupNameConstraints",
           "package": "language-boogie",
@@ -3729,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "lookupNameConstraints",
           "normalized": "Id-\u003eEnvironment a-\u003eConstraintSet",
@@ -3744,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "lookupProcedure",
           "package": "language-boogie",
@@ -3753,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "lookupProcedure",
           "normalized": "Id-\u003eEnvironment a-\u003e[PDef]",
@@ -3769,6 +4089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst component of \u003ccode\u003e\u003ca\u003eflattenMap\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "mapSource",
           "package": "language-boogie",
@@ -3779,6 +4100,7 @@
         "index": {
           "description": "First component of flattenMap",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "mapSource",
           "normalized": "Heap Value-\u003eRef-\u003eRef",
@@ -3795,6 +4117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecond component of \u003ccode\u003e\u003ca\u003eflattenMap\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "mapValues",
           "package": "language-boogie",
@@ -3805,6 +4128,7 @@
         "index": {
           "description": "Second component of flattenMap",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "mapValues",
           "normalized": "Heap Value-\u003eRef-\u003eMap[Value]Value",
@@ -3820,6 +4144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "memConstants",
           "package": "language-boogie",
@@ -3829,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "memConstants",
           "package": "language-boogie",
@@ -3842,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "memGlobals",
           "package": "language-boogie",
@@ -3851,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "memGlobals",
           "package": "language-boogie",
@@ -3864,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "memHeap",
           "package": "language-boogie",
@@ -3873,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "memHeap",
           "package": "language-boogie",
@@ -3886,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "memLocals",
           "package": "language-boogie",
@@ -3895,6 +4226,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "memLocals",
           "package": "language-boogie",
@@ -3908,6 +4240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "memOld",
           "package": "language-boogie",
@@ -3917,6 +4250,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "memOld",
           "package": "language-boogie",
@@ -3931,6 +4265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ememoryDoc\u003c/a\u003e\u003c/code\u003e \u003ccode\u003edebug mem\u003c/code\u003e : either user or debug representation of \u003ccode\u003emem\u003c/code\u003e, depending on \u003ccode\u003edebug\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "memoryDoc",
           "package": "language-boogie",
@@ -3941,6 +4276,7 @@
         "index": {
           "description": "memoryDoc debug mem either user or debug representation of mem depending on debug",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "memoryDoc",
           "normalized": "Bool-\u003eMemory-\u003eDoc",
@@ -3956,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "mustAgree",
           "package": "language-boogie",
@@ -3965,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "mustAgree",
           "normalized": "Heap Value-\u003eMap a Value-\u003eMap a Value-\u003eBool",
@@ -3980,6 +4318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "mustDisagree",
           "package": "language-boogie",
@@ -3989,6 +4328,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "mustDisagree",
           "normalized": "Heap Value-\u003eMap a Value-\u003eMap a Value-\u003eBool",
@@ -4005,6 +4345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eobjectEq\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eh v1 v2\u003c/code\u003e: is \u003ccode\u003ev1\u003c/code\u003e equal to \u003ccode\u003ev2\u003c/code\u003e in the Boogie semantics? Nothing if cannot be determined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "objectEq",
           "package": "language-boogie",
@@ -4015,6 +4356,7 @@
         "index": {
           "description": "objectEq v1 v2 is v1 equal to v2 in the Boogie semantics Nothing if cannot be determined",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "objectEq",
           "normalized": "Heap Value-\u003eValue-\u003eValue-\u003eMaybe Bool",
@@ -4031,6 +4373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDummy user-defined type used to differentiate map values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "refIdTypeName",
           "package": "language-boogie",
@@ -4041,6 +4384,7 @@
         "index": {
           "description": "Dummy user-defined type used to differentiate map values",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "refIdTypeName",
           "normalized": "[Char]",
@@ -4056,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "setCustomCount",
           "package": "language-boogie",
@@ -4065,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "setCustomCount",
           "normalized": "Id-\u003eInt-\u003eEnvironment a-\u003eEnvironment a",
@@ -4081,6 +4427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed store\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "storeDoc",
           "package": "language-boogie",
@@ -4091,6 +4438,7 @@
         "index": {
           "description": "Pretty-printed store",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "storeDoc",
           "normalized": "Store-\u003eDoc",
@@ -4107,6 +4455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey-value pairs stored explicitly in a map representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "stored",
           "package": "language-boogie",
@@ -4117,6 +4466,7 @@
         "index": {
           "description": "Key-value pairs stored explicitly in map representation",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "stored",
           "normalized": "MapRepr-\u003eMap[Value]Value",
@@ -4132,6 +4482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDummy user-defined type used to mark entities whose definitions are currently being evaluated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "ucTypeName",
           "package": "language-boogie",
@@ -4142,6 +4493,7 @@
         "index": {
           "description": "Dummy user-defined type used to mark entities whose definitions are currently being evaluated",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "ucTypeName",
           "normalized": "[Char]",
@@ -4157,6 +4509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "unValueBool",
           "package": "language-boogie",
@@ -4166,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "unValueBool",
           "normalized": "Value-\u003eBool",
@@ -4181,6 +4535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "unValueMap",
           "package": "language-boogie",
@@ -4190,6 +4545,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "unValueMap",
           "normalized": "Value-\u003eMapRepr",
@@ -4206,6 +4562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003euserStore\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eheap store\u003c/code\u003e : \u003ccode\u003estore\u003c/code\u003e with all reference values completely dereferenced given \u003ccode\u003eheap\u003c/code\u003e, and all auxiliary values removed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "userStore",
           "package": "language-boogie",
@@ -4216,6 +4573,7 @@
         "index": {
           "description": "userStore heap store store with all reference values completely dereferenced given heap and all auxiliary values removed",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "userStore",
           "normalized": "Heap Value-\u003eStore-\u003eStore",
@@ -4232,6 +4590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "valueDoc",
           "package": "language-boogie",
@@ -4242,6 +4601,7 @@
         "index": {
           "description": "Pretty-printed value",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "valueDoc",
           "normalized": "Value-\u003eDoc",
@@ -4258,6 +4618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003evalueFromInteger\u003c/a\u003e\u003c/code\u003e \u003ccode\u003et n\u003c/code\u003e: value of type \u003ccode\u003et\u003c/code\u003e with an integer code \u003ccode\u003en\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "valueFromInteger",
           "package": "language-boogie",
@@ -4268,6 +4629,7 @@
         "index": {
           "description": "valueFromInteger value of type with an integer code",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "valueFromInteger",
           "normalized": "Type-\u003eInteger-\u003eValue",
@@ -4284,6 +4646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisible values of all identifiers in a memory (locals shadow globals) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "visibleVariables",
           "package": "language-boogie",
@@ -4294,6 +4657,7 @@
         "index": {
           "description": "Visible values of all identifiers in memory locals shadow globals",
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "visibleVariables",
           "normalized": "Memory-\u003eStore",
@@ -4309,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "vnot",
           "package": "language-boogie",
@@ -4318,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "vnot",
           "normalized": "Value-\u003eValue",
@@ -4332,6 +4698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Environment",
           "name": "withHeap",
           "package": "language-boogie",
@@ -4341,6 +4708,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Environment",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Environment",
           "name": "withHeap",
           "normalized": "(Heap Value-\u003e(a,Heap Value))-\u003eEnvironment b-\u003e(a,Environment b)",
@@ -4357,6 +4725,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis monad transformer adds the ability to accumulate errors from several ErrorT computations\n and report them all at once.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.ErrorAccum",
           "name": "ErrorAccum",
           "package": "language-boogie",
@@ -4366,6 +4735,7 @@
         "index": {
           "description": "This monad transformer adds the ability to accumulate errors from several ErrorT computations and report them all at once",
           "hierarchy": "Language Boogie ErrorAccum",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.ErrorAccum",
           "name": "ErrorAccum",
           "package": "language-boogie",
@@ -4380,6 +4750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError accumulator: \n used in combination with ErrorT to store intermediate computation results, \n when errors should be accumulated rather than reported immediately  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.ErrorAccum",
           "name": "ErrorAccumT",
           "package": "language-boogie",
@@ -4389,6 +4760,7 @@
         "index": {
           "description": "Error accumulator used in combination with ErrorT to store intermediate computation results when errors should be accumulated rather than reported immediately",
           "hierarchy": "Language Boogie ErrorAccum",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.ErrorAccum",
           "name": "ErrorAccumT",
           "package": "language-boogie",
@@ -4402,6 +4774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.ErrorAccum",
           "name": "ErrorAccumT",
           "package": "language-boogie",
@@ -4411,6 +4784,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie ErrorAccum",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.ErrorAccum",
           "name": "ErrorAccumT",
           "package": "language-boogie",
@@ -4425,6 +4799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform an error computation and default value into an error accumlator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.ErrorAccum",
           "name": "accum",
           "package": "language-boogie",
@@ -4435,6 +4810,7 @@
         "index": {
           "description": "Transform an error computation and default value into an error accumlator",
           "hierarchy": "Language Boogie ErrorAccum",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.ErrorAccum",
           "name": "accum",
           "normalized": "ErrorT[a]b c-\u003ec-\u003eErrorAccumT a b c",
@@ -4450,6 +4826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emapAccum\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef def xs\u003c/code\u003e :\n Apply \u003ccode\u003ef\u003c/code\u003e to all \u003ccode\u003exs\u003c/code\u003e, accumulating errors and reporting them at the end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.ErrorAccum",
           "name": "mapAccum",
           "package": "language-boogie",
@@ -4460,6 +4837,7 @@
         "index": {
           "description": "mapAccum def xs Apply to all xs accumulating errors and reporting them at the end",
           "hierarchy": "Language Boogie ErrorAccum",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.ErrorAccum",
           "name": "mapAccum",
           "normalized": "(a-\u003eErrorT[b]c d)-\u003ed-\u003e[a]-\u003eErrorT[b]c[d]",
@@ -4476,6 +4854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emapAccumA_\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef xs\u003c/code\u003e :\n Apply \u003ccode\u003ef\u003c/code\u003e to all \u003ccode\u003exs\u003c/code\u003e throwing away the result, accumulating errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.ErrorAccum",
           "name": "mapAccumA_",
           "package": "language-boogie",
@@ -4486,6 +4865,7 @@
         "index": {
           "description": "mapAccumA xs Apply to all xs throwing away the result accumulating errors",
           "hierarchy": "Language Boogie ErrorAccum",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.ErrorAccum",
           "name": "mapAccumA_",
           "normalized": "(a-\u003eErrorT[b]c())-\u003e[a]-\u003eErrorAccumT b c()",
@@ -4502,6 +4882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003emapAccumA_\u003c/a\u003e\u003c/code\u003e, but reporting errors at the end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.ErrorAccum",
           "name": "mapAccum_",
           "package": "language-boogie",
@@ -4512,6 +4893,7 @@
         "index": {
           "description": "Same as mapAccumA but reporting errors at the end",
           "hierarchy": "Language Boogie ErrorAccum",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.ErrorAccum",
           "name": "mapAccum_",
           "normalized": "(a-\u003eErrorT[b]c())-\u003e[a]-\u003eErrorT[b]c()",
@@ -4528,6 +4910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform an error accumlator back into a regular error computation  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.ErrorAccum",
           "name": "report",
           "package": "language-boogie",
@@ -4538,6 +4921,7 @@
         "index": {
           "description": "Transform an error accumlator back into regular error computation",
           "hierarchy": "Language Boogie ErrorAccum",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.ErrorAccum",
           "name": "report",
           "normalized": "ErrorAccumT a b c-\u003eErrorT[a]b c",
@@ -4552,6 +4936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.ErrorAccum",
           "name": "runErrorAccumT",
           "package": "language-boogie",
@@ -4561,6 +4946,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie ErrorAccum",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.ErrorAccum",
           "name": "runErrorAccumT",
           "normalized": "a([b],c)",
@@ -4577,6 +4963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ezipWithAccum_\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef xs ys\u003c/code\u003e :\n Apply type checking \u003ccode\u003ef\u003c/code\u003e to all \u003ccode\u003exs\u003c/code\u003e and \u003ccode\u003eys\u003c/code\u003e throwing away the result,\n accumulating errors and reporting them at the end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.ErrorAccum",
           "name": "zipWithAccum_",
           "package": "language-boogie",
@@ -4587,6 +4974,7 @@
         "index": {
           "description": "zipWithAccum xs ys Apply type checking to all xs and ys throwing away the result accumulating errors and reporting them at the end",
           "hierarchy": "Language Boogie ErrorAccum",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.ErrorAccum",
           "name": "zipWithAccum_",
           "normalized": "(a-\u003eb-\u003eErrorT[c]d())-\u003e[a]-\u003e[b]-\u003eErrorT[c]d()",
@@ -4603,6 +4991,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeterministic and non-deterministic input generators\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "Generator",
           "package": "language-boogie",
@@ -4612,6 +5001,7 @@
         "index": {
           "description": "Deterministic and non-deterministic input generators",
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "Generator",
           "package": "language-boogie",
@@ -4626,6 +5016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "Generator",
           "package": "language-boogie",
@@ -4635,6 +5026,7 @@
         "index": {
           "description": "Input generator",
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "Generator",
           "package": "language-boogie",
@@ -4648,6 +5040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "Generator",
           "package": "language-boogie",
@@ -4657,6 +5050,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "Generator",
           "package": "language-boogie",
@@ -4671,6 +5065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways generates the same default value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "defaultGenerator",
           "package": "language-boogie",
@@ -4681,6 +5076,7 @@
         "index": {
           "description": "Always generates the same default value",
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "defaultGenerator",
           "package": "language-boogie",
@@ -4695,6 +5091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates all possible values once, in a predefined order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "exhaustiveGenerator",
           "package": "language-boogie",
@@ -4705,6 +5102,7 @@
         "index": {
           "description": "Generates all possible values once in predefined order",
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "exhaustiveGenerator",
           "normalized": "Maybe Integer-\u003eGenerator Stream",
@@ -4721,6 +5119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a (possibly infinite) nonempty list into a stream      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "fromList",
           "package": "language-boogie",
@@ -4731,6 +5130,7 @@
         "index": {
           "description": "Convert possibly infinite nonempty list into stream",
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "fromList",
           "normalized": "[a]-\u003eStream a",
@@ -4746,6 +5146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "genBool",
           "package": "language-boogie",
@@ -4755,6 +5156,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "genBool",
           "package": "language-boogie",
@@ -4768,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "genIndex",
           "package": "language-boogie",
@@ -4777,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "genIndex",
           "normalized": "Int-\u003ea Int",
@@ -4792,6 +5196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "genInteger",
           "package": "language-boogie",
@@ -4801,6 +5206,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "genInteger",
           "package": "language-boogie",
@@ -4815,6 +5221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eintInterval\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e: interval centered around 0 of size n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "intInterval",
           "package": "language-boogie",
@@ -4825,6 +5232,7 @@
         "index": {
           "description": "intInterval interval centered around of size",
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "intInterval",
           "normalized": "a-\u003e(a,a)",
@@ -4841,6 +5249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003enatInterval\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e: interval starting from 0 of size n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "natInterval",
           "package": "language-boogie",
@@ -4851,6 +5260,7 @@
         "index": {
           "description": "natInterval interval starting from of size",
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "natInterval",
           "normalized": "a-\u003e(a,a)",
@@ -4867,6 +5277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerated values randomly; the same value can be generated multiple times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Generator",
           "name": "randomGenerator",
           "package": "language-boogie",
@@ -4877,6 +5288,7 @@
         "index": {
           "description": "Generated values randomly the same value can be generated multiple times",
           "hierarchy": "Language Boogie Generator",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Generator",
           "name": "randomGenerator",
           "normalized": "StdGen-\u003eMaybe Integer-\u003eGenerator Stream",
@@ -4893,6 +5305,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric heap with reference counting.\n This module provides relatively low-level interface to the heap data structure, while keeping its internal representation hidden and consistent.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "Heap",
           "package": "language-boogie",
@@ -4902,6 +5315,7 @@
         "index": {
           "description": "Generic heap with reference counting This module provides relatively low-level interface to the heap data structure while keeping its internal representation hidden and consistent",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "Heap",
           "package": "language-boogie",
@@ -4916,6 +5330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "Heap",
           "package": "language-boogie",
@@ -4925,6 +5340,7 @@
         "index": {
           "description": "Heap",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "Heap",
           "package": "language-boogie",
@@ -4939,6 +5355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference (index in the heap)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "Ref",
           "package": "language-boogie",
@@ -4948,6 +5365,7 @@
         "index": {
           "description": "Reference index in the heap",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "Ref",
           "package": "language-boogie",
@@ -4962,6 +5380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealloc\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ev h\u003c/code\u003e : choose a free reference in heap \u003ccode\u003eh\u003c/code\u003e and store value \u003ccode\u003ev\u003c/code\u003e in there; return the reference and the updated heap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "alloc",
           "package": "language-boogie",
@@ -4972,6 +5391,7 @@
         "index": {
           "description": "alloc choose free reference in heap and store value in there return the reference and the updated heap",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "alloc",
           "normalized": "a-\u003eHeap a-\u003e(Ref,Heap a)",
@@ -4987,6 +5407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eat\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eh r\u003c/code\u003e: value of \u003ccode\u003er\u003c/code\u003e in heap \u003ccode\u003eh\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "at",
           "package": "language-boogie",
@@ -4997,6 +5418,7 @@
         "index": {
           "description": "at value of in heap",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "at",
           "normalized": "Heap a-\u003eRef-\u003ea",
@@ -5012,6 +5434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect some garbage reference in the heap and return that reference and the new heap;\n the heap must have garbage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "dealloc",
           "package": "language-boogie",
@@ -5022,6 +5445,7 @@
         "index": {
           "description": "Collect some garbage reference in the heap and return that reference and the new heap the heap must have garbage",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "dealloc",
           "normalized": "Heap a-\u003e(Ref,Heap a)",
@@ -5037,6 +5461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edecRefCount\u003c/a\u003e\u003c/code\u003e \u003ccode\u003er h\u003c/code\u003e : decrease reference count of \u003ccode\u003er\u003c/code\u003e in \u003ccode\u003eh\u003c/code\u003e;\n \u003ccode\u003er\u003c/code\u003e must be present in \u003ccode\u003eh\u003c/code\u003e          \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "decRefCount",
           "package": "language-boogie",
@@ -5047,6 +5472,7 @@
         "index": {
           "description": "decRefCount decrease reference count of in must be present in",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "decRefCount",
           "normalized": "Ref-\u003eHeap a-\u003eHeap a",
@@ -5063,6 +5489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty heap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "emptyHeap",
           "package": "language-boogie",
@@ -5073,6 +5500,7 @@
         "index": {
           "description": "Empty heap",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "emptyHeap",
           "package": "language-boogie",
@@ -5087,6 +5515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the heap have any garbage?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "hasGarbage",
           "package": "language-boogie",
@@ -5097,6 +5526,7 @@
         "index": {
           "description": "Does the heap have any garbage",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "hasGarbage",
           "normalized": "Heap a-\u003eBool",
@@ -5113,6 +5543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed heap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "heapDoc",
           "package": "language-boogie",
@@ -5123,6 +5554,7 @@
         "index": {
           "description": "Pretty-printed heap",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "heapDoc",
           "normalized": "Heap a-\u003eDoc",
@@ -5139,6 +5571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eincRefCount\u003c/a\u003e\u003c/code\u003e \u003ccode\u003er h\u003c/code\u003e : increase reference count of \u003ccode\u003er\u003c/code\u003e in \u003ccode\u003eh\u003c/code\u003e;\n \u003ccode\u003er\u003c/code\u003e must be present in \u003ccode\u003eh\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "incRefCount",
           "package": "language-boogie",
@@ -5149,6 +5582,7 @@
         "index": {
           "description": "incRefCount increase reference count of in must be present in",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "incRefCount",
           "normalized": "Ref-\u003eHeap a-\u003eHeap a",
@@ -5165,6 +5599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "refDoc",
           "package": "language-boogie",
@@ -5175,6 +5610,7 @@
         "index": {
           "description": "Pretty-printed reference",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "refDoc",
           "normalized": "Ref-\u003eDoc",
@@ -5191,6 +5627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eupdate\u003c/a\u003e\u003c/code\u003e \u003ccode\u003er v h\u003c/code\u003e : set the value at reference \u003ccode\u003er\u003c/code\u003e to \u003ccode\u003ev\u003c/code\u003e in \u003ccode\u003eh\u003c/code\u003e;\n \u003ccode\u003er\u003c/code\u003e must be present in \u003ccode\u003eh\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Heap",
           "name": "update",
           "package": "language-boogie",
@@ -5201,6 +5638,7 @@
         "index": {
           "description": "update set the value at reference to in must be present in",
           "hierarchy": "Language Boogie Heap",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Heap",
           "name": "update",
           "normalized": "Ref-\u003ea-\u003eHeap a-\u003eHeap a",
@@ -5216,6 +5654,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterpreter for Boogie 2\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "Interpreter",
           "package": "language-boogie",
@@ -5225,6 +5664,7 @@
         "index": {
           "description": "Interpreter for Boogie",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "Interpreter",
           "package": "language-boogie",
@@ -5239,6 +5679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKinds of run-time failures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "FailureKind",
           "package": "language-boogie",
@@ -5248,6 +5689,7 @@
         "index": {
           "description": "Kinds of run-time failures",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "FailureKind",
           "package": "language-boogie",
@@ -5261,6 +5703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "FailureSource",
           "package": "language-boogie",
@@ -5269,6 +5712,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "FailureSource",
           "package": "language-boogie",
@@ -5283,6 +5727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailures that occur during execution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "RuntimeFailure",
           "package": "language-boogie",
@@ -5292,6 +5737,7 @@
         "index": {
           "description": "Failures that occur during execution",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "RuntimeFailure",
           "package": "language-boogie",
@@ -5306,6 +5752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a procedure or function call  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "StackFrame",
           "package": "language-boogie",
@@ -5315,6 +5762,7 @@
         "index": {
           "description": "Information about procedure or function call",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "StackFrame",
           "package": "language-boogie",
@@ -5328,6 +5776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "StackTrace",
           "package": "language-boogie",
@@ -5336,6 +5785,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "StackTrace",
           "package": "language-boogie",
@@ -5350,6 +5800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest session summary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "Summary",
           "package": "language-boogie",
@@ -5359,6 +5810,7 @@
         "index": {
           "description": "Test session summary",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "Summary",
           "package": "language-boogie",
@@ -5373,6 +5825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of an execution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "TestCase",
           "package": "language-boogie",
@@ -5382,6 +5835,7 @@
         "index": {
           "description": "Description of an execution",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "TestCase",
           "package": "language-boogie",
@@ -5396,6 +5850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision by zero  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "DivisionByZero",
           "package": "language-boogie",
@@ -5406,6 +5861,7 @@
         "index": {
           "description": "Division by zero",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "DivisionByZero",
           "package": "language-boogie",
@@ -5420,6 +5876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError state reached (assertion violation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "Error",
           "package": "language-boogie",
@@ -5430,6 +5887,7 @@
         "index": {
           "description": "Error state reached assertion violation",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "Error",
           "package": "language-boogie",
@@ -5444,6 +5902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuantification over an infinite set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "InfiniteDomain",
           "package": "language-boogie",
@@ -5454,6 +5913,7 @@
         "index": {
           "description": "Quantification over an infinite set",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "InfiniteDomain",
           "package": "language-boogie",
@@ -5468,6 +5928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust be cought inside the interpreter and never reach the user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "InternalException",
           "package": "language-boogie",
@@ -5478,6 +5939,7 @@
         "index": {
           "description": "Must be cought inside the interpreter and never reach the user",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "InternalException",
           "package": "language-boogie",
@@ -5492,6 +5954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality of two maps cannot be determined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "MapEquality",
           "package": "language-boogie",
@@ -5502,6 +5965,7 @@
         "index": {
           "description": "Equality of two maps cannot be determined",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "MapEquality",
           "package": "language-boogie",
@@ -5516,6 +5980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state is OK in Boogie semantics, but the execution cannot continue due to the limitations of the interpreter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "Nonexecutable",
           "package": "language-boogie",
@@ -5526,6 +5991,7 @@
         "index": {
           "description": "The state is OK in Boogie semantics but the execution cannot continue due to the limitations of the interpreter",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "Nonexecutable",
           "package": "language-boogie",
@@ -5539,6 +6005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "RuntimeFailure",
           "package": "language-boogie",
@@ -5548,6 +6015,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "RuntimeFailure",
           "package": "language-boogie",
@@ -5562,6 +6030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eViolation of user-defined specification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "SpecViolation",
           "package": "language-boogie",
@@ -5572,6 +6041,7 @@
         "index": {
           "description": "Violation of user-defined specification",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "SpecViolation",
           "package": "language-boogie",
@@ -5585,6 +6055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "StackFrame",
           "package": "language-boogie",
@@ -5594,6 +6065,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "StackFrame",
           "package": "language-boogie",
@@ -5607,6 +6079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "Summary",
           "package": "language-boogie",
@@ -5616,6 +6089,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "Summary",
           "package": "language-boogie",
@@ -5629,6 +6103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "TestCase",
           "package": "language-boogie",
@@ -5638,6 +6113,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "TestCase",
           "package": "language-boogie",
@@ -5652,6 +6128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnreachable state reached (assumption violation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "Unreachable",
           "package": "language-boogie",
@@ -5662,6 +6139,7 @@
         "index": {
           "description": "Unreachable state reached assumption violation",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "Unreachable",
           "package": "language-boogie",
@@ -5676,6 +6154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage construct is not yet supported (should disappear in later versions)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "UnsupportedConstruct",
           "package": "language-boogie",
@@ -5686,6 +6165,7 @@
         "index": {
           "description": "Language construct is not yet supported should disappear in later versions",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "UnsupportedConstruct",
           "package": "language-boogie",
@@ -5700,6 +6180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of procedure or function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "callName",
           "package": "language-boogie",
@@ -5710,6 +6191,7 @@
         "index": {
           "description": "Name of procedure or function",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "callName",
           "package": "language-boogie",
@@ -5724,6 +6206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource code position of the call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "callPos",
           "package": "language-boogie",
@@ -5734,6 +6217,7 @@
         "index": {
           "description": "Source code position of the call",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "callPos",
           "package": "language-boogie",
@@ -5748,6 +6232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an expression;\n can have a side-effect of initializing variables that were not previously defined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "eval",
           "package": "language-boogie",
@@ -5758,6 +6243,7 @@
         "index": {
           "description": "Evaluate an expression can have side-effect of initializing variables that were not previously defined",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "eval",
           "normalized": "Expression-\u003eExecution a Value",
@@ -5773,6 +6259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a basic statement\n (no jump, if or while statements allowed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "exec",
           "package": "language-boogie",
@@ -5783,6 +6270,7 @@
         "index": {
           "description": "Execute basic statement no jump if or while statements allowed",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "exec",
           "normalized": "Statement-\u003eExecution a()",
@@ -5798,6 +6286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eexecProcedure\u003c/a\u003e\u003c/code\u003e \u003ccode\u003esig def args lhss\u003c/code\u003e :\n Execute definition \u003ccode\u003edef\u003c/code\u003e of procedure \u003ccode\u003esig\u003c/code\u003e with actual arguments \u003ccode\u003eargs\u003c/code\u003e and call left-hand sides \u003ccode\u003elhss\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "execProcedure",
           "package": "language-boogie",
@@ -5808,6 +6297,7 @@
         "index": {
           "description": "execProcedure sig def args lhss Execute definition def of procedure sig with actual arguments args and call left-hand sides lhss",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "execProcedure",
           "normalized": "PSig-\u003ePDef-\u003e[Expression]-\u003e[Expression]-\u003eExecution a[Value]",
@@ -5824,6 +6314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eexecuteProgram\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep tc entryPoint\u003c/code\u003e :\n Execute program \u003ccode\u003ep\u003c/code\u003e \u003cem\u003enon-deterministically\u003c/em\u003e in type context \u003ccode\u003etc\u003c/code\u003e starting from procedure \u003ccode\u003eentryPoint\u003c/code\u003e \n and return an infinite list of possible outcomes (each either runtime failure or the final variable store).\n Whenever a value is unspecified, all values of the required type are tried exhaustively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "executeProgram",
           "package": "language-boogie",
@@ -5834,6 +6325,7 @@
         "index": {
           "description": "executeProgram tc entryPoint Execute program non-deterministically in type context tc starting from procedure entryPoint and return an infinite list of possible outcomes each either runtime failure or the final variable store Whenever value is unspecified all values of the required type are tried exhaustively",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "executeProgram",
           "normalized": "Program-\u003eContext-\u003eGenerator Stream-\u003eMaybe Integer-\u003eId-\u003e[TestCase]",
@@ -5850,6 +6342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eexecuteProgramDet\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep tc entryPoint\u003c/code\u003e :\n Execute program \u003ccode\u003ep\u003c/code\u003e \u003cem\u003edeterministically\u003c/em\u003e in type context \u003ccode\u003etc\u003c/code\u003e starting from procedure \u003ccode\u003eentryPoint\u003c/code\u003e \n and return a single outcome.\n Whenever a value is unspecified, a default value of the required type is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "executeProgramDet",
           "package": "language-boogie",
@@ -5860,6 +6353,7 @@
         "index": {
           "description": "executeProgramDet tc entryPoint Execute program deterministically in type context tc starting from procedure entryPoint and return single outcome Whenever value is unspecified default value of the required type is used",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "executeProgramDet",
           "normalized": "Program-\u003eContext-\u003eMaybe Integer-\u003eId-\u003eTestCase",
@@ -5876,6 +6370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eexecuteProgramGeneric\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep tc generator qbound entryPoint\u003c/code\u003e :\n Execute program \u003ccode\u003ep\u003c/code\u003e in type context \u003ccode\u003etc\u003c/code\u003e with input generator \u003ccode\u003egenerator\u003c/code\u003e, starting from procedure \u003ccode\u003eentryPoint\u003c/code\u003e,\n and return the outcome(s) embedded into the generator's monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "executeProgramGeneric",
           "package": "language-boogie",
@@ -5886,6 +6381,7 @@
         "index": {
           "description": "executeProgramGeneric tc generator qbound entryPoint Execute program in type context tc with input generator generator starting from procedure entryPoint and return the outcome embedded into the generator monad",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "executeProgramGeneric",
           "normalized": "Program-\u003eContext-\u003eGenerator a-\u003eMaybe Integer-\u003eId-\u003ea TestCase",
@@ -5902,6 +6398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind of a run-time failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "failureKind",
           "package": "language-boogie",
@@ -5912,6 +6409,7 @@
         "index": {
           "description": "Kind of run-time failure",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "failureKind",
           "normalized": "RuntimeFailure-\u003eFailureKind",
@@ -5928,6 +6426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efinalStateDoc\u003c/a\u003e\u003c/code\u003e \u003ccode\u003edebug tc\u003c/code\u003e : outputs of \u003ccode\u003etc\u003c/code\u003e, \n displayed in user or debug format depending on \u003ccode\u003edebug\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "finalStateDoc",
           "package": "language-boogie",
@@ -5938,6 +6437,7 @@
         "index": {
           "description": "finalStateDoc debug tc outputs of tc displayed in user or debug format depending on debug",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "finalStateDoc",
           "normalized": "Bool-\u003eTestCase-\u003eDoc",
@@ -5954,6 +6454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eisFail\u003c/a\u003e\u003c/code\u003e \u003ccode\u003etc\u003c/code\u003e: Does \u003ccode\u003etc\u003c/code\u003e end in an error state?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "isFail",
           "package": "language-boogie",
@@ -5964,6 +6465,7 @@
         "index": {
           "description": "isFail tc Does tc end in an error state",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "isFail",
           "normalized": "TestCase-\u003eBool",
@@ -5980,6 +6482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eisInvalid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003etc\u003c/code\u003e: Does \u003ccode\u003etc\u003c/code\u003e and in an unreachable state?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "isInvalid",
           "package": "language-boogie",
@@ -5990,6 +6493,7 @@
         "index": {
           "description": "isInvalid tc Does tc and in an unreachable state",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "isInvalid",
           "normalized": "TestCase-\u003eBool",
@@ -6006,6 +6510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eisNonexecutable\u003c/a\u003e\u003c/code\u003e \u003ccode\u003etc\u003c/code\u003e: Does \u003ccode\u003etc\u003c/code\u003e end in a non-executable state?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "isNonexecutable",
           "package": "language-boogie",
@@ -6016,6 +6521,7 @@
         "index": {
           "description": "isNonexecutable tc Does tc end in non-executable state",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "isNonexecutable",
           "normalized": "TestCase-\u003eBool",
@@ -6032,6 +6538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eisPass\u003c/a\u003e\u003c/code\u003e \u003ccode\u003etc\u003c/code\u003e: Does \u003ccode\u003etc\u003c/code\u003e end in a valid state?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "isPass",
           "package": "language-boogie",
@@ -6042,6 +6549,7 @@
         "index": {
           "description": "isPass tc Does tc end in valid state",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "isPass",
           "normalized": "TestCase-\u003eBool",
@@ -6058,6 +6566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect procedure implementations, and constant\u003cem\u003efunction\u003c/em\u003eglobal variable constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "preprocess",
           "package": "language-boogie",
@@ -6068,6 +6577,7 @@
         "index": {
           "description": "Collect procedure implementations and constant function global variable constraints",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "preprocess",
           "normalized": "Program-\u003eSafeExecution a()",
@@ -6083,6 +6593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory state at the time of failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "rtfMemory",
           "package": "language-boogie",
@@ -6093,6 +6604,7 @@
         "index": {
           "description": "Memory state at the time of failure",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "rtfMemory",
           "package": "language-boogie",
@@ -6107,6 +6619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation where the failure occurred\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "rtfPos",
           "package": "language-boogie",
@@ -6117,6 +6630,7 @@
         "index": {
           "description": "Location where the failure occurred",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "rtfPos",
           "package": "language-boogie",
@@ -6131,6 +6645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource of the failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "rtfSource",
           "package": "language-boogie",
@@ -6141,6 +6656,7 @@
         "index": {
           "description": "Source of the failure",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "rtfSource",
           "package": "language-boogie",
@@ -6155,6 +6671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStack trace from the program entry point to the procedure where the failure occurred\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "rtfTrace",
           "package": "language-boogie",
@@ -6165,6 +6682,7 @@
         "index": {
           "description": "Stack trace from the program entry point to the procedure where the failure occurred",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "rtfTrace",
           "package": "language-boogie",
@@ -6179,6 +6697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed run-time failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "runtimeFailureDoc",
           "package": "language-boogie",
@@ -6189,6 +6708,7 @@
         "index": {
           "description": "Pretty-printed run-time failure",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "runtimeFailureDoc",
           "normalized": "Bool-\u003eRuntimeFailure-\u003eDoc",
@@ -6205,6 +6725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of failing test cases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "sFailCount",
           "package": "language-boogie",
@@ -6215,6 +6736,7 @@
         "index": {
           "description": "Number of failing test cases",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "sFailCount",
           "package": "language-boogie",
@@ -6229,6 +6751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of invalid test cases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "sInvalidCount",
           "package": "language-boogie",
@@ -6239,6 +6762,7 @@
         "index": {
           "description": "Number of invalid test cases",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "sInvalidCount",
           "package": "language-boogie",
@@ -6253,6 +6777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of nonexecutable test cases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "sNonExecutableCount",
           "package": "language-boogie",
@@ -6263,6 +6788,7 @@
         "index": {
           "description": "Number of nonexecutable test cases",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "sNonExecutableCount",
           "package": "language-boogie",
@@ -6277,6 +6803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of passing test cases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "sPassCount",
           "package": "language-boogie",
@@ -6287,6 +6814,7 @@
         "index": {
           "description": "Number of passing test cases",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "sPassCount",
           "package": "language-boogie",
@@ -6301,6 +6829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique failing test cases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "sUniqueFailures",
           "package": "language-boogie",
@@ -6311,6 +6840,7 @@
         "index": {
           "description": "Unique failing test cases",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "sUniqueFailures",
           "normalized": "[TestCase]",
@@ -6327,6 +6857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed test session summary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "summaryDoc",
           "package": "language-boogie",
@@ -6337,6 +6868,7 @@
         "index": {
           "description": "Pretty-printed test session summary",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "summaryDoc",
           "normalized": "Summary-\u003eDoc",
@@ -6353,6 +6885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailure the execution eded with, or Nothing if the execution ended in a valid state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "tcFailure",
           "package": "language-boogie",
@@ -6363,6 +6896,7 @@
         "index": {
           "description": "Failure the execution eded with or Nothing if the execution ended in valid state",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "tcFailure",
           "package": "language-boogie",
@@ -6377,6 +6911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinal memory state (at the exit from the root procedure) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "tcMemory",
           "package": "language-boogie",
@@ -6387,6 +6922,7 @@
         "index": {
           "description": "Final memory state at the exit from the root procedure",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "tcMemory",
           "package": "language-boogie",
@@ -6401,6 +6937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoot procedure (entry point) of the execution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "tcProcedure",
           "package": "language-boogie",
@@ -6411,6 +6948,7 @@
         "index": {
           "description": "Root procedure entry point of the execution",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "tcProcedure",
           "package": "language-boogie",
@@ -6425,6 +6963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etestCaseSummary\u003c/a\u003e\u003c/code\u003e \u003ccode\u003edebug tc\u003c/code\u003e : Summary of \u003ccode\u003etc\u003c/code\u003e's inputs and outcome,\n displayed in user or debug format depending on \u003ccode\u003edebug\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "testCaseSummary",
           "package": "language-boogie",
@@ -6435,6 +6974,7 @@
         "index": {
           "description": "testCaseSummary debug tc Summary of tc inputs and outcome displayed in user or debug format depending on debug",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "testCaseSummary",
           "normalized": "Bool-\u003eTestCase-\u003eDoc",
@@ -6451,6 +6991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummary of a set of test cases   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Interpreter",
           "name": "testSessionSummary",
           "package": "language-boogie",
@@ -6461,6 +7002,7 @@
         "index": {
           "description": "Summary of set of test cases",
           "hierarchy": "Language Boogie Interpreter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Interpreter",
           "name": "testSessionSummary",
           "normalized": "[TestCase]-\u003eSummary",
@@ -6477,6 +7019,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLattice of integer intervals\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "Intervals",
           "package": "language-boogie",
@@ -6486,6 +7029,7 @@
         "index": {
           "description": "Lattice of integer intervals",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "Intervals",
           "package": "language-boogie",
@@ -6500,6 +7044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegers extended with infinity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "Extended",
           "package": "language-boogie",
@@ -6509,6 +7054,7 @@
         "index": {
           "description": "Integers extended with infinity",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "Extended",
           "package": "language-boogie",
@@ -6523,6 +7069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger intervals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "Interval",
           "package": "language-boogie",
@@ -6532,6 +7079,7 @@
         "index": {
           "description": "Integer intervals",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "Interval",
           "package": "language-boogie",
@@ -6546,6 +7094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLattice type class \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "Lattice",
           "package": "language-boogie",
@@ -6555,6 +7104,7 @@
         "index": {
           "description": "Lattice type class",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "Lattice",
           "package": "language-boogie",
@@ -6569,6 +7119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision on integer intervals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "(//)",
           "package": "language-boogie",
@@ -6579,6 +7130,7 @@
         "index": {
           "description": "Division on integer intervals",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "(//) //",
           "normalized": "Interval-\u003eInterval-\u003eInterval",
@@ -6593,6 +7145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "(\u003c:)",
           "package": "language-boogie",
@@ -6602,6 +7155,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "(\u003c:) \u003c:",
           "normalized": "()",
@@ -6616,6 +7170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "Finite",
           "package": "language-boogie",
@@ -6625,6 +7180,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "Finite",
           "package": "language-boogie",
@@ -6638,6 +7194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "Inf",
           "package": "language-boogie",
@@ -6647,6 +7204,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "Inf",
           "package": "language-boogie",
@@ -6660,6 +7218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "Interval",
           "package": "language-boogie",
@@ -6669,6 +7228,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "Interval",
           "package": "language-boogie",
@@ -6682,6 +7242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "NegInf",
           "package": "language-boogie",
@@ -6691,6 +7252,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "NegInf",
           "package": "language-boogie",
@@ -6704,6 +7266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "bot",
           "package": "language-boogie",
@@ -6713,6 +7276,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "bot",
           "package": "language-boogie",
@@ -6726,6 +7290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eextDiv\u003c/a\u003e\u003c/code\u003e \u003ccode\u003er a b\u003c/code\u003e : result of dividing \u003ccode\u003ea\u003c/code\u003e by \u003ccode\u003eb\u003c/code\u003e, rounded with \u003ccode\u003er\u003c/code\u003e in the finite case;\n dividing infinty by infinity yields \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "extDiv",
           "package": "language-boogie",
@@ -6736,6 +7301,7 @@
         "index": {
           "description": "extDiv result of dividing by rounded with in the finite case dividing infinty by infinity yields Nothing",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "extDiv",
           "normalized": "(Ratio Integer-\u003eInteger)-\u003eExtended-\u003eExtended-\u003eMaybe Extended",
@@ -6752,6 +7318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs interval empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "isBottom",
           "package": "language-boogie",
@@ -6762,6 +7329,7 @@
         "index": {
           "description": "Is interval empty",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "isBottom",
           "normalized": "Interval-\u003eBool",
@@ -6778,6 +7346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre both bounds of the interval finite?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "isBounded",
           "package": "language-boogie",
@@ -6788,6 +7357,7 @@
         "index": {
           "description": "Are both bounds of the interval finite",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "isBounded",
           "normalized": "Interval-\u003eBool",
@@ -6803,6 +7373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "join",
           "package": "language-boogie",
@@ -6812,6 +7383,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "join",
           "package": "language-boogie",
@@ -6824,6 +7396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "lower",
           "package": "language-boogie",
@@ -6833,6 +7406,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "lower",
           "package": "language-boogie",
@@ -6846,6 +7420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to all pairs of bounds coming from two different intervals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "mapBounds",
           "package": "language-boogie",
@@ -6856,6 +7431,7 @@
         "index": {
           "description": "Apply function to all pairs of bounds coming from two different intervals",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "mapBounds",
           "normalized": "(Extended-\u003eExtended-\u003ea)-\u003eInterval-\u003eInterval-\u003e[a]",
@@ -6871,6 +7447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "meet",
           "package": "language-boogie",
@@ -6880,6 +7457,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "meet",
           "package": "language-boogie",
@@ -6893,6 +7471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll negative integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "negatives",
           "package": "language-boogie",
@@ -6903,6 +7482,7 @@
         "index": {
           "description": "All negative integers",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "negatives",
           "package": "language-boogie",
@@ -6916,6 +7496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll positive integers and 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "nonNegatives",
           "package": "language-boogie",
@@ -6926,6 +7507,7 @@
         "index": {
           "description": "All positive integers and",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "nonNegatives",
           "package": "language-boogie",
@@ -6940,6 +7522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll netaive integers and 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "nonPositives",
           "package": "language-boogie",
@@ -6950,6 +7533,7 @@
         "index": {
           "description": "All netaive integers and",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "nonPositives",
           "package": "language-boogie",
@@ -6964,6 +7548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll positive integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "positives",
           "package": "language-boogie",
@@ -6974,6 +7559,7 @@
         "index": {
           "description": "All positive integers",
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "positives",
           "package": "language-boogie",
@@ -6986,6 +7572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "top",
           "package": "language-boogie",
@@ -6995,6 +7582,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "top",
           "package": "language-boogie",
@@ -7007,6 +7595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Intervals",
           "name": "upper",
           "package": "language-boogie",
@@ -7016,6 +7605,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Intervals",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Intervals",
           "name": "upper",
           "package": "language-boogie",
@@ -7029,6 +7619,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious normal forms of Boolean expressions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.NormalForm",
           "name": "NormalForm",
           "package": "language-boogie",
@@ -7038,6 +7629,7 @@
         "index": {
           "description": "Various normal forms of Boolean expressions",
           "hierarchy": "Language Boogie NormalForm",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.NormalForm",
           "name": "NormalForm",
           "package": "language-boogie",
@@ -7052,6 +7644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation normal form of a Boolean expression:\n no negation above boolean connectives, quantifiers or relational operators;\n no boolean connectives except \u003ccode\u003e&&\u003c/code\u003e and \u003ccode\u003e||\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.NormalForm",
           "name": "negationNF",
           "package": "language-boogie",
@@ -7062,6 +7655,7 @@
         "index": {
           "description": "Negation normal form of Boolean expression no negation above boolean connectives quantifiers or relational operators no boolean connectives except and",
           "hierarchy": "Language Boogie NormalForm",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.NormalForm",
           "name": "negationNF",
           "normalized": "Expression-\u003eExpression",
@@ -7078,6 +7672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation and prenex normal form of a Boolean expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.NormalForm",
           "name": "normalize",
           "package": "language-boogie",
@@ -7088,6 +7683,7 @@
         "index": {
           "description": "Negation and prenex normal form of Boolean expression",
           "hierarchy": "Language Boogie NormalForm",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.NormalForm",
           "name": "normalize",
           "normalized": "Expression-\u003eExpression",
@@ -7103,6 +7699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrenex normal form of a Boolean expression:\n all quantifiers are pushed to the outside and any two quantifiers of the same kind in a row are glued together.\n Requires expression to be in the negation normal form.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.NormalForm",
           "name": "prenexNF",
           "package": "language-boogie",
@@ -7113,6 +7710,7 @@
         "index": {
           "description": "Prenex normal form of Boolean expression all quantifiers are pushed to the outside and any two quantifiers of the same kind in row are glued together Requires expression to be in the negation normal form",
           "hierarchy": "Language Boogie NormalForm",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.NormalForm",
           "name": "prenexNF",
           "normalized": "Expression-\u003eExpression",
@@ -7129,6 +7727,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec-based parser for Boogie 2\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Parser",
           "name": "Parser",
           "package": "language-boogie",
@@ -7138,6 +7737,7 @@
         "index": {
           "description": "Parsec-based parser for Boogie",
           "hierarchy": "Language Boogie Parser",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Parser",
           "name": "Parser",
           "package": "language-boogie",
@@ -7152,6 +7752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-level declaration parser  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Parser",
           "name": "decl",
           "package": "language-boogie",
@@ -7162,6 +7763,7 @@
         "index": {
           "description": "Top-level declaration parser",
           "hierarchy": "Language Boogie Parser",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Parser",
           "name": "decl",
           "package": "language-boogie",
@@ -7175,6 +7777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression parser    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Parser",
           "name": "expression",
           "package": "language-boogie",
@@ -7185,6 +7788,7 @@
         "index": {
           "description": "Expression parser",
           "hierarchy": "Language Boogie Parser",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Parser",
           "name": "expression",
           "package": "language-boogie",
@@ -7198,6 +7802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram parser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Parser",
           "name": "program",
           "package": "language-boogie",
@@ -7208,6 +7813,7 @@
         "index": {
           "description": "Program parser",
           "hierarchy": "Language Boogie Parser",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Parser",
           "name": "program",
           "package": "language-boogie",
@@ -7221,6 +7827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatement parser      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Parser",
           "name": "statement",
           "package": "language-boogie",
@@ -7231,6 +7838,7 @@
         "index": {
           "description": "Statement parser",
           "hierarchy": "Language Boogie Parser",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Parser",
           "name": "statement",
           "package": "language-boogie",
@@ -7244,6 +7852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType parser  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Parser",
           "name": "type_",
           "package": "language-boogie",
@@ -7254,6 +7863,7 @@
         "index": {
           "description": "Type parser",
           "hierarchy": "Language Boogie Parser",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Parser",
           "name": "type_",
           "package": "language-boogie",
@@ -7267,6 +7877,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility for attaching source code positions to AST nodes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "Position",
           "package": "language-boogie",
@@ -7276,6 +7887,7 @@
         "index": {
           "description": "Utility for attaching source code positions to AST nodes",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "Position",
           "package": "language-boogie",
@@ -7290,6 +7902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnything with a source position attached \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "Pos",
           "package": "language-boogie",
@@ -7299,6 +7912,7 @@
         "index": {
           "description": "Anything with source position attached",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "Pos",
           "package": "language-boogie",
@@ -7313,6 +7927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eSourcePos\u003c/code\u003e represents source positions. It\n contains the name of the source (i.e. file name), a line number and\n a column number. \u003ccode\u003eSourcePos\u003c/code\u003e is an instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "SourcePos",
           "package": "language-boogie",
@@ -7321,6 +7936,7 @@
         "index": {
           "description": "The abstract data type SourcePos represents source positions It contains the name of the source i.e file name line number and column number SourcePos is an instance of the Show Eq and Ord class",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "SourcePos",
           "package": "language-boogie",
@@ -7334,6 +7950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "Pos",
           "package": "language-boogie",
@@ -7343,6 +7960,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "Pos",
           "package": "language-boogie",
@@ -7357,6 +7975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach position to a node    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "attachPos",
           "package": "language-boogie",
@@ -7367,6 +7986,7 @@
         "index": {
           "description": "Attach position to node",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "attachPos",
           "normalized": "SourcePos-\u003ea-\u003ePos a",
@@ -7383,6 +8003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eattachPosBefore\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e : parser that behaves like \u003ccode\u003ep\u003c/code\u003e, but also attaches the source position before the first token it parsed to the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "attachPosBefore",
           "package": "language-boogie",
@@ -7393,6 +8014,7 @@
         "index": {
           "description": "attachPosBefore parser that behaves like but also attaches the source position before the first token it parsed to the result",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "attachPosBefore",
           "normalized": "Parser a-\u003eParser(Pos a)",
@@ -7409,6 +8031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach dummy position to a node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "gen",
           "package": "language-boogie",
@@ -7419,6 +8042,7 @@
         "index": {
           "description": "Attach dummy position to node",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "gen",
           "normalized": "a-\u003ePos a",
@@ -7434,6 +8058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einheritPos\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef a\u003c/code\u003e : apply \u003ccode\u003ef\u003c/code\u003e to \u003ccode\u003ea\u003c/code\u003e and attach \u003ccode\u003ea\u003c/code\u003e's position to the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "inheritPos",
           "package": "language-boogie",
@@ -7444,6 +8069,7 @@
         "index": {
           "description": "inheritPos apply to and attach position to the result",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "inheritPos",
           "normalized": "(Pos a-\u003eb)-\u003ePos a-\u003ePos b",
@@ -7460,6 +8086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einheritPos2\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef a b\u003c/code\u003e : apply \u003ccode\u003ef\u003c/code\u003e to \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e and attach \u003ccode\u003ea\u003c/code\u003e's position to the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "inheritPos2",
           "package": "language-boogie",
@@ -7470,6 +8097,7 @@
         "index": {
           "description": "inheritPos2 apply to and and attach position to the result",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "inheritPos2",
           "normalized": "(Pos a-\u003ePos b-\u003ec)-\u003ePos a-\u003ePos b-\u003ePos c",
@@ -7486,6 +8114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDummy source position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "noPos",
           "package": "language-boogie",
@@ -7496,6 +8125,7 @@
         "index": {
           "description": "Dummy source position",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "noPos",
           "package": "language-boogie",
@@ -7509,6 +8139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "node",
           "package": "language-boogie",
@@ -7518,6 +8149,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "node",
           "package": "language-boogie",
@@ -7530,6 +8162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "position",
           "package": "language-boogie",
@@ -7539,6 +8172,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "position",
           "package": "language-boogie",
@@ -7552,6 +8186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the column number from a source position. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "sourceColumn",
           "package": "language-boogie",
@@ -7561,6 +8196,7 @@
         "index": {
           "description": "Extracts the column number from source position",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "sourceColumn",
           "normalized": "SourcePos-\u003eColumn",
@@ -7577,6 +8213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the line number from a source position. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "sourceLine",
           "package": "language-boogie",
@@ -7586,6 +8223,7 @@
         "index": {
           "description": "Extracts the line number from source position",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "sourceLine",
           "normalized": "SourcePos-\u003eLine",
@@ -7602,6 +8240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the name of the source from a source position. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Position",
           "name": "sourceName",
           "package": "language-boogie",
@@ -7611,6 +8250,7 @@
         "index": {
           "description": "Extracts the name of the source from source position",
           "hierarchy": "Language Boogie Position",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Position",
           "name": "sourceName",
           "normalized": "SourcePos-\u003eSourceName",
@@ -7627,6 +8267,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printer for Boogie 2\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "PrettyPrinter",
           "package": "language-boogie",
@@ -7636,6 +8277,7 @@
         "index": {
           "description": "Pretty printer for Boogie",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "PrettyPrinter",
           "package": "language-boogie",
@@ -7650,6 +8292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed abstract store\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "abstractStoreDoc",
           "package": "language-boogie",
@@ -7660,6 +8303,7 @@
         "index": {
           "description": "Pretty-printed abstract store",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "abstractStoreDoc",
           "normalized": "AbstractStore-\u003eDoc",
@@ -7676,6 +8320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose in \u003c \u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "angles",
           "package": "language-boogie",
@@ -7686,6 +8331,7 @@
         "index": {
           "description": "Enclose in",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "angles",
           "normalized": "Doc-\u003eDoc",
@@ -7701,6 +8347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed binary operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "binOpDoc",
           "package": "language-boogie",
@@ -7711,6 +8358,7 @@
         "index": {
           "description": "Pretty-printed binary operator",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "binOpDoc",
           "normalized": "BinOp-\u003eDoc",
@@ -7727,6 +8375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate by commas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "commaSep",
           "package": "language-boogie",
@@ -7737,6 +8386,7 @@
         "index": {
           "description": "Separate by commas",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "commaSep",
           "normalized": "[Doc]-\u003eDoc",
@@ -7753,6 +8403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed constraint set  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "constraintSetDoc",
           "package": "language-boogie",
@@ -7763,6 +8414,7 @@
         "index": {
           "description": "Pretty-printed constraint set",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "constraintSetDoc",
           "normalized": "ConstraintSet-\u003eDoc",
@@ -7779,6 +8431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed top-level declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "declDoc",
           "package": "language-boogie",
@@ -7789,6 +8442,7 @@
         "index": {
           "description": "Pretty-printed top-level declaration",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "declDoc",
           "normalized": "Decl-\u003eDoc",
@@ -7805,6 +8459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed expression  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "exprDoc",
           "package": "language-boogie",
@@ -7815,6 +8470,7 @@
         "index": {
           "description": "Pretty-printed expression",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "exprDoc",
           "normalized": "Expression-\u003eDoc",
@@ -7831,6 +8487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efdefDoc\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eisDef fdef\u003c/code\u003e : \u003ccode\u003efdef\u003c/code\u003e pretty-printed as definition if \u003ccode\u003eisDef\u003c/code\u003e and as constraint otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "fdefDoc",
           "package": "language-boogie",
@@ -7841,6 +8498,7 @@
         "index": {
           "description": "fdefDoc isDef fdef fdef pretty-printed as definition if isDef and as constraint otherwise",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "fdefDoc",
           "normalized": "Bool-\u003eFDef-\u003eDoc",
@@ -7856,6 +8514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "nestDef",
           "package": "language-boogie",
@@ -7865,6 +8524,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "nestDef",
           "normalized": "Doc-\u003eDoc",
@@ -7881,6 +8541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "newline",
           "package": "language-boogie",
@@ -7891,6 +8552,7 @@
         "index": {
           "description": "New line",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "newline",
           "package": "language-boogie",
@@ -7904,6 +8566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditionally produce a doc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "option",
           "package": "language-boogie",
@@ -7914,6 +8577,7 @@
         "index": {
           "description": "Conditionally produce doc",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "option",
           "normalized": "Bool-\u003eDoc-\u003eDoc",
@@ -7929,6 +8593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e value to doc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "optionMaybe",
           "package": "language-boogie",
@@ -7939,6 +8604,7 @@
         "index": {
           "description": "Convert Just value to doc",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "optionMaybe",
           "normalized": "Maybe a-\u003e(a-\u003eDoc)-\u003eDoc",
@@ -7955,6 +8621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "programDoc",
           "package": "language-boogie",
@@ -7965,6 +8632,7 @@
         "index": {
           "description": "Pretty-printed program",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "programDoc",
           "normalized": "Program-\u003eDoc",
@@ -7981,6 +8649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender document with tabs instead of spaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "renderWithTabs",
           "package": "language-boogie",
@@ -7991,6 +8660,7 @@
         "index": {
           "description": "Render document with tabs instead of spaces",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "renderWithTabs",
           "normalized": "Doc-\u003eString",
@@ -8007,6 +8677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed function or procedure signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "sigDoc",
           "package": "language-boogie",
@@ -8017,6 +8688,7 @@
         "index": {
           "description": "Pretty-printed function or procedure signature",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "sigDoc",
           "normalized": "[Type]-\u003e[Type]-\u003eDoc",
@@ -8033,6 +8705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose in spaces    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "spaces",
           "package": "language-boogie",
@@ -8043,6 +8716,7 @@
         "index": {
           "description": "Enclose in spaces",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "spaces",
           "normalized": "Doc-\u003eDoc",
@@ -8058,6 +8732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "statementDoc",
           "package": "language-boogie",
@@ -8068,6 +8743,7 @@
         "index": {
           "description": "Pretty-printed statement",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "statementDoc",
           "normalized": "Statement-\u003eDoc",
@@ -8084,6 +8760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "typeDoc",
           "package": "language-boogie",
@@ -8094,6 +8771,7 @@
         "index": {
           "description": "Pretty-printed type",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "typeDoc",
           "normalized": "Type-\u003eDoc",
@@ -8110,6 +8788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed unary operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "unOpDoc",
           "package": "language-boogie",
@@ -8120,6 +8799,7 @@
         "index": {
           "description": "Pretty-printed unary operator",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "unOpDoc",
           "normalized": "UnOp-\u003eDoc",
@@ -8136,6 +8816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate by new lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "vsep",
           "package": "language-boogie",
@@ -8146,6 +8827,7 @@
         "index": {
           "description": "Separate by new lines",
           "hierarchy": "Language Boogie PrettyPrinter",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.PrettyPrinter",
           "name": "vsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -8161,6 +8843,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTokens used in Boogie 2\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "Tokens",
           "package": "language-boogie",
@@ -8170,6 +8853,7 @@
         "index": {
           "description": "Tokens used in Boogie",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "Tokens",
           "package": "language-boogie",
@@ -8184,6 +8868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of binary operators             \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "binOpTokens",
           "package": "language-boogie",
@@ -8194,6 +8879,7 @@
         "index": {
           "description": "Names of binary operators",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "binOpTokens",
           "normalized": "[(BinOp,String)]",
@@ -8210,6 +8896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnd of a multi-line comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "commentEnd",
           "package": "language-boogie",
@@ -8220,6 +8907,7 @@
         "index": {
           "description": "End of multi-line comment",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "commentEnd",
           "normalized": "[Char]",
@@ -8236,6 +8924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart of a single-line comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "commentLine",
           "package": "language-boogie",
@@ -8246,6 +8935,7 @@
         "index": {
           "description": "Start of single-line comment",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "commentLine",
           "normalized": "[Char]",
@@ -8262,6 +8952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart of a multi-line comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "commentStart",
           "package": "language-boogie",
@@ -8272,6 +8963,7 @@
         "index": {
           "description": "Start of multi-line comment",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "commentStart",
           "normalized": "[Char]",
@@ -8288,6 +8980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters allowed in identifiers (in addition to letters and digits)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "identifierChars",
           "package": "language-boogie",
@@ -8298,6 +8991,7 @@
         "index": {
           "description": "Characters allowed in identifiers in addition to letters and digits",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "identifierChars",
           "normalized": "[Char]",
@@ -8314,6 +9008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeywords\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "keywords",
           "package": "language-boogie",
@@ -8324,6 +9019,7 @@
         "index": {
           "description": "Keywords",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "keywords",
           "normalized": "[String]",
@@ -8339,6 +9035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA character that is not allowed in identifiers (used for generating unique names)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "nonIdChar",
           "package": "language-boogie",
@@ -8349,6 +9046,7 @@
         "index": {
           "description": "character that is not allowed in identifiers used for generating unique names",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "nonIdChar",
           "package": "language-boogie",
@@ -8363,6 +9061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eopName\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eop table\u003c/code\u003e : lookup operator name in \u003ccode\u003etable\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "opName",
           "package": "language-boogie",
@@ -8373,6 +9072,7 @@
         "index": {
           "description": "opName op table lookup operator name in table",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "opName",
           "normalized": "a-\u003e[(a,a)]-\u003ea",
@@ -8389,6 +9089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther operators         \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "otherOps",
           "package": "language-boogie",
@@ -8399,6 +9100,7 @@
         "index": {
           "description": "Other operators",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "otherOps",
           "normalized": "[String]",
@@ -8415,6 +9117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of quantifiers    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "qOpTokens",
           "package": "language-boogie",
@@ -8425,6 +9128,7 @@
         "index": {
           "description": "Names of quantifiers",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "qOpTokens",
           "normalized": "[(QOp,String)]",
@@ -8441,6 +9145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of unary operators    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Tokens",
           "name": "unOpTokens",
           "package": "language-boogie",
@@ -8451,6 +9156,7 @@
         "index": {
           "description": "Names of unary operators",
           "hierarchy": "Language Boogie Tokens",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Tokens",
           "name": "unOpTokens",
           "normalized": "[(UnOp,String)]",
@@ -8467,6 +9173,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType checker for Boogie 2\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "TypeChecker",
           "package": "language-boogie",
@@ -8476,6 +9183,7 @@
         "index": {
           "description": "Type checker for Boogie",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "TypeChecker",
           "package": "language-boogie",
@@ -8490,6 +9198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyping context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "Context",
           "package": "language-boogie",
@@ -8499,6 +9208,7 @@
         "index": {
           "description": "Typing context",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "Context",
           "package": "language-boogie",
@@ -8513,6 +9223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType error with a source position and a pretty-printed message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "TypeError",
           "package": "language-boogie",
@@ -8522,6 +9233,7 @@
         "index": {
           "description": "Type error with source position and pretty-printed message",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "TypeError",
           "package": "language-boogie",
@@ -8535,6 +9247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "Context",
           "package": "language-boogie",
@@ -8544,6 +9257,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "Context",
           "package": "language-boogie",
@@ -8557,6 +9271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "TypeError",
           "package": "language-boogie",
@@ -8566,6 +9281,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "TypeError",
           "package": "language-boogie",
@@ -8580,6 +9296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll variables and constants (local-scope preferred)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "allNames",
           "package": "language-boogie",
@@ -8590,6 +9307,7 @@
         "index": {
           "description": "All variables and constants local-scope preferred",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "allNames",
           "normalized": "Context-\u003eMap Id Type",
@@ -8606,6 +9324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll variables that can have where clauses (everything except constants)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "allVars",
           "package": "language-boogie",
@@ -8616,6 +9335,7 @@
         "index": {
           "description": "All variables that can have where clauses everything except constants",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "allVars",
           "normalized": "Context-\u003eMap Id Type",
@@ -8632,6 +9352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant types (type synonyms resolved)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxConstants",
           "package": "language-boogie",
@@ -8642,6 +9363,7 @@
         "index": {
           "description": "constant types type synonyms resolved",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxConstants",
           "package": "language-boogie",
@@ -8656,6 +9378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elabels of all enclosing statements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxEncLabels",
           "package": "language-boogie",
@@ -8666,6 +9389,7 @@
         "index": {
           "description": "labels of all enclosing statements",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxEncLabels",
           "normalized": "[Id]",
@@ -8682,6 +9406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of fresh type variables already generated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxFreshTVCount",
           "package": "language-boogie",
@@ -8692,6 +9417,7 @@
         "index": {
           "description": "number of fresh type variables already generated",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxFreshTVCount",
           "package": "language-boogie",
@@ -8706,6 +9432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction signatures (type synonyms resolved)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxFunctions",
           "package": "language-boogie",
@@ -8716,6 +9443,7 @@
         "index": {
           "description": "function signatures type synonyms resolved",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxFunctions",
           "package": "language-boogie",
@@ -8730,6 +9458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eglobal variable types (type synonyms resolved)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxGlobals",
           "package": "language-boogie",
@@ -8740,6 +9469,7 @@
         "index": {
           "description": "global variable types type synonyms resolved",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxGlobals",
           "package": "language-boogie",
@@ -8754,6 +9484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis context inside a loop body?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxInLoop",
           "package": "language-boogie",
@@ -8764,6 +9495,7 @@
         "index": {
           "description": "is context inside loop body",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxInLoop",
           "package": "language-boogie",
@@ -8778,6 +9510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einput parameter types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxIns",
           "package": "language-boogie",
@@ -8788,6 +9521,7 @@
         "index": {
           "description": "input parameter types",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxIns",
           "package": "language-boogie",
@@ -8802,6 +9536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall labels of the enclosing procedure body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxLabels",
           "package": "language-boogie",
@@ -8812,6 +9547,7 @@
         "index": {
           "description": "all labels of the enclosing procedure body",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxLabels",
           "normalized": "[Id]",
@@ -8828,6 +9564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocal variable types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxLocals",
           "package": "language-boogie",
@@ -8838,6 +9575,7 @@
         "index": {
           "description": "local variable types",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxLocals",
           "package": "language-boogie",
@@ -8852,6 +9590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariables in the modifies clause of the enclosing procedure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxModifies",
           "package": "language-boogie",
@@ -8862,6 +9601,7 @@
         "index": {
           "description": "variables in the modifies clause of the enclosing procedure",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxModifies",
           "normalized": "[Id]",
@@ -8878,6 +9618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eposition in the source code\n Persistent context (not specific to any node, never gets restored):\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxPos",
           "package": "language-boogie",
@@ -8888,6 +9629,7 @@
         "index": {
           "description": "position in the source code Persistent context not specific to any node never gets restored",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxPos",
           "package": "language-boogie",
@@ -8902,6 +9644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprocedure signatures (type synonyms resolved)\n Local:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxProcedures",
           "package": "language-boogie",
@@ -8912,6 +9655,7 @@
         "index": {
           "description": "procedure signatures type synonyms resolved Local",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxProcedures",
           "package": "language-boogie",
@@ -8926,6 +9670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the context two-state? (procedure body or postcondition)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxTwoState",
           "package": "language-boogie",
@@ -8936,6 +9681,7 @@
         "index": {
           "description": "is the context two-state procedure body or postcondition",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxTwoState",
           "package": "language-boogie",
@@ -8950,6 +9696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype constructor arity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxTypeConstructors",
           "package": "language-boogie",
@@ -8960,6 +9707,7 @@
         "index": {
           "description": "type constructor arity",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxTypeConstructors",
           "package": "language-boogie",
@@ -8974,6 +9722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype synonym values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxTypeSynonyms",
           "package": "language-boogie",
@@ -8984,6 +9733,7 @@
         "index": {
           "description": "type synonym values",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxTypeSynonyms",
           "normalized": "Map Id([Id],Type)",
@@ -9000,6 +9750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree type variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxTypeVars",
           "package": "language-boogie",
@@ -9010,6 +9761,7 @@
         "index": {
           "description": "free type variables",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "ctxTypeVars",
           "normalized": "[Id]",
@@ -9026,6 +9778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty context  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "emptyContext",
           "package": "language-boogie",
@@ -9036,6 +9789,7 @@
         "index": {
           "description": "Empty context",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "emptyContext",
           "package": "language-boogie",
@@ -9050,6 +9804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eenterFunction\u003c/a\u003e\u003c/code\u003e \u003ccode\u003esig formals actuals mRetType c\u003c/code\u003e :\n Local context of function \u003ccode\u003esig\u003c/code\u003e with formal arguments \u003ccode\u003eformals\u003c/code\u003e and actual arguments \u003ccode\u003eactuals\u003c/code\u003e\n in a context where the return type is exprected to be \u003ccode\u003emRetType\u003c/code\u003e (if known)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "enterFunction",
           "package": "language-boogie",
@@ -9060,6 +9815,7 @@
         "index": {
           "description": "enterFunction sig formals actuals mRetType Local context of function sig with formal arguments formals and actual arguments actuals in context where the return type is exprected to be mRetType if known",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "enterFunction",
           "normalized": "FSig-\u003e[Id]-\u003e[Expression]-\u003eContext-\u003eContext",
@@ -9076,6 +9832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eenterProcedure\u003c/a\u003e\u003c/code\u003e \u003ccode\u003esig def actuals lhss c\u003c/code\u003e :\n Local context of procedure \u003ccode\u003esig\u003c/code\u003e with definition \u003ccode\u003edef\u003c/code\u003e and actual arguments \u003ccode\u003eactuals\u003c/code\u003e\n in a call with left-hand sides \u003ccode\u003elhss\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "enterProcedure",
           "package": "language-boogie",
@@ -9086,6 +9843,7 @@
         "index": {
           "description": "enterProcedure sig def actuals lhss Local context of procedure sig with definition def and actual arguments actuals in call with left-hand sides lhss",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "enterProcedure",
           "normalized": "PSig-\u003ePDef-\u003e[Expression]-\u003e[Expression]-\u003eContext-\u003eContext",
@@ -9102,6 +9860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal context of a quantified expression   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "enterQuantified",
           "package": "language-boogie",
@@ -9112,6 +9871,7 @@
         "index": {
           "description": "Local context of quantified expression",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "enterQuantified",
           "normalized": "[Id]-\u003e[IdType]-\u003eContext-\u003eContext",
@@ -9128,6 +9888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eexprType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec expr\u003c/code\u003e :\n Type of \u003ccode\u003eexpr\u003c/code\u003e in context \u003ccode\u003ec\u003c/code\u003e;\n fails if expr contains type errors.    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "exprType",
           "package": "language-boogie",
@@ -9138,6 +9899,7 @@
         "index": {
           "description": "exprType expr Type of expr in context fails if expr contains type errors",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "exprType",
           "normalized": "Context-\u003eExpression-\u003eType",
@@ -9154,6 +9916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of functions and procedures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "funProcNames",
           "package": "language-boogie",
@@ -9164,6 +9927,7 @@
         "index": {
           "description": "Names of functions and procedures",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "funProcNames",
           "normalized": "Context-\u003e[Id]",
@@ -9180,6 +9944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction signature by name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "funSig",
           "package": "language-boogie",
@@ -9190,6 +9955,7 @@
         "index": {
           "description": "Function signature by name",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "funSig",
           "normalized": "Id-\u003eContext-\u003eFSig",
@@ -9206,6 +9972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal variables and constants\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "globalScope",
           "package": "language-boogie",
@@ -9216,6 +9983,7 @@
         "index": {
           "description": "Global variables and constants",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "globalScope",
           "normalized": "Context-\u003eMap Id Type",
@@ -9232,6 +10000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput parameters and local variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "localScope",
           "package": "language-boogie",
@@ -9242,6 +10011,7 @@
         "index": {
           "description": "Input parameters and local variables",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "localScope",
           "normalized": "Context-\u003eMap Id Type",
@@ -9258,6 +10028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll variables that can be assigned to (local variables and global variables)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "mutableVars",
           "package": "language-boogie",
@@ -9268,6 +10039,7 @@
         "index": {
           "description": "All variables that can be assigned to local variables and global variables",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "mutableVars",
           "normalized": "Context-\u003eMap Id Type",
@@ -9284,6 +10056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcedure signature by name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "procSig",
           "package": "language-boogie",
@@ -9294,6 +10067,7 @@
         "index": {
           "description": "Procedure signature by name",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "procSig",
           "normalized": "Id-\u003eContext-\u003ePSig",
@@ -9310,6 +10084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eresolve\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec t\u003c/code\u003e : type \u003ccode\u003et\u003c/code\u003e with all type synonyms resolved according to binding in \u003ccode\u003ec\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "resolve",
           "package": "language-boogie",
@@ -9320,6 +10095,7 @@
         "index": {
           "description": "resolve type with all type synonyms resolved according to binding in",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "resolve",
           "normalized": "Context-\u003eType-\u003eType",
@@ -9334,6 +10110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "setLocals",
           "package": "language-boogie",
@@ -9343,6 +10120,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "setLocals",
           "normalized": "Map Id Type-\u003eContext-\u003eContext",
@@ -9359,6 +10137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck program and return type errors if present, and the global typing context otherwise \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "typeCheckProgram",
           "package": "language-boogie",
@@ -9369,6 +10148,7 @@
         "index": {
           "description": "Check program and return type errors if present and the global typing context otherwise",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "typeCheckProgram",
           "normalized": "Program-\u003eEither[TypeError]Context",
@@ -9385,6 +10165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed list of type errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "typeErrorsDoc",
           "package": "language-boogie",
@@ -9395,6 +10176,7 @@
         "index": {
           "description": "Pretty-printed list of type errors",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "typeErrorsDoc",
           "normalized": "[TypeError]-\u003eDoc",
@@ -9411,6 +10193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType constructors and synonyms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.TypeChecker",
           "name": "typeNames",
           "package": "language-boogie",
@@ -9421,6 +10204,7 @@
         "index": {
           "description": "Type constructors and synonyms",
           "hierarchy": "Language Boogie TypeChecker",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.TypeChecker",
           "name": "typeNames",
           "normalized": "Context-\u003e[Id]",
@@ -9437,6 +10221,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious properties and transformations of Boogie program elements\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "Util",
           "package": "language-boogie",
@@ -9446,6 +10231,7 @@
         "index": {
           "description": "Various properties and transformations of Boogie program elements",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "Util",
           "package": "language-boogie",
@@ -9460,6 +10246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract store: maps names to their constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "AbstractStore",
           "package": "language-boogie",
@@ -9469,6 +10256,7 @@
         "index": {
           "description": "Abstract store maps names to their constraints",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "AbstractStore",
           "package": "language-boogie",
@@ -9483,6 +10271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraint set: contains a list of definitions and a list of constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "ConstraintSet",
           "package": "language-boogie",
@@ -9492,6 +10281,7 @@
         "index": {
           "description": "Constraint set contains list of definitions and list of constraints",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "ConstraintSet",
           "package": "language-boogie",
@@ -9506,6 +10296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "FDef",
           "package": "language-boogie",
@@ -9515,6 +10306,7 @@
         "index": {
           "description": "Function definition",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "FDef",
           "package": "language-boogie",
@@ -9529,6 +10321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "FSig",
           "package": "language-boogie",
@@ -9538,6 +10331,7 @@
         "index": {
           "description": "Function signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "FSig",
           "package": "language-boogie",
@@ -9552,6 +10346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcedure definition;\n a single procedure might have multiple definitions (one per body)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "PDef",
           "package": "language-boogie",
@@ -9561,6 +10356,7 @@
         "index": {
           "description": "Procedure definition single procedure might have multiple definitions one per body",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "PDef",
           "package": "language-boogie",
@@ -9575,6 +10371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcedure signature \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "PSig",
           "package": "language-boogie",
@@ -9584,6 +10381,7 @@
         "index": {
           "description": "Procedure signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "PSig",
           "package": "language-boogie",
@@ -9598,6 +10396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from type variables to types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "TypeBinding",
           "package": "language-boogie",
@@ -9607,6 +10406,7 @@
         "index": {
           "description": "Mapping from type variables to types",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "TypeBinding",
           "package": "language-boogie",
@@ -9621,6 +10421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from variables to expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "VarBinding",
           "package": "language-boogie",
@@ -9630,6 +10431,7 @@
         "index": {
           "description": "Mapping from variables to expressions",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "VarBinding",
           "package": "language-boogie",
@@ -9643,6 +10445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|||)",
           "package": "language-boogie",
@@ -9652,6 +10455,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|||) |||",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9666,6 +10470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|!=|)",
           "package": "language-boogie",
@@ -9675,6 +10480,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|!=|) |!=|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9689,6 +10495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|%|)",
           "package": "language-boogie",
@@ -9698,6 +10505,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|%|) |%|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9712,6 +10520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|&|)",
           "package": "language-boogie",
@@ -9721,6 +10530,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|&|) |&|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9735,6 +10545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|*|)",
           "package": "language-boogie",
@@ -9744,6 +10555,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|*|) |*|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9758,6 +10570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|+|)",
           "package": "language-boogie",
@@ -9767,6 +10580,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|+|) |+|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9781,6 +10595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|-|)",
           "package": "language-boogie",
@@ -9790,6 +10605,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|-|) |-|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9804,6 +10620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|/|)",
           "package": "language-boogie",
@@ -9813,6 +10630,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|/|) |/|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9827,6 +10645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|\u003c|)",
           "package": "language-boogie",
@@ -9836,6 +10655,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|\u003c|) |\u003c|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9850,6 +10670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|\u003c=|)",
           "package": "language-boogie",
@@ -9859,6 +10680,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|\u003c=|) |\u003c=|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9873,6 +10695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|\u003c=\u003e|)",
           "package": "language-boogie",
@@ -9882,6 +10705,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|\u003c=\u003e|) |\u003c=\u003e|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9896,6 +10720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|=|)",
           "package": "language-boogie",
@@ -9905,6 +10730,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|=|) |=|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9919,6 +10745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|=\u003e|)",
           "package": "language-boogie",
@@ -9928,6 +10755,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|=\u003e|) |=\u003e|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9942,6 +10770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|\u003e|)",
           "package": "language-boogie",
@@ -9951,6 +10780,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|\u003e|) |\u003e|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9965,6 +10795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "(|\u003e=|)",
           "package": "language-boogie",
@@ -9974,6 +10805,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "(|\u003e=|) |\u003e=|",
           "normalized": "Pos BareExpression-\u003ePos BareExpression-\u003ePos BareExpression",
@@ -9988,6 +10820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "FDef",
           "package": "language-boogie",
@@ -9997,6 +10830,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "FDef",
           "package": "language-boogie",
@@ -10010,6 +10844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "FSig",
           "package": "language-boogie",
@@ -10019,6 +10854,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "FSig",
           "package": "language-boogie",
@@ -10032,6 +10868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "PDef",
           "package": "language-boogie",
@@ -10041,6 +10878,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "PDef",
           "package": "language-boogie",
@@ -10054,6 +10892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "PSig",
           "package": "language-boogie",
@@ -10063,6 +10902,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "PSig",
           "package": "language-boogie",
@@ -10077,6 +10917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003eany\u003c/a\u003e\u003c/code\u003e (executes boolean-valued computation for all arguments in a list until the first True is found) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "anyM",
           "package": "language-boogie",
@@ -10087,6 +10928,7 @@
         "index": {
           "description": "Monadic version of any executes boolean-valued computation for all arguments in list until the first True is found",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "anyM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb Bool",
@@ -10102,6 +10944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eapplications\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eexpr\u003c/code\u003e : all function applications that occur in \u003ccode\u003eexpr\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "applications",
           "package": "language-boogie",
@@ -10112,6 +10955,7 @@
         "index": {
           "description": "applications expr all function applications that occur in expr",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "applications",
           "normalized": "Expression-\u003e[(Id,[Expression])]",
@@ -10127,6 +10971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of abstract stores (values at the same key are concatenated)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "asUnion",
           "package": "language-boogie",
@@ -10137,6 +10982,7 @@
         "index": {
           "description": "Union of abstract stores values at the same key are concatenated",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "asUnion",
           "normalized": "AbstractStore-\u003eAbstractStore-\u003eAbstractStore",
@@ -10152,6 +10998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "assume",
           "package": "language-boogie",
@@ -10161,6 +11008,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "assume",
           "normalized": "Pos BareExpression-\u003ePos BareStatement",
@@ -10176,6 +11024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake all postconditions in contracts free  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "assumePostconditions",
           "package": "language-boogie",
@@ -10186,6 +11035,7 @@
         "index": {
           "description": "Make all postconditions in contracts free",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "assumePostconditions",
           "normalized": "PSig-\u003ePSig",
@@ -10202,6 +11052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake all preconditions in contracts free  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "assumePreconditions",
           "package": "language-boogie",
@@ -10212,6 +11063,7 @@
         "index": {
           "description": "Make all preconditions in contracts free",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "assumePreconditions",
           "normalized": "PSig-\u003ePSig",
@@ -10228,6 +11080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a computation with state of type \u003ccode\u003et\u003c/code\u003e inside a computation with state of type \u003ccode\u003es\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "changeState",
           "package": "language-boogie",
@@ -10238,6 +11091,7 @@
         "index": {
           "description": "Execute computation with state of type inside computation with state of type",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "changeState",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003ea)-\u003eStateT b c d-\u003eStateT a c d",
@@ -10253,6 +11107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "conjunction",
           "package": "language-boogie",
@@ -10262,6 +11117,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "conjunction",
           "normalized": "[Pos BareExpression]-\u003ePos BareExpression",
@@ -10277,6 +11133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edeleteAll\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ekeys m\u003c/code\u003e : map \u003ccode\u003em\u003c/code\u003e with \u003ccode\u003ekeys\u003c/code\u003e removed from its domain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "deleteAll",
           "package": "language-boogie",
@@ -10287,6 +11144,7 @@
         "index": {
           "description": "deleteAll keys map with keys removed from its domain",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "deleteAll",
           "normalized": "[a]-\u003eMap a b-\u003eMap a b",
@@ -10302,6 +11160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "eneg",
           "package": "language-boogie",
@@ -10311,6 +11170,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "eneg",
           "normalized": "Pos BareExpression-\u003ePos BareExpression",
@@ -10325,6 +11185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "enot",
           "package": "language-boogie",
@@ -10334,6 +11195,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "enot",
           "normalized": "Pos BareExpression-\u003ePos BareExpression",
@@ -10349,6 +11211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eexprSubst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ebinding e\u003c/code\u003e : substitute all free variables in \u003ccode\u003ee\u003c/code\u003e according to \u003ccode\u003ebinding\u003c/code\u003e;\n all variables in the domain of \u003ccode\u003ebindings\u003c/code\u003e are considered free if not explicitly bound\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "exprSubst",
           "package": "language-boogie",
@@ -10359,6 +11222,7 @@
         "index": {
           "description": "exprSubst binding substitute all free variables in according to binding all variables in the domain of bindings are considered free if not explicitly bound",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "exprSubst",
           "normalized": "VarBinding-\u003eExpression-\u003eExpression",
@@ -10375,6 +11239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArguments (types may be less general than in the corresponding signature)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fdefArgs",
           "package": "language-boogie",
@@ -10385,6 +11250,7 @@
         "index": {
           "description": "Arguments types may be less general than in the corresponding signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fdefArgs",
           "normalized": "[IdType]",
@@ -10401,6 +11267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBody \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fdefBody",
           "package": "language-boogie",
@@ -10411,6 +11278,7 @@
         "index": {
           "description": "Body",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fdefBody",
           "package": "language-boogie",
@@ -10425,6 +11293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCondition under which the definition applies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fdefGuard",
           "package": "language-boogie",
@@ -10435,6 +11304,7 @@
         "index": {
           "description": "Condition under which the definition applies",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fdefGuard",
           "package": "language-boogie",
@@ -10449,6 +11319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity to which the definition belongs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fdefName",
           "package": "language-boogie",
@@ -10459,6 +11330,7 @@
         "index": {
           "description": "Entity to which the definition belongs",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fdefName",
           "package": "language-boogie",
@@ -10473,6 +11345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fdefTV",
           "package": "language-boogie",
@@ -10483,6 +11356,7 @@
         "index": {
           "description": "Type variables",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fdefTV",
           "normalized": "[Id]",
@@ -10499,6 +11373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree variables in an expression, in old state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "freeOldVars",
           "package": "language-boogie",
@@ -10509,6 +11384,7 @@
         "index": {
           "description": "Free variables in an expression in old state",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "freeOldVars",
           "normalized": "Expression-\u003e[Id]",
@@ -10525,6 +11401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efreeSelections\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eexpr\u003c/code\u003e : all map selections that occur in \u003ccode\u003eexpr\u003c/code\u003e, where the map is a free variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "freeSelections",
           "package": "language-boogie",
@@ -10535,6 +11412,7 @@
         "index": {
           "description": "freeSelections expr all map selections that occur in expr where the map is free variable",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "freeSelections",
           "normalized": "Expression-\u003e[(Id,[Expression])]",
@@ -10551,6 +11429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree variables in an expression, in current state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "freeVars",
           "package": "language-boogie",
@@ -10561,6 +11440,7 @@
         "index": {
           "description": "Free variables in an expression in current state",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "freeVars",
           "normalized": "Expression-\u003e[Id]",
@@ -10577,6 +11457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree variables in an expression, referred to in current state and old state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "freeVarsTwoState",
           "package": "language-boogie",
@@ -10587,6 +11468,7 @@
         "index": {
           "description": "Free variables in an expression referred to in current state and old state",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "freeVarsTwoState",
           "normalized": "Expression-\u003e([Id],[Id])",
@@ -10603,6 +11485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'freshTVName \u003ccode\u003en\u003c/code\u003e : Fresh type variable with a unique identifier n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "freshTVName",
           "package": "language-boogie",
@@ -10613,6 +11496,7 @@
         "index": {
           "description": "freshTVName Fresh type variable with unique identifier",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "freshTVName",
           "normalized": "a-\u003e[Char]",
@@ -10629,6 +11513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the element out of a \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e and throw an error if its argument is \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fromRight",
           "package": "language-boogie",
@@ -10639,6 +11524,7 @@
         "index": {
           "description": "Extract the element out of Right and throw an error if its argument is Left",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fromRight",
           "normalized": "Either a b-\u003eb",
@@ -10655,6 +11541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efromTVNames\u003c/a\u003e\u003c/code\u003e \u003ccode\u003etvs tvs'\u003c/code\u003e : type binding that replaces type variables \u003ccode\u003etvs\u003c/code\u003e with type variables \u003ccode\u003etvs'\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fromTVNames",
           "package": "language-boogie",
@@ -10665,6 +11552,7 @@
         "index": {
           "description": "fromTVNames tvs tvs type binding that replaces type variables tvs with type variables tvs",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fromTVNames",
           "normalized": "[Id]-\u003e[Id]-\u003eTypeBinding",
@@ -10681,6 +11569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fsigArgTypes",
           "package": "language-boogie",
@@ -10691,6 +11580,7 @@
         "index": {
           "description": "Argument types",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fsigArgTypes",
           "normalized": "[Type]",
@@ -10707,6 +11597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap type as a function signature \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fsigFromType",
           "package": "language-boogie",
@@ -10717,6 +11608,7 @@
         "index": {
           "description": "Map type as function signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fsigFromType",
           "normalized": "Type-\u003eFSig",
@@ -10733,6 +11625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fsigName",
           "package": "language-boogie",
@@ -10743,6 +11636,7 @@
         "index": {
           "description": "Function name",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fsigName",
           "package": "language-boogie",
@@ -10757,6 +11651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fsigRetType",
           "package": "language-boogie",
@@ -10767,6 +11662,7 @@
         "index": {
           "description": "Return type",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fsigRetType",
           "package": "language-boogie",
@@ -10781,6 +11677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction signature as a map type  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fsigType",
           "package": "language-boogie",
@@ -10791,6 +11688,7 @@
         "index": {
           "description": "Function signature as map type",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fsigType",
           "normalized": "FSig-\u003eType",
@@ -10807,6 +11705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "fsigTypeVars",
           "package": "language-boogie",
@@ -10817,6 +11716,7 @@
         "index": {
           "description": "Type variables",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "fsigTypeVars",
           "normalized": "[Id]",
@@ -10832,6 +11732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "internalError",
           "package": "language-boogie",
@@ -10841,6 +11742,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "internalError",
           "normalized": "[Char]-\u003ea",
@@ -10857,6 +11759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einterval\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(lo, hi)\u003c/code\u003e : Interval from \u003ccode\u003elo\u003c/code\u003e to \u003ccode\u003ehi\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "interval",
           "package": "language-boogie",
@@ -10867,6 +11770,7 @@
         "index": {
           "description": "interval lo hi Interval from lo to hi",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "interval",
           "normalized": "(a,a)-\u003e[a]",
@@ -10882,6 +11786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ex\u003c/code\u003e \u003ccode\u003e\u003ca\u003eisFreeIn\u003c/a\u003e\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e : does \u003ccode\u003ex\u003c/code\u003e occur free in \u003ccode\u003et\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "isFreeIn",
           "package": "language-boogie",
@@ -10892,6 +11797,7 @@
         "index": {
           "description": "isFreeIn does occur free in",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "isFreeIn",
           "normalized": "Id-\u003eType-\u003eBool",
@@ -10908,6 +11814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eisTypeVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003econtextTypeVars v\u003c/code\u003e : Is \u003ccode\u003ev\u003c/code\u003e either one of  \u003ccode\u003econtextTypeVars\u003c/code\u003e or a freash type variable generated by \u003ccode\u003e\u003ca\u003efreshTVName\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "isTypeVar",
           "package": "language-boogie",
@@ -10918,6 +11825,7 @@
         "index": {
           "description": "isTypeVar contextTypeVars Is either one of contextTypeVars or freash type variable generated by freshTVName",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "isTypeVar",
           "normalized": "[Id]-\u003eId-\u003eBool",
@@ -10933,6 +11841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "mapItwType",
           "package": "language-boogie",
@@ -10942,6 +11851,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "mapItwType",
           "normalized": "(Type-\u003eType)-\u003eIdTypeWhere-\u003eIdTypeWhere",
@@ -10958,6 +11868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emodifies\u003c/a\u003e\u003c/code\u003e \u003ccode\u003especs\u003c/code\u003e : all modifies clauses in \u003ccode\u003especs\u003c/code\u003e   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "modifies",
           "package": "language-boogie",
@@ -10968,6 +11879,7 @@
         "index": {
           "description": "modifies specs all modifies clauses in specs",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "modifies",
           "normalized": "[Contract]-\u003e[Id]",
@@ -10982,6 +11894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "num",
           "package": "language-boogie",
@@ -10991,6 +11904,7 @@
         },
         "index": {
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "num",
           "normalized": "Integer-\u003ePos BareExpression",
@@ -11006,6 +11920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparamSubst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003esig def\u003c/code\u003e :\n Substitute parameter names from \u003ccode\u003esig\u003c/code\u003e in an expression with their equivalents from \u003ccode\u003edef\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "paramSubst",
           "package": "language-boogie",
@@ -11016,6 +11931,7 @@
         "index": {
           "description": "paramSubst sig def Substitute parameter names from sig in an expression with their equivalents from def",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "paramSubst",
           "normalized": "PSig-\u003ePDef-\u003eExpression-\u003eExpression",
@@ -11032,6 +11948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBody\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "pdefBody",
           "package": "language-boogie",
@@ -11042,6 +11959,7 @@
         "index": {
           "description": "Body",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "pdefBody",
           "package": "language-boogie",
@@ -11056,6 +11974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraints on local names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "pdefConstraints",
           "package": "language-boogie",
@@ -11066,6 +11985,7 @@
         "index": {
           "description": "Constraints on local names",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "pdefConstraints",
           "package": "language-boogie",
@@ -11080,6 +12000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn-parameter names (in the same order as \u003ccode\u003e\u003ca\u003epsigArgs\u003c/a\u003e\u003c/code\u003e in the corresponding signature)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "pdefIns",
           "package": "language-boogie",
@@ -11090,6 +12011,7 @@
         "index": {
           "description": "In-parameter names in the same order as psigArgs in the corresponding signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "pdefIns",
           "normalized": "[Id]",
@@ -11106,6 +12028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll local names of a procedure definition  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "pdefLocals",
           "package": "language-boogie",
@@ -11116,6 +12039,7 @@
         "index": {
           "description": "All local names of procedure definition",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "pdefLocals",
           "normalized": "PDef-\u003e[Id]",
@@ -11132,6 +12056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOut-parameter names (in the same order as \u003ccode\u003e\u003ca\u003epsigRets\u003c/a\u003e\u003c/code\u003e in the corresponding signature)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "pdefOuts",
           "package": "language-boogie",
@@ -11142,6 +12067,7 @@
         "index": {
           "description": "Out-parameter names in the same order as psigRets in the corresponding signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "pdefOuts",
           "normalized": "[Id]",
@@ -11158,6 +12084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre any parameter names in this definition different for the procedure signature? (used for optimizing parameter renaming, True is a safe default)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "pdefParamsRenamed",
           "package": "language-boogie",
@@ -11168,6 +12095,7 @@
         "index": {
           "description": "Are any parameter names in this definition different for the procedure signature used for optimizing parameter renaming True is safe default",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "pdefParamsRenamed",
           "package": "language-boogie",
@@ -11182,6 +12110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation of the (first line of the) procedure definition in the source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "pdefPos",
           "package": "language-boogie",
@@ -11192,6 +12121,7 @@
         "index": {
           "description": "Location of the first line of the procedure definition in the source",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "pdefPos",
           "package": "language-boogie",
@@ -11206,6 +12136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epostconditions\u003c/a\u003e\u003c/code\u003e \u003ccode\u003especs\u003c/code\u003e : all postcondition clauses in \u003ccode\u003especs\u003c/code\u003e     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "postconditions",
           "package": "language-boogie",
@@ -11216,6 +12147,7 @@
         "index": {
           "description": "postconditions specs all postcondition clauses in specs",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "postconditions",
           "normalized": "[Contract]-\u003e[SpecClause]",
@@ -11231,6 +12163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epreconditions\u003c/a\u003e\u003c/code\u003e \u003ccode\u003especs\u003c/code\u003e : all precondition clauses in \u003ccode\u003especs\u003c/code\u003e  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "preconditions",
           "package": "language-boogie",
@@ -11241,6 +12174,7 @@
         "index": {
           "description": "preconditions specs all precondition clauses in specs",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "preconditions",
           "normalized": "[Contract]-\u003e[SpecClause]",
@@ -11256,6 +12190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of in-parameters of a procedure signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigArgTypes",
           "package": "language-boogie",
@@ -11266,6 +12201,7 @@
         "index": {
           "description": "Types of in-parameters of procedure signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigArgTypes",
           "normalized": "PSig-\u003e[Type]",
@@ -11282,6 +12218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn-parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigArgs",
           "package": "language-boogie",
@@ -11292,6 +12229,7 @@
         "index": {
           "description": "In-parameters",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigArgs",
           "normalized": "[IdTypeWhere]",
@@ -11308,6 +12246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContracts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigContracts",
           "package": "language-boogie",
@@ -11318,6 +12257,7 @@
         "index": {
           "description": "Contracts",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigContracts",
           "normalized": "[Contract]",
@@ -11334,6 +12274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostconditions of a procedure signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigEnsures",
           "package": "language-boogie",
@@ -11344,6 +12285,7 @@
         "index": {
           "description": "Postconditions of procedure signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigEnsures",
           "normalized": "PSig-\u003e[SpecClause]",
@@ -11360,6 +12302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies clauses of a procedure signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigModifies",
           "package": "language-boogie",
@@ -11370,6 +12313,7 @@
         "index": {
           "description": "Modifies clauses of procedure signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigModifies",
           "normalized": "PSig-\u003e[Id]",
@@ -11386,6 +12330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcedure name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigName",
           "package": "language-boogie",
@@ -11396,6 +12341,7 @@
         "index": {
           "description": "Procedure name",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigName",
           "package": "language-boogie",
@@ -11410,6 +12356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll parameters of a procedure signature \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigParams",
           "package": "language-boogie",
@@ -11420,6 +12367,7 @@
         "index": {
           "description": "All parameters of procedure signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigParams",
           "normalized": "PSig-\u003e[IdTypeWhere]",
@@ -11436,6 +12384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreconditions of a procedure signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigRequires",
           "package": "language-boogie",
@@ -11446,6 +12395,7 @@
         "index": {
           "description": "Preconditions of procedure signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigRequires",
           "normalized": "PSig-\u003e[SpecClause]",
@@ -11462,6 +12412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of out-parameters of a procedure signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigRetTypes",
           "package": "language-boogie",
@@ -11472,6 +12423,7 @@
         "index": {
           "description": "Types of out-parameters of procedure signature",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigRetTypes",
           "normalized": "PSig-\u003e[Type]",
@@ -11488,6 +12440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOut-parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigRets",
           "package": "language-boogie",
@@ -11498,6 +12451,7 @@
         "index": {
           "description": "Out-parameters",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigRets",
           "normalized": "[IdTypeWhere]",
@@ -11514,6 +12468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcedure signature as a map type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigType",
           "package": "language-boogie",
@@ -11524,6 +12479,7 @@
         "index": {
           "description": "Procedure signature as map type",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigType",
           "normalized": "PSig-\u003eType",
@@ -11540,6 +12496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "psigTypeVars",
           "package": "language-boogie",
@@ -11550,6 +12507,7 @@
         "index": {
           "description": "Type variables",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "psigTypeVars",
           "normalized": "[Id]",
@@ -11566,6 +12524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eremoveDomain\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ekeys m\u003c/code\u003e : map \u003ccode\u003em\u003c/code\u003e with the set of keys \u003ccode\u003ekeys\u003c/code\u003e removed from its domain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "removeDomain",
           "package": "language-boogie",
@@ -11576,6 +12535,7 @@
         "index": {
           "description": "removeDomain keys map with the set of keys keys removed from its domain",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "removeDomain",
           "normalized": "Set a-\u003eMap a b-\u003eMap a b",
@@ -11592,6 +12552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erenameTypeVars\u003c/a\u003e\u003c/code\u003e \u003ccode\u003etv newTV binding\u003c/code\u003e : \u003ccode\u003ebinding\u003c/code\u003e with each occurrence of one of \u003ccode\u003etv\u003c/code\u003e replaced with corresponding \u003ccode\u003enewTV\u003c/code\u003e \n (in both domain and range)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "renameTypeVars",
           "package": "language-boogie",
@@ -11602,6 +12563,7 @@
         "index": {
           "description": "renameTypeVars tv newTV binding binding with each occurrence of one of tv replaced with corresponding newTV in both domain and range",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "renameTypeVars",
           "normalized": "[Id]-\u003e[Id]-\u003eTypeBinding-\u003eTypeBinding",
@@ -11618,6 +12580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erestrictDomain\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ekeys m\u003c/code\u003e : map \u003ccode\u003em\u003c/code\u003e restricted on the set of keys \u003ccode\u003ekeys\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "restrictDomain",
           "package": "language-boogie",
@@ -11628,6 +12591,7 @@
         "index": {
           "description": "restrictDomain keys map restricted on the set of keys keys",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "restrictDomain",
           "normalized": "Set a-\u003eMap a b-\u003eMap a b",
@@ -11644,6 +12608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal tuple type constructor (used for representing procedure returns as a single type)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "tupleType",
           "package": "language-boogie",
@@ -11654,6 +12619,7 @@
         "index": {
           "description": "Internal tuple type constructor used for representing procedure returns as single type",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "tupleType",
           "normalized": "[Type]-\u003eType",
@@ -11670,6 +12636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etypeSubst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ebinding t\u003c/code\u003e :\n Substitute all free type variables in \u003ccode\u003et\u003c/code\u003e according to binding;\n all variables in the domain of \u003ccode\u003ebindings\u003c/code\u003e are considered free if not explicitly bound\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "typeSubst",
           "package": "language-boogie",
@@ -11680,6 +12647,7 @@
         "index": {
           "description": "typeSubst binding Substitute all free type variables in according to binding all variables in the domain of bindings are considered free if not explicitly bound",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "typeSubst",
           "normalized": "TypeBinding-\u003eType-\u003eType",
@@ -11696,6 +12664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eunifier\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efv xs ys\u003c/code\u003e : most general unifier of \u003ccode\u003exs\u003c/code\u003e and \u003ccode\u003eys\u003c/code\u003e with shared free type variables of the context \u003ccode\u003efv\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "unifier",
           "package": "language-boogie",
@@ -11706,6 +12675,7 @@
         "index": {
           "description": "unifier fv xs ys most general unifier of xs and ys with shared free type variables of the context fv",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "unifier",
           "normalized": "[Id]-\u003e[Type]-\u003e[Type]-\u003eMaybe TypeBinding",
@@ -11721,6 +12691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithLocalState\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elocalState e\u003c/code\u003e :\n Execute \u003ccode\u003ee\u003c/code\u003e in current state modified by \u003ccode\u003elocalState\u003c/code\u003e, and then restore current state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:50 UTC 2014",
           "module": "Language.Boogie.Util",
           "name": "withLocalState",
           "package": "language-boogie",
@@ -11731,6 +12702,7 @@
         "index": {
           "description": "withLocalState localState Execute in current state modified by localState and then restore current state",
           "hierarchy": "Language Boogie Util",
+          "indexed": "2014-03-11T19:04:50",
           "module": "Language.Boogie.Util",
           "name": "withLocalState",
           "normalized": "(a-\u003eb)-\u003eStateT b c d-\u003eStateT a c d",

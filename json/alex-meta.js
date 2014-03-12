@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alex-meta"
+        "phrase": "alex-meta",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:37 UTC 2014",
           "module": "Text.Alex.AlexTemplate",
           "name": "AlexTemplate",
           "package": "alex-meta",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Alex AlexTemplate",
+          "indexed": "2014-03-11T17:09:37",
           "module": "Text.Alex.AlexTemplate",
           "name": "AlexTemplate",
           "package": "alex-meta",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:37 UTC 2014",
           "module": "Text.Alex.AlexTemplate",
           "name": "alexTemplate",
           "package": "alex-meta",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Alex AlexTemplate",
+          "indexed": "2014-03-11T17:09:37",
           "module": "Text.Alex.AlexTemplate",
           "name": "alexTemplate",
           "normalized": "a-\u003eString",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:37 UTC 2014",
           "module": "Text.Alex.Quote",
           "name": "Quote",
           "package": "alex-meta",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Alex Quote",
+          "indexed": "2014-03-11T17:09:37",
           "module": "Text.Alex.Quote",
           "name": "Quote",
           "package": "alex-meta",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:37 UTC 2014",
           "module": "Text.Alex.Quote",
           "name": "Alex",
           "package": "alex-meta",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Text Alex Quote",
+          "indexed": "2014-03-11T17:09:37",
           "module": "Text.Alex.Quote",
           "name": "Alex",
           "package": "alex-meta",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:37 UTC 2014",
           "module": "Text.Alex.Quote",
           "name": "alex",
           "package": "alex-meta",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text Alex Quote",
+          "indexed": "2014-03-11T17:09:37",
           "module": "Text.Alex.Quote",
           "name": "alex",
           "package": "alex-meta",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:37 UTC 2014",
           "module": "Text.Alex.Quote",
           "name": "compileAlex",
           "package": "alex-meta",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text Alex Quote",
+          "indexed": "2014-03-11T17:09:37",
           "module": "Text.Alex.Quote",
           "name": "compileAlex",
           "normalized": "Alex-\u003eQ[Dec]",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:37 UTC 2014",
           "module": "Text.Alex.Quote",
           "name": "parseAlex",
           "package": "alex-meta",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Text Alex Quote",
+          "indexed": "2014-03-11T17:09:37",
           "module": "Text.Alex.Quote",
           "name": "parseAlex",
           "normalized": "String-\u003eAlex",

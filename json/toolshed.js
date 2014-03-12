@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "toolshed"
+        "phrase": "toolshed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tMiscellaneous polymorphic operations on \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e types.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Foldable",
           "name": "Foldable",
           "package": "toolshed",
@@ -28,6 +29,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Miscellaneous polymorphic operations on Foldable types",
           "hierarchy": "ToolShed Data Foldable",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Foldable",
           "name": "Foldable",
           "package": "toolshed",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific instance of \u003ccode\u003e\u003ca\u003egatherBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Foldable",
           "name": "gather",
           "package": "toolshed",
@@ -52,6 +55,7 @@
         "index": {
           "description": "specific instance of gatherBy",
           "hierarchy": "ToolShed Data Foldable",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Foldable",
           "name": "gather",
           "normalized": "a b-\u003e[[b]]",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Group equal (though not necessarily adjacent; c.f. \u003ccode\u003e\u003ca\u003egroupBy\u003c/a\u003e\u003c/code\u003e) elements, according to the specified comparator.\n\u003c/li\u003e\u003cli\u003e The groups are returned in ascending order, whilst their elements remain in their original order.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Foldable",
           "name": "gatherBy",
           "package": "toolshed",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Group equal though not necessarily adjacent c.f groupBy elements according to the specified comparator The groups are returned in ascending order whilst their elements remain in their original order",
           "hierarchy": "ToolShed Data Foldable",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Foldable",
           "name": "gatherBy",
           "normalized": "(a-\u003eb)-\u003ec a-\u003e[[a]]",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the specified collection contains any equal items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Foldable",
           "name": "hasDuplicates",
           "package": "toolshed",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Whether the specified collection contains any equal items",
           "hierarchy": "ToolShed Data Foldable",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Foldable",
           "name": "hasDuplicates",
           "normalized": "a b-\u003eBool",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tRun-length encoder and decoder.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List.Runlength",
           "name": "Runlength",
           "package": "toolshed",
@@ -128,6 +137,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Run-length encoder and decoder",
           "hierarchy": "ToolShed Data List Runlength",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List.Runlength",
           "name": "Runlength",
           "package": "toolshed",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes the number of consecutive equal items in a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List.Runlength",
           "name": "Code",
           "package": "toolshed",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Describes the number of consecutive equal items in list",
           "hierarchy": "ToolShed Data List Runlength",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List.Runlength",
           "name": "Code",
           "package": "toolshed",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms \u003cem\u003erun-length\u003c/em\u003e decoding to retrieve the original unencoded list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List.Runlength",
           "name": "decode",
           "package": "toolshed",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Performs run-length decoding to retrieve the original unencoded list",
           "hierarchy": "ToolShed Data List Runlength",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List.Runlength",
           "name": "decode",
           "normalized": "[Code a]-\u003e[a]",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eRun-length\u003c/em\u003e encodes the specified list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List.Runlength",
           "name": "encode",
           "package": "toolshed",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Run-length encodes the specified list",
           "hierarchy": "ToolShed Data List Runlength",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List.Runlength",
           "name": "encode",
           "normalized": "[a]-\u003e[Code a]",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccessor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List.Runlength",
           "name": "getDatum",
           "package": "toolshed",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Accessor",
           "hierarchy": "ToolShed Data List Runlength",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List.Runlength",
           "name": "getDatum",
           "normalized": "Code a-\u003ea",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccessor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List.Runlength",
           "name": "getLength",
           "package": "toolshed",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Accessor",
           "hierarchy": "ToolShed Data List Runlength",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List.Runlength",
           "name": "getLength",
           "normalized": "Code a-\u003eInt",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List.Splits",
           "name": "Splits",
           "package": "toolshed",
@@ -276,6 +297,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION",
           "hierarchy": "ToolShed Data List Splits",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List.Splits",
           "name": "Splits",
           "package": "toolshed",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Create the set of all \u003ccode\u003eSplit\u003c/code\u003es, migrating left from the specified location.\n\u003c/li\u003e\u003cli\u003e CAVEAT: \u003ccode\u003e\u003ca\u003einit\u003c/a\u003e\u003c/code\u003e fails when \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e has been reduced to null.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List.Splits",
           "name": "splitsLeftFrom",
           "package": "toolshed",
@@ -299,6 +322,7 @@
         "index": {
           "description": "Create the set of all Split migrating left from the specified location CAVEAT init fails when fst has been reduced to null",
           "hierarchy": "ToolShed Data List Splits",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List.Splits",
           "name": "splitsLeftFrom",
           "normalized": "Int-\u003e[a]-\u003e[Split a]",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Create the set of all \u003ccode\u003eSplit\u003c/code\u003es, migrating right from the specified location.\n\u003c/li\u003e\u003cli\u003e CAVEAT: pattern-match against \u003ccode\u003e : \u003c/code\u003e fails, when \u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e has been reduced to \u003ccode\u003e\u003ca\u003enull\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List.Splits",
           "name": "splitsRightFrom",
           "package": "toolshed",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Create the set of all Split migrating right from the specified location CAVEAT pattern-match against fails when snd has been reduced to null",
           "hierarchy": "ToolShed Data List Splits",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List.Splits",
           "name": "splitsRightFrom",
           "normalized": "Int-\u003e[a]-\u003e[Split a]",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tMiscellaneous polymorphic list-operations.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "List",
           "package": "toolshed",
@@ -349,6 +376,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Miscellaneous polymorphic list-operations",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "List",
           "package": "toolshed",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe length of the chunks into which a list is split.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "ChunkLength",
           "package": "toolshed",
@@ -372,6 +401,7 @@
         "index": {
           "description": "The length of the chunks into which list is split",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "ChunkLength",
           "package": "toolshed",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of function required by \u003ccode\u003e\u003ca\u003efindConvergenceBy\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epermutationsBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "Matches",
           "package": "toolshed",
@@ -395,6 +426,7 @@
         "index": {
           "description": "The type of function required by findConvergenceBy permutationsBy",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "Matches",
           "package": "toolshed",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Splits a list into chunks of the specified length.\n\u003c/li\u003e\u003cli\u003e The last chunk will be shorter, if the chunk-length isn't an aliquot part of the input list-length.\n\u003c/li\u003e\u003cli\u003e If the chunk-length is zero, the resulting list will be an infinite sequence of null lists.\n\u003c/li\u003e\u003cli\u003e CAVEAT: a similar function is available in the module \u003cem\u003eData.List.Split\u003c/em\u003e, though this one checks for \u003ccode\u003e(chunkLength \u003c 0)\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "chunk",
           "package": "toolshed",
@@ -418,6 +451,7 @@
         "index": {
           "description": "Splits list into chunks of the specified length The last chunk will be shorter if the chunk-length isn an aliquot part of the input list-length If the chunk-length is zero the resulting list will be an infinite sequence of null lists CAVEAT similar function is available in the module Data.List.Split though this one checks for chunkLength",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "chunk",
           "normalized": "ChunkLength-\u003e[a]-\u003e[[a]]",
@@ -433,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenient way to compose the \u003ccode\u003e\u003ca\u003eMatches\u003c/a\u003e\u003c/code\u003e-function required by \u003ccode\u003e\u003ca\u003efindConvergenceBy\u003c/a\u003e\u003c/code\u003e & \u003ccode\u003e\u003ca\u003epermutationsBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "equalityBy",
           "package": "toolshed",
@@ -443,6 +478,7 @@
         "index": {
           "description": "convenient way to compose the Matches function required by findConvergenceBy permutationsBy",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "equalityBy",
           "normalized": "(a-\u003eb)-\u003eMatches a",
@@ -459,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the single indexed element from the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "excise",
           "package": "toolshed",
@@ -468,6 +505,7 @@
         "index": {
           "description": "Remove the single indexed element from the list",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "excise",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -483,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific instance of \u003ccode\u003e\u003ca\u003efindConvergenceBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "findConvergence",
           "package": "toolshed",
@@ -493,6 +532,7 @@
         "index": {
           "description": "specific instance of findConvergenceBy",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "findConvergence",
           "normalized": "[a]-\u003ea",
@@ -509,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the first element from the (potentially infinite) list, which matches the subsequent element, according to the specified function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "findConvergenceBy",
           "package": "toolshed",
@@ -519,6 +560,7 @@
         "index": {
           "description": "Take the first element from the potentially infinite list which matches the subsequent element according to the specified function",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "findConvergenceBy",
           "normalized": "Matches a-\u003e[a]-\u003ea",
@@ -535,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list of \u003cem\u003ePairs\u003c/em\u003e, into a narrower list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "linearise",
           "package": "toolshed",
@@ -545,6 +588,7 @@
         "index": {
           "description": "Converts list of Pairs into narrower list",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "linearise",
           "normalized": "[(a,a)]-\u003e[a]",
@@ -560,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific instance of \u003ccode\u003e\u003ca\u003emergeBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "merge",
           "package": "toolshed",
@@ -570,6 +615,7 @@
         "index": {
           "description": "specific instance of mergeBy",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "merge",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -585,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Merge two sorted lists, according to the specified order, to product a single sorted list.\n\u003c/li\u003e\u003cli\u003e The merge-process is \u003cem\u003estable\u003c/em\u003e, in that where items from each list are equal, they remain in the original order.\n\u003c/li\u003e\u003cli\u003e CAVEAT: duplicates are preserved.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "mergeBy",
           "package": "toolshed",
@@ -595,6 +642,7 @@
         "index": {
           "description": "Merge two sorted lists according to the specified order to product single sorted list The merge-process is stable in that where items from each list are equal they remain in the original order CAVEAT duplicates are preserved",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "mergeBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -611,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e A strict version of \u003ccode\u003e\u003ca\u003enub\u003c/a\u003e\u003c/code\u003e with better time-complexity.\n\u003c/li\u003e\u003cli\u003e CAVEAT: the specified list must be finite, since the entire set is constructed before streaming to a list.\n\u003c/li\u003e\u003cli\u003e CAVEAT: it sorts the output as a side-effect, & consequently it requires a type which implements \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "nub'",
           "package": "toolshed",
@@ -621,6 +670,7 @@
         "index": {
           "description": "strict version of nub with better time-complexity CAVEAT the specified list must be finite since the entire set is constructed before streaming to list CAVEAT it sorts the output as side-effect consequently it requires type which implements Ord",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "nub'",
           "normalized": "[a]-\u003e[a]",
@@ -636,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e The list of all permutations, generated by selecting any one datum from each sub-list in turn, from the specified list of lists.\n\u003c/li\u003e\u003cli\u003e A specific instance of \u003ccode\u003e\u003ca\u003epermutationsBy\u003c/a\u003e\u003c/code\u003e, in which no filtering of subsequent lists is performed after each item is selected.\n\u003c/li\u003e\u003cli\u003e NB: differs from \u003ccode\u003e\u003ca\u003epermutations\u003c/a\u003e\u003c/code\u003e, which selects items from a single input list.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "permutations",
           "package": "toolshed",
@@ -646,6 +697,7 @@
         "index": {
           "description": "The list of all permutations generated by selecting any one datum from each sub-list in turn from the specified list of lists specific instance of permutationsBy in which no filtering of subsequent lists is performed after each item is selected NB differs from permutations which selects items from single input list",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "permutations",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -661,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e The list of all permutations, generated by selecting any one datum from each sub-list in turn, from the specified list of lists.\n\u003c/li\u003e\u003cli\u003e As each item is selected, the remaining lists are filtered according to the specified \u003ccode\u003e\u003ca\u003eMatches\u003c/a\u003e\u003c/code\u003e-function.\n\u003c/li\u003e\u003cli\u003e Thus \u003ccode\u003e\u003ca\u003e/=\u003c/a\u003e\u003c/code\u003e could be used to select a different item from each list.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "permutationsBy",
           "package": "toolshed",
@@ -671,6 +724,7 @@
         "index": {
           "description": "The list of all permutations generated by selecting any one datum from each sub-list in turn from the specified list of lists As each item is selected the remaining lists are filtered according to the specified Matches function Thus could be used to select different item from each list",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "permutationsBy",
           "normalized": "Matches a-\u003e[[a]]-\u003e[[a]]",
@@ -687,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a list, delimited by the specified tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "showListWith",
           "package": "toolshed",
@@ -696,6 +751,7 @@
         "index": {
           "description": "Show list delimited by the specified tokens",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "showListWith",
           "normalized": "(a,a,a)-\u003e[b]-\u003eShowS",
@@ -712,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Take until the specified predicate is satisfied; \u003cem\u003eincluding\u003c/em\u003e the item which satisfied it.\n\u003c/li\u003e\u003cli\u003e NB: \u003ccode\u003etakeWhile (not . test)\u003c/code\u003e would return one fewer item.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.List",
           "name": "takeUntil",
           "package": "toolshed",
@@ -721,6 +778,7 @@
         "index": {
           "description": "Take until the specified predicate is satisfied including the item which satisfied it NB takeWhile not test would return one fewer item",
           "hierarchy": "ToolShed Data List",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.List",
           "name": "takeUntil",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -737,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tMiscellaneous operations on Pairs.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Pair",
           "name": "Pair",
           "package": "toolshed",
@@ -746,6 +805,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Miscellaneous operations on Pairs",
           "hierarchy": "ToolShed Data Pair",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Pair",
           "name": "Pair",
           "package": "toolshed",
@@ -760,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Apply the same transformation to both halves of a \u003cem\u003ePair\u003c/em\u003e.\n\u003c/li\u003e\u003cli\u003e CAVEAT: the pair is required to have identical types.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Pair",
           "name": "mirror",
           "package": "toolshed",
@@ -770,6 +831,7 @@
         "index": {
           "description": "Apply the same transformation to both halves of Pair CAVEAT the pair is required to have identical types",
           "hierarchy": "ToolShed Data Pair",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Pair",
           "name": "mirror",
           "normalized": "(a-\u003eb)-\u003e(a,a)-\u003e(b,b)",
@@ -785,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tMiscellaneous operations on quadruples.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eCAVEAT\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tImport fully qualified, since some identifiers clash with \u003ccode\u003e\u003ca\u003eTriple\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Quadruple",
           "name": "Quadruple",
           "package": "toolshed",
@@ -794,6 +857,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Miscellaneous operations on quadruples CAVEAT Import fully qualified since some identifiers clash with Triple",
           "hierarchy": "ToolShed Data Quadruple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Quadruple",
           "name": "Quadruple",
           "package": "toolshed",
@@ -808,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtends the concept of \u003ccode\u003e\u003ca\u003ecurry\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Quadruple",
           "name": "curry4",
           "package": "toolshed",
@@ -818,6 +883,7 @@
         "index": {
           "description": "Extends the concept of curry",
           "hierarchy": "ToolShed Data Quadruple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Quadruple",
           "name": "curry4",
           "normalized": "((a,b,c,d)-\u003ee)-\u003ea-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -833,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the first datum from the specified quadruple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Quadruple",
           "name": "getFirst",
           "package": "toolshed",
@@ -843,6 +910,7 @@
         "index": {
           "description": "Access the first datum from the specified quadruple",
           "hierarchy": "ToolShed Data Quadruple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Quadruple",
           "name": "getFirst",
           "normalized": "(a,b,c,d)-\u003ea",
@@ -859,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the fourth datum from the specified quadruple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Quadruple",
           "name": "getFourth",
           "package": "toolshed",
@@ -869,6 +938,7 @@
         "index": {
           "description": "Access the fourth datum from the specified quadruple",
           "hierarchy": "ToolShed Data Quadruple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Quadruple",
           "name": "getFourth",
           "normalized": "(a,b,c,d)-\u003ed",
@@ -885,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the second datum from the specified quadruple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Quadruple",
           "name": "getSecond",
           "package": "toolshed",
@@ -895,6 +966,7 @@
         "index": {
           "description": "Access the second datum from the specified quadruple",
           "hierarchy": "ToolShed Data Quadruple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Quadruple",
           "name": "getSecond",
           "normalized": "(a,b,c,d)-\u003eb",
@@ -911,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the third datum from the specified quadruple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Quadruple",
           "name": "getThird",
           "package": "toolshed",
@@ -921,6 +994,7 @@
         "index": {
           "description": "Access the third datum from the specified quadruple",
           "hierarchy": "ToolShed Data Quadruple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Quadruple",
           "name": "getThird",
           "normalized": "(a,b,c,d)-\u003ec",
@@ -937,6 +1011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtends the concept of \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Quadruple",
           "name": "uncurry4",
           "package": "toolshed",
@@ -947,6 +1022,7 @@
         "index": {
           "description": "Extends the concept of uncurry",
           "hierarchy": "ToolShed Data Quadruple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Quadruple",
           "name": "uncurry4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003e(a,b,c,d)-\u003ee",
@@ -962,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tMiscellaneous operations on triples.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eCAVEAT\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tImport fully qualified, since some identifiers clash with \u003ccode\u003e\u003ca\u003eQuadruple\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Triple",
           "name": "Triple",
           "package": "toolshed",
@@ -971,6 +1048,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Miscellaneous operations on triples CAVEAT Import fully qualified since some identifiers clash with Quadruple",
           "hierarchy": "ToolShed Data Triple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Triple",
           "name": "Triple",
           "package": "toolshed",
@@ -985,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtends the concept of \u003ccode\u003e\u003ca\u003ecurry\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Triple",
           "name": "curry3",
           "package": "toolshed",
@@ -995,6 +1074,7 @@
         "index": {
           "description": "Extends the concept of curry",
           "hierarchy": "ToolShed Data Triple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Triple",
           "name": "curry3",
           "normalized": "((a,b,c)-\u003ed)-\u003ea-\u003eb-\u003ec-\u003ed",
@@ -1010,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the first datum from the specified triple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Triple",
           "name": "getFirst",
           "package": "toolshed",
@@ -1020,6 +1101,7 @@
         "index": {
           "description": "Access the first datum from the specified triple",
           "hierarchy": "ToolShed Data Triple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Triple",
           "name": "getFirst",
           "normalized": "(a,b,c)-\u003ea",
@@ -1036,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the second datum from the specified triple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Triple",
           "name": "getSecond",
           "package": "toolshed",
@@ -1046,6 +1129,7 @@
         "index": {
           "description": "Access the second datum from the specified triple",
           "hierarchy": "ToolShed Data Triple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Triple",
           "name": "getSecond",
           "normalized": "(a,b,c)-\u003eb",
@@ -1062,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the third datum from the specified triple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Triple",
           "name": "getThird",
           "package": "toolshed",
@@ -1072,6 +1157,7 @@
         "index": {
           "description": "Access the third datum from the specified triple",
           "hierarchy": "ToolShed Data Triple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Triple",
           "name": "getThird",
           "normalized": "(a,b,c)-\u003ec",
@@ -1088,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtends the concept of \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Data.Triple",
           "name": "uncurry3",
           "package": "toolshed",
@@ -1098,6 +1185,7 @@
         "index": {
           "description": "Extends the concept of uncurry",
           "hierarchy": "ToolShed Data Triple",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Data.Triple",
           "name": "uncurry3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e(a,b,c)-\u003ed",
@@ -1113,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tA simple interface which data-types with a default-value can implement.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Defaultable",
           "name": "Defaultable",
           "package": "toolshed",
@@ -1122,6 +1211,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION simple interface which data-types with default-value can implement",
           "hierarchy": "ToolShed Defaultable",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Defaultable",
           "name": "Defaultable",
           "package": "toolshed",
@@ -1136,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn interface to which data which have a default-value can adhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Defaultable",
           "name": "Defaultable",
           "package": "toolshed",
@@ -1145,6 +1236,7 @@
         "index": {
           "description": "An interface to which data which have default-value can adhere",
           "hierarchy": "ToolShed Defaultable",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Defaultable",
           "name": "Defaultable",
           "package": "toolshed",
@@ -1158,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Defaultable",
           "name": "defaultValue",
           "package": "toolshed",
@@ -1167,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "ToolShed Defaultable",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Defaultable",
           "name": "defaultValue",
           "package": "toolshed",
@@ -1181,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDefines a standard interface to which various options-related data can conform.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Options",
           "name": "Options",
           "package": "toolshed",
@@ -1190,6 +1285,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Defines standard interface to which various options-related data can conform",
           "hierarchy": "ToolShed Options",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Options",
           "name": "Options",
           "package": "toolshed",
@@ -1204,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to the class \u003ccode\u003e\u003ca\u003eRegexOptions\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Options",
           "name": "Options",
           "package": "toolshed",
@@ -1213,6 +1310,7 @@
         "index": {
           "description": "Similar to the class RegexOptions",
           "hierarchy": "ToolShed Options",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Options",
           "name": "Options",
           "package": "toolshed",
@@ -1226,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Options",
           "name": "blankValue",
           "package": "toolshed",
@@ -1235,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "ToolShed Options",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Options",
           "name": "blankValue",
           "package": "toolshed",
@@ -1249,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tA class to define the simple interface, to which data which can self-validation, should conform.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.SelfValidate",
           "name": "SelfValidate",
           "package": "toolshed",
@@ -1258,6 +1359,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION class to define the simple interface to which data which can self-validation should conform",
           "hierarchy": "ToolShed SelfValidate",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.SelfValidate",
           "name": "SelfValidate",
           "package": "toolshed",
@@ -1272,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interface to which data which can self-validate should conform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.SelfValidate",
           "name": "SelfValidator",
           "package": "toolshed",
@@ -1281,6 +1384,7 @@
         "index": {
           "description": "The interface to which data which can self-validate should conform",
           "hierarchy": "ToolShed SelfValidate",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.SelfValidate",
           "name": "SelfValidator",
           "package": "toolshed",
@@ -1295,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters failed tests amongst those specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.SelfValidate",
           "name": "extractErrors",
           "package": "toolshed",
@@ -1305,6 +1410,7 @@
         "index": {
           "description": "Filters failed tests amongst those specified",
           "hierarchy": "ToolShed SelfValidate",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.SelfValidate",
           "name": "extractErrors",
           "normalized": "[(Bool,String)]-\u003e[String]",
@@ -1320,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.SelfValidate",
           "name": "getErrors",
           "package": "toolshed",
@@ -1329,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "ToolShed SelfValidate",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.SelfValidate",
           "name": "getErrors",
           "package": "toolshed",
@@ -1343,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the first error only (so only call on failure of \u003ccode\u003e\u003ca\u003eisValid\u003c/a\u003e\u003c/code\u003e), since subsequent tests may be based on invalid data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.SelfValidate",
           "name": "getFirstError",
           "package": "toolshed",
@@ -1353,6 +1462,7 @@
         "index": {
           "description": "Returns the first error only so only call on failure of isValid since subsequent tests may be based on invalid data",
           "hierarchy": "ToolShed SelfValidate",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.SelfValidate",
           "name": "getFirstError",
           "normalized": "a-\u003eString",
@@ -1368,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.SelfValidate",
           "name": "isValid",
           "package": "toolshed",
@@ -1377,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "ToolShed SelfValidate",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.SelfValidate",
           "name": "isValid",
           "package": "toolshed",
@@ -1391,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tFile-operations.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.File",
           "name": "File",
           "package": "toolshed",
@@ -1400,6 +1513,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION File-operations",
           "hierarchy": "ToolShed System File",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.File",
           "name": "File",
           "package": "toolshed",
@@ -1414,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file-path, and the contents read from it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.File",
           "name": "LocatedData",
           "package": "toolshed",
@@ -1423,6 +1538,7 @@
         "index": {
           "description": "file-path and the contents read from it",
           "hierarchy": "ToolShed System File",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.File",
           "name": "LocatedData",
           "package": "toolshed",
@@ -1437,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ordered sequence of directories, searched for a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.File",
           "name": "SearchPath",
           "package": "toolshed",
@@ -1446,6 +1563,7 @@
         "index": {
           "description": "The ordered sequence of directories searched for file",
           "hierarchy": "ToolShed System File",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.File",
           "name": "SearchPath",
           "package": "toolshed",
@@ -1460,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Returns the polymorphic data, read from the first matching file on the \u003cem\u003esearch-path\u003c/em\u003e, along with the path from which it was read.\n\u003c/li\u003e\u003cli\u003e Returns an error on failure to parse the contents of the first matching file found on the \u003cem\u003esearch-path\u003c/em\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.File",
           "name": "fromFile",
           "package": "toolshed",
@@ -1470,6 +1589,7 @@
         "index": {
           "description": "Returns the polymorphic data read from the first matching file on the search-path along with the path from which it was read Returns an error on failure to parse the contents of the first matching file found on the search-path",
           "hierarchy": "ToolShed System File",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.File",
           "name": "fromFile",
           "normalized": "FilePath-\u003eSearchPath-\u003eIO(LocatedData a)",
@@ -1486,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccessor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.File",
           "name": "getData",
           "package": "toolshed",
@@ -1496,6 +1617,7 @@
         "index": {
           "description": "Accessor",
           "hierarchy": "ToolShed System File",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.File",
           "name": "getData",
           "normalized": "LocatedData a-\u003ea",
@@ -1512,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse the \u003cem\u003esearch-path\u003c/em\u003e, looking for matching instances of the specified file-name,\n\tand either throw an exception, or return a pair composed from the path to the first matching file, together with its contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.File",
           "name": "getFile",
           "package": "toolshed",
@@ -1522,6 +1645,7 @@
         "index": {
           "description": "Traverse the search-path looking for matching instances of the specified file-name and either throw an exception or return pair composed from the path to the first matching file together with its contents",
           "hierarchy": "ToolShed System File",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.File",
           "name": "getFile",
           "normalized": "FilePath-\u003eSearchPath-\u003eIO(LocatedData String)",
@@ -1538,6 +1662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccessor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.File",
           "name": "getFilePath",
           "package": "toolshed",
@@ -1548,6 +1673,7 @@
         "index": {
           "description": "Accessor",
           "hierarchy": "ToolShed System File",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.File",
           "name": "getFilePath",
           "normalized": "LocatedData a-\u003eFilePath",
@@ -1564,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e When supplied with an \u003cem\u003eabsolute\u003c/em\u003e file-path, the \u003cem\u003esearch-path\u003c/em\u003e is ignored and an exception is thrown if either the file-path is invalid or the file doesn't exist.\n\u003c/li\u003e\u003cli\u003e If the specified file-name is \u003cem\u003erelative\u003c/em\u003e, all matching instances on the specified \u003cem\u003esearch-path\u003c/em\u003e are returned.\n\u003c/li\u003e\u003cli\u003e CAVEAT: doesn't perform file-globbing.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.File",
           "name": "locate",
           "package": "toolshed",
@@ -1574,6 +1701,7 @@
         "index": {
           "description": "When supplied with an absolute file-path the search-path is ignored and an exception is thrown if either the file-path is invalid or the file doesn exist If the specified file-name is relative all matching instances on the specified search-path are returned CAVEAT doesn perform file-globbing",
           "hierarchy": "ToolShed System File",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.File",
           "name": "locate",
           "normalized": "FilePath-\u003eSearchPath-\u003eIO[FilePath]",
@@ -1589,6 +1717,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tUtilities related to random-numbers.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.Random",
           "name": "Random",
           "package": "toolshed",
@@ -1598,6 +1727,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Utilities related to random-numbers",
           "hierarchy": "ToolShed System Random",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.Random",
           "name": "Random",
           "package": "toolshed",
@@ -1612,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Generate an infinite list of items, each independently randomly selected from the specified finite list.\n\u003c/li\u003e\u003cli\u003e CAVEAT: because the selections are made non-destructively, duplicates may be returned; cf. \u003ccode\u003e\u003ca\u003eshuffle\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.Random",
           "name": "generateSelection",
           "package": "toolshed",
@@ -1622,6 +1753,7 @@
         "index": {
           "description": "Generate an infinite list of items each independently randomly selected from the specified finite list CAVEAT because the selections are made non-destructively duplicates may be returned cf shuffle",
           "hierarchy": "ToolShed System Random",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.Random",
           "name": "generateSelection",
           "normalized": "a-\u003e[b]-\u003e[b]",
@@ -1638,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Generate an infinite list of data, each independently selected random instances of the specified \u003cem\u003ebounded\u003c/em\u003e type.\n\u003c/li\u003e\u003cli\u003e E.g. \u003ccode\u003e (generateSelectionFromBounded \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e System.Random.getStdGen) :: IO [Bool] \u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.Random",
           "name": "generateSelectionFromBounded",
           "package": "toolshed",
@@ -1648,6 +1781,7 @@
         "index": {
           "description": "Generate an infinite list of data each independently selected random instances of the specified bounded type E.g generateSelectionFromBounded fmap System.Random.getStdGen IO Bool",
           "hierarchy": "ToolShed System Random",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.Random",
           "name": "generateSelectionFromBounded",
           "normalized": "a-\u003e[b]",
@@ -1664,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an infinite list of independent random-generators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.Random",
           "name": "randomGens",
           "package": "toolshed",
@@ -1674,6 +1809,7 @@
         "index": {
           "description": "Constructs an infinite list of independent random-generators",
           "hierarchy": "ToolShed System Random",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.Random",
           "name": "randomGens",
           "normalized": "a-\u003e[a]",
@@ -1690,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a randomly selected element from the specified list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.Random",
           "name": "select",
           "package": "toolshed",
@@ -1700,6 +1837,7 @@
         "index": {
           "description": "Return randomly selected element from the specified list",
           "hierarchy": "ToolShed System Random",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.Random",
           "name": "select",
           "normalized": "a-\u003e[b]-\u003eb",
@@ -1715,6 +1853,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Shuffles the specified finite list, using the \u003cem\u003eFisher-Yates\u003c/em\u003e algorithm; \u003ca\u003ehttp://en.wikipedia.org/wiki/Fisher-Yates_shuffle\u003c/a\u003e.\n\u003c/li\u003e\u003cli\u003e The resulting list has the same length and constituents as the original; only the order has changed.\n\u003c/li\u003e\u003cli\u003e The input list is traversed, but the items aren't evaluated.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.Random",
           "name": "shuffle",
           "package": "toolshed",
@@ -1725,6 +1864,7 @@
         "index": {
           "description": "Shuffles the specified finite list using the Fisher-Yates algorithm http en.wikipedia.org wiki Fisher-Yates shuffle The resulting list has the same length and constituents as the original only the order has changed The input list is traversed but the items aren evaluated",
           "hierarchy": "ToolShed System Random",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.Random",
           "name": "shuffle",
           "normalized": "a-\u003e[b]-\u003e[b]",
@@ -1740,6 +1880,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDetermines the CPU-time, required to evaluate the specified IO-action.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.TimeAction",
           "name": "TimeAction",
           "package": "toolshed",
@@ -1749,6 +1890,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Determines the CPU-time required to evaluate the specified IO-action",
           "hierarchy": "ToolShed System TimeAction",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.TimeAction",
           "name": "TimeAction",
           "package": "toolshed",
@@ -1763,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime the specified IO-action, returning the required number of CPU-seconds and the result, as a \u003ccode\u003ePair\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.TimeAction",
           "name": "getCPUSeconds",
           "package": "toolshed",
@@ -1773,6 +1916,7 @@
         "index": {
           "description": "Time the specified IO-action returning the required number of CPU-seconds and the result as Pair",
           "hierarchy": "ToolShed System TimeAction",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.TimeAction",
           "name": "getCPUSeconds",
           "normalized": "IO a-\u003eIO(b,a)",
@@ -1789,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the time required by the specified IO-action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.TimeAction",
           "name": "printCPUSeconds",
           "package": "toolshed",
@@ -1799,6 +1944,7 @@
         "index": {
           "description": "Print the time required by the specified IO-action",
           "hierarchy": "ToolShed System TimeAction",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.TimeAction",
           "name": "printCPUSeconds",
           "normalized": "IO a-\u003eIO a",
@@ -1815,6 +1961,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDetermines the CPU-time, required to evaluate the specified pure expression.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.TimePure",
           "name": "TimePure",
           "package": "toolshed",
@@ -1824,6 +1971,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Determines the CPU-time required to evaluate the specified pure expression",
           "hierarchy": "ToolShed System TimePure",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.TimePure",
           "name": "TimePure",
           "package": "toolshed",
@@ -1838,6 +1986,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Time the specified pure expression, returning the required number of CPU-seconds and the result, as a \u003ccode\u003ePair\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e CAVEAT: as a side-effect, the expression is \u003cem\u003edeep\u003c/em\u003e evaluated.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.TimePure",
           "name": "getCPUSeconds",
           "package": "toolshed",
@@ -1847,6 +1996,7 @@
         "index": {
           "description": "Time the specified pure expression returning the required number of CPU-seconds and the result as Pair CAVEAT as side-effect the expression is deep evaluated",
           "hierarchy": "ToolShed System TimePure",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.TimePure",
           "name": "getCPUSeconds",
           "normalized": "a-\u003eIO(b,a)",
@@ -1863,6 +2013,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Print the time required by the specified pure expression.\n\u003c/li\u003e\u003cli\u003e CAVEAT: as a side-effect, the expression is \u003cem\u003edeep\u003c/em\u003e evaluated.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.System.TimePure",
           "name": "printCPUSeconds",
           "package": "toolshed",
@@ -1873,6 +2024,7 @@
         "index": {
           "description": "Print the time required by the specified pure expression CAVEAT as side-effect the expression is deep evaluated",
           "hierarchy": "ToolShed System TimePure",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.System.TimePure",
           "name": "printCPUSeconds",
           "normalized": "a-\u003eIO a",
@@ -1889,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tImplements \u003ccode\u003e\u003ca\u003eArbitrary\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEXAMPLE\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\t\u003ccode\u003eTest.QuickCheck.sample (Test.QuickCheck.arbitrary :: Test.QuickCheck.Gen.Gen (Data.Array.IArray.Array Char Int))\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eCAVEAT\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tAn array with arbitrary indices isn't very useful.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Test.QuickCheck.Arbitrary.Array",
           "name": "Array",
           "package": "toolshed",
@@ -1898,6 +2051,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Implements Arbitrary for Array EXAMPLE Test.QuickCheck.sample Test.QuickCheck.arbitrary Test.QuickCheck.Gen.Gen Data.Array.IArray.Array Char Int CAVEAT An array with arbitrary indices isn very useful",
           "hierarchy": "ToolShed Test QuickCheck Arbitrary Array",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Test.QuickCheck.Arbitrary.Array",
           "name": "Array",
           "package": "toolshed",
@@ -1912,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003eArbitrary\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e,\n\twhere the array-index is required to be a \u003cem\u003ebounded enumerable\u003c/em\u003e type.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eEXAMPLE\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\t\u003ccode\u003eTest.QuickCheck.sample (Test.QuickCheck.arbitrary :: Test.QuickCheck.Gen.Gen (Data.Array.IArray.Array Data.Int.Int8 Int))\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Test.QuickCheck.Arbitrary.ArrayElem",
           "name": "ArrayElem",
           "package": "toolshed",
@@ -1921,6 +2076,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Implements Arbitrary for Array where the array-index is required to be bounded enumerable type EXAMPLE Test.QuickCheck.sample Test.QuickCheck.arbitrary Test.QuickCheck.Gen.Gen Data.Array.IArray.Array Data.Int.Int8 Int",
           "hierarchy": "ToolShed Test QuickCheck Arbitrary ArrayElem",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Test.QuickCheck.Arbitrary.ArrayElem",
           "name": "ArrayElem",
           "package": "toolshed",
@@ -1935,6 +2091,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tImplements \u003ccode\u003e\u003ca\u003eArbitrary\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEXAMPLE\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\t\u003ccode\u003eTest.QuickCheck.sample (Test.QuickCheck.arbitrary :: Test.QuickCheck.Gen.Gen (Data.Map.Map Char Int))\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Test.QuickCheck.Arbitrary.Map",
           "name": "Map",
           "package": "toolshed",
@@ -1944,6 +2101,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Implements Arbitrary for Map EXAMPLE Test.QuickCheck.sample Test.QuickCheck.arbitrary Test.QuickCheck.Gen.Gen Data.Map.Map Char Int",
           "hierarchy": "ToolShed Test QuickCheck Arbitrary Map",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Test.QuickCheck.Arbitrary.Map",
           "name": "Map",
           "package": "toolshed",
@@ -1958,6 +2116,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tImplements \u003ccode\u003e\u003ca\u003eArbitrary\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEXAMPLE\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\t\u003ccode\u003eTest.QuickCheck.sample (Test.QuickCheck.arbitrary :: Test.QuickCheck.Gen.Gen (Data.Set.Set Int))\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Test.QuickCheck.Arbitrary.Set",
           "name": "Set",
           "package": "toolshed",
@@ -1967,6 +2126,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Implements Arbitrary for Set EXAMPLE Test.QuickCheck.sample Test.QuickCheck.arbitrary Test.QuickCheck.Gen.Gen Data.Set.Set Int",
           "hierarchy": "ToolShed Test QuickCheck Arbitrary Set",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Test.QuickCheck.Arbitrary.Set",
           "name": "Set",
           "package": "toolshed",
@@ -1981,6 +2141,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tFacilities testing of custom implementations of \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Test.ReversibleBoundedEnum",
           "name": "ReversibleBoundedEnum",
           "package": "toolshed",
@@ -1990,6 +2151,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Facilities testing of custom implementations of Enum",
           "hierarchy": "ToolShed Test ReversibleBoundedEnum",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Test.ReversibleBoundedEnum",
           "name": "ReversibleBoundedEnum",
           "package": "toolshed",
@@ -2004,6 +2166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks that composing \u003ccode\u003e\u003ca\u003epred\u003c/a\u003e\u003c/code\u003e & \u003ccode\u003e\u003ca\u003esucc\u003c/a\u003e\u003c/code\u003e is equivalent to the identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Test.ReversibleBoundedEnum",
           "name": "isReversible",
           "package": "toolshed",
@@ -2014,6 +2177,7 @@
         "index": {
           "description": "Checks that composing pred succ is equivalent to the identity",
           "hierarchy": "ToolShed Test ReversibleBoundedEnum",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Test.ReversibleBoundedEnum",
           "name": "isReversible",
           "normalized": "a-\u003eBool",
@@ -2030,6 +2194,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tFacilities testing of custom implementations of \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Test.ReversibleEnum",
           "name": "ReversibleEnum",
           "package": "toolshed",
@@ -2039,6 +2204,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Facilities testing of custom implementations of Enum",
           "hierarchy": "ToolShed Test ReversibleEnum",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Test.ReversibleEnum",
           "name": "ReversibleEnum",
           "package": "toolshed",
@@ -2053,6 +2219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks that composing \u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e & \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e is equivalent to the identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Test.ReversibleEnum",
           "name": "isReversible",
           "package": "toolshed",
@@ -2063,6 +2230,7 @@
         "index": {
           "description": "Checks that composing toEnum fromEnum is equivalent to the identity",
           "hierarchy": "ToolShed Test ReversibleEnum",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Test.ReversibleEnum",
           "name": "isReversible",
           "normalized": "a-\u003eBool",
@@ -2079,6 +2247,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAUTHOR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\tDr. Alistair Ward\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDESCRIPTION\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cul\u003e\u003cli\u003e Facilities testing of custom implementations of \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e & \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e CAVEAT: it doesn't actually do any IO.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Test.ReversibleIO",
           "name": "ReversibleIO",
           "package": "toolshed",
@@ -2088,6 +2257,7 @@
         "index": {
           "description": "AUTHOR Dr Alistair Ward DESCRIPTION Facilities testing of custom implementations of Read Show CAVEAT it doesn actually do any IO",
           "hierarchy": "ToolShed Test ReversibleIO",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Test.ReversibleIO",
           "name": "ReversibleIO",
           "package": "toolshed",
@@ -2102,6 +2272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks that composing \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e & \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e is equivalent to the identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:09 UTC 2014",
           "module": "ToolShed.Test.ReversibleIO",
           "name": "isReversible",
           "package": "toolshed",
@@ -2112,6 +2283,7 @@
         "index": {
           "description": "Checks that composing read show is equivalent to the identity",
           "hierarchy": "ToolShed Test ReversibleIO",
+          "indexed": "2014-03-11T20:24:09",
           "module": "ToolShed.Test.ReversibleIO",
           "name": "isReversible",
           "normalized": "a-\u003eBool",

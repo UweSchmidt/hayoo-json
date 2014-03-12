@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HGL"
+        "phrase": "HGL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCore functions of a simple graphics library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Core",
           "name": "Core",
           "package": "HGL",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Core functions of simple graphics library",
           "hierarchy": "Graphics HGL Core",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Core",
           "name": "Core",
           "package": "HGL",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBrushes, used for filling shapes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "Brush",
           "package": "HGL",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Brushes used for filling shapes",
           "hierarchy": "Graphics HGL Draw Brush",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "Brush",
           "package": "HGL",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "Brush",
           "package": "HGL",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Brush",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "Brush",
           "package": "HGL",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBrush\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "createBrush",
           "package": "HGL",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Create Brush",
           "hierarchy": "Graphics HGL Draw Brush",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "createBrush",
           "normalized": "RGB-\u003eIO Brush",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroy a \u003ccode\u003e\u003ca\u003eBrush\u003c/a\u003e\u003c/code\u003e created with \u003ccode\u003e\u003ca\u003ecreateBrush\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "deleteBrush",
           "package": "HGL",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Destroy Brush created with createBrush",
           "hierarchy": "Graphics HGL Draw Brush",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "deleteBrush",
           "normalized": "Brush-\u003eIO()",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBrush\u003c/a\u003e\u003c/code\u003e locally to a drawing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "mkBrush",
           "package": "HGL",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Create Brush locally to drawing",
           "hierarchy": "Graphics HGL Draw Brush",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "mkBrush",
           "normalized": "RGB-\u003e(Brush-\u003eDraw a)-\u003eDraw a",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003e\u003ca\u003eBrush\u003c/a\u003e\u003c/code\u003e for subsequent drawing, returning the previous setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "selectBrush",
           "package": "HGL",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Set the Brush for subsequent drawing returning the previous setting",
           "hierarchy": "Graphics HGL Draw Brush",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Brush",
           "name": "selectBrush",
           "normalized": "Brush-\u003eDraw Brush",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eText fonts.\n\u003c/p\u003e\u003cp\u003ePortability notes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e X11 does not directly support font rotation so \u003ccode\u003e\u003ca\u003ecreateFont\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003emkFont\u003c/a\u003e\u003c/code\u003e always ignore the rotation angle argument in the X11\n   implementation of this library.\n\u003c/li\u003e\u003cli\u003e Many of the font families typically available on Win32 are not\n   available on X11 (and \u003cem\u003evice-versa\u003c/em\u003e).  In our experience, the font\n   families \u003cem\u003ecourier\u003c/em\u003e, \u003cem\u003ehelvetica\u003c/em\u003e and \u003cem\u003etimes\u003c/em\u003e are somewhat portable.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Font",
           "name": "Font",
           "package": "HGL",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Text fonts Portability notes X11 does not directly support font rotation so createFont and mkFont always ignore the rotation angle argument in the X11 implementation of this library Many of the font families typically available on Win32 are not available on X11 and vice-versa In our experience the font families courier helvetica and times are somewhat portable",
           "hierarchy": "Graphics HGL Draw Font",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Font",
           "name": "Font",
           "package": "HGL",
@@ -212,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Font",
           "name": "Font",
           "package": "HGL",
@@ -220,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Font",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Font",
           "name": "Font",
           "package": "HGL",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a font.\n The rotation angle is ignored if the font is not a \"TrueType\" font\n (e.g., a \u003ccode\u003eSystem\u003c/code\u003e font on Win32).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Font",
           "name": "createFont",
           "package": "HGL",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Create font The rotation angle is ignored if the font is not TrueType font e.g System font on Win32",
           "hierarchy": "Graphics HGL Draw Font",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Font",
           "name": "createFont",
           "normalized": "Size-\u003eAngle-\u003eBool-\u003eBool-\u003eString-\u003eIO Font",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a font created with \u003ccode\u003e\u003ca\u003ecreateFont\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Font",
           "name": "deleteFont",
           "package": "HGL",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Delete font created with createFont",
           "hierarchy": "Graphics HGL Draw Font",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Font",
           "name": "deleteFont",
           "normalized": "Font-\u003eIO()",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a font for use in a drawing, and delete it afterwards.\n The rotation angle is ignored if the font is not a \"TrueType\" font\n (e.g., a \u003ccode\u003eSystem\u003c/code\u003e font on Win32).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Font",
           "name": "mkFont",
           "package": "HGL",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Generate font for use in drawing and delete it afterwards The rotation angle is ignored if the font is not TrueType font e.g System font on Win32",
           "hierarchy": "Graphics HGL Draw Font",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Font",
           "name": "mkFont",
           "normalized": "Size-\u003eAngle-\u003eBool-\u003eBool-\u003eString-\u003e(Font-\u003eDraw a)-\u003eDraw a",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the font for subsequent text, and return the previous font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Font",
           "name": "selectFont",
           "package": "HGL",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Set the font for subsequent text and return the previous font",
           "hierarchy": "Graphics HGL Draw Font",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Font",
           "name": "selectFont",
           "normalized": "Font-\u003eDraw Font",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eDraw\u003c/a\u003e\u003c/code\u003e monad, with graphical objects as a special case.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "Monad",
           "package": "HGL",
@@ -345,6 +372,7 @@
         "index": {
           "description": "The Draw monad with graphical objects as special case",
           "hierarchy": "Graphics HGL Draw Monad",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "Monad",
           "package": "HGL",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for sequential construction of images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "Draw",
           "package": "HGL",
@@ -368,6 +397,7 @@
         "index": {
           "description": "Monad for sequential construction of images",
           "hierarchy": "Graphics HGL Draw Monad",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "Draw",
           "package": "HGL",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract representation of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "Graphic",
           "package": "HGL",
@@ -391,6 +422,7 @@
         "index": {
           "description": "An abstract representation of an image",
           "hierarchy": "Graphics HGL Draw Monad",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "Graphic",
           "package": "HGL",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a drawing action in initialization and finalization actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "bracket",
           "package": "HGL",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Wrap drawing action in initialization and finalization actions",
           "hierarchy": "Graphics HGL Draw Monad",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "bracket",
           "normalized": "Draw a-\u003e(a-\u003eDraw b)-\u003e(a-\u003eDraw c)-\u003eDraw c",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e in which the inner drawing action does not\n use the result of the pre-operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "bracket_",
           "package": "HGL",
@@ -438,6 +473,7 @@
         "index": {
           "description": "variant of bracket in which the inner drawing action does not use the result of the pre-operation",
           "hierarchy": "Graphics HGL Draw Monad",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "bracket_",
           "normalized": "Draw a-\u003e(a-\u003eDraw b)-\u003eDraw c-\u003eDraw c",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action in a drawing action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "ioToDraw",
           "package": "HGL",
@@ -463,6 +500,7 @@
         "index": {
           "description": "Embed an IO action in drawing action",
           "hierarchy": "Graphics HGL Draw Monad",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Monad",
           "name": "ioToDraw",
           "normalized": "IO a-\u003eDraw a",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePens, used for drawing lines.\n\u003c/p\u003e\u003cp\u003ePortability notes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e On Win32, the pen is also used to draw a line round all the filled\n   shapes --- so the pen color also affects how polygons, ellipses\n   and regions are drawn.\n\u003c/li\u003e\u003cli\u003e On Win32, the \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e is ignored (i.e. treated as \u003ccode\u003e\u003ca\u003eSolid\u003c/a\u003e\u003c/code\u003e) for pens\n   of width greater than 1.  This problem does not apply to X11.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Pen",
           "package": "HGL",
@@ -488,6 +527,7 @@
         "index": {
           "description": "Pens used for drawing lines Portability notes On Win32 the pen is also used to draw line round all the filled shapes so the pen color also affects how polygons ellipses and regions are drawn On Win32 the Style is ignored i.e treated as Solid for pens of width greater than This problem does not apply to X11",
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Pen",
           "package": "HGL",
@@ -501,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Pen",
           "package": "HGL",
@@ -509,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Pen",
           "package": "HGL",
@@ -523,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe style of line drawn by a pen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Style",
           "package": "HGL",
@@ -532,6 +575,7 @@
         "index": {
           "description": "The style of line drawn by pen",
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Style",
           "package": "HGL",
@@ -545,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Dash",
           "package": "HGL",
@@ -554,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Dash",
           "package": "HGL",
@@ -567,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "DashDot",
           "package": "HGL",
@@ -576,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "DashDot",
           "package": "HGL",
@@ -589,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "DashDotDot",
           "package": "HGL",
@@ -598,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "DashDotDot",
           "package": "HGL",
@@ -611,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Dot",
           "package": "HGL",
@@ -620,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Dot",
           "package": "HGL",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "InsideFrame",
           "package": "HGL",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "InsideFrame",
           "package": "HGL",
@@ -655,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Null",
           "package": "HGL",
@@ -664,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Null",
           "package": "HGL",
@@ -677,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Solid",
           "package": "HGL",
@@ -686,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "Solid",
           "package": "HGL",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003ePen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "createPen",
           "package": "HGL",
@@ -710,6 +769,7 @@
         "index": {
           "description": "Create Pen",
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "createPen",
           "normalized": "Style-\u003eInt-\u003eRGB-\u003eIO Pen",
@@ -726,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroy a \u003ccode\u003e\u003ca\u003ePen\u003c/a\u003e\u003c/code\u003e created with \u003ccode\u003e\u003ca\u003ecreatePen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "deletePen",
           "package": "HGL",
@@ -736,6 +797,7 @@
         "index": {
           "description": "Destroy Pen created with createPen",
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "deletePen",
           "normalized": "Pen-\u003eIO()",
@@ -752,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003ePen\u003c/a\u003e\u003c/code\u003e locally to a drawing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "mkPen",
           "package": "HGL",
@@ -762,6 +825,7 @@
         "index": {
           "description": "Create Pen locally to drawing",
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "mkPen",
           "normalized": "Style-\u003eInt-\u003eRGB-\u003e(Pen-\u003eDraw a)-\u003eDraw a",
@@ -778,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003e\u003ca\u003ePen\u003c/a\u003e\u003c/code\u003e for subsequent drawing, returning the previous setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "selectPen",
           "package": "HGL",
@@ -788,6 +853,7 @@
         "index": {
           "description": "Set the Pen for subsequent drawing returning the previous setting",
           "hierarchy": "Graphics HGL Draw Pen",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Pen",
           "name": "selectPen",
           "normalized": "Pen-\u003eDraw Pen",
@@ -804,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDrawing various shapes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Picture",
           "name": "Picture",
           "package": "HGL",
@@ -813,6 +880,7 @@
         "index": {
           "description": "Drawing various shapes",
           "hierarchy": "Graphics HGL Draw Picture",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Picture",
           "name": "Picture",
           "package": "HGL",
@@ -1008,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn efficient representation of sets of pixels.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Region",
           "name": "Region",
           "package": "HGL",
@@ -1017,6 +1086,7 @@
         "index": {
           "description": "An efficient representation of sets of pixels",
           "hierarchy": "Graphics HGL Draw Region",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Region",
           "name": "Region",
           "package": "HGL",
@@ -1030,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Region",
           "name": "Region",
           "package": "HGL",
@@ -1038,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Region",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Region",
           "name": "Region",
           "package": "HGL",
@@ -1052,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn elliptical region that fits in the rectangle with the given points\n as opposite corners.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Region",
           "name": "ellipseRegion",
           "package": "HGL",
@@ -1062,6 +1135,7 @@
         "index": {
           "description": "An elliptical region that fits in the rectangle with the given points as opposite corners",
           "hierarchy": "Graphics HGL Draw Region",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Region",
           "name": "ellipseRegion",
           "normalized": "Point-\u003ePoint-\u003eRegion",
@@ -1078,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty region.  This is not supported on Win32.\n It is possible to use an empty rectangle region instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Region",
           "name": "emptyRegion",
           "package": "HGL",
@@ -1088,6 +1163,7 @@
         "index": {
           "description": "An empty region This is not supported on Win32 It is possible to use an empty rectangle region instead",
           "hierarchy": "Graphics HGL Draw Region",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Region",
           "name": "emptyRegion",
           "package": "HGL",
@@ -1102,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe intersection of two regions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Region",
           "name": "intersectRegion",
           "package": "HGL",
@@ -1112,6 +1189,7 @@
         "index": {
           "description": "The intersection of two regions",
           "hierarchy": "Graphics HGL Draw Region",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Region",
           "name": "intersectRegion",
           "normalized": "Region-\u003eRegion-\u003eRegion",
@@ -1128,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polygonal region defined by a list of \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Region",
           "name": "polygonRegion",
           "package": "HGL",
@@ -1138,6 +1217,7 @@
         "index": {
           "description": "polygonal region defined by list of Point",
           "hierarchy": "Graphics HGL Draw Region",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Region",
           "name": "polygonRegion",
           "normalized": "[Point]-\u003eRegion",
@@ -1154,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular region, with the given points as opposite corners.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Region",
           "name": "rectangleRegion",
           "package": "HGL",
@@ -1164,6 +1245,7 @@
         "index": {
           "description": "rectangular region with the given points as opposite corners",
           "hierarchy": "Graphics HGL Draw Region",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Region",
           "name": "rectangleRegion",
           "normalized": "Point-\u003ePoint-\u003eRegion",
@@ -1180,6 +1262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill a \u003ccode\u003e\u003ca\u003eRegion\u003c/a\u003e\u003c/code\u003e using the current \u003ccode\u003e\u003ca\u003eBrush\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Region",
           "name": "regionToGraphic",
           "package": "HGL",
@@ -1190,6 +1273,7 @@
         "index": {
           "description": "Fill Region using the current Brush",
           "hierarchy": "Graphics HGL Draw Region",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Region",
           "name": "regionToGraphic",
           "normalized": "Region-\u003eGraphic",
@@ -1206,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe part of the first region that is not also in the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Region",
           "name": "subtractRegion",
           "package": "HGL",
@@ -1216,6 +1301,7 @@
         "index": {
           "description": "The part of the first region that is not also in the second",
           "hierarchy": "Graphics HGL Draw Region",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Region",
           "name": "subtractRegion",
           "normalized": "Region-\u003eRegion-\u003eRegion",
@@ -1232,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union of two regions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Region",
           "name": "unionRegion",
           "package": "HGL",
@@ -1242,6 +1329,7 @@
         "index": {
           "description": "The union of two regions",
           "hierarchy": "Graphics HGL Draw Region",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Region",
           "name": "unionRegion",
           "normalized": "Region-\u003eRegion-\u003eRegion",
@@ -1285,6 +1373,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDrawing text.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Text",
           "package": "HGL",
@@ -1294,6 +1383,7 @@
         "index": {
           "description": "Drawing text",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Text",
           "package": "HGL",
@@ -1308,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow strings drawn with \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e are positioned\n relative to the specified reference point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Alignment",
           "package": "HGL",
@@ -1317,6 +1408,7 @@
         "index": {
           "description": "How strings drawn with text are positioned relative to the specified reference point",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Alignment",
           "package": "HGL",
@@ -1331,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackground mode for drawing text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "BkMode",
           "package": "HGL",
@@ -1340,6 +1433,7 @@
         "index": {
           "description": "Background mode for drawing text",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "BkMode",
           "package": "HGL",
@@ -1354,6 +1448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal alignment of text.\n Names have a tick to distinguish them from \u003ca\u003ePrelude\u003c/a\u003e names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "HAlign",
           "package": "HGL",
@@ -1363,6 +1458,7 @@
         "index": {
           "description": "Horizontal alignment of text Names have tick to distinguish them from Prelude names",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "HAlign",
           "package": "HGL",
@@ -1377,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color, comprising red, green and blue components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "RGB",
           "package": "HGL",
@@ -1386,6 +1483,7 @@
         "index": {
           "description": "color comprising red green and blue components",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "RGB",
           "package": "HGL",
@@ -1400,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical alignment of text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "VAlign",
           "package": "HGL",
@@ -1409,6 +1508,7 @@
         "index": {
           "description": "Vertical alignment of text",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "VAlign",
           "package": "HGL",
@@ -1423,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealign the baseline of the text with the reference point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Baseline",
           "package": "HGL",
@@ -1433,6 +1534,7 @@
         "index": {
           "description": "align the baseline of the text with the reference point",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Baseline",
           "package": "HGL",
@@ -1447,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealign the bottom edge of the text with the reference point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Bottom",
           "package": "HGL",
@@ -1457,6 +1560,7 @@
         "index": {
           "description": "align the bottom edge of the text with the reference point",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Bottom",
           "package": "HGL",
@@ -1471,6 +1575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecenter the text with the reference point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Center",
           "package": "HGL",
@@ -1481,6 +1586,7 @@
         "index": {
           "description": "center the text with the reference point",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Center",
           "package": "HGL",
@@ -1495,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealign the left edge of the text with the reference point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Left'",
           "package": "HGL",
@@ -1505,6 +1612,7 @@
         "index": {
           "description": "align the left edge of the text with the reference point",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Left'",
           "package": "HGL",
@@ -1519,6 +1627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw text on a bounding rectangle filled with the\n current background color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Opaque",
           "package": "HGL",
@@ -1529,6 +1638,7 @@
         "index": {
           "description": "Draw text on bounding rectangle filled with the current background color",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Opaque",
           "package": "HGL",
@@ -1542,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "RGB",
           "package": "HGL",
@@ -1551,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "RGB",
           "package": "HGL",
@@ -1565,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealign the right edge of the text with the reference point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Right'",
           "package": "HGL",
@@ -1575,6 +1688,7 @@
         "index": {
           "description": "align the right edge of the text with the reference point",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Right'",
           "package": "HGL",
@@ -1589,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealign the top edge of the text with the reference point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Top",
           "package": "HGL",
@@ -1599,6 +1714,7 @@
         "index": {
           "description": "align the top edge of the text with the reference point",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Top",
           "package": "HGL",
@@ -1613,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw text without a background rectangle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Transparent",
           "package": "HGL",
@@ -1623,6 +1740,7 @@
         "index": {
           "description": "Draw text without background rectangle",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "Transparent",
           "package": "HGL",
@@ -1637,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the background color for drawing text, returning the previous value.\n The background color is ignored when the mode is \u003ccode\u003e\u003ca\u003eTransparent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "setBkColor",
           "package": "HGL",
@@ -1647,6 +1766,7 @@
         "index": {
           "description": "Set the background color for drawing text returning the previous value The background color is ignored when the mode is Transparent",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "setBkColor",
           "normalized": "RGB-\u003eDraw RGB",
@@ -1663,6 +1783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the background mode for drawing text, returning the previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "setBkMode",
           "package": "HGL",
@@ -1673,6 +1794,7 @@
         "index": {
           "description": "Set the background mode for drawing text returning the previous value",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "setBkMode",
           "normalized": "BkMode-\u003eDraw BkMode",
@@ -1689,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the alignment for drawing text, returning the previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "setTextAlignment",
           "package": "HGL",
@@ -1699,6 +1822,7 @@
         "index": {
           "description": "Set the alignment for drawing text returning the previous value",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "setTextAlignment",
           "normalized": "Alignment-\u003eDraw Alignment",
@@ -1715,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the foreground color for drawing text, returning the previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "setTextColor",
           "package": "HGL",
@@ -1725,6 +1850,7 @@
         "index": {
           "description": "Set the foreground color for drawing text returning the previous value",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "setTextColor",
           "normalized": "RGB-\u003eDraw RGB",
@@ -1767,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etextInfo\u003c/a\u003e\u003c/code\u003e s\u003c/code\u003e returns:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e The offset at which the string would be drawn according to the\n     current text alignment (e.g., \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eCenter\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBaseline\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e will result\n     in an offset of (-width/2,0))\n\u003c/li\u003e\u003cli\u003e The size at which the text would be drawn using the current font.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw.Text",
           "name": "textInfo",
           "package": "HGL",
@@ -1777,6 +1904,7 @@
         "index": {
           "description": "textInfo returns The offset at which the string would be drawn according to the current text alignment e.g Center Baseline will result in an offset of width The size at which the text would be drawn using the current font",
           "hierarchy": "Graphics HGL Draw Text",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw.Text",
           "name": "textInfo",
           "normalized": "String-\u003eDraw(Point,Size)",
@@ -1793,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDrawing in a simple graphics library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Draw",
           "name": "Draw",
           "package": "HGL",
@@ -1802,6 +1931,7 @@
         "index": {
           "description": "Drawing in simple graphics library",
           "hierarchy": "Graphics HGL Draw",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Draw",
           "name": "Draw",
           "package": "HGL",
@@ -1816,6 +1946,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstract representation of keys.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "Key",
           "package": "HGL",
@@ -1825,6 +1956,7 @@
         "index": {
           "description": "Abstract representation of keys",
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "Key",
           "package": "HGL",
@@ -1838,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "Key",
           "package": "HGL",
@@ -1846,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "Key",
           "package": "HGL",
@@ -1859,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isBackSpaceKey",
           "package": "HGL",
@@ -1868,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isBackSpaceKey",
           "normalized": "Key-\u003eBool",
@@ -1883,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isCharKey",
           "package": "HGL",
@@ -1892,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isCharKey",
           "normalized": "Key-\u003eBool",
@@ -1907,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isClearKey",
           "package": "HGL",
@@ -1916,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isClearKey",
           "normalized": "Key-\u003eBool",
@@ -1931,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isControlLKey",
           "package": "HGL",
@@ -1940,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isControlLKey",
           "normalized": "Key-\u003eBool",
@@ -1955,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isControlRKey",
           "package": "HGL",
@@ -1964,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isControlRKey",
           "normalized": "Key-\u003eBool",
@@ -1979,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isDeleteKey",
           "package": "HGL",
@@ -1988,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isDeleteKey",
           "normalized": "Key-\u003eBool",
@@ -2003,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isDownKey",
           "package": "HGL",
@@ -2012,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isDownKey",
           "normalized": "Key-\u003eBool",
@@ -2027,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isEndKey",
           "package": "HGL",
@@ -2036,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isEndKey",
           "normalized": "Key-\u003eBool",
@@ -2051,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isEscapeKey",
           "package": "HGL",
@@ -2060,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isEscapeKey",
           "normalized": "Key-\u003eBool",
@@ -2075,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isHomeKey",
           "package": "HGL",
@@ -2084,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isHomeKey",
           "normalized": "Key-\u003eBool",
@@ -2099,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isLeftKey",
           "package": "HGL",
@@ -2108,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isLeftKey",
           "normalized": "Key-\u003eBool",
@@ -2123,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isNextKey",
           "package": "HGL",
@@ -2132,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isNextKey",
           "normalized": "Key-\u003eBool",
@@ -2147,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isPageDownKey",
           "package": "HGL",
@@ -2156,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isPageDownKey",
           "normalized": "Key-\u003eBool",
@@ -2171,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isPageUpKey",
           "package": "HGL",
@@ -2180,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isPageUpKey",
           "normalized": "Key-\u003eBool",
@@ -2195,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isPriorKey",
           "package": "HGL",
@@ -2204,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isPriorKey",
           "normalized": "Key-\u003eBool",
@@ -2219,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isReturnKey",
           "package": "HGL",
@@ -2228,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isReturnKey",
           "normalized": "Key-\u003eBool",
@@ -2243,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isRightKey",
           "package": "HGL",
@@ -2252,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isRightKey",
           "normalized": "Key-\u003eBool",
@@ -2267,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isShiftLKey",
           "package": "HGL",
@@ -2276,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isShiftLKey",
           "normalized": "Key-\u003eBool",
@@ -2291,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isShiftRKey",
           "package": "HGL",
@@ -2300,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isShiftRKey",
           "normalized": "Key-\u003eBool",
@@ -2315,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isTabKey",
           "package": "HGL",
@@ -2324,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isTabKey",
           "normalized": "Key-\u003eBool",
@@ -2339,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "isUpKey",
           "package": "HGL",
@@ -2348,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "isUpKey",
           "normalized": "Key-\u003eBool",
@@ -2364,6 +2540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a character key to a character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Key",
           "name": "keyToChar",
           "package": "HGL",
@@ -2374,6 +2551,7 @@
         "index": {
           "description": "Converts character key to character",
           "hierarchy": "Graphics HGL Key",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Key",
           "name": "keyToChar",
           "normalized": "Key-\u003eChar",
@@ -2390,6 +2568,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRunning graphical actions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Run",
           "name": "Run",
           "package": "HGL",
@@ -2399,6 +2578,7 @@
         "index": {
           "description": "Running graphical actions",
           "hierarchy": "Graphics HGL Run",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Run",
           "name": "Run",
           "package": "HGL",
@@ -2440,6 +2620,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for units in a simple graphics library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Units",
           "name": "Units",
           "package": "HGL",
@@ -2449,6 +2630,7 @@
         "index": {
           "description": "Types for units in simple graphics library",
           "hierarchy": "Graphics HGL Units",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Units",
           "name": "Units",
           "package": "HGL",
@@ -2463,6 +2645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn angle in degrees (0 to 360).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Units",
           "name": "Angle",
           "package": "HGL",
@@ -2472,6 +2655,7 @@
         "index": {
           "description": "An angle in degrees to",
           "hierarchy": "Graphics HGL Units",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Units",
           "name": "Angle",
           "package": "HGL",
@@ -2486,6 +2670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position within a window, measured in pixels to the right and down\n from the top left corner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Units",
           "name": "Point",
           "package": "HGL",
@@ -2495,6 +2680,7 @@
         "index": {
           "description": "position within window measured in pixels to the right and down from the top left corner",
           "hierarchy": "Graphics HGL Units",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Units",
           "name": "Point",
           "package": "HGL",
@@ -2509,6 +2695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (width, height) pair, both measured in pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Units",
           "name": "Size",
           "package": "HGL",
@@ -2518,6 +2705,7 @@
         "index": {
           "description": "width height pair both measured in pixels",
           "hierarchy": "Graphics HGL Units",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Units",
           "name": "Size",
           "package": "HGL",
@@ -2532,6 +2720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime, measured in milliseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Units",
           "name": "Time",
           "package": "HGL",
@@ -2541,6 +2730,7 @@
         "index": {
           "description": "Time measured in milliseconds",
           "hierarchy": "Graphics HGL Units",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Units",
           "name": "Time",
           "package": "HGL",
@@ -2555,6 +2745,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions for a simple graphics library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "Utils",
           "package": "HGL",
@@ -2564,6 +2755,7 @@
         "index": {
           "description": "Utility functions for simple graphics library",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "Utils",
           "package": "HGL",
@@ -2578,6 +2770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "Color",
           "package": "HGL",
@@ -2587,6 +2780,7 @@
         "index": {
           "description": "Named colors",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "Color",
           "package": "HGL",
@@ -2812,6 +3006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping of \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e names to \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e triples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "colorList",
           "package": "HGL",
@@ -2822,6 +3017,7 @@
         "index": {
           "description": "mapping of Color names to RGB triples",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "colorList",
           "normalized": "[(Color,RGB)]",
@@ -2838,6 +3034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping of \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e names to \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e triples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "colorTable",
           "package": "HGL",
@@ -2848,6 +3045,7 @@
         "index": {
           "description": "mapping of Color names to RGB triples",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "colorTable",
           "package": "HGL",
@@ -2914,6 +3112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for a mouse button to be pressed or released,\n and return the position of the mouse cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "getButton",
           "package": "HGL",
@@ -2923,6 +3122,7 @@
         "index": {
           "description": "Wait for mouse button to be pressed or released and return the position of the mouse cursor",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "getButton",
           "normalized": "Window-\u003eBool-\u003eBool-\u003eIO Point",
@@ -2939,6 +3139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until a key is pressed and released.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "getKey",
           "package": "HGL",
@@ -2949,6 +3150,7 @@
         "index": {
           "description": "Wait until key is pressed and released",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "getKey",
           "normalized": "Window-\u003eIO Key",
@@ -2965,6 +3167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until a key is pressed (if the second argument is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e)\n or released (otherwise).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "getKeyEx",
           "package": "HGL",
@@ -2975,6 +3178,7 @@
         "index": {
           "description": "Wait until key is pressed if the second argument is True or released otherwise",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "getKeyEx",
           "normalized": "Window-\u003eBool-\u003eIO Key",
@@ -3153,6 +3357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun two \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions in parallel and terminate when both actions terminate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "par",
           "package": "HGL",
@@ -3163,6 +3368,7 @@
         "index": {
           "description": "Run two IO actions in parallel and terminate when both actions terminate",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "par",
           "normalized": "IO a-\u003eIO b-\u003eIO(a,b)",
@@ -3178,6 +3384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun several \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions in parallel and terminate when all actions\n terminate, discarding the results of the actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "parMany",
           "package": "HGL",
@@ -3188,6 +3395,7 @@
         "index": {
           "description": "Run several IO actions in parallel and terminate when all actions terminate discarding the results of the actions",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "parMany",
           "normalized": "[IO()]-\u003eIO()",
@@ -3204,6 +3412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun two \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions in parallel and terminate when both actions terminate,\n discarding the results of the actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "par_",
           "package": "HGL",
@@ -3214,6 +3423,7 @@
         "index": {
           "description": "Run two IO actions in parallel and terminate when both actions terminate discarding the results of the actions",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "par_",
           "normalized": "IO a-\u003eIO b-\u003eIO()",
@@ -3229,6 +3439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combination of \u003ccode\u003e\u003ca\u003erunGraphics\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ewithWindow_\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "runWindow",
           "package": "HGL",
@@ -3239,6 +3450,7 @@
         "index": {
           "description": "combination of runGraphics and withWindow",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "runWindow",
           "normalized": "Title-\u003eSize-\u003e(Window-\u003eIO a)-\u003eIO()",
@@ -3255,6 +3467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for a translated character (from a key press).\n Use in preference to \u003ccode\u003e\u003ca\u003egetKey\u003c/a\u003e\u003c/code\u003e if the aim is to read text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "wGetChar",
           "package": "HGL",
@@ -3265,6 +3478,7 @@
         "index": {
           "description": "Wait for translated character from key press Use in preference to getKey if the aim is to read text",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "wGetChar",
           "normalized": "Window-\u003eIO Char",
@@ -3281,6 +3495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the default background color for drawing text with background\n mode \u003ccode\u003e\u003ca\u003eOpaque\u003c/a\u003e\u003c/code\u003e.  The background color is ignored when the mode is\n \u003ccode\u003e\u003ca\u003eTransparent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "withBkColor",
           "package": "HGL",
@@ -3291,6 +3506,7 @@
         "index": {
           "description": "Set the default background color for drawing text with background mode Opaque The background color is ignored when the mode is Transparent",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "withBkColor",
           "normalized": "RGB-\u003eGraphic-\u003eGraphic",
@@ -3307,6 +3523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the default background mode for drawing text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "withBkMode",
           "package": "HGL",
@@ -3317,6 +3534,7 @@
         "index": {
           "description": "Set the default background mode for drawing text",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "withBkMode",
           "normalized": "BkMode-\u003eGraphic-\u003eGraphic",
@@ -3333,6 +3551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the default brush for filling shapes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "withBrush",
           "package": "HGL",
@@ -3343,6 +3562,7 @@
         "index": {
           "description": "Set the default brush for filling shapes",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "withBrush",
           "normalized": "Brush-\u003eGraphic-\u003eGraphic",
@@ -3386,6 +3606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the default font for a drawing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "withFont",
           "package": "HGL",
@@ -3396,6 +3617,7 @@
         "index": {
           "description": "Set the default font for drawing",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "withFont",
           "normalized": "Font-\u003eGraphic-\u003eGraphic",
@@ -3412,6 +3634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the default pen for drawing lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "withPen",
           "package": "HGL",
@@ -3422,6 +3645,7 @@
         "index": {
           "description": "Set the default pen for drawing lines",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "withPen",
           "normalized": "Pen-\u003eGraphic-\u003eGraphic",
@@ -3438,6 +3662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function that sets the brush,\n pen and text colors to the same value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "withRGB",
           "package": "HGL",
@@ -3448,6 +3673,7 @@
         "index": {
           "description": "convenience function that sets the brush pen and text colors to the same value",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "withRGB",
           "normalized": "RGB-\u003eGraphic-\u003eGraphic",
@@ -3464,6 +3690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the default alignment of text in a drawing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "withTextAlignment",
           "package": "HGL",
@@ -3474,6 +3701,7 @@
         "index": {
           "description": "Set the default alignment of text in drawing",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "withTextAlignment",
           "normalized": "Alignment-\u003eGraphic-\u003eGraphic",
@@ -3490,6 +3718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the default color for drawing text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "withTextColor",
           "package": "HGL",
@@ -3500,6 +3729,7 @@
         "index": {
           "description": "Set the default color for drawing text",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "withTextColor",
           "normalized": "RGB-\u003eGraphic-\u003eGraphic",
@@ -3516,6 +3746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an action inside a new window, ensuring that the window is destroyed\n on exit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "withWindow",
           "package": "HGL",
@@ -3526,6 +3757,7 @@
         "index": {
           "description": "Run an action inside new window ensuring that the window is destroyed on exit",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "withWindow",
           "normalized": "Title-\u003eSize-\u003e(Window-\u003eIO a)-\u003eIO a",
@@ -3542,6 +3774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003ewithWindow\u003c/a\u003e\u003c/code\u003e that ignores the result of the action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Utils",
           "name": "withWindow_",
           "package": "HGL",
@@ -3552,6 +3785,7 @@
         "index": {
           "description": "variant of withWindow that ignores the result of the action",
           "hierarchy": "Graphics HGL Utils",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Utils",
           "name": "withWindow_",
           "normalized": "Title-\u003eSize-\u003e(Window-\u003eIO a)-\u003eIO()",
@@ -3568,6 +3802,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWindows in a simple graphics library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "Window",
           "package": "HGL",
@@ -3577,6 +3812,7 @@
         "index": {
           "description": "Windows in simple graphics library",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "Window",
           "package": "HGL",
@@ -3591,6 +3827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA user interface event.\n\u003c/p\u003e\u003cp\u003eNotes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Programmers should assume that the \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e datatype will be\n   extended in the not-too-distant future and that individual events\n   may change slightly.  As a minimum, you should add a \"match anything\"\n   alternative to any function which pattern matches against \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es.\n\u003c/li\u003e\u003cli\u003e X11 systems typically have three button mice.  Button 1 is used as the\n   left button, button 3 as the right button and button 2 (the middle\n   button) is ignored.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "Event",
           "package": "HGL",
@@ -3600,6 +3837,7 @@
         "index": {
           "description": "user interface event Notes Programmers should assume that the Event datatype will be extended in the not-too-distant future and that individual events may change slightly As minimum you should add match anything alternative to any function which pattern matches against Event X11 systems typically have three button mice Button is used as the left button button as the right button and button the middle button is ignored",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "Event",
           "package": "HGL",
@@ -3614,6 +3852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to draw in a window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "RedrawMode",
           "package": "HGL",
@@ -3623,6 +3862,7 @@
         "index": {
           "description": "How to draw in window",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "RedrawMode",
           "package": "HGL",
@@ -3637,6 +3877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle of a window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "Title",
           "package": "HGL",
@@ -3646,6 +3887,7 @@
         "index": {
           "description": "Title of window",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "Title",
           "package": "HGL",
@@ -3659,6 +3901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "Window",
           "package": "HGL",
@@ -3667,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "Window",
           "package": "HGL",
@@ -3681,6 +3925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoccurs when a mouse button is pressed or released.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "Button",
           "package": "HGL",
@@ -3691,6 +3936,7 @@
         "index": {
           "description": "occurs when mouse button is pressed or released",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "Button",
           "package": "HGL",
@@ -3705,6 +3951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea properly translated character, sent after\n a key press.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "Char",
           "package": "HGL",
@@ -3715,6 +3962,7 @@
         "index": {
           "description": "properly translated character sent after key press",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "Char",
           "package": "HGL",
@@ -3729,6 +3977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoccurs when the window is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "Closed",
           "package": "HGL",
@@ -3739,6 +3988,7 @@
         "index": {
           "description": "occurs when the window is closed",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "Closed",
           "package": "HGL",
@@ -3753,6 +4003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse a \u003cem\u003edouble buffer\u003c/em\u003e to reduce flicker.\n You should probably use this for animations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "DoubleBuffered",
           "package": "HGL",
@@ -3763,6 +4014,7 @@
         "index": {
           "description": "use double buffer to reduce flicker You should probably use this for animations",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "DoubleBuffered",
           "package": "HGL",
@@ -3777,6 +4029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoccurs when a key was pressed or released.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "Key",
           "package": "HGL",
@@ -3787,6 +4040,7 @@
         "index": {
           "description": "occurs when key was pressed or released",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "Key",
           "package": "HGL",
@@ -3801,6 +4055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoccurs when the mouse is moved inside the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "MouseMove",
           "package": "HGL",
@@ -3811,6 +4066,7 @@
         "index": {
           "description": "occurs when the mouse is moved inside the window",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "MouseMove",
           "package": "HGL",
@@ -3825,6 +4081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoccurs when the window is resized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "Resize",
           "package": "HGL",
@@ -3835,6 +4092,7 @@
         "index": {
           "description": "occurs when the window is resized",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "Resize",
           "package": "HGL",
@@ -3849,6 +4107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edraw directly to the window.\n This runs slightly faster but is more prone\n to flicker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "Unbuffered",
           "package": "HGL",
@@ -3859,6 +4118,7 @@
         "index": {
           "description": "draw directly to the window This runs slightly faster but is more prone to flicker",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "Unbuffered",
           "package": "HGL",
@@ -3873,6 +4133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe character represented by a key combination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "char",
           "package": "HGL",
@@ -3883,6 +4144,7 @@
         "index": {
           "description": "the character represented by key combination",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "char",
           "package": "HGL",
@@ -3922,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "directDraw",
           "package": "HGL",
@@ -3931,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "directDraw",
           "normalized": "Window-\u003eGraphic-\u003eIO()",
@@ -3947,6 +4211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current drawing in a window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "getGraphic",
           "package": "HGL",
@@ -3957,6 +4222,7 @@
         "index": {
           "description": "Get the current drawing in window",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "getGraphic",
           "normalized": "Window-\u003eIO Graphic",
@@ -3973,6 +4239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime in milliseconds since some arbitrary epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "getTime",
           "package": "HGL",
@@ -3983,6 +4250,7 @@
         "index": {
           "description": "Time in milliseconds since some arbitrary epoch",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "getTime",
           "package": "HGL",
@@ -3997,6 +4265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for the next event on the given window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "getWindowEvent",
           "package": "HGL",
@@ -4007,6 +4276,7 @@
         "index": {
           "description": "Wait for the next event on the given window",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "getWindowEvent",
           "normalized": "Window-\u003eIO Event",
@@ -4023,6 +4293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe position of the top left corner of the window on the screen,\n and the size of the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "getWindowRect",
           "package": "HGL",
@@ -4033,6 +4304,7 @@
         "index": {
           "description": "The position of the top left corner of the window on the screen and the size of the window",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "getWindowRect",
           "normalized": "Window-\u003eIO(Point,Size)",
@@ -4076,6 +4348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the button was pressed;\n otherwise it was released\n\u003c/p\u003e\u003cp\u003eif \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the key was pressed;\n otherwise it was released\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "isDown",
           "package": "HGL",
@@ -4086,6 +4359,7 @@
         "index": {
           "description": "if True the button was pressed otherwise it was released if True the key was pressed otherwise it was released",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "isDown",
           "package": "HGL",
@@ -4100,6 +4374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, it was the left button\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "isLeft",
           "package": "HGL",
@@ -4110,6 +4385,7 @@
         "index": {
           "description": "if True it was the left button",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "isLeft",
           "package": "HGL",
@@ -4124,6 +4400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresentation of the keyboard keys pressed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "keysym",
           "package": "HGL",
@@ -4134,6 +4411,7 @@
         "index": {
           "description": "representation of the keyboard keys pressed",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "keysym",
           "package": "HGL",
@@ -4147,6 +4425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck for a pending event on the given window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "maybeGetWindowEvent",
           "package": "HGL",
@@ -4157,6 +4436,7 @@
         "index": {
           "description": "Check for pending event on the given window",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "maybeGetWindowEvent",
           "normalized": "Window-\u003eIO(Maybe Event)",
@@ -4173,6 +4453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the drawing for a window.\n Note that this does not force a redraw.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "modGraphic",
           "package": "HGL",
@@ -4183,6 +4464,7 @@
         "index": {
           "description": "Update the drawing for window Note that this does not force redraw",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "modGraphic",
           "normalized": "Window-\u003e(Graphic-\u003eGraphic)-\u003eIO()",
@@ -4199,6 +4481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral window creation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "openWindowEx",
           "package": "HGL",
@@ -4208,6 +4491,7 @@
         "index": {
           "description": "General window creation",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "openWindowEx",
           "normalized": "Title-\u003eMaybe Point-\u003eSize-\u003eRedrawMode-\u003eMaybe Time-\u003eIO Window",
@@ -4224,6 +4508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position of the mouse cursor after the movement\n\u003c/p\u003e\u003cp\u003ethe position of the mouse cursor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL.Window",
           "name": "pt",
           "package": "HGL",
@@ -4234,6 +4519,7 @@
         "index": {
           "description": "the position of the mouse cursor after the movement the position of the mouse cursor",
           "hierarchy": "Graphics HGL Window",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL.Window",
           "name": "pt",
           "package": "HGL",
@@ -4274,6 +4560,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple graphics library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.HGL",
           "name": "HGL",
           "package": "HGL",
@@ -4283,6 +4570,7 @@
         "index": {
           "description": "simple graphics library",
           "hierarchy": "Graphics HGL",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.HGL",
           "name": "HGL",
           "package": "HGL",
@@ -4297,6 +4585,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe graphics library used in \u003cem\u003eThe Haskell School of Expression\u003c/em\u003e,\n by Paul Hudak, cf \u003ca\u003ehttp://www.haskell.org/soe/\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNotes:\u003c/em\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e This module is called \u003ccode\u003eSOEGraphics\u003c/code\u003e in the book.  It is a cut\n   down version of \u003ca\u003eGraphics.HGL\u003c/a\u003e, with the interface frozen to match\n   the book.\n\u003c/li\u003e\u003cli\u003e In chapters 13, 17 and 19 of the book, there are imports of modules\n   \u003ccode\u003eWin32Misc\u003c/code\u003e and \u003ccode\u003eWord\u003c/code\u003e.  These should be omitted, as \u003ccode\u003e\u003ca\u003etimeGetTime\u003c/a\u003e\u003c/code\u003e\n   and \u003ccode\u003e\u003ca\u003eword32ToInt\u003c/a\u003e\u003c/code\u003e are provided by this module.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "SOE",
           "package": "HGL",
@@ -4306,6 +4595,7 @@
         "index": {
           "description": "The graphics library used in The Haskell School of Expression by Paul Hudak cf http www.haskell.org soe Notes This module is called SOEGraphics in the book It is cut down version of Graphics.HGL with the interface frozen to match the book In chapters and of the book there are imports of modules Win32Misc and Word These should be omitted as timeGetTime and word32ToInt are provided by this module",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "SOE",
           "package": "HGL",
@@ -4320,6 +4610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn angle in degrees (0 to 360).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Angle",
           "package": "HGL",
@@ -4329,6 +4620,7 @@
         "index": {
           "description": "An angle in degrees to",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Angle",
           "package": "HGL",
@@ -4343,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Color",
           "package": "HGL",
@@ -4352,6 +4645,7 @@
         "index": {
           "description": "Named colors",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Color",
           "package": "HGL",
@@ -4366,6 +4660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser interface events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Event",
           "package": "HGL",
@@ -4375,6 +4670,7 @@
         "index": {
           "description": "User interface events",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Event",
           "package": "HGL",
@@ -4389,6 +4685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract representation of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Graphic",
           "package": "HGL",
@@ -4398,6 +4695,7 @@
         "index": {
           "description": "An abstract representation of an image",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Graphic",
           "package": "HGL",
@@ -4412,6 +4710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position within a window, measured in pixels to the right and down\n from the top left corner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Point",
           "package": "HGL",
@@ -4421,6 +4720,7 @@
         "index": {
           "description": "position within window measured in pixels to the right and down from the top left corner",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Point",
           "package": "HGL",
@@ -4435,6 +4735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to draw in a window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "RedrawMode",
           "package": "HGL",
@@ -4444,6 +4745,7 @@
         "index": {
           "description": "How to draw in window",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "RedrawMode",
           "package": "HGL",
@@ -4457,6 +4759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Region",
           "package": "HGL",
@@ -4465,6 +4768,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Region",
           "package": "HGL",
@@ -4479,6 +4783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (width, height) pair, both measured in pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Size",
           "package": "HGL",
@@ -4488,6 +4793,7 @@
         "index": {
           "description": "width height pair both measured in pixels",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Size",
           "package": "HGL",
@@ -4502,6 +4808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle of a window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Title",
           "package": "HGL",
@@ -4511,6 +4818,7 @@
         "index": {
           "description": "Title of window",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Title",
           "package": "HGL",
@@ -4524,6 +4832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Window",
           "package": "HGL",
@@ -4532,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Window",
           "package": "HGL",
@@ -4546,6 +4856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Word32",
           "package": "HGL",
@@ -4554,6 +4865,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Word32",
           "package": "HGL",
@@ -4568,6 +4880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoccurs when a mouse button is pressed or released.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Button",
           "package": "HGL",
@@ -4578,6 +4891,7 @@
         "index": {
           "description": "occurs when mouse button is pressed or released",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Button",
           "package": "HGL",
@@ -4592,6 +4906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoccurs when the window is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Closed",
           "package": "HGL",
@@ -4602,6 +4917,7 @@
         "index": {
           "description": "occurs when the window is closed",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Closed",
           "package": "HGL",
@@ -4616,6 +4932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoccurs when a key was pressed or released.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Key",
           "package": "HGL",
@@ -4626,6 +4943,7 @@
         "index": {
           "description": "occurs when key was pressed or released",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Key",
           "package": "HGL",
@@ -4640,6 +4958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoccurs when the mouse is moved inside the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "MouseMove",
           "package": "HGL",
@@ -4650,6 +4969,7 @@
         "index": {
           "description": "occurs when the mouse is moved inside the window",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "MouseMove",
           "package": "HGL",
@@ -4664,6 +4984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoccurs when the window is resized.\n The new window size can be discovered using\n \u003ccode\u003e\u003ca\u003egetWindowSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "Resize",
           "package": "HGL",
@@ -4674,6 +4995,7 @@
         "index": {
           "description": "occurs when the window is resized The new window size can be discovered using getWindowSize",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "Resize",
           "package": "HGL",
@@ -4688,6 +5010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe intersection of two regions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "andRegion",
           "package": "HGL",
@@ -4698,6 +5021,7 @@
         "index": {
           "description": "The intersection of two regions",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "andRegion",
           "normalized": "Region-\u003eRegion-\u003eRegion",
@@ -4714,6 +5038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echaracter corresponding to the key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "char",
           "package": "HGL",
@@ -4724,6 +5049,7 @@
         "index": {
           "description": "character corresponding to the key",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "char",
           "package": "HGL",
@@ -4737,6 +5063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn elliptical region that fits in the rectangle with the given points\n as opposite corners.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "createEllipse",
           "package": "HGL",
@@ -4747,6 +5074,7 @@
         "index": {
           "description": "An elliptical region that fits in the rectangle with the given points as opposite corners",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "createEllipse",
           "normalized": "Point-\u003ePoint-\u003eRegion",
@@ -4763,6 +5091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polygonal region defined by a list of \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "createPolygon",
           "package": "HGL",
@@ -4773,6 +5102,7 @@
         "index": {
           "description": "polygonal region defined by list of Point",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "createPolygon",
           "normalized": "[Point]-\u003eRegion",
@@ -4789,6 +5119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular region, with the given points as opposite corners.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "createRectangle",
           "package": "HGL",
@@ -4799,6 +5130,7 @@
         "index": {
           "description": "rectangular region with the given points as opposite corners",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "createRectangle",
           "normalized": "Point-\u003ePoint-\u003eRegion",
@@ -4815,6 +5147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe part of the first region that is not also in the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "diffRegion",
           "package": "HGL",
@@ -4825,6 +5158,7 @@
         "index": {
           "description": "The part of the first region that is not also in the second",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "diffRegion",
           "normalized": "Region-\u003eRegion-\u003eRegion",
@@ -4841,6 +5175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a \u003cem\u003edouble buffer\u003c/em\u003e to reduce flicker and thus improve the look\n of animations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "drawBufferedGraphic",
           "package": "HGL",
@@ -4851,6 +5186,7 @@
         "index": {
           "description": "Use double buffer to reduce flicker and thus improve the look of animations",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "drawBufferedGraphic",
           "package": "HGL",
@@ -4865,6 +5201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw directly to the window\n (slightly faster than \u003ccode\u003e\u003ca\u003edrawBufferedGraphic\u003c/a\u003e\u003c/code\u003e, but more prone to flicker).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "drawGraphic",
           "package": "HGL",
@@ -4875,6 +5212,7 @@
         "index": {
           "description": "Draw directly to the window slightly faster than drawBufferedGraphic but more prone to flicker",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "drawGraphic",
           "package": "HGL",
@@ -4889,6 +5227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnother name for \u003ccode\u003e\u003ca\u003edrawInWindow\u003c/a\u003e\u003c/code\u003e, retained for backwards compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "drawInWindowNow",
           "package": "HGL",
@@ -4899,6 +5238,7 @@
         "index": {
           "description": "Another name for drawInWindow retained for backwards compatibility",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "drawInWindowNow",
           "normalized": "Window-\u003eGraphic-\u003eIO()",
@@ -4915,6 +5255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a \u003ccode\u003e\u003ca\u003eRegion\u003c/a\u003e\u003c/code\u003e in the current color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "drawRegion",
           "package": "HGL",
@@ -4925,6 +5266,7 @@
         "index": {
           "description": "Draw Region in the current color",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "drawRegion",
           "normalized": "Region-\u003eGraphic",
@@ -4941,6 +5283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until a key is pressed and released,\n and return the corresponding character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "getKey",
           "package": "HGL",
@@ -4951,6 +5294,7 @@
         "index": {
           "description": "Wait until key is pressed and released and return the corresponding character",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "getKey",
           "normalized": "Window-\u003eIO Char",
@@ -4967,6 +5311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for the next event in the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "getWindowEvent",
           "package": "HGL",
@@ -4977,6 +5322,7 @@
         "index": {
           "description": "Wait for the next event in the window",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "getWindowEvent",
           "normalized": "Window-\u003eIO Event",
@@ -4993,6 +5339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the button was pressed;\n otherwise it was released\n\u003c/p\u003e\u003cp\u003eif \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the key was pressed;\n otherwise it was released\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "isDown",
           "package": "HGL",
@@ -5003,6 +5350,7 @@
         "index": {
           "description": "if True the button was pressed otherwise it was released if True the key was pressed otherwise it was released",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "isDown",
           "package": "HGL",
@@ -5017,6 +5365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, it was the left button\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "isLeft",
           "package": "HGL",
@@ -5027,6 +5376,7 @@
         "index": {
           "description": "if True it was the left button",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "isLeft",
           "package": "HGL",
@@ -5041,6 +5391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a pending eventin the window, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "maybeGetWindowEvent",
           "package": "HGL",
@@ -5051,6 +5402,7 @@
         "index": {
           "description": "Return pending eventin the window if any",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "maybeGetWindowEvent",
           "normalized": "Window-\u003eIO(Maybe Event)",
@@ -5067,6 +5419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean extended version of \u003ccode\u003e\u003ca\u003eopenWindow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "openWindowEx",
           "package": "HGL",
@@ -5076,6 +5429,7 @@
         "index": {
           "description": "an extended version of openWindow",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "openWindowEx",
           "normalized": "Title-\u003eMaybe Point-\u003eMaybe Size-\u003eRedrawMode-\u003eMaybe Word-\u003eIO Window",
@@ -5092,6 +5446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union of two regions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "orRegion",
           "package": "HGL",
@@ -5102,6 +5457,7 @@
         "index": {
           "description": "The union of two regions",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "orRegion",
           "normalized": "Region-\u003eRegion-\u003eRegion",
@@ -5118,6 +5474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position of the mouse cursor\n\u003c/p\u003e\u003cp\u003ethe position of the mouse cursor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "pt",
           "package": "HGL",
@@ -5128,6 +5485,7 @@
         "index": {
           "description": "the position of the mouse cursor the position of the mouse cursor",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "pt",
           "package": "HGL",
@@ -5141,6 +5499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current time of day (in milliseconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "timeGetTime",
           "package": "HGL",
@@ -5151,6 +5510,7 @@
         "index": {
           "description": "The current time of day in milliseconds",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "timeGetTime",
           "package": "HGL",
@@ -5165,6 +5525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn obsolete special case of \u003ccode\u003e\u003ca\u003efromIntegral\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:52 UTC 2014",
           "module": "Graphics.SOE",
           "name": "word32ToInt",
           "package": "HGL",
@@ -5175,6 +5536,7 @@
         "index": {
           "description": "An obsolete special case of fromIntegral",
           "hierarchy": "Graphics SOE",
+          "indexed": "2014-03-11T16:44:52",
           "module": "Graphics.SOE",
           "name": "word32ToInt",
           "normalized": "Word-\u003eInt",

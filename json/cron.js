@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cron"
+        "phrase": "cron",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAttoparsec parser combinator for cron schedules. See cron documentation for\n how those are formatted.\n\u003c/p\u003e\u003cpre\u003e import Data.Attoparsec.Text (parseOnly)\n import System.Cron.Parser\n \n main :: IO ()\n main = do\n   print $ parseOnly cronSchedule \"*/2 * 3 * 4,5,6\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron.Parser",
           "name": "Parser",
           "package": "cron",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Attoparsec parser combinator for cron schedules See cron documentation for how those are formatted import Data.Attoparsec.Text parseOnly import System.Cron.Parser main IO main do print parseOnly cronSchedule",
           "hierarchy": "System Cron Parser",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron.Parser",
           "name": "Parser",
           "package": "cron",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttoparsec Parser for a cron schedule. Complies fully with the standard\n cron format.  Also includes the following shorthand formats which cron also\n supports: @yearly, @monthly, @weekly, @daily, @hourly. Note that this\n parser will fail if there is extraneous input. This is to prevent things\n like extra fields. If you want a more lax parser, use \u003ccode\u003e\u003ca\u003ecronScheduleLoose\u003c/a\u003e\u003c/code\u003e,\n which is fine with extra input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron.Parser",
           "name": "cronSchedule",
           "package": "cron",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Attoparsec Parser for cron schedule Complies fully with the standard cron format Also includes the following shorthand formats which cron also supports yearly monthly weekly daily hourly Note that this parser will fail if there is extraneous input This is to prevent things like extra fields If you want more lax parser use cronScheduleLoose which is fine with extra input",
           "hierarchy": "System Cron Parser",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron.Parser",
           "name": "cronSchedule",
           "package": "cron",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ecronSchedule\u003c/a\u003e\u003c/code\u003e but does not fail on extraneous input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron.Parser",
           "name": "cronScheduleLoose",
           "package": "cron",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Same as cronSchedule but does not fail on extraneous input",
           "hierarchy": "System Cron Parser",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron.Parser",
           "name": "cronScheduleLoose",
           "package": "cron",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a full crontab file, omitting comments and including environment\n variable sets (e.g FOO=BAR).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron.Parser",
           "name": "crontab",
           "package": "cron",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Parses full crontab file omitting comments and including environment variable sets e.g FOO BAR",
           "hierarchy": "System Cron Parser",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron.Parser",
           "name": "crontab",
           "package": "cron",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an individual crontab line, which is either a scheduled command or\n an environmental variable set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron.Parser",
           "name": "crontabEntry",
           "package": "cron",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Parses an individual crontab line which is either scheduled command or an environmental variable set",
           "hierarchy": "System Cron Parser",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron.Parser",
           "name": "crontabEntry",
           "package": "cron",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eToplevel module for Cron specifying a cron schedule and several convenience\n functions for dealing with cron schedules\n\u003c/p\u003e\u003cpre\u003e import Control.Concurrent\n import Control.Monad\n import Data.Time.Clock\n import System.Cron\n \n main :: IO ()\n main = do\n   forever do\n     now \u003c- getCurrentTime\n     when (scheduleMatches schedule now) doWork\n     putStrLn \"sleeping\"\n     threadDelay 100000\n   where doWork   = putStrLn \"Time to work\"\n         schedule = hourly\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "Cron",
           "package": "cron",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Toplevel module for Cron specifying cron schedule and several convenience functions for dealing with cron schedules import Control.Concurrent import Control.Monad import Data.Time.Clock import System.Cron main IO main do forever do now getCurrentTime when scheduleMatches schedule now doWork putStrLn sleeping threadDelay where doWork putStrLn Time to work schedule hourly",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "Cron",
           "package": "cron",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndividual field of a cron expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "CronField",
           "package": "cron",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Individual field of cron expression",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "CronField",
           "package": "cron",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecification for a cron expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "CronSchedule",
           "package": "cron",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Specification for cron expression",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "CronSchedule",
           "package": "cron",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCrontab file, omitting comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "Crontab",
           "package": "cron",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Crontab file omitting comments",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "Crontab",
           "package": "cron",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEssentially a line in a crontab file. It is either a schedule with a\n command after it or setting an environment variable (e.g. FOO=BAR)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "CrontabEntry",
           "package": "cron",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Essentially line in crontab file It is either schedule with command after it or setting an environment variable e.g FOO BAR",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "CrontabEntry",
           "package": "cron",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of month field of a cron expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "DayOfMonthSpec",
           "package": "cron",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Day of month field of cron expression",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "DayOfMonthSpec",
           "package": "cron",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of week field of a cron expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "DayOfWeekSpec",
           "package": "cron",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Day of week field of cron expression",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "DayOfWeekSpec",
           "package": "cron",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHours field of a cron expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "HourSpec",
           "package": "cron",
@@ -307,6 +332,7 @@
         "index": {
           "description": "Hours field of cron expression",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "HourSpec",
           "package": "cron",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinutes field of a cron expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "MinuteSpec",
           "package": "cron",
@@ -330,6 +357,7 @@
         "index": {
           "description": "Minutes field of cron expression",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "MinuteSpec",
           "package": "cron",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonth field of a cron expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "MonthSpec",
           "package": "cron",
@@ -353,6 +382,7 @@
         "index": {
           "description": "Month field of cron expression",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "MonthSpec",
           "package": "cron",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "CommandEntry",
           "package": "cron",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "CommandEntry",
           "package": "cron",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "CronSchedule",
           "package": "cron",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "CronSchedule",
           "package": "cron",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "Crontab",
           "package": "cron",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "Crontab",
           "normalized": "Crontab[CrontabEntry]",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "DaysOfMonth",
           "package": "cron",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "DaysOfMonth",
           "package": "cron",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "DaysOfWeek",
           "package": "cron",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "DaysOfWeek",
           "package": "cron",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "EnvVariable",
           "package": "cron",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "EnvVariable",
           "package": "cron",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "Hours",
           "package": "cron",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "Hours",
           "package": "cron",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a list of expressions. Recursive lists are invalid and the parser will never produce them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "ListField",
           "package": "cron",
@@ -533,6 +578,7 @@
         "index": {
           "description": "Matches list of expressions Recursive lists are invalid and the parser will never produce them",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "ListField",
           "normalized": "ListField[CronField]",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "Minutes",
           "package": "cron",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "Minutes",
           "package": "cron",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "Months",
           "package": "cron",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "Months",
           "package": "cron",
@@ -593,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a range of values (e.g. 1-3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "RangeField",
           "package": "cron",
@@ -603,6 +654,7 @@
         "index": {
           "description": "Matches range of values e.g",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "RangeField",
           "package": "cron",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a specific value (e.g. 1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "SpecificField",
           "package": "cron",
@@ -627,6 +680,7 @@
         "index": {
           "description": "Matches specific value e.g",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "SpecificField",
           "package": "cron",
@@ -641,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches anything\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "Star",
           "package": "cron",
@@ -651,6 +706,7 @@
         "index": {
           "description": "Matches anything",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "Star",
           "package": "cron",
@@ -665,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a stepped expression, e.g. (*/2). Recursive steps or stepped lists are invalid and the parser will never produce them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "StepField",
           "package": "cron",
@@ -675,6 +732,7 @@
         "index": {
           "description": "Matches stepped expression e.g Recursive steps or stepped lists are invalid and the parser will never produce them",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "StepField",
           "package": "cron",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "command",
           "package": "cron",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "command",
           "package": "cron",
@@ -710,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for every day at midnight. Parsed with @daily\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "daily",
           "package": "cron",
@@ -720,6 +781,7 @@
         "index": {
           "description": "Shorthand for every day at midnight Parsed with daily",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "daily",
           "package": "cron",
@@ -733,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich days of the month to run. Third field in a cron specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "dayOfMonth",
           "package": "cron",
@@ -743,6 +806,7 @@
         "index": {
           "description": "Which days of the month to run Third field in cron specification",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "dayOfMonth",
           "package": "cron",
@@ -757,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich days of the week to run. Fifth field in a cron specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "dayOfWeek",
           "package": "cron",
@@ -767,6 +832,7 @@
         "index": {
           "description": "Which days of the week to run Fifth field in cron specification",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "dayOfWeek",
           "package": "cron",
@@ -781,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for an expression that always matches. Parsed with * * * * *\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "everyMinute",
           "package": "cron",
@@ -791,6 +858,7 @@
         "index": {
           "description": "Shorthand for an expression that always matches Parsed with",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "everyMinute",
           "package": "cron",
@@ -805,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich hours to run. Second field in a cron specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "hour",
           "package": "cron",
@@ -815,6 +884,7 @@
         "index": {
           "description": "Which hours to run Second field in cron specification",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "hour",
           "package": "cron",
@@ -828,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for every hour on the hour. Parsed with @hourly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "hourly",
           "package": "cron",
@@ -838,6 +909,7 @@
         "index": {
           "description": "Shorthand for every hour on the hour Parsed with hourly",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "hourly",
           "package": "cron",
@@ -851,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich minutes to run. First field in a cron specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "minute",
           "package": "cron",
@@ -861,6 +934,7 @@
         "index": {
           "description": "Which minutes to run First field in cron specification",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "minute",
           "package": "cron",
@@ -874,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich months to run. Fourth field in a cron specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "month",
           "package": "cron",
@@ -884,6 +959,7 @@
         "index": {
           "description": "Which months to run Fourth field in cron specification",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "month",
           "package": "cron",
@@ -897,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for every 1st of the month at midnight. Parsed with @monthly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "monthly",
           "package": "cron",
@@ -907,6 +984,7 @@
         "index": {
           "description": "Shorthand for every st of the month at midnight Parsed with monthly",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "monthly",
           "package": "cron",
@@ -919,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "schedule",
           "package": "cron",
@@ -928,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "schedule",
           "package": "cron",
@@ -941,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines if the given time is matched by the given schedule. A\n periodical task would use this to determine if an action needs to be\n performed at the current time or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "scheduleMatches",
           "package": "cron",
@@ -951,6 +1032,7 @@
         "index": {
           "description": "Determines if the given time is matched by the given schedule periodical task would use this to determine if an action needs to be performed at the current time or not",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "scheduleMatches",
           "normalized": "CronSchedule-\u003eUTCTime-\u003eBool",
@@ -966,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "varName",
           "package": "cron",
@@ -975,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "varName",
           "package": "cron",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "varValue",
           "package": "cron",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "varValue",
           "package": "cron",
@@ -1011,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for every sunday at midnight. Parsed with @weekly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "weekly",
           "package": "cron",
@@ -1021,6 +1108,7 @@
         "index": {
           "description": "Shorthand for every sunday at midnight Parsed with weekly",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "weekly",
           "package": "cron",
@@ -1034,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for every January 1st at midnight. Parsed with @yearly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:18 UTC 2014",
           "module": "System.Cron",
           "name": "yearly",
           "package": "cron",
@@ -1044,6 +1133,7 @@
         "index": {
           "description": "Shorthand for every January st at midnight Parsed with yearly",
           "hierarchy": "System Cron",
+          "indexed": "2014-03-11T17:43:18",
           "module": "System.Cron",
           "name": "yearly",
           "package": "cron",

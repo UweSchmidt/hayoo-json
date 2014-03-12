@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hszephyr"
+        "phrase": "hszephyr",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple bindings to libzephyr.\n\u003c/p\u003e\u003cp\u003eAll functions in this module properly serialize access to the C\n   libzephyr and behave correctly with regard to \u003ccode\u003e\u003ca\u003eforkIO\u003c/a\u003e\u003c/code\u003e, so this\n   module should behave properly in threaded Haskell program.\n\u003c/p\u003e\u003cp\u003eAt present, however, we only support maintaining a single,\n   global, set of Zephyr subscriptions. This may be extended to\n   support multiple clients within the same Haskell program.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "Zephyr",
           "package": "hszephyr",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple bindings to libzephyr All functions in this module properly serialize access to the libzephyr and behave correctly with regard to forkIO so this module should behave properly in threaded Haskell program At present however we only support maintaining single global set of Zephyr subscriptions This may be extended to support multiple clients within the same Haskell program",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "Zephyr",
           "package": "hszephyr",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "ZAuth",
           "package": "hszephyr",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "ZAuth",
           "package": "hszephyr",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eZNotice\u003c/a\u003e\u003c/code\u003e represents a Zephyr notice. All fields of this record\n      are filled-in for received notices. For outoing notices, only\n      the following fields are relevant:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003ez_class\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ez_instance\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ez_opcode\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ez_sender\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ez_default_fmt\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ez_kind\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ez_auth\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ez_fields\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "ZNotice",
           "package": "hszephyr",
@@ -72,6 +77,7 @@
         "index": {
           "description": "ZNotice represents Zephyr notice All fields of this record are filled-in for received notices For outoing notices only the following fields are relevant class instance opcode sender default fmt kind auth fields",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "ZNotice",
           "package": "hszephyr",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eZNoticeKind\u003c/a\u003e\u003c/code\u003e represent the kinds of \u003ccode\u003e\u003ca\u003eZNotice\u003c/a\u003e\u003c/code\u003es sent or received\n   by the Zephyr system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "ZNoticeKind",
           "package": "hszephyr",
@@ -95,6 +102,7 @@
         "index": {
           "description": "ZNoticeKind represent the kinds of ZNotice sent or received by the Zephyr system",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "ZNoticeKind",
           "package": "hszephyr",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a Zephyr triple for the purposes of subscribing or\n   unsubscribing to zephyrs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "ZSubscription",
           "package": "hszephyr",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Represents Zephyr triple for the purposes of subscribing or unsubscribing to zephyrs",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "ZSubscription",
           "package": "hszephyr",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe message was received with\n correct authentication, or should be\n authenticated for outgoing notices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "Authenticated",
           "package": "hszephyr",
@@ -142,6 +153,7 @@
         "index": {
           "description": "The message was received with correct authentication or should be authenticated for outgoing notices",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "Authenticated",
           "package": "hszephyr",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe message was received with\n invalid authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "AuthenticationFailed",
           "package": "hszephyr",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The message was received with invalid authentication",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "AuthenticationFailed",
           "package": "hszephyr",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe message was or will be sent\n with no authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "Unauthenticated",
           "package": "hszephyr",
@@ -190,6 +205,7 @@
         "index": {
           "description": "The message was or will be sent with no authentication",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "Unauthenticated",
           "package": "hszephyr",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "ZNotice",
           "package": "hszephyr",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "ZNotice",
           "package": "hszephyr",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "ZNoticeKind",
           "package": "hszephyr",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "ZNoticeKind",
           "package": "hszephyr",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "ZSubscription",
           "package": "hszephyr",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "ZSubscription",
           "package": "hszephyr",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCancel all zephyr subscriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "cancelSubscriptions",
           "package": "hszephyr",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Cancel all zephyr subscriptions",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "cancelSubscriptions",
           "normalized": "IO()",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHolds the default display format used by outgoing Zephyrs by\n   \u003ccode\u003ezwrite\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "defaultFmt",
           "package": "hszephyr",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Holds the default display format used by outgoing Zephyrs by zwrite",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "defaultFmt",
           "package": "hszephyr",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default \u003ccode\u003e\u003ca\u003eZNotice\u003c/a\u003e\u003c/code\u003e suitable for use as a template when creating\n   a new notice for sending via \u003ccode\u003e\u003ca\u003esendNotice\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "emptyNotice",
           "package": "hszephyr",
@@ -330,6 +357,7 @@
         "index": {
           "description": "default ZNotice suitable for use as template when creating new notice for sending via sendNotice",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "emptyNotice",
           "package": "hszephyr",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the realm of the current host.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "getRealm",
           "package": "hszephyr",
@@ -354,6 +383,7 @@
         "index": {
           "description": "Return the realm of the current host",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "getRealm",
           "package": "hszephyr",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the name of the current Zephyr sender.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "getSender",
           "package": "hszephyr",
@@ -378,6 +409,7 @@
         "index": {
           "description": "Return the name of the current Zephyr sender",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "getSender",
           "package": "hszephyr",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize libzephyr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "initialize",
           "package": "hszephyr",
@@ -402,6 +435,7 @@
         "index": {
           "description": "Initialize libzephyr",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "initialize",
           "normalized": "IO()",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "kind_acked",
           "package": "hszephyr",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "kind_acked",
           "package": "hszephyr",
@@ -438,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eZAuth\u003c/a\u003e\u003c/code\u003e represents the authentication used when sending or\n   receiving a Zephyr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "kind_clientack",
           "package": "hszephyr",
@@ -448,6 +485,7 @@
         "index": {
           "description": "ZAuth represents the authentication used when sending or receiving Zephyr",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "kind_clientack",
           "package": "hszephyr",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "kind_hmack",
           "package": "hszephyr",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "kind_hmack",
           "package": "hszephyr",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "kind_hmctl",
           "package": "hszephyr",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "kind_hmctl",
           "package": "hszephyr",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "kind_servack",
           "package": "hszephyr",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "kind_servack",
           "package": "hszephyr",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "kind_servnak",
           "package": "hszephyr",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "kind_servnak",
           "package": "hszephyr",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "kind_stat",
           "package": "hszephyr",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "kind_stat",
           "package": "hszephyr",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "kind_unacked",
           "package": "hszephyr",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "kind_unacked",
           "package": "hszephyr",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "kind_unsafe",
           "package": "hszephyr",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "kind_unsafe",
           "package": "hszephyr",
@@ -608,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks for new incoming packets and then returns the number of\n   pending messages in the queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "pendingNotices",
           "package": "hszephyr",
@@ -618,6 +671,7 @@
         "index": {
           "description": "Checks for new incoming packets and then returns the number of pending messages in the queue",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "pendingNotices",
           "package": "hszephyr",
@@ -632,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive a \u003ccode\u003e\u003ca\u003eZNotice\u003c/a\u003e\u003c/code\u003e from the zephyr servers. Blocks until a\n   notice is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "receiveNotice",
           "package": "hszephyr",
@@ -642,6 +697,7 @@
         "index": {
           "description": "Receive ZNotice from the zephyr servers Blocks until notice is available",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "receiveNotice",
           "package": "hszephyr",
@@ -656,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a \u003ccode\u003e\u003ca\u003eZNotice\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "sendNotice",
           "package": "hszephyr",
@@ -666,6 +723,7 @@
         "index": {
           "description": "Send ZNotice",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "sendNotice",
           "normalized": "ZNotice-\u003eIO()",
@@ -681,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "sub_class",
           "package": "hszephyr",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "sub_class",
           "package": "hszephyr",
@@ -702,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "sub_instance",
           "package": "hszephyr",
@@ -711,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "sub_instance",
           "package": "hszephyr",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "sub_recipient",
           "package": "hszephyr",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "sub_recipient",
           "package": "hszephyr",
@@ -745,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscribe to one or more Zephyr triples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "subscribeTo",
           "package": "hszephyr",
@@ -755,6 +820,7 @@
         "index": {
           "description": "Subscribe to one or more Zephyr triples",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "subscribeTo",
           "normalized": "[ZSubscription]-\u003eIO()",
@@ -771,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to receive a ZNotice, returning \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no notice is\n   available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "tryReceiveNotice",
           "package": "hszephyr",
@@ -781,6 +848,7 @@
         "index": {
           "description": "Try to receive ZNotice returning Nothing if no notice is available",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "tryReceiveNotice",
           "package": "hszephyr",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "unZNoticeKind",
           "package": "hszephyr",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "unZNoticeKind",
           "package": "hszephyr",
@@ -817,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsubscribe from one or more Zephyr triples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "unsubscribeTo",
           "package": "hszephyr",
@@ -827,6 +898,7 @@
         "index": {
           "description": "Unsubscribe from one or more Zephyr triples",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "unsubscribeTo",
           "normalized": "[ZSubscription]-\u003eIO()",
@@ -843,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether this notice is authenticated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "z_auth",
           "package": "hszephyr",
@@ -853,6 +926,7 @@
         "index": {
           "description": "Whether this notice is authenticated",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "z_auth",
           "package": "hszephyr",
@@ -866,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Zephyr class of this notice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "z_class",
           "package": "hszephyr",
@@ -876,6 +951,7 @@
         "index": {
           "description": "The Zephyr class of this notice",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "z_class",
           "package": "hszephyr",
@@ -889,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default format clients should use to\n   render this notice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "z_default_fmt",
           "package": "hszephyr",
@@ -899,6 +976,7 @@
         "index": {
           "description": "The default format clients should use to render this notice",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "z_default_fmt",
           "package": "hszephyr",
@@ -912,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of the fields in this notice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "z_fields",
           "package": "hszephyr",
@@ -922,6 +1001,7 @@
         "index": {
           "description": "list of the fields in this notice",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "z_fields",
           "normalized": "[ByteString]",
@@ -937,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Zephyr instance of this notice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "z_instance",
           "package": "hszephyr",
@@ -947,6 +1028,7 @@
         "index": {
           "description": "The Zephyr instance of this notice",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "z_instance",
           "package": "hszephyr",
@@ -960,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kind of this notice (determines how it\n   will be ACK'd).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "z_kind",
           "package": "hszephyr",
@@ -970,6 +1053,7 @@
         "index": {
           "description": "The kind of this notice determines how it will be ACK",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "z_kind",
           "package": "hszephyr",
@@ -983,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opcode of this notice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "z_opcode",
           "package": "hszephyr",
@@ -993,6 +1078,7 @@
         "index": {
           "description": "The opcode of this notice",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "z_opcode",
           "package": "hszephyr",
@@ -1006,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe recipient of this notice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "z_recipient",
           "package": "hszephyr",
@@ -1016,6 +1103,7 @@
         "index": {
           "description": "The recipient of this notice",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "z_recipient",
           "package": "hszephyr",
@@ -1029,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sender of this Notice.\n This field is always a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e for received\n notices. Setting it to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e for sent\n notices will cause it to automatically be\n filled in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "z_sender",
           "package": "hszephyr",
@@ -1039,6 +1128,7 @@
         "index": {
           "description": "The sender of this Notice This field is always Just for received notices Setting it to Nothing for sent notices will cause it to automatically be filled in",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "z_sender",
           "package": "hszephyr",
@@ -1052,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe time this notice was sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "z_time",
           "package": "hszephyr",
@@ -1062,6 +1153,7 @@
         "index": {
           "description": "The time this notice was sent",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "z_time",
           "package": "hszephyr",
@@ -1075,6 +1167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Zephyr version this notice was sent with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:27 UTC 2014",
           "module": "Network.Zephyr",
           "name": "z_version",
           "package": "hszephyr",
@@ -1085,6 +1178,7 @@
         "index": {
           "description": "The Zephyr version this notice was sent with",
           "hierarchy": "Network Zephyr",
+          "indexed": "2014-03-11T18:51:27",
           "module": "Network.Zephyr",
           "name": "z_version",
           "package": "hszephyr",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "augur"
+        "phrase": "augur",
+        "type": "phrase"
       },
       "type": "context"
     }

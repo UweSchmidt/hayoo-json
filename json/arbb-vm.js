@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "arbb-vm"
+        "phrase": "arbb-vm",
+        "type": "phrase"
       },
       "type": "context"
     }

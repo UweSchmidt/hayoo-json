@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "functor-combo"
+        "phrase": "functor-combo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFilling and extracting derivatives (one-hole contexts)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.DHoley",
           "name": "DHoley",
           "package": "functor-combo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Filling and extracting derivatives one-hole contexts",
           "hierarchy": "FunctorCombo DHoley",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.DHoley",
           "name": "DHoley",
           "package": "functor-combo",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.DHoley",
           "name": "Holey",
           "package": "functor-combo",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo DHoley",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.DHoley",
           "name": "Holey",
           "package": "functor-combo",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll extractions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.DHoley",
           "name": "extract",
           "package": "functor-combo",
@@ -73,6 +78,7 @@
         "index": {
           "description": "All extractions",
           "hierarchy": "FunctorCombo DHoley",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.DHoley",
           "name": "extract",
           "normalized": "a b-\u003ea(Loc a b)",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative interface for \u003ccode\u003e\u003ca\u003efillC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.DHoley",
           "name": "fill",
           "package": "functor-combo",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Alternative interface for fillC",
           "hierarchy": "FunctorCombo DHoley",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.DHoley",
           "name": "fill",
           "normalized": "Loc a b-\u003ea b",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill a hole\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.DHoley",
           "name": "fillC",
           "package": "functor-combo",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Fill hole",
           "hierarchy": "FunctorCombo DHoley",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.DHoley",
           "name": "fillC",
           "normalized": "Der a b-\u003eb-\u003ea b",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDerivatives (one-hole contexts) for standard Functor combinators\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Derivative",
           "name": "Derivative",
           "package": "functor-combo",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Derivatives one-hole contexts for standard Functor combinators",
           "hierarchy": "FunctorCombo Derivative",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Derivative",
           "name": "Derivative",
           "package": "functor-combo",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA derivative, i.e., a one-hole context for a container f (probably a functor).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Derivative",
           "name": "Der",
           "package": "functor-combo",
@@ -170,6 +183,7 @@
         "index": {
           "description": "derivative i.e one-hole context for container probably functor",
           "hierarchy": "FunctorCombo Derivative",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Derivative",
           "name": "Der",
           "package": "functor-combo",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStandard building blocks for functors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "Functor",
           "package": "functor-combo",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Standard building blocks for functors",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "Functor",
           "package": "functor-combo",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct on unary type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": ":*:",
           "package": "functor-combo",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Product on unary type constructors",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": ":*:",
           "package": "functor-combo",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict product functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": ":*:!",
           "package": "functor-combo",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Strict product functor",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": ":*:!",
           "package": "functor-combo",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum on unary type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": ":+:",
           "package": "functor-combo",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Sum on unary type constructors",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": ":+:",
           "package": "functor-combo",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict sum functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": ":+:!",
           "package": "functor-combo",
@@ -282,6 +305,7 @@
         "index": {
           "description": "Strict sum functor",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": ":+:!",
           "package": "functor-combo",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition of unary type constructors\n\u003c/p\u003e\u003cp\u003eThere are (at least) two useful \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instances, so you'll have to\npick one and type-specialize it (filling in all or parts of \u003ccode\u003eg\u003c/code\u003e and/or \u003ccode\u003ef\u003c/code\u003e).\n\u003c/p\u003e\u003cpre\u003e     -- standard Monoid instance for Applicative applied to Monoid\n     instance (Applicative (g :. f), Monoid a) =\u003e Monoid ((g :. f) a) where\n       { mempty = pure mempty; mappend = liftA2 mappend }\n     -- Especially handy when g is a Monoid_f.\n     instance Monoid (g (f a)) =\u003e Monoid ((g :. f) a) where\n       { mempty = O mempty; mappend = inO2 mappend }\n\u003c/pre\u003e\u003cp\u003eCorresponding to the first and second definitions above,\n\u003c/p\u003e\u003cpre\u003e     instance (Applicative g, Monoid_f f) =\u003e Monoid_f (g :. f) where\n       { mempty_f = O (pure mempty_f); mappend_f = inO2 (liftA2 mappend_f) }\n     instance Monoid_f g =\u003e Monoid_f (g :. f) where\n       { mempty_f = O mempty_f; mappend_f = inO2 mappend_f }\n\u003c/pre\u003e\u003cp\u003eSimilarly, there are two useful \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e instances and two useful\n\u003ccode\u003e\u003ca\u003eContraFunctor\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e\u003cpre\u003e     instance (      Functor g,       Functor f) =\u003e Functor (g :. f) where fmap = fmapFF\n     instance (ContraFunctor g, ContraFunctor f) =\u003e Functor (g :. f) where fmap = fmapCC\n \n     instance (      Functor g, ContraFunctor f) =\u003e ContraFunctor (g :. f) where contraFmap = contraFmapFC\n     instance (ContraFunctor g,       Functor f) =\u003e ContraFunctor (g :. f) where contraFmap = contraFmapCF\n\u003c/pre\u003e\u003cp\u003eHowever, it's such a bother to define the Functor instances per\ncomposition type, I've left the fmapFF case in.  If you want the fmapCC\none, you're out of luck for now.  I'd love to hear a good solution.  Maybe\nsomeday Haskell will do Prolog-style search for instances, subgoaling the\nconstraints, rather than just matching instance heads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": ":.",
           "package": "functor-combo",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Composition of unary type constructors There are at least two useful Monoid instances so you ll have to pick one and type-specialize it filling in all or parts of and or standard Monoid instance for Applicative applied to Monoid instance Applicative Monoid Monoid where mempty pure mempty mappend liftA2 mappend Especially handy when is Monoid instance Monoid Monoid where mempty mempty mappend inO2 mappend Corresponding to the first and second definitions above instance Applicative Monoid Monoid where mempty pure mempty mappend inO2 liftA2 mappend instance Monoid Monoid where mempty mempty mappend inO2 mappend Similarly there are two useful Functor instances and two useful ContraFunctor instances instance Functor Functor Functor where fmap fmapFF instance ContraFunctor ContraFunctor Functor where fmap fmapCC instance Functor ContraFunctor ContraFunctor where contraFmap contraFmapFC instance ContraFunctor Functor ContraFunctor where contraFmap contraFmapCF However it such bother to define the Functor instances per composition type ve left the fmapFF case in If you want the fmapCC one you re out of luck for now love to hear good solution Maybe someday Haskell will do Prolog-style search for instances subgoaling the constraints rather than just matching instance heads",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": ":.",
           "package": "functor-combo",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "Const",
           "package": "functor-combo",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "Const",
           "package": "functor-combo",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "EncodeF",
           "package": "functor-combo",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "EncodeF",
           "package": "functor-combo",
@@ -357,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity type constructor.  Until there's a better place to find it.\n I'd use \u003ca\u003eControl.Monad.Identity\u003c/a\u003e, but I don't want to introduce a\n dependency on mtl just for Id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "Id",
           "package": "functor-combo",
@@ -365,6 +396,7 @@
         "index": {
           "description": "Identity type constructor Until there better place to find it use Control.Monad.Identity but don want to introduce dependency on mtl just for Id",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "Id",
           "package": "functor-combo",
@@ -379,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a bottom to a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "Lift",
           "package": "functor-combo",
@@ -388,6 +421,7 @@
         "index": {
           "description": "Add bottom to type",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "Lift",
           "package": "functor-combo",
@@ -402,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit type constructor (one inhabitant)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "Unit",
           "package": "functor-combo",
@@ -411,6 +446,7 @@
         "index": {
           "description": "Unit type constructor one inhabitant",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "Unit",
           "package": "functor-combo",
@@ -425,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty/zero type constructor (no inhabitants)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "Void",
           "package": "functor-combo",
@@ -434,6 +471,7 @@
         "index": {
           "description": "Empty zero type constructor no inhabitants",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "Void",
           "package": "functor-combo",
@@ -448,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd pre- and post processing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "(~\u003e)",
           "package": "functor-combo",
@@ -457,6 +496,7 @@
         "index": {
           "description": "Add pre and post processing",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "(~\u003e) ~\u003e",
           "normalized": "a b c-\u003ea d e-\u003ea c d-\u003ea b e",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "(\u003c~)",
           "package": "functor-combo",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "(\u003c~) \u003c~",
           "normalized": "a b c-\u003ea d e-\u003ea e b-\u003ea d c",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": ":*:",
           "package": "functor-combo",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": ":*:",
           "package": "functor-combo",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": ":*:!",
           "package": "functor-combo",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": ":*:!",
           "package": "functor-combo",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "Const",
           "package": "functor-combo",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "Const",
           "package": "functor-combo",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "Id",
           "package": "functor-combo",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "Id",
           "package": "functor-combo",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "InL",
           "package": "functor-combo",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "InL",
           "package": "functor-combo",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "InL'",
           "package": "functor-combo",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "InL'",
           "package": "functor-combo",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "InR",
           "package": "functor-combo",
@@ -630,6 +685,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "InR",
           "package": "functor-combo",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "InR'",
           "package": "functor-combo",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "InR'",
           "package": "functor-combo",
@@ -665,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "Lift",
           "package": "functor-combo",
@@ -674,6 +733,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "Lift",
           "package": "functor-combo",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "O",
           "package": "functor-combo",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "O",
           "package": "functor-combo",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "asPair",
           "package": "functor-combo",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "asPair",
           "normalized": "(a*b)c-\u003e(a c,b c)",
@@ -731,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "asProd",
           "package": "functor-combo",
@@ -740,6 +805,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "asProd",
           "normalized": "(a b,c b)-\u003e(a*c)b",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "decode",
           "package": "functor-combo",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "decode",
           "normalized": "Enc a b-\u003ea b",
@@ -778,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "eitherF",
           "package": "functor-combo",
@@ -787,6 +856,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "eitherF",
           "normalized": "(a b-\u003ec)-\u003e(d b-\u003ec)-\u003e(a d)b-\u003ec",
@@ -802,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase analysis on strict sum functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "eitherF'",
           "package": "functor-combo",
@@ -812,6 +883,7 @@
         "index": {
           "description": "Case analysis on strict sum functor",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "eitherF'",
           "normalized": "(a b-\u003ec)-\u003e(d b-\u003ec)-\u003e(a d)b-\u003ec",
@@ -827,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "encode",
           "package": "functor-combo",
@@ -836,6 +909,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "encode",
           "normalized": "a b-\u003eEnc a b",
@@ -851,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "fstF",
           "package": "functor-combo",
@@ -861,6 +936,7 @@
         "index": {
           "description": "Like fst",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "fstF",
           "normalized": "(a*b)c-\u003ea c",
@@ -875,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "getConst",
           "package": "functor-combo",
@@ -883,6 +960,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "getConst",
           "package": "functor-combo",
@@ -896,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "inId",
           "package": "functor-combo",
@@ -904,6 +983,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "inId",
           "normalized": "(a-\u003eb)-\u003eId a-\u003eId b",
@@ -919,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "inId2",
           "package": "functor-combo",
@@ -927,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "inId2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eId a-\u003eId b-\u003eId c",
@@ -943,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a unary function within the \u003ccode\u003e\u003ca\u003eO\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "inO",
           "package": "functor-combo",
@@ -952,6 +1035,7 @@
         "index": {
           "description": "Apply unary function within the constructor",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "inO",
           "normalized": "(a(b c)-\u003ed(e f))-\u003ea b c-\u003ed e f",
@@ -967,6 +1051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a binary function within the \u003ccode\u003e\u003ca\u003eO\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "inO2",
           "package": "functor-combo",
@@ -976,6 +1061,7 @@
         "index": {
           "description": "Apply binary function within the constructor",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "inO2",
           "normalized": "(a(b c)-\u003ed(e f)-\u003eg(h i))-\u003ea b c-\u003ed e f-\u003eg h i",
@@ -990,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "inProd",
           "package": "functor-combo",
@@ -999,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "inProd",
           "normalized": "((a b,c b)-\u003e(d e,f e))-\u003e(a*c)b-\u003e(d*f)e",
@@ -1014,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "inProd2",
           "package": "functor-combo",
@@ -1023,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "inProd2",
           "normalized": "((a b,c b)-\u003e(d e,f e)-\u003e(g h,i h))-\u003e(a*c)b-\u003e(d*f)e-\u003e(g*i)h",
@@ -1038,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "pairF",
           "package": "functor-combo",
@@ -1047,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "pairF",
           "normalized": "(a b,c b)-\u003e(a*c)b",
@@ -1062,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "sndF",
           "package": "functor-combo",
@@ -1072,6 +1165,7 @@
         "index": {
           "description": "Like snd",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "sndF",
           "normalized": "(a*b)c-\u003eb c",
@@ -1086,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "unId",
           "package": "functor-combo",
@@ -1094,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "unId",
           "normalized": "Id a-\u003ea",
@@ -1109,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "unLift",
           "package": "functor-combo",
@@ -1118,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "unLift",
           "package": "functor-combo",
@@ -1132,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap a '(:.)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "unO",
           "package": "functor-combo",
@@ -1141,6 +1240,7 @@
         "index": {
           "description": "Unwrap",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "unO",
           "normalized": "a b c-\u003ea(b c)",
@@ -1155,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "unPairF",
           "package": "functor-combo",
@@ -1164,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "unPairF",
           "normalized": "(a*b)c-\u003e(a c,b c)",
@@ -1180,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "unit",
           "package": "functor-combo",
@@ -1190,6 +1293,7 @@
         "index": {
           "description": "The unit value",
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "unit",
           "normalized": "Unit()",
@@ -1204,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Functor",
           "name": "voidF",
           "package": "functor-combo",
@@ -1213,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Functor",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Functor",
           "name": "voidF",
           "normalized": "Void a-\u003eb",
@@ -1228,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFilling and extracting derivatives (one-hole contexts)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Holey",
           "name": "Holey",
           "package": "functor-combo",
@@ -1237,6 +1344,7 @@
         "index": {
           "description": "Filling and extracting derivatives one-hole contexts",
           "hierarchy": "FunctorCombo Holey",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Holey",
           "name": "Holey",
           "package": "functor-combo",
@@ -1251,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilling and creating one-hole contexts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Holey",
           "name": "Holey",
           "package": "functor-combo",
@@ -1260,6 +1369,7 @@
         "index": {
           "description": "Filling and creating one-hole contexts",
           "hierarchy": "FunctorCombo Holey",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Holey",
           "name": "Holey",
           "package": "functor-combo",
@@ -1274,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation, i.e., one-hole context and a value for the hole.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Holey",
           "name": "Loc",
           "package": "functor-combo",
@@ -1283,6 +1394,7 @@
         "index": {
           "description": "Location i.e one-hole context and value for the hole",
           "hierarchy": "FunctorCombo Holey",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Holey",
           "name": "Loc",
           "package": "functor-combo",
@@ -1296,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Holey",
           "name": "extract",
           "package": "functor-combo",
@@ -1305,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Holey",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Holey",
           "name": "extract",
           "package": "functor-combo",
@@ -1318,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative interface for \u003ccode\u003e\u003ca\u003efillC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Holey",
           "name": "fill",
           "package": "functor-combo",
@@ -1328,6 +1443,7 @@
         "index": {
           "description": "Alternative interface for fillC",
           "hierarchy": "FunctorCombo Holey",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Holey",
           "name": "fill",
           "normalized": "Loc a b-\u003ea b",
@@ -1342,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Holey",
           "name": "fillC",
           "package": "functor-combo",
@@ -1351,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Holey",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Holey",
           "name": "fillC",
           "package": "functor-combo",
@@ -1364,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLeast upper bounds for functor combinators\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.LubF",
           "name": "LubF",
           "package": "functor-combo",
@@ -1373,6 +1492,7 @@
         "index": {
           "description": "Least upper bounds for functor combinators",
           "hierarchy": "FunctorCombo LubF",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.LubF",
           "name": "LubF",
           "package": "functor-combo",
@@ -1386,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.LubF",
           "name": "HasLubF",
           "package": "functor-combo",
@@ -1394,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo LubF",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.LubF",
           "name": "HasLubF",
           "package": "functor-combo",
@@ -1408,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctor-based memo tries.  See\n \u003ca\u003ehttp://conal.net/blog/posts/details-for-nonstrict-memoization-part-1/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "NonstrictMemo",
           "package": "functor-combo",
@@ -1417,6 +1540,7 @@
         "index": {
           "description": "Functor-based memo tries See http conal.net blog posts details-for-nonstrict-memoization-part-1",
           "hierarchy": "FunctorCombo NonstrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "NonstrictMemo",
           "package": "functor-combo",
@@ -1430,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.NonstrictMemo",
           "name": ":-\u003e:",
           "package": "functor-combo",
@@ -1438,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo NonstrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.NonstrictMemo",
           "name": ":-\u003e:",
           "package": "functor-combo",
@@ -1451,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDomain types with associated memo tries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "HasTrie",
           "package": "functor-combo",
@@ -1460,6 +1587,7 @@
         "index": {
           "description": "Domain types with associated memo tries",
           "hierarchy": "FunctorCombo NonstrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "HasTrie",
           "package": "functor-combo",
@@ -1474,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrie-based function memoizer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "memo",
           "package": "functor-combo",
@@ -1484,6 +1613,7 @@
         "index": {
           "description": "Trie-based function memoizer",
           "hierarchy": "FunctorCombo NonstrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "memo",
           "normalized": "Unop(a-\u003eb)",
@@ -1499,6 +1629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a binary function, on its first argument and then on its\n second.  Take care to exploit any partial evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "memo2",
           "package": "functor-combo",
@@ -1509,6 +1640,7 @@
         "index": {
           "description": "Memoize binary function on its first argument and then on its second Take care to exploit any partial evaluation",
           "hierarchy": "FunctorCombo NonstrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "memo2",
           "normalized": "Unop(a-\u003eb-\u003ec)",
@@ -1524,6 +1656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a ternary function on successive arguments.  Take care to\n exploit any partial evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "memo3",
           "package": "functor-combo",
@@ -1534,6 +1667,7 @@
         "index": {
           "description": "Memoize ternary function on successive arguments Take care to exploit any partial evaluation",
           "hierarchy": "FunctorCombo NonstrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "memo3",
           "normalized": "Unop(a-\u003eb-\u003ec-\u003ed)",
@@ -1549,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the trie for the entire domain of a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "sTrie",
           "package": "functor-combo",
@@ -1559,6 +1694,7 @@
         "index": {
           "description": "Create the trie for the entire domain of function",
           "hierarchy": "FunctorCombo NonstrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "sTrie",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -1575,6 +1711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert k trie to k function, i.e., access k field of the trie\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "sUntrie",
           "package": "functor-combo",
@@ -1585,6 +1722,7 @@
         "index": {
           "description": "Convert trie to function i.e access field of the trie",
           "hierarchy": "FunctorCombo NonstrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.NonstrictMemo",
           "name": "sUntrie",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -1601,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePair functor\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "Pair",
           "package": "functor-combo",
@@ -1610,6 +1749,7 @@
         "index": {
           "description": "Pair functor",
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "Pair",
           "package": "functor-combo",
@@ -1624,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "Pair",
           "package": "functor-combo",
@@ -1633,6 +1774,7 @@
         "index": {
           "description": "Uniform pairs",
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "Pair",
           "package": "functor-combo",
@@ -1646,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": ":#",
           "package": "functor-combo",
@@ -1655,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": ":#",
           "package": "functor-combo",
@@ -1667,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "curryP",
           "package": "functor-combo",
@@ -1676,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "curryP",
           "normalized": "(Pair a-\u003eb)-\u003ea-\u003ea-\u003eb",
@@ -1690,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "firstP",
           "package": "functor-combo",
@@ -1699,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "firstP",
           "normalized": "Unop a-\u003eUnop(Pair a)",
@@ -1713,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "fromP",
           "package": "functor-combo",
@@ -1722,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "fromP",
           "normalized": "Pair a-\u003e(a,a)",
@@ -1736,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "fstP",
           "package": "functor-combo",
@@ -1745,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "fstP",
           "normalized": "Pair a-\u003ea",
@@ -1759,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "inP",
           "package": "functor-combo",
@@ -1768,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "inP",
           "normalized": "Unop(a,a)-\u003eUnop(Pair a)",
@@ -1782,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "inZipA",
           "package": "functor-combo",
@@ -1791,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "inZipA",
           "normalized": "Unop(a(Pair b))-\u003eUnop(Pair(a b))",
@@ -1806,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "preScanP",
           "package": "functor-combo",
@@ -1815,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "preScanP",
           "normalized": "Pair(a b,b)-\u003e(Pair(a b),b)",
@@ -1830,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "secondP",
           "package": "functor-combo",
@@ -1839,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "secondP",
           "normalized": "Unop a-\u003eUnop(Pair a)",
@@ -1853,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "sndP",
           "package": "functor-combo",
@@ -1862,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "sndP",
           "normalized": "Pair a-\u003ea",
@@ -1876,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "sufScanP",
           "package": "functor-combo",
@@ -1885,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "sufScanP",
           "normalized": "Pair(a,b a)-\u003e(a,Pair(b a))",
@@ -1900,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "swapP",
           "package": "functor-combo",
@@ -1909,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "swapP",
           "package": "functor-combo",
@@ -1921,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "toP",
           "package": "functor-combo",
@@ -1930,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "toP",
           "normalized": "(a,a)-\u003ePair a",
@@ -1944,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "uncurryP",
           "package": "functor-combo",
@@ -1953,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "uncurryP",
           "normalized": "(a-\u003ea-\u003eb)-\u003ePair a-\u003eb",
@@ -1967,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "unzipA",
           "package": "functor-combo",
@@ -1976,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "unzipA",
           "normalized": "a(Pair b)-\u003ePair(a b)",
@@ -1990,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Pair",
           "name": "zipA",
           "package": "functor-combo",
@@ -1999,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Pair",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Pair",
           "name": "zipA",
           "normalized": "Pair(a b)-\u003ea(Pair b)",
@@ -2014,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposable parallel scanning from\n \u003ca\u003ehttp://conal.net/blog/posts/composable-parallel-scanning/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "ParScan",
           "package": "functor-combo",
@@ -2023,6 +2198,7 @@
         "index": {
           "description": "Composable parallel scanning from http conal.net blog posts composable-parallel-scanning",
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "ParScan",
           "package": "functor-combo",
@@ -2036,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "PreScanO",
           "package": "functor-combo",
@@ -2044,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "PreScanO",
           "package": "functor-combo",
@@ -2058,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel scans. \u003ccode\u003e\u003ca\u003eprefixScan\u003c/a\u003e\u003c/code\u003e accumulates moving left-to-right, while\n \u003ccode\u003e\u003ca\u003esuffixScan\u003c/a\u003e\u003c/code\u003e accumulates moving right-to-left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "Scan",
           "package": "functor-combo",
@@ -2067,6 +2246,7 @@
         "index": {
           "description": "Parallel scans prefixScan accumulates moving left-to-right while suffixScan accumulates moving right-to-left",
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "Scan",
           "package": "functor-combo",
@@ -2080,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "SufScanO",
           "package": "functor-combo",
@@ -2088,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "SufScanO",
           "package": "functor-combo",
@@ -2101,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "preScanTweak",
           "package": "functor-combo",
@@ -2110,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "preScanTweak",
           "normalized": "(a-\u003eb)-\u003ePreScanO c a-\u003ePreScanO c b",
@@ -2125,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "prefixScan",
           "package": "functor-combo",
@@ -2134,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "prefixScan",
           "normalized": "a b-\u003ePreScanO a b",
@@ -2149,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "prefixScanEnc",
           "package": "functor-combo",
@@ -2158,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "prefixScanEnc",
           "normalized": "a b-\u003ePreScanO a b",
@@ -2173,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "prefixSums",
           "package": "functor-combo",
@@ -2182,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "prefixSums",
           "normalized": "a b-\u003ePreScanO a b",
@@ -2197,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "sufScanTweak",
           "package": "functor-combo",
@@ -2206,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "sufScanTweak",
           "normalized": "(a-\u003eb)-\u003eSufScanO c a-\u003eSufScanO c b",
@@ -2221,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "suffixScan",
           "package": "functor-combo",
@@ -2230,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "suffixScan",
           "normalized": "a b-\u003eSufScanO a b",
@@ -2245,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "suffixScanEnc",
           "package": "functor-combo",
@@ -2254,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "suffixScanEnc",
           "normalized": "a b-\u003eSufScanO a b",
@@ -2269,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ParScan",
           "name": "suffixSums",
           "package": "functor-combo",
@@ -2278,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ParScan",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ParScan",
           "name": "suffixSums",
           "normalized": "a b-\u003eSufScanO a b",
@@ -2294,6 +2492,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRegular data types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Regular",
           "name": "Regular",
           "package": "functor-combo",
@@ -2303,6 +2502,7 @@
         "index": {
           "description": "Regular data types",
           "hierarchy": "FunctorCombo Regular",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Regular",
           "name": "Regular",
           "package": "functor-combo",
@@ -2316,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Regular",
           "name": "Regular",
           "package": "functor-combo",
@@ -2324,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Regular",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Regular",
           "name": "Regular",
           "package": "functor-combo",
@@ -2337,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Regular",
           "name": "unwrap",
           "package": "functor-combo",
@@ -2346,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Regular",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Regular",
           "name": "unwrap",
           "normalized": "a-\u003ePF a a",
@@ -2360,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Regular",
           "name": "wrap",
           "package": "functor-combo",
@@ -2369,6 +2574,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Regular",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Regular",
           "name": "wrap",
           "normalized": "PF a a-\u003ea",
@@ -2384,6 +2590,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict products and sums.Strict\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Strict",
           "name": "Strict",
           "package": "functor-combo",
@@ -2393,6 +2600,7 @@
         "index": {
           "description": "Strict products and sums.Strict",
           "hierarchy": "FunctorCombo Strict",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Strict",
           "name": "Strict",
           "package": "functor-combo",
@@ -2407,6 +2615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Strict",
           "name": ":*!",
           "package": "functor-combo",
@@ -2416,6 +2625,7 @@
         "index": {
           "description": "Strict pair",
           "hierarchy": "FunctorCombo Strict",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Strict",
           "name": ":*!",
           "package": "functor-combo",
@@ -2429,6 +2639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict sum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Strict",
           "name": ":+!",
           "package": "functor-combo",
@@ -2438,6 +2649,7 @@
         "index": {
           "description": "Strict sum",
           "hierarchy": "FunctorCombo Strict",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Strict",
           "name": ":+!",
           "package": "functor-combo",
@@ -2450,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Strict",
           "name": ":*!",
           "package": "functor-combo",
@@ -2459,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Strict",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Strict",
           "name": ":*!",
           "package": "functor-combo",
@@ -2471,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Strict",
           "name": "Left'",
           "package": "functor-combo",
@@ -2480,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Strict",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Strict",
           "name": "Left'",
           "package": "functor-combo",
@@ -2493,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Strict",
           "name": "Right'",
           "package": "functor-combo",
@@ -2502,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo Strict",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Strict",
           "name": "Right'",
           "package": "functor-combo",
@@ -2516,6 +2734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurry on strict pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Strict",
           "name": "curry'",
           "package": "functor-combo",
@@ -2526,6 +2745,7 @@
         "index": {
           "description": "Curry on strict pairs",
           "hierarchy": "FunctorCombo Strict",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Strict",
           "name": "curry'",
           "normalized": "((a*b)-\u003ec)-\u003ea-\u003eb-\u003ec",
@@ -2541,6 +2761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase analysis for strict sums.  Like \u003ccode\u003e\u003ca\u003eeither\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Strict",
           "name": "either'",
           "package": "functor-combo",
@@ -2551,6 +2772,7 @@
         "index": {
           "description": "Case analysis for strict sums Like either",
           "hierarchy": "FunctorCombo Strict",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Strict",
           "name": "either'",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(a c)-\u003eb",
@@ -2566,6 +2788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUncurry on strict pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.Strict",
           "name": "uncurry'",
           "package": "functor-combo",
@@ -2576,6 +2799,7 @@
         "index": {
           "description": "Uncurry on strict pairs",
           "hierarchy": "FunctorCombo Strict",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.Strict",
           "name": "uncurry'",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(a*b)-\u003ec",
@@ -2591,6 +2815,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctor-based memo tries (strict for now)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "StrictMemo",
           "package": "functor-combo",
@@ -2600,6 +2825,7 @@
         "index": {
           "description": "Functor-based memo tries strict for now",
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "StrictMemo",
           "package": "functor-combo",
@@ -2614,6 +2840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemo trie from k to v\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": ":-\u003e:",
           "package": "functor-combo",
@@ -2623,6 +2850,7 @@
         "index": {
           "description": "Memo trie from to",
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": ":-\u003e:",
           "package": "functor-combo",
@@ -2636,6 +2864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDomain types with associated memo tries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "HasTrie",
           "package": "functor-combo",
@@ -2645,6 +2874,7 @@
         "index": {
           "description": "Domain types with associated memo tries",
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "HasTrie",
           "package": "functor-combo",
@@ -2658,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "TrieTree",
           "package": "functor-combo",
@@ -2666,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "TrieTree",
           "package": "functor-combo",
@@ -2680,6 +2912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndexing. Synonym for \u003ccode\u003e\u003ca\u003euntrie\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "(!)",
           "package": "functor-combo",
@@ -2690,6 +2923,7 @@
         "index": {
           "description": "Indexing Synonym for untrie",
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "(!) !",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -2704,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "B",
           "package": "functor-combo",
@@ -2713,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "B",
           "normalized": "(a-\u003eTrieTree b a c)-\u003eTrieTree(S b)a c",
@@ -2727,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "L",
           "package": "functor-combo",
@@ -2736,6 +2973,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "L",
           "normalized": "a-\u003eTrieTree Z b a",
@@ -2750,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "idTrie",
           "package": "functor-combo",
@@ -2759,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "idTrie",
           "normalized": "a-\u003ea",
@@ -2775,6 +3015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrie-based function memoizer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "memo",
           "package": "functor-combo",
@@ -2785,6 +3026,7 @@
         "index": {
           "description": "Trie-based function memoizer",
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "memo",
           "normalized": "Unop(a-\u003eb)",
@@ -2800,6 +3042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a binary function, on its first argument and then on its\n second.  Take care to exploit any partial evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "memo2",
           "package": "functor-combo",
@@ -2810,6 +3053,7 @@
         "index": {
           "description": "Memoize binary function on its first argument and then on its second Take care to exploit any partial evaluation",
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "memo2",
           "normalized": "Unop(a-\u003eb-\u003ec)",
@@ -2825,6 +3069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a ternary function on successive arguments.  Take care to\n exploit any partial evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "memo3",
           "package": "functor-combo",
@@ -2835,6 +3080,7 @@
         "index": {
           "description": "Memoize ternary function on successive arguments Take care to exploit any partial evaluation",
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "memo3",
           "normalized": "Unop(a-\u003eb-\u003ec-\u003ed)",
@@ -2849,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "onUntrie",
           "package": "functor-combo",
@@ -2858,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "onUntrie",
           "normalized": "((a-\u003eb)-\u003ec-\u003ed)-\u003e(a-\u003eb)-\u003ec-\u003ed",
@@ -2873,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "onUntrie2",
           "package": "functor-combo",
@@ -2882,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "onUntrie2",
           "normalized": "((a-\u003eb)-\u003e(c-\u003ed)-\u003ee-\u003ef)-\u003e(a-\u003eb)-\u003e(c-\u003ed)-\u003ee-\u003ef",
@@ -2898,6 +3148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the trie for the entire domain of a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "trie",
           "package": "functor-combo",
@@ -2908,6 +3159,7 @@
         "index": {
           "description": "Create the trie for the entire domain of function",
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "trie",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -2923,6 +3175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert k trie to k function, i.e., access k field of the trie\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.StrictMemo",
           "name": "untrie",
           "package": "functor-combo",
@@ -2933,6 +3186,7 @@
         "index": {
           "description": "Convert trie to function i.e access field of the trie",
           "hierarchy": "FunctorCombo StrictMemo",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.StrictMemo",
           "name": "untrie",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -2948,6 +3202,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eZippers for functor fixpoints\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperFix",
           "name": "ZipperFix",
           "package": "functor-combo",
@@ -2957,6 +3212,7 @@
         "index": {
           "description": "Zippers for functor fixpoints",
           "hierarchy": "FunctorCombo ZipperFix",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperFix",
           "name": "ZipperFix",
           "package": "functor-combo",
@@ -2971,6 +3227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext for functor fixpoints\n\u003c/p\u003e\u003cp\u003eContext for a regular type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperFix",
           "name": "Context",
           "package": "functor-combo",
@@ -2980,6 +3237,7 @@
         "index": {
           "description": "Context for functor fixpoints Context for regular type",
           "hierarchy": "FunctorCombo ZipperFix",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperFix",
           "name": "Context",
           "package": "functor-combo",
@@ -2994,6 +3252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZipper for a functor tree.  Also called \"location\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperFix",
           "name": "Zipper",
           "package": "functor-combo",
@@ -3003,6 +3262,7 @@
         "index": {
           "description": "Zipper for functor tree Also called location",
           "hierarchy": "FunctorCombo ZipperFix",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperFix",
           "name": "Zipper",
           "package": "functor-combo",
@@ -3016,6 +3276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperFix",
           "name": "down",
           "package": "functor-combo",
@@ -3025,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ZipperFix",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperFix",
           "name": "down",
           "normalized": "Zipper a-\u003ea(Zipper a)",
@@ -3040,6 +3302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove upward.  Error if empty context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperFix",
           "name": "up",
           "package": "functor-combo",
@@ -3050,6 +3313,7 @@
         "index": {
           "description": "Move upward Error if empty context",
           "hierarchy": "FunctorCombo ZipperFix",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperFix",
           "name": "up",
           "normalized": "Zipper a-\u003eZipper a",
@@ -3065,6 +3329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eup\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if empty context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperFix",
           "name": "up'",
           "package": "functor-combo",
@@ -3075,6 +3340,7 @@
         "index": {
           "description": "Variant of up Nothing if empty context",
           "hierarchy": "FunctorCombo ZipperFix",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperFix",
           "name": "up'",
           "normalized": "Zipper a-\u003eMaybe(Zipper a)",
@@ -3089,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperReg",
           "name": "ZipperReg",
           "package": "functor-combo",
@@ -3097,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ZipperReg",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperReg",
           "name": "ZipperReg",
           "package": "functor-combo",
@@ -3111,6 +3379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext for a regular type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperReg",
           "name": "Context",
           "package": "functor-combo",
@@ -3120,6 +3389,7 @@
         "index": {
           "description": "Context for regular type",
           "hierarchy": "FunctorCombo ZipperReg",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperReg",
           "name": "Context",
           "package": "functor-combo",
@@ -3134,6 +3404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZipper for a regular type.  Also called \"location\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperReg",
           "name": "Zipper",
           "package": "functor-combo",
@@ -3143,6 +3414,7 @@
         "index": {
           "description": "Zipper for regular type Also called location",
           "hierarchy": "FunctorCombo ZipperReg",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperReg",
           "name": "Zipper",
           "package": "functor-combo",
@@ -3156,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperReg",
           "name": "down",
           "package": "functor-combo",
@@ -3165,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "FunctorCombo ZipperReg",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperReg",
           "name": "down",
           "normalized": "Zipper a-\u003ePF a(Zipper a)",
@@ -3180,6 +3454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove upward.  Error if empty context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperReg",
           "name": "up",
           "package": "functor-combo",
@@ -3190,6 +3465,7 @@
         "index": {
           "description": "Move upward Error if empty context",
           "hierarchy": "FunctorCombo ZipperReg",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperReg",
           "name": "up",
           "normalized": "Zipper a-\u003eZipper a",
@@ -3205,6 +3481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eup\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if empty context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:33 UTC 2014",
           "module": "FunctorCombo.ZipperReg",
           "name": "up'",
           "package": "functor-combo",
@@ -3215,6 +3492,7 @@
         "index": {
           "description": "Variant of up Nothing if empty context",
           "hierarchy": "FunctorCombo ZipperReg",
+          "indexed": "2014-03-11T18:13:33",
           "module": "FunctorCombo.ZipperReg",
           "name": "up'",
           "normalized": "Zipper a-\u003eMaybe(Zipper a)",

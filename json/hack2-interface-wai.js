@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack2-interface-wai"
+        "phrase": "hack2-interface-wai",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:12 UTC 2014",
           "module": "Hack2.Interface.Wai",
           "name": "Wai",
           "package": "hack2-interface-wai",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Interface Wai",
+          "indexed": "2014-03-11T18:26:12",
           "module": "Hack2.Interface.Wai",
           "name": "Wai",
           "package": "hack2-interface-wai",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:12 UTC 2014",
           "module": "Hack2.Interface.Wai",
           "name": "hackAppToWaiApp",
           "package": "hack2-interface-wai",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Interface Wai",
+          "indexed": "2014-03-11T18:26:12",
           "module": "Hack2.Interface.Wai",
           "name": "hackAppToWaiApp",
           "normalized": "Application-\u003eApplication",

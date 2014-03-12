@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "generic-server"
+        "phrase": "generic-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "GenericServer",
           "package": "generic-server",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "GenericServer",
           "package": "generic-server",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "Server",
           "package": "generic-server",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "Server",
           "package": "generic-server",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "fromResponse",
           "package": "generic-server",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "fromResponse",
           "normalized": "a-\u003eResponse a-\u003eByteString",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun TCP/IP server with any worker funciton\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "genericServer",
           "package": "generic-server",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Run TCP IP server with any worker funciton",
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "genericServer",
           "normalized": "Int-\u003e(Handle-\u003eIO ByteString)-\u003e(ByteString-\u003eIO ByteString)-\u003eIO()",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "getServer",
           "package": "generic-server",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "getServer",
           "normalized": "a-\u003eIO a",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "putServer",
           "package": "generic-server",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "putServer",
           "normalized": "a-\u003eIO()",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "readUntilEmptyLine",
           "package": "generic-server",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "readUntilEmptyLine",
           "normalized": "Handle-\u003eIO ByteString",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "requestReader",
           "package": "generic-server",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "requestReader",
           "normalized": "a-\u003eHandle-\u003eIO ByteString",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "server",
           "package": "generic-server",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "server",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "toRequest",
           "package": "generic-server",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "toRequest",
           "normalized": "a-\u003eByteString-\u003eRequest a",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead given amount of bytes from socket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "waitData",
           "package": "generic-server",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Read given amount of bytes from socket",
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "waitData",
           "normalized": "Int-\u003eInt-\u003eIO ByteString",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "worker",
           "package": "generic-server",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "worker",
           "normalized": "a-\u003eRequest a-\u003eIO(Response a,a)",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:58 UTC 2014",
           "module": "Network.GenericServer",
           "name": "wrap",
           "package": "generic-server",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Network GenericServer",
+          "indexed": "2014-03-11T18:14:58",
           "module": "Network.GenericServer",
           "name": "wrap",
           "normalized": "(a-\u003eIO b)-\u003ec-\u003ea-\u003eIO(b,c)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "salvia"
+        "phrase": "salvia",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Banner",
           "name": "Banner",
           "package": "salvia",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Banner",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Banner",
           "name": "Banner",
           "package": "salvia",
@@ -65,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Body",
           "name": "Body",
           "package": "salvia",
@@ -73,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Body",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Body",
           "name": "Body",
           "package": "salvia",
@@ -402,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.CGI",
           "name": "CGI",
           "package": "salvia",
@@ -410,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler CGI",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.CGI",
           "name": "CGI",
           "package": "salvia",
@@ -450,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Close",
           "name": "Close",
           "package": "salvia",
@@ -458,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Close",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Close",
           "name": "Close",
           "package": "salvia",
@@ -472,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty the send queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Close",
           "name": "emptyQueue",
           "package": "salvia",
@@ -482,6 +491,7 @@
         "index": {
           "description": "Empty the send queue",
           "hierarchy": "Network Salvia Handler Close",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Close",
           "name": "emptyQueue",
           "normalized": "a()",
@@ -551,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Cookie",
           "name": "Cookie",
           "package": "salvia",
@@ -559,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Cookie",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Cookie",
           "name": "Cookie",
           "package": "salvia",
@@ -679,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRendering of HTML directory listings. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Directory",
           "name": "Directory",
           "package": "salvia",
@@ -688,6 +701,7 @@
         "index": {
           "description": "Rendering of HTML directory listings",
           "hierarchy": "Network Salvia Handler Directory",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Directory",
           "name": "Directory",
           "package": "salvia",
@@ -754,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Dispatching",
           "name": "Dispatching",
           "package": "salvia",
@@ -762,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Dispatching",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Dispatching",
           "name": "Dispatching",
           "package": "salvia",
@@ -776,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dispatcher type takes one value to dispatch on and two handlers. The first\nhandler will be used when the predicate on the dispatch value returned \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e,\nthe second (default) handler will be used when the predicate returs\n\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Dispatching",
           "name": "Dispatcher",
           "package": "salvia",
@@ -785,6 +802,7 @@
         "index": {
           "description": "The dispatcher type takes one value to dispatch on and two handlers The first handler will be used when the predicate on the dispatch value returned True the second default handler will be used when the predicate returs False",
           "hierarchy": "Network Salvia Handler Dispatching",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Dispatching",
           "name": "Dispatcher",
           "package": "salvia",
@@ -799,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list dispatcher takes a mapping from dispatch values to handlers and one\ndefault fallback handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Dispatching",
           "name": "ListDispatcher",
           "package": "salvia",
@@ -808,6 +827,7 @@
         "index": {
           "description": "list dispatcher takes mapping from dispatch values to handlers and one default fallback handler",
           "hierarchy": "Network Salvia Handler Dispatching",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Dispatching",
           "name": "ListDispatcher",
           "package": "salvia",
@@ -903,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the \u003ccode\u003e\u003ca\u003ehDispatch\u003c/a\u003e\u003c/code\u003e but always dispatches on a (part of) the `HTTP\nResponse' part of the context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Dispatching",
           "name": "hResponseDispatch",
           "package": "salvia",
@@ -913,6 +934,7 @@
         "index": {
           "description": "Like the hDispatch but always dispatches on part of the HTTP Response part of the context",
           "hierarchy": "Network Salvia Handler Dispatching",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Dispatching",
           "name": "hResponseDispatch",
           "normalized": "(Http Response-\u003ea)-\u003e(b-\u003ea-\u003eBool)-\u003eDispatcher b c d",
@@ -928,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Environment",
           "name": "Environment",
           "package": "salvia",
@@ -936,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Environment",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Environment",
           "name": "Environment",
           "package": "salvia",
@@ -1001,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Error",
           "name": "Error",
           "package": "salvia",
@@ -1009,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Error",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Error",
           "name": "Error",
           "package": "salvia",
@@ -1023,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility function to easily catch IO errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Error",
           "name": "catchIO",
           "package": "salvia",
@@ -1033,6 +1060,7 @@
         "index": {
           "description": "Utility function to easily catch IO errors",
           "hierarchy": "Network Salvia Handler Error",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Error",
           "name": "catchIO",
           "normalized": "IO a-\u003ea-\u003eb a",
@@ -1156,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Extension",
           "name": "Extension",
           "package": "salvia",
@@ -1164,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Extension",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Extension",
           "name": "Extension",
           "package": "salvia",
@@ -1227,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.File",
           "name": "File",
           "package": "salvia",
@@ -1235,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler File",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.File",
           "name": "File",
           "package": "salvia",
@@ -1436,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eServing parts of the local file system. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.FileSystem",
           "name": "FileSystem",
           "package": "salvia",
@@ -1445,6 +1478,7 @@
         "index": {
           "description": "Serving parts of the local file system",
           "hierarchy": "Network Salvia Handler FileSystem",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.FileSystem",
           "name": "FileSystem",
           "package": "salvia",
@@ -1536,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Head",
           "name": "Head",
           "package": "salvia",
@@ -1544,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Head",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Head",
           "name": "Head",
           "package": "salvia",
@@ -1584,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Log",
           "name": "Log",
           "package": "salvia",
@@ -1592,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Log",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Log",
           "name": "Log",
           "package": "salvia",
@@ -1686,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Method",
           "name": "Method",
           "package": "salvia",
@@ -1694,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Method",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Method",
           "name": "Method",
           "package": "salvia",
@@ -1759,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Parser",
           "name": "Parser",
           "package": "salvia",
@@ -1767,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Parser",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Parser",
           "name": "Parser",
           "package": "salvia",
@@ -1883,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Path",
           "name": "Path",
           "package": "salvia",
@@ -1891,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Path",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Path",
           "name": "Path",
           "package": "salvia",
@@ -2029,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Printer",
           "name": "Printer",
           "package": "salvia",
@@ -2037,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Printer",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Printer",
           "name": "Printer",
           "package": "salvia",
@@ -2239,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Put",
           "name": "Put",
           "package": "salvia",
@@ -2247,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Put",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Put",
           "name": "Put",
           "package": "salvia",
@@ -2341,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Range",
           "name": "Range",
           "package": "salvia",
@@ -2349,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Range",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Range",
           "name": "Range",
           "package": "salvia",
@@ -2363,6 +2413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP Range datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Range",
           "name": "Range",
           "package": "salvia",
@@ -2372,6 +2423,7 @@
         "index": {
           "description": "HTTP Range datatype",
           "hierarchy": "Network Salvia Handler Range",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Range",
           "name": "Range",
           "package": "salvia",
@@ -2487,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Redirect",
           "name": "Redirect",
           "package": "salvia",
@@ -2495,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Redirect",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Redirect",
           "name": "Redirect",
           "package": "salvia",
@@ -2535,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Rewrite",
           "name": "Rewrite",
           "package": "salvia",
@@ -2543,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Rewrite",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Rewrite",
           "name": "Rewrite",
           "package": "salvia",
@@ -2557,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a handler in a local environment in which the \u003ccode\u003eHTTP\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e has\nbeen modified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.Rewrite",
           "name": "hLocalRequest",
           "package": "salvia",
@@ -2567,6 +2624,7 @@
         "index": {
           "description": "Run handler in local environment in which the HTTP Request has been modified",
           "hierarchy": "Network Salvia Handler Rewrite",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.Rewrite",
           "name": "hLocalRequest",
           "normalized": "(Http Request-\u003ea)-\u003e(a-\u003ea)-\u003eb c-\u003eb c",
@@ -2744,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handler.VirtualHosting",
           "name": "VirtualHosting",
           "package": "salvia",
@@ -2752,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler VirtualHosting",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handler.VirtualHosting",
           "name": "VirtualHosting",
           "package": "salvia",
@@ -2815,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handlers",
           "name": "Handlers",
           "package": "salvia",
@@ -2823,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handlers",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handlers",
           "name": "Handlers",
           "package": "salvia",
@@ -2837,6 +2899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dispatcher type takes one value to dispatch on and two handlers. The first\nhandler will be used when the predicate on the dispatch value returned \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e,\nthe second (default) handler will be used when the predicate returs\n\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handlers",
           "name": "Dispatcher",
           "package": "salvia",
@@ -2846,6 +2909,7 @@
         "index": {
           "description": "The dispatcher type takes one value to dispatch on and two handlers The first handler will be used when the predicate on the dispatch value returned True the second default handler will be used when the predicate returs False",
           "hierarchy": "Network Salvia Handlers",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handlers",
           "name": "Dispatcher",
           "package": "salvia",
@@ -2860,6 +2924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list dispatcher takes a mapping from dispatch values to handlers and one\ndefault fallback handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handlers",
           "name": "ListDispatcher",
           "package": "salvia",
@@ -2869,6 +2934,7 @@
         "index": {
           "description": "list dispatcher takes mapping from dispatch values to handlers and one default fallback handler",
           "hierarchy": "Network Salvia Handlers",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handlers",
           "name": "ListDispatcher",
           "package": "salvia",
@@ -2883,6 +2949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP Range datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Handlers",
           "name": "Range",
           "package": "salvia",
@@ -2892,6 +2959,7 @@
         "index": {
           "description": "HTTP Range datatype",
           "hierarchy": "Network Salvia Handlers",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Handlers",
           "name": "Range",
           "package": "salvia",
@@ -2905,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Config",
           "name": "Config",
           "package": "salvia",
@@ -2913,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Config",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Config",
           "name": "Config",
           "package": "salvia",
@@ -2927,6 +2997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HTTP server configuration contains some network settings the server needs\nknow before being able to run. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Config",
           "name": "Config",
           "package": "salvia",
@@ -2936,6 +3007,7 @@
         "index": {
           "description": "The HTTP server configuration contains some network settings the server needs know before being able to run",
           "hierarchy": "Network Salvia Impl Config",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Config",
           "name": "Config",
           "package": "salvia",
@@ -2949,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Config",
           "name": "Config",
           "package": "salvia",
@@ -2958,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Config",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Config",
           "name": "Config",
           "package": "salvia",
@@ -2972,6 +3046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer admin email address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Config",
           "name": "adminMail",
           "package": "salvia",
@@ -2982,6 +3057,7 @@
         "index": {
           "description": "Server admin email address",
           "hierarchy": "Network Salvia Impl Config",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Config",
           "name": "adminMail",
           "package": "salvia",
@@ -2996,6 +3072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTCP backlog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Config",
           "name": "backlog",
           "package": "salvia",
@@ -3006,6 +3083,7 @@
         "index": {
           "description": "TCP backlog",
           "hierarchy": "Network Salvia Impl Config",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Config",
           "name": "backlog",
           "package": "salvia",
@@ -3019,6 +3097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default server configuration sets some safe default values. The server will\nby default bind to 0.0.0.0 (\u003ccode\u003e\u003ca\u003eiNADDR_ANY\u003c/a\u003e\u003c/code\u003e) at port 8080. The default value for\nthe TCP backlog is 64.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Config",
           "name": "defaultConfig",
           "package": "salvia",
@@ -3029,6 +3108,7 @@
         "index": {
           "description": "The default server configuration sets some safe default values The server will by default bind to iNADDR ANY at port The default value for the TCP backlog is",
           "hierarchy": "Network Salvia Impl Config",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Config",
           "name": "defaultConfig",
           "package": "salvia",
@@ -3043,6 +3123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer hostname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Config",
           "name": "hostname",
           "package": "salvia",
@@ -3053,6 +3134,7 @@
         "index": {
           "description": "Server hostname",
           "hierarchy": "Network Salvia Impl Config",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Config",
           "name": "hostname",
           "package": "salvia",
@@ -3066,6 +3148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddress port combinations to listen on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Config",
           "name": "listenOn",
           "package": "salvia",
@@ -3076,6 +3159,7 @@
         "index": {
           "description": "Address port combinations to listen on",
           "hierarchy": "Network Salvia Impl Config",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Config",
           "name": "listenOn",
           "normalized": "[SockAddr]",
@@ -3091,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "Context",
           "package": "salvia",
@@ -3099,6 +3184,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "Context",
           "package": "salvia",
@@ -3113,6 +3199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic handler context that contains all the information needed by the\nrequest handlers to perform their task and to set up a proper response. All the\nfields in the context are accessible using the first class labels defined\nbelow. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "Context",
           "package": "salvia",
@@ -3122,6 +3209,7 @@
         "index": {
           "description": "generic handler context that contains all the information needed by the request handlers to perform their task and to set up proper response All the fields in the context are accessible using the first class labels defined below",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "Context",
           "package": "salvia",
@@ -3135,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "Context",
           "package": "salvia",
@@ -3144,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "Context",
           "package": "salvia",
@@ -3157,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cAdminMail",
           "package": "salvia",
@@ -3166,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cAdminMail",
           "package": "salvia",
@@ -3179,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cClientAddr",
           "package": "salvia",
@@ -3188,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cClientAddr",
           "package": "salvia",
@@ -3201,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cHandle",
           "package": "salvia",
@@ -3210,6 +3305,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cHandle",
           "package": "salvia",
@@ -3223,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cListenOn",
           "package": "salvia",
@@ -3232,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cListenOn",
           "normalized": "[SockAddr]",
@@ -3247,6 +3345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cPayload",
           "package": "salvia",
@@ -3256,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cPayload",
           "package": "salvia",
@@ -3269,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cQueue",
           "package": "salvia",
@@ -3278,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cQueue",
           "package": "salvia",
@@ -3291,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cRawRequest",
           "package": "salvia",
@@ -3300,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cRawRequest",
           "package": "salvia",
@@ -3313,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cRawResponse",
           "package": "salvia",
@@ -3322,6 +3427,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cRawResponse",
           "package": "salvia",
@@ -3335,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cRequest",
           "package": "salvia",
@@ -3344,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cRequest",
           "package": "salvia",
@@ -3357,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cResponse",
           "package": "salvia",
@@ -3366,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cResponse",
           "package": "salvia",
@@ -3379,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cServerAddr",
           "package": "salvia",
@@ -3388,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cServerAddr",
           "package": "salvia",
@@ -3401,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cServerHost",
           "package": "salvia",
@@ -3410,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cServerHost",
           "package": "salvia",
@@ -3423,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cSocket",
           "package": "salvia",
@@ -3432,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "_cSocket",
           "package": "salvia",
@@ -3446,6 +3562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mail address of the server adminstrator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cAdminMail",
           "package": "salvia",
@@ -3456,6 +3573,7 @@
         "index": {
           "description": "The mail address of the server adminstrator",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cAdminMail",
           "normalized": "Context a-\u003eString",
@@ -3472,6 +3590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClient address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cClientAddr",
           "package": "salvia",
@@ -3482,6 +3601,7 @@
         "index": {
           "description": "Client address",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cClientAddr",
           "normalized": "Context a-\u003eSockAddr",
@@ -3498,6 +3618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile descriptor associated with socket for the connection to the peer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cHandle",
           "package": "salvia",
@@ -3508,6 +3629,7 @@
         "index": {
           "description": "File descriptor associated with socket for the connection to the peer",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cHandle",
           "normalized": "Context a-\u003eHandle",
@@ -3524,6 +3646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe socket address(es) the server is listening on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cListenOn",
           "package": "salvia",
@@ -3534,6 +3657,7 @@
         "index": {
           "description": "The socket address es the server is listening on",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cListenOn",
           "normalized": "Context a-\u003e[SockAddr]",
@@ -3550,6 +3674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection wide payload.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cPayload",
           "package": "salvia",
@@ -3560,6 +3685,7 @@
         "index": {
           "description": "Connection wide payload",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cPayload",
           "normalized": "Context a-\u003ea",
@@ -3576,6 +3702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe queue of send actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cQueue",
           "package": "salvia",
@@ -3586,6 +3713,7 @@
         "index": {
           "description": "The queue of send actions",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cQueue",
           "normalized": "Context a-\u003eSendQueue",
@@ -3602,6 +3730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unaltered HTTP request header as received from a client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cRawRequest",
           "package": "salvia",
@@ -3612,6 +3741,7 @@
         "index": {
           "description": "The unaltered HTTP request header as received from client",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cRawRequest",
           "normalized": "Context a-\u003eHttp Request",
@@ -3628,6 +3758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe plain HTTP response header unaffected by local rewriting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cRawResponse",
           "package": "salvia",
@@ -3638,6 +3769,7 @@
         "index": {
           "description": "The plain HTTP response header unaffected by local rewriting",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cRawResponse",
           "normalized": "Context a-\u003eHttp Response",
@@ -3654,6 +3786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HTTP request header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cRequest",
           "package": "salvia",
@@ -3664,6 +3797,7 @@
         "index": {
           "description": "The HTTP request header",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cRequest",
           "normalized": "Context a-\u003eHttp Request",
@@ -3680,6 +3814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HTTP response header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cResponse",
           "package": "salvia",
@@ -3690,6 +3825,7 @@
         "index": {
           "description": "The HTTP response header",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cResponse",
           "normalized": "Context a-\u003eHttp Response",
@@ -3706,6 +3842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cServerAddr",
           "package": "salvia",
@@ -3716,6 +3853,7 @@
         "index": {
           "description": "Server address",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cServerAddr",
           "normalized": "Context a-\u003eSockAddr",
@@ -3732,6 +3870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server hostname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cServerHost",
           "package": "salvia",
@@ -3742,6 +3881,7 @@
         "index": {
           "description": "The server hostname",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cServerHost",
           "normalized": "Context a-\u003eString",
@@ -3758,6 +3898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw socket for connection to the peer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Context",
           "name": "cSocket",
           "package": "salvia",
@@ -3768,6 +3909,7 @@
         "index": {
           "description": "Raw socket for connection to the peer",
           "hierarchy": "Network Salvia Impl Context",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Context",
           "name": "cSocket",
           "normalized": "Context a-\u003eSocket",
@@ -3783,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Handler",
           "name": "Handler",
           "package": "salvia",
@@ -3791,6 +3934,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Handler",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Handler",
           "name": "Handler",
           "package": "salvia",
@@ -3804,6 +3948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Handler",
           "name": "Handler",
           "package": "salvia",
@@ -3812,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Handler",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Handler",
           "name": "Handler",
           "package": "salvia",
@@ -3825,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Handler",
           "name": "Handler",
           "package": "salvia",
@@ -3834,6 +3981,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Handler",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Handler",
           "name": "Handler",
           "package": "salvia",
@@ -3847,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Handler",
           "name": "runHandler",
           "package": "salvia",
@@ -3856,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Handler",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Handler",
           "name": "runHandler",
           "normalized": "Handler a b-\u003eContext a-\u003eIO(b,Context a)",
@@ -3871,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Handler",
           "name": "unHandler",
           "package": "salvia",
@@ -3880,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Handler",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Handler",
           "name": "unHandler",
           "package": "salvia",
@@ -3893,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Server",
           "name": "Server",
           "package": "salvia",
@@ -3901,6 +4054,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl Server",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Server",
           "name": "Server",
           "package": "salvia",
@@ -3915,6 +4069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etodo:\nStart a webserver with a specific server configuration and default handler. The\nserver will go into an infinite loop and will repeatedly accept client\nconnections on the address and port specified in the configuration. For every\nconnection the specified handler will be executed with the client address and\nsocket stored in the handler context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl.Server",
           "name": "start",
           "package": "salvia",
@@ -3925,6 +4080,7 @@
         "index": {
           "description": "todo Start webserver with specific server configuration and default handler The server will go into an infinite loop and will repeatedly accept client connections on the address and port specified in the configuration For every connection the specified handler will be executed with the client address and socket stored in the handler context",
           "hierarchy": "Network Salvia Impl Server",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl.Server",
           "name": "start",
           "normalized": "Config-\u003eHandler a()-\u003ea-\u003eIO()",
@@ -3939,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Impl",
           "name": "Impl",
           "package": "salvia",
@@ -3947,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Impl",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Impl",
           "name": "Impl",
           "package": "salvia",
@@ -3961,6 +4119,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis interface module contains all the basic operations to access the server\ncontext. The interface is just of bunch of type classes that allow access to\nthe request and response objects. Most type classes allow access to the context\ninformation through lifted state computations. To dig deeper into the context\nobject you would probably want to use the derived \u003cem\u003efclabels\u003c/em\u003e accessors.\n\u003c/p\u003e\u003cp\u003eExample 1: To get the entire request object:\n\u003c/p\u003e\u003cpre\u003e do r \u003c- request get  -- Control.Monad.State.get\n\u003c/pre\u003e\u003cp\u003eExample 2: To get the request URI as a string:\n\u003c/p\u003e\u003cpre\u003e do r \u003c- request (getM uri) -- getM from Data.Record.Label\n\u003c/pre\u003e\u003cp\u003eExample 3: To get the query parameters and the \u003cem\u003eUser-Agent\u003c/em\u003e header:\n\u003c/p\u003e\u003cpre\u003e do request $\n      do q \u003c- getM (queryParams . asUri)  -- composed labels using the (.) from Control.Category.\n         u \u003c- header \"user-agent\"\n         return (q, u)\n\u003c/pre\u003e\u003cp\u003eExample 4: To set the \u003cem\u003eContent-Type\u003c/em\u003e and response status and send some string.\n\u003c/p\u003e\u003cpre\u003e do response $\n      do status =: BadRequest    -- the (=:) operator from Data.Record.Label\n         header \"content-type\" =: \"text/plain\"\n    send \"hello, world\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "Interface",
           "package": "salvia",
@@ -3970,6 +4129,7 @@
         "index": {
           "description": "This interface module contains all the basic operations to access the server context The interface is just of bunch of type classes that allow access to the request and response objects Most type classes allow access to the context information through lifted state computations To dig deeper into the context object you would probably want to use the derived fclabels accessors Example To get the entire request object do request get Control.Monad.State.get Example To get the request URI as string do request getM uri getM from Data.Record.Label Example To get the query parameters and the User-Agent header do request do getM queryParams asUri composed labels using the from Control.Category header user-agent return Example To set the Content-Type and response status and send some string do response do status BadRequest the operator from Data.Record.Label header content-type text plain send hello world",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "Interface",
           "package": "salvia",
@@ -3984,6 +4144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class alias indicating an instances for both \u003ccode\u003e\u003ca\u003eClientAddressM\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eServerAddressM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "AddressM'",
           "package": "salvia",
@@ -3993,6 +4154,7 @@
         "index": {
           "description": "Type class alias indicating an instances for both ClientAddressM and ServerAddressM",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "AddressM'",
           "package": "salvia",
@@ -4006,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "BodyM",
           "package": "salvia",
@@ -4014,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "BodyM",
           "package": "salvia",
@@ -4028,6 +4192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eClientAddressM\u003c/a\u003e\u003c/code\u003e type class gives access to socket address of the\n client part of the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "ClientAddressM",
           "package": "salvia",
@@ -4037,6 +4202,7 @@
         "index": {
           "description": "The ClientAddressM type class gives access to socket address of the client part of the connection",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "ClientAddressM",
           "package": "salvia",
@@ -4050,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "Contains",
           "package": "salvia",
@@ -4058,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "Contains",
           "package": "salvia",
@@ -4072,6 +4240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFlushM\u003c/a\u003e\u003c/code\u003e type class can be used to flush the message headers and the\n message body directly over the wire to the other endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "FlushM",
           "package": "salvia",
@@ -4081,6 +4250,7 @@
         "index": {
           "description": "The FlushM type class can be used to flush the message headers and the message body directly over the wire to the other endpoint",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "FlushM",
           "package": "salvia",
@@ -4094,6 +4264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "ForkM",
           "package": "salvia",
@@ -4102,6 +4273,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "ForkM",
           "package": "salvia",
@@ -4116,6 +4288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eHandleM\u003c/a\u003e\u003c/code\u003e type class allows access to the file handle, probabaly\n associated with the socket to the peer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "HandleM",
           "package": "salvia",
@@ -4125,6 +4298,7 @@
         "index": {
           "description": "The HandleM type class allows access to the file handle probabaly associated with the socket to the peer",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "HandleM",
           "package": "salvia",
@@ -4139,6 +4313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etodo: comment:\n The \u003ccode\u003e\u003ca\u003eQueueM\u003c/a\u003e\u003c/code\u003e type class allows for queing actions for sending data values\n over the wire. Using a queue for collecting send actions instead of directly\n sending values over the socket allows for a more modular client or server\n layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "HandleQueueM",
           "package": "salvia",
@@ -4148,6 +4323,7 @@
         "index": {
           "description": "todo comment The QueueM type class allows for queing actions for sending data values over the wire Using queue for collecting send actions instead of directly sending values over the socket allows for more modular client or server layout",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "HandleQueueM",
           "package": "salvia",
@@ -4162,6 +4338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eHttpM\u003c/a\u003e\u003c/code\u003e type class indicates is parametrized with the directon\n (\u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e) for which the implementation should be able to\n supply and modify the values. The \u003ccode\u003e\u003ca\u003ehttp\u003c/a\u003e\u003c/code\u003e method allow for running arbitrary\n state computations over the request or response objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "HttpM",
           "package": "salvia",
@@ -4171,6 +4348,7 @@
         "index": {
           "description": "The HttpM type class indicates is parametrized with the directon Request or Response for which the implementation should be able to supply and modify the values The http method allow for running arbitrary state computations over the request or response objects",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "HttpM",
           "package": "salvia",
@@ -4185,6 +4363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class alias indicating an HttpM instance for both requests and\n responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "HttpM'",
           "package": "salvia",
@@ -4194,6 +4373,7 @@
         "index": {
           "description": "Type class alias indicating an HttpM instance for both requests and responses",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "HttpM'",
           "package": "salvia",
@@ -4208,6 +4388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ePayloadM\u003c/a\u003e\u003c/code\u003e type class provides access to the server payload. The\n payload can be an arbitrary piece of data that gets shared between all the\n handlers. Can be used to implement sessions and such. Heterogeneous lists\n implemented as right associated nested tuples can be used to store multiple\n pieces of information and still let individual handlers pick out the right\n thing they need. Picking the right pieces of information from the payload\n can be done with the \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e function from the \u003ccode\u003e\u003ca\u003eContains\u003c/a\u003e\u003c/code\u003e type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "PayloadM",
           "package": "salvia",
@@ -4217,6 +4398,7 @@
         "index": {
           "description": "The PayloadM type class provides access to the server payload The payload can be an arbitrary piece of data that gets shared between all the handlers Can be used to implement sessions and such Heterogeneous lists implemented as right associated nested tuples can be used to store multiple pieces of information and still let individual handlers pick out the right thing they need Picking the right pieces of information from the payload can be done with the select function from the Contains type class",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "PayloadM",
           "package": "salvia",
@@ -4230,6 +4412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "QueueM",
           "package": "salvia",
@@ -4238,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "QueueM",
           "package": "salvia",
@@ -4251,6 +4435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "RawHttpM",
           "package": "salvia",
@@ -4259,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "RawHttpM",
           "package": "salvia",
@@ -4272,6 +4458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "RawHttpM'",
           "package": "salvia",
@@ -4280,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "RawHttpM'",
           "package": "salvia",
@@ -4293,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "SendAction",
           "package": "salvia",
@@ -4301,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "SendAction",
           "package": "salvia",
@@ -4314,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "SendM",
           "package": "salvia",
@@ -4322,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "SendM",
           "package": "salvia",
@@ -4336,6 +4528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe send queue is an abstraction to make sure all data that belongs to the\nmessage body is sent after the response headers have been sent.  Instead of\nsending data to client directly over the socket from the context it is\npreferable to queue send actions in the context's send queue. The entire send\nqueue can be flushed to the client at once after the HTTP headers have been\nsent at the end of a request handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "SendQueue",
           "package": "salvia",
@@ -4345,6 +4538,7 @@
         "index": {
           "description": "The send queue is an abstraction to make sure all data that belongs to the message body is sent after the response headers have been sent Instead of sending data to client directly over the socket from the context it is preferable to queue send actions in the context send queue The entire send queue can be flushed to the client at once after the HTTP headers have been sent at the end of request handler",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "SendQueue",
           "package": "salvia",
@@ -4359,6 +4553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eServerAddressM\u003c/a\u003e\u003c/code\u003e type class gives access to socket address of the\n client part of the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "ServerAddressM",
           "package": "salvia",
@@ -4368,6 +4563,7 @@
         "index": {
           "description": "The ServerAddressM type class gives access to socket address of the client part of the connection",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "ServerAddressM",
           "package": "salvia",
@@ -4382,6 +4578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eServerM\u003c/a\u003e\u003c/code\u003e type class can be used to acesss the static server\n configuration like the address/port combination the server listens on and\n the related hostname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "ServerM",
           "package": "salvia",
@@ -4391,6 +4588,7 @@
         "index": {
           "description": "The ServerM type class can be used to acesss the static server configuration like the address port combination the server listens on and the related hostname",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "ServerM",
           "package": "salvia",
@@ -4405,6 +4603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eSocketM\u003c/a\u003e\u003c/code\u003e type class allows access to the raw socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "SocketM",
           "package": "salvia",
@@ -4414,6 +4613,7 @@
         "index": {
           "description": "The SocketM type class allows access to the raw socket",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "SocketM",
           "package": "salvia",
@@ -4427,6 +4627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "SocketQueueM",
           "package": "salvia",
@@ -4435,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "SocketQueueM",
           "package": "salvia",
@@ -4448,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "(&)",
           "package": "salvia",
@@ -4457,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "(&) &",
           "normalized": "a-\u003eb-\u003e(a,b)",
@@ -4471,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "SendAction",
           "package": "salvia",
@@ -4480,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "SendAction",
           "normalized": "SendAction((Socket,Handle)-\u003eIO())",
@@ -4495,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "admin",
           "package": "salvia",
@@ -4504,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "admin",
           "package": "salvia",
@@ -4516,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "body",
           "package": "salvia",
@@ -4525,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "body",
           "normalized": "a-\u003eb ByteString",
@@ -4539,6 +4749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "clientAddress",
           "package": "salvia",
@@ -4548,6 +4759,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "clientAddress",
           "package": "salvia",
@@ -4561,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "dequeue",
           "package": "salvia",
@@ -4570,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "dequeue",
           "package": "salvia",
@@ -4582,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "enqueueHandle",
           "package": "salvia",
@@ -4591,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "enqueueHandle",
           "normalized": "(Handle-\u003eIO())-\u003ea()",
@@ -4606,6 +4822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "enqueueSock",
           "package": "salvia",
@@ -4615,6 +4832,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "enqueueSock",
           "normalized": "(Socket-\u003eIO())-\u003ea()",
@@ -4630,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "flushHeaders",
           "package": "salvia",
@@ -4639,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "flushHeaders",
           "normalized": "a-\u003eb()",
@@ -4654,6 +4874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "flushQueue",
           "package": "salvia",
@@ -4663,6 +4884,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "flushQueue",
           "normalized": "a-\u003eb()",
@@ -4679,6 +4901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStub request and response used to fill in type level gaps for message\n directions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "forRequest",
           "package": "salvia",
@@ -4689,6 +4912,7 @@
         "index": {
           "description": "Stub request and response used to fill in type level gaps for message directions",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "forRequest",
           "package": "salvia",
@@ -4702,6 +4926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "forResponse",
           "package": "salvia",
@@ -4711,6 +4936,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "forResponse",
           "package": "salvia",
@@ -4724,6 +4950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "forkM",
           "package": "salvia",
@@ -4733,6 +4960,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "forkM",
           "normalized": "a b-\u003ea(c b)",
@@ -4747,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "handle",
           "package": "salvia",
@@ -4756,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "handle",
           "package": "salvia",
@@ -4768,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "host",
           "package": "salvia",
@@ -4777,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "host",
           "package": "salvia",
@@ -4789,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "http",
           "package": "salvia",
@@ -4798,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "http",
           "normalized": "State(Http a)b-\u003ec b",
@@ -4812,6 +5046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "listen",
           "package": "salvia",
@@ -4821,6 +5056,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "listen",
           "normalized": "a[SockAddr]",
@@ -4835,6 +5071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "payload",
           "package": "salvia",
@@ -4844,6 +5081,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "payload",
           "normalized": "State a b-\u003ec b",
@@ -4858,6 +5096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "rawHttp",
           "package": "salvia",
@@ -4867,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "rawHttp",
           "normalized": "State(Http a)b-\u003ec b",
@@ -4882,6 +5122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "rawRequest",
           "package": "salvia",
@@ -4891,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "rawRequest",
           "normalized": "State(Http Request)a-\u003eb a",
@@ -4906,6 +5148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "rawResponse",
           "package": "salvia",
@@ -4915,6 +5158,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "rawResponse",
           "normalized": "State(Http Response)a-\u003eb a",
@@ -4931,6 +5175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirection specific aliases for the \u003ccode\u003e\u003ca\u003ehttp\u003c/a\u003e\u003c/code\u003e method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "request",
           "package": "salvia",
@@ -4941,6 +5186,7 @@
         "index": {
           "description": "Direction specific aliases for the http method",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "request",
           "normalized": "State(Http Request)a-\u003eb a",
@@ -4955,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "response",
           "package": "salvia",
@@ -4964,6 +5211,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "response",
           "normalized": "State(Http Response)a-\u003eb a",
@@ -4978,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "select",
           "package": "salvia",
@@ -4987,6 +5236,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "select",
           "normalized": "a-\u003eb",
@@ -5002,6 +5252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnqueue the action of sending one regular Haskell \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e over the wire\n to the other endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "send",
           "package": "salvia",
@@ -5012,6 +5263,7 @@
         "index": {
           "description": "Enqueue the action of sending one regular Haskell String over the wire to the other endpoint",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "send",
           "normalized": "String-\u003ea()",
@@ -5027,6 +5279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnqueue the action of sending one \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e over the wire to the\n other endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "sendBs",
           "package": "salvia",
@@ -5037,6 +5290,7 @@
         "index": {
           "description": "Enqueue the action of sending one ByteString over the wire to the other endpoint",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "sendBs",
           "normalized": "ByteString-\u003ea()",
@@ -5052,6 +5306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "serverAddress",
           "package": "salvia",
@@ -5061,6 +5316,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "serverAddress",
           "package": "salvia",
@@ -5074,6 +5330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "socket",
           "package": "salvia",
@@ -5083,6 +5340,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "socket",
           "package": "salvia",
@@ -5096,6 +5354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnqueue the action of spooling the entire contents of a file handle over\n the wire to the other endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "spool",
           "package": "salvia",
@@ -5106,6 +5365,7 @@
         "index": {
           "description": "Enqueue the action of spooling the entire contents of file handle over the wire to the other endpoint",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "spool",
           "normalized": "Handle-\u003ea()",
@@ -5121,6 +5381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the \u003ccode\u003e\u003ca\u003espool\u003c/a\u003e\u003c/code\u003e function but allows a custom filter over the contents.\n the wire to the other endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "spoolWith",
           "package": "salvia",
@@ -5131,6 +5392,7 @@
         "index": {
           "description": "Like the spool function but allows custom filter over the contents the wire to the other endpoint",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "spoolWith",
           "normalized": "(String-\u003eString)-\u003eHandle-\u003ea()",
@@ -5147,6 +5409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the \u003ccode\u003e\u003ca\u003espoolWith\u003c/a\u003e\u003c/code\u003e function but uses a direct \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e filter\n which might be more efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia.Interface",
           "name": "spoolWithBs",
           "package": "salvia",
@@ -5157,6 +5420,7 @@
         "index": {
           "description": "Like the spoolWith function but uses direct ByteString filter which might be more efficient",
           "hierarchy": "Network Salvia Interface",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia.Interface",
           "name": "spoolWithBs",
           "normalized": "(ByteString-\u003eByteString)-\u003eHandle-\u003ea()",
@@ -5172,6 +5436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:45 UTC 2014",
           "module": "Network.Salvia",
           "name": "Salvia",
           "package": "salvia",
@@ -5180,6 +5445,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia",
+          "indexed": "2014-03-11T19:56:45",
           "module": "Network.Salvia",
           "name": "Salvia",
           "package": "salvia",

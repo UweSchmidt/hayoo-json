@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hedis-simple"
+        "phrase": "hedis-simple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Simple",
           "package": "hedis-simple",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Simple",
           "package": "hedis-simple",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation for connnecting to a Redis server.\n\u003c/p\u003e\u003cp\u003eIt is recommended to not use the \u003ccode\u003e\u003ca\u003eConnInfo\u003c/a\u003e\u003c/code\u003e data constructor directly.\n Instead use \u003ccode\u003e\u003ca\u003edefaultConnectInfo\u003c/a\u003e\u003c/code\u003e and update it with record syntax. For\n example to connect to a password protected Redis server running on localhost\n and listening to the default port:\n\u003c/p\u003e\u003cpre\u003e\n myConnectInfo :: ConnectInfo\n myConnectInfo = defaultConnectInfo {connectAuth = Just \"secret\"}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "ConnectInfo",
           "package": "hedis-simple",
@@ -48,6 +51,7 @@
         "index": {
           "description": "Information for connnecting to Redis server It is recommended to not use the ConnInfo data constructor directly Instead use defaultConnectInfo and update it with record syntax For example to connect to password protected Redis server running on localhost and listening to the default port myConnectInfo ConnectInfo myConnectInfo defaultConnectInfo connectAuth Just secret",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "ConnectInfo",
           "package": "hedis-simple",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA threadsafe pool of network connections to a Redis server. Use the\n  \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e function to create one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Connection",
           "package": "hedis-simple",
@@ -70,6 +75,7 @@
         "index": {
           "description": "threadsafe pool of network connections to Redis server Use the connect function to create one",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Connection",
           "package": "hedis-simple",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "ConnectionLostException",
           "package": "hedis-simple",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "ConnectionLostException",
           "package": "hedis-simple",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Message",
           "package": "hedis-simple",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Message",
           "package": "hedis-simple",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "PortID",
           "package": "hedis-simple",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "PortID",
           "package": "hedis-simple",
@@ -144,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulates subscription changes. Use \u003ccode\u003e\u003ca\u003esubscribe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunsubscribe\u003c/a\u003e\u003c/code\u003e,\n  \u003ccode\u003e\u003ca\u003epsubscribe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epunsubscribe\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e to construct a value. Combine\n  values by using the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e interface, i.e. \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "PubSub",
           "package": "hedis-simple",
@@ -152,6 +165,7 @@
         "index": {
           "description": "Encapsulates subscription changes Use subscribe unsubscribe psubscribe punsubscribe or mempty to construct value Combine values by using the Monoid interface i.e mappend and mconcat",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "PubSub",
           "package": "hedis-simple",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Redis",
           "package": "hedis-simple",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Redis",
           "package": "hedis-simple",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "RedisResult",
           "package": "hedis-simple",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "RedisResult",
           "package": "hedis-simple",
@@ -206,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "RedisTx",
           "package": "hedis-simple",
@@ -214,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "RedisTx",
           "package": "hedis-simple",
@@ -228,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level representation of replies from the Redis server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Reply",
           "package": "hedis-simple",
@@ -236,6 +257,7 @@
         "index": {
           "description": "Low-level representation of replies from the Redis server",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Reply",
           "package": "hedis-simple",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Status",
           "package": "hedis-simple",
@@ -256,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Status",
           "package": "hedis-simple",
@@ -270,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of a \u003ccode\u003e\u003ca\u003emultiExec\u003c/a\u003e\u003c/code\u003e transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "TxResult",
           "package": "hedis-simple",
@@ -278,6 +303,7 @@
         "index": {
           "description": "Result of multiExec transaction",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "TxResult",
           "package": "hedis-simple",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "ConnInfo",
           "package": "hedis-simple",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "ConnInfo",
           "package": "hedis-simple",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Message",
           "package": "hedis-simple",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Message",
           "package": "hedis-simple",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Ok",
           "package": "hedis-simple",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Ok",
           "package": "hedis-simple",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "PMessage",
           "package": "hedis-simple",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "PMessage",
           "package": "hedis-simple",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Pong",
           "package": "hedis-simple",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Pong",
           "package": "hedis-simple",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "PortNumber",
           "package": "hedis-simple",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "PortNumber",
           "package": "hedis-simple",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Redis",
           "package": "hedis-simple",
@@ -426,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Redis",
           "package": "hedis-simple",
@@ -439,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "RedisTx",
           "package": "hedis-simple",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "RedisTx",
           "package": "hedis-simple",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Service",
           "package": "hedis-simple",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Service",
           "package": "hedis-simple",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Status",
           "package": "hedis-simple",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "Status",
           "package": "hedis-simple",
@@ -504,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransaction aborted due to an earlier \u003ccode\u003e\u003ca\u003ewatch\u003c/a\u003e\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "TxAborted",
           "package": "hedis-simple",
@@ -513,6 +560,7 @@
         "index": {
           "description": "Transaction aborted due to an earlier watch command",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "TxAborted",
           "package": "hedis-simple",
@@ -527,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt least one of the commands returned an \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e reply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "TxError",
           "package": "hedis-simple",
@@ -536,6 +585,7 @@
         "index": {
           "description": "At least one of the commands returned an Error reply",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "TxError",
           "package": "hedis-simple",
@@ -550,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransaction completed successfully. The wrapped value corresponds to\n   the \u003ccode\u003e\u003ca\u003eQueued\u003c/a\u003e\u003c/code\u003e value returned from the \u003ccode\u003e\u003ca\u003emultiExec\u003c/a\u003e\u003c/code\u003e argument action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "TxSuccess",
           "package": "hedis-simple",
@@ -559,6 +610,7 @@
         "index": {
           "description": "Transaction completed successfully The wrapped value corresponds to the Queued value returned from the multiExec argument action",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "TxSuccess",
           "package": "hedis-simple",
@@ -572,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "UnixSocket",
           "package": "hedis-simple",
@@ -580,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "UnixSocket",
           "package": "hedis-simple",
@@ -593,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "append",
           "package": "hedis-simple",
@@ -602,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "append",
           "normalized": "ByteString-\u003eByteString-\u003ea Integer",
@@ -616,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "auth",
           "package": "hedis-simple",
@@ -625,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "auth",
           "normalized": "ByteString-\u003eRedis Status",
@@ -639,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "bgRewriteAof",
           "package": "hedis-simple",
@@ -648,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "bgRewriteAof",
           "package": "hedis-simple",
@@ -661,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "bgSave",
           "package": "hedis-simple",
@@ -670,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "bgSave",
           "package": "hedis-simple",
@@ -683,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "bitCount",
           "package": "hedis-simple",
@@ -692,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "bitCount",
           "normalized": "ByteString-\u003ea Integer",
@@ -707,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "bitCountRange",
           "package": "hedis-simple",
@@ -716,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "bitCountRange",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea Integer",
@@ -731,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "bitOpAnd",
           "package": "hedis-simple",
@@ -740,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "bitOpAnd",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -755,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "bitOpNot",
           "package": "hedis-simple",
@@ -764,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "bitOpNot",
           "normalized": "ByteString-\u003eByteString-\u003ea Integer",
@@ -779,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "bitOpOr",
           "package": "hedis-simple",
@@ -788,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "bitOpOr",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -803,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "bitOpXor",
           "package": "hedis-simple",
@@ -812,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "bitOpXor",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -827,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "blPop",
           "package": "hedis-simple",
@@ -836,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "blPop",
           "normalized": "[ByteString]-\u003eInteger-\u003ea(Maybe(ByteString,ByteString))",
@@ -851,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "brPop",
           "package": "hedis-simple",
@@ -860,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "brPop",
           "normalized": "[ByteString]-\u003eInteger-\u003ea(Maybe(ByteString,ByteString))",
@@ -875,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "brPopLPush",
           "package": "hedis-simple",
@@ -884,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "brPopLPush",
           "normalized": "ByteString-\u003eByteString-\u003eInteger-\u003ea(Maybe ByteString)",
@@ -899,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "configGet",
           "package": "hedis-simple",
@@ -908,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "configGet",
           "normalized": "ByteString-\u003ea[(ByteString,ByteString)]",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "configResetStat",
           "package": "hedis-simple",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "configResetStat",
           "package": "hedis-simple",
@@ -945,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "configSet",
           "package": "hedis-simple",
@@ -954,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "configSet",
           "normalized": "ByteString-\u003eByteString-\u003ea Status",
@@ -970,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e to a Redis server designated by the given\n  \u003ccode\u003e\u003ca\u003eConnectInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "connect",
           "package": "hedis-simple",
@@ -979,6 +1066,7 @@
         "index": {
           "description": "Opens Connection to Redis server designated by the given ConnectInfo",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "connect",
           "normalized": "ConnectInfo-\u003eIO Connection",
@@ -994,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the server is protected by a password, set \u003ccode\u003e\u003ca\u003econnectAuth\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e\n   the password. Each connection will then authenticate by the \u003ccode\u003e\u003ca\u003eauth\u003c/a\u003e\u003c/code\u003e\n   command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "connectAuth",
           "package": "hedis-simple",
@@ -1003,6 +1092,7 @@
         "index": {
           "description": "When the server is protected by password set connectAuth to Just the password Each connection will then authenticate by the auth command",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "connectAuth",
           "package": "hedis-simple",
@@ -1016,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "connectHost",
           "package": "hedis-simple",
@@ -1024,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "connectHost",
           "package": "hedis-simple",
@@ -1038,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum number of connections to keep open. The smallest acceptable\n   value is 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "connectMaxConnections",
           "package": "hedis-simple",
@@ -1047,6 +1140,7 @@
         "index": {
           "description": "Maximum number of connections to keep open The smallest acceptable value is",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "connectMaxConnections",
           "package": "hedis-simple",
@@ -1061,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmount of time for which an unused connection is kept open. The\n   smallest acceptable value is 0.5 seconds. If the \u003ccode\u003etimeout\u003c/code\u003e value in\n   your redis.conf file is non-zero, it should be larger than\n   \u003ccode\u003e\u003ca\u003econnectMaxIdleTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "connectMaxIdleTime",
           "package": "hedis-simple",
@@ -1070,6 +1165,7 @@
         "index": {
           "description": "Amount of time for which an unused connection is kept open The smallest acceptable value is seconds If the timeout value in your redis.conf file is non-zero it should be larger than connectMaxIdleTime",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "connectMaxIdleTime",
           "package": "hedis-simple",
@@ -1083,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "connectPort",
           "package": "hedis-simple",
@@ -1091,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "connectPort",
           "package": "hedis-simple",
@@ -1104,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "dbSize",
           "package": "hedis-simple",
@@ -1113,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "dbSize",
           "package": "hedis-simple",
@@ -1126,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "debugObject",
           "package": "hedis-simple",
@@ -1135,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "debugObject",
           "normalized": "ByteString-\u003ea ByteString",
@@ -1150,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "decode",
           "package": "hedis-simple",
@@ -1158,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "decode",
           "normalized": "Reply-\u003eEither Reply a",
@@ -1172,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "decr",
           "package": "hedis-simple",
@@ -1181,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "decr",
           "normalized": "ByteString-\u003ea Integer",
@@ -1195,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "decrBy",
           "package": "hedis-simple",
@@ -1204,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "decrBy",
           "normalized": "ByteString-\u003eInteger-\u003ea Integer",
@@ -1220,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault information for connecting:\n\u003c/p\u003e\u003cpre\u003e\n  connectHost           = \"localhost\"\n  connectPort           = PortNumber 6379 -- Redis default port\n  connectAuth           = Nothing         -- No password\n  connectMaxConnections = 50              -- Up to 50 connections\n  connectMaxIdleTime    = 30              -- Keep open for 30 seconds\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "defaultConnectInfo",
           "package": "hedis-simple",
@@ -1229,6 +1338,7 @@
         "index": {
           "description": "Default information for connecting connectHost localhost connectPort PortNumber Redis default port connectAuth Nothing No password connectMaxConnections Up to connections connectMaxIdleTime Keep open for seconds",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "defaultConnectInfo",
           "package": "hedis-simple",
@@ -1242,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "del",
           "package": "hedis-simple",
@@ -1251,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "del",
           "normalized": "[ByteString]-\u003ea Integer",
@@ -1265,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "dump",
           "package": "hedis-simple",
@@ -1274,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "dump",
           "normalized": "ByteString-\u003ea ByteString",
@@ -1288,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "echo",
           "package": "hedis-simple",
@@ -1297,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "echo",
           "normalized": "ByteString-\u003ea ByteString",
@@ -1311,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "eval",
           "package": "hedis-simple",
@@ -1320,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "eval",
           "normalized": "ByteString-\u003e[ByteString]-\u003e[ByteString]-\u003ea b",
@@ -1334,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "evalSha",
           "package": "hedis-simple",
@@ -1343,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "evalSha",
           "normalized": "ByteString-\u003e[ByteString]-\u003e[ByteString]-\u003ea b",
@@ -1358,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "exists",
           "package": "hedis-simple",
@@ -1367,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "exists",
           "normalized": "ByteString-\u003ea Bool",
@@ -1381,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "expire",
           "package": "hedis-simple",
@@ -1390,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "expire",
           "normalized": "ByteString-\u003eInteger-\u003ea Bool",
@@ -1404,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "expireAt",
           "package": "hedis-simple",
@@ -1413,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "expireAt",
           "normalized": "ByteString-\u003eInteger-\u003ea Bool",
@@ -1428,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "flushAll",
           "package": "hedis-simple",
@@ -1437,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "flushAll",
           "package": "hedis-simple",
@@ -1450,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "flushDb",
           "package": "hedis-simple",
@@ -1459,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "flushDb",
           "package": "hedis-simple",
@@ -1472,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "fromRedis",
           "package": "hedis-simple",
@@ -1481,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "fromRedis",
           "package": "hedis-simple",
@@ -1494,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "fromRedisTx",
           "package": "hedis-simple",
@@ -1503,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "fromRedisTx",
           "package": "hedis-simple",
@@ -1516,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "get",
           "package": "hedis-simple",
@@ -1525,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "get",
           "normalized": "ByteString-\u003ea(Maybe ByteString)",
@@ -1539,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "getBit",
           "package": "hedis-simple",
@@ -1548,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "getBit",
           "normalized": "ByteString-\u003eInteger-\u003ea Integer",
@@ -1563,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "getRange",
           "package": "hedis-simple",
@@ -1572,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "getRange",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea ByteString",
@@ -1587,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "getSet",
           "package": "hedis-simple",
@@ -1596,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "getSet",
           "normalized": "ByteString-\u003eByteString-\u003ea(Maybe ByteString)",
@@ -1611,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "getType",
           "package": "hedis-simple",
@@ -1620,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "getType",
           "normalized": "ByteString-\u003ea RedisType",
@@ -1635,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hDel",
           "package": "hedis-simple",
@@ -1644,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hDel",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -1659,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hExists",
           "package": "hedis-simple",
@@ -1668,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hExists",
           "normalized": "ByteString-\u003eByteString-\u003ea Bool",
@@ -1683,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hGet",
           "package": "hedis-simple",
@@ -1692,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hGet",
           "normalized": "ByteString-\u003eByteString-\u003ea(Maybe ByteString)",
@@ -1707,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hGetAll",
           "package": "hedis-simple",
@@ -1716,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hGetAll",
           "normalized": "ByteString-\u003ea[(ByteString,ByteString)]",
@@ -1731,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hIncrBy",
           "package": "hedis-simple",
@@ -1740,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hIncrBy",
           "normalized": "ByteString-\u003eByteString-\u003eInteger-\u003ea Integer",
@@ -1755,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hIncrByFloat",
           "package": "hedis-simple",
@@ -1764,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hIncrByFloat",
           "normalized": "ByteString-\u003eByteString-\u003eDouble-\u003ea Double",
@@ -1779,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hKeys",
           "package": "hedis-simple",
@@ -1788,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hKeys",
           "normalized": "ByteString-\u003ea[ByteString]",
@@ -1803,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hLen",
           "package": "hedis-simple",
@@ -1812,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hLen",
           "normalized": "ByteString-\u003ea Integer",
@@ -1827,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hMGet",
           "package": "hedis-simple",
@@ -1836,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hMGet",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea[Maybe ByteString]",
@@ -1851,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hMSet",
           "package": "hedis-simple",
@@ -1860,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hMSet",
           "normalized": "ByteString-\u003e[(ByteString,ByteString)]-\u003ea Status",
@@ -1875,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hSet",
           "package": "hedis-simple",
@@ -1884,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hSet",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003ea Bool",
@@ -1899,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hSetNX",
           "package": "hedis-simple",
@@ -1908,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hSetNX",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003ea Bool",
@@ -1923,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "hVals",
           "package": "hedis-simple",
@@ -1932,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "hVals",
           "normalized": "ByteString-\u003ea[ByteString]",
@@ -1947,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "incr",
           "package": "hedis-simple",
@@ -1956,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "incr",
           "normalized": "ByteString-\u003ea Integer",
@@ -1970,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "incrBy",
           "package": "hedis-simple",
@@ -1979,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "incrBy",
           "normalized": "ByteString-\u003eInteger-\u003ea Integer",
@@ -1994,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "incrByFloat",
           "package": "hedis-simple",
@@ -2003,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "incrByFloat",
           "normalized": "ByteString-\u003eDouble-\u003ea Double",
@@ -2018,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "info",
           "package": "hedis-simple",
@@ -2027,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "info",
           "package": "hedis-simple",
@@ -2039,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "keys",
           "package": "hedis-simple",
@@ -2048,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "keys",
           "normalized": "ByteString-\u003ea[ByteString]",
@@ -2062,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lIndex",
           "package": "hedis-simple",
@@ -2071,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lIndex",
           "normalized": "ByteString-\u003eInteger-\u003ea(Maybe ByteString)",
@@ -2086,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lInsertAfter",
           "package": "hedis-simple",
@@ -2095,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lInsertAfter",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003ea Integer",
@@ -2110,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lInsertBefore",
           "package": "hedis-simple",
@@ -2119,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lInsertBefore",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003ea Integer",
@@ -2134,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lLen",
           "package": "hedis-simple",
@@ -2143,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lLen",
           "normalized": "ByteString-\u003ea Integer",
@@ -2158,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lPop",
           "package": "hedis-simple",
@@ -2167,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lPop",
           "normalized": "ByteString-\u003ea(Maybe ByteString)",
@@ -2182,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lPush",
           "package": "hedis-simple",
@@ -2191,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lPush",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -2206,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lPushX",
           "package": "hedis-simple",
@@ -2215,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lPushX",
           "normalized": "ByteString-\u003eByteString-\u003ea Integer",
@@ -2230,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lRange",
           "package": "hedis-simple",
@@ -2239,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lRange",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea[ByteString]",
@@ -2254,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lRem",
           "package": "hedis-simple",
@@ -2263,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lRem",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea Integer",
@@ -2278,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lSet",
           "package": "hedis-simple",
@@ -2287,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lSet",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea Status",
@@ -2302,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lTrim",
           "package": "hedis-simple",
@@ -2311,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lTrim",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea Status",
@@ -2326,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "lastSave",
           "package": "hedis-simple",
@@ -2335,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "lastSave",
           "package": "hedis-simple",
@@ -2348,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "mGet",
           "package": "hedis-simple",
@@ -2357,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "mGet",
           "normalized": "[ByteString]-\u003ea[Maybe ByteString]",
@@ -2372,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "mSet",
           "package": "hedis-simple",
@@ -2381,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "mSet",
           "normalized": "[(ByteString,ByteString)]-\u003ea Status",
@@ -2396,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "mSetNx",
           "package": "hedis-simple",
@@ -2405,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "mSetNx",
           "normalized": "[(ByteString,ByteString)]-\u003ea Bool",
@@ -2420,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "migrate",
           "package": "hedis-simple",
@@ -2429,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "migrate",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eInteger-\u003eInteger-\u003ea Status",
@@ -2443,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "move",
           "package": "hedis-simple",
@@ -2452,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "move",
           "normalized": "ByteString-\u003eInteger-\u003ea Bool",
@@ -2466,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "msgChannel",
           "package": "hedis-simple",
@@ -2474,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "msgChannel",
           "package": "hedis-simple",
@@ -2487,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "msgMessage",
           "package": "hedis-simple",
@@ -2495,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "msgMessage",
           "package": "hedis-simple",
@@ -2508,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "msgPattern",
           "package": "hedis-simple",
@@ -2516,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "msgPattern",
           "package": "hedis-simple",
@@ -2529,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "multiExec",
           "package": "hedis-simple",
@@ -2538,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "multiExec",
           "normalized": "RedisTx a-\u003eRedis(TxResult a)",
@@ -2553,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "objectEncoding",
           "package": "hedis-simple",
@@ -2562,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "objectEncoding",
           "normalized": "ByteString-\u003ea ByteString",
@@ -2577,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "objectIdleTime",
           "package": "hedis-simple",
@@ -2586,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "objectIdleTime",
           "normalized": "ByteString-\u003ea Integer",
@@ -2601,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "objectRefCount",
           "package": "hedis-simple",
@@ -2610,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "objectRefCount",
           "normalized": "ByteString-\u003ea Integer",
@@ -2625,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "pExpire",
           "package": "hedis-simple",
@@ -2634,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "pExpire",
           "normalized": "ByteString-\u003eInteger-\u003ea Bool",
@@ -2649,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "pExpireAt",
           "package": "hedis-simple",
@@ -2658,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "pExpireAt",
           "normalized": "ByteString-\u003eInteger-\u003ea Bool",
@@ -2673,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "pSetEx",
           "package": "hedis-simple",
@@ -2682,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "pSetEx",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea Status",
@@ -2697,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "pTtl",
           "package": "hedis-simple",
@@ -2706,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "pTtl",
           "normalized": "ByteString-\u003ea Integer",
@@ -2721,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "persist",
           "package": "hedis-simple",
@@ -2730,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "persist",
           "normalized": "ByteString-\u003ea Bool",
@@ -2744,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "ping",
           "package": "hedis-simple",
@@ -2753,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "ping",
           "package": "hedis-simple",
@@ -2765,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "pubSub",
           "package": "hedis-simple",
@@ -2774,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "pubSub",
           "normalized": "PubSub-\u003e(Message-\u003eIO PubSub)-\u003eRedis()",
@@ -2789,6 +3031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "publish",
           "package": "hedis-simple",
@@ -2798,6 +3041,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "publish",
           "normalized": "ByteString-\u003eByteString-\u003ea Integer",
@@ -2812,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "quit",
           "package": "hedis-simple",
@@ -2821,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "quit",
           "package": "hedis-simple",
@@ -2833,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "rPop",
           "package": "hedis-simple",
@@ -2842,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "rPop",
           "normalized": "ByteString-\u003ea(Maybe ByteString)",
@@ -2857,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "rPopLPush",
           "package": "hedis-simple",
@@ -2866,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "rPopLPush",
           "normalized": "ByteString-\u003eByteString-\u003ea(Maybe ByteString)",
@@ -2881,6 +3131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "rPush",
           "package": "hedis-simple",
@@ -2890,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "rPush",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -2905,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "rPushX",
           "package": "hedis-simple",
@@ -2914,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "rPushX",
           "normalized": "ByteString-\u003eByteString-\u003ea Integer",
@@ -2929,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "randomKey",
           "package": "hedis-simple",
@@ -2938,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "randomKey",
           "package": "hedis-simple",
@@ -2951,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "rename",
           "package": "hedis-simple",
@@ -2960,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "rename",
           "normalized": "ByteString-\u003eByteString-\u003ea Status",
@@ -2974,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "renameNx",
           "package": "hedis-simple",
@@ -2983,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "renameNx",
           "normalized": "ByteString-\u003eByteString-\u003ea Bool",
@@ -2998,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "restore",
           "package": "hedis-simple",
@@ -3007,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "restore",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea Status",
@@ -3021,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "runRedis",
           "package": "hedis-simple",
@@ -3030,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "runRedis",
           "normalized": "Connection-\u003eRedis a-\u003eIO(Either Reply a)",
@@ -3045,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sAdd",
           "package": "hedis-simple",
@@ -3054,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sAdd",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -3069,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sCard",
           "package": "hedis-simple",
@@ -3078,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sCard",
           "normalized": "ByteString-\u003ea Integer",
@@ -3093,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sDiff",
           "package": "hedis-simple",
@@ -3102,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sDiff",
           "normalized": "[ByteString]-\u003ea[ByteString]",
@@ -3117,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sDiffStore",
           "package": "hedis-simple",
@@ -3126,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sDiffStore",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -3141,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sInter",
           "package": "hedis-simple",
@@ -3150,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sInter",
           "normalized": "[ByteString]-\u003ea[ByteString]",
@@ -3165,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sInterStore",
           "package": "hedis-simple",
@@ -3174,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sInterStore",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -3189,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sIsMember",
           "package": "hedis-simple",
@@ -3198,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sIsMember",
           "normalized": "ByteString-\u003eByteString-\u003ea Bool",
@@ -3213,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sMembers",
           "package": "hedis-simple",
@@ -3222,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sMembers",
           "normalized": "ByteString-\u003ea[ByteString]",
@@ -3237,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sMove",
           "package": "hedis-simple",
@@ -3246,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sMove",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003ea Bool",
@@ -3261,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sPop",
           "package": "hedis-simple",
@@ -3270,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sPop",
           "normalized": "ByteString-\u003ea(Maybe ByteString)",
@@ -3285,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sRandMember",
           "package": "hedis-simple",
@@ -3294,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sRandMember",
           "normalized": "ByteString-\u003ea(Maybe ByteString)",
@@ -3309,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sRem",
           "package": "hedis-simple",
@@ -3318,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sRem",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -3333,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sUnion",
           "package": "hedis-simple",
@@ -3342,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sUnion",
           "normalized": "[ByteString]-\u003ea[ByteString]",
@@ -3357,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sUnionStore",
           "package": "hedis-simple",
@@ -3366,6 +3657,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sUnionStore",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -3381,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "save",
           "package": "hedis-simple",
@@ -3390,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "save",
           "package": "hedis-simple",
@@ -3402,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "scriptExists",
           "package": "hedis-simple",
@@ -3411,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "scriptExists",
           "normalized": "[ByteString]-\u003ea[Bool]",
@@ -3426,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "scriptFlush",
           "package": "hedis-simple",
@@ -3435,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "scriptFlush",
           "package": "hedis-simple",
@@ -3448,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "scriptKill",
           "package": "hedis-simple",
@@ -3457,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "scriptKill",
           "package": "hedis-simple",
@@ -3470,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "scriptLoad",
           "package": "hedis-simple",
@@ -3479,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "scriptLoad",
           "normalized": "ByteString-\u003ea ByteString",
@@ -3494,6 +3796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "select",
           "package": "hedis-simple",
@@ -3503,6 +3806,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "select",
           "normalized": "Integer-\u003ea Status",
@@ -3517,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sendRequest",
           "package": "hedis-simple",
@@ -3526,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sendRequest",
           "normalized": "[ByteString]-\u003ea b",
@@ -3541,6 +3847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "set",
           "package": "hedis-simple",
@@ -3550,6 +3857,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "set",
           "normalized": "ByteString-\u003eByteString-\u003ea Status",
@@ -3564,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "setBit",
           "package": "hedis-simple",
@@ -3573,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "setBit",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea Integer",
@@ -3588,6 +3898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "setEx",
           "package": "hedis-simple",
@@ -3597,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "setEx",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea Status",
@@ -3612,6 +3924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "setNx",
           "package": "hedis-simple",
@@ -3621,6 +3934,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "setNx",
           "normalized": "ByteString-\u003eByteString-\u003ea Bool",
@@ -3636,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "setRange",
           "package": "hedis-simple",
@@ -3645,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "setRange",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea Integer",
@@ -3660,6 +3976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "slaveOf",
           "package": "hedis-simple",
@@ -3669,6 +3986,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "slaveOf",
           "normalized": "ByteString-\u003eByteString-\u003ea Status",
@@ -3684,6 +4002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "slowLogGet",
           "package": "hedis-simple",
@@ -3693,6 +4012,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "slowLogGet",
           "normalized": "Integer-\u003ea[Slowlog]",
@@ -3708,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "slowLogLen",
           "package": "hedis-simple",
@@ -3717,6 +4038,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "slowLogLen",
           "package": "hedis-simple",
@@ -3730,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "slowLogReset",
           "package": "hedis-simple",
@@ -3739,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "slowLogReset",
           "package": "hedis-simple",
@@ -3752,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sort",
           "package": "hedis-simple",
@@ -3761,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sort",
           "normalized": "ByteString-\u003eSortOpts-\u003ea[ByteString]",
@@ -3775,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "sortStore",
           "package": "hedis-simple",
@@ -3784,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "sortStore",
           "normalized": "ByteString-\u003eByteString-\u003eSortOpts-\u003ea Integer",
@@ -3799,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "strLen",
           "package": "hedis-simple",
@@ -3808,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "strLen",
           "normalized": "ByteString-\u003ea Integer",
@@ -3823,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "time",
           "package": "hedis-simple",
@@ -3832,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "time",
           "normalized": "a(Integer,Integer)",
@@ -3846,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "ttl",
           "package": "hedis-simple",
@@ -3855,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "ttl",
           "normalized": "ByteString-\u003ea Integer",
@@ -3869,6 +4203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "unwatch",
           "package": "hedis-simple",
@@ -3878,6 +4213,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "unwatch",
           "package": "hedis-simple",
@@ -3890,6 +4226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "watch",
           "package": "hedis-simple",
@@ -3899,6 +4236,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "watch",
           "normalized": "[ByteString]-\u003eRedis Status",
@@ -3913,6 +4251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zAdd",
           "package": "hedis-simple",
@@ -3922,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zAdd",
           "normalized": "ByteString-\u003e[(Double,ByteString)]-\u003ea Integer",
@@ -3937,6 +4277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zCard",
           "package": "hedis-simple",
@@ -3946,6 +4287,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zCard",
           "normalized": "ByteString-\u003ea Integer",
@@ -3961,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zCount",
           "package": "hedis-simple",
@@ -3970,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zCount",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea Integer",
@@ -3985,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zIncrBy",
           "package": "hedis-simple",
@@ -3994,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zIncrBy",
           "normalized": "ByteString-\u003eInteger-\u003eByteString-\u003ea Double",
@@ -4009,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zInterStore",
           "package": "hedis-simple",
@@ -4018,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zInterStore",
           "normalized": "ByteString-\u003e[ByteString]-\u003eAggregate-\u003ea Integer",
@@ -4033,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zInterStoreWeights",
           "package": "hedis-simple",
@@ -4042,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zInterStoreWeights",
           "normalized": "ByteString-\u003e[(ByteString,Double)]-\u003eAggregate-\u003ea Integer",
@@ -4057,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRange",
           "package": "hedis-simple",
@@ -4066,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRange",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea[ByteString]",
@@ -4081,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRangeByScore",
           "package": "hedis-simple",
@@ -4090,6 +4443,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRangeByScore",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea[ByteString]",
@@ -4105,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRangeByScoreLimit",
           "package": "hedis-simple",
@@ -4114,6 +4469,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRangeByScoreLimit",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003eInteger-\u003eInteger-\u003ea[ByteString]",
@@ -4129,6 +4485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRangeByScoreWithScores",
           "package": "hedis-simple",
@@ -4138,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRangeByScoreWithScores",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea[(ByteString,Double)]",
@@ -4153,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRangeByScoreWithScoresLimit",
           "package": "hedis-simple",
@@ -4162,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRangeByScoreWithScoresLimit",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003eInteger-\u003eInteger-\u003ea[(ByteString,Double)]",
@@ -4177,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRangeWithScores",
           "package": "hedis-simple",
@@ -4186,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRangeWithScores",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea[(ByteString,Double)]",
@@ -4201,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRank",
           "package": "hedis-simple",
@@ -4210,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRank",
           "normalized": "ByteString-\u003eByteString-\u003ea(Maybe Integer)",
@@ -4225,6 +4589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRem",
           "package": "hedis-simple",
@@ -4234,6 +4599,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRem",
           "normalized": "ByteString-\u003e[ByteString]-\u003ea Integer",
@@ -4249,6 +4615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRemRangeByRank",
           "package": "hedis-simple",
@@ -4258,6 +4625,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRemRangeByRank",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea Integer",
@@ -4273,6 +4641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRemRangeByScore",
           "package": "hedis-simple",
@@ -4282,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRemRangeByScore",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea Integer",
@@ -4297,6 +4667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRevRange",
           "package": "hedis-simple",
@@ -4306,6 +4677,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRevRange",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea[ByteString]",
@@ -4321,6 +4693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRevRangeByScore",
           "package": "hedis-simple",
@@ -4330,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRevRangeByScore",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea[ByteString]",
@@ -4345,6 +4719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRevRangeByScoreLimit",
           "package": "hedis-simple",
@@ -4354,6 +4729,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRevRangeByScoreLimit",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003eInteger-\u003eInteger-\u003ea[ByteString]",
@@ -4369,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRevRangeByScoreWithScores",
           "package": "hedis-simple",
@@ -4378,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRevRangeByScoreWithScores",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003ea[(ByteString,Double)]",
@@ -4393,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRevRangeByScoreWithScoresLimit",
           "package": "hedis-simple",
@@ -4402,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRevRangeByScoreWithScoresLimit",
           "normalized": "ByteString-\u003eDouble-\u003eDouble-\u003eInteger-\u003eInteger-\u003ea[(ByteString,Double)]",
@@ -4417,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRevRangeWithScores",
           "package": "hedis-simple",
@@ -4426,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRevRangeWithScores",
           "normalized": "ByteString-\u003eInteger-\u003eInteger-\u003ea[(ByteString,Double)]",
@@ -4441,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zRevRank",
           "package": "hedis-simple",
@@ -4450,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zRevRank",
           "normalized": "ByteString-\u003eByteString-\u003ea(Maybe Integer)",
@@ -4465,6 +4849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zScore",
           "package": "hedis-simple",
@@ -4474,6 +4859,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zScore",
           "normalized": "ByteString-\u003eByteString-\u003ea(Maybe Double)",
@@ -4489,6 +4875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zUnionStore",
           "package": "hedis-simple",
@@ -4498,6 +4885,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zUnionStore",
           "normalized": "ByteString-\u003e[ByteString]-\u003eAggregate-\u003ea Integer",
@@ -4513,6 +4901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:20 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "zUnionStoreWeights",
           "package": "hedis-simple",
@@ -4522,6 +4911,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T18:36:20",
           "module": "Database.Redis.Simple",
           "name": "zUnionStoreWeights",
           "normalized": "ByteString-\u003e[(ByteString,Double)]-\u003eAggregate-\u003ea Integer",

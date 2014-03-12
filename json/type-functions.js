@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-functions"
+        "phrase": "type-functions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEmulation of type-level functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "TypeFun",
           "package": "type-functions",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Emulation of type-level functions",
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "TypeFun",
           "package": "type-functions",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type \u003ccode\u003e\u003cem\u003ef\u003c/em\u003e :-\u003e \u003cem\u003ef'\u003c/em\u003e\u003c/code\u003e represents the type-level function \u003ccode\u003e\\arg -\u003e (\u003ccode\u003e\u003ca\u003eApp\u003c/a\u003e\u003c/code\u003e \u003cem\u003ef\u003c/em\u003e arg -\u003e \u003ccode\u003e\u003ca\u003eApp\u003c/a\u003e\u003c/code\u003e\n        \u003cem\u003ef'\u003c/em\u003e arg)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": ":-\u003e",
           "package": "type-functions",
@@ -51,6 +54,7 @@
         "index": {
           "description": "type represents the type-level function arg App arg App arg",
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": ":-\u003e",
           "package": "type-functions",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of type-level functions. \u003ccode\u003eApp\u003c/code\u003e takes a function representation and an argument\n        and returns the corresponding result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "App",
           "package": "type-functions",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Application of type-level functions App takes function representation and an argument and returns the corresponding result",
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "App",
           "package": "type-functions",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type \u003ccode\u003eConst \u003cem\u003ed\u003c/em\u003e \u003cem\u003ev\u003c/em\u003e\u003c/code\u003e represents the constant type-level function whose domain is\n        represented by&#160;\u003ccode\u003e\u003cem\u003ed\u003c/em\u003e\u003c/code\u003e, and whose result is&#160;\u003ccode\u003e\u003cem\u003ev\u003c/em\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "Const",
           "package": "type-functions",
@@ -96,6 +103,7 @@
         "index": {
           "description": "type Const represents the constant type-level function whose domain is represented by and whose result is",
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "Const",
           "package": "type-functions",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003cem\u003et\u003c/em\u003e\u003c/code\u003e&#160;is a type of kind \u003ccode\u003e* -\u003e *\u003c/code\u003e, and \u003ccode\u003e\u003cem\u003ef\u003c/em\u003e\u003c/code\u003e&#160;is the representation of a\n        type-level function, \u003ccode\u003eFunMap \u003cem\u003et\u003c/em\u003e \u003cem\u003ef\u003c/em\u003e\u003c/code\u003e represents the function \u003ccode\u003e\\arg -\u003e \u003cem\u003et\u003c/em\u003e (App \u003cem\u003ef\u003c/em\u003e arg)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "FunMap",
           "package": "type-functions",
@@ -119,6 +128,7 @@
         "index": {
           "description": "If is type of kind and is the representation of type-level function FunMap represents the function arg App arg",
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "FunMap",
           "package": "type-functions",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type \u003ccode\u003eId \u003cem\u003ed\u003c/em\u003e\u003c/code\u003e represents the type-level identity function whose domain is represented\n        by&#160;\u003ccode\u003e\u003cem\u003ed\u003c/em\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "Id",
           "package": "type-functions",
@@ -142,6 +153,7 @@
         "index": {
           "description": "type Id represents the type-level identity function whose domain is represented by",
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "Id",
           "package": "type-functions",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level functions are represented by types. \u003ccode\u003eTypeFun\u003c/code\u003e is the class of all type-level\n        function representations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "TypeFun",
           "package": "type-functions",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Type-level functions are represented by types TypeFun is the class of all type-level function representations",
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "TypeFun",
           "package": "type-functions",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns a type-level function into the intersection of all its results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "Universal",
           "package": "type-functions",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Turns type-level function into the intersection of all its results",
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "Universal",
           "package": "type-functions",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type that is isomorphic to the type synonym family \u003ccode\u003e\u003ca\u003eApp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "WrappedApp",
           "package": "type-functions",
@@ -211,6 +228,7 @@
         "index": {
           "description": "data type that is isomorphic to the type synonym family App",
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "WrappedApp",
           "package": "type-functions",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": ":-\u003e",
           "package": "type-functions",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": ":-\u003e",
           "normalized": "a-\u003eb",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "Const",
           "package": "type-functions",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "Const",
           "package": "type-functions",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "Id",
           "package": "type-functions",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "Id",
           "package": "type-functions",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "WrapApp",
           "package": "type-functions",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "WrapApp",
           "package": "type-functions",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse of \u003ccode\u003e\u003ca\u003eWrapApp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:16 UTC 2014",
           "module": "Data.TypeFun",
           "name": "unwrapApp",
           "package": "type-functions",
@@ -324,6 +351,7 @@
         "index": {
           "description": "The inverse of WrapApp",
           "hierarchy": "Data TypeFun",
+          "indexed": "2014-03-11T20:27:16",
           "module": "Data.TypeFun",
           "name": "unwrapApp",
           "normalized": "WrappedApp a b-\u003eApp a b",

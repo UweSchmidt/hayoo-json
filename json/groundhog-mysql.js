@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "groundhog-mysql"
+        "phrase": "groundhog-mysql",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "MySQL",
           "package": "groundhog-mysql",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "MySQL",
           "package": "groundhog-mysql",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "ConnectInfo",
           "package": "groundhog-mysql",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "ConnectInfo",
           "package": "groundhog-mysql",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "MySQL",
           "package": "groundhog-mysql",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "MySQL",
           "package": "groundhog-mysql",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "SSLInfo",
           "package": "groundhog-mysql",
@@ -87,6 +94,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "SSLInfo",
           "package": "groundhog-mysql",
@@ -100,6 +108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "ConnectInfo",
           "package": "groundhog-mysql",
@@ -108,6 +117,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "ConnectInfo",
           "package": "groundhog-mysql",
@@ -121,6 +131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "MySQL",
           "package": "groundhog-mysql",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "MySQL",
           "package": "groundhog-mysql",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "SSLInfo",
           "package": "groundhog-mysql",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "SSLInfo",
           "package": "groundhog-mysql",
@@ -164,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "connectDatabase",
           "package": "groundhog-mysql",
@@ -172,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "connectDatabase",
           "package": "groundhog-mysql",
@@ -185,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "connectHost",
           "package": "groundhog-mysql",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "connectHost",
           "package": "groundhog-mysql",
@@ -206,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "connectOptions",
           "package": "groundhog-mysql",
@@ -214,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "connectOptions",
           "normalized": "[Option]",
@@ -229,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "connectPassword",
           "package": "groundhog-mysql",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "connectPassword",
           "package": "groundhog-mysql",
@@ -250,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "connectPath",
           "package": "groundhog-mysql",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "connectPath",
           "package": "groundhog-mysql",
@@ -271,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "connectPort",
           "package": "groundhog-mysql",
@@ -279,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "connectPort",
           "package": "groundhog-mysql",
@@ -292,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "connectSSL",
           "package": "groundhog-mysql",
@@ -300,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "connectSSL",
           "package": "groundhog-mysql",
@@ -313,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "connectUser",
           "package": "groundhog-mysql",
@@ -321,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "connectUser",
           "package": "groundhog-mysql",
@@ -334,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "createMySQLPool",
           "package": "groundhog-mysql",
@@ -342,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "createMySQLPool",
           "normalized": "ConnectInfo-\u003eInt-\u003ea(Pool MySQL)",
@@ -358,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault information for setting up a connection.\n\u003c/p\u003e\u003cp\u003eDefaults are as follows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Server on \u003ccode\u003elocalhost\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e User \u003ccode\u003eroot\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e No password\n\u003c/li\u003e\u003cli\u003e Database \u003ccode\u003etest\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Character set \u003ccode\u003eutf8\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eUse as in the following example:\n\u003c/p\u003e\u003cpre\u003e connect defaultConnectInfo { connectHost = \"db.example.com\" }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "defaultConnectInfo",
           "package": "groundhog-mysql",
@@ -367,6 +400,7 @@
         "index": {
           "description": "Default information for setting up connection Defaults are as follows Server on localhost User root No password Database test Character set utf8 Use as in the following example connect defaultConnectInfo connectHost db.example.com",
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "defaultConnectInfo",
           "package": "groundhog-mysql",
@@ -381,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault (empty) information for setting up an SSL connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "defaultSSLInfo",
           "package": "groundhog-mysql",
@@ -390,6 +425,7 @@
         "index": {
           "description": "Default empty information for setting up an SSL connection",
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "defaultSSLInfo",
           "package": "groundhog-mysql",
@@ -404,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns action within connection. It can handle a simple connection, a pool of them, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "runDbConn",
           "package": "groundhog-mysql",
@@ -413,6 +450,7 @@
         "index": {
           "description": "Runs action within connection It can handle simple connection pool of them etc",
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "runDbConn",
           "normalized": "DbPersist a(NoLoggingT b)c-\u003ed-\u003eb c",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "sslCA",
           "package": "groundhog-mysql",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "sslCA",
           "package": "groundhog-mysql",
@@ -449,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "sslCAPath",
           "package": "groundhog-mysql",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "sslCAPath",
           "package": "groundhog-mysql",
@@ -470,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "sslCert",
           "package": "groundhog-mysql",
@@ -478,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "sslCert",
           "package": "groundhog-mysql",
@@ -492,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComma-separated list of cipher names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "sslCiphers",
           "package": "groundhog-mysql",
@@ -501,6 +546,7 @@
         "index": {
           "description": "Comma-separated list of cipher names",
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "sslCiphers",
           "package": "groundhog-mysql",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "sslKey",
           "package": "groundhog-mysql",
@@ -522,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "sslKey",
           "package": "groundhog-mysql",
@@ -535,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "withMySQLConn",
           "package": "groundhog-mysql",
@@ -544,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "withMySQLConn",
           "normalized": "ConnectInfo-\u003e(MySQL-\u003ea b)-\u003ea b",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:34 UTC 2014",
           "module": "Database.Groundhog.MySQL",
           "name": "withMySQLPool",
           "package": "groundhog-mysql",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog MySQL",
+          "indexed": "2014-03-11T18:21:34",
           "module": "Database.Groundhog.MySQL",
           "name": "withMySQLPool",
           "normalized": "ConnectInfo-\u003eInt-\u003e(Pool MySQL-\u003ea b)-\u003ea b",

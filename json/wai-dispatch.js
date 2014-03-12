@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-dispatch"
+        "phrase": "wai-dispatch",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple module to wrap yesod-routes for use with WAI\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:54 UTC 2014",
           "module": "Network.Wai.Dispatch",
           "name": "Dispatch",
           "package": "wai-dispatch",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple module to wrap yesod-routes for use with WAI",
           "hierarchy": "Network Wai Dispatch",
+          "indexed": "2014-03-11T20:35:54",
           "module": "Network.Wai.Dispatch",
           "name": "Dispatch",
           "package": "wai-dispatch",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:54 UTC 2014",
           "module": "Network.Wai.Dispatch",
           "name": "Piece",
           "package": "wai-dispatch",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Dispatch",
+          "indexed": "2014-03-11T20:35:54",
           "module": "Network.Wai.Dispatch",
           "name": "Piece",
           "package": "wai-dispatch",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:54 UTC 2014",
           "module": "Network.Wai.Dispatch",
           "name": "Route",
           "package": "wai-dispatch",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Dispatch",
+          "indexed": "2014-03-11T20:35:54",
           "module": "Network.Wai.Dispatch",
           "name": "Route",
           "package": "wai-dispatch",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:54 UTC 2014",
           "module": "Network.Wai.Dispatch",
           "name": "Dynamic",
           "package": "wai-dispatch",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Dispatch",
+          "indexed": "2014-03-11T20:35:54",
           "module": "Network.Wai.Dispatch",
           "name": "Dynamic",
           "package": "wai-dispatch",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:54 UTC 2014",
           "module": "Network.Wai.Dispatch",
           "name": "Route",
           "package": "wai-dispatch",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Dispatch",
+          "indexed": "2014-03-11T20:35:54",
           "module": "Network.Wai.Dispatch",
           "name": "Route",
           "package": "wai-dispatch",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:54 UTC 2014",
           "module": "Network.Wai.Dispatch",
           "name": "Static",
           "package": "wai-dispatch",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Dispatch",
+          "indexed": "2014-03-11T20:35:54",
           "module": "Network.Wai.Dispatch",
           "name": "Static",
           "package": "wai-dispatch",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:54 UTC 2014",
           "module": "Network.Wai.Dispatch",
           "name": "dispatch",
           "package": "wai-dispatch",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Dispatch",
+          "indexed": "2014-03-11T20:35:54",
           "module": "Network.Wai.Dispatch",
           "name": "dispatch",
           "normalized": "Application-\u003e[Route Application]-\u003eApplication",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:54 UTC 2014",
           "module": "Network.Wai.Dispatch",
           "name": "rhDispatch",
           "package": "wai-dispatch",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Dispatch",
+          "indexed": "2014-03-11T20:35:54",
           "module": "Network.Wai.Dispatch",
           "name": "rhDispatch",
           "package": "wai-dispatch",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:54 UTC 2014",
           "module": "Network.Wai.Dispatch",
           "name": "rhHasMulti",
           "package": "wai-dispatch",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Dispatch",
+          "indexed": "2014-03-11T20:35:54",
           "module": "Network.Wai.Dispatch",
           "name": "rhHasMulti",
           "package": "wai-dispatch",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:54 UTC 2014",
           "module": "Network.Wai.Dispatch",
           "name": "rhPieces",
           "package": "wai-dispatch",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Dispatch",
+          "indexed": "2014-03-11T20:35:54",
           "module": "Network.Wai.Dispatch",
           "name": "rhPieces",
           "normalized": "[Piece]",

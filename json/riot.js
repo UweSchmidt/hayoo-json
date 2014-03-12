@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "riot"
+        "phrase": "riot",
+        "type": "phrase"
       },
       "type": "context"
     }

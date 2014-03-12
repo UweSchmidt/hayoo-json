@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxt-curl"
+        "phrase": "hxt-curl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003elibcurl input\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:19 UTC 2014",
           "module": "Text.XML.HXT.Curl",
           "name": "Curl",
           "package": "hxt-curl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "libcurl input",
           "hierarchy": "Text XML HXT Curl",
+          "indexed": "2014-03-11T18:54:19",
           "module": "Text.XML.HXT.Curl",
           "name": "Curl",
           "package": "hxt-curl",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:19 UTC 2014",
           "module": "Text.XML.HXT.Curl",
           "name": "a_use_curl",
           "package": "hxt-curl",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Curl",
+          "indexed": "2014-03-11T18:54:19",
           "module": "Text.XML.HXT.Curl",
           "name": "a_use_curl",
           "package": "hxt-curl",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:19 UTC 2014",
           "module": "Text.XML.HXT.Curl",
           "name": "curlOptions",
           "package": "hxt-curl",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Curl",
+          "indexed": "2014-03-11T18:54:19",
           "module": "Text.XML.HXT.Curl",
           "name": "curlOptions",
           "normalized": "[OptDescr SysConfig]",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:19 UTC 2014",
           "module": "Text.XML.HXT.Curl",
           "name": "getLibCurlContents",
           "package": "hxt-curl",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Curl",
+          "indexed": "2014-03-11T18:54:19",
           "module": "Text.XML.HXT.Curl",
           "name": "getLibCurlContents",
           "package": "hxt-curl",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:19 UTC 2014",
           "module": "Text.XML.HXT.Curl",
           "name": "withCurl",
           "package": "hxt-curl",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Curl",
+          "indexed": "2014-03-11T18:54:19",
           "module": "Text.XML.HXT.Curl",
           "name": "withCurl",
           "normalized": "Attributes-\u003eSysConfig",

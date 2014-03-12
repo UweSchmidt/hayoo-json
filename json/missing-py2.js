@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "missing-py2"
+        "phrase": "missing-py2",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hepevt"
+        "phrase": "hepevt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a pure haskell implementation of a reader for the ASCII\nHEPEVT file format, rougly as described at\n\u003ca\u003ehttp://cepa.fnal.gov/psm/simulation/mcgen/lund/pythia_manual/pythia6.3/pythia6301/node39.html\u003c/a\u003e.\nCompatibility with the extended format used by HepMC\n(\u003ca\u003ehttp://lcgapp.cern.ch/project/simu/HepMC/\u003c/a\u003e) is given priority.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:57 UTC 2014",
           "module": "Data.HEPEVT",
           "name": "HEPEVT",
           "package": "hepevt",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides pure haskell implementation of reader for the ASCII HEPEVT file format rougly as described at http cepa.fnal.gov psm simulation mcgen lund pythia manual pythia6.3 pythia6301 node39.html Compatibility with the extended format used by HepMC http lcgapp.cern.ch project simu HepMC is given priority",
           "hierarchy": "Data HEPEVT",
+          "indexed": "2014-03-11T18:36:57",
           "module": "Data.HEPEVT",
           "name": "HEPEVT",
           "package": "hepevt",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:57 UTC 2014",
           "module": "Data.HEPEVT",
           "name": "parseEventFile",
           "package": "hepevt",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data HEPEVT",
+          "indexed": "2014-03-11T18:36:57",
           "module": "Data.HEPEVT",
           "name": "parseEventFile",
           "normalized": "String-\u003eIO[Event]",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:57 UTC 2014",
           "module": "Data.HEPEVT",
           "name": "parseEvents",
           "package": "hepevt",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Data HEPEVT",
+          "indexed": "2014-03-11T18:36:57",
           "module": "Data.HEPEVT",
           "name": "parseEvents",
           "normalized": "ByteString-\u003e[Event]",

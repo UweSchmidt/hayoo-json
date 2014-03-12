@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "OTP"
+        "phrase": "OTP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements HMAC-Based One-Time Password Algorithm as defined in RFC 4226 and\n Time-Based One-Time Password Algorithm as defined in RFC 6238.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:57 UTC 2014",
           "module": "Data.OTP",
           "name": "OTP",
           "package": "OTP",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implements HMAC-Based One-Time Password Algorithm as defined in RFC and Time-Based One-Time Password Algorithm as defined in RFC",
           "hierarchy": "Data OTP",
+          "indexed": "2014-03-11T16:54:57",
           "module": "Data.OTP",
           "name": "OTP",
           "package": "OTP",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute an HOTP using secret key and counter value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:57 UTC 2014",
           "module": "Data.OTP",
           "name": "hotp",
           "package": "OTP",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Compute an HOTP using secret key and counter value",
           "hierarchy": "Data OTP",
+          "indexed": "2014-03-11T16:54:57",
           "module": "Data.OTP",
           "name": "hotp",
           "normalized": "[Octet]-\u003eInt-\u003eInt-\u003eInt",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute an TOTP using secret key and time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:57 UTC 2014",
           "module": "Data.OTP",
           "name": "totp",
           "package": "OTP",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Compute an TOTP using secret key and time",
           "hierarchy": "Data OTP",
+          "indexed": "2014-03-11T16:54:57",
           "module": "Data.OTP",
           "name": "totp",
           "normalized": "[Octet]-\u003eUTCTime-\u003eInt-\u003eInt-\u003eInt",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "funcmp"
+        "phrase": "funcmp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "Canvas",
           "package": "funcmp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "Canvas",
           "package": "funcmp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "Canvas",
           "package": "funcmp",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "Canvas",
           "package": "funcmp",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "CClip",
           "package": "funcmp",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "CClip",
           "package": "funcmp",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "CConcat",
           "package": "funcmp",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "CConcat",
           "package": "funcmp",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "CDraw",
           "package": "funcmp",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "CDraw",
           "normalized": "CDraw[Path]",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "CDrop",
           "package": "funcmp",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "CDrop",
           "normalized": "CDrop(Numeric,Numeric)Picture",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "CFill",
           "package": "funcmp",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "CFill",
           "normalized": "CFill[Area]",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "CRelax",
           "package": "funcmp",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "CRelax",
           "package": "funcmp",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "cclip",
           "package": "funcmp",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "cclip",
           "normalized": "a-\u003eCanvas",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "cdraw",
           "package": "funcmp",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "cdraw",
           "normalized": "a-\u003eCanvas",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "cdraws",
           "package": "funcmp",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "cdraws",
           "normalized": "[a]-\u003eCanvas",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "cdrop",
           "package": "funcmp",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "cdrop",
           "normalized": "(Numeric,Numeric)-\u003ea-\u003eCanvas",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "cfill",
           "package": "funcmp",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "cfill",
           "normalized": "a-\u003eCanvas",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Canvas",
           "name": "cfills",
           "package": "funcmp",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "FMP Canvas",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Canvas",
           "name": "cfills",
           "normalized": "[a]-\u003eCanvas",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "Color",
           "package": "funcmp",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "Color",
           "package": "funcmp",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "Color",
           "package": "funcmp",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "Color",
           "package": "funcmp",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "HasBGColor",
           "package": "funcmp",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "HasBGColor",
           "package": "funcmp",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "HasColor",
           "package": "funcmp",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "HasColor",
           "package": "funcmp",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "Color",
           "package": "funcmp",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "Color",
           "package": "funcmp",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "DefaultColor",
           "package": "funcmp",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "DefaultColor",
           "package": "funcmp",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "Graduate",
           "package": "funcmp",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "Graduate",
           "package": "funcmp",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "black",
           "package": "funcmp",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "black",
           "package": "funcmp",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "blue",
           "package": "funcmp",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "blue",
           "package": "funcmp",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "color",
           "package": "funcmp",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "color",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eColor",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "cyan",
           "package": "funcmp",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "cyan",
           "package": "funcmp",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "getBGColor",
           "package": "funcmp",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "getBGColor",
           "normalized": "a-\u003eColor",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "getColor",
           "package": "funcmp",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "getColor",
           "normalized": "a-\u003eColor",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "graduate",
           "package": "funcmp",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "graduate",
           "normalized": "Color-\u003eColor-\u003eDouble-\u003eInt-\u003eColor",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "graduateHigh",
           "package": "funcmp",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "graduateHigh",
           "normalized": "Color-\u003eColor-\u003eDouble-\u003eColor",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "graduateLow",
           "package": "funcmp",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "graduateLow",
           "normalized": "Color-\u003eColor-\u003eDouble-\u003eColor",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "graduateMed",
           "package": "funcmp",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "graduateMed",
           "normalized": "Color-\u003eColor-\u003eDouble-\u003eColor",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "green",
           "package": "funcmp",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "green",
           "package": "funcmp",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "grey",
           "package": "funcmp",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "grey",
           "normalized": "Double-\u003eColor",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "hsv2rgb",
           "package": "funcmp",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "hsv2rgb",
           "normalized": "(Double,Double,Double)-\u003eColor",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "magenta",
           "package": "funcmp",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "magenta",
           "package": "funcmp",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "red",
           "package": "funcmp",
@@ -812,6 +883,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "red",
           "package": "funcmp",
@@ -824,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "setBGColor",
           "package": "funcmp",
@@ -833,6 +906,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "setBGColor",
           "normalized": "Color-\u003ea-\u003ea",
@@ -848,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "setColor",
           "package": "funcmp",
@@ -857,6 +932,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "setColor",
           "normalized": "Color-\u003ea-\u003ea",
@@ -872,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "setDefaultBGColor",
           "package": "funcmp",
@@ -881,6 +958,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "setDefaultBGColor",
           "normalized": "a-\u003ea",
@@ -896,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "setDefaultColor",
           "package": "funcmp",
@@ -905,6 +984,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "setDefaultColor",
           "normalized": "a-\u003ea",
@@ -920,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "white",
           "package": "funcmp",
@@ -929,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "white",
           "package": "funcmp",
@@ -941,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Color",
           "name": "yellow",
           "package": "funcmp",
@@ -950,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "FMP Color",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Color",
           "name": "yellow",
           "package": "funcmp",
@@ -962,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Core",
           "name": "Core",
           "package": "funcmp",
@@ -970,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "FMP Core",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Core",
           "name": "Core",
           "package": "funcmp",
@@ -984,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate| we get |(1,relax)::MPArg|, the first two members of the\n result are ignored, and the last two make up the MetaPost code.\n\u003c/p\u003e\u003cp\u003ewferi )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Core",
           "name": "mp",
           "package": "funcmp",
@@ -994,6 +1081,7 @@
         "index": {
           "description": "generate we get relax MPArg the first two members of the result are ignored and the last two make up the MetaPost code wferi",
           "hierarchy": "FMP Core",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Core",
           "name": "mp",
           "normalized": "Picture-\u003eMPArg-\u003eMPResult",
@@ -1008,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "File",
           "package": "funcmp",
@@ -1016,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "File",
           "package": "funcmp",
@@ -1029,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "Parameters",
           "package": "funcmp",
@@ -1037,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "Parameters",
           "package": "funcmp",
@@ -1050,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "Parameters",
           "package": "funcmp",
@@ -1059,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "Parameters",
           "package": "funcmp",
@@ -1072,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "clearFile",
           "package": "funcmp",
@@ -1081,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "clearFile",
           "normalized": "String-\u003eIO a-\u003e(IOError-\u003eIO a)-\u003eIO a",
@@ -1096,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "defaultDX",
           "package": "funcmp",
@@ -1105,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "defaultDX",
           "package": "funcmp",
@@ -1118,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "defaultDY",
           "package": "funcmp",
@@ -1127,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "defaultDY",
           "package": "funcmp",
@@ -1140,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "epilog",
           "package": "funcmp",
@@ -1149,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "epilog",
           "package": "funcmp",
@@ -1161,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "fileExists",
           "package": "funcmp",
@@ -1170,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "fileExists",
           "normalized": "String-\u003eIO a-\u003e(IOError-\u003eIO a)-\u003eIO a",
@@ -1185,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "funcmpBin",
           "package": "funcmp",
@@ -1194,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "funcmpBin",
           "package": "funcmp",
@@ -1207,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "funcmpRTS",
           "package": "funcmp",
@@ -1216,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "funcmpRTS",
           "package": "funcmp",
@@ -1229,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "getParameters",
           "package": "funcmp",
@@ -1238,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "getParameters",
           "package": "funcmp",
@@ -1251,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "mpBin",
           "package": "funcmp",
@@ -1260,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "mpBin",
           "package": "funcmp",
@@ -1273,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "newmp",
           "package": "funcmp",
@@ -1282,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "newmp",
           "package": "funcmp",
@@ -1294,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "prolog",
           "package": "funcmp",
@@ -1303,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "prolog",
           "package": "funcmp",
@@ -1315,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "textDX",
           "package": "funcmp",
@@ -1324,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "textDX",
           "package": "funcmp",
@@ -1337,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.File",
           "name": "textDY",
           "package": "funcmp",
@@ -1346,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "FMP File",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.File",
           "name": "textDY",
           "package": "funcmp",
@@ -1359,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Frames",
           "name": "Frames",
           "package": "funcmp",
@@ -1367,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "FMP Frames",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Frames",
           "name": "Frames",
           "package": "funcmp",
@@ -1380,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Frames",
           "name": "cloud",
           "package": "funcmp",
@@ -1389,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "FMP Frames",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Frames",
           "name": "cloud",
           "normalized": "Int-\u003eInt-\u003ePicture-\u003ePicture",
@@ -1403,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Frames",
           "name": "diamond",
           "package": "funcmp",
@@ -1412,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "FMP Frames",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Frames",
           "name": "diamond",
           "normalized": "Picture-\u003ePicture",
@@ -1426,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Frames",
           "name": "drum",
           "package": "funcmp",
@@ -1435,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "FMP Frames",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Frames",
           "name": "drum",
           "normalized": "a-\u003eFrame",
@@ -1449,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Frames",
           "name": "fuzzy",
           "package": "funcmp",
@@ -1458,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "FMP Frames",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Frames",
           "name": "fuzzy",
           "normalized": "Int-\u003eInt-\u003ePicture-\u003ePicture",
@@ -1472,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Matrix",
           "name": "Matrix",
           "package": "funcmp",
@@ -1480,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "FMP Matrix",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Matrix",
           "name": "Matrix",
           "package": "funcmp",
@@ -1493,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Matrix",
           "name": "cell",
           "package": "funcmp",
@@ -1502,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "FMP Matrix",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Matrix",
           "name": "cell",
           "normalized": "a-\u003eCell",
@@ -1516,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Matrix",
           "name": "cell'",
           "package": "funcmp",
@@ -1525,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "FMP Matrix",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Matrix",
           "name": "cell'",
           "normalized": "Dir-\u003ea-\u003eCell",
@@ -1539,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Matrix",
           "name": "columnAlign",
           "package": "funcmp",
@@ -1548,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "FMP Matrix",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Matrix",
           "name": "columnAlign",
           "normalized": "[Cell]-\u003ePicture",
@@ -1563,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Matrix",
           "name": "columnAlignSepBy",
           "package": "funcmp",
@@ -1572,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "FMP Matrix",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Matrix",
           "name": "columnAlignSepBy",
           "normalized": "Numeric-\u003e[Cell]-\u003ePicture",
@@ -1587,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Matrix",
           "name": "matrix",
           "package": "funcmp",
@@ -1596,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "FMP Matrix",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Matrix",
           "name": "matrix",
           "normalized": "[[a]]-\u003ePicture",
@@ -1610,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Matrix",
           "name": "matrixAlign",
           "package": "funcmp",
@@ -1619,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "FMP Matrix",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Matrix",
           "name": "matrixAlign",
           "normalized": "[[Cell]]-\u003ePicture",
@@ -1634,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Matrix",
           "name": "matrixAlignSepBy",
           "package": "funcmp",
@@ -1643,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "FMP Matrix",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Matrix",
           "name": "matrixAlignSepBy",
           "normalized": "Numeric-\u003eNumeric-\u003e[[Cell]]-\u003ePicture",
@@ -1658,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Matrix",
           "name": "matrixSepBy",
           "package": "funcmp",
@@ -1667,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "FMP Matrix",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Matrix",
           "name": "matrixSepBy",
           "normalized": "Numeric-\u003eNumeric-\u003e[[a]]-\u003ePicture",
@@ -1682,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Matrix",
           "name": "rowAlign",
           "package": "funcmp",
@@ -1691,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "FMP Matrix",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Matrix",
           "name": "rowAlign",
           "normalized": "[Cell]-\u003ePicture",
@@ -1706,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Matrix",
           "name": "rowAlignSepBy",
           "package": "funcmp",
@@ -1715,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "FMP Matrix",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Matrix",
           "name": "rowAlignSepBy",
           "normalized": "Numeric-\u003e[Cell]-\u003ePicture",
@@ -1730,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "PP",
           "package": "funcmp",
@@ -1738,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "PP",
           "package": "funcmp",
@@ -1751,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "Doc",
           "package": "funcmp",
@@ -1759,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "Doc",
           "package": "funcmp",
@@ -1772,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "($$)",
           "package": "funcmp",
@@ -1781,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "($$) $$",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -1795,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "($+$)",
           "package": "funcmp",
@@ -1804,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "($+$) $+$",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -1818,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "(\u003c+\u003e)",
           "package": "funcmp",
@@ -1827,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -1841,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "(\u003c\u003e)",
           "package": "funcmp",
@@ -1850,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -1864,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "brackets",
           "package": "funcmp",
@@ -1873,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "brackets",
           "normalized": "Doc-\u003eDoc",
@@ -1887,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "char",
           "package": "funcmp",
@@ -1896,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "char",
           "normalized": "Char-\u003eDoc",
@@ -1910,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "colon",
           "package": "funcmp",
@@ -1919,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "colon",
           "package": "funcmp",
@@ -1931,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "comma",
           "package": "funcmp",
@@ -1940,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "comma",
           "package": "funcmp",
@@ -1952,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "double",
           "package": "funcmp",
@@ -1961,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "double",
           "normalized": "a-\u003eDoc",
@@ -1975,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "doubleQuotes",
           "package": "funcmp",
@@ -1984,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "doubleQuotes",
           "normalized": "Doc-\u003eDoc",
@@ -1999,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "empty",
           "package": "funcmp",
@@ -2008,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "empty",
           "package": "funcmp",
@@ -2020,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "equals",
           "package": "funcmp",
@@ -2029,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "equals",
           "package": "funcmp",
@@ -2041,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "hcat",
           "package": "funcmp",
@@ -2050,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "hcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -2064,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "hsep",
           "package": "funcmp",
@@ -2073,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "hsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -2087,6 +2271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "int",
           "package": "funcmp",
@@ -2096,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "int",
           "normalized": "a-\u003eDoc",
@@ -2110,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "lbrack",
           "package": "funcmp",
@@ -2119,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "lbrack",
           "package": "funcmp",
@@ -2131,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "lparen",
           "package": "funcmp",
@@ -2140,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "lparen",
           "package": "funcmp",
@@ -2152,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "parens",
           "package": "funcmp",
@@ -2161,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "parens",
           "normalized": "Doc-\u003eDoc",
@@ -2175,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "punctuate",
           "package": "funcmp",
@@ -2184,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "punctuate",
           "normalized": "Doc-\u003e[Doc]-\u003e[Doc]",
@@ -2198,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "quotes",
           "package": "funcmp",
@@ -2207,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "quotes",
           "normalized": "Doc-\u003eDoc",
@@ -2221,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "rbrack",
           "package": "funcmp",
@@ -2230,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "rbrack",
           "package": "funcmp",
@@ -2242,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "rparen",
           "package": "funcmp",
@@ -2251,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "rparen",
           "package": "funcmp",
@@ -2263,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "semi",
           "package": "funcmp",
@@ -2272,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "semi",
           "package": "funcmp",
@@ -2284,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "space",
           "package": "funcmp",
@@ -2293,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "space",
           "package": "funcmp",
@@ -2305,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "text",
           "package": "funcmp",
@@ -2314,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "text",
           "normalized": "String-\u003eDoc",
@@ -2328,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.PP",
           "name": "vcat",
           "package": "funcmp",
@@ -2337,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "FMP PP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.PP",
           "name": "vcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -2351,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Picture",
           "package": "funcmp",
@@ -2359,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Picture",
           "package": "funcmp",
@@ -2372,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "AbsOrRel",
           "package": "funcmp",
@@ -2380,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "AbsOrRel",
           "package": "funcmp",
@@ -2393,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Area",
           "package": "funcmp",
@@ -2401,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Area",
           "package": "funcmp",
@@ -2414,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "AreaDescr",
           "package": "funcmp",
@@ -2422,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "AreaDescr",
           "package": "funcmp",
@@ -2435,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "ArrowHead",
           "package": "funcmp",
@@ -2443,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "ArrowHead",
           "package": "funcmp",
@@ -2456,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "ArrowHeadStyle",
           "package": "funcmp",
@@ -2464,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "ArrowHeadStyle",
           "package": "funcmp",
@@ -2477,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Attrib",
           "package": "funcmp",
@@ -2485,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Attrib",
           "package": "funcmp",
@@ -2498,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BasicJoin",
           "package": "funcmp",
@@ -2506,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BasicJoin",
           "package": "funcmp",
@@ -2519,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BitDepth",
           "package": "funcmp",
@@ -2527,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BitDepth",
           "package": "funcmp",
@@ -2540,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "CutPic",
           "package": "funcmp",
@@ -2548,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "CutPic",
           "package": "funcmp",
@@ -2561,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Dir'",
           "package": "funcmp",
@@ -2569,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Dir'",
           "package": "funcmp",
@@ -2582,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "ExtentAttrib",
           "package": "funcmp",
@@ -2590,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "ExtentAttrib",
           "package": "funcmp",
@@ -2603,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Frame",
           "package": "funcmp",
@@ -2611,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Frame",
           "package": "funcmp",
@@ -2624,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "FrameAttrib",
           "package": "funcmp",
@@ -2632,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "FrameAttrib",
           "package": "funcmp",
@@ -2645,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasArrowHead",
           "package": "funcmp",
@@ -2653,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasArrowHead",
           "package": "funcmp",
@@ -2666,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasConcat",
           "package": "funcmp",
@@ -2674,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasConcat",
           "package": "funcmp",
@@ -2687,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasDXY",
           "package": "funcmp",
@@ -2695,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasDXY",
           "package": "funcmp",
@@ -2708,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasDefine",
           "package": "funcmp",
@@ -2716,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasDefine",
           "package": "funcmp",
@@ -2729,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasExtent",
           "package": "funcmp",
@@ -2737,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasExtent",
           "package": "funcmp",
@@ -2750,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasJoin",
           "package": "funcmp",
@@ -2758,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasJoin",
           "package": "funcmp",
@@ -2771,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasLabel",
           "package": "funcmp",
@@ -2779,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasLabel",
           "package": "funcmp",
@@ -2792,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasLayer",
           "package": "funcmp",
@@ -2800,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasLayer",
           "package": "funcmp",
@@ -2813,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasName",
           "package": "funcmp",
@@ -2821,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasName",
           "package": "funcmp",
@@ -2834,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasPattern",
           "package": "funcmp",
@@ -2842,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasPattern",
           "package": "funcmp",
@@ -2855,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasPen",
           "package": "funcmp",
@@ -2863,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasPen",
           "package": "funcmp",
@@ -2876,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasPicture",
           "package": "funcmp",
@@ -2884,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasPicture",
           "package": "funcmp",
@@ -2897,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasShadow",
           "package": "funcmp",
@@ -2905,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasShadow",
           "package": "funcmp",
@@ -2918,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasStartEndCut",
           "package": "funcmp",
@@ -2926,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasStartEndCut",
           "package": "funcmp",
@@ -2939,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "HasStartEndDir",
           "package": "funcmp",
@@ -2947,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "HasStartEndDir",
           "package": "funcmp",
@@ -2960,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "IsArea",
           "package": "funcmp",
@@ -2968,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "IsArea",
           "package": "funcmp",
@@ -2981,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "IsHideable",
           "package": "funcmp",
@@ -2989,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "IsHideable",
           "package": "funcmp",
@@ -3002,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "IsPath",
           "package": "funcmp",
@@ -3010,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "IsPath",
           "package": "funcmp",
@@ -3023,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "IsPicture",
           "package": "funcmp",
@@ -3031,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "IsPicture",
           "package": "funcmp",
@@ -3044,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Layer",
           "package": "funcmp",
@@ -3052,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Layer",
           "package": "funcmp",
@@ -3065,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Path",
           "package": "funcmp",
@@ -3073,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Path",
           "package": "funcmp",
@@ -3086,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PathElemDescr",
           "package": "funcmp",
@@ -3094,6 +3373,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PathElemDescr",
           "package": "funcmp",
@@ -3107,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PathLabel",
           "package": "funcmp",
@@ -3115,6 +3396,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PathLabel",
           "package": "funcmp",
@@ -3128,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Picture",
           "package": "funcmp",
@@ -3136,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Picture",
           "package": "funcmp",
@@ -3149,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Tension",
           "package": "funcmp",
@@ -3157,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Tension",
           "package": "funcmp",
@@ -3170,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Transformation",
           "package": "funcmp",
@@ -3178,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Transformation",
           "package": "funcmp",
@@ -3191,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "(|||)",
           "package": "funcmp",
@@ -3200,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "(|||) |||",
           "normalized": "a-\u003eb-\u003ePicture",
@@ -3214,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "(||||)",
           "package": "funcmp",
@@ -3223,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "(||||) ||||",
           "normalized": "a-\u003eb-\u003ePicture",
@@ -3237,6 +3529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "(|-|)",
           "package": "funcmp",
@@ -3246,6 +3539,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "(|-|) |-|",
           "normalized": "a-\u003eb-\u003ePicture",
@@ -3260,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "(|=|)",
           "package": "funcmp",
@@ -3269,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "(|=|) |=|",
           "normalized": "a-\u003eb-\u003ePicture",
@@ -3283,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "(#)",
           "package": "funcmp",
@@ -3292,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "(#) #",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -3306,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "(&)",
           "package": "funcmp",
@@ -3315,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "(&) &",
           "normalized": "a-\u003ea-\u003ea",
@@ -3329,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "(.&.)",
           "package": "funcmp",
@@ -3338,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "(.&.) .&.",
           "normalized": "a-\u003eb-\u003ePath",
@@ -3352,6 +3654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "(.--.)",
           "package": "funcmp",
@@ -3361,6 +3664,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "(.--.) .--.",
           "normalized": "a-\u003eb-\u003ePath",
@@ -3375,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "(.-.)",
           "package": "funcmp",
@@ -3384,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "(.-.) .-.",
           "normalized": "a-\u003eb-\u003ePath",
@@ -3398,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "(...)",
           "package": "funcmp",
@@ -3407,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "(...) ...",
           "normalized": "a-\u003eb-\u003ePath",
@@ -3421,6 +3729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "(....)",
           "package": "funcmp",
@@ -3430,6 +3739,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "(....) ....",
           "normalized": "a-\u003eb-\u003ePath",
@@ -3444,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "AHFilled",
           "package": "funcmp",
@@ -3453,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "AHFilled",
           "package": "funcmp",
@@ -3466,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "AHLine",
           "package": "funcmp",
@@ -3475,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "AHLine",
           "package": "funcmp",
@@ -3488,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "AORAbs",
           "package": "funcmp",
@@ -3497,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "AORAbs",
           "package": "funcmp",
@@ -3510,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "AORDefault",
           "package": "funcmp",
@@ -3519,6 +3836,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "AORDefault",
           "package": "funcmp",
@@ -3532,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "AORRel",
           "package": "funcmp",
@@ -3541,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "AORRel",
           "package": "funcmp",
@@ -3554,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Area",
           "package": "funcmp",
@@ -3563,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Area",
           "package": "funcmp",
@@ -3576,6 +3898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "AreaDescr",
           "package": "funcmp",
@@ -3585,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "AreaDescr",
           "package": "funcmp",
@@ -3598,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "ArrowHead",
           "package": "funcmp",
@@ -3607,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "ArrowHead",
           "package": "funcmp",
@@ -3620,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Attrib",
           "package": "funcmp",
@@ -3629,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Attrib",
           "package": "funcmp",
@@ -3642,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Attributes",
           "package": "funcmp",
@@ -3651,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Attributes",
           "package": "funcmp",
@@ -3664,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BJBounded",
           "package": "funcmp",
@@ -3673,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BJBounded",
           "package": "funcmp",
@@ -3686,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BJCat",
           "package": "funcmp",
@@ -3695,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BJCat",
           "package": "funcmp",
@@ -3708,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BJControls",
           "package": "funcmp",
@@ -3717,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BJControls",
           "package": "funcmp",
@@ -3730,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BJControls2",
           "package": "funcmp",
@@ -3739,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BJControls2",
           "package": "funcmp",
@@ -3752,6 +4090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BJFree",
           "package": "funcmp",
@@ -3761,6 +4100,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BJFree",
           "package": "funcmp",
@@ -3774,6 +4114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BJStraight",
           "package": "funcmp",
@@ -3783,6 +4124,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BJStraight",
           "package": "funcmp",
@@ -3796,6 +4138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BJTense",
           "package": "funcmp",
@@ -3805,6 +4148,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BJTense",
           "package": "funcmp",
@@ -3818,6 +4162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BJTension",
           "package": "funcmp",
@@ -3827,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BJTension",
           "package": "funcmp",
@@ -3840,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BJTension2",
           "package": "funcmp",
@@ -3849,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BJTension2",
           "package": "funcmp",
@@ -3862,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Back",
           "package": "funcmp",
@@ -3871,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Back",
           "package": "funcmp",
@@ -3884,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "BitLine",
           "package": "funcmp",
@@ -3893,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "BitLine",
           "package": "funcmp",
@@ -3906,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Clip",
           "package": "funcmp",
@@ -3915,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Clip",
           "package": "funcmp",
@@ -3928,6 +4282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "CutPic",
           "package": "funcmp",
@@ -3937,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "CutPic",
           "package": "funcmp",
@@ -3950,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "CutPic'",
           "package": "funcmp",
@@ -3959,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "CutPic'",
           "package": "funcmp",
@@ -3972,6 +4330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "CutPicTrans",
           "package": "funcmp",
@@ -3981,6 +4340,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "CutPicTrans",
           "normalized": "CutPicTrans CutPic[Int]",
@@ -3996,6 +4356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "DefaultArrowHead",
           "package": "funcmp",
@@ -4005,6 +4366,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "DefaultArrowHead",
           "package": "funcmp",
@@ -4018,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Define",
           "package": "funcmp",
@@ -4027,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Define",
           "normalized": "Define[Equation]Picture",
@@ -4042,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Depth1",
           "package": "funcmp",
@@ -4051,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Depth1",
           "package": "funcmp",
@@ -4064,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Depth24",
           "package": "funcmp",
@@ -4073,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Depth24",
           "package": "funcmp",
@@ -4086,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Depth8",
           "package": "funcmp",
@@ -4095,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Depth8",
           "package": "funcmp",
@@ -4108,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "DirCurl",
           "package": "funcmp",
@@ -4117,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "DirCurl",
           "package": "funcmp",
@@ -4130,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "DirDir",
           "package": "funcmp",
@@ -4139,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "DirDir",
           "package": "funcmp",
@@ -4152,6 +4526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "DirEmpty",
           "package": "funcmp",
@@ -4161,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "DirEmpty",
           "package": "funcmp",
@@ -4174,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "DirVector",
           "package": "funcmp",
@@ -4183,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "DirVector",
           "package": "funcmp",
@@ -4196,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Draw",
           "package": "funcmp",
@@ -4205,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Draw",
           "normalized": "Draw[Path]Picture",
@@ -4220,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Empty",
           "package": "funcmp",
@@ -4229,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Empty",
           "package": "funcmp",
@@ -4242,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "ExtentAttrib",
           "package": "funcmp",
@@ -4251,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "ExtentAttrib",
           "package": "funcmp",
@@ -4264,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Fill",
           "package": "funcmp",
@@ -4273,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Fill",
           "normalized": "Fill[Area]Picture",
@@ -4288,6 +4674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Frame",
           "package": "funcmp",
@@ -4297,6 +4684,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Frame",
           "normalized": "Frame FrameAttrib[Equation]Path Picture",
@@ -4312,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Frame'",
           "package": "funcmp",
@@ -4321,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Frame'",
           "package": "funcmp",
@@ -4334,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "FrameAttrib",
           "package": "funcmp",
@@ -4343,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "FrameAttrib",
           "package": "funcmp",
@@ -4356,6 +4748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Front",
           "package": "funcmp",
@@ -4365,6 +4758,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Front",
           "package": "funcmp",
@@ -4378,6 +4772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Overlay",
           "package": "funcmp",
@@ -4387,6 +4782,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Overlay",
           "normalized": "Overlay[Equation](Maybe Int)[Picture]",
@@ -4402,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PTransform",
           "package": "funcmp",
@@ -4411,6 +4808,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PTransform",
           "package": "funcmp",
@@ -4424,6 +4822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PathBuildCycle",
           "package": "funcmp",
@@ -4433,6 +4832,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PathBuildCycle",
           "package": "funcmp",
@@ -4446,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PathCycle",
           "package": "funcmp",
@@ -4455,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PathCycle",
           "package": "funcmp",
@@ -4468,6 +4870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PathDefine",
           "package": "funcmp",
@@ -4477,6 +4880,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PathDefine",
           "normalized": "PathDefine[Equation]Path",
@@ -4492,6 +4896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PathElemDescr",
           "package": "funcmp",
@@ -4501,6 +4906,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PathElemDescr",
           "package": "funcmp",
@@ -4514,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PathEndDir",
           "package": "funcmp",
@@ -4523,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PathEndDir",
           "package": "funcmp",
@@ -4536,6 +4944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PathJoin",
           "package": "funcmp",
@@ -4545,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PathJoin",
           "package": "funcmp",
@@ -4558,6 +4968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PathLabel",
           "package": "funcmp",
@@ -4567,6 +4978,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PathLabel",
           "package": "funcmp",
@@ -4580,6 +4992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PathPoint",
           "package": "funcmp",
@@ -4589,6 +5002,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PathPoint",
           "package": "funcmp",
@@ -4602,6 +5016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "PathTransform",
           "package": "funcmp",
@@ -4611,6 +5026,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "PathTransform",
           "package": "funcmp",
@@ -4624,6 +5040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Tension",
           "package": "funcmp",
@@ -4633,6 +5050,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Tension",
           "package": "funcmp",
@@ -4646,6 +5064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "TensionAtLeast",
           "package": "funcmp",
@@ -4655,6 +5074,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "TensionAtLeast",
           "package": "funcmp",
@@ -4668,6 +5088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Tex",
           "package": "funcmp",
@@ -4677,6 +5098,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Tex",
           "package": "funcmp",
@@ -4690,6 +5112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Text",
           "package": "funcmp",
@@ -4699,6 +5122,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Text",
           "package": "funcmp",
@@ -4712,6 +5136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "Transformation",
           "package": "funcmp",
@@ -4721,6 +5146,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "Transformation",
           "package": "funcmp",
@@ -4734,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "TrueBox",
           "package": "funcmp",
@@ -4743,6 +5170,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "TrueBox",
           "package": "funcmp",
@@ -4756,6 +5184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "aBGColor",
           "package": "funcmp",
@@ -4765,6 +5194,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "aBGColor",
           "package": "funcmp",
@@ -4778,6 +5208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "aColor",
           "package": "funcmp",
@@ -4787,6 +5218,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "aColor",
           "package": "funcmp",
@@ -4800,6 +5232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "aNames",
           "package": "funcmp",
@@ -4809,6 +5242,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "aNames",
           "normalized": "[Name]",
@@ -4824,6 +5258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "affine",
           "package": "funcmp",
@@ -4833,6 +5268,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "affine",
           "normalized": "(Numeric,Numeric,Numeric,Numeric,Numeric,Numeric)-\u003eTransformation",
@@ -4847,6 +5283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "ahFilled",
           "package": "funcmp",
@@ -4856,6 +5293,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "ahFilled",
           "package": "funcmp",
@@ -4869,6 +5307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "ahLine",
           "package": "funcmp",
@@ -4878,6 +5317,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "ahLine",
           "package": "funcmp",
@@ -4891,6 +5331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "arColor",
           "package": "funcmp",
@@ -4900,6 +5341,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "arColor",
           "package": "funcmp",
@@ -4913,6 +5355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "arLayer",
           "package": "funcmp",
@@ -4922,6 +5365,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "arLayer",
           "package": "funcmp",
@@ -4935,6 +5379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "arPen",
           "package": "funcmp",
@@ -4944,6 +5389,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "arPen",
           "package": "funcmp",
@@ -4957,6 +5403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "arrow",
           "package": "funcmp",
@@ -4966,6 +5413,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "arrow",
           "normalized": "a-\u003eb-\u003ePath",
@@ -4980,6 +5428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "arrowHeadBig",
           "package": "funcmp",
@@ -4989,6 +5438,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "arrowHeadBig",
           "package": "funcmp",
@@ -5002,6 +5452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "arrowHeadSize",
           "package": "funcmp",
@@ -5011,6 +5462,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "arrowHeadSize",
           "normalized": "Double-\u003eDouble-\u003eArrowHead",
@@ -5026,6 +5478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "at",
           "package": "funcmp",
@@ -5035,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "at",
           "normalized": "Dir-\u003ea-\u003eb-\u003ePicture",
@@ -5049,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "box",
           "package": "funcmp",
@@ -5058,6 +5513,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "box",
           "normalized": "a-\u003eFrame",
@@ -5072,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "bp",
           "package": "funcmp",
@@ -5081,6 +5538,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "bp",
           "package": "funcmp",
@@ -5093,6 +5551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "buildCycle",
           "package": "funcmp",
@@ -5102,6 +5561,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "buildCycle",
           "normalized": "Path-\u003ePath-\u003ePath",
@@ -5117,6 +5577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "bullet",
           "package": "funcmp",
@@ -5126,6 +5587,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "bullet",
           "package": "funcmp",
@@ -5138,6 +5600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "cc",
           "package": "funcmp",
@@ -5147,6 +5610,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "cc",
           "package": "funcmp",
@@ -5159,6 +5623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "circle",
           "package": "funcmp",
@@ -5168,6 +5633,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "circle",
           "normalized": "a-\u003eFrame",
@@ -5182,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "clearShadow",
           "package": "funcmp",
@@ -5191,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "clearShadow",
           "normalized": "a-\u003ea",
@@ -5206,6 +5674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "clip",
           "package": "funcmp",
@@ -5215,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "clip",
           "normalized": "Path-\u003ea-\u003ePicture",
@@ -5229,6 +5699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "cm",
           "package": "funcmp",
@@ -5238,6 +5709,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "cm",
           "package": "funcmp",
@@ -5250,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "column",
           "package": "funcmp",
@@ -5259,6 +5732,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "column",
           "normalized": "[a]-\u003ePicture",
@@ -5273,6 +5747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "columnSepBy",
           "package": "funcmp",
@@ -5282,6 +5757,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "columnSepBy",
           "normalized": "Numeric-\u003e[a]-\u003ePicture",
@@ -5297,6 +5773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "curve",
           "package": "funcmp",
@@ -5306,6 +5783,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "curve",
           "normalized": "a-\u003eb-\u003ePath",
@@ -5320,6 +5798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "cycle'",
           "package": "funcmp",
@@ -5329,6 +5808,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "cycle'",
           "package": "funcmp",
@@ -5341,6 +5821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "dd",
           "package": "funcmp",
@@ -5350,6 +5831,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "dd",
           "package": "funcmp",
@@ -5362,6 +5844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "defaultArrowHead",
           "package": "funcmp",
@@ -5371,6 +5854,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "defaultArrowHead",
           "package": "funcmp",
@@ -5384,6 +5868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "define",
           "package": "funcmp",
@@ -5393,6 +5878,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "define",
           "normalized": "[Equation]-\u003ea-\u003ea",
@@ -5407,6 +5893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "dot",
           "package": "funcmp",
@@ -5416,6 +5903,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "dot",
           "package": "funcmp",
@@ -5428,6 +5916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "down",
           "package": "funcmp",
@@ -5437,6 +5926,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "down",
           "package": "funcmp",
@@ -5449,6 +5939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "draw",
           "package": "funcmp",
@@ -5458,6 +5949,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "draw",
           "normalized": "[Path]-\u003ea-\u003ePicture",
@@ -5472,6 +5964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "eaEqs",
           "package": "funcmp",
@@ -5481,6 +5974,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "eaEqs",
           "normalized": "[Equation]",
@@ -5496,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "eaEqsDX",
           "package": "funcmp",
@@ -5505,6 +6000,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "eaEqsDX",
           "normalized": "[Equation]",
@@ -5520,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "eaEqsDY",
           "package": "funcmp",
@@ -5529,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "eaEqsDY",
           "normalized": "[Equation]",
@@ -5544,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "eaEqsHeight",
           "package": "funcmp",
@@ -5553,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "eaEqsHeight",
           "normalized": "[Equation]",
@@ -5568,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "eaEqsWidth",
           "package": "funcmp",
@@ -5577,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "eaEqsWidth",
           "normalized": "[Equation]",
@@ -5592,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "eaX",
           "package": "funcmp",
@@ -5601,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "eaX",
           "package": "funcmp",
@@ -5613,6 +6117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "eaY",
           "package": "funcmp",
@@ -5622,6 +6127,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "eaY",
           "package": "funcmp",
@@ -5634,6 +6140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "empty",
           "package": "funcmp",
@@ -5643,6 +6150,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "empty",
           "package": "funcmp",
@@ -5655,6 +6163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "enumPics",
           "package": "funcmp",
@@ -5664,6 +6173,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "enumPics",
           "normalized": "[a]-\u003e[a]",
@@ -5679,6 +6189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "faBGColor",
           "package": "funcmp",
@@ -5688,6 +6199,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "faBGColor",
           "package": "funcmp",
@@ -5701,6 +6213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "faColor",
           "package": "funcmp",
@@ -5710,6 +6223,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "faColor",
           "package": "funcmp",
@@ -5723,6 +6237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "faNames",
           "package": "funcmp",
@@ -5732,6 +6247,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "faNames",
           "normalized": "[Name]",
@@ -5747,6 +6263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "faPattern",
           "package": "funcmp",
@@ -5756,6 +6273,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "faPattern",
           "package": "funcmp",
@@ -5769,6 +6287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "faPen",
           "package": "funcmp",
@@ -5778,6 +6297,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "faPen",
           "package": "funcmp",
@@ -5791,6 +6311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "faShadow",
           "package": "funcmp",
@@ -5800,6 +6321,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "faShadow",
           "normalized": "Maybe(Numeric,Numeric)",
@@ -5815,6 +6337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "faVisible",
           "package": "funcmp",
@@ -5824,6 +6347,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "faVisible",
           "package": "funcmp",
@@ -5837,6 +6361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "fill",
           "package": "funcmp",
@@ -5846,6 +6371,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "fill",
           "normalized": "[a]-\u003eb-\u003ePicture",
@@ -5860,6 +6386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "forEachPath",
           "package": "funcmp",
@@ -5869,6 +6396,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "forEachPath",
           "normalized": "(PathElemDescr-\u003ePathElemDescr)-\u003ePath-\u003ePath",
@@ -5884,6 +6412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "fromPicture",
           "package": "funcmp",
@@ -5893,6 +6422,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "fromPicture",
           "normalized": "a-\u003eb",
@@ -5908,6 +6438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "fullcircle",
           "package": "funcmp",
@@ -5917,6 +6448,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "fullcircle",
           "package": "funcmp",
@@ -5929,6 +6461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getArrowHead",
           "package": "funcmp",
@@ -5938,6 +6471,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getArrowHead",
           "normalized": "a-\u003eMaybe ArrowHead",
@@ -5953,6 +6487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getArrowHeadStyle",
           "package": "funcmp",
@@ -5962,6 +6497,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getArrowHeadStyle",
           "normalized": "ArrowHead-\u003eArrowHeadStyle",
@@ -5977,6 +6513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getDX",
           "package": "funcmp",
@@ -5986,6 +6523,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getDX",
           "normalized": "a-\u003eMaybe Numeric",
@@ -6001,6 +6539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getDY",
           "package": "funcmp",
@@ -6010,6 +6549,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getDY",
           "normalized": "a-\u003eMaybe Numeric",
@@ -6025,6 +6565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getDefault",
           "package": "funcmp",
@@ -6034,6 +6575,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getDefault",
           "normalized": "Maybe a-\u003ea-\u003ea",
@@ -6049,6 +6591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getHeight",
           "package": "funcmp",
@@ -6058,6 +6601,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getHeight",
           "normalized": "a-\u003eMaybe Numeric",
@@ -6073,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getJoin",
           "package": "funcmp",
@@ -6082,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getJoin",
           "normalized": "a-\u003eBasicJoin",
@@ -6097,6 +6643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getLayer",
           "package": "funcmp",
@@ -6106,6 +6653,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getLayer",
           "normalized": "a-\u003eLayer",
@@ -6121,6 +6669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getNames",
           "package": "funcmp",
@@ -6130,6 +6679,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getNames",
           "normalized": "a-\u003e[Name]",
@@ -6145,6 +6695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getPattern",
           "package": "funcmp",
@@ -6154,6 +6705,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getPattern",
           "normalized": "a-\u003ePattern",
@@ -6169,6 +6721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getPen",
           "package": "funcmp",
@@ -6178,6 +6731,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getPen",
           "normalized": "a-\u003ePen",
@@ -6193,6 +6747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getShadow",
           "package": "funcmp",
@@ -6202,6 +6757,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getShadow",
           "normalized": "a-\u003eMaybe(Numeric,Numeric)",
@@ -6217,6 +6773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getStartArrowHead",
           "package": "funcmp",
@@ -6226,6 +6783,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getStartArrowHead",
           "normalized": "a-\u003eMaybe ArrowHead",
@@ -6241,6 +6799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "getWidth",
           "package": "funcmp",
@@ -6250,6 +6809,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "getWidth",
           "normalized": "a-\u003eMaybe Numeric",
@@ -6265,6 +6825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "halfcircle",
           "package": "funcmp",
@@ -6274,6 +6835,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "halfcircle",
           "package": "funcmp",
@@ -6286,6 +6848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "hide",
           "package": "funcmp",
@@ -6295,6 +6858,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "hide",
           "normalized": "a-\u003ea",
@@ -6309,6 +6873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "hspace",
           "package": "funcmp",
@@ -6318,6 +6883,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "hspace",
           "normalized": "Numeric-\u003ePicture",
@@ -6332,6 +6898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "image",
           "package": "funcmp",
@@ -6341,6 +6908,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "image",
           "normalized": "BitDepth-\u003e[String]-\u003ePicture",
@@ -6355,6 +6923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "inch",
           "package": "funcmp",
@@ -6364,6 +6933,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "inch",
           "package": "funcmp",
@@ -6376,6 +6946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "joinBounded",
           "package": "funcmp",
@@ -6385,6 +6956,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "joinBounded",
           "package": "funcmp",
@@ -6398,6 +6970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "joinCat",
           "package": "funcmp",
@@ -6407,6 +6980,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "joinCat",
           "package": "funcmp",
@@ -6420,6 +6994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "joinControl",
           "package": "funcmp",
@@ -6429,6 +7004,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "joinControl",
           "normalized": "Point-\u003eBasicJoin",
@@ -6444,6 +7020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "joinControls",
           "package": "funcmp",
@@ -6453,6 +7030,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "joinControls",
           "normalized": "Point-\u003ePoint-\u003eBasicJoin",
@@ -6468,6 +7046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "joinFree",
           "package": "funcmp",
@@ -6477,6 +7056,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "joinFree",
           "package": "funcmp",
@@ -6490,6 +7070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "joinStraight",
           "package": "funcmp",
@@ -6499,6 +7080,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "joinStraight",
           "package": "funcmp",
@@ -6512,6 +7094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "joinTense",
           "package": "funcmp",
@@ -6521,6 +7104,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "joinTense",
           "package": "funcmp",
@@ -6534,6 +7118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "joinTension",
           "package": "funcmp",
@@ -6543,6 +7128,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "joinTension",
           "normalized": "Tension-\u003eBasicJoin",
@@ -6558,6 +7144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "joinTensions",
           "package": "funcmp",
@@ -6567,6 +7154,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "joinTensions",
           "normalized": "Tension-\u003eTension-\u003eBasicJoin",
@@ -6582,6 +7170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "label",
           "package": "funcmp",
@@ -6591,6 +7180,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "label",
           "normalized": "Dir-\u003ea-\u003eb-\u003ePicture",
@@ -6605,6 +7195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "lastNameIsDir",
           "package": "funcmp",
@@ -6614,6 +7205,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "lastNameIsDir",
           "normalized": "Name-\u003eBool",
@@ -6629,6 +7221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "left",
           "package": "funcmp",
@@ -6638,6 +7231,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "left",
           "package": "funcmp",
@@ -6650,6 +7244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "line",
           "package": "funcmp",
@@ -6659,6 +7254,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "line",
           "normalized": "a-\u003eb-\u003ePath",
@@ -6673,6 +7269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "math",
           "package": "funcmp",
@@ -6682,6 +7279,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "math",
           "normalized": "String-\u003ePicture",
@@ -6696,6 +7294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "mm",
           "package": "funcmp",
@@ -6705,6 +7304,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "mm",
           "package": "funcmp",
@@ -6717,6 +7317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "ooalign",
           "package": "funcmp",
@@ -6726,6 +7327,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "ooalign",
           "normalized": "[a]-\u003ePicture",
@@ -6740,6 +7342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "oval",
           "package": "funcmp",
@@ -6749,6 +7352,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "oval",
           "normalized": "a-\u003eFrame",
@@ -6763,6 +7367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "overlay",
           "package": "funcmp",
@@ -6772,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "overlay",
           "normalized": "[Equation]-\u003e[a]-\u003ePicture",
@@ -6786,6 +7392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "overlay'",
           "package": "funcmp",
@@ -6795,6 +7402,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "overlay'",
           "normalized": "[Equation]-\u003eMaybe Int-\u003e[a]-\u003ePicture",
@@ -6809,6 +7417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "pathLength",
           "package": "funcmp",
@@ -6818,6 +7427,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "pathLength",
           "normalized": "Path-\u003ea",
@@ -6833,6 +7443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "pc",
           "package": "funcmp",
@@ -6842,6 +7453,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "pc",
           "package": "funcmp",
@@ -6854,6 +7466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "peArrowHead",
           "package": "funcmp",
@@ -6863,6 +7476,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "peArrowHead",
           "package": "funcmp",
@@ -6876,6 +7490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "peColor",
           "package": "funcmp",
@@ -6885,6 +7500,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "peColor",
           "package": "funcmp",
@@ -6898,6 +7514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "peEndCut",
           "package": "funcmp",
@@ -6907,6 +7524,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "peEndCut",
           "package": "funcmp",
@@ -6920,6 +7538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "peEndDir",
           "package": "funcmp",
@@ -6929,6 +7548,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "peEndDir",
           "package": "funcmp",
@@ -6942,6 +7562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "peJoin",
           "package": "funcmp",
@@ -6951,6 +7572,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "peJoin",
           "package": "funcmp",
@@ -6964,6 +7586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "peLabels",
           "package": "funcmp",
@@ -6973,6 +7596,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "peLabels",
           "normalized": "[PathLabel]",
@@ -6988,6 +7612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "pePattern",
           "package": "funcmp",
@@ -6997,6 +7622,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "pePattern",
           "package": "funcmp",
@@ -7010,6 +7636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "pePen",
           "package": "funcmp",
@@ -7019,6 +7646,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "pePen",
           "package": "funcmp",
@@ -7032,6 +7660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "peSArrowHead",
           "package": "funcmp",
@@ -7041,6 +7670,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "peSArrowHead",
           "package": "funcmp",
@@ -7054,6 +7684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "peStartCut",
           "package": "funcmp",
@@ -7063,6 +7694,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "peStartCut",
           "package": "funcmp",
@@ -7076,6 +7708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "peStartDir",
           "package": "funcmp",
@@ -7085,6 +7718,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "peStartDir",
           "package": "funcmp",
@@ -7098,6 +7732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "peVisible",
           "package": "funcmp",
@@ -7107,6 +7742,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "peVisible",
           "package": "funcmp",
@@ -7120,6 +7756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "pt",
           "package": "funcmp",
@@ -7129,6 +7766,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "pt",
           "package": "funcmp",
@@ -7141,6 +7779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "quartercircle",
           "package": "funcmp",
@@ -7150,6 +7789,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "quartercircle",
           "package": "funcmp",
@@ -7162,6 +7802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "rbox",
           "package": "funcmp",
@@ -7171,6 +7812,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "rbox",
           "normalized": "Numeric-\u003ea-\u003eFrame",
@@ -7185,6 +7827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "reflectX",
           "package": "funcmp",
@@ -7194,6 +7837,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "reflectX",
           "normalized": "a-\u003ePicture",
@@ -7208,6 +7852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "reflectY",
           "package": "funcmp",
@@ -7217,6 +7862,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "reflectY",
           "normalized": "a-\u003ePicture",
@@ -7231,6 +7877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "reflectedX",
           "package": "funcmp",
@@ -7240,6 +7887,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "reflectedX",
           "package": "funcmp",
@@ -7252,6 +7900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "reflectedY",
           "package": "funcmp",
@@ -7261,6 +7910,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "reflectedY",
           "package": "funcmp",
@@ -7273,6 +7923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "removeArrowHead",
           "package": "funcmp",
@@ -7282,6 +7933,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "removeArrowHead",
           "normalized": "a-\u003ea",
@@ -7297,6 +7949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "removeEndCut",
           "package": "funcmp",
@@ -7306,6 +7959,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "removeEndCut",
           "normalized": "a-\u003ea",
@@ -7321,6 +7975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "removeEndDir",
           "package": "funcmp",
@@ -7330,6 +7985,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "removeEndDir",
           "normalized": "a-\u003ea",
@@ -7345,6 +8001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "removeHeight",
           "package": "funcmp",
@@ -7354,6 +8011,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "removeHeight",
           "normalized": "a-\u003ea",
@@ -7369,6 +8027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "removeLabel",
           "package": "funcmp",
@@ -7378,6 +8037,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "removeLabel",
           "normalized": "a-\u003ea",
@@ -7393,6 +8053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "removeStartArrowHead",
           "package": "funcmp",
@@ -7402,6 +8063,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "removeStartArrowHead",
           "normalized": "a-\u003ea",
@@ -7417,6 +8079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "removeStartCut",
           "package": "funcmp",
@@ -7426,6 +8089,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "removeStartCut",
           "normalized": "a-\u003ea",
@@ -7441,6 +8105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "removeStartDir",
           "package": "funcmp",
@@ -7450,6 +8115,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "removeStartDir",
           "normalized": "a-\u003ea",
@@ -7465,6 +8131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "removeWidth",
           "package": "funcmp",
@@ -7474,6 +8141,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "removeWidth",
           "normalized": "a-\u003ea",
@@ -7489,6 +8157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "right",
           "package": "funcmp",
@@ -7498,6 +8167,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "right",
           "package": "funcmp",
@@ -7510,6 +8180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "rotate",
           "package": "funcmp",
@@ -7519,6 +8190,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "rotate",
           "normalized": "Numeric-\u003ea-\u003ePicture",
@@ -7533,6 +8205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "rotated",
           "package": "funcmp",
@@ -7542,6 +8215,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "rotated",
           "normalized": "Numeric-\u003eTransformation",
@@ -7556,6 +8230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "row",
           "package": "funcmp",
@@ -7565,6 +8240,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "row",
           "normalized": "[a]-\u003ePicture",
@@ -7579,6 +8255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "rowSepBy",
           "package": "funcmp",
@@ -7588,6 +8265,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "rowSepBy",
           "normalized": "Numeric-\u003e[a]-\u003ePicture",
@@ -7603,6 +8281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "scale",
           "package": "funcmp",
@@ -7612,6 +8291,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "scale",
           "normalized": "Numeric-\u003ea-\u003ePicture",
@@ -7626,6 +8306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "scaled",
           "package": "funcmp",
@@ -7635,6 +8316,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "scaled",
           "normalized": "Numeric-\u003eTransformation",
@@ -7649,6 +8331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "scaledX",
           "package": "funcmp",
@@ -7658,6 +8341,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "scaledX",
           "normalized": "Numeric-\u003eTransformation",
@@ -7672,6 +8356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "scaledY",
           "package": "funcmp",
@@ -7681,6 +8366,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "scaledY",
           "normalized": "Numeric-\u003eTransformation",
@@ -7695,6 +8381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setArrowHead",
           "package": "funcmp",
@@ -7704,6 +8391,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setArrowHead",
           "normalized": "ArrowHead-\u003ea-\u003ea",
@@ -7719,6 +8407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setArrowHeadStyle",
           "package": "funcmp",
@@ -7728,6 +8417,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setArrowHeadStyle",
           "normalized": "ArrowHeadStyle-\u003eArrowHead-\u003eArrowHead",
@@ -7743,6 +8433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setBack",
           "package": "funcmp",
@@ -7752,6 +8443,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setBack",
           "normalized": "a-\u003ea",
@@ -7767,6 +8459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setDX",
           "package": "funcmp",
@@ -7776,6 +8469,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setDX",
           "normalized": "Numeric-\u003ea-\u003ea",
@@ -7791,6 +8485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setDY",
           "package": "funcmp",
@@ -7800,6 +8495,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setDY",
           "normalized": "Numeric-\u003ea-\u003ea",
@@ -7815,6 +8511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setDefaultPattern",
           "package": "funcmp",
@@ -7824,6 +8521,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setDefaultPattern",
           "normalized": "a-\u003ea",
@@ -7839,6 +8537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setDefaultPen",
           "package": "funcmp",
@@ -7848,6 +8547,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setDefaultPen",
           "normalized": "a-\u003ea",
@@ -7863,6 +8563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setEndAngle",
           "package": "funcmp",
@@ -7872,6 +8573,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setEndAngle",
           "normalized": "Numeric-\u003ea-\u003ea",
@@ -7887,6 +8589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setEndCurl",
           "package": "funcmp",
@@ -7896,6 +8599,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setEndCurl",
           "normalized": "Numeric-\u003ea-\u003ea",
@@ -7911,6 +8615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setEndCut",
           "package": "funcmp",
@@ -7920,6 +8625,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setEndCut",
           "normalized": "a-\u003eb-\u003eb",
@@ -7935,6 +8641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setEndVector",
           "package": "funcmp",
@@ -7944,6 +8651,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setEndVector",
           "normalized": "Point-\u003ea-\u003ea",
@@ -7959,6 +8667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setFront",
           "package": "funcmp",
@@ -7968,6 +8677,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setFront",
           "normalized": "a-\u003ea",
@@ -7983,6 +8693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setHeight",
           "package": "funcmp",
@@ -7992,6 +8703,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setHeight",
           "normalized": "Numeric-\u003ea-\u003ea",
@@ -8007,6 +8719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setJoin",
           "package": "funcmp",
@@ -8016,6 +8729,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setJoin",
           "normalized": "BasicJoin-\u003ea-\u003ea",
@@ -8031,6 +8745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setLabel",
           "package": "funcmp",
@@ -8040,6 +8755,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setLabel",
           "normalized": "Double-\u003eDir-\u003ea-\u003eb-\u003eb",
@@ -8055,6 +8771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setName",
           "package": "funcmp",
@@ -8064,6 +8781,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setName",
           "normalized": "a-\u003eb-\u003eb",
@@ -8079,6 +8797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setPattern",
           "package": "funcmp",
@@ -8088,6 +8807,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setPattern",
           "normalized": "Pattern-\u003ea-\u003ea",
@@ -8103,6 +8823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setPen",
           "package": "funcmp",
@@ -8112,6 +8833,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setPen",
           "normalized": "Pen-\u003ea-\u003ea",
@@ -8127,6 +8849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setShadow",
           "package": "funcmp",
@@ -8136,6 +8859,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setShadow",
           "normalized": "(Numeric,Numeric)-\u003ea-\u003ea",
@@ -8151,6 +8875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setStartAngle",
           "package": "funcmp",
@@ -8160,6 +8885,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setStartAngle",
           "normalized": "Numeric-\u003ea-\u003ea",
@@ -8175,6 +8901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setStartArrowHead",
           "package": "funcmp",
@@ -8184,6 +8911,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setStartArrowHead",
           "normalized": "ArrowHead-\u003ea-\u003ea",
@@ -8199,6 +8927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setStartCurl",
           "package": "funcmp",
@@ -8208,6 +8937,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setStartCurl",
           "normalized": "Numeric-\u003ea-\u003ea",
@@ -8223,6 +8953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setStartCut",
           "package": "funcmp",
@@ -8232,6 +8963,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setStartCut",
           "normalized": "a-\u003eb-\u003eb",
@@ -8247,6 +8979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setStartVector",
           "package": "funcmp",
@@ -8256,6 +8989,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setStartVector",
           "normalized": "Point-\u003ea-\u003ea",
@@ -8271,6 +9005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setTrueBoundingBox",
           "package": "funcmp",
@@ -8280,6 +9015,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setTrueBoundingBox",
           "normalized": "a-\u003ePicture",
@@ -8295,6 +9031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "setWidth",
           "package": "funcmp",
@@ -8304,6 +9041,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "setWidth",
           "normalized": "Numeric-\u003ea-\u003ea",
@@ -8319,6 +9057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "shifted",
           "package": "funcmp",
@@ -8328,6 +9067,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "shifted",
           "normalized": "(Numeric,Numeric)-\u003eTransformation",
@@ -8342,6 +9082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "skewX",
           "package": "funcmp",
@@ -8351,6 +9092,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "skewX",
           "normalized": "Numeric-\u003ea-\u003ePicture",
@@ -8365,6 +9107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "skewY",
           "package": "funcmp",
@@ -8374,6 +9117,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "skewY",
           "normalized": "Numeric-\u003ea-\u003ePicture",
@@ -8388,6 +9132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "skewedX",
           "package": "funcmp",
@@ -8397,6 +9142,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "skewedX",
           "normalized": "Numeric-\u003eTransformation",
@@ -8411,6 +9157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "skewedY",
           "package": "funcmp",
@@ -8420,6 +9167,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "skewedY",
           "normalized": "Numeric-\u003eTransformation",
@@ -8434,6 +9182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "space",
           "package": "funcmp",
@@ -8443,6 +9192,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "space",
           "normalized": "Numeric-\u003eNumeric-\u003ePicture",
@@ -8457,6 +9207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "stdAreaDescr",
           "package": "funcmp",
@@ -8466,6 +9217,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "stdAreaDescr",
           "package": "funcmp",
@@ -8479,6 +9231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "stdAttrib",
           "package": "funcmp",
@@ -8488,6 +9241,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "stdAttrib",
           "package": "funcmp",
@@ -8501,6 +9255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "stdExtentAttrib",
           "package": "funcmp",
@@ -8510,6 +9265,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "stdExtentAttrib",
           "package": "funcmp",
@@ -8523,6 +9279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "stdFrameAttrib",
           "package": "funcmp",
@@ -8532,6 +9289,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "stdFrameAttrib",
           "package": "funcmp",
@@ -8545,6 +9303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "stdPathElemDescr",
           "package": "funcmp",
@@ -8554,6 +9313,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "stdPathElemDescr",
           "package": "funcmp",
@@ -8567,6 +9327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "tension",
           "package": "funcmp",
@@ -8576,6 +9337,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "tension",
           "normalized": "Numeric-\u003eTension",
@@ -8590,6 +9352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "tensionAtLeast",
           "package": "funcmp",
@@ -8599,6 +9362,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "tensionAtLeast",
           "normalized": "Numeric-\u003eTension",
@@ -8614,6 +9378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "tex",
           "package": "funcmp",
@@ -8623,6 +9388,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "tex",
           "normalized": "String-\u003ePicture",
@@ -8637,6 +9403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "text",
           "package": "funcmp",
@@ -8646,6 +9413,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "text",
           "normalized": "String-\u003ePicture",
@@ -8660,6 +9428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "toArea",
           "package": "funcmp",
@@ -8669,6 +9438,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "toArea",
           "normalized": "a-\u003eArea",
@@ -8684,6 +9454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "toPath",
           "package": "funcmp",
@@ -8693,6 +9464,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "toPath",
           "normalized": "a-\u003ePath",
@@ -8708,6 +9480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "toPathList",
           "package": "funcmp",
@@ -8717,6 +9490,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "toPathList",
           "normalized": "[a]-\u003ePath",
@@ -8732,6 +9506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "toPicture",
           "package": "funcmp",
@@ -8741,6 +9516,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "toPicture",
           "normalized": "a-\u003ePicture",
@@ -8756,6 +9532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "toPictureList",
           "package": "funcmp",
@@ -8765,6 +9542,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "toPictureList",
           "normalized": "[a]-\u003ePicture",
@@ -8780,6 +9558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "transform",
           "package": "funcmp",
@@ -8789,6 +9568,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "transform",
           "normalized": "Transformation-\u003ea-\u003ePicture",
@@ -8803,6 +9583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "transformPath",
           "package": "funcmp",
@@ -8812,6 +9593,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "transformPath",
           "normalized": "Transformation-\u003ePath-\u003ePath",
@@ -8827,6 +9609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "triAngle",
           "package": "funcmp",
@@ -8836,6 +9619,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "triAngle",
           "normalized": "Numeric-\u003ea-\u003eFrame",
@@ -8851,6 +9635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "triangle",
           "package": "funcmp",
@@ -8860,6 +9645,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "triangle",
           "normalized": "a-\u003eFrame",
@@ -8874,6 +9660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "unitsquare",
           "package": "funcmp",
@@ -8883,6 +9670,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "unitsquare",
           "package": "funcmp",
@@ -8895,6 +9683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "up",
           "package": "funcmp",
@@ -8904,6 +9693,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "up",
           "package": "funcmp",
@@ -8916,6 +9706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Picture",
           "name": "vspace",
           "package": "funcmp",
@@ -8925,6 +9716,7 @@
         },
         "index": {
           "hierarchy": "FMP Picture",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Picture",
           "name": "vspace",
           "normalized": "Numeric-\u003ePicture",
@@ -8939,6 +9731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "RedBlack",
           "package": "funcmp",
@@ -8947,6 +9740,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "RedBlack",
           "package": "funcmp",
@@ -8960,6 +9754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "Two34",
           "package": "funcmp",
@@ -8968,6 +9763,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "Two34",
           "package": "funcmp",
@@ -8981,6 +9777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "Four",
           "package": "funcmp",
@@ -8990,6 +9787,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "Four",
           "package": "funcmp",
@@ -9003,6 +9801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "Nil",
           "package": "funcmp",
@@ -9012,6 +9811,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "Nil",
           "package": "funcmp",
@@ -9025,6 +9825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "Three",
           "package": "funcmp",
@@ -9034,6 +9835,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "Three",
           "package": "funcmp",
@@ -9047,6 +9849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "Two",
           "package": "funcmp",
@@ -9056,6 +9859,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "Two",
           "package": "funcmp",
@@ -9069,6 +9873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "convert234",
           "package": "funcmp",
@@ -9078,6 +9883,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "convert234",
           "normalized": "Two String-\u003eTree",
@@ -9092,6 +9898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "convertRS",
           "package": "funcmp",
@@ -9101,6 +9908,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "convertRS",
           "normalized": "Two String-\u003eTree",
@@ -9116,6 +9924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "edgeN",
           "package": "funcmp",
@@ -9125,6 +9934,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "edgeN",
           "normalized": "a-\u003eTree-\u003eEdge",
@@ -9139,6 +9949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "edgeNRed",
           "package": "funcmp",
@@ -9148,6 +9959,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "edgeNRed",
           "normalized": "a-\u003eTree-\u003eEdge",
@@ -9163,6 +9975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "tbox",
           "package": "funcmp",
@@ -9172,6 +9985,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "tbox",
           "normalized": "String-\u003eFrame",
@@ -9186,6 +10000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "tbox2",
           "package": "funcmp",
@@ -9195,6 +10010,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "tbox2",
           "normalized": "String-\u003eString-\u003eFrame",
@@ -9209,6 +10025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "tbox3",
           "package": "funcmp",
@@ -9218,6 +10035,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "tbox3",
           "normalized": "String-\u003eString-\u003eString-\u003eFrame",
@@ -9232,6 +10050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.RedBlack",
           "name": "tiny",
           "package": "funcmp",
@@ -9241,6 +10060,7 @@
         },
         "index": {
           "hierarchy": "FMP RedBlack",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.RedBlack",
           "name": "tiny",
           "normalized": "String-\u003ePicture",
@@ -9255,6 +10075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Resolve",
           "name": "Resolve",
           "package": "funcmp",
@@ -9263,6 +10084,7 @@
         },
         "index": {
           "hierarchy": "FMP Resolve",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Resolve",
           "name": "Resolve",
           "package": "funcmp",
@@ -9276,6 +10098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Resolve",
           "name": "insertNumeric",
           "package": "funcmp",
@@ -9285,6 +10108,7 @@
         },
         "index": {
           "hierarchy": "FMP Resolve",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Resolve",
           "name": "insertNumeric",
           "normalized": "(Int,Int,Symbols)-\u003eName-\u003e(Int,Symbols)",
@@ -9300,6 +10124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Resolve",
           "name": "maybes2List",
           "package": "funcmp",
@@ -9309,6 +10134,7 @@
         },
         "index": {
           "hierarchy": "FMP Resolve",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Resolve",
           "name": "maybes2List",
           "normalized": "[Maybe a]-\u003e[a]",
@@ -9324,6 +10150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Resolve",
           "name": "resolveEquation",
           "package": "funcmp",
@@ -9333,6 +10160,7 @@
         },
         "index": {
           "hierarchy": "FMP Resolve",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Resolve",
           "name": "resolveEquation",
           "normalized": "(Int,Symbols)-\u003eEquation-\u003eMaybe Equation",
@@ -9348,6 +10176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Resolve",
           "name": "resolveNumeric",
           "package": "funcmp",
@@ -9357,6 +10186,7 @@
         },
         "index": {
           "hierarchy": "FMP Resolve",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Resolve",
           "name": "resolveNumeric",
           "normalized": "(Int,Symbols)-\u003eNumeric-\u003eMaybe Numeric",
@@ -9372,6 +10202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Resolve",
           "name": "resolvePath",
           "package": "funcmp",
@@ -9381,6 +10212,7 @@
         },
         "index": {
           "hierarchy": "FMP Resolve",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Resolve",
           "name": "resolvePath",
           "normalized": "(Int,Int,Symbols)-\u003ePath-\u003eMaybe(Int,Path)",
@@ -9396,6 +10228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Resolve",
           "name": "resolvePoint",
           "package": "funcmp",
@@ -9405,6 +10238,7 @@
         },
         "index": {
           "hierarchy": "FMP Resolve",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Resolve",
           "name": "resolvePoint",
           "normalized": "(Int,Symbols)-\u003ePoint-\u003eMaybe Point",
@@ -9420,6 +10254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Resolve",
           "name": "symEquations",
           "package": "funcmp",
@@ -9429,6 +10264,7 @@
         },
         "index": {
           "hierarchy": "FMP Resolve",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Resolve",
           "name": "symEquations",
           "normalized": "(Int,Int,Symbols)-\u003e[Equation]-\u003e(Int,Symbols)",
@@ -9444,6 +10280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "Symbols",
           "package": "funcmp",
@@ -9452,6 +10289,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "Symbols",
           "package": "funcmp",
@@ -9465,6 +10303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymNum",
           "package": "funcmp",
@@ -9473,6 +10312,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymNum",
           "package": "funcmp",
@@ -9486,6 +10326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymPoint",
           "package": "funcmp",
@@ -9494,6 +10335,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymPoint",
           "package": "funcmp",
@@ -9507,6 +10349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "Symbols",
           "package": "funcmp",
@@ -9515,6 +10358,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "Symbols",
           "package": "funcmp",
@@ -9528,6 +10372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymNHier",
           "package": "funcmp",
@@ -9537,6 +10382,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymNHier",
           "package": "funcmp",
@@ -9550,6 +10396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymNName",
           "package": "funcmp",
@@ -9559,6 +10406,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymNName",
           "package": "funcmp",
@@ -9572,6 +10420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymNRelax",
           "package": "funcmp",
@@ -9581,6 +10430,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymNRelax",
           "package": "funcmp",
@@ -9594,6 +10444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymNUnion",
           "package": "funcmp",
@@ -9603,6 +10454,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymNUnion",
           "package": "funcmp",
@@ -9616,6 +10468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymNUnion3",
           "package": "funcmp",
@@ -9625,6 +10478,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymNUnion3",
           "package": "funcmp",
@@ -9638,6 +10492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymPHier",
           "package": "funcmp",
@@ -9647,6 +10502,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymPHier",
           "package": "funcmp",
@@ -9660,6 +10516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymPName",
           "package": "funcmp",
@@ -9669,6 +10526,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymPName",
           "package": "funcmp",
@@ -9682,6 +10540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymPRelax",
           "package": "funcmp",
@@ -9691,6 +10550,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymPRelax",
           "package": "funcmp",
@@ -9704,6 +10564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymPTrans",
           "package": "funcmp",
@@ -9713,6 +10574,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymPTrans",
           "package": "funcmp",
@@ -9726,6 +10588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymPUnion",
           "package": "funcmp",
@@ -9735,6 +10598,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymPUnion",
           "package": "funcmp",
@@ -9748,6 +10612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "SymPUnion3",
           "package": "funcmp",
@@ -9757,6 +10622,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "SymPUnion3",
           "package": "funcmp",
@@ -9770,6 +10636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "Symbols",
           "package": "funcmp",
@@ -9779,6 +10646,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "Symbols",
           "package": "funcmp",
@@ -9792,6 +10660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "addNDef",
           "package": "funcmp",
@@ -9801,6 +10670,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "addNDef",
           "normalized": "SymNum-\u003eSymbols-\u003eSymbols",
@@ -9816,6 +10686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "addPDef",
           "package": "funcmp",
@@ -9825,6 +10696,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "addPDef",
           "normalized": "SymPoint-\u003eSymbols-\u003eSymbols",
@@ -9840,6 +10712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symHier",
           "package": "funcmp",
@@ -9849,6 +10722,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symHier",
           "normalized": "a-\u003eInt-\u003eSymbols-\u003eSymbols",
@@ -9864,6 +10738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symNHier",
           "package": "funcmp",
@@ -9873,6 +10748,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symNHier",
           "normalized": "Name-\u003eInt-\u003eSymNum-\u003eSymNum",
@@ -9888,6 +10764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symNHiers",
           "package": "funcmp",
@@ -9897,6 +10774,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symNHiers",
           "normalized": "[Name]-\u003eInt-\u003eSymNum-\u003eSymNum",
@@ -9912,6 +10790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symNName",
           "package": "funcmp",
@@ -9921,6 +10800,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symNName",
           "normalized": "Name-\u003eInt-\u003eSymNum-\u003eSymNum",
@@ -9936,6 +10816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symNNames",
           "package": "funcmp",
@@ -9945,6 +10826,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symNNames",
           "normalized": "[Name]-\u003eInt-\u003eSymNum-\u003eSymNum",
@@ -9960,6 +10842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symNUnions",
           "package": "funcmp",
@@ -9969,6 +10852,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symNUnions",
           "normalized": "[SymNum]-\u003eSymNum",
@@ -9984,6 +10868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symName",
           "package": "funcmp",
@@ -9993,6 +10878,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symName",
           "normalized": "a-\u003eInt-\u003eSymbols-\u003eSymbols",
@@ -10008,6 +10894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symNames",
           "package": "funcmp",
@@ -10017,6 +10904,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symNames",
           "normalized": "[a]-\u003eInt-\u003eSymbols-\u003eSymbols",
@@ -10032,6 +10920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symNums",
           "package": "funcmp",
@@ -10041,6 +10930,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symNums",
           "package": "funcmp",
@@ -10054,6 +10944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symPHier",
           "package": "funcmp",
@@ -10063,6 +10954,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symPHier",
           "normalized": "Name-\u003eInt-\u003eSymPoint-\u003eSymPoint",
@@ -10078,6 +10970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symPName",
           "package": "funcmp",
@@ -10087,6 +10980,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symPName",
           "normalized": "Name-\u003eInt-\u003eSymPoint-\u003eSymPoint",
@@ -10102,6 +10996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symPNames",
           "package": "funcmp",
@@ -10111,6 +11006,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symPNames",
           "normalized": "[Name]-\u003eInt-\u003eSymPoint-\u003eSymPoint",
@@ -10126,6 +11022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symPTrans",
           "package": "funcmp",
@@ -10135,6 +11032,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symPTrans",
           "normalized": "SymPoint-\u003eInt-\u003eSymPoint",
@@ -10150,6 +11048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symPUnions",
           "package": "funcmp",
@@ -10159,6 +11058,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symPUnions",
           "normalized": "[SymPoint]-\u003eSymPoint",
@@ -10174,6 +11074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symPnts",
           "package": "funcmp",
@@ -10183,6 +11084,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symPnts",
           "package": "funcmp",
@@ -10196,6 +11098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symTrans",
           "package": "funcmp",
@@ -10205,6 +11108,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symTrans",
           "normalized": "Symbols-\u003eInt-\u003eSymbols",
@@ -10220,6 +11124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symUnion3",
           "package": "funcmp",
@@ -10229,6 +11134,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symUnion3",
           "normalized": "Symbols-\u003eSymbols-\u003eSymbols-\u003eSymbols",
@@ -10244,6 +11150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Symbols",
           "name": "symUnions",
           "package": "funcmp",
@@ -10253,6 +11160,7 @@
         },
         "index": {
           "hierarchy": "FMP Symbols",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Symbols",
           "name": "symUnions",
           "normalized": "[Symbols]-\u003eSymbols",
@@ -10268,6 +11176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "Syntax",
           "package": "funcmp",
@@ -10276,6 +11185,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "Syntax",
           "package": "funcmp",
@@ -10289,6 +11199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "HasEmit",
           "package": "funcmp",
@@ -10297,6 +11208,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "HasEmit",
           "package": "funcmp",
@@ -10310,6 +11222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPArrow",
           "package": "funcmp",
@@ -10318,6 +11231,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPArrow",
           "package": "funcmp",
@@ -10331,6 +11245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPArrowStyle",
           "package": "funcmp",
@@ -10339,6 +11254,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPArrowStyle",
           "package": "funcmp",
@@ -10352,6 +11268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPColor",
           "package": "funcmp",
@@ -10360,6 +11277,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPColor",
           "package": "funcmp",
@@ -10373,6 +11291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPath",
           "package": "funcmp",
@@ -10381,6 +11300,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPath",
           "package": "funcmp",
@@ -10394,6 +11314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoin",
           "package": "funcmp",
@@ -10402,6 +11323,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoin",
           "package": "funcmp",
@@ -10415,6 +11337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinTension",
           "package": "funcmp",
@@ -10423,6 +11346,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinTension",
           "package": "funcmp",
@@ -10436,6 +11360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathDir",
           "package": "funcmp",
@@ -10444,6 +11369,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathDir",
           "package": "funcmp",
@@ -10457,6 +11383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathJoin",
           "package": "funcmp",
@@ -10465,6 +11392,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathJoin",
           "package": "funcmp",
@@ -10478,6 +11406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathSub",
           "package": "funcmp",
@@ -10486,6 +11415,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathSub",
           "package": "funcmp",
@@ -10499,6 +11429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPattern",
           "package": "funcmp",
@@ -10507,6 +11438,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPattern",
           "package": "funcmp",
@@ -10520,6 +11452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPen",
           "package": "funcmp",
@@ -10528,6 +11461,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPen",
           "package": "funcmp",
@@ -10541,6 +11475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPTransform",
           "package": "funcmp",
@@ -10549,6 +11484,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPTransform",
           "package": "funcmp",
@@ -10562,6 +11498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MetaPost",
           "package": "funcmp",
@@ -10570,6 +11507,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MetaPost",
           "package": "funcmp",
@@ -10583,6 +11521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPArrow",
           "package": "funcmp",
@@ -10592,6 +11531,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPArrow",
           "package": "funcmp",
@@ -10605,6 +11545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPArrowStyleFilled",
           "package": "funcmp",
@@ -10614,6 +11555,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPArrowStyleFilled",
           "package": "funcmp",
@@ -10627,6 +11569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPArrowStyleLine",
           "package": "funcmp",
@@ -10636,6 +11579,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPArrowStyleLine",
           "package": "funcmp",
@@ -10649,6 +11593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPAssign",
           "package": "funcmp",
@@ -10658,6 +11603,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPAssign",
           "package": "funcmp",
@@ -10671,6 +11617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPAssignPath",
           "package": "funcmp",
@@ -10680,6 +11627,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPAssignPath",
           "package": "funcmp",
@@ -10693,6 +11641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPBPath",
           "package": "funcmp",
@@ -10702,6 +11651,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPBPath",
           "package": "funcmp",
@@ -10715,6 +11665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPBitLine",
           "package": "funcmp",
@@ -10724,6 +11675,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPBitLine",
           "normalized": "MPBitLine(Term,Term)Term String",
@@ -10739,6 +11691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPBoxit",
           "package": "funcmp",
@@ -10748,6 +11701,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPBoxit",
           "package": "funcmp",
@@ -10761,6 +11715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPClearIt",
           "package": "funcmp",
@@ -10770,6 +11725,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPClearIt",
           "package": "funcmp",
@@ -10783,6 +11739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPClip",
           "package": "funcmp",
@@ -10792,6 +11749,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPClip",
           "package": "funcmp",
@@ -10805,6 +11763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPCloneit",
           "package": "funcmp",
@@ -10814,6 +11773,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPCloneit",
           "package": "funcmp",
@@ -10827,6 +11787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPColor",
           "package": "funcmp",
@@ -10836,6 +11797,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPColor",
           "package": "funcmp",
@@ -10849,6 +11811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPComment",
           "package": "funcmp",
@@ -10858,6 +11821,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPComment",
           "package": "funcmp",
@@ -10871,6 +11835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPConc",
           "package": "funcmp",
@@ -10880,6 +11845,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPConc",
           "package": "funcmp",
@@ -10893,6 +11859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPCutafter",
           "package": "funcmp",
@@ -10902,6 +11869,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPCutafter",
           "package": "funcmp",
@@ -10915,6 +11883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPCutbefore",
           "package": "funcmp",
@@ -10924,6 +11893,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPCutbefore",
           "package": "funcmp",
@@ -10937,6 +11907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPCycle",
           "package": "funcmp",
@@ -10946,6 +11917,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPCycle",
           "package": "funcmp",
@@ -10959,6 +11931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPDashPattern",
           "package": "funcmp",
@@ -10968,6 +11941,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPDashPattern",
           "normalized": "MPDashPattern[Double]",
@@ -10983,6 +11957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPDef",
           "package": "funcmp",
@@ -10992,6 +11967,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPDef",
           "package": "funcmp",
@@ -11005,6 +11981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPDefaultColor",
           "package": "funcmp",
@@ -11014,6 +11991,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPDefaultColor",
           "package": "funcmp",
@@ -11027,6 +12005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPDefaultPathDir",
           "package": "funcmp",
@@ -11036,6 +12015,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPDefaultPathDir",
           "package": "funcmp",
@@ -11049,6 +12029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPDefaultPattern",
           "package": "funcmp",
@@ -11058,6 +12039,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPDefaultPattern",
           "package": "funcmp",
@@ -11071,6 +12053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPDefaultPen",
           "package": "funcmp",
@@ -11080,6 +12063,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPDefaultPen",
           "package": "funcmp",
@@ -11093,6 +12077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPDefineTrans",
           "package": "funcmp",
@@ -11102,6 +12087,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPDefineTrans",
           "package": "funcmp",
@@ -11115,6 +12101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPDraw",
           "package": "funcmp",
@@ -11124,6 +12111,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPDraw",
           "package": "funcmp",
@@ -11137,6 +12125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPDrawAHead",
           "package": "funcmp",
@@ -11146,6 +12135,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPDrawAHead",
           "package": "funcmp",
@@ -11159,6 +12149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPDrawPic",
           "package": "funcmp",
@@ -11168,6 +12159,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPDrawPic",
           "package": "funcmp",
@@ -11181,6 +12173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPDrawUnBoxed",
           "package": "funcmp",
@@ -11190,6 +12183,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPDrawUnBoxed",
           "normalized": "MPDrawUnBoxed[String]",
@@ -11205,6 +12199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPEquals",
           "package": "funcmp",
@@ -11214,6 +12209,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPEquals",
           "normalized": "MPEquals[Term]",
@@ -11229,6 +12225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPFigure",
           "package": "funcmp",
@@ -11238,6 +12235,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPFigure",
           "package": "funcmp",
@@ -11251,6 +12249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPFill",
           "package": "funcmp",
@@ -11260,6 +12259,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPFill",
           "package": "funcmp",
@@ -11273,6 +12273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPFixPos",
           "package": "funcmp",
@@ -11282,6 +12283,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPFixPos",
           "normalized": "MPFixPos[String]",
@@ -11297,6 +12299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPFixSize",
           "package": "funcmp",
@@ -11306,6 +12309,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPFixSize",
           "normalized": "MPFixSize[String]",
@@ -11321,6 +12325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPGraduate",
           "package": "funcmp",
@@ -11330,6 +12335,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPGraduate",
           "package": "funcmp",
@@ -11343,6 +12349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPGraduatePath",
           "package": "funcmp",
@@ -11352,6 +12359,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPGraduatePath",
           "package": "funcmp",
@@ -11365,6 +12373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPGraduatePic",
           "package": "funcmp",
@@ -11374,6 +12383,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPGraduatePic",
           "package": "funcmp",
@@ -11387,6 +12397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPGroup",
           "package": "funcmp",
@@ -11396,6 +12407,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPGroup",
           "package": "funcmp",
@@ -11409,6 +12421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPIfElse",
           "package": "funcmp",
@@ -11418,6 +12431,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPIfElse",
           "package": "funcmp",
@@ -11431,6 +12445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPImage",
           "package": "funcmp",
@@ -11440,6 +12455,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPImage",
           "package": "funcmp",
@@ -11453,6 +12469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPNormal",
           "package": "funcmp",
@@ -11462,6 +12479,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPNormal",
           "package": "funcmp",
@@ -11475,6 +12493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoin2",
           "package": "funcmp",
@@ -11484,6 +12503,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoin2",
           "package": "funcmp",
@@ -11497,6 +12517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoin3",
           "package": "funcmp",
@@ -11506,6 +12527,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoin3",
           "package": "funcmp",
@@ -11519,6 +12541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinAtLeast",
           "package": "funcmp",
@@ -11528,6 +12551,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinAtLeast",
           "package": "funcmp",
@@ -11541,6 +12565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinCat",
           "package": "funcmp",
@@ -11550,6 +12575,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinCat",
           "package": "funcmp",
@@ -11563,6 +12589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinControls1",
           "package": "funcmp",
@@ -11572,6 +12599,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinControls1",
           "package": "funcmp",
@@ -11585,6 +12613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinControls2",
           "package": "funcmp",
@@ -11594,6 +12623,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinControls2",
           "package": "funcmp",
@@ -11607,6 +12637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinStraight",
           "package": "funcmp",
@@ -11616,6 +12647,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinStraight",
           "package": "funcmp",
@@ -11629,6 +12661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinTense",
           "package": "funcmp",
@@ -11638,6 +12671,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinTense",
           "package": "funcmp",
@@ -11651,6 +12685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinTension",
           "package": "funcmp",
@@ -11660,6 +12695,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinTension",
           "package": "funcmp",
@@ -11673,6 +12709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinTension1",
           "package": "funcmp",
@@ -11682,6 +12719,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinTension1",
           "package": "funcmp",
@@ -11695,6 +12733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinTension2",
           "package": "funcmp",
@@ -11704,6 +12743,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBasicJoinTension2",
           "package": "funcmp",
@@ -11717,6 +12757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathBuildCycle",
           "package": "funcmp",
@@ -11726,6 +12767,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathBuildCycle",
           "normalized": "MPPathBuildCycle[MPPath]",
@@ -11741,6 +12783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathDir",
           "package": "funcmp",
@@ -11750,6 +12793,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathDir",
           "package": "funcmp",
@@ -11763,6 +12807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathDirCurl",
           "package": "funcmp",
@@ -11772,6 +12817,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathDirCurl",
           "package": "funcmp",
@@ -11785,6 +12831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathDirPair",
           "package": "funcmp",
@@ -11794,6 +12841,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathDirPair",
           "package": "funcmp",
@@ -11807,6 +12855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathEnd",
           "package": "funcmp",
@@ -11816,6 +12865,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathEnd",
           "package": "funcmp",
@@ -11829,6 +12879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathEndDir",
           "package": "funcmp",
@@ -11838,6 +12889,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathEndDir",
           "package": "funcmp",
@@ -11851,6 +12903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathJoin",
           "package": "funcmp",
@@ -11860,6 +12913,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathJoin",
           "package": "funcmp",
@@ -11873,6 +12927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathNorm",
           "package": "funcmp",
@@ -11882,6 +12937,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathNorm",
           "package": "funcmp",
@@ -11895,6 +12951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathSub",
           "package": "funcmp",
@@ -11904,6 +12961,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathSub",
           "package": "funcmp",
@@ -11917,6 +12975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathTerm",
           "package": "funcmp",
@@ -11926,6 +12985,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathTerm",
           "package": "funcmp",
@@ -11939,6 +12999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPathTransform",
           "package": "funcmp",
@@ -11948,6 +13009,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPathTransform",
           "package": "funcmp",
@@ -11961,6 +13023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPenCircle",
           "package": "funcmp",
@@ -11970,6 +13033,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPenCircle",
           "normalized": "MPPenCircle(Term,Term)Term",
@@ -11985,6 +13049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPPenSquare",
           "package": "funcmp",
@@ -11994,6 +13059,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPPenSquare",
           "normalized": "MPPenSquare(Term,Term)Term",
@@ -12009,6 +13075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPRelax",
           "package": "funcmp",
@@ -12018,6 +13085,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPRelax",
           "package": "funcmp",
@@ -12031,6 +13099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPReverse",
           "package": "funcmp",
@@ -12040,6 +13109,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPReverse",
           "package": "funcmp",
@@ -12053,6 +13123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPShapeit",
           "package": "funcmp",
@@ -12062,6 +13133,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPShapeit",
           "package": "funcmp",
@@ -12075,6 +13147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPShiftedP",
           "package": "funcmp",
@@ -12084,6 +13157,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPShiftedP",
           "package": "funcmp",
@@ -12097,6 +13171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPSubBox",
           "package": "funcmp",
@@ -12106,6 +13181,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPSubBox",
           "package": "funcmp",
@@ -12119,6 +13195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPSubPath",
           "package": "funcmp",
@@ -12128,6 +13205,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPSubPath",
           "package": "funcmp",
@@ -12141,6 +13219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPTex",
           "package": "funcmp",
@@ -12150,6 +13229,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPTex",
           "package": "funcmp",
@@ -12163,6 +13243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPText",
           "package": "funcmp",
@@ -12172,6 +13253,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPText",
           "package": "funcmp",
@@ -12185,6 +13267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPTransform",
           "package": "funcmp",
@@ -12194,6 +13277,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPTransform",
           "package": "funcmp",
@@ -12207,6 +13291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPTransformP",
           "package": "funcmp",
@@ -12216,6 +13301,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPTransformP",
           "normalized": "MPTransformP[Int]MPPath",
@@ -12231,6 +13317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "MPVerbatim",
           "package": "funcmp",
@@ -12240,6 +13327,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "MPVerbatim",
           "package": "funcmp",
@@ -12253,6 +13341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "defDX",
           "package": "funcmp",
@@ -12262,6 +13351,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "defDX",
           "package": "funcmp",
@@ -12275,6 +13365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "defDY",
           "package": "funcmp",
@@ -12284,6 +13375,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "defDY",
           "package": "funcmp",
@@ -12297,6 +13389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "emit",
           "package": "funcmp",
@@ -12306,6 +13399,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "emit",
           "normalized": "a-\u003eDoc",
@@ -12320,6 +13414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "emitColor'",
           "package": "funcmp",
@@ -12329,6 +13424,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "emitColor'",
           "normalized": "MPColor-\u003eDoc",
@@ -12344,6 +13440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "emitDefTrans",
           "package": "funcmp",
@@ -12353,6 +13450,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "emitDefTrans",
           "normalized": "String-\u003eMPTransform-\u003eDoc",
@@ -12368,6 +13466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "emitDir",
           "package": "funcmp",
@@ -12377,6 +13476,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "emitDir",
           "normalized": "Dir-\u003eString",
@@ -12392,6 +13492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "emitL",
           "package": "funcmp",
@@ -12401,6 +13502,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "emitL",
           "normalized": "[String]-\u003eDoc",
@@ -12415,6 +13517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "emitPattern'",
           "package": "funcmp",
@@ -12424,6 +13527,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "emitPattern'",
           "normalized": "MPPattern-\u003eDoc",
@@ -12439,6 +13543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "emitPen'",
           "package": "funcmp",
@@ -12448,6 +13553,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "emitPen'",
           "normalized": "MPPen-\u003eDoc",
@@ -12463,6 +13569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "emitPen2",
           "package": "funcmp",
@@ -12472,6 +13579,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "emitPen2",
           "normalized": "(a,a)-\u003eb-\u003eDoc",
@@ -12487,6 +13595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpArrowStyle",
           "package": "funcmp",
@@ -12496,6 +13605,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpArrowStyle",
           "normalized": "ArrowHeadStyle-\u003eMPArrowStyle",
@@ -12511,6 +13621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpBoolRelat",
           "package": "funcmp",
@@ -12520,6 +13631,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpBoolRelat",
           "normalized": "BoolRelat-\u003eString",
@@ -12535,6 +13647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpBoolean",
           "package": "funcmp",
@@ -12544,6 +13657,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpBoolean",
           "normalized": "Boolean-\u003eTerm",
@@ -12559,6 +13673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpColor",
           "package": "funcmp",
@@ -12568,6 +13683,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpColor",
           "normalized": "Color-\u003eMPColor",
@@ -12583,6 +13699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpConcs",
           "package": "funcmp",
@@ -12592,6 +13709,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpConcs",
           "normalized": "[MetaPost]-\u003eMetaPost",
@@ -12607,6 +13725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpCutPic",
           "package": "funcmp",
@@ -12616,6 +13735,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpCutPic",
           "normalized": "CutPic-\u003eTerm",
@@ -12631,6 +13751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpEquations",
           "package": "funcmp",
@@ -12640,6 +13761,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpEquations",
           "normalized": "[Equation]-\u003eMetaPost",
@@ -12655,6 +13777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpNEquations",
           "package": "funcmp",
@@ -12664,6 +13787,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpNEquations",
           "normalized": "[Numeric]-\u003e[Term]",
@@ -12679,6 +13803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpNumeric",
           "package": "funcmp",
@@ -12688,6 +13813,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpNumeric",
           "normalized": "Numeric-\u003eTerm",
@@ -12703,6 +13829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpPEquations",
           "package": "funcmp",
@@ -12712,6 +13839,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpPEquations",
           "normalized": "[Point]-\u003e[Term]",
@@ -12727,6 +13855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpPathArrow",
           "package": "funcmp",
@@ -12736,6 +13865,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpPathArrow",
           "normalized": "ArrowHead-\u003eMPArrow",
@@ -12751,6 +13881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpPathRArrow",
           "package": "funcmp",
@@ -12760,6 +13891,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpPathRArrow",
           "normalized": "ArrowHead-\u003eMPArrow",
@@ -12775,6 +13907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpPattern",
           "package": "funcmp",
@@ -12784,6 +13917,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpPattern",
           "normalized": "Pattern-\u003eMPPattern",
@@ -12799,6 +13933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpPen",
           "package": "funcmp",
@@ -12808,6 +13943,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpPen",
           "normalized": "Pen-\u003eMPPen",
@@ -12823,6 +13959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "mpPoint",
           "package": "funcmp",
@@ -12832,6 +13969,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "mpPoint",
           "normalized": "Point-\u003eTerm",
@@ -12847,6 +13985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "pos",
           "package": "funcmp",
@@ -12856,6 +13995,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "pos",
           "normalized": "Int-\u003eInt-\u003eString",
@@ -12870,6 +14010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "savestring",
           "package": "funcmp",
@@ -12879,6 +14020,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "savestring",
           "normalized": "String-\u003eString",
@@ -12893,6 +14035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "shiftRefPoint",
           "package": "funcmp",
@@ -12902,6 +14045,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "shiftRefPoint",
           "normalized": "Int-\u003eTerm",
@@ -12917,6 +14061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "showFF",
           "package": "funcmp",
@@ -12926,6 +14071,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "showFF",
           "normalized": "Double-\u003eShowS",
@@ -12941,6 +14087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "suff",
           "package": "funcmp",
@@ -12950,6 +14097,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "suff",
           "normalized": "Int-\u003eString",
@@ -12964,6 +14112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "tdot",
           "package": "funcmp",
@@ -12973,6 +14122,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "tdot",
           "normalized": "String-\u003eDir-\u003eTerm",
@@ -12987,6 +14137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "tr",
           "package": "funcmp",
@@ -12996,6 +14147,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "tr",
           "normalized": "Int-\u003eString",
@@ -13010,6 +14162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "txtDX",
           "package": "funcmp",
@@ -13019,6 +14172,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "txtDX",
           "package": "funcmp",
@@ -13032,6 +14186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Syntax",
           "name": "txtDY",
           "package": "funcmp",
@@ -13041,6 +14196,7 @@
         },
         "index": {
           "hierarchy": "FMP Syntax",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Syntax",
           "name": "txtDY",
           "package": "funcmp",
@@ -13054,6 +14210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Term",
           "package": "funcmp",
@@ -13062,6 +14219,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Term",
           "package": "funcmp",
@@ -13075,6 +14233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Term",
           "package": "funcmp",
@@ -13083,6 +14242,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Term",
           "package": "funcmp",
@@ -13096,6 +14256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Add",
           "package": "funcmp",
@@ -13105,6 +14266,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Add",
           "package": "funcmp",
@@ -13118,6 +14280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Angle",
           "package": "funcmp",
@@ -13127,6 +14290,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Angle",
           "package": "funcmp",
@@ -13140,6 +14304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Ceil",
           "package": "funcmp",
@@ -13149,6 +14314,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Ceil",
           "package": "funcmp",
@@ -13162,6 +14328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Const",
           "package": "funcmp",
@@ -13171,6 +14338,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Const",
           "package": "funcmp",
@@ -13184,6 +14352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "CosD",
           "package": "funcmp",
@@ -13193,6 +14362,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "CosD",
           "package": "funcmp",
@@ -13206,6 +14376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "CurrentPicture",
           "package": "funcmp",
@@ -13215,6 +14386,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "CurrentPicture",
           "package": "funcmp",
@@ -13228,6 +14400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Dirop",
           "package": "funcmp",
@@ -13237,6 +14410,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Dirop",
           "package": "funcmp",
@@ -13250,6 +14424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Div",
           "package": "funcmp",
@@ -13259,6 +14434,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Div",
           "package": "funcmp",
@@ -13272,6 +14448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Exp",
           "package": "funcmp",
@@ -13281,6 +14458,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Exp",
           "package": "funcmp",
@@ -13294,6 +14472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Floor",
           "package": "funcmp",
@@ -13303,6 +14482,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Floor",
           "package": "funcmp",
@@ -13316,6 +14496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Id",
           "package": "funcmp",
@@ -13325,6 +14506,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Id",
           "package": "funcmp",
@@ -13338,6 +14520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Identity",
           "package": "funcmp",
@@ -13347,6 +14530,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Identity",
           "package": "funcmp",
@@ -13360,6 +14544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "IfElse",
           "package": "funcmp",
@@ -13369,6 +14554,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "IfElse",
           "package": "funcmp",
@@ -13382,6 +14568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Infix",
           "package": "funcmp",
@@ -13391,6 +14578,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Infix",
           "package": "funcmp",
@@ -13404,6 +14592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "LLCorner",
           "package": "funcmp",
@@ -13413,6 +14602,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "LLCorner",
           "package": "funcmp",
@@ -13426,6 +14616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Ln",
           "package": "funcmp",
@@ -13435,6 +14626,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Ln",
           "package": "funcmp",
@@ -13448,6 +14640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Max",
           "package": "funcmp",
@@ -13457,6 +14650,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Max",
           "normalized": "Max[Term]",
@@ -13472,6 +14666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Mediate",
           "package": "funcmp",
@@ -13481,6 +14676,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Mediate",
           "package": "funcmp",
@@ -13494,6 +14690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Min",
           "package": "funcmp",
@@ -13503,6 +14700,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Min",
           "normalized": "Min[Term]",
@@ -13518,6 +14716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Mul",
           "package": "funcmp",
@@ -13527,6 +14726,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Mul",
           "package": "funcmp",
@@ -13540,6 +14740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Neg",
           "package": "funcmp",
@@ -13549,6 +14750,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Neg",
           "package": "funcmp",
@@ -13562,6 +14764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Pair",
           "package": "funcmp",
@@ -13571,6 +14774,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Pair",
           "package": "funcmp",
@@ -13584,6 +14788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Parens",
           "package": "funcmp",
@@ -13593,6 +14798,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Parens",
           "package": "funcmp",
@@ -13606,6 +14812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Pic",
           "package": "funcmp",
@@ -13615,6 +14822,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Pic",
           "package": "funcmp",
@@ -13628,6 +14836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Pos",
           "package": "funcmp",
@@ -13637,6 +14846,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Pos",
           "package": "funcmp",
@@ -13650,6 +14860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Power",
           "package": "funcmp",
@@ -13659,6 +14870,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Power",
           "package": "funcmp",
@@ -13672,6 +14884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Pythagoras",
           "package": "funcmp",
@@ -13681,6 +14894,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Pythagoras",
           "package": "funcmp",
@@ -13694,6 +14908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Round",
           "package": "funcmp",
@@ -13703,6 +14918,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Round",
           "package": "funcmp",
@@ -13716,6 +14932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Shifted",
           "package": "funcmp",
@@ -13725,6 +14942,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Shifted",
           "package": "funcmp",
@@ -13738,6 +14956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "SinD",
           "package": "funcmp",
@@ -13747,6 +14966,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "SinD",
           "package": "funcmp",
@@ -13760,6 +14980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Sqrt",
           "package": "funcmp",
@@ -13769,6 +14990,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Sqrt",
           "package": "funcmp",
@@ -13782,6 +15004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Sub",
           "package": "funcmp",
@@ -13791,6 +15014,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Sub",
           "package": "funcmp",
@@ -13804,6 +15028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "TDot",
           "package": "funcmp",
@@ -13813,6 +15038,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "TDot",
           "package": "funcmp",
@@ -13826,6 +15052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Transform",
           "package": "funcmp",
@@ -13835,6 +15062,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Transform",
           "normalized": "Transform[Int]Term",
@@ -13850,6 +15078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "Transformed",
           "package": "funcmp",
@@ -13859,6 +15088,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "Transformed",
           "package": "funcmp",
@@ -13872,6 +15102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "TransformedM",
           "package": "funcmp",
@@ -13881,6 +15112,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "TransformedM",
           "package": "funcmp",
@@ -13894,6 +15126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "URCorner",
           "package": "funcmp",
@@ -13903,6 +15136,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "URCorner",
           "package": "funcmp",
@@ -13916,6 +15150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "VerbFunction",
           "package": "funcmp",
@@ -13925,6 +15160,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "VerbFunction",
           "package": "funcmp",
@@ -13938,6 +15174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "XPart",
           "package": "funcmp",
@@ -13947,6 +15184,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "XPart",
           "package": "funcmp",
@@ -13960,6 +15198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "YPart",
           "package": "funcmp",
@@ -13969,6 +15208,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "YPart",
           "package": "funcmp",
@@ -13982,6 +15222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "add",
           "package": "funcmp",
@@ -13991,6 +15232,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "add",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -14005,6 +15247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "max'",
           "package": "funcmp",
@@ -14014,6 +15257,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "max'",
           "normalized": "[Term]-\u003eTerm",
@@ -14028,6 +15272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "mul",
           "package": "funcmp",
@@ -14037,6 +15282,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "mul",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -14051,6 +15297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "pair",
           "package": "funcmp",
@@ -14060,6 +15307,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "pair",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -14074,6 +15322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Term",
           "name": "sub",
           "package": "funcmp",
@@ -14083,6 +15332,7 @@
         },
         "index": {
           "hierarchy": "FMP Term",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Term",
           "name": "sub",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -14097,6 +15347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Tree",
           "package": "funcmp",
@@ -14105,6 +15356,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Tree",
           "package": "funcmp",
@@ -14118,6 +15370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "AlignSons",
           "package": "funcmp",
@@ -14126,6 +15379,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "AlignSons",
           "package": "funcmp",
@@ -14139,6 +15393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Distance",
           "package": "funcmp",
@@ -14147,6 +15402,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Distance",
           "package": "funcmp",
@@ -14160,6 +15416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Edge",
           "package": "funcmp",
@@ -14168,6 +15425,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Edge",
           "package": "funcmp",
@@ -14181,6 +15439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "NodeName",
           "package": "funcmp",
@@ -14189,6 +15448,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "NodeName",
           "package": "funcmp",
@@ -14202,6 +15462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Tree",
           "package": "funcmp",
@@ -14210,6 +15471,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Tree",
           "package": "funcmp",
@@ -14223,6 +15485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Tree'",
           "package": "funcmp",
@@ -14231,6 +15494,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Tree'",
           "package": "funcmp",
@@ -14244,6 +15508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "AlignAngles",
           "package": "funcmp",
@@ -14253,6 +15518,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "AlignAngles",
           "normalized": "AlignAngles[Numeric]",
@@ -14268,6 +15534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "AlignConst",
           "package": "funcmp",
@@ -14277,6 +15544,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "AlignConst",
           "package": "funcmp",
@@ -14290,6 +15558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "AlignFunction",
           "package": "funcmp",
@@ -14299,6 +15568,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "AlignFunction",
           "normalized": "AlignFunction(NodeDescr-\u003e[Extent]-\u003eInt-\u003e[Numeric])",
@@ -14314,6 +15584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "AlignLeft",
           "package": "funcmp",
@@ -14323,6 +15594,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "AlignLeft",
           "package": "funcmp",
@@ -14336,6 +15608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "AlignLeftSon",
           "package": "funcmp",
@@ -14345,6 +15618,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "AlignLeftSon",
           "package": "funcmp",
@@ -14358,6 +15632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "AlignOverN",
           "package": "funcmp",
@@ -14367,6 +15642,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "AlignOverN",
           "package": "funcmp",
@@ -14380,6 +15656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "AlignRight",
           "package": "funcmp",
@@ -14389,6 +15666,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "AlignRight",
           "package": "funcmp",
@@ -14402,6 +15680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "AlignRightSon",
           "package": "funcmp",
@@ -14411,6 +15690,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "AlignRightSon",
           "package": "funcmp",
@@ -14424,6 +15704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Cross",
           "package": "funcmp",
@@ -14433,6 +15714,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Cross",
           "package": "funcmp",
@@ -14446,6 +15728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "DefaultAlign",
           "package": "funcmp",
@@ -14455,6 +15738,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "DefaultAlign",
           "package": "funcmp",
@@ -14468,6 +15752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "DistBorder",
           "package": "funcmp",
@@ -14477,6 +15762,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "DistBorder",
           "package": "funcmp",
@@ -14490,6 +15776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "DistCenter",
           "package": "funcmp",
@@ -14499,6 +15786,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "DistCenter",
           "package": "funcmp",
@@ -14512,6 +15800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Edge",
           "package": "funcmp",
@@ -14521,6 +15810,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Edge",
           "package": "funcmp",
@@ -14534,6 +15824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Node",
           "package": "funcmp",
@@ -14543,6 +15834,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Node",
           "normalized": "Node Picture NodeDescr[Edge]",
@@ -14558,6 +15850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Node'",
           "package": "funcmp",
@@ -14567,6 +15860,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Node'",
           "normalized": "Node' a NodeDescr[Tree' a]",
@@ -14582,6 +15876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Parent",
           "package": "funcmp",
@@ -14591,6 +15886,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Parent",
           "package": "funcmp",
@@ -14604,6 +15900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Root",
           "package": "funcmp",
@@ -14613,6 +15910,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Root",
           "package": "funcmp",
@@ -14626,6 +15924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Son",
           "package": "funcmp",
@@ -14635,6 +15934,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Son",
           "package": "funcmp",
@@ -14648,6 +15948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "This",
           "package": "funcmp",
@@ -14657,6 +15958,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "This",
           "package": "funcmp",
@@ -14670,6 +15972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "Up",
           "package": "funcmp",
@@ -14679,6 +15982,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "Up",
           "package": "funcmp",
@@ -14692,6 +15996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "alignAngles",
           "package": "funcmp",
@@ -14701,6 +16006,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "alignAngles",
           "normalized": "[Numeric]-\u003eAlignSons",
@@ -14716,6 +16022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "alignConst",
           "package": "funcmp",
@@ -14725,6 +16032,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "alignConst",
           "normalized": "Numeric-\u003eAlignSons",
@@ -14740,6 +16048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "alignFunction",
           "package": "funcmp",
@@ -14749,6 +16058,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "alignFunction",
           "normalized": "(NodeDescr-\u003e[Extent]-\u003eInt-\u003e[Numeric])-\u003eAlignSons",
@@ -14764,6 +16074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "alignLeft",
           "package": "funcmp",
@@ -14773,6 +16084,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "alignLeft",
           "package": "funcmp",
@@ -14786,6 +16098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "alignLeftSon",
           "package": "funcmp",
@@ -14795,6 +16108,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "alignLeftSon",
           "package": "funcmp",
@@ -14808,6 +16122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "alignOverN",
           "package": "funcmp",
@@ -14817,6 +16132,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "alignOverN",
           "normalized": "Int-\u003eAlignSons",
@@ -14832,6 +16148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "alignRight",
           "package": "funcmp",
@@ -14841,6 +16158,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "alignRight",
           "package": "funcmp",
@@ -14854,6 +16172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "alignRightSon",
           "package": "funcmp",
@@ -14863,6 +16182,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "alignRightSon",
           "package": "funcmp",
@@ -14876,6 +16196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "cross",
           "package": "funcmp",
@@ -14885,6 +16206,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "cross",
           "normalized": "Point-\u003eEdge",
@@ -14899,6 +16221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "cross'",
           "package": "funcmp",
@@ -14908,6 +16231,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "cross'",
           "normalized": "Path-\u003eEdge",
@@ -14922,6 +16246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "defaultAlign",
           "package": "funcmp",
@@ -14931,6 +16256,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "defaultAlign",
           "package": "funcmp",
@@ -14944,6 +16270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "distBorder",
           "package": "funcmp",
@@ -14953,6 +16280,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "distBorder",
           "normalized": "Numeric-\u003eDistance",
@@ -14968,6 +16296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "distCenter",
           "package": "funcmp",
@@ -14977,6 +16306,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "distCenter",
           "normalized": "Numeric-\u003eDistance",
@@ -14992,6 +16322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "edge",
           "package": "funcmp",
@@ -15001,6 +16332,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "edge",
           "normalized": "Tree-\u003eEdge",
@@ -15015,6 +16347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "edge'",
           "package": "funcmp",
@@ -15024,6 +16357,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "edge'",
           "normalized": "Path-\u003eTree-\u003eEdge",
@@ -15038,6 +16372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "enode",
           "package": "funcmp",
@@ -15047,6 +16382,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "enode",
           "normalized": "a-\u003e[Edge]-\u003eEdge",
@@ -15061,6 +16397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "fit",
           "package": "funcmp",
@@ -15070,6 +16407,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "fit",
           "normalized": "Numeric-\u003eExtent-\u003eExtent-\u003ePosition",
@@ -15084,6 +16422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "fitLeft",
           "package": "funcmp",
@@ -15093,6 +16432,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "fitLeft",
           "normalized": "Numeric-\u003e[Extent]-\u003e[Position]",
@@ -15108,6 +16448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "fitRight",
           "package": "funcmp",
@@ -15117,6 +16458,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "fitRight",
           "normalized": "Numeric-\u003e[Extent]-\u003e[Position]",
@@ -15132,6 +16474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "forEachEdge",
           "package": "funcmp",
@@ -15141,6 +16484,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "forEachEdge",
           "normalized": "(Path-\u003ePath)-\u003eTree-\u003eTree",
@@ -15156,6 +16500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "forEachLevelNode",
           "package": "funcmp",
@@ -15165,6 +16510,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "forEachLevelNode",
           "normalized": "Int-\u003e(Tree-\u003eTree)-\u003eTree-\u003eTree",
@@ -15180,6 +16526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "forEachNode",
           "package": "funcmp",
@@ -15189,6 +16536,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "forEachNode",
           "normalized": "(Tree-\u003eTree)-\u003eTree-\u003eTree",
@@ -15204,6 +16552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "forEachPic",
           "package": "funcmp",
@@ -15213,6 +16562,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "forEachPic",
           "normalized": "(Picture-\u003ePicture)-\u003eTree-\u003eTree",
@@ -15228,6 +16578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "getAlign",
           "package": "funcmp",
@@ -15237,6 +16588,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "getAlign",
           "normalized": "Tree-\u003eAlignSons",
@@ -15252,6 +16604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "getDistH",
           "package": "funcmp",
@@ -15261,6 +16614,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "getDistH",
           "normalized": "Tree-\u003eDistance",
@@ -15276,6 +16630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "getDistV",
           "package": "funcmp",
@@ -15285,6 +16640,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "getDistV",
           "normalized": "Tree-\u003eDistance",
@@ -15300,6 +16656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "node",
           "package": "funcmp",
@@ -15309,6 +16666,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "node",
           "normalized": "a-\u003e[Edge]-\u003eTree",
@@ -15323,6 +16681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "number",
           "package": "funcmp",
@@ -15332,6 +16691,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "number",
           "normalized": "Tree-\u003eTree'(Int,Int,Int)",
@@ -15346,6 +16706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "setAlign",
           "package": "funcmp",
@@ -15355,6 +16716,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "setAlign",
           "normalized": "AlignSons-\u003eTree-\u003eTree",
@@ -15370,6 +16732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "setDistH",
           "package": "funcmp",
@@ -15379,6 +16742,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "setDistH",
           "normalized": "Distance-\u003eTree-\u003eTree",
@@ -15394,6 +16758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "setDistV",
           "package": "funcmp",
@@ -15403,6 +16768,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "setDistV",
           "normalized": "Distance-\u003eTree-\u003eTree",
@@ -15418,6 +16784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Tree",
           "name": "stair",
           "package": "funcmp",
@@ -15427,6 +16794,7 @@
         },
         "index": {
           "hierarchy": "FMP Tree",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Tree",
           "name": "stair",
           "normalized": "Point-\u003ePoint-\u003ePath",
@@ -15441,6 +16809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "Turtle",
           "package": "funcmp",
@@ -15449,6 +16818,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "Turtle",
           "package": "funcmp",
@@ -15462,6 +16832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "Turtle",
           "package": "funcmp",
@@ -15470,6 +16841,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "Turtle",
           "package": "funcmp",
@@ -15483,6 +16855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TurtleAttrib",
           "package": "funcmp",
@@ -15491,6 +16864,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TurtleAttrib",
           "package": "funcmp",
@@ -15504,6 +16878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TAttrib",
           "package": "funcmp",
@@ -15513,6 +16888,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TAttrib",
           "package": "funcmp",
@@ -15526,6 +16902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TAttribFork",
           "package": "funcmp",
@@ -15535,6 +16912,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TAttribFork",
           "normalized": "TAttribFork[TurtleAttrib][TurtleAttrib]",
@@ -15550,6 +16928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TColor",
           "package": "funcmp",
@@ -15559,6 +16938,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TColor",
           "package": "funcmp",
@@ -15572,6 +16952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TConc",
           "package": "funcmp",
@@ -15581,6 +16962,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TConc",
           "package": "funcmp",
@@ -15594,6 +16976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TDropPic",
           "package": "funcmp",
@@ -15603,6 +16986,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TDropPic",
           "package": "funcmp",
@@ -15616,6 +17000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TFork",
           "package": "funcmp",
@@ -15625,6 +17010,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TFork",
           "package": "funcmp",
@@ -15638,6 +17024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TForward",
           "package": "funcmp",
@@ -15647,6 +17034,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TForward",
           "package": "funcmp",
@@ -15660,6 +17048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "THide",
           "package": "funcmp",
@@ -15669,6 +17058,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "THide",
           "package": "funcmp",
@@ -15682,6 +17072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "THome",
           "package": "funcmp",
@@ -15691,6 +17082,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "THome",
           "package": "funcmp",
@@ -15704,6 +17096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TPen",
           "package": "funcmp",
@@ -15713,6 +17106,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TPen",
           "package": "funcmp",
@@ -15726,6 +17120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TPenDown",
           "package": "funcmp",
@@ -15735,6 +17130,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TPenDown",
           "package": "funcmp",
@@ -15748,6 +17144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TPenUp",
           "package": "funcmp",
@@ -15757,6 +17154,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TPenUp",
           "package": "funcmp",
@@ -15770,6 +17168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "TTurn",
           "package": "funcmp",
@@ -15779,6 +17178,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "TTurn",
           "package": "funcmp",
@@ -15792,6 +17192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "backward",
           "package": "funcmp",
@@ -15801,6 +17202,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "backward",
           "normalized": "Numeric-\u003eTurtle",
@@ -15815,6 +17217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "figure",
           "package": "funcmp",
@@ -15824,6 +17227,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "figure",
           "normalized": "Turtle-\u003ePathElemDescr-\u003e([Path],[PicPos])",
@@ -15838,6 +17242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "fork",
           "package": "funcmp",
@@ -15847,6 +17252,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "fork",
           "normalized": "Turtle-\u003eTurtle-\u003eTurtle",
@@ -15861,6 +17267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "forward",
           "package": "funcmp",
@@ -15870,6 +17277,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "forward",
           "normalized": "Numeric-\u003eTurtle",
@@ -15884,6 +17292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "home",
           "package": "funcmp",
@@ -15893,6 +17302,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "home",
           "package": "funcmp",
@@ -15905,6 +17315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "penDown",
           "package": "funcmp",
@@ -15914,6 +17325,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "penDown",
           "package": "funcmp",
@@ -15927,6 +17339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "penUp",
           "package": "funcmp",
@@ -15936,6 +17349,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "penUp",
           "package": "funcmp",
@@ -15949,6 +17363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "plot",
           "package": "funcmp",
@@ -15958,6 +17373,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "plot",
           "normalized": "[Turtle]-\u003eTurtle",
@@ -15972,6 +17388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "spreadAttrib",
           "package": "funcmp",
@@ -15981,6 +17398,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "spreadAttrib",
           "normalized": "PathElemDescr-\u003eTurtle-\u003e[TurtleAttrib]-\u003e[TurtleAttrib]",
@@ -15996,6 +17414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "toleft",
           "package": "funcmp",
@@ -16005,6 +17424,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "toleft",
           "package": "funcmp",
@@ -16017,6 +17437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "toright",
           "package": "funcmp",
@@ -16026,6 +17447,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "toright",
           "package": "funcmp",
@@ -16038,6 +17460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "turn",
           "package": "funcmp",
@@ -16047,6 +17470,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "turn",
           "normalized": "Numeric-\u003eTurtle",
@@ -16061,6 +17485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "turnl",
           "package": "funcmp",
@@ -16070,6 +17495,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "turnl",
           "normalized": "Numeric-\u003eTurtle",
@@ -16084,6 +17510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "turnr",
           "package": "funcmp",
@@ -16093,6 +17520,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "turnr",
           "normalized": "Numeric-\u003eTurtle",
@@ -16107,6 +17535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Turtle",
           "name": "turtle",
           "package": "funcmp",
@@ -16116,6 +17545,7 @@
         },
         "index": {
           "hierarchy": "FMP Turtle",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Turtle",
           "name": "turtle",
           "normalized": "a-\u003ePicture",
@@ -16130,6 +17560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Types",
           "package": "funcmp",
@@ -16138,6 +17569,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Types",
           "package": "funcmp",
@@ -16151,6 +17583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "BoolRelat",
           "package": "funcmp",
@@ -16159,6 +17592,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "BoolRelat",
           "package": "funcmp",
@@ -16172,6 +17606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Boolean",
           "package": "funcmp",
@@ -16180,6 +17615,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Boolean",
           "package": "funcmp",
@@ -16193,6 +17629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Dir",
           "package": "funcmp",
@@ -16201,6 +17638,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Dir",
           "package": "funcmp",
@@ -16214,6 +17652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Equation",
           "package": "funcmp",
@@ -16222,6 +17661,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Equation",
           "package": "funcmp",
@@ -16235,6 +17675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "FunNN",
           "package": "funcmp",
@@ -16243,6 +17684,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "FunNN",
           "package": "funcmp",
@@ -16256,6 +17698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "FunNNN",
           "package": "funcmp",
@@ -16264,6 +17707,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "FunNNN",
           "package": "funcmp",
@@ -16277,6 +17721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "FunNsN",
           "package": "funcmp",
@@ -16285,6 +17730,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "FunNsN",
           "package": "funcmp",
@@ -16298,6 +17744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "FunPN",
           "package": "funcmp",
@@ -16306,6 +17753,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "FunPN",
           "package": "funcmp",
@@ -16319,6 +17767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "FunPPP",
           "package": "funcmp",
@@ -16327,6 +17776,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "FunPPP",
           "package": "funcmp",
@@ -16340,6 +17790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "HasCond",
           "package": "funcmp",
@@ -16348,6 +17799,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "HasCond",
           "package": "funcmp",
@@ -16361,6 +17813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "HasDefault",
           "package": "funcmp",
@@ -16369,6 +17822,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "HasDefault",
           "package": "funcmp",
@@ -16382,6 +17836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "HasMed",
           "package": "funcmp",
@@ -16390,6 +17845,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "HasMed",
           "package": "funcmp",
@@ -16403,6 +17859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "HasRelax",
           "package": "funcmp",
@@ -16411,6 +17868,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "HasRelax",
           "package": "funcmp",
@@ -16424,6 +17882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "IsName",
           "package": "funcmp",
@@ -16432,6 +17891,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "IsName",
           "package": "funcmp",
@@ -16445,6 +17905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Name",
           "package": "funcmp",
@@ -16453,6 +17914,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Name",
           "package": "funcmp",
@@ -16466,6 +17928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Numeric",
           "package": "funcmp",
@@ -16474,6 +17937,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Numeric",
           "package": "funcmp",
@@ -16487,6 +17951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Pattern",
           "package": "funcmp",
@@ -16495,6 +17960,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Pattern",
           "package": "funcmp",
@@ -16508,6 +17974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Pen",
           "package": "funcmp",
@@ -16516,6 +17983,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Pen",
           "package": "funcmp",
@@ -16529,6 +17997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Point",
           "package": "funcmp",
@@ -16537,6 +18006,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Point",
           "package": "funcmp",
@@ -16550,6 +18020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "(**)",
           "package": "funcmp",
@@ -16558,6 +18029,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "(**) **",
           "normalized": "a-\u003ea-\u003ea",
@@ -16572,6 +18044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "(\u003c*)",
           "package": "funcmp",
@@ -16581,6 +18054,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "(\u003c*) \u003c*",
           "normalized": "Int-\u003ea-\u003eName",
@@ -16595,6 +18069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "(\u003c+)",
           "package": "funcmp",
@@ -16604,6 +18079,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "(\u003c+) \u003c+",
           "normalized": "a-\u003eb-\u003eName",
@@ -16618,6 +18094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "(.*)",
           "package": "funcmp",
@@ -16627,6 +18104,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "(.*) .*",
           "normalized": "Numeric-\u003ePoint-\u003ePoint",
@@ -16641,6 +18119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "(./=)",
           "package": "funcmp",
@@ -16650,6 +18129,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "(./=) ./=",
           "normalized": "a-\u003ea-\u003eBoolean",
@@ -16664,6 +18144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "(.\u003c)",
           "package": "funcmp",
@@ -16673,6 +18154,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "(.\u003c) .\u003c",
           "normalized": "a-\u003ea-\u003eBoolean",
@@ -16687,6 +18169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "(.\u003c=)",
           "package": "funcmp",
@@ -16696,6 +18179,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "(.\u003c=) .\u003c=",
           "normalized": "a-\u003ea-\u003eBoolean",
@@ -16710,6 +18194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "(.=)",
           "package": "funcmp",
@@ -16719,6 +18204,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "(.=) .=",
           "normalized": "a-\u003ea-\u003eEquation",
@@ -16733,6 +18219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "(.==)",
           "package": "funcmp",
@@ -16742,6 +18229,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "(.==) .==",
           "normalized": "a-\u003ea-\u003eBoolean",
@@ -16756,6 +18244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "BoolAnd",
           "package": "funcmp",
@@ -16765,6 +18254,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "BoolAnd",
           "package": "funcmp",
@@ -16778,6 +18268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "BoolEQ",
           "package": "funcmp",
@@ -16787,6 +18278,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "BoolEQ",
           "package": "funcmp",
@@ -16800,6 +18292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "BoolL",
           "package": "funcmp",
@@ -16809,6 +18302,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "BoolL",
           "package": "funcmp",
@@ -16822,6 +18316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "BoolLE",
           "package": "funcmp",
@@ -16831,6 +18326,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "BoolLE",
           "package": "funcmp",
@@ -16844,6 +18340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "BoolNE",
           "package": "funcmp",
@@ -16853,6 +18350,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "BoolNE",
           "package": "funcmp",
@@ -16866,6 +18364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "BoolNot",
           "package": "funcmp",
@@ -16875,6 +18374,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "BoolNot",
           "package": "funcmp",
@@ -16888,6 +18388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "BoolNum",
           "package": "funcmp",
@@ -16897,6 +18398,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "BoolNum",
           "package": "funcmp",
@@ -16910,6 +18412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "BoolOr",
           "package": "funcmp",
@@ -16919,6 +18422,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "BoolOr",
           "package": "funcmp",
@@ -16932,6 +18436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "BoolPnt",
           "package": "funcmp",
@@ -16941,6 +18446,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "BoolPnt",
           "package": "funcmp",
@@ -16954,6 +18460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Boolean",
           "package": "funcmp",
@@ -16963,6 +18470,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Boolean",
           "package": "funcmp",
@@ -16976,6 +18484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "C",
           "package": "funcmp",
@@ -16985,6 +18494,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "C",
           "package": "funcmp",
@@ -16997,6 +18507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "DashPattern",
           "package": "funcmp",
@@ -17006,6 +18517,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "DashPattern",
           "normalized": "DashPattern[Double]",
@@ -17021,6 +18533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "DefaultPattern",
           "package": "funcmp",
@@ -17030,6 +18543,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "DefaultPattern",
           "package": "funcmp",
@@ -17043,6 +18557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "DefaultPen",
           "package": "funcmp",
@@ -17052,6 +18567,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "DefaultPen",
           "package": "funcmp",
@@ -17065,6 +18581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "E",
           "package": "funcmp",
@@ -17074,6 +18591,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "E",
           "package": "funcmp",
@@ -17086,6 +18604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "EquationCond",
           "package": "funcmp",
@@ -17095,6 +18614,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "EquationCond",
           "package": "funcmp",
@@ -17108,6 +18628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Equations",
           "package": "funcmp",
@@ -17117,6 +18638,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Equations",
           "normalized": "Equations[Equation]",
@@ -17132,6 +18654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Global",
           "package": "funcmp",
@@ -17141,6 +18664,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Global",
           "package": "funcmp",
@@ -17154,6 +18678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Hier",
           "package": "funcmp",
@@ -17163,6 +18688,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Hier",
           "package": "funcmp",
@@ -17176,6 +18702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "N",
           "package": "funcmp",
@@ -17185,6 +18712,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "N",
           "package": "funcmp",
@@ -17197,6 +18725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NE",
           "package": "funcmp",
@@ -17206,6 +18735,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NE",
           "package": "funcmp",
@@ -17219,6 +18749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NEquations",
           "package": "funcmp",
@@ -17228,6 +18759,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NEquations",
           "normalized": "NEquations[Numeric]",
@@ -17243,6 +18775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNCeil",
           "package": "funcmp",
@@ -17252,6 +18785,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNCeil",
           "package": "funcmp",
@@ -17265,6 +18799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNCosD",
           "package": "funcmp",
@@ -17274,6 +18809,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNCosD",
           "package": "funcmp",
@@ -17287,6 +18823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNExp",
           "package": "funcmp",
@@ -17296,6 +18833,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNExp",
           "package": "funcmp",
@@ -17309,6 +18847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNFloor",
           "package": "funcmp",
@@ -17318,6 +18857,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNFloor",
           "package": "funcmp",
@@ -17331,6 +18871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNLog",
           "package": "funcmp",
@@ -17340,6 +18881,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNLog",
           "package": "funcmp",
@@ -17353,6 +18895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNNAdd",
           "package": "funcmp",
@@ -17362,6 +18905,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNNAdd",
           "package": "funcmp",
@@ -17375,6 +18919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNNDiv",
           "package": "funcmp",
@@ -17384,6 +18929,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNNDiv",
           "package": "funcmp",
@@ -17397,6 +18943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNNMul",
           "package": "funcmp",
@@ -17406,6 +18953,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNNMul",
           "package": "funcmp",
@@ -17419,6 +18967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNNPower",
           "package": "funcmp",
@@ -17428,6 +18977,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNNPower",
           "package": "funcmp",
@@ -17441,6 +18991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNNPyth",
           "package": "funcmp",
@@ -17450,6 +19001,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNNPyth",
           "package": "funcmp",
@@ -17463,6 +19015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNNSub",
           "package": "funcmp",
@@ -17472,6 +19025,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNNSub",
           "package": "funcmp",
@@ -17485,6 +19039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNNeg",
           "package": "funcmp",
@@ -17494,6 +19049,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNNeg",
           "package": "funcmp",
@@ -17507,6 +19063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNRound",
           "package": "funcmp",
@@ -17516,6 +19073,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNRound",
           "package": "funcmp",
@@ -17529,6 +19087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNSinD",
           "package": "funcmp",
@@ -17538,6 +19097,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNSinD",
           "package": "funcmp",
@@ -17551,6 +19111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NNSqrt",
           "package": "funcmp",
@@ -17560,6 +19121,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NNSqrt",
           "package": "funcmp",
@@ -17573,6 +19135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NW",
           "package": "funcmp",
@@ -17582,6 +19145,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NW",
           "package": "funcmp",
@@ -17595,6 +19159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NameDir",
           "package": "funcmp",
@@ -17604,6 +19169,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NameDir",
           "package": "funcmp",
@@ -17617,6 +19183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NameInt",
           "package": "funcmp",
@@ -17626,6 +19193,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NameInt",
           "package": "funcmp",
@@ -17639,6 +19207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NameStr",
           "package": "funcmp",
@@ -17648,6 +19217,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NameStr",
           "package": "funcmp",
@@ -17661,6 +19231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NsNMax",
           "package": "funcmp",
@@ -17670,6 +19241,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NsNMax",
           "package": "funcmp",
@@ -17683,6 +19255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NsNMin",
           "package": "funcmp",
@@ -17692,6 +19265,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NsNMin",
           "package": "funcmp",
@@ -17705,6 +19279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "Numeric",
           "package": "funcmp",
@@ -17714,6 +19289,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "Numeric",
           "package": "funcmp",
@@ -17727,6 +19303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NumericArray'",
           "package": "funcmp",
@@ -17736,6 +19313,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NumericArray'",
           "package": "funcmp",
@@ -17749,6 +19327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NumericCond",
           "package": "funcmp",
@@ -17758,6 +19337,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NumericCond",
           "package": "funcmp",
@@ -17771,6 +19351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NumericDist",
           "package": "funcmp",
@@ -17780,6 +19361,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NumericDist",
           "package": "funcmp",
@@ -17793,6 +19375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NumericMediate",
           "package": "funcmp",
@@ -17802,6 +19385,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NumericMediate",
           "package": "funcmp",
@@ -17815,6 +19399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NumericNN",
           "package": "funcmp",
@@ -17824,6 +19409,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NumericNN",
           "package": "funcmp",
@@ -17837,6 +19423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NumericNNN",
           "package": "funcmp",
@@ -17846,6 +19433,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NumericNNN",
           "package": "funcmp",
@@ -17859,6 +19447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NumericNsN",
           "package": "funcmp",
@@ -17868,6 +19457,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NumericNsN",
           "normalized": "NumericNsN FunNsN[Numeric]",
@@ -17883,6 +19473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NumericPN",
           "package": "funcmp",
@@ -17892,6 +19483,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NumericPN",
           "package": "funcmp",
@@ -17905,6 +19497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NumericVar",
           "package": "funcmp",
@@ -17914,6 +19507,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NumericVar",
           "package": "funcmp",
@@ -17927,6 +19521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NumericVar'",
           "package": "funcmp",
@@ -17936,6 +19531,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NumericVar'",
           "package": "funcmp",
@@ -17949,6 +19545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "NumericWhatever",
           "package": "funcmp",
@@ -17958,6 +19555,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "NumericWhatever",
           "package": "funcmp",
@@ -17971,6 +19569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PEquations",
           "package": "funcmp",
@@ -17980,6 +19579,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PEquations",
           "normalized": "PEquations[Point]",
@@ -17995,6 +19595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PNAngle",
           "package": "funcmp",
@@ -18004,6 +19605,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PNAngle",
           "package": "funcmp",
@@ -18017,6 +19619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PNXPart",
           "package": "funcmp",
@@ -18026,6 +19629,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PNXPart",
           "package": "funcmp",
@@ -18039,6 +19643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PNYPart",
           "package": "funcmp",
@@ -18048,6 +19653,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PNYPart",
           "package": "funcmp",
@@ -18061,6 +19667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PPPAdd",
           "package": "funcmp",
@@ -18070,6 +19677,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PPPAdd",
           "package": "funcmp",
@@ -18083,6 +19691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PPPDiv",
           "package": "funcmp",
@@ -18092,6 +19701,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PPPDiv",
           "package": "funcmp",
@@ -18105,6 +19715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PPPSub",
           "package": "funcmp",
@@ -18114,6 +19725,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PPPSub",
           "package": "funcmp",
@@ -18127,6 +19739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PenCircle",
           "package": "funcmp",
@@ -18136,6 +19749,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PenCircle",
           "normalized": "PenCircle(Numeric,Numeric)Numeric",
@@ -18151,6 +19765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PenSquare",
           "package": "funcmp",
@@ -18160,6 +19775,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PenSquare",
           "normalized": "PenSquare(Numeric,Numeric)Numeric",
@@ -18175,6 +19791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointCond",
           "package": "funcmp",
@@ -18184,6 +19801,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointCond",
           "package": "funcmp",
@@ -18197,6 +19815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointDirection",
           "package": "funcmp",
@@ -18206,6 +19825,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointDirection",
           "package": "funcmp",
@@ -18219,6 +19839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointMediate",
           "package": "funcmp",
@@ -18228,6 +19849,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointMediate",
           "package": "funcmp",
@@ -18241,6 +19863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointNMul",
           "package": "funcmp",
@@ -18250,6 +19873,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointNMul",
           "package": "funcmp",
@@ -18263,6 +19887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointNeg",
           "package": "funcmp",
@@ -18272,6 +19897,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointNeg",
           "package": "funcmp",
@@ -18285,6 +19911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointPPP",
           "package": "funcmp",
@@ -18294,6 +19921,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointPPP",
           "package": "funcmp",
@@ -18307,6 +19935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointPic'",
           "package": "funcmp",
@@ -18316,6 +19945,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointPic'",
           "package": "funcmp",
@@ -18329,6 +19959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointTrans'",
           "package": "funcmp",
@@ -18338,6 +19969,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointTrans'",
           "normalized": "PointTrans' Point[Int]",
@@ -18353,6 +19985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointVar",
           "package": "funcmp",
@@ -18362,6 +19995,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointVar",
           "package": "funcmp",
@@ -18375,6 +20009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointVar'",
           "package": "funcmp",
@@ -18384,6 +20019,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointVar'",
           "package": "funcmp",
@@ -18397,6 +20033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointVarArray'",
           "package": "funcmp",
@@ -18406,6 +20043,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointVarArray'",
           "package": "funcmp",
@@ -18419,6 +20057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointVec",
           "package": "funcmp",
@@ -18428,6 +20067,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointVec",
           "normalized": "PointVec(Numeric,Numeric)",
@@ -18443,6 +20083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "PointWhatever",
           "package": "funcmp",
@@ -18452,6 +20093,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "PointWhatever",
           "package": "funcmp",
@@ -18465,6 +20107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "S",
           "package": "funcmp",
@@ -18474,6 +20117,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "S",
           "package": "funcmp",
@@ -18486,6 +20130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "SE",
           "package": "funcmp",
@@ -18495,6 +20140,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "SE",
           "package": "funcmp",
@@ -18508,6 +20154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "SW",
           "package": "funcmp",
@@ -18517,6 +20164,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "SW",
           "package": "funcmp",
@@ -18530,6 +20178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "W",
           "package": "funcmp",
@@ -18539,6 +20188,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "W",
           "package": "funcmp",
@@ -18551,6 +20201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "acos",
           "package": "funcmp",
@@ -18559,6 +20210,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "acos",
           "normalized": "a-\u003ea",
@@ -18573,6 +20225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "acosh",
           "package": "funcmp",
@@ -18581,6 +20234,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "acosh",
           "normalized": "a-\u003ea",
@@ -18595,6 +20249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "angle",
           "package": "funcmp",
@@ -18604,6 +20259,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "angle",
           "normalized": "Point-\u003eNumeric",
@@ -18618,6 +20274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "asin",
           "package": "funcmp",
@@ -18626,6 +20283,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "asin",
           "normalized": "a-\u003ea",
@@ -18640,6 +20298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "asinh",
           "package": "funcmp",
@@ -18648,6 +20307,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "asinh",
           "normalized": "a-\u003ea",
@@ -18662,6 +20322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "atan",
           "package": "funcmp",
@@ -18670,6 +20331,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "atan",
           "normalized": "a-\u003ea",
@@ -18684,6 +20346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "atanh",
           "package": "funcmp",
@@ -18692,6 +20355,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "atanh",
           "normalized": "a-\u003ea",
@@ -18706,6 +20370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "boolean",
           "package": "funcmp",
@@ -18715,6 +20380,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "boolean",
           "normalized": "Bool-\u003eBoolean",
@@ -18729,6 +20395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "cond",
           "package": "funcmp",
@@ -18738,6 +20405,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "cond",
           "normalized": "Boolean-\u003ea-\u003ea-\u003ea",
@@ -18752,6 +20420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "cos",
           "package": "funcmp",
@@ -18760,6 +20429,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "cos",
           "normalized": "a-\u003ea",
@@ -18774,6 +20444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "cosh",
           "package": "funcmp",
@@ -18782,6 +20453,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "cosh",
           "normalized": "a-\u003ea",
@@ -18796,6 +20468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "dashPattern",
           "package": "funcmp",
@@ -18805,6 +20478,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "dashPattern",
           "normalized": "[Double]-\u003ePattern",
@@ -18820,6 +20494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "dashPattern'",
           "package": "funcmp",
@@ -18829,6 +20504,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "dashPattern'",
           "normalized": "[Double]-\u003ePattern",
@@ -18844,6 +20520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "dashed",
           "package": "funcmp",
@@ -18853,6 +20530,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "dashed",
           "package": "funcmp",
@@ -18865,6 +20543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "default'",
           "package": "funcmp",
@@ -18874,6 +20553,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "default'",
           "package": "funcmp",
@@ -18886,6 +20566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "dir",
           "package": "funcmp",
@@ -18895,6 +20576,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "dir",
           "normalized": "Numeric-\u003ePoint",
@@ -18909,6 +20591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "dist",
           "package": "funcmp",
@@ -18918,6 +20601,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "dist",
           "normalized": "Point-\u003ePoint-\u003eNumeric",
@@ -18932,6 +20616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "dotted",
           "package": "funcmp",
@@ -18941,6 +20626,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "dotted",
           "package": "funcmp",
@@ -18953,6 +20639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "equal",
           "package": "funcmp",
@@ -18962,6 +20649,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "equal",
           "normalized": "[a]-\u003eEquation",
@@ -18976,6 +20664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "equations",
           "package": "funcmp",
@@ -18985,6 +20674,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "equations",
           "normalized": "[Equation]-\u003eEquation",
@@ -18999,6 +20689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "exp",
           "package": "funcmp",
@@ -19007,6 +20698,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "exp",
           "normalized": "a-\u003ea",
@@ -19021,6 +20713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "global",
           "package": "funcmp",
@@ -19030,6 +20723,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "global",
           "normalized": "a-\u003eName",
@@ -19044,6 +20738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "height",
           "package": "funcmp",
@@ -19053,6 +20748,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "height",
           "normalized": "a-\u003eNumeric",
@@ -19067,6 +20763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "log",
           "package": "funcmp",
@@ -19075,6 +20772,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "log",
           "normalized": "a-\u003ea",
@@ -19089,6 +20787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "maximum'",
           "package": "funcmp",
@@ -19098,6 +20797,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "maximum'",
           "normalized": "[Numeric]-\u003eNumeric",
@@ -19112,6 +20812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "med",
           "package": "funcmp",
@@ -19121,6 +20822,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "med",
           "normalized": "Numeric-\u003ea-\u003ea-\u003ea",
@@ -19135,6 +20837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "minimum'",
           "package": "funcmp",
@@ -19144,6 +20847,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "minimum'",
           "normalized": "[Numeric]-\u003eNumeric",
@@ -19158,6 +20862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "penCircle",
           "package": "funcmp",
@@ -19167,6 +20872,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "penCircle",
           "normalized": "(Numeric,Numeric)-\u003eNumeric-\u003ePen",
@@ -19182,6 +20888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "penSquare",
           "package": "funcmp",
@@ -19191,6 +20898,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "penSquare",
           "normalized": "(Numeric,Numeric)-\u003eNumeric-\u003ePen",
@@ -19206,6 +20914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "pi",
           "package": "funcmp",
@@ -19214,6 +20923,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "pi",
           "package": "funcmp",
@@ -19226,6 +20936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "pythAdd",
           "package": "funcmp",
@@ -19235,6 +20946,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "pythAdd",
           "normalized": "Numeric-\u003eNumeric-\u003eNumeric",
@@ -19250,6 +20962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "ref",
           "package": "funcmp",
@@ -19259,6 +20972,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "ref",
           "normalized": "a-\u003ePoint",
@@ -19273,6 +20987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "relax",
           "package": "funcmp",
@@ -19282,6 +20997,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "relax",
           "package": "funcmp",
@@ -19294,6 +21010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "sin",
           "package": "funcmp",
@@ -19302,6 +21019,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "sin",
           "normalized": "a-\u003ea",
@@ -19316,6 +21034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "sinh",
           "package": "funcmp",
@@ -19324,6 +21043,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "sinh",
           "normalized": "a-\u003ea",
@@ -19338,6 +21058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "sqrt",
           "package": "funcmp",
@@ -19346,6 +21067,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "sqrt",
           "normalized": "a-\u003ea",
@@ -19360,6 +21082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "tan",
           "package": "funcmp",
@@ -19368,6 +21091,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "tan",
           "normalized": "a-\u003ea",
@@ -19382,6 +21106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "tanh",
           "package": "funcmp",
@@ -19390,6 +21115,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "tanh",
           "normalized": "a-\u003ea",
@@ -19404,6 +21130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "toName",
           "package": "funcmp",
@@ -19413,6 +21140,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "toName",
           "normalized": "a-\u003eName",
@@ -19428,6 +21156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "toNameList",
           "package": "funcmp",
@@ -19437,6 +21166,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "toNameList",
           "normalized": "[a]-\u003eName",
@@ -19452,6 +21182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "var",
           "package": "funcmp",
@@ -19461,6 +21192,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "var",
           "normalized": "a-\u003eNumeric",
@@ -19475,6 +21207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "vec",
           "package": "funcmp",
@@ -19484,6 +21217,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "vec",
           "normalized": "(Numeric,Numeric)-\u003ePoint",
@@ -19498,6 +21232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "whatever",
           "package": "funcmp",
@@ -19507,6 +21242,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "whatever",
           "package": "funcmp",
@@ -19519,6 +21255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "width",
           "package": "funcmp",
@@ -19528,6 +21265,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "width",
           "normalized": "a-\u003eNumeric",
@@ -19542,6 +21280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "xdist",
           "package": "funcmp",
@@ -19551,6 +21290,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "xdist",
           "normalized": "Point-\u003ePoint-\u003eNumeric",
@@ -19565,6 +21305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "xpart",
           "package": "funcmp",
@@ -19574,6 +21315,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "xpart",
           "normalized": "Point-\u003eNumeric",
@@ -19588,6 +21330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "xy",
           "package": "funcmp",
@@ -19597,6 +21340,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "xy",
           "normalized": "Point-\u003ePoint-\u003ePoint",
@@ -19611,6 +21355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "ydist",
           "package": "funcmp",
@@ -19620,6 +21365,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "ydist",
           "normalized": "Point-\u003ePoint-\u003eNumeric",
@@ -19634,6 +21380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP.Types",
           "name": "ypart",
           "package": "funcmp",
@@ -19643,6 +21390,7 @@
         },
         "index": {
           "hierarchy": "FMP Types",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP.Types",
           "name": "ypart",
           "normalized": "Point-\u003eNumeric",
@@ -19657,6 +21405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP",
           "name": "FMP",
           "package": "funcmp",
@@ -19665,6 +21414,7 @@
         },
         "index": {
           "hierarchy": "FMP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP",
           "name": "FMP",
           "package": "funcmp",
@@ -19678,6 +21428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP",
           "name": "Doc",
           "package": "funcmp",
@@ -19686,6 +21437,7 @@
         },
         "index": {
           "hierarchy": "FMP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP",
           "name": "Doc",
           "package": "funcmp",
@@ -19699,6 +21451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP",
           "name": "funcmp",
           "package": "funcmp",
@@ -19708,6 +21461,7 @@
         },
         "index": {
           "hierarchy": "FMP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP",
           "name": "funcmp",
           "normalized": "String-\u003eInt-\u003ea-\u003eIO()",
@@ -19723,6 +21477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eemit|s a file called NAME.MP (or NAME.NUMBER.MP in not |newmp|) with\n a beginfig(NUMBER) in it, and runs MetaPost on it.  The conversion to\n |MetaPost|, which |HasEmit|, is done by |metaPost|.  Finally, the\n emitted |Doc| is |show|n.\n\u003c/p\u003e\u003cp\u003ewferi )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP",
           "name": "generate",
           "package": "funcmp",
@@ -19733,6 +21488,7 @@
         "index": {
           "description": "emit file called NAME.MP or NAME.NUMBER.MP in not newmp with beginfig NUMBER in it and runs MetaPost on it The conversion to MetaPost which HasEmit is done by metaPost Finally the emitted Doc is show wferi",
           "hierarchy": "FMP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP",
           "name": "generate",
           "normalized": "String-\u003eInt-\u003ea-\u003eIO()",
@@ -19747,6 +21503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:18 UTC 2014",
           "module": "FMP",
           "name": "metaPost",
           "package": "funcmp",
@@ -19756,6 +21513,7 @@
         },
         "index": {
           "hierarchy": "FMP",
+          "indexed": "2014-03-11T18:13:18",
           "module": "FMP",
           "name": "metaPost",
           "normalized": "Int-\u003ePicture-\u003eParameters-\u003eMetaPost",

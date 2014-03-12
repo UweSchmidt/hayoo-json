@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk2hs-cast-glib"
+        "phrase": "gtk2hs-cast-glib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:02 UTC 2014",
           "module": "System.Glib.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-glib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Glib Cast",
+          "indexed": "2014-03-11T18:23:02",
           "module": "System.Glib.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-glib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:02 UTC 2014",
           "module": "System.Glib.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-glib",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Glib Cast",
+          "indexed": "2014-03-11T18:23:02",
           "module": "System.Glib.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-glib",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:02 UTC 2014",
           "module": "System.Glib.Cast",
           "name": "cast",
           "package": "gtk2hs-cast-glib",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "System Glib Cast",
+          "indexed": "2014-03-11T18:23:02",
           "module": "System.Glib.Cast",
           "name": "cast",
           "normalized": "a-\u003eb",

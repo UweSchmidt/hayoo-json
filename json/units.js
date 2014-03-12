@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "units"
+        "phrase": "units",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports all of the definitions you need if you wish to\n write functions polymorphic over dimension specifications.\n\u003c/p\u003e\u003cp\u003eEach dimensioned quantity is represented by a member of the type\n \u003ccode\u003e\u003ca\u003eDim\u003c/a\u003e\u003c/code\u003e, which is parameterized by a type-level list of \u003ccode\u003e\u003ca\u003eDimSpec\u003c/a\u003e\u003c/code\u003es.\n A \u003ccode\u003e\u003ca\u003eDimSpec\u003c/a\u003e\u003c/code\u003e, in turn, is a unit type paired with its exponent,\n representented with a type-level \u003ccode\u003eZ\u003c/code\u003e. The unit types should all be\n \u003cem\u003ecanonical\u003c/em\u003e -- that is, the \u003ca\u003ebase\u003c/a\u003e unit of all compatible units. Thus,\n the type of velocity in the SI system would be\n \u003ccode\u003eDim '[D Meter One, D Second MOne]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA technical detail: because \u003ccode\u003e\u003ca\u003eDimSpec\u003c/a\u003e\u003c/code\u003e is used only at the type level\n and needs to store types of kind \u003ccode\u003e*\u003c/code\u003e, it must be parameterized, as we\n can't specify \u003ccode\u003e*\u003c/code\u003e in its declaration. (See \"The Right Kind of Generic\n Programming\", by Jos&#233; Pedro Magalh&#227;es, published at WGP'12, for more\n explanation.) So, we always work with \u003ccode\u003e(DimSpec *)\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "Poly",
           "package": "units",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module exports all of the definitions you need if you wish to write functions polymorphic over dimension specifications Each dimensioned quantity is represented by member of the type Dim which is parameterized by type-level list of DimSpec DimSpec in turn is unit type paired with its exponent representented with type-level The unit types should all be canonical that is the base unit of all compatible units Thus the type of velocity in the SI system would be Dim Meter One Second MOne technical detail because DimSpec is used only at the type level and needs to store types of kind it must be parameterized as we can specify in its declaration See The Right Kind of Generic Programming by Jos Pedro Magalh es published at WGP for more explanation So we always work with DimSpec",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "Poly",
           "package": "units",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo these DimSpecs represent the same dimension?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "($=)",
           "package": "units",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Do these DimSpecs represent the same dimension",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "($=) $=",
           "normalized": "()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if two \u003ccode\u003e[DimSpec *]\u003c/code\u003es should be considered to be equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "(@~)",
           "package": "units",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Check if two DimSpec should be considered to be equal",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "(@~) @~",
           "normalized": "()",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication of the exponents in a dimension by a scalar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "(@*)",
           "package": "units",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Multiplication of the exponents in dimension by scalar",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "(@*) @*",
           "package": "units",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds corresponding exponents in two dimension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "(@+)",
           "package": "units",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Adds corresponding exponents in two dimension",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "(@+) @+",
           "normalized": "()",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract exponents in two dimensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "(@-)",
           "package": "units",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Subtract exponents in two dimensions",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "(@-) @-",
           "normalized": "()",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision of the exponents in a dimension by a scalar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "(@/)",
           "package": "units",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Division of the exponents in dimension by scalar",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "(@/) @/",
           "normalized": "()",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDim adds a dimensional annotation to its base type \u003ccode\u003en\u003c/code\u003e. This is the\n representation for all dimensioned quantities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "Dim",
           "package": "units",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Dim adds dimensional annotation to its base type This is the representation for all dimensioned quantities",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "Dim",
           "package": "units",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis will only be used at the kind level. It holds a dimension with its\n exponent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "DimSpec",
           "package": "units",
@@ -216,6 +233,7 @@
         "index": {
           "description": "This will only be used at the kind level It holds dimension with its exponent",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "DimSpec",
           "package": "units",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(Extract s lst)\u003c/code\u003e pulls the DimSpec that matches s out of lst, returning a\n   diminished list and, possibly, the extracted DimSpec.\n\u003c/p\u003e\u003cpre\u003e\n Extract A [A, B, C] ==\u003e ([B, C], Just A\n Extract D [A, B, C] ==\u003e ([A, B, C], Nothing)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "Extract",
           "package": "units",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Extract lst pulls the DimSpec that matches out of lst returning diminished list and possibly the extracted DimSpec Extract Just Extract Nothing",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "Extract",
           "package": "units",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegate a single \u003ccode\u003eDimSpec\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "NegDim",
           "package": "units",
@@ -262,6 +283,7 @@
         "index": {
           "description": "negate single DimSpec",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "NegDim",
           "package": "units",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegate a list of \u003ccode\u003eDimSpec\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "NegList",
           "package": "units",
@@ -285,6 +308,7 @@
         "index": {
           "description": "negate list of DimSpec",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "NegList",
           "package": "units",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a \u003ccode\u003e[DimSpec *]\u003c/code\u003e and remove any \u003ccode\u003eDimSpec\u003c/code\u003es with an exponent of 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "Normalize",
           "package": "units",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Take DimSpec and remove any DimSpec with an exponent of",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "Normalize",
           "package": "units",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReorders a to be the in the same order as b, putting entries not in b at the end\n\u003c/p\u003e\u003cpre\u003e\n Reorder [A 1, B 2] [B 5, A 2] ==\u003e [B 2, A 1]\n Reorder [A 1, B 2, C 3] [C 2, A 8] ==\u003e [C 3, A 1, B 2]\n Reorder [A 1, B 2] [B 4, C 1, A 9] ==\u003e [B 2, A 1]\n Reorder x x ==\u003e x\n Reorder x [] ==\u003e x\n Reorder [] x ==\u003e []\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "Reorder",
           "package": "units",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Reorders to be the in the same order as putting entries not in at the end Reorder Reorder Reorder Reorder Reorder Reorder",
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "Reorder",
           "package": "units",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Poly",
           "name": "D",
           "package": "units",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions Poly",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Poly",
           "name": "D",
           "package": "units",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines prefixes from the SI standard at \u003ca\u003ehttp://www.bipm.org/en/si/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Prefixes",
           "package": "units",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Defines prefixes from the SI standard at http www.bipm.org en si",
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Prefixes",
           "package": "units",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^-18\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Atto",
           "package": "units",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Atto",
           "package": "units",
@@ -411,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^-2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Centi",
           "package": "units",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Centi",
           "package": "units",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Deca",
           "package": "units",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Deca",
           "package": "units",
@@ -455,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^-1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Deci",
           "package": "units",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Deci",
           "package": "units",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^18\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Exa",
           "package": "units",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Exa",
           "package": "units",
@@ -499,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^-15\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Femto",
           "package": "units",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Femto",
           "package": "units",
@@ -521,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Giga",
           "package": "units",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Giga",
           "package": "units",
@@ -543,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Hecto",
           "package": "units",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Hecto",
           "package": "units",
@@ -565,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Kilo",
           "package": "units",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Kilo",
           "package": "units",
@@ -587,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Mega",
           "package": "units",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Mega",
           "package": "units",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^-6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Micro",
           "package": "units",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Micro",
           "package": "units",
@@ -631,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^-3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Milli",
           "package": "units",
@@ -639,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Milli",
           "package": "units",
@@ -653,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^-9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Nano",
           "package": "units",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Nano",
           "package": "units",
@@ -675,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^15\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Peta",
           "package": "units",
@@ -683,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Peta",
           "package": "units",
@@ -697,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^-12\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Pico",
           "package": "units",
@@ -705,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Pico",
           "package": "units",
@@ -719,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^12\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Tera",
           "package": "units",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Tera",
           "package": "units",
@@ -741,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^-24\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Yocto",
           "package": "units",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Yocto",
           "package": "units",
@@ -763,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^24\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Yotta",
           "package": "units",
@@ -771,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Yotta",
           "package": "units",
@@ -785,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^-21\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Zepto",
           "package": "units",
@@ -793,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Zepto",
           "package": "units",
@@ -807,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e10^21\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Zetta",
           "package": "units",
@@ -815,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Zetta",
           "package": "units",
@@ -828,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Atto",
           "package": "units",
@@ -837,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Atto",
           "package": "units",
@@ -850,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Centi",
           "package": "units",
@@ -859,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Centi",
           "package": "units",
@@ -872,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Deca",
           "package": "units",
@@ -881,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Deca",
           "package": "units",
@@ -894,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Deci",
           "package": "units",
@@ -903,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Deci",
           "package": "units",
@@ -916,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Exa",
           "package": "units",
@@ -925,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Exa",
           "package": "units",
@@ -938,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Femto",
           "package": "units",
@@ -947,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Femto",
           "package": "units",
@@ -960,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Giga",
           "package": "units",
@@ -969,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Giga",
           "package": "units",
@@ -982,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Hecto",
           "package": "units",
@@ -991,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Hecto",
           "package": "units",
@@ -1004,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Kilo",
           "package": "units",
@@ -1013,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Kilo",
           "package": "units",
@@ -1026,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Mega",
           "package": "units",
@@ -1035,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Mega",
           "package": "units",
@@ -1048,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Micro",
           "package": "units",
@@ -1057,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Micro",
           "package": "units",
@@ -1070,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Milli",
           "package": "units",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Milli",
           "package": "units",
@@ -1092,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Nano",
           "package": "units",
@@ -1101,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Nano",
           "package": "units",
@@ -1114,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Peta",
           "package": "units",
@@ -1123,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Peta",
           "package": "units",
@@ -1136,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Pico",
           "package": "units",
@@ -1145,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Pico",
           "package": "units",
@@ -1158,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Tera",
           "package": "units",
@@ -1167,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Tera",
           "package": "units",
@@ -1180,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Yocto",
           "package": "units",
@@ -1189,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Yocto",
           "package": "units",
@@ -1202,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Yotta",
           "package": "units",
@@ -1211,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Yotta",
           "package": "units",
@@ -1224,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Zepto",
           "package": "units",
@@ -1233,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Zepto",
           "package": "units",
@@ -1246,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Zetta",
           "package": "units",
@@ -1255,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "Zetta",
           "package": "units",
@@ -1268,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "atto",
           "package": "units",
@@ -1277,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "atto",
           "normalized": "a-\u003eAtto a",
@@ -1291,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "centi",
           "package": "units",
@@ -1300,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "centi",
           "normalized": "a-\u003eCenti a",
@@ -1314,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "deca",
           "package": "units",
@@ -1323,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "deca",
           "normalized": "a-\u003eDeca a",
@@ -1337,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "deci",
           "package": "units",
@@ -1346,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "deci",
           "normalized": "a-\u003eDeci a",
@@ -1360,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "exa",
           "package": "units",
@@ -1369,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "exa",
           "normalized": "a-\u003eExa a",
@@ -1383,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "femto",
           "package": "units",
@@ -1392,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "femto",
           "normalized": "a-\u003eFemto a",
@@ -1406,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "giga",
           "package": "units",
@@ -1415,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "giga",
           "normalized": "a-\u003eGiga a",
@@ -1429,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "hecto",
           "package": "units",
@@ -1438,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "hecto",
           "normalized": "a-\u003eHecto a",
@@ -1452,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "kilo",
           "package": "units",
@@ -1461,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "kilo",
           "normalized": "a-\u003eKilo a",
@@ -1475,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "mega",
           "package": "units",
@@ -1484,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "mega",
           "normalized": "a-\u003eMega a",
@@ -1498,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "micro",
           "package": "units",
@@ -1507,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "micro",
           "normalized": "a-\u003eMicro a",
@@ -1521,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "milli",
           "package": "units",
@@ -1530,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "milli",
           "normalized": "a-\u003eMilli a",
@@ -1544,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "nano",
           "package": "units",
@@ -1553,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "nano",
           "normalized": "a-\u003eNano a",
@@ -1567,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "peta",
           "package": "units",
@@ -1576,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "peta",
           "normalized": "a-\u003ePeta a",
@@ -1590,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "pico",
           "package": "units",
@@ -1599,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "pico",
           "normalized": "a-\u003ePico a",
@@ -1613,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "tera",
           "package": "units",
@@ -1622,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "tera",
           "normalized": "a-\u003eTera a",
@@ -1636,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "yocto",
           "package": "units",
@@ -1645,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "yocto",
           "normalized": "a-\u003eYocto a",
@@ -1659,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "yotta",
           "package": "units",
@@ -1668,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "yotta",
           "normalized": "a-\u003eYotta a",
@@ -1682,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "zepto",
           "package": "units",
@@ -1691,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "zepto",
           "normalized": "a-\u003eZepto a",
@@ -1705,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "zetta",
           "package": "units",
@@ -1714,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Prefixes",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Prefixes",
           "name": "zetta",
           "normalized": "a-\u003eZetta a",
@@ -1729,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines type synonyms for SI units.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Types",
           "package": "units",
@@ -1738,6 +1891,7 @@
         "index": {
           "description": "This module defines type synonyms for SI units",
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Types",
           "package": "units",
@@ -1751,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Acceleration",
           "package": "units",
@@ -1759,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Acceleration",
           "package": "units",
@@ -1772,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Area",
           "package": "units",
@@ -1780,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Area",
           "package": "units",
@@ -1793,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Capacitance",
           "package": "units",
@@ -1801,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Capacitance",
           "package": "units",
@@ -1814,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "CatalyticActivity",
           "package": "units",
@@ -1822,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "CatalyticActivity",
           "package": "units",
@@ -1835,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Charge",
           "package": "units",
@@ -1843,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Charge",
           "package": "units",
@@ -1856,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Concentration",
           "package": "units",
@@ -1864,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Concentration",
           "package": "units",
@@ -1877,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Conductance",
           "package": "units",
@@ -1885,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Conductance",
           "package": "units",
@@ -1898,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Current",
           "package": "units",
@@ -1906,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Current",
           "package": "units",
@@ -1919,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "CurrentDensity",
           "package": "units",
@@ -1927,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "CurrentDensity",
           "package": "units",
@@ -1940,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Density",
           "package": "units",
@@ -1948,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Density",
           "package": "units",
@@ -1961,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "ElectricPotential",
           "package": "units",
@@ -1969,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "ElectricPotential",
           "package": "units",
@@ -1982,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Energy",
           "package": "units",
@@ -1990,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Energy",
           "package": "units",
@@ -2003,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Force",
           "package": "units",
@@ -2011,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Force",
           "package": "units",
@@ -2024,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Frequency",
           "package": "units",
@@ -2032,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Frequency",
           "package": "units",
@@ -2045,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Illuminance",
           "package": "units",
@@ -2053,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Illuminance",
           "package": "units",
@@ -2066,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Inductance",
           "package": "units",
@@ -2074,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Inductance",
           "package": "units",
@@ -2087,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Kerma",
           "package": "units",
@@ -2095,6 +2282,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Kerma",
           "package": "units",
@@ -2108,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Length",
           "package": "units",
@@ -2116,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Length",
           "package": "units",
@@ -2129,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Luminance",
           "package": "units",
@@ -2137,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Luminance",
           "package": "units",
@@ -2150,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Luminosity",
           "package": "units",
@@ -2158,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Luminosity",
           "package": "units",
@@ -2171,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "LuminousFlux",
           "package": "units",
@@ -2179,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "LuminousFlux",
           "package": "units",
@@ -2192,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "MagneticFlux",
           "package": "units",
@@ -2200,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "MagneticFlux",
           "package": "units",
@@ -2213,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "MagneticFluxDensity",
           "package": "units",
@@ -2221,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "MagneticFluxDensity",
           "package": "units",
@@ -2234,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "MagneticStrength",
           "package": "units",
@@ -2242,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "MagneticStrength",
           "package": "units",
@@ -2255,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Mass",
           "package": "units",
@@ -2263,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Mass",
           "package": "units",
@@ -2276,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Momentum",
           "package": "units",
@@ -2284,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Momentum",
           "package": "units",
@@ -2297,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Power",
           "package": "units",
@@ -2305,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Power",
           "package": "units",
@@ -2318,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Pressure",
           "package": "units",
@@ -2326,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Pressure",
           "package": "units",
@@ -2339,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Quantity",
           "package": "units",
@@ -2347,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Quantity",
           "package": "units",
@@ -2360,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Resistance",
           "package": "units",
@@ -2368,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Resistance",
           "package": "units",
@@ -2381,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "SpecificVolume",
           "package": "units",
@@ -2389,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "SpecificVolume",
           "package": "units",
@@ -2402,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "SurfaceDensity",
           "package": "units",
@@ -2410,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "SurfaceDensity",
           "package": "units",
@@ -2423,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Temperature",
           "package": "units",
@@ -2431,6 +2650,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Temperature",
           "package": "units",
@@ -2444,6 +2664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Time",
           "package": "units",
@@ -2452,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Time",
           "package": "units",
@@ -2465,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Velocity",
           "package": "units",
@@ -2473,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Velocity",
           "package": "units",
@@ -2486,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Volume",
           "package": "units",
@@ -2494,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Volume",
           "package": "units",
@@ -2507,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Types",
           "name": "Wavenumber",
           "package": "units",
@@ -2515,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Types",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Types",
           "name": "Wavenumber",
           "package": "units",
@@ -2529,6 +2757,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports unit definitions according to the SI system of units.\n The definitions were taken from here: \u003ca\u003ehttp://www.bipm.org/en/si/\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThere is one deviation from the definition at that site: To work better\n with prefixes, the unit of mass is \u003ccode\u003e\u003ca\u003eGram\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Units",
           "package": "units",
@@ -2538,6 +2767,7 @@
         "index": {
           "description": "This module exports unit definitions according to the SI system of units The definitions were taken from here http www.bipm.org en si There is one deviation from the definition at that site To work better with prefixes the unit of mass is Gram",
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Units",
           "package": "units",
@@ -2551,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Ampere",
           "package": "units",
@@ -2559,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Ampere",
           "package": "units",
@@ -2572,6 +2804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Becquerel",
           "package": "units",
@@ -2580,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Becquerel",
           "package": "units",
@@ -2593,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Candela",
           "package": "units",
@@ -2601,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Candela",
           "package": "units",
@@ -2614,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Coulomb",
           "package": "units",
@@ -2622,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Coulomb",
           "package": "units",
@@ -2635,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Farad",
           "package": "units",
@@ -2643,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Farad",
           "package": "units",
@@ -2656,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Gram",
           "package": "units",
@@ -2664,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Gram",
           "package": "units",
@@ -2677,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Gray",
           "package": "units",
@@ -2685,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Gray",
           "package": "units",
@@ -2698,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Henry",
           "package": "units",
@@ -2706,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Henry",
           "package": "units",
@@ -2719,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Hertz",
           "package": "units",
@@ -2727,6 +2974,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Hertz",
           "package": "units",
@@ -2740,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Joule",
           "package": "units",
@@ -2748,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Joule",
           "package": "units",
@@ -2761,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Katal",
           "package": "units",
@@ -2769,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Katal",
           "package": "units",
@@ -2782,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Kelvin",
           "package": "units",
@@ -2790,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Kelvin",
           "package": "units",
@@ -2803,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Lumen",
           "package": "units",
@@ -2811,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Lumen",
           "package": "units",
@@ -2824,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Lux",
           "package": "units",
@@ -2832,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Lux",
           "package": "units",
@@ -2845,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Meter",
           "package": "units",
@@ -2853,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Meter",
           "package": "units",
@@ -2866,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Mole",
           "package": "units",
@@ -2874,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Mole",
           "package": "units",
@@ -2887,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Newton",
           "package": "units",
@@ -2895,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Newton",
           "package": "units",
@@ -2908,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Ohm",
           "package": "units",
@@ -2916,6 +3181,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Ohm",
           "package": "units",
@@ -2929,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Pascal",
           "package": "units",
@@ -2937,6 +3204,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Pascal",
           "package": "units",
@@ -2950,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Second",
           "package": "units",
@@ -2958,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Second",
           "package": "units",
@@ -2971,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Siemens",
           "package": "units",
@@ -2979,6 +3250,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Siemens",
           "package": "units",
@@ -2992,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Sievert",
           "package": "units",
@@ -3000,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Sievert",
           "package": "units",
@@ -3013,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Tesla",
           "package": "units",
@@ -3021,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Tesla",
           "package": "units",
@@ -3034,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Volt",
           "package": "units",
@@ -3042,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Volt",
           "package": "units",
@@ -3055,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Watt",
           "package": "units",
@@ -3063,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Watt",
           "package": "units",
@@ -3076,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Weber",
           "package": "units",
@@ -3084,6 +3365,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Weber",
           "package": "units",
@@ -3097,6 +3379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Ampere",
           "package": "units",
@@ -3106,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Ampere",
           "package": "units",
@@ -3119,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Becquerel",
           "package": "units",
@@ -3128,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Becquerel",
           "package": "units",
@@ -3141,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Candela",
           "package": "units",
@@ -3150,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Candela",
           "package": "units",
@@ -3163,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Coulomb",
           "package": "units",
@@ -3172,6 +3461,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Coulomb",
           "package": "units",
@@ -3185,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Farad",
           "package": "units",
@@ -3194,6 +3485,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Farad",
           "package": "units",
@@ -3207,6 +3499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Gram",
           "package": "units",
@@ -3216,6 +3509,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Gram",
           "package": "units",
@@ -3229,6 +3523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Gray",
           "package": "units",
@@ -3238,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Gray",
           "package": "units",
@@ -3251,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Henry",
           "package": "units",
@@ -3260,6 +3557,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Henry",
           "package": "units",
@@ -3273,6 +3571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Hertz",
           "package": "units",
@@ -3282,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Hertz",
           "package": "units",
@@ -3295,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Joule",
           "package": "units",
@@ -3304,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Joule",
           "package": "units",
@@ -3317,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Katal",
           "package": "units",
@@ -3326,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Katal",
           "package": "units",
@@ -3339,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Kelvin",
           "package": "units",
@@ -3348,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Kelvin",
           "package": "units",
@@ -3361,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Lumen",
           "package": "units",
@@ -3370,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Lumen",
           "package": "units",
@@ -3383,6 +3691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Lux",
           "package": "units",
@@ -3392,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Lux",
           "package": "units",
@@ -3405,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Meter",
           "package": "units",
@@ -3414,6 +3725,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Meter",
           "package": "units",
@@ -3427,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Mole",
           "package": "units",
@@ -3436,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Mole",
           "package": "units",
@@ -3449,6 +3763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Newton",
           "package": "units",
@@ -3458,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Newton",
           "package": "units",
@@ -3471,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Ohm",
           "package": "units",
@@ -3480,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Ohm",
           "package": "units",
@@ -3493,6 +3811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Pascal",
           "package": "units",
@@ -3502,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Pascal",
           "package": "units",
@@ -3515,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Second",
           "package": "units",
@@ -3524,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Second",
           "package": "units",
@@ -3537,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Siemens",
           "package": "units",
@@ -3546,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Siemens",
           "package": "units",
@@ -3559,6 +3883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Sievert",
           "package": "units",
@@ -3568,6 +3893,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Sievert",
           "package": "units",
@@ -3581,6 +3907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Tesla",
           "package": "units",
@@ -3590,6 +3917,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Tesla",
           "package": "units",
@@ -3603,6 +3931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Volt",
           "package": "units",
@@ -3612,6 +3941,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Volt",
           "package": "units",
@@ -3625,6 +3955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Watt",
           "package": "units",
@@ -3634,6 +3965,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Watt",
           "package": "units",
@@ -3647,6 +3979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI.Units",
           "name": "Weber",
           "package": "units",
@@ -3656,6 +3989,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions SI Units",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI.Units",
           "name": "Weber",
           "package": "units",
@@ -3670,6 +4004,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports unit, type, and prefix definitions according to the SI\n system of units. The definitions were taken from here:\n \u003ca\u003ehttp://www.bipm.org/en/si/\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThere is one deviation from the definition at that site: To work better\n with prefixes, the unit of mass is \u003ccode\u003e\u003ca\u003eGram\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.SI",
           "name": "SI",
           "package": "units",
@@ -3679,6 +4014,7 @@
         "index": {
           "description": "This module exports unit type and prefix definitions according to the SI system of units The definitions were taken from here http www.bipm.org en si There is one deviation from the definition at that site To work better with prefixes the unit of mass is Gram",
           "hierarchy": "Data Dimensions SI",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.SI",
           "name": "SI",
           "package": "units",
@@ -3693,6 +4029,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines only a \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance for dimensioned quantities.\n The Show instance prints out the number stored internally with its canonical\n units.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Show",
           "name": "Show",
           "package": "units",
@@ -3702,6 +4039,7 @@
         "index": {
           "description": "This module defines only Show instance for dimensioned quantities The Show instance prints out the number stored internally with its canonical units",
           "hierarchy": "Data Dimensions Show",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Show",
           "name": "Show",
           "package": "units",
@@ -3716,6 +4054,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports the constructor of the \u003ccode\u003e\u003ca\u003eDim\u003c/a\u003e\u003c/code\u003e type. This allows you\n to write dimension-unsafe code. Use at your peril.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Unsafe",
           "name": "Unsafe",
           "package": "units",
@@ -3725,6 +4064,7 @@
         "index": {
           "description": "This module exports the constructor of the Dim type This allows you to write dimension-unsafe code Use at your peril",
           "hierarchy": "Data Dimensions Unsafe",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Unsafe",
           "name": "Unsafe",
           "package": "units",
@@ -3739,6 +4079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDim adds a dimensional annotation to its base type \u003ccode\u003en\u003c/code\u003e. This is the\n representation for all dimensioned quantities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Unsafe",
           "name": "Dim",
           "package": "units",
@@ -3748,6 +4089,7 @@
         "index": {
           "description": "Dim adds dimensional annotation to its base type This is the representation for all dimensioned quantities",
           "hierarchy": "Data Dimensions Unsafe",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Unsafe",
           "name": "Dim",
           "package": "units",
@@ -3761,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions.Unsafe",
           "name": "Dim",
           "package": "units",
@@ -3770,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions Unsafe",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions.Unsafe",
           "name": "Dim",
           "package": "units",
@@ -3784,6 +4128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe units package is a framework for strongly-typed dimensional analysis.\n This haddock documentation is generally \u003cem\u003enot\u003c/em\u003e enough to be able to use this\n package effectively. Please see the readme at\n \u003ca\u003ehttp://www.cis.upenn.edu/~eir/packages/units/README.html\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSome of the types below refer to declarations that are not exported and\n not documented here. This is because Haddock does not allow finely-tuned\n abstraction in documentation. (In particular, right-hand sides of type \n synonym declarations are always included.) If a symbol is not exported,\n you do \u003cem\u003enot\u003c/em\u003e need to know anything about it to use this package.\n\u003c/p\u003e\u003cp\u003eThough it doesn't appear here, \u003ccode\u003eScalar\u003c/code\u003e is an instance of \u003ccode\u003eNum\u003c/code\u003e, and\n generally has all the numeric instances that \u003ccode\u003eDouble\u003c/code\u003e has.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Dimensions",
           "package": "units",
@@ -3793,6 +4138,7 @@
         "index": {
           "description": "The units package is framework for strongly-typed dimensional analysis This haddock documentation is generally not enough to be able to use this package effectively Please see the readme at http www.cis.upenn.edu eir packages units README.html Some of the types below refer to declarations that are not exported and not documented here This is because Haddock does not allow finely-tuned abstraction in documentation In particular right-hand sides of type synonym declarations are always included If symbol is not exported you do not need to know anything about it to use this package Though it doesn appear here Scalar is an instance of Num and generally has all the numeric instances that Double has",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Dimensions",
           "package": "units",
@@ -3807,6 +4153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply two integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(#*)",
           "package": "units",
@@ -3816,6 +4163,7 @@
         "index": {
           "description": "Multiply two integers",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(#*) #*",
           "package": "units",
@@ -3829,6 +4177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(#+)",
           "package": "units",
@@ -3838,6 +4187,7 @@
         "index": {
           "description": "Add two integers",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(#+) #+",
           "package": "units",
@@ -3851,6 +4201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract two integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(#-)",
           "package": "units",
@@ -3860,6 +4211,7 @@
         "index": {
           "description": "Subtract two integers",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(#-) #-",
           "package": "units",
@@ -3873,6 +4225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivide two integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(#/)",
           "package": "units",
@@ -3882,6 +4235,7 @@
         "index": {
           "description": "Divide two integers",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(#/) #/",
           "package": "units",
@@ -3895,6 +4249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply two dimension types to produce a new one. For example:\n\u003c/p\u003e\u003cpre\u003e type Velocity = Length %/ Time\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(%*)",
           "package": "units",
@@ -3904,6 +4259,7 @@
         "index": {
           "description": "Multiply two dimension types to produce new one For example type Velocity Length Time",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(%*) %*",
           "package": "units",
@@ -3917,6 +4273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivide two dimension types to produce a new one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(%/)",
           "package": "units",
@@ -3926,6 +4283,7 @@
         "index": {
           "description": "Divide two dimension types to produce new one",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(%/) %/",
           "normalized": "()",
@@ -3941,6 +4299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExponentiate a dimension type to an integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(%^)",
           "package": "units",
@@ -3950,6 +4309,7 @@
         "index": {
           "description": "Exponentiate dimension type to an integer",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(%^) %^",
           "normalized": "()",
@@ -3965,6 +4325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply two units to get another unit.\n For example: \u003ccode\u003etype MetersSquared = Meter :* Meter\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": ":*",
           "package": "units",
@@ -3974,6 +4335,7 @@
         "index": {
           "description": "Multiply two units to get another unit For example type MetersSquared Meter Meter",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": ":*",
           "package": "units",
@@ -3987,6 +4349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivide two units to get another unit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": ":/",
           "package": "units",
@@ -3996,6 +4359,7 @@
         "index": {
           "description": "Divide two units to get another unit",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": ":/",
           "package": "units",
@@ -4009,6 +4373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply a conversion ratio by some constant. Used for defining prefixes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": ":@",
           "package": "units",
@@ -4018,6 +4383,7 @@
         "index": {
           "description": "Multiply conversion ratio by some constant Used for defining prefixes",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": ":@",
           "package": "units",
@@ -4031,6 +4397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise a unit to a power, known at compile time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": ":^",
           "package": "units",
@@ -4040,6 +4407,7 @@
         "index": {
           "description": "Raise unit to power known at compile time",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": ":^",
           "package": "units",
@@ -4053,6 +4421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDummy type use just to label canonical units. It does \u003cem\u003enot\u003c/em\u003e have a\n \u003ccode\u003e\u003ca\u003eUnit\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Canonical",
           "package": "units",
@@ -4062,6 +4431,7 @@
         "index": {
           "description": "Dummy type use just to label canonical units It does not have Unit instance",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Canonical",
           "package": "units",
@@ -4075,6 +4445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Five",
           "package": "units",
@@ -4083,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Five",
           "package": "units",
@@ -4096,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Four",
           "package": "units",
@@ -4104,6 +4477,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Four",
           "package": "units",
@@ -4117,6 +4491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "MFive",
           "package": "units",
@@ -4125,6 +4500,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "MFive",
           "package": "units",
@@ -4138,6 +4514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "MFour",
           "package": "units",
@@ -4146,6 +4523,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "MFour",
           "package": "units",
@@ -4159,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "MOne",
           "package": "units",
@@ -4167,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "MOne",
           "package": "units",
@@ -4180,6 +4560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "MThree",
           "package": "units",
@@ -4188,6 +4569,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "MThree",
           "package": "units",
@@ -4201,6 +4583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "MTwo",
           "package": "units",
@@ -4209,6 +4592,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "MTwo",
           "package": "units",
@@ -4223,6 +4607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a dimensioned quantity type capable of storing a value of a given\n unit. This uses a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e for storage of the value. For example:\n\u003c/p\u003e\u003cpre\u003e type Length = MkDim Meter\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "MkDim",
           "package": "units",
@@ -4232,6 +4617,7 @@
         "index": {
           "description": "Make dimensioned quantity type capable of storing value of given unit This uses Double for storage of the value For example type Length MkDim Meter",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "MkDim",
           "package": "units",
@@ -4246,6 +4632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a dimensioned quantity with a custom numerical type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "MkGenDim",
           "package": "units",
@@ -4255,6 +4642,7 @@
         "index": {
           "description": "Make dimensioned quantity with custom numerical type",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "MkGenDim",
           "package": "units",
@@ -4269,6 +4657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate an integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "NegZ",
           "package": "units",
@@ -4278,6 +4667,7 @@
         "index": {
           "description": "Negate an integer",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "NegZ",
           "package": "units",
@@ -4292,6 +4682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit for unitless dimensioned quantities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Number",
           "package": "units",
@@ -4301,6 +4692,7 @@
         "index": {
           "description": "The unit for unitless dimensioned quantities",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Number",
           "package": "units",
@@ -4314,6 +4706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "One",
           "package": "units",
@@ -4322,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "One",
           "package": "units",
@@ -4336,6 +4730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract one from an integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Pred",
           "package": "units",
@@ -4345,6 +4740,7 @@
         "index": {
           "description": "Subtract one from an integer",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Pred",
           "package": "units",
@@ -4359,6 +4755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of unitless dimensioned quantities\n This is an instance of \u003ccode\u003eNum\u003c/code\u003e, though Haddock doesn't show it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Scalar",
           "package": "units",
@@ -4368,6 +4765,7 @@
         "index": {
           "description": "The type of unitless dimensioned quantities This is an instance of Num though Haddock doesn show it",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Scalar",
           "package": "units",
@@ -4382,6 +4780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd one to an integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Succ",
           "package": "units",
@@ -4391,6 +4790,7 @@
         "index": {
           "description": "Add one to an integer",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Succ",
           "package": "units",
@@ -4404,6 +4804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Three",
           "package": "units",
@@ -4412,6 +4813,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Three",
           "package": "units",
@@ -4425,6 +4827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Two",
           "package": "units",
@@ -4433,6 +4836,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Two",
           "package": "units",
@@ -4447,6 +4851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of units. Make an instance of this class to define a new unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Unit",
           "package": "units",
@@ -4456,6 +4861,7 @@
         "index": {
           "description": "Class of units Make an instance of this class to define new unit",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Unit",
           "package": "units",
@@ -4470,6 +4876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for user-defined prefixes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "UnitPrefix",
           "package": "units",
@@ -4479,6 +4886,7 @@
         "index": {
           "description": "class for user-defined prefixes",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "UnitPrefix",
           "package": "units",
@@ -4493,6 +4901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe datatype for type-level integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Z",
           "package": "units",
@@ -4502,6 +4911,7 @@
         "index": {
           "description": "The datatype for type-level integers",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Z",
           "package": "units",
@@ -4515,6 +4925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix synonym for \u003ccode\u003e\u003ca\u003edimIn\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(#)",
           "package": "units",
@@ -4525,6 +4936,7 @@
         "index": {
           "description": "Infix synonym for dimIn",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(#) #",
           "normalized": "MkDim(CanonicalUnit a)-\u003ea-\u003eDouble",
@@ -4540,6 +4952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix synonym for \u003ccode\u003e\u003ca\u003edimOf\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(%)",
           "package": "units",
@@ -4550,6 +4963,7 @@
         "index": {
           "description": "Infix synonym for dimOf",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(%) %",
           "normalized": "Double-\u003ea-\u003eMkDim(CanonicalUnit a)",
@@ -4565,6 +4979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply a dimensioned quantity by a scalar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(*.)",
           "package": "units",
@@ -4575,6 +4990,7 @@
         "index": {
           "description": "Multiply dimensioned quantity by scalar",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(*.) *.",
           "normalized": "a-\u003eDim a b-\u003eDim a b",
@@ -4590,6 +5006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply two dimensioned quantities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(.*)",
           "package": "units",
@@ -4600,6 +5017,7 @@
         "index": {
           "description": "Multiply two dimensioned quantities",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(.*) .*",
           "normalized": "Dim a b-\u003eDim a c-\u003eDim a(Normalize(b c))",
@@ -4615,6 +5033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two compatible dimensioned quantities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(.+)",
           "package": "units",
@@ -4625,6 +5044,7 @@
         "index": {
           "description": "Add two compatible dimensioned quantities",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(.+) .+",
           "normalized": "Dim a b-\u003eDim a b-\u003eDim a b",
@@ -4640,6 +5060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract two compatible dimensioned quantities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(.-)",
           "package": "units",
@@ -4650,6 +5071,7 @@
         "index": {
           "description": "Subtract two compatible dimensioned quantities",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(.-) .-",
           "normalized": "Dim a b-\u003eDim a b-\u003eDim a b",
@@ -4665,6 +5087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivide two dimensioned quantities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(./)",
           "package": "units",
@@ -4675,6 +5098,7 @@
         "index": {
           "description": "Divide two dimensioned quantities",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(./) ./",
           "normalized": "Dim a b-\u003eDim a c-\u003eDim a(Normalize(b c))",
@@ -4690,6 +5114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if one dimensioned quantity is less than a compatible one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(.\u003c)",
           "package": "units",
@@ -4700,6 +5125,7 @@
         "index": {
           "description": "Check if one dimensioned quantity is less than compatible one",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(.\u003c) .\u003c",
           "normalized": "Dim a b-\u003eDim a b-\u003eBool",
@@ -4715,6 +5141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if one dimensioned quantity is less than or equal to a compatible one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(.\u003c=)",
           "package": "units",
@@ -4725,6 +5152,7 @@
         "index": {
           "description": "Check if one dimensioned quantity is less than or equal to compatible one",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(.\u003c=) .\u003c=",
           "normalized": "Dim a b-\u003eDim a b-\u003eBool",
@@ -4740,6 +5168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if one dimensioned quantity is greater than a compatible one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(.\u003e)",
           "package": "units",
@@ -4750,6 +5179,7 @@
         "index": {
           "description": "Check if one dimensioned quantity is greater than compatible one",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(.\u003e) .\u003e",
           "normalized": "Dim a b-\u003eDim a b-\u003eBool",
@@ -4765,6 +5195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if one dimensioned quantity is greater than or equal to a compatible one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(.\u003e=)",
           "package": "units",
@@ -4775,6 +5206,7 @@
         "index": {
           "description": "Check if one dimensioned quantity is greater than or equal to compatible one",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(.\u003e=) .\u003e=",
           "normalized": "Dim a b-\u003eDim a b-\u003eBool",
@@ -4790,6 +5222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise a dimensioned quantity to a power known at compile time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "(.^)",
           "package": "units",
@@ -4800,6 +5233,7 @@
         "index": {
           "description": "Raise dimensioned quantity to power known at compile time",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "(.^) .^",
           "normalized": "Dim a b-\u003eSing c-\u003eDim a(b*c)",
@@ -4814,6 +5248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": ":*",
           "package": "units",
@@ -4823,6 +5258,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": ":*",
           "package": "units",
@@ -4835,6 +5271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": ":/",
           "package": "units",
@@ -4844,6 +5281,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": ":/",
           "package": "units",
@@ -4856,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": ":@",
           "package": "units",
@@ -4865,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": ":@",
           "package": "units",
@@ -4877,6 +5317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": ":^",
           "package": "units",
@@ -4886,6 +5327,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": ":^",
           "package": "units",
@@ -4898,6 +5340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Number",
           "package": "units",
@@ -4907,6 +5350,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Number",
           "package": "units",
@@ -4920,6 +5364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "P",
           "package": "units",
@@ -4929,6 +5374,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "P",
           "package": "units",
@@ -4941,6 +5387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "S",
           "package": "units",
@@ -4950,6 +5397,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "S",
           "package": "units",
@@ -4962,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "Zero",
           "package": "units",
@@ -4971,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "Zero",
           "package": "units",
@@ -4985,6 +5435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe conversion ratio \u003cem\u003efrom\u003c/em\u003e the base unit \u003cem\u003eto\u003c/em\u003e this unit.\n If left out, a conversion ratio of 1 is assumed.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e instance Unit Foot where\n   type BaseUnit Foot = Meter\n   conversionRatio _ = 0.3048\n\u003c/pre\u003e\u003cp\u003eImplementations should \u003cem\u003enever\u003c/em\u003e examine their argument!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "conversionRatio",
           "package": "units",
@@ -4995,6 +5446,7 @@
         "index": {
           "description": "The conversion ratio from the base unit to this unit If left out conversion ratio of is assumed For example instance Unit Foot where type BaseUnit Foot Meter conversionRatio Implementations should never examine their argument",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "conversionRatio",
           "normalized": "a-\u003eDouble",
@@ -5011,6 +5463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension-safe cast. See the README for more info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "dim",
           "package": "units",
@@ -5021,6 +5474,7 @@
         "index": {
           "description": "Dimension-safe cast See the README for more info",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "dim",
           "normalized": "Dim a b-\u003eDim a c",
@@ -5036,6 +5490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the cube root of a dimensioned quantity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "dimCubeRoot",
           "package": "units",
@@ -5046,6 +5501,7 @@
         "index": {
           "description": "Take the cube root of dimensioned quantity",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "dimCubeRoot",
           "normalized": "Dim a b-\u003eDim a(b Three)",
@@ -5062,6 +5518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two compatible dimensioned quantities for equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "dimEq",
           "package": "units",
@@ -5071,6 +5528,7 @@
         "index": {
           "description": "Compare two compatible dimensioned quantities for equality",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "dimEq",
           "normalized": "Dim a b-\u003eDim a b-\u003eDim a b-\u003eBool",
@@ -5087,6 +5545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts a \u003ccode\u003eDouble\u003c/code\u003e from a dimensioned quantity, expressed in\n   the given unit. For example:\n\u003c/p\u003e\u003cpre\u003e inMeters :: Length -\u003e Double\n inMeters x = dimIn x Meter\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "dimIn",
           "package": "units",
@@ -5097,6 +5556,7 @@
         "index": {
           "description": "Extracts Double from dimensioned quantity expressed in the given unit For example inMeters Length Double inMeters dimIn Meter",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "dimIn",
           "normalized": "MkDim(CanonicalUnit a)-\u003ea-\u003eDouble",
@@ -5113,6 +5573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two compatible dimensioned quantities for inequality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "dimNeq",
           "package": "units",
@@ -5122,6 +5583,7 @@
         "index": {
           "description": "Compare two compatible dimensioned quantities for inequality",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "dimNeq",
           "normalized": "Dim a b-\u003eDim a b-\u003eDim a b-\u003eBool",
@@ -5138,6 +5600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a dimensioned quantity in the given unit. For example:\n\u003c/p\u003e\u003cpre\u003e height :: Length\n height = dimOf 2.0 Meter\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "dimOf",
           "package": "units",
@@ -5148,6 +5611,7 @@
         "index": {
           "description": "Creates dimensioned quantity in the given unit For example height Length height dimOf Meter",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "dimOf",
           "normalized": "Double-\u003ea-\u003eMkDim(CanonicalUnit a)",
@@ -5164,6 +5628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the square root of a dimensioned quantity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "dimSqrt",
           "package": "units",
@@ -5174,6 +5639,7 @@
         "index": {
           "description": "Take the square root of dimensioned quantity",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "dimSqrt",
           "normalized": "Dim a b-\u003eDim a(b Two)",
@@ -5190,6 +5656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis should return the desired multiplier for the prefix being defined.\n This function must \u003cem\u003enot\u003c/em\u003e inspect its argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "multiplier",
           "package": "units",
@@ -5200,6 +5667,7 @@
         "index": {
           "description": "This should return the desired multiplier for the prefix being defined This function must not inspect its argument",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "multiplier",
           "normalized": "a-\u003eDouble",
@@ -5215,6 +5683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the n'th root of a dimensioned quantity, where n is known at compile\n time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "nthRoot",
           "package": "units",
@@ -5225,6 +5694,7 @@
         "index": {
           "description": "Take the th root of dimensioned quantity where is known at compile time",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "nthRoot",
           "normalized": "Sing a-\u003eDim b c-\u003eDim b(c a)",
@@ -5240,6 +5710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pFive",
           "package": "units",
@@ -5249,6 +5720,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pFive",
           "package": "units",
@@ -5262,6 +5734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pFour",
           "package": "units",
@@ -5271,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pFour",
           "package": "units",
@@ -5284,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pMFive",
           "package": "units",
@@ -5293,6 +5768,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pMFive",
           "package": "units",
@@ -5306,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pMFour",
           "package": "units",
@@ -5315,6 +5792,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pMFour",
           "package": "units",
@@ -5328,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pMOne",
           "package": "units",
@@ -5337,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pMOne",
           "package": "units",
@@ -5350,6 +5830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pMThree",
           "package": "units",
@@ -5359,6 +5840,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pMThree",
           "package": "units",
@@ -5372,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pMTwo",
           "package": "units",
@@ -5381,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pMTwo",
           "package": "units",
@@ -5394,6 +5878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pOne",
           "package": "units",
@@ -5403,6 +5888,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pOne",
           "package": "units",
@@ -5417,6 +5903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract one from a singleton \u003ccode\u003eZ\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pPred",
           "package": "units",
@@ -5427,6 +5914,7 @@
         "index": {
           "description": "Subtract one from singleton",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pPred",
           "normalized": "Sing a-\u003eSing(Pred a)",
@@ -5443,6 +5931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd one to a singleton \u003ccode\u003eZ\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pSucc",
           "package": "units",
@@ -5453,6 +5942,7 @@
         "index": {
           "description": "Add one to singleton",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pSucc",
           "normalized": "Sing a-\u003eSing(Succ a)",
@@ -5468,6 +5958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pThree",
           "package": "units",
@@ -5477,6 +5968,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pThree",
           "package": "units",
@@ -5490,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pTwo",
           "package": "units",
@@ -5499,6 +5992,7 @@
         },
         "index": {
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pTwo",
           "package": "units",
@@ -5513,6 +6007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the singleton value representing \u003ccode\u003eZero\u003c/code\u003e at the term level and\n at the type level, simultaneously. Used for raising units to powers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "pZero",
           "package": "units",
@@ -5523,6 +6018,7 @@
         "index": {
           "description": "This is the singleton value representing Zero at the term level and at the type level simultaneously Used for raising units to powers",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "pZero",
           "package": "units",
@@ -5537,6 +6033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a raw number into a unitless dimensioned quantity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "scalar",
           "package": "units",
@@ -5547,6 +6044,7 @@
         "index": {
           "description": "Convert raw number into unitless dimensioned quantity",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "scalar",
           "normalized": "a-\u003eDim a[]",
@@ -5562,6 +6060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number 1, expressed as a unitless dimensioned quantity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "unity",
           "package": "units",
@@ -5572,6 +6071,7 @@
         "index": {
           "description": "The number expressed as unitless dimensioned quantity",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "unity",
           "normalized": "Dim a[]",
@@ -5587,6 +6087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number 0, polymorphic in its dimension. Use of this will\n often require a type annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:17 UTC 2014",
           "module": "Data.Dimensions",
           "name": "zero",
           "package": "units",
@@ -5597,6 +6098,7 @@
         "index": {
           "description": "The number polymorphic in its dimension Use of this will often require type annotation",
           "hierarchy": "Data Dimensions",
+          "indexed": "2014-03-11T20:30:17",
           "module": "Data.Dimensions",
           "name": "zero",
           "package": "units",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uconv"
+        "phrase": "uconv",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:31 UTC 2014",
           "module": "Codec.Text.UConv",
           "name": "EncodingName",
           "package": "uconv",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Text UConv",
+          "indexed": "2014-03-11T20:28:31",
           "module": "Codec.Text.UConv",
           "name": "EncodingName",
           "package": "uconv",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "The encoding to convert from\nThe encoding to convert to\nThe input to convert\nThe output converted\n",
+          "indexed": "Tue Mar 11 20:28:31 UTC 2014",
           "module": "Codec.Text.UConv",
           "name": "convert",
           "package": "uconv",
@@ -50,6 +53,7 @@
         "index": {
           "description": "The encoding to convert from The encoding to convert to The input to convert The output converted",
           "hierarchy": "Codec Text UConv",
+          "indexed": "2014-03-11T20:28:31",
           "module": "Codec.Text.UConv",
           "name": "convert",
           "normalized": "EncodingName-\u003eEncodingName-\u003ea-\u003eb c",

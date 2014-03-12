@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LinearSplit"
+        "phrase": "LinearSplit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe LinearSplit module implements partitioning the sequence of items to the \n subsequences in the order given. The next functions are exported:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e gPartition. Split the sequence of items items using greedy heuristic. \n\u003c/li\u003e\u003cli\u003e lPartition. Split the sequence of items to minimize the maximum cost over \n   all the subsequences using linear partition algorithm\n   (see the 'The Algorithm Design Manual' by Steven S. Skiena..)  \n\u003c/li\u003e\u003cli\u003e ltPartition. The approximation of the linear partition algorithm.\n   The large size of the work items space is decreased by\n   combining the consecutive items based on the threshold parameter.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:42 UTC 2014",
           "module": "Data.LinearSplit",
           "name": "LinearSplit",
           "package": "LinearSplit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The LinearSplit module implements partitioning the sequence of items to the subsequences in the order given The next functions are exported gPartition Split the sequence of items items using greedy heuristic lPartition Split the sequence of items to minimize the maximum cost over all the subsequences using linear partition algorithm see the The Algorithm Design Manual by Steven Skiena ltPartition The approximation of the linear partition algorithm The large size of the work items space is decreased by combining the consecutive items based on the threshold parameter",
           "hierarchy": "Data LinearSplit",
+          "indexed": "2014-03-11T16:51:42",
           "module": "Data.LinearSplit",
           "name": "LinearSplit",
           "package": "LinearSplit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of the work item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:42 UTC 2014",
           "module": "Data.LinearSplit",
           "name": "Item",
           "package": "LinearSplit",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Representation of the work item",
           "hierarchy": "Data LinearSplit",
+          "indexed": "2014-03-11T16:51:42",
           "module": "Data.LinearSplit",
           "name": "Item",
           "package": "LinearSplit",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:42 UTC 2014",
           "module": "Data.LinearSplit",
           "name": "Item",
           "package": "LinearSplit",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data LinearSplit",
+          "indexed": "2014-03-11T16:51:42",
           "module": "Data.LinearSplit",
           "name": "Item",
           "package": "LinearSplit",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartition the items based on the greedy algoritm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:42 UTC 2014",
           "module": "Data.LinearSplit",
           "name": "gPartition",
           "package": "LinearSplit",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Partition the items based on the greedy algoritm",
           "hierarchy": "Data LinearSplit",
+          "indexed": "2014-03-11T16:51:42",
           "module": "Data.LinearSplit",
           "name": "gPartition",
           "normalized": "([Item a b]-\u003eBool)-\u003eInt-\u003e[Item a b]-\u003e[[Item a b]]",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eitem id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:42 UTC 2014",
           "module": "Data.LinearSplit",
           "name": "item",
           "package": "LinearSplit",
@@ -123,6 +132,7 @@
         "index": {
           "description": "item id",
           "hierarchy": "Data LinearSplit",
+          "indexed": "2014-03-11T16:51:42",
           "module": "Data.LinearSplit",
           "name": "item",
           "package": "LinearSplit",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartition items to minimize the maximum cost over all ranges\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:42 UTC 2014",
           "module": "Data.LinearSplit",
           "name": "lPartition",
           "package": "LinearSplit",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Partition items to minimize the maximum cost over all ranges",
           "hierarchy": "Data LinearSplit",
+          "indexed": "2014-03-11T16:51:42",
           "module": "Data.LinearSplit",
           "name": "lPartition",
           "normalized": "Int-\u003e[Item a b]-\u003e[[Item a b]]",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartition items with accumulating items \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:42 UTC 2014",
           "module": "Data.LinearSplit",
           "name": "ltPartition",
           "package": "LinearSplit",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Partition items with accumulating items",
           "hierarchy": "Data LinearSplit",
+          "indexed": "2014-03-11T16:51:42",
           "module": "Data.LinearSplit",
           "name": "ltPartition",
           "normalized": "Int-\u003e[Item a b]-\u003eb-\u003e[[Item a b]]",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eweight of the item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:42 UTC 2014",
           "module": "Data.LinearSplit",
           "name": "weight",
           "package": "LinearSplit",
@@ -198,6 +213,7 @@
         "index": {
           "description": "weight of the item",
           "hierarchy": "Data LinearSplit",
+          "indexed": "2014-03-11T16:51:42",
           "module": "Data.LinearSplit",
           "name": "weight",
           "package": "LinearSplit",

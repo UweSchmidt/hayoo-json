@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "URLT"
+        "phrase": "URLT",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Base",
           "name": "Base",
           "package": "URLT",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "URLT Base",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Base",
           "name": "Base",
           "package": "URLT",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Base",
           "name": "Link",
           "package": "URLT",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "URLT Base",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Base",
           "name": "Link",
           "package": "URLT",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Base",
           "name": "ShowURL",
           "package": "URLT",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "URLT Base",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Base",
           "name": "ShowURL",
           "package": "URLT",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonad transformer for generating URLs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Base",
           "name": "URLT",
           "package": "URLT",
@@ -91,6 +98,7 @@
         "index": {
           "description": "monad transformer for generating URLs",
           "hierarchy": "URLT Base",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Base",
           "name": "URLT",
           "package": "URLT",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Base",
           "name": "URLT",
           "package": "URLT",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "URLT Base",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Base",
           "name": "URLT",
           "package": "URLT",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Base",
           "name": "crossURL",
           "package": "URLT",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "URLT Base",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Base",
           "name": "crossURL",
           "normalized": "(a-\u003ea)-\u003eURLT a b(a-\u003eLink)",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Base",
           "name": "mapURLT",
           "package": "URLT",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "URLT Base",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Base",
           "name": "mapURLT",
           "normalized": "(a b-\u003ec d)-\u003eURLT e a b-\u003eURLT e c d",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused to embed a URLT into a larger parent url\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Base",
           "name": "nestURL",
           "package": "URLT",
@@ -185,6 +200,7 @@
         "index": {
           "description": "used to embed URLT into larger parent url",
           "hierarchy": "URLT Base",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Base",
           "name": "nestURL",
           "normalized": "(a-\u003ea)-\u003eURLT a b c-\u003eURLT a b c",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Base",
           "name": "showURL",
           "package": "URLT",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "URLT Base",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Base",
           "name": "showURL",
           "package": "URLT",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Base",
           "name": "unURLT",
           "package": "URLT",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "URLT Base",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Base",
           "name": "unURLT",
           "normalized": "ReaderT(a-\u003eLink)b c",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar to withReaderT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Base",
           "name": "withURLT",
           "package": "URLT",
@@ -257,6 +278,7 @@
         "index": {
           "description": "similar to withReaderT",
           "hierarchy": "URLT Base",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Base",
           "name": "withURLT",
           "normalized": "((a-\u003eLink)-\u003eb-\u003eLink)-\u003eURLT b c d-\u003eURLT a c d",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.HandleT",
           "name": "HandleT",
           "package": "URLT",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "URLT HandleT",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.HandleT",
           "name": "HandleT",
           "package": "URLT",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.HandleT",
           "name": "Site",
           "package": "URLT",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "URLT HandleT",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.HandleT",
           "name": "Site",
           "package": "URLT",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.HandleT",
           "name": "Site",
           "package": "URLT",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "URLT HandleT",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.HandleT",
           "name": "Site",
           "package": "URLT",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.HandleT",
           "name": "defaultPage",
           "package": "URLT",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "URLT HandleT",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.HandleT",
           "name": "defaultPage",
           "package": "URLT",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.HandleT",
           "name": "formatLink",
           "package": "URLT",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "URLT HandleT",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.HandleT",
           "name": "formatLink",
           "normalized": "a-\u003eb",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.HandleT",
           "name": "handleLink",
           "package": "URLT",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "URLT HandleT",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.HandleT",
           "name": "handleLink",
           "normalized": "a-\u003eURLT a b c",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.HandleT",
           "name": "parseLink",
           "package": "URLT",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "URLT HandleT",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.HandleT",
           "name": "parseLink",
           "normalized": "a-\u003eFailing b",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.HandleT",
           "name": "runSite",
           "package": "URLT",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "URLT HandleT",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.HandleT",
           "name": "runSite",
           "normalized": "String-\u003eSite a Link b c-\u003eLink-\u003eb(Failing c)",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Happstack",
           "name": "Happstack",
           "package": "URLT",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "URLT Happstack",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Happstack",
           "name": "Happstack",
           "package": "URLT",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Happstack",
           "name": "implSite",
           "package": "URLT",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "URLT Happstack",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Happstack",
           "name": "implSite",
           "normalized": "String-\u003eString-\u003eSite a Link(ServerPartT b)c-\u003eServerPartT b c",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.QuickCheck",
           "name": "QuickCheck",
           "package": "URLT",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "URLT QuickCheck",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.QuickCheck",
           "name": "QuickCheck",
           "package": "URLT",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.QuickCheck",
           "name": "asURLInverse_prop",
           "package": "URLT",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "URLT QuickCheck",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.QuickCheck",
           "name": "asURLInverse_prop",
           "normalized": "a-\u003eBool",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Regular",
           "name": "Regular",
           "package": "URLT",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "URLT Regular",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Regular",
           "name": "Regular",
           "package": "URLT",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Regular",
           "name": "GToURL",
           "package": "URLT",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "URLT Regular",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Regular",
           "name": "GToURL",
           "package": "URLT",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Regular",
           "name": "gfromURLC",
           "package": "URLT",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "URLT Regular",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Regular",
           "name": "gfromURLC",
           "package": "URLT",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.Regular",
           "name": "gtoURLS",
           "package": "URLT",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "URLT Regular",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.Regular",
           "name": "gtoURLS",
           "normalized": "a b-\u003eShowS",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.TH",
           "name": "TH",
           "package": "URLT",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "URLT TH",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.TH",
           "name": "TH",
           "package": "URLT",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.TH",
           "name": "AsURL",
           "package": "URLT",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "URLT TH",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.TH",
           "name": "AsURL",
           "package": "URLT",
@@ -674,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.TH",
           "name": "Class",
           "package": "URLT",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "URLT TH",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.TH",
           "name": "Class",
           "package": "URLT",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.TH",
           "name": "Tagged",
           "package": "URLT",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "URLT TH",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.TH",
           "name": "Tagged",
           "normalized": "Tagged[(Name,Int)]Cxt[Name]",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.TH",
           "name": "deriveAsURL",
           "package": "URLT",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "URLT TH",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.TH",
           "name": "deriveAsURL",
           "normalized": "Name-\u003eQ[Dec]",
@@ -743,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.TH",
           "name": "fromURL",
           "package": "URLT",
@@ -752,6 +817,7 @@
         },
         "index": {
           "hierarchy": "URLT TH",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.TH",
           "name": "fromURL",
           "normalized": "String-\u003eFailing a",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.TH",
           "name": "fromURLC",
           "package": "URLT",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "URLT TH",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.TH",
           "name": "fromURLC",
           "package": "URLT",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.TH",
           "name": "mkType",
           "package": "URLT",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "URLT TH",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.TH",
           "name": "mkType",
           "normalized": "Name-\u003e[TypeQ]-\u003eTypeQ",
@@ -813,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.TH",
           "name": "parseInfo",
           "package": "URLT",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "URLT TH",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.TH",
           "name": "parseInfo",
           "normalized": "Name-\u003eQ Class",
@@ -837,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.TH",
           "name": "toURL",
           "package": "URLT",
@@ -846,6 +919,7 @@
         },
         "index": {
           "hierarchy": "URLT TH",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.TH",
           "name": "toURL",
           "normalized": "a-\u003eString",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.TH",
           "name": "toURLS",
           "package": "URLT",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "URLT TH",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.TH",
           "name": "toURLS",
           "normalized": "a-\u003eShowS",
@@ -885,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.XMLGenT",
           "name": "XMLGenT",
           "package": "URLT",
@@ -893,6 +970,7 @@
         },
         "index": {
           "hierarchy": "URLT XMLGenT",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.XMLGenT",
           "name": "XMLGenT",
           "package": "URLT",
@@ -906,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT.XMLGenT",
           "name": "flattenCDATA",
           "package": "URLT",
@@ -915,6 +994,7 @@
         },
         "index": {
           "hierarchy": "URLT XMLGenT",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT.XMLGenT",
           "name": "flattenCDATA",
           "normalized": "[XML]-\u003e[XML]",
@@ -930,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:13 UTC 2014",
           "module": "URLT",
           "name": "URLT",
           "package": "URLT",
@@ -938,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "URLT",
+          "indexed": "2014-03-11T17:03:13",
           "module": "URLT",
           "name": "URLT",
           "package": "URLT",

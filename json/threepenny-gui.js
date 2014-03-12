@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "threepenny-gui"
+        "phrase": "threepenny-gui",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "Coupon",
           "package": "threepenny-gui",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "Coupon",
           "package": "threepenny-gui",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoupons can be used as a proxy for \u003ccode\u003e\u003ca\u003eItem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe important point is that coupons can be serialized and sent\n over a remote connection.\n\u003c/p\u003e\u003cp\u003eCoupons are in bijection with items:\n Different coupons will yield different items while\n the same item will always be associated to the same coupon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "Coupon",
           "package": "threepenny-gui",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Coupons can be used as proxy for Item The important point is that coupons can be serialized and sent over remote connection Coupons are in bijection with items Different coupons will yield different items while the same item will always be associated to the same coupon",
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "Coupon",
           "package": "threepenny-gui",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItems represent foreign objects.\n The intended use case is that these objects do not live in RAM,\n but are only accessible via a remote connection.\n\u003c/p\u003e\u003cp\u003eThe foreign object can be accessed by means of the item data of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "Item",
           "package": "threepenny-gui",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Items represent foreign objects The intended use case is that these objects do not live in RAM but are only accessible via remote connection The foreign object can be accessed by means of the item data of type",
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "Item",
           "package": "threepenny-gui",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemote boothes are a mapping from \u003ccode\u003e\u003ca\u003eCoupon\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eItem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003ePrize boothes are neutral concerning garbage collection,\n they do not keep items alive.\n Moreover, items will be deleted from the booth when they are garbage collected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "PrizeBooth",
           "package": "threepenny-gui",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Remote boothes are mapping from Coupon to Item Prize boothes are neutral concerning garbage collection they do not keep items alive Moreover items will be deleted from the booth when they are garbage collected",
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "PrizeBooth",
           "package": "threepenny-gui",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a finalizer that is run when the item is garbage collected.\n\u003c/p\u003e\u003cp\u003eThe coupon cannot be redeemed anymore while the finalizer runs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "addFinalizer",
           "package": "threepenny-gui",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Add finalizer that is run when the item is garbage collected The coupon cannot be redeemed anymore while the finalizer runs",
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "addFinalizer",
           "normalized": "Item a-\u003eIO()-\u003eIO()",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen dealing with several foreign objects,\n it is useful to model dependencies between them.\n\u003c/p\u003e\u003cp\u003eAfter this operation, the second \u003ccode\u003e\u003ca\u003eItem\u003c/a\u003e\u003c/code\u003e will be reachable\n whenever the first one is reachable.\n For instance, you should call this function when the second foreign object\n is actually a subobject of the first one.\n\u003c/p\u003e\u003cp\u003eNote: It is possible to model dependencies in the \u003ccode\u003eparent\u003c/code\u003e data,\n but the \u003ccode\u003e\u003ca\u003eaddReachable\u003c/a\u003e\u003c/code\u003e method is preferrable,\n as it allows all child object to be garbage collected at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "addReachable",
           "package": "threepenny-gui",
@@ -145,6 +156,7 @@
         "index": {
           "description": "When dealing with several foreign objects it is useful to model dependencies between them After this operation the second Item will be reachable whenever the first one is reachable For instance you should call this function when the second foreign object is actually subobject of the first one Note It is possible to model dependencies in the parent data but the addReachable method is preferrable as it allows all child object to be garbage collected at once",
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "addReachable",
           "normalized": "Item a-\u003eItem a-\u003eIO()",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear all dependencies.\n\u003c/p\u003e\u003cp\u003eReachability of this \u003ccode\u003e\u003ca\u003eItem\u003c/a\u003e\u003c/code\u003e no longer implies reachability\n of other items, as formerly implied by calls to \u003ccode\u003e\u003ca\u003eaddReachable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "clearReachable",
           "package": "threepenny-gui",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Clear all dependencies Reachability of this Item no longer implies reachability of other items as formerly implied by calls to addReachable",
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "clearReachable",
           "normalized": "Item a-\u003eIO()",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroy an item and run all finalizers for it.\n Coupons for this item can no longer be redeemed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "destroy",
           "package": "threepenny-gui",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Destroy an item and run all finalizers for it Coupons for this item can no longer be redeemed",
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "destroy",
           "normalized": "Item a-\u003eIO()",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a coupon to the prize booth and maybe you'll get an item for it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "lookup",
           "package": "threepenny-gui",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Take coupon to the prize booth and maybe you ll get an item for it",
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "lookup",
           "normalized": "Coupon-\u003ePrizeBooth a-\u003eIO(Maybe(Item a))",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new item, which can be exchanged for a coupon\n at an associated prize booth.\n\u003c/p\u003e\u003cp\u003eThe item can become unreachable,\n at which point it will be garbage collected,\n the finalizers will be run and its\n coupon ceases to be valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "newItem",
           "package": "threepenny-gui",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Create new item which can be exchanged for coupon at an associated prize booth The item can become unreachable at which point it will be garbage collected the finalizers will be run and its coupon ceases to be valid",
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "newItem",
           "normalized": "PrizeBooth a-\u003ea-\u003eIO(Item a)",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new prize booth for creating items and trading coupons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "newPrizeBooth",
           "package": "threepenny-gui",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Create new prize booth for creating items and trading coupons",
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "newPrizeBooth",
           "package": "threepenny-gui",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an action with the item.\n\u003c/p\u003e\u003cp\u003eWhile the action is being performed, it is ensured that the item\n will not be garbage collected\n and its coupon can be succesfully redeemed at the prize booth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Foreign.Coupon",
           "name": "withItem",
           "package": "threepenny-gui",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Perform an action with the item While the action is being performed it is ensured that the item will not be garbage collected and its coupon can be succesfully redeemed at the prize booth",
           "hierarchy": "Foreign Coupon",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Foreign.Coupon",
           "name": "withItem",
           "normalized": "Item a-\u003e(Coupon-\u003ea-\u003eIO b)-\u003eIO b",
@@ -312,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "Attributes",
           "package": "threepenny-gui",
@@ -320,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "Attributes",
           "package": "threepenny-gui",
@@ -333,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "action",
           "package": "threepenny-gui",
@@ -342,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "action",
           "package": "threepenny-gui",
@@ -354,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "align",
           "package": "threepenny-gui",
@@ -363,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "align",
           "package": "threepenny-gui",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "alink",
           "package": "threepenny-gui",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "alink",
           "package": "threepenny-gui",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "alt",
           "package": "threepenny-gui",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "alt",
           "package": "threepenny-gui",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "altcode",
           "package": "threepenny-gui",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "altcode",
           "package": "threepenny-gui",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "archive",
           "package": "threepenny-gui",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "archive",
           "package": "threepenny-gui",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "background",
           "package": "threepenny-gui",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "background",
           "package": "threepenny-gui",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "base",
           "package": "threepenny-gui",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "base",
           "package": "threepenny-gui",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "bgcolor",
           "package": "threepenny-gui",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "bgcolor",
           "package": "threepenny-gui",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "border",
           "package": "threepenny-gui",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "border",
           "package": "threepenny-gui",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "bordercolor",
           "package": "threepenny-gui",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "bordercolor",
           "package": "threepenny-gui",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "cellpadding",
           "package": "threepenny-gui",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "cellpadding",
           "package": "threepenny-gui",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "cellspacing",
           "package": "threepenny-gui",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "cellspacing",
           "package": "threepenny-gui",
@@ -607,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003echecked\u003c/code\u003e status of an input element of type checkbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "checked",
           "package": "threepenny-gui",
@@ -617,6 +670,7 @@
         "index": {
           "description": "The checked status of an input element of type checkbox",
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "checked",
           "package": "threepenny-gui",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "checked_",
           "package": "threepenny-gui",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "checked_",
           "package": "threepenny-gui",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "class_",
           "package": "threepenny-gui",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "class_",
           "package": "threepenny-gui",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "clear_",
           "package": "threepenny-gui",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "clear_",
           "package": "threepenny-gui",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "code_",
           "package": "threepenny-gui",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "code_",
           "package": "threepenny-gui",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "codebase",
           "package": "threepenny-gui",
@@ -722,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "codebase",
           "package": "threepenny-gui",
@@ -734,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "color",
           "package": "threepenny-gui",
@@ -743,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "color",
           "package": "threepenny-gui",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "cols",
           "package": "threepenny-gui",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "cols",
           "package": "threepenny-gui",
@@ -776,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "colspan",
           "package": "threepenny-gui",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "colspan",
           "package": "threepenny-gui",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "compact",
           "package": "threepenny-gui",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "compact",
           "package": "threepenny-gui",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "content",
           "package": "threepenny-gui",
@@ -827,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "content",
           "package": "threepenny-gui",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "coords",
           "package": "threepenny-gui",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "coords",
           "package": "threepenny-gui",
@@ -861,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eenabled\u003c/code\u003e status of an input element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "enabled",
           "package": "threepenny-gui",
@@ -871,6 +948,7 @@
         "index": {
           "description": "The enabled status of an input element",
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "enabled",
           "package": "threepenny-gui",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "enctype",
           "package": "threepenny-gui",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "enctype",
           "package": "threepenny-gui",
@@ -904,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "face",
           "package": "threepenny-gui",
@@ -913,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "face",
           "package": "threepenny-gui",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "frameborder",
           "package": "threepenny-gui",
@@ -934,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "frameborder",
           "package": "threepenny-gui",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "height",
           "package": "threepenny-gui",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "height",
           "package": "threepenny-gui",
@@ -967,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "href",
           "package": "threepenny-gui",
@@ -976,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "href",
           "package": "threepenny-gui",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "hspace",
           "package": "threepenny-gui",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "hspace",
           "package": "threepenny-gui",
@@ -1009,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "httpequiv",
           "package": "threepenny-gui",
@@ -1018,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "httpequiv",
           "package": "threepenny-gui",
@@ -1030,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "id_",
           "package": "threepenny-gui",
@@ -1039,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "id_",
           "package": "threepenny-gui",
@@ -1051,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "ismap",
           "package": "threepenny-gui",
@@ -1060,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "ismap",
           "package": "threepenny-gui",
@@ -1072,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "lang",
           "package": "threepenny-gui",
@@ -1081,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "lang",
           "package": "threepenny-gui",
@@ -1093,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "marginheight",
           "package": "threepenny-gui",
@@ -1102,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "marginheight",
           "package": "threepenny-gui",
@@ -1114,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "marginwidth",
           "package": "threepenny-gui",
@@ -1123,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "marginwidth",
           "package": "threepenny-gui",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "maxlength",
           "package": "threepenny-gui",
@@ -1144,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "maxlength",
           "package": "threepenny-gui",
@@ -1156,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "method",
           "package": "threepenny-gui",
@@ -1165,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "method",
           "package": "threepenny-gui",
@@ -1177,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "multiple",
           "package": "threepenny-gui",
@@ -1186,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "multiple",
           "package": "threepenny-gui",
@@ -1198,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "name",
           "package": "threepenny-gui",
@@ -1207,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "name",
           "package": "threepenny-gui",
@@ -1219,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "nohref",
           "package": "threepenny-gui",
@@ -1228,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "nohref",
           "package": "threepenny-gui",
@@ -1240,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "noresize",
           "package": "threepenny-gui",
@@ -1249,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "noresize",
           "package": "threepenny-gui",
@@ -1261,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "noshade",
           "package": "threepenny-gui",
@@ -1270,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "noshade",
           "package": "threepenny-gui",
@@ -1282,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "nowrap",
           "package": "threepenny-gui",
@@ -1291,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "nowrap",
           "package": "threepenny-gui",
@@ -1303,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "rel",
           "package": "threepenny-gui",
@@ -1312,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "rel",
           "package": "threepenny-gui",
@@ -1324,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "rev",
           "package": "threepenny-gui",
@@ -1333,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "rev",
           "package": "threepenny-gui",
@@ -1345,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "rows",
           "package": "threepenny-gui",
@@ -1354,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "rows",
           "package": "threepenny-gui",
@@ -1366,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "rowspan",
           "package": "threepenny-gui",
@@ -1375,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "rowspan",
           "package": "threepenny-gui",
@@ -1387,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "rules",
           "package": "threepenny-gui",
@@ -1396,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "rules",
           "package": "threepenny-gui",
@@ -1408,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "scrolling",
           "package": "threepenny-gui",
@@ -1417,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "scrolling",
           "package": "threepenny-gui",
@@ -1429,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "selected",
           "package": "threepenny-gui",
@@ -1438,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "selected",
           "package": "threepenny-gui",
@@ -1451,6 +1583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of the currently selected option of a \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e\u003cp\u003eThe index starts at \u003ccode\u003e0\u003c/code\u003e.\n If no option is selected, then the selection is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "selection",
           "package": "threepenny-gui",
@@ -1461,6 +1594,7 @@
         "index": {
           "description": "Index of the currently selected option of select element The index starts at If no option is selected then the selection is Nothing",
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "selection",
           "package": "threepenny-gui",
@@ -1473,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "shape",
           "package": "threepenny-gui",
@@ -1482,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "shape",
           "package": "threepenny-gui",
@@ -1494,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "size",
           "package": "threepenny-gui",
@@ -1503,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "size",
           "package": "threepenny-gui",
@@ -1515,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "src",
           "package": "threepenny-gui",
@@ -1524,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "src",
           "package": "threepenny-gui",
@@ -1536,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "target",
           "package": "threepenny-gui",
@@ -1545,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "target",
           "package": "threepenny-gui",
@@ -1557,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "text_",
           "package": "threepenny-gui",
@@ -1566,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "text_",
           "package": "threepenny-gui",
@@ -1578,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "type_",
           "package": "threepenny-gui",
@@ -1587,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "type_",
           "package": "threepenny-gui",
@@ -1599,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "usemap",
           "package": "threepenny-gui",
@@ -1608,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "usemap",
           "package": "threepenny-gui",
@@ -1620,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "valign",
           "package": "threepenny-gui",
@@ -1629,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "valign",
           "package": "threepenny-gui",
@@ -1641,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "version",
           "package": "threepenny-gui",
@@ -1650,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "version",
           "package": "threepenny-gui",
@@ -1662,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "vlink",
           "package": "threepenny-gui",
@@ -1671,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "vlink",
           "package": "threepenny-gui",
@@ -1683,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "vspace",
           "package": "threepenny-gui",
@@ -1692,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "vspace",
           "package": "threepenny-gui",
@@ -1704,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "width",
           "package": "threepenny-gui",
@@ -1713,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Attributes",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Attributes",
           "name": "width",
           "package": "threepenny-gui",
@@ -1725,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Canvas",
           "name": "Canvas",
           "package": "threepenny-gui",
@@ -1733,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Canvas",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Canvas",
           "name": "Canvas",
           "package": "threepenny-gui",
@@ -1746,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Canvas",
           "name": "Canvas",
           "package": "threepenny-gui",
@@ -1754,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Canvas",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Canvas",
           "name": "Canvas",
           "package": "threepenny-gui",
@@ -1767,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Canvas",
           "name": "Vector",
           "package": "threepenny-gui",
@@ -1775,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Canvas",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Canvas",
           "name": "Vector",
           "package": "threepenny-gui",
@@ -1789,6 +1953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear the canvas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Canvas",
           "name": "clearCanvas",
           "package": "threepenny-gui",
@@ -1799,6 +1964,7 @@
         "index": {
           "description": "Clear the canvas",
           "hierarchy": "Graphics UI Threepenny Canvas",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Canvas",
           "name": "clearCanvas",
           "normalized": "Canvas-\u003eUI()",
@@ -1815,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw the image of an image element onto the canvas at a specified position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Canvas",
           "name": "drawImage",
           "package": "threepenny-gui",
@@ -1825,6 +1992,7 @@
         "index": {
           "description": "Draw the image of an image element onto the canvas at specified position",
           "hierarchy": "Graphics UI Threepenny Canvas",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Canvas",
           "name": "drawImage",
           "normalized": "Element-\u003eVector-\u003eCanvas-\u003eUI()",
@@ -1840,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Core",
           "package": "threepenny-gui",
@@ -1848,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Core",
           "package": "threepenny-gui",
@@ -1862,6 +2032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes can be \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Attr",
           "package": "threepenny-gui",
@@ -1871,6 +2042,7 @@
         "index": {
           "description": "Attributes can be set and get",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Attr",
           "package": "threepenny-gui",
@@ -1885,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord for configuring the Threepenny GUI server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Config",
           "package": "threepenny-gui",
@@ -1894,6 +2067,7 @@
         "index": {
           "description": "Record for configuring the Threepenny GUI server",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Config",
           "package": "threepenny-gui",
@@ -1907,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Element",
           "package": "threepenny-gui",
@@ -1915,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Element",
           "package": "threepenny-gui",
@@ -1929,6 +2105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData from an event. At the moment it is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "EventData",
           "package": "threepenny-gui",
@@ -1938,6 +2115,7 @@
         "index": {
           "description": "Data from an event At the moment it is empty",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "EventData",
           "package": "threepenny-gui",
@@ -1952,6 +2130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper class for making \u003ccode\u003e\u003ca\u003effi\u003c/a\u003e\u003c/code\u003e a variable argument function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "FFI",
           "package": "threepenny-gui",
@@ -1961,6 +2140,7 @@
         "index": {
           "description": "Helper class for making ffi variable argument function",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "FFI",
           "package": "threepenny-gui",
@@ -1975,6 +2155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JavaScript function with a given output type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "JSFunction",
           "package": "threepenny-gui",
@@ -1984,6 +2165,7 @@
         "index": {
           "description": "JavaScript function with given output type",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "JSFunction",
           "package": "threepenny-gui",
@@ -1998,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute that only supports the \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "ReadAttr",
           "package": "threepenny-gui",
@@ -2007,6 +2190,7 @@
         "index": {
           "description": "Attribute that only supports the get operation",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "ReadAttr",
           "package": "threepenny-gui",
@@ -2021,6 +2205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized attribute with different types for getting and setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "ReadWriteAttr",
           "package": "threepenny-gui",
@@ -2030,6 +2215,7 @@
         "index": {
           "description": "Generalized attribute with different types for getting and setting",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "ReadWriteAttr",
           "package": "threepenny-gui",
@@ -2044,6 +2230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper class for rendering Haskell values as JavaScript expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "ToJS",
           "package": "threepenny-gui",
@@ -2053,6 +2240,7 @@
         "index": {
           "description": "Helper class for rendering Haskell values as JavaScript expressions",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "ToJS",
           "package": "threepenny-gui",
@@ -2067,6 +2255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser interface elements are created and manipulated in the \u003ccode\u003e\u003ca\u003eUI\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003cp\u003eThis monad is essentially just a thin wrapper around the familiar \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\nUse the \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e function to access \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e operations like reading\nand writing from files.\n\u003c/p\u003e\u003cp\u003eThere are several subtle reasons why Threepenny\nuses a custom \u003ccode\u003e\u003ca\u003eUI\u003c/a\u003e\u003c/code\u003e monad instead of the standard \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e More convenience when calling JavaScript.\nThe monad keeps track of a browser \u003ccode\u003e\u003ca\u003eWindow\u003c/a\u003e\u003c/code\u003e context\nin which JavaScript function calls are executed.\n\u003c/li\u003e\u003cli\u003e Recursion for functional reactive programming.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "UI",
           "package": "threepenny-gui",
@@ -2076,6 +2265,7 @@
         "index": {
           "description": "User interface elements are created and manipulated in the UI monad This monad is essentially just thin wrapper around the familiar IO monad Use the liftIO function to access IO operations like reading and writing from files There are several subtle reasons why Threepenny uses custom UI monad instead of the standard IO monad More convenience when calling JavaScript The monad keeps track of browser Window context in which JavaScript function calls are executed Recursion for functional reactive programming",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "UI",
           "package": "threepenny-gui",
@@ -2090,6 +2280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets are data types that have a visual representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Widget",
           "package": "threepenny-gui",
@@ -2099,6 +2290,7 @@
         "index": {
           "description": "Widgets are data types that have visual representation",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Widget",
           "package": "threepenny-gui",
@@ -2113,6 +2305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe client browser window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Window",
           "package": "threepenny-gui",
@@ -2122,6 +2315,7 @@
         "index": {
           "description": "The client browser window",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Window",
           "package": "threepenny-gui",
@@ -2136,6 +2330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute that only supports the \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "WriteAttr",
           "package": "threepenny-gui",
@@ -2145,6 +2340,7 @@
         "index": {
           "description": "Attribute that only supports the set operation",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "WriteAttr",
           "package": "threepenny-gui",
@@ -2159,6 +2355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse function application.\n Allows convenient notation for setting properties.\n\u003c/p\u003e\u003cp\u003eExample usage.\n\u003c/p\u003e\u003cpre\u003e mkElement \"div\"\n     # set style     [(\"color\",\"#CCAABB\")]\n     # set draggable True\n     # set children  otherElements\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "(#)",
           "package": "threepenny-gui",
@@ -2169,6 +2366,7 @@
         "index": {
           "description": "Reverse function application Allows convenient notation for setting properties Example usage mkElement div set style color CCAABB set draggable True set children otherElements",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "(#) #",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -2184,6 +2382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend DOM elements as children to a given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "(#+)",
           "package": "threepenny-gui",
@@ -2194,6 +2393,7 @@
         "index": {
           "description": "Append DOM elements as children to given element",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "(#+) #+",
           "normalized": "UI Element-\u003e[UI Element]-\u003eUI Element",
@@ -2209,6 +2409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient combinator for setting the CSS class on element creation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "(#.)",
           "package": "threepenny-gui",
@@ -2219,6 +2420,7 @@
         "index": {
           "description": "Convenient combinator for setting the CSS class on element creation",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "(#.) #.",
           "normalized": "UI Element-\u003eString-\u003eUI Element",
@@ -2233,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Config",
           "package": "threepenny-gui",
@@ -2242,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "Config",
           "package": "threepenny-gui",
@@ -2255,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "EventData",
           "package": "threepenny-gui",
@@ -2264,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "EventData",
           "normalized": "EventData[Maybe String]",
@@ -2279,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "ReadWriteAttr",
           "package": "threepenny-gui",
@@ -2288,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "ReadWriteAttr",
           "package": "threepenny-gui",
@@ -2302,6 +2510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve current \u003ccode\u003e\u003ca\u003eWindow\u003c/a\u003e\u003c/code\u003e context in the \u003ccode\u003e\u003ca\u003eUI\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "askWindow",
           "package": "threepenny-gui",
@@ -2312,6 +2521,7 @@
         "index": {
           "description": "Retrieve current Window context in the UI monad",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "askWindow",
           "package": "threepenny-gui",
@@ -2326,6 +2536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomically execute the given computation in the context of a browser window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "atomic",
           "package": "threepenny-gui",
@@ -2336,6 +2547,7 @@
         "index": {
           "description": "Atomically execute the given computation in the context of browser window",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "atomic",
           "normalized": "Window-\u003eIO a-\u003eIO a",
@@ -2351,6 +2563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML attributes of an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "attr",
           "package": "threepenny-gui",
@@ -2361,6 +2574,7 @@
         "index": {
           "description": "HTML attributes of an element",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "attr",
           "normalized": "String-\u003eWriteAttr Element String",
@@ -2376,6 +2590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvoke the JavaScript expression \u003ccode\u003eaudioElement.play();\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "audioPlay",
           "package": "threepenny-gui",
@@ -2386,6 +2601,7 @@
         "index": {
           "description": "Invoke the JavaScript expression audioElement.play",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "audioPlay",
           "normalized": "Element-\u003eUI()",
@@ -2402,6 +2618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvoke the JavaScript expression \u003ccode\u003eaudioElement.stop();\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "audioStop",
           "package": "threepenny-gui",
@@ -2412,6 +2629,7 @@
         "index": {
           "description": "Invoke the JavaScript expression audioElement.stop",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "audioStop",
           "normalized": "Element-\u003eUI()",
@@ -2428,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall the given function with the given continuation. Doesn't block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "callDeferredFunction",
           "package": "threepenny-gui",
@@ -2437,6 +2656,7 @@
         "index": {
           "description": "Call the given function with the given continuation Doesn block",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "callDeferredFunction",
           "normalized": "Window-\u003eString-\u003e[String]-\u003e([Maybe String]-\u003eIO())-\u003eIO()",
@@ -2453,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given JavaScript function and wait for results. Blocks.\n\u003c/p\u003e\u003cp\u003eThe client window uses JavaScript's \u003ccode\u003eeval()\u003c/code\u003e function to run the code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "callFunction",
           "package": "threepenny-gui",
@@ -2463,6 +2684,7 @@
         "index": {
           "description": "Run the given JavaScript function and wait for results Blocks The client window uses JavaScript eval function to run the code",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "callFunction",
           "normalized": "JSFunction a-\u003eUI a",
@@ -2479,6 +2701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChild elements of a given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "children",
           "package": "threepenny-gui",
@@ -2489,6 +2712,7 @@
         "index": {
           "description": "Child elements of given element",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "children",
           "normalized": "WriteAttr Element[Element]",
@@ -2504,6 +2728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign given elements in a column. Special case of \u003ccode\u003e\u003ca\u003egrid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "column",
           "package": "threepenny-gui",
@@ -2514,6 +2739,7 @@
         "index": {
           "description": "Align given elements in column Special case of grid",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "column",
           "normalized": "[UI Element]-\u003eUI Element",
@@ -2529,6 +2755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCookies on the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "cookies",
           "package": "threepenny-gui",
@@ -2539,6 +2766,7 @@
         "index": {
           "description": "Cookies on the client",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "cookies",
           "normalized": "ReadAttr Window[(String,String)]",
@@ -2554,6 +2782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a message on the client console if the client has debugging enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "debug",
           "package": "threepenny-gui",
@@ -2564,6 +2793,7 @@
         "index": {
           "description": "Print message on the client console if the client has debugging enabled",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "debug",
           "normalized": "String-\u003eUI()",
@@ -2579,6 +2809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault configuration.\n\u003c/p\u003e\u003cp\u003ePort from environment variable or \u003ccode\u003e8023\u003c/code\u003e,\n no custom HTML, no static directory, logging to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "defaultConfig",
           "package": "threepenny-gui",
@@ -2589,6 +2820,7 @@
         "index": {
           "description": "Default configuration Port from environment variable or no custom HTML no static directory logging to stderr",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "defaultConfig",
           "package": "threepenny-gui",
@@ -2603,6 +2835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "delete",
           "package": "threepenny-gui",
@@ -2613,6 +2846,7 @@
         "index": {
           "description": "Delete the given element",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "delete",
           "normalized": "Element-\u003eUI()",
@@ -2628,6 +2862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent that occurs whenever the client has disconnected,\n be it by closing the browser window or by exception.\n\u003c/p\u003e\u003cp\u003eNote: DOM Elements in the browser window that has been closed\n can no longer be manipulated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "disconnect",
           "package": "threepenny-gui",
@@ -2638,6 +2873,7 @@
         "index": {
           "description": "Event that occurs whenever the client has disconnected be it by closing the browser window or by exception Note DOM Elements in the browser window that has been closed can no longer be manipulated",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "disconnect",
           "normalized": "Window-\u003eEvent()",
@@ -2653,6 +2889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain DOM event for a given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "domEvent",
           "package": "threepenny-gui",
@@ -2662,6 +2899,7 @@
         "index": {
           "description": "Obtain DOM event for given element",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "domEvent",
           "normalized": "String-\u003eElement-\u003eEvent EventData",
@@ -2678,6 +2916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvience synonym for \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e to make elements work well with \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e.\n Also works on \u003ccode\u003e\u003ca\u003eWidget\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eExample usage.\n\u003c/p\u003e\u003cpre\u003e e \u003c- mkElement \"button\"\n element e # set text \"Ok\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "element",
           "package": "threepenny-gui",
@@ -2688,6 +2927,7 @@
         "index": {
           "description": "Convience synonym for return to make elements work well with set Also works on Widget Example usage mkElement button element set text Ok",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "element",
           "normalized": "a-\u003eb Element",
@@ -2703,6 +2943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple JavaScript FFI with string substitution.\n\u003c/p\u003e\u003cp\u003eInspired by the Fay language. \u003ca\u003ehttp://fay-lang.org/\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e example :: String -\u003e Int -\u003e JSFunction String\n example = ffi \"$(%1).prop('checked',%2)\"\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003effi\u003c/a\u003e\u003c/code\u003e function takes a string argument representing the JavaScript\n code to be executed on the client.\n Occurrences of the substrings \u003ccode\u003e%1\u003c/code\u003e to \u003ccode\u003e%9\u003c/code\u003e will be replaced by\n subequent arguments.\n\u003c/p\u003e\u003cp\u003eNote: Always specify a type signature! The types automate\n how values are marshalled between Haskell and JavaScript.\n The class instances for the \u003ccode\u003e\u003ca\u003eFFI\u003c/a\u003e\u003c/code\u003e class show which conversions are supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "ffi",
           "package": "threepenny-gui",
@@ -2713,6 +2954,7 @@
         "index": {
           "description": "Simple JavaScript FFI with string substitution Inspired by the Fay language http fay-lang.org example String Int JSFunction String example ffi prop checked The ffi function takes string argument representing the JavaScript code to be executed on the client Occurrences of the substrings to will be replaced by subequent arguments Note Always specify type signature The types automate how values are marshalled between Haskell and JavaScript The class instances for the FFI class show which conversions are supported",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "ffi",
           "normalized": "String-\u003ea",
@@ -2727,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "fromProp",
           "package": "threepenny-gui",
@@ -2736,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "fromProp",
           "normalized": "String-\u003e(Value-\u003ea)-\u003e(a-\u003eValue)-\u003eAttr Element a",
@@ -2752,6 +2996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet attribute value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "get",
           "package": "threepenny-gui",
@@ -2762,6 +3007,7 @@
         "index": {
           "description": "Get attribute value",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "get",
           "normalized": "ReadWriteAttr a b c-\u003ea-\u003eUI c",
@@ -2776,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "get'",
           "package": "threepenny-gui",
@@ -2785,6 +3032,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "get'",
           "normalized": "a-\u003eUI b",
@@ -2800,6 +3048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the body of the page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getBody",
           "package": "threepenny-gui",
@@ -2810,6 +3059,7 @@
         "index": {
           "description": "Get the body of the page",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getBody",
           "normalized": "Window-\u003eUI Element",
@@ -2825,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getElement",
           "package": "threepenny-gui",
@@ -2834,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getElement",
           "normalized": "a-\u003eElement",
@@ -2850,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an element by a particular ID.  Blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getElementById",
           "package": "threepenny-gui",
@@ -2859,6 +3112,7 @@
         "index": {
           "description": "Get an element by particular ID Blocks",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getElementById",
           "normalized": "Window-\u003eString-\u003eUI(Maybe Element)",
@@ -2875,6 +3129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of elements by particular class.  Blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getElementsByClassName",
           "package": "threepenny-gui",
@@ -2884,6 +3139,7 @@
         "index": {
           "description": "Get list of elements by particular class Blocks",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getElementsByClassName",
           "normalized": "Window-\u003eString-\u003eUI[Element]",
@@ -2900,6 +3156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all elements of the given tag name.  Blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getElementsByTagName",
           "package": "threepenny-gui",
@@ -2909,6 +3166,7 @@
         "index": {
           "description": "Get all elements of the given tag name Blocks",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getElementsByTagName",
           "normalized": "Window-\u003eString-\u003eUI[Element]",
@@ -2925,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the head of the page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getHead",
           "package": "threepenny-gui",
@@ -2935,6 +3194,7 @@
         "index": {
           "description": "Get the head of the page",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getHead",
           "normalized": "Window-\u003eUI Element",
@@ -2951,6 +3211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the request location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getRequestLocation",
           "package": "threepenny-gui",
@@ -2961,6 +3222,7 @@
         "index": {
           "description": "Get the request location",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getRequestLocation",
           "normalized": "Window-\u003eIO URI",
@@ -2977,6 +3239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet values from inputs. Blocks. This is faster than many \u003ccode\u003egetValue\u003c/code\u003e invocations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getValuesList",
           "package": "threepenny-gui",
@@ -2986,6 +3249,7 @@
         "index": {
           "description": "Get values from inputs Blocks This is faster than many getValue invocations",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getValuesList",
           "normalized": "[Element]-\u003eUI[String]",
@@ -3002,6 +3266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the browser \u003ccode\u003e\u003ca\u003eWindow\u003c/a\u003e\u003c/code\u003e in which the element resides.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getWindow",
           "package": "threepenny-gui",
@@ -3012,6 +3277,7 @@
         "index": {
           "description": "Retrieve the browser Window in which the element resides",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "getWindow",
           "normalized": "Element-\u003eIO Window",
@@ -3028,6 +3294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign given elements in a rectangular grid.\n\u003c/p\u003e\u003cp\u003eLayout is achieved by using the CSS \u003ccode\u003edisplay:table\u003c/code\u003e property.\n The following element tree will be generated\n\u003c/p\u003e\u003cpre\u003e  \u003cdiv class=\"table\"\u003e\n    \u003cdiv class=\"table-row\"\u003e\n      \u003cdiv class=\"table-cell\"\u003e ... \u003c/div\u003e\n      \u003cdiv class=\"table-cell\"\u003e ... \u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\"table-row\"\u003e\n      ...\n    \u003c/div\u003e\n   ...\n   \u003c/div\u003e\n\u003c/pre\u003e\u003cp\u003eYou can customatize the actual layout by assigning an \u003ccode\u003eid\u003c/code\u003e to the element\n and changing the \u003ccode\u003e.table\u003c/code\u003e, \u003ccode\u003e.table-row\u003c/code\u003e and \u003ccode\u003etable-column\u003c/code\u003e\n classes in a custom CSS file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "grid",
           "package": "threepenny-gui",
@@ -3038,6 +3305,7 @@
         "index": {
           "description": "Align given elements in rectangular grid Layout is achieved by using the CSS display table property The following element tree will be generated div class table div class table-row div class table-cell div div class table-cell div div div class table-row div div You can customatize the actual layout by assigning an id to the element and changing the table table-row and table-column classes in custom CSS file",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "grid",
           "normalized": "[[UI Element]]-\u003eUI Element",
@@ -3053,6 +3321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChild elements of a given element as a HTML string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "html",
           "package": "threepenny-gui",
@@ -3063,6 +3332,7 @@
         "index": {
           "description": "Child elements of given element as HTML string",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "html",
           "package": "threepenny-gui",
@@ -3076,6 +3346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSchedule an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action to be run later.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "liftIOLater",
           "package": "threepenny-gui",
@@ -3086,6 +3357,7 @@
         "index": {
           "description": "Schedule an IO action to be run later",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "liftIOLater",
           "normalized": "IO()-\u003eUI()",
@@ -3102,6 +3374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a local directory available as a relative URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "loadDirectory",
           "package": "threepenny-gui",
@@ -3112,6 +3385,7 @@
         "index": {
           "description": "Make local directory available as relative URI",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "loadDirectory",
           "normalized": "FilePath-\u003eUI String",
@@ -3128,6 +3402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a local file available as a relative URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "loadFile",
           "package": "threepenny-gui",
@@ -3137,6 +3412,7 @@
         "index": {
           "description": "Make local file available as relative URI",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "loadFile",
           "normalized": "String-\u003eFilePath-\u003eUI String",
@@ -3153,6 +3429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a new DOM element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "mkElement",
           "package": "threepenny-gui",
@@ -3162,6 +3439,7 @@
         "index": {
           "description": "Make new DOM element",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "mkElement",
           "normalized": "String-\u003eUI Element",
@@ -3178,6 +3456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild attribute from a getter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "mkReadAttr",
           "package": "threepenny-gui",
@@ -3188,6 +3467,7 @@
         "index": {
           "description": "Build attribute from getter",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "mkReadAttr",
           "normalized": "(a-\u003eUI b)-\u003eReadAttr a b",
@@ -3204,6 +3484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an attribute from a getter and a setter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "mkReadWriteAttr",
           "package": "threepenny-gui",
@@ -3213,6 +3494,7 @@
         "index": {
           "description": "Build an attribute from getter and setter",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "mkReadWriteAttr",
           "normalized": "(a-\u003eUI b)-\u003e(c-\u003ea-\u003eUI())-\u003eReadWriteAttr a c b",
@@ -3229,6 +3511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild attribute from a setter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "mkWriteAttr",
           "package": "threepenny-gui",
@@ -3239,6 +3522,7 @@
         "index": {
           "description": "Build attribute from setter",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "mkWriteAttr",
           "normalized": "(a-\u003eb-\u003eUI())-\u003eWriteAttr b a",
@@ -3255,6 +3539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function to register \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es for \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eExample usage.\n\u003c/p\u003e\u003cpre\u003e on click element $ \\_ -\u003e ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "on",
           "package": "threepenny-gui",
@@ -3265,6 +3550,7 @@
         "index": {
           "description": "Convenience function to register Event for Element Example usage on click element",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "on",
           "normalized": "(a-\u003eEvent b)-\u003ea-\u003e(b-\u003eUI c)-\u003eUI()",
@@ -3280,6 +3566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a \u003ccode\u003e\u003ca\u003eUI\u003c/a\u003e\u003c/code\u003e action whenever a \u003ccode\u003e\u003ca\u003eBehavior\u003c/a\u003e\u003c/code\u003e changes.\n Use sparingly, it is recommended that you use \u003ccode\u003e\u003ca\u003esink\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "onChanges",
           "package": "threepenny-gui",
@@ -3290,6 +3577,7 @@
         "index": {
           "description": "Execute UI action whenever Behavior changes Use sparingly it is recommended that you use sink instead",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "onChanges",
           "normalized": "Behavior a-\u003e(a-\u003eUI b)-\u003eUI()",
@@ -3306,6 +3594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister an \u003ccode\u003e\u003ca\u003eUI\u003c/a\u003e\u003c/code\u003e action to be executed whenever the \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e happens.\n\u003c/p\u003e\u003cp\u003eFIXME: Should be unified with \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "onEvent",
           "package": "threepenny-gui",
@@ -3316,6 +3605,7 @@
         "index": {
           "description": "Register an UI action to be executed whenever the Event happens FIXME Should be unified with on",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "onEvent",
           "normalized": "Event a-\u003e(a-\u003eUI b)-\u003eUI()",
@@ -3332,6 +3622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign given elements in a row. Special case of \u003ccode\u003e\u003ca\u003egrid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "row",
           "package": "threepenny-gui",
@@ -3342,6 +3633,7 @@
         "index": {
           "description": "Align given elements in row Special case of grid",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "row",
           "normalized": "[UI Element]-\u003eUI Element",
@@ -3357,6 +3649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given JavaScript function and carry on. Doesn't block.\n\u003c/p\u003e\u003cp\u003eThe client window uses JavaScript's \u003ccode\u003eeval()\u003c/code\u003e function to run the code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "runFunction",
           "package": "threepenny-gui",
@@ -3367,6 +3660,7 @@
         "index": {
           "description": "Run the given JavaScript function and carry on Doesn block The client window uses JavaScript eval function to run the code",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "runFunction",
           "normalized": "JSFunction()-\u003eUI()",
@@ -3383,6 +3677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an \u003ccode\u003e\u003ca\u003eUI\u003c/a\u003e\u003c/code\u003e action in a particular browser window.\n Also runs all scheduled \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "runUI",
           "package": "threepenny-gui",
@@ -3393,6 +3688,7 @@
         "index": {
           "description": "Execute an UI action in particular browser window Also runs all scheduled IO action",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "runUI",
           "normalized": "Window-\u003eUI a-\u003eIO a",
@@ -3409,6 +3705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet value of an attribute in the \u003ccode\u003e\u003ca\u003eUI\u003c/a\u003e\u003c/code\u003e monad.\n Best used in conjunction with '#'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "set",
           "package": "threepenny-gui",
@@ -3419,6 +3716,7 @@
         "index": {
           "description": "Set value of an attribute in the UI monad Best used in conjunction with",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "set",
           "normalized": "ReadWriteAttr a b c-\u003eb-\u003eUI a-\u003eUI a",
@@ -3433,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "set'",
           "package": "threepenny-gui",
@@ -3442,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "set'",
           "normalized": "a-\u003eb-\u003eUI()",
@@ -3457,6 +3757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the value of an attribute to a \u003ccode\u003e\u003ca\u003eBehavior\u003c/a\u003e\u003c/code\u003e, that is a time-varying value.\n\u003c/p\u003e\u003cp\u003eNote: For reasons of efficiency, the attribute is only\n updated when the value changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "sink",
           "package": "threepenny-gui",
@@ -3467,6 +3768,7 @@
         "index": {
           "description": "Set the value of an attribute to Behavior that is time-varying value Note For reasons of efficiency the attribute is only updated when the value changes",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "sink",
           "normalized": "ReadWriteAttr a b c-\u003eBehavior b-\u003eUI a-\u003eUI a",
@@ -3482,6 +3784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart server for GUI sessions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "startGUI",
           "package": "threepenny-gui",
@@ -3491,6 +3794,7 @@
         "index": {
           "description": "Start server for GUI sessions",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "startGUI",
           "normalized": "Config-\u003e(Window-\u003eUI())-\u003eIO()",
@@ -3507,6 +3811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003espan\u003c/code\u003e element with a given text content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "string",
           "package": "threepenny-gui",
@@ -3517,6 +3822,7 @@
         "index": {
           "description": "Make span element with given text content",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "string",
           "normalized": "String-\u003eUI Element",
@@ -3532,6 +3838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet CSS style of an Element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "style",
           "package": "threepenny-gui",
@@ -3542,6 +3849,7 @@
         "index": {
           "description": "Set CSS style of an Element",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "style",
           "normalized": "WriteAttr Element[(String,String)]",
@@ -3557,6 +3865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText content of an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "text",
           "package": "threepenny-gui",
@@ -3567,6 +3876,7 @@
         "index": {
           "description": "Text content of an element",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "text",
           "package": "threepenny-gui",
@@ -3580,6 +3890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle of the client window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "title",
           "package": "threepenny-gui",
@@ -3590,6 +3901,7 @@
         "index": {
           "description": "Title of the client window",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "title",
           "package": "threepenny-gui",
@@ -3602,6 +3914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "toElement",
           "package": "threepenny-gui",
@@ -3611,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "toElement",
           "normalized": "Element-\u003eElement",
@@ -3627,6 +3941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom HTML file to replace the default one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "tpCustomHTML",
           "package": "threepenny-gui",
@@ -3637,6 +3952,7 @@
         "index": {
           "description": "Custom HTML file to replace the default one",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "tpCustomHTML",
           "package": "threepenny-gui",
@@ -3651,6 +3967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a single log message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "tpLog",
           "package": "threepenny-gui",
@@ -3661,6 +3978,7 @@
         "index": {
           "description": "Print single log message",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "tpLog",
           "normalized": "ByteString-\u003eIO()",
@@ -3677,6 +3995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort number.\n \u003ccode\u003eNothing\u003c/code\u003e means that the port number is\n read from the environment variable \u003ccode\u003ePORT\u003c/code\u003e.\n Alternatively, port \u003ccode\u003e8023\u003c/code\u003e is used if this variable is not set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "tpPort",
           "package": "threepenny-gui",
@@ -3687,6 +4006,7 @@
         "index": {
           "description": "Port number Nothing means that the port number is read from the environment variable PORT Alternatively port is used if this variable is not set",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "tpPort",
           "package": "threepenny-gui",
@@ -3701,6 +4021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectory that is served under \u003ccode\u003e/static\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "tpStatic",
           "package": "threepenny-gui",
@@ -3711,6 +4032,7 @@
         "index": {
           "description": "Directory that is served under static",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "tpStatic",
           "package": "threepenny-gui",
@@ -3725,6 +4047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue attribute of an element.\n Particularly relevant for control widgets like \u003ccode\u003einput\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "value",
           "package": "threepenny-gui",
@@ -3735,6 +4058,7 @@
         "index": {
           "description": "Value attribute of an element Particularly relevant for control widgets like input",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "value",
           "package": "threepenny-gui",
@@ -3748,6 +4072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvience synonym for \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e to make widgets work well with \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "widget",
           "package": "threepenny-gui",
@@ -3758,6 +4083,7 @@
         "index": {
           "description": "Convience synonym for return to make widgets work well with set",
           "hierarchy": "Graphics UI Threepenny Core",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Core",
           "name": "widget",
           "normalized": "a-\u003eUI a",
@@ -3772,6 +4098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "DragNDrop",
           "package": "threepenny-gui",
@@ -3780,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "DragNDrop",
           "package": "threepenny-gui",
@@ -3794,6 +4122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData carried by a dragged element. \n\u003c/p\u003e\u003cp\u003eFIXME: Empty data is currently encoded by the empty String.\n Change this to 'Maybe String' instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "DragData",
           "package": "threepenny-gui",
@@ -3803,6 +4132,7 @@
         "index": {
           "description": "Data carried by dragged element FIXME Empty data is currently encoded by the empty String Change this to Maybe String instead",
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "DragData",
           "package": "threepenny-gui",
@@ -3817,6 +4147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOccurs periodically while the element is being dragged around.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "drag",
           "package": "threepenny-gui",
@@ -3827,6 +4158,7 @@
         "index": {
           "description": "Occurs periodically while the element is being dragged around",
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "drag",
           "normalized": "Element-\u003eEvent DragData",
@@ -3842,6 +4174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the data that is transferred when dragging this element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragData",
           "package": "threepenny-gui",
@@ -3852,6 +4185,7 @@
         "index": {
           "description": "Set the data that is transferred when dragging this element",
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragData",
           "package": "threepenny-gui",
@@ -3866,6 +4200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDragging the element ends.\n\u003c/p\u003e\u003cp\u003eWARNING: This event can occur both before and after a corresponding \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragEnd",
           "package": "threepenny-gui",
@@ -3876,6 +4211,7 @@
         "index": {
           "description": "Dragging the element ends WARNING This event can occur both before and after corresponding drop event",
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragEnd",
           "normalized": "Element-\u003eEvent DragData",
@@ -3892,6 +4228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe element is now the current target element for a \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWARNING: This element is buggy when moving the mouse over child elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragEnter",
           "package": "threepenny-gui",
@@ -3902,6 +4239,7 @@
         "index": {
           "description": "The element is now the current target element for drop WARNING This element is buggy when moving the mouse over child elements",
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragEnter",
           "normalized": "Element-\u003eEvent DragData",
@@ -3918,6 +4256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe element is no longer the current target element for a \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWARNING: This event is also fired when the mouse is moved over a child element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragLeave",
           "package": "threepenny-gui",
@@ -3928,6 +4267,7 @@
         "index": {
           "description": "The element is no longer the current target element for drop WARNING This event is also fired when the mouse is moved over child element",
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragLeave",
           "normalized": "Element-\u003eEvent DragData",
@@ -3944,6 +4284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOccurs periodically while the element is the current target element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragOver",
           "package": "threepenny-gui",
@@ -3954,6 +4295,7 @@
         "index": {
           "description": "Occurs periodically while the element is the current target element",
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragOver",
           "normalized": "Element-\u003eEvent DragData",
@@ -3970,6 +4312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDragging the element starts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragStart",
           "package": "threepenny-gui",
@@ -3980,6 +4323,7 @@
         "index": {
           "description": "Dragging the element starts",
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "dragStart",
           "normalized": "Element-\u003eEvent DragData",
@@ -3996,6 +4340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable or disable whether the element can be dragged by the user.\n\u003c/p\u003e\u003cp\u003eAn element with draggable set to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e will receive\n \u003ccode\u003e\u003ca\u003edrag\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edragStart\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edragEnd\u003c/a\u003e\u003c/code\u003e events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "draggable",
           "package": "threepenny-gui",
@@ -4006,6 +4351,7 @@
         "index": {
           "description": "Enable or disable whether the element can be dragged by the user An element with draggable set to True will receive drag dragStart and dragEnd events",
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "draggable",
           "package": "threepenny-gui",
@@ -4019,6 +4365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe drag and drop operation is being completed on this element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "drop",
           "package": "threepenny-gui",
@@ -4029,6 +4376,7 @@
         "index": {
           "description": "The drag and drop operation is being completed on this element",
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "drop",
           "normalized": "Element-\u003eEvent DragData",
@@ -4044,6 +4392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable or disable whether the element accepts drops.\n\u003c/p\u003e\u003cp\u003eAn element with \u003ccode\u003e\u003ca\u003edroppable\u003c/a\u003e\u003c/code\u003e set to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e will receive\n \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edragOver\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edragEnter\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edragLeave\u003c/a\u003e\u003c/code\u003e events.\n\u003c/p\u003e\u003cp\u003eChild elements of a \u003ccode\u003e\u003ca\u003edroppable\u003c/a\u003e\u003c/code\u003e element may also be \u003ccode\u003e\u003ca\u003edroppable\u003c/a\u003e\u003c/code\u003e.\n When dragging something over an element, the closest ancestor element\n that is \u003ccode\u003e\u003ca\u003edroppable\u003c/a\u003e\u003c/code\u003e will be the target and receive corresponding\n events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "droppable",
           "package": "threepenny-gui",
@@ -4054,6 +4403,7 @@
         "index": {
           "description": "Enable or disable whether the element accepts drops An element with droppable set to True will receive drop dragOver dragEnter and dragLeave events Child elements of droppable element may also be droppable When dragging something over an element the closest ancestor element that is droppable will be the target and receive corresponding events",
           "hierarchy": "Graphics UI Threepenny DragNDrop",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.DragNDrop",
           "name": "droppable",
           "package": "threepenny-gui",
@@ -4067,6 +4417,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePredefined DOM elements, for convenience.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "Elements",
           "package": "threepenny-gui",
@@ -4076,6 +4427,7 @@
         "index": {
           "description": "Predefined DOM elements for convenience",
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "Elements",
           "package": "threepenny-gui",
@@ -4089,6 +4441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "a",
           "package": "threepenny-gui",
@@ -4098,6 +4451,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "a",
           "package": "threepenny-gui",
@@ -4111,6 +4465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a stylesheet to the head.\n\u003c/p\u003e\u003cp\u003eThe second argument refers to the filename of the stylesheet,\n but not its complete filepath.\n Threepenny will prefix the \u003ccode\u003ecss\u003c/code\u003e subdirectory of the \u003ccode\u003e\u003ca\u003etpStatic\u003c/a\u003e\u003c/code\u003e configuration field\n to construct the complete filepath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "addStyleSheet",
           "package": "threepenny-gui",
@@ -4121,6 +4476,7 @@
         "index": {
           "description": "Add stylesheet to the head The second argument refers to the filename of the stylesheet but not its complete filepath Threepenny will prefix the css subdirectory of the tpStatic configuration field to construct the complete filepath",
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "addStyleSheet",
           "normalized": "Window-\u003eFilePath-\u003eUI()",
@@ -4136,6 +4492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "address",
           "package": "threepenny-gui",
@@ -4145,6 +4502,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "address",
           "package": "threepenny-gui",
@@ -4157,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "anchor",
           "package": "threepenny-gui",
@@ -4166,6 +4525,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "anchor",
           "package": "threepenny-gui",
@@ -4178,6 +4538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "applet",
           "package": "threepenny-gui",
@@ -4187,6 +4548,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "applet",
           "package": "threepenny-gui",
@@ -4199,6 +4561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "area",
           "package": "threepenny-gui",
@@ -4208,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "area",
           "package": "threepenny-gui",
@@ -4220,6 +4584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "audio",
           "package": "threepenny-gui",
@@ -4229,6 +4594,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "audio",
           "package": "threepenny-gui",
@@ -4241,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "basefont",
           "package": "threepenny-gui",
@@ -4250,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "basefont",
           "package": "threepenny-gui",
@@ -4262,6 +4630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "big",
           "package": "threepenny-gui",
@@ -4271,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "big",
           "package": "threepenny-gui",
@@ -4283,6 +4653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "blockquote",
           "package": "threepenny-gui",
@@ -4292,6 +4663,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "blockquote",
           "package": "threepenny-gui",
@@ -4304,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "body",
           "package": "threepenny-gui",
@@ -4313,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "body",
           "package": "threepenny-gui",
@@ -4325,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "bold",
           "package": "threepenny-gui",
@@ -4334,6 +4709,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "bold",
           "package": "threepenny-gui",
@@ -4346,6 +4722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "br",
           "package": "threepenny-gui",
@@ -4355,6 +4732,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "br",
           "package": "threepenny-gui",
@@ -4367,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "button",
           "package": "threepenny-gui",
@@ -4376,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "button",
           "package": "threepenny-gui",
@@ -4388,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "canvas",
           "package": "threepenny-gui",
@@ -4397,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "canvas",
           "package": "threepenny-gui",
@@ -4409,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "caption",
           "package": "threepenny-gui",
@@ -4418,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "caption",
           "package": "threepenny-gui",
@@ -4430,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "center",
           "package": "threepenny-gui",
@@ -4439,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "center",
           "package": "threepenny-gui",
@@ -4451,6 +4837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "cite",
           "package": "threepenny-gui",
@@ -4460,6 +4847,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "cite",
           "package": "threepenny-gui",
@@ -4472,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "code",
           "package": "threepenny-gui",
@@ -4481,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "code",
           "package": "threepenny-gui",
@@ -4493,6 +4883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "ddef",
           "package": "threepenny-gui",
@@ -4502,6 +4893,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "ddef",
           "package": "threepenny-gui",
@@ -4514,6 +4906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "define",
           "package": "threepenny-gui",
@@ -4523,6 +4916,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "define",
           "package": "threepenny-gui",
@@ -4535,6 +4929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "div",
           "package": "threepenny-gui",
@@ -4544,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "div",
           "package": "threepenny-gui",
@@ -4556,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "dlist",
           "package": "threepenny-gui",
@@ -4565,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "dlist",
           "package": "threepenny-gui",
@@ -4577,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "dterm",
           "package": "threepenny-gui",
@@ -4586,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "dterm",
           "package": "threepenny-gui",
@@ -4598,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "emphasize",
           "package": "threepenny-gui",
@@ -4607,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "emphasize",
           "package": "threepenny-gui",
@@ -4619,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "fieldset",
           "package": "threepenny-gui",
@@ -4628,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "fieldset",
           "package": "threepenny-gui",
@@ -4640,6 +5044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "font",
           "package": "threepenny-gui",
@@ -4649,6 +5054,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "font",
           "package": "threepenny-gui",
@@ -4661,6 +5067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "form",
           "package": "threepenny-gui",
@@ -4670,6 +5077,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "form",
           "package": "threepenny-gui",
@@ -4682,6 +5090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "frame",
           "package": "threepenny-gui",
@@ -4691,6 +5100,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "frame",
           "package": "threepenny-gui",
@@ -4703,6 +5113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "frameset",
           "package": "threepenny-gui",
@@ -4712,6 +5123,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "frameset",
           "package": "threepenny-gui",
@@ -4724,6 +5136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h1",
           "package": "threepenny-gui",
@@ -4733,6 +5146,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h1",
           "package": "threepenny-gui",
@@ -4745,6 +5159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h2",
           "package": "threepenny-gui",
@@ -4754,6 +5169,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h2",
           "package": "threepenny-gui",
@@ -4766,6 +5182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h3",
           "package": "threepenny-gui",
@@ -4775,6 +5192,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h3",
           "package": "threepenny-gui",
@@ -4787,6 +5205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h4",
           "package": "threepenny-gui",
@@ -4796,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h4",
           "package": "threepenny-gui",
@@ -4808,6 +5228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h5",
           "package": "threepenny-gui",
@@ -4817,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h5",
           "package": "threepenny-gui",
@@ -4829,6 +5251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h6",
           "package": "threepenny-gui",
@@ -4838,6 +5261,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "h6",
           "package": "threepenny-gui",
@@ -4850,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "header",
           "package": "threepenny-gui",
@@ -4859,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "header",
           "package": "threepenny-gui",
@@ -4871,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "hr",
           "package": "threepenny-gui",
@@ -4880,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "hr",
           "package": "threepenny-gui",
@@ -4892,6 +5320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "image",
           "package": "threepenny-gui",
@@ -4901,6 +5330,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "image",
           "package": "threepenny-gui",
@@ -4913,6 +5343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "img",
           "package": "threepenny-gui",
@@ -4922,6 +5353,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "img",
           "package": "threepenny-gui",
@@ -4934,6 +5366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "input",
           "package": "threepenny-gui",
@@ -4943,6 +5376,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "input",
           "package": "threepenny-gui",
@@ -4955,6 +5389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "italics",
           "package": "threepenny-gui",
@@ -4964,6 +5399,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "italics",
           "package": "threepenny-gui",
@@ -4976,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "keyboard",
           "package": "threepenny-gui",
@@ -4985,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "keyboard",
           "package": "threepenny-gui",
@@ -4997,6 +5435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "legend",
           "package": "threepenny-gui",
@@ -5006,6 +5445,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "legend",
           "package": "threepenny-gui",
@@ -5018,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "li",
           "package": "threepenny-gui",
@@ -5027,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "li",
           "package": "threepenny-gui",
@@ -5039,6 +5481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "link",
           "package": "threepenny-gui",
@@ -5048,6 +5491,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "link",
           "package": "threepenny-gui",
@@ -5060,6 +5504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "map",
           "package": "threepenny-gui",
@@ -5069,6 +5514,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "map",
           "package": "threepenny-gui",
@@ -5081,6 +5527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "meta",
           "package": "threepenny-gui",
@@ -5090,6 +5537,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "meta",
           "package": "threepenny-gui",
@@ -5103,6 +5551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a new \u003ccode\u003ediv\u003c/code\u003e element, synonym for \u003ccode\u003e\u003ca\u003ediv\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "new",
           "package": "threepenny-gui",
@@ -5113,6 +5562,7 @@
         "index": {
           "description": "Make new div element synonym for div",
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "new",
           "package": "threepenny-gui",
@@ -5125,6 +5575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "noframes",
           "package": "threepenny-gui",
@@ -5134,6 +5585,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "noframes",
           "package": "threepenny-gui",
@@ -5146,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "olist",
           "package": "threepenny-gui",
@@ -5155,6 +5608,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "olist",
           "package": "threepenny-gui",
@@ -5167,6 +5621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "option",
           "package": "threepenny-gui",
@@ -5176,6 +5631,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "option",
           "package": "threepenny-gui",
@@ -5188,6 +5644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "p",
           "package": "threepenny-gui",
@@ -5197,6 +5654,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "p",
           "package": "threepenny-gui",
@@ -5209,6 +5667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "paragraph",
           "package": "threepenny-gui",
@@ -5218,6 +5677,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "paragraph",
           "package": "threepenny-gui",
@@ -5230,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "param",
           "package": "threepenny-gui",
@@ -5239,6 +5700,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "param",
           "package": "threepenny-gui",
@@ -5251,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "pre",
           "package": "threepenny-gui",
@@ -5260,6 +5723,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "pre",
           "package": "threepenny-gui",
@@ -5272,6 +5736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "sample",
           "package": "threepenny-gui",
@@ -5281,6 +5746,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "sample",
           "package": "threepenny-gui",
@@ -5293,6 +5759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "select",
           "package": "threepenny-gui",
@@ -5302,6 +5769,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "select",
           "package": "threepenny-gui",
@@ -5314,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "small",
           "package": "threepenny-gui",
@@ -5323,6 +5792,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "small",
           "package": "threepenny-gui",
@@ -5335,6 +5805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "source",
           "package": "threepenny-gui",
@@ -5344,6 +5815,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "source",
           "package": "threepenny-gui",
@@ -5356,6 +5828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "span",
           "package": "threepenny-gui",
@@ -5365,6 +5838,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "span",
           "package": "threepenny-gui",
@@ -5377,6 +5851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "strong",
           "package": "threepenny-gui",
@@ -5386,6 +5861,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "strong",
           "package": "threepenny-gui",
@@ -5398,6 +5874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "sub",
           "package": "threepenny-gui",
@@ -5407,6 +5884,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "sub",
           "package": "threepenny-gui",
@@ -5419,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "sup",
           "package": "threepenny-gui",
@@ -5428,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "sup",
           "package": "threepenny-gui",
@@ -5440,6 +5920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "table",
           "package": "threepenny-gui",
@@ -5449,6 +5930,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "table",
           "package": "threepenny-gui",
@@ -5461,6 +5943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "td",
           "package": "threepenny-gui",
@@ -5470,6 +5953,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "td",
           "package": "threepenny-gui",
@@ -5482,6 +5966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "textarea",
           "package": "threepenny-gui",
@@ -5491,6 +5976,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "textarea",
           "package": "threepenny-gui",
@@ -5503,6 +5989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "th",
           "package": "threepenny-gui",
@@ -5512,6 +5999,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "th",
           "package": "threepenny-gui",
@@ -5524,6 +6012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "thebase",
           "package": "threepenny-gui",
@@ -5533,6 +6022,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "thebase",
           "package": "threepenny-gui",
@@ -5545,6 +6035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "thehtml",
           "package": "threepenny-gui",
@@ -5554,6 +6045,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "thehtml",
           "package": "threepenny-gui",
@@ -5566,6 +6058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "title_",
           "package": "threepenny-gui",
@@ -5575,6 +6068,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "title_",
           "package": "threepenny-gui",
@@ -5587,6 +6081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "tr",
           "package": "threepenny-gui",
@@ -5596,6 +6091,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "tr",
           "package": "threepenny-gui",
@@ -5608,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "tt",
           "package": "threepenny-gui",
@@ -5617,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "tt",
           "package": "threepenny-gui",
@@ -5629,6 +6127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "ul",
           "package": "threepenny-gui",
@@ -5638,6 +6137,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "ul",
           "package": "threepenny-gui",
@@ -5650,6 +6150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "underline",
           "package": "threepenny-gui",
@@ -5659,6 +6160,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "underline",
           "package": "threepenny-gui",
@@ -5671,6 +6173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "variable",
           "package": "threepenny-gui",
@@ -5680,6 +6183,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "variable",
           "package": "threepenny-gui",
@@ -5692,6 +6196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "video",
           "package": "threepenny-gui",
@@ -5701,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Elements",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Elements",
           "name": "video",
           "package": "threepenny-gui",
@@ -5713,6 +6219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "Events",
           "package": "threepenny-gui",
@@ -5721,6 +6228,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "Events",
           "package": "threepenny-gui",
@@ -5734,6 +6242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "KeyCode",
           "package": "threepenny-gui",
@@ -5742,6 +6251,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "KeyCode",
           "package": "threepenny-gui",
@@ -5756,6 +6266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement loses focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "blur",
           "package": "threepenny-gui",
@@ -5766,6 +6277,7 @@
         "index": {
           "description": "Element loses focus",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "blur",
           "normalized": "Element-\u003eEvent()",
@@ -5781,6 +6293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent that occurs when the \u003cem\u003euser\u003c/em\u003e changes the checked status of an input\n element of type checkbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "checkedChange",
           "package": "threepenny-gui",
@@ -5791,6 +6304,7 @@
         "index": {
           "description": "Event that occurs when the user changes the checked status of an input element of type checkbox",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "checkedChange",
           "normalized": "Element-\u003eEvent Bool",
@@ -5807,6 +6321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMouse click.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "click",
           "package": "threepenny-gui",
@@ -5817,6 +6332,7 @@
         "index": {
           "description": "Mouse click",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "click",
           "normalized": "Element-\u003eEvent()",
@@ -5832,6 +6348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement receives focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "focus",
           "package": "threepenny-gui",
@@ -5842,6 +6359,7 @@
         "index": {
           "description": "Element receives focus",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "focus",
           "normalized": "Element-\u003eEvent()",
@@ -5857,6 +6375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMouse enters an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "hover",
           "package": "threepenny-gui",
@@ -5867,6 +6386,7 @@
         "index": {
           "description": "Mouse enters an element",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "hover",
           "normalized": "Element-\u003eEvent()",
@@ -5882,6 +6402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey pressed while element has focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "keydown",
           "package": "threepenny-gui",
@@ -5892,6 +6413,7 @@
         "index": {
           "description": "Key pressed while element has focus",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "keydown",
           "normalized": "Element-\u003eEvent KeyCode",
@@ -5907,6 +6429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey released while element has focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "keyup",
           "package": "threepenny-gui",
@@ -5917,6 +6440,7 @@
         "index": {
           "description": "Key released while element has focus",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "keyup",
           "normalized": "Element-\u003eEvent KeyCode",
@@ -5932,6 +6456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMouse leaving an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "leave",
           "package": "threepenny-gui",
@@ -5942,6 +6467,7 @@
         "index": {
           "description": "Mouse leaving an element",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "leave",
           "normalized": "Element-\u003eEvent()",
@@ -5957,6 +6483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMouse down event.\n The mouse coordinates are relative to the element. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "mousedown",
           "package": "threepenny-gui",
@@ -5967,6 +6494,7 @@
         "index": {
           "description": "Mouse down event The mouse coordinates are relative to the element",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "mousedown",
           "normalized": "Element-\u003eEvent(Int,Int)",
@@ -5982,6 +6510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent that periodically occurs while the mouse is moving over an element.\n\u003c/p\u003e\u003cp\u003eThe event value represents the mouse coordinates\n relative to the upper left corner of the element.\n\u003c/p\u003e\u003cp\u003eNote: The \u003ccode\u003e\u003ca\u003ebody\u003c/a\u003e\u003c/code\u003e element responds to mouse move events,\n but only in the area occupied by actual content,\n not the whole browser window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "mousemove",
           "package": "threepenny-gui",
@@ -5992,6 +6521,7 @@
         "index": {
           "description": "Event that periodically occurs while the mouse is moving over an element The event value represents the mouse coordinates relative to the upper left corner of the element Note The body element responds to mouse move events but only in the area occupied by actual content not the whole browser window",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "mousemove",
           "normalized": "Element-\u003eEvent(Int,Int)",
@@ -6007,6 +6537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMouse up event.\n The mouse coordinates are relative to the element. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "mouseup",
           "package": "threepenny-gui",
@@ -6017,6 +6548,7 @@
         "index": {
           "description": "Mouse up event The mouse coordinates are relative to the element",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "mouseup",
           "normalized": "Element-\u003eEvent(Int,Int)",
@@ -6032,6 +6564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent that occurs when the \u003cem\u003euser\u003c/em\u003e changes the selection of a \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "selectionChange",
           "package": "threepenny-gui",
@@ -6042,6 +6575,7 @@
         "index": {
           "description": "Event that occurs when the user changes the selection of select element",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "selectionChange",
           "normalized": "Element-\u003eEvent(Maybe Int)",
@@ -6058,6 +6592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent that occurs when the \u003cem\u003euser\u003c/em\u003e changes the value of the input element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "valueChange",
           "package": "threepenny-gui",
@@ -6068,6 +6603,7 @@
         "index": {
           "description": "Event that occurs when the user changes the value of the input element",
           "hierarchy": "Graphics UI Threepenny Events",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Events",
           "name": "valueChange",
           "normalized": "Element-\u003eEvent String",
@@ -6083,6 +6619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "JQuery",
           "package": "threepenny-gui",
@@ -6091,6 +6628,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny JQuery",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "JQuery",
           "package": "threepenny-gui",
@@ -6104,6 +6642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "Easing",
           "package": "threepenny-gui",
@@ -6112,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny JQuery",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "Easing",
           "package": "threepenny-gui",
@@ -6125,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "Linear",
           "package": "threepenny-gui",
@@ -6134,6 +6675,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny JQuery",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "Linear",
           "package": "threepenny-gui",
@@ -6147,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "Swing",
           "package": "threepenny-gui",
@@ -6156,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny JQuery",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "Swing",
           "package": "threepenny-gui",
@@ -6170,6 +6714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnimate property changes of a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "animate",
           "package": "threepenny-gui",
@@ -6180,6 +6725,7 @@
         "index": {
           "description": "Animate property changes of function",
           "hierarchy": "Graphics UI Threepenny JQuery",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "animate",
           "normalized": "Element-\u003e[(String,String)]-\u003eInt-\u003eEasing-\u003eIO()-\u003eIO()",
@@ -6195,6 +6741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFade in an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "fadeIn",
           "package": "threepenny-gui",
@@ -6205,6 +6752,7 @@
         "index": {
           "description": "Fade in an element",
           "hierarchy": "Graphics UI Threepenny JQuery",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "fadeIn",
           "normalized": "Element-\u003eInt-\u003eEasing-\u003eIO()-\u003eIO()",
@@ -6221,6 +6769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFade out an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "fadeOut",
           "package": "threepenny-gui",
@@ -6231,6 +6780,7 @@
         "index": {
           "description": "Fade out an element",
           "hierarchy": "Graphics UI Threepenny JQuery",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "fadeOut",
           "normalized": "Element-\u003eInt-\u003eEasing-\u003eIO()-\u003eIO()",
@@ -6247,6 +6797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScroll to the bottom of an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "scrollToBottom",
           "package": "threepenny-gui",
@@ -6257,6 +6808,7 @@
         "index": {
           "description": "Scroll to the bottom of an element",
           "hierarchy": "Graphics UI Threepenny JQuery",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "scrollToBottom",
           "normalized": "Element-\u003eUI()",
@@ -6273,6 +6825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo something on return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "sendValue",
           "package": "threepenny-gui",
@@ -6283,6 +6836,7 @@
         "index": {
           "description": "Do something on return",
           "hierarchy": "Graphics UI Threepenny JQuery",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "sendValue",
           "normalized": "Element-\u003eEvent String",
@@ -6299,6 +6853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFocus an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "setFocus",
           "package": "threepenny-gui",
@@ -6309,6 +6864,7 @@
         "index": {
           "description": "Focus an element",
           "hierarchy": "Graphics UI Threepenny JQuery",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.JQuery",
           "name": "setFocus",
           "normalized": "Element-\u003eUI()",
@@ -6324,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "Timer",
           "package": "threepenny-gui",
@@ -6332,6 +6889,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Timer",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "Timer",
           "package": "threepenny-gui",
@@ -6345,6 +6903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "Timer",
           "package": "threepenny-gui",
@@ -6353,6 +6912,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Timer",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "Timer",
           "package": "threepenny-gui",
@@ -6367,6 +6927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimer interval in milliseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "interval",
           "package": "threepenny-gui",
@@ -6377,6 +6938,7 @@
         "index": {
           "description": "Timer interval in milliseconds",
           "hierarchy": "Graphics UI Threepenny Timer",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "interval",
           "package": "threepenny-gui",
@@ -6390,6 +6952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the timer is running or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "running",
           "package": "threepenny-gui",
@@ -6400,6 +6963,7 @@
         "index": {
           "description": "Whether the timer is running or not",
           "hierarchy": "Graphics UI Threepenny Timer",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "running",
           "package": "threepenny-gui",
@@ -6413,6 +6977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart the timer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "start",
           "package": "threepenny-gui",
@@ -6423,6 +6988,7 @@
         "index": {
           "description": "Start the timer",
           "hierarchy": "Graphics UI Threepenny Timer",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "start",
           "normalized": "Timer-\u003eUI()",
@@ -6438,6 +7004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop the timer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "stop",
           "package": "threepenny-gui",
@@ -6448,6 +7015,7 @@
         "index": {
           "description": "Stop the timer",
           "hierarchy": "Graphics UI Threepenny Timer",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "stop",
           "normalized": "Timer-\u003eUI()",
@@ -6463,6 +7031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimer event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "tick",
           "package": "threepenny-gui",
@@ -6473,6 +7042,7 @@
         "index": {
           "description": "Timer event",
           "hierarchy": "Graphics UI Threepenny Timer",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "tick",
           "normalized": "Timer-\u003eEvent()",
@@ -6488,6 +7058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new timer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "timer",
           "package": "threepenny-gui",
@@ -6498,6 +7069,7 @@
         "index": {
           "description": "Create new timer",
           "hierarchy": "Graphics UI Threepenny Timer",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Timer",
           "name": "timer",
           "package": "threepenny-gui",
@@ -6510,6 +7082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "Widgets",
           "package": "threepenny-gui",
@@ -6518,6 +7091,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny Widgets",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "Widgets",
           "package": "threepenny-gui",
@@ -6532,6 +7106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of values. The user can select entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "ListBox",
           "package": "threepenny-gui",
@@ -6541,6 +7116,7 @@
         "index": {
           "description": "list of values The user can select entries",
           "hierarchy": "Graphics UI Threepenny Widgets",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "ListBox",
           "package": "threepenny-gui",
@@ -6555,6 +7131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single-line text entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "TextEntry",
           "package": "threepenny-gui",
@@ -6564,6 +7141,7 @@
         "index": {
           "description": "single-line text entry",
           "hierarchy": "Graphics UI Threepenny Widgets",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "TextEntry",
           "package": "threepenny-gui",
@@ -6578,6 +7156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing a behavior (\u003ccode\u003e\u003ca\u003efacts\u003c/a\u003e\u003c/code\u003e)\n and suggestions to change it (\u003ccode\u003e\u003ca\u003erumors\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "Tidings",
           "package": "threepenny-gui",
@@ -6587,6 +7166,7 @@
         "index": {
           "description": "Data type representing behavior facts and suggestions to change it rumors",
           "hierarchy": "Graphics UI Threepenny Widgets",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "Tidings",
           "package": "threepenny-gui",
@@ -6601,6 +7181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a single-line text entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "entry",
           "package": "threepenny-gui",
@@ -6610,6 +7191,7 @@
         "index": {
           "description": "Create single-line text entry",
           "hierarchy": "Graphics UI Threepenny Widgets",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "entry",
           "normalized": "Behavior String-\u003eUI TextEntry",
@@ -6649,6 +7231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eListBox\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "listBox",
           "package": "threepenny-gui",
@@ -6658,6 +7241,7 @@
         "index": {
           "description": "Create ListBox",
           "hierarchy": "Graphics UI Threepenny Widgets",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "listBox",
           "normalized": "Behavior[a]-\u003eBehavior(Maybe a)-\u003eBehavior(a-\u003eUI Element)-\u003eUI(ListBox a)",
@@ -6724,6 +7308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser changes to the current selection (possibly empty).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "userSelection",
           "package": "threepenny-gui",
@@ -6734,6 +7319,7 @@
         "index": {
           "description": "User changes to the current selection possibly empty",
           "hierarchy": "Graphics UI Threepenny Widgets",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "userSelection",
           "normalized": "ListBox a-\u003eTidings(Maybe a)",
@@ -6750,6 +7336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser changes to the text value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "userText",
           "package": "threepenny-gui",
@@ -6760,6 +7347,7 @@
         "index": {
           "description": "User changes to the text value",
           "hierarchy": "Graphics UI Threepenny Widgets",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny.Widgets",
           "name": "userText",
           "normalized": "TextEntry-\u003eTidings String",
@@ -6775,6 +7363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Graphics.UI.Threepenny",
           "name": "Threepenny",
           "package": "threepenny-gui",
@@ -6783,6 +7372,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Graphics.UI.Threepenny",
           "name": "Threepenny",
           "package": "threepenny-gui",
@@ -6796,6 +7386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "Threepenny",
           "package": "threepenny-gui",
@@ -6804,6 +7395,7 @@
         },
         "index": {
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "Threepenny",
           "package": "threepenny-gui",
@@ -6818,6 +7410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eBehavior a\u003c/code\u003e represents a value that varies in time. Think of it as\n\u003c/p\u003e\u003cpre\u003e type Behavior a = Time -\u003e a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "Behavior",
           "package": "threepenny-gui",
@@ -6827,6 +7420,7 @@
         "index": {
           "description": "Behavior represents value that varies in time Think of it as type Behavior Time",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "Behavior",
           "package": "threepenny-gui",
@@ -6841,6 +7435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eEvent a\u003c/code\u003e represents a stream of events as they occur in time.\nSemantically, you can think of \u003ccode\u003eEvent a\u003c/code\u003e as an infinite list of values\nthat are tagged with their corresponding time of occurence,\n\u003c/p\u003e\u003cpre\u003e type Event a = [(Time,a)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "Event",
           "package": "threepenny-gui",
@@ -6850,6 +7445,7 @@
         "index": {
           "description": "Event represents stream of events as they occur in time Semantically you can think of Event as an infinite list of values that are tagged with their corresponding time of occurence type Event Time",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "Event",
           "package": "threepenny-gui",
@@ -6864,6 +7460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003eevent handler\u003c/em\u003e is a function that takes an\n \u003cem\u003eevent value\u003c/em\u003e and performs some computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "Handler",
           "package": "threepenny-gui",
@@ -6873,6 +7470,7 @@
         "index": {
           "description": "An event handler is function that takes an event value and performs some computation",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "Handler",
           "package": "threepenny-gui",
@@ -6887,6 +7485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing a behavior (\u003ccode\u003e\u003ca\u003efacts\u003c/a\u003e\u003c/code\u003e)\n and suggestions to change it (\u003ccode\u003e\u003ca\u003erumors\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "Tidings",
           "package": "threepenny-gui",
@@ -6896,6 +7495,7 @@
         "index": {
           "description": "Data type representing behavior facts and suggestions to change it rumors",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "Tidings",
           "package": "threepenny-gui",
@@ -6910,6 +7510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eapply\u003c/a\u003e\u003c/code\u003e similar to \u003ccode\u003e\u003ca\u003e\u003c*\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "(\u003c@)",
           "package": "threepenny-gui",
@@ -6920,6 +7521,7 @@
         "index": {
           "description": "Variant of apply similar to",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "(\u003c@) \u003c@",
           "normalized": "Behavior a-\u003eEvent b-\u003eEvent a",
@@ -6935,6 +7537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix synonym for \u003ccode\u003e\u003ca\u003eapply\u003c/a\u003e\u003c/code\u003e, similar to \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "(\u003c@\u003e)",
           "package": "threepenny-gui",
@@ -6945,6 +7548,7 @@
         "index": {
           "description": "Infix synonym for apply similar to",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "(\u003c@\u003e) \u003c@\u003e",
           "normalized": "Behavior(a-\u003eb)-\u003eEvent a-\u003eEvent b",
@@ -6960,6 +7564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eaccumB\u003c/a\u003e\u003c/code\u003e function is similar to a \u003cem\u003estrict\u003c/em\u003e left fold, \u003ccode\u003efoldl'\u003c/code\u003e.\n It starts with an initial value and combines it with incoming events.\n For example, think\n\u003c/p\u003e\u003cpre\u003e accumB \"x\" [(time1,(++\"y\")),(time2,(++\"z\"))]\n    = stepper \"x\" [(time1,\"xy\"),(time2,\"xyz\")]\n\u003c/pre\u003e\u003cp\u003eNote that the value of the behavior changes \"slightly after\"\n the events occur. This allows for recursive definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "accumB",
           "package": "threepenny-gui",
@@ -6970,6 +7575,7 @@
         "index": {
           "description": "The accumB function is similar to strict left fold foldl It starts with an initial value and combines it with incoming events For example think accumB time1 time2 stepper time1 xy time2 xyz Note that the value of the behavior changes slightly after the events occur This allows for recursive definitions",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "accumB",
           "normalized": "a-\u003eEvent(a-\u003ea)-\u003eb(Behavior a)",
@@ -6985,6 +7591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eaccumE\u003c/a\u003e\u003c/code\u003e function accumulates a stream of events.\n Example:\n\u003c/p\u003e\u003cpre\u003e accumE \"x\" [(time1,(++\"y\")),(time2,(++\"z\"))]\n    = return [(time1,\"xy\"),(time2,\"xyz\")]\n\u003c/pre\u003e\u003cp\u003eNote that the output events are simultaneous with the input events,\n there is no \"delay\" like in the case of \u003ccode\u003e\u003ca\u003eaccumB\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "accumE",
           "package": "threepenny-gui",
@@ -6995,6 +7602,7 @@
         "index": {
           "description": "The accumE function accumulates stream of events Example accumE time1 time2 return time1 xy time2 xyz Note that the output events are simultaneous with the input events there is no delay like in the case of accumB",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "accumE",
           "normalized": "a-\u003eEvent(a-\u003ea)-\u003eb(Event a)",
@@ -7010,6 +7618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a time-varying function to a stream of events.\n Think of it as\n\u003c/p\u003e\u003cpre\u003e apply bf ex = [(time, bf time x) | (time, x) \u003c- ex]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "apply",
           "package": "threepenny-gui",
@@ -7020,6 +7629,7 @@
         "index": {
           "description": "Apply time-varying function to stream of events Think of it as apply bf ex time bf time time ex",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "apply",
           "normalized": "Behavior(a-\u003eb)-\u003eEvent a-\u003eEvent b",
@@ -7035,6 +7645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a list of functions in succession.\n Useful in conjunction with \u003ccode\u003e\u003ca\u003eunions\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e concatenate [f,g,h] = f . g . h \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "concatenate",
           "package": "threepenny-gui",
@@ -7045,6 +7656,7 @@
         "index": {
           "description": "Apply list of functions in succession Useful in conjunction with unions concatenate",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "concatenate",
           "normalized": "[a-\u003ea]-\u003ea-\u003ea",
@@ -7060,6 +7672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the current value of a \u003ccode\u003e\u003ca\u003eBehavior\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "currentValue",
           "package": "threepenny-gui",
@@ -7070,6 +7683,7 @@
         "index": {
           "description": "Read the current value of Behavior",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "currentValue",
           "normalized": "Behavior a-\u003eb a",
@@ -7086,6 +7700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all event occurrences that fulfill the time-varying predicate,\n discard the rest. Generalization of \u003ccode\u003e\u003ca\u003efilterE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "filterApply",
           "package": "threepenny-gui",
@@ -7096,6 +7711,7 @@
         "index": {
           "description": "Return all event occurrences that fulfill the time-varying predicate discard the rest Generalization of filterE",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "filterApply",
           "normalized": "Behavior(a-\u003eBool)-\u003eEvent a-\u003eEvent a",
@@ -7112,6 +7728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all event occurrences that fulfill the predicate, discard the rest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "filterE",
           "package": "threepenny-gui",
@@ -7122,6 +7739,7 @@
         "index": {
           "description": "Return all event occurrences that fulfill the predicate discard the rest",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "filterE",
           "normalized": "(a-\u003eBool)-\u003eEvent a-\u003eEvent a",
@@ -7137,6 +7755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all event occurrences that are \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e values, discard the rest.\n Think of it as\n\u003c/p\u003e\u003cpre\u003e filterJust es = [(time,a) | (time,Just a) \u003c- es]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "filterJust",
           "package": "threepenny-gui",
@@ -7147,6 +7766,7 @@
         "index": {
           "description": "Return all event occurrences that are Just values discard the rest Think of it as filterJust es time time Just es",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "filterJust",
           "normalized": "Event(Maybe a)-\u003eEvent a",
@@ -7163,6 +7783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficient combination of \u003ccode\u003e\u003ca\u003eaccumE\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eaccumB\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "mapAccum",
           "package": "threepenny-gui",
@@ -7173,6 +7794,7 @@
         "index": {
           "description": "Efficient combination of accumE and accumB",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "mapAccum",
           "normalized": "a-\u003eEvent(a-\u003e(b,a))-\u003ec(Event b,Behavior a)",
@@ -7189,6 +7811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent that never occurs.\n Think of it as \u003ccode\u003enever = []\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "never",
           "package": "threepenny-gui",
@@ -7199,6 +7822,7 @@
         "index": {
           "description": "Event that never occurs Think of it as never",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "never",
           "package": "threepenny-gui",
@@ -7212,6 +7836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new event.\n Also returns a function that triggers an event occurrence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "newEvent",
           "package": "threepenny-gui",
@@ -7222,6 +7847,7 @@
         "index": {
           "description": "Create new event Also returns function that triggers an event occurrence",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "newEvent",
           "normalized": "IO(Event a,Handler a)",
@@ -7238,6 +7864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a series of events with delayed initialization.\n\u003c/p\u003e\u003cp\u003eFor each name, the initialization handler will be called\n exactly once when the event is first \u003ca\u003ebrought to life\u003c/a\u003e,\n e.g. when an event handler is registered to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "newEventsNamed",
           "package": "threepenny-gui",
@@ -7247,6 +7874,7 @@
         "index": {
           "description": "Create series of events with delayed initialization For each name the initialization handler will be called exactly once when the event is first brought to life e.g when an event handler is registered to it",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "newEventsNamed",
           "normalized": "Handler(a,Event b,Handler b)-\u003eIO(a-\u003eEvent b)",
@@ -7263,6 +7891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister an event \u003ccode\u003e\u003ca\u003eHandler\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eBehavior\u003c/a\u003e\u003c/code\u003e.\n All registered handlers will be called whenever the behavior changes.\n\u003c/p\u003e\u003cp\u003eHowever, note that this is only an approximation,\n as behaviors may change continuously.\n Consequently, handlers should be idempotent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "onChange",
           "package": "threepenny-gui",
@@ -7273,6 +7902,7 @@
         "index": {
           "description": "Register an event Handler for Behavior All registered handlers will be called whenever the behavior changes However note that this is only an approximation as behaviors may change continuously Consequently handlers should be idempotent",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "onChange",
           "normalized": "Behavior a-\u003eHandler a-\u003eIO()",
@@ -7289,6 +7919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister an event \u003ccode\u003e\u003ca\u003eHandler\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e.\n All registered handlers will be called whenever the event occurs.\n\u003c/p\u003e\u003cp\u003eWhen registering an event handler, you will also be given an action\n that unregisters this handler again.\n\u003c/p\u003e\u003cpre\u003e do unregisterMyHandler \u003c- register event myHandler\n\u003c/pre\u003e\u003cp\u003eFIXME: Unregistering event handlers does not work yet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "register",
           "package": "threepenny-gui",
@@ -7299,6 +7930,7 @@
         "index": {
           "description": "Register an event Handler for an Event All registered handlers will be called whenever the event occurs When registering an event handler you will also be given an action that unregisters this handler again do unregisterMyHandler register event myHandler FIXME Unregistering event handlers does not work yet",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "register",
           "normalized": "Event a-\u003eHandler a-\u003eIO(IO())",
@@ -7314,6 +7946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit event occurrences according to a tag.\n The \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e values go into the left component while the \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e values\n go into the right component of the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "split",
           "package": "threepenny-gui",
@@ -7324,6 +7957,7 @@
         "index": {
           "description": "Split event occurrences according to tag The Left values go into the left component while the Right values go into the right component of the result",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "split",
           "normalized": "Event(Either a b)-\u003e(Event a,Event b)",
@@ -7339,6 +7973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a time-varying function from an initial value and \n a stream of new values. Think of it as\n\u003c/p\u003e\u003cpre\u003e stepper x0 ex = return $ \\time -\u003e\n     last (x0 : [x | (timex,x) \u003c- ex, timex \u003c time])\n\u003c/pre\u003e\u003cp\u003eNote that the smaller-than-sign in the comparision \u003ccode\u003etimex \u003c time\u003c/code\u003e means \n that the value of the behavior changes \"slightly after\"\n the event occurrences. This allows for recursive definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "stepper",
           "package": "threepenny-gui",
@@ -7349,6 +7984,7 @@
         "index": {
           "description": "Construct time-varying function from an initial value and stream of new values Think of it as stepper x0 ex return time last x0 timex ex timex time Note that the smaller-than-sign in the comparision timex time means that the value of the behavior changes slightly after the event occurrences This allows for recursive definitions",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "stepper",
           "normalized": "a-\u003eEvent a-\u003eb(Behavior a)",
@@ -7364,6 +8000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two event streams of the same type.\n In case of simultaneous occurrences, the event values are combined\n with the binary function.\n Think of it as\n\u003c/p\u003e\u003cpre\u003e unionWith f ((timex,x):xs) ((timey,y):ys)\n    | timex == timey = (timex,f x y) : unionWith f xs ys\n    | timex \u003c  timey = (timex,x)     : unionWith f xs ((timey,y):ys)\n    | timex \u003e  timey = (timey,y)     : unionWith f ((timex,x):xs) ys\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "unionWith",
           "package": "threepenny-gui",
@@ -7374,6 +8011,7 @@
         "index": {
           "description": "Merge two event streams of the same type In case of simultaneous occurrences the event values are combined with the binary function Think of it as unionWith timex xs timey ys timex timey timex unionWith xs ys timex timey timex unionWith xs timey ys timex timey timey unionWith timex xs ys",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eEvent a-\u003eEvent a-\u003eEvent a",
@@ -7390,6 +8028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect simultaneous event occurrences in a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "unions",
           "package": "threepenny-gui",
@@ -7400,6 +8039,7 @@
         "index": {
           "description": "Collect simultaneous event occurrences in list",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "unions",
           "normalized": "[Event a]-\u003eEvent[a]",
@@ -7414,6 +8054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "unsafeMapIO",
           "package": "threepenny-gui",
@@ -7423,6 +8064,7 @@
         },
         "index": {
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "unsafeMapIO",
           "normalized": "(a-\u003eIO b)-\u003eEvent a-\u003eEvent b",
@@ -7439,6 +8081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn event occurrences only when the behavior is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n Variant of \u003ccode\u003e\u003ca\u003efilterApply\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:00 UTC 2014",
           "module": "Reactive.Threepenny",
           "name": "whenE",
           "package": "threepenny-gui",
@@ -7449,6 +8092,7 @@
         "index": {
           "description": "Return event occurrences only when the behavior is True Variant of filterApply",
           "hierarchy": "Reactive Threepenny",
+          "indexed": "2014-03-11T20:22:00",
           "module": "Reactive.Threepenny",
           "name": "whenE",
           "normalized": "Behavior Bool-\u003eEvent a-\u003eEvent a",

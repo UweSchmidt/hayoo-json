@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hermit-syb"
+        "phrase": "hermit-syb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB.Prelude",
           "name": "Prelude",
           "package": "hermit-syb",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB Prelude",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB.Prelude",
           "name": "Prelude",
           "package": "hermit-syb",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "SYB",
           "package": "hermit-syb",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "SYB",
           "package": "hermit-syb",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "eliminatesType",
           "package": "hermit-syb",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "eliminatesType",
           "normalized": "Name-\u003eTranslateH CoreExpr()",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "eqWordElim",
           "package": "hermit-syb",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "eqWordElim",
           "package": "hermit-syb",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "evalFingerprintFingerprints",
           "package": "hermit-syb",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "evalFingerprintFingerprints",
           "package": "hermit-syb",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "exts",
           "package": "hermit-syb",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "exts",
           "normalized": "[External]",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "filterBinds",
           "package": "hermit-syb",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "filterBinds",
           "normalized": "[Id]-\u003e[(Id,a)]-\u003e[([Id],(Id,a))]-\u003e([(Id,a)],[(Id,a)])",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "filterBinds'",
           "package": "hermit-syb",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "filterBinds'",
           "normalized": "[Id]-\u003e[(Id,CoreExpr)]-\u003e([(Id,CoreExpr)],[(Id,CoreExpr)])",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "findTrivial",
           "package": "hermit-syb",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "findTrivial",
           "normalized": "a-\u003e[(a,Expr a)]-\u003e[(a,Expr a)]-\u003eMaybe(a,Expr a,[(a,Expr a)],a)",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "force",
           "package": "hermit-syb",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "force",
           "package": "hermit-syb",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "forceDeep",
           "package": "hermit-syb",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "forceDeep",
           "normalized": "Bool-\u003e[Name]-\u003eRewriteH CoreExpr",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "forcePrims",
           "package": "hermit-syb",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "forcePrims",
           "normalized": "[Name]-\u003eRewriteH CoreExpr",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "inType",
           "package": "hermit-syb",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "inType",
           "normalized": "Name-\u003eType-\u003eBool",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "inTypeT",
           "package": "hermit-syb",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "inTypeT",
           "normalized": "Name-\u003eTranslateH CoreExpr()",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "inlineType",
           "package": "hermit-syb",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "inlineType",
           "normalized": "Name-\u003eRewriteH CoreExpr",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "isMemoizedLet",
           "package": "hermit-syb",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "isMemoizedLet",
           "normalized": "TranslateH Core()",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "isPrimCall",
           "package": "hermit-syb",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "isPrimCall",
           "normalized": "[Name]-\u003eCoreExpr-\u003eBool",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "isPrimCall'",
           "package": "hermit-syb",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "isPrimCall'",
           "normalized": "[Name]-\u003eTranslateH CoreExpr()",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "letSubstTrivialR",
           "package": "hermit-syb",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "letSubstTrivialR",
           "package": "hermit-syb",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "letSubstType",
           "package": "hermit-syb",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "letSubstType",
           "normalized": "Name-\u003eRewriteH CoreExpr",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "letrecSubstTrivialR",
           "package": "hermit-syb",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "letrecSubstTrivialR",
           "package": "hermit-syb",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecase (let bnds in e) of wild alts ==\u003e let bnds in (case e of wild alts)\u003c/code\u003e\n   Fails if any variables bound in \u003ccode\u003ebnds\u003c/code\u003e occurs in \u003ccode\u003ealts\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatAlt",
           "package": "hermit-syb",
@@ -515,6 +558,7 @@
         "index": {
           "description": "case let bnds in of wild alts let bnds in case of wild alts Fails if any variables bound in bnds occurs in alts",
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatAlt",
           "package": "hermit-syb",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatApp",
           "package": "hermit-syb",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatApp",
           "package": "hermit-syb",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatArg",
           "package": "hermit-syb",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatArg",
           "package": "hermit-syb",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatBind",
           "package": "hermit-syb",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatBind",
           "package": "hermit-syb",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatCase",
           "package": "hermit-syb",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatCase",
           "package": "hermit-syb",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatCast",
           "package": "hermit-syb",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatCast",
           "package": "hermit-syb",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatLam",
           "package": "hermit-syb",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatLam",
           "package": "hermit-syb",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatLet",
           "package": "hermit-syb",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatLet",
           "package": "hermit-syb",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatMemoBind",
           "package": "hermit-syb",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatMemoBind",
           "package": "hermit-syb",
@@ -704,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatMemoLet",
           "package": "hermit-syb",
@@ -713,6 +774,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatMemoLet",
           "package": "hermit-syb",
@@ -726,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatRecBind",
           "package": "hermit-syb",
@@ -735,6 +798,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoFloatRecBind",
           "package": "hermit-syb",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoize",
           "package": "hermit-syb",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "memoize",
           "package": "hermit-syb",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "optFloat",
           "package": "hermit-syb",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "optFloat",
           "package": "hermit-syb",
@@ -791,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "optMemo",
           "package": "hermit-syb",
@@ -800,6 +869,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "optMemo",
           "package": "hermit-syb",
@@ -813,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "optSYB",
           "package": "hermit-syb",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "optSYB",
           "package": "hermit-syb",
@@ -835,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "optSimp",
           "package": "hermit-syb",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "optSimp",
           "package": "hermit-syb",
@@ -857,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "plugin",
           "package": "hermit-syb",
@@ -866,6 +941,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "plugin",
           "package": "hermit-syb",
@@ -879,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eRewrite\u003c/a\u003e\u003c/code\u003e in a bottom-up manner, succeeding if they all succeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "smarttdR",
           "package": "hermit-syb",
@@ -889,6 +966,7 @@
         "index": {
           "description": "Apply Rewrite in bottom-up manner succeeding if they all succeed",
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "smarttdR",
           "normalized": "RewriteH Core-\u003eRewriteH Core",
@@ -903,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "varInfo",
           "package": "hermit-syb",
@@ -912,6 +991,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "varInfo",
           "package": "hermit-syb",
@@ -925,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:15 UTC 2014",
           "module": "HERMIT.Optimization.SYB",
           "name": "varInfo2",
           "package": "hermit-syb",
@@ -934,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimization SYB",
+          "indexed": "2014-03-11T18:37:15",
           "module": "HERMIT.Optimization.SYB",
           "name": "varInfo2",
           "normalized": "Name-\u003eTranslateH Core String",

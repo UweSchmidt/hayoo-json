@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-topic-models"
+        "phrase": "network-topic-models",
+        "type": "phrase"
       },
       "type": "context"
     }

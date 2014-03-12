@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-logger-syslog"
+        "phrase": "monad-logger-syslog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:58 UTC 2014",
           "module": "System.Log.MonadLogger.Syslog",
           "name": "Syslog",
           "package": "monad-logger-syslog",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Log MonadLogger Syslog",
+          "indexed": "2014-03-11T19:19:58",
           "module": "System.Log.MonadLogger.Syslog",
           "name": "Syslog",
           "package": "monad-logger-syslog",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:58 UTC 2014",
           "module": "System.Log.MonadLogger.Syslog",
           "name": "levelToPriority",
           "package": "monad-logger-syslog",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System Log MonadLogger Syslog",
+          "indexed": "2014-03-11T19:19:58",
           "module": "System.Log.MonadLogger.Syslog",
           "name": "levelToPriority",
           "normalized": "LogLevel-\u003ePriority",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:58 UTC 2014",
           "module": "System.Log.MonadLogger.Syslog",
           "name": "runSyslogLoggingT",
           "package": "monad-logger-syslog",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "System Log MonadLogger Syslog",
+          "indexed": "2014-03-11T19:19:58",
           "module": "System.Log.MonadLogger.Syslog",
           "name": "runSyslogLoggingT",
           "normalized": "LoggingT a b-\u003ea b",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:58 UTC 2014",
           "module": "System.Log.MonadLogger.Syslog",
           "name": "syslogOutput",
           "package": "monad-logger-syslog",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "System Log MonadLogger Syslog",
+          "indexed": "2014-03-11T19:19:58",
           "module": "System.Log.MonadLogger.Syslog",
           "name": "syslogOutput",
           "normalized": "Loc-\u003eLogSource-\u003eLogLevel-\u003eLogStr-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wordsearch"
+        "phrase": "wordsearch",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA word search solver library\n\u003c/p\u003e\u003cp\u003eThis solver is case sensitive; users should map data consistently to one case before using this library when such behavior is desired.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "WordSearchSolver",
           "package": "wordsearch",
@@ -28,6 +29,7 @@
         "index": {
           "description": "word search solver library This solver is case sensitive users should map data consistently to one case before using this library when such behavior is desired",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "WordSearchSolver",
           "package": "wordsearch",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "Dir",
           "package": "wordsearch",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "Dir",
           "package": "wordsearch",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA grid in which to search\n\u003c/p\u003e\u003cp\u003eConstructors of this container usually assume that the grid is rectangular and properly sized; this precondition is not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "Grid",
           "package": "wordsearch",
@@ -72,6 +77,7 @@
         "index": {
           "description": "grid in which to search Constructors of this container usually assume that the grid is rectangular and properly sized this precondition is not checked",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "Grid",
           "package": "wordsearch",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn individual value describing a match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "Match",
           "package": "wordsearch",
@@ -95,6 +102,7 @@
         "index": {
           "description": "An individual value describing match",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "Match",
           "package": "wordsearch",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position of a grid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "Pos",
           "package": "wordsearch",
@@ -118,6 +127,7 @@
         "index": {
           "description": "position of grid",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "Pos",
           "package": "wordsearch",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe integral type used for \u003ccode\u003e\u003ca\u003ePos\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "PosIndex",
           "package": "wordsearch",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The integral type used for Pos",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "PosIndex",
           "package": "wordsearch",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of words or lists to search\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "Search",
           "package": "wordsearch",
@@ -164,6 +177,7 @@
         "index": {
           "description": "set of words or lists to search",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "Search",
           "package": "wordsearch",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract container of a word search puzzle\n\u003c/p\u003e\u003cp\u003eThis can be created either from a \u003ccode\u003e\u003ca\u003eSearch\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eGrid\u003c/a\u003e\u003c/code\u003e by the\n \u003ccode\u003e\u003ca\u003ewordSearch\u003c/a\u003e\u003c/code\u003e function or from a properly formatted \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e by the\n \u003ccode\u003e\u003ca\u003ereadWordSearch\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "WordSearch",
           "package": "wordsearch",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Abstract container of word search puzzle This can be created either from Search and Grid by the wordSearch function or from properly formatted String by the readWordSearch function",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "WordSearch",
           "package": "wordsearch",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "E",
           "package": "wordsearch",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "E",
           "package": "wordsearch",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "Match",
           "package": "wordsearch",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "Match",
           "package": "wordsearch",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "N",
           "package": "wordsearch",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "N",
           "package": "wordsearch",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "NE",
           "package": "wordsearch",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "NE",
           "package": "wordsearch",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "NW",
           "package": "wordsearch",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "NW",
           "package": "wordsearch",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "Pos",
           "package": "wordsearch",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "Pos",
           "normalized": "Pos(PosIndex,PosIndex)",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "S",
           "package": "wordsearch",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "S",
           "package": "wordsearch",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "SE",
           "package": "wordsearch",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "SE",
           "package": "wordsearch",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "SW",
           "package": "wordsearch",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "SW",
           "package": "wordsearch",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "W",
           "package": "wordsearch",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "W",
           "package": "wordsearch",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "_m_dir",
           "package": "wordsearch",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "_m_dir",
           "package": "wordsearch",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "_m_len",
           "package": "wordsearch",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "_m_len",
           "package": "wordsearch",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "_m_pos",
           "package": "wordsearch",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "_m_pos",
           "package": "wordsearch",
@@ -482,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003e\u003ca\u003eGrid\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eA grid array is indexed by (column, row) or (x, y), so users should be\n careful that a list is in the proper order if listArray is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "arrayToGrid",
           "package": "wordsearch",
@@ -492,6 +535,7 @@
         "index": {
           "description": "Constructs Grid from an Array grid array is indexed by column row or so users should be careful that list is in the proper order if listArray is used",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "arrayToGrid",
           "normalized": "Array Pos a-\u003eGrid a",
@@ -508,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the opposite direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "dirOpposite",
           "package": "wordsearch",
@@ -518,6 +563,7 @@
         "index": {
           "description": "Returns the opposite direction",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "dirOpposite",
           "normalized": "Dir-\u003eDir",
@@ -534,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the appropriate offset of a direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "dirToOffset",
           "package": "wordsearch",
@@ -544,6 +591,7 @@
         "index": {
           "description": "Returns the appropriate offset of direction",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "dirToOffset",
           "normalized": "Dir-\u003ePos",
@@ -560,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates a position by one step in the given direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "dirUpdatePos",
           "package": "wordsearch",
@@ -570,6 +619,7 @@
         "index": {
           "description": "Updates position by one step in the given direction",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "dirUpdatePos",
           "normalized": "Dir-\u003ePos-\u003ePos",
@@ -586,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplete set of possible \u003ccode\u003e\u003ca\u003eGrid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eMatch\u003c/a\u003e\u003c/code\u003e directions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "dirs",
           "package": "wordsearch",
@@ -596,6 +647,7 @@
         "index": {
           "description": "Complete set of possible Grid Match directions",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "dirs",
           "normalized": "[Dir]",
@@ -611,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMore efficient (and real, unordered) \u003ccode\u003eSet\u003c/code\u003e of \u003ccode\u003e\u003ca\u003edirs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "dirs'",
           "package": "wordsearch",
@@ -621,6 +674,7 @@
         "index": {
           "description": "More efficient and real unordered Set of dirs",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "dirs'",
           "package": "wordsearch",
@@ -634,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBidirectional \u003ccode\u003eMap\u003c/code\u003e of opposite directions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "dirsOpposite",
           "package": "wordsearch",
@@ -644,6 +699,7 @@
         "index": {
           "description": "Bidirectional Map of opposite directions",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "dirsOpposite",
           "package": "wordsearch",
@@ -658,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eMap\u003c/code\u003e of directions and \u003ccode\u003e\u003ca\u003ePos\u003c/a\u003e\u003c/code\u003e offsets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "dirsPos",
           "package": "wordsearch",
@@ -668,6 +725,7 @@
         "index": {
           "description": "Map of directions and Pos offsets",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "dirsPos",
           "package": "wordsearch",
@@ -682,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eGrid\u003c/a\u003e\u003c/code\u003e in which every cell that does not match is set to a default value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "fillMatches",
           "package": "wordsearch",
@@ -692,6 +751,7 @@
         "index": {
           "description": "Creates Grid in which every cell that does not match is set to default value",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "fillMatches",
           "normalized": "a-\u003eGrid a-\u003eb Match-\u003eGrid a",
@@ -708,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether an index is within the range of the bounds of an array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "inRangeOf",
           "package": "wordsearch",
@@ -718,6 +779,7 @@
         "index": {
           "description": "Determines whether an index is within the range of the bounds of an array",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "inRangeOf",
           "normalized": "a-\u003eArray a b-\u003eBool",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "m_dir",
           "package": "wordsearch",
@@ -742,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "m_dir",
           "normalized": "-\u003eMatch Dir",
@@ -756,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "m_len",
           "package": "wordsearch",
@@ -765,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "m_len",
           "normalized": "-\u003eMatch Integer",
@@ -779,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "m_pos",
           "package": "wordsearch",
@@ -788,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "m_pos",
           "normalized": "-\u003eMatch Pos",
@@ -803,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds two positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "posPlus",
           "package": "wordsearch",
@@ -813,6 +882,7 @@
         "index": {
           "description": "Adds two positions",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "posPlus",
           "normalized": "Pos-\u003ePos-\u003ePos",
@@ -829,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003e\u003ca\u003eGrid\u003c/a\u003e\u003c/code\u003e from a formatted list of \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e should be formatted as expected:\n\u003c/p\u003e\u003cpre\u003e[\"aoaoenxrcoedxncd\",\n \"aoesnitdaoeusntd\",\n \"itenohtneahuoteh\"]\u003c/pre\u003e\u003cp\u003eThe precondition that each row has equal length is not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "readGrid",
           "package": "wordsearch",
@@ -839,6 +910,7 @@
         "index": {
           "description": "Constructs Grid from formatted list of String The String should be formatted as expected aoaoenxrcoedxncd aoesnitdaoeusntd itenohtneahuoteh The precondition that each row has equal length is not checked",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "readGrid",
           "normalized": "[String]-\u003eGrid Char",
@@ -855,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003e\u003ca\u003eWordSearch\u003c/a\u003e\u003c/code\u003e container from a properly formatted \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e should contain two sections, separated by at least one empty\n line.  The first section represents the grid, and thus is formatted as the\n String that \u003ccode\u003e\u003ca\u003ereadGrid\u003c/a\u003e\u003c/code\u003e expects.  The second section represents the search\n words; it contains each word on its own separate line.  In the case that\n is ill-formed, Nothing is returned.  The precondition that each grid row\n has equal length is not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "readWordSearch",
           "package": "wordsearch",
@@ -865,6 +938,7 @@
         "index": {
           "description": "Constructs WordSearch container from properly formatted String The String should contain two sections separated by at least one empty line The first section represents the grid and thus is formatted as the String that readGrid expects The second section represents the search words it contains each word on its own separate line In the case that is ill-formed Nothing is returned The precondition that each grid row has equal length is not checked",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "readWordSearch",
           "normalized": "String-\u003eMaybe(WordSearch Char)",
@@ -881,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether a given \u003ccode\u003e\u003ca\u003eSearch\u003c/a\u003e\u003c/code\u003e term can be matched at a given position of a grid\n\u003c/p\u003e\u003cp\u003eThis is done by trying each direction for a match from the given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "search",
           "package": "wordsearch",
@@ -891,6 +966,7 @@
         "index": {
           "description": "Determines whether given Search term can be matched at given position of grid This is done by trying each direction for match from the given location",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "search",
           "normalized": "Grid a-\u003e[a]-\u003ePos-\u003eMaybe Match",
@@ -906,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the set of search terms from a \u003ccode\u003e\u003ca\u003eSearch\u003c/a\u003e\u003c/code\u003e container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "searchToSet",
           "package": "wordsearch",
@@ -916,6 +993,7 @@
         "index": {
           "description": "Returns the set of search terms from Search container",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "searchToSet",
           "normalized": "Search a-\u003eSet[a]",
@@ -932,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003e\u003ca\u003eSearch\u003c/a\u003e\u003c/code\u003e from a set of lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "setToSearch",
           "package": "wordsearch",
@@ -942,6 +1021,7 @@
         "index": {
           "description": "Constructs Search from set of lists",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "setToSearch",
           "normalized": "Set[a]-\u003eSearch a",
@@ -958,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a \u003ccode\u003e\u003ca\u003eGrid\u003c/a\u003e\u003c/code\u003e, appending a cell, usually a newline character, after every row\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "showGridInsert",
           "package": "wordsearch",
@@ -968,6 +1049,7 @@
         "index": {
           "description": "Renders Grid appending cell usually newline character after every row",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "showGridInsert",
           "normalized": "a-\u003eGrid a-\u003e[a]",
@@ -984,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves a \u003ccode\u003e\u003ca\u003eWordSearch\u003c/a\u003e\u003c/code\u003e and returns a set of matches together with a set of search terms for which a match was not found in a tuple\n\u003c/p\u003e\u003cp\u003eThis algorithm solves word search puzzles by looking at the first cell of each search term, and looking for a match by checking each direction from each position whose cell contains the starting cell of the search term until a match is found.  The dictionary of individual cell values and sets of positions is part of the \u003ccode\u003e\u003ca\u003eGrid\u003c/a\u003e\u003c/code\u003e container; \u003ccode\u003e\u003ca\u003earrayToGrid\u003c/a\u003e\u003c/code\u003e creates this dictionary automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "solveWordSearch",
           "package": "wordsearch",
@@ -994,6 +1077,7 @@
         "index": {
           "description": "Solves WordSearch and returns set of matches together with set of search terms for which match was not found in tuple This algorithm solves word search puzzles by looking at the first cell of each search term and looking for match by checking each direction from each position whose cell contains the starting cell of the search term until match is found The dictionary of individual cell values and sets of positions is part of the Grid container arrayToGrid creates this dictionary automatically",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "solveWordSearch",
           "normalized": "WordSearch a-\u003e(Set Match,Search a)",
@@ -1010,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the location and the direction matches the \u003ccode\u003e\u003ca\u003eSearch\u003c/a\u003e\u003c/code\u003e term, returns the \u003ccode\u003e\u003ca\u003eMatch\u003c/a\u003e\u003c/code\u003e; otherwise, returns Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "tryMatch",
           "package": "wordsearch",
@@ -1020,6 +1105,7 @@
         "index": {
           "description": "If the location and the direction matches the Search term returns the Match otherwise returns Nothing",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "tryMatch",
           "normalized": "Grid a-\u003e[a]-\u003ePos-\u003eDir-\u003eMaybe Match",
@@ -1036,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003e\u003ca\u003eWordSearch\u003c/a\u003e\u003c/code\u003e container from a \u003ccode\u003e\u003ca\u003eGrid\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eSearch\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "wordSearch",
           "package": "wordsearch",
@@ -1046,6 +1133,7 @@
         "index": {
           "description": "Constructs WordSearch container from Grid and Search",
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "wordSearch",
           "normalized": "Grid a-\u003eSearch a-\u003eWordSearch a",
@@ -1061,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "ws_grid",
           "package": "wordsearch",
@@ -1070,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "ws_grid",
           "normalized": "a b[b Pa]-\u003e(WordSearch b[b Pa])(Grid b[b Pa])",
@@ -1084,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:45 UTC 2014",
           "module": "Text.WordSearchSolver",
           "name": "ws_search",
           "package": "wordsearch",
@@ -1093,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Text WordSearchSolver",
+          "indexed": "2014-03-11T20:39:45",
           "module": "Text.WordSearchSolver",
           "name": "ws_search",
           "normalized": "a b[b Pa]-\u003e(WordSearch b[b Pa])(Search b[b Pa])",

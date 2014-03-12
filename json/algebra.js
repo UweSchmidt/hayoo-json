@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "algebra"
+        "phrase": "algebra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Class",
           "name": "Class",
           "package": "algebra",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric Additive Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Class",
           "name": "Class",
           "package": "algebra",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean additive abelian semigroup\n\u003c/p\u003e\u003cp\u003ea + b = b + a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Class",
           "name": "Abelian",
           "package": "algebra",
@@ -49,6 +52,7 @@
         "index": {
           "description": "an additive abelian semigroup",
           "hierarchy": "Numeric Additive Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Class",
           "name": "Abelian",
           "package": "algebra",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (a + b) + c = a + (b + c)\n sinnum 1 a = a\n sinnum (2 * n) a = sinnum n a + sinnum n a\n sinnum (2 * n + 1) a = sinnum n a + sinnum n a + a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Class",
           "name": "Additive",
           "package": "algebra",
@@ -72,6 +77,7 @@
         "index": {
           "description": "sinnum sinnum sinnum sinnum sinnum sinnum sinnum",
           "hierarchy": "Numeric Additive Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Class",
           "name": "Additive",
           "package": "algebra",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn additive semigroup with idempotent addition.\n\u003c/p\u003e\u003cpre\u003e a + a = a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Class",
           "name": "Idempotent",
           "package": "algebra",
@@ -95,6 +102,7 @@
         "index": {
           "description": "An additive semigroup with idempotent addition",
           "hierarchy": "Numeric Additive Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Class",
           "name": "Idempotent",
           "package": "algebra",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Class",
           "name": "Partitionable",
           "package": "algebra",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Numeric Additive Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Class",
           "name": "Partitionable",
           "package": "algebra",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Class",
           "name": "(+)",
           "package": "algebra",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Numeric Additive Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Class",
           "name": "(+) +",
           "normalized": "a-\u003ea-\u003ea",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epartitionWith f c returns a list containing f a b for each a b such that a + b = c, \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Class",
           "name": "partitionWith",
           "package": "algebra",
@@ -163,6 +176,7 @@
         "index": {
           "description": "partitionWith returns list containing for each such that",
           "hierarchy": "Numeric Additive Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Class",
           "name": "partitionWith",
           "normalized": "(a-\u003ea-\u003eb)-\u003ea-\u003eNonEmpty b",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esinnum1p n r = sinnum (1 + n) r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Class",
           "name": "sinnum1p",
           "package": "algebra",
@@ -189,6 +204,7 @@
         "index": {
           "description": "sinnum1p sinnum",
           "hierarchy": "Numeric Additive Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Class",
           "name": "sinnum1p",
           "normalized": "a-\u003eb-\u003eb",
@@ -252,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Class",
           "name": "sumWith1",
           "package": "algebra",
@@ -261,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Numeric Additive Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Class",
           "name": "sumWith1",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -276,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Group",
           "name": "Group",
           "package": "algebra",
@@ -284,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Numeric Additive Group",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Group",
           "name": "Group",
           "package": "algebra",
@@ -297,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Group",
           "name": "Group",
           "package": "algebra",
@@ -305,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Numeric Additive Group",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Group",
           "name": "Group",
           "package": "algebra",
@@ -318,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Group",
           "name": "(-)",
           "package": "algebra",
@@ -327,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Numeric Additive Group",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Group",
           "name": "(-) -",
           "normalized": "a-\u003ea-\u003ea",
@@ -341,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Group",
           "name": "negate",
           "package": "algebra",
@@ -350,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Numeric Additive Group",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Group",
           "name": "negate",
           "normalized": "a-\u003ea",
@@ -364,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Group",
           "name": "subtract",
           "package": "algebra",
@@ -373,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Numeric Additive Group",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Group",
           "name": "subtract",
           "normalized": "a-\u003ea-\u003ea",
@@ -387,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Additive.Group",
           "name": "times",
           "package": "algebra",
@@ -396,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Numeric Additive Group",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Additive.Group",
           "name": "times",
           "normalized": "a-\u003eb-\u003eb",
@@ -410,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "Class",
           "package": "algebra",
@@ -418,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "Class",
           "package": "algebra",
@@ -432,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative algebra built with a free module over a semiring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "Algebra",
           "package": "algebra",
@@ -441,6 +474,7 @@
         "index": {
           "description": "An associative algebra built with free module over semiring",
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "Algebra",
           "package": "algebra",
@@ -454,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "Coalgebra",
           "package": "algebra",
@@ -462,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "Coalgebra",
           "package": "algebra",
@@ -475,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "LeftModule",
           "package": "algebra",
@@ -483,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "LeftModule",
           "package": "algebra",
@@ -496,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "Module",
           "package": "algebra",
@@ -504,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "Module",
           "package": "algebra",
@@ -518,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn additive monoid\n\u003c/p\u003e\u003cpre\u003e zero + a = a = a + zero\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "Monoidal",
           "package": "algebra",
@@ -527,6 +568,7 @@
         "index": {
           "description": "An additive monoid zero zero",
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "Monoidal",
           "package": "algebra",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multiplicative semigroup\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "Multiplicative",
           "package": "algebra",
@@ -550,6 +593,7 @@
         "index": {
           "description": "multiplicative semigroup",
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "Multiplicative",
           "package": "algebra",
@@ -563,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "RightModule",
           "package": "algebra",
@@ -571,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "RightModule",
           "package": "algebra",
@@ -585,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pair of an additive abelian semigroup, and a multiplicative semigroup, with the distributive laws:\n\u003c/p\u003e\u003cpre\u003e a(b + c) = ab + ac -- left distribution (we are a LeftNearSemiring)\n (a + b)c = ac + bc -- right distribution (we are a [Right]NearSemiring)\n\u003c/pre\u003e\u003cp\u003eCommon notation includes the laws for additive and multiplicative identity in semiring.\n\u003c/p\u003e\u003cp\u003eIf you want that, look at \u003ccode\u003eRig\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eIdeally we'd use the cyclic definition:\n\u003c/p\u003e\u003cpre\u003e class (LeftModule r r, RightModule r r, Additive r, Abelian r, Multiplicative r) =\u003e Semiring r\n\u003c/pre\u003e\u003cp\u003eto enforce that every semiring r is an r-module over itself, but Haskell doesn't like that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "Semiring",
           "package": "algebra",
@@ -594,6 +641,7 @@
         "index": {
           "description": "pair of an additive abelian semigroup and multiplicative semigroup with the distributive laws ab ac left distribution we are LeftNearSemiring ac bc right distribution we are Right NearSemiring Common notation includes the laws for additive and multiplicative identity in semiring If you want that look at Rig instead Ideally we use the cyclic definition class LeftModule RightModule Additive Abelian Multiplicative Semiring to enforce that every semiring is an r-module over itself but Haskell doesn like that",
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "Semiring",
           "package": "algebra",
@@ -607,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "(*)",
           "package": "algebra",
@@ -616,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "(*) *",
           "normalized": "a-\u003ea-\u003ea",
@@ -630,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "(*.)",
           "package": "algebra",
@@ -639,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "(*.) *.",
           "normalized": "a-\u003eb-\u003ea",
@@ -653,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "(.*)",
           "package": "algebra",
@@ -662,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "(.*) .*",
           "normalized": "a-\u003eb-\u003eb",
@@ -676,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "comult",
           "package": "algebra",
@@ -685,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "comult",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eb",
@@ -699,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "mult",
           "package": "algebra",
@@ -708,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "mult",
           "normalized": "(a-\u003ea-\u003eb)-\u003ea-\u003eb",
@@ -722,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "pow1p",
           "package": "algebra",
@@ -731,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "pow1p",
           "normalized": "a-\u003eb-\u003ea",
@@ -745,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "pow1pIntegral",
           "package": "algebra",
@@ -754,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "pow1pIntegral",
           "normalized": "a-\u003eb-\u003ea",
@@ -793,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "productWith1",
           "package": "algebra",
@@ -802,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "productWith1",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -817,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "sinnum",
           "package": "algebra",
@@ -826,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "sinnum",
           "normalized": "a-\u003eb-\u003eb",
@@ -889,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "sumWith",
           "package": "algebra",
@@ -898,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "sumWith",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -913,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Class",
           "name": "zero",
           "package": "algebra",
@@ -922,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Class",
           "name": "zero",
           "package": "algebra",
@@ -934,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Commutative",
           "name": "Commutative",
           "package": "algebra",
@@ -942,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Commutative",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Commutative",
           "name": "Commutative",
           "package": "algebra",
@@ -955,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Commutative",
           "name": "CocommutativeCoalgebra",
           "package": "algebra",
@@ -963,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Commutative",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Commutative",
           "name": "CocommutativeCoalgebra",
           "package": "algebra",
@@ -977,6 +1051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA commutative multiplicative semigroup\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Commutative",
           "name": "Commutative",
           "package": "algebra",
@@ -986,6 +1061,7 @@
         "index": {
           "description": "commutative multiplicative semigroup",
           "hierarchy": "Numeric Algebra Commutative",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Commutative",
           "name": "Commutative",
           "package": "algebra",
@@ -999,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Commutative",
           "name": "CommutativeAlgebra",
           "package": "algebra",
@@ -1007,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Commutative",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Commutative",
           "name": "CommutativeAlgebra",
           "package": "algebra",
@@ -1020,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Commutative",
           "name": "CommutativeBialgebra",
           "package": "algebra",
@@ -1028,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Commutative",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Commutative",
           "name": "CommutativeBialgebra",
           "package": "algebra",
@@ -1041,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex.Class",
           "name": "Class",
           "package": "algebra",
@@ -1049,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex.Class",
           "name": "Class",
           "package": "algebra",
@@ -1062,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex.Class",
           "name": "Complicated",
           "package": "algebra",
@@ -1070,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex.Class",
           "name": "Complicated",
           "package": "algebra",
@@ -1083,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex.Class",
           "name": "i",
           "package": "algebra",
@@ -1092,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex.Class",
           "name": "i",
           "package": "algebra",
@@ -1104,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "Complex",
           "package": "algebra",
@@ -1112,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "Complex",
           "package": "algebra",
@@ -1125,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "Complex",
           "package": "algebra",
@@ -1133,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "Complex",
           "package": "algebra",
@@ -1146,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "ComplexBasis",
           "package": "algebra",
@@ -1154,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "ComplexBasis",
           "package": "algebra",
@@ -1167,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "Complicated",
           "package": "algebra",
@@ -1175,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "Complicated",
           "package": "algebra",
@@ -1188,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "Distinguished",
           "package": "algebra",
@@ -1196,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "Distinguished",
           "package": "algebra",
@@ -1209,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "Complex",
           "package": "algebra",
@@ -1218,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "Complex",
           "package": "algebra",
@@ -1231,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "E",
           "package": "algebra",
@@ -1240,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "E",
           "package": "algebra",
@@ -1252,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "I",
           "package": "algebra",
@@ -1261,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "I",
           "package": "algebra",
@@ -1273,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "e",
           "package": "algebra",
@@ -1282,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "e",
           "package": "algebra",
@@ -1294,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "i",
           "package": "algebra",
@@ -1303,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "i",
           "package": "algebra",
@@ -1315,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "imagPart",
           "package": "algebra",
@@ -1324,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "imagPart",
           "normalized": "a b-\u003eb",
@@ -1339,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "realPart",
           "package": "algebra",
@@ -1348,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "realPart",
           "normalized": "a b-\u003eb",
@@ -1364,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehalf of the Cayley-Dickson quaternion isomorphism \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Complex",
           "name": "uncomplicate",
           "package": "algebra",
@@ -1374,6 +1485,7 @@
         "index": {
           "description": "half of the Cayley-Dickson quaternion isomorphism",
           "hierarchy": "Numeric Algebra Complex",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Complex",
           "name": "uncomplicate",
           "normalized": "ComplexBasis-\u003eComplexBasis-\u003ea",
@@ -1388,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Distinguished.Class",
           "name": "Class",
           "package": "algebra",
@@ -1396,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Distinguished Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Distinguished.Class",
           "name": "Class",
           "package": "algebra",
@@ -1409,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Distinguished.Class",
           "name": "Distinguished",
           "package": "algebra",
@@ -1417,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Distinguished Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Distinguished.Class",
           "name": "Distinguished",
           "package": "algebra",
@@ -1430,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Distinguished.Class",
           "name": "e",
           "package": "algebra",
@@ -1439,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Distinguished Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Distinguished.Class",
           "name": "e",
           "package": "algebra",
@@ -1451,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Division",
           "name": "Division",
           "package": "algebra",
@@ -1459,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Division",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Division",
           "name": "Division",
           "package": "algebra",
@@ -1472,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Division",
           "name": "Division",
           "package": "algebra",
@@ -1480,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Division",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Division",
           "name": "Division",
           "package": "algebra",
@@ -1493,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Division",
           "name": "DivisionAlgebra",
           "package": "algebra",
@@ -1501,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Division",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Division",
           "name": "DivisionAlgebra",
           "package": "algebra",
@@ -1514,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Division",
           "name": "(/)",
           "package": "algebra",
@@ -1523,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Division",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Division",
           "name": "(/) /",
           "normalized": "a-\u003ea-\u003ea",
@@ -1537,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Division",
           "name": "(\\\\)",
           "package": "algebra",
@@ -1546,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Division",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Division",
           "name": "(\\\\) \\\\",
           "normalized": "a-\u003ea-\u003ea",
@@ -1560,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Division",
           "name": "(^)",
           "package": "algebra",
@@ -1569,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Division",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Division",
           "name": "(^) ^",
           "normalized": "a-\u003eb-\u003ea",
@@ -1583,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Division",
           "name": "recip",
           "package": "algebra",
@@ -1592,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Division",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Division",
           "name": "recip",
           "normalized": "a-\u003ea",
@@ -1606,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Division",
           "name": "recipriocal",
           "package": "algebra",
@@ -1615,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Division",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Division",
           "name": "recipriocal",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -1629,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual.Class",
           "name": "Class",
           "package": "algebra",
@@ -1637,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual.Class",
           "name": "Class",
           "package": "algebra",
@@ -1650,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual.Class",
           "name": "Infinitesimal",
           "package": "algebra",
@@ -1658,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual.Class",
           "name": "Infinitesimal",
           "package": "algebra",
@@ -1671,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual.Class",
           "name": "d",
           "package": "algebra",
@@ -1680,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual.Class",
           "name": "d",
           "package": "algebra",
@@ -1692,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual",
           "name": "Dual",
           "package": "algebra",
@@ -1700,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual",
           "name": "Dual",
           "package": "algebra",
@@ -1713,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual",
           "name": "Distinguished",
           "package": "algebra",
@@ -1721,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual",
           "name": "Distinguished",
           "package": "algebra",
@@ -1734,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual",
           "name": "Dual",
           "package": "algebra",
@@ -1742,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual",
           "name": "Dual",
           "package": "algebra",
@@ -1756,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edual number basis, D^2 = 0. D /= 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual",
           "name": "DualBasis",
           "package": "algebra",
@@ -1765,6 +1912,7 @@
         "index": {
           "description": "dual number basis",
           "hierarchy": "Numeric Algebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual",
           "name": "DualBasis",
           "package": "algebra",
@@ -1778,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual",
           "name": "Infinitesimal",
           "package": "algebra",
@@ -1786,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual",
           "name": "Infinitesimal",
           "package": "algebra",
@@ -1799,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual",
           "name": "D",
           "package": "algebra",
@@ -1808,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual",
           "name": "D",
           "package": "algebra",
@@ -1820,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual",
           "name": "Dual",
           "package": "algebra",
@@ -1829,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual",
           "name": "Dual",
           "package": "algebra",
@@ -1842,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual",
           "name": "E",
           "package": "algebra",
@@ -1851,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual",
           "name": "E",
           "package": "algebra",
@@ -1863,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual",
           "name": "d",
           "package": "algebra",
@@ -1872,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual",
           "name": "d",
           "package": "algebra",
@@ -1884,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Dual",
           "name": "e",
           "package": "algebra",
@@ -1893,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Dual",
           "name": "e",
           "package": "algebra",
@@ -1905,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Factorable",
           "name": "Factorable",
           "package": "algebra",
@@ -1913,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Factorable",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Factorable",
           "name": "Factorable",
           "package": "algebra",
@@ -1927,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e`factorWith f c` returns a non-empty list containing `f a b` for all `a, b` such that `a * b = c`.\n\u003c/p\u003e\u003cp\u003eResults of factorWith f 0 are undefined and may result in either an error or an infinite list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Factorable",
           "name": "Factorable",
           "package": "algebra",
@@ -1936,6 +2099,7 @@
         "index": {
           "description": "factorWith returns non-empty list containing for all such that Results of factorWith are undefined and may result in either an error or an infinite list",
           "hierarchy": "Numeric Algebra Factorable",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Factorable",
           "name": "Factorable",
           "package": "algebra",
@@ -1949,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Factorable",
           "name": "factorWith",
           "package": "algebra",
@@ -1958,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Factorable",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Factorable",
           "name": "factorWith",
           "normalized": "(a-\u003ea-\u003eb)-\u003ea-\u003eNonEmpty b",
@@ -1973,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hopf",
           "name": "Hopf",
           "package": "algebra",
@@ -1981,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Hopf",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hopf",
           "name": "Hopf",
           "package": "algebra",
@@ -1995,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA HopfAlgebra algebra on a semiring, where the module is free.\n\u003c/p\u003e\u003cp\u003eWhen \u003ccode\u003eantipode . antipode = id\u003c/code\u003e and antipode is an antihomomorphism then we are an InvolutiveBialgebra with \u003ccode\u003einv = antipode\u003c/code\u003e as well\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hopf",
           "name": "HopfAlgebra",
           "package": "algebra",
@@ -2004,6 +2173,7 @@
         "index": {
           "description": "HopfAlgebra algebra on semiring where the module is free When antipode antipode id and antipode is an antihomomorphism then we are an InvolutiveBialgebra with inv antipode as well",
           "hierarchy": "Numeric Algebra Hopf",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hopf",
           "name": "HopfAlgebra",
           "package": "algebra",
@@ -2017,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hopf",
           "name": "antipode",
           "package": "algebra",
@@ -2026,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Hopf",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hopf",
           "name": "antipode",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -2040,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Hyperbolic",
           "package": "algebra",
@@ -2048,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Hyperbolic",
           "package": "algebra",
@@ -2061,6 +2235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Hyper'",
           "package": "algebra",
@@ -2069,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Hyper'",
           "package": "algebra",
@@ -2082,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "HyperBasis'",
           "package": "algebra",
@@ -2090,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "HyperBasis'",
           "package": "algebra",
@@ -2103,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Hyperbolic",
           "package": "algebra",
@@ -2111,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Hyperbolic",
           "package": "algebra",
@@ -2124,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Cosh'",
           "package": "algebra",
@@ -2133,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Cosh'",
           "package": "algebra",
@@ -2146,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Hyper'",
           "package": "algebra",
@@ -2155,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Hyper'",
           "package": "algebra",
@@ -2168,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Sinh'",
           "package": "algebra",
@@ -2177,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "Sinh'",
           "package": "algebra",
@@ -2190,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "cosh",
           "package": "algebra",
@@ -2199,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "cosh",
           "package": "algebra",
@@ -2211,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "sinh",
           "package": "algebra",
@@ -2220,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Hyperbolic",
           "name": "sinh",
           "package": "algebra",
@@ -2232,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Idempotent",
           "name": "Idempotent",
           "package": "algebra",
@@ -2240,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Idempotent",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Idempotent",
           "name": "Idempotent",
           "package": "algebra",
@@ -2254,6 +2446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn multiplicative semigroup with idempotent multiplication.\n\u003c/p\u003e\u003cpre\u003e a * a = a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Idempotent",
           "name": "Band",
           "package": "algebra",
@@ -2263,6 +2456,7 @@
         "index": {
           "description": "An multiplicative semigroup with idempotent multiplication",
           "hierarchy": "Numeric Algebra Idempotent",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Idempotent",
           "name": "Band",
           "package": "algebra",
@@ -2276,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Idempotent",
           "name": "IdempotentAlgebra",
           "package": "algebra",
@@ -2284,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Idempotent",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Idempotent",
           "name": "IdempotentAlgebra",
           "package": "algebra",
@@ -2297,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Idempotent",
           "name": "IdempotentBialgebra",
           "package": "algebra",
@@ -2305,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Idempotent",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Idempotent",
           "name": "IdempotentBialgebra",
           "package": "algebra",
@@ -2318,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Idempotent",
           "name": "IdempotentCoalgebra",
           "package": "algebra",
@@ -2326,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Idempotent",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Idempotent",
           "name": "IdempotentCoalgebra",
           "package": "algebra",
@@ -2389,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Incidence",
           "name": "Incidence",
           "package": "algebra",
@@ -2397,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Incidence",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Incidence",
           "name": "Incidence",
           "package": "algebra",
@@ -2410,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Incidence",
           "name": "Interval",
           "package": "algebra",
@@ -2418,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Incidence",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Incidence",
           "name": "Interval",
           "package": "algebra",
@@ -2431,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Incidence",
           "name": "Interval",
           "package": "algebra",
@@ -2440,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Incidence",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Incidence",
           "name": "Interval",
           "package": "algebra",
@@ -2453,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Incidence",
           "name": "moebius",
           "package": "algebra",
@@ -2462,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Incidence",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Incidence",
           "name": "moebius",
           "normalized": "Interval a-\u003eb",
@@ -2476,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Incidence",
           "name": "zeta",
           "package": "algebra",
@@ -2485,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Incidence",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Incidence",
           "name": "zeta",
           "normalized": "Interval a-\u003eb",
@@ -2499,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "Involutive",
           "package": "algebra",
@@ -2507,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "Involutive",
           "package": "algebra",
@@ -2520,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "InvolutiveAlgebra",
           "package": "algebra",
@@ -2528,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "InvolutiveAlgebra",
           "package": "algebra",
@@ -2541,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "InvolutiveBialgebra",
           "package": "algebra",
@@ -2549,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "InvolutiveBialgebra",
           "package": "algebra",
@@ -2562,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "InvolutiveCoalgebra",
           "package": "algebra",
@@ -2570,6 +2787,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "InvolutiveCoalgebra",
           "package": "algebra",
@@ -2584,6 +2802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn semigroup with involution\n\u003c/p\u003e\u003cpre\u003e adjoint a * adjoint b = adjoint (b * a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "InvolutiveMultiplication",
           "package": "algebra",
@@ -2593,6 +2812,7 @@
         "index": {
           "description": "An semigroup with involution adjoint adjoint adjoint",
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "InvolutiveMultiplication",
           "package": "algebra",
@@ -2607,6 +2827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadjoint (x + y) = adjoint x + adjoint y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "InvolutiveSemiring",
           "package": "algebra",
@@ -2616,6 +2837,7 @@
         "index": {
           "description": "adjoint adjoint adjoint",
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "InvolutiveSemiring",
           "package": "algebra",
@@ -2630,6 +2852,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e adjoint = id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "TriviallyInvolutive",
           "package": "algebra",
@@ -2639,6 +2862,7 @@
         "index": {
           "description": "adjoint id",
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "TriviallyInvolutive",
           "package": "algebra",
@@ -2652,6 +2876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "TriviallyInvolutiveAlgebra",
           "package": "algebra",
@@ -2660,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "TriviallyInvolutiveAlgebra",
           "package": "algebra",
@@ -2673,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "TriviallyInvolutiveBialgebra",
           "package": "algebra",
@@ -2681,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "TriviallyInvolutiveBialgebra",
           "package": "algebra",
@@ -2694,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "TriviallyInvolutiveCoalgebra",
           "package": "algebra",
@@ -2702,6 +2931,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "TriviallyInvolutiveCoalgebra",
           "package": "algebra",
@@ -2715,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "adjoint",
           "package": "algebra",
@@ -2724,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "adjoint",
           "normalized": "a-\u003ea",
@@ -2738,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "coinv",
           "package": "algebra",
@@ -2747,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "coinv",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -2761,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Involutive",
           "name": "inv",
           "package": "algebra",
@@ -2770,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Involutive",
           "name": "inv",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -2784,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion.Class",
           "name": "Class",
           "package": "algebra",
@@ -2792,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion.Class",
           "name": "Class",
           "package": "algebra",
@@ -2805,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion.Class",
           "name": "Hamiltonian",
           "package": "algebra",
@@ -2813,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion.Class",
           "name": "Hamiltonian",
           "package": "algebra",
@@ -2826,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion.Class",
           "name": "j",
           "package": "algebra",
@@ -2835,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion.Class",
           "name": "j",
           "package": "algebra",
@@ -2847,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion.Class",
           "name": "k",
           "package": "algebra",
@@ -2856,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion.Class",
           "name": "k",
           "package": "algebra",
@@ -2868,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Quaternion",
           "package": "algebra",
@@ -2876,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Quaternion",
           "package": "algebra",
@@ -2889,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Complicated",
           "package": "algebra",
@@ -2897,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Complicated",
           "package": "algebra",
@@ -2910,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Distinguished",
           "package": "algebra",
@@ -2918,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Distinguished",
           "package": "algebra",
@@ -2931,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Hamiltonian",
           "package": "algebra",
@@ -2939,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Hamiltonian",
           "package": "algebra",
@@ -2952,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Quaternion",
           "package": "algebra",
@@ -2960,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Quaternion",
           "package": "algebra",
@@ -2973,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "QuaternionBasis",
           "package": "algebra",
@@ -2981,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "QuaternionBasis",
           "package": "algebra",
@@ -2994,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "E",
           "package": "algebra",
@@ -3003,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "E",
           "package": "algebra",
@@ -3015,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "I",
           "package": "algebra",
@@ -3024,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "I",
           "package": "algebra",
@@ -3036,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "J",
           "package": "algebra",
@@ -3045,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "J",
           "package": "algebra",
@@ -3057,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "K",
           "package": "algebra",
@@ -3066,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "K",
           "package": "algebra",
@@ -3078,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Quaternion",
           "package": "algebra",
@@ -3087,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "Quaternion",
           "package": "algebra",
@@ -3101,6 +3367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCayley-Dickson quaternion isomorphism (one way)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "complicate",
           "package": "algebra",
@@ -3111,6 +3378,7 @@
         "index": {
           "description": "Cayley-Dickson quaternion isomorphism one way",
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "complicate",
           "normalized": "QuaternionBasis-\u003e(a,a)",
@@ -3125,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "e",
           "package": "algebra",
@@ -3134,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "e",
           "package": "algebra",
@@ -3146,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "i",
           "package": "algebra",
@@ -3155,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "i",
           "package": "algebra",
@@ -3167,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "j",
           "package": "algebra",
@@ -3176,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "j",
           "package": "algebra",
@@ -3188,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "k",
           "package": "algebra",
@@ -3197,6 +3472,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "k",
           "package": "algebra",
@@ -3209,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "scalarPart",
           "package": "algebra",
@@ -3218,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "scalarPart",
           "normalized": "a b-\u003eb",
@@ -3233,6 +3511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Quaternion",
           "name": "vectorPart",
           "package": "algebra",
@@ -3242,6 +3521,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Quaternion",
           "name": "vectorPart",
           "normalized": "a b-\u003e(b,b,b)",
@@ -3257,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Unital",
           "name": "Unital",
           "package": "algebra",
@@ -3265,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Unital",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Unital",
           "name": "Unital",
           "package": "algebra",
@@ -3279,6 +3561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bialgebra is both a unital algebra and counital coalgebra \n where the \u003ccode\u003e\u003ca\u003emult\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e are compatible in some sense with \n the \u003ccode\u003e\u003ca\u003ecomult\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecounit\u003c/a\u003e\u003c/code\u003e. That is to say that \n \u003ccode\u003e\u003ca\u003emult\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e are a coalgebra homomorphisms or (equivalently) that \n \u003ccode\u003e\u003ca\u003ecomult\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecounit\u003c/a\u003e\u003c/code\u003e are an algebra homomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Unital",
           "name": "Bialgebra",
           "package": "algebra",
@@ -3288,6 +3571,7 @@
         "index": {
           "description": "bialgebra is both unital algebra and counital coalgebra where the mult and unit are compatible in some sense with the comult and counit That is to say that mult and unit are coalgebra homomorphisms or equivalently that comult and counit are an algebra homomorphisms",
           "hierarchy": "Numeric Algebra Unital",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Unital",
           "name": "Bialgebra",
           "package": "algebra",
@@ -3301,6 +3585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Unital",
           "name": "CounitalCoalgebra",
           "package": "algebra",
@@ -3309,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Unital",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Unital",
           "name": "CounitalCoalgebra",
           "package": "algebra",
@@ -3322,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Unital",
           "name": "Unital",
           "package": "algebra",
@@ -3330,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Unital",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Unital",
           "name": "Unital",
           "package": "algebra",
@@ -3344,6 +3632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative unital algebra over a semiring, built using a free module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Unital",
           "name": "UnitalAlgebra",
           "package": "algebra",
@@ -3353,6 +3642,7 @@
         "index": {
           "description": "An associative unital algebra over semiring built using free module",
           "hierarchy": "Numeric Algebra Unital",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Unital",
           "name": "UnitalAlgebra",
           "package": "algebra",
@@ -3366,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Unital",
           "name": "counit",
           "package": "algebra",
@@ -3375,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Unital",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Unital",
           "name": "counit",
           "normalized": "(a-\u003eb)-\u003eb",
@@ -3389,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Unital",
           "name": "one",
           "package": "algebra",
@@ -3398,6 +3691,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Unital",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Unital",
           "name": "one",
           "package": "algebra",
@@ -3410,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Unital",
           "name": "pow",
           "package": "algebra",
@@ -3419,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Unital",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Unital",
           "name": "pow",
           "normalized": "a-\u003eb-\u003ea",
@@ -3457,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Unital",
           "name": "productWith",
           "package": "algebra",
@@ -3466,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Unital",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Unital",
           "name": "productWith",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -3481,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra.Unital",
           "name": "unit",
           "package": "algebra",
@@ -3490,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra Unital",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra.Unital",
           "name": "unit",
           "normalized": "a-\u003eb-\u003ea",
@@ -3504,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Algebra",
           "package": "algebra",
@@ -3512,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Algebra",
           "package": "algebra",
@@ -3526,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean additive abelian semigroup\n\u003c/p\u003e\u003cp\u003ea + b = b + a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Abelian",
           "package": "algebra",
@@ -3535,6 +3838,7 @@
         "index": {
           "description": "an additive abelian semigroup",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Abelian",
           "package": "algebra",
@@ -3549,6 +3853,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (a + b) + c = a + (b + c)\n sinnum 1 a = a\n sinnum (2 * n) a = sinnum n a + sinnum n a\n sinnum (2 * n + 1) a = sinnum n a + sinnum n a + a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Additive",
           "package": "algebra",
@@ -3558,6 +3863,7 @@
         "index": {
           "description": "sinnum sinnum sinnum sinnum sinnum sinnum sinnum",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Additive",
           "package": "algebra",
@@ -3572,6 +3878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ez + x \u003c= z + y = x \u003c= y = x + z \u003c= y + z\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "AdditiveOrder",
           "package": "algebra",
@@ -3580,6 +3887,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "AdditiveOrder",
           "package": "algebra",
@@ -3594,6 +3902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative algebra built with a free module over a semiring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Algebra",
           "package": "algebra",
@@ -3603,6 +3912,7 @@
         "index": {
           "description": "An associative algebra built with free module over semiring",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Algebra",
           "package": "algebra",
@@ -3617,6 +3927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn multiplicative semigroup with idempotent multiplication.\n\u003c/p\u003e\u003cpre\u003e a * a = a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Band",
           "package": "algebra",
@@ -3626,6 +3937,7 @@
         "index": {
           "description": "An multiplicative semigroup with idempotent multiplication",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Band",
           "package": "algebra",
@@ -3640,6 +3952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bialgebra is both a unital algebra and counital coalgebra \n where the \u003ccode\u003e\u003ca\u003emult\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e are compatible in some sense with \n the \u003ccode\u003e\u003ca\u003ecomult\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecounit\u003c/a\u003e\u003c/code\u003e. That is to say that \n \u003ccode\u003e\u003ca\u003emult\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e are a coalgebra homomorphisms or (equivalently) that \n \u003ccode\u003e\u003ca\u003ecomult\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecounit\u003c/a\u003e\u003c/code\u003e are an algebra homomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Bialgebra",
           "package": "algebra",
@@ -3649,6 +3962,7 @@
         "index": {
           "description": "bialgebra is both unital algebra and counital coalgebra where the mult and unit are compatible in some sense with the comult and counit That is to say that mult and unit are coalgebra homomorphisms or equivalently that comult and counit are an algebra homomorphisms",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Bialgebra",
           "package": "algebra",
@@ -3662,6 +3976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Characteristic",
           "package": "algebra",
@@ -3670,6 +3985,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Characteristic",
           "package": "algebra",
@@ -3683,6 +3999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Coalgebra",
           "package": "algebra",
@@ -3691,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Coalgebra",
           "package": "algebra",
@@ -3704,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "CocommutativeCoalgebra",
           "package": "algebra",
@@ -3712,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "CocommutativeCoalgebra",
           "package": "algebra",
@@ -3726,6 +4046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA commutative multiplicative semigroup\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Commutative",
           "package": "algebra",
@@ -3735,6 +4056,7 @@
         "index": {
           "description": "commutative multiplicative semigroup",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Commutative",
           "package": "algebra",
@@ -3748,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "CommutativeAlgebra",
           "package": "algebra",
@@ -3756,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "CommutativeAlgebra",
           "package": "algebra",
@@ -3769,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "CommutativeBialgebra",
           "package": "algebra",
@@ -3777,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "CommutativeBialgebra",
           "package": "algebra",
@@ -3790,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "CounitalCoalgebra",
           "package": "algebra",
@@ -3798,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "CounitalCoalgebra",
           "package": "algebra",
@@ -3812,6 +4140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear functionals from elements of an (infinite) free module to a scalar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Covector",
           "package": "algebra",
@@ -3821,6 +4150,7 @@
         "index": {
           "description": "Linear functionals from elements of an infinite free module to scalar",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Covector",
           "package": "algebra",
@@ -3834,6 +4164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "DecidableAssociates",
           "package": "algebra",
@@ -3842,6 +4173,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "DecidableAssociates",
           "package": "algebra",
@@ -3855,6 +4187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "DecidableUnits",
           "package": "algebra",
@@ -3863,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "DecidableUnits",
           "package": "algebra",
@@ -3876,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "DecidableZero",
           "package": "algebra",
@@ -3884,6 +4219,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "DecidableZero",
           "package": "algebra",
@@ -3897,6 +4233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Dioid",
           "package": "algebra",
@@ -3905,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Dioid",
           "package": "algebra",
@@ -3918,6 +4256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Division",
           "package": "algebra",
@@ -3926,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Division",
           "package": "algebra",
@@ -3939,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "DivisionAlgebra",
           "package": "algebra",
@@ -3947,6 +4288,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "DivisionAlgebra",
           "package": "algebra",
@@ -3960,6 +4302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "DivisionRing",
           "package": "algebra",
@@ -3968,6 +4311,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "DivisionRing",
           "package": "algebra",
@@ -3982,6 +4326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e`factorWith f c` returns a non-empty list containing `f a b` for all `a, b` such that `a * b = c`.\n\u003c/p\u003e\u003cp\u003eResults of factorWith f 0 are undefined and may result in either an error or an infinite list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Factorable",
           "package": "algebra",
@@ -3991,6 +4336,7 @@
         "index": {
           "description": "factorWith returns non-empty list containing for all such that Results of factorWith are undefined and may result in either an error or an infinite list",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Factorable",
           "package": "algebra",
@@ -4004,6 +4350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Field",
           "package": "algebra",
@@ -4012,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Field",
           "package": "algebra",
@@ -4025,6 +4373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Group",
           "package": "algebra",
@@ -4033,6 +4382,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Group",
           "package": "algebra",
@@ -4047,6 +4397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA HopfAlgebra algebra on a semiring, where the module is free.\n\u003c/p\u003e\u003cp\u003eWhen \u003ccode\u003eantipode . antipode = id\u003c/code\u003e and antipode is an antihomomorphism then we are an InvolutiveBialgebra with \u003ccode\u003einv = antipode\u003c/code\u003e as well\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "HopfAlgebra",
           "package": "algebra",
@@ -4056,6 +4407,7 @@
         "index": {
           "description": "HopfAlgebra algebra on semiring where the module is free When antipode antipode id and antipode is an antihomomorphism then we are an InvolutiveBialgebra with inv antipode as well",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "HopfAlgebra",
           "package": "algebra",
@@ -4070,6 +4422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn additive semigroup with idempotent addition.\n\u003c/p\u003e\u003cpre\u003e a + a = a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Idempotent",
           "package": "algebra",
@@ -4079,6 +4432,7 @@
         "index": {
           "description": "An additive semigroup with idempotent addition",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Idempotent",
           "package": "algebra",
@@ -4092,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "IdempotentAlgebra",
           "package": "algebra",
@@ -4100,6 +4455,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "IdempotentAlgebra",
           "package": "algebra",
@@ -4113,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "IdempotentBialgebra",
           "package": "algebra",
@@ -4121,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "IdempotentBialgebra",
           "package": "algebra",
@@ -4134,6 +4492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "InvolutiveAlgebra",
           "package": "algebra",
@@ -4142,6 +4501,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "InvolutiveAlgebra",
           "package": "algebra",
@@ -4155,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "InvolutiveBialgebra",
           "package": "algebra",
@@ -4163,6 +4524,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "InvolutiveBialgebra",
           "package": "algebra",
@@ -4176,6 +4538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "InvolutiveCoalgebra",
           "package": "algebra",
@@ -4184,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "InvolutiveCoalgebra",
           "package": "algebra",
@@ -4198,6 +4562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn semigroup with involution\n\u003c/p\u003e\u003cpre\u003e adjoint a * adjoint b = adjoint (b * a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "InvolutiveMultiplication",
           "package": "algebra",
@@ -4207,6 +4572,7 @@
         "index": {
           "description": "An semigroup with involution adjoint adjoint adjoint",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "InvolutiveMultiplication",
           "package": "algebra",
@@ -4221,6 +4587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadjoint (x + y) = adjoint x + adjoint y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "InvolutiveSemiring",
           "package": "algebra",
@@ -4230,6 +4597,7 @@
         "index": {
           "description": "adjoint adjoint adjoint",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "InvolutiveSemiring",
           "package": "algebra",
@@ -4243,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "LeftModule",
           "package": "algebra",
@@ -4251,6 +4620,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "LeftModule",
           "package": "algebra",
@@ -4264,6 +4634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "LocalRing",
           "package": "algebra",
@@ -4272,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "LocalRing",
           "package": "algebra",
@@ -4285,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "LocallyFiniteOrder",
           "package": "algebra",
@@ -4293,6 +4666,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "LocallyFiniteOrder",
           "package": "algebra",
@@ -4306,6 +4680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Module",
           "package": "algebra",
@@ -4314,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Module",
           "package": "algebra",
@@ -4328,6 +4704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn additive monoid\n\u003c/p\u003e\u003cpre\u003e zero + a = a = a + zero\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Monoidal",
           "package": "algebra",
@@ -4337,6 +4714,7 @@
         "index": {
           "description": "An additive monoid zero zero",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Monoidal",
           "package": "algebra",
@@ -4351,6 +4729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multiplicative semigroup\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Multiplicative",
           "package": "algebra",
@@ -4360,6 +4739,7 @@
         "index": {
           "description": "multiplicative semigroup",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Multiplicative",
           "package": "algebra",
@@ -4373,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Natural",
           "package": "algebra",
@@ -4380,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Natural",
           "package": "algebra",
@@ -4393,6 +4775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Order",
           "package": "algebra",
@@ -4401,6 +4784,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Order",
           "package": "algebra",
@@ -4414,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "OrderedRig",
           "package": "algebra",
@@ -4422,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "OrderedRig",
           "package": "algebra",
@@ -4435,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Partitionable",
           "package": "algebra",
@@ -4443,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Partitionable",
           "package": "algebra",
@@ -4456,6 +4844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Quadrance",
           "package": "algebra",
@@ -4464,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Quadrance",
           "package": "algebra",
@@ -4478,6 +4868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Ring without (n)egation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Rig",
           "package": "algebra",
@@ -4487,6 +4878,7 @@
         "index": {
           "description": "Ring without egation",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Rig",
           "package": "algebra",
@@ -4500,6 +4892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "RightModule",
           "package": "algebra",
@@ -4508,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "RightModule",
           "package": "algebra",
@@ -4521,6 +4915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Ring",
           "package": "algebra",
@@ -4529,6 +4924,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Ring",
           "package": "algebra",
@@ -4543,6 +4939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Ring without an \u003cem\u003ei\u003c/em\u003edentity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Rng",
           "package": "algebra",
@@ -4552,6 +4949,7 @@
         "index": {
           "description": "Ring without an dentity",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Rng",
           "package": "algebra",
@@ -4566,6 +4964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pair of an additive abelian semigroup, and a multiplicative semigroup, with the distributive laws:\n\u003c/p\u003e\u003cpre\u003e a(b + c) = ab + ac -- left distribution (we are a LeftNearSemiring)\n (a + b)c = ac + bc -- right distribution (we are a [Right]NearSemiring)\n\u003c/pre\u003e\u003cp\u003eCommon notation includes the laws for additive and multiplicative identity in semiring.\n\u003c/p\u003e\u003cp\u003eIf you want that, look at \u003ccode\u003eRig\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eIdeally we'd use the cyclic definition:\n\u003c/p\u003e\u003cpre\u003e class (LeftModule r r, RightModule r r, Additive r, Abelian r, Multiplicative r) =\u003e Semiring r\n\u003c/pre\u003e\u003cp\u003eto enforce that every semiring r is an r-module over itself, but Haskell doesn't like that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Semiring",
           "package": "algebra",
@@ -4575,6 +4974,7 @@
         "index": {
           "description": "pair of an additive abelian semigroup and multiplicative semigroup with the distributive laws ab ac left distribution we are LeftNearSemiring ac bc right distribution we are Right NearSemiring Common notation includes the laws for additive and multiplicative identity in semiring If you want that look at Rig instead Ideally we use the cyclic definition class LeftModule RightModule Additive Abelian Multiplicative Semiring to enforce that every semiring is an r-module over itself but Haskell doesn like that",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Semiring",
           "package": "algebra",
@@ -4589,6 +4989,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e adjoint = id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "TriviallyInvolutive",
           "package": "algebra",
@@ -4598,6 +4999,7 @@
         "index": {
           "description": "adjoint id",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "TriviallyInvolutive",
           "package": "algebra",
@@ -4611,6 +5013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "TriviallyInvolutiveAlgebra",
           "package": "algebra",
@@ -4619,6 +5022,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "TriviallyInvolutiveAlgebra",
           "package": "algebra",
@@ -4632,6 +5036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "TriviallyInvolutiveBialgebra",
           "package": "algebra",
@@ -4640,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "TriviallyInvolutiveBialgebra",
           "package": "algebra",
@@ -4653,6 +5059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "TriviallyInvolutiveCoalgebra",
           "package": "algebra",
@@ -4661,6 +5068,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "TriviallyInvolutiveCoalgebra",
           "package": "algebra",
@@ -4674,6 +5082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Unital",
           "package": "algebra",
@@ -4682,6 +5091,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Unital",
           "package": "algebra",
@@ -4696,6 +5106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative unital algebra over a semiring, built using a free module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "UnitalAlgebra",
           "package": "algebra",
@@ -4705,6 +5116,7 @@
         "index": {
           "description": "An associative unital algebra over semiring built using free module",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "UnitalAlgebra",
           "package": "algebra",
@@ -4719,6 +5131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA refinement of \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e to represent types that do not contain negative numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "Whole",
           "package": "algebra",
@@ -4727,6 +5140,7 @@
         "index": {
           "description": "refinement of Integral to represent types that do not contain negative numbers",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "Whole",
           "package": "algebra",
@@ -4740,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(~~)",
           "package": "algebra",
@@ -4749,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(~~) ~~",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4763,6 +5179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(*)",
           "package": "algebra",
@@ -4772,6 +5189,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(*) *",
           "normalized": "a-\u003ea-\u003ea",
@@ -4786,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(*.)",
           "package": "algebra",
@@ -4795,6 +5214,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(*.) *.",
           "normalized": "a-\u003eb-\u003ea",
@@ -4809,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(+)",
           "package": "algebra",
@@ -4818,6 +5239,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(+) +",
           "normalized": "a-\u003ea-\u003ea",
@@ -4832,6 +5254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(-)",
           "package": "algebra",
@@ -4841,6 +5264,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(-) -",
           "normalized": "a-\u003ea-\u003ea",
@@ -4855,6 +5279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(/)",
           "package": "algebra",
@@ -4864,6 +5289,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(/) /",
           "normalized": "a-\u003ea-\u003ea",
@@ -4878,6 +5304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(/~)",
           "package": "algebra",
@@ -4887,6 +5314,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(/~) /~",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4901,6 +5329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(\u003c)",
           "package": "algebra",
@@ -4910,6 +5339,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(\u003c) \u003c",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4924,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(\u003c~)",
           "package": "algebra",
@@ -4933,6 +5364,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(\u003c~) \u003c~",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4947,6 +5379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(\u003e)",
           "package": "algebra",
@@ -4956,6 +5389,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(\u003e) \u003e",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4970,6 +5404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(\u003e~)",
           "package": "algebra",
@@ -4979,6 +5414,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(\u003e~) \u003e~",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4993,6 +5429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(\\\\)",
           "package": "algebra",
@@ -5002,6 +5439,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(\\\\) \\\\",
           "normalized": "a-\u003ea-\u003ea",
@@ -5016,6 +5454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(^)",
           "package": "algebra",
@@ -5025,6 +5464,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(^) ^",
           "normalized": "a-\u003eb-\u003ea",
@@ -5039,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "(.*)",
           "package": "algebra",
@@ -5048,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "(.*) .*",
           "normalized": "a-\u003eb-\u003eb",
@@ -5114,6 +5556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "adjoint",
           "package": "algebra",
@@ -5123,6 +5566,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "adjoint",
           "normalized": "a-\u003ea",
@@ -5137,6 +5581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "antipode",
           "package": "algebra",
@@ -5146,6 +5591,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "antipode",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -5186,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "char",
           "package": "algebra",
@@ -5195,6 +5642,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "char",
           "normalized": "a b-\u003eNatural",
@@ -5259,6 +5707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "coinv",
           "package": "algebra",
@@ -5268,6 +5717,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "coinv",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -5306,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "comparable",
           "package": "algebra",
@@ -5315,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "comparable",
           "normalized": "a-\u003ea-\u003eBool",
@@ -5329,6 +5781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "comult",
           "package": "algebra",
@@ -5338,6 +5791,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "comult",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eb",
@@ -5400,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "counit",
           "package": "algebra",
@@ -5409,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "counit",
           "normalized": "(a-\u003eb)-\u003eb",
@@ -5447,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "factorWith",
           "package": "algebra",
@@ -5456,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "factorWith",
           "normalized": "(a-\u003ea-\u003eb)-\u003ea-\u003eNonEmpty b",
@@ -5471,6 +5929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "fromInteger",
           "package": "algebra",
@@ -5480,6 +5939,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "fromInteger",
           "normalized": "Integer-\u003ea",
@@ -5522,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "fromNatural",
           "package": "algebra",
@@ -5531,6 +5992,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "fromNatural",
           "normalized": "Natural-\u003ea",
@@ -5573,6 +6035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "inv",
           "package": "algebra",
@@ -5582,6 +6045,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "inv",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -5698,6 +6162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "mult",
           "package": "algebra",
@@ -5707,6 +6172,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "mult",
           "normalized": "(a-\u003ea-\u003eb)-\u003ea-\u003eb",
@@ -5745,6 +6211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "negate",
           "package": "algebra",
@@ -5754,6 +6221,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "negate",
           "normalized": "a-\u003ea",
@@ -5795,6 +6263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "one",
           "package": "algebra",
@@ -5804,6 +6273,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "one",
           "package": "algebra",
@@ -5841,6 +6311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "order",
           "package": "algebra",
@@ -5850,6 +6321,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "order",
           "normalized": "a-\u003ea-\u003eMaybe Ordering",
@@ -5865,6 +6337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epartitionWith f c returns a list containing f a b for each a b such that a + b = c, \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "partitionWith",
           "package": "algebra",
@@ -5875,6 +6348,7 @@
         "index": {
           "description": "partitionWith returns list containing for each such that",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "partitionWith",
           "normalized": "(a-\u003ea-\u003eb)-\u003ea-\u003eNonEmpty b",
@@ -5890,6 +6364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "pow",
           "package": "algebra",
@@ -5899,6 +6374,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "pow",
           "normalized": "a-\u003eb-\u003ea",
@@ -5913,6 +6389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "pow1p",
           "package": "algebra",
@@ -5922,6 +6399,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "pow1p",
           "normalized": "a-\u003eb-\u003ea",
@@ -5936,6 +6414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "productWith",
           "package": "algebra",
@@ -5945,6 +6424,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "productWith",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -5960,6 +6440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "productWith1",
           "package": "algebra",
@@ -5969,6 +6450,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "productWith1",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -5984,6 +6466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "quadrance",
           "package": "algebra",
@@ -5993,6 +6476,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "quadrance",
           "normalized": "a-\u003eb",
@@ -6007,6 +6491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "recip",
           "package": "algebra",
@@ -6016,6 +6501,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "recip",
           "normalized": "a-\u003ea",
@@ -6030,6 +6516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "recipriocal",
           "package": "algebra",
@@ -6039,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "recipriocal",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -6053,6 +6541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "sinnum",
           "package": "algebra",
@@ -6062,6 +6551,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "sinnum",
           "normalized": "a-\u003eb-\u003eb",
@@ -6077,6 +6567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esinnum1p n r = sinnum (1 + n) r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "sinnum1p",
           "package": "algebra",
@@ -6087,6 +6578,7 @@
         "index": {
           "description": "sinnum1p sinnum",
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "sinnum1p",
           "normalized": "a-\u003eb-\u003eb",
@@ -6155,6 +6647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "subtract",
           "package": "algebra",
@@ -6164,6 +6657,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "subtract",
           "normalized": "a-\u003ea-\u003ea",
@@ -6205,6 +6699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "sumWith",
           "package": "algebra",
@@ -6214,6 +6709,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "sumWith",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -6229,6 +6725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "sumWith1",
           "package": "algebra",
@@ -6238,6 +6735,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "sumWith1",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -6253,6 +6751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "times",
           "package": "algebra",
@@ -6262,6 +6761,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "times",
           "normalized": "a-\u003eb-\u003eb",
@@ -6303,6 +6803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "toNatural",
           "package": "algebra",
@@ -6311,6 +6812,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "toNatural",
           "normalized": "a-\u003eNatural",
@@ -6326,6 +6828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "unit",
           "package": "algebra",
@@ -6335,6 +6838,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "unit",
           "normalized": "a-\u003eb-\u003ea",
@@ -6371,6 +6875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Algebra",
           "name": "zero",
           "package": "algebra",
@@ -6380,6 +6885,7 @@
         },
         "index": {
           "hierarchy": "Numeric Algebra",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Algebra",
           "name": "zero",
           "package": "algebra",
@@ -6417,6 +6923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Band.Class",
           "name": "Class",
           "package": "algebra",
@@ -6425,6 +6932,7 @@
         },
         "index": {
           "hierarchy": "Numeric Band Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Band.Class",
           "name": "Class",
           "package": "algebra",
@@ -6439,6 +6947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn multiplicative semigroup with idempotent multiplication.\n\u003c/p\u003e\u003cpre\u003e a * a = a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Band.Class",
           "name": "Band",
           "package": "algebra",
@@ -6448,6 +6957,7 @@
         "index": {
           "description": "An multiplicative semigroup with idempotent multiplication",
           "hierarchy": "Numeric Band Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Band.Class",
           "name": "Band",
           "package": "algebra",
@@ -6461,6 +6971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Band.Rectangular",
           "name": "Rectangular",
           "package": "algebra",
@@ -6469,6 +6980,7 @@
         },
         "index": {
           "hierarchy": "Numeric Band Rectangular",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Band.Rectangular",
           "name": "Rectangular",
           "package": "algebra",
@@ -6483,6 +6995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea rectangular band is a nowhere commutative semigroup.\n That is to say, if ab = ba then a = b. From this it follows\n classically that aa = a and that such a band is isomorphic \n to the following structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Band.Rectangular",
           "name": "Rect",
           "package": "algebra",
@@ -6492,6 +7005,7 @@
         "index": {
           "description": "rectangular band is nowhere commutative semigroup That is to say if ab ba then From this it follows classically that aa and that such band is isomorphic to the following structure",
           "hierarchy": "Numeric Band Rectangular",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Band.Rectangular",
           "name": "Rect",
           "package": "algebra",
@@ -6505,6 +7019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Band.Rectangular",
           "name": "Rect",
           "package": "algebra",
@@ -6514,6 +7029,7 @@
         },
         "index": {
           "hierarchy": "Numeric Band Rectangular",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Band.Rectangular",
           "name": "Rect",
           "package": "algebra",
@@ -6527,6 +7043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Categorical",
           "name": "Categorical",
           "package": "algebra",
@@ -6535,6 +7052,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Categorical",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Categorical",
           "name": "Categorical",
           "package": "algebra",
@@ -6548,6 +7066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Categorical",
           "name": "Morphism",
           "package": "algebra",
@@ -6556,6 +7075,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Categorical",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Categorical",
           "name": "Morphism",
           "package": "algebra",
@@ -6569,6 +7089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Categorical",
           "name": "Morphism",
           "package": "algebra",
@@ -6578,6 +7099,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Categorical",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Categorical",
           "name": "Morphism",
           "package": "algebra",
@@ -6591,6 +7113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Dual",
           "name": "Dual",
           "package": "algebra",
@@ -6599,6 +7122,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Dual",
           "name": "Dual",
           "package": "algebra",
@@ -6612,6 +7136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Dual",
           "name": "Distinguished",
           "package": "algebra",
@@ -6620,6 +7145,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Dual",
           "name": "Distinguished",
           "package": "algebra",
@@ -6633,6 +7159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Dual",
           "name": "Dual'",
           "package": "algebra",
@@ -6641,6 +7168,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Dual",
           "name": "Dual'",
           "package": "algebra",
@@ -6655,6 +7183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edual number basis, D^2 = 0. D /= 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Dual",
           "name": "DualBasis'",
           "package": "algebra",
@@ -6664,6 +7193,7 @@
         "index": {
           "description": "dual number basis",
           "hierarchy": "Numeric Coalgebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Dual",
           "name": "DualBasis'",
           "package": "algebra",
@@ -6677,6 +7207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Dual",
           "name": "Infinitesimal",
           "package": "algebra",
@@ -6685,6 +7216,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Dual",
           "name": "Infinitesimal",
           "package": "algebra",
@@ -6698,6 +7230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Dual",
           "name": "D",
           "package": "algebra",
@@ -6707,6 +7240,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Dual",
           "name": "D",
           "package": "algebra",
@@ -6719,6 +7253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Dual",
           "name": "Dual'",
           "package": "algebra",
@@ -6728,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Dual",
           "name": "Dual'",
           "package": "algebra",
@@ -6741,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Dual",
           "name": "E",
           "package": "algebra",
@@ -6750,6 +7287,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Dual",
           "name": "E",
           "package": "algebra",
@@ -6762,6 +7300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Dual",
           "name": "d",
           "package": "algebra",
@@ -6771,6 +7310,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Dual",
           "name": "d",
           "package": "algebra",
@@ -6783,6 +7323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Dual",
           "name": "e",
           "package": "algebra",
@@ -6792,6 +7333,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Dual",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Dual",
           "name": "e",
           "package": "algebra",
@@ -6804,6 +7346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Geometric",
           "package": "algebra",
@@ -6812,6 +7355,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Geometric",
           "package": "algebra",
@@ -6825,6 +7369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "BasisCoblade",
           "package": "algebra",
@@ -6833,6 +7378,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "BasisCoblade",
           "package": "algebra",
@@ -6846,6 +7392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Comultivector",
           "package": "algebra",
@@ -6854,6 +7401,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Comultivector",
           "package": "algebra",
@@ -6867,6 +7415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Eigenbasis",
           "package": "algebra",
@@ -6875,6 +7424,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Eigenbasis",
           "package": "algebra",
@@ -6888,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Eigenmetric",
           "package": "algebra",
@@ -6896,6 +7447,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Eigenmetric",
           "package": "algebra",
@@ -6909,6 +7461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Euclidean",
           "package": "algebra",
@@ -6917,6 +7470,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Euclidean",
           "package": "algebra",
@@ -6930,6 +7484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "BasisCoblade",
           "package": "algebra",
@@ -6939,6 +7494,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "BasisCoblade",
           "package": "algebra",
@@ -6952,6 +7508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Euclidean",
           "package": "algebra",
@@ -6961,6 +7518,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "Euclidean",
           "package": "algebra",
@@ -6974,6 +7532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "antiEuclidean",
           "package": "algebra",
@@ -6983,6 +7542,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "antiEuclidean",
           "normalized": "a b-\u003eBool",
@@ -6998,6 +7558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "cliffordConjugate",
           "package": "algebra",
@@ -7007,6 +7568,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "cliffordConjugate",
           "normalized": "BasisCoblade a-\u003eComultivector b a",
@@ -7022,6 +7584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "contractL",
           "package": "algebra",
@@ -7031,6 +7594,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "contractL",
           "normalized": "BasisCoblade a-\u003eBasisCoblade a-\u003eComultivector b a",
@@ -7045,6 +7609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "contractR",
           "package": "algebra",
@@ -7054,6 +7619,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "contractR",
           "normalized": "BasisCoblade a-\u003eBasisCoblade a-\u003eComultivector b a",
@@ -7068,6 +7634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "dot",
           "package": "algebra",
@@ -7077,6 +7644,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "dot",
           "normalized": "BasisCoblade a-\u003eBasisCoblade a-\u003eComultivector b a",
@@ -7091,6 +7659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "e",
           "package": "algebra",
@@ -7100,6 +7669,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "e",
           "normalized": "Int-\u003ea",
@@ -7114,6 +7684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "euclidean",
           "package": "algebra",
@@ -7123,6 +7694,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "euclidean",
           "normalized": "a b-\u003eBool",
@@ -7137,6 +7709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "filterGrade",
           "package": "algebra",
@@ -7146,6 +7719,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "filterGrade",
           "normalized": "BasisCoblade a-\u003eInt-\u003eComultivector b a",
@@ -7161,6 +7735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "geometric",
           "package": "algebra",
@@ -7170,6 +7745,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "geometric",
           "normalized": "BasisCoblade a-\u003eBasisCoblade a-\u003eComultivector b a",
@@ -7184,6 +7760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "grade",
           "package": "algebra",
@@ -7193,6 +7770,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "grade",
           "normalized": "BasisCoblade a-\u003eInt",
@@ -7207,6 +7785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "gradeInversion",
           "package": "algebra",
@@ -7216,6 +7795,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "gradeInversion",
           "normalized": "BasisCoblade a-\u003eComultivector b a",
@@ -7231,6 +7811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "hestenes",
           "package": "algebra",
@@ -7240,6 +7821,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "hestenes",
           "normalized": "BasisCoblade a-\u003eBasisCoblade a-\u003eComultivector b a",
@@ -7254,6 +7836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "liftProduct",
           "package": "algebra",
@@ -7263,6 +7846,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "liftProduct",
           "normalized": "(BasisCoblade a-\u003eBasisCoblade a-\u003eComultivector b a)-\u003eComultivector b a-\u003eComultivector b a-\u003eComultivector b a",
@@ -7278,6 +7862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "metric",
           "package": "algebra",
@@ -7287,6 +7872,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "metric",
           "normalized": "a-\u003eb",
@@ -7301,6 +7887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "outer",
           "package": "algebra",
@@ -7310,6 +7897,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "outer",
           "normalized": "BasisCoblade a-\u003eBasisCoblade a-\u003eComultivector b a",
@@ -7324,6 +7912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "reverse",
           "package": "algebra",
@@ -7333,6 +7922,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "reverse",
           "normalized": "BasisCoblade a-\u003eComultivector b a",
@@ -7347,6 +7937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "runBasisCoblade",
           "package": "algebra",
@@ -7356,6 +7947,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "runBasisCoblade",
           "package": "algebra",
@@ -7369,6 +7961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "v",
           "package": "algebra",
@@ -7378,6 +7971,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Geometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Geometric",
           "name": "v",
           "normalized": "a-\u003eBasisCoblade a",
@@ -7392,6 +7986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic.Class",
           "name": "Class",
           "package": "algebra",
@@ -7400,6 +7995,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic.Class",
           "name": "Class",
           "package": "algebra",
@@ -7413,6 +8009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic.Class",
           "name": "Hyperbolic",
           "package": "algebra",
@@ -7421,6 +8018,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic.Class",
           "name": "Hyperbolic",
           "package": "algebra",
@@ -7434,6 +8032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic.Class",
           "name": "cosh",
           "package": "algebra",
@@ -7443,6 +8042,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic.Class",
           "name": "cosh",
           "package": "algebra",
@@ -7455,6 +8055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic.Class",
           "name": "sinh",
           "package": "algebra",
@@ -7464,6 +8065,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic.Class",
           "name": "sinh",
           "package": "algebra",
@@ -7476,6 +8078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Hyperbolic",
           "package": "algebra",
@@ -7484,6 +8087,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Hyperbolic",
           "package": "algebra",
@@ -7497,6 +8101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Hyper",
           "package": "algebra",
@@ -7505,6 +8110,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Hyper",
           "package": "algebra",
@@ -7518,6 +8124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "HyperBasis",
           "package": "algebra",
@@ -7526,6 +8133,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "HyperBasis",
           "package": "algebra",
@@ -7539,6 +8147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Hyperbolic",
           "package": "algebra",
@@ -7547,6 +8156,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Hyperbolic",
           "package": "algebra",
@@ -7560,6 +8170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Cosh",
           "package": "algebra",
@@ -7569,6 +8180,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Cosh",
           "package": "algebra",
@@ -7582,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Hyper",
           "package": "algebra",
@@ -7591,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Hyper",
           "package": "algebra",
@@ -7604,6 +8218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Sinh",
           "package": "algebra",
@@ -7613,6 +8228,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "Sinh",
           "package": "algebra",
@@ -7626,6 +8242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "cosh",
           "package": "algebra",
@@ -7635,6 +8252,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "cosh",
           "package": "algebra",
@@ -7647,6 +8265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "sinh",
           "package": "algebra",
@@ -7656,6 +8275,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Hyperbolic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Hyperbolic",
           "name": "sinh",
           "package": "algebra",
@@ -7668,6 +8288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Incidence",
           "name": "Incidence",
           "package": "algebra",
@@ -7676,6 +8297,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Incidence",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Incidence",
           "name": "Incidence",
           "package": "algebra",
@@ -7690,6 +8312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe dual incidence algebra basis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Incidence",
           "name": "Interval'",
           "package": "algebra",
@@ -7699,6 +8322,7 @@
         "index": {
           "description": "the dual incidence algebra basis",
           "hierarchy": "Numeric Coalgebra Incidence",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Incidence",
           "name": "Interval'",
           "package": "algebra",
@@ -7712,6 +8336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Incidence",
           "name": "Interval'",
           "package": "algebra",
@@ -7721,6 +8346,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Incidence",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Incidence",
           "name": "Interval'",
           "package": "algebra",
@@ -7734,6 +8360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Incidence",
           "name": "moebius'",
           "package": "algebra",
@@ -7743,6 +8370,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Incidence",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Incidence",
           "name": "moebius'",
           "normalized": "Interval' a-\u003eb",
@@ -7757,6 +8385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Incidence",
           "name": "zeta'",
           "package": "algebra",
@@ -7766,6 +8395,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Incidence",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Incidence",
           "name": "zeta'",
           "normalized": "Interval' a-\u003eb",
@@ -7780,6 +8410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Quaternion",
           "package": "algebra",
@@ -7788,6 +8419,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Quaternion",
           "package": "algebra",
@@ -7801,6 +8433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Complicated",
           "package": "algebra",
@@ -7809,6 +8442,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Complicated",
           "package": "algebra",
@@ -7822,6 +8456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Distinguished",
           "package": "algebra",
@@ -7830,6 +8465,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Distinguished",
           "package": "algebra",
@@ -7843,6 +8479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Hamiltonian",
           "package": "algebra",
@@ -7851,6 +8488,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Hamiltonian",
           "package": "algebra",
@@ -7864,6 +8502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Quaternion'",
           "package": "algebra",
@@ -7872,6 +8511,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Quaternion'",
           "package": "algebra",
@@ -7885,6 +8525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "QuaternionBasis'",
           "package": "algebra",
@@ -7893,6 +8534,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "QuaternionBasis'",
           "package": "algebra",
@@ -7906,6 +8548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "E'",
           "package": "algebra",
@@ -7915,6 +8558,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "E'",
           "package": "algebra",
@@ -7928,6 +8572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "I'",
           "package": "algebra",
@@ -7937,6 +8582,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "I'",
           "package": "algebra",
@@ -7950,6 +8596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "J'",
           "package": "algebra",
@@ -7959,6 +8606,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "J'",
           "package": "algebra",
@@ -7972,6 +8620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "K'",
           "package": "algebra",
@@ -7981,6 +8630,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "K'",
           "package": "algebra",
@@ -7994,6 +8644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Quaternion'",
           "package": "algebra",
@@ -8003,6 +8654,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "Quaternion'",
           "package": "algebra",
@@ -8017,6 +8669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCayley-Dickson quaternion isomorphism (one way)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "complicate'",
           "package": "algebra",
@@ -8027,6 +8680,7 @@
         "index": {
           "description": "Cayley-Dickson quaternion isomorphism one way",
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "complicate'",
           "normalized": "QuaternionBasis'-\u003e(a,a)",
@@ -8041,6 +8695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "e",
           "package": "algebra",
@@ -8050,6 +8705,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "e",
           "package": "algebra",
@@ -8062,6 +8718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "i",
           "package": "algebra",
@@ -8071,6 +8728,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "i",
           "package": "algebra",
@@ -8083,6 +8741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "j",
           "package": "algebra",
@@ -8092,6 +8751,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "j",
           "package": "algebra",
@@ -8104,6 +8764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "k",
           "package": "algebra",
@@ -8113,6 +8774,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "k",
           "package": "algebra",
@@ -8125,6 +8787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "scalarPart'",
           "package": "algebra",
@@ -8134,6 +8797,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "scalarPart'",
           "normalized": "a b-\u003eb",
@@ -8149,6 +8813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "vectorPart'",
           "package": "algebra",
@@ -8158,6 +8823,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Quaternion",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Quaternion",
           "name": "vectorPart'",
           "normalized": "a b-\u003e(b,b,b)",
@@ -8173,6 +8839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric.Class",
           "name": "Class",
           "package": "algebra",
@@ -8181,6 +8848,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric.Class",
           "name": "Class",
           "package": "algebra",
@@ -8194,6 +8862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric.Class",
           "name": "Trigonometric",
           "package": "algebra",
@@ -8202,6 +8871,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric.Class",
           "name": "Trigonometric",
           "package": "algebra",
@@ -8215,6 +8885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric.Class",
           "name": "cos",
           "package": "algebra",
@@ -8224,6 +8895,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric.Class",
           "name": "cos",
           "package": "algebra",
@@ -8236,6 +8908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric.Class",
           "name": "sin",
           "package": "algebra",
@@ -8245,6 +8918,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric.Class",
           "name": "sin",
           "package": "algebra",
@@ -8257,6 +8931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Trigonometric",
           "package": "algebra",
@@ -8265,6 +8940,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Trigonometric",
           "package": "algebra",
@@ -8278,6 +8954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Trig",
           "package": "algebra",
@@ -8286,6 +8963,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Trig",
           "package": "algebra",
@@ -8299,6 +8977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "TrigBasis",
           "package": "algebra",
@@ -8307,6 +8986,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "TrigBasis",
           "package": "algebra",
@@ -8320,6 +9000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Trigonometric",
           "package": "algebra",
@@ -8328,6 +9009,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Trigonometric",
           "package": "algebra",
@@ -8341,6 +9023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Cos",
           "package": "algebra",
@@ -8350,6 +9033,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Cos",
           "package": "algebra",
@@ -8363,6 +9047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Sin",
           "package": "algebra",
@@ -8372,6 +9057,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Sin",
           "package": "algebra",
@@ -8385,6 +9071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Trig",
           "package": "algebra",
@@ -8394,6 +9081,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "Trig",
           "package": "algebra",
@@ -8407,6 +9095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "cos",
           "package": "algebra",
@@ -8416,6 +9105,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "cos",
           "package": "algebra",
@@ -8428,6 +9118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "sin",
           "package": "algebra",
@@ -8437,6 +9128,7 @@
         },
         "index": {
           "hierarchy": "Numeric Coalgebra Trigonometric",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Coalgebra.Trigonometric",
           "name": "sin",
           "package": "algebra",
@@ -8449,6 +9141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Covector",
           "name": "Covector",
           "package": "algebra",
@@ -8457,6 +9150,7 @@
         },
         "index": {
           "hierarchy": "Numeric Covector",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Covector",
           "name": "Covector",
           "package": "algebra",
@@ -8471,6 +9165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear functionals from elements of an (infinite) free module to a scalar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Covector",
           "name": "Covector",
           "package": "algebra",
@@ -8480,6 +9175,7 @@
         "index": {
           "description": "Linear functionals from elements of an infinite free module to scalar",
           "hierarchy": "Numeric Covector",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Covector",
           "name": "Covector",
           "package": "algebra",
@@ -8493,6 +9189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Covector",
           "name": "($*)",
           "package": "algebra",
@@ -8502,6 +9199,7 @@
         },
         "index": {
           "hierarchy": "Numeric Covector",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Covector",
           "name": "($*) $*",
           "normalized": "Covector a(Key b)-\u003eb a-\u003ea",
@@ -8516,6 +9214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Associates",
           "name": "Associates",
           "package": "algebra",
@@ -8524,6 +9223,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Associates",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Associates",
           "name": "Associates",
           "package": "algebra",
@@ -8537,6 +9237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Associates",
           "name": "DecidableAssociates",
           "package": "algebra",
@@ -8545,6 +9246,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Associates",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Associates",
           "name": "DecidableAssociates",
           "package": "algebra",
@@ -8559,6 +9261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eb is an associate of a if there exists a unit u such that b = a*u\n\u003c/p\u003e\u003cp\u003eThis relationship is symmetric because if u is a unit, u^-1 exists and is a unit, so\n\u003c/p\u003e\u003cpre\u003e b*u^-1 = a*u*u^-1 = a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Associates",
           "name": "isAssociate",
           "package": "algebra",
@@ -8569,6 +9272,7 @@
         "index": {
           "description": "is an associate of if there exists unit such that This relationship is symmetric because if is unit exists and is unit so",
           "hierarchy": "Numeric Decidable Associates",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Associates",
           "name": "isAssociate",
           "normalized": "a-\u003ea-\u003eBool",
@@ -8584,6 +9288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Associates",
           "name": "isAssociateIntegral",
           "package": "algebra",
@@ -8593,6 +9298,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Associates",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Associates",
           "name": "isAssociateIntegral",
           "normalized": "a-\u003ea-\u003eBool",
@@ -8608,6 +9314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Associates",
           "name": "isAssociateWhole",
           "package": "algebra",
@@ -8617,6 +9324,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Associates",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Associates",
           "name": "isAssociateWhole",
           "normalized": "a-\u003ea-\u003eBool",
@@ -8632,6 +9340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Units",
           "name": "Units",
           "package": "algebra",
@@ -8640,6 +9349,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Units",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Units",
           "name": "Units",
           "package": "algebra",
@@ -8653,6 +9363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Units",
           "name": "DecidableUnits",
           "package": "algebra",
@@ -8661,6 +9372,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Units",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Units",
           "name": "DecidableUnits",
           "package": "algebra",
@@ -8674,6 +9386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Units",
           "name": "(^?)",
           "package": "algebra",
@@ -8683,6 +9396,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Units",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Units",
           "name": "(^?) ^?",
           "normalized": "a-\u003eb-\u003eMaybe a",
@@ -8697,6 +9411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Units",
           "name": "isUnit",
           "package": "algebra",
@@ -8706,6 +9421,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Units",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Units",
           "name": "isUnit",
           "normalized": "a-\u003eBool",
@@ -8721,6 +9437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Units",
           "name": "recipUnit",
           "package": "algebra",
@@ -8730,6 +9447,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Units",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Units",
           "name": "recipUnit",
           "normalized": "a-\u003eMaybe a",
@@ -8745,6 +9463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Units",
           "name": "recipUnitIntegral",
           "package": "algebra",
@@ -8754,6 +9473,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Units",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Units",
           "name": "recipUnitIntegral",
           "normalized": "a-\u003eMaybe a",
@@ -8769,6 +9489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Units",
           "name": "recipUnitWhole",
           "package": "algebra",
@@ -8778,6 +9499,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Units",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Units",
           "name": "recipUnitWhole",
           "normalized": "a-\u003eMaybe a",
@@ -8793,6 +9515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Zero",
           "name": "Zero",
           "package": "algebra",
@@ -8801,6 +9524,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Zero",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Zero",
           "name": "Zero",
           "package": "algebra",
@@ -8814,6 +9538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Zero",
           "name": "DecidableZero",
           "package": "algebra",
@@ -8822,6 +9547,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Zero",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Zero",
           "name": "DecidableZero",
           "package": "algebra",
@@ -8835,6 +9561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Decidable.Zero",
           "name": "isZero",
           "package": "algebra",
@@ -8844,6 +9571,7 @@
         },
         "index": {
           "hierarchy": "Numeric Decidable Zero",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Decidable.Zero",
           "name": "isZero",
           "normalized": "a-\u003eBool",
@@ -8859,6 +9587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Dioid.Class",
           "name": "Class",
           "package": "algebra",
@@ -8867,6 +9596,7 @@
         },
         "index": {
           "hierarchy": "Numeric Dioid Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Dioid.Class",
           "name": "Class",
           "package": "algebra",
@@ -8880,6 +9610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Dioid.Class",
           "name": "Dioid",
           "package": "algebra",
@@ -8888,6 +9619,7 @@
         },
         "index": {
           "hierarchy": "Numeric Dioid Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Dioid.Class",
           "name": "Dioid",
           "package": "algebra",
@@ -8901,6 +9633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Exp",
           "name": "Exp",
           "package": "algebra",
@@ -8909,6 +9642,7 @@
         },
         "index": {
           "hierarchy": "Numeric Exp",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Exp",
           "name": "Exp",
           "package": "algebra",
@@ -8922,6 +9656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Exp",
           "name": "Exp",
           "package": "algebra",
@@ -8930,6 +9665,7 @@
         },
         "index": {
           "hierarchy": "Numeric Exp",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Exp",
           "name": "Exp",
           "package": "algebra",
@@ -8943,6 +9679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Exp",
           "name": "Exp",
           "package": "algebra",
@@ -8952,6 +9689,7 @@
         },
         "index": {
           "hierarchy": "Numeric Exp",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Exp",
           "name": "Exp",
           "package": "algebra",
@@ -8965,6 +9703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Exp",
           "name": "runExp",
           "package": "algebra",
@@ -8974,6 +9713,7 @@
         },
         "index": {
           "hierarchy": "Numeric Exp",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Exp",
           "name": "runExp",
           "package": "algebra",
@@ -8987,6 +9727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Field.Class",
           "name": "Class",
           "package": "algebra",
@@ -8995,6 +9736,7 @@
         },
         "index": {
           "hierarchy": "Numeric Field Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Field.Class",
           "name": "Class",
           "package": "algebra",
@@ -9008,6 +9750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Field.Class",
           "name": "Field",
           "package": "algebra",
@@ -9016,6 +9759,7 @@
         },
         "index": {
           "hierarchy": "Numeric Field Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Field.Class",
           "name": "Field",
           "package": "algebra",
@@ -9029,6 +9773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Log",
           "name": "Log",
           "package": "algebra",
@@ -9037,6 +9782,7 @@
         },
         "index": {
           "hierarchy": "Numeric Log",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Log",
           "name": "Log",
           "package": "algebra",
@@ -9050,6 +9796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Log",
           "name": "Log",
           "package": "algebra",
@@ -9058,6 +9805,7 @@
         },
         "index": {
           "hierarchy": "Numeric Log",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Log",
           "name": "Log",
           "package": "algebra",
@@ -9071,6 +9819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Log",
           "name": "Log",
           "package": "algebra",
@@ -9080,6 +9829,7 @@
         },
         "index": {
           "hierarchy": "Numeric Log",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Log",
           "name": "Log",
           "package": "algebra",
@@ -9093,6 +9843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Log",
           "name": "runLog",
           "package": "algebra",
@@ -9102,6 +9853,7 @@
         },
         "index": {
           "hierarchy": "Numeric Log",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Log",
           "name": "runLog",
           "package": "algebra",
@@ -9115,6 +9867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "Map",
           "package": "algebra",
@@ -9123,6 +9876,7 @@
         },
         "index": {
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "Map",
           "package": "algebra",
@@ -9137,6 +9891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elinear maps from elements of a free module to another free module over r\n\u003c/p\u003e\u003cpre\u003e f $# x + y = (f $# x) + (f $# y)\n f $# (r .* x) = r .* (f $# x)\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003eMap r b a\u003c/code\u003e represents a linear mapping from a free module with basis \u003ccode\u003ea\u003c/code\u003e over \u003ccode\u003er\u003c/code\u003e to a free module with basis \u003ccode\u003eb\u003c/code\u003e over \u003ccode\u003er\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote well the reversed direction of the arrow, due to the contravariance of change of basis!\n\u003c/p\u003e\u003cp\u003eThis way enables we can employ arbitrary pure functions as linear maps by lifting them using \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e, or build them\n by using the monad instance for Map r b.  As a consequence Map is an instance of, well, almost everything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "Map",
           "package": "algebra",
@@ -9146,6 +9901,7 @@
         "index": {
           "description": "linear maps from elements of free module to another free module over Map represents linear mapping from free module with basis over to free module with basis over Note well the reversed direction of the arrow due to the contravariance of change of basis This way enables we can employ arbitrary pure functions as linear maps by lifting them using arr or build them by using the monad instance for Map As consequence Map is an instance of well almost everything",
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "Map",
           "package": "algebra",
@@ -9160,6 +9916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract a linear functional from a linear map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "($@)",
           "package": "algebra",
@@ -9170,6 +9927,7 @@
         "index": {
           "description": "extract linear functional from linear map",
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "($@) $@",
           "normalized": "Map a b c-\u003eb-\u003eCovector a c",
@@ -9184,6 +9942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "Map",
           "package": "algebra",
@@ -9193,6 +9952,7 @@
         },
         "index": {
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "Map",
           "normalized": "Map((a-\u003eb)-\u003ec-\u003eb)",
@@ -9208,6 +9968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "antipodeMap",
           "package": "algebra",
@@ -9217,6 +9978,7 @@
         },
         "index": {
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "antipodeMap",
           "package": "algebra",
@@ -9230,6 +9992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "coinvMap",
           "package": "algebra",
@@ -9239,6 +10002,7 @@
         },
         "index": {
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "coinvMap",
           "package": "algebra",
@@ -9252,6 +10016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "comultMap",
           "package": "algebra",
@@ -9261,6 +10026,7 @@
         },
         "index": {
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "comultMap",
           "normalized": "Map a b(b,b)",
@@ -9277,6 +10043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvolution given an associative algebra and coassociative coalgebra\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "convolveMap",
           "package": "algebra",
@@ -9287,6 +10054,7 @@
         "index": {
           "description": "convolution given an associative algebra and coassociative coalgebra",
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "convolveMap",
           "normalized": "Map a b c-\u003eMap a b c-\u003eMap a b c",
@@ -9302,6 +10070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "counitMap",
           "package": "algebra",
@@ -9311,6 +10080,7 @@
         },
         "index": {
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "counitMap",
           "normalized": "Map a b()",
@@ -9326,6 +10096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "invMap",
           "package": "algebra",
@@ -9335,6 +10106,7 @@
         },
         "index": {
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "invMap",
           "package": "algebra",
@@ -9349,6 +10121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(inefficiently) combine a linear combination of basis vectors to make a map.\n arrMap :: (Monoidal r, Semiring r) =\u003e (b -\u003e [(r, a)]) -\u003e Map r b a\n arrMap f = Map $ k b -\u003e sum [ r * k a | (r, a) \u003c- f b ]\n\u003c/p\u003e\u003cp\u003eMemoize the results of this linear map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "memoMap",
           "package": "algebra",
@@ -9359,6 +10132,7 @@
         "index": {
           "description": "inefficiently combine linear combination of basis vectors to make map arrMap Monoidal Semiring Map arrMap Map sum Memoize the results of this linear map",
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "memoMap",
           "package": "algebra",
@@ -9372,6 +10146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "multMap",
           "package": "algebra",
@@ -9381,6 +10156,7 @@
         },
         "index": {
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "multMap",
           "normalized": "Map a(b,b)b",
@@ -9396,6 +10172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Map",
           "name": "unitMap",
           "package": "algebra",
@@ -9405,6 +10182,7 @@
         },
         "index": {
           "hierarchy": "Numeric Map",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Map",
           "name": "unitMap",
           "normalized": "Map a()b",
@@ -9420,6 +10198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Module.Class",
           "name": "Class",
           "package": "algebra",
@@ -9428,6 +10207,7 @@
         },
         "index": {
           "hierarchy": "Numeric Module Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Module.Class",
           "name": "Class",
           "package": "algebra",
@@ -9441,6 +10221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Module.Class",
           "name": "LeftModule",
           "package": "algebra",
@@ -9449,6 +10230,7 @@
         },
         "index": {
           "hierarchy": "Numeric Module Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Module.Class",
           "name": "LeftModule",
           "package": "algebra",
@@ -9462,6 +10244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Module.Class",
           "name": "Module",
           "package": "algebra",
@@ -9470,6 +10253,7 @@
         },
         "index": {
           "hierarchy": "Numeric Module Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Module.Class",
           "name": "Module",
           "package": "algebra",
@@ -9483,6 +10267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Module.Class",
           "name": "RightModule",
           "package": "algebra",
@@ -9491,6 +10276,7 @@
         },
         "index": {
           "hierarchy": "Numeric Module Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Module.Class",
           "name": "RightModule",
           "package": "algebra",
@@ -9504,6 +10290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Module.Class",
           "name": "(*.)",
           "package": "algebra",
@@ -9513,6 +10300,7 @@
         },
         "index": {
           "hierarchy": "Numeric Module Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Module.Class",
           "name": "(*.) *.",
           "normalized": "a-\u003eb-\u003ea",
@@ -9527,6 +10315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Module.Class",
           "name": "(.*)",
           "package": "algebra",
@@ -9536,6 +10325,7 @@
         },
         "index": {
           "hierarchy": "Numeric Module Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Module.Class",
           "name": "(.*) .*",
           "normalized": "a-\u003eb-\u003eb",
@@ -9550,6 +10340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Module.Representable",
           "name": "Representable",
           "package": "algebra",
@@ -9558,6 +10349,7 @@
         },
         "index": {
           "hierarchy": "Numeric Module Representable",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Module.Representable",
           "name": "Representable",
           "package": "algebra",
@@ -9571,6 +10363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Additive",
           "name": "Additive",
           "package": "algebra",
@@ -9579,6 +10372,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Additive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Additive",
           "name": "Additive",
           "package": "algebra",
@@ -9593,6 +10387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ez + x \u003c= z + y = x \u003c= y = x + z \u003c= y + z\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Additive",
           "name": "AdditiveOrder",
           "package": "algebra",
@@ -9601,6 +10396,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Additive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Additive",
           "name": "AdditiveOrder",
           "package": "algebra",
@@ -9614,6 +10410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Class",
           "name": "Class",
           "package": "algebra",
@@ -9622,6 +10419,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Class",
           "name": "Class",
           "package": "algebra",
@@ -9635,6 +10433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Class",
           "name": "Order",
           "package": "algebra",
@@ -9643,6 +10442,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Class",
           "name": "Order",
           "package": "algebra",
@@ -9656,6 +10456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Class",
           "name": "(~~)",
           "package": "algebra",
@@ -9665,6 +10466,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Class",
           "name": "(~~) ~~",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9679,6 +10481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Class",
           "name": "(/~)",
           "package": "algebra",
@@ -9688,6 +10491,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Class",
           "name": "(/~) /~",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9702,6 +10506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Class",
           "name": "(\u003c)",
           "package": "algebra",
@@ -9711,6 +10516,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Class",
           "name": "(\u003c) \u003c",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9725,6 +10531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Class",
           "name": "(\u003c~)",
           "package": "algebra",
@@ -9734,6 +10541,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Class",
           "name": "(\u003c~) \u003c~",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9748,6 +10556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Class",
           "name": "(\u003e)",
           "package": "algebra",
@@ -9757,6 +10566,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Class",
           "name": "(\u003e) \u003e",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9771,6 +10581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Class",
           "name": "(\u003e~)",
           "package": "algebra",
@@ -9780,6 +10591,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Class",
           "name": "(\u003e~) \u003e~",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9794,6 +10606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Class",
           "name": "comparable",
           "package": "algebra",
@@ -9803,6 +10616,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Class",
           "name": "comparable",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9817,6 +10631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Class",
           "name": "order",
           "package": "algebra",
@@ -9826,6 +10641,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Class",
           "name": "order",
           "normalized": "a-\u003ea-\u003eMaybe Ordering",
@@ -9840,6 +10656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.Class",
           "name": "orderOrd",
           "package": "algebra",
@@ -9849,6 +10666,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.Class",
           "name": "orderOrd",
           "normalized": "a-\u003ea-\u003eMaybe Ordering",
@@ -9864,6 +10682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.LocallyFinite",
           "name": "LocallyFinite",
           "package": "algebra",
@@ -9872,6 +10691,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order LocallyFinite",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.LocallyFinite",
           "name": "LocallyFinite",
           "package": "algebra",
@@ -9885,6 +10705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.LocallyFinite",
           "name": "LocallyFiniteOrder",
           "package": "algebra",
@@ -9893,6 +10714,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order LocallyFinite",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.LocallyFinite",
           "name": "LocallyFiniteOrder",
           "package": "algebra",
@@ -9906,6 +10728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.LocallyFinite",
           "name": "moebiusInversion",
           "package": "algebra",
@@ -9915,6 +10738,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order LocallyFinite",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.LocallyFinite",
           "name": "moebiusInversion",
           "normalized": "a-\u003ea-\u003eb",
@@ -9930,6 +10754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.LocallyFinite",
           "name": "range",
           "package": "algebra",
@@ -9939,6 +10764,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order LocallyFinite",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.LocallyFinite",
           "name": "range",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -9953,6 +10779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Order.LocallyFinite",
           "name": "rangeSize",
           "package": "algebra",
@@ -9962,6 +10789,7 @@
         },
         "index": {
           "hierarchy": "Numeric Order LocallyFinite",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Order.LocallyFinite",
           "name": "rangeSize",
           "normalized": "a-\u003ea-\u003eNatural",
@@ -9977,6 +10805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Partial.Group",
           "name": "Group",
           "package": "algebra",
@@ -9985,6 +10814,7 @@
         },
         "index": {
           "hierarchy": "Numeric Partial Group",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Partial.Group",
           "name": "Group",
           "package": "algebra",
@@ -9998,6 +10828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Partial.Group",
           "name": "PartialGroup",
           "package": "algebra",
@@ -10006,6 +10837,7 @@
         },
         "index": {
           "hierarchy": "Numeric Partial Group",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Partial.Group",
           "name": "PartialGroup",
           "package": "algebra",
@@ -10019,6 +10851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Partial.Group",
           "name": "pminus",
           "package": "algebra",
@@ -10028,6 +10861,7 @@
         },
         "index": {
           "hierarchy": "Numeric Partial Group",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Partial.Group",
           "name": "pminus",
           "normalized": "a-\u003ea-\u003eMaybe a",
@@ -10042,6 +10876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Partial.Group",
           "name": "pnegate",
           "package": "algebra",
@@ -10051,6 +10886,7 @@
         },
         "index": {
           "hierarchy": "Numeric Partial Group",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Partial.Group",
           "name": "pnegate",
           "normalized": "a-\u003eMaybe a",
@@ -10065,6 +10901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Partial.Group",
           "name": "psubtract",
           "package": "algebra",
@@ -10074,6 +10911,7 @@
         },
         "index": {
           "hierarchy": "Numeric Partial Group",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Partial.Group",
           "name": "psubtract",
           "normalized": "a-\u003ea-\u003eMaybe a",
@@ -10088,6 +10926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Partial.Monoid",
           "name": "Monoid",
           "package": "algebra",
@@ -10096,6 +10935,7 @@
         },
         "index": {
           "hierarchy": "Numeric Partial Monoid",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Partial.Monoid",
           "name": "Monoid",
           "package": "algebra",
@@ -10109,6 +10949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Partial.Monoid",
           "name": "PartialMonoid",
           "package": "algebra",
@@ -10117,6 +10958,7 @@
         },
         "index": {
           "hierarchy": "Numeric Partial Monoid",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Partial.Monoid",
           "name": "PartialMonoid",
           "package": "algebra",
@@ -10130,6 +10972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Partial.Monoid",
           "name": "pzero",
           "package": "algebra",
@@ -10139,6 +10982,7 @@
         },
         "index": {
           "hierarchy": "Numeric Partial Monoid",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Partial.Monoid",
           "name": "pzero",
           "package": "algebra",
@@ -10151,6 +10995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Partial.Semigroup",
           "name": "Semigroup",
           "package": "algebra",
@@ -10159,6 +11004,7 @@
         },
         "index": {
           "hierarchy": "Numeric Partial Semigroup",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Partial.Semigroup",
           "name": "Semigroup",
           "package": "algebra",
@@ -10172,6 +11018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Partial.Semigroup",
           "name": "PartialSemigroup",
           "package": "algebra",
@@ -10180,6 +11027,7 @@
         },
         "index": {
           "hierarchy": "Numeric Partial Semigroup",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Partial.Semigroup",
           "name": "PartialSemigroup",
           "package": "algebra",
@@ -10193,6 +11041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Partial.Semigroup",
           "name": "padd",
           "package": "algebra",
@@ -10202,6 +11051,7 @@
         },
         "index": {
           "hierarchy": "Numeric Partial Semigroup",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Partial.Semigroup",
           "name": "padd",
           "normalized": "a-\u003ea-\u003eMaybe a",
@@ -10216,6 +11066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Quadrance.Class",
           "name": "Class",
           "package": "algebra",
@@ -10224,6 +11075,7 @@
         },
         "index": {
           "hierarchy": "Numeric Quadrance Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Quadrance.Class",
           "name": "Class",
           "package": "algebra",
@@ -10237,6 +11089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Quadrance.Class",
           "name": "Quadrance",
           "package": "algebra",
@@ -10245,6 +11098,7 @@
         },
         "index": {
           "hierarchy": "Numeric Quadrance Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Quadrance.Class",
           "name": "Quadrance",
           "package": "algebra",
@@ -10258,6 +11112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Quadrance.Class",
           "name": "quadrance",
           "package": "algebra",
@@ -10267,6 +11122,7 @@
         },
         "index": {
           "hierarchy": "Numeric Quadrance Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Quadrance.Class",
           "name": "quadrance",
           "normalized": "a-\u003eb",
@@ -10281,6 +11137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rig.Characteristic",
           "name": "Characteristic",
           "package": "algebra",
@@ -10289,6 +11146,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rig Characteristic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rig.Characteristic",
           "name": "Characteristic",
           "package": "algebra",
@@ -10302,6 +11160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rig.Characteristic",
           "name": "Characteristic",
           "package": "algebra",
@@ -10310,6 +11169,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rig Characteristic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rig.Characteristic",
           "name": "Characteristic",
           "package": "algebra",
@@ -10323,6 +11183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rig.Characteristic",
           "name": "char",
           "package": "algebra",
@@ -10332,6 +11193,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rig Characteristic",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rig.Characteristic",
           "name": "char",
           "normalized": "a b-\u003eNatural",
@@ -10346,6 +11208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rig.Class",
           "name": "Class",
           "package": "algebra",
@@ -10354,6 +11217,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rig Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rig.Class",
           "name": "Class",
           "package": "algebra",
@@ -10368,6 +11232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Ring without (n)egation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rig.Class",
           "name": "Rig",
           "package": "algebra",
@@ -10377,6 +11242,7 @@
         "index": {
           "description": "Ring without egation",
           "hierarchy": "Numeric Rig Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rig.Class",
           "name": "Rig",
           "package": "algebra",
@@ -10390,6 +11256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rig.Class",
           "name": "fromNatural",
           "package": "algebra",
@@ -10399,6 +11266,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rig Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rig.Class",
           "name": "fromNatural",
           "normalized": "Natural-\u003ea",
@@ -10414,6 +11282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rig.Class",
           "name": "fromNaturalNum",
           "package": "algebra",
@@ -10423,6 +11292,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rig Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rig.Class",
           "name": "fromNaturalNum",
           "normalized": "Natural-\u003ea",
@@ -10438,6 +11308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rig.Class",
           "name": "fromWhole",
           "package": "algebra",
@@ -10447,6 +11318,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rig Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rig.Class",
           "name": "fromWhole",
           "normalized": "a-\u003eb",
@@ -10462,6 +11334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rig.Ordered",
           "name": "Ordered",
           "package": "algebra",
@@ -10470,6 +11343,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rig Ordered",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rig.Ordered",
           "name": "Ordered",
           "package": "algebra",
@@ -10483,6 +11357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rig.Ordered",
           "name": "OrderedRig",
           "package": "algebra",
@@ -10491,6 +11366,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rig Ordered",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rig.Ordered",
           "name": "OrderedRig",
           "package": "algebra",
@@ -10504,6 +11380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Class",
           "name": "Class",
           "package": "algebra",
@@ -10512,6 +11389,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Class",
           "name": "Class",
           "package": "algebra",
@@ -10525,6 +11403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Class",
           "name": "Ring",
           "package": "algebra",
@@ -10533,6 +11412,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Class",
           "name": "Ring",
           "package": "algebra",
@@ -10546,6 +11426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Class",
           "name": "fromInteger",
           "package": "algebra",
@@ -10555,6 +11436,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Class",
           "name": "fromInteger",
           "normalized": "Integer-\u003ea",
@@ -10570,6 +11452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Class",
           "name": "fromIntegral",
           "package": "algebra",
@@ -10579,6 +11462,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Class",
           "name": "fromIntegral",
           "normalized": "a-\u003eb",
@@ -10594,6 +11478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Division",
           "name": "Division",
           "package": "algebra",
@@ -10602,6 +11487,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Division",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Division",
           "name": "Division",
           "package": "algebra",
@@ -10615,6 +11501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Division",
           "name": "DivisionRing",
           "package": "algebra",
@@ -10623,6 +11510,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Division",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Division",
           "name": "DivisionRing",
           "package": "algebra",
@@ -10636,6 +11524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Endomorphism",
           "name": "Endomorphism",
           "package": "algebra",
@@ -10644,6 +11533,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Endomorphism",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Endomorphism",
           "name": "Endomorphism",
           "package": "algebra",
@@ -10658,6 +11548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe endomorphism ring of an abelian group or the endomorphism semiring of an abelian monoid\n\u003c/p\u003e\u003cp\u003ehttp:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eEndomorphism_ring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Endomorphism",
           "name": "End",
           "package": "algebra",
@@ -10667,6 +11558,7 @@
         "index": {
           "description": "The endomorphism ring of an abelian group or the endomorphism semiring of an abelian monoid http en.wikipedia.org wiki Endomorphism ring",
           "hierarchy": "Numeric Ring Endomorphism",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Endomorphism",
           "name": "End",
           "package": "algebra",
@@ -10680,6 +11572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Endomorphism",
           "name": "End",
           "package": "algebra",
@@ -10689,6 +11582,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Endomorphism",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Endomorphism",
           "name": "End",
           "package": "algebra",
@@ -10702,6 +11596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Endomorphism",
           "name": "appEnd",
           "package": "algebra",
@@ -10711,6 +11606,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Endomorphism",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Endomorphism",
           "name": "appEnd",
           "normalized": "a-\u003ea",
@@ -10726,6 +11622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Endomorphism",
           "name": "frobenius",
           "package": "algebra",
@@ -10735,6 +11632,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Endomorphism",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Endomorphism",
           "name": "frobenius",
           "package": "algebra",
@@ -10747,6 +11645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Endomorphism",
           "name": "fromEnd",
           "package": "algebra",
@@ -10756,6 +11655,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Endomorphism",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Endomorphism",
           "name": "fromEnd",
           "normalized": "End a-\u003ea",
@@ -10771,6 +11671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Endomorphism",
           "name": "toEnd",
           "package": "algebra",
@@ -10780,6 +11681,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Endomorphism",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Endomorphism",
           "name": "toEnd",
           "normalized": "a-\u003eEnd a",
@@ -10795,6 +11697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Local",
           "name": "Local",
           "package": "algebra",
@@ -10803,6 +11706,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Local",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Local",
           "name": "Local",
           "package": "algebra",
@@ -10816,6 +11720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Local",
           "name": "LocalRing",
           "package": "algebra",
@@ -10824,6 +11729,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Local",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Local",
           "name": "LocalRing",
           "package": "algebra",
@@ -10837,6 +11743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Opposite",
           "name": "Opposite",
           "package": "algebra",
@@ -10845,6 +11752,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Opposite",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Opposite",
           "name": "Opposite",
           "package": "algebra",
@@ -10859,6 +11767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehttp:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eOpposite_ring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Opposite",
           "name": "Opposite",
           "package": "algebra",
@@ -10868,6 +11777,7 @@
         "index": {
           "description": "http en.wikipedia.org wiki Opposite ring",
           "hierarchy": "Numeric Ring Opposite",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Opposite",
           "name": "Opposite",
           "package": "algebra",
@@ -10881,6 +11791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Opposite",
           "name": "Opposite",
           "package": "algebra",
@@ -10890,6 +11801,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Opposite",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Opposite",
           "name": "Opposite",
           "package": "algebra",
@@ -10903,6 +11815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Opposite",
           "name": "runOpposite",
           "package": "algebra",
@@ -10912,6 +11825,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Opposite",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Opposite",
           "name": "runOpposite",
           "package": "algebra",
@@ -10925,6 +11839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Rng",
           "name": "Rng",
           "package": "algebra",
@@ -10933,6 +11848,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Rng",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Rng",
           "name": "Rng",
           "package": "algebra",
@@ -10947,6 +11863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe free Ring given a Rng obtained by adjoining Z, such that\n\u003c/p\u003e\u003cpre\u003e RngRing r = n*1 + r\n\u003c/pre\u003e\u003cp\u003eThis ring is commonly denoted r^.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Rng",
           "name": "RngRing",
           "package": "algebra",
@@ -10956,6 +11873,7 @@
         "index": {
           "description": "The free Ring given Rng obtained by adjoining such that RngRing This ring is commonly denoted",
           "hierarchy": "Numeric Ring Rng",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Rng",
           "name": "RngRing",
           "package": "algebra",
@@ -10969,6 +11887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Rng",
           "name": "RngRing",
           "package": "algebra",
@@ -10978,6 +11897,7 @@
         },
         "index": {
           "hierarchy": "Numeric Ring Rng",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Rng",
           "name": "RngRing",
           "package": "algebra",
@@ -10992,6 +11912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egiven a rng homomorphism from a rng r into a ring s, liftRngHom yields a ring homomorphism from the ring `r^` into \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Rng",
           "name": "liftRngHom",
           "package": "algebra",
@@ -11002,6 +11923,7 @@
         "index": {
           "description": "given rng homomorphism from rng into ring liftRngHom yields ring homomorphism from the ring into",
           "hierarchy": "Numeric Ring Rng",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Rng",
           "name": "liftRngHom",
           "normalized": "(a-\u003eb)-\u003eRngRing a-\u003eb",
@@ -11018,6 +11940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rng homomorphism from r to RngRing r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Ring.Rng",
           "name": "rngRingHom",
           "package": "algebra",
@@ -11028,6 +11951,7 @@
         "index": {
           "description": "The rng homomorphism from to RngRing",
           "hierarchy": "Numeric Ring Rng",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Ring.Rng",
           "name": "rngRingHom",
           "normalized": "a-\u003eRngRing a",
@@ -11043,6 +11967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rng.Class",
           "name": "Class",
           "package": "algebra",
@@ -11051,6 +11976,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rng Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rng.Class",
           "name": "Class",
           "package": "algebra",
@@ -11065,6 +11991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Ring without an \u003cem\u003ei\u003c/em\u003edentity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rng.Class",
           "name": "Rng",
           "package": "algebra",
@@ -11074,6 +12001,7 @@
         "index": {
           "description": "Ring without an dentity",
           "hierarchy": "Numeric Rng Class",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rng.Class",
           "name": "Rng",
           "package": "algebra",
@@ -11087,6 +12015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rng.Zero",
           "name": "Zero",
           "package": "algebra",
@@ -11095,6 +12024,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rng Zero",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rng.Zero",
           "name": "Zero",
           "package": "algebra",
@@ -11108,6 +12038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rng.Zero",
           "name": "ZeroRng",
           "package": "algebra",
@@ -11116,6 +12047,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rng Zero",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rng.Zero",
           "name": "ZeroRng",
           "package": "algebra",
@@ -11129,6 +12061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rng.Zero",
           "name": "ZeroRng",
           "package": "algebra",
@@ -11138,6 +12071,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rng Zero",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rng.Zero",
           "name": "ZeroRng",
           "package": "algebra",
@@ -11151,6 +12085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Rng.Zero",
           "name": "runZeroRng",
           "package": "algebra",
@@ -11160,6 +12095,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rng Zero",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Rng.Zero",
           "name": "runZeroRng",
           "package": "algebra",
@@ -11173,6 +12109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Semiring.Integral",
           "name": "Integral",
           "package": "algebra",
@@ -11181,6 +12118,7 @@
         },
         "index": {
           "hierarchy": "Numeric Semiring Integral",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Semiring.Integral",
           "name": "Integral",
           "package": "algebra",
@@ -11195,6 +12133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn integral semiring has no zero divisors\n\u003c/p\u003e\u003cpre\u003e a * b = 0 implies a == 0 || b == 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Semiring.Integral",
           "name": "IntegralSemiring",
           "package": "algebra",
@@ -11204,6 +12143,7 @@
         "index": {
           "description": "An integral semiring has no zero divisors implies",
           "hierarchy": "Numeric Semiring Integral",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Semiring.Integral",
           "name": "IntegralSemiring",
           "package": "algebra",
@@ -11217,6 +12157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Semiring.Involutive",
           "name": "Involutive",
           "package": "algebra",
@@ -11225,6 +12166,7 @@
         },
         "index": {
           "hierarchy": "Numeric Semiring Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Semiring.Involutive",
           "name": "Involutive",
           "package": "algebra",
@@ -11239,6 +12181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadjoint (x + y) = adjoint x + adjoint y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:41 UTC 2014",
           "module": "Numeric.Semiring.Involutive",
           "name": "InvolutiveSemiring",
           "package": "algebra",
@@ -11248,6 +12191,7 @@
         "index": {
           "description": "adjoint adjoint adjoint",
           "hierarchy": "Numeric Semiring Involutive",
+          "indexed": "2014-03-11T17:09:41",
           "module": "Numeric.Semiring.Involutive",
           "name": "InvolutiveSemiring",
           "package": "algebra",

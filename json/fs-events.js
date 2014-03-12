@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fs-events"
+        "phrase": "fs-events",
+        "type": "phrase"
       },
       "type": "context"
     }

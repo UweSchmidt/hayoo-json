@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uhc-util"
+        "phrase": "uhc-util",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AGraph",
           "name": "AGraph",
           "package": "uhc-util",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AGraph",
           "name": "AGraph",
           "package": "uhc-util",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AGraph",
           "name": "AGraph",
           "package": "uhc-util",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AGraph",
           "name": "AGraph",
           "package": "uhc-util",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AGraph",
           "name": "deleteEdge",
           "package": "uhc-util",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AGraph",
           "name": "deleteEdge",
           "normalized": "(a,a)-\u003eAGraph a b-\u003eAGraph a b",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AGraph",
           "name": "deleteNode",
           "package": "uhc-util",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AGraph",
           "name": "deleteNode",
           "normalized": "a-\u003eAGraph a b-\u003eAGraph a b",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AGraph",
           "name": "emptyAGraph",
           "package": "uhc-util",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AGraph",
           "name": "emptyAGraph",
           "package": "uhc-util",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AGraph",
           "name": "insertEdge",
           "package": "uhc-util",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AGraph",
           "name": "insertEdge",
           "normalized": "(a,a,b)-\u003eAGraph a b-\u003eAGraph a b",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AGraph",
           "name": "insertEdges",
           "package": "uhc-util",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AGraph",
           "name": "insertEdges",
           "normalized": "[(a,a,b)]-\u003eAGraph a b-\u003eAGraph a b",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AGraph",
           "name": "predecessors",
           "package": "uhc-util",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AGraph",
           "name": "predecessors",
           "normalized": "AGraph a b-\u003ea-\u003e[(b,a)]",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AGraph",
           "name": "successors",
           "package": "uhc-util",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AGraph",
           "name": "successors",
           "normalized": "AGraph a b-\u003ea-\u003e[(b,a)]",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "AssocL",
           "package": "uhc-util",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "AssocL",
           "package": "uhc-util",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "Assoc",
           "package": "uhc-util",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "Assoc",
           "package": "uhc-util",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "AssocL",
           "package": "uhc-util",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "AssocL",
           "package": "uhc-util",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "assocLElts",
           "package": "uhc-util",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "assocLElts",
           "normalized": "AssocL a b-\u003e[b]",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "assocLGroupSort",
           "package": "uhc-util",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "assocLGroupSort",
           "normalized": "AssocL a b-\u003eAssocL a[b]",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "assocLKeys",
           "package": "uhc-util",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "assocLKeys",
           "normalized": "AssocL a b-\u003e[a]",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "assocLMapElt",
           "package": "uhc-util",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "assocLMapElt",
           "normalized": "(a-\u003eb)-\u003eAssocL c a-\u003eAssocL c b",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "assocLMapKey",
           "package": "uhc-util",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "assocLMapKey",
           "normalized": "(a-\u003eb)-\u003eAssocL a c-\u003eAssocL b c",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "assocLMapUnzip",
           "package": "uhc-util",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "assocLMapUnzip",
           "normalized": "AssocL a(b,b)-\u003e(AssocL a b,AssocL a b)",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "ppAssocL",
           "package": "uhc-util",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "ppAssocL",
           "normalized": "AssocL a b-\u003ePP_Doc",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "ppAssocL'",
           "package": "uhc-util",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "ppAssocL'",
           "normalized": "([PP_Doc]-\u003ePP_Doc)-\u003ea-\u003eAssocL b c-\u003ePP_Doc",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "ppAssocLV",
           "package": "uhc-util",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "ppAssocLV",
           "normalized": "AssocL a b-\u003ePP_Doc",
@@ -504,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eintended for parsing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.AssocL",
           "name": "ppCurlysAssocL",
           "package": "uhc-util",
@@ -514,6 +557,7 @@
         "index": {
           "description": "intended for parsing",
           "hierarchy": "UHC Util AssocL",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.AssocL",
           "name": "ppCurlysAssocL",
           "normalized": "(a-\u003ePP_Doc)-\u003e(b-\u003ePP_Doc)-\u003eAssocL a b-\u003ePP_Doc",
@@ -529,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "Binary",
           "package": "uhc-util",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "Binary",
           "package": "uhc-util",
@@ -551,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode from FilePath\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "getBinaryFPath",
           "package": "uhc-util",
@@ -561,6 +608,7 @@
         "index": {
           "description": "Decode from FilePath",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "getBinaryFPath",
           "normalized": "FPath-\u003eIO a",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode from FilePath\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "getBinaryFile",
           "package": "uhc-util",
@@ -587,6 +636,7 @@
         "index": {
           "description": "Decode from FilePath",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "getBinaryFile",
           "normalized": "FilePath-\u003eIO a",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget an Enum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "getEnum",
           "package": "uhc-util",
@@ -613,6 +664,7 @@
         "index": {
           "description": "get an Enum",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "getEnum",
           "package": "uhc-util",
@@ -627,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget an Enum from Word8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "getEnum8",
           "package": "uhc-util",
@@ -637,6 +690,7 @@
         "index": {
           "description": "get an Enum from Word8",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "getEnum8",
           "package": "uhc-util",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget a []\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "getList",
           "package": "uhc-util",
@@ -661,6 +716,7 @@
         "index": {
           "description": "get",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "getList",
           "normalized": "a-\u003e(b-\u003ec-\u003ea)-\u003eGet a",
@@ -677,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode from Handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "hGetBinary",
           "package": "uhc-util",
@@ -687,6 +744,7 @@
         "index": {
           "description": "Decode from Handle",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "hGetBinary",
           "normalized": "Handle-\u003eIO a",
@@ -703,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode to Handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "hPutBinary",
           "package": "uhc-util",
@@ -713,6 +772,7 @@
         "index": {
           "description": "Encode to Handle",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "hPutBinary",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -729,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode to FPath, ensuring existence of path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "putBinaryFPath",
           "package": "uhc-util",
@@ -739,6 +800,7 @@
         "index": {
           "description": "Encode to FPath ensuring existence of path",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "putBinaryFPath",
           "normalized": "FPath-\u003ea-\u003eIO()",
@@ -755,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode to FilePath\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "putBinaryFile",
           "package": "uhc-util",
@@ -765,6 +828,7 @@
         "index": {
           "description": "Encode to FilePath",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "putBinaryFile",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -781,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eput an Enum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "putEnum",
           "package": "uhc-util",
@@ -791,6 +856,7 @@
         "index": {
           "description": "put an Enum",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "putEnum",
           "normalized": "a-\u003ePut",
@@ -807,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eput an Enum as Word8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "putEnum8",
           "package": "uhc-util",
@@ -817,6 +884,7 @@
         "index": {
           "description": "put an Enum as Word8",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "putEnum8",
           "normalized": "a-\u003ePut",
@@ -833,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eput a []\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Binary",
           "name": "putList",
           "package": "uhc-util",
@@ -843,6 +912,7 @@
         "index": {
           "description": "put",
           "hierarchy": "UHC Util Binary",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Binary",
           "name": "putList",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003e(b,c))-\u003ea-\u003ePut",
@@ -858,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRun",
           "package": "uhc-util",
@@ -866,6 +937,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRun",
           "package": "uhc-util",
@@ -879,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompileModName",
           "package": "uhc-util",
@@ -887,6 +960,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompileModName",
           "package": "uhc-util",
@@ -900,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompileParticipation",
           "package": "uhc-util",
@@ -908,6 +983,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompileParticipation",
           "package": "uhc-util",
@@ -921,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompilePhase",
           "package": "uhc-util",
@@ -929,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompilePhase",
           "package": "uhc-util",
@@ -942,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRun",
           "package": "uhc-util",
@@ -950,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRun",
           "package": "uhc-util",
@@ -963,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRunError",
           "package": "uhc-util",
@@ -971,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRunError",
           "package": "uhc-util",
@@ -984,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRunState",
           "package": "uhc-util",
@@ -992,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRunState",
           "package": "uhc-util",
@@ -1005,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRunStateInfo",
           "package": "uhc-util",
@@ -1013,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRunStateInfo",
           "package": "uhc-util",
@@ -1026,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompileUnit",
           "package": "uhc-util",
@@ -1034,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompileUnit",
           "package": "uhc-util",
@@ -1047,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompileUnitState",
           "package": "uhc-util",
@@ -1055,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompileUnitState",
           "package": "uhc-util",
@@ -1068,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "FileLocatable",
           "package": "uhc-util",
@@ -1076,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "FileLocatable",
           "package": "uhc-util",
@@ -1089,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CRSErrInfoL",
           "package": "uhc-util",
@@ -1098,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CRSErrInfoL",
           "normalized": "CRSErrInfoL String Bool[a]",
@@ -1113,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CRSFail",
           "package": "uhc-util",
@@ -1122,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CRSFail",
           "package": "uhc-util",
@@ -1135,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CRSFailErrL",
           "package": "uhc-util",
@@ -1144,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CRSFailErrL",
           "normalized": "CRSFailErrL String[a](Maybe Int)",
@@ -1159,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CRSOk",
           "package": "uhc-util",
@@ -1168,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CRSOk",
           "package": "uhc-util",
@@ -1181,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CRSStop",
           "package": "uhc-util",
@@ -1190,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CRSStop",
           "package": "uhc-util",
@@ -1203,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CRSStopAllSeq",
           "package": "uhc-util",
@@ -1212,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CRSStopAllSeq",
           "package": "uhc-util",
@@ -1225,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CRSStopSeq",
           "package": "uhc-util",
@@ -1234,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CRSStopSeq",
           "package": "uhc-util",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompileParticipation_NoImport",
           "package": "uhc-util",
@@ -1256,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompileParticipation_NoImport",
           "package": "uhc-util",
@@ -1269,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRun",
           "package": "uhc-util",
@@ -1278,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "CompileRun",
           "package": "uhc-util",
@@ -1291,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpEmpty",
           "package": "uhc-util",
@@ -1300,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpEmpty",
           "normalized": "CompilePhase a b c d()",
@@ -1315,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpFindFileForFPath",
           "package": "uhc-util",
@@ -1324,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpFindFileForFPath",
           "normalized": "[(FileSuffix,a)]-\u003e[String]-\u003eMaybe b-\u003eMaybe FPath-\u003eCompilePhase b c d e(Maybe FPath)",
@@ -1339,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpFindFileForNameOrFPath",
           "package": "uhc-util",
@@ -1348,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpFindFileForNameOrFPath",
           "normalized": "String-\u003ea-\u003eFPath-\u003e[(String,FPath)]",
@@ -1363,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpFindFilesForFPath",
           "package": "uhc-util",
@@ -1372,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpFindFilesForFPath",
           "normalized": "Bool-\u003e[(FileSuffix,a)]-\u003e[String]-\u003eMaybe b-\u003eMaybe FPath-\u003eCompilePhase b c d e[FPath]",
@@ -1387,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpFindFilesForFPathInLocations",
           "package": "uhc-util",
@@ -1396,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpFindFilesForFPathInLocations",
           "normalized": "(a-\u003eb-\u003eFPath-\u003e[(a,FPath,[c])])-\u003e((FPath,a,[c])-\u003ed)-\u003eBool-\u003e[(FileSuffix,e)]-\u003e[a]-\u003eMaybe b-\u003eMaybe FPath-\u003eCompilePhase b f g c[d]",
@@ -1412,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbbreviation for cpImportGatherFromMods for 1 module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpImportGather",
           "package": "uhc-util",
@@ -1422,6 +1543,7 @@
         "index": {
           "description": "Abbreviation for cpImportGatherFromMods for module",
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpImportGather",
           "normalized": "(a-\u003eCompilePhase a b c d())-\u003ea-\u003eCompilePhase a b c d()",
@@ -1438,6 +1560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecursively extract imported modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpImportGatherFromMods",
           "package": "uhc-util",
@@ -1448,6 +1571,7 @@
         "index": {
           "description": "recursively extract imported modules",
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpImportGatherFromMods",
           "normalized": "(Maybe a-\u003eb-\u003eCompilePhase b c d e(f,Maybe a))-\u003e[b]-\u003eCompilePhase b c d e()",
@@ -1464,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecursively extract imported modules, providing a way to import + do the import\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpImportGatherFromModsWithImp",
           "package": "uhc-util",
@@ -1474,6 +1599,7 @@
         "index": {
           "description": "recursively extract imported modules providing way to import do the import",
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpImportGatherFromModsWithImp",
           "normalized": "(a-\u003e[b])-\u003e(Maybe c-\u003eb-\u003eCompilePhase b a d e(f,Maybe c))-\u003e[b]-\u003eCompilePhase b a d e()",
@@ -1489,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpPP",
           "package": "uhc-util",
@@ -1498,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpPP",
           "normalized": "String-\u003eCompilePhase a b c d()",
@@ -1513,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpPPMsg",
           "package": "uhc-util",
@@ -1522,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpPPMsg",
           "normalized": "a-\u003eCompilePhase b c d e()",
@@ -1537,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSeq",
           "package": "uhc-util",
@@ -1546,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSeq",
           "normalized": "[CompilePhase a b c d()]-\u003eCompilePhase a b c d()",
@@ -1561,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSeqWhen",
           "package": "uhc-util",
@@ -1570,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSeqWhen",
           "normalized": "Bool-\u003e[CompilePhase a b c d()]-\u003eCompilePhase a b c d()",
@@ -1585,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetCompileOrder",
           "package": "uhc-util",
@@ -1594,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetCompileOrder",
           "normalized": "[[a]]-\u003eCompilePhase a b c d()",
@@ -1609,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetErrs",
           "package": "uhc-util",
@@ -1618,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetErrs",
           "normalized": "[a]-\u003eCompilePhase b c d a()",
@@ -1633,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetFail",
           "package": "uhc-util",
@@ -1642,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetFail",
           "normalized": "CompilePhase a b c d()",
@@ -1657,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetInfos",
           "package": "uhc-util",
@@ -1666,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetInfos",
           "normalized": "String-\u003eBool-\u003e[a]-\u003eCompilePhase b c d a()",
@@ -1681,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetLimitErrs",
           "package": "uhc-util",
@@ -1690,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetLimitErrs",
           "normalized": "Int-\u003eString-\u003e[a]-\u003eCompilePhase b c d a()",
@@ -1705,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetLimitErrsWhen",
           "package": "uhc-util",
@@ -1714,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetLimitErrsWhen",
           "normalized": "Int-\u003eString-\u003e[a]-\u003eCompilePhase b c d a()",
@@ -1729,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetOk",
           "package": "uhc-util",
@@ -1738,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetOk",
           "normalized": "CompilePhase a b c d()",
@@ -1753,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetStop",
           "package": "uhc-util",
@@ -1762,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetStop",
           "normalized": "CompilePhase a b c d()",
@@ -1777,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetStopAllSeq",
           "package": "uhc-util",
@@ -1786,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetStopAllSeq",
           "normalized": "CompilePhase a b c d()",
@@ -1801,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetStopSeq",
           "package": "uhc-util",
@@ -1810,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpSetStopSeq",
           "normalized": "CompilePhase a b c d()",
@@ -1825,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpUpdCU",
           "package": "uhc-util",
@@ -1834,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpUpdCU",
           "normalized": "a-\u003e(b-\u003eb)-\u003eCompilePhase a b c d()",
@@ -1849,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpUpdCUWithKey",
           "package": "uhc-util",
@@ -1858,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpUpdCUWithKey",
           "normalized": "a-\u003e(a-\u003eb-\u003e(a,b))-\u003eCompilePhase a b c d a",
@@ -1873,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpUpdSI",
           "package": "uhc-util",
@@ -1882,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpUpdSI",
           "normalized": "(a-\u003ea)-\u003eCompilePhase b c a d()",
@@ -1897,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cpUpdStateInfo",
           "package": "uhc-util",
@@ -1906,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cpUpdStateInfo",
           "normalized": "(a-\u003ea)-\u003eCompilePhase b c a d()",
@@ -1921,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "crCU",
           "package": "uhc-util",
@@ -1930,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "crCU",
           "normalized": "a-\u003eCompileRun a b c d-\u003eb",
@@ -1945,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "crCUCache",
           "package": "uhc-util",
@@ -1954,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "crCUCache",
           "package": "uhc-util",
@@ -1967,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "crCompileOrder",
           "package": "uhc-util",
@@ -1976,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "crCompileOrder",
           "normalized": "[[a]]",
@@ -1991,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "crMbCU",
           "package": "uhc-util",
@@ -2000,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "crMbCU",
           "normalized": "a-\u003eCompileRun a b c d-\u003eMaybe b",
@@ -2015,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "crState",
           "package": "uhc-util",
@@ -2024,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "crState",
           "package": "uhc-util",
@@ -2037,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "crStateInfo",
           "package": "uhc-util",
@@ -2046,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "crStateInfo",
           "package": "uhc-util",
@@ -2059,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "crTopModNm",
           "package": "uhc-util",
@@ -2068,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "crTopModNm",
           "package": "uhc-util",
@@ -2081,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "creAreFatal",
           "package": "uhc-util",
@@ -2090,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "creAreFatal",
           "normalized": "[a]-\u003eBool",
@@ -2105,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "creMkNotFoundErrL",
           "package": "uhc-util",
@@ -2114,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "creMkNotFoundErrL",
           "normalized": "a-\u003eString-\u003e[String]-\u003e[FileSuffix]-\u003e[b]",
@@ -2129,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "crePPErrL",
           "package": "uhc-util",
@@ -2138,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "crePPErrL",
           "normalized": "[a]-\u003ePP_Doc",
@@ -2153,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "crsiImportPosOfCUKey",
           "package": "uhc-util",
@@ -2162,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "crsiImportPosOfCUKey",
           "normalized": "a-\u003eb-\u003ec",
@@ -2177,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cuDefault",
           "package": "uhc-util",
@@ -2186,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cuDefault",
           "package": "uhc-util",
@@ -2199,6 +2385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cuFPath",
           "package": "uhc-util",
@@ -2208,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cuFPath",
           "normalized": "a-\u003eFPath",
@@ -2223,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cuImports",
           "package": "uhc-util",
@@ -2232,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cuImports",
           "normalized": "a-\u003e[b]",
@@ -2247,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cuKey",
           "package": "uhc-util",
@@ -2256,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cuKey",
           "normalized": "a-\u003eb",
@@ -2271,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cuLocation",
           "package": "uhc-util",
@@ -2280,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cuLocation",
           "normalized": "a-\u003eb",
@@ -2295,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cuParticipation",
           "package": "uhc-util",
@@ -2304,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cuParticipation",
           "normalized": "a-\u003e[CompileParticipation]",
@@ -2319,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cuState",
           "package": "uhc-util",
@@ -2328,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cuState",
           "normalized": "a-\u003eb",
@@ -2343,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cuUpdFPath",
           "package": "uhc-util",
@@ -2352,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cuUpdFPath",
           "normalized": "FPath-\u003ea-\u003ea",
@@ -2367,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cuUpdKey",
           "package": "uhc-util",
@@ -2376,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cuUpdKey",
           "normalized": "a-\u003eb-\u003eb",
@@ -2391,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cuUpdLocation",
           "package": "uhc-util",
@@ -2400,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cuUpdLocation",
           "normalized": "a-\u003eb-\u003eb",
@@ -2415,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cuUpdState",
           "package": "uhc-util",
@@ -2424,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cuUpdState",
           "normalized": "a-\u003eb-\u003eb",
@@ -2439,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cusDefault",
           "package": "uhc-util",
@@ -2448,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cusDefault",
           "package": "uhc-util",
@@ -2461,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cusIsImpKnown",
           "package": "uhc-util",
@@ -2470,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cusIsImpKnown",
           "normalized": "a-\u003eBool",
@@ -2485,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cusIsUnk",
           "package": "uhc-util",
@@ -2494,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cusIsUnk",
           "normalized": "a-\u003eBool",
@@ -2509,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "cusUnk",
           "package": "uhc-util",
@@ -2518,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "cusUnk",
           "package": "uhc-util",
@@ -2531,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "fileLocation",
           "package": "uhc-util",
@@ -2540,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "fileLocation",
           "normalized": "a-\u003eb",
@@ -2555,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "forgetM",
           "package": "uhc-util",
@@ -2564,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "forgetM",
           "normalized": "a b-\u003ea()",
@@ -2578,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "mkCMNm",
           "package": "uhc-util",
@@ -2587,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "mkCMNm",
           "normalized": "String-\u003ea",
@@ -2602,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "mkEmptyCompileRun",
           "package": "uhc-util",
@@ -2611,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "mkEmptyCompileRun",
           "normalized": "a-\u003eb-\u003eCompileRun a c b d",
@@ -2626,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "noFileLocation",
           "package": "uhc-util",
@@ -2635,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "noFileLocation",
           "package": "uhc-util",
@@ -2648,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.CompileRun",
           "name": "ppCR",
           "package": "uhc-util",
@@ -2657,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "UHC Util CompileRun",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.CompileRun",
           "name": "ppCR",
           "normalized": "CompileRun a b c d-\u003ePP_Doc",
@@ -2673,6 +2899,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtensions to Control.Monad\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Control.Monad",
           "name": "Monad",
           "package": "uhc-util",
@@ -2682,6 +2909,7 @@
         "index": {
           "description": "Extensions to Control.Monad",
           "hierarchy": "UHC Util Control Monad",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Control.Monad",
           "name": "Monad",
           "package": "uhc-util",
@@ -2695,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Control.Monad",
           "name": "liftM6",
           "package": "uhc-util",
@@ -2704,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Control Monad",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Control.Monad",
           "name": "liftM6",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -2718,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Control.Monad",
           "name": "liftM7",
           "package": "uhc-util",
@@ -2727,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Control Monad",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Control.Monad",
           "name": "liftM7",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -2741,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Control.Monad",
           "name": "liftM8",
           "package": "uhc-util",
@@ -2750,6 +2983,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Control Monad",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Control.Monad",
           "name": "liftM8",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -2764,6 +2998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Control.Monad",
           "name": "liftM9",
           "package": "uhc-util",
@@ -2773,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Control Monad",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Control.Monad",
           "name": "liftM9",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -2787,6 +3023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Debug",
           "name": "Debug",
           "package": "uhc-util",
@@ -2795,6 +3032,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Debug",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Debug",
           "name": "Debug",
           "package": "uhc-util",
@@ -2808,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Debug",
           "name": "tr",
           "package": "uhc-util",
@@ -2817,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Debug",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Debug",
           "name": "tr",
           "normalized": "[Char]-\u003ea-\u003ea-\u003ea",
@@ -2831,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Debug",
           "name": "trp",
           "package": "uhc-util",
@@ -2840,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Debug",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Debug",
           "name": "trp",
           "normalized": "[Char]-\u003ea-\u003eb-\u003eb",
@@ -2854,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "DependencyGraph",
           "package": "uhc-util",
@@ -2862,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "DependencyGraph",
           "package": "uhc-util",
@@ -2875,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "DpdGr",
           "package": "uhc-util",
@@ -2883,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "DpdGr",
           "package": "uhc-util",
@@ -2896,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgCheckSCCMutuals",
           "package": "uhc-util",
@@ -2905,6 +3152,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgCheckSCCMutuals",
           "normalized": "([PP_Doc]-\u003ea)-\u003eDpdGr b-\u003e[a]",
@@ -2920,6 +3168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgDpdsOn",
           "package": "uhc-util",
@@ -2929,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgDpdsOn",
           "normalized": "DpdGr a-\u003ea-\u003e[a]",
@@ -2944,6 +3194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgIsFirst",
           "package": "uhc-util",
@@ -2953,6 +3204,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgIsFirst",
           "normalized": "DpdGr a-\u003ea-\u003eSet a-\u003eBool",
@@ -2968,6 +3220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgReachableFrom",
           "package": "uhc-util",
@@ -2977,6 +3230,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgReachableFrom",
           "normalized": "DpdGr a-\u003ea-\u003eSet a",
@@ -2992,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgReachableTo",
           "package": "uhc-util",
@@ -3001,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgReachableTo",
           "normalized": "DpdGr a-\u003ea-\u003eSet a",
@@ -3016,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgSCCToList",
           "package": "uhc-util",
@@ -3025,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgSCCToList",
           "normalized": "DpdGr a-\u003e[[a]]",
@@ -3040,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgTopSort",
           "package": "uhc-util",
@@ -3049,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgTopSort",
           "normalized": "DpdGr a-\u003e[a]",
@@ -3064,6 +3324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgVertices",
           "package": "uhc-util",
@@ -3073,6 +3334,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "dgVertices",
           "normalized": "DpdGr a-\u003eSet a",
@@ -3088,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "mkDpdGrFromAssocWithMissing",
           "package": "uhc-util",
@@ -3097,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "mkDpdGrFromAssocWithMissing",
           "normalized": "[a]-\u003e[(a,a)]-\u003eDpdGr a",
@@ -3112,6 +3376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "mkDpdGrFromEdges",
           "package": "uhc-util",
@@ -3121,6 +3386,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "mkDpdGrFromEdges",
           "normalized": "[(a,[a])]-\u003eDpdGr a",
@@ -3136,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "mkDpdGrFromEdgesMp",
           "package": "uhc-util",
@@ -3145,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "mkDpdGrFromEdgesMp",
           "normalized": "Map a[a]-\u003eDpdGr a",
@@ -3160,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "mkDpdGrFromEdgesMpPadMissing",
           "package": "uhc-util",
@@ -3169,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "mkDpdGrFromEdgesMpPadMissing",
           "normalized": "Map a[a]-\u003eDpdGr a",
@@ -3184,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.DependencyGraph",
           "name": "mkDpdGrFromOrderWithMissing",
           "package": "uhc-util",
@@ -3193,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "UHC Util DependencyGraph",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.DependencyGraph",
           "name": "mkDpdGrFromOrderWithMissing",
           "normalized": "[a]-\u003e[[a]]-\u003eDpdGr a",
@@ -3208,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "FPath",
           "package": "uhc-util",
@@ -3216,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "FPath",
           "package": "uhc-util",
@@ -3229,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "FPATH",
           "package": "uhc-util",
@@ -3237,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "FPATH",
           "package": "uhc-util",
@@ -3250,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "FPath",
           "package": "uhc-util",
@@ -3258,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "FPath",
           "package": "uhc-util",
@@ -3271,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "FPathError",
           "package": "uhc-util",
@@ -3279,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "FPathError",
           "package": "uhc-util",
@@ -3292,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "FileSuffix",
           "package": "uhc-util",
@@ -3300,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "FileSuffix",
           "package": "uhc-util",
@@ -3313,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "FileSuffixes",
           "package": "uhc-util",
@@ -3321,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "FileSuffixes",
           "package": "uhc-util",
@@ -3334,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "SearchPath",
           "package": "uhc-util",
@@ -3342,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "SearchPath",
           "package": "uhc-util",
@@ -3355,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "FPath",
           "package": "uhc-util",
@@ -3364,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "FPath",
           "package": "uhc-util",
@@ -3377,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "emptyFPath",
           "package": "uhc-util",
@@ -3386,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "emptyFPath",
           "package": "uhc-util",
@@ -3399,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "filePathCoalesceSeparator",
           "package": "uhc-util",
@@ -3408,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "filePathCoalesceSeparator",
           "normalized": "String-\u003eString",
@@ -3423,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "filePathMkAbsolute",
           "package": "uhc-util",
@@ -3432,6 +3725,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "filePathMkAbsolute",
           "normalized": "String-\u003eString",
@@ -3447,6 +3741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "filePathMkPrefix",
           "package": "uhc-util",
@@ -3456,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "filePathMkPrefix",
           "normalized": "String-\u003eString",
@@ -3471,6 +3767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "filePathUnAbsolute",
           "package": "uhc-util",
@@ -3480,6 +3777,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "filePathUnAbsolute",
           "normalized": "String-\u003eString",
@@ -3495,6 +3793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "filePathUnPrefix",
           "package": "uhc-util",
@@ -3504,6 +3803,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "filePathUnPrefix",
           "normalized": "String-\u003eString",
@@ -3519,6 +3819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathAppendDir",
           "package": "uhc-util",
@@ -3528,6 +3829,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathAppendDir",
           "normalized": "FPath-\u003eString-\u003eFPath",
@@ -3543,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathBase",
           "package": "uhc-util",
@@ -3552,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathBase",
           "package": "uhc-util",
@@ -3565,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathDirSep",
           "package": "uhc-util",
@@ -3574,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathDirSep",
           "package": "uhc-util",
@@ -3587,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathDirSepChar",
           "package": "uhc-util",
@@ -3596,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathDirSepChar",
           "package": "uhc-util",
@@ -3609,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathEnsureExists",
           "package": "uhc-util",
@@ -3618,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathEnsureExists",
           "normalized": "FPath-\u003eIO()",
@@ -3633,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathFromStr",
           "package": "uhc-util",
@@ -3642,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathFromStr",
           "normalized": "String-\u003eFPath",
@@ -3657,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathGetModificationTime",
           "package": "uhc-util",
@@ -3666,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathGetModificationTime",
           "normalized": "FPath-\u003eIO UTCTime",
@@ -3681,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathIsAbsolute",
           "package": "uhc-util",
@@ -3690,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathIsAbsolute",
           "normalized": "FPath-\u003eBool",
@@ -3705,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathIsEmpty",
           "package": "uhc-util",
@@ -3714,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathIsEmpty",
           "normalized": "FPath-\u003eBool",
@@ -3729,6 +4047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathMbDir",
           "package": "uhc-util",
@@ -3738,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathMbDir",
           "package": "uhc-util",
@@ -3751,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathMbSuff",
           "package": "uhc-util",
@@ -3760,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathMbSuff",
           "package": "uhc-util",
@@ -3773,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathOpenOrStdin",
           "package": "uhc-util",
@@ -3782,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathOpenOrStdin",
           "normalized": "FPath-\u003eIO(FPath,Handle)",
@@ -3797,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathPrependDir",
           "package": "uhc-util",
@@ -3806,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathPrependDir",
           "normalized": "String-\u003eFPath-\u003eFPath",
@@ -3821,6 +4147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathRemoveDir",
           "package": "uhc-util",
@@ -3830,6 +4157,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathRemoveDir",
           "normalized": "FPath-\u003eFPath",
@@ -3845,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathRemoveSuff",
           "package": "uhc-util",
@@ -3854,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathRemoveSuff",
           "normalized": "FPath-\u003eFPath",
@@ -3869,6 +4199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathSetBase",
           "package": "uhc-util",
@@ -3878,6 +4209,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathSetBase",
           "normalized": "String-\u003eFPath-\u003eFPath",
@@ -3893,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathSetDir",
           "package": "uhc-util",
@@ -3902,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathSetDir",
           "normalized": "String-\u003eFPath-\u003eFPath",
@@ -3917,6 +4251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathSetSuff",
           "package": "uhc-util",
@@ -3926,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathSetSuff",
           "normalized": "String-\u003eFPath-\u003eFPath",
@@ -3941,6 +4277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathSplitDirBy",
           "package": "uhc-util",
@@ -3950,6 +4287,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathSplitDirBy",
           "normalized": "String-\u003eFPath-\u003eMaybe(String,String)",
@@ -3965,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathSuff",
           "package": "uhc-util",
@@ -3974,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathSuff",
           "normalized": "FPath-\u003eString",
@@ -3989,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathToStr",
           "package": "uhc-util",
@@ -3998,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathToStr",
           "normalized": "FPath-\u003eString",
@@ -4013,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathUnAppendDir",
           "package": "uhc-util",
@@ -4022,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathUnAppendDir",
           "normalized": "FPath-\u003eString-\u003eFPath",
@@ -4037,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathUnPrependDir",
           "package": "uhc-util",
@@ -4046,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathUnPrependDir",
           "normalized": "String-\u003eFPath-\u003eFPath",
@@ -4061,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "fpathUpdBase",
           "package": "uhc-util",
@@ -4070,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "fpathUpdBase",
           "normalized": "(String-\u003eString)-\u003eFPath-\u003eFPath",
@@ -4085,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "mkFPath",
           "package": "uhc-util",
@@ -4094,6 +4443,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "mkFPath",
           "normalized": "a-\u003eFPath",
@@ -4109,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "mkFPathFromDirsFile",
           "package": "uhc-util",
@@ -4118,6 +4469,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "mkFPathFromDirsFile",
           "normalized": "[a]-\u003ea-\u003eFPath",
@@ -4133,6 +4485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "mkInitSearchPath",
           "package": "uhc-util",
@@ -4142,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "mkInitSearchPath",
           "normalized": "FPath-\u003eSearchPath",
@@ -4157,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "mkTopLevelFPath",
           "package": "uhc-util",
@@ -4166,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "mkTopLevelFPath",
           "normalized": "String-\u003eString-\u003eFPath",
@@ -4181,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "openFPath",
           "package": "uhc-util",
@@ -4190,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "openFPath",
           "normalized": "FPath-\u003eIOMode-\u003eBool-\u003eIO(String,Handle)",
@@ -4205,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "searchFPathFromLoc",
           "package": "uhc-util",
@@ -4214,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "searchFPathFromLoc",
           "normalized": "FilePath-\u003eFPath-\u003e[(FilePath,FPath)]",
@@ -4229,6 +4589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "searchLocationsForReadableFiles",
           "package": "uhc-util",
@@ -4238,6 +4599,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "searchLocationsForReadableFiles",
           "normalized": "(a-\u003eFPath-\u003e[(a,FPath,[b])])-\u003eBool-\u003e[a]-\u003eFileSuffixes-\u003eFPath-\u003eIO[(FPath,a,[b])]",
@@ -4253,6 +4615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "searchPathForReadableFile",
           "package": "uhc-util",
@@ -4262,6 +4625,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "searchPathForReadableFile",
           "normalized": "SearchPath-\u003eFileSuffixes-\u003eFPath-\u003eIO(Maybe FPath)",
@@ -4277,6 +4641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "searchPathForReadableFiles",
           "package": "uhc-util",
@@ -4286,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "searchPathForReadableFiles",
           "normalized": "Bool-\u003eSearchPath-\u003eFileSuffixes-\u003eFPath-\u003eIO[FPath]",
@@ -4301,6 +4667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "searchPathFromFPath",
           "package": "uhc-util",
@@ -4310,6 +4677,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "searchPathFromFPath",
           "normalized": "FPath-\u003eSearchPath",
@@ -4325,6 +4693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "searchPathFromFPaths",
           "package": "uhc-util",
@@ -4334,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "searchPathFromFPaths",
           "normalized": "[FPath]-\u003eSearchPath",
@@ -4349,6 +4719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FPath",
           "name": "searchPathFromString",
           "package": "uhc-util",
@@ -4358,6 +4729,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FPath",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FPath",
           "name": "searchPathFromString",
           "normalized": "String-\u003e[String]",
@@ -4373,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "FastSeq",
           "package": "uhc-util",
@@ -4381,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "FastSeq",
           "package": "uhc-util",
@@ -4394,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "FastSeq",
           "package": "uhc-util",
@@ -4402,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "FastSeq",
           "package": "uhc-util",
@@ -4415,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "Seq",
           "package": "uhc-util",
@@ -4423,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "Seq",
           "package": "uhc-util",
@@ -4436,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": ":++:",
           "package": "uhc-util",
@@ -4445,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": ":++:",
           "package": "uhc-util",
@@ -4457,6 +4837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": ":+::",
           "package": "uhc-util",
@@ -4466,6 +4847,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": ":+::",
           "package": "uhc-util",
@@ -4478,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "::+:",
           "package": "uhc-util",
@@ -4487,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "::+:",
           "package": "uhc-util",
@@ -4499,6 +4883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "empty",
           "package": "uhc-util",
@@ -4508,6 +4893,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "empty",
           "package": "uhc-util",
@@ -4520,6 +4906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "firstNotEmpty",
           "package": "uhc-util",
@@ -4529,6 +4916,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "firstNotEmpty",
           "normalized": "[FastSeq a]-\u003eFastSeq a",
@@ -4544,6 +4932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "fromList",
           "package": "uhc-util",
@@ -4553,6 +4942,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "fromList",
           "normalized": "[a]-\u003eFastSeq a",
@@ -4568,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "isEmpty",
           "package": "uhc-util",
@@ -4577,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "isEmpty",
           "normalized": "FastSeq a-\u003eBool",
@@ -4592,6 +4984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "map",
           "package": "uhc-util",
@@ -4601,6 +4994,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eFastSeq a-\u003eFastSeq b",
@@ -4615,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "null",
           "package": "uhc-util",
@@ -4624,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "null",
           "normalized": "FastSeq a-\u003eBool",
@@ -4638,6 +5034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "singleton",
           "package": "uhc-util",
@@ -4647,6 +5044,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "singleton",
           "normalized": "a-\u003eFastSeq a",
@@ -4661,6 +5059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "size",
           "package": "uhc-util",
@@ -4670,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "size",
           "normalized": "FastSeq a-\u003eInt",
@@ -4684,6 +5084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "toList",
           "package": "uhc-util",
@@ -4693,6 +5094,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "toList",
           "normalized": "FastSeq a-\u003e[a]",
@@ -4708,6 +5110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "union",
           "package": "uhc-util",
@@ -4717,6 +5120,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "union",
           "normalized": "FastSeq a-\u003eFastSeq a-\u003eFastSeq a",
@@ -4731,6 +5135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.FastSeq",
           "name": "unions",
           "package": "uhc-util",
@@ -4740,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "UHC Util FastSeq",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.FastSeq",
           "name": "unions",
           "normalized": "[FastSeq a]-\u003eFastSeq a",
@@ -4754,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "Nm",
           "package": "uhc-util",
@@ -4762,6 +5169,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "Nm",
           "package": "uhc-util",
@@ -4775,6 +5183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "NM",
           "package": "uhc-util",
@@ -4783,6 +5192,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "NM",
           "package": "uhc-util",
@@ -4796,6 +5206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "Nm",
           "package": "uhc-util",
@@ -4804,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "Nm",
           "package": "uhc-util",
@@ -4817,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "Nm'",
           "package": "uhc-util",
@@ -4825,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "Nm'",
           "package": "uhc-util",
@@ -4838,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "Nm",
           "package": "uhc-util",
@@ -4847,6 +5262,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "Nm",
           "package": "uhc-util",
@@ -4860,6 +5276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "NmEmp",
           "package": "uhc-util",
@@ -4869,6 +5286,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "NmEmp",
           "package": "uhc-util",
@@ -4882,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "NmQual",
           "package": "uhc-util",
@@ -4891,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "NmQual",
           "package": "uhc-util",
@@ -4904,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "NmSel",
           "package": "uhc-util",
@@ -4913,6 +5334,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "NmSel",
           "package": "uhc-util",
@@ -4926,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "mkNm",
           "package": "uhc-util",
@@ -4935,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "mkNm",
           "normalized": "a-\u003eNm",
@@ -4950,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmApd",
           "package": "uhc-util",
@@ -4959,6 +5384,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmApd",
           "normalized": "Nm' a-\u003eNm' a-\u003eNm' a",
@@ -4974,6 +5400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmApdL",
           "package": "uhc-util",
@@ -4983,6 +5410,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmApdL",
           "normalized": "[Nm' a]-\u003eNm' a",
@@ -4998,6 +5426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmBase",
           "package": "uhc-util",
@@ -5007,6 +5436,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmBase",
           "normalized": "Nm-\u003eNm",
@@ -5022,6 +5452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmBase'",
           "package": "uhc-util",
@@ -5031,6 +5462,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmBase'",
           "normalized": "Nm-\u003eString",
@@ -5046,6 +5478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmCapitalize",
           "package": "uhc-util",
@@ -5055,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmCapitalize",
           "normalized": "Nm-\u003eNm",
@@ -5070,6 +5504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmDashed",
           "package": "uhc-util",
@@ -5079,6 +5514,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmDashed",
           "normalized": "Nm-\u003eNm",
@@ -5094,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmFlatten",
           "package": "uhc-util",
@@ -5103,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmFlatten",
           "normalized": "Nm-\u003eNm",
@@ -5118,6 +5556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmFromL",
           "package": "uhc-util",
@@ -5127,6 +5566,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmFromL",
           "normalized": "[a]-\u003eNm' a",
@@ -5142,6 +5582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmFromMbL",
           "package": "uhc-util",
@@ -5151,6 +5592,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmFromMbL",
           "normalized": "[Maybe a]-\u003eNm' a",
@@ -5166,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmInit",
           "package": "uhc-util",
@@ -5175,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmInit",
           "normalized": "Nm-\u003eNm",
@@ -5190,6 +5634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmMbSel",
           "package": "uhc-util",
@@ -5199,6 +5644,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmMbSel",
           "package": "uhc-util",
@@ -5212,6 +5658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmNm",
           "package": "uhc-util",
@@ -5221,6 +5668,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmNm",
           "package": "uhc-util",
@@ -5234,6 +5682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmQual",
           "package": "uhc-util",
@@ -5243,6 +5692,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmQual",
           "package": "uhc-util",
@@ -5256,6 +5706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmQualSep",
           "package": "uhc-util",
@@ -5265,6 +5716,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmQualSep",
           "package": "uhc-util",
@@ -5278,6 +5730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmSel",
           "package": "uhc-util",
@@ -5287,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmSel",
           "normalized": "Nm-\u003eString",
@@ -5302,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmSelSep",
           "package": "uhc-util",
@@ -5311,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmSelSep",
           "package": "uhc-util",
@@ -5324,6 +5780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmSetBase",
           "package": "uhc-util",
@@ -5333,6 +5790,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmSetBase",
           "normalized": "Nm-\u003eString-\u003eNm",
@@ -5348,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmSetSel",
           "package": "uhc-util",
@@ -5357,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmSetSel",
           "normalized": "Nm' a-\u003ea-\u003eNm' a",
@@ -5372,6 +5832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmSetSuff",
           "package": "uhc-util",
@@ -5381,6 +5842,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmSetSuff",
           "normalized": "Nm-\u003eString-\u003eNm",
@@ -5396,6 +5858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmShow'",
           "package": "uhc-util",
@@ -5405,6 +5868,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmShow'",
           "normalized": "String-\u003eNm-\u003eString",
@@ -5420,6 +5884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmShowAG",
           "package": "uhc-util",
@@ -5429,6 +5894,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmShowAG",
           "normalized": "Nm-\u003eString",
@@ -5444,6 +5910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmStr",
           "package": "uhc-util",
@@ -5453,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmStr",
           "package": "uhc-util",
@@ -5466,6 +5934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmStrApd",
           "package": "uhc-util",
@@ -5475,6 +5944,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmStrApd",
           "normalized": "Nm-\u003eNm-\u003eNm",
@@ -5490,6 +5960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmToL",
           "package": "uhc-util",
@@ -5499,6 +5970,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmToL",
           "normalized": "Nm-\u003e[String]",
@@ -5514,6 +5986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Nm",
           "name": "nmToMbL",
           "package": "uhc-util",
@@ -5523,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Nm",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Nm",
           "name": "nmToMbL",
           "normalized": "Nm' a-\u003e[Maybe a]",
@@ -5538,6 +6012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseErrPrettyPrint",
           "name": "ParseErrPrettyPrint",
           "package": "uhc-util",
@@ -5546,6 +6021,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseErrPrettyPrint",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseErrPrettyPrint",
           "name": "ParseErrPrettyPrint",
           "package": "uhc-util",
@@ -5559,6 +6035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseErrPrettyPrint",
           "name": "ppErr",
           "package": "uhc-util",
@@ -5568,6 +6045,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseErrPrettyPrint",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseErrPrettyPrint",
           "name": "ppErr",
           "normalized": "(String,a)-\u003ePP_Doc-\u003ePP_Doc",
@@ -5583,6 +6061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseErrPrettyPrint",
           "name": "ppPos",
           "package": "uhc-util",
@@ -5592,6 +6071,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseErrPrettyPrint",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseErrPrettyPrint",
           "name": "ppPos",
           "normalized": "a-\u003ePP_Doc",
@@ -5607,6 +6087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseErrPrettyPrint",
           "name": "ppTr",
           "package": "uhc-util",
@@ -5616,6 +6097,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseErrPrettyPrint",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseErrPrettyPrint",
           "name": "ppTr",
           "normalized": "PP_Doc-\u003ePP_Doc",
@@ -5631,6 +6113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseErrPrettyPrint",
           "name": "ppWarn",
           "package": "uhc-util",
@@ -5640,6 +6123,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseErrPrettyPrint",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseErrPrettyPrint",
           "name": "ppWarn",
           "normalized": "(String,a)-\u003ePP_Doc-\u003ePP_Doc",
@@ -5655,6 +6139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "ParseUtils",
           "package": "uhc-util",
@@ -5663,6 +6148,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "ParseUtils",
           "package": "uhc-util",
@@ -5676,6 +6162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "LayoutParser",
           "package": "uhc-util",
@@ -5684,6 +6171,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "LayoutParser",
           "package": "uhc-util",
@@ -5697,6 +6185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "LayoutParser2",
           "package": "uhc-util",
@@ -5705,6 +6194,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "LayoutParser2",
           "package": "uhc-util",
@@ -5718,6 +6208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "PlainParser",
           "package": "uhc-util",
@@ -5726,6 +6217,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "PlainParser",
           "package": "uhc-util",
@@ -5739,6 +6231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "pAnyFromMap",
           "package": "uhc-util",
@@ -5748,6 +6241,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "pAnyFromMap",
           "normalized": "(a-\u003eb c)-\u003eMap a d-\u003eb d",
@@ -5763,6 +6257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "pAnyKey",
           "package": "uhc-util",
@@ -5772,6 +6267,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "pAnyKey",
           "normalized": "(a-\u003eb a)-\u003e[a]-\u003eb a",
@@ -5787,6 +6283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "pDo",
           "package": "uhc-util",
@@ -5796,6 +6293,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "pDo",
           "normalized": "OffsideParser a b c d e-\u003eOffsideParser a b c d f-\u003eOffsideParser a b c d g-\u003eOffsideParser a b c d h-\u003eOffsideParser a b c d(Maybe i-\u003eh)-\u003eOffsideParser a b c d i-\u003eOffsideParser a b c d[h]",
@@ -5811,6 +6309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "pMaybe",
           "package": "uhc-util",
@@ -5820,6 +6319,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "pMaybe",
           "normalized": "a-\u003e(a-\u003ea)-\u003eb a-\u003eb a",
@@ -5835,6 +6335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "pMb",
           "package": "uhc-util",
@@ -5844,6 +6345,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "pMb",
           "normalized": "a b-\u003ea(Maybe b)",
@@ -5859,6 +6361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "parseOffsideToResMsgs",
           "package": "uhc-util",
@@ -5868,6 +6371,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "parseOffsideToResMsgs",
           "normalized": "OffsideParser a Pair b c d-\u003eOffsideInput a b c-\u003e(d,[Message(OffsideSymbol b)c])",
@@ -5883,6 +6387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "parseOffsideToResMsgsStopAtErr",
           "package": "uhc-util",
@@ -5892,6 +6397,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "parseOffsideToResMsgsStopAtErr",
           "normalized": "OffsideParser a Pair b c d-\u003eOffsideInput a b c-\u003e(d,[Message(OffsideSymbol b)c])",
@@ -5907,6 +6413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "parsePlain",
           "package": "uhc-util",
@@ -5916,6 +6423,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "parsePlain",
           "normalized": "AnaParser a Pair b c d-\u003ea-\u003eSteps(d,a)b c",
@@ -5931,6 +6439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ParseUtils",
           "name": "parseToResMsgs",
           "package": "uhc-util",
@@ -5940,6 +6449,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ParseUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ParseUtils",
           "name": "parseToResMsgs",
           "normalized": "AnaParser a Pair b c d-\u003ea-\u003e(d,[Message b c])",
@@ -5955,6 +6465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "Pretty",
           "package": "uhc-util",
@@ -5963,6 +6474,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "Pretty",
           "package": "uhc-util",
@@ -5976,6 +6488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "PP_DocL",
           "package": "uhc-util",
@@ -5984,6 +6497,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "PP_DocL",
           "package": "uhc-util",
@@ -5997,6 +6511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "hPutPPFile",
           "package": "uhc-util",
@@ -6006,6 +6521,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "hPutPPFile",
           "normalized": "Handle-\u003ePP_Doc-\u003eInt-\u003eIO()",
@@ -6021,6 +6537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "hPutPPLn",
           "package": "uhc-util",
@@ -6030,6 +6547,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "hPutPPLn",
           "normalized": "Handle-\u003ePP_Doc-\u003eIO()",
@@ -6045,6 +6563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "hPutWidthPPLn",
           "package": "uhc-util",
@@ -6054,6 +6573,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "hPutWidthPPLn",
           "normalized": "Handle-\u003eInt-\u003ePP_Doc-\u003eIO()",
@@ -6069,6 +6589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppBlock",
           "package": "uhc-util",
@@ -6078,6 +6599,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppBlock",
           "normalized": "a-\u003ea-\u003ea-\u003e[b]-\u003ePP_Doc",
@@ -6093,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppBlock'",
           "package": "uhc-util",
@@ -6102,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppBlock'",
           "normalized": "a-\u003ea-\u003ea-\u003e[b]-\u003e[PP_Doc]",
@@ -6117,6 +6641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppBrackets",
           "package": "uhc-util",
@@ -6126,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppBrackets",
           "normalized": "a-\u003ePP_Doc",
@@ -6141,6 +6667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppBracketsCommas",
           "package": "uhc-util",
@@ -6150,6 +6677,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppBracketsCommas",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6165,6 +6693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppBracketsCommas'",
           "package": "uhc-util",
@@ -6174,6 +6703,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppBracketsCommas'",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6189,6 +6719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppBracketsCommasV",
           "package": "uhc-util",
@@ -6198,6 +6729,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppBracketsCommasV",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6213,6 +6745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCommas",
           "package": "uhc-util",
@@ -6222,6 +6755,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCommas",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6237,6 +6771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCommas'",
           "package": "uhc-util",
@@ -6246,6 +6781,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCommas'",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6261,6 +6797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCurly",
           "package": "uhc-util",
@@ -6270,6 +6807,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCurly",
           "normalized": "a-\u003ePP_Doc",
@@ -6285,6 +6823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlys",
           "package": "uhc-util",
@@ -6294,6 +6833,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlys",
           "normalized": "a-\u003ePP_Doc",
@@ -6309,6 +6849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysBlock",
           "package": "uhc-util",
@@ -6318,6 +6859,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysBlock",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6333,6 +6875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysCommas",
           "package": "uhc-util",
@@ -6342,6 +6885,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysCommas",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6357,6 +6901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysCommas'",
           "package": "uhc-util",
@@ -6366,6 +6911,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysCommas'",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6381,6 +6927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysCommasBlock",
           "package": "uhc-util",
@@ -6390,6 +6937,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysCommasBlock",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6405,6 +6953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysCommasWith",
           "package": "uhc-util",
@@ -6414,6 +6963,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysCommasWith",
           "normalized": "(a-\u003ePP_Doc)-\u003e[a]-\u003ePP_Doc",
@@ -6429,6 +6979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysSemis",
           "package": "uhc-util",
@@ -6438,6 +6989,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysSemis",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6453,6 +7005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysSemis'",
           "package": "uhc-util",
@@ -6462,6 +7015,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysSemis'",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6477,6 +7031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysSemisBlock",
           "package": "uhc-util",
@@ -6486,6 +7041,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppCurlysSemisBlock",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6501,6 +7057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppDots",
           "package": "uhc-util",
@@ -6510,6 +7067,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppDots",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6525,6 +7083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppHorizontally",
           "package": "uhc-util",
@@ -6534,6 +7093,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppHorizontally",
           "normalized": "[PP_Doc]-\u003ePP_Doc",
@@ -6549,6 +7109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppListSep",
           "package": "uhc-util",
@@ -6558,6 +7119,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppListSep",
           "normalized": "a-\u003eb-\u003ec-\u003e[d]-\u003ePP_Doc",
@@ -6573,6 +7135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppListSepFill",
           "package": "uhc-util",
@@ -6582,6 +7145,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppListSepFill",
           "normalized": "a-\u003eb-\u003ec-\u003e[d]-\u003ePP_Doc",
@@ -6597,6 +7161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppListSepV",
           "package": "uhc-util",
@@ -6606,6 +7171,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppListSepV",
           "normalized": "a-\u003eb-\u003ec-\u003e[d]-\u003ePP_Doc",
@@ -6621,6 +7187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppListSepVV",
           "package": "uhc-util",
@@ -6630,6 +7197,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppListSepVV",
           "normalized": "a-\u003eb-\u003ec-\u003e[d]-\u003ePP_Doc",
@@ -6645,6 +7213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppMb",
           "package": "uhc-util",
@@ -6654,6 +7223,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppMb",
           "normalized": "Maybe a-\u003ePP_Doc",
@@ -6669,6 +7239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppPacked",
           "package": "uhc-util",
@@ -6678,6 +7249,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppPacked",
           "normalized": "a-\u003eb-\u003ec-\u003ePP_Doc",
@@ -6693,6 +7265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppParens",
           "package": "uhc-util",
@@ -6702,6 +7275,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppParens",
           "normalized": "a-\u003ePP_Doc",
@@ -6717,6 +7291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppParensCommas",
           "package": "uhc-util",
@@ -6726,6 +7301,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppParensCommas",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6741,6 +7317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppParensCommas'",
           "package": "uhc-util",
@@ -6750,6 +7327,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppParensCommas'",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6765,6 +7343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppParensCommasBlock",
           "package": "uhc-util",
@@ -6774,6 +7353,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppParensCommasBlock",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6789,6 +7369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppParensSemisBlock",
           "package": "uhc-util",
@@ -6798,6 +7379,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppParensSemisBlock",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6813,6 +7395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppSemis",
           "package": "uhc-util",
@@ -6822,6 +7405,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppSemis",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6837,6 +7421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppSemis'",
           "package": "uhc-util",
@@ -6846,6 +7431,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppSemis'",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6861,6 +7447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppSpaces",
           "package": "uhc-util",
@@ -6870,6 +7457,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppSpaces",
           "normalized": "[a]-\u003ePP_Doc",
@@ -6885,6 +7473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppUnless",
           "package": "uhc-util",
@@ -6894,6 +7483,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppUnless",
           "normalized": "Bool-\u003ePP_Doc-\u003ePP_Doc",
@@ -6909,6 +7499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppVBar",
           "package": "uhc-util",
@@ -6918,6 +7509,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppVBar",
           "normalized": "a-\u003ePP_Doc",
@@ -6933,6 +7525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppVertically",
           "package": "uhc-util",
@@ -6942,6 +7535,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppVertically",
           "normalized": "[PP_Doc]-\u003ePP_Doc",
@@ -6957,6 +7551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "ppWhen",
           "package": "uhc-util",
@@ -6966,6 +7561,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "ppWhen",
           "normalized": "Bool-\u003ePP_Doc-\u003ePP_Doc",
@@ -6981,6 +7577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "putPPFPath",
           "package": "uhc-util",
@@ -6990,6 +7587,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "putPPFPath",
           "normalized": "FPath-\u003ePP_Doc-\u003eInt-\u003eIO()",
@@ -7005,6 +7603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "putPPFile",
           "package": "uhc-util",
@@ -7014,6 +7613,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "putPPFile",
           "normalized": "String-\u003ePP_Doc-\u003eInt-\u003eIO()",
@@ -7029,6 +7629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "putPPLn",
           "package": "uhc-util",
@@ -7038,6 +7639,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "putPPLn",
           "normalized": "PP_Doc-\u003eIO()",
@@ -7053,6 +7655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Pretty",
           "name": "putWidthPPLn",
           "package": "uhc-util",
@@ -7062,6 +7665,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Pretty",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Pretty",
           "name": "putWidthPPLn",
           "normalized": "Int-\u003ePP_Doc-\u003eIO()",
@@ -7077,6 +7681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "PrettySimple",
           "package": "uhc-util",
@@ -7085,6 +7690,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "PrettySimple",
           "package": "uhc-util",
@@ -7098,6 +7704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "PP",
           "package": "uhc-util",
@@ -7106,6 +7713,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "PP",
           "package": "uhc-util",
@@ -7119,6 +7727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "PP_Doc",
           "package": "uhc-util",
@@ -7127,6 +7736,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "PP_Doc",
           "package": "uhc-util",
@@ -7140,6 +7750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "(\u003e|\u003c)",
           "package": "uhc-util",
@@ -7149,6 +7760,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "(\u003e|\u003c) \u003e|\u003c",
           "normalized": "a-\u003eb-\u003ePP_Doc",
@@ -7163,6 +7775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "(\u003e#\u003c)",
           "package": "uhc-util",
@@ -7172,6 +7785,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "(\u003e#\u003c) \u003e#\u003c",
           "normalized": "a-\u003eb-\u003ePP_Doc",
@@ -7186,6 +7800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "(\u003e-\u003c)",
           "package": "uhc-util",
@@ -7195,6 +7810,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "(\u003e-\u003c) \u003e-\u003c",
           "normalized": "a-\u003eb-\u003ePP_Doc",
@@ -7209,6 +7825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "disp",
           "package": "uhc-util",
@@ -7218,6 +7835,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "disp",
           "normalized": "PP_Doc-\u003eInt-\u003eShowS",
@@ -7232,6 +7850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "empty",
           "package": "uhc-util",
@@ -7241,6 +7860,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "empty",
           "package": "uhc-util",
@@ -7253,6 +7873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "fill",
           "package": "uhc-util",
@@ -7262,6 +7883,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "fill",
           "normalized": "[a]-\u003ePP_Doc",
@@ -7276,6 +7898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "hPut",
           "package": "uhc-util",
@@ -7285,6 +7908,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "hPut",
           "normalized": "Handle-\u003ePP_Doc-\u003eInt-\u003eIO()",
@@ -7300,6 +7924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "hlist",
           "package": "uhc-util",
@@ -7309,6 +7934,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "hlist",
           "normalized": "[a]-\u003ePP_Doc",
@@ -7323,6 +7949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "hv",
           "package": "uhc-util",
@@ -7332,6 +7959,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "hv",
           "normalized": "[a]-\u003ePP_Doc",
@@ -7346,6 +7974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "indent",
           "package": "uhc-util",
@@ -7355,6 +7984,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "indent",
           "normalized": "Int-\u003ea-\u003ePP_Doc",
@@ -7369,6 +7999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "pp",
           "package": "uhc-util",
@@ -7378,6 +8009,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "pp",
           "normalized": "a-\u003ePP_Doc",
@@ -7392,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "ppList",
           "package": "uhc-util",
@@ -7401,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "ppList",
           "normalized": "[a]-\u003ePP_Doc",
@@ -7416,6 +8050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "text",
           "package": "uhc-util",
@@ -7425,6 +8060,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "text",
           "normalized": "String-\u003ePP_Doc",
@@ -7439,6 +8075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettySimple",
           "name": "vlist",
           "package": "uhc-util",
@@ -7448,6 +8085,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettySimple",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettySimple",
           "name": "vlist",
           "normalized": "[a]-\u003ePP_Doc",
@@ -7462,6 +8100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettyUtils",
           "name": "PrettyUtils",
           "package": "uhc-util",
@@ -7470,6 +8109,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettyUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettyUtils",
           "name": "PrettyUtils",
           "package": "uhc-util",
@@ -7483,6 +8123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettyUtils",
           "name": "mkTexCmdDef",
           "package": "uhc-util",
@@ -7492,6 +8133,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettyUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettyUtils",
           "name": "mkTexCmdDef",
           "normalized": "a-\u003eb-\u003ec-\u003ePP_Doc",
@@ -7507,6 +8149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettyUtils",
           "name": "mkTexCmdUse",
           "package": "uhc-util",
@@ -7516,6 +8159,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettyUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettyUtils",
           "name": "mkTexCmdUse",
           "normalized": "a-\u003eb-\u003ePP_Doc",
@@ -7531,6 +8175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.PrettyUtils",
           "name": "mkTexCmdUse'",
           "package": "uhc-util",
@@ -7540,6 +8185,7 @@
         },
         "index": {
           "hierarchy": "UHC Util PrettyUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.PrettyUtils",
           "name": "mkTexCmdUse'",
           "normalized": "a-\u003eb-\u003ePP_Doc",
@@ -7555,6 +8201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "Rel",
           "package": "uhc-util",
@@ -7563,6 +8210,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "Rel",
           "package": "uhc-util",
@@ -7576,6 +8224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "Rel",
           "package": "uhc-util",
@@ -7584,6 +8233,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "Rel",
           "package": "uhc-util",
@@ -7597,6 +8247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "apply",
           "package": "uhc-util",
@@ -7606,6 +8257,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "apply",
           "normalized": "Rel a b-\u003ea-\u003e[b]",
@@ -7620,6 +8272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "difference",
           "package": "uhc-util",
@@ -7629,6 +8282,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "difference",
           "normalized": "Rel a b-\u003eRel a b-\u003eRel a b",
@@ -7643,6 +8297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "dom",
           "package": "uhc-util",
@@ -7652,6 +8307,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "dom",
           "normalized": "Rel a b-\u003eSet a",
@@ -7666,6 +8322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "empty",
           "package": "uhc-util",
@@ -7675,6 +8332,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "empty",
           "package": "uhc-util",
@@ -7687,6 +8345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "fromList",
           "package": "uhc-util",
@@ -7696,6 +8355,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eRel a b",
@@ -7711,6 +8371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "intersection",
           "package": "uhc-util",
@@ -7720,6 +8381,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "intersection",
           "normalized": "Rel a b-\u003eRel a b-\u003eRel a b",
@@ -7734,6 +8396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "mapDom",
           "package": "uhc-util",
@@ -7743,6 +8406,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "mapDom",
           "normalized": "(a-\u003eb)-\u003eRel a c-\u003eRel b c",
@@ -7758,6 +8422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "mapDomRng",
           "package": "uhc-util",
@@ -7767,6 +8432,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "mapDomRng",
           "normalized": "((a,b)-\u003e(c,d))-\u003eRel a b-\u003eRel c d",
@@ -7782,6 +8448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "mapRng",
           "package": "uhc-util",
@@ -7791,6 +8458,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "mapRng",
           "normalized": "(a-\u003eb)-\u003eRel c a-\u003eRel c b",
@@ -7806,6 +8474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "partitionDom",
           "package": "uhc-util",
@@ -7815,6 +8484,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "partitionDom",
           "normalized": "(a-\u003eBool)-\u003eRel a b-\u003e(Rel a b,Rel a b)",
@@ -7830,6 +8500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "partitionRng",
           "package": "uhc-util",
@@ -7839,6 +8510,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "partitionRng",
           "normalized": "(a-\u003eBool)-\u003eRel b a-\u003e(Rel b a,Rel b a)",
@@ -7854,6 +8526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "restrictDom",
           "package": "uhc-util",
@@ -7863,6 +8536,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "restrictDom",
           "normalized": "(a-\u003eBool)-\u003eRel a b-\u003eRel a b",
@@ -7878,6 +8552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "restrictRng",
           "package": "uhc-util",
@@ -7887,6 +8562,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "restrictRng",
           "normalized": "(a-\u003eBool)-\u003eRel b a-\u003eRel b a",
@@ -7902,6 +8578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "rng",
           "package": "uhc-util",
@@ -7911,6 +8588,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "rng",
           "normalized": "Rel a b-\u003eSet b",
@@ -7925,6 +8603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "singleton",
           "package": "uhc-util",
@@ -7934,6 +8613,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eRel a b",
@@ -7948,6 +8628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "toDomMap",
           "package": "uhc-util",
@@ -7957,6 +8638,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "toDomMap",
           "normalized": "Rel a b-\u003eMap a[b]",
@@ -7972,6 +8654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "toList",
           "package": "uhc-util",
@@ -7981,6 +8664,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "toList",
           "normalized": "Rel a b-\u003e[(a,b)]",
@@ -7996,6 +8680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "toRngMap",
           "package": "uhc-util",
@@ -8005,6 +8690,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "toRngMap",
           "normalized": "Rel a b-\u003eMap b[a]",
@@ -8020,6 +8706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "union",
           "package": "uhc-util",
@@ -8029,6 +8716,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "union",
           "normalized": "Rel a b-\u003eRel a b-\u003eRel a b",
@@ -8043,6 +8731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Rel",
           "name": "unions",
           "package": "uhc-util",
@@ -8052,6 +8741,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Rel",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Rel",
           "name": "unions",
           "normalized": "[Rel a b]-\u003eRel a b",
@@ -8066,6 +8756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "ScanUtils",
           "package": "uhc-util",
@@ -8074,6 +8765,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "ScanUtils",
           "package": "uhc-util",
@@ -8087,6 +8779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "InFilePos",
           "package": "uhc-util",
@@ -8095,6 +8788,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "InFilePos",
           "package": "uhc-util",
@@ -8108,6 +8802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "ScanOpts",
           "package": "uhc-util",
@@ -8116,6 +8811,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "ScanOpts",
           "package": "uhc-util",
@@ -8129,6 +8825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "InFilePos",
           "package": "uhc-util",
@@ -8138,6 +8835,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "InFilePos",
           "package": "uhc-util",
@@ -8151,6 +8849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "ScanOpts",
           "package": "uhc-util",
@@ -8160,6 +8859,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "ScanOpts",
           "package": "uhc-util",
@@ -8173,6 +8873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "defaultScanOpts",
           "package": "uhc-util",
@@ -8182,6 +8883,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "defaultScanOpts",
           "package": "uhc-util",
@@ -8195,6 +8897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "genTokMap",
           "package": "uhc-util",
@@ -8204,6 +8907,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "genTokMap",
           "normalized": "(a-\u003eb)-\u003eGenToken a c a-\u003eGenToken b c b",
@@ -8219,6 +8923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "genTokTp",
           "package": "uhc-util",
@@ -8228,6 +8933,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "genTokTp",
           "normalized": "GenToken a b c-\u003eMaybe b",
@@ -8243,6 +8949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "genTokVal",
           "package": "uhc-util",
@@ -8252,6 +8959,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "genTokVal",
           "normalized": "GenToken a b a-\u003ea",
@@ -8267,6 +8975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "infpAdv1Line",
           "package": "uhc-util",
@@ -8276,6 +8985,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "infpAdv1Line",
           "normalized": "InFilePos-\u003eInFilePos",
@@ -8291,6 +9001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "infpAdvCol",
           "package": "uhc-util",
@@ -8300,6 +9011,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "infpAdvCol",
           "normalized": "Int-\u003eInFilePos-\u003eInFilePos",
@@ -8315,6 +9027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "infpAdvLine",
           "package": "uhc-util",
@@ -8324,6 +9037,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "infpAdvLine",
           "normalized": "Int-\u003eInFilePos-\u003eInFilePos",
@@ -8339,6 +9053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "infpAdvStr",
           "package": "uhc-util",
@@ -8348,6 +9063,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "infpAdvStr",
           "normalized": "String-\u003eInFilePos-\u003eInFilePos",
@@ -8363,6 +9079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "infpColumn",
           "package": "uhc-util",
@@ -8372,6 +9089,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "infpColumn",
           "package": "uhc-util",
@@ -8385,6 +9103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "infpLine",
           "package": "uhc-util",
@@ -8394,6 +9113,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "infpLine",
           "package": "uhc-util",
@@ -8407,6 +9127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "infpNone",
           "package": "uhc-util",
@@ -8416,6 +9137,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "infpNone",
           "package": "uhc-util",
@@ -8429,6 +9151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "infpStart",
           "package": "uhc-util",
@@ -8438,6 +9161,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "infpStart",
           "package": "uhc-util",
@@ -8451,6 +9175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "isBlack",
           "package": "uhc-util",
@@ -8460,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "isBlack",
           "normalized": "Char-\u003eBool",
@@ -8475,6 +9201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "isLF",
           "package": "uhc-util",
@@ -8484,6 +9211,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "isLF",
           "normalized": "Char-\u003eBool",
@@ -8499,6 +9227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "isNoPos",
           "package": "uhc-util",
@@ -8508,6 +9237,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "isNoPos",
           "normalized": "Pos-\u003eBool",
@@ -8523,6 +9253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "isStr",
           "package": "uhc-util",
@@ -8532,6 +9263,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "isStr",
           "normalized": "Char-\u003eBool",
@@ -8547,6 +9279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "isStrQuote",
           "package": "uhc-util",
@@ -8556,6 +9289,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "isStrQuote",
           "normalized": "Char-\u003eBool",
@@ -8571,6 +9305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "isVarRest",
           "package": "uhc-util",
@@ -8580,6 +9315,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "isVarRest",
           "normalized": "Char-\u003eBool",
@@ -8595,6 +9331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "isVarStart",
           "package": "uhc-util",
@@ -8604,6 +9341,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "isVarStart",
           "normalized": "Char-\u003eBool",
@@ -8619,6 +9357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "isWhite",
           "package": "uhc-util",
@@ -8628,6 +9367,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "isWhite",
           "normalized": "Char-\u003eBool",
@@ -8643,6 +9383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "posIs1stColumn",
           "package": "uhc-util",
@@ -8652,6 +9393,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "posIs1stColumn",
           "normalized": "Pos-\u003eBool",
@@ -8667,6 +9409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoAllowFloat",
           "package": "uhc-util",
@@ -8676,6 +9419,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoAllowFloat",
           "package": "uhc-util",
@@ -8689,6 +9433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoAllowQualified",
           "package": "uhc-util",
@@ -8698,6 +9443,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoAllowQualified",
           "package": "uhc-util",
@@ -8711,6 +9457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoCommandsTxt",
           "package": "uhc-util",
@@ -8720,6 +9467,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoCommandsTxt",
           "package": "uhc-util",
@@ -8733,6 +9481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoDollarIdent",
           "package": "uhc-util",
@@ -8742,6 +9491,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoDollarIdent",
           "package": "uhc-util",
@@ -8755,6 +9505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoKeywExtraChars",
           "package": "uhc-util",
@@ -8764,6 +9515,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoKeywExtraChars",
           "package": "uhc-util",
@@ -8777,6 +9529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoKeywordsOps",
           "package": "uhc-util",
@@ -8786,6 +9539,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoKeywordsOps",
           "package": "uhc-util",
@@ -8799,6 +9553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoKeywordsTxt",
           "package": "uhc-util",
@@ -8808,6 +9563,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoKeywordsTxt",
           "package": "uhc-util",
@@ -8821,6 +9577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoLitmode",
           "package": "uhc-util",
@@ -8830,6 +9587,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoLitmode",
           "package": "uhc-util",
@@ -8843,6 +9601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOffsideClose",
           "package": "uhc-util",
@@ -8852,6 +9611,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOffsideClose",
           "package": "uhc-util",
@@ -8865,6 +9625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOffsideModule",
           "package": "uhc-util",
@@ -8874,6 +9635,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOffsideModule",
           "package": "uhc-util",
@@ -8887,6 +9649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOffsideOpen",
           "package": "uhc-util",
@@ -8896,6 +9659,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOffsideOpen",
           "package": "uhc-util",
@@ -8909,6 +9673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOffsideTrigs",
           "package": "uhc-util",
@@ -8918,6 +9683,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOffsideTrigs",
           "normalized": "[String]",
@@ -8933,6 +9699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOffsideTrigsGE",
           "package": "uhc-util",
@@ -8942,6 +9709,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOffsideTrigsGE",
           "normalized": "[String]",
@@ -8957,6 +9725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOpChars",
           "package": "uhc-util",
@@ -8966,6 +9735,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoOpChars",
           "package": "uhc-util",
@@ -8979,6 +9749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoPragmasTxt",
           "package": "uhc-util",
@@ -8988,6 +9759,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoPragmasTxt",
           "package": "uhc-util",
@@ -9001,6 +9773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoSpecChars",
           "package": "uhc-util",
@@ -9010,6 +9783,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoSpecChars",
           "package": "uhc-util",
@@ -9023,6 +9797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoSpecPairs",
           "package": "uhc-util",
@@ -9032,6 +9807,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoSpecPairs",
           "package": "uhc-util",
@@ -9045,6 +9821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoStringDelims",
           "package": "uhc-util",
@@ -9054,6 +9831,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoStringDelims",
           "package": "uhc-util",
@@ -9067,6 +9845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScanUtils",
           "name": "scoVerbOpenClose",
           "package": "uhc-util",
@@ -9076,6 +9855,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScanUtils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScanUtils",
           "name": "scoVerbOpenClose",
           "normalized": "[(String,String)]",
@@ -9092,6 +9872,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEnvironment/Gamma where the lexical level + scoping is used to provide nesting behavior.\nBoth a SGam and its entries know at which scope they are.\n\u003c/p\u003e\u003cp\u003eInsertion is efficient, lookup also, because a single Map is used.\n\u003c/p\u003e\u003cp\u003eThe Map holds multiple entries, each with its own scope identifier.\nAn SGam holds\n- a stack of scopes, encoding the nesting, where\n- each scope holds mappings for MetaLev's\n\u003c/p\u003e\u003cp\u003eResults are filtered out w.r.t. this stack, i.e. are checked to be in scope.\nIn principle this can be done eagerly, that is, immediately after a change in scope, in particular in sgamPop.\nAfter some experimentation it did turn out that doing this lazily is overall faster, that is, when the SGam is consulted (lookup, conversion to association list, etc).\nConceptually thus the invariant is that no entry is in the map which is not in scope. Guaranteeing this invariant is thus not done by the one function breaking it (sgamPop).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "ScopeMapGam",
           "package": "uhc-util",
@@ -9101,6 +9882,7 @@
         "index": {
           "description": "Environment Gamma where the lexical level scoping is used to provide nesting behavior Both SGam and its entries know at which scope they are Insertion is efficient lookup also because single Map is used The Map holds multiple entries each with its own scope identifier An SGam holds stack of scopes encoding the nesting where each scope holds mappings for MetaLev Results are filtered out w.r.t this stack i.e are checked to be in scope In principle this can be done eagerly that is immediately after change in scope in particular in sgamPop After some experimentation it did turn out that doing this lazily is overall faster that is when the SGam is consulted lookup conversion to association list etc Conceptually thus the invariant is that no entry is in the map which is not in scope Guaranteeing this invariant is thus not done by the one function breaking it sgamPop",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "ScopeMapGam",
           "package": "uhc-util",
@@ -9115,6 +9897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLevel to lookup into\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "MetaLev",
           "package": "uhc-util",
@@ -9124,6 +9907,7 @@
         "index": {
           "description": "Level to lookup into",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "MetaLev",
           "package": "uhc-util",
@@ -9137,6 +9921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "SGam",
           "package": "uhc-util",
@@ -9145,6 +9930,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "SGam",
           "package": "uhc-util",
@@ -9158,6 +9944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "emptySGam",
           "package": "uhc-util",
@@ -9167,6 +9954,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "emptySGam",
           "package": "uhc-util",
@@ -9206,6 +9994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlter on top of the scope stack, including all duplicates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamAlterDupOnTop",
           "package": "uhc-util",
@@ -9216,6 +10005,7 @@
         "index": {
           "description": "Alter on top of the scope stack including all duplicates",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamAlterDupOnTop",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eb-\u003eSGam b a-\u003eSGam b a",
@@ -9232,6 +10022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edo it all: map, filter, fold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamFilterMapEltAccumWithKey",
           "package": "uhc-util",
@@ -9242,6 +10033,7 @@
         "index": {
           "description": "do it all map filter fold",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamFilterMapEltAccumWithKey",
           "normalized": "(a-\u003eSGamElt b-\u003eBool)-\u003e(a-\u003eSGamElt b-\u003ec-\u003e(d,SGamElt e,c))-\u003e(a-\u003eSGamElt b-\u003ec-\u003ec)-\u003ec-\u003eSGam a b-\u003e(SGam d e,c)",
@@ -9258,6 +10050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert from association list, assume default scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamFromAssocDupL",
           "package": "uhc-util",
@@ -9268,6 +10061,7 @@
         "index": {
           "description": "convert from association list assume default scope",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamFromAssocDupL",
           "normalized": "AssocL a[b]-\u003eSGam a b",
@@ -9284,6 +10078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elookup, return at least one found value, otherwise Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamLookupMetaLevDup",
           "package": "uhc-util",
@@ -9294,6 +10089,7 @@
         "index": {
           "description": "lookup return at least one found value otherwise Nothing",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamLookupMetaLevDup",
           "normalized": "MetaLev-\u003ea-\u003eSGam a b-\u003eMaybe[b]",
@@ -9309,6 +10105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamMap",
           "package": "uhc-util",
@@ -9318,6 +10115,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamMap",
           "normalized": "((a,b)-\u003e(c,d))-\u003eSGam a b-\u003eSGam c d",
@@ -9333,6 +10131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamMapEltWithKey",
           "package": "uhc-util",
@@ -9342,6 +10141,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamMapEltWithKey",
           "normalized": "(a-\u003eSGamElt b-\u003e(c,SGamElt d))-\u003eSGam a b-\u003eSGam c d",
@@ -9357,6 +10157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamMapThr",
           "package": "uhc-util",
@@ -9366,6 +10167,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamMapThr",
           "normalized": "((a,b)-\u003ec-\u003e((d,e),c))-\u003ec-\u003eSGam a b-\u003e(SGam d e,c)",
@@ -9382,6 +10184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct singleton gam, on a particular meta level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamMetaLevSingleton",
           "package": "uhc-util",
@@ -9392,6 +10195,7 @@
         "index": {
           "description": "Construct singleton gam on particular meta level",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamMetaLevSingleton",
           "normalized": "MetaLev-\u003ea-\u003eb-\u003eSGam a b",
@@ -9408,6 +10212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget rid of duplicate entries, by taking the first of them all\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamNoDups",
           "package": "uhc-util",
@@ -9418,6 +10223,7 @@
         "index": {
           "description": "get rid of duplicate entries by taking the first of them all",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamNoDups",
           "normalized": "SGam a b-\u003eSGam a b",
@@ -9434,6 +10240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eequivalent of partition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamPartitionEltWithKey",
           "package": "uhc-util",
@@ -9444,6 +10251,7 @@
         "index": {
           "description": "equivalent of partition",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamPartitionEltWithKey",
           "normalized": "(a-\u003eSGamElt b-\u003eBool)-\u003eSGam a b-\u003e(SGam a b,SGam a b)",
@@ -9459,6 +10267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamPartitionWithKey",
           "package": "uhc-util",
@@ -9468,6 +10277,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamPartitionWithKey",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eSGam a b-\u003e(SGam a b,SGam a b)",
@@ -9484,6 +10294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplit gam in top and the rest, both with the same scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamPop",
           "package": "uhc-util",
@@ -9494,6 +10305,7 @@
         "index": {
           "description": "split gam in top and the rest both with the same scope",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamPop",
           "normalized": "SGam a b-\u003e(SGam a b,SGam a b)",
@@ -9510,6 +10322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenter a new scope, add g1 in that scope to g2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamPushGam",
           "package": "uhc-util",
@@ -9520,6 +10333,7 @@
         "index": {
           "description": "enter new scope add g1 in that scope to g2",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamPushGam",
           "normalized": "SGam a b-\u003eSGam a b-\u003eSGam a b",
@@ -9536,6 +10350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenter a new scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamPushNew",
           "package": "uhc-util",
@@ -9546,6 +10361,7 @@
         "index": {
           "description": "enter new scope",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamPushNew",
           "normalized": "SGam a b-\u003eSGam a b",
@@ -9562,6 +10378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct singleton gam\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamSingleton",
           "package": "uhc-util",
@@ -9572,6 +10389,7 @@
         "index": {
           "description": "Construct singleton gam",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamSingleton",
           "normalized": "a-\u003eb-\u003eSGam a b",
@@ -9588,6 +10406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert to association list, with all duplicates, scope is lost\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamToAssocDupL",
           "package": "uhc-util",
@@ -9598,6 +10417,7 @@
         "index": {
           "description": "convert to association list with all duplicates scope is lost",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamToAssocDupL",
           "normalized": "SGam a b-\u003eAssocL a[b]",
@@ -9614,6 +10434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etop gam, with same scope as g\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamTop",
           "package": "uhc-util",
@@ -9624,6 +10445,7 @@
         "index": {
           "description": "top gam with same scope as",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamTop",
           "normalized": "SGam a b-\u003eSGam a b",
@@ -9639,6 +10461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamUnion",
           "package": "uhc-util",
@@ -9648,6 +10471,7 @@
         },
         "index": {
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamUnion",
           "normalized": "SGam a b-\u003eSGam a b-\u003eSGam a b",
@@ -9664,6 +10488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecombine gam, g1 is added to g2 with scope of g2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamUnionWith",
           "package": "uhc-util",
@@ -9674,6 +10499,7 @@
         "index": {
           "description": "combine gam g1 is added to g2 with scope of g2",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamUnionWith",
           "normalized": "Maybe(a-\u003e[a]-\u003e[a])-\u003eSGam b a-\u003eSGam b a-\u003eSGam b a",
@@ -9690,6 +10516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eequivalent of unzip\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamUnzip",
           "package": "uhc-util",
@@ -9700,6 +10527,7 @@
         "index": {
           "description": "equivalent of unzip",
           "hierarchy": "UHC Util ScopeMapGam",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.ScopeMapGam",
           "name": "sgamUnzip",
           "normalized": "SGam a(b,b)-\u003e(SGam a b,SGam a b)",
@@ -9715,6 +10543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "Serialize",
           "package": "uhc-util",
@@ -9723,6 +10552,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "Serialize",
           "package": "uhc-util",
@@ -9736,6 +10566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "SGet",
           "package": "uhc-util",
@@ -9744,6 +10575,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "SGet",
           "package": "uhc-util",
@@ -9757,6 +10589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "SPut",
           "package": "uhc-util",
@@ -9765,6 +10598,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "SPut",
           "package": "uhc-util",
@@ -9778,6 +10612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "Serialize",
           "package": "uhc-util",
@@ -9786,6 +10621,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "Serialize",
           "package": "uhc-util",
@@ -9800,6 +10636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSGet from FilePath\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "getSGetFile",
           "package": "uhc-util",
@@ -9810,6 +10647,7 @@
         "index": {
           "description": "SGet from FilePath",
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "getSGetFile",
           "normalized": "FilePath-\u003eSGet a-\u003eIO a",
@@ -9826,6 +10664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnserialize from FilePath\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "getSerializeFile",
           "package": "uhc-util",
@@ -9836,6 +10675,7 @@
         "index": {
           "description": "Unserialize from FilePath",
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "getSerializeFile",
           "normalized": "FilePath-\u003eIO a",
@@ -9852,6 +10692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSPut to FilePath\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "putSPutFile",
           "package": "uhc-util",
@@ -9862,6 +10703,7 @@
         "index": {
           "description": "SPut to FilePath",
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "putSPutFile",
           "normalized": "FilePath-\u003eSPut-\u003eIO()",
@@ -9878,6 +10720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize to FilePath\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "putSerializeFile",
           "package": "uhc-util",
@@ -9888,6 +10731,7 @@
         "index": {
           "description": "Serialize to FilePath",
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "putSerializeFile",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -9903,6 +10747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "runSGet",
           "package": "uhc-util",
@@ -9912,6 +10757,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "runSGet",
           "normalized": "SGet a-\u003eGet a",
@@ -9927,6 +10773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "runSPut",
           "package": "uhc-util",
@@ -9936,6 +10783,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "runSPut",
           "normalized": "SPut-\u003ePut",
@@ -9951,6 +10799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "serialize",
           "package": "uhc-util",
@@ -9960,6 +10809,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "serialize",
           "normalized": "a-\u003ePut",
@@ -9974,6 +10824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sget",
           "package": "uhc-util",
@@ -9983,6 +10834,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sget",
           "package": "uhc-util",
@@ -9995,6 +10847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sgetEnum8",
           "package": "uhc-util",
@@ -10004,6 +10857,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sgetEnum8",
           "package": "uhc-util",
@@ -10017,6 +10871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sgetNested",
           "package": "uhc-util",
@@ -10026,6 +10881,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sgetNested",
           "package": "uhc-util",
@@ -10039,6 +10895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sgetPlain",
           "package": "uhc-util",
@@ -10048,6 +10905,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sgetPlain",
           "package": "uhc-util",
@@ -10061,6 +10919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sgetShared",
           "package": "uhc-util",
@@ -10070,6 +10929,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sgetShared",
           "package": "uhc-util",
@@ -10083,6 +10943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sgetWord16",
           "package": "uhc-util",
@@ -10092,6 +10953,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sgetWord16",
           "package": "uhc-util",
@@ -10105,6 +10967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sgetWord8",
           "package": "uhc-util",
@@ -10114,6 +10977,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sgetWord8",
           "package": "uhc-util",
@@ -10127,6 +10991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sput",
           "package": "uhc-util",
@@ -10136,6 +11001,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sput",
           "normalized": "a-\u003eSPut",
@@ -10150,6 +11016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sputEnum8",
           "package": "uhc-util",
@@ -10159,6 +11026,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sputEnum8",
           "normalized": "a-\u003eSPut",
@@ -10174,6 +11042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sputNested",
           "package": "uhc-util",
@@ -10183,6 +11052,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sputNested",
           "normalized": "a-\u003eSPut",
@@ -10198,6 +11068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sputPlain",
           "package": "uhc-util",
@@ -10207,6 +11078,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sputPlain",
           "normalized": "a-\u003eSPut",
@@ -10222,6 +11094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sputShared",
           "package": "uhc-util",
@@ -10231,6 +11104,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sputShared",
           "normalized": "a-\u003eSPut",
@@ -10246,6 +11120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sputUnshared",
           "package": "uhc-util",
@@ -10255,6 +11130,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sputUnshared",
           "normalized": "a-\u003eSPut",
@@ -10270,6 +11146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sputWord16",
           "package": "uhc-util",
@@ -10279,6 +11156,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sputWord16",
           "normalized": "Word-\u003eSPut",
@@ -10294,6 +11172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "sputWord8",
           "package": "uhc-util",
@@ -10303,6 +11182,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "sputWord8",
           "normalized": "Word-\u003eSPut",
@@ -10318,6 +11198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Serialize",
           "name": "unserialize",
           "package": "uhc-util",
@@ -10327,6 +11208,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Serialize",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Serialize",
           "name": "unserialize",
           "package": "uhc-util",
@@ -10339,6 +11221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Time",
           "name": "Time",
           "package": "uhc-util",
@@ -10347,6 +11230,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Time",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Time",
           "name": "Time",
           "package": "uhc-util",
@@ -10361,6 +11245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea for now alias for old-time ClockTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Time",
           "name": "ClockTime",
           "package": "uhc-util",
@@ -10370,6 +11255,7 @@
         "index": {
           "description": "for now alias for old-time ClockTime",
           "hierarchy": "UHC Util Time",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Time",
           "name": "ClockTime",
           "package": "uhc-util",
@@ -10383,6 +11269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Time",
           "name": "diffClockTimes",
           "package": "uhc-util",
@@ -10392,6 +11279,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Time",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Time",
           "name": "diffClockTimes",
           "normalized": "UTCTime-\u003eUTCTime-\u003eNominalDiffTime",
@@ -10407,6 +11295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Time",
           "name": "getClockTime",
           "package": "uhc-util",
@@ -10416,6 +11305,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Time",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Time",
           "name": "getClockTime",
           "package": "uhc-util",
@@ -10429,6 +11319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Time",
           "name": "noTimeDiff",
           "package": "uhc-util",
@@ -10438,6 +11329,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Time",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Time",
           "name": "noTimeDiff",
           "package": "uhc-util",
@@ -10451,6 +11343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "Utils",
           "package": "uhc-util",
@@ -10459,6 +11352,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "Utils",
           "package": "uhc-util",
@@ -10472,6 +11366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "($?)",
           "package": "uhc-util",
@@ -10481,6 +11376,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "($?) $?",
           "normalized": "(a-\u003eMaybe b)-\u003eMaybe a-\u003eMaybe b",
@@ -10496,6 +11392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003econsecutiveBy\u003c/a\u003e\u003c/code\u003e function groups like groupBy, but based on a function which says whether 2 elements are consecutive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "consecutiveBy",
           "package": "uhc-util",
@@ -10506,6 +11403,7 @@
         "index": {
           "description": "The consecutiveBy function groups like groupBy but based on function which says whether elements are consecutive",
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "consecutiveBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -10521,6 +11419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "firstNotEmpty",
           "package": "uhc-util",
@@ -10530,6 +11429,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "firstNotEmpty",
           "normalized": "[[a]]-\u003e[a]",
@@ -10545,6 +11445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "groupByOn",
           "package": "uhc-util",
@@ -10554,6 +11455,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "groupByOn",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e(b-\u003ea)-\u003e[b]-\u003e[[b]]",
@@ -10569,6 +11471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "groupOn",
           "package": "uhc-util",
@@ -10578,6 +11481,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "groupOn",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[[a]]",
@@ -10593,6 +11497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "groupSortByOn",
           "package": "uhc-util",
@@ -10602,6 +11507,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "groupSortByOn",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e(b-\u003ea)-\u003e[b]-\u003e[[b]]",
@@ -10617,6 +11523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "groupSortOn",
           "package": "uhc-util",
@@ -10626,6 +11533,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "groupSortOn",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[[a]]",
@@ -10641,6 +11549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "hdAndTl",
           "package": "uhc-util",
@@ -10650,6 +11559,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "hdAndTl",
           "normalized": "[a]-\u003e(a,[a])",
@@ -10665,6 +11575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "hdAndTl'",
           "package": "uhc-util",
@@ -10674,6 +11585,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "hdAndTl'",
           "normalized": "a-\u003e[a]-\u003e(a,[a])",
@@ -10689,6 +11601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "initlast",
           "package": "uhc-util",
@@ -10698,6 +11611,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "initlast",
           "normalized": "[a]-\u003eMaybe([a],a)",
@@ -10712,6 +11626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "initlast2",
           "package": "uhc-util",
@@ -10721,6 +11636,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "initlast2",
           "normalized": "[a]-\u003eMaybe([a],a,a)",
@@ -10735,6 +11651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "inverseMap",
           "package": "uhc-util",
@@ -10744,6 +11661,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "inverseMap",
           "normalized": "(a-\u003eb-\u003e(c,d))-\u003eMap a b-\u003eMap c d",
@@ -10759,6 +11677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "isSortedByOn",
           "package": "uhc-util",
@@ -10768,6 +11687,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "isSortedByOn",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e(b-\u003ea)-\u003e[b]-\u003eBool",
@@ -10784,6 +11704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariation on last which returns empty value instead of\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "last'",
           "package": "uhc-util",
@@ -10794,6 +11715,7 @@
         "index": {
           "description": "variation on last which returns empty value instead of",
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "last'",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -10808,6 +11730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "listSaturate",
           "package": "uhc-util",
@@ -10817,6 +11740,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "listSaturate",
           "normalized": "a-\u003ea-\u003e(b-\u003ea)-\u003e(a-\u003eb)-\u003e[b]-\u003e[b]",
@@ -10832,6 +11756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "listSaturateWith",
           "package": "uhc-util",
@@ -10841,6 +11766,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "listSaturateWith",
           "normalized": "a-\u003ea-\u003e(b-\u003ea)-\u003e[(a,b)]-\u003e[b]-\u003e[b]",
@@ -10857,6 +11783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edouble lookup\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "mapLookup2",
           "package": "uhc-util",
@@ -10867,6 +11794,7 @@
         "index": {
           "description": "double lookup",
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "mapLookup2",
           "normalized": "a-\u003ea-\u003eMap a(Map a b)-\u003eMaybe b",
@@ -10883,6 +11811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edouble lookup, with transformer for 2nd map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "mapLookup2'",
           "package": "uhc-util",
@@ -10893,6 +11822,7 @@
         "index": {
           "description": "double lookup with transformer for nd map",
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "mapLookup2'",
           "normalized": "(a-\u003eMap b a)-\u003eb-\u003eb-\u003eMap b a-\u003eMaybe(Map b a,a)",
@@ -10908,6 +11838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "maybeAnd",
           "package": "uhc-util",
@@ -10917,6 +11848,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "maybeAnd",
           "normalized": "a-\u003e(b-\u003ec-\u003ea)-\u003eMaybe b-\u003eMaybe c-\u003ea",
@@ -10932,6 +11864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "maybeHd",
           "package": "uhc-util",
@@ -10941,6 +11874,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "maybeHd",
           "normalized": "a-\u003e(b-\u003ea)-\u003e[b]-\u003ea",
@@ -10956,6 +11890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "maybeNull",
           "package": "uhc-util",
@@ -10965,6 +11900,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "maybeNull",
           "normalized": "a-\u003e([b]-\u003ea)-\u003e[b]-\u003ea",
@@ -10980,6 +11916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "maybeOr",
           "package": "uhc-util",
@@ -10989,6 +11926,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "maybeOr",
           "normalized": "a-\u003e(b-\u003ea)-\u003e(c-\u003ea)-\u003eMaybe b-\u003eMaybe c-\u003ea",
@@ -11004,6 +11942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "nubOn",
           "package": "uhc-util",
@@ -11013,6 +11952,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "nubOn",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[a]",
@@ -11028,6 +11968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "orMb",
           "package": "uhc-util",
@@ -11037,6 +11978,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "orMb",
           "normalized": "Maybe a-\u003eMaybe a-\u003eMaybe a",
@@ -11052,6 +11994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "orderingLexic",
           "package": "uhc-util",
@@ -11061,6 +12004,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "orderingLexic",
           "normalized": "[Ordering]-\u003eOrdering",
@@ -11076,6 +12020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "panic",
           "package": "uhc-util",
@@ -11085,6 +12030,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "panic",
           "normalized": "[Char]-\u003ea",
@@ -11099,6 +12045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "panicJust",
           "package": "uhc-util",
@@ -11108,6 +12055,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "panicJust",
           "normalized": "String-\u003eMaybe a-\u003ea",
@@ -11124,6 +12072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartition, but also return a function which will rebuild according to the original ordering of list elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "partitionAndRebuild",
           "package": "uhc-util",
@@ -11134,6 +12083,7 @@
         "index": {
           "description": "Partition but also return function which will rebuild according to the original ordering of list elements",
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "partitionAndRebuild",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e([a],[a],[b]-\u003e[b]-\u003e[b])",
@@ -11149,6 +12099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "scc",
           "package": "uhc-util",
@@ -11158,6 +12109,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "scc",
           "normalized": "[(a,[a])]-\u003e[[a]]",
@@ -11172,6 +12124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "showStringMapKeys",
           "package": "uhc-util",
@@ -11181,6 +12134,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "showStringMapKeys",
           "normalized": "Map String a-\u003eString-\u003eString",
@@ -11196,6 +12150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "sortByOn",
           "package": "uhc-util",
@@ -11205,6 +12160,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "sortByOn",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e(b-\u003ea)-\u003e[b]-\u003e[b]",
@@ -11220,6 +12176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "sortOn",
           "package": "uhc-util",
@@ -11229,6 +12186,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "sortOn",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[a]",
@@ -11244,6 +12202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "spanOnRest",
           "package": "uhc-util",
@@ -11253,6 +12212,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "spanOnRest",
           "normalized": "([a]-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -11268,6 +12228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "splitForQualified",
           "package": "uhc-util",
@@ -11277,6 +12238,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "splitForQualified",
           "normalized": "String-\u003e[String]",
@@ -11292,6 +12254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "strCapitalize",
           "package": "uhc-util",
@@ -11301,6 +12264,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "strCapitalize",
           "normalized": "String-\u003eString",
@@ -11316,6 +12280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "strPad",
           "package": "uhc-util",
@@ -11325,6 +12290,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "strPad",
           "normalized": "String-\u003eInt-\u003eString",
@@ -11340,6 +12306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "strToInt",
           "package": "uhc-util",
@@ -11349,6 +12316,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "strToInt",
           "normalized": "String-\u003eInt",
@@ -11364,6 +12332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "strWhite",
           "package": "uhc-util",
@@ -11373,6 +12342,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "strWhite",
           "normalized": "Int-\u003eString",
@@ -11388,6 +12358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "tup123to1",
           "package": "uhc-util",
@@ -11397,6 +12368,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "tup123to1",
           "normalized": "(a,a,a)-\u003ea",
@@ -11411,6 +12383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "tup123to12",
           "package": "uhc-util",
@@ -11420,6 +12393,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "tup123to12",
           "normalized": "(a,a,a)-\u003e(a,a)",
@@ -11434,6 +12408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "tup123to2",
           "package": "uhc-util",
@@ -11443,6 +12418,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "tup123to2",
           "normalized": "(a,a,a)-\u003ea",
@@ -11457,6 +12433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "tup123to23",
           "package": "uhc-util",
@@ -11466,6 +12443,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "tup123to23",
           "normalized": "(a,a,a)-\u003e(a,a)",
@@ -11480,6 +12458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "tup12to123",
           "package": "uhc-util",
@@ -11489,6 +12468,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "tup12to123",
           "normalized": "a-\u003e(a,a)-\u003e(a,a,a)",
@@ -11503,6 +12483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "unionMapSet",
           "package": "uhc-util",
@@ -11512,6 +12493,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "unionMapSet",
           "normalized": "(a-\u003eSet b)-\u003eSet a-\u003eSet b",
@@ -11527,6 +12509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.Utils",
           "name": "wordsBy",
           "package": "uhc-util",
@@ -11536,6 +12519,7 @@
         },
         "index": {
           "hierarchy": "UHC Util Utils",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.Utils",
           "name": "wordsBy",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -11551,6 +12535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookup",
           "package": "uhc-util",
@@ -11559,6 +12544,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookup",
           "package": "uhc-util",
@@ -11573,6 +12559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLevel to lookup into\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "MetaLev",
           "package": "uhc-util",
@@ -11582,6 +12569,7 @@
         "index": {
           "description": "Level to lookup into",
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "MetaLev",
           "package": "uhc-util",
@@ -11596,6 +12584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarLookup abstracts from a Map.\nThe purpose is to be able to combine maps only for the purpose of searching without actually merging the maps.\nThis then avoids the later need to unmerge such mergings.\nThe class interface serves to hide this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookup",
           "package": "uhc-util",
@@ -11605,6 +12594,7 @@
         "index": {
           "description": "VarLookup abstracts from Map The purpose is to be able to combine maps only for the purpose of searching without actually merging the maps This then avoids the later need to unmerge such mergings The class interface serves to hide this",
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookup",
           "package": "uhc-util",
@@ -11618,6 +12608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookupBase",
           "package": "uhc-util",
@@ -11626,6 +12617,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookupBase",
           "package": "uhc-util",
@@ -11640,6 +12632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarLookupCmb abstracts the \u003ccode\u003ecombining\u003c/code\u003e of/from a substitution.\nThe interface goes along with VarLookup but is split off to avoid functional dependency restrictions.\nThe purpose is to be able to combine maps only for the purpose of searching without actually merging the maps.\nThis then avoids the later need to unmerge such mergings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookupCmb",
           "package": "uhc-util",
@@ -11649,6 +12642,7 @@
         "index": {
           "description": "VarLookupCmb abstracts the combining of from substitution The interface goes along with VarLookup but is split off to avoid functional dependency restrictions The purpose is to be able to combine maps only for the purpose of searching without actually merging the maps This then avoids the later need to unmerge such mergings",
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookupCmb",
           "package": "uhc-util",
@@ -11662,6 +12656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookupCmbFix",
           "package": "uhc-util",
@@ -11670,6 +12665,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookupCmbFix",
           "package": "uhc-util",
@@ -11683,6 +12679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookupFix",
           "package": "uhc-util",
@@ -11691,6 +12688,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "VarLookupFix",
           "package": "uhc-util",
@@ -11704,6 +12702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "(|+\u003e)",
           "package": "uhc-util",
@@ -11713,6 +12712,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "(|+\u003e) |+\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -11727,6 +12727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "varlookup",
           "package": "uhc-util",
@@ -11736,6 +12737,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "varlookup",
           "normalized": "a-\u003eb-\u003eMaybe c",
@@ -11750,6 +12752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupEmpty",
           "package": "uhc-util",
@@ -11759,6 +12762,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupEmpty",
           "package": "uhc-util",
@@ -11773,6 +12777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efix looking up to be for a certain var mapping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupFix",
           "package": "uhc-util",
@@ -11783,6 +12788,7 @@
         "index": {
           "description": "fix looking up to be for certain var mapping",
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupFix",
           "normalized": "a-\u003eVarLookupFix b c",
@@ -11799,6 +12805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimulate deletion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupFixDel",
           "package": "uhc-util",
@@ -11809,6 +12816,7 @@
         "index": {
           "description": "simulate deletion",
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupFixDel",
           "normalized": "[a]-\u003eVarLookupFix a b-\u003eVarLookupFix a b",
@@ -11824,6 +12832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupMap",
           "package": "uhc-util",
@@ -11833,6 +12842,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupMap",
           "normalized": "(a-\u003eMaybe b)-\u003ec-\u003ed-\u003eMaybe b",
@@ -11848,6 +12858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupWithMetaLev",
           "package": "uhc-util",
@@ -11857,6 +12868,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupWithMetaLev",
           "normalized": "MetaLev-\u003ea-\u003eb-\u003eMaybe c",
@@ -11873,6 +12885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efix combining up to be for a certain var mapping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupcmbFix",
           "package": "uhc-util",
@@ -11883,6 +12896,7 @@
         "index": {
           "description": "fix combining up to be for certain var mapping",
           "hierarchy": "UHC Util VarLookup",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarLookup",
           "name": "varlookupcmbFix",
           "package": "uhc-util",
@@ -11897,6 +12911,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA VarMp maps from variables (tvars, ...) to whatever else has to be\nmapped to (Ty, ...).\n\u003c/p\u003e\u003cp\u003eStarting with variant 6 (which introduces kinds) it allows multiple meta\nlevel mapping, in that the VarMp holds mappings for multiple meta\nlevels. This allows one map to both map to base level info and to higher\nlevels. In particular this is used by fitsIn which also instantiates\ntypes, and types may quantify over type variables with other kinds than\nkind *, which must be propagated. A separate map could have been used,\nbut this holds the info together and is extendible to more levels.\n\u003c/p\u003e\u003cp\u003eA multiple level VarMp knows its own absolute metalevel, which is the default to use for lookup.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "VarMp",
           "package": "uhc-util",
@@ -11906,6 +12921,7 @@
         "index": {
           "description": "VarMp maps from variables tvars to whatever else has to be mapped to Ty Starting with variant which introduces kinds it allows multiple meta level mapping in that the VarMp holds mappings for multiple meta levels This allows one map to both map to base level info and to higher levels In particular this is used by fitsIn which also instantiates types and types may quantify over type variables with other kinds than kind which must be propagated separate map could have been used but this holds the info together and is extendible to more levels multiple level VarMp knows its own absolute metalevel which is the default to use for lookup",
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "VarMp",
           "package": "uhc-util",
@@ -11919,6 +12935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "VarMp'",
           "package": "uhc-util",
@@ -11927,6 +12944,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "VarMp'",
           "package": "uhc-util",
@@ -11940,6 +12958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "VarMpStk'",
           "package": "uhc-util",
@@ -11948,6 +12967,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "VarMpStk'",
           "package": "uhc-util",
@@ -11961,6 +12981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "(|\\\u003e)",
           "package": "uhc-util",
@@ -11970,6 +12991,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "(|\\\u003e) |\\\u003e",
           "normalized": "VarMp' a b-\u003e[a]-\u003eVarMp' a b",
@@ -11984,6 +13006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "VarMp",
           "package": "uhc-util",
@@ -11993,6 +13016,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "VarMp",
           "package": "uhc-util",
@@ -12006,6 +13030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "assocLToVarMp",
           "package": "uhc-util",
@@ -12015,6 +13040,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "assocLToVarMp",
           "normalized": "AssocL a b-\u003eVarMp' a b",
@@ -12030,6 +13056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "assocMetaLevLToVarMp",
           "package": "uhc-util",
@@ -12039,6 +13066,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "assocMetaLevLToVarMp",
           "normalized": "AssocL a(MetaLev,b)-\u003eVarMp' a b",
@@ -12054,6 +13082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "emptyVarMp",
           "package": "uhc-util",
@@ -12063,6 +13092,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "emptyVarMp",
           "package": "uhc-util",
@@ -12076,6 +13106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "emptyVarMpStk",
           "package": "uhc-util",
@@ -12085,6 +13116,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "emptyVarMpStk",
           "package": "uhc-util",
@@ -12098,6 +13130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "mkVarMp",
           "package": "uhc-util",
@@ -12107,6 +13140,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "mkVarMp",
           "normalized": "Map a b-\u003eVarMp' a b",
@@ -12122,6 +13156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "ppVarMp",
           "package": "uhc-util",
@@ -12131,6 +13166,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "ppVarMp",
           "normalized": "([PP_Doc]-\u003ePP_Doc)-\u003eVarMp' a b-\u003ePP_Doc",
@@ -12146,6 +13182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "ppVarMpV",
           "package": "uhc-util",
@@ -12155,6 +13192,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "ppVarMpV",
           "normalized": "VarMp' a b-\u003ePP_Doc",
@@ -12171,6 +13209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlter irrespective of level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpAlter",
           "package": "uhc-util",
@@ -12181,6 +13220,7 @@
         "index": {
           "description": "Alter irrespective of level",
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpAlter",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eb-\u003eVarMp' b a-\u003eVarMp' b a",
@@ -12197,6 +13237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract first level map, together with a construction function putting a new map into the place of the previous one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpAsMap",
           "package": "uhc-util",
@@ -12207,6 +13248,7 @@
         "index": {
           "description": "Extract first level map together with construction function putting new map into the place of the previous one",
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpAsMap",
           "normalized": "VarMp' a b-\u003e(Map a b,Map a b-\u003eVarMp' a b)",
@@ -12222,6 +13264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpDecMetaLev",
           "package": "uhc-util",
@@ -12231,6 +13274,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpDecMetaLev",
           "normalized": "VarMp' a b-\u003eVarMp' a b",
@@ -12247,6 +13291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpDel",
           "package": "uhc-util",
@@ -12257,6 +13302,7 @@
         "index": {
           "description": "Delete",
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpDel",
           "normalized": "[a]-\u003eVarMp' a b-\u003eVarMp' a b",
@@ -12272,6 +13318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpFilter",
           "package": "uhc-util",
@@ -12281,6 +13328,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpFilter",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eVarMp' a b-\u003eVarMp' a b",
@@ -12296,6 +13344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpIncMetaLev",
           "package": "uhc-util",
@@ -12305,6 +13354,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpIncMetaLev",
           "normalized": "VarMp' a b-\u003eVarMp' a b",
@@ -12320,6 +13370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpInsertWith",
           "package": "uhc-util",
@@ -12329,6 +13380,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpInsertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb-\u003ea-\u003eVarMp' b a-\u003eVarMp' b a",
@@ -12344,6 +13396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpIsEmpty",
           "package": "uhc-util",
@@ -12353,6 +13406,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpIsEmpty",
           "normalized": "VarMp' a b-\u003eBool",
@@ -12368,6 +13422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpKeys",
           "package": "uhc-util",
@@ -12377,6 +13432,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpKeys",
           "normalized": "VarMp' a b-\u003e[a]",
@@ -12392,6 +13448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpKeysSet",
           "package": "uhc-util",
@@ -12401,6 +13458,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpKeysSet",
           "normalized": "VarMp' a b-\u003eSet a",
@@ -12416,6 +13474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpLookup",
           "package": "uhc-util",
@@ -12425,6 +13484,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpLookup",
           "normalized": "a-\u003eb-\u003eMaybe c",
@@ -12440,6 +13500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpMap",
           "package": "uhc-util",
@@ -12449,6 +13510,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpMap",
           "normalized": "(a-\u003eb)-\u003eVarMp' c a-\u003eVarMp' c b",
@@ -12464,6 +13526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpMapMaybe",
           "package": "uhc-util",
@@ -12473,6 +13536,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpMapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eVarMp' c a-\u003eVarMp' c b",
@@ -12489,6 +13553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe base meta level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpMetaLev",
           "package": "uhc-util",
@@ -12499,6 +13564,7 @@
         "index": {
           "description": "the base meta level",
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpMetaLev",
           "package": "uhc-util",
@@ -12512,6 +13578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpMetaLevSingleton",
           "package": "uhc-util",
@@ -12521,6 +13588,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpMetaLevSingleton",
           "normalized": "MetaLev-\u003ea-\u003eb-\u003eVarMp' a b",
@@ -12537,6 +13605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor each level a map, starting at the base meta level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpMpL",
           "package": "uhc-util",
@@ -12547,6 +13616,7 @@
         "index": {
           "description": "for each level map starting at the base meta level",
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpMpL",
           "normalized": "[Map a b]",
@@ -12562,6 +13632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpPlus",
           "package": "uhc-util",
@@ -12571,6 +13642,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpPlus",
           "normalized": "VarMp' a b-\u003eVarMp' a b-\u003eVarMp' a b",
@@ -12586,6 +13658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpSelectMetaLev",
           "package": "uhc-util",
@@ -12595,6 +13668,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpSelectMetaLev",
           "normalized": "[MetaLev]-\u003eVarMp' a b-\u003eVarMp' a b",
@@ -12610,6 +13684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpShiftMetaLev",
           "package": "uhc-util",
@@ -12619,6 +13694,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpShiftMetaLev",
           "normalized": "MetaLev-\u003eVarMp' a b-\u003eVarMp' a b",
@@ -12634,6 +13710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpSingleton",
           "package": "uhc-util",
@@ -12643,6 +13720,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpSingleton",
           "normalized": "a-\u003eb-\u003eVarMp' a b",
@@ -12658,6 +13736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpSize",
           "package": "uhc-util",
@@ -12667,6 +13746,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpSize",
           "normalized": "VarMp' a b-\u003eInt",
@@ -12682,6 +13762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpToAssocL",
           "package": "uhc-util",
@@ -12691,6 +13772,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpToAssocL",
           "normalized": "VarMp' a b-\u003eAssocL a b",
@@ -12706,6 +13788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpToMap",
           "package": "uhc-util",
@@ -12715,6 +13798,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpToMap",
           "normalized": "VarMp' a b-\u003eMap a b",
@@ -12730,6 +13814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpUnion",
           "package": "uhc-util",
@@ -12739,6 +13824,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpUnion",
           "normalized": "VarMp' a b-\u003eVarMp' a b-\u003eVarMp' a b",
@@ -12755,6 +13841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecombine by taking the lowest level, adapting the lists with maps accordingly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpUnionWith",
           "package": "uhc-util",
@@ -12765,6 +13852,7 @@
         "index": {
           "description": "combine by taking the lowest level adapting the lists with maps accordingly",
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpUnionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVarMp' b a-\u003eVarMp' b a-\u003eVarMp' b a",
@@ -12780,6 +13868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpUnions",
           "package": "uhc-util",
@@ -12789,6 +13878,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpUnions",
           "normalized": "[VarMp' a b]-\u003eVarMp' a b",
@@ -12804,6 +13894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkKeysSet",
           "package": "uhc-util",
@@ -12813,6 +13904,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkKeysSet",
           "normalized": "VarMpStk' a b-\u003eSet a",
@@ -12828,6 +13920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkPop",
           "package": "uhc-util",
@@ -12837,6 +13930,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkPop",
           "normalized": "VarMpStk' a b-\u003e(VarMpStk' a b,VarMpStk' a b)",
@@ -12852,6 +13946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkPushEmpty",
           "package": "uhc-util",
@@ -12861,6 +13956,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkPushEmpty",
           "normalized": "VarMpStk' a b-\u003eVarMpStk' a b",
@@ -12876,6 +13972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkToAssocL",
           "package": "uhc-util",
@@ -12885,6 +13982,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkToAssocL",
           "normalized": "VarMpStk' a b-\u003eAssocL a b",
@@ -12900,6 +13998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkUnions",
           "package": "uhc-util",
@@ -12909,6 +14008,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkUnions",
           "normalized": "[VarMpStk' a b]-\u003eVarMpStk' a b",
@@ -12924,6 +14024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:46 UTC 2014",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkUnit",
           "package": "uhc-util",
@@ -12933,6 +14034,7 @@
         },
         "index": {
           "hierarchy": "UHC Util VarMp",
+          "indexed": "2014-03-11T20:28:46",
           "module": "UHC.Util.VarMp",
           "name": "varmpstkUnit",
           "normalized": "a-\u003eb-\u003eVarMpStk' a b",

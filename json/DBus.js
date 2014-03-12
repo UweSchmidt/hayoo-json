@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DBus"
+        "phrase": "DBus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "Connection",
           "package": "DBus",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "Connection",
           "package": "DBus",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple buses may be active simultaneously on a single system.\n  The BusType indicates which one to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "BusType",
           "package": "DBus",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Multiple buses may be active simultaneously on single system The BusType indicates which one to use",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "BusType",
           "package": "DBus",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "Connection",
           "package": "DBus",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "Connection",
           "package": "DBus",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "RequestNameReply",
           "package": "DBus",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "RequestNameReply",
           "package": "DBus",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "AlreadyOwner",
           "package": "DBus",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "AlreadyOwner",
           "package": "DBus",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "Exists",
           "package": "DBus",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "Exists",
           "package": "DBus",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "InQueue",
           "package": "DBus",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "InQueue",
           "package": "DBus",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "PrimaryOwner",
           "package": "DBus",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "PrimaryOwner",
           "package": "DBus",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe session bus is restricted to the user's current\n  GNOME session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "Session",
           "package": "DBus",
@@ -203,6 +220,7 @@
         "index": {
           "description": "The session bus is restricted to the user current GNOME session",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "Session",
           "package": "DBus",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bus that started us, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "Starter",
           "package": "DBus",
@@ -227,6 +246,7 @@
         "index": {
           "description": "The bus that started us if any",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "Starter",
           "package": "DBus",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis bus is system-wide.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "System",
           "package": "DBus",
@@ -251,6 +272,7 @@
         "index": {
           "description": "This bus is system-wide",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "System",
           "package": "DBus",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "addFilter",
           "package": "DBus",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "addFilter",
           "normalized": "Connection-\u003e(Message-\u003eIO Bool)-\u003eIO()",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "addMatch",
           "package": "DBus",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "addMatch",
           "normalized": "Connection-\u003eBool-\u003eString-\u003eIO()",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce the dereference of a connection. Note that this is usually not\n necessary since the connections are garbage collected automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "busConnectionUnref",
           "package": "DBus",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Force the dereference of connection Note that this is usually not necessary since the connections are garbage collected automatically",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "busConnectionUnref",
           "normalized": "Connection-\u003eIO()",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to a standard bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "busGet",
           "package": "DBus",
@@ -347,6 +376,7 @@
         "index": {
           "description": "Connect to standard bus",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "busGet",
           "normalized": "BusType-\u003eIO Connection",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "busRequestName",
           "package": "DBus",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "busRequestName",
           "normalized": "Connection-\u003eString-\u003e[Int]-\u003eIO RequestNameReply",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "close",
           "package": "DBus",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "close",
           "normalized": "Connection-\u003eIO()",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock until all pending messages have been sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "flush",
           "package": "DBus",
@@ -420,6 +455,7 @@
         "index": {
           "description": "Block until all pending messages have been sent",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "flush",
           "normalized": "Connection-\u003eIO()",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock until a message is read or written, then return True unless a\n disconnect message is received.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "readWriteDispatch",
           "package": "DBus",
@@ -444,6 +481,7 @@
         "index": {
           "description": "Block until message is read or written then return True unless disconnect message is received",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "readWriteDispatch",
           "normalized": "Connection-\u003eInt-\u003eIO Bool",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e to the outgoing message queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "send",
           "package": "DBus",
@@ -469,6 +508,7 @@
         "index": {
           "description": "Adds Message to the outgoing message queue",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "send",
           "normalized": "Connection-\u003eMessage-\u003eWord-\u003eIO Word",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "sendWithReplyAndBlock",
           "package": "DBus",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "sendWithReplyAndBlock",
           "normalized": "Connection-\u003eMessage-\u003eInt-\u003eIO Message",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a connection and run an IO action, ensuring it is properly closed when\n you're done.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "withConnection",
           "package": "DBus",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Open connection and run an IO action ensuring it is properly closed when you re done",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Connection",
           "name": "withConnection",
           "normalized": "BusType-\u003e(Connection-\u003eIO a)-\u003eIO a",
@@ -532,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Message",
           "package": "DBus",
@@ -540,6 +585,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Message",
           "package": "DBus",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Arg",
           "package": "DBus",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Arg",
           "package": "DBus",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Message",
           "package": "DBus",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Message",
           "package": "DBus",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Type",
           "package": "DBus",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Type",
           "package": "DBus",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Array",
           "package": "DBus",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Array",
           "normalized": "Array String[Arg]",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Boolean",
           "package": "DBus",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Boolean",
           "package": "DBus",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Byte",
           "package": "DBus",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Byte",
           "package": "DBus",
@@ -684,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "ByteString",
           "package": "DBus",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "ByteString",
           "package": "DBus",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "DictEntry",
           "package": "DBus",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "DictEntry",
           "package": "DBus",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Double",
           "package": "DBus",
@@ -737,6 +800,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Double",
           "package": "DBus",
@@ -750,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Error",
           "package": "DBus",
@@ -759,6 +824,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Error",
           "package": "DBus",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Int16",
           "package": "DBus",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Int16",
           "package": "DBus",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Int32",
           "package": "DBus",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Int32",
           "package": "DBus",
@@ -816,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Int64",
           "package": "DBus",
@@ -825,6 +896,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Int64",
           "package": "DBus",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Invalid",
           "package": "DBus",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Invalid",
           "package": "DBus",
@@ -860,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "MethodCall",
           "package": "DBus",
@@ -869,6 +944,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "MethodCall",
           "package": "DBus",
@@ -882,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "MethodReturn",
           "package": "DBus",
@@ -891,6 +968,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "MethodReturn",
           "package": "DBus",
@@ -904,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "ObjectPath",
           "package": "DBus",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "ObjectPath",
           "package": "DBus",
@@ -926,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Other",
           "package": "DBus",
@@ -935,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Other",
           "package": "DBus",
@@ -948,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Signal",
           "package": "DBus",
@@ -957,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Signal",
           "package": "DBus",
@@ -970,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "String",
           "package": "DBus",
@@ -979,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "String",
           "package": "DBus",
@@ -992,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Struct",
           "package": "DBus",
@@ -1001,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Struct",
           "normalized": "Struct[Arg]",
@@ -1016,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "TypeSignature",
           "package": "DBus",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "TypeSignature",
           "package": "DBus",
@@ -1038,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Variant",
           "package": "DBus",
@@ -1047,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Variant",
           "package": "DBus",
@@ -1060,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Word16",
           "package": "DBus",
@@ -1069,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Word16",
           "package": "DBus",
@@ -1082,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Word32",
           "package": "DBus",
@@ -1091,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Word32",
           "package": "DBus",
@@ -1104,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Word64",
           "package": "DBus",
@@ -1113,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "Word64",
           "package": "DBus",
@@ -1127,6 +1225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd arguments to a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "addArgs",
           "package": "DBus",
@@ -1137,6 +1236,7 @@
         "index": {
           "description": "Add arguments to message",
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "addArgs",
           "normalized": "Message-\u003e[Arg]-\u003eIO()",
@@ -1153,6 +1253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the arguments from a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "args",
           "package": "DBus",
@@ -1163,6 +1264,7 @@
         "index": {
           "description": "Retrieve the arguments from message",
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "args",
           "normalized": "Message-\u003e[Arg]",
@@ -1177,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "getDestination",
           "package": "DBus",
@@ -1186,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "getDestination",
           "normalized": "Message-\u003eIO(Maybe String)",
@@ -1201,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "getErrorName",
           "package": "DBus",
@@ -1210,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "getErrorName",
           "normalized": "Message-\u003eIO(Maybe String)",
@@ -1225,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "getInterface",
           "package": "DBus",
@@ -1234,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "getInterface",
           "normalized": "Message-\u003eIO(Maybe String)",
@@ -1249,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "getMember",
           "package": "DBus",
@@ -1258,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "getMember",
           "normalized": "Message-\u003eIO(Maybe String)",
@@ -1273,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "getPath",
           "package": "DBus",
@@ -1282,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "getPath",
           "normalized": "Message-\u003eIO(Maybe String)",
@@ -1297,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "getSender",
           "package": "DBus",
@@ -1306,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "getSender",
           "normalized": "Message-\u003eIO(Maybe String)",
@@ -1321,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "getSignature",
           "package": "DBus",
@@ -1330,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "getSignature",
           "normalized": "Message-\u003eIO String",
@@ -1345,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "getType",
           "package": "DBus",
@@ -1354,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "getType",
           "normalized": "Message-\u003eIO Type",
@@ -1369,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "newMethodCall",
           "package": "DBus",
@@ -1377,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "newMethodCall",
           "normalized": "ServiceName-\u003ePathName-\u003eInterfaceName-\u003eString-\u003eIO Message",
@@ -1392,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "newSignal",
           "package": "DBus",
@@ -1400,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "newSignal",
           "normalized": "PathName-\u003eInterfaceName-\u003eString-\u003eIO Message",
@@ -1415,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "signature",
           "package": "DBus",
@@ -1424,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "signature",
           "normalized": "Arg-\u003e[Char]",
@@ -1438,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "stringSig",
           "package": "DBus",
@@ -1447,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "stringSig",
           "package": "DBus",
@@ -1460,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus.Message",
           "name": "variantSig",
           "package": "DBus",
@@ -1469,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus.Message",
           "name": "variantSig",
           "normalized": "[Char]",
@@ -1484,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "DBus",
           "package": "DBus",
@@ -1492,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "DBus",
           "package": "DBus",
@@ -1506,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003es carry a name (like \"org.freedesktop.dbus.Foo\") and a\n message (like \"connection failed\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "Error",
           "package": "DBus",
@@ -1515,6 +1646,7 @@
         "index": {
           "description": "Error carry name like org.freedesktop.dbus.Foo and message like connection failed",
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "Error",
           "package": "DBus",
@@ -1528,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "InterfaceName",
           "package": "DBus",
@@ -1536,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "InterfaceName",
           "package": "DBus",
@@ -1549,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "PathName",
           "package": "DBus",
@@ -1557,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "PathName",
           "package": "DBus",
@@ -1570,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "ServiceName",
           "package": "DBus",
@@ -1578,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "ServiceName",
           "package": "DBus",
@@ -1591,6 +1729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "Error",
           "package": "DBus",
@@ -1600,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "Error",
           "package": "DBus",
@@ -1613,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "interfaceDBus",
           "package": "DBus",
@@ -1622,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "interfaceDBus",
           "package": "DBus",
@@ -1635,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "interfaceIntrospectable",
           "package": "DBus",
@@ -1644,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "interfaceIntrospectable",
           "package": "DBus",
@@ -1657,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "interfaceLocal",
           "package": "DBus",
@@ -1666,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "interfaceLocal",
           "package": "DBus",
@@ -1679,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "pathDBus",
           "package": "DBus",
@@ -1688,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "pathDBus",
           "package": "DBus",
@@ -1701,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "pathLocal",
           "package": "DBus",
@@ -1710,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "pathLocal",
           "package": "DBus",
@@ -1723,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:57 UTC 2014",
           "module": "DBus",
           "name": "serviceDBus",
           "package": "DBus",
@@ -1732,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "DBus",
+          "indexed": "2014-03-11T16:37:57",
           "module": "DBus",
           "name": "serviceDBus",
           "package": "DBus",

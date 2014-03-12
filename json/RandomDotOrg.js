@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "RandomDotOrg"
+        "phrase": "RandomDotOrg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "Used to check how much of your random.org quota you have. Please see\n \u003ca\u003ehttp://random.org/quota\u003c/a\u003e for more info.\n",
+          "indexed": "Tue Mar 11 16:58:30 UTC 2014",
           "module": "System.Random.Atmosphere",
           "name": "3AgetQuota",
           "package": "RandomDotOrg",
@@ -29,6 +30,7 @@
         "index": {
           "description": "Used to check how much of your random.org quota you have Please see http random.org quota for more info",
           "hierarchy": "System Random Atmosphere",
+          "indexed": "2014-03-11T16:58:30",
           "module": "System.Random.Atmosphere",
           "name": "3AgetQuota",
           "package": "RandomDotOrg",
@@ -43,6 +45,7 @@
       "document": {
         "description": {
           "description": "Number of integers to get\nMinimum number\nMaximum number\nReturns either an error string or the list of integers\n",
+          "indexed": "Tue Mar 11 16:58:30 UTC 2014",
           "module": "System.Random.Atmosphere",
           "name": "3AgetRandomNumbers",
           "package": "RandomDotOrg",
@@ -53,6 +56,7 @@
         "index": {
           "description": "Number of integers to get Minimum number Maximum number Returns either an error string or the list of integers",
           "hierarchy": "System Random Atmosphere",
+          "indexed": "2014-03-11T16:58:30",
           "module": "System.Random.Atmosphere",
           "name": "3AgetRandomNumbers",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eIO(Either String[Int])",
@@ -69,6 +73,7 @@
       "document": {
         "description": {
           "description": "Minimum\nMaximum\n",
+          "indexed": "Tue Mar 11 16:58:30 UTC 2014",
           "module": "System.Random.Atmosphere",
           "name": "3AgetRandomSequence",
           "package": "RandomDotOrg",
@@ -79,6 +84,7 @@
         "index": {
           "description": "Minimum Maximum",
           "hierarchy": "System Random Atmosphere",
+          "indexed": "2014-03-11T16:58:30",
           "module": "System.Random.Atmosphere",
           "name": "3AgetRandomSequence",
           "normalized": "Int-\u003eInt-\u003eIO(Either String[Int])",
@@ -95,6 +101,7 @@
       "document": {
         "description": {
           "description": "Number of strings requested, max is 10,000\nLength of each string, max is 20\nShould digits be allowed?\nShould uppercase be allowed?\nShould lowercase be allowed?\nShould each string be unique?\n",
+          "indexed": "Tue Mar 11 16:58:30 UTC 2014",
           "module": "System.Random.Atmosphere",
           "name": "3AgetRandomStrings",
           "package": "RandomDotOrg",
@@ -105,6 +112,7 @@
         "index": {
           "description": "Number of strings requested max is Length of each string max is Should digits be allowed Should uppercase be allowed Should lowercase be allowed Should each string be unique",
           "hierarchy": "System Random Atmosphere",
+          "indexed": "2014-03-11T16:58:30",
           "module": "System.Random.Atmosphere",
           "name": "3AgetRandomStrings",
           "normalized": "Int-\u003eInt-\u003eBool-\u003eBool-\u003eBool-\u003eBool-\u003eIO(Either String[String])",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "samtools-iteratee"
+        "phrase": "samtools-iteratee",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:11 UTC 2014",
           "module": "Bio.SamTools.Iteratee",
           "name": "Iteratee",
           "package": "samtools-iteratee",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bio SamTools Iteratee",
+          "indexed": "2014-03-11T19:57:11",
           "module": "Bio.SamTools.Iteratee",
           "name": "Iteratee",
           "package": "samtools-iteratee",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:11 UTC 2014",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumBam",
           "package": "samtools-iteratee",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Bio SamTools Iteratee",
+          "indexed": "2014-03-11T19:57:11",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumBam",
           "normalized": "FilePath-\u003eEnumerator[Bam]IO a",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:11 UTC 2014",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumBamRegion",
           "package": "samtools-iteratee",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Bio SamTools Iteratee",
+          "indexed": "2014-03-11T19:57:11",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumBamRegion",
           "normalized": "FilePath-\u003eByteString-\u003e(Int,Int)-\u003eEnumerator[Bam]IO a",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:11 UTC 2014",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumInHandle",
           "package": "samtools-iteratee",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Bio SamTools Iteratee",
+          "indexed": "2014-03-11T19:57:11",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumInHandle",
           "normalized": "InHandle-\u003eEnumerator[Bam]IO a",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:11 UTC 2014",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumIndexRegion",
           "package": "samtools-iteratee",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Bio SamTools Iteratee",
+          "indexed": "2014-03-11T19:57:11",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumIndexRegion",
           "normalized": "IdxHandle-\u003eInt-\u003e(Int,Int)-\u003eEnumerator[Bam]IO a",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:11 UTC 2014",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumQuery",
           "package": "samtools-iteratee",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Bio SamTools Iteratee",
+          "indexed": "2014-03-11T19:57:11",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumQuery",
           "normalized": "Query-\u003eEnumerator[Bam]IO a",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:11 UTC 2014",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumTam",
           "package": "samtools-iteratee",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Bio SamTools Iteratee",
+          "indexed": "2014-03-11T19:57:11",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumTam",
           "normalized": "FilePath-\u003eEnumerator[Bam]IO a",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:11 UTC 2014",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumTamWithIndex",
           "package": "samtools-iteratee",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Bio SamTools Iteratee",
+          "indexed": "2014-03-11T19:57:11",
           "module": "Bio.SamTools.Iteratee",
           "name": "enumTamWithIndex",
           "normalized": "FilePath-\u003eFilePath-\u003eEnumerator[Bam]IO a",

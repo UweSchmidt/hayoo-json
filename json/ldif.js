@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ldif"
+        "phrase": "ldif",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Apply",
           "name": "Apply",
           "package": "ldif",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Apply",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Apply",
           "name": "Apply",
           "package": "ldif",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply operations in second LDIF on content of first LDIF. The destination LDIF has\n to be Content LDIF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Apply",
           "name": "applyLDIF",
           "package": "ldif",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Apply operations in second LDIF on content of first LDIF The destination LDIF has to be Content LDIF",
           "hierarchy": "Text LDIF Apply",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Apply",
           "name": "applyLDIF",
           "normalized": "LDIF-\u003eLDIF-\u003eLDIF",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Consts",
           "name": "Consts",
           "package": "ldif",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Consts",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Consts",
           "name": "Consts",
           "package": "ldif",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChars necessary to be escaped in DN when they are part of value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Consts",
           "name": "escapedDNChars",
           "package": "ldif",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Chars necessary to be escaped in DN when they are part of value",
           "hierarchy": "Text LDIF Consts",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Consts",
           "name": "escapedDNChars",
           "normalized": "[Char]",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChars with special meaning in DN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Consts",
           "name": "specialDNChars",
           "package": "ldif",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Chars with special meaning in DN",
           "hierarchy": "Text LDIF Consts",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Consts",
           "name": "specialDNChars",
           "normalized": "[Char]",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Diff",
           "name": "Diff",
           "package": "ldif",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Diff",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Diff",
           "name": "Diff",
           "package": "ldif",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two LDIFs and provide list of the Records for each input LDIF,\n which are different or not present in the other LDIF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Diff",
           "name": "compareLDIF",
           "package": "ldif",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Compare two LDIFs and provide list of the Records for each input LDIF which are different or not present in the other LDIF",
           "hierarchy": "Text LDIF Diff",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Diff",
           "name": "compareLDIF",
           "normalized": "LDIF-\u003eLDIF-\u003e([LDIFRecord],[LDIFRecord])",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate Change LDIF between two LDIF contents.\n If there is not difference the empty change list is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Diff",
           "name": "diffLDIF",
           "package": "ldif",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Calculate Change LDIF between two LDIF contents If there is not difference the empty change list is returned",
           "hierarchy": "Text LDIF Diff",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Diff",
           "name": "diffLDIF",
           "normalized": "LDIF-\u003eLDIF-\u003eEither String LDIF",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate difference between two LDIF Records\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Diff",
           "name": "diffRecord",
           "package": "ldif",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Calculate difference between two LDIF Records",
           "hierarchy": "Text LDIF Diff",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Diff",
           "name": "diffRecord",
           "normalized": "LDIFRecord-\u003eLDIFRecord-\u003eMaybe LDIFRecord",
@@ -237,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Parser",
           "name": "Parser",
           "package": "ldif",
@@ -245,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Parser",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Parser",
           "name": "Parser",
           "package": "ldif",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLDIF Parser configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Parser",
           "name": "LDIFParserConfig",
           "package": "ldif",
@@ -268,6 +289,7 @@
         "index": {
           "description": "LDIF Parser configuration",
           "hierarchy": "Text LDIF Parser",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Parser",
           "name": "LDIFParserConfig",
           "package": "ldif",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse as Case Sensitive LDIF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Parser",
           "name": "LDIFParserConfig",
           "package": "ldif",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Parse as Case Sensitive LDIF",
           "hierarchy": "Text LDIF Parser",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Parser",
           "name": "LDIFParserConfig",
           "package": "ldif",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault configuration for parser (Any LDIF Type, Case Sensitive)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Parser",
           "name": "defaulLDIFConf",
           "package": "ldif",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Default configuration for parser Any LDIF Type Case Sensitive",
           "hierarchy": "Text LDIF Parser",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Parser",
           "name": "defaulLDIFConf",
           "package": "ldif",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Parser",
           "name": "lpCaseSensitive",
           "package": "ldif",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Parser",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Parser",
           "name": "lpCaseSensitive",
           "package": "ldif",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of LDIF expected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Parser",
           "name": "lpExpectedType",
           "package": "ldif",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Type of LDIF expected",
           "hierarchy": "Text LDIF Parser",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Parser",
           "name": "lpExpectedType",
           "package": "ldif",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse DN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Parser",
           "name": "parseDNStr",
           "package": "ldif",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Parse DN",
           "hierarchy": "Text LDIF Parser",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Parser",
           "name": "parseDNStr",
           "normalized": "LDIFParserConfig-\u003eByteString-\u003eEither ParseError DN",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse LDIF file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Parser",
           "name": "parseLDIFFile",
           "package": "ldif",
@@ -412,6 +445,7 @@
         "index": {
           "description": "Parse LDIF file",
           "hierarchy": "Text LDIF Parser",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Parser",
           "name": "parseLDIFFile",
           "normalized": "LDIFParserConfig-\u003eFilePath-\u003eIO(Either ParseError LDIF)",
@@ -428,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse LDIF content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Parser",
           "name": "parseLDIFStr",
           "package": "ldif",
@@ -438,6 +473,7 @@
         "index": {
           "description": "Parse LDIF content",
           "hierarchy": "Text LDIF Parser",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Parser",
           "name": "parseLDIFStr",
           "normalized": "LDIFParserConfig-\u003eFilePath-\u003eByteString-\u003eEither ParseError LDIF",
@@ -479,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Preproc",
           "name": "Preproc",
           "package": "ldif",
@@ -487,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Preproc",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Preproc",
           "name": "Preproc",
           "package": "ldif",
@@ -501,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque data necessary for relation between text after preprocessing and original\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Preproc",
           "name": "PosTable",
           "package": "ldif",
@@ -510,6 +549,7 @@
         "index": {
           "description": "Opaque data necessary for relation between text after preprocessing and original",
           "hierarchy": "Text LDIF Preproc",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Preproc",
           "name": "PosTable",
           "package": "ldif",
@@ -524,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert error position to original text before preprocessing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Preproc",
           "name": "transposePos",
           "package": "ldif",
@@ -534,6 +575,7 @@
         "index": {
           "description": "Convert error position to original text before preprocessing",
           "hierarchy": "Text LDIF Preproc",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Preproc",
           "name": "transposePos",
           "normalized": "PosTable-\u003eParseError-\u003eParseError",
@@ -550,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLDIF serializers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Printer",
           "name": "Printer",
           "package": "ldif",
@@ -559,6 +602,7 @@
         "index": {
           "description": "LDIF serializers",
           "hierarchy": "Text LDIF Printer",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Printer",
           "name": "Printer",
           "package": "ldif",
@@ -573,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize DN to LDIF Format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Printer",
           "name": "dn2str",
           "package": "ldif",
@@ -583,6 +628,7 @@
         "index": {
           "description": "Serialize DN to LDIF Format",
           "hierarchy": "Text LDIF Printer",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Printer",
           "name": "dn2str",
           "normalized": "DN-\u003eByteString",
@@ -598,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize LDIF in LDIF Format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Printer",
           "name": "ldif2str",
           "package": "ldif",
@@ -608,6 +655,7 @@
         "index": {
           "description": "Serialize LDIF in LDIF Format",
           "hierarchy": "Text LDIF Printer",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Printer",
           "name": "ldif2str",
           "normalized": "LDIF-\u003eByteString",
@@ -623,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize Content Record in LDIF Format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Printer",
           "name": "record2str",
           "package": "ldif",
@@ -633,6 +682,7 @@
         "index": {
           "description": "Serialize Content Record in LDIF Format",
           "hierarchy": "Text LDIF Printer",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Printer",
           "name": "record2str",
           "normalized": "LDIFRecord-\u003eByteString",
@@ -648,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize version to LDIF Format Lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Printer",
           "name": "ver2str",
           "package": "ldif",
@@ -658,6 +709,7 @@
         "index": {
           "description": "Serialize version to LDIF Format Lines",
           "hierarchy": "Text LDIF Printer",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Printer",
           "name": "ver2str",
           "normalized": "Maybe ByteString-\u003e[ByteString]",
@@ -673,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLDIF representation in Data.Tree structure\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Tree",
           "name": "Tree",
           "package": "ldif",
@@ -682,6 +735,7 @@
         "index": {
           "description": "LDIF representation in Data.Tree structure",
           "hierarchy": "Text LDIF Tree",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Tree",
           "name": "Tree",
           "package": "ldif",
@@ -696,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten Tree of Records to LDIF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Tree",
           "name": "fromTree",
           "package": "ldif",
@@ -706,6 +761,7 @@
         "index": {
           "description": "Flatten Tree of Records to LDIF",
           "hierarchy": "Text LDIF Tree",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Tree",
           "name": "fromTree",
           "normalized": "Tree LDIFRecord-\u003eLDIF",
@@ -722,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort recursively children Records by DNs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Tree",
           "name": "sortTreeByName",
           "package": "ldif",
@@ -732,6 +789,7 @@
         "index": {
           "description": "Sort recursively children Records by DNs",
           "hierarchy": "Text LDIF Tree",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Tree",
           "name": "sortTreeByName",
           "normalized": "Tree LDIFRecord-\u003eTree LDIFRecord",
@@ -748,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert LDIF to Tree of Records using their DNs. Can insert dummy parents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Tree",
           "name": "toTree",
           "package": "ldif",
@@ -758,6 +817,7 @@
         "index": {
           "description": "Convert LDIF to Tree of Records using their DNs Can insert dummy parents",
           "hierarchy": "Text LDIF Tree",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Tree",
           "name": "toTree",
           "normalized": "LDIF-\u003eBool-\u003eTree LDIFRecord",
@@ -774,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLDIF related types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "Types",
           "package": "ldif",
@@ -783,6 +844,7 @@
         "index": {
           "description": "LDIF related types",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "Types",
           "package": "ldif",
@@ -797,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePair of Atribute and Value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "AttrValue",
           "package": "ldif",
@@ -806,6 +869,7 @@
         "index": {
           "description": "Pair of Atribute and Value",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "AttrValue",
           "package": "ldif",
@@ -820,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute name is case-insensitive string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "Attribute",
           "package": "ldif",
@@ -829,6 +894,7 @@
         "index": {
           "description": "Attribute name is case-insensitive string",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "Attribute",
           "package": "ldif",
@@ -843,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents one LDAP operation within changes LDIF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "Change",
           "package": "ldif",
@@ -852,6 +919,7 @@
         "index": {
           "description": "Represents one LDAP operation within changes LDIF",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "Change",
           "package": "ldif",
@@ -866,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents Distinguished Name (DN)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "DN",
           "package": "ldif",
@@ -875,6 +944,7 @@
         "index": {
           "description": "Represents Distinguished Name DN",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "DN",
           "package": "ldif",
@@ -889,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents LDIF structure, it can be either simply LDIF data dump or\n changes LDIF with LDAP operations \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "LDIF",
           "package": "ldif",
@@ -898,6 +969,7 @@
         "index": {
           "description": "Represents LDIF structure it can be either simply LDIF data dump or changes LDIF with LDAP operations",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "LDIF",
           "package": "ldif",
@@ -911,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "LDIFRecord",
           "package": "ldif",
@@ -919,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "LDIFRecord",
           "package": "ldif",
@@ -933,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration LDIF Types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "LDIFType",
           "package": "ldif",
@@ -942,6 +1017,7 @@
         "index": {
           "description": "Enumeration LDIF Types",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "LDIFType",
           "package": "ldif",
@@ -956,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents ChangeModify operations upon one entry within given DN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "Modify",
           "package": "ldif",
@@ -965,6 +1042,7 @@
         "index": {
           "description": "Represents ChangeModify operations upon one entry within given DN",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "Modify",
           "package": "ldif",
@@ -979,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute value is either case sensitive or insensitive string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "Value",
           "package": "ldif",
@@ -988,6 +1067,7 @@
         "index": {
           "description": "Attribute value is either case sensitive or insensitive string",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "Value",
           "package": "ldif",
@@ -1001,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "Attribute",
           "package": "ldif",
@@ -1010,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "Attribute",
           "package": "ldif",
@@ -1023,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "ChangeAdd",
           "package": "ldif",
@@ -1032,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "ChangeAdd",
           "package": "ldif",
@@ -1045,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "ChangeDelete",
           "package": "ldif",
@@ -1054,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "ChangeDelete",
           "package": "ldif",
@@ -1067,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "ChangeModDN",
           "package": "ldif",
@@ -1076,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "ChangeModDN",
           "package": "ldif",
@@ -1089,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "ChangeModify",
           "package": "ldif",
@@ -1098,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "ChangeModify",
           "package": "ldif",
@@ -1112,6 +1202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents one change record within LDIF file with DN and content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "ChangeRecord",
           "package": "ldif",
@@ -1122,6 +1213,7 @@
         "index": {
           "description": "Represents one change record within LDIF file with DN and content",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "ChangeRecord",
           "package": "ldif",
@@ -1136,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents one data record within LDIF file with DN and content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "ContentRecord",
           "package": "ldif",
@@ -1146,6 +1239,7 @@
         "index": {
           "description": "Represents one data record within LDIF file with DN and content",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "ContentRecord",
           "package": "ldif",
@@ -1159,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "DN",
           "package": "ldif",
@@ -1168,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "DN",
           "package": "ldif",
@@ -1181,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "LDIF",
           "package": "ldif",
@@ -1190,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "LDIF",
           "package": "ldif",
@@ -1204,6 +1302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLDIF with Changes Records\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "LDIFChangesType",
           "package": "ldif",
@@ -1214,6 +1313,7 @@
         "index": {
           "description": "LDIF with Changes Records",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "LDIFChangesType",
           "package": "ldif",
@@ -1228,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLDIF with Content Records\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "LDIFContentType",
           "package": "ldif",
@@ -1238,6 +1339,7 @@
         "index": {
           "description": "LDIF with Content Records",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "LDIFContentType",
           "package": "ldif",
@@ -1252,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLDIF with both Content and Changes Records\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "LDIFMixedType",
           "package": "ldif",
@@ -1262,6 +1365,7 @@
         "index": {
           "description": "LDIF with both Content and Changes Records",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "LDIFMixedType",
           "package": "ldif",
@@ -1275,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "ModAdd",
           "package": "ldif",
@@ -1284,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "ModAdd",
           "package": "ldif",
@@ -1297,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "ModDelete",
           "package": "ldif",
@@ -1306,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "ModDelete",
           "package": "ldif",
@@ -1319,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "ModReplace",
           "package": "ldif",
@@ -1328,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "ModReplace",
           "package": "ldif",
@@ -1341,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "Value",
           "package": "ldif",
@@ -1350,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "Value",
           "package": "ldif",
@@ -1363,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "ValueI",
           "package": "ldif",
@@ -1372,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "ValueI",
           "package": "ldif",
@@ -1385,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "aName",
           "package": "ldif",
@@ -1394,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "aName",
           "package": "ldif",
@@ -1407,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "aVal",
           "package": "ldif",
@@ -1416,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "aVal",
           "package": "ldif",
@@ -1429,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "chAttrVals",
           "package": "ldif",
@@ -1438,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "chAttrVals",
           "normalized": "[AttrValue]",
@@ -1453,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "chMods",
           "package": "ldif",
@@ -1462,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "chMods",
           "normalized": "[Modify]",
@@ -1477,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "chOp",
           "package": "ldif",
@@ -1486,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "chOp",
           "package": "ldif",
@@ -1499,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "coAttrVals",
           "package": "ldif",
@@ -1508,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "coAttrVals",
           "normalized": "[AttrValue]",
@@ -1523,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "dnAttrVals",
           "package": "ldif",
@@ -1532,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "dnAttrVals",
           "normalized": "[AttrValue]",
@@ -1548,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDettect from LDIF content the Type (Content, Changes, Mixed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "getLDIFType",
           "package": "ldif",
@@ -1558,6 +1687,7 @@
         "index": {
           "description": "Dettect from LDIF content the Type Content Changes Mixed",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "getLDIFType",
           "normalized": "LDIF-\u003eLDIFType",
@@ -1574,6 +1704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if LDIFRecord is Change Record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "isChangeRecord",
           "package": "ldif",
@@ -1584,6 +1715,7 @@
         "index": {
           "description": "Check if LDIFRecord is Change Record",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "isChangeRecord",
           "normalized": "LDIFRecord-\u003eBool",
@@ -1600,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if LDIFRecord is Content Record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "isContentRecord",
           "package": "ldif",
@@ -1610,6 +1743,7 @@
         "index": {
           "description": "Check if LDIFRecord is Content Record",
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "isContentRecord",
           "normalized": "LDIFRecord-\u003eBool",
@@ -1625,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "lcEntries",
           "package": "ldif",
@@ -1634,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "lcEntries",
           "normalized": "[LDIFRecord]",
@@ -1649,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "lcVersion",
           "package": "ldif",
@@ -1658,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "lcVersion",
           "package": "ldif",
@@ -1671,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "modAttr",
           "package": "ldif",
@@ -1680,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "modAttr",
           "package": "ldif",
@@ -1693,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "modAttrVals",
           "package": "ldif",
@@ -1702,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "modAttrVals",
           "normalized": "[Value]",
@@ -1717,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Types",
           "name": "reDN",
           "package": "ldif",
@@ -1726,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Types",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Types",
           "name": "reDN",
           "package": "ldif",
@@ -1739,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Undo",
           "name": "Undo",
           "package": "ldif",
@@ -1747,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Undo",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Undo",
           "name": "Undo",
           "package": "ldif",
@@ -1761,6 +1907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate undo LDIF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Undo",
           "name": "undoLDIF",
           "package": "ldif",
@@ -1771,6 +1918,7 @@
         "index": {
           "description": "Calculate undo LDIF",
           "hierarchy": "Text LDIF Undo",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Undo",
           "name": "undoLDIF",
           "normalized": "LDIF-\u003e(LDIF,[[Warning]])",
@@ -1787,6 +1935,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLDIF related operations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "Utils",
           "package": "ldif",
@@ -1796,6 +1945,7 @@
         "index": {
           "description": "LDIF related operations",
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "Utils",
           "package": "ldif",
@@ -1809,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "LDIFCache",
           "package": "ldif",
@@ -1817,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "LDIFCache",
           "package": "ldif",
@@ -1830,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "createLookupTable",
           "package": "ldif",
@@ -1839,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "createLookupTable",
           "normalized": "LDIF-\u003eLDIFCache",
@@ -1855,6 +2009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter Attribute Value list according Attribute name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "filterAttr",
           "package": "ldif",
@@ -1865,6 +2020,7 @@
         "index": {
           "description": "Filter Attribute Value list according Attribute name",
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "filterAttr",
           "normalized": "ByteString-\u003e[AttrValue]-\u003e[AttrValue]",
@@ -1881,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind first Content with given DN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "findRecordByDN",
           "package": "ldif",
@@ -1891,6 +2048,7 @@
         "index": {
           "description": "Find first Content with given DN",
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "findRecordByDN",
           "normalized": "LDIFCache-\u003eDN-\u003eMaybe LDIFRecord",
@@ -1907,6 +2065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all Contents with given DN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "findRecordsByDN",
           "package": "ldif",
@@ -1917,6 +2076,7 @@
         "index": {
           "description": "Find all Contents with given DN",
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "findRecordsByDN",
           "normalized": "LDIF-\u003eDN-\u003e[LDIFRecord]",
@@ -1932,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "getDNValue",
           "package": "ldif",
@@ -1941,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "getDNValue",
           "normalized": "DN-\u003eInt-\u003eAttrValue",
@@ -1957,6 +2119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the dn1 is prefix of dn2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "isDNPrefixOf",
           "package": "ldif",
@@ -1967,6 +2130,7 @@
         "index": {
           "description": "Check if the dn1 is prefix of dn2",
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "isDNPrefixOf",
           "normalized": "DN-\u003eDN-\u003eBool",
@@ -1983,6 +2147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange record without any impact\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "isDummyRecord",
           "package": "ldif",
@@ -1993,6 +2158,7 @@
         "index": {
           "description": "Change record without any impact",
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "isDummyRecord",
           "normalized": "LDIFRecord-\u003eBool",
@@ -2008,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "isParentRecordOf",
           "package": "ldif",
@@ -2017,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "isParentRecordOf",
           "normalized": "LDIFRecord-\u003eLDIFRecord-\u003eBool",
@@ -2033,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake LDIF Values case-insensitive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "ldif2ldifI",
           "package": "ldif",
@@ -2043,6 +2212,7 @@
         "index": {
           "description": "Make LDIF Values case-insensitive",
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "ldif2ldifI",
           "normalized": "LDIF-\u003eLDIF",
@@ -2057,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "leafOfDN",
           "package": "ldif",
@@ -2066,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "leafOfDN",
           "normalized": "DN-\u003eAttrValue",
@@ -2081,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "lengthOfDN",
           "package": "ldif",
@@ -2090,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "lengthOfDN",
           "normalized": "DN-\u003eInt",
@@ -2106,6 +2280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind fist Attribute within attributes pairs list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "lookupAttr",
           "package": "ldif",
@@ -2116,6 +2291,7 @@
         "index": {
           "description": "Find fist Attribute within attributes pairs list",
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "lookupAttr",
           "normalized": "ByteString-\u003e[AttrValue]-\u003eMaybe Value",
@@ -2131,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "rootOfDN",
           "package": "ldif",
@@ -2140,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "rootOfDN",
           "normalized": "DN-\u003eAttrValue",
@@ -2155,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF.Utils",
           "name": "takeDNPrefix",
           "package": "ldif",
@@ -2164,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF Utils",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF.Utils",
           "name": "takeDNPrefix",
           "normalized": "DN-\u003eInt-\u003eDN",
@@ -2179,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:04 UTC 2014",
           "module": "Text.LDIF",
           "name": "LDIF",
           "package": "ldif",
@@ -2187,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Text LDIF",
+          "indexed": "2014-03-11T19:07:04",
           "module": "Text.LDIF",
           "name": "LDIF",
           "package": "ldif",

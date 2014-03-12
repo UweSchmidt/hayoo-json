@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-postgresql-orm"
+        "phrase": "simple-postgresql-orm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:56 UTC 2014",
           "module": "Web.Simple.PostgreSQL",
           "name": "PostgreSQL",
           "package": "simple-postgresql-orm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Simple PostgreSQL",
+          "indexed": "2014-03-11T20:02:56",
           "module": "Web.Simple.PostgreSQL",
           "name": "PostgreSQL",
           "package": "simple-postgresql-orm",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:56 UTC 2014",
           "module": "Web.Simple.PostgreSQL",
           "name": "HasPostgreSQL",
           "package": "simple-postgresql-orm",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Web Simple PostgreSQL",
+          "indexed": "2014-03-11T20:02:56",
           "module": "Web.Simple.PostgreSQL",
           "name": "HasPostgreSQL",
           "package": "simple-postgresql-orm",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:56 UTC 2014",
           "module": "Web.Simple.PostgreSQL",
           "name": "PostgreSQLConn",
           "package": "simple-postgresql-orm",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Web Simple PostgreSQL",
+          "indexed": "2014-03-11T20:02:56",
           "module": "Web.Simple.PostgreSQL",
           "name": "PostgreSQLConn",
           "package": "simple-postgresql-orm",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:56 UTC 2014",
           "module": "Web.Simple.PostgreSQL",
           "name": "createPostgreSQLConn",
           "package": "simple-postgresql-orm",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Web Simple PostgreSQL",
+          "indexed": "2014-03-11T20:02:56",
           "module": "Web.Simple.PostgreSQL",
           "name": "createPostgreSQLConn",
           "package": "simple-postgresql-orm",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:56 UTC 2014",
           "module": "Web.Simple.PostgreSQL",
           "name": "postgreSQLConn",
           "package": "simple-postgresql-orm",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Web Simple PostgreSQL",
+          "indexed": "2014-03-11T20:02:56",
           "module": "Web.Simple.PostgreSQL",
           "name": "postgreSQLConn",
           "normalized": "a-\u003ePostgreSQLConn",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:56 UTC 2014",
           "module": "Web.Simple.PostgreSQL",
           "name": "withConnection",
           "package": "simple-postgresql-orm",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Web Simple PostgreSQL",
+          "indexed": "2014-03-11T20:02:56",
           "module": "Web.Simple.PostgreSQL",
           "name": "withConnection",
           "normalized": "(Connection-\u003eController a b)-\u003eController a b",

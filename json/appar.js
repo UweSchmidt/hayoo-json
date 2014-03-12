@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "appar"
+        "phrase": "appar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple \u003ccode\u003eApplicative\u003c/code\u003e parser whose input is strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\nThe usage is the same as parsec.\n\u003c/p\u003e\u003cp\u003eParsec 3 provides features which Parsec 2 does not provide:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eApplicative\u003c/code\u003e style\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e as input\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eBut Haskell Platform includes Parsec 2, not Parsec 3. Installing\nParsec 3 to Haskell Platform environment makes it mess. So, this library\nwas implemented.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.ByteString",
           "name": "ByteString",
           "package": "appar",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple Applicative parser whose input is strict ByteString The usage is the same as parsec Parsec provides features which Parsec does not provide Applicative style ByteString as input But Haskell Platform includes Parsec not Parsec Installing Parsec to Haskell Platform environment makes it mess So this library was implemented",
           "hierarchy": "Text Appar ByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.ByteString",
           "name": "ByteString",
           "package": "appar",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class for parser input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.ByteString",
           "name": "Input",
           "package": "appar",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The class for parser input",
           "hierarchy": "Text Appar ByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.ByteString",
           "name": "Input",
           "package": "appar",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.ByteString",
           "name": "MkParser",
           "package": "appar",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text Appar ByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.ByteString",
           "name": "MkParser",
           "package": "appar",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser synonym for strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.ByteString",
           "name": "Parser",
           "package": "appar",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Parser synonym for strict ByteString",
           "hierarchy": "Text Appar ByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.ByteString",
           "name": "Parser",
           "package": "appar",
@@ -356,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe head function for input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.ByteString",
           "name": "car",
           "package": "appar",
@@ -366,6 +375,7 @@
         "index": {
           "description": "The head function for input",
           "hierarchy": "Text Appar ByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.ByteString",
           "name": "car",
           "normalized": "a-\u003eChar",
@@ -381,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tail function for input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.ByteString",
           "name": "cdr",
           "package": "appar",
@@ -391,6 +402,7 @@
         "index": {
           "description": "The tail function for input",
           "hierarchy": "Text Appar ByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.ByteString",
           "name": "cdr",
           "normalized": "a-\u003ea",
@@ -507,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function to check the end of input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.ByteString",
           "name": "isNil",
           "package": "appar",
@@ -517,6 +530,7 @@
         "index": {
           "description": "The function to check the end of input",
           "hierarchy": "Text Appar ByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.ByteString",
           "name": "isNil",
           "normalized": "a-\u003eBool",
@@ -585,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe end of input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.ByteString",
           "name": "nil",
           "package": "appar",
@@ -595,6 +610,7 @@
         "index": {
           "description": "The end of input",
           "hierarchy": "Text Appar ByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.ByteString",
           "name": "nil",
           "package": "appar",
@@ -974,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple \u003ccode\u003eApplicative\u003c/code\u003e parser whose input is lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\nThe usage is the same as parsec.\n\u003c/p\u003e\u003cp\u003eParsec 3 provides features which Parsec 2 does not provide:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eApplicative\u003c/code\u003e style\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e as input\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eBut Haskell Platform includes Parsec 2, not Parsec 3. Installing\nParsec 3 to Haskell Platform environment makes it mess. So, this library\nwas implemented.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.LazyByteString",
           "name": "LazyByteString",
           "package": "appar",
@@ -983,6 +1000,7 @@
         "index": {
           "description": "Simple Applicative parser whose input is lazy ByteString The usage is the same as parsec Parsec provides features which Parsec does not provide Applicative style ByteString as input But Haskell Platform includes Parsec not Parsec Installing Parsec to Haskell Platform environment makes it mess So this library was implemented",
           "hierarchy": "Text Appar LazyByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.LazyByteString",
           "name": "LazyByteString",
           "package": "appar",
@@ -997,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class for parser input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.LazyByteString",
           "name": "Input",
           "package": "appar",
@@ -1006,6 +1025,7 @@
         "index": {
           "description": "The class for parser input",
           "hierarchy": "Text Appar LazyByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.LazyByteString",
           "name": "Input",
           "package": "appar",
@@ -1019,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.LazyByteString",
           "name": "MkParser",
           "package": "appar",
@@ -1027,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Text Appar LazyByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.LazyByteString",
           "name": "MkParser",
           "package": "appar",
@@ -1041,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser synonym for strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.LazyByteString",
           "name": "Parser",
           "package": "appar",
@@ -1050,6 +1073,7 @@
         "index": {
           "description": "Parser synonym for strict ByteString",
           "hierarchy": "Text Appar LazyByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.LazyByteString",
           "name": "Parser",
           "package": "appar",
@@ -1064,6 +1088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe head function for input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.LazyByteString",
           "name": "car",
           "package": "appar",
@@ -1074,6 +1099,7 @@
         "index": {
           "description": "The head function for input",
           "hierarchy": "Text Appar LazyByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.LazyByteString",
           "name": "car",
           "normalized": "a-\u003eChar",
@@ -1089,6 +1115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tail function for input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.LazyByteString",
           "name": "cdr",
           "package": "appar",
@@ -1099,6 +1126,7 @@
         "index": {
           "description": "The tail function for input",
           "hierarchy": "Text Appar LazyByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.LazyByteString",
           "name": "cdr",
           "normalized": "a-\u003ea",
@@ -1114,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function to check the end of input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.LazyByteString",
           "name": "isNil",
           "package": "appar",
@@ -1124,6 +1153,7 @@
         "index": {
           "description": "The function to check the end of input",
           "hierarchy": "Text Appar LazyByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.LazyByteString",
           "name": "isNil",
           "normalized": "a-\u003eBool",
@@ -1140,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe end of input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.LazyByteString",
           "name": "nil",
           "package": "appar",
@@ -1150,6 +1181,7 @@
         "index": {
           "description": "The end of input",
           "hierarchy": "Text Appar LazyByteString",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.LazyByteString",
           "name": "nil",
           "package": "appar",
@@ -1163,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple \u003ccode\u003eApplicative\u003c/code\u003e parser whose input is \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\nThe usage is the same as parsec.\n\u003c/p\u003e\u003cp\u003eParsec 3 provides features which Parsec 2 does not provide:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eApplicative\u003c/code\u003e style\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eByteString\u003c/code\u003e as input\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eBut Haskell Platform includes Parsec 2, not Parsec 3. Installing\nParsec 3 to Haskell Platform environment makes it mess. So, this library\nwas implemented.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.String",
           "name": "String",
           "package": "appar",
@@ -1172,6 +1205,7 @@
         "index": {
           "description": "Simple Applicative parser whose input is String The usage is the same as parsec Parsec provides features which Parsec does not provide Applicative style ByteString as input But Haskell Platform includes Parsec not Parsec Installing Parsec to Haskell Platform environment makes it mess So this library was implemented",
           "hierarchy": "Text Appar String",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.String",
           "name": "String",
           "package": "appar",
@@ -1186,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class for parser input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.String",
           "name": "Input",
           "package": "appar",
@@ -1195,6 +1230,7 @@
         "index": {
           "description": "The class for parser input",
           "hierarchy": "Text Appar String",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.String",
           "name": "Input",
           "package": "appar",
@@ -1208,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.String",
           "name": "MkParser",
           "package": "appar",
@@ -1216,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Text Appar String",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.String",
           "name": "MkParser",
           "package": "appar",
@@ -1230,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser synonym for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.String",
           "name": "Parser",
           "package": "appar",
@@ -1239,6 +1278,7 @@
         "index": {
           "description": "Parser synonym for String",
           "hierarchy": "Text Appar String",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.String",
           "name": "Parser",
           "package": "appar",
@@ -1253,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe head function for input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.String",
           "name": "car",
           "package": "appar",
@@ -1263,6 +1304,7 @@
         "index": {
           "description": "The head function for input",
           "hierarchy": "Text Appar String",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.String",
           "name": "car",
           "normalized": "a-\u003eChar",
@@ -1278,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tail function for input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.String",
           "name": "cdr",
           "package": "appar",
@@ -1288,6 +1331,7 @@
         "index": {
           "description": "The tail function for input",
           "hierarchy": "Text Appar String",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.String",
           "name": "cdr",
           "normalized": "a-\u003ea",
@@ -1303,6 +1347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function to check the end of input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.String",
           "name": "isNil",
           "package": "appar",
@@ -1313,6 +1358,7 @@
         "index": {
           "description": "The function to check the end of input",
           "hierarchy": "Text Appar String",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.String",
           "name": "isNil",
           "normalized": "a-\u003eBool",
@@ -1329,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe end of input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:40 UTC 2014",
           "module": "Text.Appar.String",
           "name": "nil",
           "package": "appar",
@@ -1339,6 +1386,7 @@
         "index": {
           "description": "The end of input",
           "hierarchy": "Text Appar String",
+          "indexed": "2014-03-11T17:11:40",
           "module": "Text.Appar.String",
           "name": "nil",
           "package": "appar",

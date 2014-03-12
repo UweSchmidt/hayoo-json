@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsshellscript"
+        "phrase": "hsshellscript",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a more convient way of parsing command line\n arguments than the GHC GetOpt package. It makes use of GetOpt, but hides\n it from the user. It is reexported from module HsShellScript.\n\u003c/p\u003e\u003cp\u003eFor each command line argument, a description is to be created with\n \u003ccode\u003eargdesc\u003c/code\u003e. Then the command line arguments are evaluated with\n one of the \u003ccode\u003egetargs\u003c/code\u003e... functions. In case of an error, this will cause a\n exception, which provides an expressive error message to be\n printed. Then the \u003ccode\u003earg\u003c/code\u003e... functions are used to extract the\n values contained in the arguments, with the right type. The typical use\n of HsShellScript.Args looks something like this:\n\u003c/p\u003e\u003cpre\u003eimport HsShellScript\n\nmain =\n   do let a_onevalue = argdesc [ desc_at_most_once, ... ]\n          a_values   = argdesc [ desc_direct, ... ]\n          a_switch   = argdesc [ ... ]\n          ...\n          header = \"mclapep - My Command Line Argument Parser Example Program, version 1.0.0\"\n\n      args \u003c- getargs header [a_onevalue, a_values, a_switch, ...]\n\n      val  \u003c- optarg_req a_onevalue args        -- val  :: Maybe String\n      vals \u003c- args_req   a_values args          -- vals :: [String]\n      doit \u003c- arg_switch a_switch args          -- doit :: Bool\n      ...\n   `catch` \n      (\\argerror -\u003e do\n          hPutStrLn stderr $ (argerror_message argerror) ++ \"\\n\\n\" ++ (argerror_usageinfo argerror)\n          exitFailure\n      )\n\u003c/pre\u003e\u003cp\u003eErrors in the argument descriptions are regarded as bugs, and handled\n by aborting the program with a message which is meaningful to the\n programmer. It is assumed that the argument description is a constant for\n a given program.\n\u003c/p\u003e\u003cp\u003eErrors in the arguments are reported using HsShellScript's error handling\n scheme. An error description\n value is generated, and either returned via an \u003ccode\u003eEither\u003c/code\u003e\n value, or thrown as an exception.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "Args",
           "package": "hsshellscript",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides more convient way of parsing command line arguments than the GHC GetOpt package It makes use of GetOpt but hides it from the user It is reexported from module HsShellScript For each command line argument description is to be created with argdesc Then the command line arguments are evaluated with one of the getargs functions In case of an error this will cause exception which provides an expressive error message to be printed Then the arg functions are used to extract the values contained in the arguments with the right type The typical use of HsShellScript.Args looks something like this import HsShellScript main do let onevalue argdesc desc at most once values argdesc desc direct switch argdesc header mclapep My Command Line Argument Parser Example Program version args getargs header onevalue values switch val optarg req onevalue args val Maybe String vals args req values args vals String doit arg switch switch args doit Bool catch argerror do hPutStrLn stderr argerror message argerror argerror usageinfo argerror exitFailure Errors in the argument descriptions are regarded as bugs and handled by aborting the program with message which is meaningful to the programmer It is assumed that the argument description is constant for given program Errors in the arguments are reported using HsShellScript error handling scheme An error description value is generated and either returned via an Either value or thrown as an exception",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "Args",
           "package": "hsshellscript",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError thrown when there is an error in the\n command line arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "ArgError",
           "package": "hsshellscript",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Error thrown when there is an error in the command line arguments",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "ArgError",
           "package": "hsshellscript",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument value tester function. This tests the format of an argument's value for errors. The tester function is specified by\n \u003ccode\u003e\u003ca\u003edesc_tester\u003c/a\u003e\u003c/code\u003e or such, as part of the argument description. \n\u003c/p\u003e\u003cp\u003eThe tester is passed the argument value. If the format is correct, then it returns \u003ccode\u003eNothing\u003c/code\u003e. If there is an error, then it returns \u003ccode\u003eJust msgf\u003c/code\u003e,\n with \u003ccode\u003emsgf\u003c/code\u003e being an error message generation function. This function gets passed the argument description, and produces the error\n message. The argument description typically is used to extract a descriptive name of the argument (using \u003ccode\u003e\u003ca\u003eargname\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eargname_a\u003c/a\u003e\u003c/code\u003e) to be included\n in the error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "Argtester",
           "package": "hsshellscript",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Argument value tester function This tests the format of an argument value for errors The tester function is specified by desc tester or such as part of the argument description The tester is passed the argument value If the format is correct then it returns Nothing If there is an error then it returns Just msgf with msgf being an error message generation function This function gets passed the argument description and produces the error message The argument description typically is used to extract descriptive name of the argument using argname or argname to be included in the error message",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "Argtester",
           "package": "hsshellscript",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of one command line argument. These are generated by\n \u003ccode\u003eargdesc\u003c/code\u003e from a list of argument properties, and subsequently used by one of the\n \u003ccode\u003egetargs\u003c/code\u003e... functions. This type is abstract.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "ArgumentDescription",
           "package": "hsshellscript",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Description of one command line argument These are generated by argdesc from list of argument properties and subsequently used by one of the getargs functions This type is abstract",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "ArgumentDescription",
           "package": "hsshellscript",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA property of a command line argument. These are generated by the\n \u003ccode\u003edesc_\u003c/code\u003e... functions, and condensed to argument\n descriptions of type \u003ccode\u003eArgumentDescription\u003c/code\u003e by \u003ccode\u003eargdesc\u003c/code\u003e. This type is abstract.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "ArgumentProperty",
           "package": "hsshellscript",
@@ -120,6 +129,7 @@
         "index": {
           "description": "property of command line argument These are generated by the desc functions and condensed to argument descriptions of type ArgumentDescription by argdesc This type is abstract",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "ArgumentProperty",
           "package": "hsshellscript",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the command line argument take an value?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "ArgumentValueSpec",
           "package": "hsshellscript",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Does the command line argument take an value",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "ArgumentValueSpec",
           "package": "hsshellscript",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis represents the parsed contents of the command line. It is returned\n by the \u003ccode\u003egetargs\u003c/code\u003e... functions, and passed on to the\n value extraction functions by the user.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003egetargs\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egetargs_ordered\u003c/a\u003e\u003c/code\u003e, 'getargs\\'', 'getargs_ordered\\''.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "Arguments",
           "package": "hsshellscript",
@@ -166,6 +179,7 @@
         "index": {
           "description": "This represents the parsed contents of the command line It is returned by the getargs functions and passed on to the value extraction functions by the user See getargs getargs ordered getargs getargs ordered",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "Arguments",
           "package": "hsshellscript",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "ArgError",
           "package": "hsshellscript",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "ArgError",
           "package": "hsshellscript",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "ArgumentDescription",
           "package": "hsshellscript",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "ArgumentDescription",
           "package": "hsshellscript",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "ArgumentValue_none",
           "package": "hsshellscript",
@@ -234,6 +253,7 @@
         "index": {
           "description": "No value",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "ArgumentValue_none",
           "package": "hsshellscript",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue optional\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "ArgumentValue_optional",
           "package": "hsshellscript",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Value optional",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "ArgumentValue_optional",
           "package": "hsshellscript",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue required\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "ArgumentValue_required",
           "package": "hsshellscript",
@@ -282,6 +305,7 @@
         "index": {
           "description": "Value required",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "ArgumentValue_required",
           "package": "hsshellscript",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the specified argument is present, then none of the other arguments may be present.\n\u003c/p\u003e\u003cp\u003eOtherwise throw an ArgError.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "arg_conflicts",
           "package": "hsshellscript",
@@ -305,6 +330,7 @@
         "index": {
           "description": "When the specified argument is present then none of the other arguments may be present Otherwise throw an ArgError",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "arg_conflicts",
           "normalized": "ArgumentDescription-\u003e[ArgumentDescription]-\u003eArguments-\u003eIO()",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the specified argument occurs in the command line. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "arg_occurs",
           "package": "hsshellscript",
@@ -329,6 +356,7 @@
         "index": {
           "description": "Whether the specified argument occurs in the command line",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "arg_occurs",
           "normalized": "Arguments-\u003eArgumentDescription-\u003eBool",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery whether a certain switch is specified on the command line. A switch is an\n argument which is allowed zero or one time, and has no value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "arg_switch",
           "package": "hsshellscript",
@@ -353,6 +382,7 @@
         "index": {
           "description": "Query whether certain switch is specified on the command line switch is an argument which is allowed zero or one time and has no value",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "arg_switch",
           "normalized": "Arguments-\u003eArgumentDescription-\u003eBool",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the number of occurences of an argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "arg_times",
           "package": "hsshellscript",
@@ -377,6 +408,7 @@
         "index": {
           "description": "Query the number of occurences of an argument",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "arg_times",
           "normalized": "Arguments-\u003eArgumentDescription-\u003eInt",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an argument description from a list of argument properties. This\n condenses the list to an argument description,\n which can be uses by the \u003ccode\u003egetargs\u003c/code\u003e... functions and the\n argument value extraction functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argdesc",
           "package": "hsshellscript",
@@ -401,6 +434,7 @@
         "index": {
           "description": "Make an argument description from list of argument properties This condenses the list to an argument description which can be uses by the getargs functions and the argument value extraction functions",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argdesc",
           "normalized": "[ArgumentProperty]-\u003eArgumentDescription",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat about a possible value of the argument?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argdesc_argarg",
           "package": "hsshellscript",
@@ -426,6 +461,7 @@
         "index": {
           "description": "What about possible value of the argument",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argdesc_argarg",
           "package": "hsshellscript",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescrition of the argument, for message generation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argdesc_argarg_description",
           "package": "hsshellscript",
@@ -449,6 +486,7 @@
         "index": {
           "description": "Descrition of the argument for message generation",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argdesc_argarg_description",
           "package": "hsshellscript",
@@ -462,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument value tester\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argdesc_argarg_tester",
           "package": "hsshellscript",
@@ -472,6 +511,7 @@
         "index": {
           "description": "Argument value tester",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argdesc_argarg_tester",
           "package": "hsshellscript",
@@ -485,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName for argument's value, for message generation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argdesc_argargname",
           "package": "hsshellscript",
@@ -495,6 +536,7 @@
         "index": {
           "description": "Name for argument value for message generation",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argdesc_argargname",
           "package": "hsshellscript",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLong option names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argdesc_long_args",
           "package": "hsshellscript",
@@ -518,6 +561,7 @@
         "index": {
           "description": "Long option names",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argdesc_long_args",
           "normalized": "[String]",
@@ -533,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort option names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argdesc_short_args",
           "package": "hsshellscript",
@@ -543,6 +588,7 @@
         "index": {
           "description": "Short option names",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argdesc_short_args",
           "normalized": "[Char]",
@@ -558,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum and maximum of number of occurences allowed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argdesc_times",
           "package": "hsshellscript",
@@ -568,6 +615,7 @@
         "index": {
           "description": "Minimum and maximum of number of occurences allowed",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argdesc_times",
           "normalized": "Maybe(Int,Int)",
@@ -583,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError message generated by HsShellScript.Args.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argerror_message",
           "package": "hsshellscript",
@@ -593,6 +642,7 @@
         "index": {
           "description": "Error message generated by HsShellScript.Args",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argerror_message",
           "package": "hsshellscript",
@@ -606,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsage information derived from the argument descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argerror_usageinfo",
           "package": "hsshellscript",
@@ -616,6 +667,7 @@
         "index": {
           "description": "Usage information derived from the argument descriptions",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argerror_usageinfo",
           "package": "hsshellscript",
@@ -629,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a descriptive argument name from an argument description, suitable for use in error messages. This uses the long and short argument names\n (as specified by \u003ccode\u003e\u003ca\u003edesc_short\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edesc_long\u003c/a\u003e\u003c/code\u003e) and generates descriptive names of the argument like \"-f\", \"-myflag\", \"-f/--myflag\", etc. All the\n argument names are included. In case of direct arguments (see \u003ccode\u003e\u003ca\u003edesc_direct\u003c/a\u003e\u003c/code\u003e), the descriptive name is \"\u003ccode\u003e(direct argument)\u003c/code\u003e\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argname",
           "package": "hsshellscript",
@@ -639,6 +692,7 @@
         "index": {
           "description": "Generate descriptive argument name from an argument description suitable for use in error messages This uses the long and short argument names as specified by desc short and desc long and generates descriptive names of the argument like myflag myflag etc All the argument names are included In case of direct arguments see desc direct the descriptive name is direct argument",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argname",
           "normalized": "ArgumentDescription-\u003eString",
@@ -654,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a descriptive argument name from an argument description, beginning with \"argument\". This uses the long and short argument names (as\n specified by \u003ccode\u003e\u003ca\u003edesc_short\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edesc_long\u003c/a\u003e\u003c/code\u003e) and generates descriptive names of the argument like \"argument -f\", \"argument -myflag\", \"argument\n -f/--myflag\", etc. All the argument names are included. In case of direct arguments (see \u003ccode\u003e\u003ca\u003edesc_direct\u003c/a\u003e\u003c/code\u003e), the descriptive name is \"direct argument\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "argname_a",
           "package": "hsshellscript",
@@ -664,6 +719,7 @@
         "index": {
           "description": "Generate descriptive argument name from an argument description beginning with argument This uses the long and short argument names as specified by desc short and desc long and generates descriptive names of the argument like argument argument myflag argument myflag etc All the argument names are included In case of direct arguments see desc direct the descriptive name is direct argument",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "argname_a",
           "normalized": "ArgumentDescription-\u003eString",
@@ -679,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of the specified arguments must be present.\n\u003c/p\u003e\u003cp\u003eThrows an ArgError if any is missing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "args_all",
           "package": "hsshellscript",
@@ -688,6 +745,7 @@
         "index": {
           "description": "All of the specified arguments must be present Throws an ArgError if any is missing",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "args_all",
           "normalized": "[ArgumentDescription]-\u003eArguments-\u003eIO()",
@@ -703,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt least one of the specified arguments must be present.\n\u003c/p\u003e\u003cp\u003eOtherwise throw an ArgError.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "args_at_least_one",
           "package": "hsshellscript",
@@ -712,6 +771,7 @@
         "index": {
           "description": "At least one of the specified arguments must be present Otherwise throw an ArgError",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "args_at_least_one",
           "normalized": "[ArgumentDescription]-\u003eArguments-\u003eIO()",
@@ -727,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt most one of the specified arguments may be present.\n\u003c/p\u003e\u003cp\u003eOtherwise throw an ArgError.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "args_at_most_one",
           "package": "hsshellscript",
@@ -736,6 +797,7 @@
         "index": {
           "description": "At most one of the specified arguments may be present Otherwise throw an ArgError",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "args_at_most_one",
           "normalized": "[ArgumentDescription]-\u003eArguments-\u003eIO()",
@@ -751,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNone of the specifed arguments may be present.\n\u003c/p\u003e\u003cp\u003eThrows an ArgError if any of the arguments are present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "args_none",
           "package": "hsshellscript",
@@ -760,6 +823,7 @@
         "index": {
           "description": "None of the specifed arguments may be present Throws an ArgError if any of the arguments are present",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "args_none",
           "normalized": "[ArgumentDescription]-\u003eArguments-\u003eIO()",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExactly one of the specified arguments must be present.\n\u003c/p\u003e\u003cp\u003eOtherwise throw an ArgError.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "args_one",
           "package": "hsshellscript",
@@ -784,6 +849,7 @@
         "index": {
           "description": "Exactly one of the specified arguments must be present Otherwise throw an ArgError",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "args_one",
           "normalized": "[ArgumentDescription]-\u003eArguments-\u003eIO()",
@@ -799,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the values of an argument with optional value. This is for\n arguments which take an optional value, and may occur several times. The\n occurences with value are represented as \u003ccode\u003eJust value\u003c/code\u003e, the occurences\n without are represented as \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "args_opt",
           "package": "hsshellscript",
@@ -808,6 +875,7 @@
         "index": {
           "description": "Query the values of an argument with optional value This is for arguments which take an optional value and may occur several times The occurences with value are represented as Just value the occurences without are represented as Nothing",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "args_opt",
           "normalized": "Arguments-\u003eArgumentDescription-\u003e[Maybe String]",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the values of an argument with required value. This is for\n arguments which require a value, and may occur several times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "args_req",
           "package": "hsshellscript",
@@ -832,6 +901,7 @@
         "index": {
           "description": "Query the values of an argument with required value This is for arguments which require value and may occur several times",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "args_req",
           "normalized": "Arguments-\u003eArgumentDescription-\u003e[String]",
@@ -847,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal that the argument may occur any number of times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_any_times",
           "package": "hsshellscript",
@@ -856,6 +927,7 @@
         "index": {
           "description": "Signal that the argument may occur any number of times",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_any_times",
           "package": "hsshellscript",
@@ -869,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the descriptive name for command line argument's value. Used for the\n generation of the usage message. The name should be very short.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_argname",
           "package": "hsshellscript",
@@ -878,6 +951,7 @@
         "index": {
           "description": "Specify the descriptive name for command line argument value Used for the generation of the usage message The name should be very short",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_argname",
           "normalized": "String-\u003eArgumentProperty",
@@ -893,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal that the argument must have at least the specified number of\n occurences, and has no upper limit of occurences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_at_least",
           "package": "hsshellscript",
@@ -902,6 +977,7 @@
         "index": {
           "description": "Signal that the argument must have at least the specified number of occurences and has no upper limit of occurences",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_at_least",
           "normalized": "Int-\u003eArgumentProperty",
@@ -917,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal that the argument must occur at least one time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_at_least_once",
           "package": "hsshellscript",
@@ -926,6 +1003,7 @@
         "index": {
           "description": "Signal that the argument must occur at least one time",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_at_least_once",
           "package": "hsshellscript",
@@ -939,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal that the argument does not need to be present, and may occur at most\n the specified number of times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_at_most",
           "package": "hsshellscript",
@@ -948,6 +1027,7 @@
         "index": {
           "description": "Signal that the argument does not need to be present and may occur at most the specified number of times",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_at_most",
           "normalized": "Int-\u003eArgumentProperty",
@@ -963,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal that the argument must occur at most one time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_at_most_once",
           "package": "hsshellscript",
@@ -972,6 +1053,7 @@
         "index": {
           "description": "Signal that the argument must occur at most one time",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_at_most_once",
           "package": "hsshellscript",
@@ -985,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify a short description of what the argument does. Used for the\n generation of the usage message. This is to fit on one line, after the\n short and long argument names. It should be 40 characters long or so.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_description",
           "package": "hsshellscript",
@@ -994,6 +1077,7 @@
         "index": {
           "description": "Specify short description of what the argument does Used for the generation of the usage message This is to fit on one line after the short and long argument names It should be characters long or so",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_description",
           "normalized": "String-\u003eArgumentProperty",
@@ -1009,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal that this is the description of direct arguments. Direct arguments\n are the ones not introduced by any short or long argument names (like\n \u003ccode\u003e-x\u003c/code\u003e or \u003ccode\u003e--arg\u003c/code\u003e), or which occur after the special\n argument \u003ccode\u003e--\u003c/code\u003e. The presence of \u003ccode\u003edesc_direct\u003c/code\u003e in the argument properties list\n signals \u003ccode\u003eargdesc\u003c/code\u003e that this is the description of the direct\n arguments. There may be at most one such description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_direct",
           "package": "hsshellscript",
@@ -1019,6 +1104,7 @@
         "index": {
           "description": "Signal that this is the description of direct arguments Direct arguments are the ones not introduced by any short or long argument names like or arg or which occur after the special argument The presence of desc direct in the argument properties list signals argdesc that this is the description of the direct arguments There may be at most one such description",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_direct",
           "package": "hsshellscript",
@@ -1032,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify that the value of this argument, if present, is a positive integer. This will cause an error when the command line is parsed, and the\n   argument's value doesn't specify an integer.\n\u003c/p\u003e\u003cpre\u003edesc_integer = desc_tester (readtester (reads :: ReadS Int) \"Integer expected.\")\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003edesc_tester\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_integer",
           "package": "hsshellscript",
@@ -1042,6 +1129,7 @@
         "index": {
           "description": "Specify that the value of this argument if present is positive integer This will cause an error when the command line is parsed and the argument value doesn specify an integer desc integer desc tester readtester reads ReadS Int Integer expected See desc tester",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_integer",
           "package": "hsshellscript",
@@ -1055,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLong name of the argument. This specifies a GNU style long\n name for the argument, like \u003ccode\u003e--arg\u003c/code\u003e or \u003ccode\u003e--arg=...\u003c/code\u003e. There can be specified\n several names for the same argument. Each argument needs at least\n either a short or a long name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_long",
           "package": "hsshellscript",
@@ -1064,6 +1153,7 @@
         "index": {
           "description": "Long name of the argument This specifies GNU style long name for the argument like arg or arg There can be specified several names for the same argument Each argument needs at least either short or long name",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_long",
           "normalized": "String-\u003eArgumentProperty",
@@ -1079,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify that the value of this argument, if present, is a non-negative integer. This will cause an error when the command line is parsed, and the\n   value doesn't specify a non-negative integer.\n\u003c/p\u003e\u003cpre\u003edesc_nonneg_integer = desc_tester (readtester ((filter (\\(a,_) -\u003e a \u003e= 0) . reads) :: ReadS Int) \"Non-negative integer expected.\" )\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003edesc_tester\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_nonneg_integer",
           "package": "hsshellscript",
@@ -1089,6 +1180,7 @@
         "index": {
           "description": "Specify that the value of this argument if present is non-negative integer This will cause an error when the command line is parsed and the value doesn specify non-negative integer desc nonneg integer desc tester readtester filter reads ReadS Int Non-negative integer expected See desc tester",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_nonneg_integer",
           "package": "hsshellscript",
@@ -1102,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal that the argument must be present exactly once. This is\n meaningful only for arguments which can take a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_once",
           "package": "hsshellscript",
@@ -1111,6 +1204,7 @@
         "index": {
           "description": "Signal that the argument must be present exactly once This is meaningful only for arguments which can take value",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_once",
           "package": "hsshellscript",
@@ -1124,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort name of the argument. This specifies a character for a\n one letter style argument, like \u003ccode\u003e-x\u003c/code\u003e. There can be specified\n several for the same argument. Each argument needs at least\n either a short or a long name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_short",
           "package": "hsshellscript",
@@ -1133,6 +1228,7 @@
         "index": {
           "description": "Short name of the argument This specifies character for one letter style argument like There can be specified several for the same argument Each argument needs at least either short or long name",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_short",
           "normalized": "Char-\u003eArgumentProperty",
@@ -1148,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify a tester for this argument. The tester is a function which tests the argument value for format errors. Typically, it tests whether the\n value can be parsed to some target type. If the test fails, the tester produces an error message. When parsing the command line arguments (which\n \u003ccode\u003egetargs\u003c/code\u003e or related), all the testers are applied to the respective argument values, and an \u003ccode\u003e\u003ca\u003eArgError\u003c/a\u003e\u003c/code\u003e is thrown in case of failure. By using a\n tester, it can be ensured that the argument values abide a specific format when extracting them, such that they can be parsed without errors, e.g.\n \u003ccode\u003emyarg = read (reqarg_req args d_myarg)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAn argument tester is a function of type \u003ccode\u003e\u003ca\u003eArgtester\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003ereadtester\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edesc_integer\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edesc_nonneg_integer\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eArgtester\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_tester",
           "package": "hsshellscript",
@@ -1157,6 +1254,7 @@
         "index": {
           "description": "Specify tester for this argument The tester is function which tests the argument value for format errors Typically it tests whether the value can be parsed to some target type If the test fails the tester produces an error message When parsing the command line arguments which getargs or related all the testers are applied to the respective argument values and an ArgError is thrown in case of failure By using tester it can be ensured that the argument values abide specific format when extracting them such that they can be parsed without errors e.g myarg read reqarg req args myarg An argument tester is function of type Argtester See readtester desc integer desc nonneg integer Argtester",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_tester",
           "normalized": "Argtester-\u003eArgumentProperty",
@@ -1172,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify lower and upper bound on the number of times an argument may\n occur.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_times",
           "package": "hsshellscript",
@@ -1181,6 +1280,7 @@
         "index": {
           "description": "Specify lower and upper bound on the number of times an argument may occur",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_times",
           "normalized": "Int-\u003eInt-\u003eArgumentProperty",
@@ -1196,6 +1296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal that the argument optionally has a value. The user may or may\n not specify a value to this argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_value_optional",
           "package": "hsshellscript",
@@ -1206,6 +1307,7 @@
         "index": {
           "description": "Signal that the argument optionally has value The user may or may not specify value to this argument",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_value_optional",
           "package": "hsshellscript",
@@ -1219,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal that the argument requires a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "desc_value_required",
           "package": "hsshellscript",
@@ -1229,6 +1332,7 @@
         "index": {
           "description": "Signal that the argument requires value",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "desc_value_required",
           "package": "hsshellscript",
@@ -1242,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse command line arguments. The arguments are taken from a call to\n \u003ccode\u003egetArgs\u003c/code\u003e and parsed. Any error is thrown as a \n \u003ccode\u003eArgError\u003c/code\u003e exception. The result is a value from which the\n information in the command line can be extracted by the \u003ccode\u003earg\u003c/code\u003e...,\n \u003ccode\u003ereqarg\u003c/code\u003e... and \u003ccode\u003eoptarg\u003c/code\u003e... functions.\n\u003c/p\u003e\u003cp\u003eNamed arguments (like \u003ccode\u003e-x\u003c/code\u003e or \u003ccode\u003e--arg\u003c/code\u003e) and direct\n arguments may occur in any order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "getargs",
           "package": "hsshellscript",
@@ -1251,6 +1356,7 @@
         "index": {
           "description": "Parse command line arguments The arguments are taken from call to getArgs and parsed Any error is thrown as ArgError exception The result is value from which the information in the command line can be extracted by the arg reqarg and optarg functions Named arguments like or arg and direct arguments may occur in any order",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "getargs",
           "normalized": "String-\u003e[ArgumentDescription]-\u003eIO Arguments",
@@ -1266,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the specified command line. Any error is returned as \u003ccode\u003eLeft\n argerror\u003c/code\u003e. In case of success, the result is returned as\n \u003ccode\u003eRight res\u003c/code\u003e. From the result, the information in the command\n line can be extracted by the \u003ccode\u003earg\u003c/code\u003e..., \u003ccode\u003ereqarg\u003c/code\u003e...\n and \u003ccode\u003eoptarg\u003c/code\u003e... functions.\n\u003c/p\u003e\u003cp\u003eNamed arguments (like \u003ccode\u003e-x\u003c/code\u003e or \u003ccode\u003e--arg\u003c/code\u003e) and direct\n arguments may occur in any order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "getargs'",
           "package": "hsshellscript",
@@ -1275,6 +1382,7 @@
         "index": {
           "description": "Parse the specified command line Any error is returned as Left argerror In case of success the result is returned as Right res From the result the information in the command line can be extracted by the arg reqarg and optarg functions Named arguments like or arg and direct arguments may occur in any order",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "getargs'",
           "normalized": "String-\u003e[String]-\u003e[ArgumentDescription]-\u003eEither ArgError Arguments",
@@ -1290,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse command line arguments. The arguments are taken from a call to\n \u003ccode\u003egetArgs\u003c/code\u003e and parsed. Any error is thrown as a \n \u003ccode\u003eArgError\u003c/code\u003e exception. The result is a value from which the\n information in the command line can be extracted by the \u003ccode\u003earg\u003c/code\u003e...,\n \u003ccode\u003ereqarg\u003c/code\u003e... and \u003ccode\u003eoptarg\u003c/code\u003e... functions.\n\u003c/p\u003e\u003cp\u003eAll arguments after the first direct argument are regarded as direct\n arguments. This means that argument names introduced by \u003ccode\u003e-\u003c/code\u003e\n or \u003ccode\u003e--\u003c/code\u003e no longer take effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "getargs_ordered",
           "package": "hsshellscript",
@@ -1299,6 +1408,7 @@
         "index": {
           "description": "Parse command line arguments The arguments are taken from call to getArgs and parsed Any error is thrown as ArgError exception The result is value from which the information in the command line can be extracted by the arg reqarg and optarg functions All arguments after the first direct argument are regarded as direct arguments This means that argument names introduced by or no longer take effect",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "getargs_ordered",
           "normalized": "String-\u003e[ArgumentDescription]-\u003eIO Arguments",
@@ -1314,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the specified command line. Any error is returned as \u003ccode\u003eLeft\n argerror\u003c/code\u003e. In case of success, the result is returned as\n \u003ccode\u003eRight res\u003c/code\u003e. From the result, the information in the command\n line can be extracted by the \u003ccode\u003earg\u003c/code\u003e..., \u003ccode\u003ereqarg\u003c/code\u003e...\n and \u003ccode\u003eoptarg\u003c/code\u003e... functions.\n\u003c/p\u003e\u003cp\u003eAll arguments after the first direct argument are regarded as direct\n arguments. This means that argument names introduced by \u003ccode\u003e-\u003c/code\u003e\n or \u003ccode\u003e--\u003c/code\u003e no longer take effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "getargs_ordered'",
           "package": "hsshellscript",
@@ -1323,6 +1434,7 @@
         "index": {
           "description": "Parse the specified command line Any error is returned as Left argerror In case of success the result is returned as Right res From the result the information in the command line can be extracted by the arg reqarg and optarg functions All arguments after the first direct argument are regarded as direct arguments This means that argument names introduced by or no longer take effect",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "getargs_ordered'",
           "normalized": "String-\u003e[String]-\u003e[ArgumentDescription]-\u003eEither ArgError Arguments",
@@ -1338,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the optional value of an optional argument. This is for arguments\n which may occur zero or one time, and which may or may not have a value.\n If the argument doesn't occur, the result is \u003ccode\u003eNothing\u003c/code\u003e. If it does occur,\n but has no value, then the result is \u003ccode\u003eJust Nothing\u003c/code\u003e. If it does occur with\n value, the result is \u003ccode\u003eJust (Just value)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "optarg_opt",
           "package": "hsshellscript",
@@ -1347,6 +1460,7 @@
         "index": {
           "description": "Query the optional value of an optional argument This is for arguments which may occur zero or one time and which may or may not have value If the argument doesn occur the result is Nothing If it does occur but has no value then the result is Just Nothing If it does occur with value the result is Just Just value",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "optarg_opt",
           "normalized": "Arguments-\u003eArgumentDescription-\u003eMaybe(Maybe String)",
@@ -1362,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the value of an optional argument. This is for optional arguments\n which require a value, and may occur at most once. The result is\n \u003ccode\u003eJust value\u003c/code\u003e if the argument occurs, and \u003ccode\u003eNothing\u003c/code\u003e\n if it doesn't occur.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "optarg_req",
           "package": "hsshellscript",
@@ -1371,6 +1486,7 @@
         "index": {
           "description": "Query the value of an optional argument This is for optional arguments which require value and may occur at most once The result is Just value if the argument occurs and Nothing if it doesn occur",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "optarg_req",
           "normalized": "Arguments-\u003eArgumentDescription-\u003eMaybe String",
@@ -1386,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an argument tester from a \u003ccode\u003ereads\u003c/code\u003e like function. Typically, a specialisation of the standard prelude function \u003ccode\u003eread\u003c/code\u003e is used. \n Example: \u003ccode\u003ereadtester \"Integer expected.\" (reads :: ReadS Int)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "readtester",
           "package": "hsshellscript",
@@ -1396,6 +1513,7 @@
         "index": {
           "description": "Build an argument tester from reads like function Typically specialisation of the standard prelude function read is used Example readtester Integer expected reads ReadS Int",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "readtester",
           "normalized": "ReadS a-\u003eString-\u003eArgtester",
@@ -1411,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the optional value of a required argument. This is for arguments\n which must occur once, and may have a value. If the argument is\n specified, its value is returned as \u003ccode\u003eJust value\u003c/code\u003e. If it isn't, the result\n is \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "reqarg_opt",
           "package": "hsshellscript",
@@ -1420,6 +1539,7 @@
         "index": {
           "description": "Query the optional value of required argument This is for arguments which must occur once and may have value If the argument is specified its value is returned as Just value If it isn the result is Nothing",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "reqarg_opt",
           "normalized": "Arguments-\u003eArgumentDescription-\u003eMaybe String",
@@ -1435,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the value of a required argument. This is for arguments which must\n occur exactly once, and require a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "reqarg_req",
           "package": "hsshellscript",
@@ -1444,6 +1565,7 @@
         "index": {
           "description": "Query the value of required argument This is for arguments which must occur exactly once and require value",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "reqarg_req",
           "normalized": "Arguments-\u003eArgumentDescription-\u003eString",
@@ -1459,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetargs\u003c/code\u003e as a pure function, instead of an IO action. This allows to make evaluated command line arguments global values. This calls \u003ccode\u003egetargs\u003c/code\u003e\n   to parse the command line arguments. \u003ccode\u003eGHC.IO.unsafePerformIO\u003c/code\u003e is used to take the result out of the IO monad.\n\u003c/p\u003e\u003cpre\u003eunsafe_getargs header descs = GHC.IO.unsafePerformIO $ getargs header descs\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003egetargs\u003c/code\u003e action is performed on demand, when the parse result is evaluated. It may result in an \u003ccode\u003e\u003ca\u003eArgError\u003c/a\u003e\u003c/code\u003e being thrown. In order to avoid\n   this happening at unexpected times, the \u003ccode\u003emain\u003c/code\u003e function should, start with the line \u003ccode\u003eseq args (return ())\u003c/code\u003e, where \u003ccode\u003eargs\u003c/code\u003e is the result of\n   \u003ccode\u003eunsafe_getargs\u003c/code\u003e,. This will trigger any command line argument errors at the beginning of the program. (See section 6.2 of the Hakell Report for the\n   definition of \u003ccode\u003eseq\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eA typical use of \u003ccode\u003eunsafe_getargs\u003c/code\u003e looks like this:\n\u003c/p\u003e\u003cpre\u003eheader = \"...\"\ndescs = [ d_myflag, ... ]\n\nd_myflag = argdesc [ ... ]\n\nargs = unsafe_getargs header descs\nmyflag = arg_switch args d_myflag\n\nmain = mainwrapper $ do\n   seq args (return ())\n   ...\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003egetargs\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunsafe_getargs_ordered\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "unsafe_getargs",
           "package": "hsshellscript",
@@ -1468,6 +1591,7 @@
         "index": {
           "description": "getargs as pure function instead of an IO action This allows to make evaluated command line arguments global values This calls getargs to parse the command line arguments GHC.IO.unsafePerformIO is used to take the result out of the IO monad unsafe getargs header descs GHC.IO.unsafePerformIO getargs header descs The getargs action is performed on demand when the parse result is evaluated It may result in an ArgError being thrown In order to avoid this happening at unexpected times the main function should start with the line seq args return where args is the result of unsafe getargs This will trigger any command line argument errors at the beginning of the program See section of the Hakell Report for the definition of seq typical use of unsafe getargs looks like this header descs myflag myflag argdesc args unsafe getargs header descs myflag arg switch args myflag main mainwrapper do seq args return See getargs unsafe getargs ordered",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "unsafe_getargs",
           "normalized": "String-\u003e[ArgumentDescription]-\u003eArguments",
@@ -1483,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetargs_ordered\u003c/code\u003e as a pure function, instead of an IO action. This is exactly like \u003ccode\u003eunsafe_getargs\u003c/code\u003e, but using \u003ccode\u003egetargs_ordered\u003c/code\u003e instead of\n   \u003ccode\u003egetargs\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003eunsafe_getargs_ordered = GHC.IO.unsafePerformIO $ getargs_ordered header descs\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eunsafe_getargs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "unsafe_getargs_ordered",
           "package": "hsshellscript",
@@ -1492,6 +1617,7 @@
         "index": {
           "description": "getargs ordered as pure function instead of an IO action This is exactly like unsafe getargs but using getargs ordered instead of getargs unsafe getargs ordered GHC.IO.unsafePerformIO getargs ordered header descs See unsafe getargs",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "unsafe_getargs_ordered",
           "normalized": "String-\u003e[ArgumentDescription]-\u003eArguments",
@@ -1507,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the usage information from the parsed arguments. The usage info\n contains the header specified to the corresponding \u003ccode\u003egetargs...\u003c/code\u003e\n function, and descriptions of the command line arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Args",
           "name": "usage_info",
           "package": "hsshellscript",
@@ -1517,6 +1644,7 @@
         "index": {
           "description": "Get the usage information from the parsed arguments The usage info contains the header specified to the corresponding getargs function and descriptions of the command line arguments",
           "hierarchy": "HsShellScript Args",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Args",
           "name": "usage_info",
           "normalized": "Arguments-\u003eString",
@@ -1531,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Commands",
           "name": "Commands",
           "package": "hsshellscript",
@@ -1539,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Commands",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Commands",
           "name": "Commands",
           "package": "hsshellscript",
@@ -1852,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Commands",
           "name": "foreign_rename",
           "package": "hsshellscript",
@@ -1861,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Commands",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Commands",
           "name": "foreign_rename",
           "normalized": "Ptr CChar-\u003ePtr CChar-\u003eIO CInt",
@@ -1875,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Commands",
           "name": "foreign_symlink",
           "package": "hsshellscript",
@@ -1884,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Commands",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Commands",
           "name": "foreign_symlink",
           "normalized": "Ptr CChar-\u003ePtr CChar-\u003eIO CInt",
@@ -1898,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Commands",
           "name": "hsshellscript_get_readlink",
           "package": "hsshellscript",
@@ -1907,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Commands",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Commands",
           "name": "hsshellscript_get_readlink",
           "normalized": "Ptr CChar-\u003eIO(Ptr CChar)",
@@ -1921,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Commands",
           "name": "hsshellscript_get_realpath",
           "package": "hsshellscript",
@@ -1930,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Commands",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Commands",
           "name": "hsshellscript_get_realpath",
           "normalized": "Ptr CChar-\u003eIO(Ptr CChar)",
@@ -2044,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Commands",
           "name": "number",
           "package": "hsshellscript",
@@ -2053,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Commands",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Commands",
           "name": "number",
           "package": "hsshellscript",
@@ -2065,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Commands",
           "name": "parse_mt_status",
           "package": "hsshellscript",
@@ -2074,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Commands",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Commands",
           "name": "parse_mt_status",
           "normalized": "Parser(Int,Int)",
@@ -2262,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Commands",
           "name": "replace_location",
           "package": "hsshellscript",
@@ -2271,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Commands",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Commands",
           "name": "replace_location",
           "normalized": "String-\u003eString-\u003eIO a-\u003eIO a",
@@ -2360,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "GetOpt",
           "package": "hsshellscript",
@@ -2368,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "GetOpt",
           "package": "hsshellscript",
@@ -2382,6 +2528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes whether an option takes an argument or not, and if so\n how the argument is injected into a value of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "ArgDescr",
           "package": "hsshellscript",
@@ -2391,6 +2538,7 @@
         "index": {
           "description": "Describes whether an option takes an argument or not and if so how the argument is injected into value of type",
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "ArgDescr",
           "package": "hsshellscript",
@@ -2405,6 +2553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do with options following non-options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "ArgOrder",
           "package": "hsshellscript",
@@ -2414,6 +2563,7 @@
         "index": {
           "description": "What to do with options following non-options",
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "ArgOrder",
           "package": "hsshellscript",
@@ -2428,6 +2578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach \u003ccode\u003e\u003ca\u003eOptDescr\u003c/a\u003e\u003c/code\u003e describes a single option.\n\u003c/p\u003e\u003cp\u003eThe arguments to \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e list of short option characters\n\u003c/li\u003e\u003cli\u003e list of long option strings (without \"--\")\n\u003c/li\u003e\u003cli\u003e argument descriptor\n\u003c/li\u003e\u003cli\u003e explanation of option for user\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "OptDescr",
           "package": "hsshellscript",
@@ -2437,6 +2588,7 @@
         "index": {
           "description": "Each OptDescr describes single option The arguments to Option are list of short option characters list of long option strings without argument descriptor explanation of option for user",
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "OptDescr",
           "package": "hsshellscript",
@@ -2451,6 +2603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno argument expected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "NoArg",
           "package": "hsshellscript",
@@ -2461,6 +2614,7 @@
         "index": {
           "description": "no argument expected",
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "NoArg",
           "package": "hsshellscript",
@@ -2475,6 +2629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "OptArg",
           "package": "hsshellscript",
@@ -2485,6 +2640,7 @@
         "index": {
           "description": "optional argument",
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "OptArg",
           "normalized": "OptArg(Maybe String-\u003ea)String",
@@ -2500,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "Option",
           "package": "hsshellscript",
@@ -2509,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "Option",
           "normalized": "Option[Char][String](ArgDescr a)String",
@@ -2525,6 +2683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efreely intersperse options and non-options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "Permute",
           "package": "hsshellscript",
@@ -2535,6 +2694,7 @@
         "index": {
           "description": "freely intersperse options and non-options",
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "Permute",
           "package": "hsshellscript",
@@ -2549,6 +2709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoption requires argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "ReqArg",
           "package": "hsshellscript",
@@ -2559,6 +2720,7 @@
         "index": {
           "description": "option requires argument",
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "ReqArg",
           "normalized": "ReqArg(String-\u003ea)String",
@@ -2575,6 +2737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno option processing after first non-option\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "RequireOrder",
           "package": "hsshellscript",
@@ -2585,6 +2748,7 @@
         "index": {
           "description": "no option processing after first non-option",
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "RequireOrder",
           "package": "hsshellscript",
@@ -2599,6 +2763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap non-options into options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "ReturnInOrder",
           "package": "hsshellscript",
@@ -2609,6 +2774,7 @@
         "index": {
           "description": "wrap non-options into options",
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "ReturnInOrder",
           "normalized": "ReturnInOrder(String-\u003ea)",
@@ -2625,6 +2791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess the command-line, and return the list of values that matched\n(and those that didn't). The arguments are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The order requirements (see \u003ccode\u003e\u003ca\u003eArgOrder\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e The option descriptions (see \u003ccode\u003e\u003ca\u003eOptDescr\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e The actual command line arguments (presumably got from \n  \u003ccode\u003e\u003ca\u003egetArgs\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003egetOpt\u003c/a\u003e\u003c/code\u003e returns a triple, consisting of the argument values, a list\nof options that didn't match, and a list of error messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "getOpt",
           "package": "hsshellscript",
@@ -2635,6 +2802,7 @@
         "index": {
           "description": "Process the command-line and return the list of values that matched and those that didn The arguments are The order requirements see ArgOrder The option descriptions see OptDescr The actual command line arguments presumably got from getArgs getOpt returns triple consisting of the argument values list of options that didn match and list of error messages",
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "getOpt",
           "normalized": "ArgOrder a-\u003e[OptDescr a]-\u003e[String]-\u003e([a],[String],[String])",
@@ -2651,6 +2819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a string describing the usage of a command, derived from\n the header (first argument) and the options described by the \n second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.GetOpt",
           "name": "usageInfo",
           "package": "hsshellscript",
@@ -2661,6 +2830,7 @@
         "index": {
           "description": "Return string describing the usage of command derived from the header first argument and the options described by the second argument",
           "hierarchy": "HsShellScript GetOpt",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.GetOpt",
           "name": "usageInfo",
           "normalized": "String-\u003e[OptDescr a]-\u003eString",
@@ -2676,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "Misc",
           "package": "hsshellscript",
@@ -2684,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "Misc",
           "package": "hsshellscript",
@@ -2698,6 +2870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne entry of mount information. This is the same as \u003ccode\u003estruct mntent\u003c/code\u003e from \u003ccode\u003e\u003cmntent.h\u003e\u003c/code\u003e.\nA list of these is returned by the functions which read mount information.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eread_mounts\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eread_mtab\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eread_fstab\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "Mntent",
           "package": "hsshellscript",
@@ -2707,6 +2880,7 @@
         "index": {
           "description": "One entry of mount information This is the same as struct mntent from mntent.h list of these is returned by the functions which read mount information See read mounts read mtab read fstab",
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "Mntent",
           "package": "hsshellscript",
@@ -2743,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "c_close",
           "package": "hsshellscript",
@@ -2752,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "c_close",
           "normalized": "CInt-\u003eIO CInt",
@@ -2766,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "c_getmntent",
           "package": "hsshellscript",
@@ -2775,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "c_getmntent",
           "normalized": "Ptr()-\u003eIO(Ptr())",
@@ -2789,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "c_mkdir",
           "package": "hsshellscript",
@@ -2798,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "c_mkdir",
           "normalized": "Ptr CChar-\u003eCUInt-\u003eIO CInt",
@@ -2862,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "do_glob",
           "package": "hsshellscript",
@@ -2871,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "do_glob",
           "normalized": "Ptr()-\u003ePtr CChar-\u003eIO CInt",
@@ -2885,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "endmntent",
           "package": "hsshellscript",
@@ -2894,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "endmntent",
           "normalized": "Ptr()-\u003eIO CInt",
@@ -2986,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "globfree",
           "package": "hsshellscript",
@@ -2995,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "globfree",
           "normalized": "Ptr()-\u003eIO()",
@@ -3009,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "hsshellscript_open_nonvariadic",
           "package": "hsshellscript",
@@ -3018,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "hsshellscript_open_nonvariadic",
           "normalized": "Ptr CChar-\u003eCInt-\u003eCUInt-\u003eIO CInt",
@@ -3251,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "o_CREAT",
           "package": "hsshellscript",
@@ -3260,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "o_CREAT",
           "package": "hsshellscript",
@@ -3273,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "o_EXCL",
           "package": "hsshellscript",
@@ -3282,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "o_EXCL",
           "package": "hsshellscript",
@@ -3422,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "setmntent",
           "package": "hsshellscript",
@@ -3431,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "setmntent",
           "normalized": "Ptr CChar-\u003ePtr CChar-\u003eIO(Ptr())",
@@ -3570,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Misc",
           "name": "untilIO",
           "package": "hsshellscript",
@@ -3579,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Misc",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Misc",
           "name": "untilIO",
           "normalized": "a b-\u003e(b-\u003ea Bool)-\u003ea b",
@@ -3744,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "Paths",
           "package": "hsshellscript",
@@ -3752,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "Paths",
           "package": "hsshellscript",
@@ -3766,6 +3964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a path absolute, using the current working directory.\n\u003c/p\u003e\u003cp\u003eThis makes a relative path absolute with respect to the current\nworking directory. An absolute path is returned unmodified.\n\u003c/p\u003e\u003cp\u003eThe current working directory is determined with \u003ccode\u003egetCurrentDirectory\u003c/code\u003e\nwhich means that symbolic links in it are expanded and the path is\nnormalised. This is different from \u003ccode\u003epwd\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "absolute_path",
           "package": "hsshellscript",
@@ -3775,6 +3974,7 @@
         "index": {
           "description": "Make path absolute using the current working directory This makes relative path absolute with respect to the current working directory An absolute path is returned unmodified The current working directory is determined with getCurrentDirectory which means that symbolic links in it are expanded and the path is normalised This is different from pwd",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "absolute_path",
           "normalized": "String-\u003eIO String",
@@ -3790,6 +3990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a path absolute.\n\u003c/p\u003e\u003cp\u003eThis makes a relative path absolute with respect to a specified\ndirectory. An absolute path is returned unmodified.\n\u003c/p\u003e\u003cp\u003eThe order of the arguments can be confusing. You should rather use \u003ccode\u003e\u003ca\u003eabsolute_path_by\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003eabsolute_path'\u003c/code\u003e is included for backwards compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "absolute_path'",
           "package": "hsshellscript",
@@ -3799,6 +4000,7 @@
         "index": {
           "description": "Make path absolute This makes relative path absolute with respect to specified directory An absolute path is returned unmodified The order of the arguments can be confusing You should rather use absolute path by absolute path is included for backwards compatibility",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "absolute_path'",
           "normalized": "String-\u003eString-\u003eString",
@@ -3814,6 +4016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a path absolute.\n\u003c/p\u003e\u003cp\u003eThis makes a relative path absolute with respect to a specified\ndirectory. An absolute path is returned unmodified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "absolute_path_by",
           "package": "hsshellscript",
@@ -3823,6 +4026,7 @@
         "index": {
           "description": "Make path absolute This makes relative path absolute with respect to specified directory An absolute path is returned unmodified",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "absolute_path_by",
           "normalized": "String-\u003eString-\u003eString",
@@ -3838,6 +4042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the directory part of a path.\n\u003c/p\u003e\u003cpre\u003edir_part = fst . split_path\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003esplit_path\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "dir_part",
           "package": "hsshellscript",
@@ -3848,6 +4053,7 @@
         "index": {
           "description": "Get the directory part of path dir part fst split path See split path",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "dir_part",
           "normalized": "String-\u003eString",
@@ -3863,6 +4069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the last path component of a path.\n\u003c/p\u003e\u003cpre\u003efilename_part = snd . split_path\n\u003c/pre\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003efilename_part \"foo/bar\" == \"bar\"\nfilename_part \".\"       == \".\"\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003esplit_path\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "filename_part",
           "package": "hsshellscript",
@@ -3873,6 +4080,7 @@
         "index": {
           "description": "Get the last path component of path filename part snd split path Examples filename part foo bar bar filename part See split path",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "filename_part",
           "normalized": "String-\u003eString",
@@ -3888,6 +4096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuess the \u003ccode\u003e\"..\"\u003c/code\u003e-component free, normalised form of a path. The transformation is purely syntactic. \u003ccode\u003e\"..\"\u003c/code\u003e path components will be removed, along\n   with their preceding path components. This will produce\n   erroneous results when the path contains symlinks. If the path contains leading \u003ccode\u003e\"..\"\u003c/code\u003e components, or more \u003ccode\u003e\"..\"\u003c/code\u003e components than preceeding normal\n   components, then the \u003ccode\u003e\"..\"\u003c/code\u003e components can't be normalised away. In this case, the result is \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003eguess_dotdot = fmap unslice_path . guess_dotdot_comps . slice_path\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "guess_dotdot",
           "package": "hsshellscript",
@@ -3897,6 +4106,7 @@
         "index": {
           "description": "Guess the component free normalised form of path The transformation is purely syntactic path components will be removed along with their preceding path components This will produce erroneous results when the path contains symlinks If the path contains leading components or more components than preceeding normal components then the components can be normalised away In this case the result is Nothing guess dotdot fmap unslice path guess dotdot comps slice path",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "guess_dotdot",
           "normalized": "String-\u003eMaybe String",
@@ -3912,6 +4122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuess the \u003ccode\u003e\"..\"\u003c/code\u003e-component free form of a path, specified as a list of path components, by syntactically removing them, along with the preceding\n   path components. This will produce\n   erroneous results when the path contains symlinks. If the path contains leading \u003ccode\u003e\"..\"\u003c/code\u003e components, or more \u003ccode\u003e\"..\"\u003c/code\u003e components than preceeding normal\n   components, then the \u003ccode\u003e\"..\"\u003c/code\u003e components can't be normalised away. In this case, the result is \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "guess_dotdot_comps",
           "package": "hsshellscript",
@@ -3921,6 +4132,7 @@
         "index": {
           "description": "Guess the component free form of path specified as list of path components by syntactically removing them along with the preceding path components This will produce erroneous results when the path contains symlinks If the path contains leading components or more components than preceeding normal components then the components can be normalised away In this case the result is Nothing",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "guess_dotdot_comps",
           "normalized": "[String]-\u003eMaybe[String]",
@@ -3936,6 +4148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalise a path. This is done by reducing repeated \u003ccode\u003e/\u003c/code\u003e characters to one, and removing\n   \u003ccode\u003e.\u003c/code\u003e path components. \u003ccode\u003e..\u003c/code\u003e path components are left intact, because of possible symlinks.\n\u003c/p\u003e\u003cp\u003eNote that the normalised path isn't 100% equivalent to the original one. Any trailing slash is removed. When the last path component is a symbolic\n   link, then both paths denote the same thing, except for in the context of the \u003ccode\u003ereadlink\u003c/code\u003e call. It will fail when the trailing slash is present\n   (because then the path denotes the directory which the link points to), but it will succeed when it is absent.\n\u003c/p\u003e\u003cpre\u003enormalise_path = unslice_path . slice_path\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eunslice_path\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eslice_path\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "normalise_path",
           "package": "hsshellscript",
@@ -3945,6 +4158,7 @@
         "index": {
           "description": "Normalise path This is done by reducing repeated characters to one and removing path components path components are left intact because of possible symlinks Note that the normalised path isn equivalent to the original one Any trailing slash is removed When the last path component is symbolic link then both paths denote the same thing except for in the context of the readlink call It will fail when the trailing slash is present because then the path denotes the directory which the link points to but it will succeed when it is absent normalise path unslice path slice path See unslice path slice path",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "normalise_path",
           "normalized": "String-\u003eString",
@@ -3960,6 +4174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a file name in components. This are the base file name and the\nsuffixes, which are separated by dots. If the name starts with a dot, it is\nregarded as part of the base name. The result is a list of file name\ncomponents. The filename may be a path. In this case, everything up to the\nlast path component will be returned as part of the base file name. The\npath gets normalised thereby.\n\u003c/p\u003e\u003cp\u003eNo empty suffixes are returned. If the file name contains several\nconsecutive dots, they are regared as part of the preceding file name\ncomponent.\n\u003c/p\u003e\u003cp\u003eConcateneting the name components and adding dots, reproduces the\noriginal name, with a normalised path:\n\u003ccode\u003econcat . intersperse \".\" . \u003ccode\u003e\u003ca\u003eslice_filename\u003c/a\u003e\u003c/code\u003e == \u003ccode\u003enormalise\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that the last path component might be \"\u003ccode\u003e..\u003c/code\u003e\". Then it is not\npossible to deduce the refered directory's name from the path. An IO\naction for getting the real path is then necessary.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003eslice_filename \"a.b//./.foo.tar.gz\" = [\"a.b/.foo\",\"tar\",\"gz\"]\nslice_filename \".x..y.\"             = [\".x.\", \"y.\"]\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eunslice_filename\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eslice_filename'\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "slice_filename",
           "package": "hsshellscript",
@@ -3969,6 +4184,7 @@
         "index": {
           "description": "Split file name in components This are the base file name and the suffixes which are separated by dots If the name starts with dot it is regarded as part of the base name The result is list of file name components The filename may be path In this case everything up to the last path component will be returned as part of the base file name The path gets normalised thereby No empty suffixes are returned If the file name contains several consecutive dots they are regared as part of the preceding file name component Concateneting the name components and adding dots reproduces the original name with normalised path concat intersperse slice filename normalise Note that the last path component might be Then it is not possible to deduce the refered directory name from the path An IO action for getting the real path is then necessary Examples slice filename a.b foo.tar.gz a.b foo tar gz slice filename x..y See unslice filename slice filename",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "slice_filename",
           "normalized": "String-\u003e[String]",
@@ -3984,6 +4200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a variant of \u003ccode\u003e\u003ca\u003eslice_filename\u003c/a\u003e\u003c/code\u003e. It is like \u003ccode\u003e\u003ca\u003eslice_filename\u003c/a\u003e\u003c/code\u003e, except for\nbeing more efficient, and the filename must not contain any preceding path,\nsince this case isn't considered.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eslice_filename\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunslice_filename\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "slice_filename'",
           "package": "hsshellscript",
@@ -3993,6 +4210,7 @@
         "index": {
           "description": "This is variant of slice filename It is like slice filename except for being more efficient and the filename must not contain any preceding path since this case isn considered See slice filename unslice filename",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "slice_filename'",
           "normalized": "String-\u003e[String]",
@@ -4008,6 +4226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a path in components. Repeated \"\u003ccode\u003e/\u003c/code\u003e\" characters don't lead to empty\ncomponents. \"\u003ccode\u003e.\u003c/code\u003e\" path components are removed. If the path is absolute, the first component\nwill start with \"\u003ccode\u003e/\u003c/code\u003e\". \"\u003ccode\u003e..\u003c/code\u003e\" components are left intact. They can't be simply\nremoved, because the preceding component might be a symlink. In this case,\n\u003ccode\u003erealpath\u003c/code\u003e is probably what you need.\n\u003c/p\u003e\u003cp\u003eThe case that the path is empty is treated like \"\u003ccode\u003e.\u003c/code\u003e\", yielding an empty path components list.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003eslice_path \"/\"        = [\"/\"]\nslice_path \"/foo/bar\" = [\"/foo\",\"bar\"]\nslice_path \"..//./\"   = [\"..\"]\nslice_path \".\"        = []\nslice_path \"\"         = []\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eunslice_path\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003erealpath\u003c/code\u003e, \u003ccode\u003erealpath_s\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "slice_path",
           "package": "hsshellscript",
@@ -4017,6 +4236,7 @@
         "index": {
           "description": "Split path in components Repeated characters don lead to empty components path components are removed If the path is absolute the first component will start with components are left intact They can be simply removed because the preceding component might be symlink In this case realpath is probably what you need The case that the path is empty is treated like yielding an empty path components list Examples slice path slice path foo bar foo bar slice path slice path slice path See unslice path realpath realpath",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "slice_path",
           "normalized": "String-\u003e[String]",
@@ -4032,6 +4252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a path in directory, base file name and suffix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "split3",
           "package": "hsshellscript",
@@ -4041,6 +4262,7 @@
         "index": {
           "description": "Split path in directory base file name and suffix",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "split3",
           "normalized": "String-\u003e(String,String,String)",
@@ -4056,6 +4278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a file name in prefix and suffix. If there isn't any suffix in\nthe file name, then return an empty suffix. A dot at the beginning or at\nthe end is not regarded as introducing a suffix.\n\u003c/p\u003e\u003cp\u003eThe last path component is what is being split. This isn't the same as\nsplitting the string at the last dot. For instance, if the file name\ndoesn't contain any dot, dots in previous path component's aren't mistaken\nas introducing suffixes.\n\u003c/p\u003e\u003cp\u003eThe path part is returned in normalised form. This means, \u003ccode\u003e\".\"\u003c/code\u003e components\nare removed, and multiple \"\u003ccode\u003e/\u003c/code\u003e\"s are reduced to one.\n\u003c/p\u003e\u003cp\u003eNote that there isn't any plausibility check performed on the suffix. If the file name doesn't have a suffix, but happens to contain a dot, then this\ndot is mistaken as introducing a suffix.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003esplit_filename \"path/to/foo.bar\"                             = (\"path/to/foo\",\"bar\")\nsplit_filename \"path/to/foo\"                                 = (\"path/to/foo\",\"\")\nsplit_filename \"/path.to/foo\"                                = (\"/path.to/foo\",\"\")\nsplit_filename \"a///./x\"                                     = (\"a/x\",\"\")\nsplit_filename \"dir.suffix/./\"                               = (\"dir\",\"suffix\")\nsplit_filename \"Photographie, Das 20. Jahrhundert (300 dpi)\" = (\"Photographie, Das 20\", \" Jahrhundert (300 dpi)\")\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eslice_path\u003c/a\u003e\u003c/code\u003e, 'split_filename\\''\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "split_filename",
           "package": "hsshellscript",
@@ -4065,6 +4288,7 @@
         "index": {
           "description": "Split file name in prefix and suffix If there isn any suffix in the file name then return an empty suffix dot at the beginning or at the end is not regarded as introducing suffix The last path component is what is being split This isn the same as splitting the string at the last dot For instance if the file name doesn contain any dot dots in previous path component aren mistaken as introducing suffixes The path part is returned in normalised form This means components are removed and multiple are reduced to one Note that there isn any plausibility check performed on the suffix If the file name doesn have suffix but happens to contain dot then this dot is mistaken as introducing suffix Examples split filename path to foo.bar path to foo bar split filename path to foo path to foo split filename path.to foo path.to foo split filename split filename dir.suffix dir suffix split filename Photographie Das Jahrhundert dpi Photographie Das Jahrhundert dpi See slice path split filename",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "split_filename",
           "normalized": "String-\u003e(String,String)",
@@ -4080,6 +4304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003esplit_filename\u003c/a\u003e\u003c/code\u003e. This is a more efficient version\nof \u003ccode\u003e\u003ca\u003esplit_filename\u003c/a\u003e\u003c/code\u003e, for the case that you know the string is\nis a pure file name without any slashes.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003esplit_filename\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "split_filename'",
           "package": "hsshellscript",
@@ -4089,6 +4314,7 @@
         "index": {
           "description": "Variant of split filename This is more efficient version of split filename for the case that you know the string is is pure file name without any slashes See split filename",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "split_filename'",
           "normalized": "String-\u003e(String,String)",
@@ -4104,6 +4330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a path in directory and file name. Only in the case that the\nsupplied path is empty, both parts are empty strings. Otherwise, \u003ccode\u003e\".\"\u003c/code\u003e is filled in\nfor the corresponding part, if necessary. Unless the path is empty,\nconcatenating the returned path and file name components with a slash in\nbetween, makes a valid path to the file.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003esplit_path\u003c/code\u003e splits off the last path component. This\nisn't the same as the text after the last \u003ccode\u003e/\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that the last path component might be \u003ccode\u003e\"..\"\u003c/code\u003e. Then it is not\npossible to deduce the refered directory's name from the path. Then an IO\naction for getting the real path is necessary.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003esplit_path \"/a/b/c\"      == (\"/a/b\", \"c\")\nsplit_path \"foo\"         == (\".\", \"foo\")\nsplit_path \"foo/bar\"     == (\"foo\", \"bar\")\nsplit_path \"foo/..\"      == (\"foo\", \"..\")\nsplit_path \".\"           == (\".\", \".\")\nsplit_path \"\"            == (\"\", \"\")\nsplit_path \"/foo\"        == (\"/\", \"foo\")\nsplit_path \"foo/\"        == (\".\", \"foo\")\nsplit_path \"foo/.\"       == (\".\", \"foo\")\nsplit_path \"foo///./bar\" == (\"foo\", \"bar\")\nsplit_path \"/\"           == (\"/\", \".\")\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eslice_path\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "split_path",
           "package": "hsshellscript",
@@ -4113,6 +4340,7 @@
         "index": {
           "description": "Split path in directory and file name Only in the case that the supplied path is empty both parts are empty strings Otherwise is filled in for the corresponding part if necessary Unless the path is empty concatenating the returned path and file name components with slash in between makes valid path to the file split path splits off the last path component This isn the same as the text after the last Note that the last path component might be Then it is not possible to deduce the refered directory name from the path Then an IO action for getting the real path is necessary Examples split path split path foo foo split path foo bar foo bar split path foo foo split path split path split path foo foo split path foo foo split path foo foo split path foo bar foo bar split path See slice path",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "split_path",
           "normalized": "String-\u003e(String,String)",
@@ -4128,6 +4356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest a path for a specific suffix and split it off.\n\u003c/p\u003e\u003cp\u003eIf the path ends with the suffix, then the result is \u003ccode\u003eJust\nprefix\u003c/code\u003e, where \u003ccode\u003eprefix\u003c/code\u003e is the normalised path\nwithout the suffix. Otherwise it's \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "test_suffix",
           "package": "hsshellscript",
@@ -4137,6 +4366,7 @@
         "index": {
           "description": "Test path for specific suffix and split it off If the path ends with the suffix then the result is Just prefix where prefix is the normalised path without the suffix Otherwise it Nothing",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "test_suffix",
           "normalized": "String-\u003eString-\u003eMaybe String",
@@ -4152,6 +4382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm file name from file name components, interspersing dots. This is\nthe inverse of \u003ccode\u003e\u003ca\u003eslice_filename\u003c/a\u003e\u003c/code\u003e, except for normalisation of any path.\n\u003c/p\u003e\u003cpre\u003e unslice_filename = concat . intersperse \".\"\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eslice_filename\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "unslice_filename",
           "package": "hsshellscript",
@@ -4161,6 +4392,7 @@
         "index": {
           "description": "Form file name from file name components interspersing dots This is the inverse of slice filename except for normalisation of any path unslice filename concat intersperse See slice filename",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "unslice_filename",
           "normalized": "[String]-\u003eString",
@@ -4176,6 +4408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm a path from path components. This isn't the inverse\nof \u003ccode\u003e\u003ca\u003eslice_path\u003c/a\u003e\u003c/code\u003e, since \u003ccode\u003e\u003ccode\u003e\u003ca\u003eunslice_path\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eslice_path\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\nnormalises the path.\n\u003c/p\u003e\u003cpre\u003eunslice_path [] = \".\"\nunslice_path cs = concat (intersperse \"/\" cs)\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eslice_path\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunsplit_parts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "unslice_path",
           "package": "hsshellscript",
@@ -4185,6 +4418,7 @@
         "index": {
           "description": "Form path from path components This isn the inverse of slice path since unslice path slice path normalises the path unslice path unslice path cs concat intersperse cs See slice path unsplit parts",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "unslice_path",
           "normalized": "[String]-\u003eString",
@@ -4200,6 +4434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm path from directory, base file name and suffix parts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "unsplit3",
           "package": "hsshellscript",
@@ -4209,6 +4444,7 @@
         "index": {
           "description": "Form path from directory base file name and suffix parts",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "unsplit3",
           "normalized": "(String,String,String)-\u003eString",
@@ -4224,6 +4460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003esplit_filename\u003c/a\u003e\u003c/code\u003e. Concatenate prefix and suffix, adding\na dot in between, iff the suffix is not empty. The path part of the prefix is\nnormalised.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003esplit_filename\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "unsplit_filename",
           "package": "hsshellscript",
@@ -4233,6 +4470,7 @@
         "index": {
           "description": "Inverse of split filename Concatenate prefix and suffix adding dot in between iff the suffix is not empty The path part of the prefix is normalised See split filename",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "unsplit_filename",
           "normalized": "(String,String)-\u003eString",
@@ -4248,6 +4486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a list of path parts. The idea is that you can throw in reasonably formed parts, and get a reasonably\nformed version of the concatenated path out.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\".\"\u003c/code\u003e parts are removed. Empty parts are treated as \u003ccode\u003e\".\"\u003c/code\u003e parts. One leading slash in each of any but the first part is removed. The result is\nthen interspersed with slashes and string wise concatenated. The interior of the parts isn't examined. \u003ccode\u003e\"..\"\u003c/code\u003e components aren't treated specially.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003eunsplit_parts []                       == \".\"\nunsplit_parts [\"\"]                     == \".\"\nunsplit_parts [\"/\"]                    == \"/\"\nunsplit_parts [\"/\", \"foo\"]             == \"/foo\"\nunsplit_parts [\"\", \"/foo\"]             == \"foo\"\nunsplit_parts [\"/foo\", \"bar\"]          == \"/foo/bar\"\nunsplit_parts [\"/foo\", \"/bar\"]         == \"/foo/bar\"\nunsplit_parts [\"foo/\", \"bar\"]          == \"foo//bar\"\nunsplit_parts [\"foo\", \"\", \".\", \"bar\"]  == \"foo/bar\"\nunsplit_parts [\"foo\", \"bar//./baz/\"]   == \"foo/bar//./baz/\"\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eunsplit_path\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunslice_path\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esplit_path\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "unsplit_parts",
           "package": "hsshellscript",
@@ -4257,6 +4496,7 @@
         "index": {
           "description": "Concatenate list of path parts The idea is that you can throw in reasonably formed parts and get reasonably formed version of the concatenated path out parts are removed Empty parts are treated as parts One leading slash in each of any but the first part is removed The result is then interspersed with slashes and string wise concatenated The interior of the parts isn examined components aren treated specially Examples unsplit parts unsplit parts unsplit parts unsplit parts foo foo unsplit parts foo foo unsplit parts foo bar foo bar unsplit parts foo bar foo bar unsplit parts foo bar foo bar unsplit parts foo bar foo bar unsplit parts foo bar baz foo bar baz See unsplit path unslice path split path",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "unsplit_parts",
           "normalized": "[String]-\u003eString",
@@ -4272,6 +4512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003esplit_path\u003c/a\u003e\u003c/code\u003e, except for normalisation.\n\u003c/p\u003e\u003cp\u003eThis forms a path from two parts, and takes care of \u003ccode\u003e\".\"\u003c/code\u003e and empty parts. When the two components are in normalised form, then \u003ccode\u003eunsplit_path\u003c/code\u003e\ncreates a normalised path.\n\u003c/p\u003e\u003cp\u003eThe definition:\n\u003c/p\u003e\u003cpre\u003eunsplit_path (\"\", \"\") = \"\"\nunsplit_path (p, q)   = unsplit_parts [p, q]\n\u003c/pre\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003eunsplit_path (\"\", \"\")     == \"\"\nunsplit_path (\".\", \"\")    == \".\"\nunsplit_path (\".\", \".\")   == \".\"\nunsplit_path (\"foo\", \".\") == \"foo\"\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003esplit_path\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eslice_path\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunsplit_parts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Paths",
           "name": "unsplit_path",
           "package": "hsshellscript",
@@ -4281,6 +4522,7 @@
         "index": {
           "description": "Inverse of split path except for normalisation This forms path from two parts and takes care of and empty parts When the two components are in normalised form then unsplit path creates normalised path The definition unsplit path unsplit path unsplit parts Examples unsplit path unsplit path unsplit path unsplit path foo foo See split path slice path unsplit parts",
           "hierarchy": "HsShellScript Paths",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Paths",
           "name": "unsplit_path",
           "normalized": "(String,String)-\u003eString",
@@ -4295,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "ProcErr",
           "package": "hsshellscript",
@@ -4303,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "ProcErr",
           "package": "hsshellscript",
@@ -4317,6 +4561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error which occured when calling an external program.\n   The fields specifiy the details of the call.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eshow_runerror\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eto_ioe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eas_ioe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eSystem.Posix.ProcessStatus\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "RunError",
           "package": "hsshellscript",
@@ -4326,6 +4571,7 @@
         "index": {
           "description": "An error which occured when calling an external program The fields specifiy the details of the call See show runerror to ioe as ioe System.Posix.ProcessStatus",
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "RunError",
           "package": "hsshellscript",
@@ -4639,6 +4885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForcibly terminate the program, circumventing normal program shutdown.\n\u003c/p\u003e\u003cp\u003eThis is the \u003ccode\u003e_exit(2)\u003c/code\u003e system call. No cleanup actions installed with \u003ccode\u003ebracket\u003c/code\u003e\nare performed, no data buffered by file handles is written out, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "_exit",
           "package": "hsshellscript",
@@ -4648,6 +4895,7 @@
         "index": {
           "description": "Forcibly terminate the program circumventing normal program shutdown This is the exit system call No cleanup actions installed with bracket are performed no data buffered by file handles is written out etc",
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "_exit",
           "normalized": "Int-\u003eIO a",
@@ -4662,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "_exit_prim",
           "package": "hsshellscript",
@@ -4671,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "_exit_prim",
           "normalized": "CInt-\u003eIO()",
@@ -4736,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "c_close_on_exec",
           "package": "hsshellscript",
@@ -4745,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "c_close_on_exec",
           "normalized": "CInt-\u003eIO CInt",
@@ -4759,6 +5011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "c_fcntl_dupfd",
           "package": "hsshellscript",
@@ -4768,6 +5021,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "c_fcntl_dupfd",
           "normalized": "CInt-\u003eCInt-\u003eIO CInt",
@@ -4782,6 +5036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "c_prepare_fd_flags_for_exec",
           "package": "hsshellscript",
@@ -4791,6 +5046,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "c_prepare_fd_flags_for_exec",
           "normalized": "IO()",
@@ -4805,6 +5061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "c_restore_fdflags",
           "package": "hsshellscript",
@@ -4814,6 +5071,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "c_restore_fdflags",
           "normalized": "Ptr CInt-\u003eIO()",
@@ -4828,6 +5086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "c_save_fdflags",
           "package": "hsshellscript",
@@ -4837,6 +5096,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "c_save_fdflags",
           "package": "hsshellscript",
@@ -4900,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "close",
           "package": "hsshellscript",
@@ -4909,6 +5170,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "close",
           "normalized": "CInt-\u003eIO CInt",
@@ -4923,6 +5185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "decode_ioerror",
           "package": "hsshellscript",
@@ -4932,6 +5195,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "decode_ioerror",
           "normalized": "String-\u003eMaybe IOError",
@@ -4946,6 +5210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "dup2",
           "package": "hsshellscript",
@@ -4955,6 +5220,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "dup2",
           "normalized": "CInt-\u003eCInt-\u003eIO CInt",
@@ -4994,6 +5260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "encode_ioerror",
           "package": "hsshellscript",
@@ -5003,6 +5270,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "encode_ioerror",
           "normalized": "IOError-\u003eString",
@@ -5371,6 +5639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "flush_outerr",
           "package": "hsshellscript",
@@ -5380,6 +5649,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "flush_outerr",
           "normalized": "IO()",
@@ -5394,6 +5664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "foreign_strerror",
           "package": "hsshellscript",
@@ -5403,6 +5674,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "foreign_strerror",
           "normalized": "CInt-\u003ePtr CChar",
@@ -5492,6 +5764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "hssh_c_isatty",
           "package": "hsshellscript",
@@ -5501,6 +5774,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "hssh_c_isatty",
           "normalized": "CInt-\u003eIO CInt",
@@ -5515,6 +5789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "ioe_types",
           "package": "hsshellscript",
@@ -5524,6 +5799,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "ioe_types",
           "normalized": "[(IOErrorType,Integer)]",
@@ -5538,6 +5814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "ioetype_num",
           "package": "hsshellscript",
@@ -5547,6 +5824,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "ioetype_num",
           "normalized": "IOError-\u003eInteger",
@@ -5687,6 +5965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "num_ioetype",
           "package": "hsshellscript",
@@ -5696,6 +5975,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "num_ioetype",
           "normalized": "Integer-\u003eIOErrorType",
@@ -5836,6 +6116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "pipe_fork_dup",
           "package": "hsshellscript",
@@ -5845,6 +6126,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "pipe_fork_dup",
           "normalized": "IO a-\u003eBool-\u003eBool-\u003eBool-\u003eIO(Maybe Handle,Maybe Handle,Maybe Handle,ProcessID)",
@@ -6107,6 +6389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "receive_ioerror",
           "package": "hsshellscript",
@@ -6116,6 +6399,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "receive_ioerror",
           "normalized": "Fd-\u003eIO(Maybe IOError)",
@@ -6155,6 +6439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "redirect_helper",
           "package": "hsshellscript",
@@ -6164,6 +6449,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "redirect_helper",
           "normalized": "Handle-\u003eIOMode-\u003eIO a-\u003eFilePath-\u003eIO a",
@@ -6228,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "send_ioerror",
           "package": "hsshellscript",
@@ -6237,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "send_ioerror",
           "normalized": "Fd-\u003eIOError-\u003eIO()",
@@ -6380,6 +6668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "spawn_loc",
           "package": "hsshellscript",
@@ -6389,6 +6678,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "spawn_loc",
           "normalized": "String-\u003eIO a-\u003eIO ProcessID",
@@ -6557,6 +6847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "tyCon_ProcessStatus",
           "package": "hsshellscript",
@@ -6566,6 +6857,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "tyCon_ProcessStatus",
           "package": "hsshellscript",
@@ -6579,6 +6871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "unsafeWithHandleFd",
           "package": "hsshellscript",
@@ -6588,6 +6881,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "unsafeWithHandleFd",
           "normalized": "Handle-\u003e(Fd-\u003eIO a)-\u003eIO a",
@@ -6603,6 +6897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.ProcErr",
           "name": "unsafeWithHandleFd'",
           "package": "hsshellscript",
@@ -6612,6 +6907,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript ProcErr",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.ProcErr",
           "name": "unsafeWithHandleFd'",
           "normalized": "Handle-\u003eMVar Handle__-\u003e(Fd-\u003eIO a)-\u003eIO a",
@@ -6627,6 +6923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Shell",
           "name": "Shell",
           "package": "hsshellscript",
@@ -6635,6 +6932,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript Shell",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Shell",
           "name": "Shell",
           "package": "hsshellscript",
@@ -6649,6 +6947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuote a string for the shell\n\u003c/p\u003e\u003cp\u003eThis encloses a string in double quotes and quotes any special\n characters inside, such that it will be recognized as one string by a\n shell. The double quotes are added even when they aren't needed for this\n purpose.\n\u003c/p\u003e\u003cp\u003eNote: The quoted strings are correctly recognized in shell scripts. But the shell bash has an annoying history expansion \"feature\", which causes\n it to choke on exclamation marks, when in interactive mode, even when quoted with double quotes. You can turn it off with \u003ccode\u003eset +o histexpand\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003equote0\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eshell_quote\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Shell",
           "name": "quote",
           "package": "hsshellscript",
@@ -6659,6 +6958,7 @@
         "index": {
           "description": "Quote string for the shell This encloses string in double quotes and quotes any special characters inside such that it will be recognized as one string by shell The double quotes are added even when they aren needed for this purpose Note The quoted strings are correctly recognized in shell scripts But the shell bash has an annoying history expansion feature which causes it to choke on exclamation marks when in interactive mode even when quoted with double quotes You can turn it off with set histexpand See quote0 shell quote",
           "hierarchy": "HsShellScript Shell",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Shell",
           "name": "quote",
           "normalized": "String-\u003eString",
@@ -6674,6 +6974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuote special characters inside a string for the shell\n\u003c/p\u003e\u003cp\u003eThis quotes special characters inside a string, such that it is\n recognized as one string by the shell when enclosed in double quotes.\n Doesn't add the double quotes.\n\u003c/p\u003e\u003cp\u003eNote: The quoted strings are correctly recognized in shell scripts. But the shell bash has an annoying history expansion \"feature\", which causes\n it to choke on exclamation marks, when in interactive mode, even when quoted with double quotes. You can turn it off with \u003ccode\u003eset +o histexpand\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003equote\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eshell_quote\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Shell",
           "name": "quote0",
           "package": "hsshellscript",
@@ -6684,6 +6985,7 @@
         "index": {
           "description": "Quote special characters inside string for the shell This quotes special characters inside string such that it is recognized as one string by the shell when enclosed in double quotes Doesn add the double quotes Note The quoted strings are correctly recognized in shell scripts But the shell bash has an annoying history expansion feature which causes it to choke on exclamation marks when in interactive mode even when quoted with double quotes You can turn it off with set histexpand See quote shell quote",
           "hierarchy": "HsShellScript Shell",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Shell",
           "name": "quote0",
           "normalized": "String-\u003eString",
@@ -6699,6 +7001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate command (for a shell) which corresponds to the specified program\n name and argument list. The program name and arguments are the usual\n parameters for calling an external program, like when using\n \u003ccode\u003erunProcess\u003c/code\u003e or \u003ccode\u003erun\u003c/code\u003e. The generated shell command\n would achieve the same effect. The name and the arguments are properly\n quoted, using \u003ccode\u003e\u003ca\u003eshell_quote\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: The quoted strings are correctly recognized in shell scripts. But the shell bash has an annoying history expansion \"feature\", which causes\n it to choke on exclamation marks, when in interactive mode, even when quoted with double quotes. You can turn it off with \u003ccode\u003eset +o histexpand\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Shell",
           "name": "shell_command",
           "package": "hsshellscript",
@@ -6708,6 +7011,7 @@
         "index": {
           "description": "Generate command for shell which corresponds to the specified program name and argument list The program name and arguments are the usual parameters for calling an external program like when using runProcess or run The generated shell command would achieve the same effect The name and the arguments are properly quoted using shell quote Note The quoted strings are correctly recognized in shell scripts But the shell bash has an annoying history expansion feature which causes it to choke on exclamation marks when in interactive mode even when quoted with double quotes You can turn it off with set histexpand",
           "hierarchy": "HsShellScript Shell",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Shell",
           "name": "shell_command",
           "normalized": "String-\u003e[String]-\u003eString",
@@ -6723,6 +7027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuote shell metacharacters.\n\u003c/p\u003e\u003cp\u003eThis function quotes strings, such that they are not misinterpreted by\n the shell. It tries to be friendly to a human reader - when special\n characters are present, then the string is quoted with double quotes. If\n not, it is left unchanged.\n\u003c/p\u003e\u003cp\u003eThe list of exacly which characters need to be quoted has been taken\n from the bash source code. Bash in turn, implements POSIX 1003.2. So the\n result produced should be correct. From the bash info pages:\n \"... the rules for evaluation and quoting are taken from the POSIX\n 1003.2 specification for the \u003ccode\u003estandard\u003c/code\u003e Unix shell.\"\n\u003c/p\u003e\u003cp\u003eNote: The quoted strings are correctly recognized in shell scripts. But the shell bash has an annoying history expansion \"feature\", which causes\n it to choke on exclamation marks, when in interactive mode, even when quoted with double quotes. You can turn it off with \u003ccode\u003eset +o histexpand\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003equote\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript.Shell",
           "name": "shell_quote",
           "package": "hsshellscript",
@@ -6733,6 +7038,7 @@
         "index": {
           "description": "Quote shell metacharacters This function quotes strings such that they are not misinterpreted by the shell It tries to be friendly to human reader when special characters are present then the string is quoted with double quotes If not it is left unchanged The list of exacly which characters need to be quoted has been taken from the bash source code Bash in turn implements POSIX So the result produced should be correct From the bash info pages the rules for evaluation and quoting are taken from the POSIX specification for the standard Unix shell Note The quoted strings are correctly recognized in shell scripts But the shell bash has an annoying history expansion feature which causes it to choke on exclamation marks when in interactive mode even when quoted with double quotes You can turn it off with set histexpand See quote",
           "hierarchy": "HsShellScript Shell",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript.Shell",
           "name": "shell_quote",
           "normalized": "String-\u003eString",
@@ -6747,6 +7053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript",
           "name": "HsShellScript",
           "package": "hsshellscript",
@@ -6755,6 +7062,7 @@
         },
         "index": {
           "hierarchy": "HsShellScript",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript",
           "name": "HsShellScript",
           "package": "hsshellscript",
@@ -6769,6 +7077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne entry of mount information. This is the same as \u003ccode\u003estruct mntent\u003c/code\u003e from \u003ccode\u003e\u003cmntent.h\u003e\u003c/code\u003e.\nA list of these is returned by the functions which read mount information.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eread_mounts\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eread_mtab\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eread_fstab\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript",
           "name": "Mntent",
           "package": "hsshellscript",
@@ -6778,6 +7087,7 @@
         "index": {
           "description": "One entry of mount information This is the same as struct mntent from mntent.h list of these is returned by the functions which read mount information See read mounts read mtab read fstab",
           "hierarchy": "HsShellScript",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript",
           "name": "Mntent",
           "package": "hsshellscript",
@@ -6792,6 +7102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error which occured when calling an external program.\n   The fields specifiy the details of the call.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eshow_runerror\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eto_ioe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eas_ioe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eSystem.Posix.ProcessStatus\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript",
           "name": "RunError",
           "package": "hsshellscript",
@@ -6801,6 +7112,7 @@
         "index": {
           "description": "An error which occured when calling an external program The fields specifiy the details of the call See show runerror to ioe as ioe System.Posix.ProcessStatus",
           "hierarchy": "HsShellScript",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript",
           "name": "RunError",
           "package": "hsshellscript",
@@ -6815,6 +7127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError reporting wrapper for the \u003ccode\u003emain\u003c/code\u003e function. This catches any\n   HsShellScript generated exceptions, and \u003ccode\u003eIOError\u003c/code\u003es, prints\n   an error message and exits with \u003ccode\u003eexitFailure\u003c/code\u003e. The \u003ccode\u003emain\u003c/code\u003e function\n   typically looks like this:\n\u003c/p\u003e\u003cpre\u003emain = mainwrapper $ do ...\n\u003c/pre\u003e\u003cp\u003eThe exceptions caught are \u003ccode\u003e\u003ca\u003eArgError\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eRunError\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eProcessStatus\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003eIOError\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:46 UTC 2014",
           "module": "HsShellScript",
           "name": "mainwrapper",
           "package": "hsshellscript",
@@ -6824,6 +7137,7 @@
         "index": {
           "description": "Error reporting wrapper for the main function This catches any HsShellScript generated exceptions and IOError prints an error message and exits with exitFailure The main function typically looks like this main mainwrapper do The exceptions caught are ArgError RunError ProcessStatus and IOError",
           "hierarchy": "HsShellScript",
+          "indexed": "2014-03-11T18:50:46",
           "module": "HsShellScript",
           "name": "mainwrapper",
           "normalized": "IO a-\u003eIO a",

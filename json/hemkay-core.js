@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hemkay-core"
+        "phrase": "hemkay-core",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the loading function.  The supported formats are\nthe following 31-instrument ProTracker variants: M.K., M!K!, FLT4,\nFLT8, 4CHN, 6CHN, 8CHN, 16CH, 32CH.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Loader",
           "name": "Loader",
           "package": "hemkay-core",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains the loading function The supported formats are the following instrument ProTracker variants M.K FLT4 FLT8 CHN CHN CHN CH CH",
           "hierarchy": "Sound Hemkay Loader",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Loader",
           "name": "Loader",
           "package": "hemkay-core",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a song.  Some exception is thrown in case of failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Loader",
           "name": "loadModule",
           "package": "hemkay-core",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Load song Some exception is thrown in case of failure",
           "hierarchy": "Sound Hemkay Loader",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Loader",
           "name": "loadModule",
           "normalized": "FilePath-\u003eIO Song",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the routines to turn a song into a stream of\nfloating point samples.  Some intermediate structures are also made\navailable to allow more fine-grain control over playback.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "Mixer",
           "package": "hemkay-core",
@@ -77,6 +82,7 @@
         "index": {
           "description": "This module contains the routines to turn song into stream of floating point samples Some intermediate structures are also made available to allow more fine-grain control over playback",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "Mixer",
           "package": "hemkay-core",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state of a channel upon entering a tick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "ChannelState",
           "package": "hemkay-core",
@@ -100,6 +107,7 @@
         "index": {
           "description": "The state of channel upon entering tick",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "ChannelState",
           "package": "hemkay-core",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "ChunkMixState",
           "package": "hemkay-core",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "ChunkMixState",
           "package": "hemkay-core",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state of the player upon entering a tick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "PlayState",
           "package": "hemkay-core",
@@ -144,6 +155,7 @@
         "index": {
           "description": "The state of the player upon entering tick",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "PlayState",
           "package": "hemkay-core",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "Sample",
           "package": "hemkay-core",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "Sample",
           "package": "hemkay-core",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "SongMixState",
           "package": "hemkay-core",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "SongMixState",
           "package": "hemkay-core",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "CS",
           "package": "hemkay-core",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "CS",
           "package": "hemkay-core",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "PS",
           "package": "hemkay-core",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "PS",
           "package": "hemkay-core",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "Smp",
           "package": "hemkay-core",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "Smp",
           "package": "hemkay-core",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csDelayedInstrument",
           "package": "hemkay-core",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csDelayedInstrument",
           "package": "hemkay-core",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csDelayedPeriod",
           "package": "hemkay-core",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csDelayedPeriod",
           "package": "hemkay-core",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csEffect",
           "package": "hemkay-core",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csEffect",
           "normalized": "[Effect]",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csFinePorta",
           "package": "hemkay-core",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csFinePorta",
           "package": "hemkay-core",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csFineTune",
           "package": "hemkay-core",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csFineTune",
           "package": "hemkay-core",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csFineVolumeSlide",
           "package": "hemkay-core",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csFineVolumeSlide",
           "package": "hemkay-core",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csInstrument",
           "package": "hemkay-core",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csInstrument",
           "package": "hemkay-core",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csPanning",
           "package": "hemkay-core",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csPanning",
           "package": "hemkay-core",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csPeriod",
           "package": "hemkay-core",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csPeriod",
           "package": "hemkay-core",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csPortaDown",
           "package": "hemkay-core",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csPortaDown",
           "package": "hemkay-core",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csPortaUp",
           "package": "hemkay-core",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csPortaUp",
           "package": "hemkay-core",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csSampleStep",
           "package": "hemkay-core",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csSampleStep",
           "package": "hemkay-core",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csSubSample",
           "package": "hemkay-core",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csSubSample",
           "package": "hemkay-core",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTonePortaEnd",
           "package": "hemkay-core",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTonePortaEnd",
           "package": "hemkay-core",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTonePortaSpeed",
           "package": "hemkay-core",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTonePortaSpeed",
           "package": "hemkay-core",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTremoloAmp",
           "package": "hemkay-core",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTremoloAmp",
           "package": "hemkay-core",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTremoloDiff",
           "package": "hemkay-core",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTremoloDiff",
           "package": "hemkay-core",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTremoloSpeed",
           "package": "hemkay-core",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTremoloSpeed",
           "package": "hemkay-core",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTremoloWave",
           "package": "hemkay-core",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csTremoloWave",
           "normalized": "[Float]",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csVibratoAmp",
           "package": "hemkay-core",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csVibratoAmp",
           "package": "hemkay-core",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csVibratoSpeed",
           "package": "hemkay-core",
@@ -718,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csVibratoSpeed",
           "package": "hemkay-core",
@@ -731,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csVibratoWave",
           "package": "hemkay-core",
@@ -740,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csVibratoWave",
           "normalized": "[Float]",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csVolume",
           "package": "hemkay-core",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csVolume",
           "package": "hemkay-core",
@@ -777,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csVolumeSlide",
           "package": "hemkay-core",
@@ -786,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csVolumeSlide",
           "package": "hemkay-core",
@@ -799,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "csWaveData",
           "package": "hemkay-core",
@@ -808,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "csWaveData",
           "package": "hemkay-core",
@@ -822,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a song into a series of pattern rows.  This includes\n handling control structures like pattern breaks, delays and loops.\n Order jumps are ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "flattenSong",
           "package": "hemkay-core",
@@ -832,6 +905,7 @@
         "index": {
           "description": "Turn song into series of pattern rows This includes handling control structures like pattern breaks delays and loops Order jumps are ignored",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "flattenSong",
           "normalized": "Song-\u003e[[Note]]",
@@ -847,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "leftChannel",
           "package": "hemkay-core",
@@ -856,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "leftChannel",
           "package": "hemkay-core",
@@ -870,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix a single chunk given a play state.  It's equivalent to\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003enextSample\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eprepareMix\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "mixChunk",
           "package": "hemkay-core",
@@ -880,6 +957,7 @@
         "index": {
           "description": "Mix single chunk given play state It equivalent to unfoldr nextSample prepareMix",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "mixChunk",
           "normalized": "PlayState-\u003e[Sample]",
@@ -896,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix a whole song in chunks, pairing up the play states with the\n respective chunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "mixSong",
           "package": "hemkay-core",
@@ -906,6 +985,7 @@
         "index": {
           "description": "Mix whole song in chunks pairing up the play states with the respective chunks",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "mixSong",
           "normalized": "Song-\u003e[(PlayState,[Sample])]",
@@ -922,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a pointer to a float buffer and a number of samples desired\n (n), mix the appropriate amount of the song and return the mix\n state for the remainder or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if finished.  This is the most\n efficient way to render a song.  Note that each sample consists of\n two floats, so the buffer has to be able to hold 2*n floats.  The\n initial song mix state can be simply created by \u003ccode\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eprepareMix\u003c/a\u003e\u003c/code\u003e\n . \u003ccode\u003e\u003ca\u003eperformSong\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "mixToBuffer",
           "package": "hemkay-core",
@@ -932,6 +1013,7 @@
         "index": {
           "description": "Given pointer to float buffer and number of samples desired mix the appropriate amount of the song and return the mix state for the remainder or Nothing if finished This is the most efficient way to render song Note that each sample consists of two floats so the buffer has to be able to hold floats The initial song mix state can be simply created by map prepareMix performSong",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "mixToBuffer",
           "normalized": "Ptr Float-\u003eInt-\u003eSongMixState-\u003eIO(Maybe SongMixState)",
@@ -948,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix a single sample given a chunk mix state.  Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n at the end of the chunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "nextSample",
           "package": "hemkay-core",
@@ -958,6 +1041,7 @@
         "index": {
           "description": "Mix single sample given chunk mix state Returns Nothing at the end of the chunk",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "nextSample",
           "normalized": "ChunkMixState-\u003eMaybe(Sample,ChunkMixState)",
@@ -974,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a song into a series of play states, one for each tick.\n It's a shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eperformTicks\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eflattenSong\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "performSong",
           "package": "hemkay-core",
@@ -984,6 +1069,7 @@
         "index": {
           "description": "Turn song into series of play states one for each tick It shorthand for performTicks flattenSong",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "performSong",
           "normalized": "Song-\u003e[PlayState]",
@@ -1000,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a list of rows into a list of play states.  Each row gives\n birth to a number of play states equal to the tempo on that row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "performTicks",
           "package": "hemkay-core",
@@ -1010,6 +1097,7 @@
         "index": {
           "description": "Turn list of rows into list of play states Each row gives birth to number of play states equal to the tempo on that row",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "performTicks",
           "normalized": "[[Note]]-\u003e[PlayState]",
@@ -1026,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a mixer state from a player state.  This basically strips\n away a lot of unnecessary information and throws away the channels\n that don't contribute to the output in the given chunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "prepareMix",
           "package": "hemkay-core",
@@ -1036,6 +1125,7 @@
         "index": {
           "description": "Create mixer state from player state This basically strips away lot of unnecessary information and throws away the channels that don contribute to the output in the given chunk",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "prepareMix",
           "normalized": "PlayState-\u003eChunkMixState",
@@ -1052,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current BPM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "psBPM",
           "package": "hemkay-core",
@@ -1062,6 +1153,7 @@
         "index": {
           "description": "The current BPM",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "psBPM",
           "package": "hemkay-core",
@@ -1076,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state of the channels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "psChannels",
           "package": "hemkay-core",
@@ -1086,6 +1179,7 @@
         "index": {
           "description": "The state of the channels",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "psChannels",
           "normalized": "[ChannelState]",
@@ -1102,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current row during its first tick, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e in subsequent ticks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "psRow",
           "package": "hemkay-core",
@@ -1112,6 +1207,7 @@
         "index": {
           "description": "The current row during its first tick Nothing in subsequent ticks",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "psRow",
           "normalized": "Maybe[Note]",
@@ -1128,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current tempo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "psTempo",
           "package": "hemkay-core",
@@ -1138,6 +1235,7 @@
         "index": {
           "description": "The current tempo",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "psTempo",
           "package": "hemkay-core",
@@ -1151,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "rightChannel",
           "package": "hemkay-core",
@@ -1160,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "rightChannel",
           "package": "hemkay-core",
@@ -1174,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe frequency at which mixer output should be played back.  For\n the time being, this is a fixed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "sampleFrequency",
           "package": "hemkay-core",
@@ -1184,6 +1285,7 @@
         "index": {
           "description": "The frequency at which mixer output should be played back For the time being this is fixed value",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "sampleFrequency",
           "package": "hemkay-core",
@@ -1198,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initial state of the player given the number of channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Mixer",
           "name": "startState",
           "package": "hemkay-core",
@@ -1208,6 +1311,7 @@
         "index": {
           "description": "The initial state of the player given the number of channels",
           "hierarchy": "Sound Hemkay Mixer",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Mixer",
           "name": "startState",
           "normalized": "Int-\u003ePlayState",
@@ -1224,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the song structure definitions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Music",
           "package": "hemkay-core",
@@ -1233,6 +1338,7 @@
         "index": {
           "description": "This module contains the song structure definitions",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Music",
           "package": "hemkay-core",
@@ -1246,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Effect",
           "package": "hemkay-core",
@@ -1254,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Effect",
           "package": "hemkay-core",
@@ -1267,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Instrument",
           "package": "hemkay-core",
@@ -1275,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Instrument",
           "package": "hemkay-core",
@@ -1288,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Note",
           "package": "hemkay-core",
@@ -1296,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Note",
           "package": "hemkay-core",
@@ -1309,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Pattern",
           "package": "hemkay-core",
@@ -1317,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Pattern",
           "package": "hemkay-core",
@@ -1330,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "PortaParam",
           "package": "hemkay-core",
@@ -1338,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "PortaParam",
           "package": "hemkay-core",
@@ -1351,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Song",
           "package": "hemkay-core",
@@ -1359,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Song",
           "package": "hemkay-core",
@@ -1372,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "WaveData",
           "package": "hemkay-core",
@@ -1380,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "WaveData",
           "package": "hemkay-core",
@@ -1394,6 +1514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible waveforms of the vibrato and tremolo effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Waveform",
           "package": "hemkay-core",
@@ -1403,6 +1524,7 @@
         "index": {
           "description": "The possible waveforms of the vibrato and tremolo effects",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Waveform",
           "package": "hemkay-core",
@@ -1416,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Arpeggio",
           "package": "hemkay-core",
@@ -1425,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Arpeggio",
           "package": "hemkay-core",
@@ -1438,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "FinePanning",
           "package": "hemkay-core",
@@ -1447,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "FinePanning",
           "package": "hemkay-core",
@@ -1460,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "FinePortamento",
           "package": "hemkay-core",
@@ -1469,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "FinePortamento",
           "package": "hemkay-core",
@@ -1482,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "FineTuneControl",
           "package": "hemkay-core",
@@ -1491,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "FineTuneControl",
           "package": "hemkay-core",
@@ -1504,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "FineVolumeSlide",
           "package": "hemkay-core",
@@ -1513,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "FineVolumeSlide",
           "package": "hemkay-core",
@@ -1526,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Instrument",
           "package": "hemkay-core",
@@ -1535,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Instrument",
           "package": "hemkay-core",
@@ -1548,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "LastDown",
           "package": "hemkay-core",
@@ -1557,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "LastDown",
           "package": "hemkay-core",
@@ -1570,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "LastUp",
           "package": "hemkay-core",
@@ -1579,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "LastUp",
           "package": "hemkay-core",
@@ -1592,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Note",
           "package": "hemkay-core",
@@ -1601,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Note",
           "package": "hemkay-core",
@@ -1614,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "NoteCut",
           "package": "hemkay-core",
@@ -1623,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "NoteCut",
           "package": "hemkay-core",
@@ -1636,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "NoteDelay",
           "package": "hemkay-core",
@@ -1645,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "NoteDelay",
           "package": "hemkay-core",
@@ -1658,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "OrderJump",
           "package": "hemkay-core",
@@ -1667,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "OrderJump",
           "package": "hemkay-core",
@@ -1680,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "PatternBreak",
           "package": "hemkay-core",
@@ -1689,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "PatternBreak",
           "package": "hemkay-core",
@@ -1702,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "PatternDelay",
           "package": "hemkay-core",
@@ -1711,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "PatternDelay",
           "package": "hemkay-core",
@@ -1724,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "PatternLoop",
           "package": "hemkay-core",
@@ -1733,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "PatternLoop",
           "package": "hemkay-core",
@@ -1746,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Porta",
           "package": "hemkay-core",
@@ -1755,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Porta",
           "package": "hemkay-core",
@@ -1768,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Portamento",
           "package": "hemkay-core",
@@ -1777,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Portamento",
           "package": "hemkay-core",
@@ -1790,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "RetrigNote",
           "package": "hemkay-core",
@@ -1799,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "RetrigNote",
           "package": "hemkay-core",
@@ -1812,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "SampleOffset",
           "package": "hemkay-core",
@@ -1821,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "SampleOffset",
           "package": "hemkay-core",
@@ -1834,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "SawtoothWave",
           "package": "hemkay-core",
@@ -1843,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "SawtoothWave",
           "package": "hemkay-core",
@@ -1856,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "SetBPM",
           "package": "hemkay-core",
@@ -1865,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "SetBPM",
           "package": "hemkay-core",
@@ -1878,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "SetTempo",
           "package": "hemkay-core",
@@ -1887,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "SetTempo",
           "package": "hemkay-core",
@@ -1900,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "SetTremoloWaveform",
           "package": "hemkay-core",
@@ -1909,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "SetTremoloWaveform",
           "package": "hemkay-core",
@@ -1922,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "SetVibratoWaveform",
           "package": "hemkay-core",
@@ -1931,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "SetVibratoWaveform",
           "package": "hemkay-core",
@@ -1944,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "SetVolume",
           "package": "hemkay-core",
@@ -1953,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "SetVolume",
           "package": "hemkay-core",
@@ -1966,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "SineWave",
           "package": "hemkay-core",
@@ -1975,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "SineWave",
           "package": "hemkay-core",
@@ -1988,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Song",
           "package": "hemkay-core",
@@ -1997,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Song",
           "package": "hemkay-core",
@@ -2010,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "SquareWave",
           "package": "hemkay-core",
@@ -2019,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "SquareWave",
           "package": "hemkay-core",
@@ -2032,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "TonePortamento",
           "package": "hemkay-core",
@@ -2041,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "TonePortamento",
           "package": "hemkay-core",
@@ -2054,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Tremolo",
           "package": "hemkay-core",
@@ -2063,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Tremolo",
           "package": "hemkay-core",
@@ -2076,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "Vibrato",
           "package": "hemkay-core",
@@ -2085,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "Vibrato",
           "package": "hemkay-core",
@@ -2098,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "VolumeSlide",
           "package": "hemkay-core",
@@ -2107,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "VolumeSlide",
           "package": "hemkay-core",
@@ -2121,6 +2307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial effects, at most two per note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "effect",
           "package": "hemkay-core",
@@ -2131,6 +2318,7 @@
         "index": {
           "description": "Special effects at most two per note",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "effect",
           "normalized": "[Effect]",
@@ -2146,6 +2334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA silent instrument that's not equal to any other in a loaded\n song.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "emptyInstrument",
           "package": "hemkay-core",
@@ -2156,6 +2345,7 @@
         "index": {
           "description": "silent instrument that not equal to any other in loaded song",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "emptyInstrument",
           "package": "hemkay-core",
@@ -2170,6 +2360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFine tune (-log_12 2..log_12 2).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "fineTune",
           "package": "hemkay-core",
@@ -2180,6 +2371,7 @@
         "index": {
           "description": "Fine tune log log",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "fineTune",
           "package": "hemkay-core",
@@ -2194,6 +2386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstrument number, needed for equality check.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "ident",
           "package": "hemkay-core",
@@ -2204,6 +2397,7 @@
         "index": {
           "description": "Instrument number needed for equality check",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "ident",
           "package": "hemkay-core",
@@ -2217,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe instrument of the note, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "instrument",
           "package": "hemkay-core",
@@ -2227,6 +2422,7 @@
         "index": {
           "description": "The instrument of the note if any",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "instrument",
           "package": "hemkay-core",
@@ -2240,6 +2436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstruments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "instruments",
           "package": "hemkay-core",
@@ -2250,6 +2447,7 @@
         "index": {
           "description": "Instruments",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "instruments",
           "normalized": "[Instrument]",
@@ -2265,6 +2463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstrument name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "name",
           "package": "hemkay-core",
@@ -2275,6 +2474,7 @@
         "index": {
           "description": "Instrument name",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "name",
           "package": "hemkay-core",
@@ -2288,6 +2488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of channels in a song.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "numChannels",
           "package": "hemkay-core",
@@ -2298,6 +2499,7 @@
         "index": {
           "description": "The number of channels in song",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "numChannels",
           "normalized": "Song-\u003eInt",
@@ -2314,6 +2516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePatterns in the order of playback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "patterns",
           "package": "hemkay-core",
@@ -2324,6 +2527,7 @@
         "index": {
           "description": "Patterns in the order of playback",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "patterns",
           "normalized": "[Pattern]",
@@ -2339,6 +2543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeriod of the note (0 for none); the corresponding frequency is 3546894.6/period.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "period",
           "package": "hemkay-core",
@@ -2349,6 +2554,7 @@
         "index": {
           "description": "Period of the note for none the corresponding frequency is period",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "period",
           "package": "hemkay-core",
@@ -2361,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "periodName",
           "package": "hemkay-core",
@@ -2370,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "periodName",
           "normalized": "Int-\u003e[Char]",
@@ -2386,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSong title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "title",
           "package": "hemkay-core",
@@ -2396,6 +2605,7 @@
         "index": {
           "description": "Song title",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "title",
           "package": "hemkay-core",
@@ -2409,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault volume (0..1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "volume",
           "package": "hemkay-core",
@@ -2419,6 +2630,7 @@
         "index": {
           "description": "Default volume",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "volume",
           "package": "hemkay-core",
@@ -2432,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of samples; infinite for looped instruments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "wave",
           "package": "hemkay-core",
@@ -2442,6 +2655,7 @@
         "index": {
           "description": "List of samples infinite for looped instruments",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "wave",
           "package": "hemkay-core",
@@ -2455,6 +2669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWaveforms needed for vibrato and tremolo effects.  The lists are\n infinite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay.Music",
           "name": "waveForms",
           "package": "hemkay-core",
@@ -2465,6 +2680,7 @@
         "index": {
           "description": "Waveforms needed for vibrato and tremolo effects The lists are infinite",
           "hierarchy": "Sound Hemkay Music",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay.Music",
           "name": "waveForms",
           "normalized": "[(Waveform,[Float])]",
@@ -2481,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHemkay (An M.K. Player Whose Name Starts with an H) is a simple music\nmodule player that performs all the mixing in Haskell.  It supports\nthe popular ProTracker format and some of its variations with\ndifferent numbers of channels.  This package contains all the device\nindependent mixing routines of the player.\n\u003c/p\u003e\u003cp\u003eImport this module to gain access to all the functionality, i.e. the\nability to load MOD files and serialise them into sound samples in\nvarious ways.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:47 UTC 2014",
           "module": "Sound.Hemkay",
           "name": "Hemkay",
           "package": "hemkay-core",
@@ -2490,6 +2707,7 @@
         "index": {
           "description": "Hemkay An M.K Player Whose Name Starts with an is simple music module player that performs all the mixing in Haskell It supports the popular ProTracker format and some of its variations with different numbers of channels This package contains all the device independent mixing routines of the player Import this module to gain access to all the functionality i.e the ability to load MOD files and serialise them into sound samples in various ways",
           "hierarchy": "Sound Hemkay",
+          "indexed": "2014-03-11T18:36:47",
           "module": "Sound.Hemkay",
           "name": "Hemkay",
           "package": "hemkay-core",

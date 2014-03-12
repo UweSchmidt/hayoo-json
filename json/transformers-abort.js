@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "transformers-abort"
+        "phrase": "transformers-abort",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "Abort",
           "package": "transformers-abort",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Abort",
           "name": "Abort",
           "package": "transformers-abort",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "Abort",
           "package": "transformers-abort",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Abort",
           "name": "Abort",
           "package": "transformers-abort",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "AbortT",
           "package": "transformers-abort",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Abort",
           "name": "AbortT",
           "package": "transformers-abort",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "AbortT",
           "package": "transformers-abort",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Abort",
           "name": "AbortT",
           "package": "transformers-abort",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "abort",
           "package": "transformers-abort",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Abort",
           "name": "abort",
           "normalized": "a-\u003eAbortT a b c",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "recover",
           "package": "transformers-abort",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Abort",
           "name": "recover",
           "normalized": "AbortT a b c-\u003e(a-\u003eAbortT a b c)-\u003eAbortT a b c",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "runAbort",
           "package": "transformers-abort",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Abort",
           "name": "runAbort",
           "normalized": "Abort a b-\u003eEither a b",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "runAbortT",
           "package": "transformers-abort",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Abort",
           "name": "runAbortT",
           "package": "transformers-abort",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Finish",
           "name": "Finish",
           "package": "transformers-abort",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Finish",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Finish",
           "name": "Finish",
           "package": "transformers-abort",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Finish",
           "name": "Finish",
           "package": "transformers-abort",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Finish",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Finish",
           "name": "Finish",
           "package": "transformers-abort",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Finish",
           "name": "FinishT",
           "package": "transformers-abort",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Finish",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Finish",
           "name": "FinishT",
           "package": "transformers-abort",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Finish",
           "name": "FinishT",
           "package": "transformers-abort",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Finish",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Finish",
           "name": "FinishT",
           "package": "transformers-abort",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Finish",
           "name": "finish",
           "package": "transformers-abort",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Finish",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Finish",
           "name": "finish",
           "normalized": "a-\u003eFinishT a b c",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Finish",
           "name": "runFinish",
           "package": "transformers-abort",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Finish",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Finish",
           "name": "runFinish",
           "normalized": "Finish a b-\u003eEither a b",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Finish",
           "name": "runFinish'",
           "package": "transformers-abort",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Finish",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Finish",
           "name": "runFinish'",
           "normalized": "Finish a a-\u003ea",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Finish",
           "name": "runFinishT",
           "package": "transformers-abort",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Finish",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Finish",
           "name": "runFinishT",
           "package": "transformers-abort",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:52 UTC 2014",
           "module": "Control.Monad.Trans.Finish",
           "name": "runFinishT'",
           "package": "transformers-abort",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Finish",
+          "indexed": "2014-03-11T20:24:52",
           "module": "Control.Monad.Trans.Finish",
           "name": "runFinishT'",
           "normalized": "FinishT a b a-\u003eb a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-client-tls"
+        "phrase": "http-client-tls",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for making connections via the connection package and, in turn,\n the tls package suite.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:24 UTC 2014",
           "module": "Network.HTTP.Client.TLS",
           "name": "TLS",
           "package": "http-client-tls",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Support for making connections via the connection package and in turn the tls package suite",
           "hierarchy": "Network HTTP Client TLS",
+          "indexed": "2014-03-11T18:52:24",
           "module": "Network.HTTP.Client.TLS",
           "name": "TLS",
           "package": "http-client-tls",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:24 UTC 2014",
           "module": "Network.HTTP.Client.TLS",
           "name": "getTlsConnection",
           "package": "http-client-tls",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client TLS",
+          "indexed": "2014-03-11T18:52:24",
           "module": "Network.HTTP.Client.TLS",
           "name": "getTlsConnection",
           "normalized": "Maybe TLSSettings-\u003eMaybe SockSettings-\u003eIO(Maybe HostAddress-\u003eString-\u003eInt-\u003eIO Connection)",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:24 UTC 2014",
           "module": "Network.HTTP.Client.TLS",
           "name": "mkManagerSettings",
           "package": "http-client-tls",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client TLS",
+          "indexed": "2014-03-11T18:52:24",
           "module": "Network.HTTP.Client.TLS",
           "name": "mkManagerSettings",
           "normalized": "TLSSettings-\u003eMaybe SockSettings-\u003eManagerSettings",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:24 UTC 2014",
           "module": "Network.HTTP.Client.TLS",
           "name": "tlsManagerSettings",
           "package": "http-client-tls",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client TLS",
+          "indexed": "2014-03-11T18:52:24",
           "module": "Network.HTTP.Client.TLS",
           "name": "tlsManagerSettings",
           "package": "http-client-tls",

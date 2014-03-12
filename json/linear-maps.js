@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linear-maps"
+        "phrase": "linear-maps",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003eFunctor2\u003c/code\u003e and \u003ccode\u003eFunctor3\u003c/code\u003e type classes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Control.Functor",
           "name": "Functor",
           "package": "linear-maps",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functor2 and Functor3 type classes",
           "hierarchy": "Control Functor",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Control.Functor",
           "name": "Functor",
           "package": "linear-maps",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Control.Functor",
           "name": "Functor2",
           "package": "linear-maps",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Functor",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Control.Functor",
           "name": "Functor2",
           "package": "linear-maps",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Control.Functor",
           "name": "Functor3",
           "package": "linear-maps",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Functor",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Control.Functor",
           "name": "Functor3",
           "package": "linear-maps",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Control.Functor",
           "name": "fmap2",
           "package": "linear-maps",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Control Functor",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Control.Functor",
           "name": "fmap2",
           "normalized": "(a-\u003eb)-\u003ec a d-\u003ec b d",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Control.Functor",
           "name": "fmap3",
           "package": "linear-maps",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Control Functor",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Control.Functor",
           "name": "fmap3",
           "normalized": "(a-\u003eb)-\u003ec a d e-\u003ec b d e",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap.Tests",
           "name": "Tests",
           "package": "linear-maps",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap.Tests",
           "name": "Tests",
           "package": "linear-maps",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap.Tests",
           "name": "relationToFunction",
           "package": "linear-maps",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap.Tests",
           "name": "relationToFunction",
           "normalized": "[(a,b)]-\u003ea-\u003e[b]",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap.Tests",
           "name": "testMapWalk",
           "package": "linear-maps",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap.Tests",
           "name": "testMapWalk",
           "normalized": "Children(Id a)-\u003eSet b a-\u003e[Id a]-\u003e[[Id a]])-\u003e[Char]-\u003e[[Char]]",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap.Tests",
           "name": "testPrWalk",
           "package": "linear-maps",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap.Tests",
           "name": "testPrWalk",
           "normalized": "Map a b[Id b]-\u003eMap c b Int-\u003eId b-\u003e[Id b])-\u003eChar-\u003e[Char]",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap.Tests",
           "name": "testSCC",
           "package": "linear-maps",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap.Tests",
           "name": "testSCC",
           "normalized": "Children(Id a)-\u003eChildren(Id a)-\u003eSet b a-\u003e[Id a]-\u003e[[Id a]])-\u003e[Char]-\u003e[[Char]]",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap.Tests",
           "name": "testWalk",
           "package": "linear-maps",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap.Tests",
           "name": "testWalk",
           "normalized": "Children(Id a)-\u003eSet b a-\u003e[Id a]-\u003e[Id a])-\u003e[Char]-\u003e[Char]",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap.Tests",
           "name": "tests",
           "package": "linear-maps",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap.Tests",
           "name": "tests",
           "package": "linear-maps",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap.Tests",
           "name": "toFunction",
           "package": "linear-maps",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap.Tests",
           "name": "toFunction",
           "normalized": "Map a b[c]-\u003eId b-\u003e[c]",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap.Tests",
           "name": "withGraph",
           "package": "linear-maps",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap.Tests",
           "name": "withGraph",
           "normalized": "(Id a-\u003eChar)-\u003e(Char-\u003eId a)-\u003eMap b a[Id a]-\u003eMap c a[Id a]-\u003eSet d a-\u003eSet e a-\u003e(f g Map d a h)-\u003ei)-\u003ei",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap",
           "name": "IdMap",
           "package": "linear-maps",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap",
           "name": "IdMap",
           "package": "linear-maps",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap",
           "name": "Children",
           "package": "linear-maps",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap",
           "name": "Children",
           "package": "linear-maps",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap",
           "name": "Task",
           "package": "linear-maps",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap",
           "name": "Task",
           "package": "linear-maps",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap",
           "name": "Return",
           "package": "linear-maps",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap",
           "name": "Return",
           "package": "linear-maps",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap",
           "name": "Visit",
           "package": "linear-maps",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap",
           "name": "Visit",
           "package": "linear-maps",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap",
           "name": "depthFirstWalk",
           "package": "linear-maps",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap",
           "name": "depthFirstWalk",
           "normalized": "Children(Id a)-\u003eSet b a-\u003e[Id a]-\u003e[Id a]",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap",
           "name": "depthFirstWalk'",
           "package": "linear-maps",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap",
           "name": "depthFirstWalk'",
           "normalized": "Children(Id a)-\u003eSet b a-\u003e[Id a]-\u003e(Set b a,[Id a])",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap",
           "name": "mapWalk",
           "package": "linear-maps",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap",
           "name": "mapWalk",
           "normalized": "Set a b-\u003eChildren(Id b)-\u003e[Id b]-\u003e[[Id b]]",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap",
           "name": "postOrderWalk",
           "package": "linear-maps",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap",
           "name": "postOrderWalk",
           "normalized": "Children(Id a)-\u003eSet b a-\u003e[Id a]-\u003e[Id a]",
@@ -542,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Graph.IdMap",
           "name": "scc",
           "package": "linear-maps",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Data Graph IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Graph.IdMap",
           "name": "scc",
           "normalized": "Set a b-\u003eSet a b-\u003eChildren(Id b)-\u003eChildren(Id b)-\u003e[Id b]-\u003e[[Id b]]",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap.Static",
           "name": "Static",
           "package": "linear-maps",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap Static",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap.Static",
           "name": "Static",
           "package": "linear-maps",
@@ -587,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifiers with static data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap.Static",
           "name": ":.",
           "package": "linear-maps",
@@ -596,6 +647,7 @@
         "index": {
           "description": "Identifiers with static data",
           "hierarchy": "Data IdMap Static",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap.Static",
           "name": ":.",
           "package": "linear-maps",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap.Static",
           "name": "(!)",
           "package": "linear-maps",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap Static",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap.Static",
           "name": "(!) !",
           "normalized": "Map a b c-\u003e(b d)-\u003ec",
@@ -631,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap.Static",
           "name": ":.",
           "package": "linear-maps",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap Static",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap.Static",
           "name": ":.",
           "package": "linear-maps",
@@ -652,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap.Static",
           "name": "delete",
           "package": "linear-maps",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap Static",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap.Static",
           "name": "delete",
           "normalized": "(a b)-\u003eMaplike c a d-\u003eMaplike c a d",
@@ -675,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap.Static",
           "name": "insert",
           "package": "linear-maps",
@@ -684,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap Static",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap.Static",
           "name": "insert",
           "normalized": "(a b)-\u003ec-\u003eMaplike d a c-\u003eMaplike d a c",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap.Static",
           "name": "inserts",
           "package": "linear-maps",
@@ -707,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap Static",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap.Static",
           "name": "inserts",
           "normalized": "Map a b c-\u003e[(b d,c)]-\u003eMap a b c",
@@ -721,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap.Static",
           "name": "lookUp",
           "package": "linear-maps",
@@ -730,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap Static",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap.Static",
           "name": "lookUp",
           "normalized": "(a b)-\u003eMaplike c a d-\u003eMaybe d",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap.Static",
           "name": "member",
           "package": "linear-maps",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap Static",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap.Static",
           "name": "member",
           "normalized": "(a b)-\u003eMaplike c a d-\u003eBool",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap.Static",
           "name": "setInsert",
           "package": "linear-maps",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap Static",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap.Static",
           "name": "setInsert",
           "normalized": "(a b)-\u003eSet c a-\u003eSet c a",
@@ -792,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap.Static",
           "name": "setInserts",
           "package": "linear-maps",
@@ -801,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap Static",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap.Static",
           "name": "setInserts",
           "normalized": "Set a b-\u003e[b c]-\u003eSet a b",
@@ -817,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLinearly usable maps and sets on identifiers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "IdMap",
           "package": "linear-maps",
@@ -826,6 +897,7 @@
         "index": {
           "description": "Linearly usable maps and sets on identifiers",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "IdMap",
           "package": "linear-maps",
@@ -840,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier-consuming computation. \u003ccode\u003ei\u003c/code\u003e is a type-level integer.\n A computation of type \u003ccode\u003e(ICC i k a)\u003c/code\u003e \n gets \u003ccode\u003ei\u003c/code\u003e maps numbered from 0 to \u003ccode\u003ei\u003c/code\u003e-1, an infinite list of different identifiers, \n and returns a value of type \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "ICC",
           "package": "linear-maps",
@@ -849,6 +922,7 @@
         "index": {
           "description": "Identifier-consuming computation is type-level integer computation of type ICC gets maps numbered from to an infinite list of different identifiers and returns value of type",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "ICC",
           "package": "linear-maps",
@@ -863,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier-consuming computation with sets. \u003ccode\u003ei\u003c/code\u003e is a type-level integer.\n A computation of type \u003ccode\u003e(ICCS i k a)\u003c/code\u003e \n gets 32 sets numbered from 0 to 31, \u003ccode\u003ei\u003c/code\u003e maps numbered from 1 to \u003ccode\u003ei\u003c/code\u003e, an infinite list of different identifiers, \n and returns a value of type \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "ICCS",
           "package": "linear-maps",
@@ -872,6 +947,7 @@
         "index": {
           "description": "Identifier-consuming computation with sets is type-level integer computation of type ICCS gets sets numbered from to maps numbered from to an infinite list of different identifiers and returns value of type",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "ICCS",
           "package": "linear-maps",
@@ -886,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifiers indexed by \u003ccode\u003ek\u003c/code\u003e. \u003ccode\u003e(Id k)\u003c/code\u003e can be seen as a set of identifiers. \n\u003c/p\u003e\u003cp\u003eThe possible identifier indexes form a recursive set. An identifier index is either\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e an uninstantiated type variable (inside invocations of \u003ccode\u003e\u003ca\u003erunICC\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erunICCS\u003c/a\u003e\u003c/code\u003e), or\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e(a :|: b)\u003c/code\u003e, where \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e are identifier indexes.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "Id",
           "package": "linear-maps",
@@ -895,6 +972,7 @@
         "index": {
           "description": "Identifiers indexed by Id can be seen as set of identifiers The possible identifier indexes form recursive set An identifier index is either an uninstantiated type variable inside invocations of runICC and runICCS or where and are identifier indexes",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "Id",
           "package": "linear-maps",
@@ -909,6 +987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFamily of finite maps from keys \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e k)\u003c/code\u003e to values \u003ccode\u003ea\u003c/code\u003e.\n For efficiency reasons, use only with concrete type integers:\n\u003c/p\u003e\u003cpre\u003e Map I0 k a\n Map I1 k a\n Map I2 k a\n ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "Map",
           "package": "linear-maps",
@@ -918,6 +997,7 @@
         "index": {
           "description": "Family of finite maps from keys Id to values For efficiency reasons use only with concrete type integers Map I0 Map I1 Map I2",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "Map",
           "package": "linear-maps",
@@ -931,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "Maplike",
           "package": "linear-maps",
@@ -939,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "Maplike",
           "package": "linear-maps",
@@ -952,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "MaplikeClass",
           "package": "linear-maps",
@@ -960,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "MaplikeClass",
           "package": "linear-maps",
@@ -974,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelps to store a range of maps numbered from 1 to \u003ccode\u003ei\u003c/code\u003e.\n For example, \u003ccode\u003e(Maps1 I3 k)\u003c/code\u003e is similar to \u003ccode\u003e(forall a . Map I3 k a, forall a . Map I2 k a, forall a . Map I1 k a)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "Maps",
           "package": "linear-maps",
@@ -983,6 +1068,7 @@
         "index": {
           "description": "Helps to store range of maps numbered from to For example Maps1 I3 is similar to forall Map I3 forall Map I2 forall Map I1",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "Maps",
           "package": "linear-maps",
@@ -997,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFamily of finite sets of keys \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e k)\u003c/code\u003e.\n For efficiency reasons, use only with concrete type integers:\n\u003c/p\u003e\u003cpre\u003e Set I0 k\n Set I1 k\n Set I2 k\n ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "Set",
           "package": "linear-maps",
@@ -1006,6 +1093,7 @@
         "index": {
           "description": "Family of finite sets of keys Id For efficiency reasons use only with concrete type integers Set I0 Set I1 Set I2",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "Set",
           "package": "linear-maps",
@@ -1020,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelps to store a range of sets numbered from 0 to \u003ccode\u003ei\u003c/code\u003e-1.\n For example, \u003ccode\u003e(Sets I3 k)\u003c/code\u003e is similar to \u003ccode\u003e(Set I2 k, Set I1 k, Set I0 k)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "Sets",
           "package": "linear-maps",
@@ -1029,6 +1118,7 @@
         "index": {
           "description": "Helps to store range of sets numbered from to For example Sets I3 is similar to Set I2 Set I1 Set I0",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "Sets",
           "package": "linear-maps",
@@ -1042,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "(!)",
           "package": "linear-maps",
@@ -1051,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "(!) !",
           "normalized": "Map a b c-\u003eId b-\u003ec",
@@ -1065,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "PlusMap",
           "package": "linear-maps",
@@ -1074,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "PlusMap",
           "normalized": "(a b Map(Succ c)d e)-\u003eMaps c d-\u003eMaps(Succ c)d",
@@ -1089,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "PlusSet",
           "package": "linear-maps",
@@ -1098,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "PlusSet",
           "normalized": "Set a b-\u003eSets a b-\u003eSets(Succ a)b",
@@ -1114,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Delete a key and its value from the map. When the key is not a member of the map, the original map is returned.\n\u003c/p\u003e\u003cp\u003eAfter deletion, the original map may not be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "delete",
           "package": "linear-maps",
@@ -1124,6 +1221,7 @@
         "index": {
           "description": "Delete key and its value from the map When the key is not member of the map the original map is returned After deletion the original map may not be used",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "delete",
           "normalized": "Id a-\u003eMaplike b a c-\u003eMaplike b a c",
@@ -1139,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality check of identifiers.\n The first map parameter is the witness that the identifiers are sane.\n\u003c/p\u003e\u003cp\u003eThe first parameter prevents identifiers of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e (a :|: a)\u003c/code\u003e which could cause strange runtime behaviour. \n For example, \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e x == \u003ccode\u003e\u003ca\u003eright\u003c/a\u003e\u003c/code\u003e x)\u003c/code\u003e should be \u003ccode\u003eFalse\u003c/code\u003e in theory, but during runtime \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e x)\u003c/code\u003e and \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eright\u003c/a\u003e\u003c/code\u003e x)\u003c/code\u003e are exactly the same identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "equalBy",
           "package": "linear-maps",
@@ -1149,6 +1248,7 @@
         "index": {
           "description": "Equality check of identifiers The first map parameter is the witness that the identifiers are sane The first parameter prevents identifiers of type Id which could cause strange runtime behaviour For example left right should be False in theory but during runtime left and right are exactly the same identifiers",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "equalBy",
           "normalized": "Maplike a b c-\u003eId b-\u003eId b-\u003eBool",
@@ -1165,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Insert a new key and value in the map. If the key is already present in the map, the associated value is replaced with the supplied value.\n\u003c/p\u003e\u003cp\u003eAfter insertion, the original map may not be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "insert",
           "package": "linear-maps",
@@ -1175,6 +1276,7 @@
         "index": {
           "description": "Insert new key and value in the map If the key is already present in the map the associated value is replaced with the supplied value After insertion the original map may not be used",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "insert",
           "normalized": "Id a-\u003eb-\u003eMaplike c a b-\u003eMaplike c a b",
@@ -1189,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "inserts",
           "package": "linear-maps",
@@ -1198,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "inserts",
           "normalized": "Map a b c-\u003e[(Id b,c)]-\u003eMap a b c",
@@ -1213,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Look up the value at a key in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "lookUp",
           "package": "linear-maps",
@@ -1223,6 +1328,7 @@
         "index": {
           "description": "Look up the value at key in the map",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "lookUp",
           "normalized": "Id a-\u003eMaplike b a c-\u003eMaybe c",
@@ -1238,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "member",
           "package": "linear-maps",
@@ -1247,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "member",
           "normalized": "Id a-\u003eMaplike b a c-\u003eBool",
@@ -1262,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value computed by an identifier-consuming computation. \n \u003ccode\u003eforall k\u003c/code\u003e ensures that the identifiers indexed by \u003ccode\u003ek\u003c/code\u003e are inaccessible to the rest of the program. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "runICC",
           "package": "linear-maps",
@@ -1272,6 +1381,7 @@
         "index": {
           "description": "Return the value computed by an identifier-consuming computation forall ensures that the identifiers indexed by are inaccessible to the rest of the program",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "runICC",
           "normalized": "(a b ICC c d e)-\u003ee",
@@ -1288,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value computed by an identifier-consuming computation with sets. \n \u003ccode\u003eforall k\u003c/code\u003e ensures that the identifiers indexed by \u003ccode\u003ek\u003c/code\u003e are inaccessible to the rest of the program. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "runICCS",
           "package": "linear-maps",
@@ -1298,6 +1409,7 @@
         "index": {
           "description": "Return the value computed by an identifier-consuming computation with sets forall ensures that the identifiers indexed by are inaccessible to the rest of the program",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "runICCS",
           "normalized": "(a b ICCS c d e)-\u003ee",
@@ -1314,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Insert a new key in the set. If the key is already in the set, the original set is returned.\n\u003c/p\u003e\u003cp\u003eAfter insertion, the original set may not be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "setInsert",
           "package": "linear-maps",
@@ -1324,6 +1437,7 @@
         "index": {
           "description": "Insert new key in the set If the key is already in the set the original set is returned After insertion the original set may not be used",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "setInsert",
           "normalized": "Id a-\u003eSet b a-\u003eSet b a",
@@ -1339,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "setInserts",
           "package": "linear-maps",
@@ -1348,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "setInserts",
           "normalized": "Set a b-\u003e[Id b]-\u003eSet a b",
@@ -1364,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(0)\u003c/em\u003e. Union of two maps.\n\u003c/p\u003e\u003cp\u003eLinearity constraints:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e After union, the component maps \u003cem\u003emay\u003c/em\u003e also be used. \n\u003c/li\u003e\u003cli\u003e After insertion into either components, the union map may not be used.\n\u003c/li\u003e\u003cli\u003e After insertion into the union map, the components may not be used.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "union",
           "package": "linear-maps",
@@ -1374,6 +1491,7 @@
         "index": {
           "description": "Union of two maps Linearity constraints After union the component maps may also be used After insertion into either components the union map may not be used After insertion into the union map the components may not be used",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "union",
           "normalized": "Maplike a b c-\u003eMaplike a b c-\u003eMaplike a(b b)c",
@@ -1389,6 +1507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe equality coercion of maps.\n\u003c/p\u003e\u003cp\u003eThe two maps are equal, so every link to the first map could be safely replaced by a link to the second map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "unsafeEquivalent",
           "package": "linear-maps",
@@ -1399,6 +1518,7 @@
         "index": {
           "description": "Unsafe equality coercion of maps The two maps are equal so every link to the first map could be safely replaced by link to the second map",
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "unsafeEquivalent",
           "normalized": "Maplike a b c-\u003eMaplike a b c-\u003eMaplike a b c",
@@ -1414,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdMap",
           "name": "unsafeInsert",
           "package": "linear-maps",
@@ -1423,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Data IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdMap",
           "name": "unsafeInsert",
           "normalized": "Id a-\u003eb-\u003eMaplike c a b-\u003e()",
@@ -1438,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdSequence",
           "name": "IdSequence",
           "package": "linear-maps",
@@ -1446,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Data IdSequence",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdSequence",
           "name": "IdSequence",
           "package": "linear-maps",
@@ -1459,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdSequence",
           "name": "Seq",
           "package": "linear-maps",
@@ -1467,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Data IdSequence",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdSequence",
           "name": "Seq",
           "package": "linear-maps",
@@ -1480,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdSequence",
           "name": "delete",
           "package": "linear-maps",
@@ -1489,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Data IdSequence",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdSequence",
           "name": "delete",
           "normalized": "Id a-\u003eSeq a b-\u003eSeq a b",
@@ -1503,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdSequence",
           "name": "fromList",
           "package": "linear-maps",
@@ -1512,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Data IdSequence",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdSequence",
           "name": "fromList",
           "normalized": "a b c[b]-\u003e(a d Id e-\u003eId e-\u003eSeq e b-\u003ef)-\u003ef",
@@ -1527,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdSequence",
           "name": "insertBefore",
           "package": "linear-maps",
@@ -1536,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Data IdSequence",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdSequence",
           "name": "insertBefore",
           "normalized": "a b c d Id b-\u003ec-\u003eSeq b c-\u003e(a e Seq(b f)c-\u003eg)-\u003eg",
@@ -1551,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdSequence",
           "name": "member",
           "package": "linear-maps",
@@ -1560,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Data IdSequence",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdSequence",
           "name": "member",
           "normalized": "Id a-\u003eSeq a b-\u003eBool",
@@ -1574,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdSequence",
           "name": "next",
           "package": "linear-maps",
@@ -1583,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Data IdSequence",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdSequence",
           "name": "next",
           "normalized": "Seq a b-\u003eId a-\u003eMaybe(Id a)",
@@ -1597,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdSequence",
           "name": "previous",
           "package": "linear-maps",
@@ -1606,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Data IdSequence",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdSequence",
           "name": "previous",
           "normalized": "Seq a b-\u003eId a-\u003eMaybe(Id a)",
@@ -1620,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdSequence",
           "name": "update",
           "package": "linear-maps",
@@ -1629,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Data IdSequence",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdSequence",
           "name": "update",
           "normalized": "Id a-\u003eb-\u003eSeq a b-\u003eSeq a b",
@@ -1643,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.IdSequence",
           "name": "value",
           "package": "linear-maps",
@@ -1652,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Data IdSequence",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.IdSequence",
           "name": "value",
           "normalized": "Seq a b-\u003eId a-\u003eMaybe b",
@@ -1666,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap.Tests",
           "name": "Tests",
           "package": "linear-maps",
@@ -1674,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap.Tests",
           "name": "Tests",
           "package": "linear-maps",
@@ -1687,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap.Tests",
           "name": "tests",
           "package": "linear-maps",
@@ -1696,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap.Tests",
           "name": "tests",
           "package": "linear-maps",
@@ -1708,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "LinkMap",
           "package": "linear-maps",
@@ -1716,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "LinkMap",
           "package": "linear-maps",
@@ -1729,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "LinkMap",
           "package": "linear-maps",
@@ -1737,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "LinkMap",
           "package": "linear-maps",
@@ -1750,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "(!)",
           "package": "linear-maps",
@@ -1759,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "(!) !",
           "normalized": "LinkMap a b c-\u003eId b-\u003ec",
@@ -1773,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "delete",
           "package": "linear-maps",
@@ -1782,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "delete",
           "normalized": "Id a-\u003eLinkMap b a c-\u003eLinkMap b a c",
@@ -1796,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "follow",
           "package": "linear-maps",
@@ -1805,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "follow",
           "normalized": "LinkMap a b c-\u003eId b-\u003eId b",
@@ -1819,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "fromList",
           "package": "linear-maps",
@@ -1828,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "fromList",
           "normalized": "(a b Map c d e)-\u003e[(Id d,f)]-\u003eLinkMap c d f",
@@ -1843,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "insert",
           "package": "linear-maps",
@@ -1852,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "insert",
           "normalized": "Id a-\u003eb-\u003eLinkMap c a b-\u003eLinkMap c a b",
@@ -1866,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "link",
           "package": "linear-maps",
@@ -1875,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "link",
           "normalized": "Id a-\u003eId a-\u003eLinkMap b a c-\u003eLinkMap b a c",
@@ -1889,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "linkMap",
           "package": "linear-maps",
@@ -1898,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "linkMap",
           "normalized": "(a b Map c d e)-\u003eLinkMap c d f",
@@ -1913,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "lookUp",
           "package": "linear-maps",
@@ -1922,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "lookUp",
           "normalized": "Id a-\u003eLinkMap b a c-\u003eMaybe c",
@@ -1937,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "member",
           "package": "linear-maps",
@@ -1946,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "member",
           "normalized": "Id a-\u003eLinkMap b a c-\u003eBool",
@@ -1960,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "notMember",
           "package": "linear-maps",
@@ -1969,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "notMember",
           "normalized": "Id a-\u003eLinkMap b a c-\u003eBool",
@@ -1984,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "same",
           "package": "linear-maps",
@@ -1993,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "same",
           "normalized": "LinkMap a b c-\u003eId b-\u003eId b-\u003eBool",
@@ -2007,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.LinkMap",
           "name": "union",
           "package": "linear-maps",
@@ -2016,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Data LinkMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.LinkMap",
           "name": "union",
           "normalized": "LinkMap a b c-\u003eLinkMap a d c-\u003eLinkMap a(b d)c",
@@ -2030,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.List.IdMap",
           "name": "IdMap",
           "package": "linear-maps",
@@ -2038,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Data List IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.List.IdMap",
           "name": "IdMap",
           "package": "linear-maps",
@@ -2051,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.List.IdMap",
           "name": "fromList'",
           "package": "linear-maps",
@@ -2060,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Data List IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.List.IdMap",
           "name": "fromList'",
           "normalized": "Map a b[c]-\u003e[(Id b,c)]-\u003eMap a b[c]",
@@ -2075,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.List.IdMap",
           "name": "nubId",
           "package": "linear-maps",
@@ -2084,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Data List IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.List.IdMap",
           "name": "nubId",
           "normalized": "Set a b-\u003e[Id b]-\u003e(Set a b,[Id b])",
@@ -2099,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap.Profile",
           "name": "Profile",
           "package": "linear-maps",
@@ -2107,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap Profile",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap.Profile",
           "name": "Profile",
           "package": "linear-maps",
@@ -2120,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap.Profile",
           "name": "prof1",
           "package": "linear-maps",
@@ -2129,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap Profile",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap.Profile",
           "name": "prof1",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -2143,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap.Profile",
           "name": "prof2",
           "package": "linear-maps",
@@ -2152,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap Profile",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap.Profile",
           "name": "prof2",
           "normalized": "Int-\u003eInt",
@@ -2166,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap.Tests",
           "name": "Tests",
           "package": "linear-maps",
@@ -2174,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap.Tests",
           "name": "Tests",
           "package": "linear-maps",
@@ -2187,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap.Tests",
           "name": "tests",
           "package": "linear-maps",
@@ -2196,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap Tests",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap.Tests",
           "name": "tests",
           "package": "linear-maps",
@@ -2208,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "IdMap",
           "package": "linear-maps",
@@ -2216,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "IdMap",
           "package": "linear-maps",
@@ -2229,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "Seq",
           "package": "linear-maps",
@@ -2237,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "Seq",
           "package": "linear-maps",
@@ -2250,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "ViewL",
           "package": "linear-maps",
@@ -2258,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "ViewL",
           "package": "linear-maps",
@@ -2271,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "ViewR",
           "package": "linear-maps",
@@ -2279,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "ViewR",
           "package": "linear-maps",
@@ -2292,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "(|\u003e)",
           "package": "linear-maps",
@@ -2301,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "(|\u003e) |\u003e",
           "normalized": "Seq a-\u003ea-\u003eSeq a",
@@ -2315,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "(\u003c|)",
           "package": "linear-maps",
@@ -2324,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "(\u003c|) \u003c|",
           "normalized": "a-\u003eSeq a-\u003eSeq a",
@@ -2338,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "(\u003e\u003c)",
           "package": "linear-maps",
@@ -2347,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "Seq a-\u003eSeq a-\u003eSeq a",
@@ -2361,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": ":\u003c",
           "package": "linear-maps",
@@ -2370,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": ":\u003c",
           "package": "linear-maps",
@@ -2382,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": ":\u003e",
           "package": "linear-maps",
@@ -2391,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": ":\u003e",
           "package": "linear-maps",
@@ -2403,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "EmptyL",
           "package": "linear-maps",
@@ -2412,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "EmptyL",
           "package": "linear-maps",
@@ -2425,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "EmptyR",
           "package": "linear-maps",
@@ -2434,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "EmptyR",
           "package": "linear-maps",
@@ -2447,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "empty",
           "package": "linear-maps",
@@ -2456,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "empty",
           "package": "linear-maps",
@@ -2468,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "fromList",
           "package": "linear-maps",
@@ -2477,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "fromList",
           "normalized": "[a]-\u003eSeq a",
@@ -2492,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "singleton",
           "package": "linear-maps",
@@ -2501,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "singleton",
           "normalized": "a b c-\u003eSeq c",
@@ -2515,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "toList",
           "package": "linear-maps",
@@ -2524,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "toList",
           "normalized": "Seq a-\u003e[a]",
@@ -2539,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "viewl",
           "package": "linear-maps",
@@ -2548,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "viewl",
           "normalized": "Seq a-\u003eViewL a",
@@ -2562,6 +2784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap",
           "name": "viewr",
           "package": "linear-maps",
@@ -2571,6 +2794,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap",
           "name": "viewr",
           "normalized": "Seq a-\u003eViewR a",
@@ -2585,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "IdMap2",
           "package": "linear-maps",
@@ -2593,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "IdMap2",
           "package": "linear-maps",
@@ -2606,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "Seq",
           "package": "linear-maps",
@@ -2614,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "Seq",
           "package": "linear-maps",
@@ -2627,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "ViewL",
           "package": "linear-maps",
@@ -2635,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "ViewL",
           "package": "linear-maps",
@@ -2648,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "ViewR",
           "package": "linear-maps",
@@ -2656,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "ViewR",
           "package": "linear-maps",
@@ -2669,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "(|\u003e)",
           "package": "linear-maps",
@@ -2678,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "(|\u003e) |\u003e",
           "normalized": "Seq a-\u003ea-\u003eSeq a",
@@ -2692,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "(\u003c|)",
           "package": "linear-maps",
@@ -2701,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "(\u003c|) \u003c|",
           "normalized": "a-\u003eSeq a-\u003eSeq a",
@@ -2715,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "(\u003e\u003c)",
           "package": "linear-maps",
@@ -2724,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "Seq a-\u003eSeq a-\u003eSeq a",
@@ -2738,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": ":\u003c",
           "package": "linear-maps",
@@ -2747,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": ":\u003c",
           "package": "linear-maps",
@@ -2759,6 +2999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": ":\u003e",
           "package": "linear-maps",
@@ -2768,6 +3009,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": ":\u003e",
           "package": "linear-maps",
@@ -2780,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "EmptyL",
           "package": "linear-maps",
@@ -2789,6 +3032,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "EmptyL",
           "package": "linear-maps",
@@ -2802,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "EmptyR",
           "package": "linear-maps",
@@ -2811,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "EmptyR",
           "package": "linear-maps",
@@ -2824,6 +3070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "empty",
           "package": "linear-maps",
@@ -2833,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "empty",
           "package": "linear-maps",
@@ -2845,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "fromList",
           "package": "linear-maps",
@@ -2854,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "fromList",
           "normalized": "[a]-\u003eSeq a",
@@ -2869,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "singleton",
           "package": "linear-maps",
@@ -2878,6 +3129,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "singleton",
           "normalized": "a b c-\u003eSeq c",
@@ -2892,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "toList",
           "package": "linear-maps",
@@ -2901,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "toList",
           "normalized": "Seq a-\u003e[a]",
@@ -2916,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "viewl",
           "package": "linear-maps",
@@ -2925,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "viewl",
           "normalized": "Seq a-\u003eViewL a",
@@ -2939,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.IdMap2",
           "name": "viewr",
           "package": "linear-maps",
@@ -2948,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence IdMap2",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.IdMap2",
           "name": "viewr",
           "normalized": "Seq a-\u003eViewR a",
@@ -2962,6 +3220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.Profile",
           "name": "Profile",
           "package": "linear-maps",
@@ -2970,6 +3229,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence Profile",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.Profile",
           "name": "Profile",
           "package": "linear-maps",
@@ -2983,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.Profile",
           "name": "prof1",
           "package": "linear-maps",
@@ -2992,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence Profile",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.Profile",
           "name": "prof1",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -3006,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Sequence.Profile",
           "name": "prof2",
           "package": "linear-maps",
@@ -3015,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence Profile",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Sequence.Profile",
           "name": "prof2",
           "normalized": "Int-\u003eInt",
@@ -3029,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Subtyping",
           "name": "Subtyping",
           "package": "linear-maps",
@@ -3037,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Data Subtyping",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Subtyping",
           "name": "Subtyping",
           "package": "linear-maps",
@@ -3050,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Subtyping",
           "name": ":|:",
           "package": "linear-maps",
@@ -3058,6 +3325,7 @@
         },
         "index": {
           "hierarchy": "Data Subtyping",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Subtyping",
           "name": ":|:",
           "package": "linear-maps",
@@ -3070,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Subtyping",
           "name": "Incl",
           "package": "linear-maps",
@@ -3078,6 +3347,7 @@
         },
         "index": {
           "hierarchy": "Data Subtyping",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Subtyping",
           "name": "Incl",
           "package": "linear-maps",
@@ -3091,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Subtyping",
           "name": "Incl2",
           "package": "linear-maps",
@@ -3099,6 +3370,7 @@
         },
         "index": {
           "hierarchy": "Data Subtyping",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Subtyping",
           "name": "Incl2",
           "package": "linear-maps",
@@ -3112,6 +3384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Subtyping",
           "name": "left",
           "package": "linear-maps",
@@ -3121,6 +3394,7 @@
         },
         "index": {
           "hierarchy": "Data Subtyping",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Subtyping",
           "name": "left",
           "normalized": "a b-\u003ea(b c)",
@@ -3135,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Subtyping",
           "name": "left2",
           "package": "linear-maps",
@@ -3144,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Data Subtyping",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Subtyping",
           "name": "left2",
           "normalized": "a b c-\u003ea(b d)c",
@@ -3158,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Subtyping",
           "name": "right",
           "package": "linear-maps",
@@ -3167,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Data Subtyping",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Subtyping",
           "name": "right",
           "normalized": "a b-\u003ea(c b)",
@@ -3181,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.Subtyping",
           "name": "right2",
           "package": "linear-maps",
@@ -3190,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "Data Subtyping",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.Subtyping",
           "name": "right2",
           "normalized": "a b c-\u003ea(d b)c",
@@ -3205,6 +3485,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVery simple type-level integers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "TypeInt",
           "package": "linear-maps",
@@ -3214,6 +3495,7 @@
         "index": {
           "description": "Very simple type-level integers",
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "TypeInt",
           "package": "linear-maps",
@@ -3228,6 +3510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion to \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e is achieved by the \u003ccode\u003eI\u003c/code\u003e type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I",
           "package": "linear-maps",
@@ -3237,6 +3520,7 @@
         "index": {
           "description": "Conversion to Int is achieved by the type class",
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I",
           "package": "linear-maps",
@@ -3249,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I0",
           "package": "linear-maps",
@@ -3257,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I0",
           "package": "linear-maps",
@@ -3269,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I1",
           "package": "linear-maps",
@@ -3277,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I1",
           "package": "linear-maps",
@@ -3289,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I10",
           "package": "linear-maps",
@@ -3297,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I10",
           "package": "linear-maps",
@@ -3309,6 +3599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I11",
           "package": "linear-maps",
@@ -3317,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I11",
           "package": "linear-maps",
@@ -3329,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I12",
           "package": "linear-maps",
@@ -3337,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I12",
           "package": "linear-maps",
@@ -3349,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I13",
           "package": "linear-maps",
@@ -3357,6 +3652,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I13",
           "package": "linear-maps",
@@ -3369,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I14",
           "package": "linear-maps",
@@ -3377,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I14",
           "package": "linear-maps",
@@ -3389,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I15",
           "package": "linear-maps",
@@ -3397,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I15",
           "package": "linear-maps",
@@ -3409,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I16",
           "package": "linear-maps",
@@ -3417,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I16",
           "package": "linear-maps",
@@ -3429,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I17",
           "package": "linear-maps",
@@ -3437,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I17",
           "package": "linear-maps",
@@ -3449,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I18",
           "package": "linear-maps",
@@ -3457,6 +3762,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I18",
           "package": "linear-maps",
@@ -3469,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I19",
           "package": "linear-maps",
@@ -3477,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I19",
           "package": "linear-maps",
@@ -3489,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I2",
           "package": "linear-maps",
@@ -3497,6 +3806,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I2",
           "package": "linear-maps",
@@ -3509,6 +3819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I20",
           "package": "linear-maps",
@@ -3517,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I20",
           "package": "linear-maps",
@@ -3529,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I21",
           "package": "linear-maps",
@@ -3537,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I21",
           "package": "linear-maps",
@@ -3549,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I22",
           "package": "linear-maps",
@@ -3557,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I22",
           "package": "linear-maps",
@@ -3569,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I23",
           "package": "linear-maps",
@@ -3577,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I23",
           "package": "linear-maps",
@@ -3589,6 +3907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I24",
           "package": "linear-maps",
@@ -3597,6 +3916,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I24",
           "package": "linear-maps",
@@ -3609,6 +3929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I25",
           "package": "linear-maps",
@@ -3617,6 +3938,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I25",
           "package": "linear-maps",
@@ -3629,6 +3951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I26",
           "package": "linear-maps",
@@ -3637,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I26",
           "package": "linear-maps",
@@ -3649,6 +3973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I27",
           "package": "linear-maps",
@@ -3657,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I27",
           "package": "linear-maps",
@@ -3669,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I28",
           "package": "linear-maps",
@@ -3677,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I28",
           "package": "linear-maps",
@@ -3689,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I29",
           "package": "linear-maps",
@@ -3697,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I29",
           "package": "linear-maps",
@@ -3709,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I3",
           "package": "linear-maps",
@@ -3717,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I3",
           "package": "linear-maps",
@@ -3729,6 +4061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I30",
           "package": "linear-maps",
@@ -3737,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I30",
           "package": "linear-maps",
@@ -3749,6 +4083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I31",
           "package": "linear-maps",
@@ -3757,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I31",
           "package": "linear-maps",
@@ -3769,6 +4105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I32",
           "package": "linear-maps",
@@ -3777,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I32",
           "package": "linear-maps",
@@ -3789,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I4",
           "package": "linear-maps",
@@ -3797,6 +4136,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I4",
           "package": "linear-maps",
@@ -3809,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I5",
           "package": "linear-maps",
@@ -3817,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I5",
           "package": "linear-maps",
@@ -3829,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I6",
           "package": "linear-maps",
@@ -3837,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I6",
           "package": "linear-maps",
@@ -3849,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I7",
           "package": "linear-maps",
@@ -3857,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I7",
           "package": "linear-maps",
@@ -3869,6 +4215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I8",
           "package": "linear-maps",
@@ -3877,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I8",
           "package": "linear-maps",
@@ -3889,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "I9",
           "package": "linear-maps",
@@ -3897,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "I9",
           "package": "linear-maps",
@@ -3910,6 +4260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003ea\u003c/code\u003e represents the natural number \u003ccode\u003en\u003c/code\u003e at the type level then \u003ccode\u003e(Succ a)\u003c/code\u003e represents \u003ccode\u003e(1 + n)\u003c/code\u003e at the type level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "Succ",
           "package": "linear-maps",
@@ -3919,6 +4270,7 @@
         "index": {
           "description": "If represents the natural number at the type level then Succ represents at the type level",
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "Succ",
           "package": "linear-maps",
@@ -3933,6 +4285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eZero\u003c/code\u003e represents 0 at the type level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "Zero",
           "package": "linear-maps",
@@ -3942,6 +4295,7 @@
         "index": {
           "description": "Zero represents at the type level",
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "Zero",
           "package": "linear-maps",
@@ -3955,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "induction",
           "package": "linear-maps",
@@ -3964,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "induction",
           "normalized": "a-\u003eb-\u003e(b-\u003eb)-\u003eb",
@@ -3978,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "induction'",
           "package": "linear-maps",
@@ -3987,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "induction'",
           "normalized": "a Zero-\u003e(b c a d-\u003ea(Succ d))-\u003ea e",
@@ -4001,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "induction''",
           "package": "linear-maps",
@@ -4010,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "induction''",
           "normalized": "a Zero b-\u003e(c d a e b-\u003ea(Succ e)b)-\u003ea f b",
@@ -4024,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Data.TypeInt",
           "name": "num",
           "package": "linear-maps",
@@ -4033,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Data TypeInt",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Data.TypeInt",
           "name": "num",
           "normalized": "a-\u003eInt",
@@ -4048,6 +4410,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntegrity test of the \u003ccode\u003elinear-maps\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Test.IdMap",
           "name": "IdMap",
           "package": "linear-maps",
@@ -4057,6 +4420,7 @@
         "index": {
           "description": "Integrity test of the linear-maps package",
           "hierarchy": "Test IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Test.IdMap",
           "name": "IdMap",
           "package": "linear-maps",
@@ -4071,6 +4435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns all unit tests found in the \u003ccode\u003elinear-maps\u003c/code\u003e package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:56 UTC 2014",
           "module": "Test.IdMap",
           "name": "tests",
           "package": "linear-maps",
@@ -4081,6 +4446,7 @@
         "index": {
           "description": "Runs all unit tests found in the linear-maps package",
           "hierarchy": "Test IdMap",
+          "indexed": "2014-03-11T19:09:56",
           "module": "Test.IdMap",
           "name": "tests",
           "normalized": "IO()",

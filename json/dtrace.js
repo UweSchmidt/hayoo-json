@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dtrace"
+        "phrase": "dtrace",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:26 UTC 2014",
           "module": "System.DTrace",
           "name": "DTrace",
           "package": "dtrace",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System DTrace",
+          "indexed": "2014-03-11T17:59:26",
           "module": "System.DTrace",
           "name": "DTrace",
           "package": "dtrace",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:26 UTC 2014",
           "module": "System.DTrace",
           "name": "trace",
           "package": "dtrace",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System DTrace",
+          "indexed": "2014-03-11T17:59:26",
           "module": "System.DTrace",
           "name": "trace",
           "normalized": "String-\u003eIO()",

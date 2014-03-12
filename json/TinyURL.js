@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TinyURL"
+        "phrase": "TinyURL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:32 UTC 2014",
           "module": "Network.TinyURL",
           "name": "TinyURL",
           "package": "TinyURL",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network TinyURL",
+          "indexed": "2014-03-11T17:02:32",
           "module": "Network.TinyURL",
           "name": "TinyURL",
           "package": "TinyURL",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse TinyURL to compress a URL.  In the event of a failure, return\n the original URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:32 UTC 2014",
           "module": "Network.TinyURL",
           "name": "tinyURL",
           "package": "TinyURL",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Use TinyURL to compress URL In the event of failure return the original URL",
           "hierarchy": "Network TinyURL",
+          "indexed": "2014-03-11T17:02:32",
           "module": "Network.TinyURL",
           "name": "tinyURL",
           "normalized": "String-\u003eIO String",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rallod"
+        "phrase": "rallod",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:54 UTC 2014",
           "module": "Rallod",
           "name": "Rallod",
           "package": "rallod",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Rallod",
+          "indexed": "2014-03-11T19:47:54",
           "module": "Rallod",
           "name": "Rallod",
           "package": "rallod",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:54 UTC 2014",
           "module": "Rallod",
           "name": "(==\u003e)",
           "package": "rallod",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Rallod",
+          "indexed": "2014-03-11T19:47:54",
           "module": "Rallod",
           "name": "(==\u003e) ==\u003e",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",

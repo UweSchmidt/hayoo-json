@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tga"
+        "phrase": "tga",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "TGA",
           "package": "tga",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "TGA",
           "package": "tga",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "Picture",
           "package": "tga",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "Picture",
           "package": "tga",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "TGAData",
           "package": "tga",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "TGAData",
           "package": "tga",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "MonoUncompressed",
           "package": "tga",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "MonoUncompressed",
           "package": "tga",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "PaletteUncompressed",
           "package": "tga",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "PaletteUncompressed",
           "package": "tga",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "RGB24",
           "package": "tga",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "RGB24",
           "package": "tga",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "RGB32",
           "package": "tga",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "RGB32",
           "package": "tga",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "TGAData",
           "package": "tga",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "TGAData",
           "package": "tga",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "height",
           "package": "tga",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "height",
           "package": "tga",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "picId",
           "package": "tga",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "picId",
           "package": "tga",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "picture",
           "package": "tga",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "picture",
           "package": "tga",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "readTGA",
           "package": "tga",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "readTGA",
           "normalized": "String-\u003eIO TGAData",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "width",
           "package": "tga",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "width",
           "package": "tga",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "writeTGA",
           "package": "tga",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "writeTGA",
           "normalized": "String-\u003eTGAData-\u003eIO()",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "xcoord",
           "package": "tga",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "xcoord",
           "package": "tga",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:55 UTC 2014",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "ycoord",
           "package": "tga",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats TGA TGA",
+          "indexed": "2014-03-11T20:20:55",
           "module": "Graphics.Formats.TGA.TGA",
           "name": "ycoord",
           "package": "tga",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-coffee"
+        "phrase": "haskell-coffee",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple Cofeescript library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:30:41 UTC 2014",
           "module": "Coffee.Bindings",
           "name": "Bindings",
           "package": "haskell-coffee",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple Cofeescript library",
           "hierarchy": "Coffee Bindings",
+          "indexed": "2014-03-11T18:30:41",
           "module": "Coffee.Bindings",
           "name": "Bindings",
           "package": "haskell-coffee",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Coffee data structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:41 UTC 2014",
           "module": "Coffee.Bindings",
           "name": "Coffee",
           "package": "haskell-coffee",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The Coffee data structure",
           "hierarchy": "Coffee Bindings",
+          "indexed": "2014-03-11T18:30:41",
           "module": "Coffee.Bindings",
           "name": "Coffee",
           "package": "haskell-coffee",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:41 UTC 2014",
           "module": "Coffee.Bindings",
           "name": "Coffee",
           "package": "haskell-coffee",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Coffee Bindings",
+          "indexed": "2014-03-11T18:30:41",
           "module": "Coffee.Bindings",
           "name": "Coffee",
           "package": "haskell-coffee",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset True to use '-b' option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:41 UTC 2014",
           "module": "Coffee.Bindings",
           "name": "bare",
           "package": "haskell-coffee",
@@ -97,6 +104,7 @@
         "index": {
           "description": "set True to use option",
           "hierarchy": "Coffee Bindings",
+          "indexed": "2014-03-11T18:30:41",
           "module": "Coffee.Bindings",
           "name": "bare",
           "package": "haskell-coffee",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile .coffee file(s)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:41 UTC 2014",
           "module": "Coffee.Bindings",
           "name": "coffeeCompile",
           "package": "haskell-coffee",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Compile coffee file",
           "hierarchy": "Coffee Bindings",
+          "indexed": "2014-03-11T18:30:41",
           "module": "Coffee.Bindings",
           "name": "coffeeCompile",
           "normalized": "[FilePath]-\u003eMaybe FilePath-\u003eCoffee-\u003eIO ExitCode",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the coffee output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:41 UTC 2014",
           "module": "Coffee.Bindings",
           "name": "coffeePrint",
           "package": "haskell-coffee",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Print the coffee output",
           "hierarchy": "Coffee Bindings",
+          "indexed": "2014-03-11T18:30:41",
           "module": "Coffee.Bindings",
           "name": "coffeePrint",
           "normalized": "FilePath-\u003eCoffee-\u003eIO String",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the version of the coffee binary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:41 UTC 2014",
           "module": "Coffee.Bindings",
           "name": "coffeeVersion",
           "package": "haskell-coffee",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Get the version of the coffee binary",
           "hierarchy": "Coffee Bindings",
+          "indexed": "2014-03-11T18:30:41",
           "module": "Coffee.Bindings",
           "name": "coffeeVersion",
           "normalized": "Coffee-\u003eIO String",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom compiler path, set to Nothing for default\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:41 UTC 2014",
           "module": "Coffee.Bindings",
           "name": "customCompiler",
           "package": "haskell-coffee",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Custom compiler path set to Nothing for default",
           "hierarchy": "Coffee Bindings",
+          "indexed": "2014-03-11T18:30:41",
           "module": "Coffee.Bindings",
           "name": "customCompiler",
           "package": "haskell-coffee",

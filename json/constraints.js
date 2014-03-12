@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "constraints"
+        "phrase": "constraints",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Forall",
           "name": "Forall",
           "package": "constraints",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint Forall",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Forall",
           "name": "Forall",
           "package": "constraints",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quantified constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Forall",
           "name": "Forall",
           "package": "constraints",
@@ -49,6 +52,7 @@
         "index": {
           "description": "quantified constraint",
           "hierarchy": "Data Constraint Forall",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Forall",
           "name": "Forall",
           "package": "constraints",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Forall",
           "name": "Forall1",
           "package": "constraints",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint Forall",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Forall",
           "name": "Forall1",
           "package": "constraints",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Forall",
           "name": "ForallF",
           "package": "constraints",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint Forall",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Forall",
           "name": "ForallF",
           "package": "constraints",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Forall",
           "name": "ForallT",
           "package": "constraints",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint Forall",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Forall",
           "name": "ForallT",
           "package": "constraints",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einstantiate a quantified constraint on kind \u003ccode\u003e*\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Forall",
           "name": "inst",
           "package": "constraints",
@@ -136,6 +147,7 @@
         "index": {
           "description": "instantiate quantified constraint on kind",
           "hierarchy": "Data Constraint Forall",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Forall",
           "name": "inst",
           "package": "constraints",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einstantiate a quantified constraint on kind \u003ccode\u003e* -\u003e *\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Forall",
           "name": "inst1",
           "package": "constraints",
@@ -159,6 +172,7 @@
         "index": {
           "description": "instantiate quantified constraint on kind",
           "hierarchy": "Data Constraint Forall",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Forall",
           "name": "inst1",
           "package": "constraints",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Forall",
           "name": "instF",
           "package": "constraints",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint Forall",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Forall",
           "name": "instF",
           "package": "constraints",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Forall",
           "name": "instT",
           "package": "constraints",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint Forall",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Forall",
           "name": "instT",
           "package": "constraints",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Unsafe",
           "name": "Unsafe",
           "package": "constraints",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint Unsafe",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Unsafe",
           "name": "Unsafe",
           "package": "constraints",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an Alternative instance from a MonadPlus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Unsafe",
           "name": "unsafeAlternative",
           "package": "constraints",
@@ -245,6 +266,7 @@
         "index": {
           "description": "Construct an Alternative instance from MonadPlus",
           "hierarchy": "Data Constraint Unsafe",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Unsafe",
           "name": "unsafeAlternative",
           "normalized": "a b)-\u003ea b",
@@ -261,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an Applicative instance from a Monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Unsafe",
           "name": "unsafeApplicative",
           "package": "constraints",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Construct an Applicative instance from Monad",
           "hierarchy": "Data Constraint Unsafe",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Unsafe",
           "name": "unsafeApplicative",
           "normalized": "a b)-\u003ea b",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoerce a dictionary unsafely from one type to another\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Unsafe",
           "name": "unsafeCoerceConstraint",
           "package": "constraints",
@@ -297,6 +322,7 @@
         "index": {
           "description": "Coerce dictionary unsafely from one type to another",
           "hierarchy": "Data Constraint Unsafe",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Unsafe",
           "name": "unsafeCoerceConstraint",
           "package": "constraints",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoerce a dictionary unsafely from one type to a newtype of that type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Unsafe",
           "name": "unsafeDerive",
           "package": "constraints",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Coerce dictionary unsafely from one type to newtype of that type",
           "hierarchy": "Data Constraint Unsafe",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Unsafe",
           "name": "unsafeDerive",
           "normalized": "(a-\u003eb)-\u003ec a c b",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoerce a dictionary unsafely from a newtype of a type to the base type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint.Unsafe",
           "name": "unsafeUnderive",
           "package": "constraints",
@@ -347,6 +376,7 @@
         "index": {
           "description": "Coerce dictionary unsafely from newtype of type to the base type",
           "hierarchy": "Data Constraint Unsafe",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint.Unsafe",
           "name": "unsafeUnderive",
           "normalized": "(a-\u003eb)-\u003ec b c a",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "Constraint",
           "package": "constraints",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "Constraint",
           "package": "constraints",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": ":-",
           "package": "constraints",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": ":-",
           "package": "constraints",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReify the relationship between an instance head and its body as a class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": ":=\u003e",
           "package": "constraints",
@@ -413,6 +448,7 @@
         "index": {
           "description": "Reify the relationship between an instance head and its body as class",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": ":=\u003e",
           "package": "constraints",
@@ -426,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReify the relationship between a class and its superclass constraints as a class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "Class",
           "package": "constraints",
@@ -435,6 +472,7 @@
         "index": {
           "description": "Reify the relationship between class and its superclass constraints as class",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "Class",
           "package": "constraints",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "Constraint",
           "package": "constraints",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "Constraint",
           "package": "constraints",
@@ -469,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture a dictionary for a given constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "Dict",
           "package": "constraints",
@@ -478,6 +519,7 @@
         "index": {
           "description": "Capture dictionary for given constraint",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "Dict",
           "package": "constraints",
@@ -492,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraint product\n\u003c/p\u003e\u003cpre\u003e trans weaken1 (f &&& g) = f\n trans weaken2 (f &&& g) = g\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "(&&&)",
           "package": "constraints",
@@ -502,6 +545,7 @@
         "index": {
           "description": "Constraint product trans weaken1 trans weaken2",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "(&&&) &&&",
           "normalized": "(a b)-\u003e(a c)-\u003ea(b,c)",
@@ -517,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edue to the hack for the kind of (,) in the current version of GHC we can't actually\n make instances for (,) :: Constraint -\u003e Constraint -\u003e Constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "(***)",
           "package": "constraints",
@@ -527,6 +572,7 @@
         "index": {
           "description": "due to the hack for the kind of in the current version of GHC we can actually make instances for Constraint Constraint Constraint",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "(***) ***",
           "normalized": "(a b)-\u003e(c d)-\u003e(a,c)(b,d)",
@@ -542,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven that \u003ccode\u003ea :- b\u003c/code\u003e, derive something that needs a context \u003ccode\u003eb\u003c/code\u003e, using the context \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "(\\\\)",
           "package": "constraints",
@@ -552,6 +599,7 @@
         "index": {
           "description": "Given that derive something that needs context using the context",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "(\\\\) \\\\",
           "normalized": "a)-\u003e(b c)-\u003ea",
@@ -566,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "Dict",
           "package": "constraints",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "Dict",
           "package": "constraints",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "Sub",
           "package": "constraints",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "Sub",
           "package": "constraints",
@@ -611,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bad type coercion lets you derive any type you want.\n\u003c/p\u003e\u003cp\u003eThese are the initial arrows of the category and (() ~ Bool) is the initial object\n\u003c/p\u003e\u003cp\u003eThis demonstrates the law of classical logical \u003ca\u003eex falso quodlibet\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "bottom",
           "package": "constraints",
@@ -621,6 +674,7 @@
         "index": {
           "description": "bad type coercion lets you derive any type you want These are the initial arrows of the category and Bool is the initial object This demonstrates the law of classical logical ex falso quodlibet",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "bottom",
           "normalized": "(()Bool)a",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "cls",
           "package": "constraints",
@@ -644,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "cls",
           "package": "constraints",
@@ -657,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContracting a constraint / diagonal morphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "contract",
           "package": "constraints",
@@ -667,6 +724,7 @@
         "index": {
           "description": "Contracting constraint diagonal morphism",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "contract",
           "normalized": "a(a,a)",
@@ -681,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "ins",
           "package": "constraints",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "ins",
           "package": "constraints",
@@ -703,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflexivity of entailment\n\u003c/p\u003e\u003cp\u003eIf we view '(:-)' as a Constraint-indexed category, then this is \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "refl",
           "package": "constraints",
@@ -713,6 +774,7 @@
         "index": {
           "description": "Reflexivity of entailment If we view as Constraint-indexed category then this is id",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "refl",
           "package": "constraints",
@@ -726,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery constraint implies truth\n\u003c/p\u003e\u003cp\u003eThese are the terminal arrows of the category, and () is the terminal object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "top",
           "package": "constraints",
@@ -736,6 +799,7 @@
         "index": {
           "description": "Every constraint implies truth These are the terminal arrows of the category and is the terminal object",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "top",
           "normalized": "a()",
@@ -751,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransitivity of entailment\n\u003c/p\u003e\u003cp\u003eIf we view '(:-)' as a Constraint-indexed category, then this is '(.)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "trans",
           "package": "constraints",
@@ -761,6 +826,7 @@
         "index": {
           "description": "Transitivity of entailment If we view as Constraint-indexed category then this is",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "trans",
           "normalized": "(a b)-\u003e(c a)-\u003ec b",
@@ -776,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeakening a constraint product\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "weaken1",
           "package": "constraints",
@@ -786,6 +853,7 @@
         "index": {
           "description": "Weakening constraint product",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "weaken1",
           "normalized": "(a,b)a",
@@ -801,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeakening a constraint product\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:19 UTC 2014",
           "module": "Data.Constraint",
           "name": "weaken2",
           "package": "constraints",
@@ -811,6 +880,7 @@
         "index": {
           "description": "Weakening constraint product",
           "hierarchy": "Data Constraint",
+          "indexed": "2014-03-11T17:39:19",
           "module": "Data.Constraint",
           "name": "weaken2",
           "normalized": "(a,b)b",

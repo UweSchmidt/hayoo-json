@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dapi"
+        "phrase": "dapi",
+        "type": "phrase"
       },
       "type": "context"
     }

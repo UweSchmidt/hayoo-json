@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zip-conduit"
+        "phrase": "zip-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSink entries to the archive:\n\u003c/p\u003e\u003cpre\u003e\n{-# LANGUAGE OverloadedStrings #-}\n\nimport qualified Data.Conduit.Binary as CB\nimport           Codec.Archive.Zip\n\nmain = do\n    withArchive \"some.zip\" $ do\n        sinkEntry \"first\"  $ CB.sourceLbs \"hello\"\n        sinkEntry \"second\" $ CB.sourceLbs \"world\"\n\u003c/pre\u003e\u003cp\u003eSource first entry from the archive:\n\u003c/p\u003e\u003cpre\u003e\nimport           System.Environment (getArgs)\nimport qualified Data.Conduit.Binary as CB\nimport           Codec.Archive.Zip\n\nmain = do\n    archivePath:_ \u003c- getArgs\n    withArchive archivePath $ do\n        name:_ \u003c- entryNames\n        sourceEntry name $ CB.sinkFile name\n\u003c/pre\u003e\u003cp\u003eList entries in the archive:\n\u003c/p\u003e\u003cpre\u003e\nimport System.Environment (getArgs)\nimport Codec.Archive.Zip\n\nmain = do\n    archivePath:_ \u003c- getArgs\n    names \u003c- withArchive archivePath entryNames\n    mapM_ putStrLn names\n\u003c/pre\u003e\u003cp\u003eAdd files to the archive:\n\u003c/p\u003e\u003cpre\u003e\nimport Control.Monad (filterM)\nimport System.Directory (doesFileExist, getDirectoryContents)\nimport System.Environment (getArgs)\nimport Codec.Archive.Zip\n\nmain = do\n    dirPath:_ \u003c- getArgs\n    paths     \u003c- getDirectoryContents dirPath\n    filePaths \u003c- filterM doesFileExist paths\n    withArchive \"some.zip\" $ addFiles filePaths\n\u003c/pre\u003e\u003cp\u003eExtract files from the archive:\n\u003c/p\u003e\u003cpre\u003e\nimport System.Environment (getArgs)\nimport Codec.Archive.Zip\n\nmain = do\n    dirPath:_ \u003c- getArgs\n    withArchive \"some.zip\" $ do\n        names \u003c- entryNames\n        extractFiles names dirPath\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "Zip",
           "package": "zip-conduit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Sink entries to the archive LANGUAGE OverloadedStrings import qualified Data.Conduit.Binary as CB import Codec.Archive.Zip main do withArchive some.zip do sinkEntry first CB.sourceLbs hello sinkEntry second CB.sourceLbs world Source first entry from the archive import System.Environment getArgs import qualified Data.Conduit.Binary as CB import Codec.Archive.Zip main do archivePath getArgs withArchive archivePath do name entryNames sourceEntry name CB.sinkFile name List entries in the archive import System.Environment getArgs import Codec.Archive.Zip main do archivePath getArgs names withArchive archivePath entryNames mapM putStrLn names Add files to the archive import Control.Monad filterM import System.Directory doesFileExist getDirectoryContents import System.Environment getArgs import Codec.Archive.Zip main do dirPath getArgs paths getDirectoryContents dirPath filePaths filterM doesFileExist paths withArchive some.zip addFiles filePaths Extract files from the archive import System.Environment getArgs import Codec.Archive.Zip main do dirPath getArgs withArchive some.zip do names entryNames extractFiles names dirPath",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "Zip",
           "package": "zip-conduit",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "Archive",
           "package": "zip-conduit",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "Archive",
           "package": "zip-conduit",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "addFiles",
           "package": "zip-conduit",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "addFiles",
           "normalized": "[FilePath]-\u003eArchive()",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "entryNames",
           "package": "zip-conduit",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "entryNames",
           "normalized": "Archive[FilePath]",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "extractFiles",
           "package": "zip-conduit",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "extractFiles",
           "normalized": "[FilePath]-\u003eFilePath-\u003eArchive()",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "fileNames",
           "package": "zip-conduit",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "fileNames",
           "normalized": "Archive[FilePath]",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "getComment",
           "package": "zip-conduit",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "getComment",
           "package": "zip-conduit",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "getSink",
           "package": "zip-conduit",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "getSink",
           "normalized": "FilePath-\u003eUTCTime-\u003eArchive(Sink ByteString a())",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "getSource",
           "package": "zip-conduit",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "getSource",
           "normalized": "FilePath-\u003eArchive(Source a ByteString)",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "setComment",
           "package": "zip-conduit",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "setComment",
           "normalized": "ByteString-\u003eArchive()",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream data from the specified source to an archive entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "sinkEntry",
           "package": "zip-conduit",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Stream data from the specified source to an archive entry",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "sinkEntry",
           "normalized": "FilePath-\u003eSource(ResourceT Archive)ByteString-\u003eArchive()",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream data from the specified source to an uncompressed archive entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "sinkEntryUncompressed",
           "package": "zip-conduit",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Stream data from the specified source to an uncompressed archive entry",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "sinkEntryUncompressed",
           "normalized": "FilePath-\u003eSource(ResourceT Archive)ByteString-\u003eArchive()",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream the contents of an archive entry to the specified sink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "sourceEntry",
           "package": "zip-conduit",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Stream the contents of an archive entry to the specified sink",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "sourceEntry",
           "normalized": "FilePath-\u003eSink ByteString(ResourceT Archive)a-\u003eArchive a",
@@ -330,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:12 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "withArchive",
           "package": "zip-conduit",
@@ -339,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:12",
           "module": "Codec.Archive.Zip",
           "name": "withArchive",
           "normalized": "FilePath-\u003eArchive a-\u003eIO a",

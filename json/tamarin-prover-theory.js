@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tamarin-prover-theory"
+        "phrase": "tamarin-prover-theory",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBig-step proofs using case distinctions on the possible sources of a fact.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.CaseDistinctions",
           "name": "CaseDistinctions",
           "package": "tamarin-prover-theory",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Big-step proofs using case distinctions on the possible sources of fact",
           "hierarchy": "Theory Constraint Solver CaseDistinctions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.CaseDistinctions",
           "name": "CaseDistinctions",
           "package": "tamarin-prover-theory",
@@ -94,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of stable variables (that are referenced from outside and cannot be simply\n renamed) and a list containing systems, this function returns a subsequence of the list\n such that for all removed systems, there is a remaining system that is equal modulo\n renaming of non-stable variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.CaseDistinctions",
           "name": "removeRedundantCases",
           "package": "tamarin-prover-theory",
@@ -104,6 +107,7 @@
         "index": {
           "description": "Given list of stable variables that are referenced from outside and cannot be simply renamed and list containing systems this function returns subsequence of the list such that for all removed systems there is remaining system that is equal modulo renaming of non-stable variables",
           "hierarchy": "Theory Constraint Solver CaseDistinctions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.CaseDistinctions",
           "name": "removeRedundantCases",
           "normalized": "ProofContext-\u003e[LVar]-\u003e(a-\u003eSystem)-\u003e[a]-\u003e[a]",
@@ -120,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to solve a premise goal or \u003ccode\u003eKU\u003c/code\u003e action using the first precomputed\n case distinction with a matching premise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.CaseDistinctions",
           "name": "solveWithCaseDistinction",
           "package": "tamarin-prover-theory",
@@ -130,6 +135,7 @@
         "index": {
           "description": "Try to solve premise goal or KU action using the first precomputed case distinction with matching premise",
           "hierarchy": "Theory Constraint Solver CaseDistinctions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.CaseDistinctions",
           "name": "solveWithCaseDistinction",
           "normalized": "ProofContext-\u003e[CaseDistinction]-\u003eGoal-\u003eMaybe(Reduction[String])",
@@ -173,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the public interface for constructing and deconstructing constraint\n systems. The interface for performing constraint solving provided by\n \u003ca\u003eTheory.Constraint.Solver\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "Contradictions",
           "package": "tamarin-prover-theory",
@@ -182,6 +189,7 @@
         "index": {
           "description": "This is the public interface for constructing and deconstructing constraint systems The interface for performing constraint solving provided by Theory.Constraint.Solver",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "Contradictions",
           "package": "tamarin-prover-theory",
@@ -196,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReasons why a constraint \u003ccode\u003e\u003ca\u003eSystem\u003c/a\u003e\u003c/code\u003e can be contradictory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "Contradiction",
           "package": "tamarin-prover-theory",
@@ -205,6 +214,7 @@
         "index": {
           "description": "Reasons why constraint System can be contradictory",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "Contradiction",
           "package": "tamarin-prover-theory",
@@ -219,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe paths are cyclic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "Cyclic",
           "package": "tamarin-prover-theory",
@@ -229,6 +240,7 @@
         "index": {
           "description": "The paths are cyclic",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "Cyclic",
           "package": "tamarin-prover-theory",
@@ -243,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForbidden bilinear pairing rule instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "ForbiddenBP",
           "package": "tamarin-prover-theory",
@@ -253,6 +266,7 @@
         "index": {
           "description": "Forbidden bilinear pairing rule instance",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "ForbiddenBP",
           "package": "tamarin-prover-theory",
@@ -267,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForbidden Exp-down rule instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "ForbiddenExp",
           "package": "tamarin-prover-theory",
@@ -277,6 +292,7 @@
         "index": {
           "description": "Forbidden Exp-down rule instance",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "ForbiddenExp",
           "package": "tamarin-prover-theory",
@@ -291,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehas forbidden KD-fact\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "ForbiddenKD",
           "package": "tamarin-prover-theory",
@@ -301,6 +318,7 @@
         "index": {
           "description": "has forbidden KD-fact",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "ForbiddenKD",
           "package": "tamarin-prover-theory",
@@ -315,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in formulas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "FormulasFalse",
           "package": "tamarin-prover-theory",
@@ -325,6 +344,7 @@
         "index": {
           "description": "False in formulas",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "FormulasFalse",
           "package": "tamarin-prover-theory",
@@ -339,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehas impossible chain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "ImpossibleChain",
           "package": "tamarin-prover-theory",
@@ -349,6 +370,7 @@
         "index": {
           "description": "has impossible chain",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "ImpossibleChain",
           "package": "tamarin-prover-theory",
@@ -363,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncompatible equalities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "IncompatibleEqs",
           "package": "tamarin-prover-theory",
@@ -373,6 +396,7 @@
         "index": {
           "description": "Incompatible equalities",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "IncompatibleEqs",
           "package": "tamarin-prover-theory",
@@ -387,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is a node after the last node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "NodeAfterLast",
           "package": "tamarin-prover-theory",
@@ -397,6 +422,7 @@
         "index": {
           "description": "There is node after the last node",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "NodeAfterLast",
           "normalized": "NodeAfterLast(NodeId,NodeId)",
@@ -413,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContradicts that certain facts have unique instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "NonInjectiveFactInstance",
           "package": "tamarin-prover-theory",
@@ -423,6 +450,7 @@
         "index": {
           "description": "Contradicts that certain facts have unique instances",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "NonInjectiveFactInstance",
           "normalized": "NonInjectiveFactInstance(NodeId,NodeId,NodeId)",
@@ -439,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHas terms that are not in normal form.\n | NonLastNode                    -- ^ Has a non-silent node after the last node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "NonNormalTerms",
           "package": "tamarin-prover-theory",
@@ -449,6 +478,7 @@
         "index": {
           "description": "Has terms that are not in normal form NonLastNode Has non-silent node after the last node",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "NonNormalTerms",
           "package": "tamarin-prover-theory",
@@ -463,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA term is derived both before and after a learn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "SuperfluousLearn",
           "package": "tamarin-prover-theory",
@@ -473,6 +504,7 @@
         "index": {
           "description": "term is derived both before and after learn",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "SuperfluousLearn",
           "package": "tamarin-prover-theory",
@@ -513,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the constraint system is contradictory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "contradictorySystem",
           "package": "tamarin-prover-theory",
@@ -523,6 +556,7 @@
         "index": {
           "description": "True if the constraint system is contradictory",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "contradictorySystem",
           "normalized": "ProofContext-\u003eSystem-\u003eBool",
@@ -539,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print a \u003ccode\u003e\u003ca\u003eContradiction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "prettyContradiction",
           "package": "tamarin-prover-theory",
@@ -549,6 +584,7 @@
         "index": {
           "description": "Pretty-print Contradiction",
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "prettyContradiction",
           "normalized": "Contradiction-\u003ea",
@@ -564,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "substCreatesNonNormalTerms",
           "package": "tamarin-prover-theory",
@@ -573,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Contradictions",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Contradictions",
           "name": "substCreatesNonNormalTerms",
           "normalized": "MaudeHandle-\u003eSystem-\u003eLNSubst-\u003eLNSubstVFresh-\u003eBool",
@@ -589,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe constraint reduction rules, which are not enforced as invariants in\n \u003ca\u003eTheory.Constraint.Solver.Reduction\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eA goal represents a possible application of a rule that may result in\n multiple cases or even non-termination (if applied repeatedly). These goals\n are computed as the list of \u003ccode\u003e\u003ca\u003eopenGoals\u003c/a\u003e\u003c/code\u003e. See\n \u003ca\u003eTheory.Constraint.Solver.ProofMethod\u003c/a\u003e for the public interface to solving\n goals and the implementation of heuristics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "Goals",
           "package": "tamarin-prover-theory",
@@ -598,6 +637,7 @@
         "index": {
           "description": "The constraint reduction rules which are not enforced as invariants in Theory.Constraint.Solver.Reduction goal represents possible application of rule that may result in multiple cases or even non-termination if applied repeatedly These goals are computed as the list of openGoals See Theory.Constraint.Solver.ProofMethod for the public interface to solving goals and the implementation of heuristics",
           "hierarchy": "Theory Constraint Solver Goals",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "Goals",
           "package": "tamarin-prover-theory",
@@ -612,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGoals annotated with their number and usefulness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "AnnotatedGoal",
           "package": "tamarin-prover-theory",
@@ -621,6 +662,7 @@
         "index": {
           "description": "Goals annotated with their number and usefulness",
           "hierarchy": "Theory Constraint Solver Goals",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "AnnotatedGoal",
           "package": "tamarin-prover-theory",
@@ -634,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "Usefulness",
           "package": "tamarin-prover-theory",
@@ -642,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Goals",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "Usefulness",
           "package": "tamarin-prover-theory",
@@ -656,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA message that is deducible for the current solution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "CurrentlyDeducible",
           "package": "tamarin-prover-theory",
@@ -666,6 +711,7 @@
         "index": {
           "description": "message that is deducible for the current solution",
           "hierarchy": "Theory Constraint Solver Goals",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "CurrentlyDeducible",
           "package": "tamarin-prover-theory",
@@ -680,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA goal that is delayed to avoid immediate termination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "LoopBreaker",
           "package": "tamarin-prover-theory",
@@ -690,6 +737,7 @@
         "index": {
           "description": "goal that is delayed to avoid immediate termination",
           "hierarchy": "Theory Constraint Solver Goals",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "LoopBreaker",
           "package": "tamarin-prover-theory",
@@ -704,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA goal that is likely to be constructible by the adversary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "ProbablyConstructible",
           "package": "tamarin-prover-theory",
@@ -714,6 +763,7 @@
         "index": {
           "description": "goal that is likely to be constructible by the adversary",
           "hierarchy": "Theory Constraint Solver Goals",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "ProbablyConstructible",
           "package": "tamarin-prover-theory",
@@ -728,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA goal that is likely to result in progress.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "Useful",
           "package": "tamarin-prover-theory",
@@ -738,6 +789,7 @@
         "index": {
           "description": "goal that is likely to result in progress",
           "hierarchy": "Theory Constraint Solver Goals",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "Useful",
           "package": "tamarin-prover-theory",
@@ -752,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of goals that must be solved before a solution can be extracted.\n Each goal is annotated with its age and an indicator for its usefulness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "openGoals",
           "package": "tamarin-prover-theory",
@@ -762,6 +815,7 @@
         "index": {
           "description": "The list of goals that must be solved before solution can be extracted Each goal is annotated with its age and an indicator for its usefulness",
           "hierarchy": "Theory Constraint Solver Goals",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "openGoals",
           "normalized": "System-\u003e[AnnotatedGoal]",
@@ -778,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esolveGoal rules goal\u003c/code\u003e enumerates all possible cases of how this goal\n could be solved in the context of the given \u003ccode\u003erules\u003c/code\u003e. For each case, a\n sensible case-name is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "solveGoal",
           "package": "tamarin-prover-theory",
@@ -788,6 +843,7 @@
         "index": {
           "description": "solveGoal rules goal enumerates all possible cases of how this goal could be solved in the context of the given rules For each case sensible case-name is returned",
           "hierarchy": "Theory Constraint Solver Goals",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Goals",
           "name": "solveGoal",
           "normalized": "Goal-\u003eReduction String",
@@ -804,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProof methods and heuristics: the external small-step interface to the\n constraint solver.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "ProofMethod",
           "package": "tamarin-prover-theory",
@@ -813,6 +870,7 @@
         "index": {
           "description": "Proof methods and heuristics the external small-step interface to the constraint solver",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "ProofMethod",
           "package": "tamarin-prover-theory",
@@ -827,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery case in a proof is uniquely named.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "CaseName",
           "package": "tamarin-prover-theory",
@@ -836,6 +895,7 @@
         "index": {
           "description": "Every case in proof is uniquely named",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "CaseName",
           "package": "tamarin-prover-theory",
@@ -850,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different available functions to rank goals with respect to their\n order of solving in a constraint system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "GoalRanking",
           "package": "tamarin-prover-theory",
@@ -859,6 +920,7 @@
         "index": {
           "description": "The different available functions to rank goals with respect to their order of solving in constraint system",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "GoalRanking",
           "package": "tamarin-prover-theory",
@@ -872,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Heuristic",
           "package": "tamarin-prover-theory",
@@ -880,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Heuristic",
           "package": "tamarin-prover-theory",
@@ -894,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSound transformations of sequents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "ProofMethod",
           "package": "tamarin-prover-theory",
@@ -903,6 +968,7 @@
         "index": {
           "description": "Sound transformations of sequents",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "ProofMethod",
           "package": "tamarin-prover-theory",
@@ -917,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA contradiction could be\n derived, possibly with a reason.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Contradiction",
           "package": "tamarin-prover-theory",
@@ -927,6 +994,7 @@
         "index": {
           "description": "contradiction could be derived possibly with reason",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Contradiction",
           "package": "tamarin-prover-theory",
@@ -940,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "GoalNrRanking",
           "package": "tamarin-prover-theory",
@@ -949,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "GoalNrRanking",
           "package": "tamarin-prover-theory",
@@ -963,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse inductive strengthening on\n the single formula constraint in\n the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Induction",
           "package": "tamarin-prover-theory",
@@ -973,6 +1044,7 @@
         "index": {
           "description": "Use inductive strengthening on the single formula constraint in the system",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Induction",
           "package": "tamarin-prover-theory",
@@ -987,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simplification step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Simplify",
           "package": "tamarin-prover-theory",
@@ -997,6 +1070,7 @@
         "index": {
           "description": "simplification step",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Simplify",
           "package": "tamarin-prover-theory",
@@ -1010,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "SmartRanking",
           "package": "tamarin-prover-theory",
@@ -1019,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "SmartRanking",
           "package": "tamarin-prover-theory",
@@ -1033,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA goal that was solved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "SolveGoal",
           "package": "tamarin-prover-theory",
@@ -1043,6 +1120,7 @@
         "index": {
           "description": "goal that was solved",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "SolveGoal",
           "package": "tamarin-prover-theory",
@@ -1057,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn attack was fond\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Solved",
           "package": "tamarin-prover-theory",
@@ -1067,6 +1146,7 @@
         "index": {
           "description": "An attack was fond",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Solved",
           "package": "tamarin-prover-theory",
@@ -1081,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProof was not completed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Sorry",
           "package": "tamarin-prover-theory",
@@ -1091,6 +1172,7 @@
         "index": {
           "description": "Proof was not completed",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "Sorry",
           "package": "tamarin-prover-theory",
@@ -1104,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "UsefulGoalNrRanking",
           "package": "tamarin-prover-theory",
@@ -1113,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "UsefulGoalNrRanking",
           "package": "tamarin-prover-theory",
@@ -1126,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "execProofMethod",
           "package": "tamarin-prover-theory",
@@ -1135,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "execProofMethod",
           "normalized": "ProofContext-\u003eProofMethod-\u003eSystem-\u003eMaybe(Map CaseName System)",
@@ -1151,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name/explanation of a \u003ccode\u003e\u003ca\u003eGoalRanking\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "goalRankingName",
           "package": "tamarin-prover-theory",
@@ -1161,6 +1248,7 @@
         "index": {
           "description": "The name explanation of GoalRanking",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "goalRankingName",
           "normalized": "GoalRanking-\u003eString",
@@ -1177,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print a proof method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "prettyProofMethod",
           "package": "tamarin-prover-theory",
@@ -1187,6 +1276,7 @@
         "index": {
           "description": "Pretty-print proof method",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "prettyProofMethod",
           "normalized": "ProofMethod-\u003ea",
@@ -1203,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a \u003ccode\u003e\u003ca\u003eGoalRanking\u003c/a\u003e\u003c/code\u003e to generate the ranked, list of possible\n \u003ccode\u003e\u003ca\u003eProofMethod\u003c/a\u003e\u003c/code\u003es and their corresponding results in this \u003ccode\u003e\u003ca\u003eProofContext\u003c/a\u003e\u003c/code\u003e and\n for this \u003ccode\u003e\u003ca\u003eSystem\u003c/a\u003e\u003c/code\u003e. If the resulting list is empty, then the constraint\n system is solved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "rankProofMethods",
           "package": "tamarin-prover-theory",
@@ -1213,6 +1304,7 @@
         "index": {
           "description": "Use GoalRanking to generate the ranked list of possible ProofMethod and their corresponding results in this ProofContext and for this System If the resulting list is empty then the constraint system is solved",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "rankProofMethods",
           "normalized": "GoalRanking-\u003eProofContext-\u003eSystem-\u003e[(ProofMethod,(Map CaseName System,String))]",
@@ -1229,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for heuristics. Schedules the goal rankings in a\n round-robin fashion dependent on the proof depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "roundRobinHeuristic",
           "package": "tamarin-prover-theory",
@@ -1239,6 +1332,7 @@
         "index": {
           "description": "Smart constructor for heuristics Schedules the goal rankings in round-robin fashion dependent on the proof depth",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "roundRobinHeuristic",
           "normalized": "[GoalRanking]-\u003eHeuristic",
@@ -1255,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a heuristic to schedule a \u003ccode\u003e\u003ca\u003eGoalRanking\u003c/a\u003e\u003c/code\u003e according to the given\n proof-depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "useHeuristic",
           "package": "tamarin-prover-theory",
@@ -1265,6 +1360,7 @@
         "index": {
           "description": "Use heuristic to schedule GoalRanking according to the given proof-depth",
           "hierarchy": "Theory Constraint Solver ProofMethod",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.ProofMethod",
           "name": "useHeuristic",
           "normalized": "Heuristic-\u003eInt-\u003eGoalRanking",
@@ -1281,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad for writing constraint reduction steps together with basic steps\n for inserting nodes, edges, actions, and equations and applying\n substitutions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "Reduction",
           "package": "tamarin-prover-theory",
@@ -1290,6 +1387,7 @@
         "index": {
           "description": "monad for writing constraint reduction steps together with basic steps for inserting nodes edges actions and equations and applying substitutions",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "Reduction",
           "package": "tamarin-prover-theory",
@@ -1304,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicate whether the constraint system was changed or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "ChangeIndicator",
           "package": "tamarin-prover-theory",
@@ -1313,6 +1412,7 @@
         "index": {
           "description": "Indicate whether the constraint system was changed or not",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "ChangeIndicator",
           "package": "tamarin-prover-theory",
@@ -1327,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constraint reduction step. Its state is the current constraint system,\n it can generate fresh names, split over cases, and access the proof\n context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "Reduction",
           "package": "tamarin-prover-theory",
@@ -1336,6 +1437,7 @@
         "index": {
           "description": "constraint reduction step Its state is the current constraint system it can generate fresh names split over cases and access the proof context",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "Reduction",
           "package": "tamarin-prover-theory",
@@ -1350,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSplitStrategy\u003c/a\u003e\u003c/code\u003e denotes if the equation store should be split into\n multiple equation stores.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "SplitStrategy",
           "package": "tamarin-prover-theory",
@@ -1359,6 +1462,7 @@
         "index": {
           "description": "SplitStrategy denotes if the equation store should be split into multiple equation stores",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "SplitStrategy",
           "package": "tamarin-prover-theory",
@@ -1372,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "Changed",
           "package": "tamarin-prover-theory",
@@ -1381,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "Changed",
           "package": "tamarin-prover-theory",
@@ -1394,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "SplitLater",
           "package": "tamarin-prover-theory",
@@ -1403,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "SplitLater",
           "package": "tamarin-prover-theory",
@@ -1416,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "SplitNow",
           "package": "tamarin-prover-theory",
@@ -1425,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "SplitNow",
           "package": "tamarin-prover-theory",
@@ -1438,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "Unchanged",
           "package": "tamarin-prover-theory",
@@ -1447,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "Unchanged",
           "package": "tamarin-prover-theory",
@@ -1461,6 +1573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a list of changes to the proof state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "applyChangeList",
           "package": "tamarin-prover-theory",
@@ -1471,6 +1584,7 @@
         "index": {
           "description": "Apply list of changes to the proof state",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "applyChangeList",
           "normalized": "[Reduction()]-\u003eReduction ChangeIndicator",
@@ -1487,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003econjoinSystem se\u003c/code\u003e conjoins the logical information in \u003ccode\u003ese\u003c/code\u003e to the\n constraint system. It assumes that the free variables in \u003ccode\u003ese\u003c/code\u003e are shared\n with the free variables in the proof state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "conjoinSystem",
           "package": "tamarin-prover-theory",
@@ -1497,6 +1612,7 @@
         "index": {
           "description": "conjoinSystem se conjoins the logical information in se to the constraint system It assumes that the free variables in se are shared with the free variables in the proof state",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "conjoinSystem",
           "normalized": "System-\u003eReduction()",
@@ -1513,6 +1629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a constraint reduction returning only the updated constraint systems\n and the new freshness states.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "execReduction",
           "package": "tamarin-prover-theory",
@@ -1523,6 +1640,7 @@
         "index": {
           "description": "Run constraint reduction returning only the updated constraint systems and the new freshness states",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "execReduction",
           "normalized": "Reduction a-\u003eProofContext-\u003eSystem-\u003eFreshState-\u003eDisj(System,FreshState)",
@@ -1539,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the \u003ccode\u003e\u003ca\u003eMaudeHandle\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eProofContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "getMaudeHandle",
           "package": "tamarin-prover-theory",
@@ -1549,6 +1668,7 @@
         "index": {
           "description": "Retrieve the MaudeHandle from the ProofContext",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "getMaudeHandle",
           "package": "tamarin-prover-theory",
@@ -1563,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the \u003ccode\u003e\u003ca\u003eProofContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "getProofContext",
           "package": "tamarin-prover-theory",
@@ -1573,6 +1694,7 @@
         "index": {
           "description": "Retrieve the ProofContext",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "getProofContext",
           "package": "tamarin-prover-theory",
@@ -1587,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e atom. Ensures that (almost all) trivial *KU* actions\n are solved immediately using rule *S_{at,u,triv}*. We currently avoid\n adding intermediate products. Indicates whether nodes other than the given\n action have been added to the constraint system.\n\u003c/p\u003e\u003cp\u003eFIXME: Ensure that intermediate products are also solved before stating\n that no rule is applicable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertAction",
           "package": "tamarin-prover-theory",
@@ -1597,6 +1720,7 @@
         "index": {
           "description": "Insert an Action atom Ensures that almost all trivial KU actions are solved immediately using rule at triv We currently avoid adding intermediate products Indicates whether nodes other than the given action have been added to the constraint system FIXME Ensure that intermediate products are also solved before stating that no rule is applicable",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertAction",
           "normalized": "NodeId-\u003eLNFact-\u003eReduction ChangeIndicator",
@@ -1613,6 +1737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an atom. Returns \u003ccode\u003e\u003ca\u003eChanged\u003c/a\u003e\u003c/code\u003e if another part of the constraint\n system than the set of actions was changed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertAtom",
           "package": "tamarin-prover-theory",
@@ -1623,6 +1748,7 @@
         "index": {
           "description": "Insert an atom Returns Changed if another part of the constraint system than the set of actions was changed",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertAtom",
           "normalized": "LNAtom-\u003eReduction ChangeIndicator",
@@ -1639,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a chain constrain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertChain",
           "package": "tamarin-prover-theory",
@@ -1649,6 +1776,7 @@
         "index": {
           "description": "Insert chain constrain",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertChain",
           "normalized": "NodeConc-\u003eNodePrem-\u003eReduction()",
@@ -1665,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an edge constraint. CR-rule *DG1_2* is enforced automatically,\n i.e., the fact equalities are enforced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertEdges",
           "package": "tamarin-prover-theory",
@@ -1675,6 +1804,7 @@
         "index": {
           "description": "Insert an edge constraint CR-rule DG1 is enforced automatically i.e the fact equalities are enforced",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertEdges",
           "normalized": "[(NodeConc,LNFact,LNFact,NodePrem)]-\u003eReduction()",
@@ -1691,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a \u003ccode\u003e\u003ca\u003eGuarded\u003c/a\u003e\u003c/code\u003e formula. Ensures that existentials, conjunctions, negated\n last atoms, and negated less atoms, are immediately solved using the rules\n *S_exists*, *S_and*, *S_not,last*, and *S_not,less*. Only the inserted\n formula is marked as solved. Other intermediate formulas are not marked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertFormula",
           "package": "tamarin-prover-theory",
@@ -1701,6 +1832,7 @@
         "index": {
           "description": "Insert Guarded formula Ensures that existentials conjunctions negated last atoms and negated less atoms are immediately solved using the rules exists and not last and not less Only the inserted formula is marked as solved Other intermediate formulas are not marked",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertFormula",
           "normalized": "LNGuarded-\u003eReduction()",
@@ -1717,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a fresh rule node labelled with a fresh instance of one of the rules\n and solve it's \u003ccode\u003eFr\u003c/code\u003e, \u003ccode\u003eIn\u003c/code\u003e, and \u003ccode\u003eKU\u003c/code\u003e premises immediatly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertFreshNode",
           "package": "tamarin-prover-theory",
@@ -1727,6 +1860,7 @@
         "index": {
           "description": "Insert fresh rule node labelled with fresh instance of one of the rules and solve it Fr In and KU premises immediatly",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertFreshNode",
           "normalized": "[RuleAC]-\u003eReduction(NodeId,RuleACInst)",
@@ -1743,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a fresh rule node labelled with a fresh instance of one of the\n rules and return one of the conclusions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertFreshNodeConc",
           "package": "tamarin-prover-theory",
@@ -1753,6 +1888,7 @@
         "index": {
           "description": "Insert fresh rule node labelled with fresh instance of one of the rules and return one of the conclusions",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertFreshNodeConc",
           "normalized": "[RuleAC]-\u003eReduction(RuleACInst,NodeConc,LNFact)",
@@ -1769,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a \u003ccode\u003e\u003ca\u003eGoal\u003c/a\u003e\u003c/code\u003e and store its age.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertGoal",
           "package": "tamarin-prover-theory",
@@ -1779,6 +1916,7 @@
         "index": {
           "description": "Insert Goal and store its age",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertGoal",
           "normalized": "Goal-\u003eBool-\u003eReduction()",
@@ -1795,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a \u003ccode\u003e\u003ca\u003eLess\u003c/a\u003e\u003c/code\u003e atom. \u003ccode\u003einsertLess i j\u003c/code\u003e means that *i \u003c j* is added.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertLess",
           "package": "tamarin-prover-theory",
@@ -1805,6 +1944,7 @@
         "index": {
           "description": "Insert Less atom insertLess means that is added",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "insertLess",
           "normalized": "NodeId-\u003eNodeId-\u003eReduction()",
@@ -1821,6 +1961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel a node-id with a fresh instance of one of the rules and\n solve it's \u003ccode\u003eFr\u003c/code\u003e, \u003ccode\u003eIn\u003c/code\u003e, and \u003ccode\u003eKU\u003c/code\u003e premises immediatly.\n\u003c/p\u003e\u003cp\u003ePRE: Node must not yet be labelled with a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "labelNodeId",
           "package": "tamarin-prover-theory",
@@ -1831,6 +1972,7 @@
         "index": {
           "description": "Label node-id with fresh instance of one of the rules and solve it Fr In and KU premises immediatly PRE Node must not yet be labelled with rule",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "labelNodeId",
           "normalized": "NodeId-\u003e[RuleAC]-\u003eReduction RuleACInst",
@@ -1847,6 +1989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark the given goal as solved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "markGoalAsSolved",
           "package": "tamarin-prover-theory",
@@ -1857,6 +2000,7 @@
         "index": {
           "description": "Mark the given goal as solved",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "markGoalAsSolved",
           "normalized": "String-\u003eGoal-\u003eReduction()",
@@ -1873,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the formula can be reduced by one of the rules implemented in\n \u003ccode\u003e\u003ca\u003einsertFormula\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "reducibleFormula",
           "package": "tamarin-prover-theory",
@@ -1883,6 +2028,7 @@
         "index": {
           "description": "True iff the formula can be reduced by one of the rules implemented in insertFormula",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "reducibleFormula",
           "normalized": "LNGuarded-\u003eBool",
@@ -1898,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "removeSolvedSplitGoals",
           "package": "tamarin-prover-theory",
@@ -1907,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "removeSolvedSplitGoals",
           "normalized": "Reduction()",
@@ -1923,6 +2071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a constraint reduction. Returns a list of constraint systems whose\n combined solutions are equal to the solutions of the given system. This\n property is obviously not enforced, but it must be respected by all\n functions of type \u003ccode\u003e\u003ca\u003eReduction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "runReduction",
           "package": "tamarin-prover-theory",
@@ -1933,6 +2082,7 @@
         "index": {
           "description": "Run constraint reduction Returns list of constraint systems whose combined solutions are equal to the solutions of the given system This property is obviously not enforced but it must be respected by all functions of type Reduction",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "runReduction",
           "normalized": "Reduction a-\u003eProofContext-\u003eSystem-\u003eFreshState-\u003eDisj((a,System),FreshState)",
@@ -1949,6 +2099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a list of fact equalities to the equation store, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "solveFactEqs",
           "package": "tamarin-prover-theory",
@@ -1959,6 +2110,7 @@
         "index": {
           "description": "Add list of fact equalities to the equation store if possible",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "solveFactEqs",
           "normalized": "SplitStrategy-\u003e[Equal LNFact]-\u003eReduction ChangeIndicator",
@@ -1975,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a list of node equalities to the equation store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "solveNodeIdEqs",
           "package": "tamarin-prover-theory",
@@ -1985,6 +2138,7 @@
         "index": {
           "description": "Add list of node equalities to the equation store",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "solveNodeIdEqs",
           "normalized": "[Equal NodeId]-\u003eReduction ChangeIndicator",
@@ -2001,6 +2155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a list of rule equalities to the equation store, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "solveRuleEqs",
           "package": "tamarin-prover-theory",
@@ -2011,6 +2166,7 @@
         "index": {
           "description": "Add list of rule equalities to the equation store if possible",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "solveRuleEqs",
           "normalized": "SplitStrategy-\u003e[Equal RuleACInst]-\u003eReduction ChangeIndicator",
@@ -2027,6 +2183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a list of equalities in substitution form to the equation store\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "solveSubstEqs",
           "package": "tamarin-prover-theory",
@@ -2037,6 +2194,7 @@
         "index": {
           "description": "Add list of equalities in substitution form to the equation store",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "solveSubstEqs",
           "normalized": "SplitStrategy-\u003eLNSubst-\u003eReduction ChangeIndicator",
@@ -2053,6 +2211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a list of term equalities to the equation store. And\n  split resulting disjunction of equations according\n  to given split strategy.\n\u003c/p\u003e\u003cp\u003eNote that updating the remaining parts of the constraint system with the\n substitution has to be performed using a separate call to \u003ccode\u003e\u003ca\u003esubstSystem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "solveTermEqs",
           "package": "tamarin-prover-theory",
@@ -2063,6 +2222,7 @@
         "index": {
           "description": "Add list of term equalities to the equation store And split resulting disjunction of equations according to given split strategy Note that updating the remaining parts of the constraint system with the substitution has to be performed using separate call to substSystem",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "solveTermEqs",
           "normalized": "SplitStrategy-\u003e[Equal LNTerm]-\u003eReduction ChangeIndicator",
@@ -2078,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substEdges",
           "package": "tamarin-prover-theory",
@@ -2087,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substEdges",
           "normalized": "Reduction()",
@@ -2102,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substFormulas",
           "package": "tamarin-prover-theory",
@@ -2111,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substFormulas",
           "normalized": "Reduction()",
@@ -2126,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substLastAtom",
           "package": "tamarin-prover-theory",
@@ -2135,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substLastAtom",
           "normalized": "Reduction()",
@@ -2150,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substLessAtoms",
           "package": "tamarin-prover-theory",
@@ -2159,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substLessAtoms",
           "normalized": "Reduction()",
@@ -2175,6 +2343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the current substitution of the equation store the nodes of the\n constraint system. Indicates whether additional equalities were added to\n the equations store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substNodes",
           "package": "tamarin-prover-theory",
@@ -2185,6 +2354,7 @@
         "index": {
           "description": "Apply the current substitution of the equation store the nodes of the constraint system Indicates whether additional equalities were added to the equations store",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substNodes",
           "package": "tamarin-prover-theory",
@@ -2198,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substSolvedFormulas",
           "package": "tamarin-prover-theory",
@@ -2207,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substSolvedFormulas",
           "normalized": "Reduction()",
@@ -2223,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the current substitution of the equation store to the remainder of\n the sequent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substSystem",
           "package": "tamarin-prover-theory",
@@ -2233,6 +2406,7 @@
         "index": {
           "description": "Apply the current substitution of the equation store to the remainder of the sequent",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "substSystem",
           "package": "tamarin-prover-theory",
@@ -2247,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly apply a monadic action, if there has been a change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "whenChanged",
           "package": "tamarin-prover-theory",
@@ -2257,6 +2432,7 @@
         "index": {
           "description": "Only apply monadic action if there has been change",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "whenChanged",
           "normalized": "ChangeIndicator-\u003ea()-\u003ea()",
@@ -2273,6 +2449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a \u003ccode\u003e\u003ca\u003eReduction\u003c/a\u003e\u003c/code\u003e as long as it results in changes. Indicate whether\n at least one change was performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "whileChanging",
           "package": "tamarin-prover-theory",
@@ -2283,6 +2460,7 @@
         "index": {
           "description": "Execute Reduction as long as it results in changes Indicate whether at least one change was performed",
           "hierarchy": "Theory Constraint Solver Reduction",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Reduction",
           "name": "whileChanging",
           "normalized": "Reduction ChangeIndicator-\u003eReduction ChangeIndicator",
@@ -2299,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements all rules that do not result in case distinctions\n and equation solving. Some additional cases may although result from\n splitting over multiple AC-unifiers. Note that a few of these rules are\n implemented directly in the methods for inserting constraints to the\n constraint system.  These methods are provided by\n \u003ca\u003eTheory.Constraint.Solver.Reduction\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Simplify",
           "name": "Simplify",
           "package": "tamarin-prover-theory",
@@ -2308,6 +2487,7 @@
         "index": {
           "description": "This module implements all rules that do not result in case distinctions and equation solving Some additional cases may although result from splitting over multiple AC-unifiers Note that few of these rules are implemented directly in the methods for inserting constraints to the constraint system These methods are provided by Theory.Constraint.Solver.Reduction",
           "hierarchy": "Theory Constraint Solver Simplify",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Simplify",
           "name": "Simplify",
           "package": "tamarin-prover-theory",
@@ -2322,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply CR-rules that don't result in case splitting until the constraint\n system does not change anymore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Simplify",
           "name": "simplifySystem",
           "package": "tamarin-prover-theory",
@@ -2332,6 +2513,7 @@
         "index": {
           "description": "Apply CR-rules that don result in case splitting until the constraint system does not change anymore",
           "hierarchy": "Theory Constraint Solver Simplify",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Simplify",
           "name": "simplifySystem",
           "normalized": "Reduction()",
@@ -2348,6 +2530,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon types for our constraint solver. They must be declared jointly\n because there is a recursive dependency between goals, proof contexts, and\n case distinctions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "Types",
           "package": "tamarin-prover-theory",
@@ -2357,6 +2540,7 @@
         "index": {
           "description": "Common types for our constraint solver They must be declared jointly because there is recursive dependency between goals proof contexts and case distinctions",
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "Types",
           "package": "tamarin-prover-theory",
@@ -2371,6 +2555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA big-step case distinction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "CaseDistinction",
           "package": "tamarin-prover-theory",
@@ -2380,6 +2565,7 @@
         "index": {
           "description": "big-step case distinction",
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "CaseDistinction",
           "package": "tamarin-prover-theory",
@@ -2393,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "ClassifiedRules",
           "package": "tamarin-prover-theory",
@@ -2401,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "ClassifiedRules",
           "package": "tamarin-prover-theory",
@@ -2414,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "InductionHint",
           "package": "tamarin-prover-theory",
@@ -2422,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "InductionHint",
           "package": "tamarin-prover-theory",
@@ -2436,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proof context contains the globally fresh facts, classified rewrite\n rules and the corresponding precomputed premise case distinction theorems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "ProofContext",
           "package": "tamarin-prover-theory",
@@ -2445,6 +2636,7 @@
         "index": {
           "description": "proof context contains the globally fresh facts classified rewrite rules and the corresponding precomputed premise case distinction theorems",
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "ProofContext",
           "package": "tamarin-prover-theory",
@@ -2481,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "CaseDistinction",
           "package": "tamarin-prover-theory",
@@ -2490,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "CaseDistinction",
           "package": "tamarin-prover-theory",
@@ -2572,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "_cdCases",
           "package": "tamarin-prover-theory",
@@ -2581,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "_cdCases",
           "normalized": "Disj([String],System)",
@@ -2596,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "_cdGoal",
           "package": "tamarin-prover-theory",
@@ -2605,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "_cdGoal",
           "package": "tamarin-prover-theory",
@@ -2980,6 +3178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty proof rule set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "emptyClassifiedRules",
           "package": "tamarin-prover-theory",
@@ -2990,6 +3189,7 @@
         "index": {
           "description": "The empty proof rule set",
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "emptyClassifiedRules",
           "package": "tamarin-prover-theory",
@@ -3031,6 +3231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all non-silent rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "nonSilentRules",
           "package": "tamarin-prover-theory",
@@ -3041,6 +3242,7 @@
         "index": {
           "description": "Extract all non-silent rules",
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "nonSilentRules",
           "normalized": "ClassifiedRules-\u003e[RuleAC]",
@@ -3128,6 +3330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMaudeHandle\u003c/a\u003e\u003c/code\u003e of a proof-context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "pcMaudeHandle",
           "package": "tamarin-prover-theory",
@@ -3138,6 +3341,7 @@
         "index": {
           "description": "The MaudeHandle of proof-context",
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "pcMaudeHandle",
           "normalized": "ProofContext-\u003eMaudeHandle",
@@ -3246,6 +3450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a case distinction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver.Types",
           "name": "prettyCaseDistinction",
           "package": "tamarin-prover-theory",
@@ -3256,6 +3461,7 @@
         "index": {
           "description": "Pretty print case distinction",
           "hierarchy": "Theory Constraint Solver Types",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver.Types",
           "name": "prettyCaseDistinction",
           "normalized": "CaseDistinction-\u003ea",
@@ -3272,6 +3478,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe public interface of the constraint solver, which implements all\n constraint reduction rules and together with a rule application heuristic.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver",
           "name": "Solver",
           "package": "tamarin-prover-theory",
@@ -3281,6 +3488,7 @@
         "index": {
           "description": "The public interface of the constraint solver which implements all constraint reduction rules and together with rule application heuristic",
           "hierarchy": "Theory Constraint Solver",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver",
           "name": "Solver",
           "package": "tamarin-prover-theory",
@@ -3295,6 +3503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA big-step case distinction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver",
           "name": "CaseDistinction",
           "package": "tamarin-prover-theory",
@@ -3304,6 +3513,7 @@
         "index": {
           "description": "big-step case distinction",
           "hierarchy": "Theory Constraint Solver",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver",
           "name": "CaseDistinction",
           "package": "tamarin-prover-theory",
@@ -3317,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver",
           "name": "ClassifiedRules",
           "package": "tamarin-prover-theory",
@@ -3325,6 +3536,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver",
           "name": "ClassifiedRules",
           "package": "tamarin-prover-theory",
@@ -3339,6 +3551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReasons why a constraint \u003ccode\u003e\u003ca\u003eSystem\u003c/a\u003e\u003c/code\u003e can be contradictory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver",
           "name": "Contradiction",
           "package": "tamarin-prover-theory",
@@ -3348,6 +3561,7 @@
         "index": {
           "description": "Reasons why constraint System can be contradictory",
           "hierarchy": "Theory Constraint Solver",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver",
           "name": "Contradiction",
           "package": "tamarin-prover-theory",
@@ -3361,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver",
           "name": "InductionHint",
           "package": "tamarin-prover-theory",
@@ -3369,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint Solver",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver",
           "name": "InductionHint",
           "package": "tamarin-prover-theory",
@@ -3383,6 +3599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proof context contains the globally fresh facts, classified rewrite\n rules and the corresponding precomputed premise case distinction theorems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.Solver",
           "name": "ProofContext",
           "package": "tamarin-prover-theory",
@@ -3392,6 +3609,7 @@
         "index": {
           "description": "proof context contains the globally fresh facts classified rewrite rules and the corresponding precomputed premise case distinction theorems",
           "hierarchy": "Theory Constraint Solver",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.Solver",
           "name": "ProofContext",
           "package": "tamarin-prover-theory",
@@ -3406,6 +3624,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes representing constraints.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "Constraints",
           "package": "tamarin-prover-theory",
@@ -3415,6 +3634,7 @@
         "index": {
           "description": "Types representing constraints",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "Constraints",
           "package": "tamarin-prover-theory",
@@ -3429,6 +3649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA labeled edge in a derivation graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "Edge",
           "package": "tamarin-prover-theory",
@@ -3438,6 +3659,7 @@
         "index": {
           "description": "labeled edge in derivation graph",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "Edge",
           "package": "tamarin-prover-theory",
@@ -3452,6 +3674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eGoal\u003c/a\u003e\u003c/code\u003e denotes that a constraint reduction rule is applicable, which\n might result in case splits. We either use a heuristic to decide what goal\n to solve next or leave the choice to user (in case of the interactive UI).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "Goal",
           "package": "tamarin-prover-theory",
@@ -3461,6 +3684,7 @@
         "index": {
           "description": "Goal denotes that constraint reduction rule is applicable which might result in case splits We either use heuristic to decide what goal to solve next or leave the choice to user in case of the interactive UI",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "Goal",
           "package": "tamarin-prover-theory",
@@ -3475,6 +3699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA *&#8918;* constraint between \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "Less",
           "package": "tamarin-prover-theory",
@@ -3484,6 +3709,7 @@
         "index": {
           "description": "constraint between NodeId",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "Less",
           "package": "tamarin-prover-theory",
@@ -3498,6 +3724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA conclusion of a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "NodeConc",
           "package": "tamarin-prover-theory",
@@ -3507,6 +3734,7 @@
         "index": {
           "description": "conclusion of node",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "NodeConc",
           "package": "tamarin-prover-theory",
@@ -3521,6 +3749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA premise of a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "NodePrem",
           "package": "tamarin-prover-theory",
@@ -3530,6 +3759,7 @@
         "index": {
           "description": "premise of node",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "NodePrem",
           "package": "tamarin-prover-theory",
@@ -3544,6 +3774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action that must exist in the trace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "ActionG",
           "package": "tamarin-prover-theory",
@@ -3554,6 +3785,7 @@
         "index": {
           "description": "An action that must exist in the trace",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "ActionG",
           "package": "tamarin-prover-theory",
@@ -3567,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "ChainG",
           "package": "tamarin-prover-theory",
@@ -3576,6 +3809,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "ChainG",
           "package": "tamarin-prover-theory",
@@ -3590,6 +3824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA case split over a disjunction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "DisjG",
           "package": "tamarin-prover-theory",
@@ -3600,6 +3835,7 @@
         "index": {
           "description": "case split over disjunction",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "DisjG",
           "package": "tamarin-prover-theory",
@@ -3613,6 +3849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "Edge",
           "package": "tamarin-prover-theory",
@@ -3622,6 +3859,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "Edge",
           "package": "tamarin-prover-theory",
@@ -3636,6 +3874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA premise that must have an incoming direct edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "PremiseG",
           "package": "tamarin-prover-theory",
@@ -3646,6 +3885,7 @@
         "index": {
           "description": "premise that must have an incoming direct edge",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "PremiseG",
           "package": "tamarin-prover-theory",
@@ -3660,6 +3900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA case split over equalities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "SplitG",
           "package": "tamarin-prover-theory",
@@ -3670,6 +3911,7 @@
         "index": {
           "description": "case split over equalities",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "SplitG",
           "package": "tamarin-prover-theory",
@@ -3683,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "eSrc",
           "package": "tamarin-prover-theory",
@@ -3692,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "eSrc",
           "package": "tamarin-prover-theory",
@@ -3705,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "eTgt",
           "package": "tamarin-prover-theory",
@@ -3714,6 +3959,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "eTgt",
           "package": "tamarin-prover-theory",
@@ -3727,6 +3973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isActionGoal",
           "package": "tamarin-prover-theory",
@@ -3736,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isActionGoal",
           "normalized": "Goal-\u003eBool",
@@ -3751,6 +3999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isChainGoal",
           "package": "tamarin-prover-theory",
@@ -3760,6 +4009,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isChainGoal",
           "normalized": "Goal-\u003eBool",
@@ -3775,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isDisjGoal",
           "package": "tamarin-prover-theory",
@@ -3784,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isDisjGoal",
           "normalized": "Goal-\u003eBool",
@@ -3799,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isPremiseGoal",
           "package": "tamarin-prover-theory",
@@ -3808,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isPremiseGoal",
           "normalized": "Goal-\u003eBool",
@@ -3823,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isSplitGoal",
           "package": "tamarin-prover-theory",
@@ -3832,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isSplitGoal",
           "normalized": "Goal-\u003eBool",
@@ -3847,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isStandardActionGoal",
           "package": "tamarin-prover-theory",
@@ -3856,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "isStandardActionGoal",
           "normalized": "Goal-\u003eBool",
@@ -3872,6 +4130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a edge as \u003ccode\u003esrc \u003e-i--j-\u003e tgt\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyEdge",
           "package": "tamarin-prover-theory",
@@ -3882,6 +4141,7 @@
         "index": {
           "description": "Pretty print edge as src i--j tgt",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyEdge",
           "normalized": "Edge-\u003ea",
@@ -3898,6 +4158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a goal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyGoal",
           "package": "tamarin-prover-theory",
@@ -3908,6 +4169,7 @@
         "index": {
           "description": "Pretty print goal",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyGoal",
           "normalized": "Goal-\u003ea",
@@ -3924,6 +4186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a less-atom as \u003ccode\u003esrc \u003c tgt\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyLess",
           "package": "tamarin-prover-theory",
@@ -3934,6 +4197,7 @@
         "index": {
           "description": "Pretty print less-atom as src tgt",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyLess",
           "normalized": "Less-\u003ea",
@@ -3950,6 +4214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyNode",
           "package": "tamarin-prover-theory",
@@ -3960,6 +4225,7 @@
         "index": {
           "description": "Pretty print node",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyNode",
           "normalized": "(NodeId,RuleACInst)-\u003ea",
@@ -3976,6 +4242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a node conclusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyNodeConc",
           "package": "tamarin-prover-theory",
@@ -3986,6 +4253,7 @@
         "index": {
           "description": "Pretty print node conclusion",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyNodeConc",
           "normalized": "NodeConc-\u003ea",
@@ -4002,6 +4270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a node premise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyNodePrem",
           "package": "tamarin-prover-theory",
@@ -4012,6 +4281,7 @@
         "index": {
           "description": "Pretty print node premise",
           "hierarchy": "Theory Constraint System Constraints",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Constraints",
           "name": "prettyNodePrem",
           "normalized": "NodePrem-\u003ea",
@@ -4028,6 +4298,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of the graph part of a sequent to a Graphviz Dot file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Dot",
           "name": "Dot",
           "package": "tamarin-prover-theory",
@@ -4037,6 +4308,7 @@
         "index": {
           "description": "Conversion of the graph part of sequent to Graphviz Dot file",
           "hierarchy": "Theory Constraint System Dot",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Dot",
           "name": "Dot",
           "package": "tamarin-prover-theory",
@@ -4051,6 +4323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe style for nodes of the intruder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Dot",
           "name": "BoringNodeStyle",
           "package": "tamarin-prover-theory",
@@ -4060,6 +4333,7 @@
         "index": {
           "description": "The style for nodes of the intruder",
           "hierarchy": "Theory Constraint System Dot",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Dot",
           "name": "BoringNodeStyle",
           "package": "tamarin-prover-theory",
@@ -4073,6 +4347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Dot",
           "name": "CompactBoringNodes",
           "package": "tamarin-prover-theory",
@@ -4082,6 +4357,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Dot",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Dot",
           "name": "CompactBoringNodes",
           "package": "tamarin-prover-theory",
@@ -4095,6 +4371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Dot",
           "name": "FullBoringNodes",
           "package": "tamarin-prover-theory",
@@ -4104,6 +4381,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Dot",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Dot",
           "name": "FullBoringNodes",
           "package": "tamarin-prover-theory",
@@ -4118,6 +4396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsound compression of the sequent that drops fully connected learns and\n knows nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Dot",
           "name": "compressSystem",
           "package": "tamarin-prover-theory",
@@ -4128,6 +4407,7 @@
         "index": {
           "description": "Unsound compression of the sequent that drops fully connected learns and knows nodes",
           "hierarchy": "Theory Constraint System Dot",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Dot",
           "name": "compressSystem",
           "normalized": "System-\u003eSystem",
@@ -4144,6 +4424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot a sequent in compact form (one record per rule), if there is anything\n to draw.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Dot",
           "name": "dotSystemCompact",
           "package": "tamarin-prover-theory",
@@ -4154,6 +4435,7 @@
         "index": {
           "description": "Dot sequent in compact form one record per rule if there is anything to draw",
           "hierarchy": "Theory Constraint System Dot",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Dot",
           "name": "dotSystemCompact",
           "normalized": "BoringNodeStyle-\u003eSystem-\u003eDot()",
@@ -4170,6 +4452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the sequent to a \u003ccode\u003e\u003ca\u003eDot\u003c/a\u003e\u003c/code\u003e action representing this sequent as a\n graph in the GraphViz format. The style is loose in the sense that each\n premise and conclusion gets its own node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Dot",
           "name": "dotSystemLoose",
           "package": "tamarin-prover-theory",
@@ -4180,6 +4463,7 @@
         "index": {
           "description": "Convert the sequent to Dot action representing this sequent as graph in the GraphViz format The style is loose in the sense that each premise and conclusion gets its own node",
           "hierarchy": "Theory Constraint System Dot",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Dot",
           "name": "dotSystemLoose",
           "normalized": "System-\u003eDot()",
@@ -4196,6 +4480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the dotted system will be a non-empty graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Dot",
           "name": "nonEmptyGraph",
           "package": "tamarin-prover-theory",
@@ -4206,6 +4491,7 @@
         "index": {
           "description": "True iff the dotted system will be non-empty graph",
           "hierarchy": "Theory Constraint System Dot",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Dot",
           "name": "nonEmptyGraph",
           "normalized": "System-\u003eBool",
@@ -4222,6 +4508,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGuarded formulas.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "Guarded",
           "package": "tamarin-prover-theory",
@@ -4231,6 +4518,7 @@
         "index": {
           "description": "Guarded formulas",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "Guarded",
           "package": "tamarin-prover-theory",
@@ -4245,6 +4533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtoms that are allowed as guards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GAtom",
           "package": "tamarin-prover-theory",
@@ -4254,6 +4543,7 @@
         "index": {
           "description": "Atoms that are allowed as guards",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GAtom",
           "package": "tamarin-prover-theory",
@@ -4267,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "Guarded",
           "package": "tamarin-prover-theory",
@@ -4275,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "Guarded",
           "package": "tamarin-prover-theory",
@@ -4288,6 +4580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "LGuarded",
           "package": "tamarin-prover-theory",
@@ -4296,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "LGuarded",
           "package": "tamarin-prover-theory",
@@ -4309,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "LNGuarded",
           "package": "tamarin-prover-theory",
@@ -4317,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "LNGuarded",
           "package": "tamarin-prover-theory",
@@ -4330,6 +4626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GAction",
           "package": "tamarin-prover-theory",
@@ -4339,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GAction",
           "normalized": "GAction(a,Fact a)",
@@ -4354,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GAto",
           "package": "tamarin-prover-theory",
@@ -4363,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GAto",
           "package": "tamarin-prover-theory",
@@ -4376,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GConj",
           "package": "tamarin-prover-theory",
@@ -4385,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GConj",
           "package": "tamarin-prover-theory",
@@ -4398,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GDisj",
           "package": "tamarin-prover-theory",
@@ -4407,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GDisj",
           "package": "tamarin-prover-theory",
@@ -4420,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GEqE",
           "package": "tamarin-prover-theory",
@@ -4429,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GEqE",
           "normalized": "GEqE(a,a)",
@@ -4445,6 +4751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes \u003ccode\u003eALL xs. as =\u003e gf\u003c/code\u003e or \u003ccode\u003eEx xs. as & gf&\n depending on the \u003ccode\u003e\u003ca\u003eQuantifier\u003c/a\u003e\u003c/code\u003e.\n We assume that all bound variables xs occur in\n f\u003c/code\u003ei atoms in as.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GGuarded",
           "package": "tamarin-prover-theory",
@@ -4455,6 +4762,7 @@
         "index": {
           "description": "Denotes ALL xs as gf or Ex xs as gf depending on the Quantifier We assume that all bound variables xs occur in atoms in as",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "GGuarded",
           "normalized": "GGuarded Quantifier[a][Atom(VTerm b(BVar c))](Guarded a b c)",
@@ -4471,6 +4779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003e\u003ca\u003eAtom\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eGAtom\u003c/a\u003e\u003c/code\u003es, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "atomToGAtom",
           "package": "tamarin-prover-theory",
@@ -4481,6 +4790,7 @@
         "index": {
           "description": "Convert Atom to GAtom if possible",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "atomToGAtom",
           "normalized": "Atom a-\u003eGAtom a",
@@ -4497,6 +4807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssuming that there are no more bound variables left in an atom of a\n formula, convert it to an atom with free variables only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "bvarToLVar",
           "package": "tamarin-prover-theory",
@@ -4507,6 +4818,7 @@
         "index": {
           "description": "Assuming that there are no more bound variables left in an atom of formula convert it to an atom with free variables only",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "bvarToLVar",
           "normalized": "Atom(VTerm a(BVar LVar))-\u003eAtom(VTerm a LVar)",
@@ -4523,6 +4835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eformulaToGuarded fm\u003c/code\u003e returns a guarded formula \u003ccode\u003egf\u003c/code\u003e that is\n equivalent to \u003ccode\u003efm\u003c/code\u003e if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "formulaToGuarded",
           "package": "tamarin-prover-theory",
@@ -4533,6 +4846,7 @@
         "index": {
           "description": "formulaToGuarded fm returns guarded formula gf that is equivalent to fm if possible",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "formulaToGuarded",
           "normalized": "LNFormula-\u003eEither a LNGuarded",
@@ -4549,6 +4863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eformulaToGuarded fm\u003c/code\u003e returns a guarded formula \u003ccode\u003egf\u003c/code\u003e that is\n equivalent to \u003ccode\u003efm\u003c/code\u003e under the assumption that this is possible.\n If not, then \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "formulaToGuarded_",
           "package": "tamarin-prover-theory",
@@ -4559,6 +4874,7 @@
         "index": {
           "description": "formulaToGuarded fm returns guarded formula gf that is equivalent to fm under the assumption that this is possible If not then error is called",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "formulaToGuarded_",
           "normalized": "LNFormula-\u003eLNGuarded",
@@ -4574,6 +4890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gall",
           "package": "tamarin-prover-theory",
@@ -4583,6 +4900,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gall",
           "normalized": "[a]-\u003e[Atom(VTerm b(BVar c))]-\u003eGuarded a b c-\u003eGuarded a b c",
@@ -4598,6 +4916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egconj gfs\u003c/code\u003e smart constructor for the conjunction of gfs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gconj",
           "package": "tamarin-prover-theory",
@@ -4608,6 +4927,7 @@
         "index": {
           "description": "gconj gfs smart constructor for the conjunction of gfs",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gconj",
           "normalized": "[Guarded a b c]-\u003eGuarded a b c",
@@ -4623,6 +4943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egdisj gfs\u003c/code\u003e smart constructor for the disjunction of gfs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gdisj",
           "package": "tamarin-prover-theory",
@@ -4633,6 +4954,7 @@
         "index": {
           "description": "gdisj gfs smart constructor for the disjunction of gfs",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gdisj",
           "normalized": "[Guarded a b c]-\u003eGuarded a b c",
@@ -4647,6 +4969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gex",
           "package": "tamarin-prover-theory",
@@ -4656,6 +4979,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gex",
           "normalized": "[a]-\u003e[Atom(VTerm b(BVar c))]-\u003eGuarded a b c-\u003eGuarded a b c",
@@ -4671,6 +4995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egfalse\u003c/code\u003e returns the guarded formula f with \u003ccode\u003eFalse \u003ca\u003e-\u003c/a\u003e f\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gfalse",
           "package": "tamarin-prover-theory",
@@ -4681,6 +5006,7 @@
         "index": {
           "description": "gfalse returns the guarded formula with False",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gfalse",
           "package": "tamarin-prover-theory",
@@ -4694,6 +5020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to prove the formula by applying induction over the trace.\n Returns \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e errMsg\u003c/code\u003e if this is not possible. Returns a tuple of\n formulas: one formalizing the proof obligation of the base-case and one\n formalizing the proof obligation of the step-case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "ginduct",
           "package": "tamarin-prover-theory",
@@ -4704,6 +5031,7 @@
         "index": {
           "description": "Try to prove the formula by applying induction over the trace Returns Left errMsg if this is not possible Returns tuple of formulas one formalizing the proof obligation of the base-case and one formalizing the proof obligation of the step-case",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "ginduct",
           "normalized": "LGuarded a-\u003eEither String(LGuarded a,LGuarded a)",
@@ -4719,6 +5047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate a guarded formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gnot",
           "package": "tamarin-prover-theory",
@@ -4729,6 +5058,7 @@
         "index": {
           "description": "Negate guarded formula",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gnot",
           "normalized": "Guarded a b c-\u003eGuarded a b c",
@@ -4744,6 +5074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egtrue\u003c/code\u003e returns the guarded formula f with \u003ccode\u003eTrue \u003ca\u003e-\u003c/a\u003e f\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gtrue",
           "package": "tamarin-prover-theory",
@@ -4754,6 +5085,7 @@
         "index": {
           "description": "gtrue returns the guarded formula with True",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "gtrue",
           "package": "tamarin-prover-theory",
@@ -4767,6 +5099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003ccode\u003e\u003ca\u003eFactTag\u003c/a\u003e\u003c/code\u003es that are used in guards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "guardFactTags",
           "package": "tamarin-prover-theory",
@@ -4777,6 +5110,7 @@
         "index": {
           "description": "All FactTag that are used in guards",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "guardFactTags",
           "normalized": "Guarded a b c-\u003e[FactTag]",
@@ -4792,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "isAllGuarded",
           "package": "tamarin-prover-theory",
@@ -4801,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "isAllGuarded",
           "normalized": "Guarded a b c-\u003eBool",
@@ -4816,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "isConjunction",
           "package": "tamarin-prover-theory",
@@ -4825,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "isConjunction",
           "normalized": "Guarded a b c-\u003eBool",
@@ -4840,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "isDisjunction",
           "package": "tamarin-prover-theory",
@@ -4849,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "isDisjunction",
           "normalized": "Guarded a b c-\u003eBool",
@@ -4864,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "isExGuarded",
           "package": "tamarin-prover-theory",
@@ -4873,6 +5214,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "isExGuarded",
           "normalized": "Guarded a b c-\u003eBool",
@@ -4889,6 +5231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the guarded formula is closed and does not contain an\n existential quantifier. This under-approximates the question whether the\n formula is a safety formula. A safety formula \u003ccode\u003ephi\u003c/code\u003e has the property that a\n trace violating it can never be extended to a trace satisfying it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "isSafetyFormula",
           "package": "tamarin-prover-theory",
@@ -4899,6 +5242,7 @@
         "index": {
           "description": "Check whether the guarded formula is closed and does not contain an existential quantifier This under-approximates the question whether the formula is safety formula safety formula phi has the property that trace violating it can never be extended to trace satisfying it",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "isSafetyFormula",
           "normalized": "Guarded a b c-\u003eBool",
@@ -4915,6 +5259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a guarded formula with scope info.\n The Integer argument denotes the number of\n quantifiers that have been encountered so far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "mapGuardedAtoms",
           "package": "tamarin-prover-theory",
@@ -4925,6 +5270,7 @@
         "index": {
           "description": "Map guarded formula with scope info The Integer argument denotes the number of quantifiers that have been encountered so far",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "mapGuardedAtoms",
           "normalized": "(Integer-\u003eAtom(VTerm a(BVar b))-\u003eAtom(VTerm c(BVar d)))-\u003eGuarded e a b-\u003eGuarded e c d",
@@ -4941,6 +5287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eopenGuarded gf\u003c/code\u003e returns \u003ccode\u003eJust (qua,vs,ats,gf')\u003c/code\u003e if \u003ccode\u003egf\u003c/code\u003e is a guarded\n clause and \u003ccode\u003eNothing\u003c/code\u003e otherwise. In the first case, \u003ccode\u003equa\u003c/code\u003e is the quantifier,\n \u003ccode\u003evs\u003c/code\u003e is a list of fresh variables, \u003ccode\u003eats\u003c/code\u003e is the antecedent, and \u003ccode\u003egf'\u003c/code\u003e is the\n succedent. In both antecedent and succedent, the bound variables are\n replaced by \u003ccode\u003evs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "openGuarded",
           "package": "tamarin-prover-theory",
@@ -4951,6 +5298,7 @@
         "index": {
           "description": "openGuarded gf returns Just qua vs ats gf if gf is guarded clause and Nothing otherwise In the first case qua is the quantifier vs is list of fresh variables ats is the antecedent and gf is the succedent In both antecedent and succedent the bound variables are replaced by vs",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "openGuarded",
           "normalized": "LGuarded a-\u003eb(Maybe(Quantifier,[LVar],[Atom(VTerm a LVar)],LGuarded a))",
@@ -4967,6 +5315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "prettyGuarded",
           "package": "tamarin-prover-theory",
@@ -4976,6 +5325,7 @@
         "index": {
           "description": "Pretty print formula",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "prettyGuarded",
           "normalized": "LNGuarded-\u003ea",
@@ -4992,6 +5342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplify a \u003ccode\u003e\u003ca\u003eGuarded\u003c/a\u003e\u003c/code\u003e formula by replacing atoms with their truth value,\n if it can be determined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "simplifyGuarded",
           "package": "tamarin-prover-theory",
@@ -5001,6 +5352,7 @@
         "index": {
           "description": "Simplify Guarded formula by replacing atoms with their truth value if it can be determined",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "simplifyGuarded",
           "normalized": "(LNAtom-\u003eMaybe Bool)-\u003eLNGuarded-\u003eMaybe LNGuarded",
@@ -5017,6 +5369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStable sort that ensures that actions occur before equations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "sortGAtoms",
           "package": "tamarin-prover-theory",
@@ -5027,6 +5380,7 @@
         "index": {
           "description": "Stable sort that ensures that actions occur before equations",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "sortGAtoms",
           "normalized": "[GAtom a]-\u003e[GAtom a]",
@@ -5043,6 +5397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esubstBound s gf\u003c/code\u003e substitutes each occurence of a bound\n variable \u003ccode\u003ei\u003c/code\u003e in \u003ccode\u003edom(s)\u003c/code\u003e with the corresponding free variable\n \u003ccode\u003es(i)=x\u003c/code\u003e in all atoms in \u003ccode\u003egf\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "substBound",
           "package": "tamarin-prover-theory",
@@ -5053,6 +5408,7 @@
         "index": {
           "description": "substBound gf substitutes each occurence of bound variable in dom with the corresponding free variable in all atoms in gf",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "substBound",
           "normalized": "[(Integer,LVar)]-\u003eLGuarded a-\u003eLGuarded a",
@@ -5069,6 +5425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esubstBoundAtom s a\u003c/code\u003e substitutes each occurence of a bound variables \u003ccode\u003ei\u003c/code\u003e\n in \u003ccode\u003edom(s)\u003c/code\u003e with the corresponding free variable \u003ccode\u003ex=s(i)\u003c/code\u003e in the atom \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "substBoundAtom",
           "package": "tamarin-prover-theory",
@@ -5079,6 +5436,7 @@
         "index": {
           "description": "substBoundAtom substitutes each occurence of bound variables in dom with the corresponding free variable in the atom",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "substBoundAtom",
           "normalized": "[(Integer,LVar)]-\u003eAtom(VTerm a(BVar LVar))-\u003eAtom(VTerm a(BVar LVar))",
@@ -5095,6 +5453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esubstFreeAtom s gf\u003c/code\u003e substitutes each occurence of a free variables\n \u003ccode\u003ev in dom(s)\u003c/code\u003e with the correpsonding bound variables \u003ccode\u003ei=s(v)\u003c/code\u003e\n in all atoms in  \u003ccode\u003egf\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "substFree",
           "package": "tamarin-prover-theory",
@@ -5105,6 +5464,7 @@
         "index": {
           "description": "substFreeAtom gf substitutes each occurence of free variables in dom with the correpsonding bound variables in all atoms in gf",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "substFree",
           "normalized": "[(LVar,Integer)]-\u003eLGuarded a-\u003eLGuarded a",
@@ -5121,6 +5481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esubstFreeAtom s a\u003c/code\u003e substitutes each occurence of a free variables \u003ccode\u003ev\u003c/code\u003e\n in \u003ccode\u003edom(s)\u003c/code\u003e with the bound variables \u003ccode\u003ei=s(v)\u003c/code\u003e in the atom \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System.Guarded",
           "name": "substFreeAtom",
           "package": "tamarin-prover-theory",
@@ -5131,6 +5492,7 @@
         "index": {
           "description": "substFreeAtom substitutes each occurence of free variables in dom with the bound variables in the atom",
           "hierarchy": "Theory Constraint System Guarded",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System.Guarded",
           "name": "substFreeAtom",
           "normalized": "[(LVar,Integer)]-\u003eAtom(VTerm a(BVar LVar))-\u003eAtom(VTerm a(BVar LVar))",
@@ -5147,6 +5509,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the public interface for constructing and deconstructing constraint\n systems. The interface for performing constraint solving provided by\n \u003ca\u003eTheory.Constraint.Solver\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "System",
           "package": "tamarin-prover-theory",
@@ -5156,6 +5519,7 @@
         "index": {
           "description": "This is the public interface for constructing and deconstructing constraint systems The interface for performing constraint solving provided by Theory.Constraint.Solver",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "System",
           "package": "tamarin-prover-theory",
@@ -5170,6 +5534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase dinstinction kind that are allowed. The order of the kinds\n corresponds to the subkinding relation: untyped \u003c typed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "CaseDistKind",
           "package": "tamarin-prover-theory",
@@ -5179,6 +5544,7 @@
         "index": {
           "description": "Case dinstinction kind that are allowed The order of the kinds corresponds to the subkinding relation untyped typed",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "CaseDistKind",
           "package": "tamarin-prover-theory",
@@ -5193,6 +5559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe status of a \u003ccode\u003e\u003ca\u003eGoal\u003c/a\u003e\u003c/code\u003e. Use its \u003ccode\u003eSemigroup\u003c/code\u003e instance to combine the\n status info of goals that collapse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "GoalStatus",
           "package": "tamarin-prover-theory",
@@ -5202,6 +5569,7 @@
         "index": {
           "description": "The status of Goal Use its Semigroup instance to combine the status info of goals that collapse",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "GoalStatus",
           "package": "tamarin-prover-theory",
@@ -5216,6 +5584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constraint system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "System",
           "package": "tamarin-prover-theory",
@@ -5225,6 +5594,7 @@
         "index": {
           "description": "constraint system",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "System",
           "package": "tamarin-prover-theory",
@@ -5239,6 +5609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether we are checking for the existence of a trace satisfiying a the\n current constraint system or whether we're checking that no traces\n satisfies the current constraint system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "SystemTraceQuantifier",
           "package": "tamarin-prover-theory",
@@ -5248,6 +5619,7 @@
         "index": {
           "description": "Whether we are checking for the existence of trace satisfiying the current constraint system or whether we re checking that no traces satisfies the current constraint system",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "SystemTraceQuantifier",
           "package": "tamarin-prover-theory",
@@ -5261,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "ExistsNoTrace",
           "package": "tamarin-prover-theory",
@@ -5270,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "ExistsNoTrace",
           "package": "tamarin-prover-theory",
@@ -5283,6 +5657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "ExistsSomeTrace",
           "package": "tamarin-prover-theory",
@@ -5292,6 +5667,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "ExistsSomeTrace",
           "package": "tamarin-prover-theory",
@@ -5305,6 +5681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "GoalStatus",
           "package": "tamarin-prover-theory",
@@ -5314,6 +5691,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "GoalStatus",
           "package": "tamarin-prover-theory",
@@ -5327,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "TypedCaseDist",
           "package": "tamarin-prover-theory",
@@ -5336,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "TypedCaseDist",
           "package": "tamarin-prover-theory",
@@ -5349,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "UntypedCaseDist",
           "package": "tamarin-prover-theory",
@@ -5358,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "UntypedCaseDist",
           "package": "tamarin-prover-theory",
@@ -5371,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "_gsLoopBreaker",
           "package": "tamarin-prover-theory",
@@ -5380,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "_gsLoopBreaker",
           "package": "tamarin-prover-theory",
@@ -5393,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "_gsNr",
           "package": "tamarin-prover-theory",
@@ -5402,6 +5787,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "_gsNr",
           "package": "tamarin-prover-theory",
@@ -5415,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "_gsSolved",
           "package": "tamarin-prover-theory",
@@ -5424,6 +5811,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "_gsSolved",
           "package": "tamarin-prover-theory",
@@ -5438,6 +5826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll actions that hold in a sequent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "allActions",
           "package": "tamarin-prover-theory",
@@ -5448,6 +5837,7 @@
         "index": {
           "description": "All actions that hold in sequent",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "allActions",
           "normalized": "System-\u003e[(NodeId,LNFact)]",
@@ -5464,6 +5854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of all KD-conclusions in the \u003ccode\u003e\u003ca\u003eSystem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "allKDConcs",
           "package": "tamarin-prover-theory",
@@ -5474,6 +5865,7 @@
         "index": {
           "description": "list of all KD-conclusions in the System",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "allKDConcs",
           "normalized": "System-\u003e[(NodeId,RuleACInst,LNTerm)]",
@@ -5490,6 +5882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll actions that hold in a sequent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "allKUActions",
           "package": "tamarin-prover-theory",
@@ -5500,6 +5893,7 @@
         "index": {
           "description": "All actions that hold in sequent",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "allKUActions",
           "normalized": "System-\u003e[(NodeId,LNFact,LNTerm)]",
@@ -5516,6 +5910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a predicate that is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the first argument happens before\n the second argument in all models of the sequent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "alwaysBefore",
           "package": "tamarin-prover-theory",
@@ -5526,6 +5921,7 @@
         "index": {
           "description": "Returns predicate that is True iff the first argument happens before the second argument in all models of the sequent",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "alwaysBefore",
           "normalized": "System-\u003eNodeId-\u003eNodeId-\u003eBool",
@@ -5542,6 +5938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty constraint system, which is logically equivalent to true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "emptySystem",
           "package": "tamarin-prover-theory",
@@ -5552,6 +5949,7 @@
         "index": {
           "description": "The empty constraint system which is logically equivalent to true",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "emptySystem",
           "normalized": "CaseDistKind-\u003eSystem",
@@ -5568,6 +5966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the constraint system that has to be proven to show that given\n formula holds in the context of the given theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "formulaToSystem",
           "package": "tamarin-prover-theory",
@@ -5577,6 +5976,7 @@
         "index": {
           "description": "Returns the constraint system that has to be proven to show that given formula holds in the context of the given theory",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "formulaToSystem",
           "normalized": "[LNGuarded]-\u003eCaseDistKind-\u003eSystemTraceQuantifier-\u003eLNFormula-\u003eSystem",
@@ -5592,6 +5992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "gsLoopBreaker",
           "package": "tamarin-prover-theory",
@@ -5601,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "gsLoopBreaker",
           "package": "tamarin-prover-theory",
@@ -5614,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "gsNr",
           "package": "tamarin-prover-theory",
@@ -5623,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "gsNr",
           "package": "tamarin-prover-theory",
@@ -5636,6 +6040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "gsSolved",
           "package": "tamarin-prover-theory",
@@ -5645,6 +6050,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "gsSolved",
           "package": "tamarin-prover-theory",
@@ -5659,6 +6065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd lemmas / additional assumptions to a constraint system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "insertLemmas",
           "package": "tamarin-prover-theory",
@@ -5669,6 +6076,7 @@
         "index": {
           "description": "Add lemmas additional assumptions to constraint system",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "insertLemmas",
           "normalized": "[LNGuarded]-\u003eSystem-\u003eSystem",
@@ -5685,6 +6093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the given node id is guaranteed to be instantiated to an\n index in the trace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "isInTrace",
           "package": "tamarin-prover-theory",
@@ -5695,6 +6104,7 @@
         "index": {
           "description": "True iff the given node id is guaranteed to be instantiated to an index in the trace",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "isInTrace",
           "normalized": "System-\u003eNodeId-\u003eBool",
@@ -5711,6 +6121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the given node id is guaranteed to be instantiated to the last\n index of the trace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "isLast",
           "package": "tamarin-prover-theory",
@@ -5721,6 +6132,7 @@
         "index": {
           "description": "True iff the given node id is guaranteed to be instantiated to the last index of the trace",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "isLast",
           "normalized": "System-\u003eNodeId-\u003eBool",
@@ -5737,6 +6149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll KU-actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "kuActionAtoms",
           "package": "tamarin-prover-theory",
@@ -5747,6 +6160,7 @@
         "index": {
           "description": "All KU-actions",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "kuActionAtoms",
           "normalized": "System-\u003e[(NodeId,LNFact,LNTerm)]",
@@ -5763,6 +6177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enodeConcFact (NodeConc (v, i))\u003c/code\u003e accesses the \u003ccode\u003ei\u003c/code\u003e-th conclusion of the\n rule associated with node \u003ccode\u003ev\u003c/code\u003e under the assumption that \u003ccode\u003ev\u003c/code\u003e is labeled with\n a rule that has an \u003ccode\u003ei\u003c/code\u003e-th conclusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "nodeConcFact",
           "package": "tamarin-prover-theory",
@@ -5773,6 +6188,7 @@
         "index": {
           "description": "nodeConcFact NodeConc accesses the th conclusion of the rule associated with node under the assumption that is labeled with rule that has an th conclusion",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "nodeConcFact",
           "normalized": "NodeConc-\u003eSystem-\u003eLNFact",
@@ -5789,6 +6205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003enodeConcNode\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec\u003c/code\u003e compute the node-id of the node conclusion \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "nodeConcNode",
           "package": "tamarin-prover-theory",
@@ -5799,6 +6216,7 @@
         "index": {
           "description": "nodeConcNode compute the node-id of the node conclusion",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "nodeConcNode",
           "normalized": "NodeConc-\u003eNodeId",
@@ -5815,6 +6233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enodePremFact prem se\u003c/code\u003e computes the fact associated to premise \u003ccode\u003eprem\u003c/code\u003e in\n sequent \u003ccode\u003ese\u003c/code\u003e under the assumption that premise \u003ccode\u003eprem\u003c/code\u003e is a a premise in\n \u003ccode\u003ese\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "nodePremFact",
           "package": "tamarin-prover-theory",
@@ -5825,6 +6244,7 @@
         "index": {
           "description": "nodePremFact prem se computes the fact associated to premise prem in sequent se under the assumption that premise prem is premise in se",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "nodePremFact",
           "normalized": "NodePrem-\u003eSystem-\u003eLNFact",
@@ -5841,6 +6261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enodePremNode prem\u003c/code\u003e is the node that this premise is referring to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "nodePremNode",
           "package": "tamarin-prover-theory",
@@ -5851,6 +6272,7 @@
         "index": {
           "description": "nodePremNode prem is the node that this premise is referring to",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "nodePremNode",
           "normalized": "NodePrem-\u003eNodeId",
@@ -5867,6 +6289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enodeRule v\u003c/code\u003e accesses the rule label of node \u003ccode\u003ev\u003c/code\u003e under the assumption that\n it is present in the sequent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "nodeRule",
           "package": "tamarin-prover-theory",
@@ -5877,6 +6300,7 @@
         "index": {
           "description": "nodeRule accesses the rule label of node under the assumption that it is present in the sequent",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "nodeRule",
           "normalized": "NodeId-\u003eSystem-\u003eRuleACInst",
@@ -5893,6 +6317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print the non-graph part of the sequent; i.e. equation store and\n clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "prettyNonGraphSystem",
           "package": "tamarin-prover-theory",
@@ -5903,6 +6328,7 @@
         "index": {
           "description": "Pretty print the non-graph part of the sequent i.e equation store and clauses",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "prettyNonGraphSystem",
           "normalized": "System-\u003ea",
@@ -5919,6 +6345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a sequent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "prettySystem",
           "package": "tamarin-prover-theory",
@@ -5929,6 +6356,7 @@
         "index": {
           "description": "Pretty print sequent",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "prettySystem",
           "normalized": "System-\u003ea",
@@ -5945,6 +6373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(from,to)\u003c/code\u003e is in \u003ccode\u003erawEdgeRel se\u003c/code\u003e iff we can prove that there is an\n edge-path from \u003ccode\u003efrom\u003c/code\u003e to \u003ccode\u003eto\u003c/code\u003e in \u003ccode\u003ese\u003c/code\u003e without appealing to transitivity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "rawEdgeRel",
           "package": "tamarin-prover-theory",
@@ -5955,6 +6384,7 @@
         "index": {
           "description": "from to is in rawEdgeRel se iff we can prove that there is an edge-path from from to to in se without appealing to transitivity",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "rawEdgeRel",
           "normalized": "System-\u003e[(NodeId,NodeId)]",
@@ -5971,6 +6401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(from,to)\u003c/code\u003e is in \u003ccode\u003erawLessRel se\u003c/code\u003e iff we can prove that there is a path\n (possibly using the \u003ccode\u003e\u003ca\u003eLess\u003c/a\u003e\u003c/code\u003e relation) from \u003ccode\u003efrom\u003c/code\u003e to \u003ccode\u003eto\u003c/code\u003e in \u003ccode\u003ese\u003c/code\u003e without\n appealing to transitivity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "rawLessRel",
           "package": "tamarin-prover-theory",
@@ -5981,6 +6412,7 @@
         "index": {
           "description": "from to is in rawLessRel se iff we can prove that there is path possibly using the Less relation from from to to in se without appealing to transitivity",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "rawLessRel",
           "normalized": "System-\u003e[(NodeId,NodeId)]",
@@ -5997,6 +6429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fact associated with this node conclusion, if there is one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "resolveNodeConcFact",
           "package": "tamarin-prover-theory",
@@ -6007,6 +6440,7 @@
         "index": {
           "description": "The fact associated with this node conclusion if there is one",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "resolveNodeConcFact",
           "normalized": "NodeConc-\u003eSystem-\u003eMaybe LNFact",
@@ -6023,6 +6457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll facts associated to this node premise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "resolveNodePremFact",
           "package": "tamarin-prover-theory",
@@ -6033,6 +6468,7 @@
         "index": {
           "description": "All facts associated to this node premise",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "resolveNodePremFact",
           "normalized": "NodePrem-\u003eSystem-\u003eMaybe LNFact",
@@ -6048,6 +6484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sCaseDistKind",
           "package": "tamarin-prover-theory",
@@ -6057,6 +6494,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sCaseDistKind",
           "package": "tamarin-prover-theory",
@@ -6071,6 +6509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel to access the conjunction of disjunctions of fresh substutitution in\n the equation store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sConjDisjEqs",
           "package": "tamarin-prover-theory",
@@ -6081,6 +6520,7 @@
         "index": {
           "description": "Label to access the conjunction of disjunctions of fresh substutitution in the equation store",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sConjDisjEqs",
           "normalized": "System-\u003eConj(SplitId,Set LNSubstVFresh)",
@@ -6096,6 +6536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sEdges",
           "package": "tamarin-prover-theory",
@@ -6105,6 +6546,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sEdges",
           "package": "tamarin-prover-theory",
@@ -6118,6 +6560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sEqStore",
           "package": "tamarin-prover-theory",
@@ -6127,6 +6570,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sEqStore",
           "package": "tamarin-prover-theory",
@@ -6140,6 +6584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sFormulas",
           "package": "tamarin-prover-theory",
@@ -6149,6 +6594,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sFormulas",
           "package": "tamarin-prover-theory",
@@ -6162,6 +6608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sGoals",
           "package": "tamarin-prover-theory",
@@ -6171,6 +6618,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sGoals",
           "package": "tamarin-prover-theory",
@@ -6184,6 +6632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sLastAtom",
           "package": "tamarin-prover-theory",
@@ -6193,6 +6642,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sLastAtom",
           "package": "tamarin-prover-theory",
@@ -6206,6 +6656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sLemmas",
           "package": "tamarin-prover-theory",
@@ -6215,6 +6666,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sLemmas",
           "package": "tamarin-prover-theory",
@@ -6228,6 +6680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sLessAtoms",
           "package": "tamarin-prover-theory",
@@ -6237,6 +6690,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sLessAtoms",
           "normalized": "Lens a System(Set(NodeId,NodeId))",
@@ -6252,6 +6706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sNextGoalNr",
           "package": "tamarin-prover-theory",
@@ -6261,6 +6716,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sNextGoalNr",
           "package": "tamarin-prover-theory",
@@ -6274,6 +6730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sNodes",
           "package": "tamarin-prover-theory",
@@ -6283,6 +6740,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sNodes",
           "package": "tamarin-prover-theory",
@@ -6296,6 +6754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sSolvedFormulas",
           "package": "tamarin-prover-theory",
@@ -6305,6 +6764,7 @@
         },
         "index": {
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sSolvedFormulas",
           "package": "tamarin-prover-theory",
@@ -6319,6 +6779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel to access the free substitution of the equation store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "sSubst",
           "package": "tamarin-prover-theory",
@@ -6329,6 +6790,7 @@
         "index": {
           "description": "Label to access the free substitution of the equation store",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "sSubst",
           "normalized": "System-\u003eLNSubst",
@@ -6345,6 +6807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard actions, i.e., non-KU-actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "standardActionAtoms",
           "package": "tamarin-prover-theory",
@@ -6355,6 +6818,7 @@
         "index": {
           "description": "The standard actions i.e non-KU-actions",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "standardActionAtoms",
           "normalized": "System-\u003e[(NodeId,LNFact)]",
@@ -6371,6 +6835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll actions that hold in a sequent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "unsolvedActionAtoms",
           "package": "tamarin-prover-theory",
@@ -6381,6 +6846,7 @@
         "index": {
           "description": "All actions that hold in sequent",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "unsolvedActionAtoms",
           "normalized": "System-\u003e[(NodeId,LNFact)]",
@@ -6397,6 +6863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll unsolved destruction chains in the constraint system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Constraint.System",
           "name": "unsolvedChains",
           "package": "tamarin-prover-theory",
@@ -6407,6 +6874,7 @@
         "index": {
           "description": "All unsolved destruction chains in the constraint system",
           "hierarchy": "Theory Constraint System",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Constraint.System",
           "name": "unsolvedChains",
           "normalized": "System-\u003e[(NodeConc,NodePrem)]",
@@ -6423,6 +6891,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormulas that represent security properties.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "Atom",
           "package": "tamarin-prover-theory",
@@ -6432,6 +6901,7 @@
         "index": {
           "description": "Formulas that represent security properties",
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "Atom",
           "package": "tamarin-prover-theory",
@@ -6446,6 +6916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eAtom\u003c/code\u003e's are the atoms of trace formulas parametrized over arbitrary\n terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "Atom",
           "package": "tamarin-prover-theory",
@@ -6455,6 +6926,7 @@
         "index": {
           "description": "Atom are the atoms of trace formulas parametrized over arbitrary terms",
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "Atom",
           "package": "tamarin-prover-theory",
@@ -6469,6 +6941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtoms built over \u003ccode\u003e\u003ca\u003eBLTerm\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "BLAtom",
           "package": "tamarin-prover-theory",
@@ -6478,6 +6951,7 @@
         "index": {
           "description": "Atoms built over BLTerm",
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "BLAtom",
           "package": "tamarin-prover-theory",
@@ -6492,6 +6966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLAtom\u003c/code\u003e are the atoms we actually use in graph formulas input by the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "LNAtom",
           "package": "tamarin-prover-theory",
@@ -6501,6 +6976,7 @@
         "index": {
           "description": "LAtom are the atoms we actually use in graph formulas input by the user",
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "LNAtom",
           "package": "tamarin-prover-theory",
@@ -6515,6 +6991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLAtom\u003c/code\u003e are the atoms we actually use in graph formulas input by the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "NAtom",
           "package": "tamarin-prover-theory",
@@ -6524,6 +7001,7 @@
         "index": {
           "description": "LAtom are the atoms we actually use in graph formulas input by the user",
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "NAtom",
           "package": "tamarin-prover-theory",
@@ -6537,6 +7015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "Action",
           "package": "tamarin-prover-theory",
@@ -6546,6 +7025,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "Action",
           "package": "tamarin-prover-theory",
@@ -6559,6 +7039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "EqE",
           "package": "tamarin-prover-theory",
@@ -6568,6 +7049,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "EqE",
           "package": "tamarin-prover-theory",
@@ -6581,6 +7063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "Last",
           "package": "tamarin-prover-theory",
@@ -6590,6 +7073,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "Last",
           "package": "tamarin-prover-theory",
@@ -6603,6 +7087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "Less",
           "package": "tamarin-prover-theory",
@@ -6612,6 +7097,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "Less",
           "package": "tamarin-prover-theory",
@@ -6626,6 +7112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the atom is an action atom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "isActionAtom",
           "package": "tamarin-prover-theory",
@@ -6636,6 +7123,7 @@
         "index": {
           "description": "True iff the atom is an action atom",
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "isActionAtom",
           "normalized": "Atom a-\u003eBool",
@@ -6652,6 +7140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the atom is an equality atom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "isEqAtom",
           "package": "tamarin-prover-theory",
@@ -6662,6 +7151,7 @@
         "index": {
           "description": "True iff the atom is an equality atom",
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "isEqAtom",
           "normalized": "Atom a-\u003eBool",
@@ -6678,6 +7168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the atom is a last atom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "isLastAtom",
           "package": "tamarin-prover-theory",
@@ -6688,6 +7179,7 @@
         "index": {
           "description": "True iff the atom is last atom",
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "isLastAtom",
           "normalized": "Atom a-\u003eBool",
@@ -6704,6 +7196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the atom is a temporal ordering atom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "isLessAtom",
           "package": "tamarin-prover-theory",
@@ -6714,6 +7207,7 @@
         "index": {
           "description": "True iff the atom is temporal ordering atom",
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "isLessAtom",
           "normalized": "Atom a-\u003eBool",
@@ -6729,6 +7223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Atom",
           "name": "prettyNAtom",
           "package": "tamarin-prover-theory",
@@ -6738,6 +7233,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Atom",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Atom",
           "name": "prettyNAtom",
           "normalized": "NAtom a-\u003eb",
@@ -6754,6 +7250,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFacts used to formulate and reason about protocol execution.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "Fact",
           "package": "tamarin-prover-theory",
@@ -6763,6 +7260,7 @@
         "index": {
           "description": "Facts used to formulate and reason about protocol execution",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "Fact",
           "package": "tamarin-prover-theory",
@@ -6777,6 +7275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA direction tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "DirTag",
           "package": "tamarin-prover-theory",
@@ -6786,6 +7285,7 @@
         "index": {
           "description": "direction tag",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "DirTag",
           "package": "tamarin-prover-theory",
@@ -6800,6 +7300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFacts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "Fact",
           "package": "tamarin-prover-theory",
@@ -6809,6 +7310,7 @@
         "index": {
           "description": "Facts",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "Fact",
           "package": "tamarin-prover-theory",
@@ -6823,6 +7325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFact tags/symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "FactTag",
           "package": "tamarin-prover-theory",
@@ -6832,6 +7335,7 @@
         "index": {
           "description": "Fact tags symbols",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "FactTag",
           "package": "tamarin-prover-theory",
@@ -6846,6 +7350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFacts with literals arbitrary constants and logical variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "LFact",
           "package": "tamarin-prover-theory",
@@ -6855,6 +7360,7 @@
         "index": {
           "description": "Facts with literals arbitrary constants and logical variables",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "LFact",
           "package": "tamarin-prover-theory",
@@ -6869,6 +7375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFacts used for proving; i.e. variables fixed to logical variables\n and constant fixed to names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "LNFact",
           "package": "tamarin-prover-theory",
@@ -6878,6 +7385,7 @@
         "index": {
           "description": "Facts used for proving i.e variables fixed to logical variables and constant fixed to names",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "LNFact",
           "package": "tamarin-prover-theory",
@@ -6891,6 +7399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "Multiplicity",
           "package": "tamarin-prover-theory",
@@ -6899,6 +7408,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "Multiplicity",
           "package": "tamarin-prover-theory",
@@ -6913,6 +7423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFacts with literals containing names and arbitrary variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "NFact",
           "package": "tamarin-prover-theory",
@@ -6922,6 +7433,7 @@
         "index": {
           "description": "Facts with literals containing names and arbitrary variables",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "NFact",
           "package": "tamarin-prover-theory",
@@ -6936,6 +7448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog-fact denoting that the intruder deduced\n a message using a construction rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "DedFact",
           "package": "tamarin-prover-theory",
@@ -6946,6 +7459,7 @@
         "index": {
           "description": "Log-fact denoting that the intruder deduced message using construction rule",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "DedFact",
           "package": "tamarin-prover-theory",
@@ -6959,6 +7473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "DnK",
           "package": "tamarin-prover-theory",
@@ -6968,6 +7483,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "DnK",
           "package": "tamarin-prover-theory",
@@ -6981,6 +7497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "Fact",
           "package": "tamarin-prover-theory",
@@ -6990,6 +7507,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "Fact",
           "package": "tamarin-prover-theory",
@@ -7004,6 +7522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFreshly generated value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "FreshFact",
           "package": "tamarin-prover-theory",
@@ -7014,6 +7533,7 @@
         "index": {
           "description": "Freshly generated value",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "FreshFact",
           "package": "tamarin-prover-theory",
@@ -7028,6 +7548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOfficially known by the intruder/network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "InFact",
           "package": "tamarin-prover-theory",
@@ -7038,6 +7559,7 @@
         "index": {
           "description": "Officially known by the intruder network",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "InFact",
           "package": "tamarin-prover-theory",
@@ -7052,6 +7574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDown-knowledge fact in message deduction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "KDFact",
           "package": "tamarin-prover-theory",
@@ -7062,6 +7585,7 @@
         "index": {
           "description": "Down-knowledge fact in message deduction",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "KDFact",
           "package": "tamarin-prover-theory",
@@ -7076,6 +7600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUp-knowledge fact in messsage deduction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "KUFact",
           "package": "tamarin-prover-theory",
@@ -7086,6 +7611,7 @@
         "index": {
           "description": "Up-knowledge fact in messsage deduction",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "KUFact",
           "package": "tamarin-prover-theory",
@@ -7099,6 +7625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "Linear",
           "package": "tamarin-prover-theory",
@@ -7108,6 +7635,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "Linear",
           "package": "tamarin-prover-theory",
@@ -7122,6 +7650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the protocol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "OutFact",
           "package": "tamarin-prover-theory",
@@ -7132,6 +7661,7 @@
         "index": {
           "description": "Sent by the protocol",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "OutFact",
           "package": "tamarin-prover-theory",
@@ -7145,6 +7675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "Persistent",
           "package": "tamarin-prover-theory",
@@ -7154,6 +7685,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "Persistent",
           "package": "tamarin-prover-theory",
@@ -7168,6 +7700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA protocol fact together with its arity and multiplicity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "ProtoFact",
           "package": "tamarin-prover-theory",
@@ -7178,6 +7711,7 @@
         "index": {
           "description": "protocol fact together with its arity and multiplicity",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "ProtoFact",
           "package": "tamarin-prover-theory",
@@ -7191,6 +7725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "UpK",
           "package": "tamarin-prover-theory",
@@ -7200,6 +7735,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "UpK",
           "package": "tamarin-prover-theory",
@@ -7214,6 +7750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView a deduction logging fact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "dedFactView",
           "package": "tamarin-prover-theory",
@@ -7224,6 +7761,7 @@
         "index": {
           "description": "View deduction logging fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "dedFactView",
           "normalized": "LNFact-\u003eMaybe LNTerm",
@@ -7240,6 +7778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fact logging that the intruder deduced a message using a construction\n rule. We use this to formulate invariants over normal dependency graphs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "dedLogFact",
           "package": "tamarin-prover-theory",
@@ -7250,6 +7789,7 @@
         "index": {
           "description": "fact logging that the intruder deduced message using construction rule We use this to formulate invariants over normal dependency graphs",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "dedLogFact",
           "normalized": "a-\u003eFact a",
@@ -7266,6 +7806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arity of a \u003ccode\u003e\u003ca\u003eFact\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "factArity",
           "package": "tamarin-prover-theory",
@@ -7276,6 +7817,7 @@
         "index": {
           "description": "The arity of Fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "factArity",
           "normalized": "Fact a-\u003eInt",
@@ -7292,6 +7834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe multiplicity of a \u003ccode\u003e\u003ca\u003eFact\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "factMultiplicity",
           "package": "tamarin-prover-theory",
@@ -7302,6 +7845,7 @@
         "index": {
           "description": "The multiplicity of Fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "factMultiplicity",
           "normalized": "Fact a-\u003eMultiplicity",
@@ -7317,6 +7861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "factTag",
           "package": "tamarin-prover-theory",
@@ -7326,6 +7871,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "factTag",
           "package": "tamarin-prover-theory",
@@ -7340,6 +7886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arity of a \u003ccode\u003e\u003ca\u003eFactTag\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "factTagArity",
           "package": "tamarin-prover-theory",
@@ -7350,6 +7897,7 @@
         "index": {
           "description": "The arity of FactTag",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "factTagArity",
           "normalized": "FactTag-\u003eInt",
@@ -7366,6 +7914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe multiplicity of a \u003ccode\u003e\u003ca\u003eFactTag\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "factTagMultiplicity",
           "package": "tamarin-prover-theory",
@@ -7376,6 +7925,7 @@
         "index": {
           "description": "The multiplicity of FactTag",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "factTagMultiplicity",
           "normalized": "FactTag-\u003eMultiplicity",
@@ -7392,6 +7942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a fact tag, e.g., \u003ccode\u003efactTagName KUFact = \u003ca\u003eKU\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "factTagName",
           "package": "tamarin-prover-theory",
@@ -7402,6 +7953,7 @@
         "index": {
           "description": "The name of fact tag e.g factTagName KUFact KU",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "factTagName",
           "normalized": "FactTag-\u003eString",
@@ -7417,6 +7969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "factTerms",
           "package": "tamarin-prover-theory",
@@ -7426,6 +7979,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "factTerms",
           "normalized": "[a]",
@@ -7442,6 +7996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fresh fact denotes a fresh unguessable name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "freshFact",
           "package": "tamarin-prover-theory",
@@ -7452,6 +8007,7 @@
         "index": {
           "description": "fresh fact denotes fresh unguessable name",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "freshFact",
           "normalized": "a-\u003eFact a",
@@ -7468,6 +8024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fact denoting that the intruder sent a message to the protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "inFact",
           "package": "tamarin-prover-theory",
@@ -7478,6 +8035,7 @@
         "index": {
           "description": "fact denoting that the intruder sent message to the protocol",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "inFact",
           "normalized": "a-\u003eFact a",
@@ -7494,6 +8052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the fact is a KD-fact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "isKDFact",
           "package": "tamarin-prover-theory",
@@ -7504,6 +8063,7 @@
         "index": {
           "description": "True if the fact is KD-fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "isKDFact",
           "normalized": "LNFact-\u003eBool",
@@ -7520,6 +8080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the fact is a message-deduction fact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "isKFact",
           "package": "tamarin-prover-theory",
@@ -7530,6 +8091,7 @@
         "index": {
           "description": "True if the fact is message-deduction fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "isKFact",
           "normalized": "LNFact-\u003eBool",
@@ -7546,6 +8108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the fact is a KU-fact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "isKUFact",
           "package": "tamarin-prover-theory",
@@ -7556,6 +8119,7 @@
         "index": {
           "description": "True if the fact is KU-fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "isKUFact",
           "normalized": "LNFact-\u003eBool",
@@ -7572,6 +8136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the fact is a linear fact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "isLinearFact",
           "package": "tamarin-prover-theory",
@@ -7582,6 +8147,7 @@
         "index": {
           "description": "True if the fact is linear fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "isLinearFact",
           "normalized": "Fact a-\u003eBool",
@@ -7598,6 +8164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the fact is a persistent fact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "isPersistentFact",
           "package": "tamarin-prover-theory",
@@ -7608,6 +8175,7 @@
         "index": {
           "description": "True if the fact is persistent fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "isPersistentFact",
           "normalized": "Fact a-\u003eBool",
@@ -7624,6 +8192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the fact is a non-special protocol fact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "isProtoFact",
           "package": "tamarin-prover-theory",
@@ -7634,6 +8203,7 @@
         "index": {
           "description": "True iff the fact is non-special protocol fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "isProtoFact",
           "normalized": "Fact a-\u003eBool",
@@ -7650,6 +8220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView a message-deduction fact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "kFactView",
           "package": "tamarin-prover-theory",
@@ -7660,6 +8231,7 @@
         "index": {
           "description": "View message-deduction fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "kFactView",
           "normalized": "LNFact-\u003eMaybe(DirTag,LNTerm)",
@@ -7676,6 +8248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fact logging that the intruder knows a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "kLogFact",
           "package": "tamarin-prover-theory",
@@ -7686,6 +8259,7 @@
         "index": {
           "description": "fact logging that the intruder knows message",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "kLogFact",
           "normalized": "a-\u003eFact a",
@@ -7701,6 +8275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "kdFact",
           "package": "tamarin-prover-theory",
@@ -7710,6 +8285,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "kdFact",
           "normalized": "a-\u003eFact a",
@@ -7725,6 +8301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "kuFact",
           "package": "tamarin-prover-theory",
@@ -7734,6 +8311,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "kuFact",
           "normalized": "a-\u003eFact a",
@@ -7750,6 +8328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ematchLFact t p\u003c/code\u003e is a complete set of AC matchers for the term fact \u003ccode\u003et\u003c/code\u003e\n and the pattern fact \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "matchFact",
           "package": "tamarin-prover-theory",
@@ -7759,6 +8338,7 @@
         "index": {
           "description": "matchLFact is complete set of AC matchers for the term fact and the pattern fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "matchFact",
           "normalized": "Fact a-\u003eFact a-\u003eMatch a",
@@ -7775,6 +8355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fact denoting a message sent by the protocol to the intruder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "outFact",
           "package": "tamarin-prover-theory",
@@ -7785,6 +8366,7 @@
         "index": {
           "description": "fact denoting message sent by the protocol to the intruder",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "outFact",
           "normalized": "a-\u003eFact a",
@@ -7801,6 +8383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a fact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "prettyFact",
           "package": "tamarin-prover-theory",
@@ -7811,6 +8394,7 @@
         "index": {
           "description": "Pretty print fact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "prettyFact",
           "normalized": "(a-\u003eb)-\u003eFact a-\u003eb",
@@ -7827,6 +8411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a \u003ccode\u003e\u003ca\u003eLFact\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "prettyLNFact",
           "package": "tamarin-prover-theory",
@@ -7837,6 +8422,7 @@
         "index": {
           "description": "Pretty print LFact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "prettyLNFact",
           "normalized": "LNFact-\u003ea",
@@ -7853,6 +8439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a \u003ccode\u003e\u003ca\u003eNFact\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "prettyNFact",
           "package": "tamarin-prover-theory",
@@ -7863,6 +8450,7 @@
         "index": {
           "description": "Pretty print NFact",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "prettyNFact",
           "normalized": "LNFact-\u003ea",
@@ -7879,6 +8467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA protocol fact denotes a fact generated by a protocol rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "protoFact",
           "package": "tamarin-prover-theory",
@@ -7889,6 +8478,7 @@
         "index": {
           "description": "protocol fact denotes fact generated by protocol rule",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "protoFact",
           "normalized": "Multiplicity-\u003eString-\u003e[a]-\u003eFact a",
@@ -7905,6 +8495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a fact tag as a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e. This is the \u003ccode\u003e\u003ca\u003efactTagName\u003c/a\u003e\u003c/code\u003e prefixed with\n the multiplicity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "showFactTag",
           "package": "tamarin-prover-theory",
@@ -7915,6 +8506,7 @@
         "index": {
           "description": "Show fact tag as String This is the factTagName prefixed with the multiplicity",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "showFactTag",
           "normalized": "FactTag-\u003eString",
@@ -7931,6 +8523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a fact tag together with its aritiy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "showFactTagArity",
           "package": "tamarin-prover-theory",
@@ -7941,6 +8534,7 @@
         "index": {
           "description": "Show fact tag together with its aritiy",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "showFactTagArity",
           "normalized": "FactTag-\u003eString",
@@ -7957,6 +8551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the two facts are unifiable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "unifiableLNFacts",
           "package": "tamarin-prover-theory",
@@ -7967,6 +8562,7 @@
         "index": {
           "description": "True iff the two facts are unifiable",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "unifiableLNFacts",
           "normalized": "LNFact-\u003eLNFact-\u003eWithMaude Bool",
@@ -7983,6 +8579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnify a list of \u003ccode\u003eLFact\u003c/code\u003e equalities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Fact",
           "name": "unifyLNFactEqs",
           "package": "tamarin-prover-theory",
@@ -7993,6 +8590,7 @@
         "index": {
           "description": "Unify list of LFact equalities",
           "hierarchy": "Theory Model Fact",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Fact",
           "name": "unifyLNFactEqs",
           "normalized": "[Equal LNFact]-\u003eWithMaude[LNSubstVFresh]",
@@ -8009,6 +8607,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and operations for handling sorted first-order logic\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Formula",
           "package": "tamarin-prover-theory",
@@ -8018,6 +8617,7 @@
         "index": {
           "description": "Types and operations for handling sorted first-order logic",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Formula",
           "package": "tamarin-prover-theory",
@@ -8032,6 +8632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical connectives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Connective",
           "package": "tamarin-prover-theory",
@@ -8041,6 +8642,7 @@
         "index": {
           "description": "Logical connectives",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Connective",
           "package": "tamarin-prover-theory",
@@ -8055,6 +8657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst-order formulas in locally nameless representation with hints for the\n names/sorts of quantified variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Formula",
           "package": "tamarin-prover-theory",
@@ -8064,6 +8667,7 @@
         "index": {
           "description": "First-order formulas in locally nameless representation with hints for the names sorts of quantified variables",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Formula",
           "package": "tamarin-prover-theory",
@@ -8078,6 +8682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLFormula\u003c/code\u003e are FOL formulas with sorts abused to denote both a hint for\n the name of the bound variable, as well as the variable's actual sort.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "LFormula",
           "package": "tamarin-prover-theory",
@@ -8087,6 +8692,7 @@
         "index": {
           "description": "LFormula are FOL formulas with sorts abused to denote both hint for the name of the bound variable as well as the variable actual sort",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "LFormula",
           "package": "tamarin-prover-theory",
@@ -8100,6 +8706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "LNFormula",
           "package": "tamarin-prover-theory",
@@ -8108,6 +8715,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "LNFormula",
           "package": "tamarin-prover-theory",
@@ -8122,6 +8730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuantifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Quantifier",
           "package": "tamarin-prover-theory",
@@ -8131,6 +8740,7 @@
         "index": {
           "description": "Quantifiers",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Quantifier",
           "package": "tamarin-prover-theory",
@@ -8144,6 +8754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "(.||.)",
           "package": "tamarin-prover-theory",
@@ -8153,6 +8764,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "(.||.) .||.",
           "normalized": "Formula a b c-\u003eFormula a b c-\u003eFormula a b c",
@@ -8167,6 +8779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "(.&&.)",
           "package": "tamarin-prover-theory",
@@ -8176,6 +8789,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "(.&&.) .&&.",
           "normalized": "Formula a b c-\u003eFormula a b c-\u003eFormula a b c",
@@ -8190,6 +8804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "(.\u003c=\u003e.)",
           "package": "tamarin-prover-theory",
@@ -8199,6 +8814,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "(.\u003c=\u003e.) .\u003c=\u003e.",
           "normalized": "Formula a b c-\u003eFormula a b c-\u003eFormula a b c",
@@ -8213,6 +8829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "(.==\u003e.)",
           "package": "tamarin-prover-theory",
@@ -8222,6 +8839,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "(.==\u003e.) .==\u003e.",
           "normalized": "Formula a b c-\u003eFormula a b c-\u003eFormula a b c",
@@ -8236,6 +8854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "All",
           "package": "tamarin-prover-theory",
@@ -8245,6 +8864,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "All",
           "package": "tamarin-prover-theory",
@@ -8258,6 +8878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "And",
           "package": "tamarin-prover-theory",
@@ -8267,6 +8888,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "And",
           "package": "tamarin-prover-theory",
@@ -8280,6 +8902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Ato",
           "package": "tamarin-prover-theory",
@@ -8289,6 +8912,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Ato",
           "package": "tamarin-prover-theory",
@@ -8302,6 +8926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Conn",
           "package": "tamarin-prover-theory",
@@ -8311,6 +8936,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Conn",
           "package": "tamarin-prover-theory",
@@ -8324,6 +8950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Ex",
           "package": "tamarin-prover-theory",
@@ -8333,6 +8960,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Ex",
           "package": "tamarin-prover-theory",
@@ -8346,6 +8974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Iff",
           "package": "tamarin-prover-theory",
@@ -8355,6 +8984,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Iff",
           "package": "tamarin-prover-theory",
@@ -8368,6 +8998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Imp",
           "package": "tamarin-prover-theory",
@@ -8377,6 +9008,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Imp",
           "package": "tamarin-prover-theory",
@@ -8390,6 +9022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Not",
           "package": "tamarin-prover-theory",
@@ -8399,6 +9032,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Not",
           "package": "tamarin-prover-theory",
@@ -8412,6 +9046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Or",
           "package": "tamarin-prover-theory",
@@ -8421,6 +9056,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Or",
           "package": "tamarin-prover-theory",
@@ -8434,6 +9070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "Qua",
           "package": "tamarin-prover-theory",
@@ -8443,6 +9080,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "Qua",
           "package": "tamarin-prover-theory",
@@ -8456,6 +9094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "TF",
           "package": "tamarin-prover-theory",
@@ -8465,6 +9104,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "TF",
           "package": "tamarin-prover-theory",
@@ -8479,6 +9119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a existential quantification with a sort hint for the bound variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "exists",
           "package": "tamarin-prover-theory",
@@ -8489,6 +9130,7 @@
         "index": {
           "description": "Create existential quantification with sort hint for the bound variable",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "exists",
           "normalized": "a-\u003eb-\u003eFormula a c b-\u003eFormula a c b",
@@ -8504,6 +9146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "foldFormula",
           "package": "tamarin-prover-theory",
@@ -8514,6 +9157,7 @@
         "index": {
           "description": "Fold formula",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "foldFormula",
           "normalized": "(Atom(VTerm a(BVar b))-\u003ec)-\u003e(Bool-\u003ec)-\u003e(c-\u003ec)-\u003e(Connective-\u003ec-\u003ec-\u003ec)-\u003e(Quantifier-\u003ed-\u003ec-\u003ec)-\u003eFormula d a b-\u003ec",
@@ -8530,6 +9174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a universal quantification with a sort hint for the bound variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "forall",
           "package": "tamarin-prover-theory",
@@ -8540,6 +9185,7 @@
         "index": {
           "description": "Create universal quantification with sort hint for the bound variable",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "forall",
           "normalized": "a-\u003eb-\u003eFormula a c b-\u003eFormula a c b",
@@ -8555,6 +9201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogically false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "lfalse",
           "package": "tamarin-prover-theory",
@@ -8565,6 +9212,7 @@
         "index": {
           "description": "Logically false",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "lfalse",
           "package": "tamarin-prover-theory",
@@ -8578,6 +9226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogically true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "ltrue",
           "package": "tamarin-prover-theory",
@@ -8588,6 +9237,7 @@
         "index": {
           "description": "Logically true",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "ltrue",
           "package": "tamarin-prover-theory",
@@ -8601,6 +9251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the representation of atoms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "mapAtoms",
           "package": "tamarin-prover-theory",
@@ -8611,6 +9262,7 @@
         "index": {
           "description": "Change the representation of atoms",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "mapAtoms",
           "normalized": "(Integer-\u003eAtom(VTerm a(BVar b))-\u003eAtom(VTerm a(BVar b)))-\u003eFormula c a b-\u003eFormula c a b",
@@ -8627,6 +9279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eopenFormula f\u003c/code\u003e returns \u003ccode\u003eJust (v,Q,f')\u003c/code\u003e if \u003ccode\u003ef = Q v. f'\u003c/code\u003e modulo\n alpha renaming and \u003ccode\u003eNothing otherwise\u003c/code\u003e. \u003ccode\u003ev\u003c/code\u003e is always chosen to be fresh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "openFormula",
           "package": "tamarin-prover-theory",
@@ -8637,6 +9290,7 @@
         "index": {
           "description": "openFormula returns Just if modulo alpha renaming and Nothing otherwise is always chosen to be fresh",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "openFormula",
           "normalized": "LFormula a-\u003eMaybe(Quantifier,b(LVar,LFormula a))",
@@ -8653,6 +9307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eopenFormulaPrefix f\u003c/code\u003e returns \u003ccode\u003eJust (vs,Q,f')\u003c/code\u003e if \u003ccode\u003ef = Q v_1 .. v_k. f'\u003c/code\u003e\n modulo alpha renaming and \u003ccode\u003eNothing otherwise\u003c/code\u003e. \u003ccode\u003evs\u003c/code\u003e is always chosen to be\n fresh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "openFormulaPrefix",
           "package": "tamarin-prover-theory",
@@ -8663,6 +9318,7 @@
         "index": {
           "description": "openFormulaPrefix returns Just vs if modulo alpha renaming and Nothing otherwise vs is always chosen to be fresh",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "openFormulaPrefix",
           "normalized": "LFormula a-\u003eb([LVar],Quantifier,LFormula a)",
@@ -8679,6 +9335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a logical formula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "prettyLNFormula",
           "package": "tamarin-prover-theory",
@@ -8689,6 +9346,7 @@
         "index": {
           "description": "Pretty print logical formula",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "prettyLNFormula",
           "normalized": "LNFormula-\u003ea",
@@ -8705,6 +9363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce a bound variable for a free variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Formula",
           "name": "quantify",
           "package": "tamarin-prover-theory",
@@ -8715,6 +9374,7 @@
         "index": {
           "description": "Introduce bound variable for free variable",
           "hierarchy": "Theory Model Formula",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Formula",
           "name": "quantify",
           "normalized": "a-\u003eFormula b c a-\u003eFormula b c a",
@@ -8730,6 +9390,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRewriting rules representing protocol execution and intruder deduction. Once\n modulo the full Diffie-Hellman equational theory and once modulo AC.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "Rule",
           "package": "tamarin-prover-theory",
@@ -8739,6 +9400,7 @@
         "index": {
           "description": "Rewriting rules representing protocol execution and intruder deduction Once modulo the full Diffie-Hellman equational theory and once modulo AC",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "Rule",
           "package": "tamarin-prover-theory",
@@ -8753,6 +9415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn index of a conclusion. The first conclusion has index '0'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ConcIdx",
           "package": "tamarin-prover-theory",
@@ -8762,6 +9425,7 @@
         "index": {
           "description": "An index of conclusion The first conclusion has index",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ConcIdx",
           "package": "tamarin-prover-theory",
@@ -8776,6 +9440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that have an associated name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "HasRuleName",
           "package": "tamarin-prover-theory",
@@ -8785,6 +9450,7 @@
         "index": {
           "description": "Types that have an associated name",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "HasRuleName",
           "package": "tamarin-prover-theory",
@@ -8799,6 +9465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn intruder rule modulo AC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "IntrRuleAC",
           "package": "tamarin-prover-theory",
@@ -8808,6 +9475,7 @@
         "index": {
           "description": "An intruder rule modulo AC",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "IntrRuleAC",
           "package": "tamarin-prover-theory",
@@ -8822,6 +9490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn intruder rule modulo AC is described by its name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "IntrRuleACInfo",
           "package": "tamarin-prover-theory",
@@ -8831,6 +9500,7 @@
         "index": {
           "description": "An intruder rule modulo AC is described by its name",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "IntrRuleACInfo",
           "package": "tamarin-prover-theory",
@@ -8845,6 +9515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn index of a premise. The first premise has index '0'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "PremIdx",
           "package": "tamarin-prover-theory",
@@ -8854,6 +9525,7 @@
         "index": {
           "description": "An index of premise The first premise has index",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "PremIdx",
           "package": "tamarin-prover-theory",
@@ -8868,6 +9540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA protocol rule modulo AC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleAC",
           "package": "tamarin-prover-theory",
@@ -8877,6 +9550,7 @@
         "index": {
           "description": "protocol rule modulo AC",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleAC",
           "package": "tamarin-prover-theory",
@@ -8891,6 +9565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation for protocol rules modulo AC. The variants list the possible\n instantiations of the free variables of the rule. The typing is interpreted\n modulo AC; i.e., its variants were also built.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleACInfo",
           "package": "tamarin-prover-theory",
@@ -8900,6 +9575,7 @@
         "index": {
           "description": "Information for protocol rules modulo AC The variants list the possible instantiations of the free variables of the rule The typing is interpreted modulo AC i.e its variants were also built",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleACInfo",
           "package": "tamarin-prover-theory",
@@ -8914,6 +9590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation for instances of protocol rules modulo AC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleACInstInfo",
           "package": "tamarin-prover-theory",
@@ -8923,6 +9600,7 @@
         "index": {
           "description": "Information for instances of protocol rules modulo AC",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleACInstInfo",
           "package": "tamarin-prover-theory",
@@ -8937,6 +9615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rule modulo E is always a protocol rule. Intruder rules are specified\n abstractly by their operations generating them and are only available once\n their variants are built.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleE",
           "package": "tamarin-prover-theory",
@@ -8946,6 +9625,7 @@
         "index": {
           "description": "rule modulo is always protocol rule Intruder rules are specified abstractly by their operations generating them and are only available once their variants are built",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleE",
           "package": "tamarin-prover-theory",
@@ -8960,6 +9640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name of a protocol rule is either one of the special reserved rules or\n some standard rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleName",
           "package": "tamarin-prover-theory",
@@ -8969,6 +9650,7 @@
         "index": {
           "description": "name of protocol rule is either one of the special reserved rules or some standard rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleName",
           "package": "tamarin-prover-theory",
@@ -8983,6 +9665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewriting rules with arbitrary additional information and facts with names\n and logical variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "Rule",
           "package": "tamarin-prover-theory",
@@ -8992,6 +9675,7 @@
         "index": {
           "description": "Rewriting rules with arbitrary additional information and facts with names and logical variables",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "Rule",
           "package": "tamarin-prover-theory",
@@ -9006,6 +9690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rule modulo AC is either a protocol rule or an intruder rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "RuleAC",
           "package": "tamarin-prover-theory",
@@ -9015,6 +9700,7 @@
         "index": {
           "description": "rule modulo AC is either protocol rule or an intruder rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "RuleAC",
           "package": "tamarin-prover-theory",
@@ -9028,6 +9714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "RuleACConstrs",
           "package": "tamarin-prover-theory",
@@ -9036,6 +9723,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "RuleACConstrs",
           "package": "tamarin-prover-theory",
@@ -9050,6 +9738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rule instance module AC is either a protocol rule or an intruder rule.\n The info identifies the corresponding rule modulo AC that the instance was\n derived from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "RuleACInst",
           "package": "tamarin-prover-theory",
@@ -9059,6 +9748,7 @@
         "index": {
           "description": "rule instance module AC is either protocol rule or an intruder rule The info identifies the corresponding rule modulo AC that the instance was derived from",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "RuleACInst",
           "package": "tamarin-prover-theory",
@@ -9073,6 +9763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRule information for protocol and intruder rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "RuleInfo",
           "package": "tamarin-prover-theory",
@@ -9082,6 +9773,7 @@
         "index": {
           "description": "Rule information for protocol and intruder rules",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "RuleInfo",
           "package": "tamarin-prover-theory",
@@ -9095,6 +9787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "CoerceRule",
           "package": "tamarin-prover-theory",
@@ -9104,6 +9797,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "CoerceRule",
           "package": "tamarin-prover-theory",
@@ -9117,6 +9811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ConcIdx",
           "package": "tamarin-prover-theory",
@@ -9126,6 +9821,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ConcIdx",
           "package": "tamarin-prover-theory",
@@ -9139,6 +9835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ConstrRule",
           "package": "tamarin-prover-theory",
@@ -9148,6 +9845,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ConstrRule",
           "package": "tamarin-prover-theory",
@@ -9161,6 +9859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "DestrRule",
           "package": "tamarin-prover-theory",
@@ -9170,6 +9869,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "DestrRule",
           "package": "tamarin-prover-theory",
@@ -9183,6 +9883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "FreshConstrRule",
           "package": "tamarin-prover-theory",
@@ -9192,6 +9893,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "FreshConstrRule",
           "package": "tamarin-prover-theory",
@@ -9205,6 +9907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "FreshRule",
           "package": "tamarin-prover-theory",
@@ -9214,6 +9917,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "FreshRule",
           "package": "tamarin-prover-theory",
@@ -9227,6 +9931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "IRecvRule",
           "package": "tamarin-prover-theory",
@@ -9236,6 +9941,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "IRecvRule",
           "package": "tamarin-prover-theory",
@@ -9249,6 +9955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ISendRule",
           "package": "tamarin-prover-theory",
@@ -9258,6 +9965,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ISendRule",
           "package": "tamarin-prover-theory",
@@ -9271,6 +9979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "IntrInfo",
           "package": "tamarin-prover-theory",
@@ -9280,6 +9989,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "IntrInfo",
           "package": "tamarin-prover-theory",
@@ -9293,6 +10003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "PremIdx",
           "package": "tamarin-prover-theory",
@@ -9302,6 +10013,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "PremIdx",
           "package": "tamarin-prover-theory",
@@ -9315,6 +10027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ProtoInfo",
           "package": "tamarin-prover-theory",
@@ -9324,6 +10037,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ProtoInfo",
           "package": "tamarin-prover-theory",
@@ -9337,6 +10051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleACInfo",
           "package": "tamarin-prover-theory",
@@ -9346,6 +10061,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleACInfo",
           "package": "tamarin-prover-theory",
@@ -9359,6 +10075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleACInstInfo",
           "package": "tamarin-prover-theory",
@@ -9368,6 +10085,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ProtoRuleACInstInfo",
           "package": "tamarin-prover-theory",
@@ -9381,6 +10099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "PubConstrRule",
           "package": "tamarin-prover-theory",
@@ -9390,6 +10109,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "PubConstrRule",
           "package": "tamarin-prover-theory",
@@ -9403,6 +10123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "Rule",
           "package": "tamarin-prover-theory",
@@ -9412,6 +10133,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "Rule",
           "package": "tamarin-prover-theory",
@@ -9426,6 +10148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome standard protocol rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "StandRule",
           "package": "tamarin-prover-theory",
@@ -9436,6 +10159,7 @@
         "index": {
           "description": "Some standard protocol rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "StandRule",
           "package": "tamarin-prover-theory",
@@ -9449,6 +10173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "_pracLoopBreakers",
           "package": "tamarin-prover-theory",
@@ -9458,6 +10183,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "_pracLoopBreakers",
           "normalized": "[PremIdx]",
@@ -9473,6 +10199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "_pracName",
           "package": "tamarin-prover-theory",
@@ -9482,6 +10209,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "_pracName",
           "package": "tamarin-prover-theory",
@@ -9495,6 +10223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "_pracVariants",
           "package": "tamarin-prover-theory",
@@ -9504,6 +10233,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "_pracVariants",
           "package": "tamarin-prover-theory",
@@ -9517,6 +10247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "_praciLoopBreakers",
           "package": "tamarin-prover-theory",
@@ -9526,6 +10257,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "_praciLoopBreakers",
           "normalized": "[PremIdx]",
@@ -9541,6 +10273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "_praciName",
           "package": "tamarin-prover-theory",
@@ -9550,6 +10283,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "_praciName",
           "package": "tamarin-prover-theory",
@@ -9563,6 +10297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "_rActs",
           "package": "tamarin-prover-theory",
@@ -9572,6 +10307,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "_rActs",
           "normalized": "[LNFact]",
@@ -9587,6 +10323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "_rConcs",
           "package": "tamarin-prover-theory",
@@ -9596,6 +10333,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "_rConcs",
           "normalized": "[LNFact]",
@@ -9611,6 +10349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "_rInfo",
           "package": "tamarin-prover-theory",
@@ -9620,6 +10359,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "_rInfo",
           "package": "tamarin-prover-theory",
@@ -9633,6 +10373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "_rPrems",
           "package": "tamarin-prover-theory",
@@ -9642,6 +10383,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "_rPrems",
           "normalized": "[LNFact]",
@@ -9658,6 +10400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate all conclusions of a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "enumConcs",
           "package": "tamarin-prover-theory",
@@ -9668,6 +10411,7 @@
         "index": {
           "description": "Enumerate all conclusions of rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "enumConcs",
           "normalized": "Rule a-\u003e[(ConcIdx,LNFact)]",
@@ -9684,6 +10428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate all premises of a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "enumPrems",
           "package": "tamarin-prover-theory",
@@ -9694,6 +10439,7 @@
         "index": {
           "description": "Enumerate all premises of rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "enumPrems",
           "normalized": "Rule a-\u003e[(PremIdx,LNFact)]",
@@ -9709,6 +10455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "getConcIdx",
           "package": "tamarin-prover-theory",
@@ -9718,6 +10465,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "getConcIdx",
           "package": "tamarin-prover-theory",
@@ -9731,6 +10479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "getPremIdx",
           "package": "tamarin-prover-theory",
@@ -9740,6 +10489,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "getPremIdx",
           "package": "tamarin-prover-theory",
@@ -9754,6 +10504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the rule is the special coerce rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "isCoerceRule",
           "package": "tamarin-prover-theory",
@@ -9764,6 +10515,7 @@
         "index": {
           "description": "True iff the rule is the special coerce rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "isCoerceRule",
           "normalized": "a-\u003eBool",
@@ -9780,6 +10532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the rule is a construction rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "isConstrRule",
           "package": "tamarin-prover-theory",
@@ -9790,6 +10543,7 @@
         "index": {
           "description": "True iff the rule is construction rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "isConstrRule",
           "normalized": "a-\u003eBool",
@@ -9806,6 +10560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the rule is a destruction rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "isDestrRule",
           "package": "tamarin-prover-theory",
@@ -9816,6 +10571,7 @@
         "index": {
           "description": "True iff the rule is destruction rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "isDestrRule",
           "normalized": "a-\u003eBool",
@@ -9832,6 +10588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the rule is the special fresh rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "isFreshRule",
           "package": "tamarin-prover-theory",
@@ -9842,6 +10599,7 @@
         "index": {
           "description": "True iff the rule is the special fresh rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "isFreshRule",
           "normalized": "a-\u003eBool",
@@ -9858,6 +10616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the rule is the special learn rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "isIRecvRule",
           "package": "tamarin-prover-theory",
@@ -9868,6 +10627,7 @@
         "index": {
           "description": "True iff the rule is the special learn rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "isIRecvRule",
           "normalized": "a-\u003eBool",
@@ -9884,6 +10644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the rule is the special knows rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "isISendRule",
           "package": "tamarin-prover-theory",
@@ -9894,6 +10655,7 @@
         "index": {
           "description": "True iff the rule is the special knows rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "isISendRule",
           "normalized": "a-\u003eBool",
@@ -9910,6 +10672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the rule is an intruder rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "isIntruderRule",
           "package": "tamarin-prover-theory",
@@ -9920,6 +10683,7 @@
         "index": {
           "description": "True iff the rule is an intruder rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "isIntruderRule",
           "normalized": "a-\u003eBool",
@@ -9936,6 +10700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the protocol rule has only the trivial variant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "isTrivialProtoVariantAC",
           "package": "tamarin-prover-theory",
@@ -9946,6 +10711,7 @@
         "index": {
           "description": "True if the protocol rule has only the trivial variant",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "isTrivialProtoVariantAC",
           "normalized": "ProtoRuleAC-\u003eProtoRuleE-\u003eBool",
@@ -9962,6 +10728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elookupConc i ru\u003c/code\u003e returns the \u003ccode\u003ei\u003c/code\u003e-th conclusion of rule \u003ccode\u003eru\u003c/code\u003e, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "lookupConc",
           "package": "tamarin-prover-theory",
@@ -9972,6 +10739,7 @@
         "index": {
           "description": "lookupConc ru returns the th conclusion of rule ru if possible",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "lookupConc",
           "normalized": "ConcIdx-\u003eRule a-\u003eMaybe LNFact",
@@ -9988,6 +10756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elookupPrem i ru\u003c/code\u003e returns the \u003ccode\u003ei\u003c/code\u003e-th premise of rule \u003ccode\u003eru\u003c/code\u003e, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "lookupPrem",
           "package": "tamarin-prover-theory",
@@ -9998,6 +10767,7 @@
         "index": {
           "description": "lookupPrem ru returns the th premise of rule ru if possible",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "lookupPrem",
           "normalized": "PremIdx-\u003eRule a-\u003eMaybe LNFact",
@@ -10014,6 +10784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the messages in premises and conclusions are in normal form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "nfRule",
           "package": "tamarin-prover-theory",
@@ -10024,6 +10795,7 @@
         "index": {
           "description": "True if the messages in premises and conclusions are in normal form",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "nfRule",
           "normalized": "Rule a-\u003eWithMaude Bool",
@@ -10039,6 +10811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "pracLoopBreakers",
           "package": "tamarin-prover-theory",
@@ -10048,6 +10821,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "pracLoopBreakers",
           "normalized": "Lens a ProtoRuleACInfo[PremIdx]",
@@ -10063,6 +10837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "pracName",
           "package": "tamarin-prover-theory",
@@ -10072,6 +10847,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "pracName",
           "package": "tamarin-prover-theory",
@@ -10085,6 +10861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "pracVariants",
           "package": "tamarin-prover-theory",
@@ -10094,6 +10871,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "pracVariants",
           "package": "tamarin-prover-theory",
@@ -10107,6 +10885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "praciLoopBreakers",
           "package": "tamarin-prover-theory",
@@ -10116,6 +10895,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "praciLoopBreakers",
           "normalized": "Lens a ProtoRuleACInstInfo[PremIdx]",
@@ -10131,6 +10911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "praciName",
           "package": "tamarin-prover-theory",
@@ -10140,6 +10921,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "praciName",
           "package": "tamarin-prover-theory",
@@ -10153,6 +10935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "prettyIntrRuleAC",
           "package": "tamarin-prover-theory",
@@ -10162,6 +10945,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "prettyIntrRuleAC",
           "normalized": "IntrRuleAC-\u003ea",
@@ -10177,6 +10961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "prettyIntrRuleACInfo",
           "package": "tamarin-prover-theory",
@@ -10186,6 +10971,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "prettyIntrRuleACInfo",
           "normalized": "IntrRuleACInfo-\u003ea",
@@ -10201,6 +10987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "prettyLoopBreakers",
           "package": "tamarin-prover-theory",
@@ -10210,6 +10997,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "prettyLoopBreakers",
           "normalized": "ProtoRuleACInfo-\u003ea",
@@ -10225,6 +11013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "prettyProtoRuleAC",
           "package": "tamarin-prover-theory",
@@ -10234,6 +11023,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "prettyProtoRuleAC",
           "normalized": "ProtoRuleAC-\u003ea",
@@ -10249,6 +11039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "prettyProtoRuleE",
           "package": "tamarin-prover-theory",
@@ -10258,6 +11049,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "prettyProtoRuleE",
           "normalized": "ProtoRuleE-\u003ea",
@@ -10273,6 +11065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "prettyProtoRuleName",
           "package": "tamarin-prover-theory",
@@ -10282,6 +11075,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "prettyProtoRuleName",
           "normalized": "ProtoRuleName-\u003ea",
@@ -10297,6 +11091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "prettyRuleAC",
           "package": "tamarin-prover-theory",
@@ -10306,6 +11101,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "prettyRuleAC",
           "normalized": "RuleAC-\u003ea",
@@ -10321,6 +11117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "prettyRuleACInst",
           "package": "tamarin-prover-theory",
@@ -10330,6 +11127,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "prettyRuleACInst",
           "normalized": "RuleACInst-\u003ea",
@@ -10345,6 +11143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "prettyRuleName",
           "package": "tamarin-prover-theory",
@@ -10354,6 +11153,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "prettyRuleName",
           "normalized": "Rule a-\u003eb",
@@ -10369,6 +11169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "rActs",
           "package": "tamarin-prover-theory",
@@ -10378,6 +11179,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "rActs",
           "normalized": "Lens a(Rule b)[LNFact]",
@@ -10394,6 +11196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erConc i\u003c/code\u003e is a lens for the \u003ccode\u003ei\u003c/code\u003e-th conclusion of a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "rConc",
           "package": "tamarin-prover-theory",
@@ -10404,6 +11207,7 @@
         "index": {
           "description": "rConc is lens for the th conclusion of rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "rConc",
           "normalized": "ConcIdx-\u003eRule a-\u003eLNFact",
@@ -10419,6 +11223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "rConcs",
           "package": "tamarin-prover-theory",
@@ -10428,6 +11233,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "rConcs",
           "normalized": "Lens a(Rule b)[LNFact]",
@@ -10443,6 +11249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "rInfo",
           "package": "tamarin-prover-theory",
@@ -10452,6 +11259,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "rInfo",
           "package": "tamarin-prover-theory",
@@ -10466,6 +11274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erPrem i\u003c/code\u003e is a lens for the \u003ccode\u003ei\u003c/code\u003e-th premise of a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "rPrem",
           "package": "tamarin-prover-theory",
@@ -10476,6 +11285,7 @@
         "index": {
           "description": "rPrem is lens for the th premise of rule",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "rPrem",
           "normalized": "PremIdx-\u003eRule a-\u003eLNFact",
@@ -10491,6 +11301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "rPrems",
           "package": "tamarin-prover-theory",
@@ -10500,6 +11311,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "rPrems",
           "normalized": "Lens a(Rule b)[LNFact]",
@@ -10516,6 +11328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all reserved rule names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "reservedRuleNames",
           "package": "tamarin-prover-theory",
@@ -10526,6 +11339,7 @@
         "index": {
           "description": "List of all reserved rule names",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "reservedRuleNames",
           "normalized": "[String]",
@@ -10542,6 +11356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts between these two types of rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ruleACIntrToRuleAC",
           "package": "tamarin-prover-theory",
@@ -10552,6 +11367,7 @@
         "index": {
           "description": "Converts between these two types of rules",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ruleACIntrToRuleAC",
           "normalized": "IntrRuleAC-\u003eRuleAC",
@@ -10568,6 +11384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts between these two types of rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ruleACIntrToRuleACInst",
           "package": "tamarin-prover-theory",
@@ -10578,6 +11395,7 @@
         "index": {
           "description": "Converts between these two types of rules",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ruleACIntrToRuleACInst",
           "normalized": "IntrRuleAC-\u003eRuleACInst",
@@ -10594,6 +11412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts between these two types of rules, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ruleACToIntrRuleAC",
           "package": "tamarin-prover-theory",
@@ -10604,6 +11423,7 @@
         "index": {
           "description": "Converts between these two types of rules if possible",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ruleACToIntrRuleAC",
           "normalized": "RuleAC-\u003eMaybe IntrRuleAC",
@@ -10620,6 +11440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eruleInfo proto intr\u003c/code\u003e maps the protocol information with \u003ccode\u003eproto\u003c/code\u003e and the\n intruder information with \u003ccode\u003eintr\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ruleInfo",
           "package": "tamarin-prover-theory",
@@ -10630,6 +11451,7 @@
         "index": {
           "description": "ruleInfo proto intr maps the protocol information with proto and the intruder information with intr",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ruleInfo",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eRuleInfo a c-\u003eb",
@@ -10645,6 +11467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "ruleName",
           "package": "tamarin-prover-theory",
@@ -10654,6 +11477,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "ruleName",
           "normalized": "a-\u003eRuleInfo ProtoRuleName IntrRuleACInfo",
@@ -10670,6 +11494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print the rule name such that it can be used as a case name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "showRuleCaseName",
           "package": "tamarin-prover-theory",
@@ -10680,6 +11505,7 @@
         "index": {
           "description": "Pretty print the rule name such that it can be used as case name",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "showRuleCaseName",
           "normalized": "Rule a-\u003eString",
@@ -10696,6 +11522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute \u003cem\u003esome\u003c/em\u003e rule instance of a rule modulo AC. If the rule is a\n protocol rule, then the given typing and variants also need to be handled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "someRuleACInst",
           "package": "tamarin-prover-theory",
@@ -10706,6 +11533,7 @@
         "index": {
           "description": "Compute some rule instance of rule modulo AC If the rule is protocol rule then the given typing and variants also need to be handled",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "someRuleACInst",
           "normalized": "RuleAC-\u003ea(RuleACInst,Maybe RuleACConstrs)",
@@ -10722,6 +11550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre these two rule instances unifiable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "unifiableRuleACInsts",
           "package": "tamarin-prover-theory",
@@ -10732,6 +11561,7 @@
         "index": {
           "description": "Are these two rule instances unifiable",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "unifiableRuleACInsts",
           "normalized": "RuleACInst-\u003eRuleACInst-\u003eWithMaude Bool",
@@ -10748,6 +11578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnify a list of \u003ccode\u003eRuleACInst\u003c/code\u003e equalities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Rule",
           "name": "unifyRuleACInstEqs",
           "package": "tamarin-prover-theory",
@@ -10758,6 +11589,7 @@
         "index": {
           "description": "Unify list of RuleACInst equalities",
           "hierarchy": "Theory Model Rule",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Rule",
           "name": "unifyRuleACInstEqs",
           "normalized": "[Equal RuleACInst]-\u003eWithMaude[LNSubstVFresh]",
@@ -10774,6 +11606,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSignatures for the terms and multiset rewriting rules used to model and\n reason about a security protocol.\n modulo the full Diffie-Hellman equational theory and once modulo AC.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "Signature",
           "package": "tamarin-prover-theory",
@@ -10783,6 +11616,7 @@
         "index": {
           "description": "Signatures for the terms and multiset rewriting rules used to model and reason about security protocol modulo the full Diffie-Hellman equational theory and once modulo AC",
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "Signature",
           "package": "tamarin-prover-theory",
@@ -10797,6 +11631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA theory signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "Signature",
           "package": "tamarin-prover-theory",
@@ -10806,6 +11641,7 @@
         "index": {
           "description": "theory signature",
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "Signature",
           "package": "tamarin-prover-theory",
@@ -10820,6 +11656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSignature\u003c/a\u003e\u003c/code\u003e without an associated Maude process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "SignaturePure",
           "package": "tamarin-prover-theory",
@@ -10829,6 +11666,7 @@
         "index": {
           "description": "Signature without an associated Maude process",
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "SignaturePure",
           "package": "tamarin-prover-theory",
@@ -10843,6 +11681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSignature\u003c/a\u003e\u003c/code\u003e with an associated, running Maude process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "SignatureWithMaude",
           "package": "tamarin-prover-theory",
@@ -10852,6 +11691,7 @@
         "index": {
           "description": "Signature with an associated running Maude process",
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "SignatureWithMaude",
           "package": "tamarin-prover-theory",
@@ -10865,6 +11705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "Signature",
           "package": "tamarin-prover-theory",
@@ -10874,6 +11715,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "Signature",
           "package": "tamarin-prover-theory",
@@ -10887,6 +11729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "_sigMaudeInfo",
           "package": "tamarin-prover-theory",
@@ -10896,6 +11739,7 @@
         },
         "index": {
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "_sigMaudeInfo",
           "package": "tamarin-prover-theory",
@@ -10910,6 +11754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty pure signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "emptySignaturePure",
           "package": "tamarin-prover-theory",
@@ -10920,6 +11765,7 @@
         "index": {
           "description": "The empty pure signature",
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "emptySignaturePure",
           "package": "tamarin-prover-theory",
@@ -10934,6 +11780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print a signature with maude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "prettySignaturePure",
           "package": "tamarin-prover-theory",
@@ -10944,6 +11791,7 @@
         "index": {
           "description": "Pretty-print signature with maude",
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "prettySignaturePure",
           "normalized": "SignaturePure-\u003ea",
@@ -10960,6 +11808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print a pure signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "prettySignatureWithMaude",
           "package": "tamarin-prover-theory",
@@ -10970,6 +11819,7 @@
         "index": {
           "description": "Pretty-print pure signature",
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "prettySignatureWithMaude",
           "normalized": "SignatureWithMaude-\u003ea",
@@ -10986,6 +11836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the maude handle in a signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "sigmMaudeHandle",
           "package": "tamarin-prover-theory",
@@ -10996,6 +11847,7 @@
         "index": {
           "description": "Access the maude handle in signature",
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "sigmMaudeHandle",
           "normalized": "SignatureWithMaude-\u003eMaudeHandle",
@@ -11012,6 +11864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the maude signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "sigpMaudeSig",
           "package": "tamarin-prover-theory",
@@ -11022,6 +11875,7 @@
         "index": {
           "description": "Access the maude signature",
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "sigpMaudeSig",
           "normalized": "SignaturePure-\u003eMaudeSig",
@@ -11038,6 +11892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe pure signature of a \u003ccode\u003e\u003ca\u003eSignatureWithMaude\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "toSignaturePure",
           "package": "tamarin-prover-theory",
@@ -11048,6 +11903,7 @@
         "index": {
           "description": "The pure signature of SignatureWithMaude",
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "toSignaturePure",
           "normalized": "SignatureWithMaude-\u003eSignaturePure",
@@ -11064,6 +11920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure that maude is running and configured with the current signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model.Signature",
           "name": "toSignatureWithMaude",
           "package": "tamarin-prover-theory",
@@ -11073,6 +11930,7 @@
         "index": {
           "description": "Ensure that maude is running and configured with the current signature",
           "hierarchy": "Theory Model Signature",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model.Signature",
           "name": "toSignatureWithMaude",
           "normalized": "FilePath-\u003eSignaturePure-\u003eIO SignatureWithMaude",
@@ -11089,6 +11947,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSecurity protocol model.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Model",
           "name": "Model",
           "package": "tamarin-prover-theory",
@@ -11098,6 +11957,7 @@
         "index": {
           "description": "Security protocol model",
           "hierarchy": "Theory Model",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Model",
           "name": "Model",
           "package": "tamarin-prover-theory",
@@ -11112,6 +11972,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes to represent proofs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "Proof",
           "package": "tamarin-prover-theory",
@@ -11121,6 +11982,7 @@
         "index": {
           "description": "Types to represent proofs",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "Proof",
           "package": "tamarin-prover-theory",
@@ -11134,6 +11996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "AutoProver",
           "package": "tamarin-prover-theory",
@@ -11142,6 +12005,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "AutoProver",
           "package": "tamarin-prover-theory",
@@ -11156,6 +12020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncremental proofs are used to represent intermediate results of proof\n checking/construction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "IncrementalProof",
           "package": "tamarin-prover-theory",
@@ -11165,6 +12030,7 @@
         "index": {
           "description": "Incremental proofs are used to represent intermediate results of proof checking construction",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "IncrementalProof",
           "package": "tamarin-prover-theory",
@@ -11179,6 +12045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrees with uniquely labelled edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "LTree",
           "package": "tamarin-prover-theory",
@@ -11188,6 +12055,7 @@
         "index": {
           "description": "Trees with uniquely labelled edges",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "LTree",
           "package": "tamarin-prover-theory",
@@ -11202,6 +12070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proof is a tree of proof steps whose edges are labelled with case names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "Proof",
           "package": "tamarin-prover-theory",
@@ -11211,6 +12080,7 @@
         "index": {
           "description": "proof is tree of proof steps whose edges are labelled with case names",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "Proof",
           "package": "tamarin-prover-theory",
@@ -11225,6 +12095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA path to a subproof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "ProofPath",
           "package": "tamarin-prover-theory",
@@ -11234,6 +12105,7 @@
         "index": {
           "description": "path to subproof",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "ProofPath",
           "package": "tamarin-prover-theory",
@@ -11248,6 +12120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe status of a \u003ccode\u003e\u003ca\u003eProof\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "ProofStatus",
           "package": "tamarin-prover-theory",
@@ -11257,6 +12130,7 @@
         "index": {
           "description": "The status of Proof",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "ProofStatus",
           "package": "tamarin-prover-theory",
@@ -11271,6 +12145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proof steps is a proof method together with additional context-dependent\n information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "ProofStep",
           "package": "tamarin-prover-theory",
@@ -11280,6 +12155,7 @@
         "index": {
           "description": "proof steps is proof method together with additional context-dependent information",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "ProofStep",
           "package": "tamarin-prover-theory",
@@ -11294,6 +12170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvers whose sequencing is handled via the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e\u003cpre\u003e p1 `mappend` p2\n\u003c/pre\u003e\u003cp\u003eIs a prover that first runs p1 and then p2 on the resulting proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "Prover",
           "package": "tamarin-prover-theory",
@@ -11303,6 +12180,7 @@
         "index": {
           "description": "Provers whose sequencing is handled via the Monoid instance p1 mappend p2 Is prover that first runs p1 and then p2 on the resulting proof",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "Prover",
           "package": "tamarin-prover-theory",
@@ -11316,6 +12194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "SolutionExtractor",
           "package": "tamarin-prover-theory",
@@ -11324,6 +12203,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "SolutionExtractor",
           "package": "tamarin-prover-theory",
@@ -11337,6 +12217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "AutoProver",
           "package": "tamarin-prover-theory",
@@ -11346,6 +12227,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "AutoProver",
           "package": "tamarin-prover-theory",
@@ -11360,6 +12242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe proof is complete: no annotated sorry,\n  no annotated solved step\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "CompleteProof",
           "package": "tamarin-prover-theory",
@@ -11370,6 +12253,7 @@
         "index": {
           "description": "The proof is complete no annotated sorry no annotated solved step",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "CompleteProof",
           "package": "tamarin-prover-theory",
@@ -11383,6 +12267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "CutBFS",
           "package": "tamarin-prover-theory",
@@ -11392,6 +12277,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "CutBFS",
           "package": "tamarin-prover-theory",
@@ -11405,6 +12291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "CutDFS",
           "package": "tamarin-prover-theory",
@@ -11414,6 +12301,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "CutDFS",
           "package": "tamarin-prover-theory",
@@ -11427,6 +12315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "CutNothing",
           "package": "tamarin-prover-theory",
@@ -11436,6 +12325,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "CutNothing",
           "package": "tamarin-prover-theory",
@@ -11450,6 +12340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is a annotated sorry,\n   but no annotatd solved step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "IncompleteProof",
           "package": "tamarin-prover-theory",
@@ -11460,6 +12351,7 @@
         "index": {
           "description": "There is annotated sorry but no annotatd solved step",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "IncompleteProof",
           "package": "tamarin-prover-theory",
@@ -11473,6 +12365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "LNode",
           "package": "tamarin-prover-theory",
@@ -11482,6 +12375,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "LNode",
           "package": "tamarin-prover-theory",
@@ -11495,6 +12389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "ProofStep",
           "package": "tamarin-prover-theory",
@@ -11504,6 +12399,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "ProofStep",
           "package": "tamarin-prover-theory",
@@ -11518,6 +12414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is an annotated solved step\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "TraceFound",
           "package": "tamarin-prover-theory",
@@ -11528,6 +12425,7 @@
         "index": {
           "description": "There is an annotated solved step",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "TraceFound",
           "package": "tamarin-prover-theory",
@@ -11542,6 +12440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll steps are unannotated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "UndeterminedProof",
           "package": "tamarin-prover-theory",
@@ -11552,6 +12451,7 @@
         "index": {
           "description": "All steps are unannotated",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "UndeterminedProof",
           "package": "tamarin-prover-theory",
@@ -11566,6 +12466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate a proof in a bottom-up fashion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "annotateProof",
           "package": "tamarin-prover-theory",
@@ -11576,6 +12477,7 @@
         "index": {
           "description": "Annotate proof in bottom-up fashion",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "annotateProof",
           "normalized": "(ProofStep a-\u003e[b]-\u003eb)-\u003eProof a-\u003eProof b",
@@ -11591,6 +12493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "apBound",
           "package": "tamarin-prover-theory",
@@ -11600,6 +12503,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "apBound",
           "package": "tamarin-prover-theory",
@@ -11613,6 +12517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "apCut",
           "package": "tamarin-prover-theory",
@@ -11622,6 +12527,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "apCut",
           "package": "tamarin-prover-theory",
@@ -11635,6 +12541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "apHeuristic",
           "package": "tamarin-prover-theory",
@@ -11644,6 +12551,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "apHeuristic",
           "package": "tamarin-prover-theory",
@@ -11658,6 +12566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprf \u003ccode\u003e\u003ca\u003eatPath\u003c/a\u003e\u003c/code\u003e path\u003c/code\u003e returns the subproof at the \u003ccode\u003epath\u003c/code\u003e in \u003ccode\u003eprf\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "atPath",
           "package": "tamarin-prover-theory",
@@ -11668,6 +12577,7 @@
         "index": {
           "description": "prf atPath path returns the subproof at the path in prf",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "atPath",
           "normalized": "Proof a-\u003eProofPath-\u003eMaybe(Proof a)",
@@ -11684,6 +12594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the proof and handle new cases using the given prover.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "checkAndExtendProver",
           "package": "tamarin-prover-theory",
@@ -11694,6 +12605,7 @@
         "index": {
           "description": "Check the proof and handle new cases using the given prover",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "checkAndExtendProver",
           "normalized": "Prover-\u003eProver",
@@ -11709,6 +12621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "children",
           "package": "tamarin-prover-theory",
@@ -11718,6 +12631,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "children",
           "package": "tamarin-prover-theory",
@@ -11731,6 +12645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProver that does one contradiction step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "contradictionProver",
           "package": "tamarin-prover-theory",
@@ -11741,6 +12656,7 @@
         "index": {
           "description": "Prover that does one contradiction step",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "contradictionProver",
           "package": "tamarin-prover-theory",
@@ -11755,6 +12671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a prover only to a sub-proof, fails if the subproof doesn't exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "focus",
           "package": "tamarin-prover-theory",
@@ -11765,6 +12682,7 @@
         "index": {
           "description": "Apply prover only to sub-proof fails if the subproof doesn exist",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "focus",
           "normalized": "ProofPath-\u003eProver-\u003eProver",
@@ -11780,6 +12698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "foldProof",
           "package": "tamarin-prover-theory",
@@ -11790,6 +12709,7 @@
         "index": {
           "description": "Fold proof",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "foldProof",
           "normalized": "(ProofStep a-\u003eb)-\u003eProof a-\u003eb",
@@ -11806,6 +12726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einsertPaths prf\u003c/code\u003e inserts the path to every proof node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "insertPaths",
           "package": "tamarin-prover-theory",
@@ -11816,6 +12737,7 @@
         "index": {
           "description": "insertPaths prf inserts the path to every proof node",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "insertPaths",
           "normalized": "Proof a-\u003eProof(a,ProofPath)",
@@ -11832,6 +12754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the information of every proof step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "mapProofInfo",
           "package": "tamarin-prover-theory",
@@ -11842,6 +12765,7 @@
         "index": {
           "description": "Apply function to the information of every proof step",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "mapProofInfo",
           "normalized": "(a-\u003eb)-\u003eProof a-\u003eProof b",
@@ -11858,6 +12782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the proof generated by the prover.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "mapProverProof",
           "package": "tamarin-prover-theory",
@@ -11868,6 +12793,7 @@
         "index": {
           "description": "Map the proof generated by the prover",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "mapProverProof",
           "normalized": "(IncrementalProof-\u003eIncrementalProof)-\u003eProver-\u003eProver",
@@ -11884,6 +12810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e. A generalized union operator for maps with differing types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "mergeMapsWith",
           "package": "tamarin-prover-theory",
@@ -11894,6 +12821,7 @@
         "index": {
           "description": "generalized union operator for maps with differing types",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "mergeMapsWith",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(a-\u003ec-\u003eb)-\u003eMap d a-\u003eMap d c-\u003eMap d b",
@@ -11910,6 +12838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to execute one proof step using the given proof method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "oneStepProver",
           "package": "tamarin-prover-theory",
@@ -11920,6 +12849,7 @@
         "index": {
           "description": "Try to execute one proof step using the given proof method",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "oneStepProver",
           "normalized": "ProofMethod-\u003eProver",
@@ -11936,6 +12866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResorts to the second prover, if the first one is not successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "orelse",
           "package": "tamarin-prover-theory",
@@ -11946,6 +12877,7 @@
         "index": {
           "description": "Resorts to the second prover if the first one is not successful",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "orelse",
           "normalized": "Prover-\u003eProver-\u003eProver",
@@ -11961,6 +12893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parallel evaluation strategy well-suited for DFS traversal: As soon as\n a node is forced it sparks off the computation of the number of case-maps\n of all its children. This way most of the data is already evaulated, when\n the actual DFS traversal visits it.\n\u003c/p\u003e\u003cp\u003eNOT used for now. It sometimes required too much memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "parLTreeDFS",
           "package": "tamarin-prover-theory",
@@ -11971,6 +12904,7 @@
         "index": {
           "description": "parallel evaluation strategy well-suited for DFS traversal As soon as node is forced it sparks off the computation of the number of case-maps of all its children This way most of the data is already evaulated when the actual DFS traversal visits it NOT used for now It sometimes required too much memory",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "parLTreeDFS",
           "package": "tamarin-prover-theory",
@@ -11984,6 +12918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "prettyProof",
           "package": "tamarin-prover-theory",
@@ -11993,6 +12928,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "prettyProof",
           "normalized": "Proof a-\u003eb",
@@ -12008,6 +12944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "prettyProofWith",
           "package": "tamarin-prover-theory",
@@ -12016,6 +12953,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "prettyProofWith",
           "normalized": "(ProofStep a-\u003eb)-\u003e(ProofStep a-\u003eb-\u003eb)-\u003eProof a-\u003eb",
@@ -12032,6 +12970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe status of a \u003ccode\u003e\u003ca\u003eProofStep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "proofStepStatus",
           "package": "tamarin-prover-theory",
@@ -12042,6 +12981,7 @@
         "index": {
           "description": "The status of ProofStep",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "proofStepStatus",
           "normalized": "ProofStep(Maybe a)-\u003eProofStatus",
@@ -12057,6 +12997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "psInfo",
           "package": "tamarin-prover-theory",
@@ -12066,6 +13007,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "psInfo",
           "package": "tamarin-prover-theory",
@@ -12079,6 +13021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "psMethod",
           "package": "tamarin-prover-theory",
@@ -12088,6 +13031,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "psMethod",
           "package": "tamarin-prover-theory",
@@ -12102,6 +13046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all annotated sorry steps using the given prover.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "replaceSorryProver",
           "package": "tamarin-prover-theory",
@@ -12112,6 +13057,7 @@
         "index": {
           "description": "Replace all annotated sorry steps using the given prover",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "replaceSorryProver",
           "normalized": "Prover-\u003eProver",
@@ -12127,6 +13073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "root",
           "package": "tamarin-prover-theory",
@@ -12136,6 +13083,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "root",
           "package": "tamarin-prover-theory",
@@ -12148,6 +13096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "runAutoProver",
           "package": "tamarin-prover-theory",
@@ -12157,6 +13106,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "runAutoProver",
           "normalized": "AutoProver-\u003eProver",
@@ -12172,6 +13122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "runProver",
           "package": "tamarin-prover-theory",
@@ -12181,6 +13132,7 @@
         },
         "index": {
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "runProver",
           "normalized": "Prover-\u003eProofContext-\u003eInt-\u003eSystem-\u003eIncrementalProof-\u003eMaybe IncrementalProof",
@@ -12197,6 +13149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a proof status to a redable string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "showProofStatus",
           "package": "tamarin-prover-theory",
@@ -12207,6 +13160,7 @@
         "index": {
           "description": "Convert proof status to redable string",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "showProofStatus",
           "normalized": "SystemTraceQuantifier-\u003eProofStatus-\u003eString",
@@ -12223,6 +13177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proof using the \u003ccode\u003e\u003ca\u003esorry\u003c/a\u003e\u003c/code\u003e proof method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "sorry",
           "package": "tamarin-prover-theory",
@@ -12233,6 +13188,7 @@
         "index": {
           "description": "proof using the sorry proof method",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "sorry",
           "normalized": "Maybe String-\u003ea-\u003eProof a",
@@ -12248,6 +13204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the current proof with a sorry step and the given reason.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "sorryProver",
           "package": "tamarin-prover-theory",
@@ -12258,6 +13215,7 @@
         "index": {
           "description": "Replace the current proof with sorry step and the given reason",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "sorryProver",
           "normalized": "Maybe String-\u003eProver",
@@ -12274,6 +13232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to apply a prover. If it fails, just return the original proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "tryProver",
           "package": "tamarin-prover-theory",
@@ -12284,6 +13243,7 @@
         "index": {
           "description": "Try to apply prover If it fails just return the original proof",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "tryProver",
           "normalized": "Prover-\u003eProver",
@@ -12300,6 +13260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proof denoting an unproven part of the proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Proof",
           "name": "unproven",
           "package": "tamarin-prover-theory",
@@ -12310,6 +13271,7 @@
         "index": {
           "description": "proof denoting an unproven part of the proof",
           "hierarchy": "Theory Proof",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Proof",
           "name": "unproven",
           "normalized": "a-\u003eProof a",
@@ -12325,6 +13287,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTokenizing infrastructure\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "Token",
           "package": "tamarin-prover-theory",
@@ -12334,6 +13297,7 @@
         "index": {
           "description": "Tokenizing infrastructure",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "Token",
           "package": "tamarin-prover-theory",
@@ -12348,6 +13312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser for a stream of tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "Parser",
           "package": "tamarin-prover-theory",
@@ -12357,6 +13322,7 @@
         "index": {
           "description": "parser for stream of tokens",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "Parser",
           "package": "tamarin-prover-theory",
@@ -12371,6 +13337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBetween angular brackets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "angled",
           "package": "tamarin-prover-theory",
@@ -12381,6 +13348,7 @@
         "index": {
           "description": "Between angular brackets",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "angled",
           "normalized": "Parser a-\u003eParser a",
@@ -12396,6 +13364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBetween braces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "braced",
           "package": "tamarin-prover-theory",
@@ -12406,6 +13375,7 @@
         "index": {
           "description": "Between braces",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "braced",
           "normalized": "Parser a-\u003eParser a",
@@ -12421,6 +13391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBetween brackets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "brackets",
           "package": "tamarin-prover-theory",
@@ -12431,6 +13402,7 @@
         "index": {
           "description": "Between brackets",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "brackets",
           "normalized": "Parser a-\u003eParser a",
@@ -12446,6 +13418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA colon \u003ccode\u003e:\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "colon",
           "package": "tamarin-prover-theory",
@@ -12456,6 +13429,7 @@
         "index": {
           "description": "colon",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "colon",
           "normalized": "Parser()",
@@ -12471,6 +13445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comma \u003ccode\u003e,\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "comma",
           "package": "tamarin-prover-theory",
@@ -12481,6 +13456,7 @@
         "index": {
           "description": "comma",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "comma",
           "normalized": "Parser()",
@@ -12496,6 +13472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comma separated list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "commaSep",
           "package": "tamarin-prover-theory",
@@ -12506,6 +13483,7 @@
         "index": {
           "description": "comma separated list of elements",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "commaSep",
           "normalized": "Parser a-\u003eParser[a]",
@@ -12522,6 +13500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comma separated non-empty list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "commaSep1",
           "package": "tamarin-prover-theory",
@@ -12532,6 +13511,7 @@
         "index": {
           "description": "comma separated non-empty list of elements",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "commaSep1",
           "normalized": "Parser a-\u003eParser[a]",
@@ -12548,6 +13528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dot \u003ccode\u003e.\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "dot",
           "package": "tamarin-prover-theory",
@@ -12558,6 +13539,7 @@
         "index": {
           "description": "dot",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "dot",
           "normalized": "Parser()",
@@ -12573,6 +13555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBetween double quotes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "doubleQuoted",
           "package": "tamarin-prover-theory",
@@ -12583,6 +13566,7 @@
         "index": {
           "description": "Between double quotes",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "doubleQuoted",
           "normalized": "Parser a-\u003eParser a",
@@ -12599,6 +13583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe equal sign \u003ccode\u003e=\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "equalSign",
           "package": "tamarin-prover-theory",
@@ -12609,6 +13594,7 @@
         "index": {
           "description": "The equal sign",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "equalSign",
           "normalized": "Parser()",
@@ -12625,6 +13611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA formal comment; i.e., (header, body)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "formalComment",
           "package": "tamarin-prover-theory",
@@ -12635,6 +13622,7 @@
         "index": {
           "description": "formal comment i.e header body",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "formalComment",
           "normalized": "Parser(String,String)",
@@ -12651,6 +13639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a literal fresh name, e.g., \u003ccode\u003e~\u003ccode\u003en\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "freshName",
           "package": "tamarin-prover-theory",
@@ -12661,6 +13650,7 @@
         "index": {
           "description": "Parse literal fresh name e.g",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "freshName",
           "package": "tamarin-prover-theory",
@@ -12675,6 +13665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an identifier as a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "identifier",
           "package": "tamarin-prover-theory",
@@ -12685,6 +13676,7 @@
         "index": {
           "description": "Parse an identifier as string",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "identifier",
           "package": "tamarin-prover-theory",
@@ -12698,6 +13690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an identifier possibly indexed with a number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "indexedIdentifier",
           "package": "tamarin-prover-theory",
@@ -12708,6 +13701,7 @@
         "index": {
           "description": "Parse an identifier possibly indexed with number",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "indexedIdentifier",
           "normalized": "Parser(String,Integer)",
@@ -12724,6 +13718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a list of items '[' item ',' ... ',' item ']'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "list",
           "package": "tamarin-prover-theory",
@@ -12734,6 +13729,7 @@
         "index": {
           "description": "Parse list of items item item",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "list",
           "normalized": "Parser a-\u003eParser[a]",
@@ -12749,6 +13745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arbitrary logical variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "lvar",
           "package": "tamarin-prover-theory",
@@ -12759,6 +13756,7 @@
         "index": {
           "description": "An arbitrary logical variable",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "lvar",
           "package": "tamarin-prover-theory",
@@ -12772,6 +13770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-node variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "msgvar",
           "package": "tamarin-prover-theory",
@@ -12782,6 +13781,7 @@
         "index": {
           "description": "Parse non-node variable",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "msgvar",
           "package": "tamarin-prover-theory",
@@ -12795,6 +13795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an natural.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "natural",
           "package": "tamarin-prover-theory",
@@ -12805,6 +13806,7 @@
         "index": {
           "description": "Parse an natural",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "natural",
           "package": "tamarin-prover-theory",
@@ -12818,6 +13820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a Unicode-subscripted natural number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "naturalSubscript",
           "package": "tamarin-prover-theory",
@@ -12828,6 +13831,7 @@
         "index": {
           "description": "Parse Unicode-subscripted natural number",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "naturalSubscript",
           "package": "tamarin-prover-theory",
@@ -12842,6 +13846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a graph node variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "nodevar",
           "package": "tamarin-prover-theory",
@@ -12852,6 +13857,7 @@
         "index": {
           "description": "Parse graph node variable",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "nodevar",
           "package": "tamarin-prover-theory",
@@ -12865,6 +13871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe action-at-timepoint operator @.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opAt",
           "package": "tamarin-prover-theory",
@@ -12875,6 +13882,7 @@
         "index": {
           "description": "The action-at-timepoint operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opAt",
           "normalized": "Parser()",
@@ -12891,6 +13899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bang operator \u003ccode\u003e!\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opBang",
           "package": "tamarin-prover-theory",
@@ -12901,6 +13910,7 @@
         "index": {
           "description": "The bang operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opBang",
           "normalized": "Parser()",
@@ -12917,6 +13927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe chain operator \u003ccode\u003e~~\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opChain",
           "package": "tamarin-prover-theory",
@@ -12927,6 +13938,7 @@
         "index": {
           "description": "The chain operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opChain",
           "normalized": "Parser()",
@@ -12943,6 +13955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe equality operator \u003ccode\u003e=\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opEqual",
           "package": "tamarin-prover-theory",
@@ -12953,6 +13966,7 @@
         "index": {
           "description": "The equality operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opEqual",
           "normalized": "Parser()",
@@ -12969,6 +13983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical-exists operator \u003ccode\u003eEx\u003c/code\u003e or \u003ccode\u003e&#8707;\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opExists",
           "package": "tamarin-prover-theory",
@@ -12979,6 +13994,7 @@
         "index": {
           "description": "The logical-exists operator Ex or",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opExists",
           "normalized": "Parser()",
@@ -12995,6 +14011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exponentiation operator \u003ccode\u003e^\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opExp",
           "package": "tamarin-prover-theory",
@@ -13005,6 +14022,7 @@
         "index": {
           "description": "The exponentiation operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opExp",
           "normalized": "Parser()",
@@ -13021,6 +14039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical-forall operator \u003ccode\u003eAll\u003c/code\u003e or \u003ccode\u003e&#8704;\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opForall",
           "package": "tamarin-prover-theory",
@@ -13031,6 +14050,7 @@
         "index": {
           "description": "The logical-forall operator All or",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opForall",
           "normalized": "Parser()",
@@ -13047,6 +14067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical-implies operator \u003ccode\u003e==\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opImplies",
           "package": "tamarin-prover-theory",
@@ -13057,6 +14078,7 @@
         "index": {
           "description": "The logical-implies operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opImplies",
           "normalized": "Parser()",
@@ -13073,6 +14095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical-and operator \u003ccode\u003e&\u003c/code\u003e or \u003ccode\u003e&#8743;\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opLAnd",
           "package": "tamarin-prover-theory",
@@ -13083,6 +14106,7 @@
         "index": {
           "description": "The logical-and operator or",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opLAnd",
           "normalized": "Parser()",
@@ -13099,6 +14123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical-equivalence operator \u003ccode\u003e\u003ca\u003e=\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opLEquiv",
           "package": "tamarin-prover-theory",
@@ -13109,6 +14134,7 @@
         "index": {
           "description": "The logical-equivalence operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opLEquiv",
           "normalized": "Parser()",
@@ -13125,6 +14151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logical false, \u003ccode\u003eF\u003c/code\u003e or \u003ccode/\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opLFalse",
           "package": "tamarin-prover-theory",
@@ -13135,6 +14162,7 @@
         "index": {
           "description": "logical false or",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opLFalse",
           "normalized": "Parser()",
@@ -13151,6 +14179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical not operator \u003ccode\u003enot\u003c/code\u003e or \u003ccode/\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opLNot",
           "package": "tamarin-prover-theory",
@@ -13161,6 +14190,7 @@
         "index": {
           "description": "The logical not operator not or",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opLNot",
           "normalized": "Parser()",
@@ -13177,6 +14207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical-or operator \u003ccode\u003e|\u003c/code\u003e or \u003ccode\u003e&#8744;\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opLOr",
           "package": "tamarin-prover-theory",
@@ -13187,6 +14218,7 @@
         "index": {
           "description": "The logical-or operator or",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opLOr",
           "normalized": "Parser()",
@@ -13203,6 +14235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logical false, \u003ccode\u003eT\u003c/code\u003e or \u003ccode/\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opLTrue",
           "package": "tamarin-prover-theory",
@@ -13213,6 +14246,7 @@
         "index": {
           "description": "logical false or",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opLTrue",
           "normalized": "Parser()",
@@ -13229,6 +14263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe leftarrow operator \u003ccode\u003e\u003c--\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opLeftarrow",
           "package": "tamarin-prover-theory",
@@ -13239,6 +14274,7 @@
         "index": {
           "description": "The leftarrow operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opLeftarrow",
           "normalized": "Parser()",
@@ -13255,6 +14291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe timepoint comparison operator \u003ccode\u003e\u003c\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opLess",
           "package": "tamarin-prover-theory",
@@ -13265,6 +14302,7 @@
         "index": {
           "description": "The timepoint comparison operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opLess",
           "normalized": "Parser()",
@@ -13281,6 +14319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe longleftarrow operator \u003ccode\u003e\u003c--\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opLongleftarrow",
           "package": "tamarin-prover-theory",
@@ -13291,6 +14330,7 @@
         "index": {
           "description": "The longleftarrow operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opLongleftarrow",
           "normalized": "Parser()",
@@ -13307,6 +14347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe longrightarrow operator \u003ccode\u003e--\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opLongrightarrow",
           "package": "tamarin-prover-theory",
@@ -13317,6 +14358,7 @@
         "index": {
           "description": "The longrightarrow operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opLongrightarrow",
           "normalized": "Parser()",
@@ -13333,6 +14375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minus operator \u003ccode\u003e-\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opMinus",
           "package": "tamarin-prover-theory",
@@ -13343,6 +14386,7 @@
         "index": {
           "description": "The minus operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opMinus",
           "normalized": "Parser()",
@@ -13359,6 +14403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe multiplication operator \u003ccode\u003e*\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opMult",
           "package": "tamarin-prover-theory",
@@ -13369,6 +14414,7 @@
         "index": {
           "description": "The multiplication operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opMult",
           "normalized": "Parser()",
@@ -13385,6 +14431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe multiplication operator \u003ccode\u003e*\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opPlus",
           "package": "tamarin-prover-theory",
@@ -13395,6 +14442,7 @@
         "index": {
           "description": "The multiplication operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opPlus",
           "normalized": "Parser()",
@@ -13411,6 +14459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe requires-a-premise operator, \u003ccode\u003e&#9654; subscript-id\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opRequires",
           "package": "tamarin-prover-theory",
@@ -13421,6 +14470,7 @@
         "index": {
           "description": "The requires-a-premise operator subscript-id",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opRequires",
           "package": "tamarin-prover-theory",
@@ -13435,6 +14485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rightarrow operator \u003ccode\u003e--\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opRightarrow",
           "package": "tamarin-prover-theory",
@@ -13445,6 +14496,7 @@
         "index": {
           "description": "The rightarrow operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opRightarrow",
           "normalized": "Parser()",
@@ -13461,6 +14513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sharp operator \u003ccode\u003e#\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opSharp",
           "package": "tamarin-prover-theory",
@@ -13471,6 +14524,7 @@
         "index": {
           "description": "The sharp operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opSharp",
           "normalized": "Parser()",
@@ -13487,6 +14541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe slash operator \u003ccode\u003e/\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "opSlash",
           "package": "tamarin-prover-theory",
@@ -13497,6 +14552,7 @@
         "index": {
           "description": "The slash operator",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "opSlash",
           "normalized": "Parser()",
@@ -13513,6 +14569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBetween parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "parens",
           "package": "tamarin-prover-theory",
@@ -13523,6 +14580,7 @@
         "index": {
           "description": "Between parentheses",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "parens",
           "normalized": "Parser a-\u003eParser a",
@@ -13538,6 +14596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a parser on the contents of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "parseFile",
           "package": "tamarin-prover-theory",
@@ -13548,6 +14607,7 @@
         "index": {
           "description": "Run parser on the contents of file",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "parseFile",
           "normalized": "Parser a-\u003eFilePath-\u003eIO a",
@@ -13564,6 +14624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a given parser on a given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "parseString",
           "package": "tamarin-prover-theory",
@@ -13573,6 +14634,7 @@
         "index": {
           "description": "Run given parser on given string",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "parseString",
           "normalized": "FilePath-\u003eParser a-\u003eString-\u003eEither ParseError a",
@@ -13589,6 +14651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a literal public name, e.g., \u003ccode\u003e\u003ccode\u003en\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "pubName",
           "package": "tamarin-prover-theory",
@@ -13599,6 +14662,7 @@
         "index": {
           "description": "Parse literal public name e.g",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "pubName",
           "package": "tamarin-prover-theory",
@@ -13613,6 +14677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBetween single quotes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "singleQuoted",
           "package": "tamarin-prover-theory",
@@ -13623,6 +14688,7 @@
         "index": {
           "description": "Between single quotes",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "singleQuoted",
           "normalized": "Parser a-\u003eParser a",
@@ -13639,6 +14705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a logical variable with the given sorts allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "sortedLVar",
           "package": "tamarin-prover-theory",
@@ -13649,6 +14716,7 @@
         "index": {
           "description": "Parse logical variable with the given sorts allowed",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "sortedLVar",
           "normalized": "[LSort]-\u003eParser LVar",
@@ -13665,6 +14733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "symbol",
           "package": "tamarin-prover-theory",
@@ -13675,6 +14744,7 @@
         "index": {
           "description": "Parse symbol",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "symbol",
           "normalized": "String-\u003eParser String",
@@ -13690,6 +14760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a symbol without returning the parsed string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser.Token",
           "name": "symbol_",
           "package": "tamarin-prover-theory",
@@ -13700,6 +14771,7 @@
         "index": {
           "description": "Parse symbol without returning the parsed string",
           "hierarchy": "Theory Text Parser Token",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser.Token",
           "name": "symbol_",
           "normalized": "String-\u003eParser()",
@@ -13715,6 +14787,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing protocol theories. See the MANUAL for a high-level description of\n the syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser",
           "name": "Parser",
           "package": "tamarin-prover-theory",
@@ -13724,6 +14797,7 @@
         "index": {
           "description": "Parsing protocol theories See the MANUAL for high-level description of the syntax",
           "hierarchy": "Theory Text Parser",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser",
           "name": "Parser",
           "package": "tamarin-prover-theory",
@@ -13738,6 +14812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse DH intruder rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser",
           "name": "parseIntruderRules",
           "package": "tamarin-prover-theory",
@@ -13748,6 +14823,7 @@
         "index": {
           "description": "Parse DH intruder rules",
           "hierarchy": "Theory Text Parser",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser",
           "name": "parseIntruderRules",
           "normalized": "MaudeSig-\u003eFilePath-\u003eIO[IntrRuleAC]",
@@ -13764,6 +14840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a lemma for an open theory from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser",
           "name": "parseLemma",
           "package": "tamarin-prover-theory",
@@ -13774,6 +14851,7 @@
         "index": {
           "description": "Parse lemma for an open theory from string",
           "hierarchy": "Theory Text Parser",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser",
           "name": "parseLemma",
           "normalized": "String-\u003eEither ParseError(Lemma ProofSkeleton)",
@@ -13790,6 +14868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a security protocol theory file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser",
           "name": "parseOpenTheory",
           "package": "tamarin-prover-theory",
@@ -13799,6 +14878,7 @@
         "index": {
           "description": "Parse security protocol theory file",
           "hierarchy": "Theory Text Parser",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser",
           "name": "parseOpenTheory",
           "normalized": "[String]-\u003eFilePath-\u003eIO OpenTheory",
@@ -13815,6 +14895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a security protocol theory from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Parser",
           "name": "parseOpenTheoryString",
           "package": "tamarin-prover-theory",
@@ -13824,6 +14905,7 @@
         "index": {
           "description": "Parse security protocol theory from string",
           "hierarchy": "Theory Text Parser",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Parser",
           "name": "parseOpenTheoryString",
           "normalized": "[String]-\u003eString-\u003eEither ParseError OpenTheory",
@@ -13840,6 +14922,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral support for pretty printing theories.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "Pretty",
           "package": "tamarin-prover-theory",
@@ -13849,6 +14932,7 @@
         "index": {
           "description": "General support for pretty printing theories",
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "Pretty",
           "package": "tamarin-prover-theory",
@@ -13863,6 +14947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a list of values as a comma-separated list wrapped in\n paragraph mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "fsepList",
           "package": "tamarin-prover-theory",
@@ -13873,6 +14958,7 @@
         "index": {
           "description": "Pretty print list of values as comma-separated list wrapped in paragraph mode",
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "fsepList",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003eb",
@@ -13888,6 +14974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwAxiom",
           "package": "tamarin-prover-theory",
@@ -13897,6 +14984,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwAxiom",
           "package": "tamarin-prover-theory",
@@ -13910,6 +14998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwBy",
           "package": "tamarin-prover-theory",
@@ -13919,6 +15008,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwBy",
           "package": "tamarin-prover-theory",
@@ -13932,6 +15022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwCase",
           "package": "tamarin-prover-theory",
@@ -13941,6 +15032,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwCase",
           "package": "tamarin-prover-theory",
@@ -13954,6 +15046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwEnd",
           "package": "tamarin-prover-theory",
@@ -13963,6 +15056,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwEnd",
           "package": "tamarin-prover-theory",
@@ -13976,6 +15070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwInstanceModulo",
           "package": "tamarin-prover-theory",
@@ -13985,6 +15080,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwInstanceModulo",
           "normalized": "String-\u003ea",
@@ -14000,6 +15096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwLemma",
           "package": "tamarin-prover-theory",
@@ -14009,6 +15106,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwLemma",
           "package": "tamarin-prover-theory",
@@ -14022,6 +15120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwModulo",
           "package": "tamarin-prover-theory",
@@ -14030,6 +15129,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwModulo",
           "normalized": "String-\u003eString-\u003ea",
@@ -14045,6 +15145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwNext",
           "package": "tamarin-prover-theory",
@@ -14054,6 +15155,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwNext",
           "package": "tamarin-prover-theory",
@@ -14067,6 +15169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwQED",
           "package": "tamarin-prover-theory",
@@ -14076,6 +15179,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwQED",
           "package": "tamarin-prover-theory",
@@ -14089,6 +15193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwRuleModulo",
           "package": "tamarin-prover-theory",
@@ -14098,6 +15203,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwRuleModulo",
           "normalized": "String-\u003ea",
@@ -14113,6 +15219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwTheoryHeader",
           "package": "tamarin-prover-theory",
@@ -14122,6 +15229,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwTheoryHeader",
           "normalized": "a-\u003ea",
@@ -14137,6 +15245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwTypesModulo",
           "package": "tamarin-prover-theory",
@@ -14146,6 +15255,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwTypesModulo",
           "normalized": "String-\u003ea",
@@ -14161,6 +15271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "kwVariantsModulo",
           "package": "tamarin-prover-theory",
@@ -14170,6 +15281,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "kwVariantsModulo",
           "normalized": "String-\u003ea",
@@ -14185,6 +15297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "lineComment",
           "package": "tamarin-prover-theory",
@@ -14194,6 +15307,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "lineComment",
           "normalized": "a-\u003ea",
@@ -14209,6 +15323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "lineComment_",
           "package": "tamarin-prover-theory",
@@ -14218,6 +15333,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "lineComment_",
           "normalized": "String-\u003ea",
@@ -14233,6 +15349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "multiComment",
           "package": "tamarin-prover-theory",
@@ -14242,6 +15359,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "multiComment",
           "normalized": "a-\u003ea",
@@ -14257,6 +15375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "multiComment_",
           "package": "tamarin-prover-theory",
@@ -14266,6 +15385,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "multiComment_",
           "normalized": "[String]-\u003ea",
@@ -14281,6 +15401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opAction",
           "package": "tamarin-prover-theory",
@@ -14290,6 +15411,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opAction",
           "package": "tamarin-prover-theory",
@@ -14303,6 +15425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opDedBefore",
           "package": "tamarin-prover-theory",
@@ -14312,6 +15435,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opDedBefore",
           "package": "tamarin-prover-theory",
@@ -14325,6 +15449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opDot",
           "package": "tamarin-prover-theory",
@@ -14334,6 +15459,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opDot",
           "package": "tamarin-prover-theory",
@@ -14347,6 +15473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opEdge",
           "package": "tamarin-prover-theory",
@@ -14356,6 +15483,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opEdge",
           "package": "tamarin-prover-theory",
@@ -14369,6 +15497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opEqual",
           "package": "tamarin-prover-theory",
@@ -14378,6 +15507,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opEqual",
           "package": "tamarin-prover-theory",
@@ -14391,6 +15521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opExists",
           "package": "tamarin-prover-theory",
@@ -14400,6 +15531,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opExists",
           "package": "tamarin-prover-theory",
@@ -14413,6 +15545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opForall",
           "package": "tamarin-prover-theory",
@@ -14422,6 +15555,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opForall",
           "package": "tamarin-prover-theory",
@@ -14435,6 +15569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opIff",
           "package": "tamarin-prover-theory",
@@ -14444,6 +15579,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opIff",
           "package": "tamarin-prover-theory",
@@ -14457,6 +15593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opImp",
           "package": "tamarin-prover-theory",
@@ -14466,6 +15603,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opImp",
           "package": "tamarin-prover-theory",
@@ -14479,6 +15617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opLAnd",
           "package": "tamarin-prover-theory",
@@ -14488,6 +15627,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opLAnd",
           "package": "tamarin-prover-theory",
@@ -14501,6 +15641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opLOr",
           "package": "tamarin-prover-theory",
@@ -14510,6 +15651,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opLOr",
           "package": "tamarin-prover-theory",
@@ -14523,6 +15665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opLess",
           "package": "tamarin-prover-theory",
@@ -14532,6 +15675,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opLess",
           "package": "tamarin-prover-theory",
@@ -14545,6 +15689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opPath",
           "package": "tamarin-prover-theory",
@@ -14554,6 +15699,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opPath",
           "package": "tamarin-prover-theory",
@@ -14567,6 +15713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opProvides",
           "package": "tamarin-prover-theory",
@@ -14576,6 +15723,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opProvides",
           "package": "tamarin-prover-theory",
@@ -14589,6 +15737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "opRequires",
           "package": "tamarin-prover-theory",
@@ -14598,6 +15747,7 @@
         },
         "index": {
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "opRequires",
           "package": "tamarin-prover-theory",
@@ -14612,6 +15762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertically separate a list of documents by empty lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Text.Pretty",
           "name": "vsep",
           "package": "tamarin-prover-theory",
@@ -14622,6 +15773,7 @@
         "index": {
           "description": "Vertically separate list of documents by empty lines",
           "hierarchy": "Theory Text Pretty",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Text.Pretty",
           "name": "vsep",
           "normalized": "[a]-\u003ea",
@@ -14637,6 +15789,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstract intepretation for partial evaluation of multiset rewriting\n systems.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "AbstractInterpretation",
           "package": "tamarin-prover-theory",
@@ -14646,6 +15799,7 @@
         "index": {
           "description": "Abstract intepretation for partial evaluation of multiset rewriting systems",
           "hierarchy": "Theory Tools AbstractInterpretation",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "AbstractInterpretation",
           "package": "tamarin-prover-theory",
@@ -14660,6 +15814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to report on performing a partial evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "EvaluationStyle",
           "package": "tamarin-prover-theory",
@@ -14669,6 +15824,7 @@
         "index": {
           "description": "How to report on performing partial evaluation",
           "hierarchy": "Theory Tools AbstractInterpretation",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "EvaluationStyle",
           "package": "tamarin-prover-theory",
@@ -14682,6 +15838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "Silent",
           "package": "tamarin-prover-theory",
@@ -14691,6 +15848,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools AbstractInterpretation",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "Silent",
           "package": "tamarin-prover-theory",
@@ -14704,6 +15862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "Summary",
           "package": "tamarin-prover-theory",
@@ -14713,6 +15872,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools AbstractInterpretation",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "Summary",
           "package": "tamarin-prover-theory",
@@ -14726,6 +15886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "Tracing",
           "package": "tamarin-prover-theory",
@@ -14735,6 +15896,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools AbstractInterpretation",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "Tracing",
           "package": "tamarin-prover-theory",
@@ -14749,6 +15911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigher-order combinator to construct abstract interpreters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "interpretAbstractly",
           "package": "tamarin-prover-theory",
@@ -14758,6 +15921,7 @@
         "index": {
           "description": "Higher-order combinator to construct abstract interpreters",
           "hierarchy": "Theory Tools AbstractInterpretation",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "interpretAbstractly",
           "normalized": "([Equal LNFact]-\u003e[LNSubstVFresh])-\u003ea-\u003e(LNFact-\u003ea-\u003ea)-\u003e(a-\u003e[LNFact])-\u003e[Rule b]-\u003e[(a,[Rule b])]",
@@ -14774,6 +15938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete partial evaluator activated with flag: --partial-evaluation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "partialEvaluation",
           "package": "tamarin-prover-theory",
@@ -14784,6 +15949,7 @@
         "index": {
           "description": "Concrete partial evaluator activated with flag partial-evaluation",
           "hierarchy": "Theory Tools AbstractInterpretation",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.AbstractInterpretation",
           "name": "partialEvaluation",
           "normalized": "EvaluationStyle-\u003e[ProtoRuleE]-\u003eWithMaude(Set LNFact,[ProtoRuleE])",
@@ -14800,6 +15966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for reasoning with and about disjunctions of substitutions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "EquationStore",
           "package": "tamarin-prover-theory",
@@ -14809,6 +15976,7 @@
         "index": {
           "description": "Support for reasoning with and about disjunctions of substitutions",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "EquationStore",
           "package": "tamarin-prover-theory",
@@ -14822,6 +15990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "EqStore",
           "package": "tamarin-prover-theory",
@@ -14830,6 +15999,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "EqStore",
           "package": "tamarin-prover-theory",
@@ -14844,6 +16014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of disjunction in equation store\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "SplitId",
           "package": "tamarin-prover-theory",
@@ -14853,6 +16024,7 @@
         "index": {
           "description": "Index of disjunction in equation store",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "SplitId",
           "package": "tamarin-prover-theory",
@@ -14866,6 +16038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "EqStore",
           "package": "tamarin-prover-theory",
@@ -14875,6 +16048,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "EqStore",
           "package": "tamarin-prover-theory",
@@ -14888,6 +16062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "SplitId",
           "package": "tamarin-prover-theory",
@@ -14897,6 +16072,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "SplitId",
           "package": "tamarin-prover-theory",
@@ -14910,6 +16086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "_eqsConj",
           "package": "tamarin-prover-theory",
@@ -14919,6 +16096,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "_eqsConj",
           "normalized": "Conj(SplitId,Set LNSubstVFresh)",
@@ -14934,6 +16112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "_eqsNextSplitId",
           "package": "tamarin-prover-theory",
@@ -14943,6 +16122,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "_eqsNextSplitId",
           "package": "tamarin-prover-theory",
@@ -14956,6 +16136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "_eqsSubst",
           "package": "tamarin-prover-theory",
@@ -14965,6 +16146,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "_eqsSubst",
           "package": "tamarin-prover-theory",
@@ -14979,6 +16161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a disjunction to the equation store at the beginning\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "addDisj",
           "package": "tamarin-prover-theory",
@@ -14989,6 +16172,7 @@
         "index": {
           "description": "Add disjunction to the equation store at the beginning",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "addDisj",
           "normalized": "EqStore-\u003eSet LNSubstVFresh-\u003e(EqStore,SplitId)",
@@ -15005,6 +16189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a list of term equalities to the equation store. Returns the split\n identifier of the disjunction in resulting equation store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "addEqs",
           "package": "tamarin-prover-theory",
@@ -15015,6 +16200,7 @@
         "index": {
           "description": "Add list of term equalities to the equation store Returns the split identifier of the disjunction in resulting equation store",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "addEqs",
           "normalized": "MaudeHandle-\u003e[Equal LNTerm]-\u003eEqStore-\u003ea(EqStore,Maybe SplitId)",
@@ -15031,6 +16217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the given rule variants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "addRuleVariants",
           "package": "tamarin-prover-theory",
@@ -15041,6 +16228,7 @@
         "index": {
           "description": "Add the given rule variants",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "addRuleVariants",
           "normalized": "Disj LNSubstVFresh-\u003eEqStore-\u003e(EqStore,SplitId)",
@@ -15056,6 +16244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "dropNameHintsBound",
           "package": "tamarin-prover-theory",
@@ -15065,6 +16254,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "dropNameHintsBound",
           "normalized": "EqStore-\u003eEqStore",
@@ -15081,6 +16271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eemptyEqStore\u003c/code\u003e is the empty equation store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "emptyEqStore",
           "package": "tamarin-prover-theory",
@@ -15091,6 +16282,7 @@
         "index": {
           "description": "emptyEqStore is the empty equation store",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "emptyEqStore",
           "package": "tamarin-prover-theory",
@@ -15104,6 +16296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "eqsConj",
           "package": "tamarin-prover-theory",
@@ -15113,6 +16306,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "eqsConj",
           "normalized": "Lens a EqStore(Conj(SplitId,Set LNSubstVFresh))",
@@ -15129,6 +16323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTrue\u003c/code\u003e iff the \u003ccode\u003e\u003ca\u003eEqStore\u003c/a\u003e\u003c/code\u003e is contradictory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "eqsIsFalse",
           "package": "tamarin-prover-theory",
@@ -15139,6 +16334,7 @@
         "index": {
           "description": "True iff the EqStore is contradictory",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "eqsIsFalse",
           "normalized": "EqStore-\u003eBool",
@@ -15154,6 +16350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "eqsSubst",
           "package": "tamarin-prover-theory",
@@ -15163,6 +16360,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "eqsSubst",
           "package": "tamarin-prover-theory",
@@ -15177,6 +16375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe false conjunction. It is always identified with split number -1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "falseEqConstrConj",
           "package": "tamarin-prover-theory",
@@ -15187,6 +16386,7 @@
         "index": {
           "description": "The false conjunction It is always identified with split number",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "falseEqConstrConj",
           "normalized": "Conj(SplitId,Set LNSubstVFresh)",
@@ -15203,6 +16403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eperformSplit eqs i\u003c/code\u003e performs a case-split on the first disjunction\n with the given \u003ccode\u003e\u003ca\u003eSplitId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "performSplit",
           "package": "tamarin-prover-theory",
@@ -15213,6 +16414,7 @@
         "index": {
           "description": "performSplit eqs performs case-split on the first disjunction with the given SplitId",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "performSplit",
           "normalized": "EqStore-\u003eSplitId-\u003eMaybe[EqStore]",
@@ -15229,6 +16431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print an \u003ccode\u003e\u003ca\u003eEqStore\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "prettyEqStore",
           "package": "tamarin-prover-theory",
@@ -15239,6 +16442,7 @@
         "index": {
           "description": "Pretty print an EqStore",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "prettyEqStore",
           "normalized": "EqStore-\u003ea",
@@ -15255,6 +16459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esimp eqStore\u003c/code\u003e simplifies the equation store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "simp",
           "package": "tamarin-prover-theory",
@@ -15265,6 +16470,7 @@
         "index": {
           "description": "simp eqStore simplifies the equation store",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "simp",
           "normalized": "MaudeHandle-\u003e(LNSubst-\u003eLNSubstVFresh-\u003eBool)-\u003eEqStore-\u003ea EqStore",
@@ -15280,6 +16486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplify given disjunction via EqStore simplification. Obtains fresh\n   names for variables from the underlying \u003ccode\u003e\u003ca\u003eMonadFresh\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "simpDisjunction",
           "package": "tamarin-prover-theory",
@@ -15290,6 +16497,7 @@
         "index": {
           "description": "Simplify given disjunction via EqStore simplification Obtains fresh names for variables from the underlying MonadFresh",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "simpDisjunction",
           "normalized": "MaudeHandle-\u003e(LNSubst-\u003eLNSubstVFresh-\u003eBool)-\u003eDisj LNSubstVFresh-\u003ea(LNSubst,Maybe[LNSubstVFresh])",
@@ -15306,6 +16514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the \u003ccode\u003e\u003ca\u003eSplitId\u003c/a\u003e\u003c/code\u003e is valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "splitExists",
           "package": "tamarin-prover-theory",
@@ -15316,6 +16525,7 @@
         "index": {
           "description": "Returns True if the SplitId is valid",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "splitExists",
           "normalized": "EqStore-\u003eSplitId-\u003eBool",
@@ -15332,6 +16542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of cases for a given \u003ccode\u003e\u003ca\u003eSplitId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "splitSize",
           "package": "tamarin-prover-theory",
@@ -15342,6 +16553,7 @@
         "index": {
           "description": "Returns the number of cases for given SplitId",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "splitSize",
           "normalized": "EqStore-\u003eSplitId-\u003eMaybe Int",
@@ -15358,6 +16570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the list of all \u003ccode\u003eSplitId\u003c/code\u003es valid for the given equation store\n sorted by the size of the disjunctions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "splits",
           "package": "tamarin-prover-theory",
@@ -15368,6 +16581,7 @@
         "index": {
           "description": "Returns the list of all SplitId valid for the given equation store sorted by the size of the disjunctions",
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "splits",
           "normalized": "EqStore-\u003e[SplitId]",
@@ -15382,6 +16596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.EquationStore",
           "name": "unSplitId",
           "package": "tamarin-prover-theory",
@@ -15391,6 +16606,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools EquationStore",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.EquationStore",
           "name": "unSplitId",
           "package": "tamarin-prover-theory",
@@ -15405,6 +16621,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComputate an under-approximation to the set of all facts with unique\n instances, i.e., fact whose instances never occur more than once in a\n state. We use this information to reason about protocols that exploit\n exclusivity of linear facts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.InjectiveFactInstances",
           "name": "InjectiveFactInstances",
           "package": "tamarin-prover-theory",
@@ -15414,6 +16631,7 @@
         "index": {
           "description": "Computate an under-approximation to the set of all facts with unique instances i.e fact whose instances never occur more than once in state We use this information to reason about protocols that exploit exclusivity of linear facts",
           "hierarchy": "Theory Tools InjectiveFactInstances",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.InjectiveFactInstances",
           "name": "InjectiveFactInstances",
           "package": "tamarin-prover-theory",
@@ -15428,6 +16646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a simple under-approximation to the set of facts with injective\n instances. A fact-tag is has injective instances, if there is no state of\n the protocol with more than one instance with the same term as a first\n argument of the fact-tag.\n\u003c/p\u003e\u003cp\u003eWe compute the under-approximation by checking that\n (1) the fact-tag is linear,\n (2) every introduction of such a fact-tag is protected by a Fr-fact of the\n     first term, and\n (3) every rule has at most one copy of this fact-tag in the conlcusion and\n     the first term arguments agree.\n\u003c/p\u003e\u003cp\u003eWe exclude facts that are not copied in a rule, as they are already handled\n properly by the naive backwards reasoning.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.InjectiveFactInstances",
           "name": "simpleInjectiveFactInstances",
           "package": "tamarin-prover-theory",
@@ -15438,6 +16657,7 @@
         "index": {
           "description": "Compute simple under-approximation to the set of facts with injective instances fact-tag is has injective instances if there is no state of the protocol with more than one instance with the same term as first argument of the fact-tag We compute the under-approximation by checking that the fact-tag is linear every introduction of such fact-tag is protected by Fr-fact of the first term and every rule has at most one copy of this fact-tag in the conlcusion and the first term arguments agree We exclude facts that are not copied in rule as they are already handled properly by the naive backwards reasoning",
           "hierarchy": "Theory Tools InjectiveFactInstances",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.InjectiveFactInstances",
           "name": "simpleInjectiveFactInstances",
           "normalized": "[ProtoRuleE]-\u003eSet FactTag",
@@ -15453,6 +16673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.IntruderRules",
           "name": "IntruderRules",
           "package": "tamarin-prover-theory",
@@ -15461,6 +16682,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools IntruderRules",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.IntruderRules",
           "name": "IntruderRules",
           "package": "tamarin-prover-theory",
@@ -15474,6 +16696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.IntruderRules",
           "name": "bpIntruderRules",
           "package": "tamarin-prover-theory",
@@ -15483,6 +16706,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools IntruderRules",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.IntruderRules",
           "name": "bpIntruderRules",
           "normalized": "WithMaude[IntrRuleAC]",
@@ -15499,6 +16723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edhIntruderRules\u003c/code\u003e computes the intruder rules for DH\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.IntruderRules",
           "name": "dhIntruderRules",
           "package": "tamarin-prover-theory",
@@ -15509,6 +16734,7 @@
         "index": {
           "description": "dhIntruderRules computes the intruder rules for DH",
           "hierarchy": "Theory Tools IntruderRules",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.IntruderRules",
           "name": "dhIntruderRules",
           "normalized": "WithMaude[IntrRuleAC]",
@@ -15524,6 +16750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.IntruderRules",
           "name": "isDEMapRule",
           "package": "tamarin-prover-theory",
@@ -15533,6 +16760,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools IntruderRules",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.IntruderRules",
           "name": "isDEMapRule",
           "normalized": "Rule(RuleInfo a IntrRuleACInfo)-\u003eBool",
@@ -15548,6 +16776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.IntruderRules",
           "name": "isDExpRule",
           "package": "tamarin-prover-theory",
@@ -15557,6 +16786,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools IntruderRules",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.IntruderRules",
           "name": "isDExpRule",
           "normalized": "Rule(RuleInfo a IntrRuleACInfo)-\u003eBool",
@@ -15572,6 +16802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.IntruderRules",
           "name": "isDPMultRule",
           "package": "tamarin-prover-theory",
@@ -15581,6 +16812,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools IntruderRules",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.IntruderRules",
           "name": "isDPMultRule",
           "normalized": "Rule(RuleInfo a IntrRuleACInfo)-\u003eBool",
@@ -15596,6 +16828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.IntruderRules",
           "name": "mkDUnionRule",
           "package": "tamarin-prover-theory",
@@ -15605,6 +16838,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools IntruderRules",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.IntruderRules",
           "name": "mkDUnionRule",
           "normalized": "[LNTerm]-\u003eLNTerm-\u003eIntrRuleAC",
@@ -15620,6 +16854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.IntruderRules",
           "name": "multisetIntruderRules",
           "package": "tamarin-prover-theory",
@@ -15629,6 +16864,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools IntruderRules",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.IntruderRules",
           "name": "multisetIntruderRules",
           "normalized": "[IntrRuleAC]",
@@ -15645,6 +16881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003especialIntruderRules\u003c/code\u003e returns the special intruder rules that are\n   included independently of the message theory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.IntruderRules",
           "name": "specialIntruderRules",
           "package": "tamarin-prover-theory",
@@ -15655,6 +16892,7 @@
         "index": {
           "description": "specialIntruderRules returns the special intruder rules that are included independently of the message theory",
           "hierarchy": "Theory Tools IntruderRules",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.IntruderRules",
           "name": "specialIntruderRules",
           "normalized": "[IntrRuleAC]",
@@ -15671,6 +16909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esubtermIntruderRules maudeSig\u003c/code\u003e returns the set of intruder rules for\n   the subterm (not Xor, DH, and MSet) part of the given signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.IntruderRules",
           "name": "subtermIntruderRules",
           "package": "tamarin-prover-theory",
@@ -15681,6 +16920,7 @@
         "index": {
           "description": "subtermIntruderRules maudeSig returns the set of intruder rules for the subterm not Xor DH and MSet part of the given signature",
           "hierarchy": "Theory Tools IntruderRules",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.IntruderRules",
           "name": "subtermIntruderRules",
           "normalized": "MaudeSig-\u003e[IntrRuleAC]",
@@ -15697,6 +16937,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComputate the loop-breakers in the premise-conclusion graph of a set of\n multiset rewriting rules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.LoopBreakers",
           "name": "LoopBreakers",
           "package": "tamarin-prover-theory",
@@ -15706,6 +16947,7 @@
         "index": {
           "description": "Computate the loop-breakers in the premise-conclusion graph of set of multiset rewriting rules",
           "hierarchy": "Theory Tools LoopBreakers",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.LoopBreakers",
           "name": "LoopBreakers",
           "package": "tamarin-prover-theory",
@@ -15720,6 +16962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all loop-breaker information with loop-breakers computed\n automatically from the dataflow relation \u003ccode\u003edataflowRelAC\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.LoopBreakers",
           "name": "useAutoLoopBreakersAC",
           "package": "tamarin-prover-theory",
@@ -15729,6 +16972,7 @@
         "index": {
           "description": "Replace all loop-breaker information with loop-breakers computed automatically from the dataflow relation dataflowRelAC",
           "hierarchy": "Theory Tools LoopBreakers",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.LoopBreakers",
           "name": "useAutoLoopBreakersAC",
           "normalized": "(a-\u003e[(PremIdx,LNFact)])-\u003e(a-\u003e[(ConcIdx,LNFact)])-\u003e(a-\u003e[LNSubstVFresh])-\u003e([PremIdx]-\u003ea-\u003ea)-\u003e[a]-\u003eWithMaude([a],Relation(a,PremIdx),[(a,PremIdx)])",
@@ -15745,6 +16989,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVariants of protocol rules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.RuleVariants",
           "name": "RuleVariants",
           "package": "tamarin-prover-theory",
@@ -15754,6 +16999,7 @@
         "index": {
           "description": "Variants of protocol rules",
           "hierarchy": "Theory Tools RuleVariants",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.RuleVariants",
           "name": "RuleVariants",
           "package": "tamarin-prover-theory",
@@ -15767,6 +17013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.RuleVariants",
           "name": "computeVariantsCached",
           "package": "tamarin-prover-theory",
@@ -15776,6 +17023,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools RuleVariants",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.RuleVariants",
           "name": "computeVariantsCached",
           "normalized": "LNTerm-\u003eMaudeHandle-\u003e[LNSubstVFresh]",
@@ -15791,6 +17039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.RuleVariants",
           "name": "tmpdir",
           "package": "tamarin-prover-theory",
@@ -15800,6 +17049,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools RuleVariants",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.RuleVariants",
           "name": "tmpdir",
           "package": "tamarin-prover-theory",
@@ -15813,6 +17063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the variants of a protocol rule.\n   1. Abstract away terms in facts with variables.\n   2. Compute variants of RHSs of equations.\n   3. Apply variant substitutions to equations\n      to obtain DNF of equations.\n   4. Simplify rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.RuleVariants",
           "name": "variantsProtoRule",
           "package": "tamarin-prover-theory",
@@ -15823,6 +17074,7 @@
         "index": {
           "description": "Compute the variants of protocol rule Abstract away terms in facts with variables Compute variants of RHSs of equations Apply variant substitutions to equations to obtain DNF of equations Simplify rule",
           "hierarchy": "Theory Tools RuleVariants",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.RuleVariants",
           "name": "variantsProtoRule",
           "normalized": "MaudeHandle-\u003eProtoRuleE-\u003eProtoRuleAC",
@@ -15839,6 +17091,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWellformedness checks for intruder variants, protocol rules, and\n properties.\n\u003c/p\u003e\u003cp\u003eThe following checks are/should be performed\n (FIXME: compare the list below to what is really implemented.)\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eprotocol rules\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003col\u003e\u003cli\u003e no fresh names in rule. (protocol cond. 1)\n     ==\u003e freshNamesReport\n\u003c/li\u003e\u003cli\u003e no Out or K facts in premises. (protocol cond. 2)\n     ==\u003e factReports\n\u003c/li\u003e\u003cli\u003e no Fr, In, or K facts in conclusions. (protocol cond. 3)\n     ==\u003e factReports\n\u003c/li\u003e\u003cli\u003e vars(rhs) subset of vars(lhs) u V_Pub\n     ==\u003e multRestrictedReport\n\u003c/li\u003e\u003cli\u003e lhs does not contain reducible function symbols (*-restricted (a))\n     ==\u003e multRestrictedReport\n\u003c/li\u003e\u003cli\u003e rhs does not contain * (*-restricted (b))\n     ==\u003e multRestrictedReport\n\u003c/li\u003e\u003cli\u003e all facts are used with the same arity.\n\u003c/li\u003e\u003cli\u003e fr, in, and out, facts are used with arity 1.\n\u003c/li\u003e\u003cli\u003e fr facts are used with a variable of sort msg or sort fresh\n\u003c/li\u003e\u003cli\u003e fresh facts of the same rule contain different variables. [TODO]\n\u003c/li\u003e\u003cli\u003e no protocol fact uses a reserved name =\u003e\n        [TODO] change parser to ensure this and pretty printer to show this.\n\u003c/li\u003e\u003c/ol\u003e\u003cdl\u003e\u003cdt\u003esecurity properties\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003col\u003e\u003cli\u003e all facts occur with the same arity in the action of some\n        protocol rule.\n\u003c/li\u003e\u003cli\u003e no node variable is used in a message position and vice versa.\n\u003c/li\u003e\u003c/ol\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.Wellformedness",
           "name": "Wellformedness",
           "package": "tamarin-prover-theory",
@@ -15848,6 +17101,7 @@
         "index": {
           "description": "Wellformedness checks for intruder variants protocol rules and properties The following checks are should be performed FIXME compare the list below to what is really implemented protocol rules no fresh names in rule protocol cond freshNamesReport no Out or facts in premises protocol cond factReports no Fr In or facts in conclusions protocol cond factReports vars rhs subset of vars lhs Pub multRestrictedReport lhs does not contain reducible function symbols restricted multRestrictedReport rhs does not contain restricted multRestrictedReport all facts are used with the same arity fr in and out facts are used with arity fr facts are used with variable of sort msg or sort fresh fresh facts of the same rule contain different variables TODO no protocol fact uses reserved name TODO change parser to ensure this and pretty printer to show this security properties all facts occur with the same arity in the action of some protocol rule no node variable is used in message position and vice versa",
           "hierarchy": "Theory Tools Wellformedness",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.Wellformedness",
           "name": "Wellformedness",
           "package": "tamarin-prover-theory",
@@ -15861,6 +17115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.Wellformedness",
           "name": "WfErrorReport",
           "package": "tamarin-prover-theory",
@@ -15869,6 +17124,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools Wellformedness",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.Wellformedness",
           "name": "WfErrorReport",
           "package": "tamarin-prover-theory",
@@ -15883,6 +17139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll 2-multicombinations of a list.\n multicombine2 :: [a] -\u003e [(a,a)]\n multicombine2 xs0 = do (x,xs) \u003ca\u003ezip xs0 $ tails xs0; (,) x \u003c$\u003c/a\u003e xs\n\u003c/p\u003e\u003cp\u003eReturns a list of errors, if there are any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.Wellformedness",
           "name": "checkWellformedness",
           "package": "tamarin-prover-theory",
@@ -15893,6 +17150,7 @@
         "index": {
           "description": "All multicombinations of list multicombine2 multicombine2 xs0 do xs zip xs0 tails xs0 xs Returns list of errors if there are any",
           "hierarchy": "Theory Tools Wellformedness",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.Wellformedness",
           "name": "checkWellformedness",
           "normalized": "OpenTheory-\u003eWfErrorReport",
@@ -15909,6 +17167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a note to the end of the theory, if it is not well-formed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.Wellformedness",
           "name": "noteWellformedness",
           "package": "tamarin-prover-theory",
@@ -15919,6 +17178,7 @@
         "index": {
           "description": "Adds note to the end of the theory if it is not well-formed",
           "hierarchy": "Theory Tools Wellformedness",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.Wellformedness",
           "name": "noteWellformedness",
           "normalized": "WfErrorReport-\u003eOpenTheory-\u003eOpenTheory",
@@ -15934,6 +17194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory.Tools.Wellformedness",
           "name": "prettyWfErrorReport",
           "package": "tamarin-prover-theory",
@@ -15943,6 +17204,7 @@
         },
         "index": {
           "hierarchy": "Theory Tools Wellformedness",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory.Tools.Wellformedness",
           "name": "prettyWfErrorReport",
           "normalized": "WfErrorReport-\u003eDoc",
@@ -15959,6 +17221,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTheory datatype and transformations on it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "Theory",
           "package": "tamarin-prover-theory",
@@ -15968,6 +17231,7 @@
         "index": {
           "description": "Theory datatype and transformations on it",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "Theory",
           "package": "tamarin-prover-theory",
@@ -15982,6 +17246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn axiom describes a property that must hold for all traces. Axioms are\n always used as lemmas in proofs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "Axiom",
           "package": "tamarin-prover-theory",
@@ -15991,6 +17256,7 @@
         "index": {
           "description": "An axiom describes property that must hold for all traces Axioms are always used as lemmas in proofs",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "Axiom",
           "package": "tamarin-prover-theory",
@@ -16005,6 +17271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA closed proto rule lists its original rule modulo E, the corresponding\n variant modulo AC, and if required the assertion soundness proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "ClosedProtoRule",
           "package": "tamarin-prover-theory",
@@ -16014,6 +17281,7 @@
         "index": {
           "description": "closed proto rule lists its original rule modulo the corresponding variant modulo AC and if required the assertion soundness proof",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "ClosedProtoRule",
           "package": "tamarin-prover-theory",
@@ -16027,6 +17295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "ClosedRuleCache",
           "package": "tamarin-prover-theory",
@@ -16035,6 +17304,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "ClosedRuleCache",
           "package": "tamarin-prover-theory",
@@ -16049,6 +17319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClosed theories can be proven. Invariants:\n     1. Lemma names are unique\n     2. All proof steps with annotated sequents are sound with respect to the\n        closed rule set of the theory.\n     3. Maude is running under the given handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "ClosedTheory",
           "package": "tamarin-prover-theory",
@@ -16058,6 +17329,7 @@
         "index": {
           "description": "Closed theories can be proven Invariants Lemma names are unique All proof steps with annotated sequents are sound with respect to the closed rule set of the theory Maude is running under the given handle",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "ClosedTheory",
           "package": "tamarin-prover-theory",
@@ -16072,6 +17344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lemma describes a property that holds in the context of a theory\n together with a proof of its correctness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "Lemma",
           "package": "tamarin-prover-theory",
@@ -16081,6 +17354,7 @@
         "index": {
           "description": "lemma describes property that holds in the context of theory together with proof of its correctness",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "Lemma",
           "package": "tamarin-prover-theory",
@@ -16095,6 +17369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn attribute for a \u003ccode\u003e\u003ca\u003eLemma\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "LemmaAttribute",
           "package": "tamarin-prover-theory",
@@ -16104,6 +17379,7 @@
         "index": {
           "description": "An attribute for Lemma",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "LemmaAttribute",
           "package": "tamarin-prover-theory",
@@ -16118,6 +17394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen theories can be extended. Invariants:\n   1. Lemma names are unique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "OpenTheory",
           "package": "tamarin-prover-theory",
@@ -16127,6 +17404,7 @@
         "index": {
           "description": "Open theories can be extended Invariants Lemma names are unique",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "OpenTheory",
           "package": "tamarin-prover-theory",
@@ -16141,6 +17419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProof skeletons are used to represent proofs in open theories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "ProofSkeleton",
           "package": "tamarin-prover-theory",
@@ -16150,6 +17429,7 @@
         "index": {
           "description": "Proof skeletons are used to represent proofs in open theories",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "ProofSkeleton",
           "package": "tamarin-prover-theory",
@@ -16164,6 +17444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA theory contains a single set of rewriting rules modeling a protocol\n and the lemmas that\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "Theory",
           "package": "tamarin-prover-theory",
@@ -16173,6 +17454,7 @@
         "index": {
           "description": "theory contains single set of rewriting rules modeling protocol and the lemmas that",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "Theory",
           "package": "tamarin-prover-theory",
@@ -16187,6 +17469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA theory item built over the given rule type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "TheoryItem",
           "package": "tamarin-prover-theory",
@@ -16196,6 +17479,7 @@
         "index": {
           "description": "theory item built over the given rule type",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "TheoryItem",
           "package": "tamarin-prover-theory",
@@ -16210,6 +17494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTraceQuantifier\u003c/a\u003e\u003c/code\u003e stating whether we check satisfiability of validity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "TraceQuantifier",
           "package": "tamarin-prover-theory",
@@ -16219,6 +17504,7 @@
         "index": {
           "description": "TraceQuantifier stating whether we check satisfiability of validity",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "TraceQuantifier",
           "package": "tamarin-prover-theory",
@@ -16232,6 +17518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "AllTraces",
           "package": "tamarin-prover-theory",
@@ -16241,6 +17528,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "AllTraces",
           "package": "tamarin-prover-theory",
@@ -16254,6 +17542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "Axiom",
           "package": "tamarin-prover-theory",
@@ -16263,6 +17552,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "Axiom",
           "package": "tamarin-prover-theory",
@@ -16276,6 +17566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "AxiomItem",
           "package": "tamarin-prover-theory",
@@ -16285,6 +17576,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "AxiomItem",
           "package": "tamarin-prover-theory",
@@ -16298,6 +17590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "ClosedProtoRule",
           "package": "tamarin-prover-theory",
@@ -16307,6 +17600,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "ClosedProtoRule",
           "package": "tamarin-prover-theory",
@@ -16320,6 +17614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "ClosedRuleCache",
           "package": "tamarin-prover-theory",
@@ -16329,6 +17624,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "ClosedRuleCache",
           "package": "tamarin-prover-theory",
@@ -16342,6 +17638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "ExistsTrace",
           "package": "tamarin-prover-theory",
@@ -16351,6 +17648,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "ExistsTrace",
           "package": "tamarin-prover-theory",
@@ -16364,6 +17662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "InvariantLemma",
           "package": "tamarin-prover-theory",
@@ -16373,6 +17672,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "InvariantLemma",
           "package": "tamarin-prover-theory",
@@ -16386,6 +17686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "LemmaItem",
           "package": "tamarin-prover-theory",
@@ -16395,6 +17696,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "LemmaItem",
           "package": "tamarin-prover-theory",
@@ -16408,6 +17710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "ReuseLemma",
           "package": "tamarin-prover-theory",
@@ -16417,6 +17720,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "ReuseLemma",
           "package": "tamarin-prover-theory",
@@ -16430,6 +17734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "RuleItem",
           "package": "tamarin-prover-theory",
@@ -16439,6 +17744,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "RuleItem",
           "package": "tamarin-prover-theory",
@@ -16452,6 +17758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "TextItem",
           "package": "tamarin-prover-theory",
@@ -16461,6 +17768,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "TextItem",
           "package": "tamarin-prover-theory",
@@ -16474,6 +17782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "Theory",
           "package": "tamarin-prover-theory",
@@ -16483,6 +17792,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "Theory",
           "package": "tamarin-prover-theory",
@@ -16496,6 +17806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "TypingLemma",
           "package": "tamarin-prover-theory",
@@ -16505,6 +17816,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "TypingLemma",
           "package": "tamarin-prover-theory",
@@ -16518,6 +17830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_axFormula",
           "package": "tamarin-prover-theory",
@@ -16527,6 +17840,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_axFormula",
           "package": "tamarin-prover-theory",
@@ -16540,6 +17854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_axName",
           "package": "tamarin-prover-theory",
@@ -16549,6 +17864,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_axName",
           "package": "tamarin-prover-theory",
@@ -16562,6 +17878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_cprRuleAC",
           "package": "tamarin-prover-theory",
@@ -16571,6 +17888,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_cprRuleAC",
           "package": "tamarin-prover-theory",
@@ -16584,6 +17902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_cprRuleE",
           "package": "tamarin-prover-theory",
@@ -16593,6 +17912,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_cprRuleE",
           "package": "tamarin-prover-theory",
@@ -16606,6 +17926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_crcInjectiveFactInsts",
           "package": "tamarin-prover-theory",
@@ -16615,6 +17936,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_crcInjectiveFactInsts",
           "package": "tamarin-prover-theory",
@@ -16628,6 +17950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_crcRules",
           "package": "tamarin-prover-theory",
@@ -16637,6 +17960,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_crcRules",
           "package": "tamarin-prover-theory",
@@ -16650,6 +17974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_crcTypedCaseDists",
           "package": "tamarin-prover-theory",
@@ -16659,6 +17984,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_crcTypedCaseDists",
           "normalized": "[CaseDistinction]",
@@ -16674,6 +18000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_crcUntypedCaseDists",
           "package": "tamarin-prover-theory",
@@ -16683,6 +18010,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_crcUntypedCaseDists",
           "normalized": "[CaseDistinction]",
@@ -16698,6 +18026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_thyCache",
           "package": "tamarin-prover-theory",
@@ -16707,6 +18036,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_thyCache",
           "package": "tamarin-prover-theory",
@@ -16720,6 +18050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_thyItems",
           "package": "tamarin-prover-theory",
@@ -16729,6 +18060,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_thyItems",
           "normalized": "[TheoryItem a b]",
@@ -16744,6 +18076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_thyName",
           "package": "tamarin-prover-theory",
@@ -16753,6 +18086,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_thyName",
           "package": "tamarin-prover-theory",
@@ -16766,6 +18100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "_thySignature",
           "package": "tamarin-prover-theory",
@@ -16775,6 +18110,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "_thySignature",
           "package": "tamarin-prover-theory",
@@ -16789,6 +18125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new axiom. Fails, if axiom with the same name exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "addAxiom",
           "package": "tamarin-prover-theory",
@@ -16799,6 +18136,7 @@
         "index": {
           "description": "Add new axiom Fails if axiom with the same name exists",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "addAxiom",
           "normalized": "Axiom-\u003eTheory a b c d-\u003eMaybe(Theory a b c d)",
@@ -16815,6 +18153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a comment to the theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "addComment",
           "package": "tamarin-prover-theory",
@@ -16825,6 +18164,7 @@
         "index": {
           "description": "Add comment to the theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "addComment",
           "normalized": "Doc-\u003eTheory a b c d-\u003eTheory a b c d",
@@ -16840,6 +18180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "addFormalComment",
           "package": "tamarin-prover-theory",
@@ -16849,6 +18190,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "addFormalComment",
           "normalized": "FormalComment-\u003eTheory a b c d-\u003eTheory a b c d",
@@ -16865,6 +18207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd intruder proof rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "addIntrRuleACs",
           "package": "tamarin-prover-theory",
@@ -16875,6 +18218,7 @@
         "index": {
           "description": "Add intruder proof rules",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "addIntrRuleACs",
           "normalized": "[IntrRuleAC]-\u003eOpenTheory-\u003eOpenTheory",
@@ -16891,6 +18235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new lemma. Fails, if a lemma with the same name exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "addLemma",
           "package": "tamarin-prover-theory",
@@ -16901,6 +18246,7 @@
         "index": {
           "description": "Add new lemma Fails if lemma with the same name exists",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "addLemma",
           "normalized": "Lemma a-\u003eTheory b c d a-\u003eMaybe(Theory b c d a)",
@@ -16917,6 +18263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new protocol rules. Fails, if a protocol rule with the same name\n exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "addProtoRule",
           "package": "tamarin-prover-theory",
@@ -16927,6 +18274,7 @@
         "index": {
           "description": "Add new protocol rules Fails if protocol rule with the same name exists",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "addProtoRule",
           "normalized": "ProtoRuleE-\u003eOpenTheory-\u003eMaybe OpenTheory",
@@ -16943,6 +18291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a comment represented as a string to the theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "addStringComment",
           "package": "tamarin-prover-theory",
@@ -16953,6 +18302,7 @@
         "index": {
           "description": "Add comment represented as string to the theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "addStringComment",
           "normalized": "String-\u003eTheory a b c d-\u003eTheory a b c d",
@@ -16969,6 +18319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply partial evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "applyPartialEvaluation",
           "package": "tamarin-prover-theory",
@@ -16979,6 +18330,7 @@
         "index": {
           "description": "Apply partial evaluation",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "applyPartialEvaluation",
           "normalized": "EvaluationStyle-\u003eClosedTheory-\u003eClosedTheory",
@@ -16994,6 +18346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "axFormula",
           "package": "tamarin-prover-theory",
@@ -17003,6 +18356,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "axFormula",
           "package": "tamarin-prover-theory",
@@ -17016,6 +18370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "axName",
           "package": "tamarin-prover-theory",
@@ -17025,6 +18380,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "axName",
           "package": "tamarin-prover-theory",
@@ -17039,6 +18395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a theory by closing its associated rule set and checking the proof\n skeletons and caching AC variants as well as precomputed case distinctions.\n\u003c/p\u003e\u003cp\u003eThis function initializes the relation to the Maude process with the\n correct signature. This is the right place to do that because in a closed\n theory the signature may not change any longer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "closeTheory",
           "package": "tamarin-prover-theory",
@@ -17048,6 +18405,7 @@
         "index": {
           "description": "Close theory by closing its associated rule set and checking the proof skeletons and caching AC variants as well as precomputed case distinctions This function initializes the relation to the Maude process with the correct signature This is the right place to do that because in closed theory the signature may not change any longer",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "closeTheory",
           "normalized": "FilePath-\u003eOpenTheory-\u003eIO ClosedTheory",
@@ -17063,6 +18421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "cprRuleE",
           "package": "tamarin-prover-theory",
@@ -17072,6 +18431,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "cprRuleE",
           "package": "tamarin-prover-theory",
@@ -17086,6 +18446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault theory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "defaultOpenTheory",
           "package": "tamarin-prover-theory",
@@ -17096,6 +18457,7 @@
         "index": {
           "description": "Default theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "defaultOpenTheory",
           "package": "tamarin-prover-theory",
@@ -17110,6 +18472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe precomputed case distinctions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "getCaseDistinction",
           "package": "tamarin-prover-theory",
@@ -17120,6 +18483,7 @@
         "index": {
           "description": "The precomputed case distinctions",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "getCaseDistinction",
           "normalized": "CaseDistKind-\u003eClosedTheory-\u003e[CaseDistinction]",
@@ -17136,6 +18500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe classified set of rules modulo AC in this theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "getClassifiedRules",
           "package": "tamarin-prover-theory",
@@ -17146,6 +18511,7 @@
         "index": {
           "description": "The classified set of rules modulo AC in this theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "getClassifiedRules",
           "normalized": "ClosedTheory-\u003eClassifiedRules",
@@ -17162,6 +18528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe facts with injective instances in this theory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "getInjectiveFactInsts",
           "package": "tamarin-prover-theory",
@@ -17172,6 +18539,7 @@
         "index": {
           "description": "The facts with injective instances in this theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "getInjectiveFactInsts",
           "normalized": "ClosedTheory-\u003eSet FactTag",
@@ -17188,6 +18556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe variants of the intruder rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "getIntrVariants",
           "package": "tamarin-prover-theory",
@@ -17198,6 +18567,7 @@
         "index": {
           "description": "The variants of the intruder rules",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "getIntrVariants",
           "normalized": "ClosedTheory-\u003e[IntrRuleAC]",
@@ -17214,6 +18584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll lemmas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "getLemmas",
           "package": "tamarin-prover-theory",
@@ -17224,6 +18595,7 @@
         "index": {
           "description": "All lemmas",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "getLemmas",
           "normalized": "ClosedTheory-\u003e[Lemma IncrementalProof]",
@@ -17240,6 +18612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the proof context for a lemma of the closed theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "getProofContext",
           "package": "tamarin-prover-theory",
@@ -17250,6 +18623,7 @@
         "index": {
           "description": "Get the proof context for lemma of the closed theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "getProofContext",
           "normalized": "Lemma a-\u003eClosedTheory-\u003eProofContext",
@@ -17266,6 +18640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll protocol rules modulo E.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "getProtoRuleEs",
           "package": "tamarin-prover-theory",
@@ -17276,6 +18651,7 @@
         "index": {
           "description": "All protocol rules modulo",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "getProtoRuleEs",
           "normalized": "ClosedTheory-\u003e[ProtoRuleE]",
@@ -17291,6 +18667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "lAttributes",
           "package": "tamarin-prover-theory",
@@ -17300,6 +18677,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "lAttributes",
           "normalized": "Lens a(Lemma b)[LemmaAttribute]",
@@ -17315,6 +18693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "lFormula",
           "package": "tamarin-prover-theory",
@@ -17324,6 +18703,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "lFormula",
           "package": "tamarin-prover-theory",
@@ -17337,6 +18717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "lName",
           "package": "tamarin-prover-theory",
@@ -17346,6 +18727,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "lName",
           "package": "tamarin-prover-theory",
@@ -17359,6 +18741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "lProof",
           "package": "tamarin-prover-theory",
@@ -17368,6 +18751,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "lProof",
           "package": "tamarin-prover-theory",
@@ -17381,6 +18765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "lTraceQuantifier",
           "package": "tamarin-prover-theory",
@@ -17390,6 +18775,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "lTraceQuantifier",
           "package": "tamarin-prover-theory",
@@ -17404,6 +18790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the lemma with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "lookupLemma",
           "package": "tamarin-prover-theory",
@@ -17414,6 +18801,7 @@
         "index": {
           "description": "Find the lemma with the given name",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "lookupLemma",
           "normalized": "String-\u003eTheory a b c d-\u003eMaybe(Lemma d)",
@@ -17430,6 +18818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve a path in a theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "lookupLemmaProof",
           "package": "tamarin-prover-theory",
@@ -17440,6 +18829,7 @@
         "index": {
           "description": "Resolve path in theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "lookupLemmaProof",
           "normalized": "LemmaRef-\u003eClosedTheory-\u003eMaybe IncrementalProof",
@@ -17456,6 +18846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the proof at the given lemma ref, if there is one. Fails if the\n path is not present or if the prover fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "modifyLemmaProof",
           "package": "tamarin-prover-theory",
@@ -17466,6 +18857,7 @@
         "index": {
           "description": "Modify the proof at the given lemma ref if there is one Fails if the path is not present or if the prover fails",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "modifyLemmaProof",
           "normalized": "Prover-\u003eLemmaRef-\u003eClosedTheory-\u003eMaybe ClosedTheory",
@@ -17482,6 +18874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize the theory representation such that they remain semantically\n equivalent. Use this function when you want to compare two theories (quite\n strictly) for semantic equality; e.g., when testing the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "normalizeTheory",
           "package": "tamarin-prover-theory",
@@ -17492,6 +18885,7 @@
         "index": {
           "description": "Normalize the theory representation such that they remain semantically equivalent Use this function when you want to compare two theories quite strictly for semantic equality e.g when testing the parser",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "normalizeTheory",
           "normalized": "OpenTheory-\u003eOpenTheory",
@@ -17508,6 +18902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a theory by dropping the closed world assumption and values whose\n soundness dependens on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "openTheory",
           "package": "tamarin-prover-theory",
@@ -17518,6 +18913,7 @@
         "index": {
           "description": "Open theory by dropping the closed world assumption and values whose soundness dependens on it",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "openTheory",
           "normalized": "ClosedTheory-\u003eOpenTheory",
@@ -17534,6 +18930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print an axiom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "prettyAxiom",
           "package": "tamarin-prover-theory",
@@ -17544,6 +18941,7 @@
         "index": {
           "description": "Pretty print an axiom",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "prettyAxiom",
           "normalized": "Axiom-\u003ea",
@@ -17559,6 +18957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "prettyClosedSummary",
           "package": "tamarin-prover-theory",
@@ -17568,6 +18967,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "prettyClosedSummary",
           "normalized": "ClosedTheory-\u003ea",
@@ -17584,6 +18984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a closed theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "prettyClosedTheory",
           "package": "tamarin-prover-theory",
@@ -17594,6 +18995,7 @@
         "index": {
           "description": "Pretty print closed theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "prettyClosedTheory",
           "normalized": "ClosedTheory-\u003ea",
@@ -17610,6 +19012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a formal comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "prettyFormalComment",
           "package": "tamarin-prover-theory",
@@ -17620,6 +19023,7 @@
         "index": {
           "description": "Pretty print formal comment",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "prettyFormalComment",
           "normalized": "String-\u003eString-\u003ea",
@@ -17636,6 +19040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print a non-empty bunch of intruder rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "prettyIntruderVariants",
           "package": "tamarin-prover-theory",
@@ -17646,6 +19051,7 @@
         "index": {
           "description": "Pretty-print non-empty bunch of intruder rules",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "prettyIntruderVariants",
           "normalized": "[IntrRuleAC]-\u003ea",
@@ -17662,6 +19068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a lemma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "prettyLemma",
           "package": "tamarin-prover-theory",
@@ -17672,6 +19079,7 @@
         "index": {
           "description": "Pretty print lemma",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "prettyLemma",
           "normalized": "(a-\u003eb)-\u003eLemma a-\u003eb",
@@ -17688,6 +19096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print the lemma name together with its attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "prettyLemmaName",
           "package": "tamarin-prover-theory",
@@ -17698,6 +19107,7 @@
         "index": {
           "description": "Pretty print the lemma name together with its attributes",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "prettyLemmaName",
           "normalized": "Lemma a-\u003eb",
@@ -17714,6 +19124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print an open theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "prettyOpenTheory",
           "package": "tamarin-prover-theory",
@@ -17724,6 +19135,7 @@
         "index": {
           "description": "Pretty print an open theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "prettyOpenTheory",
           "normalized": "OpenTheory-\u003ea",
@@ -17740,6 +19152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a \u003ccode\u003e\u003ca\u003eTraceQuantifier\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "prettyTraceQuantifier",
           "package": "tamarin-prover-theory",
@@ -17750,6 +19163,7 @@
         "index": {
           "description": "Pretty print TraceQuantifier",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "prettyTraceQuantifier",
           "normalized": "TraceQuantifier-\u003ea",
@@ -17766,6 +19180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProve both the assertion soundness as well as all lemmas of the theory. If\n the prover fails on a lemma, then its proof remains unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "proveTheory",
           "package": "tamarin-prover-theory",
@@ -17775,6 +19190,7 @@
         "index": {
           "description": "Prove both the assertion soundness as well as all lemmas of the theory If the prover fails on lemma then its proof remains unchanged",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "proveTheory",
           "normalized": "(Lemma IncrementalProof-\u003eBool)-\u003eProver-\u003eClosedTheory-\u003eClosedTheory",
@@ -17791,6 +19207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a lemma by name. Fails, if the lemma does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "removeLemma",
           "package": "tamarin-prover-theory",
@@ -17801,6 +19218,7 @@
         "index": {
           "description": "Remove lemma by name Fails if the lemma does not exist",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "removeLemma",
           "normalized": "String-\u003eTheory a b c d-\u003eMaybe(Theory a b c d)",
@@ -17816,6 +19234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "skeletonLemma",
           "package": "tamarin-prover-theory",
@@ -17825,6 +19244,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "skeletonLemma",
           "normalized": "String-\u003e[LemmaAttribute]-\u003eTraceQuantifier-\u003eLNFormula-\u003eProofSkeleton-\u003eLemma ProofSkeleton",
@@ -17841,6 +19261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll axioms of a theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "theoryAxioms",
           "package": "tamarin-prover-theory",
@@ -17851,6 +19272,7 @@
         "index": {
           "description": "All axioms of theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "theoryAxioms",
           "normalized": "Theory a b c d-\u003e[Axiom]",
@@ -17867,6 +19289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll lemmas of a theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "theoryLemmas",
           "package": "tamarin-prover-theory",
@@ -17877,6 +19300,7 @@
         "index": {
           "description": "All lemmas of theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "theoryLemmas",
           "normalized": "Theory a b c d-\u003e[Lemma d]",
@@ -17893,6 +19317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll rules of a theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "theoryRules",
           "package": "tamarin-prover-theory",
@@ -17903,6 +19328,7 @@
         "index": {
           "description": "All rules of theory",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "theoryRules",
           "normalized": "Theory a b c d-\u003e[c]",
@@ -17918,6 +19344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "thyCache",
           "package": "tamarin-prover-theory",
@@ -17927,6 +19354,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "thyCache",
           "package": "tamarin-prover-theory",
@@ -17940,6 +19368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "thyItems",
           "package": "tamarin-prover-theory",
@@ -17949,6 +19378,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "thyItems",
           "normalized": "Lens a(Theory b c d e)[TheoryItem d e]",
@@ -17964,6 +19394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "thyName",
           "package": "tamarin-prover-theory",
@@ -17973,6 +19404,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "thyName",
           "package": "tamarin-prover-theory",
@@ -17986,6 +19418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "thySignature",
           "package": "tamarin-prover-theory",
@@ -17995,6 +19428,7 @@
         },
         "index": {
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "thySignature",
           "package": "tamarin-prover-theory",
@@ -18009,6 +19443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new unproven lemma from a formula modulo E.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:09 UTC 2014",
           "module": "Theory",
           "name": "unprovenLemma",
           "package": "tamarin-prover-theory",
@@ -18019,6 +19454,7 @@
         "index": {
           "description": "Create new unproven lemma from formula modulo",
           "hierarchy": "Theory",
+          "indexed": "2014-03-11T20:17:09",
           "module": "Theory",
           "name": "unprovenLemma",
           "normalized": "String-\u003e[LemmaAttribute]-\u003eTraceQuantifier-\u003eLNFormula-\u003eLemma ProofSkeleton",

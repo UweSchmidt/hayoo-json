@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "test-framework-testing-feat"
+        "phrase": "test-framework-testing-feat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAllows Feat properties to be used with the test-framework package.\n\u003c/p\u003e\u003cp\u003eFor an example of how to use test-framework, please see \n \u003ca\u003ehttp://github.com/batterseapower/test-framework/raw/master/example/Test/Framework/Example.lhs\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:30 UTC 2014",
           "module": "Test.Framework.Providers.Feat",
           "name": "Feat",
           "package": "test-framework-testing-feat",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Allows Feat properties to be used with the test-framework package For an example of how to use test-framework please see http github.com batterseapower test-framework raw master example Test Framework Example.lhs",
           "hierarchy": "Test Framework Providers Feat",
+          "indexed": "2014-03-11T20:19:30",
           "module": "Test.Framework.Providers.Feat",
           "name": "Feat",
           "package": "test-framework-testing-feat",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eTest\u003c/a\u003e\u003c/code\u003e for a Feat property\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:30 UTC 2014",
           "module": "Test.Framework.Providers.Feat",
           "name": "testFeat",
           "package": "test-framework-testing-feat",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Create Test for Feat property",
           "hierarchy": "Test Framework Providers Feat",
+          "indexed": "2014-03-11T20:19:30",
           "module": "Test.Framework.Providers.Feat",
           "name": "testFeat",
           "normalized": "TestName-\u003e(a-\u003eBool)-\u003eTest",

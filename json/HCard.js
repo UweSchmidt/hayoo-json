@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HCard"
+        "phrase": "HCard",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuthor       : Joe Fredette\nLicense      : BSD3\nCopyright    : Joe Fredette\n\u003c/p\u003e\u003cp\u003eMaintainer   : Joe Fredette \u003ca\u003ejfredett.at.gmail.dot.com\u003c/a\u003e\nStability    : Unstable\nPortability  : portable \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Examples",
           "name": "Examples",
           "package": "HCard",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Author Joe Fredette License BSD3 Copyright Joe Fredette Maintainer Joe Fredette jfredett.at.gmail.dot.com Stability Unstable Portability portable",
           "hierarchy": "Data HCard Examples",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Examples",
           "name": "Examples",
           "package": "HCard",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Examples",
           "name": "allKTups",
           "package": "HCard",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Examples",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Examples",
           "name": "allKTups",
           "normalized": "[a]-\u003e[[a]]",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Examples",
           "name": "cribbageScore",
           "package": "HCard",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Examples",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Examples",
           "name": "cribbageScore",
           "normalized": "Classic-\u003eClassicHand-\u003eInt",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Examples",
           "name": "filterSuits",
           "package": "HCard",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Examples",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Examples",
           "name": "filterSuits",
           "normalized": "ClassicHand-\u003e[ClassicHand]",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Examples",
           "name": "toValue",
           "package": "HCard",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Examples",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Examples",
           "name": "toValue",
           "normalized": "Classic-\u003eInt",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Examples",
           "name": "uniqPairs",
           "package": "HCard",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Examples",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Examples",
           "name": "uniqPairs",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuthor       : Joe Fredette\nLicense      : BSD3\nCopyright    : Joe Fredette\n\u003c/p\u003e\u003cp\u003eMaintainer   : Joe Fredette \u003ca\u003ejfredett.at.gmail.dot.com\u003c/a\u003e\nStability    : Unstable\nPortability  : portable \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "Instances",
           "package": "HCard",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Author Joe Fredette License BSD3 Copyright Joe Fredette Maintainer Joe Fredette jfredett.at.gmail.dot.com Stability Unstable Portability portable",
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "Instances",
           "package": "HCard",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonyms to make using the polymorphic bits easier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "Classic",
           "package": "HCard",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Type synonyms to make using the polymorphic bits easier",
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "Classic",
           "package": "HCard",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "ClassicDeck",
           "package": "HCard",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "ClassicDeck",
           "package": "HCard",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "ClassicDeckST",
           "package": "HCard",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "ClassicDeckST",
           "package": "HCard",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "ClassicHand",
           "package": "HCard",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "ClassicHand",
           "package": "HCard",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Indices of the french deck\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "Index",
           "package": "HCard",
@@ -280,6 +303,7 @@
         "index": {
           "description": "The Indices of the french deck",
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "Index",
           "package": "HCard",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Suits of the so-called \u003ca\u003eFrench\u003c/a\u003e deck, the most common American deck of \n cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "Suit",
           "package": "HCard",
@@ -303,6 +328,7 @@
         "index": {
           "description": "The Suits of the so-called French deck the most common American deck of cards",
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "Suit",
           "package": "HCard",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "Ace",
           "package": "HCard",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "Ace",
           "package": "HCard",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "C",
           "package": "HCard",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "C",
           "package": "HCard",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "D",
           "package": "HCard",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "D",
           "package": "HCard",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "H",
           "package": "HCard",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "H",
           "package": "HCard",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "Jack",
           "package": "HCard",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "Jack",
           "package": "HCard",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "King",
           "package": "HCard",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "King",
           "package": "HCard",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "Queen",
           "package": "HCard",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "Queen",
           "package": "HCard",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "S",
           "package": "HCard",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "S",
           "package": "HCard",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "V",
           "package": "HCard",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "V",
           "package": "HCard",
@@ -510,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper which forces the polymorphic dealHands to work with French-deck cards only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard.Instances",
           "name": "deal",
           "package": "HCard",
@@ -520,6 +565,7 @@
         "index": {
           "description": "Wrapper which forces the polymorphic dealHands to work with French-deck cards only",
           "hierarchy": "Data HCard Instances",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard.Instances",
           "name": "deal",
           "normalized": "Int-\u003eInt-\u003eClassicDeckST[ClassicHand]",
@@ -535,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuthor       : Joe Fredette\nLicense      : BSD3\nCopyright    : Joe Fredette\n\u003c/p\u003e\u003cp\u003eMaintainer   : Joe Fredette \u003ca\u003ejfredett.at.gmail.dot.com\u003c/a\u003e\nStability    : Unstable\nPortability  : portable \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "HCard",
           "package": "HCard",
@@ -544,6 +591,7 @@
         "index": {
           "description": "Author Joe Fredette License BSD3 Copyright Joe Fredette Maintainer Joe Fredette jfredett.at.gmail.dot.com Stability Unstable Portability portable",
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "HCard",
           "package": "HCard",
@@ -558,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Main class, this is -- effectively -- a type-indexed record. Specifically, it requires \n two types, one representing the suit, the other representing the index/rank. The suit, \n index, and construct functions are generic forms of the record accessors. \n\u003c/p\u003e\u003cp\u003eThe bulk of the implementation takes place in generic type instances, supporting equality \n irrelevant of ordering, ordering, parsing from a \u003ca\u003enormal form\u003c/a\u003e (\u003ca\u003eindex\u003c/a\u003e-\u003ca\u003esuit\u003c/a\u003e) and enum/bounded\n\u003c/p\u003e\u003cp\u003eTODO: Write deriving instance?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "Card",
           "package": "HCard",
@@ -567,6 +616,7 @@
         "index": {
           "description": "The Main class this is effectively type-indexed record Specifically it requires two types one representing the suit the other representing the index rank The suit index and construct functions are generic forms of the record accessors The bulk of the implementation takes place in generic type instances supporting equality irrelevant of ordering ordering parsing from normal form index suit and enum bounded TODO Write deriving instance",
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "Card",
           "package": "HCard",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "Cards",
           "package": "HCard",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "Cards",
           "package": "HCard",
@@ -602,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate Deck from Hand, even though the types are isomorphic, we don't want shuffling to \n be to liberal.\n\u003c/p\u003e\u003cp\u003eTODO: Make Deck clever enough to support reshuffling when the deck runs out -- it should store cards it has \n  already seen till it runs out of the main deck, reshuffle, redeal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "Deck",
           "package": "HCard",
@@ -611,6 +664,7 @@
         "index": {
           "description": "Separate Deck from Hand even though the types are isomorphic we don want shuffling to be to liberal TODO Make Deck clever enough to support reshuffling when the deck runs out it should store cards it has already seen till it runs out of the main deck reshuffle redeal",
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "Deck",
           "package": "HCard",
@@ -625,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType wrapper for stateful decks, useful for sorting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "DeckST",
           "package": "HCard",
@@ -634,6 +689,7 @@
         "index": {
           "description": "Type wrapper for stateful decks useful for sorting",
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "DeckST",
           "package": "HCard",
@@ -648,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type to separate Hands from Decks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "Hand",
           "package": "HCard",
@@ -657,6 +714,7 @@
         "index": {
           "description": "type to separate Hands from Decks",
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "Hand",
           "package": "HCard",
@@ -670,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "Parse",
           "package": "HCard",
@@ -678,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "Parse",
           "package": "HCard",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "(@@)",
           "package": "HCard",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "(@@) @@",
           "normalized": "a-\u003eb-\u003eCardT b a",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "Deck",
           "package": "HCard",
@@ -723,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "Deck",
           "package": "HCard",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "Hand",
           "package": "HCard",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "Hand",
           "package": "HCard",
@@ -758,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "construct",
           "package": "HCard",
@@ -767,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "construct",
           "normalized": "a-\u003eb-\u003eCardT b a",
@@ -782,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for dealHands, also somewhat useful, equiv. to `dealHands 1 qty`\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "dealHand",
           "package": "HCard",
@@ -792,6 +861,7 @@
         "index": {
           "description": "Helper for dealHands also somewhat useful equiv to dealHands qty",
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "dealHand",
           "normalized": "Int-\u003eDeckST a b(Hand a b)",
@@ -808,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeals \u003ccode\u003en\u003c/code\u003e hands of \u003ccode\u003eqty\u003c/code\u003e cards, written in the state monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "dealHands",
           "package": "HCard",
@@ -818,6 +889,7 @@
         "index": {
           "description": "Deals hands of qty cards written in the state monad",
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "dealHands",
           "normalized": "Int-\u003eInt-\u003eDeckST a b[Hand a b]",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "index",
           "package": "HCard",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "index",
           "normalized": "CardT a b-\u003eb",
@@ -857,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a deck, used as in: `mkDeck::\u003ca\u003eyour deck type here\u003c/a\u003e`, or w/ inference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "mkDeck",
           "package": "HCard",
@@ -867,6 +942,7 @@
         "index": {
           "description": "Creates deck used as in mkDeck your deck type here or inference",
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "mkDeck",
           "package": "HCard",
@@ -880,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "parse",
           "package": "HCard",
@@ -889,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "parse",
           "normalized": "String-\u003ea",
@@ -904,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShuffles a deck given a generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "shuffleDeck",
           "package": "HCard",
@@ -914,6 +993,7 @@
         "index": {
           "description": "Shuffles deck given generator",
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "shuffleDeck",
           "normalized": "Deck a b-\u003ec-\u003eDeck a b",
@@ -930,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShuffles using the standard generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "shuffleDeckIO",
           "package": "HCard",
@@ -940,6 +1021,7 @@
         "index": {
           "description": "Shuffles using the standard generator",
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "shuffleDeckIO",
           "normalized": "Deck a b-\u003eIO(Deck a b)",
@@ -955,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:26 UTC 2014",
           "module": "Data.HCard",
           "name": "suit",
           "package": "HCard",
@@ -964,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Data HCard",
+          "indexed": "2014-03-11T16:44:26",
           "module": "Data.HCard",
           "name": "suit",
           "normalized": "CardT a b-\u003ea",

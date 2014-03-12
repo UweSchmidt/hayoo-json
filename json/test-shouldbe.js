@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "test-shouldbe"
+        "phrase": "test-shouldbe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExperimental combinators, that may become part of the main distribution, if\n they turn out to be useful for a wider audience.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe.Contrib",
           "name": "Contrib",
           "package": "test-shouldbe",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Experimental combinators that may become part of the main distribution if they turn out to be useful for wider audience",
           "hierarchy": "Test HUnit ShouldBe Contrib",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe.Contrib",
           "name": "Contrib",
           "package": "test-shouldbe",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe.Contrib",
           "name": "isLeft",
           "package": "test-shouldbe",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit ShouldBe Contrib",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe.Contrib",
           "name": "isLeft",
           "normalized": "Either a b-\u003eBool",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe.Contrib",
           "name": "isRight",
           "package": "test-shouldbe",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit ShouldBe Contrib",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe.Contrib",
           "name": "isRight",
           "normalized": "Either a b-\u003eBool",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntroductory documentation: \u003ca\u003ehttps://github.com/sol/test-shouldbe#readme\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "ShouldBe",
           "package": "test-shouldbe",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Introductory documentation https github.com sol test-shouldbe readme",
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "ShouldBe",
           "package": "test-shouldbe",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "Expectation",
           "package": "test-shouldbe",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "Expectation",
           "package": "test-shouldbe",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eSelector\u003c/code\u003e is a predicate; it can simultaneously constrain the type and\n value of an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "Selector",
           "package": "test-shouldbe",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Selector is predicate it can simultaneously constrain the type and value of an exception",
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "Selector",
           "package": "test-shouldbe",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "anyArithException",
           "package": "test-shouldbe",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "anyArithException",
           "package": "test-shouldbe",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "anyErrorCall",
           "package": "test-shouldbe",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "anyErrorCall",
           "package": "test-shouldbe",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "anyException",
           "package": "test-shouldbe",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "anyException",
           "package": "test-shouldbe",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "anyIOException",
           "package": "test-shouldbe",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "anyIOException",
           "package": "test-shouldbe",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "errorCall",
           "package": "test-shouldbe",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "errorCall",
           "normalized": "String-\u003eSelector ErrorCall",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eactual `shouldBe` expected\u003c/code\u003e sets the expectation that \u003ccode\u003eactual\u003c/code\u003e is equal\n to \u003ccode\u003eexpected\u003c/code\u003e (this is just an alias for \u003ccode\u003e\u003ca\u003e@?=\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "shouldBe",
           "package": "test-shouldbe",
@@ -279,6 +302,7 @@
         "index": {
           "description": "actual shouldBe expected sets the expectation that actual is equal to expected this is just an alias for",
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "shouldBe",
           "normalized": "a-\u003ea-\u003eExpectation",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaction `shouldReturn` expected\u003c/code\u003e sets the expectation that \u003ccode\u003eaction\u003c/code\u003e\n returns \u003ccode\u003eexpected\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "shouldReturn",
           "package": "test-shouldbe",
@@ -305,6 +330,7 @@
         "index": {
           "description": "action shouldReturn expected sets the expectation that action returns expected",
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "shouldReturn",
           "normalized": "IO a-\u003ea-\u003eExpectation",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ev `shouldSatisfy` p\u003c/code\u003e sets the expectation that \u003ccode\u003ep v\u003c/code\u003e is \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "shouldSatisfy",
           "package": "test-shouldbe",
@@ -331,6 +358,7 @@
         "index": {
           "description": "shouldSatisfy sets the expectation that is True",
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "shouldSatisfy",
           "normalized": "a-\u003e(a-\u003eBool)-\u003eExpectation",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaction `shouldThrow` selector\u003c/code\u003e sets the expectation that \u003ccode\u003eaction\u003c/code\u003e throws\n an exception.  The precise nature of the expected exception is described\n with a \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:45 UTC 2014",
           "module": "Test.HUnit.ShouldBe",
           "name": "shouldThrow",
           "package": "test-shouldbe",
@@ -357,6 +386,7 @@
         "index": {
           "description": "action shouldThrow selector sets the expectation that action throws an exception The precise nature of the expected exception is described with Selector",
           "hierarchy": "Test HUnit ShouldBe",
+          "indexed": "2014-03-11T20:19:45",
           "module": "Test.HUnit.ShouldBe",
           "name": "shouldThrow",
           "normalized": "IO a-\u003eSelector b-\u003eExpectation",

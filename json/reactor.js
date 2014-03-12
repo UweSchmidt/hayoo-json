@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reactor"
+        "phrase": "reactor",
+        "type": "phrase"
       },
       "type": "context"
     }

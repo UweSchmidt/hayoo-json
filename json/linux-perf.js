@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linux-perf"
+        "phrase": "linux-perf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library to parse and pretty print the contents of \u003ccode\u003eperf.data\u003c/code\u003e file,\n the output of the \u003ccode\u003eperf record\u003c/code\u003e command on\n Linux (Linux performance counter information).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "Parse",
           "package": "linux-perf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "library to parse and pretty print the contents of perf.data file the output of the perf record command on Linux Linux performance counter information",
           "hierarchy": "Profiling Linux Perf Parse",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "Parse",
           "package": "linux-perf",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the \u003ca\u003eEventID\u003c/a\u003es from the input file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readAttributeIDs",
           "package": "linux-perf",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Read the EventID from the input file handle",
           "hierarchy": "Profiling Linux Perf Parse",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readAttributeIDs",
           "normalized": "Handle-\u003eFileAttr-\u003eIO[EventID]",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the perf event attributes from the input file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readAttributes",
           "package": "linux-perf",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Read the perf event attributes from the input file handle",
           "hierarchy": "Profiling Linux Perf Parse",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readAttributes",
           "normalized": "Handle-\u003eFileHeader-\u003eIO[FileAttr]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an event record from the input file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readEvent",
           "package": "linux-perf",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Read an event record from the input file handle",
           "hierarchy": "Profiling Linux Perf Parse",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readEvent",
           "normalized": "Handle-\u003eByteCount-\u003eSampleTypeBitMap-\u003eIO Event",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an \u003ca\u003eEventHeader\u003c/a\u003e from the input file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readEventHeader",
           "package": "linux-perf",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Read an EventHeader from the input file handle",
           "hierarchy": "Profiling Linux Perf Parse",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readEventHeader",
           "normalized": "Handle-\u003eByteCount-\u003eIO EventHeader",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the event type information from the input file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readEventTypes",
           "package": "linux-perf",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Read the event type information from the input file handle",
           "hierarchy": "Profiling Linux Perf Parse",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readEventTypes",
           "normalized": "Handle-\u003eFileHeader-\u003eIO[TraceEventType]",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the perf data \u003ca\u003eFileHeader\u003c/a\u003e from the input file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readHeader",
           "package": "linux-perf",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Read the perf data FileHeader from the input file handle",
           "hierarchy": "Profiling Linux Perf Parse",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Parse",
           "name": "readHeader",
           "normalized": "Handle-\u003eIO FileHeader",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printing utilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Pretty",
           "name": "Pretty",
           "package": "linux-perf",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Pretty printing utilities",
           "hierarchy": "Profiling Linux Perf Pretty",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Pretty",
           "name": "Pretty",
           "package": "linux-perf",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printing interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Pretty",
           "name": "Pretty",
           "package": "linux-perf",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Pretty printing interface",
           "hierarchy": "Profiling Linux Perf Pretty",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Pretty",
           "name": "Pretty",
           "package": "linux-perf",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a document for a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Pretty",
           "name": "pretty",
           "package": "linux-perf",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Generate document for value",
           "hierarchy": "Profiling Linux Perf Pretty",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an instance of \u003ca\u003ePretty\u003c/a\u003e as a \u003ca\u003eString\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Pretty",
           "name": "prettyString",
           "package": "linux-perf",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Render an instance of Pretty as String",
           "hierarchy": "Profiling Linux Perf Pretty",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Pretty",
           "name": "prettyString",
           "normalized": "a-\u003eString",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an instance of \u003ca\u003eBits\u003c/a\u003e as a \u003ca\u003eString\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Pretty",
           "name": "showBits",
           "package": "linux-perf",
@@ -299,6 +322,7 @@
         "index": {
           "description": "Render an instance of Bits as String",
           "hierarchy": "Profiling Linux Perf Pretty",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Pretty",
           "name": "showBits",
           "normalized": "a-\u003eString",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for representing the parsed contents of a \u003ccode\u003eperf.data\u003c/code\u003e file output\n the \u003ccode\u003eperf record\u003c/code\u003e command on Linux (Linux performance counter information).\n\u003c/p\u003e\u003cp\u003eThere is an intentional close correspondence between the types in this\n module and the representation in the C implementation of perf.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Types",
           "package": "linux-perf",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Types for representing the parsed contents of perf.data file output the perf record command on Linux Linux performance counter information There is an intentional close correspondence between the types in this module and the representation in the implementation of perf",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Types",
           "package": "linux-perf",
@@ -338,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 16 bit measurement in bytes. For example the size of an object, or an offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount16",
           "package": "linux-perf",
@@ -347,6 +374,7 @@
         "index": {
           "description": "bit measurement in bytes For example the size of an object or an offset",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount16",
           "package": "linux-perf",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 32 bit measurement in bytes. For example the size of an object, or an offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount32",
           "package": "linux-perf",
@@ -370,6 +399,7 @@
         "index": {
           "description": "bit measurement in bytes For example the size of an object or an offset",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount32",
           "package": "linux-perf",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 64 bit measurement in bytes. For example the size of an object, or an offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount64",
           "package": "linux-perf",
@@ -393,6 +424,7 @@
         "index": {
           "description": "bit measurement in bytes For example the size of an object or an offset",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount64",
           "package": "linux-perf",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Single event record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Event",
           "package": "linux-perf",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Single event record",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Event",
           "package": "linux-perf",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds with the \u003ccode\u003eperf_event_attr\u003c/code\u003e struct in \u003ccode\u003einclude/linux/perf_event.h\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventAttr",
           "package": "linux-perf",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Corresponds with the perf event attr struct in include linux perf event.h",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventAttr",
           "package": "linux-perf",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee struct \u003ccode\u003eperf_event_attr\u003c/code\u003e in \u003ccode\u003elinux/perf_event.h\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventAttrFlag",
           "package": "linux-perf",
@@ -462,6 +499,7 @@
         "index": {
           "description": "See struct perf event attr in linux perf event.h",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventAttrFlag",
           "package": "linux-perf",
@@ -476,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bitfield in \u003ccode\u003eperf_event_header-\u003emisc\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventCPUMode",
           "package": "linux-perf",
@@ -485,6 +524,7 @@
         "index": {
           "description": "bitfield in perf event header misc",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventCPUMode",
           "package": "linux-perf",
@@ -499,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds with the \u003ccode\u003eperf_event_header\u003c/code\u003e struct in \u003ccode\u003e\u003cperf source\u003e/util/perf_event.h\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventHeader",
           "package": "linux-perf",
@@ -508,6 +549,7 @@
         "index": {
           "description": "Corresponds with the perf event header struct in perf source util perf event.h",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventHeader",
           "package": "linux-perf",
@@ -522,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent ID.\n Not really an identity. This number is used to link\n an event to an event type. Multiple events can have the same EventID,\n which means they all have the same event type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventID",
           "package": "linux-perf",
@@ -531,6 +574,7 @@
         "index": {
           "description": "Event ID Not really an identity This number is used to link an event to an event type Multiple events can have the same EventID which means they all have the same event type",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventID",
           "package": "linux-perf",
@@ -544,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventPayload",
           "package": "linux-perf",
@@ -552,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventPayload",
           "package": "linux-perf",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds with the enum \u003ccode\u003eperf_type_id\u003c/code\u003e in \u003ccode\u003einclude/linux/perf_event.h\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventSource",
           "package": "linux-perf",
@@ -575,6 +622,7 @@
         "index": {
           "description": "Corresponds with the enum perf type id in include linux perf event.h",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventSource",
           "package": "linux-perf",
@@ -589,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding of the \u003ccode\u003eperf_event_header-\u003etype\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventType",
           "package": "linux-perf",
@@ -598,6 +647,7 @@
         "index": {
           "description": "Encoding of the perf event header type",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventType",
           "package": "linux-perf",
@@ -612,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent type ID (magic unique number of an event type).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventTypeID",
           "package": "linux-perf",
@@ -621,6 +672,7 @@
         "index": {
           "description": "Event type ID magic unique number of an event type",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventTypeID",
           "package": "linux-perf",
@@ -635,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLayout of event attribute and attribute ids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileAttr",
           "package": "linux-perf",
@@ -644,6 +697,7 @@
         "index": {
           "description": "Layout of event attribute and attribute ids",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileAttr",
           "package": "linux-perf",
@@ -658,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds with the \u003ccode\u003eperf_file_header\u003c/code\u003e struct in \u003ccode\u003e\u003cperf source\u003e/util/header.h\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileHeader",
           "package": "linux-perf",
@@ -667,6 +722,7 @@
         "index": {
           "description": "Corresponds with the perf file header struct in perf source util header.h",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileHeader",
           "package": "linux-perf",
@@ -681,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds with the \u003ccode\u003eperf_file_section\u003c/code\u003e struct in \u003ccode\u003e\u003cperf source\u003e/util/header.h\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileSection",
           "package": "linux-perf",
@@ -690,6 +747,7 @@
         "index": {
           "description": "Corresponds with the perf file section struct in perf source util header.h",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileSection",
           "package": "linux-perf",
@@ -704,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PID",
           "package": "linux-perf",
@@ -713,6 +772,7 @@
         "index": {
           "description": "Process ID",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PID",
           "package": "linux-perf",
@@ -727,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe various parts of the perf.data file collected together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfData",
           "package": "linux-perf",
@@ -736,6 +797,7 @@
         "index": {
           "description": "The various parts of the perf.data file collected together",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfData",
           "package": "linux-perf",
@@ -750,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about what is stored in a sample event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "SampleFormat",
           "package": "linux-perf",
@@ -759,6 +822,7 @@
         "index": {
           "description": "Information about what is stored in sample event",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "SampleFormat",
           "package": "linux-perf",
@@ -773,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bitmap encoding information about the content of sample events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "SampleTypeBitMap",
           "package": "linux-perf",
@@ -782,6 +847,7 @@
         "index": {
           "description": "bitmap encoding information about the content of sample events",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "SampleTypeBitMap",
           "package": "linux-perf",
@@ -796,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThread ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TID",
           "package": "linux-perf",
@@ -805,6 +872,7 @@
         "index": {
           "description": "Thread ID",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TID",
           "package": "linux-perf",
@@ -819,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasurement of time passed in nanoseconds since a given point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TimeStamp",
           "package": "linux-perf",
@@ -828,6 +897,7 @@
         "index": {
           "description": "Measurement of time passed in nanoseconds since given point",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TimeStamp",
           "package": "linux-perf",
@@ -842,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity and printable name of an event type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TraceEventType",
           "package": "linux-perf",
@@ -851,6 +922,7 @@
         "index": {
           "description": "Identity and printable name of an event type",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TraceEventType",
           "package": "linux-perf",
@@ -865,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprecise_ip, See also \u003ccode\u003ePERF_RECORD_MISC_EXACT_IP\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ArbitrarySkid",
           "package": "linux-perf",
@@ -875,6 +948,7 @@
         "index": {
           "description": "precise ip See also PERF RECORD MISC EXACT IP",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ArbitrarySkid",
           "package": "linux-perf",
@@ -888,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount16",
           "package": "linux-perf",
@@ -897,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount16",
           "package": "linux-perf",
@@ -910,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount32",
           "package": "linux-perf",
@@ -919,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount32",
           "package": "linux-perf",
@@ -932,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount64",
           "package": "linux-perf",
@@ -941,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ByteCount64",
           "package": "linux-perf",
@@ -955,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einclude comm data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Comm",
           "package": "linux-perf",
@@ -965,6 +1046,7 @@
         "index": {
           "description": "include comm data",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Comm",
           "package": "linux-perf",
@@ -978,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "CommEvent",
           "package": "linux-perf",
@@ -987,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "CommEvent",
           "package": "linux-perf",
@@ -1001,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprecise_ip, See also \u003ccode\u003ePERF_RECORD_MISC_EXACT_IP\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "CompulsoryZeroSkid",
           "package": "linux-perf",
@@ -1011,6 +1096,7 @@
         "index": {
           "description": "precise ip See also PERF RECORD MISC EXACT IP",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "CompulsoryZeroSkid",
           "package": "linux-perf",
@@ -1025,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprecise_ip, See also \u003ccode\u003ePERF_RECORD_MISC_EXACT_IP\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ConstantSkid",
           "package": "linux-perf",
@@ -1035,6 +1122,7 @@
         "index": {
           "description": "precise ip See also PERF RECORD MISC EXACT IP",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ConstantSkid",
           "package": "linux-perf",
@@ -1049,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoff by default\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Disabled",
           "package": "linux-perf",
@@ -1059,6 +1148,7 @@
         "index": {
           "description": "off by default",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Disabled",
           "package": "linux-perf",
@@ -1073,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enext exec enables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EnableOnExec",
           "package": "linux-perf",
@@ -1083,6 +1174,7 @@
         "index": {
           "description": "next exec enables",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EnableOnExec",
           "package": "linux-perf",
@@ -1096,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Event",
           "package": "linux-perf",
@@ -1105,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Event",
           "package": "linux-perf",
@@ -1118,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventAttr",
           "package": "linux-perf",
@@ -1127,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventAttr",
           "package": "linux-perf",
@@ -1140,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventHeader",
           "package": "linux-perf",
@@ -1149,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventHeader",
           "package": "linux-perf",
@@ -1162,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventID",
           "package": "linux-perf",
@@ -1171,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventID",
           "package": "linux-perf",
@@ -1184,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventTypeID",
           "package": "linux-perf",
@@ -1193,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "EventTypeID",
           "package": "linux-perf",
@@ -1207,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003editto hypervisor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ExcludeHV",
           "package": "linux-perf",
@@ -1217,6 +1320,7 @@
         "index": {
           "description": "ditto hypervisor",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ExcludeHV",
           "package": "linux-perf",
@@ -1231,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edon't count when idle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ExcludeIdle",
           "package": "linux-perf",
@@ -1241,6 +1346,7 @@
         "index": {
           "description": "don count when idle",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ExcludeIdle",
           "package": "linux-perf",
@@ -1255,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003editto kernel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ExcludeKernel",
           "package": "linux-perf",
@@ -1265,6 +1372,7 @@
         "index": {
           "description": "ditto kernel",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ExcludeKernel",
           "package": "linux-perf",
@@ -1279,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edon't count user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ExcludeUser",
           "package": "linux-perf",
@@ -1289,6 +1398,7 @@
         "index": {
           "description": "don count user",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ExcludeUser",
           "package": "linux-perf",
@@ -1303,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly group on PMU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Exclusive",
           "package": "linux-perf",
@@ -1313,6 +1424,7 @@
         "index": {
           "description": "only group on PMU",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Exclusive",
           "package": "linux-perf",
@@ -1326,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ExitEvent",
           "package": "linux-perf",
@@ -1335,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ExitEvent",
           "package": "linux-perf",
@@ -1348,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileAttr",
           "package": "linux-perf",
@@ -1357,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileAttr",
           "package": "linux-perf",
@@ -1370,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileHeader",
           "package": "linux-perf",
@@ -1379,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileHeader",
           "package": "linux-perf",
@@ -1392,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileSection",
           "package": "linux-perf",
@@ -1401,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "FileSection",
           "package": "linux-perf",
@@ -1414,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ForkEvent",
           "package": "linux-perf",
@@ -1423,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ForkEvent",
           "package": "linux-perf",
@@ -1437,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse freq, not period\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Freq",
           "package": "linux-perf",
@@ -1447,6 +1570,7 @@
         "index": {
           "description": "use freq not period",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Freq",
           "package": "linux-perf",
@@ -1461,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echildren inherit it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Inherit",
           "package": "linux-perf",
@@ -1471,6 +1596,7 @@
         "index": {
           "description": "children inherit it",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Inherit",
           "package": "linux-perf",
@@ -1485,6 +1611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eper task counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "InheritStat",
           "package": "linux-perf",
@@ -1495,6 +1622,7 @@
         "index": {
           "description": "per task counts",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "InheritStat",
           "package": "linux-perf",
@@ -1508,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "LostEvent",
           "package": "linux-perf",
@@ -1517,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "LostEvent",
           "package": "linux-perf",
@@ -1531,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einclude mmap data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Mmap",
           "package": "linux-perf",
@@ -1541,6 +1672,7 @@
         "index": {
           "description": "include mmap data",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Mmap",
           "package": "linux-perf",
@@ -1555,6 +1687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-exec mmap data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "MmapData",
           "package": "linux-perf",
@@ -1565,6 +1698,7 @@
         "index": {
           "description": "non-exec mmap data",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "MmapData",
           "package": "linux-perf",
@@ -1578,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "MmapEvent",
           "package": "linux-perf",
@@ -1587,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "MmapEvent",
           "package": "linux-perf",
@@ -1600,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_COMM",
           "package": "linux-perf",
@@ -1609,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_COMM",
           "package": "linux-perf",
@@ -1623,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_CPUMODE_UNKNOWN",
           "package": "linux-perf",
@@ -1632,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_CPUMODE_UNKNOWN",
           "package": "linux-perf",
@@ -1645,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_EXIT",
           "package": "linux-perf",
@@ -1654,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_EXIT",
           "package": "linux-perf",
@@ -1667,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_FORK",
           "package": "linux-perf",
@@ -1676,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_FORK",
           "package": "linux-perf",
@@ -1689,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_LOST",
           "package": "linux-perf",
@@ -1698,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_LOST",
           "package": "linux-perf",
@@ -1712,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_MISC_HYPERVISOR",
           "package": "linux-perf",
@@ -1721,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_MISC_HYPERVISOR",
           "package": "linux-perf",
@@ -1735,6 +1883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_MISC_KERNEL",
           "package": "linux-perf",
@@ -1744,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_MISC_KERNEL",
           "package": "linux-perf",
@@ -1758,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_MISC_USER",
           "package": "linux-perf",
@@ -1767,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_MISC_USER",
           "package": "linux-perf",
@@ -1780,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_MMAP",
           "package": "linux-perf",
@@ -1789,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_MMAP",
           "package": "linux-perf",
@@ -1802,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_READ",
           "package": "linux-perf",
@@ -1811,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_READ",
           "package": "linux-perf",
@@ -1824,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_SAMPLE",
           "package": "linux-perf",
@@ -1833,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_SAMPLE",
           "package": "linux-perf",
@@ -1846,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_THROTTLE",
           "package": "linux-perf",
@@ -1855,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_THROTTLE",
           "package": "linux-perf",
@@ -1868,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_UNKNOWN",
           "package": "linux-perf",
@@ -1877,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_UNKNOWN",
           "package": "linux-perf",
@@ -1890,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_UNTHROTTLE",
           "package": "linux-perf",
@@ -1899,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_RECORD_UNTHROTTLE",
           "package": "linux-perf",
@@ -1913,6 +2077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1U \u003c\u003c 3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_ADDR",
           "package": "linux-perf",
@@ -1922,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_ADDR",
           "package": "linux-perf",
@@ -1936,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1U \u003c\u003c 5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_CALLCHAIN",
           "package": "linux-perf",
@@ -1945,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_CALLCHAIN",
           "package": "linux-perf",
@@ -1959,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1U \u003c\u003c 7\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_CPU",
           "package": "linux-perf",
@@ -1968,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_CPU",
           "package": "linux-perf",
@@ -1982,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1U \u003c\u003c 6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_ID",
           "package": "linux-perf",
@@ -1991,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_ID",
           "package": "linux-perf",
@@ -2005,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1U \u003c\u003c 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_IP",
           "package": "linux-perf",
@@ -2014,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_IP",
           "package": "linux-perf",
@@ -2028,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1U \u003c\u003c 8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_PERIOD",
           "package": "linux-perf",
@@ -2037,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_PERIOD",
           "package": "linux-perf",
@@ -2051,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1U \u003c\u003c 10\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_RAW",
           "package": "linux-perf",
@@ -2060,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_RAW",
           "package": "linux-perf",
@@ -2074,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1U \u003c\u003c 4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_READ",
           "package": "linux-perf",
@@ -2083,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_READ",
           "package": "linux-perf",
@@ -2097,6 +2277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1U \u003c\u003c 9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_STREAM_ID",
           "package": "linux-perf",
@@ -2106,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_STREAM_ID",
           "package": "linux-perf",
@@ -2120,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1U \u003c\u003c 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_TID",
           "package": "linux-perf",
@@ -2129,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_TID",
           "package": "linux-perf",
@@ -2143,6 +2327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1U \u003c\u003c 2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_TIME",
           "package": "linux-perf",
@@ -2152,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PERF_SAMPLE_TIME",
           "package": "linux-perf",
@@ -2165,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PID",
           "package": "linux-perf",
@@ -2174,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PID",
           "package": "linux-perf",
@@ -2187,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfData",
           "package": "linux-perf",
@@ -2196,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfData",
           "package": "linux-perf",
@@ -2210,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeBreakpoint",
           "package": "linux-perf",
@@ -2219,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeBreakpoint",
           "package": "linux-perf",
@@ -2233,6 +2425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeHardware",
           "package": "linux-perf",
@@ -2242,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeHardware",
           "package": "linux-perf",
@@ -2256,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeHwCache",
           "package": "linux-perf",
@@ -2265,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeHwCache",
           "package": "linux-perf",
@@ -2279,6 +2475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeRaw",
           "package": "linux-perf",
@@ -2288,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeRaw",
           "package": "linux-perf",
@@ -2302,6 +2500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeSoftware",
           "package": "linux-perf",
@@ -2311,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeSoftware",
           "package": "linux-perf",
@@ -2325,6 +2525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeTracePoint",
           "package": "linux-perf",
@@ -2334,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeTracePoint",
           "package": "linux-perf",
@@ -2347,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeUnknown",
           "package": "linux-perf",
@@ -2356,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "PerfTypeUnknown",
           "package": "linux-perf",
@@ -2370,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emust always be on PMU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Pinned",
           "package": "linux-perf",
@@ -2380,6 +2585,7 @@
         "index": {
           "description": "must always be on PMU",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Pinned",
           "package": "linux-perf",
@@ -2393,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ReadEvent",
           "package": "linux-perf",
@@ -2402,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ReadEvent",
           "package": "linux-perf",
@@ -2416,6 +2624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprecise_ip, See also \u003ccode\u003ePERF_RECORD_MISC_EXACT_IP\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "RequestedZeroSkid",
           "package": "linux-perf",
@@ -2426,6 +2635,7 @@
         "index": {
           "description": "precise ip See also PERF RECORD MISC EXACT IP",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "RequestedZeroSkid",
           "package": "linux-perf",
@@ -2439,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "SampleEvent",
           "package": "linux-perf",
@@ -2448,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "SampleEvent",
           "package": "linux-perf",
@@ -2462,6 +2674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esample_type all events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "SampleIdAll",
           "package": "linux-perf",
@@ -2472,6 +2685,7 @@
         "index": {
           "description": "sample type all events",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "SampleIdAll",
           "package": "linux-perf",
@@ -2485,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "SampleTypeBitMap",
           "package": "linux-perf",
@@ -2494,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "SampleTypeBitMap",
           "package": "linux-perf",
@@ -2507,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TID",
           "package": "linux-perf",
@@ -2516,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TID",
           "package": "linux-perf",
@@ -2530,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etrace fork/exit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Task",
           "package": "linux-perf",
@@ -2540,6 +2759,7 @@
         "index": {
           "description": "trace fork exit",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "Task",
           "package": "linux-perf",
@@ -2553,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ThrottleEvent",
           "package": "linux-perf",
@@ -2562,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ThrottleEvent",
           "package": "linux-perf",
@@ -2575,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TimeStamp",
           "package": "linux-perf",
@@ -2584,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TimeStamp",
           "package": "linux-perf",
@@ -2597,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TraceEventType",
           "package": "linux-perf",
@@ -2606,6 +2831,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "TraceEventType",
           "package": "linux-perf",
@@ -2619,6 +2845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "UnThrottleEvent",
           "package": "linux-perf",
@@ -2628,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "UnThrottleEvent",
           "package": "linux-perf",
@@ -2642,6 +2870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unrecognised event was encountered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "UnknownEvent",
           "package": "linux-perf",
@@ -2652,6 +2881,7 @@
         "index": {
           "description": "An unrecognised event was encountered",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "UnknownEvent",
           "package": "linux-perf",
@@ -2666,6 +2896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewakeup_watermark\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "WaterMark",
           "package": "linux-perf",
@@ -2676,6 +2907,7 @@
         "index": {
           "description": "wakeup watermark",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "WaterMark",
           "package": "linux-perf",
@@ -2689,6 +2921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "byteCount16",
           "package": "linux-perf",
@@ -2698,6 +2931,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "byteCount16",
           "package": "linux-perf",
@@ -2711,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "byteCount32",
           "package": "linux-perf",
@@ -2720,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "byteCount32",
           "package": "linux-perf",
@@ -2733,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "byteCount64",
           "package": "linux-perf",
@@ -2742,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "byteCount64",
           "package": "linux-perf",
@@ -2755,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_bp_addr_or_config1",
           "package": "linux-perf",
@@ -2764,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_bp_addr_or_config1",
           "package": "linux-perf",
@@ -2776,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_bp_len_or_config2",
           "package": "linux-perf",
@@ -2785,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_bp_len_or_config2",
           "package": "linux-perf",
@@ -2797,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_bp_type",
           "package": "linux-perf",
@@ -2806,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_bp_type",
           "package": "linux-perf",
@@ -2819,6 +3063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to .event id of perf trace event type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_config",
           "package": "linux-perf",
@@ -2829,6 +3074,7 @@
         "index": {
           "description": "Link to event id of perf trace event type",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_config",
           "package": "linux-perf",
@@ -2841,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_flags",
           "package": "linux-perf",
@@ -2850,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_flags",
           "package": "linux-perf",
@@ -2862,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_read_format",
           "package": "linux-perf",
@@ -2871,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_read_format",
           "package": "linux-perf",
@@ -2884,6 +3134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of events when a sample is generated if .freq\n is not set or frequency for sampling if .freq is set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_sample_period_or_freq",
           "package": "linux-perf",
@@ -2894,6 +3145,7 @@
         "index": {
           "description": "Number of events when sample is generated if freq is not set or frequency for sampling if freq is set",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_sample_period_or_freq",
           "package": "linux-perf",
@@ -2907,6 +3159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about what is stored in the sampling record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_sample_type",
           "package": "linux-perf",
@@ -2917,6 +3170,7 @@
         "index": {
           "description": "Information about what is stored in the sampling record",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_sample_type",
           "package": "linux-perf",
@@ -2930,6 +3184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the attr structure, for fwd/bwd compat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_size",
           "package": "linux-perf",
@@ -2940,6 +3195,7 @@
         "index": {
           "description": "Size of the attr structure for fwd bwd compat",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_size",
           "package": "linux-perf",
@@ -2953,6 +3209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMajor type: hardware\u003cem\u003esoftware\u003c/em\u003etracepoint/etc.\n defined as enum perf_type_id in include\u003cem\u003elinux\u003c/em\u003eperf_event.h\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_type",
           "package": "linux-perf",
@@ -2963,6 +3220,7 @@
         "index": {
           "description": "Major type hardware software tracepoint etc defined as enum perf type id in include linux perf event.h",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_type",
           "package": "linux-perf",
@@ -2976,6 +3234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWakeup every n events or bytes before wakeup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_wakeup_events_or_watermark",
           "package": "linux-perf",
@@ -2986,6 +3245,7 @@
         "index": {
           "description": "Wakeup every events or bytes before wakeup",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ea_wakeup_events_or_watermark",
           "package": "linux-perf",
@@ -2998,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eh_misc",
           "package": "linux-perf",
@@ -3007,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eh_misc",
           "package": "linux-perf",
@@ -3019,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eh_size",
           "package": "linux-perf",
@@ -3028,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eh_size",
           "package": "linux-perf",
@@ -3040,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eh_type",
           "package": "linux-perf",
@@ -3049,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eh_type",
           "package": "linux-perf",
@@ -3062,6 +3328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the structure of the event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ev_header",
           "package": "linux-perf",
@@ -3072,6 +3339,7 @@
         "index": {
           "description": "Information about the structure of the event",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ev_header",
           "package": "linux-perf",
@@ -3085,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe event data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ev_payload",
           "package": "linux-perf",
@@ -3095,6 +3364,7 @@
         "index": {
           "description": "The event data",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "ev_payload",
           "package": "linux-perf",
@@ -3107,6 +3377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventID",
           "package": "linux-perf",
@@ -3116,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventID",
           "package": "linux-perf",
@@ -3130,6 +3402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of the application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_CommName",
           "package": "linux-perf",
@@ -3140,6 +3413,7 @@
         "index": {
           "description": "name of the application",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_CommName",
           "package": "linux-perf",
@@ -3153,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_Lost",
           "package": "linux-perf",
@@ -3162,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_Lost",
           "package": "linux-perf",
@@ -3176,6 +3452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebinary file using this range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_MmapFilename",
           "package": "linux-perf",
@@ -3186,6 +3463,7 @@
         "index": {
           "description": "binary file using this range",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_MmapFilename",
           "package": "linux-perf",
@@ -3200,6 +3478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esize of memory range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_MmapLen",
           "package": "linux-perf",
@@ -3210,6 +3489,7 @@
         "index": {
           "description": "size of memory range",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_MmapLen",
           "package": "linux-perf",
@@ -3224,6 +3504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epage offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_MmapPgoff",
           "package": "linux-perf",
@@ -3234,6 +3515,7 @@
         "index": {
           "description": "page offset",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_MmapPgoff",
           "package": "linux-perf",
@@ -3248,6 +3530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart of memory range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_MmapStart",
           "package": "linux-perf",
@@ -3258,6 +3541,7 @@
         "index": {
           "description": "start of memory range",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_MmapStart",
           "package": "linux-perf",
@@ -3271,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_ReadTimeEnabled",
           "package": "linux-perf",
@@ -3280,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_ReadTimeEnabled",
           "package": "linux-perf",
@@ -3293,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_ReadTimeRunning",
           "package": "linux-perf",
@@ -3302,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_ReadTimeRunning",
           "package": "linux-perf",
@@ -3315,6 +3603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_ReadValue",
           "package": "linux-perf",
@@ -3324,6 +3613,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_ReadValue",
           "package": "linux-perf",
@@ -3337,6 +3627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleAddr",
           "package": "linux-perf",
@@ -3346,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleAddr",
           "package": "linux-perf",
@@ -3360,6 +3652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCPU ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleCPU",
           "package": "linux-perf",
@@ -3370,6 +3663,7 @@
         "index": {
           "description": "CPU ID",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleCPU",
           "package": "linux-perf",
@@ -3384,6 +3678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleID",
           "package": "linux-perf",
@@ -3394,6 +3689,7 @@
         "index": {
           "description": "Event ID",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleID",
           "package": "linux-perf",
@@ -3408,6 +3704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstruction pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleIP",
           "package": "linux-perf",
@@ -3418,6 +3715,7 @@
         "index": {
           "description": "Instruction pointer",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleIP",
           "package": "linux-perf",
@@ -3432,6 +3730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SamplePID",
           "package": "linux-perf",
@@ -3442,6 +3741,7 @@
         "index": {
           "description": "Process ID",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SamplePID",
           "package": "linux-perf",
@@ -3456,6 +3756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuration of sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SamplePeriod",
           "package": "linux-perf",
@@ -3466,6 +3767,7 @@
         "index": {
           "description": "Duration of sample",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SamplePeriod",
           "package": "linux-perf",
@@ -3479,6 +3781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleStreamID",
           "package": "linux-perf",
@@ -3488,6 +3791,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleStreamID",
           "package": "linux-perf",
@@ -3502,6 +3806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThread ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleTID",
           "package": "linux-perf",
@@ -3512,6 +3817,7 @@
         "index": {
           "description": "Thread ID",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleTID",
           "package": "linux-perf",
@@ -3526,6 +3832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleTime",
           "package": "linux-perf",
@@ -3536,6 +3843,7 @@
         "index": {
           "description": "Timestamp",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_SampleTime",
           "package": "linux-perf",
@@ -3549,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_id",
           "package": "linux-perf",
@@ -3558,6 +3867,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_id",
           "package": "linux-perf",
@@ -3572,6 +3882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprocess id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_pid",
           "package": "linux-perf",
@@ -3582,6 +3893,7 @@
         "index": {
           "description": "process id",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_pid",
           "package": "linux-perf",
@@ -3596,6 +3908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparent proecess id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_ppid",
           "package": "linux-perf",
@@ -3606,6 +3919,7 @@
         "index": {
           "description": "parent proecess id",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_ppid",
           "package": "linux-perf",
@@ -3620,6 +3934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparent thread id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_ptid",
           "package": "linux-perf",
@@ -3630,6 +3945,7 @@
         "index": {
           "description": "parent thread id",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_ptid",
           "package": "linux-perf",
@@ -3643,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_stream_id",
           "package": "linux-perf",
@@ -3652,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_stream_id",
           "package": "linux-perf",
@@ -3666,6 +3984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethread id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_tid",
           "package": "linux-perf",
@@ -3676,6 +3995,7 @@
         "index": {
           "description": "thread id",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_tid",
           "package": "linux-perf",
@@ -3690,6 +4010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etimestamp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_time",
           "package": "linux-perf",
@@ -3700,6 +4021,7 @@
         "index": {
           "description": "timestamp",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventPayload_time",
           "package": "linux-perf",
@@ -3713,6 +4035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventTypeID",
           "package": "linux-perf",
@@ -3722,6 +4045,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "eventTypeID",
           "package": "linux-perf",
@@ -3736,6 +4060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe attribute payload.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fa_attr",
           "package": "linux-perf",
@@ -3746,6 +4071,7 @@
         "index": {
           "description": "The attribute payload",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fa_attr",
           "package": "linux-perf",
@@ -3759,6 +4085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile offset to the ids section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fa_ids_offset",
           "package": "linux-perf",
@@ -3769,6 +4096,7 @@
         "index": {
           "description": "File offset to the ids section",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fa_ids_offset",
           "package": "linux-perf",
@@ -3782,6 +4110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the ids section in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fa_ids_size",
           "package": "linux-perf",
@@ -3792,6 +4121,7 @@
         "index": {
           "description": "Size of the ids section in bytes",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fa_ids_size",
           "package": "linux-perf",
@@ -3805,6 +4135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitfield.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_adds_features",
           "package": "linux-perf",
@@ -3815,6 +4146,7 @@
         "index": {
           "description": "Bitfield",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_adds_features",
           "normalized": "[Word]",
@@ -3830,6 +4162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of one attribute section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_attr_size",
           "package": "linux-perf",
@@ -3840,6 +4173,7 @@
         "index": {
           "description": "Size of one attribute section",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_attr_size",
           "package": "linux-perf",
@@ -3853,6 +4187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile offset to the attribute section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_attrs_offset",
           "package": "linux-perf",
@@ -3863,6 +4198,7 @@
         "index": {
           "description": "File offset to the attribute section",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_attrs_offset",
           "package": "linux-perf",
@@ -3876,6 +4212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the attribute section in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_attrs_size",
           "package": "linux-perf",
@@ -3886,6 +4223,7 @@
         "index": {
           "description": "Size of the attribute section in bytes",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_attrs_size",
           "package": "linux-perf",
@@ -3899,6 +4237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile offset to the data section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_data_offset",
           "package": "linux-perf",
@@ -3909,6 +4248,7 @@
         "index": {
           "description": "File offset to the data section",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_data_offset",
           "package": "linux-perf",
@@ -3922,6 +4262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the data section in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_data_size",
           "package": "linux-perf",
@@ -3932,6 +4273,7 @@
         "index": {
           "description": "Size of the data section in bytes",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_data_size",
           "package": "linux-perf",
@@ -3945,6 +4287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile offset to the event section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_event_offset",
           "package": "linux-perf",
@@ -3955,6 +4298,7 @@
         "index": {
           "description": "File offset to the event section",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_event_offset",
           "package": "linux-perf",
@@ -3968,6 +4312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the event section in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_event_size",
           "package": "linux-perf",
@@ -3978,6 +4323,7 @@
         "index": {
           "description": "Size of the event section in bytes",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_event_size",
           "package": "linux-perf",
@@ -3991,6 +4337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of (this) header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_size",
           "package": "linux-perf",
@@ -4001,6 +4348,7 @@
         "index": {
           "description": "Size of this header",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "fh_size",
           "package": "linux-perf",
@@ -4014,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon attributes of events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "perfData_attrs",
           "package": "linux-perf",
@@ -4024,6 +4373,7 @@
         "index": {
           "description": "Common attributes of events",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "perfData_attrs",
           "normalized": "[FileAttr]",
@@ -4040,6 +4390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe event payload.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "perfData_events",
           "package": "linux-perf",
@@ -4050,6 +4401,7 @@
         "index": {
           "description": "The event payload",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "perfData_events",
           "normalized": "[Event]",
@@ -4066,6 +4418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile header explains the structure of the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "perfData_fileHeader",
           "package": "linux-perf",
@@ -4076,6 +4429,7 @@
         "index": {
           "description": "File header explains the structure of the file",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "perfData_fileHeader",
           "package": "linux-perf",
@@ -4090,6 +4444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent identifiers to be associated with the event attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "perfData_idss",
           "package": "linux-perf",
@@ -4100,6 +4455,7 @@
         "index": {
           "description": "Event identifiers to be associated with the event attributes",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "perfData_idss",
           "normalized": "[[EventID]]",
@@ -4116,6 +4472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent type information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "perfData_types",
           "package": "linux-perf",
@@ -4126,6 +4483,7 @@
         "index": {
           "description": "Event type information",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "perfData_types",
           "normalized": "[TraceEventType]",
@@ -4141,6 +4499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "pid",
           "package": "linux-perf",
@@ -4150,6 +4509,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "pid",
           "package": "linux-perf",
@@ -4162,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "sampleTypeBitMap",
           "package": "linux-perf",
@@ -4171,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "sampleTypeBitMap",
           "package": "linux-perf",
@@ -4185,6 +4547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile offset to the section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "sec_offset",
           "package": "linux-perf",
@@ -4195,6 +4558,7 @@
         "index": {
           "description": "File offset to the section",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "sec_offset",
           "package": "linux-perf",
@@ -4208,6 +4572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the section in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "sec_size",
           "package": "linux-perf",
@@ -4218,6 +4583,7 @@
         "index": {
           "description": "Size of the section in bytes",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "sec_size",
           "package": "linux-perf",
@@ -4231,6 +4597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis entry belongs to the perf event attr entry where .config\n has the same value as this id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "te_event_id",
           "package": "linux-perf",
@@ -4241,6 +4608,7 @@
         "index": {
           "description": "This entry belongs to the perf event attr entry where config has the same value as this id",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "te_event_id",
           "package": "linux-perf",
@@ -4253,6 +4621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "te_name",
           "package": "linux-perf",
@@ -4262,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "te_name",
           "package": "linux-perf",
@@ -4275,6 +4645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a given EventAttrFlag is set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "testEventAttrFlag",
           "package": "linux-perf",
@@ -4285,6 +4656,7 @@
         "index": {
           "description": "Test if given EventAttrFlag is set",
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "testEventAttrFlag",
           "normalized": "Word-\u003eEventAttrFlag-\u003eBool",
@@ -4300,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "tid",
           "package": "linux-perf",
@@ -4309,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "tid",
           "package": "linux-perf",
@@ -4321,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf.Types",
           "name": "timeStamp",
           "package": "linux-perf",
@@ -4330,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf Types",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf.Types",
           "name": "timeStamp",
           "package": "linux-perf",
@@ -4344,6 +4720,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA higher-level interface to the perf data file parsing code.\n\u003c/p\u003e\u003cp\u003eBelow is an example program which reads and parses a perf.data file and then\n dumps the contents to standard output:\n\u003c/p\u003e\u003cpre\u003e\nmodule Main where\n\nimport Profiling.Linux.Perf (readAndDisplay, OutputStyle (..))\nimport System.Environment (getArgs)\n\nmain :: IO ()\nmain = do\n  args \u003c- getArgs\n  case args of\n     [] -\u003e return ()\n     (file:_) -\u003e readAndDisplay Dump file\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "Perf",
           "package": "linux-perf",
@@ -4353,6 +4730,7 @@
         "index": {
           "description": "higher-level interface to the perf data file parsing code Below is an example program which reads and parses perf.data file and then dumps the contents to standard output module Main where import Profiling.Linux.Perf readAndDisplay OutputStyle import System.Environment getArgs main IO main do args getArgs case args of return file readAndDisplay Dump file",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "Perf",
           "package": "linux-perf",
@@ -4367,6 +4745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle to use for printing the event data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "OutputStyle",
           "package": "linux-perf",
@@ -4376,6 +4755,7 @@
         "index": {
           "description": "Style to use for printing the event data",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "OutputStyle",
           "package": "linux-perf",
@@ -4390,6 +4770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType information for of event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "TypeInfo",
           "package": "linux-perf",
@@ -4399,6 +4780,7 @@
         "index": {
           "description": "Type information for of event",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "TypeInfo",
           "package": "linux-perf",
@@ -4413,6 +4795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociate events with their event types.\n Events are (usually) tagged with an \u003ca\u003eEventID\u003c/a\u003e. Many events can share the same\n \u003ca\u003eEventID\u003c/a\u003e. Each \u003ca\u003eEventID\u003c/a\u003e is associated with exactly one event type, which includes\n the name of the event, an \u003ca\u003eEventSource\u003c/a\u003e and an \u003ca\u003eEventTypeID\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "TypeMap",
           "package": "linux-perf",
@@ -4422,6 +4805,7 @@
         "index": {
           "description": "Associate events with their event types Events are usually tagged with an EventID Many events can share the same EventID Each EventID is associated with exactly one event type which includes the name of the event an EventSource and an EventTypeID",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "TypeMap",
           "package": "linux-perf",
@@ -4436,6 +4820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput full details of the data file preserving the original order of the events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "Dump",
           "package": "linux-perf",
@@ -4446,6 +4831,7 @@
         "index": {
           "description": "Output full details of the data file preserving the original order of the events",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "Dump",
           "package": "linux-perf",
@@ -4460,6 +4846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput command and sample events in time order with event type annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "Trace",
           "package": "linux-perf",
@@ -4470,6 +4857,7 @@
         "index": {
           "description": "Output command and sample events in time order with event type annotations",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "Trace",
           "package": "linux-perf",
@@ -4483,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "TypeInfo",
           "package": "linux-perf",
@@ -4492,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "TypeInfo",
           "package": "linux-perf",
@@ -4506,6 +4896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the components of the perf.data file under the specified style.\n Don't create a single big \u003ccode\u003eDoc\u003c/code\u003e or \u003ccode\u003eString\u003c/code\u003e to avoid stack overflows.\n Instead, lazily print events as they are rendered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "display",
           "package": "linux-perf",
@@ -4516,6 +4907,7 @@
         "index": {
           "description": "Render the components of the perf.data file under the specified style Don create single big Doc or String to avoid stack overflows Instead lazily print events as they are rendered",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "display",
           "normalized": "OutputStyle-\u003ePerfData-\u003eIO()",
@@ -4531,6 +4923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a map from \u003ca\u003eEventID\u003c/a\u003es to their type information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "makeTypeMap",
           "package": "linux-perf",
@@ -4541,6 +4934,7 @@
         "index": {
           "description": "Build map from EventID to their type information",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "makeTypeMap",
           "normalized": "PerfData-\u003eTypeMap",
@@ -4557,6 +4951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the contents of the perf.data file and render it\n on stdout in a specified style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "readAndDisplay",
           "package": "linux-perf",
@@ -4567,6 +4962,7 @@
         "index": {
           "description": "Read the contents of the perf.data file and render it on stdout in specified style",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "readAndDisplay",
           "normalized": "OutputStyle-\u003eFilePath-\u003eIO()",
@@ -4583,6 +4979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead and parse the perf.data file into its constituent components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "readPerfData",
           "package": "linux-perf",
@@ -4593,6 +4990,7 @@
         "index": {
           "description": "Read and parse the perf.data file into its constituent components",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "readPerfData",
           "normalized": "FilePath-\u003eIO PerfData",
@@ -4609,6 +5007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort a list of events in ascending time order.\n Events without a timestamp are treated as having a timestamp of 0,\n which places them at the start of the sorted output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "sortEventsOnTime",
           "package": "linux-perf",
@@ -4619,6 +5018,7 @@
         "index": {
           "description": "Sort list of events in ascending time order Events without timestamp are treated as having timestamp of which places them at the start of the sorted output",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "sortEventsOnTime",
           "normalized": "[Event]-\u003e[Event]",
@@ -4635,6 +5035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique number of this type of event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "typeInfo_id",
           "package": "linux-perf",
@@ -4645,6 +5046,7 @@
         "index": {
           "description": "Unique number of this type of event",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "typeInfo_id",
           "package": "linux-perf",
@@ -4659,6 +5061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrintable name of the event source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "typeInfo_name",
           "package": "linux-perf",
@@ -4669,6 +5072,7 @@
         "index": {
           "description": "Printable name of the event source",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "typeInfo_name",
           "package": "linux-perf",
@@ -4683,6 +5087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind of the event source (hardware, software, tracepoint etc.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:19 UTC 2014",
           "module": "Profiling.Linux.Perf",
           "name": "typeInfo_source",
           "package": "linux-perf",
@@ -4693,6 +5098,7 @@
         "index": {
           "description": "Kind of the event source hardware software tracepoint etc",
           "hierarchy": "Profiling Linux Perf",
+          "indexed": "2014-03-11T19:10:19",
           "module": "Profiling.Linux.Perf",
           "name": "typeInfo_source",
           "package": "linux-perf",

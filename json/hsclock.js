@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsclock"
+        "phrase": "hsclock",
+        "type": "phrase"
       },
       "type": "context"
     }

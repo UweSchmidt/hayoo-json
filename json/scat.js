@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scat"
+        "phrase": "scat",
+        "type": "phrase"
       },
       "type": "context"
     }

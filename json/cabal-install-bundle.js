@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-install-bundle"
+        "phrase": "cabal-install-bundle",
+        "type": "phrase"
       },
       "type": "context"
     }

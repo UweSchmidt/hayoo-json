@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lsystem"
+        "phrase": "lsystem",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HOpenCV"
+        "phrase": "HOpenCV",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "CV",
           "package": "HOpenCV",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "CV",
           "package": "HOpenCV",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "CvHaarClassifierCascade",
           "package": "HOpenCV",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "CvHaarClassifierCascade",
           "package": "HOpenCV",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "HaarDetectFlag",
           "package": "HOpenCV",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "HaarDetectFlag",
           "package": "HOpenCV",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "InterpolationMethod",
           "package": "HOpenCV",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "InterpolationMethod",
           "package": "HOpenCV",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "CV_INTER_AREA",
           "package": "HOpenCV",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "CV_INTER_AREA",
           "package": "HOpenCV",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "CV_INTER_CUBIC",
           "package": "HOpenCV",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "CV_INTER_CUBIC",
           "package": "HOpenCV",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "CV_INTER_LINEAR",
           "package": "HOpenCV",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "CV_INTER_LINEAR",
           "package": "HOpenCV",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "CV_INTER_NN",
           "package": "HOpenCV",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "CV_INTER_NN",
           "package": "HOpenCV",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "HaarDetectFlag",
           "package": "HOpenCV",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "HaarDetectFlag",
           "package": "HOpenCV",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "c_cvCanny",
           "package": "HOpenCV",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "c_cvCanny",
           "normalized": "Ptr CvArr-\u003ePtr CvArr-\u003eCDouble-\u003eCDouble-\u003eCInt-\u003eIO()",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "c_cvHaarDetectObjects",
           "package": "HOpenCV",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "c_cvHaarDetectObjects",
           "normalized": "Ptr CvArr-\u003ePtr CvHaarClassifierCascade-\u003ePtr CvMemStorage-\u003eCDouble-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO(Ptr(CvSeq CvRect))",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "c_cvPyrDown",
           "package": "HOpenCV",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "c_cvPyrDown",
           "normalized": "Ptr CvArr-\u003ePtr CvArr-\u003eCInt-\u003eIO()",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "c_cvResize",
           "package": "HOpenCV",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "c_cvResize",
           "normalized": "Ptr CvArr-\u003ePtr CvArr-\u003eCInt-\u003eIO()",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "c_dilate",
           "package": "HOpenCV",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "c_dilate",
           "normalized": "Ptr CvArr-\u003ePtr CvArr-\u003eCInt-\u003eIO()",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "combineHaarFlags",
           "package": "HOpenCV",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "combineHaarFlags",
           "normalized": "[HaarDetectFlag]-\u003eHaarDetectFlag",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "constCvGaussian5x5",
           "package": "HOpenCV",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "constCvGaussian5x5",
           "package": "HOpenCV",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvCanny",
           "package": "HOpenCV",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvCanny",
           "normalized": "Ptr a-\u003ePtr a-\u003eCDouble-\u003eCDouble-\u003eCInt-\u003eIO()",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvDilate",
           "package": "HOpenCV",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvDilate",
           "normalized": "Ptr a-\u003ePtr a-\u003eCInt-\u003eIO()",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarDetectObjects",
           "package": "HOpenCV",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarDetectObjects",
           "normalized": "Ptr a-\u003ePtr CvHaarClassifierCascade-\u003ePtr CvMemStorage-\u003eCDouble-\u003eCInt-\u003eHaarDetectFlag-\u003eCvSize-\u003eIO(Ptr(CvSeq CvRect))",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarDoCannyPruning",
           "package": "HOpenCV",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarDoCannyPruning",
           "package": "HOpenCV",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarDoRoughSearch",
           "package": "HOpenCV",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarDoRoughSearch",
           "package": "HOpenCV",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarFindBiggestObject",
           "package": "HOpenCV",
@@ -500,6 +543,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarFindBiggestObject",
           "package": "HOpenCV",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarFlagNone",
           "package": "HOpenCV",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarFlagNone",
           "package": "HOpenCV",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarScaleImage",
           "package": "HOpenCV",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvHaarScaleImage",
           "package": "HOpenCV",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvPyrDown",
           "package": "HOpenCV",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvPyrDown",
           "normalized": "Ptr a-\u003ePtr a-\u003eIO()",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvResize",
           "package": "HOpenCV",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "cvResize",
           "normalized": "Ptr a-\u003ePtr a-\u003eInterpolationMethod-\u003eIO()",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CV",
           "name": "unHaarDetectFlag",
           "package": "HOpenCV",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CV",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CV",
           "name": "unHaarDetectFlag",
           "package": "HOpenCV",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CxCore",
           "package": "HOpenCV",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CxCore",
           "package": "HOpenCV",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvArr",
           "package": "HOpenCV",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvArr",
           "package": "HOpenCV",
@@ -669,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvMemStorage",
           "package": "HOpenCV",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvMemStorage",
           "package": "HOpenCV",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvRect",
           "package": "HOpenCV",
@@ -698,6 +759,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvRect",
           "package": "HOpenCV",
@@ -711,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvSeq",
           "package": "HOpenCV",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvSeq",
           "package": "HOpenCV",
@@ -732,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvSize",
           "package": "HOpenCV",
@@ -740,6 +805,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvSize",
           "package": "HOpenCV",
@@ -753,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "Depth",
           "package": "HOpenCV",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "Depth",
           "package": "HOpenCV",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "IplArrayType",
           "package": "HOpenCV",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "IplArrayType",
           "package": "HOpenCV",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "IplImage",
           "package": "HOpenCV",
@@ -803,6 +874,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "IplImage",
           "package": "HOpenCV",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvRect",
           "package": "HOpenCV",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvRect",
           "package": "HOpenCV",
@@ -838,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvSize",
           "package": "HOpenCV",
@@ -847,6 +922,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "CvSize",
           "package": "HOpenCV",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "Depth",
           "package": "HOpenCV",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "Depth",
           "package": "HOpenCV",
@@ -882,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvCloneImage",
           "package": "HOpenCV",
@@ -891,6 +970,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvCloneImage",
           "normalized": "Ptr IplImage-\u003eIO(Ptr IplImage)",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvCopy",
           "package": "HOpenCV",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvCopy",
           "normalized": "Ptr CvArr-\u003ePtr CvArr-\u003ePtr CvArr-\u003eIO()",
@@ -930,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvCreateImage",
           "package": "HOpenCV",
@@ -939,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvCreateImage",
           "normalized": "CInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO(Ptr IplImage)",
@@ -954,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvCreateMemStorage",
           "package": "HOpenCV",
@@ -963,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvCreateMemStorage",
           "normalized": "CInt-\u003eIO(Ptr CvMemStorage)",
@@ -978,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvLoad",
           "package": "HOpenCV",
@@ -987,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvLoad",
           "normalized": "CString-\u003ePtr CvMemStorage-\u003eCString-\u003ePtr CString-\u003eIO(Ptr a)",
@@ -1002,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvRectangle",
           "package": "HOpenCV",
@@ -1011,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_cvRectangle",
           "normalized": "Ptr CvArr-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -1027,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDebugging function to print some of the internal details of an IplImage structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_debug_print_image_header",
           "package": "HOpenCV",
@@ -1037,6 +1128,7 @@
         "index": {
           "description": "Debugging function to print some of the internal details of an IplImage structure",
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_debug_print_image_header",
           "normalized": "Ptr IplImage-\u003eIO()",
@@ -1051,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_get_depth",
           "package": "HOpenCV",
@@ -1060,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_get_depth",
           "normalized": "Ptr IplImage-\u003eIO CInt",
@@ -1074,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_get_nChannels",
           "package": "HOpenCV",
@@ -1083,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_get_nChannels",
           "normalized": "Ptr IplImage-\u003eIO CInt",
@@ -1098,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_get_size",
           "package": "HOpenCV",
@@ -1107,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "c_get_size",
           "normalized": "Ptr CvArr-\u003ePtr CvSize-\u003eIO()",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cloneImageF",
           "package": "HOpenCV",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cloneImageF",
           "normalized": "Ptr IplImage-\u003eIO(ForeignPtr IplImage)",
@@ -1145,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cp_release_image",
           "package": "HOpenCV",
@@ -1154,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cp_release_image",
           "normalized": "FunPtr(Ptr IplImage-\u003eIO())",
@@ -1168,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cp_release_mem_storage",
           "package": "HOpenCV",
@@ -1177,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cp_release_mem_storage",
           "normalized": "FunPtr(Ptr CvMemStorage-\u003eIO())",
@@ -1191,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "createImageF",
           "package": "HOpenCV",
@@ -1200,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "createImageF",
           "normalized": "CvSize-\u003eCInt-\u003eDepth-\u003eIO(ForeignPtr IplImage)",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "createMemStorageF",
           "package": "HOpenCV",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "createMemStorageF",
           "normalized": "CInt-\u003eIO(ForeignPtr CvMemStorage)",
@@ -1239,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvCloneImage",
           "package": "HOpenCV",
@@ -1248,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvCloneImage",
           "normalized": "Ptr IplImage-\u003eIO(Ptr IplImage)",
@@ -1263,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvConvertScale",
           "package": "HOpenCV",
@@ -1272,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvConvertScale",
           "normalized": "Ptr CvArr-\u003ePtr CvArr-\u003eCDouble-\u003eCDouble-\u003eIO()",
@@ -1287,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvCopy",
           "package": "HOpenCV",
@@ -1296,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvCopy",
           "normalized": "Ptr a-\u003ePtr a-\u003eIO()",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvCreateImage",
           "package": "HOpenCV",
@@ -1320,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvCreateImage",
           "normalized": "CvSize-\u003eCInt-\u003eDepth-\u003eIO(Ptr IplImage)",
@@ -1335,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvCreateMemStorage",
           "package": "HOpenCV",
@@ -1344,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvCreateMemStorage",
           "normalized": "CInt-\u003eIO(Ptr CvMemStorage)",
@@ -1359,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvFree",
           "package": "HOpenCV",
@@ -1368,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvFree",
           "normalized": "Ptr a-\u003eIO()",
@@ -1383,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvGetSeqElem",
           "package": "HOpenCV",
@@ -1392,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvGetSeqElem",
           "normalized": "Ptr(CvSeq a)-\u003eCInt-\u003eIO(Ptr a)",
@@ -1407,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvGetSize",
           "package": "HOpenCV",
@@ -1416,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvGetSize",
           "normalized": "Ptr a-\u003eCvSize",
@@ -1431,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvLoad",
           "package": "HOpenCV",
@@ -1440,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvLoad",
           "normalized": "String-\u003ePtr CvMemStorage-\u003eMaybe String-\u003eIO(Ptr a,Maybe String)",
@@ -1455,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvRectangle",
           "package": "HOpenCV",
@@ -1464,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvRectangle",
           "normalized": "Ptr a-\u003eCvRect-\u003eIO()",
@@ -1479,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvReleaseImage",
           "package": "HOpenCV",
@@ -1488,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvReleaseImage",
           "normalized": "Ptr IplImage-\u003eIO()",
@@ -1503,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvReleaseMemStorage",
           "package": "HOpenCV",
@@ -1512,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "cvReleaseMemStorage",
           "normalized": "Ptr CvMemStorage-\u003eIO()",
@@ -1527,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "depthsLookupList",
           "package": "HOpenCV",
@@ -1536,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "depthsLookupList",
           "normalized": "[(CInt,Depth)]",
@@ -1551,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "fromArr",
           "package": "HOpenCV",
@@ -1560,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "fromArr",
           "normalized": "Ptr a-\u003ePtr CvArr",
@@ -1575,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "getDepth",
           "package": "HOpenCV",
@@ -1584,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "getDepth",
           "normalized": "Ptr IplImage-\u003eIO Depth",
@@ -1599,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "getNumChannels",
           "package": "HOpenCV",
@@ -1608,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "getNumChannels",
           "normalized": "Ptr IplImage-\u003eIO a",
@@ -1623,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth16s",
           "package": "HOpenCV",
@@ -1632,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth16s",
           "package": "HOpenCV",
@@ -1645,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth16u",
           "package": "HOpenCV",
@@ -1654,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth16u",
           "package": "HOpenCV",
@@ -1667,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth1u",
           "package": "HOpenCV",
@@ -1676,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth1u",
           "package": "HOpenCV",
@@ -1689,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth32f",
           "package": "HOpenCV",
@@ -1698,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth32f",
           "package": "HOpenCV",
@@ -1711,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth32s",
           "package": "HOpenCV",
@@ -1720,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth32s",
           "package": "HOpenCV",
@@ -1733,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth64f",
           "package": "HOpenCV",
@@ -1742,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth64f",
           "package": "HOpenCV",
@@ -1755,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth8s",
           "package": "HOpenCV",
@@ -1764,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth8s",
           "package": "HOpenCV",
@@ -1777,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth8u",
           "package": "HOpenCV",
@@ -1786,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "iplDepth8u",
           "package": "HOpenCV",
@@ -1799,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "liftCvRect",
           "package": "HOpenCV",
@@ -1808,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "liftCvRect",
           "normalized": "(a-\u003eb)-\u003eCvRect-\u003eCvRect",
@@ -1823,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "liftCvRect2",
           "package": "HOpenCV",
@@ -1832,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "liftCvRect2",
           "normalized": "(a-\u003ea-\u003eb)-\u003eCvRect-\u003eCvRect-\u003eCvRect",
@@ -1847,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "liftCvSize",
           "package": "HOpenCV",
@@ -1856,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "liftCvSize",
           "normalized": "(a-\u003eb)-\u003eCvSize-\u003eCvSize",
@@ -1871,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "liftCvSize2",
           "package": "HOpenCV",
@@ -1880,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "liftCvSize2",
           "normalized": "(a-\u003ea-\u003eb)-\u003eCvSize-\u003eCvSize-\u003eCvSize",
@@ -1895,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "numToDepth",
           "package": "HOpenCV",
@@ -1904,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "numToDepth",
           "normalized": "CInt-\u003eMaybe Depth",
@@ -1919,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "rectHeight",
           "package": "HOpenCV",
@@ -1928,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "rectHeight",
           "package": "HOpenCV",
@@ -1941,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "rectWidth",
           "package": "HOpenCV",
@@ -1950,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "rectWidth",
           "package": "HOpenCV",
@@ -1963,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "rectX",
           "package": "HOpenCV",
@@ -1972,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "rectX",
           "package": "HOpenCV",
@@ -1984,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "rectY",
           "package": "HOpenCV",
@@ -1993,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "rectY",
           "package": "HOpenCV",
@@ -2005,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "seqNumElems",
           "package": "HOpenCV",
@@ -2014,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "seqNumElems",
           "normalized": "Ptr(CvSeq a)-\u003eIO CInt",
@@ -2029,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "seqToList",
           "package": "HOpenCV",
@@ -2038,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "seqToList",
           "normalized": "Ptr(CvSeq a)-\u003eIO[a]",
@@ -2053,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "seqToPList",
           "package": "HOpenCV",
@@ -2062,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "seqToPList",
           "normalized": "Ptr(CvSeq a)-\u003eIO[Ptr a]",
@@ -2077,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "sizeHeight",
           "package": "HOpenCV",
@@ -2086,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "sizeHeight",
           "package": "HOpenCV",
@@ -2099,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "sizeWidth",
           "package": "HOpenCV",
@@ -2108,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "sizeWidth",
           "package": "HOpenCV",
@@ -2121,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "toFromIntegral",
           "package": "HOpenCV",
@@ -2130,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "toFromIntegral",
           "normalized": "(a-\u003eb)-\u003ec-\u003ea",
@@ -2145,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "toFromIntegral2",
           "package": "HOpenCV",
@@ -2154,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "toFromIntegral2",
           "normalized": "(a-\u003ea-\u003eb)-\u003eb-\u003eb-\u003ea",
@@ -2169,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "unDepth",
           "package": "HOpenCV",
@@ -2178,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "unDepth",
           "package": "HOpenCV",
@@ -2191,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "validDepths",
           "package": "HOpenCV",
@@ -2200,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV CxCore",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.CxCore",
           "name": "validDepths",
           "normalized": "[Depth]",
@@ -2215,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "HighGui",
           "package": "HOpenCV",
@@ -2223,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "HighGui",
           "package": "HOpenCV",
@@ -2236,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "AutoSize",
           "package": "HOpenCV",
@@ -2244,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "AutoSize",
           "package": "HOpenCV",
@@ -2257,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "CvCapture",
           "package": "HOpenCV",
@@ -2265,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "CvCapture",
           "package": "HOpenCV",
@@ -2278,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "LoadImageColor",
           "package": "HOpenCV",
@@ -2286,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "LoadImageColor",
           "package": "HOpenCV",
@@ -2299,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "LoadImageColor",
           "package": "HOpenCV",
@@ -2308,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "LoadImageColor",
           "package": "HOpenCV",
@@ -2321,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvConvertImage",
           "package": "HOpenCV",
@@ -2330,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvConvertImage",
           "normalized": "Ptr CvArr-\u003ePtr CvArr-\u003eCInt-\u003eIO()",
@@ -2345,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvCreateCameraCapture",
           "package": "HOpenCV",
@@ -2354,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvCreateCameraCapture",
           "normalized": "CInt-\u003eIO(Ptr CvCapture)",
@@ -2369,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvCreateFileCapture",
           "package": "HOpenCV",
@@ -2378,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvCreateFileCapture",
           "normalized": "CString-\u003eIO(Ptr CvCapture)",
@@ -2393,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvLoadImage",
           "package": "HOpenCV",
@@ -2402,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvLoadImage",
           "normalized": "CString-\u003eCInt-\u003eIO(Ptr IplImage)",
@@ -2417,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvQueryFrame",
           "package": "HOpenCV",
@@ -2426,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvQueryFrame",
           "normalized": "Ptr CvCapture-\u003eIO(Ptr IplImage)",
@@ -2441,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvSaveImage",
           "package": "HOpenCV",
@@ -2450,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_cvSaveImage",
           "normalized": "CString-\u003ePtr CvArr-\u003eIO CInt",
@@ -2465,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_newWindow",
           "package": "HOpenCV",
@@ -2474,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "c_newWindow",
           "normalized": "CInt-\u003eCInt-\u003eIO()",
@@ -2489,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cp_release_capture",
           "package": "HOpenCV",
@@ -2498,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cp_release_capture",
           "normalized": "FunPtr(Ptr CvCapture-\u003eIO())",
@@ -2512,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "createCameraCaptureF",
           "package": "HOpenCV",
@@ -2521,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "createCameraCaptureF",
           "normalized": "CInt-\u003eIO(ForeignPtr CvCapture)",
@@ -2536,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvConvertImage",
           "package": "HOpenCV",
@@ -2545,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvConvertImage",
           "normalized": "Ptr a-\u003ePtr a-\u003eCInt-\u003eIO()",
@@ -2560,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvCreateCameraCapture",
           "package": "HOpenCV",
@@ -2569,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvCreateCameraCapture",
           "normalized": "CInt-\u003eIO(Ptr CvCapture)",
@@ -2584,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvCreateFileCapture",
           "package": "HOpenCV",
@@ -2593,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvCreateFileCapture",
           "normalized": "String-\u003eIO(Ptr CvCapture)",
@@ -2608,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvLoadImage",
           "package": "HOpenCV",
@@ -2617,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvLoadImage",
           "normalized": "String-\u003eLoadImageColor-\u003eIO(Ptr IplImage)",
@@ -2632,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvNamedWindow",
           "package": "HOpenCV",
@@ -2641,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvNamedWindow",
           "normalized": "CString-\u003eCInt-\u003eIO CInt",
@@ -2656,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvQueryFrame",
           "package": "HOpenCV",
@@ -2665,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvQueryFrame",
           "normalized": "Ptr CvCapture-\u003eIO(Ptr IplImage)",
@@ -2680,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvReleaseCapture",
           "package": "HOpenCV",
@@ -2689,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvReleaseCapture",
           "normalized": "Ptr CvCapture-\u003eIO()",
@@ -2704,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvSaveImage",
           "package": "HOpenCV",
@@ -2713,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "cvSaveImage",
           "normalized": "String-\u003ePtr IplImage-\u003eIO CInt",
@@ -2728,6 +2964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "delWindow",
           "package": "HOpenCV",
@@ -2737,6 +2974,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "delWindow",
           "normalized": "CInt-\u003eIO()",
@@ -2752,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "fromToInteger",
           "package": "HOpenCV",
@@ -2761,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "fromToInteger",
           "normalized": "a-\u003eb",
@@ -2776,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "loadImageColor",
           "package": "HOpenCV",
@@ -2785,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "loadImageColor",
           "package": "HOpenCV",
@@ -2798,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "loadImageGrayscale",
           "package": "HOpenCV",
@@ -2807,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "loadImageGrayscale",
           "package": "HOpenCV",
@@ -2820,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "loadImageUnchanged",
           "package": "HOpenCV",
@@ -2829,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "loadImageUnchanged",
           "package": "HOpenCV",
@@ -2842,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "newWindow",
           "package": "HOpenCV",
@@ -2851,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "newWindow",
           "normalized": "CInt-\u003eBool-\u003eIO()",
@@ -2866,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "showImage",
           "package": "HOpenCV",
@@ -2875,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "showImage",
           "normalized": "CInt-\u003ePtr IplImage-\u003eIO()",
@@ -2890,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "titledWindow",
           "package": "HOpenCV",
@@ -2899,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "titledWindow",
           "normalized": "String-\u003eAutoSize-\u003eIO Int",
@@ -2914,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "unLoadImageColor",
           "package": "HOpenCV",
@@ -2923,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "unLoadImageColor",
           "package": "HOpenCV",
@@ -2936,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "waitKey",
           "package": "HOpenCV",
@@ -2945,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV HighGui",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.HighGui",
           "name": "waitKey",
           "normalized": "CInt-\u003eIO CInt",
@@ -2960,6 +3216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.Types",
           "name": "Types",
           "package": "HOpenCV",
@@ -2968,6 +3225,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV Types",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.Types",
           "name": "Types",
           "package": "HOpenCV",
@@ -2981,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.Types",
           "name": "FPCapture",
           "package": "HOpenCV",
@@ -2989,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV Types",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.Types",
           "name": "FPCapture",
           "package": "HOpenCV",
@@ -3002,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.Types",
           "name": "FPImage",
           "package": "HOpenCV",
@@ -3010,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV Types",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.Types",
           "name": "FPImage",
           "package": "HOpenCV",
@@ -3023,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.Types",
           "name": "PCapture",
           "package": "HOpenCV",
@@ -3031,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV Types",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.Types",
           "name": "PCapture",
           "package": "HOpenCV",
@@ -3044,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:00 UTC 2014",
           "module": "AI.CV.OpenCV.Types",
           "name": "PImage",
           "package": "HOpenCV",
@@ -3052,6 +3317,7 @@
         },
         "index": {
           "hierarchy": "AI CV OpenCV Types",
+          "indexed": "2014-03-11T16:46:00",
           "module": "AI.CV.OpenCV.Types",
           "name": "PImage",
           "package": "HOpenCV",

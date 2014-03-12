@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "adobe-swatch-exchange"
+        "phrase": "adobe-swatch-exchange",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreate a \u003ccode\u003e.css\u003c/code\u003e file from a \u003ccode\u003e.ase\u003c/code\u003e file. For each color in the \u003ccode\u003e.ase\u003c/code\u003e the \u003ccode\u003e.css\u003c/code\u003e will contain three entries:\n\u003c/p\u003e\u003cp\u003efg-color-ase-n\n    bg-color-ase-n\n    border-color-ase-n\n\u003c/p\u003e\u003cp\u003eWhere \u003ccode\u003en\u003c/code\u003e is an integer based on the order the color was found in the \u003ccode\u003e.ase\u003c/code\u003e file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange.CSS",
           "name": "CSS",
           "package": "adobe-swatch-exchange",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Create css file from ase file For each color in the ase the css will contain three entries fg-color-ase-n bg-color-ase-n border-color-ase-n Where is an integer based on the order the color was found in the ase file",
           "hierarchy": "Data AdobeSwatchExchange CSS",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange.CSS",
           "name": "CSS",
           "package": "adobe-swatch-exchange",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a \u003ccode\u003e\u003ca\u003eStyleSheet\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003e\u003ca\u003eAdobeSwatchExchange\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange.CSS",
           "name": "ase2css",
           "package": "adobe-swatch-exchange",
@@ -52,6 +55,7 @@
         "index": {
           "description": "generate StyleSheet from an AdobeSwatchExchange",
           "hierarchy": "Data AdobeSwatchExchange CSS",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange.CSS",
           "name": "ase2css",
           "normalized": "AdobeSwatchExchange-\u003eStyleSheet",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a color rules from an indexed \u003ccode\u003eColorEntry\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003egenerates:\n\u003c/p\u003e\u003cp\u003efg-color-ase-n\n    bg-color-ase-n\n    border-color-ase-n\n\u003c/p\u003e\u003cp\u003eCurrently only \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e color is supported. Since CSS only supports\n rgb, supporting other colors would require the conversion to RGB\n color space. Feel free to send a patch!\n genColor :: (Int, ASEBlock) -\u003e (Int, [RuleSet])\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange.CSS",
           "name": "genBlock",
           "package": "adobe-swatch-exchange",
@@ -77,6 +82,7 @@
         "index": {
           "description": "generate color rules from an indexed ColorEntry generates fg-color-ase-n bg-color-ase-n border-color-ase-n Currently only RGB color is supported Since CSS only supports rgb supporting other colors would require the conversion to RGB color space Feel free to send patch genColor Int ASEBlock Int RuleSet",
           "hierarchy": "Data AdobeSwatchExchange CSS",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange.CSS",
           "name": "genBlock",
           "normalized": "ASEBlock-\u003eState Int[RuleSet]",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreate a \u003ccode\u003e.less\u003c/code\u003e file from a \u003ccode\u003e.ase\u003c/code\u003e file. For each color in the \u003ccode\u003e.ase\u003c/code\u003e the \u003ccode\u003e.css\u003c/code\u003e will contain an entry:\n\u003c/p\u003e\u003cp\u003ecolor-ase-n\n\u003c/p\u003e\u003cp\u003eWhere \u003ccode\u003en\u003c/code\u003e is an integer based on the order the color was found in the \u003ccode\u003e.ase\u003c/code\u003e file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange.LESS",
           "name": "LESS",
           "package": "adobe-swatch-exchange",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Create less file from ase file For each color in the ase the css will contain an entry color-ase-n Where is an integer based on the order the color was found in the ase file",
           "hierarchy": "Data AdobeSwatchExchange LESS",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange.LESS",
           "name": "LESS",
           "package": "adobe-swatch-exchange",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a less document from an \u003ccode\u003e\u003ca\u003eAdobeSwatchExchange\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange.LESS",
           "name": "ase2less",
           "package": "adobe-swatch-exchange",
@@ -126,6 +135,7 @@
         "index": {
           "description": "generate less document from an AdobeSwatchExchange",
           "hierarchy": "Data AdobeSwatchExchange LESS",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange.LESS",
           "name": "ase2less",
           "normalized": "AdobeSwatchExchange-\u003eDoc",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a color rules from an indexed \u003ccode\u003eColorEntry\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003egenerates:\n\u003c/p\u003e\u003cp\u003efg-color-ase-n\n    bg-color-ase-n\n    border-color-ase-n\n\u003c/p\u003e\u003cp\u003eCurrently only \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e color is supported. Since CSS only supports\n rgb, supporting other colors would require the conversion to RGB\n color space. Feel free to send a patch!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange.LESS",
           "name": "genColor",
           "package": "adobe-swatch-exchange",
@@ -151,6 +162,7 @@
         "index": {
           "description": "generate color rules from an indexed ColorEntry generates fg-color-ase-n bg-color-ase-n border-color-ase-n Currently only RGB color is supported Since CSS only supports rgb supporting other colors would require the conversion to RGB color space Feel free to send patch",
           "hierarchy": "Data AdobeSwatchExchange LESS",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange.LESS",
           "name": "genColor",
           "normalized": "ASEBlock-\u003eState Int Doc",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the types for \u003ccode\u003eAdobeStageExchange\u003c/code\u003e and a suitable\n\u003ccode\u003e\u003ca\u003eBinary\u003c/a\u003e\u003c/code\u003e instance. All the get/put helper functions are also exported,\nbut, in general, you will just want the types and the \u003ccode\u003e\u003ca\u003eBinary\u003c/a\u003e\u003c/code\u003e\ninstance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "AdobeSwatchExchange",
           "package": "adobe-swatch-exchange",
@@ -176,6 +189,7 @@
         "index": {
           "description": "This module defines the types for AdobeStageExchange and suitable Binary instance All the get put helper functions are also exported but in general you will just want the types and the Binary instance",
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "AdobeSwatchExchange",
           "package": "adobe-swatch-exchange",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Adobe Swatch Exchange block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "ASEBlock",
           "package": "adobe-swatch-exchange",
@@ -199,6 +214,7 @@
         "index": {
           "description": "An Adobe Swatch Exchange block",
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "ASEBlock",
           "package": "adobe-swatch-exchange",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdobeSwatchExchange\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "AdobeSwatchExchange",
           "package": "adobe-swatch-exchange",
@@ -222,6 +239,7 @@
         "index": {
           "description": "AdobeSwatchExchange",
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "AdobeSwatchExchange",
           "package": "adobe-swatch-exchange",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "Color",
           "package": "adobe-swatch-exchange",
@@ -245,6 +264,7 @@
         "index": {
           "description": "color",
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "Color",
           "package": "adobe-swatch-exchange",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA named color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "ColorEntry",
           "package": "adobe-swatch-exchange",
@@ -268,6 +289,7 @@
         "index": {
           "description": "named color",
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "ColorEntry",
           "package": "adobe-swatch-exchange",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolor type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "ColorType",
           "package": "adobe-swatch-exchange",
@@ -291,6 +314,7 @@
         "index": {
           "description": "color type",
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "ColorType",
           "package": "adobe-swatch-exchange",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "AdobeSwatchExchange",
           "package": "adobe-swatch-exchange",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "AdobeSwatchExchange",
           "package": "adobe-swatch-exchange",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "CE",
           "package": "adobe-swatch-exchange",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "CE",
           "package": "adobe-swatch-exchange",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "CYMK",
           "package": "adobe-swatch-exchange",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "CYMK",
           "package": "adobe-swatch-exchange",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "ColorEntry",
           "package": "adobe-swatch-exchange",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "ColorEntry",
           "package": "adobe-swatch-exchange",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "Global",
           "package": "adobe-swatch-exchange",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "Global",
           "package": "adobe-swatch-exchange",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "Gray",
           "package": "adobe-swatch-exchange",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "Gray",
           "package": "adobe-swatch-exchange",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "GroupEnd",
           "package": "adobe-swatch-exchange",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "GroupEnd",
           "package": "adobe-swatch-exchange",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "GroupStart",
           "package": "adobe-swatch-exchange",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "GroupStart",
           "package": "adobe-swatch-exchange",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "LAB",
           "package": "adobe-swatch-exchange",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "LAB",
           "package": "adobe-swatch-exchange",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "Normal",
           "package": "adobe-swatch-exchange",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "Normal",
           "package": "adobe-swatch-exchange",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "RGB",
           "package": "adobe-swatch-exchange",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "RGB",
           "package": "adobe-swatch-exchange",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "Spot",
           "package": "adobe-swatch-exchange",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "Spot",
           "package": "adobe-swatch-exchange",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "blColor",
           "package": "adobe-swatch-exchange",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "blColor",
           "normalized": "Color-\u003ea",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "blColorType",
           "package": "adobe-swatch-exchange",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "blColorType",
           "package": "adobe-swatch-exchange",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "blName",
           "package": "adobe-swatch-exchange",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "blName",
           "normalized": "String-\u003ea",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "blocks",
           "package": "adobe-swatch-exchange",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "blocks",
           "normalized": "[ASEBlock]",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "color",
           "package": "adobe-swatch-exchange",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "color",
           "package": "adobe-swatch-exchange",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "colorName",
           "package": "adobe-swatch-exchange",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "colorName",
           "package": "adobe-swatch-exchange",
@@ -705,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e to an RGB hex value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "colorToHex",
           "package": "adobe-swatch-exchange",
@@ -715,6 +776,7 @@
         "index": {
           "description": "Convert Color to an RGB hex value",
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "colorToHex",
           "normalized": "Color-\u003eString",
@@ -730,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "colorType",
           "package": "adobe-swatch-exchange",
@@ -739,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "colorType",
           "package": "adobe-swatch-exchange",
@@ -752,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "getASE",
           "package": "adobe-swatch-exchange",
@@ -761,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "getASE",
           "package": "adobe-swatch-exchange",
@@ -774,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "getBlock",
           "package": "adobe-swatch-exchange",
@@ -783,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "getBlock",
           "package": "adobe-swatch-exchange",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "getColor",
           "package": "adobe-swatch-exchange",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "getColor",
           "package": "adobe-swatch-exchange",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "getColorEntry",
           "package": "adobe-swatch-exchange",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "getColorEntry",
           "package": "adobe-swatch-exchange",
@@ -840,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "getColorType",
           "package": "adobe-swatch-exchange",
@@ -849,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "getColorType",
           "package": "adobe-swatch-exchange",
@@ -863,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the ASEF file signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "getFileSig",
           "package": "adobe-swatch-exchange",
@@ -873,6 +948,7 @@
         "index": {
           "description": "get the ASEF file signature",
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "getFileSig",
           "normalized": "Get()",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "getName",
           "package": "adobe-swatch-exchange",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "getName",
           "package": "adobe-swatch-exchange",
@@ -910,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "getVersion",
           "package": "adobe-swatch-exchange",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "getVersion",
           "normalized": "Get(Word,Word)",
@@ -934,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "groupName",
           "package": "adobe-swatch-exchange",
@@ -943,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "groupName",
           "package": "adobe-swatch-exchange",
@@ -956,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "putASE",
           "package": "adobe-swatch-exchange",
@@ -965,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "putASE",
           "normalized": "AdobeSwatchExchange-\u003ePut",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "putBlock",
           "package": "adobe-swatch-exchange",
@@ -989,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "putBlock",
           "normalized": "ASEBlock-\u003ePut",
@@ -1004,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "putColor",
           "package": "adobe-swatch-exchange",
@@ -1013,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "putColor",
           "normalized": "Color-\u003ePut",
@@ -1028,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "putColorEntry",
           "package": "adobe-swatch-exchange",
@@ -1037,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "putColorEntry",
           "normalized": "ColorEntry-\u003ePut",
@@ -1052,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "putColorType",
           "package": "adobe-swatch-exchange",
@@ -1061,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "putColorType",
           "normalized": "ColorType-\u003ePut",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "putFileSig",
           "package": "adobe-swatch-exchange",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "putFileSig",
           "package": "adobe-swatch-exchange",
@@ -1098,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "putName",
           "package": "adobe-swatch-exchange",
@@ -1107,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "putName",
           "normalized": "String-\u003ePut",
@@ -1122,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "putVersion",
           "package": "adobe-swatch-exchange",
@@ -1131,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "putVersion",
           "normalized": "(Word,Word)-\u003ePut",
@@ -1146,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:23 UTC 2014",
           "module": "Data.AdobeSwatchExchange",
           "name": "version",
           "package": "adobe-swatch-exchange",
@@ -1155,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Data AdobeSwatchExchange",
+          "indexed": "2014-03-11T17:08:23",
           "module": "Data.AdobeSwatchExchange",
           "name": "version",
           "normalized": "(Word,Word)",

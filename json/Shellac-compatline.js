@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Shellac-compatline"
+        "phrase": "Shellac-compatline",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:26 UTC 2014",
           "module": "System.Console.Shell.Backend.Compatline",
           "name": "CompatlineConfig",
           "package": "Shellac-compatline",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Console Shell Backend Compatline",
+          "indexed": "2014-03-11T17:00:26",
           "module": "System.Console.Shell.Backend.Compatline",
           "name": "CompatlineConfig",
           "package": "Shellac-compatline",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "A \"readline-alike\" shell backend.\n",
+          "indexed": "Tue Mar 11 17:00:26 UTC 2014",
           "module": "System.Console.Shell.Backend.Compatline",
           "name": "compatlineBackend",
           "package": "Shellac-compatline",
@@ -50,6 +53,7 @@
         "index": {
           "description": "readline-alike shell backend",
           "hierarchy": "System Console Shell Backend Compatline",
+          "indexed": "2014-03-11T17:00:26",
           "module": "System.Console.Shell.Backend.Compatline",
           "name": "compatlineBackend",
           "normalized": "ShellBackend()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "A flag describing the compile-time\n   configuration of this module.\n",
+          "indexed": "Tue Mar 11 17:00:26 UTC 2014",
           "module": "System.Console.Shell.Backend.Compatline",
           "name": "compatlineConfig",
           "package": "Shellac-compatline",
@@ -76,6 +81,7 @@
         "index": {
           "description": "flag describing the compile-time configuration of this module",
           "hierarchy": "System Console Shell Backend Compatline",
+          "indexed": "2014-03-11T17:00:26",
           "module": "System.Console.Shell.Backend.Compatline",
           "name": "compatlineConfig",
           "package": "Shellac-compatline",

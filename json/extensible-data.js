@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "extensible-data"
+        "phrase": "extensible-data",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.List",
           "name": "List",
           "package": "extensible-data",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible List",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.List",
           "name": "List",
           "package": "extensible-data",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.List",
           "name": "ExtList",
           "package": "extensible-data",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible List",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.List",
           "name": "ExtList",
           "package": "extensible-data",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.List",
           "name": "extList",
           "package": "extensible-data",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible List",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.List",
           "name": "extList",
           "normalized": "Name-\u003eQ Exp",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.List",
           "name": "extListContents",
           "package": "extensible-data",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible List",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.List",
           "name": "extListContents",
           "normalized": "(a,[b])",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Product",
           "name": "Product",
           "package": "extensible-data",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Product",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Product",
           "name": "Product",
           "package": "extensible-data",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Product",
           "name": "ExtProd",
           "package": "extensible-data",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Product",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Product",
           "name": "ExtProd",
           "package": "extensible-data",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Product",
           "name": "ExtProdC",
           "package": "extensible-data",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Product",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Product",
           "name": "ExtProdC",
           "package": "extensible-data",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Product",
           "name": "ProdConstructor",
           "package": "extensible-data",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Product",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Product",
           "name": "ProdConstructor",
           "package": "extensible-data",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Product",
           "name": ":*=",
           "package": "extensible-data",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Product",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Product",
           "name": ":*=",
           "normalized": "a-\u003eExtProdF a-\u003eProdConstructor b",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Product",
           "name": "constructExtProd",
           "package": "extensible-data",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Product",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Product",
           "name": "constructExtProd",
           "normalized": "a-\u003e[ProdConstructor a]-\u003eExtProd a",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Product",
           "name": "defaultExtProd",
           "package": "extensible-data",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Product",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Product",
           "name": "defaultExtProd",
           "normalized": "a-\u003eb-\u003eExtProdF a",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Product",
           "name": "emptyExtProd",
           "package": "extensible-data",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Product",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Product",
           "name": "emptyExtProd",
           "normalized": "a-\u003eExtProd a",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Product",
           "name": "getExtProd",
           "package": "extensible-data",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Product",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Product",
           "name": "getExtProd",
           "normalized": "ExtProd a-\u003eb-\u003eExtProdF b",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Product",
           "name": "lensExtProd",
           "package": "extensible-data",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Product",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Product",
           "name": "lensExtProd",
           "normalized": "a-\u003eLens(ExtProd b)(ExtProdF a)",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Product",
           "name": "putExtProd",
           "package": "extensible-data",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Product",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Product",
           "name": "putExtProd",
           "normalized": "ExtProd a-\u003eb-\u003eExtProdF b-\u003eExtProd a",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": "Sum",
           "package": "extensible-data",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": "Sum",
           "package": "extensible-data",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": "ExtSum",
           "package": "extensible-data",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": "ExtSum",
           "package": "extensible-data",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": "ExtSumC",
           "package": "extensible-data",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": "ExtSumC",
           "package": "extensible-data",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": "SumSelector",
           "package": "extensible-data",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": "SumSelector",
           "package": "extensible-data",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": ":+?",
           "package": "extensible-data",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": ":+?",
           "normalized": "a-\u003e(ExtSumF a-\u003eb)-\u003eSumSelector c b",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": "ExtSum",
           "package": "extensible-data",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": "ExtSum",
           "normalized": "a-\u003eExtSumF a-\u003eExtSum b",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": "accessExtSum",
           "package": "extensible-data",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": "accessExtSum",
           "normalized": "a-\u003eExtSumF a-\u003e(b,b-\u003ea)",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": "callExtSum",
           "package": "extensible-data",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": "callExtSum",
           "normalized": "ExtSum a-\u003ea",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": "castExtSum",
           "package": "extensible-data",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": "castExtSum",
           "normalized": "ExtSum a-\u003eb-\u003eMaybe(ExtSumF b)",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": "lensExtSum",
           "package": "extensible-data",
@@ -571,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": "lensExtSum",
           "package": "extensible-data",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": "nextExtSum",
           "package": "extensible-data",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": "nextExtSum",
           "normalized": "(a-\u003ea)-\u003eExtSum a-\u003eExtSum a",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Sum",
           "name": "selectExtSum",
           "package": "extensible-data",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Sum",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Sum",
           "name": "selectExtSum",
           "normalized": "[SumSelector a b]-\u003eExtSum a-\u003eMaybe b",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "Tree",
           "package": "extensible-data",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "Tree",
           "package": "extensible-data",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "ExtTree",
           "package": "extensible-data",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "ExtTree",
           "package": "extensible-data",
@@ -674,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "ExtTreeData",
           "package": "extensible-data",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "ExtTreeData",
           "package": "extensible-data",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "ExtTreeNode",
           "package": "extensible-data",
@@ -703,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "ExtTreeNode",
           "package": "extensible-data",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "ExtNode",
           "package": "extensible-data",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "ExtNode",
           "normalized": "(a-\u003e(b,c))-\u003eExtTreeData b c a",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "ExtRoot",
           "package": "extensible-data",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "ExtRoot",
           "package": "extensible-data",
@@ -762,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "ExtTreeNode",
           "package": "extensible-data",
@@ -771,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "ExtTreeNode",
           "normalized": "a-\u003eExtTreeNode b",
@@ -786,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "extAncestor",
           "package": "extensible-data",
@@ -795,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "extAncestor",
           "normalized": "a-\u003eMaybe b",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "extAncestorAny",
           "package": "extensible-data",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "extAncestorAny",
           "normalized": "ExtTreeNode a-\u003eMaybe b",
@@ -834,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "makeExtRoot",
           "package": "extensible-data",
@@ -843,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "makeExtRoot",
           "normalized": "Q Type-\u003eQ Type-\u003eQ[Dec]",
@@ -858,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "normalChild",
           "package": "extensible-data",
@@ -867,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "normalChild",
           "normalized": "a-\u003eb",
@@ -882,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "normalParent",
           "package": "extensible-data",
@@ -891,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "normalParent",
           "normalized": "a-\u003eb",
@@ -906,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "traceExtTree",
           "package": "extensible-data",
@@ -915,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "traceExtTree",
           "normalized": "a-\u003e[b]",
@@ -930,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:45 UTC 2014",
           "module": "Data.Extensible.Tree",
           "name": "treeData",
           "package": "extensible-data",
@@ -939,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Data Extensible Tree",
+          "indexed": "2014-03-11T18:05:45",
           "module": "Data.Extensible.Tree",
           "name": "treeData",
           "package": "extensible-data",

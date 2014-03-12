@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "syb-extras"
+        "phrase": "syb-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "Extras",
           "package": "syb-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "Extras",
           "package": "syb-extras",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "Data1",
           "package": "syb-extras",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "Data1",
           "package": "syb-extras",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "Data2",
           "package": "syb-extras",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "Data2",
           "package": "syb-extras",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "dataCast1_1",
           "package": "syb-extras",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "dataCast1_1",
           "normalized": "a(b c))-\u003eMaybe(a(d e))",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "dataCast1_2",
           "package": "syb-extras",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "dataCast1_2",
           "normalized": "a(b c))-\u003eMaybe(a(d e f))",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "dataCast2_1",
           "package": "syb-extras",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "dataCast2_1",
           "normalized": "a(b c d))-\u003eMaybe(a(e f))",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "dataCast2_2",
           "package": "syb-extras",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "dataCast2_2",
           "normalized": "a(b c d))-\u003eMaybe(a(e f g))",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "dataTypeOf1",
           "package": "syb-extras",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "dataTypeOf1",
           "normalized": "a b-\u003eDataType",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "dataTypeOf2",
           "package": "syb-extras",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "dataTypeOf2",
           "normalized": "a b c-\u003eDataType",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "fromConstr1",
           "package": "syb-extras",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "fromConstr1",
           "normalized": "Constr-\u003ea b",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "fromConstr2",
           "package": "syb-extras",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "fromConstr2",
           "normalized": "Constr-\u003ea b c",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "fromConstrB1",
           "package": "syb-extras",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "fromConstrB1",
           "normalized": "a)-\u003eConstr-\u003eb c",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "fromConstrB2",
           "package": "syb-extras",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "fromConstrB2",
           "normalized": "a)-\u003eConstr-\u003eb c d",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "fromConstrM1",
           "package": "syb-extras",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "fromConstrM1",
           "normalized": "a b)-\u003eConstr-\u003ea(c d)",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "fromConstrM2",
           "package": "syb-extras",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "fromConstrM2",
           "normalized": "a b)-\u003eConstr-\u003ea(c d e)",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gfoldl1",
           "package": "syb-extras",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gfoldl1",
           "normalized": "a(b-\u003ec)-\u003eb-\u003ea c)-\u003e(d e f-\u003ea f)-\u003eg h-\u003ea(g h)",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gfoldl2",
           "package": "syb-extras",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gfoldl2",
           "normalized": "a(b-\u003ec)-\u003eb-\u003ea c)-\u003e(d e f-\u003ea f)-\u003eg h i-\u003ea(g h i)",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapM1",
           "package": "syb-extras",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapM1",
           "normalized": "a-\u003eb a)-\u003ec d-\u003eb(c d)",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapM2",
           "package": "syb-extras",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapM2",
           "normalized": "a-\u003eb a)-\u003ec d e-\u003eb(c d e)",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapMo1",
           "package": "syb-extras",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapMo1",
           "normalized": "a-\u003eb a)-\u003ec d-\u003eb(c d)",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapMo2",
           "package": "syb-extras",
@@ -494,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapMo2",
           "normalized": "a-\u003eb a)-\u003ec d e-\u003eb(c d e)",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapMp1",
           "package": "syb-extras",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapMp1",
           "normalized": "a-\u003eb a)-\u003ec d-\u003eb(c d)",
@@ -533,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapMp2",
           "package": "syb-extras",
@@ -542,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapMp2",
           "normalized": "a-\u003eb a)-\u003ec d e-\u003eb(c d e)",
@@ -557,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapQ1",
           "package": "syb-extras",
@@ -566,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapQ1",
           "normalized": "a-\u003eb)-\u003ec d-\u003e[b]",
@@ -580,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapQ2",
           "package": "syb-extras",
@@ -589,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapQ2",
           "normalized": "a-\u003eb)-\u003ec d e-\u003e[b]",
@@ -603,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapQi1",
           "package": "syb-extras",
@@ -612,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapQi1",
           "normalized": "a-\u003eb)-\u003ec d-\u003eb",
@@ -627,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapQi2",
           "package": "syb-extras",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapQi2",
           "normalized": "a-\u003eb)-\u003ec d e-\u003eb",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapQl1",
           "package": "syb-extras",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapQl1",
           "normalized": "a-\u003eb)-\u003ec d-\u003ee",
@@ -675,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapQl2",
           "package": "syb-extras",
@@ -684,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapQl2",
           "normalized": "a-\u003eb)-\u003ec d e-\u003ef",
@@ -699,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapQr1",
           "package": "syb-extras",
@@ -708,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapQr1",
           "normalized": "a-\u003eb)-\u003ec d-\u003ee",
@@ -723,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapQr2",
           "package": "syb-extras",
@@ -732,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapQr2",
           "normalized": "a-\u003eb)-\u003ec d e-\u003ef",
@@ -747,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapT1",
           "package": "syb-extras",
@@ -756,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapT1",
           "normalized": "a-\u003ea)-\u003eb c-\u003eb c",
@@ -770,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gmapT2",
           "package": "syb-extras",
@@ -779,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gmapT2",
           "normalized": "a-\u003ea)-\u003eb c d-\u003eb c d",
@@ -793,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gunfold1",
           "package": "syb-extras",
@@ -802,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gunfold1",
           "normalized": "a(b-\u003ec)-\u003ea c)-\u003e(d e c-\u003ea c)-\u003eConstr-\u003ea(f g)",
@@ -816,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "gunfold2",
           "package": "syb-extras",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "gunfold2",
           "normalized": "a(b-\u003ec)-\u003ea c)-\u003e(d e c-\u003ea c)-\u003eConstr-\u003ea(f g h)",
@@ -839,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "liftF",
           "package": "syb-extras",
@@ -848,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "liftF",
           "normalized": "a(b-\u003ec)-\u003ea c)-\u003ea(b d-\u003ee)-\u003ea e",
@@ -862,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "liftF2",
           "package": "syb-extras",
@@ -871,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "liftF2",
           "normalized": "a(b-\u003ec)-\u003ea c)-\u003ea(b d e-\u003ef)-\u003ea f",
@@ -885,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "liftK",
           "package": "syb-extras",
@@ -894,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "liftK",
           "normalized": "a(b-\u003ec)-\u003eb-\u003ea c)-\u003ea(b d-\u003ee)-\u003eb d-\u003ea e",
@@ -908,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "liftK2",
           "package": "syb-extras",
@@ -917,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "liftK2",
           "normalized": "a(b-\u003ec)-\u003eb-\u003ea c)-\u003ea(b d e-\u003ef)-\u003eb d e-\u003ea f",
@@ -931,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "toConstr1",
           "package": "syb-extras",
@@ -940,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "toConstr1",
           "normalized": "a b-\u003eConstr",
@@ -955,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:35 UTC 2014",
           "module": "Data.Data.Extras",
           "name": "toConstr2",
           "package": "syb-extras",
@@ -964,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Data Data Extras",
+          "indexed": "2014-03-11T20:14:35",
           "module": "Data.Data.Extras",
           "name": "toConstr2",
           "normalized": "a b c-\u003eConstr",

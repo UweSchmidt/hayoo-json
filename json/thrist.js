@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "thrist"
+        "phrase": "thrist",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist.List",
           "name": "List",
           "package": "thrist",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist List",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist.List",
           "name": "List",
           "package": "thrist",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist.List",
           "name": "List",
           "package": "thrist",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist List",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist.List",
           "name": "List",
           "package": "thrist",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist.List",
           "name": "El",
           "package": "thrist",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist List",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist.List",
           "name": "El",
           "normalized": "a-\u003eList a a",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist.Monad",
           "name": "Monad",
           "package": "thrist",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist Monad",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist.Monad",
           "name": "Monad",
           "package": "thrist",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist.Monad",
           "name": "Monad'",
           "package": "thrist",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist Monad",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist.Monad",
           "name": "Monad'",
           "package": "thrist",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist.Monad",
           "name": "Digest",
           "package": "thrist",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist Monad",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist.Monad",
           "name": "Digest",
           "normalized": "(a-\u003eb c)-\u003eMonad' b a c",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist.Monad",
           "name": "Feed",
           "package": "thrist",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist Monad",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist.Monad",
           "name": "Feed",
           "normalized": "a b-\u003eMonad' a c b",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "Thrist",
           "package": "thrist",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "Thrist",
           "package": "thrist",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper, defined for convenience, that \u003ca\u003eswaps\u003c/a\u003e the two type\n variables of a binary type. Can be used to reverse a Thrist using\n \u003ccode\u003e\u003ca\u003efoldlThrist\u003c/a\u003e\u003c/code\u003e. See examples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "Flipped",
           "package": "thrist",
@@ -205,6 +222,7 @@
         "index": {
           "description": "newtype wrapper defined for convenience that swaps the two type variables of binary type Can be used to reverse Thrist using foldlThrist See examples",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "Flipped",
           "package": "thrist",
@@ -219,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type-threaded list of binary polymorphic types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "Thrist",
           "package": "thrist",
@@ -228,6 +247,7 @@
         "index": {
           "description": "type-threaded list of binary polymorphic types",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "Thrist",
           "package": "thrist",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "Cons",
           "package": "thrist",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "Cons",
           "normalized": "(a b c)-\u003eThrist b c d-\u003eThrist b a d",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "Flipped",
           "package": "thrist",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "Flipped",
           "package": "thrist",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "Nil",
           "package": "thrist",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "Nil",
           "package": "thrist",
@@ -310,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to (++) for thrists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "appendThrist",
           "package": "thrist",
@@ -320,6 +347,7 @@
         "index": {
           "description": "Equivalent to for thrists",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "appendThrist",
           "normalized": "Thrist a b c-\u003eThrist a c d-\u003eThrist a b d",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003efoldM\u003c/a\u003e\u003c/code\u003e on \u003ccode\u003e\u003ca\u003eThrist\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "foldMThrist",
           "package": "thrist",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Equivalent to foldM on Thrist",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "foldMThrist",
           "normalized": "(a b c(d e b)-\u003e(b f g)-\u003eh(d e g))-\u003e(d e i)-\u003eThrist f i j-\u003eh(d e j)",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003efoldl1\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eThrist\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "foldl1Thrist",
           "package": "thrist",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Equivalent to foldl1 for Thrist",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "foldl1Thrist",
           "normalized": "(a b c d(b e c)-\u003e(c e f)-\u003eb e f)-\u003eThrist e g h-\u003eg e h",
@@ -388,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eThrist\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "foldlThrist",
           "package": "thrist",
@@ -398,6 +431,7 @@
         "index": {
           "description": "Equivalent to foldl for Thrist",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "foldlThrist",
           "normalized": "(a b c(d e b)-\u003e(b f g)-\u003ed e g)-\u003e(d e h)-\u003eThrist f h i-\u003ed e i",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003efoldr1\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eThrist\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "foldr1Thrist",
           "package": "thrist",
@@ -424,6 +459,7 @@
         "index": {
           "description": "Equivalent to foldr1 for Thrist",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "foldr1Thrist",
           "normalized": "(a b c d(b e c)-\u003e(c e f)-\u003eb e f)-\u003eThrist e g h-\u003eg e h",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e for thrists. Takes a combining function, a value to\n replace Nil, and a thrist, returning some new binary type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "foldrThrist",
           "package": "thrist",
@@ -450,6 +487,7 @@
         "index": {
           "description": "Equivalent to foldr for thrists Takes combining function value to replace Nil and thrist returning some new binary type",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "foldrThrist",
           "normalized": "(a b c(b d e)-\u003e(e f g)-\u003eb f g)-\u003e(h f g)-\u003eThrist d i h-\u003ei f g",
@@ -466,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the length of the Thrist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "lengthThrist",
           "package": "thrist",
@@ -476,6 +515,7 @@
         "index": {
           "description": "Returns the length of the Thrist",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "lengthThrist",
           "normalized": "Thrist a b c-\u003eInt",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e on \u003ccode\u003e\u003ca\u003eThrist\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "mapMThrist",
           "package": "thrist",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Equivalent to mapM on Thrist",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "mapMThrist",
           "normalized": "(a b c(b d e)-\u003ef(b g e))-\u003eThrist d h i-\u003ef(Thrist g h i)",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e for thrists. Takes a function from one binary type to\n another and applies it to each thrist element. For example this could\n convert a thrist of (a,b) into a thrist of Either a b:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "mapThrist",
           "package": "thrist",
@@ -528,6 +571,7 @@
         "index": {
           "description": "Equivalent to map for thrists Takes function from one binary type to another and applies it to each thrist element For example this could convert thrist of into thrist of Either",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "mapThrist",
           "normalized": "(a b c(b d e)-\u003eb f e)-\u003eThrist d g h-\u003eThrist f g h",
@@ -544,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when the Thrist is \u003ccode\u003e\u003ca\u003eNil\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "nullThrist",
           "package": "thrist",
@@ -554,6 +599,7 @@
         "index": {
           "description": "Returns True when the Thrist is Nil",
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "nullThrist",
           "normalized": "Thrist a b c-\u003eBool",
@@ -569,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:05 UTC 2014",
           "module": "Data.Thrist",
           "name": "unflip",
           "package": "thrist",
@@ -578,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Data Thrist",
+          "indexed": "2014-03-11T20:22:05",
           "module": "Data.Thrist",
           "name": "unflip",
           "package": "thrist",

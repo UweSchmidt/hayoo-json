@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "classify"
+        "phrase": "classify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a parser for television media files commonly found in\n filesharing communities. The internals of the parser are non-deterministic\n and heuristics are used to select the interpretation most likely to be correct.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "Television",
           "package": "classify",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines parser for television media files commonly found in filesharing communities The internals of the parser are non-deterministic and heuristics are used to select the interpretation most likely to be correct",
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "Television",
           "package": "classify",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "Name",
           "package": "classify",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "Name",
           "package": "classify",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "Title",
           "package": "classify",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "Title",
           "package": "classify",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "Version",
           "package": "classify",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "Version",
           "package": "classify",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "DateVersion",
           "package": "classify",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "DateVersion",
           "package": "classify",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "Version",
           "package": "classify",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "Version",
           "package": "classify",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "classify",
           "package": "classify",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "classify",
           "normalized": "[Name]-\u003eString-\u003e(Name,Version,Title)",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "day",
           "package": "classify",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "day",
           "package": "classify",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "episode",
           "package": "classify",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "episode",
           "package": "classify",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "month",
           "package": "classify",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "month",
           "package": "classify",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "season",
           "package": "classify",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "season",
           "package": "classify",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "tryClassify",
           "package": "classify",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "tryClassify",
           "normalized": "[Name]-\u003eString-\u003eMaybe(Name,Version,Title)",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:25 UTC 2014",
           "module": "Data.Classify.Television",
           "name": "year",
           "package": "classify",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data Classify Television",
+          "indexed": "2014-03-11T17:33:25",
           "module": "Data.Classify.Television",
           "name": "year",
           "package": "classify",

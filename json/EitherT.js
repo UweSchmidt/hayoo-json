@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "EitherT"
+        "phrase": "EitherT",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:54 UTC 2014",
           "module": "Control.Monad.Trans.Either",
           "name": "Either",
           "package": "EitherT",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Either",
+          "indexed": "2014-03-11T16:39:54",
           "module": "Control.Monad.Trans.Either",
           "name": "Either",
           "package": "EitherT",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:54 UTC 2014",
           "module": "Control.Monad.Trans.Either",
           "name": "EitherT",
           "package": "EitherT",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Either",
+          "indexed": "2014-03-11T16:39:54",
           "module": "Control.Monad.Trans.Either",
           "name": "EitherT",
           "package": "EitherT",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:54 UTC 2014",
           "module": "Control.Monad.Trans.Either",
           "name": "EitherT",
           "package": "EitherT",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Either",
+          "indexed": "2014-03-11T16:39:54",
           "module": "Control.Monad.Trans.Either",
           "name": "EitherT",
           "package": "EitherT",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:54 UTC 2014",
           "module": "Control.Monad.Trans.Either",
           "name": "left",
           "package": "EitherT",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Either",
+          "indexed": "2014-03-11T16:39:54",
           "module": "Control.Monad.Trans.Either",
           "name": "left",
           "normalized": "a-\u003eEitherT a b c",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:54 UTC 2014",
           "module": "Control.Monad.Trans.Either",
           "name": "runEitherT",
           "package": "EitherT",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Either",
+          "indexed": "2014-03-11T16:39:54",
           "module": "Control.Monad.Trans.Either",
           "name": "runEitherT",
           "package": "EitherT",

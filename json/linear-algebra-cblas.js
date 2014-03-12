@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linear-algebra-cblas"
+        "phrase": "linear-algebra-cblas",
+        "type": "phrase"
       },
       "type": "context"
     }

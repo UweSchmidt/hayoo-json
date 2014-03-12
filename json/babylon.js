@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "babylon"
+        "phrase": "babylon",
+        "type": "phrase"
       },
       "type": "context"
     }

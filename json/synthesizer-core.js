@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "synthesizer-core"
+        "phrase": "synthesizer-core",
+        "type": "phrase"
       },
       "type": "context"
     }

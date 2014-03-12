@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "kit"
+        "phrase": "kit",
+        "type": "phrase"
       },
       "type": "context"
     }

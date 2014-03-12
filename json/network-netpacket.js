@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-netpacket"
+        "phrase": "network-netpacket",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "NetPacket",
           "package": "network-netpacket",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "NetPacket",
           "package": "network-netpacket",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "GetIndexForName",
           "package": "network-netpacket",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "GetIndexForName",
           "package": "network-netpacket",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHardware address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "HWAddr",
           "package": "network-netpacket",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Hardware address",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "HWAddr",
           "package": "network-netpacket",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "HardwareType",
           "package": "network-netpacket",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "HardwareType",
           "package": "network-netpacket",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "IFIndex",
           "package": "network-netpacket",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "IFIndex",
           "package": "network-netpacket",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "LLProtocol",
           "package": "network-netpacket",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "LLProtocol",
           "package": "network-netpacket",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "PacketMReq",
           "package": "network-netpacket",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "PacketMReq",
           "package": "network-netpacket",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "PacketMReqType",
           "package": "network-netpacket",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "PacketMReqType",
           "package": "network-netpacket",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "PacketSocketOption",
           "package": "network-netpacket",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "PacketSocketOption",
           "package": "network-netpacket",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "PktType",
           "package": "network-netpacket",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "PktType",
           "package": "network-netpacket",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "SockAddrLL",
           "package": "network-netpacket",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "SockAddrLL",
           "package": "network-netpacket",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "GetIndexForName",
           "package": "network-netpacket",
@@ -260,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "GetIndexForName",
           "package": "network-netpacket",
@@ -273,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "HWAddr",
           "package": "network-netpacket",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "HWAddr",
           "package": "network-netpacket",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "HardwareType",
           "package": "network-netpacket",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "HardwareType",
           "package": "network-netpacket",
@@ -317,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "IFIndex",
           "package": "network-netpacket",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "IFIndex",
           "package": "network-netpacket",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "LLProtocol",
           "package": "network-netpacket",
@@ -348,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "LLProtocol",
           "package": "network-netpacket",
@@ -361,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "PacketMReq",
           "package": "network-netpacket",
@@ -370,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "PacketMReq",
           "package": "network-netpacket",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "PacketMReqType",
           "package": "network-netpacket",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "PacketMReqType",
           "package": "network-netpacket",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "PacketSocketOption",
           "package": "network-netpacket",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "PacketSocketOption",
           "package": "network-netpacket",
@@ -427,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "PktType",
           "package": "network-netpacket",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "PktType",
           "package": "network-netpacket",
@@ -449,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "SockAddrLL",
           "package": "network-netpacket",
@@ -458,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "SockAddrLL",
           "package": "network-netpacket",
@@ -472,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe address family of a packet socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "afPacket",
           "package": "network-netpacket",
@@ -482,6 +525,7 @@
         "index": {
           "description": "The address family of packet socket",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "afPacket",
           "package": "network-netpacket",
@@ -496,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinds a packet socket to an address. This is not essential, but acts as a filter on received packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "bindLL",
           "package": "network-netpacket",
@@ -506,6 +551,7 @@
         "index": {
           "description": "Binds packet socket to an address This is not essential but acts as filter on received packets",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "bindLL",
           "normalized": "Socket-\u003eSockAddrLL-\u003eIO()",
@@ -522,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level bind operation. Normally, this would not be used, as bindLL provides a\n | more convenient interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "c_bind_ll",
           "package": "network-netpacket",
@@ -532,6 +579,7 @@
         "index": {
           "description": "Low-level bind operation Normally this would not be used as bindLL provides more convenient interface",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "c_bind_ll",
           "normalized": "CInt-\u003ePtr SockAddrLL-\u003eCSize-\u003eIO CInt",
@@ -547,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level recvfrom call. Normally, this would not be used, as recvFromLL provides\n | a more convenient interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "c_recvfrom_ll",
           "package": "network-netpacket",
@@ -557,6 +606,7 @@
         "index": {
           "description": "Low-level recvfrom call Normally this would not be used as recvFromLL provides more convenient interface",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "c_recvfrom_ll",
           "normalized": "CInt-\u003eCString-\u003eCSize-\u003eCInt-\u003ePtr SockAddrLL-\u003ePtr CSize-\u003eIO CSize",
@@ -572,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level sendto call. Normally, this would not be used, as sendToLL provides a\n | more convenient interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "c_sendto_ll",
           "package": "network-netpacket",
@@ -582,6 +633,7 @@
         "index": {
           "description": "Low-level sendto call Normally this would not be used as sendToLL provides more convenient interface",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "c_sendto_ll",
           "normalized": "CInt-\u003eCString-\u003eCSize-\u003eCInt-\u003ePtr SockAddrLL-\u003eCSize-\u003eIO CSize",
@@ -597,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level setsockopt operation. Normally, it will be more convenient to use\n | setPacketOption instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "c_setsockopt_ll",
           "package": "network-netpacket",
@@ -607,6 +660,7 @@
         "index": {
           "description": "Low-level setsockopt operation Normally it will be more convenient to use setPacketOption instead",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "c_setsockopt_ll",
           "normalized": "CInt-\u003eCInt-\u003eCInt-\u003ePtr()-\u003eCSize-\u003eIO CInt",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "defaultSockAddrLL",
           "package": "network-netpacket",
@@ -630,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "defaultSockAddrLL",
           "package": "network-netpacket",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "ethProtocolAll",
           "package": "network-netpacket",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "ethProtocolAll",
           "package": "network-netpacket",
@@ -666,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEthernet protocol numbers, for use with socket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "ethProtocolIPv4",
           "package": "network-netpacket",
@@ -676,6 +735,7 @@
         "index": {
           "description": "Ethernet protocol numbers for use with socket",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "ethProtocolIPv4",
           "package": "network-netpacket",
@@ -690,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a type of packet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "ethProtocolIPv6",
           "package": "network-netpacket",
@@ -700,6 +761,7 @@
         "index": {
           "description": "Represents type of packet",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "ethProtocolIPv6",
           "package": "network-netpacket",
@@ -714,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the index for a named interface, for use with SockAddrLL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "getInterfaceIndex",
           "package": "network-netpacket",
@@ -724,6 +787,7 @@
         "index": {
           "description": "Gets the index for named interface for use with SockAddrLL",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "getInterfaceIndex",
           "normalized": "Socket-\u003eString-\u003eIO IFIndex",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "hwTypeEther",
           "package": "network-netpacket",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "hwTypeEther",
           "package": "network-netpacket",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "lLProtocolAll",
           "package": "network-netpacket",
@@ -770,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "lLProtocolAll",
           "package": "network-netpacket",
@@ -783,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "lLProtocolIPv4",
           "package": "network-netpacket",
@@ -792,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "lLProtocolIPv4",
           "package": "network-netpacket",
@@ -805,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "lLProtocolIPv6",
           "package": "network-netpacket",
@@ -814,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "lLProtocolIPv6",
           "package": "network-netpacket",
@@ -827,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "mrAllMulti",
           "package": "network-netpacket",
@@ -836,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "mrAllMulti",
           "package": "network-netpacket",
@@ -849,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "mrMulticast",
           "package": "network-netpacket",
@@ -858,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "mrMulticast",
           "package": "network-netpacket",
@@ -871,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "mrPromisc",
           "package": "network-netpacket",
@@ -880,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "mrPromisc",
           "package": "network-netpacket",
@@ -893,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "noHWAddr",
           "package": "network-netpacket",
@@ -902,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "noHWAddr",
           "package": "network-netpacket",
@@ -915,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetAddMembership",
           "package": "network-netpacket",
@@ -924,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetAddMembership",
           "package": "network-netpacket",
@@ -937,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetBroadcast",
           "package": "network-netpacket",
@@ -946,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetBroadcast",
           "package": "network-netpacket",
@@ -959,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetDropMembership",
           "package": "network-netpacket",
@@ -968,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetDropMembership",
           "package": "network-netpacket",
@@ -982,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the Ethernet hardware type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetFastroute",
           "package": "network-netpacket",
@@ -992,6 +1079,7 @@
         "index": {
           "description": "Represents the Ethernet hardware type",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetFastroute",
           "package": "network-netpacket",
@@ -1005,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetHost",
           "package": "network-netpacket",
@@ -1014,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetHost",
           "package": "network-netpacket",
@@ -1028,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a hardware type appearing in an address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetLoopback",
           "package": "network-netpacket",
@@ -1038,6 +1129,7 @@
         "index": {
           "description": "Represents hardware type appearing in an address",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetLoopback",
           "package": "network-netpacket",
@@ -1051,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetMulticast",
           "package": "network-netpacket",
@@ -1060,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetMulticast",
           "package": "network-netpacket",
@@ -1074,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a low-level protocol appearing in an address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetOtherhost",
           "package": "network-netpacket",
@@ -1084,6 +1179,7 @@
         "index": {
           "description": "Represents low-level protocol appearing in an address",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetOtherhost",
           "package": "network-netpacket",
@@ -1097,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetOutgoing",
           "package": "network-netpacket",
@@ -1106,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetOutgoing",
           "package": "network-netpacket",
@@ -1119,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetRXRing",
           "package": "network-netpacket",
@@ -1128,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetRXRing",
           "package": "network-netpacket",
@@ -1141,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetRecvOutput",
           "package": "network-netpacket",
@@ -1150,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetRecvOutput",
           "package": "network-netpacket",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "packetStatistics",
           "package": "network-netpacket",
@@ -1172,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "packetStatistics",
           "package": "network-netpacket",
@@ -1186,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceives a packet from a socket, returning the address of the packet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "recvFromLL",
           "package": "network-netpacket",
@@ -1196,6 +1301,7 @@
         "index": {
           "description": "Receives packet from socket returning the address of the packet",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "recvFromLL",
           "normalized": "Socket-\u003eInt-\u003eIO(SockAddrLL,ByteString)",
@@ -1212,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a packet to a particular low-level socket address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "sendToLL",
           "package": "network-netpacket",
@@ -1222,6 +1329,7 @@
         "index": {
           "description": "Sends packet to particular low-level socket address",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "sendToLL",
           "normalized": "Socket-\u003eByteString-\u003eSockAddrLL-\u003eIO Int",
@@ -1238,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets an option on a packet socket. This can be used to control the receipt of multicast packets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "setPacketOption",
           "package": "network-netpacket",
@@ -1248,6 +1357,7 @@
         "index": {
           "description": "Sets an option on packet socket This can be used to control the receipt of multicast packets",
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "setPacketOption",
           "normalized": "Socket-\u003ePacketSocketOption-\u003ePacketMReq-\u003eIO()",
@@ -1263,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "solPacket",
           "package": "network-netpacket",
@@ -1272,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "solPacket",
           "package": "network-netpacket",
@@ -1285,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:14 UTC 2014",
           "module": "Network.Socket.NetPacket",
           "name": "unPktType",
           "package": "network-netpacket",
@@ -1294,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Network Socket NetPacket",
+          "indexed": "2014-03-11T19:28:14",
           "module": "Network.Socket.NetPacket",
           "name": "unPktType",
           "package": "network-netpacket",

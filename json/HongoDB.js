@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HongoDB"
+        "phrase": "HongoDB",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "Base",
           "package": "HongoDB",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "Base",
           "package": "HongoDB",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "Action",
           "package": "HongoDB",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "Action",
           "package": "HongoDB",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "DB",
           "package": "HongoDB",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "DB",
           "package": "HongoDB",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "Nop",
           "package": "HongoDB",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "Nop",
           "package": "HongoDB",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "Remove",
           "package": "HongoDB",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "Remove",
           "package": "HongoDB",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "Replace",
           "package": "HongoDB",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "Replace",
           "package": "HongoDB",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "accept",
           "package": "HongoDB",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "accept",
           "normalized": "ByteString-\u003e(Maybe ByteString-\u003ea(Action,b))-\u003ea b",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "add",
           "package": "HongoDB",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "add",
           "normalized": "ByteString-\u003eByteString-\u003ea Bool",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "clear",
           "package": "HongoDB",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "clear",
           "normalized": "a()",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "count",
           "package": "HongoDB",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "count",
           "package": "HongoDB",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "enum",
           "package": "HongoDB",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "enum",
           "normalized": "a(Enumerator(ByteString,ByteString)a b)",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "get",
           "package": "HongoDB",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "get",
           "normalized": "ByteString-\u003ea(Maybe ByteString)",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "remove",
           "package": "HongoDB",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "remove",
           "normalized": "ByteString-\u003ea Bool",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.Base",
           "name": "set",
           "package": "HongoDB",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB Base",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.Base",
           "name": "set",
           "normalized": "ByteString-\u003eByteString-\u003ea()",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.HashFile",
           "name": "HashFile",
           "package": "HongoDB",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB HashFile",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.HashFile",
           "name": "HashFile",
           "package": "HongoDB",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.HashFile",
           "name": "HashFile",
           "package": "HongoDB",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB HashFile",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.HashFile",
           "name": "HashFile",
           "package": "HongoDB",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.HashFile",
           "name": "HashFileState",
           "package": "HongoDB",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB HashFile",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.HashFile",
           "name": "HashFileState",
           "package": "HongoDB",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.HashFile",
           "name": "closeHashFile",
           "package": "HongoDB",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB HashFile",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.HashFile",
           "name": "closeHashFile",
           "normalized": "HashFileState-\u003eIO()",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.HashFile",
           "name": "openHashFile",
           "package": "HongoDB",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB HashFile",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.HashFile",
           "name": "openHashFile",
           "normalized": "FilePath-\u003eIO HashFileState",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.HashFile",
           "name": "openHashFile'",
           "package": "HongoDB",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB HashFile",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.HashFile",
           "name": "openHashFile'",
           "normalized": "Int-\u003eFilePath-\u003eIO HashFileState",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.HashFile",
           "name": "runHashFile",
           "package": "HongoDB",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB HashFile",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.HashFile",
           "name": "runHashFile",
           "normalized": "HashFileState-\u003eHashFile a b-\u003ea b",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.HashMem",
           "name": "HashMem",
           "package": "HongoDB",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB HashMem",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.HashMem",
           "name": "HashMem",
           "package": "HongoDB",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.HashMem",
           "name": "HashMem",
           "package": "HongoDB",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB HashMem",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.HashMem",
           "name": "HashMem",
           "package": "HongoDB",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB.HashMem",
           "name": "runHashMem",
           "package": "HongoDB",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB HashMem",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB.HashMem",
           "name": "runHashMem",
           "normalized": "HashMem a b-\u003ea b",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:53 UTC 2014",
           "module": "Database.HongoDB",
           "name": "HongoDB",
           "package": "HongoDB",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Database HongoDB",
+          "indexed": "2014-03-11T16:48:53",
           "module": "Database.HongoDB",
           "name": "HongoDB",
           "package": "HongoDB",

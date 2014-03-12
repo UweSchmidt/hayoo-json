@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "packunused"
+        "phrase": "packunused",
+        "type": "phrase"
       },
       "type": "context"
     }

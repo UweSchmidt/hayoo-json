@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "time-lens"
+        "phrase": "time-lens",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "Lens",
           "package": "time-lens",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "Lens",
           "package": "time-lens",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Modified Julian Day is a standard count of days, with zero being the day 1858-11-17.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "Day",
           "package": "time-lens",
@@ -48,6 +51,7 @@
         "index": {
           "description": "The Modified Julian Day is standard count of days with zero being the day",
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "Day",
           "package": "time-lens",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "HasDate",
           "package": "time-lens",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "HasDate",
           "package": "time-lens",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "HasTime",
           "package": "time-lens",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "HasTime",
           "package": "time-lens",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "HasTimeZone",
           "package": "time-lens",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "HasTimeZone",
           "package": "time-lens",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "Lens",
           "package": "time-lens",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "Lens",
           "package": "time-lens",
@@ -145,6 +157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple day and time aggregate, where the day is of the specified parameter,\n and the time is a TimeOfDay.\n Conversion of this (as local civil time) to UTC depends on the time zone.\n Conversion of this (as local mean time) to UT1 depends on the longitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "LocalTime",
           "package": "time-lens",
@@ -153,6 +166,7 @@
         "index": {
           "description": "simple day and time aggregate where the day is of the specified parameter and the time is TimeOfDay Conversion of this as local civil time to UTC depends on the time zone Conversion of this as local mean time to UT1 depends on the longitude",
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "LocalTime",
           "package": "time-lens",
@@ -167,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime of day as represented in hour, minute and second (with picoseconds), typically used to express local time of day.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "TimeOfDay",
           "package": "time-lens",
@@ -175,6 +190,7 @@
         "index": {
           "description": "Time of day as represented in hour minute and second with picoseconds typically used to express local time of day",
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "TimeOfDay",
           "package": "time-lens",
@@ -189,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA local time together with a TimeZone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "ZonedTime",
           "package": "time-lens",
@@ -197,6 +214,7 @@
         "index": {
           "description": "local time together with TimeZone",
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "ZonedTime",
           "package": "time-lens",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "date",
           "package": "time-lens",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "date",
           "package": "time-lens",
@@ -232,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emodL\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eday\u003c/a\u003e\u003c/code\u003e (+n)\u003c/code\u003e computes the date \u003ccode\u003en\u003c/code\u003e days after the original date\n (like \u003ccode\u003e\u003ca\u003eaddDays\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "day",
           "package": "time-lens",
@@ -242,6 +263,7 @@
         "index": {
           "description": "modL day computes the date days after the original date like addDays",
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "day",
           "package": "time-lens",
@@ -255,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the getter function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "getL",
           "package": "time-lens",
@@ -264,6 +287,7 @@
         "index": {
           "description": "Gets the getter function from lens",
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "getL",
           "normalized": "Lens a b-\u003ea-\u003eb",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "getZonedTime",
           "package": "time-lens",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "getZonedTime",
           "package": "time-lens",
@@ -300,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe semantics of \u003ccode\u003e\u003ca\u003egregorian\u003c/a\u003e\u003c/code\u003e corresponds to that of \u003ccode\u003e\u003ca\u003etoGregorian\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003efromGregorian\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "gregorian",
           "package": "time-lens",
@@ -310,6 +337,7 @@
         "index": {
           "description": "The semantics of gregorian corresponds to that of toGregorian and fromGregorian",
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "gregorian",
           "normalized": "Lens a(Integer,Int,Int)",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "hours",
           "package": "time-lens",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "hours",
           "package": "time-lens",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "minutes",
           "package": "time-lens",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "minutes",
           "package": "time-lens",
@@ -367,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the modifier function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "modL",
           "package": "time-lens",
@@ -376,6 +409,7 @@
         "index": {
           "description": "Gets the modifier function from lens",
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "modL",
           "normalized": "Lens a b-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -391,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emodL\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003emonth\u003c/a\u003e\u003c/code\u003e (+n)\u003c/code\u003e adds \u003ccode\u003en\u003c/code\u003e months, with days past the last day of the\n month rolling over to the next month (like \u003ccode\u003e\u003ca\u003eaddGregorianMonthsRollOver\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "month",
           "package": "time-lens",
@@ -401,6 +436,7 @@
         "index": {
           "description": "modL month adds months with days past the last day of the month rolling over to the next month like addGregorianMonthsRollOver",
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "month",
           "package": "time-lens",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "seconds",
           "package": "time-lens",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "seconds",
           "package": "time-lens",
@@ -435,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the setter function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "setL",
           "package": "time-lens",
@@ -444,6 +483,7 @@
         "index": {
           "description": "Gets the setter function from lens",
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "setL",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "time",
           "package": "time-lens",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "time",
           "package": "time-lens",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "timeZone",
           "package": "time-lens",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "timeZone",
           "package": "time-lens",
@@ -502,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emodL\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eyear\u003c/a\u003e\u003c/code\u003e (+n)\u003c/code\u003e adds \u003ccode\u003en\u003c/code\u003e years, matching month and day, with Feb 29th\n rolled over to Mar 1st if necessary (like \u003ccode\u003e\u003ca\u003eaddGregorianYearsRollOver\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:45 UTC 2014",
           "module": "Data.Time.Lens",
           "name": "year",
           "package": "time-lens",
@@ -512,6 +557,7 @@
         "index": {
           "description": "modL year adds years matching month and day with Feb th rolled over to Mar st if necessary like addGregorianYearsRollOver",
           "hierarchy": "Data Time Lens",
+          "indexed": "2014-03-11T20:22:45",
           "module": "Data.Time.Lens",
           "name": "year",
           "package": "time-lens",

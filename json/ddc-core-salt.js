@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ddc-core-salt"
+        "phrase": "ddc-core-salt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "Compounds",
           "package": "ddc-core-salt",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "Compounds",
           "package": "ddc-core-salt",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Literal Nat# data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "dcNatU",
           "package": "ddc-core-salt",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Literal Nat data constructor",
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "dcNatU",
           "normalized": "Integer-\u003eDaCon Name",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of the Bool type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tBool",
           "package": "ddc-core-salt",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Application of the Bool type constructor",
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tBool",
           "normalized": "Region Name-\u003eType Name",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnboxed `Bool#` type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tBoolU",
           "package": "ddc-core-salt",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Unboxed Bool type constructor",
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tBoolU",
           "package": "ddc-core-salt",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of the Int type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tInt",
           "package": "ddc-core-salt",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Application of the Int type constructor",
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tInt",
           "normalized": "Region Name-\u003eType Name",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnboxed `Int#` type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tIntU",
           "package": "ddc-core-salt",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Unboxed Int type constructor",
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tIntU",
           "package": "ddc-core-salt",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of the List type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tList",
           "package": "ddc-core-salt",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Application of the List type constructor",
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tList",
           "normalized": "Region Name-\u003eType Name-\u003eType Name",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of the Nat type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tNat",
           "package": "ddc-core-salt",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Application of the Nat type constructor",
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tNat",
           "normalized": "Region Name-\u003eType Name",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Nat# type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tNatU",
           "package": "ddc-core-salt",
@@ -228,6 +245,7 @@
         "index": {
           "description": "The Nat type constructor",
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tNatU",
           "package": "ddc-core-salt",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of the Pair type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tPair",
           "package": "ddc-core-salt",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Application of the Pair type constructor",
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tPair",
           "normalized": "Region Name-\u003eType Name-\u003eType Name-\u003eType Name",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnboxed `WordN#` type constructor of the given width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tWordU",
           "package": "ddc-core-salt",
@@ -278,6 +299,7 @@
         "index": {
           "description": "Unboxed WordN type constructor of the given width",
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "tWordU",
           "normalized": "Int-\u003eType Name",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal Nat#\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Compounds",
           "name": "xNatU",
           "package": "ddc-core-salt",
@@ -304,6 +327,7 @@
         "index": {
           "description": "literal Nat",
           "hierarchy": "DDC Core Lite Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Compounds",
           "name": "xNatU",
           "normalized": "a-\u003eInteger-\u003eExp a Name",
@@ -319,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Env",
           "name": "Env",
           "package": "ddc-core-salt",
@@ -327,6 +352,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Lite Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Env",
           "name": "Env",
           "package": "ddc-core-salt",
@@ -341,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a type represents a boxed data type, \n   where type variables are treated as boxed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Env",
           "name": "isBoxedType",
           "package": "ddc-core-salt",
@@ -351,6 +378,7 @@
         "index": {
           "description": "Check if type represents boxed data type where type variables are treated as boxed",
           "hierarchy": "DDC Core Lite Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Env",
           "name": "isBoxedType",
           "normalized": "Type Name-\u003eBool",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type definitions \n\u003c/p\u003e\u003cpre\u003e  Type                         Constructors\n  ----                ------------------------------\n  Bool#               True# False#\n  Nat#                0# 1# 2# ...\n  Int#                ... -2i# -1i# 0i# 1i# 2i# ...\n  Tag#                (none, convert from Nat#)\n  Word{8,16,32,64}#   42w8# 123w64# ...\n  Float{32,64}#       (none, convert from Int#)\n\n  Unit                ()\n  Bool                B#\n  Nat                 N#\n  Int                 I#\n  Pair                Pr\n  List                Nil  Cons\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Env",
           "name": "primDataDefs",
           "package": "ddc-core-salt",
@@ -377,6 +406,7 @@
         "index": {
           "description": "Data type definitions Type Constructors Bool True False Nat Int Tag none convert from Nat Word w8 w64 Float none convert from Int Unit Bool Nat Int Pair Pr List Nil Cons",
           "hierarchy": "DDC Core Lite Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Env",
           "name": "primDataDefs",
           "package": "ddc-core-salt",
@@ -391,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind environment containing kinds of primitive data types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Env",
           "name": "primKindEnv",
           "package": "ddc-core-salt",
@@ -401,6 +432,7 @@
         "index": {
           "description": "Kind environment containing kinds of primitive data types",
           "hierarchy": "DDC Core Lite Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Env",
           "name": "primKindEnv",
           "package": "ddc-core-salt",
@@ -415,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType environment containing types of primitive operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Env",
           "name": "primTypeEnv",
           "package": "ddc-core-salt",
@@ -425,6 +458,7 @@
         "index": {
           "description": "Type environment containing types of primitive operators",
           "hierarchy": "DDC Core Lite Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Env",
           "name": "primTypeEnv",
           "package": "ddc-core-salt",
@@ -439,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLayout of algebraic data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Layout",
           "name": "Layout",
           "package": "ddc-core-salt",
@@ -448,6 +483,7 @@
         "index": {
           "description": "Layout of algebraic data",
           "hierarchy": "DDC Core Lite Layout",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Layout",
           "name": "Layout",
           "package": "ddc-core-salt",
@@ -462,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates the heap object formats that can be used to store\n   algebraic data.\n\u003c/p\u003e\u003cp\u003eThe layout of these is defined in the \u003ccode\u003eObjectNN.dce\u003c/code\u003e file of the runtime \n   system, where \u003ccode\u003eNN\u003c/code\u003e is the word size of the machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Layout",
           "name": "HeapObject",
           "package": "ddc-core-salt",
@@ -471,6 +508,7 @@
         "index": {
           "description": "Enumerates the heap object formats that can be used to store algebraic data The layout of these is defined in the ObjectNN.dce file of the runtime system where NN is the word size of the machine",
           "hierarchy": "DDC Core Lite Layout",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Layout",
           "name": "HeapObject",
           "package": "ddc-core-salt",
@@ -484,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Layout",
           "name": "HeapObjectBoxed",
           "package": "ddc-core-salt",
@@ -493,6 +532,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Lite Layout",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Layout",
           "name": "HeapObjectBoxed",
           "package": "ddc-core-salt",
@@ -506,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Layout",
           "name": "HeapObjectMixed",
           "package": "ddc-core-salt",
@@ -515,6 +556,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Lite Layout",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Layout",
           "name": "HeapObjectMixed",
           "package": "ddc-core-salt",
@@ -528,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Layout",
           "name": "HeapObjectRaw",
           "package": "ddc-core-salt",
@@ -537,6 +580,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Lite Layout",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Layout",
           "name": "HeapObjectRaw",
           "package": "ddc-core-salt",
@@ -550,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Layout",
           "name": "HeapObjectRawSmall",
           "package": "ddc-core-salt",
@@ -559,6 +604,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Lite Layout",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Layout",
           "name": "HeapObjectRawSmall",
           "package": "ddc-core-salt",
@@ -573,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a constructor definition,\n   get the offset of each field in the payload of a heap object.\n\u003c/p\u003e\u003cp\u003eWe don't know the absolute offset from the beginning of the heap \n   object, because the size of the header is only known by the runtime \n   system.\n\u003c/p\u003e\u003cp\u003eThis doesn't add any padding for misaligned fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Layout",
           "name": "fieldOffsetsOfDataCtor",
           "package": "ddc-core-salt",
@@ -583,6 +630,7 @@
         "index": {
           "description": "Given constructor definition get the offset of each field in the payload of heap object We don know the absolute offset from the beginning of the heap object because the size of the header is only known by the runtime system This doesn add any padding for misaligned fields",
           "hierarchy": "DDC Core Lite Layout",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Layout",
           "name": "fieldOffsetsOfDataCtor",
           "normalized": "Platform-\u003eDataCtor Name-\u003eMaybe[Integer]",
@@ -599,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecide which heap object to use to represent a data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Layout",
           "name": "heapObjectOfDataCtor",
           "package": "ddc-core-salt",
@@ -609,6 +658,7 @@
         "index": {
           "description": "Decide which heap object to use to represent data constructor",
           "hierarchy": "DDC Core Lite Layout",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Layout",
           "name": "heapObjectOfDataCtor",
           "normalized": "Platform-\u003eDataCtor Name-\u003eMaybe HeapObject",
@@ -625,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the payload for this data constructor.\n   The payload holds all the fields, but does not include\n   header information such as the constructor tag.\n\u003c/p\u003e\u003cp\u003eThis doesn't add any padding for misaligned fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite.Layout",
           "name": "payloadSizeOfDataCtor",
           "package": "ddc-core-salt",
@@ -635,6 +686,7 @@
         "index": {
           "description": "Get the size of the payload for this data constructor The payload holds all the fields but does not include header information such as the constructor tag This doesn add any padding for misaligned fields",
           "hierarchy": "DDC Core Lite Layout",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite.Layout",
           "name": "payloadSizeOfDataCtor",
           "normalized": "Platform-\u003eDataCtor Name-\u003eMaybe Integer",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisciple Core Lite.\n\u003c/p\u003e\u003cp\u003eThis is a desugared version of Disciple Core that has all the polymorphism\n   of System-F2 along with algebraic data types. It does not yet support\n   user-defined data types, but has Units, Ints, Pairs and Lists baked in.\n\u003c/p\u003e\u003cp\u003eLite exposes arithmetic primops like \u003ccode\u003eadd\u003ca name=\"@ and @or\"/\u003e\u003c/code\u003e, but no store or\n   control primops. Code written in Lite cannot corrupt the heap, assuming\n   the implementation of the Salt primitives it uses (and compiler) is\n   correct.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "Lite",
           "package": "ddc-core-salt",
@@ -660,6 +713,7 @@
         "index": {
           "description": "Disciple Core Lite This is desugared version of Disciple Core that has all the polymorphism of System-F2 along with algebraic data types It does not yet support user-defined data types but has Units Ints Pairs and Lists baked in Lite exposes arithmetic primops like add but no store or control primops Code written in Lite cannot corrupt the heap assuming the implementation of the Salt primitives it uses and compiler is correct",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "Lite",
           "package": "ddc-core-salt",
@@ -674,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBaked-in data type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "DataTyCon",
           "package": "ddc-core-salt",
@@ -683,6 +738,7 @@
         "index": {
           "description": "Baked-in data type constructors",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "DataTyCon",
           "package": "ddc-core-salt",
@@ -697,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings that can go wrong during the conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "Error",
           "package": "ddc-core-salt",
@@ -706,6 +763,7 @@
         "index": {
           "description": "Things that can go wrong during the conversion",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "Error",
           "package": "ddc-core-salt",
@@ -720,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of things used in Disciple Core Lite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "Name",
           "package": "ddc-core-salt",
@@ -729,6 +788,7 @@
         "index": {
           "description": "Names of things used in Disciple Core Lite",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "Name",
           "package": "ddc-core-salt",
@@ -743,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive arithmetic, logic, and comparison opretors.\n   We expect the backend/machine to be able to implement these directly.\n\u003c/p\u003e\u003cp\u003eFor the Shift Right operator, the type that it is used at determines\n   whether it is an arithmetic (with sign-extension) or logical\n   (no sign-extension) shift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "PrimArith",
           "package": "ddc-core-salt",
@@ -752,6 +813,7 @@
         "index": {
           "description": "Primitive arithmetic logic and comparison opretors We expect the backend machine to be able to implement these directly For the Shift Right operator the type that it is used at determines whether it is an arithmetic with sign-extension or logical no sign-extension shift",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "PrimArith",
           "package": "ddc-core-salt",
@@ -766,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive cast between two types.\n\u003c/p\u003e\u003cp\u003eThe exact set of available casts is determined by the target platform.\n   For example, you can only promote a \u003ccode\u003eNat#\u003c/code\u003e to a \u003ccode\u003eWord32#\u003c/code\u003e on a 32-bit\n   system. On a 64-bit system the \u003ccode\u003eNat#\u003c/code\u003e type is 64-bits wide, so casting it\n   to a \u003ccode\u003eWord32#\u003c/code\u003e would be a truncation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "PrimCast",
           "package": "ddc-core-salt",
@@ -775,6 +838,7 @@
         "index": {
           "description": "Primitive cast between two types The exact set of available casts is determined by the target platform For example you can only promote Nat to Word32 on bit system On bit system the Nat type is bits wide so casting it to Word32 would be truncation",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "PrimCast",
           "package": "ddc-core-salt",
@@ -789,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBaked-in data constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "PrimDaCon",
           "package": "ddc-core-salt",
@@ -798,6 +863,7 @@
         "index": {
           "description": "Baked-in data constructors",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "PrimDaCon",
           "package": "ddc-core-salt",
@@ -812,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "PrimTyCon",
           "package": "ddc-core-salt",
@@ -821,6 +888,7 @@
         "index": {
           "description": "Primitive type constructors",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "PrimTyCon",
           "package": "ddc-core-salt",
@@ -835,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eBool\u003c/code\u003e  type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "DataTyConBool",
           "package": "ddc-core-salt",
@@ -845,6 +914,7 @@
         "index": {
           "description": "Bool type constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "DataTyConBool",
           "package": "ddc-core-salt",
@@ -859,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eInt\u003c/code\u003e   type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "DataTyConInt",
           "package": "ddc-core-salt",
@@ -869,6 +940,7 @@
         "index": {
           "description": "Int type constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "DataTyConInt",
           "package": "ddc-core-salt",
@@ -883,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eList\u003c/code\u003e  type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "DataTyConList",
           "package": "ddc-core-salt",
@@ -893,6 +966,7 @@
         "index": {
           "description": "List type constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "DataTyConList",
           "package": "ddc-core-salt",
@@ -907,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNat\u003c/code\u003e   type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "DataTyConNat",
           "package": "ddc-core-salt",
@@ -917,6 +992,7 @@
         "index": {
           "description": "Nat type constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "DataTyConNat",
           "package": "ddc-core-salt",
@@ -931,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePair\u003c/code\u003e  type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "DataTyConPair",
           "package": "ddc-core-salt",
@@ -941,6 +1018,7 @@
         "index": {
           "description": "Pair type constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "DataTyConPair",
           "package": "ddc-core-salt",
@@ -955,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eUnit\u003c/code\u003e  type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "DataTyConUnit",
           "package": "ddc-core-salt",
@@ -965,6 +1044,7 @@
         "index": {
           "description": "Unit type constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "DataTyConUnit",
           "package": "ddc-core-salt",
@@ -979,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe program has bottom (missing) type annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "ErrorBotAnnot",
           "package": "ddc-core-salt",
@@ -989,6 +1070,7 @@
         "index": {
           "description": "The program has bottom missing type annotations",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "ErrorBotAnnot",
           "package": "ddc-core-salt",
@@ -1003,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid name used for the constructor of an alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "ErrorInvalidAlt",
           "package": "ddc-core-salt",
@@ -1013,6 +1096,7 @@
         "index": {
           "description": "An invalid name used for the constructor of an alternative",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "ErrorInvalidAlt",
           "package": "ddc-core-salt",
@@ -1027,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid name used in a binding position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "ErrorInvalidBinder",
           "package": "ddc-core-salt",
@@ -1037,6 +1122,7 @@
         "index": {
           "description": "An invalid name used in binding position",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "ErrorInvalidBinder",
           "package": "ddc-core-salt",
@@ -1051,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid name used in a bound position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "ErrorInvalidBound",
           "package": "ddc-core-salt",
@@ -1061,6 +1148,7 @@
         "index": {
           "description": "An invalid name used in bound position",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "ErrorInvalidBound",
           "package": "ddc-core-salt",
@@ -1075,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMain\u003c/code\u003e module has no \u003ccode\u003emain\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "ErrorMainHasNoMain",
           "package": "ddc-core-salt",
@@ -1085,6 +1174,7 @@
         "index": {
           "description": "The Main module has no main function",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "ErrorMainHasNoMain",
           "package": "ddc-core-salt",
@@ -1099,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFound unexpected AST node, like \u003ccode\u003e\u003ca\u003eLWithRegion\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "ErrorMalformed",
           "package": "ddc-core-salt",
@@ -1109,6 +1200,7 @@
         "index": {
           "description": "Found unexpected AST node like LWithRegion",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "ErrorMalformed",
           "package": "ddc-core-salt",
@@ -1123,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe program is definately not well typed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "ErrorMistyped",
           "package": "ddc-core-salt",
@@ -1133,6 +1226,7 @@
         "index": {
           "description": "The program is definately not well typed",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "ErrorMistyped",
           "package": "ddc-core-salt",
@@ -1147,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe program wasn't in a-normal form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "ErrorNotNormalized",
           "package": "ddc-core-salt",
@@ -1157,6 +1252,7 @@
         "index": {
           "description": "The program wasn in a-normal form",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "ErrorNotNormalized",
           "package": "ddc-core-salt",
@@ -1171,6 +1267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFound an unexpected type sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "ErrorUnexpectedSum",
           "package": "ddc-core-salt",
@@ -1181,6 +1278,7 @@
         "index": {
           "description": "Found an unexpected type sum",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "ErrorUnexpectedSum",
           "package": "ddc-core-salt",
@@ -1195,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA user defined constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NameCon",
           "package": "ddc-core-salt",
@@ -1205,6 +1304,7 @@
         "index": {
           "description": "user defined constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NameCon",
           "package": "ddc-core-salt",
@@ -1219,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBaked in data type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NameDataTyCon",
           "package": "ddc-core-salt",
@@ -1229,6 +1330,7 @@
         "index": {
           "description": "Baked in data type constructors",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NameDataTyCon",
           "package": "ddc-core-salt",
@@ -1243,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBaked in effect type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NameEffectTyCon",
           "package": "ddc-core-salt",
@@ -1253,6 +1356,7 @@
         "index": {
           "description": "Baked in effect type constructors",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NameEffectTyCon",
           "package": "ddc-core-salt",
@@ -1267,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unboxed boolean literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NameLitBool",
           "package": "ddc-core-salt",
@@ -1277,6 +1382,7 @@
         "index": {
           "description": "An unboxed boolean literal",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NameLitBool",
           "package": "ddc-core-salt",
@@ -1291,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unboxed integer literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NameLitInt",
           "package": "ddc-core-salt",
@@ -1301,6 +1408,7 @@
         "index": {
           "description": "An unboxed integer literal",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NameLitInt",
           "package": "ddc-core-salt",
@@ -1315,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unboxed natural literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NameLitNat",
           "package": "ddc-core-salt",
@@ -1325,6 +1434,7 @@
         "index": {
           "description": "An unboxed natural literal",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NameLitNat",
           "package": "ddc-core-salt",
@@ -1339,6 +1449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unboxed word literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NameLitWord",
           "package": "ddc-core-salt",
@@ -1349,6 +1460,7 @@
         "index": {
           "description": "An unboxed word literal",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NameLitWord",
           "package": "ddc-core-salt",
@@ -1363,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive arithmetic, logic, comparison and bit-wise operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NamePrimArith",
           "package": "ddc-core-salt",
@@ -1373,6 +1486,7 @@
         "index": {
           "description": "Primitive arithmetic logic comparison and bit-wise operators",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NamePrimArith",
           "package": "ddc-core-salt",
@@ -1387,6 +1501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive casting between numeric types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NamePrimCast",
           "package": "ddc-core-salt",
@@ -1397,6 +1512,7 @@
         "index": {
           "description": "Primitive casting between numeric types",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NamePrimCast",
           "package": "ddc-core-salt",
@@ -1411,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA primitive data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NamePrimDaCon",
           "package": "ddc-core-salt",
@@ -1421,6 +1538,7 @@
         "index": {
           "description": "primitive data constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NamePrimDaCon",
           "package": "ddc-core-salt",
@@ -1435,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA primitive type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NamePrimTyCon",
           "package": "ddc-core-salt",
@@ -1445,6 +1564,7 @@
         "index": {
           "description": "primitive type constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NamePrimTyCon",
           "package": "ddc-core-salt",
@@ -1459,6 +1579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser defined variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "NameVar",
           "package": "ddc-core-salt",
@@ -1469,6 +1590,7 @@
         "index": {
           "description": "User defined variables",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "NameVar",
           "package": "ddc-core-salt",
@@ -2033,6 +2155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eB#\u003c/code\u003e   data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConBoolU",
           "package": "ddc-core-salt",
@@ -2043,6 +2166,7 @@
         "index": {
           "description": "data constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConBoolU",
           "package": "ddc-core-salt",
@@ -2057,6 +2181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCons\u003c/code\u003e data constructor (lists).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConCons",
           "package": "ddc-core-salt",
@@ -2067,6 +2192,7 @@
         "index": {
           "description": "Cons data constructor lists",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConCons",
           "package": "ddc-core-salt",
@@ -2081,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eI#\u003c/code\u003e   data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConIntU",
           "package": "ddc-core-salt",
@@ -2091,6 +2218,7 @@
         "index": {
           "description": "data constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConIntU",
           "package": "ddc-core-salt",
@@ -2105,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eN#\u003c/code\u003e   data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConNatU",
           "package": "ddc-core-salt",
@@ -2115,6 +2244,7 @@
         "index": {
           "description": "data constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConNatU",
           "package": "ddc-core-salt",
@@ -2129,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNil\u003c/code\u003e  data constructor (lists).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConNil",
           "package": "ddc-core-salt",
@@ -2139,6 +2270,7 @@
         "index": {
           "description": "Nil data constructor lists",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConNil",
           "package": "ddc-core-salt",
@@ -2153,6 +2285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePr\u003c/code\u003e   data construct (pairs).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConPr",
           "package": "ddc-core-salt",
@@ -2163,6 +2296,7 @@
         "index": {
           "description": "Pr data construct pairs",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConPr",
           "package": "ddc-core-salt",
@@ -2177,6 +2311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit   data constructor \u003ccode\u003e()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConUnit",
           "package": "ddc-core-salt",
@@ -2187,6 +2322,7 @@
         "index": {
           "description": "Unit data constructor",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "PrimDaConUnit",
           "package": "ddc-core-salt",
@@ -2451,6 +2587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex a string to tokens, using primitive names.\n\u003c/p\u003e\u003cp\u003eThe first argument gives the starting source line number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "lexExpString",
           "package": "ddc-core-salt",
@@ -2461,6 +2598,7 @@
         "index": {
           "description": "Lex string to tokens using primitive names The first argument gives the starting source line number",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "lexExpString",
           "normalized": "String-\u003eInt-\u003eString-\u003e[Token(Tok Name)]",
@@ -2477,6 +2615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex a string to tokens, using primitive names.\n\u003c/p\u003e\u003cp\u003eThe first argument gives the starting source line number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "lexModuleString",
           "package": "ddc-core-salt",
@@ -2487,6 +2626,7 @@
         "index": {
           "description": "Lex string to tokens using primitive names The first argument gives the starting source line number",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "lexModuleString",
           "normalized": "String-\u003eInt-\u003eString-\u003e[Token(Tok Name)]",
@@ -2503,6 +2643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProfile for Disciple Core Lite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "profile",
           "package": "ddc-core-salt",
@@ -2513,6 +2654,7 @@
         "index": {
           "description": "Profile for Disciple Core Lite",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "profile",
           "package": "ddc-core-salt",
@@ -2526,6 +2668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the name of a variable, constructor or literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "readName",
           "package": "ddc-core-salt",
@@ -2536,6 +2679,7 @@
         "index": {
           "description": "Read the name of variable constructor or literal",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "readName",
           "normalized": "String-\u003eMaybe Name",
@@ -2552,6 +2696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Disciple Core Lite module to Disciple Core Salt.\n\u003c/p\u003e\u003cp\u003eCase expressions on algebraic data values are converted into ones that just\n   check the tag, while data constructors are unfolded into explicit allocation\n   and field initialization primops. \n\u003c/p\u003e\u003cp\u003eThe input module needs to be:\n      well typed,\n      fully named with no deBruijn indices,\n      have all functions defined at top-level,\n      have type annotations on every bound variable and constructor,\n      be a-normalised. \n      If not then \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe output code contains:\n      debruijn indices.\n       These then need to be eliminated before it will pass the Salt fragment\n       checks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Lite",
           "name": "saltOfLiteModule",
           "package": "ddc-core-salt",
@@ -2561,6 +2706,7 @@
         "index": {
           "description": "Convert Disciple Core Lite module to Disciple Core Salt Case expressions on algebraic data values are converted into ones that just check the tag while data constructors are unfolded into explicit allocation and field initialization primops The input module needs to be well typed fully named with no deBruijn indices have all functions defined at top-level have type annotations on every bound variable and constructor be a-normalised If not then Error The output code contains debruijn indices These then need to be eliminated before it will pass the Salt fragment checks",
           "hierarchy": "DDC Core Lite",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Lite",
           "name": "saltOfLiteModule",
           "normalized": "Platform-\u003eConfig-\u003eDataDefs Name-\u003eKindEnv Name-\u003eTypeEnv Name-\u003eModule(AnTEC a Name)Name-\u003eEither(Error a)(Module a Name)",
@@ -2576,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "Compounds",
           "package": "ddc-core-salt",
@@ -2584,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "Compounds",
           "package": "ddc-core-salt",
@@ -2597,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tAddr",
           "package": "ddc-core-salt",
@@ -2606,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tAddr",
           "package": "ddc-core-salt",
@@ -2619,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tBool",
           "package": "ddc-core-salt",
@@ -2628,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tBool",
           "package": "ddc-core-salt",
@@ -2641,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tInt",
           "package": "ddc-core-salt",
@@ -2650,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tInt",
           "package": "ddc-core-salt",
@@ -2663,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tNat",
           "package": "ddc-core-salt",
@@ -2672,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tNat",
           "package": "ddc-core-salt",
@@ -2685,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tObj",
           "package": "ddc-core-salt",
@@ -2694,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tObj",
           "package": "ddc-core-salt",
@@ -2707,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tPtr",
           "package": "ddc-core-salt",
@@ -2716,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tPtr",
           "normalized": "Region Name-\u003eType Name-\u003eType Name",
@@ -2731,6 +2891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tString",
           "package": "ddc-core-salt",
@@ -2740,6 +2901,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tString",
           "package": "ddc-core-salt",
@@ -2753,6 +2915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tTag",
           "package": "ddc-core-salt",
@@ -2762,6 +2925,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tTag",
           "package": "ddc-core-salt",
@@ -2775,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tVoid",
           "package": "ddc-core-salt",
@@ -2784,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tVoid",
           "package": "ddc-core-salt",
@@ -2797,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tWord",
           "package": "ddc-core-salt",
@@ -2806,6 +2973,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "tWord",
           "normalized": "Int-\u003eType Name",
@@ -2821,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "takeTPtr",
           "package": "ddc-core-salt",
@@ -2830,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "takeTPtr",
           "normalized": "Type Name-\u003eMaybe(Region Name,Type Name)",
@@ -2845,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "xBool",
           "package": "ddc-core-salt",
@@ -2854,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "xBool",
           "normalized": "a-\u003eBool-\u003eExp a Name",
@@ -2869,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "xInt",
           "package": "ddc-core-salt",
@@ -2878,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "xInt",
           "normalized": "a-\u003eInteger-\u003eExp a Name",
@@ -2893,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "xNat",
           "package": "ddc-core-salt",
@@ -2902,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "xNat",
           "normalized": "a-\u003eInteger-\u003eExp a Name",
@@ -2917,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "xTag",
           "package": "ddc-core-salt",
@@ -2926,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "xTag",
           "normalized": "a-\u003eInteger-\u003eExp a Name",
@@ -2941,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Compounds",
           "name": "xWord",
           "package": "ddc-core-salt",
@@ -2950,6 +3129,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Compounds",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Compounds",
           "name": "xWord",
           "normalized": "a-\u003eInteger-\u003eInt-\u003eExp a Name",
@@ -2966,6 +3146,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes of Disciple Core Salt primops.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Env",
           "name": "Env",
           "package": "ddc-core-salt",
@@ -2975,6 +3156,7 @@
         "index": {
           "description": "Types of Disciple Core Salt primops",
           "hierarchy": "DDC Core Salt Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Env",
           "name": "Env",
           "package": "ddc-core-salt",
@@ -2989,6 +3171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type definitions for:\n\u003c/p\u003e\u003cpre\u003e  Type                        Constructors\n  ----                --------------------------\n  Bool#               True# False#\n  Nat#                0# 1# 2# ...\n  Int#                ... -2i# -1i# 0i# 1i# 2i# ...\n  Tag#                (none, convert from Nat#)\n  Word{8,16,32,64}#   42w8# 123w64# ...\n  Float{32,64}#       (none, convert from Int#)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Env",
           "name": "primDataDefs",
           "package": "ddc-core-salt",
@@ -2999,6 +3182,7 @@
         "index": {
           "description": "Data type definitions for Type Constructors Bool True False Nat Int Tag none convert from Nat Word w8 w64 Float none convert from Int",
           "hierarchy": "DDC Core Salt Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Env",
           "name": "primDataDefs",
           "package": "ddc-core-salt",
@@ -3013,6 +3197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind environment containing kinds of primitive data types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Env",
           "name": "primKindEnv",
           "package": "ddc-core-salt",
@@ -3023,6 +3208,7 @@
         "index": {
           "description": "Kind environment containing kinds of primitive data types",
           "hierarchy": "DDC Core Salt Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Env",
           "name": "primKindEnv",
           "package": "ddc-core-salt",
@@ -3037,6 +3223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType environment containing types of primitive operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Env",
           "name": "primTypeEnv",
           "package": "ddc-core-salt",
@@ -3047,6 +3234,7 @@
         "index": {
           "description": "Type environment containing types of primitive operators",
           "hierarchy": "DDC Core Salt Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Env",
           "name": "primTypeEnv",
           "package": "ddc-core-salt",
@@ -3061,6 +3249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a type is an unboxed data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Env",
           "name": "typeIsUnboxed",
           "package": "ddc-core-salt",
@@ -3071,6 +3260,7 @@
         "index": {
           "description": "Check if type is an unboxed data type",
           "hierarchy": "DDC Core Salt Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Env",
           "name": "typeIsUnboxed",
           "normalized": "Type Name-\u003eBool",
@@ -3087,6 +3277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the type of a primitive operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Env",
           "name": "typeOfPrimArith",
           "package": "ddc-core-salt",
@@ -3097,6 +3288,7 @@
         "index": {
           "description": "Take the type of primitive operator",
           "hierarchy": "DDC Core Salt Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Env",
           "name": "typeOfPrimArith",
           "normalized": "PrimArith-\u003eType Name",
@@ -3113,6 +3305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the type of a primitive call operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Env",
           "name": "typeOfPrimCall",
           "package": "ddc-core-salt",
@@ -3123,6 +3316,7 @@
         "index": {
           "description": "Take the type of primitive call operator",
           "hierarchy": "DDC Core Salt Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Env",
           "name": "typeOfPrimCall",
           "normalized": "PrimCall-\u003eType Name",
@@ -3139,6 +3333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the type of a primitive cast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Env",
           "name": "typeOfPrimCast",
           "package": "ddc-core-salt",
@@ -3149,6 +3344,7 @@
         "index": {
           "description": "Take the type of primitive cast",
           "hierarchy": "DDC Core Salt Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Env",
           "name": "typeOfPrimCast",
           "normalized": "PrimCast-\u003eType Name",
@@ -3164,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Env",
           "name": "typeOfPrimControl",
           "package": "ddc-core-salt",
@@ -3173,6 +3370,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Env",
           "name": "typeOfPrimControl",
           "normalized": "PrimControl-\u003eType Name",
@@ -3189,6 +3387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the type of a primitive projection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Env",
           "name": "typeOfPrimStore",
           "package": "ddc-core-salt",
@@ -3199,6 +3398,7 @@
         "index": {
           "description": "Take the type of primitive projection",
           "hierarchy": "DDC Core Salt Env",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Env",
           "name": "typeOfPrimStore",
           "normalized": "PrimStore-\u003eType Name",
@@ -3215,6 +3415,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNames used in the Disciple Core Salt language profile.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "Name",
           "package": "ddc-core-salt",
@@ -3224,6 +3425,7 @@
         "index": {
           "description": "Names used in the Disciple Core Salt language profile",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "Name",
           "package": "ddc-core-salt",
@@ -3238,6 +3440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of things used in Disciple Core Salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "Name",
           "package": "ddc-core-salt",
@@ -3247,6 +3450,7 @@
         "index": {
           "description": "Names of things used in Disciple Core Salt",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "Name",
           "package": "ddc-core-salt",
@@ -3261,6 +3465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive arithmetic, logic, and comparison opretors.\n   We expect the backend/machine to be able to implement these directly.\n\u003c/p\u003e\u003cp\u003eFor the Shift Right operator, the type that it is used at determines\n   whether it is an arithmetic (with sign-extension) or logical\n   (no sign-extension) shift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimArith",
           "package": "ddc-core-salt",
@@ -3270,6 +3475,7 @@
         "index": {
           "description": "Primitive arithmetic logic and comparison opretors We expect the backend machine to be able to implement these directly For the Shift Right operator the type that it is used at determines whether it is an arithmetic with sign-extension or logical no sign-extension shift",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimArith",
           "package": "ddc-core-salt",
@@ -3284,6 +3490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive ways of invoking a function, \n   where control flow returns back to the caller.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimCall",
           "package": "ddc-core-salt",
@@ -3293,6 +3500,7 @@
         "index": {
           "description": "Primitive ways of invoking function where control flow returns back to the caller",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimCall",
           "package": "ddc-core-salt",
@@ -3307,6 +3515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive cast between two types.\n\u003c/p\u003e\u003cp\u003eThe exact set of available casts is determined by the target platform.\n   For example, you can only promote a \u003ccode\u003eNat#\u003c/code\u003e to a \u003ccode\u003eWord32#\u003c/code\u003e on a 32-bit\n   system. On a 64-bit system the \u003ccode\u003eNat#\u003c/code\u003e type is 64-bits wide, so casting it\n   to a \u003ccode\u003eWord32#\u003c/code\u003e would be a truncation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimCast",
           "package": "ddc-core-salt",
@@ -3316,6 +3525,7 @@
         "index": {
           "description": "Primitive cast between two types The exact set of available casts is determined by the target platform For example you can only promote Nat to Word32 on bit system On bit system the Nat type is bits wide so casting it to Word32 would be truncation",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimCast",
           "package": "ddc-core-salt",
@@ -3330,6 +3540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive non-returning control flow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimControl",
           "package": "ddc-core-salt",
@@ -3339,6 +3550,7 @@
         "index": {
           "description": "Primitive non-returning control flow",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimControl",
           "package": "ddc-core-salt",
@@ -3353,6 +3565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive operators implemented directly by the machine or runtime system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimOp",
           "package": "ddc-core-salt",
@@ -3362,6 +3575,7 @@
         "index": {
           "description": "Primitive operators implemented directly by the machine or runtime system",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimOp",
           "package": "ddc-core-salt",
@@ -3376,6 +3590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw access to the store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimStore",
           "package": "ddc-core-salt",
@@ -3385,6 +3600,7 @@
         "index": {
           "description": "Raw access to the store",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimStore",
           "package": "ddc-core-salt",
@@ -3399,6 +3615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimTyCon",
           "package": "ddc-core-salt",
@@ -3408,6 +3625,7 @@
         "index": {
           "description": "Primitive type constructors",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "PrimTyCon",
           "package": "ddc-core-salt",
@@ -4374,6 +4592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating point constructors.\n\u003c/p\u003e\u003cp\u003eThese are \u003ccode\u003eFloatN\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "primTyConIsFloating",
           "package": "ddc-core-salt",
@@ -4384,6 +4603,7 @@
         "index": {
           "description": "Floating point constructors These are FloatN",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "primTyConIsFloating",
           "normalized": "PrimTyCon-\u003eBool",
@@ -4400,6 +4620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral constructors are the ones that we can reasonably\n   convert from integers of the same size. \n\u003c/p\u003e\u003cp\u003eThese are \u003ccode\u003eBool\u003ca name=\"@ @Nat\"/\u003e\u003c/code\u003e \u003ccode\u003eInt\u003ca name=\"@ @WordN\"/\u003e\u003c/code\u003e and \u003ccode\u003eTag#\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "primTyConIsIntegral",
           "package": "ddc-core-salt",
@@ -4410,6 +4631,7 @@
         "index": {
           "description": "Integral constructors are the ones that we can reasonably convert from integers of the same size These are Bool Int and Tag",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "primTyConIsIntegral",
           "normalized": "PrimTyCon-\u003eBool",
@@ -4426,6 +4648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigned integral constructors.\n\u003c/p\u003e\u003cp\u003eThis is just \u003ccode\u003eInt\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "primTyConIsSigned",
           "package": "ddc-core-salt",
@@ -4436,6 +4659,7 @@
         "index": {
           "description": "Signed integral constructors This is just Int",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "primTyConIsSigned",
           "normalized": "PrimTyCon-\u003eBool",
@@ -4452,6 +4676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned integral constructors.\n\u003c/p\u003e\u003cp\u003eThese are \u003ccode\u003eBool\u003c/code\u003e \u003ccode\u003eNat\u003c/code\u003e \u003ccode\u003eWordN\u003c/code\u003e \u003ccode\u003eTag\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "primTyConIsUnsigned",
           "package": "ddc-core-salt",
@@ -4462,6 +4687,7 @@
         "index": {
           "description": "Unsigned integral constructors These are Bool Nat WordN Tag",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "primTyConIsUnsigned",
           "normalized": "PrimTyCon-\u003eBool",
@@ -4478,6 +4704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the representation width of a primitive type constructor, \n   in bits. This is how much space it takes up in an object payload.\n\u003c/p\u003e\u003cp\u003eBools are representable with a single bit, but we unpack\n   them into a whole word.\n\u003c/p\u003e\u003cp\u003eThe abstract constructors \u003ccode\u003eVoid\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e have no width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "primTyConWidth",
           "package": "ddc-core-salt",
@@ -4488,6 +4715,7 @@
         "index": {
           "description": "Get the representation width of primitive type constructor in bits This is how much space it takes up in an object payload Bools are representable with single bit but we unpack them into whole word The abstract constructors Void and String have no width",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "primTyConWidth",
           "normalized": "Platform-\u003ePrimTyCon-\u003eMaybe Integer",
@@ -4504,6 +4732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a signed integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "readLitInteger",
           "package": "ddc-core-salt",
@@ -4514,6 +4743,7 @@
         "index": {
           "description": "Read signed integer",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "readLitInteger",
           "normalized": "String-\u003eMaybe Integer",
@@ -4530,6 +4760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an integer with an explicit format specifier like \u003ccode\u003e1234i#\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "readLitPrimInt",
           "package": "ddc-core-salt",
@@ -4540,6 +4771,7 @@
         "index": {
           "description": "Read an integer with an explicit format specifier like",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "readLitPrimInt",
           "normalized": "String-\u003eMaybe Integer",
@@ -4556,6 +4788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an integer with an explicit format specifier like \u003ccode\u003e1234i#\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "readLitPrimNat",
           "package": "ddc-core-salt",
@@ -4566,6 +4799,7 @@
         "index": {
           "description": "Read an integer with an explicit format specifier like",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "readLitPrimNat",
           "normalized": "String-\u003eMaybe Integer",
@@ -4582,6 +4816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a word with an explicit format speficier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "readLitPrimWordOfBits",
           "package": "ddc-core-salt",
@@ -4592,6 +4827,7 @@
         "index": {
           "description": "Read word with an explicit format speficier",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "readLitPrimWordOfBits",
           "normalized": "String-\u003eMaybe(Integer,Int)",
@@ -4635,6 +4871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a primitive operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimArith",
           "package": "ddc-core-salt",
@@ -4645,6 +4882,7 @@
         "index": {
           "description": "Read primitive operator",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimArith",
           "normalized": "String-\u003eMaybe PrimArith",
@@ -4660,6 +4898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimCall",
           "package": "ddc-core-salt",
@@ -4669,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimCall",
           "normalized": "String-\u003eMaybe PrimCall",
@@ -4684,6 +4924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimCast",
           "package": "ddc-core-salt",
@@ -4693,6 +4934,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimCast",
           "normalized": "String-\u003eMaybe PrimCast",
@@ -4708,6 +4950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimControl",
           "package": "ddc-core-salt",
@@ -4717,6 +4960,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimControl",
           "normalized": "String-\u003eMaybe PrimControl",
@@ -4732,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimStore",
           "package": "ddc-core-salt",
@@ -4741,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimStore",
           "normalized": "String-\u003eMaybe PrimStore",
@@ -4757,6 +5003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a primitive type constructor.\n\u003c/p\u003e\u003cp\u003eWords are limited to 8, 16, 32, or 64 bits.\n\u003c/p\u003e\u003cp\u003eFloats are limited to 32 or 64 bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimTyCon",
           "package": "ddc-core-salt",
@@ -4767,6 +5014,7 @@
         "index": {
           "description": "Read primitive type constructor Words are limited to or bits Floats are limited to or bits",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "readPrimTyCon",
           "normalized": "String-\u003eMaybe PrimTyCon",
@@ -4783,6 +5031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esanitizeGlobal\u003c/a\u003e\u003c/code\u003e but indicate that the name is going to be visible\n   globally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "sanitizeGlobal",
           "package": "ddc-core-salt",
@@ -4793,6 +5042,7 @@
         "index": {
           "description": "Like sanitizeGlobal but indicate that the name is going to be visible globally",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "sanitizeGlobal",
           "normalized": "String-\u003eString",
@@ -4809,6 +5059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esanitizeName\u003c/a\u003e\u003c/code\u003e but at add an extra '_' prefix.\n   This is used for function-local names so that they do not conflict \n   with globally-visible ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "sanitizeLocal",
           "package": "ddc-core-salt",
@@ -4819,6 +5070,7 @@
         "index": {
           "description": "Like sanitizeName but at add an extra prefix This is used for function-local names so that they do not conflict with globally-visible ones",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "sanitizeLocal",
           "normalized": "String-\u003eString",
@@ -4835,6 +5087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite the symbols in a name to make it safe to export as an external\n   symbol. For example, a names containing a \u003ccode\u003e&\u003c/code\u003e is prefixed with \u003ccode\u003e_sym_\u003c/code\u003e\n   and the \u003ccode\u003e&\u003c/code\u003e replzced by \u003ccode\u003eZAn\u003c/code\u003e. Literal \u003ccode\u003eZ\u003c/code\u003es in a symbolic name are doubled\n   to \u003ccode\u003eZZ\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Name",
           "name": "sanitizeName",
           "package": "ddc-core-salt",
@@ -4845,6 +5098,7 @@
         "index": {
           "description": "Rewrite the symbols in name to make it safe to export as an external symbol For example names containing is prefixed with sym and the replzced by ZAn Literal in symbolic name are doubled to ZZ",
           "hierarchy": "DDC Core Salt Name",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Name",
           "name": "sanitizeName",
           "normalized": "String-\u003eString",
@@ -4860,6 +5114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Platform",
           "name": "Platform",
           "package": "ddc-core-salt",
@@ -4868,6 +5123,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Platform",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Platform",
           "name": "Platform",
           "package": "ddc-core-salt",
@@ -4882,6 +5138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnough information about the platform to generate code for it.\n   We need to know the pointer size and alignment constraints\n   so that we can lay out heap objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Platform",
           "name": "Platform",
           "package": "ddc-core-salt",
@@ -4891,6 +5148,7 @@
         "index": {
           "description": "Enough information about the platform to generate code for it We need to know the pointer size and alignment constraints so that we can lay out heap objects",
           "hierarchy": "DDC Core Salt Platform",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Platform",
           "name": "Platform",
           "package": "ddc-core-salt",
@@ -4904,6 +5162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Platform",
           "name": "Platform",
           "package": "ddc-core-salt",
@@ -4913,6 +5172,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Platform",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Platform",
           "name": "Platform",
           "package": "ddc-core-salt",
@@ -4927,6 +5187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit platform specification.\n\u003c/p\u003e\u003cp\u003eHeap objects are aligned to 64-bit so that double-precision floats\n   in the object payloads maintain their alignments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Platform",
           "name": "platform32",
           "package": "ddc-core-salt",
@@ -4937,6 +5198,7 @@
         "index": {
           "description": "bit platform specification Heap objects are aligned to bit so that double-precision floats in the object payloads maintain their alignments",
           "hierarchy": "DDC Core Salt Platform",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Platform",
           "name": "platform32",
           "package": "ddc-core-salt",
@@ -4950,6 +5212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit platform specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Platform",
           "name": "platform64",
           "package": "ddc-core-salt",
@@ -4960,6 +5223,7 @@
         "index": {
           "description": "bit platform specification",
           "hierarchy": "DDC Core Salt Platform",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Platform",
           "name": "platform64",
           "package": "ddc-core-salt",
@@ -4973,6 +5237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth of an address in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Platform",
           "name": "platformAddrBytes",
           "package": "ddc-core-salt",
@@ -4983,6 +5248,7 @@
         "index": {
           "description": "Width of an address in bytes",
           "hierarchy": "DDC Core Salt Platform",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Platform",
           "name": "platformAddrBytes",
           "package": "ddc-core-salt",
@@ -4997,6 +5263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign functions on this boundary in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Platform",
           "name": "platformAlignBytes",
           "package": "ddc-core-salt",
@@ -5007,6 +5274,7 @@
         "index": {
           "description": "Align functions on this boundary in bytes",
           "hierarchy": "DDC Core Salt Platform",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Platform",
           "name": "platformAlignBytes",
           "package": "ddc-core-salt",
@@ -5021,6 +5289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth of a Nat in bytes (used for object sizes like size_t).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Platform",
           "name": "platformNatBytes",
           "package": "ddc-core-salt",
@@ -5031,6 +5300,7 @@
         "index": {
           "description": "Width of Nat in bytes used for object sizes like size",
           "hierarchy": "DDC Core Salt Platform",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Platform",
           "name": "platformNatBytes",
           "package": "ddc-core-salt",
@@ -5045,6 +5315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum size of a heap object in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Platform",
           "name": "platformObjBytes",
           "package": "ddc-core-salt",
@@ -5055,6 +5326,7 @@
         "index": {
           "description": "Minimum size of heap object in bytes",
           "hierarchy": "DDC Core Salt Platform",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Platform",
           "name": "platformObjBytes",
           "package": "ddc-core-salt",
@@ -5069,6 +5341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth of a constructor tag in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Platform",
           "name": "platformTagBytes",
           "package": "ddc-core-salt",
@@ -5079,6 +5352,7 @@
         "index": {
           "description": "Width of constructor tag in bytes",
           "hierarchy": "DDC Core Salt Platform",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Platform",
           "name": "platformTagBytes",
           "package": "ddc-core-salt",
@@ -5093,6 +5367,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBindings to functions exported by the runtime system,\n   and wrappers for related primops.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "Runtime",
           "package": "ddc-core-salt",
@@ -5102,6 +5377,7 @@
         "index": {
           "description": "Bindings to functions exported by the runtime system and wrappers for related primops",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "Runtime",
           "package": "ddc-core-salt",
@@ -5116,6 +5392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime system configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "Config",
           "package": "ddc-core-salt",
@@ -5125,6 +5402,7 @@
         "index": {
           "description": "Runtime system configuration",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "Config",
           "package": "ddc-core-salt",
@@ -5138,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "Config",
           "package": "ddc-core-salt",
@@ -5147,6 +5426,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "Config",
           "package": "ddc-core-salt",
@@ -5161,6 +5441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed a fixed-size heap of this many bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "configHeapSize",
           "package": "ddc-core-salt",
@@ -5171,6 +5452,7 @@
         "index": {
           "description": "Used fixed-size heap of this many bytes",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "configHeapSize",
           "package": "ddc-core-salt",
@@ -5185,6 +5467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe top-level region.\n   This region lives for the whole program, and is used to store objects whose \n   types don't have region annotations (like function closures and Unit values).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "rTop",
           "package": "ddc-core-salt",
@@ -5195,6 +5478,7 @@
         "index": {
           "description": "The top-level region This region lives for the whole program and is used to store objects whose types don have region annotations like function closures and Unit values",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "rTop",
           "package": "ddc-core-salt",
@@ -5209,6 +5493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind signatures for runtime types that we use when converting to Salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "runtimeImportKinds",
           "package": "ddc-core-salt",
@@ -5219,6 +5504,7 @@
         "index": {
           "description": "Kind signatures for runtime types that we use when converting to Salt",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "runtimeImportKinds",
           "normalized": "Map Name(QualName Name,Kind Name)",
@@ -5235,6 +5521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType signatures for runtime funtions that we use when converting to Salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "runtimeImportTypes",
           "package": "ddc-core-salt",
@@ -5245,6 +5532,7 @@
         "index": {
           "description": "Type signatures for runtime funtions that we use when converting to Salt",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "runtimeImportTypes",
           "normalized": "Map Name(QualName Name,Type Name)",
@@ -5261,6 +5549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a Boxed object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xAllocBoxed",
           "package": "ddc-core-salt",
@@ -5271,6 +5560,7 @@
         "index": {
           "description": "Allocate Boxed object",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xAllocBoxed",
           "normalized": "a-\u003eType Name-\u003eInteger-\u003eExp a Name-\u003eExp a Name",
@@ -5287,6 +5577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a RawSmall object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xAllocRawSmall",
           "package": "ddc-core-salt",
@@ -5297,6 +5588,7 @@
         "index": {
           "description": "Allocate RawSmall object",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xAllocRawSmall",
           "normalized": "a-\u003eType Name-\u003eInteger-\u003eExp a Name-\u003eExp a Name",
@@ -5313,6 +5605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the heap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xCreate",
           "package": "ddc-core-salt",
@@ -5323,6 +5616,7 @@
         "index": {
           "description": "Create the heap",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xCreate",
           "normalized": "a-\u003eInteger-\u003eExp a Name",
@@ -5339,6 +5633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail with an internal error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xFail",
           "package": "ddc-core-salt",
@@ -5349,6 +5644,7 @@
         "index": {
           "description": "Fail with an internal error",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xFail",
           "normalized": "a-\u003eType Name-\u003eExp a Name",
@@ -5365,6 +5661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a field of a Boxed object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xGetFieldOfBoxed",
           "package": "ddc-core-salt",
@@ -5374,6 +5671,7 @@
         "index": {
           "description": "Get field of Boxed object",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xGetFieldOfBoxed",
           "normalized": "a-\u003eType Name-\u003eType Name-\u003eExp a Name-\u003eInteger-\u003eExp a Name",
@@ -5390,6 +5688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the constructor tag of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xGetTag",
           "package": "ddc-core-salt",
@@ -5400,6 +5699,7 @@
         "index": {
           "description": "Get the constructor tag of an object",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xGetTag",
           "normalized": "a-\u003eType Name-\u003eExp a Name-\u003eExp a Name",
@@ -5416,6 +5716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the payload of a RawSmall object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xPayloadOfRawSmall",
           "package": "ddc-core-salt",
@@ -5426,6 +5727,7 @@
         "index": {
           "description": "Get the payload of RawSmall object",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xPayloadOfRawSmall",
           "normalized": "a-\u003eType Name-\u003eExp a Name-\u003eExp a Name",
@@ -5442,6 +5744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeek a value from a buffer pointer plus offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xPeekBuffer",
           "package": "ddc-core-salt",
@@ -5452,6 +5755,7 @@
         "index": {
           "description": "Peek value from buffer pointer plus offset",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xPeekBuffer",
           "normalized": "a-\u003eType Name-\u003eType Name-\u003eExp a Name-\u003eInteger-\u003eExp a Name",
@@ -5468,6 +5772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoke a value from a buffer pointer plus offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xPokeBuffer",
           "package": "ddc-core-salt",
@@ -5478,6 +5783,7 @@
         "index": {
           "description": "Poke value from buffer pointer plus offset",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xPokeBuffer",
           "normalized": "a-\u003eType Name-\u003eType Name-\u003eExp a Name-\u003eInteger-\u003eExp a Name-\u003eExp a Name",
@@ -5494,6 +5800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from an address plus offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xRead",
           "package": "ddc-core-salt",
@@ -5504,6 +5811,7 @@
         "index": {
           "description": "Read value from an address plus offset",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xRead",
           "normalized": "a-\u003eType Name-\u003eExp a Name-\u003eInteger-\u003eExp a Name",
@@ -5520,6 +5828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a value.\n   like  (return\u003ca name=\" [Int32\"/\u003e] x)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xReturn",
           "package": "ddc-core-salt",
@@ -5530,6 +5839,7 @@
         "index": {
           "description": "Return value like return",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xReturn",
           "normalized": "a-\u003eType Name-\u003eExp a Name-\u003eExp a Name",
@@ -5546,6 +5856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a field in a Boxed Object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xSetFieldOfBoxed",
           "package": "ddc-core-salt",
@@ -5555,6 +5866,7 @@
         "index": {
           "description": "Set field in Boxed Object",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xSetFieldOfBoxed",
           "normalized": "a-\u003eType Name-\u003eType Name-\u003eExp a Name-\u003eInteger-\u003eExp a Name-\u003eExp a Name",
@@ -5571,6 +5883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a value to an address plus offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xWrite",
           "package": "ddc-core-salt",
@@ -5581,6 +5894,7 @@
         "index": {
           "description": "Write value to an address plus offset",
           "hierarchy": "DDC Core Salt Runtime",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Runtime",
           "name": "xWrite",
           "normalized": "a-\u003eType Name-\u003eExp a Name-\u003eInteger-\u003eExp a Name-\u003eExp a Name",
@@ -5596,6 +5910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Transfer",
           "name": "Transfer",
           "package": "ddc-core-salt",
@@ -5604,6 +5919,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt Transfer",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Transfer",
           "name": "Transfer",
           "package": "ddc-core-salt",
@@ -5618,6 +5934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd control transfer primops to function bodies.\n   For example:\n\u003c/p\u003e\u003cpre\u003e\n      fun [x : Int32#] : Int32#\n         = case ... of\n                 ...      -\u003e add# [Int32] ...\n                 ...      -\u003e fun x\n\n=\u003e fun [x : Int32#] : Int32#\n         = case ... of\n                 ...      -\u003e return# [Int32#] (add# [Int32] ...)\n                 ...      -\u003e tailcall1# [Int32#] [Int32#] fun x\n\u003c/pre\u003e\u003cp\u003eThe control primops return\u003ca name=\" and tailcall1\"/\u003e tell us how to transfer control\n  after we've finished with the current function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt.Transfer",
           "name": "transferModule",
           "package": "ddc-core-salt",
@@ -5628,6 +5945,7 @@
         "index": {
           "description": "Add control transfer primops to function bodies For example fun Int32 Int32 case of add Int32 fun fun Int32 Int32 case of return Int32 add Int32 tailcall1 Int32 Int32 fun The control primops return tell us how to transfer control after we ve finished with the current function",
           "hierarchy": "DDC Core Salt Transfer",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt.Transfer",
           "name": "transferModule",
           "normalized": "Module(AnTEC a Name)Name-\u003eEither(Error(AnTEC a Name))(Module(AnTEC a Name)Name)",
@@ -5644,6 +5962,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisciple Core Salt.\n\u003c/p\u003e\u003cp\u003eThis is what happens to \u003ccode\u003eC\u003c/code\u003e when you leave it out in the sun for too long.\n\u003c/p\u003e\u003cp\u003eSalt is a fragment of System-F2 that contains just those features that \n   can be easily mapped onto C or LLVM code. It has functions, case\n   expressions and primops, but no partial application, data types, or nested\n   functions. All operations on algebraic data need to have been expanded to\n   primitive store operations.\n\u003c/p\u003e\u003cp\u003eSalt exposes raw store and control primops, so its possible for functions\n   written directly in Salt to corrupt the heap (if they are wrong).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "Salt",
           "package": "ddc-core-salt",
@@ -5653,6 +5972,7 @@
         "index": {
           "description": "Disciple Core Salt This is what happens to when you leave it out in the sun for too long Salt is fragment of System-F2 that contains just those features that can be easily mapped onto or LLVM code It has functions case expressions and primops but no partial application data types or nested functions All operations on algebraic data need to have been expanded to primitive store operations Salt exposes raw store and control primops so its possible for functions written directly in Salt to corrupt the heap if they are wrong",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "Salt",
           "package": "ddc-core-salt",
@@ -5667,6 +5987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings that can go wrong when converting Disciple Core Salt to\n   to C source text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "Error",
           "package": "ddc-core-salt",
@@ -5676,6 +5997,7 @@
         "index": {
           "description": "Things that can go wrong when converting Disciple Core Salt to to source text",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "Error",
           "package": "ddc-core-salt",
@@ -5690,6 +6012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of things used in Disciple Core Salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "Name",
           "package": "ddc-core-salt",
@@ -5699,6 +6022,7 @@
         "index": {
           "description": "Names of things used in Disciple Core Salt",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "Name",
           "package": "ddc-core-salt",
@@ -5713,6 +6037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive arithmetic, logic, and comparison opretors.\n   We expect the backend/machine to be able to implement these directly.\n\u003c/p\u003e\u003cp\u003eFor the Shift Right operator, the type that it is used at determines\n   whether it is an arithmetic (with sign-extension) or logical\n   (no sign-extension) shift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "PrimArith",
           "package": "ddc-core-salt",
@@ -5722,6 +6047,7 @@
         "index": {
           "description": "Primitive arithmetic logic and comparison opretors We expect the backend machine to be able to implement these directly For the Shift Right operator the type that it is used at determines whether it is an arithmetic with sign-extension or logical no sign-extension shift",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "PrimArith",
           "package": "ddc-core-salt",
@@ -5736,6 +6062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive ways of invoking a function, \n   where control flow returns back to the caller.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "PrimCall",
           "package": "ddc-core-salt",
@@ -5745,6 +6072,7 @@
         "index": {
           "description": "Primitive ways of invoking function where control flow returns back to the caller",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "PrimCall",
           "package": "ddc-core-salt",
@@ -5759,6 +6087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive cast between two types.\n\u003c/p\u003e\u003cp\u003eThe exact set of available casts is determined by the target platform.\n   For example, you can only promote a \u003ccode\u003eNat#\u003c/code\u003e to a \u003ccode\u003eWord32#\u003c/code\u003e on a 32-bit\n   system. On a 64-bit system the \u003ccode\u003eNat#\u003c/code\u003e type is 64-bits wide, so casting it\n   to a \u003ccode\u003eWord32#\u003c/code\u003e would be a truncation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "PrimCast",
           "package": "ddc-core-salt",
@@ -5768,6 +6097,7 @@
         "index": {
           "description": "Primitive cast between two types The exact set of available casts is determined by the target platform For example you can only promote Nat to Word32 on bit system On bit system the Nat type is bits wide so casting it to Word32 would be truncation",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "PrimCast",
           "package": "ddc-core-salt",
@@ -5782,6 +6112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive non-returning control flow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "PrimControl",
           "package": "ddc-core-salt",
@@ -5791,6 +6122,7 @@
         "index": {
           "description": "Primitive non-returning control flow",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "PrimControl",
           "package": "ddc-core-salt",
@@ -5805,6 +6137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive operators implemented directly by the machine or runtime system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "PrimOp",
           "package": "ddc-core-salt",
@@ -5814,6 +6147,7 @@
         "index": {
           "description": "Primitive operators implemented directly by the machine or runtime system",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "PrimOp",
           "package": "ddc-core-salt",
@@ -5828,6 +6162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw access to the store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "PrimStore",
           "package": "ddc-core-salt",
@@ -5837,6 +6172,7 @@
         "index": {
           "description": "Raw access to the store",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "PrimStore",
           "package": "ddc-core-salt",
@@ -5851,6 +6187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "PrimTyCon",
           "package": "ddc-core-salt",
@@ -5860,6 +6197,7 @@
         "index": {
           "description": "Primitive type constructors",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "PrimTyCon",
           "package": "ddc-core-salt",
@@ -5874,6 +6212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorAltInvalid",
           "package": "ddc-core-salt",
@@ -5884,6 +6223,7 @@
         "index": {
           "description": "An invalid alternative",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorAltInvalid",
           "package": "ddc-core-salt",
@@ -5898,6 +6238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid function argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorArgInvalid",
           "package": "ddc-core-salt",
@@ -5908,6 +6249,7 @@
         "index": {
           "description": "An invalid function argument",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorArgInvalid",
           "package": "ddc-core-salt",
@@ -5922,6 +6264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinder has BNone form, binds no variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorBindNone",
           "package": "ddc-core-salt",
@@ -5932,6 +6275,7 @@
         "index": {
           "description": "Binder has BNone form binds no variable",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorBindNone",
           "package": "ddc-core-salt",
@@ -5946,6 +6290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid function body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorBodyInvalid",
           "package": "ddc-core-salt",
@@ -5956,6 +6301,7 @@
         "index": {
           "description": "An invalid function body",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorBodyInvalid",
           "package": "ddc-core-salt",
@@ -5970,6 +6316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function body that does not explicitly pass control.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorBodyMustPassControl",
           "package": "ddc-core-salt",
@@ -5980,6 +6327,7 @@
         "index": {
           "description": "function body that does not explicitly pass control",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorBodyMustPassControl",
           "package": "ddc-core-salt",
@@ -5994,6 +6342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid function definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorFunctionInvalid",
           "package": "ddc-core-salt",
@@ -6004,6 +6353,7 @@
         "index": {
           "description": "An invalid function definition",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorFunctionInvalid",
           "package": "ddc-core-salt",
@@ -6018,6 +6368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModules must contain a top-level letrec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorNoTopLevelLetrec",
           "package": "ddc-core-salt",
@@ -6028,6 +6379,7 @@
         "index": {
           "description": "Modules must contain top-level letrec",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorNoTopLevelLetrec",
           "package": "ddc-core-salt",
@@ -6042,6 +6394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid function parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorParameterInvalid",
           "package": "ddc-core-salt",
@@ -6052,6 +6405,7 @@
         "index": {
           "description": "An invalid function parameter",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorParameterInvalid",
           "package": "ddc-core-salt",
@@ -6066,6 +6420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid primitive call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorPrimCallInvalid",
           "package": "ddc-core-salt",
@@ -6076,6 +6431,7 @@
         "index": {
           "description": "An invalid primitive call",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorPrimCallInvalid",
           "package": "ddc-core-salt",
@@ -6090,6 +6446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid RValue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorRValueInvalid",
           "package": "ddc-core-salt",
@@ -6100,6 +6457,7 @@
         "index": {
           "description": "An invalid RValue",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorRValueInvalid",
           "package": "ddc-core-salt",
@@ -6114,6 +6472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invalid statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorStmtInvalid",
           "package": "ddc-core-salt",
@@ -6124,6 +6483,7 @@
         "index": {
           "description": "An invalid statement",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorStmtInvalid",
           "package": "ddc-core-salt",
@@ -6138,6 +6498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA local variable has an invalid type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorTypeInvalid",
           "package": "ddc-core-salt",
@@ -6148,6 +6509,7 @@
         "index": {
           "description": "local variable has an invalid type",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorTypeInvalid",
           "package": "ddc-core-salt",
@@ -6162,6 +6524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable is not in scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "ErrorUndefined",
           "package": "ddc-core-salt",
@@ -6172,6 +6535,7 @@
         "index": {
           "description": "Variable is not in scope",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "ErrorUndefined",
           "package": "ddc-core-salt",
@@ -6185,6 +6549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "errorAlt",
           "package": "ddc-core-salt",
@@ -6194,6 +6559,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "errorAlt",
           "package": "ddc-core-salt",
@@ -6207,6 +6573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "errorArgs",
           "package": "ddc-core-salt",
@@ -6216,6 +6583,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "errorArgs",
           "normalized": "[Exp a Name]",
@@ -6231,6 +6599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "errorBind",
           "package": "ddc-core-salt",
@@ -6240,6 +6609,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "errorBind",
           "package": "ddc-core-salt",
@@ -6253,6 +6623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "errorExp",
           "package": "ddc-core-salt",
@@ -6262,6 +6633,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "errorExp",
           "package": "ddc-core-salt",
@@ -6275,6 +6647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "errorModule",
           "package": "ddc-core-salt",
@@ -6284,6 +6657,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "errorModule",
           "package": "ddc-core-salt",
@@ -6297,6 +6671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "errorPrimOp",
           "package": "ddc-core-salt",
@@ -6306,6 +6681,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "errorPrimOp",
           "package": "ddc-core-salt",
@@ -6319,6 +6695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "errorType",
           "package": "ddc-core-salt",
@@ -6328,6 +6705,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "errorType",
           "package": "ddc-core-salt",
@@ -6341,6 +6719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "errorVar",
           "package": "ddc-core-salt",
@@ -6350,6 +6729,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "errorVar",
           "package": "ddc-core-salt",
@@ -6364,6 +6744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex a string to tokens, using primitive names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "lexExpString",
           "package": "ddc-core-salt",
@@ -6373,6 +6754,7 @@
         "index": {
           "description": "Lex string to tokens using primitive names",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "lexExpString",
           "normalized": "String-\u003eInt-\u003eString-\u003e[Token(Tok Name)]",
@@ -6389,6 +6771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex a string to tokens, using primitive names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "lexModuleString",
           "package": "ddc-core-salt",
@@ -6398,6 +6781,7 @@
         "index": {
           "description": "Lex string to tokens using primitive names",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "lexModuleString",
           "normalized": "String-\u003eInt-\u003eString-\u003e[Token(Tok Name)]",
@@ -6414,6 +6798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage profile for Disciple Core Salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "profile",
           "package": "ddc-core-salt",
@@ -6424,6 +6809,7 @@
         "index": {
           "description": "Language profile for Disciple Core Salt",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "profile",
           "package": "ddc-core-salt",
@@ -6437,6 +6823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Disciple Core Salt module to C-source text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:42 UTC 2014",
           "module": "DDC.Core.Salt",
           "name": "seaOfSaltModule",
           "package": "ddc-core-salt",
@@ -6446,6 +6833,7 @@
         "index": {
           "description": "Convert Disciple Core Salt module to C-source text",
           "hierarchy": "DDC Core Salt",
+          "indexed": "2014-03-11T17:51:42",
           "module": "DDC.Core.Salt",
           "name": "seaOfSaltModule",
           "normalized": "Bool-\u003ePlatform-\u003eModule a Name-\u003eEither(Error a)Doc",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "urlcheck"
+        "phrase": "urlcheck",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tamarin-prover-term"
+        "phrase": "tamarin-prover-term",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience abbreviations, mostly used for testing and debugging.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "Convenience",
           "package": "tamarin-prover-term",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Convenience abbreviations mostly used for testing and debugging",
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "Convenience",
           "package": "tamarin-prover-term",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "(#)",
           "package": "tamarin-prover-term",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "(#) #",
           "normalized": "Term a-\u003eTerm a-\u003eTerm a",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "(*:)",
           "package": "tamarin-prover-term",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "(*:) *:",
           "normalized": "Term a-\u003eTerm a-\u003eTerm a",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "adec",
           "package": "tamarin-prover-term",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "adec",
           "normalized": "(Term a,Term a)-\u003eTerm a",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "aenc",
           "package": "tamarin-prover-term",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "aenc",
           "normalized": "(Term a,Term a)-\u003eTerm a",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "f1",
           "package": "tamarin-prover-term",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "f1",
           "package": "tamarin-prover-term",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "f2",
           "package": "tamarin-prover-term",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "f2",
           "package": "tamarin-prover-term",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "f3",
           "package": "tamarin-prover-term",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "f3",
           "package": "tamarin-prover-term",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "f4",
           "package": "tamarin-prover-term",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "f4",
           "package": "tamarin-prover-term",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "f5",
           "package": "tamarin-prover-term",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "f5",
           "package": "tamarin-prover-term",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "f6",
           "package": "tamarin-prover-term",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "f6",
           "package": "tamarin-prover-term",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "f7",
           "package": "tamarin-prover-term",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "f7",
           "package": "tamarin-prover-term",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "f8",
           "package": "tamarin-prover-term",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "f8",
           "package": "tamarin-prover-term",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "f9",
           "package": "tamarin-prover-term",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "f9",
           "package": "tamarin-prover-term",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "freshVar",
           "package": "tamarin-prover-term",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "freshVar",
           "normalized": "String-\u003eInteger-\u003eLNTerm",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "fx0",
           "package": "tamarin-prover-term",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "fx0",
           "package": "tamarin-prover-term",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "fx1",
           "package": "tamarin-prover-term",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "fx1",
           "package": "tamarin-prover-term",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "fx10",
           "package": "tamarin-prover-term",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "fx10",
           "package": "tamarin-prover-term",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "fx2",
           "package": "tamarin-prover-term",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "fx2",
           "package": "tamarin-prover-term",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "fx3",
           "package": "tamarin-prover-term",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "fx3",
           "package": "tamarin-prover-term",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "fx4",
           "package": "tamarin-prover-term",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "fx4",
           "package": "tamarin-prover-term",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "fx5",
           "package": "tamarin-prover-term",
@@ -481,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "fx5",
           "package": "tamarin-prover-term",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "fx6",
           "package": "tamarin-prover-term",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "fx6",
           "package": "tamarin-prover-term",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "fx7",
           "package": "tamarin-prover-term",
@@ -523,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "fx7",
           "package": "tamarin-prover-term",
@@ -535,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "fx8",
           "package": "tamarin-prover-term",
@@ -544,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "fx8",
           "package": "tamarin-prover-term",
@@ -556,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "fx9",
           "package": "tamarin-prover-term",
@@ -565,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "fx9",
           "package": "tamarin-prover-term",
@@ -577,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "i1",
           "package": "tamarin-prover-term",
@@ -586,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "i1",
           "package": "tamarin-prover-term",
@@ -598,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "i2",
           "package": "tamarin-prover-term",
@@ -607,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "i2",
           "package": "tamarin-prover-term",
@@ -619,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "i3",
           "package": "tamarin-prover-term",
@@ -628,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "i3",
           "package": "tamarin-prover-term",
@@ -640,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "i4",
           "package": "tamarin-prover-term",
@@ -649,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "i4",
           "package": "tamarin-prover-term",
@@ -661,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "i5",
           "package": "tamarin-prover-term",
@@ -670,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "i5",
           "package": "tamarin-prover-term",
@@ -682,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "i6",
           "package": "tamarin-prover-term",
@@ -691,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "i6",
           "package": "tamarin-prover-term",
@@ -703,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "i7",
           "package": "tamarin-prover-term",
@@ -712,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "i7",
           "package": "tamarin-prover-term",
@@ -724,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "i8",
           "package": "tamarin-prover-term",
@@ -733,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "i8",
           "package": "tamarin-prover-term",
@@ -745,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "i9",
           "package": "tamarin-prover-term",
@@ -754,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "i9",
           "package": "tamarin-prover-term",
@@ -766,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "li1",
           "package": "tamarin-prover-term",
@@ -775,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "li1",
           "package": "tamarin-prover-term",
@@ -787,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "li2",
           "package": "tamarin-prover-term",
@@ -796,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "li2",
           "package": "tamarin-prover-term",
@@ -808,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "li3",
           "package": "tamarin-prover-term",
@@ -817,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "li3",
           "package": "tamarin-prover-term",
@@ -829,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "li4",
           "package": "tamarin-prover-term",
@@ -838,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "li4",
           "package": "tamarin-prover-term",
@@ -850,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "li5",
           "package": "tamarin-prover-term",
@@ -859,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "li5",
           "package": "tamarin-prover-term",
@@ -871,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "li6",
           "package": "tamarin-prover-term",
@@ -880,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "li6",
           "package": "tamarin-prover-term",
@@ -892,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "li7",
           "package": "tamarin-prover-term",
@@ -901,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "li7",
           "package": "tamarin-prover-term",
@@ -913,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "li8",
           "package": "tamarin-prover-term",
@@ -922,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "li8",
           "package": "tamarin-prover-term",
@@ -934,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "li9",
           "package": "tamarin-prover-term",
@@ -943,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "li9",
           "package": "tamarin-prover-term",
@@ -955,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lv1",
           "package": "tamarin-prover-term",
@@ -964,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lv1",
           "package": "tamarin-prover-term",
@@ -976,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lv2",
           "package": "tamarin-prover-term",
@@ -985,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lv2",
           "package": "tamarin-prover-term",
@@ -997,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lv3",
           "package": "tamarin-prover-term",
@@ -1006,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lv3",
           "package": "tamarin-prover-term",
@@ -1018,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lv4",
           "package": "tamarin-prover-term",
@@ -1027,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lv4",
           "package": "tamarin-prover-term",
@@ -1039,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lv5",
           "package": "tamarin-prover-term",
@@ -1048,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lv5",
           "package": "tamarin-prover-term",
@@ -1060,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lv6",
           "package": "tamarin-prover-term",
@@ -1069,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lv6",
           "package": "tamarin-prover-term",
@@ -1081,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lv7",
           "package": "tamarin-prover-term",
@@ -1090,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lv7",
           "package": "tamarin-prover-term",
@@ -1102,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lv8",
           "package": "tamarin-prover-term",
@@ -1111,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lv8",
           "package": "tamarin-prover-term",
@@ -1123,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lv9",
           "package": "tamarin-prover-term",
@@ -1132,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lv9",
           "package": "tamarin-prover-term",
@@ -1144,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lx1",
           "package": "tamarin-prover-term",
@@ -1153,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lx1",
           "package": "tamarin-prover-term",
@@ -1165,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lx10",
           "package": "tamarin-prover-term",
@@ -1174,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lx10",
           "package": "tamarin-prover-term",
@@ -1186,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lx2",
           "package": "tamarin-prover-term",
@@ -1195,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lx2",
           "package": "tamarin-prover-term",
@@ -1207,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lx3",
           "package": "tamarin-prover-term",
@@ -1216,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lx3",
           "package": "tamarin-prover-term",
@@ -1228,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lx4",
           "package": "tamarin-prover-term",
@@ -1237,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lx4",
           "package": "tamarin-prover-term",
@@ -1249,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lx5",
           "package": "tamarin-prover-term",
@@ -1258,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lx5",
           "package": "tamarin-prover-term",
@@ -1270,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lx6",
           "package": "tamarin-prover-term",
@@ -1279,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lx6",
           "package": "tamarin-prover-term",
@@ -1291,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lx7",
           "package": "tamarin-prover-term",
@@ -1300,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lx7",
           "package": "tamarin-prover-term",
@@ -1312,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lx8",
           "package": "tamarin-prover-term",
@@ -1321,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lx8",
           "package": "tamarin-prover-term",
@@ -1333,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "lx9",
           "package": "tamarin-prover-term",
@@ -1342,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "lx9",
           "package": "tamarin-prover-term",
@@ -1354,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "p1",
           "package": "tamarin-prover-term",
@@ -1363,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "p1",
           "package": "tamarin-prover-term",
@@ -1375,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "p2",
           "package": "tamarin-prover-term",
@@ -1384,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "p2",
           "package": "tamarin-prover-term",
@@ -1396,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "p3",
           "package": "tamarin-prover-term",
@@ -1405,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "p3",
           "package": "tamarin-prover-term",
@@ -1417,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "p4",
           "package": "tamarin-prover-term",
@@ -1426,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "p4",
           "package": "tamarin-prover-term",
@@ -1438,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "p5",
           "package": "tamarin-prover-term",
@@ -1447,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "p5",
           "package": "tamarin-prover-term",
@@ -1459,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "p6",
           "package": "tamarin-prover-term",
@@ -1468,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "p6",
           "package": "tamarin-prover-term",
@@ -1480,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "p7",
           "package": "tamarin-prover-term",
@@ -1489,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "p7",
           "package": "tamarin-prover-term",
@@ -1501,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "p8",
           "package": "tamarin-prover-term",
@@ -1510,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "p8",
           "package": "tamarin-prover-term",
@@ -1522,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "p9",
           "package": "tamarin-prover-term",
@@ -1531,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "p9",
           "package": "tamarin-prover-term",
@@ -1543,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "pk",
           "package": "tamarin-prover-term",
@@ -1552,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "pk",
           "normalized": "Term a-\u003eTerm a",
@@ -1566,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "pubVar",
           "package": "tamarin-prover-term",
@@ -1575,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "pubVar",
           "normalized": "String-\u003eInteger-\u003eLNTerm",
@@ -1590,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "px0",
           "package": "tamarin-prover-term",
@@ -1599,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "px0",
           "package": "tamarin-prover-term",
@@ -1611,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "px1",
           "package": "tamarin-prover-term",
@@ -1620,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "px1",
           "package": "tamarin-prover-term",
@@ -1632,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "px10",
           "package": "tamarin-prover-term",
@@ -1641,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "px10",
           "package": "tamarin-prover-term",
@@ -1653,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "px2",
           "package": "tamarin-prover-term",
@@ -1662,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "px2",
           "package": "tamarin-prover-term",
@@ -1674,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "px3",
           "package": "tamarin-prover-term",
@@ -1683,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "px3",
           "package": "tamarin-prover-term",
@@ -1695,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "px4",
           "package": "tamarin-prover-term",
@@ -1704,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "px4",
           "package": "tamarin-prover-term",
@@ -1716,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "px5",
           "package": "tamarin-prover-term",
@@ -1725,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "px5",
           "package": "tamarin-prover-term",
@@ -1737,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "px6",
           "package": "tamarin-prover-term",
@@ -1746,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "px6",
           "package": "tamarin-prover-term",
@@ -1758,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "px7",
           "package": "tamarin-prover-term",
@@ -1767,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "px7",
           "package": "tamarin-prover-term",
@@ -1779,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "px8",
           "package": "tamarin-prover-term",
@@ -1788,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "px8",
           "package": "tamarin-prover-term",
@@ -1800,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "px9",
           "package": "tamarin-prover-term",
@@ -1809,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "px9",
           "package": "tamarin-prover-term",
@@ -1821,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "sdec",
           "package": "tamarin-prover-term",
@@ -1830,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "sdec",
           "normalized": "(Term a,Term a)-\u003eTerm a",
@@ -1844,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "senc",
           "package": "tamarin-prover-term",
@@ -1853,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "senc",
           "normalized": "(Term a,Term a)-\u003eTerm a",
@@ -1867,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "sign",
           "package": "tamarin-prover-term",
@@ -1876,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "sign",
           "normalized": "(Term a,Term a)-\u003eTerm a",
@@ -1890,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "trueC",
           "package": "tamarin-prover-term",
@@ -1899,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "trueC",
           "package": "tamarin-prover-term",
@@ -1911,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "v1",
           "package": "tamarin-prover-term",
@@ -1920,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "v1",
           "package": "tamarin-prover-term",
@@ -1932,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "v2",
           "package": "tamarin-prover-term",
@@ -1941,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "v2",
           "package": "tamarin-prover-term",
@@ -1953,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "v3",
           "package": "tamarin-prover-term",
@@ -1962,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "v3",
           "package": "tamarin-prover-term",
@@ -1974,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "v4",
           "package": "tamarin-prover-term",
@@ -1983,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "v4",
           "package": "tamarin-prover-term",
@@ -1995,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "v5",
           "package": "tamarin-prover-term",
@@ -2004,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "v5",
           "package": "tamarin-prover-term",
@@ -2016,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "v6",
           "package": "tamarin-prover-term",
@@ -2025,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "v6",
           "package": "tamarin-prover-term",
@@ -2037,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "v7",
           "package": "tamarin-prover-term",
@@ -2046,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "v7",
           "package": "tamarin-prover-term",
@@ -2058,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "v8",
           "package": "tamarin-prover-term",
@@ -2067,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "v8",
           "package": "tamarin-prover-term",
@@ -2079,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "v9",
           "package": "tamarin-prover-term",
@@ -2088,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "v9",
           "package": "tamarin-prover-term",
@@ -2100,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "var",
           "package": "tamarin-prover-term",
@@ -2109,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "var",
           "normalized": "String-\u003eInteger-\u003eLNTerm",
@@ -2123,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "verify",
           "package": "tamarin-prover-term",
@@ -2132,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "verify",
           "normalized": "(Term a,Term a,Term a)-\u003eTerm a",
@@ -2146,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "x0",
           "package": "tamarin-prover-term",
@@ -2155,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "x0",
           "package": "tamarin-prover-term",
@@ -2167,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "x1",
           "package": "tamarin-prover-term",
@@ -2176,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "x1",
           "package": "tamarin-prover-term",
@@ -2188,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "x10",
           "package": "tamarin-prover-term",
@@ -2197,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "x10",
           "package": "tamarin-prover-term",
@@ -2209,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "x2",
           "package": "tamarin-prover-term",
@@ -2218,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "x2",
           "package": "tamarin-prover-term",
@@ -2230,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "x3",
           "package": "tamarin-prover-term",
@@ -2239,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "x3",
           "package": "tamarin-prover-term",
@@ -2251,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "x4",
           "package": "tamarin-prover-term",
@@ -2260,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "x4",
           "package": "tamarin-prover-term",
@@ -2272,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "x5",
           "package": "tamarin-prover-term",
@@ -2281,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "x5",
           "package": "tamarin-prover-term",
@@ -2293,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "x6",
           "package": "tamarin-prover-term",
@@ -2302,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "x6",
           "package": "tamarin-prover-term",
@@ -2314,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "x7",
           "package": "tamarin-prover-term",
@@ -2323,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "x7",
           "package": "tamarin-prover-term",
@@ -2335,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "x8",
           "package": "tamarin-prover-term",
@@ -2344,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "x8",
           "package": "tamarin-prover-term",
@@ -2356,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "x9",
           "package": "tamarin-prover-term",
@@ -2365,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "x9",
           "package": "tamarin-prover-term",
@@ -2377,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "y0",
           "package": "tamarin-prover-term",
@@ -2386,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "y0",
           "package": "tamarin-prover-term",
@@ -2398,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "y1",
           "package": "tamarin-prover-term",
@@ -2407,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "y1",
           "package": "tamarin-prover-term",
@@ -2419,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "y2",
           "package": "tamarin-prover-term",
@@ -2428,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "y2",
           "package": "tamarin-prover-term",
@@ -2440,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "y3",
           "package": "tamarin-prover-term",
@@ -2449,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "y3",
           "package": "tamarin-prover-term",
@@ -2461,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "y4",
           "package": "tamarin-prover-term",
@@ -2470,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "y4",
           "package": "tamarin-prover-term",
@@ -2482,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "y5",
           "package": "tamarin-prover-term",
@@ -2491,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "y5",
           "package": "tamarin-prover-term",
@@ -2503,6 +2737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "y6",
           "package": "tamarin-prover-term",
@@ -2512,6 +2747,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "y6",
           "package": "tamarin-prover-term",
@@ -2524,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "y7",
           "package": "tamarin-prover-term",
@@ -2533,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "y7",
           "package": "tamarin-prover-term",
@@ -2545,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "y8",
           "package": "tamarin-prover-term",
@@ -2554,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "y8",
           "package": "tamarin-prover-term",
@@ -2566,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Convenience",
           "name": "y9",
           "package": "tamarin-prover-term",
@@ -2575,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Term Builtin Convenience",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Convenience",
           "name": "y9",
           "package": "tamarin-prover-term",
@@ -2588,6 +2830,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBuiltin rewriting rules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Rules",
           "name": "Rules",
           "package": "tamarin-prover-term",
@@ -2597,6 +2840,7 @@
         "index": {
           "description": "Builtin rewriting rules",
           "hierarchy": "Term Builtin Rules",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Rules",
           "name": "Rules",
           "package": "tamarin-prover-term",
@@ -2611,6 +2855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rewrite rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Rules",
           "name": "RRule",
           "package": "tamarin-prover-term",
@@ -2620,6 +2865,7 @@
         "index": {
           "description": "rewrite rule",
           "hierarchy": "Term Builtin Rules",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Rules",
           "name": "RRule",
           "package": "tamarin-prover-term",
@@ -2657,6 +2903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rewriting rules for standard subterm operators that are builtin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Rules",
           "name": "asymEncRules",
           "package": "tamarin-prover-term",
@@ -2667,6 +2914,7 @@
         "index": {
           "description": "The rewriting rules for standard subterm operators that are builtin",
           "hierarchy": "Term Builtin Rules",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Rules",
           "name": "asymEncRules",
           "package": "tamarin-prover-term",
@@ -2681,6 +2929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rewriting rules for bilinear pairing. These rules extend the\n   the rules for Diffie-Hellman.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Rules",
           "name": "bpRules",
           "package": "tamarin-prover-term",
@@ -2691,6 +2940,7 @@
         "index": {
           "description": "The rewriting rules for bilinear pairing These rules extend the the rules for Diffie-Hellman",
           "hierarchy": "Term Builtin Rules",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Rules",
           "name": "bpRules",
           "package": "tamarin-prover-term",
@@ -2705,6 +2955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rewriting rules for Diffie-Hellman. This is a presentation due to Lankford\n   with the finite variant property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Rules",
           "name": "dhRules",
           "package": "tamarin-prover-term",
@@ -2715,6 +2966,7 @@
         "index": {
           "description": "The rewriting rules for Diffie-Hellman This is presentation due to Lankford with the finite variant property",
           "hierarchy": "Term Builtin Rules",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Rules",
           "name": "dhRules",
           "package": "tamarin-prover-term",
@@ -2729,6 +2981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rewriting rules for multisets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Rules",
           "name": "msetRules",
           "package": "tamarin-prover-term",
@@ -2739,6 +2992,7 @@
         "index": {
           "description": "The rewriting rules for multisets",
           "hierarchy": "Term Builtin Rules",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Rules",
           "name": "msetRules",
           "package": "tamarin-prover-term",
@@ -2753,6 +3007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rewriting rules for standard subterm operators that are builtin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Rules",
           "name": "pairRules",
           "package": "tamarin-prover-term",
@@ -2763,6 +3018,7 @@
         "index": {
           "description": "The rewriting rules for standard subterm operators that are builtin",
           "hierarchy": "Term Builtin Rules",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Rules",
           "name": "pairRules",
           "package": "tamarin-prover-term",
@@ -2777,6 +3033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rewriting rules for standard subterm operators that are builtin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Rules",
           "name": "signatureRules",
           "package": "tamarin-prover-term",
@@ -2787,6 +3044,7 @@
         "index": {
           "description": "The rewriting rules for standard subterm operators that are builtin",
           "hierarchy": "Term Builtin Rules",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Rules",
           "name": "signatureRules",
           "package": "tamarin-prover-term",
@@ -2801,6 +3059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rewriting rules for standard subterm operators that are builtin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Rules",
           "name": "symEncRules",
           "package": "tamarin-prover-term",
@@ -2811,6 +3070,7 @@
         "index": {
           "description": "The rewriting rules for standard subterm operators that are builtin",
           "hierarchy": "Term Builtin Rules",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Rules",
           "name": "symEncRules",
           "package": "tamarin-prover-term",
@@ -2825,6 +3085,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBuiltin function symbols and signatures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "Signature",
           "package": "tamarin-prover-term",
@@ -2834,6 +3095,7 @@
         "index": {
           "description": "Builtin function symbols and signatures",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "Signature",
           "package": "tamarin-prover-term",
@@ -2848,6 +3110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary builtin function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "adecSym",
           "package": "tamarin-prover-term",
@@ -2858,6 +3121,7 @@
         "index": {
           "description": "Binary builtin function symbols",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "adecSym",
           "package": "tamarin-prover-term",
@@ -2872,6 +3136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary builtin function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "aencSym",
           "package": "tamarin-prover-term",
@@ -2882,6 +3147,7 @@
         "index": {
           "description": "Binary builtin function symbols",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "aencSym",
           "package": "tamarin-prover-term",
@@ -2896,6 +3162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signature for asymmetric encryption.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "asymEncFunSig",
           "package": "tamarin-prover-term",
@@ -2906,6 +3173,7 @@
         "index": {
           "description": "The signature for asymmetric encryption",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "asymEncFunSig",
           "package": "tamarin-prover-term",
@@ -2920,6 +3188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signature for hashing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "hashFunSig",
           "package": "tamarin-prover-term",
@@ -2930,6 +3199,7 @@
         "index": {
           "description": "The signature for hashing",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "hashFunSig",
           "package": "tamarin-prover-term",
@@ -2944,6 +3214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary builtin function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "hashSym",
           "package": "tamarin-prover-term",
@@ -2954,6 +3225,7 @@
         "index": {
           "description": "Unary builtin function symbols",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "hashSym",
           "package": "tamarin-prover-term",
@@ -2968,6 +3240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary builtin function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "pkSym",
           "package": "tamarin-prover-term",
@@ -2978,6 +3251,7 @@
         "index": {
           "description": "Unary builtin function symbols",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "pkSym",
           "package": "tamarin-prover-term",
@@ -2992,6 +3266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary builtin function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "sdecSym",
           "package": "tamarin-prover-term",
@@ -3002,6 +3277,7 @@
         "index": {
           "description": "Binary builtin function symbols",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "sdecSym",
           "package": "tamarin-prover-term",
@@ -3016,6 +3292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary builtin function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "sencSym",
           "package": "tamarin-prover-term",
@@ -3026,6 +3303,7 @@
         "index": {
           "description": "Binary builtin function symbols",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "sencSym",
           "package": "tamarin-prover-term",
@@ -3040,6 +3318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary builtin function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "signSym",
           "package": "tamarin-prover-term",
@@ -3050,6 +3329,7 @@
         "index": {
           "description": "Binary builtin function symbols",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "signSym",
           "package": "tamarin-prover-term",
@@ -3064,6 +3344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signature for cryptographic signatures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "signatureFunSig",
           "package": "tamarin-prover-term",
@@ -3074,6 +3355,7 @@
         "index": {
           "description": "The signature for cryptographic signatures",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "signatureFunSig",
           "package": "tamarin-prover-term",
@@ -3088,6 +3370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signature for symmetric encryption.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "symEncFunSig",
           "package": "tamarin-prover-term",
@@ -3098,6 +3381,7 @@
         "index": {
           "description": "The signature for symmetric encryption",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "symEncFunSig",
           "package": "tamarin-prover-term",
@@ -3112,6 +3396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNullary builtin function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "trueSym",
           "package": "tamarin-prover-term",
@@ -3122,6 +3407,7 @@
         "index": {
           "description": "Nullary builtin function symbols",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "trueSym",
           "package": "tamarin-prover-term",
@@ -3136,6 +3422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTernary builtin function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Builtin.Signature",
           "name": "verifySym",
           "package": "tamarin-prover-term",
@@ -3146,6 +3433,7 @@
         "index": {
           "description": "Ternary builtin function symbols",
           "hierarchy": "Term Builtin Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Builtin.Signature",
           "name": "verifySym",
           "package": "tamarin-prover-term",
@@ -3160,6 +3448,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTerms with logical variables  and names.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "LTerm",
           "package": "tamarin-prover-term",
@@ -3169,6 +3458,7 @@
         "index": {
           "description": "Terms with logical variables and names",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "LTerm",
           "package": "tamarin-prover-term",
@@ -3183,6 +3473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerms built over names and \u003ccode\u003e\u003ca\u003eLVar\u003c/a\u003e\u003c/code\u003es combined with quantified variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "BLTerm",
           "package": "tamarin-prover-term",
@@ -3192,6 +3483,7 @@
         "index": {
           "description": "Terms built over names and LVar combined with quantified variables",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "BLTerm",
           "package": "tamarin-prover-term",
@@ -3206,6 +3498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLVar\u003c/a\u003e\u003c/code\u003es combined with quantified variables. They occur only in \u003ccode\u003eLFormula\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "BLVar",
           "package": "tamarin-prover-term",
@@ -3215,6 +3508,7 @@
         "index": {
           "description": "LVar combined with quantified variables They occur only in LFormula",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "BLVar",
           "package": "tamarin-prover-term",
@@ -3229,6 +3523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBound and free variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "BVar",
           "package": "tamarin-prover-term",
@@ -3238,6 +3533,7 @@
         "index": {
           "description": "Bound and free variables",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "BVar",
           "package": "tamarin-prover-term",
@@ -3252,6 +3548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eHasFree t\u003c/code\u003e denotes that the type \u003ccode\u003et\u003c/code\u003e has free \u003ccode\u003eLVar\u003c/code\u003e variables. They can\n be collected using \u003ccode\u003e\u003ca\u003efoldFrees\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efoldFreesOcc\u003c/a\u003e\u003c/code\u003e and mapped in the context\n of an applicative functor using \u003ccode\u003e\u003ca\u003emapFrees\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWhen defining instances of this class, you have to ensure that only the free\n LVars are collected and mapped and no others. The instances for standard\n Haskell types assume that all variables free in all type arguments are free.\n The \u003ccode\u003e\u003ca\u003efoldFreesOcc\u003c/a\u003e\u003c/code\u003e is only used to define the function \u003ccode\u003e\u003ca\u003evarOccurences\u003c/a\u003e\u003c/code\u003e. See\n below for required properties of the instance methods.\n\u003c/p\u003e\u003cp\u003eOnce we need it, we can use type synonym instances to parametrize over the\n variable type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "HasFrees",
           "package": "tamarin-prover-term",
@@ -3261,6 +3558,7 @@
         "index": {
           "description": "HasFree denotes that the type has free LVar variables They can be collected using foldFrees and foldFreesOcc and mapped in the context of an applicative functor using mapFrees When defining instances of this class you have to ensure that only the free LVars are collected and mapped and no others The instances for standard Haskell types assume that all variables free in all type arguments are free The foldFreesOcc is only used to define the function varOccurences See below for required properties of the instance methods Once we need it we can use type synonym instances to parametrize over the variable type",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "HasFrees",
           "package": "tamarin-prover-term",
@@ -3275,6 +3573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerms used for proving; i.e., variables fixed to logical variables\n   and constants to Names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "LNTerm",
           "package": "tamarin-prover-term",
@@ -3284,6 +3583,7 @@
         "index": {
           "description": "Terms used for proving i.e variables fixed to logical variables and constants to Names",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "LNTerm",
           "package": "tamarin-prover-term",
@@ -3298,6 +3598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSorts for logical variables. They satisfy the following sub-sort relation:\n\u003c/p\u003e\u003cpre\u003e  LSortFresh \u003c LSortMsg\n  LSortPub   \u003c LSortMsg\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "LSort",
           "package": "tamarin-prover-term",
@@ -3307,6 +3608,7 @@
         "index": {
           "description": "Sorts for logical variables They satisfy the following sub-sort relation LSortFresh LSortMsg LSortPub LSortMsg",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "LSort",
           "package": "tamarin-prover-term",
@@ -3321,6 +3623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerms used for proving; i.e., variables fixed to logical variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "LTerm",
           "package": "tamarin-prover-term",
@@ -3330,6 +3633,7 @@
         "index": {
           "description": "Terms used for proving i.e variables fixed to logical variables",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "LTerm",
           "package": "tamarin-prover-term",
@@ -3344,6 +3648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical variables. Variables with the same name and index but different\n sorts are regarded as different variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "LVar",
           "package": "tamarin-prover-term",
@@ -3353,6 +3658,7 @@
         "index": {
           "description": "Logical variables Variables with the same name and index but different sorts are regarded as different variables",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "LVar",
           "package": "tamarin-prover-term",
@@ -3367,6 +3673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor performance reasons, we distinguish between monotone functions on\n \u003ccode\u003e\u003ca\u003eLVar\u003c/a\u003e\u003c/code\u003es and arbitrary functions. For a monotone f, if \u003ccode\u003ex \u003c= y\u003c/code\u003e, then\n \u003ccode\u003ef x \u003c= f y\u003c/code\u003e. This ensures that the AC-normal form does not have\n to be recomputed. If you are unsure about what to use, then use the\n \u003ccode\u003e\u003ca\u003eArbitrary\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "MonotoneFunction",
           "package": "tamarin-prover-term",
@@ -3376,6 +3683,7 @@
         "index": {
           "description": "For performance reasons we distinguish between monotone functions on LVar and arbitrary functions For monotone if then This ensures that the AC-normal form does not have to be recomputed If you are unsure about what to use then use the Arbitrary function",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "MonotoneFunction",
           "package": "tamarin-prover-term",
@@ -3390,6 +3698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerms with literals containing names and arbitrary variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "NTerm",
           "package": "tamarin-prover-term",
@@ -3399,6 +3708,7 @@
         "index": {
           "description": "Terms with literals containing names and arbitrary variables",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "NTerm",
           "package": "tamarin-prover-term",
@@ -3413,6 +3723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "Name",
           "package": "tamarin-prover-term",
@@ -3422,6 +3733,7 @@
         "index": {
           "description": "Names",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "Name",
           "package": "tamarin-prover-term",
@@ -3436,6 +3748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType safety for names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "NameId",
           "package": "tamarin-prover-term",
@@ -3445,6 +3758,7 @@
         "index": {
           "description": "Type safety for names",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "NameId",
           "package": "tamarin-prover-term",
@@ -3459,6 +3773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTags for names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "NameTag",
           "package": "tamarin-prover-term",
@@ -3468,6 +3783,7 @@
         "index": {
           "description": "Tags for names",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "NameTag",
           "package": "tamarin-prover-term",
@@ -3482,6 +3798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alternative name for logical variables, which are intented to be\n variables of sort \u003ccode\u003e\u003ca\u003eLSortNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "NodeId",
           "package": "tamarin-prover-term",
@@ -3491,6 +3808,7 @@
         "index": {
           "description": "An alternative name for logical variables which are intented to be variables of sort LSortNode",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "NodeId",
           "package": "tamarin-prover-term",
@@ -3504,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "Arbitrary",
           "package": "tamarin-prover-term",
@@ -3513,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "Arbitrary",
           "normalized": "Arbitrary(LVar-\u003ea LVar)",
@@ -3529,6 +3849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bound variable in De-Brujin notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "Bound",
           "package": "tamarin-prover-term",
@@ -3539,6 +3860,7 @@
         "index": {
           "description": "bound variable in De-Brujin notation",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "Bound",
           "package": "tamarin-prover-term",
@@ -3553,6 +3875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA free variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "Free",
           "package": "tamarin-prover-term",
@@ -3563,6 +3886,7 @@
         "index": {
           "description": "free variable",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "Free",
           "package": "tamarin-prover-term",
@@ -3576,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "FreshName",
           "package": "tamarin-prover-term",
@@ -3585,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "FreshName",
           "package": "tamarin-prover-term",
@@ -3599,6 +3925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary fresh names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "LSortFresh",
           "package": "tamarin-prover-term",
@@ -3609,6 +3936,7 @@
         "index": {
           "description": "Arbitrary fresh names",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "LSortFresh",
           "package": "tamarin-prover-term",
@@ -3623,6 +3951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "LSortMsg",
           "package": "tamarin-prover-term",
@@ -3633,6 +3962,7 @@
         "index": {
           "description": "Arbitrary messages",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "LSortMsg",
           "package": "tamarin-prover-term",
@@ -3647,6 +3977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort for variables denoting nodes of derivation graphs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "LSortNode",
           "package": "tamarin-prover-term",
@@ -3657,6 +3988,7 @@
         "index": {
           "description": "Sort for variables denoting nodes of derivation graphs",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "LSortNode",
           "package": "tamarin-prover-term",
@@ -3671,6 +4003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary public names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "LSortPub",
           "package": "tamarin-prover-term",
@@ -3681,6 +4014,7 @@
         "index": {
           "description": "Arbitrary public names",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "LSortPub",
           "package": "tamarin-prover-term",
@@ -3694,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "LVar",
           "package": "tamarin-prover-term",
@@ -3703,6 +4038,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "LVar",
           "package": "tamarin-prover-term",
@@ -3716,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "Monotone",
           "package": "tamarin-prover-term",
@@ -3725,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "Monotone",
           "normalized": "Monotone(LVar-\u003ea LVar)",
@@ -3740,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "Name",
           "package": "tamarin-prover-term",
@@ -3749,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "Name",
           "package": "tamarin-prover-term",
@@ -3762,6 +4102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "NameId",
           "package": "tamarin-prover-term",
@@ -3771,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "NameId",
           "package": "tamarin-prover-term",
@@ -3784,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "PubName",
           "package": "tamarin-prover-term",
@@ -3793,6 +4136,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "PubName",
           "package": "tamarin-prover-term",
@@ -3807,6 +4151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eavoid t\u003c/code\u003e computes a \u003ccode\u003e\u003ca\u003eFreshState\u003c/a\u003e\u003c/code\u003e that avoids generating\n variables occurring in \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "avoid",
           "package": "tamarin-prover-term",
@@ -3817,6 +4162,7 @@
         "index": {
           "description": "avoid computes FreshState that avoids generating variables occurring in",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "avoid",
           "normalized": "a-\u003eFreshState",
@@ -3832,6 +4178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eavoidPrecise t\u003c/code\u003e computes a \u003ccode\u003e\u003ca\u003eFreshState\u003c/a\u003e\u003c/code\u003e that avoids generating\n variables occurring in \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "avoidPrecise",
           "package": "tamarin-prover-term",
@@ -3842,6 +4189,7 @@
         "index": {
           "description": "avoidPrecise computes FreshState that avoids generating variables occurring in",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "avoidPrecise",
           "normalized": "a-\u003eFreshState",
@@ -3858,6 +4206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a node-id variable from a term that may be a node-id variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "bltermNodeId",
           "package": "tamarin-prover-term",
@@ -3868,6 +4217,7 @@
         "index": {
           "description": "Extract node-id variable from term that may be node-id variable",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "bltermNodeId",
           "normalized": "BLTerm-\u003eMaybe LVar",
@@ -3884,6 +4234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a node-id variable from a term that must be a node-id variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "bltermNodeId'",
           "package": "tamarin-prover-term",
@@ -3894,6 +4245,7 @@
         "index": {
           "description": "Extract node-id variable from term that must be node-id variable",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "bltermNodeId'",
           "normalized": "BLTerm-\u003eLVar",
@@ -3910,6 +4262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003econtainsPrivate t\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if \u003ccode\u003et\u003c/code\u003e contains private function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "containsPrivate",
           "package": "tamarin-prover-term",
@@ -3920,6 +4273,7 @@
         "index": {
           "description": "containsPrivate returns True if contains private function symbols",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "containsPrivate",
           "normalized": "Term a-\u003eBool",
@@ -3936,6 +4290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eeqModuloFreshness t1 t2\u003c/code\u003e checks whether \u003ccode\u003et1\u003c/code\u003e is equal to \u003ccode\u003et2\u003c/code\u003e modulo\n renaming of indices of free variables. Note that the normal form is not\n unique with respect to AC symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "eqModuloFreshnessNoAC",
           "package": "tamarin-prover-term",
@@ -3946,6 +4301,7 @@
         "index": {
           "description": "eqModuloFreshness t1 t2 checks whether t1 is equal to t2 modulo renaming of indices of free variables Note that the normal form is not unique with respect to AC symbols",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "eqModuloFreshnessNoAC",
           "normalized": "a-\u003ea-\u003eBool",
@@ -3962,6 +4318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003em \u003ccode\u003e\u003ca\u003eevalFreshAvoiding\u003c/a\u003e\u003c/code\u003e t\u003c/code\u003e evaluates the monadic action \u003ccode\u003em\u003c/code\u003e with a\n fresh-variable supply that avoids generating variables occurring in \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "evalFreshAvoiding",
           "package": "tamarin-prover-term",
@@ -3972,6 +4329,7 @@
         "index": {
           "description": "evalFreshAvoiding evaluates the monadic action with fresh-variable supply that avoids generating variables occurring in",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "evalFreshAvoiding",
           "normalized": "Fresh a-\u003eb-\u003ea",
@@ -3988,6 +4346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003em \u003ccode\u003e\u003ca\u003eevalFreshTAvoiding\u003c/a\u003e\u003c/code\u003e t\u003c/code\u003e evaluates the monadic action \u003ccode\u003em\u003c/code\u003e in the\n underlying monad with a fresh-variable supply that avoids generating\n variables occurring in \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "evalFreshTAvoiding",
           "package": "tamarin-prover-term",
@@ -3998,6 +4357,7 @@
         "index": {
           "description": "evalFreshTAvoiding evaluates the monadic action in the underlying monad with fresh-variable supply that avoids generating variables occurring in",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "evalFreshTAvoiding",
           "normalized": "FreshT a b-\u003ec-\u003ea b",
@@ -4014,6 +4374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a possibly bound variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "foldBVar",
           "package": "tamarin-prover-term",
@@ -4024,6 +4385,7 @@
         "index": {
           "description": "Fold possibly bound variable",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "foldBVar",
           "normalized": "(Integer-\u003ea)-\u003e(b-\u003ea)-\u003eBVar b-\u003ea",
@@ -4039,6 +4401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "foldFrees",
           "package": "tamarin-prover-term",
@@ -4048,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "foldFrees",
           "normalized": "(LVar-\u003ea)-\u003eb-\u003ea",
@@ -4063,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "foldFreesOcc",
           "package": "tamarin-prover-term",
@@ -4072,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "foldFreesOcc",
           "normalized": "(Occurence-\u003eLVar-\u003ea)-\u003eOccurence-\u003eb-\u003ea",
@@ -4088,6 +4454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efrees t\u003c/code\u003e is the sorted and duplicate-free list of all free variables in\n \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "frees",
           "package": "tamarin-prover-term",
@@ -4098,6 +4465,7 @@
         "index": {
           "description": "frees is the sorted and duplicate-free list of all free variables in",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "frees",
           "normalized": "a-\u003e[LVar]",
@@ -4113,6 +4481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efreesList t\u003c/code\u003e is the list of all free variables of \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "freesList",
           "package": "tamarin-prover-term",
@@ -4123,6 +4492,7 @@
         "index": {
           "description": "freesList is the list of all free variables of",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "freesList",
           "normalized": "a-\u003e[LVar]",
@@ -4139,6 +4509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efreshLVar v\u003c/code\u003e represents a fresh logical variable with name \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "freshLVar",
           "package": "tamarin-prover-term",
@@ -4149,6 +4520,7 @@
         "index": {
           "description": "freshLVar represents fresh logical variable with name",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "freshLVar",
           "normalized": "String-\u003eLSort-\u003ea LVar",
@@ -4165,6 +4537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efreshTerm f\u003c/code\u003e represents the fresh name \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "freshTerm",
           "package": "tamarin-prover-term",
@@ -4175,6 +4548,7 @@
         "index": {
           "description": "freshTerm represents the fresh name",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "freshTerm",
           "normalized": "String-\u003eNTerm a",
@@ -4191,6 +4565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the name of free variable under the assumption the variable is\n guaranteed to be of the form \u003ccode\u003eFree a\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "fromFree",
           "package": "tamarin-prover-term",
@@ -4201,6 +4576,7 @@
         "index": {
           "description": "Extract the name of free variable under the assumption the variable is guaranteed to be of the form Free",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "fromFree",
           "normalized": "BVar a-\u003ea",
@@ -4216,6 +4592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "getNameId",
           "package": "tamarin-prover-term",
@@ -4225,6 +4602,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "getNameId",
           "package": "tamarin-prover-term",
@@ -4239,6 +4617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a term a fresh variable?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "isFreshVar",
           "package": "tamarin-prover-term",
@@ -4249,6 +4628,7 @@
         "index": {
           "description": "Is term fresh variable",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "isFreshVar",
           "normalized": "LNTerm-\u003eBool",
@@ -4265,6 +4645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a term a message variable?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "isMsgVar",
           "package": "tamarin-prover-term",
@@ -4275,6 +4656,7 @@
         "index": {
           "description": "Is term message variable",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "isMsgVar",
           "normalized": "LNTerm-\u003eBool",
@@ -4291,6 +4673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA term is *simple* iff there is an instance of this term that can be\n constructed from public names only. i.e., the term does not contain any\n fresh names, fresh variables, or private function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "isSimpleTerm",
           "package": "tamarin-prover-term",
@@ -4301,6 +4684,7 @@
         "index": {
           "description": "term is simple iff there is an instance of this term that can be constructed from public names only i.e the term does not contain any fresh names fresh variables or private function symbols",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "isSimpleTerm",
           "normalized": "LNTerm-\u003eBool",
@@ -4317,6 +4701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a node-id variable from a term that may be a node-id variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "ltermNodeId",
           "package": "tamarin-prover-term",
@@ -4327,6 +4712,7 @@
         "index": {
           "description": "Extract node-id variable from term that may be node-id variable",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "ltermNodeId",
           "normalized": "LTerm a-\u003eMaybe LVar",
@@ -4343,6 +4729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a node-id variable from a term that must be a node-id variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "ltermNodeId'",
           "package": "tamarin-prover-term",
@@ -4353,6 +4740,7 @@
         "index": {
           "description": "Extract node-id variable from term that must be node-id variable",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "ltermNodeId'",
           "normalized": "LTerm a-\u003eLVar",
@@ -4369,6 +4757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a variable of the given sort from a term that may be such a\n variable. Use \u003ccode\u003e\u003ca\u003etermVar\u003c/a\u003e\u003c/code\u003e, if you do not want to restrict the sort.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "ltermVar",
           "package": "tamarin-prover-term",
@@ -4379,6 +4768,7 @@
         "index": {
           "description": "Extract variable of the given sort from term that may be such variable Use termVar if you do not want to restrict the sort",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "ltermVar",
           "normalized": "LSort-\u003eLTerm a-\u003eMaybe LVar",
@@ -4395,6 +4785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a variable of the given sort from a term that must be such a\n variable. Fails with an error, if that is not possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "ltermVar'",
           "package": "tamarin-prover-term",
@@ -4405,6 +4796,7 @@
         "index": {
           "description": "Extract variable of the given sort from term that must be such variable Fails with an error if that is not possible",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "ltermVar'",
           "normalized": "LSort-\u003eLTerm a-\u003eLVar",
@@ -4420,6 +4812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "lvarIdx",
           "package": "tamarin-prover-term",
@@ -4429,6 +4822,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "lvarIdx",
           "package": "tamarin-prover-term",
@@ -4442,6 +4836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "lvarName",
           "package": "tamarin-prover-term",
@@ -4451,6 +4846,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "lvarName",
           "package": "tamarin-prover-term",
@@ -4464,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "lvarSort",
           "package": "tamarin-prover-term",
@@ -4473,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "lvarSort",
           "package": "tamarin-prover-term",
@@ -4486,6 +4884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "mapFrees",
           "package": "tamarin-prover-term",
@@ -4495,6 +4894,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "mapFrees",
           "normalized": "MonotoneFunction a-\u003eb-\u003ea b",
@@ -4510,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "nId",
           "package": "tamarin-prover-term",
@@ -4519,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "nId",
           "package": "tamarin-prover-term",
@@ -4532,6 +4934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "nTag",
           "package": "tamarin-prover-term",
@@ -4541,6 +4944,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "nTag",
           "package": "tamarin-prover-term",
@@ -4555,6 +4959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff no instance of this term contains fresh names or private function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "neverContainsFreshPriv",
           "package": "tamarin-prover-term",
@@ -4565,6 +4970,7 @@
         "index": {
           "description": "True iff no instance of this term contains fresh names or private function symbols",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "neverContainsFreshPriv",
           "normalized": "LNTerm-\u003eBool",
@@ -4581,6 +4987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe non-inverse factors of a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "niFactors",
           "package": "tamarin-prover-term",
@@ -4591,6 +4998,7 @@
         "index": {
           "description": "The non-inverse factors of term",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "niFactors",
           "normalized": "LNTerm-\u003e[LNTerm]",
@@ -4607,6 +5015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ev \u003ccode\u003e\u003ca\u003eoccurs\u003c/a\u003e\u003c/code\u003e t\u003c/code\u003e iff variable \u003ccode\u003ev\u003c/code\u003e occurs as a free variable in \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "occurs",
           "package": "tamarin-prover-term",
@@ -4617,6 +5026,7 @@
         "index": {
           "description": "occurs iff variable occurs as free variable in",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "occurs",
           "normalized": "LVar-\u003ea-\u003eBool",
@@ -4632,6 +5042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print an \u003ccode\u003eLTerm\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "prettyLNTerm",
           "package": "tamarin-prover-term",
@@ -4642,6 +5053,7 @@
         "index": {
           "description": "Pretty print an LTerm",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "prettyLNTerm",
           "normalized": "LNTerm-\u003ea",
@@ -4658,6 +5070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a \u003ccode\u003e\u003ca\u003eLVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "prettyLVar",
           "package": "tamarin-prover-term",
@@ -4668,6 +5081,7 @@
         "index": {
           "description": "Pretty print LVar",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "prettyLVar",
           "normalized": "LVar-\u003ea",
@@ -4684,6 +5098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print an \u003ccode\u003eNTerm\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "prettyNTerm",
           "package": "tamarin-prover-term",
@@ -4694,6 +5109,7 @@
         "index": {
           "description": "Pretty print an NTerm",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "prettyNTerm",
           "normalized": "NTerm a-\u003eb",
@@ -4710,6 +5126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "prettyNodeId",
           "package": "tamarin-prover-term",
@@ -4720,6 +5137,7 @@
         "index": {
           "description": "Pretty print NodeId",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "prettyNodeId",
           "normalized": "NodeId-\u003ea",
@@ -4736,6 +5154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epubTerm f\u003c/code\u003e represents the pub name \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "pubTerm",
           "package": "tamarin-prover-term",
@@ -4746,6 +5165,7 @@
         "index": {
           "description": "pubTerm represents the pub name",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "pubTerm",
           "normalized": "String-\u003eNTerm a",
@@ -4762,6 +5182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erename t\u003c/code\u003e replaces all variables in \u003ccode\u003et\u003c/code\u003e with fresh variables.\n   Note that the result is not guaranteed to be equal for terms that are\n   equal modulo changing the indices of variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "rename",
           "package": "tamarin-prover-term",
@@ -4772,6 +5193,7 @@
         "index": {
           "description": "rename replaces all variables in with fresh variables Note that the result is not guaranteed to be equal for terms that are equal modulo changing the indices of variables",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "rename",
           "normalized": "a-\u003eb a",
@@ -4787,6 +5209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003es \u003ccode\u003e\u003ca\u003erenameAvoiding\u003c/a\u003e\u003c/code\u003e t\u003c/code\u003e replaces all free variables in \u003ccode\u003es\u003c/code\u003e by\n   fresh variables avoiding variables in \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "renameAvoiding",
           "package": "tamarin-prover-term",
@@ -4797,6 +5220,7 @@
         "index": {
           "description": "renameAvoiding replaces all free variables in by fresh variables avoiding variables in",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "renameAvoiding",
           "normalized": "a-\u003eb-\u003ea",
@@ -4812,6 +5236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "renameDropNamehint",
           "package": "tamarin-prover-term",
@@ -4821,6 +5246,7 @@
         },
         "index": {
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "renameDropNamehint",
           "normalized": "a-\u003eb a",
@@ -4837,6 +5263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erenamePrecise t\u003c/code\u003e replaces all variables in \u003ccode\u003et\u003c/code\u003e with fresh variables.\n   If \u003ccode\u003e\u003ca\u003ePreciseFresh\u003c/a\u003e\u003c/code\u003e is used with non-AC terms and identical\n   fresh state, the same result is returned for two terms that only differ\n   in the indices of variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "renamePrecise",
           "package": "tamarin-prover-term",
@@ -4847,6 +5274,7 @@
         "index": {
           "description": "renamePrecise replaces all variables in with fresh variables If PreciseFresh is used with non-AC terms and identical fresh state the same result is returned for two terms that only differ in the indices of variables",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "renamePrecise",
           "normalized": "a-\u003eb a",
@@ -4863,6 +5291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esomeInst t\u003c/code\u003e returns an instance of \u003ccode\u003et\u003c/code\u003e where all free variables whose\n binding is not yet determined by the caller are replaced with fresh\n variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "someInst",
           "package": "tamarin-prover-term",
@@ -4873,6 +5302,7 @@
         "index": {
           "description": "someInst returns an instance of where all free variables whose binding is not yet determined by the caller are replaced with fresh variables",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "someInst",
           "normalized": "a-\u003eb a",
@@ -4889,6 +5319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esortCompare s1 s2\u003c/code\u003e compares \u003ccode\u003es1\u003c/code\u003e and \u003ccode\u003es2\u003c/code\u003e with respect to the partial order on sorts.\n   Partial order: Node      Msg\n                           /   --                         Pub  Fresh\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "sortCompare",
           "package": "tamarin-prover-term",
@@ -4899,6 +5330,7 @@
         "index": {
           "description": "sortCompare s1 s2 compares s1 and s2 with respect to the partial order on sorts Partial order Node Msg Pub Fresh",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "sortCompare",
           "normalized": "LSort-\u003eLSort-\u003eMaybe Ordering",
@@ -4915,6 +5347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the most precise sort of an \u003ccode\u003e\u003ca\u003eLNTerm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "sortOfLNTerm",
           "package": "tamarin-prover-term",
@@ -4925,6 +5358,7 @@
         "index": {
           "description": "Returns the most precise sort of an LNTerm",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "sortOfLNTerm",
           "normalized": "LNTerm-\u003eLSort",
@@ -4941,6 +5375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the most precise sort of an \u003ccode\u003e\u003ca\u003eLTerm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "sortOfLTerm",
           "package": "tamarin-prover-term",
@@ -4951,6 +5386,7 @@
         "index": {
           "description": "Returns the most precise sort of an LTerm",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "sortOfLTerm",
           "normalized": "(a-\u003eLSort)-\u003eLTerm a-\u003eLSort",
@@ -4967,6 +5403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the most precise sort of a \u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "sortOfLit",
           "package": "tamarin-prover-term",
@@ -4977,6 +5414,7 @@
         "index": {
           "description": "Returns the most precise sort of Lit",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "sortOfLit",
           "normalized": "Lit Name LVar-\u003eLSort",
@@ -4993,6 +5431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eLSort\u003c/a\u003e\u003c/code\u003e for given \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "sortOfName",
           "package": "tamarin-prover-term",
@@ -5003,6 +5442,7 @@
         "index": {
           "description": "Return LSort for given Name",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "sortOfName",
           "normalized": "Name-\u003eLSort",
@@ -5019,6 +5459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esortPrefix s\u003c/code\u003e is the prefix we use for annotating variables of sort \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "sortPrefix",
           "package": "tamarin-prover-term",
@@ -5029,6 +5470,7 @@
         "index": {
           "description": "sortPrefix is the prefix we use for annotating variables of sort",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "sortPrefix",
           "normalized": "LSort-\u003eString",
@@ -5045,6 +5487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esortSuffix s\u003c/code\u003e is the suffix we use for annotating variables of sort \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.LTerm",
           "name": "sortSuffix",
           "package": "tamarin-prover-term",
@@ -5055,6 +5498,7 @@
         "index": {
           "description": "sortSuffix is the suffix we use for annotating variables of sort",
           "hierarchy": "Term LTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.LTerm",
           "name": "sortSuffix",
           "normalized": "LSort-\u003eString",
@@ -5098,6 +5542,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printing and parsing of Maude terms and replies.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Parser",
           "name": "Parser",
           "package": "tamarin-prover-term",
@@ -5107,6 +5552,7 @@
         "index": {
           "description": "Pretty printing and parsing of Maude terms and replies",
           "hierarchy": "Term Maude Parser",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Parser",
           "name": "Parser",
           "package": "tamarin-prover-term",
@@ -5121,6 +5567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseMatchReply reply\u003c/code\u003e takes a \u003ccode\u003ereply\u003c/code\u003e to a match query\n   returned by Maude and extracts the unifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Parser",
           "name": "parseMatchReply",
           "package": "tamarin-prover-term",
@@ -5131,6 +5578,7 @@
         "index": {
           "description": "parseMatchReply reply takes reply to match query returned by Maude and extracts the unifiers",
           "hierarchy": "Term Maude Parser",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Parser",
           "name": "parseMatchReply",
           "normalized": "MaudeSig-\u003eByteString-\u003eEither String[MSubst]",
@@ -5147,6 +5595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseReduceReply l\u003c/code\u003e parses a single solution returned by Maude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Parser",
           "name": "parseReduceReply",
           "package": "tamarin-prover-term",
@@ -5157,6 +5606,7 @@
         "index": {
           "description": "parseReduceReply parses single solution returned by Maude",
           "hierarchy": "Term Maude Parser",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Parser",
           "name": "parseReduceReply",
           "normalized": "MaudeSig-\u003eByteString-\u003eEither String MTerm",
@@ -5173,6 +5623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseUnifyReply reply\u003c/code\u003e takes a \u003ccode\u003ereply\u003c/code\u003e to a unification query\n   returned by Maude and extracts the unifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Parser",
           "name": "parseUnifyReply",
           "package": "tamarin-prover-term",
@@ -5183,6 +5634,7 @@
         "index": {
           "description": "parseUnifyReply reply takes reply to unification query returned by Maude and extracts the unifiers",
           "hierarchy": "Term Maude Parser",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Parser",
           "name": "parseUnifyReply",
           "normalized": "MaudeSig-\u003eByteString-\u003eEither String[MSubst]",
@@ -5199,6 +5651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eppMaude t\u003c/code\u003e pretty prints the term \u003ccode\u003et\u003c/code\u003e for Maude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Parser",
           "name": "ppMaude",
           "package": "tamarin-prover-term",
@@ -5209,6 +5662,7 @@
         "index": {
           "description": "ppMaude pretty prints the term for Maude",
           "hierarchy": "Term Maude Parser",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Parser",
           "name": "ppMaude",
           "normalized": "Term MaudeLit-\u003eByteString",
@@ -5225,6 +5679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe term algebra and rewriting rules as a functional module in Maude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Parser",
           "name": "ppTheory",
           "package": "tamarin-prover-term",
@@ -5235,6 +5690,7 @@
         "index": {
           "description": "The term algebra and rewriting rules as functional module in Maude",
           "hierarchy": "Term Maude Parser",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Parser",
           "name": "ppTheory",
           "normalized": "MaudeSig-\u003eByteString",
@@ -5251,6 +5707,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAC-unification of DH terms using Maude as a backend.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Process",
           "name": "Process",
           "package": "tamarin-prover-term",
@@ -5260,6 +5717,7 @@
         "index": {
           "description": "AC-unification of DH terms using Maude as backend",
           "hierarchy": "Term Maude Process",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Process",
           "name": "Process",
           "package": "tamarin-prover-term",
@@ -5274,6 +5732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle to a Maude process. It requires the Maude path for Signatures to\n be serializable. If we also add the string for the Maude config file, then\n it would even be serializable on its own.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Process",
           "name": "MaudeHandle",
           "package": "tamarin-prover-term",
@@ -5283,6 +5742,7 @@
         "index": {
           "description": "handle to Maude process It requires the Maude path for Signatures to be serializable If we also add the string for the Maude config file then it would even be serializable on its own",
           "hierarchy": "Term Maude Process",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Process",
           "name": "MaudeHandle",
           "package": "tamarin-prover-term",
@@ -5297,6 +5757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues that depend on a \u003ccode\u003e\u003ca\u003eMaudeHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Process",
           "name": "WithMaude",
           "package": "tamarin-prover-term",
@@ -5306,6 +5767,7 @@
         "index": {
           "description": "Values that depend on MaudeHandle",
           "hierarchy": "Term Maude Process",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Process",
           "name": "WithMaude",
           "package": "tamarin-prover-term",
@@ -5319,6 +5781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Process",
           "name": "MaudeHandle",
           "package": "tamarin-prover-term",
@@ -5328,6 +5791,7 @@
         },
         "index": {
           "hierarchy": "Term Maude Process",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Process",
           "name": "MaudeHandle",
           "package": "tamarin-prover-term",
@@ -5369,6 +5833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ematchViaMaude (t, p)\u003c/code\u003e computes a complete set of AC matchers of the term\n \u003ccode\u003et\u003c/code\u003e to the pattern \u003ccode\u003ep\u003c/code\u003e via Maude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Process",
           "name": "matchViaMaude",
           "package": "tamarin-prover-term",
@@ -5379,6 +5844,7 @@
         "index": {
           "description": "matchViaMaude computes complete set of AC matchers of the term to the pattern via Maude",
           "hierarchy": "Term Maude Process",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Process",
           "name": "matchViaMaude",
           "normalized": "MaudeHandle-\u003e(a-\u003eLSort)-\u003eMatch(VTerm a LVar)-\u003eIO[Subst a LVar]",
@@ -5394,6 +5860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Process",
           "name": "mhFilePath",
           "package": "tamarin-prover-term",
@@ -5403,6 +5870,7 @@
         },
         "index": {
           "hierarchy": "Term Maude Process",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Process",
           "name": "mhFilePath",
           "package": "tamarin-prover-term",
@@ -5416,6 +5884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Process",
           "name": "mhMaudeSig",
           "package": "tamarin-prover-term",
@@ -5425,6 +5894,7 @@
         },
         "index": {
           "hierarchy": "Term Maude Process",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Process",
           "name": "mhMaudeSig",
           "package": "tamarin-prover-term",
@@ -5438,6 +5908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Process",
           "name": "mhProc",
           "package": "tamarin-prover-term",
@@ -5447,6 +5918,7 @@
         },
         "index": {
           "hierarchy": "Term Maude Process",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Process",
           "name": "mhProc",
           "package": "tamarin-prover-term",
@@ -5461,6 +5933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enormViaMaude t\u003c/code\u003e normalizes the term t via Maude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Process",
           "name": "normViaMaude",
           "package": "tamarin-prover-term",
@@ -5471,6 +5944,7 @@
         "index": {
           "description": "normViaMaude normalizes the term via Maude",
           "hierarchy": "Term Maude Process",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Process",
           "name": "normViaMaude",
           "normalized": "MaudeHandle-\u003e(a-\u003eLSort)-\u003eVTerm a LVar-\u003eIO(VTerm a LVar)",
@@ -5514,6 +5988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunifyViaMaude hnd eqs\u003c/code\u003e computes all AC unifiers of \u003ccode\u003eeqs\u003c/code\u003e using the\n   Maude process \u003ccode\u003ehnd\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Process",
           "name": "unifyViaMaude",
           "package": "tamarin-prover-term",
@@ -5524,6 +5999,7 @@
         "index": {
           "description": "unifyViaMaude hnd eqs computes all AC unifiers of eqs using the Maude process hnd",
           "hierarchy": "Term Maude Process",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Process",
           "name": "unifyViaMaude",
           "normalized": "MaudeHandle-\u003e(a-\u003eLSort)-\u003e[Equal(VTerm a LVar)]-\u003eIO[SubstVFresh a LVar]",
@@ -5540,6 +6016,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEquational signatures for Maude.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Signature",
           "name": "Signature",
           "package": "tamarin-prover-term",
@@ -5549,6 +6026,7 @@
         "index": {
           "description": "Equational signatures for Maude",
           "hierarchy": "Term Maude Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Signature",
           "name": "Signature",
           "package": "tamarin-prover-term",
@@ -5563,6 +6041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe required information to define a \u003ccode\u003eMaude functional module\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Signature",
           "name": "MaudeSig",
           "package": "tamarin-prover-term",
@@ -5572,6 +6051,7 @@
         "index": {
           "description": "The required information to define Maude functional module",
           "hierarchy": "Term Maude Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Signature",
           "name": "MaudeSig",
           "package": "tamarin-prover-term",
@@ -5970,6 +6450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Signature",
           "name": "prettyMaudeSig",
           "package": "tamarin-prover-term",
@@ -5979,6 +6460,7 @@
         },
         "index": {
           "hierarchy": "Term Maude Signature",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Signature",
           "name": "prettyMaudeSig",
           "normalized": "MaudeSig-\u003ea",
@@ -6126,6 +6608,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for communicating with Maude.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "Types",
           "package": "tamarin-prover-term",
@@ -6135,6 +6618,7 @@
         "index": {
           "description": "Types for communicating with Maude",
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "Types",
           "package": "tamarin-prover-term",
@@ -6148,6 +6632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "MSubst",
           "package": "tamarin-prover-term",
@@ -6156,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "MSubst",
           "package": "tamarin-prover-term",
@@ -6169,6 +6655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "MTerm",
           "package": "tamarin-prover-term",
@@ -6177,6 +6664,7 @@
         },
         "index": {
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "MTerm",
           "package": "tamarin-prover-term",
@@ -6190,6 +6678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "MaudeLit",
           "package": "tamarin-prover-term",
@@ -6198,6 +6687,7 @@
         },
         "index": {
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "MaudeLit",
           "package": "tamarin-prover-term",
@@ -6211,6 +6701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "FreshVar",
           "package": "tamarin-prover-term",
@@ -6220,6 +6711,7 @@
         },
         "index": {
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "FreshVar",
           "package": "tamarin-prover-term",
@@ -6233,6 +6725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "MaudeConst",
           "package": "tamarin-prover-term",
@@ -6242,6 +6735,7 @@
         },
         "index": {
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "MaudeConst",
           "package": "tamarin-prover-term",
@@ -6255,6 +6749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "MaudeVar",
           "package": "tamarin-prover-term",
@@ -6264,6 +6759,7 @@
         },
         "index": {
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "MaudeVar",
           "package": "tamarin-prover-term",
@@ -6278,6 +6774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003eLNTerm\u003c/code\u003e with arbitrary names to an \u003ccode\u003eMTerm\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "lTermToMTerm",
           "package": "tamarin-prover-term",
@@ -6287,6 +6784,7 @@
         "index": {
           "description": "Convert an LNTerm with arbitrary names to an MTerm",
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "lTermToMTerm",
           "normalized": "(a-\u003eLSort)-\u003eVTerm a LVar-\u003eb MTerm",
@@ -6303,6 +6801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003eLNTerm\u003c/code\u003e to an \u003ccode\u003eMTerm\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "lTermToMTerm'",
           "package": "tamarin-prover-term",
@@ -6312,6 +6811,7 @@
         "index": {
           "description": "Convert an LNTerm to an MTerm",
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "lTermToMTerm'",
           "normalized": "LNTerm-\u003ea MTerm",
@@ -6328,6 +6828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003e\u003ca\u003eMTerm\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eLNTerm\u003c/a\u003e\u003c/code\u003e under the assumption that the bindings\n for the constants are already available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "mTermToLNTerm",
           "package": "tamarin-prover-term",
@@ -6337,6 +6838,7 @@
         "index": {
           "description": "Convert an MTerm to an LNTerm under the assumption that the bindings for the constants are already available",
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "mTermToLNTerm",
           "normalized": "String-\u003eMTerm-\u003ea(VTerm b LVar)",
@@ -6353,6 +6855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emsubstToLSubstVFree bindings substMaude\u003c/code\u003e converts a substitution\n   returned by Maude to a \u003ccode\u003eVFree\u003c/code\u003e substitution. It expects that the\n   maude substitution contains no fresh variables in its range and raises an\n   error otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "msubstToLSubstVFree",
           "package": "tamarin-prover-term",
@@ -6363,6 +6866,7 @@
         "index": {
           "description": "msubstToLSubstVFree bindings substMaude converts substitution returned by Maude to VFree substitution It expects that the maude substitution contains no fresh variables in its range and raises an error otherwise",
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "msubstToLSubstVFree",
           "normalized": "Map MaudeLit(Lit a LVar)-\u003eMSubst-\u003eSubst a LVar",
@@ -6379,6 +6883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emsubstToLSubstVFresh bindings substMaude\u003c/code\u003e converts a substitution\n   returned by Maude to a \u003ccode\u003eVFresh\u003c/code\u003e substitution. It expects that the\n   range of the maude substitution contains only fresh variables in its\n   range and raises an error otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "msubstToLSubstVFresh",
           "package": "tamarin-prover-term",
@@ -6388,6 +6893,7 @@
         "index": {
           "description": "msubstToLSubstVFresh bindings substMaude converts substitution returned by Maude to VFresh substitution It expects that the range of the maude substitution contains only fresh variables in its range and raises an error otherwise",
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "msubstToLSubstVFresh",
           "normalized": "Map MaudeLit(Lit a LVar)-\u003eMSubst-\u003eSubstVFresh a LVar",
@@ -6404,6 +6910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003eBindT (Lit c LVar) MaudeLit Fresh\u003c/code\u003e computation\n   with an empty fresh supply and an empty binding map and return\n   the result and the resulting inverted binding map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Maude.Types",
           "name": "runConversion",
           "package": "tamarin-prover-term",
@@ -6413,6 +6920,7 @@
         "index": {
           "description": "Run BindT Lit LVar MaudeLit Fresh computation with an empty fresh supply and an empty binding map and return the result and the resulting inverted binding map",
           "hierarchy": "Term Maude Types",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Maude.Types",
           "name": "runConversion",
           "normalized": "BindT(Lit a LVar)MaudeLit Fresh b-\u003e(b,Map MaudeLit(Lit a LVar))",
@@ -6429,6 +6937,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompleteness and minimality checking for the variants of a term.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants.Check",
           "name": "Check",
           "package": "tamarin-prover-term",
@@ -6438,6 +6947,7 @@
         "index": {
           "description": "Completeness and minimality checking for the variants of term",
           "hierarchy": "Term Narrowing Variants Check",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants.Check",
           "name": "Check",
           "package": "tamarin-prover-term",
@@ -6452,6 +6962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echeckComplete t substs\u003c/code\u003e checks if \u003ccode\u003esubsts\u003c/code\u003e is a complete set of variants\n   for \u003ccode\u003et\u003c/code\u003e and returns \u003ccode\u003eJust (subst1,subst2)\u003c/code\u003e if there is a narrowing step\n   from \u003ccode\u003esubst1\u003c/code\u003e that yields a new variant \u003ccode\u003esubst2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants.Check",
           "name": "checkComplete",
           "package": "tamarin-prover-term",
@@ -6462,6 +6973,7 @@
         "index": {
           "description": "checkComplete substs checks if substs is complete set of variants for and returns Just subst1 subst2 if there is narrowing step from subst1 that yields new variant subst2",
           "hierarchy": "Term Narrowing Variants Check",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants.Check",
           "name": "checkComplete",
           "normalized": "LNTerm-\u003e[LNSubstVFresh]-\u003eWithMaude Bool",
@@ -6478,6 +6990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echeckMinimal t substs\u003c/code\u003e checks if \u003ccode\u003esubsts\u003c/code\u003e is a minimal set of variants\n   for \u003ccode\u003et\u003c/code\u003e and returns \u003ccode\u003eFalse\u003c/code\u003e if there are subst1 /= subst2 in substs with\n   subst1 \u003c=_Var_t subst2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants.Check",
           "name": "checkMinimal",
           "package": "tamarin-prover-term",
@@ -6488,6 +7001,7 @@
         "index": {
           "description": "checkMinimal substs checks if substs is minimal set of variants for and returns False if there are subst1 subst2 in substs with subst1 Var subst2",
           "hierarchy": "Term Narrowing Variants Check",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants.Check",
           "name": "checkMinimal",
           "normalized": "LNTerm-\u003e[LNSubstVFresh]-\u003eWithMaude Bool",
@@ -6504,6 +7018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eisNormalInstance t s s'\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if \u003ccode\u003es'(norm(s(t)))\u003c/code\u003e is in normal\n   form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants.Check",
           "name": "isNormalInstance",
           "package": "tamarin-prover-term",
@@ -6514,6 +7029,7 @@
         "index": {
           "description": "isNormalInstance returns True if norm is in normal form",
           "hierarchy": "Term Narrowing Variants Check",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants.Check",
           "name": "isNormalInstance",
           "normalized": "LNTerm-\u003eLNSubst-\u003eLNSubst-\u003eWithMaude Bool",
@@ -6530,6 +7046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eleqSubstVariant t s1 s2\u003c/code\u003e compares two substitutions using the variant order \n   with respect to \u003ccode\u003et\u003c/code\u003e and returns \u003ccode\u003eTrue\u003c/code\u003e if \u003ccode\u003es1\u003c/code\u003e is less or equal than \u003ccode\u003es2\u003c/code\u003e\n   and \u003ccode\u003eFalse\u003c/code\u003e otherwise. Use the more expensive \u003ccode\u003ecompareSubstVariant\u003c/code\u003e\n   which uses two AC matchings instead of one if you also want to distinguish\n   \u003ccode\u003eNothing\u003c/code\u003e, \u003ccode\u003eJust EQ\u003c/code\u003e, and \u003ccode\u003eJust GT\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003es1 is smaller or equal to s2 wrt. to the variant order (less general) iff there\n   is an s1' such that s1 = s2' . s2 restricted to vars(t) and s2'(norm(s2(t)))\n   is in normal form, or equivalently norm(s1(t)) =AC= s2'(norm(s2(1))). This\n   means s1 is redundant since it is just an AC instance of s2 that does\n   not \u003ca\u003erequire additional normalization steps.\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants.Check",
           "name": "leqSubstVariant",
           "package": "tamarin-prover-term",
@@ -6540,6 +7057,7 @@
         "index": {
           "description": "leqSubstVariant s1 s2 compares two substitutions using the variant order with respect to and returns True if s1 is less or equal than s2 and False otherwise Use the more expensive compareSubstVariant which uses two AC matchings instead of one if you also want to distinguish Nothing Just EQ and Just GT s1 is smaller or equal to s2 wrt to the variant order less general iff there is an s1 such that s1 s2 s2 restricted to vars and s2 norm s2 is in normal form or equivalently norm s1 AC s2 norm s2 This means s1 is redundant since it is just an AC instance of s2 that does not require additional normalization steps",
           "hierarchy": "Term Narrowing Variants Check",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants.Check",
           "name": "leqSubstVariant",
           "normalized": "LNTerm-\u003eLNSubstVFresh-\u003eLNSubstVFresh-\u003eWithMaude Bool",
@@ -6556,6 +7074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evariantsFrom rules t subst\u003c/code\u003e returns all the \u003ca\u003eone-step variants\u003c/a\u003e of\n   \u003ccode\u003enorm (t subst)\u003c/code\u003e for the given set of \u003ccode\u003erules\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants.Check",
           "name": "variantsFrom",
           "package": "tamarin-prover-term",
@@ -6566,6 +7085,7 @@
         "index": {
           "description": "variantsFrom rules subst returns all the one-step variants of norm subst for the given set of rules",
           "hierarchy": "Term Narrowing Variants Check",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants.Check",
           "name": "variantsFrom",
           "normalized": "LNTerm-\u003eLNSubstVFresh-\u003eWithMaude[LNSubstVFresh]",
@@ -6582,6 +7102,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComputing the variants of a term.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants.Compute",
           "name": "Compute",
           "package": "tamarin-prover-term",
@@ -6591,6 +7112,7 @@
         "index": {
           "description": "Computing the variants of term",
           "hierarchy": "Term Narrowing Variants Compute",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants.Compute",
           "name": "Compute",
           "package": "tamarin-prover-term",
@@ -6605,6 +7127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esubstCompareVariant t s1 t2\u003c/code\u003e compares two substitutions using the variant order\n   with respect to \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants.Compute",
           "name": "compareSubstVariant",
           "package": "tamarin-prover-term",
@@ -6615,6 +7138,7 @@
         "index": {
           "description": "substCompareVariant s1 t2 compares two substitutions using the variant order with respect to",
           "hierarchy": "Term Narrowing Variants Compute",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants.Compute",
           "name": "compareSubstVariant",
           "normalized": "LNTerm-\u003eLNSubstVFresh-\u003eLNSubstVFresh-\u003eWithMaude(Maybe Ordering)",
@@ -6631,6 +7155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evariantsList ts\u003c/code\u003e computes all variants of \u003ccode\u003ets\u003c/code\u003e considered as a single term\n   without a bound or symmetry substitution.\n   The rewriting rules are taken from the Maude context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants.Compute",
           "name": "computeVariants",
           "package": "tamarin-prover-term",
@@ -6641,6 +7166,7 @@
         "index": {
           "description": "variantsList ts computes all variants of ts considered as single term without bound or symmetry substitution The rewriting rules are taken from the Maude context",
           "hierarchy": "Term Narrowing Variants Compute",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants.Compute",
           "name": "computeVariants",
           "normalized": "LNTerm-\u003eWithMaude[LNSubstVFresh]",
@@ -6657,6 +7183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecomputeVariants t d\u003c/code\u003e compute the variants of term \u003ccode\u003et\u003c/code\u003e with bound \u003ccode\u003ed\u003c/code\u003e.\n   The rewriting rules are taken from the Maude context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants.Compute",
           "name": "computeVariantsBound",
           "package": "tamarin-prover-term",
@@ -6667,6 +7194,7 @@
         "index": {
           "description": "computeVariants compute the variants of term with bound The rewriting rules are taken from the Maude context",
           "hierarchy": "Term Narrowing Variants Compute",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants.Compute",
           "name": "computeVariantsBound",
           "normalized": "LNTerm-\u003eMaybe Int-\u003eWithMaude(Maybe[LNSubstVFresh])",
@@ -6683,6 +7211,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComputing and checking the variants of a term.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants",
           "name": "Variants",
           "package": "tamarin-prover-term",
@@ -6692,6 +7221,7 @@
         "index": {
           "description": "Computing and checking the variants of term",
           "hierarchy": "Term Narrowing Variants",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants",
           "name": "Variants",
           "package": "tamarin-prover-term",
@@ -6706,6 +7236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evariantsListCheck ts\u003c/code\u003e computes all variants of \u003ccode\u003ets\u003c/code\u003e considered as a single term\n   without a bound or symmetry substitution. Before returning the result, it checks\n   if the set of variants is complete and minimal. If that is not the case, it\n   fails with an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Narrowing.Variants",
           "name": "computeVariantsCheck",
           "package": "tamarin-prover-term",
@@ -6716,6 +7247,7 @@
         "index": {
           "description": "variantsListCheck ts computes all variants of ts considered as single term without bound or symmetry substitution Before returning the result it checks if the set of variants is complete and minimal If that is not the case it fails with an error",
           "hierarchy": "Term Narrowing Variants",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Narrowing.Variants",
           "name": "computeVariantsCheck",
           "normalized": "LNTerm-\u003eWithMaude[LNSubstVFresh]",
@@ -6732,6 +7264,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePositions and replacement in terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Positions",
           "name": "Positions",
           "package": "tamarin-prover-term",
@@ -6741,6 +7274,7 @@
         "index": {
           "description": "Positions and replacement in terms",
           "hierarchy": "Term Positions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Positions",
           "name": "Positions",
           "package": "tamarin-prover-term",
@@ -6755,6 +7289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position in a term is a list of integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Positions",
           "name": "Position",
           "package": "tamarin-prover-term",
@@ -6764,6 +7299,7 @@
         "index": {
           "description": "position in term is list of integers",
           "hierarchy": "Term Positions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Positions",
           "name": "Position",
           "package": "tamarin-prover-term",
@@ -6778,6 +7314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003et \u003ccode\u003e\u003ca\u003eatPos\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e returns the subterm of term \u003ccode\u003et\u003c/code\u003e at position \u003ccode\u003ep\u003c/code\u003e.\n   The standard notation for \u003ccode\u003et \u003ccode\u003e\u003ca\u003eatPos\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e is \u003ccode\u003et|_p\u003c/code\u003e.\n   \u003ccode\u003e\u003ca\u003eatPos\u003c/a\u003e\u003c/code\u003e accounts for AC symbols by interpreting n-ary operator\n   applications \u003ccode\u003e*[t1,t2,..tk-1,tk]\u003c/code\u003e as binary applications\n   \u003ccode\u003et1*(t2*..(tk-1*tk)..)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Positions",
           "name": "atPos",
           "package": "tamarin-prover-term",
@@ -6788,6 +7325,7 @@
         "index": {
           "description": "atPos returns the subterm of term at position The standard notation for atPos is atPos accounts for AC symbols by interpreting n-ary operator applications t1 t2 tk-1 tk as binary applications t1 t2 tk-1 tk",
           "hierarchy": "Term Positions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Positions",
           "name": "atPos",
           "normalized": "Term a-\u003ePosition-\u003eTerm a",
@@ -6804,6 +7342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epositionsNonVar t\u003c/code\u003e returns all the non-variable positions in the term \u003ccode\u003et\u003c/code\u003e.\n   \u003ccode\u003e\u003ca\u003epositionsNonVar\u003c/a\u003e\u003c/code\u003e accounts for AC symbols in the same ways as \u003ccode\u003e\u003ca\u003eatPos\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Positions",
           "name": "positionsNonVar",
           "package": "tamarin-prover-term",
@@ -6814,6 +7353,7 @@
         "index": {
           "description": "positionsNonVar returns all the non-variable positions in the term positionsNonVar accounts for AC symbols in the same ways as atPos",
           "hierarchy": "Term Positions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Positions",
           "name": "positionsNonVar",
           "normalized": "VTerm a b-\u003e[Position]",
@@ -6830,6 +7370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003et \u003ccode\u003e\u003ca\u003ereplacePos\u003c/a\u003e\u003c/code\u003e (s,p)\u003c/code\u003e returns the term \u003ccode\u003et'\u003c/code\u003e where the subterm at position \u003ccode\u003ep\u003c/code\u003e\n   is replaced by \u003ccode\u003es\u003c/code\u003e. The standard notation for \u003ccode\u003et \u003ccode\u003e\u003ca\u003ereplacePos\u003c/a\u003e\u003c/code\u003e (s,p)\u003c/code\u003e is \u003ccode\u003et[s]_p\u003c/code\u003e.\n   \u003ccode\u003e\u003ca\u003ereplacePos\u003c/a\u003e\u003c/code\u003e accounts for AC symbols in the same ways as \u003ccode\u003e\u003ca\u003eatPos\u003c/a\u003e\u003c/code\u003e.\n   FIXME: The AC can be optimized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Positions",
           "name": "replacePos",
           "package": "tamarin-prover-term",
@@ -6840,6 +7381,7 @@
         "index": {
           "description": "replacePos returns the term where the subterm at position is replaced by The standard notation for replacePos is replacePos accounts for AC symbols in the same ways as atPos FIXME The AC can be optimized",
           "hierarchy": "Term Positions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Positions",
           "name": "replacePos",
           "normalized": "Term a-\u003e(Term a,Position)-\u003eTerm a",
@@ -6856,6 +7398,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTerm Equalities, Matching Problems, and Subterm Rules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "Definitions",
           "package": "tamarin-prover-term",
@@ -6865,6 +7408,7 @@
         "index": {
           "description": "Term Equalities Matching Problems and Subterm Rules",
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "Definitions",
           "package": "tamarin-prover-term",
@@ -6879,6 +7423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "Equal",
           "package": "tamarin-prover-term",
@@ -6888,6 +7433,7 @@
         "index": {
           "description": "An equality",
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "Equal",
           "package": "tamarin-prover-term",
@@ -6902,6 +7448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatching problems. Use the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance to compose matching\n problems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "Match",
           "package": "tamarin-prover-term",
@@ -6911,6 +7458,7 @@
         "index": {
           "description": "Matching problems Use the Monoid instance to compose matching problems",
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "Match",
           "package": "tamarin-prover-term",
@@ -6925,6 +7473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rewrite rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "RRule",
           "package": "tamarin-prover-term",
@@ -6934,6 +7483,7 @@
         "index": {
           "description": "rewrite rule",
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "RRule",
           "package": "tamarin-prover-term",
@@ -6948,6 +7498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bunch of delayed (term,pattern) pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "DelayedMatches",
           "package": "tamarin-prover-term",
@@ -6958,6 +7509,7 @@
         "index": {
           "description": "bunch of delayed term pattern pairs",
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "DelayedMatches",
           "normalized": "DelayedMatches[(a,a)]",
@@ -6973,6 +7525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "Equal",
           "package": "tamarin-prover-term",
@@ -6982,6 +7535,7 @@
         },
         "index": {
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "Equal",
           "package": "tamarin-prover-term",
@@ -6996,6 +7550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo matcher exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "NoMatch",
           "package": "tamarin-prover-term",
@@ -7006,6 +7561,7 @@
         "index": {
           "description": "No matcher exists",
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "NoMatch",
           "package": "tamarin-prover-term",
@@ -7019,6 +7575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "eqLHS",
           "package": "tamarin-prover-term",
@@ -7028,6 +7585,7 @@
         },
         "index": {
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "eqLHS",
           "package": "tamarin-prover-term",
@@ -7041,6 +7599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "eqRHS",
           "package": "tamarin-prover-term",
@@ -7050,6 +7609,7 @@
         },
         "index": {
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "eqRHS",
           "package": "tamarin-prover-term",
@@ -7064,6 +7624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the two sides of the equality are equal with respect to their\n \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "evalEqual",
           "package": "tamarin-prover-term",
@@ -7074,6 +7635,7 @@
         "index": {
           "description": "True iff the two sides of the equality are equal with respect to their Eq instance",
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "evalEqual",
           "normalized": "Equal a-\u003eBool",
@@ -7090,6 +7652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten a matching problem to a list of (term,pattern) pairs. If no\n matcher exists, then \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "flattenMatch",
           "package": "tamarin-prover-term",
@@ -7100,6 +7663,7 @@
         "index": {
           "description": "Flatten matching problem to list of term pattern pairs If no matcher exists then Nothing is returned",
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "flattenMatch",
           "normalized": "Match a-\u003eMaybe[(a,a)]",
@@ -7116,6 +7680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure that matching only succeeds if the condition holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "matchOnlyIf",
           "package": "tamarin-prover-term",
@@ -7126,6 +7691,7 @@
         "index": {
           "description": "Ensure that matching only succeeds if the condition holds",
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "matchOnlyIf",
           "normalized": "Bool-\u003eMatch a",
@@ -7142,6 +7708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a term with a pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Definitions",
           "name": "matchWith",
           "package": "tamarin-prover-term",
@@ -7151,6 +7718,7 @@
         "index": {
           "description": "Match term with pattern",
           "hierarchy": "Term Rewriting Definitions",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Definitions",
           "name": "matchWith",
           "normalized": "a-\u003ea-\u003eMatch a",
@@ -7167,6 +7735,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements normalization and normal-form checks of terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Norm",
           "name": "Norm",
           "package": "tamarin-prover-term",
@@ -7176,6 +7745,7 @@
         "index": {
           "description": "This module implements normalization and normal-form checks of terms",
           "hierarchy": "Term Rewriting Norm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Norm",
           "name": "Norm",
           "package": "tamarin-prover-term",
@@ -7190,6 +7760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all subterms that may be not in normal form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Norm",
           "name": "maybeNotNfSubterms",
           "package": "tamarin-prover-term",
@@ -7200,6 +7771,7 @@
         "index": {
           "description": "Returns all subterms that may be not in normal form",
           "hierarchy": "Term Rewriting Norm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Norm",
           "name": "maybeNotNfSubterms",
           "normalized": "MaudeSig-\u003eLNTerm-\u003e[LNTerm]",
@@ -7216,6 +7788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enf' t\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if the term \u003ccode\u003et\u003c/code\u003e is in normal form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Norm",
           "name": "nf'",
           "package": "tamarin-prover-term",
@@ -7226,6 +7799,7 @@
         "index": {
           "description": "nf returns True if the term is in normal form",
           "hierarchy": "Term Rewriting Norm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Norm",
           "name": "nf'",
           "normalized": "LNTerm-\u003eWithMaude Bool",
@@ -7241,6 +7815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enfSubst s\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if the substitution \u003ccode\u003es\u003c/code\u003e is in normal form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Norm",
           "name": "nfSubstVFresh'",
           "package": "tamarin-prover-term",
@@ -7251,6 +7826,7 @@
         "index": {
           "description": "nfSubst returns True if the substitution is in normal form",
           "hierarchy": "Term Rewriting Norm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Norm",
           "name": "nfSubstVFresh'",
           "normalized": "LNSubstVFresh-\u003eWithMaude Bool",
@@ -7267,6 +7843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enorm' t\u003c/code\u003e normalizes the term \u003ccode\u003et\u003c/code\u003e using Maude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Norm",
           "name": "norm'",
           "package": "tamarin-prover-term",
@@ -7277,6 +7854,7 @@
         "index": {
           "description": "norm normalizes the term using Maude",
           "hierarchy": "Term Rewriting Norm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Norm",
           "name": "norm'",
           "normalized": "LNTerm-\u003eWithMaude LNTerm",
@@ -7292,6 +7870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enormSubst s\u003c/code\u003e normalizes the substitution \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Rewriting.Norm",
           "name": "normSubstVFresh'",
           "package": "tamarin-prover-term",
@@ -7302,6 +7881,7 @@
         "index": {
           "description": "normSubst normalizes the substitution",
           "hierarchy": "Term Rewriting Norm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Rewriting.Norm",
           "name": "normSubstVFresh'",
           "normalized": "LNSubstVFresh-\u003eWithMaude LNSubstVFresh",
@@ -7318,6 +7898,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStandard and fresh substitutions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "Substitution",
           "package": "tamarin-prover-term",
@@ -7327,6 +7908,7 @@
         "index": {
           "description": "Standard and fresh substitutions",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "Substitution",
           "package": "tamarin-prover-term",
@@ -7341,6 +7923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that support the application of \u003ccode\u003e\u003ca\u003eLSubst\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "Apply",
           "package": "tamarin-prover-term",
@@ -7350,6 +7933,7 @@
         "index": {
           "description": "Types that support the application of LSubst",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "Apply",
           "package": "tamarin-prover-term",
@@ -7364,6 +7948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA substitution with names and logical variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "LNSubst",
           "package": "tamarin-prover-term",
@@ -7373,6 +7958,7 @@
         "index": {
           "description": "substitution with names and logical variables",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "LNSubst",
           "package": "tamarin-prover-term",
@@ -7387,6 +7973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFresh substitution with logical variables and names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "LNSubstVFresh",
           "package": "tamarin-prover-term",
@@ -7396,6 +7983,7 @@
         "index": {
           "description": "Fresh substitution with logical variables and names",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "LNSubstVFresh",
           "package": "tamarin-prover-term",
@@ -7410,6 +7998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA substitution for logical variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "LSubst",
           "package": "tamarin-prover-term",
@@ -7419,6 +8008,7 @@
         "index": {
           "description": "substitution for logical variables",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "LSubst",
           "package": "tamarin-prover-term",
@@ -7433,6 +8023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFresh substitution with logical variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "LSubstVFresh",
           "package": "tamarin-prover-term",
@@ -7442,6 +8033,7 @@
         "index": {
           "description": "Fresh substitution with logical variables",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "LSubstVFresh",
           "package": "tamarin-prover-term",
@@ -7456,6 +8048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe use the data type \u003ccode\u003eSubst c v\u003c/code\u003e of substitutions. \u003ccode\u003ec\u003c/code\u003e is the type of constants\n   and \u003ccode\u003ev\u003c/code\u003e the type of variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "Subst",
           "package": "tamarin-prover-term",
@@ -7465,6 +8058,7 @@
         "index": {
           "description": "We use the data type Subst of substitutions is the type of constants and the type of variables",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "Subst",
           "package": "tamarin-prover-term",
@@ -7479,6 +8073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe use the data type \u003ccode\u003eSubstVFresh c v\u003c/code\u003e of substitutions.\n   \u003ccode\u003ec\u003c/code\u003e denotes the type of constants and \u003ccode\u003ev\u003c/code\u003e the type of variables.\n   Fresh substitutions cannot be applied directly, they have to be converted\n   to free substitutions in a certain context (MonadFresh).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "SubstVFresh",
           "package": "tamarin-prover-term",
@@ -7488,6 +8083,7 @@
         "index": {
           "description": "We use the data type SubstVFresh of substitutions denotes the type of constants and the type of variables Fresh substitutions cannot be applied directly they have to be converted to free substitutions in certain context MonadFresh",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "SubstVFresh",
           "package": "tamarin-prover-term",
@@ -7501,6 +8097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "Subst",
           "package": "tamarin-prover-term",
@@ -7510,6 +8107,7 @@
         },
         "index": {
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "Subst",
           "package": "tamarin-prover-term",
@@ -7523,6 +8121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "SubstVFresh",
           "package": "tamarin-prover-term",
@@ -7532,6 +8131,7 @@
         },
         "index": {
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "SubstVFresh",
           "package": "tamarin-prover-term",
@@ -7545,6 +8145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "apply",
           "package": "tamarin-prover-term",
@@ -7554,6 +8155,7 @@
         },
         "index": {
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "apply",
           "normalized": "LNSubst-\u003ea-\u003ea",
@@ -7569,6 +8171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eapplyLit subst l\u003c/code\u003e applies the substitution \u003ccode\u003esubst\u003c/code\u003e to the literal \u003ccode\u003el\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "applyLit",
           "package": "tamarin-prover-term",
@@ -7579,6 +8182,7 @@
         "index": {
           "description": "applyLit subst applies the substitution subst to the literal",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "applyLit",
           "normalized": "Subst a b-\u003eLit a b-\u003eVTerm a b",
@@ -7595,6 +8199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eapplySubst subst subst'\u003c/code\u003e applies the substitution \u003ccode\u003esubst\u003c/code\u003e to the range of\n   the substitution \u003ccode\u003esubst'\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "applySubst",
           "package": "tamarin-prover-term",
@@ -7605,6 +8210,7 @@
         "index": {
           "description": "applySubst subst subst applies the substitution subst to the range of the substitution subst",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "applySubst",
           "normalized": "Subst a b-\u003eSubst a b-\u003eSubst a b",
@@ -7621,6 +8227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eapplyVTerm subst t\u003c/code\u003e applies the substitution \u003ccode\u003esubst\u003c/code\u003e to the term \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "applyVTerm",
           "package": "tamarin-prover-term",
@@ -7631,6 +8238,7 @@
         "index": {
           "description": "applyVTerm subst applies the substitution subst to the term",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "applyVTerm",
           "normalized": "Subst a b-\u003eVTerm a b-\u003eVTerm a b",
@@ -7647,6 +8255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecompose s1 s2\u003c/code\u003e composes the substitutions s1 and s2. The result is\n   \u003ccode\u003es1.s2\u003c/code\u003e, i.e., it has the same effect as \u003ccode\u003e(t s2) s1 = s1(s2(t))\u003c/code\u003e\n   when applied to a term \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "compose",
           "package": "tamarin-prover-term",
@@ -7657,6 +8266,7 @@
         "index": {
           "description": "compose s1 s2 composes the substitutions s1 and s2 The result is s1.s2 i.e it has the same effect as s2 s1 s1 s2 when applied to term",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "compose",
           "normalized": "Subst a b-\u003eSubst a b-\u003eSubst a b",
@@ -7672,6 +8282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecomposeVFresh s1 s2\u003c/code\u003e composes the fresh substitution s1 and the free substitution s2.\n   The result is the fresh substitution s = s1.s2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "composeVFresh",
           "package": "tamarin-prover-term",
@@ -7682,6 +8293,7 @@
         "index": {
           "description": "composeVFresh s1 s2 composes the fresh substitution s1 and the free substitution s2 The result is the fresh substitution s1.s2",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "composeVFresh",
           "normalized": "LSubstVFresh a-\u003eLSubst a-\u003eLSubstVFresh a",
@@ -7698,6 +8310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edom subst\u003c/code\u003e returns the domain of the substitution \u003ccode\u003esubsts\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "dom",
           "package": "tamarin-prover-term",
@@ -7708,6 +8321,7 @@
         "index": {
           "description": "dom subst returns the domain of the substitution substs",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "dom",
           "normalized": "Subst a b-\u003e[b]",
@@ -7723,6 +8337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edomVFresh subst\u003c/code\u003e returns the domain of the substitution \u003ccode\u003esubsts\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "domVFresh",
           "package": "tamarin-prover-term",
@@ -7733,6 +8348,7 @@
         "index": {
           "description": "domVFresh subst returns the domain of the substitution substs",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "domVFresh",
           "normalized": "SubstVFresh a b-\u003e[b]",
@@ -7749,6 +8365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eemptySubVFree\u003c/code\u003e is the substitution with empty domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "emptySubst",
           "package": "tamarin-prover-term",
@@ -7759,6 +8376,7 @@
         "index": {
           "description": "emptySubVFree is the substitution with empty domain",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "emptySubst",
           "package": "tamarin-prover-term",
@@ -7773,6 +8391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eemptySubstVFresh\u003c/code\u003e is the fresh substitution with empty domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "emptySubstVFresh",
           "package": "tamarin-prover-term",
@@ -7783,6 +8402,7 @@
         "index": {
           "description": "emptySubstVFresh is the fresh substitution with empty domain",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "emptySubstVFresh",
           "package": "tamarin-prover-term",
@@ -7797,6 +8417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eextendWithRenaming vs s\u003c/code\u003e extends the substitution \u003ccode\u003es\u003c/code\u003e with renamings (with\n   fresh variables) for the variables in \u003ccode\u003evs\u003c/code\u003e that are not already in \u003ccode\u003edom s\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "extendWithRenaming",
           "package": "tamarin-prover-term",
@@ -7807,6 +8428,7 @@
         "index": {
           "description": "extendWithRenaming vs extends the substitution with renamings with fresh variables for the variables in vs that are not already in dom",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "extendWithRenaming",
           "normalized": "[LVar]-\u003eSubstVFresh a LVar-\u003eSubstVFresh a LVar",
@@ -7823,6 +8445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efreeToFreshRaw s\u003c/code\u003e considers all variables in the range of \u003ccode\u003es\u003c/code\u003e as fresh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "freeToFreshRaw",
           "package": "tamarin-prover-term",
@@ -7833,6 +8456,7 @@
         "index": {
           "description": "freeToFreshRaw considers all variables in the range of as fresh",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "freeToFreshRaw",
           "normalized": "Subst a LVar-\u003eSubstVFresh a LVar",
@@ -7849,6 +8473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efreshToFree s\u003c/code\u003e converts the bound variables in \u003ccode\u003es\u003c/code\u003e to free variables\n using fresh variable names. We try to preserve variables names if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "freshToFree",
           "package": "tamarin-prover-term",
@@ -7859,6 +8484,7 @@
         "index": {
           "description": "freshToFree converts the bound variables in to free variables using fresh variable names We try to preserve variables names if possible",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "freshToFree",
           "normalized": "SubstVFresh a LVar-\u003eb(Subst a LVar)",
@@ -7875,6 +8501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efreshToFreeAvoiding s t\u003c/code\u003e converts all fresh variables in the range of\n   \u003ccode\u003es\u003c/code\u003e to free variables avoiding free variables in \u003ccode\u003et\u003c/code\u003e. This function tries\n   to reuse variable names from the domain of the substitution if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "freshToFreeAvoiding",
           "package": "tamarin-prover-term",
@@ -7885,6 +8512,7 @@
         "index": {
           "description": "freshToFreeAvoiding converts all fresh variables in the range of to free variables avoiding free variables in This function tries to reuse variable names from the domain of the substitution if possible",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "freshToFreeAvoiding",
           "normalized": "SubstVFresh a LVar-\u003eb-\u003eSubst a LVar",
@@ -7901,6 +8529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efreshToFreeAvoidingFast s t\u003c/code\u003e converts all fresh variables in the range of\n   \u003ccode\u003es\u003c/code\u003e to free variables avoiding free variables in \u003ccode\u003et\u003c/code\u003e. This function does\n   not try to reuse variable names from the domain of the substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "freshToFreeAvoidingFast",
           "package": "tamarin-prover-term",
@@ -7911,6 +8540,7 @@
         "index": {
           "description": "freshToFreeAvoidingFast converts all fresh variables in the range of to free variables avoiding free variables in This function does not try to reuse variable names from the domain of the substitution",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "freshToFreeAvoidingFast",
           "normalized": "LSubstVFresh a-\u003eb-\u003eLSubst a",
@@ -7927,6 +8557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the image of \u003ccode\u003ei\u003c/code\u003e under \u003ccode\u003esubst\u003c/code\u003e if \u003ccode\u003ei\u003c/code\u003e is in the domain of \u003ccode\u003esubst\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "imageOf",
           "package": "tamarin-prover-term",
@@ -7937,6 +8568,7 @@
         "index": {
           "description": "Returns the image of under subst if is in the domain of subst",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "imageOf",
           "normalized": "Subst a b-\u003eb-\u003eMaybe(VTerm a b)",
@@ -7953,6 +8585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the image of \u003ccode\u003ei\u003c/code\u003e under \u003ccode\u003esubst\u003c/code\u003e if \u003ccode\u003ei\u003c/code\u003e is in the domain of \u003ccode\u003esubst\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "imageOfVFresh",
           "package": "tamarin-prover-term",
@@ -7963,6 +8596,7 @@
         "index": {
           "description": "Returns the image of under subst if is in the domain of subst",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "imageOfVFresh",
           "normalized": "SubstVFresh a b-\u003eb-\u003eMaybe(VTerm a b)",
@@ -7979,6 +8613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e if the substitution is a renaming.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "isRenaming",
           "package": "tamarin-prover-term",
@@ -7989,6 +8624,7 @@
         "index": {
           "description": "Returns True if the substitution is renaming",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "isRenaming",
           "normalized": "LSubstVFresh a-\u003eBool",
@@ -8005,6 +8641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emapRange f subst\u003c/code\u003e maps the function \u003ccode\u003ef\u003c/code\u003e over the range of the substitution \u003ccode\u003esubst\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "mapRange",
           "package": "tamarin-prover-term",
@@ -8015,6 +8652,7 @@
         "index": {
           "description": "mapRange subst maps the function over the range of the substitution subst",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "mapRange",
           "normalized": "(VTerm a b-\u003eVTerm a b)-\u003eSubst a b-\u003eSubst a b",
@@ -8031,6 +8669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emapRangeVFresh f subst\u003c/code\u003e maps the function \u003ccode\u003ef\u003c/code\u003e over the range of the substitution \u003ccode\u003esubst\u003c/code\u003e.\n   Note that all introduced variables are considered fresh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "mapRangeVFresh",
           "package": "tamarin-prover-term",
@@ -8041,6 +8680,7 @@
         "index": {
           "description": "mapRangeVFresh subst maps the function over the range of the substitution subst Note that all introduced variables are considered fresh",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "mapRangeVFresh",
           "normalized": "(VTerm a b-\u003eVTerm a b)-\u003eSubstVFresh a b-\u003eSubstVFresh a b",
@@ -8057,6 +8697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a disjunction of substitutions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "prettyDisjLNSubstsVFresh",
           "package": "tamarin-prover-term",
@@ -8067,6 +8708,7 @@
         "index": {
           "description": "Pretty print disjunction of substitutions",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "prettyDisjLNSubstsVFresh",
           "normalized": "Disj LNSubstVFresh-\u003ea",
@@ -8083,6 +8725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a substitution with logical variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "prettyLNSubst",
           "package": "tamarin-prover-term",
@@ -8093,6 +8736,7 @@
         "index": {
           "description": "Pretty print substitution with logical variables",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "prettyLNSubst",
           "normalized": "LSubst a-\u003eb",
@@ -8109,6 +8753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a substitution with logical variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "prettyLSubstVFresh",
           "package": "tamarin-prover-term",
@@ -8119,6 +8764,7 @@
         "index": {
           "description": "Pretty print substitution with logical variables",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "prettyLSubstVFresh",
           "normalized": "LSubstVFresh a-\u003eb",
@@ -8135,6 +8781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "prettySubst",
           "package": "tamarin-prover-term",
@@ -8145,6 +8792,7 @@
         "index": {
           "description": "Pretty print substitution",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "prettySubst",
           "normalized": "(a-\u003eb)-\u003e(Lit c a-\u003eb)-\u003eSubst c a-\u003e[b]",
@@ -8161,6 +8809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "prettySubstVFresh",
           "package": "tamarin-prover-term",
@@ -8171,6 +8820,7 @@
         "index": {
           "description": "Pretty print substitution",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "prettySubstVFresh",
           "normalized": "(a-\u003eb)-\u003e(Lit c a-\u003eb)-\u003eSubstVFresh c a-\u003e[b]",
@@ -8187,6 +8837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erange subst\u003c/code\u003e returns the range of the substitution \u003ccode\u003esubsts\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "range",
           "package": "tamarin-prover-term",
@@ -8197,6 +8848,7 @@
         "index": {
           "description": "range subst returns the range of the substitution substs",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "range",
           "normalized": "Subst a b-\u003e[VTerm a b]",
@@ -8212,6 +8864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erangeVFresh subst\u003c/code\u003e returns the range of the substitution \u003ccode\u003esubsts\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "rangeVFresh",
           "package": "tamarin-prover-term",
@@ -8222,6 +8875,7 @@
         "index": {
           "description": "rangeVFresh subst returns the range of the substitution substs",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "rangeVFresh",
           "normalized": "SubstVFresh a b-\u003e[VTerm a b]",
@@ -8238,6 +8892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eremoveRenamings s\u003c/code\u003e removes all renamings (see \u003ccode\u003eisRenamedVar\u003c/code\u003e) from \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "removeRenamings",
           "package": "tamarin-prover-term",
@@ -8248,6 +8903,7 @@
         "index": {
           "description": "removeRenamings removes all renamings see isRenamedVar from",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "removeRenamings",
           "normalized": "LSubstVFresh a-\u003eLSubstVFresh a",
@@ -8264,6 +8920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erenameFresh s\u003c/code\u003e  renames the fresh variables in \u003ccode\u003es\u003c/code\u003e using fresh variables.\n   This function can be used to prevent overshadowing which might\n   make output hard to read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "renameFresh",
           "package": "tamarin-prover-term",
@@ -8274,6 +8931,7 @@
         "index": {
           "description": "renameFresh renames the fresh variables in using fresh variables This function can be used to prevent overshadowing which might make output hard to read",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "renameFresh",
           "normalized": "SubstVFresh a LVar-\u003eb(SubstVFresh a LVar)",
@@ -8290,6 +8948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erenameFreshAvoiding s t\u003c/code\u003e renames the fresh variables in the range of \u003ccode\u003es\u003c/code\u003e away from\n   variables that are free in \u003ccode\u003et\u003c/code\u003e. This is an internal function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "renameFreshAvoiding",
           "package": "tamarin-prover-term",
@@ -8300,6 +8959,7 @@
         "index": {
           "description": "renameFreshAvoiding renames the fresh variables in the range of away from variables that are free in This is an internal function",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "renameFreshAvoiding",
           "normalized": "LSubstVFresh a-\u003eb-\u003eSubstVFresh a LVar",
@@ -8316,6 +8976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erestrict vars subst\u003c/code\u003e restricts the domain of the substitution \u003ccode\u003esubst\u003c/code\u003e to \u003ccode\u003evars\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "restrict",
           "package": "tamarin-prover-term",
@@ -8326,6 +8987,7 @@
         "index": {
           "description": "restrict vars subst restricts the domain of the substitution subst to vars",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "restrict",
           "normalized": "[a]-\u003eSubst b a-\u003eSubst b a",
@@ -8341,6 +9003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erestrictVFresh vars subst\u003c/code\u003e restricts the domain of the substitution \u003ccode\u003esubst\u003c/code\u003e to \u003ccode\u003evars\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "restrictVFresh",
           "package": "tamarin-prover-term",
@@ -8351,6 +9014,7 @@
         "index": {
           "description": "restrictVFresh vars subst restricts the domain of the substitution subst to vars",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "restrictVFresh",
           "normalized": "[a]-\u003eSubstVFresh b a-\u003eSubstVFresh b a",
@@ -8366,6 +9030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "sMap",
           "package": "tamarin-prover-term",
@@ -8375,6 +9040,7 @@
         },
         "index": {
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "sMap",
           "package": "tamarin-prover-term",
@@ -8389,6 +9055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list to a substitution. The \u003ccode\u003ex/x\u003c/code\u003e mappings are removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "substFromList",
           "package": "tamarin-prover-term",
@@ -8399,6 +9066,7 @@
         "index": {
           "description": "Convert list to substitution The mappings are removed",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "substFromList",
           "normalized": "[(a,VTerm b a)]-\u003eSubst b a",
@@ -8415,6 +9083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of mappings to a fresh substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "substFromListVFresh",
           "package": "tamarin-prover-term",
@@ -8425,6 +9094,7 @@
         "index": {
           "description": "Convert list of mappings to fresh substitution",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "substFromListVFresh",
           "normalized": "[(a,VTerm b a)]-\u003eSubstVFresh b a",
@@ -8441,6 +9111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a map to a substitution. The \u003ccode\u003ex/x\u003c/code\u003e mappings are removed.\n FIXME: implement directly, use substFromMap for substFromList.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "substFromMap",
           "package": "tamarin-prover-term",
@@ -8451,6 +9122,7 @@
         "index": {
           "description": "Convert map to substitution The mappings are removed FIXME implement directly use substFromMap for substFromList",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "substFromMap",
           "normalized": "Map a(VTerm b a)-\u003eSubst b a",
@@ -8467,6 +9139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert substitution to list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "substToList",
           "package": "tamarin-prover-term",
@@ -8477,6 +9150,7 @@
         "index": {
           "description": "Convert substitution to list",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "substToList",
           "normalized": "Subst a b-\u003e[(b,VTerm a b)]",
@@ -8493,6 +9167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esubstToPairOn vs sigma\u003c/code\u003e converts the list of variables \u003ccode\u003e[x1,..,xk]\u003c/code\u003e to\n   \u003ccode\u003e[sigma(x1),..,sigma(xk)]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "substToListOn",
           "package": "tamarin-prover-term",
@@ -8503,6 +9178,7 @@
         "index": {
           "description": "substToPairOn vs sigma converts the list of variables x1 xk to sigma x1 sigma xk",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "substToListOn",
           "normalized": "[a]-\u003eSubst b a-\u003e[VTerm b a]",
@@ -8519,6 +9195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert substitution to list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "substToListVFresh",
           "package": "tamarin-prover-term",
@@ -8529,6 +9206,7 @@
         "index": {
           "description": "Convert substitution to list",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "substToListVFresh",
           "normalized": "SubstVFresh a b-\u003e[(b,VTerm a b)]",
@@ -8544,6 +9222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "svMap",
           "package": "tamarin-prover-term",
@@ -8553,6 +9232,7 @@
         },
         "index": {
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "svMap",
           "package": "tamarin-prover-term",
@@ -8567,6 +9247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evarsRange subst\u003c/code\u003e returns all variables in the range of the substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "varsRange",
           "package": "tamarin-prover-term",
@@ -8577,6 +9258,7 @@
         "index": {
           "description": "varsRange subst returns all variables in the range of the substitution",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "varsRange",
           "normalized": "Subst a b-\u003e[b]",
@@ -8593,6 +9275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evarsRangeVFresh subst\u003c/code\u003e returns all variables in the range of the substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Substitution",
           "name": "varsRangeVFresh",
           "package": "tamarin-prover-term",
@@ -8603,6 +9286,7 @@
         "index": {
           "description": "varsRangeVFresh subst returns all variables in the range of the substitution",
           "hierarchy": "Term Substitution",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Substitution",
           "name": "varsRangeVFresh",
           "normalized": "SubstVFresh a b-\u003e[b]",
@@ -8619,6 +9303,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSubsumption of terms and substitutions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Subsumption",
           "name": "Subsumption",
           "package": "tamarin-prover-term",
@@ -8628,6 +9313,7 @@
         "index": {
           "description": "Subsumption of terms and substitutions",
           "hierarchy": "Term Subsumption",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Subsumption",
           "name": "Subsumption",
           "package": "tamarin-prover-term",
@@ -8642,6 +9328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a substitution that is equivalent modulo renaming to the given substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Subsumption",
           "name": "canonizeSubst",
           "package": "tamarin-prover-term",
@@ -8652,6 +9339,7 @@
         "index": {
           "description": "Returns substitution that is equivalent modulo renaming to the given substitution",
           "hierarchy": "Term Subsumption",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Subsumption",
           "name": "canonizeSubst",
           "normalized": "LNSubstVFresh-\u003eLNSubstVFresh",
@@ -8668,6 +9356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare terms \u003ccode\u003et1\u003c/code\u003e and \u003ccode\u003et2\u003c/code\u003e with respect to the subsumption order modulo AC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Subsumption",
           "name": "compareTermSubs",
           "package": "tamarin-prover-term",
@@ -8678,6 +9367,7 @@
         "index": {
           "description": "Compare terms t1 and t2 with respect to the subsumption order modulo AC",
           "hierarchy": "Term Subsumption",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Subsumption",
           "name": "compareTermSubs",
           "normalized": "LNTerm-\u003eLNTerm-\u003eWithMaude(Maybe Ordering)",
@@ -8694,6 +9384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if \u003ccode\u003es1\u003c/code\u003e and \u003ccode\u003es2\u003c/code\u003e are equal with respect to the subsumption order modulo AC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Subsumption",
           "name": "eqTermSubs",
           "package": "tamarin-prover-term",
@@ -8704,6 +9395,7 @@
         "index": {
           "description": "Returns True if s1 and s2 are equal with respect to the subsumption order modulo AC",
           "hierarchy": "Term Subsumption",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Subsumption",
           "name": "eqTermSubs",
           "normalized": "LNTerm-\u003eLNTerm-\u003eWithMaude Bool",
@@ -8719,6 +9411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Subsumption",
           "name": "factorSubstVia",
           "package": "tamarin-prover-term",
@@ -8728,6 +9421,7 @@
         },
         "index": {
           "hierarchy": "Term Subsumption",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Subsumption",
           "name": "factorSubstVia",
           "normalized": "[LVar]-\u003eLNSubst-\u003eLNSubst-\u003eWithMaude[LNSubst]",
@@ -8744,6 +9438,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSubterm rewriting rules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.SubtermRule",
           "name": "SubtermRule",
           "package": "tamarin-prover-term",
@@ -8753,6 +9448,7 @@
         "index": {
           "description": "Subterm rewriting rules",
           "hierarchy": "Term SubtermRule",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.SubtermRule",
           "name": "SubtermRule",
           "package": "tamarin-prover-term",
@@ -8767,6 +9463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe righthand-side of a subterm rewrite rule.\n   Does not enforce that the term for RhsGround must be ground.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.SubtermRule",
           "name": "StRhs",
           "package": "tamarin-prover-term",
@@ -8776,6 +9473,7 @@
         "index": {
           "description": "The righthand-side of subterm rewrite rule Does not enforce that the term for RhsGround must be ground",
           "hierarchy": "Term SubtermRule",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.SubtermRule",
           "name": "StRhs",
           "package": "tamarin-prover-term",
@@ -8790,6 +9488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA subterm rewrite rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.SubtermRule",
           "name": "StRule",
           "package": "tamarin-prover-term",
@@ -8799,6 +9498,7 @@
         "index": {
           "description": "subterm rewrite rule",
           "hierarchy": "Term SubtermRule",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.SubtermRule",
           "name": "StRule",
           "package": "tamarin-prover-term",
@@ -8812,6 +9512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.SubtermRule",
           "name": "RhsGround",
           "package": "tamarin-prover-term",
@@ -8821,6 +9522,7 @@
         },
         "index": {
           "hierarchy": "Term SubtermRule",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.SubtermRule",
           "name": "RhsGround",
           "package": "tamarin-prover-term",
@@ -8834,6 +9536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.SubtermRule",
           "name": "RhsPosition",
           "package": "tamarin-prover-term",
@@ -8843,6 +9546,7 @@
         },
         "index": {
           "hierarchy": "Term SubtermRule",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.SubtermRule",
           "name": "RhsPosition",
           "package": "tamarin-prover-term",
@@ -8856,6 +9560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.SubtermRule",
           "name": "StRule",
           "package": "tamarin-prover-term",
@@ -8865,6 +9570,7 @@
         },
         "index": {
           "hierarchy": "Term SubtermRule",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.SubtermRule",
           "name": "StRule",
           "package": "tamarin-prover-term",
@@ -8879,6 +9585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print an \u003ccode\u003e\u003ca\u003eStRule\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.SubtermRule",
           "name": "prettyStRule",
           "package": "tamarin-prover-term",
@@ -8889,6 +9596,7 @@
         "index": {
           "description": "Pretty print an StRule",
           "hierarchy": "Term SubtermRule",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.SubtermRule",
           "name": "prettyStRule",
           "normalized": "StRule-\u003ea",
@@ -8905,6 +9613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a rewrite rule to a subterm rewrite rule if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.SubtermRule",
           "name": "rRuleToStRule",
           "package": "tamarin-prover-term",
@@ -8915,6 +9624,7 @@
         "index": {
           "description": "Convert rewrite rule to subterm rewrite rule if possible",
           "hierarchy": "Term SubtermRule",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.SubtermRule",
           "name": "rRuleToStRule",
           "normalized": "RRule LNTerm-\u003eMaybe StRule",
@@ -8931,6 +9641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a subterm rewrite rule to a rewrite rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.SubtermRule",
           "name": "stRuleToRRule",
           "package": "tamarin-prover-term",
@@ -8941,6 +9652,7 @@
         "index": {
           "description": "Convert subterm rewrite rule to rewrite rule",
           "hierarchy": "Term SubtermRule",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.SubtermRule",
           "name": "stRuleToRRule",
           "normalized": "StRule-\u003eRRule LNTerm",
@@ -8957,6 +9669,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAC unification based on maude and free unification.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "Unification",
           "package": "tamarin-prover-term",
@@ -8966,6 +9679,7 @@
         "index": {
           "description": "AC unification based on maude and free unification",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "Unification",
           "package": "tamarin-prover-term",
@@ -8980,6 +9694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle to a Maude process. It requires the Maude path for Signatures to\n be serializable. If we also add the string for the Maude config file, then\n it would even be serializable on its own.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "MaudeHandle",
           "package": "tamarin-prover-term",
@@ -8989,6 +9704,7 @@
         "index": {
           "description": "handle to Maude process It requires the Maude path for Signatures to be serializable If we also add the string for the Maude config file then it would even be serializable on its own",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "MaudeHandle",
           "package": "tamarin-prover-term",
@@ -9003,6 +9719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe required information to define a \u003ccode\u003eMaude functional module\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "MaudeSig",
           "package": "tamarin-prover-term",
@@ -9012,6 +9729,7 @@
         "index": {
           "description": "The required information to define Maude functional module",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "MaudeSig",
           "package": "tamarin-prover-term",
@@ -9026,6 +9744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues that depend on a \u003ccode\u003e\u003ca\u003eMaudeHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "WithMaude",
           "package": "tamarin-prover-term",
@@ -9035,6 +9754,7 @@
         "index": {
           "description": "Values that depend on MaudeHandle",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "WithMaude",
           "package": "tamarin-prover-term",
@@ -9049,6 +9769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch an \u003ccode\u003e\u003ca\u003eLVar\u003c/a\u003e\u003c/code\u003e term to an \u003ccode\u003e\u003ca\u003eLVar\u003c/a\u003e\u003c/code\u003e pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "matchLVar",
           "package": "tamarin-prover-term",
@@ -9059,6 +9780,7 @@
         "index": {
           "description": "Match an LVar term to an LVar pattern",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "matchLVar",
           "normalized": "LVar-\u003eLVar-\u003eMatch(LTerm a)",
@@ -9074,6 +9796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "mhFilePath",
           "package": "tamarin-prover-term",
@@ -9083,6 +9806,7 @@
         },
         "index": {
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "mhFilePath",
           "normalized": "MaudeHandle-\u003eFilePath",
@@ -9098,6 +9822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "mhMaudeSig",
           "package": "tamarin-prover-term",
@@ -9107,6 +9832,7 @@
         },
         "index": {
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "mhMaudeSig",
           "normalized": "MaudeHandle-\u003eMaudeSig",
@@ -9123,6 +9849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esolveMatchLNTerm eqs\u003c/code\u003e returns a complete set of matchers for \u003ccode\u003eeqs\u003c/code\u003e\n modulo AC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "solveMatchLNTerm",
           "package": "tamarin-prover-term",
@@ -9133,6 +9860,7 @@
         "index": {
           "description": "solveMatchLNTerm eqs returns complete set of matchers for eqs modulo AC",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "solveMatchLNTerm",
           "normalized": "Match LNTerm-\u003eWithMaude[Subst Name LVar]",
@@ -9149,6 +9877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esolveMatchLNTerm sortOf eqs\u003c/code\u003e returns a complete set of matchers for\n \u003ccode\u003eeqs\u003c/code\u003e modulo AC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "solveMatchLTerm",
           "package": "tamarin-prover-term",
@@ -9159,6 +9888,7 @@
         "index": {
           "description": "solveMatchLNTerm sortOf eqs returns complete set of matchers for eqs modulo AC",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "solveMatchLTerm",
           "normalized": "(a-\u003eLSort)-\u003eMatch(LTerm a)-\u003eWithMaude[Subst a LVar]",
@@ -9175,6 +9905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the terms are unifiable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "unifiableLNTerms",
           "package": "tamarin-prover-term",
@@ -9185,6 +9916,7 @@
         "index": {
           "description": "True iff the terms are unifiable",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "unifiableLNTerms",
           "normalized": "LNTerm-\u003eLNTerm-\u003eWithMaude Bool",
@@ -9201,6 +9933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunifyLNTerm eqs\u003c/code\u003e returns a complete set of unifiers for \u003ccode\u003eeqs\u003c/code\u003e modulo AC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "unifyLNTerm",
           "package": "tamarin-prover-term",
@@ -9211,6 +9944,7 @@
         "index": {
           "description": "unifyLNTerm eqs returns complete set of unifiers for eqs modulo AC",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "unifyLNTerm",
           "normalized": "[Equal LNTerm]-\u003eWithMaude[SubstVFresh Name LVar]",
@@ -9227,6 +9961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunifyLTerm sortOf eqs\u003c/code\u003e returns a complete set of unifiers for \u003ccode\u003eeqs\u003c/code\u003e modulo AC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "unifyLNTermFactored",
           "package": "tamarin-prover-term",
@@ -9237,6 +9972,7 @@
         "index": {
           "description": "unifyLTerm sortOf eqs returns complete set of unifiers for eqs modulo AC",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "unifyLNTermFactored",
           "normalized": "[Equal LNTerm]-\u003eWithMaude(LNSubst,[SubstVFresh Name LVar])",
@@ -9253,6 +9989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunifyLNTerm eqs\u003c/code\u003e returns a complete set of unifiers for \u003ccode\u003eeqs\u003c/code\u003e modulo AC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "unifyLTerm",
           "package": "tamarin-prover-term",
@@ -9263,6 +10000,7 @@
         "index": {
           "description": "unifyLNTerm eqs returns complete set of unifiers for eqs modulo AC",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "unifyLTerm",
           "normalized": "(a-\u003eLSort)-\u003e[Equal(LTerm a)]-\u003eWithMaude[SubstVFresh a LVar]",
@@ -9279,6 +10017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunifyLTerm sortOf eqs\u003c/code\u003e returns a complete set of unifiers for \u003ccode\u003eeqs\u003c/code\u003e modulo AC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.Unification",
           "name": "unifyLTermFactored",
           "package": "tamarin-prover-term",
@@ -9289,6 +10028,7 @@
         "index": {
           "description": "unifyLTerm sortOf eqs returns complete set of unifiers for eqs modulo AC",
           "hierarchy": "Term Unification",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.Unification",
           "name": "unifyLTermFactored",
           "normalized": "(a-\u003eLSort)-\u003e[Equal(LTerm a)]-\u003eWithMaude(LSubst a,[SubstVFresh a LVar])",
@@ -9305,6 +10045,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnit tests for the functions dealing with term algebra and related notions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "UnitTests",
           "package": "tamarin-prover-term",
@@ -9314,6 +10055,7 @@
         "index": {
           "description": "Unit tests for the functions dealing with term algebra and related notions",
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "UnitTests",
           "package": "tamarin-prover-term",
@@ -9328,6 +10070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaude signatures with all builtin symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "allMaudeSig",
           "package": "tamarin-prover-term",
@@ -9338,6 +10081,7 @@
         "index": {
           "description": "Maude signatures with all builtin symbols",
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "allMaudeSig",
           "package": "tamarin-prover-term",
@@ -9351,6 +10095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "bigTerm",
           "package": "tamarin-prover-term",
@@ -9360,6 +10105,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "bigTerm",
           "package": "tamarin-prover-term",
@@ -9373,6 +10119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "expo",
           "package": "tamarin-prover-term",
@@ -9382,6 +10129,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "expo",
           "normalized": "(Term a,Term a)-\u003eTerm a",
@@ -9396,6 +10144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "inv",
           "package": "tamarin-prover-term",
@@ -9405,6 +10154,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "inv",
           "normalized": "Term a-\u003eTerm a",
@@ -9419,6 +10169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "mult",
           "package": "tamarin-prover-term",
@@ -9428,6 +10179,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "mult",
           "normalized": "[Term a]-\u003eTerm a",
@@ -9442,6 +10194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "normBigTerm",
           "package": "tamarin-prover-term",
@@ -9451,6 +10204,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "normBigTerm",
           "package": "tamarin-prover-term",
@@ -9464,6 +10218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "one",
           "package": "tamarin-prover-term",
@@ -9473,6 +10228,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "one",
           "package": "tamarin-prover-term",
@@ -9485,6 +10241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "pair",
           "package": "tamarin-prover-term",
@@ -9494,6 +10251,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "pair",
           "normalized": "(Term a,Term a)-\u003eTerm a",
@@ -9508,6 +10266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "ppLSubst",
           "package": "tamarin-prover-term",
@@ -9517,6 +10276,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "ppLSubst",
           "normalized": "LNSubst-\u003eString",
@@ -9532,6 +10292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "ppLTerm",
           "package": "tamarin-prover-term",
@@ -9541,6 +10302,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "ppLTerm",
           "normalized": "LNTerm-\u003eString",
@@ -9556,6 +10318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "propMatchSound",
           "package": "tamarin-prover-term",
@@ -9565,6 +10328,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "propMatchSound",
           "normalized": "MaudeHandle-\u003eLNTerm-\u003eLNTerm-\u003eBool",
@@ -9580,6 +10344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "propSubtermReplace",
           "package": "tamarin-prover-term",
@@ -9589,6 +10354,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "propSubtermReplace",
           "normalized": "Term a-\u003ePosition-\u003e(Term a,Term a)",
@@ -9604,6 +10370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "propUnifySound",
           "package": "tamarin-prover-term",
@@ -9613,6 +10380,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "propUnifySound",
           "normalized": "MaudeHandle-\u003eLNTerm-\u003eLNTerm-\u003eBool",
@@ -9628,6 +10396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "runTest",
           "package": "tamarin-prover-term",
@@ -9637,6 +10406,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "runTest",
           "normalized": "WithMaude a-\u003eIO a",
@@ -9652,6 +10422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "sub4",
           "package": "tamarin-prover-term",
@@ -9661,6 +10432,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "sub4",
           "package": "tamarin-prover-term",
@@ -9673,6 +10445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "sub4'",
           "package": "tamarin-prover-term",
@@ -9682,6 +10455,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "sub4'",
           "package": "tamarin-prover-term",
@@ -9694,6 +10468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "sub6",
           "package": "tamarin-prover-term",
@@ -9703,6 +10478,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "sub6",
           "package": "tamarin-prover-term",
@@ -9715,6 +10491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "sub6'",
           "package": "tamarin-prover-term",
@@ -9724,6 +10501,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "sub6'",
           "package": "tamarin-prover-term",
@@ -9736,6 +10514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "tcompare",
           "package": "tamarin-prover-term",
@@ -9745,6 +10524,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "tcompare",
           "normalized": "MaudeHandle-\u003eTest",
@@ -9759,6 +10539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "te",
           "package": "tamarin-prover-term",
@@ -9768,6 +10549,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "te",
           "package": "tamarin-prover-term",
@@ -9780,6 +10562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "testEqual",
           "package": "tamarin-prover-term",
@@ -9789,6 +10572,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "testEqual",
           "normalized": "String-\u003ea-\u003ea-\u003eTest",
@@ -9804,6 +10588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "testTrue",
           "package": "tamarin-prover-term",
@@ -9813,6 +10598,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "testTrue",
           "normalized": "String-\u003eBool-\u003eTest",
@@ -9829,6 +10615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll unification infrastructure unit tests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "tests",
           "package": "tamarin-prover-term",
@@ -9839,6 +10626,7 @@
         "index": {
           "description": "All unification infrastructure unit tests",
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "tests",
           "normalized": "FilePath-\u003eIO Test",
@@ -9853,6 +10641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "testsMatching",
           "package": "tamarin-prover-term",
@@ -9862,6 +10651,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "testsMatching",
           "normalized": "MaudeHandle-\u003eTest",
@@ -9877,6 +10667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "testsNorm",
           "package": "tamarin-prover-term",
@@ -9886,6 +10677,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "testsNorm",
           "normalized": "MaudeHandle-\u003eTest",
@@ -9901,6 +10693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "testsSimple",
           "package": "tamarin-prover-term",
@@ -9910,6 +10703,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "testsSimple",
           "normalized": "MaudeHandle-\u003eTest",
@@ -9925,6 +10719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "testsSubs",
           "package": "tamarin-prover-term",
@@ -9934,6 +10729,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "testsSubs",
           "normalized": "MaudeHandle-\u003eTest",
@@ -9949,6 +10745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "testsSubst",
           "package": "tamarin-prover-term",
@@ -9958,6 +10755,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "testsSubst",
           "package": "tamarin-prover-term",
@@ -9971,6 +10769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "testsTerm",
           "package": "tamarin-prover-term",
@@ -9980,6 +10779,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "testsTerm",
           "package": "tamarin-prover-term",
@@ -9993,6 +10793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "testsUnify",
           "package": "tamarin-prover-term",
@@ -10002,6 +10803,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "testsUnify",
           "normalized": "MaudeHandle-\u003eTest",
@@ -10017,6 +10819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "testsVariant",
           "package": "tamarin-prover-term",
@@ -10026,6 +10829,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "testsVariant",
           "normalized": "MaudeHandle-\u003eTest",
@@ -10041,6 +10845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "tevs",
           "package": "tamarin-prover-term",
@@ -10050,6 +10855,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "tevs",
           "normalized": "[LVar]",
@@ -10064,6 +10870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.UnitTests",
           "name": "union",
           "package": "tamarin-prover-term",
@@ -10073,6 +10880,7 @@
         },
         "index": {
           "hierarchy": "Term UnitTests",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.UnitTests",
           "name": "union",
           "normalized": "[Term a]-\u003eTerm a",
@@ -10088,6 +10896,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTerms with variables and constants.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "VTerm",
           "package": "tamarin-prover-term",
@@ -10097,6 +10906,7 @@
         "index": {
           "description": "Terms with variables and constants",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "VTerm",
           "package": "tamarin-prover-term",
@@ -10111,6 +10921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAC function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "ACSym",
           "package": "tamarin-prover-term",
@@ -10120,6 +10931,7 @@
         "index": {
           "description": "AC function symbols",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "ACSym",
           "package": "tamarin-prover-term",
@@ -10134,6 +10946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC(ommutative) function symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "CSym",
           "package": "tamarin-prover-term",
@@ -10143,6 +10956,7 @@
         "index": {
           "description": "ommutative function symbols",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "CSym",
           "package": "tamarin-prover-term",
@@ -10157,6 +10971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction signatures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FunSig",
           "package": "tamarin-prover-term",
@@ -10166,6 +10981,7 @@
         "index": {
           "description": "Function signatures",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FunSig",
           "package": "tamarin-prover-term",
@@ -10180,6 +10996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FunSym",
           "package": "tamarin-prover-term",
@@ -10189,6 +11006,7 @@
         "index": {
           "description": "Function symbols",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FunSym",
           "package": "tamarin-prover-term",
@@ -10203,6 +11021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecollect class constraints for constants\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "IsConst",
           "package": "tamarin-prover-term",
@@ -10212,6 +11031,7 @@
         "index": {
           "description": "collect class constraints for constants",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "IsConst",
           "package": "tamarin-prover-term",
@@ -10226,6 +11046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecollect class constraints for variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "IsVar",
           "package": "tamarin-prover-term",
@@ -10235,6 +11056,7 @@
         "index": {
           "description": "collect class constraints for variables",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "IsVar",
           "package": "tamarin-prover-term",
@@ -10249,6 +11071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lit is either a constant or a variable. (\u003ccode\u003eConst\u003c/code\u003e is taken by Control.Applicative)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Lit",
           "package": "tamarin-prover-term",
@@ -10258,6 +11081,7 @@
         "index": {
           "description": "Lit is either constant or variable Const is taken by Control.Applicative",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Lit",
           "package": "tamarin-prover-term",
@@ -10272,6 +11096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNoEq function signatures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "NoEqFunSig",
           "package": "tamarin-prover-term",
@@ -10281,6 +11106,7 @@
         "index": {
           "description": "NoEq function signatures",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "NoEqFunSig",
           "package": "tamarin-prover-term",
@@ -10295,6 +11121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNoEq function symbols (with respect to the background theory).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "NoEqSym",
           "package": "tamarin-prover-term",
@@ -10304,6 +11131,7 @@
         "index": {
           "description": "NoEq function symbols with respect to the background theory",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "NoEqSym",
           "package": "tamarin-prover-term",
@@ -10318,6 +11146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function symbol can be either Private (unknown to adversary) or Public.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Privacy",
           "package": "tamarin-prover-term",
@@ -10327,6 +11156,7 @@
         "index": {
           "description": "function symbol can be either Private unknown to adversary or Public",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Privacy",
           "package": "tamarin-prover-term",
@@ -10340,6 +11170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Sized",
           "package": "tamarin-prover-term",
@@ -10348,6 +11179,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Sized",
           "package": "tamarin-prover-term",
@@ -10362,6 +11194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA term in T(Sigma,a). Its constructors are kept abstract. Use \u003ccode\u003e\u003ca\u003eviewTerm\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003eviewTerm2\u003c/a\u003e\u003c/code\u003e to inspect it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Term",
           "package": "tamarin-prover-term",
@@ -10371,6 +11204,7 @@
         "index": {
           "description": "term in Sigma Its constructors are kept abstract Use viewTerm or viewTerm2 to inspect it",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Term",
           "package": "tamarin-prover-term",
@@ -10385,6 +11219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView on terms that corresponds to representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "TermView",
           "package": "tamarin-prover-term",
@@ -10394,6 +11229,7 @@
         "index": {
           "description": "View on terms that corresponds to representation",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "TermView",
           "package": "tamarin-prover-term",
@@ -10408,6 +11244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView on terms that distinguishes function application of builtin symbols like exp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "TermView2",
           "package": "tamarin-prover-term",
@@ -10417,6 +11254,7 @@
         "index": {
           "description": "View on terms that distinguishes function application of builtin symbols like exp",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "TermView2",
           "package": "tamarin-prover-term",
@@ -10431,6 +11269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA VTerm is a term with constants and variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "VTerm",
           "package": "tamarin-prover-term",
@@ -10440,6 +11279,7 @@
         "index": {
           "description": "VTerm is term with constants and variables",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "VTerm",
           "package": "tamarin-prover-term",
@@ -10454,6 +11294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean AC function symbol, can be used n-ary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "AC",
           "package": "tamarin-prover-term",
@@ -10464,6 +11305,7 @@
         "index": {
           "description": "an AC function symbol can be used n-ary",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "AC",
           "package": "tamarin-prover-term",
@@ -10478,6 +11320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea C function symbol of a given arity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "C",
           "package": "tamarin-prover-term",
@@ -10488,6 +11331,7 @@
         "index": {
           "description": "function symbol of given arity",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "C",
           "package": "tamarin-prover-term",
@@ -10500,6 +11344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Con",
           "package": "tamarin-prover-term",
@@ -10509,6 +11354,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Con",
           "package": "tamarin-prover-term",
@@ -10522,6 +11368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "EMap",
           "package": "tamarin-prover-term",
@@ -10531,6 +11378,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "EMap",
           "package": "tamarin-prover-term",
@@ -10544,6 +11392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FApp",
           "package": "tamarin-prover-term",
@@ -10553,6 +11402,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FApp",
           "normalized": "FApp FunSym[Term a]",
@@ -10568,6 +11418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FAppC",
           "package": "tamarin-prover-term",
@@ -10577,6 +11428,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FAppC",
           "normalized": "FAppC CSym[Term a]",
@@ -10592,6 +11444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FAppNoEq",
           "package": "tamarin-prover-term",
@@ -10601,6 +11454,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FAppNoEq",
           "normalized": "FAppNoEq NoEqSym[Term a]",
@@ -10616,6 +11470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FEMap",
           "package": "tamarin-prover-term",
@@ -10625,6 +11480,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FEMap",
           "package": "tamarin-prover-term",
@@ -10638,6 +11494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FExp",
           "package": "tamarin-prover-term",
@@ -10647,6 +11504,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FExp",
           "package": "tamarin-prover-term",
@@ -10660,6 +11518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FInv",
           "package": "tamarin-prover-term",
@@ -10669,6 +11528,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FInv",
           "package": "tamarin-prover-term",
@@ -10682,6 +11542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FList",
           "package": "tamarin-prover-term",
@@ -10691,6 +11552,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FList",
           "normalized": "FList[Term a]",
@@ -10706,6 +11568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FMult",
           "package": "tamarin-prover-term",
@@ -10715,6 +11578,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FMult",
           "normalized": "FMult[Term a]",
@@ -10730,6 +11594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FPMult",
           "package": "tamarin-prover-term",
@@ -10739,6 +11604,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FPMult",
           "package": "tamarin-prover-term",
@@ -10752,6 +11618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FPair",
           "package": "tamarin-prover-term",
@@ -10761,6 +11628,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FPair",
           "package": "tamarin-prover-term",
@@ -10774,6 +11642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "FUnion",
           "package": "tamarin-prover-term",
@@ -10783,6 +11652,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "FUnion",
           "normalized": "FUnion[Term a]",
@@ -10799,6 +11669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea free n-ary function symbol of TOP sort\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "List",
           "package": "tamarin-prover-term",
@@ -10809,6 +11680,7 @@
         "index": {
           "description": "free n-ary function symbol of TOP sort",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "List",
           "package": "tamarin-prover-term",
@@ -10822,6 +11694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Lit",
           "package": "tamarin-prover-term",
@@ -10831,6 +11704,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Lit",
           "package": "tamarin-prover-term",
@@ -10844,6 +11718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Lit2",
           "package": "tamarin-prover-term",
@@ -10853,6 +11728,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Lit2",
           "package": "tamarin-prover-term",
@@ -10866,6 +11742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Mult",
           "package": "tamarin-prover-term",
@@ -10875,6 +11752,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Mult",
           "package": "tamarin-prover-term",
@@ -10889,6 +11767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea free function function symbol of a given arity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "NoEq",
           "package": "tamarin-prover-term",
@@ -10899,6 +11778,7 @@
         "index": {
           "description": "free function function symbol of given arity",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "NoEq",
           "package": "tamarin-prover-term",
@@ -10912,6 +11792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "One",
           "package": "tamarin-prover-term",
@@ -10921,6 +11802,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "One",
           "package": "tamarin-prover-term",
@@ -10934,6 +11816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Private",
           "package": "tamarin-prover-term",
@@ -10943,6 +11826,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Private",
           "package": "tamarin-prover-term",
@@ -10956,6 +11840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Public",
           "package": "tamarin-prover-term",
@@ -10965,6 +11850,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Public",
           "package": "tamarin-prover-term",
@@ -10978,6 +11864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Union",
           "package": "tamarin-prover-term",
@@ -10987,6 +11874,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Union",
           "package": "tamarin-prover-term",
@@ -11000,6 +11888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "Var",
           "package": "tamarin-prover-term",
@@ -11009,6 +11898,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "Var",
           "package": "tamarin-prover-term",
@@ -11022,6 +11912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "bindTerm",
           "package": "tamarin-prover-term",
@@ -11031,6 +11922,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "bindTerm",
           "normalized": "Term a-\u003e(a-\u003eTerm b)-\u003eTerm b",
@@ -11047,6 +11939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signature for the bilinear pairing function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "bpFunSig",
           "package": "tamarin-prover-term",
@@ -11057,6 +11950,7 @@
         "index": {
           "description": "The signature for the bilinear pairing function symbols",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "bpFunSig",
           "package": "tamarin-prover-term",
@@ -11071,6 +11965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReducible function symbols for BP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "bpReducibleFunSig",
           "package": "tamarin-prover-term",
@@ -11081,6 +11976,7 @@
         "index": {
           "description": "Reducible function symbols for BP",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "bpReducibleFunSig",
           "package": "tamarin-prover-term",
@@ -11095,6 +11991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003econstTerm c\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eVTerm\u003c/a\u003e\u003c/code\u003e with the const \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "constTerm",
           "package": "tamarin-prover-term",
@@ -11105,6 +12002,7 @@
         "index": {
           "description": "constTerm is the VTerm with the const",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "constTerm",
           "normalized": "a-\u003eVTerm a b",
@@ -11121,6 +12019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003econstsVTerm t\u003c/code\u003e returns a duplicate-free list of constants that occur in \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "constsVTerm",
           "package": "tamarin-prover-term",
@@ -11131,6 +12030,7 @@
         "index": {
           "description": "constsVTerm returns duplicate-free list of constants that occur in",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "constsVTerm",
           "normalized": "VTerm a b-\u003e[a]",
@@ -11147,6 +12047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signature for Diffie-Hellman function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "dhFunSig",
           "package": "tamarin-prover-term",
@@ -11157,6 +12058,7 @@
         "index": {
           "description": "The signature for Diffie-Hellman function symbols",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "dhFunSig",
           "package": "tamarin-prover-term",
@@ -11171,6 +12073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReducible function symbols for DH.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "dhReducibleFunSig",
           "package": "tamarin-prover-term",
@@ -11181,6 +12084,7 @@
         "index": {
           "description": "Reducible function symbols for DH",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "dhReducibleFunSig",
           "package": "tamarin-prover-term",
@@ -11194,6 +12098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "emapSymString",
           "package": "tamarin-prover-term",
@@ -11203,6 +12108,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "emapSymString",
           "package": "tamarin-prover-term",
@@ -11217,6 +12123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExponentiation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "expSym",
           "package": "tamarin-prover-term",
@@ -11227,6 +12134,7 @@
         "index": {
           "description": "Exponentiation",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "expSym",
           "package": "tamarin-prover-term",
@@ -11240,6 +12148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "expSymString",
           "package": "tamarin-prover-term",
@@ -11249,6 +12158,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "expSymString",
           "package": "tamarin-prover-term",
@@ -11263,6 +12173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efApp fsym as\u003c/code\u003e creates an application of \u003ccode\u003efsym\u003c/code\u003e to \u003ccode\u003eas\u003c/code\u003e. The function\n ensures that the resulting term is in AC-normal-form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fApp",
           "package": "tamarin-prover-term",
@@ -11273,6 +12184,7 @@
         "index": {
           "description": "fApp fsym as creates an application of fsym to as The function ensures that the resulting term is in AC-normal-form",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fApp",
           "normalized": "FunSym-\u003e[Term a]-\u003eTerm a",
@@ -11289,6 +12201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for AC terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppAC",
           "package": "tamarin-prover-term",
@@ -11299,6 +12212,7 @@
         "index": {
           "description": "Smart constructor for AC terms",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppAC",
           "normalized": "ACSym-\u003e[Term a]-\u003eTerm a",
@@ -11315,6 +12229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for C terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppC",
           "package": "tamarin-prover-term",
@@ -11325,6 +12240,7 @@
         "index": {
           "description": "Smart constructor for terms",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppC",
           "normalized": "CSym-\u003e[Term a]-\u003eTerm a",
@@ -11341,6 +12257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructors for pair, exp, pmult, and emap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppEMap",
           "package": "tamarin-prover-term",
@@ -11351,6 +12268,7 @@
         "index": {
           "description": "Smart constructors for pair exp pmult and emap",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppEMap",
           "normalized": "(Term a,Term a)-\u003eTerm a",
@@ -11367,6 +12285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructors for pair, exp, pmult, and emap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppExp",
           "package": "tamarin-prover-term",
@@ -11377,6 +12296,7 @@
         "index": {
           "description": "Smart constructors for pair exp pmult and emap",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppExp",
           "normalized": "(Term a,Term a)-\u003eTerm a",
@@ -11393,6 +12313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructors for inv, fst, and snd.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppFst",
           "package": "tamarin-prover-term",
@@ -11403,6 +12324,7 @@
         "index": {
           "description": "Smart constructors for inv fst and snd",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppFst",
           "normalized": "Term a-\u003eTerm a",
@@ -11419,6 +12341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructors for inv, fst, and snd.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppInv",
           "package": "tamarin-prover-term",
@@ -11429,6 +12352,7 @@
         "index": {
           "description": "Smart constructors for inv fst and snd",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppInv",
           "normalized": "Term a-\u003eTerm a",
@@ -11445,6 +12369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for list terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppList",
           "package": "tamarin-prover-term",
@@ -11455,6 +12380,7 @@
         "index": {
           "description": "Smart constructor for list terms",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppList",
           "normalized": "[Term a]-\u003eTerm a",
@@ -11471,6 +12397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for non-AC/C terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppNoEq",
           "package": "tamarin-prover-term",
@@ -11481,6 +12408,7 @@
         "index": {
           "description": "Smart constructor for non-AC terms",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppNoEq",
           "normalized": "NoEqSym-\u003e[Term a]-\u003eTerm a",
@@ -11497,6 +12425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructors for one, zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppOne",
           "package": "tamarin-prover-term",
@@ -11507,6 +12436,7 @@
         "index": {
           "description": "Smart constructors for one zero",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppOne",
           "package": "tamarin-prover-term",
@@ -11521,6 +12451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructors for pair, exp, pmult, and emap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppPMult",
           "package": "tamarin-prover-term",
@@ -11531,6 +12462,7 @@
         "index": {
           "description": "Smart constructors for pair exp pmult and emap",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppPMult",
           "normalized": "(Term a,Term a)-\u003eTerm a",
@@ -11547,6 +12479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructors for pair, exp, pmult, and emap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppPair",
           "package": "tamarin-prover-term",
@@ -11557,6 +12490,7 @@
         "index": {
           "description": "Smart constructors for pair exp pmult and emap",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppPair",
           "normalized": "(Term a,Term a)-\u003eTerm a",
@@ -11573,6 +12507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructors for inv, fst, and snd.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fAppSnd",
           "package": "tamarin-prover-term",
@@ -11583,6 +12518,7 @@
         "index": {
           "description": "Smart constructors for inv fst and snd",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fAppSnd",
           "normalized": "Term a-\u003eTerm a",
@@ -11598,6 +12534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "fmapTerm",
           "package": "tamarin-prover-term",
@@ -11607,6 +12544,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "fmapTerm",
           "normalized": "(a-\u003eb)-\u003eTerm a-\u003eTerm b",
@@ -11623,6 +12561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplicit function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "implicitFunSig",
           "package": "tamarin-prover-term",
@@ -11633,6 +12572,7 @@
         "index": {
           "description": "Implicit function symbols",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "implicitFunSig",
           "package": "tamarin-prover-term",
@@ -11646,6 +12586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "invSymString",
           "package": "tamarin-prover-term",
@@ -11655,6 +12596,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "invSymString",
           "package": "tamarin-prover-term",
@@ -11669,6 +12611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the term is a well-formed emap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "isEMap",
           "package": "tamarin-prover-term",
@@ -11679,6 +12622,7 @@
         "index": {
           "description": "True iff the term is well-formed emap",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "isEMap",
           "normalized": "Term a-\u003eBool",
@@ -11695,6 +12639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the term is a well-formed inverse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "isInverse",
           "package": "tamarin-prover-term",
@@ -11705,6 +12650,7 @@
         "index": {
           "description": "True iff the term is well-formed inverse",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "isInverse",
           "normalized": "Term a-\u003eBool",
@@ -11721,6 +12667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the term is a nullary, public function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "isNullaryPublicFunction",
           "package": "tamarin-prover-term",
@@ -11731,6 +12678,7 @@
         "index": {
           "description": "True iff the term is nullary public function",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "isNullaryPublicFunction",
           "normalized": "Term a-\u003eBool",
@@ -11747,6 +12695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the term is a well-formed pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "isPair",
           "package": "tamarin-prover-term",
@@ -11757,6 +12706,7 @@
         "index": {
           "description": "True iff the term is well-formed pair",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "isPair",
           "normalized": "Term a-\u003eBool",
@@ -11772,6 +12722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "isPrivateFunction",
           "package": "tamarin-prover-term",
@@ -11781,6 +12732,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "isPrivateFunction",
           "normalized": "Term a-\u003eBool",
@@ -11797,6 +12749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the term is a well-formed product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "isProduct",
           "package": "tamarin-prover-term",
@@ -11807,6 +12760,7 @@
         "index": {
           "description": "True iff the term is well-formed product",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "isProduct",
           "normalized": "Term a-\u003eBool",
@@ -11823,6 +12777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the term is a well-formed union.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "isUnion",
           "package": "tamarin-prover-term",
@@ -11833,6 +12788,7 @@
         "index": {
           "description": "True iff the term is well-formed union",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "isUnion",
           "normalized": "Term a-\u003eBool",
@@ -11848,6 +12804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "isVar",
           "package": "tamarin-prover-term",
@@ -11857,6 +12814,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "isVar",
           "normalized": "VTerm a b-\u003eBool",
@@ -11873,6 +12831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elit l\u003c/code\u003e creates a term from the literal \u003ccode\u003el\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "lit",
           "package": "tamarin-prover-term",
@@ -11883,6 +12842,7 @@
         "index": {
           "description": "lit creates term from the literal",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "lit",
           "normalized": "a-\u003eTerm a",
@@ -11898,6 +12858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elits t\u003c/code\u003e returns all literals that occur in term \u003ccode\u003et\u003c/code\u003e. List can contain duplicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "lits",
           "package": "tamarin-prover-term",
@@ -11908,6 +12869,7 @@
         "index": {
           "description": "lits returns all literals that occur in term List can contain duplicates",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "lits",
           "normalized": "Term a-\u003e[a]",
@@ -11923,6 +12885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signature for the multiset function symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "msetFunSig",
           "package": "tamarin-prover-term",
@@ -11933,6 +12896,7 @@
         "index": {
           "description": "The signature for the multiset function symbols",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "msetFunSig",
           "package": "tamarin-prover-term",
@@ -11947,6 +12911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eoccurs v t\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if \u003ccode\u003ev\u003c/code\u003e occurs in \u003ccode\u003et\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "occursVTerm",
           "package": "tamarin-prover-term",
@@ -11957,6 +12922,7 @@
         "index": {
           "description": "occurs returns True if occurs in",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "occursVTerm",
           "normalized": "a-\u003eVTerm b a-\u003eBool",
@@ -11973,6 +12939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signature for pairing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "pairFunSig",
           "package": "tamarin-prover-term",
@@ -11983,6 +12950,7 @@
         "index": {
           "description": "The signature for pairing",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "pairFunSig",
           "package": "tamarin-prover-term",
@@ -11997,6 +12965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication of points (in G1) on elliptic curve by scalars.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "pmultSym",
           "package": "tamarin-prover-term",
@@ -12007,6 +12976,7 @@
         "index": {
           "description": "Multiplication of points in G1 on elliptic curve by scalars",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "pmultSym",
           "package": "tamarin-prover-term",
@@ -12020,6 +12990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "pmultSymString",
           "package": "tamarin-prover-term",
@@ -12029,6 +13000,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "pmultSymString",
           "package": "tamarin-prover-term",
@@ -12043,6 +13015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "prettyTerm",
           "package": "tamarin-prover-term",
@@ -12053,6 +13026,7 @@
         "index": {
           "description": "Pretty print term",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "prettyTerm",
           "normalized": "(a-\u003eb)-\u003eTerm a-\u003eb",
@@ -12069,6 +13043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a function symbol to its name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "showFunSymName",
           "package": "tamarin-prover-term",
@@ -12079,6 +13054,7 @@
         "index": {
           "description": "Convert function symbol to its name",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "showFunSymName",
           "normalized": "FunSym-\u003eString",
@@ -12094,6 +13070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "size",
           "package": "tamarin-prover-term",
@@ -12103,6 +13080,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "size",
           "normalized": "a-\u003eInt",
@@ -12118,6 +13096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract just the variable from a term that may be variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "termVar",
           "package": "tamarin-prover-term",
@@ -12128,6 +13107,7 @@
         "index": {
           "description": "Extract just the variable from term that may be variable",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "termVar",
           "normalized": "VTerm a b-\u003eMaybe b",
@@ -12144,6 +13124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract just the variable from a term that must be variable, throw an\n error if this fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "termVar'",
           "package": "tamarin-prover-term",
@@ -12154,6 +13135,7 @@
         "index": {
           "description": "Extract just the variable from term that must be variable throw an error if this fails",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "termVar'",
           "normalized": "VTerm a b-\u003eb",
@@ -12169,6 +13151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "traverseTerm",
           "package": "tamarin-prover-term",
@@ -12178,6 +13161,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "traverseTerm",
           "normalized": "(a-\u003eb c)-\u003eTerm a-\u003eb(Term c)",
@@ -12193,6 +13177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "unionSymString",
           "package": "tamarin-prover-term",
@@ -12202,6 +13187,7 @@
         },
         "index": {
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "unionSymString",
           "package": "tamarin-prover-term",
@@ -12216,6 +13202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunsafefApp fsym as\u003c/code\u003e creates an application of \u003ccode\u003efsym\u003c/code\u003e to as. The\n   caller has to ensure that the resulting term is in AC-normal-form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "unsafefApp",
           "package": "tamarin-prover-term",
@@ -12226,6 +13213,7 @@
         "index": {
           "description": "unsafefApp fsym as creates an application of fsym to as The caller has to ensure that the resulting term is in AC-normal-form",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "unsafefApp",
           "normalized": "FunSym-\u003e[Term a]-\u003eTerm a",
@@ -12242,6 +13230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evarTerm v\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eVTerm\u003c/a\u003e\u003c/code\u003e with the variable \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "varTerm",
           "package": "tamarin-prover-term",
@@ -12252,6 +13241,7 @@
         "index": {
           "description": "varTerm is the VTerm with the variable",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "varTerm",
           "normalized": "a-\u003eVTerm b a",
@@ -12268,6 +13258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evars t\u003c/code\u003e returns a duplicate-free list of variables that occur in \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "varsVTerm",
           "package": "tamarin-prover-term",
@@ -12278,6 +13269,7 @@
         "index": {
           "description": "vars returns duplicate-free list of variables that occur in",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "varsVTerm",
           "normalized": "VTerm a b-\u003e[b]",
@@ -12294,6 +13286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the \u003ccode\u003e\u003ca\u003eTermView\u003c/a\u003e\u003c/code\u003e of the given term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "viewTerm",
           "package": "tamarin-prover-term",
@@ -12304,6 +13297,7 @@
         "index": {
           "description": "Return the TermView of the given term",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "viewTerm",
           "normalized": "Term a-\u003eTermView a",
@@ -12320,6 +13314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003eTermView2\u003c/a\u003e\u003c/code\u003e of the given term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:05 UTC 2014",
           "module": "Term.VTerm",
           "name": "viewTerm2",
           "package": "tamarin-prover-term",
@@ -12330,6 +13325,7 @@
         "index": {
           "description": "Returns the TermView2 of the given term",
           "hierarchy": "Term VTerm",
+          "indexed": "2014-03-11T20:17:05",
           "module": "Term.VTerm",
           "name": "viewTerm2",
           "normalized": "Term a-\u003eTermView a",

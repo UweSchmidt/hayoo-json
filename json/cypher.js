@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cypher"
+        "phrase": "cypher",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher.Lucene",
           "name": "Lucene",
           "package": "cypher",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher Lucene",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher.Lucene",
           "name": "Lucene",
           "package": "cypher",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher.Lucene",
           "name": "LuceneQuery",
           "package": "cypher",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher Lucene",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher.Lucene",
           "name": "LuceneQuery",
           "package": "cypher",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher.Lucene",
           "name": "(.|.)",
           "package": "cypher",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher Lucene",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher.Lucene",
           "name": "(.|.) .|.",
           "normalized": "LuceneQuery-\u003eLuceneQuery-\u003eLuceneQuery",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher.Lucene",
           "name": "(.&.)",
           "package": "cypher",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher Lucene",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher.Lucene",
           "name": "(.&.) .&.",
           "normalized": "LuceneQuery-\u003eLuceneQuery-\u003eLuceneQuery",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher.Lucene",
           "name": "(.-.)",
           "package": "cypher",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher Lucene",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher.Lucene",
           "name": "(.-.) .-.",
           "normalized": "LuceneQuery-\u003eLuceneQuery-\u003eLuceneQuery",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher.Lucene",
           "name": "(.\u003c.)",
           "package": "cypher",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher Lucene",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher.Lucene",
           "name": "(.\u003c.) .\u003c.",
           "normalized": "Text-\u003ea-\u003eLuceneQuery",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher.Lucene",
           "name": "(.=.)",
           "package": "cypher",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher Lucene",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher.Lucene",
           "name": "(.=.) .=.",
           "normalized": "Text-\u003ea-\u003eLuceneQuery",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher.Lucene",
           "name": "(.\u003e.)",
           "package": "cypher",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher Lucene",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher.Lucene",
           "name": "(.\u003e.) .\u003e.",
           "normalized": "Text-\u003ea-\u003eLuceneQuery",
@@ -225,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher.Lucene",
           "name": "to",
           "package": "cypher",
@@ -234,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher Lucene",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher.Lucene",
           "name": "to",
           "normalized": "a-\u003ea-\u003eLuceneQuery",
@@ -248,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher.Lucene",
           "name": "xto",
           "package": "cypher",
@@ -257,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher Lucene",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher.Lucene",
           "name": "xto",
           "normalized": "a-\u003ea-\u003eLuceneQuery",
@@ -271,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "Cypher",
           "package": "cypher",
@@ -279,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "Cypher",
           "package": "cypher",
@@ -293,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll interaction with Neo4j is done through the Cypher monad. Use \u003ccode\u003e\u003ca\u003ecypher\u003c/a\u003e\u003c/code\u003e to add a query to the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "Cypher",
           "package": "cypher",
@@ -302,6 +325,7 @@
         "index": {
           "description": "All interaction with Neo4j is done through the Cypher monad Use cypher to add query to the monad",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "Cypher",
           "package": "cypher",
@@ -316,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single column returned by Neo4j.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherCol",
           "package": "cypher",
@@ -325,6 +350,7 @@
         "index": {
           "description": "single column returned by Neo4j",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherCol",
           "package": "cypher",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColumns returned by Neo4j.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherCols",
           "package": "cypher",
@@ -348,6 +375,7 @@
         "index": {
           "description": "Columns returned by Neo4j",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherCols",
           "package": "cypher",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error in handling a Cypher query, either in communicating with the server or parsing the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherException",
           "package": "cypher",
@@ -371,6 +400,7 @@
         "index": {
           "description": "An error in handling Cypher query either in communicating with the server or parsing the result",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherException",
           "package": "cypher",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossibly a value returned by Neo4j\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherMaybe",
           "package": "cypher",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Possibly value returned by Neo4j",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherMaybe",
           "package": "cypher",
@@ -408,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw result data returned by Neo4j. Only use this if you care about column headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherResult",
           "package": "cypher",
@@ -417,6 +450,7 @@
         "index": {
           "description": "Raw result data returned by Neo4j Only use this if you care about column headers",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherResult",
           "package": "cypher",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo value returned from Neo4j\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherUnit",
           "package": "cypher",
@@ -440,6 +475,7 @@
         "index": {
           "description": "No value returned from Neo4j",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherUnit",
           "package": "cypher",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single result returned by Neo4j.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherVal",
           "package": "cypher",
@@ -463,6 +500,7 @@
         "index": {
           "description": "single result returned by Neo4j",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherVal",
           "package": "cypher",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues returned by Neo4j.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherVals",
           "package": "cypher",
@@ -486,6 +525,7 @@
         "index": {
           "description": "Values returned by Neo4j",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherVals",
           "package": "cypher",
@@ -500,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about your neo4j configuration needed to make requests over the REST api.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "DBInfo",
           "package": "cypher",
@@ -509,6 +550,7 @@
         "index": {
           "description": "Information about your neo4j configuration needed to make requests over the REST api",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "DBInfo",
           "package": "cypher",
@@ -523,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA neo4j node or edge\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "Entity",
           "package": "cypher",
@@ -532,6 +575,7 @@
         "index": {
           "description": "neo4j node or edge",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "Entity",
           "package": "cypher",
@@ -545,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "Hostname",
           "package": "cypher",
@@ -553,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "Hostname",
           "package": "cypher",
@@ -566,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "LuceneQuery",
           "package": "cypher",
@@ -574,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "LuceneQuery",
           "package": "cypher",
@@ -587,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "Port",
           "package": "cypher",
@@ -595,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "Port",
           "package": "cypher",
@@ -608,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherClientParseException",
           "package": "cypher",
@@ -617,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherClientParseException",
           "package": "cypher",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherCol",
           "package": "cypher",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherCol",
           "package": "cypher",
@@ -652,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherCols",
           "package": "cypher",
@@ -661,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherCols",
           "package": "cypher",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherJust",
           "package": "cypher",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherJust",
           "package": "cypher",
@@ -696,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherNothing",
           "package": "cypher",
@@ -705,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherNothing",
           "package": "cypher",
@@ -718,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherResult",
           "package": "cypher",
@@ -727,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherResult",
           "package": "cypher",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherServerException",
           "package": "cypher",
@@ -749,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherServerException",
           "package": "cypher",
@@ -762,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherUnit",
           "package": "cypher",
@@ -771,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherUnit",
           "package": "cypher",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherVal",
           "package": "cypher",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherVal",
           "package": "cypher",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "CypherVals",
           "package": "cypher",
@@ -815,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "CypherVals",
           "normalized": "CypherVals[a]",
@@ -830,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "DBInfo",
           "package": "cypher",
@@ -839,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "DBInfo",
           "package": "cypher",
@@ -853,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a cypher query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "cypher",
           "package": "cypher",
@@ -863,6 +936,7 @@
         "index": {
           "description": "Perform cypher query",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "cypher",
           "normalized": "Text-\u003eValue-\u003eCypher a",
@@ -878,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a cypher node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "cypherCreate",
           "package": "cypher",
@@ -888,6 +963,7 @@
         "index": {
           "description": "Create cypher node",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "cypherCreate",
           "normalized": "a-\u003eCypher b",
@@ -904,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the nodes matching the given lucene query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "cypherGet",
           "package": "cypher",
@@ -914,6 +991,7 @@
         "index": {
           "description": "Get the nodes matching the given lucene query",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "cypherGet",
           "normalized": "a-\u003eCypher a",
@@ -930,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a cypher node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "cypherGetNode",
           "package": "cypher",
@@ -940,6 +1019,7 @@
         "index": {
           "description": "Get cypher node",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "cypherGetNode",
           "normalized": "Entity a-\u003eCypher(Entity a)",
@@ -956,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet cypher properties. This currently cannot be done through cypher queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "cypherSet",
           "package": "cypher",
@@ -966,6 +1047,7 @@
         "index": {
           "description": "Set cypher properties This currently cannot be done through cypher queries",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "cypherSet",
           "normalized": "Entity a-\u003ea-\u003eCypher()",
@@ -981,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "cypher_hostname",
           "package": "cypher",
@@ -990,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "cypher_hostname",
           "package": "cypher",
@@ -1002,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "cypher_port",
           "package": "cypher",
@@ -1011,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "cypher_port",
           "package": "cypher",
@@ -1024,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Haskell datatype stored in the Neo4j node or relationship\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "entity_data",
           "package": "cypher",
@@ -1034,6 +1121,7 @@
         "index": {
           "description": "The Haskell datatype stored in the Neo4j node or relationship",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "entity_data",
           "normalized": "Entity a-\u003ea",
@@ -1049,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Neo4j node or relationship id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "entity_id",
           "package": "cypher",
@@ -1059,6 +1148,7 @@
         "index": {
           "description": "The Neo4j node or relationship id",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "entity_id",
           "normalized": "Entity a-\u003eString",
@@ -1074,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a request in a separate thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "forkCypher",
           "package": "cypher",
@@ -1084,6 +1175,7 @@
         "index": {
           "description": "Execute request in separate thread",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "forkCypher",
           "normalized": "Cypher()-\u003eCypher()",
@@ -1099,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "rescolumns",
           "package": "cypher",
@@ -1108,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "rescolumns",
           "normalized": "[Text]",
@@ -1122,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "resdata",
           "package": "cypher",
@@ -1131,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "resdata",
           "package": "cypher",
@@ -1144,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute some number of cypher queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "runCypher",
           "package": "cypher",
@@ -1154,6 +1251,7 @@
         "index": {
           "description": "Execute some number of cypher queries",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "runCypher",
           "normalized": "Cypher a-\u003eDBInfo-\u003eManager-\u003eIO a",
@@ -1170,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the http connection manager for a Cypher monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:46:03 UTC 2014",
           "module": "Database.Cypher",
           "name": "withCypherManager",
           "package": "cypher",
@@ -1180,6 +1279,7 @@
         "index": {
           "description": "Get the http connection manager for Cypher monad",
           "hierarchy": "Database Cypher",
+          "indexed": "2014-03-11T17:46:03",
           "module": "Database.Cypher",
           "name": "withCypherManager",
           "normalized": "(Manager-\u003eResourceT IO a)-\u003eCypher a",

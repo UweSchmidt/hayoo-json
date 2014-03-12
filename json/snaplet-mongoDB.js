@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-mongoDB"
+        "phrase": "snaplet-mongoDB",
+        "type": "phrase"
       },
       "type": "context"
     }

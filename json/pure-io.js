@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pure-io"
+        "phrase": "pure-io",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePure IO monad, intended for educational use.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "PureIO",
           "package": "pure-io",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pure IO monad intended for educational use",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "PureIO",
           "package": "pure-io",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "IO",
           "package": "pure-io",
@@ -51,6 +54,7 @@
         "index": {
           "description": "pure IO monad",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "IO",
           "package": "pure-io",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn IO exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "IOException",
           "package": "pure-io",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An IO exception",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "IOException",
           "package": "pure-io",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "Input",
           "package": "pure-io",
@@ -97,6 +104,7 @@
         "index": {
           "description": "User input",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "Input",
           "package": "pure-io",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that interrupts the flow of the IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "Interrupt",
           "package": "pure-io",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Something that interrupts the flow of the IO monad",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "Interrupt",
           "package": "pure-io",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIO monad output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "Output",
           "package": "pure-io",
@@ -143,6 +154,7 @@
         "index": {
           "description": "IO monad output",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "Output",
           "package": "pure-io",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "DirectoryNotFound",
           "package": "pure-io",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "DirectoryNotFound",
           "package": "pure-io",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "FileNotFound",
           "package": "pure-io",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "FileNotFound",
           "package": "pure-io",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "Input",
           "package": "pure-io",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "Input",
           "package": "pure-io",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen you receive this\n interrupt, you should consider\n the computation as ended.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "InterruptException",
           "package": "pure-io",
@@ -233,6 +252,7 @@
         "index": {
           "description": "When you receive this interrupt you should consider the computation as ended",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "InterruptException",
           "package": "pure-io",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen you receive this interrupt, you should\n get some standard input from somewhere and then\n provide it in the \u003ccode\u003e\u003ca\u003eInput\u003c/a\u003e\u003c/code\u003e value next time you\n call \u003ccode\u003e\u003ca\u003erunIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "InterruptStdin",
           "package": "pure-io",
@@ -257,6 +278,7 @@
         "index": {
           "description": "When you receive this interrupt you should get some standard input from somewhere and then provide it in the Input value next time you call runIO",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "InterruptStdin",
           "package": "pure-io",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "Output",
           "package": "pure-io",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "Output",
           "package": "pure-io",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "UserError",
           "package": "pure-io",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "UserError",
           "package": "pure-io",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe computation \u003ccode\u003e\u003ca\u003eappendFile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efile str\u003c/code\u003e function appends the string \u003ccode\u003estr\u003c/code\u003e,\n to the file \u003ccode\u003efile\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003ewriteFile\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eappendFile\u003c/a\u003e\u003c/code\u003e write a literal string\n to a file.  To write a value of any printable type, as with \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e,\n use the \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e function to convert the value to a string first.\n\u003c/p\u003e\u003cpre\u003e main = appendFile \"squares\" (show [(x,x*x) | x \u003c- [0,0.1..2]])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "appendFile",
           "package": "pure-io",
@@ -325,6 +352,7 @@
         "index": {
           "description": "The computation appendFile file str function appends the string str to the file file Note that writeFile and appendFile write literal string to file To write value of any printable type as with print use the show function to convert the value to string first main appendFile squares show",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "appendFile",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch an IO exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "catch",
           "package": "pure-io",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Catch an IO exception",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "catch",
           "normalized": "IO a-\u003e(IOException-\u003eIO a)-\u003eIO a",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operation \u003ccode\u003e\u003ca\u003edoesFileExist\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the argument file\n exists, and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "doesFileExist",
           "package": "pure-io",
@@ -376,6 +407,7 @@
         "index": {
           "description": "The operation doesFileExist returns True if the argument file exists and False otherwise",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "doesFileExist",
           "normalized": "FilePath-\u003eIO Bool",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all files in the given directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "getDirectoryContents",
           "package": "pure-io",
@@ -402,6 +435,7 @@
         "index": {
           "description": "Get all files in the given directory",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "getDirectoryContents",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a line from standard input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "getLine",
           "package": "pure-io",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Read line from standard input",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "getLine",
           "package": "pure-io",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "inputFiles",
           "package": "pure-io",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "inputFiles",
           "package": "pure-io",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "inputStdin",
           "package": "pure-io",
@@ -472,6 +511,7 @@
         },
         "index": {
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "inputStdin",
           "normalized": "[String]",
@@ -487,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "outputFiles",
           "package": "pure-io",
@@ -496,6 +537,7 @@
         },
         "index": {
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "outputFiles",
           "package": "pure-io",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "outputStdout",
           "package": "pure-io",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "outputStdout",
           "normalized": "[String]",
@@ -534,6 +578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e function outputs a value of any printable type to the\n standard output device.\n Printable types are those that are instances of class \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e; \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e\n converts values to strings for output using the \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e operation and\n adds a newline.\n\u003c/p\u003e\u003cp\u003eFor example, a program to print the first 20 integers and their\n powers of 2 could be written as:\n\u003c/p\u003e\u003cpre\u003e main = print ([(n, 2^n) | n \u003c- [0..19]])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "print",
           "package": "pure-io",
@@ -544,6 +589,7 @@
         "index": {
           "description": "The print function outputs value of any printable type to the standard output device Printable types are those that are instances of class Show print converts values to strings for output using the show operation and adds newline For example program to print the first integers and their powers of could be written as main print",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "print",
           "normalized": "a-\u003eIO()",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to the standard output device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "putStr",
           "package": "pure-io",
@@ -569,6 +616,7 @@
         "index": {
           "description": "Write string to the standard output device",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "putStr",
           "normalized": "String-\u003eIO()",
@@ -585,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003eputStr\u003c/a\u003e\u003c/code\u003e, but adds a newline character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "putStrLn",
           "package": "pure-io",
@@ -595,6 +644,7 @@
         "index": {
           "description": "The same as putStr but adds newline character",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "putStrLn",
           "normalized": "String-\u003eIO()",
@@ -611,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e function reads a file and\n returns the contents of the file as a string.\n The file is read lazily, on demand, as with \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "readFile",
           "package": "pure-io",
@@ -621,6 +672,7 @@
         "index": {
           "description": "The readFile function reads file and returns the contents of the file as string The file is read lazily on demand as with getContents",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO String",
@@ -637,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereadIO\u003c/a\u003e\u003c/code\u003e function is similar to \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e except that it signals\n parse failure to the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad instead of terminating the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "readIO",
           "package": "pure-io",
@@ -647,6 +700,7 @@
         "index": {
           "description": "The readIO function is similar to read except that it signals parse failure to the IO monad instead of terminating the program",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "readIO",
           "normalized": "String-\u003eIO a",
@@ -663,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe readLn function combines \u003ccode\u003e\u003ca\u003egetLine\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ereadIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "readLn",
           "package": "pure-io",
@@ -673,6 +728,7 @@
         "index": {
           "description": "The readLn function combines getLine and readIO",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "readLn",
           "package": "pure-io",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "removeFile",
           "package": "pure-io",
@@ -695,6 +752,7 @@
         },
         "index": {
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "removeFile",
           "normalized": "FilePath-\u003eIO()",
@@ -711,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the IO monad. This should be called in succession. Depending\n on the type of interrupt, this function should be re-run with the\n same action but with additional input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "runIO",
           "package": "pure-io",
@@ -721,6 +780,7 @@
         "index": {
           "description": "Run the IO monad This should be called in succession Depending on the type of interrupt this function should be re-run with the same action but with additional input",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "runIO",
           "normalized": "Input-\u003eIO a-\u003e(Either Interrupt a,Output)",
@@ -737,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an IO exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "throw",
           "package": "pure-io",
@@ -747,6 +808,7 @@
         "index": {
           "description": "Throw an IO exception",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "throw",
           "normalized": "IOException-\u003eIO a",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe computation \u003ccode\u003e\u003ca\u003ewriteFile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efile str\u003c/code\u003e function writes the string \u003ccode\u003estr\u003c/code\u003e,\n to the file \u003ccode\u003efile\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:14 UTC 2014",
           "module": "PureIO",
           "name": "writeFile",
           "package": "pure-io",
@@ -772,6 +835,7 @@
         "index": {
           "description": "The computation writeFile file str function writes the string str to the file file",
           "hierarchy": "PureIO",
+          "indexed": "2014-03-11T19:46:14",
           "module": "PureIO",
           "name": "writeFile",
           "normalized": "FilePath-\u003eString-\u003eIO()",

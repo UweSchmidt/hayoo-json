@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "category-extras"
+        "phrase": "category-extras",
+        "type": "phrase"
       },
       "type": "context"
     }

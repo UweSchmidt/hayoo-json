@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clckwrks-cli"
+        "phrase": "clckwrks-cli",
+        "type": "phrase"
       },
       "type": "context"
     }

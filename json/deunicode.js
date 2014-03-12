@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "deunicode"
+        "phrase": "deunicode",
+        "type": "phrase"
       },
       "type": "context"
     }

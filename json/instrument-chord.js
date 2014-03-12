@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "instrument-chord"
+        "phrase": "instrument-chord",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "Chord",
           "package": "instrument-chord",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "Chord",
           "package": "instrument-chord",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "ControlAnnotation",
           "package": "instrument-chord",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "ControlAnnotation",
           "package": "instrument-chord",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "AnnotateMarking",
           "package": "instrument-chord",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "AnnotateMarking",
           "package": "instrument-chord",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "AnnotateNote",
           "package": "instrument-chord",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "AnnotateNote",
           "package": "instrument-chord",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "AnnotatePositionHorizontal",
           "package": "instrument-chord",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "AnnotatePositionHorizontal",
           "package": "instrument-chord",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "AnnotatePositionVertical",
           "package": "instrument-chord",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "AnnotatePositionVertical",
           "package": "instrument-chord",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "dropD",
           "package": "instrument-chord",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "dropD",
           "normalized": "[Note]",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "findPositionPatterns",
           "package": "instrument-chord",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "findPositionPatterns",
           "normalized": "a-\u003e[Note]-\u003eInt-\u003e[[[Int]]]",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "getPositionPatternRange",
           "package": "instrument-chord",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "getPositionPatternRange",
           "normalized": "[[a]]-\u003e(a,a)",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "renderGuitarChord",
           "package": "instrument-chord",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "renderGuitarChord",
           "normalized": "ControlAnnotation-\u003eBool-\u003eBool-\u003e[Note]-\u003eChord-\u003eInt-\u003eInt-\u003e[Char]",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "renderPianoChord",
           "package": "instrument-chord",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "renderPianoChord",
           "normalized": "Int-\u003eControlAnnotation-\u003eChord-\u003eString",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "standardTuning",
           "package": "instrument-chord",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "standardTuning",
           "normalized": "[Note]",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:13 UTC 2014",
           "module": "Music.Instrument.Chord",
           "name": "ukelele",
           "package": "instrument-chord",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Music Instrument Chord",
+          "indexed": "2014-03-11T18:58:13",
           "module": "Music.Instrument.Chord",
           "name": "ukelele",
           "normalized": "[Note]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-newsfeed"
+        "phrase": "yesod-newsfeed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneration of Atom newsfeeds.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.AtomFeed",
           "name": "AtomFeed",
           "package": "yesod-newsfeed",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Generation of Atom newsfeeds",
           "hierarchy": "Yesod AtomFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.AtomFeed",
           "name": "AtomFeed",
           "package": "yesod-newsfeed",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe overall feed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.AtomFeed",
           "name": "Feed",
           "package": "yesod-newsfeed",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The overall feed",
           "hierarchy": "Yesod AtomFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.AtomFeed",
           "name": "Feed",
           "package": "yesod-newsfeed",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach feed entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.AtomFeed",
           "name": "FeedEntry",
           "package": "yesod-newsfeed",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Each feed entry",
           "hierarchy": "Yesod AtomFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.AtomFeed",
           "name": "FeedEntry",
           "package": "yesod-newsfeed",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.AtomFeed",
           "name": "RepAtom",
           "package": "yesod-newsfeed",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Yesod AtomFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.AtomFeed",
           "name": "RepAtom",
           "package": "yesod-newsfeed",
@@ -154,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.AtomFeed",
           "name": "RepAtom",
           "package": "yesod-newsfeed",
@@ -163,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Yesod AtomFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.AtomFeed",
           "name": "RepAtom",
           "package": "yesod-newsfeed",
@@ -176,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.AtomFeed",
           "name": "atomFeed",
           "package": "yesod-newsfeed",
@@ -185,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Yesod AtomFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.AtomFeed",
           "name": "atomFeed",
           "normalized": "Feed(Route(HandlerSite a))-\u003ea RepAtom",
@@ -201,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a link tag in the head of a widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.AtomFeed",
           "name": "atomLink",
           "package": "yesod-newsfeed",
@@ -210,6 +223,7 @@
         "index": {
           "description": "Generates link tag in the head of widget",
           "hierarchy": "Yesod AtomFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.AtomFeed",
           "name": "atomLink",
           "normalized": "Route(HandlerSite a)-\u003eText-\u003ea()",
@@ -507,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.Feed",
           "name": "Feed",
           "package": "yesod-newsfeed",
@@ -515,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Yesod Feed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.Feed",
           "name": "Feed",
           "package": "yesod-newsfeed",
@@ -529,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe overall feed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.Feed",
           "name": "Feed",
           "package": "yesod-newsfeed",
@@ -538,6 +555,7 @@
         "index": {
           "description": "The overall feed",
           "hierarchy": "Yesod Feed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.Feed",
           "name": "Feed",
           "package": "yesod-newsfeed",
@@ -552,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach feed entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.Feed",
           "name": "FeedEntry",
           "package": "yesod-newsfeed",
@@ -561,6 +580,7 @@
         "index": {
           "description": "Each feed entry",
           "hierarchy": "Yesod Feed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.Feed",
           "name": "FeedEntry",
           "package": "yesod-newsfeed",
@@ -574,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.Feed",
           "name": "newsFeed",
           "package": "yesod-newsfeed",
@@ -583,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Yesod Feed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.Feed",
           "name": "newsFeed",
           "normalized": "Feed(Route(HandlerSite a))-\u003ea TypedContent",
@@ -598,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.RssFeed",
           "name": "RssFeed",
           "package": "yesod-newsfeed",
@@ -606,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Yesod RssFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.RssFeed",
           "name": "RssFeed",
           "package": "yesod-newsfeed",
@@ -620,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe overall feed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.RssFeed",
           "name": "Feed",
           "package": "yesod-newsfeed",
@@ -629,6 +654,7 @@
         "index": {
           "description": "The overall feed",
           "hierarchy": "Yesod RssFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.RssFeed",
           "name": "Feed",
           "package": "yesod-newsfeed",
@@ -643,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach feed entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.RssFeed",
           "name": "FeedEntry",
           "package": "yesod-newsfeed",
@@ -652,6 +679,7 @@
         "index": {
           "description": "Each feed entry",
           "hierarchy": "Yesod RssFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.RssFeed",
           "name": "FeedEntry",
           "package": "yesod-newsfeed",
@@ -665,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.RssFeed",
           "name": "RepRss",
           "package": "yesod-newsfeed",
@@ -673,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Yesod RssFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.RssFeed",
           "name": "RepRss",
           "package": "yesod-newsfeed",
@@ -686,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.RssFeed",
           "name": "RepRss",
           "package": "yesod-newsfeed",
@@ -695,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Yesod RssFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.RssFeed",
           "name": "RepRss",
           "package": "yesod-newsfeed",
@@ -709,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the feed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.RssFeed",
           "name": "rssFeed",
           "package": "yesod-newsfeed",
@@ -719,6 +752,7 @@
         "index": {
           "description": "Generate the feed",
           "hierarchy": "Yesod RssFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.RssFeed",
           "name": "rssFeed",
           "normalized": "Feed(Route(HandlerSite a))-\u003ea RepRss",
@@ -735,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a link tag in the head of a widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:05 UTC 2014",
           "module": "Yesod.RssFeed",
           "name": "rssLink",
           "package": "yesod-newsfeed",
@@ -744,6 +779,7 @@
         "index": {
           "description": "Generates link tag in the head of widget",
           "hierarchy": "Yesod RssFeed",
+          "indexed": "2014-03-11T20:46:05",
           "module": "Yesod.RssFeed",
           "name": "rssLink",
           "normalized": "Route(HandlerSite a)-\u003eText-\u003ea()",

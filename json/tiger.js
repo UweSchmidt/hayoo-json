@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tiger"
+        "phrase": "tiger",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "opensoundcontrol-ht"
+        "phrase": "opensoundcontrol-ht",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.File",
           "name": "File",
           "package": "opensoundcontrol-ht",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound OpenSoundControl Transport File",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.File",
           "name": "File",
           "package": "opensoundcontrol-ht",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe File transport handle data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.File",
           "name": "T",
           "package": "opensoundcontrol-ht",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The File transport handle data type",
           "hierarchy": "Sound OpenSoundControl Transport File",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.File",
           "name": "T",
           "package": "opensoundcontrol-ht",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a command file.\nAll \u003ccode\u003e\u003ca\u003erecv\u003c/a\u003e\u003c/code\u003e calls are answered with \u003ccode\u003emsg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.File",
           "name": "open",
           "package": "opensoundcontrol-ht",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Open command file All recv calls are answered with msg",
           "hierarchy": "Sound OpenSoundControl Transport File",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.File",
           "name": "open",
           "normalized": "OSC-\u003eFilePath-\u003eIO T",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad.ByteString",
           "name": "ByteString",
           "package": "opensoundcontrol-ht",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Sound OpenSoundControl Transport Monad ByteString",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad.ByteString",
           "name": "ByteString",
           "package": "opensoundcontrol-ht",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite sent messages to a ByteString.\nAll \u003ccode\u003erecv\u003c/code\u003e calls are answered with \u003ccode\u003emsg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad.ByteString",
           "name": "run",
           "package": "opensoundcontrol-ht",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Write sent messages to ByteString All recv calls are answered with msg",
           "hierarchy": "Sound OpenSoundControl Transport Monad ByteString",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad.ByteString",
           "name": "run",
           "normalized": "OSC-\u003eT()-\u003eByteString",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRun a generic Transport monad action in the IO monad\nusing the IO transport types, e.g. TCP, UDP, or File.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "IO",
           "package": "opensoundcontrol-ht",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Run generic Transport monad action in the IO monad using the IO transport types e.g TCP UDP or File",
           "hierarchy": "Sound OpenSoundControl Transport Monad IO",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "IO",
           "package": "opensoundcontrol-ht",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "T",
           "package": "opensoundcontrol-ht",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Sound OpenSoundControl Transport Monad IO",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "T",
           "package": "opensoundcontrol-ht",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract over the underlying transport protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "Transport",
           "package": "opensoundcontrol-ht",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Abstract over the underlying transport protocol",
           "hierarchy": "Sound OpenSoundControl Transport Monad IO",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "Transport",
           "package": "opensoundcontrol-ht",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive and decode an OSC packet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "recv",
           "package": "opensoundcontrol-ht",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Receive and decode an OSC packet",
           "hierarchy": "Sound OpenSoundControl Transport Monad IO",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "recv",
           "package": "opensoundcontrol-ht",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode and send an OSC packet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "send",
           "package": "opensoundcontrol-ht",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Encode and send an OSC packet",
           "hierarchy": "Sound OpenSoundControl Transport Monad IO",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "send",
           "normalized": "OSC-\u003ea()",
@@ -299,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBracket Open Sound Control communication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "with",
           "package": "opensoundcontrol-ht",
@@ -309,6 +330,7 @@
         "index": {
           "description": "Bracket Open Sound Control communication",
           "hierarchy": "Sound OpenSoundControl Transport Monad IO",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad.IO",
           "name": "with",
           "normalized": "IO a-\u003eT a b-\u003eIO b",
@@ -324,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad class for monads that are able to do or simulate communication\nvia Open Sound Control.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad",
           "name": "Monad",
           "package": "opensoundcontrol-ht",
@@ -333,6 +356,7 @@
         "index": {
           "description": "Monad class for monads that are able to do or simulate communication via Open Sound Control",
           "hierarchy": "Sound OpenSoundControl Transport Monad",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad",
           "name": "Monad",
           "package": "opensoundcontrol-ht",
@@ -346,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad",
           "name": "C",
           "package": "opensoundcontrol-ht",
@@ -354,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Sound OpenSoundControl Transport Monad",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad",
           "name": "C",
           "package": "opensoundcontrol-ht",
@@ -367,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive and decode an OSC packet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad",
           "name": "recv",
           "package": "opensoundcontrol-ht",
@@ -377,6 +404,7 @@
         "index": {
           "description": "Receive and decode an OSC packet",
           "hierarchy": "Sound OpenSoundControl Transport Monad",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad",
           "name": "recv",
           "package": "opensoundcontrol-ht",
@@ -390,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode and send an OSC packet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:14 UTC 2014",
           "module": "Sound.OpenSoundControl.Transport.Monad",
           "name": "send",
           "package": "opensoundcontrol-ht",
@@ -400,6 +429,7 @@
         "index": {
           "description": "Encode and send an OSC packet",
           "hierarchy": "Sound OpenSoundControl Transport Monad",
+          "indexed": "2014-03-11T19:32:14",
           "module": "Sound.OpenSoundControl.Transport.Monad",
           "name": "send",
           "normalized": "OSC-\u003ea()",

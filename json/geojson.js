@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "geojson"
+        "phrase": "geojson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Geospatial",
           "package": "geojson",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Geospatial",
           "package": "geojson",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Altitude",
           "package": "geojson",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Altitude",
           "package": "geojson",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee Section 4 \u003ca\u003eBounding Boxes\u003c/a\u003e of the GeoJSON spec,\n The length of the list/array must be 2*n where n is the dimensionality of the position type for the CRS\n with min values first followed by the max values, wich both the min/max sets following the same axis order as the CRS,\n e.g for WGS84: minLongitude, minLatitude, maxLongitude, maxLatitude\n The spec mentions that it can be part of a geometry object too but doesnt give an example,\n This implementation will ignore bboxes on Geometry objects, they can be added if required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "BoundingBoxWithoutCRS",
           "package": "geojson",
@@ -70,6 +75,7 @@
         "index": {
           "description": "See Section Bounding Boxes of the GeoJSON spec The length of the list array must be where is the dimensionality of the position type for the CRS with min values first followed by the max values wich both the min max sets following the same axis order as the CRS e.g for WGS84 minLongitude minLatitude maxLongitude maxLatitude The spec mentions that it can be part of geometry object too but doesnt give an example This implementation will ignore bboxes on Geometry objects they can be added if required",
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "BoundingBoxWithoutCRS",
           "package": "geojson",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee Section 3 \u003ca\u003eCoordinate Reference System Objects\u003c/a\u003e in the GeoJSON Spec\n \u003ca\u003eNoCRS\u003c/a\u003e is required because no \u003ccode\u003ecrs\u003c/code\u003e attribute in a GeoJSON feature is NOT the same thing as\n a null \u003ccode\u003ecrs\u003c/code\u003e attribute. no \u003ccode\u003ecrs\u003c/code\u003e value implies the default CRS, while a null CRS means\n you cannot assume a CRS, null will mapped to NoCRS while a non-existent attribute will\n be mapped to a Nothing Maybe value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "CRSObject",
           "package": "geojson",
@@ -93,6 +100,7 @@
         "index": {
           "description": "See Section Coordinate Reference System Objects in the GeoJSON Spec NoCRS is required because no crs attribute in GeoJSON feature is NOT the same thing as null crs attribute no crs value implies the default CRS while null CRS means you cannot assume CRS null will mapped to NoCRS while non-existent attribute will be mapped to Nothing Maybe value",
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "CRSObject",
           "package": "geojson",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Code",
           "package": "geojson",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Code",
           "package": "geojson",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Easting",
           "package": "geojson",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Easting",
           "package": "geojson",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "FeatureID",
           "package": "geojson",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "FeatureID",
           "package": "geojson",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "FormatString",
           "package": "geojson",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "FormatString",
           "package": "geojson",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee Section 2.2 \u003ca\u003eFeature Objects\u003c/a\u003e of the GeoJSON spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoFeature",
           "package": "geojson",
@@ -200,6 +217,7 @@
         "index": {
           "description": "See Section Feature Objects of the GeoJSON spec",
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoFeature",
           "package": "geojson",
@@ -214,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee Section 2.3 \u003ca\u003eFeature Collection Objects\u003c/a\u003e of the GeoJSON spec\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoFeatureCollection",
           "package": "geojson",
@@ -223,6 +242,7 @@
         "index": {
           "description": "See Section Feature Collection Objects of the GeoJSON spec",
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoFeatureCollection",
           "package": "geojson",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoLine",
           "package": "geojson",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoLine",
           "package": "geojson",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoMultiLine",
           "package": "geojson",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoMultiLine",
           "package": "geojson",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoMultiPoint",
           "package": "geojson",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoMultiPoint",
           "package": "geojson",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoMultiPolygon",
           "package": "geojson",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoMultiPolygon",
           "package": "geojson",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoPoint",
           "package": "geojson",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoPoint",
           "package": "geojson",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoPolyLine",
           "package": "geojson",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoPolyLine",
           "package": "geojson",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoPolygon",
           "package": "geojson",
@@ -370,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoPolygon",
           "package": "geojson",
@@ -384,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee Section 2.1.1 \u003ca\u003ePosition\u003c/a\u003e in the GeoJSON Spec,\n I make the assumption here that the only position types we will use will\n involve easting\u003cem\u003enorthing (+\u003c/em\u003e- Altitude) or lon\u003cem\u003elat (+\u003c/em\u003e- Altitude)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoPosition",
           "package": "geojson",
@@ -393,6 +428,7 @@
         "index": {
           "description": "see Section Position in the GeoJSON Spec make the assumption here that the only position types we will use will involve easting northing Altitude or lon lat Altitude",
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoPosition",
           "package": "geojson",
@@ -407,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(\u003ca\u003eWithoutCRS\u003c/a\u003e is a catch all for indeterminate CRSs and for expression of positions\n before a CRS has been determined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoPositionWithoutCRS",
           "package": "geojson",
@@ -416,6 +453,7 @@
         "index": {
           "description": "WithoutCRS is catch all for indeterminate CRSs and for expression of positions before CRS has been determined",
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoPositionWithoutCRS",
           "package": "geojson",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoProperty",
           "package": "geojson",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoProperty",
           "package": "geojson",
@@ -451,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccording to section 2.2 \u003ca\u003eFeature Objects\u003c/a\u003e of the GeoJSON spec, the \u003ca\u003eproperties\u003c/a\u003e object\n can be any JSON object, or a null value, we may as well just make it a Type Alias\n for JSValue, even though it has a wider scope (Integer, Rational, String etc...)\n to take advantage of the solid JSON code out there to handle generic objects and the null value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoPropertyObject",
           "package": "geojson",
@@ -460,6 +501,7 @@
         "index": {
           "description": "According to section Feature Objects of the GeoJSON spec the properties object can be any JSON object or null value we may as well just make it Type Alias for JSValue even though it has wider scope Integer Rational String etc to take advantage of the solid JSON code out there to handle generic objects and the null value",
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoPropertyObject",
           "package": "geojson",
@@ -474,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee section 2.1 \u003ca\u003eGeometry Objects\u003c/a\u003e in the GeoJSON Spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeospatialGeometry",
           "package": "geojson",
@@ -483,6 +526,7 @@
         "index": {
           "description": "See section Geometry Objects in the GeoJSON Spec",
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeospatialGeometry",
           "package": "geojson",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Href",
           "package": "geojson",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Href",
           "package": "geojson",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Latitude",
           "package": "geojson",
@@ -525,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Latitude",
           "package": "geojson",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Longitude",
           "package": "geojson",
@@ -546,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Longitude",
           "package": "geojson",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Name",
           "package": "geojson",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Name",
           "package": "geojson",
@@ -580,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Northing",
           "package": "geojson",
@@ -588,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Northing",
           "package": "geojson",
@@ -601,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "ProjectionType",
           "package": "geojson",
@@ -609,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "ProjectionType",
           "package": "geojson",
@@ -622,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Collection",
           "package": "geojson",
@@ -631,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Collection",
           "normalized": "Collection[GeospatialGeometry]",
@@ -646,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "DoubleProperty",
           "package": "geojson",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "DoubleProperty",
           "package": "geojson",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "EPSG",
           "package": "geojson",
@@ -677,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "EPSG",
           "package": "geojson",
@@ -690,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "EastingNorthing",
           "package": "geojson",
@@ -699,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "EastingNorthing",
           "package": "geojson",
@@ -712,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "EastingNorthingAlt",
           "package": "geojson",
@@ -721,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "EastingNorthingAlt",
           "package": "geojson",
@@ -734,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "FloatProperty",
           "package": "geojson",
@@ -743,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "FloatProperty",
           "package": "geojson",
@@ -756,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoFeature",
           "package": "geojson",
@@ -765,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoFeature",
           "package": "geojson",
@@ -778,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoFeatureCollection",
           "package": "geojson",
@@ -787,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoFeatureCollection",
           "normalized": "GeoFeatureCollection(Maybe BoundingBoxWithoutCRS)[GeoFeature]",
@@ -802,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoLine",
           "package": "geojson",
@@ -811,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoLine",
           "normalized": "GeoLine[GeoPositionWithoutCRS]",
@@ -826,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoMultiLine",
           "package": "geojson",
@@ -835,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoMultiLine",
           "normalized": "GeoMultiLine[GeoLine]",
@@ -850,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoMultiPoint",
           "package": "geojson",
@@ -859,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoMultiPoint",
           "normalized": "GeoMultiPoint[GeoPoint]",
@@ -874,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoMultiPolygon",
           "package": "geojson",
@@ -883,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoMultiPolygon",
           "normalized": "GeoMultiPolygon[GeoPolygon]",
@@ -898,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoPoint",
           "package": "geojson",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoPoint",
           "package": "geojson",
@@ -920,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "GeoPolygon",
           "package": "geojson",
@@ -929,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "GeoPolygon",
           "normalized": "GeoPolygon[GeoPositionWithoutCRS]",
@@ -944,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "IntProperty",
           "package": "geojson",
@@ -953,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "IntProperty",
           "package": "geojson",
@@ -966,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Line",
           "package": "geojson",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Line",
           "package": "geojson",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "LineString",
           "package": "geojson",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "LineString",
           "package": "geojson",
@@ -1010,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "LinkedCRS",
           "package": "geojson",
@@ -1019,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "LinkedCRS",
           "package": "geojson",
@@ -1032,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "LonLat",
           "package": "geojson",
@@ -1041,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "LonLat",
           "package": "geojson",
@@ -1054,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "LonLatAlt",
           "package": "geojson",
@@ -1063,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "LonLatAlt",
           "package": "geojson",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "MultiLine",
           "package": "geojson",
@@ -1085,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "MultiLine",
           "package": "geojson",
@@ -1098,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "MultiPoint",
           "package": "geojson",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "MultiPoint",
           "package": "geojson",
@@ -1120,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "MultiPolygon",
           "package": "geojson",
@@ -1129,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "MultiPolygon",
           "package": "geojson",
@@ -1142,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "NamedCRS",
           "package": "geojson",
@@ -1151,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "NamedCRS",
           "package": "geojson",
@@ -1164,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "NoCRS",
           "package": "geojson",
@@ -1173,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "NoCRS",
           "package": "geojson",
@@ -1186,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "NoGeometry",
           "package": "geojson",
@@ -1195,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "NoGeometry",
           "package": "geojson",
@@ -1208,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Point",
           "package": "geojson",
@@ -1217,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Point",
           "package": "geojson",
@@ -1230,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Poly",
           "package": "geojson",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Poly",
           "package": "geojson",
@@ -1252,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "Polygon",
           "package": "geojson",
@@ -1261,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "Polygon",
           "package": "geojson",
@@ -1274,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "PropertyObject",
           "package": "geojson",
@@ -1283,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "PropertyObject",
           "package": "geojson",
@@ -1296,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "StringProperty",
           "package": "geojson",
@@ -1305,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "StringProperty",
           "package": "geojson",
@@ -1318,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "bbox",
           "package": "geojson",
@@ -1327,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "bbox",
           "package": "geojson",
@@ -1340,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default CRS according to Section 3 \u003ca\u003eCoordinate Reference System Objects\u003c/a\u003e is WGS84 which I believe,\n from http:\u003cem/\u003espatialreference.org\u003cem\u003eref\u003c/em\u003eepsg\u003cem\u003e4326\u003c/em\u003e -\u003e [JSON](http:\u003cem/\u003espatialreference.org\u003cem\u003eref\u003c/em\u003eepsg\u003cem\u003e4326\u003c/em\u003ejson/ \u003ca\u003eWGS84 in JSON\u003c/a\u003e)\n is represented thus:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "defaultCRS",
           "package": "geojson",
@@ -1350,6 +1471,7 @@
         "index": {
           "description": "The default CRS according to Section Coordinate Reference System Objects is WGS84 which believe from http spatialreference.org ref epsg JSON http spatialreference.org ref epsg json WGS84 in JSON is represented thus",
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "defaultCRS",
           "package": "geojson",
@@ -1363,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "featureId",
           "package": "geojson",
@@ -1372,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "featureId",
           "package": "geojson",
@@ -1385,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "geometry",
           "package": "geojson",
@@ -1394,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "geometry",
           "package": "geojson",
@@ -1406,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "properties",
           "package": "geojson",
@@ -1415,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "properties",
           "package": "geojson",
@@ -1428,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe GeoPosition is a bit special in that when you convert it to GeoJSON,\n it will lose the CRS info attached to it and cannot be read back in\n from the GeoJSON.  Hence it is ineligible for the JSON type class,\n so this function will strip it down to a GeoPositionWithoutCRS, which is eligible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Data.Geospatial",
           "name": "stripCRSFromPosition",
           "package": "geojson",
@@ -1438,6 +1567,7 @@
         "index": {
           "description": "the GeoPosition is bit special in that when you convert it to GeoJSON it will lose the CRS info attached to it and cannot be read back in from the GeoJSON Hence it is ineligible for the JSON type class so this function will strip it down to GeoPositionWithoutCRS which is eligible",
           "hierarchy": "Data Geospatial",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Data.Geospatial",
           "name": "stripCRSFromPosition",
           "normalized": "GeoPosition-\u003eGeoPositionWithoutCRS",
@@ -1453,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:36 UTC 2014",
           "module": "Text.GeoJSON",
           "name": "GeoJSON",
           "package": "geojson",
@@ -1461,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Text GeoJSON",
+          "indexed": "2014-03-11T18:15:36",
           "module": "Text.GeoJSON",
           "name": "GeoJSON",
           "package": "geojson",

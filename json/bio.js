@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bio"
+        "phrase": "bio",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplement alignments/edit distance with affine gap penalties\n\u003c/p\u003e\u003cp\u003eI've seen g = (-10,-1) as the suggested price to pay for a gaps\n   using BLOSUM62.  Good choice as any, I guess.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AAlign",
           "name": "AAlign",
           "package": "bio",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implement alignments edit distance with affine gap penalties ve seen as the suggested price to pay for gaps using BLOSUM62 Good choice as any guess",
           "hierarchy": "Bio Alignment AAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AAlign",
           "name": "AAlign",
           "package": "bio",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate global alignment (Needleman-Wunsch)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AAlign",
           "name": "global_align",
           "package": "bio",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Calculate global alignment Needleman-Wunsch",
           "hierarchy": "Bio Alignment AAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AAlign",
           "name": "global_align",
           "normalized": "SubstMx a b-\u003e(b,b)-\u003eSequence a-\u003eSequence a-\u003e(b,EditList)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate global edit distance (Needleman-Wunsch alignment score)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AAlign",
           "name": "global_score",
           "package": "bio",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Calculate global edit distance Needleman-Wunsch alignment score",
           "hierarchy": "Bio Alignment AAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AAlign",
           "name": "global_score",
           "normalized": "SubstMx a b-\u003e(b,b)-\u003eSequence a-\u003eSequence a-\u003eb",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate local alignmnet (Smith-Waterman)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AAlign",
           "name": "local_align",
           "package": "bio",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Calculate local alignmnet Smith-Waterman",
           "hierarchy": "Bio Alignment AAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AAlign",
           "name": "local_align",
           "normalized": "SubstMx a b-\u003e(b,b)-\u003eSequence a-\u003eSequence a-\u003e(b,EditList)",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate local edit distance (Smith-Waterman alignment score)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AAlign",
           "name": "local_score",
           "package": "bio",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Calculate local edit distance Smith-Waterman alignment score",
           "hierarchy": "Bio Alignment AAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AAlign",
           "name": "local_score",
           "normalized": "SubstMx a b-\u003e(b,b)-\u003eSequence a-\u003eSequence a-\u003eb",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead ACE format assembly files\n\u003c/p\u003e\u003cp\u003eThese are typically output by sequence assembly tools,\n   like CAP3 or Phrap.\n\u003c/p\u003e\u003cp\u003eDocumented in the section labelled \"ACE FILE FORMAT\" at\n   \u003ca\u003ehttp://bozeman.mbt.washington.edu/consed/distributions/README.14.0.txt\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eBriefly: each field is a line starting with a two letter code,\n            in some cases followed by data lines termintated by a blank line.\n   Here's an brief example how an ACE file looks like:\n\u003c/p\u003e\u003cpre\u003e\n          AS contigs reads\n          CO contig_name bases reads segments compl (CAP3: segments=0)\n          sequence\n          BQ base_qualities\n          AF read1 compl padded_start_consensus (negatives meaning?)\n          AF read2 ..\n          BS segments\n          RD read1 bases info_items info_tags (latter two set to 0 by CAP3)\n          sequence\n          QA read1 qual_start qual_end align_start align_end\n          DS (phred header? left empty by CAP3)\n          RD read2 ...\n\u003c/pre\u003e\u003cp\u003eAs far as I know, this is only used for nucleotide sequences.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.ACE",
           "name": "ACE",
           "package": "bio",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Read ACE format assembly files These are typically output by sequence assembly tools like CAP3 or Phrap Documented in the section labelled ACE FILE FORMAT at http bozeman.mbt.washington.edu consed distributions README.14.0.txt Briefly each field is line starting with two letter code in some cases followed by data lines termintated by blank line Here an brief example how an ACE file looks like AS contigs reads CO contig name bases reads segments compl CAP3 segments sequence BQ base qualities AF read1 compl padded start consensus negatives meaning AF read2 BS segments RD read1 bases info items info tags latter two set to by CAP3 sequence QA read1 qual start qual end align start align end DS phred header left empty by CAP3 RD read2 As far as know this is only used for nucleotide sequences",
           "hierarchy": "Bio Alignment ACE",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.ACE",
           "name": "ACE",
           "package": "bio",
@@ -164,6 +176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.ACE",
           "name": "Assembly",
           "package": "bio",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment ACE",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.ACE",
           "name": "Assembly",
           "package": "bio",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.ACE",
           "name": "Asm",
           "package": "bio",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment ACE",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.ACE",
           "name": "Asm",
           "package": "bio",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.ACE",
           "name": "contig",
           "package": "bio",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment ACE",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.ACE",
           "name": "contig",
           "normalized": "(Sequence Nuc,Gaps)",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.ACE",
           "name": "fragments",
           "package": "bio",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment ACE",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.ACE",
           "name": "fragments",
           "package": "bio",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest parser p on a list of ACE elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.ACE",
           "name": "ptest",
           "package": "bio",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Test parser on list of ACE elements",
           "hierarchy": "Bio Alignment ACE",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.ACE",
           "name": "ptest",
           "normalized": "String-\u003eAceParser a-\u003e[ACE]-\u003eIO()",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReading an ACE file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.ACE",
           "name": "readACE",
           "package": "bio",
@@ -287,6 +310,7 @@
         "index": {
           "description": "Reading an ACE file",
           "hierarchy": "Bio Alignment ACE",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.ACE",
           "name": "readACE",
           "normalized": "FilePath-\u003eIO[[Assembly]]",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Stupid name, replaced by \u003ccode\u003e\u003ca\u003efragments\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.ACE",
           "name": "reads",
           "package": "bio",
@@ -313,6 +338,7 @@
         "index": {
           "description": "Deprecated Stupid name replaced by fragments",
           "hierarchy": "Bio Alignment ACE",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.ACE",
           "name": "reads",
           "normalized": "Assembly-\u003eAlignment Nuc",
@@ -327,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.ACE",
           "name": "writeACE",
           "package": "bio",
@@ -336,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment ACE",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.ACE",
           "name": "writeACE",
           "normalized": "FilePath-\u003e[Assembly]-\u003eIO()",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures and helper functions for calculating alignments\n\u003c/p\u003e\u003cp\u003eThere are two ways to view an alignment: either as a list of edits\n   (i.e., insertions, deletions, or substitutions), or as a set of sequences\n   with inserted gaps.\n\u003c/p\u003e\u003cp\u003eThe edit list approach is perhaps more restrictive model but doesn't generalize\n   to multiple alignments.\n\u003c/p\u003e\u003cp\u003eThe gap approach is more general, and probably more commonly used by other software\n   (see e.g. the ACE file format).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "AlignData",
           "package": "bio",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Data structures and helper functions for calculating alignments There are two ways to view an alignment either as list of edits i.e insertions deletions or substitutions or as set of sequences with inserted gaps The edit list approach is perhaps more restrictive model but doesn generalize to multiple alignments The gap approach is more general and probably more commonly used by other software see e.g the ACE file format",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "AlignData",
           "package": "bio",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Alignment",
           "package": "bio",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "Alignment",
           "package": "bio",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sequence element type, used in alignments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Chr",
           "package": "bio",
@@ -405,6 +438,7 @@
         "index": {
           "description": "The sequence element type used in alignments",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "Chr",
           "package": "bio",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Dir",
           "package": "bio",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "Dir",
           "package": "bio",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Edit is either the insertion, the deletion,\n   or the replacement of a character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Edit",
           "package": "bio",
@@ -449,6 +486,7 @@
         "index": {
           "description": "An Edit is either the insertion the deletion or the replacement of character",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "Edit",
           "package": "bio",
@@ -463,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alignment is a sequence of edits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "EditList",
           "package": "bio",
@@ -472,6 +511,7 @@
         "index": {
           "description": "An alignment is sequence of edits",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "EditList",
           "package": "bio",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Gaps",
           "package": "bio",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "Gaps",
           "package": "bio",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Selector consists of a zero element, and a funcition\n   that chooses a possible Edit operation, and generates an updated result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Selector",
           "package": "bio",
@@ -516,6 +559,7 @@
         "index": {
           "description": "Selector consists of zero element and funcition that chooses possible Edit operation and generates an updated result",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "Selector",
           "package": "bio",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA substitution matrix gives scores for replacing a character with another.\n   Typically, it will be symmetric.  It is type-tagged with the alphabet - Nuc or Amino.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "SubstMx",
           "package": "bio",
@@ -539,6 +584,7 @@
         "index": {
           "description": "substitution matrix gives scores for replacing character with another Typically it will be symmetric It is type-tagged with the alphabet Nuc or Amino",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "SubstMx",
           "package": "bio",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Del",
           "package": "bio",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "Del",
           "package": "bio",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Fwd",
           "package": "bio",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "Fwd",
           "package": "bio",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Ins",
           "package": "bio",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "Ins",
           "package": "bio",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Repl",
           "package": "bio",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "Repl",
           "package": "bio",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "Rev",
           "package": "bio",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "Rev",
           "package": "bio",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate a set of columns containing scores\n   This represents the columns of the alignment matrix, but will only require linear space\n   for score calculation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "columns",
           "package": "bio",
@@ -673,6 +730,7 @@
         "index": {
           "description": "Calculate set of columns containing scores This represents the columns of the alignment matrix but will only require linear space for score calculation",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "columns",
           "normalized": "Selector a-\u003ea-\u003eSequence b-\u003eSequence b-\u003e[[a]]",
@@ -688,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an Edit based on SubstMx and gap penalty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "eval",
           "package": "bio",
@@ -698,6 +757,7 @@
         "index": {
           "description": "Evaluate an Edit based on SubstMx and gap penalty",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "eval",
           "normalized": "SubstMx a b-\u003eb-\u003eEdit-\u003eb",
@@ -713,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGaps are coded as \u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003es, this function removes them, and returns\n   the sequence along with the list of gap positions.\n   note that gaps are positioned relative to the *gapped* sequence \n   (contrast to stmassembler/Cluster.hs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "extractGaps",
           "package": "bio",
@@ -723,6 +784,7 @@
         "index": {
           "description": "Gaps are coded as this function removes them and returns the sequence along with the list of gap positions note that gaps are positioned relative to the gapped sequence contrast to stmassembler Cluster.hs",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "extractGaps",
           "normalized": "SeqData-\u003e(SeqData,Gaps)",
@@ -738,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "insertGaps",
           "package": "bio",
@@ -747,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "insertGaps",
           "normalized": "Char-\u003e(SeqData,Gaps)-\u003eSeqData",
@@ -763,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the Edit is a Repl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "isRepl",
           "package": "bio",
@@ -773,6 +838,7 @@
         "index": {
           "description": "True if the Edit is Repl",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "isRepl",
           "normalized": "Edit-\u003eBool",
@@ -788,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "on",
           "package": "bio",
@@ -797,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "on",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(a-\u003ea)-\u003ea-\u003ea-\u003ea",
@@ -811,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "showalign",
           "package": "bio",
@@ -820,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "showalign",
           "normalized": "[Edit]-\u003e[Char]",
@@ -835,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eturn an alignment into sequences with \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e representing gaps\n (for checking, filtering out the \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e characters should return\n the original sequences, provided \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e isn't part of the sequence\n alphabet)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.AlignData",
           "name": "toStrings",
           "package": "bio",
@@ -845,6 +916,7 @@
         "index": {
           "description": "turn an alignment into sequences with representing gaps for checking filtering out the characters should return the original sequences provided isn part of the sequence alphabet",
           "hierarchy": "Bio Alignment AlignData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.AlignData",
           "name": "toStrings",
           "normalized": "EditList-\u003e(String,String)",
@@ -861,6 +933,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModel the BED format, according to the spec at\n http:\u003cem/\u003egenome.ucsc.edu\u003cem\u003eFAQ\u003c/em\u003eFAQformat#format1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "BED",
           "package": "bio",
@@ -870,6 +943,7 @@
         "index": {
           "description": "Model the BED format according to the spec at http genome.ucsc.edu FAQ FAQformat format1",
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "BED",
           "package": "bio",
@@ -884,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe BED data type Note that the specification allows a variable number of fields, with\n only the three first required.  This definition requires all fields to be present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "BED",
           "package": "bio",
@@ -893,6 +968,7 @@
         "index": {
           "description": "The BED data type Note that the specification allows variable number of fields with only the three first required This definition requires all fields to be present",
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "BED",
           "package": "bio",
@@ -907,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYet another direction data structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "Dir",
           "package": "bio",
@@ -916,6 +993,7 @@
         "index": {
           "description": "Yet another direction data structure",
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "Dir",
           "package": "bio",
@@ -929,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "BED",
           "package": "bio",
@@ -938,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "BED",
           "package": "bio",
@@ -951,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "Fwd",
           "package": "bio",
@@ -960,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "Fwd",
           "package": "bio",
@@ -973,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "Rev",
           "package": "bio",
@@ -982,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "Rev",
           "package": "bio",
@@ -996,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists of lenght blockCount, blockStarts\n  are relative to chromStart\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "blockSizeStart",
           "package": "bio",
@@ -1006,6 +1091,7 @@
         "index": {
           "description": "Lists of lenght blockCount blockStarts are relative to chromStart",
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "blockSizeStart",
           "normalized": "[(Offset,Offset)]",
@@ -1021,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "chrom",
           "package": "bio",
@@ -1030,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "chrom",
           "package": "bio",
@@ -1042,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "chromEnd",
           "package": "bio",
@@ -1051,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "chromEnd",
           "package": "bio",
@@ -1064,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "chromStart",
           "package": "bio",
@@ -1073,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "chromStart",
           "package": "bio",
@@ -1087,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable BED files appear to not\n support this format.  RGB is therefore\n ignored (read and written as '0')\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "itemRGB",
           "package": "bio",
@@ -1097,6 +1190,7 @@
         "index": {
           "description": "Available BED files appear to not support this format RGB is therefore ignored read and written as",
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "itemRGB",
           "normalized": "(Word,Word,Word)",
@@ -1112,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "name",
           "package": "bio",
@@ -1121,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "name",
           "package": "bio",
@@ -1133,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "readBED",
           "package": "bio",
@@ -1142,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "readBED",
           "normalized": "FilePath-\u003eIO[BED]",
@@ -1158,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRange 0..1000\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "score",
           "package": "bio",
@@ -1168,6 +1267,7 @@
         "index": {
           "description": "Range",
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "score",
           "package": "bio",
@@ -1180,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "strand",
           "package": "bio",
@@ -1189,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "strand",
           "package": "bio",
@@ -1201,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "thickEnd",
           "package": "bio",
@@ -1210,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "thickEnd",
           "package": "bio",
@@ -1223,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "thickStart",
           "package": "bio",
@@ -1232,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "thickStart",
           "package": "bio",
@@ -1245,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BED",
           "name": "writeBED",
           "package": "bio",
@@ -1254,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BED",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BED",
           "name": "writeBED",
           "normalized": "FilePath-\u003e[BED]-\u003eIO()",
@@ -1270,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use XML output and the BlastXML module\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eThis module implements a parser for BLAST results.\n\u003c/p\u003e\u003cp\u003eThis module is DEPRECATED.\n   It is *very* recommended that you run blast with XML output\n   instaed, and use the BlastXML module to parse it.\n   Don't say I didn't warn you!\n\u003c/p\u003e\u003cp\u003eBLAST is a tool for searching in (biological) sequences for\n   similarity.  This library is tested against NCBI-blast version\n   2.2.14.  There exist several independent versions, so expect some\n   incompatbilities if you're using a different BLAST version.\n\u003c/p\u003e\u003cp\u003eThe format is straightforward (and non-recursive), and this implementation\n   uses a simple line-based, hierarchical parser.\n\u003c/p\u003e\u003cp\u003eFor more information on BLAST, check \u003ca\u003ehttp://www.ncbi.nlm.nih.gov/Education/BLASTinfo/information3.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Blast",
           "name": "Blast",
           "package": "bio",
@@ -1279,6 +1388,7 @@
         "index": {
           "description": "Deprecated Use XML output and the BlastXML module This module implements parser for BLAST results This module is DEPRECATED It is very recommended that you run blast with XML output instaed and use the BlastXML module to parse it Don say didn warn you BLAST is tool for searching in biological sequences for similarity This library is tested against NCBI-blast version There exist several independent versions so expect some incompatbilities if you re using different BLAST version The format is straightforward and non-recursive and this implementation uses simple line-based hierarchical parser For more information on BLAST check http www.ncbi.nlm.nih.gov Education BLASTinfo information3.html",
           "hierarchy": "Bio Alignment Blast",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Blast",
           "name": "Blast",
           "package": "bio",
@@ -1292,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Blast",
           "name": "parse",
           "package": "bio",
@@ -1301,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Blast",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Blast",
           "name": "parse",
           "normalized": "ByteString-\u003eBlastResult",
@@ -1316,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a hierarchical data structure for BLAST results,\n   there is an alternative flat structure in the \u003ca\u003eBio.Alignment.BlastFlat\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003eBLAST is a tool for searching in (biological) sequences for\n   similarity.  This library is tested against NCBI-blast version\n   2.2.14.  There exist several independent versions of BLAST, so expect some\n   incompatbilities if you're using a different BLAST version.\n\u003c/p\u003e\u003cp\u003eFor parsing BLAST results, the XML format (blastall -m 7) is by far the most\n   robust choice, and is implemented in the \u003ca\u003eBio.Alignment.BlastXML\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003eThe format is straightforward (and non-recursive).\n   For more information on BLAST, check \u003ca\u003ehttp://www.ncbi.nlm.nih.gov/Education/BLASTinfo/information3.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastData",
           "package": "bio",
@@ -1325,6 +1438,7 @@
         "index": {
           "description": "This module implements hierarchical data structure for BLAST results there is an alternative flat structure in the Bio.Alignment.BlastFlat module BLAST is tool for searching in biological sequences for similarity This library is tested against NCBI-blast version There exist several independent versions of BLAST so expect some incompatbilities if you re using different BLAST version For parsing BLAST results the XML format blastall is by far the most robust choice and is implemented in the Bio.Alignment.BlastXML module The format is straightforward and non-recursive For more information on BLAST check http www.ncbi.nlm.nih.gov Education BLASTinfo information3.html",
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastData",
           "package": "bio",
@@ -1339,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Aux field in the BLAST output includes match information that depends\n   on the BLAST flavor (blastn, blastx, or blastp).  This data structure captures\n   those variations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "Aux",
           "package": "bio",
@@ -1348,6 +1463,7 @@
         "index": {
           "description": "The Aux field in the BLAST output includes match information that depends on the BLAST flavor blastn blastx or blastp This data structure captures those variations",
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "Aux",
           "package": "bio",
@@ -1362,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach match between a query and a target sequence (or subject)\n   is a \u003ccode\u003e\u003ca\u003eBlastHit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastHit",
           "package": "bio",
@@ -1371,6 +1488,7 @@
         "index": {
           "description": "Each match between query and target sequence or subject is BlastHit",
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastHit",
           "package": "bio",
@@ -1385,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBlastHit\u003c/a\u003e\u003c/code\u003e may contain multiple separate matches (typcially when\n   an indel causes a frameshift that blastx is unable to bridge).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastMatch",
           "package": "bio",
@@ -1394,6 +1513,7 @@
         "index": {
           "description": "BlastHit may contain multiple separate matches typcially when an indel causes frameshift that blastx is unable to bridge",
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastMatch",
           "package": "bio",
@@ -1408,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach query sequence generates a \u003ccode\u003e\u003ca\u003eBlastRecord\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastRecord",
           "package": "bio",
@@ -1417,6 +1538,7 @@
         "index": {
           "description": "Each query sequence generates BlastRecord",
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastRecord",
           "package": "bio",
@@ -1431,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBlastResult\u003c/a\u003e\u003c/code\u003e is the root of the hierarchy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastResult",
           "package": "bio",
@@ -1440,6 +1563,7 @@
         "index": {
           "description": "BlastResult is the root of the hierarchy",
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastResult",
           "package": "bio",
@@ -1454,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sequence id, i.e. the first word of the header field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "SeqId",
           "package": "bio",
@@ -1463,6 +1588,7 @@
         "index": {
           "description": "The sequence id i.e the first word of the header field",
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "SeqId",
           "package": "bio",
@@ -1477,6 +1603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eStrand\u003c/a\u003e\u003c/code\u003e indicates the direction of the match, i.e. the plain sequence or\n   its reverse complement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "Strand",
           "package": "bio",
@@ -1486,6 +1613,7 @@
         "index": {
           "description": "The Strand indicates the direction of the match i.e the plain sequence or its reverse complement",
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "Strand",
           "package": "bio",
@@ -1499,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastHit",
           "package": "bio",
@@ -1508,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastHit",
           "package": "bio",
@@ -1521,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastMatch",
           "package": "bio",
@@ -1530,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastMatch",
           "package": "bio",
@@ -1543,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastRecord",
           "package": "bio",
@@ -1552,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastRecord",
           "package": "bio",
@@ -1565,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastResult",
           "package": "bio",
@@ -1574,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "BlastResult",
           "package": "bio",
@@ -1683,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "aux",
           "package": "bio",
@@ -1692,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "aux",
           "package": "bio",
@@ -1704,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "bits",
           "package": "bio",
@@ -1713,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "bits",
           "package": "bio",
@@ -1725,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "blastdate",
           "package": "bio",
@@ -1734,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "blastdate",
           "package": "bio",
@@ -1746,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "blastprogram",
           "package": "bio",
@@ -1755,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "blastprogram",
           "package": "bio",
@@ -1767,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "blastreferences",
           "package": "bio",
@@ -1776,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "blastreferences",
           "package": "bio",
@@ -1788,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "blastversion",
           "package": "bio",
@@ -1797,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "blastversion",
           "package": "bio",
@@ -1809,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "database",
           "package": "bio",
@@ -1818,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "database",
           "package": "bio",
@@ -1830,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "dbchars",
           "package": "bio",
@@ -1839,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "dbchars",
           "package": "bio",
@@ -1851,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "dbsequences",
           "package": "bio",
@@ -1860,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "dbsequences",
           "package": "bio",
@@ -1872,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "e_val",
           "package": "bio",
@@ -1881,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "e_val",
           "package": "bio",
@@ -1893,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "h_from",
           "package": "bio",
@@ -1902,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "h_from",
           "package": "bio",
@@ -1914,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "h_to",
           "package": "bio",
@@ -1923,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "h_to",
           "package": "bio",
@@ -1935,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "hits",
           "package": "bio",
@@ -1944,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "hits",
           "normalized": "[BlastHit]",
@@ -1958,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "identity",
           "package": "bio",
@@ -1967,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "identity",
           "normalized": "(Int,Int)",
@@ -1981,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "matches",
           "package": "bio",
@@ -1990,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "matches",
           "normalized": "[BlastMatch]",
@@ -2004,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "q_from",
           "package": "bio",
@@ -2013,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "q_from",
           "package": "bio",
@@ -2025,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "q_to",
           "package": "bio",
@@ -2034,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "q_to",
           "package": "bio",
@@ -2046,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "qlength",
           "package": "bio",
@@ -2055,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "qlength",
           "package": "bio",
@@ -2067,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "query",
           "package": "bio",
@@ -2076,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "query",
           "package": "bio",
@@ -2088,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "results",
           "package": "bio",
@@ -2097,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "results",
           "normalized": "[BlastRecord]",
@@ -2111,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "slength",
           "package": "bio",
@@ -2120,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "slength",
           "package": "bio",
@@ -2132,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastData",
           "name": "subject",
           "package": "bio",
@@ -2141,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastData",
           "name": "subject",
           "package": "bio",
@@ -2154,6 +2334,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a \"flattened\" data structure for Blast hits,\n   as opposed to the hierarchical structure in \u003ca\u003eBio.Alignment.BlastData\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThe flat data type is useful in many cases where it is more natural\n   to see the result as a set of rows (e.g. for insertaion in a database).\n\u003c/p\u003e\u003cp\u003eIt would probably be more (memory-) efficient to go the other way\n   (i.e. from flat to hierarchical), as passing the current, partially\n   built \u003ca\u003eBlastFlat\u003c/a\u003e object down the stream of results and stamping\n   out a stream of completed ones.  (See \u003ca\u003eBio.Alignment.BlastXML.breaks\u003c/a\u003e\n   for this week's most cumbersome use of parallelism to avoid the\n   memory issue.)  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "BlastFlat",
           "package": "bio",
@@ -2163,6 +2344,7 @@
         "index": {
           "description": "This module implements flattened data structure for Blast hits as opposed to the hierarchical structure in Bio.Alignment.BlastData The flat data type is useful in many cases where it is more natural to see the result as set of rows e.g for insertaion in database It would probably be more memory efficient to go the other way i.e from flat to hierarchical as passing the current partially built BlastFlat object down the stream of results and stamping out stream of completed ones See Bio.Alignment.BlastXML.breaks for this week most cumbersome use of parallelism to avoid the memory issue",
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "BlastFlat",
           "package": "bio",
@@ -2177,6 +2359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Aux field in the BLAST output includes match information that depends\n   on the BLAST flavor (blastn, blastx, or blastp).  This data structure captures\n   those variations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "Aux",
           "package": "bio",
@@ -2186,6 +2369,7 @@
         "index": {
           "description": "The Aux field in the BLAST output includes match information that depends on the BLAST flavor blastn blastx or blastp This data structure captures those variations",
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "Aux",
           "package": "bio",
@@ -2200,6 +2384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe BlastFlat data structure contains information about a single match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "BlastFlat",
           "package": "bio",
@@ -2209,6 +2394,7 @@
         "index": {
           "description": "The BlastFlat data structure contains information about single match",
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "BlastFlat",
           "package": "bio",
@@ -2223,6 +2409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach query sequence generates a \u003ccode\u003e\u003ca\u003eBlastRecord\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "BlastRecord",
           "package": "bio",
@@ -2232,6 +2419,7 @@
         "index": {
           "description": "Each query sequence generates BlastRecord",
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "BlastRecord",
           "package": "bio",
@@ -2246,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eStrand\u003c/a\u003e\u003c/code\u003e indicates the direction of the match, i.e. the plain sequence or\n   its reverse complement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "Strand",
           "package": "bio",
@@ -2255,6 +2444,7 @@
         "index": {
           "description": "The Strand indicates the direction of the match i.e the plain sequence or its reverse complement",
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "Strand",
           "package": "bio",
@@ -2268,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "BlastFlat",
           "package": "bio",
@@ -2277,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "BlastFlat",
           "package": "bio",
@@ -2290,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "aux",
           "package": "bio",
@@ -2299,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "aux",
           "package": "bio",
@@ -2311,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "bits",
           "package": "bio",
@@ -2320,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "bits",
           "package": "bio",
@@ -2332,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "blastdate",
           "package": "bio",
@@ -2341,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "blastdate",
           "normalized": "BlastResult-\u003eByteString",
@@ -2355,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "blastprogram",
           "package": "bio",
@@ -2364,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "blastprogram",
           "normalized": "BlastResult-\u003eByteString",
@@ -2378,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "blastreferences",
           "package": "bio",
@@ -2387,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "blastreferences",
           "normalized": "BlastResult-\u003eByteString",
@@ -2401,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "blastversion",
           "package": "bio",
@@ -2410,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "blastversion",
           "normalized": "BlastResult-\u003eByteString",
@@ -2424,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "database",
           "package": "bio",
@@ -2433,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "database",
           "normalized": "BlastResult-\u003eByteString",
@@ -2447,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "dbchars",
           "package": "bio",
@@ -2456,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "dbchars",
           "normalized": "BlastResult-\u003eInteger",
@@ -2470,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "dbsequences",
           "package": "bio",
@@ -2479,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "dbsequences",
           "normalized": "BlastResult-\u003eInteger",
@@ -2493,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "e_val",
           "package": "bio",
@@ -2502,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "e_val",
           "package": "bio",
@@ -2515,6 +2727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert BlastRecords into BlastFlats (representing a depth-first traversal of the \n   BlastRecord structure.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "flatten",
           "package": "bio",
@@ -2525,6 +2738,7 @@
         "index": {
           "description": "Convert BlastRecords into BlastFlats representing depth-first traversal of the BlastRecord structure",
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "flatten",
           "normalized": "[BlastRecord]-\u003e[BlastFlat]",
@@ -2539,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "h_from",
           "package": "bio",
@@ -2548,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "h_from",
           "package": "bio",
@@ -2560,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "h_to",
           "package": "bio",
@@ -2569,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "h_to",
           "package": "bio",
@@ -2581,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "identity",
           "package": "bio",
@@ -2590,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "identity",
           "normalized": "(Int,Int)",
@@ -2604,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "q_from",
           "package": "bio",
@@ -2613,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "q_from",
           "package": "bio",
@@ -2625,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "q_to",
           "package": "bio",
@@ -2634,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "q_to",
           "package": "bio",
@@ -2646,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "qlength",
           "package": "bio",
@@ -2655,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "qlength",
           "package": "bio",
@@ -2667,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "query",
           "package": "bio",
@@ -2676,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "query",
           "package": "bio",
@@ -2688,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "readXML",
           "package": "bio",
@@ -2697,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "readXML",
           "normalized": "FilePath-\u003eIO[BlastFlat]",
@@ -2712,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "results",
           "package": "bio",
@@ -2721,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "results",
           "normalized": "BlastResult-\u003e[BlastRecord]",
@@ -2735,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "slength",
           "package": "bio",
@@ -2744,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "slength",
           "package": "bio",
@@ -2756,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastFlat",
           "name": "subject",
           "package": "bio",
@@ -2765,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment BlastFlat",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastFlat",
           "name": "subject",
           "package": "bio",
@@ -2778,6 +3014,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse blast XML output.\n\u003c/p\u003e\u003cp\u003eIf you use a recent version of NCBI BLAST and specify XML output (blastall -m 7),\n   this module should be able to parse the result into a hierarchical \u003ccode\u003e\u003ca\u003eBlastResult\u003c/a\u003e\u003c/code\u003e\n   structure.\n\u003c/p\u003e\u003cp\u003eWhile the process may consume a bit of memory, the parsing is lazy,\n   and file sizes of several gigabytes can be parsed (see e.g. the\n   xml2x tool for an example).  To parse XML, we use\n   \u003ccode\u003e\u003ca\u003eTagSoup\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastXML",
           "name": "BlastXML",
           "package": "bio",
@@ -2787,6 +3024,7 @@
         "index": {
           "description": "Parse blast XML output If you use recent version of NCBI BLAST and specify XML output blastall this module should be able to parse the result into hierarchical BlastResult structure While the process may consume bit of memory the parsing is lazy and file sizes of several gigabytes can be parsed see e.g the xml2x tool for an example To parse XML we use TagSoup",
           "hierarchy": "Bio Alignment BlastXML",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastXML",
           "name": "BlastXML",
           "package": "bio",
@@ -2801,6 +3039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse BLAST results in XML format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.BlastXML",
           "name": "readXML",
           "package": "bio",
@@ -2811,6 +3050,7 @@
         "index": {
           "description": "Parse BLAST results in XML format",
           "hierarchy": "Bio Alignment BlastXML",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.BlastXML",
           "name": "readXML",
           "normalized": "FilePath-\u003eIO[BlastResult]",
@@ -2827,6 +3067,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a data type to represent an alignment\nproduced by the Bowtie short-read alignment tool (see\n\u003ca\u003ehttp://bowtie-bio.sourceforge.net/index.shtml\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eThe simple accessors recapitulate the details of the Bowtie alignment\noutput.  The position of the alignment is given by the \"0-based offset\ninto the reference sequence where leftmost character of the alignment\noccurs\".  Thus, for forward-strand alignments this is the 5' end of\nthe query sequence while for reverse-complement alignments this is the\n3' end of the query sequence.  Similarly, the query sequence and query\nquality are shown in reference forward strand orientation, and thus\nmay be reverse complemented.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "Bowtie",
           "package": "bio",
@@ -2836,6 +3077,7 @@
         "index": {
           "description": "This module provides data type to represent an alignment produced by the Bowtie short-read alignment tool see http bowtie-bio.sourceforge.net index.shtml The simple accessors recapitulate the details of the Bowtie alignment output The position of the alignment is given by the based offset into the reference sequence where leftmost character of the alignment occurs Thus for forward-strand alignments this is the end of the query sequence while for reverse-complement alignments this is the end of the query sequence Similarly the query sequence and query quality are shown in reference forward strand orientation and thus may be reverse complemented",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "Bowtie",
           "package": "bio",
@@ -2849,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "Align",
           "package": "bio",
@@ -2857,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "Align",
           "package": "bio",
@@ -2871,6 +3115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of a single mismatch in a bowtie alignment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "Mismatch",
           "package": "bio",
@@ -2880,6 +3125,7 @@
         "index": {
           "description": "Representation of single mismatch in bowtie alignment",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "Mismatch",
           "package": "bio",
@@ -2893,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "Align",
           "package": "bio",
@@ -2902,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "Align",
           "package": "bio",
@@ -2915,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "Mismatch",
           "package": "bio",
@@ -2924,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "Mismatch",
           "package": "bio",
@@ -2938,6 +3188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero-based offset of the left-most aligned position in the reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "leftoffset",
           "package": "bio",
@@ -2948,6 +3199,7 @@
         "index": {
           "description": "Zero-based offset of the left-most aligned position in the reference",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "leftoffset",
           "package": "bio",
@@ -2961,6 +3213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the length of the query sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "length",
           "package": "bio",
@@ -2971,6 +3224,7 @@
         "index": {
           "description": "Returns the length of the query sequence",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "length",
           "normalized": "Align-\u003eOffset",
@@ -2986,6 +3240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence position of a mismatch on the reference sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "mismatchSeqPos",
           "package": "bio",
@@ -2996,6 +3251,7 @@
         "index": {
           "description": "Sequence position of mismatch on the reference sequence",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "mismatchSeqPos",
           "normalized": "Align-\u003eMismatch-\u003eSeqPos",
@@ -3012,6 +3268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMismatches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "mismatches",
           "package": "bio",
@@ -3022,6 +3279,7 @@
         "index": {
           "description": "Mismatches",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "mismatches",
           "normalized": "[Mismatch]",
@@ -3037,6 +3295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset of the mismatch site from the 5' end of the query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "mmoffset",
           "package": "bio",
@@ -3047,6 +3306,7 @@
         "index": {
           "description": "Offset of the mismatch site from the end of the query",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "mmoffset",
           "package": "bio",
@@ -3060,6 +3320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the query sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "name",
           "package": "bio",
@@ -3070,6 +3331,7 @@
         "index": {
           "description": "Name of the query sequence",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "name",
           "package": "bio",
@@ -3083,6 +3345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of mismatches in the alignment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "nmismatch",
           "package": "bio",
@@ -3093,6 +3356,7 @@
         "index": {
           "description": "Returns the number of mismatches in the alignment",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "nmismatch",
           "normalized": "Align-\u003eInt",
@@ -3108,6 +3372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a line of Bowtie output to produce a \u003ccode\u003e\u003ca\u003eAlign\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "parse",
           "package": "bio",
@@ -3118,6 +3383,7 @@
         "index": {
           "description": "Parses line of Bowtie output to produce Align",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "parse",
           "normalized": "ByteString-\u003eEither String Align",
@@ -3133,6 +3399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery quality, in the reference forward strand orientation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "qual",
           "package": "bio",
@@ -3143,6 +3410,7 @@
         "index": {
           "description": "Query quality in the reference forward strand orientation",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "qual",
           "package": "bio",
@@ -3156,6 +3424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery quality as given in the query file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "queryQual",
           "package": "bio",
@@ -3166,6 +3435,7 @@
         "index": {
           "description": "Query quality as given in the query file",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "queryQual",
           "normalized": "Align-\u003eQualData",
@@ -3182,6 +3452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery sequence as given in the query file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "querySequ",
           "package": "bio",
@@ -3192,6 +3463,7 @@
         "index": {
           "description": "Query sequence as given in the query file",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "querySequ",
           "normalized": "Align-\u003eSeqData",
@@ -3208,6 +3480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery nucleotide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "readbase",
           "package": "bio",
@@ -3218,6 +3491,7 @@
         "index": {
           "description": "Query nucleotide",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "readbase",
           "package": "bio",
@@ -3231,6 +3505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003erefCSeqLoc\u003c/a\u003e\u003c/code\u003e but without the reference sequence name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "refCLoc",
           "package": "bio",
@@ -3241,6 +3516,7 @@
         "index": {
           "description": "As refCSeqLoc but without the reference sequence name",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "refCLoc",
           "normalized": "Align-\u003eContigLoc",
@@ -3257,6 +3533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the sequence location covered by the query in\n the alignment.  This will be a sequence location on the reference\n sequence and may run on the forward or the reverse complement\n strand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "refCSeqLoc",
           "package": "bio",
@@ -3267,6 +3544,7 @@
         "index": {
           "description": "Returns the sequence location covered by the query in the alignment This will be sequence location on the reference sequence and may run on the forward or the reverse complement strand",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "refCSeqLoc",
           "normalized": "Align-\u003eContigSeqLoc",
@@ -3283,6 +3561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the sequence location covered by the query, as\n \u003ccode\u003e\u003ca\u003erefCSeqLoc\u003c/a\u003e\u003c/code\u003e, as a \u003ccode\u003e\u003ca\u003eSeqLoc\u003c/a\u003e\u003c/code\u003e location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "refSeqLoc",
           "package": "bio",
@@ -3293,6 +3572,7 @@
         "index": {
           "description": "Returns the sequence location covered by the query as refCSeqLoc as SeqLoc location",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "refSeqLoc",
           "normalized": "Align-\u003eSeqLoc",
@@ -3309,6 +3589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the sequence position of the start of the query sequence\n alignment.  This will include the strand of the alignment and will\n not be the same as the position computed from \u003ccode\u003e\u003ca\u003eleftoffset\u003c/a\u003e\u003c/code\u003e when the\n alignment is on the reverse complement strand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "refSeqPos",
           "package": "bio",
@@ -3319,6 +3600,7 @@
         "index": {
           "description": "Returns the sequence position of the start of the query sequence alignment This will include the strand of the alignment and will not be the same as the position computed from leftoffset when the alignment is on the reverse complement strand",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "refSeqPos",
           "normalized": "Align-\u003eSeqPos",
@@ -3335,6 +3617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference nucleotide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "refbase",
           "package": "bio",
@@ -3345,6 +3628,7 @@
         "index": {
           "description": "Reference nucleotide",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "refbase",
           "package": "bio",
@@ -3358,6 +3642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the reference sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "refname",
           "package": "bio",
@@ -3368,6 +3653,7 @@
         "index": {
           "description": "Name of the reference sequence",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "refname",
           "package": "bio",
@@ -3381,6 +3667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true when two alignments were derived from the same\n sequencing read.  As Bowtie writes alignments of query sequences in\n their order in the query file, all alignments of a given read are\n grouped together and the lists of all alignments for each read can\n be gathered with\n\u003c/p\u003e\u003cpre\u003e groupBy sameRead\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "sameRead",
           "package": "bio",
@@ -3391,6 +3678,7 @@
         "index": {
           "description": "Returns true when two alignments were derived from the same sequencing read As Bowtie writes alignments of query sequences in their order in the query file all alignments of given read are grouped together and the lists of all alignments for each read can be gathered with groupBy sameRead",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "sameRead",
           "normalized": "Align-\u003eAlign-\u003eBool",
@@ -3407,6 +3695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery sequence, in the reference forward strand orientation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "sequ",
           "package": "bio",
@@ -3417,6 +3706,7 @@
         "index": {
           "description": "Query sequence in the reference forward strand orientation",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "sequ",
           "package": "bio",
@@ -3430,6 +3720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrand of the alignment on the reference sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Bowtie",
           "name": "strand",
           "package": "bio",
@@ -3440,6 +3731,7 @@
         "index": {
           "description": "Strand of the alignment on the reference sequence",
           "hierarchy": "Bio Alignment Bowtie",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Bowtie",
           "name": "strand",
           "package": "bio",
@@ -3453,6 +3745,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon substitution matrices for alignments.\n\u003c/p\u003e\u003cp\u003eWhen in doubt, use BLOSUM62.\n   Consult \u003ca\u003ehttp://www.ncbi.nlm.nih.gov/blast/blast_whatsnew.shtml#20051206\u003c/a\u003e\n   for some hints on good parameters for nucleotide alignments.\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003ehttp://en.wikipedia.org/wiki/Substitution_matrix\u003c/a\u003e for a\n   summary about the difference between the different matrices. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Matrices",
           "name": "Matrices",
           "package": "bio",
@@ -3462,6 +3755,7 @@
         "index": {
           "description": "Common substitution matrices for alignments When in doubt use BLOSUM62 Consult http www.ncbi.nlm.nih.gov blast blast whatsnew.shtml for some hints on good parameters for nucleotide alignments See also http en.wikipedia.org wiki Substitution matrix for summary about the difference between the different matrices",
           "hierarchy": "Bio Alignment Matrices",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Matrices",
           "name": "Matrices",
           "package": "bio",
@@ -3476,6 +3770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlast defaults, use with gap_open = -5 gap_extend = -3\n   This should really check for valid nucleotides, and perhaps be more\n   lenient in the case of Ns.  Oh well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Matrices",
           "name": "blastn_default",
           "package": "bio",
@@ -3486,6 +3781,7 @@
         "index": {
           "description": "Blast defaults use with gap open gap extend This should really check for valid nucleotides and perhaps be more lenient in the case of Ns Oh well",
           "hierarchy": "Bio Alignment Matrices",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Matrices",
           "name": "blastn_default",
           "normalized": "(Chr,Chr)-\u003ea",
@@ -3501,6 +3797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBLOSUM45 matrix, suitable for distantly related sequences\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Matrices",
           "name": "blosum45",
           "package": "bio",
@@ -3511,6 +3808,7 @@
         "index": {
           "description": "BLOSUM45 matrix suitable for distantly related sequences",
           "hierarchy": "Bio Alignment Matrices",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Matrices",
           "name": "blosum45",
           "normalized": "(Chr,Chr)-\u003eInt",
@@ -3526,6 +3824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard BLOSUM62 matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Matrices",
           "name": "blosum62",
           "package": "bio",
@@ -3536,6 +3835,7 @@
         "index": {
           "description": "The standard BLOSUM62 matrix",
           "hierarchy": "Bio Alignment Matrices",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Matrices",
           "name": "blosum62",
           "normalized": "(Chr,Chr)-\u003eInt",
@@ -3551,6 +3851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBLOSUM80 matrix, suitable for closely related sequences. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Matrices",
           "name": "blosum80",
           "package": "bio",
@@ -3561,6 +3862,7 @@
         "index": {
           "description": "BLOSUM80 matrix suitable for closely related sequences",
           "hierarchy": "Bio Alignment Matrices",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Matrices",
           "name": "blosum80",
           "normalized": "(Chr,Chr)-\u003eInt",
@@ -3576,6 +3878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard PAM30 matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Matrices",
           "name": "pam30",
           "package": "bio",
@@ -3586,6 +3889,7 @@
         "index": {
           "description": "The standard PAM30 matrix",
           "hierarchy": "Bio Alignment Matrices",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Matrices",
           "name": "pam30",
           "normalized": "(Chr,Chr)-\u003eInt",
@@ -3601,6 +3905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard PAM70 matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Matrices",
           "name": "pam70",
           "package": "bio",
@@ -3611,6 +3916,7 @@
         "index": {
           "description": "The standard PAM70 matrix",
           "hierarchy": "Bio Alignment Matrices",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Matrices",
           "name": "pam70",
           "normalized": "(Chr,Chr)-\u003eInt",
@@ -3626,6 +3932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a simple \u003ca\u003ematrix\u003c/a\u003e from match score/mismatch penalty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Matrices",
           "name": "simpleMx",
           "package": "bio",
@@ -3636,6 +3943,7 @@
         "index": {
           "description": "Construct simple matrix from match score mismatch penalty",
           "hierarchy": "Bio Alignment Matrices",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Matrices",
           "name": "simpleMx",
           "normalized": "a-\u003ea-\u003e(Chr,Chr)-\u003ea",
@@ -3652,6 +3960,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMultiple alignments.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Multiple",
           "name": "Multiple",
           "package": "bio",
@@ -3661,6 +3970,7 @@
         "index": {
           "description": "Multiple alignments",
           "hierarchy": "Bio Alignment Multiple",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Multiple",
           "name": "Multiple",
           "package": "bio",
@@ -3675,6 +3985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive alignments indirectly, i.e. calculate A|C using alignments A|B and B|C.\n    This is central for \u003ccode\u003eCoffee\u003c/code\u003e evaluation of alignments, and T-Coffee construction\n    of alignments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Multiple",
           "name": "indirect",
           "package": "bio",
@@ -3685,6 +3996,7 @@
         "index": {
           "description": "Derive alignments indirectly i.e calculate using alignments and This is central for Coffee evaluation of alignments and T-Coffee construction of alignments",
           "hierarchy": "Bio Alignment Multiple",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Multiple",
           "name": "indirect",
           "normalized": "EditList-\u003eEditList-\u003eEditList",
@@ -3700,6 +4012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgressive multiple alignment.\n   Calculate a tree from agglomerative clustering, then align\n   at each branch going bottom up.  Returns a list of columns (rows?).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Multiple",
           "name": "progressive",
           "package": "bio",
@@ -3710,6 +4023,7 @@
         "index": {
           "description": "Progressive multiple alignment Calculate tree from agglomerative clustering then align at each branch going bottom up Returns list of columns rows",
           "hierarchy": "Bio Alignment Multiple",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Multiple",
           "name": "progressive",
           "normalized": "(Sequence a-\u003eSequence a-\u003e(Double,EditList))-\u003e[Sequence a]-\u003e[String]",
@@ -3725,6 +4039,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis models the PSL format used by e.g. the alignment tool BLAT.  \n    It is a simple, textual representation of (spliced) alignments,\n    with tab-separated fields.\n\u003c/p\u003e\u003cp\u003eSee http:\u003cem/\u003egenome.ucsc.edu\u003cem\u003eFAQ\u003c/em\u003eFAQformat#format2 for details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "bio",
@@ -3734,6 +4049,7 @@
         "index": {
           "description": "This models the PSL format used by e.g the alignment tool BLAT It is simple textual representation of spliced alignments with tab-separated fields See http genome.ucsc.edu FAQ FAQformat format2 for details",
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "bio",
@@ -3747,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "bio",
@@ -3755,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "bio",
@@ -3768,6 +4086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "bio",
@@ -3777,6 +4096,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "bio",
@@ -3790,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "blockcount",
           "package": "bio",
@@ -3799,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "blockcount",
           "package": "bio",
@@ -3811,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "blocksizes",
           "package": "bio",
@@ -3820,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "blocksizes",
           "normalized": "[Int]",
@@ -3834,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "match",
           "package": "bio",
@@ -3843,6 +4168,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "match",
           "package": "bio",
@@ -3855,6 +4181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "mismatch",
           "package": "bio",
@@ -3864,6 +4191,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "mismatch",
           "package": "bio",
@@ -3876,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "ncount",
           "package": "bio",
@@ -3885,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "ncount",
           "package": "bio",
@@ -3897,6 +4227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "parsePSL",
           "package": "bio",
@@ -3906,6 +4237,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "parsePSL",
           "normalized": "ByteString-\u003e[PSL]",
@@ -3921,6 +4253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "pslHeader",
           "package": "bio",
@@ -3930,6 +4263,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "pslHeader",
           "package": "bio",
@@ -3943,6 +4277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qend",
           "package": "bio",
@@ -3952,6 +4287,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "qend",
           "package": "bio",
@@ -3964,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qgapcount",
           "package": "bio",
@@ -3973,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "qgapcount",
           "package": "bio",
@@ -3985,6 +4323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qgaplength",
           "package": "bio",
@@ -3994,6 +4333,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "qgaplength",
           "package": "bio",
@@ -4006,6 +4346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qname",
           "package": "bio",
@@ -4015,6 +4356,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "qname",
           "package": "bio",
@@ -4027,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qsize",
           "package": "bio",
@@ -4036,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "qsize",
           "package": "bio",
@@ -4048,6 +4392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qstart",
           "package": "bio",
@@ -4057,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "qstart",
           "package": "bio",
@@ -4069,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qstarts",
           "package": "bio",
@@ -4078,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "qstarts",
           "normalized": "[Int]",
@@ -4092,6 +4440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "readPSL",
           "package": "bio",
@@ -4101,6 +4450,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "readPSL",
           "normalized": "FilePath-\u003eIO[PSL]",
@@ -4116,6 +4466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "repmatch",
           "package": "bio",
@@ -4125,6 +4476,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "repmatch",
           "package": "bio",
@@ -4137,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "strand",
           "package": "bio",
@@ -4146,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "strand",
           "package": "bio",
@@ -4158,6 +4512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tend",
           "package": "bio",
@@ -4167,6 +4522,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "tend",
           "package": "bio",
@@ -4179,6 +4535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tgapcount",
           "package": "bio",
@@ -4188,6 +4545,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "tgapcount",
           "package": "bio",
@@ -4200,6 +4558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tgaplength",
           "package": "bio",
@@ -4209,6 +4568,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "tgaplength",
           "package": "bio",
@@ -4221,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tname",
           "package": "bio",
@@ -4230,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "tname",
           "package": "bio",
@@ -4242,6 +4604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tsize",
           "package": "bio",
@@ -4251,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "tsize",
           "package": "bio",
@@ -4263,6 +4627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tstart",
           "package": "bio",
@@ -4272,6 +4637,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "tstart",
           "package": "bio",
@@ -4284,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tstarts",
           "package": "bio",
@@ -4293,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "tstarts",
           "normalized": "[Int]",
@@ -4307,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "unparsePSL",
           "package": "bio",
@@ -4316,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "unparsePSL",
           "normalized": "[PSL]-\u003eByteString",
@@ -4331,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "writePSL",
           "package": "bio",
@@ -4340,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.PSL",
           "name": "writePSL",
           "normalized": "FilePath-\u003e[PSL]-\u003eIO()",
@@ -4356,6 +4728,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuality-aware alignments\n\u003c/p\u003e\u003cp\u003eGenerally, quality data are ignored for alignment/pattern searching\n   like Smith-Waterman, Needleman-Wunsch, or BLAST(p|n|x).  I believe\n   that accounting for quality will at the very least affect things like\n   BLAST statistics, and e.g. is crucial for good EST annotation using Blastx.\n\u003c/p\u003e\u003cp\u003eThis module performs sequences alignments, takes quality values into\n   account.\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003ehttp://bioinformatics.oxfordjournals.org/cgi/content/abstract/btn052v1\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.QAlign",
           "name": "QAlign",
           "package": "bio",
@@ -4365,6 +4738,7 @@
         "index": {
           "description": "Quality-aware alignments Generally quality data are ignored for alignment pattern searching like Smith-Waterman Needleman-Wunsch or BLAST believe that accounting for quality will at the very least affect things like BLAST statistics and e.g is crucial for good EST annotation using Blastx This module performs sequences alignments takes quality values into account See also http bioinformatics.oxfordjournals.org cgi content abstract btn052v1",
           "hierarchy": "Bio Alignment QAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.QAlign",
           "name": "QAlign",
           "package": "bio",
@@ -4379,6 +4753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate global alignment (Needleman-Wunsch)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.QAlign",
           "name": "global_align",
           "package": "bio",
@@ -4389,6 +4764,7 @@
         "index": {
           "description": "Calculate global alignment Needleman-Wunsch",
           "hierarchy": "Bio Alignment QAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.QAlign",
           "name": "global_align",
           "normalized": "QualMx a Double-\u003e(Double,Double)-\u003eSequence a-\u003eSequence a-\u003e(Double,EditList)",
@@ -4404,6 +4780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate global edit distance (Needleman-Wunsch alignment score)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.QAlign",
           "name": "global_score",
           "package": "bio",
@@ -4414,6 +4791,7 @@
         "index": {
           "description": "Calculate global edit distance Needleman-Wunsch alignment score",
           "hierarchy": "Bio Alignment QAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.QAlign",
           "name": "global_score",
           "normalized": "QualMx a Double-\u003e(Double,Double)-\u003eSequence a-\u003eSequence a-\u003eDouble",
@@ -4429,6 +4807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate local alignment (Smith-Waterman)\n   (can we replace uncurry max' with fst - a local alignment must always end on a subst, no?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.QAlign",
           "name": "local_align",
           "package": "bio",
@@ -4439,6 +4818,7 @@
         "index": {
           "description": "Calculate local alignment Smith-Waterman can we replace uncurry max with fst local alignment must always end on subst no",
           "hierarchy": "Bio Alignment QAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.QAlign",
           "name": "local_align",
           "normalized": "QualMx a Double-\u003e(Double,Double)-\u003eSequence a-\u003eSequence a-\u003e(Double,EditList)",
@@ -4454,6 +4834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate local edit distance (Smith-Waterman alignment score)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.QAlign",
           "name": "local_score",
           "package": "bio",
@@ -4464,6 +4845,7 @@
         "index": {
           "description": "Calculate local edit distance Smith-Waterman alignment score",
           "hierarchy": "Bio Alignment QAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.QAlign",
           "name": "local_score",
           "normalized": "QualMx a Double-\u003e(Double,Double)-\u003eSequence a-\u003eSequence a-\u003eDouble",
@@ -4479,6 +4861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalucalte best overlap score, where gaps at the edges are free\n   The starting point is like for local score (0 cost for initial indels),\n   the result is the maximum anywhere in the last column or bottom row of the matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.QAlign",
           "name": "overlap_align",
           "package": "bio",
@@ -4489,6 +4872,7 @@
         "index": {
           "description": "Calucalte best overlap score where gaps at the edges are free The starting point is like for local score cost for initial indels the result is the maximum anywhere in the last column or bottom row of the matrix",
           "hierarchy": "Bio Alignment QAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.QAlign",
           "name": "overlap_align",
           "normalized": "QualMx a Double-\u003e(Double,Double)-\u003eSequence a-\u003eSequence a-\u003e(Double,EditList)",
@@ -4504,6 +4888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalucalte best overlap score, where gaps at the edges are free\n   The starting point is like for local score (0 cost for initial indels),\n   the result is the maximum anywhere in the last column or bottom row of the matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.QAlign",
           "name": "overlap_score",
           "package": "bio",
@@ -4514,6 +4899,7 @@
         "index": {
           "description": "Calucalte best overlap score where gaps at the edges are free The starting point is like for local score cost for initial indels the result is the maximum anywhere in the last column or bottom row of the matrix",
           "hierarchy": "Bio Alignment QAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.QAlign",
           "name": "overlap_score",
           "normalized": "QualMx a Double-\u003e(Double,Double)-\u003eSequence a-\u003eSequence a-\u003eDouble",
@@ -4528,6 +4914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.QAlign",
           "name": "qualMx",
           "package": "bio",
@@ -4537,6 +4924,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment QAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.QAlign",
           "name": "qualMx",
           "normalized": "Qual-\u003eQual-\u003e(Chr,Chr)-\u003eDouble",
@@ -4552,6 +4940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.QAlign",
           "name": "test",
           "package": "bio",
@@ -4561,6 +4950,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment QAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.QAlign",
           "name": "test",
           "normalized": "IO()",
@@ -4576,6 +4966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple alignment of sequences\n\u003c/p\u003e\u003cp\u003eStandard alignment/edit distance \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.SAlign",
           "name": "SAlign",
           "package": "bio",
@@ -4585,6 +4976,7 @@
         "index": {
           "description": "Simple alignment of sequences Standard alignment edit distance",
           "hierarchy": "Bio Alignment SAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.SAlign",
           "name": "SAlign",
           "package": "bio",
@@ -4599,6 +4991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate alignments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.SAlign",
           "name": "global_align",
           "package": "bio",
@@ -4609,6 +5002,7 @@
         "index": {
           "description": "Calculate alignments",
           "hierarchy": "Bio Alignment SAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.SAlign",
           "name": "global_align",
           "normalized": "SubstMx a b-\u003eb-\u003eSequence a-\u003eSequence a-\u003eEditList",
@@ -4624,6 +5018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate global edit distance (Needleman-Wunsch alignment score)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.SAlign",
           "name": "global_score",
           "package": "bio",
@@ -4634,6 +5029,7 @@
         "index": {
           "description": "Calculate global edit distance Needleman-Wunsch alignment score",
           "hierarchy": "Bio Alignment SAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.SAlign",
           "name": "global_score",
           "normalized": "SubstMx a b-\u003eb-\u003eSequence a-\u003eSequence a-\u003eb",
@@ -4648,6 +5044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.SAlign",
           "name": "local_align",
           "package": "bio",
@@ -4657,6 +5054,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment SAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.SAlign",
           "name": "local_align",
           "normalized": "SubstMx a b-\u003eb-\u003eSequence a-\u003eSequence a-\u003eEditList",
@@ -4672,6 +5070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate local edit distance (Smith-Waterman alignment score)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.SAlign",
           "name": "local_score",
           "package": "bio",
@@ -4682,6 +5081,7 @@
         "index": {
           "description": "Calculate local edit distance Smith-Waterman alignment score",
           "hierarchy": "Bio Alignment SAlign",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.SAlign",
           "name": "local_score",
           "normalized": "SubstMx a b-\u003eb-\u003eSequence a-\u003eSequence a-\u003eb",
@@ -4696,6 +5096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "Soap",
           "package": "bio",
@@ -4704,6 +5105,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "Soap",
           "package": "bio",
@@ -4718,6 +5120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlignment output from SOAP\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "SoapAlign",
           "package": "bio",
@@ -4727,6 +5130,7 @@
         "index": {
           "description": "Alignment output from SOAP",
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "SoapAlign",
           "package": "bio",
@@ -4740,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "SoapAlignMismatch",
           "package": "bio",
@@ -4748,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "SoapAlignMismatch",
           "package": "bio",
@@ -4761,6 +5167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "SA",
           "package": "bio",
@@ -4770,6 +5177,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "SA",
           "package": "bio",
@@ -4783,6 +5191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "SAM",
           "package": "bio",
@@ -4792,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "SAM",
           "package": "bio",
@@ -4805,6 +5215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "group",
           "package": "bio",
@@ -4814,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "group",
           "normalized": "[SoapAlign]-\u003e[[SoapAlign]]",
@@ -4828,6 +5240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "length",
           "package": "bio",
@@ -4837,6 +5250,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "length",
           "package": "bio",
@@ -4849,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "mismatchSeqPos",
           "package": "bio",
@@ -4858,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "mismatchSeqPos",
           "normalized": "SoapAlign-\u003eSoapAlignMismatch-\u003eSeqPos",
@@ -4873,6 +5289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "mismatches",
           "package": "bio",
@@ -4882,6 +5299,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "mismatches",
           "normalized": "[SoapAlignMismatch]",
@@ -4896,6 +5314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "name",
           "package": "bio",
@@ -4905,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "name",
           "package": "bio",
@@ -4917,6 +5337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "nhit",
           "package": "bio",
@@ -4926,6 +5347,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "nhit",
           "package": "bio",
@@ -4938,6 +5360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "nmismatch",
           "package": "bio",
@@ -4947,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "nmismatch",
           "package": "bio",
@@ -4960,6 +5384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset from reference strand 5' end in reference strand orientation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "offset",
           "package": "bio",
@@ -4970,6 +5395,7 @@
         "index": {
           "description": "Offset from reference strand end in reference strand orientation",
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "offset",
           "package": "bio",
@@ -4982,6 +5408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "pairend",
           "package": "bio",
@@ -4991,6 +5418,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "pairend",
           "package": "bio",
@@ -5003,6 +5431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "parse",
           "package": "bio",
@@ -5012,6 +5441,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "parse",
           "normalized": "ByteString-\u003ea SoapAlign",
@@ -5026,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "parseMismatch",
           "package": "bio",
@@ -5035,6 +5466,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "parseMismatch",
           "normalized": "ByteString-\u003ea SoapAlignMismatch",
@@ -5051,6 +5483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference strand orientation quality data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "qual",
           "package": "bio",
@@ -5061,6 +5494,7 @@
         "index": {
           "description": "Reference strand orientation quality data",
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "qual",
           "package": "bio",
@@ -5074,6 +5508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuality score of read nt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "qualnt",
           "package": "bio",
@@ -5084,6 +5519,7 @@
         "index": {
           "description": "Quality score of read nt",
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "qualnt",
           "package": "bio",
@@ -5097,6 +5533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead nt in reference strand orientation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "readnt",
           "package": "bio",
@@ -5107,6 +5544,7 @@
         "index": {
           "description": "Read nt in reference strand orientation",
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "readnt",
           "package": "bio",
@@ -5119,6 +5557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "refCSeqLoc",
           "package": "bio",
@@ -5128,6 +5567,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "refCSeqLoc",
           "normalized": "SoapAlign-\u003eContigSeqLoc",
@@ -5143,6 +5583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "refSeqLoc",
           "package": "bio",
@@ -5152,6 +5593,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "refSeqLoc",
           "normalized": "SoapAlign-\u003eSeqLoc",
@@ -5167,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "refSeqPos",
           "package": "bio",
@@ -5176,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "refSeqPos",
           "normalized": "SoapAlign-\u003eSeqPos",
@@ -5191,6 +5635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "refname",
           "package": "bio",
@@ -5200,6 +5645,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "refname",
           "package": "bio",
@@ -5213,6 +5659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference nt in reference strand orientation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "refnt",
           "package": "bio",
@@ -5223,6 +5670,7 @@
         "index": {
           "description": "Reference nt in reference strand orientation",
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "refnt",
           "package": "bio",
@@ -5236,6 +5684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1-based index, as output by SOAP, of reference strand 5' end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "refstart",
           "package": "bio",
@@ -5246,6 +5695,7 @@
         "index": {
           "description": "based index as output by SOAP of reference strand end",
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "refstart",
           "package": "bio",
@@ -5259,6 +5709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference strand orientation sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "sequ",
           "package": "bio",
@@ -5269,6 +5720,7 @@
         "index": {
           "description": "Reference strand orientation sequence",
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "sequ",
           "package": "bio",
@@ -5281,6 +5733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "strand",
           "package": "bio",
@@ -5290,6 +5743,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "strand",
           "package": "bio",
@@ -5302,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "unparse",
           "package": "bio",
@@ -5311,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "unparse",
           "normalized": "SoapAlign-\u003eByteString",
@@ -5325,6 +5781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Alignment.Soap",
           "name": "unparseMismatch",
           "package": "bio",
@@ -5334,6 +5791,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Soap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Alignment.Soap",
           "name": "unparseMismatch",
           "normalized": "SoapAlignMismatch-\u003eByteString",
@@ -5350,6 +5808,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplement clustering\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Clustering",
           "name": "Clustering",
           "package": "bio",
@@ -5359,6 +5818,7 @@
         "index": {
           "description": "Implement clustering",
           "hierarchy": "Bio Clustering",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Clustering",
           "name": "Clustering",
           "package": "bio",
@@ -5373,6 +5833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structure for storing hierarchical clusters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Clustering",
           "name": "Clustered",
           "package": "bio",
@@ -5382,6 +5843,7 @@
         "index": {
           "description": "Data structure for storing hierarchical clusters",
           "hierarchy": "Bio Clustering",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Clustering",
           "name": "Clustered",
           "package": "bio",
@@ -5395,6 +5857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Clustering",
           "name": "Branch",
           "package": "bio",
@@ -5404,6 +5867,7 @@
         },
         "index": {
           "hierarchy": "Bio Clustering",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Clustering",
           "name": "Branch",
           "package": "bio",
@@ -5417,6 +5881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Clustering",
           "name": "Leaf",
           "package": "bio",
@@ -5426,6 +5891,7 @@
         },
         "index": {
           "hierarchy": "Bio Clustering",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Clustering",
           "name": "Leaf",
           "package": "bio",
@@ -5440,6 +5906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle linkage agglomerative clustering.\n   Cluster elements by slurping a sorted list of pairs with score (i.e. triples :-)\n   Keeps a set of contained elements at each branch's root, so O(n log n),\n   and requires elements to be in Ord.\n   For this to work, the triples must be sorted on score. Earlier scores in the list will\n   make up the lower nodes, so sort descending for similarity, ascending for distance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Clustering",
           "name": "cluster_sl",
           "package": "bio",
@@ -5450,6 +5917,7 @@
         "index": {
           "description": "Single linkage agglomerative clustering Cluster elements by slurping sorted list of pairs with score i.e triples Keeps set of contained elements at each branch root so log and requires elements to be in Ord For this to work the triples must be sorted on score Earlier scores in the list will make up the lower nodes so sort descending for similarity ascending for distance",
           "hierarchy": "Bio Clustering",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Clustering",
           "name": "cluster_sl",
           "normalized": "[(a,b,b)]-\u003e[Clustered a b]",
@@ -5464,6 +5932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Escape",
           "name": "Escape",
           "package": "bio",
@@ -5472,6 +5941,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Escape",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Escape",
           "name": "Escape",
           "package": "bio",
@@ -5485,6 +5955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Escape",
           "name": "escapeAllBut",
           "package": "bio",
@@ -5494,6 +5965,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Escape",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Escape",
           "name": "escapeAllBut",
           "normalized": "String-\u003eByteString-\u003eByteString",
@@ -5509,6 +5981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Escape",
           "name": "escapeAllOf",
           "package": "bio",
@@ -5518,6 +5991,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Escape",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Escape",
           "name": "escapeAllOf",
           "normalized": "String-\u003eByteString-\u003eByteString",
@@ -5533,6 +6007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Escape",
           "name": "escapeByteString",
           "package": "bio",
@@ -5542,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Escape",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Escape",
           "name": "escapeByteString",
           "normalized": "(Char-\u003eBool)-\u003eByteString-\u003eByteString",
@@ -5557,6 +6033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Escape",
           "name": "unEscapeByteString",
           "package": "bio",
@@ -5566,6 +6043,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Escape",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Escape",
           "name": "unEscapeByteString",
           "normalized": "ByteString-\u003ea ByteString",
@@ -5581,6 +6059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "Feature",
           "package": "bio",
@@ -5589,6 +6068,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "Feature",
           "package": "bio",
@@ -5602,6 +6082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "Feature",
           "package": "bio",
@@ -5610,6 +6091,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "Feature",
           "package": "bio",
@@ -5623,6 +6105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "GFFAttr",
           "package": "bio",
@@ -5631,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "GFFAttr",
           "package": "bio",
@@ -5644,6 +6128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "Feature",
           "package": "bio",
@@ -5653,6 +6138,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "Feature",
           "package": "bio",
@@ -5666,6 +6152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "GFFAttr",
           "package": "bio",
@@ -5675,6 +6162,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "GFFAttr",
           "package": "bio",
@@ -5688,6 +6176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "attrByTag",
           "package": "bio",
@@ -5697,6 +6186,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "attrByTag",
           "normalized": "ByteString-\u003eFeature-\u003e[ByteString]",
@@ -5712,6 +6202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "attrTag",
           "package": "bio",
@@ -5721,6 +6212,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "attrTag",
           "package": "bio",
@@ -5734,6 +6226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "attrValues",
           "package": "bio",
@@ -5743,6 +6236,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "attrValues",
           "normalized": "[ByteString]",
@@ -5758,6 +6252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "attributes",
           "package": "bio",
@@ -5767,6 +6262,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "attributes",
           "normalized": "[GFFAttr]",
@@ -5781,6 +6277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "contigLoc",
           "package": "bio",
@@ -5790,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "contigLoc",
           "normalized": "Feature-\u003eContigLoc",
@@ -5805,6 +6303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "end",
           "package": "bio",
@@ -5814,6 +6313,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "end",
           "package": "bio",
@@ -5826,6 +6326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "ftype",
           "package": "bio",
@@ -5835,6 +6336,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "ftype",
           "package": "bio",
@@ -5847,6 +6349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "ids",
           "package": "bio",
@@ -5856,6 +6359,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "ids",
           "normalized": "Feature-\u003e[ByteString]",
@@ -5870,6 +6374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "length",
           "package": "bio",
@@ -5879,6 +6384,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "length",
           "normalized": "Feature-\u003eOffset",
@@ -5893,6 +6399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "loc",
           "package": "bio",
@@ -5902,6 +6409,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "loc",
           "normalized": "Feature-\u003eLoc",
@@ -5916,6 +6424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "name",
           "package": "bio",
@@ -5925,6 +6434,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "name",
           "normalized": "Feature-\u003ea SeqName",
@@ -5939,6 +6449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "parentIds",
           "package": "bio",
@@ -5948,6 +6459,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "parentIds",
           "normalized": "Feature-\u003e[ByteString]",
@@ -5963,6 +6475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "parse",
           "package": "bio",
@@ -5972,6 +6485,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "parse",
           "normalized": "ByteString-\u003ea Feature",
@@ -5986,6 +6500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "parseWithFasta",
           "package": "bio",
@@ -5995,6 +6510,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "parseWithFasta",
           "normalized": "ByteString-\u003ea([Feature],[ByteString])",
@@ -6010,6 +6526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "phase",
           "package": "bio",
@@ -6019,6 +6536,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "phase",
           "package": "bio",
@@ -6031,6 +6549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "score",
           "package": "bio",
@@ -6040,6 +6559,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "score",
           "package": "bio",
@@ -6052,6 +6572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "seqLoc",
           "package": "bio",
@@ -6061,6 +6582,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "seqLoc",
           "normalized": "Feature-\u003eSeqLoc",
@@ -6076,6 +6598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "seqid",
           "package": "bio",
@@ -6085,6 +6608,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "seqid",
           "package": "bio",
@@ -6097,6 +6621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "source",
           "package": "bio",
@@ -6106,6 +6631,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "source",
           "package": "bio",
@@ -6118,6 +6644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "start",
           "package": "bio",
@@ -6127,6 +6654,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "start",
           "package": "bio",
@@ -6139,6 +6667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "strand",
           "package": "bio",
@@ -6148,6 +6677,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "strand",
           "package": "bio",
@@ -6160,6 +6690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.Feature",
           "name": "unparse",
           "package": "bio",
@@ -6169,6 +6700,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 Feature",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.Feature",
           "name": "unparse",
           "normalized": "Feature-\u003eByteString",
@@ -6183,6 +6715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "FeatureHier",
           "package": "bio",
@@ -6191,6 +6724,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "FeatureHier",
           "package": "bio",
@@ -6204,6 +6738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "FeatureHier",
           "package": "bio",
@@ -6212,6 +6747,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "FeatureHier",
           "package": "bio",
@@ -6225,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "checkInvariants",
           "package": "bio",
@@ -6234,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "checkInvariants",
           "normalized": "FeatureHier-\u003e[String]",
@@ -6249,6 +6787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "children",
           "package": "bio",
@@ -6258,6 +6797,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "children",
           "normalized": "FeatureHier-\u003eFeature-\u003e[Feature]",
@@ -6272,6 +6812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "childrenM",
           "package": "bio",
@@ -6281,6 +6822,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "childrenM",
           "normalized": "Feature-\u003ea[Feature]",
@@ -6295,6 +6837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "delete",
           "package": "bio",
@@ -6304,6 +6847,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "delete",
           "normalized": "Feature-\u003eFeatureHier-\u003ea FeatureHier",
@@ -6318,6 +6862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "features",
           "package": "bio",
@@ -6327,6 +6872,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "features",
           "normalized": "FeatureHier-\u003eSet Feature",
@@ -6341,6 +6887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "fromList",
           "package": "bio",
@@ -6350,6 +6897,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "fromList",
           "normalized": "[Feature]-\u003ea FeatureHier",
@@ -6365,6 +6913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "insert",
           "package": "bio",
@@ -6374,6 +6923,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "insert",
           "normalized": "Feature-\u003eFeatureHier-\u003ea FeatureHier",
@@ -6388,6 +6938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "lookupId",
           "package": "bio",
@@ -6397,6 +6948,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "lookupId",
           "normalized": "FeatureHier-\u003eByteString-\u003ea Feature",
@@ -6412,6 +6964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "lookupIdChildren",
           "package": "bio",
@@ -6421,6 +6974,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "lookupIdChildren",
           "normalized": "FeatureHier-\u003eByteString-\u003ea[Feature]",
@@ -6436,6 +6990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "parents",
           "package": "bio",
@@ -6445,6 +7000,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "parents",
           "normalized": "FeatureHier-\u003eFeature-\u003e[Feature]",
@@ -6459,6 +7015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHier",
           "name": "parentsM",
           "package": "bio",
@@ -6468,6 +7025,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHier",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHier",
           "name": "parentsM",
           "normalized": "Feature-\u003ea[Feature]",
@@ -6482,6 +7040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "FeatureHierSequences",
           "package": "bio",
@@ -6490,6 +7049,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "FeatureHierSequences",
           "package": "bio",
@@ -6503,6 +7063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "FeatureHierSequences",
           "package": "bio",
@@ -6511,6 +7072,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "FeatureHierSequences",
           "package": "bio",
@@ -6524,6 +7086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "asksGFF",
           "package": "bio",
@@ -6533,6 +7096,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "asksGFF",
           "normalized": "(FeatureHierSequences-\u003ea-\u003eb c)-\u003ea-\u003eb c",
@@ -6548,6 +7112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "children",
           "package": "bio",
@@ -6557,6 +7122,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "children",
           "normalized": "FeatureHierSequences-\u003eFeature-\u003e[Feature]",
@@ -6571,6 +7137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "featureSequence",
           "package": "bio",
@@ -6580,6 +7147,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "featureSequence",
           "normalized": "FeatureHierSequences-\u003eFeature-\u003ea(Sequence b)",
@@ -6595,6 +7163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "features",
           "package": "bio",
@@ -6604,6 +7173,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "features",
           "normalized": "FeatureHierSequences-\u003eSet Feature",
@@ -6618,6 +7188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "fromLists",
           "package": "bio",
@@ -6627,6 +7198,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "fromLists",
           "normalized": "[Feature]-\u003e[Sequence a]-\u003eb FeatureHierSequences",
@@ -6642,6 +7214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "getSequence",
           "package": "bio",
@@ -6651,6 +7224,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "getSequence",
           "normalized": "FeatureHierSequences-\u003eSeqName-\u003ea SeqData",
@@ -6666,6 +7240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "lookupId",
           "package": "bio",
@@ -6675,6 +7250,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "lookupId",
           "normalized": "FeatureHierSequences-\u003eSeqName-\u003ea Feature",
@@ -6690,6 +7266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "parents",
           "package": "bio",
@@ -6699,6 +7276,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "parents",
           "normalized": "FeatureHierSequences-\u003eFeature-\u003e[Feature]",
@@ -6713,6 +7291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "parse",
           "package": "bio",
@@ -6722,6 +7301,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "parse",
           "normalized": "ByteString-\u003ea FeatureHierSequences",
@@ -6736,6 +7316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "runGFF",
           "package": "bio",
@@ -6745,6 +7326,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "runGFF",
           "normalized": "FilePath-\u003eErrorT String(Reader FeatureHierSequences)a-\u003eErrorT String IO a",
@@ -6760,6 +7342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "runGFFIO",
           "package": "bio",
@@ -6769,6 +7352,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "runGFFIO",
           "normalized": "FilePath-\u003eErrorT String(ReaderT FeatureHierSequences IO)a-\u003eErrorT String IO a",
@@ -6784,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "seqData",
           "package": "bio",
@@ -6793,6 +7378,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "seqData",
           "normalized": "FeatureHierSequences-\u003eSeqLoc-\u003ea SeqData",
@@ -6808,6 +7394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "sequences",
           "package": "bio",
@@ -6817,6 +7404,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 FeatureHierSequences",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.FeatureHierSequences",
           "name": "sequences",
           "normalized": "FeatureHierSequences-\u003e[Sequence a]",
@@ -6831,6 +7419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "SGD",
           "package": "bio",
@@ -6839,6 +7428,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "SGD",
           "package": "bio",
@@ -6852,6 +7442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "chromosomes",
           "package": "bio",
@@ -6861,6 +7452,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "chromosomes",
           "normalized": "FeatureHierSequences-\u003e[Feature]",
@@ -6875,6 +7467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "geneCDS_SLM",
           "package": "bio",
@@ -6884,6 +7477,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "geneCDS_SLM",
           "normalized": "FeatureHierSequences-\u003ea(SeqLocMap Feature)",
@@ -6899,6 +7493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "geneCDSes",
           "package": "bio",
@@ -6908,6 +7503,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "geneCDSes",
           "normalized": "FeatureHierSequences-\u003eFeature-\u003e[Feature]",
@@ -6923,6 +7519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "geneSeqLoc",
           "package": "bio",
@@ -6932,6 +7529,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "geneSeqLoc",
           "normalized": "FeatureHierSequences-\u003eFeature-\u003ea SeqLoc",
@@ -6947,6 +7545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "geneSequence",
           "package": "bio",
@@ -6956,6 +7555,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "geneSequence",
           "normalized": "FeatureHierSequences-\u003eFeature-\u003ea(Sequence b)",
@@ -6971,6 +7571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "genes",
           "package": "bio",
@@ -6980,6 +7581,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "genes",
           "normalized": "FeatureHierSequences-\u003e[Feature]",
@@ -6994,6 +7596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "namedSLM",
           "package": "bio",
@@ -7003,6 +7606,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "namedSLM",
           "normalized": "FeatureHierSequences-\u003eSeqLocMap Feature",
@@ -7018,6 +7622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "noncodingExons",
           "package": "bio",
@@ -7027,6 +7632,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "noncodingExons",
           "normalized": "FeatureHierSequences-\u003eFeature-\u003e[Feature]",
@@ -7042,6 +7648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "noncodingSeqLoc",
           "package": "bio",
@@ -7051,6 +7658,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "noncodingSeqLoc",
           "normalized": "FeatureHierSequences-\u003eFeature-\u003ea SeqLoc",
@@ -7066,6 +7674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "noncodingSequence",
           "package": "bio",
@@ -7075,6 +7684,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "noncodingSequence",
           "normalized": "FeatureHierSequences-\u003eFeature-\u003ea(Sequence b)",
@@ -7090,6 +7700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "rRNAs",
           "package": "bio",
@@ -7099,6 +7710,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "rRNAs",
           "normalized": "FeatureHierSequences-\u003e[Feature]",
@@ -7114,6 +7726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.GFF3.SGD",
           "name": "sortExons",
           "package": "bio",
@@ -7123,6 +7736,7 @@
         },
         "index": {
           "hierarchy": "Bio GFF3 SGD",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.GFF3.SGD",
           "name": "sortExons",
           "normalized": "[Feature]-\u003ea[Feature]",
@@ -7139,6 +7753,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData type for a sequence location consiting of a contiguous range\nof positions on the sequence.\n\u003c/p\u003e\u003cp\u003eThroughout, \u003cem\u003esequence position\u003c/em\u003e refers to a \u003ccode\u003e\u003ca\u003ePos\u003c/a\u003e\u003c/code\u003e which includes a\nstrand.  An index into a sequence is referred to as an \u003cem\u003eoffset\u003c/em\u003e, and\nis generally of type \u003ccode\u003e\u003ca\u003eOffset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "ContigLocation",
           "package": "bio",
@@ -7148,6 +7763,7 @@
         "index": {
           "description": "Data type for sequence location consiting of contiguous range of positions on the sequence Throughout sequence position refers to Pos which includes strand An index into sequence is referred to as an offset and is generally of type Offset",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "ContigLocation",
           "package": "bio",
@@ -7162,6 +7778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContiguous sequence location defined by a span of sequence\n positions, lying on a specific strand of the sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "ContigLoc",
           "package": "bio",
@@ -7171,6 +7788,7 @@
         "index": {
           "description": "Contiguous sequence location defined by span of sequence positions lying on specific strand of the sequence",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "ContigLoc",
           "package": "bio",
@@ -7184,6 +7802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "ContigLoc",
           "package": "bio",
@@ -7193,6 +7812,7 @@
         },
         "index": {
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "ContigLoc",
           "package": "bio",
@@ -7207,6 +7827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bounds of a sequence location.  This is a pair consisting of\n the lowest and highest sequence offsets covered by the region.  The\n bounds ignore the strand of the sequence location, and the first\n element of the pair will always be lower than the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "bounds",
           "package": "bio",
@@ -7217,6 +7838,7 @@
         "index": {
           "description": "The bounds of sequence location This is pair consisting of the lowest and highest sequence offsets covered by the region The bounds ignore the strand of the sequence location and the first element of the pair will always be lower than the second",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "bounds",
           "normalized": "ContigLoc-\u003e(Offset,Offset)",
@@ -7232,6 +7854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a human-friendly, zero-based representation of a sequence location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "display",
           "package": "bio",
@@ -7242,6 +7865,7 @@
         "index": {
           "description": "Display human-friendly zero-based representation of sequence location",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "display",
           "normalized": "ContigLoc-\u003eString",
@@ -7257,6 +7881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence position of the end of the location, as described in \u003ccode\u003e\u003ca\u003estartPos\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "endPos",
           "package": "bio",
@@ -7267,6 +7892,7 @@
         "index": {
           "description": "Sequence position of the end of the location as described in startPos",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "endPos",
           "normalized": "ContigLoc-\u003ePos",
@@ -7283,6 +7909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a sequence location produced by extending the original\n location on each end, based on a pair of (\u003cem\u003e5\\' extension\u003c/em\u003e, /3'\n extension/).  The 5' extension is applied to the 5' end of the\n location on the location strand; if the location is on the\n \u003ccode\u003e\u003ca\u003eRevCompl\u003c/a\u003e\u003c/code\u003e strand, the 5' end will have a higher offset than the\n 3' end and this offset will increase by the amount of the 5'\n extension.  Similarly, the 3' extension is applied to the 3' end\n of the location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "extend",
           "package": "bio",
@@ -7293,6 +7920,7 @@
         "index": {
           "description": "Returns sequence location produced by extending the original location on each end based on pair of extension extension The extension is applied to the end of the location on the location strand if the location is on the RevCompl strand the end will have higher offset than the end and this offset will increase by the amount of the extension Similarly the extension is applied to the end of the location",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "extend",
           "normalized": "(Offset,Offset)-\u003eContigLoc-\u003eContigLoc",
@@ -7308,6 +7936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sequence location from the sequence position of the\n start of the location and the length of the position.  The strand\n of the location, and the direction it extends from the starting\n position, are determined by the strand of the starting position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "fromPosLen",
           "package": "bio",
@@ -7318,6 +7947,7 @@
         "index": {
           "description": "Create sequence location from the sequence position of the start of the location and the length of the position The strand of the location and the direction it extends from the starting position are determined by the strand of the starting position",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "fromPosLen",
           "normalized": "Pos-\u003eOffset-\u003eContigLoc",
@@ -7334,6 +7964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sequence location lying between 0-based starting and\n ending offsets.  When \u003ccode\u003estart \u003c end\u003c/code\u003e, the location\n be on the forward strand, otherwise it will be on the\n reverse complement strand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "fromStartEnd",
           "package": "bio",
@@ -7344,6 +7975,7 @@
         "index": {
           "description": "Create sequence location lying between based starting and ending offsets When start end the location be on the forward strand otherwise it will be on the reverse complement strand",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "fromStartEnd",
           "normalized": "Offset-\u003eOffset-\u003eContigLoc",
@@ -7360,6 +7992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e when  a sequence position lies within a sequence\n location on the same sequence, and occupies the same strand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "isWithin",
           "package": "bio",
@@ -7370,6 +8003,7 @@
         "index": {
           "description": "Returns True when sequence position lies within sequence location on the same sequence and occupies the same strand",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "isWithin",
           "normalized": "Pos-\u003eContigLoc-\u003eBool",
@@ -7386,6 +8020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe length of the location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "length",
           "package": "bio",
@@ -7396,6 +8031,7 @@
         "index": {
           "description": "The length of the location",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "length",
           "package": "bio",
@@ -7409,6 +8045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe offset of the 5' end of the location, as a 0-based index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "offset5",
           "package": "bio",
@@ -7419,6 +8056,7 @@
         "index": {
           "description": "The offset of the end of the location as based index",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "offset5",
           "package": "bio",
@@ -7432,6 +8070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e when two sequence locations overlap at any\n position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "overlaps",
           "package": "bio",
@@ -7442,6 +8081,7 @@
         "index": {
           "description": "Returns True when two sequence locations overlap at any position",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "overlaps",
           "normalized": "ContigLoc-\u003eContigLoc-\u003eBool",
@@ -7457,6 +8097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a sequence position and a sequence location relative to the\n same sequence, compute a new position representing the original\n position relative to the subsequence defined by the location.  If\n the sequence position lies outside of the sequence location,\n \u003ccode\u003eNothing\u003c/code\u003e is returned; thus, the offset of the new position will\n always be in the range \u003ccode\u003e[0, length cloc - 1]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "posInto",
           "package": "bio",
@@ -7467,6 +8108,7 @@
         "index": {
           "description": "Given sequence position and sequence location relative to the same sequence compute new position representing the original position relative to the subsequence defined by the location If the sequence position lies outside of the sequence location Nothing is returned thus the offset of the new position will always be in the range length cloc",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "posInto",
           "normalized": "Pos-\u003eContigLoc-\u003eMaybe Pos",
@@ -7483,6 +8125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a sequence location and a sequence position within that\n location, compute a new position representing the original position\n relative to the outer sequence.  If the sequence position lies\n outside the location, \u003ccode\u003eNothing\u003c/code\u003e is returned.\n\u003c/p\u003e\u003cp\u003eThis function inverts \u003ccode\u003e\u003ca\u003eposInto\u003c/a\u003e\u003c/code\u003e when the sequence position lies\n within the position is actually within the location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "posOutof",
           "package": "bio",
@@ -7493,6 +8136,7 @@
         "index": {
           "description": "Given sequence location and sequence position within that location compute new position representing the original position relative to the outer sequence If the sequence position lies outside the location Nothing is returned This function inverts posInto when the sequence position lies within the position is actually within the location",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "posOutof",
           "normalized": "Pos-\u003eContigLoc-\u003eMaybe Pos",
@@ -7509,6 +8153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the nucleotide \u003ccode\u003e\u003ca\u003eSeqData\u003c/a\u003e\u003c/code\u003e for the sequence location.  If\n any part of the location lies outside the bounds of the sequence,\n an error results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "seqData",
           "package": "bio",
@@ -7519,6 +8164,7 @@
         "index": {
           "description": "Extract the nucleotide SeqData for the sequence location If any part of the location lies outside the bounds of the sequence an error results",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "seqData",
           "normalized": "SeqData-\u003eContigLoc-\u003ea SeqData",
@@ -7535,6 +8181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003eseqData\u003c/a\u003e\u003c/code\u003e, extract the nucleotide subsequence for the\n location.  Any positions in the location lying outside the bounds\n of the sequence are returned as \u003ccode\u003eN\u003c/code\u003e rather than producing an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "seqDataPadded",
           "package": "bio",
@@ -7545,6 +8192,7 @@
         "index": {
           "description": "As seqData extract the nucleotide subsequence for the location Any positions in the location lying outside the bounds of the sequence are returned as rather than producing an error",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "seqDataPadded",
           "normalized": "SeqData-\u003eContigLoc-\u003eSeqData",
@@ -7561,6 +8209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a location resulting from sliding the original location\n along the sequence by a specified offset.  A positive offset will\n move the location away from the 5' end of the forward stand of the\n sequence regardless of the strand of the location itself.  Thus,\n\u003c/p\u003e\u003cpre\u003e slide (revCompl cloc) off == revCompl (slide cloc off)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "slide",
           "package": "bio",
@@ -7571,6 +8220,7 @@
         "index": {
           "description": "Returns location resulting from sliding the original location along the sequence by specified offset positive offset will move the location away from the end of the forward stand of the sequence regardless of the strand of the location itself Thus slide revCompl cloc off revCompl slide cloc off",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "slide",
           "normalized": "Offset-\u003eContigLoc-\u003eContigLoc",
@@ -7586,6 +8236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence position of the start of the location.  This is the 5'\n end on the location strand, which will have a higher offset than\n \u003ccode\u003e\u003ca\u003eendPos\u003c/a\u003e\u003c/code\u003e if the location is on the \u003ccode\u003e\u003ca\u003eRevCompl\u003c/a\u003e\u003c/code\u003e strand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "startPos",
           "package": "bio",
@@ -7596,6 +8247,7 @@
         "index": {
           "description": "Sequence position of the start of the location This is the end on the location strand which will have higher offset than endPos if the location is on the RevCompl strand",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "startPos",
           "normalized": "ContigLoc-\u003ePos",
@@ -7612,6 +8264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strand of the location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.ContigLocation",
           "name": "strand",
           "package": "bio",
@@ -7622,6 +8275,7 @@
         "index": {
           "description": "The strand of the location",
           "hierarchy": "Bio Location ContigLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.ContigLocation",
           "name": "strand",
           "package": "bio",
@@ -7635,6 +8289,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient lookup of sequence positions and locations in a large\nmap of target locations.  For example, target locations might\nrepresent a collection of genes annotated on a chromosome.  The\n\u003ccode\u003e\u003ca\u003eLocMap\u003c/a\u003e\u003c/code\u003e would efficiently find which gene(s) overlapped a sequence\nposition on that chromosome.\n\u003c/p\u003e\u003cp\u003eTarget locations are assigned to one or more zones based on\n\u003ccode\u003e\u003ca\u003ebounds\u003c/a\u003e\u003c/code\u003e.  Query locations are then tested only against the target\nlocations in the relevant zones.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.LocMap",
           "name": "LocMap",
           "package": "bio",
@@ -7644,6 +8299,7 @@
         "index": {
           "description": "Efficient lookup of sequence positions and locations in large map of target locations For example target locations might represent collection of genes annotated on chromosome The LocMap would efficiently find which gene overlapped sequence position on that chromosome Target locations are assigned to one or more zones based on bounds Query locations are then tested only against the target locations in the relevant zones",
           "hierarchy": "Bio Location LocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.LocMap",
           "name": "LocMap",
           "package": "bio",
@@ -7658,6 +8314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structure allowing efficient lookup of target sequence\n locations that overlap a query location.  Target locations can be\n paired with an arbitrary object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.LocMap",
           "name": "LocMap",
           "package": "bio",
@@ -7667,6 +8324,7 @@
         "index": {
           "description": "Data structure allowing efficient lookup of target sequence locations that overlap query location Target locations can be paired with an arbitrary object",
           "hierarchy": "Bio Location LocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.LocMap",
           "name": "LocMap",
           "package": "bio",
@@ -7680,6 +8338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.LocMap",
           "name": "checkInvariants",
           "package": "bio",
@@ -7689,6 +8348,7 @@
         },
         "index": {
           "hierarchy": "Bio Location LocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.LocMap",
           "name": "checkInvariants",
           "normalized": "LocMap a-\u003e[String]",
@@ -7705,6 +8365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a target location and object association from the map, if it is\n present.  If it is present multiple times, only the first\n occurrence will be deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.LocMap",
           "name": "delete",
           "package": "bio",
@@ -7715,6 +8376,7 @@
         "index": {
           "description": "Remove target location and object association from the map if it is present If it is present multiple times only the first occurrence will be deleted",
           "hierarchy": "Bio Location LocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.LocMap",
           "name": "delete",
           "normalized": "(Loc,a)-\u003eLocMap a-\u003eLocMap a",
@@ -7730,6 +8392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized version of \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e that removes the first target\n location / object association that satisfies a predicate function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.LocMap",
           "name": "deleteBy",
           "package": "bio",
@@ -7740,6 +8403,7 @@
         "index": {
           "description": "Generalized version of delete that removes the first target location object association that satisfies predicate function",
           "hierarchy": "Bio Location LocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.LocMap",
           "name": "deleteBy",
           "normalized": "((Loc,a)-\u003eBool)-\u003eLocMap a-\u003eLocMap a",
@@ -7756,6 +8420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eLocMap\u003c/a\u003e\u003c/code\u003e from an association list of target locations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.LocMap",
           "name": "fromList",
           "package": "bio",
@@ -7766,6 +8431,7 @@
         "index": {
           "description": "Create LocMap from an association list of target locations",
           "hierarchy": "Bio Location LocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.LocMap",
           "name": "fromList",
           "normalized": "Offset-\u003e[(Loc,a)]-\u003eLocMap a",
@@ -7782,6 +8448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new target association into a target location map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.LocMap",
           "name": "insert",
           "package": "bio",
@@ -7792,6 +8459,7 @@
         "index": {
           "description": "Insert new target association into target location map",
           "hierarchy": "Bio Location LocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.LocMap",
           "name": "insert",
           "normalized": "Loc-\u003ea-\u003eLocMap a-\u003eLocMap a",
@@ -7807,6 +8475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the (possibly empty) list of target locations and associated\n objects that overlap a sequence location, in the sense of \u003ccode\u003e\u003ca\u003eoverlaps\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.LocMap",
           "name": "lookupOverlaps",
           "package": "bio",
@@ -7817,6 +8486,7 @@
         "index": {
           "description": "Find the possibly empty list of target locations and associated objects that overlap sequence location in the sense of overlaps",
           "hierarchy": "Bio Location LocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.LocMap",
           "name": "lookupOverlaps",
           "normalized": "Loc-\u003eLocMap a-\u003e[(Loc,a)]",
@@ -7833,6 +8503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the (possibly empty) list of target locations and associated\n objects that contain a sequence position, in the sense of\n \u003ccode\u003e\u003ca\u003eisWithin\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.LocMap",
           "name": "lookupWithin",
           "package": "bio",
@@ -7843,6 +8514,7 @@
         "index": {
           "description": "Find the possibly empty list of target locations and associated objects that contain sequence position in the sense of isWithin",
           "hierarchy": "Bio Location LocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.LocMap",
           "name": "lookupWithin",
           "normalized": "Pos-\u003eLocMap a-\u003e[(Loc,a)]",
@@ -7859,6 +8531,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData type for a more general sequence location consiting of\npotentially disjoint ranges of positions on the sequence.\n\u003c/p\u003e\u003cp\u003eThroughout, \u003cem\u003esequence position\u003c/em\u003e refers to a \u003ccode\u003e\u003ca\u003ePos\u003c/a\u003e\u003c/code\u003e which includes a\nstrand.  An index into a sequence is referred to as an \u003cem\u003eoffset\u003c/em\u003e, and\nis generally of type \u003ccode\u003e\u003ca\u003eOffset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "Location",
           "package": "bio",
@@ -7868,6 +8541,7 @@
         "index": {
           "description": "Data type for more general sequence location consiting of potentially disjoint ranges of positions on the sequence Throughout sequence position refers to Pos which includes strand An index into sequence is referred to as an offset and is generally of type Offset",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "Location",
           "package": "bio",
@@ -7882,6 +8556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral (disjoint) sequence region consisting of a concatenated\n   set of contiguous regions (see \u003ccode\u003e\u003ca\u003eContigLoc\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "Loc",
           "package": "bio",
@@ -7891,6 +8566,7 @@
         "index": {
           "description": "General disjoint sequence region consisting of concatenated set of contiguous regions see ContigLoc",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "Loc",
           "package": "bio",
@@ -7904,6 +8580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "Loc",
           "package": "bio",
@@ -7913,6 +8590,7 @@
         },
         "index": {
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "Loc",
           "normalized": "Loc[ContigLoc]",
@@ -7929,6 +8607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bounds of a sequence location.  This is a pair consisting of\n the lowest and highest sequence offsets covered by the region.  The\n bounds ignore the strand of the sequence location, and the first\n element of the pair will always be lower than the second.  Even if\n the positions in the location do not run monotonically through the\n location, the overall lowest and highest sequence offsets are returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "bounds",
           "package": "bio",
@@ -7939,6 +8618,7 @@
         "index": {
           "description": "The bounds of sequence location This is pair consisting of the lowest and highest sequence offsets covered by the region The bounds ignore the strand of the sequence location and the first element of the pair will always be lower than the second Even if the positions in the location do not run monotonically through the location the overall lowest and highest sequence offsets are returned",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "bounds",
           "normalized": "Loc-\u003e(Offset,Offset)",
@@ -7954,6 +8634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a human-friendly, zero-based representation of a sequence location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "display",
           "package": "bio",
@@ -7964,6 +8645,7 @@
         "index": {
           "description": "Display human-friendly zero-based representation of sequence location",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "display",
           "normalized": "Loc-\u003eString",
@@ -7979,6 +8661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence position of the end of the location, as described in \u003ccode\u003e\u003ca\u003estartPos\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "endPos",
           "package": "bio",
@@ -7989,6 +8672,7 @@
         "index": {
           "description": "Sequence position of the end of the location as described in startPos",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "endPos",
           "normalized": "Loc-\u003ePos",
@@ -8005,6 +8689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a sequence location produced by extending the original\n location on each end, based on a pair of (\u003cem\u003e5\\' extension\u003c/em\u003e, /3'\n extension/).  These add contiguous positions to the 5' and 3'\n ends of the original location.  The 5' extension is applied to the\n 5' end of the location on the location strand; if the location is\n on the \u003ccode\u003e\u003ca\u003eRevCompl\u003c/a\u003e\u003c/code\u003e strand, the 5' end will have a higher offset\n than the 3' end and this offset will increase by the amount of the\n 5' extension.  Similarly, the 3' extension is applied to the 3'\n end of the location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "extend",
           "package": "bio",
@@ -8014,6 +8699,7 @@
         "index": {
           "description": "Returns sequence location produced by extending the original location on each end based on pair of extension extension These add contiguous positions to the and ends of the original location The extension is applied to the end of the location on the location strand if the location is on the RevCompl strand the end will have higher offset than the end and this offset will increase by the amount of the extension Similarly the extension is applied to the end of the location",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "extend",
           "normalized": "(Offset,Offset)-\u003eLoc-\u003eLoc",
@@ -8029,6 +8715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e when  a sequence position lies within a sequence\n location on the same sequence, and occupies the same strand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "isWithin",
           "package": "bio",
@@ -8039,6 +8726,7 @@
         "index": {
           "description": "Returns True when sequence position lies within sequence location on the same sequence and occupies the same strand",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "isWithin",
           "normalized": "Pos-\u003eLoc-\u003eBool",
@@ -8055,6 +8743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the length of the region\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "length",
           "package": "bio",
@@ -8065,6 +8754,7 @@
         "index": {
           "description": "Returns the length of the region",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "length",
           "normalized": "Loc-\u003eOffset",
@@ -8080,6 +8770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e when two sequence locations overlap at any\n position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "overlaps",
           "package": "bio",
@@ -8090,6 +8781,7 @@
         "index": {
           "description": "Returns True when two sequence locations overlap at any position",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "overlaps",
           "normalized": "Loc-\u003eLoc-\u003eBool",
@@ -8105,6 +8797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a sequence position and a sequence location relative to the\n same sequence, compute a new position representing the original\n position relative to the subsequence defined by the location.  If\n the sequence position lies outside of the sequence location,\n \u003ccode\u003eNothing\u003c/code\u003e is returned; thus, the offset of the new position will\n always be in the range \u003ccode\u003e[0, length cloc - 1]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWhen the sequence positions in the location are not monotonic,\n there may be multiple possible posInto solutions.  That is, if the\n same outer sequence position is covered by two different contiguous\n blocks of the location, then it would have two possible sequence\n positions relative to the location. In this case, the position\n 5'-most in the location orientation is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "posInto",
           "package": "bio",
@@ -8115,6 +8808,7 @@
         "index": {
           "description": "Given sequence position and sequence location relative to the same sequence compute new position representing the original position relative to the subsequence defined by the location If the sequence position lies outside of the sequence location Nothing is returned thus the offset of the new position will always be in the range length cloc When the sequence positions in the location are not monotonic there may be multiple possible posInto solutions That is if the same outer sequence position is covered by two different contiguous blocks of the location then it would have two possible sequence positions relative to the location In this case the position most in the location orientation is returned",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "posInto",
           "normalized": "Pos-\u003eLoc-\u003eMaybe Pos",
@@ -8131,6 +8825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a sequence location and a sequence position within that\n location, compute a new position representing the original position\n relative to the outer sequence.  If the sequence position lies\n outside the location, \u003ccode\u003eNothing\u003c/code\u003e is returned.  \n\u003c/p\u003e\u003cp\u003eThis function inverts \u003ccode\u003e\u003ca\u003eposInto\u003c/a\u003e\u003c/code\u003e when the sequence position lies\n within the position is actually within the location.  Due to the\n possibility of redundant location-relative positions for a given\n absolute position, \u003ccode\u003e\u003ca\u003eposInto\u003c/a\u003e\u003c/code\u003e does not necessary invert \u003ccode\u003e\u003ca\u003eposOutof\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "posOutof",
           "package": "bio",
@@ -8141,6 +8836,7 @@
         "index": {
           "description": "Given sequence location and sequence position within that location compute new position representing the original position relative to the outer sequence If the sequence position lies outside the location Nothing is returned This function inverts posInto when the sequence position lies within the position is actually within the location Due to the possibility of redundant location-relative positions for given absolute position posInto does not necessary invert posOutof",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "posOutof",
           "normalized": "Pos-\u003eLoc-\u003eMaybe Pos",
@@ -8157,6 +8853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the nucleotide \u003ccode\u003e\u003ca\u003eSeqData\u003c/a\u003e\u003c/code\u003e for the sequence location.  If\n any part of the location lies outside the bounds of the sequence,\n an error results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "seqData",
           "package": "bio",
@@ -8167,6 +8864,7 @@
         "index": {
           "description": "Extract the nucleotide SeqData for the sequence location If any part of the location lies outside the bounds of the sequence an error results",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "seqData",
           "normalized": "SeqData-\u003eLoc-\u003ea SeqData",
@@ -8183,6 +8881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003eseqData\u003c/a\u003e\u003c/code\u003e, extract the nucleotide subsequence for the\n location.  Any positions in the location lying outside the bounds\n of the sequence are returned as \u003ccode\u003eN\u003c/code\u003e rather than producing an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "seqDataPadded",
           "package": "bio",
@@ -8193,6 +8892,7 @@
         "index": {
           "description": "As seqData extract the nucleotide subsequence for the location Any positions in the location lying outside the bounds of the sequence are returned as rather than producing an error",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "seqDataPadded",
           "normalized": "SeqData-\u003eLoc-\u003eSeqData",
@@ -8209,6 +8909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence position of the start of the location.  This is the 5'\n end on the location strand, which will have a higher offset than\n \u003ccode\u003e\u003ca\u003eendPos\u003c/a\u003e\u003c/code\u003e if the location is on the \u003ccode\u003e\u003ca\u003eRevCompl\u003c/a\u003e\u003c/code\u003e strand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Location",
           "name": "startPos",
           "package": "bio",
@@ -8219,6 +8920,7 @@
         "index": {
           "description": "Sequence position of the start of the location This is the end on the location strand which will have higher offset than endPos if the location is on the RevCompl strand",
           "hierarchy": "Bio Location Location",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Location",
           "name": "startPos",
           "normalized": "Loc-\u003ePos",
@@ -8235,6 +8937,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types for functorially lifting sequence positions and\nlocations onto named sequences.  These are useful for taking functions\nthat work with sequence positions and locations and associating them\nspecific, named sequences.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "OnSeq",
           "package": "bio",
@@ -8244,6 +8947,7 @@
         "index": {
           "description": "Data types for functorially lifting sequence positions and locations onto named sequences These are useful for taking functions that work with sequence positions and locations and associating them specific named sequences",
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "OnSeq",
           "package": "bio",
@@ -8258,6 +8962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for an object associated with a specific, named sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "OnSeq",
           "package": "bio",
@@ -8267,6 +8972,7 @@
         "index": {
           "description": "Data type for an object associated with specific named sequence",
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "OnSeq",
           "package": "bio",
@@ -8281,6 +8987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for a collection of objects indexed by sequence name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "OnSeqs",
           "package": "bio",
@@ -8290,6 +8997,7 @@
         "index": {
           "description": "Data type for collection of objects indexed by sequence name",
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "OnSeqs",
           "package": "bio",
@@ -8304,6 +9012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence name, as in a \u003ccode\u003e\u003ca\u003eSequence\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "SeqName",
           "package": "bio",
@@ -8313,6 +9022,7 @@
         "index": {
           "description": "Sequence name as in Sequence",
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "SeqName",
           "package": "bio",
@@ -8326,6 +9036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "OnSeq",
           "package": "bio",
@@ -8335,6 +9046,7 @@
         },
         "index": {
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "OnSeq",
           "package": "bio",
@@ -8349,6 +9061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests a predicate when two objects are on the same sequence,\n returning \u003ccode\u003eFalse\u003c/code\u003e if they are on different sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "andSameSeq",
           "package": "bio",
@@ -8359,6 +9072,7 @@
         "index": {
           "description": "Tests predicate when two objects are on the same sequence returning False if they are on different sequences",
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "andSameSeq",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eOnSeq a-\u003eOnSeq b-\u003eBool",
@@ -8375,6 +9089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms an action when two objects are on the same sequence and\n produces an error otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "onSameSeq",
           "package": "bio",
@@ -8385,6 +9100,7 @@
         "index": {
           "description": "Performs an action when two objects are on the same sequence and produces an error otherwise",
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "onSameSeq",
           "normalized": "(a-\u003eb-\u003ec d)-\u003eOnSeq a-\u003eOnSeq b-\u003ec d",
@@ -8400,6 +9116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "onSeqName",
           "package": "bio",
@@ -8409,6 +9126,7 @@
         },
         "index": {
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "onSeqName",
           "package": "bio",
@@ -8422,6 +9140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "onSeqObj",
           "package": "bio",
@@ -8431,6 +9150,7 @@
         },
         "index": {
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "onSeqObj",
           "package": "bio",
@@ -8445,6 +9165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a function on an underlying object to look up the sequence\n name in a name-indexed collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "perSeq",
           "package": "bio",
@@ -8455,6 +9176,7 @@
         "index": {
           "description": "Lifts function on an underlying object to look up the sequence name in name-indexed collection",
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "perSeq",
           "normalized": "(a-\u003eb-\u003ec)-\u003eOnSeq a-\u003eOnSeqs b-\u003ec",
@@ -8471,6 +9193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a function that updates an underlying object to look up the\n named sequence and update a named-index collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "perSeqUpdate",
           "package": "bio",
@@ -8481,6 +9204,7 @@
         "index": {
           "description": "Lifts function that updates an underlying object to look up the named sequence and update named-index collection",
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "perSeqUpdate",
           "normalized": "(a-\u003eb-\u003eb)-\u003eOnSeq a-\u003eOnSeqs b-\u003eOnSeqs b",
@@ -8497,6 +9221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a function on underlying objects to look up a sequence in a\n name-indexed collection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "withNameAndSeq",
           "package": "bio",
@@ -8507,6 +9232,7 @@
         "index": {
           "description": "Lifts function on underlying objects to look up sequence in name-indexed collection",
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "withNameAndSeq",
           "normalized": "(SeqName-\u003ea-\u003eb-\u003ec d)-\u003eOnSeq a-\u003eOnSeqs b-\u003ec d",
@@ -8523,6 +9249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooks up a sequence by name and applies a function to it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.OnSeq",
           "name": "withSeqData",
           "package": "bio",
@@ -8532,6 +9259,7 @@
         "index": {
           "description": "Looks up sequence by name and applies function to it",
           "hierarchy": "Bio Location OnSeq",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.OnSeq",
           "name": "withSeqData",
           "normalized": "(SeqData-\u003ea-\u003eb c)-\u003e(SeqName-\u003eb SeqData)-\u003eOnSeq a-\u003eb c",
@@ -8548,6 +9276,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData type for a sequence position.\n\u003c/p\u003e\u003cp\u003eZero-based \u003ccode\u003e\u003ca\u003eOffset\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003eInt64\u003c/code\u003e indices are used throughout, to\nfacilitate direct use of indexing functions on \u003ccode\u003e\u003ca\u003eSeqData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Position",
           "name": "Position",
           "package": "bio",
@@ -8557,6 +9286,7 @@
         "index": {
           "description": "Data type for sequence position Zero-based Offset Int64 indices are used throughout to facilitate direct use of indexing functions on SeqData",
           "hierarchy": "Bio Location Position",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Position",
           "name": "Position",
           "package": "bio",
@@ -8571,6 +9301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition in a sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Position",
           "name": "Pos",
           "package": "bio",
@@ -8580,6 +9311,7 @@
         "index": {
           "description": "Position in sequence",
           "hierarchy": "Bio Location Position",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Position",
           "name": "Pos",
           "package": "bio",
@@ -8593,6 +9325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Position",
           "name": "Pos",
           "package": "bio",
@@ -8602,6 +9335,7 @@
         },
         "index": {
           "hierarchy": "Bio Location Position",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Position",
           "name": "Pos",
           "package": "bio",
@@ -8616,6 +9350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a human-friendly, zero-based representation of a sequence position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Position",
           "name": "display",
           "package": "bio",
@@ -8626,6 +9361,7 @@
         "index": {
           "description": "Display human-friendly zero-based representation of sequence position",
           "hierarchy": "Bio Location Position",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Position",
           "name": "display",
           "normalized": "Pos-\u003eString",
@@ -8641,6 +9377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0-based index of the position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Position",
           "name": "offset",
           "package": "bio",
@@ -8651,6 +9388,7 @@
         "index": {
           "description": "based index of the position",
           "hierarchy": "Bio Location Position",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Position",
           "name": "offset",
           "package": "bio",
@@ -8664,6 +9402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the nucleotide at a specific sequence position.  If the\n position lies outside the bounds of the sequence, an error results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Position",
           "name": "seqNt",
           "package": "bio",
@@ -8674,6 +9413,7 @@
         "index": {
           "description": "Extract the nucleotide at specific sequence position If the position lies outside the bounds of the sequence an error results",
           "hierarchy": "Bio Location Position",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Position",
           "name": "seqNt",
           "normalized": "SeqData-\u003ePos-\u003ea Char",
@@ -8690,6 +9430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003eseqNt\u003c/a\u003e\u003c/code\u003e, extract the nucleotide at a specific sequence\n position, but return \u003ccode\u003eN\u003c/code\u003e when the position lies outside the\n bounds of the sequence.\n\u003c/p\u003e\u003cpre\u003e seqNtPadded sequ pos == (either 'N' id . seqNt sequ) pos\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Position",
           "name": "seqNtPadded",
           "package": "bio",
@@ -8700,6 +9441,7 @@
         "index": {
           "description": "As seqNt extract the nucleotide at specific sequence position but return when the position lies outside the bounds of the sequence seqNtPadded sequ pos either id seqNt sequ pos",
           "hierarchy": "Bio Location Position",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Position",
           "name": "seqNtPadded",
           "normalized": "SeqData-\u003ePos-\u003eChar",
@@ -8716,6 +9458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a position resulting from sliding the original position\n along the sequence by a specified offset.  A positive offset will\n move the position away from the 5' end of the forward stand of the\n sequence regardless of the strand of the position itself.  Thus,\n\u003c/p\u003e\u003cpre\u003e slide (revCompl pos) off == revCompl (slide pos off)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Position",
           "name": "slide",
           "package": "bio",
@@ -8726,6 +9469,7 @@
         "index": {
           "description": "Returns position resulting from sliding the original position along the sequence by specified offset positive offset will move the position away from the end of the forward stand of the sequence regardless of the strand of the position itself Thus slide revCompl pos off revCompl slide pos off",
           "hierarchy": "Bio Location Position",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Position",
           "name": "slide",
           "normalized": "Pos-\u003eOffset-\u003ePos",
@@ -8741,6 +9485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrand of the position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Position",
           "name": "strand",
           "package": "bio",
@@ -8751,6 +9496,7 @@
         "index": {
           "description": "Strand of the position",
           "hierarchy": "Bio Location Position",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Position",
           "name": "strand",
           "package": "bio",
@@ -8764,6 +9510,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient lookup of query positions in a collection of target sequence\nlocations where positions and locations are associated with specific\nsequence names.  This is an extension of \u003ccode\u003eLocMap\u003c/code\u003e to use locations and\npositions on named sequences as in \u003ccode\u003eSeqLocation\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocMap",
           "name": "SeqLocMap",
           "package": "bio",
@@ -8773,6 +9520,7 @@
         "index": {
           "description": "Efficient lookup of query positions in collection of target sequence locations where positions and locations are associated with specific sequence names This is an extension of LocMap to use locations and positions on named sequences as in SeqLocation",
           "hierarchy": "Bio Location SeqLocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocMap",
           "name": "SeqLocMap",
           "package": "bio",
@@ -8787,6 +9535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure for efficiently finding target sequence\n locations (\u003ccode\u003e\u003ca\u003eLoc\u003c/a\u003e\u003c/code\u003e) that overlap query positions or locations.\n Each target location can be associated with an arbitrary additional\n value in the lookup map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocMap",
           "name": "SeqLocMap",
           "package": "bio",
@@ -8796,6 +9545,7 @@
         "index": {
           "description": "data structure for efficiently finding target sequence locations Loc that overlap query positions or locations Each target location can be associated with an arbitrary additional value in the lookup map",
           "hierarchy": "Bio Location SeqLocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocMap",
           "name": "SeqLocMap",
           "package": "bio",
@@ -8810,6 +9560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty lookup map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocMap",
           "name": "empty",
           "package": "bio",
@@ -8820,6 +9571,7 @@
         "index": {
           "description": "Empty lookup map",
           "hierarchy": "Bio Location SeqLocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocMap",
           "name": "empty",
           "package": "bio",
@@ -8833,6 +9585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eSeqLocMap\u003c/a\u003e\u003c/code\u003e from a list of target locations and their\n associated objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocMap",
           "name": "fromList",
           "package": "bio",
@@ -8843,6 +9596,7 @@
         "index": {
           "description": "Creates SeqLocMap from list of target locations and their associated objects",
           "hierarchy": "Bio Location SeqLocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocMap",
           "name": "fromList",
           "normalized": "[(SeqLoc,a)]-\u003eSeqLocMap a",
@@ -8859,6 +9613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a new target location and associated object into the\n location lookup map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocMap",
           "name": "insert",
           "package": "bio",
@@ -8869,6 +9624,7 @@
         "index": {
           "description": "Inserts new target location and associated object into the location lookup map",
           "hierarchy": "Bio Location SeqLocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocMap",
           "name": "insert",
           "normalized": "SeqLoc-\u003ea-\u003eSeqLocMap a-\u003eSeqLocMap a",
@@ -8884,6 +9640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the (possibly empty) list of target locations and associated\n objects that overlap a sequence location, in the sense of\n \u003ccode\u003e\u003ca\u003eoverlaps\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocMap",
           "name": "lookupOverlaps",
           "package": "bio",
@@ -8894,6 +9651,7 @@
         "index": {
           "description": "Find the possibly empty list of target locations and associated objects that overlap sequence location in the sense of overlaps",
           "hierarchy": "Bio Location SeqLocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocMap",
           "name": "lookupOverlaps",
           "normalized": "SeqLoc-\u003eSeqLocMap a-\u003e[(SeqLoc,a)]",
@@ -8910,6 +9668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the (possibly empty) list of target locations and associated\n objects that contain a sequence position, in the sense of\n \u003ccode\u003e\u003ca\u003eisWithin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocMap",
           "name": "lookupWithin",
           "package": "bio",
@@ -8920,6 +9679,7 @@
         "index": {
           "description": "Find the possibly empty list of target locations and associated objects that contain sequence position in the sense of isWithin",
           "hierarchy": "Bio Location SeqLocMap",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocMap",
           "name": "lookupWithin",
           "normalized": "SeqPos-\u003eSeqLocMap a-\u003e[(SeqLoc,a)]",
@@ -8936,6 +9696,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types for sequence locations and sequence positions associated\nwith specific, named sequences.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocation",
           "name": "SeqLocation",
           "package": "bio",
@@ -8945,6 +9706,7 @@
         "index": {
           "description": "Data types for sequence locations and sequence positions associated with specific named sequences",
           "hierarchy": "Bio Location SeqLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocation",
           "name": "SeqLocation",
           "package": "bio",
@@ -8959,6 +9721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA location consisting of a contiguous span of positions on a\n named sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocation",
           "name": "ContigSeqLoc",
           "package": "bio",
@@ -8968,6 +9731,7 @@
         "index": {
           "description": "location consisting of contiguous span of positions on named sequence",
           "hierarchy": "Bio Location SeqLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocation",
           "name": "ContigSeqLoc",
           "package": "bio",
@@ -8982,6 +9746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA general location, consisting of spans of sequence positions on\n a specific, named sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocation",
           "name": "SeqLoc",
           "package": "bio",
@@ -8991,6 +9756,7 @@
         "index": {
           "description": "general location consisting of spans of sequence positions on specific named sequence",
           "hierarchy": "Bio Location SeqLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocation",
           "name": "SeqLoc",
           "package": "bio",
@@ -9005,6 +9771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position on a named sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocation",
           "name": "SeqPos",
           "package": "bio",
@@ -9014,6 +9781,7 @@
         "index": {
           "description": "position on named sequence",
           "hierarchy": "Bio Location SeqLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocation",
           "name": "SeqPos",
           "package": "bio",
@@ -9028,6 +9796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a human-friendly representation of a \u003ccode\u003e\u003ca\u003eSeqLoc\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocation",
           "name": "display",
           "package": "bio",
@@ -9038,6 +9807,7 @@
         "index": {
           "description": "Display human-friendly representation of SeqLoc",
           "hierarchy": "Bio Location SeqLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocation",
           "name": "display",
           "normalized": "SeqLoc-\u003eString",
@@ -9053,6 +9823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a human-friendly representation of a \u003ccode\u003e\u003ca\u003eContigSeqLoc\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocation",
           "name": "displayContigSeqLoc",
           "package": "bio",
@@ -9063,6 +9834,7 @@
         "index": {
           "description": "Display human-friendly representation of ContigSeqLoc",
           "hierarchy": "Bio Location SeqLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocation",
           "name": "displayContigSeqLoc",
           "normalized": "ContigSeqLoc-\u003eString",
@@ -9079,6 +9851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a human-friendly representation of a \u003ccode\u003e\u003ca\u003eSeqPos\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocation",
           "name": "displaySeqPos",
           "package": "bio",
@@ -9089,6 +9862,7 @@
         "index": {
           "description": "Display human-friendly representation of SeqPos",
           "hierarchy": "Bio Location SeqLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocation",
           "name": "displaySeqPos",
           "normalized": "SeqPos-\u003eString",
@@ -9105,6 +9879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a sequence position lies within a sequence location.\n This requires that the position lie within the location as per\n \u003ccode\u003e\u003ca\u003eisWithin\u003c/a\u003e\u003c/code\u003e and have the same sequence name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocation",
           "name": "isWithin",
           "package": "bio",
@@ -9115,6 +9890,7 @@
         "index": {
           "description": "Test whether sequence position lies within sequence location This requires that the position lie within the location as per isWithin and have the same sequence name",
           "hierarchy": "Bio Location SeqLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocation",
           "name": "isWithin",
           "normalized": "SeqPos-\u003eSeqLoc-\u003eBool",
@@ -9131,6 +9907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether two sequence locations overlap in any position.\n This requires that the locations overlap as per \u003ccode\u003e\u003ca\u003eoverlaps\u003c/a\u003e\u003c/code\u003e and\n have the same sequence name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocation",
           "name": "overlaps",
           "package": "bio",
@@ -9141,6 +9918,7 @@
         "index": {
           "description": "Test whether two sequence locations overlap in any position This requires that the locations overlap as per overlaps and have the same sequence name",
           "hierarchy": "Bio Location SeqLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocation",
           "name": "overlaps",
           "normalized": "SeqLoc-\u003eSeqLoc-\u003eBool",
@@ -9156,6 +9934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the subsequence specified by a sequence location from a\n sequence database.  The sequence name is used to retrieve the full\n sequence and the subsequence is extracted as by \u003ccode\u003e\u003ca\u003eseqData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocation",
           "name": "seqData",
           "package": "bio",
@@ -9166,6 +9945,7 @@
         "index": {
           "description": "Extract the subsequence specified by sequence location from sequence database The sequence name is used to retrieve the full sequence and the subsequence is extracted as by seqData",
           "hierarchy": "Bio Location SeqLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocation",
           "name": "seqData",
           "normalized": "(SeqName-\u003ea SeqData)-\u003eSeqLoc-\u003ea SeqData",
@@ -9182,6 +9962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a sequence position lies within a sequence location.\n This requires that the position lie within the location as per\n \u003ccode\u003e\u003ca\u003eisWithin\u003c/a\u003e\u003c/code\u003e and have the same sequence name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.SeqLocation",
           "name": "withinContigSeqLoc",
           "package": "bio",
@@ -9192,6 +9973,7 @@
         "index": {
           "description": "Test whether sequence position lies within sequence location This requires that the position lie within the location as per isWithin and have the same sequence name",
           "hierarchy": "Bio Location SeqLocation",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.SeqLocation",
           "name": "withinContigSeqLoc",
           "normalized": "SeqPos-\u003eContigSeqLoc-\u003eBool",
@@ -9208,6 +9990,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for manipulating nucleotide sequences and locations on\nnucleotide sequences that occur on a forward or a reverse-complement\nstrand.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Strand",
           "name": "Strand",
           "package": "bio",
@@ -9217,6 +10000,7 @@
         "index": {
           "description": "Utilities for manipulating nucleotide sequences and locations on nucleotide sequences that occur on forward or reverse-complement strand",
           "hierarchy": "Bio Location Strand",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Strand",
           "name": "Strand",
           "package": "bio",
@@ -9231,6 +10015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence strand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Strand",
           "name": "Strand",
           "package": "bio",
@@ -9240,6 +10025,7 @@
         "index": {
           "description": "Sequence strand",
           "hierarchy": "Bio Location Strand",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Strand",
           "name": "Strand",
           "package": "bio",
@@ -9254,6 +10040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA nucleotide sequence or location on a nucleotide sequence that\n   lies on a specific strand and has an orientation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Strand",
           "name": "Stranded",
           "package": "bio",
@@ -9263,6 +10050,7 @@
         "index": {
           "description": "nucleotide sequence or location on nucleotide sequence that lies on specific strand and has an orientation",
           "hierarchy": "Bio Location Strand",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Strand",
           "name": "Stranded",
           "package": "bio",
@@ -9276,6 +10064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Strand",
           "name": "Fwd",
           "package": "bio",
@@ -9285,6 +10074,7 @@
         },
         "index": {
           "hierarchy": "Bio Location Strand",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Strand",
           "name": "Fwd",
           "package": "bio",
@@ -9298,6 +10088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Strand",
           "name": "RevCompl",
           "package": "bio",
@@ -9307,6 +10098,7 @@
         },
         "index": {
           "hierarchy": "Bio Location Strand",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Strand",
           "name": "RevCompl",
           "package": "bio",
@@ -9320,6 +10112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Strand",
           "name": "revCompl",
           "package": "bio",
@@ -9329,6 +10122,7 @@
         },
         "index": {
           "hierarchy": "Bio Location Strand",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Strand",
           "name": "revCompl",
           "normalized": "a-\u003ea",
@@ -9345,6 +10139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the orientation of a \u003ccode\u003e\u003ca\u003eStranded\u003c/a\u003e\u003c/code\u003e thing based on a\n   specified \u003ccode\u003e\u003ca\u003eStrand\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Location.Strand",
           "name": "stranded",
           "package": "bio",
@@ -9355,6 +10150,7 @@
         "index": {
           "description": "Convert the orientation of Stranded thing based on specified Strand",
           "hierarchy": "Bio Location Strand",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Location.Strand",
           "name": "stranded",
           "normalized": "Strand-\u003ea-\u003ea",
@@ -9370,6 +10166,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEncodes a table of amino acid properties. \n    Based on Livingstone & Barton, CABIOS, 9, 745-756, 1993, as seen at:\n    http:\u003cem/\u003ewww.compbio.dundee.ac.uk\u003cem\u003euser\u003c/em\u003ews-dev1\u003cem\u003ejalview\u003c/em\u003elatest\u003cem\u003ehelp\u003c/em\u003ehtml\u003cem\u003emisc\u003c/em\u003eaaproperties.html\n   NB: based on the graphic, not the table (in which P is polar, but T is not)\n|\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "AminoProperties",
           "package": "bio",
@@ -9379,6 +10176,7 @@
         "index": {
           "description": "Encodes table of amino acid properties Based on Livingstone Barton CABIOS as seen at http www.compbio.dundee.ac.uk user ws-dev1 jalview latest help html misc aaproperties.html NB based on the graphic not the table in which is polar but is not",
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "AminoProperties",
           "package": "bio",
@@ -9392,6 +10190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "AAProp",
           "package": "bio",
@@ -9400,6 +10199,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "AAProp",
           "package": "bio",
@@ -9413,6 +10213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "aliphatic",
           "package": "bio",
@@ -9422,6 +10223,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "aliphatic",
           "package": "bio",
@@ -9434,6 +10236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "aromatic",
           "package": "bio",
@@ -9443,6 +10246,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "aromatic",
           "package": "bio",
@@ -9455,6 +10259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "charged",
           "package": "bio",
@@ -9464,6 +10269,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "charged",
           "package": "bio",
@@ -9477,6 +10283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe propensities for forming secondary structures\n  From Zvelebil and Baum: Understanding Bioinformatics, Chapter 11\n  citing Chou and Fasman.\n  Today, more complex methods like GOR are recommended instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "helixP",
           "package": "bio",
@@ -9487,6 +10294,7 @@
         "index": {
           "description": "The propensities for forming secondary structures From Zvelebil and Baum Understanding Bioinformatics Chapter citing Chou and Fasman Today more complex methods like GOR are recommended instead",
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "helixP",
           "normalized": "Amino-\u003eDouble",
@@ -9501,6 +10309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "hydropathy",
           "package": "bio",
@@ -9510,6 +10319,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "hydropathy",
           "normalized": "Amino-\u003eDouble",
@@ -9524,6 +10334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "hydrophobic",
           "package": "bio",
@@ -9533,6 +10344,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "hydrophobic",
           "package": "bio",
@@ -9545,6 +10357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "mass",
           "package": "bio",
@@ -9554,6 +10367,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "mass",
           "normalized": "Amino-\u003eDouble",
@@ -9568,6 +10382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "negative",
           "package": "bio",
@@ -9577,6 +10392,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "negative",
           "package": "bio",
@@ -9589,6 +10405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "oneOf",
           "package": "bio",
@@ -9598,6 +10415,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "oneOf",
           "normalized": "[Amino]-\u003eAmino-\u003eBool",
@@ -9613,6 +10431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "or",
           "package": "bio",
@@ -9622,6 +10441,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "or",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eBool)-\u003ea-\u003eBool",
@@ -9636,6 +10456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "polar",
           "package": "bio",
@@ -9645,6 +10466,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "polar",
           "package": "bio",
@@ -9657,6 +10479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "positive",
           "package": "bio",
@@ -9666,6 +10489,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "positive",
           "package": "bio",
@@ -9678,6 +10502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "small",
           "package": "bio",
@@ -9687,6 +10512,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "small",
           "package": "bio",
@@ -9700,6 +10526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe propensities for forming secondary structures\n  From Zvelebil and Baum: Understanding Bioinformatics, Chapter 11\n  citing Chou and Fasman.\n  Today, more complex methods like GOR are recommended instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "strandP",
           "package": "bio",
@@ -9710,6 +10537,7 @@
         "index": {
           "description": "The propensities for forming secondary structures From Zvelebil and Baum Understanding Bioinformatics Chapter citing Chou and Fasman Today more complex methods like GOR are recommended instead",
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "strandP",
           "normalized": "Amino-\u003eDouble",
@@ -9724,6 +10552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.AminoProperties",
           "name": "tiny",
           "package": "bio",
@@ -9733,6 +10562,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence AminoProperties",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.AminoProperties",
           "name": "tiny",
           "package": "bio",
@@ -9745,6 +10575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.Entropy",
           "name": "Entropy",
           "package": "bio",
@@ -9753,6 +10584,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Entropy",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.Entropy",
           "name": "Entropy",
           "package": "bio",
@@ -9766,6 +10598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.Entropy",
           "name": "KWords",
           "package": "bio",
@@ -9774,6 +10607,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Entropy",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.Entropy",
           "name": "KWords",
           "package": "bio",
@@ -9811,6 +10645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.Entropy",
           "name": "kwords",
           "package": "bio",
@@ -9820,6 +10655,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Entropy",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.Entropy",
           "name": "kwords",
           "normalized": "Int-\u003ea-\u003e[a]",
@@ -9835,6 +10671,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport the FastQ format that combines sequence and quality. See:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.bioperl.org/wiki/FASTQ_sequence_format\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eOf course, this is yet another vaguely defined pseudo-standard with\n   conflicting definitions.  Of course Solexa had to go and invent not one, but two \n   different, and indistinguishably so, ways to do it:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.bcgsc.ca/pipermail/ssrformat/2007-March/000137.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://maq.sourceforge.net/fastq.shtml\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://en.wikipedia.org/wiki/FASTQ_format\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSanger-style FastQ-format is supported with the (h)read/writeSangerQ functions,\n   and the new Illumina\u003cem\u003eSolexa-style with (h)read\u003c/em\u003ewriteIllumina.\n\u003c/p\u003e\u003cp\u003eAs far as I know, FastQ is only used for nucleotide sequences, never amino acid.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.FastQ",
           "name": "FastQ",
           "package": "bio",
@@ -9844,6 +10681,7 @@
         "index": {
           "description": "Support the FastQ format that combines sequence and quality See http www.bioperl.org wiki FASTQ sequence format Of course this is yet another vaguely defined pseudo-standard with conflicting definitions Of course Solexa had to go and invent not one but two different and indistinguishably so ways to do it http www.bcgsc.ca pipermail ssrformat March html http maq.sourceforge.net fastq.shtml http en.wikipedia.org wiki FASTQ format Sanger-style FastQ-format is supported with the read writeSangerQ functions and the new Illumina Solexa-style with read writeIllumina As far as know FastQ is only used for nucleotide sequences never amino acid",
           "hierarchy": "Bio Sequence FastQ",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.FastQ",
           "name": "FastQ",
           "package": "bio",
@@ -10012,6 +10850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one FastQ entry, suitable for using in \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e over\n   \u003ccode\u003e\u003ca\u003elines\u003c/a\u003e\u003c/code\u003e from a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.FastQ",
           "name": "parse",
           "package": "bio",
@@ -10022,6 +10861,7 @@
         "index": {
           "description": "Parse one FastQ entry suitable for using in unfoldr over lines from file",
           "hierarchy": "Bio Sequence FastQ",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.FastQ",
           "name": "parse",
           "normalized": "[ByteString]-\u003eMaybe(Either String(Sequence Nuc),[ByteString])",
@@ -10113,6 +10953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.FastQ",
           "name": "unparse",
           "package": "bio",
@@ -10122,6 +10963,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence FastQ",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.FastQ",
           "name": "unparse",
           "normalized": "Sequence Nuc-\u003eByteString",
@@ -10214,6 +11056,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module incorporates functionality for reading and writing\n   sequence data in the Fasta format.\n   Each sequence consists of a header (with a \u003ccode\u003e\u003ca\u003e\u003e\u003c/a\u003e\u003c/code\u003e prefix)\n   and a set of lines containing the sequence data.\n\u003c/p\u003e\u003cp\u003eAs Fasta is used for both amino acids and nucleotides, the\n   resulting \u003ccode\u003e\u003ca\u003eSequence\u003c/a\u003e\u003c/code\u003es are type-tagged with \u003ccode\u003e\u003ca\u003eUnknown\u003c/a\u003e\u003c/code\u003e.  If you know the \n   type of sequence you are reading, use \u003ccode\u003e\u003ca\u003ecastToAmino\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ecastToNuc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "Fasta",
           "package": "bio",
@@ -10223,6 +11066,7 @@
         "index": {
           "description": "This module incorporates functionality for reading and writing sequence data in the Fasta format Each sequence consists of header with prefix and set of lines containing the sequence data As Fasta is used for both amino acids and nucleotides the resulting Sequence are type-tagged with Unknown If you know the type of sequence you are reading use castToAmino or castToNuc",
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.Fasta",
           "name": "Fasta",
           "package": "bio",
@@ -10237,6 +11081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic type for quality data.  Range 0..255.  Typical Phred output is in\n   the range 6..50, with 20 as the line in the sand separating good from bad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "Qual",
           "package": "bio",
@@ -10246,6 +11091,7 @@
         "index": {
           "description": "Basic type for quality data Range Typical Phred output is in the range with as the line in the sand separating good from bad",
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.Fasta",
           "name": "Qual",
           "package": "bio",
@@ -10259,6 +11105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "countSeqs",
           "package": "bio",
@@ -10268,6 +11115,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.Fasta",
           "name": "countSeqs",
           "normalized": "FilePath-\u003eIO Int",
@@ -10388,6 +11236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of FASTA-formatted lines into a list of sequences.\n   Blank lines are ignored.\n   Comment lines start with \u003ca/\u003e are allowed between sequences (and ignored).\n   Lines starting with \u003ca\u003e\u003e\u003c/a\u003e initiate a new sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "mkSeqs",
           "package": "bio",
@@ -10398,6 +11247,7 @@
         "index": {
           "description": "Convert list of FASTA-formatted lines into list of sequences Blank lines are ignored Comment lines start with are allowed between sequences and ignored Lines starting with initiate new sequence",
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.Fasta",
           "name": "mkSeqs",
           "normalized": "[ByteString]-\u003e[Sequence Unknown]",
@@ -10576,6 +11426,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Moved to Bio.Sequence.GeneOntology, use that instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eMoved to GeneOnthology - this is for backwards compatibility.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GOA",
           "name": "GOA",
           "package": "bio",
@@ -10585,6 +11436,7 @@
         "index": {
           "description": "Deprecated Moved to Bio.Sequence.GeneOntology use that instead Moved to GeneOnthology this is for backwards compatibility",
           "hierarchy": "Bio Sequence GOA",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GOA",
           "name": "GOA",
           "package": "bio",
@@ -10598,6 +11450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GOA",
           "name": "readGO",
           "package": "bio",
@@ -10607,6 +11460,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence GOA",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GOA",
           "name": "readGO",
           "normalized": "FilePath-\u003eIO[GoDef]",
@@ -10623,6 +11477,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneOntology - parse and index Gene Ontology Annotations\n   In particular, the file 'gene_association.goa_uniprot' that contains\n   links between GO terms and UniProt accessions.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.geneontology.org/ontology/gene_ontology.obo\u003c/a\u003e \n   -- Contains the hierarchy including isA relationships.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.geneontology.org/GO.format.obo-1_2.shtml\u003c/a\u003e \n   -- Describes the OBO format.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/\u003c/a\u003e \n   -- Contains the GOA-UniProt mapping (and a README file).\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.geneontology.org/ontology/GO.defs\u003c/a\u003e \n   -- Contains GO definitions (not supported here yet).\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.geneontology.org/doc/GO.terms_and_ids\u003c/a\u003e \n   -- GO definitions, simpler and more schematically.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GeneOntology",
           "package": "bio",
@@ -10632,6 +11487,7 @@
         "index": {
           "description": "GeneOntology parse and index Gene Ontology Annotations In particular the file gene association.goa uniprot that contains links between GO terms and UniProt accessions http www.geneontology.org ontology gene ontology.obo Contains the hierarchy including isA relationships http www.geneontology.org GO.format.obo-1 shtml Describes the OBO format ftp ftp.ebi.ac.uk pub databases GO goa UNIPROT Contains the GOA-UniProt mapping and README file http www.geneontology.org ontology GO.defs Contains GO definitions not supported here yet http www.geneontology.org doc GO.terms and ids GO definitions simpler and more schematically",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GeneOntology",
           "package": "bio",
@@ -10646,6 +11502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GOA annotation, containing a UniProt identifier, a GoTerm and an evidence code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "Annotation",
           "package": "bio",
@@ -10655,6 +11512,7 @@
         "index": {
           "description": "GOA annotation containing UniProt identifier GoTerm and an evidence code",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "Annotation",
           "package": "bio",
@@ -10669,6 +11527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvidence codes describe the type of support for an annotation\n \u003ca\u003ehttp://www.geneontology.org/GO.evidence.shtml\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "EvidenceCode",
           "package": "bio",
@@ -10678,6 +11537,7 @@
         "index": {
           "description": "Evidence codes describe the type of support for an annotation http www.geneontology.org GO.evidence.shtml",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "EvidenceCode",
           "package": "bio",
@@ -10691,6 +11551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GoClass",
           "package": "bio",
@@ -10699,6 +11560,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GoClass",
           "package": "bio",
@@ -10713,6 +11575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GoDef maps a \u003ca\u003eGoTerm\u003c/a\u003e to a description and a \u003ca\u003eGoClass\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GoDef",
           "package": "bio",
@@ -10722,6 +11585,7 @@
         "index": {
           "description": "GoDef maps GoTerm to description and GoClass",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GoDef",
           "package": "bio",
@@ -10736,6 +11600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of Go definitions, with pointers to parent nodes.  Read from the .obo file.\n   The user may construct the explicit hierachy by storing these in a Map or similar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GoHierarchy",
           "package": "bio",
@@ -10745,6 +11610,7 @@
         "index": {
           "description": "list of Go definitions with pointers to parent nodes Read from the obo file The user may construct the explicit hierachy by storing these in Map or similar",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GoHierarchy",
           "package": "bio",
@@ -10759,6 +11625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GO term is a positive integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GoTerm",
           "package": "bio",
@@ -10768,6 +11635,7 @@
         "index": {
           "description": "GO term is positive integer",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GoTerm",
           "package": "bio",
@@ -10782,6 +11650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA UniProt identifier (short string of capitals and numbers).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "UniProtAcc",
           "package": "bio",
@@ -10791,6 +11660,7 @@
         "index": {
           "description": "UniProt identifier short string of capitals and numbers",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "UniProtAcc",
           "package": "bio",
@@ -10804,6 +11674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "Ann",
           "package": "bio",
@@ -10813,6 +11684,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "Ann",
           "package": "bio",
@@ -10826,6 +11698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "Comp",
           "package": "bio",
@@ -10835,6 +11708,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "Comp",
           "package": "bio",
@@ -10848,6 +11722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "Func",
           "package": "bio",
@@ -10857,6 +11732,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "Func",
           "package": "bio",
@@ -10870,6 +11746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GO",
           "package": "bio",
@@ -10879,6 +11756,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GO",
           "package": "bio",
@@ -10892,6 +11770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GoDef",
           "package": "bio",
@@ -10901,6 +11780,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "GoDef",
           "package": "bio",
@@ -10915,6 +11795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInferred by Curator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IC",
           "package": "bio",
@@ -10925,6 +11806,7 @@
         "index": {
           "description": "Inferred by Curator",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IC",
           "package": "bio",
@@ -10939,6 +11821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInferred from Direct Assay\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IDA",
           "package": "bio",
@@ -10949,6 +11832,7 @@
         "index": {
           "description": "Inferred from Direct Assay",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IDA",
           "package": "bio",
@@ -10963,6 +11847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInferred from Electronic Annotation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IEA",
           "package": "bio",
@@ -10973,6 +11858,7 @@
         "index": {
           "description": "Inferred from Electronic Annotation",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IEA",
           "package": "bio",
@@ -10987,6 +11873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInferred from Expression Pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IEP",
           "package": "bio",
@@ -10997,6 +11884,7 @@
         "index": {
           "description": "Inferred from Expression Pattern",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IEP",
           "package": "bio",
@@ -11011,6 +11899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInferred from Genomic Context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IGC",
           "package": "bio",
@@ -11021,6 +11910,7 @@
         "index": {
           "description": "Inferred from Genomic Context",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IGC",
           "package": "bio",
@@ -11035,6 +11925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInferred from Genetic Interaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IGI",
           "package": "bio",
@@ -11045,6 +11936,7 @@
         "index": {
           "description": "Inferred from Genetic Interaction",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IGI",
           "package": "bio",
@@ -11059,6 +11951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInferred from Mutant Phenotype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IMP",
           "package": "bio",
@@ -11069,6 +11962,7 @@
         "index": {
           "description": "Inferred from Mutant Phenotype",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IMP",
           "package": "bio",
@@ -11083,6 +11977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInferred from Physical Interaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IPI",
           "package": "bio",
@@ -11093,6 +11988,7 @@
         "index": {
           "description": "Inferred from Physical Interaction",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "IPI",
           "package": "bio",
@@ -11107,6 +12003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInferred from Sequence or Structural Similarity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "ISS",
           "package": "bio",
@@ -11117,6 +12014,7 @@
         "index": {
           "description": "Inferred from Sequence or Structural Similarity",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "ISS",
           "package": "bio",
@@ -11131,6 +12029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-traceable Author Statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "NAS",
           "package": "bio",
@@ -11141,6 +12040,7 @@
         "index": {
           "description": "Non-traceable Author Statement",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "NAS",
           "package": "bio",
@@ -11155,6 +12055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo biological Data available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "ND",
           "package": "bio",
@@ -11165,6 +12066,7 @@
         "index": {
           "description": "No biological Data available",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "ND",
           "package": "bio",
@@ -11179,6 +12081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot Recorded \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "NR",
           "package": "bio",
@@ -11189,6 +12092,7 @@
         "index": {
           "description": "Not Recorded",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "NR",
           "package": "bio",
@@ -11202,6 +12106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "Proc",
           "package": "bio",
@@ -11211,6 +12116,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "Proc",
           "package": "bio",
@@ -11225,6 +12131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInferred from Reviewed Computational Analysis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "RCA",
           "package": "bio",
@@ -11235,6 +12142,7 @@
         "index": {
           "description": "Inferred from Reviewed Computational Analysis",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "RCA",
           "package": "bio",
@@ -11249,6 +12157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraceable Author Statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "TAS",
           "package": "bio",
@@ -11259,6 +12168,7 @@
         "index": {
           "description": "Traceable Author Statement",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "TAS",
           "package": "bio",
@@ -11272,6 +12182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "decomment",
           "package": "bio",
@@ -11281,6 +12192,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "decomment",
           "normalized": "ByteString-\u003e[ByteString]",
@@ -11296,6 +12208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe vast majority of GOA data is IEA, while the most reliable information\n   is manually curated.  Filtering on this is useful to keep data set sizes\n   manageable, too.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "isCurated",
           "package": "bio",
@@ -11306,6 +12219,7 @@
         "index": {
           "description": "The vast majority of GOA data is IEA while the most reliable information is manually curated Filtering on this is useful to keep data set sizes manageable too",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "isCurated",
           "normalized": "EvidenceCode-\u003eBool",
@@ -11322,6 +12236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the goa_uniprot file (warning: this one is huge!)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "readGOA",
           "package": "bio",
@@ -11332,6 +12247,7 @@
         "index": {
           "description": "Read the goa uniprot file warning this one is huge",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "readGOA",
           "normalized": "FilePath-\u003eIO[Annotation]",
@@ -11348,6 +12264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the GO hierarchy from the obo file.  Note that this is not quite a tree structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "readObo",
           "package": "bio",
@@ -11358,6 +12275,7 @@
         "index": {
           "description": "Read the GO hierarchy from the obo file Note that this is not quite tree structure",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "readObo",
           "normalized": "FilePath-\u003eIO GoHierarchy",
@@ -11374,6 +12292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead GO term definitions, from the GO.terms_and_ids file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.GeneOntology",
           "name": "readTerms",
           "package": "bio",
@@ -11384,6 +12303,7 @@
         "index": {
           "description": "Read GO term definitions from the GO.terms and ids file",
           "hierarchy": "Bio Sequence GeneOntology",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.GeneOntology",
           "name": "readTerms",
           "normalized": "FilePath-\u003eIO[GoDef]",
@@ -11399,6 +12319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "HashWord",
           "package": "bio",
@@ -11407,6 +12328,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "HashWord",
           "package": "bio",
@@ -11421,6 +12343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a struct for containing a set of hashing functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "HashF",
           "package": "bio",
@@ -11430,6 +12353,7 @@
         "index": {
           "description": "This is struct for containing set of hashing functions",
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "HashF",
           "package": "bio",
@@ -11443,6 +12367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "Shape",
           "package": "bio",
@@ -11451,6 +12376,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "Shape",
           "package": "bio",
@@ -11487,6 +12413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "compact",
           "package": "bio",
@@ -11496,6 +12423,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "compact",
           "normalized": "SeqData-\u003e[SeqData]",
@@ -11510,6 +12438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "complement",
           "package": "bio",
@@ -11519,6 +12448,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "complement",
           "normalized": "Char-\u003eChar",
@@ -11559,6 +12489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "gapped",
           "package": "bio",
@@ -11568,6 +12499,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "gapped",
           "normalized": "Shape-\u003eHashF a",
@@ -11583,6 +12515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a default \u003ca\u003ehashes\u003c/a\u003e function to a \u003ccode\u003eHashF\u003c/code\u003e, when \u003ca\u003ehash\u003c/a\u003e is defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "genkeys",
           "package": "bio",
@@ -11593,6 +12526,7 @@
         "index": {
           "description": "Adds default hashes function to HashF when hash is defined",
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "genkeys",
           "normalized": "HashF a-\u003eHashF a",
@@ -11659,6 +12593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "isN",
           "package": "bio",
@@ -11668,6 +12603,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "isN",
           "normalized": "Char-\u003eBool",
@@ -11682,6 +12618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "k2n",
           "package": "bio",
@@ -11691,6 +12628,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "k2n",
           "normalized": "Int-\u003ea-\u003eSeqData",
@@ -11705,6 +12643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "k2n'",
           "package": "bio",
@@ -11714,6 +12653,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "k2n'",
           "normalized": "a-\u003ea-\u003eString",
@@ -11754,6 +12694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "n2i'",
           "package": "bio",
@@ -11763,6 +12704,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "n2i'",
           "normalized": "a-\u003eSeqData-\u003ea",
@@ -11777,6 +12719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "n2k",
           "package": "bio",
@@ -11786,6 +12729,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "n2k",
           "normalized": "Int-\u003eSeqData-\u003ea",
@@ -11852,6 +12796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "unval",
           "package": "bio",
@@ -11861,6 +12806,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "unval",
           "normalized": "a-\u003eChar",
@@ -11875,6 +12821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.HashWord",
           "name": "val",
           "package": "bio",
@@ -11884,6 +12831,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence HashWord",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.HashWord",
           "name": "val",
           "normalized": "Char-\u003ea",
@@ -11899,6 +12847,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctionality for manipulating KEGG annotations.\n\u003c/p\u003e\u003cp\u003eKEGG is a bit hard find, but there exist species-specific tables\n   Available organisms are listed in the table at\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eftp://ftp.genome.jp/pub/kegg/genes/etc/all_species.tab\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eData for each organism is stored its own subdirectory under\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eftp://ftp.genome.jp/pub/kegg/genes/organisms/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eContaining tables linking everything -- including external resources like\n   UniProt, PDB, or NCBI -- together.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.KEGG",
           "name": "KEGG",
           "package": "bio",
@@ -11908,6 +12857,7 @@
         "index": {
           "description": "Functionality for manipulating KEGG annotations KEGG is bit hard find but there exist species-specific tables Available organisms are listed in the table at ftp ftp.genome.jp pub kegg genes etc all species.tab Data for each organism is stored its own subdirectory under ftp ftp.genome.jp pub kegg genes organisms Containing tables linking everything including external resources like UniProt PDB or NCBI together",
           "hierarchy": "Bio Sequence KEGG",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.KEGG",
           "name": "KEGG",
           "package": "bio",
@@ -11921,6 +12871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.KEGG",
           "name": "KO",
           "package": "bio",
@@ -11929,6 +12880,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence KEGG",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.KEGG",
           "name": "KO",
           "package": "bio",
@@ -11942,6 +12894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.KEGG",
           "name": "KO",
           "package": "bio",
@@ -11951,6 +12904,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence KEGG",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.KEGG",
           "name": "KO",
           "package": "bio",
@@ -11965,6 +12919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert KO IDs (ko:xxxxx) to the \u003ca\u003eKO\u003c/a\u003e data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.KEGG",
           "name": "decodeKO",
           "package": "bio",
@@ -11975,6 +12930,7 @@
         "index": {
           "description": "Convert KO IDs ko xxxxx to the KO data type",
           "hierarchy": "Bio Sequence KEGG",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.KEGG",
           "name": "decodeKO",
           "normalized": "ByteString-\u003eKO",
@@ -11991,6 +12947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert UniProt IDs (up:xxxxxx) to the \u003ca\u003eUniProtAcc\u003c/a\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.KEGG",
           "name": "decodeUP",
           "package": "bio",
@@ -12001,6 +12958,7 @@
         "index": {
           "description": "Convert UniProt IDs up xxxxxx to the UniProtAcc type",
           "hierarchy": "Bio Sequence KEGG",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.KEGG",
           "name": "decodeUP",
           "normalized": "ByteString-\u003eUniProtAcc",
@@ -12017,6 +12975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost KEGG files that contain associations, have one association per line,\n   consisting of two items separated by whitespace.  This is a generalized reader\n   function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.KEGG",
           "name": "genReadKegg",
           "package": "bio",
@@ -12027,6 +12986,7 @@
         "index": {
           "description": "Most KEGG files that contain associations have one association per line consisting of two items separated by whitespace This is generalized reader function",
           "hierarchy": "Bio Sequence KEGG",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.KEGG",
           "name": "genReadKegg",
           "normalized": "FilePath-\u003eIO[(ByteString,ByteString)]",
@@ -12043,6 +13003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKEGG uses strings with an identifying prefix for IDs. This helper function checks\n   and removes prefix to construct native values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.KEGG",
           "name": "removePrefix",
           "package": "bio",
@@ -12053,6 +13014,7 @@
         "index": {
           "description": "KEGG uses strings with an identifying prefix for IDs This helper function checks and removes prefix to construct native values",
           "hierarchy": "Bio Sequence KEGG",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.KEGG",
           "name": "removePrefix",
           "normalized": "String-\u003eString-\u003e(ByteString-\u003ea)-\u003eByteString-\u003ea",
@@ -12069,6 +13031,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse phd files (phred base calling output).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.Phd",
           "name": "Phd",
           "package": "bio",
@@ -12078,6 +13041,7 @@
         "index": {
           "description": "Parse phd files phred base calling output",
           "hierarchy": "Bio Sequence Phd",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.Phd",
           "name": "Phd",
           "package": "bio",
@@ -12146,6 +13110,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead and write the SFF file format used by\n   Roche/454 sequencing to store flowgram data.\n\u003c/p\u003e\u003cp\u003eA flowgram is a series of values (intensities) representing homopolymer runs of\n   A,G,C, and T in a fixed cycle, and usually displayed as a histogram.\n\u003c/p\u003e\u003cp\u003eThis file is based on information in the Roche FLX manual.  Among other sources for information about\n   the format, are The Staden Package, which contains an io_lib with a C routine for parsing this format.\n   According to comments in the sources, the io_lib implementation is based on a file\n   called getsff.c, which I've been unable to track down.  Other software parsing SFFs \n   are QIIME, sff_extract, and Celera's sffToCa.\n\u003c/p\u003e\u003cp\u003eIt is believed that all values are stored big endian.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "package": "bio",
@@ -12155,6 +13120,7 @@
         "index": {
           "description": "Read and write the SFF file format used by Roche sequencing to store flowgram data flowgram is series of values intensities representing homopolymer runs of and in fixed cycle and usually displayed as histogram This file is based on information in the Roche FLX manual Among other sources for information about the format are The Staden Package which contains an io lib with routine for parsing this format According to comments in the sources the io lib implementation is based on file called getsff.c which ve been unable to track down Other software parsing SFFs are QIIME sff extract and Celera sffToCa It is believed that all values are stored big endian",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "package": "bio",
@@ -12169,6 +13135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSFF has a 31-byte common header\n\u003c/p\u003e\u003cp\u003eThe format is open to having the index anywhere between reads,\n   we should really keep count and check for each read.  In practice, it\n   seems to be places after the reads.\n\u003c/p\u003e\u003cp\u003eThe following two fields are considered part of the header, but as\n   they are static, they are not part of the data structure\n\u003c/p\u003e\u003cpre\u003e        \n     magic   :: Word32   -- 0x2e736666, i.e. the string \".sff\"\n     version :: Word32   -- 0x00000001\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "CommonHeader",
           "package": "bio",
@@ -12178,6 +13145,7 @@
         "index": {
           "description": "SFF has byte common header The format is open to having the index anywhere between reads we should really keep count and check for each read In practice it seems to be places after the reads The following two fields are considered part of the header but as they are static they are not part of the data structure magic Word32 x2e736666 i.e the string sff version Word32 x00000001",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "CommonHeader",
           "package": "bio",
@@ -12192,6 +13160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of flowgram value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "Flow",
           "package": "bio",
@@ -12201,6 +13170,7 @@
         "index": {
           "description": "The type of flowgram value",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "Flow",
           "package": "bio",
@@ -12214,6 +13184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "Index",
           "package": "bio",
@@ -12222,6 +13193,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "Index",
           "package": "bio",
@@ -12236,6 +13208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic type for quality data.  Range 0..255.  Typical Phred output is in\n   the range 6..50, with 20 as the line in the sand separating good from bad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "Qual",
           "package": "bio",
@@ -12245,6 +13218,7 @@
         "index": {
           "description": "Basic type for quality data Range Typical Phred output is in the range with as the line in the sand separating good from bad",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "Qual",
           "package": "bio",
@@ -12259,6 +13233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuality data is a \u003ccode\u003e\u003ca\u003eQual\u003c/a\u003e\u003c/code\u003e vector, currently implemented as a \u003ccode\u003eByteString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "QualData",
           "package": "bio",
@@ -12268,6 +13243,7 @@
         "index": {
           "description": "Quality data is Qual vector currently implemented as ByteString",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "QualData",
           "package": "bio",
@@ -12282,6 +13258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis contains the actual flowgram for a single read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "ReadBlock",
           "package": "bio",
@@ -12291,6 +13268,7 @@
         "index": {
           "description": "This contains the actual flowgram for single read",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "ReadBlock",
           "package": "bio",
@@ -12305,6 +13283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach Read has a fixed read header, containing various information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "ReadHeader",
           "package": "bio",
@@ -12314,6 +13293,7 @@
         "index": {
           "description": "Each Read has fixed read header containing various information",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "ReadHeader",
           "package": "bio",
@@ -12328,6 +13308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead names encode various information, as per this struct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "ReadName",
           "package": "bio",
@@ -12337,6 +13318,7 @@
         "index": {
           "description": "Read names encode various information as per this struct",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "ReadName",
           "package": "bio",
@@ -12351,6 +13333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data structure storing the contents of an SFF file (modulo the index)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "package": "bio",
@@ -12360,6 +13343,7 @@
         "index": {
           "description": "The data structure storing the contents of an SFF file modulo the index",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "package": "bio",
@@ -12374,6 +13358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic data type used in \u003ccode\u003e\u003ca\u003eSequence\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "SeqData",
           "package": "bio",
@@ -12383,6 +13368,7 @@
         "index": {
           "description": "The basic data type used in Sequence",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "SeqData",
           "package": "bio",
@@ -12396,6 +13382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "CommonHeader",
           "package": "bio",
@@ -12405,6 +13392,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "CommonHeader",
           "package": "bio",
@@ -12418,6 +13406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "ReadBlock",
           "package": "bio",
@@ -12427,6 +13416,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "ReadBlock",
           "package": "bio",
@@ -12440,6 +13430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "ReadHeader",
           "package": "bio",
@@ -12449,6 +13440,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "ReadHeader",
           "package": "bio",
@@ -12485,6 +13477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "package": "bio",
@@ -12494,6 +13487,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "SFF",
           "normalized": "SFF CommonHeader[ReadBlock]",
@@ -12510,6 +13504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a sequence position to the corresponding flow position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "baseToFlowPos",
           "package": "bio",
@@ -12520,6 +13515,7 @@
         "index": {
           "description": "Convert sequence position to the corresponding flow position",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "baseToFlowPos",
           "normalized": "ReadBlock-\u003ea-\u003eInt",
@@ -12535,6 +13531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "bases",
           "package": "bio",
@@ -12544,6 +13541,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "bases",
           "package": "bio",
@@ -12556,6 +13554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "clip_adapter_left",
           "package": "bio",
@@ -12565,6 +13564,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "clip_adapter_left",
           "package": "bio",
@@ -12577,6 +13577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "clip_adapter_right",
           "package": "bio",
@@ -12586,6 +13587,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "clip_adapter_right",
           "package": "bio",
@@ -12598,6 +13600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "clip_qual_left",
           "package": "bio",
@@ -12607,6 +13610,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "clip_qual_left",
           "package": "bio",
@@ -12619,6 +13623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "clip_qual_right",
           "package": "bio",
@@ -12628,6 +13633,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "clip_qual_right",
           "package": "bio",
@@ -12641,6 +13647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a file by decoding it and re-encoding it\n   This will lose the index (which isn't really necessary)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "convert",
           "package": "bio",
@@ -12651,6 +13658,7 @@
         "index": {
           "description": "Convert file by decoding it and re-encoding it This will lose the index which isn really necessary",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "convert",
           "normalized": "FilePath-\u003eIO()",
@@ -12666,6 +13674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the index as absolute coordinates, not relative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "cumulative_index",
           "package": "bio",
@@ -12676,6 +13685,7 @@
         "index": {
           "description": "Extract the index as absolute coordinates not relative",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "cumulative_index",
           "normalized": "ReadBlock-\u003e[Int]",
@@ -12764,6 +13774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flow",
           "package": "bio",
@@ -12773,6 +13784,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "flow",
           "package": "bio",
@@ -12786,6 +13798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a flow position to the corresponding sequence position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flowToBasePos",
           "package": "bio",
@@ -12796,6 +13809,7 @@
         "index": {
           "description": "Convert flow position to the corresponding sequence position",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "flowToBasePos",
           "normalized": "ReadBlock-\u003ea-\u003eInt",
@@ -12811,6 +13825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flow_data",
           "package": "bio",
@@ -12820,6 +13835,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "flow_data",
           "package": "bio",
@@ -12832,6 +13848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flow_index",
           "package": "bio",
@@ -12841,6 +13858,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "flow_index",
           "package": "bio",
@@ -12853,6 +13871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flow_length",
           "package": "bio",
@@ -12862,6 +13881,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "flow_length",
           "package": "bio",
@@ -12875,6 +13895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to access the flowgram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flowgram",
           "package": "bio",
@@ -12885,6 +13906,7 @@
         "index": {
           "description": "Helper function to access the flowgram",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "flowgram",
           "normalized": "ReadBlock-\u003e[Flow]",
@@ -12899,6 +13921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "flowgram_fmt",
           "package": "bio",
@@ -12908,6 +13931,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "flowgram_fmt",
           "package": "bio",
@@ -12920,6 +13944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "index_length",
           "package": "bio",
@@ -12929,6 +13954,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "index_length",
           "package": "bio",
@@ -12942,6 +13968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoints to a text(?) section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "index_offset",
           "package": "bio",
@@ -12952,6 +13979,7 @@
         "index": {
           "description": "Points to text section",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "index_offset",
           "package": "bio",
@@ -12964,6 +13992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "key",
           "package": "bio",
@@ -12973,6 +14002,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "key",
           "package": "bio",
@@ -12985,6 +14015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "key_length",
           "package": "bio",
@@ -12994,6 +14025,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "key_length",
           "package": "bio",
@@ -13007,6 +14039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the sequence with masked bases in lower case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "masked_bases",
           "package": "bio",
@@ -13017,6 +14050,7 @@
         "index": {
           "description": "Extract the sequence with masked bases in lower case",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "masked_bases",
           "normalized": "ReadBlock-\u003eSeqData",
@@ -13031,6 +14065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "name_length",
           "package": "bio",
@@ -13040,6 +14075,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "name_length",
           "package": "bio",
@@ -13052,6 +14088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "num_bases",
           "package": "bio",
@@ -13061,6 +14098,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "num_bases",
           "package": "bio",
@@ -13073,6 +14111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "num_reads",
           "package": "bio",
@@ -13082,6 +14121,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "num_reads",
           "package": "bio",
@@ -13095,6 +14135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack a list of flows into the corresponding binary structure (the flow_data field)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "packFlows",
           "package": "bio",
@@ -13105,6 +14146,7 @@
         "index": {
           "description": "Pack list of flows into the corresponding binary structure the flow data field",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "packFlows",
           "normalized": "[Flow]-\u003eByteString",
@@ -13120,6 +14162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "quality",
           "package": "bio",
@@ -13129,6 +14172,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "quality",
           "package": "bio",
@@ -13142,6 +14186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the sequence information from a \u003ccode\u003e\u003ca\u003eReadBlock\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "rbToSequence",
           "package": "bio",
@@ -13152,6 +14197,7 @@
         "index": {
           "description": "Extract the sequence information from ReadBlock",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "rbToSequence",
           "normalized": "ReadBlock-\u003eSequence Nuc",
@@ -13168,6 +14214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an SFF file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "readSFF",
           "package": "bio",
@@ -13178,6 +14225,7 @@
         "index": {
           "description": "Read an SFF file",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "readSFF",
           "normalized": "FilePath-\u003eIO SFF",
@@ -13193,6 +14241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "read_header",
           "package": "bio",
@@ -13202,6 +14251,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "read_header",
           "package": "bio",
@@ -13214,6 +14264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "read_name",
           "package": "bio",
@@ -13223,6 +14274,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "read_name",
           "package": "bio",
@@ -13236,6 +14288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an SFF file, but be resilient against errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "recoverSFF",
           "package": "bio",
@@ -13246,6 +14299,7 @@
         "index": {
           "description": "Read an SFF file but be resilient against errors",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "recoverSFF",
           "normalized": "FilePath-\u003eIO SFF",
@@ -13284,6 +14338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the sequences from an \u003ccode\u003e\u003ca\u003eSFF\u003c/a\u003e\u003c/code\u003e data structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "sffToSequence",
           "package": "bio",
@@ -13294,6 +14349,7 @@
         "index": {
           "description": "Extract the sequences from an SFF data structure",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "sffToSequence",
           "normalized": "SFF-\u003e[Sequence Nuc]",
@@ -13310,6 +14366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest serialization by output'ing the header and first two reads \n   in an SFF, and the same after a decode + encode cycle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "test",
           "package": "bio",
@@ -13320,6 +14377,7 @@
         "index": {
           "description": "test serialization by output ing the header and first two reads in an SFF and the same after decode encode cycle",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "test",
           "normalized": "FilePath-\u003eIO()",
@@ -13359,6 +14417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim a read according to clipping information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "trim",
           "package": "bio",
@@ -13369,6 +14428,7 @@
         "index": {
           "description": "Trim read according to clipping information",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "trim",
           "normalized": "ReadBlock-\u003eReadBlock",
@@ -13384,6 +14444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim a \u003ccode\u003e\u003ca\u003eReadBlock\u003c/a\u003e\u003c/code\u003e limiting the number of flows.  If writing to\n   an SFF file, make sure you update the \u003ccode\u003e\u003ca\u003eCommonHeader\u003c/a\u003e\u003c/code\u003e accordingly.\n   See \u003ccode\u003eexamples/Flx.hs\u003c/code\u003e for how to use this.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "trimFlows",
           "package": "bio",
@@ -13394,6 +14455,7 @@
         "index": {
           "description": "Trim ReadBlock limiting the number of flows If writing to an SFF file make sure you update the CommonHeader accordingly See examples Flx.hs for how to use this",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "trimFlows",
           "normalized": "a-\u003eReadBlock-\u003eReadBlock",
@@ -13410,6 +14472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim a read to specific sequence position, inclusive bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "trimFromTo",
           "package": "bio",
@@ -13420,6 +14483,7 @@
         "index": {
           "description": "Trim read to specific sequence position inclusive bounds",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "trimFromTo",
           "normalized": "a-\u003ea-\u003eReadBlock-\u003eReadBlock",
@@ -13436,6 +14500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the read without the initial (TCAG) key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "trimKey",
           "package": "bio",
@@ -13446,6 +14511,7 @@
         "index": {
           "description": "Extract the read without the initial TCAG key",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "trimKey",
           "normalized": "CommonHeader-\u003eSequence Nuc-\u003eMaybe(Sequence Nuc)",
@@ -13462,6 +14528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack the flow_data field into a list of flow values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "unpackFlows",
           "package": "bio",
@@ -13472,6 +14539,7 @@
         "index": {
           "description": "Unpack the flow data field into list of flow values",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "unpackFlows",
           "normalized": "ByteString-\u003e[Flow]",
@@ -13488,6 +14556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eSFF\u003c/a\u003e\u003c/code\u003e to the specified file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "writeSFF",
           "package": "bio",
@@ -13498,6 +14567,7 @@
         "index": {
           "description": "Write an SFF to the specified file name",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "writeSFF",
           "normalized": "FilePath-\u003eSFF-\u003eIO()",
@@ -13514,6 +14584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eSFF\u003c/a\u003e\u003c/code\u003e to the specified file name, but go back and\n   update the read count.  Useful if you want to output a lazy\n   stream of \u003ccode\u003e\u003ca\u003eReadBlock\u003c/a\u003e\u003c/code\u003es.  Returns the number of reads written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF",
           "name": "writeSFF'",
           "package": "bio",
@@ -13524,6 +14595,7 @@
         "index": {
           "description": "Write an SFF to the specified file name but go back and update the read count Useful if you want to output lazy stream of ReadBlock Returns the number of reads written",
           "hierarchy": "Bio Sequence SFF",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF",
           "name": "writeSFF'",
           "normalized": "FilePath-\u003eSFF-\u003eIO Int",
@@ -13584,6 +14656,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis implements a number of filters used in the Titanium pipeline, \n   based on published documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "SFF_filters",
           "package": "bio",
@@ -13593,6 +14666,7 @@
         "index": {
           "description": "This implements number of filters used in the Titanium pipeline based on published documentation",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "SFF_filters",
           "package": "bio",
@@ -13607,6 +14681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscardFilters determine whether a read is to be retained or discarded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "DiscardFilter",
           "package": "bio",
@@ -13616,6 +14691,7 @@
         "index": {
           "description": "DiscardFilters determine whether read is to be retained or discarded",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "DiscardFilter",
           "package": "bio",
@@ -13630,6 +14706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrimFilters modify the read, typically trimming it for quality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "TrimFilter",
           "package": "bio",
@@ -13639,6 +14716,7 @@
         "index": {
           "description": "TrimFilters modify the read typically trimming it for quality",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "TrimFilter",
           "package": "bio",
@@ -13653,6 +14731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate average of a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "avg",
           "package": "bio",
@@ -13663,6 +14742,7 @@
         "index": {
           "description": "Calculate average of list",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "avg",
           "normalized": "[a]-\u003eDouble",
@@ -13678,6 +14758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a number of flows to position in sequence, and update clipping data accordingly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "clipFlows",
           "package": "bio",
@@ -13688,6 +14769,7 @@
         "index": {
           "description": "Translate number of flows to position in sequence and update clipping data accordingly",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "clipFlows",
           "normalized": "ReadBlock-\u003eInt-\u003eReadBlock",
@@ -13704,6 +14786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate clip_qual_right if more severe than previous value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "clipSeq",
           "package": "bio",
@@ -13714,6 +14797,7 @@
         "index": {
           "description": "Update clip qual right if more severe than previous value",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "clipSeq",
           "normalized": "ReadBlock-\u003eInt-\u003eReadBlock",
@@ -13730,6 +14814,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e2.2.1.2 The \u003ca\u003edots\u003c/a\u003e filter discards sequences where the last positive flow is \n   before flow 84, and flows with \u003e5% dots (i.e. three successive noise values) \n   before the last postitive flow.  The percentage can be given as a parameter.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_dots",
           "package": "bio",
@@ -13740,6 +14825,7 @@
         "index": {
           "description": "The dots filter discards sequences where the last positive flow is before flow and flows with dots i.e three successive noise values before the last postitive flow The percentage can be given as parameter",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_dots",
           "normalized": "Double-\u003eDiscardFilter",
@@ -13755,6 +14841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis filter discards empty sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_empty",
           "package": "bio",
@@ -13765,6 +14852,7 @@
         "index": {
           "description": "This filter discards empty sequences",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_empty",
           "package": "bio",
@@ -13778,6 +14866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard sequences that don't have the given key tag (typically TCAG) at the start\n   of the read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_key",
           "package": "bio",
@@ -13788,6 +14877,7 @@
         "index": {
           "description": "Discard sequences that don have the given key tag typically TCAG at the start of the read",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_key",
           "normalized": "String-\u003eDiscardFilter",
@@ -13803,6 +14893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard a read if the number of untrimmed flows is less than n (n=186 for Titanium)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_length",
           "package": "bio",
@@ -13813,6 +14904,7 @@
         "index": {
           "description": "Discard read if the number of untrimmed flows is less than for Titanium",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_length",
           "normalized": "Int-\u003eDiscardFilter",
@@ -13828,6 +14920,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e2.2.1.3 The \u003ca\u003emixed\u003c/a\u003e filter discards sequences with more than 70% positive flows.  \n   Also, discard with \u003ca\u003enoise,\u003c/a\u003e20% middle (0.45..0.75) or \u003c30% positive.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_mixed",
           "package": "bio",
@@ -13838,6 +14931,7 @@
         "index": {
           "description": "The mixed filter discards sequences with more than positive flows Also discard with noise middle or positive",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "discard_mixed",
           "package": "bio",
@@ -13851,6 +14945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList length as a double (eliminates many instances of fromIntegral)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "dlength",
           "package": "bio",
@@ -13861,6 +14956,7 @@
         "index": {
           "description": "List length as double eliminates many instances of fromIntegral",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "dlength",
           "normalized": "[a]-\u003eDouble",
@@ -13875,6 +14971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "find_primer",
           "package": "bio",
@@ -13884,6 +14981,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "find_primer",
           "normalized": "String-\u003eReadBlock-\u003eInt",
@@ -13898,6 +14996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "flx_linker",
           "package": "bio",
@@ -13907,6 +15006,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "flx_linker",
           "package": "bio",
@@ -13919,6 +15019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "qual20",
           "package": "bio",
@@ -13928,6 +15029,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "qual20",
           "normalized": "Int-\u003eReadBlock-\u003eInt",
@@ -13942,6 +15044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rapid_adapter",
           "package": "bio",
@@ -13951,6 +15054,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rapid_adapter",
           "package": "bio",
@@ -13963,6 +15067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter",
           "package": "bio",
@@ -13972,6 +15077,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter",
           "package": "bio",
@@ -13984,6 +15090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter2",
           "package": "bio",
@@ -13993,6 +15100,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter2",
           "package": "bio",
@@ -14005,6 +15113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter3",
           "package": "bio",
@@ -14014,6 +15123,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "rna_adapter3",
           "package": "bio",
@@ -14026,6 +15136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "sigint",
           "package": "bio",
@@ -14035,6 +15146,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "sigint",
           "normalized": "ReadBlock-\u003eInt",
@@ -14049,6 +15161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "ti_adapter_b",
           "package": "bio",
@@ -14058,6 +15171,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "ti_adapter_b",
           "package": "bio",
@@ -14070,6 +15184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "ti_linker",
           "package": "bio",
@@ -14079,6 +15194,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "ti_linker",
           "package": "bio",
@@ -14092,6 +15208,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e2.2.1.5 Primer filter \n This looks for the B-adaptor at the end of the read.  The 454 implementation isn't very\n effective at finding mutated adaptors.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_primer",
           "package": "bio",
@@ -14102,6 +15219,7 @@
         "index": {
           "description": "Primer filter This looks for the B-adaptor at the end of the read The implementation isn very effective at finding mutated adaptors",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_primer",
           "normalized": "String-\u003eTrimFilter",
@@ -14117,6 +15235,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e2.2.1.7 Quality score trimming trims using a 10-base window until a Q20 average is found.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_qual20",
           "package": "bio",
@@ -14127,6 +15246,7 @@
         "index": {
           "description": "Quality score trimming trims using base window until Q20 average is found",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_qual20",
           "normalized": "Int-\u003eTrimFilter",
@@ -14142,6 +15262,7 @@
       "document": {
         "description": {
           "description": "\u003col\u003e\u003cli\u003e2.2.1.4 Signal intensity trim - trim back until \u003c3% borderline flows (0.5..0.7).\n   Then trim borderline values or dots from the end (use a window).\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_sigint",
           "package": "bio",
@@ -14152,6 +15273,7 @@
         "index": {
           "description": "Signal intensity trim trim back until borderline flows Then trim borderline values or dots from the end use window",
           "hierarchy": "Bio Sequence SFF_filters",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_filters",
           "name": "trim_sigint",
           "package": "bio",
@@ -14164,6 +15286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "SFF_name",
           "package": "bio",
@@ -14172,6 +15295,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "SFF_name",
           "package": "bio",
@@ -14186,6 +15310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead names encode various information, as per this struct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "ReadName",
           "package": "bio",
@@ -14195,6 +15320,7 @@
         "index": {
           "description": "Read names encode various information as per this struct",
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "ReadName",
           "package": "bio",
@@ -14208,6 +15334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "b36",
           "package": "bio",
@@ -14217,6 +15344,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "b36",
           "package": "bio",
@@ -14229,6 +15357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "decCh",
           "package": "bio",
@@ -14238,6 +15367,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "decCh",
           "normalized": "Char-\u003eMaybe Int",
@@ -14253,6 +15383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "decode36",
           "package": "bio",
@@ -14262,6 +15393,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "decode36",
           "normalized": "ByteString-\u003eMaybe Int",
@@ -14276,6 +15408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "decodeDate",
           "package": "bio",
@@ -14285,6 +15418,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "decodeDate",
           "normalized": "ByteString-\u003eMaybe[Int]",
@@ -14300,6 +15434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "decodeLocation",
           "package": "bio",
@@ -14309,6 +15444,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "decodeLocation",
           "normalized": "ByteString-\u003eMaybe(Int,Int)",
@@ -14324,6 +15460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "divMods",
           "package": "bio",
@@ -14333,6 +15470,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "divMods",
           "normalized": "Int-\u003e[Int]-\u003e[Int]",
@@ -14348,6 +15486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "encode36",
           "package": "bio",
@@ -14357,6 +15496,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "encode36",
           "normalized": "Int-\u003eByteString",
@@ -14371,6 +15511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "encodeDate",
           "package": "bio",
@@ -14380,6 +15521,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "encodeDate",
           "normalized": "(Int,Int,Int)-\u003e(Int,Int,Int)-\u003eByteString",
@@ -14395,6 +15537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "encodeLocation",
           "package": "bio",
@@ -14404,6 +15547,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "encodeLocation",
           "normalized": "Int-\u003eInt-\u003eByteString",
@@ -14419,6 +15563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SFF_name",
           "name": "encodeRegion",
           "package": "bio",
@@ -14428,6 +15573,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SFF_name",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SFF_name",
           "name": "encodeRegion",
           "normalized": "Int-\u003eByteString",
@@ -14444,6 +15590,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures for manipulating (biological) sequences.\n\u003c/p\u003e\u003cp\u003eGenerally supports both nucleotide and protein sequences, some functions,\n   like \u003ccode\u003erevcompl\u003c/code\u003e, only makes sense for nucleotides.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "SeqData",
           "package": "bio",
@@ -14453,6 +15600,7 @@
         "index": {
           "description": "Data structures for manipulating biological sequences Generally supports both nucleotide and protein sequences some functions like revcompl only makes sense for nucleotides",
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "SeqData",
           "package": "bio",
@@ -14466,6 +15614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "Amino",
           "package": "bio",
@@ -14474,6 +15623,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "Amino",
           "package": "bio",
@@ -14488,6 +15638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor type tagging sequences (protein sequences use \u003ccode\u003e\u003ca\u003eAmino\u003c/a\u003e\u003c/code\u003e below)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "Nuc",
           "package": "bio",
@@ -14497,6 +15648,7 @@
         "index": {
           "description": "For type tagging sequences protein sequences use Amino below",
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "Nuc",
           "package": "bio",
@@ -14511,6 +15663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn offset, index, or length of a \u003ccode\u003e\u003ca\u003eSeqData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "Offset",
           "package": "bio",
@@ -14520,6 +15673,7 @@
         "index": {
           "description": "An offset index or length of SeqData",
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "Offset",
           "package": "bio",
@@ -14534,6 +15688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic type for quality data.  Range 0..255.  Typical Phred output is in\n   the range 6..50, with 20 as the line in the sand separating good from bad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "Qual",
           "package": "bio",
@@ -14543,6 +15698,7 @@
         "index": {
           "description": "Basic type for quality data Range Typical Phred output is in the range with as the line in the sand separating good from bad",
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "Qual",
           "package": "bio",
@@ -14557,6 +15713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuality data is a \u003ccode\u003e\u003ca\u003eQual\u003c/a\u003e\u003c/code\u003e vector, currently implemented as a \u003ccode\u003eByteString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "QualData",
           "package": "bio",
@@ -14566,6 +15723,7 @@
         "index": {
           "description": "Quality data is Qual vector currently implemented as ByteString",
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "QualData",
           "package": "bio",
@@ -14580,6 +15738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic data type used in \u003ccode\u003e\u003ca\u003eSequence\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "SeqData",
           "package": "bio",
@@ -14589,6 +15748,7 @@
         "index": {
           "description": "The basic data type used in Sequence",
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "SeqData",
           "package": "bio",
@@ -14603,6 +15763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequence consists of a header, the sequence data itself, and optional quality data.\n   The type parameter is a phantom type to separate nucleotide and amino acid sequences\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "Sequence",
           "package": "bio",
@@ -14612,6 +15773,7 @@
         "index": {
           "description": "sequence consists of header the sequence data itself and optional quality data The type parameter is phantom type to separate nucleotide and amino acid sequences",
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "Sequence",
           "package": "bio",
@@ -14625,6 +15787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "Unknown",
           "package": "bio",
@@ -14633,6 +15796,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "Unknown",
           "package": "bio",
@@ -14672,6 +15836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "(?)",
           "package": "bio",
@@ -14681,6 +15846,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "(?) ?",
           "normalized": "Sequence a-\u003eOffset-\u003eQual",
@@ -15323,6 +16489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type functionality, unchecked conversion between sequence types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "castSeq",
           "package": "bio",
@@ -15333,6 +16500,7 @@
         "index": {
           "description": "Phantom type functionality unchecked conversion between sequence types",
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "castSeq",
           "normalized": "Sequence a-\u003eSequence b",
@@ -15506,6 +16674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the sequence has associated quality data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "hasqual",
           "package": "bio",
@@ -15516,6 +16685,7 @@
         "index": {
           "description": "Check whether the sequence has associated quality data",
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "hasqual",
           "normalized": "Sequence a-\u003eBool",
@@ -15531,6 +16701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple function to display a sequence: we generate the sequence string and\n | call putStrLn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "putSeqLn",
           "package": "bio",
@@ -15541,6 +16712,7 @@
         "index": {
           "description": "simple function to display sequence we generate the sequence string and call putStrLn",
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "putSeqLn",
           "normalized": "Sequence a-\u003eInt-\u003eInt-\u003e[(Int,Int)]-\u003eIO()",
@@ -15609,6 +16781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a properly formatted and probably highlighted string\n | representation of a sequence. Highlighting is done using ANSI-Escape\n | sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.SeqData",
           "name": "seqToStr",
           "package": "bio",
@@ -15619,6 +16792,7 @@
         "index": {
           "description": "Returns properly formatted and probably highlighted string representation of sequence Highlighting is done using ANSI-Escape sequences",
           "hierarchy": "Bio Sequence SeqData",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.SeqData",
           "name": "seqToStr",
           "normalized": "Sequence a-\u003eInt-\u003eInt-\u003e[(Int,Int)]-\u003e[Char]",
@@ -15898,6 +17072,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements the 2bit format for sequences.\n\u003c/p\u003e\u003cp\u003eBased on: \u003ca\u003ehttp://genome.ucsc.edu/FAQ/FAQformat#format7\u003c/a\u003e\n   Note! the description is not accurate, it is missing a reserved word\n         in each sequence record.\n\u003c/p\u003e\u003cp\u003eThere are also other, completely different ideas of the 2bit format, e.g.\n      \u003ca\u003ehttp://jcomeau.freeshell.org/www/genome/2bitformat.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.TwoBit",
           "name": "TwoBit",
           "package": "bio",
@@ -15907,6 +17082,7 @@
         "index": {
           "description": "This module implements the bit format for sequences Based on http genome.ucsc.edu FAQ FAQformat format7 Note the description is not accurate it is missing reserved word in each sequence record There are also other completely different ideas of the bit format e.g http jcomeau.freeshell.org www genome bitformat.html",
           "hierarchy": "Bio Sequence TwoBit",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.TwoBit",
           "name": "TwoBit",
           "package": "bio",
@@ -15948,6 +17124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshall from neutral representation to the 2Bit ByteString rep\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.TwoBit",
           "name": "encode2Bit",
           "package": "bio",
@@ -15958,6 +17135,7 @@
         "index": {
           "description": "Marshall from neutral representation to the Bit ByteString rep",
           "hierarchy": "Bio Sequence TwoBit",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.TwoBit",
           "name": "encode2Bit",
           "normalized": "[Sequence a]-\u003eByteString",
@@ -16001,6 +17179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshall/serialize [Sequence] into 2Bit format and write to a file using handle. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.TwoBit",
           "name": "hWrite2Bit",
           "package": "bio",
@@ -16011,6 +17190,7 @@
         "index": {
           "description": "Marshall serialize Sequence into Bit format and write to file using handle",
           "hierarchy": "Bio Sequence TwoBit",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.TwoBit",
           "name": "hWrite2Bit",
           "normalized": "Handle-\u003e[Sequence a]-\u003eIO()",
@@ -16054,6 +17234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshall/serialize [Sequence] into 2Bit format and write to a file. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence.TwoBit",
           "name": "write2Bit",
           "package": "bio",
@@ -16064,6 +17245,7 @@
         "index": {
           "description": "Marshall serialize Sequence into Bit format and write to file",
           "hierarchy": "Bio Sequence TwoBit",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence.TwoBit",
           "name": "write2Bit",
           "normalized": "FilePath-\u003e[Sequence a]-\u003eIO()",
@@ -16080,6 +17262,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a meta-module importing and re-exporting sequence-related stuff.\n\u003c/p\u003e\u003cp\u003eIt encompasses the \u003ca\u003eBio.Sequence.SeqData\u003c/a\u003e, \u003ca\u003eBio.Sequence.Fasta\u003c/a\u003e, and \u003ca\u003eBio.Sequence.TwoBit\u003c/a\u003e modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "Sequence",
           "package": "bio",
@@ -16089,6 +17272,7 @@
         "index": {
           "description": "This is meta-module importing and re-exporting sequence-related stuff It encompasses the Bio.Sequence.SeqData Bio.Sequence.Fasta and Bio.Sequence.TwoBit modules",
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "Sequence",
           "package": "bio",
@@ -16102,6 +17286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "Amino",
           "package": "bio",
@@ -16110,6 +17295,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "Amino",
           "package": "bio",
@@ -16124,6 +17310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a struct for containing a set of hashing functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "HashF",
           "package": "bio",
@@ -16133,6 +17320,7 @@
         "index": {
           "description": "This is struct for containing set of hashing functions",
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "HashF",
           "package": "bio",
@@ -16146,6 +17334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "KWords",
           "package": "bio",
@@ -16154,6 +17343,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "KWords",
           "package": "bio",
@@ -16168,6 +17358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor type tagging sequences (protein sequences use \u003ccode\u003e\u003ca\u003eAmino\u003c/a\u003e\u003c/code\u003e below)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "Nuc",
           "package": "bio",
@@ -16177,6 +17368,7 @@
         "index": {
           "description": "For type tagging sequences protein sequences use Amino below",
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "Nuc",
           "package": "bio",
@@ -16191,6 +17383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn offset, index, or length of a \u003ccode\u003e\u003ca\u003eSeqData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "Offset",
           "package": "bio",
@@ -16200,6 +17393,7 @@
         "index": {
           "description": "An offset index or length of SeqData",
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "Offset",
           "package": "bio",
@@ -16214,6 +17408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic type for quality data.  Range 0..255.  Typical Phred output is in\n   the range 6..50, with 20 as the line in the sand separating good from bad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "Qual",
           "package": "bio",
@@ -16223,6 +17418,7 @@
         "index": {
           "description": "Basic type for quality data Range Typical Phred output is in the range with as the line in the sand separating good from bad",
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "Qual",
           "package": "bio",
@@ -16237,6 +17433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuality data is a \u003ccode\u003e\u003ca\u003eQual\u003c/a\u003e\u003c/code\u003e vector, currently implemented as a \u003ccode\u003eByteString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "QualData",
           "package": "bio",
@@ -16246,6 +17443,7 @@
         "index": {
           "description": "Quality data is Qual vector currently implemented as ByteString",
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "QualData",
           "package": "bio",
@@ -16260,6 +17458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic data type used in \u003ccode\u003e\u003ca\u003eSequence\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "SeqData",
           "package": "bio",
@@ -16269,6 +17468,7 @@
         "index": {
           "description": "The basic data type used in Sequence",
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "SeqData",
           "package": "bio",
@@ -16283,6 +17483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequence consists of a header, the sequence data itself, and optional quality data.\n   The type parameter is a phantom type to separate nucleotide and amino acid sequences\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "Sequence",
           "package": "bio",
@@ -16292,6 +17493,7 @@
         "index": {
           "description": "sequence consists of header the sequence data itself and optional quality data The type parameter is phantom type to separate nucleotide and amino acid sequences",
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "Sequence",
           "package": "bio",
@@ -16305,6 +17507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "Unknown",
           "package": "bio",
@@ -16313,6 +17516,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "Unknown",
           "package": "bio",
@@ -16326,6 +17530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "kwords",
           "package": "bio",
@@ -16335,6 +17540,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "kwords",
           "normalized": "Int-\u003ea-\u003e[a]",
@@ -16350,6 +17556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead nucleotide sequences in any format - Fasta, SFF, FastQ, 2bit, PHD...\n   Todo: detect Illumina vs Sanger FastQ, transparent compression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "readNuc",
           "package": "bio",
@@ -16360,6 +17567,7 @@
         "index": {
           "description": "Read nucleotide sequences in any format Fasta SFF FastQ bit PHD Todo detect Illumina vs Sanger FastQ transparent compression",
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "readNuc",
           "normalized": "FilePath-\u003eIO[Sequence Nuc]",
@@ -16376,6 +17584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead protein sequences in any supported format (i.e. Fasta)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Sequence",
           "name": "readProt",
           "package": "bio",
@@ -16386,6 +17595,7 @@
         "index": {
           "description": "Read protein sequences in any supported format i.e Fasta",
           "hierarchy": "Bio Sequence",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Sequence",
           "name": "readProt",
           "normalized": "FilePath-\u003eIO[Sequence Amino]",
@@ -16402,6 +17612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLazy \"many\" combinator for Parsec.\n   Courtesy of Tomasz Zielonka.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Util.Parsex",
           "name": "Parsex",
           "package": "bio",
@@ -16411,6 +17622,7 @@
         "index": {
           "description": "Lazy many combinator for Parsec Courtesy of Tomasz Zielonka",
           "hierarchy": "Bio Util Parsex",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Util.Parsex",
           "name": "Parsex",
           "package": "bio",
@@ -16424,6 +17636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Util.Parsex",
           "name": "lazyMany",
           "package": "bio",
@@ -16433,6 +17646,7 @@
         },
         "index": {
           "hierarchy": "Bio Util Parsex",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Util.Parsex",
           "name": "lazyMany",
           "normalized": "GenParser Char()a-\u003eSourceName-\u003e[Char]-\u003e[a]",
@@ -16449,6 +17663,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility module, with various useful stuff.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Util",
           "name": "Util",
           "package": "bio",
@@ -16458,6 +17673,7 @@
         "index": {
           "description": "Utility module with various useful stuff",
           "hierarchy": "Bio Util",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Util",
           "name": "Util",
           "package": "bio",
@@ -16472,6 +17688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput (to stderr) progress while evaluating a lazy list.\n   Useful for generating output while (conceptually, at least) in pure code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Util",
           "name": "countIO",
           "package": "bio",
@@ -16482,6 +17699,7 @@
         "index": {
           "description": "Output to stderr progress while evaluating lazy list Useful for generating output while conceptually at least in pure code",
           "hierarchy": "Bio Util",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Util",
           "name": "countIO",
           "normalized": "String-\u003eString-\u003eInt-\u003e[a]-\u003eIO[a]",
@@ -16498,6 +17716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWorkaround, the current \u003ca\u003eData.ByteString.Lazy.Char8\u003c/a\u003e contains a bug in \u003ccode\u003e\u003ca\u003elines\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Util",
           "name": "lines",
           "package": "bio",
@@ -16508,6 +17727,7 @@
         "index": {
           "description": "Workaround the current Data.ByteString.Lazy.Char8 contains bug in lines",
           "hierarchy": "Bio Util",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Util",
           "name": "lines",
           "normalized": "ByteString-\u003e[ByteString]",
@@ -16523,6 +17743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWorkaround, the current \u003ca\u003eData.ByteString.Lazy.Char8\u003c/a\u003e contains a bug in \u003ccode\u003e\u003ca\u003elines\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Util",
           "name": "mylines",
           "package": "bio",
@@ -16533,6 +17754,7 @@
         "index": {
           "description": "Workaround the current Data.ByteString.Lazy.Char8 contains bug in lines",
           "hierarchy": "Bio Util",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Util",
           "name": "mylines",
           "normalized": "ByteString-\u003e[ByteString]",
@@ -16548,6 +17770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lazier version of \u003ccode\u003e\u003ca\u003esequence\u003c/a\u003e\u003c/code\u003e in \u003ca\u003eControl.Monad\u003c/a\u003e, needed by \u003ccode\u003e\u003ca\u003ecountIO\u003c/a\u003e\u003c/code\u003e above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Util",
           "name": "sequence'",
           "package": "bio",
@@ -16558,6 +17781,7 @@
         "index": {
           "description": "lazier version of sequence in Control.Monad needed by countIO above",
           "hierarchy": "Bio Util",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Util",
           "name": "sequence'",
           "normalized": "[IO a]-\u003eIO[a]",
@@ -16573,6 +17797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak a list of bytestrings on a predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:06 UTC 2014",
           "module": "Bio.Util",
           "name": "splitWhen",
           "package": "bio",
@@ -16583,6 +17808,7 @@
         "index": {
           "description": "Break list of bytestrings on predicate",
           "hierarchy": "Bio Util",
+          "indexed": "2014-03-11T17:22:06",
           "module": "Bio.Util",
           "name": "splitWhen",
           "normalized": "(ByteString-\u003eBool)-\u003e[ByteString]-\u003e[[ByteString]]",

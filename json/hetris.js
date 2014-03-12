@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hetris"
+        "phrase": "hetris",
+        "type": "phrase"
       },
       "type": "context"
     }

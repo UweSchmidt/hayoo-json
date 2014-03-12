@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happstack-dlg"
+        "phrase": "happstack-dlg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues.Formlets",
           "name": "showForm",
           "package": "happstack-dlg",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues Formlets",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues.Formlets",
           "name": "showForm",
           "normalized": "XHtmlForm Identity a-\u003eDlg b(Maybe a)",
@@ -42,6 +44,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "Choice",
           "package": "happstack-dlg",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues Scaffold",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "Choice",
           "package": "happstack-dlg",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "Scaffolded",
           "package": "happstack-dlg",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues Scaffold",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "Scaffolded",
           "package": "happstack-dlg",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "chooseFrom",
           "package": "happstack-dlg",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues Scaffold",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "chooseFrom",
           "normalized": "[a]-\u003eChoice a",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "escapeHtml",
           "package": "happstack-dlg",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues Scaffold",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "escapeHtml",
           "normalized": "String-\u003eString",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "fromChoice",
           "package": "happstack-dlg",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues Scaffold",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "fromChoice",
           "normalized": "Choice a-\u003ea",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "parse",
           "package": "happstack-dlg",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues Scaffold",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "parse",
           "normalized": "String-\u003ea-\u003eServerPartT b a",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "render",
           "package": "happstack-dlg",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues Scaffold",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "render",
           "normalized": "String-\u003ea-\u003eString",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "The \u003ctt\u003e\u003ca\u003escaffold\u003c/a\u003e\u003c/tt\u003e function builds a user interaction to display and collect information.\n    In a finished web application, this should generally be replaced with a better\n    mechanism for rendering pages, such as a templating engine, XSLT, or something\n    of the sort.\n",
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "scaffold",
           "package": "happstack-dlg",
@@ -213,6 +230,7 @@
         "index": {
           "description": "The scaffold function builds user interaction to display and collect information In finished web application this should generally be replaced with better mechanism for rendering pages such as templating engine XSLT or something of the sort",
           "hierarchy": "Happstack Server Dialogues Scaffold",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "scaffold",
           "normalized": "String-\u003ea-\u003eDlg b a",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "toChoice",
           "package": "happstack-dlg",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues Scaffold",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues.Scaffold",
           "name": "toChoice",
           "normalized": "a-\u003eChoice a",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues",
           "name": "DialogueManager",
           "package": "happstack-dlg",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues",
           "name": "DialogueManager",
           "package": "happstack-dlg",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues",
           "name": "Dlg",
           "package": "happstack-dlg",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues",
           "name": "Dlg",
           "package": "happstack-dlg",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "A value of \u003ctt\u003e\u003ca\u003ePage\u003c/a\u003e\u003c/tt\u003e type represents a way of rendering a page, given a request URI\n    that should be used for subsequent requests in order to reassociate them with the\n    current dialogue.\n",
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues",
           "name": "Page",
           "package": "happstack-dlg",
@@ -303,6 +328,7 @@
         "index": {
           "description": "value of Page type represents way of rendering page given request URI that should be used for subsequent requests in order to reassociate them with the current dialogue",
           "hierarchy": "Happstack Server Dialogues",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues",
           "name": "Page",
           "package": "happstack-dlg",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "Closes a DialogueManager, which will cause it to cease accepting any\n    incoming requests, and also to terminate the session reaper thread.\n",
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues",
           "name": "closeDialogueManager",
           "package": "happstack-dlg",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Closes DialogueManager which will cause it to cease accepting any incoming requests and also to terminate the session reaper thread",
           "hierarchy": "Happstack Server Dialogues",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues",
           "name": "closeDialogueManager",
           "normalized": "DialogueManager a-\u003eIO()",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "The \u003ctt\u003e\u003ca\u003edialogue\u003c/a\u003e\u003c/tt\u003e function builds a \u003ctt\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/tt\u003e that handles a given\n    dialogue.  In general, it can be combined in normal ways with guards and\n    such, so long as changes in the request parameters won't cause it to be\n    missed when future requests are made in the same dialogue.\n",
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues",
           "name": "dialogue",
           "package": "happstack-dlg",
@@ -353,6 +382,7 @@
         "index": {
           "description": "The dialogue function builds ServerPartT that handles given dialogue In general it can be combined in normal ways with guards and such so long as changes in the request parameters won cause it to be missed when future requests are made in the same dialogue",
           "hierarchy": "Happstack Server Dialogues",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues",
           "name": "dialogue",
           "normalized": "DialogueManager a-\u003eDlg a()-\u003eServerPartT a Response",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "Create a new \u003ctt\u003e\u003ca\u003eDialogueManager\u003c/a\u003e\u003c/tt\u003e to manage a set of dialogues in the web\n    application.  This also spawns the session reaper, which cleans up sessions\n    that haven't been touched for a given time period.\n",
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues",
           "name": "makeDialogueManager",
           "package": "happstack-dlg",
@@ -378,6 +409,7 @@
         "index": {
           "description": "Create new DialogueManager to manage set of dialogues in the web application This also spawns the session reaper which cleans up sessions that haven been touched for given time period",
           "hierarchy": "Happstack Server Dialogues",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues",
           "name": "makeDialogueManager",
           "normalized": "NominalDiffTime-\u003eIO(DialogueManager a)",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues",
           "name": "perform",
           "package": "happstack-dlg",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Dialogues",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues",
           "name": "perform",
           "normalized": "ServerPartT a b-\u003eDlg a b",
@@ -417,6 +451,7 @@
       "document": {
         "description": {
           "description": "Converts methods for rendering and parsing the result of a page into a\n    \u003ctt\u003e\u003ca\u003eDlg\u003c/a\u003e\u003c/tt\u003e step.\n",
+          "indexed": "Tue Mar 11 18:28:22 UTC 2014",
           "module": "Happstack.Server.Dialogues",
           "name": "showPage",
           "package": "happstack-dlg",
@@ -427,6 +462,7 @@
         "index": {
           "description": "Converts methods for rendering and parsing the result of page into Dlg step",
           "hierarchy": "Happstack Server Dialogues",
+          "indexed": "2014-03-11T18:28:22",
           "module": "Happstack.Server.Dialogues",
           "name": "showPage",
           "normalized": "Page a-\u003eServerPartT a b-\u003eDlg a b",

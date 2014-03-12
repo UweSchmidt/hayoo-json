@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AutoForms"
+        "phrase": "AutoForms",
+        "type": "phrase"
       },
       "type": "context"
     }

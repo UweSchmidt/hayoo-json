@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "progress"
+        "phrase": "progress",
+        "type": "phrase"
       },
       "type": "context"
     }

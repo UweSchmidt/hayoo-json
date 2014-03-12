@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clckwrks-theme-geo-bootstrap"
+        "phrase": "clckwrks-theme-geo-bootstrap",
+        "type": "phrase"
       },
       "type": "context"
     }

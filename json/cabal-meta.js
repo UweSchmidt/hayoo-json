@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-meta"
+        "phrase": "cabal-meta",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "CabalMeta",
           "package": "cabal-meta",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "CabalMeta",
           "package": "cabal-meta",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "Package",
           "package": "cabal-meta",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "Package",
           "package": "cabal-meta",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "PackageSources",
           "package": "cabal-meta",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "PackageSources",
           "package": "cabal-meta",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unstable package is one which has not been released to some\n   package repository\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "UnstablePackage",
           "package": "cabal-meta",
@@ -91,6 +98,7 @@
         "index": {
           "description": "An unstable package is one which has not been released to some package repository",
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "UnstablePackage",
           "package": "cabal-meta",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "DarcsPackage",
           "package": "cabal-meta",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "DarcsPackage",
           "package": "cabal-meta",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "Directory",
           "package": "cabal-meta",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "Directory",
           "package": "cabal-meta",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "GitPackage",
           "package": "cabal-meta",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "GitPackage",
           "package": "cabal-meta",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "Package",
           "package": "cabal-meta",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "Package",
           "package": "cabal-meta",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "PackageSources",
           "package": "cabal-meta",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "PackageSources",
           "package": "cabal-meta",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "Unstable",
           "package": "cabal-meta",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "Unstable",
           "package": "cabal-meta",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "dLocation",
           "package": "cabal-meta",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "dLocation",
           "package": "cabal-meta",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "darcsLocation",
           "package": "cabal-meta",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "darcsLocation",
           "package": "cabal-meta",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "darcsTag",
           "package": "cabal-meta",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "darcsTag",
           "package": "cabal-meta",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "darcsen",
           "package": "cabal-meta",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "darcsen",
           "normalized": "[UnstablePackage]",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "dirs",
           "package": "cabal-meta",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "dirs",
           "normalized": "[UnstablePackage]",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "diskPath",
           "package": "cabal-meta",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "diskPath",
           "normalized": "UnstablePackage-\u003eFilePath",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "gTag",
           "package": "cabal-meta",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "gTag",
           "package": "cabal-meta",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "gitLocation",
           "package": "cabal-meta",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "gitLocation",
           "package": "cabal-meta",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "gits",
           "package": "cabal-meta",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "gits",
           "normalized": "[UnstablePackage]",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "hackages",
           "package": "cabal-meta",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "hackages",
           "normalized": "[Package]",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "https",
           "package": "cabal-meta",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "https",
           "normalized": "[UnstablePackage]",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "pFlags",
           "package": "cabal-meta",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "pFlags",
           "normalized": "[Text]",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "pLocation",
           "package": "cabal-meta",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "pLocation",
           "package": "cabal-meta",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "packageList",
           "package": "cabal-meta",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "packageList",
           "normalized": "PackageSources-\u003e[[Text]]",
@@ -555,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "readPackages",
           "package": "cabal-meta",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "readPackages",
           "normalized": "Bool-\u003eFilePath-\u003eShIO PackageSources",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "unstablePackages",
           "package": "cabal-meta",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "unstablePackages",
           "normalized": "PackageSources-\u003e[UnstablePackage]",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "upFlags",
           "package": "cabal-meta",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "upFlags",
           "normalized": "[Text]",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:12 UTC 2014",
           "module": "CabalMeta",
           "name": "vendor_dir",
           "package": "cabal-meta",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "CabalMeta",
+          "indexed": "2014-03-11T17:28:12",
           "module": "CabalMeta",
           "name": "vendor_dir",
           "package": "cabal-meta",

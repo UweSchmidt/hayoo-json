@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "git-gpush"
+        "phrase": "git-gpush",
+        "type": "phrase"
       },
       "type": "context"
     }

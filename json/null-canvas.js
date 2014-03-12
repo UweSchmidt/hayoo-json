@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "null-canvas"
+        "phrase": "null-canvas",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "Blank",
           "package": "null-canvas",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "Blank",
           "package": "null-canvas",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "Canvas",
           "package": "null-canvas",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "Canvas",
           "package": "null-canvas",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e is our abstact handle into a specific 2d-context inside a browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "Context",
           "package": "null-canvas",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Context is our abstact handle into specific d-context inside browser",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "Context",
           "package": "null-canvas",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic Event from Browser, the code is event-type specific.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "Event",
           "package": "null-canvas",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Basic Event from Browser the code is event-type specific",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "Event",
           "package": "null-canvas",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eEventName\u003c/a\u003e\u003c/code\u003e mirrors event names from jquery, where 'map toLower (show name)' gives\n the jquery event name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "EventName",
           "package": "null-canvas",
@@ -116,6 +125,7 @@
         "index": {
           "description": "EventName mirrors event names from jquery where map toLower show name gives the jquery event name",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "EventName",
           "package": "null-canvas",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEventQueue is a STM channel (\u003ccode\u003e\u003ca\u003eTChan\u003c/a\u003e\u003c/code\u003e) of \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es.\n Intentionally, \u003ccode\u003e\u003ca\u003eEventQueue\u003c/a\u003e\u003c/code\u003e is not abstract.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "EventQueue",
           "package": "null-canvas",
@@ -139,6 +150,7 @@
         "index": {
           "description": "EventQueue is STM channel TChan of Event Intentionally EventQueue is not abstract",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "EventQueue",
           "package": "null-canvas",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "Event",
           "package": "null-canvas",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "Event",
           "package": "null-canvas",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "KeyDown",
           "package": "null-canvas",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "KeyDown",
           "package": "null-canvas",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "KeyPress",
           "package": "null-canvas",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "KeyPress",
           "package": "null-canvas",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "KeyUp",
           "package": "null-canvas",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "KeyUp",
           "package": "null-canvas",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseDown",
           "package": "null-canvas",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "MouseDown",
           "package": "null-canvas",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseEnter",
           "package": "null-canvas",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "MouseEnter",
           "package": "null-canvas",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseMove",
           "package": "null-canvas",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "MouseMove",
           "package": "null-canvas",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseOut",
           "package": "null-canvas",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "MouseOut",
           "package": "null-canvas",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseOver",
           "package": "null-canvas",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "MouseOver",
           "package": "null-canvas",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseUp",
           "package": "null-canvas",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "MouseUp",
           "package": "null-canvas",
@@ -373,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_arc.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "arc",
           "package": "null-canvas",
@@ -383,6 +416,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas arc.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "arc",
           "normalized": "(Float,Float,Float,Float,Float,Bool)-\u003eCanvas()",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_beginpath.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "beginPath",
           "package": "null-canvas",
@@ -408,6 +443,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas beginpath.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "beginPath",
           "normalized": "Canvas()",
@@ -424,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_beziercurveto.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "bezierCurveTo",
           "package": "null-canvas",
@@ -434,6 +471,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas beziercurveto.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "bezierCurveTo",
           "normalized": "(Float,Float,Float,Float,Float,Float)-\u003eCanvas()",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblankCanvas is the main entry point into blank-canvas.\n A typical invocation would be\n\u003c/p\u003e\u003cpre\u003emodule Main where\n\nimport Graphics.Blank\n\nmain = blankCanvas 3000 $ \\ context -\u003e do\n        send context $ do\n                moveTo(50,50)\n                lineTo(200,100)\n                lineWidth 10\n                strokeStyle \"red\"\n                stroke()\n\n\u003c/pre\u003e\u003cp\u003elaunch single-canvas app on specified port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "blankCanvas",
           "package": "null-canvas",
@@ -460,6 +499,7 @@
         "index": {
           "description": "blankCanvas is the main entry point into blank-canvas typical invocation would be module Main where import Graphics.Blank main blankCanvas context do send context do moveTo lineTo lineWidth strokeStyle red stroke launch single-canvas app on specified port",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "blankCanvas",
           "normalized": "Int-\u003e(Context-\u003eIO())-\u003eIO()",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elaunch multiple canvas apps, each with a prefix, like `/myprefix/foo/bar`\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "blankCanvasMany",
           "package": "null-canvas",
@@ -486,6 +527,7 @@
         "index": {
           "description": "launch multiple canvas apps each with prefix like myprefix foo bar",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "blankCanvasMany",
           "normalized": "Int-\u003e[(String,Context-\u003eIO())]-\u003eIO()",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas blankCanvasMany but takes customization parameters dataDir and performLogging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "blankCanvasManyParams",
           "package": "null-canvas",
@@ -512,6 +555,7 @@
         "index": {
           "description": "as blankCanvasMany but takes customization parameters dataDir and performLogging",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "blankCanvasManyParams",
           "normalized": "Int-\u003e[(String,Context-\u003eIO())]-\u003eFilePath-\u003eBool-\u003eIO()",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas blankCanvas but takes customization parameters dataDir and performLogging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "blankCanvasParams",
           "package": "null-canvas",
@@ -538,6 +583,7 @@
         "index": {
           "description": "as blankCanvas but takes customization parameters dataDir and performLogging",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "blankCanvasParams",
           "normalized": "Int-\u003e(Context-\u003eIO())-\u003eFilePath-\u003eBool-\u003eString-\u003eIO()",
@@ -554,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparametrised version of blankCanvas, also returns ScottyM application instead of running a server. use \u003ccode\u003e\u003ca\u003escotty\u003c/a\u003e\u003c/code\u003e to run it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "blankCanvasParamsScotty",
           "package": "null-canvas",
@@ -564,6 +611,7 @@
         "index": {
           "description": "parametrised version of blankCanvas also returns ScottyM application instead of running server use scotty to run it",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "blankCanvasParamsScotty",
           "normalized": "(Context-\u003eIO())-\u003eFilePath-\u003eBool-\u003eString-\u003eIO(ScottyM())",
@@ -580,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_clearrect.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "clearRect",
           "package": "null-canvas",
@@ -590,6 +639,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas clearrect.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "clearRect",
           "normalized": "(Float,Float,Float,Float)-\u003eCanvas()",
@@ -606,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_closepath.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "closePath",
           "package": "null-canvas",
@@ -616,6 +667,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas closepath.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "closePath",
           "normalized": "Canvas()",
@@ -632,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esends command (JS) unchanged. useful for extending this library with functionality it doesn't currently have. example: \n\u003c/p\u003e\u003cpre\u003e custom $ unlines $ [\n       \"var grd=c.createRadialGradient(0,0,3,20,20,10); \"\n      ,\"grd.addColorStop(0,\\\"white\\\");\"\n      ,\"grd.addColorStop(1,\\\"red\\\");\"\n      ,\"c.fillStyle=grd;\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "custom",
           "package": "null-canvas",
@@ -642,6 +695,7 @@
         "index": {
           "description": "sends command JS unchanged useful for extending this library with functionality it doesn currently have example custom unlines var grd c.createRadialGradient grd.addColorStop white grd.addColorStop red c.fillStyle grd",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "custom",
           "normalized": "String-\u003eCanvas()",
@@ -657,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eevents\u003c/a\u003e\u003c/code\u003e gets the raw event queue for a specific event type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "events",
           "package": "null-canvas",
@@ -667,6 +722,7 @@
         "index": {
           "description": "events gets the raw event queue for specific event type",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "events",
           "normalized": "Context-\u003eEventName-\u003eIO EventQueue",
@@ -682,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_fill.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "fill",
           "package": "null-canvas",
@@ -692,6 +749,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas fill.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "fill",
           "normalized": "Canvas()",
@@ -707,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_fillrect.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "fillRect",
           "package": "null-canvas",
@@ -717,6 +776,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas fillrect.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "fillRect",
           "normalized": "(Float,Float,Float,Float)-\u003eCanvas()",
@@ -733,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_fillstyle.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "fillStyle",
           "package": "null-canvas",
@@ -743,6 +804,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas fillstyle.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "fillStyle",
           "normalized": "String-\u003eCanvas()",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_filltext.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "fillText",
           "package": "null-canvas",
@@ -769,6 +832,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas filltext.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "fillText",
           "normalized": "(String,Float,Float)-\u003eCanvas()",
@@ -785,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_font.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "font",
           "package": "null-canvas",
@@ -795,6 +860,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas font.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "font",
           "normalized": "String-\u003eCanvas()",
@@ -810,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_globalalpha.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "globalAlpha",
           "package": "null-canvas",
@@ -820,6 +887,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas globalalpha.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "globalAlpha",
           "normalized": "Float-\u003eCanvas()",
@@ -835,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "jsCode",
           "package": "null-canvas",
@@ -844,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "jsCode",
           "package": "null-canvas",
@@ -857,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "jsMouse",
           "package": "null-canvas",
@@ -866,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "jsMouse",
           "normalized": "Maybe(Int,Int)",
@@ -882,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_linecap.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "lineCap",
           "package": "null-canvas",
@@ -892,6 +965,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas linecap.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "lineCap",
           "normalized": "String-\u003eCanvas()",
@@ -908,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_linejoin.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "lineJoin",
           "package": "null-canvas",
@@ -918,6 +993,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas linejoin.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "lineJoin",
           "normalized": "String-\u003eCanvas()",
@@ -934,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_lineto.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "lineTo",
           "package": "null-canvas",
@@ -944,6 +1021,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas lineto.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "lineTo",
           "normalized": "(Float,Float)-\u003eCanvas()",
@@ -960,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_linewidth.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "lineWidth",
           "package": "null-canvas",
@@ -970,6 +1049,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas linewidth.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "lineWidth",
           "normalized": "Float-\u003eCanvas()",
@@ -986,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_miterlimit.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "miterLimit",
           "package": "null-canvas",
@@ -996,6 +1077,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas miterlimit.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "miterLimit",
           "normalized": "Float-\u003eCanvas()",
@@ -1012,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_moveto.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "moveTo",
           "package": "null-canvas",
@@ -1022,6 +1105,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas moveto.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "moveTo",
           "normalized": "(Float,Float)-\u003eCanvas()",
@@ -1038,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a specific event; wait for it if the event is not in queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "readEvent",
           "package": "null-canvas",
@@ -1048,6 +1133,7 @@
         "index": {
           "description": "read specific event wait for it if the event is not in queue",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "readEvent",
           "normalized": "EventName-\u003eCanvas Event",
@@ -1063,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "readEventQueue",
           "package": "null-canvas",
@@ -1072,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "readEventQueue",
           "normalized": "EventQueue-\u003eIO Event",
@@ -1088,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee bottom of \u003ca\u003ehttp://www.w3schools.com/tags/ref_canvas.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "restore",
           "package": "null-canvas",
@@ -1098,6 +1187,7 @@
         "index": {
           "description": "see bottom of http www.w3schools.com tags ref canvas.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "restore",
           "normalized": "Canvas()",
@@ -1113,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_rotate.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "rotate",
           "package": "null-canvas",
@@ -1123,6 +1214,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas rotate.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "rotate",
           "normalized": "Float-\u003eCanvas()",
@@ -1138,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee bottom of \u003ca\u003ehttp://www.w3schools.com/tags/ref_canvas.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "save",
           "package": "null-canvas",
@@ -1148,6 +1241,7 @@
         "index": {
           "description": "see bottom of http www.w3schools.com tags ref canvas.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "save",
           "normalized": "Canvas()",
@@ -1163,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.w3schools.com/tags/canvas_scale.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "scale",
           "package": "null-canvas",
@@ -1173,6 +1268,7 @@
         "index": {
           "description": "http www.w3schools.com tags canvas scale.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "scale",
           "normalized": "(Float,Float)-\u003eCanvas()",
@@ -1188,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a set of Canvas commands to the canvas. Attempts\n to common up as many commands as possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "send",
           "package": "null-canvas",
@@ -1198,6 +1295,7 @@
         "index": {
           "description": "Sends set of Canvas commands to the canvas Attempts to common up as many commands as possible",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "send",
           "normalized": "Context-\u003eCanvas a-\u003eIO a",
@@ -1213,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esize of the canvas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "size",
           "package": "null-canvas",
@@ -1223,6 +1322,7 @@
         "index": {
           "description": "size of the canvas",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "size",
           "normalized": "Canvas(Float,Float)",
@@ -1238,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_stroke.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "stroke",
           "package": "null-canvas",
@@ -1248,6 +1349,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas stroke.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "stroke",
           "normalized": "Canvas()",
@@ -1263,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_strokerect.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "strokeRect",
           "package": "null-canvas",
@@ -1273,6 +1376,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas strokerect.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "strokeRect",
           "normalized": "(Float,Float,Float,Float)-\u003eCanvas()",
@@ -1289,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_strokestyle.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "strokeStyle",
           "package": "null-canvas",
@@ -1299,6 +1404,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas strokestyle.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "strokeStyle",
           "normalized": "String-\u003eCanvas()",
@@ -1315,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_stroketext.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "strokeText",
           "package": "null-canvas",
@@ -1325,6 +1432,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas stroketext.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "strokeText",
           "normalized": "(String,Float,Float)-\u003eCanvas()",
@@ -1341,6 +1449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_textalign.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "textAlign",
           "package": "null-canvas",
@@ -1351,6 +1460,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas textalign.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "textAlign",
           "normalized": "String-\u003eCanvas()",
@@ -1367,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_textbaseline.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "textBaseline",
           "package": "null-canvas",
@@ -1377,6 +1488,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas textbaseline.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "textBaseline",
           "normalized": "String-\u003eCanvas()",
@@ -1393,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_transform.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "transform",
           "package": "null-canvas",
@@ -1403,6 +1516,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas transform.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "transform",
           "normalized": "(Float,Float,Float,Float,Float,Float)-\u003eCanvas()",
@@ -1418,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://www.w3schools.com/tags/canvas_translate.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "translate",
           "package": "null-canvas",
@@ -1428,6 +1543,7 @@
         "index": {
           "description": "see http www.w3schools.com tags canvas translate.asp",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "translate",
           "normalized": "(Float,Float)-\u003eCanvas()",
@@ -1443,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a specific event; or return Nothing if the event is not in queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "tryReadEvent",
           "package": "null-canvas",
@@ -1453,6 +1570,7 @@
         "index": {
           "description": "read specific event or return Nothing if the event is not in queue",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "tryReadEvent",
           "normalized": "EventName-\u003eCanvas(Maybe Event)",
@@ -1468,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:19 UTC 2014",
           "module": "Graphics.Blank",
           "name": "tryReadEventQueue",
           "package": "null-canvas",
@@ -1477,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T19:30:19",
           "module": "Graphics.Blank",
           "name": "tryReadEventQueue",
           "normalized": "EventQueue-\u003eIO(Maybe Event)",

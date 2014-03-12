@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Transhare"
+        "phrase": "Transhare",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is my answer to the pattern discussed in\n http:\u003cem/\u003eblog.ezyang.com\u003cem\u003e2011\u003c/em\u003e06\u003cem\u003ea-pattern-for-increasing-sharing\u003c/em\u003e about maximizing sharing when\n transforming an algebraic data type.\n\u003c/p\u003e\u003cp\u003eThe' \u003ccode\u003e\u003ca\u003eTranshare\u003c/a\u003e\u003c/code\u003e class is a kind of degerate case of \u003ccode\u003eTraverse\u003c/code\u003e building on a new \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e\n data type called \u003ccode\u003e\u003ca\u003eTransResult\u003c/a\u003e\u003c/code\u003e defined below.  The result \u003ccode\u003e\u003ca\u003etransM\u003c/a\u003e\u003c/code\u003e is a way to lift a\n parsimonious transformer 'a -\u003e Maybe a', which indicates identity with \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, to work on a\n container with maximized sharing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "Transhare",
           "package": "Transhare",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is my answer to the pattern discussed in http blog.ezyang.com a-pattern-for-increasing-sharing about maximizing sharing when transforming an algebraic data type The Transhare class is kind of degerate case of Traverse building on new Applicative data type called TransResult defined below The result transM is way to lift parsimonious transformer Maybe which indicates identity with Nothing to work on container with maximized sharing",
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "Transhare",
           "package": "Transhare",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTransM\u003c/a\u003e\u003c/code\u003e is a parsimonious transformer that can return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e when the transformation is an identity.\n\u003c/p\u003e\u003cp\u003eIf the result is \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e then the result \u003ccode\u003et\u003c/code\u003e might or might not be identical to the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "TransM",
           "package": "Transhare",
@@ -51,6 +54,7 @@
         "index": {
           "description": "TransM is parsimonious transformer that can return Nothing when the transformation is an identity If the result is Just then the result might or might not be identical to the argument",
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "TransM",
           "package": "Transhare",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTransR\u003c/a\u003e\u003c/code\u003e is a parsimonious transformer that returns (Original x) only if x is the original argument.\n\u003c/p\u003e\u003cp\u003eThis must follow the law that TransMR . TransRM . t = t\n\u003c/p\u003e\u003cp\u003eThe disadvantage of \u003ccode\u003e\u003ca\u003eTransR\u003c/a\u003e\u003c/code\u003e compared to \u003ccode\u003e\u003ca\u003eTransM\u003c/a\u003e\u003c/code\u003e is ensuring the above law and that sharing for\n Original results is actually being done.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eTransR\u003c/a\u003e\u003c/code\u003e which implement sharing correctly are \u003ca\u003eproper implementations\u003c/a\u003e of \u003ccode\u003e\u003ca\u003eTransR\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "TransR",
           "package": "Transhare",
@@ -74,6 +79,7 @@
         "index": {
           "description": "TransR is parsimonious transformer that returns Original only if is the original argument This must follow the law that TransMR TransRM The disadvantage of TransR compared to TransM is ensuring the above law and that sharing for Original results is actually being done TransR which implement sharing correctly are proper implementations of TransR",
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "TransR",
           "package": "Transhare",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "TransResult",
           "package": "Transhare",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "TransResult",
           "package": "Transhare",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "Transhare",
           "package": "Transhare",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "Transhare",
           "package": "Transhare",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "Original",
           "package": "Transhare",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "Original",
           "package": "Transhare",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "Transformed",
           "package": "Transhare",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "Transformed",
           "package": "Transhare",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efromO\u003c/a\u003e\u003c/code\u003e is a helper function used with Applicative to ensure the \u003ccode\u003e\u003ca\u003eTransR\u003c/a\u003e\u003c/code\u003e computed by \u003ccode\u003e\u003ca\u003etransR\u003c/a\u003e\u003c/code\u003e\n are proper implementations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "fromO",
           "package": "Transhare",
@@ -184,6 +199,7 @@
         "index": {
           "description": "fromO is helper function used with Applicative to ensure the TransR computed by transR are proper implementations",
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "fromO",
           "normalized": "a-\u003eTransResult a-\u003eTransResult a",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "getTrans",
           "package": "Transhare",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "getTrans",
           "package": "Transhare",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "transM",
           "package": "Transhare",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "transM",
           "normalized": "TransM a-\u003eTransM(b a)",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etransMR\u003c/a\u003e\u003c/code\u003e creates a proper implementation of \u003ccode\u003e\u003ca\u003etransR\u003c/a\u003e\u003c/code\u003e from any \u003ccode\u003e\u003ca\u003etransM\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "transMR",
           "package": "Transhare",
@@ -254,6 +275,7 @@
         "index": {
           "description": "transMR creates proper implementation of transR from any transM",
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "transMR",
           "normalized": "TransM a-\u003eTransR a",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "transR",
           "package": "Transhare",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "transR",
           "normalized": "TransR a-\u003eTransR(b a)",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etransRM\u003c/a\u003e\u003c/code\u003e creates a proper implementation of \u003ccode\u003e\u003ca\u003etransM\u003c/a\u003e\u003c/code\u003e only from a proper implementation of \u003ccode\u003e\u003ca\u003etransR\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "transRM",
           "package": "Transhare",
@@ -303,6 +328,7 @@
         "index": {
           "description": "transRM creates proper implementation of transM only from proper implementation of transR",
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "transRM",
           "normalized": "TransR a-\u003eTransM a",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:43 UTC 2014",
           "module": "Data.Transhare",
           "name": "transResult_laws",
           "package": "Transhare",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Data Transhare",
+          "indexed": "2014-03-11T17:02:43",
           "module": "Data.Transhare",
           "name": "transResult_laws",
           "package": "Transhare",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "x11-xim"
+        "phrase": "x11-xim",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "Xim",
           "package": "x11-xim",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "Xim",
           "package": "x11-xim",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIC",
           "package": "x11-xim",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIC",
           "package": "x11-xim",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIM",
           "package": "x11-xim",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIM",
           "package": "x11-xim",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XNInputStyle",
           "package": "x11-xim",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XNInputStyle",
           "package": "x11-xim",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XrmDatabase",
           "package": "x11-xim",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XrmDatabase",
           "package": "x11-xim",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIC",
           "package": "x11-xim",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIC",
           "package": "x11-xim",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIM",
           "package": "x11-xim",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIM",
           "package": "x11-xim",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIMPreeditArea",
           "package": "x11-xim",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIMPreeditArea",
           "package": "x11-xim",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIMPreeditCallbacks",
           "package": "x11-xim",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIMPreeditCallbacks",
           "package": "x11-xim",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIMPreeditNone",
           "package": "x11-xim",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIMPreeditNone",
           "package": "x11-xim",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIMPreeditNothing",
           "package": "x11-xim",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIMPreeditNothing",
           "package": "x11-xim",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIMPreeditPosition",
           "package": "x11-xim",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIMPreeditPosition",
           "package": "x11-xim",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIMStatusArea",
           "package": "x11-xim",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIMStatusArea",
           "package": "x11-xim",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIMStatusCallbacks",
           "package": "x11-xim",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIMStatusCallbacks",
           "package": "x11-xim",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIMStatusNone",
           "package": "x11-xim",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIMStatusNone",
           "package": "x11-xim",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XIMStatusNothing",
           "package": "x11-xim",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XIMStatusNothing",
           "package": "x11-xim",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "XrmDatabase",
           "package": "x11-xim",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "XrmDatabase",
           "package": "x11-xim",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "closeIM",
           "package": "x11-xim",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "closeIM",
           "normalized": "XIM-\u003eIO()",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "createIC",
           "package": "x11-xim",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "createIC",
           "normalized": "XIM-\u003e[XNInputStyle]-\u003eWindow-\u003eIO XIC",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "destroyIC",
           "package": "x11-xim",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "destroyIC",
           "normalized": "XIC-\u003eIO()",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "filterEvent",
           "package": "x11-xim",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "filterEvent",
           "normalized": "XEventPtr-\u003eWindow-\u003eIO Bool",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "getICValue",
           "package": "x11-xim",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "getICValue",
           "normalized": "XIC-\u003eString-\u003eIO Word",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "openIM",
           "package": "x11-xim",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "openIM",
           "normalized": "Display-\u003eMaybe XrmDatabase-\u003eMaybe String-\u003eMaybe String-\u003eIO XIM",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "utf8DrawString",
           "package": "x11-xim",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "utf8DrawString",
           "normalized": "Display-\u003eWindow-\u003eFontSet-\u003eGC-\u003eInt-\u003eInt-\u003eString-\u003eIO()",
@@ -555,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "utf8LookupString",
           "package": "x11-xim",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "utf8LookupString",
           "normalized": "XIC-\u003eXEventPtr-\u003eIO(Maybe String,Maybe KeySym)",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "utf8TextEscapement",
           "package": "x11-xim",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "utf8TextEscapement",
           "normalized": "FontSet-\u003eString-\u003eCInt",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "utf8TextExtents",
           "package": "x11-xim",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "utf8TextExtents",
           "normalized": "FontSet-\u003eString-\u003e(Rectangle,Rectangle)",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "xicPtr",
           "package": "x11-xim",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "xicPtr",
           "package": "x11-xim",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:43 UTC 2014",
           "module": "Graphics.X11.Xim",
           "name": "ximPtr",
           "package": "x11-xim",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xim",
+          "indexed": "2014-03-11T20:40:43",
           "module": "Graphics.X11.Xim",
           "name": "ximPtr",
           "package": "x11-xim",

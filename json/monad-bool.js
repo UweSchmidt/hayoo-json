@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-bool"
+        "phrase": "monad-bool",
+        "type": "phrase"
       },
       "type": "context"
     }

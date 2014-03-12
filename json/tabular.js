@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tabular"
+        "phrase": "tabular",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.AsciiArt",
           "name": "AsciiArt",
           "package": "tabular",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular AsciiArt",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.AsciiArt",
           "name": "AsciiArt",
           "package": "tabular",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.AsciiArt",
           "name": "padLeft",
           "package": "tabular",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular AsciiArt",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.AsciiArt",
           "name": "padLeft",
           "normalized": "Int-\u003eString-\u003eString",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor simplicity, we assume that each cell is rendered\n   on a single line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.AsciiArt",
           "name": "render",
           "package": "tabular",
@@ -74,6 +79,7 @@
         "index": {
           "description": "for simplicity we assume that each cell is rendered on single line",
           "hierarchy": "Text Tabular AsciiArt",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.AsciiArt",
           "name": "render",
           "normalized": "(a-\u003eString)-\u003e(b-\u003eString)-\u003e(c-\u003eString)-\u003eTable a b c-\u003eString",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe stop rendering on the shortest list!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.AsciiArt",
           "name": "renderColumns",
           "package": "tabular",
@@ -98,6 +105,7 @@
         "index": {
           "description": "We stop rendering on the shortest list",
           "hierarchy": "Text Tabular AsciiArt",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.AsciiArt",
           "name": "renderColumns",
           "normalized": "[Int]-\u003eHeader String-\u003eString",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.AsciiArt",
           "name": "renderHLine",
           "package": "tabular",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular AsciiArt",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.AsciiArt",
           "name": "renderHLine",
           "normalized": "[Int]-\u003eHeader String-\u003eProperties-\u003e[String]",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.AsciiArt",
           "name": "renderHLine'",
           "package": "tabular",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular AsciiArt",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.AsciiArt",
           "name": "renderHLine'",
           "normalized": "[Int]-\u003eChar-\u003eHeader String-\u003eString",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Csv",
           "name": "Csv",
           "package": "tabular",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Csv",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Csv",
           "name": "Csv",
           "package": "tabular",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor simplicity, we assume that each cell is rendered\n   on a single line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Csv",
           "name": "render",
           "package": "tabular",
@@ -192,6 +207,7 @@
         "index": {
           "description": "for simplicity we assume that each cell is rendered on single line",
           "hierarchy": "Text Tabular Csv",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Csv",
           "name": "render",
           "normalized": "(a-\u003eString)-\u003e(b-\u003eString)-\u003e(c-\u003eString)-\u003eTable a b c-\u003eString",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Html",
           "name": "Html",
           "package": "tabular",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Html",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Html",
           "name": "Html",
           "package": "tabular",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function to add a CSS string to your\n   HTML document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Html",
           "name": "css",
           "package": "tabular",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Convenience function to add CSS string to your HTML document",
           "hierarchy": "Text Tabular Html",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Html",
           "name": "css",
           "normalized": "String-\u003eHtml",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou need to incorporate some CSS into your file with\n   the classes \u003ccode\u003ethinbottom\u003c/code\u003e, \u003ccode\u003ethinright\u003c/code\u003e, \u003ccode\u003ethickbottom\u003c/code\u003e\n   and \u003ccode\u003ethickright\u003c/code\u003e.  See \u003ccode\u003e\u003ca\u003ecss\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Html",
           "name": "defaultCss",
           "package": "tabular",
@@ -263,6 +284,7 @@
         "index": {
           "description": "You need to incorporate some CSS into your file with the classes thinbottom thinright thickbottom and thickright See css",
           "hierarchy": "Text Tabular Html",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Html",
           "name": "defaultCss",
           "package": "tabular",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Html",
           "name": "hAttr",
           "package": "tabular",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Html",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Html",
           "name": "hAttr",
           "normalized": "Properties-\u003e[HtmlAttr]",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Html",
           "name": "render",
           "package": "tabular",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Html",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Html",
           "name": "render",
           "normalized": "(a-\u003eHtml)-\u003e(b-\u003eHtml)-\u003e(c-\u003eHtml)-\u003eTable a b c-\u003eHtml",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Html",
           "name": "vAttr",
           "package": "tabular",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Html",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Html",
           "name": "vAttr",
           "normalized": "Properties-\u003e[HtmlAttr]",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Latex",
           "name": "Latex",
           "package": "tabular",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Latex",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Latex",
           "name": "Latex",
           "package": "tabular",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Latex",
           "name": "addTableNl",
           "package": "tabular",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Latex",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Latex",
           "name": "addTableNl",
           "normalized": "String-\u003eString",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Latex",
           "name": "hAttr",
           "package": "tabular",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Latex",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Latex",
           "name": "hAttr",
           "normalized": "Properties-\u003eString",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Latex",
           "name": "hline",
           "package": "tabular",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Latex",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Latex",
           "name": "hline",
           "package": "tabular",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Latex",
           "name": "label",
           "package": "tabular",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Latex",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Latex",
           "name": "label",
           "normalized": "String-\u003eString",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Latex",
           "name": "render",
           "package": "tabular",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Latex",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Latex",
           "name": "render",
           "normalized": "(a-\u003eString)-\u003e(b-\u003eString)-\u003e(c-\u003eString)-\u003eTable a b c-\u003eString",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Latex",
           "name": "renderUsing",
           "package": "tabular",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Latex",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Latex",
           "name": "renderUsing",
           "normalized": "[String]-\u003e(a-\u003eString)-\u003e(b-\u003eString)-\u003e(c-\u003eString)-\u003eTable a b c-\u003eString",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.Latex",
           "name": "vAttr",
           "package": "tabular",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular Latex",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.Latex",
           "name": "vAttr",
           "normalized": "Properties-\u003eString",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.SimpleText",
           "name": "SimpleText",
           "package": "tabular",
@@ -538,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular SimpleText",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.SimpleText",
           "name": "SimpleText",
           "package": "tabular",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.SimpleText",
           "name": "render",
           "package": "tabular",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular SimpleText",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.SimpleText",
           "name": "render",
           "normalized": "String-\u003e(a-\u003eString)-\u003e(b-\u003eString)-\u003e(c-\u003eString)-\u003eTable a b c-\u003eString",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular.SimpleText",
           "name": "renderColumns",
           "package": "tabular",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular SimpleText",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular.SimpleText",
           "name": "renderColumns",
           "normalized": "String-\u003eHeader String-\u003eString",
@@ -598,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNote: the core types and comibnators\n   from this module are from Toxaris in a #haskell\n   conversation on 2008-08-24\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "Tabular",
           "package": "tabular",
@@ -607,6 +658,7 @@
         "index": {
           "description": "Note the core types and comibnators from this module are from Toxaris in haskell conversation on",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "Tabular",
           "package": "tabular",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "Header",
           "package": "tabular",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "Header",
           "package": "tabular",
@@ -641,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "Properties",
           "package": "tabular",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "Properties",
           "package": "tabular",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience type for just one row (or column).\n   To be used with combinators as follows:\n\u003c/p\u003e\u003cpre\u003e example2 =\n   empty ^..^ col \"memtest 1\" [] ^|^ col \"memtest 2\"   []\n         ^||^ col \"time test \"[] ^|^ col \"time test 2\" []\n   +.+ row \"A 1\" [\"hog\", \"terrible\", \"slow\", \"slower\"]\n   +.+ row \"A 2\" [\"pig\", \"not bad\", \"fast\", \"slowest\"]\n   +----+\n       row \"B 1\" [\"good\", \"awful\", \"intolerable\", \"bearable\"]\n   +.+ row \"B 2\" [\"better\", \"no chance\", \"crawling\", \"amazing\"]\n   +.+ row \"B 3\" [\"meh\",  \"well...\", \"worst ever\", \"ok\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "SemiTable",
           "package": "tabular",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Convenience type for just one row or column To be used with combinators as follows example2 empty col memtest col memtest col time test col time test row hog terrible slow slower row pig not bad fast slowest row good awful intolerable bearable row better no chance crawling amazing row meh well worst ever ok",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "SemiTable",
           "package": "tabular",
@@ -686,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e example = Table\n   (Group SingleLine\n      [ Group NoLine [Header \"A 1\", Header \"A 2\"]\n      , Group NoLine [Header \"B 1\", Header \"B 2\", Header \"B 3\"]\n      ])\n   (Group DoubleLine\n      [ Group SingleLine [Header \"memtest 1\", Header \"memtest 2\"]\n      , Group SingleLine [Header \"time test 1\", Header \"time test 2\"]\n      ])\n   [ [\"hog\", \"terrible\", \"slow\", \"slower\"]\n   , [\"pig\", \"not bad\",  \"fast\", \"slowest\"]\n   , [\"good\", \"awful\" ,  \"intolerable\", \"bearable\"]\n   , [\"better\", \"no chance\", \"crawling\", \"amazing\"]\n   , [\"meh\",  \"well...\", \"worst ever\", \"ok\"]\n   ]\n\u003c/pre\u003e\u003cpre\u003e -- Text.Tabular.AsciiArt.render id id id example\n --\n --     || memtest 1 | memtest 2 ||  time test  | time test 2\n -- ====++===========+===========++=============+============\n -- A 1 ||       hog |  terrible ||        slow |      slower\n -- A 2 ||       pig |   not bad ||        fast |     slowest\n -- ----++-----------+-----------++-------------+------------\n -- B 1 ||      good |     awful || intolerable |    bearable\n -- B 2 ||    better | no chance ||    crawling |     amazing\n -- B 3 ||       meh |   well... ||  worst ever |          ok\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "Table",
           "package": "tabular",
@@ -695,6 +754,7 @@
         "index": {
           "description": "example Table Group SingleLine Group NoLine Header Header Group NoLine Header Header Header Group DoubleLine Group SingleLine Header memtest Header memtest Group SingleLine Header time test Header time test hog terrible slow slower pig not bad fast slowest good awful intolerable bearable better no chance crawling amazing meh well worst ever ok Text.Tabular.AsciiArt.render id id id example memtest memtest time test time test hog terrible slow slower pig not bad fast slowest good awful intolerable bearable better no chance crawling amazing meh well worst ever ok",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "Table",
           "package": "tabular",
@@ -709,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebelow with a line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "(+----+)",
           "package": "tabular",
@@ -719,6 +780,7 @@
         "index": {
           "description": "below with line",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "(+----+) +----+",
           "normalized": "Table a b c-\u003eSemiTable a c-\u003eTable a b c",
@@ -734,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebelow with a double line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "(+====+)",
           "package": "tabular",
@@ -744,6 +807,7 @@
         "index": {
           "description": "below with double line",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "(+====+) +====+",
           "normalized": "Table a b c-\u003eSemiTable a c-\u003eTable a b c",
@@ -759,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebelow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "(+.+)",
           "package": "tabular",
@@ -769,6 +834,7 @@
         "index": {
           "description": "below",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "(+.+) +.+",
           "normalized": "Table a b c-\u003eSemiTable a c-\u003eTable a b c",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebesides with a double line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "(^||^)",
           "package": "tabular",
@@ -794,6 +861,7 @@
         "index": {
           "description": "besides with double line",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "(^||^) ^||^",
           "normalized": "Table a b c-\u003eSemiTable b c-\u003eTable a b c",
@@ -809,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebesides with a line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "(^|^)",
           "package": "tabular",
@@ -819,6 +888,7 @@
         "index": {
           "description": "besides with line",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "(^|^) ^|^",
           "normalized": "Table a b c-\u003eSemiTable b c-\u003eTable a b c",
@@ -834,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebesides\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "(^..^)",
           "package": "tabular",
@@ -844,6 +915,7 @@
         "index": {
           "description": "besides",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "(^..^) ^..^",
           "normalized": "Table a b c-\u003eSemiTable b c-\u003eTable a b c",
@@ -858,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "DoubleLine",
           "package": "tabular",
@@ -867,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "DoubleLine",
           "package": "tabular",
@@ -880,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "Group",
           "package": "tabular",
@@ -889,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "Group",
           "normalized": "Group Properties[Header a]",
@@ -904,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "Header",
           "package": "tabular",
@@ -913,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "Header",
           "package": "tabular",
@@ -926,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "NoLine",
           "package": "tabular",
@@ -935,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "NoLine",
           "package": "tabular",
@@ -948,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "SemiTable",
           "package": "tabular",
@@ -957,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "SemiTable",
           "normalized": "SemiTable(Header a)[b]",
@@ -972,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "SingleLine",
           "package": "tabular",
@@ -981,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "SingleLine",
           "package": "tabular",
@@ -994,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "Table",
           "package": "tabular",
@@ -1003,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "Table",
           "normalized": "Table(Header a)(Header b)[[c]]",
@@ -1018,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "below",
           "package": "tabular",
@@ -1027,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "below",
           "normalized": "Properties-\u003eTable a b c-\u003eSemiTable a c-\u003eTable a b c",
@@ -1041,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "beside",
           "package": "tabular",
@@ -1050,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "beside",
           "normalized": "Properties-\u003eTable a b c-\u003eSemiTable b c-\u003eTable a b c",
@@ -1064,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "col",
           "package": "tabular",
@@ -1073,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "col",
           "normalized": "a-\u003e[b]-\u003eSemiTable a b",
@@ -1088,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColumn header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "colH",
           "package": "tabular",
@@ -1098,6 +1191,7 @@
         "index": {
           "description": "Column header",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "colH",
           "normalized": "a-\u003eSemiTable a b",
@@ -1112,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "empty",
           "package": "tabular",
@@ -1121,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "empty",
           "package": "tabular",
@@ -1133,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "flattenHeader",
           "package": "tabular",
@@ -1142,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "flattenHeader",
           "normalized": "Header a-\u003e[Either Properties a]",
@@ -1158,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the contents of a  header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "headerContents",
           "package": "tabular",
@@ -1168,6 +1267,7 @@
         "index": {
           "description": "Retrieve the contents of header",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "headerContents",
           "normalized": "Header a-\u003e[a]",
@@ -1183,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "row",
           "package": "tabular",
@@ -1192,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "row",
           "normalized": "a-\u003e[b]-\u003eSemiTable a b",
@@ -1206,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "rowH",
           "package": "tabular",
@@ -1215,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "rowH",
           "normalized": "a-\u003eSemiTable a b",
@@ -1230,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe idea is to deal with the fact that Properties\n   (e.g. borders) are not standalone cells but attributes\n   of a cell.  A border is just a CSS decoration of a\n   TD element.\n\u003c/p\u003e\u003cp\u003esquish \u003ccode\u003edecorator f h\u003c/code\u003e applies \u003ccode\u003ef\u003c/code\u003e to every item\n   in the list represented by \u003ccode\u003eh\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003eflattenHeader\u003c/a\u003e\u003c/code\u003e),\n   additionally applying \u003ccode\u003edecorator\u003c/code\u003e if the item is\n   followed by some kind of boundary\n\u003c/p\u003e\u003cp\u003eSo\n   \u003ccode\u003e\n     o o o | o o o | o o\n   \u003c/code\u003e\n   gets converted into\n   \u003ccode\u003e\n     O O X   O O X   O O\n   \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "squish",
           "package": "tabular",
@@ -1240,6 +1345,7 @@
         "index": {
           "description": "The idea is to deal with the fact that Properties e.g borders are not standalone cells but attributes of cell border is just CSS decoration of TD element squish decorator applies to every item in the list represented by see flattenHeader additionally applying decorator if the item is followed by some kind of boundary So gets converted into",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "squish",
           "normalized": "(Properties-\u003ea-\u003ea)-\u003e(b-\u003ea)-\u003eHeader b-\u003e[a]",
@@ -1255,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ezipHeader\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ee\u003c/code\u003e \u003ccode\u003ess\u003c/code\u003e \u003ccode\u003eh\u003c/code\u003e returns the same structure\n   as \u003ccode\u003eh\u003c/code\u003e except with all the text replaced by the contents\n   of \u003ccode\u003ess\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ess\u003c/code\u003e has too many cells, the excess is ignored.\n   If it has too few cells, the missing ones (at the end)\n   and replaced with the empty contents \u003ccode\u003ee\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:15 UTC 2014",
           "module": "Text.Tabular",
           "name": "zipHeader",
           "package": "tabular",
@@ -1265,6 +1372,7 @@
         "index": {
           "description": "zipHeader ss returns the same structure as except with all the text replaced by the contents of ss If ss has too many cells the excess is ignored If it has too few cells the missing ones at the end and replaced with the empty contents",
           "hierarchy": "Text Tabular",
+          "indexed": "2014-03-11T20:16:15",
           "module": "Text.Tabular",
           "name": "zipHeader",
           "normalized": "a-\u003e[a]-\u003eHeader b-\u003eHeader(a,b)",

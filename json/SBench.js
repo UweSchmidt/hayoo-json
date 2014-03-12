@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SBench"
+        "phrase": "SBench",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.FileOps",
           "name": "FileOps",
           "package": "SBench",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File FileOps",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.FileOps",
           "name": "FileOps",
           "package": "SBench",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the mean runtimes of a criterion data file and tuple them with seeds\n   to a seed-runtime series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.FileOps",
           "name": "criterion2series",
           "package": "SBench",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Read the mean runtimes of criterion data file and tuple them with seeds to seed-runtime series",
           "hierarchy": "Test SBench File FileOps",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.FileOps",
           "name": "criterion2series",
           "normalized": "[a]-\u003eCriterionFile-\u003eIO[(a,Double)]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a measurment series from a .sbench data file.\n   Additionally to the measurement series a data structure with meta informations is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.FileOps",
           "name": "sbench2series",
           "package": "SBench",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Read measurment series from sbench data file Additionally to the measurement series data structure with meta informations is returned",
           "hierarchy": "Test SBench File FileOps",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.FileOps",
           "name": "sbench2series",
           "normalized": "FilePath-\u003eIO(MetaInfo Double Double,[(Double,Double)])",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a series of measurements over \u003cem\u003edifferent inputs\u003c/em\u003e in a .sbench file.\n   The SBench file format take some extra information about the measurement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.FileOps",
           "name": "series2sbench",
           "package": "SBench",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Store series of measurements over different inputs in sbench file The SBench file format take some extra information about the measurement",
           "hierarchy": "Test SBench File FileOps",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.FileOps",
           "name": "series2sbench",
           "normalized": "(String,String)-\u003eMaybe EvalMod-\u003eAlgorithm(a-\u003eb)-\u003eDataGen(c-\u003ea)-\u003eTitle-\u003eSBenchFile-\u003e[(d,e)]-\u003eIO SBenchFile",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a series of measurements with \u003cem\u003ea single input\u003c/em\u003e in a .sbench file.\n   The SBench file format take some extra information about the measurement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.FileOps",
           "name": "series2sbench'",
           "package": "SBench",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Store series of measurements with single input in sbench file The SBench file format take some extra information about the measurement",
           "hierarchy": "Test SBench File FileOps",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.FileOps",
           "name": "series2sbench'",
           "normalized": "(String,String)-\u003eMaybe EvalMod-\u003eAlgorithm(a-\u003eb)-\u003eData a-\u003eTitle-\u003eSBenchFile-\u003e[(c,d)]-\u003eIO SBenchFile",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "Types",
           "package": "SBench",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "Types",
           "package": "SBench",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetainformation stored in the header of all .sbench files.\n   Part of the \u003ccode\u003e\u003ca\u003eMetaInfo\u003c/a\u003e\u003c/code\u003e entries are usually calculated automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "MetaInfo",
           "package": "SBench",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Metainformation stored in the header of all sbench files Part of the MetaInfo entries are usually calculated automatically",
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "MetaInfo",
           "package": "SBench",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "Range",
           "package": "SBench",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "Range",
           "package": "SBench",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "AutoRange",
           "package": "SBench",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "AutoRange",
           "package": "SBench",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "ManRange",
           "package": "SBench",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "ManRange",
           "normalized": "ManRange(a,a)",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "MetaInfo",
           "package": "SBench",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "MetaInfo",
           "package": "SBench",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "buildOptions",
           "package": "SBench",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "buildOptions",
           "package": "SBench",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e means an input generator,\n   \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e a single input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "evalMod",
           "package": "SBench",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Left means an input generator Right single input",
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "evalMod",
           "package": "SBench",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "exeOptions",
           "package": "SBench",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "exeOptions",
           "package": "SBench",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "graphRanges",
           "package": "SBench",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "graphRanges",
           "normalized": "(Range a,Range b)",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "header",
           "package": "SBench",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "header",
           "normalized": "[String]",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "miAlgName",
           "package": "SBench",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "miAlgName",
           "package": "SBench",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "miGenName",
           "package": "SBench",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "miGenName",
           "package": "SBench",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "miGraphTitle",
           "package": "SBench",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "miGraphTitle",
           "package": "SBench",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.File.Types",
           "name": "sbenchVersion",
           "package": "SBench",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Test SBench File Types",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.File.Types",
           "name": "sbenchVersion",
           "package": "SBench",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "Options",
           "package": "SBench",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "Options",
           "package": "SBench",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible types of breakdowns. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "Breakdown",
           "package": "SBench",
@@ -503,6 +546,7 @@
         "index": {
           "description": "The possible types of breakdowns",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "Breakdown",
           "package": "SBench",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "CompilerOptions",
           "package": "SBench",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "CompilerOptions",
           "package": "SBench",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "EvalMod",
           "package": "SBench",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "EvalMod",
           "package": "SBench",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "Imports",
           "package": "SBench",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "Imports",
           "package": "SBench",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "MemSize",
           "package": "SBench",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "MemSize",
           "package": "SBench",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "MemUnit",
           "package": "SBench",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "MemUnit",
           "package": "SBench",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "MemoryOptions",
           "package": "SBench",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "MemoryOptions",
           "package": "SBench",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "NormalInput",
           "package": "SBench",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "NormalInput",
           "package": "SBench",
@@ -664,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible types of parameters. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "ProfParam",
           "package": "SBench",
@@ -672,6 +731,7 @@
         "index": {
           "description": "The possible types of parameters",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "ProfParam",
           "package": "SBench",
@@ -685,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "ProfilingOptions",
           "package": "SBench",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "ProfilingOptions",
           "package": "SBench",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "ProgramArguments",
           "package": "SBench",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "ProgramArguments",
           "package": "SBench",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "Repetitions",
           "package": "SBench",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "Repetitions",
           "package": "SBench",
@@ -749,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible filters. Note that these are imposed by the runtime,\nso we cannot override them on the application side. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "Restriction",
           "package": "SBench",
@@ -757,6 +824,7 @@
         "index": {
           "description": "The possible filters Note that these are imposed by the runtime so we cannot override them on the application side",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "Restriction",
           "package": "SBench",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "RuntimeOptions",
           "package": "SBench",
@@ -778,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "RuntimeOptions",
           "package": "SBench",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "TestOpts",
           "package": "SBench",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "TestOpts",
           "package": "SBench",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "ThreadNum",
           "package": "SBench",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "ThreadNum",
           "package": "SBench",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "Title",
           "package": "SBench",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "Title",
           "package": "SBench",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "B",
           "package": "SBench",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "B",
           "package": "SBench",
@@ -876,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreakdown by biography (phase of an object's lifetime).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "BBiography",
           "package": "SBench",
@@ -885,6 +964,7 @@
         "index": {
           "description": "Breakdown by biography phase of an object lifetime",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "BBiography",
           "package": "SBench",
@@ -899,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreakdown by cost centre stack (origin of the data).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "BCostCentreStack",
           "package": "SBench",
@@ -908,6 +989,7 @@
         "index": {
           "description": "Breakdown by cost centre stack origin of the data",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "BCostCentreStack",
           "package": "SBench",
@@ -922,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreakdown by closure description (constructor name or some\n unique identifier).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "BDescription",
           "package": "SBench",
@@ -931,6 +1014,7 @@
         "index": {
           "description": "Breakdown by closure description constructor name or some unique identifier",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "BDescription",
           "package": "SBench",
@@ -945,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreakdown by module (code responsible for the data).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "BModule",
           "package": "SBench",
@@ -954,6 +1039,7 @@
         "index": {
           "description": "Breakdown by module code responsible for the data",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "BModule",
           "package": "SBench",
@@ -968,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreakdown by retainer set (effectively the entities that hold\n a direct reference to the data in question).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "BRetainer",
           "package": "SBench",
@@ -977,6 +1064,7 @@
         "index": {
           "description": "Breakdown by retainer set effectively the entities that hold direct reference to the data in question",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "BRetainer",
           "package": "SBench",
@@ -991,6 +1079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreakdown by type (or an approximation if it is not known\n exactly).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "BType",
           "package": "SBench",
@@ -1000,6 +1089,7 @@
         "index": {
           "description": "Breakdown by type or an approximation if it is not known exactly",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "BType",
           "package": "SBench",
@@ -1013,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "G",
           "package": "SBench",
@@ -1022,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "G",
           "package": "SBench",
@@ -1034,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "Heap",
           "package": "SBench",
@@ -1043,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "Heap",
           "package": "SBench",
@@ -1056,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "K",
           "package": "SBench",
@@ -1065,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "K",
           "package": "SBench",
@@ -1077,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "M",
           "package": "SBench",
@@ -1086,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "M",
           "package": "SBench",
@@ -1098,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "NF",
           "package": "SBench",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "NF",
           "package": "SBench",
@@ -1121,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of breakdown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "PPBreakdown",
           "package": "SBench",
@@ -1130,6 +1231,7 @@
         "index": {
           "description": "The type of breakdown",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "PPBreakdown",
           "package": "SBench",
@@ -1144,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to include memory taken up by threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "PPIncludeThreads",
           "package": "SBench",
@@ -1153,6 +1256,7 @@
         "index": {
           "description": "Whether to include memory taken up by threads",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "PPIncludeThreads",
           "package": "SBench",
@@ -1167,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSampling interval in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "PPInterval",
           "package": "SBench",
@@ -1176,6 +1281,7 @@
         "index": {
           "description": "Sampling interval in seconds",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "PPInterval",
           "package": "SBench",
@@ -1190,6 +1296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum length of cost centre stack names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "PPNameLength",
           "package": "SBench",
@@ -1199,6 +1306,7 @@
         "index": {
           "description": "The maximum length of cost centre stack names",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "PPNameLength",
           "package": "SBench",
@@ -1213,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn additional filter on the runtime side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "PPRestriction",
           "package": "SBench",
@@ -1222,6 +1331,7 @@
         "index": {
           "description": "An additional filter on the runtime side",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "PPRestriction",
           "normalized": "PPRestriction Restriction[String]",
@@ -1238,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetainer set size limit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "PPRetainerLimit",
           "package": "SBench",
@@ -1247,6 +1358,7 @@
         "index": {
           "description": "Retainer set size limit",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "PPRetainerLimit",
           "package": "SBench",
@@ -1261,6 +1373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow only closures with one of the specified biographies,\n which must come from the set {lag, drag, void, use}.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "RBiography",
           "package": "SBench",
@@ -1270,6 +1383,7 @@
         "index": {
           "description": "Show only closures with one of the specified biographies which must come from the set lag drag void use",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "RBiography",
           "package": "SBench",
@@ -1284,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow only closures with one of the given names somewhere in\n the cost centre stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "RCCStackAny",
           "package": "SBench",
@@ -1293,6 +1408,7 @@
         "index": {
           "description": "Show only closures with one of the given names somewhere in the cost centre stack",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "RCCStackAny",
           "package": "SBench",
@@ -1307,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow only closures with one of the given names on the top of\n the cost centre stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "RCCStackTop",
           "package": "SBench",
@@ -1316,6 +1433,7 @@
         "index": {
           "description": "Show only closures with one of the given names on the top of the cost centre stack",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "RCCStackTop",
           "package": "SBench",
@@ -1330,6 +1448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow only closures with a description that matches one of the\n given names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "RDescription",
           "package": "SBench",
@@ -1339,6 +1458,7 @@
         "index": {
           "description": "Show only closures with description that matches one of the given names",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "RDescription",
           "package": "SBench",
@@ -1353,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow only closures produced by one of the given modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "RModule",
           "package": "SBench",
@@ -1362,6 +1483,7 @@
         "index": {
           "description": "Show only closures produced by one of the given modules",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "RModule",
           "package": "SBench",
@@ -1375,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "ROpts",
           "package": "SBench",
@@ -1384,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "ROpts",
           "package": "SBench",
@@ -1398,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow only closures with retainer sets that contain at least\n one cost centre stack with a given name on the top.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "RRetainer",
           "package": "SBench",
@@ -1407,6 +1532,7 @@
         "index": {
           "description": "Show only closures with retainer sets that contain at least one cost centre stack with given name on the top",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "RRetainer",
           "package": "SBench",
@@ -1421,6 +1547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow only closures with one of the given types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "RType",
           "package": "SBench",
@@ -1430,6 +1557,7 @@
         "index": {
           "description": "Show only closures with one of the given types",
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "RType",
           "package": "SBench",
@@ -1443,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "Stack",
           "package": "SBench",
@@ -1452,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "Stack",
           "package": "SBench",
@@ -1465,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "TOpts",
           "package": "SBench",
@@ -1474,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "TOpts",
           "package": "SBench",
@@ -1487,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "WHNF",
           "package": "SBench",
@@ -1496,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "WHNF",
           "package": "SBench",
@@ -1509,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "cOpts",
           "package": "SBench",
@@ -1518,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "cOpts",
           "package": "SBench",
@@ -1531,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "memOpts",
           "package": "SBench",
@@ -1540,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "memOpts",
           "package": "SBench",
@@ -1553,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "nfInp",
           "package": "SBench",
@@ -1562,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "nfInp",
           "package": "SBench",
@@ -1575,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "opts2string",
           "package": "SBench",
@@ -1584,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "opts2string",
           "normalized": "[String]-\u003eString",
@@ -1598,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "profOpts",
           "package": "SBench",
@@ -1607,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "profOpts",
           "package": "SBench",
@@ -1620,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "progArgs",
           "package": "SBench",
@@ -1629,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "progArgs",
           "package": "SBench",
@@ -1642,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "rOpts",
           "package": "SBench",
@@ -1651,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "rOpts",
           "package": "SBench",
@@ -1664,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "reps",
           "package": "SBench",
@@ -1673,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "reps",
           "package": "SBench",
@@ -1685,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Options",
           "name": "threadNum",
           "package": "SBench",
@@ -1694,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Options",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Options",
           "name": "threadNum",
           "package": "SBench",
@@ -1708,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface functions to the \u003ca\u003egnuplot\u003c/a\u003e package for generating plots.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "Gnuplot",
           "package": "SBench",
@@ -1717,6 +1870,7 @@
         "index": {
           "description": "Interface functions to the gnuplot package for generating plots",
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "Gnuplot",
           "package": "SBench",
@@ -1730,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2plot",
           "package": "SBench",
@@ -1739,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2plot",
           "normalized": "FilePath-\u003eIO(T Double Double)",
@@ -1753,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2plotWith",
           "package": "SBench",
@@ -1761,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2plotWith",
           "normalized": "[T-\u003eT]-\u003eFilePath-\u003eIO(T Double Double)",
@@ -1776,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2plotWithLinestyle",
           "package": "SBench",
@@ -1784,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2plotWithLinestyle",
           "normalized": "Int-\u003eFilePath-\u003eIO(T Double Double)",
@@ -1799,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2scaledPlot",
           "package": "SBench",
@@ -1807,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2scaledPlot",
           "normalized": "(Double-\u003eDouble)-\u003e(Double-\u003eDouble)-\u003eFilePath-\u003eIO(T Double Double)",
@@ -1822,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2scaledPlotWith",
           "package": "SBench",
@@ -1830,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2scaledPlotWith",
           "normalized": "[T-\u003eT]-\u003e(Double-\u003eDouble)-\u003e(Double-\u003eDouble)-\u003eFilePath-\u003eIO(T Double Double)",
@@ -1845,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2scaledPlotWithLinestyle",
           "package": "SBench",
@@ -1853,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "sbench2scaledPlotWithLinestyle",
           "normalized": "Int-\u003e(Double-\u003eDouble)-\u003e(Double-\u003eDouble)-\u003eFilePath-\u003eIO(T Double Double)",
@@ -1868,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2plot",
           "package": "SBench",
@@ -1876,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2plot",
           "normalized": "Title-\u003e[(a,b)]-\u003eT a b",
@@ -1890,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2plotWith",
           "package": "SBench",
@@ -1898,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2plotWith",
           "normalized": "[T-\u003eT]-\u003e[(a,b)]-\u003eT a b",
@@ -1913,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2plotWithLinestyle",
           "package": "SBench",
@@ -1921,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2plotWithLinestyle",
           "normalized": "Int-\u003eTitle-\u003e[(a,b)]-\u003eT a b",
@@ -1936,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2scaledPlot",
           "package": "SBench",
@@ -1944,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2scaledPlot",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eTitle-\u003e[(a,c)]-\u003eT b d",
@@ -1959,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2scaledPlotWith",
           "package": "SBench",
@@ -1967,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2scaledPlotWith",
           "normalized": "[T-\u003eT]-\u003e(a-\u003eb)-\u003e(c-\u003ed)-\u003e[(a,c)]-\u003eT b d",
@@ -1982,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2scaledPlotWithLinestyle",
           "package": "SBench",
@@ -1990,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "series2scaledPlotWithLinestyle",
           "normalized": "Int-\u003e(a-\u003eb)-\u003e(c-\u003ed)-\u003eTitle-\u003e[(a,c)]-\u003eT b d",
@@ -2006,6 +2184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompared to \u003ccode\u003e\u003ca\u003etoDiagramWith\u003c/a\u003e\u003c/code\u003e, the output terminal is fixed to \n   \u003ca\u003eGraphics.Gnuplot.Terminal.PostScript\u003c/a\u003e and the resulting\n   .eps file is transformed to a .pdf via a call to \u003ccode\u003eepstopdf\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe parameters are as follows\n   [\u003ccode\u003ename\u003c/code\u003e]  Choose the output terminal. See \u003ca\u003eGraphics.Gnuplot.Terminal\u003c/a\u003e\n   [\u003ccode\u003etopts\u003c/code\u003e] Frame options, e.g. title. See \u003ca\u003eGraphics.Gnuplot.Frame.OptionSet\u003c/a\u003e\n   [\u003ccode\u003eopts\u003c/code\u003e]  List of plots to be shown in the diagram.\n   [\u003ccode\u003eplots\u003c/code\u003e]    List of plots to be shown in the diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "toDiagram",
           "package": "SBench",
@@ -2016,6 +2195,7 @@
         "index": {
           "description": "Compared to toDiagramWith the output terminal is fixed to Graphics.Gnuplot.Terminal.PostScript and the resulting eps file is transformed to pdf via call to epstopdf The parameters are as follows name Choose the output terminal See Graphics.Gnuplot.Terminal topts Frame options e.g title See Graphics.Gnuplot.Frame.OptionSet opts List of plots to be shown in the diagram plots List of plots to be shown in the diagram",
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "toDiagram",
           "normalized": "[Char]-\u003e[T-\u003eT]-\u003e[T(T a b)-\u003eT(T a b)]-\u003e[T a b]-\u003eIO FilePath",
@@ -2032,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces a diagram with several plots inside.\n\u003c/p\u003e\u003cp\u003eThe parameters are as follows\n   [\u003ccode\u003eterminal\u003c/code\u003e] Choose the output terminal. See \u003ca\u003eGraphics.Gnuplot.Terminal\u003c/a\u003e\n   [\u003ccode\u003eopts\u003c/code\u003e]     Frame options, e.g. title. See \u003ca\u003eGraphics.Gnuplot.Frame.OptionSet\u003c/a\u003e\n   [\u003ccode\u003eplots\u003c/code\u003e]    List of plots to be shown in the diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "toDiagramWith",
           "package": "SBench",
@@ -2042,6 +2223,7 @@
         "index": {
           "description": "Produces diagram with several plots inside The parameters are as follows terminal Choose the output terminal See Graphics.Gnuplot.Terminal opts Frame options e.g title See Graphics.Gnuplot.Frame.OptionSet plots List of plots to be shown in the diagram",
           "hierarchy": "Test SBench Plot Gnuplot",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Plot.Gnuplot",
           "name": "toDiagramWith",
           "normalized": "a-\u003e[T(T b c)-\u003eT(T b c)]-\u003e[T b c]-\u003eIO ExitCode",
@@ -2058,6 +2240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe provided data type \u003ccode\u003e\u003ca\u003eSTerm\u003c/a\u003e\u003c/code\u003e is intended to store a term equipped with\n   its own name and maybe some extra information about its cost center\n   annotation and modules that need to be loaded when evaluating the term.\n\u003c/p\u003e\u003cp\u003eThe additional information, provided as strings, is necessary for space \n   measurements where small programs are constructed from the strings and run\n   for heap profiling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "STerm",
           "package": "SBench",
@@ -2067,6 +2250,7 @@
         "index": {
           "description": "The provided data type STerm is intended to store term equipped with its own name and maybe some extra information about its cost center annotation and modules that need to be loaded when evaluating the term The additional information provided as strings is necessary for space measurements where small programs are constructed from the strings and run for heap profiling",
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "STerm",
           "package": "SBench",
@@ -2080,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "Algorithm",
           "package": "SBench",
@@ -2088,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "Algorithm",
           "package": "SBench",
@@ -2101,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "CostCenter",
           "package": "SBench",
@@ -2109,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "CostCenter",
           "package": "SBench",
@@ -2122,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "Data",
           "package": "SBench",
@@ -2130,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "Data",
           "package": "SBench",
@@ -2143,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "DataGen",
           "package": "SBench",
@@ -2151,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "DataGen",
           "package": "SBench",
@@ -2164,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "STerm",
           "package": "SBench",
@@ -2172,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "STerm",
           "package": "SBench",
@@ -2185,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "Seed",
           "package": "SBench",
@@ -2193,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "Seed",
           "package": "SBench",
@@ -2206,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "Test",
           "package": "SBench",
@@ -2214,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "Test",
           "package": "SBench",
@@ -2228,6 +2426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction application for \u003ccode\u003e\u003ca\u003eSTerm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "(\u003c$\u003e)",
           "package": "SBench",
@@ -2238,6 +2437,7 @@
         "index": {
           "description": "Function application for STerm",
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "STerm(a-\u003eb)-\u003eSTerm a-\u003eSTerm b",
@@ -2252,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "T",
           "package": "SBench",
@@ -2261,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "T",
           "package": "SBench",
@@ -2273,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "getImports",
           "package": "SBench",
@@ -2282,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "getImports",
           "normalized": "STerm a-\u003eString",
@@ -2298,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuxiliar version of \u003ccode\u003e\u003ca\u003emakeSeeds\u003c/a\u003e\u003c/code\u003e to prevent defaulting to \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "makeIntSeeds",
           "package": "SBench",
@@ -2308,6 +2513,7 @@
         "index": {
           "description": "Auxiliar version of makeSeeds to prevent defaulting to Integer",
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "makeIntSeeds",
           "normalized": "Int-\u003eInt-\u003eInt-\u003e[Seed Int]",
@@ -2323,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "makeSeeds",
           "package": "SBench",
@@ -2331,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "makeSeeds",
           "normalized": "a-\u003ea-\u003ea-\u003e[Seed a]",
@@ -2347,6 +2555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecost centers to measure when performing \n   heap profiling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "stCC",
           "package": "SBench",
@@ -2357,6 +2566,7 @@
         "index": {
           "description": "cost centers to measure when performing heap profiling",
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "stCC",
           "normalized": "[CostCenter]",
@@ -2373,6 +2583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe modules used when evaluation the term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "stModules",
           "package": "SBench",
@@ -2383,6 +2594,7 @@
         "index": {
           "description": "The modules used when evaluation the term",
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "stModules",
           "normalized": "[ModuleName]",
@@ -2399,6 +2611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe term as \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "stName",
           "package": "SBench",
@@ -2409,6 +2622,7 @@
         "index": {
           "description": "The term as String",
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "stName",
           "package": "SBench",
@@ -2423,6 +2637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "stTerm",
           "package": "SBench",
@@ -2433,6 +2648,7 @@
         "index": {
           "description": "The actual term",
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "stTerm",
           "package": "SBench",
@@ -2446,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "toAlgorithm",
           "package": "SBench",
@@ -2455,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "toAlgorithm",
           "normalized": "(a-\u003eb)-\u003eModuleName-\u003eTermName-\u003eCostCenter-\u003eAlgorithm(a-\u003eb)",
@@ -2470,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "toData",
           "package": "SBench",
@@ -2479,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "toData",
           "normalized": "a-\u003eSTerm a",
@@ -2494,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "toDataGen",
           "package": "SBench",
@@ -2503,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "toDataGen",
           "normalized": "(a-\u003eb)-\u003eModuleName-\u003eTermName-\u003eData(a-\u003eb)",
@@ -2518,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.STerm",
           "name": "toNamedData",
           "package": "SBench",
@@ -2527,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Test SBench STerm",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.STerm",
           "name": "toNamedData",
           "normalized": "a-\u003eTermName-\u003eSTerm a",
@@ -2542,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.OptionSet",
           "name": "OptionSet",
           "package": "SBench",
@@ -2550,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space OptionSet",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.OptionSet",
           "name": "OptionSet",
           "package": "SBench",
@@ -2563,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.OptionSet",
           "name": "addCC",
           "package": "SBench",
@@ -2572,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space OptionSet",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.OptionSet",
           "name": "addCC",
           "normalized": "Algorithm a-\u003eTestOpts-\u003eTestOpts",
@@ -2587,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.OptionSet",
           "name": "autoRepeat",
           "package": "SBench",
@@ -2596,6 +2825,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space OptionSet",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.OptionSet",
           "name": "autoRepeat",
           "normalized": "TestOpts-\u003eTestOpts",
@@ -2612,6 +2842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault compiler options additional to \u003ccode\u003e\u003ca\u003egeneralCOpts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.OptionSet",
           "name": "defltCOpts",
           "package": "SBench",
@@ -2622,6 +2853,7 @@
         "index": {
           "description": "default compiler options additional to generalCOpts",
           "hierarchy": "Test SBench Space OptionSet",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.OptionSet",
           "name": "defltCOpts",
           "package": "SBench",
@@ -2636,6 +2868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault profiling options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.OptionSet",
           "name": "defltProfOpts",
           "package": "SBench",
@@ -2646,6 +2879,7 @@
         "index": {
           "description": "Default profiling options",
           "hierarchy": "Test SBench Space OptionSet",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.OptionSet",
           "name": "defltProfOpts",
           "package": "SBench",
@@ -2660,6 +2894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBy default repetitions are calculated automatically\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.OptionSet",
           "name": "defltRep",
           "package": "SBench",
@@ -2670,6 +2905,7 @@
         "index": {
           "description": "By default repetitions are calculated automatically",
           "hierarchy": "Test SBench Space OptionSet",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.OptionSet",
           "name": "defltRep",
           "package": "SBench",
@@ -2684,6 +2920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault test options, i.e. default options for compiling and running\n   a program for space profiling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.OptionSet",
           "name": "defltTestOpts",
           "package": "SBench",
@@ -2694,6 +2931,7 @@
         "index": {
           "description": "Default test options i.e default options for compiling and running program for space profiling",
           "hierarchy": "Test SBench Space OptionSet",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.OptionSet",
           "name": "defltTestOpts",
           "package": "SBench",
@@ -2708,6 +2946,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Compiler options\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eOptions always added when compiling for space profiling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.OptionSet",
           "name": "generalCOpts",
           "package": "SBench",
@@ -2718,6 +2957,7 @@
         "index": {
           "description": "Compiler options Options always added when compiling for space profiling",
           "hierarchy": "Test SBench Space OptionSet",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.OptionSet",
           "name": "generalCOpts",
           "package": "SBench",
@@ -2731,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.OptionSet",
           "name": "setMemSizes",
           "package": "SBench",
@@ -2740,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space OptionSet",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.OptionSet",
           "name": "setMemSizes",
           "normalized": "[MemSize]-\u003eTestOpts-\u003eTestOpts",
@@ -2755,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.OptionSet",
           "name": "setNfInput",
           "package": "SBench",
@@ -2764,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space OptionSet",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.OptionSet",
           "name": "setNfInput",
           "normalized": "Bool-\u003eTestOpts-\u003eTestOpts",
@@ -2779,6 +3023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.OptionSet",
           "name": "setRepetitions",
           "package": "SBench",
@@ -2788,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space OptionSet",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.OptionSet",
           "name": "setRepetitions",
           "normalized": "Repetitions-\u003eTestOpts-\u003eTestOpts",
@@ -2803,6 +3049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Series.Test",
           "name": "Test",
           "package": "SBench",
@@ -2811,6 +3058,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space Series Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Series.Test",
           "name": "Test",
           "package": "SBench",
@@ -2824,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Series.Test",
           "name": "makeSeries",
           "package": "SBench",
@@ -2832,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space Series Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Series.Test",
           "name": "makeSeries",
           "normalized": "(TestOpts-\u003eAlgorithm(a-\u003eb)-\u003eData a-\u003eFilePath-\u003eIO c)-\u003eTestOpts-\u003e(FilePath,Title)-\u003eAlgorithm(a-\u003eb)-\u003eDataGen(d-\u003ea)-\u003e[Seed d]-\u003eIO[(d,c)]",
@@ -2848,6 +3098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function measures the maximal heap consumption of a given function over a series of different inputs\n   that are produced via an input generator given different seeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Series.Test",
           "name": "maxMemSeries",
           "package": "SBench",
@@ -2857,6 +3108,7 @@
         "index": {
           "description": "The function measures the maximal heap consumption of given function over series of different inputs that are produced via an input generator given different seeds",
           "hierarchy": "Test SBench Space Series Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Series.Test",
           "name": "maxMemSeries",
           "normalized": "NormalInput-\u003e(FilePath,Title)-\u003eAlgorithm(a-\u003eb)-\u003eDataGen(c-\u003ea)-\u003e[Seed c]-\u003eIO[(c,Integer)]",
@@ -2873,6 +3125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function acts similar to \u003ccode\u003e\u003ca\u003emaxMemSeries\u003c/a\u003e\u003c/code\u003e, but instead of only \u003ccode\u003e\u003ca\u003eNormalInput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTestOpts\u003c/a\u003e\u003c/code\u003e can be set manually\n   via the first parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Series.Test",
           "name": "maxMemSeriesWith",
           "package": "SBench",
@@ -2883,6 +3136,7 @@
         "index": {
           "description": "The function acts similar to maxMemSeries but instead of only NormalInput TestOpts can be set manually via the first parameter",
           "hierarchy": "Test SBench Space Series Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Series.Test",
           "name": "maxMemSeriesWith",
           "normalized": "TestOpts-\u003e(FilePath,Title)-\u003eAlgorithm(a-\u003eb)-\u003eDataGen(c-\u003ea)-\u003e[Seed c]-\u003eIO[(c,Integer)]",
@@ -2898,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Single.ExploreProfile",
           "name": "ExploreProfile",
           "package": "SBench",
@@ -2906,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space Single ExploreProfile",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Single.ExploreProfile",
           "name": "ExploreProfile",
           "package": "SBench",
@@ -2919,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Single.ExploreProfile",
           "name": "getMaxMem",
           "package": "SBench",
@@ -2928,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space Single ExploreProfile",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Single.ExploreProfile",
           "name": "getMaxMem",
           "normalized": "FilePath-\u003eIO Integer",
@@ -2943,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Single.ExploreProfile",
           "name": "getMemLine",
           "package": "SBench",
@@ -2952,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space Single ExploreProfile",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Single.ExploreProfile",
           "name": "getMemLine",
           "normalized": "FilePath-\u003eIO[(Double,Integer)]",
@@ -2967,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Single.Test",
           "name": "Test",
           "package": "SBench",
@@ -2975,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space Single Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Single.Test",
           "name": "Test",
           "package": "SBench",
@@ -2989,6 +3251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the maximal heap occupied by the algorithm.\n   Since the algorithms comes with a cost center annotation this is used to\n   explore what heap consumption should be measured (here: all heap directly\n   or indirectly used by the given algorithm).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Single.Test",
           "name": "getMaxMem",
           "package": "SBench",
@@ -2998,6 +3261,7 @@
         "index": {
           "description": "Get the maximal heap occupied by the algorithm Since the algorithms comes with cost center annotation this is used to explore what heap consumption should be measured here all heap directly or indirectly used by the given algorithm",
           "hierarchy": "Test SBench Space Single Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Single.Test",
           "name": "getMaxMem",
           "normalized": "NormalInput-\u003eAlgorithm(a-\u003eb)-\u003eData a-\u003eFilePath-\u003eIO Integer",
@@ -3014,6 +3278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003egetMaxMem\u003c/a\u003e\u003c/code\u003e, but \u003ccode\u003e\u003ca\u003eTestOpts\u003c/a\u003e\u003c/code\u003e can be set by the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Single.Test",
           "name": "getMaxMemWith",
           "package": "SBench",
@@ -3024,6 +3289,7 @@
         "index": {
           "description": "As getMaxMem but TestOpts can be set by the user",
           "hierarchy": "Test SBench Space Single Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Single.Test",
           "name": "getMaxMemWith",
           "normalized": "TestOpts-\u003eAlgorithm(a-\u003eb)-\u003eData a-\u003eFilePath-\u003eIO Integer",
@@ -3040,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function generates a heap profile, returns the heapconsumption over time as series and\n   also stores the series as an .sbench file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Single.Test",
           "name": "getMemLine",
           "package": "SBench",
@@ -3049,6 +3316,7 @@
         "index": {
           "description": "The function generates heap profile returns the heapconsumption over time as series and also stores the series as an sbench file",
           "hierarchy": "Test SBench Space Single Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Single.Test",
           "name": "getMemLine",
           "normalized": "NormalInput-\u003e(FilePath,Title)-\u003eAlgorithm(a-\u003eb)-\u003eData a-\u003eIO[(Double,Integer)]",
@@ -3064,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Single.Test",
           "name": "getMemLineWith",
           "package": "SBench",
@@ -3073,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Space Single Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Single.Test",
           "name": "getMemLineWith",
           "normalized": "TestOpts-\u003e(FilePath,Title)-\u003eAlgorithm(a-\u003eb)-\u003eData a-\u003eIO[(Double,Integer)]",
@@ -3089,6 +3359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate only the heap profile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Space.Single.Test",
           "name": "getProfile",
           "package": "SBench",
@@ -3099,6 +3370,7 @@
         "index": {
           "description": "Create only the heap profile",
           "hierarchy": "Test SBench Space Single Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Space.Single.Test",
           "name": "getProfile",
           "normalized": "TestOpts-\u003eAlgorithm(a-\u003eb)-\u003eData a-\u003eFilePath-\u003eIO FilePath",
@@ -3115,6 +3387,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for runtime tests are provided. They are basically a wrapper to \n   a call to the criterion function \u003ca\u003eCriterion.Main.defaultMainWith\u003c/a\u003e.\n   The measurement data (usually stored in temp.csv) is than postprocessed\n   by extracting only the mean runtime for each run and tupling it with the\n   respective input seed.\n   Results are then returned as list of tuples and optionally stored in a\n   .sbench file (see \u003ca\u003eTest.File.FileOps\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Time.Series.Test",
           "name": "Test",
           "package": "SBench",
@@ -3124,6 +3397,7 @@
         "index": {
           "description": "Functions for runtime tests are provided They are basically wrapper to call to the criterion function Criterion.Main.defaultMainWith The measurement data usually stored in temp.csv is than postprocessed by extracting only the mean runtime for each run and tupling it with the respective input seed Results are then returned as list of tuples and optionally stored in sbench file see Test.File.FileOps",
           "hierarchy": "Test SBench Time Series Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Time.Series.Test",
           "name": "Test",
           "package": "SBench",
@@ -3137,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Time.Series.Test",
           "name": "nfRuntimeSeries",
           "package": "SBench",
@@ -3146,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Time Series Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Time.Series.Test",
           "name": "nfRuntimeSeries",
           "normalized": "Maybe(BuildOptions,ExeOptions,FilePath,Title)-\u003eAlgorithm(a-\u003eb)-\u003eDataGen(c-\u003ea)-\u003e[Seed c]-\u003eIO[(c,Double)]",
@@ -3162,6 +3438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003eruntimeSeriesWith\u003c/a\u003e\u003c/code\u003e, but \u003ca\u003eCriterion.Config.Config\u003c/a\u003e is set to a default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Time.Series.Test",
           "name": "runtimeSeries",
           "package": "SBench",
@@ -3172,6 +3449,7 @@
         "index": {
           "description": "As runtimeSeriesWith but Criterion.Config.Config is set to default",
           "hierarchy": "Test SBench Time Series Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Time.Series.Test",
           "name": "runtimeSeries",
           "normalized": "EvalMod-\u003eMaybe(BuildOptions,ExeOptions,FilePath,Title)-\u003eAlgorithm(a-\u003eb)-\u003eDataGen(c-\u003ea)-\u003e[Seed c]-\u003eIO[(c,Double)]",
@@ -3188,6 +3466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost general function to perform runtime measurements for a series of inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Time.Series.Test",
           "name": "runtimeSeriesWith",
           "package": "SBench",
@@ -3197,6 +3476,7 @@
         "index": {
           "description": "Most general function to perform runtime measurements for series of inputs",
           "hierarchy": "Test SBench Time Series Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Time.Series.Test",
           "name": "runtimeSeriesWith",
           "normalized": "Config-\u003eEvalMod-\u003eMaybe(BuildOptions,ExeOptions,FilePath,Title)-\u003eAlgorithm(a-\u003eb)-\u003eDataGen(c-\u003ea)-\u003e[Seed c]-\u003eIO[(c,Double)]",
@@ -3212,6 +3492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Time.Series.Test",
           "name": "scaleRt",
           "package": "SBench",
@@ -3221,6 +3502,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Time Series Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Time.Series.Test",
           "name": "scaleRt",
           "normalized": "Double-\u003e[(Int,Double)]-\u003e[(Int,Double)]",
@@ -3236,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:04 UTC 2014",
           "module": "Test.SBench.Time.Series.Test",
           "name": "whnfRuntimeSeries",
           "package": "SBench",
@@ -3245,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Test SBench Time Series Test",
+          "indexed": "2014-03-11T16:59:04",
           "module": "Test.SBench.Time.Series.Test",
           "name": "whnfRuntimeSeries",
           "normalized": "Maybe(BuildOptions,ExeOptions,FilePath,Title)-\u003eAlgorithm(a-\u003eb)-\u003eDataGen(c-\u003ea)-\u003e[Seed c]-\u003eIO[(c,Double)]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sgrep"
+        "phrase": "sgrep",
+        "type": "phrase"
       },
       "type": "context"
     }

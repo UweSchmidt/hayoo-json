@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alsa-pcm"
+        "phrase": "alsa-pcm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "ALSA",
           "package": "alsa-pcm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "ALSA",
           "package": "alsa-pcm",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Access",
           "package": "alsa-pcm",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Access",
           "package": "alsa-pcm",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Handle",
           "package": "alsa-pcm",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Handle",
           "package": "alsa-pcm",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Interleaved",
           "package": "alsa-pcm",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Interleaved",
           "package": "alsa-pcm",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Mode",
           "package": "alsa-pcm",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Mode",
           "package": "alsa-pcm",
@@ -124,6 +134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample types of this class must have exactly one channel,\ni.e. Frame.numberOfChannels == 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "MonoSampleFmt",
           "package": "alsa-pcm",
@@ -133,6 +144,7 @@
         "index": {
           "description": "Sample types of this class must have exactly one channel i.e Frame.numberOfChannels",
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "MonoSampleFmt",
           "package": "alsa-pcm",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Noninterleaved",
           "package": "alsa-pcm",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Noninterleaved",
           "package": "alsa-pcm",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "SampleFmt",
           "package": "alsa-pcm",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "SampleFmt",
           "package": "alsa-pcm",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "SampleFreq",
           "package": "alsa-pcm",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "SampleFreq",
           "package": "alsa-pcm",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Size",
           "package": "alsa-pcm",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Size",
           "package": "alsa-pcm",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Stream",
           "package": "alsa-pcm",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Stream",
           "package": "alsa-pcm",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Time",
           "package": "alsa-pcm",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "Time",
           "package": "alsa-pcm",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "StreamCapture",
           "package": "alsa-pcm",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "StreamCapture",
           "package": "alsa-pcm",
@@ -294,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "StreamPlayback",
           "package": "alsa-pcm",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "StreamPlayback",
           "package": "alsa-pcm",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "async",
           "package": "alsa-pcm",
@@ -325,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "async",
           "package": "alsa-pcm",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "close",
           "package": "alsa-pcm",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "close",
           "normalized": "Handle a b-\u003eIO()",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "drain",
           "package": "alsa-pcm",
@@ -369,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "drain",
           "normalized": "Handle a b-\u003eIO()",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "drop",
           "package": "alsa-pcm",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "drop",
           "normalized": "Handle a b-\u003eIO()",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "modes",
           "package": "alsa-pcm",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "modes",
           "normalized": "[Mode]-\u003eMode",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "nonBlock",
           "package": "alsa-pcm",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "nonBlock",
           "package": "alsa-pcm",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "open",
           "package": "alsa-pcm",
@@ -459,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "open",
           "normalized": "Mode-\u003eStream-\u003eT a b c-\u003e(c-\u003eT a b d)-\u003eString-\u003eIO(d,Handle a b)",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "prepare",
           "package": "alsa-pcm",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "prepare",
           "normalized": "Handle a b-\u003eIO()",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "readi",
           "package": "alsa-pcm",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "readi",
           "normalized": "Handle Interleaved a-\u003ePtr a-\u003eSize-\u003eIO Size",
@@ -520,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eretry on buffer over-run\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "readiRetry",
           "package": "alsa-pcm",
@@ -530,6 +577,7 @@
         "index": {
           "description": "retry on buffer over-run",
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "readiRetry",
           "normalized": "Handle Interleaved a-\u003ePtr a-\u003eSize-\u003eIO Size",
@@ -546,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ePtr (Ptr y)\u003c/code\u003e argument is actually a pointer to an array of pointers.\nThe array must have the size of number of channels.\nIn \u003ccode\u003e\u003ca\u003eNoninterleaved\u003c/a\u003e\u003c/code\u003e mode you must set the number of channels manually\nusing \u003ccode\u003e\u003ca\u003esetChannels\u003c/a\u003e\u003c/code\u003e or its friends.\nIt is an unchecked error if the number of channels\nset with \u003ccode\u003e\u003ca\u003esetChannels\u003c/a\u003e\u003c/code\u003e\ndoes not match the array size in the \u003ccode\u003e\u003ca\u003ereadn\u003c/a\u003e\u003c/code\u003e call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "readn",
           "package": "alsa-pcm",
@@ -556,6 +605,7 @@
         "index": {
           "description": "The Ptr Ptr argument is actually pointer to an array of pointers The array must have the size of number of channels In Noninterleaved mode you must set the number of channels manually using setChannels or its friends It is an unchecked error if the number of channels set with setChannels does not match the array size in the readn call",
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "readn",
           "normalized": "Handle Noninterleaved a-\u003ePtr(Ptr a)-\u003eSize-\u003eIO Size",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "start",
           "package": "alsa-pcm",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "start",
           "normalized": "Handle a b-\u003eIO()",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "writei",
           "package": "alsa-pcm",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "writei",
           "normalized": "Handle Interleaved a-\u003ePtr a-\u003eSize-\u003eIO Size",
@@ -617,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eretry on buffer under-run\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "writeiRetry",
           "package": "alsa-pcm",
@@ -627,6 +682,7 @@
         "index": {
           "description": "retry on buffer under-run",
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "writeiRetry",
           "normalized": "Handle Interleaved a-\u003ePtr a-\u003eSize-\u003eIO Size",
@@ -643,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCf. \u003ccode\u003e\u003ca\u003ereadn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "writen",
           "package": "alsa-pcm",
@@ -653,6 +710,7 @@
         "index": {
           "description": "Cf readn",
           "hierarchy": "Sound ALSA PCM Node ALSA",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.ALSA",
           "name": "writen",
           "normalized": "Handle Noninterleaved a-\u003ePtr(Ptr a)-\u003eSize-\u003eIO Size",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "File",
           "package": "alsa-pcm",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node File",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "File",
           "package": "alsa-pcm",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "Handle",
           "package": "alsa-pcm",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node File",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "Handle",
           "package": "alsa-pcm",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "SampleFmt",
           "package": "alsa-pcm",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node File",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "SampleFmt",
           "package": "alsa-pcm",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "SampleFreq",
           "package": "alsa-pcm",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node File",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "SampleFreq",
           "package": "alsa-pcm",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "Size",
           "package": "alsa-pcm",
@@ -759,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node File",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "Size",
           "package": "alsa-pcm",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "Time",
           "package": "alsa-pcm",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node File",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "Time",
           "package": "alsa-pcm",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "close",
           "package": "alsa-pcm",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node File",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "close",
           "normalized": "Handle a-\u003eIO()",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "open",
           "package": "alsa-pcm",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Node File",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "open",
           "normalized": "IOMode-\u003eFilePath-\u003eIO(Handle a)",
@@ -840,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis expects pad bytes that are needed in memory\nin order to satisfy aligment constraints.\nThis is only a problem for samples sizes like 24 bit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "read",
           "package": "alsa-pcm",
@@ -850,6 +925,7 @@
         "index": {
           "description": "This expects pad bytes that are needed in memory in order to satisfy aligment constraints This is only problem for samples sizes like bit",
           "hierarchy": "Sound ALSA PCM Node File",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "read",
           "normalized": "Handle a-\u003ePtr a-\u003eSize-\u003eIO Size",
@@ -865,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame restrictions as for \u003ccode\u003efileRead\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "write",
           "package": "alsa-pcm",
@@ -875,6 +952,7 @@
         "index": {
           "description": "Same restrictions as for fileRead",
           "hierarchy": "Sound ALSA PCM Node File",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Node.File",
           "name": "write",
           "normalized": "Handle a-\u003ePtr a-\u003eSize-\u003eIO()",
@@ -889,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "Hardware",
           "package": "alsa-pcm",
@@ -897,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "Hardware",
           "package": "alsa-pcm",
@@ -910,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "Interleaved",
           "package": "alsa-pcm",
@@ -918,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "Interleaved",
           "package": "alsa-pcm",
@@ -931,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "Noninterleaved",
           "package": "alsa-pcm",
@@ -939,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "Noninterleaved",
           "package": "alsa-pcm",
@@ -952,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "SampleFreq",
           "package": "alsa-pcm",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "SampleFreq",
           "package": "alsa-pcm",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "Size",
           "package": "alsa-pcm",
@@ -981,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "Size",
           "package": "alsa-pcm",
@@ -994,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "T",
           "package": "alsa-pcm",
@@ -1002,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "T",
           "package": "alsa-pcm",
@@ -1014,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "Time",
           "package": "alsa-pcm",
@@ -1022,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "Time",
           "package": "alsa-pcm",
@@ -1035,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "canMmapSampleResolution",
           "package": "alsa-pcm",
@@ -1044,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "canMmapSampleResolution",
           "package": "alsa-pcm",
@@ -1057,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "canOverrange",
           "package": "alsa-pcm",
@@ -1066,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "canOverrange",
           "package": "alsa-pcm",
@@ -1079,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "canPause",
           "package": "alsa-pcm",
@@ -1088,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "canPause",
           "package": "alsa-pcm",
@@ -1101,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "canResume",
           "package": "alsa-pcm",
@@ -1110,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "canResume",
           "package": "alsa-pcm",
@@ -1123,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "canSyncStart",
           "package": "alsa-pcm",
@@ -1132,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "canSyncStart",
           "package": "alsa-pcm",
@@ -1145,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferSize",
           "package": "alsa-pcm",
@@ -1154,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferSize",
           "package": "alsa-pcm",
@@ -1167,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferSizeMax",
           "package": "alsa-pcm",
@@ -1176,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferSizeMax",
           "package": "alsa-pcm",
@@ -1189,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferSizeMin",
           "package": "alsa-pcm",
@@ -1198,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferSizeMin",
           "package": "alsa-pcm",
@@ -1211,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferTime",
           "package": "alsa-pcm",
@@ -1220,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferTime",
           "normalized": "T a b(Time,Ordering)",
@@ -1235,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferTimeMax",
           "package": "alsa-pcm",
@@ -1244,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferTimeMax",
           "normalized": "T a b(Time,Ordering)",
@@ -1259,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferTimeMin",
           "package": "alsa-pcm",
@@ -1268,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getBufferTimeMin",
           "normalized": "T a b(Time,Ordering)",
@@ -1283,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getChannels",
           "package": "alsa-pcm",
@@ -1292,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getChannels",
           "package": "alsa-pcm",
@@ -1305,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getChannelsMax",
           "package": "alsa-pcm",
@@ -1314,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getChannelsMax",
           "package": "alsa-pcm",
@@ -1327,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getChannelsMin",
           "package": "alsa-pcm",
@@ -1336,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getChannelsMin",
           "package": "alsa-pcm",
@@ -1349,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getExportBuffer",
           "package": "alsa-pcm",
@@ -1358,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getExportBuffer",
           "package": "alsa-pcm",
@@ -1371,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getFifoSize",
           "package": "alsa-pcm",
@@ -1380,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getFifoSize",
           "package": "alsa-pcm",
@@ -1393,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getMinAlign",
           "package": "alsa-pcm",
@@ -1402,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getMinAlign",
           "package": "alsa-pcm",
@@ -1415,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodSize",
           "package": "alsa-pcm",
@@ -1424,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodSize",
           "normalized": "T a b(Size,Ordering)",
@@ -1439,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodSizeMax",
           "package": "alsa-pcm",
@@ -1448,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodSizeMax",
           "normalized": "T a b(Size,Ordering)",
@@ -1463,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodSizeMin",
           "package": "alsa-pcm",
@@ -1472,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodSizeMin",
           "normalized": "T a b(Size,Ordering)",
@@ -1487,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodTime",
           "package": "alsa-pcm",
@@ -1496,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodTime",
           "normalized": "T a b(Time,Ordering)",
@@ -1511,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodTimeMax",
           "package": "alsa-pcm",
@@ -1520,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodTimeMax",
           "normalized": "T a b(Time,Ordering)",
@@ -1535,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodTimeMin",
           "package": "alsa-pcm",
@@ -1544,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodTimeMin",
           "normalized": "T a b(Time,Ordering)",
@@ -1559,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriods",
           "package": "alsa-pcm",
@@ -1568,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriods",
           "normalized": "T a b(Word,Ordering)",
@@ -1583,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodsMax",
           "package": "alsa-pcm",
@@ -1592,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodsMax",
           "normalized": "T a b(Word,Ordering)",
@@ -1607,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodsMin",
           "package": "alsa-pcm",
@@ -1616,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getPeriodsMin",
           "normalized": "T a b(Word,Ordering)",
@@ -1631,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getRate",
           "package": "alsa-pcm",
@@ -1640,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getRate",
           "normalized": "T a b(SampleFreq,Ordering)",
@@ -1655,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getRateMax",
           "package": "alsa-pcm",
@@ -1664,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getRateMax",
           "normalized": "T a b(SampleFreq,Ordering)",
@@ -1679,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getRateMin",
           "package": "alsa-pcm",
@@ -1688,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getRateMin",
           "normalized": "T a b(SampleFreq,Ordering)",
@@ -1703,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getRateNumden",
           "package": "alsa-pcm",
@@ -1712,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getRateNumden",
           "normalized": "T a b(Word,Word)",
@@ -1727,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getRateResample",
           "package": "alsa-pcm",
@@ -1736,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getRateResample",
           "package": "alsa-pcm",
@@ -1749,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getSbits",
           "package": "alsa-pcm",
@@ -1758,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getSbits",
           "package": "alsa-pcm",
@@ -1771,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getTickTime",
           "package": "alsa-pcm",
@@ -1780,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getTickTime",
           "normalized": "T a b(Time,Ordering)",
@@ -1795,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getTickTimeMax",
           "package": "alsa-pcm",
@@ -1804,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getTickTimeMax",
           "normalized": "T a b(Time,Ordering)",
@@ -1819,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getTickTimeMin",
           "package": "alsa-pcm",
@@ -1828,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "getTickTimeMin",
           "normalized": "T a b(Time,Ordering)",
@@ -1843,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "isBatch",
           "package": "alsa-pcm",
@@ -1852,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "isBatch",
           "package": "alsa-pcm",
@@ -1865,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "isBlockTransfer",
           "package": "alsa-pcm",
@@ -1874,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "isBlockTransfer",
           "package": "alsa-pcm",
@@ -1887,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "isDouble",
           "package": "alsa-pcm",
@@ -1896,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "isDouble",
           "package": "alsa-pcm",
@@ -1909,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "isHalfDuplex",
           "package": "alsa-pcm",
@@ -1918,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "isHalfDuplex",
           "package": "alsa-pcm",
@@ -1931,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "isJointDuplex",
           "package": "alsa-pcm",
@@ -1940,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "isJointDuplex",
           "package": "alsa-pcm",
@@ -1953,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSize",
           "package": "alsa-pcm",
@@ -1962,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSize",
           "normalized": "Size-\u003eT a b()",
@@ -1977,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeFirst",
           "package": "alsa-pcm",
@@ -1986,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeFirst",
           "normalized": "Size-\u003eT a b Size",
@@ -2001,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeLast",
           "package": "alsa-pcm",
@@ -2010,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeLast",
           "normalized": "Size-\u003eT a b Size",
@@ -2025,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeMax",
           "package": "alsa-pcm",
@@ -2034,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeMax",
           "normalized": "Size-\u003eT a b Size",
@@ -2049,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeMin",
           "package": "alsa-pcm",
@@ -2058,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeMin",
           "normalized": "Size-\u003eT a b Size",
@@ -2073,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeMinmax",
           "package": "alsa-pcm",
@@ -2082,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeMinmax",
           "normalized": "Size-\u003eSize-\u003eT a b(Size,Size)",
@@ -2097,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeNear",
           "package": "alsa-pcm",
@@ -2106,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferSizeNear",
           "normalized": "Size-\u003eT a b Size",
@@ -2121,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTime",
           "package": "alsa-pcm",
@@ -2130,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTime",
           "normalized": "Time-\u003eOrdering-\u003eT a b()",
@@ -2145,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeFirst",
           "package": "alsa-pcm",
@@ -2154,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeFirst",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -2169,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeLast",
           "package": "alsa-pcm",
@@ -2178,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeLast",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -2193,6 +2385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeMax",
           "package": "alsa-pcm",
@@ -2202,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeMax",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -2217,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeMin",
           "package": "alsa-pcm",
@@ -2226,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeMin",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -2241,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeMinmax",
           "package": "alsa-pcm",
@@ -2250,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeMinmax",
           "normalized": "Time-\u003eOrdering-\u003eTime-\u003eOrdering-\u003eT a b(Time,Ordering,Time,Ordering)",
@@ -2265,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeNear",
           "package": "alsa-pcm",
@@ -2274,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setBufferTimeNear",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -2290,6 +2490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor non-interleaved access the number of channels must be set manually.\nIt can be chosen at runtime,\nbut the compiler cannot check whether the number of allocated channels\nmatches the one in \u003ccode\u003ereadn\u003c/code\u003e and \u003ccode\u003ewriten\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIn interleaved access the number of channels is derived from the type\nand must not be set manually.\nThe number is static\nbut the compiler checks consistency with \u003ccode\u003ereadi\u003c/code\u003e and \u003ccode\u003ewritei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannels",
           "package": "alsa-pcm",
@@ -2300,6 +2501,7 @@
         "index": {
           "description": "For non-interleaved access the number of channels must be set manually It can be chosen at runtime but the compiler cannot check whether the number of allocated channels matches the one in readn and writen In interleaved access the number of channels is derived from the type and must not be set manually The number is static but the compiler checks consistency with readi and writei",
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannels",
           "normalized": "Word-\u003eT Noninterleaved a()",
@@ -2315,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsFirst",
           "package": "alsa-pcm",
@@ -2324,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsFirst",
           "normalized": "Word-\u003eT Noninterleaved a Word",
@@ -2339,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsLast",
           "package": "alsa-pcm",
@@ -2348,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsLast",
           "normalized": "Word-\u003eT Noninterleaved a Word",
@@ -2363,6 +2569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsMax",
           "package": "alsa-pcm",
@@ -2372,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsMax",
           "normalized": "Word-\u003eT Noninterleaved a Word",
@@ -2387,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsMin",
           "package": "alsa-pcm",
@@ -2396,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsMin",
           "normalized": "Word-\u003eT Noninterleaved a Word",
@@ -2411,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsMinmax",
           "package": "alsa-pcm",
@@ -2420,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsMinmax",
           "normalized": "Word-\u003eWord-\u003eT Noninterleaved a(Word,Word)",
@@ -2435,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsNear",
           "package": "alsa-pcm",
@@ -2444,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setChannelsNear",
           "normalized": "Word-\u003eT Noninterleaved a Word",
@@ -2459,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setExportBuffer",
           "package": "alsa-pcm",
@@ -2468,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setExportBuffer",
           "normalized": "Bool-\u003eT a b()",
@@ -2483,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSize",
           "package": "alsa-pcm",
@@ -2492,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSize",
           "normalized": "Size-\u003eOrdering-\u003eT a b()",
@@ -2507,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeFirst",
           "package": "alsa-pcm",
@@ -2516,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeFirst",
           "normalized": "Size-\u003eOrdering-\u003eT a b(Size,Ordering)",
@@ -2531,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeInteger",
           "package": "alsa-pcm",
@@ -2540,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeInteger",
           "normalized": "T a b()",
@@ -2555,6 +2777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeLast",
           "package": "alsa-pcm",
@@ -2564,6 +2787,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeLast",
           "normalized": "Size-\u003eOrdering-\u003eT a b(Size,Ordering)",
@@ -2579,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeMax",
           "package": "alsa-pcm",
@@ -2588,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeMax",
           "normalized": "Size-\u003eOrdering-\u003eT a b(Size,Ordering)",
@@ -2603,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeMin",
           "package": "alsa-pcm",
@@ -2612,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeMin",
           "normalized": "Size-\u003eOrdering-\u003eT a b(Size,Ordering)",
@@ -2627,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeMinmax",
           "package": "alsa-pcm",
@@ -2636,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeMinmax",
           "normalized": "Size-\u003eOrdering-\u003eSize-\u003eOrdering-\u003eT a b(Size,Ordering,Size,Ordering)",
@@ -2651,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeNear",
           "package": "alsa-pcm",
@@ -2660,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodSizeNear",
           "normalized": "Size-\u003eOrdering-\u003eT a b(Size,Ordering)",
@@ -2675,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTime",
           "package": "alsa-pcm",
@@ -2684,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTime",
           "normalized": "Time-\u003eOrdering-\u003eT a b()",
@@ -2699,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeFirst",
           "package": "alsa-pcm",
@@ -2708,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeFirst",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -2723,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeLast",
           "package": "alsa-pcm",
@@ -2732,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeLast",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -2747,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeMax",
           "package": "alsa-pcm",
@@ -2756,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeMax",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -2771,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeMin",
           "package": "alsa-pcm",
@@ -2780,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeMin",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -2795,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeMinmax",
           "package": "alsa-pcm",
@@ -2804,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeMinmax",
           "normalized": "Time-\u003eOrdering-\u003eTime-\u003eOrdering-\u003eT a b(Time,Ordering,Time,Ordering)",
@@ -2819,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeNear",
           "package": "alsa-pcm",
@@ -2828,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodTimeNear",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -2843,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriods",
           "package": "alsa-pcm",
@@ -2852,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriods",
           "normalized": "Word-\u003eOrdering-\u003eT a b()",
@@ -2867,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsFirst",
           "package": "alsa-pcm",
@@ -2876,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsFirst",
           "normalized": "Word-\u003eOrdering-\u003eT a b(Word,Ordering)",
@@ -2891,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsInteger",
           "package": "alsa-pcm",
@@ -2900,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsInteger",
           "normalized": "T a b()",
@@ -2915,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsLast",
           "package": "alsa-pcm",
@@ -2924,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsLast",
           "normalized": "Word-\u003eOrdering-\u003eT a b(Word,Ordering)",
@@ -2939,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsMax",
           "package": "alsa-pcm",
@@ -2948,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsMax",
           "normalized": "Word-\u003eOrdering-\u003eT a b(Word,Ordering)",
@@ -2963,6 +3219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsMin",
           "package": "alsa-pcm",
@@ -2972,6 +3229,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsMin",
           "normalized": "Word-\u003eOrdering-\u003eT a b(Word,Ordering)",
@@ -2987,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsMinmax",
           "package": "alsa-pcm",
@@ -2996,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsMinmax",
           "normalized": "Word-\u003eOrdering-\u003eWord-\u003eOrdering-\u003eT a b(Word,Ordering,Word,Ordering)",
@@ -3011,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsNear",
           "package": "alsa-pcm",
@@ -3020,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setPeriodsNear",
           "normalized": "Word-\u003eOrdering-\u003eT a b(Word,Ordering)",
@@ -3035,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRate",
           "package": "alsa-pcm",
@@ -3044,6 +3307,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRate",
           "normalized": "SampleFreq-\u003eOrdering-\u003eT a b()",
@@ -3059,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateBufferTime",
           "package": "alsa-pcm",
@@ -3067,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateBufferTime",
           "normalized": "SampleFreq-\u003eTime-\u003eTime-\u003eT Interleaved a(Size,Size)",
@@ -3082,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateFirst",
           "package": "alsa-pcm",
@@ -3091,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateFirst",
           "normalized": "SampleFreq-\u003eOrdering-\u003eT a b(SampleFreq,Ordering)",
@@ -3106,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateLast",
           "package": "alsa-pcm",
@@ -3115,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateLast",
           "normalized": "SampleFreq-\u003eOrdering-\u003eT a b(SampleFreq,Ordering)",
@@ -3130,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateMax",
           "package": "alsa-pcm",
@@ -3139,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateMax",
           "normalized": "SampleFreq-\u003eOrdering-\u003eT a b(SampleFreq,Ordering)",
@@ -3154,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateMin",
           "package": "alsa-pcm",
@@ -3163,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateMin",
           "normalized": "SampleFreq-\u003eOrdering-\u003eT a b(SampleFreq,Ordering)",
@@ -3178,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateMinmax",
           "package": "alsa-pcm",
@@ -3187,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateMinmax",
           "normalized": "SampleFreq-\u003eOrdering-\u003eSampleFreq-\u003eOrdering-\u003eT a b(SampleFreq,Ordering,SampleFreq,Ordering)",
@@ -3202,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateNear",
           "package": "alsa-pcm",
@@ -3211,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateNear",
           "normalized": "SampleFreq-\u003eOrdering-\u003eT a b(SampleFreq,Ordering)",
@@ -3226,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateResample",
           "package": "alsa-pcm",
@@ -3235,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setRateResample",
           "normalized": "Bool-\u003eT a b()",
@@ -3250,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTime",
           "package": "alsa-pcm",
@@ -3259,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTime",
           "normalized": "Time-\u003eOrdering-\u003eT a b()",
@@ -3274,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeFirst",
           "package": "alsa-pcm",
@@ -3283,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeFirst",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -3298,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeLast",
           "package": "alsa-pcm",
@@ -3307,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeLast",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -3322,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeMax",
           "package": "alsa-pcm",
@@ -3331,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeMax",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -3346,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeMin",
           "package": "alsa-pcm",
@@ -3355,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeMin",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -3370,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeMinmax",
           "package": "alsa-pcm",
@@ -3379,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeMinmax",
           "normalized": "Time-\u003eOrdering-\u003eTime-\u003eOrdering-\u003eT a b(Time,Ordering,Time,Ordering)",
@@ -3394,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeNear",
           "package": "alsa-pcm",
@@ -3403,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "setTickTimeNear",
           "normalized": "Time-\u003eOrdering-\u003eT a b(Time,Ordering)",
@@ -3418,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testBufferSize",
           "package": "alsa-pcm",
@@ -3427,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testBufferSize",
           "normalized": "Size-\u003eT a b Errno",
@@ -3442,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testBufferTime",
           "package": "alsa-pcm",
@@ -3451,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testBufferTime",
           "normalized": "Time-\u003eOrdering-\u003eT a b Errno",
@@ -3466,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testChannels",
           "package": "alsa-pcm",
@@ -3475,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testChannels",
           "normalized": "Word-\u003eT a b Errno",
@@ -3490,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testPeriodSize",
           "package": "alsa-pcm",
@@ -3499,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testPeriodSize",
           "normalized": "Size-\u003eOrdering-\u003eT a b Errno",
@@ -3514,6 +3816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testPeriodTime",
           "package": "alsa-pcm",
@@ -3523,6 +3826,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testPeriodTime",
           "normalized": "Time-\u003eOrdering-\u003eT a b Errno",
@@ -3538,6 +3842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testPeriods",
           "package": "alsa-pcm",
@@ -3547,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testPeriods",
           "normalized": "Word-\u003eOrdering-\u003eT a b Errno",
@@ -3562,6 +3868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testRate",
           "package": "alsa-pcm",
@@ -3571,6 +3878,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testRate",
           "normalized": "SampleFreq-\u003eOrdering-\u003eT a b Errno",
@@ -3586,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testTickTime",
           "package": "alsa-pcm",
@@ -3595,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Hardware",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Hardware",
           "name": "testTickTime",
           "normalized": "Time-\u003eOrdering-\u003eT a b Errno",
@@ -3610,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "Software",
           "package": "alsa-pcm",
@@ -3618,6 +3929,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "Software",
           "package": "alsa-pcm",
@@ -3631,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "Size",
           "package": "alsa-pcm",
@@ -3639,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "Size",
           "package": "alsa-pcm",
@@ -3652,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "T",
           "package": "alsa-pcm",
@@ -3660,6 +3975,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "T",
           "package": "alsa-pcm",
@@ -3672,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "TimestampMode",
           "package": "alsa-pcm",
@@ -3680,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "TimestampMode",
           "package": "alsa-pcm",
@@ -3693,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getAvailMin",
           "package": "alsa-pcm",
@@ -3702,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getAvailMin",
           "package": "alsa-pcm",
@@ -3715,6 +4035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getSilenceSize",
           "package": "alsa-pcm",
@@ -3724,6 +4045,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getSilenceSize",
           "package": "alsa-pcm",
@@ -3737,6 +4059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getSilenceThreshold",
           "package": "alsa-pcm",
@@ -3746,6 +4069,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getSilenceThreshold",
           "package": "alsa-pcm",
@@ -3759,6 +4083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getSleepMin",
           "package": "alsa-pcm",
@@ -3768,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getSleepMin",
           "package": "alsa-pcm",
@@ -3781,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getStartThreshold",
           "package": "alsa-pcm",
@@ -3790,6 +4117,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getStartThreshold",
           "package": "alsa-pcm",
@@ -3803,6 +4131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getStopThreshold",
           "package": "alsa-pcm",
@@ -3812,6 +4141,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getStopThreshold",
           "package": "alsa-pcm",
@@ -3825,6 +4155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getTimestampMode",
           "package": "alsa-pcm",
@@ -3834,6 +4165,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getTimestampMode",
           "package": "alsa-pcm",
@@ -3847,6 +4179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getXferAlign",
           "package": "alsa-pcm",
@@ -3856,6 +4189,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "getXferAlign",
           "package": "alsa-pcm",
@@ -3869,6 +4203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setAvailMin",
           "package": "alsa-pcm",
@@ -3878,6 +4213,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setAvailMin",
           "normalized": "Size-\u003eT a b()",
@@ -3893,6 +4229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setBufferSize",
           "package": "alsa-pcm",
@@ -3901,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setBufferSize",
           "normalized": "Size-\u003eSize-\u003eT a b()",
@@ -3916,6 +4254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setSilenceSize",
           "package": "alsa-pcm",
@@ -3925,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setSilenceSize",
           "normalized": "Size-\u003eT a b()",
@@ -3940,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setSilenceThreshold",
           "package": "alsa-pcm",
@@ -3949,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setSilenceThreshold",
           "normalized": "Size-\u003eT a b()",
@@ -3964,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setSleepMin",
           "package": "alsa-pcm",
@@ -3973,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setSleepMin",
           "normalized": "Word-\u003eT a b()",
@@ -3988,6 +4332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setStartThreshold",
           "package": "alsa-pcm",
@@ -3997,6 +4342,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setStartThreshold",
           "normalized": "Size-\u003eT a b()",
@@ -4012,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setStopThreshold",
           "package": "alsa-pcm",
@@ -4021,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setStopThreshold",
           "normalized": "Size-\u003eT a b()",
@@ -4036,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setTimestampMode",
           "package": "alsa-pcm",
@@ -4045,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setTimestampMode",
           "normalized": "TimestampMode-\u003eT a b()",
@@ -4060,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setXferAlign",
           "package": "alsa-pcm",
@@ -4069,6 +4420,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "setXferAlign",
           "normalized": "Size-\u003eT a b()",
@@ -4084,6 +4436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "timestampMmap",
           "package": "alsa-pcm",
@@ -4093,6 +4446,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "timestampMmap",
           "package": "alsa-pcm",
@@ -4106,6 +4460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "timestampNone",
           "package": "alsa-pcm",
@@ -4115,6 +4470,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM Parameters Software",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM.Parameters.Software",
           "name": "timestampNone",
           "package": "alsa-pcm",
@@ -4128,6 +4484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "PCM",
           "package": "alsa-pcm",
@@ -4136,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "PCM",
           "package": "alsa-pcm",
@@ -4149,6 +4507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "File",
           "package": "alsa-pcm",
@@ -4157,6 +4516,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "File",
           "package": "alsa-pcm",
@@ -4170,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "Pcm",
           "package": "alsa-pcm",
@@ -4178,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "Pcm",
           "package": "alsa-pcm",
@@ -4191,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "SampleFmt",
           "package": "alsa-pcm",
@@ -4199,6 +4562,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "SampleFmt",
           "package": "alsa-pcm",
@@ -4212,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "SampleFreq",
           "package": "alsa-pcm",
@@ -4220,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "SampleFreq",
           "package": "alsa-pcm",
@@ -4233,6 +4599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "Size",
           "package": "alsa-pcm",
@@ -4241,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "Size",
           "package": "alsa-pcm",
@@ -4254,6 +4622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "SoundBufferTime",
           "package": "alsa-pcm",
@@ -4262,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "SoundBufferTime",
           "package": "alsa-pcm",
@@ -4275,6 +4645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "SoundFmt",
           "package": "alsa-pcm",
@@ -4283,6 +4654,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "SoundFmt",
           "package": "alsa-pcm",
@@ -4296,6 +4668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "SoundSink",
           "package": "alsa-pcm",
@@ -4304,6 +4677,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "SoundSink",
           "package": "alsa-pcm",
@@ -4318,6 +4692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts are in samples, not bytes. Multi-channel data is interleaved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "SoundSource",
           "package": "alsa-pcm",
@@ -4327,6 +4702,7 @@
         "index": {
           "description": "Counts are in samples not bytes Multi-channel data is interleaved",
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "SoundSource",
           "package": "alsa-pcm",
@@ -4340,6 +4716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "Time",
           "package": "alsa-pcm",
@@ -4348,6 +4725,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "Time",
           "package": "alsa-pcm",
@@ -4361,6 +4739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "SoundBufferTime",
           "package": "alsa-pcm",
@@ -4370,6 +4749,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "SoundBufferTime",
           "package": "alsa-pcm",
@@ -4383,6 +4763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "SoundFmt",
           "package": "alsa-pcm",
@@ -4392,6 +4773,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "SoundFmt",
           "package": "alsa-pcm",
@@ -4405,6 +4787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "SoundSink",
           "package": "alsa-pcm",
@@ -4414,6 +4797,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "SoundSink",
           "package": "alsa-pcm",
@@ -4427,6 +4811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "SoundSource",
           "package": "alsa-pcm",
@@ -4436,6 +4821,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "SoundSource",
           "package": "alsa-pcm",
@@ -4449,6 +4835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSink",
           "package": "alsa-pcm",
@@ -4458,6 +4845,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSink",
           "normalized": "String-\u003eSoundFmt a-\u003eSoundSink Pcm a",
@@ -4473,6 +4861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSinkParams",
           "package": "alsa-pcm",
@@ -4482,6 +4871,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSinkParams",
           "normalized": "String-\u003eT Interleaved a b-\u003e(b-\u003eT Interleaved a())-\u003eSoundSink Pcm a",
@@ -4497,6 +4887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSinkTime",
           "package": "alsa-pcm",
@@ -4506,6 +4897,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSinkTime",
           "normalized": "String-\u003eSoundFmt a-\u003eSoundBufferTime-\u003eSoundSink Pcm a",
@@ -4521,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSource",
           "package": "alsa-pcm",
@@ -4530,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSource",
           "normalized": "String-\u003eSoundFmt a-\u003eSoundSource Pcm a",
@@ -4545,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSourceParams",
           "package": "alsa-pcm",
@@ -4554,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSourceParams",
           "normalized": "String-\u003eT Interleaved a b-\u003e(b-\u003eT Interleaved a())-\u003eSoundSource Pcm a",
@@ -4569,6 +4965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSourceTime",
           "package": "alsa-pcm",
@@ -4578,6 +4975,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "alsaSoundSourceTime",
           "normalized": "String-\u003eSoundFmt a-\u003eSoundBufferTime-\u003eSoundSource Pcm a",
@@ -4593,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "audioBytesPerFrame",
           "package": "alsa-pcm",
@@ -4602,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "audioBytesPerFrame",
           "normalized": "SoundFmt a-\u003eInt",
@@ -4617,6 +5017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "audioBytesPerSample",
           "package": "alsa-pcm",
@@ -4626,6 +5027,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "audioBytesPerSample",
           "normalized": "SoundFmt a-\u003eInt",
@@ -4641,6 +5043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "bufferTime",
           "package": "alsa-pcm",
@@ -4650,6 +5053,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "bufferTime",
           "package": "alsa-pcm",
@@ -4663,6 +5067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "copySound",
           "package": "alsa-pcm",
@@ -4671,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "copySound",
           "normalized": "SoundSource a b-\u003eSoundSink c b-\u003eSize-\u003eIO()",
@@ -4686,6 +5092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "fileSoundSink",
           "package": "alsa-pcm",
@@ -4695,6 +5102,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "fileSoundSink",
           "normalized": "FilePath-\u003eSoundSink File a",
@@ -4710,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "fileSoundSource",
           "package": "alsa-pcm",
@@ -4719,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "fileSoundSource",
           "normalized": "FilePath-\u003eSoundSource File a",
@@ -4734,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "periodTime",
           "package": "alsa-pcm",
@@ -4743,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "periodTime",
           "package": "alsa-pcm",
@@ -4756,6 +5168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "sampleFmtToPcmFormat",
           "package": "alsa-pcm",
@@ -4765,6 +5178,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "sampleFmtToPcmFormat",
           "normalized": "a-\u003eFormat",
@@ -4780,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "sampleFreq",
           "package": "alsa-pcm",
@@ -4789,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "sampleFreq",
           "package": "alsa-pcm",
@@ -4802,6 +5218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundFmtMIME",
           "package": "alsa-pcm",
@@ -4811,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundFmtMIME",
           "normalized": "SoundFmt a-\u003eString",
@@ -4826,6 +5244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkBytesPerFrame",
           "package": "alsa-pcm",
@@ -4835,6 +5254,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkBytesPerFrame",
           "normalized": "SoundSink a b-\u003eInt",
@@ -4850,6 +5270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkClose",
           "package": "alsa-pcm",
@@ -4859,6 +5280,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkClose",
           "normalized": "a b-\u003eIO()",
@@ -4874,6 +5296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkOpen",
           "package": "alsa-pcm",
@@ -4883,6 +5306,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkOpen",
           "package": "alsa-pcm",
@@ -4896,6 +5320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkStart",
           "package": "alsa-pcm",
@@ -4905,6 +5330,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkStart",
           "normalized": "a b-\u003eIO()",
@@ -4920,6 +5346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkStop",
           "package": "alsa-pcm",
@@ -4929,6 +5356,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkStop",
           "normalized": "a b-\u003eIO()",
@@ -4944,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkWrite",
           "package": "alsa-pcm",
@@ -4953,6 +5382,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSinkWrite",
           "normalized": "a b-\u003ePtr b-\u003eSize-\u003eIO()",
@@ -4968,6 +5398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceBytesPerFrame",
           "package": "alsa-pcm",
@@ -4977,6 +5408,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceBytesPerFrame",
           "normalized": "SoundSource a b-\u003eInt",
@@ -4992,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceClose",
           "package": "alsa-pcm",
@@ -5001,6 +5434,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceClose",
           "normalized": "a b-\u003eIO()",
@@ -5016,6 +5450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceOpen",
           "package": "alsa-pcm",
@@ -5025,6 +5460,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceOpen",
           "package": "alsa-pcm",
@@ -5038,6 +5474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceRead",
           "package": "alsa-pcm",
@@ -5047,6 +5484,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceRead",
           "normalized": "a b-\u003ePtr b-\u003eSize-\u003eIO Size",
@@ -5062,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceStart",
           "package": "alsa-pcm",
@@ -5071,6 +5510,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceStart",
           "normalized": "a b-\u003eIO()",
@@ -5086,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceStop",
           "package": "alsa-pcm",
@@ -5095,6 +5536,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "soundSourceStop",
           "normalized": "a b-\u003eIO()",
@@ -5110,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "withSoundSink",
           "package": "alsa-pcm",
@@ -5119,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "withSoundSink",
           "normalized": "SoundSink a b-\u003e(a b-\u003eIO c)-\u003eIO c",
@@ -5134,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "withSoundSinkRunning",
           "package": "alsa-pcm",
@@ -5143,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "withSoundSinkRunning",
           "normalized": "SoundSink a b-\u003ea b-\u003eIO c-\u003eIO c",
@@ -5158,6 +5604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "withSoundSource",
           "package": "alsa-pcm",
@@ -5167,6 +5614,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "withSoundSource",
           "normalized": "SoundSource a b-\u003e(a b-\u003eIO c)-\u003eIO c",
@@ -5182,6 +5630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:24 UTC 2014",
           "module": "Sound.ALSA.PCM",
           "name": "withSoundSourceRunning",
           "package": "alsa-pcm",
@@ -5191,6 +5640,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA PCM",
+          "indexed": "2014-03-11T17:10:24",
           "module": "Sound.ALSA.PCM",
           "name": "withSoundSourceRunning",
           "normalized": "SoundSource a b-\u003ea b-\u003eIO c-\u003eIO c",

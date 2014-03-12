@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "polynomial"
+        "phrase": "polynomial",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Bernstein",
           "name": "Bernstein",
           "package": "polynomial",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Bernstein",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Bernstein",
           "name": "Bernstein",
           "package": "polynomial",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Bernstein basis polynomials.  The \u003ccode\u003en\u003c/code\u003eth inner list is a basis for \n the polynomials of order \u003ccode\u003en\u003c/code\u003e or lower.  The \u003ccode\u003en\u003c/code\u003eth basis consists of \u003ccode\u003en\u003c/code\u003e\n polynomials of order \u003ccode\u003en\u003c/code\u003e which sum to \u003ccode\u003e1\u003c/code\u003e, and have roots of varying \n multiplicities at \u003ccode\u003e0\u003c/code\u003e and \u003ccode\u003e1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Bernstein",
           "name": "bernstein",
           "package": "polynomial",
@@ -50,6 +53,7 @@
         "index": {
           "description": "The Bernstein basis polynomials The th inner list is basis for the polynomials of order or lower The th basis consists of polynomials of order which sum to and have roots of varying multiplicities at and",
           "hierarchy": "Math Polynomial Bernstein",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Bernstein",
           "name": "bernstein",
           "normalized": "[[Poly Integer]]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebernsteinFit n f\u003c/code\u003e: Approximate a function \u003ccode\u003ef\u003c/code\u003e as a linear combination of\n Bernstein polynomials of order \u003ccode\u003en\u003c/code\u003e.  This approximation converges slowly\n but uniformly to \u003ccode\u003ef\u003c/code\u003e on the interval [0,1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Bernstein",
           "name": "bernsteinFit",
           "package": "polynomial",
@@ -75,6 +80,7 @@
         "index": {
           "description": "bernsteinFit Approximate function as linear combination of Bernstein polynomials of order This approximation converges slowly but uniformly to on the interval",
           "hierarchy": "Math Polynomial Bernstein",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Bernstein",
           "name": "bernsteinFit",
           "normalized": "a-\u003e(b-\u003eb)-\u003e[b]",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ede Casteljau's algorithm, returning the whole tableau.  Used both for\n evaluating and splitting polynomials in Bernstein form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Bernstein",
           "name": "deCasteljau",
           "package": "polynomial",
@@ -101,6 +108,7 @@
         "index": {
           "description": "de Casteljau algorithm returning the whole tableau Used both for evaluating and splitting polynomials in Bernstein form",
           "hierarchy": "Math Polynomial Bernstein",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Bernstein",
           "name": "deCasteljau",
           "normalized": "[a]-\u003ea-\u003e[[a]]",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eevalBernstein n v x\u003c/code\u003e evaluates the \u003ccode\u003ev\u003c/code\u003e'th Bernstein polynomial of order \u003ccode\u003en\u003c/code\u003e\n at the point \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Bernstein",
           "name": "evalBernstein",
           "package": "polynomial",
@@ -127,6 +136,7 @@
         "index": {
           "description": "evalBernstein evaluates the th Bernstein polynomial of order at the point",
           "hierarchy": "Math Polynomial Bernstein",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Bernstein",
           "name": "evalBernstein",
           "normalized": "a-\u003ea-\u003eb-\u003eb",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a polynomial given as a list of \u003ccode\u003en\u003c/code\u003e coefficients for the \u003ccode\u003en\u003c/code\u003eth\n Bernstein basis.  Roughly:\n\u003c/p\u003e\u003cpre\u003e evalBernsteinSeries cs = sum (zipWith scalePoly cs (bernstein !! (length cs - 1)))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Bernstein",
           "name": "evalBernsteinSeries",
           "package": "polynomial",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Evaluate polynomial given as list of coefficients for the th Bernstein basis Roughly evalBernsteinSeries cs sum zipWith scalePoly cs bernstein length cs",
           "hierarchy": "Math Polynomial Bernstein",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Bernstein",
           "name": "evalBernsteinSeries",
           "normalized": "[a]-\u003ea-\u003ea",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a polynomial in Bernstein form (that is, a list of coefficients\n for a basis set from \u003ccode\u003e\u003ca\u003ebernstein\u003c/a\u003e\u003c/code\u003e, such as is returned by \u003ccode\u003e\u003ca\u003ebernsteinFit\u003c/a\u003e\u003c/code\u003e)\n and a parameter value \u003ccode\u003ex\u003c/code\u003e, split the polynomial into two halves, mapping\n \u003ccode\u003e[0,x]\u003c/code\u003e and \u003ccode\u003e[x,1]\u003c/code\u003e respectively onto \u003ccode\u003e[0,1]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA typical use for this operation would be to split a Bezier curve \n (inserting a new knot at \u003ccode\u003ex\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Bernstein",
           "name": "splitBernsteinSeries",
           "package": "polynomial",
@@ -179,6 +192,7 @@
         "index": {
           "description": "Given polynomial in Bernstein form that is list of coefficients for basis set from bernstein such as is returned by bernsteinFit and parameter value split the polynomial into two halves mapping and respectively onto typical use for this operation would be to split Bezier curve inserting new knot at",
           "hierarchy": "Math Polynomial Bernstein",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Bernstein",
           "name": "splitBernsteinSeries",
           "normalized": "[a]-\u003ea-\u003e([a],[a])",
@@ -194,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "Chebyshev",
           "package": "polynomial",
@@ -202,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "Chebyshev",
           "package": "polynomial",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echebyshevFit n f\u003c/code\u003e returns a list of N coefficients \u003ccode\u003ecs\u003c/code\u003e such that \n \u003ccode\u003ef x\u003c/code\u003e ~= \u003ccode\u003esum (zipWith (*) cs (evalTs x))\u003c/code\u003e on the interval -1 \u003c x \u003c 1.\n\u003c/p\u003e\u003cp\u003eThe N roots of the N'th Chebyshev polynomial are the fitting points at \n which the function will be evaluated and at which the approximation will be\n exact.  These points always lie within the interval -1 \u003c x \u003c 1.  Outside\n this interval, the approximation will diverge quickly.\n\u003c/p\u003e\u003cp\u003eThis function deviates from most chebyshev-fit implementations in that it\n returns the first coefficient pre-scaled so that the series evaluation \n operation is a simple inner product, since in most other algorithms\n operating on chebyshev series, that factor is almost always a nuissance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "chebyshevFit",
           "package": "polynomial",
@@ -226,6 +243,7 @@
         "index": {
           "description": "chebyshevFit returns list of coefficients cs such that sum zipWith cs evalTs on the interval The roots of the th Chebyshev polynomial are the fitting points at which the function will be evaluated and at which the approximation will be exact These points always lie within the interval Outside this interval the approximation will diverge quickly This function deviates from most chebyshev-fit implementations in that it returns the first coefficient pre-scaled so that the series evaluation operation is simple inner product since in most other algorithms operating on chebyshev series that factor is almost always nuissance",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "chebyshevFit",
           "normalized": "Int-\u003e(a-\u003ea)-\u003e[a]",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a Chebyshev series expansion with a finite number of terms.\n\u003c/p\u003e\u003cp\u003eNote that this function expects the first coefficient to be pre-scaled\n by 1/2, which is what is produced by \u003ccode\u003e\u003ca\u003echebyshevFit\u003c/a\u003e\u003c/code\u003e.  Thus, this computes\n a simple inner product of the given list with a matching-length sequence of\n chebyshev polynomials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalChebyshevSeries",
           "package": "polynomial",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Evaluate Chebyshev series expansion with finite number of terms Note that this function expects the first coefficient to be pre-scaled by which is what is produced by chebyshevFit Thus this computes simple inner product of the given list with matching-length sequence of chebyshev polynomials",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalChebyshevSeries",
           "normalized": "[a]-\u003ea-\u003ea",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the n'th Chebyshev polynomial of the first kind at a point X.  \n Both more efficient and more numerically stable than computing the \n coefficients and evaluating the polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalT",
           "package": "polynomial",
@@ -278,6 +299,7 @@
         "index": {
           "description": "Evaluate the th Chebyshev polynomial of the first kind at point Both more efficient and more numerically stable than computing the coefficients and evaluating the polynomial",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalT",
           "normalized": "Int-\u003ea-\u003ea",
@@ -293,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the n'th Chebyshev polynomials of both kinds at a point X.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalTU",
           "package": "polynomial",
@@ -303,6 +326,7 @@
         "index": {
           "description": "Evaluate the th Chebyshev polynomials of both kinds at point",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalTU",
           "normalized": "Int-\u003ea-\u003e(a,a)",
@@ -319,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate all the Chebyshev polynomials of the first kind at a point X.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalTs",
           "package": "polynomial",
@@ -329,6 +354,7 @@
         "index": {
           "description": "Evaluate all the Chebyshev polynomials of the first kind at point",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalTs",
           "normalized": "a-\u003e[a]",
@@ -345,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate all the Chebyshev polynomials of both kinds at a point X.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalTsUs",
           "package": "polynomial",
@@ -355,6 +382,7 @@
         "index": {
           "description": "Evaluate all the Chebyshev polynomials of both kinds at point",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalTsUs",
           "normalized": "a-\u003e([a],[a])",
@@ -371,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the n'th Chebyshev polynomial of the second kind at a point X.  \n Both more efficient and more numerically stable than computing the \n coefficients and evaluating the polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalU",
           "package": "polynomial",
@@ -381,6 +410,7 @@
         "index": {
           "description": "Evaluate the th Chebyshev polynomial of the second kind at point Both more efficient and more numerically stable than computing the coefficients and evaluating the polynomial",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalU",
           "normalized": "Int-\u003ea-\u003ea",
@@ -396,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate all the Chebyshev polynomials of the second kind at a point X.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalUs",
           "package": "polynomial",
@@ -406,6 +437,7 @@
         "index": {
           "description": "Evaluate all the Chebyshev polynomials of the second kind at point",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "evalUs",
           "normalized": "a-\u003e[a]",
@@ -422,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the coefficients of the n'th Chebyshev polynomial of the first kind.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "t",
           "package": "polynomial",
@@ -432,6 +465,7 @@
         "index": {
           "description": "Compute the coefficients of the th Chebyshev polynomial of the first kind",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "t",
           "normalized": "Int-\u003ePoly a",
@@ -447,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the extreme points of the n'th Chebyshev polynomial of the first kind.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "tExtrema",
           "package": "polynomial",
@@ -457,6 +492,7 @@
         "index": {
           "description": "Compute the extreme points of the th Chebyshev polynomial of the first kind",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "tExtrema",
           "normalized": "Int-\u003e[a]",
@@ -473,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the roots of the n'th Chebyshev polynomial of the first kind.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "tRoots",
           "package": "polynomial",
@@ -483,6 +520,7 @@
         "index": {
           "description": "Compute the roots of the th Chebyshev polynomial of the first kind",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "tRoots",
           "normalized": "Int-\u003e[a]",
@@ -499,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Chebyshev polynomials of the first kind with \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e coefficients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "ts",
           "package": "polynomial",
@@ -509,6 +548,7 @@
         "index": {
           "description": "The Chebyshev polynomials of the first kind with Integer coefficients",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "ts",
           "normalized": "[Poly Integer]",
@@ -524,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the coefficients of the n'th Chebyshev polynomial of the second kind.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "u",
           "package": "polynomial",
@@ -534,6 +575,7 @@
         "index": {
           "description": "Compute the coefficients of the th Chebyshev polynomial of the second kind",
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "u",
           "normalized": "Int-\u003ePoly a",
@@ -548,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Chebyshev",
           "name": "us",
           "package": "polynomial",
@@ -557,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Chebyshev",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Chebyshev",
           "name": "us",
           "normalized": "[Poly Integer]",
@@ -571,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Hermite",
           "name": "Hermite",
           "package": "polynomial",
@@ -579,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Hermite",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Hermite",
           "name": "Hermite",
           "package": "polynomial",
@@ -592,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Hermite",
           "name": "evalPhysHermite",
           "package": "polynomial",
@@ -601,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Hermite",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Hermite",
           "name": "evalPhysHermite",
           "normalized": "a-\u003eb-\u003eb",
@@ -616,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Hermite",
           "name": "evalPhysHermiteDeriv",
           "package": "polynomial",
@@ -625,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Hermite",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Hermite",
           "name": "evalPhysHermiteDeriv",
           "normalized": "a-\u003eb-\u003e(b,b)",
@@ -640,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Hermite",
           "name": "evalProbHermite",
           "package": "polynomial",
@@ -649,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Hermite",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Hermite",
           "name": "evalProbHermite",
           "normalized": "a-\u003eb-\u003eb",
@@ -664,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Hermite",
           "name": "evalProbHermiteDeriv",
           "package": "polynomial",
@@ -673,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Hermite",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Hermite",
           "name": "evalProbHermiteDeriv",
           "normalized": "a-\u003eb-\u003e(b,b)",
@@ -688,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Hermite",
           "name": "physHermite",
           "package": "polynomial",
@@ -697,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Hermite",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Hermite",
           "name": "physHermite",
           "normalized": "[Poly Integer]",
@@ -712,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Hermite",
           "name": "probHermite",
           "package": "polynomial",
@@ -721,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Hermite",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Hermite",
           "name": "probHermite",
           "normalized": "[Poly Integer]",
@@ -736,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Interpolation",
           "name": "Interpolation",
           "package": "polynomial",
@@ -744,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Interpolation",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Interpolation",
           "name": "Interpolation",
           "package": "polynomial",
@@ -758,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFit a polynomial to a set of points by iteratively evaluating the \n interpolated polynomial (using \u003ccode\u003e\u003ca\u003epolyInterp\u003c/a\u003e\u003c/code\u003e) at 0 to establish the\n constant coefficient and reducing the polynomial by subtracting that\n coefficient from all y's and dividing by their corresponding x's.\n\u003c/p\u003e\u003cp\u003eSlower than \u003ccode\u003e\u003ca\u003elagrangePolyFit\u003c/a\u003e\u003c/code\u003e but stable under different sets of \n conditions.\n\u003c/p\u003e\u003cp\u003eNote that computing the coefficients of a fitting polynomial is an \n inherently ill-conditioned problem.  In most cases it is both faster and \n more accurate to use \u003ccode\u003e\u003ca\u003epolyInterp\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003enevilleDiffs\u003c/a\u003e\u003c/code\u003e instead of evaluating\n a fitted polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Interpolation",
           "name": "iterativePolyFit",
           "package": "polynomial",
@@ -768,6 +829,7 @@
         "index": {
           "description": "Fit polynomial to set of points by iteratively evaluating the interpolated polynomial using polyInterp at to establish the constant coefficient and reducing the polynomial by subtracting that coefficient from all and dividing by their corresponding Slower than lagrangePolyFit but stable under different sets of conditions Note that computing the coefficients of fitting polynomial is an inherently ill-conditioned problem In most cases it is both faster and more accurate to use polyInterp or nevilleDiffs instead of evaluating fitted polynomial",
           "hierarchy": "Math Polynomial Interpolation",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Interpolation",
           "name": "iterativePolyFit",
           "normalized": "[(a,a)]-\u003ePoly a",
@@ -784,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFit a polynomial to a set of points using barycentric Lagrange polynomials.\n\u003c/p\u003e\u003cp\u003eNote that computing the coefficients of a fitting polynomial is an \n inherently ill-conditioned problem.  In most cases it is both faster and \n more accurate to use \u003ccode\u003e\u003ca\u003epolyInterp\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003enevilleDiffs\u003c/a\u003e\u003c/code\u003e instead of evaluating\n a fitted polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Interpolation",
           "name": "lagrangePolyFit",
           "package": "polynomial",
@@ -794,6 +857,7 @@
         "index": {
           "description": "Fit polynomial to set of points using barycentric Lagrange polynomials Note that computing the coefficients of fitting polynomial is an inherently ill-conditioned problem In most cases it is both faster and more accurate to use polyInterp or nevilleDiffs instead of evaluating fitted polynomial",
           "hierarchy": "Math Polynomial Interpolation",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Interpolation",
           "name": "lagrangePolyFit",
           "normalized": "[(a,a)]-\u003ePoly a",
@@ -810,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the tableau generated by Neville's algorithm.  Each successive\n row of the table is a list of interpolants one order higher than the previous,\n using a range of input points starting at the same position in the input\n list as the interpolant's position in the output list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Interpolation",
           "name": "neville",
           "package": "polynomial",
@@ -820,6 +885,7 @@
         "index": {
           "description": "Computes the tableau generated by Neville algorithm Each successive row of the table is list of interpolants one order higher than the previous using range of input points starting at the same position in the input list as the interpolant position in the output list",
           "hierarchy": "Math Polynomial Interpolation",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Interpolation",
           "name": "neville",
           "normalized": "[(a,a)]-\u003ea-\u003e[[a]]",
@@ -835,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the tableau generated by a modified form of Neville's algorithm\n described in Numerical Recipes, Ch. 3, Sec. 2, which records the differences\n between interpolants at each level.  Each pair (c,d) is the amount to add\n to the previous level's interpolant at either the same or the subsequent\n position (respectively) in order to obtain the new level's interpolant.\n Mathematically, either sum yields the same value, but due to numerical\n errors they may differ slightly, and some \"paths\" through the table\n may yield more accurate final results than others.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Interpolation",
           "name": "nevilleDiffs",
           "package": "polynomial",
@@ -845,6 +912,7 @@
         "index": {
           "description": "Computes the tableau generated by modified form of Neville algorithm described in Numerical Recipes Ch Sec which records the differences between interpolants at each level Each pair is the amount to add to the previous level interpolant at either the same or the subsequent position respectively in order to obtain the new level interpolant Mathematically either sum yields the same value but due to numerical errors they may differ slightly and some paths through the table may yield more accurate final results than others",
           "hierarchy": "Math Polynomial Interpolation",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Interpolation",
           "name": "nevilleDiffs",
           "normalized": "[(a,a)]-\u003ea-\u003e[[(a,a)]]",
@@ -861,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a polynomial passing through the specified set of points.  The\n order of the interpolating polynomial will (at most) be one less than \n the number of points given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Interpolation",
           "name": "polyInterp",
           "package": "polynomial",
@@ -871,6 +940,7 @@
         "index": {
           "description": "Evaluate polynomial passing through the specified set of points The order of the interpolating polynomial will at most be one less than the number of points given",
           "hierarchy": "Math Polynomial Interpolation",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Interpolation",
           "name": "polyInterp",
           "normalized": "[(a,a)]-\u003ea-\u003ea",
@@ -886,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Lagrange",
           "name": "Lagrange",
           "package": "polynomial",
@@ -894,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Lagrange",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Lagrange",
           "name": "Lagrange",
           "package": "polynomial",
@@ -908,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the Lagrange \u003ca\u003emaster polynomial\u003c/a\u003e for the Lagrange barycentric form:\n That is, the monic polynomial with a root at each point in the input list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Lagrange",
           "name": "lagrange",
           "package": "polynomial",
@@ -918,6 +991,7 @@
         "index": {
           "description": "Construct the Lagrange master polynomial for the Lagrange barycentric form That is the monic polynomial with root at each point in the input list",
           "hierarchy": "Math Polynomial Lagrange",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Lagrange",
           "name": "lagrange",
           "normalized": "[a]-\u003ePoly a",
@@ -933,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the Lagrange basis set of polynomials associated with a set of \n points. This is the set of polynomials each of which is \u003ccode\u003e1\u003c/code\u003e at its \n corresponding point in the input list and \u003ccode\u003e0\u003c/code\u003e at all others.\n\u003c/p\u003e\u003cp\u003eThese polynomials are especially convenient, mathematically, for \n interpolation.  The interpolating polynomial for a set of points  \u003ccode\u003e(x,y)\u003c/code\u003e \n is given by using the \u003ccode\u003ey\u003c/code\u003es as coefficients for the basis given by \n \u003ccode\u003elagrangeBasis xs\u003c/code\u003e.  Computationally, this is not an especially stable \n procedure though.  \u003ccode\u003eMath.Polynomial.Interpolation.lagrangePolyFit\u003c/code\u003e\n implements a slightly better algorithm based on the same idea.  \n\u003c/p\u003e\u003cp\u003eGenerally it is better to not compute the coefficients at all.  \n \u003ccode\u003eMath.Polynomial.Interpolation.polyInterp\u003c/code\u003e evaluates the interpolating\n polynomial directly, and is both quicker and more stable than any method\n I know of that computes the coefficients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Lagrange",
           "name": "lagrangeBasis",
           "package": "polynomial",
@@ -943,6 +1018,7 @@
         "index": {
           "description": "Returns the Lagrange basis set of polynomials associated with set of points This is the set of polynomials each of which is at its corresponding point in the input list and at all others These polynomials are especially convenient mathematically for interpolation The interpolating polynomial for set of points is given by using the as coefficients for the basis given by lagrangeBasis xs Computationally this is not an especially stable procedure though Math.Polynomial.Interpolation.lagrangePolyFit implements slightly better algorithm based on the same idea Generally it is better to not compute the coefficients at all Math.Polynomial.Interpolation.polyInterp evaluates the interpolating polynomial directly and is both quicker and more stable than any method know of that computes the coefficients",
           "hierarchy": "Math Polynomial Lagrange",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Lagrange",
           "name": "lagrangeBasis",
           "normalized": "[a]-\u003e[Poly a]",
@@ -959,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the weights associated with each abscissa in the Lagrange\n barycentric form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Lagrange",
           "name": "lagrangeWeights",
           "package": "polynomial",
@@ -969,6 +1046,7 @@
         "index": {
           "description": "Compute the weights associated with each abscissa in the Lagrange barycentric form",
           "hierarchy": "Math Polynomial Lagrange",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Lagrange",
           "name": "lagrangeWeights",
           "normalized": "[a]-\u003e[a]",
@@ -984,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Legendre",
           "name": "Legendre",
           "package": "polynomial",
@@ -992,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Legendre",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Legendre",
           "name": "Legendre",
           "package": "polynomial",
@@ -1006,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the n'th Legendre polynomial at a point X.  Both more efficient\n and more numerically stable than computing the coefficients and evaluating\n the polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Legendre",
           "name": "evalLegendre",
           "package": "polynomial",
@@ -1016,6 +1097,7 @@
         "index": {
           "description": "Evaluate the th Legendre polynomial at point Both more efficient and more numerically stable than computing the coefficients and evaluating the polynomial",
           "hierarchy": "Math Polynomial Legendre",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Legendre",
           "name": "evalLegendre",
           "normalized": "Int-\u003ea-\u003ea",
@@ -1032,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the n'th Legendre polynomial and its derivative at a point X.  \n Both more efficient and more numerically stable than computing the\n coefficients and evaluating the polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Legendre",
           "name": "evalLegendreDeriv",
           "package": "polynomial",
@@ -1042,6 +1125,7 @@
         "index": {
           "description": "Evaluate the th Legendre polynomial and its derivative at point Both more efficient and more numerically stable than computing the coefficients and evaluating the polynomial",
           "hierarchy": "Math Polynomial Legendre",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Legendre",
           "name": "evalLegendreDeriv",
           "normalized": "Int-\u003ea-\u003e(a,a)",
@@ -1058,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate all the Legendre polynomials at a point X.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Legendre",
           "name": "evalLegendres",
           "package": "polynomial",
@@ -1068,6 +1153,7 @@
         "index": {
           "description": "Evaluate all the Legendre polynomials at point",
           "hierarchy": "Math Polynomial Legendre",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Legendre",
           "name": "evalLegendres",
           "normalized": "a-\u003e[a]",
@@ -1084,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the coefficients of the n'th Legendre polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Legendre",
           "name": "legendre",
           "package": "polynomial",
@@ -1094,6 +1181,7 @@
         "index": {
           "description": "Compute the coefficients of the th Legendre polynomial",
           "hierarchy": "Math Polynomial Legendre",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Legendre",
           "name": "legendre",
           "normalized": "Int-\u003ePoly a",
@@ -1109,6 +1197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZeroes of the n'th Legendre polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Legendre",
           "name": "legendreRoots",
           "package": "polynomial",
@@ -1119,6 +1208,7 @@
         "index": {
           "description": "Zeroes of the th Legendre polynomial",
           "hierarchy": "Math Polynomial Legendre",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Legendre",
           "name": "legendreRoots",
           "normalized": "Int-\u003ea-\u003e[a]",
@@ -1135,6 +1225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Legendre polynomials with \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e coefficients.  These polynomials \n form an orthogonal basis of the space of all polynomials, relative to the \n L2 inner product on [-1,1] (which is given by integrating the product of\n 2 polynomials over that range).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Legendre",
           "name": "legendres",
           "package": "polynomial",
@@ -1145,6 +1236,7 @@
         "index": {
           "description": "The Legendre polynomials with Rational coefficients These polynomials form an orthogonal basis of the space of all polynomials relative to the L2 inner product on which is given by integrating the product of polynomials over that range",
           "hierarchy": "Math Polynomial Legendre",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Legendre",
           "name": "legendres",
           "normalized": "[Poly Rational]",
@@ -1159,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Newton",
           "name": "Newton",
           "package": "polynomial",
@@ -1167,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Newton",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Newton",
           "name": "Newton",
           "package": "polynomial",
@@ -1181,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the Newton basis set of polynomials associated with a set of \n abscissas.  This is the set of monic polynomials each of which is \u003ccode\u003e0\u003c/code\u003e \n at all previous points in the input list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Newton",
           "name": "newtonBasis",
           "package": "polynomial",
@@ -1191,6 +1286,7 @@
         "index": {
           "description": "Returns the Newton basis set of polynomials associated with set of abscissas This is the set of monic polynomials each of which is at all previous points in the input list",
           "hierarchy": "Math Polynomial Newton",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Newton",
           "name": "newtonBasis",
           "normalized": "[a]-\u003e[Poly a]",
@@ -1207,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports a \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e instance for the \u003ccode\u003e\u003ca\u003ePoly\u003c/a\u003e\u003c/code\u003e type.\n This instance does not implement all operations, because \u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esignum\u003c/a\u003e\u003c/code\u003e\n are simply not definable, so I have placed it into a separate module so\n that I can make people read this caveat ;).\n\u003c/p\u003e\u003cp\u003eUse at your own risk.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.NumInstance",
           "name": "NumInstance",
           "package": "polynomial",
@@ -1216,6 +1313,7 @@
         "index": {
           "description": "This module exports Num instance for the Poly type This instance does not implement all operations because abs and signum are simply not definable so have placed it into separate module so that can make people read this caveat Use at your own risk",
           "hierarchy": "Math Polynomial NumInstance",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.NumInstance",
           "name": "NumInstance",
           "package": "polynomial",
@@ -1230,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level interface for the \u003ccode\u003e\u003ca\u003ePoly\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "Type",
           "package": "polynomial",
@@ -1239,6 +1338,7 @@
         "index": {
           "description": "Low-level interface for the Poly type",
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "Type",
           "package": "polynomial",
@@ -1252,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "Endianness",
           "package": "polynomial",
@@ -1260,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "Endianness",
           "package": "polynomial",
@@ -1273,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "Poly",
           "package": "polynomial",
@@ -1281,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "Poly",
           "package": "polynomial",
@@ -1345,6 +1449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike fmap, but able to preserve unboxedness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "mapPoly",
           "package": "polynomial",
@@ -1355,6 +1460,7 @@
         "index": {
           "description": "Like fmap but able to preserve unboxedness",
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "mapPoly",
           "normalized": "(a-\u003ea)-\u003ePoly a-\u003ePoly a",
@@ -1501,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003ePoly\u003c/a\u003e\u003c/code\u003e from a list of coefficients, at most \u003ccode\u003en\u003c/code\u003e of which are significant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "polyN",
           "package": "polynomial",
@@ -1511,6 +1618,7 @@
         "index": {
           "description": "Make Poly from list of coefficients at most of which are significant",
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "polyN",
           "normalized": "Int-\u003eEndianness-\u003e[a]-\u003ePoly a",
@@ -1525,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "rawCoeffsOrder",
           "package": "polynomial",
@@ -1534,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "rawCoeffsOrder",
           "normalized": "Poly a-\u003eEndianness",
@@ -1550,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003ePoly\u003c/a\u003e\u003c/code\u003e from a list of coefficients using the specified coefficient order,\n without the \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e context (and therefore without trimming zeroes from the \n coefficient list)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "rawListPoly",
           "package": "polynomial",
@@ -1560,6 +1671,7 @@
         "index": {
           "description": "Make Poly from list of coefficients using the specified coefficient order without the Num context and therefore without trimming zeroes from the coefficient list",
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "rawListPoly",
           "normalized": "Endianness-\u003e[a]-\u003ePoly a",
@@ -1575,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "rawListPolyN",
           "package": "polynomial",
@@ -1584,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "rawListPolyN",
           "normalized": "Int-\u003eEndianness-\u003e[a]-\u003ePoly a",
@@ -1599,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "rawPolyCoeffs",
           "package": "polynomial",
@@ -1608,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "rawPolyCoeffs",
           "normalized": "Poly a-\u003e[a]",
@@ -1623,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "rawPolyDegree",
           "package": "polynomial",
@@ -1632,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "rawPolyDegree",
           "normalized": "Poly a-\u003eInt",
@@ -1647,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "rawPolyLength",
           "package": "polynomial",
@@ -1656,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "rawPolyLength",
           "normalized": "Poly a-\u003eInt",
@@ -1671,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "rawUVectorPoly",
           "package": "polynomial",
@@ -1680,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "rawUVectorPoly",
           "normalized": "Endianness-\u003eVector a-\u003ePoly a",
@@ -1695,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "rawVectorPoly",
           "package": "polynomial",
@@ -1704,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "rawVectorPoly",
           "normalized": "Endianness-\u003eVector a-\u003ePoly a",
@@ -1720,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim zeroes from a polynomial (given a predicate for identifying zero).\n In particular, drops zeroes from the highest-order coefficients, so that\n \u003ccode\u003e0x^n + 0x^(n-1) + 0x^(n-2) + ... + ax^k + ...\u003c/code\u003e, \u003ccode\u003ea /= 0\u003c/code\u003e\n is normalized to \u003ccode\u003eax^k + ...\u003c/code\u003e.  \n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003e\u003ca\u003ePoly\u003c/a\u003e\u003c/code\u003e and all the standard constructors / destructors\n are defined using \u003ccode\u003etrim (0==)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "trim",
           "package": "polynomial",
@@ -1730,6 +1855,7 @@
         "index": {
           "description": "Trim zeroes from polynomial given predicate for identifying zero In particular drops zeroes from the highest-order coefficients so that n-1 n-2 ax is normalized to ax The Eq instance for Poly and all the standard constructors destructors are defined using trim",
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "trim",
           "normalized": "(a-\u003eBool)-\u003ePoly a-\u003ePoly a",
@@ -1744,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "unboxPoly",
           "package": "polynomial",
@@ -1753,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "unboxPoly",
           "normalized": "Poly a-\u003ePoly a",
@@ -1768,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "unboxedPoly",
           "package": "polynomial",
@@ -1777,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "unboxedPoly",
           "normalized": "Endianness-\u003e[a]-\u003ePoly a",
@@ -1792,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "unboxedPolyN",
           "package": "polynomial",
@@ -1801,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "unboxedPolyN",
           "normalized": "Int-\u003eEndianness-\u003e[a]-\u003ePoly a",
@@ -1816,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial.Type",
           "name": "untrimmedPolyCoeffs",
           "package": "polynomial",
@@ -1825,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial Type",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial.Type",
           "name": "untrimmedPolyCoeffs",
           "normalized": "Endianness-\u003ePoly a-\u003e[a]",
@@ -1864,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "Polynomial",
           "package": "polynomial",
@@ -1872,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "Polynomial",
           "package": "polynomial",
@@ -1885,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "Endianness",
           "package": "polynomial",
@@ -1893,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "Endianness",
           "package": "polynomial",
@@ -1906,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "Poly",
           "package": "polynomial",
@@ -1914,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "Poly",
           "package": "polynomial",
@@ -1928,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven polynomials \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e, computes the polynomial \u003ccode\u003eh\u003c/code\u003e such that:\n\u003c/p\u003e\u003cpre\u003e evalPoly h x = evalPoly f x + evalPoly g x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "addPoly",
           "package": "polynomial",
@@ -1938,6 +2079,7 @@
         "index": {
           "description": "Given polynomials and computes the polynomial such that evalPoly evalPoly evalPoly",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "addPoly",
           "normalized": "Poly a-\u003ePoly a-\u003ePoly a",
@@ -1954,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecomposePoly f g\u003c/code\u003e constructs the polynomial \u003ccode\u003eh\u003c/code\u003e such that:\n\u003c/p\u003e\u003cpre\u003e evalPoly h = evalPoly f . evalPoly g\n\u003c/pre\u003e\u003cp\u003eThis is a very expensive operation and, in general, returns a polynomial \n that is quite a bit more expensive to evaluate than \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e together\n (because it is of a much higher order than either).  Unless your \n polynomials are quite small or you are quite certain you need the\n coefficients of the composed polynomial, it is recommended that you \n simply evaluate \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e and explicitly compose the resulting \n functions.  This will usually be much more efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "composePoly",
           "package": "polynomial",
@@ -1964,6 +2107,7 @@
         "index": {
           "description": "composePoly constructs the polynomial such that evalPoly evalPoly evalPoly This is very expensive operation and in general returns polynomial that is quite bit more expensive to evaluate than and together because it is of much higher order than either Unless your polynomials are quite small or you are quite certain you need the coefficients of the composed polynomial it is recommended that you simply evaluate and and explicitly compose the resulting functions This will usually be much more efficient",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "composePoly",
           "normalized": "Poly a-\u003ePoly a-\u003ePoly a",
@@ -1980,6 +2124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven some constant \u003ccode\u003ek\u003c/code\u003e, construct the polynomial whose value is \n constantly \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "constPoly",
           "package": "polynomial",
@@ -1990,6 +2135,7 @@
         "index": {
           "description": "Given some constant construct the polynomial whose value is constantly",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "constPoly",
           "normalized": "a-\u003ePoly a",
@@ -2006,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Contract\" a polynomial by attempting to divide out a root.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003econtractPoly p a\u003c/code\u003e returns \u003ccode\u003e(q,r)\u003c/code\u003e such that \u003ccode\u003eq*(x-a) + r == p\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "contractPoly",
           "package": "polynomial",
@@ -2016,6 +2163,7 @@
         "index": {
           "description": "Contract polynomial by attempting to divide out root contractPoly returns such that x-a",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "contractPoly",
           "normalized": "Poly a-\u003ea-\u003e(Poly a,a)",
@@ -2032,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a polynomial at a point or, equivalently, convert a polynomial\n to the function it represents.  For example, \u003ccode\u003eevalPoly \u003ccode\u003e\u003ca\u003ex\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \n \u003ccode\u003eevalPoly (\u003ccode\u003e\u003ca\u003econstPoly\u003c/a\u003e\u003c/code\u003e k) = \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e k.\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "evalPoly",
           "package": "polynomial",
@@ -2042,6 +2191,7 @@
         "index": {
           "description": "Evaluate polynomial at point or equivalently convert polynomial to the function it represents For example evalPoly id and evalPoly constPoly const",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "evalPoly",
           "normalized": "Poly a-\u003ea-\u003ea",
@@ -2058,6 +2208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a polynomial and its derivative (respectively) at a point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "evalPolyDeriv",
           "package": "polynomial",
@@ -2068,6 +2219,7 @@
         "index": {
           "description": "Evaluate polynomial and its derivative respectively at point",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "evalPolyDeriv",
           "normalized": "Poly a-\u003ea-\u003e(a,a)",
@@ -2084,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a polynomial and all of its nonzero derivatives at a point.  \n This is roughly equivalent to:\n\u003c/p\u003e\u003cpre\u003e evalPolyDerivs p x = map (`evalPoly` x) (takeWhile (not . polyIsZero) (iterate polyDeriv p))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "evalPolyDerivs",
           "package": "polynomial",
@@ -2094,6 +2247,7 @@
         "index": {
           "description": "Evaluate polynomial and all of its nonzero derivatives at point This is roughly equivalent to evalPolyDerivs map evalPoly takeWhile not polyIsZero iterate polyDeriv",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "evalPolyDerivs",
           "normalized": "Poly a-\u003ea-\u003e[a]",
@@ -2110,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egcdPoly a b\u003c/code\u003e computes the highest order monic polynomial that is a \n divisor of both \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e.  If both \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e are \u003ccode\u003e\u003ca\u003ezero\u003c/a\u003e\u003c/code\u003e, the \n result is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "gcdPoly",
           "package": "polynomial",
@@ -2120,6 +2275,7 @@
         "index": {
           "description": "gcdPoly computes the highest order monic polynomial that is divisor of both and If both and are zero the result is undefined",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "gcdPoly",
           "normalized": "Poly a-\u003ePoly a-\u003ePoly a",
@@ -2136,6 +2292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize a polynomial so that its highest-order coefficient is 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "monicPoly",
           "package": "polynomial",
@@ -2146,6 +2303,7 @@
         "index": {
           "description": "Normalize polynomial so that its highest-order coefficient is",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "monicPoly",
           "normalized": "Poly a-\u003ePoly a",
@@ -2162,6 +2320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven polynomials \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e, computes the polynomial \u003ccode\u003eh\u003c/code\u003e such that:\n\u003c/p\u003e\u003cpre\u003e evalPoly h x = evalPoly f x * evalPoly g x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "multPoly",
           "package": "polynomial",
@@ -2172,6 +2331,7 @@
         "index": {
           "description": "Given polynomials and computes the polynomial such that evalPoly evalPoly evalPoly",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "multPoly",
           "normalized": "Poly a-\u003ePoly a-\u003ePoly a",
@@ -2188,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven some polynomial \u003ccode\u003ef\u003c/code\u003e, computes the polynomial \u003ccode\u003eg\u003c/code\u003e such that:\n\u003c/p\u003e\u003cpre\u003e evalPoly g x = negate (evalPoly f x)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "negatePoly",
           "package": "polynomial",
@@ -2198,6 +2359,7 @@
         "index": {
           "description": "Given some polynomial computes the polynomial such that evalPoly negate evalPoly",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "negatePoly",
           "normalized": "Poly a-\u003ePoly a",
@@ -2214,6 +2376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe polynomial \"1\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "one",
           "package": "polynomial",
@@ -2224,6 +2387,7 @@
         "index": {
           "description": "The polynomial",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "one",
           "package": "polynomial",
@@ -2237,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the derivative of a polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "polyDeriv",
           "package": "polynomial",
@@ -2247,6 +2412,7 @@
         "index": {
           "description": "Compute the derivative of polynomial",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "polyDeriv",
           "normalized": "Poly a-\u003ePoly a",
@@ -2263,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute all nonzero derivatives of a polynomial, starting with its \n \"zero'th derivative\", the original polynomial itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "polyDerivs",
           "package": "polynomial",
@@ -2273,6 +2440,7 @@
         "index": {
           "description": "Compute all nonzero derivatives of polynomial starting with its zero th derivative the original polynomial itself",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "polyDerivs",
           "normalized": "Poly a-\u003e[Poly a]",
@@ -2289,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the definite integral (from 0 to x) of a polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "polyIntegral",
           "package": "polynomial",
@@ -2299,6 +2468,7 @@
         "index": {
           "description": "Compute the definite integral from to of polynomial",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "polyIntegral",
           "normalized": "Poly a-\u003ePoly a",
@@ -2315,6 +2485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a polynomial \u003ccode\u003ef\u003c/code\u003e and exponent \u003ccode\u003en\u003c/code\u003e, computes the polynomial \u003ccode\u003eg\u003c/code\u003e\n such that:\n\u003c/p\u003e\u003cpre\u003e evalPoly g x = evalPoly f x ^ n\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "powPoly",
           "package": "polynomial",
@@ -2325,6 +2496,7 @@
         "index": {
           "description": "Given polynomial and exponent computes the polynomial such that evalPoly evalPoly",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "powPoly",
           "normalized": "Poly a-\u003eb-\u003ePoly a",
@@ -2340,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "quotPoly",
           "package": "polynomial",
@@ -2349,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "quotPoly",
           "normalized": "Poly a-\u003ePoly a-\u003ePoly a",
@@ -2365,6 +2539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven polynomials \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e, with \u003ccode\u003eb\u003c/code\u003e not \u003ccode\u003e\u003ca\u003ezero\u003c/a\u003e\u003c/code\u003e, computes polynomials\n \u003ccode\u003eq\u003c/code\u003e and \u003ccode\u003er\u003c/code\u003e such that:\n\u003c/p\u003e\u003cpre\u003e addPoly (multPoly q b) r == a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "quotRemPoly",
           "package": "polynomial",
@@ -2375,6 +2550,7 @@
         "index": {
           "description": "Given polynomials and with not zero computes polynomials and such that addPoly multPoly",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "quotRemPoly",
           "normalized": "Poly a-\u003ePoly a-\u003e(Poly a,Poly a)",
@@ -2390,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "remPoly",
           "package": "polynomial",
@@ -2399,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "remPoly",
           "normalized": "Poly a-\u003ePoly a-\u003ePoly a",
@@ -2415,6 +2593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven some scalar \u003ccode\u003es\u003c/code\u003e and a polynomial \u003ccode\u003ef\u003c/code\u003e, computes the polynomial \u003ccode\u003eg\u003c/code\u003e\n such that:\n\u003c/p\u003e\u003cpre\u003e evalPoly g x = s * evalPoly f x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "scalePoly",
           "package": "polynomial",
@@ -2425,6 +2604,7 @@
         "index": {
           "description": "Given some scalar and polynomial computes the polynomial such that evalPoly evalPoly",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "scalePoly",
           "normalized": "a-\u003ePoly a-\u003ePoly a",
@@ -2441,6 +2621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate a nonzero polynomial into a set of factors none of which have\n multiple roots, and the product of which is the original polynomial.\n Note that if division is not exact, it may fail to separate roots.  \n Rational coefficients is a good idea.\n\u003c/p\u003e\u003cp\u003eUseful when applicable as a way to simplify root-finding problems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "separateRoots",
           "package": "polynomial",
@@ -2451,6 +2632,7 @@
         "index": {
           "description": "Separate nonzero polynomial into set of factors none of which have multiple roots and the product of which is the original polynomial Note that if division is not exact it may fail to separate roots Rational coefficients is good idea Useful when applicable as way to simplify root-finding problems",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "separateRoots",
           "normalized": "Poly a-\u003e[Poly a]",
@@ -2466,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "sumPolys",
           "package": "polynomial",
@@ -2475,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "sumPolys",
           "normalized": "[Poly a]-\u003ePoly a",
@@ -2491,6 +2675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe polynomial (in x) \"x\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:07 UTC 2014",
           "module": "Math.Polynomial",
           "name": "x",
           "package": "polynomial",
@@ -2501,6 +2686,7 @@
         "index": {
           "description": "The polynomial in",
           "hierarchy": "Math Polynomial",
+          "indexed": "2014-03-11T19:41:07",
           "module": "Math.Polynomial",
           "name": "x",
           "package": "polynomial",

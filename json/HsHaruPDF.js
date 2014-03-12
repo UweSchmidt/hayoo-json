@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HsHaruPDF"
+        "phrase": "HsHaruPDF",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "Haru",
           "package": "HsHaruPDF",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "Haru",
           "package": "HsHaruPDF",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "BOOL",
           "package": "HsHaruPDF",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "BOOL",
           "package": "HsHaruPDF",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "Doc",
           "package": "HsHaruPDF",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "Doc",
           "package": "HsHaruPDF",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "FontDef",
           "package": "HsHaruPDF",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "FontDef",
           "package": "HsHaruPDF",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "FontName",
           "package": "HsHaruPDF",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "FontName",
           "package": "HsHaruPDF",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "HPDF_Doc",
           "package": "HsHaruPDF",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "HPDF_Doc",
           "package": "HsHaruPDF",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "HPDF_Error_Handler",
           "package": "HsHaruPDF",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "HPDF_Error_Handler",
           "package": "HsHaruPDF",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "HPDF_FontDef",
           "package": "HsHaruPDF",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "HPDF_FontDef",
           "package": "HsHaruPDF",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "HPDF_Page",
           "package": "HsHaruPDF",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "HPDF_Page",
           "package": "HsHaruPDF",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "Page",
           "package": "HsHaruPDF",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "Page",
           "package": "HsHaruPDF",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "Size",
           "package": "HsHaruPDF",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "Size",
           "package": "HsHaruPDF",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "X",
           "package": "HsHaruPDF",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "X",
           "package": "HsHaruPDF",
@@ -269,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "Y",
           "package": "HsHaruPDF",
@@ -277,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "Y",
           "package": "HsHaruPDF",
@@ -289,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "_HPDF_FALSE",
           "package": "HsHaruPDF",
@@ -298,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "_HPDF_FALSE",
           "package": "HsHaruPDF",
@@ -311,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "_HPDF_TRUE",
           "package": "HsHaruPDF",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "_HPDF_TRUE",
           "package": "HsHaruPDF",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "addPage",
           "package": "HsHaruPDF",
@@ -342,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "addPage",
           "normalized": "Doc-\u003eIO Page",
@@ -357,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "beginText",
           "package": "HsHaruPDF",
@@ -366,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "beginText",
           "normalized": "Page-\u003eIO()",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "endText",
           "package": "HsHaruPDF",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "endText",
           "normalized": "Page-\u003eIO()",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "errorHandler",
           "package": "HsHaruPDF",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "errorHandler",
           "package": "HsHaruPDF",
@@ -427,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "freeDoc",
           "package": "HsHaruPDF",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "freeDoc",
           "normalized": "Doc-\u003eIO()",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "getFont",
           "package": "HsHaruPDF",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "getFont",
           "normalized": "Doc-\u003eCString-\u003eCString-\u003eIO FontDef",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "loadFontEmbedded",
           "package": "HsHaruPDF",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "loadFontEmbedded",
           "normalized": "Doc-\u003eString-\u003eIO FontDef",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "loadTTFontFromFile",
           "package": "HsHaruPDF",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "loadTTFontFromFile",
           "normalized": "Doc-\u003eCString-\u003eBOOL-\u003eIO CString",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "mkErrorHandlerCallback",
           "package": "HsHaruPDF",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "mkErrorHandlerCallback",
           "normalized": "HPDF_Error_Handler-\u003eIO(FunPtr HPDF_Error_Handler)",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "moveTextPos",
           "package": "HsHaruPDF",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "moveTextPos",
           "normalized": "Page-\u003eX-\u003eY-\u003eIO()",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "newDoc",
           "package": "HsHaruPDF",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "newDoc",
           "normalized": "FunPtr HPDF_Error_Handler-\u003ePtr()-\u003eIO Doc",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "saveToFile",
           "package": "HsHaruPDF",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "saveToFile",
           "normalized": "Doc-\u003eCString-\u003eIO()",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "setFontAndSize",
           "package": "HsHaruPDF",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "setFontAndSize",
           "normalized": "Page-\u003eFontDef-\u003eCFloat-\u003eIO()",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "setHeight",
           "package": "HsHaruPDF",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "setHeight",
           "normalized": "Page-\u003eY-\u003eIO()",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "setWidth",
           "package": "HsHaruPDF",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "setWidth",
           "normalized": "Page-\u003eX-\u003eIO()",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "showText",
           "package": "HsHaruPDF",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "showText",
           "normalized": "Page-\u003eCString-\u003eIO()",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "text",
           "package": "HsHaruPDF",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "text",
           "normalized": "Page-\u003eX-\u003eY-\u003eFontDef-\u003eSize-\u003eString-\u003eIO()",
@@ -738,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "withDoc",
           "package": "HsHaruPDF",
@@ -747,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "withDoc",
           "normalized": "String-\u003e(Doc-\u003eIO a)-\u003eIO a",
@@ -762,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:02 UTC 2014",
           "module": "Graphics.PDF.Haru",
           "name": "withPage",
           "package": "HsHaruPDF",
@@ -771,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Graphics PDF Haru",
+          "indexed": "2014-03-11T16:49:02",
           "module": "Graphics.PDF.Haru",
           "name": "withPage",
           "normalized": "Doc-\u003e(Page-\u003eIO a)-\u003eIO a",

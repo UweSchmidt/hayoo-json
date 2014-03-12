@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HandsomeSoup"
+        "phrase": "HandsomeSoup",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "Parser",
           "package": "HandsomeSoup",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "Parser",
           "package": "HandsomeSoup",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "Selector",
           "package": "HandsomeSoup",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "Selector",
           "package": "HandsomeSoup",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "ChildOf",
           "package": "HandsomeSoup",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "ChildOf",
           "package": "HandsomeSoup",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "FollowedBy",
           "package": "HandsomeSoup",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "FollowedBy",
           "package": "HandsomeSoup",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "Selector",
           "package": "HandsomeSoup",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "Selector",
           "package": "HandsomeSoup",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "Space",
           "package": "HandsomeSoup",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "Space",
           "package": "HandsomeSoup",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselects attributes, like \u003ccode\u003e [id] \u003c/code\u003e (element must have id) or \u003ccode\u003e [id=foo] \u003c/code\u003e (element must have id foo).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "attributeSelector",
           "package": "HandsomeSoup",
@@ -159,6 +172,7 @@
         "index": {
           "description": "selects attributes like id element must have id or id foo element must have id foo",
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "attributeSelector",
           "normalized": "ParsecT[Char]a Identity([Char],[Char])",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "childOf",
           "package": "HandsomeSoup",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "childOf",
           "normalized": "ParsecT[Char]a Identity Selector",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclass selector, selects \u003ccode\u003e .foo \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "classSelector",
           "package": "HandsomeSoup",
@@ -209,6 +226,7 @@
         "index": {
           "description": "class selector selects foo",
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "classSelector",
           "normalized": "ParsecT[Char]a Identity([Char],[Char])",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "css",
           "package": "HandsomeSoup",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "css",
           "normalized": "[Char]-\u003eEither ParseError[[Selector]]",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "followedBy",
           "package": "HandsomeSoup",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "followedBy",
           "normalized": "ParsecT[Char]a Identity Selector",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eid selector, selects \u003ccode\u003e #foo \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "idSelector",
           "package": "HandsomeSoup",
@@ -282,6 +305,7 @@
         "index": {
           "description": "id selector selects foo",
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "idSelector",
           "normalized": "ParsecT[Char]a Identity([Char],[Char])",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "ident",
           "package": "HandsomeSoup",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "ident",
           "normalized": "ParsecT[Char]a Identity String",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "nmchar",
           "package": "HandsomeSoup",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "nmchar",
           "normalized": "ParsecT[Char]a Identity Char",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "nmstart",
           "package": "HandsomeSoup",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "nmstart",
           "normalized": "ParsecT[Char]a Identity Char",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "pp",
           "package": "HandsomeSoup",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "pp",
           "normalized": "Selector-\u003e[Char]",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselects a pseudo-element or pseudo-class, like \u003ccode\u003e :link \u003c/code\u003e, \u003ccode\u003e :first-child \u003c/code\u003e etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "pseudoSelector",
           "package": "HandsomeSoup",
@@ -400,6 +433,7 @@
         "index": {
           "description": "selects pseudo-element or pseudo-class like link first-child etc",
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "pseudoSelector",
           "normalized": "ParsecT[Char]a Identity[Char]",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "sAttrs",
           "package": "HandsomeSoup",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "sAttrs",
           "normalized": "[(String,String)]",
@@ -439,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "sName",
           "package": "HandsomeSoup",
@@ -448,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "sName",
           "package": "HandsomeSoup",
@@ -462,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselector for everything after the type except pseudoSelectores\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "secondarySelector",
           "package": "HandsomeSoup",
@@ -472,6 +511,7 @@
         "index": {
           "description": "selector for everything after the type except pseudoSelectores",
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "secondarySelector",
           "normalized": "ParsecT[Char]a Identity[([Char],[Char])]",
@@ -488,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne or more simple selectors separated by combinators. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "selector",
           "package": "HandsomeSoup",
@@ -498,6 +539,7 @@
         "index": {
           "description": "One or more simple selectors separated by combinators",
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "selector",
           "normalized": "ParsecT[Char]a Identity[[Selector]]",
@@ -513,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple selector is either a type selector or universal selector followed immediately by zero or more attribute selectors, ID selectors, or pseudo-classes, in any order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "simpleSelector",
           "package": "HandsomeSoup",
@@ -523,6 +566,7 @@
         "index": {
           "description": "simple selector is either type selector or universal selector followed immediately by zero or more attribute selectors ID selectors or pseudo-classes in any order",
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "simpleSelector",
           "normalized": "ParsecT[Char]a Identity Selector",
@@ -539,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselects one or more secondary selectors\n and automatically prepends the universal selector to them.\n example: \u003ccode\u003e .foo \u003c/code\u003e, \u003ccode\u003e #hello \u003c/code\u003e etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "simpleSelectorNoTag",
           "package": "HandsomeSoup",
@@ -549,6 +594,7 @@
         "index": {
           "description": "selects one or more secondary selectors and automatically prepends the universal selector to them example foo hello etc",
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "simpleSelectorNoTag",
           "normalized": "ParsecT[Char]a Identity Selector",
@@ -565,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselects a tagname followed by one or more secondary selectors\n example: \u003ccode\u003e a.foo \u003c/code\u003e, \u003ccode\u003e *#hello \u003c/code\u003e, \u003ccode\u003e h1 \u003c/code\u003e etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "simpleSelectorTag",
           "package": "HandsomeSoup",
@@ -575,6 +622,7 @@
         "index": {
           "description": "selects tagname followed by one or more secondary selectors example a.foo hello h1 etc",
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "simpleSelectorTag",
           "normalized": "ParsecT[Char]a Identity Selector",
@@ -590,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "space_",
           "package": "HandsomeSoup",
@@ -599,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "space_",
           "normalized": "ParsecT[Char]a Identity Selector",
@@ -613,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "spseudoSelectores",
           "package": "HandsomeSoup",
@@ -622,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "spseudoSelectores",
           "normalized": "[String]",
@@ -638,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselects a tag name, like \u003ccode\u003e h1 \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "typeSelector",
           "package": "HandsomeSoup",
@@ -648,6 +701,7 @@
         "index": {
           "description": "selects tag name like h1",
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "typeSelector",
           "normalized": "ParsecT[Char]a Identity[Char]",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euniversal selector, selects \u003ccode\u003e * \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.CSS.Parser",
           "name": "universalSelector",
           "package": "HandsomeSoup",
@@ -674,6 +729,7 @@
         "index": {
           "description": "universal selector selects",
           "hierarchy": "Text CSS Parser",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.CSS.Parser",
           "name": "universalSelector",
           "normalized": "ParsecT[Char]a Identity String",
@@ -689,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.HandsomeSoup",
           "name": "HandsomeSoup",
           "package": "HandsomeSoup",
@@ -697,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Text HandsomeSoup",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.HandsomeSoup",
           "name": "HandsomeSoup",
           "package": "HandsomeSoup",
@@ -711,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut for getting attributes. Example:\n\u003c/p\u003e\u003cpre\u003e doc \u003e\u003e\u003e css \"a\" ! \"href\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.HandsomeSoup",
           "name": "(!)",
           "package": "HandsomeSoup",
@@ -721,6 +780,7 @@
         "index": {
           "description": "Shortcut for getting attributes Example doc css href",
           "hierarchy": "Text HandsomeSoup",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.HandsomeSoup",
           "name": "(!) !",
           "normalized": "a b XmlTree-\u003eString-\u003ea b String",
@@ -736,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA css selector for getting elements from a document. Example:\n\u003c/p\u003e\u003cpre\u003e doc \u003e\u003e\u003e css \"#menu li\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.HandsomeSoup",
           "name": "css",
           "package": "HandsomeSoup",
@@ -746,6 +807,7 @@
         "index": {
           "description": "css selector for getting elements from document Example doc css menu li",
           "hierarchy": "Text HandsomeSoup",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.HandsomeSoup",
           "name": "css",
           "normalized": "[Char]-\u003ea(NTree XNode)(NTree XNode)",
@@ -761,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a url, returns a document. Example:\n\u003c/p\u003e\u003cpre\u003e doc = fromUrl \"http://foo.com\"\n doc = fromUrl \"tests/test.html\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.HandsomeSoup",
           "name": "fromUrl",
           "package": "HandsomeSoup",
@@ -771,6 +834,7 @@
         "index": {
           "description": "Given url returns document Example doc fromUrl http foo.com doc fromUrl tests test.html",
           "hierarchy": "Text HandsomeSoup",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.HandsomeSoup",
           "name": "fromUrl",
           "normalized": "String-\u003eIOSArrow XmlTree(NTree XNode)",
@@ -787,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for getting page content. Example:\n\u003c/p\u003e\u003cpre\u003e contents \u003c- runMaybeT $ openUrl \"http://foo.com\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.HandsomeSoup",
           "name": "openUrl",
           "package": "HandsomeSoup",
@@ -797,6 +862,7 @@
         "index": {
           "description": "Helper function for getting page content Example contents runMaybeT openUrl http foo.com",
           "hierarchy": "Text HandsomeSoup",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.HandsomeSoup",
           "name": "openUrl",
           "normalized": "String-\u003eMaybeT IO String",
@@ -813,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a string, parses it and returns a document. Example:\n\u003c/p\u003e\u003cpre\u003e doc = parseHtml \"\u003ch1\u003ehello!\u003c/h1\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:32 UTC 2014",
           "module": "Text.HandsomeSoup",
           "name": "parseHtml",
           "package": "HandsomeSoup",
@@ -823,6 +890,7 @@
         "index": {
           "description": "Given string parses it and returns document Example doc parseHtml h1 hello h1",
           "hierarchy": "Text HandsomeSoup",
+          "indexed": "2014-03-11T16:47:32",
           "module": "Text.HandsomeSoup",
           "name": "parseHtml",
           "normalized": "String-\u003eIOSArrow XmlTree(NTree XNode)",

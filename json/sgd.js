@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sgd"
+        "phrase": "sgd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDataset abstraction.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Dataset",
           "name": "Dataset",
           "package": "sgd",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Dataset abstraction",
           "hierarchy": "Numeric SGD Dataset",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Dataset",
           "name": "Dataset",
           "package": "sgd",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dataset with elements of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Dataset",
           "name": "Dataset",
           "package": "sgd",
@@ -51,6 +54,7 @@
         "index": {
           "description": "dataset with elements of type",
           "hierarchy": "Numeric SGD Dataset",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Dataset",
           "name": "Dataset",
           "package": "sgd",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Dataset",
           "name": "Dataset",
           "package": "sgd",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Numeric SGD Dataset",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Dataset",
           "name": "Dataset",
           "package": "sgd",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet dataset element with a given index.  The set of indices\n is of a {0, 1, .., size - 1} form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Dataset",
           "name": "elemAt",
           "package": "sgd",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Get dataset element with given index The set of indices is of size form",
           "hierarchy": "Numeric SGD Dataset",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Dataset",
           "name": "elemAt",
           "normalized": "Int-\u003eIO a",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily load dataset from a disk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Dataset",
           "name": "loadData",
           "package": "sgd",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Lazily load dataset from disk",
           "hierarchy": "Numeric SGD Dataset",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Dataset",
           "name": "loadData",
           "normalized": "Dataset a-\u003eIO[a]",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dataset sample of the given size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Dataset",
           "name": "sample",
           "package": "sgd",
@@ -149,6 +160,7 @@
         "index": {
           "description": "dataset sample of the given size",
           "hierarchy": "Numeric SGD Dataset",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Dataset",
           "name": "sample",
           "normalized": "a-\u003eInt-\u003eDataset b-\u003eIO([b],a)",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA size of the dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Dataset",
           "name": "size",
           "package": "sgd",
@@ -174,6 +187,7 @@
         "index": {
           "description": "size of the dataset",
           "hierarchy": "Numeric SGD Dataset",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Dataset",
           "name": "size",
           "package": "sgd",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse disk or vector dataset representation depending on\n the first argument: when \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, use \u003ccode\u003e\u003ca\u003ewithDisk\u003c/a\u003e\u003c/code\u003e, otherwise\n use \u003ccode\u003e\u003ca\u003ewithVect\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Dataset",
           "name": "withData",
           "package": "sgd",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Use disk or vector dataset representation depending on the first argument when True use withDisk otherwise use withVect",
           "hierarchy": "Numeric SGD Dataset",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Dataset",
           "name": "withData",
           "normalized": "Bool-\u003e[a]-\u003e(Dataset a-\u003eIO b)-\u003eIO b",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct dataset from a list of elements, store it on a disk\n and run the given handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Dataset",
           "name": "withDisk",
           "package": "sgd",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Construct dataset from list of elements store it on disk and run the given handler",
           "hierarchy": "Numeric SGD Dataset",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Dataset",
           "name": "withDisk",
           "normalized": "[a]-\u003e(Dataset a-\u003eIO b)-\u003eIO b",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct dataset from a vector of elements and run the\n given handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Dataset",
           "name": "withVect",
           "package": "sgd",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Construct dataset from vector of elements and run the given handler",
           "hierarchy": "Numeric SGD Dataset",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Dataset",
           "name": "withVect",
           "normalized": "[a]-\u003e(Dataset a-\u003eIO b)-\u003eIO b",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA gradient is represented by an IntMap from gradient indices\n to values. Elements with no associated values in the gradient\n are assumed to have a 0 value assigned. Such elements are\n not interesting: when adding the gradient to the vector of\n parameters, only nonzero elements are taken into account.\n\u003c/p\u003e\u003cp\u003eEach value associated with a gradient position is a pair of\n positive and negative components. They are stored separately\n to ensure high accuracy of computation results.\n Besides, both positive and negative components are stored\n in a logarithmic domain.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Grad",
           "name": "Grad",
           "package": "sgd",
@@ -274,6 +295,7 @@
         "index": {
           "description": "gradient is represented by an IntMap from gradient indices to values Elements with no associated values in the gradient are assumed to have value assigned Such elements are not interesting when adding the gradient to the vector of parameters only nonzero elements are taken into account Each value associated with gradient position is pair of positive and negative components They are stored separately to ensure high accuracy of computation results Besides both positive and negative components are stored in logarithmic domain",
           "hierarchy": "Numeric SGD Grad",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Grad",
           "name": "Grad",
           "package": "sgd",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGradient with nonzero values stored in a logarithmic domain.\n Since values equal to zero have no impact on the update phase\n of the SGD method, it is more efficient to not to store those\n components in the gradient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Grad",
           "name": "Grad",
           "package": "sgd",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Gradient with nonzero values stored in logarithmic domain Since values equal to zero have no impact on the update phase of the SGD method it is more efficient to not to store those components in the gradient",
           "hierarchy": "Numeric SGD Grad",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Grad",
           "name": "Grad",
           "package": "sgd",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd normal-domain double to the gradient at the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Grad",
           "name": "add",
           "package": "sgd",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Add normal-domain double to the gradient at the given position",
           "hierarchy": "Numeric SGD Grad",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Grad",
           "name": "add",
           "normalized": "Grad-\u003eInt-\u003eDouble-\u003eGrad",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd log-domain, singed number to the gradient at the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Grad",
           "name": "addL",
           "package": "sgd",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Add log-domain singed number to the gradient at the given position",
           "hierarchy": "Numeric SGD Grad",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Grad",
           "name": "addL",
           "normalized": "Grad-\u003eInt-\u003eLogSigned-\u003eGrad",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty gradient, i.e. with all elements set to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Grad",
           "name": "empty",
           "package": "sgd",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Empty gradient i.e with all elements set to",
           "hierarchy": "Numeric SGD Grad",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Grad",
           "name": "empty",
           "package": "sgd",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct gradient from a list of (index, value) pairs.\n All values from the list are added at respective gradient\n positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Grad",
           "name": "fromList",
           "package": "sgd",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Construct gradient from list of index value pairs All values from the list are added at respective gradient positions",
           "hierarchy": "Numeric SGD Grad",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Grad",
           "name": "fromList",
           "normalized": "[(Int,Double)]-\u003eGrad",
@@ -410,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct gradient from a list of (index, signed, log-domain number)\n pairs.  All values from the list are added at respective gradient\n positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Grad",
           "name": "fromLogList",
           "package": "sgd",
@@ -420,6 +453,7 @@
         "index": {
           "description": "Construct gradient from list of index signed log-domain number pairs All values from the list are added at respective gradient positions",
           "hierarchy": "Numeric SGD Grad",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Grad",
           "name": "fromLogList",
           "normalized": "[(Int,LogSigned)]-\u003eGrad",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform parallel unions operation on gradient list. \n Experimental version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Grad",
           "name": "parUnions",
           "package": "sgd",
@@ -446,6 +481,7 @@
         "index": {
           "description": "Perform parallel unions operation on gradient list Experimental version",
           "hierarchy": "Numeric SGD Grad",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Grad",
           "name": "parUnions",
           "normalized": "[Grad]-\u003eGrad",
@@ -462,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect gradient components with values in normal domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.Grad",
           "name": "toList",
           "package": "sgd",
@@ -472,6 +509,7 @@
         "index": {
           "description": "Collect gradient components with values in normal domain",
           "hierarchy": "Numeric SGD Grad",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.Grad",
           "name": "toList",
           "normalized": "Grad-\u003e[(Int,Double)]",
@@ -488,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule provides data type for signed log-domain calculations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.LogSigned",
           "name": "LogSigned",
           "package": "sgd",
@@ -497,6 +536,7 @@
         "index": {
           "description": "Module provides data type for signed log-domain calculations",
           "hierarchy": "Numeric SGD LogSigned",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.LogSigned",
           "name": "LogSigned",
           "package": "sgd",
@@ -511,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigned real value in the logarithmic domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.LogSigned",
           "name": "LogSigned",
           "package": "sgd",
@@ -520,6 +561,7 @@
         "index": {
           "description": "Signed real value in the logarithmic domain",
           "hierarchy": "Numeric SGD LogSigned",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.LogSigned",
           "name": "LogSigned",
           "package": "sgd",
@@ -533,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.LogSigned",
           "name": "LogSigned",
           "package": "sgd",
@@ -542,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Numeric SGD LogSigned",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.LogSigned",
           "name": "LogSigned",
           "package": "sgd",
@@ -556,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake LogSigned from a negative, log-domain number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.LogSigned",
           "name": "fromNeg",
           "package": "sgd",
@@ -566,6 +611,7 @@
         "index": {
           "description": "Make LogSigned from negative log-domain number",
           "hierarchy": "Numeric SGD LogSigned",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.LogSigned",
           "name": "fromNeg",
           "normalized": "LogFloat-\u003eLogSigned",
@@ -582,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake LogSigned from a positive, log-domain number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.LogSigned",
           "name": "fromPos",
           "package": "sgd",
@@ -592,6 +639,7 @@
         "index": {
           "description": "Make LogSigned from positive log-domain number",
           "hierarchy": "Numeric SGD LogSigned",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.LogSigned",
           "name": "fromPos",
           "normalized": "LogFloat-\u003eLogSigned",
@@ -608,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart LogSigned constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.LogSigned",
           "name": "logSigned",
           "package": "sgd",
@@ -618,6 +667,7 @@
         "index": {
           "description": "Smart LogSigned constructor",
           "hierarchy": "Numeric SGD LogSigned",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.LogSigned",
           "name": "logSigned",
           "normalized": "Double-\u003eLogSigned",
@@ -634,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegative component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.LogSigned",
           "name": "neg",
           "package": "sgd",
@@ -644,6 +695,7 @@
         "index": {
           "description": "Negative component",
           "hierarchy": "Numeric SGD LogSigned",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.LogSigned",
           "name": "neg",
           "package": "sgd",
@@ -657,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositive component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.LogSigned",
           "name": "pos",
           "package": "sgd",
@@ -667,6 +720,7 @@
         "index": {
           "description": "Positive component",
           "hierarchy": "Numeric SGD LogSigned",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.LogSigned",
           "name": "pos",
           "package": "sgd",
@@ -680,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the \u003ccode\u003e\u003ca\u003eLogSigned\u003c/a\u003e\u003c/code\u003e to either negative \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLogFloat\u003c/a\u003e\u003c/code\u003e\n or positive \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLogFloat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.LogSigned",
           "name": "toLogFloat",
           "package": "sgd",
@@ -690,6 +745,7 @@
         "index": {
           "description": "Change the LogSigned to either negative Left LogFloat or positive Right LogFloat",
           "hierarchy": "Numeric SGD LogSigned",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.LogSigned",
           "name": "toLogFloat",
           "normalized": "LogSigned-\u003eEither LogFloat LogFloat",
@@ -706,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift LogSigned to a normal domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD.LogSigned",
           "name": "toNorm",
           "package": "sgd",
@@ -716,6 +773,7 @@
         "index": {
           "description": "Shift LogSigned to normal domain",
           "hierarchy": "Numeric SGD LogSigned",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD.LogSigned",
           "name": "toNorm",
           "normalized": "LogSigned-\u003eDouble",
@@ -732,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStochastic gradient descent implementation using mutable\n vectors for efficient update of the parameters vector.\n A user is provided with the immutable vector of parameters\n so he is able to compute the gradient outside of the IO monad.\n Currently only the Gaussian priors are implemented.\n\u003c/p\u003e\u003cp\u003eThis is a preliminary version of the SGD library and API may change\n in future versions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD",
           "name": "SGD",
           "package": "sgd",
@@ -741,6 +800,7 @@
         "index": {
           "description": "Stochastic gradient descent implementation using mutable vectors for efficient update of the parameters vector user is provided with the immutable vector of parameters so he is able to compute the gradient outside of the IO monad Currently only the Gaussian priors are implemented This is preliminary version of the SGD library and API may change in future versions",
           "hierarchy": "Numeric SGD",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD",
           "name": "SGD",
           "package": "sgd",
@@ -755,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector of parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD",
           "name": "Para",
           "package": "sgd",
@@ -764,6 +825,7 @@
         "index": {
           "description": "Vector of parameters",
           "hierarchy": "Numeric SGD",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD",
           "name": "Para",
           "package": "sgd",
@@ -778,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSGD parameters controlling the learning process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD",
           "name": "SgdArgs",
           "package": "sgd",
@@ -787,6 +850,7 @@
         "index": {
           "description": "SGD parameters controlling the learning process",
           "hierarchy": "Numeric SGD",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD",
           "name": "SgdArgs",
           "package": "sgd",
@@ -800,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD",
           "name": "SgdArgs",
           "package": "sgd",
@@ -809,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Numeric SGD",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD",
           "name": "SgdArgs",
           "package": "sgd",
@@ -823,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the batch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD",
           "name": "batchSize",
           "package": "sgd",
@@ -833,6 +900,7 @@
         "index": {
           "description": "Size of the batch",
           "hierarchy": "Numeric SGD",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD",
           "name": "batchSize",
           "package": "sgd",
@@ -847,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial gain parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD",
           "name": "gain0",
           "package": "sgd",
@@ -857,6 +926,7 @@
         "index": {
           "description": "Initial gain parameter",
           "hierarchy": "Numeric SGD",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD",
           "name": "gain0",
           "package": "sgd",
@@ -870,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of iterations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD",
           "name": "iterNum",
           "package": "sgd",
@@ -880,6 +951,7 @@
         "index": {
           "description": "Number of iterations",
           "hierarchy": "Numeric SGD",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD",
           "name": "iterNum",
           "package": "sgd",
@@ -894,6 +966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegularization variance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD",
           "name": "regVar",
           "package": "sgd",
@@ -904,6 +977,7 @@
         "index": {
           "description": "Regularization variance",
           "hierarchy": "Numeric SGD",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD",
           "name": "regVar",
           "package": "sgd",
@@ -918,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stochastic gradient descent method.\n A notification function can be used to provide user with\n information about the progress of the learning.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD",
           "name": "sgd",
           "package": "sgd",
@@ -927,6 +1002,7 @@
         "index": {
           "description": "stochastic gradient descent method notification function can be used to provide user with information about the progress of the learning",
           "hierarchy": "Numeric SGD",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD",
           "name": "sgd",
           "normalized": "SgdArgs-\u003e(Para-\u003eInt-\u003eIO())-\u003e(Para-\u003ea-\u003eGrad)-\u003eDataset a-\u003ePara-\u003eIO Para",
@@ -942,6 +1018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault SGD parameter values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD",
           "name": "sgdArgsDefault",
           "package": "sgd",
@@ -952,6 +1029,7 @@
         "index": {
           "description": "Default SGD parameter values",
           "hierarchy": "Numeric SGD",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD",
           "name": "sgdArgsDefault",
           "package": "sgd",
@@ -966,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfter how many iterations over the entire dataset\n the gain parameter is halved\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:40 UTC 2014",
           "module": "Numeric.SGD",
           "name": "tau",
           "package": "sgd",
@@ -976,6 +1055,7 @@
         "index": {
           "description": "After how many iterations over the entire dataset the gain parameter is halved",
           "hierarchy": "Numeric SGD",
+          "indexed": "2014-03-11T20:00:40",
           "module": "Numeric.SGD",
           "name": "tau",
           "package": "sgd",

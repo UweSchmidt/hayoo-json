@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ieee"
+        "phrase": "ieee",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type class for approximate and exact equalilty comparisons and instances\n for common data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Data.AEq",
           "name": "AEq",
           "package": "ieee",
@@ -28,6 +29,7 @@
         "index": {
           "description": "type class for approximate and exact equalilty comparisons and instances for common data types",
           "hierarchy": "Data AEq",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Data.AEq",
           "name": "AEq",
           "package": "ieee",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes with approximate and exact equality comparisons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Data.AEq",
           "name": "AEq",
           "package": "ieee",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Types with approximate and exact equality comparisons",
           "hierarchy": "Data AEq",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Data.AEq",
           "name": "AEq",
           "package": "ieee",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn approximate equality comparison operator.\n\u003c/p\u003e\u003cp\u003eFor real \u003ccode\u003e\u003ca\u003eIEEE\u003c/a\u003e\u003c/code\u003e types, two values are approximately equal in the\n following cases:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e at least half of their significand bits agree;\n\u003c/li\u003e\u003cli\u003e both values are less than \u003ccode\u003e\u003ca\u003eepsilon\u003c/a\u003e\u003c/code\u003e;\n\u003c/li\u003e\u003cli\u003e both values are \u003ccode\u003eNaN\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor complex \u003ccode\u003e\u003ca\u003eIEEE\u003c/a\u003e\u003c/code\u003e types, two values are approximately equal in the\n followiing cases:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e their magnitudes are approximately equal and the angle between\n     them is less than \u003ccode\u003e32*\u003ccode\u003e\u003ca\u003eepsilon\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e;\n\u003c/li\u003e\u003cli\u003e both magnitudes are less than \u003ccode\u003e\u003ca\u003eepsilon\u003c/a\u003e\u003c/code\u003e;\n\u003c/li\u003e\u003cli\u003e both have a \u003ccode\u003eNaN\u003c/code\u003e real or imaginary part.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAdmitedly, the \u003ccode\u003e32\u003c/code\u003e is a bit of a hack.  Future versions of the\n library may switch to a more principled test of the angle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Data.AEq",
           "name": "(~==)",
           "package": "ieee",
@@ -75,6 +80,7 @@
         "index": {
           "description": "An approximate equality comparison operator For real IEEE types two values are approximately equal in the following cases at least half of their significand bits agree both values are less than epsilon both values are NaN For complex IEEE types two values are approximately equal in the followiing cases their magnitudes are approximately equal and the angle between them is less than epsilon both magnitudes are less than epsilon both have NaN real or imaginary part Admitedly the is bit of hack Future versions of the library may switch to more principled test of the angle",
           "hierarchy": "Data AEq",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Data.AEq",
           "name": "(~==) ~==",
           "normalized": "a-\u003ea-\u003eBool",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exact equality comparison.\n\u003c/p\u003e\u003cp\u003eFor real \u003ccode\u003e\u003ca\u003eIEEE\u003c/a\u003e\u003c/code\u003e types, two values are equivalent in the\n following cases:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e both values are \u003ccode\u003e+0\u003c/code\u003e;\n\u003c/li\u003e\u003cli\u003e both values are \u003ccode\u003e-0\u003c/code\u003e;\n\u003c/li\u003e\u003cli\u003e both values are nonzero and equal to each other\n     (according to \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e);\n\u003c/li\u003e\u003cli\u003e both values are \u003ccode\u003eNaN\u003c/code\u003e with the same payload and sign.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor complex \u003ccode\u003e\u003ca\u003eIEEE\u003c/a\u003e\u003c/code\u003e types, two values are equivalent if their\n real and imaginary parts are equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Data.AEq",
           "name": "(===)",
           "package": "ieee",
@@ -100,6 +107,7 @@
         "index": {
           "description": "An exact equality comparison For real IEEE types two values are equivalent in the following cases both values are both values are both values are nonzero and equal to each other according to both values are NaN with the same payload and sign For complex IEEE types two values are equivalent if their real and imaginary parts are equivalent",
           "hierarchy": "Data AEq",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Data.AEq",
           "name": "(===) ===",
           "normalized": "a-\u003ea-\u003eBool",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations on IEEE floating point numbers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "IEEE",
           "package": "ieee",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Operations on IEEE floating point numbers",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "IEEE",
           "package": "ieee",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIEEE floating point types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "IEEE",
           "package": "ieee",
@@ -147,6 +158,7 @@
         "index": {
           "description": "IEEE floating point types",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "IEEE",
           "package": "ieee",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven two values with the same sign, return the value halfway\n between them on the IEEE number line.  If the signs of the values\n differ or either is \u003ccode\u003eNaN\u003c/code\u003e, the value is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "bisectIEEE",
           "package": "ieee",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Given two values with the same sign return the value halfway between them on the IEEE number line If the signs of the values differ or either is NaN the value is undefined",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "bisectIEEE",
           "normalized": "a-\u003ea-\u003ea",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecopySign x y\u003c/code\u003e returns \u003ccode\u003ex\u003c/code\u003e with its sign changed to \u003ccode\u003ey\u003c/code\u003e's.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "copySign",
           "package": "ieee",
@@ -197,6 +212,7 @@
         "index": {
           "description": "copySign returns with its sign changed to",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "copySign",
           "normalized": "a-\u003ea-\u003ea",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe smallest representalbe positive value \u003ccode\u003ex\u003c/code\u003e such that \u003ccode\u003e1 + x /= 1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "epsilon",
           "package": "ieee",
@@ -223,6 +240,7 @@
         "index": {
           "description": "The smallest representalbe positive value such that",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "epsilon",
           "package": "ieee",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if two values are \u003cem\u003eexactly\u003c/em\u003e (bitwise) equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "identicalIEEE",
           "package": "ieee",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Return True if two values are exactly bitwise equal",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "identicalIEEE",
           "normalized": "a-\u003ea-\u003eBool",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinity value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "infinity",
           "package": "ieee",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Infinity value",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "infinity",
           "package": "ieee",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe largest representable finite value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "maxFinite",
           "package": "ieee",
@@ -295,6 +318,7 @@
         "index": {
           "description": "The largest representable finite value",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "maxFinite",
           "package": "ieee",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the maximum of two values; if one value is \u003ccode\u003eNaN\u003c/code\u003e, return it.\n Prefer the first if both values are \u003ccode\u003eNaN\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "maxNaN",
           "package": "ieee",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Return the maximum of two values if one value is NaN return it Prefer the first if both values are NaN",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "maxNaN",
           "normalized": "a-\u003ea-\u003ea",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum \u003ccode\u003eNaN\u003c/code\u003e payload for type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "maxNaNPayload",
           "package": "ieee",
@@ -345,6 +372,7 @@
         "index": {
           "description": "Maximum NaN payload for type",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "maxNaNPayload",
           "normalized": "a-\u003eWord",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the maximum of two values; if one value is \u003ccode\u003eNaN\u003c/code\u003e, return the\n other.  Prefer the first if both values are \u003ccode\u003eNaN\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "maxNum",
           "package": "ieee",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Return the maximum of two values if one value is NaN return the other Prefer the first if both values are NaN",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "maxNum",
           "normalized": "a-\u003ea-\u003ea",
@@ -387,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the minimum of two values; if one value is \u003ccode\u003eNaN\u003c/code\u003e, return it.\n Prefer the first if both values are \u003ccode\u003eNaN\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "minNaN",
           "package": "ieee",
@@ -397,6 +428,7 @@
         "index": {
           "description": "Return the minimum of two values if one value is NaN return it Prefer the first if both values are NaN",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "minNaN",
           "normalized": "a-\u003ea-\u003ea",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe smallest representable positive normalized value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "minNormal",
           "package": "ieee",
@@ -423,6 +456,7 @@
         "index": {
           "description": "The smallest representable positive normalized value",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "minNormal",
           "package": "ieee",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the minimum of two values; if one value is \u003ccode\u003eNaN\u003c/code\u003e, return the\n other.  Prefer the first if both values are \u003ccode\u003eNaN\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "minNum",
           "package": "ieee",
@@ -447,6 +482,7 @@
         "index": {
           "description": "Return the minimum of two values if one value is NaN return the other Prefer the first if both values are NaN",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "minNum",
           "normalized": "a-\u003ea-\u003ea",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault \u003ccode\u003eNaN\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "nan",
           "package": "ieee",
@@ -473,6 +510,7 @@
         "index": {
           "description": "Default NaN value",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "nan",
           "package": "ieee",
@@ -486,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe payload stored in a \u003ccode\u003eNaN\u003c/code\u003e value.  Undefined if the argument\n is not \u003ccode\u003eNaN\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "nanPayload",
           "package": "ieee",
@@ -496,6 +535,7 @@
         "index": {
           "description": "The payload stored in NaN value Undefined if the argument is not NaN",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "nanPayload",
           "normalized": "a-\u003eWord",
@@ -512,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNaN\u003c/code\u003e value with a positive integer payload.  Payload must be\n ess than \u003ccode\u003e\u003ca\u003emaxNaNPayload\u003c/a\u003e\u003c/code\u003e.  Beware that while some platforms allow\n using \u003ccode\u003e0\u003c/code\u003e as a payload, this behavior is not portable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "nanWithPayload",
           "package": "ieee",
@@ -522,6 +563,7 @@
         "index": {
           "description": "NaN value with positive integer payload Payload must be ess than maxNaNPayload Beware that while some platforms allow using as payload this behavior is not portable",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "nanWithPayload",
           "normalized": "Word-\u003ea",
@@ -538,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the next smallest IEEE value (\u003ccode\u003e-Infinity\u003c/code\u003e and \u003ccode\u003eNaN\u003c/code\u003e are\n unchanged).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "predIEEE",
           "package": "ieee",
@@ -548,6 +591,7 @@
         "index": {
           "description": "Return the next smallest IEEE value Infinity and NaN are unchanged",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "predIEEE",
           "normalized": "a-\u003ea",
@@ -564,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of significand bits which are equal in the two arguments\n (equivalent to \u003ccode\u003efeqrel\u003c/code\u003e from the Tango Math library).  The result is\n between \u003ccode\u003e0\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003efloatDigits\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "sameSignificandBits",
           "package": "ieee",
@@ -574,6 +619,7 @@
         "index": {
           "description": "The number of significand bits which are equal in the two arguments equivalent to feqrel from the Tango Math library The result is between and floatDigits",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "sameSignificandBits",
           "normalized": "a-\u003ea-\u003eInt",
@@ -590,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the next largest IEEE value (\u003ccode\u003eInfinity\u003c/code\u003e and \u003ccode\u003eNaN\u003c/code\u003e are\n unchanged).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:04 UTC 2014",
           "module": "Numeric.IEEE",
           "name": "succIEEE",
           "package": "ieee",
@@ -600,6 +647,7 @@
         "index": {
           "description": "Return the next largest IEEE value Infinity and NaN are unchanged",
           "hierarchy": "Numeric IEEE",
+          "indexed": "2014-03-11T18:56:04",
           "module": "Numeric.IEEE",
           "name": "succIEEE",
           "normalized": "a-\u003ea",

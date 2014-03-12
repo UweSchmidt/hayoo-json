@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "editline"
+        "phrase": "editline",
+        "type": "phrase"
       },
       "type": "context"
     }

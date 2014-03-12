@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AWin32Console"
+        "phrase": "AWin32Console",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "kbq-gu"
+        "phrase": "kbq-gu",
+        "type": "phrase"
       },
       "type": "context"
     }

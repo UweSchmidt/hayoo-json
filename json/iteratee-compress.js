@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "iteratee-compress"
+        "phrase": "iteratee-compress",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "BZip",
           "package": "iteratee-compress",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "BZip",
           "package": "iteratee-compress",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes error in compression and decompression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "BZipException",
           "package": "iteratee-compress",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Denotes error in compression and decompression",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "BZipException",
           "package": "iteratee-compress",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes error is user-supplied parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "BZipParamsException",
           "package": "iteratee-compress",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Denotes error is user-supplied parameter",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "BZipParamsException",
           "package": "iteratee-compress",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compression level specify the tradeoff between speed and compression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "BlockSize",
           "package": "iteratee-compress",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The compression level specify the tradeoff between speed and compression",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "BlockSize",
           "package": "iteratee-compress",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of parameters for compression. For sane defaults use\n \u003ccode\u003e\u003ca\u003edefaultCompressParams\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "CompressParams",
           "package": "iteratee-compress",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Set of parameters for compression For sane defaults use defaultCompressParams",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "CompressParams",
           "package": "iteratee-compress",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of parameters for decompression. For sane defaults see \n \u003ccode\u003e\u003ca\u003edefaultDecompressParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "DecompressParams",
           "package": "iteratee-compress",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Set of parameters for decompression For sane defaults see defaultDecompressParams",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "DecompressParams",
           "package": "iteratee-compress",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "WorkFactor",
           "package": "iteratee-compress",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "WorkFactor",
           "package": "iteratee-compress",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe best compression method (however slowest)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "BestCompression",
           "package": "iteratee-compress",
@@ -186,6 +201,7 @@
         "index": {
           "description": "The best compression method however slowest",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "BestCompression",
           "package": "iteratee-compress",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fastest compression method (however less compression)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "BestSpeed",
           "package": "iteratee-compress",
@@ -210,6 +227,7 @@
         "index": {
           "description": "The fastest compression method however less compression",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "BestSpeed",
           "package": "iteratee-compress",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "CompressParams",
           "package": "iteratee-compress",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "CompressParams",
           "package": "iteratee-compress",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompression level set by number from 1 to 9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "CompressionLevel",
           "package": "iteratee-compress",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Compression level set by number from to",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "CompressionLevel",
           "package": "iteratee-compress",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebzip2 library internal error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "ConfigError",
           "package": "iteratee-compress",
@@ -280,6 +303,7 @@
         "index": {
           "description": "bzip2 library internal error",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "ConfigError",
           "package": "iteratee-compress",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorrupted input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "DataError",
           "package": "iteratee-compress",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Corrupted input",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "DataError",
           "package": "iteratee-compress",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncorrect magic number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "DataErrorMagic",
           "package": "iteratee-compress",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Incorrect magic number",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "DataErrorMagic",
           "package": "iteratee-compress",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "DecompressParams",
           "package": "iteratee-compress",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "DecompressParams",
           "package": "iteratee-compress",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault compression level set at 6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "DefaultBlockSize",
           "package": "iteratee-compress",
@@ -374,6 +405,7 @@
         "index": {
           "description": "Default compression level set at",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "DefaultBlockSize",
           "package": "iteratee-compress",
@@ -388,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault work factor (set at 30)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "DefaultWorkFactor",
           "package": "iteratee-compress",
@@ -398,6 +431,7 @@
         "index": {
           "description": "Default work factor set at",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "DefaultWorkFactor",
           "package": "iteratee-compress",
@@ -412,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncorrect block size was chosen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "IncorrectBlockSize",
           "package": "iteratee-compress",
@@ -422,6 +457,7 @@
         "index": {
           "description": "Incorrect block size was chosen",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "IncorrectBlockSize",
           "package": "iteratee-compress",
@@ -436,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncorrect buffer size was chosen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "IncorrectBufferSize",
           "package": "iteratee-compress",
@@ -446,6 +483,7 @@
         "index": {
           "description": "Incorrect buffer size was chosen",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "IncorrectBufferSize",
           "package": "iteratee-compress",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncorrect state - denotes error in library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "IncorrectState",
           "package": "iteratee-compress",
@@ -470,6 +509,7 @@
         "index": {
           "description": "Incorrect state denotes error in library",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "IncorrectState",
           "package": "iteratee-compress",
@@ -484,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncorrect work size was chosen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "IncorrectWorkFactor",
           "package": "iteratee-compress",
@@ -494,6 +535,7 @@
         "index": {
           "description": "Incorrect work size was chosen",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "IncorrectWorkFactor",
           "package": "iteratee-compress",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory allocation failed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "MemError",
           "package": "iteratee-compress",
@@ -518,6 +561,7 @@
         "index": {
           "description": "Memory allocation failed",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "MemError",
           "package": "iteratee-compress",
@@ -532,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnknown or unexpected error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "Unexpected",
           "package": "iteratee-compress",
@@ -542,6 +587,7 @@
         "index": {
           "description": "Unknown or unexpected error",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "Unexpected",
           "package": "iteratee-compress",
@@ -556,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHand-tuned work factor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "WorkFactor",
           "package": "iteratee-compress",
@@ -566,6 +613,7 @@
         "index": {
           "description": "Hand-tuned work factor",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "WorkFactor",
           "package": "iteratee-compress",
@@ -579,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "compressBlockSize",
           "package": "iteratee-compress",
@@ -588,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "compressBlockSize",
           "package": "iteratee-compress",
@@ -602,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of output buffer. That is the size of \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003es that will be\n emitted to inner iterator (except the last \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "compressBufferSize",
           "package": "iteratee-compress",
@@ -612,6 +663,7 @@
         "index": {
           "description": "The size of output buffer That is the size of Chunk that will be emitted to inner iterator except the last Chunk",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "compressBufferSize",
           "package": "iteratee-compress",
@@ -625,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "compressWorkFactor",
           "package": "iteratee-compress",
@@ -634,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "compressWorkFactor",
           "package": "iteratee-compress",
@@ -648,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of output buffer. That is the size of \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003es that will be\n emitted to inner iterator (except the last \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "decompressBufferSize",
           "package": "iteratee-compress",
@@ -658,6 +713,7 @@
         "index": {
           "description": "The size of output buffer That is the size of Chunk that will be emitted to inner iterator except the last Chunk",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "decompressBufferSize",
           "package": "iteratee-compress",
@@ -671,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "decompressSaveMemory",
           "package": "iteratee-compress",
@@ -680,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "decompressSaveMemory",
           "package": "iteratee-compress",
@@ -693,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "defaultCompressParams",
           "package": "iteratee-compress",
@@ -702,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "defaultCompressParams",
           "package": "iteratee-compress",
@@ -715,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "defaultDecompressParams",
           "package": "iteratee-compress",
@@ -724,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "defaultDecompressParams",
           "package": "iteratee-compress",
@@ -738,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress the input and send to inner iteratee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "enumCompress",
           "package": "iteratee-compress",
@@ -747,6 +810,7 @@
         "index": {
           "description": "Compress the input and send to inner iteratee",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "enumCompress",
           "normalized": "CompressParams-\u003eEnumeratee ByteString ByteString a b",
@@ -763,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompress the input and send to inner iteratee. If there is end of\n zlib stream it is left unprocessed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.BZip",
           "name": "enumDecompress",
           "package": "iteratee-compress",
@@ -773,6 +838,7 @@
         "index": {
           "description": "Decompress the input and send to inner iteratee If there is end of zlib stream it is left unprocessed",
           "hierarchy": "Data Iteratee BZip",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.BZip",
           "name": "enumDecompress",
           "normalized": "DecompressParams-\u003eEnumeratee ByteString ByteString a b",
@@ -788,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "ZLib",
           "package": "iteratee-compress",
@@ -796,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "ZLib",
           "package": "iteratee-compress",
@@ -810,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of parameters for compression. For sane defaults use\n \u003ccode\u003e\u003ca\u003edefaultCompressParams\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "CompressParams",
           "package": "iteratee-compress",
@@ -819,6 +888,7 @@
         "index": {
           "description": "Set of parameters for compression For sane defaults use defaultCompressParams",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "CompressParams",
           "package": "iteratee-compress",
@@ -833,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compression level specify the tradeoff between speed and compression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "CompressionLevel",
           "package": "iteratee-compress",
@@ -842,6 +913,7 @@
         "index": {
           "description": "The compression level specify the tradeoff between speed and compression",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "CompressionLevel",
           "package": "iteratee-compress",
@@ -856,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTunes the compress algorithm but does not affact the correctness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "CompressionStrategy",
           "package": "iteratee-compress",
@@ -865,6 +938,7 @@
         "index": {
           "description": "Tunes the compress algorithm but does not affact the correctness",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "CompressionStrategy",
           "package": "iteratee-compress",
@@ -879,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of parameters for decompression. For sane defaults see \n \u003ccode\u003e\u003ca\u003edefaultDecompressParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "DecompressParams",
           "package": "iteratee-compress",
@@ -888,6 +963,7 @@
         "index": {
           "description": "Set of parameters for decompression For sane defaults see defaultDecompressParams",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "DecompressParams",
           "package": "iteratee-compress",
@@ -902,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the format for compression and decompression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "Format",
           "package": "iteratee-compress",
@@ -911,6 +988,7 @@
         "index": {
           "description": "Specify the format for compression and decompression",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "Format",
           "package": "iteratee-compress",
@@ -925,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e specifies how much memory should be allocated for the\n internal state. It is a tradeoff between memory usage, speed and\n compression.\n Using more memory allows faster and better compression.\n\u003c/p\u003e\u003cp\u003eThe memory used for interal state, excluding \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e, is 512 bits times\n 2 to power of memory level.\n\u003c/p\u003e\u003cp\u003eThe total amount of memory use depends on the \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "MemoryLevel",
           "package": "iteratee-compress",
@@ -934,6 +1013,7 @@
         "index": {
           "description": "The MemoryLevel specifies how much memory should be allocated for the internal state It is tradeoff between memory usage speed and compression Using more memory allows faster and better compression The memory used for interal state excluding WindowBits is bits times to power of memory level The total amount of memory use depends on the WindowBits and MemoryLevel",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "MemoryLevel",
           "package": "iteratee-compress",
@@ -948,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the compression method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "Method",
           "package": "iteratee-compress",
@@ -957,6 +1038,7 @@
         "index": {
           "description": "Specify the compression method",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "Method",
           "package": "iteratee-compress",
@@ -971,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis specify the size of compression level. Larger values result in better\n compression at the expense of highier memory usage.\n\u003c/p\u003e\u003cp\u003eThe compression window size is 2 to the power of the value of the window\n bits. \n\u003c/p\u003e\u003cp\u003eThe total memory used depends on windows bits and \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "WindowBits",
           "package": "iteratee-compress",
@@ -980,6 +1063,7 @@
         "index": {
           "description": "This specify the size of compression level Larger values result in better compression at the expense of highier memory usage The compression window size is to the power of the value of the window bits The total memory used depends on windows bits and MemoryLevel",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "WindowBits",
           "package": "iteratee-compress",
@@ -994,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes error in compression and decompression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "ZLibException",
           "package": "iteratee-compress",
@@ -1003,6 +1088,7 @@
         "index": {
           "description": "Denotes error in compression and decompression",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "ZLibException",
           "package": "iteratee-compress",
@@ -1017,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes error is user-supplied parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "ZLibParamsException",
           "package": "iteratee-compress",
@@ -1026,6 +1113,7 @@
         "index": {
           "description": "Denotes error is user-supplied parameter",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "ZLibParamsException",
           "package": "iteratee-compress",
@@ -1040,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe best compression method (however slowest)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "BestCompression",
           "package": "iteratee-compress",
@@ -1050,6 +1139,7 @@
         "index": {
           "description": "The best compression method however slowest",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "BestCompression",
           "package": "iteratee-compress",
@@ -1064,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fastest compression method (however less compression)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "BestSpeed",
           "package": "iteratee-compress",
@@ -1074,6 +1165,7 @@
         "index": {
           "description": "The fastest compression method however less compression",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "BestSpeed",
           "package": "iteratee-compress",
@@ -1088,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer error - denotes a library error\n    | File Error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "BufferError",
           "package": "iteratee-compress",
@@ -1098,6 +1191,7 @@
         "index": {
           "description": "Buffer error denotes library error File Error",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "BufferError",
           "package": "iteratee-compress",
@@ -1111,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "CompressParams",
           "package": "iteratee-compress",
@@ -1120,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "CompressParams",
           "package": "iteratee-compress",
@@ -1134,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompression level set by number from 1 to 9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "CompressionLevel",
           "package": "iteratee-compress",
@@ -1144,6 +1241,7 @@
         "index": {
           "description": "Compression level set by number from to",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "CompressionLevel",
           "package": "iteratee-compress",
@@ -1158,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput data corrupted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "DataError",
           "package": "iteratee-compress",
@@ -1168,6 +1267,7 @@
         "index": {
           "description": "Input data corrupted",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "DataError",
           "package": "iteratee-compress",
@@ -1181,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "DecompressParams",
           "package": "iteratee-compress",
@@ -1190,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "DecompressParams",
           "package": "iteratee-compress",
@@ -1204,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault compression level set at 6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "DefaultCompression",
           "package": "iteratee-compress",
@@ -1214,6 +1317,7 @@
         "index": {
           "description": "Default compression level set at",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "DefaultCompression",
           "package": "iteratee-compress",
@@ -1228,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault memory level set to 8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "DefaultMemoryLevel",
           "package": "iteratee-compress",
@@ -1238,6 +1343,7 @@
         "index": {
           "description": "Default memory level set to",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "DefaultMemoryLevel",
           "package": "iteratee-compress",
@@ -1252,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault strategy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "DefaultStrategy",
           "package": "iteratee-compress",
@@ -1262,6 +1369,7 @@
         "index": {
           "description": "Default strategy",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "DefaultStrategy",
           "package": "iteratee-compress",
@@ -1276,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default window size which is 4kiB\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "DefaultWindowBits",
           "package": "iteratee-compress",
@@ -1286,6 +1395,7 @@
         "index": {
           "description": "The default window size which is kiB",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "DefaultWindowBits",
           "package": "iteratee-compress",
@@ -1300,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'Deflate' is so far the only method supported.          \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "Deflated",
           "package": "iteratee-compress",
@@ -1310,6 +1421,7 @@
         "index": {
           "description": "Deflate is so far the only method supported",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "Deflated",
           "package": "iteratee-compress",
@@ -1324,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the filtered compression strategy for data produced by a filter\n (or predictor). Filtered data consists mostly of small values with a\n somewhat random distribution. In this case, the compression algorithm\n is tuned to compress them better. The effect of this strategy is to\n force more Huffman coding and less string matching; it is somewhat\n intermediate between \u003ccode\u003e\u003ca\u003eDefaultStrategy\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eHuffmanOnly\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "Filtered",
           "package": "iteratee-compress",
@@ -1334,6 +1447,7 @@
         "index": {
           "description": "Use the filtered compression strategy for data produced by filter or predictor Filtered data consists mostly of small values with somewhat random distribution In this case the compression algorithm is tuned to compress them better The effect of this strategy is to force more Huffman coding and less string matching it is somewhat intermediate between DefaultStrategy and HuffmanOnly",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "Filtered",
           "package": "iteratee-compress",
@@ -1348,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe gzip format is widely used and uses a header with checksum and\n some optional metadata about the compress file.\n\u003c/p\u003e\u003cp\u003eIt is intended primarily for compressing individual files but is also\n used for network protocols such as HTTP.\n\u003c/p\u003e\u003cp\u003eThe format is described in RFC 1952 \n \u003ca\u003ehttp://www.ietf.org/rfc/rfc1952.txt\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "GZip",
           "package": "iteratee-compress",
@@ -1358,6 +1473,7 @@
         "index": {
           "description": "The gzip format is widely used and uses header with checksum and some optional metadata about the compress file It is intended primarily for compressing individual files but is also used for network protocols such as HTTP The format is described in RFC http www.ietf.org rfc rfc1952.txt",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "GZip",
           "package": "iteratee-compress",
@@ -1372,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003eFormat\u003c/a\u003e for decompressing a \u003ccode\u003e\u003ca\u003eZlib\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eGZip\u003c/a\u003e\u003c/code\u003e stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "GZipOrZlib",
           "package": "iteratee-compress",
@@ -1382,6 +1499,7 @@
         "index": {
           "description": "Format for decompressing Zlib or GZip stream",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "GZipOrZlib",
           "package": "iteratee-compress",
@@ -1396,6 +1514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the Huffman-only compression strategy to force Huffman encoding\n only (no string match). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "HuffmanOnly",
           "package": "iteratee-compress",
@@ -1406,6 +1525,7 @@
         "index": {
           "description": "Use the Huffman-only compression strategy to force Huffman encoding only no string match",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "HuffmanOnly",
           "package": "iteratee-compress",
@@ -1420,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncorrect compression level was chosen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "IncorrectCompressionLevel",
           "package": "iteratee-compress",
@@ -1430,6 +1551,7 @@
         "index": {
           "description": "Incorrect compression level was chosen",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "IncorrectCompressionLevel",
           "package": "iteratee-compress",
@@ -1444,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncorrect memory level was chosen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "IncorrectMemoryLevel",
           "package": "iteratee-compress",
@@ -1454,6 +1577,7 @@
         "index": {
           "description": "Incorrect memory level was chosen",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "IncorrectMemoryLevel",
           "package": "iteratee-compress",
@@ -1468,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncorrect state - denotes error in library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "IncorrectState",
           "package": "iteratee-compress",
@@ -1478,6 +1603,7 @@
         "index": {
           "description": "Incorrect state denotes error in library",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "IncorrectState",
           "package": "iteratee-compress",
@@ -1492,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncorrect number of window bits was chosen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "IncorrectWindowBits",
           "package": "iteratee-compress",
@@ -1502,6 +1629,7 @@
         "index": {
           "description": "Incorrect number of window bits was chosen",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "IncorrectWindowBits",
           "package": "iteratee-compress",
@@ -1516,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum memory level for optimal compression speed (equivalent to\n memory level 9).\n The internal state is 256kib or 32kiB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "MaxMemoryLevel",
           "package": "iteratee-compress",
@@ -1526,6 +1655,7 @@
         "index": {
           "description": "Maximum memory level for optimal compression speed equivalent to memory level The internal state is kib or kiB",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "MaxMemoryLevel",
           "package": "iteratee-compress",
@@ -1540,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot enough memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "MemoryError",
           "package": "iteratee-compress",
@@ -1550,6 +1681,7 @@
         "index": {
           "description": "Not enough memory",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "MemoryError",
           "package": "iteratee-compress",
@@ -1564,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific level. It have to be between 1 and 9. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "MemoryLevel",
           "package": "iteratee-compress",
@@ -1574,6 +1707,7 @@
         "index": {
           "description": "specific level It have to be between and",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "MemoryLevel",
           "package": "iteratee-compress",
@@ -1588,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the small amount of memory (equivalent to memory level 1) - i.e.\n 1024b or 256 B.\n It slow and reduces the compresion ratio.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "MinMemoryLevel",
           "package": "iteratee-compress",
@@ -1598,6 +1733,7 @@
         "index": {
           "description": "Use the small amount of memory equivalent to memory level i.e or It slow and reduces the compresion ratio",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "MinMemoryLevel",
           "package": "iteratee-compress",
@@ -1612,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompression requires user-supplied dictionary (not supported)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "NeedDictionary",
           "package": "iteratee-compress",
@@ -1622,6 +1759,7 @@
         "index": {
           "description": "Decompression requires user-supplied dictionary not supported",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "NeedDictionary",
           "package": "iteratee-compress",
@@ -1636,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo compression, just a block copy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "NoCompression",
           "package": "iteratee-compress",
@@ -1646,6 +1785,7 @@
         "index": {
           "description": "No compression just block copy",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "NoCompression",
           "package": "iteratee-compress",
@@ -1660,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 'raw' format is just the DEFLATE compressed data stream without\n and additionl headers. \n\u003c/p\u003e\u003cp\u003eThr format is described in RFC 1951\n \u003ca\u003ehttp://www.ietf.org/rfc/rfc1951.txt\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "Raw",
           "package": "iteratee-compress",
@@ -1670,6 +1811,7 @@
         "index": {
           "description": "The raw format is just the DEFLATE compressed data stream without and additionl headers Thr format is described in RFC http www.ietf.org rfc rfc1951.txt",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "Raw",
           "package": "iteratee-compress",
@@ -1684,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of steam inconsistent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "StreamError",
           "package": "iteratee-compress",
@@ -1694,6 +1837,7 @@
         "index": {
           "description": "State of steam inconsistent",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "StreamError",
           "package": "iteratee-compress",
@@ -1708,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnexpected or unknown error - please report as bug\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "Unexpected",
           "package": "iteratee-compress",
@@ -1718,6 +1863,7 @@
         "index": {
           "description": "Unexpected or unknown error please report as bug",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "Unexpected",
           "package": "iteratee-compress",
@@ -1732,6 +1878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "VersionError",
           "package": "iteratee-compress",
@@ -1742,6 +1889,7 @@
         "index": {
           "description": "Version error",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "VersionError",
           "package": "iteratee-compress",
@@ -1756,6 +1904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of window bits. It have to be between \u003ccode\u003e8\u003c/code\u003e (which corresponds\n to 256b i.e. 32B) and \u003ccode\u003e15\u003c/code\u003e (which corresponds to 32 kib i.e. 4kiB).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "WindowBits",
           "package": "iteratee-compress",
@@ -1766,6 +1915,7 @@
         "index": {
           "description": "The size of window bits It have to be between which corresponds to i.e and which corresponds to kib i.e kiB",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "WindowBits",
           "package": "iteratee-compress",
@@ -1780,6 +1930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe zlib format uses a minimal header with a checksum but no other\n metadata. It is designed for use in network protocols.\n\u003c/p\u003e\u003cp\u003eThe format is described in RFC 1950\n \u003ca\u003ehttp://www.ietf.org/rfc/rfc1950.txt\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "Zlib",
           "package": "iteratee-compress",
@@ -1790,6 +1941,7 @@
         "index": {
           "description": "The zlib format uses minimal header with checksum but no other metadata It is designed for use in network protocols The format is described in RFC http www.ietf.org rfc rfc1950.txt",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "Zlib",
           "package": "iteratee-compress",
@@ -1804,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of output buffer. That is the size of \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003es that will be\n emitted to inner iterator (except the last \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "compressBufferSize",
           "package": "iteratee-compress",
@@ -1814,6 +1967,7 @@
         "index": {
           "description": "The size of output buffer That is the size of Chunk that will be emitted to inner iterator except the last Chunk",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "compressBufferSize",
           "package": "iteratee-compress",
@@ -1827,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "compressDictionary",
           "package": "iteratee-compress",
@@ -1836,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "compressDictionary",
           "package": "iteratee-compress",
@@ -1849,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "compressLevel",
           "package": "iteratee-compress",
@@ -1858,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "compressLevel",
           "package": "iteratee-compress",
@@ -1871,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "compressMemoryLevel",
           "package": "iteratee-compress",
@@ -1880,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "compressMemoryLevel",
           "package": "iteratee-compress",
@@ -1893,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "compressMethod",
           "package": "iteratee-compress",
@@ -1902,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "compressMethod",
           "package": "iteratee-compress",
@@ -1915,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "compressStrategy",
           "package": "iteratee-compress",
@@ -1924,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "compressStrategy",
           "package": "iteratee-compress",
@@ -1937,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "compressWindowBits",
           "package": "iteratee-compress",
@@ -1946,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "compressWindowBits",
           "package": "iteratee-compress",
@@ -1960,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of output buffer. That is the size of \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003es that will be\n emitted to inner iterator (except the last \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "decompressBufferSize",
           "package": "iteratee-compress",
@@ -1970,6 +2137,7 @@
         "index": {
           "description": "The size of output buffer That is the size of Chunk that will be emitted to inner iterator except the last Chunk",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "decompressBufferSize",
           "package": "iteratee-compress",
@@ -1983,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "decompressDictionary",
           "package": "iteratee-compress",
@@ -1992,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "decompressDictionary",
           "package": "iteratee-compress",
@@ -2006,6 +2176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWindow size - it have to be at least the size of\n \u003ccode\u003e\u003ca\u003ecompressWindowBits\u003c/a\u003e\u003c/code\u003e the stream was compressed with.\n\u003c/p\u003e\u003cp\u003eDefault in \u003ccode\u003e\u003ca\u003edefaultDecompressParams\u003c/a\u003e\u003c/code\u003e is the maximum window size - \n please do not touch it unless you know what you are doing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "decompressWindowBits",
           "package": "iteratee-compress",
@@ -2016,6 +2187,7 @@
         "index": {
           "description": "Window size it have to be at least the size of compressWindowBits the stream was compressed with Default in defaultDecompressParams is the maximum window size please do not touch it unless you know what you are doing",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "decompressWindowBits",
           "package": "iteratee-compress",
@@ -2029,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "defaultCompressParams",
           "package": "iteratee-compress",
@@ -2038,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "defaultCompressParams",
           "package": "iteratee-compress",
@@ -2051,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "defaultDecompressParams",
           "package": "iteratee-compress",
@@ -2060,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "defaultDecompressParams",
           "package": "iteratee-compress",
@@ -2074,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate block flush. If the enumerator is compressing it allows to\n finish current block. If the enumerator is decompressing it forces to stop \n on next block boundary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "enumBlockFlush",
           "package": "iteratee-compress",
@@ -2084,6 +2261,7 @@
         "index": {
           "description": "Enumerate block flush If the enumerator is compressing it allows to finish current block If the enumerator is decompressing it forces to stop on next block boundary",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "enumBlockFlush",
           "package": "iteratee-compress",
@@ -2098,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress the input and send to inner iteratee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "enumDeflate",
           "package": "iteratee-compress",
@@ -2107,6 +2286,7 @@
         "index": {
           "description": "Compress the input and send to inner iteratee",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "enumDeflate",
           "normalized": "Format-\u003eCompressParams-\u003eEnumeratee ByteString ByteString a b",
@@ -2123,6 +2303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate full flush. It flushes all pending output and reset the\n compression. It allows to restart from this point if compressed data was\n corrupted but it can affect the compression rate.\n\u003c/p\u003e\u003cp\u003eIt may be only used during compression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "enumFullFlush",
           "package": "iteratee-compress",
@@ -2133,6 +2314,7 @@
         "index": {
           "description": "Enumerate full flush It flushes all pending output and reset the compression It allows to restart from this point if compressed data was corrupted but it can affect the compression rate It may be only used during compression",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "enumFullFlush",
           "package": "iteratee-compress",
@@ -2147,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompress the input and send to inner iteratee. If there is end of\n zlib stream it is left unprocessed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "enumInflate",
           "package": "iteratee-compress",
@@ -2157,6 +2340,7 @@
         "index": {
           "description": "Decompress the input and send to inner iteratee If there is end of zlib stream it is left unprocessed",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "enumInflate",
           "normalized": "Format-\u003eDecompressParams-\u003eEnumeratee ByteString ByteString a b",
@@ -2173,6 +2357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate synchronise flush. It cause the all pending output to be flushed\n and all available input is sent to inner Iteratee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:18 UTC 2014",
           "module": "Data.Iteratee.ZLib",
           "name": "enumSyncFlush",
           "package": "iteratee-compress",
@@ -2183,6 +2368,7 @@
         "index": {
           "description": "Enumerate synchronise flush It cause the all pending output to be flushed and all available input is sent to inner Iteratee",
           "hierarchy": "Data Iteratee ZLib",
+          "indexed": "2014-03-11T19:00:18",
           "module": "Data.Iteratee.ZLib",
           "name": "enumSyncFlush",
           "package": "iteratee-compress",

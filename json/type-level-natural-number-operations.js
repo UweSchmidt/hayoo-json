@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-level-natural-number-operations"
+        "phrase": "type-level-natural-number-operations",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:38 UTC 2014",
           "module": "TypeLevel.NaturalNumber.Operations",
           "name": "Operations",
           "package": "type-level-natural-number-operations",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "TypeLevel NaturalNumber Operations",
+          "indexed": "2014-03-11T20:27:38",
           "module": "TypeLevel.NaturalNumber.Operations",
           "name": "Operations",
           "package": "type-level-natural-number-operations",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ePlus\u003c/a\u003e\u003c/code\u003e type family provides a function that subtracts two\n type-level natural numbers.  This function is implemented by\n induction on both arguments, with the base case being when the\n second argument is Zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:38 UTC 2014",
           "module": "TypeLevel.NaturalNumber.Operations",
           "name": "Minus",
           "package": "type-level-natural-number-operations",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The Plus type family provides function that subtracts two type-level natural numbers This function is implemented by induction on both arguments with the base case being when the second argument is Zero",
           "hierarchy": "TypeLevel NaturalNumber Operations",
+          "indexed": "2014-03-11T20:27:38",
           "module": "TypeLevel.NaturalNumber.Operations",
           "name": "Minus",
           "package": "type-level-natural-number-operations",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ePlus\u003c/a\u003e\u003c/code\u003e type family provides a function that adds two\n type-level natural numbers.  This function is implemented by\n induction on the first argument --- a fact that one should be aware\n of when using it in function signatures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:38 UTC 2014",
           "module": "TypeLevel.NaturalNumber.Operations",
           "name": "Plus",
           "package": "type-level-natural-number-operations",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The Plus type family provides function that adds two type-level natural numbers This function is implemented by induction on the first argument fact that one should be aware of when using it in function signatures",
           "hierarchy": "TypeLevel NaturalNumber Operations",
+          "indexed": "2014-03-11T20:27:38",
           "module": "TypeLevel.NaturalNumber.Operations",
           "name": "Plus",
           "package": "type-level-natural-number-operations",

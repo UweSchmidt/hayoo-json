@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "commsec-keyexchange"
+        "phrase": "commsec-keyexchange",
+        "type": "phrase"
       },
       "type": "context"
     }

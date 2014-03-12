@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "UMM"
+        "phrase": "UMM",
+        "type": "phrase"
       },
       "type": "context"
     }

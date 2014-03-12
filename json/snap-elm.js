@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snap-elm"
+        "phrase": "snap-elm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a few functions for conveniently serving\nElm files through the Snap web framework. Any changes made to\nthe served files will be reflected in the browser upon a refresh.\n\u003c/p\u003e\u003cp\u003eThe easiest way to get started is to use the default ElmOptions:\n\u003c/p\u003e\u003cpre\u003e app = makeSnaplet ... $ do\n     opts \u003c- defaultElmOptions\n     ...\n     addRoutes $ routes opts\n     ...\n\u003c/pre\u003e\u003cp\u003eThen, provide routes to the Elm runtime, and to any Elm files\nyou wish to serve.\n\u003c/p\u003e\u003cpre\u003e routes opts =\n     [ (\"/elm\", serveElmFile opts \"static/elm/test.elm\")\n     , ...\n     , serveElmRuntime opts\n     ]\n\u003c/pre\u003e\u003cp\u003eAdditionally, you can customize the URI of the Elm runtime,\nthe file path to the Elm runtime, or the paths to the\ndirectores that Elm will use to build and cache the compiled files.\n\u003c/p\u003e\u003cpre\u003e app = makeSnaplet ... $ do\n     opts \u003c- setElmBuildPath \"/tmp/elm\" \u003c$\u003e\n             setElmVerbose True \u003c$\u003e\n             defaultElmOptions\n     ...\n     addRoutes $ routes opts\n     ...\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003es supplied to setElm{Source,Build,Cache}Path can be\nrelative or absolute.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "Elm",
           "package": "snap-elm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides few functions for conveniently serving Elm files through the Snap web framework Any changes made to the served files will be reflected in the browser upon refresh The easiest way to get started is to use the default ElmOptions app makeSnaplet do opts defaultElmOptions addRoutes routes opts Then provide routes to the Elm runtime and to any Elm files you wish to serve routes opts elm serveElmFile opts static elm test.elm serveElmRuntime opts Additionally you can customize the URI of the Elm runtime the file path to the Elm runtime or the paths to the directores that Elm will use to build and cache the compiled files app makeSnaplet do opts setElmBuildPath tmp elm setElmVerbose True defaultElmOptions addRoutes routes opts The FilePath supplied to setElm Source Build Cache Path can be relative or absolute",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "Elm",
           "package": "snap-elm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of options to coordinate the serving of Elm files and runtime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "ElmOptions",
           "package": "snap-elm",
@@ -51,6 +54,7 @@
         "index": {
           "description": "set of options to coordinate the serving of Elm files and runtime",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "ElmOptions",
           "package": "snap-elm",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "ElmOptions",
           "package": "snap-elm",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "ElmOptions",
           "package": "snap-elm",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default set of options for serving Elm files.\n The values are as follows (IO aside):\n\u003c/p\u003e\u003cpre\u003e ElmOptions\n   { elmIsVerbose   = False\n   , elmRuntimeURI  = \"/static/js/elm-runtime.js\"\n   , elmRuntimePath = \u003cLanguage.Elm.runtime\u003e\n   , elmSourcePath  = \".\"\n   , elmBuildPath   = \"elm-build\"\n   , elmCachePath   = \"elm-cache\"\n   }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "defaultElmOptions",
           "package": "snap-elm",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The default set of options for serving Elm files The values are as follows IO aside ElmOptions elmIsVerbose False elmRuntimeURI static js elm-runtime.js elmRuntimePath Language.Elm.runtime elmSourcePath elmBuildPath elm-build elmCachePath elm-cache",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "defaultElmOptions",
           "package": "snap-elm",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "elmBuildPath",
           "package": "snap-elm",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "elmBuildPath",
           "package": "snap-elm",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "elmCachePath",
           "package": "snap-elm",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "elmCachePath",
           "package": "snap-elm",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "elmIsVerbose",
           "package": "snap-elm",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "elmIsVerbose",
           "package": "snap-elm",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "elmRuntimePath",
           "package": "snap-elm",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "elmRuntimePath",
           "package": "snap-elm",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "elmRuntimeURI",
           "package": "snap-elm",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "elmRuntimeURI",
           "package": "snap-elm",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "elmSourcePath",
           "package": "snap-elm",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "elmSourcePath",
           "package": "snap-elm",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServe a directory of Elm files.\n\u003c/p\u003e\u003cp\u003eFor example, a list of routes could contain:\n\u003c/p\u003e\u003cpre\u003e routes opts =\n   [ ...\n   , serveElmDirectory opts \"/elm\"\n   ]\n\u003c/pre\u003e\u003cp\u003eIn this example, if the ElmOptions contained \u003ccode\u003estatic/elm\u003c/code\u003e\n as the sourcePath, the route \u003ccode\u003eelm/file.elm\u003c/code\u003e would\n be handled by \u003ccode\u003eserveElmFile \u003ca\u003efile.elm\u003c/a\u003e\u003c/code\u003e, run with the working directory\n \u003ccode\u003estatic/elm\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "serveElmDirectory",
           "package": "snap-elm",
@@ -252,6 +273,7 @@
         "index": {
           "description": "Serve directory of Elm files For example list of routes could contain routes opts serveElmDirectory opts elm In this example if the ElmOptions contained static elm as the sourcePath the route elm file.elm would be handled by serveElmFile file.elm run with the working directory static elm",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "serveElmDirectory",
           "normalized": "ElmOptions-\u003eByteString-\u003e(ByteString,a())",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile and serve an Elm file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "serveElmFile",
           "package": "snap-elm",
@@ -278,6 +301,7 @@
         "index": {
           "description": "Compile and serve an Elm file",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "serveElmFile",
           "normalized": "ElmOptions-\u003eFilePath-\u003ea()",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA route handler for the Elm runtime. If given the \u003ccode\u003e\u003ca\u003eElmOptions\u003c/a\u003e\u003c/code\u003e used\n by \u003ccode\u003e\u003ca\u003eserveElmFile\u003c/a\u003e\u003c/code\u003e, it will place the runtime at the route the Elm file\n will expect, as per the \u003ccode\u003e\u003cscript src=\u003ca\u003e.../runtime.js\u003c/a\u003e\u003e\u003c/code\u003e element included\n in the compiled file's \u003ccode\u003e\u003chead\u003e\u003c/code\u003e section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "serveElmRuntime",
           "package": "snap-elm",
@@ -304,6 +329,7 @@
         "index": {
           "description": "route handler for the Elm runtime If given the ElmOptions used by serveElmFile it will place the runtime at the route the Elm file will expect as per the script src runtime.js element included in the compiled file head section",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "serveElmRuntime",
           "normalized": "ElmOptions-\u003e(ByteString,a())",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the directory to use for storing the compiled .html\n that \u003ccode\u003eelm\u003c/code\u003e produces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "setElmBuildPath",
           "package": "snap-elm",
@@ -330,6 +357,7 @@
         "index": {
           "description": "Set the directory to use for storing the compiled html that elm produces",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "setElmBuildPath",
           "normalized": "FilePath-\u003eElmOptions-\u003eElmOptions",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the directory to use for storing the .elmi and .elmo\n files that \u003ccode\u003eelm\u003c/code\u003e produces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "setElmCachePath",
           "package": "snap-elm",
@@ -356,6 +385,7 @@
         "index": {
           "description": "Set the directory to use for storing the elmi and elmo files that elm produces",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "setElmCachePath",
           "normalized": "FilePath-\u003eElmOptions-\u003eElmOptions",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e to some custom Elm runtime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "setElmRuntimePath",
           "package": "snap-elm",
@@ -382,6 +413,7 @@
         "index": {
           "description": "Set the FilePath to some custom Elm runtime",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "setElmRuntimePath",
           "normalized": "FilePath-\u003eElmOptions-\u003eElmOptions",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the URI at which to serve the Elm runtime JS file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "setElmRuntimeURI",
           "package": "snap-elm",
@@ -408,6 +441,7 @@
         "index": {
           "description": "Set the URI at which to serve the Elm runtime JS file",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "setElmRuntimeURI",
           "normalized": "ByteString-\u003eElmOptions-\u003eElmOptions",
@@ -424,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the directory to look for .elm files.\n This allows for the \u003ccode\u003eelm\u003c/code\u003e binary to properly find\n local Elm modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "setElmSourcePath",
           "package": "snap-elm",
@@ -434,6 +469,7 @@
         "index": {
           "description": "Set the directory to look for elm files This allows for the elm binary to properly find local Elm modules",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "setElmSourcePath",
           "normalized": "FilePath-\u003eElmOptions-\u003eElmOptions",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTell Elm to be verbose (print all executed commands and their output\n to stdout), or quiet (print nothing).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:08 UTC 2014",
           "module": "Snap.Elm",
           "name": "setElmVerbose",
           "package": "snap-elm",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Tell Elm to be verbose print all executed commands and their output to stdout or quiet print nothing",
           "hierarchy": "Snap Elm",
+          "indexed": "2014-03-11T20:05:08",
           "module": "Snap.Elm",
           "name": "setElmVerbose",
           "normalized": "Bool-\u003eElmOptions-\u003eElmOptions",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsql"
+        "phrase": "hsql",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManagement of handles and exception handling. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Core",
           "name": "Core",
           "package": "hsql",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Management of handles and exception handling",
           "hierarchy": "DB HSQL Core",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Core",
           "name": "Core",
           "package": "hsql",
@@ -69,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif closed, throws \u003ccode\u003e\u003ca\u003eSqlClosedHandle\u003c/a\u003e\u003c/code\u003e exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Core",
           "name": "checkHandle",
           "package": "hsql",
@@ -78,6 +81,7 @@
         "index": {
           "description": "if closed throws SqlClosedHandle exception",
           "hierarchy": "DB HSQL Core",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Core",
           "name": "checkHandle",
           "normalized": "MVar Bool-\u003eIO a-\u003eIO a",
@@ -94,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif closed, no action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Core",
           "name": "closeHandle",
           "package": "hsql",
@@ -103,6 +108,7 @@
         "index": {
           "description": "if closed no action",
           "hierarchy": "DB HSQL Core",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Core",
           "name": "closeHandle",
           "normalized": "MVar Bool-\u003eIO()-\u003eIO()",
@@ -172,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eSqlError\u003c/a\u003e\u003c/code\u003e type for a variety of DB specific error conditions,\nwith appropriate \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Error",
           "name": "Error",
           "package": "hsql",
@@ -181,6 +188,7 @@
         "index": {
           "description": "SqlError type for variety of DB specific error conditions with appropriate Show Typeable and Exception instances",
           "hierarchy": "DB HSQL Error",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Error",
           "name": "Error",
           "package": "hsql",
@@ -194,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Error",
           "name": "SqlError",
           "package": "hsql",
@@ -202,6 +211,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL Error",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Error",
           "name": "SqlError",
           "package": "hsql",
@@ -581,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eSqlBind\u003c/a\u003e\u003c/code\u003e instances for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.Diverse",
           "name": "Diverse",
           "package": "hsql",
@@ -590,6 +601,7 @@
         "index": {
           "description": "SqlBind instances for String Bool and Maybe",
           "hierarchy": "DB HSQL Type Diverse",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.Diverse",
           "name": "Diverse",
           "package": "hsql",
@@ -604,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeometric 2D types, equipped with \u003ccode\u003e\u003ca\u003eSqlBind\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Geometric",
           "package": "hsql",
@@ -613,6 +626,7 @@
         "index": {
           "description": "Geometric types equipped with SqlBind instances",
           "hierarchy": "DB HSQL Type Geometric",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Geometric",
           "package": "hsql",
@@ -627,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D rectangle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Box",
           "package": "hsql",
@@ -636,6 +651,7 @@
         "index": {
           "description": "rectangle",
           "hierarchy": "DB HSQL Type Geometric",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Box",
           "package": "hsql",
@@ -650,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D circle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Circle",
           "package": "hsql",
@@ -659,6 +676,7 @@
         "index": {
           "description": "circle",
           "hierarchy": "DB HSQL Type Geometric",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Circle",
           "package": "hsql",
@@ -673,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D straight line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Line",
           "package": "hsql",
@@ -682,6 +701,7 @@
         "index": {
           "description": "straight line",
           "hierarchy": "DB HSQL Type Geometric",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Line",
           "package": "hsql",
@@ -696,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D path, either open, or closed (looping). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Path",
           "package": "hsql",
@@ -705,6 +726,7 @@
         "index": {
           "description": "path either open or closed looping",
           "hierarchy": "DB HSQL Type Geometric",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Path",
           "package": "hsql",
@@ -719,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Point",
           "package": "hsql",
@@ -728,6 +751,7 @@
         "index": {
           "description": "point",
           "hierarchy": "DB HSQL Type Geometric",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Point",
           "package": "hsql",
@@ -742,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D polygon (without holes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Polygon",
           "package": "hsql",
@@ -751,6 +776,7 @@
         "index": {
           "description": "polygon without holes",
           "hierarchy": "DB HSQL Type Geometric",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.Geometric",
           "name": "Polygon",
           "package": "hsql",
@@ -1204,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNetwork addresses, equipped with \u003ccode\u003e\u003ca\u003eSqlBind\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.NetAddress",
           "name": "NetAddress",
           "package": "hsql",
@@ -1213,6 +1240,7 @@
         "index": {
           "description": "Network addresses equipped with SqlBind instances",
           "hierarchy": "DB HSQL Type NetAddress",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.NetAddress",
           "name": "NetAddress",
           "package": "hsql",
@@ -1227,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn IP4 address with netmask in CIDR notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.NetAddress",
           "name": "INetAddr",
           "package": "hsql",
@@ -1236,6 +1265,7 @@
         "index": {
           "description": "An IP4 address with netmask in CIDR notation",
           "hierarchy": "DB HSQL Type NetAddress",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.NetAddress",
           "name": "INetAddr",
           "package": "hsql",
@@ -1250,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA MAC network address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.NetAddress",
           "name": "MacAddr",
           "package": "hsql",
@@ -1259,6 +1290,7 @@
         "index": {
           "description": "MAC network address",
           "hierarchy": "DB HSQL Type NetAddress",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.NetAddress",
           "name": "MacAddr",
           "package": "hsql",
@@ -1572,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eSqlBind\u003c/a\u003e\u003c/code\u003e instances for \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.Numeric",
           "name": "Numeric",
           "package": "hsql",
@@ -1581,6 +1614,7 @@
         "index": {
           "description": "SqlBind instances for Int Int64 Integer Double and Float",
           "hierarchy": "DB HSQL Type Numeric",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.Numeric",
           "name": "Numeric",
           "package": "hsql",
@@ -1595,6 +1629,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eSqlBind\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003e\u003ca\u003eClockTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type.Time",
           "name": "Time",
           "package": "hsql",
@@ -1604,6 +1639,7 @@
         "index": {
           "description": "SqlBind instance for ClockTime",
           "hierarchy": "DB HSQL Type Time",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type.Time",
           "name": "Time",
           "package": "hsql",
@@ -1617,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type",
           "name": "Type",
           "package": "hsql",
@@ -1625,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL Type",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type",
           "name": "Type",
           "package": "hsql",
@@ -1639,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariety of common data types used in databases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "DB.HSQL.Type",
           "name": "SqlType",
           "package": "hsql",
@@ -1648,6 +1687,7 @@
         "index": {
           "description": "Variety of common data types used in databases",
           "hierarchy": "DB HSQL Type",
+          "indexed": "2014-03-11T18:50:28",
           "module": "DB.HSQL.Type",
           "name": "SqlType",
           "package": "hsql",
@@ -2814,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic type class & type definitions for DB interfacing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "Types",
           "package": "hsql",
@@ -2823,6 +2864,7 @@
         "index": {
           "description": "Basic type class type definitions for DB interfacing",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "Types",
           "package": "hsql",
@@ -2837,6 +2879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of the properties of a table column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "ColDef",
           "package": "hsql",
@@ -2846,6 +2889,7 @@
         "index": {
           "description": "Description of the properties of table column",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "ColDef",
           "package": "hsql",
@@ -2860,6 +2904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table column ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "ColId",
           "package": "hsql",
@@ -2869,6 +2914,7 @@
         "index": {
           "description": "table column ID",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "ColId",
           "package": "hsql",
@@ -2883,6 +2929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e type represents a connection to a database,\n through which you can operate on the it.\n In order to create the connection you need to use the \u003ccode\u003econnect\u003c/code\u003e function\n from the module for your prefered backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "Connection",
           "package": "hsql",
@@ -2892,6 +2939,7 @@
         "index": {
           "description": "Connection type represents connection to database through which you can operate on the it In order to create the connection you need to use the connect function from the module for your prefered backend",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "Connection",
           "package": "hsql",
@@ -2906,6 +2954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA DB generic field extraction function, specifiable by \n field definition, receiving the content code and its length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "FieldReader",
           "package": "hsql",
@@ -2915,6 +2964,7 @@
         "index": {
           "description": "DB generic field extraction function specifiable by field definition receiving the content code and its length",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "FieldReader",
           "package": "hsql",
@@ -2929,6 +2979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn extraction of a field of type to be specified by requester,\n from a row index with source \u003ccode\u003e\u003ca\u003eColDef\u003c/a\u003e\u003c/code\u003e, applying an appropriate \n \u003ccode\u003e\u003ca\u003eFieldReader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "FieldReading",
           "package": "hsql",
@@ -2938,6 +2989,7 @@
         "index": {
           "description": "An extraction of field of type to be specified by requester from row index with source ColDef applying an appropriate FieldReader",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "FieldReading",
           "package": "hsql",
@@ -2952,6 +3004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether fields of a table col may be NULL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "Nullability",
           "package": "hsql",
@@ -2961,6 +3014,7 @@
         "index": {
           "description": "Whether fields of table col may be NULL",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "Nullability",
           "package": "hsql",
@@ -2975,6 +3029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn SQL Query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "SQL",
           "package": "hsql",
@@ -2984,6 +3039,7 @@
         "index": {
           "description": "An SQL Query",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "SQL",
           "package": "hsql",
@@ -2998,6 +3054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to Show and Read adapted to SQL expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "SqlBind",
           "package": "hsql",
@@ -3007,6 +3064,7 @@
         "index": {
           "description": "Equivalent to Show and Read adapted to SQL expressions",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "SqlBind",
           "package": "hsql",
@@ -3020,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "SqlError",
           "package": "hsql",
@@ -3028,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "SqlError",
           "package": "hsql",
@@ -3042,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariety of common data types used in databases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "SqlType",
           "package": "hsql",
@@ -3051,6 +3112,7 @@
         "index": {
           "description": "Variety of common data types used in databases",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "SqlType",
           "package": "hsql",
@@ -3065,6 +3127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eStatement\u003c/a\u003e\u003c/code\u003e type represents a result from the execution of given\n SQL query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "Statement",
           "package": "hsql",
@@ -3074,6 +3137,7 @@
         "index": {
           "description": "The Statement type represents result from the execution of given SQL query",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "Statement",
           "package": "hsql",
@@ -3088,6 +3152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "TableId",
           "package": "hsql",
@@ -3097,6 +3162,7 @@
         "index": {
           "description": "table ID",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "TableId",
           "package": "hsql",
@@ -3110,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "Connection",
           "package": "hsql",
@@ -3119,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "Connection",
           "package": "hsql",
@@ -3132,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "Statement",
           "package": "hsql",
@@ -3141,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "Statement",
           "package": "hsql",
@@ -3155,6 +3225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebegin of a transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "connBeginTransaction",
           "package": "hsql",
@@ -3165,6 +3236,7 @@
         "index": {
           "description": "begin of transaction",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "connBeginTransaction",
           "normalized": "IO()",
@@ -3181,6 +3253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclosing state of the connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "connClosed",
           "package": "hsql",
@@ -3191,6 +3264,7 @@
         "index": {
           "description": "closing state of the connection",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "connClosed",
           "package": "hsql",
@@ -3205,6 +3279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecommit of a pending transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "connCommitTransaction",
           "package": "hsql",
@@ -3215,6 +3290,7 @@
         "index": {
           "description": "commit of pending transaction",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "connCommitTransaction",
           "normalized": "IO()",
@@ -3231,6 +3307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eretrieval of the field defs of a table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "connDescribe",
           "package": "hsql",
@@ -3241,6 +3318,7 @@
         "index": {
           "description": "retrieval of the field defs of table",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "connDescribe",
           "normalized": "TableId-\u003eIO[ColDef]",
@@ -3257,6 +3335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisconnect action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "connDisconnect",
           "package": "hsql",
@@ -3267,6 +3346,7 @@
         "index": {
           "description": "disconnect action",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "connDisconnect",
           "normalized": "IO()",
@@ -3283,6 +3363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equery execution action (without return value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "connExecute",
           "package": "hsql",
@@ -3293,6 +3374,7 @@
         "index": {
           "description": "query execution action without return value",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "connExecute",
           "normalized": "SQL-\u003eIO()",
@@ -3309,6 +3391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equery action with return value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "connQuery",
           "package": "hsql",
@@ -3319,6 +3402,7 @@
         "index": {
           "description": "query action with return value",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "connQuery",
           "normalized": "SQL-\u003eIO Statement",
@@ -3335,6 +3419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erollback of a pending transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "connRollbackTransaction",
           "package": "hsql",
@@ -3345,6 +3430,7 @@
         "index": {
           "description": "rollback of pending transaction",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "connRollbackTransaction",
           "normalized": "IO()",
@@ -3361,6 +3447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eretrieval of the names of the tables in reach\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "connTables",
           "package": "hsql",
@@ -3371,6 +3458,7 @@
         "index": {
           "description": "retrieval of the names of the tables in reach",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "connTables",
           "normalized": "IO[TableId]",
@@ -3387,6 +3475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread from SQL expression in binary representation,\n by support of its \u003ccode\u003e\u003ca\u003eColDef\u003c/a\u003e\u003c/code\u003e and code size info.\n This allows for faster conversion for e.g. integral numeric types,\n etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "fromSqlCStringLen",
           "package": "hsql",
@@ -3397,6 +3486,7 @@
         "index": {
           "description": "read from SQL expression in binary representation by support of its ColDef and code size info This allows for faster conversion for e.g integral numeric types etc",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "fromSqlCStringLen",
           "package": "hsql",
@@ -3411,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread from an SQL expression in text representation, \n by support of its \u003ccode\u003e\u003ca\u003eSqlType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "fromSqlValue",
           "package": "hsql",
@@ -3421,6 +3512,7 @@
         "index": {
           "description": "read from an SQL expression in text representation by support of its SqlType",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "fromSqlValue",
           "normalized": "SqlType-\u003eSQL-\u003eMaybe a",
@@ -3437,6 +3529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclose action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "stmtClose",
           "package": "hsql",
@@ -3447,6 +3540,7 @@
         "index": {
           "description": "close action",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "stmtClose",
           "normalized": "IO()",
@@ -3463,6 +3557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck whether the statement is closed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "stmtClosed",
           "package": "hsql",
@@ -3473,6 +3568,7 @@
         "index": {
           "description": "check whether the statement is closed",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "stmtClosed",
           "package": "hsql",
@@ -3487,6 +3583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDB connection the statement depends on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "stmtConn",
           "package": "hsql",
@@ -3497,6 +3594,7 @@
         "index": {
           "description": "DB connection the statement depends on",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "stmtConn",
           "package": "hsql",
@@ -3511,6 +3609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eincrementation of the row pointer and indication\n whether this is still in range of available rows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "stmtFetch",
           "package": "hsql",
@@ -3521,6 +3620,7 @@
         "index": {
           "description": "incrementation of the row pointer and indication whether this is still in range of available rows",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "stmtFetch",
           "package": "hsql",
@@ -3535,6 +3635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efield descriptors for each result table column\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "stmtFields",
           "package": "hsql",
@@ -3545,6 +3646,7 @@
         "index": {
           "description": "field descriptors for each result table column",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "stmtFields",
           "normalized": "[ColDef]",
@@ -3561,6 +3663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eFieldReading\u003c/a\u003e\u003c/code\u003e function applicable for each row\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "stmtGetCol",
           "package": "hsql",
@@ -3571,6 +3674,7 @@
         "index": {
           "description": "FieldReading function applicable for each row",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "stmtGetCol",
           "package": "hsql",
@@ -3585,6 +3689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshow as an SQL expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL.Types",
           "name": "toSqlValue",
           "package": "hsql",
@@ -3595,6 +3700,7 @@
         "index": {
           "description": "show as an SQL expression",
           "hierarchy": "Database HSQL Types",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL.Types",
           "name": "toSqlValue",
           "normalized": "a-\u003eSQL",
@@ -3610,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "HSQL",
           "package": "hsql",
@@ -3618,6 +3725,7 @@
         },
         "index": {
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "HSQL",
           "package": "hsql",
@@ -3632,6 +3740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D rectangle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "Box",
           "package": "hsql",
@@ -3641,6 +3750,7 @@
         "index": {
           "description": "rectangle",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "Box",
           "package": "hsql",
@@ -3655,6 +3765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D circle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "Circle",
           "package": "hsql",
@@ -3664,6 +3775,7 @@
         "index": {
           "description": "circle",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "Circle",
           "package": "hsql",
@@ -3678,6 +3790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of the properties of a table column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "ColDef",
           "package": "hsql",
@@ -3687,6 +3800,7 @@
         "index": {
           "description": "Description of the properties of table column",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "ColDef",
           "package": "hsql",
@@ -3701,6 +3815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e type represents a connection to a database,\n through which you can operate on the it.\n In order to create the connection you need to use the \u003ccode\u003econnect\u003c/code\u003e function\n from the module for your prefered backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "Connection",
           "package": "hsql",
@@ -3710,6 +3825,7 @@
         "index": {
           "description": "Connection type represents connection to database through which you can operate on the it In order to create the connection you need to use the connect function from the module for your prefered backend",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "Connection",
           "package": "hsql",
@@ -3724,6 +3840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn IP4 address with netmask in CIDR notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "INetAddr",
           "package": "hsql",
@@ -3733,6 +3850,7 @@
         "index": {
           "description": "An IP4 address with netmask in CIDR notation",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "INetAddr",
           "package": "hsql",
@@ -3747,6 +3865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D straight line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "Line",
           "package": "hsql",
@@ -3756,6 +3875,7 @@
         "index": {
           "description": "straight line",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "Line",
           "package": "hsql",
@@ -3770,6 +3890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA MAC network address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "MacAddr",
           "package": "hsql",
@@ -3779,6 +3900,7 @@
         "index": {
           "description": "MAC network address",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "MacAddr",
           "package": "hsql",
@@ -3793,6 +3915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D path, either open, or closed (looping). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "Path",
           "package": "hsql",
@@ -3802,6 +3925,7 @@
         "index": {
           "description": "path either open or closed looping",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "Path",
           "package": "hsql",
@@ -3816,6 +3940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "Point",
           "package": "hsql",
@@ -3825,6 +3950,7 @@
         "index": {
           "description": "point",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "Point",
           "package": "hsql",
@@ -3839,6 +3965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D polygon (without holes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "Polygon",
           "package": "hsql",
@@ -3848,6 +3975,7 @@
         "index": {
           "description": "polygon without holes",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "Polygon",
           "package": "hsql",
@@ -3862,6 +3990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn SQL Query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "SQL",
           "package": "hsql",
@@ -3871,6 +4000,7 @@
         "index": {
           "description": "An SQL Query",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "SQL",
           "package": "hsql",
@@ -3885,6 +4015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to Show and Read adapted to SQL expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "SqlBind",
           "package": "hsql",
@@ -3894,6 +4025,7 @@
         "index": {
           "description": "Equivalent to Show and Read adapted to SQL expressions",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "SqlBind",
           "package": "hsql",
@@ -3907,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "SqlError",
           "package": "hsql",
@@ -3915,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "SqlError",
           "package": "hsql",
@@ -3929,6 +4063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariety of common data types used in databases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "SqlType",
           "package": "hsql",
@@ -3938,6 +4073,7 @@
         "index": {
           "description": "Variety of common data types used in databases",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "SqlType",
           "package": "hsql",
@@ -3952,6 +4088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eStatement\u003c/a\u003e\u003c/code\u003e type represents a result from the execution of given\n SQL query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "Statement",
           "package": "hsql",
@@ -3961,6 +4098,7 @@
         "index": {
           "description": "The Statement type represents result from the execution of given SQL query",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "Statement",
           "package": "hsql",
@@ -3975,6 +4113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecloseStatement\u003c/a\u003e\u003c/code\u003e stops processing associated with a specific statement,\n closes any open cursors associated with the statement, discards pending\n results, and frees all resources associated with the statement.\n Performing \u003ccode\u003e\u003ca\u003ecloseStatement\u003c/a\u003e\u003c/code\u003e on a statement that has already been closed\n has no effect. All other operations on a closed statement will fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "closeStatement",
           "package": "hsql",
@@ -3985,6 +4124,7 @@
         "index": {
           "description": "closeStatement stops processing associated with specific statement closes any open cursors associated with the statement discards pending results and frees all resources associated with the statement Performing closeStatement on statement that has already been closed has no effect All other operations on closed statement will fail",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "closeStatement",
           "normalized": "Statement-\u003eIO()",
@@ -4001,6 +4141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ecollectRows\u003c/a\u003e\u003c/code\u003e function iterates through the result set in \u003ccode\u003e\u003ca\u003eStatement\u003c/a\u003e\u003c/code\u003e\n and executes the given action for each row in the set. The values returned\n from action are collected and returned as list. The function closes the\n \u003ccode\u003e\u003ca\u003eStatement\u003c/a\u003e\u003c/code\u003e after the last row processing or if the given action raises an\n exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "collectRows",
           "package": "hsql",
@@ -4011,6 +4152,7 @@
         "index": {
           "description": "The collectRows function iterates through the result set in Statement and executes the given action for each row in the set The values returned from action are collected and returned as list The function closes the Statement after the last row processing or if the given action raises an exception",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "collectRows",
           "normalized": "(Statement-\u003eIO a)-\u003eStatement-\u003eIO[a]",
@@ -4027,6 +4169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all columns in a table along with their types and \u003ccode\u003enullable\u003c/code\u003e flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "describe",
           "package": "hsql",
@@ -4036,6 +4179,7 @@
         "index": {
           "description": "List all columns in table along with their types and nullable flags",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "describe",
           "normalized": "Connection-\u003eTableId-\u003eIO[ColDef]",
@@ -4051,6 +4195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses the connection. Performing \u003ccode\u003e\u003ca\u003edisconnect\u003c/a\u003e\u003c/code\u003e on a connection that has\n already been closed has no effect.\n All other operations on a closed connection will fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "disconnect",
           "package": "hsql",
@@ -4061,6 +4206,7 @@
         "index": {
           "description": "Closes the connection Performing disconnect on connection that has already been closed has no effect All other operations on closed connection will fail",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "disconnect",
           "normalized": "Connection-\u003eIO()",
@@ -4076,6 +4222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubmits a command to the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "execute",
           "package": "hsql",
@@ -4085,6 +4232,7 @@
         "index": {
           "description": "Submits command to the database",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "execute",
           "normalized": "Connection-\u003eSQL-\u003eIO()",
@@ -4100,6 +4248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efetch\u003c/a\u003e\u003c/code\u003e fetches the next rowset of data from the result set.\n The values from columns can be retrieved with \u003ccode\u003e\u003ca\u003egetFieldValue\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "fetch",
           "package": "hsql",
@@ -4110,6 +4259,7 @@
         "index": {
           "description": "fetch fetches the next rowset of data from the result set The values from columns can be retrieved with getFieldValue function",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "fetch",
           "normalized": "Statement-\u003eIO Bool",
@@ -4125,6 +4275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eforEachRow\u003c/a\u003e\u003c/code\u003e function iterates through the result set in \u003ccode\u003e\u003ca\u003eStatement\u003c/a\u003e\u003c/code\u003e\n and executes the given action for each row in the set.\n The function closes the \u003ccode\u003e\u003ca\u003eStatement\u003c/a\u003e\u003c/code\u003e after the last row processing or if\n the given action raises an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "forEachRow",
           "package": "hsql",
@@ -4134,6 +4285,7 @@
         "index": {
           "description": "The forEachRow function iterates through the result set in Statement and executes the given action for each row in the set The function closes the Statement after the last row processing or if the given action raises an exception",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "forEachRow",
           "normalized": "(Statement-\u003ea-\u003eIO a)-\u003eStatement-\u003ea-\u003eIO a",
@@ -4150,6 +4302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 'forEachRow\\'' function is analogous to \u003ccode\u003e\u003ca\u003eforEachRow\u003c/a\u003e\u003c/code\u003e but doesn't\n provide state.\n The function closes the \u003ccode\u003e\u003ca\u003eStatement\u003c/a\u003e\u003c/code\u003e after the last row processing or if the\n given action raises an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "forEachRow'",
           "package": "hsql",
@@ -4160,6 +4313,7 @@
         "index": {
           "description": "The forEachRow function is analogous to forEachRow but doesn provide state The function closes the Statement after the last row processing or if the given action raises an exception",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "forEachRow'",
           "normalized": "(Statement-\u003eIO())-\u003eStatement-\u003eIO()",
@@ -4176,6 +4330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread from SQL expression in binary representation,\n by support of its \u003ccode\u003e\u003ca\u003eColDef\u003c/a\u003e\u003c/code\u003e and code size info.\n This allows for faster conversion for e.g. integral numeric types,\n etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "fromSqlCStringLen",
           "package": "hsql",
@@ -4186,6 +4341,7 @@
         "index": {
           "description": "read from SQL expression in binary representation by support of its ColDef and code size info This allows for faster conversion for e.g integral numeric types etc",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "fromSqlCStringLen",
           "package": "hsql",
@@ -4200,6 +4356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the value of field with the specified name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "getFieldValue",
           "package": "hsql",
@@ -4209,6 +4366,7 @@
         "index": {
           "description": "Retrieves the value of field with the specified name",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "getFieldValue",
           "normalized": "Statement-\u003eString-\u003eIO a",
@@ -4225,6 +4383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the value of field with the specified name.\n If the field value is \u003ccode\u003enull\u003c/code\u003e then the function will return the default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "getFieldValue'",
           "package": "hsql",
@@ -4234,6 +4393,7 @@
         "index": {
           "description": "Retrieves the value of field with the specified name If the field value is null then the function will return the default value",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "getFieldValue'",
           "normalized": "Statement-\u003eString-\u003ea-\u003eIO a",
@@ -4249,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "getFieldValueMB",
           "package": "hsql",
@@ -4258,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "getFieldValueMB",
           "normalized": "Statement-\u003eString-\u003eIO(Maybe a)",
@@ -4274,6 +4436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the type and the \u003ccode\u003enullable\u003c/code\u003e flag for field with specified name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "getFieldValueType",
           "package": "hsql",
@@ -4284,6 +4447,7 @@
         "index": {
           "description": "Returns the type and the nullable flag for field with specified name",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "getFieldValueType",
           "normalized": "Statement-\u003eString-\u003e(SqlType,Bool)",
@@ -4300,6 +4464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the list of fields with their types and \u003ccode\u003enullable\u003c/code\u003e flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "getFieldsTypes",
           "package": "hsql",
@@ -4310,6 +4475,7 @@
         "index": {
           "description": "Returns the list of fields with their types and nullable flags",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "getFieldsTypes",
           "normalized": "Statement-\u003e[(String,SqlType,Bool)]",
@@ -4326,6 +4492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003einTransaction\u003c/a\u003e\u003c/code\u003e function executes the specified action in transaction\n  mode.\n If the action completes successfully then the transaction will be commited.\n If the action completes with an exception then the transaction will be\n rolled back and the exception will be throw again.\n A transaction is to catch ANY exception, so \u003ccode\u003e\u003ca\u003eSomeException\u003c/a\u003e\u003c/code\u003e is adequate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "inTransaction",
           "package": "hsql",
@@ -4335,6 +4502,7 @@
         "index": {
           "description": "The inTransaction function executes the specified action in transaction mode If the action completes successfully then the transaction will be commited If the action completes with an exception then the transaction will be rolled back and the exception will be throw again transaction is to catch ANY exception so SomeException is adequate",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "inTransaction",
           "normalized": "Connection-\u003e(Connection-\u003eIO a)-\u003eIO a",
@@ -4351,6 +4519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a query and returns a result set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "query",
           "package": "hsql",
@@ -4360,6 +4529,7 @@
         "index": {
           "description": "Executes query and returns result set",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "query",
           "normalized": "Connection-\u003eSQL-\u003eIO Statement",
@@ -4375,6 +4545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all tables in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:28 UTC 2014",
           "module": "Database.HSQL",
           "name": "tables",
           "package": "hsql",
@@ -4384,6 +4555,7 @@
         "index": {
           "description": "List all tables in the database",
           "hierarchy": "Database HSQL",
+          "indexed": "2014-03-11T18:50:28",
           "module": "Database.HSQL",
           "name": "tables",
           "normalized": "Connection-\u003eIO[TableId]",

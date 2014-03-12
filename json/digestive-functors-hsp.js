@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "digestive-functors-hsp"
+        "phrase": "digestive-functors-hsp",
+        "type": "phrase"
       },
       "type": "context"
     }

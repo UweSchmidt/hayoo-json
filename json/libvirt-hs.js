@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libvirt-hs"
+        "phrase": "libvirt-hs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "Errors",
           "package": "libvirt-hs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "Errors",
           "package": "libvirt-hs",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "Error",
           "package": "libvirt-hs",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "Error",
           "package": "libvirt-hs",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrorDomain",
           "package": "libvirt-hs",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrorDomain",
           "package": "libvirt-hs",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrorLevel",
           "package": "libvirt-hs",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrorLevel",
           "package": "libvirt-hs",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrorNumber",
           "package": "libvirt-hs",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrorNumber",
           "package": "libvirt-hs",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrArgumentUnsupported",
           "package": "libvirt-hs",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrArgumentUnsupported",
           "package": "libvirt-hs",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrAuthCancelled",
           "package": "libvirt-hs",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrAuthCancelled",
           "package": "libvirt-hs",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrAuthFailed",
           "package": "libvirt-hs",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrAuthFailed",
           "package": "libvirt-hs",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrBlockCopyActive",
           "package": "libvirt-hs",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrBlockCopyActive",
           "package": "libvirt-hs",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrBuildFirewall",
           "package": "libvirt-hs",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrBuildFirewall",
           "package": "libvirt-hs",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrCallFailed",
           "package": "libvirt-hs",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrCallFailed",
           "package": "libvirt-hs",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrConfSyntax",
           "package": "libvirt-hs",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrConfSyntax",
           "package": "libvirt-hs",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrConfigUnsupported",
           "package": "libvirt-hs",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrConfigUnsupported",
           "package": "libvirt-hs",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrDomExist",
           "package": "libvirt-hs",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrDomExist",
           "package": "libvirt-hs",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrDriverFull",
           "package": "libvirt-hs",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrDriverFull",
           "package": "libvirt-hs",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrError",
           "package": "libvirt-hs",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrError",
           "package": "libvirt-hs",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrGetFailed",
           "package": "libvirt-hs",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrGetFailed",
           "package": "libvirt-hs",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrGnutlsError",
           "package": "libvirt-hs",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrGnutlsError",
           "package": "libvirt-hs",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrHookScriptFailed",
           "package": "libvirt-hs",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrHookScriptFailed",
           "package": "libvirt-hs",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrHttpError",
           "package": "libvirt-hs",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrHttpError",
           "package": "libvirt-hs",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInternalError",
           "package": "libvirt-hs",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInternalError",
           "package": "libvirt-hs",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidArg",
           "package": "libvirt-hs",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidArg",
           "package": "libvirt-hs",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidConn",
           "package": "libvirt-hs",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidConn",
           "package": "libvirt-hs",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidDomain",
           "package": "libvirt-hs",
@@ -528,6 +575,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidDomain",
           "package": "libvirt-hs",
@@ -541,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidDomainSnapshot",
           "package": "libvirt-hs",
@@ -550,6 +599,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidDomainSnapshot",
           "package": "libvirt-hs",
@@ -563,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidInterface",
           "package": "libvirt-hs",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidInterface",
           "package": "libvirt-hs",
@@ -585,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidMac",
           "package": "libvirt-hs",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidMac",
           "package": "libvirt-hs",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidNetwork",
           "package": "libvirt-hs",
@@ -616,6 +671,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidNetwork",
           "package": "libvirt-hs",
@@ -629,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidNodeDevice",
           "package": "libvirt-hs",
@@ -638,6 +695,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidNodeDevice",
           "package": "libvirt-hs",
@@ -651,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidNwfilter",
           "package": "libvirt-hs",
@@ -660,6 +719,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidNwfilter",
           "package": "libvirt-hs",
@@ -673,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidSecret",
           "package": "libvirt-hs",
@@ -682,6 +743,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidSecret",
           "package": "libvirt-hs",
@@ -695,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidStoragePool",
           "package": "libvirt-hs",
@@ -704,6 +767,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidStoragePool",
           "package": "libvirt-hs",
@@ -717,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidStorageVol",
           "package": "libvirt-hs",
@@ -726,6 +791,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidStorageVol",
           "package": "libvirt-hs",
@@ -739,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidStream",
           "package": "libvirt-hs",
@@ -748,6 +815,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrInvalidStream",
           "package": "libvirt-hs",
@@ -761,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrMigratePersistFailed",
           "package": "libvirt-hs",
@@ -770,6 +839,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrMigratePersistFailed",
           "package": "libvirt-hs",
@@ -783,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrMigrateUnsafe",
           "package": "libvirt-hs",
@@ -792,6 +863,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrMigrateUnsafe",
           "package": "libvirt-hs",
@@ -805,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrMultipleInterfaces",
           "package": "libvirt-hs",
@@ -814,6 +887,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrMultipleInterfaces",
           "package": "libvirt-hs",
@@ -827,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNetworkExist",
           "package": "libvirt-hs",
@@ -836,6 +911,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNetworkExist",
           "package": "libvirt-hs",
@@ -849,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoConnect",
           "package": "libvirt-hs",
@@ -858,6 +935,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoConnect",
           "package": "libvirt-hs",
@@ -871,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoDevice",
           "package": "libvirt-hs",
@@ -880,6 +959,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoDevice",
           "package": "libvirt-hs",
@@ -893,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoDomain",
           "package": "libvirt-hs",
@@ -902,6 +983,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoDomain",
           "package": "libvirt-hs",
@@ -915,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoDomainMetadata",
           "package": "libvirt-hs",
@@ -924,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoDomainMetadata",
           "package": "libvirt-hs",
@@ -937,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoDomainSnapshot",
           "package": "libvirt-hs",
@@ -946,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoDomainSnapshot",
           "package": "libvirt-hs",
@@ -959,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoInterface",
           "package": "libvirt-hs",
@@ -968,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoInterface",
           "package": "libvirt-hs",
@@ -981,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoKernel",
           "package": "libvirt-hs",
@@ -990,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoKernel",
           "package": "libvirt-hs",
@@ -1003,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoMemory",
           "package": "libvirt-hs",
@@ -1012,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoMemory",
           "package": "libvirt-hs",
@@ -1025,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoName",
           "package": "libvirt-hs",
@@ -1034,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoName",
           "package": "libvirt-hs",
@@ -1047,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoNetwork",
           "package": "libvirt-hs",
@@ -1056,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoNetwork",
           "package": "libvirt-hs",
@@ -1069,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoNodeDevice",
           "package": "libvirt-hs",
@@ -1078,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoNodeDevice",
           "package": "libvirt-hs",
@@ -1091,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoNwfilter",
           "package": "libvirt-hs",
@@ -1100,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoNwfilter",
           "package": "libvirt-hs",
@@ -1113,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoOs",
           "package": "libvirt-hs",
@@ -1122,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoOs",
           "package": "libvirt-hs",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoRoot",
           "package": "libvirt-hs",
@@ -1144,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoRoot",
           "package": "libvirt-hs",
@@ -1157,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoSecret",
           "package": "libvirt-hs",
@@ -1166,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoSecret",
           "package": "libvirt-hs",
@@ -1179,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoSecurityModel",
           "package": "libvirt-hs",
@@ -1188,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoSecurityModel",
           "package": "libvirt-hs",
@@ -1201,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoSource",
           "package": "libvirt-hs",
@@ -1210,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoSource",
           "package": "libvirt-hs",
@@ -1223,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoStoragePool",
           "package": "libvirt-hs",
@@ -1232,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoStoragePool",
           "package": "libvirt-hs",
@@ -1245,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoStorageVol",
           "package": "libvirt-hs",
@@ -1254,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoStorageVol",
           "package": "libvirt-hs",
@@ -1267,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoSupport",
           "package": "libvirt-hs",
@@ -1276,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoSupport",
           "package": "libvirt-hs",
@@ -1289,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoTarget",
           "package": "libvirt-hs",
@@ -1298,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoTarget",
           "package": "libvirt-hs",
@@ -1311,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoXen",
           "package": "libvirt-hs",
@@ -1320,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoXen",
           "package": "libvirt-hs",
@@ -1333,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoXenstore",
           "package": "libvirt-hs",
@@ -1342,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNoXenstore",
           "package": "libvirt-hs",
@@ -1355,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrNone",
           "package": "libvirt-hs",
@@ -1364,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrNone",
           "package": "libvirt-hs",
@@ -1377,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrOk",
           "package": "libvirt-hs",
@@ -1386,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrOk",
           "package": "libvirt-hs",
@@ -1399,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrOpenFailed",
           "package": "libvirt-hs",
@@ -1408,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrOpenFailed",
           "package": "libvirt-hs",
@@ -1421,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrOperationAborted",
           "package": "libvirt-hs",
@@ -1430,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrOperationAborted",
           "package": "libvirt-hs",
@@ -1443,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrOperationDenied",
           "package": "libvirt-hs",
@@ -1452,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrOperationDenied",
           "package": "libvirt-hs",
@@ -1465,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrOperationFailed",
           "package": "libvirt-hs",
@@ -1474,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrOperationFailed",
           "package": "libvirt-hs",
@@ -1487,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrOperationInvalid",
           "package": "libvirt-hs",
@@ -1496,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrOperationInvalid",
           "package": "libvirt-hs",
@@ -1509,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrOperationTimeout",
           "package": "libvirt-hs",
@@ -1518,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrOperationTimeout",
           "package": "libvirt-hs",
@@ -1531,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrOsType",
           "package": "libvirt-hs",
@@ -1540,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrOsType",
           "package": "libvirt-hs",
@@ -1553,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrOverflow",
           "package": "libvirt-hs",
@@ -1562,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrOverflow",
           "package": "libvirt-hs",
@@ -1575,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrParseFailed",
           "package": "libvirt-hs",
@@ -1584,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrParseFailed",
           "package": "libvirt-hs",
@@ -1597,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrPostFailed",
           "package": "libvirt-hs",
@@ -1606,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrPostFailed",
           "package": "libvirt-hs",
@@ -1619,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrReadFailed",
           "package": "libvirt-hs",
@@ -1628,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrReadFailed",
           "package": "libvirt-hs",
@@ -1641,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrRpc",
           "package": "libvirt-hs",
@@ -1650,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrRpc",
           "package": "libvirt-hs",
@@ -1663,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrSexprSerial",
           "package": "libvirt-hs",
@@ -1672,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrSexprSerial",
           "package": "libvirt-hs",
@@ -1685,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrSnapshotRevertRisky",
           "package": "libvirt-hs",
@@ -1694,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrSnapshotRevertRisky",
           "package": "libvirt-hs",
@@ -1707,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrStoragePoolBuilt",
           "package": "libvirt-hs",
@@ -1716,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrStoragePoolBuilt",
           "package": "libvirt-hs",
@@ -1729,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrStorageProbeFailed",
           "package": "libvirt-hs",
@@ -1738,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrStorageProbeFailed",
           "package": "libvirt-hs",
@@ -1751,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrSystemError",
           "package": "libvirt-hs",
@@ -1760,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrSystemError",
           "package": "libvirt-hs",
@@ -1773,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrUnknownHost",
           "package": "libvirt-hs",
@@ -1782,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrUnknownHost",
           "package": "libvirt-hs",
@@ -1795,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrWarning",
           "package": "libvirt-hs",
@@ -1804,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrWarning",
           "package": "libvirt-hs",
@@ -1817,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrWriteFailed",
           "package": "libvirt-hs",
@@ -1826,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrWriteFailed",
           "package": "libvirt-hs",
@@ -1839,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrXenCall",
           "package": "libvirt-hs",
@@ -1848,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrXenCall",
           "package": "libvirt-hs",
@@ -1861,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrXmlDetail",
           "package": "libvirt-hs",
@@ -1870,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrXmlDetail",
           "package": "libvirt-hs",
@@ -1883,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ErrXmlError",
           "package": "libvirt-hs",
@@ -1892,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ErrXmlError",
           "package": "libvirt-hs",
@@ -1905,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "Error",
           "package": "libvirt-hs",
@@ -1914,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "Error",
           "package": "libvirt-hs",
@@ -1927,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromAudit",
           "package": "libvirt-hs",
@@ -1936,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromAudit",
           "package": "libvirt-hs",
@@ -1949,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromAuth",
           "package": "libvirt-hs",
@@ -1958,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromAuth",
           "package": "libvirt-hs",
@@ -1971,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromCapabilities",
           "package": "libvirt-hs",
@@ -1980,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromCapabilities",
           "package": "libvirt-hs",
@@ -1993,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromConf",
           "package": "libvirt-hs",
@@ -2002,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromConf",
           "package": "libvirt-hs",
@@ -2015,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromCpu",
           "package": "libvirt-hs",
@@ -2024,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromCpu",
           "package": "libvirt-hs",
@@ -2037,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromDbus",
           "package": "libvirt-hs",
@@ -2046,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromDbus",
           "package": "libvirt-hs",
@@ -2059,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromDom",
           "package": "libvirt-hs",
@@ -2068,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromDom",
           "package": "libvirt-hs",
@@ -2081,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromDomain",
           "package": "libvirt-hs",
@@ -2090,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromDomain",
           "package": "libvirt-hs",
@@ -2103,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromDomainSnapshot",
           "package": "libvirt-hs",
@@ -2112,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromDomainSnapshot",
           "package": "libvirt-hs",
@@ -2125,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromEsx",
           "package": "libvirt-hs",
@@ -2134,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromEsx",
           "package": "libvirt-hs",
@@ -2147,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromEvent",
           "package": "libvirt-hs",
@@ -2156,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromEvent",
           "package": "libvirt-hs",
@@ -2169,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromHook",
           "package": "libvirt-hs",
@@ -2178,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromHook",
           "package": "libvirt-hs",
@@ -2191,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromHyperv",
           "package": "libvirt-hs",
@@ -2200,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromHyperv",
           "package": "libvirt-hs",
@@ -2213,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromInterface",
           "package": "libvirt-hs",
@@ -2222,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromInterface",
           "package": "libvirt-hs",
@@ -2235,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromLibxl",
           "package": "libvirt-hs",
@@ -2244,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromLibxl",
           "package": "libvirt-hs",
@@ -2257,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromLocking",
           "package": "libvirt-hs",
@@ -2266,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromLocking",
           "package": "libvirt-hs",
@@ -2279,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromLxc",
           "package": "libvirt-hs",
@@ -2288,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromLxc",
           "package": "libvirt-hs",
@@ -2301,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromNet",
           "package": "libvirt-hs",
@@ -2310,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromNet",
           "package": "libvirt-hs",
@@ -2323,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromNetwork",
           "package": "libvirt-hs",
@@ -2332,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromNetwork",
           "package": "libvirt-hs",
@@ -2345,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromNodedev",
           "package": "libvirt-hs",
@@ -2354,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromNodedev",
           "package": "libvirt-hs",
@@ -2367,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromNone",
           "package": "libvirt-hs",
@@ -2376,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromNone",
           "package": "libvirt-hs",
@@ -2389,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromNwfilter",
           "package": "libvirt-hs",
@@ -2398,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromNwfilter",
           "package": "libvirt-hs",
@@ -2411,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromOne",
           "package": "libvirt-hs",
@@ -2420,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromOne",
           "package": "libvirt-hs",
@@ -2433,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromOpenvz",
           "package": "libvirt-hs",
@@ -2442,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromOpenvz",
           "package": "libvirt-hs",
@@ -2455,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromPhyp",
           "package": "libvirt-hs",
@@ -2464,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromPhyp",
           "package": "libvirt-hs",
@@ -2477,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromProxy",
           "package": "libvirt-hs",
@@ -2486,6 +2711,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromProxy",
           "package": "libvirt-hs",
@@ -2499,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromQemu",
           "package": "libvirt-hs",
@@ -2508,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromQemu",
           "package": "libvirt-hs",
@@ -2521,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromRemote",
           "package": "libvirt-hs",
@@ -2530,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromRemote",
           "package": "libvirt-hs",
@@ -2543,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromRpc",
           "package": "libvirt-hs",
@@ -2552,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromRpc",
           "package": "libvirt-hs",
@@ -2565,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromSecret",
           "package": "libvirt-hs",
@@ -2574,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromSecret",
           "package": "libvirt-hs",
@@ -2587,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromSecurity",
           "package": "libvirt-hs",
@@ -2596,6 +2831,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromSecurity",
           "package": "libvirt-hs",
@@ -2609,6 +2845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromSexpr",
           "package": "libvirt-hs",
@@ -2618,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromSexpr",
           "package": "libvirt-hs",
@@ -2631,6 +2869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromStatsLinux",
           "package": "libvirt-hs",
@@ -2640,6 +2879,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromStatsLinux",
           "package": "libvirt-hs",
@@ -2653,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromStorage",
           "package": "libvirt-hs",
@@ -2662,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromStorage",
           "package": "libvirt-hs",
@@ -2675,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromStreams",
           "package": "libvirt-hs",
@@ -2684,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromStreams",
           "package": "libvirt-hs",
@@ -2697,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromSysinfo",
           "package": "libvirt-hs",
@@ -2706,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromSysinfo",
           "package": "libvirt-hs",
@@ -2719,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromTest",
           "package": "libvirt-hs",
@@ -2728,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromTest",
           "package": "libvirt-hs",
@@ -2741,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromUml",
           "package": "libvirt-hs",
@@ -2750,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromUml",
           "package": "libvirt-hs",
@@ -2763,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromUri",
           "package": "libvirt-hs",
@@ -2772,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromUri",
           "package": "libvirt-hs",
@@ -2785,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromVbox",
           "package": "libvirt-hs",
@@ -2794,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromVbox",
           "package": "libvirt-hs",
@@ -2807,6 +3061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromVmware",
           "package": "libvirt-hs",
@@ -2816,6 +3071,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromVmware",
           "package": "libvirt-hs",
@@ -2829,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromXen",
           "package": "libvirt-hs",
@@ -2838,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromXen",
           "package": "libvirt-hs",
@@ -2851,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromXenInotify",
           "package": "libvirt-hs",
@@ -2860,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromXenInotify",
           "package": "libvirt-hs",
@@ -2873,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromXenapi",
           "package": "libvirt-hs",
@@ -2882,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromXenapi",
           "package": "libvirt-hs",
@@ -2895,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromXend",
           "package": "libvirt-hs",
@@ -2904,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromXend",
           "package": "libvirt-hs",
@@ -2917,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromXenstore",
           "package": "libvirt-hs",
@@ -2926,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromXenstore",
           "package": "libvirt-hs",
@@ -2939,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromXenxm",
           "package": "libvirt-hs",
@@ -2948,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromXenxm",
           "package": "libvirt-hs",
@@ -2961,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "FromXml",
           "package": "libvirt-hs",
@@ -2970,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "FromXml",
           "package": "libvirt-hs",
@@ -2983,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "WarNoInterface",
           "package": "libvirt-hs",
@@ -2992,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "WarNoInterface",
           "package": "libvirt-hs",
@@ -3005,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "WarNoNetwork",
           "package": "libvirt-hs",
@@ -3014,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "WarNoNetwork",
           "package": "libvirt-hs",
@@ -3027,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "WarNoNode",
           "package": "libvirt-hs",
@@ -3036,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "WarNoNode",
           "package": "libvirt-hs",
@@ -3049,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "WarNoNwfilter",
           "package": "libvirt-hs",
@@ -3058,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "WarNoNwfilter",
           "package": "libvirt-hs",
@@ -3071,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "WarNoSecret",
           "package": "libvirt-hs",
@@ -3080,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "WarNoSecret",
           "package": "libvirt-hs",
@@ -3093,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "WarNoStorage",
           "package": "libvirt-hs",
@@ -3102,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "WarNoStorage",
           "package": "libvirt-hs",
@@ -3115,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "catchVirtError",
           "package": "libvirt-hs",
@@ -3124,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "catchVirtError",
           "normalized": "IO a-\u003e(Error-\u003eIO b)-\u003eIO(Either b a)",
@@ -3139,6 +3423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "connectionToPtr",
           "package": "libvirt-hs",
@@ -3148,6 +3433,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "connectionToPtr",
           "normalized": "Connection-\u003ePtr()",
@@ -3163,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "domainToPtr",
           "package": "libvirt-hs",
@@ -3172,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "domainToPtr",
           "normalized": "Domain-\u003ePtr()",
@@ -3187,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "exceptionOnMinusOne",
           "package": "libvirt-hs",
@@ -3196,6 +3485,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "exceptionOnMinusOne",
           "normalized": "CInt-\u003eIO Int",
@@ -3211,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "networkToPtr",
           "package": "libvirt-hs",
@@ -3220,6 +3511,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "networkToPtr",
           "normalized": "Network-\u003ePtr()",
@@ -3235,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ptrToConnection",
           "package": "libvirt-hs",
@@ -3244,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ptrToConnection",
           "normalized": "Ptr()-\u003eIO Connection",
@@ -3259,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ptrToDomain",
           "package": "libvirt-hs",
@@ -3268,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ptrToDomain",
           "normalized": "Ptr()-\u003eIO Domain",
@@ -3283,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "ptrToNetwork",
           "package": "libvirt-hs",
@@ -3292,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "ptrToNetwork",
           "normalized": "Ptr()-\u003eIO Network",
@@ -3307,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veCode",
           "package": "libvirt-hs",
@@ -3316,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veCode",
           "package": "libvirt-hs",
@@ -3329,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veConnect",
           "package": "libvirt-hs",
@@ -3338,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veConnect",
           "package": "libvirt-hs",
@@ -3351,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veDom",
           "package": "libvirt-hs",
@@ -3360,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veDom",
           "package": "libvirt-hs",
@@ -3373,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veDomain",
           "package": "libvirt-hs",
@@ -3382,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veDomain",
           "package": "libvirt-hs",
@@ -3395,6 +3701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veInt1",
           "package": "libvirt-hs",
@@ -3404,6 +3711,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veInt1",
           "package": "libvirt-hs",
@@ -3417,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veInt2",
           "package": "libvirt-hs",
@@ -3426,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veInt2",
           "package": "libvirt-hs",
@@ -3439,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veLevel",
           "package": "libvirt-hs",
@@ -3448,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veLevel",
           "package": "libvirt-hs",
@@ -3461,6 +3773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veMessage",
           "package": "libvirt-hs",
@@ -3470,6 +3783,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veMessage",
           "package": "libvirt-hs",
@@ -3483,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veNet",
           "package": "libvirt-hs",
@@ -3492,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veNet",
           "package": "libvirt-hs",
@@ -3505,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veStr1",
           "package": "libvirt-hs",
@@ -3514,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veStr1",
           "package": "libvirt-hs",
@@ -3527,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veStr2",
           "package": "libvirt-hs",
@@ -3536,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veStr2",
           "package": "libvirt-hs",
@@ -3549,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Errors",
           "name": "veStr3",
           "package": "libvirt-hs",
@@ -3558,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Errors",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Errors",
           "name": "veStr3",
           "package": "libvirt-hs",
@@ -3571,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "Foreign",
           "package": "libvirt-hs",
@@ -3579,6 +3902,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "Foreign",
           "package": "libvirt-hs",
@@ -3592,6 +3916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "ConnectCredential",
           "package": "libvirt-hs",
@@ -3600,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "ConnectCredential",
           "package": "libvirt-hs",
@@ -3613,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "Connection",
           "package": "libvirt-hs",
@@ -3621,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "Connection",
           "package": "libvirt-hs",
@@ -3634,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "Domain",
           "package": "libvirt-hs",
@@ -3642,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "Domain",
           "package": "libvirt-hs",
@@ -3655,6 +3985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainCreateFlags",
           "package": "libvirt-hs",
@@ -3663,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainCreateFlags",
           "package": "libvirt-hs",
@@ -3676,6 +4008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainID",
           "package": "libvirt-hs",
@@ -3684,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainID",
           "package": "libvirt-hs",
@@ -3697,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainInfo",
           "package": "libvirt-hs",
@@ -3705,6 +4040,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainInfo",
           "package": "libvirt-hs",
@@ -3718,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainState",
           "package": "libvirt-hs",
@@ -3726,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainState",
           "package": "libvirt-hs",
@@ -3739,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainXMLFlags",
           "package": "libvirt-hs",
@@ -3747,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainXMLFlags",
           "package": "libvirt-hs",
@@ -3760,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "Network",
           "package": "libvirt-hs",
@@ -3768,6 +4109,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "Network",
           "package": "libvirt-hs",
@@ -3781,6 +4123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "NodeInfo",
           "package": "libvirt-hs",
@@ -3789,6 +4132,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "NodeInfo",
           "package": "libvirt-hs",
@@ -3802,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "SchedParameterType",
           "package": "libvirt-hs",
@@ -3810,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "SchedParameterType",
           "package": "libvirt-hs",
@@ -3823,6 +4169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "SecurityLabel",
           "package": "libvirt-hs",
@@ -3831,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "SecurityLabel",
           "package": "libvirt-hs",
@@ -3844,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "SecurityModel",
           "package": "libvirt-hs",
@@ -3852,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "SecurityModel",
           "package": "libvirt-hs",
@@ -3865,6 +4215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "Stream",
           "package": "libvirt-hs",
@@ -3873,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "Stream",
           "package": "libvirt-hs",
@@ -3886,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "ConnectCredential",
           "package": "libvirt-hs",
@@ -3895,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "ConnectCredential",
           "package": "libvirt-hs",
@@ -3908,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainBlocked",
           "package": "libvirt-hs",
@@ -3917,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainBlocked",
           "package": "libvirt-hs",
@@ -3930,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainCrashed",
           "package": "libvirt-hs",
@@ -3939,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainCrashed",
           "package": "libvirt-hs",
@@ -3952,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainInfo",
           "package": "libvirt-hs",
@@ -3961,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainInfo",
           "package": "libvirt-hs",
@@ -3974,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainNone",
           "package": "libvirt-hs",
@@ -3983,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainNone",
           "package": "libvirt-hs",
@@ -3996,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainNostate",
           "package": "libvirt-hs",
@@ -4005,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainNostate",
           "package": "libvirt-hs",
@@ -4018,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainPaused",
           "package": "libvirt-hs",
@@ -4027,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainPaused",
           "package": "libvirt-hs",
@@ -4040,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainPmsuspended",
           "package": "libvirt-hs",
@@ -4049,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainPmsuspended",
           "package": "libvirt-hs",
@@ -4062,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainRunning",
           "package": "libvirt-hs",
@@ -4071,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainRunning",
           "package": "libvirt-hs",
@@ -4084,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldBoolean",
           "package": "libvirt-hs",
@@ -4093,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldBoolean",
           "package": "libvirt-hs",
@@ -4106,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldDouble",
           "package": "libvirt-hs",
@@ -4115,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldDouble",
           "package": "libvirt-hs",
@@ -4128,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldInt",
           "package": "libvirt-hs",
@@ -4137,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldInt",
           "package": "libvirt-hs",
@@ -4150,6 +4526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldLlong",
           "package": "libvirt-hs",
@@ -4159,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldLlong",
           "package": "libvirt-hs",
@@ -4172,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldUint",
           "package": "libvirt-hs",
@@ -4181,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldUint",
           "package": "libvirt-hs",
@@ -4194,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldUllong",
           "package": "libvirt-hs",
@@ -4203,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainSchedFieldUllong",
           "package": "libvirt-hs",
@@ -4216,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainShutdown",
           "package": "libvirt-hs",
@@ -4225,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainShutdown",
           "package": "libvirt-hs",
@@ -4238,6 +4622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainShutoff",
           "package": "libvirt-hs",
@@ -4247,6 +4632,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainShutoff",
           "package": "libvirt-hs",
@@ -4260,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainStartAutodestroy",
           "package": "libvirt-hs",
@@ -4269,6 +4656,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainStartAutodestroy",
           "package": "libvirt-hs",
@@ -4282,6 +4670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainStartBypassCache",
           "package": "libvirt-hs",
@@ -4291,6 +4680,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainStartBypassCache",
           "package": "libvirt-hs",
@@ -4304,6 +4694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainStartForceBoot",
           "package": "libvirt-hs",
@@ -4313,6 +4704,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainStartForceBoot",
           "package": "libvirt-hs",
@@ -4326,6 +4718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainStartPaused",
           "package": "libvirt-hs",
@@ -4335,6 +4728,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainStartPaused",
           "package": "libvirt-hs",
@@ -4348,6 +4742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainXmlInactive",
           "package": "libvirt-hs",
@@ -4357,6 +4752,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainXmlInactive",
           "package": "libvirt-hs",
@@ -4370,6 +4766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainXmlSecure",
           "package": "libvirt-hs",
@@ -4379,6 +4776,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainXmlSecure",
           "package": "libvirt-hs",
@@ -4392,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "DomainXmlUpdateCpu",
           "package": "libvirt-hs",
@@ -4401,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "DomainXmlUpdateCpu",
           "package": "libvirt-hs",
@@ -4414,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "NodeInfo",
           "package": "libvirt-hs",
@@ -4423,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "NodeInfo",
           "package": "libvirt-hs",
@@ -4436,6 +4838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "SecurityLabel",
           "package": "libvirt-hs",
@@ -4445,6 +4848,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "SecurityLabel",
           "package": "libvirt-hs",
@@ -4458,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "SecurityModel",
           "package": "libvirt-hs",
@@ -4467,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "SecurityModel",
           "package": "libvirt-hs",
@@ -4480,6 +4886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "ccChallenge",
           "package": "libvirt-hs",
@@ -4489,6 +4896,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "ccChallenge",
           "package": "libvirt-hs",
@@ -4502,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "ccDefresult",
           "package": "libvirt-hs",
@@ -4511,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "ccDefresult",
           "package": "libvirt-hs",
@@ -4524,6 +4934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "ccPrompt",
           "package": "libvirt-hs",
@@ -4533,6 +4944,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "ccPrompt",
           "package": "libvirt-hs",
@@ -4546,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "ccResult",
           "package": "libvirt-hs",
@@ -4555,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "ccResult",
           "package": "libvirt-hs",
@@ -4568,6 +4982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "ccResultLen",
           "package": "libvirt-hs",
@@ -4577,6 +4992,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "ccResultLen",
           "package": "libvirt-hs",
@@ -4590,6 +5006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "ccType",
           "package": "libvirt-hs",
@@ -4599,6 +5016,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "ccType",
           "package": "libvirt-hs",
@@ -4612,6 +5030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "closeConnection",
           "package": "libvirt-hs",
@@ -4621,6 +5040,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "closeConnection",
           "normalized": "Connection-\u003eIO Int",
@@ -4636,6 +5056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "createDomain",
           "package": "libvirt-hs",
@@ -4645,6 +5066,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "createDomain",
           "normalized": "Domain-\u003eIO Int",
@@ -4660,6 +5082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "createDomainXML",
           "package": "libvirt-hs",
@@ -4669,6 +5092,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "createDomainXML",
           "normalized": "Connection-\u003eString-\u003e[DomainCreateFlags]-\u003eIO Domain",
@@ -4684,6 +5108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "createNetwork",
           "package": "libvirt-hs",
@@ -4693,6 +5118,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "createNetwork",
           "normalized": "Network-\u003eIO Int",
@@ -4708,6 +5134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "createNetworkXML",
           "package": "libvirt-hs",
@@ -4717,6 +5144,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "createNetworkXML",
           "normalized": "Connection-\u003eString-\u003eIO Network",
@@ -4732,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "defineDomainXML",
           "package": "libvirt-hs",
@@ -4741,6 +5170,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "defineDomainXML",
           "normalized": "Connection-\u003eString-\u003eIO Domain",
@@ -4756,6 +5186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "defineNetworkXML",
           "package": "libvirt-hs",
@@ -4765,6 +5196,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "defineNetworkXML",
           "normalized": "Connection-\u003eString-\u003eIO Network",
@@ -4780,6 +5212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "definedDomainsCount",
           "package": "libvirt-hs",
@@ -4789,6 +5222,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "definedDomainsCount",
           "normalized": "Connection-\u003eIO Int",
@@ -4804,6 +5238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "definedDomainsNames",
           "package": "libvirt-hs",
@@ -4813,6 +5248,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "definedDomainsNames",
           "normalized": "Connection-\u003eIO[String]",
@@ -4828,6 +5264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "definedNetworksCount",
           "package": "libvirt-hs",
@@ -4837,6 +5274,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "definedNetworksCount",
           "normalized": "Connection-\u003eIO Int",
@@ -4852,6 +5290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "definedNetworksNames",
           "package": "libvirt-hs",
@@ -4861,6 +5300,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "definedNetworksNames",
           "normalized": "Connection-\u003eIO[String]",
@@ -4876,6 +5316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "destroyDomain",
           "package": "libvirt-hs",
@@ -4885,6 +5326,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "destroyDomain",
           "normalized": "Domain-\u003eIO Int",
@@ -4900,6 +5342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "destroyNetwork",
           "package": "libvirt-hs",
@@ -4909,6 +5352,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "destroyNetwork",
           "normalized": "Network-\u003eIO Int",
@@ -4924,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "diCPUTime",
           "package": "libvirt-hs",
@@ -4933,6 +5378,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "diCPUTime",
           "package": "libvirt-hs",
@@ -4946,6 +5392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "diMaxMem",
           "package": "libvirt-hs",
@@ -4955,6 +5402,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "diMaxMem",
           "package": "libvirt-hs",
@@ -4968,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "diMemory",
           "package": "libvirt-hs",
@@ -4977,6 +5426,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "diMemory",
           "package": "libvirt-hs",
@@ -4990,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "diNrVirtCPU",
           "package": "libvirt-hs",
@@ -4999,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "diNrVirtCPU",
           "package": "libvirt-hs",
@@ -5012,6 +5464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "diState",
           "package": "libvirt-hs",
@@ -5021,6 +5474,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "diState",
           "package": "libvirt-hs",
@@ -5034,6 +5488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "freeDomain",
           "package": "libvirt-hs",
@@ -5043,6 +5498,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "freeDomain",
           "normalized": "Domain-\u003eIO Int",
@@ -5058,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "freeNetwork",
           "package": "libvirt-hs",
@@ -5067,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "freeNetwork",
           "normalized": "Network-\u003eIO Int",
@@ -5082,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "getDomainID",
           "package": "libvirt-hs",
@@ -5091,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "getDomainID",
           "normalized": "Domain-\u003eIO DomainID",
@@ -5106,6 +5566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "getDomainInfo",
           "package": "libvirt-hs",
@@ -5115,6 +5576,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "getDomainInfo",
           "normalized": "Domain-\u003eIO DomainInfo",
@@ -5130,6 +5592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "getDomainName",
           "package": "libvirt-hs",
@@ -5139,6 +5602,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "getDomainName",
           "normalized": "Domain-\u003eIO String",
@@ -5154,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "getDomainXML",
           "package": "libvirt-hs",
@@ -5163,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "getDomainXML",
           "normalized": "Domain-\u003e[DomainXMLFlags]-\u003eIO String",
@@ -5178,6 +5644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "getNetworkConnection",
           "package": "libvirt-hs",
@@ -5187,6 +5654,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "getNetworkConnection",
           "normalized": "Network-\u003eIO Connection",
@@ -5202,6 +5670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "getNetworkName",
           "package": "libvirt-hs",
@@ -5211,6 +5680,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "getNetworkName",
           "normalized": "Network-\u003eIO String",
@@ -5226,6 +5696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "getNetworkXML",
           "package": "libvirt-hs",
@@ -5235,6 +5706,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "getNetworkXML",
           "normalized": "Network-\u003e[NetworkXMLFlags]-\u003eIO String",
@@ -5250,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "initialize",
           "package": "libvirt-hs",
@@ -5259,6 +5732,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "initialize",
           "package": "libvirt-hs",
@@ -5271,6 +5745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "lookupDomainID",
           "package": "libvirt-hs",
@@ -5280,6 +5755,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "lookupDomainID",
           "normalized": "Connection-\u003eDomainID-\u003eIO Domain",
@@ -5295,6 +5771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "lookupDomainName",
           "package": "libvirt-hs",
@@ -5304,6 +5781,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "lookupDomainName",
           "normalized": "Connection-\u003eString-\u003eIO Domain",
@@ -5319,6 +5797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "lookupNetworkName",
           "package": "libvirt-hs",
@@ -5328,6 +5807,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "lookupNetworkName",
           "normalized": "Connection-\u003eString-\u003eIO Network",
@@ -5343,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "lookupNetworkUUID",
           "package": "libvirt-hs",
@@ -5352,6 +5833,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "lookupNetworkUUID",
           "normalized": "Connection-\u003eString-\u003eIO Network",
@@ -5367,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "niCPUs",
           "package": "libvirt-hs",
@@ -5376,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "niCPUs",
           "package": "libvirt-hs",
@@ -5389,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "niCores",
           "package": "libvirt-hs",
@@ -5398,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "niCores",
           "package": "libvirt-hs",
@@ -5411,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "niMHz",
           "package": "libvirt-hs",
@@ -5420,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "niMHz",
           "package": "libvirt-hs",
@@ -5433,6 +5921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "niMemory",
           "package": "libvirt-hs",
@@ -5442,6 +5931,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "niMemory",
           "package": "libvirt-hs",
@@ -5455,6 +5945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "niModel",
           "package": "libvirt-hs",
@@ -5464,6 +5955,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "niModel",
           "package": "libvirt-hs",
@@ -5477,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "niNodes",
           "package": "libvirt-hs",
@@ -5486,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "niNodes",
           "package": "libvirt-hs",
@@ -5499,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "niSockets",
           "package": "libvirt-hs",
@@ -5508,6 +6003,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "niSockets",
           "package": "libvirt-hs",
@@ -5521,6 +6017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "niThreads",
           "package": "libvirt-hs",
@@ -5530,6 +6027,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "niThreads",
           "package": "libvirt-hs",
@@ -5543,6 +6041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "openConnection",
           "package": "libvirt-hs",
@@ -5552,6 +6051,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "openConnection",
           "normalized": "String-\u003eIO Connection",
@@ -5567,6 +6067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "rebootDomain",
           "package": "libvirt-hs",
@@ -5576,6 +6077,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "rebootDomain",
           "normalized": "Domain-\u003eCUInt-\u003eIO Int",
@@ -5591,6 +6093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "refDomain",
           "package": "libvirt-hs",
@@ -5600,6 +6103,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "refDomain",
           "normalized": "Domain-\u003eIO Int",
@@ -5615,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "refNetwork",
           "package": "libvirt-hs",
@@ -5624,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "refNetwork",
           "normalized": "Network-\u003eIO Int",
@@ -5639,6 +6145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "restoreDomain",
           "package": "libvirt-hs",
@@ -5648,6 +6155,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "restoreDomain",
           "normalized": "Connection-\u003eString-\u003eIO Int",
@@ -5663,6 +6171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "resumeDomain",
           "package": "libvirt-hs",
@@ -5672,6 +6181,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "resumeDomain",
           "normalized": "Domain-\u003eIO Int",
@@ -5687,6 +6197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "runningDomainsCount",
           "package": "libvirt-hs",
@@ -5696,6 +6207,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "runningDomainsCount",
           "normalized": "Connection-\u003eIO Int",
@@ -5711,6 +6223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "runningDomainsIDs",
           "package": "libvirt-hs",
@@ -5720,6 +6233,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "runningDomainsIDs",
           "normalized": "Connection-\u003eIO[DomainID]",
@@ -5735,6 +6249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "runningNetworksCount",
           "package": "libvirt-hs",
@@ -5744,6 +6259,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "runningNetworksCount",
           "normalized": "Connection-\u003eIO Int",
@@ -5759,6 +6275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "runningNetworksNames",
           "package": "libvirt-hs",
@@ -5768,6 +6285,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "runningNetworksNames",
           "normalized": "Connection-\u003eIO[String]",
@@ -5783,6 +6301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "saveDomain",
           "package": "libvirt-hs",
@@ -5792,6 +6311,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "saveDomain",
           "normalized": "Domain-\u003eString-\u003eIO Int",
@@ -5807,6 +6327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "shutdownDomain",
           "package": "libvirt-hs",
@@ -5816,6 +6337,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "shutdownDomain",
           "normalized": "Domain-\u003eIO Int",
@@ -5831,6 +6353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "slEnforcing",
           "package": "libvirt-hs",
@@ -5840,6 +6363,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "slEnforcing",
           "package": "libvirt-hs",
@@ -5853,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "slLabel",
           "package": "libvirt-hs",
@@ -5862,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "slLabel",
           "package": "libvirt-hs",
@@ -5875,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "smDOI",
           "package": "libvirt-hs",
@@ -5884,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "smDOI",
           "package": "libvirt-hs",
@@ -5897,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "smModel",
           "package": "libvirt-hs",
@@ -5906,6 +6435,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "smModel",
           "package": "libvirt-hs",
@@ -5919,6 +6449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "suspendDomain",
           "package": "libvirt-hs",
@@ -5928,6 +6459,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "suspendDomain",
           "normalized": "Domain-\u003eIO Int",
@@ -5943,6 +6475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "undefineDomain",
           "package": "libvirt-hs",
@@ -5952,6 +6485,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "undefineDomain",
           "normalized": "Domain-\u003eIO Int",
@@ -5967,6 +6501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Foreign",
           "name": "undefineNetwork",
           "package": "libvirt-hs",
@@ -5976,6 +6511,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Foreign",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Foreign",
           "name": "undefineNetwork",
           "normalized": "Network-\u003eIO Int",
@@ -5992,6 +6528,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal types definitions and low-level functions.\n This module is not supposed to be imported by client code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Internal",
           "name": "Internal",
           "package": "libvirt-hs",
@@ -6001,6 +6538,7 @@
         "index": {
           "description": "Internal types definitions and low-level functions This module is not supposed to be imported by client code",
           "hierarchy": "System LibVirt Internal",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Internal",
           "name": "Internal",
           "package": "libvirt-hs",
@@ -6014,6 +6552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Internal",
           "name": "Connection",
           "package": "libvirt-hs",
@@ -6022,6 +6561,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Internal",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Internal",
           "name": "Connection",
           "package": "libvirt-hs",
@@ -6035,6 +6575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Internal",
           "name": "Domain",
           "package": "libvirt-hs",
@@ -6043,6 +6584,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Internal",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Internal",
           "name": "Domain",
           "package": "libvirt-hs",
@@ -6056,6 +6598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Internal",
           "name": "Network",
           "package": "libvirt-hs",
@@ -6064,6 +6607,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Internal",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Internal",
           "name": "Network",
           "package": "libvirt-hs",
@@ -6077,6 +6621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Internal",
           "name": "Connection",
           "package": "libvirt-hs",
@@ -6086,6 +6631,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Internal",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Internal",
           "name": "Connection",
           "package": "libvirt-hs",
@@ -6099,6 +6645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Internal",
           "name": "Domain",
           "package": "libvirt-hs",
@@ -6108,6 +6655,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Internal",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Internal",
           "name": "Domain",
           "package": "libvirt-hs",
@@ -6121,6 +6669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt.Internal",
           "name": "Network",
           "package": "libvirt-hs",
@@ -6130,6 +6679,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt Internal",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt.Internal",
           "name": "Network",
           "package": "libvirt-hs",
@@ -6143,6 +6693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt",
           "name": "LibVirt",
           "package": "libvirt-hs",
@@ -6151,6 +6702,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt",
           "name": "LibVirt",
           "package": "libvirt-hs",
@@ -6164,6 +6716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:08 UTC 2014",
           "module": "System.LibVirt",
           "name": "withConnection",
           "package": "libvirt-hs",
@@ -6173,6 +6726,7 @@
         },
         "index": {
           "hierarchy": "System LibVirt",
+          "indexed": "2014-03-11T19:09:08",
           "module": "System.LibVirt",
           "name": "withConnection",
           "normalized": "String-\u003e(Connection-\u003eIO a)-\u003eIO a",

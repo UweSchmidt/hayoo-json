@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "IPv6Addr"
+        "phrase": "IPv6Addr",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDealing with IPv6 address text representations, canonization and manipulations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "Internal",
           "package": "IPv6Addr",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Dealing with IPv6 address text representations canonization and manipulations",
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "Internal",
           "package": "IPv6Addr",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "expandTokens",
           "package": "IPv6Addr",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "expandTokens",
           "normalized": "[IPv AddrToken]-\u003e[IPv AddrToken]",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "fromDoubleColon",
           "package": "IPv6Addr",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "fromDoubleColon",
           "normalized": "[IPv AddrToken]-\u003e[IPv AddrToken]",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003eText\u003c/code\u003e of an IPv6 address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "fromIPv6Addr",
           "package": "IPv6Addr",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Returns the Text of an IPv6 address",
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "fromIPv6Addr",
           "normalized": "IPv Addr-\u003eText",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrites \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e an embedded \u003ccode\u003e\u003ca\u003eIPv4Addr\u003c/a\u003e\u003c/code\u003e into the corresponding list of pure\n \u003ccode\u003e\u003ca\u003eIPv6Addr\u003c/a\u003e\u003c/code\u003e tokens.\n\u003c/p\u003e\u003cpre\u003e ipv4AddrToIPv6AddrTokens (IPv4Addr \"127.0.0.1\") == [SixteenBits \"7f0\",Colon,SixteenBits \"1\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "ipv4AddrToIPv6AddrTokens",
           "package": "IPv6Addr",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Rewrites Just an embedded IPv4Addr into the corresponding list of pure IPv6Addr tokens ipv4AddrToIPv6AddrTokens IPv4Addr SixteenBits f0 Colon SixteenBits",
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "ipv4AddrToIPv6AddrTokens",
           "normalized": "IPv AddrToken-\u003e[IPv AddrToken]",
@@ -141,6 +151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "ipv6TokensToIPv6Addr",
           "package": "IPv6Addr",
@@ -150,6 +161,7 @@
         },
         "index": {
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "ipv6TokensToIPv6Addr",
           "normalized": "[IPv AddrToken]-\u003eMaybe IPv Addr",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an arbitrary list of \u003ccode\u003e\u003ca\u003eIPv6AddrToken\u003c/a\u003e\u003c/code\u003e, returns the corresponding \u003ccode\u003eText\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "ipv6TokensToText",
           "package": "IPv6Addr",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Given an arbitrary list of IPv6AddrToken returns the corresponding Text",
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "ipv6TokensToText",
           "normalized": "[IPv AddrToken]-\u003eText",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if a list of \u003ccode\u003e\u003ca\u003eIPv6AddrToken\u003c/a\u003e\u003c/code\u003e constitutes a valid IPv6 Address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "isIPv6Addr",
           "package": "IPv6Addr",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Returns True if list of IPv6AddrToken constitutes valid IPv6 Address",
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "isIPv6Addr",
           "normalized": "[IPv AddrToken]-\u003eBool",
@@ -217,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "macAddr",
           "package": "IPv6Addr",
@@ -226,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "macAddr",
           "normalized": "Parser(Maybe[IPv AddrToken])",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTokenize a \u003ccode\u003eText\u003c/code\u003e into \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e a list of \u003ccode\u003e\u003ca\u003eIPv6AddrToken\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "maybeIPv6AddrTokens",
           "package": "IPv6Addr",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Tokenize Text into Just list of IPv6AddrToken or Nothing",
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "maybeIPv6AddrTokens",
           "normalized": "Text-\u003eMaybe[IPv AddrToken]",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the main function which returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the list of a tokenized IPv6\n address text representation validated against RFC 4291 and canonized\n in conformation with RFC 5952, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "maybeTokIPv6Addr",
           "package": "IPv6Addr",
@@ -278,6 +299,7 @@
         "index": {
           "description": "This is the main function which returns Just the list of tokenized IPv6 address text representation validated against RFC and canonized in conformation with RFC or Nothing",
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "maybeTokIPv6Addr",
           "normalized": "Text-\u003eMaybe[IPv AddrToken]",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the list of tokenized pure IPv6 address, always rewriting an\n embedded IPv4 address if present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "maybeTokPureIPv6Addr",
           "package": "IPv6Addr",
@@ -304,6 +327,7 @@
         "index": {
           "description": "Returns Just the list of tokenized pure IPv6 address always rewriting an embedded IPv4 address if present",
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "maybeTokPureIPv6Addr",
           "normalized": "Text-\u003eMaybe[IPv AddrToken]",
@@ -319,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "networkInterfacesIPv6AddrList",
           "package": "IPv6Addr",
@@ -328,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "networkInterfacesIPv6AddrList",
           "normalized": "IO[(String,IPv)]",
@@ -343,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Internal",
           "name": "toDoubleColon",
           "package": "IPv6Addr",
@@ -352,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Text IPv6Addr Internal",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Internal",
           "name": "toDoubleColon",
           "normalized": "[IPv AddrToken]-\u003e[IPv AddrToken]",
@@ -368,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDealing with IPv6 address text representations, canonization and manipulations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Manip",
           "name": "Manip",
           "package": "IPv6Addr",
@@ -377,6 +406,7 @@
         "index": {
           "description": "Dealing with IPv6 address text representations canonization and manipulations",
           "hierarchy": "Text IPv6Addr Manip",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Manip",
           "name": "Manip",
           "package": "IPv6Addr",
@@ -391,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a valid name of a local network interface, returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the list of\n tokens of the interface's IPv6 address, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e getTokIPv6AddrOf \"eth0\" == Just [SixteenBit \"fe80\",DoubleColon,SixteenBit \"fa1d\",Colon,SixteenBit \"58cc\",Colon,SixteenBit \"9516\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Manip",
           "name": "getTokIPv6AddrOf",
           "package": "IPv6Addr",
@@ -401,6 +432,7 @@
         "index": {
           "description": "Given valid name of local network interface returns Just the list of tokens of the interface IPv6 address or Nothing getTokIPv6AddrOf eth0 Just SixteenBit fe80 DoubleColon SixteenBit fa1d Colon SixteenBit cc Colon SixteenBit",
           "hierarchy": "Text IPv6Addr Manip",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Manip",
           "name": "getTokIPv6AddrOf",
           "normalized": "String-\u003eIO(Maybe[IPv AddrToken])",
@@ -417,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a valid name of a local network interface,\n returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the corresponding list of \u003ccode\u003e\u003ca\u003eIPv6AddrToken\u003c/a\u003e\u003c/code\u003e of the interface's MAC Address,\n or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e getTokMacAddrOf \"eth0\" == Just [SixteenBit \"fa1d\",Colon,SixteenBit \"58cc\",Colon,SixteenBit \"9516\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Manip",
           "name": "getTokMacAddrOf",
           "package": "IPv6Addr",
@@ -427,6 +460,7 @@
         "index": {
           "description": "Given valid name of local network interface returns Just the corresponding list of IPv6AddrToken of the interface MAC Address or Nothing getTokMacAddrOf eth0 Just SixteenBit fa1d Colon SixteenBit cc Colon SixteenBit",
           "hierarchy": "Text IPv6Addr Manip",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Manip",
           "name": "getTokMacAddrOf",
           "normalized": "String-\u003eIO(Maybe[IPv AddrToken])",
@@ -443,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a MAC address, returns the corresponding \u003ccode\u003e\u003ca\u003eIPv6AddrToken\u003c/a\u003e\u003c/code\u003e list, or an empty list.\n\u003c/p\u003e\u003cpre\u003e macAddrToIPv6AddrTokens \"fa:1d:58:cc:95:16\" == [SixteenBit \"fa1d\",Colon,SixteenBit \"58cc\",Colon,SixteenBit \"9516\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Manip",
           "name": "macAddrToIPv6AddrTokens",
           "package": "IPv6Addr",
@@ -453,6 +488,7 @@
         "index": {
           "description": "Given MAC address returns the corresponding IPv6AddrToken list or an empty list macAddrToIPv6AddrTokens fa cc SixteenBit fa1d Colon SixteenBit cc Colon SixteenBit",
           "hierarchy": "Text IPv6Addr Manip",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Manip",
           "name": "macAddrToIPv6AddrTokens",
           "normalized": "Text-\u003eMaybe[IPv AddrToken]",
@@ -469,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a partial \u003ccode\u003e\u003ca\u003eIPv6Addr\u003c/a\u003e\u003c/code\u003e with n \u003ccode\u003e\u003ca\u003eSixteenBit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Manip",
           "name": "partialRandAddr",
           "package": "IPv6Addr",
@@ -479,6 +516,7 @@
         "index": {
           "description": "Generates partial IPv6Addr with SixteenBit",
           "hierarchy": "Text IPv6Addr Manip",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Manip",
           "name": "partialRandAddr",
           "normalized": "Int-\u003eIO[IPv AddrToken]",
@@ -495,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e an arbitrary \u003ccode\u003e\u003ca\u003eSixteenBit\u003c/a\u003e\u003c/code\u003e token based on a mask \"____\", each\n underscore being replaced by a random hexadecimal digit.\n\u003c/p\u003e\u003cpre\u003e sixteenBitArbToken \"_f__\" == Just (SixteenBit \"bfd4\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Manip",
           "name": "sixteenBitArbToken",
           "package": "IPv6Addr",
@@ -505,6 +544,7 @@
         "index": {
           "description": "Returns Just an arbitrary SixteenBit token based on mask each underscore being replaced by random hexadecimal digit sixteenBitArbToken Just SixteenBit bfd4",
           "hierarchy": "Text IPv6Addr Manip",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Manip",
           "name": "sixteenBitArbToken",
           "normalized": "String-\u003eIO IPv AddrToken",
@@ -521,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDealing with IPv6 address text representations, canonization and manipulations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Types",
           "name": "Types",
           "package": "IPv6Addr",
@@ -530,6 +571,7 @@
         "index": {
           "description": "Dealing with IPv6 address text representations canonization and manipulations",
           "hierarchy": "Text IPv6Addr Types",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Types",
           "name": "Types",
           "package": "IPv6Addr",
@@ -543,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Types",
           "name": "IPv6Addr",
           "package": "IPv6Addr",
@@ -551,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Text IPv6Addr Types",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Types",
           "name": "IPv6Addr",
           "package": "IPv6Addr",
@@ -564,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Types",
           "name": "IPv6AddrToken",
           "package": "IPv6Addr",
@@ -572,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Text IPv6Addr Types",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Types",
           "name": "IPv6AddrToken",
           "package": "IPv6Addr",
@@ -586,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn all zeros 16-Bit chunk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Types",
           "name": "AllZeros",
           "package": "IPv6Addr",
@@ -596,6 +643,7 @@
         "index": {
           "description": "An all zeros Bit chunk",
           "hierarchy": "Text IPv6Addr Types",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Types",
           "name": "AllZeros",
           "package": "IPv6Addr",
@@ -610,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA separator between 16-Bit chunks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Types",
           "name": "Colon",
           "package": "IPv6Addr",
@@ -620,6 +669,7 @@
         "index": {
           "description": "separator between Bit chunks",
           "hierarchy": "Text IPv6Addr Types",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Types",
           "name": "Colon",
           "package": "IPv6Addr",
@@ -634,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA double-colon stands for a unique compression of many consecutive 16-Bit chunks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Types",
           "name": "DoubleColon",
           "package": "IPv6Addr",
@@ -644,6 +695,7 @@
         "index": {
           "description": "double-colon stands for unique compression of many consecutive Bit chunks",
           "hierarchy": "Text IPv6Addr Types",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Types",
           "name": "DoubleColon",
           "package": "IPv6Addr",
@@ -658,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn embedded IPv4 address as representation of the last 32-Bit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Types",
           "name": "IPv4Addr",
           "package": "IPv6Addr",
@@ -668,6 +721,7 @@
         "index": {
           "description": "An embedded IPv4 address as representation of the last Bit",
           "hierarchy": "Text IPv6Addr Types",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Types",
           "name": "IPv4Addr",
           "package": "IPv6Addr",
@@ -705,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA four hexadecimal digits group representing a 16-Bit chunk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr.Types",
           "name": "SixteenBit",
           "package": "IPv6Addr",
@@ -715,6 +770,7 @@
         "index": {
           "description": "four hexadecimal digits group representing Bit chunk",
           "hierarchy": "Text IPv6Addr Types",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr.Types",
           "name": "SixteenBit",
           "package": "IPv6Addr",
@@ -728,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr",
           "name": "IPv6Addr",
           "package": "IPv6Addr",
@@ -736,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Text IPv6Addr",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr",
           "name": "IPv6Addr",
           "package": "IPv6Addr",
@@ -749,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr",
           "name": "IPv6Addr",
           "package": "IPv6Addr",
@@ -757,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Text IPv6Addr",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr",
           "name": "IPv6Addr",
           "package": "IPv6Addr",
@@ -771,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the canonized \u003ccode\u003e\u003ca\u003eIPv6Addr\u003c/a\u003e\u003c/code\u003e of the given network interface,\n or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e getIPv6AddrOf \"eth0\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr",
           "name": "getIPv6AddrOf",
           "package": "IPv6Addr",
@@ -781,6 +842,7 @@
         "index": {
           "description": "Returns Just the canonized IPv6Addr of the given network interface or Nothing getIPv6AddrOf eth0",
           "hierarchy": "Text IPv6Addr",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr",
           "name": "getIPv6AddrOf",
           "normalized": "String-\u003eIO(Maybe IPv Addr)",
@@ -797,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the reverse lookup domain name corresponding of the given IPv6 address\n (RFC 3596 Section 2.5), or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ip6arpa (IPv6Addr \"4321:0:1:2:3:4:567:89ab\") == Just \"b.a.9.8.7.6.5.0.4.0.0.0.3.0.0.0.2.0.0.0.1.0.0.0.0.0.0.0.1.2.3.4.ip6.arpa.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr",
           "name": "ip6arpa",
           "package": "IPv6Addr",
@@ -807,6 +870,7 @@
         "index": {
           "description": "Returns Just the reverse lookup domain name corresponding of the given IPv6 address RFC Section or Nothing ip6arpa IPv6Addr ab Just b.a.9.8.7.6.5.0.4.0.0.0.3.0.0.0.2.0.0.0.1.0.0.0.0.0.0.0.1.2.3.4.ip6.arpa",
           "hierarchy": "Text IPv6Addr",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr",
           "name": "ip6arpa",
           "normalized": "IPv Addr-\u003eText",
@@ -822,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e a pure and expanded \u003ccode\u003e\u003ca\u003eIPv6Addr\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e maybeFullIPv6Addr \"::ffff:192.0.2.128\" == Just (IPv6Addr \"0000:0000:0000:0000:0000:ffff:c000:0280\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr",
           "name": "maybeFullIPv6Addr",
           "package": "IPv6Addr",
@@ -832,6 +897,7 @@
         "index": {
           "description": "Returns Just pure and expanded IPv6Addr or Nothing maybeFullIPv6Addr ffff Just IPv6Addr ffff c000",
           "hierarchy": "Text IPv6Addr",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr",
           "name": "maybeFullIPv6Addr",
           "normalized": "Text-\u003eMaybe IPv Addr",
@@ -848,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the text representation of a canonized\n \u003ccode\u003e\u003ca\u003eIPv6Addr\u003c/a\u003e\u003c/code\u003e in conformation with RFC 5952, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e maybeIPv6Addr \"0:0::FFFF:192.0.2.128\" == Just (IPv6Addr \"::ffff:192.0.2.128\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr",
           "name": "maybeIPv6Addr",
           "package": "IPv6Addr",
@@ -858,6 +925,7 @@
         "index": {
           "description": "Returns Just the text representation of canonized IPv6Addr in conformation with RFC or Nothing maybeIPv6Addr FFFF Just IPv6Addr ffff",
           "hierarchy": "Text IPv6Addr",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr",
           "name": "maybeIPv6Addr",
           "normalized": "Text-\u003eMaybe IPv Addr",
@@ -874,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e a pure \u003ccode\u003e\u003ca\u003eIPv6Addr\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e maybePureIPv6Addr \"::ffff:192.0.2.128\" == Just (IPv6Addr \"::ffff:c000:280\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr",
           "name": "maybePureIPv6Addr",
           "package": "IPv6Addr",
@@ -884,6 +953,7 @@
         "index": {
           "description": "Returns Just pure IPv6Addr or Nothing maybePureIPv6Addr ffff Just IPv6Addr ffff c000",
           "hierarchy": "Text IPv6Addr",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr",
           "name": "maybePureIPv6Addr",
           "normalized": "Text-\u003eMaybe IPv Addr",
@@ -900,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a random \u003ccode\u003e\u003ca\u003eIPv6Addr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:42 UTC 2014",
           "module": "Text.IPv6Addr",
           "name": "randIPv6Addr",
           "package": "IPv6Addr",
@@ -910,6 +981,7 @@
         "index": {
           "description": "Returns random IPv6Addr",
           "hierarchy": "Text IPv6Addr",
+          "indexed": "2014-03-11T16:49:42",
           "module": "Text.IPv6Addr",
           "name": "randIPv6Addr",
           "package": "IPv6Addr",

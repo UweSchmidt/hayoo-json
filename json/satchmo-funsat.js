@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "satchmo-funsat"
+        "phrase": "satchmo-funsat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:32 UTC 2014",
           "module": "Satchmo.Solver.Funsat",
           "name": "solve",
           "package": "satchmo-funsat",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Satchmo Solver Funsat",
+          "indexed": "2014-03-11T19:57:32",
           "module": "Satchmo.Solver.Funsat",
           "name": "solve",
           "normalized": "SAT(Decoder a)-\u003eIO(Maybe a)",

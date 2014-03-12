@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mybitcoin-sci"
+        "phrase": "mybitcoin-sci",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to mybitcoin.com's shopping cart interface.\n\u003c/p\u003e\u003cp\u003eAfter entering your credentials into the config structure, you should be\n able to use the library like this:\n\u003c/p\u003e\u003cp\u003eBehold my glorious fortune:\n\u003c/p\u003e\u003cpre\u003e\n *Network.MyBitcoin\u003e mbcGetBalance myConfig\n [(\"SCI Version\",\"1.0\"),(\"SCI Code\",\"1\"),(\"SCI Reason\",\"OK\"),(\"SCI Balance\",\"0.49000000000\")]\n\u003c/pre\u003e\u003cp\u003eWell, how much are 0.49 bitcoins worth?\n\u003c/p\u003e\u003cpre\u003e\n *Network.MyBitcoin\u003e fmap (lookup \"SCI Currency USD Rate\") $ mbcGetRates myConfig \n Just \"17.113100\"\n\u003c/pre\u003e\u003cp\u003eCan we be sure the responses are authentic?\n\u003c/p\u003e\u003cpre\u003e\n *Network.MyBitcoin\u003e mbcPostProcess myConfig \"response\"\n *** Exception: GPG Signature failure!\n\u003c/pre\u003e\u003cp\u003eThis library is shaped after the PHP interface to mybitcoin.com. It uses libcurl\n and verifies responses with GPG. To enable verification, you need to add the mybitcoin\n public key to your GPG keychain.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "MyBitcoin",
           "package": "mybitcoin-sci",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Interface to mybitcoin.com shopping cart interface After entering your credentials into the config structure you should be able to use the library like this Behold my glorious fortune Network.MyBitcoin mbcGetBalance myConfig SCI Version SCI Code SCI Reason OK SCI Balance Well how much are bitcoins worth Network.MyBitcoin fmap lookup SCI Currency USD Rate mbcGetRates myConfig Just Can we be sure the responses are authentic Network.MyBitcoin mbcPostProcess myConfig response Exception GPG Signature failure This library is shaped after the PHP interface to mybitcoin.com It uses libcurl and verifies responses with GPG To enable verification you need to add the mybitcoin public key to your GPG keychain",
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "MyBitcoin",
           "package": "mybitcoin-sci",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "Config",
           "package": "mybitcoin-sci",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "Config",
           "package": "mybitcoin-sci",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "Config",
           "package": "mybitcoin-sci",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "Config",
           "package": "mybitcoin-sci",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "cfgAutoKey",
           "package": "mybitcoin-sci",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "cfgAutoKey",
           "package": "mybitcoin-sci",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "cfgEnableGPG",
           "package": "mybitcoin-sci",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "cfgEnableGPG",
           "package": "mybitcoin-sci",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "cfgGPGBinary",
           "package": "mybitcoin-sci",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "cfgGPGBinary",
           "package": "mybitcoin-sci",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "cfgUserName",
           "package": "mybitcoin-sci",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "cfgUserName",
           "package": "mybitcoin-sci",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is used for receiving payments. You receive payments by redirecting\n   customers to the mybitcoin pay page with your bitcoin address in the query arguments.\n   This method lets you do that without revealing your bitcoin address. See the Merchant\n   Tools at mybitcoin.com for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "mbcEncryptFormData",
           "package": "mybitcoin-sci",
@@ -183,6 +198,7 @@
         "index": {
           "description": "This function is used for receiving payments You receive payments by redirecting customers to the mybitcoin pay page with your bitcoin address in the query arguments This method lets you do that without revealing your bitcoin address See the Merchant Tools at mybitcoin.com for more information",
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "mbcEncryptFormData",
           "normalized": "Config-\u003eString-\u003eIO[(String,String)]",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the key \"SCI Balance\" with your account balance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "mbcGetBalance",
           "package": "mybitcoin-sci",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Returns the key SCI Balance with your account balance",
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "mbcGetBalance",
           "normalized": "Config-\u003eIO[(String,String)]",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists bitcoin exchange rates for various currencies. Presumably taken from\n   Mt. Gox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "mbcGetRates",
           "package": "mybitcoin-sci",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Lists bitcoin exchange rates for various currencies Presumably taken from Mt Gox",
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "mbcGetRates",
           "normalized": "Config-\u003eIO[(String,String)]",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and verify (if enabled) a message from mybitcoin.com. This method is used\n   when processing receipts. See \u003ccode\u003e\u003ca\u003embcSpend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "mbcPostProcess",
           "package": "mybitcoin-sci",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Parse and verify if enabled message from mybitcoin.com This method is used when processing receipts See mbcSpend",
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "mbcPostProcess",
           "normalized": "Config-\u003eString-\u003eIO[(String,String)]",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis method is used for sending bitcoins to other bitcoin addresses. Mybitcoin.com\n   uses a two-step commit procedure where you have to confirm a receipt before the transaction\n   is final.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:15 UTC 2014",
           "module": "Network.MyBitcoin",
           "name": "mbcSpend",
           "package": "mybitcoin-sci",
@@ -286,6 +309,7 @@
         "index": {
           "description": "This method is used for sending bitcoins to other bitcoin addresses Mybitcoin.com uses two-step commit procedure where you have to confirm receipt before the transaction is final",
           "hierarchy": "Network MyBitcoin",
+          "indexed": "2014-03-11T19:25:15",
           "module": "Network.MyBitcoin",
           "name": "mbcSpend",
           "normalized": "Config-\u003eString-\u003eRational-\u003eString-\u003eString-\u003eIO[(String,String)]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binary-communicator"
+        "phrase": "binary-communicator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinary Communicator\n\u003c/p\u003e\u003cp\u003eThis module provides the datatype BinaryCom, which enables you\n to easily send and receive data to and from a binary source.\n The transmitted data can be an instance of the \u003ccode\u003eBinary\u003c/code\u003e class,\n or you can provide your own Put and Get actions to serialize\n and parse the binary stream.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:41 UTC 2014",
           "module": "Data.BinaryCom",
           "name": "BinaryCom",
           "package": "binary-communicator",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Binary Communicator This module provides the datatype BinaryCom which enables you to easily send and receive data to and from binary source The transmitted data can be an instance of the Binary class or you can provide your own Put and Get actions to serialize and parse the binary stream",
           "hierarchy": "Data BinaryCom",
+          "indexed": "2014-03-11T17:18:41",
           "module": "Data.BinaryCom",
           "name": "BinaryCom",
           "package": "binary-communicator",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBinaryCom\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:41 UTC 2014",
           "module": "Data.BinaryCom",
           "name": "BinaryCom",
           "package": "binary-communicator",
@@ -51,6 +54,7 @@
         "index": {
           "description": "BinaryCom type",
           "hierarchy": "Data BinaryCom",
+          "indexed": "2014-03-11T17:18:41",
           "module": "Data.BinaryCom",
           "name": "BinaryCom",
           "package": "binary-communicator",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA if-then-else, but with the condition as last argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:41 UTC 2014",
           "module": "Data.BinaryCom",
           "name": "(+|)",
           "package": "binary-communicator",
@@ -75,6 +80,7 @@
         "index": {
           "description": "if-then-else but with the condition as last argument",
           "hierarchy": "Data BinaryCom",
+          "indexed": "2014-03-11T17:18:41",
           "module": "Data.BinaryCom",
           "name": "(+|) +|",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eBinaryCom\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e opened for both reading and writing.\n Be careful not to use the handle afterwards\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:41 UTC 2014",
           "module": "Data.BinaryCom",
           "name": "binaryCom",
           "package": "binary-communicator",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Creates BinaryCom from Handle opened for both reading and writing Be careful not to use the handle afterwards",
           "hierarchy": "Data BinaryCom",
+          "indexed": "2014-03-11T17:18:41",
           "module": "Data.BinaryCom",
           "name": "binaryCom",
           "normalized": "Handle-\u003ea BinaryCom",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eBinaryCom\u003c/a\u003e\u003c/code\u003e from two \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003es: one for reading, one for writing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:41 UTC 2014",
           "module": "Data.BinaryCom",
           "name": "binaryCom2H",
           "package": "binary-communicator",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Creates BinaryCom from two Handle one for reading one for writing",
           "hierarchy": "Data BinaryCom",
+          "indexed": "2014-03-11T17:18:41",
           "module": "Data.BinaryCom",
           "name": "binaryCom2H",
           "normalized": "Handle-\u003eHandle-\u003ea BinaryCom",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eBinaryCom\u003c/a\u003e\u003c/code\u003e from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e (for reading) and a \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e (for writing)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:41 UTC 2014",
           "module": "Data.BinaryCom",
           "name": "binaryComBS",
           "package": "binary-communicator",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Creates BinaryCom from lazy ByteString for reading and Handle for writing",
           "hierarchy": "Data BinaryCom",
+          "indexed": "2014-03-11T17:18:41",
           "module": "Data.BinaryCom",
           "name": "binaryComBS",
           "normalized": "ByteString-\u003eHandle-\u003ea BinaryCom",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a continuation, passing it a binary com with auto-flush deactivated.\n   Flushes when the continuation is finished.\n   It permits not to flush at each call to \u003ccode\u003e\u003ca\u003esend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:41 UTC 2014",
           "module": "Data.BinaryCom",
           "name": "flushAfter",
           "package": "binary-communicator",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Runs continuation passing it binary com with auto-flush deactivated Flushes when the continuation is finished It permits not to flush at each call to send",
           "hierarchy": "Data BinaryCom",
+          "indexed": "2014-03-11T17:18:41",
           "module": "Data.BinaryCom",
           "name": "flushAfter",
           "normalized": "BinaryCom-\u003e(BinaryCom-\u003ea())-\u003ea()",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceives a serializable value through a \u003ccode\u003e\u003ca\u003eBinaryCom\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:41 UTC 2014",
           "module": "Data.BinaryCom",
           "name": "receive",
           "package": "binary-communicator",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Receives serializable value through BinaryCom",
           "hierarchy": "Data BinaryCom",
+          "indexed": "2014-03-11T17:18:41",
           "module": "Data.BinaryCom",
           "name": "receive",
           "normalized": "BinaryCom-\u003ea b",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceives a value. Runs a \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e monad to parse it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:41 UTC 2014",
           "module": "Data.BinaryCom",
           "name": "receiveGet",
           "package": "binary-communicator",
@@ -227,6 +244,7 @@
         "index": {
           "description": "Receives value Runs Get monad to parse it",
           "hierarchy": "Data BinaryCom",
+          "indexed": "2014-03-11T17:18:41",
           "module": "Data.BinaryCom",
           "name": "receiveGet",
           "normalized": "BinaryCom-\u003eGet a-\u003eb a",
@@ -243,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a serializable value through a \u003ccode\u003e\u003ca\u003eBinaryCom\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:41 UTC 2014",
           "module": "Data.BinaryCom",
           "name": "send",
           "package": "binary-communicator",
@@ -253,6 +272,7 @@
         "index": {
           "description": "Sends serializable value through BinaryCom",
           "hierarchy": "Data BinaryCom",
+          "indexed": "2014-03-11T17:18:41",
           "module": "Data.BinaryCom",
           "name": "send",
           "normalized": "BinaryCom-\u003ea-\u003eb()",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e monad and sends its result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:41 UTC 2014",
           "module": "Data.BinaryCom",
           "name": "sendPut",
           "package": "binary-communicator",
@@ -278,6 +299,7 @@
         "index": {
           "description": "Runs Put monad and sends its result",
           "hierarchy": "Data BinaryCom",
+          "indexed": "2014-03-11T17:18:41",
           "module": "Data.BinaryCom",
           "name": "sendPut",
           "normalized": "BinaryCom-\u003ePut-\u003ea()",

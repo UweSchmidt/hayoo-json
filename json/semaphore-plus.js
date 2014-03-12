@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "semaphore-plus"
+        "phrase": "semaphore-plus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.LightSwitch",
           "name": "LightSwitch",
           "package": "semaphore-plus",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent LightSwitch",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.LightSwitch",
           "name": "LightSwitch",
           "package": "semaphore-plus",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.LightSwitch",
           "name": "LightSwitch",
           "package": "semaphore-plus",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent LightSwitch",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.LightSwitch",
           "name": "LightSwitch",
           "package": "semaphore-plus",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.LightSwitch",
           "name": "lockLightSwitch",
           "package": "semaphore-plus",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent LightSwitch",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.LightSwitch",
           "name": "lockLightSwitch",
           "normalized": "LightSwitch-\u003eIO()",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.LightSwitch",
           "name": "newLightSwitch",
           "package": "semaphore-plus",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent LightSwitch",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.LightSwitch",
           "name": "newLightSwitch",
           "normalized": "QSem-\u003eIO LightSwitch",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.LightSwitch",
           "name": "unlockLightSwitch",
           "package": "semaphore-plus",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent LightSwitch",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.LightSwitch",
           "name": "unlockLightSwitch",
           "normalized": "LightSwitch-\u003eIO()",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.LightSwitch",
           "name": "withLightSwitch",
           "package": "semaphore-plus",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent LightSwitch",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.LightSwitch",
           "name": "withLightSwitch",
           "normalized": "LightSwitch-\u003eIO()-\u003eIO()",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "ReadWriteLock",
           "package": "semaphore-plus",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ReadWriteLock",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "ReadWriteLock",
           "package": "semaphore-plus",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "ReadWriteLock",
           "package": "semaphore-plus",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ReadWriteLock",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "ReadWriteLock",
           "package": "semaphore-plus",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "newReadWriteLock",
           "package": "semaphore-plus",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ReadWriteLock",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "newReadWriteLock",
           "package": "semaphore-plus",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "readLock",
           "package": "semaphore-plus",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ReadWriteLock",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "readLock",
           "normalized": "ReadWriteLock-\u003eIO()",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "readUnlock",
           "package": "semaphore-plus",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ReadWriteLock",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "readUnlock",
           "normalized": "ReadWriteLock-\u003eIO()",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "withReadLock",
           "package": "semaphore-plus",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ReadWriteLock",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "withReadLock",
           "normalized": "ReadWriteLock-\u003eIO()-\u003eIO()",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "withWriteLock",
           "package": "semaphore-plus",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ReadWriteLock",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "withWriteLock",
           "normalized": "ReadWriteLock-\u003eIO()-\u003eIO()",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "writeLock",
           "package": "semaphore-plus",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ReadWriteLock",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "writeLock",
           "normalized": "ReadWriteLock-\u003eIO()",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "writeUnlock",
           "package": "semaphore-plus",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ReadWriteLock",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.ReadWriteLock",
           "name": "writeUnlock",
           "normalized": "ReadWriteLock-\u003eIO()",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.Util",
           "name": "Util",
           "package": "semaphore-plus",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Util",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.Util",
           "name": "Util",
           "package": "semaphore-plus",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:26 UTC 2014",
           "module": "Control.Concurrent.Util",
           "name": "withQSem",
           "package": "semaphore-plus",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Util",
+          "indexed": "2014-03-11T19:59:26",
           "module": "Control.Concurrent.Util",
           "name": "withQSem",
           "normalized": "QSem-\u003eIO()-\u003eIO()",

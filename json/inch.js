@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "inch"
+        "phrase": "inch",
+        "type": "phrase"
       },
       "type": "context"
     }

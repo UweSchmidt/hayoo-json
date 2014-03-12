@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dsmc-tools"
+        "phrase": "dsmc-tools",
+        "type": "phrase"
       },
       "type": "context"
     }

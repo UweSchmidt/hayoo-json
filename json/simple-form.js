@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-form"
+        "phrase": "simple-form",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eForms that configure themselves based on type\n\u003c/p\u003e\u003cp\u003eThe Combined module both renders to \u003ccode\u003eHtml\u003c/code\u003e and also parses input.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "Combined",
           "package": "simple-form",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Forms that configure themselves based on type The Combined module both renders to Html and also parses input",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "Combined",
           "package": "simple-form",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCollection\u003c/code\u003e including the parsed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "Collection'",
           "package": "simple-form",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Collection including the parsed value",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "Collection'",
           "package": "simple-form",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "DefaultValidation",
           "package": "simple-form",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "DefaultValidation",
           "package": "simple-form",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfer a \u003ccode\u003e\u003ca\u003eWidget\u003c/a\u003e\u003c/code\u003e based on type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "DefaultWidget",
           "package": "simple-form",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Infer Widget based on type",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "DefaultWidget",
           "package": "simple-form",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGroupedCollection\u003c/a\u003e\u003c/code\u003e including the parsed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "GroupedCollection'",
           "package": "simple-form",
@@ -118,6 +127,7 @@
         "index": {
           "description": "GroupedCollection including the parsed value",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "GroupedCollection'",
           "package": "simple-form",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe setup for rendering an input. Blank is \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "InputOptions",
           "package": "simple-form",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The setup for rendering an input Blank is mempty",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "InputOptions",
           "package": "simple-form",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA block label, inline label, or implied value label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "Label",
           "package": "simple-form",
@@ -164,6 +177,7 @@
         "index": {
           "description": "block label inline label or implied value label",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "Label",
           "package": "simple-form",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for select boxes on enumerable types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "SelectEnum",
           "package": "simple-form",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Wrapper for select boxes on enumerable types",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "SelectEnum",
           "package": "simple-form",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for types that should be rendered using \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "ShowRead",
           "package": "simple-form",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Wrapper for types that should be rendered using show",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "ShowRead",
           "package": "simple-form",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither try to parse the submitted values, or have a list of allowed values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "Validation",
           "package": "simple-form",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Either try to parse the submitted values or have list of allowed values",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "Validation",
           "package": "simple-form",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a widget renderer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "Widget",
           "package": "simple-form",
@@ -256,6 +277,7 @@
         "index": {
           "description": "The type of widget renderer",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "Widget",
           "package": "simple-form",
@@ -455,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "boundedIntegral",
           "package": "simple-form",
@@ -464,6 +487,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "boundedIntegral",
           "normalized": "(Widget a,Validation a)",
@@ -479,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "boundedNumber",
           "package": "simple-form",
@@ -488,6 +513,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "boundedNumber",
           "normalized": "(Widget a,Validation a)",
@@ -503,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "button",
           "package": "simple-form",
@@ -512,6 +539,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "button",
           "normalized": "(Widget Text,Validation Text)",
@@ -526,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "buttons",
           "package": "simple-form",
@@ -535,6 +564,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "buttons",
           "normalized": "GroupedCollection' a-\u003e(Widget Text,Validation a)",
@@ -549,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "checkbox",
           "package": "simple-form",
@@ -558,6 +589,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "checkbox",
           "normalized": "(Widget Bool,Validation Bool)",
@@ -572,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "checkboxes",
           "package": "simple-form",
@@ -581,6 +614,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "checkboxes",
           "normalized": "GroupedCollection' a-\u003e(Widget[Text],Validation[a])",
@@ -595,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "date",
           "package": "simple-form",
@@ -604,6 +639,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "date",
           "normalized": "(Widget a,Validation a)",
@@ -618,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "datetime",
           "package": "simple-form",
@@ -627,6 +664,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "datetime",
           "normalized": "(Widget a,Validation a)",
@@ -641,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "datetime_local",
           "package": "simple-form",
@@ -650,6 +689,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "datetime_local",
           "normalized": "(Widget a,Validation a)",
@@ -686,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "email",
           "package": "simple-form",
@@ -695,6 +736,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "email",
           "normalized": "(Widget EmailAddress,Validation EmailAddress)",
@@ -710,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a collection \u003ccode\u003e\u003ca\u003eWidget\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eValidation\u003c/a\u003e\u003c/code\u003e from an enumerable type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "enum",
           "package": "simple-form",
@@ -720,6 +763,7 @@
         "index": {
           "description": "Feed collection Widget and Validation from an enumerable type",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "enum",
           "normalized": "(GroupedCollection' a-\u003e(Widget Text,Validation a))-\u003e(Widget a,Validation a)",
@@ -758,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "file",
           "package": "simple-form",
@@ -767,6 +812,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "file",
           "normalized": "(Widget Text,Validation Text)",
@@ -807,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "hidden",
           "package": "simple-form",
@@ -816,6 +863,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "hidden",
           "normalized": "(Widget Text,Validation Text)",
@@ -926,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "integral",
           "package": "simple-form",
@@ -935,6 +984,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "integral",
           "normalized": "(Widget a,Validation a)",
@@ -996,6 +1046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a multi-select collection \u003ccode\u003e\u003ca\u003eWidget\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eValidation\u003c/a\u003e\u003c/code\u003e from an enumerable type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "multiEnum",
           "package": "simple-form",
@@ -1006,6 +1057,7 @@
         "index": {
           "description": "Feed multi-select collection Widget and Validation from an enumerable type",
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "multiEnum",
           "normalized": "(GroupedCollection' a-\u003e(Widget[Text],Validation[a]))-\u003e(Widget[a],Validation[a])",
@@ -1021,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "multi_select",
           "package": "simple-form",
@@ -1030,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "multi_select",
           "normalized": "GroupedCollection' a-\u003e(Widget[Text],Validation[a])",
@@ -1044,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "number",
           "package": "simple-form",
@@ -1053,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "number",
           "normalized": "(Widget a,Validation a)",
@@ -1067,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "password",
           "package": "simple-form",
@@ -1076,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "password",
           "normalized": "(Widget Text,Validation Text)",
@@ -1090,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "radio_buttons",
           "package": "simple-form",
@@ -1099,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "radio_buttons",
           "normalized": "GroupedCollection' a-\u003e(Widget Text,Validation a)",
@@ -1135,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "search",
           "package": "simple-form",
@@ -1144,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "search",
           "normalized": "(Widget Text,Validation Text)",
@@ -1158,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "select",
           "package": "simple-form",
@@ -1167,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "select",
           "normalized": "GroupedCollection' a-\u003e(Widget Text,Validation a)",
@@ -1206,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "tel",
           "package": "simple-form",
@@ -1215,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "tel",
           "normalized": "(Widget Text,Validation Text)",
@@ -1229,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "text",
           "package": "simple-form",
@@ -1238,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "text",
           "normalized": "(Widget Text,Validation Text)",
@@ -1252,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "textarea",
           "package": "simple-form",
@@ -1261,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "textarea",
           "normalized": "(Widget Text,Validation Text)",
@@ -1275,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "time",
           "package": "simple-form",
@@ -1284,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "time",
           "normalized": "(Widget a,Validation a)",
@@ -1348,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "uri",
           "package": "simple-form",
@@ -1357,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "uri",
           "normalized": "(Widget URI,Validation URI)",
@@ -1371,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "vdef",
           "package": "simple-form",
@@ -1380,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "vdef",
           "package": "simple-form",
@@ -1392,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "vdefList",
           "package": "simple-form",
@@ -1401,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "vdefList",
           "normalized": "Validation[a]",
@@ -1416,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "wdef",
           "package": "simple-form",
@@ -1425,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "wdef",
           "package": "simple-form",
@@ -1437,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Combined",
           "name": "wdefList",
           "package": "simple-form",
@@ -1446,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Combined",
           "name": "wdefList",
           "normalized": "Widget[a]",
@@ -1486,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimpleForm implementation that works along with digestive-functors\n\u003c/p\u003e\u003cp\u003eThe Combined module both renders to \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e and also parses input.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Combined",
           "name": "Combined",
           "package": "simple-form",
@@ -1495,6 +1578,7 @@
         "index": {
           "description": "SimpleForm implementation that works along with digestive-functors The Combined module both renders to Html and also parses input",
           "hierarchy": "SimpleForm Digestive Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Combined",
           "name": "Combined",
           "package": "simple-form",
@@ -1509,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA form for producing something of type r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Combined",
           "name": "SimpleForm",
           "package": "simple-form",
@@ -1518,6 +1603,7 @@
         "index": {
           "description": "form for producing something of type",
           "hierarchy": "SimpleForm Digestive Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Combined",
           "name": "SimpleForm",
           "package": "simple-form",
@@ -1532,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience type synonym for combined forms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Combined",
           "name": "SimpleForm'",
           "package": "simple-form",
@@ -1541,6 +1628,7 @@
         "index": {
           "description": "Convenience type synonym for combined forms",
           "hierarchy": "SimpleForm Digestive Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Combined",
           "name": "SimpleForm'",
           "package": "simple-form",
@@ -1555,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewithFields\u003c/a\u003e\u003c/code\u003e, but also wrap in fieldset tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Combined",
           "name": "fieldset",
           "package": "simple-form",
@@ -1565,6 +1654,7 @@
         "index": {
           "description": "Like withFields but also wrap in fieldset tag",
           "hierarchy": "SimpleForm Digestive Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Combined",
           "name": "fieldset",
           "normalized": "Text-\u003e(a-\u003eb)-\u003eSimpleForm b(Form Html c d)-\u003eSimpleForm a(Form Html c d)",
@@ -1580,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003eSimpleForm\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThis produces the contents of the form, but you must still wrap it in\n the actual \u003cform\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Combined",
           "name": "getSimpleForm",
           "package": "simple-form",
@@ -1589,6 +1680,7 @@
         "index": {
           "description": "Render SimpleForm to Html This produces the contents of the form but you must still wrap it in the actual form element",
           "hierarchy": "SimpleForm Digestive Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Combined",
           "name": "getSimpleForm",
           "normalized": "Renderer-\u003eMaybe a-\u003eSimpleForm' b a-\u003eb Html",
@@ -1605,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an input element for a \u003ccode\u003e\u003ca\u003eSimpleForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e input \"username\" (Just . username) (wdef,vdef) mempty\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Combined",
           "name": "input",
           "package": "simple-form",
@@ -1614,6 +1707,7 @@
         "index": {
           "description": "Create an input element for SimpleForm input username Just username wdef vdef mempty",
           "hierarchy": "SimpleForm Digestive Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Combined",
           "name": "input",
           "normalized": "Text-\u003e(a-\u003eMaybe b)-\u003e(Widget b,Validation b)-\u003eInputOptions-\u003eSimpleForm a(Form Html c b)",
@@ -1629,6 +1723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003einput\u003c/a\u003e\u003c/code\u003e, but just use the default options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Combined",
           "name": "input_",
           "package": "simple-form",
@@ -1638,6 +1733,7 @@
         "index": {
           "description": "Same as input but just use the default options",
           "hierarchy": "SimpleForm Digestive Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Combined",
           "name": "input_",
           "normalized": "Text-\u003e(a-\u003eMaybe b)-\u003eSimpleForm a(Form Html c b)",
@@ -1653,6 +1749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003eSimpleForm\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e in the presence of input\n\u003c/p\u003e\u003cp\u003eThis also parses the input to the correct datatype.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e is the contents of the form, but you must still wrap it in\n the actual \u003cform\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Combined",
           "name": "postSimpleForm",
           "package": "simple-form",
@@ -1662,6 +1759,7 @@
         "index": {
           "description": "Render SimpleForm to Html in the presence of input This also parses the input to the correct datatype The Html is the contents of the form but you must still wrap it in the actual form element",
           "hierarchy": "SimpleForm Digestive Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Combined",
           "name": "postSimpleForm",
           "normalized": "Renderer-\u003ea(Env a)-\u003eSimpleForm' a b-\u003ea(Html,Maybe b)",
@@ -1731,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject out some part of the parsed data and name the subview\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Combined",
           "name": "withFields",
           "package": "simple-form",
@@ -1740,6 +1839,7 @@
         "index": {
           "description": "Project out some part of the parsed data and name the subview",
           "hierarchy": "SimpleForm Digestive Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Combined",
           "name": "withFields",
           "normalized": "Text-\u003e(a-\u003eb)-\u003eSimpleForm b(Form Html c d)-\u003eSimpleForm a(Form Html c d)",
@@ -1756,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject out some part of the parsed data (does not add name to subview)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Combined",
           "name": "withFields'",
           "package": "simple-form",
@@ -1765,6 +1866,7 @@
         "index": {
           "description": "Project out some part of the parsed data does not add name to subview",
           "hierarchy": "SimpleForm Digestive Combined",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Combined",
           "name": "withFields'",
           "normalized": "Maybe Text-\u003e(a-\u003eb)-\u003eSimpleForm b c-\u003eSimpleForm a c",
@@ -1806,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Validation",
           "name": "Validation",
           "package": "simple-form",
@@ -1814,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Digestive Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Validation",
           "name": "Validation",
           "package": "simple-form",
@@ -1827,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive.Validation",
           "name": "validationToForm",
           "package": "simple-form",
@@ -1836,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Digestive Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive.Validation",
           "name": "validationToForm",
           "normalized": "Text-\u003eValidation a-\u003eForm Html b a",
@@ -1852,6 +1958,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimpleForm implementation that works along with digestive-functors\n\u003c/p\u003e\u003cp\u003eThis module is for constructing forms that only output to \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e.\n For forms that also parse input, see SimpleForm.Digestive.Combined\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive",
           "name": "Digestive",
           "package": "simple-form",
@@ -1861,6 +1968,7 @@
         "index": {
           "description": "SimpleForm implementation that works along with digestive-functors This module is for constructing forms that only output to Html For forms that also parse input see SimpleForm.Digestive.Combined",
           "hierarchy": "SimpleForm Digestive",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive",
           "name": "Digestive",
           "package": "simple-form",
@@ -1875,6 +1983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA form for producing something of type r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive",
           "name": "SimpleForm",
           "package": "simple-form",
@@ -1884,6 +1993,7 @@
         "index": {
           "description": "form for producing something of type",
           "hierarchy": "SimpleForm Digestive",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive",
           "name": "SimpleForm",
           "package": "simple-form",
@@ -1898,6 +2008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003einput\u003c/a\u003e\u003c/code\u003e, but grabs a collection out of the \u003ccode\u003e\u003ca\u003eView\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive",
           "name": "choiceInput",
           "package": "simple-form",
@@ -1907,6 +2018,7 @@
         "index": {
           "description": "Like input but grabs collection out of the View",
           "hierarchy": "SimpleForm Digestive",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive",
           "name": "choiceInput",
           "normalized": "Text-\u003e(a-\u003eMaybe b)-\u003e(GroupedCollection-\u003eWidget b)-\u003eInputOptions-\u003eSimpleForm a()",
@@ -1923,6 +2035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003echoiceInput\u003c/a\u003e\u003c/code\u003e, but chooses defaults for \u003ccode\u003e\u003ca\u003eWidget\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eInputOptions\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive",
           "name": "choiceInput_",
           "package": "simple-form",
@@ -1932,6 +2045,7 @@
         "index": {
           "description": "Like choiceInput but chooses defaults for Widget and InputOptions",
           "hierarchy": "SimpleForm Digestive",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive",
           "name": "choiceInput_",
           "normalized": "Text-\u003e(a-\u003eMaybe Text)-\u003eSimpleForm a()",
@@ -1948,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewithFields\u003c/a\u003e\u003c/code\u003e, but also wrap in fieldset tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive",
           "name": "fieldset",
           "package": "simple-form",
@@ -1958,6 +2073,7 @@
         "index": {
           "description": "Like withFields but also wrap in fieldset tag",
           "hierarchy": "SimpleForm Digestive",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive",
           "name": "fieldset",
           "normalized": "Maybe Text-\u003e(a-\u003eb)-\u003eSimpleForm b c-\u003eSimpleForm a c",
@@ -1973,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an input element for a \u003ccode\u003e\u003ca\u003eSimpleForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e input \"username\" (Just . username) wdef mempty\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive",
           "name": "input",
           "package": "simple-form",
@@ -1982,6 +2099,7 @@
         "index": {
           "description": "Create an input element for SimpleForm input username Just username wdef mempty",
           "hierarchy": "SimpleForm Digestive",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive",
           "name": "input",
           "normalized": "Text-\u003e(a-\u003eMaybe b)-\u003eWidget b-\u003eInputOptions-\u003eSimpleForm a()",
@@ -1997,6 +2115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003einput\u003c/a\u003e\u003c/code\u003e, but just use the default options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive",
           "name": "input_",
           "package": "simple-form",
@@ -2006,6 +2125,7 @@
         "index": {
           "description": "Same as input but just use the default options",
           "hierarchy": "SimpleForm Digestive",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive",
           "name": "input_",
           "normalized": "Text-\u003e(a-\u003eMaybe b)-\u003eSimpleForm a()",
@@ -2021,6 +2141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003eSimpleForm\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThis produces the contents of the form, but you must still wrap it in\n the actual \u003cform\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive",
           "name": "simpleForm",
           "package": "simple-form",
@@ -2030,6 +2151,7 @@
         "index": {
           "description": "Render SimpleForm to Html This produces the contents of the form but you must still wrap it in the actual form element",
           "hierarchy": "SimpleForm Digestive",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive",
           "name": "simpleForm",
           "normalized": "Renderer-\u003e(View a,Maybe b)-\u003eSimpleForm b()-\u003eHtml",
@@ -2046,6 +2168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject out some part of the parsed data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Digestive",
           "name": "withFields",
           "package": "simple-form",
@@ -2055,6 +2178,7 @@
         "index": {
           "description": "Project out some part of the parsed data",
           "hierarchy": "SimpleForm Digestive",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Digestive",
           "name": "withFields",
           "normalized": "Maybe Text-\u003e(a-\u003eb)-\u003eSimpleForm b c-\u003eSimpleForm a c",
@@ -2071,6 +2195,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBootstrap3 form renderer\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render.Bootstrap3",
           "name": "Bootstrap3",
           "package": "simple-form",
@@ -2080,6 +2205,7 @@
         "index": {
           "description": "Bootstrap3 form renderer",
           "hierarchy": "SimpleForm Render Bootstrap3",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render.Bootstrap3",
           "name": "Bootstrap3",
           "package": "simple-form",
@@ -2093,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render.Bootstrap3",
           "name": "render",
           "package": "simple-form",
@@ -2102,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Render Bootstrap3",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render.Bootstrap3",
           "name": "render",
           "package": "simple-form",
@@ -2115,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple XHTML5 form renderer\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render.XHTML5",
           "name": "XHTML5",
           "package": "simple-form",
@@ -2124,6 +2253,7 @@
         "index": {
           "description": "Simple XHTML5 form renderer",
           "hierarchy": "SimpleForm Render XHTML5",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render.XHTML5",
           "name": "XHTML5",
           "package": "simple-form",
@@ -2137,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render.XHTML5",
           "name": "render",
           "package": "simple-form",
@@ -2146,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Render XHTML5",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render.XHTML5",
           "name": "render",
           "package": "simple-form",
@@ -2159,6 +2291,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThese utilities are for writing \u003ccode\u003e\u003ca\u003eRenderer\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render",
           "name": "Render",
           "package": "simple-form",
@@ -2168,6 +2301,7 @@
         "index": {
           "description": "These utilities are for writing Renderer",
           "hierarchy": "SimpleForm Render",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render",
           "name": "Render",
           "package": "simple-form",
@@ -2182,6 +2316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of an input widget in HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render",
           "name": "Input",
           "package": "simple-form",
@@ -2191,6 +2326,7 @@
         "index": {
           "description": "Representation of an input widget in HTML",
           "hierarchy": "SimpleForm Render",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render",
           "name": "Input",
           "package": "simple-form",
@@ -2205,6 +2341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInputOptions\u003c/a\u003e\u003c/code\u003e that have been prepped for rendering\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render",
           "name": "RenderOptions",
           "package": "simple-form",
@@ -2214,6 +2351,7 @@
         "index": {
           "description": "InputOptions that have been prepped for rendering",
           "hierarchy": "SimpleForm Render",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render",
           "name": "RenderOptions",
           "package": "simple-form",
@@ -2228,6 +2366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a final form-renderer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render",
           "name": "Renderer",
           "package": "simple-form",
@@ -2237,6 +2376,7 @@
         "index": {
           "description": "The type of final form-renderer",
           "hierarchy": "SimpleForm Render",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render",
           "name": "Renderer",
           "package": "simple-form",
@@ -2298,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render",
           "name": "RenderOptions",
           "package": "simple-form",
@@ -2307,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Render",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render",
           "name": "RenderOptions",
           "package": "simple-form",
@@ -2343,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render",
           "name": "errors",
           "package": "simple-form",
@@ -2352,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Render",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render",
           "name": "errors",
           "normalized": "[Html]",
@@ -2366,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render",
           "name": "name",
           "package": "simple-form",
@@ -2375,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Render",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render",
           "name": "name",
           "package": "simple-form",
@@ -2387,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render",
           "name": "options",
           "package": "simple-form",
@@ -2396,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Render",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render",
           "name": "options",
           "package": "simple-form",
@@ -2409,6 +2557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrep \u003ccode\u003e\u003ca\u003eInputOptions\u003c/a\u003e\u003c/code\u003e for rendering\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render",
           "name": "renderOptions",
           "package": "simple-form",
@@ -2418,6 +2567,7 @@
         "index": {
           "description": "Prep InputOptions for rendering",
           "hierarchy": "SimpleForm Render",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render",
           "name": "renderOptions",
           "normalized": "Maybe a-\u003eMaybe Text-\u003eText-\u003eWidget a-\u003e[Html]-\u003eInputOptions-\u003eRenderOptions",
@@ -2433,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Render",
           "name": "widgetHtml",
           "package": "simple-form",
@@ -2442,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Render",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Render",
           "name": "widgetHtml",
           "package": "simple-form",
@@ -2455,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "Validation",
           "package": "simple-form",
@@ -2463,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "Validation",
           "package": "simple-form",
@@ -2477,6 +2631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCollection\u003c/code\u003e including the parsed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "Collection'",
           "package": "simple-form",
@@ -2486,6 +2641,7 @@
         "index": {
           "description": "Collection including the parsed value",
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "Collection'",
           "package": "simple-form",
@@ -2499,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "DefaultValidation",
           "package": "simple-form",
@@ -2507,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "DefaultValidation",
           "package": "simple-form",
@@ -2521,6 +2679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGroupedCollection\u003c/a\u003e\u003c/code\u003e including the parsed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "GroupedCollection'",
           "package": "simple-form",
@@ -2530,6 +2689,7 @@
         "index": {
           "description": "GroupedCollection including the parsed value",
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "GroupedCollection'",
           "package": "simple-form",
@@ -2544,6 +2704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for select boxes on enumerable types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "SelectEnum",
           "package": "simple-form",
@@ -2553,6 +2714,7 @@
         "index": {
           "description": "Wrapper for select boxes on enumerable types",
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "SelectEnum",
           "package": "simple-form",
@@ -2567,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for types that should be rendered using \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "ShowRead",
           "package": "simple-form",
@@ -2576,6 +2739,7 @@
         "index": {
           "description": "Wrapper for types that should be rendered using show",
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "ShowRead",
           "package": "simple-form",
@@ -2590,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither try to parse the submitted values, or have a list of allowed values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "Validation",
           "package": "simple-form",
@@ -2599,6 +2764,7 @@
         "index": {
           "description": "Either try to parse the submitted values or have list of allowed values",
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "Validation",
           "package": "simple-form",
@@ -2612,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "absoluteUri",
           "package": "simple-form",
@@ -2621,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "absoluteUri",
           "package": "simple-form",
@@ -2634,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "bool",
           "package": "simple-form",
@@ -2643,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "bool",
           "package": "simple-form",
@@ -2655,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "date",
           "package": "simple-form",
@@ -2664,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "date",
           "package": "simple-form",
@@ -2676,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "dateFormat",
           "package": "simple-form",
@@ -2685,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "dateFormat",
           "normalized": "String-\u003eValidation a",
@@ -2700,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "datetime",
           "package": "simple-form",
@@ -2709,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "datetime",
           "package": "simple-form",
@@ -2721,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "datetime_local",
           "package": "simple-form",
@@ -2730,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "datetime_local",
           "package": "simple-form",
@@ -2742,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "email",
           "package": "simple-form",
@@ -2751,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "email",
           "package": "simple-form",
@@ -2764,6 +2944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a collection \u003ccode\u003e\u003ca\u003eValidation\u003c/a\u003e\u003c/code\u003e from an enumerable type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "enumIdx",
           "package": "simple-form",
@@ -2774,6 +2955,7 @@
         "index": {
           "description": "Feed collection Validation from an enumerable type",
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "enumIdx",
           "normalized": "(GroupedCollection' a-\u003eValidation a)-\u003eValidation a",
@@ -2789,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "includes",
           "package": "simple-form",
@@ -2798,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "includes",
           "normalized": "GroupedCollection' a-\u003eValidation a",
@@ -2813,6 +2997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a multi-select collection \u003ccode\u003e\u003ca\u003eValidation\u003c/a\u003e\u003c/code\u003e from an enumerable type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "multiEnum",
           "package": "simple-form",
@@ -2823,6 +3008,7 @@
         "index": {
           "description": "Feed multi-select collection Validation from an enumerable type",
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "multiEnum",
           "normalized": "(GroupedCollection' a-\u003eValidation[a])-\u003eValidation[a]",
@@ -2839,6 +3025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a multi-select collection \u003ccode\u003e\u003ca\u003eValidation\u003c/a\u003e\u003c/code\u003e from an enumerable type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "multiEnumIdx",
           "package": "simple-form",
@@ -2849,6 +3036,7 @@
         "index": {
           "description": "Feed multi-select collection Validation from an enumerable type",
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "multiEnumIdx",
           "normalized": "(GroupedCollection' a-\u003eValidation[a])-\u003eValidation[a]",
@@ -2864,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "multi_includes",
           "package": "simple-form",
@@ -2873,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "multi_includes",
           "normalized": "GroupedCollection' a-\u003eValidation[a]",
@@ -2888,6 +3078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over a \u003ccode\u003e\u003ca\u003eValidation\u003c/a\u003e\u003c/code\u003e with a partial function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "pmap",
           "package": "simple-form",
@@ -2898,6 +3089,7 @@
         "index": {
           "description": "Map over Validation with partial function",
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "pmap",
           "normalized": "(a-\u003eMaybe b)-\u003eValidation a-\u003eValidation b",
@@ -2912,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "read",
           "package": "simple-form",
@@ -2921,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "read",
           "package": "simple-form",
@@ -2934,6 +3128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an indexed collection from an enumerable type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "selectEnumIdx",
           "package": "simple-form",
@@ -2944,6 +3139,7 @@
         "index": {
           "description": "Derive an indexed collection from an enumerable type",
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "selectEnumIdx",
           "package": "simple-form",
@@ -2957,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "text",
           "package": "simple-form",
@@ -2966,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "text",
           "package": "simple-form",
@@ -2978,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "textLength",
           "package": "simple-form",
@@ -2987,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "textLength",
           "normalized": "Int-\u003eValidation Text",
@@ -3002,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "time",
           "package": "simple-form",
@@ -3011,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "time",
           "package": "simple-form",
@@ -3023,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "uri",
           "package": "simple-form",
@@ -3032,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "uri",
           "package": "simple-form",
@@ -3044,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "vdef",
           "package": "simple-form",
@@ -3053,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "vdef",
           "package": "simple-form",
@@ -3065,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "vdefList",
           "package": "simple-form",
@@ -3074,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "vdefList",
           "normalized": "Validation[a]",
@@ -3090,6 +3298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eGroupedCollection'\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eGroupedCollection\u003c/a\u003e\u003c/code\u003e for use in a view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm.Validation",
           "name": "viewGroupedCollection",
           "package": "simple-form",
@@ -3100,6 +3309,7 @@
         "index": {
           "description": "Convert GroupedCollection to GroupedCollection for use in view",
           "hierarchy": "SimpleForm Validation",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm.Validation",
           "name": "viewGroupedCollection",
           "normalized": "GroupedCollection' a-\u003eGroupedCollection",
@@ -3116,6 +3326,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eForms that configure themselves based on type\n\u003c/p\u003e\u003cp\u003eThis module is for constructing forms that only output to \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e.\n For forms that also parse input, see SimpleForm.Combined\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "SimpleForm",
           "package": "simple-form",
@@ -3125,6 +3336,7 @@
         "index": {
           "description": "Forms that configure themselves based on type This module is for constructing forms that only output to Html For forms that also parse input see SimpleForm.Combined",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "SimpleForm",
           "package": "simple-form",
@@ -3139,6 +3351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollection of items for the user to choose from\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "Collection",
           "package": "simple-form",
@@ -3148,6 +3361,7 @@
         "index": {
           "description": "Collection of items for the user to choose from",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "Collection",
           "package": "simple-form",
@@ -3162,6 +3376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfer a \u003ccode\u003e\u003ca\u003eWidget\u003c/a\u003e\u003c/code\u003e based on type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "DefaultWidget",
           "package": "simple-form",
@@ -3171,6 +3386,7 @@
         "index": {
           "description": "Infer Widget based on type",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "DefaultWidget",
           "package": "simple-form",
@@ -3185,6 +3401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollection of items for the user to choose from, with optional grouping\n\u003c/p\u003e\u003cp\u003eA trivial \u003ccode\u003e\u003ca\u003eGroupedCollection\u003c/a\u003e\u003c/code\u003e (with just one, blankly-named group)\n should be treated by \u003ccode\u003e\u003ca\u003eWidget\u003c/a\u003e\u003c/code\u003es as if it were just a \u003ccode\u003e\u003ca\u003eCollection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "GroupedCollection",
           "package": "simple-form",
@@ -3194,6 +3411,7 @@
         "index": {
           "description": "Collection of items for the user to choose from with optional grouping trivial GroupedCollection with just one blankly-named group should be treated by Widget as if it were just Collection",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "GroupedCollection",
           "package": "simple-form",
@@ -3208,6 +3426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of an input widget in HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "Input",
           "package": "simple-form",
@@ -3217,6 +3436,7 @@
         "index": {
           "description": "Representation of an input widget in HTML",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "Input",
           "package": "simple-form",
@@ -3231,6 +3451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe setup for rendering an input. Blank is \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "InputOptions",
           "package": "simple-form",
@@ -3240,6 +3461,7 @@
         "index": {
           "description": "The setup for rendering an input Blank is mempty",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "InputOptions",
           "package": "simple-form",
@@ -3254,6 +3476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA block label, inline label, or implied value label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "Label",
           "package": "simple-form",
@@ -3263,6 +3486,7 @@
         "index": {
           "description": "block label inline label or implied value label",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "Label",
           "package": "simple-form",
@@ -3277,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for select boxes on enumerable types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "SelectEnum",
           "package": "simple-form",
@@ -3286,6 +3511,7 @@
         "index": {
           "description": "Wrapper for select boxes on enumerable types",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "SelectEnum",
           "package": "simple-form",
@@ -3300,6 +3526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for types that should be rendered using \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "ShowRead",
           "package": "simple-form",
@@ -3309,6 +3536,7 @@
         "index": {
           "description": "Wrapper for types that should be rendered using show",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "ShowRead",
           "package": "simple-form",
@@ -3323,6 +3551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a widget renderer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "Widget",
           "package": "simple-form",
@@ -3332,6 +3561,7 @@
         "index": {
           "description": "The type of widget renderer",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "Widget",
           "package": "simple-form",
@@ -3346,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a list of default attributes and user overrides to some \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "applyAttrs",
           "package": "simple-form",
@@ -3355,6 +3586,7 @@
         "index": {
           "description": "Apply list of default attributes and user overrides to some Html",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "applyAttrs",
           "normalized": "[(Text,Text)]-\u003e[(Text,Text)]-\u003eHtml-\u003eHtml",
@@ -3370,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "boundedIntegral",
           "package": "simple-form",
@@ -3379,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "boundedIntegral",
           "package": "simple-form",
@@ -3392,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "boundedNumber",
           "package": "simple-form",
@@ -3401,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "boundedNumber",
           "package": "simple-form",
@@ -3414,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "button",
           "package": "simple-form",
@@ -3423,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "button",
           "package": "simple-form",
@@ -3435,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "buttons",
           "package": "simple-form",
@@ -3444,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "buttons",
           "normalized": "GroupedCollection-\u003eWidget Text",
@@ -3458,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "checkbox",
           "package": "simple-form",
@@ -3467,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "checkbox",
           "package": "simple-form",
@@ -3479,6 +3721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "checkboxes",
           "package": "simple-form",
@@ -3488,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "checkboxes",
           "normalized": "GroupedCollection-\u003eWidget[Text]",
@@ -3502,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "date",
           "package": "simple-form",
@@ -3511,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "date",
           "package": "simple-form",
@@ -3523,6 +3769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "datetime",
           "package": "simple-form",
@@ -3532,6 +3779,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "datetime",
           "package": "simple-form",
@@ -3544,6 +3792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "datetime_local",
           "package": "simple-form",
@@ -3553,6 +3802,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "datetime_local",
           "package": "simple-form",
@@ -3565,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "email",
           "package": "simple-form",
@@ -3574,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "email",
           "package": "simple-form",
@@ -3587,6 +3839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a collection \u003ccode\u003e\u003ca\u003eWidget\u003c/a\u003e\u003c/code\u003e from an enumerable type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "enum",
           "package": "simple-form",
@@ -3597,6 +3850,7 @@
         "index": {
           "description": "Feed collection Widget from an enumerable type",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "enum",
           "normalized": "(GroupedCollection-\u003eWidget Text)-\u003eWidget a",
@@ -3611,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "file",
           "package": "simple-form",
@@ -3620,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "file",
           "package": "simple-form",
@@ -3633,6 +3889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush any \u003ccode\u003e\u003ca\u003eCollection\u003c/a\u003e\u003c/code\u003e to a trivial \u003ccode\u003e\u003ca\u003eGroupedCollection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "group_",
           "package": "simple-form",
@@ -3643,6 +3900,7 @@
         "index": {
           "description": "Push any Collection to trivial GroupedCollection",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "group_",
           "normalized": "Collection-\u003eGroupedCollection",
@@ -3657,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "hidden",
           "package": "simple-form",
@@ -3666,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "hidden",
           "package": "simple-form",
@@ -3679,6 +3939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cinput /\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "input_tag",
           "package": "simple-form",
@@ -3688,6 +3949,7 @@
         "index": {
           "description": "input",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "input_tag",
           "normalized": "Text-\u003eMaybe Text-\u003eText-\u003e[[(Text,Text)]]-\u003eInputOptions-\u003eHtml",
@@ -3702,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "integral",
           "package": "simple-form",
@@ -3711,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "integral",
           "package": "simple-form",
@@ -3723,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "maybeCons",
           "package": "simple-form",
@@ -3732,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "maybeCons",
           "normalized": "Bool-\u003ea-\u003e[a]-\u003e[a]",
@@ -3748,6 +4014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a multi-select collection \u003ccode\u003e\u003ca\u003eWidget\u003c/a\u003e\u003c/code\u003e from an enumerable type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "multiEnum",
           "package": "simple-form",
@@ -3758,6 +4025,7 @@
         "index": {
           "description": "Feed multi-select collection Widget from an enumerable type",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "multiEnum",
           "normalized": "(GroupedCollection-\u003eWidget[Text])-\u003eWidget[a]",
@@ -3773,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "multi_select",
           "package": "simple-form",
@@ -3782,6 +4051,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "multi_select",
           "normalized": "GroupedCollection-\u003eWidget[Text]",
@@ -3796,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "number",
           "package": "simple-form",
@@ -3805,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "number",
           "package": "simple-form",
@@ -3817,6 +4089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "password",
           "package": "simple-form",
@@ -3826,6 +4099,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "password",
           "package": "simple-form",
@@ -3838,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "radio_buttons",
           "package": "simple-form",
@@ -3847,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "radio_buttons",
           "normalized": "GroupedCollection-\u003eWidget Text",
@@ -3861,6 +4137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "search",
           "package": "simple-form",
@@ -3870,6 +4147,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "search",
           "package": "simple-form",
@@ -3882,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "select",
           "package": "simple-form",
@@ -3891,6 +4170,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "select",
           "normalized": "GroupedCollection-\u003eWidget Text",
@@ -3906,6 +4186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive a collection from an enumerable type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "selectEnum",
           "package": "simple-form",
@@ -3916,6 +4197,7 @@
         "index": {
           "description": "Derive collection from an enumerable type",
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "selectEnum",
           "normalized": "a-\u003eCollection",
@@ -3931,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "tel",
           "package": "simple-form",
@@ -3940,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "tel",
           "package": "simple-form",
@@ -3952,6 +4236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "text",
           "package": "simple-form",
@@ -3961,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "text",
           "package": "simple-form",
@@ -3973,6 +4259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "textarea",
           "package": "simple-form",
@@ -3982,6 +4269,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "textarea",
           "package": "simple-form",
@@ -3994,6 +4282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "time",
           "package": "simple-form",
@@ -4003,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "time",
           "package": "simple-form",
@@ -4015,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "uri",
           "package": "simple-form",
@@ -4024,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "uri",
           "package": "simple-form",
@@ -4036,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "wdef",
           "package": "simple-form",
@@ -4045,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "wdef",
           "package": "simple-form",
@@ -4057,6 +4351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:41 UTC 2014",
           "module": "SimpleForm",
           "name": "wdefList",
           "package": "simple-form",
@@ -4066,6 +4361,7 @@
         },
         "index": {
           "hierarchy": "SimpleForm",
+          "indexed": "2014-03-11T20:02:41",
           "module": "SimpleForm",
           "name": "wdefList",
           "normalized": "Widget[a]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ivy-web"
+        "phrase": "ivy-web",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:36 UTC 2014",
           "module": "Web.Ivy.Routes",
           "name": "Routes",
           "package": "ivy-web",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Ivy Routes",
+          "indexed": "2014-03-11T19:00:36",
           "module": "Web.Ivy.Routes",
           "name": "Routes",
           "package": "ivy-web",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:36 UTC 2014",
           "module": "Web.Ivy.Routes",
           "name": "Route",
           "package": "ivy-web",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Web Ivy Routes",
+          "indexed": "2014-03-11T19:00:36",
           "module": "Web.Ivy.Routes",
           "name": "Route",
           "package": "ivy-web",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:36 UTC 2014",
           "module": "Web.Ivy.Routes",
           "name": "Route",
           "package": "ivy-web",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Web Ivy Routes",
+          "indexed": "2014-03-11T19:00:36",
           "module": "Web.Ivy.Routes",
           "name": "Route",
           "normalized": "a-\u003eRoute b",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:36 UTC 2014",
           "module": "Web.Ivy.Routes",
           "name": "int",
           "package": "ivy-web",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Web Ivy Routes",
+          "indexed": "2014-03-11T19:00:36",
           "module": "Web.Ivy.Routes",
           "name": "int",
           "package": "ivy-web",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:36 UTC 2014",
           "module": "Web.Ivy.Routes",
           "name": "routeIso",
           "package": "ivy-web",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Web Ivy Routes",
+          "indexed": "2014-03-11T19:00:36",
           "module": "Web.Ivy.Routes",
           "name": "routeIso",
           "package": "ivy-web",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:36 UTC 2014",
           "module": "Web.Ivy.Routes",
           "name": "url",
           "package": "ivy-web",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Web Ivy Routes",
+          "indexed": "2014-03-11T19:00:36",
           "module": "Web.Ivy.Routes",
           "name": "url",
           "normalized": "Printer(Route a)-\u003eb-\u003eMaybe String",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:36 UTC 2014",
           "module": "Web.Ivy.Types",
           "name": "Types",
           "package": "ivy-web",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Web Ivy Types",
+          "indexed": "2014-03-11T19:00:36",
           "module": "Web.Ivy.Types",
           "name": "Types",
           "package": "ivy-web",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:36 UTC 2014",
           "module": "Web.Ivy.Types",
           "name": "Handler",
           "package": "ivy-web",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Web Ivy Types",
+          "indexed": "2014-03-11T19:00:36",
           "module": "Web.Ivy.Types",
           "name": "Handler",
           "package": "ivy-web",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:36 UTC 2014",
           "module": "Web.Ivy.Types",
           "name": "get",
           "package": "ivy-web",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Web Ivy Types",
+          "indexed": "2014-03-11T19:00:36",
           "module": "Web.Ivy.Types",
           "name": "get",
           "normalized": "a-\u003eb()",

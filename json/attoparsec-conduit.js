@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "attoparsec-conduit"
+        "phrase": "attoparsec-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConsume attoparsec parsers via conduit.\n\u003c/p\u003e\u003cp\u003eThis code was taken from attoparsec-enumerator and adapted for conduits.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "Attoparsec",
           "package": "attoparsec-conduit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Consume attoparsec parsers via conduit This code was taken from attoparsec-enumerator and adapted for conduits",
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "Attoparsec",
           "package": "attoparsec-conduit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of types which may be consumed by an Attoparsec parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "AttoparsecInput",
           "package": "attoparsec-conduit",
@@ -51,6 +54,7 @@
         "index": {
           "description": "class of types which may be consumed by an Attoparsec parser",
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "AttoparsecInput",
           "package": "attoparsec-conduit",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe context and message from a \u003ccode\u003e\u003ca\u003eFail\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "ParseError",
           "package": "attoparsec-conduit",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The context and message from Fail value",
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "ParseError",
           "package": "attoparsec-conduit",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "Position",
           "package": "attoparsec-conduit",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "Position",
           "package": "attoparsec-conduit",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "PositionRange",
           "package": "attoparsec-conduit",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "PositionRange",
           "package": "attoparsec-conduit",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "DivergentParser",
           "package": "attoparsec-conduit",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "DivergentParser",
           "package": "attoparsec-conduit",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "ParseError",
           "package": "attoparsec-conduit",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "ParseError",
           "package": "attoparsec-conduit",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "Position",
           "package": "attoparsec-conduit",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "Position",
           "package": "attoparsec-conduit",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "PositionRange",
           "package": "attoparsec-conduit",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "PositionRange",
           "package": "attoparsec-conduit",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume a stream of parsed tokens, returning both the token and\n the position it appears at. This function will raise a \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e\n on bad input.\n\u003c/p\u003e\u003cp\u003eSince 0.5.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "conduitParser",
           "package": "attoparsec-conduit",
@@ -228,6 +247,7 @@
         "index": {
           "description": "Consume stream of parsed tokens returning both the token and the position it appears at This function will raise ParseError on bad input Since",
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "conduitParser",
           "normalized": "Parser a b-\u003eConduit a c(PositionRange,b)",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003econduitParser\u003c/a\u003e\u003c/code\u003e, but we return an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e type instead\n of raising an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "conduitParserEither",
           "package": "attoparsec-conduit",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Same as conduitParser but we return an Either type instead of raising an exception",
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "conduitParserEither",
           "normalized": "Parser a b-\u003eConduit a c(Either ParseError(PositionRange,b))",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "errorContexts",
           "package": "attoparsec-conduit",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "errorContexts",
           "normalized": "[String]",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "errorMessage",
           "package": "attoparsec-conduit",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "errorMessage",
           "package": "attoparsec-conduit",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "errorPosition",
           "package": "attoparsec-conduit",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "errorPosition",
           "package": "attoparsec-conduit",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "posCol",
           "package": "attoparsec-conduit",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "posCol",
           "package": "attoparsec-conduit",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "posLine",
           "package": "attoparsec-conduit",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "posLine",
           "package": "attoparsec-conduit",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "posRangeEnd",
           "package": "attoparsec-conduit",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "posRangeEnd",
           "package": "attoparsec-conduit",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "posRangeStart",
           "package": "attoparsec-conduit",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "posRangeStart",
           "package": "attoparsec-conduit",
@@ -426,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an Attoparsec \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eSink\u003c/a\u003e\u003c/code\u003e. The parser will\n be streamed bytes until it returns \u003ccode\u003e\u003ca\u003eDone\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eFail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf parsing fails, a \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e will be thrown with \u003ccode\u003e\u003ca\u003emonadThrow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.5.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:33 UTC 2014",
           "module": "Data.Conduit.Attoparsec",
           "name": "sinkParser",
           "package": "attoparsec-conduit",
@@ -436,6 +473,7 @@
         "index": {
           "description": "Convert an Attoparsec Parser into Sink The parser will be streamed bytes until it returns Done or Fail If parsing fails ParseError will be thrown with monadThrow Since",
           "hierarchy": "Data Conduit Attoparsec",
+          "indexed": "2014-03-11T17:14:33",
           "module": "Data.Conduit.Attoparsec",
           "name": "sinkParser",
           "normalized": "Parser a b-\u003eConsumer a c b",

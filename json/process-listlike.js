@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "process-listlike"
+        "phrase": "process-listlike",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.ByteString.Lazy",
           "name": "Lazy",
           "package": "process-listlike",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString Lazy",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.ByteString.Lazy",
           "name": "Lazy",
           "package": "process-listlike",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.ByteString.Lazy",
           "name": "readCreateProcess",
           "package": "process-listlike",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString Lazy",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.ByteString.Lazy",
           "name": "readCreateProcess",
           "normalized": "CreateProcess-\u003ea-\u003eIO a",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.ByteString.Lazy",
           "name": "readCreateProcessWithExitCode",
           "package": "process-listlike",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString Lazy",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.ByteString.Lazy",
           "name": "readCreateProcessWithExitCode",
           "normalized": "CreateProcess-\u003ea-\u003eIO(ExitCode,a,a)",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.ByteString.Lazy",
           "name": "readProcess",
           "package": "process-listlike",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString Lazy",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.ByteString.Lazy",
           "name": "readProcess",
           "normalized": "FilePath-\u003e[String]-\u003ea-\u003eIO a",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.ByteString.Lazy",
           "name": "readProcessWithExitCode",
           "package": "process-listlike",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString Lazy",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.ByteString.Lazy",
           "name": "readProcessWithExitCode",
           "normalized": "FilePath-\u003e[String]-\u003ea-\u003eIO(ExitCode,a,a)",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.ByteString",
           "name": "ByteString",
           "package": "process-listlike",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.ByteString",
           "name": "ByteString",
           "package": "process-listlike",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.ByteString",
           "name": "readCreateProcess",
           "package": "process-listlike",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.ByteString",
           "name": "readCreateProcess",
           "normalized": "CreateProcess-\u003ea-\u003eIO a",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.ByteString",
           "name": "readCreateProcessWithExitCode",
           "package": "process-listlike",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.ByteString",
           "name": "readCreateProcessWithExitCode",
           "normalized": "CreateProcess-\u003ea-\u003eIO(ExitCode,a,a)",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.ByteString",
           "name": "readProcess",
           "package": "process-listlike",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.ByteString",
           "name": "readProcess",
           "normalized": "FilePath-\u003e[String]-\u003ea-\u003eIO a",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.ByteString",
           "name": "readProcessWithExitCode",
           "package": "process-listlike",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "System Process ByteString",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.ByteString",
           "name": "readProcessWithExitCode",
           "normalized": "FilePath-\u003e[String]-\u003ea-\u003eIO(ExitCode,a,a)",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersions of the functions in module \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e specialized for type ByteString.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Read.Chars",
           "name": "Chars",
           "package": "process-listlike",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Versions of the functions in module Read specialized for type ByteString",
           "hierarchy": "System Process Read Chars",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Read.Chars",
           "name": "Chars",
           "package": "process-listlike",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types which can be used as the input and outputs of the process functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Read.Chars",
           "name": "ListLikePlus",
           "package": "process-listlike",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Class of types which can be used as the input and outputs of the process functions",
           "hierarchy": "System Process Read Chars",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Read.Chars",
           "name": "ListLikePlus",
           "package": "process-listlike",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis should call \u003ccode\u003e\u003ca\u003ehSetBinaryMode\u003c/a\u003e\u003c/code\u003e on each handle if a is a\n ByteString type, so that it doesn't attempt to decode the text\n using the current locale.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Read.Chars",
           "name": "binary",
           "package": "process-listlike",
@@ -309,6 +334,7 @@
         "index": {
           "description": "This should call hSetBinaryMode on each handle if is ByteString type so that it doesn attempt to decode the text using the current locale",
           "hierarchy": "System Process Read Chars",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Read.Chars",
           "name": "binary",
           "normalized": "a-\u003e[Handle]-\u003eIO()",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Read.Chars",
           "name": "lazy",
           "package": "process-listlike",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Chars",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Read.Chars",
           "name": "lazy",
           "normalized": "a-\u003eBool",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Read.Chars",
           "name": "length'",
           "package": "process-listlike",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Chars",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Read.Chars",
           "name": "length'",
           "normalized": "a-\u003eLengthType a",
@@ -473,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Read.Instances",
           "name": "Instances",
           "package": "process-listlike",
@@ -481,6 +512,7 @@
         },
         "index": {
           "hierarchy": "System Process Read Instances",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Read.Instances",
           "name": "Instances",
           "package": "process-listlike",
@@ -494,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Read",
           "name": "Read",
           "package": "process-listlike",
@@ -502,6 +535,7 @@
         },
         "index": {
           "hierarchy": "System Process Read",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Read",
           "name": "Read",
           "package": "process-listlike",
@@ -516,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types which can be used as the input and outputs of the process functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Read",
           "name": "ListLikePlus",
           "package": "process-listlike",
@@ -525,6 +560,7 @@
         "index": {
           "description": "Class of types which can be used as the input and outputs of the process functions",
           "hierarchy": "System Process Read",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Read",
           "name": "ListLikePlus",
           "package": "process-listlike",
@@ -539,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis should call \u003ccode\u003e\u003ca\u003ehSetBinaryMode\u003c/a\u003e\u003c/code\u003e on each handle if a is a\n ByteString type, so that it doesn't attempt to decode the text\n using the current locale.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Read",
           "name": "binary",
           "package": "process-listlike",
@@ -549,6 +586,7 @@
         "index": {
           "description": "This should call hSetBinaryMode on each handle if is ByteString type so that it doesn attempt to decode the text using the current locale",
           "hierarchy": "System Process Read",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Read",
           "name": "binary",
           "normalized": "a-\u003e[Handle]-\u003eIO()",
@@ -563,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Read",
           "name": "lazy",
           "package": "process-listlike",
@@ -572,6 +611,7 @@
         },
         "index": {
           "hierarchy": "System Process Read",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Read",
           "name": "lazy",
           "normalized": "a-\u003eBool",
@@ -586,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Read",
           "name": "length'",
           "package": "process-listlike",
@@ -595,6 +636,7 @@
         },
         "index": {
           "hierarchy": "System Process Read",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Read",
           "name": "length'",
           "normalized": "a-\u003eLengthType a",
@@ -609,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.String",
           "name": "String",
           "package": "process-listlike",
@@ -617,6 +660,7 @@
         },
         "index": {
           "hierarchy": "System Process String",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.String",
           "name": "String",
           "package": "process-listlike",
@@ -630,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.String",
           "name": "readCreateProcess",
           "package": "process-listlike",
@@ -639,6 +684,7 @@
         },
         "index": {
           "hierarchy": "System Process String",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.String",
           "name": "readCreateProcess",
           "normalized": "CreateProcess-\u003ea-\u003eIO a",
@@ -654,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.String",
           "name": "readCreateProcessWithExitCode",
           "package": "process-listlike",
@@ -663,6 +710,7 @@
         },
         "index": {
           "hierarchy": "System Process String",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.String",
           "name": "readCreateProcessWithExitCode",
           "normalized": "CreateProcess-\u003ea-\u003eIO(ExitCode,a,a)",
@@ -678,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.String",
           "name": "readProcess",
           "package": "process-listlike",
@@ -687,6 +736,7 @@
         },
         "index": {
           "hierarchy": "System Process String",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.String",
           "name": "readProcess",
           "normalized": "FilePath-\u003e[String]-\u003ea-\u003eIO a",
@@ -702,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.String",
           "name": "readProcessWithExitCode",
           "package": "process-listlike",
@@ -711,6 +762,7 @@
         },
         "index": {
           "hierarchy": "System Process String",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.String",
           "name": "readProcessWithExitCode",
           "normalized": "FilePath-\u003e[String]-\u003ea-\u003eIO(ExitCode,a,a)",
@@ -726,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Text.Lazy",
           "name": "Lazy",
           "package": "process-listlike",
@@ -734,6 +787,7 @@
         },
         "index": {
           "hierarchy": "System Process Text Lazy",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Text.Lazy",
           "name": "Lazy",
           "package": "process-listlike",
@@ -747,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Text.Lazy",
           "name": "readCreateProcess",
           "package": "process-listlike",
@@ -756,6 +811,7 @@
         },
         "index": {
           "hierarchy": "System Process Text Lazy",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Text.Lazy",
           "name": "readCreateProcess",
           "normalized": "CreateProcess-\u003ea-\u003eIO a",
@@ -771,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Text.Lazy",
           "name": "readCreateProcessWithExitCode",
           "package": "process-listlike",
@@ -780,6 +837,7 @@
         },
         "index": {
           "hierarchy": "System Process Text Lazy",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Text.Lazy",
           "name": "readCreateProcessWithExitCode",
           "normalized": "CreateProcess-\u003ea-\u003eIO(ExitCode,a,a)",
@@ -795,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Text.Lazy",
           "name": "readProcess",
           "package": "process-listlike",
@@ -804,6 +863,7 @@
         },
         "index": {
           "hierarchy": "System Process Text Lazy",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Text.Lazy",
           "name": "readProcess",
           "normalized": "FilePath-\u003e[String]-\u003ea-\u003eIO a",
@@ -819,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Text.Lazy",
           "name": "readProcessWithExitCode",
           "package": "process-listlike",
@@ -828,6 +889,7 @@
         },
         "index": {
           "hierarchy": "System Process Text Lazy",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Text.Lazy",
           "name": "readProcessWithExitCode",
           "normalized": "FilePath-\u003e[String]-\u003ea-\u003eIO(ExitCode,a,a)",
@@ -843,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Text",
           "name": "Text",
           "package": "process-listlike",
@@ -851,6 +914,7 @@
         },
         "index": {
           "hierarchy": "System Process Text",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Text",
           "name": "Text",
           "package": "process-listlike",
@@ -864,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Text",
           "name": "readCreateProcess",
           "package": "process-listlike",
@@ -873,6 +938,7 @@
         },
         "index": {
           "hierarchy": "System Process Text",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Text",
           "name": "readCreateProcess",
           "normalized": "CreateProcess-\u003ea-\u003eIO a",
@@ -888,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Text",
           "name": "readCreateProcessWithExitCode",
           "package": "process-listlike",
@@ -897,6 +964,7 @@
         },
         "index": {
           "hierarchy": "System Process Text",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Text",
           "name": "readCreateProcessWithExitCode",
           "normalized": "CreateProcess-\u003ea-\u003eIO(ExitCode,a,a)",
@@ -912,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Text",
           "name": "readProcess",
           "package": "process-listlike",
@@ -921,6 +990,7 @@
         },
         "index": {
           "hierarchy": "System Process Text",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Text",
           "name": "readProcess",
           "normalized": "FilePath-\u003e[String]-\u003ea-\u003eIO a",
@@ -936,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:29 UTC 2014",
           "module": "System.Process.Text",
           "name": "readProcessWithExitCode",
           "package": "process-listlike",
@@ -945,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "System Process Text",
+          "indexed": "2014-03-11T19:44:29",
           "module": "System.Process.Text",
           "name": "readProcessWithExitCode",
           "normalized": "FilePath-\u003e[String]-\u003ea-\u003eIO(ExitCode,a,a)",

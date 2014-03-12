@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sphinx-cli"
+        "phrase": "sphinx-cli",
+        "type": "phrase"
       },
       "type": "context"
     }

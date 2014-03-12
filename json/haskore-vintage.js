@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskore-vintage"
+        "phrase": "haskore-vintage",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Basics",
           "package": "haskore-vintage",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Basics",
           "package": "haskore-vintage",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "AbsPitch",
           "package": "haskore-vintage",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "AbsPitch",
           "package": "haskore-vintage",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Articulation",
           "package": "haskore-vintage",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Articulation",
           "package": "haskore-vintage",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Dur",
           "package": "haskore-vintage",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Dur",
           "package": "haskore-vintage",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Dynamic",
           "package": "haskore-vintage",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Dynamic",
           "package": "haskore-vintage",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "IName",
           "package": "haskore-vintage",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "IName",
           "package": "haskore-vintage",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Music",
           "package": "haskore-vintage",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Music",
           "package": "haskore-vintage",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "NoteAttribute",
           "package": "haskore-vintage",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "NoteAttribute",
           "package": "haskore-vintage",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "NoteHead",
           "package": "haskore-vintage",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "NoteHead",
           "package": "haskore-vintage",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Octave",
           "package": "haskore-vintage",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Octave",
           "package": "haskore-vintage",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Ornament",
           "package": "haskore-vintage",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Ornament",
           "package": "haskore-vintage",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "PName",
           "package": "haskore-vintage",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "PName",
           "package": "haskore-vintage",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "PercussionSound",
           "package": "haskore-vintage",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "PercussionSound",
           "package": "haskore-vintage",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "PhraseAttribute",
           "package": "haskore-vintage",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "PhraseAttribute",
           "package": "haskore-vintage",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Pitch",
           "package": "haskore-vintage",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Pitch",
           "package": "haskore-vintage",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "PitchClass",
           "package": "haskore-vintage",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "PitchClass",
           "package": "haskore-vintage",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "(/=:)",
           "package": "haskore-vintage",
@@ -363,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "(/=:) /=:",
           "normalized": "Music-\u003eMusic-\u003eMusic",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "(=:=)",
           "package": "haskore-vintage",
@@ -386,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "(=:=) =:=",
           "normalized": "Dur-\u003eDur-\u003eMusic-\u003eMusic",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": ":+:",
           "package": "haskore-vintage",
@@ -409,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": ":+:",
           "package": "haskore-vintage",
@@ -421,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": ":=:",
           "package": "haskore-vintage",
@@ -430,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": ":=:",
           "package": "haskore-vintage",
@@ -442,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "A",
           "package": "haskore-vintage",
@@ -451,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "A",
           "package": "haskore-vintage",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Accelerando",
           "package": "haskore-vintage",
@@ -472,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Accelerando",
           "package": "haskore-vintage",
@@ -485,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Accent",
           "package": "haskore-vintage",
@@ -494,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Accent",
           "package": "haskore-vintage",
@@ -507,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "AcousticBassDrum",
           "package": "haskore-vintage",
@@ -516,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "AcousticBassDrum",
           "package": "haskore-vintage",
@@ -529,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "AcousticSnare",
           "package": "haskore-vintage",
@@ -538,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "AcousticSnare",
           "package": "haskore-vintage",
@@ -551,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Af",
           "package": "haskore-vintage",
@@ -560,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Af",
           "package": "haskore-vintage",
@@ -573,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Arpeggio",
           "package": "haskore-vintage",
@@ -582,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Arpeggio",
           "package": "haskore-vintage",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ArpeggioDown",
           "package": "haskore-vintage",
@@ -604,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ArpeggioDown",
           "package": "haskore-vintage",
@@ -617,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ArpeggioUp",
           "package": "haskore-vintage",
@@ -626,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ArpeggioUp",
           "package": "haskore-vintage",
@@ -639,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Art",
           "package": "haskore-vintage",
@@ -648,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Art",
           "package": "haskore-vintage",
@@ -661,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ArtHarmonic",
           "package": "haskore-vintage",
@@ -670,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ArtHarmonic",
           "package": "haskore-vintage",
@@ -683,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "As",
           "package": "haskore-vintage",
@@ -692,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "As",
           "package": "haskore-vintage",
@@ -705,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "B",
           "package": "haskore-vintage",
@@ -714,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "B",
           "package": "haskore-vintage",
@@ -726,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "BartokPizz",
           "package": "haskore-vintage",
@@ -735,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "BartokPizz",
           "package": "haskore-vintage",
@@ -748,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "BassDrum1",
           "package": "haskore-vintage",
@@ -757,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "BassDrum1",
           "package": "haskore-vintage",
@@ -770,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Bf",
           "package": "haskore-vintage",
@@ -779,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Bf",
           "package": "haskore-vintage",
@@ -792,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Breath",
           "package": "haskore-vintage",
@@ -801,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Breath",
           "package": "haskore-vintage",
@@ -814,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Bs",
           "package": "haskore-vintage",
@@ -823,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Bs",
           "package": "haskore-vintage",
@@ -836,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "C",
           "package": "haskore-vintage",
@@ -845,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "C",
           "package": "haskore-vintage",
@@ -857,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Cabasa",
           "package": "haskore-vintage",
@@ -866,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Cabasa",
           "package": "haskore-vintage",
@@ -879,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Cf",
           "package": "haskore-vintage",
@@ -888,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Cf",
           "package": "haskore-vintage",
@@ -901,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ChineseCymbal",
           "package": "haskore-vintage",
@@ -910,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ChineseCymbal",
           "package": "haskore-vintage",
@@ -923,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Claves",
           "package": "haskore-vintage",
@@ -932,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Claves",
           "package": "haskore-vintage",
@@ -945,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ClosedHiHat",
           "package": "haskore-vintage",
@@ -954,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ClosedHiHat",
           "package": "haskore-vintage",
@@ -967,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Cowbell",
           "package": "haskore-vintage",
@@ -976,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Cowbell",
           "package": "haskore-vintage",
@@ -989,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "CrashCymbal1",
           "package": "haskore-vintage",
@@ -998,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "CrashCymbal1",
           "package": "haskore-vintage",
@@ -1011,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "CrashCymbal2",
           "package": "haskore-vintage",
@@ -1020,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "CrashCymbal2",
           "package": "haskore-vintage",
@@ -1033,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Crescendo",
           "package": "haskore-vintage",
@@ -1042,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Crescendo",
           "package": "haskore-vintage",
@@ -1055,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Cs",
           "package": "haskore-vintage",
@@ -1064,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Cs",
           "package": "haskore-vintage",
@@ -1077,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "D",
           "package": "haskore-vintage",
@@ -1086,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "D",
           "package": "haskore-vintage",
@@ -1098,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Df",
           "package": "haskore-vintage",
@@ -1107,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Df",
           "package": "haskore-vintage",
@@ -1120,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "DiamondHead",
           "package": "haskore-vintage",
@@ -1129,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "DiamondHead",
           "package": "haskore-vintage",
@@ -1142,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Diminuendo",
           "package": "haskore-vintage",
@@ -1151,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Diminuendo",
           "package": "haskore-vintage",
@@ -1164,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "DoubleMordent",
           "package": "haskore-vintage",
@@ -1173,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "DoubleMordent",
           "package": "haskore-vintage",
@@ -1186,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "DownBow",
           "package": "haskore-vintage",
@@ -1195,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "DownBow",
           "package": "haskore-vintage",
@@ -1208,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Ds",
           "package": "haskore-vintage",
@@ -1217,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Ds",
           "package": "haskore-vintage",
@@ -1230,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Dyn",
           "package": "haskore-vintage",
@@ -1239,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Dyn",
           "package": "haskore-vintage",
@@ -1252,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Dynamics",
           "package": "haskore-vintage",
@@ -1261,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Dynamics",
           "package": "haskore-vintage",
@@ -1274,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "E",
           "package": "haskore-vintage",
@@ -1283,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "E",
           "package": "haskore-vintage",
@@ -1295,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Ef",
           "package": "haskore-vintage",
@@ -1304,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Ef",
           "package": "haskore-vintage",
@@ -1317,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ElectricSnare",
           "package": "haskore-vintage",
@@ -1326,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ElectricSnare",
           "package": "haskore-vintage",
@@ -1339,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Es",
           "package": "haskore-vintage",
@@ -1348,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Es",
           "package": "haskore-vintage",
@@ -1361,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "F",
           "package": "haskore-vintage",
@@ -1370,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "F",
           "package": "haskore-vintage",
@@ -1382,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "FF",
           "package": "haskore-vintage",
@@ -1391,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "FF",
           "package": "haskore-vintage",
@@ -1404,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "FFF",
           "package": "haskore-vintage",
@@ -1413,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "FFF",
           "package": "haskore-vintage",
@@ -1426,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Fermata",
           "package": "haskore-vintage",
@@ -1435,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Fermata",
           "package": "haskore-vintage",
@@ -1448,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "FermataDown",
           "package": "haskore-vintage",
@@ -1457,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "FermataDown",
           "package": "haskore-vintage",
@@ -1470,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Ff",
           "package": "haskore-vintage",
@@ -1479,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Ff",
           "package": "haskore-vintage",
@@ -1492,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Fingering",
           "package": "haskore-vintage",
@@ -1501,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Fingering",
           "package": "haskore-vintage",
@@ -1514,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Fs",
           "package": "haskore-vintage",
@@ -1523,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Fs",
           "package": "haskore-vintage",
@@ -1536,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "G",
           "package": "haskore-vintage",
@@ -1545,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "G",
           "package": "haskore-vintage",
@@ -1557,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Gf",
           "package": "haskore-vintage",
@@ -1566,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Gf",
           "package": "haskore-vintage",
@@ -1579,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Gs",
           "package": "haskore-vintage",
@@ -1588,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Gs",
           "package": "haskore-vintage",
@@ -1601,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "HandClap",
           "package": "haskore-vintage",
@@ -1610,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "HandClap",
           "package": "haskore-vintage",
@@ -1623,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Harmonic",
           "package": "haskore-vintage",
@@ -1632,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Harmonic",
           "package": "haskore-vintage",
@@ -1645,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Head",
           "package": "haskore-vintage",
@@ -1654,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Head",
           "package": "haskore-vintage",
@@ -1667,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "HiBongo",
           "package": "haskore-vintage",
@@ -1676,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "HiBongo",
           "package": "haskore-vintage",
@@ -1689,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "HiMidTom",
           "package": "haskore-vintage",
@@ -1698,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "HiMidTom",
           "package": "haskore-vintage",
@@ -1711,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "HiWoodBlock",
           "package": "haskore-vintage",
@@ -1720,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "HiWoodBlock",
           "package": "haskore-vintage",
@@ -1733,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "HighAgogo",
           "package": "haskore-vintage",
@@ -1742,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "HighAgogo",
           "package": "haskore-vintage",
@@ -1755,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "HighFloorTom",
           "package": "haskore-vintage",
@@ -1764,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "HighFloorTom",
           "package": "haskore-vintage",
@@ -1777,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "HighTimbale",
           "package": "haskore-vintage",
@@ -1786,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "HighTimbale",
           "package": "haskore-vintage",
@@ -1799,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "HighTom",
           "package": "haskore-vintage",
@@ -1808,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "HighTom",
           "package": "haskore-vintage",
@@ -1821,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Instr",
           "package": "haskore-vintage",
@@ -1830,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Instr",
           "package": "haskore-vintage",
@@ -1843,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Instruction",
           "package": "haskore-vintage",
@@ -1852,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Instruction",
           "package": "haskore-vintage",
@@ -1865,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "InvMordent",
           "package": "haskore-vintage",
@@ -1874,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "InvMordent",
           "package": "haskore-vintage",
@@ -1887,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "LeftPizz",
           "package": "haskore-vintage",
@@ -1896,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "LeftPizz",
           "package": "haskore-vintage",
@@ -1909,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Legato",
           "package": "haskore-vintage",
@@ -1918,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Legato",
           "package": "haskore-vintage",
@@ -1931,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "LongGuiro",
           "package": "haskore-vintage",
@@ -1940,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "LongGuiro",
           "package": "haskore-vintage",
@@ -1953,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "LongWhistle",
           "package": "haskore-vintage",
@@ -1962,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "LongWhistle",
           "package": "haskore-vintage",
@@ -1975,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Loudness",
           "package": "haskore-vintage",
@@ -1984,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Loudness",
           "package": "haskore-vintage",
@@ -1997,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "LowAgogo",
           "package": "haskore-vintage",
@@ -2006,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "LowAgogo",
           "package": "haskore-vintage",
@@ -2019,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "LowBongo",
           "package": "haskore-vintage",
@@ -2028,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "LowBongo",
           "package": "haskore-vintage",
@@ -2041,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "LowConga",
           "package": "haskore-vintage",
@@ -2050,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "LowConga",
           "package": "haskore-vintage",
@@ -2063,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "LowFloorTom",
           "package": "haskore-vintage",
@@ -2072,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "LowFloorTom",
           "package": "haskore-vintage",
@@ -2085,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "LowMidTom",
           "package": "haskore-vintage",
@@ -2094,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "LowMidTom",
           "package": "haskore-vintage",
@@ -2107,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "LowTimbale",
           "package": "haskore-vintage",
@@ -2116,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "LowTimbale",
           "package": "haskore-vintage",
@@ -2129,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "LowTom",
           "package": "haskore-vintage",
@@ -2138,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "LowTom",
           "package": "haskore-vintage",
@@ -2151,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "LowWoodBlock",
           "package": "haskore-vintage",
@@ -2160,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "LowWoodBlock",
           "package": "haskore-vintage",
@@ -2173,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "MF",
           "package": "haskore-vintage",
@@ -2182,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "MF",
           "package": "haskore-vintage",
@@ -2195,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "MP",
           "package": "haskore-vintage",
@@ -2204,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "MP",
           "package": "haskore-vintage",
@@ -2217,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Maracas",
           "package": "haskore-vintage",
@@ -2226,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Maracas",
           "package": "haskore-vintage",
@@ -2239,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Marcato",
           "package": "haskore-vintage",
@@ -2248,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Marcato",
           "package": "haskore-vintage",
@@ -2261,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Mordent",
           "package": "haskore-vintage",
@@ -2270,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Mordent",
           "package": "haskore-vintage",
@@ -2283,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "MuteCuica",
           "package": "haskore-vintage",
@@ -2292,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "MuteCuica",
           "package": "haskore-vintage",
@@ -2305,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "MuteHiConga",
           "package": "haskore-vintage",
@@ -2314,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "MuteHiConga",
           "package": "haskore-vintage",
@@ -2327,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "MuteTriangle",
           "package": "haskore-vintage",
@@ -2336,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "MuteTriangle",
           "package": "haskore-vintage",
@@ -2349,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "NF",
           "package": "haskore-vintage",
@@ -2358,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "NF",
           "package": "haskore-vintage",
@@ -2371,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "NoHead",
           "package": "haskore-vintage",
@@ -2380,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "NoHead",
           "package": "haskore-vintage",
@@ -2393,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Note",
           "package": "haskore-vintage",
@@ -2402,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Note",
           "normalized": "Note Pitch Dur[NoteAttribute]",
@@ -2417,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "OpenCuica",
           "package": "haskore-vintage",
@@ -2426,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "OpenCuica",
           "package": "haskore-vintage",
@@ -2439,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "OpenHiConga",
           "package": "haskore-vintage",
@@ -2448,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "OpenHiConga",
           "package": "haskore-vintage",
@@ -2461,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "OpenHiHat",
           "package": "haskore-vintage",
@@ -2470,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "OpenHiHat",
           "package": "haskore-vintage",
@@ -2483,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "OpenTriangle",
           "package": "haskore-vintage",
@@ -2492,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "OpenTriangle",
           "package": "haskore-vintage",
@@ -2505,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Orn",
           "package": "haskore-vintage",
@@ -2514,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Orn",
           "package": "haskore-vintage",
@@ -2527,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "P",
           "package": "haskore-vintage",
@@ -2536,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "P",
           "package": "haskore-vintage",
@@ -2548,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "PFields",
           "package": "haskore-vintage",
@@ -2557,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "PFields",
           "normalized": "PFields[Float]",
@@ -2572,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "PP",
           "package": "haskore-vintage",
@@ -2581,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "PP",
           "package": "haskore-vintage",
@@ -2594,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "PPP",
           "package": "haskore-vintage",
@@ -2603,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "PPP",
           "package": "haskore-vintage",
@@ -2616,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Pedal",
           "package": "haskore-vintage",
@@ -2625,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Pedal",
           "package": "haskore-vintage",
@@ -2638,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "PedalHiHat",
           "package": "haskore-vintage",
@@ -2647,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "PedalHiHat",
           "package": "haskore-vintage",
@@ -2660,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Phrase",
           "package": "haskore-vintage",
@@ -2669,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Phrase",
           "normalized": "Phrase[PhraseAttribute]Music",
@@ -2684,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Pizzicato",
           "package": "haskore-vintage",
@@ -2693,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Pizzicato",
           "package": "haskore-vintage",
@@ -2706,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Player",
           "package": "haskore-vintage",
@@ -2715,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Player",
           "package": "haskore-vintage",
@@ -2728,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Rest",
           "package": "haskore-vintage",
@@ -2737,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Rest",
           "package": "haskore-vintage",
@@ -2750,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "RideBell",
           "package": "haskore-vintage",
@@ -2759,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "RideBell",
           "package": "haskore-vintage",
@@ -2772,6 +3024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "RideCymbal1",
           "package": "haskore-vintage",
@@ -2781,6 +3034,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "RideCymbal1",
           "package": "haskore-vintage",
@@ -2794,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "RideCymbal2",
           "package": "haskore-vintage",
@@ -2803,6 +3058,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "RideCymbal2",
           "package": "haskore-vintage",
@@ -2816,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Ritardando",
           "package": "haskore-vintage",
@@ -2825,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Ritardando",
           "package": "haskore-vintage",
@@ -2838,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "SF",
           "package": "haskore-vintage",
@@ -2847,6 +3106,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "SF",
           "package": "haskore-vintage",
@@ -2860,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ShortGuiro",
           "package": "haskore-vintage",
@@ -2869,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ShortGuiro",
           "package": "haskore-vintage",
@@ -2882,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ShortTrill",
           "package": "haskore-vintage",
@@ -2891,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ShortTrill",
           "package": "haskore-vintage",
@@ -2904,6 +3168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ShortWhistle",
           "package": "haskore-vintage",
@@ -2913,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ShortWhistle",
           "package": "haskore-vintage",
@@ -2926,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "SideStick",
           "package": "haskore-vintage",
@@ -2935,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "SideStick",
           "package": "haskore-vintage",
@@ -2948,6 +3216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "SlashHead",
           "package": "haskore-vintage",
@@ -2957,6 +3226,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "SlashHead",
           "package": "haskore-vintage",
@@ -2970,6 +3240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Slurred",
           "package": "haskore-vintage",
@@ -2979,6 +3250,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Slurred",
           "package": "haskore-vintage",
@@ -2992,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "SplashCymbal",
           "package": "haskore-vintage",
@@ -3001,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "SplashCymbal",
           "package": "haskore-vintage",
@@ -3014,6 +3288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "SquareHead",
           "package": "haskore-vintage",
@@ -3023,6 +3298,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "SquareHead",
           "package": "haskore-vintage",
@@ -3036,6 +3312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Staccato",
           "package": "haskore-vintage",
@@ -3045,6 +3322,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Staccato",
           "package": "haskore-vintage",
@@ -3058,6 +3336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Stopped",
           "package": "haskore-vintage",
@@ -3067,6 +3346,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Stopped",
           "package": "haskore-vintage",
@@ -3080,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Swell",
           "package": "haskore-vintage",
@@ -3089,6 +3370,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Swell",
           "package": "haskore-vintage",
@@ -3102,6 +3384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Tambourine",
           "package": "haskore-vintage",
@@ -3111,6 +3394,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Tambourine",
           "package": "haskore-vintage",
@@ -3124,6 +3408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Tempo",
           "package": "haskore-vintage",
@@ -3133,6 +3418,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Tempo",
           "package": "haskore-vintage",
@@ -3146,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Tenuto",
           "package": "haskore-vintage",
@@ -3155,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Tenuto",
           "package": "haskore-vintage",
@@ -3168,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Thumb",
           "package": "haskore-vintage",
@@ -3177,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Thumb",
           "package": "haskore-vintage",
@@ -3190,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Trans",
           "package": "haskore-vintage",
@@ -3199,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Trans",
           "package": "haskore-vintage",
@@ -3212,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "TremoloHead",
           "package": "haskore-vintage",
@@ -3221,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "TremoloHead",
           "package": "haskore-vintage",
@@ -3234,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "TriangleHead",
           "package": "haskore-vintage",
@@ -3243,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "TriangleHead",
           "package": "haskore-vintage",
@@ -3256,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Trill",
           "package": "haskore-vintage",
@@ -3265,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Trill",
           "package": "haskore-vintage",
@@ -3278,6 +3576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "TrilledTurn",
           "package": "haskore-vintage",
@@ -3287,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "TrilledTurn",
           "package": "haskore-vintage",
@@ -3300,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Turn",
           "package": "haskore-vintage",
@@ -3309,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Turn",
           "package": "haskore-vintage",
@@ -3322,6 +3624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "UpBow",
           "package": "haskore-vintage",
@@ -3331,6 +3634,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "UpBow",
           "package": "haskore-vintage",
@@ -3344,6 +3648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Vibraslap",
           "package": "haskore-vintage",
@@ -3353,6 +3658,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Vibraslap",
           "package": "haskore-vintage",
@@ -3366,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Volume",
           "package": "haskore-vintage",
@@ -3375,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Volume",
           "package": "haskore-vintage",
@@ -3388,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "Wedge",
           "package": "haskore-vintage",
@@ -3397,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "Wedge",
           "package": "haskore-vintage",
@@ -3410,6 +3720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "XHead",
           "package": "haskore-vintage",
@@ -3419,6 +3730,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "XHead",
           "package": "haskore-vintage",
@@ -3432,6 +3744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "a",
           "package": "haskore-vintage",
@@ -3441,6 +3754,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "a",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -3455,6 +3769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "absPitch",
           "package": "haskore-vintage",
@@ -3464,6 +3779,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "absPitch",
           "normalized": "Pitch-\u003eAbsPitch",
@@ -3479,6 +3795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "accent",
           "package": "haskore-vintage",
@@ -3488,6 +3805,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "accent",
           "package": "haskore-vintage",
@@ -3500,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "af",
           "package": "haskore-vintage",
@@ -3509,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "af",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -3523,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "as",
           "package": "haskore-vintage",
@@ -3532,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "as",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -3546,6 +3868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "b",
           "package": "haskore-vintage",
@@ -3555,6 +3878,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "b",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -3569,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "bf",
           "package": "haskore-vintage",
@@ -3578,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "bf",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -3592,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "bigAccent",
           "package": "haskore-vintage",
@@ -3601,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "bigAccent",
           "package": "haskore-vintage",
@@ -3614,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "bn",
           "package": "haskore-vintage",
@@ -3623,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "bn",
           "package": "haskore-vintage",
@@ -3635,6 +3965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "bnr",
           "package": "haskore-vintage",
@@ -3644,6 +3975,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "bnr",
           "package": "haskore-vintage",
@@ -3656,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "bs",
           "package": "haskore-vintage",
@@ -3665,6 +3998,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "bs",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -3679,6 +4013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "c",
           "package": "haskore-vintage",
@@ -3688,6 +4023,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "c",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -3702,6 +4038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "cf",
           "package": "haskore-vintage",
@@ -3711,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "cf",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -3725,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "chord",
           "package": "haskore-vintage",
@@ -3734,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "chord",
           "normalized": "[Music]-\u003eMusic",
@@ -3748,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "cs",
           "package": "haskore-vintage",
@@ -3757,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "cs",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -3771,6 +4113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "cut",
           "package": "haskore-vintage",
@@ -3780,6 +4123,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "cut",
           "normalized": "Dur-\u003eMusic-\u003eMusic",
@@ -3794,6 +4138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "d",
           "package": "haskore-vintage",
@@ -3803,6 +4148,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "d",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -3817,6 +4163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dden",
           "package": "haskore-vintage",
@@ -3826,6 +4173,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dden",
           "package": "haskore-vintage",
@@ -3838,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ddenr",
           "package": "haskore-vintage",
@@ -3847,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ddenr",
           "package": "haskore-vintage",
@@ -3859,6 +4209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ddhn",
           "package": "haskore-vintage",
@@ -3868,6 +4219,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ddhn",
           "package": "haskore-vintage",
@@ -3880,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ddhnr",
           "package": "haskore-vintage",
@@ -3889,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ddhnr",
           "package": "haskore-vintage",
@@ -3901,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ddqn",
           "package": "haskore-vintage",
@@ -3910,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ddqn",
           "package": "haskore-vintage",
@@ -3922,6 +4278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ddqnr",
           "package": "haskore-vintage",
@@ -3931,6 +4288,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ddqnr",
           "package": "haskore-vintage",
@@ -3943,6 +4301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "delay",
           "package": "haskore-vintage",
@@ -3952,6 +4311,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "delay",
           "normalized": "Dur-\u003eMusic-\u003eMusic",
@@ -3966,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "den",
           "package": "haskore-vintage",
@@ -3975,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "den",
           "package": "haskore-vintage",
@@ -3987,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "denr",
           "package": "haskore-vintage",
@@ -3996,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "denr",
           "package": "haskore-vintage",
@@ -4008,6 +4372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "df",
           "package": "haskore-vintage",
@@ -4017,6 +4382,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "df",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4031,6 +4397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dhn",
           "package": "haskore-vintage",
@@ -4040,6 +4407,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dhn",
           "package": "haskore-vintage",
@@ -4052,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dhnr",
           "package": "haskore-vintage",
@@ -4061,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dhnr",
           "package": "haskore-vintage",
@@ -4073,6 +4443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dqn",
           "package": "haskore-vintage",
@@ -4082,6 +4453,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dqn",
           "package": "haskore-vintage",
@@ -4094,6 +4466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dqnr",
           "package": "haskore-vintage",
@@ -4103,6 +4476,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dqnr",
           "package": "haskore-vintage",
@@ -4115,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ds",
           "package": "haskore-vintage",
@@ -4124,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ds",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4138,6 +4514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dsn",
           "package": "haskore-vintage",
@@ -4147,6 +4524,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dsn",
           "package": "haskore-vintage",
@@ -4159,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dsnr",
           "package": "haskore-vintage",
@@ -4168,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dsnr",
           "package": "haskore-vintage",
@@ -4180,6 +4560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dtn",
           "package": "haskore-vintage",
@@ -4189,6 +4570,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dtn",
           "package": "haskore-vintage",
@@ -4201,6 +4583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dtnr",
           "package": "haskore-vintage",
@@ -4210,6 +4593,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dtnr",
           "package": "haskore-vintage",
@@ -4222,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dur",
           "package": "haskore-vintage",
@@ -4231,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dur",
           "normalized": "Music-\u003eDur",
@@ -4245,6 +4631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dwn",
           "package": "haskore-vintage",
@@ -4254,6 +4641,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dwn",
           "package": "haskore-vintage",
@@ -4266,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "dwnr",
           "package": "haskore-vintage",
@@ -4275,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "dwnr",
           "package": "haskore-vintage",
@@ -4287,6 +4677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "e",
           "package": "haskore-vintage",
@@ -4296,6 +4687,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "e",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4310,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ef",
           "package": "haskore-vintage",
@@ -4319,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ef",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4333,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "en",
           "package": "haskore-vintage",
@@ -4342,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "en",
           "package": "haskore-vintage",
@@ -4354,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "enr",
           "package": "haskore-vintage",
@@ -4363,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "enr",
           "package": "haskore-vintage",
@@ -4375,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "es",
           "package": "haskore-vintage",
@@ -4384,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "es",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4398,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "f",
           "package": "haskore-vintage",
@@ -4407,6 +4808,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "f",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4421,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "ff",
           "package": "haskore-vintage",
@@ -4430,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "ff",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4444,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "float",
           "package": "haskore-vintage",
@@ -4453,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "float",
           "normalized": "Int-\u003eFloat",
@@ -4467,6 +4873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "fs",
           "package": "haskore-vintage",
@@ -4476,6 +4883,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "fs",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4490,6 +4898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "g",
           "package": "haskore-vintage",
@@ -4499,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "g",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4513,6 +4923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "gf",
           "package": "haskore-vintage",
@@ -4522,6 +4933,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "gf",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4536,6 +4948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "gs",
           "package": "haskore-vintage",
@@ -4545,6 +4958,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "gs",
           "normalized": "Octave-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4559,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "hn",
           "package": "haskore-vintage",
@@ -4568,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "hn",
           "package": "haskore-vintage",
@@ -4580,6 +4996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "hnr",
           "package": "haskore-vintage",
@@ -4589,6 +5006,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "hnr",
           "package": "haskore-vintage",
@@ -4601,6 +5019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "invert",
           "package": "haskore-vintage",
@@ -4610,6 +5029,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "invert",
           "normalized": "Music-\u003eMusic",
@@ -4624,6 +5044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "invertRetro",
           "package": "haskore-vintage",
@@ -4633,6 +5054,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "invertRetro",
           "normalized": "Music-\u003eMusic",
@@ -4648,6 +5070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "legato",
           "package": "haskore-vintage",
@@ -4657,6 +5080,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "legato",
           "package": "haskore-vintage",
@@ -4669,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "line",
           "package": "haskore-vintage",
@@ -4678,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "line",
           "normalized": "[Music]-\u003eMusic",
@@ -4692,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "lineToList",
           "package": "haskore-vintage",
@@ -4701,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "lineToList",
           "normalized": "Music-\u003e[Music]",
@@ -4716,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "perc",
           "package": "haskore-vintage",
@@ -4725,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "perc",
           "normalized": "PercussionSound-\u003eDur-\u003e[NoteAttribute]-\u003eMusic",
@@ -4739,6 +5169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "pitch",
           "package": "haskore-vintage",
@@ -4748,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "pitch",
           "normalized": "AbsPitch-\u003ePitch",
@@ -4762,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "pitchClass",
           "package": "haskore-vintage",
@@ -4771,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "pitchClass",
           "normalized": "PitchClass-\u003eInt",
@@ -4786,6 +5220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "pr1",
           "package": "haskore-vintage",
@@ -4795,6 +5230,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "pr1",
           "normalized": "Pitch-\u003eMusic",
@@ -4809,6 +5245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "pr12",
           "package": "haskore-vintage",
@@ -4818,6 +5255,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "pr12",
           "package": "haskore-vintage",
@@ -4830,6 +5268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "pr2",
           "package": "haskore-vintage",
@@ -4839,6 +5278,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "pr2",
           "normalized": "Pitch-\u003eMusic",
@@ -4853,6 +5293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "qn",
           "package": "haskore-vintage",
@@ -4862,6 +5303,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "qn",
           "package": "haskore-vintage",
@@ -4874,6 +5316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "qnr",
           "package": "haskore-vintage",
@@ -4883,6 +5326,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "qnr",
           "package": "haskore-vintage",
@@ -4895,6 +5339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "repeatM",
           "package": "haskore-vintage",
@@ -4904,6 +5349,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "repeatM",
           "normalized": "Music-\u003eMusic",
@@ -4918,6 +5364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "retro",
           "package": "haskore-vintage",
@@ -4927,6 +5374,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "retro",
           "normalized": "Music-\u003eMusic",
@@ -4941,6 +5389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "retroInvert",
           "package": "haskore-vintage",
@@ -4950,6 +5399,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "retroInvert",
           "normalized": "Music-\u003eMusic",
@@ -4965,6 +5415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "revM",
           "package": "haskore-vintage",
@@ -4974,6 +5425,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "revM",
           "normalized": "Music-\u003eMusic",
@@ -4988,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "roll",
           "package": "haskore-vintage",
@@ -4997,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "roll",
           "normalized": "Dur-\u003eMusic-\u003eMusic",
@@ -5011,6 +5465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "rolln",
           "package": "haskore-vintage",
@@ -5020,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "rolln",
           "normalized": "Int-\u003eMusic-\u003eMusic",
@@ -5034,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "rtof",
           "package": "haskore-vintage",
@@ -5043,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "rtof",
           "normalized": "Ratio Int-\u003eFloat",
@@ -5057,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "sfn",
           "package": "haskore-vintage",
@@ -5066,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "sfn",
           "package": "haskore-vintage",
@@ -5078,6 +5538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "sn",
           "package": "haskore-vintage",
@@ -5087,6 +5548,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "sn",
           "package": "haskore-vintage",
@@ -5099,6 +5561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "snr",
           "package": "haskore-vintage",
@@ -5108,6 +5571,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "snr",
           "package": "haskore-vintage",
@@ -5120,6 +5584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "staccato",
           "package": "haskore-vintage",
@@ -5129,6 +5594,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "staccato",
           "package": "haskore-vintage",
@@ -5141,6 +5607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "tn",
           "package": "haskore-vintage",
@@ -5150,6 +5617,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "tn",
           "package": "haskore-vintage",
@@ -5162,6 +5630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "tnr",
           "package": "haskore-vintage",
@@ -5171,6 +5640,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "tnr",
           "package": "haskore-vintage",
@@ -5183,6 +5653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "trans",
           "package": "haskore-vintage",
@@ -5192,6 +5663,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "trans",
           "normalized": "Int-\u003ePitch-\u003ePitch",
@@ -5206,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "trill",
           "package": "haskore-vintage",
@@ -5215,6 +5688,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "trill",
           "normalized": "Int-\u003eDur-\u003eMusic-\u003eMusic",
@@ -5229,6 +5703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "trill'",
           "package": "haskore-vintage",
@@ -5238,6 +5713,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "trill'",
           "normalized": "Int-\u003eDur-\u003eMusic-\u003eMusic",
@@ -5252,6 +5728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "trilln",
           "package": "haskore-vintage",
@@ -5261,6 +5738,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "trilln",
           "normalized": "Int-\u003eInt-\u003eMusic-\u003eMusic",
@@ -5275,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "trilln'",
           "package": "haskore-vintage",
@@ -5284,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "trilln'",
           "normalized": "Int-\u003eInt-\u003eMusic-\u003eMusic",
@@ -5298,6 +5778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "wn",
           "package": "haskore-vintage",
@@ -5307,6 +5788,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "wn",
           "package": "haskore-vintage",
@@ -5319,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Basics",
           "name": "wnr",
           "package": "haskore-vintage",
@@ -5328,6 +5811,7 @@
         },
         "index": {
           "hierarchy": "Haskore Basics",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Basics",
           "name": "wnr",
           "package": "haskore-vintage",
@@ -5340,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Bitops",
           "name": "Bitops",
           "package": "haskore-vintage",
@@ -5348,6 +5833,7 @@
         },
         "index": {
           "hierarchy": "Haskore Bitops",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Bitops",
           "name": "Bitops",
           "package": "haskore-vintage",
@@ -5361,6 +5847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Bitops",
           "name": "bSplitAt",
           "package": "haskore-vintage",
@@ -5370,6 +5857,7 @@
         },
         "index": {
           "hierarchy": "Haskore Bitops",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Bitops",
           "name": "bSplitAt",
           "normalized": "Int-\u003eInt-\u003e(Int,Int)",
@@ -5385,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Bitops",
           "name": "bTrunc",
           "package": "haskore-vintage",
@@ -5394,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "Haskore Bitops",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Bitops",
           "name": "bTrunc",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -5409,6 +5899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Bitops",
           "name": "bshiftl",
           "package": "haskore-vintage",
@@ -5418,6 +5909,7 @@
         },
         "index": {
           "hierarchy": "Haskore Bitops",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Bitops",
           "name": "bshiftl",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -5432,6 +5924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Bitops",
           "name": "bshiftr",
           "package": "haskore-vintage",
@@ -5441,6 +5934,7 @@
         },
         "index": {
           "hierarchy": "Haskore Bitops",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Bitops",
           "name": "bshiftr",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -5455,6 +5949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Bitops",
           "name": "fromBase",
           "package": "haskore-vintage",
@@ -5464,6 +5959,7 @@
         },
         "index": {
           "hierarchy": "Haskore Bitops",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Bitops",
           "name": "fromBase",
           "normalized": "Int-\u003e[Int]-\u003eInt",
@@ -5479,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Bitops",
           "name": "someBytes",
           "package": "haskore-vintage",
@@ -5488,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Haskore Bitops",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Bitops",
           "name": "someBytes",
           "normalized": "Int-\u003eInt-\u003e[Int]",
@@ -5503,6 +6001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Bitops",
           "name": "toBase",
           "package": "haskore-vintage",
@@ -5512,6 +6011,7 @@
         },
         "index": {
           "hierarchy": "Haskore Bitops",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Bitops",
           "name": "toBase",
           "normalized": "Int-\u003eInt-\u003e[Int]",
@@ -5527,6 +6027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.GeneralMidi",
           "name": "GeneralMidi",
           "package": "haskore-vintage",
@@ -5535,6 +6036,7 @@
         },
         "index": {
           "hierarchy": "Haskore GeneralMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.GeneralMidi",
           "name": "GeneralMidi",
           "package": "haskore-vintage",
@@ -5548,6 +6050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.GeneralMidi",
           "name": "GenMidiName",
           "package": "haskore-vintage",
@@ -5556,6 +6059,7 @@
         },
         "index": {
           "hierarchy": "Haskore GeneralMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.GeneralMidi",
           "name": "GenMidiName",
           "package": "haskore-vintage",
@@ -5569,6 +6073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.GeneralMidi",
           "name": "GenMidiTable",
           "package": "haskore-vintage",
@@ -5577,6 +6082,7 @@
         },
         "index": {
           "hierarchy": "Haskore GeneralMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.GeneralMidi",
           "name": "GenMidiTable",
           "package": "haskore-vintage",
@@ -5590,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.GeneralMidi",
           "name": "genMidiMap",
           "package": "haskore-vintage",
@@ -5599,6 +6106,7 @@
         },
         "index": {
           "hierarchy": "Haskore GeneralMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.GeneralMidi",
           "name": "genMidiMap",
           "package": "haskore-vintage",
@@ -5612,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.LoadMidi",
           "name": "LoadMidi",
           "package": "haskore-vintage",
@@ -5620,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "Haskore LoadMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.LoadMidi",
           "name": "LoadMidi",
           "package": "haskore-vintage",
@@ -5633,6 +6143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.LoadMidi",
           "name": "loadMidiFile",
           "package": "haskore-vintage",
@@ -5642,6 +6153,7 @@
         },
         "index": {
           "hierarchy": "Haskore LoadMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.LoadMidi",
           "name": "loadMidiFile",
           "normalized": "String-\u003eIO MidiFile",
@@ -5657,6 +6169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.LoadMidi",
           "name": "showMidiFile",
           "package": "haskore-vintage",
@@ -5666,6 +6179,7 @@
         },
         "index": {
           "hierarchy": "Haskore LoadMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.LoadMidi",
           "name": "showMidiFile",
           "normalized": "String-\u003eIO()",
@@ -5681,6 +6195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Midi",
           "name": "Midi",
           "package": "haskore-vintage",
@@ -5689,6 +6204,7 @@
         },
         "index": {
           "hierarchy": "Haskore Midi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Midi",
           "name": "Midi",
           "package": "haskore-vintage",
@@ -5702,6 +6218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MidiFile",
           "package": "haskore-vintage",
@@ -5710,6 +6227,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MidiFile",
           "package": "haskore-vintage",
@@ -5723,6 +6241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "ControlNum",
           "package": "haskore-vintage",
@@ -5731,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "ControlNum",
           "package": "haskore-vintage",
@@ -5744,6 +6264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "ControlVal",
           "package": "haskore-vintage",
@@ -5752,6 +6273,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "ControlVal",
           "package": "haskore-vintage",
@@ -5765,6 +6287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Division",
           "package": "haskore-vintage",
@@ -5773,6 +6296,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Division",
           "package": "haskore-vintage",
@@ -5786,6 +6310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "ElapsedTime",
           "package": "haskore-vintage",
@@ -5794,6 +6319,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "ElapsedTime",
           "package": "haskore-vintage",
@@ -5807,6 +6333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyName",
           "package": "haskore-vintage",
@@ -5815,6 +6342,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyName",
           "package": "haskore-vintage",
@@ -5828,6 +6356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MEvent",
           "package": "haskore-vintage",
@@ -5836,6 +6365,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MEvent",
           "package": "haskore-vintage",
@@ -5849,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MFType",
           "package": "haskore-vintage",
@@ -5857,6 +6388,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MFType",
           "package": "haskore-vintage",
@@ -5870,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MPitch",
           "package": "haskore-vintage",
@@ -5878,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MPitch",
           "package": "haskore-vintage",
@@ -5891,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MTempo",
           "package": "haskore-vintage",
@@ -5899,6 +6434,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MTempo",
           "package": "haskore-vintage",
@@ -5912,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MetaEvent",
           "package": "haskore-vintage",
@@ -5920,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MetaEvent",
           "package": "haskore-vintage",
@@ -5933,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MidiChannel",
           "package": "haskore-vintage",
@@ -5941,6 +6480,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MidiChannel",
           "package": "haskore-vintage",
@@ -5954,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MidiEvent",
           "package": "haskore-vintage",
@@ -5962,6 +6503,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MidiEvent",
           "package": "haskore-vintage",
@@ -5975,6 +6517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MidiFile",
           "package": "haskore-vintage",
@@ -5983,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MidiFile",
           "package": "haskore-vintage",
@@ -5996,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Mode",
           "package": "haskore-vintage",
@@ -6004,6 +6549,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Mode",
           "package": "haskore-vintage",
@@ -6017,6 +6563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "PBRange",
           "package": "haskore-vintage",
@@ -6025,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "PBRange",
           "package": "haskore-vintage",
@@ -6038,6 +6586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Pressure",
           "package": "haskore-vintage",
@@ -6046,6 +6595,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Pressure",
           "package": "haskore-vintage",
@@ -6059,6 +6609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "ProgNum",
           "package": "haskore-vintage",
@@ -6067,6 +6618,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "ProgNum",
           "package": "haskore-vintage",
@@ -6080,6 +6632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "SMPTEBits",
           "package": "haskore-vintage",
@@ -6088,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "SMPTEBits",
           "package": "haskore-vintage",
@@ -6101,6 +6655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "SMPTEFrames",
           "package": "haskore-vintage",
@@ -6109,6 +6664,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "SMPTEFrames",
           "package": "haskore-vintage",
@@ -6122,6 +6678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "SMPTEHours",
           "package": "haskore-vintage",
@@ -6130,6 +6687,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "SMPTEHours",
           "package": "haskore-vintage",
@@ -6143,6 +6701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "SMPTEMins",
           "package": "haskore-vintage",
@@ -6151,6 +6710,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "SMPTEMins",
           "package": "haskore-vintage",
@@ -6164,6 +6724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "SMPTESecs",
           "package": "haskore-vintage",
@@ -6172,6 +6733,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "SMPTESecs",
           "package": "haskore-vintage",
@@ -6185,6 +6747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Track",
           "package": "haskore-vintage",
@@ -6193,6 +6756,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Track",
           "package": "haskore-vintage",
@@ -6206,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Velocity",
           "package": "haskore-vintage",
@@ -6214,6 +6779,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Velocity",
           "package": "haskore-vintage",
@@ -6227,6 +6793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Control",
           "package": "haskore-vintage",
@@ -6236,6 +6803,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Control",
           "package": "haskore-vintage",
@@ -6249,6 +6817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Copyright",
           "package": "haskore-vintage",
@@ -6258,6 +6827,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Copyright",
           "package": "haskore-vintage",
@@ -6271,6 +6841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "CuePoint",
           "package": "haskore-vintage",
@@ -6280,6 +6851,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "CuePoint",
           "package": "haskore-vintage",
@@ -6293,6 +6865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "EndOfTrack",
           "package": "haskore-vintage",
@@ -6302,6 +6875,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "EndOfTrack",
           "package": "haskore-vintage",
@@ -6315,6 +6889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "InstrName",
           "package": "haskore-vintage",
@@ -6324,6 +6899,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "InstrName",
           "package": "haskore-vintage",
@@ -6337,6 +6913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyA",
           "package": "haskore-vintage",
@@ -6346,6 +6923,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyA",
           "package": "haskore-vintage",
@@ -6359,6 +6937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyAf",
           "package": "haskore-vintage",
@@ -6368,6 +6947,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyAf",
           "package": "haskore-vintage",
@@ -6381,6 +6961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyB",
           "package": "haskore-vintage",
@@ -6390,6 +6971,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyB",
           "package": "haskore-vintage",
@@ -6403,6 +6985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyBf",
           "package": "haskore-vintage",
@@ -6412,6 +6995,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyBf",
           "package": "haskore-vintage",
@@ -6425,6 +7009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyC",
           "package": "haskore-vintage",
@@ -6434,6 +7019,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyC",
           "package": "haskore-vintage",
@@ -6447,6 +7033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyCf",
           "package": "haskore-vintage",
@@ -6456,6 +7043,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyCf",
           "package": "haskore-vintage",
@@ -6469,6 +7057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyCs",
           "package": "haskore-vintage",
@@ -6478,6 +7067,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyCs",
           "package": "haskore-vintage",
@@ -6491,6 +7081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyD",
           "package": "haskore-vintage",
@@ -6500,6 +7091,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyD",
           "package": "haskore-vintage",
@@ -6513,6 +7105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyDf",
           "package": "haskore-vintage",
@@ -6522,6 +7115,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyDf",
           "package": "haskore-vintage",
@@ -6535,6 +7129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyE",
           "package": "haskore-vintage",
@@ -6544,6 +7139,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyE",
           "package": "haskore-vintage",
@@ -6557,6 +7153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyEf",
           "package": "haskore-vintage",
@@ -6566,6 +7163,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyEf",
           "package": "haskore-vintage",
@@ -6579,6 +7177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyF",
           "package": "haskore-vintage",
@@ -6588,6 +7187,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyF",
           "package": "haskore-vintage",
@@ -6601,6 +7201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyFs",
           "package": "haskore-vintage",
@@ -6610,6 +7211,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyFs",
           "package": "haskore-vintage",
@@ -6623,6 +7225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyG",
           "package": "haskore-vintage",
@@ -6632,6 +7235,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyG",
           "package": "haskore-vintage",
@@ -6645,6 +7249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeyGf",
           "package": "haskore-vintage",
@@ -6654,6 +7259,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeyGf",
           "package": "haskore-vintage",
@@ -6667,6 +7273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "KeySig",
           "package": "haskore-vintage",
@@ -6676,6 +7283,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "KeySig",
           "package": "haskore-vintage",
@@ -6689,6 +7297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Lyric",
           "package": "haskore-vintage",
@@ -6698,6 +7307,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Lyric",
           "package": "haskore-vintage",
@@ -6711,6 +7321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MIDIPrefix",
           "package": "haskore-vintage",
@@ -6720,6 +7331,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MIDIPrefix",
           "package": "haskore-vintage",
@@ -6733,6 +7345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Major",
           "package": "haskore-vintage",
@@ -6742,6 +7355,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Major",
           "package": "haskore-vintage",
@@ -6755,6 +7369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Marker",
           "package": "haskore-vintage",
@@ -6764,6 +7379,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Marker",
           "package": "haskore-vintage",
@@ -6777,6 +7393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MetaEvent",
           "package": "haskore-vintage",
@@ -6786,6 +7403,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MetaEvent",
           "package": "haskore-vintage",
@@ -6799,6 +7417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MidiEvent",
           "package": "haskore-vintage",
@@ -6808,6 +7427,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MidiEvent",
           "package": "haskore-vintage",
@@ -6821,6 +7441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MidiFile",
           "package": "haskore-vintage",
@@ -6830,6 +7451,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MidiFile",
           "normalized": "MidiFile MFType Division[Track]",
@@ -6845,6 +7467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Minor",
           "package": "haskore-vintage",
@@ -6854,6 +7477,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Minor",
           "package": "haskore-vintage",
@@ -6867,6 +7491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "MonoAfter",
           "package": "haskore-vintage",
@@ -6876,6 +7501,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "MonoAfter",
           "package": "haskore-vintage",
@@ -6889,6 +7515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "NoEvent",
           "package": "haskore-vintage",
@@ -6898,6 +7525,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "NoEvent",
           "package": "haskore-vintage",
@@ -6911,6 +7539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "NoteOff",
           "package": "haskore-vintage",
@@ -6920,6 +7549,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "NoteOff",
           "package": "haskore-vintage",
@@ -6933,6 +7563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "NoteOn",
           "package": "haskore-vintage",
@@ -6942,6 +7573,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "NoteOn",
           "package": "haskore-vintage",
@@ -6955,6 +7587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "PitchBend",
           "package": "haskore-vintage",
@@ -6964,6 +7597,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "PitchBend",
           "package": "haskore-vintage",
@@ -6977,6 +7611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "PolyAfter",
           "package": "haskore-vintage",
@@ -6986,6 +7621,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "PolyAfter",
           "package": "haskore-vintage",
@@ -6999,6 +7635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "ProgChange",
           "package": "haskore-vintage",
@@ -7008,6 +7645,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "ProgChange",
           "package": "haskore-vintage",
@@ -7021,6 +7659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "SMPTE",
           "package": "haskore-vintage",
@@ -7030,6 +7669,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "SMPTE",
           "package": "haskore-vintage",
@@ -7043,6 +7683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "SMPTEOffset",
           "package": "haskore-vintage",
@@ -7052,6 +7693,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "SMPTEOffset",
           "package": "haskore-vintage",
@@ -7065,6 +7707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "SequenceNum",
           "package": "haskore-vintage",
@@ -7074,6 +7717,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "SequenceNum",
           "package": "haskore-vintage",
@@ -7087,6 +7731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "SequencerSpecific",
           "package": "haskore-vintage",
@@ -7096,6 +7741,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "SequencerSpecific",
           "normalized": "SequencerSpecific[Int]",
@@ -7111,6 +7757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "SetTempo",
           "package": "haskore-vintage",
@@ -7120,6 +7767,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "SetTempo",
           "package": "haskore-vintage",
@@ -7133,6 +7781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "TextEvent",
           "package": "haskore-vintage",
@@ -7142,6 +7791,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "TextEvent",
           "package": "haskore-vintage",
@@ -7155,6 +7805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Ticks",
           "package": "haskore-vintage",
@@ -7164,6 +7815,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Ticks",
           "package": "haskore-vintage",
@@ -7177,6 +7829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "TimeSig",
           "package": "haskore-vintage",
@@ -7186,6 +7839,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "TimeSig",
           "package": "haskore-vintage",
@@ -7199,6 +7853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "TrackName",
           "package": "haskore-vintage",
@@ -7208,6 +7863,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "TrackName",
           "package": "haskore-vintage",
@@ -7221,6 +7877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "Unknown",
           "package": "haskore-vintage",
@@ -7230,6 +7887,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "Unknown",
           "package": "haskore-vintage",
@@ -7243,6 +7901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "defDurT",
           "package": "haskore-vintage",
@@ -7252,6 +7911,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "defDurT",
           "package": "haskore-vintage",
@@ -7265,6 +7925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.MidiFile",
           "name": "defST",
           "package": "haskore-vintage",
@@ -7274,6 +7935,7 @@
         },
         "index": {
           "hierarchy": "Haskore MidiFile",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.MidiFile",
           "name": "defST",
           "package": "haskore-vintage",
@@ -7287,6 +7949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.OutputMidi",
           "name": "OutputMidi",
           "package": "haskore-vintage",
@@ -7295,6 +7958,7 @@
         },
         "index": {
           "hierarchy": "Haskore OutputMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.OutputMidi",
           "name": "OutputMidi",
           "package": "haskore-vintage",
@@ -7308,6 +7972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.OutputMidi",
           "name": "midiFileToString",
           "package": "haskore-vintage",
@@ -7317,6 +7982,7 @@
         },
         "index": {
           "hierarchy": "Haskore OutputMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.OutputMidi",
           "name": "midiFileToString",
           "normalized": "MidiFile-\u003eString",
@@ -7332,6 +7998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.OutputMidi",
           "name": "outputMidiFile",
           "package": "haskore-vintage",
@@ -7341,6 +8008,7 @@
         },
         "index": {
           "hierarchy": "Haskore OutputMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.OutputMidi",
           "name": "outputMidiFile",
           "normalized": "String-\u003eMidiFile-\u003eIO()",
@@ -7356,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "Performance",
           "package": "haskore-vintage",
@@ -7364,6 +8033,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "Performance",
           "package": "haskore-vintage",
@@ -7377,6 +8047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "Context",
           "package": "haskore-vintage",
@@ -7385,6 +8056,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "Context",
           "package": "haskore-vintage",
@@ -7398,6 +8070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "DurT",
           "package": "haskore-vintage",
@@ -7406,6 +8079,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "DurT",
           "package": "haskore-vintage",
@@ -7419,6 +8093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "Event",
           "package": "haskore-vintage",
@@ -7427,6 +8102,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "Event",
           "package": "haskore-vintage",
@@ -7440,6 +8116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "Key",
           "package": "haskore-vintage",
@@ -7448,6 +8125,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "Key",
           "package": "haskore-vintage",
@@ -7461,6 +8139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "NotateFun",
           "package": "haskore-vintage",
@@ -7469,6 +8148,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "NotateFun",
           "package": "haskore-vintage",
@@ -7482,6 +8162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "NoteFun",
           "package": "haskore-vintage",
@@ -7490,6 +8171,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "NoteFun",
           "package": "haskore-vintage",
@@ -7503,6 +8185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "PMap",
           "package": "haskore-vintage",
@@ -7511,6 +8194,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "PMap",
           "package": "haskore-vintage",
@@ -7524,6 +8208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "Performance",
           "package": "haskore-vintage",
@@ -7532,6 +8217,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "Performance",
           "package": "haskore-vintage",
@@ -7545,6 +8231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "PhraseFun",
           "package": "haskore-vintage",
@@ -7553,6 +8240,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "PhraseFun",
           "package": "haskore-vintage",
@@ -7566,6 +8254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "Player",
           "package": "haskore-vintage",
@@ -7574,6 +8263,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "Player",
           "package": "haskore-vintage",
@@ -7587,6 +8277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "Time",
           "package": "haskore-vintage",
@@ -7595,6 +8286,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "Time",
           "package": "haskore-vintage",
@@ -7608,6 +8300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "Volume",
           "package": "haskore-vintage",
@@ -7616,6 +8309,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "Volume",
           "package": "haskore-vintage",
@@ -7629,6 +8323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "Context",
           "package": "haskore-vintage",
@@ -7638,6 +8333,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "Context",
           "package": "haskore-vintage",
@@ -7651,6 +8347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "Event",
           "package": "haskore-vintage",
@@ -7660,6 +8357,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "Event",
           "package": "haskore-vintage",
@@ -7673,6 +8371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "MkPlayer",
           "package": "haskore-vintage",
@@ -7682,6 +8381,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "MkPlayer",
           "package": "haskore-vintage",
@@ -7695,6 +8395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "cDur",
           "package": "haskore-vintage",
@@ -7704,6 +8405,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "cDur",
           "package": "haskore-vintage",
@@ -7717,6 +8419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "cInst",
           "package": "haskore-vintage",
@@ -7726,6 +8429,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "cInst",
           "package": "haskore-vintage",
@@ -7739,6 +8443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "cKey",
           "package": "haskore-vintage",
@@ -7748,6 +8453,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "cKey",
           "package": "haskore-vintage",
@@ -7761,6 +8467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "cPlayer",
           "package": "haskore-vintage",
@@ -7770,6 +8477,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "cPlayer",
           "package": "haskore-vintage",
@@ -7783,6 +8491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "cTime",
           "package": "haskore-vintage",
@@ -7792,6 +8501,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "cTime",
           "package": "haskore-vintage",
@@ -7805,6 +8515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "cVol",
           "package": "haskore-vintage",
@@ -7814,6 +8525,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "cVol",
           "package": "haskore-vintage",
@@ -7827,6 +8539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "defInterpPhrase",
           "package": "haskore-vintage",
@@ -7836,6 +8549,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "defInterpPhrase",
           "normalized": "(PhraseAttribute-\u003ePerformance-\u003ePerformance)-\u003ePhraseFun",
@@ -7851,6 +8565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "defNasHandler",
           "package": "haskore-vintage",
@@ -7860,6 +8575,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "defNasHandler",
           "normalized": "Context-\u003eNoteAttribute-\u003eEvent-\u003eEvent",
@@ -7875,6 +8591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "defNotatePlayer",
           "package": "haskore-vintage",
@@ -7884,6 +8601,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "defNotatePlayer",
           "normalized": "()-\u003eNotateFun",
@@ -7899,6 +8617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "defPasHandler",
           "package": "haskore-vintage",
@@ -7908,6 +8627,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "defPasHandler",
           "normalized": "PhraseAttribute-\u003ePerformance-\u003ePerformance",
@@ -7923,6 +8643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "defPlayNote",
           "package": "haskore-vintage",
@@ -7932,6 +8653,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "defPlayNote",
           "normalized": "(Context-\u003eNoteAttribute-\u003eEvent-\u003eEvent)-\u003eNoteFun",
@@ -7947,6 +8669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "defPlayer",
           "package": "haskore-vintage",
@@ -7956,6 +8679,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "defPlayer",
           "package": "haskore-vintage",
@@ -7969,6 +8693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "eDur",
           "package": "haskore-vintage",
@@ -7978,6 +8703,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "eDur",
           "package": "haskore-vintage",
@@ -7991,6 +8717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "eInst",
           "package": "haskore-vintage",
@@ -8000,6 +8727,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "eInst",
           "package": "haskore-vintage",
@@ -8013,6 +8741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "ePitch",
           "package": "haskore-vintage",
@@ -8022,6 +8751,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "ePitch",
           "package": "haskore-vintage",
@@ -8035,6 +8765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "eTime",
           "package": "haskore-vintage",
@@ -8044,6 +8775,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "eTime",
           "package": "haskore-vintage",
@@ -8057,6 +8789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "eVol",
           "package": "haskore-vintage",
@@ -8066,6 +8799,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "eVol",
           "package": "haskore-vintage",
@@ -8079,6 +8813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "fancyInterpPhrase",
           "package": "haskore-vintage",
@@ -8088,6 +8823,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "fancyInterpPhrase",
           "package": "haskore-vintage",
@@ -8101,6 +8837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "fancyPlayer",
           "package": "haskore-vintage",
@@ -8110,6 +8847,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "fancyPlayer",
           "package": "haskore-vintage",
@@ -8123,6 +8861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "interpPhrase",
           "package": "haskore-vintage",
@@ -8132,6 +8871,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "interpPhrase",
           "package": "haskore-vintage",
@@ -8145,6 +8885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "merge",
           "package": "haskore-vintage",
@@ -8154,6 +8895,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "merge",
           "normalized": "Performance-\u003ePerformance-\u003ePerformance",
@@ -8168,6 +8910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "metro",
           "package": "haskore-vintage",
@@ -8177,6 +8920,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "metro",
           "normalized": "Float-\u003eDur-\u003eDurT",
@@ -8191,6 +8935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "notatePlayer",
           "package": "haskore-vintage",
@@ -8200,6 +8945,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "notatePlayer",
           "package": "haskore-vintage",
@@ -8213,6 +8959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "pFields",
           "package": "haskore-vintage",
@@ -8222,6 +8969,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "pFields",
           "normalized": "[Float]",
@@ -8237,6 +8985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "pName",
           "package": "haskore-vintage",
@@ -8246,6 +8995,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "pName",
           "package": "haskore-vintage",
@@ -8259,6 +9009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "perf",
           "package": "haskore-vintage",
@@ -8268,6 +9019,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "perf",
           "normalized": "PMap-\u003eContext-\u003eMusic-\u003e(Performance,DurT)",
@@ -8282,6 +9034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "perform",
           "package": "haskore-vintage",
@@ -8291,6 +9044,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "perform",
           "normalized": "PMap-\u003eContext-\u003eMusic-\u003ePerformance",
@@ -8305,6 +9059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Performance",
           "name": "playNote",
           "package": "haskore-vintage",
@@ -8314,6 +9069,7 @@
         },
         "index": {
           "hierarchy": "Haskore Performance",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Performance",
           "name": "playNote",
           "package": "haskore-vintage",
@@ -8327,6 +9083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.ReadMidi",
           "name": "ReadMidi",
           "package": "haskore-vintage",
@@ -8335,6 +9092,7 @@
         },
         "index": {
           "hierarchy": "Haskore ReadMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.ReadMidi",
           "name": "ReadMidi",
           "package": "haskore-vintage",
@@ -8348,6 +9106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.ReadMidi",
           "name": "readMidi",
           "package": "haskore-vintage",
@@ -8357,6 +9116,7 @@
         },
         "index": {
           "hierarchy": "Haskore ReadMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.ReadMidi",
           "name": "readMidi",
           "normalized": "MidiFile-\u003e(Music,Context,UserPatchMap)",
@@ -8372,6 +9132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "Test",
           "package": "haskore-vintage",
@@ -8380,6 +9141,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "Test",
           "package": "haskore-vintage",
@@ -8393,6 +9155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "defCon",
           "package": "haskore-vintage",
@@ -8402,6 +9165,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "defCon",
           "package": "haskore-vintage",
@@ -8415,6 +9179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "defPMap",
           "package": "haskore-vintage",
@@ -8424,6 +9189,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "defPMap",
           "normalized": "String-\u003ePlayer",
@@ -8439,6 +9205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "defUpm",
           "package": "haskore-vintage",
@@ -8448,6 +9215,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "defUpm",
           "package": "haskore-vintage",
@@ -8461,6 +9229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "gmTest",
           "package": "haskore-vintage",
@@ -8470,6 +9239,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "gmTest",
           "normalized": "Int-\u003eIO()",
@@ -8485,6 +9255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "gmUpm",
           "package": "haskore-vintage",
@@ -8494,6 +9265,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "gmUpm",
           "package": "haskore-vintage",
@@ -8507,6 +9279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "mToMF",
           "package": "haskore-vintage",
@@ -8516,6 +9289,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "mToMF",
           "normalized": "PMap-\u003eContext-\u003eUserPatchMap-\u003eString-\u003eMusic-\u003eIO()",
@@ -8531,6 +9305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "makeMidi",
           "package": "haskore-vintage",
@@ -8540,6 +9315,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "makeMidi",
           "normalized": "(Music,Context,UserPatchMap)-\u003eMidiFile",
@@ -8555,6 +9331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "test",
           "package": "haskore-vintage",
@@ -8564,6 +9341,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "test",
           "normalized": "Music-\u003eIO()",
@@ -8578,6 +9356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "testMidi",
           "package": "haskore-vintage",
@@ -8587,6 +9366,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "testMidi",
           "normalized": "Music-\u003eMidiFile",
@@ -8602,6 +9382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "testPerf",
           "package": "haskore-vintage",
@@ -8611,6 +9392,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "testPerf",
           "normalized": "Music-\u003ePerformance",
@@ -8626,6 +9408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.Test",
           "name": "testPerfDur",
           "package": "haskore-vintage",
@@ -8635,6 +9418,7 @@
         },
         "index": {
           "hierarchy": "Haskore Test",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.Test",
           "name": "testPerfDur",
           "normalized": "Music-\u003e(Performance,DurT)",
@@ -8650,6 +9434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.ToMidi",
           "name": "ToMidi",
           "package": "haskore-vintage",
@@ -8658,6 +9443,7 @@
         },
         "index": {
           "hierarchy": "Haskore ToMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.ToMidi",
           "name": "ToMidi",
           "package": "haskore-vintage",
@@ -8671,6 +9457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.ToMidi",
           "name": "UserPatchMap",
           "package": "haskore-vintage",
@@ -8679,6 +9466,7 @@
         },
         "index": {
           "hierarchy": "Haskore ToMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.ToMidi",
           "name": "UserPatchMap",
           "package": "haskore-vintage",
@@ -8692,6 +9480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore.ToMidi",
           "name": "performToMidi",
           "package": "haskore-vintage",
@@ -8701,6 +9490,7 @@
         },
         "index": {
           "hierarchy": "Haskore ToMidi",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore.ToMidi",
           "name": "performToMidi",
           "normalized": "Performance-\u003eUserPatchMap-\u003eMidiFile",
@@ -8716,6 +9506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:55 UTC 2014",
           "module": "Haskore",
           "name": "Haskore",
           "package": "haskore-vintage",
@@ -8724,6 +9515,7 @@
         },
         "index": {
           "hierarchy": "Haskore",
+          "indexed": "2014-03-11T18:33:55",
           "module": "Haskore",
           "name": "Haskore",
           "package": "haskore-vintage",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dedukti"
+        "phrase": "dedukti",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAll generated Haskell files import this module. The data type\n declarations are given here, along with the conversion relation and type\n inference function.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "Runtime",
           "package": "dedukti",
@@ -28,6 +29,7 @@
         "index": {
           "description": "All generated Haskell files import this module The data type declarations are given here along with the conversion relation and type inference function",
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "Runtime",
           "package": "dedukti",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "Code",
           "package": "dedukti",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "Code",
           "package": "dedukti",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "Term",
           "package": "dedukti",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "Term",
           "package": "dedukti",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "App",
           "package": "dedukti",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "App",
           "package": "dedukti",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "Box",
           "package": "dedukti",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "Box",
           "package": "dedukti",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "Con",
           "package": "dedukti",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "Con",
           "package": "dedukti",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "Kind",
           "package": "dedukti",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "Kind",
           "package": "dedukti",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "Lam",
           "package": "dedukti",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "Lam",
           "normalized": "Lam(Code-\u003eCode)",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "Pi",
           "package": "dedukti",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "Pi",
           "normalized": "Pi Code(Code-\u003eCode)",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "TApp",
           "package": "dedukti",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "TApp",
           "package": "dedukti",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "TLam",
           "package": "dedukti",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "TLam",
           "normalized": "TLam Term(Term-\u003eTerm)",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "TPi",
           "package": "dedukti",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "TPi",
           "normalized": "TPi Term(Term-\u003eTerm)",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "TType",
           "package": "dedukti",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "TType",
           "package": "dedukti",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "Type",
           "package": "dedukti",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "Type",
           "package": "dedukti",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "UBox",
           "package": "dedukti",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "UBox",
           "package": "dedukti",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "Var",
           "package": "dedukti",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "Var",
           "package": "dedukti",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "ap",
           "package": "dedukti",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "ap",
           "normalized": "Code-\u003eCode-\u003eCode",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "bbox",
           "package": "dedukti",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "bbox",
           "normalized": "Term-\u003eCode-\u003eCode-\u003eTerm",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "checkDeclaration",
           "package": "dedukti",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "checkDeclaration",
           "normalized": "String-\u003eTerm-\u003eIO()",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "checkRule",
           "package": "dedukti",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "checkRule",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "convertible",
           "package": "dedukti",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "convertible",
           "normalized": "Int-\u003eCode-\u003eCode-\u003eBool",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "obj",
           "package": "dedukti",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "obj",
           "normalized": "Term-\u003eCode",
@@ -518,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA box in which we didn't put anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "sbox",
           "package": "dedukti",
@@ -528,6 +573,7 @@
         "index": {
           "description": "box in which we didn put anything",
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "sbox",
           "normalized": "Term-\u003eCode-\u003eCode-\u003eTerm",
@@ -542,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "start",
           "package": "dedukti",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "start",
           "package": "dedukti",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:23 UTC 2014",
           "module": "Dedukti.Runtime",
           "name": "stop",
           "package": "dedukti",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Dedukti Runtime",
+          "indexed": "2014-03-11T17:52:23",
           "module": "Dedukti.Runtime",
           "name": "stop",
           "normalized": "UTCTime-\u003eIO()",

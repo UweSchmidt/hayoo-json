@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "copilot-language"
+        "phrase": "copilot-language",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBitwise operators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "BitWise",
           "package": "copilot-language",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Bitwise operators",
           "hierarchy": "Copilot Language Operators BitWise",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "BitWise",
           "package": "copilot-language",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e class defines bitwise operations over integral types.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Bits are numbered from 0 with bit 0 being the least\n  significant bit.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003e.&.\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e.|.\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003exor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ecomplement\u003c/a\u003e\u003c/code\u003e,\n(\u003ccode\u003e\u003ca\u003eshift\u003c/a\u003e\u003c/code\u003e or (\u003ccode\u003e\u003ca\u003eshiftL\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eshiftR\u003c/a\u003e\u003c/code\u003e)), (\u003ccode\u003e\u003ca\u003erotate\u003c/a\u003e\u003c/code\u003e or (\u003ccode\u003e\u003ca\u003erotateL\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erotateR\u003c/a\u003e\u003c/code\u003e)),\n\u003ccode\u003e\u003ca\u003ebitSize\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eisSigned\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etestBit\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ebit\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003epopCount\u003c/a\u003e\u003c/code\u003e.  The latter three can\nbe implemented using \u003ccode\u003e\u003ca\u003etestBitDefault\u003c/a\u003e\u003c/code\u003e, 'bitDefault, and \u003ccode\u003e\u003ca\u003epopCountDefault\u003c/a\u003e\u003c/code\u003e, if\n\u003ccode\u003ea\u003c/code\u003e is also an instance of \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "Bits",
           "package": "copilot-language",
@@ -50,6 +53,7 @@
         "index": {
           "description": "The Bits class defines bitwise operations over integral types Bits are numbered from with bit being the least significant bit Minimal complete definition xor complement shift or shiftL and shiftR rotate or rotateL and rotateR bitSize isSigned testBit bit and popCount The latter three can be implemented using testBitDefault bitDefault and popCountDefault if is also an instance of Num",
           "hierarchy": "Copilot Language Operators BitWise",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "Bits",
           "package": "copilot-language",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitwise \"or\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "(.|.)",
           "package": "copilot-language",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Bitwise or",
           "hierarchy": "Copilot Language Operators BitWise",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "(.|.) .|.",
           "normalized": "a-\u003ea-\u003ea",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitwise \"and\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "(.&.)",
           "package": "copilot-language",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Bitwise and",
           "hierarchy": "Copilot Language Operators BitWise",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "(.&.) .&.",
           "normalized": "a-\u003ea-\u003ea",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "(.\u003c\u003c.)",
           "package": "copilot-language",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators BitWise",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "(.\u003c\u003c.) .\u003c\u003c.",
           "normalized": "Stream a-\u003eStream b-\u003eStream a",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "(.\u003e\u003e.)",
           "package": "copilot-language",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators BitWise",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "(.\u003e\u003e.) .\u003e\u003e.",
           "normalized": "Stream a-\u003eStream b-\u003eStream a",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "(.^.)",
           "package": "copilot-language",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators BitWise",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "(.^.) .^.",
           "normalized": "a-\u003ea-\u003ea",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse all the bits in the argument \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "complement",
           "package": "copilot-language",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Reverse all the bits in the argument",
           "hierarchy": "Copilot Language Operators BitWise",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.BitWise",
           "name": "complement",
           "normalized": "a-\u003ea",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBoolean operators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "Boolean",
           "package": "copilot-language",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Boolean operators",
           "hierarchy": "Copilot Language Operators Boolean",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "Boolean",
           "package": "copilot-language",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "(||)",
           "package": "copilot-language",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Boolean",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "(||) ||",
           "normalized": "Stream Bool-\u003eStream Bool-\u003eStream Bool",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "(&&)",
           "package": "copilot-language",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Boolean",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "(&&) &&",
           "normalized": "Stream Bool-\u003eStream Bool-\u003eStream Bool",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "(==\u003e)",
           "package": "copilot-language",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Boolean",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "(==\u003e) ==\u003e",
           "normalized": "Stream Bool-\u003eStream Bool-\u003eStream Bool",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "false",
           "package": "copilot-language",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Boolean",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "false",
           "package": "copilot-language",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "not",
           "package": "copilot-language",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Boolean",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "not",
           "normalized": "Stream Bool-\u003eStream Bool",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "true",
           "package": "copilot-language",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Boolean",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "true",
           "package": "copilot-language",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "xor",
           "package": "copilot-language",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Boolean",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Boolean",
           "name": "xor",
           "normalized": "Stream Bool-\u003eStream Bool-\u003eStream Bool",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-safe casting operators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Cast",
           "name": "Cast",
           "package": "copilot-language",
@@ -394,6 +427,7 @@
         "index": {
           "description": "Type-safe casting operators",
           "hierarchy": "Copilot Language Operators Cast",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Cast",
           "name": "Cast",
           "package": "copilot-language",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Cast",
           "name": "cast",
           "package": "copilot-language",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Cast",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Cast",
           "name": "cast",
           "normalized": "Stream a-\u003eStream b",
@@ -431,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConstants.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "Constant",
           "package": "copilot-language",
@@ -440,6 +477,7 @@
         "index": {
           "description": "Constants",
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "Constant",
           "package": "copilot-language",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constB",
           "package": "copilot-language",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constB",
           "normalized": "Bool-\u003eStream Bool",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constD",
           "package": "copilot-language",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constD",
           "normalized": "Double-\u003eStream Double",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constF",
           "package": "copilot-language",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constF",
           "normalized": "Float-\u003eStream Float",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constI16",
           "package": "copilot-language",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constI16",
           "normalized": "Int-\u003eStream Int",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constI32",
           "package": "copilot-language",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constI32",
           "normalized": "Int-\u003eStream Int",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constI64",
           "package": "copilot-language",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constI64",
           "normalized": "Int-\u003eStream Int",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constI8",
           "package": "copilot-language",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constI8",
           "normalized": "Int-\u003eStream Int",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constW16",
           "package": "copilot-language",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constW16",
           "normalized": "Word-\u003eStream Word",
@@ -637,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constW32",
           "package": "copilot-language",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constW32",
           "normalized": "Word-\u003eStream Word",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constW64",
           "package": "copilot-language",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constW64",
           "normalized": "Word-\u003eStream Word",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constW8",
           "package": "copilot-language",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constW8",
           "normalized": "Word-\u003eStream Word",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constant",
           "package": "copilot-language",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Constant",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Constant",
           "name": "constant",
           "normalized": "a-\u003eStream a",
@@ -730,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEquality operator.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Eq",
           "name": "Eq",
           "package": "copilot-language",
@@ -739,6 +802,7 @@
         "index": {
           "description": "Equality operator",
           "hierarchy": "Copilot Language Operators Eq",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Eq",
           "name": "Eq",
           "package": "copilot-language",
@@ -752,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Eq",
           "name": "(/=)",
           "package": "copilot-language",
@@ -761,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Eq",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Eq",
           "name": "(/=) /=",
           "normalized": "Stream a-\u003eStream a-\u003eStream Bool",
@@ -775,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Eq",
           "name": "(==)",
           "package": "copilot-language",
@@ -784,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Eq",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Eq",
           "name": "(==) ==",
           "normalized": "Stream a-\u003eStream a-\u003eStream Bool",
@@ -799,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExternal variables, arrays, and functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "Extern",
           "package": "copilot-language",
@@ -808,6 +877,7 @@
         "index": {
           "description": "External variables arrays and functions",
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "Extern",
           "package": "copilot-language",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "extern",
           "package": "copilot-language",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "extern",
           "normalized": "String-\u003eMaybe[a]-\u003eStream a",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArray",
           "package": "copilot-language",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArray",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[b]]-\u003eStream b",
@@ -868,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayB",
           "package": "copilot-language",
@@ -877,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayB",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[Bool]]-\u003eStream Bool",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayD",
           "package": "copilot-language",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayD",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[Double]]-\u003eStream Double",
@@ -916,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayF",
           "package": "copilot-language",
@@ -925,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayF",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[Float]]-\u003eStream Float",
@@ -940,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayI16",
           "package": "copilot-language",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayI16",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[Int]]-\u003eStream Int",
@@ -964,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayI32",
           "package": "copilot-language",
@@ -973,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayI32",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[Int]]-\u003eStream Int",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayI64",
           "package": "copilot-language",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayI64",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[Int]]-\u003eStream Int",
@@ -1012,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayI8",
           "package": "copilot-language",
@@ -1021,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayI8",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[Int]]-\u003eStream Int",
@@ -1036,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayW16",
           "package": "copilot-language",
@@ -1045,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayW16",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[Word]]-\u003eStream Word",
@@ -1060,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayW32",
           "package": "copilot-language",
@@ -1069,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayW32",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[Word]]-\u003eStream Word",
@@ -1084,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayW64",
           "package": "copilot-language",
@@ -1093,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayW64",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[Word]]-\u003eStream Word",
@@ -1108,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayW8",
           "package": "copilot-language",
@@ -1117,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externArrayW8",
           "normalized": "String-\u003eStream a-\u003eSize-\u003eMaybe[[Word]]-\u003eStream Word",
@@ -1132,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externB",
           "package": "copilot-language",
@@ -1141,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externB",
           "normalized": "String-\u003eMaybe[Bool]-\u003eStream Bool",
@@ -1155,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externD",
           "package": "copilot-language",
@@ -1164,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externD",
           "normalized": "String-\u003eMaybe[Double]-\u003eStream Double",
@@ -1178,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externF",
           "package": "copilot-language",
@@ -1187,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externF",
           "normalized": "String-\u003eMaybe[Float]-\u003eStream Float",
@@ -1201,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externFun",
           "package": "copilot-language",
@@ -1210,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externFun",
           "normalized": "String-\u003e[Arg]-\u003eMaybe(Stream a)-\u003eStream a",
@@ -1225,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externI16",
           "package": "copilot-language",
@@ -1234,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externI16",
           "normalized": "String-\u003eMaybe[Int]-\u003eStream Int",
@@ -1248,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externI32",
           "package": "copilot-language",
@@ -1257,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externI32",
           "normalized": "String-\u003eMaybe[Int]-\u003eStream Int",
@@ -1271,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externI64",
           "package": "copilot-language",
@@ -1280,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externI64",
           "normalized": "String-\u003eMaybe[Int]-\u003eStream Int",
@@ -1294,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externI8",
           "package": "copilot-language",
@@ -1303,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externI8",
           "normalized": "String-\u003eMaybe[Int]-\u003eStream Int",
@@ -1317,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externW16",
           "package": "copilot-language",
@@ -1326,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externW16",
           "normalized": "String-\u003eMaybe[Word]-\u003eStream Word",
@@ -1340,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externW32",
           "package": "copilot-language",
@@ -1349,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externW32",
           "normalized": "String-\u003eMaybe[Word]-\u003eStream Word",
@@ -1363,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externW64",
           "package": "copilot-language",
@@ -1372,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externW64",
           "normalized": "String-\u003eMaybe[Word]-\u003eStream Word",
@@ -1386,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externW8",
           "package": "copilot-language",
@@ -1395,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "externW8",
           "normalized": "String-\u003eMaybe[Word]-\u003eStream Word",
@@ -1410,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Extern",
           "name": "funArg",
           "package": "copilot-language",
@@ -1420,6 +1541,7 @@
         "index": {
           "description": "Deprecated",
           "hierarchy": "Copilot Language Operators Extern",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Extern",
           "name": "funArg",
           "normalized": "Stream a-\u003eArg",
@@ -1436,6 +1558,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntegral class operators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Integral",
           "name": "Integral",
           "package": "copilot-language",
@@ -1445,6 +1568,7 @@
         "index": {
           "description": "Integral class operators",
           "hierarchy": "Copilot Language Operators Integral",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Integral",
           "name": "Integral",
           "package": "copilot-language",
@@ -1458,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Integral",
           "name": "(^)",
           "package": "copilot-language",
@@ -1467,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Integral",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Integral",
           "name": "(^) ^",
           "normalized": "Stream a-\u003eStream b-\u003eStream a",
@@ -1481,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Integral",
           "name": "div",
           "package": "copilot-language",
@@ -1490,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Integral",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Integral",
           "name": "div",
           "normalized": "Stream a-\u003eStream a-\u003eStream a",
@@ -1504,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Integral",
           "name": "mod",
           "package": "copilot-language",
@@ -1513,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Integral",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Integral",
           "name": "mod",
           "normalized": "Stream a-\u003eStream a-\u003eStream a",
@@ -1528,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLet expressions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Local",
           "name": "Local",
           "package": "copilot-language",
@@ -1537,6 +1668,7 @@
         "index": {
           "description": "Let expressions",
           "hierarchy": "Copilot Language Operators Local",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Local",
           "name": "Local",
           "package": "copilot-language",
@@ -1550,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Local",
           "name": "local",
           "package": "copilot-language",
@@ -1559,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Local",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Local",
           "name": "local",
           "normalized": "Stream a-\u003e(Stream a-\u003eStream b)-\u003eStream b",
@@ -1574,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eif-then-else.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Mux",
           "name": "Mux",
           "package": "copilot-language",
@@ -1583,6 +1718,7 @@
         "index": {
           "description": "if-then-else",
           "hierarchy": "Copilot Language Operators Mux",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Mux",
           "name": "Mux",
           "package": "copilot-language",
@@ -1596,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Mux",
           "name": "ifThenElse",
           "package": "copilot-language",
@@ -1605,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Mux",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Mux",
           "name": "ifThenElse",
           "normalized": "Stream Bool-\u003eStream a-\u003eStream a-\u003eStream a",
@@ -1620,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Mux",
           "name": "mux",
           "package": "copilot-language",
@@ -1629,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Mux",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Mux",
           "name": "mux",
           "normalized": "Stream Bool-\u003eStream a-\u003eStream a-\u003eStream a",
@@ -1644,6 +1784,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComparison operators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Ord",
           "name": "Ord",
           "package": "copilot-language",
@@ -1653,6 +1794,7 @@
         "index": {
           "description": "Comparison operators",
           "hierarchy": "Copilot Language Operators Ord",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Ord",
           "name": "Ord",
           "package": "copilot-language",
@@ -1666,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Ord",
           "name": "(\u003c)",
           "package": "copilot-language",
@@ -1675,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Ord",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Ord",
           "name": "(\u003c) \u003c",
           "normalized": "Stream a-\u003eStream a-\u003eStream Bool",
@@ -1689,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Ord",
           "name": "(\u003c=)",
           "package": "copilot-language",
@@ -1698,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Ord",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Ord",
           "name": "(\u003c=) \u003c=",
           "normalized": "Stream a-\u003eStream a-\u003eStream Bool",
@@ -1712,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Ord",
           "name": "(\u003e)",
           "package": "copilot-language",
@@ -1721,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Ord",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Ord",
           "name": "(\u003e) \u003e",
           "normalized": "Stream a-\u003eStream a-\u003eStream Bool",
@@ -1735,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Ord",
           "name": "(\u003e=)",
           "package": "copilot-language",
@@ -1744,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Ord",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Ord",
           "name": "(\u003e=) \u003e=",
           "normalized": "Stream a-\u003eStream a-\u003eStream Bool",
@@ -1759,6 +1909,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStream construction.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Temporal",
           "name": "Temporal",
           "package": "copilot-language",
@@ -1768,6 +1919,7 @@
         "index": {
           "description": "Stream construction",
           "hierarchy": "Copilot Language Operators Temporal",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Temporal",
           "name": "Temporal",
           "package": "copilot-language",
@@ -1781,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Temporal",
           "name": "(++)",
           "package": "copilot-language",
@@ -1790,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Temporal",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Temporal",
           "name": "(++) ++",
           "normalized": "[a]-\u003eStream a-\u003eStream a",
@@ -1804,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Operators.Temporal",
           "name": "drop",
           "package": "copilot-language",
@@ -1813,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Operators Temporal",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Operators.Temporal",
           "name": "drop",
           "normalized": "Int-\u003eStream a-\u003eStream a",
@@ -1828,6 +1984,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReexports \u003ccode\u003ePrelude\u003c/code\u003e from package \u003ca\u003ebase\u003c/a\u003e hiding identifiers redefined by\n Copilot.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Prelude",
           "name": "Prelude",
           "package": "copilot-language",
@@ -1837,6 +1994,7 @@
         "index": {
           "description": "Reexports Prelude from package base hiding identifiers redefined by Copilot",
           "hierarchy": "Copilot Language Prelude",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Prelude",
           "name": "Prelude",
           "package": "copilot-language",
@@ -1851,6 +2009,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTransforms a Copilot Language specification into a Copilot Core\n specification.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Reify",
           "name": "Reify",
           "package": "copilot-language",
@@ -1860,6 +2019,7 @@
         "index": {
           "description": "Transforms Copilot Language specification into Copilot Core specification",
           "hierarchy": "Copilot Language Reify",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Reify",
           "name": "Reify",
           "package": "copilot-language",
@@ -1873,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language.Reify",
           "name": "reify",
           "package": "copilot-language",
@@ -1882,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language Reify",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language.Reify",
           "name": "reify",
           "normalized": "Spec-\u003eIO Spec",
@@ -1897,6 +2059,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain Copilot language export file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language",
           "name": "Language",
           "package": "copilot-language",
@@ -1906,6 +2069,7 @@
         "index": {
           "description": "Main Copilot language export file",
           "hierarchy": "Copilot Language",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language",
           "name": "Language",
           "package": "copilot-language",
@@ -1919,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language",
           "name": "Spec",
           "package": "copilot-language",
@@ -1927,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language",
           "name": "Spec",
           "package": "copilot-language",
@@ -1940,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language",
           "name": "Stream",
           "package": "copilot-language",
@@ -1948,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language",
           "name": "Stream",
           "package": "copilot-language",
@@ -1961,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language",
           "name": "arg",
           "package": "copilot-language",
@@ -1970,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language",
           "name": "arg",
           "normalized": "Stream a-\u003eArg",
@@ -1984,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language",
           "name": "badUsage",
           "package": "copilot-language",
@@ -1993,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language",
           "name": "badUsage",
           "normalized": "String-\u003ea",
@@ -2008,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language",
           "name": "csv",
           "package": "copilot-language",
@@ -2017,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language",
           "name": "csv",
           "normalized": "Integer-\u003eSpec-\u003eIO()",
@@ -2031,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language",
           "name": "impossible",
           "package": "copilot-language",
@@ -2040,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language",
           "name": "impossible",
           "normalized": "String-\u003eString-\u003ea",
@@ -2055,6 +2231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMuch slower, but pretty-printed interpreter output.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language",
           "name": "interpret",
           "package": "copilot-language",
@@ -2065,6 +2242,7 @@
         "index": {
           "description": "Much slower but pretty-printed interpreter output",
           "hierarchy": "Copilot Language",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language",
           "name": "interpret",
           "normalized": "Integer-\u003eSpec-\u003eIO()",
@@ -2079,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language",
           "name": "observer",
           "package": "copilot-language",
@@ -2088,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language",
           "name": "observer",
           "normalized": "String-\u003eStream a-\u003eSpec",
@@ -2102,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language",
           "name": "prettyPrint",
           "package": "copilot-language",
@@ -2111,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language",
           "name": "prettyPrint",
           "normalized": "Spec-\u003eIO()",
@@ -2126,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot.Language",
           "name": "trigger",
           "package": "copilot-language",
@@ -2135,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Copilot Language",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot.Language",
           "name": "trigger",
           "normalized": "String-\u003eStream Bool-\u003e[Arg]-\u003eSpec",
@@ -2150,6 +2334,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain import module for the front-end lanugage.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:11 UTC 2014",
           "module": "Copilot",
           "name": "Copilot",
           "package": "copilot-language",
@@ -2159,6 +2344,7 @@
         "index": {
           "description": "Main import module for the front-end lanugage",
           "hierarchy": "Copilot",
+          "indexed": "2014-03-11T17:41:11",
           "module": "Copilot",
           "name": "Copilot",
           "package": "copilot-language",

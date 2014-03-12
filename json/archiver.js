@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "archiver"
+        "phrase": "archiver",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:10 UTC 2014",
           "module": "Network.URL.Archiver",
           "name": "Archiver",
           "package": "archiver",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network URL Archiver",
+          "indexed": "2014-03-11T17:12:10",
           "module": "Network.URL.Archiver",
           "name": "Archiver",
           "package": "archiver",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError check the URL and then archive it using \u003ccode\u003ewebciteArchive\u003c/code\u003e, \u003ccode\u003ewikiwixArchive\u003c/code\u003e, \u003ccode\u003einternetArchiveLive\u003c/code\u003e, and \u003ccode\u003ealexaToolbar\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:10 UTC 2014",
           "module": "Network.URL.Archiver",
           "name": "checkArchive",
           "package": "archiver",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Error check the URL and then archive it using webciteArchive wikiwixArchive internetArchiveLive and alexaToolbar",
           "hierarchy": "Network URL Archiver",
+          "indexed": "2014-03-11T17:12:10",
           "module": "Network.URL.Archiver",
           "name": "checkArchive",
           "normalized": "String-\u003eString-\u003eIO()",

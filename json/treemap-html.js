@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "treemap-html"
+        "phrase": "treemap-html",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeList",
           "name": "TreeList",
           "package": "treemap-html",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeList",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeList",
           "name": "TreeList",
           "package": "treemap-html",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeList",
           "name": "treeList",
           "package": "treemap-html",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeList",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeList",
           "name": "treeList",
           "normalized": "Tree String-\u003eString",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeMap",
           "name": "TreeMap",
           "package": "treemap-html",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeMap",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeMap",
           "name": "TreeMap",
           "package": "treemap-html",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeMap",
           "name": "TreeMapOptions",
           "package": "treemap-html",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeMap",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeMap",
           "name": "TreeMapOptions",
           "package": "treemap-html",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeMap",
           "name": "TreeMapOptions",
           "package": "treemap-html",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeMap",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeMap",
           "name": "TreeMapOptions",
           "package": "treemap-html",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeMap",
           "name": "defaultTreeOpts",
           "package": "treemap-html",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeMap",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeMap",
           "name": "defaultTreeOpts",
           "package": "treemap-html",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeMap",
           "name": "toAltColors",
           "package": "treemap-html",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeMap",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeMap",
           "name": "toAltColors",
           "normalized": "[String]",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeMap",
           "name": "toLeafColor",
           "package": "treemap-html",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeMap",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeMap",
           "name": "toLeafColor",
           "package": "treemap-html",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeMap",
           "name": "treeMap",
           "package": "treemap-html",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeMap",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeMap",
           "name": "treeMap",
           "normalized": "Tree String-\u003eString",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeMap",
           "name": "treeMapExt",
           "package": "treemap-html",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeMap",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeMap",
           "name": "treeMapExt",
           "normalized": "TreeMapOptions-\u003eTree String-\u003eString",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeUtils",
           "name": "TreeUtils",
           "package": "treemap-html",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeUtils",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeUtils",
           "name": "TreeUtils",
           "package": "treemap-html",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeUtils",
           "name": "BoxProps",
           "package": "treemap-html",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeUtils",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeUtils",
           "name": "BoxProps",
           "package": "treemap-html",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeUtils",
           "name": "BoxProps",
           "package": "treemap-html",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeUtils",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeUtils",
           "name": "BoxProps",
           "package": "treemap-html",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeUtils",
           "name": "boxBorderColor",
           "package": "treemap-html",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeUtils",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeUtils",
           "name": "boxBorderColor",
           "package": "treemap-html",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeUtils",
           "name": "boxBorderWidth",
           "package": "treemap-html",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeUtils",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeUtils",
           "name": "boxBorderWidth",
           "package": "treemap-html",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeUtils",
           "name": "boxFillColor",
           "package": "treemap-html",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeUtils",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeUtils",
           "name": "boxFillColor",
           "package": "treemap-html",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeUtils",
           "name": "defBoxProps",
           "package": "treemap-html",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeUtils",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeUtils",
           "name": "defBoxProps",
           "package": "treemap-html",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeUtils",
           "name": "displayBoxJS",
           "package": "treemap-html",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeUtils",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeUtils",
           "name": "displayBoxJS",
           "package": "treemap-html",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeUtils",
           "name": "mkHTMLBox",
           "package": "treemap-html",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeUtils",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeUtils",
           "name": "mkHTMLBox",
           "normalized": "String-\u003eInt-\u003e[Html]-\u003eInt-\u003eBoxProps-\u003eHtml",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:24 UTC 2014",
           "module": "Text.HTML.TreeUtils",
           "name": "tree2ltree",
           "package": "treemap-html",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TreeUtils",
+          "indexed": "2014-03-11T20:25:24",
           "module": "Text.HTML.TreeUtils",
           "name": "tree2ltree",
           "normalized": "Tree a-\u003eTree(Int,a)",

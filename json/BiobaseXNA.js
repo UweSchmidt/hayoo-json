@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BiobaseXNA"
+        "phrase": "BiobaseXNA",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module has the translation tables for the genetic code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "AAseq",
           "package": "BiobaseXNA",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module has the translation tables for the genetic code",
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "AAseq",
           "package": "BiobaseXNA",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amino acid newtype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "AA",
           "package": "BiobaseXNA",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The amino acid newtype",
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "AA",
           "package": "BiobaseXNA",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "AAseq",
           "package": "BiobaseXNA",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "AAseq",
           "package": "BiobaseXNA",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate amino acid sequences from different data sources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "MkAAseq",
           "package": "BiobaseXNA",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Create amino acid sequences from different data sources",
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "MkAAseq",
           "package": "BiobaseXNA",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "AA",
           "package": "BiobaseXNA",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "AA",
           "package": "BiobaseXNA",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "aACharList",
           "package": "BiobaseXNA",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "aACharList",
           "normalized": "[(AA,Char)]",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "aStop",
           "package": "BiobaseXNA",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "aStop",
           "package": "BiobaseXNA",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "aaRange",
           "package": "BiobaseXNA",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "aaRange",
           "normalized": "[AA]",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "charAAList",
           "package": "BiobaseXNA",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "charAAList",
           "normalized": "[(Char,AA)]",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "codonTable",
           "package": "BiobaseXNA",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "codonTable",
           "normalized": "Map[Char]Char",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e representation of an \u003ccode\u003e\u003ca\u003eAA\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "fromAA",
           "package": "BiobaseXNA",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Char representation of an AA",
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "fromAA",
           "normalized": "AA-\u003eChar",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "mkAAseq",
           "package": "BiobaseXNA",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "mkAAseq",
           "normalized": "a-\u003eVector AA",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "nucCodonTable",
           "package": "BiobaseXNA",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "nucCodonTable",
           "normalized": "Map[Nuc]AA",
@@ -323,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing the codon table, create an \u003ccode\u003e\u003ca\u003eAAseq\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003ePrimary\u003c/a\u003e\u003c/code\u003e sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "primaryToAAseq",
           "package": "BiobaseXNA",
@@ -333,6 +360,7 @@
         "index": {
           "description": "Using the codon table create an AAseq from the Primary sequence",
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "primaryToAAseq",
           "normalized": "Primary-\u003eAAseq",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e amino acid representation into efficient \u003ccode\u003e\u003ca\u003eAA\u003c/a\u003e\u003c/code\u003e newtype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "toAA",
           "package": "BiobaseXNA",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Translate Char amino acid representation into efficient AA newtype",
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "toAA",
           "normalized": "Char-\u003eAA",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.AAseq",
           "name": "unAA",
           "package": "BiobaseXNA",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Biobase AAseq",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.AAseq",
           "name": "unAA",
           "package": "BiobaseXNA",
@@ -397,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA special class of bounds for RNA/pair encodings that are used to index\n into tables. We typically encode more in the alphabets than we want to use\n to index, so in order to keep things simple, we have specialized bounds.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.Bounds",
           "name": "Bounds",
           "package": "BiobaseXNA",
@@ -406,6 +439,7 @@
         "index": {
           "description": "special class of bounds for RNA pair encodings that are used to index into tables We typically encode more in the alphabets than we want to use to index so in order to keep things simple we have specialized bounds",
           "hierarchy": "Biobase Primary Bounds",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.Bounds",
           "name": "Bounds",
           "package": "BiobaseXNA",
@@ -420,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eminNormal\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emaxNormal\u003c/a\u003e\u003c/code\u003e encode for, say, ACGU; while \u003ccode\u003e\u003ca\u003eminExtended\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003emaxExtended\u003c/a\u003e\u003c/code\u003e would allow \u003ccode\u003eN\u003c/code\u003e as well. See Biobase.RNA and\n Biobase.RNA.ViennaPair for instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.Bounds",
           "name": "Bounds",
           "package": "BiobaseXNA",
@@ -429,6 +464,7 @@
         "index": {
           "description": "minNormal and maxNormal encode for say ACGU while minExtended and maxExtended would allow as well See Biobase.RNA and Biobase.RNA.ViennaPair for instances",
           "hierarchy": "Biobase Primary Bounds",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.Bounds",
           "name": "Bounds",
           "package": "BiobaseXNA",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.Bounds",
           "name": "maxExtended",
           "package": "BiobaseXNA",
@@ -451,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary Bounds",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.Bounds",
           "name": "maxExtended",
           "package": "BiobaseXNA",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.Bounds",
           "name": "maxNormal",
           "package": "BiobaseXNA",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary Bounds",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.Bounds",
           "name": "maxNormal",
           "package": "BiobaseXNA",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.Bounds",
           "name": "minExtended",
           "package": "BiobaseXNA",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary Bounds",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.Bounds",
           "name": "minExtended",
           "package": "BiobaseXNA",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.Bounds",
           "name": "minNormal",
           "package": "BiobaseXNA",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary Bounds",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.Bounds",
           "name": "minNormal",
           "package": "BiobaseXNA",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast hash functions for \u003ccode\u003e\u003ca\u003ePrimary\u003c/a\u003e\u003c/code\u003e sequences. A hash is just an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, so\n use these only for short sequences.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.Hashed",
           "name": "Hashed",
           "package": "BiobaseXNA",
@@ -540,6 +585,7 @@
         "index": {
           "description": "Fast hash functions for Primary sequences hash is just an Int so use these only for short sequences",
           "hierarchy": "Biobase Primary Hashed",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.Hashed",
           "name": "Hashed",
           "package": "BiobaseXNA",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.Hashed",
           "name": "HashedPrimary",
           "package": "BiobaseXNA",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary Hashed",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.Hashed",
           "name": "HashedPrimary",
           "package": "BiobaseXNA",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.Hashed",
           "name": "HashedPrimary",
           "package": "BiobaseXNA",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary Hashed",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.Hashed",
           "name": "HashedPrimary",
           "package": "BiobaseXNA",
@@ -597,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a piece of primary sequence information, reduce it to an index.\n\u003c/p\u003e\u003cp\u003eWill throw an assertion in debug code if \u003ccode\u003eps\u003c/code\u003e are not within bounds. Note\n that \u003ca\u003emkPrimary [minBound]\u003c/a\u003e and \u003ca\u003emkPrimary [minBound,minBound]\u003c/a\u003e map to the\n same index. Meaning that indices are only unique within the same length\n group. Furthermore, indices with different (l,u)-bounds are not compatible\n with each other. All indices start at 0.\n\u003c/p\u003e\u003cp\u003eThe empty input produces an index of 0.\n\u003c/p\u003e\u003cp\u003eTODO currently goes the very inefficient way of creating a temporary vector\n for \u003ccode\u003eps\u003c/code\u003e. We could in O(1) create a vector from a Primary ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.Hashed",
           "name": "mkHashedPrimary",
           "package": "BiobaseXNA",
@@ -607,6 +658,7 @@
         "index": {
           "description": "Given piece of primary sequence information reduce it to an index Will throw an assertion in debug code if ps are not within bounds Note that mkPrimary minBound and mkPrimary minBound minBound map to the same index Meaning that indices are only unique within the same length group Furthermore indices with different bounds are not compatible with each other All indices start at The empty input produces an index of TODO currently goes the very inefficient way of creating temporary vector for ps We could in create vector from Primary",
           "hierarchy": "Biobase Primary Hashed",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.Hashed",
           "name": "mkHashedPrimary",
           "normalized": "(Nuc,Nuc)-\u003ePrimary-\u003eHashedPrimary",
@@ -623,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDegenerate base symbol representation. We use the same conventions as in\n \u003cimg src=\"https://en.wikipedia.org/wiki/Nucleic_acid_notation\"/\u003e which ignores\n \u003ccode\u003eU\u003c/code\u003eracil, except if it stands alone. Therefore, any RNA sequence should be\n converted to DNA (and back afterwards).\n\u003c/p\u003e\u003cp\u003eNOTE that the generic \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e instance is not optimized for speed.\n\u003c/p\u003e\u003cp\u003eTODO this should be easier once we have instances for RNA,DNA, etc\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.IUPAC",
           "name": "IUPAC",
           "package": "BiobaseXNA",
@@ -632,6 +685,7 @@
         "index": {
           "description": "Degenerate base symbol representation We use the same conventions as in which ignores racil except if it stands alone Therefore any RNA sequence should be converted to DNA and back afterwards NOTE that the generic Char instance is not optimized for speed TODO this should be easier once we have instances for RNA DNA etc",
           "hierarchy": "Biobase Primary IUPAC",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.IUPAC",
           "name": "IUPAC",
           "package": "BiobaseXNA",
@@ -645,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.IUPAC",
           "name": "Degenerate",
           "package": "BiobaseXNA",
@@ -653,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary IUPAC",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.IUPAC",
           "name": "Degenerate",
           "package": "BiobaseXNA",
@@ -666,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.IUPAC",
           "name": "fromSymbol",
           "package": "BiobaseXNA",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary IUPAC",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.IUPAC",
           "name": "fromSymbol",
           "normalized": "a-\u003e[a]",
@@ -691,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.IUPAC",
           "name": "iupacList",
           "package": "BiobaseXNA",
@@ -701,6 +760,7 @@
         "index": {
           "description": "list of characters",
           "hierarchy": "Biobase Primary IUPAC",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.IUPAC",
           "name": "iupacList",
           "normalized": "[(Char,String)]",
@@ -717,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw iupac data, embedded into the library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.IUPAC",
           "name": "iupacNucleotides",
           "package": "BiobaseXNA",
@@ -727,6 +788,7 @@
         "index": {
           "description": "Raw iupac data embedded into the library",
           "hierarchy": "Biobase Primary IUPAC",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.IUPAC",
           "name": "iupacNucleotides",
           "package": "BiobaseXNA",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary.IUPAC",
           "name": "toSymbol",
           "package": "BiobaseXNA",
@@ -749,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary IUPAC",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary.IUPAC",
           "name": "toSymbol",
           "normalized": "[a]-\u003eMaybe a",
@@ -765,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe primary structure: interface to efficient encoding of RNA and DNA\n sequences. The design aims toward the \u003ccode\u003evector\u003c/code\u003e library and repa. In\n particular, everything is strict; if you want to stream full genomes, use\n \u003ccode\u003etext\u003c/code\u003e or lazy \u003ccode\u003ebytestring\u003c/code\u003es instead and cast to Biobase.Primary definitions\n only at the last moment.\n\u003c/p\u003e\u003cp\u003eNOTE individual nucleotides are encoded is \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es internally without any\n tagging. This means that we have no way of deciding if we are dealing with\n RNA or DNA on this level.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "Primary",
           "package": "BiobaseXNA",
@@ -774,6 +839,7 @@
         "index": {
           "description": "The primary structure interface to efficient encoding of RNA and DNA sequences The design aims toward the vector library and repa In particular everything is strict if you want to stream full genomes use text or lazy bytestring instead and cast to Biobase.Primary definitions only at the last moment NOTE individual nucleotides are encoded is Int internally without any tagging This means that we have no way of deciding if we are dealing with RNA or DNA on this level",
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "Primary",
           "package": "BiobaseXNA",
@@ -788,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a sequence of nucleotides encoded in some \u003ca\u003etext-form\u003c/a\u003e, create a\n \u003ccode\u003e\u003ca\u003eNuc\u003c/a\u003e\u003c/code\u003e-based unboxed vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "MkPrimary",
           "package": "BiobaseXNA",
@@ -797,6 +864,7 @@
         "index": {
           "description": "Given sequence of nucleotides encoded in some text-form create Nuc based unboxed vector",
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "MkPrimary",
           "package": "BiobaseXNA",
@@ -810,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "Nuc",
           "package": "BiobaseXNA",
@@ -818,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "Nuc",
           "package": "BiobaseXNA",
@@ -831,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "Primary",
           "package": "BiobaseXNA",
@@ -839,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "Primary",
           "package": "BiobaseXNA",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "Nuc",
           "package": "BiobaseXNA",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "Nuc",
           "package": "BiobaseXNA",
@@ -874,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "acgt",
           "package": "BiobaseXNA",
@@ -883,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "acgt",
           "normalized": "[Nuc]",
@@ -897,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "acgu",
           "package": "BiobaseXNA",
@@ -906,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "acgu",
           "normalized": "[Nuc]",
@@ -920,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "cgau",
           "package": "BiobaseXNA",
@@ -929,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "cgau",
           "normalized": "[Nuc]",
@@ -943,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "charNucList",
           "package": "BiobaseXNA",
@@ -952,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "charNucList",
           "normalized": "[(Char,Nuc)]",
@@ -968,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT\u003c/code\u003e to \u003ccode\u003eU\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "convT2U",
           "package": "BiobaseXNA",
@@ -978,6 +1061,7 @@
         "index": {
           "description": "to",
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "convT2U",
           "normalized": "Nuc-\u003eNuc",
@@ -993,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eU\u003c/code\u003e to \u003ccode\u003eT\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "convU2T",
           "package": "BiobaseXNA",
@@ -1003,6 +1088,7 @@
         "index": {
           "description": "to",
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "convU2T",
           "normalized": "Nuc-\u003eNuc",
@@ -1017,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "fromNuc",
           "package": "BiobaseXNA",
@@ -1026,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "fromNuc",
           "normalized": "Nuc-\u003eChar",
@@ -1042,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate between \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eNuc\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "mkNuc",
           "package": "BiobaseXNA",
@@ -1052,6 +1141,7 @@
         "index": {
           "description": "Translate between Char and Nuc",
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "mkNuc",
           "normalized": "Char-\u003eNuc",
@@ -1067,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "mkPrimary",
           "package": "BiobaseXNA",
@@ -1076,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "mkPrimary",
           "normalized": "a-\u003ePrimary",
@@ -1091,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "nN",
           "package": "BiobaseXNA",
@@ -1100,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "nN",
           "package": "BiobaseXNA",
@@ -1112,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "nacgt",
           "package": "BiobaseXNA",
@@ -1121,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "nacgt",
           "normalized": "[Nuc]",
@@ -1135,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "nacgu",
           "package": "BiobaseXNA",
@@ -1144,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "nacgu",
           "normalized": "[Nuc]",
@@ -1158,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "nucCharList",
           "package": "BiobaseXNA",
@@ -1167,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "nucCharList",
           "normalized": "[(Nuc,Char)]",
@@ -1182,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Primary",
           "name": "unNuc",
           "package": "BiobaseXNA",
@@ -1191,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Biobase Primary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Primary",
           "name": "unNuc",
           "package": "BiobaseXNA",
@@ -1204,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Constraint",
           "name": "Constraint",
           "package": "BiobaseXNA",
@@ -1212,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Constraint",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Constraint",
           "name": "Constraint",
           "package": "BiobaseXNA",
@@ -1226,6 +1330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constraint is nothing more than a vector of constraint characters\n together with a possible pairing for each character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Constraint",
           "name": "Constraint",
           "package": "BiobaseXNA",
@@ -1235,6 +1340,7 @@
         "index": {
           "description": "constraint is nothing more than vector of constraint characters together with possible pairing for each character",
           "hierarchy": "Biobase Secondary Constraint",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Constraint",
           "name": "Constraint",
           "package": "BiobaseXNA",
@@ -1249,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe can create a constraint from different sources\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Constraint",
           "name": "MkConstraint",
           "package": "BiobaseXNA",
@@ -1258,6 +1365,7 @@
         "index": {
           "description": "We can create constraint from different sources",
           "hierarchy": "Biobase Secondary Constraint",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Constraint",
           "name": "MkConstraint",
           "package": "BiobaseXNA",
@@ -1271,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Constraint",
           "name": "Constraint",
           "package": "BiobaseXNA",
@@ -1280,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Constraint",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Constraint",
           "name": "Constraint",
           "package": "BiobaseXNA",
@@ -1293,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Constraint",
           "name": "bonusCC",
           "package": "BiobaseXNA",
@@ -1302,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Constraint",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Constraint",
           "name": "bonusCC",
           "package": "BiobaseXNA",
@@ -1316,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eConstraint\u003c/a\u003e\u003c/code\u003e, create an NxN matrix with bonus energies. These\n energies can be included in all pair-creating functions and will disallow or\n strongly favor certain pairings, while others will receive neither bonus nor\n malus.\n\u003c/p\u003e\u003cp\u003eIn case, a pair (i,j) is annotated as both, bonus- and malus-receiving, it\n will be set to receive a malus. This can happen, if something like \u003ca\u003e\u003c\u003c/a\u003e would\n give a bonus, but \u003ca\u003ex\u003c/a\u003e gives a malus (and other cases).\n\u003c/p\u003e\u003cp\u003eTODO and again, we should parametrize over \u003ca\u003eEnergy\u003c/a\u003e, \u003ca\u003eScore\u003c/a\u003e, etc (that is,\n Prim a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Constraint",
           "name": "bonusTable",
           "package": "BiobaseXNA",
@@ -1326,6 +1439,7 @@
         "index": {
           "description": "Given Constraint create an NxN matrix with bonus energies These energies can be included in all pair-creating functions and will disallow or strongly favor certain pairings while others will receive neither bonus nor malus In case pair is annotated as both bonus and malus-receiving it will be set to receive malus This can happen if something like would give bonus but gives malus and other cases TODO and again we should parametrize over Energy Score etc that is Prim",
           "hierarchy": "Biobase Secondary Constraint",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Constraint",
           "name": "bonusTable",
           "normalized": "Double-\u003eDouble-\u003eConstraint-\u003eUnboxed DIM Double",
@@ -1341,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Constraint",
           "name": "mkConstraint",
           "package": "BiobaseXNA",
@@ -1350,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Constraint",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Constraint",
           "name": "mkConstraint",
           "normalized": "a-\u003eConstraint",
@@ -1365,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Constraint",
           "name": "nobonusCC",
           "package": "BiobaseXNA",
@@ -1374,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Constraint",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Constraint",
           "name": "nobonusCC",
           "package": "BiobaseXNA",
@@ -1387,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Constraint",
           "name": "unConstraint",
           "package": "BiobaseXNA",
@@ -1396,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Constraint",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Constraint",
           "name": "unConstraint",
           "normalized": "Vector(Char,Int)",
@@ -1412,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for RNA secondary structure. Types vary from the simplest array\n (D1Secondary) to rather complex ones.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "Diagrams",
           "package": "BiobaseXNA",
@@ -1421,6 +1542,7 @@
         "index": {
           "description": "Types for RNA secondary structure Types vary from the simplest array D1Secondary to rather complex ones",
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "Diagrams",
           "package": "BiobaseXNA",
@@ -1435,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRNA secondary structure with 1-diagrams. Each nucleotide is paired with at\n most one other nucleotide. A nucleotide with index k in [0..len-1] is\n paired if unD1S VU.! k \u003e 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "D1Secondary",
           "package": "BiobaseXNA",
@@ -1444,6 +1567,7 @@
         "index": {
           "description": "RNA secondary structure with diagrams Each nucleotide is paired with at most one other nucleotide nucleotide with index in len-1 is paired if unD1S VU",
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "D1Secondary",
           "package": "BiobaseXNA",
@@ -1457,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "D2Secondary",
           "package": "BiobaseXNA",
@@ -1465,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "D2Secondary",
           "package": "BiobaseXNA",
@@ -1478,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "MkD1Secondary",
           "package": "BiobaseXNA",
@@ -1486,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "MkD1Secondary",
           "package": "BiobaseXNA",
@@ -1499,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "MkD2Secondary",
           "package": "BiobaseXNA",
@@ -1507,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "MkD2Secondary",
           "package": "BiobaseXNA",
@@ -1521,6 +1651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA secondary-structure tree. Has no notion of pseudoknots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "SSTree",
           "package": "BiobaseXNA",
@@ -1530,6 +1661,7 @@
         "index": {
           "description": "secondary-structure tree Has no notion of pseudoknots",
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "SSTree",
           "package": "BiobaseXNA",
@@ -1543,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "D1S",
           "package": "BiobaseXNA",
@@ -1552,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "D1S",
           "package": "BiobaseXNA",
@@ -1564,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "D2S",
           "package": "BiobaseXNA",
@@ -1573,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "D2S",
           "package": "BiobaseXNA",
@@ -1585,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "SSExt",
           "package": "BiobaseXNA",
@@ -1594,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "SSExt",
           "normalized": "SSExt Int a[SSTree b a]",
@@ -1609,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "SSTree",
           "package": "BiobaseXNA",
@@ -1618,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "SSTree",
           "normalized": "SSTree a b[SSTree a b]",
@@ -1634,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a tree from (pseudoknot-free [not checked]) 1-diagrams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "d1sTree",
           "package": "BiobaseXNA",
@@ -1644,6 +1785,7 @@
         "index": {
           "description": "Create tree from pseudoknot-free not checked diagrams",
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "d1sTree",
           "normalized": "D Secondary-\u003eSSTree PairIdx()",
@@ -1659,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "d2Compare",
           "package": "BiobaseXNA",
@@ -1668,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "d2Compare",
           "normalized": "((a,a),a)-\u003e((a,a),a)-\u003eOrdering",
@@ -1683,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "d2Grouping",
           "package": "BiobaseXNA",
@@ -1692,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "d2Grouping",
           "normalized": "((a,a),b)-\u003e((a,a),b)-\u003eBool",
@@ -1708,6 +1854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a tree from (pseudoknot-free [not checked]) 2-diagrams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "d2sTree",
           "package": "BiobaseXNA",
@@ -1718,6 +1865,7 @@
         "index": {
           "description": "Create tree from pseudoknot-free not checked diagrams",
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "d2sTree",
           "normalized": "D Secondary-\u003eSSTree ExtPairIdx()",
@@ -1734,6 +1882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecondary structure parser which allows pseudoknots, if they use different\n kinds of brackets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "dotBracket",
           "package": "BiobaseXNA",
@@ -1744,6 +1893,7 @@
         "index": {
           "description": "Secondary structure parser which allows pseudoknots if they use different kinds of brackets",
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "dotBracket",
           "normalized": "[String]-\u003eString-\u003e[(Int,Int)]",
@@ -1759,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "fromD1S",
           "package": "BiobaseXNA",
@@ -1768,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "fromD1S",
           "normalized": "D Secondary-\u003ea",
@@ -1782,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "fromD2S",
           "package": "BiobaseXNA",
@@ -1791,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "fromD2S",
           "normalized": "D Secondary-\u003ea",
@@ -1805,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "mkD1S",
           "package": "BiobaseXNA",
@@ -1814,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "mkD1S",
           "normalized": "a-\u003eD Secondary",
@@ -1828,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "mkD2S",
           "package": "BiobaseXNA",
@@ -1837,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "mkD2S",
           "normalized": "a-\u003eD Secondary",
@@ -1851,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "unD1S",
           "package": "BiobaseXNA",
@@ -1860,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "unD1S",
           "package": "BiobaseXNA",
@@ -1872,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Diagrams",
           "name": "unD2S",
           "package": "BiobaseXNA",
@@ -1881,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Diagrams",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Diagrams",
           "name": "unD2S",
           "normalized": "Vector((Int,Edge,CTisomerism),(Int,Edge,CTisomerism))",
@@ -1896,6 +2058,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides detailed information on isostericity of RNA basepairs. All data\n is extracted from csv files which were created from supplemental files in:\n\u003c/p\u003e\u003cp\u003eFrequency and isostericity of RNA base pairs\n Jesse Stombaugh, Craig L. Zirbel, Eric Westhof, and Neocles B. Leontis\n Nucl. Acids Res. (2009)\n doi:10.1093\u003cem\u003enar\u003c/em\u003egkp011\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Isostericity",
           "name": "Isostericity",
           "package": "BiobaseXNA",
@@ -1905,6 +2068,7 @@
         "index": {
           "description": "Provides detailed information on isostericity of RNA basepairs All data is extracted from csv files which were created from supplemental files in Frequency and isostericity of RNA base pairs Jesse Stombaugh Craig Zirbel Eric Westhof and Neocles Leontis Nucl Acids Res doi nar gkp011",
           "hierarchy": "Biobase Secondary Isostericity",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Isostericity",
           "name": "Isostericity",
           "package": "BiobaseXNA",
@@ -1919,6 +2083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethods to determine the isostericity classes for a given basepair type,\n or alternatively which basepair types are in a certain isostericity class.\n\u003c/p\u003e\u003cp\u003eTODO This requires a major cleanup: right now we are handling \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es as\n class descriptors, but we should really be newtype-wrapping or create enum\n data constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Isostericity",
           "name": "IsostericityLookup",
           "package": "BiobaseXNA",
@@ -1928,6 +2093,7 @@
         "index": {
           "description": "Methods to determine the isostericity classes for given basepair type or alternatively which basepair types are in certain isostericity class TODO This requires major cleanup right now we are handling String as class descriptors but we should really be newtype-wrapping or create enum data constructors",
           "hierarchy": "Biobase Secondary Isostericity",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Isostericity",
           "name": "IsostericityLookup",
           "package": "BiobaseXNA",
@@ -1942,6 +2108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default isostericity mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Isostericity",
           "name": "defaultIsostericityMap",
           "package": "BiobaseXNA",
@@ -1952,6 +2119,7 @@
         "index": {
           "description": "The default isostericity mapping",
           "hierarchy": "Biobase Secondary Isostericity",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Isostericity",
           "name": "defaultIsostericityMap",
           "normalized": "Map ExtPair[String]",
@@ -1968,6 +2136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw CSV data, embedded into the library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Isostericity",
           "name": "detailedCSV",
           "package": "BiobaseXNA",
@@ -1978,6 +2147,7 @@
         "index": {
           "description": "Raw CSV data embedded into the library",
           "hierarchy": "Biobase Secondary Isostericity",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Isostericity",
           "name": "detailedCSV",
           "package": "BiobaseXNA",
@@ -1992,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo which classes does a basepair+type belong\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Isostericity",
           "name": "getClasses",
           "package": "BiobaseXNA",
@@ -2002,6 +2173,7 @@
         "index": {
           "description": "To which classes does basepair type belong",
           "hierarchy": "Biobase Secondary Isostericity",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Isostericity",
           "name": "getClasses",
           "normalized": "a-\u003e[String]",
@@ -2018,6 +2190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat basepairs+type are in a particular class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Isostericity",
           "name": "inClass",
           "package": "BiobaseXNA",
@@ -2028,6 +2201,7 @@
         "index": {
           "description": "What basepairs type are in particular class",
           "hierarchy": "Biobase Secondary Isostericity",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Isostericity",
           "name": "inClass",
           "normalized": "String-\u003e[a]",
@@ -2044,6 +2218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess CSV list-of-lists to get the isostericity data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Isostericity",
           "name": "mkIsostericityList",
           "package": "BiobaseXNA",
@@ -2054,6 +2229,7 @@
         "index": {
           "description": "Process CSV list-of-lists to get the isostericity data",
           "hierarchy": "Biobase Secondary Isostericity",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Isostericity",
           "name": "mkIsostericityList",
           "normalized": "[[[String]]]-\u003e[(ExtPair,[String])]",
@@ -2070,6 +2246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping of (pair,pairtype) to isostericity class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Isostericity",
           "name": "mkIsostericityMap",
           "package": "BiobaseXNA",
@@ -2080,6 +2257,7 @@
         "index": {
           "description": "Mapping of pair pairtype to isostericity class",
           "hierarchy": "Biobase Secondary Isostericity",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Isostericity",
           "name": "mkIsostericityMap",
           "normalized": "[[[String]]]-\u003eMap ExtPair[String]",
@@ -2096,6 +2274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple parsing of raw CSV data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Isostericity",
           "name": "parsedCSV",
           "package": "BiobaseXNA",
@@ -2106,6 +2285,7 @@
         "index": {
           "description": "Simple parsing of raw CSV data",
           "hierarchy": "Biobase Secondary Isostericity",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Isostericity",
           "name": "parsedCSV",
           "normalized": "[[[[Char]]]]",
@@ -2122,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMethods to transform a secondary structure containing pseudoknots into a\n structure which is pseudoknot-free.\n\u003c/p\u003e\u003cp\u003eTODO Until a better name is found, this module is home to functions for\n \u003ca\u003ede-pseudoknotting\u003c/a\u003e structures.\n\u003c/p\u003e\u003cp\u003eTODO Check if there are corner-cases remaining when considering 2-diagrams.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.PseudoKnots",
           "name": "PseudoKnots",
           "package": "BiobaseXNA",
@@ -2131,6 +2312,7 @@
         "index": {
           "description": "Methods to transform secondary structure containing pseudoknots into structure which is pseudoknot-free TODO Until better name is found this module is home to functions for de-pseudoknotting structures TODO Check if there are corner-cases remaining when considering diagrams",
           "hierarchy": "Biobase Secondary PseudoKnots",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.PseudoKnots",
           "name": "PseudoKnots",
           "package": "BiobaseXNA",
@@ -2145,6 +2327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to removed pseudoknots from the \u003ca\u003epairlist\u003c/a\u003e. This works by counting for\n each pair, how many pairs are incompatible with it. Then those with most\n incompatibilities are successively removed. This function might well remove\n more than necessary!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.PseudoKnots",
           "name": "RemovePseudoKnots",
           "package": "BiobaseXNA",
@@ -2154,6 +2337,7 @@
         "index": {
           "description": "Try to removed pseudoknots from the pairlist This works by counting for each pair how many pairs are incompatible with it Then those with most incompatibilities are successively removed This function might well remove more than necessary",
           "hierarchy": "Biobase Secondary PseudoKnots",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.PseudoKnots",
           "name": "RemovePseudoKnots",
           "package": "BiobaseXNA",
@@ -2167,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.PseudoKnots",
           "name": "removeByCounting",
           "package": "BiobaseXNA",
@@ -2176,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary PseudoKnots",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.PseudoKnots",
           "name": "removeByCounting",
           "normalized": "a-\u003ea",
@@ -2192,6 +2378,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEncoding of Watson-Crick and Wobble Pairs in the Vienna RNA package style.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "Vienna",
           "package": "BiobaseXNA",
@@ -2201,6 +2388,7 @@
         "index": {
           "description": "Encoding of Watson-Crick and Wobble Pairs in the Vienna RNA package style",
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "Vienna",
           "package": "BiobaseXNA",
@@ -2214,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "MkViennaPair",
           "package": "BiobaseXNA",
@@ -2222,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "MkViennaPair",
           "package": "BiobaseXNA",
@@ -2236,6 +2426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse machine Ints internally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "ViennaPair",
           "package": "BiobaseXNA",
@@ -2245,6 +2436,7 @@
         "index": {
           "description": "Use machine Ints internally",
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "ViennaPair",
           "package": "BiobaseXNA",
@@ -2258,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "ViennaPair",
           "package": "BiobaseXNA",
@@ -2267,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "ViennaPair",
           "package": "BiobaseXNA",
@@ -2280,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "cgnsP",
           "package": "BiobaseXNA",
@@ -2289,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "cgnsP",
           "normalized": "[ViennaPair]",
@@ -2303,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "cguaP",
           "package": "BiobaseXNA",
@@ -2312,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "cguaP",
           "normalized": "[ViennaPair]",
@@ -2326,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "fromViennaPair",
           "package": "BiobaseXNA",
@@ -2335,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "fromViennaPair",
           "normalized": "ViennaPair-\u003ea",
@@ -2350,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "isViennaPair",
           "package": "BiobaseXNA",
@@ -2359,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "isViennaPair",
           "normalized": "Nuc-\u003eNuc-\u003eBool",
@@ -2374,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "mkViennaPair",
           "package": "BiobaseXNA",
@@ -2383,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "mkViennaPair",
           "normalized": "a-\u003eViennaPair",
@@ -2398,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "pairToString",
           "package": "BiobaseXNA",
@@ -2407,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "pairToString",
           "normalized": "[(ViennaPair,[Char])]",
@@ -2423,6 +2629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereverse a vienna pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "revPair",
           "package": "BiobaseXNA",
@@ -2433,6 +2640,7 @@
         "index": {
           "description": "reverse vienna pair",
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "revPair",
           "normalized": "ViennaPair-\u003eViennaPair",
@@ -2448,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "viennaPairTable",
           "package": "BiobaseXNA",
@@ -2457,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "viennaPairTable",
           "package": "BiobaseXNA",
@@ -2470,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary.Vienna",
           "name": "vpNP",
           "package": "BiobaseXNA",
@@ -2479,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary Vienna",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary.Vienna",
           "name": "vpNP",
           "package": "BiobaseXNA",
@@ -2493,6 +2705,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSecondary structure: define basepairs as Int-tuples, the three edges, a\n nucleotide can use for pairing and the cis/trans isomerism. Both edges and\n cis/trans come with a tag for \u003ca\u003eunknown\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eTODO set ext-annotations to be (isomerism,edge,edge) and have a asString\n instance to read \u003ca\u003ecWW\u003c/a\u003e \u003ca\u003etSH\u003c/a\u003e and other notation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "Secondary",
           "package": "BiobaseXNA",
@@ -2502,6 +2715,7 @@
         "index": {
           "description": "Secondary structure define basepairs as Int-tuples the three edges nucleotide can use for pairing and the cis trans isomerism Both edges and cis trans come with tag for unknown TODO set ext-annotations to be isomerism edge edge and have asString instance to read cWW tSH and other notation",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "Secondary",
           "package": "BiobaseXNA",
@@ -2516,6 +2730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection of nucleotides and/or type classes independent of which type we\n are looking at.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "BaseSelect",
           "package": "BiobaseXNA",
@@ -2525,6 +2740,7 @@
         "index": {
           "description": "Selection of nucleotides and or type classes independent of which type we are looking at",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "BaseSelect",
           "package": "BiobaseXNA",
@@ -2539,6 +2755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNucleotides in a pairing may be in the cis(==?) or trans(==?) state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "CTisomerism",
           "package": "BiobaseXNA",
@@ -2548,6 +2765,7 @@
         "index": {
           "description": "Nucleotides in pairing may be in the cis or trans state",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "CTisomerism",
           "package": "BiobaseXNA",
@@ -2562,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach nucleotide in a pair may be paired using one of three edges:\n watson-crik, sugar, or hoogsteen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "Edge",
           "package": "BiobaseXNA",
@@ -2571,6 +2790,7 @@
         "index": {
           "description": "Each nucleotide in pair may be paired using one of three edges watson-crik sugar or hoogsteen",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "Edge",
           "package": "BiobaseXNA",
@@ -2585,6 +2805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn extended basepair, with nucleotides an annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "ExtPair",
           "package": "BiobaseXNA",
@@ -2594,6 +2815,7 @@
         "index": {
           "description": "An extended basepair with nucleotides an annotation",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "ExtPair",
           "package": "BiobaseXNA",
@@ -2608,6 +2830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotation for a basepair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "ExtPairAnnotation",
           "package": "BiobaseXNA",
@@ -2617,6 +2840,7 @@
         "index": {
           "description": "Annotation for basepair",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "ExtPairAnnotation",
           "package": "BiobaseXNA",
@@ -2631,6 +2855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn extended basepair is a basepair, annotated with edge and CTisomerism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "ExtPairIdx",
           "package": "BiobaseXNA",
@@ -2640,6 +2865,7 @@
         "index": {
           "description": "An extended basepair is basepair annotated with edge and CTisomerism",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "ExtPairIdx",
           "package": "BiobaseXNA",
@@ -2654,6 +2880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pair as a tuple containing \u003ccode\u003e\u003ca\u003eNuc\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "Pair",
           "package": "BiobaseXNA",
@@ -2663,6 +2890,7 @@
         "index": {
           "description": "pair as tuple containing Nuc",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "Pair",
           "package": "BiobaseXNA",
@@ -2677,6 +2905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basepair is simply a pair of Ints which are 0-indexing a sequence.\n\u003c/p\u003e\u003cp\u003eTODO storable vector, newtype, peek/poke?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "PairIdx",
           "package": "BiobaseXNA",
@@ -2686,6 +2915,7 @@
         "index": {
           "description": "basepair is simply pair of Ints which are indexing sequence TODO storable vector newtype peek poke",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "PairIdx",
           "package": "BiobaseXNA",
@@ -2699,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "CT",
           "package": "BiobaseXNA",
@@ -2708,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "CT",
           "package": "BiobaseXNA",
@@ -2721,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "Edge",
           "package": "BiobaseXNA",
@@ -2730,6 +2963,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "Edge",
           "package": "BiobaseXNA",
@@ -2743,6 +2977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "antiCT",
           "package": "BiobaseXNA",
@@ -2752,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "antiCT",
           "package": "BiobaseXNA",
@@ -2766,6 +3002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselect first index or nucleotide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "baseL",
           "package": "BiobaseXNA",
@@ -2776,6 +3013,7 @@
         "index": {
           "description": "select first index or nucleotide",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "baseL",
           "normalized": "a-\u003eb",
@@ -2791,6 +3029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselect both nucleotides as pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "baseP",
           "package": "BiobaseXNA",
@@ -2801,6 +3040,7 @@
         "index": {
           "description": "select both nucleotides as pair",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "baseP",
           "normalized": "a-\u003e(b,b)",
@@ -2816,6 +3056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselect second index or nucleotide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "baseR",
           "package": "BiobaseXNA",
@@ -2826,6 +3067,7 @@
         "index": {
           "description": "select second index or nucleotide",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "baseR",
           "normalized": "a-\u003eb",
@@ -2841,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselect basepair type if existing or return default cWW\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "baseT",
           "package": "BiobaseXNA",
@@ -2851,6 +3094,7 @@
         "index": {
           "description": "select basepair type if existing or return default cWW",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "baseT",
           "normalized": "a-\u003eExtPairAnnotation",
@@ -2865,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "cHH",
           "package": "BiobaseXNA",
@@ -2874,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "cHH",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -2889,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "cHS",
           "package": "BiobaseXNA",
@@ -2898,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "cHS",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -2913,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "cHW",
           "package": "BiobaseXNA",
@@ -2922,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "cHW",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -2937,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "cSH",
           "package": "BiobaseXNA",
@@ -2946,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "cSH",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -2961,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "cSS",
           "package": "BiobaseXNA",
@@ -2970,6 +3223,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "cSS",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -2985,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "cSW",
           "package": "BiobaseXNA",
@@ -2994,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "cSW",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3009,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "cWH",
           "package": "BiobaseXNA",
@@ -3018,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "cWH",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3033,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "cWS",
           "package": "BiobaseXNA",
@@ -3042,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "cWS",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3057,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "cWW",
           "package": "BiobaseXNA",
@@ -3066,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "cWW",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3081,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "charCTList",
           "package": "BiobaseXNA",
@@ -3090,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "charCTList",
           "normalized": "[(Char,CTisomerism)]",
@@ -3105,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "charEdgeList",
           "package": "BiobaseXNA",
@@ -3114,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "charEdgeList",
           "normalized": "[(Char,Edge)]",
@@ -3129,6 +3395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "cis",
           "package": "BiobaseXNA",
@@ -3138,6 +3405,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "cis",
           "package": "BiobaseXNA",
@@ -3150,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "ctCharList",
           "package": "BiobaseXNA",
@@ -3159,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "ctCharList",
           "normalized": "[(CTisomerism,Char)]",
@@ -3174,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "edgeCharList",
           "package": "BiobaseXNA",
@@ -3183,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "edgeCharList",
           "normalized": "[(Edge,Char)]",
@@ -3198,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "paraCT",
           "package": "BiobaseXNA",
@@ -3207,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "paraCT",
           "package": "BiobaseXNA",
@@ -3220,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "tHH",
           "package": "BiobaseXNA",
@@ -3229,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "tHH",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3244,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "tHS",
           "package": "BiobaseXNA",
@@ -3253,6 +3530,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "tHS",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3268,6 +3546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "tHW",
           "package": "BiobaseXNA",
@@ -3277,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "tHW",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3292,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "tSH",
           "package": "BiobaseXNA",
@@ -3301,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "tSH",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3316,6 +3598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "tSS",
           "package": "BiobaseXNA",
@@ -3325,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "tSS",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3340,6 +3624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "tSW",
           "package": "BiobaseXNA",
@@ -3349,6 +3634,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "tSW",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3364,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "tWH",
           "package": "BiobaseXNA",
@@ -3373,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "tWH",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3388,6 +3676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "tWS",
           "package": "BiobaseXNA",
@@ -3397,6 +3686,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "tWS",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3412,6 +3702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "tWW",
           "package": "BiobaseXNA",
@@ -3421,6 +3712,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "tWW",
           "normalized": "(CTisomerism,Edge,Edge)",
@@ -3437,6 +3729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEasy reading of a three-Char string into a triple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "threeChar",
           "package": "BiobaseXNA",
@@ -3447,6 +3740,7 @@
         "index": {
           "description": "Easy reading of three-Char string into triple",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "threeChar",
           "normalized": "String-\u003eExtPairAnnotation",
@@ -3462,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "unCT",
           "package": "BiobaseXNA",
@@ -3471,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "unCT",
           "package": "BiobaseXNA",
@@ -3484,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "unEdge",
           "package": "BiobaseXNA",
@@ -3493,6 +3790,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "unEdge",
           "package": "BiobaseXNA",
@@ -3507,6 +3805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate first index or nucleotide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "updL",
           "package": "BiobaseXNA",
@@ -3517,6 +3816,7 @@
         "index": {
           "description": "update first index or nucleotide",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "updL",
           "normalized": "a-\u003eb-\u003eb",
@@ -3532,6 +3832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate complete pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "updP",
           "package": "BiobaseXNA",
@@ -3542,6 +3843,7 @@
         "index": {
           "description": "update complete pair",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "updP",
           "normalized": "(a,a)-\u003eb-\u003eb",
@@ -3557,6 +3859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate second index or nucleotide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "updR",
           "package": "BiobaseXNA",
@@ -3567,6 +3870,7 @@
         "index": {
           "description": "update second index or nucleotide",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "updR",
           "normalized": "a-\u003eb-\u003eb",
@@ -3582,6 +3886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate basepair type, error if not possible due to type a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "updT",
           "package": "BiobaseXNA",
@@ -3592,6 +3897,7 @@
         "index": {
           "description": "update basepair type error if not possible due to type",
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "updT",
           "normalized": "ExtPairAnnotation-\u003ea-\u003ea",
@@ -3606,6 +3912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:41 UTC 2014",
           "module": "Biobase.Secondary",
           "name": "wc",
           "package": "BiobaseXNA",
@@ -3615,6 +3922,7 @@
         },
         "index": {
           "hierarchy": "Biobase Secondary",
+          "indexed": "2014-03-11T16:34:41",
           "module": "Biobase.Secondary",
           "name": "wc",
           "package": "BiobaseXNA",

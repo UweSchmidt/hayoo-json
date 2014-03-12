@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsx"
+        "phrase": "hsx",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for transforming abstract Haskell code extended with regular\n patterns into semantically equivalent normal abstract Haskell code. In\n other words, we transform away regular patterns.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.Transform",
           "name": "Transform",
           "package": "hsx",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions for transforming abstract Haskell code extended with regular patterns into semantically equivalent normal abstract Haskell code In other words we transform away regular patterns",
           "hierarchy": "HSX Transform",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.Transform",
           "name": "Transform",
           "package": "hsx",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform away occurences of regular patterns from an abstract\n Haskell module, preserving semantics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.Transform",
           "name": "transform",
           "package": "hsx",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Transform away occurences of regular patterns from an abstract Haskell module preserving semantics",
           "hierarchy": "HSX Transform",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.Transform",
           "name": "transform",
           "normalized": "Module-\u003eModule",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform expressions by traversing subterms.\n Of special interest are expressions that contain patterns as subterms,\n i.e. \u003ccode\u003elet\u003c/code\u003e, \u003ccode\u003ecase\u003c/code\u003e and lambda expressions, and also list comprehensions\n and \u003ccode\u003edo\u003c/code\u003e-expressions. All other expressions simply transform their\n sub-expressions, if any.\n Of special interest are of course also any xml expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.Transform",
           "name": "transformExp",
           "package": "hsx",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Transform expressions by traversing subterms Of special interest are expressions that contain patterns as subterms i.e let case and lambda expressions and also list comprehensions and do expressions All other expressions simply transform their sub-expressions if any Of special interest are of course also any xml expressions",
           "hierarchy": "HSX Transform",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.Transform",
           "name": "transformExp",
           "normalized": "Exp-\u003eExp",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe class and monad transformer that forms the basis of the literal XML\n syntax translation. Literal tags will be translated into functions of\n the GenerateXML class, and any instantiating monads with associated XML\n types can benefit from that syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "XMLGenerator",
           "package": "hsx",
@@ -102,6 +109,7 @@
         "index": {
           "description": "The class and monad transformer that forms the basis of the literal XML syntax translation Literal tags will be translated into functions of the GenerateXML class and any instantiating monads with associated XML types can benefit from that syntax",
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "XMLGenerator",
           "package": "hsx",
@@ -115,6 +123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "AppendChild",
           "package": "hsx",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "AppendChild",
           "package": "hsx",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "Attr",
           "package": "hsx",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "Attr",
           "package": "hsx",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilarly embed values as attributes of an XML element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "EmbedAsAttr",
           "package": "hsx",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Similarly embed values as attributes of an XML element",
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "EmbedAsAttr",
           "package": "hsx",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed values as child nodes of an XML element. The parent type will be clear\n from the context so it is not mentioned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "EmbedAsChild",
           "package": "hsx",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Embed values as child nodes of an XML element The parent type will be clear from the context so it is not mentioned",
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "EmbedAsChild",
           "package": "hsx",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "GenAttribute",
           "package": "hsx",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "GenAttribute",
           "package": "hsx",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "GenAttributeList",
           "package": "hsx",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "GenAttributeList",
           "package": "hsx",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "GenChild",
           "package": "hsx",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "GenChild",
           "package": "hsx",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "GenChildList",
           "package": "hsx",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "GenChildList",
           "package": "hsx",
@@ -288,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonyms to avoid writing out the XMLnGenT all the time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "GenXML",
           "package": "hsx",
@@ -297,6 +322,7 @@
         "index": {
           "description": "Type synonyms to avoid writing out the XMLnGenT all the time",
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "GenXML",
           "package": "hsx",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "GenXMLList",
           "package": "hsx",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "GenXMLList",
           "package": "hsx",
@@ -332,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames can be simple or qualified with a domain. We want to conveniently\n use both simple strings or pairs wherever a Name is expected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "IsName",
           "package": "hsx",
@@ -341,6 +370,7 @@
         "index": {
           "description": "Names can be simple or qualified with domain We want to conveniently use both simple strings or pairs wherever Name is expected",
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "IsName",
           "package": "hsx",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "Name",
           "package": "hsx",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "Name",
           "package": "hsx",
@@ -376,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet attributes on XML elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "SetAttr",
           "package": "hsx",
@@ -385,6 +418,7 @@
         "index": {
           "description": "Set attributes on XML elements",
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "SetAttr",
           "package": "hsx",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "TypeCast",
           "package": "hsx",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "TypeCast",
           "package": "hsx",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "TypeCast'",
           "package": "hsx",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "TypeCast'",
           "package": "hsx",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "TypeCast''",
           "package": "hsx",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "TypeCast''",
           "package": "hsx",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "TypeCastM",
           "package": "hsx",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "TypeCastM",
           "package": "hsx",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "TypeCastM'",
           "package": "hsx",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "TypeCastM'",
           "package": "hsx",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "TypeCastM''",
           "package": "hsx",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "TypeCastM''",
           "package": "hsx",
@@ -525,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate XML values in some XMLGenerator monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "XMLGen",
           "package": "hsx",
@@ -534,6 +581,7 @@
         "index": {
           "description": "Generate XML values in some XMLGenerator monad",
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "XMLGen",
           "package": "hsx",
@@ -548,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monad transformer that allows a monad to generate XML values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "XMLGenT",
           "package": "hsx",
@@ -557,6 +606,7 @@
         "index": {
           "description": "The monad transformer that allows monad to generate XML values",
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "XMLGenT",
           "package": "hsx",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "XMLGenerator",
           "package": "hsx",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "XMLGenerator",
           "package": "hsx",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "(\u003c\u003c@)",
           "package": "hsx",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "(\u003c\u003c@) \u003c\u003c@",
           "normalized": "a-\u003e[b]-\u003eGenXML c",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "(\u003c\u003c:)",
           "package": "hsx",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "(\u003c\u003c:) \u003c\u003c:",
           "normalized": "a-\u003e[b]-\u003eGenXML c",
@@ -637,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "(\u003c@)",
           "package": "hsx",
@@ -646,6 +703,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "(\u003c@) \u003c@",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -660,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "(\u003c:)",
           "package": "hsx",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "(\u003c:) \u003c:",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -683,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": ":=",
           "package": "hsx",
@@ -692,6 +753,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": ":=",
           "package": "hsx",
@@ -704,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "XMLGenT",
           "package": "hsx",
@@ -713,6 +776,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "XMLGenT",
           "package": "hsx",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "app",
           "package": "hsx",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "app",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "appAll",
           "package": "hsx",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "appAll",
           "normalized": "a-\u003eGenChildList b-\u003eGenXML b",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "appChild",
           "package": "hsx",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "appChild",
           "normalized": "a-\u003eGenChild b-\u003eGenXML b",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "asAttr",
           "package": "hsx",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "asAttr",
           "normalized": "a-\u003eGenAttributeList b",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "asChild",
           "package": "hsx",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "asChild",
           "normalized": "a-\u003eGenChildList b",
@@ -845,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "genEElement",
           "package": "hsx",
@@ -854,6 +929,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "genEElement",
           "normalized": "Name-\u003e[XMLGenT a[AttributeType a]]-\u003eXMLGenT a(XMLType a)",
@@ -869,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "genElement",
           "package": "hsx",
@@ -878,6 +955,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "genElement",
           "normalized": "Name-\u003e[XMLGenT a[AttributeType a]]-\u003e[XMLGenT a[ChildType a]]-\u003eXMLGenT a(XMLType a)",
@@ -894,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emap the inner monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "mapXMLGenT",
           "package": "hsx",
@@ -904,6 +983,7 @@
         "index": {
           "description": "map the inner monad",
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "mapXMLGenT",
           "normalized": "(a b-\u003ec d)-\u003eXMLGenT a b-\u003eXMLGenT c d",
@@ -919,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "pcdataToChild",
           "package": "hsx",
@@ -928,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "pcdataToChild",
           "normalized": "String-\u003eChildType a",
@@ -943,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "set",
           "package": "hsx",
@@ -952,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "set",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -966,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "setAll",
           "package": "hsx",
@@ -975,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "setAll",
           "normalized": "a-\u003eGenAttributeList b-\u003eGenXML b",
@@ -990,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "setAttr",
           "package": "hsx",
@@ -999,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "setAttr",
           "normalized": "a-\u003eGenAttribute b-\u003eGenXML b",
@@ -1014,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "toName",
           "package": "hsx",
@@ -1023,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "toName",
           "normalized": "a-\u003eName",
@@ -1038,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "typeCast",
           "package": "hsx",
@@ -1047,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "typeCast",
           "normalized": "a-\u003eb",
@@ -1062,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "typeCast'",
           "package": "hsx",
@@ -1071,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "typeCast'",
           "normalized": "a-\u003eb-\u003ec",
@@ -1086,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "typeCast''",
           "package": "hsx",
@@ -1095,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "typeCast''",
           "normalized": "a-\u003eb-\u003ec",
@@ -1110,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "typeCastM",
           "package": "hsx",
@@ -1119,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "typeCastM",
           "normalized": "a b-\u003ec b",
@@ -1134,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "typeCastM'",
           "package": "hsx",
@@ -1143,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "typeCastM'",
           "normalized": "a-\u003eb c-\u003ed c",
@@ -1158,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "typeCastM''",
           "package": "hsx",
@@ -1167,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "typeCastM''",
           "normalized": "a-\u003eb c-\u003ed c",
@@ -1183,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eun-lift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "unXMLGenT",
           "package": "hsx",
@@ -1193,6 +1296,7 @@
         "index": {
           "description": "un-lift",
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "unXMLGenT",
           "normalized": "XMLGenT a b-\u003ea b",
@@ -1208,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:13 UTC 2014",
           "module": "HSX.XMLGenerator",
           "name": "xmlToChild",
           "package": "hsx",
@@ -1217,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "HSX XMLGenerator",
+          "indexed": "2014-03-11T18:51:13",
           "module": "HSX.XMLGenerator",
           "name": "xmlToChild",
           "normalized": "XMLType a-\u003eChildType a",

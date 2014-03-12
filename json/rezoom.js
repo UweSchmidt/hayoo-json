@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rezoom"
+        "phrase": "rezoom",
+        "type": "phrase"
       },
       "type": "context"
     }

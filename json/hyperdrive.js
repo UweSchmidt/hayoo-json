@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hyperdrive"
+        "phrase": "hyperdrive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Network",
           "name": "Network",
           "package": "hyperdrive",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Network",
           "name": "Network",
           "package": "hyperdrive",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart TCP listening on a port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Network",
           "name": "listenOn",
           "package": "hyperdrive",
@@ -49,6 +52,7 @@
         "index": {
           "description": "start TCP listening on port",
           "hierarchy": "Network",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Network",
           "name": "listenOn",
           "normalized": "Int-\u003eIO Socket",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream data from the socket.\n\u003c/p\u003e\u003cp\u003eFIXME: what should happen if \u003ccode\u003e\u003ca\u003erecv\u003c/a\u003e\u003c/code\u003e raises an exception?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Network",
           "name": "socketReader",
           "package": "hyperdrive",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Stream data from the socket FIXME what should happen if recv raises an exception",
           "hierarchy": "Network",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Network",
           "name": "socketReader",
           "normalized": "Socket-\u003e()-\u003eProducer a ByteString b()",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream data to the socket.\n\u003c/p\u003e\u003cp\u003eFIXME: what should happen if \u003ccode\u003e\u003ca\u003esendAll\u003c/a\u003e\u003c/code\u003e raises an exception?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Network",
           "name": "socketWriter",
           "package": "hyperdrive",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Stream data to the socket FIXME what should happen if sendAll raises an exception",
           "hierarchy": "Network",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Network",
           "name": "socketWriter",
           "normalized": "Socket-\u003e()-\u003eConsumer a ByteString b()",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "Request",
           "package": "hyperdrive",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "Request",
           "package": "hyperdrive",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "ParseError",
           "package": "hyperdrive",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "ParseError",
           "package": "hyperdrive",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "MalformedHeader",
           "package": "hyperdrive",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "MalformedHeader",
           "package": "hyperdrive",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "MalformedRequestLine",
           "package": "hyperdrive",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "MalformedRequestLine",
           "package": "hyperdrive",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "Unexpected",
           "package": "hyperdrive",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "Unexpected",
           "package": "hyperdrive",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "UnknownHTTPVersion",
           "package": "hyperdrive",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "UnknownHTTPVersion",
           "package": "hyperdrive",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "colon",
           "package": "hyperdrive",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "colon",
           "package": "hyperdrive",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "cr",
           "package": "hyperdrive",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "cr",
           "package": "hyperdrive",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "nl",
           "package": "hyperdrive",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "nl",
           "package": "hyperdrive",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "parseHTTPVersion",
           "package": "hyperdrive",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "parseHTTPVersion",
           "normalized": "ByteString-\u003eHTTPVersion",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "parseHeader",
           "package": "hyperdrive",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "parseHeader",
           "normalized": "ByteString-\u003e(ByteString,ByteString)",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "parseHeaders",
           "package": "hyperdrive",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "parseHeaders",
           "normalized": "StateP ByteString a()ByteString b c d[(ByteString,ByteString)]",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "parseMethod",
           "package": "hyperdrive",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "parseMethod",
           "normalized": "ByteString-\u003eMethod",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "parseRequest",
           "package": "hyperdrive",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "parseRequest",
           "normalized": "Bool-\u003eSockAddr-\u003eStateP ByteString a()ByteString b c d Request",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "parseRequestLine",
           "package": "hyperdrive",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "parseRequestLine",
           "normalized": "ByteString-\u003e(Method,ByteString,HTTPVersion)",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "parseToken",
           "package": "hyperdrive",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "parseToken",
           "normalized": "ByteString-\u003e(ByteString,ByteString)",
@@ -475,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrently if you consume the entire request body this will\n terminate and return the \u003ccode\u003eret\u003c/code\u003e value that you supplied. But, that\n seems wrong, because that will tear down the whole pipeline and\n return that value instead of what you really wanted to return.\n\u003c/p\u003e\u003cp\u003ePerhaps this should return a 'Maybe ByteString' instead so you can\n detect when the body ends? But that interfers with using\n \u003ccode\u003e\u003ca\u003eparseRequest\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003ehttpPipe\u003c/code\u003e. For now we will just return \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\n forever when you get to the end.\n\u003c/p\u003e\u003cp\u003ePerhaps pipes 2.5 will provide a better solution as it is supposed\n to allow you to catch termination of the upstream pipe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "pipeBody",
           "package": "hyperdrive",
@@ -485,6 +526,7 @@
         "index": {
           "description": "currently if you consume the entire request body this will terminate and return the ret value that you supplied But that seems wrong because that will tear down the whole pipeline and return that value instead of what you really wanted to return Perhaps this should return Maybe ByteString instead so you can detect when the body ends But that interfers with using parseRequest in httpPipe For now we will just return empty forever when you get to the end Perhaps pipes will provide better solution as it is supposed to allow you to catch termination of the upstream pipe",
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "pipeBody",
           "normalized": "Request-\u003e()-\u003eStateP ByteString a()ByteString b ByteString c d",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "space",
           "package": "hyperdrive",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "space",
           "package": "hyperdrive",
@@ -522,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efind a line terminated by a '\\r\\n'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Request",
           "name": "takeLine",
           "package": "hyperdrive",
@@ -532,6 +577,7 @@
         "index": {
           "description": "find line terminated by",
           "hierarchy": "Request",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Request",
           "name": "takeLine",
           "normalized": "StateP ByteString a()ByteString b c d ByteString",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Response",
           "name": "Response",
           "package": "hyperdrive",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Response",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Response",
           "name": "Response",
           "package": "hyperdrive",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Response",
           "name": "not_found_status",
           "package": "hyperdrive",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Response",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Response",
           "name": "not_found_status",
           "package": "hyperdrive",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Response",
           "name": "ok_status",
           "package": "hyperdrive",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Response",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Response",
           "name": "ok_status",
           "package": "hyperdrive",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Response",
           "name": "renderHeader",
           "package": "hyperdrive",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Response",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Response",
           "name": "renderHeader",
           "normalized": "(ByteString,ByteString)-\u003eByteString",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Response",
           "name": "renderHeaders",
           "package": "hyperdrive",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Response",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Response",
           "name": "renderHeaders",
           "normalized": "[(ByteString,ByteString)]-\u003eByteString",
@@ -658,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Response",
           "name": "responseWriter",
           "package": "hyperdrive",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Response",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Response",
           "name": "responseWriter",
           "normalized": "Response a-\u003ePipe ProxyFast ByteString ByteString a()",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Response",
           "name": "statusLine",
           "package": "hyperdrive",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Response",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Response",
           "name": "statusLine",
           "normalized": "Int-\u003eByteString",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Serve",
           "name": "Serve",
           "package": "hyperdrive",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Serve",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Serve",
           "name": "Serve",
           "package": "hyperdrive",
@@ -728,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eHandler\u003c/a\u003e\u003c/code\u003e essentially a \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e and returns a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe Pipe allows use to incrementally read \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e chuncks from\n the Request body and incrementally write \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e chunks in the\n \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Serve",
           "name": "Handler",
           "package": "hyperdrive",
@@ -737,6 +800,7 @@
         "index": {
           "description": "Handler essentially Request and returns Response The Pipe allows use to incrementally read ByteString chuncks from the Request body and incrementally write ByteString chunks in the Response body",
           "hierarchy": "Serve",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Serve",
           "name": "Handler",
           "package": "hyperdrive",
@@ -751,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eand this is the real heart of things\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Serve",
           "name": "httpPipe",
           "package": "hyperdrive",
@@ -760,6 +825,7 @@
         "index": {
           "description": "and this is the real heart of things",
           "hierarchy": "Serve",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Serve",
           "name": "httpPipe",
           "normalized": "Bool-\u003eSockAddr-\u003eHandler IO-\u003e()-\u003eStateP ByteString ProxyFast()ByteString()ByteString IO a",
@@ -776,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is where we construct the pipe that reads from the socket,\n processes the request, and sends the response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Serve",
           "name": "requestLoop",
           "package": "hyperdrive",
@@ -785,6 +852,7 @@
         "index": {
           "description": "this is where we construct the pipe that reads from the socket processes the request and sends the response",
           "hierarchy": "Serve",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Serve",
           "name": "requestLoop",
           "normalized": "Bool-\u003eSockAddr-\u003e(()-\u003eServer ProxyFast()ByteString IO())-\u003e(()-\u003eClient ProxyFast()ByteString IO())-\u003eHandler IO-\u003eIO()",
@@ -801,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elisten on a port and handle \u003ccode\u003eRequests\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Serve",
           "name": "serve",
           "package": "hyperdrive",
@@ -810,6 +879,7 @@
         "index": {
           "description": "listen on port and handle Requests",
           "hierarchy": "Serve",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Serve",
           "name": "serve",
           "normalized": "Int-\u003eHandler IO-\u003eIO()",
@@ -824,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Serve",
           "name": "serveSocket",
           "package": "hyperdrive",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Serve",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Serve",
           "name": "serveSocket",
           "normalized": "Socket-\u003eHandler IO-\u003eIO()",
@@ -847,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "Types",
           "package": "hyperdrive",
@@ -855,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "Types",
           "package": "hyperdrive",
@@ -868,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "HTTPVersion",
           "package": "hyperdrive",
@@ -876,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "HTTPVersion",
           "package": "hyperdrive",
@@ -889,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "MessageBody",
           "package": "hyperdrive",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "MessageBody",
           "package": "hyperdrive",
@@ -910,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "Method",
           "package": "hyperdrive",
@@ -918,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "Method",
           "package": "hyperdrive",
@@ -931,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "Request",
           "package": "hyperdrive",
@@ -939,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "Request",
           "package": "hyperdrive",
@@ -952,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "Response",
           "package": "hyperdrive",
@@ -960,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "Response",
           "package": "hyperdrive",
@@ -973,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "CONNECT",
           "package": "hyperdrive",
@@ -982,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "CONNECT",
           "package": "hyperdrive",
@@ -995,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "DELETE",
           "package": "hyperdrive",
@@ -1004,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "DELETE",
           "package": "hyperdrive",
@@ -1017,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "EXTENSION",
           "package": "hyperdrive",
@@ -1026,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "EXTENSION",
           "package": "hyperdrive",
@@ -1039,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "GET",
           "package": "hyperdrive",
@@ -1048,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "GET",
           "package": "hyperdrive",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "GETONLY",
           "package": "hyperdrive",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "GETONLY",
           "package": "hyperdrive",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "HEAD",
           "package": "hyperdrive",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "HEAD",
           "package": "hyperdrive",
@@ -1105,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "HTTP10",
           "package": "hyperdrive",
@@ -1114,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "HTTP10",
           "package": "hyperdrive",
@@ -1127,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "HTTP11",
           "package": "hyperdrive",
@@ -1136,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "HTTP11",
           "package": "hyperdrive",
@@ -1149,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "OPTIONS",
           "package": "hyperdrive",
@@ -1158,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "OPTIONS",
           "package": "hyperdrive",
@@ -1171,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "POST",
           "package": "hyperdrive",
@@ -1180,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "POST",
           "package": "hyperdrive",
@@ -1193,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "PUT",
           "package": "hyperdrive",
@@ -1202,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "PUT",
           "package": "hyperdrive",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "Request",
           "package": "hyperdrive",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "Request",
           "package": "hyperdrive",
@@ -1237,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "Response",
           "package": "hyperdrive",
@@ -1246,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "Response",
           "package": "hyperdrive",
@@ -1259,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "TRACE",
           "package": "hyperdrive",
@@ -1268,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "TRACE",
           "package": "hyperdrive",
@@ -1281,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "bytestring",
           "package": "hyperdrive",
@@ -1290,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "bytestring",
           "normalized": "ByteString-\u003eDoc",
@@ -1304,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "field",
           "package": "hyperdrive",
@@ -1313,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "field",
           "normalized": "String-\u003eDoc-\u003eDoc",
@@ -1327,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "ppHTTPVersion",
           "package": "hyperdrive",
@@ -1336,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "ppHTTPVersion",
           "normalized": "HTTPVersion-\u003eDoc",
@@ -1351,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "ppHeader",
           "package": "hyperdrive",
@@ -1360,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "ppHeader",
           "normalized": "(ByteString,ByteString)-\u003eDoc",
@@ -1375,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "ppMethod",
           "package": "hyperdrive",
@@ -1384,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "ppMethod",
           "normalized": "Method-\u003eDoc",
@@ -1399,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "ppRequest",
           "package": "hyperdrive",
@@ -1408,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "ppRequest",
           "normalized": "Request-\u003eDoc",
@@ -1423,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "ppResponse",
           "package": "hyperdrive",
@@ -1432,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "ppResponse",
           "normalized": "Response a-\u003eDoc",
@@ -1447,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "rqClient",
           "package": "hyperdrive",
@@ -1456,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "rqClient",
           "package": "hyperdrive",
@@ -1469,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "rqHTTPVersion",
           "package": "hyperdrive",
@@ -1478,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "rqHTTPVersion",
           "package": "hyperdrive",
@@ -1491,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "rqHeaders",
           "package": "hyperdrive",
@@ -1500,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "rqHeaders",
           "normalized": "[(ByteString,ByteString)]",
@@ -1515,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "rqMethod",
           "package": "hyperdrive",
@@ -1524,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "rqMethod",
           "package": "hyperdrive",
@@ -1537,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "rqSecure",
           "package": "hyperdrive",
@@ -1546,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "rqSecure",
           "package": "hyperdrive",
@@ -1559,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "rqURIbs",
           "package": "hyperdrive",
@@ -1568,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "rqURIbs",
           "package": "hyperdrive",
@@ -1581,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "rsBody",
           "package": "hyperdrive",
@@ -1590,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "rsBody",
           "normalized": "Pipe ProxyFast ByteString MessageBody a()",
@@ -1605,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "rsCode",
           "package": "hyperdrive",
@@ -1614,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "rsCode",
           "package": "hyperdrive",
@@ -1627,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:16 UTC 2014",
           "module": "Types",
           "name": "rsHeaders",
           "package": "hyperdrive",
@@ -1636,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T18:55:16",
           "module": "Types",
           "name": "rsHeaders",
           "normalized": "[(ByteString,ByteString)]",

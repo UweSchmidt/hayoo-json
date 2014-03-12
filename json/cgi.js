@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cgi"
+        "phrase": "cgi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompatibility functions for the old Network.CGI API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Compat",
           "name": "Compat",
           "package": "cgi",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Compatibility functions for the old Network.CGI API",
           "hierarchy": "Network CGI Compat",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Compat",
           "name": "Compat",
           "package": "cgi",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Compat",
           "name": "Html",
           "package": "cgi",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Compat",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Compat",
           "name": "Html",
           "package": "cgi",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the new interface.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eNote: if using Windows, you might need to wrap \u003ccode\u003e\u003ca\u003ewithSocketsDo\u003c/a\u003e\u003c/code\u003e around main.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Compat",
           "name": "connectToCGIScript",
           "package": "cgi",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Deprecated Use the new interface Note if using Windows you might need to wrap withSocketsDo around main",
           "hierarchy": "Network CGI Compat",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Compat",
           "name": "connectToCGIScript",
           "normalized": "String-\u003ePortID-\u003eIO()",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the new interface.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eCompatibility wrapper for the old CGI interface.\n   Runs a simple CGI server.\n   Note: if using Windows, you might need to wrap \u003ccode\u003e\u003ca\u003ewithSocketsDo\u003c/a\u003e\u003c/code\u003e around main.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Compat",
           "name": "pwrapper",
           "package": "cgi",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Deprecated Use the new interface Compatibility wrapper for the old CGI interface Runs simple CGI server Note if using Windows you might need to wrap withSocketsDo around main",
           "hierarchy": "Network CGI Compat",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Compat",
           "name": "pwrapper",
           "normalized": "PortID-\u003e([(String,String)]-\u003eIO Html)-\u003eIO()",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the new interface.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eCompatibility wrapper for the old CGI interface.\n   Output the output from a function from CGI environment and\n   input variables to an HTML document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Compat",
           "name": "wrapper",
           "package": "cgi",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Deprecated Use the new interface Compatibility wrapper for the old CGI interface Output the output from function from CGI environment and input variables to an HTML document",
           "hierarchy": "Network CGI Compat",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Compat",
           "name": "wrapper",
           "normalized": "([(String,String)]-\u003eIO Html)-\u003eIO()",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTODO\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Add client side stuff (basically parsing Set-Cookie: value)\n\u003c/li\u003e\u003cli\u003e Update for RFC2109 \u003ca\u003ehttp://www.ietf.org/rfc/rfc2109.txt\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Cookie",
           "name": "Cookie",
           "package": "cgi",
@@ -146,6 +157,7 @@
         "index": {
           "description": "TODO Add client side stuff basically parsing Set-Cookie value Update for RFC2109 http www.ietf.org rfc rfc2109.txt",
           "hierarchy": "Network CGI Cookie",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Cookie",
           "name": "Cookie",
           "package": "cgi",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains all information about a cookie set by the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Cookie",
           "name": "Cookie",
           "package": "cgi",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Contains all information about cookie set by the server",
           "hierarchy": "Network CGI Cookie",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Cookie",
           "name": "Cookie",
           "package": "cgi",
@@ -356,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a cookie from the client by setting the cookie expiry date\n   to a date in the past.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Cookie",
           "name": "deleteCookie",
           "package": "cgi",
@@ -365,6 +380,7 @@
         "index": {
           "description": "Delete cookie from the client by setting the cookie expiry date to date in the past",
           "hierarchy": "Network CGI Cookie",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Cookie",
           "name": "deleteCookie",
           "normalized": "Cookie-\u003eCookie",
@@ -381,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of a cookie from a string on the form\n   \u003ccode\u003e\"cookieName1=cookieValue1;...;cookieName2=cookieValue2\"\u003c/code\u003e.\n   This is the format of the \u003ccode\u003eCookie\u003c/code\u003e HTTP header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Cookie",
           "name": "findCookie",
           "package": "cgi",
@@ -390,6 +407,7 @@
         "index": {
           "description": "Get the value of cookie from string on the form cookieName1 cookieValue1 cookieName2 cookieValue2 This is the format of the Cookie HTTP header",
           "hierarchy": "Network CGI Cookie",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Cookie",
           "name": "findCookie",
           "normalized": "String-\u003eString-\u003eMaybe String",
@@ -432,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all the cookies from a Cookie: header value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Cookie",
           "name": "readCookies",
           "package": "cgi",
@@ -441,6 +460,7 @@
         "index": {
           "description": "Gets all the cookies from Cookie header value",
           "hierarchy": "Network CGI Cookie",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Cookie",
           "name": "readCookies",
           "normalized": "String-\u003e[(String,String)]",
@@ -457,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a cookie on the format used as the value of the Set-Cookie header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Cookie",
           "name": "showCookie",
           "package": "cgi",
@@ -467,6 +488,7 @@
         "index": {
           "description": "Show cookie on the format used as the value of the Set-Cookie header",
           "hierarchy": "Network CGI Cookie",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Cookie",
           "name": "showCookie",
           "normalized": "Cookie-\u003eString",
@@ -483,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal stuff that most people shouldn't have to use.\n This module mostly deals with the \n internals of the CGIT monad transformer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Monad",
           "name": "Monad",
           "package": "cgi",
@@ -492,6 +515,7 @@
         "index": {
           "description": "Internal stuff that most people shouldn have to use This module mostly deals with the internals of the CGIT monad transformer",
           "hierarchy": "Network CGI Monad",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Monad",
           "name": "Monad",
           "package": "cgi",
@@ -506,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple CGI monad with just IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Monad",
           "name": "CGI",
           "package": "cgi",
@@ -515,6 +540,7 @@
         "index": {
           "description": "simple CGI monad with just IO",
           "hierarchy": "Network CGI Monad",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Monad",
           "name": "CGI",
           "package": "cgi",
@@ -529,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe input to a CGI action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Monad",
           "name": "CGIRequest",
           "package": "cgi",
@@ -538,6 +565,7 @@
         "index": {
           "description": "The input to CGI action",
           "hierarchy": "Network CGI Monad",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Monad",
           "name": "CGIRequest",
           "package": "cgi",
@@ -552,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CGIT monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Monad",
           "name": "CGIT",
           "package": "cgi",
@@ -561,6 +590,7 @@
         "index": {
           "description": "The CGIT monad transformer",
           "hierarchy": "Network CGI Monad",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Monad",
           "name": "CGIT",
           "package": "cgi",
@@ -575,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of CGI monads. Most CGI actions can be run in\n   any monad which is an instance of this class, which means that\n   you can use your own monad transformers to add extra functionality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Monad",
           "name": "MonadCGI",
           "package": "cgi",
@@ -584,6 +615,7 @@
         "index": {
           "description": "The class of CGI monads Most CGI actions can be run in any monad which is an instance of this class which means that you can use your own monad transformers to add extra functionality",
           "hierarchy": "Network CGI Monad",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Monad",
           "name": "MonadCGI",
           "package": "cgi",
@@ -620,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Monad",
           "name": "CGIT",
           "package": "cgi",
@@ -629,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Monad",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Monad",
           "name": "CGIT",
           "package": "cgi",
@@ -670,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a response header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Monad",
           "name": "cgiAddHeader",
           "package": "cgi",
@@ -680,6 +715,7 @@
         "index": {
           "description": "Add response header",
           "hierarchy": "Network CGI Monad",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Monad",
           "name": "cgiAddHeader",
           "normalized": "HeaderName-\u003eString-\u003ea()",
@@ -696,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet something from the CGI request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Monad",
           "name": "cgiGet",
           "package": "cgi",
@@ -706,6 +743,7 @@
         "index": {
           "description": "Get something from the CGI request",
           "hierarchy": "Network CGI Monad",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Monad",
           "name": "cgiGet",
           "normalized": "(CGIRequest-\u003ea)-\u003eb a",
@@ -826,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a CGI action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Monad",
           "name": "runCGIT",
           "package": "cgi",
@@ -836,6 +875,7 @@
         "index": {
           "description": "Run CGI action",
           "hierarchy": "Network CGI Monad",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Monad",
           "name": "runCGIT",
           "normalized": "CGIT a b-\u003eCGIRequest-\u003ea(Headers,b)",
@@ -905,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Monad",
           "name": "unCGIT",
           "package": "cgi",
@@ -914,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Monad",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Monad",
           "name": "unCGIT",
           "package": "cgi",
@@ -928,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn implementation of the program side of the CGI protocol.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "Protocol",
           "package": "cgi",
@@ -937,6 +980,7 @@
         "index": {
           "description": "An implementation of the program side of the CGI protocol",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "Protocol",
           "package": "cgi",
@@ -951,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe input to a CGI action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "CGIRequest",
           "package": "cgi",
@@ -960,6 +1005,7 @@
         "index": {
           "description": "The input to CGI action",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "CGIRequest",
           "package": "cgi",
@@ -974,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a CGI program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "CGIResult",
           "package": "cgi",
@@ -983,6 +1030,7 @@
         "index": {
           "description": "The result of CGI program",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "CGIResult",
           "package": "cgi",
@@ -997,6 +1045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string with case insensitive equality and comparisons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "HeaderName",
           "package": "cgi",
@@ -1006,6 +1055,7 @@
         "index": {
           "description": "string with case insensitive equality and comparisons",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "HeaderName",
           "package": "cgi",
@@ -1020,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "Headers",
           "package": "cgi",
@@ -1029,6 +1080,7 @@
         "index": {
           "description": "HTTP headers",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "Headers",
           "package": "cgi",
@@ -1043,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value of an input parameter, and some metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "Input",
           "package": "cgi",
@@ -1052,6 +1105,7 @@
         "index": {
           "description": "The value of an input parameter and some metadata",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "Input",
           "package": "cgi",
@@ -1065,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "CGINothing",
           "package": "cgi",
@@ -1074,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "CGINothing",
           "package": "cgi",
@@ -1087,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "CGIOutput",
           "package": "cgi",
@@ -1096,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "CGIOutput",
           "package": "cgi",
@@ -1109,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "HeaderName",
           "package": "cgi",
@@ -1118,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "HeaderName",
           "package": "cgi",
@@ -1131,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "Input",
           "package": "cgi",
@@ -1140,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "Input",
           "package": "cgi",
@@ -1154,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets and decodes the input according to the request\n   method and the content-type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "decodeInput",
           "package": "cgi",
@@ -1163,6 +1226,7 @@
         "index": {
           "description": "Gets and decodes the input according to the request method and the content-type",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "decodeInput",
           "normalized": "[(String,String)]-\u003eByteString-\u003e([(String,Input)],ByteString)",
@@ -1233,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the values of all CGI variables from the program environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "getCGIVars",
           "package": "cgi",
@@ -1243,6 +1308,7 @@
         "index": {
           "description": "Gets the values of all CGI variables from the program environment",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "getCGIVars",
           "normalized": "a[(String,String)]",
@@ -1259,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a CGI action in a given environment. Uses Handles for input and output. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "hRunCGI",
           "package": "cgi",
@@ -1268,6 +1335,7 @@
         "index": {
           "description": "Runs CGI action in given environment Uses Handles for input and output",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "hRunCGI",
           "normalized": "[(String,String)]-\u003eHandle-\u003eHandle-\u003e(CGIRequest-\u003ea(Headers,CGIResult))-\u003ea()",
@@ -1283,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "inputContentType",
           "package": "cgi",
@@ -1292,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "inputContentType",
           "package": "cgi",
@@ -1305,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "inputFilename",
           "package": "cgi",
@@ -1314,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "inputFilename",
           "package": "cgi",
@@ -1327,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "inputValue",
           "package": "cgi",
@@ -1336,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "inputValue",
           "package": "cgi",
@@ -1376,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "maybeRead",
           "package": "cgi",
@@ -1385,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "maybeRead",
           "normalized": "String-\u003eMaybe a",
@@ -1401,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces all instances of a value in a list by another value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "replace",
           "package": "cgi",
@@ -1410,6 +1487,7 @@
         "index": {
           "description": "Replaces all instances of value in list by another value",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "replace",
           "normalized": "a-\u003ea-\u003e[a]-\u003e[a]",
@@ -1425,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a CGI action in a given environment. Uses lazy ByteStrings \n   for input and output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "runCGIEnvFPS",
           "package": "cgi",
@@ -1434,6 +1513,7 @@
         "index": {
           "description": "Runs CGI action in given environment Uses lazy ByteStrings for input and output",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "runCGIEnvFPS",
           "normalized": "[(String,String)]-\u003eByteString-\u003e(CGIRequest-\u003ea(Headers,CGIResult))-\u003ea ByteString",
@@ -1450,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the right number of bytes from the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI.Protocol",
           "name": "takeInput",
           "package": "cgi",
@@ -1459,6 +1540,7 @@
         "index": {
           "description": "Takes the right number of bytes from the input",
           "hierarchy": "Network CGI Protocol",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI.Protocol",
           "name": "takeInput",
           "normalized": "[(String,String)]-\u003eByteString-\u003eByteString",
@@ -1529,6 +1611,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple Library for writing CGI programs.\n See \u003ca\u003ehttp://hoohoo.ncsa.uiuc.edu/cgi/interface.html\u003c/a\u003e for the\n CGI specification.\n\u003c/p\u003e\u003cp\u003eThis version of the library is for systems with version 2.0 or greater\n of the network package. This includes GHC 6.6 and later. For older\n systems, see \u003ca\u003ehttp://www.cs.chalmers.se/~bringert/darcs/cgi-compat/doc/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eBased on the original Haskell binding for CGI:\n\u003c/p\u003e\u003cp\u003eOriginal Version by Erik Meijer \u003ca\u003emailto:erik@cs.ruu.nl\u003c/a\u003e.\n Further hacked on by Sven Panne \u003ca\u003emailto:sven.panne@aedion.de\u003c/a\u003e.\n Further hacking by Andy Gill \u003ca\u003emailto:andy@galconn.com\u003c/a\u003e.\n A new, hopefully more flexible, interface\n and support for file uploads by Bjorn Bringert \u003ca\u003emailto:bjorn@bringert.net\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eHere is a simple example, including error handling (not that there is \n much that can go wrong with Hello World):\n\u003c/p\u003e\u003cpre\u003e import Network.CGI\n\n cgiMain :: CGI CGIResult\n cgiMain = output \"Hello World!\"\n\n main :: IO ()\n main = runCGI (handleErrors cgiMain)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "CGI",
           "package": "cgi",
@@ -1538,6 +1621,7 @@
         "index": {
           "description": "Simple Library for writing CGI programs See http hoohoo.ncsa.uiuc.edu cgi interface.html for the CGI specification This version of the library is for systems with version or greater of the network package This includes GHC and later For older systems see http www.cs.chalmers.se bringert darcs cgi-compat doc Based on the original Haskell binding for CGI Original Version by Erik Meijer mailto erik@cs.ruu.nl Further hacked on by Sven Panne mailto sven.panne@aedion.de Further hacking by Andy Gill mailto andy@galconn.com new hopefully more flexible interface and support for file uploads by Bjorn Bringert mailto bjorn@bringert.net Here is simple example including error handling not that there is much that can go wrong with Hello World import Network.CGI cgiMain CGI CGIResult cgiMain output Hello World main IO main runCGI handleErrors cgiMain",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "CGI",
           "package": "cgi",
@@ -1551,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "Accept",
           "package": "cgi",
@@ -1559,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "Accept",
           "package": "cgi",
@@ -1572,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "Acceptable",
           "package": "cgi",
@@ -1580,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "Acceptable",
           "package": "cgi",
@@ -1594,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple CGI monad with just IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "CGI",
           "package": "cgi",
@@ -1603,6 +1692,7 @@
         "index": {
           "description": "simple CGI monad with just IO",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "CGI",
           "package": "cgi",
@@ -1617,6 +1707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a CGI program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "CGIResult",
           "package": "cgi",
@@ -1626,6 +1717,7 @@
         "index": {
           "description": "The result of CGI program",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "CGIResult",
           "package": "cgi",
@@ -1640,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CGIT monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "CGIT",
           "package": "cgi",
@@ -1649,6 +1742,7 @@
         "index": {
           "description": "The CGIT monad transformer",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "CGIT",
           "package": "cgi",
@@ -1662,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "Charset",
           "package": "cgi",
@@ -1670,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "Charset",
           "package": "cgi",
@@ -1683,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "ContentEncoding",
           "package": "cgi",
@@ -1691,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "ContentEncoding",
           "package": "cgi",
@@ -1705,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA MIME media type value.\n   The \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance is derived automatically.\n   Use \u003ccode\u003e\u003ca\u003eshowContentType\u003c/a\u003e\u003c/code\u003e to obtain the standard\n   string representation.\n   See \u003ca\u003ehttp://www.ietf.org/rfc/rfc2046.txt\u003c/a\u003e for more\n   information about MIME media types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "ContentType",
           "package": "cgi",
@@ -1714,6 +1813,7 @@
         "index": {
           "description": "MIME media type value The Show instance is derived automatically Use showContentType to obtain the standard string representation See http www.ietf.org rfc rfc2046.txt for more information about MIME media types",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "ContentType",
           "package": "cgi",
@@ -1728,6 +1828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains all information about a cookie set by the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "Cookie",
           "package": "cgi",
@@ -1737,6 +1838,7 @@
         "index": {
           "description": "Contains all information about cookie set by the server",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "Cookie",
           "package": "cgi",
@@ -1750,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "Language",
           "package": "cgi",
@@ -1758,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "Language",
           "package": "cgi",
@@ -1772,6 +1876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of CGI monads. Most CGI actions can be run in\n   any monad which is an instance of this class, which means that\n   you can use your own monad transformers to add extra functionality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "MonadCGI",
           "package": "cgi",
@@ -1781,6 +1886,7 @@
         "index": {
           "description": "The class of CGI monads Most CGI actions can be run in any monad which is an instance of this class which means that you can use your own monad transformers to add extra functionality",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "MonadCGI",
           "package": "cgi",
@@ -1795,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads in which \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computations may be embedded.\n Any monad built by applying a sequence of monad transformers to the\n \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad will be an instance of this class.\n\u003c/p\u003e\u003cp\u003eInstances should satisfy the following laws, which state that \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e\n is a transformer of monads:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e (m \u003e\u003e= f) = \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e m \u003e\u003e= (\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . f)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "MonadIO",
           "package": "cgi",
@@ -1803,6 +1910,7 @@
         "index": {
           "description": "Monads in which IO computations may be embedded Any monad built by applying sequence of monad transformers to the IO monad will be an instance of this class Instances should satisfy the following laws which state that liftIO is transformer of monads liftIO return return liftIO liftIO liftIO",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "MonadIO",
           "package": "cgi",
@@ -1816,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "Charset",
           "package": "cgi",
@@ -1825,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "Charset",
           "package": "cgi",
@@ -1838,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "ContentEncoding",
           "package": "cgi",
@@ -1847,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "ContentEncoding",
           "package": "cgi",
@@ -1860,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "ContentType",
           "package": "cgi",
@@ -1869,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "ContentType",
           "package": "cgi",
@@ -1882,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "Language",
           "package": "cgi",
@@ -1891,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "Language",
           "package": "cgi",
@@ -1905,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the server supports user authentication, and the script is \n protected, this is the protocol-specific authentication method \n used to validate the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "authType",
           "package": "cgi",
@@ -1915,6 +2032,7 @@
         "index": {
           "description": "If the server supports user authentication and the script is protected this is the protocol-specific authentication method used to validate the user",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "authType",
           "package": "cgi",
@@ -1929,6 +2047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedia type parameters. On common example is\n   the charset parameter for the \"text\" \n   top-level type, e.g. \u003ccode\u003e(\"charset\",\"ISO-8859-1\")\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "ctParameters",
           "package": "cgi",
@@ -1939,6 +2058,7 @@
         "index": {
           "description": "Media type parameters On common example is the charset parameter for the text top-level type e.g charset ISO-8859-1",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "ctParameters",
           "normalized": "[(String,String)]",
@@ -1955,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe media subtype, the specific data format.\n   Examples include \"plain\", \"html\",\n   \"jpeg\", \"form-data\", etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "ctSubtype",
           "package": "cgi",
@@ -1965,6 +2086,7 @@
         "index": {
           "description": "The media subtype the specific data format Examples include plain html jpeg form-data etc",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "ctSubtype",
           "package": "cgi",
@@ -1979,6 +2101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe top-level media type, the general type\n   of the data. Common examples are\n   \"text\", \"image\", \"audio\", \"video\",\n   \"multipart\", and \"application\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "ctType",
           "package": "cgi",
@@ -1989,6 +2112,7 @@
         "index": {
           "description": "The top-level media type the general type of the data Common examples are text image audio video multipart and application",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "ctType",
           "package": "cgi",
@@ -2003,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a cookie from the client\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "deleteCookie",
           "package": "cgi",
@@ -2013,6 +2138,7 @@
         "index": {
           "description": "Delete cookie from the client",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "deleteCookie",
           "normalized": "Cookie-\u003ea()",
@@ -2029,6 +2155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the uninterpreted request body as a String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getBody",
           "package": "cgi",
@@ -2039,6 +2166,7 @@
         "index": {
           "description": "Get the uninterpreted request body as String",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getBody",
           "package": "cgi",
@@ -2053,6 +2181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the uninterpreted request body as lazy ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getBodyFPS",
           "package": "cgi",
@@ -2063,6 +2192,7 @@
         "index": {
           "description": "Get the uninterpreted request body as lazy ByteString",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getBodyFPS",
           "package": "cgi",
@@ -2077,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getCookie",
           "package": "cgi",
@@ -2086,6 +2217,7 @@
         "index": {
           "description": "Get the value of cookie",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getCookie",
           "normalized": "String-\u003ea(Maybe String)",
@@ -2102,6 +2234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of an input variable, for example from a form.\n   If the variable has multiple values, the first one is returned.\n   Example:\n\u003c/p\u003e\u003cpre\u003e query \u003c- getInput \"query\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getInput",
           "package": "cgi",
@@ -2111,6 +2244,7 @@
         "index": {
           "description": "Get the value of an input variable for example from form If the variable has multiple values the first one is returned Example query getInput query",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getInput",
           "normalized": "String-\u003ea(Maybe String)",
@@ -2127,6 +2261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the content-type of an input, if the input exists, e.g. \u003ca\u003eimage/jpeg\u003c/a\u003e.\n   For non-file inputs, this function returns \u003ca\u003etext/plain\u003c/a\u003e.\n   You can use \u003ccode\u003e\u003ca\u003eparseContentType\u003c/a\u003e\u003c/code\u003e to get a structured\n   representation of the the content-type value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getInputContentType",
           "package": "cgi",
@@ -2136,6 +2271,7 @@
         "index": {
           "description": "Get the content-type of an input if the input exists e.g image jpeg For non-file inputs this function returns text plain You can use parseContentType to get structured representation of the the content-type value",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getInputContentType",
           "normalized": "String-\u003ea(Maybe String)",
@@ -2152,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003egetInput\u003c/a\u003e\u003c/code\u003e, but returns a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getInputFPS",
           "package": "cgi",
@@ -2161,6 +2298,7 @@
         "index": {
           "description": "Like getInput but returns ByteString",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getInputFPS",
           "normalized": "String-\u003ea(Maybe ByteString)",
@@ -2177,6 +2315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the file name of an input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getInputFilename",
           "package": "cgi",
@@ -2186,6 +2325,7 @@
         "index": {
           "description": "Get the file name of an input",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getInputFilename",
           "normalized": "String-\u003ea(Maybe String)",
@@ -2202,6 +2342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the names of all input variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getInputNames",
           "package": "cgi",
@@ -2212,6 +2353,7 @@
         "index": {
           "description": "Get the names of all input variables",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getInputNames",
           "normalized": "a[String]",
@@ -2228,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the names and values of all inputs.\n   Note: the same name may occur more than once in the output,\n   if there are several values for the name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getInputs",
           "package": "cgi",
@@ -2238,6 +2381,7 @@
         "index": {
           "description": "Get the names and values of all inputs Note the same name may occur more than once in the output if there are several values for the name",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getInputs",
           "normalized": "a[(String,String)]",
@@ -2254,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the names and values of all inputs.\n   Note: the same name may occur more than once in the output,\n   if there are several values for the name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getInputsFPS",
           "package": "cgi",
@@ -2264,6 +2409,7 @@
         "index": {
           "description": "Get the names and values of all inputs Note the same name may occur more than once in the output if there are several values for the name",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getInputsFPS",
           "normalized": "a[(String,ByteString)]",
@@ -2280,6 +2426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all the values of an input variable, for example from a form.\n This can be used to get all the values from form controls\n which allow multiple values to be selected.\n Example:\n\u003c/p\u003e\u003cpre\u003e vals \u003c- getMultiInput \"my_checkboxes\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getMultiInput",
           "package": "cgi",
@@ -2289,6 +2436,7 @@
         "index": {
           "description": "Get all the values of an input variable for example from form This can be used to get all the values from form controls which allow multiple values to be selected Example vals getMultiInput my checkboxes",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getMultiInput",
           "normalized": "String-\u003ea[String]",
@@ -2305,6 +2453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egetMultiInput\u003c/a\u003e\u003c/code\u003e but using \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getMultiInputFPS",
           "package": "cgi",
@@ -2314,6 +2463,7 @@
         "index": {
           "description": "Same as getMultiInput but using ByteString",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getMultiInputFPS",
           "normalized": "String-\u003ea[ByteString]",
@@ -2330,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of a CGI environment variable. Example:\n\u003c/p\u003e\u003cpre\u003e remoteAddr \u003c- getVar \"REMOTE_ADDR\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getVar",
           "package": "cgi",
@@ -2339,6 +2490,7 @@
         "index": {
           "description": "Get the value of CGI environment variable Example remoteAddr getVar REMOTE ADDR",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getVar",
           "normalized": "String-\u003ea(Maybe String)",
@@ -2354,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getVarWithDefault",
           "package": "cgi",
@@ -2362,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getVarWithDefault",
           "normalized": "String-\u003eString-\u003ea String",
@@ -2378,6 +2532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all CGI environment variables and their values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "getVars",
           "package": "cgi",
@@ -2388,6 +2543,7 @@
         "index": {
           "description": "Get all CGI environment variables and their values",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "getVars",
           "normalized": "a[(String,String)]",
@@ -2404,6 +2560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatches any exception thrown by the given CGI action,\n   returns an error page with a 500 Internal Server Error,\n   showing the exception information, and logs the error.\n\u003c/p\u003e\u003cp\u003eTypical usage:\n\u003c/p\u003e\u003cpre\u003e cgiMain :: CGI CGIResult\n cgiMain = ...\n\n main :: IO ()\n main = runCGI (handleErrors cgiMain)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "handleErrors",
           "package": "cgi",
@@ -2414,6 +2571,7 @@
         "index": {
           "description": "Catches any exception thrown by the given CGI action returns an error page with Internal Server Error showing the exception information and logs the error Typical usage cgiMain CGI CGIResult cgiMain main IO main runCGI handleErrors cgiMain",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "handleErrors",
           "normalized": "a CGIResult-\u003ea CGIResult",
@@ -2430,6 +2588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "liftIO",
           "package": "cgi",
@@ -2439,6 +2598,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -2454,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "negotiate",
           "package": "cgi",
@@ -2463,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "negotiate",
           "normalized": "[a]-\u003eMaybe(Accept a)-\u003e[a]",
@@ -2478,6 +2640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e. The output is assumed to be text/html, encoded using\n   ISO-8859-1. To change this, set the Content-type header using\n   \u003ccode\u003e\u003ca\u003esetHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "output",
           "package": "cgi",
@@ -2487,6 +2650,7 @@
         "index": {
           "description": "Output String The output is assumed to be text html encoded using ISO-8859-1 To change this set the Content-type header using setHeader",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "output",
           "normalized": "String-\u003ea CGIResult",
@@ -2502,6 +2666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput an error page to the user, with the given\n   HTTP status code in the response. Also logs the error information\n   using \u003ccode\u003e\u003ca\u003elogCGI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "outputError",
           "package": "cgi",
@@ -2511,6 +2676,7 @@
         "index": {
           "description": "Output an error page to the user with the given HTTP status code in the response Also logs the error information using logCGI",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "outputError",
           "normalized": "Int-\u003eString-\u003e[String]-\u003ea CGIResult",
@@ -2527,6 +2693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a 500 Internal Server Error with information from\n   an \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "outputException",
           "package": "cgi",
@@ -2537,6 +2704,7 @@
         "index": {
           "description": "Output Internal Server Error with information from an Exception",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "outputException",
           "normalized": "SomeException-\u003ea CGIResult",
@@ -2553,6 +2721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. The output is assumed to be text/html, \n   encoded using ISO-8859-1. To change this, set the \n   Content-type header using \u003ccode\u003e\u003ca\u003esetHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "outputFPS",
           "package": "cgi",
@@ -2562,6 +2731,7 @@
         "index": {
           "description": "Output ByteString The output is assumed to be text html encoded using ISO-8859-1 To change this set the Content-type header using setHeader",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "outputFPS",
           "normalized": "ByteString-\u003ea CGIResult",
@@ -2578,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eoutputError\u003c/a\u003e\u003c/code\u003e to output and log a 500 Internal Server Error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "outputInternalServerError",
           "package": "cgi",
@@ -2587,6 +2758,7 @@
         "index": {
           "description": "Use outputError to output and log Internal Server Error",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "outputInternalServerError",
           "normalized": "[String]-\u003ea CGIResult",
@@ -2603,6 +2775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eoutputError\u003c/a\u003e\u003c/code\u003e to output and log a 405 Method Not Allowed error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "outputMethodNotAllowed",
           "package": "cgi",
@@ -2612,6 +2785,7 @@
         "index": {
           "description": "Use outputError to output and log Method Not Allowed error",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "outputMethodNotAllowed",
           "normalized": "[String]-\u003ea CGIResult",
@@ -2628,6 +2802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eoutputError\u003c/a\u003e\u003c/code\u003e to output and log a 404 Not Found error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "outputNotFound",
           "package": "cgi",
@@ -2637,6 +2812,7 @@
         "index": {
           "description": "Use outputError to output and log Not Found error",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "outputNotFound",
           "normalized": "String-\u003ea CGIResult",
@@ -2653,6 +2829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not output anything (except headers).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "outputNothing",
           "package": "cgi",
@@ -2663,6 +2840,7 @@
         "index": {
           "description": "Do not output anything except headers",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "outputNothing",
           "package": "cgi",
@@ -2677,6 +2855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the standard representation of a content-type.\n   If the input cannot be parsed, this function calls\n   \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e with a (hopefully) informative error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "parseContentType",
           "package": "cgi",
@@ -2687,6 +2866,7 @@
         "index": {
           "description": "Parse the standard representation of content-type If the input cannot be parsed this function calls fail with hopefully informative error message",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "parseContentType",
           "normalized": "String-\u003ea ContentType",
@@ -2703,6 +2883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe extra path information, as given by the client.\n   This is any part of the request path that follows the\n   CGI program path.\n   If the string returned by this function is not empty,\n   it is guaranteed to start with a \u003ccode\u003e'/'\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that this function returns an unencoded string.\n Make sure to percent-encode any characters\n that are not allowed in URI paths before using the result of\n this function to construct a URI.\n See \u003ccode\u003e\u003ca\u003eprogURI\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003equeryURI\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erequestURI\u003c/a\u003e\u003c/code\u003e for a higher-level\n interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "pathInfo",
           "package": "cgi",
@@ -2713,6 +2894,7 @@
         "index": {
           "description": "The extra path information as given by the client This is any part of the request path that follows the CGI program path If the string returned by this function is not empty it is guaranteed to start with Note that this function returns an unencoded string Make sure to percent-encode any characters that are not allowed in URI paths before using the result of this function to construct URI See progURI queryURI and requestURI for higher-level interface",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "pathInfo",
           "package": "cgi",
@@ -2727,6 +2909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe path returned by \u003ccode\u003e\u003ca\u003epathInfo\u003c/a\u003e\u003c/code\u003e, but with virtual-to-physical\n   mapping applied to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "pathTranslated",
           "package": "cgi",
@@ -2737,6 +2920,7 @@
         "index": {
           "description": "The path returned by pathInfo but with virtual-to-physical mapping applied to it",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "pathTranslated",
           "package": "cgi",
@@ -2751,6 +2935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to reconstruct the absolute URI of this program. \n   This does not include\n   any extra path information or query parameters. See\n   \u003ccode\u003e\u003ca\u003equeryURI\u003c/a\u003e\u003c/code\u003e for that.\n   If the server is rewriting request URIs, this URI can\n   be different from the one requested by the client.\n   See also \u003ccode\u003e\u003ca\u003erequestURI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCharacters in the components of the returned URI are escaped \n when needed, as required by \u003ca\u003eNetwork.URI\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "progURI",
           "package": "cgi",
@@ -2761,6 +2946,7 @@
         "index": {
           "description": "Attempts to reconstruct the absolute URI of this program This does not include any extra path information or query parameters See queryURI for that If the server is rewriting request URIs this URI can be different from the one requested by the client See also requestURI Characters in the components of the returned URI are escaped when needed as required by Network.URI",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "progURI",
           "package": "cgi",
@@ -2775,6 +2961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe information which follows the ? in the URL which referenced \n   this program. This is the percent-encoded query information.\n   For most normal uses, \u003ccode\u003e\u003ca\u003egetInput\u003c/a\u003e\u003c/code\u003e and friends are probably\n   more convenient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "queryString",
           "package": "cgi",
@@ -2785,6 +2972,7 @@
         "index": {
           "description": "The information which follows the in the URL which referenced this program This is the percent-encoded query information For most normal uses getInput and friends are probably more convenient",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "queryString",
           "package": "cgi",
@@ -2799,6 +2987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eprogURI\u003c/a\u003e\u003c/code\u003e, but the returned \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e also includes\n   any extra path information, and any query parameters.\n   If the server is rewriting request URIs, this URI can\n   be different from the one requested by the client.\n   See also \u003ccode\u003e\u003ca\u003erequestURI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCharacters in the components of the returned URI are escaped \n when needed, as required by \u003ca\u003eNetwork.URI\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "queryURI",
           "package": "cgi",
@@ -2809,6 +2998,7 @@
         "index": {
           "description": "Like progURI but the returned URI also includes any extra path information and any query parameters If the server is rewriting request URIs this URI can be different from the one requested by the client See also requestURI Characters in the components of the returned URI are escaped when needed as required by Network.URI",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "queryURI",
           "package": "cgi",
@@ -2823,6 +3013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egetCookie\u003c/a\u003e\u003c/code\u003e, but tries to read the value to the desired type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "readCookie",
           "package": "cgi",
@@ -2832,6 +3023,7 @@
         "index": {
           "description": "Same as getCookie but tries to read the value to the desired type",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "readCookie",
           "normalized": "String-\u003ea(Maybe b)",
@@ -2848,6 +3040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egetInput\u003c/a\u003e\u003c/code\u003e, but tries to read the value to the desired type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "readInput",
           "package": "cgi",
@@ -2857,6 +3050,7 @@
         "index": {
           "description": "Same as getInput but tries to read the value to the desired type",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "readInput",
           "normalized": "String-\u003ea(Maybe b)",
@@ -2873,6 +3067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect to some location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "redirect",
           "package": "cgi",
@@ -2882,6 +3077,7 @@
         "index": {
           "description": "Redirect to some location",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "redirect",
           "normalized": "String-\u003ea CGIResult",
@@ -2897,6 +3093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe IP address of the remote host making the request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "remoteAddr",
           "package": "cgi",
@@ -2907,6 +3104,7 @@
         "index": {
           "description": "The IP address of the remote host making the request",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "remoteAddr",
           "package": "cgi",
@@ -2921,6 +3119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hostname making the request. If the server does not have\n   this information, Nothing is returned. See also \u003ccode\u003e\u003ca\u003eremoteAddr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "remoteHost",
           "package": "cgi",
@@ -2931,6 +3130,7 @@
         "index": {
           "description": "The hostname making the request If the server does not have this information Nothing is returned See also remoteAddr",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "remoteHost",
           "package": "cgi",
@@ -2945,6 +3145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the server supports user authentication, and the script is \n   protected, this is the username they have authenticated as.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "remoteUser",
           "package": "cgi",
@@ -2955,6 +3156,7 @@
         "index": {
           "description": "If the server supports user authentication and the script is protected this is the username they have authenticated as",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "remoteUser",
           "package": "cgi",
@@ -2968,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "requestAccept",
           "package": "cgi",
@@ -2977,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "requestAccept",
           "package": "cgi",
@@ -2990,6 +3194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "requestAcceptCharset",
           "package": "cgi",
@@ -2999,6 +3204,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "requestAcceptCharset",
           "package": "cgi",
@@ -3012,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "requestAcceptEncoding",
           "package": "cgi",
@@ -3021,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "requestAcceptEncoding",
           "package": "cgi",
@@ -3034,6 +3242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "requestAcceptLanguage",
           "package": "cgi",
@@ -3043,6 +3252,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "requestAcceptLanguage",
           "package": "cgi",
@@ -3057,6 +3267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor queries which have attached information, such as \n   HTTP POST and PUT, this is the length of the content \n   given by the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "requestContentLength",
           "package": "cgi",
@@ -3067,6 +3278,7 @@
         "index": {
           "description": "For queries which have attached information such as HTTP POST and PUT this is the length of the content given by the client",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "requestContentLength",
           "package": "cgi",
@@ -3081,6 +3293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor queries which have attached information, such as \n   HTTP POST and PUT, this is the content type of the data.\n   You can use \u003ccode\u003e\u003ca\u003eparseContentType\u003c/a\u003e\u003c/code\u003e to get a structured\n   representation of the the content-type value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "requestContentType",
           "package": "cgi",
@@ -3091,6 +3304,7 @@
         "index": {
           "description": "For queries which have attached information such as HTTP POST and PUT this is the content type of the data You can use parseContentType to get structured representation of the the content-type value",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "requestContentType",
           "package": "cgi",
@@ -3105,6 +3319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the value of the request header with the given name.\n   The header name is case-insensitive.\n   Example:\n\u003c/p\u003e\u003cpre\u003e requestHeader \"User-Agent\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "requestHeader",
           "package": "cgi",
@@ -3115,6 +3330,7 @@
         "index": {
           "description": "Gets the value of the request header with the given name The header name is case-insensitive Example requestHeader User-Agent",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "requestHeader",
           "normalized": "String-\u003ea(Maybe String)",
@@ -3131,6 +3347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe method with which the request was made. \n    For HTTP, this is \"GET\", \"HEAD\", \"POST\", etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "requestMethod",
           "package": "cgi",
@@ -3141,6 +3358,7 @@
         "index": {
           "description": "The method with which the request was made For HTTP this is GET HEAD POST etc",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "requestMethod",
           "package": "cgi",
@@ -3155,6 +3373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to reconstruct the absolute URI requested by the client,\n   including extra path information and query parameters.\n   If no request URI rewriting is done, or if the web server does not\n   provide the information needed to reconstruct the request URI,\n   this function returns the same value as \u003ccode\u003e\u003ca\u003equeryURI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCharacters in the components of the returned URI are escaped \n when needed, as required by \u003ca\u003eNetwork.URI\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "requestURI",
           "package": "cgi",
@@ -3165,6 +3384,7 @@
         "index": {
           "description": "Attempts to reconstruct the absolute URI requested by the client including extra path information and query parameters If no request URI rewriting is done or if the web server does not provide the information needed to reconstruct the request URI this function returns the same value as queryURI Characters in the components of the returned URI are escaped when needed as required by Network.URI",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "requestURI",
           "package": "cgi",
@@ -3179,6 +3399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a CGI action. Typically called by the main function.\n   Reads input from stdin and writes to stdout. Gets\n   CGI environment variables from the program environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "runCGI",
           "package": "cgi",
@@ -3189,6 +3410,7 @@
         "index": {
           "description": "Run CGI action Typically called by the main function Reads input from stdin and writes to stdout Gets CGI environment variables from the program environment",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "runCGI",
           "normalized": "CGIT a CGIResult-\u003ea()",
@@ -3205,6 +3427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA virtual path to the script being executed,  \n used for self-referencing URIs. \n\u003c/p\u003e\u003cp\u003eNote that this function returns an unencoded string.\n Make sure to percent-encode any characters\n that are not allowed in URI paths before using the result of\n this function to construct a URI.\n See \u003ccode\u003e\u003ca\u003eprogURI\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003equeryURI\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erequestURI\u003c/a\u003e\u003c/code\u003e for a higher-level\n interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "scriptName",
           "package": "cgi",
@@ -3215,6 +3438,7 @@
         "index": {
           "description": "virtual path to the script being executed used for self-referencing URIs Note that this function returns an unencoded string Make sure to percent-encode any characters that are not allowed in URI paths before using the result of this function to construct URI See progURI queryURI and requestURI for higher-level interface",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "scriptName",
           "package": "cgi",
@@ -3229,6 +3453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server's hostname, DNS alias, or IP address as it would \n   appear in self-referencing URLs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "serverName",
           "package": "cgi",
@@ -3239,6 +3464,7 @@
         "index": {
           "description": "The server hostname DNS alias or IP address as it would appear in self-referencing URLs",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "serverName",
           "package": "cgi",
@@ -3253,6 +3479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe port number to which the request was sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "serverPort",
           "package": "cgi",
@@ -3263,6 +3490,7 @@
         "index": {
           "description": "The port number to which the request was sent",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "serverPort",
           "package": "cgi",
@@ -3277,6 +3505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "setCookie",
           "package": "cgi",
@@ -3287,6 +3516,7 @@
         "index": {
           "description": "Set cookie",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "setCookie",
           "normalized": "Cookie-\u003ea()",
@@ -3303,6 +3533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a response header. \n   Example:\n\u003c/p\u003e\u003cpre\u003e setHeader \"Content-type\" \"text/plain\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "setHeader",
           "package": "cgi",
@@ -3312,6 +3543,7 @@
         "index": {
           "description": "Add response header Example setHeader Content-type text plain",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "setHeader",
           "normalized": "String-\u003eString-\u003ea()",
@@ -3328,6 +3560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the HTTP response status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "setStatus",
           "package": "cgi",
@@ -3337,6 +3570,7 @@
         "index": {
           "description": "Set the HTTP response status",
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "setStatus",
           "normalized": "Int-\u003eString-\u003ea()",
@@ -3352,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:19 UTC 2014",
           "module": "Network.CGI",
           "name": "showContentType",
           "package": "cgi",
@@ -3361,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "Network CGI",
+          "indexed": "2014-03-11T17:31:19",
           "module": "Network.CGI",
           "name": "showContentType",
           "normalized": "ContentType-\u003eString",

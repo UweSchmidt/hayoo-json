@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sys-auth-smbclient"
+        "phrase": "sys-auth-smbclient",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:37 UTC 2014",
           "module": "System.Authenticate.SmbClient",
           "name": "SmbClient",
           "package": "sys-auth-smbclient",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Authenticate SmbClient",
+          "indexed": "2014-03-11T20:15:37",
           "module": "System.Authenticate.SmbClient",
           "name": "SmbClient",
           "package": "sys-auth-smbclient",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe login result type.\n\u003c/p\u003e\u003cp\u003eIf success, return Right with actual username.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:37 UTC 2014",
           "module": "System.Authenticate.SmbClient",
           "name": "SmbClientResult",
           "package": "sys-auth-smbclient",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The login result type If success return Right with actual username",
           "hierarchy": "System Authenticate SmbClient",
+          "indexed": "2014-03-11T20:15:37",
           "module": "System.Authenticate.SmbClient",
           "name": "SmbClientResult",
           "package": "sys-auth-smbclient",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthenticate with \u003ccode\u003esmbclient\u003c/code\u003e command.\n\u003c/p\u003e\u003cp\u003eReturn Right if login success, Left otherwise.\n\u003c/p\u003e\u003cp\u003eThis does not accept empty username or password,\n because those has always been success as Guest login.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:37 UTC 2014",
           "module": "System.Authenticate.SmbClient",
           "name": "loginSmbClient",
           "package": "sys-auth-smbclient",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Authenticate with smbclient command Return Right if login success Left otherwise This does not accept empty username or password because those has always been success as Guest login",
           "hierarchy": "System Authenticate SmbClient",
+          "indexed": "2014-03-11T20:15:37",
           "module": "System.Authenticate.SmbClient",
           "name": "loginSmbClient",
           "normalized": "Text-\u003eText-\u003eText-\u003eText-\u003eIO SmbClientResult",

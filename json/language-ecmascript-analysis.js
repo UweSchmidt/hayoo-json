@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-ecmascript-analysis"
+        "phrase": "language-ecmascript-analysis",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLabel-set analysis which annotates all the statements in the script\n with their label sets according to ECMAScript specification,\n section 12.12. The result of this analysis are useful for building\n control-flow graphs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:05:21 UTC 2014",
           "module": "Language.ECMAScript3.Analysis.LabelSet",
           "name": "LabelSet",
           "package": "language-ecmascript-analysis",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Label-set analysis which annotates all the statements in the script with their label sets according to ECMAScript specification section The result of this analysis are useful for building control-flow graphs",
           "hierarchy": "Language ECMAScript3 Analysis LabelSet",
+          "indexed": "2014-03-11T19:05:21",
           "module": "Language.ECMAScript3.Analysis.LabelSet",
           "name": "LabelSet",
           "package": "language-ecmascript-analysis",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabels are either strings (identifiers) or \u003cem\u003eempty\u003c/em\u003e (see 12.12 of\n the spec)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:21 UTC 2014",
           "module": "Language.ECMAScript3.Analysis.LabelSet",
           "name": "Label",
           "package": "language-ecmascript-analysis",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Labels are either strings identifiers or empty see of the spec",
           "hierarchy": "Language ECMAScript3 Analysis LabelSet",
+          "indexed": "2014-03-11T19:05:21",
           "module": "Language.ECMAScript3.Analysis.LabelSet",
           "name": "Label",
           "package": "language-ecmascript-analysis",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:21 UTC 2014",
           "module": "Language.ECMAScript3.Analysis.LabelSet",
           "name": "EmptyLabel",
           "package": "language-ecmascript-analysis",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Language ECMAScript3 Analysis LabelSet",
+          "indexed": "2014-03-11T19:05:21",
           "module": "Language.ECMAScript3.Analysis.LabelSet",
           "name": "EmptyLabel",
           "package": "language-ecmascript-analysis",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:21 UTC 2014",
           "module": "Language.ECMAScript3.Analysis.LabelSet",
           "name": "Label",
           "package": "language-ecmascript-analysis",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Language ECMAScript3 Analysis LabelSet",
+          "indexed": "2014-03-11T19:05:21",
           "module": "Language.ECMAScript3.Analysis.LabelSet",
           "name": "Label",
           "package": "language-ecmascript-analysis",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotates statements with their label sets; example use:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet jsa = reannotate (\\a -\u003e (a, Set.empty))\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ein  annotateLabelSets jsa snd (\\labs (a, ls) -\u003e (a, labs `Set.union` ls))\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:05:21 UTC 2014",
           "module": "Language.ECMAScript3.Analysis.LabelSet",
           "name": "annotateLabelSets",
           "package": "language-ecmascript-analysis",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Annotates statements with their label sets example use let jsa reannotate Set.empty in annotateLabelSets jsa snd labs ls labs Set.union ls",
           "hierarchy": "Language ECMAScript3 Analysis LabelSet",
+          "indexed": "2014-03-11T19:05:21",
           "module": "Language.ECMAScript3.Analysis.LabelSet",
           "name": "annotateLabelSets",
           "normalized": "(a-\u003eSet Label)-\u003e(Set Label-\u003ea-\u003ea)-\u003eJavaScript a-\u003eJavaScript a",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA lexical environment analysis of ECMAScript programs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:05:21 UTC 2014",
           "module": "Language.ECMAScript3.Analysis.LexicalEnvironment",
           "name": "LexicalEnvironment",
           "package": "language-ecmascript-analysis",
@@ -143,6 +154,7 @@
         "index": {
           "description": "lexical environment analysis of ECMAScript programs",
           "hierarchy": "Language ECMAScript3 Analysis LexicalEnvironment",
+          "indexed": "2014-03-11T19:05:21",
           "module": "Language.ECMAScript3.Analysis.LexicalEnvironment",
           "name": "LexicalEnvironment",
           "package": "language-ecmascript-analysis",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe statically-determinate lexical structure of a JavaScript program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:21 UTC 2014",
           "module": "Language.ECMAScript3.Analysis.LexicalEnvironment",
           "name": "EnvTree",
           "package": "language-ecmascript-analysis",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The statically-determinate lexical structure of JavaScript program",
           "hierarchy": "Language ECMAScript3 Analysis LexicalEnvironment",
+          "indexed": "2014-03-11T19:05:21",
           "module": "Language.ECMAScript3.Analysis.LexicalEnvironment",
           "name": "EnvTree",
           "package": "language-ecmascript-analysis",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:21 UTC 2014",
           "module": "Language.ECMAScript3.Analysis.LexicalEnvironment",
           "name": "EnvTree",
           "package": "language-ecmascript-analysis",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Language ECMAScript3 Analysis LexicalEnvironment",
+          "indexed": "2014-03-11T19:05:21",
           "module": "Language.ECMAScript3.Analysis.LexicalEnvironment",
           "name": "EnvTree",
           "normalized": "EnvTree(Map String SourcePos)[EnvTree]",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:21 UTC 2014",
           "module": "Language.ECMAScript3.Analysis.LexicalEnvironment",
           "name": "env",
           "package": "language-ecmascript-analysis",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Language ECMAScript3 Analysis LexicalEnvironment",
+          "indexed": "2014-03-11T19:05:21",
           "module": "Language.ECMAScript3.Analysis.LexicalEnvironment",
           "name": "env",
           "normalized": "Map String SourcePos-\u003e[Statement SourcePos]-\u003e(EnvTree,Map String SourcePos)",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:21 UTC 2014",
           "module": "Language.ECMAScript3.Analysis.LexicalEnvironment",
           "name": "localVars",
           "package": "language-ecmascript-analysis",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Language ECMAScript3 Analysis LexicalEnvironment",
+          "indexed": "2014-03-11T19:05:21",
           "module": "Language.ECMAScript3.Analysis.LexicalEnvironment",
           "name": "localVars",
           "normalized": "[Statement SourcePos]-\u003e[(String,SourcePos)]",

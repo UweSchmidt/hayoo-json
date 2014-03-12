@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsc3-cairo"
+        "phrase": "hsc3-cairo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShell\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Shell",
           "package": "hsc3-cairo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Shell",
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Shell",
           "package": "hsc3-cairo",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Bracket_F",
           "package": "hsc3-cairo",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Bracket_F",
           "package": "hsc3-cairo",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Interact_F",
           "package": "hsc3-cairo",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Interact_F",
           "package": "hsc3-cairo",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Key_F",
           "package": "hsc3-cairo",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Key_F",
           "package": "hsc3-cairo",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Render_F",
           "package": "hsc3-cairo",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Render_F",
           "package": "hsc3-cairo",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "SC3_F",
           "package": "hsc3-cairo",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "SC3_F",
           "package": "hsc3-cairo",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Shell",
           "package": "hsc3-cairo",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Shell",
           "package": "hsc3-cairo",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Shell",
           "package": "hsc3-cairo",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "Shell",
           "package": "hsc3-cairo",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "deinterleave",
           "package": "hsc3-cairo",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "deinterleave",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sc3_fd",
           "package": "hsc3-cairo",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sc3_fd",
           "package": "hsc3-cairo",
@@ -234,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_b",
           "package": "hsc3-cairo",
@@ -244,6 +265,7 @@
         "index": {
           "description": "Buffer ID",
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_b",
           "package": "hsc3-cairo",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_bracket",
           "package": "hsc3-cairo",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_bracket",
           "package": "hsc3-cairo",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_bracket_nil",
           "package": "hsc3-cairo",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_bracket_nil",
           "package": "hsc3-cairo",
@@ -299,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_data",
           "package": "hsc3-cairo",
@@ -309,6 +336,7 @@
         "index": {
           "description": "Signal data",
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_data",
           "normalized": "[[Double]]",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_default",
           "package": "hsc3-cairo",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_default",
           "normalized": "Int-\u003eRender_F a-\u003eKey_F a-\u003eShell a",
@@ -347,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrame delay in ms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_delay",
           "package": "hsc3-cairo",
@@ -357,6 +388,7 @@
         "index": {
           "description": "Frame delay in ms",
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_delay",
           "package": "hsc3-cairo",
@@ -370,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup (protected)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_gr",
           "package": "hsc3-cairo",
@@ -380,6 +413,7 @@
         "index": {
           "description": "Group protected",
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_gr",
           "package": "hsc3-cairo",
@@ -393,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBus index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_ix",
           "package": "hsc3-cairo",
@@ -403,6 +438,7 @@
         "index": {
           "description": "Bus index",
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_ix",
           "package": "hsc3-cairo",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_key",
           "package": "hsc3-cairo",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_key",
           "package": "hsc3-cairo",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_keypress_f",
           "package": "hsc3-cairo",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_keypress_f",
           "normalized": "a-\u003eIORef b-\u003eUDP-\u003eShell b-\u003eEvent-\u003eIO Bool",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_monitor_bus",
           "package": "hsc3-cairo",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_monitor_bus",
           "normalized": "Shell a-\u003eb-\u003eIO()",
@@ -483,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of channels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_nc",
           "package": "hsc3-cairo",
@@ -493,6 +536,7 @@
         "index": {
           "description": "Number of channels",
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_nc",
           "package": "hsc3-cairo",
@@ -506,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of frames\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_nf",
           "package": "hsc3-cairo",
@@ -516,6 +561,7 @@
         "index": {
           "description": "Number of frames",
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_nf",
           "package": "hsc3-cairo",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_on_close",
           "package": "hsc3-cairo",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_on_close",
           "normalized": "UDP-\u003eShell a-\u003ea-\u003eIO a",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_render",
           "package": "hsc3-cairo",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_render",
           "package": "hsc3-cairo",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_sc3",
           "package": "hsc3-cairo",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_sc3",
           "package": "hsc3-cairo",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_sc3_nil",
           "package": "hsc3-cairo",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_sc3_nil",
           "package": "hsc3-cairo",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_std_sc3",
           "package": "hsc3-cairo",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_std_sc3",
           "normalized": "Shell a-\u003eb-\u003eIO(Shell a)",
@@ -637,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_update_f",
           "package": "hsc3-cairo",
@@ -646,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "sh_update_f",
           "normalized": "a-\u003eSurface-\u003eIORef b-\u003eUDP-\u003eShell b-\u003eIO Bool",
@@ -660,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:50 UTC 2014",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "shell",
           "package": "hsc3-cairo",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Cairo Scope Shell",
+          "indexed": "2014-03-11T18:46:50",
           "module": "Sound.SC3.Cairo.Scope.Shell",
           "name": "shell",
           "normalized": "Shell a-\u003ea-\u003eIO()",

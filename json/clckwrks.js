@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clckwrks"
+        "phrase": "clckwrks",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "Acid",
           "package": "clckwrks",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "Acid",
           "package": "clckwrks",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "Acid",
           "package": "clckwrks",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "Acid",
           "package": "clckwrks",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCoreState\u003c/a\u003e\u003c/code\u003e holds some values that are required by the core\n itself, or which are useful enough to be shared with numerous\n plugins/themes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "CoreState",
           "package": "clckwrks",
@@ -70,6 +75,7 @@
         "index": {
           "description": "CoreState holds some values that are required by the core itself or which are useful enough to be shared with numerous plugins themes",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "CoreState",
           "package": "clckwrks",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCoreState\u003c/a\u003e\u003c/code\u003e holds some values that are required by the core\n itself, or which are useful enough to be shared with numerous\n plugins/themes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "CoreState_v0",
           "package": "clckwrks",
@@ -93,6 +100,7 @@
         "index": {
           "description": "CoreState holds some values that are required by the core itself or which are useful enough to be shared with numerous plugins themes",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "CoreState_v0",
           "package": "clckwrks",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "GetAcidState",
           "package": "clckwrks",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "GetAcidState",
           "package": "clckwrks",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "GetCoreState",
           "package": "clckwrks",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "GetCoreState",
           "package": "clckwrks",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "GetLoginRedirect",
           "package": "clckwrks",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "GetLoginRedirect",
           "package": "clckwrks",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "GetRootRedirect",
           "package": "clckwrks",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "GetRootRedirect",
           "package": "clckwrks",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "GetSiteName",
           "package": "clckwrks",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "GetSiteName",
           "package": "clckwrks",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "GetUACCT",
           "package": "clckwrks",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "GetUACCT",
           "package": "clckwrks",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "SetCoreState",
           "package": "clckwrks",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "SetCoreState",
           "package": "clckwrks",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "SetLoginRedirect",
           "package": "clckwrks",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "SetLoginRedirect",
           "package": "clckwrks",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "SetRootRedirect",
           "package": "clckwrks",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "SetRootRedirect",
           "package": "clckwrks",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "SetSiteName",
           "package": "clckwrks",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "SetSiteName",
           "package": "clckwrks",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "SetUACCT",
           "package": "clckwrks",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "SetUACCT",
           "package": "clckwrks",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "Acid",
           "package": "clckwrks",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "Acid",
           "package": "clckwrks",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "CoreState",
           "package": "clckwrks",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "CoreState",
           "package": "clckwrks",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "CoreState_v0",
           "package": "clckwrks",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "CoreState_v0",
           "package": "clckwrks",
@@ -403,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "GetCoreState",
           "package": "clckwrks",
@@ -412,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "GetCoreState",
           "package": "clckwrks",
@@ -425,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "GetLoginRedirect",
           "package": "clckwrks",
@@ -434,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "GetLoginRedirect",
           "package": "clckwrks",
@@ -447,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "GetRootRedirect",
           "package": "clckwrks",
@@ -456,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "GetRootRedirect",
           "package": "clckwrks",
@@ -469,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "GetSiteName",
           "package": "clckwrks",
@@ -478,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "GetSiteName",
           "package": "clckwrks",
@@ -491,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "GetUACCT",
           "package": "clckwrks",
@@ -500,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "GetUACCT",
           "package": "clckwrks",
@@ -513,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "SetCoreState",
           "package": "clckwrks",
@@ -522,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "SetCoreState",
           "package": "clckwrks",
@@ -535,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "SetLoginRedirect",
           "package": "clckwrks",
@@ -544,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "SetLoginRedirect",
           "package": "clckwrks",
@@ -557,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "SetRootRedirect",
           "package": "clckwrks",
@@ -566,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "SetRootRedirect",
           "package": "clckwrks",
@@ -579,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "SetSiteName",
           "package": "clckwrks",
@@ -588,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "SetSiteName",
           "package": "clckwrks",
@@ -601,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "SetUACCT",
           "package": "clckwrks",
@@ -610,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "SetUACCT",
           "package": "clckwrks",
@@ -623,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "acidAuth",
           "package": "clckwrks",
@@ -632,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "acidAuth",
           "package": "clckwrks",
@@ -645,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "acidCore",
           "package": "clckwrks",
@@ -654,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "acidCore",
           "package": "clckwrks",
@@ -667,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "acidNavBar",
           "package": "clckwrks",
@@ -676,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "acidNavBar",
           "package": "clckwrks",
@@ -689,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "acidProfile",
           "package": "clckwrks",
@@ -698,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "acidProfile",
           "package": "clckwrks",
@@ -711,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "acidProfileData",
           "package": "clckwrks",
@@ -720,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "acidProfileData",
           "package": "clckwrks",
@@ -733,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "coreLoginRedirect",
           "package": "clckwrks",
@@ -742,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "coreLoginRedirect",
           "package": "clckwrks",
@@ -755,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "coreRootRedirect",
           "package": "clckwrks",
@@ -764,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "coreRootRedirect",
           "package": "clckwrks",
@@ -777,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "coreRootRedirect_v0",
           "package": "clckwrks",
@@ -786,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "coreRootRedirect_v0",
           "package": "clckwrks",
@@ -799,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "coreSiteName",
           "package": "clckwrks",
@@ -808,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "coreSiteName",
           "package": "clckwrks",
@@ -822,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGoogle Account UAACT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "coreUACCT",
           "package": "clckwrks",
@@ -832,6 +907,7 @@
         "index": {
           "description": "Google Account UAACT",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "coreUACCT",
           "package": "clckwrks",
@@ -846,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGoogle Account UAACT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "coreUACCT_v0",
           "package": "clckwrks",
@@ -856,6 +933,7 @@
         "index": {
           "description": "Google Account UAACT",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "coreUACCT_v0",
           "package": "clckwrks",
@@ -869,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "getAcidState",
           "package": "clckwrks",
@@ -878,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "getAcidState",
           "package": "clckwrks",
@@ -892,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the entire \u003ccode\u003e\u003ca\u003eCoreState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "getCoreState",
           "package": "clckwrks",
@@ -902,6 +983,7 @@
         "index": {
           "description": "get the entire CoreState",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "getCoreState",
           "package": "clckwrks",
@@ -916,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the path that we should redirect to after login\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "getLoginRedirect",
           "package": "clckwrks",
@@ -926,6 +1009,7 @@
         "index": {
           "description": "get the path that we should redirect to after login",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "getLoginRedirect",
           "package": "clckwrks",
@@ -940,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the path that \u003ccode\u003e/\u003c/code\u003e should redirect to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "getRootRedirect",
           "package": "clckwrks",
@@ -950,6 +1035,7 @@
         "index": {
           "description": "get the path that should redirect to",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "getRootRedirect",
           "package": "clckwrks",
@@ -964,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the site name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "getSiteName",
           "package": "clckwrks",
@@ -974,6 +1061,7 @@
         "index": {
           "description": "get the site name",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "getSiteName",
           "package": "clckwrks",
@@ -988,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the \u003ccode\u003e\u003ca\u003eUACCT\u003c/a\u003e\u003c/code\u003e for Google Analytics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "getUACCT",
           "package": "clckwrks",
@@ -998,6 +1087,7 @@
         "index": {
           "description": "get the UACCT for Google Analytics",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "getUACCT",
           "package": "clckwrks",
@@ -1011,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "initialCoreState",
           "package": "clckwrks",
@@ -1020,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "initialCoreState",
           "package": "clckwrks",
@@ -1034,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the entire \u003ccode\u003e\u003ca\u003eCoreState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "setCoreState",
           "package": "clckwrks",
@@ -1044,6 +1137,7 @@
         "index": {
           "description": "set the entire CoreState",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "setCoreState",
           "normalized": "CoreState-\u003eUpdate CoreState()",
@@ -1060,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the path that we should redirect to after login\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "setLoginRedirect",
           "package": "clckwrks",
@@ -1070,6 +1165,7 @@
         "index": {
           "description": "set the path that we should redirect to after login",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "setLoginRedirect",
           "normalized": "Maybe Text-\u003eUpdate CoreState()",
@@ -1086,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the path that \u003ccode\u003e/\u003c/code\u003e should redirect to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "setRootRedirect",
           "package": "clckwrks",
@@ -1096,6 +1193,7 @@
         "index": {
           "description": "set the path that should redirect to",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "setRootRedirect",
           "normalized": "Maybe Text-\u003eUpdate CoreState()",
@@ -1112,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the site name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "setSiteName",
           "package": "clckwrks",
@@ -1122,6 +1221,7 @@
         "index": {
           "description": "set the site name",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "setSiteName",
           "normalized": "Maybe Text-\u003eUpdate CoreState()",
@@ -1138,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the \u003ccode\u003e\u003ca\u003eUACCT\u003c/a\u003e\u003c/code\u003e for Google Analytics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "setUACCT",
           "package": "clckwrks",
@@ -1148,6 +1249,7 @@
         "index": {
           "description": "set the UACCT for Google Analytics",
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "setUACCT",
           "normalized": "Maybe UACCT-\u003eUpdate CoreState()",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Acid",
           "name": "withAcid",
           "package": "clckwrks",
@@ -1172,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Acid",
           "name": "withAcid",
           "normalized": "Maybe FilePath-\u003e(Acid-\u003eIO a)-\u003eIO a",
@@ -1187,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.Console",
           "name": "Console",
           "package": "clckwrks",
@@ -1195,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin Console",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.Console",
           "name": "Console",
           "package": "clckwrks",
@@ -1208,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.Console",
           "name": "consolePage",
           "package": "clckwrks",
@@ -1217,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin Console",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.Console",
           "name": "consolePage",
           "package": "clckwrks",
@@ -1230,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.EditSettings",
           "name": "EditSettings",
           "package": "clckwrks",
@@ -1238,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin EditSettings",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.EditSettings",
           "name": "EditSettings",
           "package": "clckwrks",
@@ -1251,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.EditSettings",
           "name": "editSettings",
           "package": "clckwrks",
@@ -1260,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin EditSettings",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.EditSettings",
           "name": "editSettings",
           "normalized": "ClckURL-\u003eClck ClckURL Response",
@@ -1275,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.EditSettings",
           "name": "editSettingsForm",
           "package": "clckwrks",
@@ -1284,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin EditSettings",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.EditSettings",
           "name": "editSettingsForm",
           "normalized": "CoreState-\u003eClckForm ClckURL CoreState",
@@ -1299,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.Route",
           "name": "Route",
           "package": "clckwrks",
@@ -1307,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin Route",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.Route",
           "name": "Route",
           "package": "clckwrks",
@@ -1321,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eroutes for \u003ccode\u003e\u003ca\u003eAdminURL\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.Route",
           "name": "routeAdmin",
           "package": "clckwrks",
@@ -1331,6 +1448,7 @@
         "index": {
           "description": "routes for AdminURL",
           "hierarchy": "Clckwrks Admin Route",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.Route",
           "name": "routeAdmin",
           "normalized": "AdminURL-\u003eClck ClckURL Response",
@@ -1346,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.Template",
           "name": "Template",
           "package": "clckwrks",
@@ -1354,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin Template",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.Template",
           "name": "Template",
           "package": "clckwrks",
@@ -1367,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.Template",
           "name": "adminMenuXML",
           "package": "clckwrks",
@@ -1376,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin Template",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.Template",
           "name": "adminMenuXML",
           "package": "clckwrks",
@@ -1389,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.Template",
           "name": "emptyTemplate",
           "package": "clckwrks",
@@ -1398,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin Template",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.Template",
           "name": "emptyTemplate",
           "normalized": "String-\u003ea-\u003eb-\u003eClckT c d Response",
@@ -1413,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.Template",
           "name": "sidebar",
           "package": "clckwrks",
@@ -1422,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin Template",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.Template",
           "name": "sidebar",
           "package": "clckwrks",
@@ -1434,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.Template",
           "name": "template",
           "package": "clckwrks",
@@ -1443,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin Template",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.Template",
           "name": "template",
           "normalized": "String-\u003ea-\u003eb-\u003eClckT c d Response",
@@ -1457,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.URL",
           "name": "URL",
           "package": "clckwrks",
@@ -1465,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.URL",
           "name": "URL",
           "package": "clckwrks",
@@ -1478,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Admin.URL",
           "name": "AdminURL",
           "package": "clckwrks",
@@ -1486,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Admin URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Admin.URL",
           "name": "AdminURL",
           "package": "clckwrks",
@@ -1591,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.BasicTemplate",
           "name": "BasicTemplate",
           "package": "clckwrks",
@@ -1599,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks BasicTemplate",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.BasicTemplate",
           "name": "BasicTemplate",
           "package": "clckwrks",
@@ -1612,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.BasicTemplate",
           "name": "basicTemplate",
           "package": "clckwrks",
@@ -1621,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks BasicTemplate",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.BasicTemplate",
           "name": "basicTemplate",
           "normalized": "Text-\u003ea-\u003eb-\u003eClckT c d Response",
@@ -1636,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.GetOpts",
           "name": "GetOpts",
           "package": "clckwrks",
@@ -1644,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks GetOpts",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.GetOpts",
           "name": "GetOpts",
           "package": "clckwrks",
@@ -1658,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecommand-line Flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.GetOpts",
           "name": "Flag",
           "package": "clckwrks",
@@ -1667,6 +1806,7 @@
         "index": {
           "description": "command-line Flags",
           "hierarchy": "Clckwrks GetOpts",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.GetOpts",
           "name": "Flag",
           "package": "clckwrks",
@@ -1680,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.GetOpts",
           "name": "Help",
           "package": "clckwrks",
@@ -1689,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks GetOpts",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.GetOpts",
           "name": "Help",
           "package": "clckwrks",
@@ -1702,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.GetOpts",
           "name": "ModifyConfig",
           "package": "clckwrks",
@@ -1711,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks GetOpts",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.GetOpts",
           "name": "ModifyConfig",
           "normalized": "ModifyConfig(ClckwrksConfig-\u003eClckwrksConfig)",
@@ -1726,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.GetOpts",
           "name": "Version",
           "package": "clckwrks",
@@ -1735,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks GetOpts",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.GetOpts",
           "name": "Version",
           "package": "clckwrks",
@@ -1749,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.GetOpts",
           "name": "clckwrksOpts",
           "package": "clckwrks",
@@ -1759,6 +1906,7 @@
         "index": {
           "description": "Command line options",
           "hierarchy": "Clckwrks GetOpts",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.GetOpts",
           "name": "clckwrksOpts",
           "normalized": "ClckwrksConfig-\u003e[OptDescr Flag]",
@@ -1775,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple usage message listing all flags possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.GetOpts",
           "name": "helpMessage",
           "package": "clckwrks",
@@ -1785,6 +1934,7 @@
         "index": {
           "description": "simple usage message listing all flags possible",
           "hierarchy": "Clckwrks GetOpts",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.GetOpts",
           "name": "helpMessage",
           "normalized": "[OptDescr Flag]-\u003eString",
@@ -1801,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlag selectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.GetOpts",
           "name": "isHelp",
           "package": "clckwrks",
@@ -1811,6 +1962,7 @@
         "index": {
           "description": "Flag selectors",
           "hierarchy": "Clckwrks GetOpts",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.GetOpts",
           "name": "isHelp",
           "normalized": "Flag-\u003eBool",
@@ -1827,6 +1979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlag selectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.GetOpts",
           "name": "isVersion",
           "package": "clckwrks",
@@ -1837,6 +1990,7 @@
         "index": {
           "description": "Flag selectors",
           "hierarchy": "Clckwrks GetOpts",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.GetOpts",
           "name": "isVersion",
           "normalized": "Flag-\u003eBool",
@@ -1853,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the command line arguments into a list of flags. Exits with usage\n message, in case of failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.GetOpts",
           "name": "parseArgs",
           "package": "clckwrks",
@@ -1863,6 +2018,7 @@
         "index": {
           "description": "Parse the command line arguments into list of flags Exits with usage message in case of failure",
           "hierarchy": "Clckwrks GetOpts",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.GetOpts",
           "name": "parseArgs",
           "normalized": "[OptDescr Flag]-\u003e[String]-\u003eIO(ClckwrksConfig-\u003eIO ClckwrksConfig)",
@@ -1879,6 +2035,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ethis module provides a simple mechanism for adding IO operations\n to a queue and running them in a single thread. This is useful if\n the IO operations have side-effects which could collide if run from\n multiple threads. For example, creating an image thumbnail and\n storing it on disk, running LaTeX, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.IOThread",
           "name": "IOThread",
           "package": "clckwrks",
@@ -1888,6 +2045,7 @@
         "index": {
           "description": "this module provides simple mechanism for adding IO operations to queue and running them in single thread This is useful if the IO operations have side-effects which could collide if run from multiple threads For example creating an image thumbnail and storing it on disk running LaTeX etc",
           "hierarchy": "Clckwrks IOThread",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.IOThread",
           "name": "IOThread",
           "package": "clckwrks",
@@ -1901,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.IOThread",
           "name": "IOThread",
           "package": "clckwrks",
@@ -1909,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IOThread",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.IOThread",
           "name": "IOThread",
           "package": "clckwrks",
@@ -1922,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.IOThread",
           "name": "IOThread",
           "package": "clckwrks",
@@ -1931,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IOThread",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.IOThread",
           "name": "IOThread",
           "package": "clckwrks",
@@ -1945,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eissue a request to the IO thread and get back the result\n if the thread function throws an exception \u003ccode\u003e\u003ca\u003eioRequest\u003c/a\u003e\u003c/code\u003e will rethrow the exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.IOThread",
           "name": "ioRequest",
           "package": "clckwrks",
@@ -1954,6 +2117,7 @@
         "index": {
           "description": "issue request to the IO thread and get back the result if the thread function throws an exception ioRequest will rethrow the exception",
           "hierarchy": "Clckwrks IOThread",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.IOThread",
           "name": "ioRequest",
           "normalized": "IOThread a b-\u003ea-\u003eIO b",
@@ -1969,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.IOThread",
           "name": "ioThreadChan",
           "package": "clckwrks",
@@ -1978,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IOThread",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.IOThread",
           "name": "ioThreadChan",
           "normalized": "Chan(a,MVar(Either SomeException b))",
@@ -1993,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.IOThread",
           "name": "ioThreadId",
           "package": "clckwrks",
@@ -2002,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IOThread",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.IOThread",
           "name": "ioThreadId",
           "package": "clckwrks",
@@ -2016,6 +2184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekill the IOThread\n\u003c/p\u003e\u003cp\u003eWARNING: no attempt is made to wait for the queue to empty... we should probably have safer version that waits for the operations to complete?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.IOThread",
           "name": "killIOThread",
           "package": "clckwrks",
@@ -2026,6 +2195,7 @@
         "index": {
           "description": "kill the IOThread WARNING no attempt is made to wait for the queue to empty we should probably have safer version that waits for the operations to complete",
           "hierarchy": "Clckwrks IOThread",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.IOThread",
           "name": "killIOThread",
           "normalized": "IOThread a b-\u003eIO()",
@@ -2042,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart the IO thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.IOThread",
           "name": "startIOThread",
           "package": "clckwrks",
@@ -2051,6 +2222,7 @@
         "index": {
           "description": "start the IO thread",
           "hierarchy": "Clckwrks IOThread",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.IOThread",
           "name": "startIOThread",
           "normalized": "(a-\u003eIO b)-\u003eIO(IOThread a b)",
@@ -2066,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Markup.HsColour",
           "name": "HsColour",
           "package": "clckwrks",
@@ -2074,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Markup HsColour",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Markup.HsColour",
           "name": "HsColour",
           "package": "clckwrks",
@@ -2088,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun the text through the \u003ccode\u003emarkdown\u003c/code\u003e executable and, if\n successful, run the output through xss-sanitize / sanitizeBalance\n to prevent injection attacks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Markup.HsColour",
           "name": "hscolour",
           "package": "clckwrks",
@@ -2097,6 +2272,7 @@
         "index": {
           "description": "run the text through the markdown executable and if successful run the output through xss-sanitize sanitizeBalance to prevent injection attacks",
           "hierarchy": "Clckwrks Markup HsColour",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Markup.HsColour",
           "name": "hscolour",
           "normalized": "Maybe[String]-\u003eText-\u003ea(Either Text Text)",
@@ -2111,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Markup.Markdown",
           "name": "Markdown",
           "package": "clckwrks",
@@ -2119,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Markup Markdown",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Markup.Markdown",
           "name": "Markdown",
           "package": "clckwrks",
@@ -2133,6 +2311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun the text through the \u003ccode\u003e\u003ca\u003emarkdown\u003c/a\u003e\u003c/code\u003e executable. If successful,\n and the input is marked \u003ccode\u003e\u003ca\u003eUntrusted\u003c/a\u003e\u003c/code\u003e, run the output through\n xss-sanitize / sanitizeBalance to prevent injection attacks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Markup.Markdown",
           "name": "markdown",
           "package": "clckwrks",
@@ -2142,6 +2321,7 @@
         "index": {
           "description": "run the text through the markdown executable If successful and the input is marked Untrusted run the output through xss-sanitize sanitizeBalance to prevent injection attacks",
           "hierarchy": "Clckwrks Markup Markdown",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Markup.Markdown",
           "name": "markdown",
           "normalized": "Maybe[String]-\u003eTrust-\u003eText-\u003ea(Either Text Text)",
@@ -2156,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "Monad",
           "package": "clckwrks",
@@ -2164,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "Monad",
           "package": "clckwrks",
@@ -2177,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "AttributeType",
           "package": "clckwrks",
@@ -2185,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "AttributeType",
           "package": "clckwrks",
@@ -2198,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ChildType",
           "package": "clckwrks",
@@ -2206,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ChildType",
           "package": "clckwrks",
@@ -2219,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "Clck",
           "package": "clckwrks",
@@ -2227,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "Clck",
           "package": "clckwrks",
@@ -2240,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckForm",
           "package": "clckwrks",
@@ -2248,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckForm",
           "package": "clckwrks",
@@ -2262,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eerror returned when a reform \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e fails to validate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckFormError",
           "package": "clckwrks",
@@ -2271,6 +2462,7 @@
         "index": {
           "description": "error returned when reform Form fails to validate",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckFormError",
           "package": "clckwrks",
@@ -2285,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClckForm - type for reform forms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckFormT",
           "package": "clckwrks",
@@ -2294,6 +2487,7 @@
         "index": {
           "description": "ClckForm type for reform forms",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckFormT",
           "package": "clckwrks",
@@ -2308,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClckPlugins\n\u003c/p\u003e\u003cp\u003enewtype Plugins theme m hook config st\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckPlugins",
           "package": "clckwrks",
@@ -2317,6 +2512,7 @@
         "index": {
           "description": "ClckPlugins newtype Plugins theme hook config st",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckPlugins",
           "package": "clckwrks",
@@ -2330,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckPluginsSt",
           "package": "clckwrks",
@@ -2338,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckPluginsSt",
           "package": "clckwrks",
@@ -2351,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckState",
           "package": "clckwrks",
@@ -2359,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckState",
           "package": "clckwrks",
@@ -2372,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckT",
           "package": "clckwrks",
@@ -2380,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckT",
           "package": "clckwrks",
@@ -2393,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckwrksConfig",
           "package": "clckwrks",
@@ -2401,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckwrksConfig",
           "package": "clckwrks",
@@ -2415,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea wrapper which identifies how to treat different \u003ccode\u003eText\u003c/code\u003e values when attempting to embed them.\n\u003c/p\u003e\u003cp\u003eIn general \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e values have already been\n flatten\u003cem\u003epreprocessed\u003c/em\u003eetc and are now basic formats like\n \u003ccode\u003etext\u003cem\u003eplain@, @text\u003c/em\u003ehtml\u003c/code\u003e, etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "Content",
           "package": "clckwrks",
@@ -2424,6 +2629,7 @@
         "index": {
           "description": "wrapper which identifies how to treat different Text values when attempting to embed them In general Content values have already been flatten preprocessed etc and are now basic formats like text plain text html etc",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "Content",
           "package": "clckwrks",
@@ -2437,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "TLSSettings",
           "package": "clckwrks",
@@ -2445,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "TLSSettings",
           "package": "clckwrks",
@@ -2458,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "Theme",
           "package": "clckwrks",
@@ -2466,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "Theme",
           "package": "clckwrks",
@@ -2479,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ThemeName",
           "package": "clckwrks",
@@ -2487,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ThemeName",
           "package": "clckwrks",
@@ -2500,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ThemeStyle",
           "package": "clckwrks",
@@ -2508,6 +2721,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ThemeStyle",
           "package": "clckwrks",
@@ -2521,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ThemeStyleId",
           "package": "clckwrks",
@@ -2529,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ThemeStyleId",
           "package": "clckwrks",
@@ -2542,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckCFE",
           "package": "clckwrks",
@@ -2551,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckCFE",
           "normalized": "ClckCFE(CommonFormError[Input])",
@@ -2566,6 +2784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckState",
           "package": "clckwrks",
@@ -2575,6 +2794,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckState",
           "package": "clckwrks",
@@ -2588,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckT",
           "package": "clckwrks",
@@ -2597,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckT",
           "package": "clckwrks",
@@ -2610,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ClckwrksConfig",
           "package": "clckwrks",
@@ -2619,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ClckwrksConfig",
           "package": "clckwrks",
@@ -2632,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "EmptyUsername",
           "package": "clckwrks",
@@ -2641,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "EmptyUsername",
           "package": "clckwrks",
@@ -2654,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "PDE",
           "package": "clckwrks",
@@ -2663,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "PDE",
           "package": "clckwrks",
@@ -2676,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "PlainText",
           "package": "clckwrks",
@@ -2685,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "PlainText",
           "package": "clckwrks",
@@ -2698,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "TLSSettings",
           "package": "clckwrks",
@@ -2707,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "TLSSettings",
           "package": "clckwrks",
@@ -2720,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "Theme",
           "package": "clckwrks",
@@ -2729,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "Theme",
           "package": "clckwrks",
@@ -2742,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ThemeStyle",
           "package": "clckwrks",
@@ -2751,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ThemeStyle",
           "package": "clckwrks",
@@ -2764,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "ThemeStyleId",
           "package": "clckwrks",
@@ -2773,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "ThemeStyleId",
           "package": "clckwrks",
@@ -2786,6 +3024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "TrustedHtml",
           "package": "clckwrks",
@@ -2795,6 +3034,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "TrustedHtml",
           "package": "clckwrks",
@@ -2808,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "acidState",
           "package": "clckwrks",
@@ -2817,6 +3058,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "acidState",
           "package": "clckwrks",
@@ -2831,6 +3073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd an Admin menu\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "addAdminMenu",
           "package": "clckwrks",
@@ -2841,6 +3084,7 @@
         "index": {
           "description": "add an Admin menu",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "addAdminMenu",
           "normalized": "(Text,[(Set Role,Text,Text)])-\u003eClckT a b()",
@@ -2856,6 +3100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "addNavBarCallback",
           "package": "clckwrks",
@@ -2865,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "addNavBarCallback",
           "normalized": "Plugins a b c d ClckPluginsSt-\u003eClckT ClckURL IO(String,[NamedLink])-\u003ee()",
@@ -2880,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "addPreProc",
           "package": "clckwrks",
@@ -2889,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "addPreProc",
           "normalized": "Plugins a b c d ClckPluginsSt-\u003e(Text-\u003eClckT ClckURL IO Text)-\u003ee()",
@@ -2904,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "adminMenus",
           "package": "clckwrks",
@@ -2913,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "adminMenus",
           "normalized": "[(Text,[(Set Role,Text,Text)])]",
@@ -2929,6 +3179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eappend an action to the request init\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "appendRequestInit",
           "package": "clckwrks",
@@ -2939,6 +3190,7 @@
         "index": {
           "description": "append an action to the request init",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "appendRequestInit",
           "normalized": "ServerPart()-\u003eClckT a b()",
@@ -2955,6 +3207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculate the baseURI from the \u003ccode\u003e\u003ca\u003eclckHostname\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eclckPort\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eclckHidePort\u003c/a\u003e\u003c/code\u003e options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "calcBaseURI",
           "package": "clckwrks",
@@ -2965,6 +3218,7 @@
         "index": {
           "description": "calculate the baseURI from the clckHostname clckPort and clckHidePort options",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "calcBaseURI",
           "normalized": "ClckwrksConfig-\u003eText",
@@ -2980,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "calcTLSBaseURI",
           "package": "clckwrks",
@@ -2989,6 +3244,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "calcTLSBaseURI",
           "normalized": "ClckwrksConfig-\u003eMaybe Text",
@@ -3005,6 +3261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenable google analytics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckEnableAnalytics",
           "package": "clckwrks",
@@ -3015,6 +3272,7 @@
         "index": {
           "description": "enable google analytics",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckEnableAnalytics",
           "package": "clckwrks",
@@ -3029,6 +3287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehide port number in URL (useful when running behind a reverse proxy)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckHidePort",
           "package": "clckwrks",
@@ -3039,6 +3298,7 @@
         "index": {
           "description": "hide port number in URL useful when running behind reverse proxy",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckHidePort",
           "package": "clckwrks",
@@ -3053,6 +3313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexternal name of the host\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckHostname",
           "package": "clckwrks",
@@ -3063,6 +3324,7 @@
         "index": {
           "description": "external name of the host",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckHostname",
           "package": "clckwrks",
@@ -3077,6 +3339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit hook\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckInitHook",
           "package": "clckwrks",
@@ -3087,6 +3350,7 @@
         "index": {
           "description": "init hook",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckInitHook",
           "normalized": "Text-\u003eClckState-\u003eClckwrksConfig-\u003eIO(ClckState,ClckwrksConfig)",
@@ -3103,6 +3367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath to \u003ccode\u003ejquery.js\u003c/code\u003e on disk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckJQueryPath",
           "package": "clckwrks",
@@ -3113,6 +3378,7 @@
         "index": {
           "description": "path to jquery.js on disk",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckJQueryPath",
           "package": "clckwrks",
@@ -3127,6 +3393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath to \u003ccode\u003ejquery-ui.js\u003c/code\u003e on disk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckJQueryUIPath",
           "package": "clckwrks",
@@ -3137,6 +3404,7 @@
         "index": {
           "description": "path to jquery-ui.js on disk",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckJQueryUIPath",
           "package": "clckwrks",
@@ -3151,6 +3419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath to \u003ccode\u003eJSON2.js\u003c/code\u003e on disk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckJSON2Path",
           "package": "clckwrks",
@@ -3161,6 +3430,7 @@
         "index": {
           "description": "path to JSON2.js on disk",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckJSON2Path",
           "package": "clckwrks",
@@ -3175,6 +3445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath to \u003ccode\u003ejstree.js\u003c/code\u003e on disk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckJSTreePath",
           "package": "clckwrks",
@@ -3185,6 +3456,7 @@
         "index": {
           "description": "path to jstree.js on disk",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckJSTreePath",
           "package": "clckwrks",
@@ -3199,6 +3471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eport to listen on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckPort",
           "package": "clckwrks",
@@ -3209,6 +3482,7 @@
         "index": {
           "description": "port to listen on",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckPort",
           "package": "clckwrks",
@@ -3223,6 +3497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTPS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckTLS",
           "package": "clckwrks",
@@ -3233,6 +3508,7 @@
         "index": {
           "description": "HTTPS",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckTLS",
           "package": "clckwrks",
@@ -3246,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckTLSCA",
           "package": "clckwrks",
@@ -3255,6 +3532,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckTLSCA",
           "package": "clckwrks",
@@ -3268,6 +3546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckTLSCert",
           "package": "clckwrks",
@@ -3277,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckTLSCert",
           "package": "clckwrks",
@@ -3290,6 +3570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckTLSKey",
           "package": "clckwrks",
@@ -3299,6 +3580,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckTLSKey",
           "package": "clckwrks",
@@ -3312,6 +3594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckTLSPort",
           "package": "clckwrks",
@@ -3321,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckTLSPort",
           "package": "clckwrks",
@@ -3335,6 +3619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath to top-level directory for all acid-state files\u003cem\u003efile uploads\u003c/em\u003eetc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "clckTopDir",
           "package": "clckwrks",
@@ -3345,6 +3630,7 @@
         "index": {
           "description": "path to top-level directory for all acid-state files file uploads etc",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "clckTopDir",
           "package": "clckwrks",
@@ -3359,6 +3645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenable Google Analytics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "enableAnalytics",
           "package": "clckwrks",
@@ -3369,6 +3656,7 @@
         "index": {
           "description": "enable Google Analytics",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "enableAnalytics",
           "package": "clckwrks",
@@ -3383,6 +3671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluate a \u003ccode\u003e\u003ca\u003eClckT\u003c/a\u003e\u003c/code\u003e returning the inner monad\n\u003c/p\u003e\u003cp\u003esimilar to \u003ccode\u003e\u003ca\u003eevalStateT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "evalClckT",
           "package": "clckwrks",
@@ -3392,6 +3681,7 @@
         "index": {
           "description": "evaluate ClckT returning the inner monad similar to evalStateT",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "evalClckT",
           "normalized": "(a-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eClckState-\u003eClckT a b c-\u003eb c",
@@ -3408,6 +3698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexecute a \u003ccode\u003e\u003ca\u003eClckT\u003c/a\u003e\u003c/code\u003e returning the final \u003ccode\u003e\u003ca\u003eClckState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003esimilar to \u003ccode\u003e\u003ca\u003eexecStateT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "execClckT",
           "package": "clckwrks",
@@ -3417,6 +3708,7 @@
         "index": {
           "description": "execute ClckT returning the final ClckState similar to execStateT",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "execClckT",
           "normalized": "(a-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eClckState-\u003eClckT a b c-\u003eb ClckState",
@@ -3433,6 +3725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e value indicating if Google Analytics should be enabled or not\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "getEnableAnalytics",
           "package": "clckwrks",
@@ -3443,6 +3736,7 @@
         "index": {
           "description": "get the Bool value indicating if Google Analytics should be enabled or not",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "getEnableAnalytics",
           "package": "clckwrks",
@@ -3456,6 +3750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "getNavBarLinks",
           "package": "clckwrks",
@@ -3465,6 +3760,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "getNavBarLinks",
           "normalized": "Plugins a b c d ClckPluginsSt-\u003eClckT ClckURL e NavBarLinks",
@@ -3480,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "getPreProcessors",
           "package": "clckwrks",
@@ -3489,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "getPreProcessors",
           "normalized": "Plugins a b c d ClckPluginsSt-\u003eClckT e f[Text-\u003eClckT ClckURL IO Text]",
@@ -3504,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "getRedirectCookie",
           "package": "clckwrks",
@@ -3513,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "getRedirectCookie",
           "package": "clckwrks",
@@ -3526,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "getThemeStyles",
           "package": "clckwrks",
@@ -3535,6 +3836,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "getThemeStyles",
           "normalized": "ClckPlugins-\u003ea[(ThemeStyleId,ThemeStyle)]",
@@ -3551,6 +3853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget a unique \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eOnly unique for the current request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "getUnique",
           "package": "clckwrks",
@@ -3561,6 +3864,7 @@
         "index": {
           "description": "get unique Integer Only unique for the current request",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "getUnique",
           "package": "clckwrks",
@@ -3575,6 +3879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe the \u003ccode\u003e\u003ca\u003eUserId\u003c/a\u003e\u003c/code\u003e of the current user. While return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if they are not logged in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "getUserId",
           "package": "clckwrks",
@@ -3585,6 +3890,7 @@
         "index": {
           "description": "The the UserId of the current user While return Nothing if they are not logged in",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "getUserId",
           "package": "clckwrks",
@@ -3598,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "getUserRoles",
           "package": "clckwrks",
@@ -3607,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "getUserRoles",
           "package": "clckwrks",
@@ -3621,6 +3929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a google analytics tracking code block\n\u003c/p\u003e\u003cp\u003eThis will under two different conditions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e the \u003ccode\u003e\u003ca\u003eenableAnalytics\u003c/a\u003e\u003c/code\u003e field in \u003ccode\u003e\u003ca\u003eClckState\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e the \u003ccode\u003euacct\u003c/code\u003e field in \u003ccode\u003ePageState\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "googleAnalytics",
           "package": "clckwrks",
@@ -3631,6 +3940,7 @@
         "index": {
           "description": "create google analytics tracking code block This will under two different conditions the enableAnalytics field in ClckState is False the uacct field in PageState is Nothing",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "googleAnalytics",
           "package": "clckwrks",
@@ -3644,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "initialClckPluginsSt",
           "package": "clckwrks",
@@ -3653,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "initialClckPluginsSt",
           "package": "clckwrks",
@@ -3667,6 +3979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emap a transformation function over the inner monad\n\u003c/p\u003e\u003cp\u003esimilar to \u003ccode\u003e\u003ca\u003emapStateT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "mapClckT",
           "package": "clckwrks",
@@ -3676,6 +3989,7 @@
         "index": {
           "description": "map transformation function over the inner monad similar to mapStateT",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "mapClckT",
           "normalized": "(a(b,ClckState)-\u003ec(d,ClckState))-\u003eClckT e a b-\u003eClckT e c d",
@@ -3691,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "nestURL",
           "package": "clckwrks",
@@ -3700,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "nestURL",
           "normalized": "(a-\u003ea)-\u003eClckT a b c-\u003eClckT a b c",
@@ -3715,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "plugins",
           "package": "clckwrks",
@@ -3724,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "plugins",
           "package": "clckwrks",
@@ -3737,6 +4055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar to the normal acid-state \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e except it automatically gets the correct \u003ccode\u003e\u003ca\u003eAcidState\u003c/a\u003e\u003c/code\u003e handle from the environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "query",
           "package": "clckwrks",
@@ -3747,6 +4066,7 @@
         "index": {
           "description": "similar to the normal acid-state query except it automatically gets the correct AcidState handle from the environment",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "query",
           "normalized": "a-\u003eb(EventResult a)",
@@ -3762,6 +4082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean action which gets called at the beginning of each request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "requestInit",
           "package": "clckwrks",
@@ -3772,6 +4093,7 @@
         "index": {
           "description": "an action which gets called at the beginning of each request",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "requestInit",
           "normalized": "ServerPart()",
@@ -3787,6 +4109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "requiresRole",
           "package": "clckwrks",
@@ -3796,6 +4119,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "requiresRole",
           "normalized": "Set Role-\u003ea-\u003eClckT ClckURL b a",
@@ -3811,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "requiresRole_",
           "package": "clckwrks",
@@ -3820,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "requiresRole_",
           "normalized": "(ClckURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eSet Role-\u003ea-\u003eClckT b c a",
@@ -3836,6 +4162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun a \u003ccode\u003e\u003ca\u003eClckT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003esimilar to \u003ccode\u003e\u003ca\u003erunStateT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "runClckT",
           "package": "clckwrks",
@@ -3845,6 +4172,7 @@
         "index": {
           "description": "run ClckT similar to runStateT",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "runClckT",
           "normalized": "(a-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eClckState-\u003eClckT a b c-\u003eb(c,ClckState)",
@@ -3860,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "segments",
           "package": "clckwrks",
@@ -3869,6 +4198,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "segments",
           "normalized": "Text-\u003eParser a-\u003eParser[Segment a]",
@@ -3883,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "setRedirectCookie",
           "package": "clckwrks",
@@ -3892,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "setRedirectCookie",
           "normalized": "String-\u003ea()",
@@ -3907,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "setUnique",
           "package": "clckwrks",
@@ -3916,6 +4249,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "setUnique",
           "normalized": "Integer-\u003eClckT a b()",
@@ -3931,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "themeDataDir",
           "package": "clckwrks",
@@ -3940,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "themeDataDir",
           "package": "clckwrks",
@@ -3953,6 +4289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "themeName",
           "package": "clckwrks",
@@ -3962,6 +4299,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "themeName",
           "package": "clckwrks",
@@ -3975,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "themeStyleDescription",
           "package": "clckwrks",
@@ -3984,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "themeStyleDescription",
           "package": "clckwrks",
@@ -3997,6 +4337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "themeStyleName",
           "package": "clckwrks",
@@ -4006,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "themeStyleName",
           "package": "clckwrks",
@@ -4019,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "themeStylePreview",
           "package": "clckwrks",
@@ -4028,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "themeStylePreview",
           "package": "clckwrks",
@@ -4041,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "themeStyleTemplate",
           "package": "clckwrks",
@@ -4050,6 +4395,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "themeStyleTemplate",
           "normalized": "Text-\u003ea-\u003eb-\u003eXMLGenT(ClckT ClckURL(ServerPartT IO))XML",
@@ -4065,6 +4411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "themeStyles",
           "package": "clckwrks",
@@ -4074,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "themeStyles",
           "normalized": "[ThemeStyle]",
@@ -4089,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "themeTemplate",
           "package": "clckwrks",
@@ -4098,6 +4447,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "themeTemplate",
           "normalized": "ClckPlugins-\u003eThemeStyleId-\u003eText-\u003ea-\u003eb-\u003eClckT ClckURL(ServerPartT IO)Response",
@@ -4113,6 +4463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "transform",
           "package": "clckwrks",
@@ -4122,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "transform",
           "normalized": "(a-\u003eb Builder)-\u003e[Segment a]-\u003eb Builder",
@@ -4136,6 +4488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "unClckT",
           "package": "clckwrks",
@@ -4145,6 +4498,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "unClckT",
           "package": "clckwrks",
@@ -4158,6 +4512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "unThemeStyleId",
           "package": "clckwrks",
@@ -4167,6 +4522,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "unThemeStyleId",
           "package": "clckwrks",
@@ -4180,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "uniqueId",
           "package": "clckwrks",
@@ -4189,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "uniqueId",
           "package": "clckwrks",
@@ -4203,6 +4561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar to the normal acid-state \u003ccode\u003e\u003ca\u003eupdate\u003c/a\u003e\u003c/code\u003e except it automatically gets the correct \u003ccode\u003e\u003ca\u003eAcidState\u003c/a\u003e\u003c/code\u003e handle from the environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "update",
           "package": "clckwrks",
@@ -4213,6 +4572,7 @@
         "index": {
           "description": "similar to the normal acid-state update except it automatically gets the correct AcidState handle from the environment",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "update",
           "normalized": "a-\u003eb(EventResult a)",
@@ -4227,6 +4587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "withAbs",
           "package": "clckwrks",
@@ -4236,6 +4597,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "withAbs",
           "normalized": "ClckT a b c-\u003eClckT a b c",
@@ -4251,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "withAbs'",
           "package": "clckwrks",
@@ -4260,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "withAbs'",
           "normalized": "Text-\u003eClckT a b c-\u003eClckT a b c",
@@ -4276,6 +4640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the route url\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Monad",
           "name": "withRouteClckT",
           "package": "clckwrks",
@@ -4286,6 +4651,7 @@
         "index": {
           "description": "change the route url",
           "hierarchy": "Clckwrks Monad",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Monad",
           "name": "withRouteClckT",
           "normalized": "((a-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eb-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eClckT b c d-\u003eClckT a c d",
@@ -4301,6 +4667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.API",
           "name": "API",
           "package": "clckwrks",
@@ -4309,6 +4676,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar API",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.API",
           "name": "API",
           "package": "clckwrks",
@@ -4322,6 +4690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.API",
           "name": "getNavBar",
           "package": "clckwrks",
@@ -4331,6 +4700,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar API",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.API",
           "name": "getNavBar",
           "package": "clckwrks",
@@ -4344,6 +4714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.API",
           "name": "getNavBarData",
           "package": "clckwrks",
@@ -4353,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar API",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.API",
           "name": "getNavBarData",
           "package": "clckwrks",
@@ -4366,6 +4738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.API",
           "name": "mkNavBarItem",
           "package": "clckwrks",
@@ -4375,6 +4748,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar API",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.API",
           "name": "mkNavBarItem",
           "normalized": "NavBarItem-\u003eGenXML(Clck ClckURL)",
@@ -4390,6 +4764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.API",
           "name": "navBarHTML",
           "package": "clckwrks",
@@ -4399,6 +4774,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar API",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.API",
           "name": "navBarHTML",
           "normalized": "NavBar-\u003eGenXML(Clck ClckURL)",
@@ -4414,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Acid",
           "name": "Acid",
           "package": "clckwrks",
@@ -4422,6 +4799,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Acid",
           "name": "Acid",
           "package": "clckwrks",
@@ -4435,6 +4813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Acid",
           "name": "GetNavBar",
           "package": "clckwrks",
@@ -4443,6 +4822,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Acid",
           "name": "GetNavBar",
           "package": "clckwrks",
@@ -4456,6 +4836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Acid",
           "name": "NavBarState",
           "package": "clckwrks",
@@ -4464,6 +4845,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Acid",
           "name": "NavBarState",
           "package": "clckwrks",
@@ -4477,6 +4859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Acid",
           "name": "SetNavBar",
           "package": "clckwrks",
@@ -4485,6 +4868,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Acid",
           "name": "SetNavBar",
           "package": "clckwrks",
@@ -4498,6 +4882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Acid",
           "name": "GetNavBar",
           "package": "clckwrks",
@@ -4507,6 +4892,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Acid",
           "name": "GetNavBar",
           "package": "clckwrks",
@@ -4520,6 +4906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Acid",
           "name": "NavBarState",
           "package": "clckwrks",
@@ -4529,6 +4916,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Acid",
           "name": "NavBarState",
           "package": "clckwrks",
@@ -4542,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Acid",
           "name": "SetNavBar",
           "package": "clckwrks",
@@ -4551,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Acid",
           "name": "SetNavBar",
           "package": "clckwrks",
@@ -4564,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Acid",
           "name": "getNavBar",
           "package": "clckwrks",
@@ -4573,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Acid",
           "name": "getNavBar",
           "package": "clckwrks",
@@ -4586,6 +4978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Acid",
           "name": "initialNavBarState",
           "package": "clckwrks",
@@ -4595,6 +4988,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Acid",
           "name": "initialNavBarState",
           "package": "clckwrks",
@@ -4608,6 +5002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Acid",
           "name": "navBar",
           "package": "clckwrks",
@@ -4617,6 +5012,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Acid",
           "name": "navBar",
           "package": "clckwrks",
@@ -4630,6 +5026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Acid",
           "name": "setNavBar",
           "package": "clckwrks",
@@ -4639,6 +5036,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Acid",
           "name": "setNavBar",
           "normalized": "NavBar-\u003eUpdate NavBarState()",
@@ -4654,6 +5052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "EditNavBar",
           "package": "clckwrks",
@@ -4662,6 +5061,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar EditNavBar",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "EditNavBar",
           "package": "clckwrks",
@@ -4675,6 +5075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "NavBarUpdate",
           "package": "clckwrks",
@@ -4683,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar EditNavBar",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "NavBarUpdate",
           "package": "clckwrks",
@@ -4696,6 +5098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "NavBarUpdate",
           "package": "clckwrks",
@@ -4705,6 +5108,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar EditNavBar",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "NavBarUpdate",
           "package": "clckwrks",
@@ -4718,6 +5122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "editNavBar",
           "package": "clckwrks",
@@ -4727,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar EditNavBar",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "editNavBar",
           "package": "clckwrks",
@@ -4740,6 +5146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "initializeDropDowns",
           "package": "clckwrks",
@@ -4749,6 +5156,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar EditNavBar",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "initializeDropDowns",
           "normalized": "NavBarLinks-\u003eJStat",
@@ -4764,6 +5172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "jstree",
           "package": "clckwrks",
@@ -4773,6 +5182,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar EditNavBar",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "jstree",
           "normalized": "NavBar-\u003eValue",
@@ -4787,6 +5197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "navBarItemToJSTree",
           "package": "clckwrks",
@@ -4796,6 +5207,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar EditNavBar",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "navBarItemToJSTree",
           "normalized": "NavBarItem-\u003eValue",
@@ -4811,6 +5223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "navBarPost",
           "package": "clckwrks",
@@ -4820,6 +5233,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar EditNavBar",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "navBarPost",
           "package": "clckwrks",
@@ -4833,6 +5247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "navBarToJSTree",
           "package": "clckwrks",
@@ -4842,6 +5257,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar EditNavBar",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "navBarToJSTree",
           "normalized": "NavBar-\u003eValue",
@@ -4857,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "removeItem",
           "package": "clckwrks",
@@ -4866,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar EditNavBar",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "removeItem",
           "package": "clckwrks",
@@ -4879,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "saveChanges",
           "package": "clckwrks",
@@ -4888,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar EditNavBar",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.EditNavBar",
           "name": "saveChanges",
           "normalized": "Text-\u003eJStat",
@@ -4903,6 +5323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Types",
           "name": "Types",
           "package": "clckwrks",
@@ -4911,6 +5332,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Types",
           "name": "Types",
           "package": "clckwrks",
@@ -4924,6 +5346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Types",
           "name": "NavBar",
           "package": "clckwrks",
@@ -4932,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Types",
           "name": "NavBar",
           "package": "clckwrks",
@@ -4945,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Types",
           "name": "NavBarItem",
           "package": "clckwrks",
@@ -4953,6 +5378,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Types",
           "name": "NavBarItem",
           "package": "clckwrks",
@@ -4966,6 +5392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Types",
           "name": "NavBarLinks",
           "package": "clckwrks",
@@ -4974,6 +5401,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Types",
           "name": "NavBarLinks",
           "package": "clckwrks",
@@ -4987,6 +5415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Types",
           "name": "NBLink",
           "package": "clckwrks",
@@ -4996,6 +5425,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Types",
           "name": "NBLink",
           "package": "clckwrks",
@@ -5009,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Types",
           "name": "NBSubNavBar",
           "package": "clckwrks",
@@ -5018,6 +5449,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Types",
           "name": "NBSubNavBar",
           "package": "clckwrks",
@@ -5031,6 +5463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Types",
           "name": "NavBar",
           "package": "clckwrks",
@@ -5040,6 +5473,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Types",
           "name": "NavBar",
           "package": "clckwrks",
@@ -5053,6 +5487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Types",
           "name": "NavBarLinks",
           "package": "clckwrks",
@@ -5062,6 +5497,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Types",
           "name": "NavBarLinks",
           "normalized": "NavBarLinks[(String,[NamedLink])]",
@@ -5077,6 +5513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.NavBar.Types",
           "name": "navBarItems",
           "package": "clckwrks",
@@ -5086,6 +5523,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks NavBar Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.NavBar.Types",
           "name": "navBarItems",
           "normalized": "[NavBarItem]",
@@ -5101,6 +5539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Plugin",
           "name": "Plugin",
           "package": "clckwrks",
@@ -5109,6 +5548,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Plugin",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Plugin",
           "name": "Plugin",
           "package": "clckwrks",
@@ -5122,6 +5562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Plugin",
           "name": "addClckAdminMenu",
           "package": "clckwrks",
@@ -5131,6 +5572,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Plugin",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Plugin",
           "name": "addClckAdminMenu",
           "normalized": "ClckT a IO()",
@@ -5146,6 +5588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Plugin",
           "name": "clckHandler",
           "package": "clckwrks",
@@ -5155,6 +5598,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Plugin",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Plugin",
           "name": "clckHandler",
           "normalized": "(ClckURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eClckPlugins-\u003e[Text]-\u003eClckT ClckURL(ServerPartT IO)Response",
@@ -5170,6 +5614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Plugin",
           "name": "clckInit",
           "package": "clckwrks",
@@ -5179,6 +5624,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Plugin",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Plugin",
           "name": "clckInit",
           "normalized": "ClckPlugins-\u003eIO(Maybe Text)",
@@ -5194,6 +5640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Plugin",
           "name": "clckMenuCallback",
           "package": "clckwrks",
@@ -5203,6 +5650,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Plugin",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Plugin",
           "name": "clckMenuCallback",
           "normalized": "ClckT ClckURL IO(String,[NamedLink])",
@@ -5218,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Plugin",
           "name": "clckPlugin",
           "package": "clckwrks",
@@ -5227,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Plugin",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Plugin",
           "name": "clckPlugin",
           "normalized": "Plugin ClckURL Theme(ClckT ClckURL(ServerPartT IO)Response)(ClckT ClckURL IO())ClckwrksConfig ClckPluginsSt",
@@ -5242,6 +5692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Plugin",
           "name": "plugin",
           "package": "clckwrks",
@@ -5251,6 +5702,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Plugin",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Plugin",
           "name": "plugin",
           "normalized": "ClckPlugins-\u003eText-\u003eIO(Maybe Text)",
@@ -5265,6 +5717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.API",
           "name": "API",
           "package": "clckwrks",
@@ -5273,6 +5726,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData API",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.API",
           "name": "API",
           "package": "clckwrks",
@@ -5286,6 +5740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.API",
           "name": "getProfileData",
           "package": "clckwrks",
@@ -5295,6 +5750,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData API",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.API",
           "name": "getProfileData",
           "normalized": "UserId-\u003eClck a(Maybe ProfileData)",
@@ -5310,6 +5766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.API",
           "name": "getUsername",
           "package": "clckwrks",
@@ -5319,6 +5776,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData API",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.API",
           "name": "getUsername",
           "normalized": "UserId-\u003eClck a(Maybe Text)",
@@ -5334,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.API",
           "name": "whoami",
           "package": "clckwrks",
@@ -5343,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData API",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.API",
           "name": "whoami",
           "package": "clckwrks",
@@ -5355,6 +5815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "Acid",
           "package": "clckwrks",
@@ -5363,6 +5824,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "Acid",
           "package": "clckwrks",
@@ -5376,6 +5838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "AddRole",
           "package": "clckwrks",
@@ -5384,6 +5847,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "AddRole",
           "package": "clckwrks",
@@ -5397,6 +5861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetProfileData",
           "package": "clckwrks",
@@ -5405,6 +5870,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetProfileData",
           "package": "clckwrks",
@@ -5418,6 +5884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetRoles",
           "package": "clckwrks",
@@ -5426,6 +5893,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetRoles",
           "package": "clckwrks",
@@ -5439,6 +5907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetUserIdUsernames",
           "package": "clckwrks",
@@ -5447,6 +5916,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetUserIdUsernames",
           "package": "clckwrks",
@@ -5460,6 +5930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetUsername",
           "package": "clckwrks",
@@ -5468,6 +5939,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetUsername",
           "package": "clckwrks",
@@ -5481,6 +5953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "HasRole",
           "package": "clckwrks",
@@ -5489,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "HasRole",
           "package": "clckwrks",
@@ -5502,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "NewProfileData",
           "package": "clckwrks",
@@ -5510,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "NewProfileData",
           "package": "clckwrks",
@@ -5523,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "ProfileDataError",
           "package": "clckwrks",
@@ -5531,6 +6008,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "ProfileDataError",
           "package": "clckwrks",
@@ -5544,6 +6022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "ProfileDataState",
           "package": "clckwrks",
@@ -5552,6 +6031,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "ProfileDataState",
           "package": "clckwrks",
@@ -5565,6 +6045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "RemoveRole",
           "package": "clckwrks",
@@ -5573,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "RemoveRole",
           "package": "clckwrks",
@@ -5586,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "SetProfileData",
           "package": "clckwrks",
@@ -5594,6 +6077,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "SetProfileData",
           "package": "clckwrks",
@@ -5607,6 +6091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "UsernameForId",
           "package": "clckwrks",
@@ -5615,6 +6100,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "UsernameForId",
           "package": "clckwrks",
@@ -5628,6 +6114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "AddRole",
           "package": "clckwrks",
@@ -5637,6 +6124,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "AddRole",
           "package": "clckwrks",
@@ -5650,6 +6138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetProfileData",
           "package": "clckwrks",
@@ -5659,6 +6148,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetProfileData",
           "package": "clckwrks",
@@ -5672,6 +6162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetRoles",
           "package": "clckwrks",
@@ -5681,6 +6172,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetRoles",
           "package": "clckwrks",
@@ -5694,6 +6186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetUserIdUsernames",
           "package": "clckwrks",
@@ -5703,6 +6196,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetUserIdUsernames",
           "package": "clckwrks",
@@ -5716,6 +6210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetUsername",
           "package": "clckwrks",
@@ -5725,6 +6220,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "GetUsername",
           "package": "clckwrks",
@@ -5738,6 +6234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "HasRole",
           "package": "clckwrks",
@@ -5747,6 +6244,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "HasRole",
           "package": "clckwrks",
@@ -5760,6 +6258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "NewProfileData",
           "package": "clckwrks",
@@ -5769,6 +6268,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "NewProfileData",
           "package": "clckwrks",
@@ -5782,6 +6282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "ProfileDataState",
           "package": "clckwrks",
@@ -5791,6 +6292,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "ProfileDataState",
           "package": "clckwrks",
@@ -5804,6 +6306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "RemoveRole",
           "package": "clckwrks",
@@ -5813,6 +6316,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "RemoveRole",
           "package": "clckwrks",
@@ -5826,6 +6330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "SetProfileData",
           "package": "clckwrks",
@@ -5835,6 +6340,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "SetProfileData",
           "package": "clckwrks",
@@ -5848,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "UsernameAlreadyInUse",
           "package": "clckwrks",
@@ -5857,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "UsernameAlreadyInUse",
           "package": "clckwrks",
@@ -5870,6 +6378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "UsernameForId",
           "package": "clckwrks",
@@ -5879,6 +6388,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "UsernameForId",
           "package": "clckwrks",
@@ -5892,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "initialProfileDataState",
           "package": "clckwrks",
@@ -5901,6 +6412,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "initialProfileDataState",
           "package": "clckwrks",
@@ -5914,6 +6426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "profileData",
           "package": "clckwrks",
@@ -5923,6 +6436,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "profileData",
           "package": "clckwrks",
@@ -5936,6 +6450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "profileDataErrorStr",
           "package": "clckwrks",
@@ -5945,6 +6460,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Acid",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Acid",
           "name": "profileDataErrorStr",
           "normalized": "ProfileDataError-\u003eString",
@@ -5960,6 +6476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.EditNewProfileData",
           "name": "EditNewProfileData",
           "package": "clckwrks",
@@ -5968,6 +6485,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData EditNewProfileData",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.EditNewProfileData",
           "name": "EditNewProfileData",
           "package": "clckwrks",
@@ -5981,6 +6499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.EditNewProfileData",
           "name": "editNewProfileDataPage",
           "package": "clckwrks",
@@ -5990,6 +6509,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData EditNewProfileData",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.EditNewProfileData",
           "name": "editNewProfileDataPage",
           "normalized": "ProfileDataURL-\u003eClck ProfileDataURL Response",
@@ -6005,6 +6525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.EditProfileData",
           "name": "EditProfileData",
           "package": "clckwrks",
@@ -6013,6 +6534,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData EditProfileData",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.EditProfileData",
           "name": "EditProfileData",
           "package": "clckwrks",
@@ -6026,6 +6548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.EditProfileData",
           "name": "editProfileDataPage",
           "package": "clckwrks",
@@ -6035,6 +6558,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData EditProfileData",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.EditProfileData",
           "name": "editProfileDataPage",
           "normalized": "ProfileDataURL-\u003eClck ProfileDataURL Response",
@@ -6050,6 +6574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.EditProfileData",
           "name": "profileDataFormlet",
           "package": "clckwrks",
@@ -6059,6 +6584,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData EditProfileData",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.EditProfileData",
           "name": "profileDataFormlet",
           "normalized": "ProfileData-\u003eClckForm ProfileDataURL()",
@@ -6074,6 +6600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.EditProfileDataFor",
           "name": "EditProfileDataFor",
           "package": "clckwrks",
@@ -6082,6 +6609,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData EditProfileDataFor",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.EditProfileDataFor",
           "name": "EditProfileDataFor",
           "package": "clckwrks",
@@ -6095,6 +6623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.EditProfileDataFor",
           "name": "editProfileDataForPage",
           "package": "clckwrks",
@@ -6104,6 +6633,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData EditProfileDataFor",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.EditProfileDataFor",
           "name": "editProfileDataForPage",
           "normalized": "ProfileDataURL-\u003eUserId-\u003eClck ProfileDataURL Response",
@@ -6119,6 +6649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.EditProfileDataFor",
           "name": "profileDataFormlet",
           "package": "clckwrks",
@@ -6128,6 +6659,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData EditProfileDataFor",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.EditProfileDataFor",
           "name": "profileDataFormlet",
           "normalized": "ProfileData-\u003eClckForm ProfileDataURL()",
@@ -6143,6 +6675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Route",
           "name": "Route",
           "package": "clckwrks",
@@ -6151,6 +6684,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Route",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Route",
           "name": "Route",
           "package": "clckwrks",
@@ -6164,6 +6698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Route",
           "name": "routeProfileData",
           "package": "clckwrks",
@@ -6173,6 +6708,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Route",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Route",
           "name": "routeProfileData",
           "normalized": "ProfileDataURL-\u003eClck ProfileDataURL Response",
@@ -6188,6 +6724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Types",
           "package": "clckwrks",
@@ -6196,6 +6733,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Types",
           "package": "clckwrks",
@@ -6209,6 +6747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "ProfileData",
           "package": "clckwrks",
@@ -6217,6 +6756,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "ProfileData",
           "package": "clckwrks",
@@ -6230,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Role",
           "package": "clckwrks",
@@ -6238,6 +6779,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Role",
           "package": "clckwrks",
@@ -6251,6 +6793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Username",
           "package": "clckwrks",
@@ -6259,6 +6802,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Username",
           "package": "clckwrks",
@@ -6272,6 +6816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Administrator",
           "package": "clckwrks",
@@ -6281,6 +6826,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Administrator",
           "package": "clckwrks",
@@ -6294,6 +6840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Editor",
           "package": "clckwrks",
@@ -6303,6 +6850,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Editor",
           "package": "clckwrks",
@@ -6316,6 +6864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Moderator",
           "package": "clckwrks",
@@ -6325,6 +6874,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Moderator",
           "package": "clckwrks",
@@ -6338,6 +6888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "ProfileData",
           "package": "clckwrks",
@@ -6347,6 +6898,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "ProfileData",
           "package": "clckwrks",
@@ -6360,6 +6912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Username",
           "package": "clckwrks",
@@ -6369,6 +6922,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Username",
           "package": "clckwrks",
@@ -6382,6 +6936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Visitor",
           "package": "clckwrks",
@@ -6391,6 +6946,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "Visitor",
           "package": "clckwrks",
@@ -6404,6 +6960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "attributes",
           "package": "clckwrks",
@@ -6413,6 +6970,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "attributes",
           "package": "clckwrks",
@@ -6425,6 +6983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "dataFor",
           "package": "clckwrks",
@@ -6434,6 +6993,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "dataFor",
           "package": "clckwrks",
@@ -6447,6 +7007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "email",
           "package": "clckwrks",
@@ -6456,6 +7017,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "email",
           "package": "clckwrks",
@@ -6468,6 +7030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "emptyProfileData",
           "package": "clckwrks",
@@ -6477,6 +7040,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "emptyProfileData",
           "package": "clckwrks",
@@ -6490,6 +7054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "roles",
           "package": "clckwrks",
@@ -6499,6 +7064,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "roles",
           "package": "clckwrks",
@@ -6511,6 +7077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "unUsername",
           "package": "clckwrks",
@@ -6520,6 +7087,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "unUsername",
           "package": "clckwrks",
@@ -6533,6 +7101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.Types",
           "name": "username",
           "package": "clckwrks",
@@ -6542,6 +7111,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.Types",
           "name": "username",
           "package": "clckwrks",
@@ -6554,6 +7124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.URL",
           "name": "URL",
           "package": "clckwrks",
@@ -6562,6 +7133,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.URL",
           "name": "URL",
           "package": "clckwrks",
@@ -6575,6 +7147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.ProfileData.URL",
           "name": "ProfileDataURL",
           "package": "clckwrks",
@@ -6583,6 +7156,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks ProfileData URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.ProfileData.URL",
           "name": "ProfileDataURL",
           "package": "clckwrks",
@@ -6688,6 +7262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Route",
           "name": "Route",
           "package": "clckwrks",
@@ -6696,6 +7271,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Route",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Route",
           "name": "Route",
           "package": "clckwrks",
@@ -6709,6 +7285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Route",
           "name": "checkAuth",
           "package": "clckwrks",
@@ -6718,6 +7295,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Route",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Route",
           "name": "checkAuth",
           "normalized": "ClckURL-\u003eClckT ClckURL a ClckURL",
@@ -6733,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Route",
           "name": "routeClck",
           "package": "clckwrks",
@@ -6742,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Route",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Route",
           "name": "routeClck",
           "normalized": "ClckURL-\u003eClck ClckURL Response",
@@ -6757,6 +7337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Server",
           "name": "Server",
           "package": "clckwrks",
@@ -6765,6 +7346,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Server",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Server",
           "name": "Server",
           "package": "clckwrks",
@@ -6778,6 +7360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Server",
           "name": "clckSite",
           "package": "clckwrks",
@@ -6787,6 +7370,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Server",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Server",
           "name": "clckSite",
           "normalized": "ClckwrksConfig-\u003eClckState-\u003eServerPart Response",
@@ -6802,6 +7386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Server",
           "name": "jsHandlers",
           "package": "clckwrks",
@@ -6811,6 +7396,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Server",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Server",
           "name": "jsHandlers",
           "normalized": "ClckwrksConfig-\u003ea Response",
@@ -6826,6 +7412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Server",
           "name": "pluginsHandler",
           "package": "clckwrks",
@@ -6835,6 +7422,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Server",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Server",
           "name": "pluginsHandler",
           "normalized": "Plugins a(b Response)c d e-\u003eb Response",
@@ -6850,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Server",
           "name": "simpleClckwrks",
           "package": "clckwrks",
@@ -6859,6 +7448,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Server",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Server",
           "name": "simpleClckwrks",
           "normalized": "ClckwrksConfig-\u003eIO()",
@@ -6874,6 +7464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Server",
           "name": "withClckwrks",
           "package": "clckwrks",
@@ -6883,6 +7474,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Server",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Server",
           "name": "withClckwrks",
           "normalized": "ClckwrksConfig-\u003e(ClckState-\u003eIO a)-\u003eIO a",
@@ -6898,6 +7490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "Types",
           "package": "clckwrks",
@@ -6906,6 +7499,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "Types",
           "package": "clckwrks",
@@ -6919,6 +7513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "NamedLink",
           "package": "clckwrks",
@@ -6927,6 +7522,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "NamedLink",
           "package": "clckwrks",
@@ -6941,6 +7537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eat present this is only used by the menu editor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "Prefix",
           "package": "clckwrks",
@@ -6950,6 +7547,7 @@
         "index": {
           "description": "at present this is only used by the menu editor",
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "Prefix",
           "package": "clckwrks",
@@ -6963,6 +7561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "Trust",
           "package": "clckwrks",
@@ -6971,6 +7570,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "Trust",
           "package": "clckwrks",
@@ -6985,6 +7585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe UUID type.  A \u003ccode\u003e\u003ca\u003eRandom\u003c/a\u003e\u003c/code\u003e instance is provided which produces\n version 4 UUIDs as specified in RFC 4122.  The \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eBinary\u003c/a\u003e\u003c/code\u003e instances are compatible with RFC 4122, storing the fields\n in network order as 16 bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "UUID",
           "package": "clckwrks",
@@ -6993,6 +7594,7 @@
         "index": {
           "description": "The UUID type Random instance is provided which produces version UUIDs as specified in RFC The Storable and Binary instances are compatible with RFC storing the fields in network order as bytes",
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "UUID",
           "package": "clckwrks",
@@ -7006,6 +7608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "NamedLink",
           "package": "clckwrks",
@@ -7015,6 +7618,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "NamedLink",
           "package": "clckwrks",
@@ -7028,6 +7632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "Prefix",
           "package": "clckwrks",
@@ -7037,6 +7642,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "Prefix",
           "package": "clckwrks",
@@ -7051,6 +7657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused when the author can be trusted     (sanitization is not performed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "Trusted",
           "package": "clckwrks",
@@ -7061,6 +7668,7 @@
         "index": {
           "description": "used when the author can be trusted sanitization is not performed",
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "Trusted",
           "package": "clckwrks",
@@ -7075,6 +7683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused when the author can not be trusted (sanitization is performed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "Untrusted",
           "package": "clckwrks",
@@ -7085,6 +7694,7 @@
         "index": {
           "description": "used when the author can not be trusted sanitization is performed",
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "Untrusted",
           "package": "clckwrks",
@@ -7098,6 +7708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "namedLinkTitle",
           "package": "clckwrks",
@@ -7107,6 +7718,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "namedLinkTitle",
           "package": "clckwrks",
@@ -7120,6 +7732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "namedLinkURL",
           "package": "clckwrks",
@@ -7129,6 +7742,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "namedLinkURL",
           "package": "clckwrks",
@@ -7142,6 +7756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Types",
           "name": "prefixText",
           "package": "clckwrks",
@@ -7151,6 +7766,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Types",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Types",
           "name": "prefixText",
           "package": "clckwrks",
@@ -7164,6 +7780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "URL",
           "package": "clckwrks",
@@ -7172,6 +7789,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "URL",
           "package": "clckwrks",
@@ -7185,6 +7803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "AdminURL",
           "package": "clckwrks",
@@ -7193,6 +7812,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "AdminURL",
           "package": "clckwrks",
@@ -7206,6 +7826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "AuthProfileURL",
           "package": "clckwrks",
@@ -7213,6 +7834,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "AuthProfileURL",
           "package": "clckwrks",
@@ -7226,6 +7848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "AuthURL",
           "package": "clckwrks",
@@ -7233,6 +7856,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "AuthURL",
           "package": "clckwrks",
@@ -7246,6 +7870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "ClckURL",
           "package": "clckwrks",
@@ -7254,6 +7879,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "ClckURL",
           "package": "clckwrks",
@@ -7267,6 +7893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "NoEscape",
           "package": "clckwrks",
@@ -7275,6 +7902,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "NoEscape",
           "package": "clckwrks",
@@ -7288,6 +7916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "ProfileDataURL",
           "package": "clckwrks",
@@ -7296,6 +7925,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "ProfileDataURL",
           "package": "clckwrks",
@@ -7309,6 +7939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "ProfileURL",
           "package": "clckwrks",
@@ -7316,6 +7947,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "ProfileURL",
           "package": "clckwrks",
@@ -7329,6 +7961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "A_AddAuth",
           "package": "clckwrks",
@@ -7337,6 +7970,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "A_AddAuth",
           "package": "clckwrks",
@@ -7350,6 +7984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "A_ChangePassword",
           "package": "clckwrks",
@@ -7358,6 +7993,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "A_ChangePassword",
           "package": "clckwrks",
@@ -7371,6 +8007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "A_CreateAccount",
           "package": "clckwrks",
@@ -7379,6 +8016,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "A_CreateAccount",
           "package": "clckwrks",
@@ -7392,6 +8030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "A_Facebook",
           "package": "clckwrks",
@@ -7400,6 +8039,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "A_Facebook",
           "package": "clckwrks",
@@ -7413,6 +8053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "A_FacebookRedirect",
           "package": "clckwrks",
@@ -7421,6 +8062,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "A_FacebookRedirect",
           "package": "clckwrks",
@@ -7434,6 +8076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "A_Local",
           "package": "clckwrks",
@@ -7442,6 +8085,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "A_Local",
           "package": "clckwrks",
@@ -7455,6 +8099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "A_Login",
           "package": "clckwrks",
@@ -7463,6 +8108,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "A_Login",
           "package": "clckwrks",
@@ -7476,6 +8122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "A_Logout",
           "package": "clckwrks",
@@ -7484,6 +8131,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "A_Logout",
           "package": "clckwrks",
@@ -7497,6 +8145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "A_OpenId",
           "package": "clckwrks",
@@ -7505,6 +8154,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "A_OpenId",
           "package": "clckwrks",
@@ -7518,6 +8168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "A_OpenIdProvider",
           "package": "clckwrks",
@@ -7526,6 +8177,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "A_OpenIdProvider",
           "package": "clckwrks",
@@ -7539,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "A_Signup",
           "package": "clckwrks",
@@ -7547,6 +8200,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "A_Signup",
           "package": "clckwrks",
@@ -7560,6 +8214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "Admin",
           "package": "clckwrks",
@@ -7569,6 +8224,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "Admin",
           "package": "clckwrks",
@@ -7582,6 +8238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "Auth",
           "package": "clckwrks",
@@ -7591,6 +8248,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "Auth",
           "package": "clckwrks",
@@ -7604,6 +8262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "AuthURL",
           "package": "clckwrks",
@@ -7612,6 +8271,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "AuthURL",
           "package": "clckwrks",
@@ -7625,6 +8285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "NoEscape",
           "package": "clckwrks",
@@ -7634,6 +8295,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "NoEscape",
           "package": "clckwrks",
@@ -7647,6 +8309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "P_PickProfile",
           "package": "clckwrks",
@@ -7655,6 +8318,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "P_PickProfile",
           "package": "clckwrks",
@@ -7668,6 +8332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "P_SetAuthId",
           "package": "clckwrks",
@@ -7676,6 +8341,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "P_SetAuthId",
           "package": "clckwrks",
@@ -7689,6 +8355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "P_SetPersonality",
           "package": "clckwrks",
@@ -7697,6 +8364,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "P_SetPersonality",
           "package": "clckwrks",
@@ -7710,6 +8378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "PluginData",
           "package": "clckwrks",
@@ -7719,6 +8388,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "PluginData",
           "package": "clckwrks",
@@ -7732,6 +8402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "Profile",
           "package": "clckwrks",
@@ -7741,6 +8412,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "Profile",
           "package": "clckwrks",
@@ -7754,6 +8426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "ProfileURL",
           "package": "clckwrks",
@@ -7762,6 +8435,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "ProfileURL",
           "package": "clckwrks",
@@ -7775,6 +8449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "ThemeData",
           "package": "clckwrks",
@@ -7784,6 +8459,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "ThemeData",
           "package": "clckwrks",
@@ -7797,6 +8473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.URL",
           "name": "ThemeDataNoEscape",
           "package": "clckwrks",
@@ -7806,6 +8483,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks URL",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.URL",
           "name": "ThemeDataNoEscape",
           "package": "clckwrks",
@@ -7819,6 +8497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Unauthorized",
           "name": "Unauthorized",
           "package": "clckwrks",
@@ -7827,6 +8506,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Unauthorized",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Unauthorized",
           "name": "Unauthorized",
           "package": "clckwrks",
@@ -7840,6 +8520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks.Unauthorized",
           "name": "unauthorizedPage",
           "package": "clckwrks",
@@ -7849,6 +8530,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Unauthorized",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks.Unauthorized",
           "name": "unauthorizedPage",
           "normalized": "a-\u003eb Response",
@@ -7864,6 +8546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Clckwrks",
           "name": "Clckwrks",
           "package": "clckwrks",
@@ -7872,6 +8555,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Clckwrks",
           "name": "Clckwrks",
           "package": "clckwrks",
@@ -7885,6 +8569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Paths_clckwrks",
           "name": "Paths_clckwrks",
           "package": "clckwrks",
@@ -7893,6 +8578,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Paths_clckwrks",
           "name": "Paths_clckwrks",
           "package": "clckwrks",
@@ -7906,6 +8592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Paths_clckwrks",
           "name": "getBinDir",
           "package": "clckwrks",
@@ -7915,6 +8602,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Paths_clckwrks",
           "name": "getBinDir",
           "package": "clckwrks",
@@ -7928,6 +8616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Paths_clckwrks",
           "name": "getDataDir",
           "package": "clckwrks",
@@ -7937,6 +8626,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Paths_clckwrks",
           "name": "getDataDir",
           "package": "clckwrks",
@@ -7950,6 +8640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Paths_clckwrks",
           "name": "getDataFileName",
           "package": "clckwrks",
@@ -7959,6 +8650,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Paths_clckwrks",
           "name": "getDataFileName",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -7974,6 +8666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Paths_clckwrks",
           "name": "getLibDir",
           "package": "clckwrks",
@@ -7983,6 +8676,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Paths_clckwrks",
           "name": "getLibDir",
           "package": "clckwrks",
@@ -7996,6 +8690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Paths_clckwrks",
           "name": "getLibexecDir",
           "package": "clckwrks",
@@ -8005,6 +8700,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Paths_clckwrks",
           "name": "getLibexecDir",
           "package": "clckwrks",
@@ -8018,6 +8714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:43 UTC 2014",
           "module": "Paths_clckwrks",
           "name": "version",
           "package": "clckwrks",
@@ -8027,6 +8724,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks",
+          "indexed": "2014-03-11T17:33:43",
           "module": "Paths_clckwrks",
           "name": "version",
           "package": "clckwrks",

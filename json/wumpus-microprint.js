@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wumpus-microprint"
+        "phrase": "wumpus-microprint",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBase datatypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "Datatypes",
           "package": "wumpus-microprint",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Base datatypes",
           "hierarchy": "Wumpus Microprint Datatypes",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "Datatypes",
           "package": "wumpus-microprint",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDrawWordF\u003c/a\u003e\u003c/code\u003e :\n\u003c/p\u003e\u003cpre\u003e colour * scaled_width * scaled_height -\u003e char_count -\u003e DLocGraphic\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "DrawWordF",
           "package": "wumpus-microprint",
@@ -51,6 +54,7 @@
         "index": {
           "description": "DrawWordF colour scaled width scaled height char count DLocGraphic",
           "hierarchy": "Wumpus Microprint Datatypes",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "DrawWordF",
           "package": "wumpus-microprint",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "GreekText",
           "package": "wumpus-microprint",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Datatypes",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "GreekText",
           "package": "wumpus-microprint",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "Height",
           "package": "wumpus-microprint",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Datatypes",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "Height",
           "package": "wumpus-microprint",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "RenderScalingCtx",
           "package": "wumpus-microprint",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Datatypes",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "RenderScalingCtx",
           "package": "wumpus-microprint",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "Tile",
           "package": "wumpus-microprint",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Datatypes",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "Tile",
           "package": "wumpus-microprint",
@@ -194,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "makeRenderScalingCtx",
           "package": "wumpus-microprint",
@@ -203,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Datatypes",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Datatypes",
           "name": "makeRenderScalingCtx",
           "normalized": "(Int-\u003eDouble)-\u003e(Int-\u003eDouble)-\u003eRenderScalingCtx",
@@ -219,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRender\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Render",
           "name": "Render",
           "package": "wumpus-microprint",
@@ -228,6 +243,7 @@
         "index": {
           "description": "Render",
           "hierarchy": "Wumpus Microprint Render",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Render",
           "name": "Render",
           "package": "wumpus-microprint",
@@ -241,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Render",
           "name": "borderedF",
           "package": "wumpus-microprint",
@@ -250,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Render",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Render",
           "name": "borderedF",
           "package": "wumpus-microprint",
@@ -263,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust a filled rectangle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Render",
           "name": "greekF",
           "package": "wumpus-microprint",
@@ -273,6 +292,7 @@
         "index": {
           "description": "Just filled rectangle",
           "hierarchy": "Wumpus Microprint Render",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Render",
           "name": "greekF",
           "package": "wumpus-microprint",
@@ -285,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Render",
           "name": "render",
           "package": "wumpus-microprint",
@@ -294,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Render",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Render",
           "name": "render",
           "normalized": "RenderScalingCtx-\u003eDrawWordF-\u003eGreekText-\u003eTraceDrawing Double()",
@@ -309,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stroked line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Render",
           "name": "strokelineF",
           "package": "wumpus-microprint",
@@ -319,6 +342,7 @@
         "index": {
           "description": "stroked line",
           "hierarchy": "Wumpus Microprint Render",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Render",
           "name": "strokelineF",
           "package": "wumpus-microprint",
@@ -332,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA drawing monad where drawing is analogous to a \u003cem\u003eteletype\u003c/em\u003e \n printing characters, spaces and linebreaks one at a time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Teletype",
           "name": "Teletype",
           "package": "wumpus-microprint",
@@ -341,6 +366,7 @@
         "index": {
           "description": "drawing monad where drawing is analogous to teletype printing characters spaces and linebreaks one at time",
           "hierarchy": "Wumpus Microprint Teletype",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Teletype",
           "name": "Teletype",
           "package": "wumpus-microprint",
@@ -354,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Teletype",
           "name": "Height",
           "package": "wumpus-microprint",
@@ -362,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Teletype",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Teletype",
           "name": "Height",
           "package": "wumpus-microprint",
@@ -376,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a \u003cem\u003emicroprint\u003c/em\u003e within a monad...\n\u003c/p\u003e\u003cp\u003eDrawings are made in a \u003cem\u003eteletype\u003c/em\u003e fashion emitting a character,\n space or lineMicroprint-break at each step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Teletype",
           "name": "Teletype",
           "package": "wumpus-microprint",
@@ -385,6 +414,7 @@
         "index": {
           "description": "Build microprint within monad Drawings are made in teletype fashion emitting character space or lineMicroprint-break at each step",
           "hierarchy": "Wumpus Microprint Teletype",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Teletype",
           "name": "Teletype",
           "package": "wumpus-microprint",
@@ -398,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Teletype",
           "name": "Tile",
           "package": "wumpus-microprint",
@@ -406,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Teletype",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Teletype",
           "name": "Tile",
           "package": "wumpus-microprint",
@@ -420,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a character - note in the microprint, characters will \n be concatenated together to make a word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Teletype",
           "name": "char",
           "package": "wumpus-microprint",
@@ -430,6 +463,7 @@
         "index": {
           "description": "Draw character note in the microprint characters will be concatenated together to make word",
           "hierarchy": "Wumpus Microprint Teletype",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Teletype",
           "name": "char",
           "normalized": "Teletype()",
@@ -445,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a linebreak in the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Teletype",
           "name": "linebreak",
           "package": "wumpus-microprint",
@@ -455,6 +490,7 @@
         "index": {
           "description": "Emit linebreak in the output",
           "hierarchy": "Wumpus Microprint Teletype",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Teletype",
           "name": "linebreak",
           "normalized": "Teletype()",
@@ -470,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a picture from a Teletype drawing.\n\u003c/p\u003e\u003cp\u003eThis function returns Nothing if the picture is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Teletype",
           "name": "renderTeletype",
           "package": "wumpus-microprint",
@@ -480,6 +517,7 @@
         "index": {
           "description": "Build picture from Teletype drawing This function returns Nothing if the picture is empty",
           "hierarchy": "Wumpus Microprint Teletype",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Teletype",
           "name": "renderTeletype",
           "normalized": "RenderScalingCtx-\u003eDrawWordF-\u003eTeletype a-\u003eTraceDrawing Double()",
@@ -496,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the current drawing colour.\n\u003c/p\u003e\u003cp\u003eNote - it is permissible to change colour mid-word, but this \n is the same as having a no-space break and forms a new word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Teletype",
           "name": "setRGB",
           "package": "wumpus-microprint",
@@ -506,6 +545,7 @@
         "index": {
           "description": "Change the current drawing colour Note it is permissible to change colour mid-word but this is the same as having no-space break and forms new word",
           "hierarchy": "Wumpus Microprint Teletype",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Teletype",
           "name": "setRGB",
           "normalized": "RGBi-\u003eTeletype()",
@@ -522,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Teletype",
           "name": "space",
           "package": "wumpus-microprint",
@@ -532,6 +573,7 @@
         "index": {
           "description": "Draw space",
           "hierarchy": "Wumpus Microprint Teletype",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Teletype",
           "name": "space",
           "normalized": "Teletype()",
@@ -547,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple tokenizing builder.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "Tokenizer",
           "package": "wumpus-microprint",
@@ -556,6 +599,7 @@
         "index": {
           "description": "Simple tokenizing builder",
           "hierarchy": "Wumpus Microprint Tokenizer",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "Tokenizer",
           "package": "wumpus-microprint",
@@ -569,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "TokenizerConfig",
           "package": "wumpus-microprint",
@@ -577,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Tokenizer",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "TokenizerConfig",
           "package": "wumpus-microprint",
@@ -590,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "TokenizerConfig",
           "package": "wumpus-microprint",
@@ -599,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Tokenizer",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "TokenizerConfig",
           "package": "wumpus-microprint",
@@ -612,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "comment_colour",
           "package": "wumpus-microprint",
@@ -621,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Tokenizer",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "comment_colour",
           "package": "wumpus-microprint",
@@ -633,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "comment_end",
           "package": "wumpus-microprint",
@@ -642,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Tokenizer",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "comment_end",
           "package": "wumpus-microprint",
@@ -654,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "comment_start",
           "package": "wumpus-microprint",
@@ -663,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Tokenizer",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "comment_start",
           "package": "wumpus-microprint",
@@ -675,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "haskellTokenizer",
           "package": "wumpus-microprint",
@@ -684,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Tokenizer",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "haskellTokenizer",
           "normalized": "RGBi-\u003eRGBi-\u003eTokenizerConfig",
@@ -699,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "runTokenizer",
           "package": "wumpus-microprint",
@@ -708,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Tokenizer",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "runTokenizer",
           "normalized": "TokenizerConfig-\u003eString-\u003eGreekText",
@@ -723,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "sgl_comment_start",
           "package": "wumpus-microprint",
@@ -732,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Tokenizer",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "sgl_comment_start",
           "package": "wumpus-microprint",
@@ -744,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "standard_colour",
           "package": "wumpus-microprint",
@@ -753,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Microprint Tokenizer",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.Tokenizer",
           "name": "standard_colour",
           "package": "wumpus-microprint",
@@ -766,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion number\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.VersionNumber",
           "name": "VersionNumber",
           "package": "wumpus-microprint",
@@ -775,6 +838,7 @@
         "index": {
           "description": "Version number",
           "hierarchy": "Wumpus Microprint VersionNumber",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.VersionNumber",
           "name": "VersionNumber",
           "package": "wumpus-microprint",
@@ -789,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion number\n\u003c/p\u003e\u003cpre\u003e (0,14,0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:15 UTC 2014",
           "module": "Wumpus.Microprint.VersionNumber",
           "name": "wumpus_microprint_version",
           "package": "wumpus-microprint",
@@ -799,6 +864,7 @@
         "index": {
           "description": "Version number",
           "hierarchy": "Wumpus Microprint VersionNumber",
+          "indexed": "2014-03-11T20:40:15",
           "module": "Wumpus.Microprint.VersionNumber",
           "name": "wumpus_microprint_version",
           "normalized": "(Int,Int,Int)",

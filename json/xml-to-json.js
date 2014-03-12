@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-to-json"
+        "phrase": "xml-to-json",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:36 UTC 2014",
           "module": "XmlToJson",
           "name": "XmlToJson",
           "package": "xml-to-json",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "XmlToJson",
+          "indexed": "2014-03-11T20:42:36",
           "module": "XmlToJson",
           "name": "XmlToJson",
           "package": "xml-to-json",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:36 UTC 2014",
           "module": "XmlToJson",
           "name": "Flag",
           "package": "xml-to-json",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "XmlToJson",
+          "indexed": "2014-03-11T20:42:36",
           "module": "XmlToJson",
           "name": "Flag",
           "package": "xml-to-json",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:36 UTC 2014",
           "module": "XmlToJson",
           "name": "Input",
           "package": "xml-to-json",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "XmlToJson",
+          "indexed": "2014-03-11T20:42:36",
           "module": "XmlToJson",
           "name": "Input",
           "package": "xml-to-json",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:36 UTC 2014",
           "module": "XmlToJson",
           "name": "Multiline",
           "package": "xml-to-json",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "XmlToJson",
+          "indexed": "2014-03-11T20:42:36",
           "module": "XmlToJson",
           "name": "Multiline",
           "package": "xml-to-json",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:36 UTC 2014",
           "module": "XmlToJson",
           "name": "NoCollapseText",
           "package": "xml-to-json",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "XmlToJson",
+          "indexed": "2014-03-11T20:42:36",
           "module": "XmlToJson",
           "name": "NoCollapseText",
           "package": "xml-to-json",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:36 UTC 2014",
           "module": "XmlToJson",
           "name": "NoIgnoreNulls",
           "package": "xml-to-json",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "XmlToJson",
+          "indexed": "2014-03-11T20:42:36",
           "module": "XmlToJson",
           "name": "NoIgnoreNulls",
           "package": "xml-to-json",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:36 UTC 2014",
           "module": "XmlToJson",
           "name": "ShowHelp",
           "package": "xml-to-json",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "XmlToJson",
+          "indexed": "2014-03-11T20:42:36",
           "module": "XmlToJson",
           "name": "ShowHelp",
           "package": "xml-to-json",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:36 UTC 2014",
           "module": "XmlToJson",
           "name": "SkipRoots",
           "package": "xml-to-json",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "XmlToJson",
+          "indexed": "2014-03-11T20:42:36",
           "module": "XmlToJson",
           "name": "SkipRoots",
           "package": "xml-to-json",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:36 UTC 2014",
           "module": "XmlToJson",
           "name": "StartFrom",
           "package": "xml-to-json",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "XmlToJson",
+          "indexed": "2014-03-11T20:42:36",
           "module": "XmlToJson",
           "name": "StartFrom",
           "package": "xml-to-json",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:36 UTC 2014",
           "module": "XmlToJson",
           "name": "WrapArray",
           "package": "xml-to-json",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "XmlToJson",
+          "indexed": "2014-03-11T20:42:36",
           "module": "XmlToJson",
           "name": "WrapArray",
           "package": "xml-to-json",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:36 UTC 2014",
           "module": "XmlToJson",
           "name": "xmlToJson",
           "package": "xml-to-json",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "XmlToJson",
+          "indexed": "2014-03-11T20:42:36",
           "module": "XmlToJson",
           "name": "xmlToJson",
           "normalized": "[Flag]-\u003e[String]-\u003eIO()",

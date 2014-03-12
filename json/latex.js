@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "latex"
+        "phrase": "latex",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:24 UTC 2014",
           "module": "Text.LaTeX.Character",
           "name": "Character",
           "package": "latex",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Character",
+          "indexed": "2014-03-11T19:06:24",
           "module": "Text.LaTeX.Character",
           "name": "Character",
           "package": "latex",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:24 UTC 2014",
           "module": "Text.LaTeX.Character",
           "name": "fromUnicodeString",
           "package": "latex",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Character",
+          "indexed": "2014-03-11T19:06:24",
           "module": "Text.LaTeX.Character",
           "name": "fromUnicodeString",
           "normalized": "String-\u003eString",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use toUnicodeString or fromUnicodeString\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:24 UTC 2014",
           "module": "Text.LaTeX.Character",
           "name": "table",
           "package": "latex",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Deprecated use toUnicodeString or fromUnicodeString",
           "hierarchy": "Text LaTeX Character",
+          "indexed": "2014-03-11T19:06:24",
           "module": "Text.LaTeX.Character",
           "name": "table",
           "normalized": "[(String,String)]",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace LaTeX macros for special characters\nby Unicode characters in a lazy way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:24 UTC 2014",
           "module": "Text.LaTeX.Character",
           "name": "toUnicodeString",
           "package": "latex",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Replace LaTeX macros for special characters by Unicode characters in lazy way",
           "hierarchy": "Text LaTeX Character",
+          "indexed": "2014-03-11T19:06:24",
           "module": "Text.LaTeX.Character",
           "name": "toUnicodeString",
           "normalized": "String-\u003eString",

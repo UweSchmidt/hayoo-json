@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "indexed-free"
+        "phrase": "indexed-free",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Free.Class",
           "name": "Class",
           "package": "indexed-free",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Free Class",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Free.Class",
           "name": "Class",
           "package": "indexed-free",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Free.Class",
           "name": "IxMonadFree",
           "package": "indexed-free",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Free Class",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Free.Class",
           "name": "IxMonadFree",
           "package": "indexed-free",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Free.Class",
           "name": "iliftFree",
           "package": "indexed-free",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Free Class",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Free.Class",
           "name": "iliftFree",
           "normalized": "a b c d-\u003ee b c d",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Free.Class",
           "name": "iwrap",
           "package": "indexed-free",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Free Class",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Free.Class",
           "name": "iwrap",
           "normalized": "a b c(d c e f)-\u003ed b e f",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Free",
           "name": "Free",
           "package": "indexed-free",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Free",
           "name": "Free",
           "package": "indexed-free",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Free",
           "name": "IxFree",
           "package": "indexed-free",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Free",
           "name": "IxFree",
           "package": "indexed-free",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Free",
           "name": "Free",
           "package": "indexed-free",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Free",
           "name": "Free",
           "normalized": "a b c(IxFree a c d e)-\u003eIxFree a b d e",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Free",
           "name": "Pure",
           "package": "indexed-free",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Free",
           "name": "Pure",
           "normalized": "a-\u003eIxFree b c c a",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Free",
           "name": "hoistIxFree",
           "package": "indexed-free",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Free",
           "name": "hoistIxFree",
           "normalized": "(a b c d e b c f-\u003eg b c f)-\u003eIxFree e b c h-\u003ei b c h",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "Free",
           "package": "indexed-free",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Trans Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "Free",
           "package": "indexed-free",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "IxFreeF",
           "package": "indexed-free",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Trans Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "IxFreeF",
           "package": "indexed-free",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "IxFreeT",
           "package": "indexed-free",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Trans Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "IxFreeT",
           "package": "indexed-free",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "Free",
           "package": "indexed-free",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Trans Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "Free",
           "normalized": "a b c(IxFreeT a d c e f)-\u003eIxFreeF a d b e f",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "IxFreeT",
           "package": "indexed-free",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Trans Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "IxFreeT",
           "package": "indexed-free",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "Pure",
           "package": "indexed-free",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Trans Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "Pure",
           "normalized": "a-\u003eIxFreeF b c d d a",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "runIxFreeT",
           "package": "indexed-free",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Trans Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "runIxFreeT",
           "package": "indexed-free",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "transIxFreeT",
           "package": "indexed-free",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Indexed Trans Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.Monad.Indexed.Trans.Free",
           "name": "transIxFreeT",
           "normalized": "(a b c d e b c f-\u003eg b c f)-\u003eIxFreeT e h b c i-\u003eIxFreeT g h b c i",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.MonadPlus.Indexed.Free",
           "name": "Free",
           "package": "indexed-free",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Control MonadPlus Indexed Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.MonadPlus.Indexed.Free",
           "name": "Free",
           "package": "indexed-free",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.MonadPlus.Indexed.Free",
           "name": "IxFree",
           "package": "indexed-free",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Control MonadPlus Indexed Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.MonadPlus.Indexed.Free",
           "name": "IxFree",
           "package": "indexed-free",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.MonadPlus.Indexed.Free",
           "name": "Free",
           "package": "indexed-free",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Control MonadPlus Indexed Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.MonadPlus.Indexed.Free",
           "name": "Free",
           "normalized": "a b c(IxFree a c d e)-\u003eIxFree a b d e",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.MonadPlus.Indexed.Free",
           "name": "Plus",
           "package": "indexed-free",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Control MonadPlus Indexed Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.MonadPlus.Indexed.Free",
           "name": "Plus",
           "normalized": "[IxFree a b c d]-\u003eIxFree a b c d",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:36 UTC 2014",
           "module": "Control.MonadPlus.Indexed.Free",
           "name": "Pure",
           "package": "indexed-free",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Control MonadPlus Indexed Free",
+          "indexed": "2014-03-11T18:57:36",
           "module": "Control.MonadPlus.Indexed.Free",
           "name": "Pure",
           "normalized": "a-\u003eIxFree b c c a",

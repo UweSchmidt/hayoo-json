@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "repa-bytestring"
+        "phrase": "repa-bytestring",
+        "type": "phrase"
       },
       "type": "context"
     }

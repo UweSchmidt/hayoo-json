@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ix-shapable"
+        "phrase": "ix-shapable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:38 UTC 2014",
           "module": "Data.Ix.Shapable",
           "name": "Shapable",
           "package": "ix-shapable",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Ix Shapable",
+          "indexed": "2014-03-11T19:00:38",
           "module": "Data.Ix.Shapable",
           "name": "Shapable",
           "package": "ix-shapable",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe need this type class to distinguish between different tuples of Ix.\n There are Shapable instances for homogenous Int tuples, but may Haddock\n doesn't see them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:38 UTC 2014",
           "module": "Data.Ix.Shapable",
           "name": "Shapable",
           "package": "ix-shapable",
@@ -49,6 +52,7 @@
         "index": {
           "description": "We need this type class to distinguish between different tuples of Ix There are Shapable instances for homogenous Int tuples but may Haddock doesn see them",
           "hierarchy": "Data Ix Shapable",
+          "indexed": "2014-03-11T19:00:38",
           "module": "Data.Ix.Shapable",
           "name": "Shapable",
           "package": "ix-shapable",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the rank of an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:38 UTC 2014",
           "module": "Data.Ix.Shapable",
           "name": "rank",
           "package": "ix-shapable",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Determine the rank of an array",
           "hierarchy": "Data Ix Shapable",
+          "indexed": "2014-03-11T19:00:38",
           "module": "Data.Ix.Shapable",
           "name": "rank",
           "normalized": "a b c-\u003eInt",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:38 UTC 2014",
           "module": "Data.Ix.Shapable",
           "name": "sBounds",
           "package": "ix-shapable",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Ix Shapable",
+          "indexed": "2014-03-11T19:00:38",
           "module": "Data.Ix.Shapable",
           "name": "sBounds",
           "normalized": "[Int]-\u003e(a,a)",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:38 UTC 2014",
           "module": "Data.Ix.Shapable",
           "name": "sRank",
           "package": "ix-shapable",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Data Ix Shapable",
+          "indexed": "2014-03-11T19:00:38",
           "module": "Data.Ix.Shapable",
           "name": "sRank",
           "normalized": "a-\u003eInt",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:38 UTC 2014",
           "module": "Data.Ix.Shapable",
           "name": "sShape",
           "package": "ix-shapable",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Data Ix Shapable",
+          "indexed": "2014-03-11T19:00:38",
           "module": "Data.Ix.Shapable",
           "name": "sShape",
           "normalized": "a-\u003ea-\u003e[Int]",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanonical representation of the shape.\n The following properties hold:\n     'length . shape = rank'\n     'product . shape = size'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:38 UTC 2014",
           "module": "Data.Ix.Shapable",
           "name": "shape",
           "package": "ix-shapable",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Canonical representation of the shape The following properties hold length shape rank product shape size",
           "hierarchy": "Data Ix Shapable",
+          "indexed": "2014-03-11T19:00:38",
           "module": "Data.Ix.Shapable",
           "name": "shape",
           "normalized": "a b c-\u003e[Int]",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow much the offset changes when you move one element in the given\n direction.  Since arrays are in row-major order, 'last . shapeToStride = const 1'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:38 UTC 2014",
           "module": "Data.Ix.Shapable",
           "name": "shapeToStride",
           "package": "ix-shapable",
@@ -195,6 +210,7 @@
         "index": {
           "description": "How much the offset changes when you move one element in the given direction Since arrays are in row-major order last shapeToStride const",
           "hierarchy": "Data Ix Shapable",
+          "indexed": "2014-03-11T19:00:38",
           "module": "Data.Ix.Shapable",
           "name": "shapeToStride",
           "normalized": "[Int]-\u003e[Int]",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the Array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:38 UTC 2014",
           "module": "Data.Ix.Shapable",
           "name": "size",
           "package": "ix-shapable",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Number of elements in the Array",
           "hierarchy": "Data Ix Shapable",
+          "indexed": "2014-03-11T19:00:38",
           "module": "Data.Ix.Shapable",
           "name": "size",
           "normalized": "a b c-\u003eInt",

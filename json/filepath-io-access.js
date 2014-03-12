@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "filepath-io-access"
+        "phrase": "filepath-io-access",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:02 UTC 2014",
           "module": "Access.System.FilePath.Posix",
           "name": "Posix",
           "package": "filepath-io-access",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Access System FilePath Posix",
+          "indexed": "2014-03-11T18:09:02",
           "module": "Access.System.FilePath.Posix",
           "name": "Posix",
           "package": "filepath-io-access",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:02 UTC 2014",
           "module": "Access.System.FilePath.Posix",
           "name": "FilePathAccess",
           "package": "filepath-io-access",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Access System FilePath Posix",
+          "indexed": "2014-03-11T18:09:02",
           "module": "Access.System.FilePath.Posix",
           "name": "FilePathAccess",
           "package": "filepath-io-access",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:02 UTC 2014",
           "module": "Access.System.FilePath.Posix",
           "name": "getSearchPath'",
           "package": "filepath-io-access",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Access System FilePath Posix",
+          "indexed": "2014-03-11T18:09:02",
           "module": "Access.System.FilePath.Posix",
           "name": "getSearchPath'",
           "normalized": "a[FilePath]",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:02 UTC 2014",
           "module": "Access.System.FilePath.Windows",
           "name": "Windows",
           "package": "filepath-io-access",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Access System FilePath Windows",
+          "indexed": "2014-03-11T18:09:02",
           "module": "Access.System.FilePath.Windows",
           "name": "Windows",
           "package": "filepath-io-access",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:02 UTC 2014",
           "module": "Access.System.FilePath.Windows",
           "name": "FilePathAccess",
           "package": "filepath-io-access",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Access System FilePath Windows",
+          "indexed": "2014-03-11T18:09:02",
           "module": "Access.System.FilePath.Windows",
           "name": "FilePathAccess",
           "package": "filepath-io-access",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:02 UTC 2014",
           "module": "Access.System.FilePath.Windows",
           "name": "getSearchPath'",
           "package": "filepath-io-access",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Access System FilePath Windows",
+          "indexed": "2014-03-11T18:09:02",
           "module": "Access.System.FilePath.Windows",
           "name": "getSearchPath'",
           "normalized": "a[FilePath]",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:02 UTC 2014",
           "module": "Access.System.FilePath",
           "name": "FilePath",
           "package": "filepath-io-access",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Access System FilePath",
+          "indexed": "2014-03-11T18:09:02",
           "module": "Access.System.FilePath",
           "name": "FilePath",
           "package": "filepath-io-access",

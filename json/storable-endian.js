@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "storable-endian"
+        "phrase": "storable-endian",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStorable instances with endianness.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:11:39 UTC 2014",
           "module": "Data.Storable.Endian",
           "name": "Endian",
           "package": "storable-endian",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Storable instances with endianness",
           "hierarchy": "Data Storable Endian",
+          "indexed": "2014-03-11T20:11:39",
           "module": "Data.Storable.Endian",
           "name": "Endian",
           "package": "storable-endian",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:39 UTC 2014",
           "module": "Data.Storable.Endian",
           "name": "BigEndian",
           "package": "storable-endian",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Storable Endian",
+          "indexed": "2014-03-11T20:11:39",
           "module": "Data.Storable.Endian",
           "name": "BigEndian",
           "package": "storable-endian",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:39 UTC 2014",
           "module": "Data.Storable.Endian",
           "name": "HasBigEndian",
           "package": "storable-endian",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Storable Endian",
+          "indexed": "2014-03-11T20:11:39",
           "module": "Data.Storable.Endian",
           "name": "HasBigEndian",
           "package": "storable-endian",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:39 UTC 2014",
           "module": "Data.Storable.Endian",
           "name": "HasLittleEndian",
           "package": "storable-endian",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Storable Endian",
+          "indexed": "2014-03-11T20:11:39",
           "module": "Data.Storable.Endian",
           "name": "HasLittleEndian",
           "package": "storable-endian",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:39 UTC 2014",
           "module": "Data.Storable.Endian",
           "name": "LittleEndian",
           "package": "storable-endian",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Storable Endian",
+          "indexed": "2014-03-11T20:11:39",
           "module": "Data.Storable.Endian",
           "name": "LittleEndian",
           "package": "storable-endian",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:39 UTC 2014",
           "module": "Data.Storable.Endian",
           "name": "BE",
           "package": "storable-endian",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Storable Endian",
+          "indexed": "2014-03-11T20:11:39",
           "module": "Data.Storable.Endian",
           "name": "BE",
           "package": "storable-endian",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:39 UTC 2014",
           "module": "Data.Storable.Endian",
           "name": "LE",
           "package": "storable-endian",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Storable Endian",
+          "indexed": "2014-03-11T20:11:39",
           "module": "Data.Storable.Endian",
           "name": "LE",
           "package": "storable-endian",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:39 UTC 2014",
           "module": "Data.Storable.Endian",
           "name": "peekBE",
           "package": "storable-endian",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Storable Endian",
+          "indexed": "2014-03-11T20:11:39",
           "module": "Data.Storable.Endian",
           "name": "peekBE",
           "normalized": "Ptr a-\u003eIO a",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:39 UTC 2014",
           "module": "Data.Storable.Endian",
           "name": "peekLE",
           "package": "storable-endian",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data Storable Endian",
+          "indexed": "2014-03-11T20:11:39",
           "module": "Data.Storable.Endian",
           "name": "peekLE",
           "normalized": "Ptr a-\u003eIO a",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:39 UTC 2014",
           "module": "Data.Storable.Endian",
           "name": "pokeBE",
           "package": "storable-endian",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Data Storable Endian",
+          "indexed": "2014-03-11T20:11:39",
           "module": "Data.Storable.Endian",
           "name": "pokeBE",
           "normalized": "Ptr a-\u003ea-\u003eIO()",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:39 UTC 2014",
           "module": "Data.Storable.Endian",
           "name": "pokeLE",
           "package": "storable-endian",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Data Storable Endian",
+          "indexed": "2014-03-11T20:11:39",
           "module": "Data.Storable.Endian",
           "name": "pokeLE",
           "normalized": "Ptr a-\u003ea-\u003eIO()",

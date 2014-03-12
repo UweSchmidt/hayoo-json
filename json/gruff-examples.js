@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gruff-examples"
+        "phrase": "gruff-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

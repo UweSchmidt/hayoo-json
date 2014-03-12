@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zoom-cache-pcm"
+        "phrase": "zoom-cache-pcm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eZoomCache PCM enumeratee conversions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Enumeratee",
           "name": "Enumeratee",
           "package": "zoom-cache-pcm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "ZoomCache PCM enumeratee conversions",
           "hierarchy": "Data ZoomCache PCM Enumeratee",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Enumeratee",
           "name": "Enumeratee",
           "package": "zoom-cache-pcm",
@@ -196,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault codec implementation for PCM Audio of type Float and Double.\nThis module implements the interfaces documented in \u003ca\u003eData.ZoomCache.Codec\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThe table below describes the encoding of SummaryData for PCM.Float.\n\u003c/p\u003e\u003cpre\u003e\n   | ...                                                           |   -35\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Min (float)                                                   | 36-39\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Max (float)                                                   | 40-43\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Mean [DC Bias] (float)                                        | 44-47\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | RMS (float)                                                   | 48-51\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n\u003c/pre\u003e\u003cp\u003eThe table below describes the encoding of SummaryData for PCM.Double.\n\u003c/p\u003e\u003cpre\u003e\n   | ...                                                           |   -35\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Min (double)                                                  | 36-39\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 40-43\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Max (double)                                                  | 44-47\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 48-51\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Mean [DC Bias] (double)                                       | 52-55\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 56-59\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | RMS (double)                                                  | 60-63\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 64-67\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n\u003c/pre\u003e\u003cp\u003eField encoding formats:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003efloat\u003c/code\u003e:  big-endian IEEE 754-2008 binary32 (IEEE 754-1985 single)\n  \u003ccode\u003edouble\u003c/code\u003e: big-endian IEEE 754-2008 binary64 (IEEE 754-1985 double)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.IEEE754",
           "name": "IEEE754",
           "package": "zoom-cache-pcm",
@@ -205,6 +208,7 @@
         "index": {
           "description": "Default codec implementation for PCM Audio of type Float and Double This module implements the interfaces documented in Data.ZoomCache.Codec The table below describes the encoding of SummaryData for PCM.Float Min float Max float Mean DC Bias float RMS float The table below describes the encoding of SummaryData for PCM.Double Min double Max double Mean DC Bias double RMS double Field encoding formats float big-endian IEEE binary32 IEEE single double big-endian IEEE binary64 IEEE double",
           "hierarchy": "Data ZoomCache PCM IEEE754",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.IEEE754",
           "name": "IEEE754",
           "package": "zoom-cache-pcm",
@@ -267,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault codec implementation for PCM Audio of type Int. This module\nimplements the interfaces documented in \u003ca\u003eData.ZoomCache.Codec\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThe table below describes the encoding of SummaryData for 'PCM Int16':\n\u003c/p\u003e\u003cpre\u003e\n   | ...                                                           |   -35\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Min (int16)                     | Max (int16)                 | 36-39\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Mean [DC Bias] (double)                                       | 40-43\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 44-47\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | RMS (double)                                                  | 48-51\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 52-55\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n\u003c/pre\u003e\u003cp\u003eThe table below describes the encoding of SummaryData for 'PCM Int' and\n'PCM Int32':\n\u003c/p\u003e\u003cpre\u003e\n   | ...                                                           |   -35\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Min (int32)                                                   | 36-39\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Max (int32)                                                   | 40-43\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Mean [DC Bias] (double)                                       | 44-47\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 48-51\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | RMS (double)                                                  | 52-55\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 56-59\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n\u003c/pre\u003e\u003cp\u003eThe table below describes the encoding of SummaryData for 'PCM Int64':\n\u003c/p\u003e\u003cpre\u003e\n   | ...                                                           |   -35\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Min (int64)                                                   | 36-39\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 40-43\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Max (int64)                                                   | 44-47\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 48-51\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | Mean [DC Bias] (double)                                       | 52-55\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 56-59\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   | RMS (double)                                                  | 60-63\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n   |                                                               | 64-67\n   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n\u003c/pre\u003e\u003cp\u003eField encoding formats:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eint32\u003c/code\u003e:  32bit big endian\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eint64\u003c/code\u003e:  64bit big endian\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003edouble\u003c/code\u003e: big-endian IEEE 754-2008 binary64 (IEEE 754-1985 double)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Int",
           "name": "Int",
           "package": "zoom-cache-pcm",
@@ -276,6 +281,7 @@
         "index": {
           "description": "Default codec implementation for PCM Audio of type Int This module implements the interfaces documented in Data.ZoomCache.Codec The table below describes the encoding of SummaryData for PCM Int16 Min int16 Max int16 Mean DC Bias double RMS double The table below describes the encoding of SummaryData for PCM Int and PCM Int32 Min int32 Max int32 Mean DC Bias double RMS double The table below describes the encoding of SummaryData for PCM Int64 Min int64 Max int64 Mean DC Bias double RMS double Field encoding formats int32 bit big endian int64 bit big endian double big-endian IEEE binary64 IEEE double",
           "hierarchy": "Data ZoomCache PCM Int",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Int",
           "name": "Int",
           "package": "zoom-cache-pcm",
@@ -289,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "Internal",
           "package": "zoom-cache-pcm",
@@ -297,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Internal",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "Internal",
           "package": "zoom-cache-pcm",
@@ -310,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "appendSummaryPCM",
           "package": "zoom-cache-pcm",
@@ -319,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Internal",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "appendSummaryPCM",
           "normalized": "SampleOffsetDiff-\u003eSummaryData(PCM a)-\u003eSampleOffsetDiff-\u003eSummaryData(PCM a)-\u003eSummaryData(PCM a)",
@@ -334,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "deltaDecodePCM",
           "package": "zoom-cache-pcm",
@@ -343,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Internal",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "deltaDecodePCM",
           "normalized": "[PCM a]-\u003e[PCM a]",
@@ -358,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "deltaEncodePCM",
           "package": "zoom-cache-pcm",
@@ -367,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Internal",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "deltaEncodePCM",
           "normalized": "SummaryWork(PCM a)-\u003ePCM a-\u003ePCM a",
@@ -382,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "fromSummaryPCM",
           "package": "zoom-cache-pcm",
@@ -391,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Internal",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "fromSummaryPCM",
           "normalized": "SummaryData(PCM a)-\u003eBuilder",
@@ -406,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "initSummaryPCMBounded",
           "package": "zoom-cache-pcm",
@@ -415,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Internal",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "initSummaryPCMBounded",
           "normalized": "SampleOffset-\u003eSummaryWork(PCM a)",
@@ -430,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "mkSummaryPCM",
           "package": "zoom-cache-pcm",
@@ -439,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Internal",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "mkSummaryPCM",
           "normalized": "SampleOffsetDiff-\u003eSummaryWork(PCM a)-\u003eSummaryData(PCM a)",
@@ -454,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "readSummaryPCM",
           "package": "zoom-cache-pcm",
@@ -463,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Internal",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "readSummaryPCM",
           "package": "zoom-cache-pcm",
@@ -476,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "updateSummaryPCM",
           "package": "zoom-cache-pcm",
@@ -485,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Internal",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Internal",
           "name": "updateSummaryPCM",
           "normalized": "SampleOffset-\u003ePCM a-\u003eSummaryWork(PCM a)-\u003eSummaryWork(PCM a)",
@@ -500,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "Types",
           "package": "zoom-cache-pcm",
@@ -508,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "Types",
           "package": "zoom-cache-pcm",
@@ -521,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "PCM",
           "package": "zoom-cache-pcm",
@@ -529,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "PCM",
           "package": "zoom-cache-pcm",
@@ -542,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "ZoomPCM",
           "package": "zoom-cache-pcm",
@@ -550,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "ZoomPCM",
           "package": "zoom-cache-pcm",
@@ -586,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmAvg",
           "package": "zoom-cache-pcm",
@@ -595,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmAvg",
           "normalized": "SummaryData(PCM a)-\u003eDouble",
@@ -610,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmFromRaw",
           "package": "zoom-cache-pcm",
@@ -619,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmFromRaw",
           "normalized": "a-\u003eBuilder",
@@ -634,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmMax",
           "package": "zoom-cache-pcm",
@@ -643,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmMax",
           "normalized": "SummaryData(PCM a)-\u003ea",
@@ -658,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmMin",
           "package": "zoom-cache-pcm",
@@ -667,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmMin",
           "normalized": "SummaryData(PCM a)-\u003ea",
@@ -682,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmMkSummary",
           "package": "zoom-cache-pcm",
@@ -691,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmMkSummary",
           "normalized": "a-\u003ea-\u003eDouble-\u003eDouble-\u003eSummaryData(PCM a)",
@@ -706,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmMkSummaryWork",
           "package": "zoom-cache-pcm",
@@ -715,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmMkSummaryWork",
           "normalized": "SampleOffset-\u003ea-\u003ea-\u003ea-\u003eDouble-\u003eDouble-\u003eSummaryWork(PCM a)",
@@ -730,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmRMS",
           "package": "zoom-cache-pcm",
@@ -739,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmRMS",
           "normalized": "SummaryData(PCM a)-\u003eDouble",
@@ -754,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkLast",
           "package": "zoom-cache-pcm",
@@ -763,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkLast",
           "normalized": "SummaryWork(PCM a)-\u003ea",
@@ -778,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkMax",
           "package": "zoom-cache-pcm",
@@ -787,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkMax",
           "normalized": "SummaryWork(PCM a)-\u003ea",
@@ -802,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkMin",
           "package": "zoom-cache-pcm",
@@ -811,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkMin",
           "normalized": "SummaryWork(PCM a)-\u003ea",
@@ -826,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkSO",
           "package": "zoom-cache-pcm",
@@ -835,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkSO",
           "normalized": "SummaryWork(PCM a)-\u003eSampleOffset",
@@ -850,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkSum",
           "package": "zoom-cache-pcm",
@@ -859,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkSum",
           "normalized": "SummaryWork(PCM a)-\u003eDouble",
@@ -874,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkSumSq",
           "package": "zoom-cache-pcm",
@@ -883,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM Types",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM.Types",
           "name": "pcmWorkSumSq",
           "normalized": "SummaryWork(PCM a)-\u003eDouble",
@@ -921,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "PCM",
           "package": "zoom-cache-pcm",
@@ -929,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "PCM",
           "package": "zoom-cache-pcm",
@@ -942,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "PCM",
           "package": "zoom-cache-pcm",
@@ -950,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "PCM",
           "package": "zoom-cache-pcm",
@@ -963,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "ZoomPCM",
           "package": "zoom-cache-pcm",
@@ -971,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "ZoomPCM",
           "package": "zoom-cache-pcm",
@@ -984,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmAvg",
           "package": "zoom-cache-pcm",
@@ -993,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmAvg",
           "normalized": "SummaryData(PCM a)-\u003eDouble",
@@ -1008,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmFromRaw",
           "package": "zoom-cache-pcm",
@@ -1017,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmFromRaw",
           "normalized": "a-\u003eBuilder",
@@ -1032,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmIdentifiers",
           "package": "zoom-cache-pcm",
@@ -1041,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmIdentifiers",
           "normalized": "[ByteString-\u003eMaybe Codec]",
@@ -1056,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmMax",
           "package": "zoom-cache-pcm",
@@ -1065,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmMax",
           "normalized": "SummaryData(PCM a)-\u003ea",
@@ -1080,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmMin",
           "package": "zoom-cache-pcm",
@@ -1089,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmMin",
           "normalized": "SummaryData(PCM a)-\u003ea",
@@ -1104,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmMkSummary",
           "package": "zoom-cache-pcm",
@@ -1113,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmMkSummary",
           "normalized": "a-\u003ea-\u003eDouble-\u003eDouble-\u003eSummaryData(PCM a)",
@@ -1128,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmMkSummaryWork",
           "package": "zoom-cache-pcm",
@@ -1137,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmMkSummaryWork",
           "normalized": "SampleOffset-\u003ea-\u003ea-\u003ea-\u003eDouble-\u003eDouble-\u003eSummaryWork(PCM a)",
@@ -1152,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmRMS",
           "package": "zoom-cache-pcm",
@@ -1161,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmRMS",
           "normalized": "SummaryData(PCM a)-\u003eDouble",
@@ -1176,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkLast",
           "package": "zoom-cache-pcm",
@@ -1185,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkLast",
           "normalized": "SummaryWork(PCM a)-\u003ea",
@@ -1200,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkMax",
           "package": "zoom-cache-pcm",
@@ -1209,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkMax",
           "normalized": "SummaryWork(PCM a)-\u003ea",
@@ -1224,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkMin",
           "package": "zoom-cache-pcm",
@@ -1233,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkMin",
           "normalized": "SummaryWork(PCM a)-\u003ea",
@@ -1248,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkSO",
           "package": "zoom-cache-pcm",
@@ -1257,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkSO",
           "normalized": "SummaryWork(PCM a)-\u003eSampleOffset",
@@ -1272,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkSum",
           "package": "zoom-cache-pcm",
@@ -1281,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkSum",
           "normalized": "SummaryWork(PCM a)-\u003eDouble",
@@ -1296,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:45 UTC 2014",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkSumSq",
           "package": "zoom-cache-pcm",
@@ -1305,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Data ZoomCache PCM",
+          "indexed": "2014-03-11T20:48:45",
           "module": "Data.ZoomCache.PCM",
           "name": "pcmWorkSumSq",
           "normalized": "SummaryWork(PCM a)-\u003eDouble",

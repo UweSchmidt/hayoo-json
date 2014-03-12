@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crc16-table"
+        "phrase": "crc16-table",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompute CRC16 checksums using a lookup table.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:49 UTC 2014",
           "module": "Data.Digest.Table.CRC16",
           "name": "CRC16",
           "package": "crc16-table",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Compute CRC16 checksums using lookup table",
           "hierarchy": "Data Digest Table CRC16",
+          "indexed": "2014-03-11T17:42:49",
           "module": "Data.Digest.Table.CRC16",
           "name": "CRC16",
           "package": "crc16-table",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the CRC16 checksum of some bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:49 UTC 2014",
           "module": "Data.Digest.Table.CRC16",
           "name": "crc16",
           "package": "crc16-table",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Compute the CRC16 checksum of some bytes",
           "hierarchy": "Data Digest Table CRC16",
+          "indexed": "2014-03-11T17:42:49",
           "module": "Data.Digest.Table.CRC16",
           "name": "crc16",
           "normalized": "[Word]-\u003eWord",

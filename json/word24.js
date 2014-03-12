@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "word24"
+        "phrase": "word24",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe 24 bit integral datatype, \u003ccode\u003e\u003ca\u003eInt24\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:34 UTC 2014",
           "module": "Data.Int.Int24",
           "name": "Int24",
           "package": "word24",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The bit integral datatype Int24",
           "hierarchy": "Data Int Int24",
+          "indexed": "2014-03-11T20:39:34",
           "module": "Data.Int.Int24",
           "name": "Int24",
           "package": "word24",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e24-bit signed integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:34 UTC 2014",
           "module": "Data.Int.Int24",
           "name": "Int24",
           "package": "word24",
@@ -51,6 +54,7 @@
         "index": {
           "description": "bit signed integer type",
           "hierarchy": "Data Int Int24",
+          "indexed": "2014-03-11T20:39:34",
           "module": "Data.Int.Int24",
           "name": "Int24",
           "package": "word24",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:34 UTC 2014",
           "module": "Data.Int.Int24",
           "name": "I24#",
           "package": "word24",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Int Int24",
+          "indexed": "2014-03-11T20:39:34",
           "module": "Data.Int.Int24",
           "name": "I24#",
           "package": "word24",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:34 UTC 2014",
           "module": "Data.Int.Int24",
           "name": "narrow24Int#",
           "package": "word24",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Int Int24",
+          "indexed": "2014-03-11T20:39:34",
           "module": "Data.Int.Int24",
           "name": "narrow24Int#",
           "normalized": "Int #-\u003eInt #",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:34 UTC 2014",
           "module": "Data.Word.Word24",
           "name": "Word24",
           "package": "word24",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Word Word24",
+          "indexed": "2014-03-11T20:39:34",
           "module": "Data.Word.Word24",
           "name": "Word24",
           "package": "word24",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e24-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:34 UTC 2014",
           "module": "Data.Word.Word24",
           "name": "Word24",
           "package": "word24",
@@ -140,6 +151,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Data Word Word24",
+          "indexed": "2014-03-11T20:39:34",
           "module": "Data.Word.Word24",
           "name": "Word24",
           "package": "word24",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:34 UTC 2014",
           "module": "Data.Word.Word24",
           "name": "W24#",
           "package": "word24",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Word Word24",
+          "indexed": "2014-03-11T20:39:34",
           "module": "Data.Word.Word24",
           "name": "W24#",
           "package": "word24",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:34 UTC 2014",
           "module": "Data.Word.Word24",
           "name": "narrow24Word#",
           "package": "word24",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data Word Word24",
+          "indexed": "2014-03-11T20:39:34",
           "module": "Data.Word.Word24",
           "name": "narrow24Word#",
           "normalized": "Word #-\u003eWord #",

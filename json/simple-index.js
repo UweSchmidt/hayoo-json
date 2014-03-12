@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-index"
+        "phrase": "simple-index",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "SimpleIndex",
           "package": "simple-index",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "SimpleIndex",
           "package": "simple-index",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "Indexed",
           "package": "simple-index",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "Indexed",
           "package": "simple-index",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "SimpleIx",
           "package": "simple-index",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "SimpleIx",
           "package": "simple-index",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "create",
           "package": "simple-index",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "create",
           "package": "simple-index",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this function to create an Indexed data type with only 1 index for your type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "create1",
           "package": "simple-index",
@@ -112,6 +121,7 @@
         "index": {
           "description": "Use this function to create an Indexed data type with only index for your type",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "create1",
           "normalized": "(a-\u003eb)-\u003eIndexed a b()()()()()",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an Indexed data type with 2 indexes for your type\n create2 :: forall a i1 i2 i3 i4 i5 i6. (Eq i1, Eq i2, Eq i3, Eq i4, Eq i5, Eq i6, Hashable i1,\n          Hashable i2, Hashable i3, Hashable i4, Hashable i5, Hashable i6, SafeCopy a) \n        =\u003e (a -\u003e i1) \n        -- ^ The function that returns the first index for your datatype\n        -\u003e (a -\u003e i2) \n        -- ^ The function that returns the second index for your datatype\n        -\u003e Indexed a i1 i2 i3 i4 i5 i6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "create2",
           "package": "simple-index",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Create an Indexed data type with indexes for your type create2 forall i1 i2 i3 i4 i5 i6 Eq i1 Eq i2 Eq i3 Eq i4 Eq i5 Eq i6 Hashable i1 Hashable i2 Hashable i3 Hashable i4 Hashable i5 Hashable i6 SafeCopy i1 The function that returns the first index for your datatype i2 The function that returns the second index for your datatype Indexed i1 i2 i3 i4 i5 i6",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "create2",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003eIndexed a b b b b b b",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an Indexed data type with 3 indexes for your type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "create3",
           "package": "simple-index",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Create an Indexed data type with indexes for your type",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "create3",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003eIndexed a b b b()()()",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an Indexed data type with 4 indexes for your type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "create4",
           "package": "simple-index",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Create an Indexed data type with indexes for your type",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "create4",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003eIndexed a b b b b()()",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an Indexed data type with 5 indexes for your type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "create5",
           "package": "simple-index",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Create an Indexed data type with indexes for your type",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "create5",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003eIndexed a b b b b b()",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an Indexed data type with 6 indexes for your type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "create6",
           "package": "simple-index",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Create an Indexed data type with indexes for your type",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "create6",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003eIndexed a b b b b b b",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes a value from the Indexed data type and updates all the information\n in the indexes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "ixDelete",
           "package": "simple-index",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Deletes value from the Indexed data type and updates all the information in the indexes",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "ixDelete",
           "normalized": "Indexed a b c c c c c-\u003ea-\u003eIndexed a b c c c c c",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a new value into the Indexed data type and updates all the information\n in the indexes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "ixInsert",
           "package": "simple-index",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Inserts new value into the Indexed data type and updates all the information in the indexes",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "ixInsert",
           "normalized": "Indexed a b b b b b c-\u003ea-\u003eIndexed a b b b b b c",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads your datatype from the Indexed data by looking up a first index value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "ixRead1",
           "package": "simple-index",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Reads your datatype from the Indexed data by looking up first index value",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "ixRead1",
           "normalized": "a-\u003eIndexed b a c c c c c-\u003eMaybe b",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads your datatype from the Indexed data by looking up a value on the second index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "ixRead2",
           "package": "simple-index",
@@ -336,6 +363,7 @@
         "index": {
           "description": "Reads your datatype from the Indexed data by looking up value on the second index",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "ixRead2",
           "normalized": "a-\u003eIndexed b c a c c c c-\u003eMaybe b",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads your datatype from the Indexed data by looking up a value on the third index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "ixRead3",
           "package": "simple-index",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Reads your datatype from the Indexed data by looking up value on the third index",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "ixRead3",
           "normalized": "a-\u003eIndexed b c c a c c c-\u003eMaybe b",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads your datatype from the Indexed data by looking up a value on the fourth index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "ixRead4",
           "package": "simple-index",
@@ -388,6 +419,7 @@
         "index": {
           "description": "Reads your datatype from the Indexed data by looking up value on the fourth index",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "ixRead4",
           "normalized": "a-\u003eIndexed b c c c a c c-\u003eMaybe b",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads your datatype from the Indexed data by looking up a value on the fifth index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "ixRead5",
           "package": "simple-index",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Reads your datatype from the Indexed data by looking up value on the fifth index",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "ixRead5",
           "normalized": "a-\u003eIndexed b c c c c a c-\u003eMaybe b",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads your datatype from the Indexed data by looking up a value on the sixth index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "ixRead6",
           "package": "simple-index",
@@ -440,6 +475,7 @@
         "index": {
           "description": "Reads your datatype from the Indexed data by looking up value on the sixth index",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "ixRead6",
           "normalized": "a-\u003eIndexed b c c c c c a-\u003eMaybe b",
@@ -456,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates a value in the Indexed data type and all the information\n in the indexes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:43 UTC 2014",
           "module": "Data.SimpleIndex",
           "name": "ixUpdate",
           "package": "simple-index",
@@ -466,6 +503,7 @@
         "index": {
           "description": "Updates value in the Indexed data type and all the information in the indexes",
           "hierarchy": "Data SimpleIndex",
+          "indexed": "2014-03-11T20:02:43",
           "module": "Data.SimpleIndex",
           "name": "ixUpdate",
           "normalized": "Indexed a b c c c c c-\u003eb-\u003e(a-\u003ea)-\u003eMaybe(Indexed a b c c c c c)",

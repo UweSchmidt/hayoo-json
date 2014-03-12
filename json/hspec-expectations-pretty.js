@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspec-expectations-pretty"
+        "phrase": "hspec-expectations-pretty",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:56 UTC 2014",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "Pretty",
           "package": "hspec-expectations-pretty",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations Pretty",
+          "indexed": "2014-03-11T18:49:56",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "Pretty",
           "package": "hspec-expectations-pretty",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:56 UTC 2014",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "HspecFailure",
           "package": "hspec-expectations-pretty",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations Pretty",
+          "indexed": "2014-03-11T18:49:56",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "HspecFailure",
           "package": "hspec-expectations-pretty",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:56 UTC 2014",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "HspecFailure",
           "package": "hspec-expectations-pretty",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations Pretty",
+          "indexed": "2014-03-11T18:49:56",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "HspecFailure",
           "package": "hspec-expectations-pretty",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsserts that the specified actual value is equal to the expected value.\n The output message will contain the prefix, the expected value, and the \n actual value.\n\u003c/p\u003e\u003cp\u003eIf the prefix is the empty string (i.e., \u003ccode\u003e\"\"\u003c/code\u003e), then the prefix is omitted\n and only the expected and actual values are output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:56 UTC 2014",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "assertEqual",
           "package": "hspec-expectations-pretty",
@@ -92,6 +99,7 @@
         "index": {
           "description": "Asserts that the specified actual value is equal to the expected value The output message will contain the prefix the expected value and the actual value If the prefix is the empty string i.e then the prefix is omitted and only the expected and actual values are output",
           "hierarchy": "Test Hspec Expectations Pretty",
+          "indexed": "2014-03-11T18:49:56",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "assertEqual",
           "normalized": "String-\u003ea-\u003ea-\u003eExpectation",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:56 UTC 2014",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "assertFailure",
           "package": "hspec-expectations-pretty",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations Pretty",
+          "indexed": "2014-03-11T18:49:56",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "assertFailure",
           "normalized": "String-\u003eExpectation",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eactual `shouldBe` expected\u003c/code\u003e sets the expectation that \u003ccode\u003eactual\u003c/code\u003e is equal\n to \u003ccode\u003eexpected\u003c/code\u003e (this is just an alias for \u003ccode\u003e@?=\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:56 UTC 2014",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "shouldBe",
           "package": "hspec-expectations-pretty",
@@ -141,6 +152,7 @@
         "index": {
           "description": "actual shouldBe expected sets the expectation that actual is equal to expected this is just an alias for",
           "hierarchy": "Test Hspec Expectations Pretty",
+          "indexed": "2014-03-11T18:49:56",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "shouldBe",
           "normalized": "a-\u003ea-\u003eExpectation",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaction `shouldReturn` expected\u003c/code\u003e sets the expectation that \u003ccode\u003eaction\u003c/code\u003e\n returns \u003ccode\u003eexpected\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:56 UTC 2014",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "shouldReturn",
           "package": "hspec-expectations-pretty",
@@ -167,6 +180,7 @@
         "index": {
           "description": "action shouldReturn expected sets the expectation that action returns expected",
           "hierarchy": "Test Hspec Expectations Pretty",
+          "indexed": "2014-03-11T18:49:56",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "shouldReturn",
           "normalized": "IO a-\u003ea-\u003eExpectation",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ev `shouldSatisfy` p\u003c/code\u003e sets the expectation that \u003ccode\u003ep v\u003c/code\u003e is \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:56 UTC 2014",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "shouldSatisfy",
           "package": "hspec-expectations-pretty",
@@ -193,6 +208,7 @@
         "index": {
           "description": "shouldSatisfy sets the expectation that is True",
           "hierarchy": "Test Hspec Expectations Pretty",
+          "indexed": "2014-03-11T18:49:56",
           "module": "Test.Hspec.Expectations.Pretty",
           "name": "shouldSatisfy",
           "normalized": "a-\u003e(a-\u003eBool)-\u003eExpectation",

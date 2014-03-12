@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "holey-format"
+        "phrase": "holey-format",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormatting functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Formatters",
           "name": "Formatters",
           "package": "holey-format",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Formatting functions",
           "hierarchy": "Text Format Formatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Formatters",
           "name": "Formatters",
           "package": "holey-format",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using scientific/engineering\n notation (e.g. 2.3e123), with the given number of decimal places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Formatters",
           "name": "expt",
           "package": "holey-format",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Render floating point number using scientific engineering notation e.g e123 with the given number of decimal places",
           "hierarchy": "Text Format Formatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Formatters",
           "name": "expt",
           "normalized": "Int-\u003eFormat a",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using normal notation, with the\n given number of decimal places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Formatters",
           "name": "fixed",
           "package": "holey-format",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Render floating point number using normal notation with the given number of decimal places",
           "hierarchy": "Text Format Formatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Formatters",
           "name": "fixed",
           "normalized": "Int-\u003eFormat a",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an integer using hexadecimal notation. (No leading 0x is\n added.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Formatters",
           "name": "hex",
           "package": "holey-format",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Render an integer using hexadecimal notation No leading is added",
           "hierarchy": "Text Format Formatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Formatters",
           "name": "hex",
           "package": "holey-format",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad the left hand side of a string until it reaches k characters\n wide, if necessary filling with character c.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Formatters",
           "name": "left",
           "package": "holey-format",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Pad the left hand side of string until it reaches characters wide if necessary filling with character",
           "hierarchy": "Text Format Formatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Formatters",
           "name": "left",
           "normalized": "Int-\u003eChar-\u003eFormat a",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number, with the given number of digits\n of precision. Uses decimal notation for values between 0.1 and\n 9,999,999, and scientific notation otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Formatters",
           "name": "prec",
           "package": "holey-format",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Render floating point number with the given number of digits of precision Uses decimal notation for values between and and scientific notation otherwise",
           "hierarchy": "Text Format Formatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Formatters",
           "name": "prec",
           "normalized": "Int-\u003eFormat a",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad the right hand side of a string until it reaches k characters\n wide, if necessary filling with character c.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Formatters",
           "name": "right",
           "package": "holey-format",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Pad the right hand side of string until it reaches characters wide if necessary filling with character",
           "hierarchy": "Text Format Formatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Formatters",
           "name": "right",
           "normalized": "Int-\u003eChar-\u003eFormat a",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using the smallest number of\n digits that correctly represent it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Formatters",
           "name": "shortest",
           "package": "holey-format",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Render floating point number using the smallest number of digits that correctly represent it",
           "hierarchy": "Text Format Formatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Formatters",
           "name": "shortest",
           "package": "holey-format",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a strict text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Formatters",
           "name": "stext",
           "package": "holey-format",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Output strict text",
           "hierarchy": "Text Format Formatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Formatters",
           "name": "stext",
           "package": "holey-format",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Formatters",
           "name": "string",
           "package": "holey-format",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Output string",
           "hierarchy": "Text Format Formatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Formatters",
           "name": "string",
           "package": "holey-format",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a lazy text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Formatters",
           "name": "text",
           "package": "holey-format",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Output lazy text",
           "hierarchy": "Text Format Formatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Formatters",
           "name": "text",
           "package": "holey-format",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopy of the holey monoids library but with constructor exported.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Holey",
           "name": "Holey",
           "package": "holey-format",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Copy of the holey monoids library but with constructor exported",
           "hierarchy": "Text Format Holey",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Holey",
           "name": "Holey",
           "package": "holey-format",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA formatter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Holey",
           "name": "Format",
           "package": "holey-format",
@@ -314,6 +339,7 @@
         "index": {
           "description": "formatter",
           "hierarchy": "Text Format Holey",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Holey",
           "name": "Format",
           "package": "holey-format",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a monoid with holes. The underlying monoid is\n represented by type parameter \u003ccode\u003em\u003c/code\u003e. The \u003ccode\u003er\u003c/code\u003e is the result type and\n stays polymorphic until the very last moment when \u003ccode\u003erun\u003c/code\u003e is\n called. The last argument \u003ccode\u003ea\u003c/code\u003e is always a function with zero or\n more arguments, finally resulting in \u003ccode\u003er\u003c/code\u003e. Ordering the arguments in\n this order allows holey monoids to be composed using \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e, stacking\n the expected arguments. Note that the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e constraint is only\n used in the identity \u003ccode\u003e\u003ca\u003eHoley\u003c/a\u003e\u003c/code\u003e and in composing two \u003ccode\u003e\u003ca\u003eHoley\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Holey",
           "name": "Holey",
           "package": "holey-format",
@@ -337,6 +364,7 @@
         "index": {
           "description": "The type of monoid with holes The underlying monoid is represented by type parameter The is the result type and stays polymorphic until the very last moment when run is called The last argument is always function with zero or more arguments finally resulting in Ordering the arguments in this order allows holey monoids to be composed using stacking the expected arguments Note that the Monoid constraint is only used in the identity Holey and in composing two Holey",
           "hierarchy": "Text Format Holey",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Holey",
           "name": "Holey",
           "package": "holey-format",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition operator. The same as category composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Holey",
           "name": "(%)",
           "package": "holey-format",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Composition operator The same as category composition",
           "hierarchy": "Text Format Holey",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Holey",
           "name": "(%) %",
           "normalized": "Holey a b c-\u003eHoley a b b-\u003eHoley a b c",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Holey",
           "name": "Holey",
           "package": "holey-format",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Text Format Holey",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Holey",
           "name": "Holey",
           "package": "holey-format",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic indexed bind for holey monoids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Holey",
           "name": "bind",
           "package": "holey-format",
@@ -408,6 +441,7 @@
         "index": {
           "description": "Monadic indexed bind for holey monoids",
           "hierarchy": "Text Format Holey",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Holey",
           "name": "bind",
           "normalized": "Holey a b c-\u003e(a-\u003eHoley d e b)-\u003eHoley d e c",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert between underlying \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Holey",
           "name": "hmap",
           "package": "holey-format",
@@ -433,6 +468,7 @@
         "index": {
           "description": "Convert between underlying Monoid types",
           "hierarchy": "Text Format Holey",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Holey",
           "name": "hmap",
           "normalized": "(a-\u003eb)-\u003eHoley a c d-\u003eHoley b c d",
@@ -448,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a monoidal value that is not specified until the\n computation is \u003ccode\u003erun\u003c/code\u003e. The argument that is expected later is\n converted to the monoid type using the given conversion function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Holey",
           "name": "later",
           "package": "holey-format",
@@ -458,6 +495,7 @@
         "index": {
           "description": "Insert monoidal value that is not specified until the computation is run The argument that is expected later is converted to the monoid type using the given conversion function",
           "hierarchy": "Text Format Holey",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Holey",
           "name": "later",
           "normalized": "(a-\u003eb)-\u003eHoley b c(a-\u003ec)",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a constant monoidal value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Holey",
           "name": "now",
           "package": "holey-format",
@@ -483,6 +522,7 @@
         "index": {
           "description": "Insert constant monoidal value",
           "hierarchy": "Text Format Holey",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Holey",
           "name": "now",
           "normalized": "a-\u003eHoley a b b",
@@ -497,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.Holey",
           "name": "runHM",
           "package": "holey-format",
@@ -506,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Text Format Holey",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.Holey",
           "name": "runHM",
           "normalized": "(a-\u003eb)-\u003ec",
@@ -522,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSingle letters for short formatting.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.ShortFormatters",
           "name": "ShortFormatters",
           "package": "holey-format",
@@ -531,6 +574,7 @@
         "index": {
           "description": "Single letters for short formatting",
           "hierarchy": "Text Format ShortFormatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.ShortFormatters",
           "name": "ShortFormatters",
           "package": "holey-format",
@@ -545,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using scientific/engineering\n notation (e.g. 2.3e123), with the given number of decimal places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.ShortFormatters",
           "name": "ef",
           "package": "holey-format",
@@ -555,6 +600,7 @@
         "index": {
           "description": "Render floating point number using scientific engineering notation e.g e123 with the given number of decimal places",
           "hierarchy": "Text Format ShortFormatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.ShortFormatters",
           "name": "ef",
           "normalized": "Int-\u003eFormat a",
@@ -570,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using normal notation, with the\n given number of decimal places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.ShortFormatters",
           "name": "f",
           "package": "holey-format",
@@ -580,6 +627,7 @@
         "index": {
           "description": "Render floating point number using normal notation with the given number of decimal places",
           "hierarchy": "Text Format ShortFormatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.ShortFormatters",
           "name": "f",
           "normalized": "Int-\u003eFormat a",
@@ -595,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad the left hand side of a string until it reaches k characters\n wide, if necessary filling with character c.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.ShortFormatters",
           "name": "l",
           "package": "holey-format",
@@ -605,6 +654,7 @@
         "index": {
           "description": "Pad the left hand side of string until it reaches characters wide if necessary filling with character",
           "hierarchy": "Text Format ShortFormatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.ShortFormatters",
           "name": "l",
           "normalized": "Int-\u003eChar-\u003eFormat a",
@@ -620,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number, with the given number of digits\n of precision. Uses decimal notation for values between 0.1 and\n 9,999,999, and scientific notation otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.ShortFormatters",
           "name": "pf",
           "package": "holey-format",
@@ -630,6 +681,7 @@
         "index": {
           "description": "Render floating point number with the given number of digits of precision Uses decimal notation for values between and and scientific notation otherwise",
           "hierarchy": "Text Format ShortFormatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.ShortFormatters",
           "name": "pf",
           "normalized": "Int-\u003eFormat a",
@@ -645,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad the right hand side of a string until it reaches k characters\n wide, if necessary filling with character c.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.ShortFormatters",
           "name": "r",
           "package": "holey-format",
@@ -655,6 +708,7 @@
         "index": {
           "description": "Pad the right hand side of string until it reaches characters wide if necessary filling with character",
           "hierarchy": "Text Format ShortFormatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.ShortFormatters",
           "name": "r",
           "normalized": "Int-\u003eChar-\u003eFormat a",
@@ -670,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.ShortFormatters",
           "name": "s",
           "package": "holey-format",
@@ -680,6 +735,7 @@
         "index": {
           "description": "Output string",
           "hierarchy": "Text Format ShortFormatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.ShortFormatters",
           "name": "s",
           "package": "holey-format",
@@ -693,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a floating point number using the smallest number of\n digits that correctly represent it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.ShortFormatters",
           "name": "sf",
           "package": "holey-format",
@@ -703,6 +760,7 @@
         "index": {
           "description": "Render floating point number using the smallest number of digits that correctly represent it",
           "hierarchy": "Text Format ShortFormatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.ShortFormatters",
           "name": "sf",
           "package": "holey-format",
@@ -716,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a strict text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.ShortFormatters",
           "name": "st",
           "package": "holey-format",
@@ -726,6 +785,7 @@
         "index": {
           "description": "Output strict text",
           "hierarchy": "Text Format ShortFormatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.ShortFormatters",
           "name": "st",
           "package": "holey-format",
@@ -739,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a lazy text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.ShortFormatters",
           "name": "t",
           "package": "holey-format",
@@ -749,6 +810,7 @@
         "index": {
           "description": "Output lazy text",
           "hierarchy": "Text Format ShortFormatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.ShortFormatters",
           "name": "t",
           "package": "holey-format",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an integer using hexadecimal notation. (No leading 0x is\n added.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format.ShortFormatters",
           "name": "x",
           "package": "holey-format",
@@ -772,6 +835,7 @@
         "index": {
           "description": "Render an integer using hexadecimal notation No leading is added",
           "hierarchy": "Text Format ShortFormatters",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format.ShortFormatters",
           "name": "x",
           "package": "holey-format",
@@ -785,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCombinator-based type-safe formatting (like printf() or FORMAT) for Text.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eformat (\"Person's name is \" %text% \", age is \" %hex) \"Dave\" 54\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format",
           "name": "Format",
           "package": "holey-format",
@@ -794,6 +859,7 @@
         "index": {
           "description": "Combinator-based type-safe formatting like printf or FORMAT for Text Examples format Person name is text age is hex Dave",
           "hierarchy": "Text Format",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format",
           "name": "Format",
           "package": "holey-format",
@@ -808,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the formatter and return a \u003ca\u003eText\u003c/a\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format",
           "name": "format",
           "package": "holey-format",
@@ -818,6 +885,7 @@
         "index": {
           "description": "Run the formatter and return Text value",
           "hierarchy": "Text Format",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format",
           "name": "format",
           "normalized": "Holey Builder Text a-\u003ea",
@@ -833,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the formatter and print out the text to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format",
           "name": "fprint",
           "package": "holey-format",
@@ -843,6 +912,7 @@
         "index": {
           "description": "Run the formatter and print out the text to stdout",
           "hierarchy": "Text Format",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format",
           "name": "fprint",
           "normalized": "Holey Builder(IO())a-\u003ea",
@@ -858,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the formatter and put the output onto the given \u003ca\u003eHandle\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:13 UTC 2014",
           "module": "Text.Format",
           "name": "hprint",
           "package": "holey-format",
@@ -868,6 +939,7 @@
         "index": {
           "description": "Run the formatter and put the output onto the given Handle",
           "hierarchy": "Text Format",
+          "indexed": "2014-03-11T18:43:13",
           "module": "Text.Format",
           "name": "hprint",
           "normalized": "Handle-\u003eHoley Builder(IO())a-\u003ea",

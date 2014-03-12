@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bytestring-trie"
+        "phrase": "bytestring-trie",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdditional convenience functions. In order to keep \u003ca\u003eData.Trie\u003c/a\u003e\n concise, non-essential and uncommonly used functions have been\n moved here. Most of these functions simplify the generic functions\n from \u003ca\u003eData.Trie\u003c/a\u003e, following after the interface for \u003ca\u003eData.Map\u003c/a\u003e\n and \u003ca\u003eData.IntMap\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "Convenience",
           "package": "bytestring-trie",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Additional convenience functions In order to keep Data.Trie concise non-essential and uncommonly used functions have been moved here Most of these functions simplify the generic functions from Data.Trie following after the interface for Data.Map and Data.IntMap",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "Convenience",
           "package": "bytestring-trie",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to change the value at a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "adjustWithKey",
           "package": "bytestring-trie",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Apply function to change the value at key",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "adjustWithKey",
           "normalized": "(ByteString-\u003ea-\u003ea)-\u003eByteString-\u003eTrie a-\u003eTrie a",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two tries, a la symmetric difference. If they define\n the same key, it is removed; otherwise it is retained with the\n value it has in whichever trie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "disunion",
           "package": "bytestring-trie",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Combine two tries la symmetric difference If they define the same key it is removed otherwise it is retained with the value it has in whichever trie",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "disunion",
           "normalized": "Trie a-\u003eTrie a-\u003eTrie a",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA left-fold version of \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e. If you run into issues with\n stack overflows when using \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003efromListR\u003c/a\u003e\u003c/code\u003e, then you\n should use this function instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "fromListL",
           "package": "bytestring-trie",
@@ -103,6 +110,7 @@
         "index": {
           "description": "left-fold version of fromList If you run into issues with stack overflows when using fromList or fromListR then you should use this function instead",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "fromListL",
           "normalized": "[(ByteString,a)]-\u003eTrie a",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explicitly right-fold variant of \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e. It is a good\n consumer for list fusion. Worst-case behavior is somewhat worse\n than worst-case for \u003ccode\u003e\u003ca\u003efromListL\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e function is\n currently just an alias for \u003ccode\u003e\u003ca\u003efromListR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "fromListR",
           "package": "bytestring-trie",
@@ -129,6 +138,7 @@
         "index": {
           "description": "An explicitly right-fold variant of fromList It is good consumer for list fusion Worst-case behavior is somewhat worse than worst-case for fromListL The fromList function is currently just an alias for fromListR",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "fromListR",
           "normalized": "[(ByteString,a)]-\u003eTrie a",
@@ -145,6 +155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis variant sorts the list before folding over it. This adds\n \u003cem\u003eO(n log n)\u003c/em\u003e overhead and requires the whole list be in memory\n at once, but it ensures that the list is in best-case order. The\n benefits generally outweigh the costs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "fromListS",
           "package": "bytestring-trie",
@@ -155,6 +166,7 @@
         "index": {
           "description": "This variant sorts the list before folding over it This adds log overhead and requires the whole list be in memory at once but it ensures that the list is in best-case order The benefits generally outweigh the costs",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "fromListS",
           "normalized": "[(ByteString,a)]-\u003eTrie a",
@@ -171,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003efromListR\u003c/a\u003e\u003c/code\u003e that takes a function for combining\n values on conflict. The first argument to the combining function\n is the `\u003ccode\u003enew'\u003c/code\u003e value from the initial portion of the list; the\n second argument is the value that has been accumulated into the\n trie from the tail of the list (just like the first argument to\n \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e). Thus, \u003ccode\u003efromList = fromListWith const\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "fromListWith",
           "package": "bytestring-trie",
@@ -181,6 +194,7 @@
         "index": {
           "description": "variant of fromListR that takes function for combining values on conflict The first argument to the combining function is the new value from the initial portion of the list the second argument is the value that has been accumulated into the trie from the tail of the list just like the first argument to foldr Thus fromList fromListWith const",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "fromListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(ByteString,a)]-\u003eTrie a",
@@ -197,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003efromListWith\u003c/a\u003e\u003c/code\u003e which applies the combining\n function strictly. This function is a good consumer for list\n fusion. If you need list fusion and are running into stack\n overflow problems with \u003ccode\u003e\u003ca\u003efromListWith\u003c/a\u003e\u003c/code\u003e, then this function may\n solve the problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "fromListWith'",
           "package": "bytestring-trie",
@@ -207,6 +222,7 @@
         "index": {
           "description": "variant of fromListWith which applies the combining function strictly This function is good consumer for list fusion If you need list fusion and are running into stack overflow problems with fromListWith then this function may solve the problem",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "fromListWith'",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(ByteString,a)]-\u003eTrie a",
@@ -223,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA left-fold variant of \u003ccode\u003e\u003ca\u003efromListWith\u003c/a\u003e\u003c/code\u003e. Note that the arguments\n to the combining function are swapped: the first is the value\n in the trie which has been accumulated from the initial part of\n the list; the second argument is the `\u003ccode\u003enew'\u003c/code\u003e value from the\n remaining tail of the list (just like the first argument to\n \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e). Thus, \u003ccode\u003efromListL = fromListWithL const\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "fromListWithL",
           "package": "bytestring-trie",
@@ -233,6 +250,7 @@
         "index": {
           "description": "left-fold variant of fromListWith Note that the arguments to the combining function are swapped the first is the value in the trie which has been accumulated from the initial part of the list the second argument is the new value from the remaining tail of the list just like the first argument to foldl Thus fromListL fromListWithL const",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "fromListWithL",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(ByteString,a)]-\u003eTrie a",
@@ -249,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003efromListWithL\u003c/a\u003e\u003c/code\u003e which applies the combining\n function strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "fromListWithL'",
           "package": "bytestring-trie",
@@ -259,6 +278,7 @@
         "index": {
           "description": "variant of fromListWithL which applies the combining function strictly",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "fromListWithL'",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(ByteString,a)]-\u003eTrie a",
@@ -275,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new key, retaining old value on conflict.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "insertIfAbsent",
           "package": "bytestring-trie",
@@ -285,6 +306,7 @@
         "index": {
           "description": "Insert new key retaining old value on conflict",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "insertIfAbsent",
           "normalized": "ByteString-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -301,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new key, with a function to resolve conflicts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "insertWith",
           "package": "bytestring-trie",
@@ -311,6 +334,7 @@
         "index": {
           "description": "Insert new key with function to resolve conflicts",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eByteString-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -327,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003einsertWith\u003c/a\u003e\u003c/code\u003e which applies the combining function\n strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "insertWith'",
           "package": "bytestring-trie",
@@ -337,6 +362,7 @@
         "index": {
           "description": "variant of insertWith which applies the combining function strictly",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "insertWith'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eByteString-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -353,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003einsertWith\u003c/a\u003e\u003c/code\u003e which also provides the key to the\n combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "insertWithKey",
           "package": "bytestring-trie",
@@ -363,6 +390,7 @@
         "index": {
           "description": "variant of insertWith which also provides the key to the combining function",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "insertWithKey",
           "normalized": "(ByteString-\u003ea-\u003ea-\u003ea)-\u003eByteString-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -379,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003einsertWithKey\u003c/a\u003e\u003c/code\u003e which applies the combining\n function strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "insertWithKey'",
           "package": "bytestring-trie",
@@ -389,6 +418,7 @@
         "index": {
           "description": "variant of insertWithKey which applies the combining function strictly",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "insertWithKey'",
           "normalized": "(ByteString-\u003ea-\u003ea-\u003ea)-\u003eByteString-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -405,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a key, returning a default value if it's not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "lookupWithDefault",
           "package": "bytestring-trie",
@@ -415,6 +446,7 @@
         "index": {
           "description": "Lookup key returning default value if it not found",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "lookupWithDefault",
           "normalized": "a-\u003eByteString-\u003eTrie a-\u003ea",
@@ -431,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two tries, using a function to resolve conflicts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "unionWith",
           "package": "bytestring-trie",
@@ -441,6 +474,7 @@
         "index": {
           "description": "Combine two tries using function to resolve conflicts",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eTrie a-\u003eTrie a-\u003eTrie a",
@@ -457,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eunionWith\u003c/a\u003e\u003c/code\u003e which applies the combining function\n strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "unionWith'",
           "package": "bytestring-trie",
@@ -467,6 +502,7 @@
         "index": {
           "description": "variant of unionWith which applies the combining function strictly",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "unionWith'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eTrie a-\u003eTrie a-\u003eTrie a",
@@ -483,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the value at a key, possibly removing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "update",
           "package": "bytestring-trie",
@@ -493,6 +530,7 @@
         "index": {
           "description": "Apply function to the value at key possibly removing it",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "update",
           "normalized": "(a-\u003eMaybe a)-\u003eByteString-\u003eTrie a-\u003eTrie a",
@@ -508,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eupdate\u003c/a\u003e\u003c/code\u003e which also provides the key to the function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Convenience",
           "name": "updateWithKey",
           "package": "bytestring-trie",
@@ -518,6 +557,7 @@
         "index": {
           "description": "variant of update which also provides the key to the function",
           "hierarchy": "Data Trie Convenience",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Convenience",
           "name": "updateWithKey",
           "normalized": "(ByteString-\u003ea-\u003eMaybe a)-\u003eByteString-\u003eTrie a-\u003eTrie a",
@@ -534,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal definition of the \u003ccode\u003e\u003ca\u003eTrie\u003c/a\u003e\u003c/code\u003e data type and generic functions\n for manipulating them. Almost everything here is re-exported\n from \u003ca\u003eData.Trie\u003c/a\u003e, which is the preferred API for users. This\n module is for developers who need deeper (and potentially fragile)\n access to the abstract type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "Internal",
           "package": "bytestring-trie",
@@ -543,6 +584,7 @@
         "index": {
           "description": "Internal definition of the Trie data type and generic functions for manipulating them Almost everything here is re-exported from Data.Trie which is the preferred API for users This module is for developers who need deeper and potentially fragile access to the abstract type",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "Internal",
           "package": "bytestring-trie",
@@ -557,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003ea\u003c/code\u003e. For all the generic functions,\n note that tries are strict in the \u003ccode\u003eMaybe\u003c/code\u003e but not in \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e instance is strange. If a key \u003ccode\u003ek1\u003c/code\u003e is a prefix of\n other keys, then results from binding the value at \u003ccode\u003ek1\u003c/code\u003e will\n override values from longer keys when they collide. If this is\n useful for anything, or if there's a more sensible instance, I'd\n be curious to know.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "Trie",
           "package": "bytestring-trie",
@@ -566,6 +609,7 @@
         "index": {
           "description": "map from ByteString to For all the generic functions note that tries are strict in the Maybe but not in The Monad instance is strange If key k1 is prefix of other keys then results from binding the value at k1 will override values from longer keys when they collide If this is useful for anything or if there more sensible instance be curious to know",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "Trie",
           "package": "bytestring-trie",
@@ -580,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlter the value associated with a given key. If the key is not\n present, then the trie is returned unaltered. See \u003ccode\u003e\u003ca\u003ealterBy\u003c/a\u003e\u003c/code\u003e if\n you are interested in inserting new keys or deleting old keys.\n Because this function does not need to worry about changing the\n trie structure, it is somewhat faster than \u003ccode\u003e\u003ca\u003ealterBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "adjustBy",
           "package": "bytestring-trie",
@@ -590,6 +635,7 @@
         "index": {
           "description": "Alter the value associated with given key If the key is not present then the trie is returned unaltered See alterBy if you are interested in inserting new keys or deleting old keys Because this function does not need to worry about changing the trie structure it is somewhat faster than alterBy",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "adjustBy",
           "normalized": "(ByteString-\u003ea-\u003ea-\u003ea)-\u003eByteString-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -633,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003ealterBy\u003c/a\u003e\u003c/code\u003e which also allows modifying the sub-trie. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "alterBy_",
           "package": "bytestring-trie",
@@ -643,6 +690,7 @@
         "index": {
           "description": "variant of alterBy which also allows modifying the sub-trie",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "alterBy_",
           "normalized": "(ByteString-\u003ea-\u003eMaybe a-\u003eTrie a-\u003e(Maybe a,Trie a))-\u003eByteString-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -659,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the longest shared prefix and the two remaining suffixes\n for a pair of strings.\n\u003c/p\u003e\u003cpre\u003e    s == (\\(pre,s',z') -\u003e pre `append` s') (breakMaximalPrefix s z)\n    z == (\\(pre,s',z') -\u003e pre `append` z') (breakMaximalPrefix s z)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "breakMaximalPrefix",
           "package": "bytestring-trie",
@@ -669,6 +718,7 @@
         "index": {
           "description": "Returns the longest shared prefix and the two remaining suffixes for pair of strings pre pre append breakMaximalPrefix pre pre append breakMaximalPrefix",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "breakMaximalPrefix",
           "normalized": "ByteString-\u003eByteString-\u003e(ByteString,ByteString,ByteString)",
@@ -685,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA contextual variant of \u003ccode\u003e\u003ca\u003efilterMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "contextualFilterMap",
           "package": "bytestring-trie",
@@ -695,6 +746,7 @@
         "index": {
           "description": "contextual variant of filterMap",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "contextualFilterMap",
           "normalized": "(a-\u003eTrie a-\u003eMaybe b)-\u003eTrie a-\u003eTrie b",
@@ -711,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e which provides access to the subtrie rooted\n at each value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "contextualMap",
           "package": "bytestring-trie",
@@ -721,6 +774,7 @@
         "index": {
           "description": "variant of fmap which provides access to the subtrie rooted at each value",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "contextualMap",
           "normalized": "(a-\u003eTrie a-\u003eb)-\u003eTrie a-\u003eTrie b",
@@ -737,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003econtextualMap\u003c/a\u003e\u003c/code\u003e which applies the function strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "contextualMap'",
           "package": "bytestring-trie",
@@ -747,6 +802,7 @@
         "index": {
           "description": "variant of contextualMap which applies the function strictly",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "contextualMap'",
           "normalized": "(a-\u003eTrie a-\u003eb)-\u003eTrie a-\u003eTrie b",
@@ -763,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA contextual variant of \u003ccode\u003e\u003ca\u003emapBy\u003c/a\u003e\u003c/code\u003e. Again note that this is\n expensive since we must reconstruct the keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "contextualMapBy",
           "package": "bytestring-trie",
@@ -773,6 +830,7 @@
         "index": {
           "description": "contextual variant of mapBy Again note that this is expensive since we must reconstruct the keys",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "contextualMapBy",
           "normalized": "(ByteString-\u003ea-\u003eTrie a-\u003eMaybe b)-\u003eTrie a-\u003eTrie b",
@@ -840,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a trie into a list (in key-sorted order) using a\n function, folding the list as we go.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "foldrWithKey",
           "package": "bytestring-trie",
@@ -850,6 +909,7 @@
         "index": {
           "description": "Convert trie into list in key-sorted order using function folding the list as we go",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "foldrWithKey",
           "normalized": "(ByteString-\u003ea-\u003eb-\u003eb)-\u003eb-\u003eTrie a-\u003eb",
@@ -866,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric function to find a value (if it exists) and the subtrie\n rooted at the prefix. The first function argument is called if and\n only if a node is exactly reachable by the query; if no node is\n exactly reachable the default value is used; if the middle of\n an arc is reached, the second function argument is used.\n\u003c/p\u003e\u003cp\u003eThis function is intended for internal use. For the public-facing\n version, see \u003ccode\u003elookupBy\u003c/code\u003e in \u003ca\u003eData.Trie\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "lookupBy_",
           "package": "bytestring-trie",
@@ -876,6 +937,7 @@
         "index": {
           "description": "Generic function to find value if it exists and the subtrie rooted at the prefix The first function argument is called if and only if node is exactly reachable by the query if no node is exactly reachable the default value is used if the middle of an arc is reached the second function argument is used This function is intended for internal use For the public-facing version see lookupBy in Data.Trie",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "lookupBy_",
           "normalized": "(Maybe a-\u003eTrie a-\u003eb)-\u003eb-\u003e(Trie a-\u003eb)-\u003eByteString-\u003eTrie a-\u003eb",
@@ -918,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "maxAssoc",
           "package": "bytestring-trie",
@@ -927,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "maxAssoc",
           "normalized": "Trie a-\u003eMaybe(ByteString,a)",
@@ -969,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "minAssoc",
           "package": "bytestring-trie",
@@ -978,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "minAssoc",
           "normalized": "Trie a-\u003eMaybe(ByteString,a)",
@@ -1020,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisualization fuction for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "showTrie",
           "package": "bytestring-trie",
@@ -1030,6 +1097,7 @@
         "index": {
           "description": "Visualization fuction for debugging",
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "showTrie",
           "normalized": "Trie a-\u003eString",
@@ -1150,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "updateMaxViewBy",
           "package": "bytestring-trie",
@@ -1159,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "updateMaxViewBy",
           "normalized": "(ByteString-\u003ea-\u003eMaybe a)-\u003eTrie a-\u003eMaybe(ByteString,a,Trie a)",
@@ -1174,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie.Internal",
           "name": "updateMinViewBy",
           "package": "bytestring-trie",
@@ -1183,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Data Trie Internal",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie.Internal",
           "name": "updateMinViewBy",
           "normalized": "(ByteString-\u003ea-\u003eMaybe a)-\u003eTrie a-\u003eMaybe(ByteString,a,Trie a)",
@@ -1199,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn efficient implementation of finite maps from strings to values.\n The implementation is based on \u003cem\u003ebig-endian patricia trees\u003c/em\u003e, like\n \u003ca\u003eData.IntMap\u003c/a\u003e. We first trie on the elements of \u003ca\u003eData.ByteString\u003c/a\u003e\n and then trie on the big-endian bit representation of those\n elements. For further details on the latter, see\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Chris Okasaki and Andy Gill,  \"\u003cem\u003eFast Mergeable Integer Maps\u003c/em\u003e\",\n    Workshop on ML, September 1998, pages 77-86,\n    \u003ca\u003ehttp://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.5452\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e D.R. Morrison, \"\u003cem\u003ePATRICIA -- Practical Algorithm To Retrieve\u003c/em\u003e\n    \u003cem\u003eInformation Coded In Alphanumeric\u003c/em\u003e\", Journal of the ACM, 15(4),\n    October 1968, pages 514-534.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis module aims to provide an austere interface, while being\n detailed enough for most users. For an extended interface with\n many additional functions, see \u003ca\u003eData.Trie.Convenience\u003c/a\u003e. For\n functions that give more detailed (potentially abstraction-breaking)\n access to the data strucuture, or for experimental functions\n which aren't quite ready for the public API, see \u003ca\u003eData.Trie.Internal\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "Trie",
           "package": "bytestring-trie",
@@ -1208,6 +1281,7 @@
         "index": {
           "description": "An efficient implementation of finite maps from strings to values The implementation is based on big-endian patricia trees like Data.IntMap We first trie on the elements of Data.ByteString and then trie on the big-endian bit representation of those elements For further details on the latter see Chris Okasaki and Andy Gill Fast Mergeable Integer Maps Workshop on ML September pages http citeseerx.ist.psu.edu viewdoc summary doi D.R Morrison PATRICIA Practical Algorithm To Retrieve Information Coded In Alphanumeric Journal of the ACM October pages This module aims to provide an austere interface while being detailed enough for most users For an extended interface with many additional functions see Data.Trie.Convenience For functions that give more detailed potentially abstraction-breaking access to the data strucuture or for experimental functions which aren quite ready for the public API see Data.Trie.Internal",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "Trie",
           "package": "bytestring-trie",
@@ -1222,6 +1296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003ea\u003c/code\u003e. For all the generic functions,\n note that tries are strict in the \u003ccode\u003eMaybe\u003c/code\u003e but not in \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e instance is strange. If a key \u003ccode\u003ek1\u003c/code\u003e is a prefix of\n other keys, then results from binding the value at \u003ccode\u003ek1\u003c/code\u003e will\n override values from longer keys when they collide. If this is\n useful for anything, or if there's a more sensible instance, I'd\n be curious to know.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "Trie",
           "package": "bytestring-trie",
@@ -1231,6 +1306,7 @@
         "index": {
           "description": "map from ByteString to For all the generic functions note that tries are strict in the Maybe but not in The Monad instance is strange If key k1 is prefix of other keys then results from binding the value at k1 will override values from longer keys when they collide If this is useful for anything or if there more sensible instance be curious to know",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "Trie",
           "package": "bytestring-trie",
@@ -1245,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the value at a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "adjust",
           "package": "bytestring-trie",
@@ -1255,6 +1332,7 @@
         "index": {
           "description": "Apply function to the value at key",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eByteString-\u003eTrie a-\u003eTrie a",
@@ -1270,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the value stored at a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "delete",
           "package": "bytestring-trie",
@@ -1280,6 +1359,7 @@
         "index": {
           "description": "Remove the value stored at key",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "delete",
           "normalized": "ByteString-\u003eTrie a-\u003eTrie a",
@@ -1295,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all values in the trie, in sorted order according to the keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "elems",
           "package": "bytestring-trie",
@@ -1305,6 +1386,7 @@
         "index": {
           "description": "Return all values in the trie in sorted order according to the keys",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "elems",
           "normalized": "Trie a-\u003e[a]",
@@ -1320,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert association list into a trie. On key conflict, values\n earlier in the list shadow later ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "fromList",
           "package": "bytestring-trie",
@@ -1330,6 +1413,7 @@
         "index": {
           "description": "Convert association list into trie On key conflict values earlier in the list shadow later ones",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "fromList",
           "normalized": "[(ByteString,a)]-\u003eTrie a",
@@ -1346,6 +1430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new key. If the key is already present, overrides the\n old value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "insert",
           "package": "bytestring-trie",
@@ -1356,6 +1441,7 @@
         "index": {
           "description": "Insert new key If the key is already present overrides the old value",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "insert",
           "normalized": "ByteString-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -1371,6 +1457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all keys in the trie, in sorted order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "keys",
           "package": "bytestring-trie",
@@ -1381,6 +1468,7 @@
         "index": {
           "description": "Return all keys in the trie in sorted order",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "keys",
           "normalized": "Trie a-\u003e[ByteString]",
@@ -1396,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value associated with a query string if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "lookup",
           "package": "bytestring-trie",
@@ -1406,6 +1495,7 @@
         "index": {
           "description": "Return the value associated with query string if it exists",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "lookup",
           "normalized": "ByteString-\u003eTrie a-\u003eMaybe a",
@@ -1421,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric function to find a value (if it exists) and the subtrie\n rooted at the prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "lookupBy",
           "package": "bytestring-trie",
@@ -1431,6 +1522,7 @@
         "index": {
           "description": "Generic function to find value if it exists and the subtrie rooted at the prefix",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "lookupBy",
           "normalized": "(Maybe a-\u003eTrie a-\u003eb)-\u003eByteString-\u003eTrie a-\u003eb",
@@ -1447,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a string have a value in the trie?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "member",
           "package": "bytestring-trie",
@@ -1457,6 +1550,7 @@
         "index": {
           "description": "Does string have value in the trie",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "member",
           "normalized": "ByteString-\u003eTrie a-\u003eBool",
@@ -1472,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert trie into association list. Keys will be in sorted order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "toList",
           "package": "bytestring-trie",
@@ -1482,6 +1577,7 @@
         "index": {
           "description": "Convert trie into association list Keys will be in sorted order",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "toList",
           "normalized": "Trie a-\u003e[(ByteString,a)]",
@@ -1498,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two tries, resolving conflicts by choosing the value\n from the left trie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "unionL",
           "package": "bytestring-trie",
@@ -1508,6 +1605,7 @@
         "index": {
           "description": "Combine two tries resolving conflicts by choosing the value from the left trie",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "unionL",
           "normalized": "Trie a-\u003eTrie a-\u003eTrie a",
@@ -1523,6 +1621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two tries, resolving conflicts by choosing the value\n from the right trie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:08 UTC 2014",
           "module": "Data.Trie",
           "name": "unionR",
           "package": "bytestring-trie",
@@ -1533,6 +1632,7 @@
         "index": {
           "description": "Combine two tries resolving conflicts by choosing the value from the right trie",
           "hierarchy": "Data Trie",
+          "indexed": "2014-03-11T17:27:08",
           "module": "Data.Trie",
           "name": "unionR",
           "normalized": "Trie a-\u003eTrie a-\u003eTrie a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "geniconvert"
+        "phrase": "geniconvert",
+        "type": "phrase"
       },
       "type": "context"
     }

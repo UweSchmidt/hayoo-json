@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "baskell"
+        "phrase": "baskell",
+        "type": "phrase"
       },
       "type": "context"
     }

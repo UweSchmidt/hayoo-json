@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "array-utils"
+        "phrase": "array-utils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "Util",
           "package": "array-utils",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "Util",
           "package": "array-utils",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdateAll mutates every element in an array while avoiding all bounds checks. Think of it as a mutable version of map. \u003cem\u003eO(size of arr)\u003c/em\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003earr \u003c- newArray (1,10) 0 :: IO (IOArray Int Int)\n\u003c/code\u003e\u003c/strong\u003e    -- Produces a 1 based array with 10 elements all set to 0.\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eupdateAll arr (+ 10)\n\u003c/code\u003e\u003c/strong\u003e    -- Updates all elements to 10\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateAll",
           "package": "array-utils",
@@ -49,6 +52,7 @@
         "index": {
           "description": "updateAll mutates every element in an array while avoiding all bounds checks Think of it as mutable version of map size of arr arr newArray IO IOArray Int Int Produces based array with elements all set to updateAll arr Updates all elements to",
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateAll",
           "normalized": "(a-\u003ea)-\u003eb c a-\u003ed()",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as updateAll, but also providing the index to the\n mapping function. \u003cem\u003eO(size of arr)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateAllIx",
           "package": "array-utils",
@@ -75,6 +80,7 @@
         "index": {
           "description": "The same as updateAll but also providing the index to the mapping function size of arr",
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateAllIx",
           "normalized": "(a-\u003eb-\u003eb)-\u003ec a b-\u003ed()",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same updateAllIx but taking a monadic function. \u003cem\u003eO(size of arr)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateAllIxM",
           "package": "array-utils",
@@ -101,6 +108,7 @@
         "index": {
           "description": "The same updateAllIx but taking monadic function size of arr",
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateAllIxM",
           "normalized": "(a-\u003eb-\u003ec b)-\u003ed a b-\u003ec()",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as updateAll but taking a monadic function. \u003cem\u003eO(size of arr)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateAllM",
           "package": "array-utils",
@@ -127,6 +136,7 @@
         "index": {
           "description": "The same as updateAll but taking monadic function size of arr",
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateAllM",
           "normalized": "(a-\u003eb a)-\u003ec d a-\u003eb()",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a mapping function, and a list of indicies to mutate.\n\u003c/p\u003e\u003cp\u003eThrows an \u003ccode\u003e\u003ca\u003eIndexOutOfBounds\u003c/a\u003e\u003c/code\u003e exception if any of the indicies are\nout of bounds. In this case the array will be left unmutated.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(length xs)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateOn",
           "package": "array-utils",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Takes mapping function and list of indicies to mutate Throws an IndexOutOfBounds exception if any of the indicies are out of bounds In this case the array will be left unmutated length xs",
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateOn",
           "normalized": "(a-\u003ea)-\u003e[b]-\u003ec b a-\u003ed()",
@@ -167,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateOnIx",
           "package": "array-utils",
@@ -176,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateOnIx",
           "normalized": "(a-\u003eb-\u003eb)-\u003e[a]-\u003ec a b-\u003ed()",
@@ -191,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateOnIxM",
           "package": "array-utils",
@@ -200,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateOnIxM",
           "normalized": "(a-\u003eb-\u003ec b)-\u003e[a]-\u003ed a b-\u003ec()",
@@ -215,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateOnM",
           "package": "array-utils",
@@ -224,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateOnM",
           "normalized": "(a-\u003eb a)-\u003e[c]-\u003ed c a-\u003eb()",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdateSlice mutates every element in an array between a start\nindex and an end index. \u003cem\u003eO(size of arr)\u003c/em\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003earr \u003c- newArray (1,10) 0 :: IO (IOArray Int Int)\n\u003c/code\u003e\u003c/strong\u003e    -- Produces a 1 based array with 10 elements all set to 0.\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eupdateSlice arr (2,4) (+ 10)\n\u003c/code\u003e\u003c/strong\u003e    -- Updates elements at indexes 2, 3 and 4 to 10\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateSlice",
           "package": "array-utils",
@@ -249,6 +268,7 @@
         "index": {
           "description": "updateSlice mutates every element in an array between start index and an end index size of arr arr newArray IO IOArray Int Int Produces based array with elements all set to updateSlice arr Updates elements at indexes and to",
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateSlice",
           "normalized": "(a-\u003ea)-\u003e(b,b)-\u003ec b a-\u003ed()",
@@ -264,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateSliceM",
           "package": "array-utils",
@@ -273,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateSliceM",
           "normalized": "(a-\u003eb a)-\u003e(c,c)-\u003ed c a-\u003eb()",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes an update function \u003ccode\u003ef\u003c/code\u003e and a tuple of indicies '(start, finish)',\nand applies the function to all elements returned by 'range (start, finish)'.\n\u003c/p\u003e\u003cp\u003eIf this is a 2D array, then the area updated will be the box bounded by these elements,\nand the rectangular prism area for a 3D array etc.\n\u003c/p\u003e\u003cp\u003eThrows an \u003ccode\u003e\u003ca\u003eIndexOutOfBounds\u003c/a\u003e\u003c/code\u003e exception if either of the indicies are out of bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateWithin",
           "package": "array-utils",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Takes an update function and tuple of indicies start finish and applies the function to all elements returned by range start finish If this is array then the area updated will be the box bounded by these elements and the rectangular prism area for array etc Throws an IndexOutOfBounds exception if either of the indicies are out of bounds",
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateWithin",
           "normalized": "(a-\u003ea)-\u003e(b,b)-\u003ec b a-\u003ed()",
@@ -313,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateWithinIx",
           "package": "array-utils",
@@ -322,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateWithinIx",
           "normalized": "(a-\u003eb-\u003eb)-\u003e(a,a)-\u003ec a b-\u003ed()",
@@ -337,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateWithinIxM",
           "package": "array-utils",
@@ -346,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateWithinIxM",
           "normalized": "(a-\u003eb-\u003ec b)-\u003e(a,a)-\u003ed a b-\u003ec()",
@@ -361,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:40 UTC 2014",
           "module": "Data.Array.Util",
           "name": "updateWithinM",
           "package": "array-utils",
@@ -370,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Array Util",
+          "indexed": "2014-03-11T17:12:40",
           "module": "Data.Array.Util",
           "name": "updateWithinM",
           "normalized": "(a-\u003eb a)-\u003e(c,c)-\u003ed c a-\u003eb()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alsa-seq-tests"
+        "phrase": "alsa-seq-tests",
+        "type": "phrase"
       },
       "type": "context"
     }

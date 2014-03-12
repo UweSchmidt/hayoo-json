@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xkcd"
+        "phrase": "xkcd",
+        "type": "phrase"
       },
       "type": "context"
     }

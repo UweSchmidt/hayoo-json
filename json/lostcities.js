@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lostcities"
+        "phrase": "lostcities",
+        "type": "phrase"
       },
       "type": "context"
     }

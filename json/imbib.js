@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "imbib"
+        "phrase": "imbib",
+        "type": "phrase"
       },
       "type": "context"
     }

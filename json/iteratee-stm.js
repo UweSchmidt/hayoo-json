@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "iteratee-stm"
+        "phrase": "iteratee-stm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:26 UTC 2014",
           "module": "Data.Iteratee.STM",
           "name": "STM",
           "package": "iteratee-stm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Iteratee STM",
+          "indexed": "2014-03-11T19:00:26",
           "module": "Data.Iteratee.STM",
           "name": "STM",
           "package": "iteratee-stm",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate over data provided by a TBMChan.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:26 UTC 2014",
           "module": "Data.Iteratee.STM",
           "name": "enumChan",
           "package": "iteratee-stm",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Enumerate over data provided by TBMChan",
           "hierarchy": "Data Iteratee STM",
+          "indexed": "2014-03-11T19:00:26",
           "module": "Data.Iteratee.STM",
           "name": "enumChan",
           "normalized": "TBMChan a-\u003eEnumerator a b c",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumerator which closes the provided channel and sends EOF to the iteratee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:26 UTC 2014",
           "module": "Data.Iteratee.STM",
           "name": "enumCloseChan",
           "package": "iteratee-stm",
@@ -76,6 +81,7 @@
         "index": {
           "description": "An enumerator which closes the provided channel and sends EOF to the iteratee",
           "hierarchy": "Data Iteratee STM",
+          "indexed": "2014-03-11T19:00:26",
           "module": "Data.Iteratee.STM",
           "name": "enumCloseChan",
           "normalized": "TBMChan a-\u003eEnumerator a b c",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork an enumerator to run in a separate thread, with a \u003ccode\u003esz\u003c/code\u003e upper bound on the\n channel size.\n\u003c/p\u003e\u003cp\u003eThe current thread will wait for the forked thread to terminate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:26 UTC 2014",
           "module": "Data.Iteratee.STM",
           "name": "forkEnum",
           "package": "iteratee-stm",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Fork an enumerator to run in separate thread with sz upper bound on the channel size The current thread will wait for the forked thread to terminate",
           "hierarchy": "Data Iteratee STM",
+          "indexed": "2014-03-11T19:00:26",
           "module": "Data.Iteratee.STM",
           "name": "forkEnum",
           "normalized": "Int-\u003eEnumerator a IO()-\u003eEnumerator a b c",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork an iteratee to run in a separate thread, with a \u003ccode\u003esz\u003c/code\u003e upper bound on the\n channel size.\n\u003c/p\u003e\u003cp\u003eThe current thread will wait for the forked thread to finish before returning.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:26 UTC 2014",
           "module": "Data.Iteratee.STM",
           "name": "forkIter",
           "package": "iteratee-stm",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Fork an iteratee to run in separate thread with sz upper bound on the channel size The current thread will wait for the forked thread to finish before returning",
           "hierarchy": "Data Iteratee STM",
+          "indexed": "2014-03-11T19:00:26",
           "module": "Data.Iteratee.STM",
           "name": "forkIter",
           "normalized": "Int-\u003eIteratee a IO()-\u003eIteratee a b()",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn iteratee which writes all its data to a TBMChan.\n\u003c/p\u003e\u003cp\u003eThe iteratee moves to a complete state when the channel is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:26 UTC 2014",
           "module": "Data.Iteratee.STM",
           "name": "iterChan",
           "package": "iteratee-stm",
@@ -154,6 +165,7 @@
         "index": {
           "description": "An iteratee which writes all its data to TBMChan The iteratee moves to complete state when the channel is closed",
           "hierarchy": "Data Iteratee STM",
+          "indexed": "2014-03-11T19:00:26",
           "module": "Data.Iteratee.STM",
           "name": "iterChan",
           "normalized": "TBMChan a-\u003eIteratee a b()",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:26 UTC 2014",
           "module": "Data.Iteratee.STM",
           "name": "iterCloseChan",
           "package": "iteratee-stm",
@@ -180,6 +193,7 @@
         "index": {
           "description": "Close channel",
           "hierarchy": "Data Iteratee STM",
+          "indexed": "2014-03-11T19:00:26",
           "module": "Data.Iteratee.STM",
           "name": "iterCloseChan",
           "normalized": "TBMChan a-\u003eIteratee a b()",

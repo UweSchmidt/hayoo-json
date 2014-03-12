@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Bitly"
+        "phrase": "Bitly",
+        "type": "phrase"
       },
       "type": "context"
     }

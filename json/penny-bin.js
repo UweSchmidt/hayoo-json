@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "penny-bin"
+        "phrase": "penny-bin",
+        "type": "phrase"
       },
       "type": "context"
     }

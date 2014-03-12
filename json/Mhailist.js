@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Mhailist"
+        "phrase": "Mhailist",
+        "type": "phrase"
       },
       "type": "context"
     }

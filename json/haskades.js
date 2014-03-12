@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskades"
+        "phrase": "haskades",
+        "type": "phrase"
       },
       "type": "context"
     }

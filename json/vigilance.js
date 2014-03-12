@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vigilance"
+        "phrase": "vigilance",
+        "type": "phrase"
       },
       "type": "context"
     }

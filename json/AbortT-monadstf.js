@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AbortT-monadstf"
+        "phrase": "AbortT-monadstf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:42 UTC 2014",
           "module": "Control.Monad.Trans.Abort.Instances.MonadsTF",
           "name": "MonadsTF",
           "package": "AbortT-monadstf",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort Instances MonadsTF",
+          "indexed": "2014-03-11T16:32:42",
           "module": "Control.Monad.Trans.Abort.Instances.MonadsTF",
           "name": "MonadsTF",
           "package": "AbortT-monadstf",

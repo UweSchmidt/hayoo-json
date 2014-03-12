@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-parsec"
+        "phrase": "regex-parsec",
+        "type": "phrase"
       },
       "type": "context"
     }

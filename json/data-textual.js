@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-textual"
+        "phrase": "data-textual",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsers for fractions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "Fractional",
           "package": "data-textual",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parsers for fractions",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "Fractional",
           "package": "data-textual",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe binary numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "Binary",
           "package": "data-textual",
@@ -50,6 +53,7 @@
         "index": {
           "description": "The binary numeral system",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "Binary",
           "package": "data-textual",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe decimal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "Decimal",
           "package": "data-textual",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The decimal numeral system",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "Decimal",
           "package": "data-textual",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "Hexadecimal",
           "package": "data-textual",
@@ -94,6 +101,7 @@
         "index": {
           "description": "The hexadecimal numeral system",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "Hexadecimal",
           "package": "data-textual",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system, using lower case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "LowHex",
           "package": "data-textual",
@@ -116,6 +125,7 @@
         "index": {
           "description": "The hexadecimal numeral system using lower case digits",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "LowHex",
           "package": "data-textual",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe octal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "Octal",
           "package": "data-textual",
@@ -138,6 +149,7 @@
         "index": {
           "description": "The octal numeral system",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "Octal",
           "package": "data-textual",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptionality characteristic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "Optional",
           "package": "data-textual",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Optionality characteristic",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "Optional",
           "package": "data-textual",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "PositionalSystem",
           "package": "data-textual",
@@ -182,6 +197,7 @@
         "index": {
           "description": "Positional numeral system",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "PositionalSystem",
           "package": "data-textual",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign of a number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "Sign",
           "package": "data-textual",
@@ -205,6 +222,7 @@
         "index": {
           "description": "Sign of number",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "Sign",
           "package": "data-textual",
@@ -219,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system, using upper case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "UpHex",
           "package": "data-textual",
@@ -227,6 +246,7 @@
         "index": {
           "description": "The hexadecimal numeral system using upper case digits",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "UpHex",
           "package": "data-textual",
@@ -396,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "Optional",
           "package": "data-textual",
@@ -404,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "Optional",
           "package": "data-textual",
@@ -417,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "Required",
           "package": "data-textual",
@@ -425,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "Required",
           "package": "data-textual",
@@ -488,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart of a decimal exponent. Accepts \u003cem\u003e'e'\u003c/em\u003e or \u003cem\u003e'E'\u003c/em\u003e followed by\n   an optional sign. Otherwise \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "decExpSign",
           "package": "data-textual",
@@ -498,6 +523,7 @@
         "index": {
           "description": "Start of decimal exponent Accepts or followed by an optional sign Otherwise Nothing is returned",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "decExpSign",
           "package": "data-textual",
@@ -512,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003efraction'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDecimal\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptSlash\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "fraction",
           "package": "data-textual",
@@ -522,6 +549,7 @@
         "index": {
           "description": "shorthand for fraction optMinus Decimal optSlash",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "fraction",
           "package": "data-textual",
@@ -535,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a fraction. The numerator and the denominator are expected to be\n   written in the specified positional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "fraction'",
           "package": "data-textual",
@@ -544,6 +573,7 @@
         "index": {
           "description": "Parse fraction The numerator and the denominator are expected to be written in the specified positional numeral system",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "fraction'",
           "normalized": "a Sign-\u003eb-\u003ea Optional-\u003ea c",
@@ -559,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal fraction parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "fractional",
           "package": "data-textual",
@@ -569,6 +600,7 @@
         "index": {
           "description": "Decimal fraction parser",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "fractional",
           "package": "data-textual",
@@ -582,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003es\u003c/em\u003e-fraction parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "fractional'",
           "package": "data-textual",
@@ -591,6 +624,7 @@
         "index": {
           "description": "fraction parser",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "fractional'",
           "normalized": "a Sign-\u003eb-\u003eOptional-\u003ea()-\u003ea(Maybe Sign)-\u003ea c",
@@ -606,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap digits to the corresponding numbers. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e on\n   other inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "fromDigitIn",
           "package": "data-textual",
@@ -615,6 +650,7 @@
         "index": {
           "description": "Map digits to the corresponding numbers Return Nothing on other inputs",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "fromDigitIn",
           "normalized": "a-\u003eChar-\u003eMaybe b",
@@ -631,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap non-zero digits to the corresponding numbers. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e on\n   other inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "fromNzDigitIn",
           "package": "data-textual",
@@ -640,6 +677,7 @@
         "index": {
           "description": "Map non-zero digits to the corresponding numbers Return Nothing on other inputs",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "fromNzDigitIn",
           "normalized": "a-\u003eChar-\u003eMaybe b",
@@ -656,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart of a hexadecimal exponent. Accepts \u003cem\u003e'p'\u003c/em\u003e or \u003cem\u003e'P'\u003c/em\u003e followed by\n   an optional sign. Otherwise \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "hexExpSign",
           "package": "data-textual",
@@ -666,6 +705,7 @@
         "index": {
           "description": "Start of hexadecimal exponent Accepts or followed by an optional sign Otherwise Nothing is returned",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "hexExpSign",
           "package": "data-textual",
@@ -680,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e values to the corresponding digits. Inputs \u003cem\u003emust\u003c/em\u003e be\n   non-negative and less than the radix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "intToDigitIn",
           "package": "data-textual",
@@ -689,6 +730,7 @@
         "index": {
           "description": "Map Int values to the corresponding digits Inputs must be non-negative and less than the radix",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "intToDigitIn",
           "normalized": "a-\u003eInt-\u003eChar",
@@ -705,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a character is a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "isDigitIn",
           "package": "data-textual",
@@ -714,6 +757,7 @@
         "index": {
           "description": "Test if character is digit",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "isDigitIn",
           "normalized": "a-\u003eChar-\u003eBool",
@@ -730,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a character is a non-zero digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "isNzDigitIn",
           "package": "data-textual",
@@ -739,6 +784,7 @@
         "index": {
           "description": "Test if character is non-zero digit",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "isNzDigitIn",
           "normalized": "a-\u003eChar-\u003eBool",
@@ -755,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the supplied value is \u003ccode\u003e\u003ca\u003eOptional\u003c/a\u003e\u003c/code\u003e and false otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "isOptional",
           "package": "data-textual",
@@ -764,6 +811,7 @@
         "index": {
           "description": "True if the supplied value is Optional and false otherwise",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "isOptional",
           "normalized": "Optional-\u003eBool",
@@ -780,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the supplied value is \u003ccode\u003e\u003ca\u003eRequired\u003c/a\u003e\u003c/code\u003e and false otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "isRequired",
           "package": "data-textual",
@@ -789,6 +838,7 @@
         "index": {
           "description": "True if the supplied value is Required and false otherwise",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "isRequired",
           "normalized": "Optional-\u003eBool",
@@ -855,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept a slash and return \u003ccode\u003e\u003ca\u003eRequired\u003c/a\u003e\u003c/code\u003e. Otherwise return \u003ccode\u003e\u003ca\u003eOptional\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "optSlash",
           "package": "data-textual",
@@ -865,6 +916,7 @@
         "index": {
           "description": "Accept slash and return Required Otherwise return Optional",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "optSlash",
           "package": "data-textual",
@@ -879,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "printDigitIn",
           "package": "data-textual",
@@ -888,6 +941,7 @@
         "index": {
           "description": "Print digit",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "printDigitIn",
           "normalized": "a-\u003eChar-\u003eb",
@@ -903,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "printZeroIn",
           "package": "data-textual",
@@ -911,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "printZeroIn",
           "normalized": "a-\u003eb",
@@ -927,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe radix of the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "radixIn",
           "package": "data-textual",
@@ -936,6 +993,7 @@
         "index": {
           "description": "The radix of the system",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "radixIn",
           "normalized": "a-\u003eb",
@@ -952,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the system (e.g. \"binary\", \"decimal\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "systemName",
           "package": "data-textual",
@@ -961,6 +1020,7 @@
         "index": {
           "description": "The name of the system e.g binary decimal",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "systemName",
           "normalized": "a-\u003eString",
@@ -977,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap digits to the corresponding numbers. No checks are performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Fractional",
           "name": "unsafeFromDigitIn",
           "package": "data-textual",
@@ -986,6 +1047,7 @@
         "index": {
           "description": "Map digits to the corresponding numbers No checks are performed",
           "hierarchy": "Data Textual Fractional",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Fractional",
           "name": "unsafeFromDigitIn",
           "normalized": "a-\u003eChar-\u003eb",
@@ -1002,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsers for integral numbers written in positional numeral systems.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "Integral",
           "package": "data-textual",
@@ -1011,6 +1074,7 @@
         "index": {
           "description": "Parsers for integral numbers written in positional numeral systems",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "Integral",
           "package": "data-textual",
@@ -1025,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe binary numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "Binary",
           "package": "data-textual",
@@ -1033,6 +1098,7 @@
         "index": {
           "description": "The binary numeral system",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "Binary",
           "package": "data-textual",
@@ -1047,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositonal numeral system with a power of two radix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "BitSystem",
           "package": "data-textual",
@@ -1055,6 +1122,7 @@
         "index": {
           "description": "Positonal numeral system with power of two radix",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "BitSystem",
           "package": "data-textual",
@@ -1069,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe decimal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "Decimal",
           "package": "data-textual",
@@ -1077,6 +1146,7 @@
         "index": {
           "description": "The decimal numeral system",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "Decimal",
           "package": "data-textual",
@@ -1091,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "Hexadecimal",
           "package": "data-textual",
@@ -1099,6 +1170,7 @@
         "index": {
           "description": "The hexadecimal numeral system",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "Hexadecimal",
           "package": "data-textual",
@@ -1113,6 +1185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system, using lower case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "LowHex",
           "package": "data-textual",
@@ -1121,6 +1194,7 @@
         "index": {
           "description": "The hexadecimal numeral system using lower case digits",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "LowHex",
           "package": "data-textual",
@@ -1135,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe octal numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "Octal",
           "package": "data-textual",
@@ -1143,6 +1218,7 @@
         "index": {
           "description": "The octal numeral system",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "Octal",
           "package": "data-textual",
@@ -1157,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "PositionalSystem",
           "package": "data-textual",
@@ -1165,6 +1242,7 @@
         "index": {
           "description": "Positional numeral system",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "PositionalSystem",
           "package": "data-textual",
@@ -1179,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign of a number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "Sign",
           "package": "data-textual",
@@ -1188,6 +1267,7 @@
         "index": {
           "description": "Sign of number",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "Sign",
           "package": "data-textual",
@@ -1202,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hexadecimal numeral system, using upper case digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "UpHex",
           "package": "data-textual",
@@ -1210,6 +1291,7 @@
         "index": {
           "description": "The hexadecimal numeral system using upper case digits",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "UpHex",
           "package": "data-textual",
@@ -1224,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003ebBits'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "bBits",
           "package": "data-textual",
@@ -1234,6 +1317,7 @@
         "index": {
           "description": "shorthand for bBits optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "bBits",
           "normalized": "a-\u003eb c",
@@ -1250,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a (two's complement) binary number written in the specified\n   positional numeral system, failing on overflow. The supplied parser is\n   used to determine the sign of the number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "bBits'",
           "package": "data-textual",
@@ -1260,6 +1345,7 @@
         "index": {
           "description": "Parse two complement binary number written in the specified positional numeral system failing on overflow The supplied parser is used to determine the sign of the number",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "bBits'",
           "normalized": "a Sign-\u003eb-\u003ea c",
@@ -1276,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a binary digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "binDigit",
           "package": "data-textual",
@@ -1286,6 +1373,7 @@
         "index": {
           "description": "Parse binary digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "binDigit",
           "package": "data-textual",
@@ -1300,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003ebits'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "bits",
           "package": "data-textual",
@@ -1310,6 +1399,7 @@
         "index": {
           "description": "shorthand for bits optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "bits",
           "normalized": "a-\u003eb c",
@@ -1325,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a (two's complement) binary number written in the specified\n   positional numeral system. The supplied parser is used to determine\n   the sign of the number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "bits'",
           "package": "data-textual",
@@ -1335,6 +1426,7 @@
         "index": {
           "description": "Parse two complement binary number written in the specified positional numeral system The supplied parser is used to determine the sign of the number",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "bits'",
           "normalized": "a Sign-\u003eb-\u003ea c",
@@ -1350,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003ebitsUpTo'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "bitsUpTo",
           "package": "data-textual",
@@ -1360,6 +1453,7 @@
         "index": {
           "description": "shorthand for bitsUpTo optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "bitsUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -1376,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a (two's complement) binary number written in the specified\n   positional numeral system (up to \u003cem\u003en\u003c/em\u003e digits). The supplied parser is\n   used to determine the sign of the number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "bitsUpTo'",
           "package": "data-textual",
@@ -1386,6 +1481,7 @@
         "index": {
           "description": "Parse two complement binary number written in the specified positional numeral system up to digits The supplied parser is used to determine the sign of the number",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "bitsUpTo'",
           "normalized": "a Sign-\u003eb-\u003eInt-\u003ea c",
@@ -1402,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003ebounded'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "bounded",
           "package": "data-textual",
@@ -1412,6 +1509,7 @@
         "index": {
           "description": "shorthand for bounded optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "bounded",
           "normalized": "a-\u003eb c",
@@ -1427,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a number written in the specified positional numeral system,\n   failing on overflow. The supplied parser is used to determine the sign\n   of the number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "bounded'",
           "package": "data-textual",
@@ -1437,6 +1536,7 @@
         "index": {
           "description": "Parse number written in the specified positional numeral system failing on overflow The supplied parser is used to determine the sign of the number",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "bounded'",
           "normalized": "a Sign-\u003eb-\u003ea c",
@@ -1452,6 +1552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003ecBits'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "cBits",
           "package": "data-textual",
@@ -1462,6 +1563,7 @@
         "index": {
           "description": "shorthand for cBits optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "cBits",
           "normalized": "a-\u003eb c",
@@ -1478,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a (two's complement) binary number written in the specified\n   positional numeral system. The supplied parser is used to determine\n   the sign of the number. Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "cBits'",
           "package": "data-textual",
@@ -1488,6 +1591,7 @@
         "index": {
           "description": "Parse two complement binary number written in the specified positional numeral system The supplied parser is used to determine the sign of the number Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "cBits'",
           "normalized": "a Sign-\u003eb-\u003ea c",
@@ -1504,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003ecBitsUpTo'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "cBitsUpTo",
           "package": "data-textual",
@@ -1514,6 +1619,7 @@
         "index": {
           "description": "shorthand for cBitsUpTo optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "cBitsUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -1530,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a (two's complement) binary number written in the specified\n   positional numeral system (up to \u003cem\u003en\u003c/em\u003e digits). The supplied parser is\n   used to determine the sign of the number. Leading zeroes are not\n   allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "cBitsUpTo'",
           "package": "data-textual",
@@ -1540,6 +1647,7 @@
         "index": {
           "description": "Parse two complement binary number written in the specified positional numeral system up to digits The supplied parser is used to determine the sign of the number Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "cBitsUpTo'",
           "normalized": "a Sign-\u003eb-\u003eInt-\u003ea c",
@@ -1556,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003ecBounded'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "cBounded",
           "package": "data-textual",
@@ -1566,6 +1675,7 @@
         "index": {
           "description": "shorthand for cBounded optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "cBounded",
           "normalized": "a-\u003eb c",
@@ -1582,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a number written in the specified positional numeral system,\n   failing on overflow. The supplied parser is used to determine the sign\n   of the number. Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "cBounded'",
           "package": "data-textual",
@@ -1592,6 +1703,7 @@
         "index": {
           "description": "Parse number written in the specified positional numeral system failing on overflow The supplied parser is used to determine the sign of the number Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "cBounded'",
           "normalized": "a Sign-\u003eb-\u003ea c",
@@ -1608,6 +1720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003ecbBits'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "cbBits",
           "package": "data-textual",
@@ -1618,6 +1731,7 @@
         "index": {
           "description": "shorthand for cbBits optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "cbBits",
           "normalized": "a-\u003eb c",
@@ -1634,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a (two's complement) binary number written in the specified\n   positional numeral system, failing on overflow. The supplied parser is\n   used to determine the sign of the number. Leading zeroes are not\n   allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "cbBits'",
           "package": "data-textual",
@@ -1644,6 +1759,7 @@
         "index": {
           "description": "Parse two complement binary number written in the specified positional numeral system failing on overflow The supplied parser is used to determine the sign of the number Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "cbBits'",
           "normalized": "a Sign-\u003eb-\u003ea c",
@@ -1660,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003ecompact'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "compact",
           "package": "data-textual",
@@ -1670,6 +1787,7 @@
         "index": {
           "description": "shorthand for compact optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "compact",
           "normalized": "a-\u003eb c",
@@ -1685,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a number written in the specified positional numeral system.\n   The supplied parser is used to determine the sign of the number.\n   Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "compact'",
           "package": "data-textual",
@@ -1695,6 +1814,7 @@
         "index": {
           "description": "Parse number written in the specified positional numeral system The supplied parser is used to determine the sign of the number Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "compact'",
           "normalized": "a Sign-\u003eb-\u003ea c",
@@ -1710,6 +1830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003ecompactUpTo'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "compactUpTo",
           "package": "data-textual",
@@ -1720,6 +1841,7 @@
         "index": {
           "description": "shorthand for compactUpTo optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "compactUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -1736,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a number written in the specified positional numeral system\n   (up to \u003cem\u003en\u003c/em\u003e digits). The supplied parser is used to determine the sign of\n   the number. Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "compactUpTo'",
           "package": "data-textual",
@@ -1746,6 +1869,7 @@
         "index": {
           "description": "Parse number written in the specified positional numeral system up to digits The supplied parser is used to determine the sign of the number Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "compactUpTo'",
           "normalized": "a Sign-\u003eb-\u003eInt-\u003ea c",
@@ -1762,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a decimal digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "decDigit",
           "package": "data-textual",
@@ -1772,6 +1897,7 @@
         "index": {
           "description": "Parse decimal digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "decDigit",
           "package": "data-textual",
@@ -1786,6 +1912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumer of bits occupied by a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "digitBitsIn",
           "package": "data-textual",
@@ -1795,6 +1922,7 @@
         "index": {
           "description": "Numer of bits occupied by digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "digitBitsIn",
           "normalized": "a-\u003eInt",
@@ -1811,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a digit of the specified positional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "digitIn",
           "package": "data-textual",
@@ -1821,6 +1950,7 @@
         "index": {
           "description": "Parse digit of the specified positional numeral system",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "digitIn",
           "normalized": "a-\u003eb c",
@@ -1837,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number that has \u003ccode\u003e\u003ca\u003edigitBitsIn\u003c/a\u003e\u003c/code\u003e least significant bits set to ones\n   and all the other bits set to zeroes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "digitMaskIn",
           "package": "data-textual",
@@ -1846,6 +1977,7 @@
         "index": {
           "description": "The number that has digitBitsIn least significant bits set to ones and all the other bits set to zeroes",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "digitMaskIn",
           "normalized": "a-\u003eb",
@@ -1862,6 +1994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap digits to the corresponding numbers. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e on\n   other inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "fromDigitIn",
           "package": "data-textual",
@@ -1871,6 +2004,7 @@
         "index": {
           "description": "Map digits to the corresponding numbers Return Nothing on other inputs",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "fromDigitIn",
           "normalized": "a-\u003eChar-\u003eMaybe b",
@@ -1887,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap non-zero digits to the corresponding numbers. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e on\n   other inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "fromNzDigitIn",
           "package": "data-textual",
@@ -1896,6 +2031,7 @@
         "index": {
           "description": "Map non-zero digits to the corresponding numbers Return Nothing on other inputs",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "fromNzDigitIn",
           "normalized": "a-\u003eChar-\u003eMaybe b",
@@ -1912,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a hexadecimal digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "hexDigit",
           "package": "data-textual",
@@ -1922,6 +2059,7 @@
         "index": {
           "description": "Parse hexadecimal digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "hexDigit",
           "package": "data-textual",
@@ -1936,6 +2074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e values to the corresponding digits. Inputs \u003cem\u003emust\u003c/em\u003e be\n   non-negative and less than the radix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "intToDigitIn",
           "package": "data-textual",
@@ -1945,6 +2084,7 @@
         "index": {
           "description": "Map Int values to the corresponding digits Inputs must be non-negative and less than the radix",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "intToDigitIn",
           "normalized": "a-\u003eInt-\u003eChar",
@@ -1961,6 +2101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a character is a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "isDigitIn",
           "package": "data-textual",
@@ -1970,6 +2111,7 @@
         "index": {
           "description": "Test if character is digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "isDigitIn",
           "normalized": "a-\u003eChar-\u003eBool",
@@ -1986,6 +2128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a character is a non-zero digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "isNzDigitIn",
           "package": "data-textual",
@@ -1995,6 +2138,7 @@
         "index": {
           "description": "Test if character is non-zero digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "isNzDigitIn",
           "normalized": "a-\u003eChar-\u003eBool",
@@ -2011,6 +2155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the last digit of a number to the corresponding \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "lastDigitIn",
           "package": "data-textual",
@@ -2020,6 +2165,7 @@
         "index": {
           "description": "Map the last digit of number to the corresponding Int value",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "lastDigitIn",
           "normalized": "a-\u003eb-\u003eInt",
@@ -2036,6 +2182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a lower case hexadecimal digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "lowHexDigit",
           "package": "data-textual",
@@ -2046,6 +2193,7 @@
         "index": {
           "description": "Parse lower case hexadecimal digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "lowHexDigit",
           "package": "data-textual",
@@ -2060,6 +2208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative binary number written in the specified\n   positional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nnBits",
           "package": "data-textual",
@@ -2070,6 +2219,7 @@
         "index": {
           "description": "Parse non-negative binary number written in the specified positional numeral system",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nnBits",
           "normalized": "a-\u003eb c",
@@ -2086,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative binary number written in the specified\n   positional numeral system (up to \u003cem\u003en\u003c/em\u003e digits).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nnBitsUpTo",
           "package": "data-textual",
@@ -2096,6 +2247,7 @@
         "index": {
           "description": "Parse non-negative binary number written in the specified positional numeral system up to digits",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nnBitsUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -2112,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative number written in the specified positional\n   numeral system, failing on overflow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nnBounded",
           "package": "data-textual",
@@ -2122,6 +2275,7 @@
         "index": {
           "description": "Parse non-negative number written in the specified positional numeral system failing on overflow",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nnBounded",
           "normalized": "a-\u003eb c",
@@ -2138,6 +2292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative number written in the specified positional\n   numeral system. Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nnCompact",
           "package": "data-textual",
@@ -2148,6 +2303,7 @@
         "index": {
           "description": "Parse non-negative number written in the specified positional numeral system Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nnCompact",
           "normalized": "a-\u003eb c",
@@ -2164,6 +2320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative number written in the specified positional\n   numeral system (up to \u003cem\u003en\u003c/em\u003e digits).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nnUpTo",
           "package": "data-textual",
@@ -2174,6 +2331,7 @@
         "index": {
           "description": "Parse non-negative number written in the specified positional numeral system up to digits",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nnUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -2190,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative binary number written in the specified\n   positional numeral system, failing on overflow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nnbBits",
           "package": "data-textual",
@@ -2200,6 +2359,7 @@
         "index": {
           "description": "Parse non-negative binary number written in the specified positional numeral system failing on overflow",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nnbBits",
           "normalized": "a-\u003eb c",
@@ -2216,6 +2376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative binary number written in the specified\n   positional numeral system. Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nncBits",
           "package": "data-textual",
@@ -2226,6 +2387,7 @@
         "index": {
           "description": "Parse non-negative binary number written in the specified positional numeral system Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nncBits",
           "normalized": "a-\u003eb c",
@@ -2242,6 +2404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative binary number written in the specified\n   positional numeral system (up to \u003cem\u003en\u003c/em\u003e digits). Leading zeroes are not\n   allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nncBitsUpTo",
           "package": "data-textual",
@@ -2252,6 +2415,7 @@
         "index": {
           "description": "Parse non-negative binary number written in the specified positional numeral system up to digits Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nncBitsUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -2268,6 +2432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative number written in the specified positional\n   numeral system, failing on overflow. Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nncBounded",
           "package": "data-textual",
@@ -2278,6 +2443,7 @@
         "index": {
           "description": "Parse non-negative number written in the specified positional numeral system failing on overflow Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nncBounded",
           "normalized": "a-\u003eb c",
@@ -2294,6 +2460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative number written in the specified positional\n   numeral system (up to \u003cem\u003en\u003c/em\u003e digits). Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nncUpTo",
           "package": "data-textual",
@@ -2304,6 +2471,7 @@
         "index": {
           "description": "Parse non-negative number written in the specified positional numeral system up to digits Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nncUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -2320,6 +2488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative binary number written in the specified\n   positional numeral system, failing on overflow. Leading zeroes are not\n   allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nncbBits",
           "package": "data-textual",
@@ -2330,6 +2499,7 @@
         "index": {
           "description": "Parse non-negative binary number written in the specified positional numeral system failing on overflow Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nncbBits",
           "normalized": "a-\u003eb c",
@@ -2346,6 +2516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-negative number written in the specified positional\n   numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nonNegative",
           "package": "data-textual",
@@ -2356,6 +2527,7 @@
         "index": {
           "description": "Parse non-negative number written in the specified positional numeral system",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nonNegative",
           "normalized": "a-\u003eb c",
@@ -2372,6 +2544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive number written in the specified positional\n   numeral system. For example, parsing \"123\" as a decimal would produce\n   \u003cem\u003e-123\u003c/em\u003e, not \u003cem\u003e123\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nonPositive",
           "package": "data-textual",
@@ -2382,6 +2555,7 @@
         "index": {
           "description": "Parse non-positive number written in the specified positional numeral system For example parsing as decimal would produce not",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nonPositive",
           "normalized": "a-\u003eb c",
@@ -2398,6 +2572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive two's complement binary number written in\n   the specified positional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "npBits",
           "package": "data-textual",
@@ -2408,6 +2583,7 @@
         "index": {
           "description": "Parse non-positive two complement binary number written in the specified positional numeral system",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "npBits",
           "normalized": "a-\u003eb c",
@@ -2424,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive two's complement binary number written in\n   the specified positional numeral system (up to \u003cem\u003en\u003c/em\u003e digits).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "npBitsUpTo",
           "package": "data-textual",
@@ -2434,6 +2611,7 @@
         "index": {
           "description": "Parse non-positive two complement binary number written in the specified positional numeral system up to digits",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "npBitsUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -2450,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive number written in the specified positional\n   numeral system, failing on overflow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "npBounded",
           "package": "data-textual",
@@ -2460,6 +2639,7 @@
         "index": {
           "description": "Parse non-positive number written in the specified positional numeral system failing on overflow",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "npBounded",
           "normalized": "a-\u003eb c",
@@ -2476,6 +2656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive number written in the specified positional\n   numeral system. Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "npCompact",
           "package": "data-textual",
@@ -2486,6 +2667,7 @@
         "index": {
           "description": "Parse non-positive number written in the specified positional numeral system Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "npCompact",
           "normalized": "a-\u003eb c",
@@ -2502,6 +2684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive number written in the specified positional\n   numeral system (up to \u003cem\u003en\u003c/em\u003e digits).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "npUpTo",
           "package": "data-textual",
@@ -2512,6 +2695,7 @@
         "index": {
           "description": "Parse non-positive number written in the specified positional numeral system up to digits",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "npUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -2528,6 +2712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive two's complement binary number written in\n   the specified positional numeral system, failing on overflow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "npbBits",
           "package": "data-textual",
@@ -2538,6 +2723,7 @@
         "index": {
           "description": "Parse non-positive two complement binary number written in the specified positional numeral system failing on overflow",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "npbBits",
           "normalized": "a-\u003eb c",
@@ -2554,6 +2740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive two's complement binary number written in\n   the specified positional numeral system. Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "npcBits",
           "package": "data-textual",
@@ -2564,6 +2751,7 @@
         "index": {
           "description": "Parse non-positive two complement binary number written in the specified positional numeral system Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "npcBits",
           "normalized": "a-\u003eb c",
@@ -2580,6 +2768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive two's complement binary number written in\n   the specified positional numeral system (up to \u003cem\u003en\u003c/em\u003e digits).\n   Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "npcBitsUpTo",
           "package": "data-textual",
@@ -2590,6 +2779,7 @@
         "index": {
           "description": "Parse non-positive two complement binary number written in the specified positional numeral system up to digits Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "npcBitsUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -2606,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive number written in the specified positional\n   numeral system, failing on overflow. Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "npcBounded",
           "package": "data-textual",
@@ -2616,6 +2807,7 @@
         "index": {
           "description": "Parse non-positive number written in the specified positional numeral system failing on overflow Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "npcBounded",
           "normalized": "a-\u003eb c",
@@ -2632,6 +2824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive number written in the specified positional\n   numeral system (up to \u003cem\u003en\u003c/em\u003e digits). Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "npcUpTo",
           "package": "data-textual",
@@ -2642,6 +2835,7 @@
         "index": {
           "description": "Parse non-positive number written in the specified positional numeral system up to digits Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "npcUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -2658,6 +2852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-positive two's complement binary number written in\n   the specified positional numeral system, failing on overflow.\n   Leading zeroes are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "npcbBits",
           "package": "data-textual",
@@ -2668,6 +2863,7 @@
         "index": {
           "description": "Parse non-positive two complement binary number written in the specified positional numeral system failing on overflow Leading zeroes are not allowed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "npcbBits",
           "normalized": "a-\u003eb c",
@@ -2684,6 +2880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003enumber'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "number",
           "package": "data-textual",
@@ -2694,6 +2891,7 @@
         "index": {
           "description": "shorthand for number optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "number",
           "normalized": "a-\u003eb c",
@@ -2709,6 +2907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a number written in the specified positional numeral system.\n   The supplied parser is used to determine the sign of the number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "number'",
           "package": "data-textual",
@@ -2719,6 +2918,7 @@
         "index": {
           "description": "Parse number written in the specified positional numeral system The supplied parser is used to determine the sign of the number",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "number'",
           "normalized": "a Sign-\u003eb-\u003ea c",
@@ -2734,6 +2934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ca\u003enumberUpTo'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptMinus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "numberUpTo",
           "package": "data-textual",
@@ -2744,6 +2945,7 @@
         "index": {
           "description": "shorthand for numberUpTo optMinus",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "numberUpTo",
           "normalized": "a-\u003eInt-\u003eb c",
@@ -2760,6 +2962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a number written in the specified positional numeral system\n   (up to \u003cem\u003en\u003c/em\u003e digits). The supplied parser is used to determine the sign of\n   the number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "numberUpTo'",
           "package": "data-textual",
@@ -2770,6 +2973,7 @@
         "index": {
           "description": "Parse number written in the specified positional numeral system up to digits The supplied parser is used to determine the sign of the number",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "numberUpTo'",
           "normalized": "a Sign-\u003eb-\u003eInt-\u003ea c",
@@ -2786,6 +2990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-zero binary digit (\u003cem\u003e'1'\u003c/em\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nzBinDigit",
           "package": "data-textual",
@@ -2796,6 +3001,7 @@
         "index": {
           "description": "Parse non-zero binary digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nzBinDigit",
           "package": "data-textual",
@@ -2810,6 +3016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-zero decimal digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nzDecDigit",
           "package": "data-textual",
@@ -2820,6 +3027,7 @@
         "index": {
           "description": "Parse non-zero decimal digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nzDecDigit",
           "package": "data-textual",
@@ -2834,6 +3042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-zero digit of the specified positional numeral system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nzDigitIn",
           "package": "data-textual",
@@ -2844,6 +3053,7 @@
         "index": {
           "description": "Parse non-zero digit of the specified positional numeral system",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nzDigitIn",
           "normalized": "a-\u003eb c",
@@ -2860,6 +3070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-zero hexadecimal digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nzHexDigit",
           "package": "data-textual",
@@ -2870,6 +3081,7 @@
         "index": {
           "description": "Parse non-zero hexadecimal digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nzHexDigit",
           "package": "data-textual",
@@ -2884,6 +3096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-zero lower case hexadecimal digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nzLowHexDigit",
           "package": "data-textual",
@@ -2894,6 +3107,7 @@
         "index": {
           "description": "Parse non-zero lower case hexadecimal digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nzLowHexDigit",
           "package": "data-textual",
@@ -2908,6 +3122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-zero octal digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nzOctDigit",
           "package": "data-textual",
@@ -2918,6 +3133,7 @@
         "index": {
           "description": "Parse non-zero octal digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nzOctDigit",
           "package": "data-textual",
@@ -2932,6 +3148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-zero upper case hexadecimal digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "nzUpHexDigit",
           "package": "data-textual",
@@ -2942,6 +3159,7 @@
         "index": {
           "description": "Parse non-zero upper case hexadecimal digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "nzUpHexDigit",
           "package": "data-textual",
@@ -2956,6 +3174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an octal digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "octDigit",
           "package": "data-textual",
@@ -2966,6 +3185,7 @@
         "index": {
           "description": "Parse an octal digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "octDigit",
           "package": "data-textual",
@@ -2980,6 +3200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "printDigitIn",
           "package": "data-textual",
@@ -2989,6 +3210,7 @@
         "index": {
           "description": "Print digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "printDigitIn",
           "normalized": "a-\u003eChar-\u003eb",
@@ -3004,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "printZeroIn",
           "package": "data-textual",
@@ -3012,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "printZeroIn",
           "normalized": "a-\u003eb",
@@ -3028,6 +3252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe radix of the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "radixIn",
           "package": "data-textual",
@@ -3037,6 +3262,7 @@
         "index": {
           "description": "The radix of the system",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "radixIn",
           "normalized": "a-\u003eb",
@@ -3053,6 +3279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the system (e.g. \"binary\", \"decimal\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "systemName",
           "package": "data-textual",
@@ -3062,6 +3289,7 @@
         "index": {
           "description": "The name of the system e.g binary decimal",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "systemName",
           "normalized": "a-\u003eString",
@@ -3078,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap digits to the corresponding numbers. No checks are performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "unsafeFromDigitIn",
           "package": "data-textual",
@@ -3087,6 +3316,7 @@
         "index": {
           "description": "Map digits to the corresponding numbers No checks are performed",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "unsafeFromDigitIn",
           "normalized": "a-\u003eChar-\u003eb",
@@ -3103,6 +3333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an upper case hexadecimal digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual.Integral",
           "name": "upHexDigit",
           "package": "data-textual",
@@ -3113,6 +3344,7 @@
         "index": {
           "description": "Parse an upper case hexadecimal digit",
           "hierarchy": "Data Textual Integral",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual.Integral",
           "name": "upHexDigit",
           "package": "data-textual",
@@ -3127,6 +3359,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWorking with human-friendly (as opposed to the compiler-friendly\n   \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e) textual representations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "Textual",
           "package": "data-textual",
@@ -3136,6 +3369,7 @@
         "index": {
           "description": "Working with human-friendly as opposed to the compiler-friendly Show and Read textual representations",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "Textual",
           "package": "data-textual",
@@ -3150,6 +3384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "Parsed",
           "package": "data-textual",
@@ -3159,6 +3394,7 @@
         "index": {
           "description": "Parsing result",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "Parsed",
           "package": "data-textual",
@@ -3173,6 +3409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default printer for values of a type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "Printable",
           "package": "data-textual",
@@ -3182,6 +3419,7 @@
         "index": {
           "description": "The default printer for values of type",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "Printable",
           "package": "data-textual",
@@ -3196,6 +3434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default parser for values of a type, must satisfy\n   \u003ccode\u003e\n     \u003ccode\u003e\u003ca\u003efromString\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003etoString\u003c/a\u003e\u003c/code\u003e \u003cem\u003ex\u003c/em\u003e) = \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003cem\u003ex\u003c/em\u003e\n   \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "Textual",
           "package": "data-textual",
@@ -3205,6 +3444,7 @@
         "index": {
           "description": "The default parser for values of type must satisfy fromString toString Just",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "Textual",
           "package": "data-textual",
@@ -3218,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "Malformed",
           "package": "data-textual",
@@ -3227,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "Malformed",
           "normalized": "Malformed[String]String",
@@ -3242,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "Parsed",
           "package": "data-textual",
@@ -3251,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "Parsed",
           "package": "data-textual",
@@ -3265,6 +3509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCenti\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aCenti",
           "package": "data-textual",
@@ -3275,6 +3520,7 @@
         "index": {
           "description": "Centi proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aCenti",
           "package": "data-textual",
@@ -3289,6 +3535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aChar",
           "package": "data-textual",
@@ -3299,6 +3546,7 @@
         "index": {
           "description": "Char proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aChar",
           "package": "data-textual",
@@ -3313,6 +3561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDeci\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aDeci",
           "package": "data-textual",
@@ -3323,6 +3572,7 @@
         "index": {
           "description": "Deci proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aDeci",
           "package": "data-textual",
@@ -3337,6 +3587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aDouble",
           "package": "data-textual",
@@ -3347,6 +3598,7 @@
         "index": {
           "description": "Double proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aDouble",
           "package": "data-textual",
@@ -3361,6 +3613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFixed\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aFixed",
           "package": "data-textual",
@@ -3371,6 +3624,7 @@
         "index": {
           "description": "Fixed proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aFixed",
           "package": "data-textual",
@@ -3385,6 +3639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFixed\u003c/a\u003e\u003c/code\u003e \u003cem/\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aFixedOf",
           "package": "data-textual",
@@ -3395,6 +3650,7 @@
         "index": {
           "description": "Fixed proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aFixedOf",
           "normalized": "Proxy a-\u003eProxy(Fixed a)",
@@ -3411,6 +3667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aFloat",
           "package": "data-textual",
@@ -3421,6 +3678,7 @@
         "index": {
           "description": "Float proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aFloat",
           "package": "data-textual",
@@ -3435,6 +3693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aList",
           "package": "data-textual",
@@ -3445,6 +3704,7 @@
         "index": {
           "description": "List proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aList",
           "normalized": "Proxy[]",
@@ -3461,6 +3721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of \u003cem/\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aListOf",
           "package": "data-textual",
@@ -3471,6 +3732,7 @@
         "index": {
           "description": "List of proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aListOf",
           "normalized": "Proxy a-\u003eProxy[a]",
@@ -3487,6 +3749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aMaybe",
           "package": "data-textual",
@@ -3497,6 +3760,7 @@
         "index": {
           "description": "Maybe proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aMaybe",
           "package": "data-textual",
@@ -3511,6 +3775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e \u003cem/\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aMaybeOf",
           "package": "data-textual",
@@ -3521,6 +3786,7 @@
         "index": {
           "description": "Maybe proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aMaybeOf",
           "normalized": "Proxy a-\u003eProxy(Maybe a)",
@@ -3537,6 +3803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMicro\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aMicro",
           "package": "data-textual",
@@ -3547,6 +3814,7 @@
         "index": {
           "description": "Micro proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aMicro",
           "package": "data-textual",
@@ -3561,6 +3829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMilli\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aMilli",
           "package": "data-textual",
@@ -3571,6 +3840,7 @@
         "index": {
           "description": "Milli proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aMilli",
           "package": "data-textual",
@@ -3585,6 +3855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNano\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aNano",
           "package": "data-textual",
@@ -3595,6 +3866,7 @@
         "index": {
           "description": "Nano proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aNano",
           "package": "data-textual",
@@ -3609,6 +3881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePico\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aPico",
           "package": "data-textual",
@@ -3619,6 +3892,7 @@
         "index": {
           "description": "Pico proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aPico",
           "package": "data-textual",
@@ -3633,6 +3907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRatio\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aRatio",
           "package": "data-textual",
@@ -3643,6 +3918,7 @@
         "index": {
           "description": "Ratio proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aRatio",
           "package": "data-textual",
@@ -3657,6 +3933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRatio\u003c/a\u003e\u003c/code\u003e \u003cem/\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aRatioOf",
           "package": "data-textual",
@@ -3667,6 +3944,7 @@
         "index": {
           "description": "Ratio proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aRatioOf",
           "normalized": "Proxy a-\u003eProxy(Ratio a)",
@@ -3683,6 +3961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aRational",
           "package": "data-textual",
@@ -3693,6 +3972,7 @@
         "index": {
           "description": "Rational proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aRational",
           "package": "data-textual",
@@ -3707,6 +3987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eUni\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aUni",
           "package": "data-textual",
@@ -3717,6 +3998,7 @@
         "index": {
           "description": "Uni proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aUni",
           "package": "data-textual",
@@ -3731,6 +4013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003e()\u003c/em\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aUnit",
           "package": "data-textual",
@@ -3741,6 +4024,7 @@
         "index": {
           "description": "proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aUnit",
           "normalized": "Proxy()",
@@ -3757,6 +4041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aWord",
           "package": "data-textual",
@@ -3767,6 +4052,7 @@
         "index": {
           "description": "Word proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aWord",
           "package": "data-textual",
@@ -3781,6 +4067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aWord16",
           "package": "data-textual",
@@ -3791,6 +4078,7 @@
         "index": {
           "description": "Word16 proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aWord16",
           "package": "data-textual",
@@ -3805,6 +4093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aWord32",
           "package": "data-textual",
@@ -3815,6 +4104,7 @@
         "index": {
           "description": "Word32 proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aWord32",
           "package": "data-textual",
@@ -3829,6 +4119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aWord64",
           "package": "data-textual",
@@ -3839,6 +4130,7 @@
         "index": {
           "description": "Word64 proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aWord64",
           "package": "data-textual",
@@ -3853,6 +4145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "aWord8",
           "package": "data-textual",
@@ -3863,6 +4156,7 @@
         "index": {
           "description": "Word8 proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "aWord8",
           "package": "data-textual",
@@ -3877,6 +4171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "anInt",
           "package": "data-textual",
@@ -3887,6 +4182,7 @@
         "index": {
           "description": "Int proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "anInt",
           "package": "data-textual",
@@ -3901,6 +4197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "anInt16",
           "package": "data-textual",
@@ -3911,6 +4208,7 @@
         "index": {
           "description": "Int16 proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "anInt16",
           "package": "data-textual",
@@ -3925,6 +4223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "anInt32",
           "package": "data-textual",
@@ -3935,6 +4234,7 @@
         "index": {
           "description": "Int32 proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "anInt32",
           "package": "data-textual",
@@ -3949,6 +4249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "anInt64",
           "package": "data-textual",
@@ -3959,6 +4260,7 @@
         "index": {
           "description": "Int64 proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "anInt64",
           "package": "data-textual",
@@ -3973,6 +4275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInt8\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "anInt8",
           "package": "data-textual",
@@ -3983,6 +4286,7 @@
         "index": {
           "description": "Int8 proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "anInt8",
           "package": "data-textual",
@@ -3997,6 +4301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "anInteger",
           "package": "data-textual",
@@ -4007,6 +4312,7 @@
         "index": {
           "description": "Integer proxy value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "anInteger",
           "package": "data-textual",
@@ -4021,6 +4327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the built-in parser to parse a string. Intended for testing only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "builtInParser",
           "package": "data-textual",
@@ -4031,6 +4338,7 @@
         "index": {
           "description": "Use the built-in parser to parse string Intended for testing only",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "builtInParser",
           "normalized": "a b)-\u003eString-\u003eParsed b",
@@ -4047,6 +4355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emaybeParsed\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eparseAscii\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromAscii",
           "package": "data-textual",
@@ -4057,6 +4366,7 @@
         "index": {
           "description": "shorthand for maybeParsed parseAscii",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromAscii",
           "normalized": "ByteString-\u003eMaybe a",
@@ -4073,6 +4383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003efromAscii\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromAsciiAs",
           "package": "data-textual",
@@ -4083,6 +4394,7 @@
         "index": {
           "description": "Provide hint for the type system when using fromAscii",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromAsciiAs",
           "normalized": "Proxy a-\u003eByteString-\u003eMaybe a",
@@ -4099,6 +4411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emaybeParsed\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eparseLazyAscii\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromLazyAscii",
           "package": "data-textual",
@@ -4109,6 +4422,7 @@
         "index": {
           "description": "shorthand for maybeParsed parseLazyAscii",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromLazyAscii",
           "normalized": "ByteString-\u003eMaybe a",
@@ -4125,6 +4439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003efromLazyAscii\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromLazyAsciiAs",
           "package": "data-textual",
@@ -4135,6 +4450,7 @@
         "index": {
           "description": "Provide hint for the type system when using fromLazyAscii",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromLazyAsciiAs",
           "normalized": "Proxy a-\u003eByteString-\u003eMaybe a",
@@ -4151,6 +4467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emaybeParsed\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eparseLazyText\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromLazyText",
           "package": "data-textual",
@@ -4161,6 +4478,7 @@
         "index": {
           "description": "shorthand for maybeParsed parseLazyText",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromLazyText",
           "normalized": "Text-\u003eMaybe a",
@@ -4177,6 +4495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003efromLazyText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromLazyTextAs",
           "package": "data-textual",
@@ -4187,6 +4506,7 @@
         "index": {
           "description": "Provide hint for the type system when using fromLazyText",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromLazyTextAs",
           "normalized": "Proxy a-\u003eText-\u003eMaybe a",
@@ -4203,6 +4523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emaybeParsed\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eparseLazyUtf8\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromLazyUtf8",
           "package": "data-textual",
@@ -4213,6 +4534,7 @@
         "index": {
           "description": "shorthand for maybeParsed parseLazyUtf8",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromLazyUtf8",
           "normalized": "ByteString-\u003eMaybe a",
@@ -4229,6 +4551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003efromLazyUtf8\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromLazyUtf8As",
           "package": "data-textual",
@@ -4239,6 +4562,7 @@
         "index": {
           "description": "Provide hint for the type system when using fromLazyUtf8",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromLazyUtf8As",
           "normalized": "Proxy a-\u003eByteString-\u003eMaybe a",
@@ -4255,6 +4579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emaybeParsed\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eparseString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromString",
           "package": "data-textual",
@@ -4265,6 +4590,7 @@
         "index": {
           "description": "shorthand for maybeParsed parseString",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromString",
           "normalized": "String-\u003eMaybe a",
@@ -4281,6 +4607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003efromString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromStringAs",
           "package": "data-textual",
@@ -4291,6 +4618,7 @@
         "index": {
           "description": "Provide hint for the type system when using fromString",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromStringAs",
           "normalized": "Proxy a-\u003eString-\u003eMaybe a",
@@ -4307,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emaybeParsed\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eparseText\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromText",
           "package": "data-textual",
@@ -4317,6 +4646,7 @@
         "index": {
           "description": "shorthand for maybeParsed parseText",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromText",
           "normalized": "Text-\u003eMaybe a",
@@ -4333,6 +4663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003efromText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromTextAs",
           "package": "data-textual",
@@ -4343,6 +4674,7 @@
         "index": {
           "description": "Provide hint for the type system when using fromText",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromTextAs",
           "normalized": "Proxy a-\u003eText-\u003eMaybe a",
@@ -4359,6 +4691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emaybeParsed\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eparseUtf8\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromUtf8",
           "package": "data-textual",
@@ -4369,6 +4702,7 @@
         "index": {
           "description": "shorthand for maybeParsed parseUtf8",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromUtf8",
           "normalized": "ByteString-\u003eMaybe a",
@@ -4385,6 +4719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003efromUtf8\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "fromUtf8As",
           "package": "data-textual",
@@ -4395,6 +4730,7 @@
         "index": {
           "description": "Provide hint for the type system when using fromUtf8",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "fromUtf8As",
           "normalized": "Proxy a-\u003eByteString-\u003eMaybe a",
@@ -4411,6 +4747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHint the type system about the type of the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "hintType",
           "package": "data-textual",
@@ -4421,6 +4758,7 @@
         "index": {
           "description": "Hint the type system about the type of the first argument",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "hintType",
           "normalized": "a-\u003eProxy a-\u003ea",
@@ -4437,6 +4775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHint the type system about the type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "hintType1",
           "package": "data-textual",
@@ -4447,6 +4786,7 @@
         "index": {
           "description": "Hint the type system about the type constructor",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "hintType1",
           "normalized": "a b-\u003eProxy a-\u003ea b",
@@ -4463,6 +4803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHint the type system about the type argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "hintTypeArg",
           "package": "data-textual",
@@ -4473,6 +4814,7 @@
         "index": {
           "description": "Hint the type system about the type argument",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "hintTypeArg",
           "normalized": "a b-\u003eProxy b-\u003ea b",
@@ -4489,6 +4831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap \u003ccode\u003e\u003ca\u003eParsed\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMalformed\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "isMalformed",
           "package": "data-textual",
@@ -4499,6 +4842,7 @@
         "index": {
           "description": "Map Parsed to False and Malformed to True",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "isMalformed",
           "normalized": "Parsed a-\u003eBool",
@@ -4515,6 +4859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap \u003ccode\u003e\u003ca\u003eParsed\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMalformed\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "isParsed",
           "package": "data-textual",
@@ -4525,6 +4870,7 @@
         "index": {
           "description": "Map Parsed to True and Malformed to False",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "isParsed",
           "normalized": "Parsed a-\u003eBool",
@@ -4541,6 +4887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap \u003ccode\u003e\u003ca\u003eParsed\u003c/a\u003e\u003c/code\u003e values to \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMalformed\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "maybeParsed",
           "package": "data-textual",
@@ -4551,6 +4898,7 @@
         "index": {
           "description": "Map Parsed values to Just and Malformed to Nothing",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "maybeParsed",
           "normalized": "Parsed a-\u003eMaybe a",
@@ -4567,6 +4915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003emaybe\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "maybePrint",
           "package": "data-textual",
@@ -4577,6 +4926,7 @@
         "index": {
           "description": "shorthand for maybe mempty print",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "maybePrint",
           "normalized": "Maybe a-\u003eb",
@@ -4593,6 +4943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode and parse an ASCII \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to extract the \u003ccode\u003e\u003ca\u003eTextual\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseAscii",
           "package": "data-textual",
@@ -4603,6 +4954,7 @@
         "index": {
           "description": "Decode and parse an ASCII ByteString to extract the Textual value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseAscii",
           "normalized": "ByteString-\u003eParsed a",
@@ -4619,6 +4971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003eparseAscii\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseAsciiAs",
           "package": "data-textual",
@@ -4629,6 +4982,7 @@
         "index": {
           "description": "Provide hint for the type system when using parseAscii",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseAsciiAs",
           "normalized": "Proxy a-\u003eByteString-\u003eParsed a",
@@ -4645,6 +4999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode and parse a lazy ASCII \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to extract\n   the \u003ccode\u003e\u003ca\u003eTextual\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseLazyAscii",
           "package": "data-textual",
@@ -4655,6 +5010,7 @@
         "index": {
           "description": "Decode and parse lazy ASCII ByteString to extract the Textual value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseLazyAscii",
           "normalized": "ByteString-\u003eParsed a",
@@ -4671,6 +5027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003eparseLazyAscii\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseLazyAsciiAs",
           "package": "data-textual",
@@ -4681,6 +5038,7 @@
         "index": {
           "description": "Provide hint for the type system when using parseLazyAscii",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseLazyAsciiAs",
           "normalized": "ByteString-\u003eParsed a",
@@ -4697,6 +5055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to extract the \u003ccode\u003e\u003ca\u003eTextual\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseLazyText",
           "package": "data-textual",
@@ -4707,6 +5066,7 @@
         "index": {
           "description": "Parse lazy Text to extract the Textual value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseLazyText",
           "normalized": "Text-\u003eParsed a",
@@ -4723,6 +5083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003eparseLazyText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseLazyTextAs",
           "package": "data-textual",
@@ -4733,6 +5094,7 @@
         "index": {
           "description": "Provide hint for the type system when using parseLazyText",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseLazyTextAs",
           "normalized": "Proxy a-\u003eText-\u003eParsed a",
@@ -4749,6 +5111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode and parse a lazy UTF-8 \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to extract\n   the \u003ccode\u003e\u003ca\u003eTextual\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseLazyUtf8",
           "package": "data-textual",
@@ -4759,6 +5122,7 @@
         "index": {
           "description": "Decode and parse lazy UTF-8 ByteString to extract the Textual value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseLazyUtf8",
           "normalized": "ByteString-\u003eParsed a",
@@ -4775,6 +5139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003eparseLazyUtf8\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseLazyUtf8As",
           "package": "data-textual",
@@ -4785,6 +5150,7 @@
         "index": {
           "description": "Provide hint for the type system when using parseLazyUtf8",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseLazyUtf8As",
           "normalized": "Proxy a-\u003eByteString-\u003eParsed a",
@@ -4801,6 +5167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to extract the \u003ccode\u003e\u003ca\u003eTextual\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseString",
           "package": "data-textual",
@@ -4811,6 +5178,7 @@
         "index": {
           "description": "Parse String to extract the Textual value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseString",
           "normalized": "String-\u003eParsed a",
@@ -4827,6 +5195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003eparseString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseStringAs",
           "package": "data-textual",
@@ -4837,6 +5206,7 @@
         "index": {
           "description": "Provide hint for the type system when using parseString",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseStringAs",
           "normalized": "Proxy a-\u003eString-\u003eParsed a",
@@ -4853,6 +5223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to extract the \u003ccode\u003e\u003ca\u003eTextual\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseText",
           "package": "data-textual",
@@ -4863,6 +5234,7 @@
         "index": {
           "description": "Parse Text to extract the Textual value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseText",
           "normalized": "Text-\u003eParsed a",
@@ -4879,6 +5251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003eparseText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseTextAs",
           "package": "data-textual",
@@ -4889,6 +5262,7 @@
         "index": {
           "description": "Provide hint for the type system when using parseText",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseTextAs",
           "normalized": "Proxy a-\u003eText-\u003eParsed a",
@@ -4905,6 +5279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode and parse a UTF-8 \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to extract the \u003ccode\u003e\u003ca\u003eTextual\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseUtf8",
           "package": "data-textual",
@@ -4915,6 +5290,7 @@
         "index": {
           "description": "Decode and parse UTF-8 ByteString to extract the Textual value",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseUtf8",
           "normalized": "ByteString-\u003eParsed a",
@@ -4931,6 +5307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a hint for the type system when using \u003ccode\u003e\u003ca\u003eparseUtf8\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "parseUtf8As",
           "package": "data-textual",
@@ -4941,6 +5318,7 @@
         "index": {
           "description": "Provide hint for the type system when using parseUtf8",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "parseUtf8As",
           "normalized": "Proxy a-\u003eByteString-\u003eParsed a",
@@ -4956,6 +5334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "print",
           "package": "data-textual",
@@ -4965,6 +5344,7 @@
         },
         "index": {
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "print",
           "normalized": "a-\u003eb",
@@ -4979,6 +5359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "textual",
           "package": "data-textual",
@@ -4988,6 +5369,7 @@
         },
         "index": {
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "textual",
           "package": "data-textual",
@@ -5001,6 +5383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebuildAscii\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "toAscii",
           "package": "data-textual",
@@ -5011,6 +5394,7 @@
         "index": {
           "description": "shorthand for buildAscii print",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "toAscii",
           "normalized": "a-\u003eByteString",
@@ -5027,6 +5411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebuildLazyAscii\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "toLazyAscii",
           "package": "data-textual",
@@ -5037,6 +5422,7 @@
         "index": {
           "description": "shorthand for buildLazyAscii print",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "toLazyAscii",
           "normalized": "a-\u003eByteString",
@@ -5053,6 +5439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebuildLazyText\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "toLazyText",
           "package": "data-textual",
@@ -5063,6 +5450,7 @@
         "index": {
           "description": "shorthand for buildLazyText print",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "toLazyText",
           "normalized": "a-\u003eText",
@@ -5079,6 +5467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebuildLazyUtf8\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "toLazyUtf8",
           "package": "data-textual",
@@ -5089,6 +5478,7 @@
         "index": {
           "description": "shorthand for buildLazyUtf8 print",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "toLazyUtf8",
           "normalized": "a-\u003eByteString",
@@ -5105,6 +5495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebuildString\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "toString",
           "package": "data-textual",
@@ -5115,6 +5506,7 @@
         "index": {
           "description": "shorthand for buildString print",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -5131,6 +5523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebuildText\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "toText",
           "package": "data-textual",
@@ -5141,6 +5534,7 @@
         "index": {
           "description": "shorthand for buildText print",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "toText",
           "normalized": "a-\u003eText",
@@ -5157,6 +5551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebuildUtf8\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:57 UTC 2014",
           "module": "Data.Textual",
           "name": "toUtf8",
           "package": "data-textual",
@@ -5167,6 +5562,7 @@
         "index": {
           "description": "shorthand for buildUtf8 print",
           "hierarchy": "Data Textual",
+          "indexed": "2014-03-11T17:49:57",
           "module": "Data.Textual",
           "name": "toUtf8",
           "normalized": "a-\u003eByteString",

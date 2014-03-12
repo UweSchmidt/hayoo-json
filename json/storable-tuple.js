@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "storable-tuple"
+        "phrase": "storable-tuple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:47 UTC 2014",
           "module": "Foreign.Storable.Tuple",
           "name": "Tuple",
           "package": "storable-tuple",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Tuple",
+          "indexed": "2014-03-11T20:11:47",
           "module": "Foreign.Storable.Tuple",
           "name": "Tuple",
           "package": "storable-tuple",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:47 UTC 2014",
           "module": "Foreign.Storable.Tuple",
           "name": "storePair",
           "package": "storable-tuple",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Tuple",
+          "indexed": "2014-03-11T20:11:47",
           "module": "Foreign.Storable.Tuple",
           "name": "storePair",
           "normalized": "Dictionary(a,b)",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:47 UTC 2014",
           "module": "Foreign.Storable.Tuple",
           "name": "storeQuadruple",
           "package": "storable-tuple",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Tuple",
+          "indexed": "2014-03-11T20:11:47",
           "module": "Foreign.Storable.Tuple",
           "name": "storeQuadruple",
           "normalized": "Dictionary(a,b,c,d)",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:47 UTC 2014",
           "module": "Foreign.Storable.Tuple",
           "name": "storeTriple",
           "package": "storable-tuple",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Foreign Storable Tuple",
+          "indexed": "2014-03-11T20:11:47",
           "module": "Foreign.Storable.Tuple",
           "name": "storeTriple",
           "normalized": "Dictionary(a,b,c)",

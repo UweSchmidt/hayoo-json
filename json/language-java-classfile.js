@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-java-classfile"
+        "phrase": "language-java-classfile",
+        "type": "phrase"
       },
       "type": "context"
     }

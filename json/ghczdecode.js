@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghczdecode"
+        "phrase": "ghczdecode",
+        "type": "phrase"
       },
       "type": "context"
     }

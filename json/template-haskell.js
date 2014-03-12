@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "template-haskell"
+        "phrase": "template-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTH.Lib contains lots of useful helper functions for\n generating and manipulating Template Haskell terms\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "Lib",
           "package": "template-haskell",
@@ -28,6 +29,7 @@
         "index": {
           "description": "TH.Lib contains lots of useful helper functions for generating and manipulating Template Haskell terms",
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "Lib",
           "package": "template-haskell",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "BodyQ",
           "package": "template-haskell",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "BodyQ",
           "package": "template-haskell",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "ClauseQ",
           "package": "template-haskell",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "ClauseQ",
           "package": "template-haskell",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "ConQ",
           "package": "template-haskell",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "ConQ",
           "package": "template-haskell",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "CxtQ",
           "package": "template-haskell",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "CxtQ",
           "package": "template-haskell",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "DecQ",
           "package": "template-haskell",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "DecQ",
           "package": "template-haskell",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "DecsQ",
           "package": "template-haskell",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "DecsQ",
           "package": "template-haskell",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "ExpQ",
           "package": "template-haskell",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "ExpQ",
           "package": "template-haskell",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "FieldExpQ",
           "package": "template-haskell",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "FieldExpQ",
           "package": "template-haskell",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "FieldPatQ",
           "package": "template-haskell",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "FieldPatQ",
           "package": "template-haskell",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "GuardQ",
           "package": "template-haskell",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "GuardQ",
           "package": "template-haskell",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "InfoQ",
           "package": "template-haskell",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "InfoQ",
           "package": "template-haskell",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "MatchQ",
           "package": "template-haskell",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "MatchQ",
           "package": "template-haskell",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "PatQ",
           "package": "template-haskell",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "PatQ",
           "package": "template-haskell",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "PredQ",
           "package": "template-haskell",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "PredQ",
           "package": "template-haskell",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "RangeQ",
           "package": "template-haskell",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "RangeQ",
           "package": "template-haskell",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "RuleBndrQ",
           "package": "template-haskell",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "RuleBndrQ",
           "package": "template-haskell",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "StmtQ",
           "package": "template-haskell",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "StmtQ",
           "package": "template-haskell",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "StrictTypeQ",
           "package": "template-haskell",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "StrictTypeQ",
           "package": "template-haskell",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "TyLitQ",
           "package": "template-haskell",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "TyLitQ",
           "package": "template-haskell",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "TypeQ",
           "package": "template-haskell",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "TypeQ",
           "package": "template-haskell",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "VarStrictTypeQ",
           "package": "template-haskell",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "VarStrictTypeQ",
           "package": "template-haskell",
@@ -1645,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "funDep",
           "package": "template-haskell",
@@ -1654,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "funDep",
           "normalized": "[Name]-\u003e[Name]-\u003eFunDep",
@@ -1790,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "infixLD",
           "package": "template-haskell",
@@ -1799,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "infixLD",
           "normalized": "Int-\u003eName-\u003eDecQ",
@@ -1814,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "infixND",
           "package": "template-haskell",
@@ -1823,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "infixND",
           "normalized": "Int-\u003eName-\u003eDecQ",
@@ -1862,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "infixRD",
           "package": "template-haskell",
@@ -1871,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "infixRD",
           "normalized": "Int-\u003eName-\u003eDecQ",
@@ -1959,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "interruptible",
           "package": "template-haskell",
@@ -1968,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "interruptible",
           "package": "template-haskell",
@@ -2003,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "kindedTV",
           "package": "template-haskell",
@@ -2012,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "kindedTV",
           "normalized": "Name-\u003eKind-\u003eTyVarBndr",
@@ -2705,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "plainTV",
           "package": "template-haskell",
@@ -2714,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "plainTV",
           "normalized": "Name-\u003eTyVarBndr",
@@ -3698,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "unboxedTupE",
           "package": "template-haskell",
@@ -3707,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "unboxedTupE",
           "normalized": "[ExpQ]-\u003eExpQ",
@@ -3722,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "unboxedTupP",
           "package": "template-haskell",
@@ -3731,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "unboxedTupP",
           "normalized": "[PatQ]-\u003ePatQ",
@@ -3746,6 +3808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "unboxedTupleT",
           "package": "template-haskell",
@@ -3755,6 +3818,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "unboxedTupleT",
           "normalized": "Int-\u003eTypeQ",
@@ -3770,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Lib",
           "name": "unpacked",
           "package": "template-haskell",
@@ -3779,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Lib",
           "name": "unpacked",
           "package": "template-haskell",
@@ -4030,6 +4096,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003econtains a prettyprinter for the\n Template Haskell datatypes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "Ppr",
           "package": "template-haskell",
@@ -4039,6 +4106,7 @@
         "index": {
           "description": "contains prettyprinter for the Template Haskell datatypes",
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "Ppr",
           "package": "template-haskell",
@@ -4052,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "Ppr",
           "package": "template-haskell",
@@ -4060,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "Ppr",
           "package": "template-haskell",
@@ -4073,6 +4143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "Precedence",
           "package": "template-haskell",
@@ -4081,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "Precedence",
           "package": "template-haskell",
@@ -4094,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "appPrec",
           "package": "template-haskell",
@@ -4103,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "appPrec",
           "package": "template-haskell",
@@ -4116,6 +4190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "bytesToString",
           "package": "template-haskell",
@@ -4125,6 +4200,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "bytesToString",
           "normalized": "[Word]-\u003eString",
@@ -4140,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "hashParens",
           "package": "template-haskell",
@@ -4149,6 +4226,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "hashParens",
           "normalized": "Doc-\u003eDoc",
@@ -4164,6 +4242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "nestDepth",
           "package": "template-haskell",
@@ -4173,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "nestDepth",
           "package": "template-haskell",
@@ -4186,6 +4266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "noPrec",
           "package": "template-haskell",
@@ -4195,6 +4276,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "noPrec",
           "package": "template-haskell",
@@ -4208,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "opPrec",
           "package": "template-haskell",
@@ -4217,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "opPrec",
           "package": "template-haskell",
@@ -4230,6 +4314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "parensIf",
           "package": "template-haskell",
@@ -4239,6 +4324,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "parensIf",
           "normalized": "Bool-\u003eDoc-\u003eDoc",
@@ -4254,6 +4340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr",
           "package": "template-haskell",
@@ -4263,6 +4350,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr",
           "normalized": "a-\u003eDoc",
@@ -4277,6 +4365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprBody",
           "package": "template-haskell",
@@ -4286,6 +4375,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprBody",
           "normalized": "Bool-\u003eBody-\u003eDoc",
@@ -4301,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprCxt",
           "package": "template-haskell",
@@ -4310,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprCxt",
           "normalized": "Cxt-\u003eDoc",
@@ -4350,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprFields",
           "package": "template-haskell",
@@ -4359,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprFields",
           "normalized": "[(Name,Exp)]-\u003eDoc",
@@ -4374,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprFixity",
           "package": "template-haskell",
@@ -4383,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprFixity",
           "normalized": "Name-\u003eFixity-\u003eDoc",
@@ -4398,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprFunArgType",
           "package": "template-haskell",
@@ -4407,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprFunArgType",
           "normalized": "Type-\u003eDoc",
@@ -4422,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprGuarded",
           "package": "template-haskell",
@@ -4431,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprGuarded",
           "normalized": "Doc-\u003e(Guard,Exp)-\u003eDoc",
@@ -4446,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprInfixExp",
           "package": "template-haskell",
@@ -4455,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprInfixExp",
           "normalized": "Exp-\u003eDoc",
@@ -4495,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprMaybeExp",
           "package": "template-haskell",
@@ -4504,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprMaybeExp",
           "normalized": "Precedence-\u003eMaybe Exp-\u003eDoc",
@@ -4569,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprStrictType",
           "package": "template-haskell",
@@ -4578,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprStrictType",
           "normalized": "(Strict,Type)-\u003eDoc",
@@ -4593,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprString",
           "package": "template-haskell",
@@ -4602,6 +4709,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprString",
           "normalized": "String-\u003eDoc",
@@ -4617,6 +4725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprTyApp",
           "package": "template-haskell",
@@ -4626,6 +4735,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprTyApp",
           "normalized": "(Type,[Type])-\u003eDoc",
@@ -4641,6 +4751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprTyLit",
           "package": "template-haskell",
@@ -4650,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprTyLit",
           "normalized": "TyLit-\u003eDoc",
@@ -4665,6 +4777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprVarStrictType",
           "package": "template-haskell",
@@ -4674,6 +4787,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "pprVarStrictType",
           "normalized": "(Name,Strict,Type)-\u003eDoc",
@@ -4689,6 +4803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_data",
           "package": "template-haskell",
@@ -4698,6 +4813,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_data",
           "normalized": "Doc-\u003eCxt-\u003eName-\u003eDoc-\u003e[Con]-\u003e[Name]-\u003eDoc",
@@ -4712,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_dec",
           "package": "template-haskell",
@@ -4721,6 +4838,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_dec",
           "normalized": "Bool-\u003eDec-\u003eDoc",
@@ -4735,6 +4853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_list",
           "package": "template-haskell",
@@ -4744,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_list",
           "normalized": "[a]-\u003eDoc",
@@ -4758,6 +4878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_newtype",
           "package": "template-haskell",
@@ -4767,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_newtype",
           "normalized": "Doc-\u003eCxt-\u003eName-\u003eDoc-\u003eCon-\u003e[Name]-\u003eDoc",
@@ -4781,6 +4903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_sig",
           "package": "template-haskell",
@@ -4790,6 +4913,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_sig",
           "normalized": "Name-\u003eType-\u003eDoc",
@@ -4804,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_tySyn",
           "package": "template-haskell",
@@ -4813,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "ppr_tySyn",
           "normalized": "Doc-\u003eName-\u003eDoc-\u003eType-\u003eDoc",
@@ -4852,6 +4978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "quoteParens",
           "package": "template-haskell",
@@ -4861,6 +4988,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "quoteParens",
           "normalized": "Doc-\u003eDoc",
@@ -4876,6 +5004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "showtextl",
           "package": "template-haskell",
@@ -4885,6 +5014,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "showtextl",
           "normalized": "a-\u003eDoc",
@@ -4899,6 +5029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "split",
           "package": "template-haskell",
@@ -4908,6 +5039,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "split",
           "normalized": "Type-\u003e(Type,[Type])",
@@ -4922,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "unopPrec",
           "package": "template-haskell",
@@ -4931,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "unopPrec",
           "package": "template-haskell",
@@ -4944,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Ppr",
           "name": "where_clause",
           "package": "template-haskell",
@@ -4953,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Ppr",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Ppr",
           "name": "where_clause",
           "normalized": "[Dec]-\u003eDoc",
@@ -4968,6 +5104,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonadic front-end to Text.PrettyPrint\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "PprLib",
           "package": "template-haskell",
@@ -4977,6 +5114,7 @@
         "index": {
           "description": "Monadic front-end to Text.PrettyPrint",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "PprLib",
           "package": "template-haskell",
@@ -4990,6 +5128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "Doc",
           "package": "template-haskell",
@@ -4998,6 +5137,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "Doc",
           "package": "template-haskell",
@@ -5011,6 +5151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "PprM",
           "package": "template-haskell",
@@ -5019,6 +5160,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "PprM",
           "package": "template-haskell",
@@ -5033,6 +5175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbove; if there is no\n overlap it \"dovetails\" the two\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "($$)",
           "package": "template-haskell",
@@ -5043,6 +5186,7 @@
         "index": {
           "description": "Above if there is no overlap it dovetails the two",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "($$) $$",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -5058,6 +5202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbove, without dovetailing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "($+$)",
           "package": "template-haskell",
@@ -5068,6 +5213,7 @@
         "index": {
           "description": "Above without dovetailing",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "($+$) $+$",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -5083,6 +5229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeside, separated by space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "(\u003c+\u003e)",
           "package": "template-haskell",
@@ -5093,6 +5240,7 @@
         "index": {
           "description": "Beside separated by space",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -5108,6 +5256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeside\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "(\u003c\u003e)",
           "package": "template-haskell",
@@ -5118,6 +5267,7 @@
         "index": {
           "description": "Beside",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -5133,6 +5283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ca\u003e-\u003e\u003c/a\u003e string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "arrow",
           "package": "template-haskell",
@@ -5143,6 +5294,7 @@
         "index": {
           "description": "string",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "arrow",
           "package": "template-haskell",
@@ -5156,6 +5308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e{...}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "braces",
           "package": "template-haskell",
@@ -5166,6 +5319,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "braces",
           "normalized": "Doc-\u003eDoc",
@@ -5181,6 +5335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e[...]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "brackets",
           "package": "template-haskell",
@@ -5191,6 +5346,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "brackets",
           "normalized": "Doc-\u003eDoc",
@@ -5206,6 +5362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither hcat or vcat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "cat",
           "package": "template-haskell",
@@ -5216,6 +5373,7 @@
         "index": {
           "description": "Either hcat or vcat",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "cat",
           "normalized": "[Doc]-\u003eDoc",
@@ -5230,6 +5388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "char",
           "package": "template-haskell",
@@ -5239,6 +5398,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "char",
           "normalized": "Char-\u003eDoc",
@@ -5254,6 +5414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e:\u003c/code\u003e character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "colon",
           "package": "template-haskell",
@@ -5264,6 +5425,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "colon",
           "package": "template-haskell",
@@ -5277,6 +5439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ',' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "comma",
           "package": "template-haskell",
@@ -5287,6 +5450,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "comma",
           "package": "template-haskell",
@@ -5299,6 +5463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "double",
           "package": "template-haskell",
@@ -5308,6 +5473,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "double",
           "normalized": "Double-\u003eDoc",
@@ -5323,6 +5489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e\"...\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "doubleQuotes",
           "package": "template-haskell",
@@ -5333,6 +5500,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "doubleQuotes",
           "normalized": "Doc-\u003eDoc",
@@ -5349,6 +5517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "empty",
           "package": "template-haskell",
@@ -5359,6 +5528,7 @@
         "index": {
           "description": "An empty document",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "empty",
           "package": "template-haskell",
@@ -5372,6 +5542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '=' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "equals",
           "package": "template-haskell",
@@ -5382,6 +5553,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "equals",
           "package": "template-haskell",
@@ -5395,6 +5567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Paragraph fill\" version of cat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "fcat",
           "package": "template-haskell",
@@ -5405,6 +5578,7 @@
         "index": {
           "description": "Paragraph fill version of cat",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "fcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -5419,6 +5593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "float",
           "package": "template-haskell",
@@ -5428,6 +5603,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "float",
           "normalized": "Float-\u003eDoc",
@@ -5443,6 +5619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Paragraph fill\" version of sep\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "fsep",
           "package": "template-haskell",
@@ -5453,6 +5630,7 @@
         "index": {
           "description": "Paragraph fill version of sep",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "fsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -5468,6 +5646,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ehang d1 n d2 = sep [d1, nest n d2]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "hang",
           "package": "template-haskell",
@@ -5478,6 +5657,7 @@
         "index": {
           "description": "hang d1 d2 sep d1 nest d2",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "hang",
           "normalized": "Doc-\u003eInt-\u003eDoc-\u003eDoc",
@@ -5493,6 +5673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "hcat",
           "package": "template-haskell",
@@ -5503,6 +5684,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "hcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -5518,6 +5700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "hsep",
           "package": "template-haskell",
@@ -5528,6 +5711,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "hsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -5542,6 +5726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "int",
           "package": "template-haskell",
@@ -5551,6 +5736,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "int",
           "normalized": "Int-\u003eDoc",
@@ -5565,6 +5751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "integer",
           "package": "template-haskell",
@@ -5574,6 +5761,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "integer",
           "normalized": "Integer-\u003eDoc",
@@ -5589,6 +5777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the document is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "isEmpty",
           "package": "template-haskell",
@@ -5599,6 +5788,7 @@
         "index": {
           "description": "Returns True if the document is empty",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "isEmpty",
           "normalized": "Doc-\u003ePprM Bool",
@@ -5615,6 +5805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '{' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "lbrace",
           "package": "template-haskell",
@@ -5625,6 +5816,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "lbrace",
           "package": "template-haskell",
@@ -5638,6 +5830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '[' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "lbrack",
           "package": "template-haskell",
@@ -5648,6 +5841,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "lbrack",
           "package": "template-haskell",
@@ -5661,6 +5855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '(' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "lparen",
           "package": "template-haskell",
@@ -5671,6 +5866,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "lparen",
           "package": "template-haskell",
@@ -5684,6 +5880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNested\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "nest",
           "package": "template-haskell",
@@ -5694,6 +5891,7 @@
         "index": {
           "description": "Nested",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "nest",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -5709,6 +5907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e(...)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "parens",
           "package": "template-haskell",
@@ -5719,6 +5918,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "parens",
           "normalized": "Doc-\u003eDoc",
@@ -5733,6 +5933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "pprName",
           "package": "template-haskell",
@@ -5742,6 +5943,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "pprName",
           "normalized": "Name-\u003eDoc",
@@ -5757,6 +5959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "pprName'",
           "package": "template-haskell",
@@ -5766,6 +5969,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "pprName'",
           "normalized": "NameIs-\u003eName-\u003eDoc",
@@ -5781,6 +5985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "ptext",
           "package": "template-haskell",
@@ -5790,6 +5995,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "ptext",
           "normalized": "String-\u003eDoc",
@@ -5805,6 +6011,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003epunctuate p [d1, ... dn] = [d1 \u003c\u003e p, d2 \u003c\u003e p, ... dn-1 \u003c\u003e p, dn]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "punctuate",
           "package": "template-haskell",
@@ -5815,6 +6022,7 @@
         "index": {
           "description": "punctuate d1 dn d1 d2 dn-1 dn",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "punctuate",
           "normalized": "Doc-\u003e[Doc]-\u003e[Doc]",
@@ -5830,6 +6038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e'...'\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "quotes",
           "package": "template-haskell",
@@ -5840,6 +6049,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "quotes",
           "normalized": "Doc-\u003eDoc",
@@ -5854,6 +6064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "rational",
           "package": "template-haskell",
@@ -5863,6 +6074,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "rational",
           "normalized": "Rational-\u003eDoc",
@@ -5878,6 +6090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '}' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "rbrace",
           "package": "template-haskell",
@@ -5888,6 +6101,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "rbrace",
           "package": "template-haskell",
@@ -5901,6 +6115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ']' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "rbrack",
           "package": "template-haskell",
@@ -5911,6 +6126,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "rbrack",
           "package": "template-haskell",
@@ -5924,6 +6140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ')' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "rparen",
           "package": "template-haskell",
@@ -5934,6 +6151,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "rparen",
           "package": "template-haskell",
@@ -5947,6 +6165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ';' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "semi",
           "package": "template-haskell",
@@ -5957,6 +6176,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "semi",
           "package": "template-haskell",
@@ -5970,6 +6190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither hsep or vcat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "sep",
           "package": "template-haskell",
@@ -5980,6 +6201,7 @@
         "index": {
           "description": "Either hsep or vcat",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "sep",
           "normalized": "[Doc]-\u003eDoc",
@@ -5995,6 +6217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "space",
           "package": "template-haskell",
@@ -6005,6 +6228,7 @@
         "index": {
           "description": "space character",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "space",
           "package": "template-haskell",
@@ -6017,6 +6241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "text",
           "package": "template-haskell",
@@ -6026,6 +6251,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "text",
           "normalized": "String-\u003eDoc",
@@ -6040,6 +6266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "to_HPJ_Doc",
           "package": "template-haskell",
@@ -6049,6 +6276,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "to_HPJ_Doc",
           "normalized": "Doc-\u003eDoc",
@@ -6065,6 +6293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.PprLib",
           "name": "vcat",
           "package": "template-haskell",
@@ -6075,6 +6304,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Language Haskell TH PprLib",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.PprLib",
           "name": "vcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -6089,6 +6319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Quote",
           "name": "Quote",
           "package": "template-haskell",
@@ -6097,6 +6328,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Quote",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Quote",
           "name": "Quote",
           "package": "template-haskell",
@@ -6110,6 +6342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Quote",
           "name": "QuasiQuoter",
           "package": "template-haskell",
@@ -6118,6 +6351,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Quote",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Quote",
           "name": "QuasiQuoter",
           "package": "template-haskell",
@@ -6131,6 +6365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Quote",
           "name": "QuasiQuoter",
           "package": "template-haskell",
@@ -6140,6 +6375,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Quote",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Quote",
           "name": "QuasiQuoter",
           "package": "template-haskell",
@@ -6154,6 +6390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edataToExpQ\u003c/a\u003e\u003c/code\u003e converts a value to a 'Q Exp' representation of the same\n value. It takes a function to handle type-specific cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Quote",
           "name": "dataToExpQ",
           "package": "template-haskell",
@@ -6164,6 +6401,7 @@
         "index": {
           "description": "dataToExpQ converts value to Exp representation of the same value It takes function to handle type-specific cases",
           "hierarchy": "Language Haskell TH Quote",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Quote",
           "name": "dataToExpQ",
           "normalized": "a-\u003eMaybe(Q Exp))-\u003eb-\u003eQ Exp",
@@ -6180,6 +6418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edataToPatQ\u003c/a\u003e\u003c/code\u003e converts a value to a 'Q Pat' representation of the same\n value. It takes a function to handle type-specific cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Quote",
           "name": "dataToPatQ",
           "package": "template-haskell",
@@ -6190,6 +6429,7 @@
         "index": {
           "description": "dataToPatQ converts value to Pat representation of the same value It takes function to handle type-specific cases",
           "hierarchy": "Language Haskell TH Quote",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Quote",
           "name": "dataToPatQ",
           "normalized": "a-\u003eMaybe(Q Pat))-\u003eb-\u003eQ Pat",
@@ -6205,6 +6445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Quote",
           "name": "dataToQa",
           "package": "template-haskell",
@@ -6214,6 +6455,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Quote",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Quote",
           "name": "dataToQa",
           "normalized": "a-\u003eMaybe(Q b))-\u003ec-\u003eQ b",
@@ -6229,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Quote",
           "name": "quoteDec",
           "package": "template-haskell",
@@ -6238,6 +6481,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Quote",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Quote",
           "name": "quoteDec",
           "normalized": "String-\u003eQ[Dec]",
@@ -6253,6 +6497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Quote",
           "name": "quoteExp",
           "package": "template-haskell",
@@ -6262,6 +6507,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Quote",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Quote",
           "name": "quoteExp",
           "normalized": "String-\u003eQ Exp",
@@ -6278,6 +6524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003equoteFile\u003c/a\u003e\u003c/code\u003e takes a \u003ccode\u003e\u003ca\u003eQuasiQuoter\u003c/a\u003e\u003c/code\u003e and lifts it into one that read\n the data out of a file.  For example, suppose \u003ccode\u003easmq\u003c/code\u003e is an \n assembly-language quoter, so that you can write [asmq| ld r1, r2 |]\n as an expression. Then if you define \u003ccode\u003easmq_f = quoteFile asmq\u003c/code\u003e, then\n the quote [asmq_f| foo.s |] will take input from file \u003ca\u003efoo.s\u003c/a\u003e instead\n of the inline text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Quote",
           "name": "quoteFile",
           "package": "template-haskell",
@@ -6288,6 +6535,7 @@
         "index": {
           "description": "quoteFile takes QuasiQuoter and lifts it into one that read the data out of file For example suppose asmq is an assembly-language quoter so that you can write asmq ld r1 r2 as an expression Then if you define asmq quoteFile asmq then the quote asmq foo.s will take input from file foo.s instead of the inline text",
           "hierarchy": "Language Haskell TH Quote",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Quote",
           "name": "quoteFile",
           "normalized": "QuasiQuoter-\u003eQuasiQuoter",
@@ -6303,6 +6551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Quote",
           "name": "quotePat",
           "package": "template-haskell",
@@ -6312,6 +6561,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Quote",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Quote",
           "name": "quotePat",
           "normalized": "String-\u003eQ Pat",
@@ -6327,6 +6577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Quote",
           "name": "quoteType",
           "package": "template-haskell",
@@ -6336,6 +6587,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Quote",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Quote",
           "name": "quoteType",
           "normalized": "String-\u003eQ Type",
@@ -6352,6 +6604,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstract syntax definitions for Template Haskell.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Syntax",
           "package": "template-haskell",
@@ -6361,6 +6614,7 @@
         "index": {
           "description": "Abstract syntax definitions for Template Haskell",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Syntax",
           "package": "template-haskell",
@@ -6375,6 +6629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn \u003ccode\u003e\u003ca\u003ePrimTyConI\u003c/a\u003e\u003c/code\u003e, arity of the type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Arity",
           "package": "template-haskell",
@@ -6384,6 +6639,7 @@
         "index": {
           "description": "In PrimTyConI arity of the type constructor",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Arity",
           "package": "template-haskell",
@@ -6397,6 +6653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Body",
           "package": "template-haskell",
@@ -6405,6 +6662,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Body",
           "package": "template-haskell",
@@ -6418,6 +6676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Callconv",
           "package": "template-haskell",
@@ -6426,6 +6685,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Callconv",
           "package": "template-haskell",
@@ -6439,6 +6699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "CharPos",
           "package": "template-haskell",
@@ -6447,6 +6708,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "CharPos",
           "package": "template-haskell",
@@ -6460,6 +6722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Clause",
           "package": "template-haskell",
@@ -6468,6 +6731,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Clause",
           "package": "template-haskell",
@@ -6481,6 +6745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Con",
           "package": "template-haskell",
@@ -6489,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Con",
           "package": "template-haskell",
@@ -6502,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Cxt",
           "package": "template-haskell",
@@ -6510,6 +6777,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Cxt",
           "package": "template-haskell",
@@ -6523,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Dec",
           "package": "template-haskell",
@@ -6531,6 +6800,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Dec",
           "package": "template-haskell",
@@ -6544,6 +6814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Exp",
           "package": "template-haskell",
@@ -6552,6 +6823,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Exp",
           "package": "template-haskell",
@@ -6565,6 +6837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "FamFlavour",
           "package": "template-haskell",
@@ -6573,6 +6846,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "FamFlavour",
           "package": "template-haskell",
@@ -6586,6 +6860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "FieldExp",
           "package": "template-haskell",
@@ -6594,6 +6869,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "FieldExp",
           "package": "template-haskell",
@@ -6607,6 +6883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "FieldPat",
           "package": "template-haskell",
@@ -6615,6 +6892,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "FieldPat",
           "package": "template-haskell",
@@ -6628,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Fixity",
           "package": "template-haskell",
@@ -6636,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Fixity",
           "package": "template-haskell",
@@ -6649,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "FixityDirection",
           "package": "template-haskell",
@@ -6657,6 +6938,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "FixityDirection",
           "package": "template-haskell",
@@ -6670,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Foreign",
           "package": "template-haskell",
@@ -6678,6 +6961,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Foreign",
           "package": "template-haskell",
@@ -6691,6 +6975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "FunDep",
           "package": "template-haskell",
@@ -6699,6 +6984,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "FunDep",
           "package": "template-haskell",
@@ -6712,6 +6998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Guard",
           "package": "template-haskell",
@@ -6720,6 +7007,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Guard",
           "package": "template-haskell",
@@ -6734,6 +7022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtained from \u003ccode\u003e\u003ca\u003ereify\u003c/a\u003e\u003c/code\u003e in the \u003ccode\u003e\u003ca\u003eQ\u003c/a\u003e\u003c/code\u003e Monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Info",
           "package": "template-haskell",
@@ -6743,6 +7032,7 @@
         "index": {
           "description": "Obtained from reify in the Monad",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Info",
           "package": "template-haskell",
@@ -6756,6 +7046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Inline",
           "package": "template-haskell",
@@ -6764,6 +7055,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Inline",
           "package": "template-haskell",
@@ -6778,6 +7070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInstanceDec\u003c/a\u003e\u003c/code\u003e desribes a single instance of a class or type function.\n It is just a \u003ccode\u003e\u003ca\u003eDec\u003c/a\u003e\u003c/code\u003e, but guaranteed to be one of the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eInstanceD\u003c/a\u003e\u003c/code\u003e (with empty \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eDec\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eDataInstD\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNewtypeInstD\u003c/a\u003e\u003c/code\u003e (with empty derived \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eTySynInstD\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "InstanceDec",
           "package": "template-haskell",
@@ -6787,6 +7080,7 @@
         "index": {
           "description": "InstanceDec desribes single instance of class or type function It is just Dec but guaranteed to be one of the following InstanceD with empty Dec DataInstD or NewtypeInstD with empty derived Name TySynInstD",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "InstanceDec",
           "package": "template-haskell",
@@ -6801,6 +7095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo avoid duplication between kinds and types, they\n are defined to be the same. Naturally, you would never\n have a type be \u003ccode\u003e\u003ca\u003eStarT\u003c/a\u003e\u003c/code\u003e and you would never have a kind\n be \u003ccode\u003e\u003ca\u003eSigT\u003c/a\u003e\u003c/code\u003e, but many of the other constructors are shared.\n Note that the kind \u003ccode\u003eBool\u003c/code\u003e is denoted with \u003ccode\u003e\u003ca\u003eConT\u003c/a\u003e\u003c/code\u003e, not\n \u003ccode\u003e\u003ca\u003ePromotedT\u003c/a\u003e\u003c/code\u003e. Similarly, tuple kinds are made with \u003ccode\u003e\u003ca\u003eTupleT\u003c/a\u003e\u003c/code\u003e,\n not \u003ccode\u003e\u003ca\u003ePromotedTupleT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Kind",
           "package": "template-haskell",
@@ -6810,6 +7105,7 @@
         "index": {
           "description": "To avoid duplication between kinds and types they are defined to be the same Naturally you would never have type be StarT and you would never have kind be SigT but many of the other constructors are shared Note that the kind Bool is denoted with ConT not PromotedT Similarly tuple kinds are made with TupleT not PromotedTupleT",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Kind",
           "package": "template-haskell",
@@ -6823,6 +7119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Lift",
           "package": "template-haskell",
@@ -6831,6 +7128,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Lift",
           "package": "template-haskell",
@@ -6844,6 +7142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Lit",
           "package": "template-haskell",
@@ -6852,6 +7151,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Lit",
           "package": "template-haskell",
@@ -6865,6 +7165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Loc",
           "package": "template-haskell",
@@ -6873,6 +7174,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Loc",
           "package": "template-haskell",
@@ -6886,6 +7188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Match",
           "package": "template-haskell",
@@ -6894,6 +7197,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Match",
           "package": "template-haskell",
@@ -6907,6 +7211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "ModName",
           "package": "template-haskell",
@@ -6915,6 +7220,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "ModName",
           "package": "template-haskell",
@@ -6929,6 +7235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract type representing names in the syntax tree.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003es can be constructed in several ways, which come with different\nname-capture guarantees (see \u003ca\u003eLanguage.Haskell.TH.Syntax\u003c/a\u003e for\nan explanation of name capture):\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e the built-in syntax \u003ccode\u003e'f\u003c/code\u003e and \u003ccode\u003e''T\u003c/code\u003e can be used to construct names, \n    The expression \u003ccode\u003e'f\u003c/code\u003e gives a \u003ccode\u003eName\u003c/code\u003e which refers to the value \u003ccode\u003ef\u003c/code\u003e \n    currently in scope, and \u003ccode\u003e''T\u003c/code\u003e gives a \u003ccode\u003eName\u003c/code\u003e which refers to the\n    type \u003ccode\u003eT\u003c/code\u003e currently in scope. These names can never be captured.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003elookupValueName\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elookupTypeName\u003c/a\u003e\u003c/code\u003e are similar to \u003ccode\u003e'f\u003c/code\u003e and \n     \u003ccode\u003e''T\u003c/code\u003e respectively, but the \u003ccode\u003eName\u003c/code\u003es are looked up at the point\n     where the current splice is being run. These names can never be\n     captured.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewName\u003c/a\u003e\u003c/code\u003e monadically generates a new name, which can never\n     be captured.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003emkName\u003c/a\u003e\u003c/code\u003e generates a capturable name.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNames constructed using \u003ccode\u003enewName\u003c/code\u003e and \u003ccode\u003emkName\u003c/code\u003e may be used in bindings\n(such as \u003ccode\u003elet x = ...\u003c/code\u003e or \u003ccode\u003ex -\u003e ...\u003c/code\u003e), but names constructed using\n\u003ccode\u003elookupValueName\u003c/code\u003e, \u003ccode\u003elookupTypeName\u003c/code\u003e, \u003ccode\u003e'f\u003c/code\u003e, \u003ccode\u003e''T\u003c/code\u003e may not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Name",
           "package": "template-haskell",
@@ -6938,6 +7245,7 @@
         "index": {
           "description": "An abstract type representing names in the syntax tree Name can be constructed in several ways which come with different name-capture guarantees see Language.Haskell.TH.Syntax for an explanation of name capture the built-in syntax and can be used to construct names The expression gives Name which refers to the value currently in scope and gives Name which refers to the type currently in scope These names can never be captured lookupValueName and lookupTypeName are similar to and respectively but the Name are looked up at the point where the current splice is being run These names can never be captured newName monadically generates new name which can never be captured mkName generates capturable name Names constructed using newName and mkName may be used in bindings such as let or but names constructed using lookupValueName lookupTypeName may not",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Name",
           "package": "template-haskell",
@@ -6951,6 +7259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameFlavour",
           "package": "template-haskell",
@@ -6959,6 +7268,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameFlavour",
           "package": "template-haskell",
@@ -6972,6 +7282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameIs",
           "package": "template-haskell",
@@ -6980,6 +7291,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameIs",
           "package": "template-haskell",
@@ -6993,6 +7305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameSpace",
           "package": "template-haskell",
@@ -7001,6 +7314,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameSpace",
           "package": "template-haskell",
@@ -7014,6 +7328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "OccName",
           "package": "template-haskell",
@@ -7022,6 +7337,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "OccName",
           "package": "template-haskell",
@@ -7036,6 +7352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn \u003ccode\u003e\u003ca\u003eClassOpI\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDataConI\u003c/a\u003e\u003c/code\u003e, name of the parent class or type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "ParentName",
           "package": "template-haskell",
@@ -7045,6 +7362,7 @@
         "index": {
           "description": "In ClassOpI and DataConI name of the parent class or type",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "ParentName",
           "package": "template-haskell",
@@ -7059,6 +7377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePattern in Haskell given in \u003ccode\u003e{}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Pat",
           "package": "template-haskell",
@@ -7068,6 +7387,7 @@
         "index": {
           "description": "Pattern in Haskell given in",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Pat",
           "package": "template-haskell",
@@ -7081,6 +7401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Phases",
           "package": "template-haskell",
@@ -7089,6 +7410,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Phases",
           "package": "template-haskell",
@@ -7102,6 +7424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "PkgName",
           "package": "template-haskell",
@@ -7110,6 +7433,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "PkgName",
           "package": "template-haskell",
@@ -7123,6 +7447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Pragma",
           "package": "template-haskell",
@@ -7131,6 +7456,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Pragma",
           "package": "template-haskell",
@@ -7144,6 +7470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Pred",
           "package": "template-haskell",
@@ -7152,6 +7479,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Pred",
           "package": "template-haskell",
@@ -7165,6 +7493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Q",
           "package": "template-haskell",
@@ -7173,6 +7502,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Q",
           "package": "template-haskell",
@@ -7185,6 +7515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Quasi",
           "package": "template-haskell",
@@ -7193,6 +7524,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Quasi",
           "package": "template-haskell",
@@ -7206,6 +7538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Range",
           "package": "template-haskell",
@@ -7214,6 +7547,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Range",
           "package": "template-haskell",
@@ -7227,6 +7561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "RuleBndr",
           "package": "template-haskell",
@@ -7235,6 +7570,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "RuleBndr",
           "package": "template-haskell",
@@ -7248,6 +7584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "RuleMatch",
           "package": "template-haskell",
@@ -7256,6 +7593,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "RuleMatch",
           "package": "template-haskell",
@@ -7269,6 +7607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Safety",
           "package": "template-haskell",
@@ -7277,6 +7616,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Safety",
           "package": "template-haskell",
@@ -7290,6 +7630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Stmt",
           "package": "template-haskell",
@@ -7298,6 +7639,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Stmt",
           "package": "template-haskell",
@@ -7311,6 +7653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Strict",
           "package": "template-haskell",
@@ -7319,6 +7662,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Strict",
           "package": "template-haskell",
@@ -7332,6 +7676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "StrictType",
           "package": "template-haskell",
@@ -7340,6 +7685,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "StrictType",
           "package": "template-haskell",
@@ -7353,6 +7699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "TyLit",
           "package": "template-haskell",
@@ -7361,6 +7708,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "TyLit",
           "package": "template-haskell",
@@ -7374,6 +7722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "TyVarBndr",
           "package": "template-haskell",
@@ -7382,6 +7731,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "TyVarBndr",
           "package": "template-haskell",
@@ -7395,6 +7745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Type",
           "package": "template-haskell",
@@ -7403,6 +7754,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Type",
           "package": "template-haskell",
@@ -7416,6 +7768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Uniq",
           "package": "template-haskell",
@@ -7424,6 +7777,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Uniq",
           "package": "template-haskell",
@@ -7438,6 +7792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn \u003ccode\u003e\u003ca\u003ePrimTyConI\u003c/a\u003e\u003c/code\u003e, is the type constructor unlifted?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Unlifted",
           "package": "template-haskell",
@@ -7447,6 +7802,7 @@
         "index": {
           "description": "In PrimTyConI is the type constructor unlifted",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Unlifted",
           "package": "template-haskell",
@@ -7460,6 +7816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "VarStrictType",
           "package": "template-haskell",
@@ -7468,6 +7825,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "VarStrictType",
           "package": "template-haskell",
@@ -7504,6 +7862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Alone",
           "package": "template-haskell",
@@ -7513,6 +7872,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Alone",
           "package": "template-haskell",
@@ -7574,6 +7934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Applied",
           "package": "template-haskell",
@@ -7583,6 +7944,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Applied",
           "package": "template-haskell",
@@ -8223,6 +8585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData constructors \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "DataName",
           "package": "template-haskell",
@@ -8233,6 +8596,7 @@
         "index": {
           "description": "Data constructors",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "DataName",
           "package": "template-haskell",
@@ -8763,6 +9127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Infix",
           "package": "template-haskell",
@@ -8772,6 +9137,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Infix",
           "package": "template-haskell",
@@ -9475,6 +9841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "ModName",
           "package": "template-haskell",
@@ -9484,6 +9851,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "ModName",
           "package": "template-haskell",
@@ -9524,6 +9892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Name",
           "package": "template-haskell",
@@ -9533,6 +9902,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Name",
           "package": "template-haskell",
@@ -9547,6 +9917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal name bound outside of the TH AST:\n An original name (occurrences only, not binders)\n Need the namespace too to be sure which \n thing we are naming\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameG",
           "package": "template-haskell",
@@ -9557,6 +9928,7 @@
         "index": {
           "description": "Global name bound outside of the TH AST An original name occurrences only not binders Need the namespace too to be sure which thing we are naming",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameG",
           "package": "template-haskell",
@@ -9571,6 +9943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal name bound outside of the TH AST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameL",
           "package": "template-haskell",
@@ -9581,6 +9954,7 @@
         "index": {
           "description": "Local name bound outside of the TH AST",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameL",
           "package": "template-haskell",
@@ -9595,6 +9969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA qualified name; dynamically bound\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameQ",
           "package": "template-haskell",
@@ -9605,6 +9980,7 @@
         "index": {
           "description": "qualified name dynamically bound",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameQ",
           "package": "template-haskell",
@@ -9619,6 +9995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unqualified name; dynamically bound\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameS",
           "package": "template-haskell",
@@ -9629,6 +10006,7 @@
         "index": {
           "description": "An unqualified name dynamically bound",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameS",
           "package": "template-haskell",
@@ -9643,6 +10021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unique local name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameU",
           "package": "template-haskell",
@@ -9653,6 +10032,7 @@
         "index": {
           "description": "unique local name",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "NameU",
           "package": "template-haskell",
@@ -9890,6 +10270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "OccName",
           "package": "template-haskell",
@@ -9899,6 +10280,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "OccName",
           "package": "template-haskell",
@@ -10014,6 +10396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "PkgName",
           "package": "template-haskell",
@@ -10023,6 +10406,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "PkgName",
           "package": "template-haskell",
@@ -10206,6 +10590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Q",
           "package": "template-haskell",
@@ -10215,6 +10600,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "Q",
           "package": "template-haskell",
@@ -10693,6 +11079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType constructors and classes; Haskell has them\n in the same name space for now.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "TcClsName",
           "package": "template-haskell",
@@ -10703,6 +11090,7 @@
         "index": {
           "description": "Type constructors and classes Haskell has them in the same name space for now",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "TcClsName",
           "package": "template-haskell",
@@ -11219,6 +11607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "VarName",
           "package": "template-haskell",
@@ -11229,6 +11618,7 @@
         "index": {
           "description": "Variables",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "VarName",
           "package": "template-haskell",
@@ -11362,6 +11752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord external files that runIO is using (dependent upon).\n The compiler can then recognize that it should re-compile the file using this TH when the external file changes.\n Note that ghc -M will still not know about these dependencies - it does not execute TH.\n Expects an absolute file path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "addDependentFile",
           "package": "template-haskell",
@@ -11372,6 +11763,7 @@
         "index": {
           "description": "Record external files that runIO is using dependent upon The compiler can then recognize that it should re-compile the file using this TH when the external file changes Note that ghc will still not know about these dependencies it does not execute TH Expects an absolute file path",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "addDependentFile",
           "normalized": "FilePath-\u003eQ()",
@@ -11387,6 +11779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "badIO",
           "package": "template-haskell",
@@ -11396,6 +11789,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "badIO",
           "normalized": "String-\u003eIO a",
@@ -11411,6 +11805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "bindQ",
           "package": "template-haskell",
@@ -11420,6 +11815,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "bindQ",
           "normalized": "Q a-\u003e(a-\u003eQ b)-\u003eQ b",
@@ -11434,6 +11830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "cmpEq",
           "package": "template-haskell",
@@ -11443,6 +11840,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "cmpEq",
           "normalized": "Ordering-\u003eBool",
@@ -11458,6 +11856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "con_NameG",
           "package": "template-haskell",
@@ -11467,6 +11866,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "con_NameG",
           "package": "template-haskell",
@@ -11480,6 +11880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "con_NameL",
           "package": "template-haskell",
@@ -11489,6 +11890,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "con_NameL",
           "package": "template-haskell",
@@ -11502,6 +11904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "con_NameQ",
           "package": "template-haskell",
@@ -11511,6 +11914,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "con_NameQ",
           "package": "template-haskell",
@@ -11524,6 +11928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "con_NameS",
           "package": "template-haskell",
@@ -11533,6 +11938,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "con_NameS",
           "package": "template-haskell",
@@ -11546,6 +11952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "con_NameU",
           "package": "template-haskell",
@@ -11555,6 +11962,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "con_NameU",
           "package": "template-haskell",
@@ -11568,6 +11976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "counter",
           "package": "template-haskell",
@@ -11577,6 +11986,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "counter",
           "package": "template-haskell",
@@ -11614,6 +12024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "falseName",
           "package": "template-haskell",
@@ -11623,6 +12034,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "falseName",
           "package": "template-haskell",
@@ -11663,6 +12075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "justName",
           "package": "template-haskell",
@@ -11672,6 +12085,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "justName",
           "package": "template-haskell",
@@ -11685,6 +12099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "leftName",
           "package": "template-haskell",
@@ -11694,6 +12109,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "leftName",
           "package": "template-haskell",
@@ -11707,6 +12123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "lift",
           "package": "template-haskell",
@@ -11716,6 +12133,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "lift",
           "normalized": "a-\u003eQ Exp",
@@ -11730,6 +12148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "liftString",
           "package": "template-haskell",
@@ -11739,6 +12158,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "liftString",
           "normalized": "String-\u003eQ Exp",
@@ -11888,6 +12308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "lookupName",
           "package": "template-haskell",
@@ -11897,6 +12318,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "lookupName",
           "normalized": "Bool-\u003eString-\u003eQ(Maybe Name)",
@@ -11991,6 +12413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkModName",
           "package": "template-haskell",
@@ -12000,6 +12423,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkModName",
           "normalized": "String-\u003eModName",
@@ -12043,6 +12467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for 'x etc, but not available to the programmer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameG",
           "package": "template-haskell",
@@ -12053,6 +12478,7 @@
         "index": {
           "description": "Used for etc but not available to the programmer",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameG",
           "normalized": "NameSpace-\u003eString-\u003eString-\u003eString-\u003eName",
@@ -12068,6 +12494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameG_d",
           "package": "template-haskell",
@@ -12077,6 +12504,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameG_d",
           "normalized": "String-\u003eString-\u003eString-\u003eName",
@@ -12092,6 +12520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameG_tc",
           "package": "template-haskell",
@@ -12101,6 +12530,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameG_tc",
           "normalized": "String-\u003eString-\u003eString-\u003eName",
@@ -12116,6 +12546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameG_v",
           "package": "template-haskell",
@@ -12125,6 +12556,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameG_v",
           "normalized": "String-\u003eString-\u003eString-\u003eName",
@@ -12141,6 +12573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly used internally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameL",
           "package": "template-haskell",
@@ -12151,6 +12584,7 @@
         "index": {
           "description": "Only used internally",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameL",
           "normalized": "String-\u003eUniq-\u003eName",
@@ -12167,6 +12601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly used internally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameU",
           "package": "template-haskell",
@@ -12177,6 +12612,7 @@
         "index": {
           "description": "Only used internally",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkNameU",
           "normalized": "String-\u003eUniq-\u003eName",
@@ -12192,6 +12628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkOccName",
           "package": "template-haskell",
@@ -12201,6 +12638,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkOccName",
           "normalized": "String-\u003eOccName",
@@ -12216,6 +12654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkPkgName",
           "package": "template-haskell",
@@ -12225,6 +12664,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mkPkgName",
           "normalized": "String-\u003ePkgName",
@@ -12240,6 +12680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mk_tup_name",
           "package": "template-haskell",
@@ -12249,6 +12690,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mk_tup_name",
           "normalized": "Int-\u003eNameSpace-\u003eName",
@@ -12263,6 +12705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mk_unboxed_tup_name",
           "package": "template-haskell",
@@ -12272,6 +12715,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "mk_unboxed_tup_name",
           "normalized": "Int-\u003eNameSpace-\u003eName",
@@ -12286,6 +12730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "modString",
           "package": "template-haskell",
@@ -12295,6 +12740,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "modString",
           "normalized": "ModName-\u003eString",
@@ -12391,6 +12837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "nothingName",
           "package": "template-haskell",
@@ -12400,6 +12847,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "nothingName",
           "package": "template-haskell",
@@ -12413,6 +12861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "occString",
           "package": "template-haskell",
@@ -12422,6 +12871,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "occString",
           "normalized": "OccName-\u003eString",
@@ -12437,6 +12887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "pkgString",
           "package": "template-haskell",
@@ -12446,6 +12897,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "pkgString",
           "normalized": "PkgName-\u003eString",
@@ -12461,6 +12913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qAddDependentFile",
           "package": "template-haskell",
@@ -12470,6 +12923,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qAddDependentFile",
           "normalized": "FilePath-\u003ea()",
@@ -12485,6 +12939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qLocation",
           "package": "template-haskell",
@@ -12494,6 +12949,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qLocation",
           "package": "template-haskell",
@@ -12507,6 +12963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qLookupName",
           "package": "template-haskell",
@@ -12516,6 +12973,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qLookupName",
           "normalized": "Bool-\u003eString-\u003ea(Maybe Name)",
@@ -12531,6 +12989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qNewName",
           "package": "template-haskell",
@@ -12540,6 +12999,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qNewName",
           "package": "template-haskell",
@@ -12553,6 +13013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qRecover",
           "package": "template-haskell",
@@ -12562,6 +13023,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qRecover",
           "package": "template-haskell",
@@ -12575,6 +13037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qReify",
           "package": "template-haskell",
@@ -12584,6 +13047,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qReify",
           "normalized": "Name-\u003ea Info",
@@ -12599,6 +13063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qReifyInstances",
           "package": "template-haskell",
@@ -12608,6 +13073,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qReifyInstances",
           "normalized": "Name-\u003e[Type]-\u003ea[Dec]",
@@ -12623,6 +13089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qReport",
           "package": "template-haskell",
@@ -12632,6 +13099,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qReport",
           "package": "template-haskell",
@@ -12646,6 +13114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput/output (dangerous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qRunIO",
           "package": "template-haskell",
@@ -12656,6 +13125,7 @@
         "index": {
           "description": "Input output dangerous",
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "qRunIO",
           "normalized": "IO a-\u003eb a",
@@ -12829,6 +13299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "returnQ",
           "package": "template-haskell",
@@ -12838,6 +13309,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "returnQ",
           "normalized": "a-\u003eQ a",
@@ -12852,6 +13324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "rightName",
           "package": "template-haskell",
@@ -12861,6 +13334,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "rightName",
           "package": "template-haskell",
@@ -12925,6 +13399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "sequenceQ",
           "package": "template-haskell",
@@ -12934,6 +13409,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "sequenceQ",
           "normalized": "[Q a]-\u003eQ[a]",
@@ -12948,6 +13424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "showName",
           "package": "template-haskell",
@@ -12957,6 +13434,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "showName",
           "normalized": "Name-\u003eString",
@@ -12972,6 +13450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "showName'",
           "package": "template-haskell",
@@ -12981,6 +13460,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "showName'",
           "normalized": "NameIs-\u003eName-\u003eString",
@@ -12996,6 +13476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "thenCmp",
           "package": "template-haskell",
@@ -13005,6 +13486,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "thenCmp",
           "normalized": "Ordering-\u003eOrdering-\u003eOrdering",
@@ -13020,6 +13502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "trueName",
           "package": "template-haskell",
@@ -13029,6 +13512,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "trueName",
           "package": "template-haskell",
@@ -13096,6 +13580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "ty_NameFlavour",
           "package": "template-haskell",
@@ -13105,6 +13590,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "ty_NameFlavour",
           "package": "template-haskell",
@@ -13118,6 +13604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH.Syntax",
           "name": "unQ",
           "package": "template-haskell",
@@ -13127,6 +13614,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Syntax",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH.Syntax",
           "name": "unQ",
           "package": "template-haskell",
@@ -13194,6 +13682,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe public face of Template Haskell\n\u003c/p\u003e\u003cp\u003eFor other documentation, refer to:\n\u003ca\u003ehttp://www.haskell.org/haskellwiki/Template_Haskell\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "TH",
           "package": "template-haskell",
@@ -13203,6 +13692,7 @@
         "index": {
           "description": "The public face of Template Haskell For other documentation refer to http www.haskell.org haskellwiki Template Haskell",
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "TH",
           "package": "template-haskell",
@@ -13217,6 +13707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn \u003ccode\u003e\u003ca\u003ePrimTyConI\u003c/a\u003e\u003c/code\u003e, arity of the type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Arity",
           "package": "template-haskell",
@@ -13226,6 +13717,7 @@
         "index": {
           "description": "In PrimTyConI arity of the type constructor",
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Arity",
           "package": "template-haskell",
@@ -13239,6 +13731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Body",
           "package": "template-haskell",
@@ -13247,6 +13740,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Body",
           "package": "template-haskell",
@@ -13260,6 +13754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "BodyQ",
           "package": "template-haskell",
@@ -13268,6 +13763,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "BodyQ",
           "package": "template-haskell",
@@ -13281,6 +13777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Callconv",
           "package": "template-haskell",
@@ -13289,6 +13786,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Callconv",
           "package": "template-haskell",
@@ -13302,6 +13800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Clause",
           "package": "template-haskell",
@@ -13310,6 +13809,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Clause",
           "package": "template-haskell",
@@ -13323,6 +13823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "ClauseQ",
           "package": "template-haskell",
@@ -13331,6 +13832,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "ClauseQ",
           "package": "template-haskell",
@@ -13344,6 +13846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Con",
           "package": "template-haskell",
@@ -13352,6 +13855,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Con",
           "package": "template-haskell",
@@ -13365,6 +13869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "ConQ",
           "package": "template-haskell",
@@ -13373,6 +13878,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "ConQ",
           "package": "template-haskell",
@@ -13386,6 +13892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Cxt",
           "package": "template-haskell",
@@ -13394,6 +13901,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Cxt",
           "package": "template-haskell",
@@ -13407,6 +13915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "CxtQ",
           "package": "template-haskell",
@@ -13415,6 +13924,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "CxtQ",
           "package": "template-haskell",
@@ -13428,6 +13938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Dec",
           "package": "template-haskell",
@@ -13436,6 +13947,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Dec",
           "package": "template-haskell",
@@ -13449,6 +13961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "DecQ",
           "package": "template-haskell",
@@ -13457,6 +13970,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "DecQ",
           "package": "template-haskell",
@@ -13470,6 +13984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "DecsQ",
           "package": "template-haskell",
@@ -13478,6 +13993,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "DecsQ",
           "package": "template-haskell",
@@ -13491,6 +14007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Exp",
           "package": "template-haskell",
@@ -13499,6 +14016,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Exp",
           "package": "template-haskell",
@@ -13512,6 +14030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "ExpQ",
           "package": "template-haskell",
@@ -13520,6 +14039,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "ExpQ",
           "package": "template-haskell",
@@ -13533,6 +14053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "FamFlavour",
           "package": "template-haskell",
@@ -13541,6 +14062,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "FamFlavour",
           "package": "template-haskell",
@@ -13554,6 +14076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "FieldExp",
           "package": "template-haskell",
@@ -13562,6 +14085,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "FieldExp",
           "package": "template-haskell",
@@ -13575,6 +14099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "FieldPat",
           "package": "template-haskell",
@@ -13583,6 +14108,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "FieldPat",
           "package": "template-haskell",
@@ -13596,6 +14122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "FieldPatQ",
           "package": "template-haskell",
@@ -13604,6 +14131,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "FieldPatQ",
           "package": "template-haskell",
@@ -13617,6 +14145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Fixity",
           "package": "template-haskell",
@@ -13625,6 +14154,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Fixity",
           "package": "template-haskell",
@@ -13638,6 +14168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "FixityDirection",
           "package": "template-haskell",
@@ -13646,6 +14177,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "FixityDirection",
           "package": "template-haskell",
@@ -13659,6 +14191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Foreign",
           "package": "template-haskell",
@@ -13667,6 +14200,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Foreign",
           "package": "template-haskell",
@@ -13680,6 +14214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "FunDep",
           "package": "template-haskell",
@@ -13688,6 +14223,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "FunDep",
           "package": "template-haskell",
@@ -13701,6 +14237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Guard",
           "package": "template-haskell",
@@ -13709,6 +14246,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Guard",
           "package": "template-haskell",
@@ -13722,6 +14260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "GuardQ",
           "package": "template-haskell",
@@ -13730,6 +14269,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "GuardQ",
           "package": "template-haskell",
@@ -13744,6 +14284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtained from \u003ccode\u003e\u003ca\u003ereify\u003c/a\u003e\u003c/code\u003e in the \u003ccode\u003e\u003ca\u003eQ\u003c/a\u003e\u003c/code\u003e Monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Info",
           "package": "template-haskell",
@@ -13753,6 +14294,7 @@
         "index": {
           "description": "Obtained from reify in the Monad",
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Info",
           "package": "template-haskell",
@@ -13766,6 +14308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "InfoQ",
           "package": "template-haskell",
@@ -13774,6 +14317,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "InfoQ",
           "package": "template-haskell",
@@ -13787,6 +14331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Inline",
           "package": "template-haskell",
@@ -13795,6 +14340,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Inline",
           "package": "template-haskell",
@@ -13809,6 +14355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInstanceDec\u003c/a\u003e\u003c/code\u003e desribes a single instance of a class or type function.\n It is just a \u003ccode\u003e\u003ca\u003eDec\u003c/a\u003e\u003c/code\u003e, but guaranteed to be one of the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eInstanceD\u003c/a\u003e\u003c/code\u003e (with empty \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eDec\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eDataInstD\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNewtypeInstD\u003c/a\u003e\u003c/code\u003e (with empty derived \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eTySynInstD\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "InstanceDec",
           "package": "template-haskell",
@@ -13818,6 +14365,7 @@
         "index": {
           "description": "InstanceDec desribes single instance of class or type function It is just Dec but guaranteed to be one of the following InstanceD with empty Dec DataInstD or NewtypeInstD with empty derived Name TySynInstD",
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "InstanceDec",
           "package": "template-haskell",
@@ -13832,6 +14380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo avoid duplication between kinds and types, they\n are defined to be the same. Naturally, you would never\n have a type be \u003ccode\u003e\u003ca\u003eStarT\u003c/a\u003e\u003c/code\u003e and you would never have a kind\n be \u003ccode\u003e\u003ca\u003eSigT\u003c/a\u003e\u003c/code\u003e, but many of the other constructors are shared.\n Note that the kind \u003ccode\u003eBool\u003c/code\u003e is denoted with \u003ccode\u003e\u003ca\u003eConT\u003c/a\u003e\u003c/code\u003e, not\n \u003ccode\u003e\u003ca\u003ePromotedT\u003c/a\u003e\u003c/code\u003e. Similarly, tuple kinds are made with \u003ccode\u003e\u003ca\u003eTupleT\u003c/a\u003e\u003c/code\u003e,\n not \u003ccode\u003e\u003ca\u003ePromotedTupleT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Kind",
           "package": "template-haskell",
@@ -13841,6 +14390,7 @@
         "index": {
           "description": "To avoid duplication between kinds and types they are defined to be the same Naturally you would never have type be StarT and you would never have kind be SigT but many of the other constructors are shared Note that the kind Bool is denoted with ConT not PromotedT Similarly tuple kinds are made with TupleT not PromotedTupleT",
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Kind",
           "package": "template-haskell",
@@ -13854,6 +14404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Lit",
           "package": "template-haskell",
@@ -13862,6 +14413,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Lit",
           "package": "template-haskell",
@@ -13875,6 +14427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Loc",
           "package": "template-haskell",
@@ -13883,6 +14436,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Loc",
           "package": "template-haskell",
@@ -13896,6 +14450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Match",
           "package": "template-haskell",
@@ -13904,6 +14459,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Match",
           "package": "template-haskell",
@@ -13917,6 +14473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "MatchQ",
           "package": "template-haskell",
@@ -13925,6 +14482,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "MatchQ",
           "package": "template-haskell",
@@ -13939,6 +14497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract type representing names in the syntax tree.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003es can be constructed in several ways, which come with different\nname-capture guarantees (see \u003ca\u003eLanguage.Haskell.TH.Syntax\u003c/a\u003e for\nan explanation of name capture):\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e the built-in syntax \u003ccode\u003e'f\u003c/code\u003e and \u003ccode\u003e''T\u003c/code\u003e can be used to construct names, \n    The expression \u003ccode\u003e'f\u003c/code\u003e gives a \u003ccode\u003eName\u003c/code\u003e which refers to the value \u003ccode\u003ef\u003c/code\u003e \n    currently in scope, and \u003ccode\u003e''T\u003c/code\u003e gives a \u003ccode\u003eName\u003c/code\u003e which refers to the\n    type \u003ccode\u003eT\u003c/code\u003e currently in scope. These names can never be captured.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003elookupValueName\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elookupTypeName\u003c/a\u003e\u003c/code\u003e are similar to \u003ccode\u003e'f\u003c/code\u003e and \n     \u003ccode\u003e''T\u003c/code\u003e respectively, but the \u003ccode\u003eName\u003c/code\u003es are looked up at the point\n     where the current splice is being run. These names can never be\n     captured.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewName\u003c/a\u003e\u003c/code\u003e monadically generates a new name, which can never\n     be captured.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003emkName\u003c/a\u003e\u003c/code\u003e generates a capturable name.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNames constructed using \u003ccode\u003enewName\u003c/code\u003e and \u003ccode\u003emkName\u003c/code\u003e may be used in bindings\n(such as \u003ccode\u003elet x = ...\u003c/code\u003e or \u003ccode\u003ex -\u003e ...\u003c/code\u003e), but names constructed using\n\u003ccode\u003elookupValueName\u003c/code\u003e, \u003ccode\u003elookupTypeName\u003c/code\u003e, \u003ccode\u003e'f\u003c/code\u003e, \u003ccode\u003e''T\u003c/code\u003e may not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Name",
           "package": "template-haskell",
@@ -13948,6 +14507,7 @@
         "index": {
           "description": "An abstract type representing names in the syntax tree Name can be constructed in several ways which come with different name-capture guarantees see Language.Haskell.TH.Syntax for an explanation of name capture the built-in syntax and can be used to construct names The expression gives Name which refers to the value currently in scope and gives Name which refers to the type currently in scope These names can never be captured lookupValueName and lookupTypeName are similar to and respectively but the Name are looked up at the point where the current splice is being run These names can never be captured newName monadically generates new name which can never be captured mkName generates capturable name Names constructed using newName and mkName may be used in bindings such as let or but names constructed using lookupValueName lookupTypeName may not",
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Name",
           "package": "template-haskell",
@@ -13961,6 +14521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "NameSpace",
           "package": "template-haskell",
@@ -13969,6 +14530,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "NameSpace",
           "package": "template-haskell",
@@ -13983,6 +14545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn \u003ccode\u003e\u003ca\u003eClassOpI\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDataConI\u003c/a\u003e\u003c/code\u003e, name of the parent class or type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "ParentName",
           "package": "template-haskell",
@@ -13992,6 +14555,7 @@
         "index": {
           "description": "In ClassOpI and DataConI name of the parent class or type",
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "ParentName",
           "package": "template-haskell",
@@ -14006,6 +14570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePattern in Haskell given in \u003ccode\u003e{}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Pat",
           "package": "template-haskell",
@@ -14015,6 +14580,7 @@
         "index": {
           "description": "Pattern in Haskell given in",
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Pat",
           "package": "template-haskell",
@@ -14028,6 +14594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "PatQ",
           "package": "template-haskell",
@@ -14036,6 +14603,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "PatQ",
           "package": "template-haskell",
@@ -14049,6 +14617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Phases",
           "package": "template-haskell",
@@ -14057,6 +14626,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Phases",
           "package": "template-haskell",
@@ -14070,6 +14640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Ppr",
           "package": "template-haskell",
@@ -14078,6 +14649,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Ppr",
           "package": "template-haskell",
@@ -14091,6 +14663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Pragma",
           "package": "template-haskell",
@@ -14099,6 +14672,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Pragma",
           "package": "template-haskell",
@@ -14112,6 +14686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Pred",
           "package": "template-haskell",
@@ -14120,6 +14695,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Pred",
           "package": "template-haskell",
@@ -14133,6 +14709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "PredQ",
           "package": "template-haskell",
@@ -14141,6 +14718,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "PredQ",
           "package": "template-haskell",
@@ -14154,6 +14732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Q",
           "package": "template-haskell",
@@ -14162,6 +14741,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Q",
           "package": "template-haskell",
@@ -14174,6 +14754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Range",
           "package": "template-haskell",
@@ -14182,6 +14763,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Range",
           "package": "template-haskell",
@@ -14195,6 +14777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "RangeQ",
           "package": "template-haskell",
@@ -14203,6 +14786,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "RangeQ",
           "package": "template-haskell",
@@ -14216,6 +14800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "RuleBndr",
           "package": "template-haskell",
@@ -14224,6 +14809,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "RuleBndr",
           "package": "template-haskell",
@@ -14237,6 +14823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "RuleBndrQ",
           "package": "template-haskell",
@@ -14245,6 +14832,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "RuleBndrQ",
           "package": "template-haskell",
@@ -14258,6 +14846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "RuleMatch",
           "package": "template-haskell",
@@ -14266,6 +14855,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "RuleMatch",
           "package": "template-haskell",
@@ -14279,6 +14869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Safety",
           "package": "template-haskell",
@@ -14287,6 +14878,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Safety",
           "package": "template-haskell",
@@ -14300,6 +14892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Stmt",
           "package": "template-haskell",
@@ -14308,6 +14901,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Stmt",
           "package": "template-haskell",
@@ -14321,6 +14915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "StmtQ",
           "package": "template-haskell",
@@ -14329,6 +14924,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "StmtQ",
           "package": "template-haskell",
@@ -14342,6 +14938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Strict",
           "package": "template-haskell",
@@ -14350,6 +14947,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Strict",
           "package": "template-haskell",
@@ -14363,6 +14961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "StrictTypeQ",
           "package": "template-haskell",
@@ -14371,6 +14970,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "StrictTypeQ",
           "package": "template-haskell",
@@ -14384,6 +14984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "TyLit",
           "package": "template-haskell",
@@ -14392,6 +14993,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "TyLit",
           "package": "template-haskell",
@@ -14405,6 +15007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "TyLitQ",
           "package": "template-haskell",
@@ -14413,6 +15016,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "TyLitQ",
           "package": "template-haskell",
@@ -14426,6 +15030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "TyVarBndr",
           "package": "template-haskell",
@@ -14434,6 +15039,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "TyVarBndr",
           "package": "template-haskell",
@@ -14447,6 +15053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Type",
           "package": "template-haskell",
@@ -14455,6 +15062,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Type",
           "package": "template-haskell",
@@ -14468,6 +15076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "TypeQ",
           "package": "template-haskell",
@@ -14476,6 +15085,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "TypeQ",
           "package": "template-haskell",
@@ -14490,6 +15100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn \u003ccode\u003e\u003ca\u003ePrimTyConI\u003c/a\u003e\u003c/code\u003e, is the type constructor unlifted?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "Unlifted",
           "package": "template-haskell",
@@ -14499,6 +15110,7 @@
         "index": {
           "description": "In PrimTyConI is the type constructor unlifted",
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "Unlifted",
           "package": "template-haskell",
@@ -14512,6 +15124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "VarStrictTypeQ",
           "package": "template-haskell",
@@ -14520,6 +15133,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "VarStrictTypeQ",
           "package": "template-haskell",
@@ -14533,6 +15147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "ppr",
           "package": "template-haskell",
@@ -14542,6 +15157,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "ppr",
           "normalized": "a-\u003eDoc",
@@ -14556,6 +15172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:13 UTC 2014",
           "module": "Language.Haskell.TH",
           "name": "ppr_list",
           "package": "template-haskell",
@@ -14565,6 +15182,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH",
+          "indexed": "2014-03-11T20:18:13",
           "module": "Language.Haskell.TH",
           "name": "ppr_list",
           "normalized": "[a]-\u003eDoc",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LTree"
+        "phrase": "LTree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:09 UTC 2014",
           "module": "Control.Trees.LTreeT",
           "name": "LTreeT",
           "package": "LTree",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Trees LTreeT",
+          "indexed": "2014-03-11T16:51:09",
           "module": "Control.Trees.LTreeT",
           "name": "LTreeT",
           "package": "LTree",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:09 UTC 2014",
           "module": "Control.Trees.LTreeT",
           "name": "TreeT",
           "package": "LTree",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Trees LTreeT",
+          "indexed": "2014-03-11T16:51:09",
           "module": "Control.Trees.LTreeT",
           "name": "TreeT",
           "package": "LTree",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:09 UTC 2014",
           "module": "Control.Trees.LTreeT",
           "name": "TreeT",
           "package": "LTree",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Trees LTreeT",
+          "indexed": "2014-03-11T16:51:09",
           "module": "Control.Trees.LTreeT",
           "name": "TreeT",
           "package": "LTree",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Haskell library provides an implementation of a tree data\n type with content in the leaves.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:09 UTC 2014",
           "module": "Data.Trees.LTree",
           "name": "LTree",
           "package": "LTree",
@@ -92,6 +99,7 @@
         "index": {
           "description": "This Haskell library provides an implementation of tree data type with content in the leaves",
           "hierarchy": "Data Trees LTree",
+          "indexed": "2014-03-11T16:51:09",
           "module": "Data.Trees.LTree",
           "name": "LTree",
           "package": "LTree",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e| The \u003ccode\u003eLTree c\u003c/code\u003e is a tree structure with content in the leaves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:09 UTC 2014",
           "module": "Data.Trees.LTree",
           "name": "Tree",
           "package": "LTree",
@@ -115,6 +124,7 @@
         "index": {
           "description": "The LTree is tree structure with content in the leaves",
           "hierarchy": "Data Trees LTree",
+          "indexed": "2014-03-11T16:51:09",
           "module": "Data.Trees.LTree",
           "name": "Tree",
           "package": "LTree",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:09 UTC 2014",
           "module": "Data.Trees.LTree",
           "name": "Leaf",
           "package": "LTree",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Trees LTree",
+          "indexed": "2014-03-11T16:51:09",
           "module": "Data.Trees.LTree",
           "name": "Leaf",
           "package": "LTree",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:09 UTC 2014",
           "module": "Data.Trees.LTree",
           "name": "Node",
           "package": "LTree",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Trees LTree",
+          "indexed": "2014-03-11T16:51:09",
           "module": "Data.Trees.LTree",
           "name": "Node",
           "package": "LTree",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:09 UTC 2014",
           "module": "Data.Trees.LTree",
           "name": "content",
           "package": "LTree",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data Trees LTree",
+          "indexed": "2014-03-11T16:51:09",
           "module": "Data.Trees.LTree",
           "name": "content",
           "package": "LTree",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:09 UTC 2014",
           "module": "Data.Trees.LTree",
           "name": "trees",
           "package": "LTree",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data Trees LTree",
+          "indexed": "2014-03-11T16:51:09",
           "module": "Data.Trees.LTree",
           "name": "trees",
           "normalized": "[Tree a]",

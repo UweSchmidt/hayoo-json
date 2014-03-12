@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ANum"
+        "phrase": "ANum",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:33 UTC 2014",
           "module": "Data.ANum",
           "name": "ANum",
           "package": "ANum",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data ANum",
+          "indexed": "2014-03-11T16:32:33",
           "module": "Data.ANum",
           "name": "ANum",
           "package": "ANum",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:33 UTC 2014",
           "module": "Data.ANum",
           "name": "ANum",
           "package": "ANum",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data ANum",
+          "indexed": "2014-03-11T16:32:33",
           "module": "Data.ANum",
           "name": "ANum",
           "package": "ANum",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:33 UTC 2014",
           "module": "Data.ANum",
           "name": "ANum",
           "package": "ANum",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data ANum",
+          "indexed": "2014-03-11T16:32:33",
           "module": "Data.ANum",
           "name": "ANum",
           "package": "ANum",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:33 UTC 2014",
           "module": "Data.ANum",
           "name": "unANum",
           "package": "ANum",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data ANum",
+          "indexed": "2014-03-11T16:32:33",
           "module": "Data.ANum",
           "name": "unANum",
           "normalized": "ANum a b-\u003ea b",

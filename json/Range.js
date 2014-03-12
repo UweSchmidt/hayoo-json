@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Range"
+        "phrase": "Range",
+        "type": "phrase"
       },
       "type": "context"
     }

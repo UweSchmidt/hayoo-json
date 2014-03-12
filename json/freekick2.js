@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "freekick2"
+        "phrase": "freekick2",
+        "type": "phrase"
       },
       "type": "context"
     }

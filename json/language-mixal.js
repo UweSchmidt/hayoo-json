@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-mixal"
+        "phrase": "language-mixal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "AST",
           "package": "language-mixal",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "AST",
           "package": "language-mixal",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Address",
           "package": "language-mixal",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Address",
           "package": "language-mixal",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "AtomicExpr",
           "package": "language-mixal",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "AtomicExpr",
           "package": "language-mixal",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "BinOp",
           "package": "language-mixal",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "BinOp",
           "package": "language-mixal",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DefinedSymbol",
           "package": "language-mixal",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DefinedSymbol",
           "package": "language-mixal",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Expr",
           "package": "language-mixal",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Expr",
           "package": "language-mixal",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Field",
           "package": "language-mixal",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Field",
           "package": "language-mixal",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Index",
           "package": "language-mixal",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Index",
           "package": "language-mixal",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "MIXALStmt",
           "package": "language-mixal",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "MIXALStmt",
           "package": "language-mixal",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "MIXChar",
           "package": "language-mixal",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "MIXChar",
           "package": "language-mixal",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "OpCode",
           "package": "language-mixal",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "OpCode",
           "package": "language-mixal",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Symbol",
           "package": "language-mixal",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Symbol",
           "package": "language-mixal",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "SymbolRef",
           "package": "language-mixal",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "SymbolRef",
           "package": "language-mixal",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "WValue",
           "package": "language-mixal",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "WValue",
           "package": "language-mixal",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ADD",
           "package": "language-mixal",
@@ -321,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ADD",
           "package": "language-mixal",
@@ -334,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Add",
           "package": "language-mixal",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Add",
           "package": "language-mixal",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "AddrExpr",
           "package": "language-mixal",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "AddrExpr",
           "package": "language-mixal",
@@ -378,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "AddrLiteral",
           "package": "language-mixal",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "AddrLiteral",
           "package": "language-mixal",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "AddrRef",
           "package": "language-mixal",
@@ -409,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "AddrRef",
           "package": "language-mixal",
@@ -422,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Alf",
           "package": "language-mixal",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Alf",
           "normalized": "Alf(Maybe DefinedSymbol)(MIXChar,MIXChar,MIXChar,MIXChar,MIXChar)",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Asterisk",
           "package": "language-mixal",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Asterisk",
           "package": "language-mixal",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "AtExpr",
           "package": "language-mixal",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "AtExpr",
           "package": "language-mixal",
@@ -490,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "BinOp",
           "package": "language-mixal",
@@ -499,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "BinOp",
           "normalized": "BinOp Expr BinOp Expr[(BinOp,Expr)]",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "CHAR",
           "package": "language-mixal",
@@ -523,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "CHAR",
           "package": "language-mixal",
@@ -536,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "CMP1",
           "package": "language-mixal",
@@ -545,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "CMP1",
           "package": "language-mixal",
@@ -558,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "CMP2",
           "package": "language-mixal",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "CMP2",
           "package": "language-mixal",
@@ -580,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "CMP3",
           "package": "language-mixal",
@@ -589,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "CMP3",
           "package": "language-mixal",
@@ -602,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "CMP4",
           "package": "language-mixal",
@@ -611,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "CMP4",
           "package": "language-mixal",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "CMP5",
           "package": "language-mixal",
@@ -633,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "CMP5",
           "package": "language-mixal",
@@ -646,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "CMP6",
           "package": "language-mixal",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "CMP6",
           "package": "language-mixal",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "CMPA",
           "package": "language-mixal",
@@ -677,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "CMPA",
           "package": "language-mixal",
@@ -690,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "CMPX",
           "package": "language-mixal",
@@ -699,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "CMPX",
           "package": "language-mixal",
@@ -712,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Con",
           "package": "language-mixal",
@@ -721,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Con",
           "package": "language-mixal",
@@ -734,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DEC1",
           "package": "language-mixal",
@@ -743,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DEC1",
           "package": "language-mixal",
@@ -756,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DEC2",
           "package": "language-mixal",
@@ -765,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DEC2",
           "package": "language-mixal",
@@ -778,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DEC3",
           "package": "language-mixal",
@@ -787,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DEC3",
           "package": "language-mixal",
@@ -800,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DEC4",
           "package": "language-mixal",
@@ -809,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DEC4",
           "package": "language-mixal",
@@ -822,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DEC5",
           "package": "language-mixal",
@@ -831,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DEC5",
           "package": "language-mixal",
@@ -844,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DEC6",
           "package": "language-mixal",
@@ -853,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DEC6",
           "package": "language-mixal",
@@ -866,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DECA",
           "package": "language-mixal",
@@ -875,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DECA",
           "package": "language-mixal",
@@ -888,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DECX",
           "package": "language-mixal",
@@ -897,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DECX",
           "package": "language-mixal",
@@ -910,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DIV",
           "package": "language-mixal",
@@ -919,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DIV",
           "package": "language-mixal",
@@ -932,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DefLocal",
           "package": "language-mixal",
@@ -941,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DefLocal",
           "package": "language-mixal",
@@ -954,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "DefNormal",
           "package": "language-mixal",
@@ -963,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "DefNormal",
           "package": "language-mixal",
@@ -976,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Divide",
           "package": "language-mixal",
@@ -985,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Divide",
           "package": "language-mixal",
@@ -998,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENN1",
           "package": "language-mixal",
@@ -1007,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENN1",
           "package": "language-mixal",
@@ -1020,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENN2",
           "package": "language-mixal",
@@ -1029,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENN2",
           "package": "language-mixal",
@@ -1042,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENN3",
           "package": "language-mixal",
@@ -1051,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENN3",
           "package": "language-mixal",
@@ -1064,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENN4",
           "package": "language-mixal",
@@ -1073,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENN4",
           "package": "language-mixal",
@@ -1086,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENN5",
           "package": "language-mixal",
@@ -1095,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENN5",
           "package": "language-mixal",
@@ -1108,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENN6",
           "package": "language-mixal",
@@ -1117,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENN6",
           "package": "language-mixal",
@@ -1130,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENNA",
           "package": "language-mixal",
@@ -1139,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENNA",
           "package": "language-mixal",
@@ -1152,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENNX",
           "package": "language-mixal",
@@ -1161,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENNX",
           "package": "language-mixal",
@@ -1174,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENT1",
           "package": "language-mixal",
@@ -1183,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENT1",
           "package": "language-mixal",
@@ -1196,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENT2",
           "package": "language-mixal",
@@ -1205,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENT2",
           "package": "language-mixal",
@@ -1218,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENT3",
           "package": "language-mixal",
@@ -1227,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENT3",
           "package": "language-mixal",
@@ -1240,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENT4",
           "package": "language-mixal",
@@ -1249,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENT4",
           "package": "language-mixal",
@@ -1262,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENT5",
           "package": "language-mixal",
@@ -1271,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENT5",
           "package": "language-mixal",
@@ -1284,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENT6",
           "package": "language-mixal",
@@ -1293,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENT6",
           "package": "language-mixal",
@@ -1306,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENTA",
           "package": "language-mixal",
@@ -1315,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENTA",
           "package": "language-mixal",
@@ -1328,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ENTX",
           "package": "language-mixal",
@@ -1337,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ENTX",
           "package": "language-mixal",
@@ -1350,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "End",
           "package": "language-mixal",
@@ -1359,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "End",
           "package": "language-mixal",
@@ -1372,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Equ",
           "package": "language-mixal",
@@ -1381,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Equ",
           "package": "language-mixal",
@@ -1394,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Field",
           "package": "language-mixal",
@@ -1403,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Field",
           "package": "language-mixal",
@@ -1416,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "FieldExpr",
           "package": "language-mixal",
@@ -1425,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "FieldExpr",
           "package": "language-mixal",
@@ -1438,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Frac",
           "package": "language-mixal",
@@ -1447,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Frac",
           "package": "language-mixal",
@@ -1460,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "HLT",
           "package": "language-mixal",
@@ -1469,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "HLT",
           "package": "language-mixal",
@@ -1482,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "IN",
           "package": "language-mixal",
@@ -1491,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "IN",
           "package": "language-mixal",
@@ -1504,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "INC1",
           "package": "language-mixal",
@@ -1513,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "INC1",
           "package": "language-mixal",
@@ -1526,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "INC2",
           "package": "language-mixal",
@@ -1535,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "INC2",
           "package": "language-mixal",
@@ -1548,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "INC3",
           "package": "language-mixal",
@@ -1557,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "INC3",
           "package": "language-mixal",
@@ -1570,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "INC4",
           "package": "language-mixal",
@@ -1579,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "INC4",
           "package": "language-mixal",
@@ -1592,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "INC5",
           "package": "language-mixal",
@@ -1601,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "INC5",
           "package": "language-mixal",
@@ -1614,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "INC6",
           "package": "language-mixal",
@@ -1623,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "INC6",
           "package": "language-mixal",
@@ -1636,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "INCA",
           "package": "language-mixal",
@@ -1645,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "INCA",
           "package": "language-mixal",
@@ -1658,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "INCX",
           "package": "language-mixal",
@@ -1667,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "INCX",
           "package": "language-mixal",
@@ -1680,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "IOC",
           "package": "language-mixal",
@@ -1689,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "IOC",
           "package": "language-mixal",
@@ -1702,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Index",
           "package": "language-mixal",
@@ -1711,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Index",
           "package": "language-mixal",
@@ -1724,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Inst",
           "package": "language-mixal",
@@ -1733,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Inst",
           "package": "language-mixal",
@@ -1746,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J1N",
           "package": "language-mixal",
@@ -1755,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J1N",
           "package": "language-mixal",
@@ -1767,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J1NN",
           "package": "language-mixal",
@@ -1776,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J1NN",
           "package": "language-mixal",
@@ -1789,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J1NP",
           "package": "language-mixal",
@@ -1798,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J1NP",
           "package": "language-mixal",
@@ -1811,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J1NZ",
           "package": "language-mixal",
@@ -1820,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J1NZ",
           "package": "language-mixal",
@@ -1833,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J1P",
           "package": "language-mixal",
@@ -1842,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J1P",
           "package": "language-mixal",
@@ -1854,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J1Z",
           "package": "language-mixal",
@@ -1863,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J1Z",
           "package": "language-mixal",
@@ -1875,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J2N",
           "package": "language-mixal",
@@ -1884,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J2N",
           "package": "language-mixal",
@@ -1896,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J2NN",
           "package": "language-mixal",
@@ -1905,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J2NN",
           "package": "language-mixal",
@@ -1918,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J2NP",
           "package": "language-mixal",
@@ -1927,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J2NP",
           "package": "language-mixal",
@@ -1940,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J2NZ",
           "package": "language-mixal",
@@ -1949,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J2NZ",
           "package": "language-mixal",
@@ -1962,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J2P",
           "package": "language-mixal",
@@ -1971,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J2P",
           "package": "language-mixal",
@@ -1983,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J2Z",
           "package": "language-mixal",
@@ -1992,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J2Z",
           "package": "language-mixal",
@@ -2004,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J3N",
           "package": "language-mixal",
@@ -2013,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J3N",
           "package": "language-mixal",
@@ -2025,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J3NN",
           "package": "language-mixal",
@@ -2034,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J3NN",
           "package": "language-mixal",
@@ -2047,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J3NP",
           "package": "language-mixal",
@@ -2056,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J3NP",
           "package": "language-mixal",
@@ -2069,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J3NZ",
           "package": "language-mixal",
@@ -2078,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J3NZ",
           "package": "language-mixal",
@@ -2091,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J3P",
           "package": "language-mixal",
@@ -2100,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J3P",
           "package": "language-mixal",
@@ -2112,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J3Z",
           "package": "language-mixal",
@@ -2121,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J3Z",
           "package": "language-mixal",
@@ -2133,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J4N",
           "package": "language-mixal",
@@ -2142,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J4N",
           "package": "language-mixal",
@@ -2154,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J4NN",
           "package": "language-mixal",
@@ -2163,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J4NN",
           "package": "language-mixal",
@@ -2176,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J4NP",
           "package": "language-mixal",
@@ -2185,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J4NP",
           "package": "language-mixal",
@@ -2198,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J4NZ",
           "package": "language-mixal",
@@ -2207,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J4NZ",
           "package": "language-mixal",
@@ -2220,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J4P",
           "package": "language-mixal",
@@ -2229,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J4P",
           "package": "language-mixal",
@@ -2241,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J4Z",
           "package": "language-mixal",
@@ -2250,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J4Z",
           "package": "language-mixal",
@@ -2262,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J5N",
           "package": "language-mixal",
@@ -2271,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J5N",
           "package": "language-mixal",
@@ -2283,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J5NN",
           "package": "language-mixal",
@@ -2292,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J5NN",
           "package": "language-mixal",
@@ -2305,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J5NP",
           "package": "language-mixal",
@@ -2314,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J5NP",
           "package": "language-mixal",
@@ -2327,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J5NZ",
           "package": "language-mixal",
@@ -2336,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J5NZ",
           "package": "language-mixal",
@@ -2349,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J5P",
           "package": "language-mixal",
@@ -2358,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J5P",
           "package": "language-mixal",
@@ -2370,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J5Z",
           "package": "language-mixal",
@@ -2379,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J5Z",
           "package": "language-mixal",
@@ -2391,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J6N",
           "package": "language-mixal",
@@ -2400,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J6N",
           "package": "language-mixal",
@@ -2412,6 +2632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J6NN",
           "package": "language-mixal",
@@ -2421,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J6NN",
           "package": "language-mixal",
@@ -2434,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J6NP",
           "package": "language-mixal",
@@ -2443,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J6NP",
           "package": "language-mixal",
@@ -2456,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J6NZ",
           "package": "language-mixal",
@@ -2465,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J6NZ",
           "package": "language-mixal",
@@ -2478,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J6P",
           "package": "language-mixal",
@@ -2487,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J6P",
           "package": "language-mixal",
@@ -2499,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "J6Z",
           "package": "language-mixal",
@@ -2508,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "J6Z",
           "package": "language-mixal",
@@ -2520,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JAN",
           "package": "language-mixal",
@@ -2529,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JAN",
           "package": "language-mixal",
@@ -2542,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JANN",
           "package": "language-mixal",
@@ -2551,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JANN",
           "package": "language-mixal",
@@ -2564,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JANP",
           "package": "language-mixal",
@@ -2573,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JANP",
           "package": "language-mixal",
@@ -2586,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JANZ",
           "package": "language-mixal",
@@ -2595,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JANZ",
           "package": "language-mixal",
@@ -2608,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JAP",
           "package": "language-mixal",
@@ -2617,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JAP",
           "package": "language-mixal",
@@ -2630,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JAZ",
           "package": "language-mixal",
@@ -2639,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JAZ",
           "package": "language-mixal",
@@ -2652,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JBUS",
           "package": "language-mixal",
@@ -2661,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JBUS",
           "package": "language-mixal",
@@ -2674,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JE",
           "package": "language-mixal",
@@ -2683,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JE",
           "package": "language-mixal",
@@ -2696,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JG",
           "package": "language-mixal",
@@ -2705,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JG",
           "package": "language-mixal",
@@ -2718,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JGE",
           "package": "language-mixal",
@@ -2727,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JGE",
           "package": "language-mixal",
@@ -2740,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JL",
           "package": "language-mixal",
@@ -2749,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JL",
           "package": "language-mixal",
@@ -2762,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JLE",
           "package": "language-mixal",
@@ -2771,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JLE",
           "package": "language-mixal",
@@ -2784,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JMP",
           "package": "language-mixal",
@@ -2793,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JMP",
           "package": "language-mixal",
@@ -2806,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JNE",
           "package": "language-mixal",
@@ -2815,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JNE",
           "package": "language-mixal",
@@ -2828,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JNOV",
           "package": "language-mixal",
@@ -2837,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JNOV",
           "package": "language-mixal",
@@ -2850,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JOV",
           "package": "language-mixal",
@@ -2859,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JOV",
           "package": "language-mixal",
@@ -2872,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JRED",
           "package": "language-mixal",
@@ -2881,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JRED",
           "package": "language-mixal",
@@ -2894,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JSJ",
           "package": "language-mixal",
@@ -2903,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JSJ",
           "package": "language-mixal",
@@ -2916,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JXN",
           "package": "language-mixal",
@@ -2925,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JXN",
           "package": "language-mixal",
@@ -2938,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JXNN",
           "package": "language-mixal",
@@ -2947,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JXNN",
           "package": "language-mixal",
@@ -2960,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JXNP",
           "package": "language-mixal",
@@ -2969,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JXNP",
           "package": "language-mixal",
@@ -2982,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JXNZ",
           "package": "language-mixal",
@@ -2991,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JXNZ",
           "package": "language-mixal",
@@ -3004,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JXP",
           "package": "language-mixal",
@@ -3013,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JXP",
           "package": "language-mixal",
@@ -3026,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "JXZ",
           "package": "language-mixal",
@@ -3035,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "JXZ",
           "package": "language-mixal",
@@ -3048,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD1",
           "package": "language-mixal",
@@ -3057,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD1",
           "package": "language-mixal",
@@ -3070,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD1N",
           "package": "language-mixal",
@@ -3079,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD1N",
           "package": "language-mixal",
@@ -3092,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD2",
           "package": "language-mixal",
@@ -3101,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD2",
           "package": "language-mixal",
@@ -3114,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD2N",
           "package": "language-mixal",
@@ -3123,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD2N",
           "package": "language-mixal",
@@ -3136,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD3",
           "package": "language-mixal",
@@ -3145,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD3",
           "package": "language-mixal",
@@ -3158,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD3N",
           "package": "language-mixal",
@@ -3167,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD3N",
           "package": "language-mixal",
@@ -3180,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD4",
           "package": "language-mixal",
@@ -3189,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD4",
           "package": "language-mixal",
@@ -3202,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD4N",
           "package": "language-mixal",
@@ -3211,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD4N",
           "package": "language-mixal",
@@ -3224,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD5",
           "package": "language-mixal",
@@ -3233,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD5",
           "package": "language-mixal",
@@ -3246,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD5N",
           "package": "language-mixal",
@@ -3255,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD5N",
           "package": "language-mixal",
@@ -3268,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD6",
           "package": "language-mixal",
@@ -3277,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD6",
           "package": "language-mixal",
@@ -3290,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LD6N",
           "package": "language-mixal",
@@ -3299,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LD6N",
           "package": "language-mixal",
@@ -3312,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LDA",
           "package": "language-mixal",
@@ -3321,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LDA",
           "package": "language-mixal",
@@ -3334,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LDAN",
           "package": "language-mixal",
@@ -3343,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LDAN",
           "package": "language-mixal",
@@ -3356,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LDX",
           "package": "language-mixal",
@@ -3365,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LDX",
           "package": "language-mixal",
@@ -3378,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LDXN",
           "package": "language-mixal",
@@ -3387,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LDXN",
           "package": "language-mixal",
@@ -3400,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "LitConst",
           "package": "language-mixal",
@@ -3409,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "LitConst",
           "package": "language-mixal",
@@ -3422,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "MIXChar",
           "package": "language-mixal",
@@ -3431,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "MIXChar",
           "package": "language-mixal",
@@ -3444,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "MOVE",
           "package": "language-mixal",
@@ -3453,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "MOVE",
           "package": "language-mixal",
@@ -3466,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "MUL",
           "package": "language-mixal",
@@ -3475,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "MUL",
           "package": "language-mixal",
@@ -3488,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Multiply",
           "package": "language-mixal",
@@ -3497,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Multiply",
           "package": "language-mixal",
@@ -3510,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "NOP",
           "package": "language-mixal",
@@ -3519,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "NOP",
           "package": "language-mixal",
@@ -3532,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "NUM",
           "package": "language-mixal",
@@ -3541,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "NUM",
           "package": "language-mixal",
@@ -3554,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Num",
           "package": "language-mixal",
@@ -3563,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Num",
           "package": "language-mixal",
@@ -3576,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "OUT",
           "package": "language-mixal",
@@ -3585,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "OUT",
           "package": "language-mixal",
@@ -3598,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Orig",
           "package": "language-mixal",
@@ -3607,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Orig",
           "package": "language-mixal",
@@ -3620,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "RefBackward",
           "package": "language-mixal",
@@ -3629,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "RefBackward",
           "package": "language-mixal",
@@ -3642,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "RefForward",
           "package": "language-mixal",
@@ -3651,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "RefForward",
           "package": "language-mixal",
@@ -3664,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "RefNormal",
           "package": "language-mixal",
@@ -3673,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "RefNormal",
           "package": "language-mixal",
@@ -3686,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "SLA",
           "package": "language-mixal",
@@ -3695,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "SLA",
           "package": "language-mixal",
@@ -3708,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "SLAX",
           "package": "language-mixal",
@@ -3717,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "SLAX",
           "package": "language-mixal",
@@ -3730,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "SLC",
           "package": "language-mixal",
@@ -3739,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "SLC",
           "package": "language-mixal",
@@ -3752,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "SRA",
           "package": "language-mixal",
@@ -3761,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "SRA",
           "package": "language-mixal",
@@ -3774,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "SRAX",
           "package": "language-mixal",
@@ -3783,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "SRAX",
           "package": "language-mixal",
@@ -3796,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "SRC",
           "package": "language-mixal",
@@ -3805,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "SRC",
           "package": "language-mixal",
@@ -3818,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ST1",
           "package": "language-mixal",
@@ -3827,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ST1",
           "package": "language-mixal",
@@ -3840,6 +4190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ST2",
           "package": "language-mixal",
@@ -3849,6 +4200,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ST2",
           "package": "language-mixal",
@@ -3862,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ST3",
           "package": "language-mixal",
@@ -3871,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ST3",
           "package": "language-mixal",
@@ -3884,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ST4",
           "package": "language-mixal",
@@ -3893,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ST4",
           "package": "language-mixal",
@@ -3906,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ST5",
           "package": "language-mixal",
@@ -3915,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ST5",
           "package": "language-mixal",
@@ -3928,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "ST6",
           "package": "language-mixal",
@@ -3937,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "ST6",
           "package": "language-mixal",
@@ -3950,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "STA",
           "package": "language-mixal",
@@ -3959,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "STA",
           "package": "language-mixal",
@@ -3972,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "STJ",
           "package": "language-mixal",
@@ -3981,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "STJ",
           "package": "language-mixal",
@@ -3994,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "STX",
           "package": "language-mixal",
@@ -4003,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "STX",
           "package": "language-mixal",
@@ -4016,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "STZ",
           "package": "language-mixal",
@@ -4025,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "STZ",
           "package": "language-mixal",
@@ -4038,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "SUB",
           "package": "language-mixal",
@@ -4047,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "SUB",
           "package": "language-mixal",
@@ -4060,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Signed",
           "package": "language-mixal",
@@ -4069,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Signed",
           "package": "language-mixal",
@@ -4082,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Subtract",
           "package": "language-mixal",
@@ -4091,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Subtract",
           "package": "language-mixal",
@@ -4104,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Sym",
           "package": "language-mixal",
@@ -4113,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Sym",
           "package": "language-mixal",
@@ -4126,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "Symbol",
           "package": "language-mixal",
@@ -4135,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "Symbol",
           "package": "language-mixal",
@@ -4148,6 +4526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.AST",
           "name": "WValue",
           "package": "language-mixal",
@@ -4157,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL AST",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.AST",
           "name": "WValue",
           "normalized": "WValue Expr(Maybe Field)[(Expr,Maybe Field)]",
@@ -4172,6 +4552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.Char",
           "name": "Char",
           "package": "language-mixal",
@@ -4180,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL Char",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.Char",
           "name": "Char",
           "package": "language-mixal",
@@ -4193,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.Char",
           "name": "mixChars",
           "package": "language-mixal",
@@ -4202,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL Char",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.Char",
           "name": "mixChars",
           "normalized": "[Char]",
@@ -4217,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.OpCode",
           "name": "OpCode",
           "package": "language-mixal",
@@ -4225,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL OpCode",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.OpCode",
           "name": "OpCode",
           "package": "language-mixal",
@@ -4239,6 +4625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the numeric version of an opcode.  If the opcode\n corresponds to a specific field value, return that too; otherwise\n Nothing.  In the Nothing case, the F value should be supplied by\n the user and assembled into (or extracted from) the binary\n instruction.  In the Just case a specific F-value is required to\n distinguish the opcode based on the instruction involved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.OpCode",
           "name": "opCode",
           "package": "language-mixal",
@@ -4249,6 +4636,7 @@
         "index": {
           "description": "Return the numeric version of an opcode If the opcode corresponds to specific field value return that too otherwise Nothing In the Nothing case the value should be supplied by the user and assembled into or extracted from the binary instruction In the Just case specific F-value is required to distinguish the opcode based on the instruction involved",
           "hierarchy": "Language MIXAL OpCode",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.OpCode",
           "name": "opCode",
           "normalized": "OpCode-\u003e(Integer,Maybe Integer)",
@@ -4264,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "PP",
           "package": "language-mixal",
@@ -4272,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "PP",
           "package": "language-mixal",
@@ -4285,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "mppField",
           "package": "language-mixal",
@@ -4294,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "mppField",
           "normalized": "Maybe Field-\u003eDoc",
@@ -4309,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "mppSymbolDef",
           "package": "language-mixal",
@@ -4318,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "mppSymbolDef",
           "normalized": "Maybe DefinedSymbol-\u003eDoc",
@@ -4333,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppAddress",
           "package": "language-mixal",
@@ -4342,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppAddress",
           "normalized": "Address-\u003eDoc",
@@ -4357,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppAtomicExpr",
           "package": "language-mixal",
@@ -4366,6 +4763,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppAtomicExpr",
           "normalized": "AtomicExpr-\u003eDoc",
@@ -4381,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppBinOp",
           "package": "language-mixal",
@@ -4390,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppBinOp",
           "normalized": "BinOp-\u003eDoc",
@@ -4405,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppExpr",
           "package": "language-mixal",
@@ -4414,6 +4815,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppExpr",
           "normalized": "Expr-\u003eDoc",
@@ -4429,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppField",
           "package": "language-mixal",
@@ -4438,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppField",
           "normalized": "Field-\u003eDoc",
@@ -4453,6 +4857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppIndex",
           "package": "language-mixal",
@@ -4462,6 +4867,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppIndex",
           "normalized": "Index-\u003eDoc",
@@ -4477,6 +4883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppMIXALStmt",
           "package": "language-mixal",
@@ -4486,6 +4893,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppMIXALStmt",
           "normalized": "MIXALStmt-\u003eDoc",
@@ -4501,6 +4909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppOpCode",
           "package": "language-mixal",
@@ -4510,6 +4919,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppOpCode",
           "normalized": "OpCode-\u003eDoc",
@@ -4525,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppSymbol",
           "package": "language-mixal",
@@ -4534,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppSymbol",
           "normalized": "Symbol-\u003eDoc",
@@ -4549,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppSymbolDef",
           "package": "language-mixal",
@@ -4558,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppSymbolDef",
           "normalized": "DefinedSymbol-\u003eDoc",
@@ -4573,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppSymbolRef",
           "package": "language-mixal",
@@ -4582,6 +4997,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppSymbolRef",
           "normalized": "SymbolRef-\u003eDoc",
@@ -4597,6 +5013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.PP",
           "name": "ppWValue",
           "package": "language-mixal",
@@ -4606,6 +5023,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL PP",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.PP",
           "name": "ppWValue",
           "normalized": "WValue-\u003eDoc",
@@ -4621,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.Parser",
           "name": "Parser",
           "package": "language-mixal",
@@ -4629,6 +5048,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL Parser",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.Parser",
           "name": "Parser",
           "package": "language-mixal",
@@ -4642,6 +5062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:48 UTC 2014",
           "module": "Language.MIXAL.Parser",
           "name": "parseMIXAL",
           "package": "language-mixal",
@@ -4651,6 +5072,7 @@
         },
         "index": {
           "hierarchy": "Language MIXAL Parser",
+          "indexed": "2014-03-11T19:05:48",
           "module": "Language.MIXAL.Parser",
           "name": "parseMIXAL",
           "normalized": "String-\u003eString-\u003eEither ParseError[MIXALStmt]",

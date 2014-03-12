@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aterm-utils"
+        "phrase": "aterm-utils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "Generics",
           "package": "aterm-utils",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "Generics",
           "package": "aterm-utils",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "FromATerm",
           "package": "aterm-utils",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "FromATerm",
           "package": "aterm-utils",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "GFromATerm",
           "package": "aterm-utils",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "GFromATerm",
           "package": "aterm-utils",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "GFromATerms",
           "package": "aterm-utils",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "GFromATerms",
           "package": "aterm-utils",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "GToATerm",
           "package": "aterm-utils",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "GToATerm",
           "package": "aterm-utils",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "GToATerms",
           "package": "aterm-utils",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "GToATerms",
           "package": "aterm-utils",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "ToATerm",
           "package": "aterm-utils",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "ToATerm",
           "package": "aterm-utils",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "atermToIntegral",
           "package": "aterm-utils",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "atermToIntegral",
           "normalized": "ATerm-\u003eMaybe a",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "atermToList",
           "package": "aterm-utils",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "atermToList",
           "normalized": "ATerm-\u003eMaybe[a]",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "atermToRead",
           "package": "aterm-utils",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "atermToRead",
           "normalized": "ATerm-\u003eMaybe a",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "atermToString",
           "package": "aterm-utils",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "atermToString",
           "normalized": "ATerm-\u003eMaybe String",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "atermToTriple",
           "package": "aterm-utils",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "atermToTriple",
           "normalized": "ATerm-\u003eMaybe(a,b,c)",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "atermToTuple",
           "package": "aterm-utils",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "atermToTuple",
           "normalized": "ATerm-\u003eMaybe(a,b)",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "fromATerm",
           "package": "aterm-utils",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "fromATerm",
           "normalized": "ATerm-\u003eMaybe a",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "fromATermList",
           "package": "aterm-utils",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "fromATermList",
           "normalized": "ATerm-\u003eMaybe[a]",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "gFromATerm",
           "package": "aterm-utils",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "gFromATerm",
           "normalized": "ATerm-\u003eMaybe(a b)",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "gFromATerms",
           "package": "aterm-utils",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "gFromATerms",
           "normalized": "StateT[ATerm]Maybe(a b)",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert all the \u003ccode\u003e\u003ca\u003eATerm\u003c/a\u003e\u003c/code\u003e elements into the requested structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "gFromATerms'",
           "package": "aterm-utils",
@@ -416,6 +451,7 @@
         "index": {
           "description": "Convert all the ATerm elements into the requested structure",
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "gFromATerms'",
           "normalized": "[ATerm]-\u003eMaybe(a b)",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "gToATerm",
           "package": "aterm-utils",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "gToATerm",
           "normalized": "a b-\u003eATerm",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "gToATerms",
           "package": "aterm-utils",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "gToATerms",
           "normalized": "a b-\u003e[ATerm]-\u003e[ATerm]",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "integralToATerm",
           "package": "aterm-utils",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "integralToATerm",
           "normalized": "a-\u003eATerm",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "listToATerm",
           "package": "aterm-utils",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "listToATerm",
           "normalized": "[a]-\u003eATerm",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the next \u003ccode\u003e\u003ca\u003eATerm\u003c/a\u003e\u003c/code\u003e to the next needed field type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "next",
           "package": "aterm-utils",
@@ -538,6 +583,7 @@
         "index": {
           "description": "Convert the next ATerm to the next needed field type",
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "next",
           "normalized": "StateT[ATerm]Maybe a",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "showToATerm",
           "package": "aterm-utils",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "showToATerm",
           "normalized": "a-\u003eATerm",
@@ -576,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "stringToATerm",
           "package": "aterm-utils",
@@ -585,6 +634,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "stringToATerm",
           "normalized": "String-\u003eATerm",
@@ -600,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "toATerm",
           "package": "aterm-utils",
@@ -609,6 +660,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "toATerm",
           "normalized": "a-\u003eATerm",
@@ -624,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "toATermList",
           "package": "aterm-utils",
@@ -633,6 +686,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "toATermList",
           "normalized": "[a]-\u003eATerm",
@@ -648,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "tripleToATerm",
           "package": "aterm-utils",
@@ -657,6 +712,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "tripleToATerm",
           "normalized": "(a,b,c)-\u003eATerm",
@@ -672,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Generics",
           "name": "tupleToATerm",
           "package": "aterm-utils",
@@ -681,6 +738,7 @@
         },
         "index": {
           "hierarchy": "ATerm Generics",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Generics",
           "name": "tupleToATerm",
           "normalized": "(a,b)-\u003eATerm",
@@ -696,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "Matching",
           "package": "aterm-utils",
@@ -704,6 +763,7 @@
         },
         "index": {
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "Matching",
           "package": "aterm-utils",
@@ -718,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinding type gives you back the parts of the ATerm that\n that match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "Binding",
           "package": "aterm-utils",
@@ -727,6 +788,7 @@
         "index": {
           "description": "Binding type gives you back the parts of the ATerm that that match",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "Binding",
           "package": "aterm-utils",
@@ -741,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe index into the ATermTable for the ShAAppl term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "BoundAppl",
           "package": "aterm-utils",
@@ -751,6 +814,7 @@
         "index": {
           "description": "The index into the ATermTable for the ShAAppl term",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "BoundAppl",
           "package": "aterm-utils",
@@ -765,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe matching Integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "BoundInt",
           "package": "aterm-utils",
@@ -775,6 +840,7 @@
         "index": {
           "description": "The matching Integer",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "BoundInt",
           "package": "aterm-utils",
@@ -789,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of indexes into the ATermTable that match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "BoundList",
           "package": "aterm-utils",
@@ -799,6 +866,7 @@
         "index": {
           "description": "The list of indexes into the ATermTable that match",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "BoundList",
           "normalized": "BoundList[Int]",
@@ -815,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe matching String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "BoundStr",
           "package": "aterm-utils",
@@ -825,6 +894,7 @@
         "index": {
           "description": "The matching String",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "BoundStr",
           "package": "aterm-utils",
@@ -839,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe index into the ATermTable of the matching ATerm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "BoundTerm",
           "package": "aterm-utils",
@@ -849,6 +920,7 @@
         "index": {
           "description": "The index into the ATermTable of the matching ATerm",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "BoundTerm",
           "package": "aterm-utils",
@@ -863,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches any Appl and generates a binding to that Appl\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "bindA",
           "package": "aterm-utils",
@@ -873,6 +946,7 @@
         "index": {
           "description": "Matches any Appl and generates binding to that Appl",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "bindA",
           "normalized": "ATermTable-\u003ea Binding",
@@ -888,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches any integer and generates a binding to that integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "bindI",
           "package": "aterm-utils",
@@ -898,6 +973,7 @@
         "index": {
           "description": "Matches any integer and generates binding to that integer",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "bindI",
           "normalized": "ATermTable-\u003ea Binding",
@@ -913,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches any list and generates a binding to that list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "bindL",
           "package": "aterm-utils",
@@ -923,6 +1000,7 @@
         "index": {
           "description": "Matches any list and generates binding to that list",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "bindL",
           "normalized": "ATermTable-\u003ea Binding",
@@ -938,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches any string and generates a binding to that string\n Strings have the form (Appl somestring [] []).\n Not to be confused with matching the the string part of an Appl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "bindS",
           "package": "aterm-utils",
@@ -948,6 +1027,7 @@
         "index": {
           "description": "Matches any string and generates binding to that string Strings have the form Appl somestring Not to be confused with matching the the string part of an Appl",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "bindS",
           "normalized": "ATermTable-\u003ea Binding",
@@ -963,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches any ATerm and generates a binding to that term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "bindT",
           "package": "aterm-utils",
@@ -973,6 +1054,7 @@
         "index": {
           "description": "Matches any ATerm and generates binding to that term",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "bindT",
           "normalized": "ATermTable-\u003ea Binding",
@@ -988,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a partial specification against the children. The\n matching is maximised so that if the pattern occurs more than\n once it is matched each time it appears.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "contains",
           "package": "aterm-utils",
@@ -998,6 +1081,7 @@
         "index": {
           "description": "Matches partial specification against the children The matching is maximised so that if the pattern occurs more than once it is matched each time it appears",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "contains",
           "normalized": "[ATermTable-\u003ea]-\u003eATermTable-\u003e[a]",
@@ -1013,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a partial specification of an Appl. The matching is\n maximised so that if the pattern occurs more than once it is match\n each time it appears.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "containsA",
           "package": "aterm-utils",
@@ -1023,6 +1108,7 @@
         "index": {
           "description": "Matches partial specification of an Appl The matching is maximised so that if the pattern occurs more than once it is match each time it appears",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "containsA",
           "normalized": "String-\u003e[ATermTable-\u003ea]-\u003eATermTable-\u003e[a]",
@@ -1037,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "containsChildren",
           "package": "aterm-utils",
@@ -1046,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "containsChildren",
           "normalized": "a(ATermTable-\u003eb)-\u003ea Int-\u003eATermTable-\u003ea b",
@@ -1062,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a partial specification of a sub aterm List. The\n matching is maximised so that if the pattern occurs more than\n once it is matched each time it appears.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "containsL",
           "package": "aterm-utils",
@@ -1072,6 +1161,7 @@
         "index": {
           "description": "Matches partial specification of sub aterm List The matching is maximised so that if the pattern occurs more than once it is matched each time it appears",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "containsL",
           "normalized": "[ATermTable-\u003ea]-\u003eATermTable-\u003e[a]",
@@ -1087,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches the string exactly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "exactlyA",
           "package": "aterm-utils",
@@ -1097,6 +1188,7 @@
         "index": {
           "description": "Matches the string exactly",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "exactlyA",
           "normalized": "String-\u003e[ATermTable-\u003ea b]-\u003eATermTable-\u003ea[b]",
@@ -1112,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches exactly the integer \u003ccode\u003ei\u003c/code\u003e within the ATerm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "exactlyI",
           "package": "aterm-utils",
@@ -1122,6 +1215,7 @@
         "index": {
           "description": "Matches exactly the integer within the ATerm",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "exactlyI",
           "normalized": "Integer-\u003eATermTable-\u003ea()",
@@ -1137,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches exactly the list \u003ccode\u003exs\u003c/code\u003e within the ATerm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "exactlyL",
           "package": "aterm-utils",
@@ -1147,6 +1242,7 @@
         "index": {
           "description": "Matches exactly the list xs within the ATerm",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "exactlyL",
           "normalized": "[ATermTable-\u003ea b]-\u003eATermTable-\u003ea[b]",
@@ -1162,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooks for an Appl with name \u003ccode\u003es\u003c/code\u003e and any children\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "exactlyNamed",
           "package": "aterm-utils",
@@ -1172,6 +1269,7 @@
         "index": {
           "description": "Looks for an Appl with name and any children",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "exactlyNamed",
           "normalized": "String-\u003eATermTable-\u003ea()",
@@ -1188,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches exactly the string \u003ccode\u003es\u003c/code\u003e within the ATerm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Matching",
           "name": "exactlyS",
           "package": "aterm-utils",
@@ -1198,6 +1297,7 @@
         "index": {
           "description": "Matches exactly the string within the ATerm",
           "hierarchy": "ATerm Matching",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Matching",
           "name": "exactlyS",
           "normalized": "String-\u003eATermTable-\u003ea()",
@@ -1212,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Pretty",
           "name": "Pretty",
           "package": "aterm-utils",
@@ -1220,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "ATerm Pretty",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Pretty",
           "name": "Pretty",
           "package": "aterm-utils",
@@ -1233,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Pretty",
           "name": "ppATerm",
           "package": "aterm-utils",
@@ -1242,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "ATerm Pretty",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Pretty",
           "name": "ppATerm",
           "normalized": "ATermTable-\u003eDoc",
@@ -1258,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for working with the ATerms that ROSE produces.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "Utilities",
           "package": "aterm-utils",
@@ -1267,6 +1372,7 @@
         "index": {
           "description": "Functions for working with the ATerms that ROSE produces",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "Utilities",
           "package": "aterm-utils",
@@ -1281,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe checker monad. For now the environment is the current ATerm, in the\n future we may also store the path from the root to the current ATerm, so use\n \u003ccode\u003e\u003ca\u003ecurrentTerm\u003c/a\u003e\u003c/code\u003e instead of ask to get the current ATerm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "CheckM",
           "package": "aterm-utils",
@@ -1290,6 +1397,7 @@
         "index": {
           "description": "The checker monad For now the environment is the current ATerm in the future we may also store the path from the root to the current ATerm so use currentTerm instead of ask to get the current ATerm",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "CheckM",
           "package": "aterm-utils",
@@ -1304,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns a normal function of ATermTable into a function that\n works on the hash value instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "app",
           "package": "aterm-utils",
@@ -1314,6 +1423,7 @@
         "index": {
           "description": "Turns normal function of ATermTable into function that works on the hash value instead",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "app",
           "normalized": "(ATermTable-\u003ea)-\u003eATermTable-\u003eInt-\u003ea",
@@ -1329,6 +1439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eapp\u003c/a\u003e\u003c/code\u003e but lifts the result into the CheckM monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "appM",
           "package": "aterm-utils",
@@ -1339,6 +1450,7 @@
         "index": {
           "description": "Like app but lifts the result into the CheckM monad",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "appM",
           "normalized": "(ATermTable-\u003ea)-\u003eInt-\u003eCheckM b c d a",
@@ -1354,6 +1466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis pattern comes up in most traversals.  Simply return the stable names\n so we don't break sharing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "children",
           "package": "aterm-utils",
@@ -1364,6 +1477,7 @@
         "index": {
           "description": "This pattern comes up in most traversals Simply return the stable names so we don break sharing",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "children",
           "normalized": "ATermTable-\u003e[Int]",
@@ -1379,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the hashes of the current term's children into the monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "childrenM",
           "package": "aterm-utils",
@@ -1389,6 +1504,7 @@
         "index": {
           "description": "Return the hashes of the current term children into the monad",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "childrenM",
           "normalized": "CheckM a b c[Int]",
@@ -1404,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard concatMap, but for ATermTables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "concatMap",
           "package": "aterm-utils",
@@ -1414,6 +1531,7 @@
         "index": {
           "description": "Standard concatMap but for ATermTables",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "concatMap",
           "normalized": "(ATermTable-\u003e[a])-\u003eATermTable-\u003e[a]",
@@ -1430,6 +1548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this instead of \u003ccode\u003e\u003ca\u003eask\u003c/a\u003e\u003c/code\u003e so that we can refactor\n the environment later without impacting existing code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "currentTerm",
           "package": "aterm-utils",
@@ -1440,6 +1559,7 @@
         "index": {
           "description": "Use this instead of ask so that we can refactor the environment later without impacting existing code",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "currentTerm",
           "package": "aterm-utils",
@@ -1454,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a traversal over the tree defined by the current node (including root node).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "everywhere",
           "package": "aterm-utils",
@@ -1464,6 +1585,7 @@
         "index": {
           "description": "Applies traversal over the tree defined by the current node including root node",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "everywhere",
           "normalized": "CheckM a b c d-\u003eCheckM a b c[d]",
@@ -1479,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eeverywhere\u003c/a\u003e\u003c/code\u003e but throws away the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "everywhere_",
           "package": "aterm-utils",
@@ -1489,6 +1612,7 @@
         "index": {
           "description": "Like everywhere but throws away the result",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "everywhere_",
           "normalized": "CheckM a b c d-\u003eCheckM a b c()",
@@ -1504,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the filename, line number, and colunm number from\n file_info nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "extractFileInfo",
           "package": "aterm-utils",
@@ -1514,6 +1639,7 @@
         "index": {
           "description": "Extracts the filename line number and colunm number from file info nodes",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "extractFileInfo",
           "normalized": "ATermTable-\u003eMaybe(String,Integer,Integer)",
@@ -1530,6 +1656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the integer of Int nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "extractInteger",
           "package": "aterm-utils",
@@ -1540,6 +1667,7 @@
         "index": {
           "description": "Extract the integer of Int nodes",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "extractInteger",
           "normalized": "ATermTable-\u003eMaybe Integer",
@@ -1556,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the label of Application nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "extractString",
           "package": "aterm-utils",
@@ -1566,6 +1695,7 @@
         "index": {
           "description": "Extracts the label of Application nodes",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "extractString",
           "normalized": "ATermTable-\u003eMaybe String",
@@ -1582,6 +1712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard foldM, but for ATermTables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "foldM",
           "package": "aterm-utils",
@@ -1592,6 +1723,7 @@
         "index": {
           "description": "Standard foldM but for ATermTables",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "foldM",
           "normalized": "(a-\u003eATermTable-\u003eb a)-\u003ea-\u003eATermTable-\u003eb a",
@@ -1607,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard foldl, but for ATermTables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "foldl",
           "package": "aterm-utils",
@@ -1617,6 +1750,7 @@
         "index": {
           "description": "Standard foldl but for ATermTables",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "foldl",
           "normalized": "(a-\u003eATermTable-\u003ea)-\u003ea-\u003eATermTable-\u003ea",
@@ -1632,6 +1766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard foldl', but for ATermTables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "foldl'",
           "package": "aterm-utils",
@@ -1642,6 +1777,7 @@
         "index": {
           "description": "Standard foldl but for ATermTables",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "foldl'",
           "normalized": "(a-\u003eATermTable-\u003ea)-\u003ea-\u003eATermTable-\u003ea",
@@ -1657,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard foldr, but for ATermTables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "foldr",
           "package": "aterm-utils",
@@ -1667,6 +1804,7 @@
         "index": {
           "description": "Standard foldr but for ATermTables",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "foldr",
           "normalized": "(ATermTable-\u003ea-\u003ea)-\u003ea-\u003eATermTable-\u003ea",
@@ -1681,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "getATermFromTable",
           "package": "aterm-utils",
@@ -1690,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "getATermFromTable",
           "normalized": "ATermTable-\u003eInt-\u003eATermTable",
@@ -1706,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a traversal in a subtree of the current ATerm. Differs from \u003ccode\u003e\u003ca\u003eeverywhere\u003c/a\u003e\u003c/code\u003e\n in that it does not apply the traversal to the current term (only its children and\n their children).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "inSubtree",
           "package": "aterm-utils",
@@ -1716,6 +1857,7 @@
         "index": {
           "description": "Applies traversal in subtree of the current ATerm Differs from everywhere in that it does not apply the traversal to the current term only its children and their children",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "inSubtree",
           "normalized": "CheckM a b c d-\u003eCheckM a b c[[d]]",
@@ -1731,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "inSubtree_",
           "package": "aterm-utils",
@@ -1740,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "inSubtree_",
           "normalized": "CheckM a b c d-\u003eCheckM a b c()",
@@ -1756,6 +1900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality test on the label of an Application node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "isNamed",
           "package": "aterm-utils",
@@ -1766,6 +1911,7 @@
         "index": {
           "description": "Equality test on the label of an Application node",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "isNamed",
           "normalized": "String-\u003eATermTable-\u003eBool",
@@ -1782,6 +1928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard map, but for ATermTables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "map",
           "package": "aterm-utils",
@@ -1792,6 +1939,7 @@
         "index": {
           "description": "Standard map but for ATermTables",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "map",
           "normalized": "(ATermTable-\u003ea)-\u003eATermTable-\u003e[a]",
@@ -1807,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard mapM, but for ATermTables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "mapM",
           "package": "aterm-utils",
@@ -1817,6 +1966,7 @@
         "index": {
           "description": "Standard mapM but for ATermTables",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "mapM",
           "normalized": "(ATermTable-\u003ea b)-\u003eATermTable-\u003ea[b]",
@@ -1832,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard mapM_, but for ATermTables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "mapM_",
           "package": "aterm-utils",
@@ -1842,6 +1993,7 @@
         "index": {
           "description": "Standard mapM but for ATermTables",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "mapM_",
           "normalized": "(ATermTable-\u003ea b)-\u003eATermTable-\u003ea()",
@@ -1857,6 +2009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate an ATerm table from an input string. Shared or unshared ATerms can\nbe read. A string for shared ATerms usually starts with an exclamation mark\nand contains many hash marks indicating references. Unshared ATerms are plain\nconstructor terms.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "readATerm",
           "package": "aterm-utils",
@@ -1866,6 +2019,7 @@
         "index": {
           "description": "create an ATerm table from an input string Shared or unshared ATerms can be read string for shared ATerms usually starts with an exclamation mark and contains many hash marks indicating references Unshared ATerms are plain constructor terms",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "readATerm",
           "normalized": "String-\u003eATermTable",
@@ -1882,6 +2036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this when the current node must satisfy a specific property.\n Note: Using Maybe here is a bit of a hack. Refactor to support MonadPlus style guards?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "satisfy",
           "package": "aterm-utils",
@@ -1892,6 +2047,7 @@
         "index": {
           "description": "Use this when the current node must satisfy specific property Note Using Maybe here is bit of hack Refactor to support MonadPlus style guards",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "satisfy",
           "normalized": "(ATermTable-\u003eBool)-\u003eCheckM a b c d-\u003eCheckM a b c(Maybe d)",
@@ -1907,6 +2063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt's not acually pretty, but that's not our fault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "showATerm",
           "package": "aterm-utils",
@@ -1917,6 +2074,7 @@
         "index": {
           "description": "It not acually pretty but that not our fault",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "showATerm",
           "normalized": "ATermTable-\u003eString",
@@ -1933,6 +2091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this instead of \u003ccode\u003e\u003ca\u003elocal\u003c/a\u003e\u003c/code\u003e so that we can refactor\n the environment later without impacting existing code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "withCurrentTerm",
           "package": "aterm-utils",
@@ -1943,6 +2102,7 @@
         "index": {
           "description": "Use this instead of local so that we can refactor the environment later without impacting existing code",
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "withCurrentTerm",
           "normalized": "ATermTable-\u003eCheckM a b c d-\u003eCheckM a b c d",
@@ -1958,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:54 UTC 2014",
           "module": "ATerm.Utilities",
           "name": "writeSharedATerm",
           "package": "aterm-utils",
@@ -1966,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "ATerm Utilities",
+          "indexed": "2014-03-11T17:13:54",
           "module": "ATerm.Utilities",
           "name": "writeSharedATerm",
           "normalized": "ATermTable-\u003eString",

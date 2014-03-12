@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "attoparsec-csv"
+        "phrase": "attoparsec-csv",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:35 UTC 2014",
           "module": "Text.ParseCSV",
           "name": "ParseCSV",
           "package": "attoparsec-csv",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text ParseCSV",
+          "indexed": "2014-03-11T17:14:35",
           "module": "Text.ParseCSV",
           "name": "ParseCSV",
           "package": "attoparsec-csv",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:35 UTC 2014",
           "module": "Text.ParseCSV",
           "name": "CSV",
           "package": "attoparsec-csv",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text ParseCSV",
+          "indexed": "2014-03-11T17:14:35",
           "module": "Text.ParseCSV",
           "name": "CSV",
           "package": "attoparsec-csv",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:35 UTC 2014",
           "module": "Text.ParseCSV",
           "name": "parseCSV",
           "package": "attoparsec-csv",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text ParseCSV",
+          "indexed": "2014-03-11T17:14:35",
           "module": "Text.ParseCSV",
           "name": "parseCSV",
           "normalized": "Text-\u003eEither String CSV",

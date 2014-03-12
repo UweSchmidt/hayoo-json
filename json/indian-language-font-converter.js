@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "indian-language-font-converter"
+        "phrase": "indian-language-font-converter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.Font",
           "name": "Font",
           "package": "indian-language-font-converter",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage Font",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.Font",
           "name": "Font",
           "package": "indian-language-font-converter",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.Font",
           "name": "convertToFile",
           "package": "indian-language-font-converter",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage Font",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.Font",
           "name": "convertToFile",
           "normalized": "String-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.Font",
           "name": "convertToStr",
           "package": "indian-language-font-converter",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage Font",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.Font",
           "name": "convertToStr",
           "normalized": "String-\u003eString-\u003eIO()",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "HandleTranslation",
           "package": "indian-language-font-converter",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "HandleTranslation",
           "package": "indian-language-font-converter",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "actionConsonents",
           "package": "indian-language-font-converter",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "actionConsonents",
           "normalized": "[Char]-\u003e[Char]",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "actionVowels",
           "package": "indian-language-font-converter",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "actionVowels",
           "normalized": "[Char]-\u003e[Char]",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "checkForChar",
           "package": "indian-language-font-converter",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "checkForChar",
           "normalized": "Char-\u003eString",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "checkForSymbols",
           "package": "indian-language-font-converter",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "checkForSymbols",
           "normalized": "String-\u003eString",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "finalMarathi",
           "package": "indian-language-font-converter",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "finalMarathi",
           "normalized": "String-\u003e[[Char]]",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forA",
           "package": "indian-language-font-converter",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forA",
           "normalized": "[Char]-\u003e[Char]",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forC",
           "package": "indian-language-font-converter",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forC",
           "normalized": "[Char]-\u003e[Char]",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forCH",
           "package": "indian-language-font-converter",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forCH",
           "normalized": "[Char]-\u003e[Char]",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forCHH",
           "package": "indian-language-font-converter",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forCHH",
           "normalized": "[Char]-\u003e[Char]",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forD",
           "package": "indian-language-font-converter",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forD",
           "normalized": "[Char]-\u003e[Char]",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forDD",
           "package": "indian-language-font-converter",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forDD",
           "normalized": "[Char]-\u003e[Char]",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forDDH",
           "package": "indian-language-font-converter",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forDDH",
           "normalized": "[Char]-\u003e[Char]",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forDH",
           "package": "indian-language-font-converter",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forDH",
           "normalized": "[Char]-\u003e[Char]",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forDNY",
           "package": "indian-language-font-converter",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forDNY",
           "normalized": "[Char]-\u003e[Char]",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forE",
           "package": "indian-language-font-converter",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forE",
           "normalized": "[Char]-\u003e[Char]",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forG",
           "package": "indian-language-font-converter",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forG",
           "normalized": "[Char]-\u003e[Char]",
@@ -487,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forI",
           "package": "indian-language-font-converter",
@@ -496,6 +537,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forI",
           "normalized": "[a]-\u003e[a]",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forJ",
           "package": "indian-language-font-converter",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forJ",
           "normalized": "[Char]-\u003e[Char]",
@@ -533,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forK",
           "package": "indian-language-font-converter",
@@ -542,6 +587,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forK",
           "normalized": "[Char]-\u003e[Char]",
@@ -556,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forKH",
           "package": "indian-language-font-converter",
@@ -565,6 +612,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forKH",
           "normalized": "[Char]-\u003e[Char]",
@@ -580,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forKSH",
           "package": "indian-language-font-converter",
@@ -589,6 +638,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forKSH",
           "normalized": "[Char]-\u003e[Char]",
@@ -604,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forNM",
           "package": "indian-language-font-converter",
@@ -613,6 +664,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forNM",
           "normalized": "[Char]-\u003eInt-\u003e[Char]",
@@ -628,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forO",
           "package": "indian-language-font-converter",
@@ -637,6 +690,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forO",
           "normalized": "[Char]-\u003e[Char]",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forT",
           "package": "indian-language-font-converter",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forT",
           "normalized": "[Char]-\u003e[Char]",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forTT",
           "package": "indian-language-font-converter",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forTT",
           "normalized": "[Char]-\u003e[Char]",
@@ -698,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forU",
           "package": "indian-language-font-converter",
@@ -707,6 +766,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "forU",
           "normalized": "[a]-\u003e[a]",
@@ -721,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "leaveIt",
           "package": "indian-language-font-converter",
@@ -730,6 +791,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "leaveIt",
           "normalized": "[Char]-\u003e[Char]",
@@ -745,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "makeWindow",
           "package": "indian-language-font-converter",
@@ -754,6 +817,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "makeWindow",
           "normalized": "String-\u003eString-\u003eIO()",
@@ -769,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "marathiFont",
           "package": "indian-language-font-converter",
@@ -778,6 +843,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "marathiFont",
           "normalized": "[String]-\u003eString-\u003eTextBuffer-\u003eString-\u003eIO()",
@@ -793,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "mytemp",
           "package": "indian-language-font-converter",
@@ -802,6 +869,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "mytemp",
           "normalized": "[[Char]]-\u003e[[Char]]",
@@ -816,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "onlyOneLang",
           "package": "indian-language-font-converter",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "onlyOneLang",
           "normalized": "TextBuffer-\u003eString-\u003eString-\u003eIO()",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "putDot",
           "package": "indian-language-font-converter",
@@ -849,6 +920,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "putDot",
           "normalized": "[String]-\u003e[String]",
@@ -864,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "putNL",
           "package": "indian-language-font-converter",
@@ -873,6 +946,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "putNL",
           "normalized": "[[Char]]-\u003e[[Char]]",
@@ -888,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "splitMarathi",
           "package": "indian-language-font-converter",
@@ -897,6 +972,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "splitMarathi",
           "normalized": "[Char]-\u003e[[Char]]",
@@ -912,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "tempConsonents",
           "package": "indian-language-font-converter",
@@ -921,6 +998,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "tempConsonents",
           "normalized": "[Char]-\u003e(Int,[Char])",
@@ -936,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:39 UTC 2014",
           "module": "IndianLanguage.HandleTranslation",
           "name": "tempVowels",
           "package": "indian-language-font-converter",
@@ -945,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "IndianLanguage HandleTranslation",
+          "indexed": "2014-03-11T18:57:39",
           "module": "IndianLanguage.HandleTranslation",
           "name": "tempVowels",
           "normalized": "[Char]-\u003e(Int,[Char])",

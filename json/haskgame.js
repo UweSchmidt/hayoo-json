@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskgame"
+        "phrase": "haskgame",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "Color",
           "package": "haskgame",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Color",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "Color",
           "package": "haskgame",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "Color",
           "package": "haskgame",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Color",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "Color",
           "package": "haskgame",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "Color",
           "package": "haskgame",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Color",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "Color",
           "package": "haskgame",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "colorBlue",
           "package": "haskgame",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Color",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "colorBlue",
           "package": "haskgame",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "colorGreen",
           "package": "haskgame",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Color",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "colorGreen",
           "package": "haskgame",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "colorRed",
           "package": "haskgame",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Color",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Color",
           "name": "colorRed",
           "package": "haskgame",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "Font",
           "package": "haskgame",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Font",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "Font",
           "package": "haskgame",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "Font",
           "package": "haskgame",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Font",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "Font",
           "package": "haskgame",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "defaultFont",
           "package": "haskgame",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Font",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "defaultFont",
           "normalized": "Int-\u003eIO Font",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "renderText",
           "package": "haskgame",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Font",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "renderText",
           "normalized": "Font-\u003eString-\u003eColor-\u003eIO Surface",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "textSize",
           "package": "haskgame",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Font",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "textSize",
           "normalized": "Font-\u003eString-\u003eVector Int",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "withInit",
           "package": "haskgame",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Font",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Font",
           "name": "withInit",
           "normalized": "IO()-\u003eIO()",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "Key",
           "package": "haskgame",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "Key",
           "package": "haskgame",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "KeyGroup",
           "package": "haskgame",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "KeyGroup",
           "package": "haskgame",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "Keysym",
           "package": "haskgame",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "Keysym",
           "package": "haskgame",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "ModKey",
           "package": "haskgame",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "ModKey",
           "package": "haskgame",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "Mods",
           "package": "haskgame",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "Mods",
           "package": "haskgame",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "MkMods",
           "package": "haskgame",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "MkMods",
           "package": "haskgame",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "ModKey",
           "package": "haskgame",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "ModKey",
           "package": "haskgame",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "alt",
           "package": "haskgame",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "alt",
           "package": "haskgame",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "asKeyGroup",
           "package": "haskgame",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "asKeyGroup",
           "normalized": "Mods-\u003eSDLKey-\u003eKeyGroup",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "ctrl",
           "package": "haskgame",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "ctrl",
           "package": "haskgame",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "isAlt",
           "package": "haskgame",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "isAlt",
           "package": "haskgame",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "isCtrl",
           "package": "haskgame",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "isCtrl",
           "package": "haskgame",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "isShift",
           "package": "haskgame",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "isShift",
           "package": "haskgame",
@@ -636,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "keyName",
           "package": "haskgame",
@@ -645,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "keyName",
           "normalized": "ModKey-\u003eString",
@@ -660,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "keyOfEvent",
           "package": "haskgame",
@@ -669,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "keyOfEvent",
           "normalized": "Keysym-\u003eModKey",
@@ -684,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "noMods",
           "package": "haskgame",
@@ -693,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "noMods",
           "package": "haskgame",
@@ -706,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "shift",
           "package": "haskgame",
@@ -715,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "shift",
           "package": "haskgame",
@@ -727,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "singletonKeyGroup",
           "package": "haskgame",
@@ -736,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Key",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Key",
           "name": "singletonKeyGroup",
           "normalized": "ModKey-\u003eKeyGroup",
@@ -751,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "Keys",
           "package": "haskgame",
@@ -759,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Keys",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "Keys",
           "package": "haskgame",
@@ -772,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "KeyGroup",
           "package": "haskgame",
@@ -780,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Keys",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "KeyGroup",
           "package": "haskgame",
@@ -793,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "allGroups",
           "package": "haskgame",
@@ -802,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Keys",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "allGroups",
           "normalized": "[KeyGroup]",
@@ -817,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "arrowsGroup",
           "package": "haskgame",
@@ -826,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Keys",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "arrowsGroup",
           "package": "haskgame",
@@ -839,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "digitsGroup",
           "package": "haskgame",
@@ -848,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Keys",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "digitsGroup",
           "package": "haskgame",
@@ -861,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "groupsOfKey",
           "package": "haskgame",
@@ -870,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Keys",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "groupsOfKey",
           "normalized": "ModKey-\u003e[KeyGroup]",
@@ -885,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "keysUnicode",
           "package": "haskgame",
@@ -894,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Keys",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "keysUnicode",
           "package": "haskgame",
@@ -907,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "lettersGroup",
           "package": "haskgame",
@@ -916,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Keys",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "lettersGroup",
           "package": "haskgame",
@@ -929,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "lowerCaseGroup",
           "package": "haskgame",
@@ -938,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Keys",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "lowerCaseGroup",
           "package": "haskgame",
@@ -951,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "printableGroup",
           "package": "haskgame",
@@ -960,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Keys",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "printableGroup",
           "package": "haskgame",
@@ -973,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "upperCaseGroup",
           "package": "haskgame",
@@ -982,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Keys",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Keys",
           "name": "upperCaseGroup",
           "package": "haskgame",
@@ -995,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "Rect",
           "package": "haskgame",
@@ -1003,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "Rect",
           "package": "haskgame",
@@ -1016,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "Rect",
           "package": "haskgame",
@@ -1023,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "Rect",
           "package": "haskgame",
@@ -1036,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "Rect",
           "package": "haskgame",
@@ -1044,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "Rect",
           "package": "haskgame",
@@ -1057,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "fromVectors",
           "package": "haskgame",
@@ -1066,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "fromVectors",
           "normalized": "Two(Vector Int)-\u003eRect",
@@ -1081,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "getBottomRight",
           "package": "haskgame",
@@ -1090,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "getBottomRight",
           "normalized": "Rect-\u003eVector Int",
@@ -1105,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "getSize",
           "package": "haskgame",
@@ -1114,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "getSize",
           "normalized": "Rect-\u003eVector Int",
@@ -1129,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "getTopLeft",
           "package": "haskgame",
@@ -1138,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "getTopLeft",
           "normalized": "Rect-\u003eVector Int",
@@ -1153,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "h",
           "package": "haskgame",
@@ -1162,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "h",
           "normalized": "Endo Int-\u003eEndo Rect",
@@ -1176,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "inRect",
           "package": "haskgame",
@@ -1185,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "inRect",
           "normalized": "Endo(Two(Vector Int))-\u003eEndo Rect",
@@ -1200,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "intersect",
           "package": "haskgame",
@@ -1209,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "intersect",
           "normalized": "Rect-\u003eRect-\u003eRect",
@@ -1223,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "make",
           "package": "haskgame",
@@ -1232,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "make",
           "normalized": "Vector Int-\u003eVector Int-\u003eRect",
@@ -1246,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "makeFromPos",
           "package": "haskgame",
@@ -1255,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "makeFromPos",
           "normalized": "Vector Int-\u003eRect",
@@ -1270,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "makeFromSize",
           "package": "haskgame",
@@ -1279,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "makeFromSize",
           "normalized": "Vector Int-\u003eRect",
@@ -1294,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "pVectorsToVectors",
           "package": "haskgame",
@@ -1303,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "pVectorsToVectors",
           "package": "haskgame",
@@ -1316,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "pos",
           "package": "haskgame",
@@ -1325,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "pos",
           "normalized": "Endo(Vector Int)-\u003eEndo Rect",
@@ -1339,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "posInside",
           "package": "haskgame",
@@ -1348,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "posInside",
           "normalized": "Vector Int-\u003eRect-\u003eBool",
@@ -1363,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "size",
           "package": "haskgame",
@@ -1372,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "size",
           "normalized": "Endo(Vector Int)-\u003eEndo Rect",
@@ -1386,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "toPVectors",
           "package": "haskgame",
@@ -1395,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "toPVectors",
           "normalized": "Rect-\u003eTwo(Vector Int)",
@@ -1410,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "toVectors",
           "package": "haskgame",
@@ -1419,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "toVectors",
           "normalized": "Rect-\u003eTwo(Vector Int)",
@@ -1434,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "trunc",
           "package": "haskgame",
@@ -1443,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "trunc",
           "normalized": "Rect-\u003eRect",
@@ -1457,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "union",
           "package": "haskgame",
@@ -1466,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "union",
           "normalized": "Rect-\u003eRect-\u003eRect",
@@ -1480,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "vectorsToPVectors",
           "package": "haskgame",
@@ -1489,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "vectorsToPVectors",
           "package": "haskgame",
@@ -1502,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "w",
           "package": "haskgame",
@@ -1511,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "w",
           "normalized": "Endo Int-\u003eEndo Rect",
@@ -1525,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "x",
           "package": "haskgame",
@@ -1534,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "x",
           "normalized": "Endo Int-\u003eEndo Rect",
@@ -1548,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "y",
           "package": "haskgame",
@@ -1557,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Rect",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Rect",
           "name": "y",
           "normalized": "Endo Int-\u003eEndo Rect",
@@ -1571,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "Vector2",
           "package": "haskgame",
@@ -1579,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Vector2",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "Vector2",
           "package": "haskgame",
@@ -1592,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "Vector2",
           "package": "haskgame",
@@ -1600,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Vector2",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "Vector2",
           "package": "haskgame",
@@ -1613,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "(***)",
           "package": "haskgame",
@@ -1622,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Vector2",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "(***) ***",
           "normalized": "Endo a-\u003eEndo a-\u003eEndo(Vector a)",
@@ -1636,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "Vector2",
           "package": "haskgame",
@@ -1645,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Vector2",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "Vector2",
           "package": "haskgame",
@@ -1658,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "both",
           "package": "haskgame",
@@ -1667,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Vector2",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "both",
           "normalized": "Endo a-\u003eEndo(Vector a)",
@@ -1681,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "first",
           "package": "haskgame",
@@ -1690,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Vector2",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "first",
           "normalized": "Endo a-\u003eEndo(Vector a)",
@@ -1704,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "fst",
           "package": "haskgame",
@@ -1713,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Vector2",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "fst",
           "normalized": "Vector a-\u003ea",
@@ -1727,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "second",
           "package": "haskgame",
@@ -1736,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Vector2",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "second",
           "normalized": "Endo a-\u003eEndo(Vector a)",
@@ -1750,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "snd",
           "package": "haskgame",
@@ -1759,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Vector2",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "snd",
           "normalized": "Vector a-\u003ea",
@@ -1773,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "vector2",
           "package": "haskgame",
@@ -1782,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame Vector2",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame.Vector2",
           "name": "vector2",
           "normalized": "(a-\u003ea-\u003eb)-\u003eVector a-\u003eb",
@@ -1796,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "HaskGame",
           "package": "haskgame",
@@ -1804,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "HaskGame",
           "package": "haskgame",
@@ -1817,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "Event",
           "package": "haskgame",
@@ -1825,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "Event",
           "package": "haskgame",
@@ -1838,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "Surface",
           "package": "haskgame",
@@ -1846,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "Surface",
           "package": "haskgame",
@@ -1859,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "blit",
           "package": "haskgame",
@@ -1868,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "blit",
           "normalized": "Surface-\u003eVector Int-\u003eSurface-\u003eIO()",
@@ -1882,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "blitPart",
           "package": "haskgame",
@@ -1891,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "blitPart",
           "normalized": "Surface-\u003eVector Int-\u003eSurface-\u003eRect-\u003eIO()",
@@ -1906,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "createRGBSurface",
           "package": "haskgame",
@@ -1915,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "createRGBSurface",
           "normalized": "Vector Int-\u003eIO Surface",
@@ -1930,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "fillRect",
           "package": "haskgame",
@@ -1939,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "fillRect",
           "normalized": "Surface-\u003eRect-\u003eColor-\u003eIO()",
@@ -1954,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "fillSurface",
           "package": "haskgame",
@@ -1963,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "fillSurface",
           "normalized": "Surface-\u003eColor-\u003eIO()",
@@ -1978,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "getEvents",
           "package": "haskgame",
@@ -1987,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "getEvents",
           "normalized": "IO[Event]",
@@ -2002,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "setVideoMode",
           "package": "haskgame",
@@ -2011,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "setVideoMode",
           "normalized": "Vector Int-\u003eInt-\u003eIO Surface",
@@ -2026,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "surfaceSize",
           "package": "haskgame",
@@ -2035,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "surfaceSize",
           "normalized": "Surface-\u003eVector Int",
@@ -2050,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:09 UTC 2014",
           "module": "Graphics.UI.HaskGame",
           "name": "withInit",
           "package": "haskgame",
@@ -2059,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI HaskGame",
+          "indexed": "2014-03-11T18:33:09",
           "module": "Graphics.UI.HaskGame",
           "name": "withInit",
           "normalized": "IO()-\u003eIO()",

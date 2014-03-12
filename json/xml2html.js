@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml2html"
+        "phrase": "xml2html",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:41 UTC 2014",
           "module": "Text.XML.Xml2Html",
           "name": "Xml2Html",
           "package": "xml2html",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XML Xml2Html",
+          "indexed": "2014-03-11T20:42:41",
           "module": "Text.XML.Xml2Html",
           "name": "Xml2Html",
           "package": "xml2html",

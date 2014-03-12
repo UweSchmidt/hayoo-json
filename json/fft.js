@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fft"
+        "phrase": "fft",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "Base",
           "package": "fft",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "Base",
           "package": "fft",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of transforms.  Used to control \u003ccode\u003e\u003ca\u003edftShape\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "DFT",
           "package": "fft",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Types of transforms Used to control dftShape",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "DFT",
           "package": "fft",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "FFTWFlag",
           "package": "fft",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "FFTWFlag",
           "package": "fft",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "FFTWKind",
           "package": "fft",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "FFTWKind",
           "package": "fft",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "FFTWPlan",
           "package": "fft",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "FFTWPlan",
           "package": "fft",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOur API is polymorphic over the real data type.  FFTW, at least in\n principle, supports single precision \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e, double precision \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e and\n long double \u003ccode\u003eCLDouble\u003c/code\u003e (presumable?).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "FFTWReal",
           "package": "fft",
@@ -135,6 +146,7 @@
         "index": {
           "description": "Our API is polymorphic over the real data type FFTW at least in principle supports single precision Float double precision Double and long double CLDouble presumable",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "FFTWReal",
           "package": "fft",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "FFTWSign",
           "package": "fft",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "FFTWSign",
           "package": "fft",
@@ -170,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFlag\u003c/a\u003e\u003c/code\u003e type is used to influence the kind of plans which are created.\n To specify multiple flags, use a bitwise \u003ccode\u003e\u003ca\u003e.|.\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "Flag",
           "package": "fft",
@@ -179,6 +194,7 @@
         "index": {
           "description": "The Flag type is used to influence the kind of plans which are created To specify multiple flags use bitwise",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "Flag",
           "package": "fft",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "IODim",
           "package": "fft",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "IODim",
           "package": "fft",
@@ -214,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal to Real transform kinds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "Kind",
           "package": "fft",
@@ -223,6 +242,7 @@
         "index": {
           "description": "Real to Real transform kinds",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "Kind",
           "package": "fft",
@@ -237,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plan is an opaque foreign object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "Plan",
           "package": "fft",
@@ -246,6 +267,7 @@
         "index": {
           "description": "plan is an opaque foreign object",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "Plan",
           "package": "fft",
@@ -260,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine which direction of DFT to execute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "Sign",
           "package": "fft",
@@ -269,6 +292,7 @@
         "index": {
           "description": "Determine which direction of DFT to execute",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "Sign",
           "package": "fft",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple of transform dimensions and non-transform dimensions of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "TSpec",
           "package": "fft",
@@ -292,6 +317,7 @@
         "index": {
           "description": "Tuple of transform dimensions and non-transform dimensions of the array",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "TSpec",
           "package": "fft",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "CC",
           "package": "fft",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "CC",
           "package": "fft",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "CR",
           "package": "fft",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "CR",
           "package": "fft",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "CRO",
           "package": "fft",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "CRO",
           "package": "fft",
@@ -440,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "Flag",
           "package": "fft",
@@ -449,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "Flag",
           "package": "fft",
@@ -485,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "IODim",
           "package": "fft",
@@ -494,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "IODim",
           "package": "fft",
@@ -530,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "RC",
           "package": "fft",
@@ -539,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "RC",
           "package": "fft",
@@ -736,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "RR",
           "package": "fft",
@@ -745,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "RR",
           "package": "fft",
@@ -759,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generally useful list utility\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "adjust",
           "package": "fft",
@@ -769,6 +810,7 @@
         "index": {
           "description": "generally useful list utility",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eInt-\u003e[a]-\u003e[a]",
@@ -783,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_backward",
           "package": "fft",
@@ -792,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_backward",
           "package": "fft",
@@ -804,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_conserve_memory",
           "package": "fft",
@@ -813,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_conserve_memory",
           "package": "fft",
@@ -825,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_destroy_input",
           "package": "fft",
@@ -834,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_destroy_input",
           "package": "fft",
@@ -846,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_dht",
           "package": "fft",
@@ -855,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_dht",
           "package": "fft",
@@ -867,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_estimate",
           "package": "fft",
@@ -876,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_estimate",
           "package": "fft",
@@ -889,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple plan execution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_execute",
           "package": "fft",
@@ -899,6 +952,7 @@
         "index": {
           "description": "Simple plan execution",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_execute",
           "normalized": "Plan-\u003eIO()",
@@ -913,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_execute_dft",
           "package": "fft",
@@ -922,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_execute_dft",
           "normalized": "Plan-\u003ePtr(Complex Double)-\u003ePtr(Complex Double)-\u003eIO()",
@@ -936,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_execute_dft_c2r",
           "package": "fft",
@@ -945,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_execute_dft_c2r",
           "normalized": "Plan-\u003ePtr(Complex Double)-\u003ePtr Double-\u003eIO()",
@@ -959,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_execute_dft_r2c",
           "package": "fft",
@@ -968,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_execute_dft_r2c",
           "normalized": "Plan-\u003ePtr Double-\u003ePtr(Complex Double)-\u003eIO()",
@@ -982,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_execute_r2r",
           "package": "fft",
@@ -991,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_execute_r2r",
           "normalized": "Plan-\u003ePtr Double-\u003ePtr Double-\u003eIO()",
@@ -1005,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_exhaustive",
           "package": "fft",
@@ -1014,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_exhaustive",
           "package": "fft",
@@ -1026,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_export_wisdom_string",
           "package": "fft",
@@ -1035,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_export_wisdom_string",
           "package": "fft",
@@ -1047,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_forward",
           "package": "fft",
@@ -1056,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_forward",
           "package": "fft",
@@ -1069,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrees memory allocated by \u003ccode\u003efftw_malloc\u003c/code\u003e.  Currently, we only need this to\n free the wisdom string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_free",
           "package": "fft",
@@ -1079,6 +1148,7 @@
         "index": {
           "description": "Frees memory allocated by fftw malloc Currently we only need this to free the wisdom string",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_free",
           "normalized": "Ptr a-\u003eIO()",
@@ -1093,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_hc2r",
           "package": "fft",
@@ -1102,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_hc2r",
           "package": "fft",
@@ -1114,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_import_wisdom_string",
           "package": "fft",
@@ -1123,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_import_wisdom_string",
           "normalized": "CString-\u003eIO CInt",
@@ -1137,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_import_wisdom_system",
           "package": "fft",
@@ -1146,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_import_wisdom_system",
           "package": "fft",
@@ -1158,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_measure",
           "package": "fft",
@@ -1167,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_measure",
           "package": "fft",
@@ -1179,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_patient",
           "package": "fft",
@@ -1188,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_patient",
           "package": "fft",
@@ -1201,6 +1281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlan a complex to complex transform using the guru interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_plan_guru_dft",
           "package": "fft",
@@ -1211,6 +1292,7 @@
         "index": {
           "description": "Plan complex to complex transform using the guru interface",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_plan_guru_dft",
           "normalized": "CInt-\u003ePtr IODim-\u003eCInt-\u003ePtr IODim-\u003ePtr(Complex Double)-\u003ePtr(Complex Double)-\u003eFFTWSign-\u003eFFTWFlag-\u003eIO Plan",
@@ -1226,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlan a complex to real transform using the guru interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_plan_guru_dft_c2r",
           "package": "fft",
@@ -1236,6 +1319,7 @@
         "index": {
           "description": "Plan complex to real transform using the guru interface",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_plan_guru_dft_c2r",
           "normalized": "CInt-\u003ePtr IODim-\u003eCInt-\u003ePtr IODim-\u003ePtr(Complex Double)-\u003ePtr Double-\u003eFFTWFlag-\u003eIO Plan",
@@ -1251,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlan a real to complex transform using the guru interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_plan_guru_dft_r2c",
           "package": "fft",
@@ -1261,6 +1346,7 @@
         "index": {
           "description": "Plan real to complex transform using the guru interface",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_plan_guru_dft_r2c",
           "normalized": "CInt-\u003ePtr IODim-\u003eCInt-\u003ePtr IODim-\u003ePtr Double-\u003ePtr(Complex Double)-\u003eFFTWFlag-\u003eIO Plan",
@@ -1276,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlan a real to real transform using the guru interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_plan_guru_r2r",
           "package": "fft",
@@ -1286,6 +1373,7 @@
         "index": {
           "description": "Plan real to real transform using the guru interface",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_plan_guru_r2r",
           "normalized": "CInt-\u003ePtr IODim-\u003eCInt-\u003ePtr IODim-\u003ePtr Double-\u003ePtr Double-\u003ePtr FFTWKind-\u003eFFTWFlag-\u003eIO Plan",
@@ -1301,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault flag.  For most transforms, this is equivalent to setting \u003ccode\u003e\u003ca\u003emeasure\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003epreserveInput\u003c/a\u003e\u003c/code\u003e.  The exceptions are complex to real and half-complex to\n real transforms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_preserve_input",
           "package": "fft",
@@ -1311,6 +1400,7 @@
         "index": {
           "description": "Default flag For most transforms this is equivalent to setting measure and preserveInput The exceptions are complex to real and half-complex to real transforms",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_preserve_input",
           "package": "fft",
@@ -1323,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_r2hc",
           "package": "fft",
@@ -1332,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_r2hc",
           "package": "fft",
@@ -1344,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_redft00",
           "package": "fft",
@@ -1353,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_redft00",
           "package": "fft",
@@ -1365,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_redft01",
           "package": "fft",
@@ -1374,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_redft01",
           "package": "fft",
@@ -1386,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_redft10",
           "package": "fft",
@@ -1395,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_redft10",
           "package": "fft",
@@ -1407,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_redft11",
           "package": "fft",
@@ -1416,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_redft11",
           "package": "fft",
@@ -1429,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to the \u003ccode\u003efftw_iodim\u003c/code\u003e structure.  It completely describes the\n layout of each dimension, before and after the transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_rodft00",
           "package": "fft",
@@ -1439,6 +1540,7 @@
         "index": {
           "description": "Corresponds to the fftw iodim structure It completely describes the layout of each dimension before and after the transform",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_rodft00",
           "package": "fft",
@@ -1451,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_rodft01",
           "package": "fft",
@@ -1460,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_rodft01",
           "package": "fft",
@@ -1472,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_rodft10",
           "package": "fft",
@@ -1481,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_rodft10",
           "package": "fft",
@@ -1493,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_rodft11",
           "package": "fft",
@@ -1502,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_rodft11",
           "package": "fft",
@@ -1514,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "c_unaligned",
           "package": "fft",
@@ -1523,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "c_unaligned",
           "package": "fft",
@@ -1536,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify that a plan is valid.  Thows an exception if not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "check",
           "package": "fft",
@@ -1546,6 +1657,7 @@
         "index": {
           "description": "Verify that plan is valid Thows an exception if not",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "check",
           "normalized": "Plan-\u003eIO()",
@@ -1561,6 +1673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe header claims that this flag is documented, but in reality, it is not.\n I don't know what it does and it is here only for completeness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "conserveMemory",
           "package": "fft",
@@ -1571,6 +1684,7 @@
         "index": {
           "description": "The header claims that this flag is documented but in reality it is not don know what it does and it is here only for completeness",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "conserveMemory",
           "package": "fft",
@@ -1925,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex to Real DFT.  The first argument determines whether the last\n transformed dimension is logically odd or even.  \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e implies the dimension\n is odd.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "dftCRG_",
           "package": "fft",
@@ -1935,6 +2050,7 @@
         "index": {
           "description": "Complex to Real DFT The first argument determines whether the last transformed dimension is logically odd or even True implies the dimension is odd",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "dftCRG_",
           "normalized": "Bool-\u003eFlag-\u003e[Int]-\u003eCArray a(Complex b)-\u003eCArray a b",
@@ -2408,6 +2524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the logic for determining shape of resulting array, and how to do the transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "dftShape",
           "package": "fft",
@@ -2418,6 +2535,7 @@
         "index": {
           "description": "All the logic for determining shape of resulting array and how to do the transform",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "dftShape",
           "normalized": "DFT-\u003e[Int]-\u003eCArray a b-\u003e((a,a),TSpec)",
@@ -2485,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "drr",
           "package": "fft",
@@ -2494,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "drr",
           "normalized": "Kind-\u003e[Int]-\u003eCArray a b-\u003eCArray a b",
@@ -2741,6 +2861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfirm that the plan is valid, then execute the transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "execute",
           "package": "fft",
@@ -2751,6 +2872,7 @@
         "index": {
           "description": "Confirm that the plan is valid then execute the transform",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "execute",
           "normalized": "Plan-\u003eIO()",
@@ -2814,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "fzr",
           "package": "fft",
@@ -2823,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "fzr",
           "normalized": "a-\u003e[b]-\u003e[(b,a)]",
@@ -2837,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "has",
           "package": "fft",
@@ -2846,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "has",
           "normalized": "Flag-\u003eFlag-\u003eBool",
@@ -2965,6 +3091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStride along dimension in input array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "isIODim",
           "package": "fft",
@@ -2975,6 +3102,7 @@
         "index": {
           "description": "Stride along dimension in input array",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "isIODim",
           "package": "fft",
@@ -2989,6 +3117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis lock must be taken during \u003cem\u003eplanning\u003c/em\u003e of any transform.  The FFTW\n library is not thread-safe in the planning phase.  Thankfully, the lock is\n not needed during the execute phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "lock",
           "package": "fft",
@@ -2999,6 +3128,7 @@
         "index": {
           "description": "This lock must be taken during planning of any transform The FFTW library is not thread-safe in the planning phase Thankfully the lock is not needed during the execute phase",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "lock",
           "normalized": "MVar()",
@@ -3038,6 +3168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical size of dimension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "nIODim",
           "package": "fft",
@@ -3048,6 +3179,7 @@
         "index": {
           "description": "Logical size of dimension",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "nIODim",
           "package": "fft",
@@ -3061,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "nullFlag",
           "package": "fft",
@@ -3070,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "nullFlag",
           "package": "fft",
@@ -3084,6 +3218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStride along dimension in output array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "osIODim",
           "package": "fft",
@@ -3094,6 +3229,7 @@
         "index": {
           "description": "Stride along dimension in output array",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "osIODim",
           "package": "fft",
@@ -3131,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "plan_guru_dft",
           "package": "fft",
@@ -3140,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "plan_guru_dft",
           "normalized": "CInt-\u003ePtr IODim-\u003eCInt-\u003ePtr IODim-\u003ePtr(Complex a)-\u003ePtr(Complex a)-\u003eFFTWSign-\u003eFFTWFlag-\u003eIO Plan",
@@ -3154,6 +3292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "plan_guru_dft_c2r",
           "package": "fft",
@@ -3163,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "plan_guru_dft_c2r",
           "normalized": "CInt-\u003ePtr IODim-\u003eCInt-\u003ePtr IODim-\u003ePtr(Complex a)-\u003ePtr a-\u003eFFTWFlag-\u003eIO Plan",
@@ -3177,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "plan_guru_dft_r2c",
           "package": "fft",
@@ -3186,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "plan_guru_dft_r2c",
           "normalized": "CInt-\u003ePtr IODim-\u003eCInt-\u003ePtr IODim-\u003ePtr a-\u003ePtr(Complex a)-\u003eFFTWFlag-\u003eIO Plan",
@@ -3200,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "plan_guru_r2r",
           "package": "fft",
@@ -3209,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "plan_guru_r2r",
           "normalized": "CInt-\u003ePtr IODim-\u003eCInt-\u003ePtr IODim-\u003ePtr a-\u003ePtr a-\u003ePtr FFTWKind-\u003eFFTWFlag-\u003eIO Plan",
@@ -3249,6 +3393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to transform a CArray with only one memory allocation (for the result).\n If we can find a way to prove that FFTW already has a sufficiently good plan\n for this transform size and the input will not be overwritten, then we could\n call have a version of this that does not require \u003ccode\u003e\u003ca\u003eestimate\u003c/a\u003e\u003c/code\u003e.  Since this is\n not currently the case, we require \u003ccode\u003e\u003ca\u003eestimate\u003c/a\u003e\u003c/code\u003e to be set.  Note that we do not\n check for the \u003ccode\u003e\u003ca\u003epreserveInput\u003c/a\u003e\u003c/code\u003e flag here.  This is because the default is to\n preserve input for all but the C-\u003eR and HC-\u003eR transforms.  Therefore, this\n function must not be called for those transforms, unless \u003ccode\u003e\u003ca\u003epreserveInput\u003c/a\u003e\u003c/code\u003e is\n set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "transformCArray",
           "package": "fft",
@@ -3259,6 +3404,7 @@
         "index": {
           "description": "Try to transform CArray with only one memory allocation for the result If we can find way to prove that FFTW already has sufficiently good plan for this transform size and the input will not be overwritten then we could call have version of this that does not require estimate Since this is not currently the case we require estimate to be set Note that we do not check for the preserveInput flag here This is because the default is to preserve input for all but the and HC transforms Therefore this function must not be called for those transforms unless preserveInput is set",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "transformCArray",
           "normalized": "Flag-\u003eCArray a b-\u003e(a,a)-\u003e(FFTWFlag-\u003ePtr b-\u003ePtr c-\u003eIO Plan)-\u003eCArray a c",
@@ -3275,6 +3421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a CArray with two memory allocations.  This is entirely safe with\n all transforms, but it must allocate a temporary array to do the planning in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "transformCArray'",
           "package": "fft",
@@ -3285,6 +3432,7 @@
         "index": {
           "description": "Transform CArray with two memory allocations This is entirely safe with all transforms but it must allocate temporary array to do the planning in",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "transformCArray'",
           "normalized": "Flag-\u003eCArray a b-\u003e(a,a)-\u003e(FFTWFlag-\u003ePtr b-\u003ePtr c-\u003eIO Plan)-\u003eCArray a c",
@@ -3300,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "unFlag",
           "package": "fft",
@@ -3309,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "unFlag",
           "package": "fft",
@@ -3322,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "unKind",
           "package": "fft",
@@ -3331,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "unKind",
           "normalized": "Kind-\u003eFFTWKind",
@@ -3346,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "unSign",
           "package": "fft",
@@ -3355,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "unSign",
           "normalized": "Sign-\u003eFFTWSign",
@@ -3371,6 +3525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstruct FFTW not to generate a plan which uses SIMD instructions, even if\n the memory you are planning with is aligned.  This should only be needed if\n you are using the guru interface and want to reuse a plan with memory that\n may be unaligned (i.e. you constructed the \u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e with\n \u003ccode\u003e\u003ca\u003eunsafeForeignPtrToCArray\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "unaligned",
           "package": "fft",
@@ -3381,6 +3536,7 @@
         "index": {
           "description": "Instruct FFTW not to generate plan which uses SIMD instructions even if the memory you are planning with is aligned This should only be needed if you are using the guru interface and want to reuse plan with memory that may be unaligned i.e you constructed the CArray with unsafeForeignPtrToCArray",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "unaligned",
           "package": "fft",
@@ -3394,6 +3550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn-place normalization outside of IO.  You must be able to prove that no\n reference to the original can be retained.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "unsafeNormalize",
           "package": "fft",
@@ -3404,6 +3561,7 @@
         "index": {
           "description": "In-place normalization outside of IO You must be able to prove that no reference to the original can be retained",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "unsafeNormalize",
           "normalized": "[Int]-\u003eCArray a b-\u003eCArray a b",
@@ -3419,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "withLock",
           "package": "fft",
@@ -3428,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "withLock",
           "normalized": "IO a-\u003eIO a",
@@ -3444,6 +3604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple helper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT.Base",
           "name": "withTSpec",
           "package": "fft",
@@ -3454,6 +3615,7 @@
         "index": {
           "description": "simple helper",
           "hierarchy": "Math FFT Base",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT.Base",
           "name": "withTSpec",
           "normalized": "TSpec-\u003e(CInt-\u003ePtr IODim-\u003eCInt-\u003ePtr IODim-\u003eIO a)-\u003eIO a",
@@ -3470,6 +3632,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exposes an interface to FFTW, the Fastest Fourier Transform in\n the West.\n\u003c/p\u003e\u003cp\u003eThese bindings present several levels of interface.  All the higher level\n functions (\u003ccode\u003e\u003ca\u003edft\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eidft\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edftN\u003c/a\u003e\u003c/code\u003e, ...) are easily derived from the general\n functions (\u003ccode\u003e\u003ca\u003edftG\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edftRCG\u003c/a\u003e\u003c/code\u003e, ...).  Only the general functions let you\n specify planner flags.  The higher levels all set \u003ccode\u003e\u003ca\u003eestimate\u003c/a\u003e\u003c/code\u003e so you should\n not have to wait through time consuming planning (see below for more).\n\u003c/p\u003e\u003cp\u003eThe simplest interface is the one-dimensional transforms.  If you supply a\n multi-dimensional array, these will only transform the first dimension.\n These functions only take one argument, the array to be transformed.\n\u003c/p\u003e\u003cp\u003eAt the next level, we have multi-dimensional transforms where you specify\n which dimensions to transform in and the array to transform.  For instance\n\u003c/p\u003e\u003cpre\u003e b = dftRCN [0,2] a\n\u003c/pre\u003e\u003cp\u003eis the real to complex transform in dimensions 0 and 2 of the array \u003ccode\u003ea\u003c/code\u003e which\n must be at least rank 3.  The array \u003ccode\u003eb\u003c/code\u003e will be complex valued with the same\n extent as \u003ccode\u003ea\u003c/code\u003e in every dimension except \u003ccode\u003e2\u003c/code\u003e.  If \u003ccode\u003ea\u003c/code\u003e had extent \u003ccode\u003en\u003c/code\u003e in\n dimension \u003ccode\u003e2\u003c/code\u003e then the \u003ccode\u003eb\u003c/code\u003e will have extent \u003ccode\u003ea \u003ccode\u003e\u003ca\u003ediv\u003c/a\u003e\u003c/code\u003e 2 + 1\u003c/code\u003e which consists of\n all non-negative frequency components in this dimension (the negative\n frequencies are conjugate to the positive frequencies because of symmetry\n since \u003ccode\u003ea\u003c/code\u003e is real valued).\n\u003c/p\u003e\u003cp\u003eThe real to real transforms allow different transform kinds in each\n transformed dimension.  For example,\n\u003c/p\u003e\u003cpre\u003e b = dftRRN [(0,DHT), (1,REDFT10), (2,RODFT11)] a\n\u003c/pre\u003e\u003cp\u003eis a Discrete Hartley Transform in dimension 0, a discrete cosine transform\n (DCT-2) in dimension 1, and distrete sine transform (DST-4) in dimension 2\n where the array \u003ccode\u003ea\u003c/code\u003e must have rank at least 3.\n\u003c/p\u003e\u003cp\u003eThe general interface is similar to the multi-dimensional interface, takes as\n its first argument, a bitwise \u003ccode\u003e.|.\u003c/code\u003e of planning \u003ccode\u003e\u003ca\u003eFlag\u003c/a\u003e\u003c/code\u003es.  (In the complex\n version, the sign of the transform is first.)  For example,\n\u003c/p\u003e\u003cpre\u003e b = dftG DFTBackward (patient .|. destroy_input) [1,2] a\n\u003c/pre\u003e\u003cp\u003eis an inverse DFT in dimensions 1 and 2 of the complex array \u003ccode\u003ea\u003c/code\u003e which has\n rank at least 3.  It will use the patient planner to generate a (near)\n optimal transform.  If you compute the same type of transform again, it\n should be very fast since the plan is cached.\n\u003c/p\u003e\u003cp\u003eInverse transforms are typically normalized.  The un-normalized inverse\n transforms are \u003ccode\u003e\u003ca\u003edftGU\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edftCRGU\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edftCROGU\u003c/a\u003e\u003c/code\u003e.  For example\n\u003c/p\u003e\u003cpre\u003e b = dftCROGU measure [0,1] a\n\u003c/pre\u003e\u003cp\u003eis an un-normalized inverse DFT in dimensions 0 and 1 of the complex array\n \u003ccode\u003ea\u003c/code\u003e (representing the non-negative frequencies, where the negative\n frequencies are conjugate) which has rank at least 2.  Here, dimension 1 is\n logically odd so if \u003ccode\u003ea\u003c/code\u003e has extent \u003ccode\u003en\u003c/code\u003e in dimension 1, then \u003ccode\u003eb\u003c/code\u003e will have\n extent \u003ccode\u003e(n - 1) * 2 + 1\u003c/code\u003e in dimension 1.  It is more common that the logical\n dimension is even, in which case we would use \u003ccode\u003e\u003ca\u003edftCRGU\u003c/a\u003e\u003c/code\u003e in which case \u003ccode\u003eb\u003c/code\u003e\n would have extent \u003ccode\u003e(n - 1) * 2\u003c/code\u003e in dimension \u003ccode\u003e1\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe FFTW library separates transforms into two steps.  First you compute a\n plan for a given transform, then you execute it.  Often the planning stage is\n quite time-consuming, but subsequent transforms of the same size and type\n will be extremely fast.  The planning phase actually computes transforms, so\n it overwrites its input array.  For many C codes, it is reasonable to re-use\n the same arrays to compute a given transform on different data.  This is not\n a very useful paradigm from Haskell.  Fortunately, FFTW caches its plans so\n if try to generate a new plan for a transform size which has already been\n planned, the planner will return immediately.  Unfortunately, it is not\n possible to consult the cache, so if a plan is cached, we may use more memory\n than is strictly necessary since we must allocate a work array which we\n expect to be overwritten during planning.  FFTW can export its cached plans\n to a string.  This is known as wisdom.  For high performance work, it is a\n good idea to compute plans of the sizes you are interested in, using\n aggressive options (i.e. \u003ccode\u003e\u003ca\u003epatient\u003c/a\u003e\u003c/code\u003e), use \u003ccode\u003e\u003ca\u003eexportWisdomString\u003c/a\u003e\u003c/code\u003e to get a string\n representing these plans, and write this to a file.  Then for production\n runs, you can read this in, then add it to the cache with\n \u003ccode\u003e\u003ca\u003eimportWisdomString\u003c/a\u003e\u003c/code\u003e.  Now you can use the \u003ccode\u003e\u003ca\u003eestimate\u003c/a\u003e\u003c/code\u003e planner so the Haskell\n bindings know that FFTW will not overwrite the input array, and you will\n still get a high quality transform (because it has wisdom).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT",
           "name": "FFT",
           "package": "fft",
@@ -3479,6 +3642,7 @@
         "index": {
           "description": "This module exposes an interface to FFTW the Fastest Fourier Transform in the West These bindings present several levels of interface All the higher level functions dft idft dftN are easily derived from the general functions dftG dftRCG Only the general functions let you specify planner flags The higher levels all set estimate so you should not have to wait through time consuming planning see below for more The simplest interface is the one-dimensional transforms If you supply multi-dimensional array these will only transform the first dimension These functions only take one argument the array to be transformed At the next level we have multi-dimensional transforms where you specify which dimensions to transform in and the array to transform For instance dftRCN is the real to complex transform in dimensions and of the array which must be at least rank The array will be complex valued with the same extent as in every dimension except If had extent in dimension then the will have extent div which consists of all non-negative frequency components in this dimension the negative frequencies are conjugate to the positive frequencies because of symmetry since is real valued The real to real transforms allow different transform kinds in each transformed dimension For example dftRRN DHT REDFT10 RODFT11 is Discrete Hartley Transform in dimension discrete cosine transform DCT-2 in dimension and distrete sine transform DST-4 in dimension where the array must have rank at least The general interface is similar to the multi-dimensional interface takes as its first argument bitwise of planning Flag In the complex version the sign of the transform is first For example dftG DFTBackward patient destroy input is an inverse DFT in dimensions and of the complex array which has rank at least It will use the patient planner to generate near optimal transform If you compute the same type of transform again it should be very fast since the plan is cached Inverse transforms are typically normalized The un-normalized inverse transforms are dftGU dftCRGU and dftCROGU For example dftCROGU measure is an un-normalized inverse DFT in dimensions and of the complex array representing the non-negative frequencies where the negative frequencies are conjugate which has rank at least Here dimension is logically odd so if has extent in dimension then will have extent in dimension It is more common that the logical dimension is even in which case we would use dftCRGU in which case would have extent in dimension The FFTW library separates transforms into two steps First you compute plan for given transform then you execute it Often the planning stage is quite time-consuming but subsequent transforms of the same size and type will be extremely fast The planning phase actually computes transforms so it overwrites its input array For many codes it is reasonable to re-use the same arrays to compute given transform on different data This is not very useful paradigm from Haskell Fortunately FFTW caches its plans so if try to generate new plan for transform size which has already been planned the planner will return immediately Unfortunately it is not possible to consult the cache so if plan is cached we may use more memory than is strictly necessary since we must allocate work array which we expect to be overwritten during planning FFTW can export its cached plans to string This is known as wisdom For high performance work it is good idea to compute plans of the sizes you are interested in using aggressive options i.e patient use exportWisdomString to get string representing these plans and write this to file Then for production runs you can read this in then add it to the cache with importWisdomString Now you can use the estimate planner so the Haskell bindings know that FFTW will not overwrite the input array and you will still get high quality transform because it has wisdom",
           "hierarchy": "Math FFT",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT",
           "name": "FFT",
           "package": "fft",
@@ -3493,6 +3657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal to Real transform kinds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT",
           "name": "Kind",
           "package": "fft",
@@ -3502,6 +3667,7 @@
         "index": {
           "description": "Real to Real transform kinds",
           "hierarchy": "Math FFT",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT",
           "name": "Kind",
           "package": "fft",
@@ -3516,6 +3682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine which direction of DFT to execute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:28 UTC 2014",
           "module": "Math.FFT",
           "name": "Sign",
           "package": "fft",
@@ -3525,6 +3692,7 @@
         "index": {
           "description": "Determine which direction of DFT to execute",
           "hierarchy": "Math FFT",
+          "indexed": "2014-03-11T18:08:28",
           "module": "Math.FFT",
           "name": "Sign",
           "package": "fft",

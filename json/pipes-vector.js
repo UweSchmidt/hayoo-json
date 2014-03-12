@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pipes-vector"
+        "phrase": "pipes-vector",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePipes for interfacing with \u003ca\u003eData.Vector\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eNote that this only provides functionality for building \u003ccode\u003eVectors\u003c/code\u003e\n    from Pipes; as \u003ccode\u003eVectors\u003c/code\u003e are \u003ccode\u003eFoldable\u003c/code\u003e the inverse can be\n    accomplished with \u003ca\u003ePipes.each\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:40 UTC 2014",
           "module": "Pipes.Vector",
           "name": "Vector",
           "package": "pipes-vector",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pipes for interfacing with Data.Vector Note that this only provides functionality for building Vectors from Pipes as Vectors are Foldable the inverse can be accomplished with Pipes.each",
           "hierarchy": "Pipes Vector",
+          "indexed": "2014-03-11T19:39:40",
           "module": "Pipes.Vector",
           "name": "Vector",
           "package": "pipes-vector",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:40 UTC 2014",
           "module": "Pipes.Vector",
           "name": "ToVector",
           "package": "pipes-vector",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Pipes Vector",
+          "indexed": "2014-03-11T19:39:40",
           "module": "Pipes.Vector",
           "name": "ToVector",
           "package": "pipes-vector",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:40 UTC 2014",
           "module": "Pipes.Vector",
           "name": "fromProducer",
           "package": "pipes-vector",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Pipes Vector",
+          "indexed": "2014-03-11T19:39:40",
           "module": "Pipes.Vector",
           "name": "fromProducer",
           "normalized": "Producer' a(ToVector b a c)d-\u003ec(b a)",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:40 UTC 2014",
           "module": "Pipes.Vector",
           "name": "runToVector",
           "package": "pipes-vector",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Pipes Vector",
+          "indexed": "2014-03-11T19:39:40",
           "module": "Pipes.Vector",
           "name": "runToVector",
           "normalized": "ToVector a b c d-\u003ec(a b)",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract and freeze the constructed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:40 UTC 2014",
           "module": "Pipes.Vector",
           "name": "runToVectorP",
           "package": "pipes-vector",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Extract and freeze the constructed vector",
           "hierarchy": "Pipes Vector",
+          "indexed": "2014-03-11T19:39:40",
           "module": "Pipes.Vector",
           "name": "runToVectorP",
           "normalized": "Proxy a b c d(ToVector e f g)h-\u003eProxy a b c d g(e f)",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume items from a Pipe and place them into a vector\n\u003c/p\u003e\u003cp\u003eFor efficient filling, the vector is grown geometrically up to a\n maximum chunk size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:40 UTC 2014",
           "module": "Pipes.Vector",
           "name": "toVector",
           "package": "pipes-vector",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Consume items from Pipe and place them into vector For efficient filling the vector is grown geometrically up to maximum chunk size",
           "hierarchy": "Pipes Vector",
+          "indexed": "2014-03-11T19:39:40",
           "module": "Pipes.Vector",
           "name": "toVector",
           "package": "pipes-vector",

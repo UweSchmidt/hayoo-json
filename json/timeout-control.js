@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "timeout-control"
+        "phrase": "timeout-control",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdd updatable timeout functionality to a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e transformer stack layered on \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:04 UTC 2014",
           "module": "System.Timeout.Control",
           "name": "Control",
           "package": "timeout-control",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Add updatable timeout functionality to Monad transformer stack layered on IO",
           "hierarchy": "System Timeout Control",
+          "indexed": "2014-03-11T20:23:04",
           "module": "System.Timeout.Control",
           "name": "Control",
           "package": "timeout-control",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA duration measured in microseconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:04 UTC 2014",
           "module": "System.Timeout.Control",
           "name": "Microseconds",
           "package": "timeout-control",
@@ -51,6 +54,7 @@
         "index": {
           "description": "duration measured in microseconds",
           "hierarchy": "System Timeout Control",
+          "indexed": "2014-03-11T20:23:04",
           "module": "System.Timeout.Control",
           "name": "Microseconds",
           "package": "timeout-control",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:04 UTC 2014",
           "module": "System.Timeout.Control",
           "name": "Timeout",
           "package": "timeout-control",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "System Timeout Control",
+          "indexed": "2014-03-11T20:23:04",
           "module": "System.Timeout.Control",
           "name": "Timeout",
           "package": "timeout-control",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:04 UTC 2014",
           "module": "System.Timeout.Control",
           "name": "TimeoutException",
           "package": "timeout-control",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System Timeout Control",
+          "indexed": "2014-03-11T20:23:04",
           "module": "System.Timeout.Control",
           "name": "TimeoutException",
           "package": "timeout-control",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:04 UTC 2014",
           "module": "System.Timeout.Control",
           "name": "Microseconds",
           "package": "timeout-control",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "System Timeout Control",
+          "indexed": "2014-03-11T20:23:04",
           "module": "System.Timeout.Control",
           "name": "Microseconds",
           "package": "timeout-control",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe system event manager was unavailable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:04 UTC 2014",
           "module": "System.Timeout.Control",
           "name": "MissingSystemEventManagerException",
           "package": "timeout-control",
@@ -139,6 +150,7 @@
         "index": {
           "description": "The system event manager was unavailable",
           "hierarchy": "System Timeout Control",
+          "indexed": "2014-03-11T20:23:04",
           "module": "System.Timeout.Control",
           "name": "MissingSystemEventManagerException",
           "package": "timeout-control",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA timeout occurred\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:04 UTC 2014",
           "module": "System.Timeout.Control",
           "name": "TimeoutException",
           "package": "timeout-control",
@@ -163,6 +176,7 @@
         "index": {
           "description": "timeout occurred",
           "hierarchy": "System Timeout Control",
+          "indexed": "2014-03-11T20:23:04",
           "module": "System.Timeout.Control",
           "name": "TimeoutException",
           "package": "timeout-control",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the timeout transformer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:04 UTC 2014",
           "module": "System.Timeout.Control",
           "name": "runTimeout",
           "package": "timeout-control",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Run the timeout transformer",
           "hierarchy": "System Timeout Control",
+          "indexed": "2014-03-11T20:23:04",
           "module": "System.Timeout.Control",
           "name": "runTimeout",
           "normalized": "Microseconds-\u003eTimeout a b-\u003ea(Either TimeoutException b)",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the timeout duration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:04 UTC 2014",
           "module": "System.Timeout.Control",
           "name": "updateTimeout",
           "package": "timeout-control",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Reset the timeout duration",
           "hierarchy": "System Timeout Control",
+          "indexed": "2014-03-11T20:23:04",
           "module": "System.Timeout.Control",
           "name": "updateTimeout",
           "normalized": "Microseconds-\u003eTimeout a()",

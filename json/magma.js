@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "magma"
+        "phrase": "magma",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "Magma",
           "package": "magma",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "Magma",
           "package": "magma",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "BinaryTree",
           "package": "magma",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "BinaryTree",
           "package": "magma",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "Magma",
           "package": "magma",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "Magma",
           "package": "magma",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "(\u003c\u003e)",
           "package": "magma",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "Leaf",
           "package": "magma",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "Leaf",
           "package": "magma",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "Node",
           "package": "magma",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "Node",
           "package": "magma",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_Leaf\u003c/a\u003e\u003c/code\u003e :: Prism' (\u003ccode\u003e\u003ca\u003eBinaryTree\u003c/a\u003e\u003c/code\u003e a) a\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "_Leaf",
           "package": "magma",
@@ -159,6 +172,7 @@
         "index": {
           "description": "Leaf Prism BinaryTree",
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "_Leaf",
           "normalized": "a b(c b)-\u003ea(BinaryTree b)(c(BinaryTree b))",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_Node\u003c/a\u003e\u003c/code\u003e :: Prism' (\u003ccode\u003e\u003ca\u003eBinaryTree\u003c/a\u003e\u003c/code\u003e a) (\u003ccode\u003e\u003ca\u003eBinaryTree\u003c/a\u003e\u003c/code\u003e a, \u003ccode\u003e\u003ca\u003eBinaryTree\u003c/a\u003e\u003c/code\u003e a)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "_Node",
           "package": "magma",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Node Prism BinaryTree BinaryTree BinaryTree",
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "_Node",
           "normalized": "a(BinaryTree b,BinaryTree b)(c(BinaryTree b,BinaryTree b))-\u003ea(BinaryTree b)(c(BinaryTree b))",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "anaBinaryTree",
           "package": "magma",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "anaBinaryTree",
           "normalized": "(a-\u003eEither b(a,a))-\u003ea-\u003eBinaryTree b",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "cataBinaryTree",
           "package": "magma",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "cataBinaryTree",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eb-\u003eb)-\u003eBinaryTree a-\u003eb",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "foldMap",
           "package": "magma",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "foldMap",
           "normalized": "(a-\u003eb)-\u003eBinaryTree a-\u003eb",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003enodeLeft\u003c/a\u003e\u003c/code\u003e :: Traversal' (\u003ccode\u003e\u003ca\u003eBinaryTree\u003c/a\u003e\u003c/code\u003e a) (\u003ccode\u003e\u003ca\u003eBinaryTree\u003c/a\u003e\u003c/code\u003e a)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "nodeLeft",
           "package": "magma",
@@ -283,6 +306,7 @@
         "index": {
           "description": "nodeLeft Traversal BinaryTree BinaryTree",
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "nodeLeft",
           "normalized": "(BinaryTree a-\u003eb(BinaryTree a))-\u003eBinaryTree a-\u003eb(BinaryTree a)",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003enodeRight\u003c/a\u003e\u003c/code\u003e :: Traversal' (\u003ccode\u003e\u003ca\u003eBinaryTree\u003c/a\u003e\u003c/code\u003e a) (\u003ccode\u003e\u003ca\u003eBinaryTree\u003c/a\u003e\u003c/code\u003e a)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:13:36 UTC 2014",
           "module": "Data.Magma",
           "name": "nodeRight",
           "package": "magma",
@@ -309,6 +334,7 @@
         "index": {
           "description": "nodeRight Traversal BinaryTree BinaryTree",
           "hierarchy": "Data Magma",
+          "indexed": "2014-03-11T19:13:36",
           "module": "Data.Magma",
           "name": "nodeRight",
           "normalized": "(BinaryTree a-\u003eb(BinaryTree a))-\u003eBinaryTree a-\u003eb(BinaryTree a)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happstack-util"
+        "phrase": "happstack-util",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.Base64",
           "name": "Base64",
           "package": "happstack-util",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto Base64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.Base64",
           "name": "Base64",
           "package": "happstack-util",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCut up a string into 72 char lines, each line terminated by CRLF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.Base64",
           "name": "chop72",
           "package": "happstack-util",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Cut up string into char lines each line terminated by CRLF",
           "hierarchy": "Happstack Crypto Base64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.Base64",
           "name": "chop72",
           "normalized": "String-\u003eString",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.Base64",
           "name": "decode",
           "package": "happstack-util",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto Base64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.Base64",
           "name": "decode",
           "normalized": "String-\u003eString",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.Base64",
           "name": "encode",
           "package": "happstack-util",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto Base64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.Base64",
           "name": "encode",
           "normalized": "String-\u003eString",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.DES",
           "name": "DES",
           "package": "happstack-util",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto DES",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.DES",
           "name": "DES",
           "package": "happstack-util",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.DES",
           "name": "Enc",
           "package": "happstack-util",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto DES",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.DES",
           "name": "Enc",
           "package": "happstack-util",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.DES",
           "name": "Message",
           "package": "happstack-util",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto DES",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.DES",
           "name": "Message",
           "package": "happstack-util",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.DES",
           "name": "des_dec",
           "package": "happstack-util",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto DES",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.DES",
           "name": "des_dec",
           "normalized": "Message-\u003eKey-\u003eEnc",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.DES",
           "name": "des_enc",
           "package": "happstack-util",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto DES",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.DES",
           "name": "des_enc",
           "normalized": "Message-\u003eKey-\u003eEnc",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.HMAC",
           "name": "HMAC",
           "package": "happstack-util",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto HMAC",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.HMAC",
           "name": "HMAC",
           "package": "happstack-util",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.HMAC",
           "name": "hmacSHA1",
           "package": "happstack-util",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto HMAC",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.HMAC",
           "name": "hmacSHA1",
           "normalized": "String-\u003eString-\u003eString",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.MD5",
           "name": "MD5",
           "package": "happstack-util",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto MD5",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.MD5",
           "name": "MD5",
           "package": "happstack-util",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.MD5",
           "name": "MD5Context",
           "package": "happstack-util",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto MD5",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.MD5",
           "name": "MD5Context",
           "package": "happstack-util",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.MD5",
           "name": "applyMD5Rounds",
           "package": "happstack-util",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto MD5",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.MD5",
           "name": "applyMD5Rounds",
           "normalized": "MD Partial-\u003eByteString-\u003eMD Partial",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWill read the lazy ByteString and return the md5 digest.\n   Some application might want to wrap this function for type safty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.MD5",
           "name": "md5",
           "package": "happstack-util",
@@ -341,6 +370,7 @@
         "index": {
           "description": "Will read the lazy ByteString and return the md5 digest Some application might want to wrap this function for type safty",
           "hierarchy": "Happstack Crypto MD5",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.MD5",
           "name": "md5",
           "normalized": "ByteString-\u003eByteString",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.MD5",
           "name": "md5File",
           "package": "happstack-util",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto MD5",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.MD5",
           "name": "md5File",
           "normalized": "String-\u003eIO()",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.MD5",
           "name": "md5Finalize",
           "package": "happstack-util",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto MD5",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.MD5",
           "name": "md5Finalize",
           "normalized": "MD Context-\u003eByteString",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.MD5",
           "name": "md5InitialContext",
           "package": "happstack-util",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto MD5",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.MD5",
           "name": "md5InitialContext",
           "package": "happstack-util",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.MD5",
           "name": "md5Update",
           "package": "happstack-util",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto MD5",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.MD5",
           "name": "md5Update",
           "normalized": "MD Context-\u003eByteString-\u003eMD Context",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.MD5",
           "name": "stringMD5",
           "package": "happstack-util",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto MD5",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.MD5",
           "name": "stringMD5",
           "normalized": "ByteString-\u003eString",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.MD5",
           "name": "test",
           "package": "happstack-util",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto MD5",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.MD5",
           "name": "test",
           "normalized": "IO()",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.SHA1",
           "name": "SHA1",
           "package": "happstack-util",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto SHA1",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.SHA1",
           "name": "SHA1",
           "package": "happstack-util",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.SHA1",
           "name": "sha1",
           "package": "happstack-util",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto SHA1",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.SHA1",
           "name": "sha1",
           "normalized": "String-\u003eString",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.SHA1",
           "name": "sha1Raw",
           "package": "happstack-util",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto SHA1",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.SHA1",
           "name": "sha1Raw",
           "normalized": "String-\u003eString",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.SHA1",
           "name": "sha1_size",
           "package": "happstack-util",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto SHA1",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.SHA1",
           "name": "sha1_size",
           "normalized": "a-\u003eString-\u003eString",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "W64",
           "package": "happstack-util",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "W64",
           "package": "happstack-util",
@@ -607,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "des_decrypt",
           "package": "happstack-util",
@@ -616,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "des_decrypt",
           "normalized": "String-\u003e[Message]-\u003e[a]",
@@ -630,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "des_encrypt",
           "package": "happstack-util",
@@ -639,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "des_encrypt",
           "normalized": "String-\u003eString-\u003e[Enc]",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "hexToW64",
           "package": "happstack-util",
@@ -662,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "hexToW64",
           "normalized": "String-\u003ea",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "is4Char",
           "package": "happstack-util",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "is4Char",
           "normalized": "[a]-\u003eBool",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "pad",
           "package": "happstack-util",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "pad",
           "normalized": "String-\u003eString",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "prop_DES",
           "package": "happstack-util",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "prop_DES",
           "normalized": "String-\u003eString-\u003eBool",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "prop_PadUnPad",
           "package": "happstack-util",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "prop_PadUnPad",
           "normalized": "String-\u003eBool",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "prop_stringW64",
           "package": "happstack-util",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "prop_stringW64",
           "normalized": "String-\u003eBool",
@@ -795,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "quadCharToW64",
           "package": "happstack-util",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "quadCharToW64",
           "normalized": "[a]-\u003eb",
@@ -819,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "stringToKey",
           "package": "happstack-util",
@@ -828,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "stringToKey",
           "normalized": "String-\u003ea",
@@ -843,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "stringToW64s",
           "package": "happstack-util",
@@ -852,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "stringToW64s",
           "normalized": "String-\u003e[a]",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "toQuadChars",
           "package": "happstack-util",
@@ -876,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "toQuadChars",
           "normalized": "[a]-\u003e[[a]]",
@@ -891,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "unpad",
           "package": "happstack-util",
@@ -900,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "unpad",
           "normalized": "[a]-\u003e[a]",
@@ -914,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "w64ToQuadChar",
           "package": "happstack-util",
@@ -923,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "w64ToQuadChar",
           "normalized": "a-\u003e[b]",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "w64ToQuadNum",
           "package": "happstack-util",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "w64ToQuadNum",
           "normalized": "a-\u003e[a]",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Crypto.W64",
           "name": "w64sToString",
           "package": "happstack-util",
@@ -971,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Happstack Crypto W64",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Crypto.W64",
           "name": "w64sToString",
           "normalized": "[Integer]-\u003e[a]",
@@ -986,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.AutoBuild",
           "name": "AutoBuild",
           "package": "happstack-util",
@@ -994,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util AutoBuild",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.AutoBuild",
           "name": "AutoBuild",
           "package": "happstack-util",
@@ -1008,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctionality for the autoBuild tool.\n   Inspired by searchpath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.AutoBuild",
           "name": "autoBuild",
           "package": "happstack-util",
@@ -1017,6 +1104,7 @@
         "index": {
           "description": "Functionality for the autoBuild tool Inspired by searchpath",
           "hierarchy": "Happstack Util AutoBuild",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.AutoBuild",
           "name": "autoBuild",
           "normalized": "String-\u003eString-\u003e[String]-\u003eIO()",
@@ -1033,6 +1121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompatiblity for ByteStrings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "ByteStringCompat",
           "package": "happstack-util",
@@ -1042,6 +1131,7 @@
         "index": {
           "description": "Compatiblity for ByteStrings",
           "hierarchy": "Happstack Util ByteStringCompat",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "ByteStringCompat",
           "package": "happstack-util",
@@ -1056,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSemantically equivalent to break on strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "breakChar",
           "package": "happstack-util",
@@ -1066,6 +1157,7 @@
         "index": {
           "description": "Semantically equivalent to break on strings",
           "hierarchy": "Happstack Util ByteStringCompat",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "breakChar",
           "normalized": "Char-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -1082,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebreakCharEnd\u003c/a\u003e\u003c/code\u003e behaves like breakChar, but from the end of the\n ByteString.\n\u003c/p\u003e\u003cpre\u003e breakCharEnd ('b') (pack \"aabbcc\") == (\"aab\",\"cc\")\n\u003c/pre\u003e\u003cp\u003eand the following are equivalent:\n\u003c/p\u003e\u003cpre\u003e breakCharEnd 'c' \"abcdef\"\n let (x,y) = break (=='c') (reverse \"abcdef\")\n in (reverse (drop 1 y), reverse x)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "breakCharEnd",
           "package": "happstack-util",
@@ -1092,6 +1185,7 @@
         "index": {
           "description": "breakCharEnd behaves like breakChar but from the end of the ByteString breakCharEnd pack aabbcc aab cc and the following are equivalent breakCharEnd abcdef let break reverse abcdef in reverse drop reverse",
           "hierarchy": "Happstack Util ByteStringCompat",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "breakCharEnd",
           "normalized": "Char-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -1108,6 +1202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrops leading spaces in the ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "dropSpace",
           "package": "happstack-util",
@@ -1118,6 +1213,7 @@
         "index": {
           "description": "Drops leading spaces in the ByteString",
           "hierarchy": "Happstack Util ByteStringCompat",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "dropSpace",
           "normalized": "ByteString-\u003eByteString",
@@ -1134,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrops trailing spaces in the ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "dropSpaceEnd",
           "package": "happstack-util",
@@ -1144,6 +1241,7 @@
         "index": {
           "description": "Drops trailing spaces in the ByteString",
           "hierarchy": "Happstack Util ByteStringCompat",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "dropSpaceEnd",
           "normalized": "ByteString-\u003eByteString",
@@ -1160,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChunk a lazy bytestring into reasonable chunks - is id from outside.\n   This is useful to make bytestring chunks reasonable sized for e.g.\n   compression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "rechunkLazy",
           "package": "happstack-util",
@@ -1170,6 +1269,7 @@
         "index": {
           "description": "Chunk lazy bytestring into reasonable chunks is id from outside This is useful to make bytestring chunks reasonable sized for e.g compression",
           "hierarchy": "Happstack Util ByteStringCompat",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.ByteStringCompat",
           "name": "rechunkLazy",
           "normalized": "ByteString-\u003eByteString",
@@ -1186,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious helper routines.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "Common",
           "package": "happstack-util",
@@ -1195,6 +1296,7 @@
         "index": {
           "description": "Various helper routines",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "Common",
           "package": "happstack-util",
@@ -1208,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "EpochSeconds",
           "package": "happstack-util",
@@ -1216,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "EpochSeconds",
           "package": "happstack-util",
@@ -1229,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "Seconds",
           "package": "happstack-util",
@@ -1237,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "Seconds",
           "package": "happstack-util",
@@ -1250,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "(.^)",
           "package": "happstack-util",
@@ -1259,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "(.^) .^",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -1274,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a bool into a MonadPlus, with False mapped to the mzero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "boolM",
           "package": "happstack-util",
@@ -1284,6 +1393,7 @@
         "index": {
           "description": "Lifts bool into MonadPlus with False mapped to the mzero",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "boolM",
           "normalized": "Bool-\u003ea Bool",
@@ -1299,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecomp f a b\u003c/code\u003e compares \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e after apply\n \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "comp",
           "package": "happstack-util",
@@ -1309,6 +1420,7 @@
         "index": {
           "description": "comp compares and after apply",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "comp",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eOrdering",
@@ -1324,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe tracing, outputs the message and the value to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "debug",
           "package": "happstack-util",
@@ -1334,6 +1447,7 @@
         "index": {
           "description": "Unsafe tracing outputs the message and the value to stderr",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "debug",
           "normalized": "String-\u003ea-\u003ea",
@@ -1349,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe tracing messages inside a monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "debugM",
           "package": "happstack-util",
@@ -1359,6 +1474,7 @@
         "index": {
           "description": "Unsafe tracing messages inside monad",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "debugM",
           "normalized": "String-\u003ea()",
@@ -1373,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "eSecsToCalTime",
           "package": "happstack-util",
@@ -1382,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "eSecsToCalTime",
           "normalized": "EpochSeconds-\u003eIO CalendarTime",
@@ -1397,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "epochPico",
           "package": "happstack-util",
@@ -1406,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "epochPico",
           "normalized": "CalendarTime-\u003eInteger",
@@ -1421,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "epochSeconds",
           "package": "happstack-util",
@@ -1430,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "epochSeconds",
           "normalized": "CalendarTime-\u003eEpochSeconds",
@@ -1446,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a line from the handle and echo to stdout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "hGetLn",
           "package": "happstack-util",
@@ -1456,6 +1579,7 @@
         "index": {
           "description": "Get line from the handle and echo to stdout",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "hGetLn",
           "normalized": "Handle-\u003eIO String",
@@ -1472,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a line into a handle followed by \u003ca\u003ern\u003c/a\u003e and echo to stdout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "hPutLine",
           "package": "happstack-util",
@@ -1482,6 +1607,7 @@
         "index": {
           "description": "Put line into handle followed by rn and echo to stdout",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "hPutLine",
           "normalized": "Handle-\u003eString-\u003eIO()",
@@ -1497,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "logMC",
           "package": "happstack-util",
@@ -1506,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "logMC",
           "normalized": "Priority-\u003eString-\u003eIO()",
@@ -1521,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "ltrim",
           "package": "happstack-util",
@@ -1530,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "ltrim",
           "normalized": "String-\u003eString",
@@ -1544,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "mapFst",
           "package": "happstack-util",
@@ -1553,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "mapFst",
           "normalized": "(a-\u003eb)-\u003e[(a,c)]-\u003e[(b,c)]",
@@ -1568,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "mapSnd",
           "package": "happstack-util",
@@ -1577,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "mapSnd",
           "normalized": "(a-\u003eb)-\u003e[(c,a)]-\u003e[(c,b)]",
@@ -1593,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert Maybe into an another monad.  This is a simple injection that calls\n fail when given a Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "maybeM",
           "package": "happstack-util",
@@ -1603,6 +1738,7 @@
         "index": {
           "description": "Convert Maybe into an another monad This is simple injection that calls fail when given Nothing",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "maybeM",
           "normalized": "Maybe a-\u003eb a",
@@ -1618,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead file with a default value if the file does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "mbReadFile",
           "package": "happstack-util",
@@ -1628,6 +1765,7 @@
         "index": {
           "description": "Read file with default value if the file does not exist",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "mbReadFile",
           "normalized": "a-\u003e(String-\u003ea)-\u003eFilePath-\u003eIO a",
@@ -1644,6 +1782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enotMb a b\u003c/code\u003e returns \u003ccode\u003eJust a\u003c/code\u003e if \u003ccode\u003eb\u003c/code\u003e is \u003ccode\u003eNothing\u003c/code\u003e and \u003ccode\u003eNothing\u003c/code\u003e if\n \u003ccode\u003eb\u003c/code\u003e is \u003ccode\u003eJust _\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "notMb",
           "package": "happstack-util",
@@ -1654,6 +1793,7 @@
         "index": {
           "description": "notMb returns Just if is Nothing and Nothing if is Just",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "notMb",
           "normalized": "a-\u003eMaybe a-\u003eMaybe a",
@@ -1670,6 +1810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of delays, in seconds, and an action to execute\n repeatedly.  The action is then executed repeatedly in a separate thread\n until the list has been consumed.  The first action takes place immediately.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "periodic",
           "package": "happstack-util",
@@ -1680,6 +1821,7 @@
         "index": {
           "description": "Takes list of delays in seconds and an action to execute repeatedly The action is then executed repeatedly in separate thread until the list has been consumed The first action takes place immediately",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "periodic",
           "normalized": "[Int]-\u003eIO()-\u003eIO ThreadId",
@@ -1695,6 +1837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eperiodic\u003c/a\u003e\u003c/code\u003e but runs in the same thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "periodic'",
           "package": "happstack-util",
@@ -1705,6 +1848,7 @@
         "index": {
           "description": "Similar to periodic but runs in the same thread",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "periodic'",
           "normalized": "[Int]-\u003eIO a-\u003eIO a",
@@ -1720,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in any monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "readM",
           "package": "happstack-util",
@@ -1730,6 +1875,7 @@
         "index": {
           "description": "Read in any monad",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "readM",
           "normalized": "String-\u003ea b",
@@ -1745,6 +1891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplies the list of functions to the provided argument \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "revmap",
           "package": "happstack-util",
@@ -1755,6 +1902,7 @@
         "index": {
           "description": "applies the list of functions to the provided argument",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "revmap",
           "normalized": "a-\u003e[a-\u003eb]-\u003e[b]",
@@ -1769,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "rtrim",
           "package": "happstack-util",
@@ -1778,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "rtrim",
           "normalized": "String-\u003eString",
@@ -1793,6 +1943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an external command. Upon failure print status\n   to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "runCommand",
           "package": "happstack-util",
@@ -1803,6 +1954,7 @@
         "index": {
           "description": "Run an external command Upon failure print status to stderr",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "runCommand",
           "normalized": "String-\u003e[String]-\u003eIO()",
@@ -1819,6 +1971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit is like break, but the matching element is dropped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "split",
           "package": "happstack-util",
@@ -1829,6 +1982,7 @@
         "index": {
           "description": "Split is like break but the matching element is dropped",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "split",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -1844,6 +1998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the whitespace surrounding a string as well\n as the first and last character.\n \u003ccode\u003eunBracket \u003ca\u003e  (asdf) \u003c/a\u003e = \u003ca\u003easdf\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eDrops the whitespace at the start of the string\n\u003c/p\u003e\u003cp\u003eDrops the whitespace at the end of the string\n\u003c/p\u003e\u003cp\u003eTrims the beginning and ending whitespace of a string\n\u003c/p\u003e\u003cp\u003eRepeadly splits a list by the provided separator and collects the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "splitList",
           "package": "happstack-util",
@@ -1854,6 +2009,7 @@
         "index": {
           "description": "Removes the whitespace surrounding string as well as the first and last character unBracket asdf asdf Drops the whitespace at the start of the string Drops the whitespace at the end of the string Trims the beginning and ending whitespace of string Repeadly splits list by the provided separator and collects the results",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "splitList",
           "normalized": "a-\u003e[a]-\u003e[[a]]",
@@ -1870,6 +2026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeatedly splits a list and collects the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "splitListBy",
           "package": "happstack-util",
@@ -1880,6 +2037,7 @@
         "index": {
           "description": "Repeatedly splits list and collects the results",
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "splitListBy",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -1895,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "trim",
           "package": "happstack-util",
@@ -1904,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "trim",
           "normalized": "String-\u003eString",
@@ -1918,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Common",
           "name": "unBracket",
           "package": "happstack-util",
@@ -1927,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Common",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Common",
           "name": "unBracket",
           "normalized": "String-\u003eString",
@@ -1942,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "Concurrent",
           "package": "happstack-util",
@@ -1950,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "Concurrent",
           "package": "happstack-util",
@@ -1964,6 +2128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of forever that will gracefully catch IO exceptions and continue\n executing the provided action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "forever",
           "package": "happstack-util",
@@ -1974,6 +2139,7 @@
         "index": {
           "description": "version of forever that will gracefully catch IO exceptions and continue executing the provided action",
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "forever",
           "normalized": "IO a-\u003eIO a",
@@ -1989,6 +2155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to forever but with an explicit state parameter threaded through\n the computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "foreverSt",
           "package": "happstack-util",
@@ -1999,6 +2166,7 @@
         "index": {
           "description": "Similar to forever but with an explicit state parameter threaded through the computation",
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "foreverSt",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb c",
@@ -2015,6 +2183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork a new thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "fork",
           "package": "happstack-util",
@@ -2025,6 +2194,7 @@
         "index": {
           "description": "Fork new thread",
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "fork",
           "normalized": "IO a-\u003eIO ThreadId",
@@ -2040,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to a composition of fork and forever\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "forkEver",
           "package": "happstack-util",
@@ -2050,6 +2221,7 @@
         "index": {
           "description": "Equivalent to composition of fork and forever",
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "forkEver",
           "normalized": "IO a-\u003eIO ThreadId",
@@ -2066,6 +2238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to a composition of fork and foreverSt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "forkEverSt",
           "package": "happstack-util",
@@ -2076,6 +2249,7 @@
         "index": {
           "description": "Equivalent to composition of fork and foreverSt",
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "forkEverSt",
           "normalized": "(a-\u003eIO a)-\u003ea-\u003eIO ThreadId",
@@ -2092,6 +2266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork that throws away the ThreadId\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "fork_",
           "package": "happstack-util",
@@ -2102,6 +2277,7 @@
         "index": {
           "description": "Fork that throws away the ThreadId",
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "fork_",
           "normalized": "IO a-\u003eIO()",
@@ -2117,6 +2293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister an action to be run when ghci is restarted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "registerResetAction",
           "package": "happstack-util",
@@ -2127,6 +2304,7 @@
         "index": {
           "description": "Register an action to be run when ghci is restarted",
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "registerResetAction",
           "normalized": "IO()-\u003eIO()",
@@ -2143,6 +2321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "reset",
           "package": "happstack-util",
@@ -2153,6 +2332,7 @@
         "index": {
           "description": "Reset state",
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "reset",
           "normalized": "IO()",
@@ -2168,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep N seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "sleep",
           "package": "happstack-util",
@@ -2178,6 +2359,7 @@
         "index": {
           "description": "Sleep seconds",
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "sleep",
           "normalized": "Int-\u003eIO()",
@@ -2193,6 +2375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts the argument with Left before writing it into the chan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "writeChanLeft",
           "package": "happstack-util",
@@ -2203,6 +2386,7 @@
         "index": {
           "description": "Lifts the argument with Left before writing it into the chan",
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "writeChanLeft",
           "normalized": "Chan(Either a b)-\u003ea-\u003eIO()",
@@ -2219,6 +2403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts the argument with Right before writing it into the chan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Concurrent",
           "name": "writeChanRight",
           "package": "happstack-util",
@@ -2229,6 +2414,7 @@
         "index": {
           "description": "Lifts the argument with Right before writing it into the chan",
           "hierarchy": "Happstack Util Concurrent",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Concurrent",
           "name": "writeChanRight",
           "normalized": "Chan(Either a b)-\u003eb-\u003eIO()",
@@ -2244,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Cron",
           "name": "Cron",
           "package": "happstack-util",
@@ -2252,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Cron",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Cron",
           "name": "Cron",
           "package": "happstack-util",
@@ -2266,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an action f and a number of seconds t, cron will execute\n f every t seconds with the first execution t seconds after cron is called.\n cron does not spawn a new thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Cron",
           "name": "cron",
           "package": "happstack-util",
@@ -2276,6 +2465,7 @@
         "index": {
           "description": "Given an action and number of seconds cron will execute every seconds with the first execution seconds after cron is called cron does not spawn new thread",
           "hierarchy": "Happstack Util Cron",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Cron",
           "name": "cron",
           "normalized": "Seconds-\u003eIO()-\u003eIO a",
@@ -2290,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Daemonize",
           "name": "Daemonize",
           "package": "happstack-util",
@@ -2298,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Daemonize",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Daemonize",
           "name": "Daemonize",
           "package": "happstack-util",
@@ -2311,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Daemonize",
           "name": "daemonize",
           "package": "happstack-util",
@@ -2320,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Daemonize",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Daemonize",
           "name": "daemonize",
           "normalized": "FilePath-\u003eIO a-\u003eIO a",
@@ -2334,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.Daemonize",
           "name": "getDaemonizedId",
           "package": "happstack-util",
@@ -2343,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util Daemonize",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.Daemonize",
           "name": "getDaemonizedId",
           "package": "happstack-util",
@@ -2356,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.FileManip",
           "name": "FileManip",
           "package": "happstack-util",
@@ -2364,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util FileManip",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.FileManip",
           "name": "FileManip",
           "package": "happstack-util",
@@ -2378,6 +2576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnconditionally return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.FileManip",
           "name": "always",
           "package": "happstack-util",
@@ -2388,6 +2587,7 @@
         "index": {
           "description": "Unconditionally return True",
           "hierarchy": "Happstack Util FileManip",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.FileManip",
           "name": "always",
           "package": "happstack-util",
@@ -2401,6 +2601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch a directory recursively, with recursion controlled by a\n \u003ccode\u003eRecursionPredicate\u003c/code\u003e.  Lazily return a sorted list of all files\n matching the given \u003ccode\u003eFilterPredicate\u003c/code\u003e.  Any errors that occur are\n ignored, with warnings printed to \u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.FileManip",
           "name": "find",
           "package": "happstack-util",
@@ -2410,6 +2611,7 @@
         "index": {
           "description": "Search directory recursively with recursion controlled by RecursionPredicate Lazily return sorted list of all files matching the given FilterPredicate Any errors that occur are ignored with warnings printed to stderr",
           "hierarchy": "Happstack Util FileManip",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.FileManip",
           "name": "find",
           "normalized": "RecursionPredicate-\u003eFilterPredicate-\u003eFilePath-\u003eIO[FilePath]",
@@ -2424,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.HostAddress",
           "name": "HostAddress",
           "package": "happstack-util",
@@ -2432,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util HostAddress",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.HostAddress",
           "name": "HostAddress",
           "package": "happstack-util",
@@ -2445,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.HostAddress",
           "name": "HostAddress",
           "package": "happstack-util",
@@ -2453,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util HostAddress",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.HostAddress",
           "name": "HostAddress",
           "package": "happstack-util",
@@ -2466,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.HostAddress",
           "name": "HostAddress6",
           "package": "happstack-util",
@@ -2474,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util HostAddress",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.HostAddress",
           "name": "HostAddress6",
           "package": "happstack-util",
@@ -2488,6 +2696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a HostAddress to a String in dot-decimal notation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.HostAddress",
           "name": "showHostAddress",
           "package": "happstack-util",
@@ -2498,6 +2707,7 @@
         "index": {
           "description": "Converts HostAddress to String in dot-decimal notation",
           "hierarchy": "Happstack Util HostAddress",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.HostAddress",
           "name": "showHostAddress",
           "normalized": "HostAddress-\u003eString",
@@ -2514,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a IPv6 HostAddress6 to standard hex notation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.HostAddress",
           "name": "showHostAddress6",
           "package": "happstack-util",
@@ -2524,6 +2735,7 @@
         "index": {
           "description": "Converts IPv6 HostAddress6 to standard hex notation",
           "hierarchy": "Happstack Util HostAddress",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.HostAddress",
           "name": "showHostAddress6",
           "normalized": "HostAddress-\u003eString",
@@ -2539,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.LogFormat",
           "name": "LogFormat",
           "package": "happstack-util",
@@ -2547,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util LogFormat",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.LogFormat",
           "name": "LogFormat",
           "package": "happstack-util",
@@ -2561,6 +2775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat the request as describe in the Apache combined log format.\n   http:\u003cem/\u003ehttpd.apache.org\u003cem\u003edocs\u003c/em\u003e2.2/logs.html#combined\n\u003c/p\u003e\u003cp\u003eThe format is: \u003ca\u003e%h - %u %t \"%r\" %\u003es %b \"%{Referer}i\" \"%{User-agent}i\"\u003c/a\u003e\n %h:            This is the IP address of the client (remote host) which made the request to the server.\n %u:            This is the userid of the person requesting the document as determined by HTTP authentication.\n %t:            The time that the request was received.\n %r:            The request line from the client is given in double quotes.\n %\u003es:           This is the status code that the server sends back to the client.\n %b:            The last part indicates the size of the object returned to the client, not including the response headers.\n %{Referer}:    The \u003ca\u003eReferer\u003c/a\u003e (sic) HTTP request header.\n %{User-agent}: The User-Agent HTTP request header. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.LogFormat",
           "name": "formatRequestCombined",
           "package": "happstack-util",
@@ -2571,6 +2786,7 @@
         "index": {
           "description": "Format the request as describe in the Apache combined log format http httpd.apache.org docs logs.html combined The format is Referer User-agent This is the IP address of the client remote host which made the request to the server This is the userid of the person requesting the document as determined by HTTP authentication The time that the request was received The request line from the client is given in double quotes This is the status code that the server sends back to the client The last part indicates the size of the object returned to the client not including the response headers Referer The Referer sic HTTP request header User-agent The User-Agent HTTP request header",
           "hierarchy": "Happstack Util LogFormat",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.LogFormat",
           "name": "formatRequestCombined",
           "normalized": "String-\u003eString-\u003ea-\u003eString-\u003eInt-\u003eInteger-\u003eString-\u003eString-\u003eString",
@@ -2587,6 +2803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat the time as describe in the Apache combined log format.\n   http:\u003cem/\u003ehttpd.apache.org\u003cem\u003edocs\u003c/em\u003e2.2/logs.html#combined\n\u003c/p\u003e\u003cp\u003eThe format is:\n   [day\u003cem\u003emonth\u003c/em\u003eyear:hour:minute:second zone]\n    day = 2*digit\n    month = 3*letter\n    year = 4*digit\n    hour = 2*digit\n    minute = 2*digit\n    second = 2*digit\n    zone = (\u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e | \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e) 4*digit \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.LogFormat",
           "name": "formatTimeCombined",
           "package": "happstack-util",
@@ -2597,6 +2814,7 @@
         "index": {
           "description": "Format the time as describe in the Apache combined log format http httpd.apache.org docs logs.html combined The format is day month year hour minute second zone day digit month letter year digit hour digit minute digit second digit zone digit",
           "hierarchy": "Happstack Util LogFormat",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.LogFormat",
           "name": "formatTimeCombined",
           "normalized": "a-\u003eString",
@@ -2613,6 +2831,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCross platform way to open a file exclusively\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.OpenExclusively",
           "name": "OpenExclusively",
           "package": "happstack-util",
@@ -2622,6 +2841,7 @@
         "index": {
           "description": "Cross platform way to open file exclusively",
           "hierarchy": "Happstack Util OpenExclusively",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.OpenExclusively",
           "name": "OpenExclusively",
           "package": "happstack-util",
@@ -2635,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.OpenExclusively",
           "name": "openExclusively",
           "package": "happstack-util",
@@ -2644,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util OpenExclusively",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.OpenExclusively",
           "name": "openExclusively",
           "normalized": "FilePath-\u003eIO Handle",
@@ -2659,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.TH",
           "name": "TH",
           "package": "happstack-util",
@@ -2667,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "Happstack Util TH",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.TH",
           "name": "TH",
           "package": "happstack-util",
@@ -2681,6 +2905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003einstanceD\u003c/a\u003e\u003c/code\u003e that takes in a Q [Dec] instead of a [Q Dec]\n and filters out signatures from the list of declarations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.TH",
           "name": "instanceD'",
           "package": "happstack-util",
@@ -2691,6 +2916,7 @@
         "index": {
           "description": "Version of instanceD that takes in Dec instead of Dec and filters out signatures from the list of declarations",
           "hierarchy": "Happstack Util TH",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.TH",
           "name": "instanceD'",
           "normalized": "CxtQ-\u003eTypeQ-\u003eQ[Dec]-\u003eDecQ",
@@ -2707,6 +2933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the Dec matches a SigD constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:17 UTC 2014",
           "module": "Happstack.Util.TH",
           "name": "isSigD",
           "package": "happstack-util",
@@ -2717,6 +2944,7 @@
         "index": {
           "description": "Returns true if the Dec matches SigD constructor",
           "hierarchy": "Happstack Util TH",
+          "indexed": "2014-03-11T18:29:17",
           "module": "Happstack.Util.TH",
           "name": "isSigD",
           "normalized": "Dec-\u003eBool",

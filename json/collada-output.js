@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "collada-output"
+        "phrase": "collada-output",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.Animations",
           "name": "Animations",
           "package": "collada-output",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Animations",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.Animations",
           "name": "Animations",
           "package": "collada-output",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.Animations",
           "name": "animations",
           "package": "collada-output",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Animations",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.Animations",
           "name": "animations",
           "normalized": "(SID,AnimChannel)-\u003eElement",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.Animations",
           "name": "attr",
           "package": "collada-output",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Animations",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.Animations",
           "name": "attr",
           "normalized": "String-\u003eString-\u003eElement-\u003eElement",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.Animations",
           "name": "collada_array",
           "package": "collada-output",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Animations",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.Animations",
           "name": "collada_array",
           "normalized": "[a]-\u003e[Char]",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.Animations",
           "name": "library_animations",
           "package": "collada-output",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada Animations",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.Animations",
           "name": "library_animations",
           "normalized": "[(SID,AnimChannel)]-\u003e[Element]",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "GenerateCollada",
           "package": "collada-output",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "GenerateCollada",
           "package": "collada-output",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "Normal",
           "package": "collada-output",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "Normal",
           "package": "collada-output",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "Point",
           "package": "collada-output",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "Point",
           "package": "collada-output",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "VI",
           "package": "collada-output",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "VI",
           "package": "collada-output",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic structure of a Collada file, contains library_... nodes, where library_s are used for referencing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "basicFrame",
           "package": "collada-output",
@@ -226,6 +245,7 @@
         "index": {
           "description": "The basic structure of Collada file contains library nodes where library are used for referencing",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "basicFrame",
           "normalized": "Element-\u003eScene-\u003e[Animation]-\u003eElement",
@@ -242,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elibrary_cameras\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "cam",
           "package": "collada-output",
@@ -252,6 +273,7 @@
         "index": {
           "description": "library cameras",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "cam",
           "normalized": "SceneNode-\u003e[Element]",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerpective projection: see \u003ca\u003ehttp://en.wikipedia.org/wiki/Viewing_frustum\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "cam2",
           "package": "collada-output",
@@ -277,6 +300,7 @@
         "index": {
           "description": "Perpective projection see http en.wikipedia.org wiki Viewing frustum",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "cam2",
           "normalized": "Camera-\u003eElement",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "colorNodes",
           "package": "collada-output",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "colorNodes",
           "normalized": "Fx_common_color_type-\u003eElement",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elibrary_effects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "eff",
           "package": "collada-output",
@@ -326,6 +353,7 @@
         "index": {
           "description": "library effects",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "eff",
           "normalized": "[SceneNode]-\u003e[Element]",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "effects",
           "package": "collada-output",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "effects",
           "normalized": "(SID,Effect)-\u003eElement",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract cameras from SceneNodes and remove duplicates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "extract_cameras",
           "package": "collada-output",
@@ -374,6 +405,7 @@
         "index": {
           "description": "Extract cameras from SceneNodes and remove duplicates",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "extract_cameras",
           "normalized": "[SceneNode]-\u003e[SceneNode]",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract geometries from SceneNodes and remove duplicates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "extract_geometries",
           "package": "collada-output",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Extract geometries from SceneNodes and remove duplicates",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "extract_geometries",
           "normalized": "[SceneNode]-\u003e[SceneNode]",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract lights from SceneNodes and remove duplicates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "extract_lights",
           "package": "collada-output",
@@ -424,6 +459,7 @@
         "index": {
           "description": "Extract lights from SceneNodes and remove duplicates",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "extract_lights",
           "normalized": "[SceneNode]-\u003e[SceneNode]",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "gCollada",
           "package": "collada-output",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "gCollada",
           "normalized": "Element-\u003eScene-\u003e[Animation]-\u003eIO()",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "genCollada",
           "package": "collada-output",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "genCollada",
           "normalized": "Scene-\u003e[Animation]-\u003eIO()",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elibrary_geometries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "geo",
           "package": "collada-output",
@@ -497,6 +538,7 @@
         "index": {
           "description": "library geometries",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "geo",
           "normalized": "[SceneNode]-\u003e[Element]",
@@ -511,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "getGeometries",
           "package": "collada-output",
@@ -520,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "getGeometries",
           "normalized": "SceneNode-\u003e[Geometry]",
@@ -535,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "getMaterials",
           "package": "collada-output",
@@ -544,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "getMaterials",
           "normalized": "Mesh-\u003e[Material]",
@@ -559,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "getMeshes",
           "package": "collada-output",
@@ -568,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "getMeshes",
           "normalized": "Geometry-\u003e[Mesh]",
@@ -583,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "hasTextures",
           "package": "collada-output",
@@ -592,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "hasTextures",
           "normalized": "(SID,Profile)-\u003e[Bool]",
@@ -608,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elibrary_images\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "im",
           "package": "collada-output",
@@ -618,6 +669,7 @@
         "index": {
           "description": "library images",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "im",
           "normalized": "[SceneNode]-\u003e[Element]",
@@ -632,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "instances",
           "package": "collada-output",
@@ -641,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "instances",
           "normalized": "String-\u003eString-\u003eElement",
@@ -655,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "instances_geo",
           "package": "collada-output",
@@ -664,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "instances_geo",
           "normalized": "String-\u003eGeometry-\u003eElement",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "interl",
           "package": "collada-output",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "interl",
           "normalized": "Int-\u003e[Int]",
@@ -701,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "interleave",
           "package": "collada-output",
@@ -710,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "interleave",
           "normalized": "VI-\u003eVI-\u003eString",
@@ -724,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "interleave3",
           "package": "collada-output",
@@ -733,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "interleave3",
           "normalized": "VI-\u003eVI-\u003eVI-\u003eString",
@@ -748,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elibrary_lights\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "light",
           "package": "collada-output",
@@ -758,6 +821,7 @@
         "index": {
           "description": "library lights",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "light",
           "normalized": "SceneNode-\u003e[Element]",
@@ -772,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "light2",
           "package": "collada-output",
@@ -781,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "light2",
           "normalized": "Light-\u003eElement",
@@ -796,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elibrary_materials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "mat",
           "package": "collada-output",
@@ -806,6 +873,7 @@
         "index": {
           "description": "library materials",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "mat",
           "normalized": "[SceneNode]-\u003e[Element]",
@@ -820,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "material",
           "package": "collada-output",
@@ -829,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "material",
           "normalized": "VI-\u003eVI-\u003eVI-\u003eString-\u003eString-\u003eString-\u003e(SID,Profile)-\u003e[Element]",
@@ -843,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "mesh_element",
           "package": "collada-output",
@@ -852,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "mesh_element",
           "normalized": "Int-\u003eGeometry-\u003eElement",
@@ -866,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "primitives",
           "package": "collada-output",
@@ -875,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "primitives",
           "normalized": "String-\u003eString-\u003eVector V-\u003eVector V-\u003eMesh-\u003e[Element]",
@@ -889,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "primitivesSources",
           "package": "collada-output",
@@ -898,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "primitivesSources",
           "normalized": "String-\u003eString-\u003eVector V-\u003eVector V-\u003eMesh-\u003e[Element]",
@@ -914,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument information: author, time created ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "standardAsset",
           "package": "collada-output",
@@ -924,6 +1001,7 @@
         "index": {
           "description": "Document information author time created",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "standardAsset",
           "normalized": "String-\u003eString-\u003eElement",
@@ -939,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "tex_ar",
           "package": "collada-output",
@@ -948,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "tex_ar",
           "normalized": "VI-\u003eVI-\u003eVI-\u003eString-\u003eString-\u003eString-\u003e(SID,Profile)-\u003e[Element]",
@@ -963,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime according to iso 8601\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "time8601",
           "package": "collada-output",
@@ -973,6 +1054,7 @@
         "index": {
           "description": "Time according to iso",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "time8601",
           "normalized": "UTCTime-\u003eIO String",
@@ -987,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "transf",
           "package": "collada-output",
@@ -996,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "transf",
           "normalized": "(SID,Transform)-\u003e[Element]",
@@ -1010,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "treeToNodes",
           "package": "collada-output",
@@ -1019,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "treeToNodes",
           "normalized": "Scene-\u003eElement",
@@ -1034,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "triple_serialize",
           "package": "collada-output",
@@ -1043,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "triple_serialize",
           "normalized": "Vector V-\u003e[Float]",
@@ -1057,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "ttn",
           "package": "collada-output",
@@ -1066,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "ttn",
           "normalized": "String-\u003e[(ID,Transform)]-\u003e[Camera]-\u003e[Geometry]-\u003e[Light]-\u003e[Element]",
@@ -1081,6 +1171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elibrary_visual_scenes: Nested nodes with references to cameras, lights, geometries, ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:43 UTC 2014",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "visual_scene",
           "package": "collada-output",
@@ -1091,6 +1182,7 @@
         "index": {
           "description": "library visual scenes Nested nodes with references to cameras lights geometries",
           "hierarchy": "Graphics Formats Collada GenerateCollada",
+          "indexed": "2014-03-11T17:35:43",
           "module": "Graphics.Formats.Collada.GenerateCollada",
           "name": "visual_scene",
           "normalized": "Scene-\u003eElement",

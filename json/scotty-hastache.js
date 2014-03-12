@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scotty-hastache"
+        "phrase": "scotty-hastache",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHastache templating for Scotty\n\u003c/p\u003e\u003cpre\u003e\n{-# LANGUAGE OverloadedStrings #-}\nmodule Main where\n\nimport Text.Hastache\nimport Web.Scotty.Trans as S\nimport Web.Scotty.Hastache\n\nmain :: IO ()\nmain = scottyH' 3000 $ do\n  setTemplatesDir \"templates\"\n  -- ^ Setting up the director with templates\n  get \"/:word\" $ do\n    beam \u003c- param \"word\"\n    setH \"action\" $ MuVariable (beam :: String)\n    -- ^ \"action\" will be binded to the contents of 'beam'\n    hastache \"greet.html\"\n\u003c/pre\u003e\u003cp\u003eGiven the following template:\n\u003c/p\u003e\u003cpre\u003e\n\u003ch1\u003eScotty, {{action}} me up!\u003c/h1\u003e\n\u003c/pre\u003e\u003cp\u003eUpon the \u003ccode\u003eGET /beam\u003c/code\u003e the result will be:\n\u003c/p\u003e\u003cpre\u003e\n\u003ch1\u003eScotty, beam me up!\u003c/h1\u003e\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "Hastache",
           "package": "scotty-hastache",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Hastache templating for Scotty LANGUAGE OverloadedStrings module Main where import Text.Hastache import Web.Scotty.Trans as import Web.Scotty.Hastache main IO main scottyH do setTemplatesDir templates Setting up the director with templates get word do beam param word setH action MuVariable beam String action will be binded to the contents of beam hastache greet.html Given the following template h1 Scotty action me up h1 Upon the GET beam the result will be h1 Scotty beam me up h1",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "Hastache",
           "package": "scotty-hastache",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym for \u003ccode\u003eScottyT e HState\u003c/code\u003e; with custom exception types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "ActionH",
           "package": "scotty-hastache",
@@ -51,6 +54,7 @@
         "index": {
           "description": "type synonym for ScottyT HState with custom exception types",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "ActionH",
           "package": "scotty-hastache",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "ActionH'",
           "package": "scotty-hastache",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "ActionH'",
           "package": "scotty-hastache",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState with the Hastache config\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "HState",
           "package": "scotty-hastache",
@@ -95,6 +102,7 @@
         "index": {
           "description": "State with the Hastache config",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "HState",
           "package": "scotty-hastache",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym for \u003ccode\u003eScottyT e HState\u003c/code\u003e; with custom exception types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "ScottyH",
           "package": "scotty-hastache",
@@ -118,6 +127,7 @@
         "index": {
           "description": "type synonym for ScottyT HState with custom exception types",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "ScottyH",
           "package": "scotty-hastache",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "ScottyH'",
           "package": "scotty-hastache",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "ScottyH'",
           "package": "scotty-hastache",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a function, just like \u003ccode\u003e\u003ca\u003ehtml\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e.\n It takes a name of the template (the path is computed using the \n information about the templates dir and template files extension) \n and renders it using Hastache.\n\u003c/p\u003e\u003cp\u003eThe variables that have been initialized using \u003ccode\u003e\u003ca\u003esetH\u003c/a\u003e\u003c/code\u003e are \n substituted for their values, uninitialized variables are \n considered to be empty/null.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "hastache",
           "package": "scotty-hastache",
@@ -163,6 +176,7 @@
         "index": {
           "description": "This is function just like html or text It takes name of the template the path is computed using the information about the templates dir and template files extension and renders it using Hastache The variables that have been initialized using setH are substituted for their values uninitialized variables are considered to be empty null",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "hastache",
           "normalized": "FilePath-\u003eActionH a()",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "mkHStateRunners",
           "package": "scotty-hastache",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "mkHStateRunners",
           "normalized": "MuConfig IO-\u003eIO(a b HState c-\u003eIO c,HState Response-\u003eIO Response)",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the Hastache configuration as whole\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "modifyHastacheConfig",
           "package": "scotty-hastache",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Modify the Hastache configuration as whole",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "modifyHastacheConfig",
           "normalized": "(MuConfig IO-\u003eMuConfig IO)-\u003eScottyH a()",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe runner to use instead of \u003ccode\u003escotty\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "scottyH",
           "package": "scotty-hastache",
@@ -238,6 +257,7 @@
         "index": {
           "description": "The runner to use instead of scotty",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "scottyH",
           "normalized": "Port-\u003eScottyH a()-\u003eIO()",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "scottyH'",
           "package": "scotty-hastache",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "scottyH'",
           "normalized": "Port-\u003eScottyH'()-\u003eIO()",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "scottyHApp",
           "package": "scotty-hastache",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "scottyHApp",
           "normalized": "MuConfig IO-\u003eScottyH a()-\u003eIO Application",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe runner to use instead of \u003ccode\u003escottyOpts\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "scottyHOpts",
           "package": "scotty-hastache",
@@ -311,6 +336,7 @@
         "index": {
           "description": "The runner to use instead of scottyOpts",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "scottyHOpts",
           "normalized": "Options-\u003eScottyH a()-\u003eIO()",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "scottyHOpts'",
           "package": "scotty-hastache",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "scottyHOpts'",
           "normalized": "Options-\u003eScottyH'()-\u003eIO()",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the value of a mustache variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "setH",
           "package": "scotty-hastache",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Set the value of mustache variable",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "setH",
           "normalized": "String-\u003eMuType IO-\u003eActionH a()",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the Hastache configuration as whole\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "setHastacheConfig",
           "package": "scotty-hastache",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Update the Hastache configuration as whole",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "setHastacheConfig",
           "normalized": "MuConfig IO-\u003eScottyH a()",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the default extension for template files. This affects\n how \u003cem\u003eboth\u003c/em\u003e \u003ccode\u003e\u003ca\u003ehastache\u003c/a\u003e\u003c/code\u003e and the \u003ccode\u003e{{\u003e template}}\u003c/code\u003e bit searches for the\n template files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "setTemplateFileExt",
           "package": "scotty-hastache",
@@ -412,6 +445,7 @@
         "index": {
           "description": "Set the default extension for template files This affects how both hastache and the template bit searches for the template files",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "setTemplateFileExt",
           "normalized": "String-\u003eScottyH a()",
@@ -428,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the path to the directory with templates. This affects\n how \u003cem\u003eboth\u003c/em\u003e \u003ccode\u003e\u003ca\u003ehastache\u003c/a\u003e\u003c/code\u003e and the \u003ccode\u003e{{\u003e template}}\u003c/code\u003e bit searches for the\n template files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:30 UTC 2014",
           "module": "Web.Scotty.Hastache",
           "name": "setTemplatesDir",
           "package": "scotty-hastache",
@@ -438,6 +473,7 @@
         "index": {
           "description": "Set the path to the directory with templates This affects how both hastache and the template bit searches for the template files",
           "hierarchy": "Web Scotty Hastache",
+          "indexed": "2014-03-11T19:58:30",
           "module": "Web.Scotty.Hastache",
           "name": "setTemplatesDir",
           "normalized": "FilePath-\u003eScottyH a()",

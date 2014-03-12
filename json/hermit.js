@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hermit"
+        "phrase": "hermit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "Context",
           "package": "hermit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "Context",
           "package": "hermit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "AbsolutePathH",
           "package": "hermit",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "AbsolutePathH",
           "package": "hermit",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of contexts that can have HERMIT bindings added to them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "AddBindings",
           "package": "hermit",
@@ -70,6 +75,7 @@
         "index": {
           "description": "class of contexts that can have HERMIT bindings added to them",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "AddBindings",
           "package": "hermit",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe depth of a binding.  Used, for example, to detect shadowing when inlining.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "BindingDepth",
           "package": "hermit",
@@ -93,6 +100,7 @@
         "index": {
           "description": "The depth of binding Used for example to detect shadowing when inlining",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "BindingDepth",
           "package": "hermit",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of contexts that stores the set of variables in scope that have been bound during the traversal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "BoundVars",
           "package": "hermit",
@@ -116,6 +125,7 @@
         "index": {
           "description": "class of contexts that stores the set of variables in scope that have been bound during the traversal",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "BoundVars",
           "package": "hermit",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of contexts that store GHC rewrite rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "HasCoreRules",
           "package": "hermit",
@@ -139,6 +150,7 @@
         "index": {
           "description": "class of contexts that store GHC rewrite rules",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "HasCoreRules",
           "package": "hermit",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of contexts that store the Global Reader Environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "HasGlobalRdrEnv",
           "package": "hermit",
@@ -162,6 +175,7 @@
         "index": {
           "description": "class of contexts that store the Global Reader Environment",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "HasGlobalRdrEnv",
           "package": "hermit",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "HermitBinding",
           "package": "hermit",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "HermitBinding",
           "package": "hermit",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHERMIT's representation of variable bindings.\n   Bound expressions cannot be inlined without checking for shadowing issues (using the depth information).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "HermitBindingSite",
           "package": "hermit",
@@ -206,6 +223,7 @@
         "index": {
           "description": "HERMIT representation of variable bindings Bound expressions cannot be inlined without checking for shadowing issues using the depth information",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "HermitBindingSite",
           "package": "hermit",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HERMIT context, containing all bindings in scope and the current location in the AST.\n   The bindings here are lazy by choice, so that we can avoid the cost\n   of building the context if we never use it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "HermitC",
           "package": "hermit",
@@ -229,6 +248,7 @@
         "index": {
           "description": "The HERMIT context containing all bindings in scope and the current location in the AST The bindings here are lazy by choice so that we can avoid the cost of building the context if we never use it",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "HermitC",
           "package": "hermit",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "LocalPathH",
           "package": "hermit",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "LocalPathH",
           "package": "hermit",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of contexts from which HERMIT bindings can be retrieved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "ReadBindings",
           "package": "hermit",
@@ -273,6 +296,7 @@
         "index": {
           "description": "class of contexts from which HERMIT bindings can be retrieved",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "ReadBindings",
           "package": "hermit",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable bound in a case alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "CASEALT",
           "package": "hermit",
@@ -297,6 +322,7 @@
         "index": {
           "description": "variable bound in case alternative",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "CASEALT",
           "package": "hermit",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA case wildcard binder.  We store both the scrutinised expression, and the case alternative \u003ccode\u003e\u003ca\u003eAltCon\u003c/a\u003e\u003c/code\u003e and variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "CASEWILD",
           "package": "hermit",
@@ -321,6 +348,7 @@
         "index": {
           "description": "case wildcard binder We store both the scrutinised expression and the case alternative AltCon and variables",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "CASEWILD",
           "normalized": "CASEWILD CoreExpr(AltCon,[Var])",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA universally quantified type variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "FORALL",
           "package": "hermit",
@@ -347,6 +376,7 @@
         "index": {
           "description": "universally quantified type variable",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "FORALL",
           "package": "hermit",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lambda-bound variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "LAM",
           "package": "hermit",
@@ -371,6 +402,7 @@
         "index": {
           "description": "lambda-bound variable",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "LAM",
           "package": "hermit",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA recursive binding that is mutually recursive with the binding under consideration (i.e. we're in another definition in the same recursive binding group.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "MUTUALREC",
           "package": "hermit",
@@ -395,6 +428,7 @@
         "index": {
           "description": "recursive binding that is mutually recursive with the binding under consideration i.e we re in another definition in the same recursive binding group",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "MUTUALREC",
           "package": "hermit",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA non-recursive binding of an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "NONREC",
           "package": "hermit",
@@ -419,6 +454,7 @@
         "index": {
           "description": "non-recursive binding of an expression",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "NONREC",
           "package": "hermit",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA recursive binding that does not depend on the current expression (i.e. we're not in the binding group of that binding).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "REC",
           "package": "hermit",
@@ -443,6 +480,7 @@
         "index": {
           "description": "recursive binding that does not depend on the current expression i.e we re not in the binding group of that binding",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "REC",
           "package": "hermit",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA recursive binding of a superexpression of the current node (i.e. we're in the RHS of that binding).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "SELFREC",
           "package": "hermit",
@@ -467,6 +506,7 @@
         "index": {
           "description": "recursive binding of superexpression of the current node i.e we re in the RHS of that binding",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "SELFREC",
           "package": "hermit",
@@ -481,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the variables bound by a \u003ccode\u003e\u003ca\u003eDataCon\u003c/a\u003e\u003c/code\u003e in a case.\n   They are all bound at the same depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "addAltBindings",
           "package": "hermit",
@@ -491,6 +532,7 @@
         "index": {
           "description": "Add the variables bound by DataCon in case They are all bound at the same depth",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "addAltBindings",
           "normalized": "[Var]-\u003ea-\u003ea",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd all bindings in a binding group to a context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "addBindingGroup",
           "package": "hermit",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Add all bindings in binding group to context",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "addBindingGroup",
           "normalized": "CoreBind-\u003ea-\u003ea",
@@ -533,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a wildcard binding for a specific case alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "addCaseWildBinding",
           "package": "hermit",
@@ -543,6 +588,7 @@
         "index": {
           "description": "Add wildcard binding for specific case alternative",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "addCaseWildBinding",
           "normalized": "(Id,CoreExpr,CoreAlt)-\u003ea-\u003ea",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the binding for a recursive definition currently under examination.\n   Note that because the expression may later be modified, the context only records the identifier, not the expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "addDefBinding",
           "package": "hermit",
@@ -569,6 +616,7 @@
         "index": {
           "description": "Add the binding for recursive definition currently under examination Note that because the expression may later be modified the context only records the identifier not the expression",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "addDefBinding",
           "normalized": "Id-\u003ea-\u003ea",
@@ -585,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a list of recursive bindings to the context, except the nth binding in the list.\n   The idea is to exclude the definition being descended into.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "addDefBindingsExcept",
           "package": "hermit",
@@ -595,6 +644,7 @@
         "index": {
           "description": "Add list of recursive bindings to the context except the nth binding in the list The idea is to exclude the definition being descended into",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "addDefBindingsExcept",
           "normalized": "Int-\u003e[(Id,CoreExpr)]-\u003ea-\u003ea",
@@ -611,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a universally quantified type variable to a context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "addForallBinding",
           "package": "hermit",
@@ -621,6 +672,7 @@
         "index": {
           "description": "Add universally quantified type variable to context",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "addForallBinding",
           "normalized": "TyVar-\u003ea-\u003ea",
@@ -637,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a complete set of parrallel bindings to the context.\n   (Parallel bindings occur in recursive let bindings and case alternatives.)\n   This can also be used for solitary bindings (e.g. lambdas).\n   Bindings are added in parallel sets to help with shadowing issues.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "addHermitBindings",
           "package": "hermit",
@@ -647,6 +700,7 @@
         "index": {
           "description": "Add complete set of parrallel bindings to the context Parallel bindings occur in recursive let bindings and case alternatives This can also be used for solitary bindings e.g lambdas Bindings are added in parallel sets to help with shadowing issues",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "addHermitBindings",
           "normalized": "[(Var,HermitBindingSite,AbsolutePathH)]-\u003ea-\u003ea",
@@ -663,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a lambda bound variable to a context.\n   All that is known is the variable, which may shadow something.\n   If so, we don't worry about that here, it is instead checked during inlining.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "addLambdaBinding",
           "package": "hermit",
@@ -673,6 +728,7 @@
         "index": {
           "description": "Add lambda bound variable to context All that is known is the variable which may shadow something If so we don worry about that here it is instead checked during inlining",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "addLambdaBinding",
           "normalized": "Var-\u003ea-\u003ea",
@@ -689,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a variable is bound in a context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "boundIn",
           "package": "hermit",
@@ -699,6 +756,7 @@
         "index": {
           "description": "Determine if variable is bound in context",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "boundIn",
           "normalized": "Var-\u003ea-\u003eBool",
@@ -714,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "boundVars",
           "package": "hermit",
@@ -723,6 +782,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "boundVars",
           "normalized": "a-\u003eVarSet",
@@ -739,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all variables bound in the context that match the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "findBoundVars",
           "package": "hermit",
@@ -749,6 +810,7 @@
         "index": {
           "description": "List all variables bound in the context that match the given name",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "findBoundVars",
           "normalized": "Name-\u003ea-\u003eVarSet",
@@ -764,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "hbDepth",
           "package": "hermit",
@@ -773,6 +836,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "hbDepth",
           "normalized": "HermitBinding-\u003eBindingDepth",
@@ -788,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "hbPath",
           "package": "hermit",
@@ -797,6 +862,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "hbPath",
           "normalized": "HermitBinding-\u003eAbsolutePathH",
@@ -812,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "hbSite",
           "package": "hermit",
@@ -821,6 +888,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "hbSite",
           "normalized": "HermitBinding-\u003eHermitBindingSite",
@@ -837,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the expression in a \u003ccode\u003e\u003ca\u003eHermitBinding\u003c/a\u003e\u003c/code\u003e, if there is one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "hermitBindingExpr",
           "package": "hermit",
@@ -847,6 +916,7 @@
         "index": {
           "description": "Retrieve the expression in HermitBinding if there is one",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "hermitBindingExpr",
           "normalized": "HermitBinding-\u003eKureM CoreExpr",
@@ -863,6 +933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the expression in a \u003ccode\u003e\u003ca\u003eHermitBindingSite\u003c/a\u003e\u003c/code\u003e, if there is one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "hermitBindingSiteExpr",
           "package": "hermit",
@@ -873,6 +944,7 @@
         "index": {
           "description": "Retrieve the expression in HermitBindingSite if there is one",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "hermitBindingSiteExpr",
           "normalized": "HermitBindingSite-\u003eKureM CoreExpr",
@@ -888,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "hermitBindingSummary",
           "package": "hermit",
@@ -897,6 +970,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "hermitBindingSummary",
           "normalized": "HermitBinding-\u003eString",
@@ -912,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "hermitBindings",
           "package": "hermit",
@@ -921,6 +996,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "hermitBindings",
           "normalized": "a-\u003eMap Var HermitBinding",
@@ -936,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "hermitCoreRules",
           "package": "hermit",
@@ -945,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "hermitCoreRules",
           "normalized": "a-\u003e[CoreRule]",
@@ -960,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "hermitDepth",
           "package": "hermit",
@@ -969,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "hermitDepth",
           "normalized": "a-\u003eBindingDepth",
@@ -984,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "hermitGlobalRdrEnv",
           "package": "hermit",
@@ -993,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "hermitGlobalRdrEnv",
           "normalized": "a-\u003eGlobalRdrEnv",
@@ -1009,6 +1091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the initial HERMIT \u003ccode\u003e\u003ca\u003eHermitC\u003c/a\u003e\u003c/code\u003e by providing a \u003ccode\u003e\u003ca\u003eModGuts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "initHermitC",
           "package": "hermit",
@@ -1019,6 +1102,7 @@
         "index": {
           "description": "Create the initial HERMIT HermitC by providing ModGuts",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "initHermitC",
           "normalized": "ModGuts-\u003eHermitC",
@@ -1035,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the binding for a variable in a context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "lookupHermitBinding",
           "package": "hermit",
@@ -1045,6 +1130,7 @@
         "index": {
           "description": "Lookup the binding for variable in context",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "lookupHermitBinding",
           "normalized": "Var-\u003ea-\u003eb HermitBinding",
@@ -1061,6 +1147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the depth of a variable's binding in a context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "lookupHermitBindingDepth",
           "package": "hermit",
@@ -1071,6 +1158,7 @@
         "index": {
           "description": "Lookup the depth of variable binding in context",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "lookupHermitBindingDepth",
           "normalized": "Var-\u003ea-\u003eb BindingDepth",
@@ -1087,6 +1175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the binding for a variable in a context, ensuring it was bound at the specified depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Context",
           "name": "lookupHermitBindingSite",
           "package": "hermit",
@@ -1097,6 +1186,7 @@
         "index": {
           "description": "Lookup the binding for variable in context ensuring it was bound at the specified depth",
           "hierarchy": "HERMIT Context",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Context",
           "name": "lookupHermitBindingSite",
           "normalized": "Var-\u003eBindingDepth-\u003ea-\u003eb HermitBindingSite",
@@ -1112,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Core",
           "package": "hermit",
@@ -1120,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Core",
           "package": "hermit",
@@ -1134,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (potentially recursive) definition is an identifier and an expression.\n   In GHC Core, recursive definitions are encoded as (\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e) pairs.\n   This data type is isomorphic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "CoreDef",
           "package": "hermit",
@@ -1143,6 +1236,7 @@
         "index": {
           "description": "potentially recursive definition is an identifier and an expression In GHC Core recursive definitions are encoded as Id CoreExpr pairs This data type is isomorphic",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "CoreDef",
           "package": "hermit",
@@ -1157,6 +1251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA program is a telescope of nested binding groups.\n   That is, each binding scopes over the remainder of the program.\n   In GHC Core, programs are encoded as [\u003ccode\u003e\u003ca\u003eCoreBind\u003c/a\u003e\u003c/code\u003e].\n   This data type is isomorphic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "CoreProg",
           "package": "hermit",
@@ -1166,6 +1261,7 @@
         "index": {
           "description": "program is telescope of nested binding groups That is each binding scopes over the remainder of the program In GHC Core programs are encoded as CoreBind This data type is isomorphic",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "CoreProg",
           "package": "hermit",
@@ -1180,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlike everything else, there is no synonym for \u003ccode\u003e\u003ca\u003eTickish\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e provided by GHC, so we define one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "CoreTickish",
           "package": "hermit",
@@ -1189,6 +1286,7 @@
         "index": {
           "description": "Unlike everything else there is no synonym for Tickish Id provided by GHC so we define one",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "CoreTickish",
           "package": "hermit",
@@ -1203,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCrumbs record a path through the tree, using descriptive constructor names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Crumb",
           "package": "hermit",
@@ -1212,6 +1311,7 @@
         "index": {
           "description": "Crumbs record path through the tree using descriptive constructor names",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Crumb",
           "package": "hermit",
@@ -1225,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Alt_Con",
           "package": "hermit",
@@ -1234,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Alt_Con",
           "package": "hermit",
@@ -1247,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Alt_RHS",
           "package": "hermit",
@@ -1256,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Alt_RHS",
           "package": "hermit",
@@ -1269,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Alt_Var",
           "package": "hermit",
@@ -1278,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Alt_Var",
           "package": "hermit",
@@ -1291,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "AppCo_Arg",
           "package": "hermit",
@@ -1300,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "AppCo_Arg",
           "package": "hermit",
@@ -1313,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "AppCo_Fun",
           "package": "hermit",
@@ -1322,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "AppCo_Fun",
           "package": "hermit",
@@ -1335,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "AppTy_Arg",
           "package": "hermit",
@@ -1344,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "AppTy_Arg",
           "package": "hermit",
@@ -1357,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "AppTy_Fun",
           "package": "hermit",
@@ -1366,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "AppTy_Fun",
           "package": "hermit",
@@ -1379,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "App_Arg",
           "package": "hermit",
@@ -1388,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "App_Arg",
           "package": "hermit",
@@ -1401,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "App_Fun",
           "package": "hermit",
@@ -1410,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "App_Fun",
           "package": "hermit",
@@ -1423,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "AxiomInstCo_Arg",
           "package": "hermit",
@@ -1432,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "AxiomInstCo_Arg",
           "package": "hermit",
@@ -1445,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "AxiomInstCo_Axiom",
           "package": "hermit",
@@ -1454,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "AxiomInstCo_Axiom",
           "package": "hermit",
@@ -1467,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "AxiomInstCo_Index",
           "package": "hermit",
@@ -1476,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "AxiomInstCo_Index",
           "package": "hermit",
@@ -1489,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Case_Alt",
           "package": "hermit",
@@ -1498,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Case_Alt",
           "package": "hermit",
@@ -1511,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Case_Binder",
           "package": "hermit",
@@ -1520,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Case_Binder",
           "package": "hermit",
@@ -1533,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Case_Scrutinee",
           "package": "hermit",
@@ -1542,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Case_Scrutinee",
           "package": "hermit",
@@ -1555,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Case_Type",
           "package": "hermit",
@@ -1564,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Case_Type",
           "package": "hermit",
@@ -1577,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Cast_Co",
           "package": "hermit",
@@ -1586,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Cast_Co",
           "package": "hermit",
@@ -1599,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Cast_Expr",
           "package": "hermit",
@@ -1608,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Cast_Expr",
           "package": "hermit",
@@ -1621,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "CoVarCo_CoVar",
           "package": "hermit",
@@ -1630,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "CoVarCo_CoVar",
           "package": "hermit",
@@ -1643,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Co_Co",
           "package": "hermit",
@@ -1652,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Co_Co",
           "package": "hermit",
@@ -1665,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Def",
           "package": "hermit",
@@ -1674,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Def",
           "package": "hermit",
@@ -1687,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Def_Id",
           "package": "hermit",
@@ -1696,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Def_Id",
           "package": "hermit",
@@ -1709,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Def_RHS",
           "package": "hermit",
@@ -1718,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Def_RHS",
           "package": "hermit",
@@ -1731,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "ForAllCo_Body",
           "package": "hermit",
@@ -1740,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "ForAllCo_Body",
           "package": "hermit",
@@ -1753,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "ForAllCo_TyVar",
           "package": "hermit",
@@ -1762,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "ForAllCo_TyVar",
           "package": "hermit",
@@ -1775,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "ForAllTy_Body",
           "package": "hermit",
@@ -1784,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "ForAllTy_Body",
           "package": "hermit",
@@ -1797,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "ForAllTy_Var",
           "package": "hermit",
@@ -1806,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "ForAllTy_Var",
           "package": "hermit",
@@ -1819,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "FunTy_CoDom",
           "package": "hermit",
@@ -1828,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "FunTy_CoDom",
           "package": "hermit",
@@ -1841,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "FunTy_Dom",
           "package": "hermit",
@@ -1850,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "FunTy_Dom",
           "package": "hermit",
@@ -1863,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "InstCo_Co",
           "package": "hermit",
@@ -1872,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "InstCo_Co",
           "package": "hermit",
@@ -1885,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "InstCo_Type",
           "package": "hermit",
@@ -1894,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "InstCo_Type",
           "package": "hermit",
@@ -1907,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "LRCo_Co",
           "package": "hermit",
@@ -1916,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "LRCo_Co",
           "package": "hermit",
@@ -1929,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "LRCo_LR",
           "package": "hermit",
@@ -1938,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "LRCo_LR",
           "package": "hermit",
@@ -1951,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Lam_Body",
           "package": "hermit",
@@ -1960,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Lam_Body",
           "package": "hermit",
@@ -1973,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Lam_Var",
           "package": "hermit",
@@ -1982,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Lam_Var",
           "package": "hermit",
@@ -1995,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Let_Bind",
           "package": "hermit",
@@ -2004,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Let_Bind",
           "package": "hermit",
@@ -2017,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Let_Body",
           "package": "hermit",
@@ -2026,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Let_Body",
           "package": "hermit",
@@ -2039,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "LitTy_TyLit",
           "package": "hermit",
@@ -2048,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "LitTy_TyLit",
           "package": "hermit",
@@ -2061,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Lit_Lit",
           "package": "hermit",
@@ -2070,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Lit_Lit",
           "package": "hermit",
@@ -2083,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "ModGuts_Prog",
           "package": "hermit",
@@ -2092,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "ModGuts_Prog",
           "package": "hermit",
@@ -2105,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "NonRec_RHS",
           "package": "hermit",
@@ -2114,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "NonRec_RHS",
           "package": "hermit",
@@ -2127,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "NonRec_Var",
           "package": "hermit",
@@ -2136,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "NonRec_Var",
           "package": "hermit",
@@ -2149,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "NthCo_Co",
           "package": "hermit",
@@ -2158,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "NthCo_Co",
           "package": "hermit",
@@ -2171,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "NthCo_Int",
           "package": "hermit",
@@ -2180,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "NthCo_Int",
           "package": "hermit",
@@ -2194,6 +2382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binding group and the program it scopes over.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "ProgCons",
           "package": "hermit",
@@ -2204,6 +2393,7 @@
         "index": {
           "description": "binding group and the program it scopes over",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "ProgCons",
           "package": "hermit",
@@ -2217,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "ProgCons_Head",
           "package": "hermit",
@@ -2226,6 +2417,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "ProgCons_Head",
           "package": "hermit",
@@ -2239,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "ProgCons_Tail",
           "package": "hermit",
@@ -2248,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "ProgCons_Tail",
           "package": "hermit",
@@ -2262,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "ProgNil",
           "package": "hermit",
@@ -2272,6 +2467,7 @@
         "index": {
           "description": "An empty program",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "ProgNil",
           "package": "hermit",
@@ -2285,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Rec_Def",
           "package": "hermit",
@@ -2294,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Rec_Def",
           "package": "hermit",
@@ -2307,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Refl_Type",
           "package": "hermit",
@@ -2316,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Refl_Type",
           "package": "hermit",
@@ -2329,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "SymCo_Co",
           "package": "hermit",
@@ -2338,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "SymCo_Co",
           "package": "hermit",
@@ -2351,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Tick_Expr",
           "package": "hermit",
@@ -2360,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Tick_Expr",
           "package": "hermit",
@@ -2373,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Tick_Tick",
           "package": "hermit",
@@ -2382,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Tick_Tick",
           "package": "hermit",
@@ -2395,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "TransCo_Left",
           "package": "hermit",
@@ -2404,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "TransCo_Left",
           "package": "hermit",
@@ -2417,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "TransCo_Right",
           "package": "hermit",
@@ -2426,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "TransCo_Right",
           "package": "hermit",
@@ -2439,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "TyConAppCo_Arg",
           "package": "hermit",
@@ -2448,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "TyConAppCo_Arg",
           "package": "hermit",
@@ -2461,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "TyConAppCo_TyCon",
           "package": "hermit",
@@ -2470,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "TyConAppCo_TyCon",
           "package": "hermit",
@@ -2483,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "TyConApp_Arg",
           "package": "hermit",
@@ -2492,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "TyConApp_Arg",
           "package": "hermit",
@@ -2505,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "TyConApp_TyCon",
           "package": "hermit",
@@ -2514,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "TyConApp_TyCon",
           "package": "hermit",
@@ -2527,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "TyVarTy_TyVar",
           "package": "hermit",
@@ -2536,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "TyVarTy_TyVar",
           "package": "hermit",
@@ -2549,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Type_Type",
           "package": "hermit",
@@ -2558,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Type_Type",
           "package": "hermit",
@@ -2571,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "UnsafeCo_Left",
           "package": "hermit",
@@ -2580,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "UnsafeCo_Left",
           "package": "hermit",
@@ -2593,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "UnsafeCo_Right",
           "package": "hermit",
@@ -2602,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "UnsafeCo_Right",
           "package": "hermit",
@@ -2615,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "Var_Id",
           "package": "hermit",
@@ -2624,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "Var_Id",
           "package": "hermit",
@@ -2638,6 +2866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha equality of case alternatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "altAlphaEq",
           "package": "hermit",
@@ -2648,6 +2877,7 @@
         "index": {
           "description": "Alpha equality of case alternatives",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "altAlphaEq",
           "normalized": "CoreAlt-\u003eCoreAlt-\u003eBool",
@@ -2664,6 +2894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic Equality of case alternatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "altSyntaxEq",
           "package": "hermit",
@@ -2674,6 +2905,7 @@
         "index": {
           "description": "Syntactic Equality of case alternatives",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "altSyntaxEq",
           "normalized": "CoreAlt-\u003eCoreAlt-\u003eBool",
@@ -2690,6 +2922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the variables bound by a case alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "altVars",
           "package": "hermit",
@@ -2700,6 +2933,7 @@
         "index": {
           "description": "List the variables bound by case alternative",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "altVars",
           "normalized": "CoreAlt-\u003e[Var]",
@@ -2716,6 +2950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of nested applications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "appCount",
           "package": "hermit",
@@ -2726,6 +2961,7 @@
         "index": {
           "description": "Count the number of nested applications",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "appCount",
           "normalized": "CoreExpr-\u003eInt",
@@ -2742,6 +2978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha equality of binding groups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "bindAlphaEq",
           "package": "hermit",
@@ -2752,6 +2989,7 @@
         "index": {
           "description": "Alpha equality of binding groups",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "bindAlphaEq",
           "normalized": "CoreBind-\u003eCoreBind-\u003eBool",
@@ -2768,6 +3006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic Equality of binding groups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "bindSyntaxEq",
           "package": "hermit",
@@ -2778,6 +3017,7 @@
         "index": {
           "description": "Syntactic Equality of binding groups",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "bindSyntaxEq",
           "normalized": "CoreBind-\u003eCoreBind-\u003eBool",
@@ -2794,6 +3034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the list of identifier/expression pairs from a binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "bindToVarExprs",
           "package": "hermit",
@@ -2804,6 +3045,7 @@
         "index": {
           "description": "Extract the list of identifier expression pairs from binding group",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "bindToVarExprs",
           "normalized": "CoreBind-\u003e[(Var,CoreExpr)]",
@@ -2820,6 +3062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all variables bound in a binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "bindVars",
           "package": "hermit",
@@ -2830,6 +3073,7 @@
         "index": {
           "description": "List all variables bound in binding group",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "bindVars",
           "normalized": "CoreBind-\u003e[Var]",
@@ -2846,6 +3090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a program from a list of bindings.\n   Note that bindings earlier in the list are considered scope over bindings later in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "bindsToProg",
           "package": "hermit",
@@ -2856,6 +3101,7 @@
         "index": {
           "description": "Build program from list of bindings Note that bindings earlier in the list are considered scope over bindings later in the list",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "bindsToProg",
           "normalized": "[CoreBind]-\u003eCoreProg",
@@ -2872,6 +3118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha equality of coercions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "coercionAlphaEq",
           "package": "hermit",
@@ -2882,6 +3129,7 @@
         "index": {
           "description": "Alpha equality of coercions",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "coercionAlphaEq",
           "normalized": "Coercion-\u003eCoercion-\u003eBool",
@@ -2898,6 +3146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic Equality of \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "coercionSyntaxEq",
           "package": "hermit",
@@ -2908,6 +3157,7 @@
         "index": {
           "description": "Syntactic Equality of Coercion",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "coercionSyntaxEq",
           "normalized": "Coercion-\u003eCoercion-\u003eBool",
@@ -2924,6 +3174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha equality of recursive definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "defAlphaEq",
           "package": "hermit",
@@ -2934,6 +3185,7 @@
         "index": {
           "description": "Alpha equality of recursive definitions",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "defAlphaEq",
           "normalized": "CoreDef-\u003eCoreDef-\u003eBool",
@@ -2950,6 +3202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the identifier bound by a recursive definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "defId",
           "package": "hermit",
@@ -2960,6 +3213,7 @@
         "index": {
           "description": "Return the identifier bound by recursive definition",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "defId",
           "normalized": "CoreDef-\u003eId",
@@ -2976,6 +3230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic Equality of recursive definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "defSyntaxEq",
           "package": "hermit",
@@ -2986,6 +3241,7 @@
         "index": {
           "description": "Syntactic Equality of recursive definitions",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "defSyntaxEq",
           "normalized": "CoreDef-\u003eCoreDef-\u003eBool",
@@ -3002,6 +3258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a definition to an identifier/expression pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "defToIdExpr",
           "package": "hermit",
@@ -3012,6 +3269,7 @@
         "index": {
           "description": "Convert definition to an identifier expression pair",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "defToIdExpr",
           "normalized": "CoreDef-\u003e(Id,CoreExpr)",
@@ -3028,6 +3286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of recursive definitions into an (isomorphic) recursive binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "defsToRecBind",
           "package": "hermit",
@@ -3038,6 +3297,7 @@
         "index": {
           "description": "Convert list of recursive definitions into an isomorphic recursive binding group",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "defsToRecBind",
           "normalized": "[CoreDef]-\u003eCoreBind",
@@ -3054,6 +3314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eCrumb\u003c/a\u003e\u003c/code\u003e into the \u003ccode\u003e\u003ca\u003eCrumb\u003c/a\u003e\u003c/code\u003e pointing to its left-sibling, if a such a \u003ccode\u003e\u003ca\u003eCrumb\u003c/a\u003e\u003c/code\u003e exists.\n   This is for backwards compatibility purposes with the old Int representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "deprecatedLeftSibling",
           "package": "hermit",
@@ -3064,6 +3325,7 @@
         "index": {
           "description": "Converts Crumb into the Crumb pointing to its left-sibling if such Crumb exists This is for backwards compatibility purposes with the old Int representation",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "deprecatedLeftSibling",
           "normalized": "Crumb-\u003eMaybe Crumb",
@@ -3080,6 +3342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eCrumb\u003c/a\u003e\u003c/code\u003e into the \u003ccode\u003e\u003ca\u003eCrumb\u003c/a\u003e\u003c/code\u003e pointing to its right-sibling, if a such a \u003ccode\u003e\u003ca\u003eCrumb\u003c/a\u003e\u003c/code\u003e exists.\n   This is for backwards compatibility purposes with the old Int representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "deprecatedRightSibling",
           "package": "hermit",
@@ -3090,6 +3353,7 @@
         "index": {
           "description": "Converts Crumb into the Crumb pointing to its right-sibling if such Crumb exists This is for backwards compatibility purposes with the old Int representation",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "deprecatedRightSibling",
           "normalized": "Crumb-\u003eMaybe Crumb",
@@ -3106,6 +3370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the domain/codomain type of an endofunction expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "endoFunType",
           "package": "hermit",
@@ -3116,6 +3381,7 @@
         "index": {
           "description": "Return the domain codomain type of an endofunction expression",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "endoFunType",
           "normalized": "CoreExpr-\u003ea Type",
@@ -3132,6 +3398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha equality of expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "exprAlphaEq",
           "package": "hermit",
@@ -3142,6 +3409,7 @@
         "index": {
           "description": "Alpha equality of expressions",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "exprAlphaEq",
           "normalized": "CoreExpr-\u003eCoreExpr-\u003eBool",
@@ -3158,6 +3426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGHC's \u003ccode\u003e\u003ca\u003eexprType\u003c/a\u003e\u003c/code\u003e function throws an error if applied to a \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e.\n   This function returns the \u003ccode\u003e\u003ca\u003eKind\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e, but otherwise behaves as \u003ccode\u003e\u003ca\u003eexprType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "exprKindOrType",
           "package": "hermit",
@@ -3168,6 +3437,7 @@
         "index": {
           "description": "GHC exprType function throws an error if applied to Type This function returns the Kind of Type but otherwise behaves as exprType",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "exprKindOrType",
           "normalized": "CoreExpr-\u003eKindOrType",
@@ -3184,6 +3454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic Equality of expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "exprSyntaxEq",
           "package": "hermit",
@@ -3194,6 +3465,7 @@
         "index": {
           "description": "Syntactic Equality of expressions",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "exprSyntaxEq",
           "normalized": "CoreExpr-\u003eCoreExpr-\u003eBool",
@@ -3210,6 +3482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGHC's \u003ccode\u003e\u003ca\u003eexprType\u003c/a\u003e\u003c/code\u003e function throws an error if applied to a \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e.\n   This function catches that case as failure in an arbitrary monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "exprTypeM",
           "package": "hermit",
@@ -3220,6 +3493,7 @@
         "index": {
           "description": "GHC exprType function throws an error if applied to Type This function catches that case as failure in an arbitrary monad",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "exprTypeM",
           "normalized": "CoreExpr-\u003ea Type",
@@ -3236,6 +3510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free identifiers in an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "freeIdsExpr",
           "package": "hermit",
@@ -3246,6 +3521,7 @@
         "index": {
           "description": "Find all free identifiers in an expression",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "freeIdsExpr",
           "normalized": "CoreExpr-\u003eIdSet",
@@ -3262,6 +3538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free variables in a case alternative, which excludes any variables bound in the alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "freeVarsAlt",
           "package": "hermit",
@@ -3272,6 +3549,7 @@
         "index": {
           "description": "Find all free variables in case alternative which excludes any variables bound in the alternative",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "freeVarsAlt",
           "normalized": "CoreAlt-\u003eVarSet",
@@ -3288,6 +3566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free identifiers in a binding group, which excludes any variables bound in the group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "freeVarsBind",
           "package": "hermit",
@@ -3298,6 +3577,7 @@
         "index": {
           "description": "Find all free identifiers in binding group which excludes any variables bound in the group",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "freeVarsBind",
           "normalized": "CoreBind-\u003eVarSet",
@@ -3314,6 +3594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free variables in a coercion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "freeVarsCoercion",
           "package": "hermit",
@@ -3324,6 +3605,7 @@
         "index": {
           "description": "Find all free variables in coercion",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "freeVarsCoercion",
           "normalized": "Coercion-\u003eVarSet",
@@ -3340,6 +3622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free variables in a recursive definition, which excludes the bound variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "freeVarsDef",
           "package": "hermit",
@@ -3350,6 +3633,7 @@
         "index": {
           "description": "Find all free variables in recursive definition which excludes the bound variable",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "freeVarsDef",
           "normalized": "CoreDef-\u003eVarSet",
@@ -3366,6 +3650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free variables in an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "freeVarsExpr",
           "package": "hermit",
@@ -3376,6 +3661,7 @@
         "index": {
           "description": "Find all free variables in an expression",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "freeVarsExpr",
           "normalized": "CoreExpr-\u003eVarSet",
@@ -3392,6 +3678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free variables in a program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "freeVarsProg",
           "package": "hermit",
@@ -3402,6 +3689,7 @@
         "index": {
           "description": "Find all free variables in program",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "freeVarsProg",
           "normalized": "CoreProg-\u003eVarSet",
@@ -3418,6 +3706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free variables in a type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "freeVarsType",
           "package": "hermit",
@@ -3428,6 +3717,7 @@
         "index": {
           "description": "Find all free variables in type",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "freeVarsType",
           "normalized": "Type-\u003eTyVarSet",
@@ -3444,6 +3734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free variables on a binder. Equivalent to idFreeVars, but safe to call on type bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "freeVarsVar",
           "package": "hermit",
@@ -3454,6 +3745,7 @@
         "index": {
           "description": "Find all free variables on binder Equivalent to idFreeVars but safe to call on type bindings",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "freeVarsVar",
           "normalized": "Var-\u003eVarSet",
@@ -3470,6 +3762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the domain and codomain types of a function expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "funArgResTypes",
           "package": "hermit",
@@ -3480,6 +3773,7 @@
         "index": {
           "description": "Return the domain and codomain types of function expression",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "funArgResTypes",
           "normalized": "CoreExpr-\u003ea(Type,Type)",
@@ -3496,6 +3790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck two expressions have types \u003ccode\u003ea -\u003e b\u003c/code\u003e and \u003ccode\u003eb -\u003e a\u003c/code\u003e, returning \u003ccode\u003e(a,b)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "funsWithInverseTypes",
           "package": "hermit",
@@ -3506,6 +3801,7 @@
         "index": {
           "description": "Check two expressions have types and returning",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "funsWithInverseTypes",
           "normalized": "CoreExpr-\u003eCoreExpr-\u003ea(Type,Type)",
@@ -3522,6 +3818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e iff the expression is a \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e expression at its top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "isCoArg",
           "package": "hermit",
@@ -3532,6 +3829,7 @@
         "index": {
           "description": "Returns True iff the expression is Coercion expression at its top level",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "isCoArg",
           "normalized": "CoreExpr-\u003eBool",
@@ -3548,6 +3846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all locally defined free identifiers in an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "localFreeIdsExpr",
           "package": "hermit",
@@ -3558,6 +3857,7 @@
         "index": {
           "description": "Find all locally defined free identifiers in an expression",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "localFreeIdsExpr",
           "normalized": "CoreExpr-\u003eVarSet",
@@ -3574,6 +3874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free local variables in a case alternative, which excludes any variables bound in the alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "localFreeVarsAlt",
           "package": "hermit",
@@ -3584,6 +3885,7 @@
         "index": {
           "description": "Find all free local variables in case alternative which excludes any variables bound in the alternative",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "localFreeVarsAlt",
           "normalized": "CoreAlt-\u003eVarSet",
@@ -3600,6 +3902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all locally defined free variables in an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "localFreeVarsExpr",
           "package": "hermit",
@@ -3610,6 +3913,7 @@
         "index": {
           "description": "Find all locally defined free variables in an expression",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "localFreeVarsExpr",
           "normalized": "CoreExpr-\u003eVarSet",
@@ -3626,6 +3930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over the RHS of each case alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "mapAlts",
           "package": "hermit",
@@ -3636,6 +3941,7 @@
         "index": {
           "description": "Map function over the RHS of each case alternative",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "mapAlts",
           "normalized": "(CoreExpr-\u003eCoreExpr)-\u003e[CoreAlt]-\u003e[CoreAlt]",
@@ -3652,6 +3958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha equality of programs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "progAlphaEq",
           "package": "hermit",
@@ -3662,6 +3969,7 @@
         "index": {
           "description": "Alpha equality of programs",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "progAlphaEq",
           "normalized": "CoreProg-\u003eCoreProg-\u003eBool",
@@ -3678,6 +3986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all identifiers bound at the top-level in a program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "progIds",
           "package": "hermit",
@@ -3688,6 +3997,7 @@
         "index": {
           "description": "List all identifiers bound at the top-level in program",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "progIds",
           "normalized": "CoreProg-\u003e[Id]",
@@ -3704,6 +4014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic Equality of programs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "progSyntaxEq",
           "package": "hermit",
@@ -3714,6 +4025,7 @@
         "index": {
           "description": "Syntactic Equality of programs",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "progSyntaxEq",
           "normalized": "CoreProg-\u003eCoreProg-\u003eBool",
@@ -3730,6 +4042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of bindings in a program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "progToBinds",
           "package": "hermit",
@@ -3740,6 +4053,7 @@
         "index": {
           "description": "Get the list of bindings in program",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "progToBinds",
           "normalized": "CoreProg-\u003e[CoreBind]",
@@ -3755,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "showCrumbs",
           "package": "hermit",
@@ -3764,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "showCrumbs",
           "normalized": "[Crumb]-\u003eString",
@@ -3780,6 +4096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the domain and codomain types of a function type, if it is a function type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "splitFunTypeM",
           "package": "hermit",
@@ -3790,6 +4107,7 @@
         "index": {
           "description": "Return the domain and codomain types of function type if it is function type",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "splitFunTypeM",
           "normalized": "Type-\u003ea(Type,Type)",
@@ -3806,6 +4124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha equality of types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "typeAlphaEq",
           "package": "hermit",
@@ -3816,6 +4135,7 @@
         "index": {
           "description": "Alpha equality of types",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "typeAlphaEq",
           "normalized": "Type-\u003eType-\u003eBool",
@@ -3832,6 +4152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic Equality of \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Core",
           "name": "typeSyntaxEq",
           "package": "hermit",
@@ -3842,6 +4163,7 @@
         "index": {
           "description": "Syntactic Equality of Type",
           "hierarchy": "HERMIT Core",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Core",
           "name": "typeSyntaxEq",
           "normalized": "Type-\u003eType-\u003eBool",
@@ -3857,6 +4179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "AlphaConversion",
           "package": "hermit",
@@ -3865,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "AlphaConversion",
           "package": "hermit",
@@ -3879,6 +4203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename all identifiers bound in a case alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaAltR",
           "package": "hermit",
@@ -3889,6 +4214,7 @@
         "index": {
           "description": "Rename all identifiers bound in case alternative",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaAltR",
           "package": "hermit",
@@ -3903,6 +4229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename the specified variables in a case alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaAltVarsR",
           "package": "hermit",
@@ -3913,6 +4240,7 @@
         "index": {
           "description": "Rename the specified variables in case alternative",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaAltVarsR",
           "normalized": "[Var]-\u003eRewrite a HermitM CoreAlt",
@@ -3929,6 +4257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename the variables bound in a case alternative with the given list of suggested names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaAltWithR",
           "package": "hermit",
@@ -3939,6 +4268,7 @@
         "index": {
           "description": "Rename the variables bound in case alternative with the given list of suggested names",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaAltWithR",
           "normalized": "[Name]-\u003eRewrite a HermitM CoreAlt",
@@ -3955,6 +4285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha rename a case binder.  Optionally takes a suggested new name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaCaseBinderR",
           "package": "hermit",
@@ -3965,6 +4296,7 @@
         "index": {
           "description": "Alpha rename case binder Optionally takes suggested new name",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaCaseBinderR",
           "normalized": "Maybe Name-\u003eRewrite a HermitM CoreExpr",
@@ -3981,6 +4313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename all identifiers bound in a case expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaCaseR",
           "package": "hermit",
@@ -3991,6 +4324,7 @@
         "index": {
           "description": "Rename all identifiers bound in case expression",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaCaseR",
           "package": "hermit",
@@ -4005,6 +4339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha rename a lambda binder.  Optionally takes a suggested new name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaLamR",
           "package": "hermit",
@@ -4015,6 +4350,7 @@
         "index": {
           "description": "Alpha rename lambda binder Optionally takes suggested new name",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaLamR",
           "normalized": "Maybe Name-\u003eRewrite a HermitM CoreExpr",
@@ -4031,6 +4367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename all identifiers bound in a Let.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaLetR",
           "package": "hermit",
@@ -4041,6 +4378,7 @@
         "index": {
           "description": "Rename all identifiers bound in Let",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaLetR",
           "package": "hermit",
@@ -4055,6 +4393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename the specified variables bound in a let.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaLetVarsR",
           "package": "hermit",
@@ -4065,6 +4404,7 @@
         "index": {
           "description": "Rename the specified variables bound in let",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaLetVarsR",
           "normalized": "[Var]-\u003eRewrite a HermitM CoreExpr",
@@ -4081,6 +4421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename the identifiers bound in a Let with the given list of suggested names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaLetWithR",
           "package": "hermit",
@@ -4091,6 +4432,7 @@
         "index": {
           "description": "Rename the identifiers bound in Let with the given list of suggested names",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaLetWithR",
           "normalized": "[Name]-\u003eRewrite a HermitM CoreExpr",
@@ -4107,6 +4449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename the identifiers bound in the top-level binding at the head of the program with the given list of suggested names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaProgConsWithR",
           "package": "hermit",
@@ -4117,6 +4460,7 @@
         "index": {
           "description": "Rename the identifiers bound in the top-level binding at the head of the program with the given list of suggested names",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaProgConsWithR",
           "normalized": "[Name]-\u003eRewrite a HermitM CoreProg",
@@ -4133,6 +4477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha rename any bindings at this node.  Note: does not rename case alternatives unless invoked on the alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaR",
           "package": "hermit",
@@ -4143,6 +4488,7 @@
         "index": {
           "description": "Alpha rename any bindings at this node Note does not rename case alternatives unless invoked on the alternative",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "alphaR",
           "package": "hermit",
@@ -4156,6 +4502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternals for alpha-renaming.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "externals",
           "package": "hermit",
@@ -4166,6 +4513,7 @@
         "index": {
           "description": "Externals for alpha-renaming",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "externals",
           "normalized": "[External]",
@@ -4181,6 +4529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the optional argument if given, otherwise generate a new name avoiding clashes with the list of variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "freshNameGenAvoiding",
           "package": "hermit",
@@ -4191,6 +4540,7 @@
         "index": {
           "description": "Use the optional argument if given otherwise generate new name avoiding clashes with the list of variables",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "freshNameGenAvoiding",
           "normalized": "Maybe Name-\u003eVarSet-\u003eString-\u003eString",
@@ -4207,6 +4557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a name is provided replace the string with that,\n   otherwise modify the string making sure to \u003cem\u003enot\u003c/em\u003e clash with any visible variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "freshNameGenT",
           "package": "hermit",
@@ -4217,6 +4568,7 @@
         "index": {
           "description": "If name is provided replace the string with that otherwise modify the string making sure to not clash with any visible variables",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "freshNameGenT",
           "normalized": "Maybe Name-\u003eTranslate a b CoreExpr(String-\u003eString)",
@@ -4233,6 +4585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all occurrences of a specified variable.\n   Arguments are the variable to replace and the replacement variable, respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "replaceVarR",
           "package": "hermit",
@@ -4243,6 +4596,7 @@
         "index": {
           "description": "Replace all occurrences of specified variable Arguments are the variable to replace and the replacement variable respectively",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "replaceVarR",
           "normalized": "Var-\u003eVar-\u003eRewrite a b c",
@@ -4259,6 +4613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename local variables with manifestly unique names (x, x0, x1, ...).\n   Does not rename top-level definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "unshadowR",
           "package": "hermit",
@@ -4269,6 +4624,7 @@
         "index": {
           "description": "Rename local variables with manifestly unique names x0 x1 Does not rename top-level definitions",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "unshadowR",
           "package": "hermit",
@@ -4282,6 +4638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all visible identifiers (in the expression or the context).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "visibleVarsT",
           "package": "hermit",
@@ -4292,6 +4649,7 @@
         "index": {
           "description": "List all visible identifiers in the expression or the context",
           "hierarchy": "HERMIT Dictionary AlphaConversion",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.AlphaConversion",
           "name": "visibleVarsT",
           "package": "hermit",
@@ -4306,6 +4664,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNote: this module should NOT export externals. It is for common\n   transformations needed by the other primitive modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "Common",
           "package": "hermit",
@@ -4315,6 +4674,7 @@
         "index": {
           "description": "Note this module should NOT export externals It is for common transformations needed by the other primitive modules",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "Common",
           "package": "hermit",
@@ -4329,6 +4689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation to a value in the current context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "applyInContextT",
           "package": "hermit",
@@ -4339,6 +4700,7 @@
         "index": {
           "description": "Apply transformation to value in the current context",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "applyInContextT",
           "normalized": "Translate a b c d-\u003ec-\u003eTranslate a b e d",
@@ -4355,6 +4717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of \u003ccode\u003e\u003ca\u003eboundVars\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "boundVarsT",
           "package": "hermit",
@@ -4365,6 +4728,7 @@
         "index": {
           "description": "Lifted version of boundVars",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "boundVarsT",
           "package": "hermit",
@@ -4379,6 +4743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds if we are looking at an application of a named data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "callDataConNameT",
           "package": "hermit",
@@ -4389,6 +4754,7 @@
         "index": {
           "description": "Succeeds if we are looking at an application of named data constructor",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "callDataConNameT",
           "normalized": "Name-\u003eTranslate a b CoreExpr(DataCon,[Type],[CoreExpr])",
@@ -4405,6 +4771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds if we are looking at an application of a data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "callDataConT",
           "package": "hermit",
@@ -4415,6 +4782,7 @@
         "index": {
           "description": "Succeeds if we are looking at an application of data constructor",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "callDataConT",
           "normalized": "Translate a b CoreExpr(DataCon,[Type],[CoreExpr])",
@@ -4431,6 +4799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds if we are looking at an application of given function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "callNameG",
           "package": "hermit",
@@ -4441,6 +4810,7 @@
         "index": {
           "description": "Succeeds if we are looking at an application of given function",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "callNameG",
           "normalized": "Name-\u003eTranslate a b CoreExpr()",
@@ -4457,6 +4827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds if we are looking at an application of given function\n   returning zero or more arguments to which it is applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "callNameT",
           "package": "hermit",
@@ -4467,6 +4838,7 @@
         "index": {
           "description": "Succeeds if we are looking at an application of given function returning zero or more arguments to which it is applied",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "callNameT",
           "normalized": "Name-\u003eTranslate a b CoreExpr(CoreExpr,[CoreExpr])",
@@ -4482,6 +4854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "callPredT",
           "package": "hermit",
@@ -4491,6 +4864,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "callPredT",
           "normalized": "(Id-\u003e[CoreExpr]-\u003eBool)-\u003eTranslate a b CoreExpr(CoreExpr,[CoreExpr])",
@@ -4507,6 +4881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds if we are looking at a fully saturated function call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "callSaturatedT",
           "package": "hermit",
@@ -4517,6 +4892,7 @@
         "index": {
           "description": "Succeeds if we are looking at fully saturated function call",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "callSaturatedT",
           "normalized": "Translate a b CoreExpr(CoreExpr,[CoreExpr])",
@@ -4533,6 +4909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift GHC's collectArgs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "callT",
           "package": "hermit",
@@ -4543,6 +4920,7 @@
         "index": {
           "description": "Lift GHC collectArgs",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "callT",
           "normalized": "Translate a b CoreExpr(CoreExpr,[CoreExpr])",
@@ -4558,6 +4936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a rewrite to all applications of a given function in a top-down manner, pruning on success.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "callsR",
           "package": "hermit",
@@ -4568,6 +4947,7 @@
         "index": {
           "description": "Apply rewrite to all applications of given function in top-down manner pruning on success",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "callsR",
           "normalized": "Name-\u003eRewrite a b CoreExpr-\u003eRewrite a b Core",
@@ -4583,6 +4963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a translate to all applications of a given function in a top-down manner,\n   pruning on success, collecting the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "callsT",
           "package": "hermit",
@@ -4593,6 +4974,7 @@
         "index": {
           "description": "Apply translate to all applications of given function in top-down manner pruning on success collecting the results",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "callsT",
           "normalized": "Name-\u003eTranslate a b CoreExpr c-\u003eTranslate a b Core[c]",
@@ -4608,6 +4990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the variables bound by all alternatives in a case expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "caseAltVarsT",
           "package": "hermit",
@@ -4618,6 +5001,7 @@
         "index": {
           "description": "List the variables bound by all alternatives in case expression",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "caseAltVarsT",
           "normalized": "Translate a b CoreExpr[[Var]]",
@@ -4634,6 +5018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all variables bound by a case expression (in the alternatives and the wildcard binder).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "caseVarsT",
           "package": "hermit",
@@ -4644,6 +5029,7 @@
         "index": {
           "description": "List all variables bound by case expression in the alternatives and the wildcard binder",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "caseVarsT",
           "normalized": "Translate a b CoreExpr[Var]",
@@ -4660,6 +5046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the case wildcard binder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "caseWildIdT",
           "package": "hermit",
@@ -4670,6 +5057,7 @@
         "index": {
           "description": "Return the case wildcard binder",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "caseWildIdT",
           "package": "hermit",
@@ -4684,6 +5072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if the current expression is an occurrence of the given variable, bound at the specified depth (helpful to detect shadowing).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "exprIsOccurrenceOfT",
           "package": "hermit",
@@ -4694,6 +5083,7 @@
         "index": {
           "description": "Determine if the current expression is an occurrence of the given variable bound at the specified depth helpful to detect shadowing",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "exprIsOccurrenceOfT",
           "normalized": "Var-\u003eBindingDepth-\u003eTranslate a b CoreExpr Bool",
@@ -4710,6 +5100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the unique variable bound in the context that matches the given name, failing if it is not unique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "findBoundVarT",
           "package": "hermit",
@@ -4720,6 +5111,7 @@
         "index": {
           "description": "Find the unique variable bound in the context that matches the given name failing if it is not unique",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "findBoundVarT",
           "normalized": "Name-\u003eTranslate a b c Var",
@@ -4735,6 +5127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "findId",
           "package": "hermit",
@@ -4744,6 +5137,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "findId",
           "normalized": "Name-\u003ea-\u003eb Id",
@@ -4760,6 +5154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the name in the context first, then, failing that, in GHC's global reader environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "findIdT",
           "package": "hermit",
@@ -4770,6 +5165,7 @@
         "index": {
           "description": "Lookup the name in the context first then failing that in GHC global reader environment",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "findIdT",
           "normalized": "Name-\u003eTranslate a b c Id",
@@ -4786,6 +5182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the variable bound by a lambda expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "lamVarT",
           "package": "hermit",
@@ -4796,6 +5193,7 @@
         "index": {
           "description": "Return the variable bound by lambda expression",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "lamVarT",
           "package": "hermit",
@@ -4810,6 +5208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the variable bound by a non-recursive let expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "letNonRecVarT",
           "package": "hermit",
@@ -4820,6 +5219,7 @@
         "index": {
           "description": "Return the variable bound by non-recursive let expression",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "letNonRecVarT",
           "package": "hermit",
@@ -4834,6 +5234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the identifiers bound by a recursive let expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "letRecIdsT",
           "package": "hermit",
@@ -4844,6 +5245,7 @@
         "index": {
           "description": "List the identifiers bound by recursive let expression",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "letRecIdsT",
           "normalized": "Translate a b CoreExpr[Id]",
@@ -4860,6 +5262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the variables bound by a let expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "letVarsT",
           "package": "hermit",
@@ -4870,6 +5273,7 @@
         "index": {
           "description": "List the variables bound by let expression",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "letVarsT",
           "normalized": "Translate a b CoreExpr[Var]",
@@ -4886,6 +5290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the variable bound by a non-recursive let expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "nonRecVarT",
           "package": "hermit",
@@ -4896,6 +5301,7 @@
         "index": {
           "description": "Return the variable bound by non-recursive let expression",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "nonRecVarT",
           "package": "hermit",
@@ -4910,6 +5316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the identifiers bound by the top-level binding group at the head of the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "progConsIdsT",
           "package": "hermit",
@@ -4920,6 +5327,7 @@
         "index": {
           "description": "List the identifiers bound by the top-level binding group at the head of the program",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "progConsIdsT",
           "normalized": "Translate a b CoreProg[Id]",
@@ -4936,6 +5344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the identifier bound by a non-recursive top-level binding at the head of the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "progConsNonRecIdT",
           "package": "hermit",
@@ -4946,6 +5355,7 @@
         "index": {
           "description": "Return the identifier bound by non-recursive top-level binding at the head of the program",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "progConsNonRecIdT",
           "package": "hermit",
@@ -4960,6 +5370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the identifiers bound by a recursive top-level binding group at the head of the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "progConsRecIdsT",
           "package": "hermit",
@@ -4970,6 +5381,7 @@
         "index": {
           "description": "List the identifiers bound by recursive top-level binding group at the head of the program",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "progConsRecIdsT",
           "normalized": "Translate a b CoreProg[Id]",
@@ -4986,6 +5398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all identifiers bound in a recursive binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "recIdsT",
           "package": "hermit",
@@ -4996,6 +5409,7 @@
         "index": {
           "description": "List all identifiers bound in recursive binding group",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "recIdsT",
           "normalized": "Translate a b CoreBind[Id]",
@@ -5012,6 +5426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the depth of a variable's binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "varBindingDepthT",
           "package": "hermit",
@@ -5022,6 +5437,7 @@
         "index": {
           "description": "Find the depth of variable binding",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "varBindingDepthT",
           "normalized": "Var-\u003eTranslate a b c BindingDepth",
@@ -5038,6 +5454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if the current variable matches the given variable, and is bound at the specified depth (helpful to detect shadowing).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "varIsOccurrenceOfT",
           "package": "hermit",
@@ -5048,6 +5465,7 @@
         "index": {
           "description": "Determine if the current variable matches the given variable and is bound at the specified depth helpful to detect shadowing",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "varIsOccurrenceOfT",
           "normalized": "Var-\u003eBindingDepth-\u003eTranslate a b Var Bool",
@@ -5064,6 +5482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a common error message.\n   Argument \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e should be the desired form of the expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Common",
           "name": "wrongExprForm",
           "package": "hermit",
@@ -5074,6 +5493,7 @@
         "index": {
           "description": "Constructs common error message Argument String should be the desired form of the expression",
           "hierarchy": "HERMIT Dictionary Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Common",
           "name": "wrongExprForm",
           "normalized": "String-\u003eString",
@@ -5089,6 +5509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Composite",
           "name": "Composite",
           "package": "hermit",
@@ -5097,6 +5518,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Composite",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Composite",
           "name": "Composite",
           "package": "hermit",
@@ -5110,6 +5532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Composite",
           "name": "bashDebugR",
           "package": "hermit",
@@ -5119,6 +5542,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Composite",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Composite",
           "name": "bashDebugR",
           "package": "hermit",
@@ -5132,6 +5556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Composite",
           "name": "bashExtendedWithR",
           "package": "hermit",
@@ -5141,6 +5566,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Composite",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Composite",
           "name": "bashExtendedWithR",
           "normalized": "[Rewrite a HermitM Core]-\u003eRewrite a HermitM Core",
@@ -5156,6 +5582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Composite",
           "name": "bashR",
           "package": "hermit",
@@ -5165,6 +5592,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Composite",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Composite",
           "name": "bashR",
           "package": "hermit",
@@ -5177,6 +5605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Composite",
           "name": "bashUsingR",
           "package": "hermit",
@@ -5186,6 +5615,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Composite",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Composite",
           "name": "bashUsingR",
           "normalized": "[Rewrite a b Core]-\u003eRewrite a b Core",
@@ -5201,6 +5631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Composite",
           "name": "externals",
           "package": "hermit",
@@ -5210,6 +5641,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Composite",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Composite",
           "name": "externals",
           "normalized": "[External]",
@@ -5224,6 +5656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Composite",
           "name": "simplifyR",
           "package": "hermit",
@@ -5233,6 +5666,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Composite",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Composite",
           "name": "simplifyR",
           "package": "hermit",
@@ -5246,6 +5680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold the current expression if it is one of the basic combinators: (\u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e), (\u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e), \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e.\n   This is intended to be used as a component of simplification traversals such as \u003ccode\u003e\u003ca\u003esimplifyR\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ebashR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Composite",
           "name": "unfoldBasicCombinatorR",
           "package": "hermit",
@@ -5256,6 +5691,7 @@
         "index": {
           "description": "Unfold the current expression if it is one of the basic combinators id flip const fst or snd This is intended to be used as component of simplification traversals such as simplifyR or bashR",
           "hierarchy": "HERMIT Dictionary Composite",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Composite",
           "name": "unfoldBasicCombinatorR",
           "package": "hermit",
@@ -5269,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Debug",
           "name": "Debug",
           "package": "hermit",
@@ -5277,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Debug",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Debug",
           "name": "Debug",
           "package": "hermit",
@@ -5291,6 +5729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow before and after a rewrite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Debug",
           "name": "bracketR",
           "package": "hermit",
@@ -5301,6 +5740,7 @@
         "index": {
           "description": "Show before and after rewrite",
           "hierarchy": "HERMIT Dictionary Debug",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Debug",
           "name": "bracketR",
           "normalized": "String-\u003eRewriteH a-\u003eRewriteH a",
@@ -5316,6 +5756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExposed debugging \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Debug",
           "name": "externals",
           "package": "hermit",
@@ -5326,6 +5767,7 @@
         "index": {
           "description": "Exposed debugging External",
           "hierarchy": "HERMIT Dictionary Debug",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Debug",
           "name": "externals",
           "normalized": "[External]",
@@ -5341,6 +5783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the \u003ccode\u003e\u003ca\u003eRewrite\u003c/a\u003e\u003c/code\u003e fails, print out the \u003ccode\u003e\u003ca\u003eCore\u003c/a\u003e\u003c/code\u003e, with a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Debug",
           "name": "observeFailureR",
           "package": "hermit",
@@ -5351,6 +5794,7 @@
         "index": {
           "description": "If the Rewrite fails print out the Core with message",
           "hierarchy": "HERMIT Dictionary Debug",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Debug",
           "name": "observeFailureR",
           "normalized": "String-\u003eRewriteH a-\u003eRewriteH a",
@@ -5367,6 +5811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint out the \u003ccode\u003e\u003ca\u003eCore\u003c/a\u003e\u003c/code\u003e, with a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Debug",
           "name": "observeR",
           "package": "hermit",
@@ -5377,6 +5822,7 @@
         "index": {
           "description": "Print out the Core with message",
           "hierarchy": "HERMIT Dictionary Debug",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Debug",
           "name": "observeR",
           "normalized": "String-\u003eRewriteH a",
@@ -5392,6 +5838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust say something, every time the rewrite is done.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Debug",
           "name": "traceR",
           "package": "hermit",
@@ -5402,6 +5849,7 @@
         "index": {
           "description": "Just say something every time the rewrite is done",
           "hierarchy": "HERMIT Dictionary Debug",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Debug",
           "name": "traceR",
           "normalized": "String-\u003eRewriteH a",
@@ -5416,6 +5864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "FixPoint",
           "package": "hermit",
@@ -5424,6 +5873,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary FixPoint",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "FixPoint",
           "package": "hermit",
@@ -5438,6 +5888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternals for manipulating fixed points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "externals",
           "package": "hermit",
@@ -5448,6 +5899,7 @@
         "index": {
           "description": "Externals for manipulating fixed points",
           "hierarchy": "HERMIT Dictionary FixPoint",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "externals",
           "normalized": "[External]",
@@ -5463,6 +5915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efix ty f\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003ef (fix ty f)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "fixComputationRuleBR",
           "package": "hermit",
@@ -5473,6 +5926,7 @@
         "index": {
           "description": "fix ty fix ty",
           "hierarchy": "HERMIT Dictionary FixPoint",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "fixComputationRuleBR",
           "package": "hermit",
@@ -5487,6 +5941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003ef\u003c/code\u003e is strict, then (\u003ccode\u003ef (g a)\u003c/code\u003e == \u003ccode\u003eh (f a)\u003c/code\u003e)  ==\u003e  (\u003ccode\u003ef (fix g)\u003c/code\u003e == \u003ccode\u003efix h\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "fixFusionRuleBR",
           "package": "hermit",
@@ -5497,6 +5952,7 @@
         "index": {
           "description": "If is strict then fix fix",
           "hierarchy": "HERMIT Dictionary FixPoint",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "fixFusionRuleBR",
           "normalized": "Maybe(RewriteH CoreExpr,RewriteH CoreExpr)-\u003eMaybe(RewriteH CoreExpr)-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr-\u003eBiRewriteH CoreExpr",
@@ -5513,6 +5969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ef = e\u003c/code\u003e   ==\u003e   \u003ccode\u003ef = fix (\\ f -\u003e e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "fixIntroR",
           "package": "hermit",
@@ -5523,6 +5980,7 @@
         "index": {
           "description": "fix",
           "hierarchy": "HERMIT Dictionary FixPoint",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "fixIntroR",
           "package": "hermit",
@@ -5537,6 +5995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efix tyA (\\ a -\u003e f (g a))\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003ef (fix tyB (\\ b -\u003e g (f b))\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "fixRollingRuleBR",
           "package": "hermit",
@@ -5547,6 +6006,7 @@
         "index": {
           "description": "fix tyA fix tyB",
           "hierarchy": "HERMIT Dictionary FixPoint",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "fixRollingRuleBR",
           "package": "hermit",
@@ -5561,6 +6021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that the expression has the form \u003ca\u003efix t (f :: t -\u003e t)\u003c/a\u003e, returning \u003ca\u003et\u003c/a\u003e and \u003ca\u003ef\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "isFixExprT",
           "package": "hermit",
@@ -5571,6 +6032,7 @@
         "index": {
           "description": "Check that the expression has the form fix returning and",
           "hierarchy": "HERMIT Dictionary FixPoint",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "isFixExprT",
           "normalized": "TranslateH CoreExpr(Type,CoreExpr)",
@@ -5587,6 +6049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ef  ==\u003e  fix f\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "mkFixT",
           "package": "hermit",
@@ -5597,6 +6060,7 @@
         "index": {
           "description": "fix",
           "hierarchy": "HERMIT Dictionary FixPoint",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.FixPoint",
           "name": "mkFixT",
           "normalized": "CoreExpr-\u003eTranslate a b c CoreExpr",
@@ -5612,6 +6076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Fold",
           "name": "Fold",
           "package": "hermit",
@@ -5620,6 +6085,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Fold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Fold",
           "name": "Fold",
           "package": "hermit",
@@ -5633,6 +6099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Fold",
           "name": "externals",
           "package": "hermit",
@@ -5642,6 +6109,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Fold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Fold",
           "name": "externals",
           "normalized": "[External]",
@@ -5656,6 +6124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Fold",
           "name": "foldR",
           "package": "hermit",
@@ -5665,6 +6134,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Fold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Fold",
           "name": "foldR",
           "normalized": "Name-\u003eRewrite a HermitM CoreExpr",
@@ -5679,6 +6149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Fold",
           "name": "foldVarR",
           "package": "hermit",
@@ -5688,6 +6159,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Fold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Fold",
           "name": "foldVarR",
           "normalized": "Var-\u003eMaybe BindingDepth-\u003eRewrite a HermitM CoreExpr",
@@ -5703,6 +6175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Fold",
           "name": "stashFoldAnyR",
           "package": "hermit",
@@ -5712,6 +6185,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Fold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Fold",
           "name": "stashFoldAnyR",
           "package": "hermit",
@@ -5725,6 +6199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Fold",
           "name": "stashFoldR",
           "package": "hermit",
@@ -5734,6 +6209,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Fold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Fold",
           "name": "stashFoldR",
           "normalized": "Label-\u003eRewrite a HermitM CoreExpr",
@@ -5749,6 +6225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Function",
           "name": "Function",
           "package": "hermit",
@@ -5757,6 +6234,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Function",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Function",
           "name": "Function",
           "package": "hermit",
@@ -5770,6 +6248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Function",
           "name": "externals",
           "package": "hermit",
@@ -5779,6 +6258,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Function",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Function",
           "name": "externals",
           "normalized": "[External]",
@@ -5794,6 +6274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatic Argument Transformations which requires that arguments in the given position are static.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Function",
           "name": "staticArgPosR",
           "package": "hermit",
@@ -5804,6 +6285,7 @@
         "index": {
           "description": "Static Argument Transformations which requires that arguments in the given position are static",
           "hierarchy": "HERMIT Dictionary Function",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Function",
           "name": "staticArgPosR",
           "normalized": "[Int]-\u003eRewrite a HermitM CoreDef",
@@ -5820,6 +6302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized Static Argument Transformation, which allows static arguments to be filtered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Function",
           "name": "staticArgPredR",
           "package": "hermit",
@@ -5829,6 +6312,7 @@
         "index": {
           "description": "Generalized Static Argument Transformation which allows static arguments to be filtered",
           "hierarchy": "HERMIT Dictionary Function",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Function",
           "name": "staticArgPredR",
           "normalized": "([(Int,Var)]-\u003eHermitM[Int])-\u003eRewrite a HermitM CoreDef",
@@ -5845,6 +6329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraditional Static Argument Transformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Function",
           "name": "staticArgR",
           "package": "hermit",
@@ -5855,6 +6340,7 @@
         "index": {
           "description": "Traditional Static Argument Transformation",
           "hierarchy": "HERMIT Dictionary Function",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Function",
           "name": "staticArgR",
           "package": "hermit",
@@ -5869,6 +6355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatic Argument Transformation that only considers type arguments to be static.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Function",
           "name": "staticArgTypesR",
           "package": "hermit",
@@ -5879,6 +6366,7 @@
         "index": {
           "description": "Static Argument Transformation that only considers type arguments to be static",
           "hierarchy": "HERMIT Dictionary Function",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Function",
           "name": "staticArgTypesR",
           "package": "hermit",
@@ -5892,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "GHC",
           "package": "hermit",
@@ -5900,6 +6389,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "GHC",
           "package": "hermit",
@@ -5914,6 +6404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-down traversal tuned to matching function calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "anyCallR",
           "package": "hermit",
@@ -5924,6 +6415,7 @@
         "index": {
           "description": "Top-down traversal tuned to matching function calls",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "anyCallR",
           "normalized": "Rewrite a b Core-\u003eRewrite a b Core",
@@ -5940,6 +6432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to figure out the arity of an identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "arityOf",
           "package": "hermit",
@@ -5950,6 +6443,7 @@
         "index": {
           "description": "Try to figure out the arity of an identifier",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "arityOf",
           "normalized": "a-\u003eId-\u003eInt",
@@ -5966,6 +6460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZap the \u003ccode\u003e\u003ca\u003eOccInfo\u003c/a\u003e\u003c/code\u003e in a zombie identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "dezombifyR",
           "package": "hermit",
@@ -5976,6 +6471,7 @@
         "index": {
           "description": "Zap the OccInfo in zombie identifier",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "dezombifyR",
           "package": "hermit",
@@ -5989,6 +6485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of \u003ccode\u003e\u003ca\u003egetDynFlags\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "dynFlagsT",
           "package": "hermit",
@@ -5999,6 +6496,7 @@
         "index": {
           "description": "Lifted version of getDynFlags",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "dynFlagsT",
           "package": "hermit",
@@ -6013,6 +6511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternals that reflect GHC functions, or are derived from GHC functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "externals",
           "package": "hermit",
@@ -6023,6 +6522,7 @@
         "index": {
           "description": "Externals that reflect GHC functions or are derived from GHC functions",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "externals",
           "normalized": "[External]",
@@ -6038,6 +6538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether an identifier is in scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "inScope",
           "package": "hermit",
@@ -6048,6 +6549,7 @@
         "index": {
           "description": "Determine whether an identifier is in scope",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "inScope",
           "normalized": "a-\u003eId-\u003eBool",
@@ -6064,6 +6566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: this can miss several things that a whole-module core lint will find.\n For instance, running this on the RHS of a binding, the type of the RHS will\n not be checked against the type of the binding. Running on the whole let expression\n will catch that however.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "lintExprT",
           "package": "hermit",
@@ -6074,6 +6577,7 @@
         "index": {
           "description": "Note this can miss several things that whole-module core lint will find For instance running this on the RHS of binding the type of the RHS will not be checked against the type of the binding Running on the whole let expression will catch that however",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "lintExprT",
           "package": "hermit",
@@ -6088,6 +6592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the Core Lint typechecker.\n Fails on errors, with error messages.\n Succeeds returning warnings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "lintModuleT",
           "package": "hermit",
@@ -6098,6 +6603,7 @@
         "index": {
           "description": "Run the Core Lint typechecker Fails on errors with error messages Succeeds returning warnings",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "lintModuleT",
           "package": "hermit",
@@ -6112,6 +6618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun GHC's occurrence analyser, and also eliminate any zombies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "occurAnalyseAndDezombifyR",
           "package": "hermit",
@@ -6122,6 +6629,7 @@
         "index": {
           "description": "Run GHC occurrence analyser and also eliminate any zombies",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "occurAnalyseAndDezombifyR",
           "package": "hermit",
@@ -6136,6 +6644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOccurrence analyse all sub-expressions, failing if the result is syntactically equal to the initial expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "occurAnalyseChangedR",
           "package": "hermit",
@@ -6146,6 +6655,7 @@
         "index": {
           "description": "Occurrence analyse all sub-expressions failing if the result is syntactically equal to the initial expression",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "occurAnalyseChangedR",
           "package": "hermit",
@@ -6160,6 +6670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOccurrence analyse an expression, failing if the result is syntactically equal to the initial expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "occurAnalyseExprChangedR",
           "package": "hermit",
@@ -6170,6 +6681,7 @@
         "index": {
           "description": "Occurrence analyse an expression failing if the result is syntactically equal to the initial expression",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "occurAnalyseExprChangedR",
           "package": "hermit",
@@ -6184,6 +6696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003ccode\u003eoccurAnalyseExprR\u003c/code\u003e to all sub-expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "occurAnalyseR",
           "package": "hermit",
@@ -6194,6 +6707,7 @@
         "index": {
           "description": "Apply occurAnalyseExprR to all sub-expressions",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "occurAnalyseR",
           "package": "hermit",
@@ -6208,6 +6722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a rule and attempt to construct a corresponding rewrite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "rule",
           "package": "hermit",
@@ -6218,6 +6733,7 @@
         "index": {
           "description": "Lookup rule and attempt to construct corresponding rewrite",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "rule",
           "normalized": "String-\u003eRewrite a HermitM CoreExpr",
@@ -6232,6 +6748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "rules",
           "package": "hermit",
@@ -6241,6 +6758,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "rules",
           "normalized": "[String]-\u003eRewrite a HermitM CoreExpr",
@@ -6256,6 +6774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun GHC's specConstr pass, and apply any rules generated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "specConstrR",
           "package": "hermit",
@@ -6266,6 +6785,7 @@
         "index": {
           "description": "Run GHC specConstr pass and apply any rules generated",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "specConstrR",
           "package": "hermit",
@@ -6280,6 +6800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitute all occurrences of a variable with an expression, in a case alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "substAltR",
           "package": "hermit",
@@ -6290,6 +6811,7 @@
         "index": {
           "description": "Substitute all occurrences of variable with an expression in case alternative",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "substAltR",
           "normalized": "Var-\u003eCoreExpr-\u003eRewrite a b CoreAlt",
@@ -6306,6 +6828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitute all occurrences of a variable with an expression, in an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "substCoreExpr",
           "package": "hermit",
@@ -6316,6 +6839,7 @@
         "index": {
           "description": "Substitute all occurrences of variable with an expression in an expression",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "substCoreExpr",
           "normalized": "Var-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr",
@@ -6332,6 +6856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitute all occurrences of a variable with an expression, in either a program or an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.GHC",
           "name": "substR",
           "package": "hermit",
@@ -6342,6 +6867,7 @@
         "index": {
           "description": "Substitute all occurrences of variable with an expression in either program or an expression",
           "hierarchy": "HERMIT Dictionary GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.GHC",
           "name": "substR",
           "normalized": "Var-\u003eCoreExpr-\u003eRewrite a b Core",
@@ -6356,6 +6882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "Inline",
           "package": "hermit",
@@ -6364,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "Inline",
           "package": "hermit",
@@ -6377,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "CaseBinderInlineOption",
           "package": "hermit",
@@ -6385,6 +6914,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "CaseBinderInlineOption",
           "package": "hermit",
@@ -6398,6 +6928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "InlineConfig",
           "package": "hermit",
@@ -6406,6 +6937,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "InlineConfig",
           "package": "hermit",
@@ -6419,6 +6951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "AllBinders",
           "package": "hermit",
@@ -6428,6 +6961,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "AllBinders",
           "package": "hermit",
@@ -6441,6 +6975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "Alternative",
           "package": "hermit",
@@ -6450,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "Alternative",
           "package": "hermit",
@@ -6463,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "CaseBinderOnly",
           "package": "hermit",
@@ -6472,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "CaseBinderOnly",
           "package": "hermit",
@@ -6485,6 +7023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "Scrutinee",
           "package": "hermit",
@@ -6494,6 +7033,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "Scrutinee",
           "package": "hermit",
@@ -6508,6 +7048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe implementation of inline, an important transformation.\n This *only* works if the current expression has the form \u003ccode\u003eVar v\u003c/code\u003e (it does not traverse the expression).\n It can trivially be prompted to more general cases using traversal strategies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "configurableInlineR",
           "package": "hermit",
@@ -6517,6 +7058,7 @@
         "index": {
           "description": "The implementation of inline an important transformation This only works if the current expression has the form Var it does not traverse the expression It can trivially be prompted to more general cases using traversal strategies",
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "configurableInlineR",
           "normalized": "InlineConfig-\u003eTranslate a HermitM Id Bool-\u003eRewrite a HermitM CoreExpr",
@@ -6533,6 +7075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003es for inlining variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "externals",
           "package": "hermit",
@@ -6543,6 +7086,7 @@
         "index": {
           "description": "External for inlining variables",
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "externals",
           "normalized": "[External]",
@@ -6558,6 +7102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the unfolding of an identifier, and a predicate over the binding depths of all variables within that unfolding to determine if they have been captured in their new location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "getUnfoldingT",
           "package": "hermit",
@@ -6568,6 +7113,7 @@
         "index": {
           "description": "Return the unfolding of an identifier and predicate over the binding depths of all variables within that unfolding to determine if they have been captured in their new location",
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "getUnfoldingT",
           "normalized": "InlineConfig-\u003eTranslate a HermitM Id(CoreExpr,BindingDepth-\u003eBool)",
@@ -6584,6 +7130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline the current identifier if is a case binder, using the case-alternative pattern rather than the scrutinee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineCaseAlternativeR",
           "package": "hermit",
@@ -6594,6 +7141,7 @@
         "index": {
           "description": "Inline the current identifier if is case binder using the case-alternative pattern rather than the scrutinee",
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineCaseAlternativeR",
           "package": "hermit",
@@ -6608,6 +7156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline the current identifier if it is a case binder, using the scrutinee rather than the case-alternative pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineCaseScrutineeR",
           "package": "hermit",
@@ -6618,6 +7167,7 @@
         "index": {
           "description": "Inline the current identifier if it is case binder using the scrutinee rather than the case-alternative pattern",
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineCaseScrutineeR",
           "package": "hermit",
@@ -6632,6 +7182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the current variable matches the given name, then inline it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineNameR",
           "package": "hermit",
@@ -6642,6 +7193,7 @@
         "index": {
           "description": "If the current variable matches the given name then inline it",
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineNameR",
           "normalized": "Name-\u003eRewrite a HermitM CoreExpr",
@@ -6658,6 +7210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the current variable matches any of the given names, then inline it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineNamesR",
           "package": "hermit",
@@ -6668,6 +7221,7 @@
         "index": {
           "description": "If the current variable matches any of the given names then inline it",
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineNamesR",
           "normalized": "[Name]-\u003eRewrite a HermitM CoreExpr",
@@ -6684,6 +7238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline the current variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineR",
           "package": "hermit",
@@ -6694,6 +7249,7 @@
         "index": {
           "description": "Inline the current variable",
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineR",
           "package": "hermit",
@@ -6707,6 +7263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet list of possible inline targets. Used by shell for completion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineTargetsT",
           "package": "hermit",
@@ -6717,6 +7274,7 @@
         "index": {
           "description": "Get list of possible inline targets Used by shell for completion",
           "hierarchy": "HERMIT Dictionary Inline",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Inline",
           "name": "inlineTargetsT",
           "normalized": "Translate a HermitM Core[String]",
@@ -6732,6 +7290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Kure",
           "name": "Kure",
           "package": "hermit",
@@ -6740,6 +7299,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Kure",
           "name": "Kure",
           "package": "hermit",
@@ -6754,6 +7314,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e- This list contains reflections of the KURE strategies as \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003es.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Kure",
           "name": "externals",
           "package": "hermit",
@@ -6764,6 +7325,7 @@
         "index": {
           "description": "This list contains reflections of the KURE strategies as External",
           "hierarchy": "HERMIT Dictionary Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Kure",
           "name": "externals",
           "normalized": "[External]",
@@ -6778,6 +7340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Kure",
           "name": "unitT",
           "package": "hermit",
@@ -6787,6 +7350,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Kure",
           "name": "unitT",
           "normalized": "Translate a b c()",
@@ -6801,6 +7365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Bind",
           "name": "Bind",
           "package": "hermit",
@@ -6809,6 +7374,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Bind",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Bind",
           "name": "Bind",
           "package": "hermit",
@@ -6823,6 +7389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternals for manipulating binding groups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Bind",
           "name": "externals",
           "package": "hermit",
@@ -6833,6 +7400,7 @@
         "index": {
           "description": "Externals for manipulating binding groups",
           "hierarchy": "HERMIT Dictionary Local Bind",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Bind",
           "name": "externals",
           "normalized": "[External]",
@@ -6848,6 +7416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eNonRec\u003c/a\u003e\u003c/code\u003e v e\u003c/code\u003e ==\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e [(v,e)]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Bind",
           "name": "nonrecToRecR",
           "package": "hermit",
@@ -6858,6 +7427,7 @@
         "index": {
           "description": "NonRec Rec",
           "hierarchy": "HERMIT Dictionary Local Bind",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Bind",
           "name": "nonrecToRecR",
           "package": "hermit",
@@ -6872,6 +7442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e [(v,e)]\u003c/code\u003e ==\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNonRec\u003c/a\u003e\u003c/code\u003e v e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Bind",
           "name": "recToNonrecR",
           "package": "hermit",
@@ -6882,6 +7453,7 @@
         "index": {
           "description": "Rec NonRec",
           "hierarchy": "HERMIT Dictionary Local Bind",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Bind",
           "name": "recToNonrecR",
           "package": "hermit",
@@ -6895,6 +7467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "Case",
           "package": "hermit",
@@ -6903,6 +7476,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "Case",
           "package": "hermit",
@@ -6917,6 +7491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEliminate a case, inlining any occurrences of the case binder as the scrutinee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseElimInlineScrutineeR",
           "package": "hermit",
@@ -6927,6 +7502,7 @@
         "index": {
           "description": "Eliminate case inlining any occurrences of the case binder as the scrutinee",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseElimInlineScrutineeR",
           "package": "hermit",
@@ -6941,6 +7517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEliminate a case, merging the case alternatives into a single default alternative and inlining the case binder as the scrutinee (if possible).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseElimMergeAltsR",
           "package": "hermit",
@@ -6951,6 +7528,7 @@
         "index": {
           "description": "Eliminate case merging the case alternatives into single default alternative and inlining the case binder as the scrutinee if possible",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseElimMergeAltsR",
           "package": "hermit",
@@ -6965,6 +7543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecase s of w; C vs -\u003e e ==\u003e e if w and vs are not free in e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseElimR",
           "package": "hermit",
@@ -6975,6 +7554,7 @@
         "index": {
           "description": "case of vs if and vs are not free in",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseElimR",
           "package": "hermit",
@@ -6989,6 +7569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEliminate a case that corresponds to a pointless \u003ccode\u003e\u003ca\u003eseq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseElimSeqR",
           "package": "hermit",
@@ -6999,6 +7580,7 @@
         "index": {
           "description": "Eliminate case that corresponds to pointless seq",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseElimSeqR",
           "package": "hermit",
@@ -7013,6 +7595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(case s of alt1 -\u003e e1; alt2 -\u003e e2) v ==\u003e case s of alt1 -\u003e e1 v; alt2 -\u003e e2 v\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatAppR",
           "package": "hermit",
@@ -7023,6 +7606,7 @@
         "index": {
           "description": "case of alt1 e1 alt2 e2 case of alt1 e1 alt2 e2",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatAppR",
           "package": "hermit",
@@ -7037,6 +7621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ef (case s of alt1 -\u003e e1; alt2 -\u003e e2)\u003c/code\u003e ==\u003e \u003ccode\u003ecase s of alt1 -\u003e f e1; alt2 -\u003e f e2\u003c/code\u003e\n   Only safe if \u003ccode\u003ef\u003c/code\u003e is strict.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatArgR",
           "package": "hermit",
@@ -7046,6 +7631,7 @@
         "index": {
           "description": "case of alt1 e1 alt2 e2 case of alt1 e1 alt2 e2 Only safe if is strict",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatArgR",
           "normalized": "Maybe(CoreExpr,Maybe(Rewrite a HermitM CoreExpr))-\u003eRewrite a HermitM CoreExpr",
@@ -7062,6 +7648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecase (case s1 of alt11 -\u003e e11; alt12 -\u003e e12) of alt21 -\u003e e21; alt22 -\u003e e22\n   ==\u003e\n   case s1 of\n     alt11 -\u003e case e11 of alt21 -\u003e e21; alt22 -\u003e e22\n     alt12 -\u003e case e12 of alt21 -\u003e e21; alt22 -\u003e e22\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatCaseR",
           "package": "hermit",
@@ -7072,6 +7659,7 @@
         "index": {
           "description": "case case s1 of alt11 e11 alt12 e12 of alt21 e21 alt22 e22 case s1 of alt11 case e11 of alt21 e21 alt22 e22 alt12 case e12 of alt21 e21 alt22 e22",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatCaseR",
           "package": "hermit",
@@ -7086,6 +7674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecast (case s of p -\u003e e) co ==\u003e case s of p -\u003e cast e co\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatCastR",
           "package": "hermit",
@@ -7096,6 +7685,7 @@
         "index": {
           "description": "cast case of co case of cast co",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatCastR",
           "package": "hermit",
@@ -7110,6 +7700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnimplemented!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatInAppR",
           "package": "hermit",
@@ -7120,6 +7711,7 @@
         "index": {
           "description": "Unimplemented",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatInAppR",
           "package": "hermit",
@@ -7133,6 +7725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatInArgsR",
           "package": "hermit",
@@ -7142,6 +7735,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatInArgsR",
           "package": "hermit",
@@ -7156,6 +7750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat in a Case whatever the context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatInR",
           "package": "hermit",
@@ -7166,6 +7761,7 @@
         "index": {
           "description": "Float in Case whatever the context",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatInR",
           "package": "hermit",
@@ -7180,6 +7776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elet v = case s of alt1 -\u003e e1 in e ==\u003e case s of alt1 -\u003e let v = e1 in e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatLetR",
           "package": "hermit",
@@ -7190,6 +7787,7 @@
         "index": {
           "description": "let case of alt1 e1 in case of alt1 let e1 in",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatLetR",
           "package": "hermit",
@@ -7204,6 +7802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecaseFloatR = caseFloatAppR \u003c+ caseFloatCaseR \u003c+ caseFloatLetR \u003c+ caseFloatCastR\n   Note: does NOT include caseFloatArg\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatR",
           "package": "hermit",
@@ -7214,6 +7813,7 @@
         "index": {
           "description": "caseFloatR caseFloatAppR caseFloatCaseR caseFloatLetR caseFloatCastR Note does NOT include caseFloatArg",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseFloatR",
           "package": "hermit",
@@ -7228,6 +7828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline the case wildcard binder as the case-alternative pattern everywhere in the case alternatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseInlineAlternativeR",
           "package": "hermit",
@@ -7238,6 +7839,7 @@
         "index": {
           "description": "Inline the case wildcard binder as the case-alternative pattern everywhere in the case alternatives",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseInlineAlternativeR",
           "package": "hermit",
@@ -7252,6 +7854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline the case wildcard binder as the case scrutinee everywhere in the case alternatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseInlineScrutineeR",
           "package": "hermit",
@@ -7262,6 +7865,7 @@
         "index": {
           "description": "Inline the case wildcard binder as the case scrutinee everywhere in the case alternatives",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseInlineScrutineeR",
           "package": "hermit",
@@ -7276,6 +7880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce evaluation of an identifier by introducing a case.\n   This is equivalent to adding \u003ccode\u003e(seq v)\u003c/code\u003e in the source code.\n\u003c/p\u003e\u003cp\u003ee -\u003e case v of v\n        _ -\u003e e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseIntroSeqR",
           "package": "hermit",
@@ -7286,6 +7891,7 @@
         "index": {
           "description": "Force evaluation of an identifier by introducing case This is equivalent to adding seq in the source code case of",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseIntroSeqR",
           "normalized": "Name-\u003eRewrite a HermitM CoreExpr",
@@ -7302,6 +7908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge all case alternatives into a single default case.\n   The RHS of each alternative must be the same.\n   \u003ccode\u003ecase s of {pat1 -\u003e e ; pat2 -\u003e e ; ... ; patn -\u003e e}\u003c/code\u003e ==\u003e \u003ccode\u003ecase s of {_ -\u003e e}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseMergeAltsR",
           "package": "hermit",
@@ -7312,6 +7919,7 @@
         "index": {
           "description": "Merge all case alternatives into single default case The RHS of each alternative must be the same case of pat1 pat2 patn case of",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseMergeAltsR",
           "package": "hermit",
@@ -7326,6 +7934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cleverer version of \u003ccode\u003emergeCaseAlts\u003c/code\u003e that first attempts to abstract out any occurrences of the alternative pattern using the wildcard binder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseMergeAltsWithWildR",
           "package": "hermit",
@@ -7336,6 +7945,7 @@
         "index": {
           "description": "cleverer version of mergeCaseAlts that first attempts to abstract out any occurrences of the alternative pattern using the wildcard binder",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseMergeAltsWithWildR",
           "package": "hermit",
@@ -7350,6 +7960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase of Known Constructor.\n   Eliminate a case if the scrutinee is a data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseReduceDataconR",
           "package": "hermit",
@@ -7360,6 +7971,7 @@
         "index": {
           "description": "Case of Known Constructor Eliminate case if the scrutinee is data constructor",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseReduceDataconR",
           "package": "hermit",
@@ -7374,6 +7986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline the case scrutinee (if it is an identifier), and then perform case reduction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseReduceIdR",
           "package": "hermit",
@@ -7384,6 +7997,7 @@
         "index": {
           "description": "Inline the case scrutinee if it is an identifier and then perform case reduction",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseReduceIdR",
           "package": "hermit",
@@ -7398,6 +8012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase of Known Constructor.\n   Eliminate a case if the scrutinee is a literal.\n NB: LitAlt cases don't do evaluation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseReduceLiteralR",
           "package": "hermit",
@@ -7408,6 +8023,7 @@
         "index": {
           "description": "Case of Known Constructor Eliminate case if the scrutinee is literal NB LitAlt cases don do evaluation",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseReduceLiteralR",
           "package": "hermit",
@@ -7422,6 +8038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase of Known Constructor.\n   Eliminate a case if the scrutinee is a data constructor or a literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseReduceR",
           "package": "hermit",
@@ -7432,6 +8049,7 @@
         "index": {
           "description": "Case of Known Constructor Eliminate case if the scrutinee is data constructor or literal",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseReduceR",
           "package": "hermit",
@@ -7446,6 +8064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike caseSplit, but additionally inlines the constructor applications\n for each occurance of the named variable.\n\u003c/p\u003e\u003cpre\u003e caseSplitInline nm = caseSplit nm \u003e\u003e\u003e anybuR (inlineName nm)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseSplitInlineR",
           "package": "hermit",
@@ -7456,6 +8075,7 @@
         "index": {
           "description": "Like caseSplit but additionally inlines the constructor applications for each occurance of the named variable caseSplitInline nm caseSplit nm anybuR inlineName nm",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseSplitInlineR",
           "normalized": "Name-\u003eRewrite a HermitM Core",
@@ -7472,6 +8092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase split a free identifier in an expression:\n\u003c/p\u003e\u003cp\u003eE.g. Assume expression e which mentions i :: [a]\n\u003c/p\u003e\u003cp\u003ee ==\u003e case i of i\n         []     -\u003e e\n         (a:as) -\u003e e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseSplitR",
           "package": "hermit",
@@ -7482,6 +8103,7 @@
         "index": {
           "description": "Case split free identifier in an expression E.g Assume expression which mentions case of as",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "caseSplitR",
           "normalized": "Name-\u003eRewrite a HermitM CoreExpr",
@@ -7498,6 +8120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternals relating to Case expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "externals",
           "package": "hermit",
@@ -7508,6 +8131,7 @@
         "index": {
           "description": "Externals relating to Case expressions",
           "hierarchy": "HERMIT Dictionary Local Case",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Case",
           "name": "externals",
           "normalized": "[External]",
@@ -7522,6 +8146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "Cast",
           "package": "hermit",
@@ -7530,6 +8155,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Cast",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "Cast",
           "package": "hermit",
@@ -7543,6 +8169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "castElimReflR",
           "package": "hermit",
@@ -7552,6 +8179,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Cast",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "castElimReflR",
           "package": "hermit",
@@ -7565,6 +8193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "castElimSymPlusR",
           "package": "hermit",
@@ -7574,6 +8203,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Cast",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "castElimSymPlusR",
           "package": "hermit",
@@ -7587,6 +8217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "castElimSymR",
           "package": "hermit",
@@ -7596,6 +8227,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Cast",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "castElimSymR",
           "package": "hermit",
@@ -7609,6 +8241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "castFloatAppR",
           "package": "hermit",
@@ -7618,6 +8251,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Cast",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "castFloatAppR",
           "package": "hermit",
@@ -7632,6 +8266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternals relating to Case expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "externals",
           "package": "hermit",
@@ -7642,6 +8277,7 @@
         "index": {
           "description": "Externals relating to Case expressions",
           "hierarchy": "HERMIT Dictionary Local Cast",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Cast",
           "name": "externals",
           "normalized": "[External]",
@@ -7656,6 +8292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "Let",
           "package": "hermit",
@@ -7664,6 +8301,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "Let",
           "package": "hermit",
@@ -7678,6 +8316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternals relating to \u003ccode\u003e\u003ca\u003eLet\u003c/a\u003e\u003c/code\u003e expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "externals",
           "package": "hermit",
@@ -7688,6 +8327,7 @@
         "index": {
           "description": "Externals relating to Let expressions",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "externals",
           "normalized": "[External]",
@@ -7702,6 +8342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letElimR",
           "package": "hermit",
@@ -7711,6 +8352,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letElimR",
           "package": "hermit",
@@ -7725,6 +8367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(let v = ev in e) x\u003c/code\u003e ==\u003e \u003ccode\u003elet v = ev in e x\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatAppR",
           "package": "hermit",
@@ -7735,6 +8378,7 @@
         "index": {
           "description": "let ev in let ev in",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatAppR",
           "package": "hermit",
@@ -7749,6 +8393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ef (let v = ev in e)\u003c/code\u003e ==\u003e \u003ccode\u003elet v = ev in f e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatArgR",
           "package": "hermit",
@@ -7759,6 +8404,7 @@
         "index": {
           "description": "let ev in let ev in",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatArgR",
           "package": "hermit",
@@ -7773,6 +8419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecase (let bnds in e) of wild alts\u003c/code\u003e ==\u003e \u003ccode\u003elet bnds in (case e of wild alts)\u003c/code\u003e\n   Fails if any variables bound in \u003ccode\u003ebnds\u003c/code\u003e occurs in \u003ccode\u003ealts\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatCaseR",
           "package": "hermit",
@@ -7783,6 +8430,7 @@
         "index": {
           "description": "case let bnds in of wild alts let bnds in case of wild alts Fails if any variables bound in bnds occurs in alts",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatCaseR",
           "package": "hermit",
@@ -7797,6 +8445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecast (let bnds in e) co\u003c/code\u003e ==\u003e \u003ccode\u003elet bnds in cast e co\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatCastR",
           "package": "hermit",
@@ -7807,6 +8456,7 @@
         "index": {
           "description": "cast let bnds in co let bnds in cast co",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatCastR",
           "package": "hermit",
@@ -7821,6 +8471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat a \u003ccode\u003e\u003ca\u003eLet\u003c/a\u003e\u003c/code\u003e through an expression, whatever the context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatExprR",
           "package": "hermit",
@@ -7831,6 +8482,7 @@
         "index": {
           "description": "Float Let through an expression whatever the context",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatExprR",
           "package": "hermit",
@@ -7845,6 +8497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elet v = ev in f a\u003c/code\u003e ==\u003e \u003ccode\u003e(let v = ev in f) (let v = ev in a)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatInAppR",
           "package": "hermit",
@@ -7855,6 +8508,7 @@
         "index": {
           "description": "let ev in let ev in let ev in",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatInAppR",
           "package": "hermit",
@@ -7869,6 +8523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elet v = ev in case s of p -\u003e e\u003c/code\u003e ==\u003e \u003ccode\u003ecase (let v = ev in s) of p -\u003e let v = ev in e\u003c/code\u003e,\n   if \u003ccode\u003ev\u003c/code\u003e does not shadow a pattern binder in \u003ccode\u003ep\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatInCaseR",
           "package": "hermit",
@@ -7879,6 +8534,7 @@
         "index": {
           "description": "let ev in case of case let ev in of let ev in if does not shadow pattern binder in",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatInCaseR",
           "package": "hermit",
@@ -7893,6 +8549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elet v = ev in  x -\u003e e\u003c/code\u003e ==\u003e \u003ccode\u003ex -\u003e let v = ev in e\u003c/code\u003e\n   if \u003ccode\u003ev\u003c/code\u003e does not shadow \u003ccode\u003ex\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatInLamR",
           "package": "hermit",
@@ -7903,6 +8560,7 @@
         "index": {
           "description": "let ev in let ev in if does not shadow",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatInLamR",
           "package": "hermit",
@@ -7917,6 +8575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat in a \u003ccode\u003e\u003ca\u003eLet\u003c/a\u003e\u003c/code\u003e if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatInR",
           "package": "hermit",
@@ -7927,6 +8586,7 @@
         "index": {
           "description": "Float in Let if possible",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatInR",
           "package": "hermit",
@@ -7941,6 +8601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e( v -\u003e let binds in e2)\u003c/code\u003e  ==\u003e  \u003ccode\u003elet binds in ( v1 -\u003e e2)\u003c/code\u003e\n   Fails if \u003ccode\u003ev\u003c/code\u003e occurs in the RHS of \u003ccode\u003ebinds\u003c/code\u003e.\n   If \u003ccode\u003ev\u003c/code\u003e is shadowed in binds, then \u003ccode\u003ev\u003c/code\u003e will be alpha-renamed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatLamR",
           "package": "hermit",
@@ -7951,6 +8612,7 @@
         "index": {
           "description": "let binds in e2 let binds in v1 e2 Fails if occurs in the RHS of binds If is shadowed in binds then will be alpha-renamed",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatLamR",
           "package": "hermit",
@@ -7965,6 +8627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elet v = (let bds in e1) in e2\u003c/code\u003e ==\u003e \u003ccode\u003elet bds in let v = e1 in e2\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatLetR",
           "package": "hermit",
@@ -7975,6 +8638,7 @@
         "index": {
           "description": "let let bds in e1 in e2 let bds in let e1 in e2",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatLetR",
           "package": "hermit",
@@ -7989,6 +8653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eProgCons\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eNonRec\u003c/a\u003e\u003c/code\u003e v (\u003ccode\u003e\u003ca\u003eLet\u003c/a\u003e\u003c/code\u003e bds e)) p\u003c/code\u003e ==\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eProgCons\u003c/a\u003e\u003c/code\u003e bds (\u003ccode\u003e\u003ca\u003eProgCons\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eNonRec\u003c/a\u003e\u003c/code\u003e v e) p)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatTopR",
           "package": "hermit",
@@ -7999,6 +8664,7 @@
         "index": {
           "description": "ProgCons NonRec Let bds ProgCons bds ProgCons NonRec",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letFloatTopR",
           "package": "hermit",
@@ -8013,6 +8679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ee\u003c/code\u003e ==\u003e \u003ccode\u003e(let v = e in v)\u003c/code\u003e, name of v is provided\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letIntroR",
           "package": "hermit",
@@ -8023,6 +8690,7 @@
         "index": {
           "description": "let in name of is provided",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letIntroR",
           "normalized": "String-\u003eRewrite a HermitM CoreExpr",
@@ -8039,6 +8707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an unused non-recursive let binding.\n   \u003ccode\u003elet v = E1 in E2\u003c/code\u003e ==\u003e \u003ccode\u003eE2\u003c/code\u003e, if \u003ccode\u003ev\u003c/code\u003e is not free in \u003ccode\u003eE2\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letNonRecElimR",
           "package": "hermit",
@@ -8049,6 +8718,7 @@
         "index": {
           "description": "Remove an unused non-recursive let binding let E1 in E2 E2 if is not free in E2",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letNonRecElimR",
           "package": "hermit",
@@ -8063,6 +8733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLet (NonRec v e) body\u003c/code\u003e ==\u003e \u003ccode\u003ebody[e/v]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letNonRecSubstR",
           "package": "hermit",
@@ -8073,6 +8744,7 @@
         "index": {
           "description": "Let NonRec body body",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letNonRecSubstR",
           "package": "hermit",
@@ -8087,6 +8759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrently we always substitute types and coercions, and use a heuristic to decide whether to substitute expressions.\n   This may need revisiting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letNonRecSubstSafeR",
           "package": "hermit",
@@ -8097,6 +8770,7 @@
         "index": {
           "description": "Currently we always substitute types and coercions and use heuristic to decide whether to substitute expressions This may need revisiting",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letNonRecSubstSafeR",
           "package": "hermit",
@@ -8111,6 +8785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all unused recursive let bindings in the current group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letRecElimR",
           "package": "hermit",
@@ -8121,6 +8796,7 @@
         "index": {
           "description": "Remove all unused recursive let bindings in the current group",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letRecElimR",
           "package": "hermit",
@@ -8135,6 +8811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(let x = e1 in e2) ==\u003e (e2[e1/x]), (x must not be free in e1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letSubstR",
           "package": "hermit",
@@ -8145,6 +8822,7 @@
         "index": {
           "description": "let e1 in e2 e2 e1 must not be free in e1",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letSubstR",
           "package": "hermit",
@@ -8159,6 +8837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003eletNonRecSubstSafeR\u003c/a\u003e\u003c/code\u003e, but attempting to convert a singleton recursive binding to a non-recursive binding first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letSubstSafeR",
           "package": "hermit",
@@ -8169,6 +8848,7 @@
         "index": {
           "description": "As letNonRecSubstSafeR but attempting to convert singleton recursive binding to non-recursive binding first",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letSubstSafeR",
           "package": "hermit",
@@ -8183,6 +8863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elet v = ev in e\u003c/code\u003e ==\u003e \u003ccode\u003ecase ev of v -\u003e e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letToCaseR",
           "package": "hermit",
@@ -8193,6 +8874,7 @@
         "index": {
           "description": "let ev in case ev of",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letToCaseR",
           "package": "hermit",
@@ -8207,6 +8889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine nested non-recursive lets into case of a tuple.\n   E.g. let {v1 = e1 ; v2 = e2 ; v3 = e3} in body ==\u003e case (e1,e2,e3) of {(v1,v2,v3) -\u003e body}\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letTupleR",
           "package": "hermit",
@@ -8217,6 +8900,7 @@
         "index": {
           "description": "Combine nested non-recursive lets into case of tuple E.g let v1 e1 v2 e2 v3 e3 in body case e1 e2 e3 of v1 v2 v3 body",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "letTupleR",
           "normalized": "String-\u003eRewrite a HermitM CoreExpr",
@@ -8232,6 +8916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "progBindElimR",
           "package": "hermit",
@@ -8241,6 +8926,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "progBindElimR",
           "package": "hermit",
@@ -8254,6 +8940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "progBindNonRecElimR",
           "package": "hermit",
@@ -8263,6 +8950,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "progBindNonRecElimR",
           "package": "hermit",
@@ -8277,6 +8965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all unused bindings at the top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "progBindRecElimR",
           "package": "hermit",
@@ -8287,6 +8976,7 @@
         "index": {
           "description": "Remove all unused bindings at the top level",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "progBindRecElimR",
           "package": "hermit",
@@ -8301,6 +8991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-order a sequence of nested non-recursive let bindings.\n   The argument list should contain the let-bound variables, in the desired order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "reorderNonRecLetsR",
           "package": "hermit",
@@ -8311,6 +9002,7 @@
         "index": {
           "description": "Re-order sequence of nested non-recursive let bindings The argument list should contain the let-bound variables in the desired order",
           "hierarchy": "HERMIT Dictionary Local Let",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local.Let",
           "name": "reorderNonRecLetsR",
           "normalized": "[Name]-\u003eRewrite a b CoreExpr",
@@ -8326,6 +9018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "Local",
           "package": "hermit",
@@ -8334,6 +9027,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "Local",
           "package": "hermit",
@@ -8348,6 +9042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract over a variable using a lambda.\n   e  ==\u003e  ( x. e) x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "abstractR",
           "package": "hermit",
@@ -8358,6 +9053,7 @@
         "index": {
           "description": "Abstract over variable using lambda",
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "abstractR",
           "normalized": "Name-\u003eRewrite a HermitM CoreExpr",
@@ -8373,6 +9069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(let v = e1 in e2) ==\u003e (\\ v -\u003e e2) e1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "betaExpandR",
           "package": "hermit",
@@ -8383,6 +9080,7 @@
         "index": {
           "description": "let e1 in e2 e2 e1",
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "betaExpandR",
           "package": "hermit",
@@ -8397,6 +9095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform one or more beta-reductions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "betaReducePlusR",
           "package": "hermit",
@@ -8407,6 +9106,7 @@
         "index": {
           "description": "Perform one or more beta-reductions",
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "betaReducePlusR",
           "package": "hermit",
@@ -8421,6 +9121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e((\\ v -\u003e e1) e2)\u003c/code\u003e ==\u003e \u003ccode\u003e(let v = e2 in e1)\u003c/code\u003e\n   This form of beta-reduction is safe if e2 is an arbitrary\n   expression (won't duplicate work).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "betaReduceR",
           "package": "hermit",
@@ -8431,6 +9132,7 @@
         "index": {
           "description": "e1 e2 let e2 in e1 This form of beta-reduction is safe if e2 is an arbitrary expression won duplicate work",
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "betaReduceR",
           "package": "hermit",
@@ -8445,6 +9147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ee1 ==\u003e (\\ v -\u003e e1 v)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "etaExpandR",
           "package": "hermit",
@@ -8455,6 +9158,7 @@
         "index": {
           "description": "e1 e1",
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "etaExpandR",
           "normalized": "String-\u003eRewrite a HermitM CoreExpr",
@@ -8471,6 +9175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(\\ v -\u003e f v) ==\u003e f\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "etaReduceR",
           "package": "hermit",
@@ -8480,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "etaReduceR",
           "package": "hermit",
@@ -8494,6 +9200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternals for local structural manipulations.\n   (Many taken from Chapter 3 of Andre Santos' dissertation.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "externals",
           "package": "hermit",
@@ -8504,6 +9211,7 @@
         "index": {
           "description": "Externals for local structural manipulations Many taken from Chapter of Andre Santos dissertation",
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "externals",
           "normalized": "[External]",
@@ -8519,6 +9227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten all the top-level binding groups in the module to a single recursive binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "flattenModuleR",
           "package": "hermit",
@@ -8529,6 +9238,7 @@
         "index": {
           "description": "Flatten all the top-level binding groups in the module to single recursive binding group",
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "flattenModuleR",
           "package": "hermit",
@@ -8543,6 +9253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten all the top-level binding groups in a program to a program containing a single recursive binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "flattenProgramR",
           "package": "hermit",
@@ -8553,6 +9264,7 @@
         "index": {
           "description": "Flatten all the top-level binding groups in program to program containing single recursive binding group",
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "flattenProgramR",
           "package": "hermit",
@@ -8567,6 +9279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten all the top-level binding groups in a program to a single recursive binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "flattenProgramT",
           "package": "hermit",
@@ -8577,6 +9290,7 @@
         "index": {
           "description": "Flatten all the top-level binding groups in program to single recursive binding group",
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "flattenProgramT",
           "package": "hermit",
@@ -8591,6 +9305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform multiple eta-expansions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "multiEtaExpandR",
           "package": "hermit",
@@ -8601,6 +9316,7 @@
         "index": {
           "description": "Perform multiple eta-expansions",
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "multiEtaExpandR",
           "normalized": "[String]-\u003eRewrite a HermitM CoreExpr",
@@ -8617,6 +9333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush a function through a Case or Let expression.\n   Unsafe if the function is not strict.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Local",
           "name": "pushR",
           "package": "hermit",
@@ -8626,6 +9343,7 @@
         "index": {
           "description": "Push function through Case or Let expression Unsafe if the function is not strict",
           "hierarchy": "HERMIT Dictionary Local",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Local",
           "name": "pushR",
           "normalized": "Maybe(Rewrite a HermitM CoreExpr)-\u003e(Id-\u003eBool)-\u003eRewrite a HermitM CoreExpr",
@@ -8640,6 +9358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation.Crumbs",
           "name": "Crumbs",
           "package": "hermit",
@@ -8648,6 +9367,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation Crumbs",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation.Crumbs",
           "name": "Crumbs",
           "package": "hermit",
@@ -8662,6 +9382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003es for individual \u003ccode\u003e\u003ca\u003eCrumb\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation.Crumbs",
           "name": "crumbExternals",
           "package": "hermit",
@@ -8672,6 +9393,7 @@
         "index": {
           "description": "External for individual Crumb",
           "hierarchy": "HERMIT Dictionary Navigation Crumbs",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation.Crumbs",
           "name": "crumbExternals",
           "normalized": "[External]",
@@ -8687,6 +9409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Navigation",
           "package": "hermit",
@@ -8695,6 +9418,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Navigation",
           "package": "hermit",
@@ -8709,6 +9433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage constructs that can be zoomed to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Considerable",
           "package": "hermit",
@@ -8718,6 +9443,7 @@
         "index": {
           "description": "Language constructs that can be zoomed to",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Considerable",
           "package": "hermit",
@@ -8731,6 +9457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Application",
           "package": "hermit",
@@ -8740,6 +9467,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Application",
           "package": "hermit",
@@ -8753,6 +9481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Binding",
           "package": "hermit",
@@ -8762,6 +9491,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Binding",
           "package": "hermit",
@@ -8775,6 +9505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "CaseAlt",
           "package": "hermit",
@@ -8784,6 +9515,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "CaseAlt",
           "package": "hermit",
@@ -8797,6 +9529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "CaseOf",
           "package": "hermit",
@@ -8806,6 +9539,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "CaseOf",
           "package": "hermit",
@@ -8819,6 +9553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Casty",
           "package": "hermit",
@@ -8828,6 +9563,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Casty",
           "package": "hermit",
@@ -8841,6 +9577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "CoercionExpr",
           "package": "hermit",
@@ -8850,6 +9587,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "CoercionExpr",
           "package": "hermit",
@@ -8863,6 +9601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Definition",
           "package": "hermit",
@@ -8872,6 +9611,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Definition",
           "package": "hermit",
@@ -8885,6 +9625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Lambda",
           "package": "hermit",
@@ -8894,6 +9635,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Lambda",
           "package": "hermit",
@@ -8907,6 +9649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "LetExpr",
           "package": "hermit",
@@ -8916,6 +9659,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "LetExpr",
           "package": "hermit",
@@ -8929,6 +9673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Literal",
           "package": "hermit",
@@ -8938,6 +9683,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Literal",
           "package": "hermit",
@@ -8951,6 +9697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Ticky",
           "package": "hermit",
@@ -8960,6 +9707,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Ticky",
           "package": "hermit",
@@ -8973,6 +9721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "TypeExpr",
           "package": "hermit",
@@ -8982,6 +9731,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "TypeExpr",
           "package": "hermit",
@@ -8995,6 +9745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Variable",
           "package": "hermit",
@@ -9004,6 +9755,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "Variable",
           "package": "hermit",
@@ -9018,6 +9770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the path to the binding group of a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "bindingGroupOfT",
           "package": "hermit",
@@ -9028,6 +9781,7 @@
         "index": {
           "description": "Find the path to the binding group of variable",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "bindingGroupOfT",
           "normalized": "(Var-\u003eBool)-\u003eTranslate a b CoreTC LocalPathH",
@@ -9044,6 +9798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all possible targets of \u003ccode\u003e\u003ca\u003ebindingGroupOfT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "bindingGroupOfTargetsT",
           "package": "hermit",
@@ -9054,6 +9809,7 @@
         "index": {
           "description": "Find all possible targets of bindingGroupOfT",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "bindingGroupOfTargetsT",
           "package": "hermit",
@@ -9068,6 +9824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the path to the binding of a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "bindingOfT",
           "package": "hermit",
@@ -9078,6 +9835,7 @@
         "index": {
           "description": "Find the path to the binding of variable",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "bindingOfT",
           "normalized": "(Var-\u003eBool)-\u003eTranslate a b CoreTC LocalPathH",
@@ -9094,6 +9852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all possible targets of \u003ccode\u003e\u003ca\u003ebindingOfT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "bindingOfTargetsT",
           "package": "hermit",
@@ -9104,6 +9863,7 @@
         "index": {
           "description": "Find all possible targets of bindingOfT",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "bindingOfTargetsT",
           "package": "hermit",
@@ -9118,6 +9878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the path to the first matching construct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "considerConstructT",
           "package": "hermit",
@@ -9128,6 +9889,7 @@
         "index": {
           "description": "Find the path to the first matching construct",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "considerConstructT",
           "normalized": "Considerable-\u003eTranslate a b Core LocalPathH",
@@ -9144,6 +9906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup table for constructs that can be considered; the keys are the arguments the user can give to the \"consider\" command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "considerables",
           "package": "hermit",
@@ -9154,6 +9917,7 @@
         "index": {
           "description": "Lookup table for constructs that can be considered the keys are the arguments the user can give to the consider command",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "considerables",
           "normalized": "[(String,Considerable)]",
@@ -9169,6 +9933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003es involving navigating to named entities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "externals",
           "package": "hermit",
@@ -9179,6 +9944,7 @@
         "index": {
           "description": "External involving navigating to named entities",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "externals",
           "normalized": "[External]",
@@ -9194,6 +9960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a path to the (n-1)th argument in a nested sequence of \u003ccode\u003e\u003ca\u003eApp\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "nthArgPath",
           "package": "hermit",
@@ -9204,6 +9971,7 @@
         "index": {
           "description": "Construct path to the n-1 th argument in nested sequence of App",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "nthArgPath",
           "normalized": "Int-\u003eTranslate a b CoreExpr LocalPathH",
@@ -9220,6 +9988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the path to the first occurrence occurrence of a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "occurrenceOfT",
           "package": "hermit",
@@ -9230,6 +9999,7 @@
         "index": {
           "description": "Find the path to the first occurrence occurrence of variable",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "occurrenceOfT",
           "normalized": "(Var-\u003eBool)-\u003eTranslate a b CoreTC LocalPathH",
@@ -9246,6 +10016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all possible targets of \u003ccode\u003e\u003ca\u003eoccurrenceOfT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "occurrenceOfTargetsT",
           "package": "hermit",
@@ -9256,6 +10027,7 @@
         "index": {
           "description": "Find all possible targets of occurrenceOfT",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "occurrenceOfTargetsT",
           "package": "hermit",
@@ -9270,6 +10042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard the last crumb of a non-empty \u003ccode\u003e\u003ca\u003eLocalPathH\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "parentOfT",
           "package": "hermit",
@@ -9280,6 +10053,7 @@
         "index": {
           "description": "Discard the last crumb of non-empty LocalPathH",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "parentOfT",
           "normalized": "Translate a b c LocalPathH-\u003eTranslate a b c LocalPathH",
@@ -9296,6 +10070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the path to the RHS of a binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "rhsOfT",
           "package": "hermit",
@@ -9306,6 +10081,7 @@
         "index": {
           "description": "Find the path to the RHS of binding",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "rhsOfT",
           "normalized": "(Var-\u003eBool)-\u003eTranslate a b Core LocalPathH",
@@ -9322,6 +10098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all possible targets of \u003ccode\u003e\u003ca\u003erhsOfT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "rhsOfTargetsT",
           "package": "hermit",
@@ -9332,6 +10109,7 @@
         "index": {
           "description": "Find all possible targets of rhsOfT",
           "hierarchy": "HERMIT Dictionary Navigation",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Navigation",
           "name": "rhsOfTargetsT",
           "package": "hermit",
@@ -9345,6 +10123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.New",
           "name": "New",
           "package": "hermit",
@@ -9353,6 +10132,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary New",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.New",
           "name": "New",
           "package": "hermit",
@@ -9366,6 +10146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.New",
           "name": "externals",
           "package": "hermit",
@@ -9375,6 +10156,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary New",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.New",
           "name": "externals",
           "normalized": "[External]",
@@ -9390,6 +10172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the current expression is an identifier matching the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.New",
           "name": "isVar",
           "package": "hermit",
@@ -9400,6 +10183,7 @@
         "index": {
           "description": "Test if the current expression is an identifier matching the given name",
           "hierarchy": "HERMIT Dictionary New",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.New",
           "name": "isVar",
           "normalized": "Name-\u003eTranslate a b CoreExpr()",
@@ -9416,6 +10200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebody\u003c/code\u003e ==\u003e \u003ccode\u003elet v = e in body\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.New",
           "name": "letNonRecIntroR",
           "package": "hermit",
@@ -9426,6 +10211,7 @@
         "index": {
           "description": "body let in body",
           "hierarchy": "HERMIT Dictionary New",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.New",
           "name": "letNonRecIntroR",
           "normalized": "String-\u003eCoreString-\u003eRewriteH CoreExpr",
@@ -9442,6 +10228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprog\u003c/code\u003e ==\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eProgCons\u003c/a\u003e\u003c/code\u003e (v = e) prog\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.New",
           "name": "progNonRecIntroR",
           "package": "hermit",
@@ -9452,6 +10239,7 @@
         "index": {
           "description": "prog ProgCons prog",
           "hierarchy": "HERMIT Dictionary New",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.New",
           "name": "progNonRecIntroR",
           "normalized": "String-\u003eCoreString-\u003eRewriteH CoreProg",
@@ -9467,6 +10255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Query",
           "name": "Query",
           "package": "hermit",
@@ -9475,6 +10264,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Query",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Query",
           "name": "Query",
           "package": "hermit",
@@ -9489,6 +10279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare the definitions of two identifiers for alpha-equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Query",
           "name": "compareBoundIdsT",
           "package": "hermit",
@@ -9499,6 +10290,7 @@
         "index": {
           "description": "Compare the definitions of two identifiers for alpha-equality",
           "hierarchy": "HERMIT Dictionary Query",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Query",
           "name": "compareBoundIdsT",
           "normalized": "Id-\u003eId-\u003eTranslate a HermitM b()",
@@ -9515,6 +10307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare the core fragments at the end of the specified \u003ccode\u003e\u003ca\u003eLocalPathH\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Query",
           "name": "compareCoreAtT",
           "package": "hermit",
@@ -9525,6 +10318,7 @@
         "index": {
           "description": "Compare the core fragments at the end of the specified LocalPathH",
           "hierarchy": "HERMIT Dictionary Query",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Query",
           "name": "compareCoreAtT",
           "normalized": "Translate a b Core LocalPathH-\u003eTranslate a b Core LocalPathH-\u003eTranslate a b Core()",
@@ -9541,6 +10335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternals that reflect GHC functions, or are derived from GHC functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Query",
           "name": "externals",
           "package": "hermit",
@@ -9551,6 +10346,7 @@
         "index": {
           "description": "Externals that reflect GHC functions or are derived from GHC functions",
           "hierarchy": "HERMIT Dictionary Query",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Query",
           "name": "externals",
           "normalized": "[External]",
@@ -9565,6 +10361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Query",
           "name": "infoT",
           "package": "hermit",
@@ -9574,6 +10371,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Query",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Query",
           "name": "infoT",
           "package": "hermit",
@@ -9586,6 +10384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "Reasoning",
           "package": "hermit",
@@ -9594,6 +10393,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Reasoning",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "Reasoning",
           "package": "hermit",
@@ -9607,6 +10407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "externals",
           "package": "hermit",
@@ -9616,6 +10417,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Reasoning",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "externals",
           "normalized": "[External]",
@@ -9631,6 +10433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven f :: X -\u003e Y and g :: Y -\u003e X, and a proof that f (g y) ==\u003e y, then f (g y) \u003ca\u003e==\u003c/a\u003e y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "retractionBR",
           "package": "hermit",
@@ -9641,6 +10444,7 @@
         "index": {
           "description": "Given and and proof that then",
           "hierarchy": "HERMIT Dictionary Reasoning",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "retractionBR",
           "normalized": "a b Maybe(Rewrite c HermitM CoreExpr)-\u003eCoreExpr-\u003eCoreExpr-\u003eBiRewrite c HermitM CoreExpr",
@@ -9657,6 +10461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven two expressions, and a rewrite from the former to the latter, verify that rewrite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "verifyEqualityCommonTargetT",
           "package": "hermit",
@@ -9667,6 +10472,7 @@
         "index": {
           "description": "Given two expressions and rewrite from the former to the latter verify that rewrite",
           "hierarchy": "HERMIT Dictionary Reasoning",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "verifyEqualityCommonTargetT",
           "normalized": "CoreExpr-\u003eCoreExpr-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr-\u003eTranslate a b c()",
@@ -9683,6 +10489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven two expressions, and a rewrite from the former to the latter, verify that rewrite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "verifyEqualityLeftToRightT",
           "package": "hermit",
@@ -9693,6 +10500,7 @@
         "index": {
           "description": "Given two expressions and rewrite from the former to the latter verify that rewrite",
           "hierarchy": "HERMIT Dictionary Reasoning",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "verifyEqualityLeftToRightT",
           "normalized": "CoreExpr-\u003eCoreExpr-\u003eRewrite a b CoreExpr-\u003eTranslate a b c()",
@@ -9709,6 +10517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven f :: X -\u003e Y and g :: Y -\u003e X, verify that f (g y) ==\u003e y and g (f x) ==\u003e x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "verifyIsomorphismT",
           "package": "hermit",
@@ -9719,6 +10528,7 @@
         "index": {
           "description": "Given and verify that and",
           "hierarchy": "HERMIT Dictionary Reasoning",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "verifyIsomorphismT",
           "normalized": "CoreExpr-\u003eCoreExpr-\u003eRewrite a HermitM CoreExpr-\u003eRewrite a HermitM CoreExpr-\u003eTranslate a HermitM b()",
@@ -9735,6 +10545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven f :: X -\u003e Y and g :: Y -\u003e X, verify that f (g y) ==\u003e y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "verifyRetractionT",
           "package": "hermit",
@@ -9745,6 +10556,7 @@
         "index": {
           "description": "Given and verify that",
           "hierarchy": "HERMIT Dictionary Reasoning",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Reasoning",
           "name": "verifyRetractionT",
           "normalized": "CoreExpr-\u003eCoreExpr-\u003eRewrite a HermitM CoreExpr-\u003eTranslate a HermitM b()",
@@ -9760,6 +10572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "Undefined",
           "package": "hermit",
@@ -9768,6 +10581,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "Undefined",
           "package": "hermit",
@@ -9782,6 +10596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eerror ty string ==\u003e undefined ty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "errorToUndefinedR",
           "package": "hermit",
@@ -9792,6 +10607,7 @@
         "index": {
           "description": "error ty string undefined ty",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "errorToUndefinedR",
           "package": "hermit",
@@ -9805,6 +10621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "externals",
           "package": "hermit",
@@ -9814,6 +10631,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "externals",
           "normalized": "[External]",
@@ -9829,6 +10647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the current expression is an undefined value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "isUndefinedValT",
           "package": "hermit",
@@ -9839,6 +10658,7 @@
         "index": {
           "description": "Check if the current expression is an undefined value",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "isUndefinedValT",
           "normalized": "Translate a b CoreExpr()",
@@ -9855,6 +10675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an undefined value of the given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "mkUndefinedValT",
           "package": "hermit",
@@ -9865,6 +10686,7 @@
         "index": {
           "description": "Make an undefined value of the given type",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "mkUndefinedValT",
           "normalized": "Type-\u003eTranslate a b c CoreExpr",
@@ -9881,6 +10703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current expression to \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "replaceWithUndefinedR",
           "package": "hermit",
@@ -9891,6 +10714,7 @@
         "index": {
           "description": "Set the current expression to undefined",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "replaceWithUndefinedR",
           "package": "hermit",
@@ -9905,6 +10729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(undefined ty1) e\u003c/code\u003e ==\u003e \u003ccode\u003eundefined ty2\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedAppR",
           "package": "hermit",
@@ -9915,6 +10740,7 @@
         "index": {
           "description": "undefined ty1 undefined ty2",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedAppR",
           "package": "hermit",
@@ -9929,6 +10755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecase e of {pat_1 -\u003e undefined ty ; pat_2 -\u003e undefined ty ; ... ; pat_n -\u003e undefined ty} ==\u003e undefined ty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedCaseAltsR",
           "package": "hermit",
@@ -9939,6 +10766,7 @@
         "index": {
           "description": "case of pat undefined ty pat undefined ty pat undefined ty undefined ty",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedCaseAltsR",
           "package": "hermit",
@@ -9953,6 +10781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eundefinedCaseR = undefinedCaseScrutineeR \u003c+ undefinedCaseAltsR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedCaseR",
           "package": "hermit",
@@ -9963,6 +10792,7 @@
         "index": {
           "description": "undefinedCaseR undefinedCaseScrutineeR undefinedCaseAltsR",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedCaseR",
           "package": "hermit",
@@ -9977,6 +10807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecase (undefined ty) of alts ==\u003e undefined ty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedCaseScrutineeR",
           "package": "hermit",
@@ -9987,6 +10818,7 @@
         "index": {
           "description": "case undefined ty of alts undefined ty",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedCaseScrutineeR",
           "package": "hermit",
@@ -10001,6 +10833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast (undefined ty1) co ==\u003e undefined ty2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedCastR",
           "package": "hermit",
@@ -10011,6 +10844,7 @@
         "index": {
           "description": "Cast undefined ty1 co undefined ty2",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedCastR",
           "package": "hermit",
@@ -10025,6 +10859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eundefinedExprR = undefinedAppR \u003c+ undefinedLamR \u003c+ undefinedLetR \u003c+ undefinedCastR \u003c+ undefinedTickR \u003c+ undefinedCaseR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedExprR",
           "package": "hermit",
@@ -10035,6 +10870,7 @@
         "index": {
           "description": "undefinedExprR undefinedAppR undefinedLamR undefinedLetR undefinedCastR undefinedTickR undefinedCaseR",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedExprR",
           "package": "hermit",
@@ -10049,6 +10885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e( v -\u003e undefined ty1)\u003c/code\u003e ==\u003e \u003ccode\u003eundefined ty2\u003c/code\u003e  (where v is not a \u003ccode\u003e\u003ca\u003eTyVar\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedLamR",
           "package": "hermit",
@@ -10059,6 +10896,7 @@
         "index": {
           "description": "undefined ty1 undefined ty2 where is not TyVar",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedLamR",
           "package": "hermit",
@@ -10073,6 +10911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elet bds in (undefined ty) ==\u003e undefined ty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedLetR",
           "package": "hermit",
@@ -10083,6 +10922,7 @@
         "index": {
           "description": "let bds in undefined ty undefined ty",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedLetR",
           "package": "hermit",
@@ -10097,6 +10937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTick tick (undefined ty1) ==\u003e undefined ty1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedTickR",
           "package": "hermit",
@@ -10107,6 +10948,7 @@
         "index": {
           "description": "Tick tick undefined ty1 undefined ty1",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "undefinedTickR",
           "package": "hermit",
@@ -10121,6 +10963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify that the given rewrite is a proof that the given expression is a strict function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "verifyStrictT",
           "package": "hermit",
@@ -10131,6 +10974,7 @@
         "index": {
           "description": "Verify that the given rewrite is proof that the given expression is strict function",
           "hierarchy": "HERMIT Dictionary Undefined",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Undefined",
           "name": "verifyStrictT",
           "normalized": "CoreExpr-\u003eRewrite a b CoreExpr-\u003eTranslate a b c()",
@@ -10146,6 +10990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "Unfold",
           "package": "hermit",
@@ -10154,6 +10999,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "Unfold",
           "package": "hermit",
@@ -10168,6 +11014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecleanupUnfoldR cleans a unfold operation\n  (for example, an inline or rule application)\n It is used at the level of the top-redex.\n Invariant: will not introduce let bindings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "cleanupUnfoldR",
           "package": "hermit",
@@ -10178,6 +11025,7 @@
         "index": {
           "description": "cleanupUnfoldR cleans unfold operation for example an inline or rule application It is used at the level of the top-redex Invariant will not introduce let bindings",
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "cleanupUnfoldR",
           "package": "hermit",
@@ -10191,6 +11039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "externals",
           "package": "hermit",
@@ -10200,6 +11049,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "externals",
           "normalized": "[External]",
@@ -10215,6 +11065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStash a binding with a name for later use.\n Allows us to look at past definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "rememberR",
           "package": "hermit",
@@ -10225,6 +11076,7 @@
         "index": {
           "description": "Stash binding with name for later use Allows us to look at past definitions",
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "rememberR",
           "normalized": "Label-\u003eRewrite a HermitM Core",
@@ -10239,6 +11091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "showStashT",
           "package": "hermit",
@@ -10248,6 +11101,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "showStashT",
           "normalized": "PrettyC-\u003ePrettyH a-\u003eTranslate b HermitM a DocH",
@@ -10263,6 +11117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "specializeR",
           "package": "hermit",
@@ -10272,6 +11127,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "specializeR",
           "package": "hermit",
@@ -10284,6 +11140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldNameR",
           "package": "hermit",
@@ -10293,6 +11150,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldNameR",
           "normalized": "Name-\u003eRewrite a HermitM CoreExpr",
@@ -10308,6 +11166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldNamesR",
           "package": "hermit",
@@ -10317,6 +11176,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldNamesR",
           "normalized": "[Name]-\u003eRewrite a HermitM CoreExpr",
@@ -10332,6 +11192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldPredR",
           "package": "hermit",
@@ -10341,6 +11202,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldPredR",
           "normalized": "(Id-\u003e[CoreExpr]-\u003eBool)-\u003eRewrite a HermitM CoreExpr",
@@ -10357,6 +11219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more powerful \u003ccode\u003einline\u003c/code\u003e. Matches two cases:\n      Var ==\u003e inlines\n      App ==\u003e inlines the head of the function call for the app tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldR",
           "package": "hermit",
@@ -10367,6 +11230,7 @@
         "index": {
           "description": "more powerful inline Matches two cases Var inlines App inlines the head of the function call for the app tree",
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldR",
           "package": "hermit",
@@ -10379,6 +11243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldSaturatedR",
           "package": "hermit",
@@ -10388,6 +11253,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldSaturatedR",
           "package": "hermit",
@@ -10402,6 +11268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStash a binding with a name for later use.\n Allows us to look at past definitions.\n rememberR :: String -\u003e Translate c m Core ()\n rememberR label = contextfreeT $  core -\u003e\n     case core of\n         DefCore def -\u003e saveDef label def\n         BindCore (NonRec i e) -\u003e saveDef label (Def i e)\n         _           -\u003e fail \u003ca\u003eremember: not a binding\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eApply a stashed definition (like inline, but looks in stash instead of context).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldStashR",
           "package": "hermit",
@@ -10412,6 +11279,7 @@
         "index": {
           "description": "Stash binding with name for later use Allows us to look at past definitions rememberR String Translate Core rememberR label contextfreeT core case core of DefCore def saveDef label def BindCore NonRec saveDef label Def fail remember not binding Apply stashed definition like inline but looks in stash instead of context",
           "hierarchy": "HERMIT Dictionary Unfold",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unfold",
           "name": "unfoldStashR",
           "normalized": "String-\u003eRewrite a HermitM CoreExpr",
@@ -10427,6 +11295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unsafe",
           "name": "Unsafe",
           "package": "hermit",
@@ -10435,6 +11304,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unsafe",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unsafe",
           "name": "Unsafe",
           "package": "hermit",
@@ -10448,6 +11318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unsafe",
           "name": "externals",
           "package": "hermit",
@@ -10457,6 +11328,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unsafe",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unsafe",
           "name": "externals",
           "normalized": "[External]",
@@ -10471,6 +11343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unsafe",
           "name": "unsafeReplaceR",
           "package": "hermit",
@@ -10480,6 +11353,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unsafe",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unsafe",
           "name": "unsafeReplaceR",
           "normalized": "CoreString-\u003eRewriteH CoreExpr",
@@ -10495,6 +11369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.Unsafe",
           "name": "unsafeReplaceStashR",
           "package": "hermit",
@@ -10504,6 +11379,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary Unsafe",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.Unsafe",
           "name": "unsafeReplaceStashR",
           "normalized": "String-\u003eRewriteH CoreExpr",
@@ -10519,6 +11395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "Common",
           "package": "hermit",
@@ -10527,6 +11404,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary WorkerWrapper Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "Common",
           "package": "hermit",
@@ -10540,6 +11418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "WWAssumption",
           "package": "hermit",
@@ -10548,6 +11427,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary WorkerWrapper Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "WWAssumption",
           "package": "hermit",
@@ -10561,6 +11441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "WWAssumptionTag",
           "package": "hermit",
@@ -10569,6 +11450,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary WorkerWrapper Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "WWAssumptionTag",
           "package": "hermit",
@@ -10582,6 +11464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "A",
           "package": "hermit",
@@ -10591,6 +11474,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary WorkerWrapper Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "A",
           "package": "hermit",
@@ -10603,6 +11487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "B",
           "package": "hermit",
@@ -10612,6 +11497,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary WorkerWrapper Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "B",
           "package": "hermit",
@@ -10624,6 +11510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "C",
           "package": "hermit",
@@ -10633,6 +11520,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary WorkerWrapper Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "C",
           "package": "hermit",
@@ -10645,6 +11533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "WWAssumption",
           "package": "hermit",
@@ -10654,6 +11543,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary WorkerWrapper Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "WWAssumption",
           "package": "hermit",
@@ -10667,6 +11557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "workLabel",
           "package": "hermit",
@@ -10676,6 +11567,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary WorkerWrapper Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Common",
           "name": "workLabel",
           "package": "hermit",
@@ -10689,6 +11581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "Fix",
           "package": "hermit",
@@ -10697,6 +11590,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary WorkerWrapper Fix",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "Fix",
           "package": "hermit",
@@ -10711,6 +11605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternals for manipulating fixed points, and for the worker/wrapper transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "externals",
           "package": "hermit",
@@ -10721,6 +11616,7 @@
         "index": {
           "description": "Externals for manipulating fixed points and for the worker wrapper transformation",
           "hierarchy": "HERMIT Dictionary WorkerWrapper Fix",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "externals",
           "normalized": "[External]",
@@ -10736,6 +11632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewrap (unwrap a)\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwAssA",
           "package": "hermit",
@@ -10745,6 +11642,7 @@
         "index": {
           "description": "wrap unwrap",
           "hierarchy": "HERMIT Dictionary WorkerWrapper Fix",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwAssA",
           "normalized": "Maybe(RewriteH CoreExpr)-\u003eCoreExpr-\u003eCoreExpr-\u003eBiRewriteH CoreExpr",
@@ -10761,6 +11659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewrap (unwrap (f a))\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003ef a\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwAssB",
           "package": "hermit",
@@ -10770,6 +11669,7 @@
         "index": {
           "description": "wrap unwrap",
           "hierarchy": "HERMIT Dictionary WorkerWrapper Fix",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwAssB",
           "normalized": "Maybe(RewriteH CoreExpr)-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr-\u003eBiRewriteH CoreExpr",
@@ -10786,6 +11686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efix A ( a -\u003e wrap (unwrap (f a)))\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003efix A f\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwAssC",
           "package": "hermit",
@@ -10795,6 +11696,7 @@
         "index": {
           "description": "fix wrap unwrap fix",
           "hierarchy": "HERMIT Dictionary WorkerWrapper Fix",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwAssC",
           "normalized": "Maybe(RewriteH CoreExpr)-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr-\u003eBiRewriteH CoreExpr",
@@ -10811,6 +11713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor any \u003ccode\u003ef :: A -\u003e A\u003c/code\u003e, and given \u003ccode\u003ewrap :: B -\u003e A\u003c/code\u003e and \u003ccode\u003eunwrap :: A -\u003e B\u003c/code\u003e as arguments, then\n   \u003ccode\u003efix A f\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003ewrap (fix B (\\ b -\u003e unwrap (f (wrap b))))\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwFacBR",
           "package": "hermit",
@@ -10821,6 +11724,7 @@
         "index": {
           "description": "For any and given wrap and unwrap as arguments then fix wrap fix unwrap wrap",
           "hierarchy": "HERMIT Dictionary WorkerWrapper Fix",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwFacBR",
           "normalized": "Maybe WWAssumption-\u003eCoreExpr-\u003eCoreExpr-\u003eBiRewriteH CoreExpr",
@@ -10837,6 +11741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003ccode\u003ewrap :: B -\u003e A\u003c/code\u003e, \u003ccode\u003eunwrap :: A -\u003e B\u003c/code\u003e and \u003ccode\u003ework :: B\u003c/code\u003e as arguments, then\n   \u003ccode\u003eunwrap (wrap work)\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003ework\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwFusionBR",
           "package": "hermit",
@@ -10847,6 +11752,7 @@
         "index": {
           "description": "Given wrap unwrap and work as arguments then unwrap wrap work work",
           "hierarchy": "HERMIT Dictionary WorkerWrapper Fix",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwFusionBR",
           "package": "hermit",
@@ -10861,6 +11767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave the recursive definition of work in the stash, so that we can later verify uses of \u003ccode\u003e\u003ca\u003ewwFusionBR\u003c/a\u003e\u003c/code\u003e.\n   Must be applied to a definition of the form: \u003ccode\u003ework = unwrap (f (wrap work))\u003c/code\u003e\n   Note that this is performed automatically as part of \u003ccode\u003e\u003ca\u003ewwSplitR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwGenerateFusionR",
           "package": "hermit",
@@ -10871,6 +11778,7 @@
         "index": {
           "description": "Save the recursive definition of work in the stash so that we can later verify uses of wwFusionBR Must be applied to definition of the form work unwrap wrap work Note that this is performed automatically as part of wwSplitR",
           "hierarchy": "HERMIT Dictionary WorkerWrapper Fix",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwGenerateFusionR",
           "normalized": "Maybe WWAssumption-\u003eRewriteH Core",
@@ -10887,6 +11795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\\ wrap unwrap -\u003e  (\u003ccode\u003eprog = expr\u003c/code\u003e  ==\u003e  \u003ccode\u003eprog = let f = \\ prog -\u003e expr in let work = unwrap (f (wrap work)) in wrap work)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwSplitR",
           "package": "hermit",
@@ -10897,6 +11806,7 @@
         "index": {
           "description": "wrap unwrap prog expr prog let prog expr in let work unwrap wrap work in wrap work",
           "hierarchy": "HERMIT Dictionary WorkerWrapper Fix",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwSplitR",
           "normalized": "Maybe WWAssumption-\u003eCoreExpr-\u003eCoreExpr-\u003eRewriteH CoreDef",
@@ -10913,6 +11823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003ewwSplit\u003c/code\u003e but performs the static-argument transformation for \u003ccode\u003en\u003c/code\u003e static arguments first, and optionally provides some of those arguments (specified by index) to all calls of wrap and unwrap.\n   This is useful if, for example, the expression, and wrap and unwrap, all have a \u003ccode\u003eforall\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwSplitStaticArg",
           "package": "hermit",
@@ -10923,6 +11834,7 @@
         "index": {
           "description": "As wwSplit but performs the static-argument transformation for static arguments first and optionally provides some of those arguments specified by index to all calls of wrap and unwrap This is useful if for example the expression and wrap and unwrap all have forall type",
           "hierarchy": "HERMIT Dictionary WorkerWrapper Fix",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.Fix",
           "name": "wwSplitStaticArg",
           "normalized": "Int-\u003e[Int]-\u003eMaybe WWAssumption-\u003eCoreString-\u003eCoreString-\u003eRewriteH CoreDef",
@@ -10938,6 +11850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "FixResult",
           "package": "hermit",
@@ -10946,6 +11859,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary WorkerWrapper FixResult",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "FixResult",
           "package": "hermit",
@@ -10960,6 +11874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternals for manipulating fixed points, and for the worker/wrapper transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "externals",
           "package": "hermit",
@@ -10970,6 +11885,7 @@
         "index": {
           "description": "Externals for manipulating fixed points and for the worker wrapper transformation",
           "hierarchy": "HERMIT Dictionary WorkerWrapper FixResult",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "externals",
           "normalized": "[External]",
@@ -10985,6 +11901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eabs (rep a)\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultAssA",
           "package": "hermit",
@@ -10994,6 +11911,7 @@
         "index": {
           "description": "abs rep",
           "hierarchy": "HERMIT Dictionary WorkerWrapper FixResult",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultAssA",
           "normalized": "Maybe(RewriteH CoreExpr)-\u003eCoreExpr-\u003eCoreExpr-\u003eBiRewriteH CoreExpr",
@@ -11010,6 +11928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eabs (rep (f h x))\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003ef h x\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultAssB",
           "package": "hermit",
@@ -11019,6 +11938,7 @@
         "index": {
           "description": "abs rep",
           "hierarchy": "HERMIT Dictionary WorkerWrapper FixResult",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultAssB",
           "normalized": "Maybe(RewriteH CoreExpr)-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr-\u003eBiRewriteH CoreExpr",
@@ -11035,6 +11955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efix (X-\u003eA) ( h x -\u003e abs (rep (f h x)))\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003efix (X-\u003eA) f\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultAssC",
           "package": "hermit",
@@ -11044,6 +11965,7 @@
         "index": {
           "description": "fix abs rep fix",
           "hierarchy": "HERMIT Dictionary WorkerWrapper FixResult",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultAssC",
           "normalized": "Maybe(RewriteH CoreExpr)-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr-\u003eBiRewriteH CoreExpr",
@@ -11060,6 +11982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor any \u003ccode\u003ef :: (X -\u003e A) -\u003e (X -\u003e A)\u003c/code\u003e, and given \u003ccode\u003eabs :: B -\u003e A\u003c/code\u003e and \u003ccode\u003erep :: A -\u003e B\u003c/code\u003e as arguments, then\n   \u003ccode\u003efix A f\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003e\\ x1 -\u003e abs (fix (X-\u003eB) (\\ h x2 -\u003e rep (f (\\ x3 -\u003e abs (h x3)) x2)) x1)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultFacBR",
           "package": "hermit",
@@ -11070,6 +11993,7 @@
         "index": {
           "description": "For any and given abs and rep as arguments then fix x1 abs fix x2 rep x3 abs x3 x2 x1",
           "hierarchy": "HERMIT Dictionary WorkerWrapper FixResult",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultFacBR",
           "normalized": "Maybe WWAssumption-\u003eCoreExpr-\u003eCoreExpr-\u003eBiRewriteH CoreExpr",
@@ -11086,6 +12010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003ccode\u003eabs :: B -\u003e A\u003c/code\u003e, \u003ccode\u003erep :: A -\u003e B\u003c/code\u003e and \u003ccode\u003ework :: X -\u003e B\u003c/code\u003e as arguments, then\n   \u003ccode\u003erep (abs (work x))\u003c/code\u003e  \u003c==\u003e  \u003ccode\u003ework x\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultFusionBR",
           "package": "hermit",
@@ -11096,6 +12021,7 @@
         "index": {
           "description": "Given abs rep and work as arguments then rep abs work work",
           "hierarchy": "HERMIT Dictionary WorkerWrapper FixResult",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultFusionBR",
           "package": "hermit",
@@ -11110,6 +12036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave the recursive definition of work in the stash, so that we can later verify uses of \u003ccode\u003e\u003ca\u003ewwResultFusionBR\u003c/a\u003e\u003c/code\u003e.\n   Must be applied to a definition of the form: \u003ccode\u003ework = \\ x1 -\u003e rep (f (\\ x2 -\u003e abs (work x2)) x1)\u003c/code\u003e\n   Note that this is performed automatically as part of \u003ccode\u003e\u003ca\u003ewwResultSplitR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultGenerateFusionR",
           "package": "hermit",
@@ -11120,6 +12047,7 @@
         "index": {
           "description": "Save the recursive definition of work in the stash so that we can later verify uses of wwResultFusionBR Must be applied to definition of the form work x1 rep x2 abs work x2 x1 Note that this is performed automatically as part of wwResultSplitR",
           "hierarchy": "HERMIT Dictionary WorkerWrapper FixResult",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultGenerateFusionR",
           "normalized": "Maybe WWAssumption-\u003eRewriteH Core",
@@ -11136,6 +12064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\\ abs rep -\u003e (\u003ccode\u003eprog = expr\u003c/code\u003e  ==\u003e  \u003ccode\u003eprog = let f = \\ prog -\u003e expr in let work = \\ x1 -\u003e rep (f (\\ x2 -\u003e abs (work x2)) x1) in \\ x0 -\u003e abs (work x0)\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultSplitR",
           "package": "hermit",
@@ -11146,6 +12075,7 @@
         "index": {
           "description": "abs rep prog expr prog let prog expr in let work x1 rep x2 abs work x2 x1 in x0 abs work x0",
           "hierarchy": "HERMIT Dictionary WorkerWrapper FixResult",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultSplitR",
           "normalized": "Maybe WWAssumption-\u003eCoreExpr-\u003eCoreExpr-\u003eRewriteH CoreDef",
@@ -11162,6 +12092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003ewwSplit\u003c/code\u003e but performs the static-argument transformation for \u003ccode\u003en\u003c/code\u003e static arguments first, and optionally provides some of those arguments (specified by index) to all calls of abs and rep.\n   This is useful if, for example, the expression, and abs and rep, all have a \u003ccode\u003eforall\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultSplitStaticArg",
           "package": "hermit",
@@ -11172,6 +12103,7 @@
         "index": {
           "description": "As wwSplit but performs the static-argument transformation for static arguments first and optionally provides some of those arguments specified by index to all calls of abs and rep This is useful if for example the expression and abs and rep all have forall type",
           "hierarchy": "HERMIT Dictionary WorkerWrapper FixResult",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary.WorkerWrapper.FixResult",
           "name": "wwResultSplitStaticArg",
           "normalized": "Int-\u003e[Int]-\u003eMaybe WWAssumption-\u003eCoreString-\u003eCoreString-\u003eRewriteH CoreDef",
@@ -11187,6 +12119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary",
           "name": "Dictionary",
           "package": "hermit",
@@ -11195,6 +12128,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Dictionary",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary",
           "name": "Dictionary",
           "package": "hermit",
@@ -11209,6 +12143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003es provided by HERMIT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Dictionary",
           "name": "externals",
           "package": "hermit",
@@ -11219,6 +12154,7 @@
         "index": {
           "description": "List of all External provided by HERMIT",
           "hierarchy": "HERMIT Dictionary",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Dictionary",
           "name": "externals",
           "normalized": "[External]",
@@ -11233,6 +12169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Driver",
           "name": "Driver",
           "package": "hermit",
@@ -11241,6 +12178,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Driver",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Driver",
           "name": "Driver",
           "package": "hermit",
@@ -11254,6 +12192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Driver",
           "name": "ghcFlags",
           "package": "hermit",
@@ -11263,6 +12202,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Driver",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Driver",
           "name": "ghcFlags",
           "normalized": "[String]",
@@ -11278,6 +12218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Driver",
           "name": "hermit_version",
           "package": "hermit",
@@ -11287,6 +12228,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Driver",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Driver",
           "name": "hermit_version",
           "package": "hermit",
@@ -11299,6 +12241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "External",
           "package": "hermit",
@@ -11307,6 +12250,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "External",
           "package": "hermit",
@@ -11320,6 +12264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "BiRewriteCoreBox",
           "package": "hermit",
@@ -11328,6 +12273,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "BiRewriteCoreBox",
           "package": "hermit",
@@ -11342,6 +12288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequirement: commands cannot have the same name as any \u003ccode\u003e\u003ca\u003eCmdTag\u003c/a\u003e\u003c/code\u003e\n   (or the help function will not find it).\n   These should be \u003cem\u003euser facing\u003c/em\u003e, because they give the user\n   a way of sub-dividing our confusing array of commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "CmdTag",
           "package": "hermit",
@@ -11351,6 +12298,7 @@
         "index": {
           "description": "Requirement commands cannot have the same name as any CmdTag or the help function will not find it These should be user facing because they give the user way of sub-dividing our confusing array of commands",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "CmdTag",
           "package": "hermit",
@@ -11364,6 +12312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "CoreBox",
           "package": "hermit",
@@ -11372,6 +12321,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "CoreBox",
           "package": "hermit",
@@ -11385,6 +12335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "CoreString",
           "package": "hermit",
@@ -11393,6 +12344,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "CoreString",
           "package": "hermit",
@@ -11406,6 +12358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "CrumbBox",
           "package": "hermit",
@@ -11414,6 +12367,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "CrumbBox",
           "package": "hermit",
@@ -11428,6 +12382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDictionary\u003c/a\u003e\u003c/code\u003e is a collection of \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003es.\n   Looking up a \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e (via an \u003ccode\u003e\u003ca\u003eExternalName\u003c/a\u003e\u003c/code\u003e key) returns a list, as there can be multiple \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003es with the same name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Dictionary",
           "package": "hermit",
@@ -11437,6 +12392,7 @@
         "index": {
           "description": "Dictionary is collection of Dynamic Looking up Dynamic via an ExternalName key returns list as there can be multiple Dynamic with the same name",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Dictionary",
           "package": "hermit",
@@ -11451,6 +12407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of things that can be made into \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003es.\n   To be an \u003ccode\u003e\u003ca\u003eExtern\u003c/a\u003e\u003c/code\u003e there must exist an isomorphic \u003ccode\u003e\u003ca\u003eBox\u003c/a\u003e\u003c/code\u003e type that is an instance of \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Extern",
           "package": "hermit",
@@ -11460,6 +12417,7 @@
         "index": {
           "description": "The class of things that can be made into External To be an Extern there must exist an isomorphic Box type that is an instance of Typeable",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Extern",
           "package": "hermit",
@@ -11474,6 +12432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e value with some associated meta-data (name, help string and tags).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "External",
           "package": "hermit",
@@ -11483,6 +12442,7 @@
         "index": {
           "description": "An External is Dynamic value with some associated meta-data name help string and tags",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "External",
           "package": "hermit",
@@ -11497,6 +12457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelp information for \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003es is stored as a list of strings, designed for multi-line displaying.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "ExternalHelp",
           "package": "hermit",
@@ -11506,6 +12467,7 @@
         "index": {
           "description": "Help information for External is stored as list of strings designed for multi-line displaying",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "ExternalHelp",
           "package": "hermit",
@@ -11520,6 +12482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003e names are just strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "ExternalName",
           "package": "hermit",
@@ -11529,6 +12492,7 @@
         "index": {
           "description": "External names are just strings",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "ExternalName",
           "package": "hermit",
@@ -11542,6 +12506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "IntBox",
           "package": "hermit",
@@ -11550,6 +12515,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "IntBox",
           "package": "hermit",
@@ -11563,6 +12529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "IntListBox",
           "package": "hermit",
@@ -11571,6 +12538,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "IntListBox",
           "package": "hermit",
@@ -11584,6 +12552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "NameBox",
           "package": "hermit",
@@ -11592,6 +12561,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "NameBox",
           "package": "hermit",
@@ -11605,6 +12575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "NameListBox",
           "package": "hermit",
@@ -11613,6 +12584,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "NameListBox",
           "package": "hermit",
@@ -11626,6 +12598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "PathBox",
           "package": "hermit",
@@ -11634,6 +12607,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "PathBox",
           "package": "hermit",
@@ -11647,6 +12621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "RewriteCoreBox",
           "package": "hermit",
@@ -11655,6 +12630,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "RewriteCoreBox",
           "package": "hermit",
@@ -11668,6 +12644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "RewriteCoreListBox",
           "package": "hermit",
@@ -11676,6 +12653,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "RewriteCoreListBox",
           "package": "hermit",
@@ -11689,6 +12667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "RewriteCoreTCBox",
           "package": "hermit",
@@ -11697,6 +12676,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "RewriteCoreTCBox",
           "package": "hermit",
@@ -11710,6 +12690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "StringBox",
           "package": "hermit",
@@ -11718,6 +12699,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "StringBox",
           "package": "hermit",
@@ -11731,6 +12713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "StringListBox",
           "package": "hermit",
@@ -11739,6 +12722,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "StringListBox",
           "package": "hermit",
@@ -11753,6 +12737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTags are meta-data that we add to \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003es to make them sortable and searchable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Tag",
           "package": "hermit",
@@ -11762,6 +12747,7 @@
         "index": {
           "description": "Tags are meta-data that we add to External to make them sortable and searchable",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Tag",
           "package": "hermit",
@@ -11775,6 +12761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TagBox",
           "package": "hermit",
@@ -11783,6 +12770,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TagBox",
           "package": "hermit",
@@ -11797,6 +12785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type of logical operations on tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TagE",
           "package": "hermit",
@@ -11806,6 +12795,7 @@
         "index": {
           "description": "data type of logical operations on tags",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TagE",
           "package": "hermit",
@@ -11819,6 +12809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCoreCheckBox",
           "package": "hermit",
@@ -11827,6 +12818,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCoreCheckBox",
           "package": "hermit",
@@ -11840,6 +12832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCorePathBox",
           "package": "hermit",
@@ -11848,6 +12841,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCorePathBox",
           "package": "hermit",
@@ -11861,6 +12855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCoreStringBox",
           "package": "hermit",
@@ -11869,6 +12864,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCoreStringBox",
           "package": "hermit",
@@ -11882,6 +12878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCCheckBox",
           "package": "hermit",
@@ -11890,6 +12887,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCCheckBox",
           "package": "hermit",
@@ -11903,6 +12901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCPathBox",
           "package": "hermit",
@@ -11911,6 +12910,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCPathBox",
           "package": "hermit",
@@ -11924,6 +12924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCStringBox",
           "package": "hermit",
@@ -11932,6 +12933,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCStringBox",
           "package": "hermit",
@@ -11946,6 +12948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \"or\" on \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "(.||)",
           "package": "hermit",
@@ -11956,6 +12959,7 @@
         "index": {
           "description": "An or on Tag",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "(.||) .||",
           "normalized": "a-\u003eb-\u003eTagE",
@@ -11971,6 +12975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \"and\" on \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "(.&)",
           "package": "hermit",
@@ -11981,6 +12986,7 @@
         "index": {
           "description": "An and on Tag",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "(.&) .&",
           "normalized": "a-\u003eb-\u003eTagE",
@@ -11996,6 +13002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "(.+)",
           "package": "hermit",
@@ -12006,6 +13013,7 @@
         "index": {
           "description": "Add Tag to an External",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "(.+) .+",
           "normalized": "External-\u003ea-\u003eExternal",
@@ -12020,6 +13028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "BiRewriteCoreBox",
           "package": "hermit",
@@ -12029,6 +13038,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "BiRewriteCoreBox",
           "package": "hermit",
@@ -12043,6 +13053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommute is when you swap nested terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Commute",
           "package": "hermit",
@@ -12053,6 +13064,7 @@
         "index": {
           "description": "Commute is when you swap nested terms",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Commute",
           "package": "hermit",
@@ -12067,6 +13079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command that uses its context, such as inlining.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Context",
           "package": "hermit",
@@ -12077,6 +13090,7 @@
         "index": {
           "description": "command that uses its context such as inlining",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Context",
           "package": "hermit",
@@ -12090,6 +13104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "CoreBox",
           "package": "hermit",
@@ -12099,6 +13114,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "CoreBox",
           "package": "hermit",
@@ -12112,6 +13128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "CoreString",
           "package": "hermit",
@@ -12121,6 +13138,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "CoreString",
           "package": "hermit",
@@ -12134,6 +13152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "CrumbBox",
           "package": "hermit",
@@ -12143,6 +13162,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "CrumbBox",
           "package": "hermit",
@@ -12157,6 +13177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommands specifically to help debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Debug",
           "package": "hermit",
@@ -12167,6 +13188,7 @@
         "index": {
           "description": "Commands specifically to help debugging",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Debug",
           "package": "hermit",
@@ -12181,6 +13203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand may make a deep change, can be O(n).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Deep",
           "package": "hermit",
@@ -12191,6 +13214,7 @@
         "index": {
           "description": "Command may make deep change can be",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Deep",
           "package": "hermit",
@@ -12205,6 +13229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command that will be removed in a future release;\n   it has probably been renamed or subsumed by another command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Deprecated",
           "package": "hermit",
@@ -12215,6 +13240,7 @@
         "index": {
           "description": "command that will be removed in future release it has probably been renamed or subsumed by another command",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Deprecated",
           "package": "hermit",
@@ -12229,6 +13255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arrow of evaluation (reduces a term).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Eval",
           "package": "hermit",
@@ -12239,6 +13266,7 @@
         "index": {
           "description": "The arrow of evaluation reduces term",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Eval",
           "package": "hermit",
@@ -12253,6 +13281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings we are trying out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Experiment",
           "package": "hermit",
@@ -12263,6 +13292,7 @@
         "index": {
           "description": "Things we are trying out",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Experiment",
           "package": "hermit",
@@ -12276,6 +13306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "IntBox",
           "package": "hermit",
@@ -12285,6 +13316,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "IntBox",
           "package": "hermit",
@@ -12298,6 +13330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "IntListBox",
           "package": "hermit",
@@ -12307,6 +13340,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "IntListBox",
           "normalized": "IntListBox[Int]",
@@ -12323,6 +13357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce something, like a new name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Introduce",
           "package": "hermit",
@@ -12333,6 +13368,7 @@
         "index": {
           "description": "Introduce something like new name",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Introduce",
           "package": "hermit",
@@ -12347,6 +13383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eKURE\u003c/a\u003e\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "KURE",
           "package": "hermit",
@@ -12357,6 +13394,7 @@
         "index": {
           "description": "KURE command",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "KURE",
           "package": "hermit",
@@ -12371,6 +13409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand may operate multiple times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Loop",
           "package": "hermit",
@@ -12381,6 +13420,7 @@
         "index": {
           "description": "Command may operate multiple times",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Loop",
           "package": "hermit",
@@ -12394,6 +13434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "NameBox",
           "package": "hermit",
@@ -12403,6 +13444,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "NameBox",
           "package": "hermit",
@@ -12416,6 +13458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "NameListBox",
           "package": "hermit",
@@ -12425,6 +13468,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "NameListBox",
           "normalized": "NameListBox[Name]",
@@ -12441,6 +13485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e to focus onto something.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Navigation",
           "package": "hermit",
@@ -12451,6 +13496,7 @@
         "index": {
           "description": "Uses Path or Lens to focus onto something",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Navigation",
           "package": "hermit",
@@ -12464,6 +13510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "PathBox",
           "package": "hermit",
@@ -12473,6 +13520,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "PathBox",
           "package": "hermit",
@@ -12487,6 +13535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperation has a (perhaps undocumented) precondition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "PreCondition",
           "package": "hermit",
@@ -12497,6 +13546,7 @@
         "index": {
           "description": "Operation has perhaps undocumented precondition",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "PreCondition",
           "package": "hermit",
@@ -12511,6 +13561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that passes or fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Predicate",
           "package": "hermit",
@@ -12521,6 +13572,7 @@
         "index": {
           "description": "Something that passes or fails",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Predicate",
           "package": "hermit",
@@ -12535,6 +13587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA question we ask.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Query",
           "package": "hermit",
@@ -12545,6 +13598,7 @@
         "index": {
           "description": "question we ask",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Query",
           "package": "hermit",
@@ -12558,6 +13612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "RewriteCoreBox",
           "package": "hermit",
@@ -12567,6 +13622,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "RewriteCoreBox",
           "package": "hermit",
@@ -12580,6 +13636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "RewriteCoreListBox",
           "package": "hermit",
@@ -12589,6 +13646,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "RewriteCoreListBox",
           "normalized": "RewriteCoreListBox[RewriteH Core]",
@@ -12604,6 +13662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "RewriteCoreTCBox",
           "package": "hermit",
@@ -12613,6 +13672,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "RewriteCoreTCBox",
           "package": "hermit",
@@ -12627,6 +13687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand operates on local nodes only, O(1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Shallow",
           "package": "hermit",
@@ -12637,6 +13698,7 @@
         "index": {
           "description": "Command operates on local nodes only",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Shallow",
           "package": "hermit",
@@ -12651,6 +13713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShell-specific command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Shell",
           "package": "hermit",
@@ -12661,6 +13724,7 @@
         "index": {
           "description": "Shell-specific command",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Shell",
           "package": "hermit",
@@ -12674,6 +13738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "StringBox",
           "package": "hermit",
@@ -12683,6 +13748,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "StringBox",
           "package": "hermit",
@@ -12696,6 +13762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "StringListBox",
           "package": "hermit",
@@ -12705,6 +13772,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "StringListBox",
           "normalized": "StringListBox[String]",
@@ -12721,6 +13789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn incomplete or potentially buggy command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TODO",
           "package": "hermit",
@@ -12731,6 +13800,7 @@
         "index": {
           "description": "An incomplete or potentially buggy command",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TODO",
           "package": "hermit",
@@ -12744,6 +13814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TagBox",
           "package": "hermit",
@@ -12753,6 +13824,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TagBox",
           "package": "hermit",
@@ -12766,6 +13838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCoreCheckBox",
           "package": "hermit",
@@ -12775,6 +13848,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCoreCheckBox",
           "normalized": "TranslateCoreCheckBox(TranslateH Core())",
@@ -12790,6 +13864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCorePathBox",
           "package": "hermit",
@@ -12799,6 +13874,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCorePathBox",
           "package": "hermit",
@@ -12812,6 +13888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCoreStringBox",
           "package": "hermit",
@@ -12821,6 +13898,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCoreStringBox",
           "package": "hermit",
@@ -12834,6 +13912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCCheckBox",
           "package": "hermit",
@@ -12843,6 +13922,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCCheckBox",
           "normalized": "TranslateCoreTCCheckBox(TranslateH CoreTC())",
@@ -12858,6 +13938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCPathBox",
           "package": "hermit",
@@ -12867,6 +13948,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCPathBox",
           "package": "hermit",
@@ -12880,6 +13962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCStringBox",
           "package": "hermit",
@@ -12889,6 +13972,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "TranslateCoreTCStringBox",
           "package": "hermit",
@@ -12903,6 +13987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommands that are not type safe (may cause Core Lint to fail),\n   or may otherwise change the semantics of the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "Unsafe",
           "package": "hermit",
@@ -12913,6 +13998,7 @@
         "index": {
           "description": "Commands that are not type safe may cause Core Lint to fail or may otherwise change the semantics of the program",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "Unsafe",
           "package": "hermit",
@@ -12927,6 +14013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion control for Core syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "VersionControl",
           "package": "hermit",
@@ -12937,6 +14024,7 @@
         "index": {
           "description": "Version control for Core syntax",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "VersionControl",
           "package": "hermit",
@@ -12951,6 +14039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a value in a \u003ccode\u003e\u003ca\u003eBox\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "box",
           "package": "hermit",
@@ -12961,6 +14050,7 @@
         "index": {
           "description": "Wrap value in Box",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "box",
           "normalized": "a-\u003eBox a",
@@ -12976,6 +14066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists all the tags paired with a short description of what they're about.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "dictionaryOfTags",
           "package": "hermit",
@@ -12986,6 +14077,7 @@
         "index": {
           "description": "Lists all the tags paired with short description of what they re about",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "dictionaryOfTags",
           "normalized": "[(CmdTag,String)]",
@@ -13002,6 +14094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e value stored in an \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "externDyn",
           "package": "hermit",
@@ -13012,6 +14105,7 @@
         "index": {
           "description": "Get the Dynamic value stored in an External",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "externDyn",
           "normalized": "External-\u003eDynamic",
@@ -13028,6 +14122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of help \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es for an \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "externHelp",
           "package": "hermit",
@@ -13038,6 +14133,7 @@
         "index": {
           "description": "Get the list of help String for an External",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "externHelp",
           "normalized": "External-\u003eExternalHelp",
@@ -13054,6 +14150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the name of an \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "externName",
           "package": "hermit",
@@ -13064,6 +14161,7 @@
         "index": {
           "description": "Get the name of an External",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "externName",
           "normalized": "External-\u003eExternalName",
@@ -13080,6 +14178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all the \u003ccode\u003e\u003ca\u003eCmdTag\u003c/a\u003e\u003c/code\u003es associated with an \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "externTags",
           "package": "hermit",
@@ -13090,6 +14189,7 @@
         "index": {
           "description": "List all the CmdTag associated with an External",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "externTags",
           "normalized": "External-\u003e[CmdTag]",
@@ -13105,6 +14205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "externTypeArgResString",
           "package": "hermit",
@@ -13114,6 +14215,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "externTypeArgResString",
           "normalized": "External-\u003e([String],String)",
@@ -13130,6 +14232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a string representation of the (monomorphic) type of an \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "externTypeString",
           "package": "hermit",
@@ -13140,6 +14243,7 @@
         "index": {
           "description": "Get string representation of the monomorphic type of an External",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "externTypeString",
           "normalized": "External-\u003eString",
@@ -13156,6 +14260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe primitive way to build an \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "external",
           "package": "hermit",
@@ -13166,6 +14271,7 @@
         "index": {
           "description": "The primitive way to build an External",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "external",
           "normalized": "ExternalName-\u003ea-\u003eExternalHelp-\u003eExternal",
@@ -13181,6 +14287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all the \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003es which match a given tag predicate\n and box a Translate of the appropriate type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "matchingExternals",
           "package": "hermit",
@@ -13191,6 +14298,7 @@
         "index": {
           "description": "Get all the External which match given tag predicate and box Translate of the appropriate type",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "matchingExternals",
           "normalized": "a-\u003e[External]-\u003e[(External,b)]",
@@ -13207,6 +14315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \"not\" on \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "notT",
           "package": "hermit",
@@ -13217,6 +14326,7 @@
         "index": {
           "description": "not on Tag",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "notT",
           "normalized": "a-\u003eTagE",
@@ -13232,6 +14342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "remTag",
           "package": "hermit",
@@ -13242,6 +14353,7 @@
         "index": {
           "description": "Remove Tag from an External",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "remTag",
           "normalized": "a-\u003eExternal-\u003eExternal",
@@ -13258,6 +14370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if an \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003e has the specified \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "tagMatch",
           "package": "hermit",
@@ -13268,6 +14381,7 @@
         "index": {
           "description": "Check if an External has the specified Tag",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "tagMatch",
           "normalized": "a-\u003eExternal-\u003eBool",
@@ -13284,6 +14398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e from names to \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "toDictionary",
           "package": "hermit",
@@ -13294,6 +14409,7 @@
         "index": {
           "description": "Build Map from names to Dynamic values",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "toDictionary",
           "normalized": "[External]-\u003eDictionary",
@@ -13310,6 +14426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e from names to help information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "toHelp",
           "package": "hermit",
@@ -13320,6 +14437,7 @@
         "index": {
           "description": "Build Map from names to help information",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "toHelp",
           "normalized": "[External]-\u003eMap ExternalName ExternalHelp",
@@ -13335,6 +14453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "unCoreString",
           "package": "hermit",
@@ -13344,6 +14463,7 @@
         },
         "index": {
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "unCoreString",
           "package": "hermit",
@@ -13358,6 +14478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap a value from a \u003ccode\u003e\u003ca\u003eBox\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.External",
           "name": "unbox",
           "package": "hermit",
@@ -13368,6 +14489,7 @@
         "index": {
           "description": "Unwrap value from Box",
           "hierarchy": "HERMIT External",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.External",
           "name": "unbox",
           "normalized": "Box a-\u003ea",
@@ -13382,6 +14504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "GHC",
           "package": "hermit",
@@ -13390,6 +14513,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "GHC",
           "package": "hermit",
@@ -13404,6 +14528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGHC's own exception type\n   error messages all take the form:\n\u003c/p\u003e\u003cpre\u003e\n      \u003ca\u003elocation\u003c/a\u003e: \u003ca\u003eerror\u003c/a\u003e\n\u003c/pre\u003e\u003cp\u003eIf the location is on the command line, or in GHC itself, then\n   \u003ca\u003elocation\u003c/a\u003e=\u003ca\u003eghc\u003c/a\u003e.  All of the error types below correspond to\n   a \u003ca\u003elocation\u003c/a\u003e of \u003ca\u003eghc\u003c/a\u003e, except for ProgramError (where the string is\n  assumed to contain a location already, so we don't print one).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "GhcException",
           "package": "hermit",
@@ -13412,6 +14537,7 @@
         "index": {
           "description": "GHC own exception type error messages all take the form location error If the location is on the command line or in GHC itself then location ghc All of the error types below correspond to location of ghc except for ProgramError where the string is assumed to contain location already so we don print one",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "GhcException",
           "package": "hermit",
@@ -13425,6 +14551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "Pair",
           "package": "hermit",
@@ -13432,6 +14559,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "Pair",
           "package": "hermit",
@@ -13445,6 +14573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "TyLit",
           "package": "hermit",
@@ -13452,6 +14581,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "TyLit",
           "package": "hermit",
@@ -13466,6 +14596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe key representation of types within the compiler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "Type",
           "package": "hermit",
@@ -13474,6 +14605,7 @@
         "index": {
           "description": "The key representation of types within the compiler",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "Type",
           "package": "hermit",
@@ -13488,6 +14620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType application to something other than a \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e. Parameters:\n\u003c/p\u003e\u003cp\u003e1) Function: must \u003cem\u003enot\u003c/em\u003e be a \u003ccode\u003e\u003ca\u003eTyConApp\u003c/a\u003e\u003c/code\u003e,\n     must be another \u003ccode\u003e\u003ca\u003eAppTy\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eTyVarTy\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e2) Argument type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "AppTy",
           "package": "hermit",
@@ -13497,6 +14630,7 @@
         "index": {
           "description": "Type application to something other than TyCon Parameters Function must not be TyConApp must be another AppTy or TyVarTy Argument type",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "AppTy",
           "package": "hermit",
@@ -13511,6 +14645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polymorphic type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "ForAllTy",
           "package": "hermit",
@@ -13520,6 +14655,7 @@
         "index": {
           "description": "polymorphic type",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "ForAllTy",
           "package": "hermit",
@@ -13534,6 +14670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial case of \u003ccode\u003e\u003ca\u003eTyConApp\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eTyConApp FunTyCon [t1, t2]\u003c/code\u003e\n See Note [Equality-constrained types]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "FunTy",
           "package": "hermit",
@@ -13543,6 +14680,7 @@
         "index": {
           "description": "Special case of TyConApp TyConApp FunTyCon t1 t2 See Note Equality-constrained types",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "FunTy",
           "package": "hermit",
@@ -13557,6 +14695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType literals are simillar to type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "LitTy",
           "package": "hermit",
@@ -13566,6 +14705,7 @@
         "index": {
           "description": "Type literals are simillar to type constructors",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "LitTy",
           "package": "hermit",
@@ -13579,6 +14719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "NumTyLit",
           "package": "hermit",
@@ -13587,6 +14728,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "NumTyLit",
           "package": "hermit",
@@ -13600,6 +14742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "Pair",
           "package": "hermit",
@@ -13608,6 +14751,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "Pair",
           "package": "hermit",
@@ -13622,6 +14766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error in the user's code, probably.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "ProgramError",
           "package": "hermit",
@@ -13631,6 +14776,7 @@
         "index": {
           "description": "An error in the user code probably",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "ProgramError",
           "package": "hermit",
@@ -13644,6 +14790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "StrTyLit",
           "package": "hermit",
@@ -13652,6 +14799,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "StrTyLit",
           "package": "hermit",
@@ -13666,6 +14814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of a \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e, including newtypes \u003cem\u003eand\u003c/em\u003e synonyms.\n Invariant: saturated appliations of \u003ccode\u003eFunTyCon\u003c/code\u003e must\n use \u003ccode\u003e\u003ca\u003eFunTy\u003c/a\u003e\u003c/code\u003e and saturated synonyms must use their own\n constructors. However, \u003cem\u003eunsaturated\u003c/em\u003e \u003ccode\u003eFunTyCon\u003c/code\u003es\n do appear as \u003ccode\u003e\u003ca\u003eTyConApp\u003c/a\u003e\u003c/code\u003es.\n Parameters:\n\u003c/p\u003e\u003cp\u003e1) Type constructor being applied to.\n\u003c/p\u003e\u003cp\u003e2) Type arguments. Might not have enough type arguments\n    here to saturate the constructor.\n    Even type synonyms are not necessarily saturated;\n    for example unsaturated type synonyms\n    can appear as the right hand side of a type synonym.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "TyConApp",
           "package": "hermit",
@@ -13675,6 +14824,7 @@
         "index": {
           "description": "Application of TyCon including newtypes and synonyms Invariant saturated appliations of FunTyCon must use FunTy and saturated synonyms must use their own constructors However unsaturated FunTyCon do appear as TyConApp Parameters Type constructor being applied to Type arguments Might not have enough type arguments here to saturate the constructor Even type synonyms are not necessarily saturated for example unsaturated type synonyms can appear as the right hand side of type synonym",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "TyConApp",
           "normalized": "TyConApp TyCon[KindOrType]",
@@ -13691,6 +14841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVanilla type or kind variable (*never* a coercion variable)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "TyVarTy",
           "package": "hermit",
@@ -13700,6 +14851,7 @@
         "index": {
           "description": "Vanilla type or kind variable never coercion variable",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "TyVarTy",
           "package": "hermit",
@@ -13713,6 +14865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "alphaTyVars",
           "package": "hermit",
@@ -13721,6 +14874,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "alphaTyVars",
           "normalized": "[TyVar]",
@@ -13736,6 +14890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "bndrRuleAndUnfoldingVars",
           "package": "hermit",
@@ -13745,6 +14900,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "bndrRuleAndUnfoldingVars",
           "normalized": "Var-\u003eVarSet",
@@ -13761,6 +14917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e for equality.\n Strings containing a period are assumed to be fully qualified names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "cmpString2Name",
           "package": "hermit",
@@ -13771,6 +14928,7 @@
         "index": {
           "description": "Compare String to Name for equality Strings containing period are assumed to be fully qualified names",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "cmpString2Name",
           "normalized": "String-\u003eName-\u003eBool",
@@ -13787,6 +14945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e for equality. See \u003ccode\u003e\u003ca\u003ecmpString2Name\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "cmpString2Var",
           "package": "hermit",
@@ -13797,6 +14956,7 @@
         "index": {
           "description": "Compare String to Var for equality See cmpString2Name",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "cmpString2Var",
           "normalized": "String-\u003eVar-\u003eBool",
@@ -13813,6 +14973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e for equality. See \u003ccode\u003e\u003ca\u003ecmpString2Name\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "cmpTHName2Name",
           "package": "hermit",
@@ -13823,6 +14984,7 @@
         "index": {
           "description": "Compare Name to Name for equality See cmpString2Name",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "cmpTHName2Name",
           "normalized": "Name-\u003eName-\u003eBool",
@@ -13839,6 +15001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e for equality. See \u003ccode\u003e\u003ca\u003ecmpString2Name\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "cmpTHName2Var",
           "package": "hermit",
@@ -13849,6 +15012,7 @@
         "index": {
           "description": "Compare Name to Var for equality See cmpString2Name",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "cmpTHName2Var",
           "normalized": "Name-\u003eVar-\u003eBool",
@@ -13865,6 +15029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn approximate, fast, version of \u003ccode\u003e\u003ca\u003eexprEtaExpandArity\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "exprArity",
           "package": "hermit",
@@ -13874,6 +15039,7 @@
         "index": {
           "description": "An approximate fast version of exprEtaExpandArity",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "exprArity",
           "normalized": "CoreExpr-\u003eArity",
@@ -13890,6 +15056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecover the type of a well-typed Core expression. Fails when\n applied to the actual \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e expression as it cannot\n really be said to have a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "exprType",
           "package": "hermit",
@@ -13900,6 +15067,7 @@
         "index": {
           "description": "Recover the type of well-typed Core expression Fails when applied to the actual Type expression as it cannot really be said to have type",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "exprType",
           "normalized": "CoreExpr-\u003eType",
@@ -13916,6 +15084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003es matching a given fully qualified or unqualified name.\n If given name is fully qualified, will only return first result, which is assumed unique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "findNamesFromString",
           "package": "hermit",
@@ -13926,6 +15095,7 @@
         "index": {
           "description": "Find Name matching given fully qualified or unqualified name If given name is fully qualified will only return first result which is assumed unique",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "findNamesFromString",
           "normalized": "GlobalRdrEnv-\u003eString-\u003e[Name]",
@@ -13942,6 +15112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003es matching a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e. See \u003ccode\u003e\u003ca\u003efindNamesFromString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "findNamesFromTH",
           "package": "hermit",
@@ -13952,6 +15123,7 @@
         "index": {
           "description": "Find Name matching Name See findNamesFromString",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "findNamesFromTH",
           "normalized": "GlobalRdrEnv-\u003eName-\u003e[Name]",
@@ -13968,6 +15140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the fully qualified name from a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "fqName",
           "package": "hermit",
@@ -13978,6 +15151,7 @@
         "index": {
           "description": "Get the fully qualified name from Name",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "fqName",
           "normalized": "Name-\u003eString",
@@ -13994,6 +15168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this a kind (i.e. a type-of-types)?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "isKind",
           "package": "hermit",
@@ -14003,6 +15178,7 @@
         "index": {
           "description": "Is this kind i.e type-of-types",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "isKind",
           "normalized": "Kind-\u003eBool",
@@ -14018,6 +15194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "isLiftedTypeKindCon",
           "package": "hermit",
@@ -14026,6 +15203,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "isLiftedTypeKindCon",
           "normalized": "TyCon-\u003eBool",
@@ -14041,6 +15219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "liftIO",
           "package": "hermit",
@@ -14049,6 +15228,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -14065,6 +15245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a GHC \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e to a Template Haskell \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e, going via a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "name2THName",
           "package": "hermit",
@@ -14075,6 +15256,7 @@
         "index": {
           "description": "Converts GHC Name to Template Haskell Name going via String",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "name2THName",
           "normalized": "Name-\u003eName",
@@ -14091,6 +15273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e is not an element of a \u003ccode\u003e\u003ca\u003eVarSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "notElemVarSet",
           "package": "hermit",
@@ -14101,6 +15284,7 @@
         "index": {
           "description": "Determine if Var is not an element of VarSet",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "notElemVarSet",
           "normalized": "Var-\u003eVarSet-\u003eBool",
@@ -14116,6 +15300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "occurAnalyseExpr",
           "package": "hermit",
@@ -14124,6 +15309,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "occurAnalyseExpr",
           "normalized": "CoreExpr-\u003eCoreExpr",
@@ -14139,6 +15325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "pFst",
           "package": "hermit",
@@ -14147,6 +15334,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "pFst",
           "package": "hermit",
@@ -14160,6 +15348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "pSnd",
           "package": "hermit",
@@ -14168,6 +15357,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "pSnd",
           "package": "hermit",
@@ -14182,6 +15372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print an identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "ppIdInfo",
           "package": "hermit",
@@ -14192,6 +15383,7 @@
         "index": {
           "description": "Pretty-print an identifier",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "ppIdInfo",
           "normalized": "Id-\u003eIdInfo-\u003eSDoc",
@@ -14208,6 +15400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a human-readable version of a \u003ccode\u003e\u003ca\u003eVarSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "showVarSet",
           "package": "hermit",
@@ -14218,6 +15411,7 @@
         "index": {
           "description": "Show human-readable version of VarSet",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "showVarSet",
           "normalized": "VarSet-\u003eString",
@@ -14233,6 +15427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "thRdrNameGuesses",
           "package": "hermit",
@@ -14241,6 +15436,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "thRdrNameGuesses",
           "normalized": "Name-\u003e[RdrName]",
@@ -14256,6 +15452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "throwGhcException",
           "package": "hermit",
@@ -14264,6 +15461,7 @@
         },
         "index": {
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "throwGhcException",
           "normalized": "GhcException-\u003ea",
@@ -14280,6 +15478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the unqualified name from a \u003ccode\u003e\u003ca\u003eNamedThing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "uqName",
           "package": "hermit",
@@ -14290,6 +15489,7 @@
         "index": {
           "description": "Get the unqualified name from NamedThing",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "uqName",
           "normalized": "a-\u003eString",
@@ -14306,6 +15506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a variable to a neat string for printing (unqualfied name).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "var2String",
           "package": "hermit",
@@ -14316,6 +15517,7 @@
         "index": {
           "description": "Convert variable to neat string for printing unqualfied name",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "var2String",
           "normalized": "Var-\u003eString",
@@ -14332,6 +15534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e to a Template Haskell \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e, going via a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "var2THName",
           "package": "hermit",
@@ -14342,6 +15545,7 @@
         "index": {
           "description": "Converts an Var to Template Haskell Name going via String",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "var2THName",
           "normalized": "Var-\u003eName",
@@ -14358,6 +15562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eVarSet\u003c/a\u003e\u003c/code\u003e to a list of user-readable strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "varSetToStrings",
           "package": "hermit",
@@ -14368,6 +15573,7 @@
         "index": {
           "description": "Convert VarSet to list of user-readable strings",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "varSetToStrings",
           "normalized": "VarSet-\u003e[String]",
@@ -14384,6 +15590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErase all \u003ccode\u003e\u003ca\u003eOccInfo\u003c/a\u003e\u003c/code\u003e in a variable if it is is an \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, or do nothing if it's a \u003ccode\u003e\u003ca\u003eTyVar\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eCoVar\u003c/a\u003e\u003c/code\u003e (which have no \u003ccode\u003e\u003ca\u003eOccInfo\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.GHC",
           "name": "zapVarOccInfo",
           "package": "hermit",
@@ -14394,6 +15601,7 @@
         "index": {
           "description": "Erase all OccInfo in variable if it is is an Id or do nothing if it TyVar or CoVar which have no OccInfo",
           "hierarchy": "HERMIT GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.GHC",
           "name": "zapVarOccInfo",
           "normalized": "Var-\u003eVar",
@@ -14409,6 +15617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Interp",
           "name": "Interp",
           "package": "hermit",
@@ -14417,6 +15626,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Interp",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Interp",
           "name": "Interp",
           "package": "hermit",
@@ -14431,6 +15641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eInterp\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e is a \u003cem\u003epossible\u003c/em\u003e means of converting a \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e value to a value of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Interp",
           "name": "Interp",
           "package": "hermit",
@@ -14440,6 +15651,7 @@
         "index": {
           "description": "An Interp is possible means of converting Typeable value to value of type",
           "hierarchy": "HERMIT Interp",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Interp",
           "name": "Interp",
           "package": "hermit",
@@ -14454,6 +15666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe primitive way of building an \u003ccode\u003e\u003ca\u003eInterp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Interp",
           "name": "interp",
           "package": "hermit",
@@ -14464,6 +15677,7 @@
         "index": {
           "description": "The primitive way of building an Interp",
           "hierarchy": "HERMIT Interp",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Interp",
           "name": "interp",
           "normalized": "(a-\u003eb)-\u003eInterp b",
@@ -14479,6 +15693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret an \u003ccode\u003e\u003ca\u003eExprH\u003c/a\u003e\u003c/code\u003e by looking up the appropriate \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e(s) in the provided \u003ccode\u003e\u003ca\u003eDictionary\u003c/a\u003e\u003c/code\u003e, then interpreting the \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e(s) with the provided \u003ccode\u003e\u003ca\u003eInterp\u003c/a\u003e\u003c/code\u003es, returning the first interpretation to succeed (or an error string if none succeed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Interp",
           "name": "interpExprH",
           "package": "hermit",
@@ -14489,6 +15704,7 @@
         "index": {
           "description": "Interpret an ExprH by looking up the appropriate Dynamic in the provided Dictionary then interpreting the Dynamic with the provided Interp returning the first interpretation to succeed or an error string if none succeed",
           "hierarchy": "HERMIT Interp",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Interp",
           "name": "interpExprH",
           "normalized": "Dictionary-\u003e[Interp a]-\u003eExprH-\u003eb a",
@@ -14504,6 +15720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "Scoped",
           "package": "hermit",
@@ -14512,6 +15729,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "Scoped",
           "package": "hermit",
@@ -14526,6 +15744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA primitive means of denoting navigation of a tree (within a local scope).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "Direction",
           "package": "hermit",
@@ -14535,6 +15754,7 @@
         "index": {
           "description": "primitive means of denoting navigation of tree within local scope",
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "Direction",
           "package": "hermit",
@@ -14549,6 +15769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSnocPath\u003c/a\u003e\u003c/code\u003e from a local origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "LocalPath",
           "package": "hermit",
@@ -14557,6 +15778,7 @@
         "index": {
           "description": "SnocPath from local origin",
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "LocalPath",
           "package": "hermit",
@@ -14571,6 +15793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003cem\u003ehandle\u003c/em\u003e for an \u003ccode\u003e\u003ca\u003eAST\u003c/a\u003e\u003c/code\u003e combined with scoping information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "SAST",
           "package": "hermit",
@@ -14580,6 +15803,7 @@
         "index": {
           "description": "handle for an AST combined with scoping information",
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "SAST",
           "package": "hermit",
@@ -14594,6 +15818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alternative HERMIT kernel, that provides scoping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "ScopedKernel",
           "package": "hermit",
@@ -14603,6 +15828,7 @@
         "index": {
           "description": "An alternative HERMIT kernel that provides scoping",
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "ScopedKernel",
           "package": "hermit",
@@ -14617,6 +15843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "L",
           "package": "hermit",
@@ -14627,6 +15854,7 @@
         "index": {
           "description": "Left",
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "L",
           "package": "hermit",
@@ -14640,6 +15868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "R",
           "package": "hermit",
@@ -14650,6 +15879,7 @@
         "index": {
           "description": "Right",
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "R",
           "package": "hermit",
@@ -14662,6 +15892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "SAST",
           "package": "hermit",
@@ -14671,6 +15902,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "SAST",
           "package": "hermit",
@@ -14684,6 +15916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "ScopedKernel",
           "package": "hermit",
@@ -14693,6 +15926,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "ScopedKernel",
           "package": "hermit",
@@ -14707,6 +15941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "T",
           "package": "hermit",
@@ -14717,6 +15952,7 @@
         "index": {
           "description": "Top",
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "T",
           "package": "hermit",
@@ -14730,6 +15966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "U",
           "package": "hermit",
@@ -14740,6 +15977,7 @@
         "index": {
           "description": "Up",
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "U",
           "package": "hermit",
@@ -14752,6 +15990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "abortS",
           "package": "hermit",
@@ -14761,6 +16000,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "abortS",
           "normalized": "a()",
@@ -14775,6 +16015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "applyS",
           "package": "hermit",
@@ -14784,6 +16025,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "applyS",
           "normalized": "RewriteH a-\u003eHermitMEnv-\u003eSAST-\u003eb SAST",
@@ -14798,6 +16040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "beginScopeS",
           "package": "hermit",
@@ -14807,6 +16050,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "beginScopeS",
           "normalized": "SAST-\u003ea SAST",
@@ -14822,6 +16066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "deleteS",
           "package": "hermit",
@@ -14831,6 +16076,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "deleteS",
           "normalized": "SAST-\u003ea()",
@@ -14845,6 +16091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "endScopeS",
           "package": "hermit",
@@ -14854,6 +16101,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "endScopeS",
           "normalized": "SAST-\u003ea SAST",
@@ -14869,6 +16117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "kernelS",
           "package": "hermit",
@@ -14878,6 +16127,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "kernelS",
           "package": "hermit",
@@ -14890,6 +16140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "listS",
           "package": "hermit",
@@ -14899,6 +16150,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "listS",
           "normalized": "a[SAST]",
@@ -14913,6 +16165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "modPathS",
           "package": "hermit",
@@ -14922,6 +16175,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "modPathS",
           "normalized": "(LocalPathH-\u003eLocalPathH)-\u003eHermitMEnv-\u003eSAST-\u003ea SAST",
@@ -14938,6 +16192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMovement confined within the local scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "moveLocally",
           "package": "hermit",
@@ -14948,6 +16203,7 @@
         "index": {
           "description": "Movement confined within the local scope",
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "moveLocally",
           "normalized": "Direction-\u003eLocalPathH-\u003eLocalPathH",
@@ -14963,6 +16219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "pathS",
           "package": "hermit",
@@ -14972,6 +16229,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "pathS",
           "normalized": "SAST-\u003ea[PathH]",
@@ -14986,6 +16244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "queryS",
           "package": "hermit",
@@ -14995,6 +16254,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "queryS",
           "normalized": "TranslateH a b-\u003eHermitMEnv-\u003eSAST-\u003ec b",
@@ -15009,6 +16269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "resumeS",
           "package": "hermit",
@@ -15018,6 +16279,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "resumeS",
           "normalized": "SAST-\u003ea()",
@@ -15033,6 +16295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a HERMIT client by providing an IO function that takes the initial \u003ccode\u003e\u003ca\u003eScopedKernel\u003c/a\u003e\u003c/code\u003e and inital \u003ccode\u003e\u003ca\u003eSAST\u003c/a\u003e\u003c/code\u003e handle.\n   The \u003ccode\u003eModguts\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eCoreM\u003c/a\u003e\u003c/code\u003e Modguts' function required by GHC Plugins is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "scopedKernel",
           "package": "hermit",
@@ -15043,6 +16306,7 @@
         "index": {
           "description": "Start HERMIT client by providing an IO function that takes the initial ScopedKernel and inital SAST handle The Modguts to CoreM Modguts function required by GHC Plugins is returned",
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "scopedKernel",
           "normalized": "(ScopedKernel-\u003eSAST-\u003eIO())-\u003eModGuts-\u003eCoreM ModGuts",
@@ -15058,6 +16322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel.Scoped",
           "name": "toASTS",
           "package": "hermit",
@@ -15067,6 +16332,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel Scoped",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel.Scoped",
           "name": "toASTS",
           "normalized": "SAST-\u003ea AST",
@@ -15082,6 +16348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel",
           "name": "Kernel",
           "package": "hermit",
@@ -15090,6 +16357,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kernel",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel",
           "name": "Kernel",
           "package": "hermit",
@@ -15104,6 +16372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003cem\u003ehandle\u003c/em\u003e for a specific version of the \u003ccode\u003e\u003ca\u003eModGuts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel",
           "name": "AST",
           "package": "hermit",
@@ -15113,6 +16382,7 @@
         "index": {
           "description": "handle for specific version of the ModGuts",
           "hierarchy": "HERMIT Kernel",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel",
           "name": "AST",
           "package": "hermit",
@@ -15127,6 +16397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eKernel\u003c/a\u003e\u003c/code\u003e is a repository for complete Core syntax trees (\u003ccode\u003e\u003ca\u003eModGuts\u003c/a\u003e\u003c/code\u003e).\n   For now, operations on a \u003ccode\u003e\u003ca\u003eKernel\u003c/a\u003e\u003c/code\u003e are sequential, but later\n   it will be possible to have two \u003ccode\u003e\u003ca\u003eapplyK\u003c/a\u003e\u003c/code\u003es running in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel",
           "name": "Kernel",
           "package": "hermit",
@@ -15136,6 +16407,7 @@
         "index": {
           "description": "Kernel is repository for complete Core syntax trees ModGuts For now operations on Kernel are sequential but later it will be possible to have two applyK running in parallel",
           "hierarchy": "HERMIT Kernel",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel",
           "name": "Kernel",
           "package": "hermit",
@@ -15150,6 +16422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHalt the \u003ccode\u003e\u003ca\u003eKernel\u003c/a\u003e\u003c/code\u003e and abort GHC without compiling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel",
           "name": "abortK",
           "package": "hermit",
@@ -15160,6 +16433,7 @@
         "index": {
           "description": "Halt the Kernel and abort GHC without compiling",
           "hierarchy": "HERMIT Kernel",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel",
           "name": "abortK",
           "normalized": "Kernel-\u003eIO()",
@@ -15175,6 +16449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eRewrite\u003c/a\u003e\u003c/code\u003e to the specified \u003ccode\u003e\u003ca\u003eAST\u003c/a\u003e\u003c/code\u003e and return a handle to the resulting \u003ccode\u003e\u003ca\u003eAST\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel",
           "name": "applyK",
           "package": "hermit",
@@ -15185,6 +16460,7 @@
         "index": {
           "description": "Apply Rewrite to the specified AST and return handle to the resulting AST",
           "hierarchy": "HERMIT Kernel",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel",
           "name": "applyK",
           "normalized": "Kernel-\u003eAST-\u003eRewriteH ModGuts-\u003eHermitMEnv-\u003eIO(KureM AST)",
@@ -15200,6 +16476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the internal record of the specified \u003ccode\u003e\u003ca\u003eAST\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel",
           "name": "deleteK",
           "package": "hermit",
@@ -15210,6 +16487,7 @@
         "index": {
           "description": "Delete the internal record of the specified AST",
           "hierarchy": "HERMIT Kernel",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel",
           "name": "deleteK",
           "normalized": "Kernel-\u003eAST-\u003eIO()",
@@ -15225,6 +16503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a HERMIT client by providing an IO function that takes the initial \u003ccode\u003e\u003ca\u003eKernel\u003c/a\u003e\u003c/code\u003e and inital \u003ccode\u003e\u003ca\u003eAST\u003c/a\u003e\u003c/code\u003e handle.\n   The \u003ccode\u003eModguts\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eCoreM\u003c/a\u003e\u003c/code\u003e Modguts' function required by GHC Plugins is returned.\n   The callback is only ever called once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel",
           "name": "hermitKernel",
           "package": "hermit",
@@ -15235,6 +16514,7 @@
         "index": {
           "description": "Start HERMIT client by providing an IO function that takes the initial Kernel and inital AST handle The Modguts to CoreM Modguts function required by GHC Plugins is returned The callback is only ever called once",
           "hierarchy": "HERMIT Kernel",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel",
           "name": "hermitKernel",
           "normalized": "(Kernel-\u003eAST-\u003eIO())-\u003eModGuts-\u003eCoreM ModGuts",
@@ -15251,6 +16531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all the \u003ccode\u003e\u003ca\u003eAST\u003c/a\u003e\u003c/code\u003es tracked by the \u003ccode\u003e\u003ca\u003eKernel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel",
           "name": "listK",
           "package": "hermit",
@@ -15261,6 +16542,7 @@
         "index": {
           "description": "List all the AST tracked by the Kernel",
           "hierarchy": "HERMIT Kernel",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel",
           "name": "listK",
           "normalized": "Kernel-\u003eIO[AST]",
@@ -15276,6 +16558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eTranslateH\u003c/a\u003e\u003c/code\u003e to the \u003ccode\u003e\u003ca\u003eAST\u003c/a\u003e\u003c/code\u003e and return the resulting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel",
           "name": "queryK",
           "package": "hermit",
@@ -15286,6 +16569,7 @@
         "index": {
           "description": "Apply TranslateH to the AST and return the resulting value",
           "hierarchy": "HERMIT Kernel",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel",
           "name": "queryK",
           "normalized": "Kernel-\u003ea b AST-\u003eTranslateH ModGuts c-\u003eHermitMEnv-\u003eIO(KureM c)",
@@ -15301,6 +16585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHalt the \u003ccode\u003e\u003ca\u003eKernel\u003c/a\u003e\u003c/code\u003e and return control to GHC, which compiles the specified \u003ccode\u003e\u003ca\u003eAST\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kernel",
           "name": "resumeK",
           "package": "hermit",
@@ -15311,6 +16596,7 @@
         "index": {
           "description": "Halt the Kernel and return control to GHC which compiles the specified AST",
           "hierarchy": "HERMIT Kernel",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kernel",
           "name": "resumeK",
           "normalized": "Kernel-\u003eAST-\u003eIO()",
@@ -15325,6 +16611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "SumTypes",
           "package": "hermit",
@@ -15333,6 +16620,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "SumTypes",
           "package": "hermit",
@@ -15347,6 +16635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCore is a sum type for use by KURE.  Core = ModGuts + CoreProg + CoreBind + CoreDef + CoreExpr + CoreAlt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "Core",
           "package": "hermit",
@@ -15356,6 +16645,7 @@
         "index": {
           "description": "Core is sum type for use by KURE Core ModGuts CoreProg CoreBind CoreDef CoreExpr CoreAlt",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "Core",
           "package": "hermit",
@@ -15370,6 +16660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoreTC is a sum type for use by KURE.  CoreTC = Core + TyCo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "CoreTC",
           "package": "hermit",
@@ -15379,6 +16670,7 @@
         "index": {
           "description": "CoreTC is sum type for use by KURE CoreTC Core TyCo",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "CoreTC",
           "package": "hermit",
@@ -15393,6 +16685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyCo is a sum type for use by KURE.  TyCo = Type + Coercion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "TyCo",
           "package": "hermit",
@@ -15402,6 +16695,7 @@
         "index": {
           "description": "TyCo is sum type for use by KURE TyCo Type Coercion",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "TyCo",
           "package": "hermit",
@@ -15416,6 +16710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA case alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "AltCore",
           "package": "hermit",
@@ -15426,6 +16721,7 @@
         "index": {
           "description": "case alternative",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "AltCore",
           "package": "hermit",
@@ -15440,6 +16736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binding group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "BindCore",
           "package": "hermit",
@@ -15450,6 +16747,7 @@
         "index": {
           "description": "binding group",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "BindCore",
           "package": "hermit",
@@ -15464,6 +16762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA coercion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "CoercionCore",
           "package": "hermit",
@@ -15474,6 +16773,7 @@
         "index": {
           "description": "coercion",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "CoercionCore",
           "package": "hermit",
@@ -15487,6 +16787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "Core",
           "package": "hermit",
@@ -15496,6 +16797,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "Core",
           "package": "hermit",
@@ -15510,6 +16812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA recursive definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "DefCore",
           "package": "hermit",
@@ -15520,6 +16823,7 @@
         "index": {
           "description": "recursive definition",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "DefCore",
           "package": "hermit",
@@ -15534,6 +16838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "ExprCore",
           "package": "hermit",
@@ -15544,6 +16849,7 @@
         "index": {
           "description": "An expression",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "ExprCore",
           "package": "hermit",
@@ -15558,6 +16864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "GutsCore",
           "package": "hermit",
@@ -15568,6 +16875,7 @@
         "index": {
           "description": "The module",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "GutsCore",
           "package": "hermit",
@@ -15582,6 +16890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA program (a telescope of top-level binding groups).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "ProgCore",
           "package": "hermit",
@@ -15592,6 +16901,7 @@
         "index": {
           "description": "program telescope of top-level binding groups",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "ProgCore",
           "package": "hermit",
@@ -15605,6 +16915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "TyCo",
           "package": "hermit",
@@ -15614,6 +16925,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "TyCo",
           "package": "hermit",
@@ -15628,6 +16940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "TypeCore",
           "package": "hermit",
@@ -15638,6 +16951,7 @@
         "index": {
           "description": "type",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "TypeCore",
           "package": "hermit",
@@ -15652,6 +16966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha equality of \u003ccode\u003e\u003ca\u003eCore\u003c/a\u003e\u003c/code\u003e fragments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "coreAlphaEq",
           "package": "hermit",
@@ -15662,6 +16977,7 @@
         "index": {
           "description": "Alpha equality of Core fragments",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "coreAlphaEq",
           "normalized": "Core-\u003eCore-\u003eBool",
@@ -15678,6 +16994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic equality of \u003ccode\u003e\u003ca\u003eCore\u003c/a\u003e\u003c/code\u003e fragments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "coreSyntaxEq",
           "package": "hermit",
@@ -15688,6 +17005,7 @@
         "index": {
           "description": "Syntactic equality of Core fragments",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "coreSyntaxEq",
           "normalized": "Core-\u003eCore-\u003eBool",
@@ -15704,6 +17022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha equality of \u003ccode\u003e\u003ca\u003eCoreTC\u003c/a\u003e\u003c/code\u003e fragments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "coreTCAlphaEq",
           "package": "hermit",
@@ -15714,6 +17033,7 @@
         "index": {
           "description": "Alpha equality of CoreTC fragments",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "coreTCAlphaEq",
           "normalized": "CoreTC-\u003eCoreTC-\u003eBool",
@@ -15730,6 +17050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic equality of \u003ccode\u003e\u003ca\u003eCoreTC\u003c/a\u003e\u003c/code\u003e fragments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "coreTCSyntaxEq",
           "package": "hermit",
@@ -15740,6 +17061,7 @@
         "index": {
           "description": "Syntactic equality of CoreTC fragments",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "coreTCSyntaxEq",
           "normalized": "CoreTC-\u003eCoreTC-\u003eBool",
@@ -15756,6 +17078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free variables in a \u003ccode\u003e\u003ca\u003eCore\u003c/a\u003e\u003c/code\u003e node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "freeVarsCore",
           "package": "hermit",
@@ -15766,6 +17089,7 @@
         "index": {
           "description": "Find all free variables in Core node",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "freeVarsCore",
           "normalized": "Core-\u003eVarSet",
@@ -15782,6 +17106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free variables in a \u003ccode\u003e\u003ca\u003eCoreTC\u003c/a\u003e\u003c/code\u003e node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "freeVarsCoreTC",
           "package": "hermit",
@@ -15792,6 +17117,7 @@
         "index": {
           "description": "Find all free variables in CoreTC node",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "freeVarsCoreTC",
           "normalized": "CoreTC-\u003eVarSet",
@@ -15808,6 +17134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all free variables in a \u003ccode\u003e\u003ca\u003eTyCo\u003c/a\u003e\u003c/code\u003e node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "freeVarsTyCo",
           "package": "hermit",
@@ -15818,6 +17145,7 @@
         "index": {
           "description": "Find all free variables in TyCo node",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "freeVarsTyCo",
           "normalized": "TyCo-\u003eVarSet",
@@ -15834,6 +17162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a rewrite on \u003ccode\u003e\u003ca\u003eCoreAlt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteAltR",
           "package": "hermit",
@@ -15844,6 +17173,7 @@
         "index": {
           "description": "Promote rewrite on CoreAlt",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteAltR",
           "normalized": "Rewrite a b CoreAlt-\u003eRewrite a b c",
@@ -15860,6 +17190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a translate on \u003ccode\u003e\u003ca\u003eCoreAlt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteAltT",
           "package": "hermit",
@@ -15870,6 +17201,7 @@
         "index": {
           "description": "Promote translate on CoreAlt",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteAltT",
           "normalized": "Translate a b CoreAlt c-\u003eTranslate a b d c",
@@ -15886,6 +17218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a rewrite on \u003ccode\u003e\u003ca\u003eCoreBind\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteBindR",
           "package": "hermit",
@@ -15896,6 +17229,7 @@
         "index": {
           "description": "Promote rewrite on CoreBind",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteBindR",
           "normalized": "Rewrite a b CoreBind-\u003eRewrite a b c",
@@ -15912,6 +17246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a translate on \u003ccode\u003e\u003ca\u003eCoreBind\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteBindT",
           "package": "hermit",
@@ -15922,6 +17257,7 @@
         "index": {
           "description": "Promote translate on CoreBind",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteBindT",
           "normalized": "Translate a b CoreBind c-\u003eTranslate a b d c",
@@ -15938,6 +17274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a rewrite on \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteCoercionR",
           "package": "hermit",
@@ -15948,6 +17285,7 @@
         "index": {
           "description": "Promote rewrite on Coercion",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteCoercionR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b c",
@@ -15964,6 +17302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a translate on \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteCoercionT",
           "package": "hermit",
@@ -15974,6 +17313,7 @@
         "index": {
           "description": "Promote translate on Coercion",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteCoercionT",
           "normalized": "Translate a b Coercion c-\u003eTranslate a b d c",
@@ -15990,6 +17330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a rewrite on \u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteDefR",
           "package": "hermit",
@@ -16000,6 +17341,7 @@
         "index": {
           "description": "Promote rewrite on CoreDef",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteDefR",
           "normalized": "Rewrite a b CoreDef-\u003eRewrite a b c",
@@ -16016,6 +17358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a translate on \u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteDefT",
           "package": "hermit",
@@ -16026,6 +17369,7 @@
         "index": {
           "description": "Promote translate on CoreDef",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteDefT",
           "normalized": "Translate a b CoreDef c-\u003eTranslate a b d c",
@@ -16042,6 +17386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a bidirectional rewrite on \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteExprBiR",
           "package": "hermit",
@@ -16052,6 +17397,7 @@
         "index": {
           "description": "Promote bidirectional rewrite on CoreExpr",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteExprBiR",
           "normalized": "BiRewrite a b CoreExpr-\u003eBiRewrite a b c",
@@ -16068,6 +17414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a rewrite on \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteExprR",
           "package": "hermit",
@@ -16078,6 +17425,7 @@
         "index": {
           "description": "Promote rewrite on CoreExpr",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteExprR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b c",
@@ -16094,6 +17442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a translate on \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteExprT",
           "package": "hermit",
@@ -16104,6 +17453,7 @@
         "index": {
           "description": "Promote translate on CoreExpr",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteExprT",
           "normalized": "Translate a b CoreExpr c-\u003eTranslate a b d c",
@@ -16120,6 +17470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a rewrite on \u003ccode\u003e\u003ca\u003eModGuts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteModGutsR",
           "package": "hermit",
@@ -16130,6 +17481,7 @@
         "index": {
           "description": "Promote rewrite on ModGuts",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteModGutsR",
           "normalized": "Rewrite a b ModGuts-\u003eRewrite a b c",
@@ -16146,6 +17498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a translate on \u003ccode\u003e\u003ca\u003eModGuts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteModGutsT",
           "package": "hermit",
@@ -16156,6 +17509,7 @@
         "index": {
           "description": "Promote translate on ModGuts",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteModGutsT",
           "normalized": "Translate a b ModGuts c-\u003eTranslate a b d c",
@@ -16172,6 +17526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a rewrite on \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteProgR",
           "package": "hermit",
@@ -16182,6 +17537,7 @@
         "index": {
           "description": "Promote rewrite on CoreProg",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteProgR",
           "normalized": "Rewrite a b CoreProg-\u003eRewrite a b c",
@@ -16198,6 +17554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a translate on \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteProgT",
           "package": "hermit",
@@ -16208,6 +17565,7 @@
         "index": {
           "description": "Promote translate on CoreProg",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteProgT",
           "normalized": "Translate a b CoreProg c-\u003eTranslate a b d c",
@@ -16224,6 +17582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a rewrite on \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteTypeR",
           "package": "hermit",
@@ -16234,6 +17593,7 @@
         "index": {
           "description": "Promote rewrite on Type",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteTypeR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b c",
@@ -16250,6 +17610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a translate on \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteTypeT",
           "package": "hermit",
@@ -16260,6 +17621,7 @@
         "index": {
           "description": "Promote translate on Type",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "promoteTypeT",
           "normalized": "Translate a b Type c-\u003eTranslate a b d c",
@@ -16276,6 +17638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha equality of \u003ccode\u003e\u003ca\u003eTyCo\u003c/a\u003e\u003c/code\u003e fragments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "tyCoAlphaEq",
           "package": "hermit",
@@ -16286,6 +17649,7 @@
         "index": {
           "description": "Alpha equality of TyCo fragments",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "tyCoAlphaEq",
           "normalized": "TyCo-\u003eTyCo-\u003eBool",
@@ -16302,6 +17666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntactic equality of \u003ccode\u003e\u003ca\u003eTyCo\u003c/a\u003e\u003c/code\u003e fragments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure.SumTypes",
           "name": "tyCoSyntaxEq",
           "package": "hermit",
@@ -16312,6 +17677,7 @@
         "index": {
           "description": "Syntactic equality of TyCo fragments",
           "hierarchy": "HERMIT Kure SumTypes",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure.SumTypes",
           "name": "tyCoSyntaxEq",
           "normalized": "TyCo-\u003eTyCo-\u003eBool",
@@ -16327,6 +17693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "Kure",
           "package": "hermit",
@@ -16335,6 +17702,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "Kure",
           "package": "hermit",
@@ -16348,6 +17716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "BiRewriteH",
           "package": "hermit",
@@ -16356,6 +17725,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "BiRewriteH",
           "package": "hermit",
@@ -16369,6 +17739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "LensH",
           "package": "hermit",
@@ -16377,6 +17748,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "LensH",
           "package": "hermit",
@@ -16390,6 +17762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "PathH",
           "package": "hermit",
@@ -16398,6 +17771,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "PathH",
           "package": "hermit",
@@ -16411,6 +17785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "RewriteH",
           "package": "hermit",
@@ -16419,6 +17794,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "RewriteH",
           "package": "hermit",
@@ -16432,6 +17808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "TranslateH",
           "package": "hermit",
@@ -16440,6 +17817,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "TranslateH",
           "package": "hermit",
@@ -16454,6 +17832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a case alternative of the form: (\u003ccode\u003e\u003ca\u003eAltCon\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "altAllR",
           "package": "hermit",
@@ -16464,6 +17843,7 @@
         "index": {
           "description": "Rewrite all children of case alternative of the form AltCon Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "altAllR",
           "normalized": "Rewrite a b AltCon-\u003e(Int-\u003eRewrite a b Var)-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreAlt",
@@ -16480,6 +17860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a case alternative of the form: (\u003ccode\u003e\u003ca\u003eAltCon\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "altAnyR",
           "package": "hermit",
@@ -16490,6 +17871,7 @@
         "index": {
           "description": "Rewrite any children of case alternative of the form AltCon Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "altAnyR",
           "normalized": "Rewrite a b AltCon-\u003e(Int-\u003eRewrite a b Var)-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreAlt",
@@ -16506,6 +17888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a case alternative of the form: (\u003ccode\u003e\u003ca\u003eAltCon\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "altOneR",
           "package": "hermit",
@@ -16516,6 +17899,7 @@
         "index": {
           "description": "Rewrite one child of case alternative of the form AltCon Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "altOneR",
           "normalized": "Rewrite a b AltCon-\u003e(Int-\u003eRewrite a b Var)-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreAlt",
@@ -16532,6 +17916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a case alternative of the form: (\u003ccode\u003e\u003ca\u003eAltCon\u003c/a\u003e\u003c/code\u003e, [\u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e], \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "altT",
           "package": "hermit",
@@ -16542,6 +17927,7 @@
         "index": {
           "description": "Translate case alternative of the form AltCon Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "altT",
           "normalized": "Translate a b AltCon c-\u003e(Int-\u003eTranslate a b Var c)-\u003eTranslate a b CoreExpr c-\u003e(c-\u003e[c]-\u003ec-\u003ed)-\u003eTranslate a b CoreAlt d",
@@ -16557,6 +17943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: \u003ccode\u003eApp\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appAllR",
           "package": "hermit",
@@ -16567,6 +17954,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form App CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appAllR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -16583,6 +17971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: \u003ccode\u003eApp\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appAnyR",
           "package": "hermit",
@@ -16593,6 +17982,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form App CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appAnyR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -16609,6 +17999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a coercion of the form: \u003ccode\u003eAppCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appCoAllR",
           "package": "hermit",
@@ -16619,6 +18010,7 @@
         "index": {
           "description": "Rewrite all children of coercion of the form AppCo Coercion Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appCoAllR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -16635,6 +18027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a coercion of the form: \u003ccode\u003eAppCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appCoAnyR",
           "package": "hermit",
@@ -16645,6 +18038,7 @@
         "index": {
           "description": "Rewrite any children of coercion of the form AppCo Coercion Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appCoAnyR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -16661,6 +18055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a coercion of the form: \u003ccode\u003eAppCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appCoOneR",
           "package": "hermit",
@@ -16671,6 +18066,7 @@
         "index": {
           "description": "Rewrite one child of coercion of the form AppCo Coercion Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appCoOneR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -16687,6 +18083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a coercion of the form: \u003ccode\u003eAppCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appCoT",
           "package": "hermit",
@@ -16697,6 +18094,7 @@
         "index": {
           "description": "Translate coercion of the form AppCo Coercion Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appCoT",
           "normalized": "Translate a b Coercion c-\u003eTranslate a b Coercion c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b Coercion d",
@@ -16713,6 +18111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: \u003ccode\u003eApp\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appOneR",
           "package": "hermit",
@@ -16723,6 +18122,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form App CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appOneR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -16739,6 +18139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eApp\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appT",
           "package": "hermit",
@@ -16749,6 +18150,7 @@
         "index": {
           "description": "Translate an expression of the form App CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appT",
           "normalized": "Translate a b CoreExpr c-\u003eTranslate a b CoreExpr c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b CoreExpr d",
@@ -16764,6 +18166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a type of the form: \u003ccode\u003eAppTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appTyAllR",
           "package": "hermit",
@@ -16774,6 +18177,7 @@
         "index": {
           "description": "Rewrite all children of type of the form AppTy Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appTyAllR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b Type-\u003eRewrite a b Type",
@@ -16790,6 +18194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a type of the form: \u003ccode\u003eAppTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appTyAnyR",
           "package": "hermit",
@@ -16800,6 +18205,7 @@
         "index": {
           "description": "Rewrite any children of type of the form AppTy Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appTyAnyR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b Type-\u003eRewrite a b Type",
@@ -16816,6 +18222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a type of the form: \u003ccode\u003eAppTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appTyOneR",
           "package": "hermit",
@@ -16826,6 +18233,7 @@
         "index": {
           "description": "Rewrite one child of type of the form AppTy Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appTyOneR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b Type-\u003eRewrite a b Type",
@@ -16842,6 +18250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a type of the form: \u003ccode\u003eAppTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "appTyT",
           "package": "hermit",
@@ -16852,6 +18261,7 @@
         "index": {
           "description": "Translate type of the form AppTy Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "appTyT",
           "normalized": "Translate a b Type c-\u003eTranslate a b Type c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b Type d",
@@ -16868,6 +18278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a coercion of the form: \u003ccode\u003eAxiomInstCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoAxiom\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "axiomInstCoAllR",
           "package": "hermit",
@@ -16878,6 +18289,7 @@
         "index": {
           "description": "Rewrite all children of coercion of the form AxiomInstCo CoAxiom Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "axiomInstCoAllR",
           "normalized": "Rewrite a b CoAxiom-\u003e(Int-\u003eRewrite a b Coercion)-\u003eRewrite a b Coercion",
@@ -16894,6 +18306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a coercion of the form: \u003ccode\u003eAxiomInstCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoAxiom\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "axiomInstCoAnyR",
           "package": "hermit",
@@ -16904,6 +18317,7 @@
         "index": {
           "description": "Rewrite any children of coercion of the form AxiomInstCo CoAxiom Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "axiomInstCoAnyR",
           "normalized": "Rewrite a b CoAxiom-\u003e(Int-\u003eRewrite a b Coercion)-\u003eRewrite a b Coercion",
@@ -16920,6 +18334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a coercion of the form: \u003ccode\u003eAxiomInstCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoAxiom\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "axiomInstCoOneR",
           "package": "hermit",
@@ -16930,6 +18345,7 @@
         "index": {
           "description": "Rewrite one child of coercion of the form AxiomInstCo CoAxiom Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "axiomInstCoOneR",
           "normalized": "Rewrite a b CoAxiom-\u003e(Int-\u003eRewrite a b Coercion)-\u003eRewrite a b Coercion",
@@ -16946,6 +18362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a coercion of the form: \u003ccode\u003eAxiomInstCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoAxiom\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "axiomInstCoT",
           "package": "hermit",
@@ -16956,6 +18373,7 @@
         "index": {
           "description": "Translate coercion of the form AxiomInstCo CoAxiom Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "axiomInstCoT",
           "normalized": "Translate a b CoAxiom c-\u003e(Int-\u003eTranslate a b Coercion c)-\u003e(c-\u003e[c]-\u003ed)-\u003eTranslate a b Coercion d",
@@ -16972,6 +18390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: \u003ccode\u003eCase\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreAlt\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "caseAllR",
           "package": "hermit",
@@ -16982,6 +18401,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form Case CoreExpr Id Type CoreAlt",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "caseAllR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b Id-\u003eRewrite a b Type-\u003e(Int-\u003eRewrite a b CoreAlt)-\u003eRewrite a b CoreExpr",
@@ -16998,6 +18418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: \u003ccode\u003eCase\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eAltCon\u003c/a\u003e\u003c/code\u003e, [\u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e], \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "caseAltAllR",
           "package": "hermit",
@@ -17008,6 +18429,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form Case CoreExpr Id Type AltCon Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "caseAltAllR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b Id-\u003eRewrite a b Type-\u003e(Int-\u003e(Rewrite a b AltCon,Int-\u003eRewrite a b Var,Rewrite a b CoreExpr))-\u003eRewrite a b CoreExpr",
@@ -17024,6 +18446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: \u003ccode\u003eCase\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eAltCon\u003c/a\u003e\u003c/code\u003e, [\u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e], \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "caseAltAnyR",
           "package": "hermit",
@@ -17034,6 +18457,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Case CoreExpr Id Type AltCon Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "caseAltAnyR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b Id-\u003eRewrite a b Type-\u003e(Int-\u003e(Rewrite a b AltCon,Int-\u003eRewrite a b Var,Rewrite a b CoreExpr))-\u003eRewrite a b CoreExpr",
@@ -17050,6 +18474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: \u003ccode\u003eCase\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eAltCon\u003c/a\u003e\u003c/code\u003e, [\u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e], \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "caseAltOneR",
           "package": "hermit",
@@ -17060,6 +18485,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form Case CoreExpr Id Type AltCon Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "caseAltOneR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b Id-\u003eRewrite a b Type-\u003e(Int-\u003e(Rewrite a b AltCon,Int-\u003eRewrite a b Var,Rewrite a b CoreExpr))-\u003eRewrite a b CoreExpr",
@@ -17076,6 +18502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eCase\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eAltCon\u003c/a\u003e\u003c/code\u003e, [\u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e], \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "caseAltT",
           "package": "hermit",
@@ -17086,6 +18513,7 @@
         "index": {
           "description": "Translate an expression of the form Case CoreExpr Id Type AltCon Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "caseAltT",
           "normalized": "Translate a b CoreExpr c-\u003eTranslate a b Id d-\u003eTranslate a b Type e-\u003e(Int-\u003e(Translate a b AltCon f,Int-\u003eTranslate a b Var g,Translate a b CoreExpr h))-\u003e(c-\u003ed-\u003ee-\u003e[(f,[g],h)]-\u003ei)-\u003eTranslate a b CoreExpr i",
@@ -17102,6 +18530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: \u003ccode\u003eCase\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreAlt\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "caseAnyR",
           "package": "hermit",
@@ -17112,6 +18541,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Case CoreExpr Id Type CoreAlt",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "caseAnyR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b Id-\u003eRewrite a b Type-\u003e(Int-\u003eRewrite a b CoreAlt)-\u003eRewrite a b CoreExpr",
@@ -17128,6 +18558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: \u003ccode\u003eCase\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreAlt\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "caseOneR",
           "package": "hermit",
@@ -17138,6 +18569,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form Case CoreExpr Id Type CoreAlt",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "caseOneR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b Id-\u003eRewrite a b Type-\u003e(Int-\u003eRewrite a b CoreAlt)-\u003eRewrite a b CoreExpr",
@@ -17154,6 +18586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eCase\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreAlt\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "caseT",
           "package": "hermit",
@@ -17164,6 +18597,7 @@
         "index": {
           "description": "Translate an expression of the form Case CoreExpr Id Type CoreAlt",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "caseT",
           "normalized": "Translate a b CoreExpr c-\u003eTranslate a b Id d-\u003eTranslate a b Type e-\u003e(Int-\u003eTranslate a b CoreAlt f)-\u003e(c-\u003ed-\u003ee-\u003e[f]-\u003eg)-\u003eTranslate a b CoreExpr g",
@@ -17179,6 +18613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: \u003ccode\u003eCast\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "castAllR",
           "package": "hermit",
@@ -17189,6 +18624,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form Cast CoreExpr Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "castAllR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b Coercion-\u003eRewrite a b CoreExpr",
@@ -17205,6 +18641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: \u003ccode\u003eCast\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "castAnyR",
           "package": "hermit",
@@ -17215,6 +18652,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Cast CoreExpr Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "castAnyR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b Coercion-\u003eRewrite a b CoreExpr",
@@ -17231,6 +18669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: \u003ccode\u003eCast\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "castOneR",
           "package": "hermit",
@@ -17241,6 +18680,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form Cast CoreExpr Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "castOneR",
           "normalized": "Rewrite a b CoreExpr-\u003eRewrite a b Coercion-\u003eRewrite a b CoreExpr",
@@ -17257,6 +18697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eCast\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "castT",
           "package": "hermit",
@@ -17267,6 +18708,7 @@
         "index": {
           "description": "Translate an expression of the form Cast CoreExpr Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "castT",
           "normalized": "Translate a b CoreExpr c-\u003eTranslate a b Coercion c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b CoreExpr d",
@@ -17282,6 +18724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite the \u003ccode\u003e\u003ca\u003eCoVar\u003c/a\u003e\u003c/code\u003e child of a coercion of the form: \u003ccode\u003eCoVarCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoVar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "coVarCoR",
           "package": "hermit",
@@ -17292,6 +18735,7 @@
         "index": {
           "description": "Rewrite the CoVar child of coercion of the form CoVarCo CoVar",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "coVarCoR",
           "normalized": "Rewrite a b CoVar-\u003eRewrite a b Coercion",
@@ -17308,6 +18752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a coercion of the form: \u003ccode\u003eCoVarCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoVar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "coVarCoT",
           "package": "hermit",
@@ -17318,6 +18763,7 @@
         "index": {
           "description": "Translate coercion of the form CoVarCo CoVar",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "coVarCoT",
           "normalized": "Translate a b CoVar c-\u003eTranslate a b Coercion c",
@@ -17334,6 +18780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite the \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e child in an expression of the form: \u003ccode\u003eCoercion\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "coercionR",
           "package": "hermit",
@@ -17344,6 +18791,7 @@
         "index": {
           "description": "Rewrite the Coercion child in an expression of the form Coercion Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "coercionR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b CoreExpr",
@@ -17359,6 +18807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eCoercion\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "coercionT",
           "package": "hermit",
@@ -17369,6 +18818,7 @@
         "index": {
           "description": "Translate an expression of the form Coercion Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "coercionT",
           "normalized": "Translate a b Coercion c-\u003eTranslate a b CoreExpr c",
@@ -17384,6 +18834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: (\u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consNonRecAllR",
           "package": "hermit",
@@ -17394,6 +18845,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form NonRec Var CoreExpr CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consNonRecAllR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -17410,6 +18862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: (\u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consNonRecAnyR",
           "package": "hermit",
@@ -17420,6 +18873,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form NonRec Var CoreExpr CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consNonRecAnyR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -17436,6 +18890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: (\u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consNonRecOneR",
           "package": "hermit",
@@ -17446,6 +18901,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form NonRec Var CoreExpr CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consNonRecOneR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -17462,6 +18918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a program of the form: (\u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consNonRecT",
           "package": "hermit",
@@ -17472,6 +18929,7 @@
         "index": {
           "description": "Translate program of the form NonRec Var CoreExpr CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consNonRecT",
           "normalized": "Translate a b Var c-\u003eTranslate a b CoreExpr c-\u003eTranslate a b CoreProg c-\u003e(c-\u003ec-\u003ec-\u003ed)-\u003eTranslate a b CoreProg d",
@@ -17488,6 +18946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: (\u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consRecAllR",
           "package": "hermit",
@@ -17498,6 +18957,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form Rec CoreDef CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consRecAllR",
           "normalized": "(Int-\u003eRewrite a b CoreDef)-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -17514,6 +18974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: (\u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consRecAnyR",
           "package": "hermit",
@@ -17524,6 +18985,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Rec CoreDef CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consRecAnyR",
           "normalized": "(Int-\u003eRewrite a b CoreDef)-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -17540,6 +19002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: (\u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consRecDefAllR",
           "package": "hermit",
@@ -17550,6 +19013,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form Rec Id CoreExpr CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consRecDefAllR",
           "normalized": "(Int-\u003e(Rewrite a b Id,Rewrite a b CoreExpr))-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -17566,6 +19030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: (\u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consRecDefAnyR",
           "package": "hermit",
@@ -17576,6 +19041,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Rec Id CoreExpr CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consRecDefAnyR",
           "normalized": "(Int-\u003e(Rewrite a b Id,Rewrite a b CoreExpr))-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -17592,6 +19058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: (\u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consRecDefOneR",
           "package": "hermit",
@@ -17602,6 +19069,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form Rec Id CoreExpr CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consRecDefOneR",
           "normalized": "(Int-\u003e(Rewrite a b Id,Rewrite a b CoreExpr))-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -17618,6 +19086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: (\u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consRecDefT",
           "package": "hermit",
@@ -17628,6 +19097,7 @@
         "index": {
           "description": "Translate an expression of the form Rec Id CoreExpr CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consRecDefT",
           "normalized": "(Int-\u003e(Translate a b Id c,Translate a b CoreExpr c))-\u003eTranslate a b CoreProg c-\u003e([(c,c)]-\u003ec-\u003ed)-\u003eTranslate a b CoreProg d",
@@ -17644,6 +19114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: (\u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consRecOneR",
           "package": "hermit",
@@ -17654,6 +19125,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form Rec CoreDef CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consRecOneR",
           "normalized": "(Int-\u003eRewrite a b CoreDef)-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -17670,6 +19142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: (\u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]) \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "consRecT",
           "package": "hermit",
@@ -17680,6 +19153,7 @@
         "index": {
           "description": "Translate an expression of the form Rec CoreDef CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "consRecT",
           "normalized": "(Int-\u003eTranslate a b CoreDef c)-\u003eTranslate a b CoreProg c-\u003e([c]-\u003ec-\u003ed)-\u003eTranslate a b CoreProg d",
@@ -17696,6 +19170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a recursive definition of the form: \u003ccode\u003eDef\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "defAllR",
           "package": "hermit",
@@ -17706,6 +19181,7 @@
         "index": {
           "description": "Rewrite all children of recursive definition of the form Def Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "defAllR",
           "normalized": "Rewrite a b Id-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreDef",
@@ -17722,6 +19198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a recursive definition of the form: \u003ccode\u003eDef\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "defAnyR",
           "package": "hermit",
@@ -17732,6 +19209,7 @@
         "index": {
           "description": "Rewrite any children of recursive definition of the form Def Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "defAnyR",
           "normalized": "Rewrite a b Id-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreDef",
@@ -17748,6 +19226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a recursive definition of the form: \u003ccode\u003eDef\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "defOneR",
           "package": "hermit",
@@ -17758,6 +19237,7 @@
         "index": {
           "description": "Rewrite one child of recursive definition of the form Def Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "defOneR",
           "normalized": "Rewrite a b Id-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreDef",
@@ -17774,6 +19254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a definition of the form \u003ccode\u003eNonRec \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003eDef \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "defOrNonRecAllR",
           "package": "hermit",
@@ -17784,6 +19265,7 @@
         "index": {
           "description": "Rewrite all children of definition of the form NonRec Var CoreExpr or Def Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "defOrNonRecAllR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b c",
@@ -17800,6 +19282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a definition of the form \u003ccode\u003eNonRec \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003eDef \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "defOrNonRecAnyR",
           "package": "hermit",
@@ -17810,6 +19293,7 @@
         "index": {
           "description": "Rewrite any children of definition of the form NonRec Var CoreExpr or Def Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "defOrNonRecAnyR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b c",
@@ -17826,6 +19310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a definition of the form \u003ccode\u003eNonRec \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003eDef \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "defOrNonRecOneR",
           "package": "hermit",
@@ -17836,6 +19321,7 @@
         "index": {
           "description": "Rewrite one child of definition of the form NonRec Var CoreExpr or Def Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "defOrNonRecOneR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b c",
@@ -17852,6 +19338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a definition of the form \u003ccode\u003eNonRec \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003eDef \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "defOrNonRecT",
           "package": "hermit",
@@ -17862,6 +19349,7 @@
         "index": {
           "description": "Translate definition of the form NonRec Var CoreExpr or Def Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "defOrNonRecT",
           "normalized": "Translate a b Var c-\u003eTranslate a b CoreExpr c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b e d",
@@ -17878,6 +19366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a recursive definition of the form: \u003ccode\u003eDef\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "defT",
           "package": "hermit",
@@ -17888,6 +19377,7 @@
         "index": {
           "description": "Translate recursive definition of the form Def Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "defT",
           "normalized": "Translate a b Id c-\u003eTranslate a b CoreExpr c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b CoreDef d",
@@ -17903,6 +19393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEarlier versions of HERMIT used \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e as the crumb type.\n   This translation maps an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e to the corresponding \u003ccode\u003e\u003ca\u003eCrumb\u003c/a\u003e\u003c/code\u003e, for backwards compatibility purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "deprecatedIntToCrumbT",
           "package": "hermit",
@@ -17913,6 +19404,7 @@
         "index": {
           "description": "Earlier versions of HERMIT used Int as the crumb type This translation maps an Int to the corresponding Crumb for backwards compatibility purposes",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "deprecatedIntToCrumbT",
           "normalized": "Int-\u003eTranslate a b Core Crumb",
@@ -17929,6 +19421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a path to the first child, based on the old numbering system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "deprecatedIntToPathT",
           "package": "hermit",
@@ -17939,6 +19432,7 @@
         "index": {
           "description": "Builds path to the first child based on the old numbering system",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "deprecatedIntToPathT",
           "normalized": "Int-\u003eTranslate a b Core LocalPathH",
@@ -17955,6 +19449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a coercion of the form: \u003ccode\u003eForAllCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "forAllCoAllR",
           "package": "hermit",
@@ -17965,6 +19460,7 @@
         "index": {
           "description": "Rewrite all children of coercion of the form ForAllCo TyVar Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "forAllCoAllR",
           "normalized": "Rewrite a b TyVar-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -17981,6 +19477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a coercion of the form: \u003ccode\u003eForAllCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "forAllCoAnyR",
           "package": "hermit",
@@ -17991,6 +19488,7 @@
         "index": {
           "description": "Rewrite any children of coercion of the form ForAllCo TyVar Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "forAllCoAnyR",
           "normalized": "Rewrite a b TyVar-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -18007,6 +19505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a coercion of the form: \u003ccode\u003eForAllCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "forAllCoOneR",
           "package": "hermit",
@@ -18017,6 +19516,7 @@
         "index": {
           "description": "Rewrite one child of coercion of the form ForAllCo TyVar Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "forAllCoOneR",
           "normalized": "Rewrite a b TyVar-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -18033,6 +19533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a coercion of the form: \u003ccode\u003eForAllCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "forAllCoT",
           "package": "hermit",
@@ -18043,6 +19544,7 @@
         "index": {
           "description": "Translate coercion of the form ForAllCo TyVar Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "forAllCoT",
           "normalized": "Translate a b TyVar c-\u003eTranslate a b Coercion c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b Coercion d",
@@ -18059,6 +19561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a type of the form: \u003ccode\u003eForAllTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "forAllTyAllR",
           "package": "hermit",
@@ -18069,6 +19572,7 @@
         "index": {
           "description": "Rewrite all children of type of the form ForAllTy Var Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "forAllTyAllR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b Type-\u003eRewrite a b Type",
@@ -18085,6 +19589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a type of the form: \u003ccode\u003eForAllTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "forAllTyAnyR",
           "package": "hermit",
@@ -18095,6 +19600,7 @@
         "index": {
           "description": "Rewrite any children of type of the form ForAllTy Var Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "forAllTyAnyR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b Type-\u003eRewrite a b Type",
@@ -18111,6 +19617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a type of the form: \u003ccode\u003eForAllTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "forAllTyOneR",
           "package": "hermit",
@@ -18121,6 +19628,7 @@
         "index": {
           "description": "Rewrite one child of type of the form ForAllTy Var Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "forAllTyOneR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b Type-\u003eRewrite a b Type",
@@ -18137,6 +19645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a type of the form: \u003ccode\u003eForAllTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "forAllTyT",
           "package": "hermit",
@@ -18147,6 +19656,7 @@
         "index": {
           "description": "Translate type of the form ForAllTy Var Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "forAllTyT",
           "normalized": "Translate a b Var c-\u003eTranslate a b Type c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b Type d",
@@ -18163,6 +19673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a type of the form: \u003ccode\u003eFunTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "funTyAllR",
           "package": "hermit",
@@ -18173,6 +19684,7 @@
         "index": {
           "description": "Rewrite all children of type of the form FunTy Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "funTyAllR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b Type-\u003eRewrite a b Type",
@@ -18189,6 +19701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a type of the form: \u003ccode\u003eFunTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "funTyAnyR",
           "package": "hermit",
@@ -18199,6 +19712,7 @@
         "index": {
           "description": "Rewrite any children of type of the form FunTy Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "funTyAnyR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b Type-\u003eRewrite a b Type",
@@ -18215,6 +19729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a type of the form: \u003ccode\u003eFunTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "funTyOneR",
           "package": "hermit",
@@ -18225,6 +19740,7 @@
         "index": {
           "description": "Rewrite one child of type of the form FunTy Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "funTyOneR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b Type-\u003eRewrite a b Type",
@@ -18241,6 +19757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a type of the form: \u003ccode\u003eFunTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "funTyT",
           "package": "hermit",
@@ -18251,6 +19768,7 @@
         "index": {
           "description": "Translate type of the form FunTy Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "funTyT",
           "normalized": "Translate a b Type c-\u003eTranslate a b Type c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b Type d",
@@ -18267,6 +19785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a coercion of the form: \u003ccode\u003eInstCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "instCoAllR",
           "package": "hermit",
@@ -18277,6 +19796,7 @@
         "index": {
           "description": "Rewrite all children of coercion of the form InstCo Coercion Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "instCoAllR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b Type-\u003eRewrite a b Coercion",
@@ -18293,6 +19813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a coercion of the form: \u003ccode\u003eInstCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "instCoAnyR",
           "package": "hermit",
@@ -18303,6 +19824,7 @@
         "index": {
           "description": "Rewrite any children of coercion of the form InstCo Coercion Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "instCoAnyR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b Type-\u003eRewrite a b Coercion",
@@ -18319,6 +19841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a coercion of the form: \u003ccode\u003eInstCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "instCoOneR",
           "package": "hermit",
@@ -18329,6 +19852,7 @@
         "index": {
           "description": "Rewrite one child of coercion of the form InstCo Coercion Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "instCoOneR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b Type-\u003eRewrite a b Coercion",
@@ -18345,6 +19869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a coercion of the form: \u003ccode\u003eInstCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "instCoT",
           "package": "hermit",
@@ -18355,6 +19880,7 @@
         "index": {
           "description": "Translate coercion of the form InstCo Coercion Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "instCoT",
           "normalized": "Translate a b Coercion c-\u003eTranslate a b Type c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b Coercion d",
@@ -18371,6 +19897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: \u003ccode\u003eLam\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "lamAllR",
           "package": "hermit",
@@ -18381,6 +19908,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form Lam Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "lamAllR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18397,6 +19925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: \u003ccode\u003eLam\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "lamAnyR",
           "package": "hermit",
@@ -18407,6 +19936,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Lam Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "lamAnyR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18423,6 +19953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: \u003ccode\u003eLam\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "lamOneR",
           "package": "hermit",
@@ -18433,6 +19964,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form Lam Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "lamOneR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18449,6 +19981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eLam\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "lamT",
           "package": "hermit",
@@ -18459,6 +19992,7 @@
         "index": {
           "description": "Translate an expression of the form Lam Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "lamT",
           "normalized": "Translate a b Var c-\u003eTranslate a b CoreExpr c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b CoreExpr d",
@@ -18474,6 +20008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreBind\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letAllR",
           "package": "hermit",
@@ -18484,6 +20019,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form Let CoreBind CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letAllR",
           "normalized": "Rewrite a b CoreBind-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18500,6 +20036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreBind\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letAnyR",
           "package": "hermit",
@@ -18510,6 +20047,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Let CoreBind CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letAnyR",
           "normalized": "Rewrite a b CoreBind-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18526,6 +20064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letNonRecAllR",
           "package": "hermit",
@@ -18536,6 +20075,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form Let NonRec Var CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letNonRecAllR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18552,6 +20092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letNonRecAnyR",
           "package": "hermit",
@@ -18562,6 +20103,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Let NonRec Var CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letNonRecAnyR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18578,6 +20120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letNonRecOneR",
           "package": "hermit",
@@ -18588,6 +20131,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form Let NonRec Var CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letNonRecOneR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18604,6 +20148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letNonRecT",
           "package": "hermit",
@@ -18614,6 +20159,7 @@
         "index": {
           "description": "Translate an expression of the form Let NonRec Var CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letNonRecT",
           "normalized": "Translate a b Var c-\u003eTranslate a b CoreExpr c-\u003eTranslate a b CoreExpr c-\u003e(c-\u003ec-\u003ec-\u003ed)-\u003eTranslate a b CoreExpr d",
@@ -18630,6 +20176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreBind\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letOneR",
           "package": "hermit",
@@ -18640,6 +20187,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form Let CoreBind CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letOneR",
           "normalized": "Rewrite a b CoreBind-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18656,6 +20204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letRecAllR",
           "package": "hermit",
@@ -18666,6 +20215,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form Let Rec CoreDef CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letRecAllR",
           "normalized": "(Int-\u003eRewrite a b CoreDef)-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18682,6 +20232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letRecAnyR",
           "package": "hermit",
@@ -18692,6 +20243,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Let Rec CoreDef CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letRecAnyR",
           "normalized": "(Int-\u003eRewrite a b CoreDef)-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18708,6 +20260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letRecDefAllR",
           "package": "hermit",
@@ -18718,6 +20271,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form Let Rec Id CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letRecDefAllR",
           "normalized": "(Int-\u003e(Rewrite a b Id,Rewrite a b CoreExpr))-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18734,6 +20288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letRecDefAnyR",
           "package": "hermit",
@@ -18744,6 +20299,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Let Rec Id CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letRecDefAnyR",
           "normalized": "(Int-\u003e(Rewrite a b Id,Rewrite a b CoreExpr))-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18760,6 +20316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letRecDefOneR",
           "package": "hermit",
@@ -18770,6 +20327,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form Let Rec Id CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letRecDefOneR",
           "normalized": "(Int-\u003e(Rewrite a b Id,Rewrite a b CoreExpr))-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18786,6 +20344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letRecDefT",
           "package": "hermit",
@@ -18796,6 +20355,7 @@
         "index": {
           "description": "Translate an expression of the form Let Rec Id CoreExpr CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letRecDefT",
           "normalized": "(Int-\u003e(Translate a b Id c,Translate a b CoreExpr c))-\u003eTranslate a b CoreExpr c-\u003e([(c,c)]-\u003ec-\u003ed)-\u003eTranslate a b CoreExpr d",
@@ -18812,6 +20372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letRecOneR",
           "package": "hermit",
@@ -18822,6 +20383,7 @@
         "index": {
           "description": "Rewrite one child of an expression of the form Let Rec CoreDef CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letRecOneR",
           "normalized": "(Int-\u003eRewrite a b CoreDef)-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -18838,6 +20400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eLet\u003c/code\u003e (\u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]) \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letRecT",
           "package": "hermit",
@@ -18848,6 +20411,7 @@
         "index": {
           "description": "Translate an expression of the form Let Rec CoreDef CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letRecT",
           "normalized": "(Int-\u003eTranslate a b CoreDef c)-\u003eTranslate a b CoreExpr c-\u003e([c]-\u003ec-\u003ed)-\u003eTranslate a b CoreExpr d",
@@ -18864,6 +20428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eLet\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreBind\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "letT",
           "package": "hermit",
@@ -18874,6 +20439,7 @@
         "index": {
           "description": "Translate an expression of the form Let CoreBind CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "letT",
           "normalized": "Translate a b CoreBind c-\u003eTranslate a b CoreExpr c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b CoreExpr d",
@@ -18889,6 +20455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite the \u003ccode\u003e\u003ca\u003eLiteral\u003c/a\u003e\u003c/code\u003e child in an expression of the form: \u003ccode\u003eLit\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLiteral\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "litR",
           "package": "hermit",
@@ -18899,6 +20466,7 @@
         "index": {
           "description": "Rewrite the Literal child in an expression of the form Lit Literal",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "litR",
           "normalized": "Rewrite a b Literal-\u003eRewrite a b CoreExpr",
@@ -18914,6 +20482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eLit\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLiteral\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "litT",
           "package": "hermit",
@@ -18924,6 +20493,7 @@
         "index": {
           "description": "Translate an expression of the form Lit Literal",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "litT",
           "normalized": "Translate a b Literal c-\u003eTranslate a b CoreExpr c",
@@ -18939,6 +20509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite the \u003ccode\u003e\u003ca\u003eTyLit\u003c/a\u003e\u003c/code\u003e child of a type of the form: \u003ccode\u003eLitTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyLit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "litTyR",
           "package": "hermit",
@@ -18949,6 +20520,7 @@
         "index": {
           "description": "Rewrite the TyLit child of type of the form LitTy TyLit",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "litTyR",
           "normalized": "Rewrite a b TyLit-\u003eRewrite a b Type",
@@ -18965,6 +20537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a type of the form: \u003ccode\u003eLitTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyLit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "litTyT",
           "package": "hermit",
@@ -18975,6 +20548,7 @@
         "index": {
           "description": "Translate type of the form LitTy TyLit",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "litTyT",
           "normalized": "Translate a b TyLit c-\u003eTranslate a b Type c",
@@ -18991,6 +20565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite the \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e child of a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "modGutsR",
           "package": "hermit",
@@ -19001,6 +20576,7 @@
         "index": {
           "description": "Rewrite the CoreProg child of module",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "modGutsR",
           "normalized": "Rewrite a b CoreProg-\u003eRewrite a b ModGuts",
@@ -19017,6 +20593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a module.\n   Slightly different to the other congruence combinators: it passes in \u003cem\u003eall\u003c/em\u003e of the original to the reconstruction function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "modGutsT",
           "package": "hermit",
@@ -19027,6 +20604,7 @@
         "index": {
           "description": "Translate module Slightly different to the other congruence combinators it passes in all of the original to the reconstruction function",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "modGutsT",
           "normalized": "Translate a b CoreProg c-\u003e(ModGuts-\u003ec-\u003ed)-\u003eTranslate a b ModGuts d",
@@ -19043,6 +20621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a binding group of the form: \u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "nonRecAllR",
           "package": "hermit",
@@ -19053,6 +20632,7 @@
         "index": {
           "description": "Rewrite all children of binding group of the form NonRec Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "nonRecAllR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreBind",
@@ -19069,6 +20649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a binding group of the form: \u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "nonRecAnyR",
           "package": "hermit",
@@ -19079,6 +20660,7 @@
         "index": {
           "description": "Rewrite any children of binding group of the form NonRec Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "nonRecAnyR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreBind",
@@ -19095,6 +20677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a binding group of the form: \u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "nonRecOneR",
           "package": "hermit",
@@ -19105,6 +20688,7 @@
         "index": {
           "description": "Rewrite one child of binding group of the form NonRec Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "nonRecOneR",
           "normalized": "Rewrite a b Var-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreBind",
@@ -19121,6 +20705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a binding group of the form: \u003ccode\u003eNonRec\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "nonRecT",
           "package": "hermit",
@@ -19131,6 +20716,7 @@
         "index": {
           "description": "Translate binding group of the form NonRec Var CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "nonRecT",
           "normalized": "Translate a b Var c-\u003eTranslate a b CoreExpr c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b CoreBind d",
@@ -19147,6 +20733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a coercion of the form: \u003ccode\u003eNthCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "nthCoAllR",
           "package": "hermit",
@@ -19157,6 +20744,7 @@
         "index": {
           "description": "Rewrite all children of coercion of the form NthCo Int Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "nthCoAllR",
           "normalized": "Rewrite a b Int-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -19173,6 +20761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a coercion of the form: \u003ccode\u003eNthCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "nthCoAnyR",
           "package": "hermit",
@@ -19183,6 +20772,7 @@
         "index": {
           "description": "Rewrite any children of coercion of the form NthCo Int Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "nthCoAnyR",
           "normalized": "Rewrite a b Int-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -19199,6 +20789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a coercion of the form: \u003ccode\u003eNthCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "nthCoOneR",
           "package": "hermit",
@@ -19209,6 +20800,7 @@
         "index": {
           "description": "Rewrite one child of coercion of the form NthCo Int Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "nthCoOneR",
           "normalized": "Rewrite a b Int-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -19225,6 +20817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a coercion of the form: \u003ccode\u003eNthCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "nthCoT",
           "package": "hermit",
@@ -19235,6 +20828,7 @@
         "index": {
           "description": "Translate coercion of the form NthCo Int Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "nthCoT",
           "normalized": "Translate a b Int c-\u003eTranslate a b Coercion c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b Coercion d",
@@ -19251,6 +20845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a program of the form: (\u003ccode\u003e\u003ca\u003eCoreBind\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "progConsAllR",
           "package": "hermit",
@@ -19261,6 +20856,7 @@
         "index": {
           "description": "Rewrite all children of program of the form CoreBind CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "progConsAllR",
           "normalized": "Rewrite a b CoreBind-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -19277,6 +20873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a program of the form: (\u003ccode\u003e\u003ca\u003eCoreBind\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "progConsAnyR",
           "package": "hermit",
@@ -19287,6 +20884,7 @@
         "index": {
           "description": "Rewrite any children of program of the form CoreBind CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "progConsAnyR",
           "normalized": "Rewrite a b CoreBind-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -19303,6 +20901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a program of the form: (\u003ccode\u003e\u003ca\u003eCoreBind\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "progConsOneR",
           "package": "hermit",
@@ -19313,6 +20912,7 @@
         "index": {
           "description": "Rewrite one child of program of the form CoreBind CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "progConsOneR",
           "normalized": "Rewrite a b CoreBind-\u003eRewrite a b CoreProg-\u003eRewrite a b CoreProg",
@@ -19329,6 +20929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a program of the form: (\u003ccode\u003e\u003ca\u003eCoreBind\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e:\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreProg\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "progConsT",
           "package": "hermit",
@@ -19339,6 +20940,7 @@
         "index": {
           "description": "Translate program of the form CoreBind CoreProg",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "progConsT",
           "normalized": "Translate a b CoreBind c-\u003eTranslate a b CoreProg c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b CoreProg d",
@@ -19355,6 +20957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "progNilT",
           "package": "hermit",
@@ -19365,6 +20968,7 @@
         "index": {
           "description": "Translate an empty list",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "progNilT",
           "normalized": "a-\u003eTranslate b c CoreProg a",
@@ -19381,6 +20985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a binding group of the form: \u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "recAllR",
           "package": "hermit",
@@ -19391,6 +20996,7 @@
         "index": {
           "description": "Rewrite all children of binding group of the form Rec CoreDef",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "recAllR",
           "normalized": "(Int-\u003eRewrite a b CoreDef)-\u003eRewrite a b CoreBind",
@@ -19407,6 +21013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a binding group of the form: \u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "recAnyR",
           "package": "hermit",
@@ -19417,6 +21024,7 @@
         "index": {
           "description": "Rewrite any children of binding group of the form Rec CoreDef",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "recAnyR",
           "normalized": "(Int-\u003eRewrite a b CoreDef)-\u003eRewrite a b CoreBind",
@@ -19433,6 +21041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a binding group of the form: \u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "recDefAllR",
           "package": "hermit",
@@ -19443,6 +21052,7 @@
         "index": {
           "description": "Rewrite all children of binding group of the form Rec Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "recDefAllR",
           "normalized": "(Int-\u003e(Rewrite a b Id,Rewrite a b CoreExpr))-\u003eRewrite a b CoreBind",
@@ -19459,6 +21069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a binding group of the form: \u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "recDefAnyR",
           "package": "hermit",
@@ -19469,6 +21080,7 @@
         "index": {
           "description": "Rewrite any children of binding group of the form Rec Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "recDefAnyR",
           "normalized": "(Int-\u003e(Rewrite a b Id,Rewrite a b CoreExpr))-\u003eRewrite a b CoreBind",
@@ -19485,6 +21097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a binding group of the form: \u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "recDefOneR",
           "package": "hermit",
@@ -19495,6 +21108,7 @@
         "index": {
           "description": "Rewrite one child of binding group of the form Rec Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "recDefOneR",
           "normalized": "(Int-\u003e(Rewrite a b Id,Rewrite a b CoreExpr))-\u003eRewrite a b CoreBind",
@@ -19511,6 +21125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a binding group of the form: \u003ccode\u003eRec\u003c/code\u003e [(\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e)]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "recDefT",
           "package": "hermit",
@@ -19521,6 +21136,7 @@
         "index": {
           "description": "Translate binding group of the form Rec Id CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "recDefT",
           "normalized": "(Int-\u003e(Translate a b Id c,Translate a b CoreExpr c))-\u003e([(c,c)]-\u003ed)-\u003eTranslate a b CoreBind d",
@@ -19537,6 +21153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a binding group of the form: \u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "recOneR",
           "package": "hermit",
@@ -19547,6 +21164,7 @@
         "index": {
           "description": "Rewrite one child of binding group of the form Rec CoreDef",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "recOneR",
           "normalized": "(Int-\u003eRewrite a b CoreDef)-\u003eRewrite a b CoreBind",
@@ -19563,6 +21181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a binding group of the form: \u003ccode\u003eRec\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoreDef\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "recT",
           "package": "hermit",
@@ -19573,6 +21192,7 @@
         "index": {
           "description": "Translate binding group of the form Rec CoreDef",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "recT",
           "normalized": "(Int-\u003eTranslate a b CoreDef c)-\u003e([c]-\u003ed)-\u003eTranslate a b CoreBind d",
@@ -19588,6 +21208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite the \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e child of a coercion of the form: \u003ccode\u003eRefl\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "reflR",
           "package": "hermit",
@@ -19598,6 +21219,7 @@
         "index": {
           "description": "Rewrite the Type child of coercion of the form Refl Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "reflR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b Coercion",
@@ -19613,6 +21235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a coercion of the form: \u003ccode\u003eRefl\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "reflT",
           "package": "hermit",
@@ -19623,6 +21246,7 @@
         "index": {
           "description": "Translate coercion of the form Refl Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "reflT",
           "normalized": "Translate a b Type c-\u003eTranslate a b Coercion c",
@@ -19638,6 +21262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite the \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e child of a coercion of the form: \u003ccode\u003eSymCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "symCoR",
           "package": "hermit",
@@ -19648,6 +21273,7 @@
         "index": {
           "description": "Rewrite the Coercion child of coercion of the form SymCo Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "symCoR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -19664,6 +21290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a coercion of the form: \u003ccode\u003eSymCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "symCoT",
           "package": "hermit",
@@ -19674,6 +21301,7 @@
         "index": {
           "description": "Translate coercion of the form SymCo Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "symCoT",
           "normalized": "Translate a b Coercion c-\u003eTranslate a b Coercion c",
@@ -19690,6 +21318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of an expression of the form: \u003ccode\u003eTick\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreTickish\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tickAllR",
           "package": "hermit",
@@ -19700,6 +21329,7 @@
         "index": {
           "description": "Rewrite all children of an expression of the form Tick CoreTickish CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tickAllR",
           "normalized": "Rewrite a b CoreTickish-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -19716,6 +21346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: \u003ccode\u003eTick\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreTickish\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tickAnyR",
           "package": "hermit",
@@ -19726,6 +21357,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Tick CoreTickish CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tickAnyR",
           "normalized": "Rewrite a b CoreTickish-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -19742,6 +21374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of an expression of the form: \u003ccode\u003eTick\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreTickish\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tickOneR",
           "package": "hermit",
@@ -19752,6 +21385,7 @@
         "index": {
           "description": "Rewrite any children of an expression of the form Tick CoreTickish CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tickOneR",
           "normalized": "Rewrite a b CoreTickish-\u003eRewrite a b CoreExpr-\u003eRewrite a b CoreExpr",
@@ -19768,6 +21402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eTick\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreTickish\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tickT",
           "package": "hermit",
@@ -19778,6 +21413,7 @@
         "index": {
           "description": "Translate an expression of the form Tick CoreTickish CoreExpr",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tickT",
           "normalized": "Translate a b CoreTickish c-\u003eTranslate a b CoreExpr c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b CoreExpr d",
@@ -19793,6 +21429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a coercion of the form: \u003ccode\u003eTransCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "transCoAllR",
           "package": "hermit",
@@ -19803,6 +21440,7 @@
         "index": {
           "description": "Rewrite all children of coercion of the form TransCo Coercion Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "transCoAllR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -19819,6 +21457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a coercion of the form: \u003ccode\u003eTransCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "transCoAnyR",
           "package": "hermit",
@@ -19829,6 +21468,7 @@
         "index": {
           "description": "Rewrite any children of coercion of the form TransCo Coercion Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "transCoAnyR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -19845,6 +21485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a coercion of the form: \u003ccode\u003eTransCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "transCoOneR",
           "package": "hermit",
@@ -19855,6 +21496,7 @@
         "index": {
           "description": "Rewrite one child of coercion of the form TransCo Coercion Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "transCoOneR",
           "normalized": "Rewrite a b Coercion-\u003eRewrite a b Coercion-\u003eRewrite a b Coercion",
@@ -19871,6 +21513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a coercion of the form: \u003ccode\u003eTransCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "transCoT",
           "package": "hermit",
@@ -19881,6 +21524,7 @@
         "index": {
           "description": "Translate coercion of the form TransCo Coercion Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "transCoT",
           "normalized": "Translate a b Coercion c-\u003eTranslate a b Coercion c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b Coercion d",
@@ -19897,6 +21541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a type of the form: \u003ccode\u003eTyConApp\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eKindOrType\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tyConAppAllR",
           "package": "hermit",
@@ -19907,6 +21552,7 @@
         "index": {
           "description": "Rewrite all children of type of the form TyConApp TyCon KindOrType",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tyConAppAllR",
           "normalized": "Rewrite a b TyCon-\u003e(Int-\u003eRewrite a b KindOrType)-\u003eRewrite a b Type",
@@ -19923,6 +21569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a type of the form: \u003ccode\u003eTyConApp\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eKindOrType\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tyConAppAnyR",
           "package": "hermit",
@@ -19933,6 +21580,7 @@
         "index": {
           "description": "Rewrite any children of type of the form TyConApp TyCon KindOrType",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tyConAppAnyR",
           "normalized": "Rewrite a b TyCon-\u003e(Int-\u003eRewrite a b KindOrType)-\u003eRewrite a b Type",
@@ -19949,6 +21597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a coercion of the form: \u003ccode\u003eTyConAppCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tyConAppCoAllR",
           "package": "hermit",
@@ -19959,6 +21608,7 @@
         "index": {
           "description": "Rewrite all children of coercion of the form TyConAppCo TyCon Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tyConAppCoAllR",
           "normalized": "Rewrite a b TyCon-\u003e(Int-\u003eRewrite a b Coercion)-\u003eRewrite a b Coercion",
@@ -19975,6 +21625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a coercion of the form: \u003ccode\u003eTyConAppCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tyConAppCoAnyR",
           "package": "hermit",
@@ -19985,6 +21636,7 @@
         "index": {
           "description": "Rewrite any children of coercion of the form TyConAppCo TyCon Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tyConAppCoAnyR",
           "normalized": "Rewrite a b TyCon-\u003e(Int-\u003eRewrite a b Coercion)-\u003eRewrite a b Coercion",
@@ -20001,6 +21653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a coercion of the form: \u003ccode\u003eTyConAppCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tyConAppCoOneR",
           "package": "hermit",
@@ -20011,6 +21664,7 @@
         "index": {
           "description": "Rewrite one child of coercion of the form TyConAppCo TyCon Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tyConAppCoOneR",
           "normalized": "Rewrite a b TyCon-\u003e(Int-\u003eRewrite a b Coercion)-\u003eRewrite a b Coercion",
@@ -20027,6 +21681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a coercion of the form: \u003ccode\u003eTyConAppCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eCoercion\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tyConAppCoT",
           "package": "hermit",
@@ -20037,6 +21692,7 @@
         "index": {
           "description": "Translate coercion of the form TyConAppCo TyCon Coercion",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tyConAppCoT",
           "normalized": "Translate a b TyCon c-\u003e(Int-\u003eTranslate a b Coercion c)-\u003e(c-\u003e[c]-\u003ed)-\u003eTranslate a b Coercion d",
@@ -20053,6 +21709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a type of the form: \u003ccode\u003eTyConApp\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eKindOrType\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tyConAppOneR",
           "package": "hermit",
@@ -20063,6 +21720,7 @@
         "index": {
           "description": "Rewrite one child of type of the form TyConApp TyCon KindOrType",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tyConAppOneR",
           "normalized": "Rewrite a b TyCon-\u003e(Int-\u003eRewrite a b KindOrType)-\u003eRewrite a b Type",
@@ -20079,6 +21737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a type of the form: \u003ccode\u003eTyConApp\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eKindOrType\u003c/a\u003e\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tyConAppT",
           "package": "hermit",
@@ -20089,6 +21748,7 @@
         "index": {
           "description": "Translate type of the form TyConApp TyCon KindOrType",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tyConAppT",
           "normalized": "Translate a b TyCon c-\u003e(Int-\u003eTranslate a b KindOrType c)-\u003e(c-\u003e[c]-\u003ed)-\u003eTranslate a b Type d",
@@ -20105,6 +21765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite the \u003ccode\u003e\u003ca\u003eTyVar\u003c/a\u003e\u003c/code\u003e child of a type of the form: \u003ccode\u003eTyVarTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyVar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tyVarR",
           "package": "hermit",
@@ -20115,6 +21776,7 @@
         "index": {
           "description": "Rewrite the TyVar child of type of the form TyVarTy TyVar",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tyVarR",
           "normalized": "Rewrite a b TyVar-\u003eRewrite a b Type",
@@ -20131,6 +21793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a type of the form: \u003ccode\u003eTyVarTy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTyVar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "tyVarT",
           "package": "hermit",
@@ -20141,6 +21804,7 @@
         "index": {
           "description": "Translate type of the form TyVarTy TyVar",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "tyVarT",
           "normalized": "Translate a b TyVar c-\u003eTranslate a b Type c",
@@ -20157,6 +21821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite the \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e child in an expression of the form: \u003ccode\u003eType\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "typeR",
           "package": "hermit",
@@ -20167,6 +21832,7 @@
         "index": {
           "description": "Rewrite the Type child in an expression of the form Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "typeR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b CoreExpr",
@@ -20182,6 +21848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eType\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "typeT",
           "package": "hermit",
@@ -20192,6 +21859,7 @@
         "index": {
           "description": "Translate an expression of the form Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "typeT",
           "normalized": "Translate a b Type c-\u003eTranslate a b CoreExpr c",
@@ -20207,6 +21875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all children of a coercion of the form: \u003ccode\u003eUnsafeCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "unsafeCoAllR",
           "package": "hermit",
@@ -20217,6 +21886,7 @@
         "index": {
           "description": "Rewrite all children of coercion of the form UnsafeCo Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "unsafeCoAllR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b Type-\u003eRewrite a b Coercion",
@@ -20233,6 +21903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite any children of a coercion of the form: \u003ccode\u003eUnsafeCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "unsafeCoAnyR",
           "package": "hermit",
@@ -20243,6 +21914,7 @@
         "index": {
           "description": "Rewrite any children of coercion of the form UnsafeCo Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "unsafeCoAnyR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b Type-\u003eRewrite a b Coercion",
@@ -20259,6 +21931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite one child of a coercion of the form: \u003ccode\u003eUnsafeCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "unsafeCoOneR",
           "package": "hermit",
@@ -20269,6 +21942,7 @@
         "index": {
           "description": "Rewrite one child of coercion of the form UnsafeCo Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "unsafeCoOneR",
           "normalized": "Rewrite a b Type-\u003eRewrite a b Type-\u003eRewrite a b Coercion",
@@ -20285,6 +21959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a coercion of the form: \u003ccode\u003eUnsafeCo\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "unsafeCoT",
           "package": "hermit",
@@ -20295,6 +21970,7 @@
         "index": {
           "description": "Translate coercion of the form UnsafeCo Type Type",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "unsafeCoT",
           "normalized": "Translate a b Type c-\u003eTranslate a b Type c-\u003e(c-\u003ec-\u003ed)-\u003eTranslate a b Coercion d",
@@ -20311,6 +21987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite the \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e child in an expression of the form: \u003ccode\u003eVar\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "varR",
           "package": "hermit",
@@ -20321,6 +21998,7 @@
         "index": {
           "description": "Rewrite the Id child in an expression of the form Var Id",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "varR",
           "normalized": "Rewrite a b Id-\u003eRewrite a b CoreExpr",
@@ -20336,6 +22014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an expression of the form: \u003ccode\u003eVar\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Kure",
           "name": "varT",
           "package": "hermit",
@@ -20346,6 +22025,7 @@
         "index": {
           "description": "Translate an expression of the form Var Id",
           "hierarchy": "HERMIT Kure",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Kure",
           "name": "varT",
           "normalized": "Translate a b Id c-\u003eTranslate a b CoreExpr c",
@@ -20360,6 +22040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "Monad",
           "package": "hermit",
@@ -20368,6 +22049,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "Monad",
           "package": "hermit",
@@ -20382,6 +22064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA message packet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "DebugMessage",
           "package": "hermit",
@@ -20391,6 +22074,7 @@
         "index": {
           "description": "message packet",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "DebugMessage",
           "package": "hermit",
@@ -20405,6 +22089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA store of saved definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "DefStash",
           "package": "hermit",
@@ -20414,6 +22099,7 @@
         "index": {
           "description": "store of saved definitions",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "DefStash",
           "package": "hermit",
@@ -20428,6 +22114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HERMIT monad is kept abstract.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "HermitM",
           "package": "hermit",
@@ -20437,6 +22124,7 @@
         "index": {
           "description": "The HERMIT monad is kept abstract",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "HermitM",
           "package": "hermit",
@@ -20451,6 +22139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA way of sending messages to top level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "HermitMEnv",
           "package": "hermit",
@@ -20460,6 +22149,7 @@
         "index": {
           "description": "way of sending messages to top level",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "HermitMEnv",
           "package": "hermit",
@@ -20474,6 +22164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label for individual definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "Label",
           "package": "hermit",
@@ -20483,6 +22174,7 @@
         "index": {
           "description": "label for individual definitions",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "Label",
           "package": "hermit",
@@ -20496,6 +22188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "DebugCore",
           "package": "hermit",
@@ -20505,6 +22198,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "DebugCore",
           "package": "hermit",
@@ -20518,6 +22212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "DebugTick",
           "package": "hermit",
@@ -20527,6 +22222,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "DebugTick",
           "package": "hermit",
@@ -20540,6 +22236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "HermitMEnv",
           "package": "hermit",
@@ -20549,6 +22246,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "HermitMEnv",
           "package": "hermit",
@@ -20563,6 +22261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a new variable of the same type, with a modified textual name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "cloneVarH",
           "package": "hermit",
@@ -20573,6 +22272,7 @@
         "index": {
           "description": "Make new variable of the same type with modified textual name",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "cloneVarH",
           "normalized": "(String-\u003eString)-\u003eVar-\u003eHermitM Var",
@@ -20589,6 +22289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the stash of saved definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "getStash",
           "package": "hermit",
@@ -20599,6 +22300,7 @@
         "index": {
           "description": "Get the stash of saved definitions",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "getStash",
           "package": "hermit",
@@ -20612,6 +22314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "hs_debugChan",
           "package": "hermit",
@@ -20621,6 +22324,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "hs_debugChan",
           "normalized": "DebugMessage-\u003eHermitM()",
@@ -20637,6 +22341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCoreM\u003c/a\u003e\u003c/code\u003e can be lifted to \u003ccode\u003e\u003ca\u003eHermitM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "liftCoreM",
           "package": "hermit",
@@ -20647,6 +22352,7 @@
         "index": {
           "description": "CoreM can be lifted to HermitM",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "liftCoreM",
           "normalized": "CoreM a-\u003eHermitM a",
@@ -20663,6 +22369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a previously saved definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "lookupDef",
           "package": "hermit",
@@ -20673,6 +22380,7 @@
         "index": {
           "description": "Lookup previously saved definition",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "lookupDef",
           "normalized": "Label-\u003eHermitM CoreDef",
@@ -20688,6 +22396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "mkHermitMEnv",
           "package": "hermit",
@@ -20697,6 +22406,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "mkHermitMEnv",
           "normalized": "(DebugMessage-\u003eHermitM())-\u003eHermitMEnv",
@@ -20713,6 +22423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a unique coercion variable for a specified type, using a provided name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "newCoVarH",
           "package": "hermit",
@@ -20723,6 +22434,7 @@
         "index": {
           "description": "Make unique coercion variable for specified type using provided name",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "newCoVarH",
           "normalized": "String-\u003eType-\u003eHermitM TyVar",
@@ -20739,6 +22451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a unique global identifier for a specified type, using a provided name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "newGlobalIdH",
           "package": "hermit",
@@ -20749,6 +22462,7 @@
         "index": {
           "description": "Make unique global identifier for specified type using provided name",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "newGlobalIdH",
           "normalized": "String-\u003eType-\u003eHermitM Id",
@@ -20765,6 +22479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a unique identifier for a specified type, using a provided name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "newIdH",
           "package": "hermit",
@@ -20775,6 +22490,7 @@
         "index": {
           "description": "Make unique identifier for specified type using provided name",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "newIdH",
           "normalized": "String-\u003eType-\u003eHermitM Id",
@@ -20791,6 +22507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a unique type variable for a specified kind, using a provided name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "newTyVarH",
           "package": "hermit",
@@ -20801,6 +22518,7 @@
         "index": {
           "description": "Make unique type variable for specified kind using provided name",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "newTyVarH",
           "normalized": "String-\u003eKind-\u003eHermitM TyVar",
@@ -20817,6 +22535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEliminator for \u003ccode\u003e\u003ca\u003eHermitM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "runHM",
           "package": "hermit",
@@ -20827,6 +22546,7 @@
         "index": {
           "description": "Eliminator for HermitM",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "runHM",
           "normalized": "HermitMEnv-\u003eDefStash-\u003e(DefStash-\u003ea-\u003eCoreM b)-\u003e(String-\u003eCoreM b)-\u003eHermitM a-\u003eCoreM b",
@@ -20843,6 +22563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave a definition for future use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "saveDef",
           "package": "hermit",
@@ -20853,6 +22574,7 @@
         "index": {
           "description": "Save definition for future use",
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "saveDef",
           "normalized": "Label-\u003eCoreDef-\u003eHermitM()",
@@ -20868,6 +22590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Monad",
           "name": "sendDebugMessage",
           "package": "hermit",
@@ -20877,6 +22600,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Monad",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Monad",
           "name": "sendDebugMessage",
           "normalized": "DebugMessage-\u003eHermitM()",
@@ -20892,6 +22616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "Optimize",
           "package": "hermit",
@@ -20900,6 +22625,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "Optimize",
           "package": "hermit",
@@ -20913,6 +22639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "OM",
           "package": "hermit",
@@ -20921,6 +22648,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "OM",
           "package": "hermit",
@@ -20934,6 +22662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "after",
           "package": "hermit",
@@ -20943,6 +22672,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "after",
           "normalized": "CorePass-\u003eOM()-\u003eOM()",
@@ -20957,6 +22687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "allPhases",
           "package": "hermit",
@@ -20966,6 +22697,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "allPhases",
           "normalized": "OM()-\u003eOM()",
@@ -20981,6 +22713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "at",
           "package": "hermit",
@@ -20990,6 +22723,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "at",
           "normalized": "TranslateH CoreTC LocalPathH-\u003eOM a-\u003eOM a",
@@ -21004,6 +22738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "before",
           "package": "hermit",
@@ -21013,6 +22748,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "before",
           "normalized": "CorePass-\u003eOM()-\u003eOM()",
@@ -21027,6 +22763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "display",
           "package": "hermit",
@@ -21036,6 +22773,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "display",
           "normalized": "OM()",
@@ -21050,6 +22788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "firstPhase",
           "package": "hermit",
@@ -21059,6 +22798,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "firstPhase",
           "normalized": "OM()-\u003eOM()",
@@ -21074,6 +22814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "getPhaseInfo",
           "package": "hermit",
@@ -21083,6 +22824,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "getPhaseInfo",
           "package": "hermit",
@@ -21096,6 +22838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "interactive",
           "package": "hermit",
@@ -21105,6 +22848,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "interactive",
           "normalized": "[External]-\u003e[CommandLineOption]-\u003eOM()",
@@ -21119,6 +22863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "lastPhase",
           "package": "hermit",
@@ -21128,6 +22873,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "lastPhase",
           "normalized": "OM()-\u003eOM()",
@@ -21143,6 +22889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "modifyCLS",
           "package": "hermit",
@@ -21152,6 +22899,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "modifyCLS",
           "normalized": "(CommandLineState-\u003eCommandLineState)-\u003eOM()",
@@ -21167,6 +22915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "omToIO",
           "package": "hermit",
@@ -21176,6 +22925,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "omToIO",
           "normalized": "CommandLineState-\u003ePhaseInfo-\u003eOM a-\u003eIO(Either CLException a,CommandLineState)",
@@ -21191,6 +22941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "optimize",
           "package": "hermit",
@@ -21200,6 +22951,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "optimize",
           "normalized": "([CommandLineOption]-\u003eOM())-\u003ePlugin",
@@ -21214,6 +22966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "phase",
           "package": "hermit",
@@ -21223,6 +22976,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "phase",
           "normalized": "Int-\u003eOM()-\u003eOM()",
@@ -21237,6 +22991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "query",
           "package": "hermit",
@@ -21246,6 +23001,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "query",
           "normalized": "TranslateH a b-\u003eOM b",
@@ -21260,6 +23016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "run",
           "package": "hermit",
@@ -21269,6 +23026,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "run",
           "normalized": "RewriteH CoreTC-\u003eOM()",
@@ -21283,6 +23041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "setPretty",
           "package": "hermit",
@@ -21292,6 +23051,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "setPretty",
           "normalized": "PrettyH CoreTC-\u003eOM()",
@@ -21307,6 +23067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "setPrettyOptions",
           "package": "hermit",
@@ -21316,6 +23077,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "setPrettyOptions",
           "normalized": "PrettyOptions-\u003eOM()",
@@ -21331,6 +23093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Optimize",
           "name": "until",
           "package": "hermit",
@@ -21340,6 +23103,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Optimize",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Optimize",
           "name": "until",
           "normalized": "CorePass-\u003eOM()-\u003eOM()",
@@ -21354,6 +23118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Parser",
           "name": "Parser",
           "package": "hermit",
@@ -21362,6 +23127,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Parser",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Parser",
           "name": "Parser",
           "package": "hermit",
@@ -21376,6 +23142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple expression language AST, for things parsed from \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e or JSON structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Parser",
           "name": "ExprH",
           "package": "hermit",
@@ -21385,6 +23152,7 @@
         "index": {
           "description": "simple expression language AST for things parsed from String or JSON structures",
           "hierarchy": "HERMIT Parser",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Parser",
           "name": "ExprH",
           "package": "hermit",
@@ -21398,6 +23166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Parser",
           "name": "Script",
           "package": "hermit",
@@ -21406,6 +23175,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Parser",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Parser",
           "name": "Script",
           "package": "hermit",
@@ -21420,6 +23190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Parser",
           "name": "AppH",
           "package": "hermit",
@@ -21430,6 +23201,7 @@
         "index": {
           "description": "Application",
           "hierarchy": "HERMIT Parser",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Parser",
           "name": "AppH",
           "package": "hermit",
@@ -21444,6 +23216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommands (to be looked up in \u003ccode\u003e\u003ca\u003eDictionary\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Parser",
           "name": "CmdName",
           "package": "hermit",
@@ -21454,6 +23227,7 @@
         "index": {
           "description": "Commands to be looked up in Dictionary",
           "hierarchy": "HERMIT Parser",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Parser",
           "name": "CmdName",
           "package": "hermit",
@@ -21468,6 +23242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCore Fragment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Parser",
           "name": "CoreH",
           "package": "hermit",
@@ -21478,6 +23253,7 @@
         "index": {
           "description": "Core Fragment",
           "hierarchy": "HERMIT Parser",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Parser",
           "name": "CoreH",
           "package": "hermit",
@@ -21492,6 +23268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Parser",
           "name": "ListH",
           "package": "hermit",
@@ -21502,6 +23279,7 @@
         "index": {
           "description": "List of expressions",
           "hierarchy": "HERMIT Parser",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Parser",
           "name": "ListH",
           "normalized": "ListH[ExprH]",
@@ -21518,6 +23296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable names (refers to source code).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Parser",
           "name": "SrcName",
           "package": "hermit",
@@ -21528,6 +23307,7 @@
         "index": {
           "description": "Variable names refers to source code",
           "hierarchy": "HERMIT Parser",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Parser",
           "name": "SrcName",
           "package": "hermit",
@@ -21541,6 +23321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Parser",
           "name": "parseScript",
           "package": "hermit",
@@ -21550,6 +23331,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Parser",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Parser",
           "name": "parseScript",
           "normalized": "String-\u003eEither String Script",
@@ -21565,6 +23347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Parser",
           "name": "unparseExprH",
           "package": "hermit",
@@ -21574,6 +23357,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Parser",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Parser",
           "name": "unparseExprH",
           "normalized": "ExprH-\u003eString",
@@ -21589,6 +23373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Parser",
           "name": "unparseScript",
           "package": "hermit",
@@ -21598,6 +23383,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Parser",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Parser",
           "name": "unparseScript",
           "normalized": "Script-\u003eString",
@@ -21613,6 +23399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.ParserCore",
           "name": "ParserCore",
           "package": "hermit",
@@ -21621,6 +23408,7 @@
         },
         "index": {
           "hierarchy": "HERMIT ParserCore",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.ParserCore",
           "name": "ParserCore",
           "package": "hermit",
@@ -21634,6 +23422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.ParserCore",
           "name": "parse2beforeBiR",
           "package": "hermit",
@@ -21643,6 +23432,7 @@
         },
         "index": {
           "hierarchy": "HERMIT ParserCore",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.ParserCore",
           "name": "parse2beforeBiR",
           "normalized": "(CoreExpr-\u003eCoreExpr-\u003eBiRewriteH a)-\u003eCoreString-\u003eCoreString-\u003eBiRewriteH a",
@@ -21658,6 +23448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.ParserCore",
           "name": "parse3beforeBiR",
           "package": "hermit",
@@ -21667,6 +23458,7 @@
         },
         "index": {
           "hierarchy": "HERMIT ParserCore",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.ParserCore",
           "name": "parse3beforeBiR",
           "normalized": "(CoreExpr-\u003eCoreExpr-\u003eCoreExpr-\u003eBiRewriteH a)-\u003eCoreString-\u003eCoreString-\u003eCoreString-\u003eBiRewriteH a",
@@ -21682,6 +23474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.ParserCore",
           "name": "parseCore",
           "package": "hermit",
@@ -21691,6 +23484,7 @@
         },
         "index": {
           "hierarchy": "HERMIT ParserCore",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.ParserCore",
           "name": "parseCore",
           "normalized": "CoreString-\u003eHermitC-\u003eHermitM CoreExpr",
@@ -21707,6 +23501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eCoreString\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eCoreExpr\u003c/a\u003e\u003c/code\u003e, using the current context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.ParserCore",
           "name": "parseCoreExprT",
           "package": "hermit",
@@ -21717,6 +23512,7 @@
         "index": {
           "description": "Parse CoreString to CoreExpr using the current context",
           "hierarchy": "HERMIT ParserCore",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.ParserCore",
           "name": "parseCoreExprT",
           "normalized": "CoreString-\u003eTranslateH a CoreExpr",
@@ -21732,6 +23528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "Plugin",
           "package": "hermit",
@@ -21740,6 +23537,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "Plugin",
           "package": "hermit",
@@ -21753,6 +23551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "CorePass",
           "package": "hermit",
@@ -21761,6 +23560,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "CorePass",
           "package": "hermit",
@@ -21775,6 +23575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of \u003ccode\u003e\u003ca\u003eCommandLineOption\u003c/a\u003e\u003c/code\u003es, produce the \u003ccode\u003e\u003ca\u003eModGuts\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eModGuts\u003c/a\u003e\u003c/code\u003e function required to build a plugin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "HermitPass",
           "package": "hermit",
@@ -21784,6 +23585,7 @@
         "index": {
           "description": "Given list of CommandLineOption produce the ModGuts to ModGuts function required to build plugin",
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "HermitPass",
           "package": "hermit",
@@ -21797,6 +23599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "PhaseInfo",
           "package": "hermit",
@@ -21805,6 +23608,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "PhaseInfo",
           "package": "hermit",
@@ -21818,6 +23622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "CSE",
           "package": "hermit",
@@ -21827,6 +23632,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "CSE",
           "package": "hermit",
@@ -21840,6 +23646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "Desugar",
           "package": "hermit",
@@ -21849,6 +23656,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "Desugar",
           "package": "hermit",
@@ -21862,6 +23670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "DesugarOpt",
           "package": "hermit",
@@ -21871,6 +23680,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "DesugarOpt",
           "package": "hermit",
@@ -21884,6 +23694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "FloatInwards",
           "package": "hermit",
@@ -21893,6 +23704,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "FloatInwards",
           "package": "hermit",
@@ -21906,6 +23718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "FloatOutwards",
           "package": "hermit",
@@ -21915,6 +23728,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "FloatOutwards",
           "package": "hermit",
@@ -21928,6 +23742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "LiberateCase",
           "package": "hermit",
@@ -21937,6 +23752,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "LiberateCase",
           "package": "hermit",
@@ -21950,6 +23766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "NoOp",
           "package": "hermit",
@@ -21959,6 +23776,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "NoOp",
           "package": "hermit",
@@ -21972,6 +23790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "Passes",
           "package": "hermit",
@@ -21981,6 +23800,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "Passes",
           "package": "hermit",
@@ -21994,6 +23814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "PhaseInfo",
           "package": "hermit",
@@ -22003,6 +23824,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "PhaseInfo",
           "package": "hermit",
@@ -22016,6 +23838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "PluginPass",
           "package": "hermit",
@@ -22025,6 +23848,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "PluginPass",
           "package": "hermit",
@@ -22038,6 +23862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "Prep",
           "package": "hermit",
@@ -22047,6 +23872,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "Prep",
           "package": "hermit",
@@ -22060,6 +23886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "PrintCore",
           "package": "hermit",
@@ -22069,6 +23896,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "PrintCore",
           "package": "hermit",
@@ -22082,6 +23910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "RuleCheck",
           "package": "hermit",
@@ -22091,6 +23920,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "RuleCheck",
           "package": "hermit",
@@ -22104,6 +23934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "Simplify",
           "package": "hermit",
@@ -22113,6 +23944,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "Simplify",
           "package": "hermit",
@@ -22126,6 +23958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "SpecConstr",
           "package": "hermit",
@@ -22135,6 +23968,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "SpecConstr",
           "package": "hermit",
@@ -22148,6 +23982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "Specialising",
           "package": "hermit",
@@ -22157,6 +23992,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "Specialising",
           "package": "hermit",
@@ -22170,6 +24006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "StaticArgs",
           "package": "hermit",
@@ -22179,6 +24016,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "StaticArgs",
           "package": "hermit",
@@ -22192,6 +24030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "Strictness",
           "package": "hermit",
@@ -22201,6 +24040,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "Strictness",
           "package": "hermit",
@@ -22214,6 +24054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "Tidy",
           "package": "hermit",
@@ -22223,6 +24064,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "Tidy",
           "package": "hermit",
@@ -22236,6 +24078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "Unknown",
           "package": "hermit",
@@ -22245,6 +24088,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "Unknown",
           "package": "hermit",
@@ -22258,6 +24102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "Vectorisation",
           "package": "hermit",
@@ -22267,6 +24112,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "Vectorisation",
           "package": "hermit",
@@ -22280,6 +24126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "WorkerWrapper",
           "package": "hermit",
@@ -22289,6 +24136,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "WorkerWrapper",
           "package": "hermit",
@@ -22302,6 +24150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "getCorePass",
           "package": "hermit",
@@ -22311,6 +24160,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "getCorePass",
           "normalized": "CoreToDo-\u003eCorePass",
@@ -22327,6 +24177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf HERMIT user specifies the -pN flag, get the N\n TODO: as written will discard other flags that start with -p\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "getPhaseFlag",
           "package": "hermit",
@@ -22337,6 +24188,7 @@
         "index": {
           "description": "If HERMIT user specifies the pN flag get the TODO as written will discard other flags that start with",
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "getPhaseFlag",
           "normalized": "[CommandLineOption]-\u003eMaybe(Int,[CommandLineOption])",
@@ -22352,6 +24204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "ghcPasses",
           "package": "hermit",
@@ -22361,6 +24214,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "ghcPasses",
           "normalized": "[(CorePass,CoreToDo)]",
@@ -22377,6 +24231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a hermit plugin. This mainly handles the per-module options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "hermitPlugin",
           "package": "hermit",
@@ -22387,6 +24242,7 @@
         "index": {
           "description": "Build hermit plugin This mainly handles the per-module options",
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "hermitPlugin",
           "normalized": "HermitPass-\u003ePlugin",
@@ -22402,6 +24258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "phaseNum",
           "package": "hermit",
@@ -22411,6 +24268,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "phaseNum",
           "package": "hermit",
@@ -22424,6 +24282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "phasesDone",
           "package": "hermit",
@@ -22433,6 +24292,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "phasesDone",
           "normalized": "[CorePass]",
@@ -22448,6 +24308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Plugin",
           "name": "phasesLeft",
           "package": "hermit",
@@ -22457,6 +24318,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Plugin",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Plugin",
           "name": "phasesLeft",
           "normalized": "[CorePass]",
@@ -22473,6 +24335,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOutput the raw Expr constructors. Helpful for writing pattern matching rewrites.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "AST",
           "package": "hermit",
@@ -22482,6 +24345,7 @@
         "index": {
           "description": "Output the raw Expr constructors Helpful for writing pattern matching rewrites",
           "hierarchy": "HERMIT PrettyPrinter AST",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "AST",
           "package": "hermit",
@@ -22495,6 +24359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoercion",
           "package": "hermit",
@@ -22504,6 +24369,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter AST",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoercion",
           "package": "hermit",
@@ -22517,6 +24383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoreAlt",
           "package": "hermit",
@@ -22526,6 +24393,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter AST",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoreAlt",
           "package": "hermit",
@@ -22539,6 +24407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoreBind",
           "package": "hermit",
@@ -22548,6 +24417,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter AST",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoreBind",
           "package": "hermit",
@@ -22561,6 +24431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoreExpr",
           "package": "hermit",
@@ -22570,6 +24441,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter AST",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoreExpr",
           "package": "hermit",
@@ -22583,6 +24455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoreProg",
           "package": "hermit",
@@ -22592,6 +24465,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter AST",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoreProg",
           "package": "hermit",
@@ -22606,6 +24480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a fragment of GHC Core using HERMIT's \"AST\" pretty printer.\n   This displays the tree of constructors using nested indentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoreTC",
           "package": "hermit",
@@ -22616,6 +24491,7 @@
         "index": {
           "description": "Pretty print fragment of GHC Core using HERMIT AST pretty printer This displays the tree of constructors using nested indentation",
           "hierarchy": "HERMIT PrettyPrinter AST",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppCoreTC",
           "package": "hermit",
@@ -22629,6 +24505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppKindOrType",
           "package": "hermit",
@@ -22638,6 +24515,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter AST",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppKindOrType",
           "package": "hermit",
@@ -22651,6 +24529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppModGuts",
           "package": "hermit",
@@ -22660,6 +24539,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter AST",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.AST",
           "name": "ppModGuts",
           "package": "hermit",
@@ -22673,6 +24553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "Clean",
           "package": "hermit",
@@ -22681,6 +24562,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Clean",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "Clean",
           "package": "hermit",
@@ -22694,6 +24576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoercion",
           "package": "hermit",
@@ -22703,6 +24586,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Clean",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoercion",
           "package": "hermit",
@@ -22716,6 +24600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoreAlt",
           "package": "hermit",
@@ -22725,6 +24610,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Clean",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoreAlt",
           "package": "hermit",
@@ -22738,6 +24624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoreBind",
           "package": "hermit",
@@ -22747,6 +24634,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Clean",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoreBind",
           "package": "hermit",
@@ -22760,6 +24648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoreExpr",
           "package": "hermit",
@@ -22769,6 +24658,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Clean",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoreExpr",
           "package": "hermit",
@@ -22782,6 +24672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoreProg",
           "package": "hermit",
@@ -22791,6 +24682,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Clean",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoreProg",
           "package": "hermit",
@@ -22805,6 +24697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a fragment of GHC Core using HERMIT's \"Clean\" pretty printer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoreTC",
           "package": "hermit",
@@ -22815,6 +24708,7 @@
         "index": {
           "description": "Pretty print fragment of GHC Core using HERMIT Clean pretty printer",
           "hierarchy": "HERMIT PrettyPrinter Clean",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppCoreTC",
           "package": "hermit",
@@ -22828,6 +24722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppKindOrType",
           "package": "hermit",
@@ -22837,6 +24732,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Clean",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppKindOrType",
           "package": "hermit",
@@ -22850,6 +24746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppModGuts",
           "package": "hermit",
@@ -22859,6 +24756,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Clean",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Clean",
           "name": "ppModGuts",
           "package": "hermit",
@@ -22872,6 +24770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Common",
           "package": "hermit",
@@ -22880,6 +24779,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Common",
           "package": "hermit",
@@ -22893,6 +24793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Attr",
           "package": "hermit",
@@ -22901,6 +24802,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Attr",
           "package": "hermit",
@@ -22914,6 +24816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "DocH",
           "package": "hermit",
@@ -22922,6 +24825,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "DocH",
           "package": "hermit",
@@ -22935,6 +24839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "HTML",
           "package": "hermit",
@@ -22943,6 +24848,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "HTML",
           "package": "hermit",
@@ -22957,6 +24863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext for PrettyH translations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PrettyC",
           "package": "hermit",
@@ -22966,6 +24873,7 @@
         "index": {
           "description": "Context for PrettyH translations",
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PrettyC",
           "package": "hermit",
@@ -22979,6 +24887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PrettyH",
           "package": "hermit",
@@ -22987,6 +24896,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PrettyH",
           "package": "hermit",
@@ -23000,6 +24910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PrettyOptions",
           "package": "hermit",
@@ -23008,6 +24919,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PrettyOptions",
           "package": "hermit",
@@ -23021,6 +24933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "RenderCode",
           "package": "hermit",
@@ -23029,6 +24942,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "RenderCode",
           "package": "hermit",
@@ -23042,6 +24956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "RenderSpecial",
           "package": "hermit",
@@ -23050,6 +24965,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "RenderSpecial",
           "package": "hermit",
@@ -23063,6 +24979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "ShowOption",
           "package": "hermit",
@@ -23071,6 +24988,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "ShowOption",
           "package": "hermit",
@@ -23084,6 +25002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "SpecialSymbol",
           "package": "hermit",
@@ -23092,6 +25011,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "SpecialSymbol",
           "package": "hermit",
@@ -23105,6 +25025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "SyntaxForColor",
           "package": "hermit",
@@ -23113,6 +25034,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "SyntaxForColor",
           "package": "hermit",
@@ -23126,6 +25048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TranslateCoreTCDocHBox",
           "package": "hermit",
@@ -23134,6 +25057,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TranslateCoreTCDocHBox",
           "package": "hermit",
@@ -23147,6 +25071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TranslateDocH",
           "package": "hermit",
@@ -23155,6 +25080,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TranslateDocH",
           "package": "hermit",
@@ -23168,6 +25094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Unicode",
           "package": "hermit",
@@ -23176,6 +25103,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Unicode",
           "package": "hermit",
@@ -23189,6 +25117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Abstract",
           "package": "hermit",
@@ -23198,6 +25127,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Abstract",
           "package": "hermit",
@@ -23211,6 +25141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "BndrAttr",
           "package": "hermit",
@@ -23220,6 +25151,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "BndrAttr",
           "package": "hermit",
@@ -23233,6 +25165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "CastSymbol",
           "package": "hermit",
@@ -23242,6 +25175,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "CastSymbol",
           "package": "hermit",
@@ -23255,6 +25189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "CoercionBindSymbol",
           "package": "hermit",
@@ -23264,6 +25199,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "CoercionBindSymbol",
           "package": "hermit",
@@ -23277,6 +25213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "CoercionColor",
           "package": "hermit",
@@ -23286,6 +25223,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "CoercionColor",
           "package": "hermit",
@@ -23299,6 +25237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "CoercionSymbol",
           "package": "hermit",
@@ -23308,6 +25247,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "CoercionSymbol",
           "package": "hermit",
@@ -23321,6 +25261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Color",
           "package": "hermit",
@@ -23330,6 +25271,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Color",
           "package": "hermit",
@@ -23343,6 +25285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "ForallSymbol",
           "package": "hermit",
@@ -23352,6 +25295,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "ForallSymbol",
           "package": "hermit",
@@ -23365,6 +25309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "HTML",
           "package": "hermit",
@@ -23374,6 +25319,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "HTML",
           "package": "hermit",
@@ -23387,6 +25333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "IdColor",
           "package": "hermit",
@@ -23396,6 +25343,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "IdColor",
           "package": "hermit",
@@ -23409,6 +25357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "KeywordColor",
           "package": "hermit",
@@ -23418,6 +25367,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "KeywordColor",
           "package": "hermit",
@@ -23431,6 +25381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Kind",
           "package": "hermit",
@@ -23440,6 +25391,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Kind",
           "package": "hermit",
@@ -23453,6 +25405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "LambdaSymbol",
           "package": "hermit",
@@ -23462,6 +25415,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "LambdaSymbol",
           "package": "hermit",
@@ -23475,6 +25429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "LitColor",
           "package": "hermit",
@@ -23484,6 +25439,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "LitColor",
           "package": "hermit",
@@ -23497,6 +25453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Omit",
           "package": "hermit",
@@ -23506,6 +25463,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Omit",
           "package": "hermit",
@@ -23519,6 +25477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PathAttr",
           "package": "hermit",
@@ -23528,6 +25487,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PathAttr",
           "package": "hermit",
@@ -23541,6 +25501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PrettyC",
           "package": "hermit",
@@ -23550,6 +25511,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PrettyC",
           "package": "hermit",
@@ -23563,6 +25525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PrettyOptions",
           "package": "hermit",
@@ -23572,6 +25535,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "PrettyOptions",
           "package": "hermit",
@@ -23585,6 +25549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "RightArrowSymbol",
           "package": "hermit",
@@ -23594,6 +25559,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "RightArrowSymbol",
           "package": "hermit",
@@ -23607,6 +25573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Show",
           "package": "hermit",
@@ -23616,6 +25583,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Show",
           "package": "hermit",
@@ -23629,6 +25597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "SpecialFont",
           "package": "hermit",
@@ -23638,6 +25607,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "SpecialFont",
           "package": "hermit",
@@ -23651,6 +25621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "SyntaxColor",
           "package": "hermit",
@@ -23660,6 +25631,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "SyntaxColor",
           "package": "hermit",
@@ -23673,6 +25645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TranslateCoreTCDocHBox",
           "package": "hermit",
@@ -23682,6 +25655,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TranslateCoreTCDocHBox",
           "package": "hermit",
@@ -23695,6 +25669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TranslateDocH",
           "package": "hermit",
@@ -23704,6 +25679,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TranslateDocH",
           "package": "hermit",
@@ -23717,6 +25693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TypeBindSymbol",
           "package": "hermit",
@@ -23726,6 +25703,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TypeBindSymbol",
           "package": "hermit",
@@ -23739,6 +25717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TypeColor",
           "package": "hermit",
@@ -23748,6 +25727,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TypeColor",
           "package": "hermit",
@@ -23761,6 +25741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TypeOfSymbol",
           "package": "hermit",
@@ -23770,6 +25751,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TypeOfSymbol",
           "package": "hermit",
@@ -23783,6 +25765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TypeSymbol",
           "package": "hermit",
@@ -23792,6 +25775,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "TypeSymbol",
           "package": "hermit",
@@ -23805,6 +25789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Unicode",
           "package": "hermit",
@@ -23814,6 +25799,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "Unicode",
           "package": "hermit",
@@ -23827,6 +25813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "WarningColor",
           "package": "hermit",
@@ -23836,6 +25823,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "WarningColor",
           "package": "hermit",
@@ -23849,6 +25837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "attrP",
           "package": "hermit",
@@ -23858,6 +25847,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "attrP",
           "normalized": "AbsolutePathH-\u003eDocH-\u003eDocH",
@@ -23872,6 +25862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "coercionColor",
           "package": "hermit",
@@ -23881,6 +25872,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "coercionColor",
           "normalized": "DocH-\u003eDocH",
@@ -23896,6 +25888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "coreRenders",
           "package": "hermit",
@@ -23905,6 +25898,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "coreRenders",
           "normalized": "[(String,PrettyOptions-\u003eDocH-\u003eString)]",
@@ -23921,6 +25915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike vcat and hcat, only make the list syntax explicit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "hlist",
           "package": "hermit",
@@ -23931,6 +25926,7 @@
         "index": {
           "description": "like vcat and hcat only make the list syntax explicit",
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "hlist",
           "normalized": "[MDoc a]-\u003eMDoc a",
@@ -23945,6 +25941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "idColor",
           "package": "hermit",
@@ -23954,6 +25951,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "idColor",
           "normalized": "DocH-\u003eDocH",
@@ -23969,6 +25967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "initPrettyC",
           "package": "hermit",
@@ -23978,6 +25977,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "initPrettyC",
           "normalized": "PrettyOptions-\u003ePrettyC",
@@ -23993,6 +25993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "keywordColor",
           "package": "hermit",
@@ -24002,6 +26003,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "keywordColor",
           "normalized": "DocH-\u003eDocH",
@@ -24017,6 +26019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "liftPrettyC",
           "package": "hermit",
@@ -24026,6 +26029,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "liftPrettyC",
           "normalized": "PrettyOptions-\u003ea-\u003ePrettyC",
@@ -24041,6 +26045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "liftPrettyH",
           "package": "hermit",
@@ -24050,6 +26055,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "liftPrettyH",
           "normalized": "PrettyOptions-\u003ePrettyH a-\u003eTranslate b HermitM a DocH",
@@ -24065,6 +26071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "markBindingSite",
           "package": "hermit",
@@ -24074,6 +26081,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "markBindingSite",
           "normalized": "Var-\u003ePrettyC-\u003eDocH-\u003eDocH",
@@ -24089,6 +26097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "markColor",
           "package": "hermit",
@@ -24098,6 +26107,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "markColor",
           "normalized": "SyntaxForColor-\u003eDocH-\u003eDocH",
@@ -24114,6 +26124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo you hide coercions?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_coercions",
           "package": "hermit",
@@ -24124,6 +26135,7 @@
         "index": {
           "description": "Do you hide coercions",
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_coercions",
           "package": "hermit",
@@ -24137,6 +26149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebelow this depth are ..., Nothing =\u003e infinite\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_depth",
           "package": "hermit",
@@ -24147,6 +26160,7 @@
         "index": {
           "description": "below this depth are Nothing infinite",
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_depth",
           "package": "hermit",
@@ -24160,6 +26174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo you hide types, and type arguments, as \u003ca/\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_exprTypes",
           "package": "hermit",
@@ -24170,6 +26185,7 @@
         "index": {
           "description": "Do you hide types and type arguments as",
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_exprTypes",
           "package": "hermit",
@@ -24184,6 +26200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis region should be highlighted (is the current focus)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_focus",
           "package": "hermit",
@@ -24194,6 +26211,7 @@
         "index": {
           "description": "This region should be highlighted is the current focus",
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_focus",
           "package": "hermit",
@@ -24207,6 +26225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo you show fully qualified names?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_fullyQualified",
           "package": "hermit",
@@ -24217,6 +26236,7 @@
         "index": {
           "description": "Do you show fully qualified names",
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_fullyQualified",
           "package": "hermit",
@@ -24231,6 +26251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enotes might be added to output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_notes",
           "package": "hermit",
@@ -24241,6 +26262,7 @@
         "index": {
           "description": "notes might be added to output",
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_notes",
           "package": "hermit",
@@ -24253,6 +26275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_ribbon",
           "package": "hermit",
@@ -24262,6 +26285,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_ribbon",
           "package": "hermit",
@@ -24275,6 +26299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo you give the types for all bindings?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_typesForBinders",
           "package": "hermit",
@@ -24285,6 +26310,7 @@
         "index": {
           "description": "Do you give the types for all bindings",
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_typesForBinders",
           "package": "hermit",
@@ -24298,6 +26324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_width",
           "package": "hermit",
@@ -24307,6 +26334,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "po_width",
           "package": "hermit",
@@ -24319,6 +26347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "prettyC_options",
           "package": "hermit",
@@ -24328,6 +26357,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "prettyC_options",
           "package": "hermit",
@@ -24340,6 +26370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "prettyC_path",
           "package": "hermit",
@@ -24349,6 +26380,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "prettyC_path",
           "package": "hermit",
@@ -24361,6 +26393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "prettyC_vars",
           "package": "hermit",
@@ -24370,6 +26403,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "prettyC_vars",
           "package": "hermit",
@@ -24382,6 +26416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "rDoHighlight",
           "package": "hermit",
@@ -24391,6 +26426,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "rDoHighlight",
           "package": "hermit",
@@ -24404,6 +26440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "rEnd",
           "package": "hermit",
@@ -24413,6 +26450,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "rEnd",
           "package": "hermit",
@@ -24426,6 +26464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "rPutStr",
           "package": "hermit",
@@ -24435,6 +26474,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "rPutStr",
           "normalized": "String-\u003ea",
@@ -24450,6 +26490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "rStart",
           "package": "hermit",
@@ -24459,6 +26500,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "rStart",
           "package": "hermit",
@@ -24472,6 +26514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "renderCode",
           "package": "hermit",
@@ -24481,6 +26524,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "renderCode",
           "normalized": "PrettyOptions-\u003eDocH-\u003ea",
@@ -24496,6 +26540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "renderSpecial",
           "package": "hermit",
@@ -24505,6 +26550,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "renderSpecial",
           "normalized": "SpecialSymbol-\u003ea",
@@ -24520,6 +26566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "specialFont",
           "package": "hermit",
@@ -24529,6 +26576,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "specialFont",
           "normalized": "DocH-\u003eDocH",
@@ -24544,6 +26592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "typeColor",
           "package": "hermit",
@@ -24553,6 +26602,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "typeColor",
           "normalized": "DocH-\u003eDocH",
@@ -24568,6 +26618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "unTranslateDocH",
           "package": "hermit",
@@ -24577,6 +26628,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "unTranslateDocH",
           "normalized": "PrettyC-\u003ePrettyH a-\u003eTranslateH a DocH",
@@ -24592,6 +26644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "updateCoShowOption",
           "package": "hermit",
@@ -24601,6 +26654,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "updateCoShowOption",
           "normalized": "ShowOption-\u003ePrettyOptions-\u003ePrettyOptions",
@@ -24616,6 +26670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "updateTypeShowOption",
           "package": "hermit",
@@ -24625,6 +26680,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "updateTypeShowOption",
           "normalized": "ShowOption-\u003ePrettyOptions-\u003ePrettyOptions",
@@ -24640,6 +26696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "updateWidthOption",
           "package": "hermit",
@@ -24649,6 +26706,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "updateWidthOption",
           "normalized": "Int-\u003ePrettyOptions-\u003ePrettyOptions",
@@ -24665,6 +26723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike vcat and hcat, only make the list syntax explicit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "vlist",
           "package": "hermit",
@@ -24675,6 +26734,7 @@
         "index": {
           "description": "like vcat and hcat only make the list syntax explicit",
           "hierarchy": "HERMIT PrettyPrinter Common",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.Common",
           "name": "vlist",
           "normalized": "[MDoc a]-\u003eMDoc a",
@@ -24690,6 +26750,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOutput the raw Expr constructors. Helpful for writing pattern matching rewrites.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "GHC",
           "package": "hermit",
@@ -24699,6 +26760,7 @@
         "index": {
           "description": "Output the raw Expr constructors Helpful for writing pattern matching rewrites",
           "hierarchy": "HERMIT PrettyPrinter GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "GHC",
           "package": "hermit",
@@ -24712,6 +26774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoercion",
           "package": "hermit",
@@ -24721,6 +26784,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoercion",
           "package": "hermit",
@@ -24734,6 +26798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoreAlt",
           "package": "hermit",
@@ -24743,6 +26808,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoreAlt",
           "package": "hermit",
@@ -24756,6 +26822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoreBind",
           "package": "hermit",
@@ -24765,6 +26832,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoreBind",
           "package": "hermit",
@@ -24778,6 +26846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoreExpr",
           "package": "hermit",
@@ -24787,6 +26856,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoreExpr",
           "package": "hermit",
@@ -24800,6 +26870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoreProg",
           "package": "hermit",
@@ -24809,6 +26880,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoreProg",
           "package": "hermit",
@@ -24823,6 +26895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis pretty printer is just a reflection of GHC's standard pretty printer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoreTC",
           "package": "hermit",
@@ -24833,6 +26906,7 @@
         "index": {
           "description": "This pretty printer is just reflection of GHC standard pretty printer",
           "hierarchy": "HERMIT PrettyPrinter GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppCoreTC",
           "package": "hermit",
@@ -24846,6 +26920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppKindOrType",
           "package": "hermit",
@@ -24855,6 +26930,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppKindOrType",
           "package": "hermit",
@@ -24868,6 +26944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppModGuts",
           "package": "hermit",
@@ -24877,6 +26954,7 @@
         },
         "index": {
           "hierarchy": "HERMIT PrettyPrinter GHC",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.PrettyPrinter.GHC",
           "name": "ppModGuts",
           "package": "hermit",
@@ -24890,6 +26968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "Command",
           "package": "hermit",
@@ -24898,6 +26977,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "Command",
           "package": "hermit",
@@ -24911,6 +26991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "cl_kernel_env",
           "package": "hermit",
@@ -24920,6 +27001,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "cl_kernel_env",
           "normalized": "CommandLineState-\u003eHermitMEnv",
@@ -24935,6 +27017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument includes a list of files to load.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "commandLine",
           "package": "hermit",
@@ -24945,6 +27028,7 @@
         "index": {
           "description": "The first argument includes list of files to load",
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "commandLine",
           "normalized": "[CommandLineOption]-\u003eBehavior-\u003e[External]-\u003eCLM a()",
@@ -24960,6 +27044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "diffDocH",
           "package": "hermit",
@@ -24969,6 +27054,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "diffDocH",
           "normalized": "PrettyOptions-\u003eDocH-\u003eDocH-\u003ea String",
@@ -24984,6 +27070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "diffR",
           "package": "hermit",
@@ -24993,6 +27080,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "diffR",
           "normalized": "PrettyOptions-\u003eString-\u003eRewriteH a-\u003eRewriteH a",
@@ -25007,6 +27095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "evalScript",
           "package": "hermit",
@@ -25016,6 +27105,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "evalScript",
           "normalized": "String-\u003eCLM a()",
@@ -25031,6 +27121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "getFocusPath",
           "package": "hermit",
@@ -25040,6 +27131,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "getFocusPath",
           "package": "hermit",
@@ -25053,6 +27145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "performKernelEffect",
           "package": "hermit",
@@ -25062,6 +27155,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "performKernelEffect",
           "normalized": "KernelEffect-\u003eExprH-\u003eCLM a()",
@@ -25077,6 +27171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "performMetaCommand",
           "package": "hermit",
@@ -25086,6 +27181,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "performMetaCommand",
           "normalized": "MetaCommand-\u003eCLM a()",
@@ -25101,6 +27197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "performQuery",
           "package": "hermit",
@@ -25110,6 +27207,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "performQuery",
           "normalized": "QueryFun-\u003eCLM a()",
@@ -25125,6 +27223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "performShellEffect",
           "package": "hermit",
@@ -25134,6 +27233,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "performShellEffect",
           "normalized": "ShellEffect-\u003eCLM a()",
@@ -25149,6 +27249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Command",
           "name": "shellComplete",
           "package": "hermit",
@@ -25158,6 +27259,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Command",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Command",
           "name": "shellComplete",
           "normalized": "MVar CommandLineState-\u003eString-\u003eString-\u003eIO[Completion]",
@@ -25198,6 +27300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Dictionary",
           "name": "Dictionary",
           "package": "hermit",
@@ -25206,6 +27309,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Dictionary",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Dictionary",
           "name": "Dictionary",
           "package": "hermit",
@@ -25220,6 +27324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a dictionary from a list of \u003ccode\u003e\u003ca\u003eExternal\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Dictionary",
           "name": "mkDict",
           "package": "hermit",
@@ -25230,6 +27335,7 @@
         "index": {
           "description": "Create dictionary from list of External",
           "hierarchy": "HERMIT Shell Dictionary",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Dictionary",
           "name": "mkDict",
           "normalized": "[External]-\u003eDictionary",
@@ -25246,6 +27352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe pretty-printing dictionaries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Dictionary",
           "name": "pp_dictionary",
           "package": "hermit",
@@ -25256,6 +27363,7 @@
         "index": {
           "description": "The pretty-printing dictionaries",
           "hierarchy": "HERMIT Shell Dictionary",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Dictionary",
           "name": "pp_dictionary",
           "package": "hermit",
@@ -25268,6 +27376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Externals",
           "name": "Externals",
           "package": "hermit",
@@ -25276,6 +27385,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Externals",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Externals",
           "name": "Externals",
           "package": "hermit",
@@ -25289,6 +27399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Externals",
           "name": "displayScripts",
           "package": "hermit",
@@ -25298,6 +27409,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Externals",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Externals",
           "name": "displayScripts",
           "package": "hermit",
@@ -25311,6 +27423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Externals",
           "name": "gc",
           "package": "hermit",
@@ -25320,6 +27433,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Externals",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Externals",
           "name": "gc",
           "normalized": "CommandLineState-\u003eIO CommandLineState",
@@ -25335,6 +27449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret a boxed thing as one of the four possible shell command types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Externals",
           "name": "interpShellCommand",
           "package": "hermit",
@@ -25345,6 +27460,7 @@
         "index": {
           "description": "Interpret boxed thing as one of the four possible shell command types",
           "hierarchy": "HERMIT Shell Externals",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Externals",
           "name": "interpShellCommand",
           "normalized": "[Interp ShellCommand]",
@@ -25360,6 +27476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Externals",
           "name": "setWindow",
           "package": "hermit",
@@ -25369,6 +27486,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Externals",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Externals",
           "name": "setWindow",
           "normalized": "CommandLineState-\u003eIO CommandLineState",
@@ -25384,6 +27502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Externals",
           "name": "shell_externals",
           "package": "hermit",
@@ -25393,6 +27512,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Externals",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Externals",
           "name": "shell_externals",
           "normalized": "[External]",
@@ -25407,6 +27527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Externals",
           "name": "showDerivationTree",
           "package": "hermit",
@@ -25416,6 +27537,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Externals",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Externals",
           "name": "showDerivationTree",
           "normalized": "CommandLineState-\u003eIO String",
@@ -25431,6 +27553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Externals",
           "name": "showGraph",
           "package": "hermit",
@@ -25440,6 +27563,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Externals",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Externals",
           "name": "showGraph",
           "normalized": "[(SAST,ExprH,SAST)]-\u003e[(String,SAST)]-\u003eSAST-\u003eString",
@@ -25455,6 +27579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Externals",
           "name": "showRefactorTrail",
           "package": "hermit",
@@ -25464,6 +27589,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Externals",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Externals",
           "name": "showRefactorTrail",
           "normalized": "[(a,[String],a)]-\u003e[(a,String)]-\u003ea-\u003ea-\u003e[String]",
@@ -25479,6 +27605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Externals",
           "name": "showScripts",
           "package": "hermit",
@@ -25488,6 +27615,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Externals",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Externals",
           "name": "showScripts",
           "normalized": "[(ScriptName,Script)]-\u003eString",
@@ -25503,6 +27631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Externals",
           "name": "versionCmd",
           "package": "hermit",
@@ -25512,6 +27641,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Externals",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Externals",
           "name": "versionCmd",
           "normalized": "VersionCmd-\u003eCommandLineState-\u003eIO CommandLineState",
@@ -25527,6 +27657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Renderer",
           "name": "Renderer",
           "package": "hermit",
@@ -25535,6 +27666,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Renderer",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Renderer",
           "name": "Renderer",
           "package": "hermit",
@@ -25548,6 +27680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Renderer",
           "name": "UnicodeTerminal",
           "package": "hermit",
@@ -25556,6 +27689,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Renderer",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Renderer",
           "name": "UnicodeTerminal",
           "package": "hermit",
@@ -25569,6 +27703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Renderer",
           "name": "UnicodeTerminal",
           "package": "hermit",
@@ -25578,6 +27713,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Renderer",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Renderer",
           "name": "UnicodeTerminal",
           "normalized": "UnicodeTerminal(Handle-\u003eMaybe PathH-\u003eIO())",
@@ -25593,6 +27729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Renderer",
           "name": "changeRenderer",
           "package": "hermit",
@@ -25602,6 +27739,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Renderer",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Renderer",
           "name": "changeRenderer",
           "normalized": "String-\u003eShellEffect",
@@ -25617,6 +27755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Renderer",
           "name": "doSGR",
           "package": "hermit",
@@ -25626,6 +27765,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Renderer",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Renderer",
           "name": "doSGR",
           "normalized": "[SGR]-\u003eUnicodeTerminal",
@@ -25641,6 +27781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Renderer",
           "name": "setHighlight",
           "package": "hermit",
@@ -25650,6 +27791,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Renderer",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Renderer",
           "name": "setHighlight",
           "normalized": "PathH-\u003eHandle-\u003eMaybe PathH-\u003eIO()",
@@ -25665,6 +27807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Renderer",
           "name": "shellRenderers",
           "package": "hermit",
@@ -25674,6 +27817,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Renderer",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Renderer",
           "name": "shellRenderers",
           "normalized": "[(String,Handle-\u003ePrettyOptions-\u003eEither String DocH-\u003eIO())]",
@@ -25689,6 +27833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Renderer",
           "name": "showRenderers",
           "package": "hermit",
@@ -25698,6 +27843,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Renderer",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Renderer",
           "name": "showRenderers",
           "package": "hermit",
@@ -25711,6 +27857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Renderer",
           "name": "undoSGRWith",
           "package": "hermit",
@@ -25720,6 +27867,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Renderer",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Renderer",
           "name": "undoSGRWith",
           "normalized": "[SGR]-\u003e[Attr]-\u003eUnicodeTerminal",
@@ -25735,6 +27883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.ScriptToRewrite",
           "name": "ScriptToRewrite",
           "package": "hermit",
@@ -25743,6 +27892,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell ScriptToRewrite",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.ScriptToRewrite",
           "name": "ScriptToRewrite",
           "package": "hermit",
@@ -25757,6 +27907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a script into the \u003ccode\u003e\u003ca\u003eDictionary\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.ScriptToRewrite",
           "name": "addScriptToDict",
           "package": "hermit",
@@ -25767,6 +27918,7 @@
         "index": {
           "description": "Insert script into the Dictionary",
           "hierarchy": "HERMIT Shell ScriptToRewrite",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.ScriptToRewrite",
           "name": "addScriptToDict",
           "normalized": "ScriptName-\u003eScript-\u003eDictionary-\u003ea Dictionary",
@@ -25782,6 +27934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Types",
           "package": "hermit",
@@ -25790,6 +27943,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Types",
           "package": "hermit",
@@ -25803,6 +27957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "CLException",
           "package": "hermit",
@@ -25811,6 +27966,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "CLException",
           "package": "hermit",
@@ -25824,6 +27980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "CLM",
           "package": "hermit",
@@ -25832,6 +27989,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "CLM",
           "package": "hermit",
@@ -25845,6 +28003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "CommandLineState",
           "package": "hermit",
@@ -25853,6 +28012,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "CommandLineState",
           "package": "hermit",
@@ -25867,6 +28027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKernelEffects are things that affect the state of the Kernel\n   - Apply a rewrite (giving a whole new lower-level AST).\n   - Change the current location using a computed path.\n   - Change the currect location using directions.\n   - Begin or end a scope.\n   - Delete an AST\n   - Run a precondition or other predicate that must not fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "KernelEffect",
           "package": "hermit",
@@ -25876,6 +28037,7 @@
         "index": {
           "description": "KernelEffects are things that affect the state of the Kernel Apply rewrite giving whole new lower-level AST Change the current location using computed path Change the currect location using directions Begin or end scope Delete an AST Run precondition or other predicate that must not fail",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "KernelEffect",
           "package": "hermit",
@@ -25889,6 +28051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "MetaCommand",
           "package": "hermit",
@@ -25897,6 +28060,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "MetaCommand",
           "package": "hermit",
@@ -25910,6 +28074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "QueryFun",
           "package": "hermit",
@@ -25918,6 +28083,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "QueryFun",
           "package": "hermit",
@@ -25931,6 +28097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "RewriteName",
           "package": "hermit",
@@ -25939,6 +28106,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "RewriteName",
           "package": "hermit",
@@ -25952,6 +28120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "ScriptName",
           "package": "hermit",
@@ -25960,6 +28129,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "ScriptName",
           "package": "hermit",
@@ -25974,6 +28144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are four types of commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "ShellCommand",
           "package": "hermit",
@@ -25983,6 +28154,7 @@
         "index": {
           "description": "There are four types of commands",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "ShellCommand",
           "package": "hermit",
@@ -25996,6 +28168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "ShellEffect",
           "package": "hermit",
@@ -26004,6 +28177,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "ShellEffect",
           "package": "hermit",
@@ -26017,6 +28191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "VersionCmd",
           "package": "hermit",
@@ -26025,6 +28200,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "VersionCmd",
           "package": "hermit",
@@ -26038,6 +28214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "VersionStore",
           "package": "hermit",
@@ -26046,6 +28223,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "VersionStore",
           "package": "hermit",
@@ -26059,6 +28237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Abort",
           "package": "hermit",
@@ -26068,6 +28247,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Abort",
           "package": "hermit",
@@ -26081,6 +28261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "AddTag",
           "package": "hermit",
@@ -26090,6 +28271,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "AddTag",
           "package": "hermit",
@@ -26103,6 +28285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Apply",
           "package": "hermit",
@@ -26112,6 +28295,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Apply",
           "normalized": "RewriteH a-\u003eKernelEffect",
@@ -26127,6 +28311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Back",
           "package": "hermit",
@@ -26136,6 +28321,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Back",
           "package": "hermit",
@@ -26149,6 +28335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "BeginScope",
           "package": "hermit",
@@ -26158,6 +28345,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "BeginScope",
           "package": "hermit",
@@ -26171,6 +28359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "CLAbort",
           "package": "hermit",
@@ -26180,6 +28369,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "CLAbort",
           "package": "hermit",
@@ -26193,6 +28383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "CLContinue",
           "package": "hermit",
@@ -26202,6 +28393,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "CLContinue",
           "package": "hermit",
@@ -26215,6 +28407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "CLError",
           "package": "hermit",
@@ -26224,6 +28417,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "CLError",
           "package": "hermit",
@@ -26237,6 +28431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "CLM",
           "package": "hermit",
@@ -26246,6 +28441,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "CLM",
           "package": "hermit",
@@ -26259,6 +28455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "CLResume",
           "package": "hermit",
@@ -26268,6 +28465,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "CLResume",
           "package": "hermit",
@@ -26281,6 +28479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "CLSModify",
           "package": "hermit",
@@ -26290,6 +28489,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "CLSModify",
           "normalized": "(CommandLineState-\u003eIO CommandLineState)-\u003eShellEffect",
@@ -26305,6 +28505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "CommandLineState",
           "package": "hermit",
@@ -26314,6 +28515,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "CommandLineState",
           "package": "hermit",
@@ -26327,6 +28529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Continue",
           "package": "hermit",
@@ -26336,6 +28539,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Continue",
           "package": "hermit",
@@ -26349,6 +28553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "CorrectnessCritera",
           "package": "hermit",
@@ -26358,6 +28563,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "CorrectnessCritera",
           "normalized": "TranslateH a()-\u003eKernelEffect",
@@ -26373,6 +28579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "DefineScript",
           "package": "hermit",
@@ -26382,6 +28589,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "DefineScript",
           "package": "hermit",
@@ -26395,6 +28603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Delete",
           "package": "hermit",
@@ -26404,6 +28613,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Delete",
           "normalized": "SAST-\u003eKernelEffect",
@@ -26419,6 +28629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Diff",
           "package": "hermit",
@@ -26428,6 +28639,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Diff",
           "package": "hermit",
@@ -26441,6 +28653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Direction",
           "package": "hermit",
@@ -26450,6 +28663,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Direction",
           "normalized": "Direction-\u003eKernelEffect",
@@ -26465,6 +28679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Display",
           "package": "hermit",
@@ -26474,6 +28689,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Display",
           "package": "hermit",
@@ -26487,6 +28703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Dump",
           "package": "hermit",
@@ -26496,6 +28713,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Dump",
           "package": "hermit",
@@ -26509,6 +28727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "EndScope",
           "package": "hermit",
@@ -26518,6 +28737,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "EndScope",
           "package": "hermit",
@@ -26531,6 +28751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Goto",
           "package": "hermit",
@@ -26540,6 +28761,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Goto",
           "package": "hermit",
@@ -26553,6 +28775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "GotoTag",
           "package": "hermit",
@@ -26562,6 +28785,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "GotoTag",
           "package": "hermit",
@@ -26575,6 +28799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Inquiry",
           "package": "hermit",
@@ -26584,6 +28809,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Inquiry",
           "normalized": "(CommandLineState-\u003eIO String)-\u003eQueryFun",
@@ -26600,6 +28826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand that modifies the state of the (scoped) kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "KernelEffect",
           "package": "hermit",
@@ -26610,6 +28837,7 @@
         "index": {
           "description": "Command that modifies the state of the scoped kernel",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "KernelEffect",
           "package": "hermit",
@@ -26623,6 +28851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "LoadFile",
           "package": "hermit",
@@ -26632,6 +28861,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "LoadFile",
           "package": "hermit",
@@ -26646,6 +28876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand that otherwise controls HERMIT (abort, resume, save, etc).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "MetaCommand",
           "package": "hermit",
@@ -26656,6 +28887,7 @@
         "index": {
           "description": "Command that otherwise controls HERMIT abort resume save etc",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "MetaCommand",
           "package": "hermit",
@@ -26669,6 +28901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Pathfinder",
           "package": "hermit",
@@ -26678,6 +28911,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Pathfinder",
           "normalized": "TranslateH a LocalPathH-\u003eKernelEffect",
@@ -26693,6 +28927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "QueryDocH",
           "package": "hermit",
@@ -26702,6 +28937,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "QueryDocH",
           "normalized": "(PrettyC-\u003ePrettyH CoreTC-\u003eTranslateH CoreTC DocH)-\u003eQueryFun",
@@ -26718,6 +28954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand that queries the AST with a Translate (read only).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "QueryFun",
           "package": "hermit",
@@ -26728,6 +28965,7 @@
         "index": {
           "description": "Command that queries the AST with Translate read only",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "QueryFun",
           "package": "hermit",
@@ -26741,6 +28979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "QueryString",
           "package": "hermit",
@@ -26750,6 +28989,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "QueryString",
           "normalized": "TranslateH a String-\u003eQueryFun",
@@ -26765,6 +29005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Resume",
           "package": "hermit",
@@ -26774,6 +29015,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Resume",
           "package": "hermit",
@@ -26787,6 +29029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "RunScript",
           "package": "hermit",
@@ -26796,6 +29039,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "RunScript",
           "package": "hermit",
@@ -26809,6 +29053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "SaveFile",
           "package": "hermit",
@@ -26818,6 +29063,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "SaveFile",
           "package": "hermit",
@@ -26831,6 +29077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "SaveScript",
           "package": "hermit",
@@ -26840,6 +29087,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "SaveScript",
           "package": "hermit",
@@ -26853,6 +29101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "ScriptToRewrite",
           "package": "hermit",
@@ -26862,6 +29111,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "ScriptToRewrite",
           "package": "hermit",
@@ -26875,6 +29125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "SeqMeta",
           "package": "hermit",
@@ -26884,6 +29135,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "SeqMeta",
           "normalized": "SeqMeta[MetaCommand]",
@@ -26900,6 +29152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand that modifies the state of the shell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "ShellEffect",
           "package": "hermit",
@@ -26910,6 +29163,7 @@
         "index": {
           "description": "Command that modifies the state of the shell",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "ShellEffect",
           "package": "hermit",
@@ -26923,6 +29177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "Step",
           "package": "hermit",
@@ -26932,6 +29187,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "Step",
           "package": "hermit",
@@ -26945,6 +29201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "VersionStore",
           "package": "hermit",
@@ -26954,6 +29211,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "VersionStore",
           "package": "hermit",
@@ -26967,6 +29225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "abort",
           "package": "hermit",
@@ -26976,6 +29235,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "abort",
           "normalized": "CLM a()",
@@ -26991,6 +29251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif true, run Core Lint on module after each rewrite\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_corelint",
           "package": "hermit",
@@ -27001,6 +29262,7 @@
         "index": {
           "description": "if true run Core Lint on module after each rewrite",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_corelint",
           "package": "hermit",
@@ -27014,6 +29276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current AST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_cursor",
           "package": "hermit",
@@ -27024,6 +29287,7 @@
         "index": {
           "description": "the current AST",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_cursor",
           "package": "hermit",
@@ -27036,6 +29300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_dict",
           "package": "hermit",
@@ -27045,6 +29310,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_dict",
           "package": "hermit",
@@ -27058,6 +29324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif true, show diffs rather than pp full code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_diffonly",
           "package": "hermit",
@@ -27068,6 +29335,7 @@
         "index": {
           "description": "if true show diffs rather than pp full code",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_diffonly",
           "package": "hermit",
@@ -27081,6 +29349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif true, abort on *any* failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_failhard",
           "package": "hermit",
@@ -27091,6 +29360,7 @@
         "index": {
           "description": "if true abort on any failure",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_failhard",
           "package": "hermit",
@@ -27104,6 +29374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econsole height, in lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_height",
           "package": "hermit",
@@ -27114,6 +29385,7 @@
         "index": {
           "description": "console height in lines",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_height",
           "package": "hermit",
@@ -27126,6 +29398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_initSAST",
           "package": "hermit",
@@ -27135,6 +29408,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_initSAST",
           "package": "hermit",
@@ -27148,6 +29422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_kernel",
           "package": "hermit",
@@ -27157,6 +29432,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_kernel",
           "package": "hermit",
@@ -27170,6 +29446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekeyboard input the nav panel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_nav",
           "package": "hermit",
@@ -27180,6 +29457,7 @@
         "index": {
           "description": "keyboard input the nav panel",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_nav",
           "package": "hermit",
@@ -27193,6 +29471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhich pretty printer to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_pretty",
           "package": "hermit",
@@ -27203,6 +29482,7 @@
         "index": {
           "description": "which pretty printer to use",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_pretty",
           "package": "hermit",
@@ -27216,6 +29496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe options for the pretty printer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_pretty_opts",
           "package": "hermit",
@@ -27226,6 +29507,7 @@
         "index": {
           "description": "the options for the pretty printer",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_pretty_opts",
           "package": "hermit",
@@ -27239,6 +29521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe way of outputing to the screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_render",
           "package": "hermit",
@@ -27249,6 +29532,7 @@
         "index": {
           "description": "the way of outputing to the screen",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_render",
           "normalized": "Handle-\u003ePrettyOptions-\u003eEither String DocH-\u003eIO()",
@@ -27264,6 +29548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif running a script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_running_script",
           "package": "hermit",
@@ -27274,6 +29559,7 @@
         "index": {
           "description": "if running script",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_running_script",
           "package": "hermit",
@@ -27286,6 +29572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_scripts",
           "package": "hermit",
@@ -27295,6 +29582,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_scripts",
           "normalized": "[(ScriptName,Script)]",
@@ -27310,6 +29598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe list of ticked messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_tick",
           "package": "hermit",
@@ -27320,6 +29609,7 @@
         "index": {
           "description": "the list of ticked messages",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_tick",
           "package": "hermit",
@@ -27332,6 +29622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_version",
           "package": "hermit",
@@ -27341,6 +29632,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_version",
           "package": "hermit",
@@ -27354,6 +29646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath to beginning of window, always a prefix of focus path in kernel\n these four should be in a reader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "cl_window",
           "package": "hermit",
@@ -27364,6 +29657,7 @@
         "index": {
           "description": "path to beginning of window always prefix of focus path in kernel these four should be in reader",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "cl_window",
           "package": "hermit",
@@ -27376,6 +29670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "continue",
           "package": "hermit",
@@ -27385,6 +29680,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "continue",
           "normalized": "CommandLineState-\u003eCLM a()",
@@ -27399,6 +29695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "iokm2clm",
           "package": "hermit",
@@ -27408,6 +29705,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "iokm2clm",
           "normalized": "String-\u003eIO(KureM a)-\u003eCLM b a",
@@ -27422,6 +29720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "iokm2clm'",
           "package": "hermit",
@@ -27431,6 +29730,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "iokm2clm'",
           "normalized": "String-\u003e(a-\u003eCLM b c)-\u003eIO(KureM a)-\u003eCLM b c",
@@ -27445,6 +29745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "iokm2clm''",
           "package": "hermit",
@@ -27454,6 +29755,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "iokm2clm''",
           "normalized": "IO(KureM a)-\u003eCLM b a",
@@ -27469,6 +29771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA composite meta-command for running a loaded script immediately.\n   The script is given the same name as the filepath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "loadAndRun",
           "package": "hermit",
@@ -27479,6 +29782,7 @@
         "index": {
           "description": "composite meta-command for running loaded script immediately The script is given the same name as the filepath",
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "loadAndRun",
           "normalized": "FilePath-\u003eMetaCommand",
@@ -27494,6 +29798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "message",
           "package": "hermit",
@@ -27503,6 +29808,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "message",
           "normalized": "String-\u003eQueryFun",
@@ -27517,6 +29823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "newSAST",
           "package": "hermit",
@@ -27526,6 +29833,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "newSAST",
           "normalized": "ExprH-\u003eSAST-\u003eCommandLineState-\u003eCommandLineState",
@@ -27541,6 +29849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "resume",
           "package": "hermit",
@@ -27550,6 +29859,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "resume",
           "normalized": "SAST-\u003eCLM a()",
@@ -27564,6 +29874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "runCLM",
           "package": "hermit",
@@ -27573,6 +29884,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "runCLM",
           "normalized": "CommandLineState-\u003eCLM a b-\u003ea(Either CLException b,CommandLineState)",
@@ -27588,6 +29900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "unCLM",
           "package": "hermit",
@@ -27597,6 +29910,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "unCLM",
           "package": "hermit",
@@ -27610,6 +29924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "vs_graph",
           "package": "hermit",
@@ -27619,6 +29934,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "vs_graph",
           "normalized": "[(SAST,ExprH,SAST)]",
@@ -27633,6 +29949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT.Shell.Types",
           "name": "vs_tags",
           "package": "hermit",
@@ -27642,6 +29959,7 @@
         },
         "index": {
           "hierarchy": "HERMIT Shell Types",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT.Shell.Types",
           "name": "vs_tags",
           "normalized": "[(String,SAST)]",
@@ -27656,6 +29974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT",
           "name": "HERMIT",
           "package": "hermit",
@@ -27664,6 +29983,7 @@
         },
         "index": {
           "hierarchy": "HERMIT",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT",
           "name": "HERMIT",
           "package": "hermit",
@@ -27677,6 +29997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:13 UTC 2014",
           "module": "HERMIT",
           "name": "plugin",
           "package": "hermit",
@@ -27686,6 +30007,7 @@
         },
         "index": {
           "hierarchy": "HERMIT",
+          "indexed": "2014-03-11T18:37:13",
           "module": "HERMIT",
           "name": "plugin",
           "package": "hermit",

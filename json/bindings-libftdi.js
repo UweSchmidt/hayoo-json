@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-libftdi"
+        "phrase": "bindings-libftdi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_bits_type",
           "package": "bindings-libftdi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_bits_type",
           "package": "bindings-libftdi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_break_type",
           "package": "bindings-libftdi",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_break_type",
           "package": "bindings-libftdi",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_chip_type",
           "package": "bindings-libftdi",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_chip_type",
           "package": "bindings-libftdi",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_context",
           "package": "bindings-libftdi",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_context",
           "package": "bindings-libftdi",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_device_list",
           "package": "bindings-libftdi",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_device_list",
           "package": "bindings-libftdi",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_eeprom",
           "package": "bindings-libftdi",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_eeprom",
           "package": "bindings-libftdi",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_interface",
           "package": "bindings-libftdi",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_interface",
           "package": "bindings-libftdi",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_mpsse_mode",
           "package": "bindings-libftdi",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_mpsse_mode",
           "package": "bindings-libftdi",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_parity_type",
           "package": "bindings-libftdi",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_parity_type",
           "package": "bindings-libftdi",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_stopbits_type",
           "package": "bindings-libftdi",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'ftdi_stopbits_type",
           "package": "bindings-libftdi",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'usb_dev_handle",
           "package": "bindings-libftdi",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'usb_dev_handle",
           "package": "bindings-libftdi",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "C'usb_device",
           "package": "bindings-libftdi",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "C'usb_device",
           "package": "bindings-libftdi",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'FTDI_DEFAULT_EEPROM_SIZE",
           "package": "bindings-libftdi",
@@ -279,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'FTDI_DEFAULT_EEPROM_SIZE",
           "package": "bindings-libftdi",
@@ -292,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'FTDI_DEVICE_IN_REQTYPE",
           "package": "bindings-libftdi",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'FTDI_DEVICE_IN_REQTYPE",
           "package": "bindings-libftdi",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'FTDI_DEVICE_OUT_REQTYPE",
           "package": "bindings-libftdi",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'FTDI_DEVICE_OUT_REQTYPE",
           "package": "bindings-libftdi",
@@ -336,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'FTDI_URB_USERCONTEXT_COOKIE",
           "package": "bindings-libftdi",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'FTDI_URB_USERCONTEXT_COOKIE",
           "package": "bindings-libftdi",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'GET_BITS_HIGH",
           "package": "bindings-libftdi",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'GET_BITS_HIGH",
           "package": "bindings-libftdi",
@@ -380,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'GET_BITS_LOW",
           "package": "bindings-libftdi",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'GET_BITS_LOW",
           "package": "bindings-libftdi",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'LOOPBACK_END",
           "package": "bindings-libftdi",
@@ -411,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'LOOPBACK_END",
           "package": "bindings-libftdi",
@@ -424,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'LOOPBACK_START",
           "package": "bindings-libftdi",
@@ -433,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'LOOPBACK_START",
           "package": "bindings-libftdi",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_BITMODE",
           "package": "bindings-libftdi",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_BITMODE",
           "package": "bindings-libftdi",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_DO_READ",
           "package": "bindings-libftdi",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_DO_READ",
           "package": "bindings-libftdi",
@@ -490,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_DO_WRITE",
           "package": "bindings-libftdi",
@@ -499,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_DO_WRITE",
           "package": "bindings-libftdi",
@@ -512,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_LSB",
           "package": "bindings-libftdi",
@@ -521,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_LSB",
           "package": "bindings-libftdi",
@@ -534,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_READ_NEG",
           "package": "bindings-libftdi",
@@ -543,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_READ_NEG",
           "package": "bindings-libftdi",
@@ -556,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_WRITE_NEG",
           "package": "bindings-libftdi",
@@ -565,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_WRITE_NEG",
           "package": "bindings-libftdi",
@@ -578,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_WRITE_TMS",
           "package": "bindings-libftdi",
@@ -587,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'MPSSE_WRITE_TMS",
           "package": "bindings-libftdi",
@@ -600,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'READ_EXTENDED",
           "package": "bindings-libftdi",
@@ -609,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'READ_EXTENDED",
           "package": "bindings-libftdi",
@@ -622,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'READ_SHORT",
           "package": "bindings-libftdi",
@@ -631,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'READ_SHORT",
           "package": "bindings-libftdi",
@@ -644,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SEND_IMMEDIATE",
           "package": "bindings-libftdi",
@@ -653,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SEND_IMMEDIATE",
           "package": "bindings-libftdi",
@@ -666,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SET_BITS_HIGH",
           "package": "bindings-libftdi",
@@ -675,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SET_BITS_HIGH",
           "package": "bindings-libftdi",
@@ -688,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SET_BITS_LOW",
           "package": "bindings-libftdi",
@@ -697,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SET_BITS_LOW",
           "package": "bindings-libftdi",
@@ -710,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_DISABLE_FLOW_CTRL",
           "package": "bindings-libftdi",
@@ -719,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_DISABLE_FLOW_CTRL",
           "package": "bindings-libftdi",
@@ -732,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_DTR_DSR_HS",
           "package": "bindings-libftdi",
@@ -741,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_DTR_DSR_HS",
           "package": "bindings-libftdi",
@@ -754,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_ERASE_EEPROM_REQUEST",
           "package": "bindings-libftdi",
@@ -763,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_ERASE_EEPROM_REQUEST",
           "package": "bindings-libftdi",
@@ -776,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_GET_LATENCY_TIMER_REQUEST",
           "package": "bindings-libftdi",
@@ -785,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_GET_LATENCY_TIMER_REQUEST",
           "package": "bindings-libftdi",
@@ -798,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_MODEM_CTRL",
           "package": "bindings-libftdi",
@@ -807,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_MODEM_CTRL",
           "package": "bindings-libftdi",
@@ -820,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_POLL_MODEM_STATUS_REQUEST",
           "package": "bindings-libftdi",
@@ -829,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_POLL_MODEM_STATUS_REQUEST",
           "package": "bindings-libftdi",
@@ -842,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_READ_EEPROM_REQUEST",
           "package": "bindings-libftdi",
@@ -851,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_READ_EEPROM_REQUEST",
           "package": "bindings-libftdi",
@@ -864,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_READ_PINS_REQUEST",
           "package": "bindings-libftdi",
@@ -873,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_READ_PINS_REQUEST",
           "package": "bindings-libftdi",
@@ -886,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RESET",
           "package": "bindings-libftdi",
@@ -895,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RESET",
           "package": "bindings-libftdi",
@@ -908,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RESET_PURGE_RX",
           "package": "bindings-libftdi",
@@ -917,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RESET_PURGE_RX",
           "package": "bindings-libftdi",
@@ -930,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RESET_PURGE_TX",
           "package": "bindings-libftdi",
@@ -939,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RESET_PURGE_TX",
           "package": "bindings-libftdi",
@@ -952,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RESET_REQUEST",
           "package": "bindings-libftdi",
@@ -961,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RESET_REQUEST",
           "package": "bindings-libftdi",
@@ -974,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RESET_SIO",
           "package": "bindings-libftdi",
@@ -983,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RESET_SIO",
           "package": "bindings-libftdi",
@@ -996,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RTS_CTS_HS",
           "package": "bindings-libftdi",
@@ -1005,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_RTS_CTS_HS",
           "package": "bindings-libftdi",
@@ -1018,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_BAUDRATE_REQUEST",
           "package": "bindings-libftdi",
@@ -1027,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_BAUDRATE_REQUEST",
           "package": "bindings-libftdi",
@@ -1040,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_BAUD_RATE",
           "package": "bindings-libftdi",
@@ -1049,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_BAUD_RATE",
           "package": "bindings-libftdi",
@@ -1062,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_BITMODE_REQUEST",
           "package": "bindings-libftdi",
@@ -1071,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_BITMODE_REQUEST",
           "package": "bindings-libftdi",
@@ -1084,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_DATA",
           "package": "bindings-libftdi",
@@ -1093,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_DATA",
           "package": "bindings-libftdi",
@@ -1106,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_DATA_REQUEST",
           "package": "bindings-libftdi",
@@ -1115,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_DATA_REQUEST",
           "package": "bindings-libftdi",
@@ -1128,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_DTR_HIGH",
           "package": "bindings-libftdi",
@@ -1137,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_DTR_HIGH",
           "package": "bindings-libftdi",
@@ -1150,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_DTR_LOW",
           "package": "bindings-libftdi",
@@ -1159,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_DTR_LOW",
           "package": "bindings-libftdi",
@@ -1172,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_DTR_MASK",
           "package": "bindings-libftdi",
@@ -1181,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_DTR_MASK",
           "package": "bindings-libftdi",
@@ -1194,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_ERROR_CHAR_REQUEST",
           "package": "bindings-libftdi",
@@ -1203,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_ERROR_CHAR_REQUEST",
           "package": "bindings-libftdi",
@@ -1216,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_EVENT_CHAR_REQUEST",
           "package": "bindings-libftdi",
@@ -1225,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_EVENT_CHAR_REQUEST",
           "package": "bindings-libftdi",
@@ -1238,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_FLOW_CTRL",
           "package": "bindings-libftdi",
@@ -1247,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_FLOW_CTRL",
           "package": "bindings-libftdi",
@@ -1260,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_FLOW_CTRL_REQUEST",
           "package": "bindings-libftdi",
@@ -1269,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_FLOW_CTRL_REQUEST",
           "package": "bindings-libftdi",
@@ -1282,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_LATENCY_TIMER_REQUEST",
           "package": "bindings-libftdi",
@@ -1291,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_LATENCY_TIMER_REQUEST",
           "package": "bindings-libftdi",
@@ -1304,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_MODEM_CTRL_REQUEST",
           "package": "bindings-libftdi",
@@ -1313,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_MODEM_CTRL_REQUEST",
           "package": "bindings-libftdi",
@@ -1326,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_RTS_HIGH",
           "package": "bindings-libftdi",
@@ -1335,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_RTS_HIGH",
           "package": "bindings-libftdi",
@@ -1348,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_RTS_LOW",
           "package": "bindings-libftdi",
@@ -1357,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_RTS_LOW",
           "package": "bindings-libftdi",
@@ -1370,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_RTS_MASK",
           "package": "bindings-libftdi",
@@ -1379,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_SET_RTS_MASK",
           "package": "bindings-libftdi",
@@ -1392,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_WRITE_EEPROM_REQUEST",
           "package": "bindings-libftdi",
@@ -1401,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_WRITE_EEPROM_REQUEST",
           "package": "bindings-libftdi",
@@ -1414,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_XON_XOFF_HS",
           "package": "bindings-libftdi",
@@ -1423,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'SIO_XON_XOFF_HS",
           "package": "bindings-libftdi",
@@ -1436,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'TCK_DIVISOR",
           "package": "bindings-libftdi",
@@ -1445,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'TCK_DIVISOR",
           "package": "bindings-libftdi",
@@ -1458,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'WAIT_ON_HIGH",
           "package": "bindings-libftdi",
@@ -1467,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'WAIT_ON_HIGH",
           "package": "bindings-libftdi",
@@ -1480,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'WAIT_ON_LOW",
           "package": "bindings-libftdi",
@@ -1489,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'WAIT_ON_LOW",
           "package": "bindings-libftdi",
@@ -1502,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'WRITE_EXTENDED",
           "package": "bindings-libftdi",
@@ -1511,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'WRITE_EXTENDED",
           "package": "bindings-libftdi",
@@ -1524,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'WRITE_SHORT",
           "package": "bindings-libftdi",
@@ -1533,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'WRITE_SHORT",
           "package": "bindings-libftdi",
@@ -1546,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_async_complete",
           "package": "bindings-libftdi",
@@ -1555,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_async_complete",
           "normalized": "Ptr C'ftdi_context-\u003eCInt-\u003eIO()",
@@ -1569,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_deinit",
           "package": "bindings-libftdi",
@@ -1578,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_deinit",
           "normalized": "Ptr C'ftdi_context-\u003eIO()",
@@ -1592,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_disable_bitbang",
           "package": "bindings-libftdi",
@@ -1601,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_disable_bitbang",
           "normalized": "Ptr C'ftdi_context-\u003eIO CInt",
@@ -1615,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_eeprom_build",
           "package": "bindings-libftdi",
@@ -1624,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_eeprom_build",
           "normalized": "Ptr C'ftdi_eeprom-\u003ePtr CUChar-\u003eIO CInt",
@@ -1638,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_eeprom_decode",
           "package": "bindings-libftdi",
@@ -1647,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_eeprom_decode",
           "normalized": "Ptr C'ftdi_eeprom-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt",
@@ -1661,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_eeprom_initdefaults",
           "package": "bindings-libftdi",
@@ -1670,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_eeprom_initdefaults",
           "normalized": "Ptr C'ftdi_eeprom-\u003eIO()",
@@ -1684,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_eeprom_setsize",
           "package": "bindings-libftdi",
@@ -1693,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_eeprom_setsize",
           "normalized": "Ptr C'ftdi_context-\u003ePtr C'ftdi_eeprom-\u003eCInt-\u003eIO()",
@@ -1707,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_enable_bitbang",
           "package": "bindings-libftdi",
@@ -1716,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_enable_bitbang",
           "normalized": "Ptr C'ftdi_context-\u003eCUChar-\u003eIO CInt",
@@ -1730,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_erase_eeprom",
           "package": "bindings-libftdi",
@@ -1739,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_erase_eeprom",
           "normalized": "Ptr C'ftdi_context-\u003eIO CInt",
@@ -1753,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_free",
           "package": "bindings-libftdi",
@@ -1762,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_free",
           "normalized": "Ptr C'ftdi_context-\u003eIO()",
@@ -1776,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_get_error_string",
           "package": "bindings-libftdi",
@@ -1785,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_get_error_string",
           "normalized": "Ptr C'ftdi_context-\u003eIO(Ptr CChar)",
@@ -1799,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_get_latency_timer",
           "package": "bindings-libftdi",
@@ -1808,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_get_latency_timer",
           "normalized": "Ptr C'ftdi_context-\u003ePtr CUChar-\u003eIO CInt",
@@ -1822,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_init",
           "package": "bindings-libftdi",
@@ -1831,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_init",
           "normalized": "Ptr C'ftdi_context-\u003eIO CInt",
@@ -1845,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_list_free",
           "package": "bindings-libftdi",
@@ -1854,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_list_free",
           "normalized": "Ptr(Ptr C'ftdi_device_list)-\u003eIO()",
@@ -1868,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_list_free2",
           "package": "bindings-libftdi",
@@ -1877,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_list_free2",
           "normalized": "Ptr C'ftdi_device_list-\u003eIO()",
@@ -1891,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_new",
           "package": "bindings-libftdi",
@@ -1900,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_new",
           "package": "bindings-libftdi",
@@ -1912,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_poll_modem_status",
           "package": "bindings-libftdi",
@@ -1921,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_poll_modem_status",
           "normalized": "Ptr C'ftdi_context-\u003ePtr CShort-\u003eIO CInt",
@@ -1935,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_chipid",
           "package": "bindings-libftdi",
@@ -1944,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_chipid",
           "normalized": "Ptr C'ftdi_context-\u003ePtr CUInt-\u003eIO CInt",
@@ -1958,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_data",
           "package": "bindings-libftdi",
@@ -1967,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_data",
           "normalized": "Ptr C'ftdi_context-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt",
@@ -1981,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_data_get_chunksize",
           "package": "bindings-libftdi",
@@ -1990,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_data_get_chunksize",
           "normalized": "Ptr C'ftdi_context-\u003ePtr CUInt-\u003eIO CInt",
@@ -2004,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_data_set_chunksize",
           "package": "bindings-libftdi",
@@ -2013,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_data_set_chunksize",
           "normalized": "Ptr C'ftdi_context-\u003eCUInt-\u003eIO CInt",
@@ -2027,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_eeprom",
           "package": "bindings-libftdi",
@@ -2036,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_eeprom",
           "normalized": "Ptr C'ftdi_context-\u003ePtr CUChar-\u003eIO CInt",
@@ -2050,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_eeprom_getsize",
           "package": "bindings-libftdi",
@@ -2059,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_eeprom_getsize",
           "normalized": "Ptr C'ftdi_context-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt",
@@ -2073,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_pins",
           "package": "bindings-libftdi",
@@ -2082,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_read_pins",
           "normalized": "Ptr C'ftdi_context-\u003eCUChar-\u003eIO CInt",
@@ -2096,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_baudrate",
           "package": "bindings-libftdi",
@@ -2105,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_baudrate",
           "normalized": "Ptr C'ftdi_context-\u003eCInt-\u003eIO CInt",
@@ -2119,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_bitmode",
           "package": "bindings-libftdi",
@@ -2128,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_bitmode",
           "normalized": "Ptr C'ftdi_context-\u003eCUChar-\u003eCUChar-\u003eIO CInt",
@@ -2142,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_error_char",
           "package": "bindings-libftdi",
@@ -2151,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_error_char",
           "normalized": "Ptr C'ftdi_context-\u003eCUChar-\u003eCUChar-\u003eIO CInt",
@@ -2165,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_event_char",
           "package": "bindings-libftdi",
@@ -2174,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_event_char",
           "normalized": "Ptr C'ftdi_context-\u003eCUChar-\u003eCUChar-\u003eIO CInt",
@@ -2188,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_interface",
           "package": "bindings-libftdi",
@@ -2197,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_interface",
           "normalized": "Ptr C'ftdi_context-\u003eC'ftdi_interface-\u003eIO CInt",
@@ -2211,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_latency_timer",
           "package": "bindings-libftdi",
@@ -2220,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_latency_timer",
           "normalized": "Ptr C'ftdi_context-\u003eCUChar-\u003eIO CInt",
@@ -2234,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_line_property",
           "package": "bindings-libftdi",
@@ -2243,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_line_property",
           "normalized": "Ptr C'ftdi_context-\u003eC'ftdi_bits_type-\u003eC'ftdi_stopbits_type-\u003eC'ftdi_parity_type-\u003eIO CInt",
@@ -2257,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_line_property2",
           "package": "bindings-libftdi",
@@ -2266,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_line_property2",
           "normalized": "Ptr C'ftdi_context-\u003eC'ftdi_bits_type-\u003eC'ftdi_stopbits_type-\u003eC'ftdi_parity_type-\u003eC'ftdi_break_type-\u003eIO CInt",
@@ -2280,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_usbdev",
           "package": "bindings-libftdi",
@@ -2289,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_set_usbdev",
           "normalized": "Ptr C'ftdi_context-\u003ePtr C'usb_dev_handle-\u003eIO()",
@@ -2303,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_setdtr",
           "package": "bindings-libftdi",
@@ -2312,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_setdtr",
           "normalized": "Ptr C'ftdi_context-\u003eCInt-\u003eIO CInt",
@@ -2326,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_setdtr_rts",
           "package": "bindings-libftdi",
@@ -2335,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_setdtr_rts",
           "normalized": "Ptr C'ftdi_context-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -2349,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_setflowctrl",
           "package": "bindings-libftdi",
@@ -2358,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_setflowctrl",
           "normalized": "Ptr C'ftdi_context-\u003eCInt-\u003eIO CInt",
@@ -2372,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_setrts",
           "package": "bindings-libftdi",
@@ -2381,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_setrts",
           "normalized": "Ptr C'ftdi_context-\u003eCInt-\u003eIO CInt",
@@ -2395,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_close",
           "package": "bindings-libftdi",
@@ -2404,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_close",
           "normalized": "Ptr C'ftdi_context-\u003eIO CInt",
@@ -2418,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_find_all",
           "package": "bindings-libftdi",
@@ -2427,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_find_all",
           "normalized": "Ptr C'ftdi_context-\u003ePtr(Ptr C'ftdi_device_list)-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -2441,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_get_strings",
           "package": "bindings-libftdi",
@@ -2450,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_get_strings",
           "normalized": "Ptr C'ftdi_context-\u003ePtr C'usb_device-\u003ePtr CChar-\u003eCInt-\u003ePtr CChar-\u003eCInt-\u003ePtr CChar-\u003eCInt-\u003eIO CInt",
@@ -2464,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_open",
           "package": "bindings-libftdi",
@@ -2473,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_open",
           "normalized": "Ptr C'ftdi_context-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -2487,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_open_desc",
           "package": "bindings-libftdi",
@@ -2496,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_open_desc",
           "normalized": "Ptr C'ftdi_context-\u003eCInt-\u003eCInt-\u003ePtr CChar-\u003ePtr CChar-\u003eIO CInt",
@@ -2510,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_open_dev",
           "package": "bindings-libftdi",
@@ -2519,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_open_dev",
           "normalized": "Ptr C'ftdi_context-\u003ePtr C'usb_device-\u003eIO CInt",
@@ -2533,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_purge_buffers",
           "package": "bindings-libftdi",
@@ -2542,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_purge_buffers",
           "normalized": "Ptr C'ftdi_context-\u003eIO CInt",
@@ -2556,6 +2784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_purge_rx_buffer",
           "package": "bindings-libftdi",
@@ -2565,6 +2794,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_purge_rx_buffer",
           "normalized": "Ptr C'ftdi_context-\u003eIO CInt",
@@ -2579,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_purge_tx_buffer",
           "package": "bindings-libftdi",
@@ -2588,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_purge_tx_buffer",
           "normalized": "Ptr C'ftdi_context-\u003eIO CInt",
@@ -2602,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_reset",
           "package": "bindings-libftdi",
@@ -2611,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_usb_reset",
           "normalized": "Ptr C'ftdi_context-\u003eIO CInt",
@@ -2625,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_write_data",
           "package": "bindings-libftdi",
@@ -2634,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_write_data",
           "normalized": "Ptr C'ftdi_context-\u003ePtr CUChar-\u003eCUInt-\u003eIO CInt",
@@ -2648,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_write_data_async",
           "package": "bindings-libftdi",
@@ -2657,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_write_data_async",
           "normalized": "Ptr C'ftdi_context-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt",
@@ -2671,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_write_data_get_chunksize",
           "package": "bindings-libftdi",
@@ -2680,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_write_data_get_chunksize",
           "normalized": "Ptr C'ftdi_context-\u003ePtr CUInt-\u003eIO CInt",
@@ -2694,6 +2934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_write_data_set_chunksize",
           "package": "bindings-libftdi",
@@ -2703,6 +2944,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_write_data_set_chunksize",
           "normalized": "Ptr C'ftdi_context-\u003eCUInt-\u003eIO CInt",
@@ -2717,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_write_eeprom",
           "package": "bindings-libftdi",
@@ -2726,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "c'ftdi_write_eeprom",
           "normalized": "Ptr C'ftdi_context-\u003ePtr CUChar-\u003eIO CInt",
@@ -2740,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_async_complete",
           "package": "bindings-libftdi",
@@ -2749,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_async_complete",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCInt-\u003eIO())",
@@ -2763,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_deinit",
           "package": "bindings-libftdi",
@@ -2772,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_deinit",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eIO())",
@@ -2786,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_disable_bitbang",
           "package": "bindings-libftdi",
@@ -2795,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_disable_bitbang",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eIO CInt)",
@@ -2809,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_eeprom_build",
           "package": "bindings-libftdi",
@@ -2818,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_eeprom_build",
           "normalized": "FunPtr(Ptr C'ftdi_eeprom-\u003ePtr CUChar-\u003eIO CInt)",
@@ -2832,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_eeprom_decode",
           "package": "bindings-libftdi",
@@ -2841,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_eeprom_decode",
           "normalized": "FunPtr(Ptr C'ftdi_eeprom-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt)",
@@ -2855,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_eeprom_initdefaults",
           "package": "bindings-libftdi",
@@ -2864,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_eeprom_initdefaults",
           "normalized": "FunPtr(Ptr C'ftdi_eeprom-\u003eIO())",
@@ -2878,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_eeprom_setsize",
           "package": "bindings-libftdi",
@@ -2887,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_eeprom_setsize",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr C'ftdi_eeprom-\u003eCInt-\u003eIO())",
@@ -2901,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_enable_bitbang",
           "package": "bindings-libftdi",
@@ -2910,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_enable_bitbang",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCUChar-\u003eIO CInt)",
@@ -2924,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_erase_eeprom",
           "package": "bindings-libftdi",
@@ -2933,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_erase_eeprom",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eIO CInt)",
@@ -2947,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_free",
           "package": "bindings-libftdi",
@@ -2956,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_free",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eIO())",
@@ -2970,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_get_error_string",
           "package": "bindings-libftdi",
@@ -2979,6 +3244,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_get_error_string",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eIO(Ptr CChar))",
@@ -2993,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_get_latency_timer",
           "package": "bindings-libftdi",
@@ -3002,6 +3269,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_get_latency_timer",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr CUChar-\u003eIO CInt)",
@@ -3016,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_init",
           "package": "bindings-libftdi",
@@ -3025,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_init",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eIO CInt)",
@@ -3039,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_list_free",
           "package": "bindings-libftdi",
@@ -3048,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_list_free",
           "normalized": "FunPtr(Ptr(Ptr C'ftdi_device_list)-\u003eIO())",
@@ -3062,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_list_free2",
           "package": "bindings-libftdi",
@@ -3071,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_list_free2",
           "normalized": "FunPtr(Ptr C'ftdi_device_list-\u003eIO())",
@@ -3085,6 +3359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_new",
           "package": "bindings-libftdi",
@@ -3094,6 +3369,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_new",
           "package": "bindings-libftdi",
@@ -3106,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_poll_modem_status",
           "package": "bindings-libftdi",
@@ -3115,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_poll_modem_status",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr CShort-\u003eIO CInt)",
@@ -3129,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_chipid",
           "package": "bindings-libftdi",
@@ -3138,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_chipid",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr CUInt-\u003eIO CInt)",
@@ -3152,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_data",
           "package": "bindings-libftdi",
@@ -3161,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_data",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt)",
@@ -3175,6 +3457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_data_get_chunksize",
           "package": "bindings-libftdi",
@@ -3184,6 +3467,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_data_get_chunksize",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr CUInt-\u003eIO CInt)",
@@ -3198,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_data_set_chunksize",
           "package": "bindings-libftdi",
@@ -3207,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_data_set_chunksize",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCUInt-\u003eIO CInt)",
@@ -3221,6 +3507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_eeprom",
           "package": "bindings-libftdi",
@@ -3230,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_eeprom",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr CUChar-\u003eIO CInt)",
@@ -3244,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_eeprom_getsize",
           "package": "bindings-libftdi",
@@ -3253,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_eeprom_getsize",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt)",
@@ -3267,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_pins",
           "package": "bindings-libftdi",
@@ -3276,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_read_pins",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCUChar-\u003eIO CInt)",
@@ -3290,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_baudrate",
           "package": "bindings-libftdi",
@@ -3299,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_baudrate",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCInt-\u003eIO CInt)",
@@ -3313,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_bitmode",
           "package": "bindings-libftdi",
@@ -3322,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_bitmode",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCUChar-\u003eCUChar-\u003eIO CInt)",
@@ -3336,6 +3632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_error_char",
           "package": "bindings-libftdi",
@@ -3345,6 +3642,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_error_char",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCUChar-\u003eCUChar-\u003eIO CInt)",
@@ -3359,6 +3657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_event_char",
           "package": "bindings-libftdi",
@@ -3368,6 +3667,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_event_char",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCUChar-\u003eCUChar-\u003eIO CInt)",
@@ -3382,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_interface",
           "package": "bindings-libftdi",
@@ -3391,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_interface",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eC'ftdi_interface-\u003eIO CInt)",
@@ -3405,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_latency_timer",
           "package": "bindings-libftdi",
@@ -3414,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_latency_timer",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCUChar-\u003eIO CInt)",
@@ -3428,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_line_property",
           "package": "bindings-libftdi",
@@ -3437,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_line_property",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eC'ftdi_bits_type-\u003eC'ftdi_stopbits_type-\u003eC'ftdi_parity_type-\u003eIO CInt)",
@@ -3451,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_line_property2",
           "package": "bindings-libftdi",
@@ -3460,6 +3767,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_line_property2",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eC'ftdi_bits_type-\u003eC'ftdi_stopbits_type-\u003eC'ftdi_parity_type-\u003eC'ftdi_break_type-\u003eIO CInt)",
@@ -3474,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_usbdev",
           "package": "bindings-libftdi",
@@ -3483,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_set_usbdev",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr C'usb_dev_handle-\u003eIO())",
@@ -3497,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_setdtr",
           "package": "bindings-libftdi",
@@ -3506,6 +3817,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_setdtr",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCInt-\u003eIO CInt)",
@@ -3520,6 +3832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_setdtr_rts",
           "package": "bindings-libftdi",
@@ -3529,6 +3842,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_setdtr_rts",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -3543,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_setflowctrl",
           "package": "bindings-libftdi",
@@ -3552,6 +3867,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_setflowctrl",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCInt-\u003eIO CInt)",
@@ -3566,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_setrts",
           "package": "bindings-libftdi",
@@ -3575,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_setrts",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCInt-\u003eIO CInt)",
@@ -3589,6 +3907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_close",
           "package": "bindings-libftdi",
@@ -3598,6 +3917,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_close",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eIO CInt)",
@@ -3612,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_find_all",
           "package": "bindings-libftdi",
@@ -3621,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_find_all",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr(Ptr C'ftdi_device_list)-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -3635,6 +3957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_get_strings",
           "package": "bindings-libftdi",
@@ -3644,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_get_strings",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr C'usb_device-\u003ePtr CChar-\u003eCInt-\u003ePtr CChar-\u003eCInt-\u003ePtr CChar-\u003eCInt-\u003eIO CInt)",
@@ -3658,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_open",
           "package": "bindings-libftdi",
@@ -3667,6 +3992,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_open",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -3681,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_open_desc",
           "package": "bindings-libftdi",
@@ -3690,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_open_desc",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCInt-\u003eCInt-\u003ePtr CChar-\u003ePtr CChar-\u003eIO CInt)",
@@ -3704,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_open_dev",
           "package": "bindings-libftdi",
@@ -3713,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_open_dev",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr C'usb_device-\u003eIO CInt)",
@@ -3727,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_purge_buffers",
           "package": "bindings-libftdi",
@@ -3736,6 +4067,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_purge_buffers",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eIO CInt)",
@@ -3750,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_purge_rx_buffer",
           "package": "bindings-libftdi",
@@ -3759,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_purge_rx_buffer",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eIO CInt)",
@@ -3773,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_purge_tx_buffer",
           "package": "bindings-libftdi",
@@ -3782,6 +4117,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_purge_tx_buffer",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eIO CInt)",
@@ -3796,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_reset",
           "package": "bindings-libftdi",
@@ -3805,6 +4142,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_usb_reset",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eIO CInt)",
@@ -3819,6 +4157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_write_data",
           "package": "bindings-libftdi",
@@ -3828,6 +4167,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_write_data",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr CUChar-\u003eCUInt-\u003eIO CInt)",
@@ -3842,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_write_data_async",
           "package": "bindings-libftdi",
@@ -3851,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_write_data_async",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt)",
@@ -3865,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_write_data_get_chunksize",
           "package": "bindings-libftdi",
@@ -3874,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_write_data_get_chunksize",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr CUInt-\u003eIO CInt)",
@@ -3888,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_write_data_set_chunksize",
           "package": "bindings-libftdi",
@@ -3897,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_write_data_set_chunksize",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003eCUInt-\u003eIO CInt)",
@@ -3911,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:04 UTC 2014",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_write_eeprom",
           "package": "bindings-libftdi",
@@ -3920,6 +4267,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libftdi",
+          "indexed": "2014-03-11T17:21:04",
           "module": "Bindings.Libftdi",
           "name": "p'ftdi_write_eeprom",
           "normalized": "FunPtr(Ptr C'ftdi_context-\u003ePtr CUChar-\u003eIO CInt)",

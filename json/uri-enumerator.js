@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uri-enumerator"
+        "phrase": "uri-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "Enumerator",
           "package": "uri-enumerator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "Enumerator",
           "package": "uri-enumerator",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "Scheme",
           "package": "uri-enumerator",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "Scheme",
           "package": "uri-enumerator",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "SchemeMap",
           "package": "uri-enumerator",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "SchemeMap",
           "package": "uri-enumerator",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "URI",
           "package": "uri-enumerator",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "URI",
           "package": "uri-enumerator",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "URIAuth",
           "package": "uri-enumerator",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "URIAuth",
           "package": "uri-enumerator",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "URIException",
           "package": "uri-enumerator",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "URIException",
           "package": "uri-enumerator",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "InvalidRelativeReference",
           "package": "uri-enumerator",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "InvalidRelativeReference",
           "package": "uri-enumerator",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "InvalidURI",
           "package": "uri-enumerator",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "InvalidURI",
           "package": "uri-enumerator",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "Scheme",
           "package": "uri-enumerator",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "Scheme",
           "package": "uri-enumerator",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "URI",
           "package": "uri-enumerator",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "URI",
           "package": "uri-enumerator",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "URIAuth",
           "package": "uri-enumerator",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "URIAuth",
           "package": "uri-enumerator",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "UnknownReadScheme",
           "package": "uri-enumerator",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "UnknownReadScheme",
           "package": "uri-enumerator",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "UnknownWriteScheme",
           "package": "uri-enumerator",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "UnknownWriteScheme",
           "package": "uri-enumerator",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "copyURI",
           "package": "uri-enumerator",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "copyURI",
           "normalized": "SchemeMap a-\u003eURI-\u003eURI-\u003ea()",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "fromNetworkURI",
           "package": "uri-enumerator",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "fromNetworkURI",
           "normalized": "URI-\u003eURI",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "hasExtension",
           "package": "uri-enumerator",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "hasExtension",
           "normalized": "URI-\u003eText-\u003eBool",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "nullURI",
           "package": "uri-enumerator",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "nullURI",
           "package": "uri-enumerator",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "parseRelativeReference",
           "package": "uri-enumerator",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "parseRelativeReference",
           "normalized": "Text-\u003ea URI",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "parseURI",
           "package": "uri-enumerator",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "parseURI",
           "normalized": "Text-\u003ea URI",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "parseURIReference",
           "package": "uri-enumerator",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "parseURIReference",
           "normalized": "Text-\u003ea URI",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "readURI",
           "package": "uri-enumerator",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "readURI",
           "normalized": "SchemeMap a-\u003eURI-\u003eEnumerator ByteString a b",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "relativeTo",
           "package": "uri-enumerator",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "relativeTo",
           "normalized": "URI-\u003eURI-\u003eMaybe URI",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "schemeNames",
           "package": "uri-enumerator",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "schemeNames",
           "package": "uri-enumerator",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "schemeReader",
           "package": "uri-enumerator",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "schemeReader",
           "normalized": "a b Maybe(URI-\u003eEnumerator ByteString c d)",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "schemeWriter",
           "package": "uri-enumerator",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "schemeWriter",
           "normalized": "Maybe(URI-\u003eEnumerator ByteString a()-\u003ea())",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "toNetworkURI",
           "package": "uri-enumerator",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "toNetworkURI",
           "normalized": "URI-\u003eURI",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "toSchemeMap",
           "package": "uri-enumerator",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "toSchemeMap",
           "normalized": "[Scheme a]-\u003eSchemeMap a",
@@ -630,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "uriAuthority",
           "package": "uri-enumerator",
@@ -639,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "uriAuthority",
           "package": "uri-enumerator",
@@ -652,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "uriFragment",
           "package": "uri-enumerator",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "uriFragment",
           "package": "uri-enumerator",
@@ -674,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "uriPath",
           "package": "uri-enumerator",
@@ -683,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "uriPath",
           "package": "uri-enumerator",
@@ -696,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "uriPort",
           "package": "uri-enumerator",
@@ -705,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "uriPort",
           "package": "uri-enumerator",
@@ -718,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "uriQuery",
           "package": "uri-enumerator",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "uriQuery",
           "package": "uri-enumerator",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "uriRegName",
           "package": "uri-enumerator",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "uriRegName",
           "package": "uri-enumerator",
@@ -762,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "uriScheme",
           "package": "uri-enumerator",
@@ -771,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "uriScheme",
           "package": "uri-enumerator",
@@ -784,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "uriUserInfo",
           "package": "uri-enumerator",
@@ -793,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "uriUserInfo",
           "package": "uri-enumerator",
@@ -806,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:33 UTC 2014",
           "module": "Network.URI.Enumerator",
           "name": "writeURI",
           "package": "uri-enumerator",
@@ -815,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator",
+          "indexed": "2014-03-11T20:31:33",
           "module": "Network.URI.Enumerator",
           "name": "writeURI",
           "normalized": "SchemeMap a-\u003eURI-\u003eEnumerator ByteString a()-\u003ea()",

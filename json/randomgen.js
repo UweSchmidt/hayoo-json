@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "randomgen"
+        "phrase": "randomgen",
+        "type": "phrase"
       },
       "type": "context"
     }

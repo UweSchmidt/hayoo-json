@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GenSmsPdu"
+        "phrase": "GenSmsPdu",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "literals"
+        "phrase": "literals",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "Literals",
           "package": "literals",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "Literals",
           "package": "literals",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "double",
           "package": "literals",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "double",
           "normalized": "Double-\u003eDouble",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "float",
           "package": "literals",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "float",
           "normalized": "Float-\u003eFloat",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "int",
           "package": "literals",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "int",
           "normalized": "Int-\u003eInt",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "int16",
           "package": "literals",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "int16",
           "normalized": "Int-\u003eInt",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "int32",
           "package": "literals",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "int32",
           "normalized": "Int-\u003eInt",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "int64",
           "package": "literals",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "int64",
           "normalized": "Int-\u003eInt",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "int8",
           "package": "literals",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "int8",
           "normalized": "Int-\u003eInt",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "integer",
           "package": "literals",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "integer",
           "normalized": "Integer-\u003eInteger",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "word16",
           "package": "literals",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "word16",
           "normalized": "Word-\u003eWord",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "word32",
           "package": "literals",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "word32",
           "normalized": "Word-\u003eWord",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "word64",
           "package": "literals",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "word64",
           "normalized": "Word-\u003eWord",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:56 UTC 2014",
           "module": "Data.Literals",
           "name": "word8",
           "package": "literals",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data Literals",
+          "indexed": "2014-03-11T19:10:56",
           "module": "Data.Literals",
           "name": "word8",
           "normalized": "Word-\u003eWord",

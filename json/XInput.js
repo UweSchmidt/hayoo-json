@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "XInput"
+        "phrase": "XInput",
+        "type": "phrase"
       },
       "type": "context"
     }

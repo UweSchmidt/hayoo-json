@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reactive-bacon"
+        "phrase": "reactive-bacon",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "Core",
           "package": "reactive-bacon",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "Core",
           "package": "reactive-bacon",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "Disposable",
           "package": "reactive-bacon",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "Disposable",
           "package": "reactive-bacon",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "Event",
           "package": "reactive-bacon",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "Event",
           "package": "reactive-bacon",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "EventSink",
           "package": "reactive-bacon",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "EventSink",
           "package": "reactive-bacon",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "EventSource",
           "package": "reactive-bacon",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "EventSource",
           "package": "reactive-bacon",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "EventStream",
           "package": "reactive-bacon",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "EventStream",
           "package": "reactive-bacon",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "HandleResult",
           "package": "reactive-bacon",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "HandleResult",
           "package": "reactive-bacon",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "Observable",
           "package": "reactive-bacon",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "Observable",
           "package": "reactive-bacon",
@@ -187,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReactive property. Differences from EventStream:\n   - addListener function must always deliver the latest known value to the new listener\n\u003c/p\u003e\u003cp\u003eSo a Property is roughly an EventStream that stores its latest value so\n   that it is always available for new listeners. Doesn't mean it has to be\n   up to date if it has been without listeners for a while.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "Property",
           "package": "reactive-bacon",
@@ -196,6 +213,7 @@
         "index": {
           "description": "Reactive property Differences from EventStream addListener function must always deliver the latest known value to the new listener So Property is roughly an EventStream that stores its latest value so that it is always available for new listeners Doesn mean it has to be up to date if it has been without listeners for while",
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "Property",
           "package": "reactive-bacon",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "PropertyEvent",
           "package": "reactive-bacon",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "PropertyEvent",
           "package": "reactive-bacon",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "PropertySink",
           "package": "reactive-bacon",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "PropertySink",
           "package": "reactive-bacon",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "PropertySource",
           "package": "reactive-bacon",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "PropertySource",
           "package": "reactive-bacon",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "(==\u003e)",
           "package": "reactive-bacon",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "(==\u003e) ==\u003e",
           "normalized": "a b-\u003e(b-\u003eIO())-\u003eIO()",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "(\u003e\u003e=!)",
           "package": "reactive-bacon",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "(\u003e\u003e=!) \u003e\u003e=!",
           "normalized": "IO(a b)-\u003e(b-\u003eIO())-\u003eIO()",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "End",
           "package": "reactive-bacon",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "End",
           "package": "reactive-bacon",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "EndUpdate",
           "package": "reactive-bacon",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "EndUpdate",
           "package": "reactive-bacon",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "EventStream",
           "package": "reactive-bacon",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "EventStream",
           "package": "reactive-bacon",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "Initial",
           "package": "reactive-bacon",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "Initial",
           "package": "reactive-bacon",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "More",
           "package": "reactive-bacon",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "More",
           "package": "reactive-bacon",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "Next",
           "package": "reactive-bacon",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "Next",
           "package": "reactive-bacon",
@@ -450,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "NoMore",
           "package": "reactive-bacon",
@@ -459,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "NoMore",
           "package": "reactive-bacon",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "Property",
           "package": "reactive-bacon",
@@ -481,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "Property",
           "package": "reactive-bacon",
@@ -494,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "Update",
           "package": "reactive-bacon",
@@ -503,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "Update",
           "package": "reactive-bacon",
@@ -516,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "addPropertyListener",
           "package": "reactive-bacon",
@@ -525,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "addPropertyListener",
           "normalized": "PropertySink a-\u003eIO Disposable",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "neverE",
           "package": "reactive-bacon",
@@ -549,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "neverE",
           "package": "reactive-bacon",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "obs",
           "package": "reactive-bacon",
@@ -570,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "obs",
           "normalized": "a b-\u003eEventStream b",
@@ -584,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "subscribe",
           "package": "reactive-bacon",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "subscribe",
           "normalized": "EventSink a-\u003eIO Disposable",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "toEventObserver",
           "package": "reactive-bacon",
@@ -616,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "toEventObserver",
           "normalized": "(Event a-\u003eIO())-\u003eEventSink a",
@@ -631,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "toEventStream",
           "package": "reactive-bacon",
@@ -640,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "toEventStream",
           "normalized": "a b-\u003eEventStream b",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "toObserver",
           "package": "reactive-bacon",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "toObserver",
           "normalized": "(a-\u003eIO())-\u003eEventSink a",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Core",
           "name": "toProperty",
           "package": "reactive-bacon",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Core",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Core",
           "name": "toProperty",
           "normalized": "a b-\u003eProperty b",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Combinators",
           "name": "Combinators",
           "package": "reactive-bacon",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Combinators",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Combinators",
           "name": "Combinators",
           "package": "reactive-bacon",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Combinators",
           "name": "combineLatestE",
           "package": "reactive-bacon",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Combinators",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Combinators",
           "name": "combineLatestE",
           "normalized": "a b-\u003ea c-\u003eIO(EventStream(b,c))",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Combinators",
           "name": "eitherE",
           "package": "reactive-bacon",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Combinators",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Combinators",
           "name": "eitherE",
           "normalized": "a b-\u003ea c-\u003eIO(EventStream(Either b c))",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Combinators",
           "name": "mergeE",
           "package": "reactive-bacon",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Combinators",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Combinators",
           "name": "mergeE",
           "normalized": "a b-\u003ea b-\u003eIO(EventStream b)",
@@ -794,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Combinators",
           "name": "takeUntilE",
           "package": "reactive-bacon",
@@ -803,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Combinators",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Combinators",
           "name": "takeUntilE",
           "normalized": "a b-\u003ea c-\u003eIO(EventStream c)",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.IO",
           "name": "IO",
           "package": "reactive-bacon",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream IO",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.IO",
           "name": "IO",
           "package": "reactive-bacon",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.IO",
           "name": "fromIO",
           "package": "reactive-bacon",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream IO",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.IO",
           "name": "fromIO",
           "normalized": "IO a-\u003eIO(EventStream a)",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.IO",
           "name": "fromNonStoppableProcess",
           "package": "reactive-bacon",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream IO",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.IO",
           "name": "fromNonStoppableProcess",
           "normalized": "((Event a-\u003eIO())-\u003eIO())-\u003eIO(EventStream a)",
@@ -888,6 +966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estartProcess is a function whose params are \u003ca\u003eevent sink\u003c/a\u003e and \u003ca\u003estop sign\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.IO",
           "name": "fromStoppableProcess",
           "package": "reactive-bacon",
@@ -898,6 +977,7 @@
         "index": {
           "description": "startProcess is function whose params are event sink and stop sign",
           "hierarchy": "Reactive Bacon EventStream IO",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.IO",
           "name": "fromStoppableProcess",
           "normalized": "((Event a-\u003eIO())-\u003eIO Bool-\u003eIO())-\u003eIO(EventStream a,IO())",
@@ -913,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Monadic",
           "name": "Monadic",
           "package": "reactive-bacon",
@@ -921,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Monadic",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Monadic",
           "name": "Monadic",
           "package": "reactive-bacon",
@@ -934,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Monadic",
           "name": "flatMapE",
           "package": "reactive-bacon",
@@ -943,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Monadic",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Monadic",
           "name": "flatMapE",
           "normalized": "(a-\u003eIO(EventStream b))-\u003ec a-\u003eIO(EventStream b)",
@@ -958,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Monadic",
           "name": "switchE",
           "package": "reactive-bacon",
@@ -967,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Monadic",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Monadic",
           "name": "switchE",
           "normalized": "(a-\u003eIO(EventStream b))-\u003ec a-\u003eIO(EventStream b)",
@@ -981,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "Timed",
           "package": "reactive-bacon",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Timed",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "Timed",
           "package": "reactive-bacon",
@@ -1002,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "delayE",
           "package": "reactive-bacon",
@@ -1011,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Timed",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "delayE",
           "normalized": "TimeDiff-\u003ea b-\u003eIO(EventStream b)",
@@ -1025,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "laterE",
           "package": "reactive-bacon",
@@ -1034,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Timed",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "laterE",
           "normalized": "TimeDiff-\u003ea-\u003eIO(EventStream a)",
@@ -1049,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMilliseconds to TimeDiff\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "milliseconds",
           "package": "reactive-bacon",
@@ -1059,6 +1152,7 @@
         "index": {
           "description": "Milliseconds to TimeDiff",
           "hierarchy": "Reactive Bacon EventStream Timed",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "milliseconds",
           "normalized": "a-\u003eTimeDiff",
@@ -1073,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "periodicallyE",
           "package": "reactive-bacon",
@@ -1082,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Timed",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "periodicallyE",
           "normalized": "TimeDiff-\u003ea-\u003eIO(EventStream a,Disposable)",
@@ -1097,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeconds to TimeDiff\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "seconds",
           "package": "reactive-bacon",
@@ -1107,6 +1204,7 @@
         "index": {
           "description": "Seconds to TimeDiff",
           "hierarchy": "Reactive Bacon EventStream Timed",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "seconds",
           "normalized": "a-\u003eTimeDiff",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "sequentiallyE",
           "package": "reactive-bacon",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Timed",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "sequentiallyE",
           "normalized": "TimeDiff-\u003e[a]-\u003eIO(EventStream a)",
@@ -1144,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "throttleE",
           "package": "reactive-bacon",
@@ -1153,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Timed",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "throttleE",
           "normalized": "TimeDiff-\u003ea b-\u003eIO(EventStream b)",
@@ -1167,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "timedE",
           "package": "reactive-bacon",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Timed",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "timedE",
           "normalized": "[(TimeDiff,a)]-\u003eIO(EventStream a,Disposable)",
@@ -1190,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "toMicros",
           "package": "reactive-bacon",
@@ -1199,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream Timed",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream.Timed",
           "name": "toMicros",
           "normalized": "TimeDiff-\u003eInt",
@@ -1214,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream",
           "name": "EventStream",
           "package": "reactive-bacon",
@@ -1222,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream",
           "name": "EventStream",
           "package": "reactive-bacon",
@@ -1235,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream",
           "name": "(===\u003e)",
           "package": "reactive-bacon",
@@ -1244,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream",
           "name": "(===\u003e) ===\u003e",
           "normalized": "a b-\u003e(Event b-\u003eIO())-\u003eIO()",
@@ -1258,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream",
           "name": "filterE",
           "package": "reactive-bacon",
@@ -1267,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream",
           "name": "filterE",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eIO(EventStream a)",
@@ -1281,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream",
           "name": "mapE",
           "package": "reactive-bacon",
@@ -1290,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream",
           "name": "mapE",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eIO(EventStream b)",
@@ -1304,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream",
           "name": "scanE",
           "package": "reactive-bacon",
@@ -1313,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream",
           "name": "scanE",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003eIO(EventStream a)",
@@ -1327,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream",
           "name": "sinkMap",
           "package": "reactive-bacon",
@@ -1336,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream",
           "name": "sinkMap",
           "normalized": "(EventSink a-\u003eEventSink b)-\u003ec b-\u003eEventStream a",
@@ -1351,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream",
           "name": "skipDuplicatesE",
           "package": "reactive-bacon",
@@ -1360,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream",
           "name": "skipDuplicatesE",
           "normalized": "a b-\u003eIO(EventStream b)",
@@ -1375,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream",
           "name": "stateMachineE",
           "package": "reactive-bacon",
@@ -1384,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream",
           "name": "stateMachineE",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003ed b-\u003eIO(EventStream c)",
@@ -1399,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream",
           "name": "takeE",
           "package": "reactive-bacon",
@@ -1408,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream",
           "name": "takeE",
           "normalized": "a-\u003eb c-\u003eIO(EventStream c)",
@@ -1422,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream",
           "name": "takeWhileE",
           "package": "reactive-bacon",
@@ -1431,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream",
           "name": "takeWhileE",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eIO(EventStream a)",
@@ -1446,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.EventStream",
           "name": "voidE",
           "package": "reactive-bacon",
@@ -1455,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon EventStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.EventStream",
           "name": "voidE",
           "normalized": "a b-\u003eIO(EventStream())",
@@ -1469,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Property",
           "name": "Property",
           "package": "reactive-bacon",
@@ -1477,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Property",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Property",
           "name": "Property",
           "package": "reactive-bacon",
@@ -1490,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Property",
           "name": "changesP",
           "package": "reactive-bacon",
@@ -1499,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Property",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Property",
           "name": "changesP",
           "normalized": "a b-\u003eIO(EventStream b)",
@@ -1513,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Property",
           "name": "combineP",
           "package": "reactive-bacon",
@@ -1522,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Property",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Property",
           "name": "combineP",
           "normalized": "a b-\u003ea c-\u003eProperty(b,c)",
@@ -1537,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines the values from the first source to the current value of the second source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Property",
           "name": "combineWithLatestOfP",
           "package": "reactive-bacon",
@@ -1547,6 +1682,7 @@
         "index": {
           "description": "Combines the values from the first source to the current value of the second source",
           "hierarchy": "Reactive Bacon Property",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Property",
           "name": "combineWithLatestOfP",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003eProperty c",
@@ -1562,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Property",
           "name": "combineWithP",
           "package": "reactive-bacon",
@@ -1571,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Property",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Property",
           "name": "combineWithP",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003eProperty c",
@@ -1586,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Property",
           "name": "constantP",
           "package": "reactive-bacon",
@@ -1595,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Property",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Property",
           "name": "constantP",
           "normalized": "a-\u003eProperty a",
@@ -1609,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Property",
           "name": "fromEventSource",
           "package": "reactive-bacon",
@@ -1618,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Property",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Property",
           "name": "fromEventSource",
           "normalized": "a b-\u003eIO(Property b)",
@@ -1633,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Property",
           "name": "fromEventSourceWithStartValue",
           "package": "reactive-bacon",
@@ -1642,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Property",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Property",
           "name": "fromEventSourceWithStartValue",
           "normalized": "Maybe a-\u003eb a-\u003eIO(Property a)",
@@ -1657,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Property",
           "name": "mapP",
           "package": "reactive-bacon",
@@ -1666,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Property",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Property",
           "name": "mapP",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eProperty b",
@@ -1680,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.Property",
           "name": "newPushProperty",
           "package": "reactive-bacon",
@@ -1689,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon Property",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.Property",
           "name": "newPushProperty",
           "normalized": "IO(Property a,a-\u003eIO())",
@@ -1704,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.PushStream",
           "name": "PushStream",
           "package": "reactive-bacon",
@@ -1712,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon PushStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.PushStream",
           "name": "PushStream",
           "package": "reactive-bacon",
@@ -1725,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.PushStream",
           "name": "newDispatcher",
           "package": "reactive-bacon",
@@ -1734,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon PushStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.PushStream",
           "name": "newDispatcher",
           "normalized": "((a-\u003eIO())-\u003eIO Disposable)-\u003eIO(EventStream a)",
@@ -1749,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.PushStream",
           "name": "newPushStream",
           "package": "reactive-bacon",
@@ -1758,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon PushStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.PushStream",
           "name": "newPushStream",
           "normalized": "IO(EventStream a,Event a-\u003eIO())",
@@ -1774,6 +1928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes an observable with a single connection to the underlying EventSource.\n   Automatically subscribes/unsubscribes from EventSource based on whether there\n   are any EventSinks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon.PushStream",
           "name": "wrap",
           "package": "reactive-bacon",
@@ -1784,6 +1939,7 @@
         "index": {
           "description": "Makes an observable with single connection to the underlying EventSource Automatically subscribes unsubscribes from EventSource based on whether there are any EventSinks",
           "hierarchy": "Reactive Bacon PushStream",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon.PushStream",
           "name": "wrap",
           "normalized": "a b-\u003eIO(EventStream b)",
@@ -1798,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:12 UTC 2014",
           "module": "Reactive.Bacon",
           "name": "Bacon",
           "package": "reactive-bacon",
@@ -1806,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Reactive Bacon",
+          "indexed": "2014-03-11T19:49:12",
           "module": "Reactive.Bacon",
           "name": "Bacon",
           "package": "reactive-bacon",

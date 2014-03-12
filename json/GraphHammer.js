@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GraphHammer"
+        "phrase": "GraphHammer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHomebrew HList.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "HList",
           "package": "GraphHammer",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Homebrew HList",
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "HList",
           "package": "GraphHammer",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": ":.",
           "package": "GraphHammer",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": ":.",
           "package": "GraphHammer",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "FAIL",
           "package": "GraphHammer",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "FAIL",
           "package": "GraphHammer",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "FALSE",
           "package": "GraphHammer",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "FALSE",
           "package": "GraphHammer",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "HLength",
           "package": "GraphHammer",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "HLength",
           "package": "GraphHammer",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "Nat",
           "package": "GraphHammer",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "Nat",
           "package": "GraphHammer",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "Nil",
           "package": "GraphHammer",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "Nil",
           "package": "GraphHammer",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "S",
           "package": "GraphHammer",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "S",
           "package": "GraphHammer",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "TRUE",
           "package": "GraphHammer",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "TRUE",
           "package": "GraphHammer",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "TyCast",
           "package": "GraphHammer",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "TyCast",
           "package": "GraphHammer",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "TyEq",
           "package": "GraphHammer",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "TyEq",
           "package": "GraphHammer",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "TyOr",
           "package": "GraphHammer",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "TyOr",
           "package": "GraphHammer",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "Z",
           "package": "GraphHammer",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "Z",
           "package": "GraphHammer",
@@ -290,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "fromSucc",
           "package": "GraphHammer",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "fromSucc",
           "normalized": "S a-\u003ea",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "hHead",
           "package": "GraphHammer",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "hHead",
           "normalized": "(a b)-\u003ea",
@@ -338,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "hLength",
           "package": "GraphHammer",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "hLength",
           "normalized": "a-\u003eInt",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "hTail",
           "package": "GraphHammer",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "hTail",
           "normalized": "(a b)-\u003eb",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.HList",
           "name": "natural",
           "package": "GraphHammer",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer HList",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.HList",
           "name": "natural",
           "normalized": "a-\u003eInt",
@@ -410,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines a classes to store and read info for GraphHammer edges and vertices\n information.\n\u003c/p\u003e\u003cp\u003eAlso defines instances of those classes for unit (). It is meant as a safe\n way to say \u003ca\u003eno useful information\u003c/a\u003e. Its use as an info should not incur any\n cost.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.Info",
           "name": "Info",
           "package": "GraphHammer",
@@ -419,6 +456,7 @@
         "index": {
           "description": "Defines classes to store and read info for GraphHammer edges and vertices information Also defines instances of those classes for unit It is meant as safe way to say no useful information Its use as an info should not incur any cost",
           "hierarchy": "GraphHammer Info",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.Info",
           "name": "Info",
           "package": "GraphHammer",
@@ -433,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class to store information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.Info",
           "name": "Info",
           "package": "GraphHammer",
@@ -442,6 +481,7 @@
         "index": {
           "description": "class to store information",
           "hierarchy": "GraphHammer Info",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.Info",
           "name": "Info",
           "package": "GraphHammer",
@@ -456,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class that defines \u003ca\u003earray interface\u003c/a\u003e for GraphHammer information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.Info",
           "name": "InfoArray",
           "package": "GraphHammer",
@@ -465,6 +506,7 @@
         "index": {
           "description": "class that defines array interface for GraphHammer information",
           "hierarchy": "GraphHammer Info",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.Info",
           "name": "InfoArray",
           "package": "GraphHammer",
@@ -479,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecoding process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.Info",
           "name": "decodeInfo",
           "package": "GraphHammer",
@@ -489,6 +532,7 @@
         "index": {
           "description": "Decoding process",
           "hierarchy": "GraphHammer Info",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.Info",
           "name": "decodeInfo",
           "normalized": "EncodingType a-\u003ea",
@@ -505,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA method to encode value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.Info",
           "name": "encodeInfo",
           "package": "GraphHammer",
@@ -515,6 +560,7 @@
         "index": {
           "description": "method to encode value",
           "hierarchy": "GraphHammer Info",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.Info",
           "name": "encodeInfo",
           "normalized": "a-\u003eEncodingType a",
@@ -531,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an array.\n First parameter is a length of array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.Info",
           "name": "newEncodedInfoArray",
           "package": "GraphHammer",
@@ -541,6 +588,7 @@
         "index": {
           "description": "Create an array First parameter is length of array",
           "hierarchy": "GraphHammer Info",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.Info",
           "name": "newEncodedInfoArray",
           "normalized": "a-\u003eb-\u003ec(EncodedInfoArray b a)",
@@ -557,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a value from array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.Info",
           "name": "readEncodedInfo",
           "package": "GraphHammer",
@@ -567,6 +616,7 @@
         "index": {
           "description": "Get value from array",
           "hierarchy": "GraphHammer Info",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.Info",
           "name": "readEncodedInfo",
           "normalized": "EncodedInfoArray a b-\u003ea-\u003ec b",
@@ -583,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore an encoded value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.Info",
           "name": "storeEncodedInfo",
           "package": "GraphHammer",
@@ -593,6 +644,7 @@
         "index": {
           "description": "Store an encoded value",
           "hierarchy": "GraphHammer Info",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.Info",
           "name": "storeEncodedInfo",
           "normalized": "EncodedInfoArray a b-\u003ea-\u003eb-\u003ec()",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimplest and slowest implementation for GraphHammer data structure and\n analyses combination. It is used for API prototyping. This version is\n extended with parallel execution of analyses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "SimplestParallel",
           "package": "GraphHammer",
@@ -618,6 +671,7 @@
         "index": {
           "description": "Simplest and slowest implementation for GraphHammer data structure and analyses combination It is used for API prototyping This version is extended with parallel execution of analyses",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "SimplestParallel",
           "package": "GraphHammer",
@@ -631,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": ":.",
           "package": "GraphHammer",
@@ -639,6 +694,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": ":.",
           "package": "GraphHammer",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "AnM",
           "package": "GraphHammer",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "AnM",
           "package": "GraphHammer",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "Analysis",
           "package": "GraphHammer",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "Analysis",
           "package": "GraphHammer",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "Composed",
           "package": "GraphHammer",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "Composed",
           "package": "GraphHammer",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "EnabledAnalyses",
           "package": "GraphHammer",
@@ -722,6 +785,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "EnabledAnalyses",
           "package": "GraphHammer",
@@ -735,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "EnabledAnalysis",
           "package": "GraphHammer",
@@ -743,6 +808,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "EnabledAnalysis",
           "package": "GraphHammer",
@@ -757,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation parametrized by analyses required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "GraphHammer",
           "package": "GraphHammer",
@@ -766,6 +833,7 @@
         "index": {
           "description": "representation parametrized by analyses required",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "GraphHammer",
           "package": "GraphHammer",
@@ -780,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad to operate with GraphHammer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "GraphHammerM",
           "package": "GraphHammer",
@@ -789,6 +858,7 @@
         "index": {
           "description": "Monad to operate with GraphHammer",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "GraphHammerM",
           "package": "GraphHammer",
@@ -803,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBig enough for Graph500 benchmark purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "Index",
           "package": "GraphHammer",
@@ -811,6 +882,7 @@
         "index": {
           "description": "Big enough for Graph500 benchmark purposes",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "Index",
           "package": "GraphHammer",
@@ -824,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "Nil",
           "package": "GraphHammer",
@@ -832,6 +905,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "Nil",
           "package": "GraphHammer",
@@ -845,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "RequiredAnalyses",
           "package": "GraphHammer",
@@ -853,6 +928,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "RequiredAnalyses",
           "package": "GraphHammer",
@@ -867,6 +943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (modifable) value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "Value",
           "package": "GraphHammer",
@@ -876,6 +953,7 @@
         "index": {
           "description": "modifable value",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "Value",
           "package": "GraphHammer",
@@ -890,6 +968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssigning a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "($=)",
           "package": "GraphHammer",
@@ -900,6 +979,7 @@
         "index": {
           "description": "Assigning value",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "($=) $=",
           "normalized": "Value Asgn a-\u003eValue b a-\u003eAnM c()",
@@ -914,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "(*.)",
           "package": "GraphHammer",
@@ -923,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "(*.) *.",
           "normalized": "Value a b-\u003eValue c b-\u003eValue Composed b",
@@ -937,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "(+.)",
           "package": "GraphHammer",
@@ -946,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "(+.) +.",
           "normalized": "Value a b-\u003eValue c b-\u003eValue Composed b",
@@ -960,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "(-.)",
           "package": "GraphHammer",
@@ -969,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "(-.) -.",
           "normalized": "Value a b-\u003eValue c b-\u003eValue Composed b",
@@ -983,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "(=/=)",
           "package": "GraphHammer",
@@ -992,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "(=/=) =/=",
           "normalized": "Value a b-\u003eValue c b-\u003eValue Composed Bool",
@@ -1006,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "(===)",
           "package": "GraphHammer",
@@ -1015,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "(===) ===",
           "normalized": "Value a b-\u003eValue c b-\u003eValue Composed Bool",
@@ -1029,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "anIf",
           "package": "GraphHammer",
@@ -1038,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "anIf",
           "normalized": "Value Composed Bool-\u003eAnM a b-\u003eAnM a b-\u003eAnM a b",
@@ -1053,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "basicAnalysis",
           "package": "GraphHammer",
@@ -1062,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "basicAnalysis",
           "normalized": "a-\u003e(a-\u003eValue Composed Index-\u003eValue Composed Index-\u003eAnM(a Nil)())-\u003eAnalysis(a Nil)b",
@@ -1078,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "cst",
           "package": "GraphHammer",
@@ -1088,6 +1183,7 @@
         "index": {
           "description": "Constant value",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "cst",
           "normalized": "a-\u003eValue Composed a",
@@ -1102,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "derivedAnalysis",
           "package": "GraphHammer",
@@ -1111,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "derivedAnalysis",
           "normalized": "Analysis a b-\u003ec-\u003e(c-\u003eValue Composed Index-\u003eValue Composed Index-\u003eAnM(c a)())-\u003eAnalysis(c a)b",
@@ -1126,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "divV",
           "package": "GraphHammer",
@@ -1135,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "divV",
           "normalized": "Value a b-\u003eValue c b-\u003eValue Composed b",
@@ -1150,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch analysis result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "getAnalysisResult",
           "package": "GraphHammer",
@@ -1160,6 +1261,7 @@
         "index": {
           "description": "Fetch analysis result",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "getAnalysisResult",
           "normalized": "a-\u003eValue a Index-\u003eAnM b(Value Composed Int)",
@@ -1176,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a GraphHammer structure for parallel GraphHammer processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "graphHammerNew",
           "package": "GraphHammer",
@@ -1185,6 +1288,7 @@
         "index": {
           "description": "Create GraphHammer structure for parallel GraphHammer processing",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "graphHammerNew",
           "normalized": "Int-\u003eInt-\u003eChan SendReceive-\u003eArray Int(Chan(Msg a))-\u003eIO(GraphHammer a)",
@@ -1201,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate atomically result with increment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "incrementAnalysisResult",
           "package": "GraphHammer",
@@ -1211,6 +1316,7 @@
         "index": {
           "description": "Update atomically result with increment",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "incrementAnalysisResult",
           "normalized": "a-\u003eValue a Index-\u003eValue b Int-\u003eAnM c()",
@@ -1227,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a local value and assign to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "localValue",
           "package": "GraphHammer",
@@ -1237,6 +1344,7 @@
         "index": {
           "description": "Define local value and assign to it",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "localValue",
           "normalized": "a-\u003eAnM b(Value Asgn a)",
@@ -1252,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "onEdges",
           "package": "GraphHammer",
@@ -1261,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "onEdges",
           "normalized": "Value Composed Index-\u003e(Value Composed Index-\u003eAnM a b)-\u003eAnM a b",
@@ -1277,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore analysis result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "putAnalysisResult",
           "package": "GraphHammer",
@@ -1287,6 +1398,7 @@
         "index": {
           "description": "Store analysis result",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "putAnalysisResult",
           "normalized": "a-\u003eValue a Index-\u003eValue b Int-\u003eAnM c()",
@@ -1303,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the analyses stack.\n at this momemt it's possible to run only parallelizable analyses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer.SimplestParallel",
           "name": "runAnalysesStack",
           "package": "GraphHammer",
@@ -1312,6 +1425,7 @@
         "index": {
           "description": "Run the analyses stack at this momemt it possible to run only parallelizable analyses",
           "hierarchy": "GraphHammer SimplestParallel",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer.SimplestParallel",
           "name": "runAnalysesStack",
           "normalized": "Integer-\u003eInt-\u003eIO(Maybe(UArray Int Index))-\u003eAnalysis a a-\u003eIO()",
@@ -1328,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTop level module for GraphHammer library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:42 UTC 2014",
           "module": "GraphHammer",
           "name": "GraphHammer",
           "package": "GraphHammer",
@@ -1337,6 +1452,7 @@
         "index": {
           "description": "Top level module for GraphHammer library",
           "hierarchy": "GraphHammer",
+          "indexed": "2014-03-11T16:43:42",
           "module": "GraphHammer",
           "name": "GraphHammer",
           "package": "GraphHammer",

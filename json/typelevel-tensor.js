@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "typelevel-tensor"
+        "phrase": "typelevel-tensor",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "Axis",
           "package": "typelevel-tensor",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel Axis",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "Axis",
           "package": "typelevel-tensor",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the axes belonging to the dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "all",
           "package": "typelevel-tensor",
@@ -50,6 +53,7 @@
         "index": {
           "description": "All the axes belonging to the dimension",
           "hierarchy": "Data Tensor TypeLevel Axis",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "all",
           "normalized": "Axis a-\u003e[Axis a]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the axes belonging to the dimension,               \n starting from the argument and followed by the Law of Cycles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "allFrom",
           "package": "typelevel-tensor",
@@ -75,6 +80,7 @@
         "index": {
           "description": "All the axes belonging to the dimension starting from the argument and followed by the Law of Cycles",
           "hierarchy": "Data Tensor TypeLevel Axis",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "allFrom",
           "normalized": "Axis a-\u003e[Axis a]",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dimension of the vector space the axis belongs to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "dimension",
           "package": "typelevel-tensor",
@@ -101,6 +108,7 @@
         "index": {
           "description": "The dimension of the vector space the axis belongs to",
           "hierarchy": "Data Tensor TypeLevel Axis",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "dimension",
           "normalized": "Axis a-\u003eInt",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe next axis under the Law of Cycles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "next",
           "package": "typelevel-tensor",
@@ -126,6 +135,7 @@
         "index": {
           "description": "The next axis under the Law of Cycles",
           "hierarchy": "Data Tensor TypeLevel Axis",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "next",
           "normalized": "Axis a-\u003eAxis a",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the axes belonging to the dimension but the argument itself,               \n in the order of the Law of Cycles.              \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "others",
           "package": "typelevel-tensor",
@@ -151,6 +162,7 @@
         "index": {
           "description": "All the axes belonging to the dimension but the argument itself in the order of the Law of Cycles",
           "hierarchy": "Data Tensor TypeLevel Axis",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "others",
           "normalized": "Axis a-\u003e[Axis a]",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe previous axis under the Law of Cycles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "prev",
           "package": "typelevel-tensor",
@@ -176,6 +189,7 @@
         "index": {
           "description": "The previous axis under the Law of Cycles",
           "hierarchy": "Data Tensor TypeLevel Axis",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel.Axis",
           "name": "prev",
           "normalized": "Axis a-\u003eAxis a",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA tensor algebra library. Main ingredients are :\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eVec\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e:~\u003c/a\u003e\u003c/code\u003e are data constructors for rank-1 tensor.\n This is essentially a touple of objects of the same type.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e is a class for rank-1 tensor.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eAxis\u003c/a\u003e\u003c/code\u003e is an object for accessing the tensor components.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "TypeLevel",
           "package": "typelevel-tensor",
@@ -200,6 +215,7 @@
         "index": {
           "description": "tensor algebra library Main ingredients are Vec and are data constructors for rank-1 tensor This is essentially touple of objects of the same type Vector is class for rank-1 tensor Axis is an object for accessing the tensor components",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "TypeLevel",
           "package": "typelevel-tensor",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata constructor for constructing n+1-dimensional tensor\n from n-dimensional tensor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": ":~",
           "package": "typelevel-tensor",
@@ -223,6 +240,7 @@
         "index": {
           "description": "data constructor for constructing dimensional tensor from n-dimensional tensor",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": ":~",
           "package": "typelevel-tensor",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn coordinate \u003ccode\u003e\u003ca\u003eAxis\u003c/a\u003e\u003c/code\u003e , labeled by an integer.\n Axis also carries v, the container type for its corresponding\n vector. Therefore, An axis of one type can access only vectors\n of a fixed dimension, but of arbitrary type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Axis",
           "package": "typelevel-tensor",
@@ -245,6 +264,7 @@
         "index": {
           "description": "An coordinate Axis labeled by an integer Axis also carries the container type for its corresponding vector Therefore An axis of one type can access only vectors of fixed dimension but of arbitrary type",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Axis",
           "package": "typelevel-tensor",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata constructor for 0-dimensional tensor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec",
           "package": "typelevel-tensor",
@@ -268,6 +289,7 @@
         "index": {
           "description": "data constructor for dimensional tensor",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec",
           "package": "typelevel-tensor",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonyms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec0",
           "package": "typelevel-tensor",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Type synonyms",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec0",
           "package": "typelevel-tensor",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec1",
           "package": "typelevel-tensor",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec1",
           "package": "typelevel-tensor",
@@ -325,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec10",
           "package": "typelevel-tensor",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec10",
           "package": "typelevel-tensor",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec2",
           "package": "typelevel-tensor",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec2",
           "package": "typelevel-tensor",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec3",
           "package": "typelevel-tensor",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec3",
           "package": "typelevel-tensor",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec4",
           "package": "typelevel-tensor",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec4",
           "package": "typelevel-tensor",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec5",
           "package": "typelevel-tensor",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec5",
           "package": "typelevel-tensor",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec6",
           "package": "typelevel-tensor",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec6",
           "package": "typelevel-tensor",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec7",
           "package": "typelevel-tensor",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec7",
           "package": "typelevel-tensor",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec8",
           "package": "typelevel-tensor",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec8",
           "package": "typelevel-tensor",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec9",
           "package": "typelevel-tensor",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec9",
           "package": "typelevel-tensor",
@@ -515,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn object that allows component-wise access.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vector",
           "package": "typelevel-tensor",
@@ -524,6 +569,7 @@
         "index": {
           "description": "An object that allows component-wise access",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vector",
           "package": "typelevel-tensor",
@@ -538,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVectorRing\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e whose components belongs to \u003ccode\u003e\u003ca\u003eC\u003c/a\u003e\u003c/code\u003e,\n thus providing unit vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "VectorRing",
           "package": "typelevel-tensor",
@@ -547,6 +594,7 @@
         "index": {
           "description": "VectorRing is Vector whose components belongs to thus providing unit vectors",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "VectorRing",
           "package": "typelevel-tensor",
@@ -561,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea component operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "(!)",
           "package": "typelevel-tensor",
@@ -571,6 +620,7 @@
         "index": {
           "description": "component operator",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "(!) !",
           "normalized": "a b-\u003eAxis a-\u003eb",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": ":~",
           "package": "typelevel-tensor",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": ":~",
           "package": "typelevel-tensor",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Axis",
           "package": "typelevel-tensor",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Axis",
           "package": "typelevel-tensor",
@@ -628,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec",
           "package": "typelevel-tensor",
@@ -637,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "Vec",
           "package": "typelevel-tensor",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "axisIndex",
           "package": "typelevel-tensor",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "axisIndex",
           "package": "typelevel-tensor",
@@ -673,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a component. This computation may result in a runtime error,\n though, as long as the \u003ccode\u003e\u003ca\u003eAxis\u003c/a\u003e\u003c/code\u003e is generated from library functions\n such as \u003ccode\u003e\u003ca\u003ecompose\u003c/a\u003e\u003c/code\u003e, there will be no error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "component",
           "package": "typelevel-tensor",
@@ -683,6 +742,7 @@
         "index": {
           "description": "Get component This computation may result in runtime error though as long as the Axis is generated from library functions such as compose there will be no error",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "component",
           "normalized": "Axis a-\u003ea b-\u003eb",
@@ -698,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a component within f, a context which allows failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "componentF",
           "package": "typelevel-tensor",
@@ -708,6 +769,7 @@
         "index": {
           "description": "Get component within context which allows failure",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "componentF",
           "package": "typelevel-tensor",
@@ -721,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e from a function that maps\n axis to components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "compose",
           "package": "typelevel-tensor",
@@ -731,6 +794,7 @@
         "index": {
           "description": "Create Vector from function that maps axis to components",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "compose",
           "normalized": "(Axis a-\u003eb)-\u003ea b",
@@ -746,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTensor contraction. Create a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e from a function that maps\n axis to component, then sums over the axis and returns \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "contract",
           "package": "typelevel-tensor",
@@ -756,6 +821,7 @@
         "index": {
           "description": "Tensor contraction Create Vector from function that maps axis to component then sums over the axis and returns",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "contract",
           "normalized": "(Axis a-\u003eb)-\u003eb",
@@ -771,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dimension of the vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "dimension",
           "package": "typelevel-tensor",
@@ -781,6 +848,7 @@
         "index": {
           "description": "The dimension of the vector",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "dimension",
           "normalized": "a b-\u003eInt",
@@ -796,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epure but unsafe version means of obtaining a \u003ccode\u003e\u003ca\u003eunitVector\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "unitVector",
           "package": "typelevel-tensor",
@@ -806,6 +875,7 @@
         "index": {
           "description": "pure but unsafe version means of obtaining unitVector",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "unitVector",
           "normalized": "Axis a-\u003ea b",
@@ -822,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector where \u003ccode\u003e\u003ca\u003eAxis\u003c/a\u003e\u003c/code\u003eth component is unity but others are zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "unitVectorF",
           "package": "typelevel-tensor",
@@ -832,6 +903,7 @@
         "index": {
           "description": "vector where Axis th component is unity but others are zero",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "unitVectorF",
           "normalized": "Axis a-\u003eb(a c)",
@@ -848,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec0",
           "package": "typelevel-tensor",
@@ -858,6 +931,7 @@
         "index": {
           "description": "Utility functions",
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec0",
           "package": "typelevel-tensor",
@@ -870,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec1",
           "package": "typelevel-tensor",
@@ -879,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec1",
           "normalized": "a-\u003eVec a",
@@ -893,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec10",
           "package": "typelevel-tensor",
@@ -902,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec10",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -916,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec2",
           "package": "typelevel-tensor",
@@ -925,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec2",
           "normalized": "a-\u003ea-\u003eVec a",
@@ -939,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec3",
           "package": "typelevel-tensor",
@@ -948,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec3",
           "normalized": "a-\u003ea-\u003ea-\u003eVec a",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec4",
           "package": "typelevel-tensor",
@@ -971,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec4",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -985,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec5",
           "package": "typelevel-tensor",
@@ -994,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec5",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -1008,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec6",
           "package": "typelevel-tensor",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec6",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -1031,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec7",
           "package": "typelevel-tensor",
@@ -1040,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec7",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -1054,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec8",
           "package": "typelevel-tensor",
@@ -1063,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec8",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -1077,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:11 UTC 2014",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec9",
           "package": "typelevel-tensor",
@@ -1086,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor TypeLevel",
+          "indexed": "2014-03-11T20:28:11",
           "module": "Data.Tensor.TypeLevel",
           "name": "vec9",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eVec a",

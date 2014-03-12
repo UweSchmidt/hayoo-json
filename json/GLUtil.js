@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GLUtil"
+        "phrase": "GLUtil",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for filling \u003ccode\u003e\u003ca\u003eBufferObject\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "BufferObjects",
           "package": "GLUtil",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Utilities for filling BufferObject",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "BufferObjects",
           "package": "GLUtil",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for things we know how to serialize into an OpenGL\n buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "BufferSource",
           "package": "GLUtil",
@@ -51,6 +54,7 @@
         "index": {
           "description": "class for things we know how to serialize into an OpenGL buffer",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "BufferSource",
           "package": "GLUtil",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eElementArrayBuffer\u003c/a\u003e\u003c/code\u003e from a source of \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "bufferIndices",
           "package": "GLUtil",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Create an ElementArrayBuffer from source of Word32",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "bufferIndices",
           "normalized": "a Word-\u003eIO BufferObject",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill a buffer with a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "fromByteString",
           "package": "GLUtil",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Fill buffer with ByteString",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "fromByteString",
           "normalized": "BufferTarget-\u003eByteString-\u003eIO BufferObject",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill a buffer with data from a \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e. The application\n \u003ccode\u003efromForeignPtr target len fptr\u003c/code\u003e fills a \u003ccode\u003etarget\u003c/code\u003e \u003ccode\u003e\u003ca\u003eBufferTarget\u003c/a\u003e\u003c/code\u003e\n with \u003ccode\u003elen\u003c/code\u003e elements starting from \u003ccode\u003efptr\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "fromForeignPtr",
           "package": "GLUtil",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Fill buffer with data from ForeignPtr The application fromForeignPtr target len fptr fills target BufferTarget with len elements starting from fptr",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "fromForeignPtr",
           "normalized": "BufferTarget-\u003eInt-\u003eForeignPtr a-\u003eIO BufferObject",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate and fill a \u003ccode\u003e\u003ca\u003eBufferObject\u003c/a\u003e\u003c/code\u003e with the given number of bytes\n from the supplied pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "fromPtr",
           "package": "GLUtil",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Allocate and fill BufferObject with the given number of bytes from the supplied pointer",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "fromPtr",
           "normalized": "BufferTarget-\u003eInt-\u003ePtr a-\u003eIO BufferObject",
@@ -168,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "fromSource",
           "package": "GLUtil",
@@ -177,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "fromSource",
           "normalized": "BufferTarget-\u003ea-\u003eIO BufferObject",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill a buffer with data from a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "fromVector",
           "package": "GLUtil",
@@ -203,6 +218,7 @@
         "index": {
           "description": "Fill buffer with data from Vector",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "fromVector",
           "normalized": "BufferTarget-\u003eVector a-\u003eIO BufferObject",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate and fill a \u003ccode\u003e\u003ca\u003eBufferObject\u003c/a\u003e\u003c/code\u003e from a list of \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "makeBuffer",
           "package": "GLUtil",
@@ -229,6 +246,7 @@
         "index": {
           "description": "Allocate and fill BufferObject from list of Storable",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "makeBuffer",
           "normalized": "BufferTarget-\u003e[a]-\u003eIO BufferObject",
@@ -245,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate and fill a \u003ccode\u003e\u003ca\u003eBufferObject\u003c/a\u003e\u003c/code\u003e from a list of \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003es\n whose length is explicitly given. This is useful when the list is\n of known length, as it avoids a traversal to find the length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "makeBufferLen",
           "package": "GLUtil",
@@ -255,6 +274,7 @@
         "index": {
           "description": "Allocate and fill BufferObject from list of Storable whose length is explicitly given This is useful when the list is of known length as it avoids traversal to find the length",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "makeBufferLen",
           "normalized": "BufferTarget-\u003eInt-\u003e[a]-\u003eIO BufferObject",
@@ -271,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA zero-offset \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "offset0",
           "package": "GLUtil",
@@ -281,6 +302,7 @@
         "index": {
           "description": "zero-offset Ptr",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "offset0",
           "package": "GLUtil",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e value to be used as an offset of the given number\n of bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "offsetPtr",
           "package": "GLUtil",
@@ -304,6 +327,7 @@
         "index": {
           "description": "Produce Ptr value to be used as an offset of the given number of bytes",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "offsetPtr",
           "normalized": "Int-\u003ePtr a",
@@ -320,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereplaceBuffer target elements\u003c/code\u003e replaces the buffer data attached\n to the buffer object currently bound to \u003ccode\u003etarget\u003c/code\u003e with the supplied\n list. Any previous data is deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "replaceBuffer",
           "package": "GLUtil",
@@ -330,6 +355,7 @@
         "index": {
           "description": "replaceBuffer target elements replaces the buffer data attached to the buffer object currently bound to target with the supplied list Any previous data is deleted",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "replaceBuffer",
           "normalized": "BufferTarget-\u003e[a]-\u003eIO()",
@@ -346,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereplaceVector target v\u003c/code\u003e replaces the buffer data attached to the\n buffer object currently bound to \u003ccode\u003etarget\u003c/code\u003e with the supplied\n \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e. Any previous data is deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "replaceVector",
           "package": "GLUtil",
@@ -356,6 +383,7 @@
         "index": {
           "description": "replaceVector target replaces the buffer data attached to the buffer object currently bound to target with the supplied Vector Any previous data is deleted",
           "hierarchy": "Graphics GLUtil BufferObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.BufferObjects",
           "name": "replaceVector",
           "normalized": "BufferTarget-\u003eVector a-\u003eIO()",
@@ -372,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA camera designed for 2D viewing. The camera may be translated\n perpendicular to its view direction, or rolled about its view\n direction.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "Camera2D",
           "package": "GLUtil",
@@ -381,6 +410,7 @@
         "index": {
           "description": "camera designed for viewing The camera may be translated perpendicular to its view direction or rolled about its view direction",
           "hierarchy": "Graphics GLUtil Camera2D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "Camera2D",
           "package": "GLUtil",
@@ -395,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eCamera\u003c/a\u003e\u003c/code\u003e may be translated and rotated to provide a coordinate\n frame into which 3D points may be transformed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "Camera",
           "package": "GLUtil",
@@ -404,6 +435,7 @@
         "index": {
           "description": "Camera may be translated and rotated to provide coordinate frame into which points may be transformed",
           "hierarchy": "Graphics GLUtil Camera2D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "Camera",
           "package": "GLUtil",
@@ -441,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a matrix that transforms homogenous 2D points into the\n camera's coordinate frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "camMatrix",
           "package": "GLUtil",
@@ -451,6 +484,7 @@
         "index": {
           "description": "Produce matrix that transforms homogenous points into the camera coordinate frame",
           "hierarchy": "Graphics GLUtil Camera2D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "camMatrix",
           "normalized": "Camera a-\u003eM a",
@@ -467,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a camera for 2D rendering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "camera2D",
           "package": "GLUtil",
@@ -477,6 +512,7 @@
         "index": {
           "description": "Initialize camera for rendering",
           "hierarchy": "Graphics GLUtil Camera2D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "camera2D",
           "package": "GLUtil",
@@ -604,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoll a camera view about its view direction by an angle given in\n degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "roll",
           "package": "GLUtil",
@@ -614,6 +651,7 @@
         "index": {
           "description": "Roll camera view about its view direction by an angle given in degrees",
           "hierarchy": "Graphics GLUtil Camera2D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "roll",
           "normalized": "a-\u003eCamera a-\u003eCamera a",
@@ -629,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoll a camera view about its view direction by an angle given in\n radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "rollRad",
           "package": "GLUtil",
@@ -639,6 +678,7 @@
         "index": {
           "description": "Roll camera view about its view direction by an angle given in radians",
           "hierarchy": "Graphics GLUtil Camera2D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "rollRad",
           "normalized": "a-\u003eCamera a-\u003eCamera a",
@@ -655,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the camera side-to-side or up-and-down as in a tracking shot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "track",
           "package": "GLUtil",
@@ -665,6 +706,7 @@
         "index": {
           "description": "Move the camera side-to-side or up-and-down as in tracking shot",
           "hierarchy": "Graphics GLUtil Camera2D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera2D",
           "name": "track",
           "normalized": "V a-\u003eCamera a-\u003eCamera a",
@@ -702,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eCamera\u003c/a\u003e\u003c/code\u003e represents a coordinate frame into which 3D points may\n be transformed. For rendering purposes, it is often helpful to\n combine a transformation matrix computed from a \u003ccode\u003e\u003ca\u003eCamera\u003c/a\u003e\u003c/code\u003e by\n \u003ccode\u003e\u003ca\u003ecamMatrix\u003c/a\u003e\u003c/code\u003e -- that transforms points into the camera's coordinate\n frame -- with a perspective projection matrix, as created by\n \u003ccode\u003e\u003ca\u003eprojectionMatrix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "Camera3D",
           "package": "GLUtil",
@@ -711,6 +754,7 @@
         "index": {
           "description": "Camera represents coordinate frame into which points may be transformed For rendering purposes it is often helpful to combine transformation matrix computed from Camera by camMatrix that transforms points into the camera coordinate frame with perspective projection matrix as created by projectionMatrix",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "Camera3D",
           "package": "GLUtil",
@@ -725,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eCamera\u003c/a\u003e\u003c/code\u003e may be translated and rotated to provide a coordinate\n frame into which 3D points may be transformed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "Camera",
           "package": "GLUtil",
@@ -734,6 +779,7 @@
         "index": {
           "description": "Camera may be translated and rotated to provide coordinate frame into which points may be transformed",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "Camera",
           "package": "GLUtil",
@@ -748,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a transformation matrix from a \u003ccode\u003e\u003ca\u003eCamera\u003c/a\u003e\u003c/code\u003e. This matrix\n transforms homogenous points into the camera's coordinate frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "camMatrix",
           "package": "GLUtil",
@@ -758,6 +805,7 @@
         "index": {
           "description": "Produce transformation matrix from Camera This matrix transforms homogenous points into the camera coordinate frame",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "camMatrix",
           "normalized": "Camera a-\u003eM a",
@@ -774,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a camera's position by the given vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "dolly",
           "package": "GLUtil",
@@ -784,6 +833,7 @@
         "index": {
           "description": "Translate camera position by the given vector",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "dolly",
           "normalized": "V a-\u003eCamera a-\u003eCamera a",
@@ -799,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA camera at the origin with its up-axis coincident with the\n positive Y axis. This is the convention used by \u003ca\u003efirst-person\n shooter\u003c/a\u003e (fps) video games.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "fpsCamera",
           "package": "GLUtil",
@@ -809,6 +860,7 @@
         "index": {
           "description": "camera at the origin with its up-axis coincident with the positive axis This is the convention used by first-person shooter fps video games",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "fpsCamera",
           "package": "GLUtil",
@@ -823,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePan a camera view (turn side-to-side) by an angle given in\n degrees. Panning is about the world's up-axis as captured by the\n initial camera state (e.g. the positive Y axis for \u003ccode\u003e\u003ca\u003efpsCamera\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "pan",
           "package": "GLUtil",
@@ -833,6 +886,7 @@
         "index": {
           "description": "Pan camera view turn side-to-side by an angle given in degrees Panning is about the world up-axis as captured by the initial camera state e.g the positive axis for fpsCamera",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "pan",
           "normalized": "a-\u003eCamera a-\u003eCamera a",
@@ -848,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePan a camera view (turn side-to-side) by an angle given in\n radians. Panning is about the world's up-axis as captured by the\n initial camera state (e.g. the positive Y axis for \u003ccode\u003e\u003ca\u003efpsCamera\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "panRad",
           "package": "GLUtil",
@@ -858,6 +913,7 @@
         "index": {
           "description": "Pan camera view turn side-to-side by an angle given in radians Panning is about the world up-axis as captured by the initial camera state e.g the positive axis for fpsCamera",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "panRad",
           "normalized": "a-\u003eCamera a-\u003eCamera a",
@@ -874,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprojectionMatrix fov aspect near far\u003c/code\u003e produces a perspective\n projection matrix with the specified vertical field of view (FOV),\n given in radians, aspect ratio, and near and far clipping planes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "projectionMatrix",
           "package": "GLUtil",
@@ -884,6 +941,7 @@
         "index": {
           "description": "projectionMatrix fov aspect near far produces perspective projection matrix with the specified vertical field of view FOV given in radians aspect ratio and near and far clipping planes",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "projectionMatrix",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eM a",
@@ -900,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoll a camera view about its view direction by an angle given in\n degrees. Rolling is about the camera's forward axis (e.g. the\n negative Z axis for \u003ccode\u003e\u003ca\u003efpsCamera\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "roll",
           "package": "GLUtil",
@@ -910,6 +969,7 @@
         "index": {
           "description": "Roll camera view about its view direction by an angle given in degrees Rolling is about the camera forward axis e.g the negative axis for fpsCamera",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "roll",
           "normalized": "a-\u003eCamera a-\u003eCamera a",
@@ -925,6 +985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoll a camera view about its view direction by an angle given in\n radians. Rolling is about the camera's forward axis (e.g. the\n negative Z axis for \u003ccode\u003e\u003ca\u003efpsCamera\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "rollRad",
           "package": "GLUtil",
@@ -935,6 +996,7 @@
         "index": {
           "description": "Roll camera view about its view direction by an angle given in radians Rolling is about the camera forward axis e.g the negative axis for fpsCamera",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "rollRad",
           "normalized": "a-\u003eCamera a-\u003eCamera a",
@@ -951,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA camera at the origin with its up-axis coincident with the\n positive Z axis. This is the convention used by the ROS robotics\n platform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "rosCamera",
           "package": "GLUtil",
@@ -961,6 +1024,7 @@
         "index": {
           "description": "camera at the origin with its up-axis coincident with the positive axis This is the convention used by the ROS robotics platform",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "rosCamera",
           "package": "GLUtil",
@@ -975,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTilt a camera view (up-and-down) by an angle given in degrees.\n Tilting is about the camera's horizontal axis (e.g. the positive X\n axis for \u003ccode\u003e\u003ca\u003efpsCamera\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "tilt",
           "package": "GLUtil",
@@ -985,6 +1050,7 @@
         "index": {
           "description": "Tilt camera view up-and-down by an angle given in degrees Tilting is about the camera horizontal axis e.g the positive axis for fpsCamera",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "tilt",
           "normalized": "a-\u003eCamera a-\u003eCamera a",
@@ -1000,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTilt a camera view (up-and-down) by an angle given in\n radians. Tilting is about the camera's horizontal axis (e.g. the\n positive X axis for \u003ccode\u003e\u003ca\u003efpsCamera\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "tiltRad",
           "package": "GLUtil",
@@ -1010,6 +1077,7 @@
         "index": {
           "description": "Tilt camera view up-and-down by an angle given in radians Tilting is about the camera horizontal axis e.g the positive axis for fpsCamera",
           "hierarchy": "Graphics GLUtil Camera3D",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Camera3D",
           "name": "tiltRad",
           "normalized": "a-\u003eCamera a-\u003eCamera a",
@@ -1026,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimplify common drawing commands.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Drawing",
           "name": "Drawing",
           "package": "GLUtil",
@@ -1035,6 +1104,7 @@
         "index": {
           "description": "Simplify common drawing commands",
           "hierarchy": "Graphics GLUtil Drawing",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Drawing",
           "name": "Drawing",
           "package": "GLUtil",
@@ -1049,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edrawIndexedTris n\u003c/code\u003e draws \u003ccode\u003en\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTriangles\u003c/a\u003e\u003c/code\u003e using vertex data from\n the currently bound \u003ccode\u003e\u003ca\u003eArrayBuffer\u003c/a\u003e\u003c/code\u003e and indices from the beginning of\n the currently bound \u003ccode\u003e\u003ca\u003eElementArrayBuffer\u003c/a\u003e\u003c/code\u003e. Note that there must be\n at least \u003ccode\u003en * 3\u003c/code\u003e indices in the \u003ccode\u003e\u003ca\u003eElementArrayBuffer\u003c/a\u003e\u003c/code\u003e!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Drawing",
           "name": "drawIndexedTris",
           "package": "GLUtil",
@@ -1059,6 +1130,7 @@
         "index": {
           "description": "drawIndexedTris draws Triangles using vertex data from the currently bound ArrayBuffer and indices from the beginning of the currently bound ElementArrayBuffer Note that there must be at least indices in the ElementArrayBuffer",
           "hierarchy": "Graphics GLUtil Drawing",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Drawing",
           "name": "drawIndexedTris",
           "normalized": "GLsizei-\u003eIO()",
@@ -1075,6 +1147,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMiscellaneous utilities for dealing with OpenGL errors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.GLError",
           "name": "GLError",
           "package": "GLUtil",
@@ -1084,6 +1157,7 @@
         "index": {
           "description": "Miscellaneous utilities for dealing with OpenGL errors",
           "hierarchy": "Graphics GLUtil GLError",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.GLError",
           "name": "GLError",
           "package": "GLUtil",
@@ -1098,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception type for OpenGL errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.GLError",
           "name": "GLError",
           "package": "GLUtil",
@@ -1107,6 +1182,7 @@
         "index": {
           "description": "An exception type for OpenGL errors",
           "hierarchy": "Graphics GLUtil GLError",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.GLError",
           "name": "GLError",
           "package": "GLUtil",
@@ -1121,6 +1197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck OpenGL error flags and print them on \u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.GLError",
           "name": "printError",
           "package": "GLUtil",
@@ -1131,6 +1208,7 @@
         "index": {
           "description": "Check OpenGL error flags and print them on stderr",
           "hierarchy": "Graphics GLUtil GLError",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.GLError",
           "name": "printError",
           "normalized": "IO()",
@@ -1147,6 +1225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck OpenGL error flags and print them on \u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e with the given\n message as a prefix. If there are no errors, nothing is printed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.GLError",
           "name": "printErrorMsg",
           "package": "GLUtil",
@@ -1157,6 +1236,7 @@
         "index": {
           "description": "Check OpenGL error flags and print them on stderr with the given message as prefix If there are no errors nothing is printed",
           "hierarchy": "Graphics GLUtil GLError",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.GLError",
           "name": "printErrorMsg",
           "normalized": "String-\u003eIO()",
@@ -1173,6 +1253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an exception if there is an OpenGL error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.GLError",
           "name": "throwError",
           "package": "GLUtil",
@@ -1183,6 +1264,7 @@
         "index": {
           "description": "Throw an exception if there is an OpenGL error",
           "hierarchy": "Graphics GLUtil GLError",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.GLError",
           "name": "throwError",
           "normalized": "IO()",
@@ -1199,6 +1281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an exception if there is an OpenGL error. The exception's\n error message is prefixed with the supplied \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.GLError",
           "name": "throwErrorMsg",
           "package": "GLUtil",
@@ -1209,6 +1292,7 @@
         "index": {
           "description": "Throw an exception if there is an OpenGL error The exception error message is prefixed with the supplied String",
           "hierarchy": "Graphics GLUtil GLError",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.GLError",
           "name": "throwErrorMsg",
           "normalized": "String-\u003eIO()",
@@ -1225,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUses the \u003ccode\u003eJuicyPixels\u003c/code\u003e package to load images that are then used\n to create OpenGL textuers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.JuicyTextures",
           "name": "JuicyTextures",
           "package": "GLUtil",
@@ -1234,6 +1319,7 @@
         "index": {
           "description": "Uses the JuicyPixels package to load images that are then used to create OpenGL textuers",
           "hierarchy": "Graphics GLUtil JuicyTextures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.JuicyTextures",
           "name": "JuicyTextures",
           "package": "GLUtil",
@@ -1248,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eTexInfo\u003c/a\u003e\u003c/code\u003e value from an image file, and supply it to a\n user-provided function. Supported image formats include \u003ccode\u003epng\u003c/code\u003e,\n \u003ccode\u003ejpeg\u003c/code\u003e, \u003ccode\u003ebmp\u003c/code\u003e, and \u003ccode\u003egif\u003c/code\u003e. See \u003ccode\u003e\u003ca\u003ereadTexture\u003c/a\u003e\u003c/code\u003e for most uses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.JuicyTextures",
           "name": "readTexInfo",
           "package": "GLUtil",
@@ -1258,6 +1345,7 @@
         "index": {
           "description": "Load TexInfo value from an image file and supply it to user-provided function Supported image formats include png jpeg bmp and gif See readTexture for most uses",
           "hierarchy": "Graphics GLUtil JuicyTextures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.JuicyTextures",
           "name": "readTexInfo",
           "normalized": "TexInfo a-\u003eIO b)-\u003eIO(Either String b)",
@@ -1301,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for writing \u003ca\u003eLinear\u003c/a\u003e types to uniform locations in\n shader programs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Linear",
           "name": "Linear",
           "package": "GLUtil",
@@ -1310,6 +1399,7 @@
         "index": {
           "description": "Support for writing Linear types to uniform locations in shader programs",
           "hierarchy": "Graphics GLUtil Linear",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Linear",
           "name": "Linear",
           "package": "GLUtil",
@@ -1324,6 +1414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for things we can write to uniform locations in\n shader programs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Linear",
           "name": "AsUniform",
           "package": "GLUtil",
@@ -1333,6 +1424,7 @@
         "index": {
           "description": "type class for things we can write to uniform locations in shader programs",
           "hierarchy": "Graphics GLUtil Linear",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Linear",
           "name": "AsUniform",
           "package": "GLUtil",
@@ -1346,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Linear",
           "name": "asUniform",
           "package": "GLUtil",
@@ -1355,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Linear",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Linear",
           "name": "asUniform",
           "normalized": "a-\u003eUniformLocation-\u003eIO()",
@@ -1371,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience interface for working with GLSL shader\n programs. Provides an interface for setting attributes and\n uniforms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "ShaderProgram",
           "package": "GLUtil",
@@ -1380,6 +1475,7 @@
         "index": {
           "description": "Convenience interface for working with GLSL shader programs Provides an interface for setting attributes and uniforms",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "ShaderProgram",
           "package": "GLUtil",
@@ -1394,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of a GLSL shader program that has been compiled and\n linked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "ShaderProgram",
           "package": "GLUtil",
@@ -1403,6 +1500,7 @@
         "index": {
           "description": "Representation of GLSL shader program that has been compiled and linked",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "ShaderProgram",
           "package": "GLUtil",
@@ -1416,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "ShaderProgram",
           "package": "GLUtil",
@@ -1425,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "ShaderProgram",
           "package": "GLUtil",
@@ -1438,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "attribs",
           "package": "GLUtil",
@@ -1447,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "attribs",
           "normalized": "Map String(AttribLocation,VariableType)",
@@ -1462,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable a named vertex attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "enableAttrib",
           "package": "GLUtil",
@@ -1472,6 +1575,7 @@
         "index": {
           "description": "Enable named vertex attribute",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "enableAttrib",
           "normalized": "ShaderProgram-\u003eString-\u003eIO()",
@@ -1488,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eAttribLocation\u003c/a\u003e\u003c/code\u003e associated with a named vertex\n attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "getAttrib",
           "package": "GLUtil",
@@ -1498,6 +1603,7 @@
         "index": {
           "description": "Get the AttribLocation associated with named vertex attribute",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "getAttrib",
           "normalized": "ShaderProgram-\u003eString-\u003eAttribLocation",
@@ -1514,6 +1620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eUniformLocation\u003c/a\u003e\u003c/code\u003e associated with a named uniform\n parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "getUniform",
           "package": "GLUtil",
@@ -1524,6 +1631,7 @@
         "index": {
           "description": "Get the UniformLocation associated with named uniform parameter",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "getUniform",
           "normalized": "ShaderProgram-\u003eString-\u003eUniformLocation",
@@ -1540,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e from a list of individual shader program\n files. The active attributes and uniforms in the linked program are\n recorded in the \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "loadShaderProgram",
           "package": "GLUtil",
@@ -1550,6 +1659,7 @@
         "index": {
           "description": "Load ShaderProgram from list of individual shader program files The active attributes and uniforms in the linked program are recorded in the ShaderProgram",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "loadShaderProgram",
           "normalized": "[(ShaderType,FilePath)]-\u003eIO ShaderProgram",
@@ -1566,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e from a list of individual shader program\n source strings. The active attributes and uniforms in the linked program are\n recorded in the \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "loadShaderProgramBS",
           "package": "GLUtil",
@@ -1576,6 +1687,7 @@
         "index": {
           "description": "Load ShaderProgram from list of individual shader program source strings The active attributes and uniforms in the linked program are recorded in the ShaderProgram",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "loadShaderProgramBS",
           "normalized": "[(ShaderType,ByteString)]-\u003eIO ShaderProgram",
@@ -1591,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "loadShaderProgramWith",
           "package": "GLUtil",
@@ -1600,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "loadShaderProgramWith",
           "normalized": "[(ShaderType,FilePath)]-\u003e(Program-\u003eIO())-\u003eIO ShaderProgram",
@@ -1615,6 +1729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "loadShaderProgramWithBS",
           "package": "GLUtil",
@@ -1624,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "loadShaderProgramWithBS",
           "normalized": "[(ShaderType,ByteString)]-\u003e(Program-\u003eIO())-\u003eIO ShaderProgram",
@@ -1639,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "program",
           "package": "GLUtil",
@@ -1648,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "program",
           "package": "GLUtil",
@@ -1661,6 +1779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a named vertex attribute's \u003ccode\u003e\u003ca\u003eIntegerHandling\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eVertexArrayDescriptor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "setAttrib",
           "package": "GLUtil",
@@ -1671,6 +1790,7 @@
         "index": {
           "description": "Set named vertex attribute IntegerHandling and VertexArrayDescriptor",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "setAttrib",
           "normalized": "ShaderProgram-\u003eString-\u003eIntegerHandling-\u003eVertexArrayDescriptor a-\u003eIO()",
@@ -1687,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a named uniform parameter associated with a particular shader\n program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "setUniform",
           "package": "GLUtil",
@@ -1697,6 +1818,7 @@
         "index": {
           "description": "Set named uniform parameter associated with particular shader program",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "setUniform",
           "normalized": "ShaderProgram-\u003eString-\u003ea-\u003eIO()",
@@ -1713,6 +1835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e from a vertex and fragment shader source\n files. the third argument is a tuple of the attribute names and\n uniform names that will be set in this program. If all attributes\n and uniforms are desired, consider using \u003ccode\u003e\u003ca\u003eloadShaderProgram\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderExplicit",
           "package": "GLUtil",
@@ -1723,6 +1846,7 @@
         "index": {
           "description": "Load ShaderProgram from vertex and fragment shader source files the third argument is tuple of the attribute names and uniform names that will be set in this program If all attributes and uniforms are desired consider using loadShaderProgram",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderExplicit",
           "normalized": "FilePath-\u003eFilePath-\u003e([String],[String])-\u003eIO ShaderProgram",
@@ -1738,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderExplicitBS",
           "package": "GLUtil",
@@ -1747,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderExplicitBS",
           "normalized": "ByteString-\u003eByteString-\u003e([String],[String])-\u003eIO ShaderProgram",
@@ -1763,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e from a vertex shader source file and a\n fragment shader source file. The active attributes and uniforms in\n the linked program are recorded in the \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderProgram",
           "package": "GLUtil",
@@ -1773,6 +1900,7 @@
         "index": {
           "description": "Load ShaderProgram from vertex shader source file and fragment shader source file The active attributes and uniforms in the linked program are recorded in the ShaderProgram",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderProgram",
           "normalized": "FilePath-\u003eFilePath-\u003eIO ShaderProgram",
@@ -1789,6 +1917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e from vertex and fragment shader source\n strings. The active attributes and uniforms in the linked program\n are recorded in the \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderProgramBS",
           "package": "GLUtil",
@@ -1799,6 +1928,7 @@
         "index": {
           "description": "Load ShaderProgram from vertex and fragment shader source strings The active attributes and uniforms in the linked program are recorded in the ShaderProgram",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderProgramBS",
           "normalized": "ByteString-\u003eByteString-\u003eIO ShaderProgram",
@@ -1815,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e from a vertex shader source file and a\n fragment shader source file. The active attributes and uniforms in\n the linked program are recorded in the \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e. The\n supplied \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e function is applied to the new program after shader\n objects are attached to the program, but before linking. This\n supports the use of \u003ccode\u003e\u003ca\u003ebindFragDataLocation\u003c/a\u003e\u003c/code\u003e to map fragment shader\n outputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderProgramWith",
           "package": "GLUtil",
@@ -1825,6 +1956,7 @@
         "index": {
           "description": "Load ShaderProgram from vertex shader source file and fragment shader source file The active attributes and uniforms in the linked program are recorded in the ShaderProgram The supplied IO function is applied to the new program after shader objects are attached to the program but before linking This supports the use of bindFragDataLocation to map fragment shader outputs",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderProgramWith",
           "normalized": "FilePath-\u003eFilePath-\u003e(Program-\u003eIO())-\u003eIO ShaderProgram",
@@ -1841,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eShaderProgram\u003c/a\u003e\u003c/code\u003e from vertex and fragment shader source\n strings. See \u003ccode\u003e\u003ca\u003esimpleShaderProgramWith\u003c/a\u003e\u003c/code\u003e for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderProgramWithBS",
           "package": "GLUtil",
@@ -1851,6 +1984,7 @@
         "index": {
           "description": "Load ShaderProgram from vertex and fragment shader source strings See simpleShaderProgramWith for more information",
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "simpleShaderProgramWithBS",
           "normalized": "ByteString-\u003eByteString-\u003e(Program-\u003eIO())-\u003eIO ShaderProgram",
@@ -1866,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "uniforms",
           "package": "GLUtil",
@@ -1875,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil ShaderProgram",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.ShaderProgram",
           "name": "uniforms",
           "normalized": "Map String(UniformLocation,VariableType)",
@@ -1890,6 +2026,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for working with fragment and vertex shader programs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Shaders",
           "name": "Shaders",
           "package": "GLUtil",
@@ -1899,6 +2036,7 @@
         "index": {
           "description": "Utilities for working with fragment and vertex shader programs",
           "hierarchy": "Graphics GLUtil Shaders",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Shaders",
           "name": "Shaders",
           "package": "GLUtil",
@@ -1913,6 +2051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink shaders into a \u003ccode\u003e\u003ca\u003eProgram\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Shaders",
           "name": "linkShaderProgram",
           "package": "GLUtil",
@@ -1923,6 +2062,7 @@
         "index": {
           "description": "Link shaders into Program",
           "hierarchy": "Graphics GLUtil Shaders",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Shaders",
           "name": "linkShaderProgram",
           "normalized": "[Shader]-\u003eIO Program",
@@ -1939,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink shaders into a \u003ccode\u003e\u003ca\u003eProgram\u003c/a\u003e\u003c/code\u003e with the given action performed\n after attaching shaders, but before linking the program. This is\n most commonly used to set the \u003ccode\u003e\u003ca\u003ebindFragDataLocation\u003c/a\u003e\u003c/code\u003e state\n variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Shaders",
           "name": "linkShaderProgramWith",
           "package": "GLUtil",
@@ -1949,6 +2090,7 @@
         "index": {
           "description": "Link shaders into Program with the given action performed after attaching shaders but before linking the program This is most commonly used to set the bindFragDataLocation state variable",
           "hierarchy": "Graphics GLUtil Shaders",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Shaders",
           "name": "linkShaderProgramWith",
           "normalized": "[Shader]-\u003e(Program-\u003eIO())-\u003eIO Program",
@@ -1965,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a shader program from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Shaders",
           "name": "loadShader",
           "package": "GLUtil",
@@ -1975,6 +2118,7 @@
         "index": {
           "description": "Load shader program from file",
           "hierarchy": "Graphics GLUtil Shaders",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Shaders",
           "name": "loadShader",
           "normalized": "ShaderType-\u003eFilePath-\u003eIO Shader",
@@ -1991,6 +2135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eloadShaderBS fileName shaderType src\u003c/code\u003e loads a shader from source\n code, \u003ccode\u003esrc\u003c/code\u003e. The file name is used only for error reporting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Shaders",
           "name": "loadShaderBS",
           "package": "GLUtil",
@@ -2001,6 +2146,7 @@
         "index": {
           "description": "loadShaderBS fileName shaderType src loads shader from source code src The file name is used only for error reporting",
           "hierarchy": "Graphics GLUtil Shaders",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Shaders",
           "name": "loadShaderBS",
           "normalized": "FilePath-\u003eShaderType-\u003eByteString-\u003eIO Shader",
@@ -2017,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWork with a named uniform shader parameter. Note that this looks\n up the variable name on each access, so uniform parameters that\n will be accessed frequently should instead be resolved to a\n \u003ccode\u003e\u003ca\u003eUniformLocation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Shaders",
           "name": "namedUniform",
           "package": "GLUtil",
@@ -2027,6 +2174,7 @@
         "index": {
           "description": "Work with named uniform shader parameter Note that this looks up the variable name on each access so uniform parameters that will be accessed frequently should instead be resolved to UniformLocation",
           "hierarchy": "Graphics GLUtil Shaders",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Shaders",
           "name": "namedUniform",
           "normalized": "String-\u003eStateVar a",
@@ -2043,6 +2191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a named uniform shader parameter from a nested list matrix\n representation. Only 3x3 and 4x4 matrices are supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Shaders",
           "name": "namedUniformMat",
           "package": "GLUtil",
@@ -2053,6 +2202,7 @@
         "index": {
           "description": "Set named uniform shader parameter from nested list matrix representation Only x3 and x4 matrices are supported",
           "hierarchy": "Graphics GLUtil Shaders",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Shaders",
           "name": "namedUniformMat",
           "normalized": "String-\u003eSettableStateVar[[GLfloat]]",
@@ -2069,6 +2219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a uniform shader location with a 4x4 \u003ccode\u003e\u003ca\u003eGLmatrix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Shaders",
           "name": "uniformGLMat4",
           "package": "GLUtil",
@@ -2079,6 +2230,7 @@
         "index": {
           "description": "Set uniform shader location with x4 GLmatrix",
           "hierarchy": "Graphics GLUtil Shaders",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Shaders",
           "name": "uniformGLMat4",
           "normalized": "UniformLocation-\u003eSettableStateVar(GLmatrix GLfloat)",
@@ -2095,6 +2247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a uniform shader location from a nested list matrix\n representation. Only 3x3 and 4x4 matrices are supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Shaders",
           "name": "uniformMat",
           "package": "GLUtil",
@@ -2105,6 +2258,7 @@
         "index": {
           "description": "Set uniform shader location from nested list matrix representation Only x3 and x4 matrices are supported",
           "hierarchy": "Graphics GLUtil Shaders",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Shaders",
           "name": "uniformMat",
           "normalized": "UniformLocation-\u003eSettableStateVar[[GLfloat]]",
@@ -2121,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a \u003ccode\u003e\u003ca\u003eUniformLocation\u003c/a\u003e\u003c/code\u003e to a scalar value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Shaders",
           "name": "uniformScalar",
           "package": "GLUtil",
@@ -2131,6 +2286,7 @@
         "index": {
           "description": "Set UniformLocation to scalar value",
           "hierarchy": "Graphics GLUtil Shaders",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Shaders",
           "name": "uniformScalar",
           "normalized": "UniformLocation-\u003eSettableStateVar a",
@@ -2147,6 +2303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a \u003ccode\u003e\u003ca\u003eUniformLocation\u003c/a\u003e\u003c/code\u003e from a list representation of a\n low-dimensional vector of \u003ccode\u003e\u003ca\u003eGLfloat\u003c/a\u003e\u003c/code\u003es. Only 2, 3, and 4 dimensional\n vectors are supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Shaders",
           "name": "uniformVec",
           "package": "GLUtil",
@@ -2157,6 +2314,7 @@
         "index": {
           "description": "Set UniformLocation from list representation of low-dimensional vector of GLfloat Only and dimensional vectors are supported",
           "hierarchy": "Graphics GLUtil Shaders",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Shaders",
           "name": "uniformVec",
           "normalized": "UniformLocation-\u003eSettableStateVar[GLfloat]",
@@ -2173,6 +2331,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for loading texture data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "Textures",
           "package": "GLUtil",
@@ -2182,6 +2341,7 @@
         "index": {
           "description": "Utilities for loading texture data",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "Textures",
           "package": "GLUtil",
@@ -2196,6 +2356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for containers of texture data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "IsPixelData",
           "package": "GLUtil",
@@ -2205,6 +2366,7 @@
         "index": {
           "description": "Class for containers of texture data",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "IsPixelData",
           "package": "GLUtil",
@@ -2218,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "MipMappable",
           "package": "GLUtil",
@@ -2226,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "MipMappable",
           "package": "GLUtil",
@@ -2240,6 +2404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper whose \u003ccode\u003e\u003ca\u003eIsPixelData\u003c/a\u003e\u003c/code\u003e instance treats the pointer underlying\n a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e as an array of \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "ShortString",
           "package": "GLUtil",
@@ -2249,6 +2414,7 @@
         "index": {
           "description": "Wrapper whose IsPixelData instance treats the pointer underlying ByteString as an array of Word16",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "ShortString",
           "package": "GLUtil",
@@ -2263,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel format of image data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexColor",
           "package": "GLUtil",
@@ -2272,6 +2439,7 @@
         "index": {
           "description": "Pixel format of image data",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexColor",
           "package": "GLUtil",
@@ -2286,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic texture information record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexInfo",
           "package": "GLUtil",
@@ -2295,6 +2464,7 @@
         "index": {
           "description": "basic texture information record",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexInfo",
           "package": "GLUtil",
@@ -2308,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "ShortString",
           "package": "GLUtil",
@@ -2317,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "ShortString",
           "package": "GLUtil",
@@ -2330,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexBGR",
           "package": "GLUtil",
@@ -2339,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexBGR",
           "package": "GLUtil",
@@ -2352,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexInfo",
           "package": "GLUtil",
@@ -2361,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexInfo",
           "package": "GLUtil",
@@ -2374,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexMono",
           "package": "GLUtil",
@@ -2383,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexMono",
           "package": "GLUtil",
@@ -2396,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexRG",
           "package": "GLUtil",
@@ -2405,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexRG",
           "package": "GLUtil",
@@ -2418,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexRGB",
           "package": "GLUtil",
@@ -2427,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexRGB",
           "package": "GLUtil",
@@ -2440,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexRGBA",
           "package": "GLUtil",
@@ -2449,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "TexRGBA",
           "package": "GLUtil",
@@ -2463,6 +2647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new 2D texture with uninitialized contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "freshTexture",
           "package": "GLUtil",
@@ -2473,6 +2658,7 @@
         "index": {
           "description": "Create new texture with uninitialized contents",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "freshTexture",
           "normalized": "Int-\u003eInt-\u003eTexColor-\u003ea b-\u003eIO TextureObject",
@@ -2489,6 +2675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new 2D texture with uninitialized \u003ccode\u003e\u003ca\u003eGLfloat\u003c/a\u003e\u003c/code\u003e contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "freshTextureFloat",
           "package": "GLUtil",
@@ -2499,6 +2686,7 @@
         "index": {
           "description": "Create new texture with uninitialized GLfloat contents",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "freshTextureFloat",
           "normalized": "Int-\u003eInt-\u003eTexColor-\u003eIO TextureObject",
@@ -2515,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new 2D texture with uninitialized \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "freshTextureWord8",
           "package": "GLUtil",
@@ -2525,6 +2714,7 @@
         "index": {
           "description": "Create new texture with uninitialized Word8 contents",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "freshTextureWord8",
           "normalized": "Int-\u003eInt-\u003eTexColor-\u003eIO TextureObject",
@@ -2541,6 +2731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a complete set of mipmaps for the currently bound\n texture object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "generateMipmap'",
           "package": "GLUtil",
@@ -2551,6 +2742,7 @@
         "index": {
           "description": "Generate complete set of mipmaps for the currently bound texture object",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "generateMipmap'",
           "normalized": "a-\u003eIO()",
@@ -2567,6 +2759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new 2D texture with data from a \u003ccode\u003e\u003ca\u003eTexInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "loadTexture",
           "package": "GLUtil",
@@ -2577,6 +2770,7 @@
         "index": {
           "description": "Create new texture with data from TexInfo",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "loadTexture",
           "normalized": "TexInfo a-\u003eIO TextureObject",
@@ -2593,6 +2787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a 2D texture's pixel data with data from a \u003ccode\u003e\u003ca\u003eTexInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "reloadTexture",
           "package": "GLUtil",
@@ -2603,6 +2798,7 @@
         "index": {
           "description": "Replace texture pixel data with data from TexInfo",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "reloadTexture",
           "normalized": "TextureObject-\u003eTexInfo a-\u003eIO()",
@@ -2618,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "texColor",
           "package": "GLUtil",
@@ -2627,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "texColor",
           "package": "GLUtil",
@@ -2640,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "texData",
           "package": "GLUtil",
@@ -2649,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "texData",
           "package": "GLUtil",
@@ -2662,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "texHeight",
           "package": "GLUtil",
@@ -2671,6 +2872,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "texHeight",
           "package": "GLUtil",
@@ -2685,6 +2887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for constructing a \u003ccode\u003e\u003ca\u003eTexInfo\u003c/a\u003e\u003c/code\u003e using Haskell \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es for image\n dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "texInfo",
           "package": "GLUtil",
@@ -2695,6 +2898,7 @@
         "index": {
           "description": "Helper for constructing TexInfo using Haskell Int for image dimensions",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "texInfo",
           "normalized": "Int-\u003eInt-\u003eTexColor-\u003ea-\u003eTexInfo a",
@@ -2710,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "texWidth",
           "package": "GLUtil",
@@ -2719,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "texWidth",
           "package": "GLUtil",
@@ -2733,6 +2939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet texture coordinate wrapping options for both the \u003ccode\u003e\u003ca\u003eS\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e\n dimensions of a 2D texture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "texture2DWrap",
           "package": "GLUtil",
@@ -2743,6 +2950,7 @@
         "index": {
           "description": "Set texture coordinate wrapping options for both the and dimensions of texture",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "texture2DWrap",
           "normalized": "StateVar(Repetition,Clamping)",
@@ -2759,6 +2967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet texture coordinate wrapping options for the \u003ccode\u003e\u003ca\u003eS\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e\n dimensions of a 3D texture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "texture3DWrap",
           "package": "GLUtil",
@@ -2769,6 +2978,7 @@
         "index": {
           "description": "Set texture coordinate wrapping options for the and dimensions of texture",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "texture3DWrap",
           "normalized": "StateVar(Repetition,Clamping)",
@@ -2784,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "withPixels",
           "package": "GLUtil",
@@ -2793,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "withPixels",
           "normalized": "a-\u003e(Ptr(Elem a)-\u003eIO b)-\u003eIO b",
@@ -2809,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind each of the given textures to successive texture units at\n the given \u003ccode\u003eTextureTarget\u003c/code\u003e starting with texture unit 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "withTextures",
           "package": "GLUtil",
@@ -2819,6 +3032,7 @@
         "index": {
           "description": "Bind each of the given textures to successive texture units at the given TextureTarget starting with texture unit",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "withTextures",
           "normalized": "a-\u003e[TextureObject]-\u003eIO b-\u003eIO b",
@@ -2835,6 +3049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind each of the given 2D textures to successive texture units\n starting with texture unit 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "withTextures2D",
           "package": "GLUtil",
@@ -2845,6 +3060,7 @@
         "index": {
           "description": "Bind each of the given textures to successive texture units starting with texture unit",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "withTextures2D",
           "normalized": "[TextureObject]-\u003eIO a-\u003eIO a",
@@ -2861,6 +3077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind each of the given textures to the texture unit they are\n paired with. The given action is run with these bindings, then the\n texture bindings are reset. If you don't care which texture units\n are used, consider using \u003ccode\u003e\u003ca\u003ewithTextures\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ewithTextures2D\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Textures",
           "name": "withTexturesAt",
           "package": "GLUtil",
@@ -2871,6 +3088,7 @@
         "index": {
           "description": "Bind each of the given textures to the texture unit they are paired with The given action is run with these bindings then the texture bindings are reset If you don care which texture units are used consider using withTextures or withTextures2D",
           "hierarchy": "Graphics GLUtil Textures",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Textures",
           "name": "withTexturesAt",
           "normalized": "a-\u003e[(TextureObject,GLuint)]-\u003eIO b-\u003eIO b",
@@ -2887,6 +3105,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains classes and functions to relate Haskell types\n with OpenGL DataTypes (typically used to describe the values stored\n in arrays) and VariableTypes (used as attributes and uniforms in\n GLSL programs).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "TypeMapping",
           "package": "GLUtil",
@@ -2896,6 +3115,7 @@
         "index": {
           "description": "This module contains classes and functions to relate Haskell types with OpenGL DataTypes typically used to describe the values stored in arrays and VariableTypes used as attributes and uniforms in GLSL programs",
           "hierarchy": "Graphics GLUtil TypeMapping",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "TypeMapping",
           "package": "GLUtil",
@@ -2910,6 +3130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen mapping from Haskell types to OpenGL types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "HasGLType",
           "package": "GLUtil",
@@ -2919,6 +3140,7 @@
         "index": {
           "description": "Open mapping from Haskell types to OpenGL types",
           "hierarchy": "Graphics GLUtil TypeMapping",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "HasGLType",
           "package": "GLUtil",
@@ -2933,6 +3155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from Haskell types to values of \u003ccode\u003e\u003ca\u003eVariableType\u003c/a\u003e\u003c/code\u003e. This\n defines how Haskell values may be mapped to values that may be\n bound to GLSL variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "HasVariableType",
           "package": "GLUtil",
@@ -2942,6 +3165,7 @@
         "index": {
           "description": "mapping from Haskell types to values of VariableType This defines how Haskell values may be mapped to values that may be bound to GLSL variables",
           "hierarchy": "Graphics GLUtil TypeMapping",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "HasVariableType",
           "package": "GLUtil",
@@ -2955,6 +3179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "glType",
           "package": "GLUtil",
@@ -2964,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil TypeMapping",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "glType",
           "normalized": "a-\u003eDataType",
@@ -2980,6 +3206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps each \u003ccode\u003e\u003ca\u003eVariableType\u003c/a\u003e\u003c/code\u003e to its corresponding\n \u003ccode\u003e\u003ca\u003eDataType\u003c/a\u003e\u003c/code\u003e. Typically this indicates the element type of composite\n variable types (e.g. \u003ccode\u003evariableDataType FloatVec2 = Float\u003c/code\u003e). Note\n that this is a partial mapping as we are primarily supporting the\n use of these types as inputs to GLSL programs where types such as\n Bool are not supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "variableDataType",
           "package": "GLUtil",
@@ -2990,6 +3217,7 @@
         "index": {
           "description": "Maps each VariableType to its corresponding DataType Typically this indicates the element type of composite variable types e.g variableDataType FloatVec2 Float Note that this is partial mapping as we are primarily supporting the use of these types as inputs to GLSL programs where types such as Bool are not supported",
           "hierarchy": "Graphics GLUtil TypeMapping",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "variableDataType",
           "normalized": "VariableType-\u003eDataType",
@@ -3005,6 +3233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "variableType",
           "package": "GLUtil",
@@ -3014,6 +3243,7 @@
         },
         "index": {
           "hierarchy": "Graphics GLUtil TypeMapping",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.TypeMapping",
           "name": "variableType",
           "normalized": "a-\u003eVariableType",
@@ -3030,6 +3260,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA thin layer over OpenGL 3.1+ vertex array objects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "VertexArrayObjects",
           "package": "GLUtil",
@@ -3039,6 +3270,7 @@
         "index": {
           "description": "thin layer over OpenGL vertex array objects",
           "hierarchy": "Graphics GLUtil VertexArrayObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "VertexArrayObjects",
           "package": "GLUtil",
@@ -3053,6 +3285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort alias for \u003ccode\u003e\u003ca\u003eVertexArrayObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "VAO",
           "package": "GLUtil",
@@ -3062,6 +3295,7 @@
         "index": {
           "description": "Short alias for VertexArrayObject",
           "hierarchy": "Graphics GLUtil VertexArrayObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "VAO",
           "package": "GLUtil",
@@ -3076,6 +3310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a \u003ccode\u003e\u003ca\u003eVertexArrayObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "deleteVAO",
           "package": "GLUtil",
@@ -3086,6 +3321,7 @@
         "index": {
           "description": "Delete VertexArrayObject",
           "hierarchy": "Graphics GLUtil VertexArrayObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "deleteVAO",
           "normalized": "VertexArrayObject-\u003eIO()",
@@ -3102,6 +3338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a list of \u003ccode\u003e\u003ca\u003eVertexArrayObject\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "deleteVAOs",
           "package": "GLUtil",
@@ -3112,6 +3349,7 @@
         "index": {
           "description": "Delete list of VertexArrayObject",
           "hierarchy": "Graphics GLUtil VertexArrayObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "deleteVAOs",
           "normalized": "[VertexArrayObject]-\u003eIO()",
@@ -3128,6 +3366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a \u003ccode\u003e\u003ca\u003eVertexArrayObject\u003c/a\u003e\u003c/code\u003e, and initialize it with the\n provided action. This action should bind the buffer data, index\n data (if necessary), and setup vertex attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "makeVAO",
           "package": "GLUtil",
@@ -3138,6 +3377,7 @@
         "index": {
           "description": "Allocate VertexArrayObject and initialize it with the provided action This action should bind the buffer data index data if necessary and setup vertex attributes",
           "hierarchy": "Graphics GLUtil VertexArrayObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "makeVAO",
           "normalized": "IO()-\u003eIO VertexArrayObject",
@@ -3154,6 +3394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an action with the given \u003ccode\u003e\u003ca\u003eVertexArrayObject\u003c/a\u003e\u003c/code\u003e bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "withVAO",
           "package": "GLUtil",
@@ -3164,6 +3405,7 @@
         "index": {
           "description": "Run an action with the given VertexArrayObject bound",
           "hierarchy": "Graphics GLUtil VertexArrayObjects",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.VertexArrayObjects",
           "name": "withVAO",
           "normalized": "VertexArrayObject-\u003eIO a-\u003eIO a",
@@ -3180,6 +3422,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHelpers for working with OpenGL viewports.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Viewport",
           "name": "Viewport",
           "package": "GLUtil",
@@ -3189,6 +3432,7 @@
         "index": {
           "description": "Helpers for working with OpenGL viewports",
           "hierarchy": "Graphics GLUtil Viewport",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Viewport",
           "name": "Viewport",
           "package": "GLUtil",
@@ -3203,6 +3447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewithViewport pos sz m\u003c/code\u003e runs the action \u003ccode\u003em\u003c/code\u003e after setting the\n viewport with the given \u003ccode\u003e\u003ca\u003ePosition\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSize\u003c/a\u003e\u003c/code\u003e. The viewport is\n reset to its original state after the action is run, and the result\n of the action is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil.Viewport",
           "name": "withViewport",
           "package": "GLUtil",
@@ -3213,6 +3458,7 @@
         "index": {
           "description": "withViewport pos sz runs the action after setting the viewport with the given Position and Size The viewport is reset to its original state after the action is run and the result of the action is returned",
           "hierarchy": "Graphics GLUtil Viewport",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil.Viewport",
           "name": "withViewport",
           "normalized": "Position-\u003eSize-\u003eIO a-\u003eIO a",
@@ -3229,6 +3475,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main import that simply re-exports the various modules that\n make up the \u003ccode\u003eGLUtil\u003c/code\u003e library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil",
           "name": "GLUtil",
           "package": "GLUtil",
@@ -3238,6 +3485,7 @@
         "index": {
           "description": "The main import that simply re-exports the various modules that make up the GLUtil library",
           "hierarchy": "Graphics GLUtil",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil",
           "name": "GLUtil",
           "package": "GLUtil",
@@ -3252,6 +3500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:31 UTC 2014",
           "module": "Graphics.GLUtil",
           "name": "Word32",
           "package": "GLUtil",
@@ -3260,6 +3509,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Graphics GLUtil",
+          "indexed": "2014-03-11T16:42:31",
           "module": "Graphics.GLUtil",
           "name": "Word32",
           "package": "GLUtil",

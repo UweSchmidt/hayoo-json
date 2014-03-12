@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-svm"
+        "phrase": "bindings-svm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "SVM",
           "package": "bindings-svm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "SVM",
           "package": "bindings-svm",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "C'svm_model",
           "package": "bindings-svm",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "C'svm_model",
           "package": "bindings-svm",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "C'svm_node",
           "package": "bindings-svm",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "C'svm_node",
           "package": "bindings-svm",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "C'svm_parameter",
           "package": "bindings-svm",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "C'svm_parameter",
           "package": "bindings-svm",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "C'svm_problem",
           "package": "bindings-svm",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "C'svm_problem",
           "package": "bindings-svm",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "C'svm_model",
           "package": "bindings-svm",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "C'svm_model",
           "package": "bindings-svm",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "C'svm_node",
           "package": "bindings-svm",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "C'svm_node",
           "package": "bindings-svm",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "C'svm_parameter",
           "package": "bindings-svm",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "C'svm_parameter",
           "package": "bindings-svm",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "C'svm_problem",
           "package": "bindings-svm",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "C'svm_problem",
           "package": "bindings-svm",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'C_SVC",
           "package": "bindings-svm",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'C_SVC",
           "package": "bindings-svm",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'EPSILON_SVR",
           "package": "bindings-svm",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'EPSILON_SVR",
           "package": "bindings-svm",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'LINEAR",
           "package": "bindings-svm",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'LINEAR",
           "package": "bindings-svm",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'NU_SVC",
           "package": "bindings-svm",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'NU_SVC",
           "package": "bindings-svm",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'NU_SVR",
           "package": "bindings-svm",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'NU_SVR",
           "package": "bindings-svm",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'ONE_CLASS",
           "package": "bindings-svm",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'ONE_CLASS",
           "package": "bindings-svm",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'POLY",
           "package": "bindings-svm",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'POLY",
           "package": "bindings-svm",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'PRECOMPUTED",
           "package": "bindings-svm",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'PRECOMPUTED",
           "package": "bindings-svm",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'RBF",
           "package": "bindings-svm",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'RBF",
           "package": "bindings-svm",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'SIGMOID",
           "package": "bindings-svm",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'SIGMOID",
           "package": "bindings-svm",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_check_parameter",
           "package": "bindings-svm",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_check_parameter",
           "normalized": "Ptr C'svm_problem-\u003ePtr C'svm_parameter-\u003eIO CString",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_check_probability_model",
           "package": "bindings-svm",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_check_probability_model",
           "normalized": "Ptr C'svm_model-\u003eIO CInt",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_cross_validation",
           "package": "bindings-svm",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_cross_validation",
           "normalized": "Ptr C'svm_problem-\u003ePtr C'svm_parameter-\u003eCInt-\u003ePtr CDouble-\u003eIO()",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_destroy_param",
           "package": "bindings-svm",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_destroy_param",
           "normalized": "Ptr C'svm_parameter-\u003eIO()",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_free_and_destroy_model",
           "package": "bindings-svm",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_free_and_destroy_model",
           "normalized": "Ptr(Ptr C'svm_model)-\u003eIO()",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_free_model_content",
           "package": "bindings-svm",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_free_model_content",
           "normalized": "Ptr C'svm_model-\u003eIO()",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_get_labels",
           "package": "bindings-svm",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_get_labels",
           "normalized": "Ptr C'svm_model-\u003ePtr CInt-\u003eIO()",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_get_nr_class",
           "package": "bindings-svm",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_get_nr_class",
           "normalized": "Ptr C'svm_model-\u003eIO CInt",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_get_svm_type",
           "package": "bindings-svm",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_get_svm_type",
           "normalized": "Ptr C'svm_model-\u003eIO CInt",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_get_svr_probability",
           "package": "bindings-svm",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_get_svr_probability",
           "normalized": "Ptr C'svm_model-\u003eIO CDouble",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_load_model",
           "package": "bindings-svm",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_load_model",
           "normalized": "CString-\u003eIO(Ptr C'svm_model)",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_model'SV",
           "package": "bindings-svm",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_model'SV",
           "package": "bindings-svm",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_model'free_sv",
           "package": "bindings-svm",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_model'free_sv",
           "package": "bindings-svm",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_model'l",
           "package": "bindings-svm",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_model'l",
           "package": "bindings-svm",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_model'label",
           "package": "bindings-svm",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_model'label",
           "package": "bindings-svm",
@@ -769,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_model'nSV",
           "package": "bindings-svm",
@@ -778,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_model'nSV",
           "package": "bindings-svm",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_model'nr_class",
           "package": "bindings-svm",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_model'nr_class",
           "package": "bindings-svm",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_model'param",
           "package": "bindings-svm",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_model'param",
           "package": "bindings-svm",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_model'probA",
           "package": "bindings-svm",
@@ -842,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_model'probA",
           "package": "bindings-svm",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_model'probB",
           "package": "bindings-svm",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_model'probB",
           "package": "bindings-svm",
@@ -875,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_model'rho",
           "package": "bindings-svm",
@@ -884,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_model'rho",
           "package": "bindings-svm",
@@ -896,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_model'sv_coef",
           "package": "bindings-svm",
@@ -905,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_model'sv_coef",
           "package": "bindings-svm",
@@ -917,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_node'index",
           "package": "bindings-svm",
@@ -926,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_node'index",
           "package": "bindings-svm",
@@ -938,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_node'value",
           "package": "bindings-svm",
@@ -947,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_node'value",
           "package": "bindings-svm",
@@ -959,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'C",
           "package": "bindings-svm",
@@ -968,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'C",
           "package": "bindings-svm",
@@ -980,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'cache_size",
           "package": "bindings-svm",
@@ -989,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'cache_size",
           "package": "bindings-svm",
@@ -1001,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'coef0",
           "package": "bindings-svm",
@@ -1010,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'coef0",
           "package": "bindings-svm",
@@ -1022,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'degree",
           "package": "bindings-svm",
@@ -1031,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'degree",
           "package": "bindings-svm",
@@ -1043,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'eps",
           "package": "bindings-svm",
@@ -1052,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'eps",
           "package": "bindings-svm",
@@ -1064,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'gamma",
           "package": "bindings-svm",
@@ -1073,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'gamma",
           "package": "bindings-svm",
@@ -1085,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'kernel_type",
           "package": "bindings-svm",
@@ -1094,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'kernel_type",
           "package": "bindings-svm",
@@ -1106,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'nr_weight",
           "package": "bindings-svm",
@@ -1115,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'nr_weight",
           "package": "bindings-svm",
@@ -1127,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'nu",
           "package": "bindings-svm",
@@ -1136,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'nu",
           "package": "bindings-svm",
@@ -1148,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'p",
           "package": "bindings-svm",
@@ -1157,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'p",
           "package": "bindings-svm",
@@ -1169,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'probability",
           "package": "bindings-svm",
@@ -1178,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'probability",
           "package": "bindings-svm",
@@ -1190,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'shrinking",
           "package": "bindings-svm",
@@ -1199,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'shrinking",
           "package": "bindings-svm",
@@ -1211,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'svm_type",
           "package": "bindings-svm",
@@ -1220,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'svm_type",
           "package": "bindings-svm",
@@ -1232,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'weight",
           "package": "bindings-svm",
@@ -1241,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'weight",
           "package": "bindings-svm",
@@ -1253,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'weight_label",
           "package": "bindings-svm",
@@ -1262,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_parameter'weight_label",
           "package": "bindings-svm",
@@ -1274,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_predict",
           "package": "bindings-svm",
@@ -1283,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_predict",
           "normalized": "Ptr C'svm_model-\u003ePtr C'svm_node-\u003eIO CDouble",
@@ -1297,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_predict_probability",
           "package": "bindings-svm",
@@ -1306,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_predict_probability",
           "normalized": "Ptr C'svm_model-\u003ePtr C'svm_node-\u003ePtr CDouble-\u003eIO CDouble",
@@ -1320,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_predict_values",
           "package": "bindings-svm",
@@ -1329,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_predict_values",
           "normalized": "Ptr C'svm_model-\u003ePtr C'svm_node-\u003ePtr CDouble-\u003eIO()",
@@ -1343,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_problem'l",
           "package": "bindings-svm",
@@ -1352,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_problem'l",
           "package": "bindings-svm",
@@ -1364,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_problem'x",
           "package": "bindings-svm",
@@ -1373,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_problem'x",
           "package": "bindings-svm",
@@ -1385,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_problem'y",
           "package": "bindings-svm",
@@ -1394,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_problem'y",
           "package": "bindings-svm",
@@ -1406,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_save_model",
           "package": "bindings-svm",
@@ -1415,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_save_model",
           "normalized": "CString-\u003ePtr C'svm_model-\u003eIO()",
@@ -1429,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_set_print_string_function",
           "package": "bindings-svm",
@@ -1438,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_set_print_string_function",
           "normalized": "FunPtr(CString-\u003eIO())-\u003eIO()",
@@ -1452,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "c'svm_train",
           "package": "bindings-svm",
@@ -1461,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "c'svm_train",
           "normalized": "Ptr C'svm_problem-\u003ePtr C'svm_parameter-\u003eIO(Ptr C'svm_model)",
@@ -1475,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'libsvm_version",
           "package": "bindings-svm",
@@ -1484,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'libsvm_version",
           "package": "bindings-svm",
@@ -1496,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_check_parameter",
           "package": "bindings-svm",
@@ -1505,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_check_parameter",
           "normalized": "FunPtr(Ptr C'svm_problem-\u003ePtr C'svm_parameter-\u003eIO CString)",
@@ -1519,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_check_probability_model",
           "package": "bindings-svm",
@@ -1528,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_check_probability_model",
           "normalized": "FunPtr(Ptr C'svm_model-\u003eIO CInt)",
@@ -1542,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_cross_validation",
           "package": "bindings-svm",
@@ -1551,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_cross_validation",
           "normalized": "FunPtr(Ptr C'svm_problem-\u003ePtr C'svm_parameter-\u003eCInt-\u003ePtr CDouble-\u003eIO())",
@@ -1565,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_destroy_param",
           "package": "bindings-svm",
@@ -1574,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_destroy_param",
           "normalized": "FunPtr(Ptr C'svm_parameter-\u003eIO())",
@@ -1588,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_free_and_destroy_model",
           "package": "bindings-svm",
@@ -1597,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_free_and_destroy_model",
           "normalized": "FunPtr(Ptr(Ptr C'svm_model)-\u003eIO())",
@@ -1611,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_free_model_content",
           "package": "bindings-svm",
@@ -1620,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_free_model_content",
           "normalized": "FunPtr(Ptr C'svm_model-\u003eIO())",
@@ -1634,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_get_labels",
           "package": "bindings-svm",
@@ -1643,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_get_labels",
           "normalized": "FunPtr(Ptr C'svm_model-\u003ePtr CInt-\u003eIO())",
@@ -1657,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_get_nr_class",
           "package": "bindings-svm",
@@ -1666,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_get_nr_class",
           "normalized": "FunPtr(Ptr C'svm_model-\u003eIO CInt)",
@@ -1680,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_get_svm_type",
           "package": "bindings-svm",
@@ -1689,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_get_svm_type",
           "normalized": "FunPtr(Ptr C'svm_model-\u003eIO CInt)",
@@ -1703,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_get_svr_probability",
           "package": "bindings-svm",
@@ -1712,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_get_svr_probability",
           "normalized": "FunPtr(Ptr C'svm_model-\u003eIO CDouble)",
@@ -1726,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_load_model",
           "package": "bindings-svm",
@@ -1735,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_load_model",
           "normalized": "FunPtr(CString-\u003eIO(Ptr C'svm_model))",
@@ -1749,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_model'SV",
           "package": "bindings-svm",
@@ -1758,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_model'SV",
           "normalized": "Ptr C'svm_model-\u003ePtr(Ptr(Ptr C'svm_node))",
@@ -1773,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_model'free_sv",
           "package": "bindings-svm",
@@ -1782,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_model'free_sv",
           "normalized": "Ptr C'svm_model-\u003ePtr CInt",
@@ -1796,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_model'l",
           "package": "bindings-svm",
@@ -1805,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_model'l",
           "normalized": "Ptr C'svm_model-\u003ePtr CInt",
@@ -1819,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_model'label",
           "package": "bindings-svm",
@@ -1828,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_model'label",
           "normalized": "Ptr C'svm_model-\u003ePtr(Ptr CInt)",
@@ -1842,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_model'nSV",
           "package": "bindings-svm",
@@ -1851,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_model'nSV",
           "normalized": "Ptr C'svm_model-\u003ePtr(Ptr CInt)",
@@ -1866,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_model'nr_class",
           "package": "bindings-svm",
@@ -1875,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_model'nr_class",
           "normalized": "Ptr C'svm_model-\u003ePtr CInt",
@@ -1889,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_model'param",
           "package": "bindings-svm",
@@ -1898,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_model'param",
           "normalized": "Ptr C'svm_model-\u003ePtr C'svm_parameter",
@@ -1912,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_model'probA",
           "package": "bindings-svm",
@@ -1921,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_model'probA",
           "normalized": "Ptr C'svm_model-\u003ePtr(Ptr CDouble)",
@@ -1935,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_model'probB",
           "package": "bindings-svm",
@@ -1944,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_model'probB",
           "normalized": "Ptr C'svm_model-\u003ePtr(Ptr CDouble)",
@@ -1958,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_model'rho",
           "package": "bindings-svm",
@@ -1967,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_model'rho",
           "normalized": "Ptr C'svm_model-\u003ePtr(Ptr CDouble)",
@@ -1981,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_model'sv_coef",
           "package": "bindings-svm",
@@ -1990,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_model'sv_coef",
           "normalized": "Ptr C'svm_model-\u003ePtr(Ptr(Ptr CDouble))",
@@ -2004,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_node'index",
           "package": "bindings-svm",
@@ -2013,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_node'index",
           "normalized": "Ptr C'svm_node-\u003ePtr CInt",
@@ -2027,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_node'value",
           "package": "bindings-svm",
@@ -2036,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_node'value",
           "normalized": "Ptr C'svm_node-\u003ePtr CDouble",
@@ -2050,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'C",
           "package": "bindings-svm",
@@ -2059,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'C",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CDouble",
@@ -2073,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'cache_size",
           "package": "bindings-svm",
@@ -2082,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'cache_size",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CDouble",
@@ -2096,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'coef0",
           "package": "bindings-svm",
@@ -2105,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'coef0",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CDouble",
@@ -2119,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'degree",
           "package": "bindings-svm",
@@ -2128,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'degree",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CInt",
@@ -2142,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'eps",
           "package": "bindings-svm",
@@ -2151,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'eps",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CDouble",
@@ -2165,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'gamma",
           "package": "bindings-svm",
@@ -2174,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'gamma",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CDouble",
@@ -2188,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'kernel_type",
           "package": "bindings-svm",
@@ -2197,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'kernel_type",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CInt",
@@ -2211,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'nr_weight",
           "package": "bindings-svm",
@@ -2220,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'nr_weight",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CInt",
@@ -2234,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'nu",
           "package": "bindings-svm",
@@ -2243,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'nu",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CDouble",
@@ -2257,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'p",
           "package": "bindings-svm",
@@ -2266,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'p",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CDouble",
@@ -2280,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'probability",
           "package": "bindings-svm",
@@ -2289,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'probability",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CInt",
@@ -2303,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'shrinking",
           "package": "bindings-svm",
@@ -2312,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'shrinking",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CInt",
@@ -2326,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'svm_type",
           "package": "bindings-svm",
@@ -2335,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'svm_type",
           "normalized": "Ptr C'svm_parameter-\u003ePtr CInt",
@@ -2349,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'weight",
           "package": "bindings-svm",
@@ -2358,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'weight",
           "normalized": "Ptr C'svm_parameter-\u003ePtr(Ptr CDouble)",
@@ -2372,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'weight_label",
           "package": "bindings-svm",
@@ -2381,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_parameter'weight_label",
           "normalized": "Ptr C'svm_parameter-\u003ePtr(Ptr CInt)",
@@ -2395,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_predict",
           "package": "bindings-svm",
@@ -2404,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_predict",
           "normalized": "FunPtr(Ptr C'svm_model-\u003ePtr C'svm_node-\u003eIO CDouble)",
@@ -2418,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_predict_probability",
           "package": "bindings-svm",
@@ -2427,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_predict_probability",
           "normalized": "FunPtr(Ptr C'svm_model-\u003ePtr C'svm_node-\u003ePtr CDouble-\u003eIO CDouble)",
@@ -2441,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_predict_values",
           "package": "bindings-svm",
@@ -2450,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_predict_values",
           "normalized": "FunPtr(Ptr C'svm_model-\u003ePtr C'svm_node-\u003ePtr CDouble-\u003eIO())",
@@ -2464,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_problem'l",
           "package": "bindings-svm",
@@ -2473,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_problem'l",
           "normalized": "Ptr C'svm_problem-\u003ePtr CInt",
@@ -2487,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_problem'x",
           "package": "bindings-svm",
@@ -2496,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_problem'x",
           "normalized": "Ptr C'svm_problem-\u003ePtr(Ptr(Ptr C'svm_node))",
@@ -2510,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_problem'y",
           "package": "bindings-svm",
@@ -2519,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_problem'y",
           "normalized": "Ptr C'svm_problem-\u003ePtr(Ptr CDouble)",
@@ -2533,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_save_model",
           "package": "bindings-svm",
@@ -2542,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_save_model",
           "normalized": "FunPtr(CString-\u003ePtr C'svm_model-\u003eIO())",
@@ -2556,6 +2784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_set_print_string_function",
           "package": "bindings-svm",
@@ -2565,6 +2794,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_set_print_string_function",
           "normalized": "FunPtr(FunPtr(CString-\u003eIO())-\u003eIO())",
@@ -2579,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:52 UTC 2014",
           "module": "Bindings.SVM",
           "name": "p'svm_train",
           "package": "bindings-svm",
@@ -2588,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Bindings SVM",
+          "indexed": "2014-03-11T17:21:52",
           "module": "Bindings.SVM",
           "name": "p'svm_train",
           "normalized": "FunPtr(Ptr C'svm_problem-\u003ePtr C'svm_parameter-\u003eIO(Ptr C'svm_model))",

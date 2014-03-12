@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsparklines"
+        "phrase": "hsparklines",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreated     : 2008-02-26\n Version     : 0.1\n\u003c/p\u003e\u003cp\u003eSparklines implementation in Haskell.  Sparklines are\n mini graphs inspired by Edward Tufte.\n\u003c/p\u003e\u003cpre\u003e dp :: [Float]\n dp = [24,21,32.3,24,15,34,43,55,57,72,74,75,73,72,55,44]\n\n make barSpark dp \u003e\u003e= savePngFile \"bar_spark.png\"\n\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "HSparklines",
           "package": "hsparklines",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Created Version Sparklines implementation in Haskell Sparklines are mini graphs inspired by Edward Tufte dp Float dp make barSpark dp savePngFile bar spark.png",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "HSparklines",
           "package": "hsparklines",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "SparkOptions",
           "package": "hsparklines",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "SparkOptions",
           "package": "hsparklines",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "BarOptions",
           "package": "hsparklines",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "BarOptions",
           "package": "hsparklines",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "SmoothOptions",
           "package": "hsparklines",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "SmoothOptions",
           "package": "hsparklines",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "barSpark",
           "package": "hsparklines",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "barSpark",
           "package": "hsparklines",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebackground color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "bgColor",
           "package": "hsparklines",
@@ -139,6 +150,7 @@
         "index": {
           "description": "background color",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "bgColor",
           "package": "hsparklines",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "encodePngAsDataUrl",
           "package": "hsparklines",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "encodePngAsDataUrl",
           "normalized": "Image-\u003eIO String",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egraph height (pixels)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "height",
           "package": "hsparklines",
@@ -187,6 +202,7 @@
         "index": {
           "description": "graph height pixels",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "height",
           "package": "hsparklines",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolor of last datapoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "lastColor",
           "package": "hsparklines",
@@ -210,6 +227,7 @@
         "index": {
           "description": "color of last datapoint",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "lastColor",
           "package": "hsparklines",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisplay last marker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "lastMarker",
           "package": "hsparklines",
@@ -234,6 +253,7 @@
         "index": {
           "description": "display last marker",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "lastMarker",
           "package": "hsparklines",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata point limits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "limits",
           "package": "hsparklines",
@@ -258,6 +279,7 @@
         "index": {
           "description": "data point limits",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "limits",
           "normalized": "(Int,Int)",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "make",
           "package": "hsparklines",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "make",
           "normalized": "SparkOptions-\u003e[Float]-\u003eIO Image",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolor of maximum datapoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "maxColor",
           "package": "hsparklines",
@@ -306,6 +331,7 @@
         "index": {
           "description": "color of maximum datapoint",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "maxColor",
           "package": "hsparklines",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisplay maximum marker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "maxMarker",
           "package": "hsparklines",
@@ -330,6 +357,7 @@
         "index": {
           "description": "display maximum marker",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "maxMarker",
           "package": "hsparklines",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolor of minimum datapoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "minColor",
           "package": "hsparklines",
@@ -354,6 +383,7 @@
         "index": {
           "description": "color of minimum datapoint",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "minColor",
           "package": "hsparklines",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisplay minimum marker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "minMarker",
           "package": "hsparklines",
@@ -378,6 +409,7 @@
         "index": {
           "description": "display minimum marker",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "minMarker",
           "package": "hsparklines",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "rgb",
           "package": "hsparklines",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "rgb",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eColor",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image as a PNG file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "savePngFile",
           "package": "hsparklines",
@@ -423,6 +458,7 @@
         "index": {
           "description": "Save an image as PNG file",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "savePngFile",
           "normalized": "FilePath-\u003eImage-\u003eIO()",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "smoothSpark",
           "package": "hsparklines",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "smoothSpark",
           "package": "hsparklines",
@@ -461,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estep size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:36 UTC 2014",
           "module": "Graphics.Rendering.HSparklines",
           "name": "step",
           "package": "hsparklines",
@@ -471,6 +510,7 @@
         "index": {
           "description": "step size",
           "hierarchy": "Graphics Rendering HSparklines",
+          "indexed": "2014-03-11T18:49:36",
           "module": "Graphics.Rendering.HSparklines",
           "name": "step",
           "package": "hsparklines",

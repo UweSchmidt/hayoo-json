@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bit-vector"
+        "phrase": "bit-vector",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "Bit",
           "package": "bit-vector",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "Bit",
           "package": "bit-vector",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBitVector\u003c/a\u003e\u003c/code\u003e is a little-endian \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e of\n \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "BitVector",
           "package": "bit-vector",
@@ -49,6 +52,7 @@
         "index": {
           "description": "BitVector is little-endian Vector of Bool",
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "BitVector",
           "package": "bit-vector",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eBitVector\u003c/a\u003e\u003c/code\u003e to an instance of \u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "pack",
           "package": "bit-vector",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Converts BitVector to an instance of Bits",
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "pack",
           "normalized": "BitVector-\u003ea",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "packInt",
           "package": "bit-vector",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "packInt",
           "normalized": "BitVector-\u003eInt",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "packInteger",
           "package": "bit-vector",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "packInteger",
           "normalized": "BitVector-\u003eInteger",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePads a \u003ccode\u003e\u003ca\u003eBitVector\u003c/a\u003e\u003c/code\u003e to the specified length by adding a vector of\n \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e values to the most-significant end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "pad",
           "package": "bit-vector",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Pads BitVector to the specified length by adding vector of False values to the most-significant end",
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "pad",
           "normalized": "Int-\u003eBitVector-\u003eBitVector",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePads two \u003ccode\u003e\u003ca\u003eBitVector\u003c/a\u003e\u003c/code\u003es to the length of the longest vector. If the\n vectors are the same length, \u003ccode\u003e\u003ca\u003epadMax\u003c/a\u003e\u003c/code\u003e does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "padMax",
           "package": "bit-vector",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Pads two BitVector to the length of the longest vector If the vectors are the same length padMax does nothing",
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "padMax",
           "normalized": "BitVector-\u003eBitVector-\u003e(BitVector,BitVector)",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscards any \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e values at the most-significant end of the\n given \u003ccode\u003e\u003ca\u003eBitVector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "trimLeading",
           "package": "bit-vector",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Discards any False values at the most-significant end of the given BitVector",
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "trimLeading",
           "normalized": "BitVector-\u003eBitVector",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an instance of \u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eBitVector\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e this uses \u003ccode\u003e\u003ca\u003ebitSize\u003c/a\u003e\u003c/code\u003e, and will not work for instances which\n do not implement this method, notably \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e. To unpack\n \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e values, use \u003ccode\u003e\u003ca\u003eunpackInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "unpack",
           "package": "bit-vector",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Converts an instance of Bits to BitVector Note this uses bitSize and will not work for instances which do not implement this method notably Integer To unpack Integer values use unpackInteger",
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "unpack",
           "normalized": "a-\u003eBitVector",
@@ -237,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "unpackInt",
           "package": "bit-vector",
@@ -246,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "unpackInt",
           "normalized": "Int-\u003eBitVector",
@@ -261,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "unpackInteger",
           "package": "bit-vector",
@@ -270,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "unpackInteger",
           "normalized": "Integer-\u003eBitVector",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e, except pads the vectors to equal length\n rather than discarding elements of the longer vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:32 UTC 2014",
           "module": "Data.Vector.Bit",
           "name": "zipPad",
           "package": "bit-vector",
@@ -296,6 +319,7 @@
         "index": {
           "description": "Like zip except pads the vectors to equal length rather than discarding elements of the longer vector",
           "hierarchy": "Data Vector Bit",
+          "indexed": "2014-03-11T17:22:32",
           "module": "Data.Vector.Bit",
           "name": "zipPad",
           "normalized": "BitVector-\u003eBitVector-\u003eVector(Bool,Bool)",

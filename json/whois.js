@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "whois"
+        "phrase": "whois",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:01 UTC 2014",
           "module": "Network.Whois",
           "name": "Whois",
           "package": "whois",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Whois",
+          "indexed": "2014-03-11T20:39:01",
           "module": "Network.Whois",
           "name": "Whois",
           "package": "whois",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:01 UTC 2014",
           "module": "Network.Whois",
           "name": "WhoisServer",
           "package": "whois",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Whois",
+          "indexed": "2014-03-11T20:39:01",
           "module": "Network.Whois",
           "name": "WhoisServer",
           "package": "whois",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:01 UTC 2014",
           "module": "Network.Whois",
           "name": "WhoisServer",
           "package": "whois",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network Whois",
+          "indexed": "2014-03-11T20:39:01",
           "module": "Network.Whois",
           "name": "WhoisServer",
           "package": "whois",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:01 UTC 2014",
           "module": "Network.Whois",
           "name": "hostname",
           "package": "whois",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network Whois",
+          "indexed": "2014-03-11T20:39:01",
           "module": "Network.Whois",
           "name": "hostname",
           "package": "whois",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:01 UTC 2014",
           "module": "Network.Whois",
           "name": "port",
           "package": "whois",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Network Whois",
+          "indexed": "2014-03-11T20:39:01",
           "module": "Network.Whois",
           "name": "port",
           "package": "whois",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:01 UTC 2014",
           "module": "Network.Whois",
           "name": "query",
           "package": "whois",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network Whois",
+          "indexed": "2014-03-11T20:39:01",
           "module": "Network.Whois",
           "name": "query",
           "package": "whois",
@@ -146,6 +158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an IP address or domain name, attempt to figure out which whois server\n  to use. If we're given a domain name, this is (except in some special cases)\n  usually \u003ctld\u003e.whois-servers.net. If we're given an IP address, we default to\n  a transient server (ARIN), which can give us referral servers to try.\n\u003c/p\u003e\u003cpre\u003e serverFor \"192.0.2.123\"            -- WhoisServer \"whois.arin.net\" 43 \"n + \"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:39:01 UTC 2014",
           "module": "Network.Whois",
           "name": "serverFor",
           "package": "whois",
@@ -156,6 +169,7 @@
         "index": {
           "description": "Given an IP address or domain name attempt to figure out which whois server to use If we re given domain name this is except in some special cases usually tld whois-servers.net If we re given an IP address we default to transient server ARIN which can give us referral servers to try serverFor WhoisServer whois.arin.net",
           "hierarchy": "Network Whois",
+          "indexed": "2014-03-11T20:39:01",
           "module": "Network.Whois",
           "name": "serverFor",
           "normalized": "String-\u003eMaybe WhoisServer",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whois information. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:01 UTC 2014",
           "module": "Network.Whois",
           "name": "whois",
           "package": "whois",
@@ -182,6 +197,7 @@
         "index": {
           "description": "Returns whois information",
           "hierarchy": "Network Whois",
+          "indexed": "2014-03-11T20:39:01",
           "module": "Network.Whois",
           "name": "whois",
           "normalized": "String-\u003eIO(Maybe String,Maybe String)",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whois information from a particular server. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:01 UTC 2014",
           "module": "Network.Whois",
           "name": "whois1",
           "package": "whois",
@@ -207,6 +224,7 @@
         "index": {
           "description": "Returns whois information from particular server",
           "hierarchy": "Network Whois",
+          "indexed": "2014-03-11T20:39:01",
           "module": "Network.Whois",
           "name": "whois1",
           "normalized": "String-\u003eWhoisServer-\u003eIO(Maybe String)",

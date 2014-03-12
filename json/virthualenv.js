@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "virthualenv"
+        "phrase": "virthualenv",
+        "type": "phrase"
       },
       "type": "context"
     }

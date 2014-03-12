@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shady-graphics"
+        "phrase": "shady-graphics",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple colors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "Color",
           "package": "shady-graphics",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple colors",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "Color",
           "package": "shady-graphics",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor, as RGBA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "Color",
           "package": "shady-graphics",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Color as RGBA",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "Color",
           "package": "shady-graphics",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "HasColor",
           "package": "shady-graphics",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "HasColor",
           "package": "shady-graphics",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "black",
           "package": "shady-graphics",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "black",
           "package": "shady-graphics",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "blue",
           "package": "shady-graphics",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "blue",
           "package": "shady-graphics",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "clear",
           "package": "shady-graphics",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "clear",
           "package": "shady-graphics",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the alpha component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "colorA",
           "package": "shady-graphics",
@@ -159,6 +172,7 @@
         "index": {
           "description": "Extract the alpha component",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "colorA",
           "normalized": "Color-\u003eFloatE",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the blue component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "colorB",
           "package": "shady-graphics",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Extract the blue component",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "colorB",
           "normalized": "Color-\u003eFloatE",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the green component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "colorG",
           "package": "shady-graphics",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Extract the green component",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "colorG",
           "normalized": "Color-\u003eFloatE",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the red component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "colorR",
           "package": "shady-graphics",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Extract the red component",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "colorR",
           "normalized": "Color-\u003eFloatE",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation conversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "colorToR4",
           "package": "shady-graphics",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Representation conversion",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "colorToR4",
           "normalized": "Color-\u003eR E",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShade of grey\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "gray",
           "package": "shady-graphics",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Shade of grey",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "gray",
           "package": "shady-graphics",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "green",
           "package": "shady-graphics",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "green",
           "package": "shady-graphics",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "grey",
           "package": "shady-graphics",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "grey",
           "package": "shady-graphics",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePointwise \u003ccode\u003e\u003ca\u003eoverC\u003c/a\u003e\u003c/code\u003e, e.g., for images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "over",
           "package": "shady-graphics",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Pointwise overC e.g for images",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "over",
           "normalized": "Binop(a-\u003eColor)",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverlay on two colors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "overC",
           "package": "shady-graphics",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Overlay on two colors",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "overC",
           "package": "shady-graphics",
@@ -388,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation conversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "r4ToColor",
           "package": "shady-graphics",
@@ -398,6 +431,7 @@
         "index": {
           "description": "Representation conversion",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "r4ToColor",
           "normalized": "R E-\u003eColor",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "red",
           "package": "shady-graphics",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "red",
           "package": "shady-graphics",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor from red, green, blue components\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "rgb",
           "package": "shady-graphics",
@@ -445,6 +482,7 @@
         "index": {
           "description": "Color from red green blue components",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "rgb",
           "package": "shady-graphics",
@@ -458,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor from red, green, blue, alpha components\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "rgba",
           "package": "shady-graphics",
@@ -468,6 +507,7 @@
         "index": {
           "description": "Color from red green blue alpha components",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "rgba",
           "package": "shady-graphics",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "toColor",
           "package": "shady-graphics",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "toColor",
           "normalized": "a-\u003eColor",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome colors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Color",
           "name": "white",
           "package": "shady-graphics",
@@ -515,6 +558,7 @@
         "index": {
           "description": "Some colors",
           "hierarchy": "Shady Color",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Color",
           "name": "white",
           "package": "shady-graphics",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompile a parameterized image\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileImage",
           "name": "CompileImage",
           "package": "shady-graphics",
@@ -537,6 +582,7 @@
         "index": {
           "description": "Compile parameterized image",
           "hierarchy": "Shady CompileImage",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileImage",
           "name": "CompileImage",
           "package": "shady-graphics",
@@ -551,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D animation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileImage",
           "name": "ImageB",
           "package": "shady-graphics",
@@ -560,6 +607,7 @@
         "index": {
           "description": "animation",
           "hierarchy": "Shady CompileImage",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileImage",
           "name": "ImageB",
           "package": "shady-graphics",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileImage",
           "name": "eyePos",
           "package": "shady-graphics",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Shady CompileImage",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileImage",
           "name": "eyePos",
           "package": "shady-graphics",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileImage",
           "name": "imSurfB",
           "package": "shady-graphics",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Shady CompileImage",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileImage",
           "name": "imSurfB",
           "normalized": "ImageB a-\u003eSurfB",
@@ -620,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGLSL program for an \u003ccode\u003e\u003ca\u003eImageB\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileImage",
           "name": "imageBProg",
           "package": "shady-graphics",
@@ -630,6 +683,7 @@
         "index": {
           "description": "GLSL program for an ImageB",
           "hierarchy": "Shady CompileImage",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileImage",
           "name": "imageBProg",
           "normalized": "ImageB a-\u003eGLSL R R",
@@ -646,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAssemble shaders and display an image\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileSurface",
           "name": "CompileSurface",
           "package": "shady-graphics",
@@ -655,6 +710,7 @@
         "index": {
           "description": "Assemble shaders and display an image",
           "hierarchy": "Shady CompileSurface",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileSurface",
           "name": "CompileSurface",
           "package": "shady-graphics",
@@ -669,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEye position as a single expression.  See also \u003ccode\u003eEyePos\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileSurface",
           "name": "EyePosE",
           "package": "shady-graphics",
@@ -678,6 +735,7 @@
         "index": {
           "description": "Eye position as single expression See also EyePos",
           "hierarchy": "Shady CompileSurface",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileSurface",
           "name": "EyePosE",
           "package": "shady-graphics",
@@ -692,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenderable surface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileSurface",
           "name": "FullSurf",
           "package": "shady-graphics",
@@ -701,6 +760,7 @@
         "index": {
           "description": "Renderable surface",
           "hierarchy": "Shady CompileSurface",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileSurface",
           "name": "FullSurf",
           "package": "shady-graphics",
@@ -715,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3D animation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileSurface",
           "name": "SurfB",
           "package": "shady-graphics",
@@ -724,6 +785,7 @@
         "index": {
           "description": "animation",
           "hierarchy": "Shady CompileSurface",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileSurface",
           "name": "SurfB",
           "package": "shady-graphics",
@@ -738,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurface shader program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileSurface",
           "name": "surfBProg",
           "package": "shady-graphics",
@@ -748,6 +811,7 @@
         "index": {
           "description": "Surface shader program",
           "hierarchy": "Shady CompileSurface",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileSurface",
           "name": "surfBProg",
           "normalized": "EyePosE-\u003eSurfB-\u003eGLSL R R",
@@ -763,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileSurface",
           "name": "wrapSurf",
           "package": "shady-graphics",
@@ -772,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Shady CompileSurface",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileSurface",
           "name": "wrapSurf",
           "normalized": "a b EyePosE-\u003eSurfWrapper c",
@@ -788,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up a parameterized surface for compiling.  Computes normals and\n lighting per pixel -- sometimes called \u003ca\u003eexact shading\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileSurface",
           "name": "wrapSurfExact",
           "package": "shady-graphics",
@@ -798,6 +865,7 @@
         "index": {
           "description": "Wrap up parameterized surface for compiling Computes normals and lighting per pixel sometimes called exact shading",
           "hierarchy": "Shady CompileSurface",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileSurface",
           "name": "wrapSurfExact",
           "normalized": "a b EyePosE-\u003eSurfWrapper c",
@@ -814,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up a parameterized surface for compiling.  \n This variant interpolates normals, as in Phong shading.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileSurface",
           "name": "wrapSurfIC",
           "package": "shady-graphics",
@@ -824,6 +893,7 @@
         "index": {
           "description": "Wrap up parameterized surface for compiling This variant interpolates normals as in Phong shading",
           "hierarchy": "Shady CompileSurface",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileSurface",
           "name": "wrapSurfIC",
           "normalized": "a b EyePosE-\u003eSurfWrapper c",
@@ -840,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up a parameterized surface for compiling.  \n This variant interpolates normals, as in Phong shading.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.CompileSurface",
           "name": "wrapSurfIN",
           "package": "shady-graphics",
@@ -850,6 +921,7 @@
         "index": {
           "description": "Wrap up parameterized surface for compiling This variant interpolates normals as in Phong shading",
           "hierarchy": "Shady CompileSurface",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.CompileSurface",
           "name": "wrapSurfIN",
           "normalized": "a b EyePosE-\u003eSurfWrapper c",
@@ -866,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInvertible transformations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ITransform",
           "name": "ITransform",
           "package": "shady-graphics",
@@ -875,6 +948,7 @@
         "index": {
           "description": "Invertible transformations",
           "hierarchy": "Shady ITransform",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ITransform",
           "name": "ITransform",
           "package": "shady-graphics",
@@ -889,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformable values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ITransform",
           "name": "ITrans",
           "package": "shady-graphics",
@@ -898,6 +973,7 @@
         "index": {
           "description": "Transformable values",
           "hierarchy": "Shady ITransform",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ITransform",
           "name": "ITrans",
           "package": "shady-graphics",
@@ -912,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform with inverse.  The \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instances is identity and\n composition (in the usual order for composition of the forward\n transformations).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ITransform",
           "name": "ITransform",
           "package": "shady-graphics",
@@ -921,6 +998,7 @@
         "index": {
           "description": "Transform with inverse The Monoid instances is identity and composition in the usual order for composition of the forward transformations",
           "hierarchy": "Shady ITransform",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ITransform",
           "name": "ITransform",
           "package": "shady-graphics",
@@ -934,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ITransform",
           "name": "(*:)",
           "package": "shady-graphics",
@@ -943,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Shady ITransform",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ITransform",
           "name": "(*:) *:",
           "normalized": "ITransform a-\u003eUnop b",
@@ -957,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ITransform",
           "name": "ITransform",
           "package": "shady-graphics",
@@ -966,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Shady ITransform",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ITransform",
           "name": "ITransform",
           "package": "shady-graphics",
@@ -980,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandy when we invert a transform by modifying the argument to the\n transform's maker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ITransform",
           "name": "andInverse",
           "package": "shady-graphics",
@@ -990,6 +1073,7 @@
         "index": {
           "description": "Handy when we invert transform by modifying the argument to the transform maker",
           "hierarchy": "Shady ITransform",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ITransform",
           "name": "andInverse",
           "normalized": "(a-\u003eUnop b)-\u003e(a-\u003ea)-\u003ea-\u003eITransform b",
@@ -1006,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse an \u003ccode\u003e\u003ca\u003eITransform\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ITransform",
           "name": "inverse",
           "package": "shady-graphics",
@@ -1016,6 +1101,7 @@
         "index": {
           "description": "Inverse an ITransform",
           "hierarchy": "Shady ITransform",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ITransform",
           "name": "inverse",
           "package": "shady-graphics",
@@ -1028,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ITransform",
           "name": "itBackward",
           "package": "shady-graphics",
@@ -1037,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Shady ITransform",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ITransform",
           "name": "itBackward",
           "package": "shady-graphics",
@@ -1050,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ITransform",
           "name": "itForward",
           "package": "shady-graphics",
@@ -1059,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Shady ITransform",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ITransform",
           "name": "itForward",
           "package": "shady-graphics",
@@ -1073,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImages (infinite & continuous)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "Image",
           "package": "shady-graphics",
@@ -1082,6 +1173,7 @@
         "index": {
           "description": "Images infinite continuous",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "Image",
           "package": "shady-graphics",
@@ -1096,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "Filter",
           "package": "shady-graphics",
@@ -1105,6 +1198,7 @@
         "index": {
           "description": "Image filter",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "Filter",
           "package": "shady-graphics",
@@ -1119,6 +1213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized filter, polymorphic over domain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "FilterG",
           "package": "shady-graphics",
@@ -1128,6 +1223,7 @@
         "index": {
           "description": "Generalized filter polymorphic over domain",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "FilterG",
           "package": "shady-graphics",
@@ -1142,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContinuous, infinite image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "Image",
           "package": "shady-graphics",
@@ -1151,6 +1248,7 @@
         "index": {
           "description": "Continuous infinite image",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "Image",
           "package": "shady-graphics",
@@ -1165,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized image -- continuous & infinite\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "ImageG",
           "package": "shady-graphics",
@@ -1174,6 +1273,7 @@
         "index": {
           "description": "Generalized image continuous infinite",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "ImageG",
           "package": "shady-graphics",
@@ -1188,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegion over general space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "PRegion",
           "package": "shady-graphics",
@@ -1197,6 +1298,7 @@
         "index": {
           "description": "Region over general space",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "PRegion",
           "package": "shady-graphics",
@@ -1210,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "Point",
           "package": "shady-graphics",
@@ -1218,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "Point",
           "package": "shady-graphics",
@@ -1232,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D spatial region\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "Region",
           "package": "shady-graphics",
@@ -1241,6 +1346,7 @@
         "index": {
           "description": "spatial region",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "Region",
           "package": "shady-graphics",
@@ -1255,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized annulus, given outer & inner radii\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "annulus",
           "package": "shady-graphics",
@@ -1265,6 +1372,7 @@
         "index": {
           "description": "Generalized annulus given outer inner radii",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "annulus",
           "normalized": "FloatE-\u003eFloatE-\u003ePRegion a",
@@ -1280,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBilinear interpolation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "bilerp",
           "package": "shady-graphics",
@@ -1290,6 +1399,7 @@
         "index": {
           "description": "Bilinear interpolation",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "bilerp",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003e(Scalar a,Scalar a)-\u003ea",
@@ -1305,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBilinear interpolation image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "bilerpC",
           "package": "shady-graphics",
@@ -1315,6 +1426,7 @@
         "index": {
           "description": "Bilinear interpolation image",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "bilerpC",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eImageG b a",
@@ -1330,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecker-board\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "checker",
           "package": "shady-graphics",
@@ -1340,6 +1453,7 @@
         "index": {
           "description": "Checker-board",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "checker",
           "package": "shady-graphics",
@@ -1352,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "complementR",
           "package": "shady-graphics",
@@ -1361,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "complementR",
           "package": "shady-graphics",
@@ -1374,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCrop a function, filling in \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e where the test yeis false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "crop",
           "package": "shady-graphics",
@@ -1383,6 +1500,7 @@
         "index": {
           "description": "Crop function filling in mempty where the test yeis false",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "crop",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -1397,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "diffR",
           "package": "shady-graphics",
@@ -1406,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "diffR",
           "package": "shady-graphics",
@@ -1419,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized disk/ball, given radius\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "disk",
           "package": "shady-graphics",
@@ -1429,6 +1550,7 @@
         "index": {
           "description": "Generalized disk ball given radius",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "disk",
           "normalized": "FloatE-\u003ePRegion a",
@@ -1443,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "emptyR",
           "package": "shady-graphics",
@@ -1452,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "emptyR",
           "package": "shady-graphics",
@@ -1464,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "eqF",
           "package": "shady-graphics",
@@ -1473,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "eqF",
           "normalized": "a(VecE b c)-\u003ea(VecE b c)-\u003ea BoolE",
@@ -1487,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "intersectR",
           "package": "shady-graphics",
@@ -1496,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "intersectR",
           "package": "shady-graphics",
@@ -1508,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "neqF",
           "package": "shady-graphics",
@@ -1517,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "neqF",
           "normalized": "a(VecE b c)-\u003ea(VecE b c)-\u003ea BoolE",
@@ -1531,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "pointToR2",
           "package": "shady-graphics",
@@ -1540,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "pointToR2",
           "normalized": "Point-\u003eR E",
@@ -1555,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "r2ToPoint",
           "package": "shady-graphics",
@@ -1564,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "r2ToPoint",
           "normalized": "R E-\u003ePoint",
@@ -1579,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "rotate2",
           "package": "shady-graphics",
@@ -1588,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "rotate2",
           "normalized": "a-\u003eUnop b",
@@ -1603,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpace-varying \u003ccode\u003e\u003ca\u003erotate2\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "rotate2Im",
           "package": "shady-graphics",
@@ -1613,6 +1750,7 @@
         "index": {
           "description": "Space-varying rotate2",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "rotate2Im",
           "normalized": "ImageG a a-\u003eUnop(ImageG a b)",
@@ -1629,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up a sampler as an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "samplerIm",
           "package": "shady-graphics",
@@ -1639,6 +1778,7 @@
         "index": {
           "description": "Wrap up sampler as an image",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "samplerIm",
           "package": "shady-graphics",
@@ -1652,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "scale2",
           "package": "shady-graphics",
@@ -1661,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "scale2",
           "normalized": "Complex a-\u003eUnop b",
@@ -1676,6 +1818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpace-varying \u003ccode\u003e\u003ca\u003escale2\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "scale2Im",
           "package": "shady-graphics",
@@ -1686,6 +1829,7 @@
         "index": {
           "description": "Space-varying scale2",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "scale2Im",
           "normalized": "Unop(Complex a)-\u003eUnop(ImageG a b)",
@@ -1702,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwirl transformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "swirl",
           "package": "shady-graphics",
@@ -1712,6 +1857,7 @@
         "index": {
           "description": "Swirl transformation",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "swirl",
           "normalized": "a-\u003eUnop(ImageG a b)",
@@ -1726,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "tile",
           "package": "shady-graphics",
@@ -1735,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "tile",
           "normalized": "Complex a-\u003eUnop(ImageG a b)",
@@ -1750,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral domain-varying transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "transformG",
           "package": "shady-graphics",
@@ -1760,6 +1909,7 @@
         "index": {
           "description": "General domain-varying transformation",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "transformG",
           "normalized": "(a-\u003eITransform b)-\u003e(b-\u003ea)-\u003eUnop(b-\u003ec)",
@@ -1774,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "translate2",
           "package": "shady-graphics",
@@ -1783,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "translate2",
           "normalized": "Complex a-\u003eUnop b",
@@ -1798,6 +1950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpace-varying \u003ccode\u003e\u003ca\u003etranslate2\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "translate2Im",
           "package": "shady-graphics",
@@ -1808,6 +1961,7 @@
         "index": {
           "description": "Space-varying translate2",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "translate2Im",
           "normalized": "Unop a-\u003eUnop(a-\u003eb)",
@@ -1824,6 +1978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized unit disk/ball\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "udisk",
           "package": "shady-graphics",
@@ -1834,6 +1989,7 @@
         "index": {
           "description": "Generalized unit disk ball",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "udisk",
           "package": "shady-graphics",
@@ -1846,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "unionR",
           "package": "shady-graphics",
@@ -1855,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "unionR",
           "package": "shady-graphics",
@@ -1867,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "universeR",
           "package": "shady-graphics",
@@ -1876,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "universeR",
           "package": "shady-graphics",
@@ -1888,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "uscale2",
           "package": "shady-graphics",
@@ -1897,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "uscale2",
           "normalized": "a-\u003eUnop b",
@@ -1912,6 +2074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpace-varying \u003ccode\u003e\u003ca\u003euscale2\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "uscale2Im",
           "package": "shady-graphics",
@@ -1922,6 +2085,7 @@
         "index": {
           "description": "Space-varying uscale2",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "uscale2Im",
           "normalized": "ImageG a a-\u003eUnop(ImageG a b)",
@@ -1938,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit, rectangular tiling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "utile",
           "package": "shady-graphics",
@@ -1948,6 +2113,7 @@
         "index": {
           "description": "Unit rectangular tiling",
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "utile",
           "normalized": "Unop(a-\u003eb)",
@@ -1962,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Image",
           "name": "xorR",
           "package": "shady-graphics",
@@ -1971,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Shady Image",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Image",
           "name": "xorR",
           "package": "shady-graphics",
@@ -1984,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLighting/shading.  Adapted from Vertigo.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "Lighting",
           "package": "shady-graphics",
@@ -1993,6 +2162,7 @@
         "index": {
           "description": "Lighting shading Adapted from Vertigo",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "Lighting",
           "package": "shady-graphics",
@@ -2007,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esurface floatv\n lightmodel_specular (floatv s, floatv e, float sh)\n {\n     perlight float diffuse = dot(N,DIRL);\n     perlight float specular = pow(max(dot(N,H),0),sh);\n     perlight floatv fr = select(diffuse \u003e 0, s * specular, Zero);\n     return integrate(fr * Cl) + e;\n }\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "BasicSh",
           "package": "shady-graphics",
@@ -2016,6 +2187,7 @@
         "index": {
           "description": "surface floatv lightmodel specular floatv floatv float sh perlight float diffuse dot DIRL perlight float specular pow max dot sh perlight floatv fr select diffuse specular Zero return integrate fr Cl",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "BasicSh",
           "package": "shady-graphics",
@@ -2030,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirection.  Assumed normalized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "Dir3E",
           "package": "shady-graphics",
@@ -2039,6 +2212,7 @@
         "index": {
           "description": "Direction Assumed normalized",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "Dir3E",
           "package": "shady-graphics",
@@ -2053,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLight- and view-dependent lighter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "LLighter",
           "package": "shady-graphics",
@@ -2062,6 +2237,7 @@
         "index": {
           "description": "Light and view-dependent lighter",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "LLighter",
           "package": "shady-graphics",
@@ -2076,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esurface float4\n lightmodel (float4 a, float4 d, float4 s, float4 e, float sh)\n {\n     perlight float diffuse = dot(N,DIRL);\n     perlight float specular = pow(max(dot(N,H),0),sh);\n     perlight float4 fr = d * max(diffuse, 0) +\n                          s * select(diffuse \u003e 0, specular, 0);\n     return a * Ca + integrate(fr * Cl) + e;\n }\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "Liftable",
           "package": "shady-graphics",
@@ -2085,6 +2262,7 @@
         "index": {
           "description": "surface float4 lightmodel float4 float4 float4 float4 float sh perlight float diffuse dot DIRL perlight float specular pow max dot sh perlight float4 fr max diffuse select diffuse specular return Ca integrate fr Cl",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "Liftable",
           "package": "shady-graphics",
@@ -2099,6 +2277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA light is something that provides light info to every point in space\n (though to some points it provides blackness), independent of\n obstructions.  Should probably also take an atmosphere argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "Light",
           "package": "shady-graphics",
@@ -2108,6 +2287,7 @@
         "index": {
           "description": "light is something that provides light info to every point in space though to some points it provides blackness independent of obstructions Should probably also take an atmosphere argument",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "Light",
           "package": "shady-graphics",
@@ -2122,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfo about how one light affects a given point.  The surface lighter\n decides what to do with the light info.  Attenuation and relation of\n light position (if finitely distant) to surface position are already\n accounted for.  \u003ccode\u003e\u003ca\u003eliDir\u003c/a\u003e\u003c/code\u003e is the direction \u003cem\u003eto\u003c/em\u003e the light (normalized).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "LightInfo",
           "package": "shady-graphics",
@@ -2131,6 +2312,7 @@
         "index": {
           "description": "Info about how one light affects given point The surface lighter decides what to do with the light info Attenuation and relation of light position if finitely distant to surface position are already accounted for liDir is the direction to the light normalized",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "LightInfo",
           "package": "shady-graphics",
@@ -2145,6 +2327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView-dependent lighter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "Lighter",
           "package": "shady-graphics",
@@ -2154,6 +2337,7 @@
         "index": {
           "description": "View-dependent lighter",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "Lighter",
           "package": "shady-graphics",
@@ -2168,6 +2352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfo about a surface at a point: position, normal, color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "SurfInfo",
           "package": "shady-graphics",
@@ -2177,6 +2362,7 @@
         "index": {
           "description": "Info about surface at point position normal color",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "SurfInfo",
           "package": "shady-graphics",
@@ -2191,6 +2377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eViewing environment: ambient, eye, lights\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "View",
           "package": "shady-graphics",
@@ -2200,6 +2387,7 @@
         "index": {
           "description": "Viewing environment ambient eye lights",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "View",
           "package": "shady-graphics",
@@ -2213,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "LI",
           "package": "shady-graphics",
@@ -2222,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "LI",
           "package": "shady-graphics",
@@ -2235,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "SurfInfo",
           "package": "shady-graphics",
@@ -2244,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "SurfInfo",
           "package": "shady-graphics",
@@ -2257,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "View",
           "package": "shady-graphics",
@@ -2266,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "View",
           "package": "shady-graphics",
@@ -2280,6 +2474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeighted combination of ambient and diffuse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "ambDiff",
           "package": "shady-graphics",
@@ -2290,6 +2485,7 @@
         "index": {
           "description": "Weighted combination of ambient and diffuse",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "ambDiff",
           "normalized": "(Color,Color)-\u003eLighter Color",
@@ -2306,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmbient color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "ambient",
           "package": "shady-graphics",
@@ -2316,6 +2513,7 @@
         "index": {
           "description": "Ambient color",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "ambient",
           "package": "shady-graphics",
@@ -2329,6 +2527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine intrinsic, ambient, diffuse and specular, with weightings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "basic",
           "package": "shady-graphics",
@@ -2339,6 +2538,7 @@
         "index": {
           "description": "Combine intrinsic ambient diffuse and specular with weightings",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "basic",
           "normalized": "LLighter FloatE-\u003eBasicSh",
@@ -2353,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "basicNH",
           "package": "shady-graphics",
@@ -2362,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "basicNH",
           "package": "shady-graphics",
@@ -2375,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "basicRV",
           "package": "shady-graphics",
@@ -2384,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "basicRV",
           "package": "shady-graphics",
@@ -2397,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "basicStd",
           "package": "shady-graphics",
@@ -2406,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "basicStd",
           "package": "shady-graphics",
@@ -2420,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLight color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "colorL",
           "package": "shady-graphics",
@@ -2430,6 +2637,7 @@
         "index": {
           "description": "Light color",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "colorL",
           "package": "shady-graphics",
@@ -2443,6 +2651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure diffuse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "diffuse",
           "package": "shady-graphics",
@@ -2453,6 +2662,7 @@
         "index": {
           "description": "Pure diffuse",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "diffuse",
           "package": "shady-graphics",
@@ -2466,6 +2676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirection \u003cem\u003eto\u003c/em\u003e light\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "dirL",
           "package": "shady-graphics",
@@ -2476,6 +2687,7 @@
         "index": {
           "description": "Direction to light",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "dirL",
           "package": "shady-graphics",
@@ -2489,6 +2701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectional light, given the direction \u003cem\u003efrom\u003c/em\u003e the light (opposite \u003ccode\u003e\u003ca\u003edirL\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "dirLight",
           "package": "shady-graphics",
@@ -2499,6 +2712,7 @@
         "index": {
           "description": "Directional light given the direction from the light opposite dirL",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "dirLight",
           "normalized": "Color-\u003eDir E-\u003eLight",
@@ -2515,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEye point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "eye",
           "package": "shady-graphics",
@@ -2525,6 +2740,7 @@
         "index": {
           "description": "Eye point",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "eye",
           "package": "shady-graphics",
@@ -2538,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Stanford rtsl version, with ambient and weights:\n\u003c/p\u003e\u003cp\u003esurface float4\n lightmodel_diffuse (float4 ka, float4 kd)\n {\n     perlight float diffuse = dot(N,L);\n     perlight float4 fr = kd * select(diffuse \u003e 0, diffuse, 0);\n     return ka * Ca + integrate(fr * Cl);\n }\n\u003c/p\u003e\u003cp\u003eDirection from surface point to eye\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "eyeDir",
           "package": "shady-graphics",
@@ -2548,6 +2765,7 @@
         "index": {
           "description": "The Stanford rtsl version with ambient and weights surface float4 lightmodel diffuse float4 ka float4 kd perlight float diffuse dot perlight float4 fr kd select diffuse diffuse return ka Ca integrate fr Cl Direction from surface point to eye",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "eyeDir",
           "package": "shady-graphics",
@@ -2562,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEye/light vector average (CGPP p 731)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "eyeLight",
           "package": "shady-graphics",
@@ -2572,6 +2791,7 @@
         "index": {
           "description": "Eye light vector average CGPP",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "eyeLight",
           "package": "shady-graphics",
@@ -2586,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine contributions from multiple lights.  Patterned after\n Renderman's \u003ccode\u003eilluminance\u003c/code\u003e construct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "illuminance",
           "package": "shady-graphics",
@@ -2596,6 +2817,7 @@
         "index": {
           "description": "Combine contributions from multiple lights Patterned after Renderman illuminance construct",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "illuminance",
           "normalized": "LLighter a-\u003eLighter a",
@@ -2611,6 +2833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurface Color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "intrinsic",
           "package": "shady-graphics",
@@ -2621,6 +2844,7 @@
         "index": {
           "description": "Surface Color",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "intrinsic",
           "package": "shady-graphics",
@@ -2633,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "liColor",
           "package": "shady-graphics",
@@ -2642,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "liColor",
           "package": "shady-graphics",
@@ -2655,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "liDir",
           "package": "shady-graphics",
@@ -2664,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "liDir",
           "package": "shady-graphics",
@@ -2677,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "lift",
           "package": "shady-graphics",
@@ -2686,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "lift",
           "normalized": "a-\u003eb",
@@ -2701,6 +2931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLights\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "lights",
           "package": "shady-graphics",
@@ -2711,6 +2942,7 @@
         "index": {
           "description": "Lights",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "lights",
           "normalized": "Lighter[Light]",
@@ -2725,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "ma",
           "package": "shady-graphics",
@@ -2734,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "ma",
           "package": "shady-graphics",
@@ -2746,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "md",
           "package": "shady-graphics",
@@ -2755,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "md",
           "package": "shady-graphics",
@@ -2767,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "ms",
           "package": "shady-graphics",
@@ -2776,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "ms",
           "package": "shady-graphics",
@@ -2788,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "msh",
           "package": "shady-graphics",
@@ -2797,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "msh",
           "package": "shady-graphics",
@@ -2810,6 +3050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint light\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "pointLight",
           "package": "shady-graphics",
@@ -2820,6 +3061,7 @@
         "index": {
           "description": "Point light",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "pointLight",
           "normalized": "Color-\u003eR E-\u003eLight",
@@ -2836,6 +3078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflection vector (CGPP p 730)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "reflection",
           "package": "shady-graphics",
@@ -2846,6 +3089,7 @@
         "index": {
           "description": "Reflection vector CGPP",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "reflection",
           "package": "shady-graphics",
@@ -2859,6 +3103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure specular.  Ignores intrinsic surface color.  There are different\n ways to compute the power base.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "specularG",
           "package": "shady-graphics",
@@ -2869,6 +3114,7 @@
         "index": {
           "description": "Pure specular Ignores intrinsic surface color There are different ways to compute the power base",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "specularG",
           "normalized": "LLighter FloatE-\u003eFloatE-\u003eLighter Color",
@@ -2884,6 +3130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOr the N.H model:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "specularNH",
           "package": "shady-graphics",
@@ -2894,6 +3141,7 @@
         "index": {
           "description": "Or the N.H model",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "specularNH",
           "normalized": "FloatE-\u003eLighter Color",
@@ -2909,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "specularRV",
           "package": "shady-graphics",
@@ -2918,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "specularRV",
           "normalized": "FloatE-\u003eLighter Color",
@@ -2934,6 +3184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView with white ambient light and given eye position and lights\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "stdView",
           "package": "shady-graphics",
@@ -2944,6 +3195,7 @@
         "index": {
           "description": "View with white ambient light and given eye position and lights",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "stdView",
           "normalized": "R E-\u003e[Light]-\u003eView",
@@ -2959,6 +3211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "stdViewPos",
           "package": "shady-graphics",
@@ -2968,6 +3221,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "stdViewPos",
           "package": "shady-graphics",
@@ -2981,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "surfColor",
           "package": "shady-graphics",
@@ -2990,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "surfColor",
           "package": "shady-graphics",
@@ -3004,6 +3260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurface normal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "surfN",
           "package": "shady-graphics",
@@ -3014,6 +3271,7 @@
         "index": {
           "description": "Surface normal",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "surfN",
           "package": "shady-graphics",
@@ -3026,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "surfNormal",
           "package": "shady-graphics",
@@ -3035,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "surfNormal",
           "package": "shady-graphics",
@@ -3049,6 +3309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurface point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "surfP",
           "package": "shady-graphics",
@@ -3059,6 +3320,7 @@
         "index": {
           "description": "Surface point",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "surfP",
           "package": "shady-graphics",
@@ -3071,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "surfPos",
           "package": "shady-graphics",
@@ -3080,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "surfPos",
           "package": "shady-graphics",
@@ -3094,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView with white ambient light, one directional light, and given eye position.\n For now, light position is like eye position but more so.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "view1",
           "package": "shady-graphics",
@@ -3104,6 +3369,7 @@
         "index": {
           "description": "View with white ambient light one directional light and given eye position For now light position is like eye position but more so",
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "view1",
           "normalized": "R E-\u003eView",
@@ -3118,6 +3384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "viewAmbient",
           "package": "shady-graphics",
@@ -3127,6 +3394,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "viewAmbient",
           "package": "shady-graphics",
@@ -3140,6 +3408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "viewEye",
           "package": "shady-graphics",
@@ -3149,6 +3418,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "viewEye",
           "package": "shady-graphics",
@@ -3162,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.Lighting",
           "name": "viewLights",
           "package": "shady-graphics",
@@ -3171,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "Shady Lighting",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.Lighting",
           "name": "viewLights",
           "normalized": "[Light]",
@@ -3187,6 +3459,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParametric surfaces with automatic normals\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "ParamSurf",
           "package": "shady-graphics",
@@ -3196,6 +3469,7 @@
         "index": {
           "description": "Parametric surfaces with automatic normals",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "ParamSurf",
           "package": "shady-graphics",
@@ -3209,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "Curve2",
           "package": "shady-graphics",
@@ -3217,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "Curve2",
           "package": "shady-graphics",
@@ -3230,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "Curve3",
           "package": "shady-graphics",
@@ -3238,6 +3515,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "Curve3",
           "package": "shady-graphics",
@@ -3251,6 +3529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "ER",
           "package": "shady-graphics",
@@ -3259,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "ER",
           "package": "shady-graphics",
@@ -3272,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "ER2",
           "package": "shady-graphics",
@@ -3280,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "ER2",
           "package": "shady-graphics",
@@ -3293,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "ER3",
           "package": "shady-graphics",
@@ -3301,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "ER3",
           "package": "shady-graphics",
@@ -3314,6 +3598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "HeightField",
           "package": "shady-graphics",
@@ -3322,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "HeightField",
           "package": "shady-graphics",
@@ -3335,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "Surf",
           "package": "shady-graphics",
@@ -3343,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "Surf",
           "package": "shady-graphics",
@@ -3357,6 +3645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferentiable surface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "SurfD",
           "package": "shady-graphics",
@@ -3366,6 +3655,7 @@
         "index": {
           "description": "Differentiable surface",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "SurfD",
           "package": "shady-graphics",
@@ -3380,6 +3670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerivative towers of point on a surface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "SurfPt",
           "package": "shady-graphics",
@@ -3389,6 +3680,7 @@
         "index": {
           "description": "Derivative towers of point on surface",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "SurfPt",
           "package": "shady-graphics",
@@ -3402,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "SurfVN",
           "package": "shady-graphics",
@@ -3410,6 +3703,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "SurfVN",
           "package": "shady-graphics",
@@ -3423,6 +3717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "T",
           "package": "shady-graphics",
@@ -3431,6 +3726,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "T",
           "package": "shady-graphics",
@@ -3443,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "TR",
           "package": "shady-graphics",
@@ -3451,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "TR",
           "package": "shady-graphics",
@@ -3464,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "USurf",
           "package": "shady-graphics",
@@ -3472,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "USurf",
           "package": "shady-graphics",
@@ -3485,6 +3785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "V2",
           "package": "shady-graphics",
@@ -3493,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "V2",
           "package": "shady-graphics",
@@ -3505,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "V3",
           "package": "shady-graphics",
@@ -3513,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "V3",
           "package": "shady-graphics",
@@ -3526,6 +3830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertex and normal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "VN",
           "package": "shady-graphics",
@@ -3535,6 +3840,7 @@
         "index": {
           "description": "Vertex and normal",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "VN",
           "package": "shady-graphics",
@@ -3548,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "Warp1",
           "package": "shady-graphics",
@@ -3556,6 +3863,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "Warp1",
           "package": "shady-graphics",
@@ -3569,6 +3877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "Warp2",
           "package": "shady-graphics",
@@ -3577,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "Warp2",
           "package": "shady-graphics",
@@ -3590,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "Warp3",
           "package": "shady-graphics",
@@ -3598,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "Warp3",
           "package": "shady-graphics",
@@ -3611,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "addX",
           "package": "shady-graphics",
@@ -3620,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "addX",
           "normalized": "(a-\u003eComplex b)-\u003ea-\u003e(b,b,b)",
@@ -3634,6 +3948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "addXY",
           "package": "shady-graphics",
@@ -3643,6 +3958,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "addXY",
           "normalized": "(a-\u003eb)-\u003ea-\u003e(b,b,b)",
@@ -3658,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "addXZ",
           "package": "shady-graphics",
@@ -3667,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "addXZ",
           "normalized": "(a-\u003eb)-\u003ea-\u003e(b,b,b)",
@@ -3682,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "addY",
           "package": "shady-graphics",
@@ -3691,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "addY",
           "normalized": "(a-\u003eComplex b)-\u003ea-\u003e(b,b,b)",
@@ -3705,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "addYZ",
           "package": "shady-graphics",
@@ -3714,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "addYZ",
           "normalized": "(a-\u003eb)-\u003ea-\u003e(b,b,b)",
@@ -3729,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "addZ",
           "package": "shady-graphics",
@@ -3738,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "addZ",
           "normalized": "(a-\u003eComplex b)-\u003ea-\u003e(b,b,b)",
@@ -3753,6 +4077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a combining op and two curves, make a surface.  A sort of\n Cartesian product with combination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "cartF",
           "package": "shady-graphics",
@@ -3763,6 +4088,7 @@
         "index": {
           "description": "Given combining op and two curves make surface sort of Cartesian product with combination",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "cartF",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d-\u003ea)-\u003e(d-\u003eb)-\u003eComplex d-\u003ec",
@@ -3778,6 +4104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "circle",
           "package": "shady-graphics",
@@ -3788,6 +4115,7 @@
         "index": {
           "description": "Unit circle",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "circle",
           "package": "shady-graphics",
@@ -3800,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "cosU",
           "package": "shady-graphics",
@@ -3809,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "cosU",
           "normalized": "a-\u003ea",
@@ -3824,6 +4154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a displacement map to a function (e.g., \u003ccode\u003e\u003ca\u003eCurve2\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eSurf\u003c/a\u003e\u003c/code\u003e) or\n other container.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "displace",
           "package": "shady-graphics",
@@ -3834,6 +4165,7 @@
         "index": {
           "description": "Apply displacement map to function e.g Curve2 or Surf or other container",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "displace",
           "normalized": "a b-\u003ea(Scalar b)-\u003ea b",
@@ -3849,6 +4181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a displacement map at a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "displaceV",
           "package": "shady-graphics",
@@ -3859,6 +4192,7 @@
         "index": {
           "description": "Apply displacement map at value",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "displaceV",
           "normalized": "a-\u003eScalar a-\u003ea",
@@ -3874,6 +4208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne period, unit height eggcrate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "eggcrateH",
           "package": "shady-graphics",
@@ -3884,6 +4219,7 @@
         "index": {
           "description": "One period unit height eggcrate",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "eggcrateH",
           "package": "shady-graphics",
@@ -3897,6 +4233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ehfSurf\u003c/a\u003e\u003c/code\u003e but for curve construction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "fcurve",
           "package": "shady-graphics",
@@ -3907,6 +4244,7 @@
         "index": {
           "description": "Like hfSurf but for curve construction",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "fcurve",
           "normalized": "Warp a-\u003eCurve a",
@@ -3922,6 +4260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrustum, given base & cap radii and height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "frustum",
           "package": "shady-graphics",
@@ -3932,6 +4271,7 @@
         "index": {
           "description": "Frustum given base cap radii and height",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "frustum",
           "normalized": "a-\u003ea-\u003ea-\u003eSurf a",
@@ -3947,6 +4287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a height field into a surface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "hfSurf",
           "package": "shady-graphics",
@@ -3957,6 +4298,7 @@
         "index": {
           "description": "Turn height field into surface",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "hfSurf",
           "normalized": "HeightField a-\u003eSurf a",
@@ -3972,6 +4314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onX",
           "package": "shady-graphics",
@@ -3981,6 +4324,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onX",
           "normalized": "Warp a-\u003eWarp a",
@@ -3995,6 +4339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onX'",
           "package": "shady-graphics",
@@ -4004,6 +4349,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onX'",
           "normalized": "Warp a-\u003e(b-\u003e(a,a,a))-\u003eb-\u003e(a,a,a)",
@@ -4019,6 +4365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onXY",
           "package": "shady-graphics",
@@ -4028,6 +4375,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onXY",
           "normalized": "Warp a-\u003eWarp a",
@@ -4043,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onXY'",
           "package": "shady-graphics",
@@ -4052,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onXY'",
           "normalized": "Warp a-\u003e(b-\u003e(a,a,a))-\u003eb-\u003e(a,a,a)",
@@ -4067,6 +4417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onXZ",
           "package": "shady-graphics",
@@ -4076,6 +4427,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onXZ",
           "normalized": "Warp a-\u003eWarp a",
@@ -4091,6 +4443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onXZ'",
           "package": "shady-graphics",
@@ -4100,6 +4453,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onXZ'",
           "normalized": "Warp a-\u003e(b-\u003e(a,a,a))-\u003eb-\u003e(a,a,a)",
@@ -4115,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onY",
           "package": "shady-graphics",
@@ -4124,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onY",
           "normalized": "Warp a-\u003eWarp a",
@@ -4138,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onY'",
           "package": "shady-graphics",
@@ -4147,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onY'",
           "normalized": "Warp a-\u003e(b-\u003e(a,a,a))-\u003eb-\u003e(a,a,a)",
@@ -4162,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onYZ",
           "package": "shady-graphics",
@@ -4171,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onYZ",
           "normalized": "Warp a-\u003eWarp a",
@@ -4186,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onYZ'",
           "package": "shady-graphics",
@@ -4195,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onYZ'",
           "normalized": "Warp a-\u003e(b-\u003e(a,a,a))-\u003eb-\u003e(a,a,a)",
@@ -4210,6 +4572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onZ",
           "package": "shady-graphics",
@@ -4219,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onZ",
           "normalized": "Warp a-\u003eWarp a",
@@ -4233,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "onZ'",
           "package": "shady-graphics",
@@ -4242,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "onZ'",
           "normalized": "Warp a-\u003e(b-\u003e(a,a,a))-\u003eb-\u003e(a,a,a)",
@@ -4258,6 +4624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProfile product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "profile",
           "package": "shady-graphics",
@@ -4268,6 +4635,7 @@
         "index": {
           "description": "Profile product",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "profile",
           "normalized": "Curve a-\u003eCurve a-\u003eSurf a",
@@ -4282,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "revolve",
           "package": "shady-graphics",
@@ -4291,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "revolve",
           "normalized": "Curve a-\u003eSurf a",
@@ -4305,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "revolveG",
           "package": "shady-graphics",
@@ -4314,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "revolveG",
           "normalized": "(a-\u003eCurve a)-\u003eSurf a",
@@ -4328,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "revolveH",
           "package": "shady-graphics",
@@ -4337,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "revolveH",
           "normalized": "Warp a-\u003eHeightField a",
@@ -4352,6 +4726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple ripply pond shape\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "ripple",
           "package": "shady-graphics",
@@ -4362,6 +4737,7 @@
         "index": {
           "description": "Simple ripply pond shape",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "ripple",
           "package": "shady-graphics",
@@ -4374,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "rippleH",
           "package": "shady-graphics",
@@ -4383,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "rippleH",
           "package": "shady-graphics",
@@ -4395,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "rotate",
           "package": "shady-graphics",
@@ -4404,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "rotate",
           "normalized": "a-\u003eWarp a",
@@ -4419,6 +4799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHalf semi circle, with theta in [-pi\u003cem\u003e2,pi\u003c/em\u003e2]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "semiCircle",
           "package": "shady-graphics",
@@ -4429,6 +4810,7 @@
         "index": {
           "description": "Half semi circle with theta in pi pi",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "semiCircle",
           "package": "shady-graphics",
@@ -4443,6 +4825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrig functions with unit period ([-1,1])\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "sinU",
           "package": "shady-graphics",
@@ -4453,6 +4836,7 @@
         "index": {
           "description": "Trig functions with unit period",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "sinU",
           "normalized": "a-\u003ea",
@@ -4467,6 +4851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "sphere1",
           "package": "shady-graphics",
@@ -4476,6 +4861,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "sphere1",
           "package": "shady-graphics",
@@ -4488,6 +4874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "sphere2",
           "package": "shady-graphics",
@@ -4497,6 +4884,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "sphere2",
           "package": "shady-graphics",
@@ -4509,6 +4897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "sphere3",
           "package": "shady-graphics",
@@ -4518,6 +4907,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "sphere3",
           "package": "shady-graphics",
@@ -4530,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "surfVN",
           "package": "shady-graphics",
@@ -4539,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "surfVN",
           "normalized": "SurfD-\u003eSurfVN",
@@ -4554,6 +4946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "sweep",
           "package": "shady-graphics",
@@ -4563,6 +4956,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "sweep",
           "normalized": "Curve a-\u003eCurve a-\u003eSurf a",
@@ -4577,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "toVN",
           "package": "shady-graphics",
@@ -4586,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "toVN",
           "normalized": "SurfPt-\u003eVN",
@@ -4602,6 +4998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTorus, given radius of sweep circle and cross section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "torus",
           "package": "shady-graphics",
@@ -4612,6 +5009,7 @@
         "index": {
           "description": "Torus given radius of sweep circle and cross section",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "torus",
           "normalized": "a-\u003ea-\u003eSurf a",
@@ -4627,6 +5025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit cylinder.  Unit height and radii\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "ucylinder",
           "package": "shady-graphics",
@@ -4637,6 +5036,7 @@
         "index": {
           "description": "Unit cylinder Unit height and radii",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "ucylinder",
           "package": "shady-graphics",
@@ -4650,6 +5050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXY plane as a surface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:52 UTC 2014",
           "module": "Shady.ParamSurf",
           "name": "xyPlane",
           "package": "shady-graphics",
@@ -4660,6 +5061,7 @@
         "index": {
           "description": "XY plane as surface",
           "hierarchy": "Shady ParamSurf",
+          "indexed": "2014-03-11T20:00:52",
           "module": "Shady.ParamSurf",
           "name": "xyPlane",
           "package": "shady-graphics",

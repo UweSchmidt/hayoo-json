@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "billboard-parser"
+        "phrase": "billboard-parser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Billboard files can contain a variety of annoatations. This module\n aims at representing these as Haskell types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Annotation",
           "package": "billboard-parser",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Summary Billboard files can contain variety of annoatations This module aims at representing these as Haskell types",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Annotation",
           "package": "billboard-parser",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e occurs either at the start or at the end of a chord \n sequence line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Annotation",
           "package": "billboard-parser",
@@ -51,6 +54,7 @@
         "index": {
           "description": "an Annotation occurs either at the start or at the end of chord sequence line",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Annotation",
           "package": "billboard-parser",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresenting typical structural segementation labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Description",
           "package": "billboard-parser",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Representing typical structural segementation labels",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Description",
           "package": "billboard-parser",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresenting musical instruments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Instrument",
           "package": "billboard-parser",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Representing musical instruments",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Instrument",
           "package": "billboard-parser",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll annotations contain information we term \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Label",
           "package": "billboard-parser",
@@ -120,6 +129,7 @@
         "index": {
           "description": "All annotations contain information we term Label",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Label",
           "package": "billboard-parser",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Accordion",
           "package": "billboard-parser",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Accordion",
           "package": "billboard-parser",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Acousticguitar",
           "package": "billboard-parser",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Acousticguitar",
           "package": "billboard-parser",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Anno",
           "package": "billboard-parser",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Anno",
           "package": "billboard-parser",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Applause",
           "package": "billboard-parser",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Applause",
           "package": "billboard-parser",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Banjo",
           "package": "billboard-parser",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Banjo",
           "package": "billboard-parser",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Barisaxophone",
           "package": "billboard-parser",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Barisaxophone",
           "package": "billboard-parser",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Bassguitar",
           "package": "billboard-parser",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Bassguitar",
           "package": "billboard-parser",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Bongos",
           "package": "billboard-parser",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Bongos",
           "package": "billboard-parser",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Bridge",
           "package": "billboard-parser",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Bridge",
           "package": "billboard-parser",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Cello",
           "package": "billboard-parser",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Cello",
           "package": "billboard-parser",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Chords",
           "package": "billboard-parser",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Chords",
           "package": "billboard-parser",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Chorus",
           "package": "billboard-parser",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Chorus",
           "package": "billboard-parser",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Clarinet",
           "package": "billboard-parser",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Clarinet",
           "package": "billboard-parser",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Coda",
           "package": "billboard-parser",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Coda",
           "package": "billboard-parser",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Drums",
           "package": "billboard-parser",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Drums",
           "package": "billboard-parser",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Electricguitar",
           "package": "billboard-parser",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Electricguitar",
           "package": "billboard-parser",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Electricsitar",
           "package": "billboard-parser",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Electricsitar",
           "package": "billboard-parser",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "End",
           "package": "billboard-parser",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "End",
           "package": "billboard-parser",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Ending",
           "package": "billboard-parser",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Ending",
           "package": "billboard-parser",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Fadein",
           "package": "billboard-parser",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Fadein",
           "package": "billboard-parser",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Fadeout",
           "package": "billboard-parser",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Fadeout",
           "package": "billboard-parser",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Flute",
           "package": "billboard-parser",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Flute",
           "package": "billboard-parser",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Guitar",
           "package": "billboard-parser",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Guitar",
           "package": "billboard-parser",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Hammondorgan",
           "package": "billboard-parser",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Hammondorgan",
           "package": "billboard-parser",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Harmonica",
           "package": "billboard-parser",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Harmonica",
           "package": "billboard-parser",
@@ -683,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Harpsichord",
           "package": "billboard-parser",
@@ -692,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Harpsichord",
           "package": "billboard-parser",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Horn",
           "package": "billboard-parser",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Horn",
           "package": "billboard-parser",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Horns",
           "package": "billboard-parser",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Horns",
           "package": "billboard-parser",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Instr",
           "package": "billboard-parser",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Instr",
           "package": "billboard-parser",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Instrumental",
           "package": "billboard-parser",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Instrumental",
           "package": "billboard-parser",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Interlude",
           "package": "billboard-parser",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Interlude",
           "package": "billboard-parser",
@@ -816,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea chord inserted by the posprocessing interpolation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "InterpolationInsert",
           "package": "billboard-parser",
@@ -826,6 +899,7 @@
         "index": {
           "description": "chord inserted by the posprocessing interpolation",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "InterpolationInsert",
           "package": "billboard-parser",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Intro",
           "package": "billboard-parser",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Intro",
           "package": "billboard-parser",
@@ -861,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Kazoo",
           "package": "billboard-parser",
@@ -870,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Kazoo",
           "package": "billboard-parser",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Keyboard",
           "package": "billboard-parser",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Keyboard",
           "package": "billboard-parser",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Keychange",
           "package": "billboard-parser",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Keychange",
           "package": "billboard-parser",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Maintheme",
           "package": "billboard-parser",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Maintheme",
           "package": "billboard-parser",
@@ -949,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Modulation",
           "package": "billboard-parser",
@@ -958,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Modulation",
           "package": "billboard-parser",
@@ -971,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "ModulationSeg",
           "package": "billboard-parser",
@@ -980,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "ModulationSeg",
           "package": "billboard-parser",
@@ -993,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Noise",
           "package": "billboard-parser",
@@ -1002,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Noise",
           "package": "billboard-parser",
@@ -1015,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Oboe",
           "package": "billboard-parser",
@@ -1024,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Oboe",
           "package": "billboard-parser",
@@ -1037,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Organ",
           "package": "billboard-parser",
@@ -1046,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Organ",
           "package": "billboard-parser",
@@ -1059,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Outro",
           "package": "billboard-parser",
@@ -1068,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Outro",
           "package": "billboard-parser",
@@ -1081,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Pennywhistle",
           "package": "billboard-parser",
@@ -1090,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Pennywhistle",
           "package": "billboard-parser",
@@ -1103,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Percussion",
           "package": "billboard-parser",
@@ -1112,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Percussion",
           "package": "billboard-parser",
@@ -1125,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "PhraseTrans",
           "package": "billboard-parser",
@@ -1134,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "PhraseTrans",
           "package": "billboard-parser",
@@ -1147,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Piano",
           "package": "billboard-parser",
@@ -1156,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Piano",
           "package": "billboard-parser",
@@ -1169,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "PreIntro",
           "package": "billboard-parser",
@@ -1178,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "PreIntro",
           "package": "billboard-parser",
@@ -1191,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "PreVerse",
           "package": "billboard-parser",
@@ -1200,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "PreVerse",
           "package": "billboard-parser",
@@ -1213,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Prechorus",
           "package": "billboard-parser",
@@ -1222,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Prechorus",
           "package": "billboard-parser",
@@ -1235,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Repeat",
           "package": "billboard-parser",
@@ -1244,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Repeat",
           "package": "billboard-parser",
@@ -1257,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Rhythmguitar",
           "package": "billboard-parser",
@@ -1266,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Rhythmguitar",
           "package": "billboard-parser",
@@ -1279,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Saxophone",
           "package": "billboard-parser",
@@ -1288,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Saxophone",
           "package": "billboard-parser",
@@ -1301,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Secondarytheme",
           "package": "billboard-parser",
@@ -1310,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Secondarytheme",
           "package": "billboard-parser",
@@ -1323,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Silence",
           "package": "billboard-parser",
@@ -1332,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Silence",
           "package": "billboard-parser",
@@ -1345,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Sitar",
           "package": "billboard-parser",
@@ -1354,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Sitar",
           "package": "billboard-parser",
@@ -1367,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Solo",
           "package": "billboard-parser",
@@ -1376,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Solo",
           "package": "billboard-parser",
@@ -1389,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "SongEnd",
           "package": "billboard-parser",
@@ -1398,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "SongEnd",
           "package": "billboard-parser",
@@ -1411,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Start",
           "package": "billboard-parser",
@@ -1420,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Start",
           "package": "billboard-parser",
@@ -1433,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "SteelDrum",
           "package": "billboard-parser",
@@ -1442,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "SteelDrum",
           "package": "billboard-parser",
@@ -1455,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Steelguitar",
           "package": "billboard-parser",
@@ -1464,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Steelguitar",
           "package": "billboard-parser",
@@ -1477,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Strings",
           "package": "billboard-parser",
@@ -1486,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Strings",
           "package": "billboard-parser",
@@ -1500,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edenoting A .. Z and the nr of primes (')\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Struct",
           "package": "billboard-parser",
@@ -1510,6 +1645,7 @@
         "index": {
           "description": "denoting and the nr of primes",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Struct",
           "package": "billboard-parser",
@@ -1523,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Synthesizer",
           "package": "billboard-parser",
@@ -1532,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Synthesizer",
           "package": "billboard-parser",
@@ -1545,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Talking",
           "package": "billboard-parser",
@@ -1554,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Talking",
           "package": "billboard-parser",
@@ -1567,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "TalkingEnd",
           "package": "billboard-parser",
@@ -1576,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "TalkingEnd",
           "package": "billboard-parser",
@@ -1589,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Tambourine",
           "package": "billboard-parser",
@@ -1598,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Tambourine",
           "package": "billboard-parser",
@@ -1611,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Tambura",
           "package": "billboard-parser",
@@ -1620,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Tambura",
           "package": "billboard-parser",
@@ -1633,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Tenorhorn",
           "package": "billboard-parser",
@@ -1642,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Tenorhorn",
           "package": "billboard-parser",
@@ -1655,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Tenorsaxophone",
           "package": "billboard-parser",
@@ -1664,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Tenorsaxophone",
           "package": "billboard-parser",
@@ -1677,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Transition",
           "package": "billboard-parser",
@@ -1686,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Transition",
           "package": "billboard-parser",
@@ -1699,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Trombone",
           "package": "billboard-parser",
@@ -1708,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Trombone",
           "package": "billboard-parser",
@@ -1721,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Trumpet",
           "package": "billboard-parser",
@@ -1730,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Trumpet",
           "package": "billboard-parser",
@@ -1744,6 +1900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea catch all description for unrecognised descriptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "UnknownAnno",
           "package": "billboard-parser",
@@ -1754,6 +1911,7 @@
         "index": {
           "description": "catch all description for unrecognised descriptions",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "UnknownAnno",
           "package": "billboard-parser",
@@ -1768,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea catch all description for \n unrecognised instruments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "UnknownInstr",
           "package": "billboard-parser",
@@ -1778,6 +1937,7 @@
         "index": {
           "description": "catch all description for unrecognised instruments",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "UnknownInstr",
           "package": "billboard-parser",
@@ -1791,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Verse",
           "package": "billboard-parser",
@@ -1800,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Verse",
           "package": "billboard-parser",
@@ -1813,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Vibraphone",
           "package": "billboard-parser",
@@ -1822,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Vibraphone",
           "package": "billboard-parser",
@@ -1835,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Violin",
           "package": "billboard-parser",
@@ -1844,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Violin",
           "package": "billboard-parser",
@@ -1857,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Vocal",
           "package": "billboard-parser",
@@ -1866,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Vocal",
           "package": "billboard-parser",
@@ -1879,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Voice",
           "package": "billboard-parser",
@@ -1888,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Voice",
           "package": "billboard-parser",
@@ -1901,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "Whistle",
           "package": "billboard-parser",
@@ -1910,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "Whistle",
           "package": "billboard-parser",
@@ -1924,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e of an \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "getLabel",
           "package": "billboard-parser",
@@ -1934,6 +2107,7 @@
         "index": {
           "description": "Returns the Label of an Annotation",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "getLabel",
           "normalized": "Annotation-\u003eLabel",
@@ -1950,6 +2124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of repeats represented by this \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e. If the\n \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e describes something completely different (say \u003ccode\u003e\u003ca\u003eElectricsitar\u003c/a\u003e\u003c/code\u003e)\n it will return 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "getRepeats",
           "package": "billboard-parser",
@@ -1960,6 +2135,7 @@
         "index": {
           "description": "Returns the number of repeats represented by this Annotation If the Annotation describes something completely different say Electricsitar it will return",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "getRepeats",
           "normalized": "Annotation-\u003eInt",
@@ -1976,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e represents the end of a piece. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "isEndAnno",
           "package": "billboard-parser",
@@ -1986,6 +2163,7 @@
         "index": {
           "description": "Returns True if the Annotation represents the end of piece",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "isEndAnno",
           "normalized": "Annotation-\u003eBool",
@@ -2002,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e marks the start of a chord sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "isFirstChord",
           "package": "billboard-parser",
@@ -2012,6 +2191,7 @@
         "index": {
           "description": "Returns True if the Annotation marks the start of chord sequence",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "isFirstChord",
           "normalized": "Annotation-\u003eBool",
@@ -2028,6 +2208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e marks the end of a chord sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "isLastChord",
           "package": "billboard-parser",
@@ -2038,6 +2219,7 @@
         "index": {
           "description": "Returns True if the Annotation marks the end of chord sequence",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "isLastChord",
           "normalized": "Annotation-\u003eBool",
@@ -2054,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e represents a repeat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "isRepeat",
           "package": "billboard-parser",
@@ -2064,6 +2247,7 @@
         "index": {
           "description": "Returns True if the Annotation represents repeat",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "isRepeat",
           "normalized": "Annotation-\u003eBool",
@@ -2080,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e occurs at the start of a line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "isStart",
           "package": "billboard-parser",
@@ -2090,6 +2275,7 @@
         "index": {
           "description": "Returns True if the Annotation occurs at the start of line",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "isStart",
           "normalized": "Annotation-\u003eBool",
@@ -2106,6 +2292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e annotates a structural segmentation label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "isStruct",
           "package": "billboard-parser",
@@ -2116,6 +2303,7 @@
         "index": {
           "description": "Returns True if the Annotation annotates structural segmentation label",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "isStruct",
           "normalized": "Label-\u003eBool",
@@ -2132,6 +2320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.Annotation",
           "name": "isUnknown",
           "package": "billboard-parser",
@@ -2142,6 +2331,7 @@
         "index": {
           "description": "Returns True if the Annotation",
           "hierarchy": "Billboard Annotation",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.Annotation",
           "name": "isUnknown",
           "normalized": "Annotation-\u003eBool",
@@ -2158,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Modelling musical time (in a minimalistic way) with beats, bars\n and time signatures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "BeatBar",
           "package": "billboard-parser",
@@ -2167,6 +2358,7 @@
         "index": {
           "description": "Summary Modelling musical time in minimalistic way with beats bars and time signatures",
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "BeatBar",
           "package": "billboard-parser",
@@ -2181,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBarlines can have different weights. Among other applications, this is used\n in the printing of chord sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "BeatWeight",
           "package": "billboard-parser",
@@ -2190,6 +2383,7 @@
         "index": {
           "description": "Barlines can have different weights Among other applications this is used in the printing of chord sequences",
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "BeatWeight",
           "package": "billboard-parser",
@@ -2204,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModel a time signature as a fraction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "TimeSig",
           "package": "billboard-parser",
@@ -2213,6 +2408,7 @@
         "index": {
           "description": "Model time signature as fraction",
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "TimeSig",
           "package": "billboard-parser",
@@ -2226,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "Bar",
           "package": "billboard-parser",
@@ -2235,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "Bar",
           "package": "billboard-parser",
@@ -2248,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "Bar16",
           "package": "billboard-parser",
@@ -2257,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "Bar16",
           "package": "billboard-parser",
@@ -2270,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "Bar4",
           "package": "billboard-parser",
@@ -2279,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "Bar4",
           "package": "billboard-parser",
@@ -2292,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "Bar8",
           "package": "billboard-parser",
@@ -2301,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "Bar8",
           "package": "billboard-parser",
@@ -2314,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "Beat",
           "package": "billboard-parser",
@@ -2323,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "Beat",
           "package": "billboard-parser",
@@ -2336,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "Change",
           "package": "billboard-parser",
@@ -2345,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "Change",
           "package": "billboard-parser",
@@ -2358,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "LineStart",
           "package": "billboard-parser",
@@ -2367,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "LineStart",
           "package": "billboard-parser",
@@ -2380,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "TimeSig",
           "package": "billboard-parser",
@@ -2389,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "TimeSig",
           "package": "billboard-parser",
@@ -2402,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "UnAligned",
           "package": "billboard-parser",
@@ -2411,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "UnAligned",
           "package": "billboard-parser",
@@ -2425,6 +2639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the \u003ca\u003emetrical weight of a bar\u003c/a\u003e. A regular beat has strength 0, \n a bar has strength 1, a bar after 4 bars 2, a bar after 8 bars 3, and a bar \n after 16 bars 4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "beatWeight",
           "package": "billboard-parser",
@@ -2435,6 +2650,7 @@
         "index": {
           "description": "Defines the metrical weight of bar regular beat has strength bar has strength bar after bars bar after bars and bar after bars",
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "beatWeight",
           "normalized": "TimeSig-\u003eInt-\u003eBeatWeight",
@@ -2451,6 +2667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of \u003ccode\u003eBBChord\u003c/code\u003e that are inserted for one \u003ca\u003e.\u003c/a\u003e, based on\n a \u003ccode\u003e\u003ca\u003eTimeSig\u003c/a\u003e\u003c/code\u003enature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "chordsPerDot",
           "package": "billboard-parser",
@@ -2461,6 +2678,7 @@
         "index": {
           "description": "Returns the number of BBChord that are inserted for one based on TimeSig nature",
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "chordsPerDot",
           "normalized": "TimeSig-\u003eInt",
@@ -2477,6 +2695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of \u003ccode\u003etatums\u003c/code\u003e in a bar which is different for time\n signatures. For example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etatumsPerBar (TimeSig (3 ,4))\n\u003c/code\u003e\u003c/strong\u003e6\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etatumsPerBar (TimeSig (6 ,8))\n\u003c/code\u003e\u003c/strong\u003e6\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etatumsPerBar (TimeSig (12,8))\n\u003c/code\u003e\u003c/strong\u003e12\n\u003c/pre\u003e\u003cp\u003eN.B. This function is not strictly correct music-theoretically, but\n it reflects how Billboard annotators used time signatures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "tatumsPerBar",
           "package": "billboard-parser",
@@ -2487,6 +2706,7 @@
         "index": {
           "description": "Returns the number of tatums in bar which is different for time signatures For example tatumsPerBar TimeSig tatumsPerBar TimeSig tatumsPerBar TimeSig N.B This function is not strictly correct music-theoretically but it reflects how Billboard annotators used time signatures",
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "tatumsPerBar",
           "normalized": "TimeSig-\u003eInt",
@@ -2502,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BeatBar",
           "name": "timeSig",
           "package": "billboard-parser",
@@ -2511,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Billboard BeatBar",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BeatBar",
           "name": "timeSig",
           "normalized": "(Int,Int)",
@@ -2527,6 +2749,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: A set of datatypes for representing Billboard chord sequence data \n See: John Ashley Burgoyne, Jonathan Wild, Ichiro Fujinaga, \n \u003cem\u003eAn Expert Ground-Truth Set for Audio Chord Recognition and Music Analysis\u003c/em\u003e,\n In: Proceedings of International Conference on Music Information Retrieval,\n 2011. (\u003ca\u003ehttp://ismir2011.ismir.net/papers/OS8-1.pdf\u003c/a\u003e) \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "BillboardData",
           "package": "billboard-parser",
@@ -2536,6 +2759,7 @@
         "index": {
           "description": "Summary set of datatypes for representing Billboard chord sequence data See John Ashley Burgoyne Jonathan Wild Ichiro Fujinaga An Expert Ground-Truth Set for Audio Chord Recognition and Music Analysis In Proceedings of International Conference on Music Information Retrieval http ismir2011.ismir.net papers OS8-1.pdf",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "BillboardData",
           "package": "billboard-parser",
@@ -2550,6 +2774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the artists of the piece\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "Artist",
           "package": "billboard-parser",
@@ -2559,6 +2784,7 @@
         "index": {
           "description": "Represents the artists of the piece",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "Artist",
           "package": "billboard-parser",
@@ -2573,6 +2799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe wrap the \u003ccode\u003e\u003ca\u003eChord\u003c/a\u003e\u003c/code\u003e datatype into a \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e type, \n so that we can augment it with \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eBeatWeight\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "BBChord",
           "package": "billboard-parser",
@@ -2582,6 +2809,7 @@
         "index": {
           "description": "We wrap the Chord datatype into BBChord type so that we can augment it with Annotation and BeatWeight",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "BBChord",
           "package": "billboard-parser",
@@ -2596,6 +2824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBillboardData\u003c/a\u003e\u003c/code\u003e datatype stores all information that has been extracted\n from a Billboard chord annotation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "BillboardData",
           "package": "billboard-parser",
@@ -2605,6 +2834,7 @@
         "index": {
           "description": "The BillboardData datatype stores all information that has been extracted from Billboard chord annotation",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "BillboardData",
           "package": "billboard-parser",
@@ -2619,6 +2849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents other metadata of the piece, i.e. the time signature \n and key root\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "Meta",
           "package": "billboard-parser",
@@ -2628,6 +2859,7 @@
         "index": {
           "description": "Represents other metadata of the piece i.e the time signature and key root",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "Meta",
           "package": "billboard-parser",
@@ -2642,6 +2874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the title of the piece\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "Title",
           "package": "billboard-parser",
@@ -2651,6 +2884,7 @@
         "index": {
           "description": "Represents the title of the piece",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "Title",
           "package": "billboard-parser",
@@ -2664,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "BBChord",
           "package": "billboard-parser",
@@ -2673,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "BBChord",
           "package": "billboard-parser",
@@ -2686,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "BillboardData",
           "package": "billboard-parser",
@@ -2695,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "BillboardData",
           "package": "billboard-parser",
@@ -2708,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "KeyRoot",
           "package": "billboard-parser",
@@ -2717,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "KeyRoot",
           "package": "billboard-parser",
@@ -2730,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "Metre",
           "package": "billboard-parser",
@@ -2739,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "Metre",
           "package": "billboard-parser",
@@ -2753,6 +2995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds an end point of an \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "addEnd",
           "package": "billboard-parser",
@@ -2763,6 +3006,7 @@
         "index": {
           "description": "Adds an end point of an Annotation Label to BBChord",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "addEnd",
           "normalized": "Label-\u003eBBChord-\u003eBBChord",
@@ -2779,6 +3023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotates a sequence of \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003es by adding a Start \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e\n at the first chord and an End \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e at the last chord. The\n remainder of the list remains untouched\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "addLabel",
           "package": "billboard-parser",
@@ -2789,6 +3034,7 @@
         "index": {
           "description": "Annotates sequence of BBChord by adding Start Label Annotation at the first chord and an End Label Annotation at the last chord The remainder of the list remains untouched",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "addLabel",
           "normalized": "Label-\u003e[BBChord]-\u003e[BBChord]",
@@ -2805,6 +3051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a starting point of an \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "addStart",
           "package": "billboard-parser",
@@ -2815,6 +3062,7 @@
         "index": {
           "description": "Adds starting point of an Annotation Label to BBChord",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "addStart",
           "normalized": "Label-\u003eBBChord-\u003eBBChord",
@@ -2831,6 +3079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds both a start and an end \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "addStartEnd",
           "package": "billboard-parser",
@@ -2841,6 +3090,7 @@
         "index": {
           "description": "Adds both start and an end Annotation Label to BBChord",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "addStartEnd",
           "normalized": "Label-\u003eBBChord-\u003eBBChord",
@@ -2856,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "annotations",
           "package": "billboard-parser",
@@ -2865,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "annotations",
           "normalized": "[Annotation]",
@@ -2879,6 +3131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "chord",
           "package": "billboard-parser",
@@ -2888,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "chord",
           "package": "billboard-parser",
@@ -2901,6 +3155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003es that have a certain duration (i.e. the number of \n beats that the chord should sound), every \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e is replaced by \u003cem\u003ex\u003c/em\u003e \n \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003es with the same properties, but whit a duration of 1 beat, where \u003cem\u003ex\u003c/em\u003e \n is the duration of the original \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "expandBBChords",
           "package": "billboard-parser",
@@ -2911,6 +3166,7 @@
         "index": {
           "description": "Given list of BBChord that have certain duration i.e the number of beats that the chord should sound every BBChord is replaced by BBChord with the same properties but whit duration of beat where is the duration of the original BBChord",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "expandBBChords",
           "normalized": "[BBChord]-\u003e[BBChord]",
@@ -2927,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eexpandBBChords\u003c/a\u003e\u003c/code\u003e the inverse of \u003ccode\u003e\u003ca\u003ereduceTimedBBChords\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "expandTimedBBChords",
           "package": "billboard-parser",
@@ -2937,6 +3194,7 @@
         "index": {
           "description": "Similar to expandBBChords the inverse of reduceTimedBBChords",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "expandTimedBBChords",
           "normalized": "[TimedData BBChord]-\u003e[TimedData BBChord]",
@@ -2952,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "getArtist",
           "package": "billboard-parser",
@@ -2961,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "getArtist",
           "package": "billboard-parser",
@@ -2975,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrips the time stamps from BillBoardData and concatenates all \u003ccode\u003eBBChords\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "getBBChords",
           "package": "billboard-parser",
@@ -2985,6 +3246,7 @@
         "index": {
           "description": "Strips the time stamps from BillBoardData and concatenates all BBChords",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "getBBChords",
           "normalized": "BillboardData-\u003e[BBChord]",
@@ -3001,6 +3263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrips the time stamps from BillBoardData and concatenates all \u003ccode\u003eBBChords\u003c/code\u003e\n and removes the silence at the beginning and end of the song.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "getBBChordsNoSilence",
           "package": "billboard-parser",
@@ -3011,6 +3274,7 @@
         "index": {
           "description": "Strips the time stamps from BillBoardData and concatenates all BBChords and removes the silence at the beginning and end of the song",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "getBBChordsNoSilence",
           "normalized": "BillboardData-\u003e[BBChord]",
@@ -3027,6 +3291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the duration of the chord (the unit of the duration can be \n application dependent, but will generally be measured in eighth notes)\n If the data comes directly from the parser the duration will be 1 for\n all \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003es. However, if it has been reduced with \u003ccode\u003e\u003ca\u003ereduceBBChords\u003c/a\u003e\u003c/code\u003e\n the duration will be the number of consecutive tatum units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "getDuration",
           "package": "billboard-parser",
@@ -3037,6 +3302,7 @@
         "index": {
           "description": "Returns the duration of the chord the unit of the duration can be application dependent but will generally be measured in eighth notes If the data comes directly from the parser the duration will be for all BBChord However if it has been reduced with reduceBBChords the duration will be the number of consecutive tatum units",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "getDuration",
           "normalized": "BBChord-\u003eInt",
@@ -3052,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "getKeyRoot",
           "package": "billboard-parser",
@@ -3061,6 +3328,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "getKeyRoot",
           "package": "billboard-parser",
@@ -3074,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "getSong",
           "package": "billboard-parser",
@@ -3083,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "getSong",
           "normalized": "[TimedData BBChord]",
@@ -3099,6 +3369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the structural segmentation \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003es, \n given a \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "getStructAnn",
           "package": "billboard-parser",
@@ -3109,6 +3380,7 @@
         "index": {
           "description": "Returns the structural segmentation Annotation given BBChord",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "getStructAnn",
           "normalized": "BBChord-\u003e[Annotation]",
@@ -3124,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "getTimeSig",
           "package": "billboard-parser",
@@ -3133,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "getTimeSig",
           "package": "billboard-parser",
@@ -3146,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "getTitle",
           "package": "billboard-parser",
@@ -3155,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "getTitle",
           "package": "billboard-parser",
@@ -3169,6 +3445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e has any \u003ccode\u003eAnnotations\u003c/code\u003es and False otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "hasAnnotations",
           "package": "billboard-parser",
@@ -3179,6 +3456,7 @@
         "index": {
           "description": "Returns True if the BBChord has any Annotations and False otherwise",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "hasAnnotations",
           "normalized": "BBChord-\u003eBool",
@@ -3195,6 +3473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e represents a chord Change (must be set \n beforehand, only the \u003ccode\u003e\u003ca\u003eBeatWeight\u003c/a\u003e\u003c/code\u003e stored in the \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e is examined)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "isChange",
           "package": "billboard-parser",
@@ -3205,6 +3484,7 @@
         "index": {
           "description": "Returns True if the BBChord represents chord Change must be set beforehand only the BeatWeight stored in the BBChord is examined",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "isChange",
           "normalized": "BBChord-\u003eBool",
@@ -3221,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if this \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e is the last (N) chord of the song\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "isEnd",
           "package": "billboard-parser",
@@ -3231,6 +3512,7 @@
         "index": {
           "description": "Returns True if this BBChord is the last chord of the song",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "isEnd",
           "normalized": "BBChord-\u003eBool",
@@ -3247,6 +3529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003enoneBBChord\u003c/a\u003e\u003c/code\u003e, i.e. has not root note \n and no shorthand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "isNoneBBChord",
           "package": "billboard-parser",
@@ -3257,6 +3540,7 @@
         "index": {
           "description": "Returns True if the BBChord is noneBBChord i.e has not root note and no shorthand",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "isNoneBBChord",
           "normalized": "BBChord-\u003eBool",
@@ -3273,6 +3557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e represents a starting point of a structural\n segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "isStructSegStart",
           "package": "billboard-parser",
@@ -3283,6 +3568,7 @@
         "index": {
           "description": "Returns True if the BBChord represents starting point of structural segment",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "isStructSegStart",
           "normalized": "BBChord-\u003eBool",
@@ -3299,6 +3585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chord label with no root, shorthand or other information to represent\n a none harmonic sections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "noneBBChord",
           "package": "billboard-parser",
@@ -3309,6 +3596,7 @@
         "index": {
           "description": "chord label with no root shorthand or other information to represent none harmonic sections",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "noneBBChord",
           "package": "billboard-parser",
@@ -3323,6 +3611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse function of \u003ccode\u003eexpandChordDur\u003c/code\u003e: given a list of \u003ccode\u003eBBChords\u003c/code\u003e that \n all have a duration of 1 beat, all subsequent \u003cem\u003ex\u003c/em\u003e \u003ccode\u003eBBChords\u003c/code\u003e with the same \n label are grouped into one \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e with durations \u003cem\u003ex\u003c/em\u003e. N.B. \n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eexpandBBChords (reduceBBChords cs) = cs\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cp\u003ealso,\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(expandBBChords cs) = cs\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cp\u003eand,\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ereduceBBChords (reduceBBChords cs) = (reduceBBChords cs)\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cp\u003ehold. This has been tested on the first tranch of 649 Billboard songs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "reduceBBChords",
           "package": "billboard-parser",
@@ -3333,6 +3622,7 @@
         "index": {
           "description": "The inverse function of expandChordDur given list of BBChords that all have duration of beat all subsequent BBChords with the same label are grouped into one BBChord with durations N.B expandBBChords reduceBBChords cs cs also expandBBChords cs cs and reduceBBChords reduceBBChords cs reduceBBChords cs hold This has been tested on the first tranch of Billboard songs",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "reduceBBChords",
           "normalized": "[BBChord]-\u003e[BBChord]",
@@ -3349,6 +3639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the reduced chord sequences, where repeated chords are merged\n into one \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003e, similar to \u003ccode\u003e\u003ca\u003ereduceBBChords\u003c/a\u003e\u003c/code\u003e, but then wrapped in a \n \u003ccode\u003e\u003ca\u003eTimedData\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "reduceTimedBBChords",
           "package": "billboard-parser",
@@ -3359,6 +3650,7 @@
         "index": {
           "description": "Returns the reduced chord sequences where repeated chords are merged into one BBChord similar to reduceBBChords but then wrapped in TimedData type",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "reduceTimedBBChords",
           "normalized": "[TimedData BBChord]-\u003e[TimedData BBChord]",
@@ -3375,6 +3667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the indexes of a list of \u003ccode\u003e\u003ca\u003eTimedData\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eBBChord\u003c/a\u003e\u003c/code\u003es (starting at 0)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "setChordIxsT",
           "package": "billboard-parser",
@@ -3385,6 +3678,7 @@
         "index": {
           "description": "Sets the indexes of list of TimedData BBChord starting at",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "setChordIxsT",
           "normalized": "[TimedData BBChord]-\u003e[TimedData BBChord]",
@@ -3401,6 +3695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows the chord sequence in the \u003ccode\u003e\u003ca\u003eBillboardData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "showFullChord",
           "package": "billboard-parser",
@@ -3411,6 +3706,7 @@
         "index": {
           "description": "Shows the chord sequence in the BillboardData",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "showFullChord",
           "normalized": "([TimedData BBChord]-\u003e[TimedData BBChord])-\u003eBillboardData-\u003eString",
@@ -3427,6 +3723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows the \u003ccode\u003e\u003ca\u003eBillboardData\u003c/a\u003e\u003c/code\u003e in MIREX format, using only :maj, :min, :aug,\n :dim, sus2, sus4, and ignoring all chord additions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "showInMIREXFormat",
           "package": "billboard-parser",
@@ -3437,6 +3734,7 @@
         "index": {
           "description": "Shows the BillboardData in MIREX format using only maj min aug dim sus2 sus4 and ignoring all chord additions",
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "showInMIREXFormat",
           "normalized": "([TimedData BBChord]-\u003e[TimedData BBChord])-\u003eBillboardData-\u003eString",
@@ -3452,6 +3750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardData",
           "name": "weight",
           "package": "billboard-parser",
@@ -3461,6 +3760,7 @@
         },
         "index": {
           "hierarchy": "Billboard BillboardData",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardData",
           "name": "weight",
           "package": "billboard-parser",
@@ -3474,6 +3774,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: A set of combinator parsers that parse Billboard data. See:\n John Ashley Burgoyne, Jonathan Wild, Ichiro Fujinaga, \n \u003cem\u003eAn Expert Ground-Truth Set for Audio Chord Recognition and Music Analysis\u003c/em\u003e,\n In: Proceedings of International Conference on Music Information Retrieval,\n 2011. (\u003ca\u003ehttp://ismir2011.ismir.net/papers/OS8-1.pdf\u003c/a\u003e) \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardParser",
           "name": "BillboardParser",
           "package": "billboard-parser",
@@ -3483,6 +3784,7 @@
         "index": {
           "description": "Summary set of combinator parsers that parse Billboard data See John Ashley Burgoyne Jonathan Wild Ichiro Fujinaga An Expert Ground-Truth Set for Audio Chord Recognition and Music Analysis In Proceedings of International Conference on Music Information Retrieval http ismir2011.ismir.net papers OS8-1.pdf",
           "hierarchy": "Billboard BillboardParser",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardParser",
           "name": "BillboardParser",
           "package": "billboard-parser",
@@ -3497,6 +3799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parameter that sets the acceptable beat deviation multiplier, which\n controls when exceptionally long beat lengths will be interpolated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardParser",
           "name": "acceptableBeatDeviationMultiplier",
           "package": "billboard-parser",
@@ -3507,6 +3810,7 @@
         "index": {
           "description": "parameter that sets the acceptable beat deviation multiplier which controls when exceptionally long beat lengths will be interpolated",
           "hierarchy": "Billboard BillboardParser",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardParser",
           "name": "acceptableBeatDeviationMultiplier",
           "package": "billboard-parser",
@@ -3521,6 +3825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe top-level parser for parsing the billboard data (see \u003ccode\u003e\u003ca\u003eparseBillboard\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardParser",
           "name": "pBillboard",
           "package": "billboard-parser",
@@ -3531,6 +3836,7 @@
         "index": {
           "description": "The top-level parser for parsing the billboard data see parseBillboard",
           "hierarchy": "Billboard BillboardParser",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardParser",
           "name": "pBillboard",
           "package": "billboard-parser",
@@ -3545,6 +3851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToplevel function for parsing Billboard data files. The function returns\n a tuple containing the result of the parsing in a \u003ccode\u003e\u003ca\u003eBillboardData\u003c/a\u003e\u003c/code\u003e type and\n a (possibly empty) list of parsing errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.BillboardParser",
           "name": "parseBillboard",
           "package": "billboard-parser",
@@ -3555,6 +3862,7 @@
         "index": {
           "description": "Toplevel function for parsing Billboard data files The function returns tuple containing the result of the parsing in BillboardData type and possibly empty list of parsing errors",
           "hierarchy": "Billboard BillboardParser",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.BillboardParser",
           "name": "parseBillboard",
           "normalized": "String-\u003e(BillboardData,[Error LineColPos])",
@@ -3571,6 +3879,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: A set Billboard specific file and directory utilities\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.IOUtils",
           "name": "IOUtils",
           "package": "billboard-parser",
@@ -3580,6 +3889,7 @@
         "index": {
           "description": "Summary set Billboard specific file and directory utilities",
           "hierarchy": "Billboard IOUtils",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.IOUtils",
           "name": "IOUtils",
           "package": "billboard-parser",
@@ -3594,6 +3904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to all files in a directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.IOUtils",
           "name": "bbdir",
           "package": "billboard-parser",
@@ -3604,6 +3915,7 @@
         "index": {
           "description": "Applies function to all files in directory",
           "hierarchy": "Billboard IOUtils",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.IOUtils",
           "name": "bbdir",
           "normalized": "(FilePath-\u003eIO a)-\u003eFilePath-\u003eIO[a]",
@@ -3619,6 +3931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a base directory pointing to the billboard location and a billboard\n id, this function returns the path to that particular billboard file. If\n the file does not exist, an error is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.IOUtils",
           "name": "getBBFile",
           "package": "billboard-parser",
@@ -3629,6 +3942,7 @@
         "index": {
           "description": "Given base directory pointing to the billboard location and billboard id this function returns the path to that particular billboard file If the file does not exist an error is thrown",
           "hierarchy": "Billboard IOUtils",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.IOUtils",
           "name": "getBBFile",
           "normalized": "FilePath-\u003eInt-\u003eIO FilePath",
@@ -3645,6 +3959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the path to the Billboard collection, returns a list with the\n filepaths and id's of the salami_chords.txt files. (The id is the parent\n folder name.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:19 UTC 2014",
           "module": "Billboard.IOUtils",
           "name": "getBBFiles",
           "package": "billboard-parser",
@@ -3655,6 +3970,7 @@
         "index": {
           "description": "Given the path to the Billboard collection returns list with the filepaths and id of the salami chords.txt files The id is the parent folder name",
           "hierarchy": "Billboard IOUtils",
+          "indexed": "2014-03-11T17:18:19",
           "module": "Billboard.IOUtils",
           "name": "getBBFiles",
           "normalized": "FilePath-\u003eIO[(FilePath,Int)]",

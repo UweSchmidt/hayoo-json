@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "IOSpec"
+        "phrase": "IOSpec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pure specification of \u003ccode\u003e\u003ca\u003eforkIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Fork",
           "name": "Fork",
           "package": "IOSpec",
@@ -28,6 +29,7 @@
         "index": {
           "description": "pure specification of forkIO",
           "hierarchy": "Test IOSpec Fork",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Fork",
           "name": "Fork",
           "package": "IOSpec",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression of type \u003ccode\u003eIOSpec ForkS a\u003c/code\u003e corresponds to an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n computation that uses \u003ccode\u003e\u003ca\u003eforkIO\u003c/a\u003e\u003c/code\u003e and returns a value of\n type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBy itself, \u003ccode\u003e\u003ca\u003eForkS\u003c/a\u003e\u003c/code\u003e is not terribly useful. You will probably want\n to use \u003ccode\u003eIOSpec (ForkS :+: MVarS)\u003c/code\u003e or \u003ccode\u003eIOSpec (ForkS :+: STMS)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Fork",
           "name": "ForkS",
           "package": "IOSpec",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An expression of type IOSpec ForkS corresponds to an IO computation that uses forkIO and returns value of type By itself ForkS is not terribly useful You will probably want to use IOSpec ForkS MVarS or IOSpec ForkS STMS",
           "hierarchy": "Test IOSpec Fork",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Fork",
           "name": "ForkS",
           "package": "IOSpec",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eforkIO\u003c/a\u003e\u003c/code\u003e function forks off a new thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Fork",
           "name": "forkIO",
           "package": "IOSpec",
@@ -75,6 +80,7 @@
         "index": {
           "description": "The forkIO function forks off new thread",
           "hierarchy": "Test IOSpec Fork",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Fork",
           "name": "forkIO",
           "normalized": "IOSpec a b-\u003eIOSpec c ThreadId",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pure specification of mutable variables.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.IORef",
           "name": "IORef",
           "package": "IOSpec",
@@ -100,6 +107,7 @@
         "index": {
           "description": "pure specification of mutable variables",
           "hierarchy": "Test IOSpec IORef",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.IORef",
           "name": "IORef",
           "package": "IOSpec",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable variable storing a value of type a. Note that the\n types stored by an \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e are assumed to be \u003ccode\u003eTypeable\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.IORef",
           "name": "IORef",
           "package": "IOSpec",
@@ -123,6 +132,7 @@
         "index": {
           "description": "mutable variable storing value of type Note that the types stored by an IORef are assumed to be Typeable",
           "hierarchy": "Test IOSpec IORef",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.IORef",
           "name": "IORef",
           "package": "IOSpec",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression of type \u003ccode\u003eIOSpec IORefS a\u003c/code\u003e corresponds to an \u003ccode\u003eIO\u003c/code\u003e\n computation that uses mutable references and returns a value of\n type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.IORef",
           "name": "IORefS",
           "package": "IOSpec",
@@ -146,6 +157,7 @@
         "index": {
           "description": "An expression of type IOSpec IORefS corresponds to an IO computation that uses mutable references and returns value of type",
           "hierarchy": "Test IOSpec IORef",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.IORef",
           "name": "IORefS",
           "package": "IOSpec",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emodifyIORef\u003c/a\u003e\u003c/code\u003e function applies a function to the value stored in\n and \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.IORef",
           "name": "modifyIORef",
           "package": "IOSpec",
@@ -170,6 +183,7 @@
         "index": {
           "description": "The modifyIORef function applies function to the value stored in and IORef",
           "hierarchy": "Test IOSpec IORef",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.IORef",
           "name": "modifyIORef",
           "normalized": "IORef a-\u003e(a-\u003ea)-\u003eIOSpec b()",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003enewIORef\u003c/a\u003e\u003c/code\u003e function creates a new mutable variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.IORef",
           "name": "newIORef",
           "package": "IOSpec",
@@ -196,6 +211,7 @@
         "index": {
           "description": "The newIORef function creates new mutable variable",
           "hierarchy": "Test IOSpec IORef",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.IORef",
           "name": "newIORef",
           "normalized": "a-\u003eIOSpec b(IORef a)",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereadIORef\u003c/a\u003e\u003c/code\u003e function reads the value stored in a mutable variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.IORef",
           "name": "readIORef",
           "package": "IOSpec",
@@ -222,6 +239,7 @@
         "index": {
           "description": "The readIORef function reads the value stored in mutable variable",
           "hierarchy": "Test IOSpec IORef",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.IORef",
           "name": "readIORef",
           "normalized": "IORef a-\u003eIOSpec b a",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ewriteIORef\u003c/a\u003e\u003c/code\u003e function overwrites the value stored in a\n mutable variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.IORef",
           "name": "writeIORef",
           "package": "IOSpec",
@@ -248,6 +267,7 @@
         "index": {
           "description": "The writeIORef function overwrites the value stored in mutable variable",
           "hierarchy": "Test IOSpec IORef",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.IORef",
           "name": "writeIORef",
           "normalized": "IORef a-\u003ea-\u003eIOSpec b()",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pure specification of basic operations on MVars.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.MVar",
           "name": "MVar",
           "package": "IOSpec",
@@ -273,6 +294,7 @@
         "index": {
           "description": "pure specification of basic operations on MVars",
           "hierarchy": "Test IOSpec MVar",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.MVar",
           "name": "MVar",
           "package": "IOSpec",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e is a shared, mutable variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.MVar",
           "name": "MVar",
           "package": "IOSpec",
@@ -296,6 +319,7 @@
         "index": {
           "description": "An MVar is shared mutable variable",
           "hierarchy": "Test IOSpec MVar",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.MVar",
           "name": "MVar",
           "package": "IOSpec",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression of type \u003ccode\u003eIOSpec MVarS a\u003c/code\u003e corresponds to an \u003ccode\u003eIO\u003c/code\u003e\n computation that uses shared, mutable variables and returns a\n value of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBy itself, \u003ccode\u003e\u003ca\u003eMVarS\u003c/a\u003e\u003c/code\u003e is not terribly useful. You will probably want\n to use \u003ccode\u003eIOSpec (ForkS :+: MVarS)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.MVar",
           "name": "MVarS",
           "package": "IOSpec",
@@ -319,6 +344,7 @@
         "index": {
           "description": "An expression of type IOSpec MVarS corresponds to an IO computation that uses shared mutable variables and returns value of type By itself MVarS is not terribly useful You will probably want to use IOSpec ForkS MVarS",
           "hierarchy": "Test IOSpec MVar",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.MVar",
           "name": "MVarS",
           "package": "IOSpec",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003enewEmptyMVar\u003c/a\u003e\u003c/code\u003e function creates a new \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e that is initially empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.MVar",
           "name": "newEmptyMVar",
           "package": "IOSpec",
@@ -343,6 +370,7 @@
         "index": {
           "description": "The newEmptyMVar function creates new MVar that is initially empty",
           "hierarchy": "Test IOSpec MVar",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.MVar",
           "name": "newEmptyMVar",
           "package": "IOSpec",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eputMVar\u003c/a\u003e\u003c/code\u003e function fills an \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e with a new value. If the\n \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e is not empty, the thread is blocked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.MVar",
           "name": "putMVar",
           "package": "IOSpec",
@@ -367,6 +396,7 @@
         "index": {
           "description": "The putMVar function fills an MVar with new value If the MVar is not empty the thread is blocked",
           "hierarchy": "Test IOSpec MVar",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.MVar",
           "name": "putMVar",
           "normalized": "MVar a-\u003ea-\u003eIOSpec b()",
@@ -383,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etakeMVar\u003c/a\u003e\u003c/code\u003e function removes the value stored in an\n \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e. If the \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e is empty, the thread is blocked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.MVar",
           "name": "takeMVar",
           "package": "IOSpec",
@@ -393,6 +424,7 @@
         "index": {
           "description": "The takeMVar function removes the value stored in an MVar If the MVar is empty the thread is blocked",
           "hierarchy": "Test IOSpec MVar",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.MVar",
           "name": "takeMVar",
           "normalized": "MVar a-\u003eIOSpec b a",
@@ -408,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.STM",
           "name": "STM",
           "package": "IOSpec",
@@ -416,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec STM",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.STM",
           "name": "STM",
           "package": "IOSpec",
@@ -429,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.STM",
           "name": "STM",
           "package": "IOSpec",
@@ -437,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec STM",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.STM",
           "name": "STM",
           "package": "IOSpec",
@@ -451,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression of type \u003ccode\u003eIOSpec \u003ccode\u003e\u003ca\u003eSTMS\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e corresponds to an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n computation that may use \u003ccode\u003e\u003ca\u003eatomically\u003c/a\u003e\u003c/code\u003e and returns a value of type\n \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBy itself, \u003ccode\u003e\u003ca\u003eSTMS\u003c/a\u003e\u003c/code\u003e is not terribly useful. You will probably want\n to use \u003ccode\u003eIOSpec (ForkS :+: STMS)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.STM",
           "name": "STMS",
           "package": "IOSpec",
@@ -460,6 +497,7 @@
         "index": {
           "description": "An expression of type IOSpec STMS corresponds to an IO computation that may use atomically and returns value of type By itself STMS is not terribly useful You will probably want to use IOSpec ForkS STMS",
           "hierarchy": "Test IOSpec STM",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.STM",
           "name": "STMS",
           "package": "IOSpec",
@@ -474,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e is a shared, mutable variable used by STM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.STM",
           "name": "TVar",
           "package": "IOSpec",
@@ -483,6 +522,7 @@
         "index": {
           "description": "TVar is shared mutable variable used by STM",
           "hierarchy": "Test IOSpec STM",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.STM",
           "name": "TVar",
           "package": "IOSpec",
@@ -497,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eatomically\u003c/a\u003e\u003c/code\u003e function atomically executes an \u003ccode\u003e\u003ca\u003eSTM\u003c/a\u003e\u003c/code\u003e action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.STM",
           "name": "atomically",
           "package": "IOSpec",
@@ -507,6 +548,7 @@
         "index": {
           "description": "The atomically function atomically executes an STM action",
           "hierarchy": "Test IOSpec STM",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.STM",
           "name": "atomically",
           "normalized": "STM a-\u003eIOSpec b a",
@@ -522,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003echeck\u003c/a\u003e\u003c/code\u003e function checks if its boolean argument holds. If\n the boolean is true, it returns (); otherwise it calls \u003ccode\u003e\u003ca\u003eretry\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.STM",
           "name": "check",
           "package": "IOSpec",
@@ -532,6 +575,7 @@
         "index": {
           "description": "The check function checks if its boolean argument holds If the boolean is true it returns otherwise it calls retry",
           "hierarchy": "Test IOSpec STM",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.STM",
           "name": "check",
           "normalized": "Bool-\u003eSTM()",
@@ -547,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003enewTVar\u003c/a\u003e\u003c/code\u003e function creates a new transactional variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.STM",
           "name": "newTVar",
           "package": "IOSpec",
@@ -557,6 +602,7 @@
         "index": {
           "description": "The newTVar function creates new transactional variable",
           "hierarchy": "Test IOSpec STM",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.STM",
           "name": "newTVar",
           "normalized": "a-\u003eSTM(TVar a)",
@@ -573,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eorElse\u003c/a\u003e\u003c/code\u003e function takes two \u003ccode\u003e\u003ca\u003eSTM\u003c/a\u003e\u003c/code\u003e actions \u003ccode\u003estm1\u003c/code\u003e and \u003ccode\u003estm2\u003c/code\u003e and\n performs \u003ccode\u003estm1\u003c/code\u003e. If \u003ccode\u003estm1\u003c/code\u003e calls \u003ccode\u003e\u003ca\u003eretry\u003c/a\u003e\u003c/code\u003e it performs \u003ccode\u003estm2\u003c/code\u003e. If \u003ccode\u003estm1\u003c/code\u003e\n succeeds, on the other hand, \u003ccode\u003estm2\u003c/code\u003e is not executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.STM",
           "name": "orElse",
           "package": "IOSpec",
@@ -583,6 +630,7 @@
         "index": {
           "description": "The orElse function takes two STM actions stm1 and stm2 and performs stm1 If stm1 calls retry it performs stm2 If stm1 succeeds on the other hand stm2 is not executed",
           "hierarchy": "Test IOSpec STM",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.STM",
           "name": "orElse",
           "normalized": "STM a-\u003eSTM a-\u003eSTM a",
@@ -599,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereadTVar\u003c/a\u003e\u003c/code\u003e function reads the value stored in a\n transactional variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.STM",
           "name": "readTVar",
           "package": "IOSpec",
@@ -609,6 +658,7 @@
         "index": {
           "description": "The readTVar function reads the value stored in transactional variable",
           "hierarchy": "Test IOSpec STM",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.STM",
           "name": "readTVar",
           "normalized": "TVar a-\u003eSTM a",
@@ -625,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eretry\u003c/a\u003e\u003c/code\u003e function abandons a transaction and retries at some\n later time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.STM",
           "name": "retry",
           "package": "IOSpec",
@@ -635,6 +686,7 @@
         "index": {
           "description": "The retry function abandons transaction and retries at some later time",
           "hierarchy": "Test IOSpec STM",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.STM",
           "name": "retry",
           "package": "IOSpec",
@@ -648,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ewriteTVar\u003c/a\u003e\u003c/code\u003e function overwrites the value stored in a\n transactional variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.STM",
           "name": "writeTVar",
           "package": "IOSpec",
@@ -658,6 +711,7 @@
         "index": {
           "description": "The writeTVar function overwrites the value stored in transactional variable",
           "hierarchy": "Test IOSpec STM",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.STM",
           "name": "writeTVar",
           "normalized": "TVar a-\u003ea-\u003eSTM()",
@@ -674,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a few type signatures to help replace pure\n specifications by their effectful counterparts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Surrogate",
           "name": "Surrogate",
           "package": "IOSpec",
@@ -683,6 +738,7 @@
         "index": {
           "description": "This module contains few type signatures to help replace pure specifications by their effectful counterparts",
           "hierarchy": "Test IOSpec Surrogate",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Surrogate",
           "name": "Surrogate",
           "package": "IOSpec",
@@ -696,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Surrogate",
           "name": ":+:",
           "package": "IOSpec",
@@ -704,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Surrogate",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Surrogate",
           "name": ":+:",
           "package": "IOSpec",
@@ -716,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Surrogate",
           "name": "ForkS",
           "package": "IOSpec",
@@ -724,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Surrogate",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Surrogate",
           "name": "ForkS",
           "package": "IOSpec",
@@ -737,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Surrogate",
           "name": "IORefS",
           "package": "IOSpec",
@@ -745,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Surrogate",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Surrogate",
           "name": "IORefS",
           "package": "IOSpec",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eIOSpec f a\u003c/code\u003e is merely type synonym for \u003ccode\u003eIO a\u003c/code\u003e. Once you've\n tested a module, you can use these definitions to avoid having to\n change your type signatures.\n\u003c/p\u003e\u003cp\u003eNote that because this definition of \u003ccode\u003e\u003ca\u003eIOSpec\u003c/a\u003e\u003c/code\u003e ignores its \u003ccode\u003ef\u003c/code\u003e\n argument, each of \u003ccode\u003e\u003ca\u003eForkS\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMVarS\u003c/a\u003e\u003c/code\u003e, etc., is simply an empty data\n type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Surrogate",
           "name": "IOSpec",
           "package": "IOSpec",
@@ -768,6 +831,7 @@
         "index": {
           "description": "The IOSpec is merely type synonym for IO Once you ve tested module you can use these definitions to avoid having to change your type signatures Note that because this definition of IOSpec ignores its argument each of ForkS MVarS etc is simply an empty data type",
           "hierarchy": "Test IOSpec Surrogate",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Surrogate",
           "name": "IOSpec",
           "package": "IOSpec",
@@ -781,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Surrogate",
           "name": "MVarS",
           "package": "IOSpec",
@@ -789,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Surrogate",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Surrogate",
           "name": "MVarS",
           "package": "IOSpec",
@@ -802,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Surrogate",
           "name": "STMS",
           "package": "IOSpec",
@@ -810,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Surrogate",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Surrogate",
           "name": "STMS",
           "package": "IOSpec",
@@ -823,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Surrogate",
           "name": "Teletype",
           "package": "IOSpec",
@@ -831,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Surrogate",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Surrogate",
           "name": "Teletype",
           "package": "IOSpec",
@@ -845,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pure specification of getChar and putChar.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Teletype",
           "name": "Teletype",
           "package": "IOSpec",
@@ -854,6 +925,7 @@
         "index": {
           "description": "pure specification of getChar and putChar",
           "hierarchy": "Test IOSpec Teletype",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Teletype",
           "name": "Teletype",
           "package": "IOSpec",
@@ -868,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression of type \u003ccode\u003e\u003ca\u003eIOSpec\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTeletype\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e corresponds to an \u003ccode\u003eIO\u003c/code\u003e\n computation that may print to or read from stdout and stdin\n respectively.\n\u003c/p\u003e\u003cp\u003eThere is a minor caveat here. I assume that stdin and stdout are\n not buffered. This is not the standard behaviour in many Haskell\n compilers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Teletype",
           "name": "Teletype",
           "package": "IOSpec",
@@ -877,6 +950,7 @@
         "index": {
           "description": "An expression of type IOSpec Teletype corresponds to an IO computation that may print to or read from stdout and stdin respectively There is minor caveat here assume that stdin and stdout are not buffered This is not the standard behaviour in many Haskell compilers",
           "hierarchy": "Test IOSpec Teletype",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Teletype",
           "name": "Teletype",
           "package": "IOSpec",
@@ -891,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egetChar\u003c/a\u003e\u003c/code\u003e function can be used to read a character from the\n teletype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Teletype",
           "name": "getChar",
           "package": "IOSpec",
@@ -901,6 +976,7 @@
         "index": {
           "description": "The getChar function can be used to read character from the teletype",
           "hierarchy": "Test IOSpec Teletype",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Teletype",
           "name": "getChar",
           "package": "IOSpec",
@@ -914,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Teletype",
           "name": "getLine",
           "package": "IOSpec",
@@ -923,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Teletype",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Teletype",
           "name": "getLine",
           "package": "IOSpec",
@@ -937,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egetChar\u003c/a\u003e\u003c/code\u003e function can be used to print a character to the\n teletype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Teletype",
           "name": "putChar",
           "package": "IOSpec",
@@ -947,6 +1026,7 @@
         "index": {
           "description": "The getChar function can be used to print character to the teletype",
           "hierarchy": "Test IOSpec Teletype",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Teletype",
           "name": "putChar",
           "normalized": "Char-\u003eIOSpec a()",
@@ -962,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Teletype",
           "name": "putStr",
           "package": "IOSpec",
@@ -971,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Teletype",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Teletype",
           "name": "putStr",
           "normalized": "String-\u003eIOSpec a()",
@@ -986,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Teletype",
           "name": "putStrLn",
           "package": "IOSpec",
@@ -995,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Teletype",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Teletype",
           "name": "putStrLn",
           "normalized": "String-\u003eIOSpec a()",
@@ -1011,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the basic data types underlying the\n \u003ccode\u003e\u003ca\u003eIOSpec\u003c/a\u003e\u003c/code\u003e library. Most of the types and classes in this module\n are described in\n \u003ca\u003ehttp://www.cs.nott.ac.uk/~wss/Publications/DataTypesALaCarte.pdf\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Types",
           "name": "Types",
           "package": "IOSpec",
@@ -1020,6 +1105,7 @@
         "index": {
           "description": "This module contains the basic data types underlying the IOSpec library Most of the types and classes in this module are described in http www.cs.nott.ac.uk wss Publications DataTypesALaCarte.pdf",
           "hierarchy": "Test IOSpec Types",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Types",
           "name": "Types",
           "package": "IOSpec",
@@ -1034,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe coproduct of functors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Types",
           "name": ":+:",
           "package": "IOSpec",
@@ -1043,6 +1130,7 @@
         "index": {
           "description": "The coproduct of functors",
           "hierarchy": "Test IOSpec Types",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Types",
           "name": ":+:",
           "package": "IOSpec",
@@ -1056,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (:\u003c:) class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Types",
           "name": ":\u003c:",
           "package": "IOSpec",
@@ -1065,6 +1154,7 @@
         "index": {
           "description": "The class",
           "hierarchy": "Test IOSpec Types",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Types",
           "name": ":\u003c:",
           "package": "IOSpec",
@@ -1078,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003e\u003ca\u003eIOSpec\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e is either a pure value of type \u003ccode\u003ea\u003c/code\u003e\n or some effect, determined by \u003ccode\u003ef\u003c/code\u003e. Crucially, \u003ccode\u003e\u003ca\u003eIOSpec\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e is a\n monad, provided \u003ccode\u003ef\u003c/code\u003e is a functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Types",
           "name": "IOSpec",
           "package": "IOSpec",
@@ -1087,6 +1178,7 @@
         "index": {
           "description": "value of type IOSpec is either pure value of type or some effect determined by Crucially IOSpec is monad provided is functor",
           "hierarchy": "Test IOSpec Types",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Types",
           "name": "IOSpec",
           "package": "IOSpec",
@@ -1100,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Types",
           "name": "Impure",
           "package": "IOSpec",
@@ -1109,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Types",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Types",
           "name": "Impure",
           "package": "IOSpec",
@@ -1122,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Types",
           "name": "Inl",
           "package": "IOSpec",
@@ -1131,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Types",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Types",
           "name": "Inl",
           "package": "IOSpec",
@@ -1144,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Types",
           "name": "Inr",
           "package": "IOSpec",
@@ -1153,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Types",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Types",
           "name": "Inr",
           "package": "IOSpec",
@@ -1166,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Types",
           "name": "Pure",
           "package": "IOSpec",
@@ -1175,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Types",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Types",
           "name": "Pure",
           "package": "IOSpec",
@@ -1189,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fold over \u003ccode\u003e\u003ca\u003eIOSpec\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Types",
           "name": "foldIOSpec",
           "package": "IOSpec",
@@ -1199,6 +1300,7 @@
         "index": {
           "description": "The fold over IOSpec values",
           "hierarchy": "Test IOSpec Types",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Types",
           "name": "foldIOSpec",
           "normalized": "(a-\u003eb)-\u003e(c b-\u003eb)-\u003eIOSpec c a-\u003eb",
@@ -1214,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.Types",
           "name": "inject",
           "package": "IOSpec",
@@ -1223,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec Types",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.Types",
           "name": "inject",
           "normalized": "a(IOSpec b c)-\u003eIOSpec b c",
@@ -1238,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe virtual machine on which the specifications execute.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "VirtualMachine",
           "package": "IOSpec",
@@ -1247,6 +1352,7 @@
         "index": {
           "description": "The virtual machine on which the specifications execute",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "VirtualMachine",
           "package": "IOSpec",
@@ -1260,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Data",
           "package": "IOSpec",
@@ -1268,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Data",
           "package": "IOSpec",
@@ -1282,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEffect\u003c/a\u003e\u003c/code\u003e type contains all the primitive effects that are\n observable on the virtual machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Effect",
           "package": "IOSpec",
@@ -1291,6 +1400,7 @@
         "index": {
           "description": "The Effect type contains all the primitive effects that are observable on the virtual machine",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Effect",
           "package": "IOSpec",
@@ -1305,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eExecutable\u003c/a\u003e\u003c/code\u003e type class captures all the different types of\n operations that can be executed in the \u003ccode\u003e\u003ca\u003eVM\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Executable",
           "package": "IOSpec",
@@ -1314,6 +1425,7 @@
         "index": {
           "description": "The Executable type class captures all the different types of operations that can be executed in the VM monad",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Executable",
           "package": "IOSpec",
@@ -1327,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Loc",
           "package": "IOSpec",
@@ -1335,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Loc",
           "package": "IOSpec",
@@ -1348,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Scheduler",
           "package": "IOSpec",
@@ -1356,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Scheduler",
           "package": "IOSpec",
@@ -1369,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Step",
           "package": "IOSpec",
@@ -1377,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Step",
           "package": "IOSpec",
@@ -1390,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Store",
           "package": "IOSpec",
@@ -1398,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Store",
           "package": "IOSpec",
@@ -1411,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "ThreadId",
           "package": "IOSpec",
@@ -1419,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "ThreadId",
           "package": "IOSpec",
@@ -1433,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eVM\u003c/a\u003e\u003c/code\u003e monad is essentially a state monad, modifying the\n store. Besides returning pure values, various primitive effects\n may occur, such as printing characters or failing with an error\n message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "VM",
           "package": "IOSpec",
@@ -1442,6 +1565,7 @@
         "index": {
           "description": "The VM monad is essentially state monad modifying the store Besides returning pure values various primitive effects may occur such as printing characters or failing with an error message",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "VM",
           "package": "IOSpec",
@@ -1455,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Block",
           "package": "IOSpec",
@@ -1464,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Block",
           "package": "IOSpec",
@@ -1477,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Done",
           "package": "IOSpec",
@@ -1486,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Done",
           "package": "IOSpec",
@@ -1499,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Fail",
           "package": "IOSpec",
@@ -1508,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Fail",
           "package": "IOSpec",
@@ -1521,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Print",
           "package": "IOSpec",
@@ -1530,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Print",
           "package": "IOSpec",
@@ -1543,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "ReadChar",
           "package": "IOSpec",
@@ -1552,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "ReadChar",
           "normalized": "ReadChar(Char-\u003eEffect a)",
@@ -1567,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Step",
           "package": "IOSpec",
@@ -1576,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "Step",
           "package": "IOSpec",
@@ -1590,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ealloc\u003c/a\u003e\u003c/code\u003e function allocate a fresh location on the heap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "alloc",
           "package": "IOSpec",
@@ -1600,6 +1737,7 @@
         "index": {
           "description": "The alloc function allocate fresh location on the heap",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "alloc",
           "package": "IOSpec",
@@ -1613,6 +1751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eemptyLoc\u003c/a\u003e\u003c/code\u003e function removes the data stored at a given\n location. This corresponds, for instance, to emptying an \u003ccode\u003eMVar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "emptyLoc",
           "package": "IOSpec",
@@ -1623,6 +1762,7 @@
         "index": {
           "description": "The emptyLoc function removes the data stored at given location This corresponds for instance to emptying an MVar",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "emptyLoc",
           "normalized": "Loc-\u003eVM()",
@@ -1639,6 +1779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eevalIOSpec\u003c/a\u003e\u003c/code\u003e function returns the effects a computation\n yields, but discards the final state of the virtual machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "evalIOSpec",
           "package": "IOSpec",
@@ -1649,6 +1790,7 @@
         "index": {
           "description": "The evalIOSpec function returns the effects computation yields but discards the final state of the virtual machine",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "evalIOSpec",
           "normalized": "IOSpec a b-\u003eScheduler-\u003eEffect b",
@@ -1665,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eexecIOSpec\u003c/a\u003e\u003c/code\u003e returns the final \u003ccode\u003e\u003ca\u003eStore\u003c/a\u003e\u003c/code\u003e after executing a\n computation.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eBeware\u003c/em\u003e: this function assumes that your computation will\n succeed, without any other visible \u003ccode\u003e\u003ca\u003eEffect\u003c/a\u003e\u003c/code\u003e. If your computation\n reads a character from the teletype, for instance, it will return\n an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "execIOSpec",
           "package": "IOSpec",
@@ -1675,6 +1818,7 @@
         "index": {
           "description": "The execIOSpec returns the final Store after executing computation Beware this function assumes that your computation will succeed without any other visible Effect If your computation reads character from the teletype for instance it will return an error",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "execIOSpec",
           "normalized": "IOSpec a b-\u003eScheduler-\u003eStore",
@@ -1691,6 +1835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efinishThread\u003c/a\u003e\u003c/code\u003e function kills the thread with the specified\n \u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "finishThread",
           "package": "IOSpec",
@@ -1701,6 +1846,7 @@
         "index": {
           "description": "The finishThread function kills the thread with the specified ThreadId",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "finishThread",
           "normalized": "ThreadId-\u003eVM()",
@@ -1717,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efreshThreadId\u003c/a\u003e\u003c/code\u003e function returns a previously unallocated \u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "freshThreadId",
           "package": "IOSpec",
@@ -1727,6 +1874,7 @@
         "index": {
           "description": "The freshThreadId function returns previously unallocated ThreadId",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "freshThreadId",
           "package": "IOSpec",
@@ -1740,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "initialStore",
           "package": "IOSpec",
@@ -1749,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "initialStore",
           "normalized": "Scheduler-\u003eStore",
@@ -1765,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003elookupHeap\u003c/a\u003e\u003c/code\u003e function returns the data stored at a given\n heap location, if there is any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "lookupHeap",
           "package": "IOSpec",
@@ -1775,6 +1926,7 @@
         "index": {
           "description": "The lookupHeap function returns the data stored at given heap location if there is any",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "lookupHeap",
           "normalized": "Loc-\u003eVM(Maybe Data)",
@@ -1791,6 +1943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emainTid\u003c/a\u003e\u003c/code\u003e constant is the \u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e of the main process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "mainTid",
           "package": "IOSpec",
@@ -1801,6 +1954,7 @@
         "index": {
           "description": "The mainTid constant is the ThreadId of the main process",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "mainTid",
           "package": "IOSpec",
@@ -1814,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "printChar",
           "package": "IOSpec",
@@ -1823,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "printChar",
           "normalized": "Char-\u003eVM()",
@@ -1839,6 +1995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereadChar\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eprintChar\u003c/a\u003e\u003c/code\u003e functions are the primitive\n counterparts of \u003ccode\u003e\u003ca\u003egetChar\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eputChar\u003c/a\u003e\u003c/code\u003e in the \u003ccode\u003e\u003ca\u003eVM\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "readChar",
           "package": "IOSpec",
@@ -1849,6 +2006,7 @@
         "index": {
           "description": "The readChar and printChar functions are the primitive counterparts of getChar and putChar in the VM monad",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "readChar",
           "package": "IOSpec",
@@ -1863,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eroundRobin\u003c/a\u003e\u003c/code\u003e scheduler provides a simple round-robin scheduler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "roundRobin",
           "package": "IOSpec",
@@ -1873,6 +2032,7 @@
         "index": {
           "description": "The roundRobin scheduler provides simple round-robin scheduler",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "roundRobin",
           "package": "IOSpec",
@@ -1887,6 +2047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003erunIOSpec\u003c/a\u003e\u003c/code\u003e function is the heart of this library.  Given\n the scheduling algorithm you want to use, it will run a value of\n type \u003ccode\u003e\u003ca\u003eIOSpec\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e, returning the sequence of observable effects\n together with the final store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "runIOSpec",
           "package": "IOSpec",
@@ -1897,6 +2058,7 @@
         "index": {
           "description": "The runIOSpec function is the heart of this library Given the scheduling algorithm you want to use it will run value of type IOSpec returning the sequence of observable effects together with the final store",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "runIOSpec",
           "normalized": "IOSpec a b-\u003eScheduler-\u003eEffect(b,Store)",
@@ -1913,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esingleThreaded\u003c/a\u003e\u003c/code\u003e scheduler will never schedule forked\n threads, always scheduling the main thread. Only use this\n scheduler if your code is not concurrent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "singleThreaded",
           "package": "IOSpec",
@@ -1923,6 +2086,7 @@
         "index": {
           "description": "The singleThreaded scheduler will never schedule forked threads always scheduling the main thread Only use this scheduler if your code is not concurrent",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "singleThreaded",
           "package": "IOSpec",
@@ -1936,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "step",
           "package": "IOSpec",
@@ -1945,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "step",
           "normalized": "a b-\u003eVM(Step b)",
@@ -1960,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eupdateHeap\u003c/a\u003e\u003c/code\u003e function overwrites a given location with\n new data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "updateHeap",
           "package": "IOSpec",
@@ -1970,6 +2137,7 @@
         "index": {
           "description": "The updateHeap function overwrites given location with new data",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "updateHeap",
           "normalized": "Loc-\u003eData-\u003eVM()",
@@ -1986,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eupdateSoup\u003c/a\u003e\u003c/code\u003e function updates the process associated with a\n given \u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "updateSoup",
           "package": "IOSpec",
@@ -1996,6 +2165,7 @@
         "index": {
           "description": "The updateSoup function updates the process associated with given ThreadId",
           "hierarchy": "Test IOSpec VirtualMachine",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec.VirtualMachine",
           "name": "updateSoup",
           "normalized": "ThreadId-\u003eIOSpec a b-\u003eVM()",
@@ -2011,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:39 UTC 2014",
           "module": "Test.IOSpec",
           "name": "IOSpec",
           "package": "IOSpec",
@@ -2019,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Test IOSpec",
+          "indexed": "2014-03-11T16:49:39",
           "module": "Test.IOSpec",
           "name": "IOSpec",
           "package": "IOSpec",

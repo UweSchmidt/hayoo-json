@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "expand"
+        "phrase": "expand",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:10 UTC 2014",
           "module": "Testing",
           "name": "Testing",
           "package": "expand",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Testing",
+          "indexed": "2014-03-11T18:05:10",
           "module": "Testing",
           "name": "Testing",
           "package": "expand",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a converter tool from an extensible grammar fragment and\n   a label of the synthesized output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:10 UTC 2014",
           "module": "Testing",
           "name": "buildConverter",
           "package": "expand",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Builds converter tool from an extensible grammar fragment and label of the synthesized output",
           "hierarchy": "Testing",
+          "indexed": "2014-03-11T18:05:10",
           "module": "Testing",
           "name": "buildConverter",
           "normalized": "(a b ExtGram c(Record HNil-\u003ed)e)-\u003ef-\u003eString-\u003eg",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:10 UTC 2014",
           "module": "Testing",
           "name": "doc",
           "package": "expand",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Testing",
+          "indexed": "2014-03-11T18:05:10",
           "module": "Testing",
           "name": "doc",
           "package": "expand",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:10 UTC 2014",
           "module": "Testing",
           "name": "ex",
           "package": "expand",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Testing",
+          "indexed": "2014-03-11T18:05:10",
           "module": "Testing",
           "name": "ex",
           "normalized": "IO()",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:10 UTC 2014",
           "module": "Testing",
           "name": "html2html",
           "package": "expand",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Testing",
+          "indexed": "2014-03-11T18:05:10",
           "module": "Testing",
           "name": "html2html",
           "normalized": "[Char]-\u003e[Char]",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:10 UTC 2014",
           "module": "Testing",
           "name": "latex2html",
           "package": "expand",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Testing",
+          "indexed": "2014-03-11T18:05:10",
           "module": "Testing",
           "name": "latex2html",
           "normalized": "String-\u003e[Char]",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:10 UTC 2014",
           "module": "Testing",
           "name": "latex2html'",
           "package": "expand",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Testing",
+          "indexed": "2014-03-11T18:05:10",
           "module": "Testing",
           "name": "latex2html'",
           "normalized": "String-\u003e[Char]",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:10 UTC 2014",
           "module": "Testing",
           "name": "latex2html''",
           "package": "expand",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Testing",
+          "indexed": "2014-03-11T18:05:10",
           "module": "Testing",
           "name": "latex2html''",
           "normalized": "String-\u003e[Char]",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:10 UTC 2014",
           "module": "Testing",
           "name": "test",
           "package": "expand",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Testing",
+          "indexed": "2014-03-11T18:05:10",
           "module": "Testing",
           "name": "test",
           "normalized": "String-\u003eParseResult[[Char]]",

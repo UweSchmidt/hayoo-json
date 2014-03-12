@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hjsmin"
+        "phrase": "hjsmin",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:39 UTC 2014",
           "module": "Text.Jasmine",
           "name": "Jasmine",
           "package": "hjsmin",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Jasmine",
+          "indexed": "2014-03-11T18:40:39",
           "module": "Text.Jasmine",
           "name": "Jasmine",
           "package": "hjsmin",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:39 UTC 2014",
           "module": "Text.Jasmine",
           "name": "minify",
           "package": "hjsmin",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Jasmine",
+          "indexed": "2014-03-11T18:40:39",
           "module": "Text.Jasmine",
           "name": "minify",
           "normalized": "ByteString-\u003eByteString",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:39 UTC 2014",
           "module": "Text.Jasmine",
           "name": "minifyBb",
           "package": "hjsmin",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Jasmine",
+          "indexed": "2014-03-11T18:40:39",
           "module": "Text.Jasmine",
           "name": "minifyBb",
           "normalized": "ByteString-\u003eEither String Builder",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:39 UTC 2014",
           "module": "Text.Jasmine",
           "name": "minifyFile",
           "package": "hjsmin",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text Jasmine",
+          "indexed": "2014-03-11T18:40:39",
           "module": "Text.Jasmine",
           "name": "minifyFile",
           "normalized": "FilePath-\u003eIO ByteString",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:39 UTC 2014",
           "module": "Text.Jasmine",
           "name": "minifym",
           "package": "hjsmin",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Text Jasmine",
+          "indexed": "2014-03-11T18:40:39",
           "module": "Text.Jasmine",
           "name": "minifym",
           "normalized": "ByteString-\u003eEither String ByteString",

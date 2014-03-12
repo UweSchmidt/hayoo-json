@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "largeword"
+        "phrase": "largeword",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides Word128, Word192 and Word256 and a way of producing other\n large words if required.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:20 UTC 2014",
           "module": "Data.LargeWord",
           "name": "LargeWord",
           "package": "largeword",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides Word128 Word192 and Word256 and way of producing other large words if required",
           "hierarchy": "Data LargeWord",
+          "indexed": "2014-03-11T19:06:20",
           "module": "Data.LargeWord",
           "name": "LargeWord",
           "package": "largeword",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:20 UTC 2014",
           "module": "Data.LargeWord",
           "name": "LargeKey",
           "package": "largeword",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data LargeWord",
+          "indexed": "2014-03-11T19:06:20",
           "module": "Data.LargeWord",
           "name": "LargeKey",
           "package": "largeword",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:20 UTC 2014",
           "module": "Data.LargeWord",
           "name": "Word128",
           "package": "largeword",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data LargeWord",
+          "indexed": "2014-03-11T19:06:20",
           "module": "Data.LargeWord",
           "name": "Word128",
           "package": "largeword",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:20 UTC 2014",
           "module": "Data.LargeWord",
           "name": "Word160",
           "package": "largeword",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data LargeWord",
+          "indexed": "2014-03-11T19:06:20",
           "module": "Data.LargeWord",
           "name": "Word160",
           "package": "largeword",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:20 UTC 2014",
           "module": "Data.LargeWord",
           "name": "Word192",
           "package": "largeword",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data LargeWord",
+          "indexed": "2014-03-11T19:06:20",
           "module": "Data.LargeWord",
           "name": "Word192",
           "package": "largeword",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:20 UTC 2014",
           "module": "Data.LargeWord",
           "name": "Word224",
           "package": "largeword",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data LargeWord",
+          "indexed": "2014-03-11T19:06:20",
           "module": "Data.LargeWord",
           "name": "Word224",
           "package": "largeword",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:20 UTC 2014",
           "module": "Data.LargeWord",
           "name": "Word256",
           "package": "largeword",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data LargeWord",
+          "indexed": "2014-03-11T19:06:20",
           "module": "Data.LargeWord",
           "name": "Word256",
           "package": "largeword",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:20 UTC 2014",
           "module": "Data.LargeWord",
           "name": "Word96",
           "package": "largeword",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data LargeWord",
+          "indexed": "2014-03-11T19:06:20",
           "module": "Data.LargeWord",
           "name": "Word96",
           "package": "largeword",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:20 UTC 2014",
           "module": "Data.LargeWord",
           "name": "LargeKey",
           "package": "largeword",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Data LargeWord",
+          "indexed": "2014-03-11T19:06:20",
           "module": "Data.LargeWord",
           "name": "LargeKey",
           "package": "largeword",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:20 UTC 2014",
           "module": "Data.LargeWord",
           "name": "hiHalf",
           "package": "largeword",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Data LargeWord",
+          "indexed": "2014-03-11T19:06:20",
           "module": "Data.LargeWord",
           "name": "hiHalf",
           "normalized": "LargeKey a a-\u003ea",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:20 UTC 2014",
           "module": "Data.LargeWord",
           "name": "loHalf",
           "package": "largeword",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Data LargeWord",
+          "indexed": "2014-03-11T19:06:20",
           "module": "Data.LargeWord",
           "name": "loHalf",
           "normalized": "LargeKey a a-\u003ea",

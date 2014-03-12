@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "typalyze"
+        "phrase": "typalyze",
+        "type": "phrase"
       },
       "type": "context"
     }

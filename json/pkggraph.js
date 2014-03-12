@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pkggraph"
+        "phrase": "pkggraph",
+        "type": "phrase"
       },
       "type": "context"
     }

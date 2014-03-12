@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gact"
+        "phrase": "gact",
+        "type": "phrase"
       },
       "type": "context"
     }

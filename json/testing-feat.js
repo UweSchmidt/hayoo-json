@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "testing-feat"
+        "phrase": "testing-feat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for accessing the values of enumerations including \n compatibility with the property based testing frameworks QuickCheck and\n SmallCheck.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "Access",
           "package": "testing-feat",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions for accessing the values of enumerations including compatibility with the property based testing frameworks QuickCheck and SmallCheck",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "Access",
           "package": "testing-feat",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions that test a property and reports the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "Report",
           "package": "testing-feat",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Functions that test property and reports the result",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "Report",
           "package": "testing-feat",
@@ -91,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon class version of \u003ccode\u003e\u003ca\u003ebounded\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "boundedWith",
           "package": "testing-feat",
@@ -101,6 +106,7 @@
         "index": {
           "description": "Non class version of bounded",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "boundedWith",
           "normalized": "Enumerate a-\u003eInteger-\u003e[(Integer,[a])]",
@@ -170,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon class version of \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "indexWith",
           "package": "testing-feat",
@@ -180,6 +187,7 @@
         "index": {
           "description": "Non class version of index",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "indexWith",
           "normalized": "Enumerate a-\u003eInteger-\u003ea",
@@ -304,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a function and a predicate on its input/output pairs. \n Reports counterexamples by printing the failing input/output pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "prePostRep",
           "package": "testing-feat",
@@ -314,6 +323,7 @@
         "index": {
           "description": "Takes function and predicate on its input output pairs Reports counterexamples by printing the failing input output pair",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "prePostRep",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb-\u003eBool)-\u003eReport a",
@@ -356,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon class version of \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "selectWith",
           "package": "testing-feat",
@@ -366,6 +377,7 @@
         "index": {
           "description": "Non class version of select",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "selectWith",
           "normalized": "Enumerate a-\u003eInt-\u003eIndex-\u003ea",
@@ -382,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalisation of \u003ccode\u003evalues\u003c/code\u003e that enumerates every nth value of the \n enumeration from a given starting point.\n As a special case \u003ccode\u003evalues = striped 0 1\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eUseful for running enumerations in parallel since e.g. \u003ccode\u003estriped 0 2\u003c/code\u003e is \n disjoint from \u003ccode\u003estriped 0 1 2\u003c/code\u003e and the union of the two cover all values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "striped",
           "package": "testing-feat",
@@ -392,6 +405,7 @@
         "index": {
           "description": "generalisation of values that enumerates every nth value of the enumeration from given starting point As special case values striped Useful for running enumerations in parallel since e.g striped is disjoint from striped and the union of the two cover all values",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "striped",
           "normalized": "Index-\u003eInteger-\u003e[(Integer,[a])]",
@@ -407,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon class version of \u003ccode\u003e\u003ca\u003estriped\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "stripedWith",
           "package": "testing-feat",
@@ -417,6 +432,7 @@
         "index": {
           "description": "Non class version of striped",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "stripedWith",
           "normalized": "Enumerate a-\u003eIndex-\u003eInteger-\u003e[(Integer,[a])]",
@@ -433,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompatibility with SmallCheck. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "toSeries",
           "package": "testing-feat",
@@ -443,6 +460,7 @@
         "index": {
           "description": "Compatibility with SmallCheck",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "toSeries",
           "normalized": "Int-\u003e[a]",
@@ -459,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon class version of \u003ccode\u003e\u003ca\u003etoSeries\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "toSeriesWith",
           "package": "testing-feat",
@@ -469,6 +488,7 @@
         "index": {
           "description": "Non class version of toSeries",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "toSeriesWith",
           "normalized": "Enumerate a-\u003eInt-\u003e[a]",
@@ -511,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon class version of \u003ccode\u003e\u003ca\u003euniform\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "uniformWith",
           "package": "testing-feat",
@@ -521,6 +542,7 @@
         "index": {
           "description": "Non class version of uniform",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "uniformWith",
           "normalized": "Enumerate a-\u003eInt-\u003eGen a",
@@ -563,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon class version of \u003ccode\u003e\u003ca\u003evalues\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Access",
           "name": "valuesWith",
           "package": "testing-feat",
@@ -573,6 +596,7 @@
         "index": {
           "description": "Non class version of values",
           "hierarchy": "Test Feat Access",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Access",
           "name": "valuesWith",
           "normalized": "Enumerate a-\u003e[(Integer,[a])]",
@@ -589,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAnexperimental feature to override the \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e instance for any type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class.Override",
           "name": "Override",
           "package": "testing-feat",
@@ -598,6 +623,7 @@
         "index": {
           "description": "Anexperimental feature to override the Enumerable instance for any type",
           "hierarchy": "Test Feat Class Override",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class.Override",
           "name": "Override",
           "package": "testing-feat",
@@ -611,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class.Override",
           "name": "Override",
           "package": "testing-feat",
@@ -619,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Class Override",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class.Override",
           "name": "Override",
           "package": "testing-feat",
@@ -632,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class.Override",
           "name": "addOverride",
           "package": "testing-feat",
@@ -641,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Class Override",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class.Override",
           "name": "addOverride",
           "normalized": "Enumerate a-\u003eOverride-\u003eOverride",
@@ -656,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class.Override",
           "name": "noOverride",
           "package": "testing-feat",
@@ -665,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Class Override",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class.Override",
           "name": "noOverride",
           "package": "testing-feat",
@@ -679,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is best described with an example:\n\u003c/p\u003e\u003cpre\u003e\n    let e1 = override $ addOverride (unary \u003ccode\u003e\u003ca\u003eprintable\u003c/a\u003e\u003c/code\u003e) noOverride :: Enumerate T\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003ee1\u003c/code\u003e enumerates values of type \u003ccode\u003eT\u003c/code\u003e where all characters (accessed using \n the \u003ccode\u003eEnumerable\u003c/code\u003e instance for \u003ccode\u003eChar\u003c/code\u003e) are printable. Sometimes this can save \n you from placing lots of \u003ccode\u003e\u003ca\u003eprintable\u003c/a\u003e\u003c/code\u003e modifiers in your instances or \n newtypes in your data type definitions.\n\u003c/p\u003e\u003cp\u003eThis works for any type (not just characters). This function should typically \n not be used when combining enumerations (doing so might increase memory \n usage because the resulting enumeration is optimised).\n Also this only has effect on enumerations which have not already been \n optimised, so using override again on the result of override has no effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class.Override",
           "name": "override",
           "package": "testing-feat",
@@ -689,6 +722,7 @@
         "index": {
           "description": "This function is best described with an example let e1 override addOverride unary printable noOverride Enumerate e1 enumerates values of type where all characters accessed using the Enumerable instance for Char are printable Sometimes this can save you from placing lots of printable modifiers in your instances or newtypes in your data type definitions This works for any type not just characters This function should typically not be used when combining enumerations doing so might increase memory usage because the resulting enumeration is optimised Also this only has effect on enumerations which have not already been optimised so using override again on the result of override has no effect",
           "hierarchy": "Test Feat Class Override",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class.Override",
           "name": "override",
           "normalized": "Override-\u003eEnumerate a",
@@ -704,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEverything you need to construct an enumeration for an algebraic type.\n Just define each constructor using pure for nullary constructors and \n unary and funcurry for positive arity constructors, then combine the \n constructors with consts. Example:\n\u003c/p\u003e\u003cpre\u003e\n  instance Enumerable a =\u003e Enumerable [a] where\n    enumerate = consts [unary (funcurry (:)), pure []]\n\u003c/pre\u003e\u003cp\u003eThere's also a handy Template Haskell function for automatic derivation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class",
           "name": "Class",
           "package": "testing-feat",
@@ -713,6 +748,7 @@
         "index": {
           "description": "Everything you need to construct an enumeration for an algebraic type Just define each constructor using pure for nullary constructors and unary and funcurry for positive arity constructors then combine the constructors with consts Example instance Enumerable Enumerable where enumerate consts unary funcurry pure There also handy Template Haskell function for automatic derivation",
           "hierarchy": "Test Feat Class",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class",
           "name": "Class",
           "package": "testing-feat",
@@ -726,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class",
           "name": "Constructor",
           "package": "testing-feat",
@@ -734,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Class",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class",
           "name": "Constructor",
           "package": "testing-feat",
@@ -747,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class",
           "name": "ConstructorDeriv",
           "package": "testing-feat",
@@ -755,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Class",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class",
           "name": "ConstructorDeriv",
           "package": "testing-feat",
@@ -769,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of functionally enumerable types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class",
           "name": "Enumerable",
           "package": "testing-feat",
@@ -778,6 +819,7 @@
         "index": {
           "description": "class of functionally enumerable types",
           "hierarchy": "Test Feat Class",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class",
           "name": "Enumerable",
           "package": "testing-feat",
@@ -792,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA free pair constructor. The cost of constructing a free pair\n is equal to the sum of the costs of its components. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class",
           "name": "FreePair",
           "package": "testing-feat",
@@ -801,6 +844,7 @@
         "index": {
           "description": "free pair constructor The cost of constructing free pair is equal to the sum of the costs of its components",
           "hierarchy": "Test Feat Class",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class",
           "name": "FreePair",
           "package": "testing-feat",
@@ -863,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class",
           "name": "dAll",
           "package": "testing-feat",
@@ -872,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Class",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class",
           "name": "dAll",
           "normalized": "Name-\u003eConstructorDeriv",
@@ -887,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class",
           "name": "dExcept",
           "package": "testing-feat",
@@ -896,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Class",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class",
           "name": "dExcept",
           "normalized": "Name-\u003eExpQ-\u003eConstructorDeriv-\u003eConstructorDeriv",
@@ -911,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class",
           "name": "dExcluding",
           "package": "testing-feat",
@@ -920,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Class",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class",
           "name": "dExcluding",
           "normalized": "Name-\u003eConstructorDeriv-\u003eConstructorDeriv",
@@ -963,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of Enumberable with Template Haskell, with \n rules for some specific constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class",
           "name": "deriveEnumerable'",
           "package": "testing-feat",
@@ -973,6 +1024,7 @@
         "index": {
           "description": "Derive an instance of Enumberable with Template Haskell with rules for some specific constructors",
           "hierarchy": "Test Feat Class",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class",
           "name": "deriveEnumerable'",
           "normalized": "ConstructorDeriv-\u003eQ[Dec]",
@@ -989,6 +1041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the interface for defining an instance. When combining \n enumerations use \u003ccode\u003e\u003ca\u003eshared\u003c/a\u003e\u003c/code\u003e instead and when accessing the data of \n enumerations use \u003ccode\u003e\u003ca\u003eoptimal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Class",
           "name": "enumerate",
           "package": "testing-feat",
@@ -999,6 +1052,7 @@
         "index": {
           "description": "This is the interface for defining an instance When combining enumerations use shared instead and when accessing the data of enumerations use optimal",
           "hierarchy": "Test Feat Class",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Class",
           "name": "enumerate",
           "package": "testing-feat",
@@ -1162,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic combinators for building enumerations\n most users will want to use the type class \n based combinators in \u003ca\u003eTest.Feat.Class\u003c/a\u003e instead. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "Enumerate",
           "package": "testing-feat",
@@ -1171,6 +1226,7 @@
         "index": {
           "description": "Basic combinators for building enumerations most users will want to use the type class based combinators in Test.Feat.Class instead",
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "Enumerate",
           "package": "testing-feat",
@@ -1185,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA functional enumeration of type \u003ccode\u003et\u003c/code\u003e is a partition of\n \u003ccode\u003et\u003c/code\u003e into finite numbered sets called Parts. Each parts contains values\n of a certain cost (typically the size of the value).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "Enumerate",
           "package": "testing-feat",
@@ -1194,6 +1251,7 @@
         "index": {
           "description": "functional enumeration of type is partition of into finite numbered sets called Parts Each parts contains values of certain cost typically the size of the value",
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "Enumerate",
           "package": "testing-feat",
@@ -1207,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "Finite",
           "package": "testing-feat",
@@ -1215,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "Finite",
           "package": "testing-feat",
@@ -1228,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "Index",
           "package": "testing-feat",
@@ -1236,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "Index",
           "package": "testing-feat",
@@ -1250,6 +1312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure that contains a list and the reversals of all initial \n segments of the list. Intuitively \n\u003c/p\u003e\u003cpre\u003ereversals xs !! n = reverse (take (n+1) (fromRev xs))\u003c/pre\u003e\u003cp\u003eAny operation on a \u003ccode\u003eRevList\u003c/code\u003e typically discards the reversals and constructs\n new reversals on demand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "RevList",
           "package": "testing-feat",
@@ -1259,6 +1322,7 @@
         "index": {
           "description": "data structure that contains list and the reversals of all initial segments of the list Intuitively reversals xs reverse take fromRev xs Any operation on RevList typically discards the reversals and constructs new reversals on demand",
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "RevList",
           "package": "testing-feat",
@@ -1272,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "Tag",
           "package": "testing-feat",
@@ -1280,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "Tag",
           "package": "testing-feat",
@@ -1293,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "Enumerate",
           "package": "testing-feat",
@@ -1302,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "Enumerate",
           "package": "testing-feat",
@@ -1315,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "Finite",
           "package": "testing-feat",
@@ -1324,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "Finite",
           "package": "testing-feat",
@@ -1337,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "RevList",
           "package": "testing-feat",
@@ -1346,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "RevList",
           "package": "testing-feat",
@@ -1359,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "Source",
           "package": "testing-feat",
@@ -1368,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "Source",
           "package": "testing-feat",
@@ -1381,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "cartesian",
           "package": "testing-feat",
@@ -1390,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "cartesian",
           "normalized": "Enumerate a-\u003eEnumerate b-\u003eEnumerate(a,b)",
@@ -1404,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "eShare",
           "package": "testing-feat",
@@ -1413,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "eShare",
           "normalized": "Tag-\u003eEnumerate a-\u003eEnumerate a",
@@ -1428,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "fCard",
           "package": "testing-feat",
@@ -1437,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "fCard",
           "package": "testing-feat",
@@ -1450,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "fIndex",
           "package": "testing-feat",
@@ -1459,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "fIndex",
           "normalized": "Index-\u003ea",
@@ -1474,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "fromFinite",
           "package": "testing-feat",
@@ -1483,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "fromFinite",
           "normalized": "Finite a-\u003e(Index,[a])",
@@ -1498,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "fromParts",
           "package": "testing-feat",
@@ -1507,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "fromParts",
           "normalized": "[Finite a]-\u003eEnumerate a",
@@ -1522,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "fromRev",
           "package": "testing-feat",
@@ -1531,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "fromRev",
           "normalized": "[a]",
@@ -1547,6 +1635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to avoid non-termination of \u003ccode\u003e\u003ca\u003eoptimise\u003c/a\u003e\u003c/code\u003e in the presence of \n irregular data types. \u003ccode\u003eirregular\u003c/code\u003e should be applied to the enumeration for the \n constructor that introduces the irregularity. Excessive use may impact \n performance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "irregular",
           "package": "testing-feat",
@@ -1557,6 +1646,7 @@
         "index": {
           "description": "Used to avoid non-termination of optimise in the presence of irregular data types irregular should be applied to the enumeration for the constructor that introduces the irregularity Excessive use may impact performance",
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "irregular",
           "normalized": "Enumerate a-\u003eEnumerate a",
@@ -1571,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "noOptim",
           "package": "testing-feat",
@@ -1580,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "noOptim",
           "normalized": "Enumerate a-\u003eEnumerate a",
@@ -1595,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "optimise",
           "package": "testing-feat",
@@ -1604,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "optimise",
           "normalized": "Enumerate a-\u003eEnumerate a",
@@ -1618,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "optimiser",
           "package": "testing-feat",
@@ -1627,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "optimiser",
           "package": "testing-feat",
@@ -1639,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "parts",
           "package": "testing-feat",
@@ -1648,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "parts",
           "normalized": "Enumerate a-\u003e[Finite a]",
@@ -1663,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncreases the cost of all values in an enumeration by one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "pay",
           "package": "testing-feat",
@@ -1673,6 +1772,7 @@
         "index": {
           "description": "Increases the cost of all values in an enumeration by one",
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "pay",
           "normalized": "Enumerate a-\u003eEnumerate a",
@@ -1687,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "revParts",
           "package": "testing-feat",
@@ -1696,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "revParts",
           "package": "testing-feat",
@@ -1709,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "reversals",
           "package": "testing-feat",
@@ -1718,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "reversals",
           "normalized": "[[a]]",
@@ -1733,6 +1837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe definition of \u003ccode\u003epure\u003c/code\u003e for the applicative instance. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "singleton",
           "package": "testing-feat",
@@ -1743,6 +1848,7 @@
         "index": {
           "description": "The definition of pure for the applicative instance",
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "singleton",
           "normalized": "a-\u003eEnumerate a",
@@ -1757,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "tag",
           "package": "testing-feat",
@@ -1766,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "tag",
           "package": "testing-feat",
@@ -1779,6 +1887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ca\u003eReverse list\u003c/a\u003e variant of a given list. In a sensible \n Haskell implementation evaluating any inital segment of \n \u003ccode\u003e\u003ccode\u003e\u003ca\u003ereversals\u003c/a\u003e\u003c/code\u003e (toRev xs)\u003c/code\u003e uses linear memory in the size of the segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "toRev",
           "package": "testing-feat",
@@ -1789,6 +1898,7 @@
         "index": {
           "description": "Constructs Reverse list variant of given list In sensible Haskell implementation evaluating any inital segment of reversals toRev xs uses linear memory in the size of the segment",
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "toRev",
           "normalized": "[a]-\u003eRevList a",
@@ -1804,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Enumerate",
           "name": "union",
           "package": "testing-feat",
@@ -1813,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Enumerate",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Enumerate",
           "name": "union",
           "normalized": "Enumerate a-\u003eEnumerate a-\u003eEnumerate a",
@@ -1828,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModifiers for types, i.e. newtype wrappers where the values satisfy some \n constraint (non-empty, positive etc.). Suggestions on useful types are \n appreciated.\n\u003c/p\u003e\u003cp\u003eTo apply the modifiers types you can use the record label. For instance:\n\u003c/p\u003e\u003cpre\u003e\n  data C a = C [a] [a] deriving \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e\n  instance \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e a =\u003e \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e (C a) where\n     \u003ccode\u003e\u003ca\u003eenumerate\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eunary\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003efuncurry\u003c/a\u003e\u003c/code\u003e $ \n       \\xs ys -\u003e C (\u003ccode\u003e\u003ca\u003enonEmpty\u003c/a\u003e\u003c/code\u003e xs) (\u003ccode\u003e\u003ca\u003enonEmpty\u003c/a\u003e\u003c/code\u003e ys)\n\u003c/pre\u003e\u003cp\u003eAlternatively you can put everything in pattern postition:\n\u003c/p\u003e\u003cpre\u003e\n  instance \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e a =\u003e \u003ccode\u003e\u003ca\u003eEnumerable\u003c/a\u003e\u003c/code\u003e (C a) where\n     \u003ccode\u003e\u003ca\u003eenumerate\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eunary\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003efuncurry\u003c/a\u003e\u003c/code\u003e $ \n       \\(\u003ccode\u003e\u003ca\u003eFree\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eNonEmpty\u003c/a\u003e\u003c/code\u003e xs,\u003ccode\u003e\u003ca\u003eNonEmpty\u003c/a\u003e\u003c/code\u003e ys)) -\u003e C xs ys)\n\u003c/pre\u003e\u003cp\u003eThe first approach has the advantage of being usable with a \n point free style: \u003ccode\u003e \\xs -\u003e C (\u003ccode\u003e\u003ca\u003enonEmpty\u003c/a\u003e\u003c/code\u003e xs) . \u003ccode\u003e\u003ca\u003enonEmpty\u003c/a\u003e\u003c/code\u003e \u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "Modifiers",
           "package": "testing-feat",
@@ -1837,6 +1950,7 @@
         "index": {
           "description": "Modifiers for types i.e newtype wrappers where the values satisfy some constraint non-empty positive etc Suggestions on useful types are appreciated To apply the modifiers types you can use the record label For instance data deriving Typeable instance Enumerable Enumerable where enumerate unary funcurry xs ys nonEmpty xs nonEmpty ys Alternatively you can put everything in pattern postition instance Enumerable Enumerable where enumerate unary funcurry Free NonEmpty xs NonEmpty ys xs ys The first approach has the advantage of being usable with point free style xs nonEmpty xs nonEmpty",
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "Modifiers",
           "package": "testing-feat",
@@ -1851,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of infinite precision integral types. \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e is the principal \n class member.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "Infinite",
           "package": "testing-feat",
@@ -1860,6 +1975,7 @@
         "index": {
           "description": "class of infinite precision integral types Integer is the principal class member",
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "Infinite",
           "package": "testing-feat",
@@ -1874,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of (infinite precision) natural numbers such that \u003ccode\u003e nat a \u003e= 0 \u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "Nat",
           "package": "testing-feat",
@@ -1883,6 +2000,7 @@
         "index": {
           "description": "type of infinite precision natural numbers such that nat",
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "Nat",
           "package": "testing-feat",
@@ -1897,6 +2015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of non empty lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "NonEmpty",
           "package": "testing-feat",
@@ -1906,6 +2025,7 @@
         "index": {
           "description": "type of non empty lists",
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "NonEmpty",
           "package": "testing-feat",
@@ -1920,6 +2040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of (infinite precision) non-zero integers such that \u003ccode\u003e nonZero a /= 0 \u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "NonZero",
           "package": "testing-feat",
@@ -1929,6 +2050,7 @@
         "index": {
           "description": "type of infinite precision non-zero integers such that nonZero",
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "NonZero",
           "package": "testing-feat",
@@ -1943,6 +2065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrintable ASCII characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "Printable",
           "package": "testing-feat",
@@ -1952,6 +2075,7 @@
         "index": {
           "description": "Printable ASCII characters",
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "Printable",
           "package": "testing-feat",
@@ -1966,6 +2090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny unicode character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "Unicode",
           "package": "testing-feat",
@@ -1975,6 +2100,7 @@
         "index": {
           "description": "Any unicode character",
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "Unicode",
           "package": "testing-feat",
@@ -1988,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "Nat",
           "package": "testing-feat",
@@ -1997,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "Nat",
           "package": "testing-feat",
@@ -2010,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "NonEmpty",
           "package": "testing-feat",
@@ -2019,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "NonEmpty",
           "package": "testing-feat",
@@ -2032,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "NonZero",
           "package": "testing-feat",
@@ -2041,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "NonZero",
           "package": "testing-feat",
@@ -2054,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "Printable",
           "package": "testing-feat",
@@ -2063,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "Printable",
           "package": "testing-feat",
@@ -2076,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "Unicode",
           "package": "testing-feat",
@@ -2085,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "Unicode",
           "package": "testing-feat",
@@ -2098,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "mkNonEmpty",
           "package": "testing-feat",
@@ -2107,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "mkNonEmpty",
           "normalized": "(a,[a])-\u003eNonEmpty a",
@@ -2122,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "nat",
           "package": "testing-feat",
@@ -2131,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "nat",
           "package": "testing-feat",
@@ -2143,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "nonEmpty",
           "package": "testing-feat",
@@ -2152,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "nonEmpty",
           "normalized": "[a]",
@@ -2167,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "nonZero",
           "package": "testing-feat",
@@ -2176,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "nonZero",
           "package": "testing-feat",
@@ -2189,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "printable",
           "package": "testing-feat",
@@ -2198,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "printable",
           "package": "testing-feat",
@@ -2211,6 +2357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for printable ASCII strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "printables",
           "package": "testing-feat",
@@ -2221,6 +2368,7 @@
         "index": {
           "description": "Smart constructor for printable ASCII strings",
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "printables",
           "normalized": "[Printable]-\u003eString",
@@ -2235,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "unicode",
           "package": "testing-feat",
@@ -2244,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "unicode",
           "package": "testing-feat",
@@ -2257,6 +2407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for unicode strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat.Modifiers",
           "name": "unicodes",
           "package": "testing-feat",
@@ -2267,6 +2418,7 @@
         "index": {
           "description": "Smart constructor for unicode strings",
           "hierarchy": "Test Feat Modifiers",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat.Modifiers",
           "name": "unicodes",
           "normalized": "[Unicode]-\u003eString",
@@ -2282,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a (hopefully) manageable subset of the functionality\n of Feat. The rest resides only in the Test.Feat.* modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat",
           "name": "Feat",
           "package": "testing-feat",
@@ -2291,6 +2444,7 @@
         "index": {
           "description": "This module contains hopefully manageable subset of the functionality of Feat The rest resides only in the Test.Feat modules",
           "hierarchy": "Test Feat",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat",
           "name": "Feat",
           "package": "testing-feat",
@@ -2305,6 +2459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of functionally enumerable types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat",
           "name": "Enumerable",
           "package": "testing-feat",
@@ -2314,6 +2469,7 @@
         "index": {
           "description": "class of functionally enumerable types",
           "hierarchy": "Test Feat",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat",
           "name": "Enumerable",
           "package": "testing-feat",
@@ -2328,6 +2484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA functional enumeration of type \u003ccode\u003et\u003c/code\u003e is a partition of\n \u003ccode\u003et\u003c/code\u003e into finite numbered sets called Parts. Each parts contains values\n of a certain cost (typically the size of the value).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat",
           "name": "Enumerate",
           "package": "testing-feat",
@@ -2337,6 +2494,7 @@
         "index": {
           "description": "functional enumeration of type is partition of into finite numbered sets called Parts Each parts contains values of certain cost typically the size of the value",
           "hierarchy": "Test Feat",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat",
           "name": "Enumerate",
           "package": "testing-feat",
@@ -2351,6 +2509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA free pair constructor. The cost of constructing a free pair\n is equal to the sum of the costs of its components. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat",
           "name": "FreePair",
           "package": "testing-feat",
@@ -2360,6 +2519,7 @@
         "index": {
           "description": "free pair constructor The cost of constructing free pair is equal to the sum of the costs of its components",
           "hierarchy": "Test Feat",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat",
           "name": "FreePair",
           "package": "testing-feat",
@@ -2374,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions that test a property and reports the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat",
           "name": "Report",
           "package": "testing-feat",
@@ -2383,6 +2544,7 @@
         "index": {
           "description": "Functions that test property and reports the result",
           "hierarchy": "Test Feat",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat",
           "name": "Report",
           "package": "testing-feat",
@@ -2397,6 +2559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the interface for defining an instance. When combining \n enumerations use \u003ccode\u003e\u003ca\u003eshared\u003c/a\u003e\u003c/code\u003e instead and when accessing the data of \n enumerations use \u003ccode\u003e\u003ca\u003eoptimal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:50 UTC 2014",
           "module": "Test.Feat",
           "name": "enumerate",
           "package": "testing-feat",
@@ -2407,6 +2570,7 @@
         "index": {
           "description": "This is the interface for defining an instance When combining enumerations use shared instead and when accessing the data of enumerations use optimal",
           "hierarchy": "Test Feat",
+          "indexed": "2014-03-11T20:19:50",
           "module": "Test.Feat",
           "name": "enumerate",
           "package": "testing-feat",

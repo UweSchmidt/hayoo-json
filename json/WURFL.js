@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "WURFL"
+        "phrase": "WURFL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:03 UTC 2014",
           "module": "WURFL",
           "name": "wurfldb",
           "package": "WURFL",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "WURFL",
+          "indexed": "2014-03-11T17:04:03",
           "module": "WURFL",
           "name": "wurfldb",
           "normalized": "[Tree MD]",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:03 UTC 2014",
           "module": "WURFLParser",
           "name": "parseTree",
           "package": "WURFL",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "WURFLParser",
+          "indexed": "2014-03-11T17:04:03",
           "module": "WURFLParser",
           "name": "parseTree",
           "normalized": "[Tree MD]-\u003eString-\u003eEither ParseError MD",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:03 UTC 2014",
           "module": "WURFLTypes",
           "name": "MD",
           "package": "WURFL",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "WURFLTypes",
+          "indexed": "2014-03-11T17:04:03",
           "module": "WURFLTypes",
           "name": "MD",
           "package": "WURFL",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:03 UTC 2014",
           "module": "WURFLTypes",
           "name": "Tree",
           "package": "WURFL",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "WURFLTypes",
+          "indexed": "2014-03-11T17:04:03",
           "module": "WURFLTypes",
           "name": "Tree",
           "package": "WURFL",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:03 UTC 2014",
           "module": "WURFLTypes",
           "name": "Tropical",
           "package": "WURFL",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "WURFLTypes",
+          "indexed": "2014-03-11T17:04:03",
           "module": "WURFLTypes",
           "name": "Tropical",
           "package": "WURFL",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:03 UTC 2014",
           "module": "WURFLTypes",
           "name": "emptyMD",
           "package": "WURFL",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "WURFLTypes",
+          "indexed": "2014-03-11T17:04:03",
           "module": "WURFLTypes",
           "name": "emptyMD",
           "package": "WURFL",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:03 UTC 2014",
           "module": "WURFLTypes",
           "name": "tappend",
           "package": "WURFL",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "WURFLTypes",
+          "indexed": "2014-03-11T17:04:03",
           "module": "WURFLTypes",
           "name": "tappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:03 UTC 2014",
           "module": "WURFLTypes",
           "name": "tempty",
           "package": "WURFL",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "WURFLTypes",
+          "indexed": "2014-03-11T17:04:03",
           "module": "WURFLTypes",
           "name": "tempty",
           "package": "WURFL",

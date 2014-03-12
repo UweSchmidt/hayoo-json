@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ieee-utils"
+        "phrase": "ieee-utils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "FloatExceptions",
           "package": "ieee-utils",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE FloatExceptions",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "FloatExceptions",
           "package": "ieee-utils",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArithmetic exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "ArithException",
           "package": "ieee-utils",
@@ -48,6 +51,7 @@
         "index": {
           "description": "Arithmetic exceptions",
           "hierarchy": "Numeric IEEE FloatExceptions",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "ArithException",
           "package": "ieee-utils",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "Denormal",
           "package": "ieee-utils",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE FloatExceptions",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "Denormal",
           "package": "ieee-utils",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "DivideByZero",
           "package": "ieee-utils",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE FloatExceptions",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "DivideByZero",
           "package": "ieee-utils",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "LossOfPrecision",
           "package": "ieee-utils",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE FloatExceptions",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "LossOfPrecision",
           "package": "ieee-utils",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "Overflow",
           "package": "ieee-utils",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE FloatExceptions",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "Overflow",
           "package": "ieee-utils",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "Underflow",
           "package": "ieee-utils",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE FloatExceptions",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "Underflow",
           "package": "ieee-utils",
@@ -167,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears the specified exceptions from the fpu's exception register.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "clearFloatExcepts",
           "package": "ieee-utils",
@@ -177,6 +192,7 @@
         "index": {
           "description": "Clears the specified exceptions from the fpu exception register",
           "hierarchy": "Numeric IEEE FloatExceptions",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "clearFloatExcepts",
           "normalized": "[ArithException]-\u003eIO Bool",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all exceptions set in the fpu's exception register.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "getFloatExcepts",
           "package": "ieee-utils",
@@ -203,6 +220,7 @@
         "index": {
           "description": "Returns all exceptions set in the fpu exception register",
           "hierarchy": "Numeric IEEE FloatExceptions",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.FloatExceptions",
           "name": "getFloatExcepts",
           "normalized": "IO[ArithException]",
@@ -219,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe IEEE monad provides tools for enforcing sequencing of calculations such that\n  fine grained control is provided over triggering exceptions, evaluations within\n  particular rounding modes, etc. The perturb family of functions is built using this,\n  allowing pure computations paramaterized over an arbitrary Floating type to be\n  tested for numeric stability.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "Monad",
           "package": "ieee-utils",
@@ -228,6 +247,7 @@
         "index": {
           "description": "The IEEE monad provides tools for enforcing sequencing of calculations such that fine grained control is provided over triggering exceptions evaluations within particular rounding modes etc The perturb family of functions is built using this allowing pure computations paramaterized over an arbitrary Floating type to be tested for numeric stability",
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "Monad",
           "package": "ieee-utils",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "IEEE",
           "package": "ieee-utils",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "IEEE",
           "package": "ieee-utils",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "IEEE",
           "package": "ieee-utils",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "IEEE",
           "package": "ieee-utils",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForces strict evaluation of the enclosed numeric argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "calculate",
           "package": "ieee-utils",
@@ -295,6 +320,7 @@
         "index": {
           "description": "Forces strict evaluation of the enclosed numeric argument",
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "calculate",
           "normalized": "a-\u003eIEEE a",
@@ -310,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate, but also returns any floating exceptions triggered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "calculate'",
           "package": "ieee-utils",
@@ -320,6 +347,7 @@
         "index": {
           "description": "Calculate but also returns any floating exceptions triggered",
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "calculate'",
           "normalized": "a-\u003eIEEE(a,[ArithException])",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "clearFloatExcepts",
           "package": "ieee-utils",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "clearFloatExcepts",
           "normalized": "[ArithException]-\u003eIEEE Bool",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "getFloatExcepts",
           "package": "ieee-utils",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "getFloatExcepts",
           "normalized": "IEEE[ArithException]",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "getRound",
           "package": "ieee-utils",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "getRound",
           "package": "ieee-utils",
@@ -405,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven something that produces a Floating, returns a representation of the\n absolute difference between the results as calculated rounding upwards and downwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "perturb",
           "package": "ieee-utils",
@@ -415,6 +450,7 @@
         "index": {
           "description": "Given something that produces Floating returns representation of the absolute difference between the results as calculated rounding upwards and downwards",
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "perturb",
           "normalized": "IEEE a)-\u003eIO b",
@@ -430,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven something of (forall a. Floating a =\u003e IEEE a) produces a four-tuple of\n the value as calculated rounding up, down, to nearest, and towards zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "perturb'",
           "package": "ieee-utils",
@@ -440,6 +477,7 @@
         "index": {
           "description": "Given something of forall Floating IEEE produces four-tuple of the value as calculated rounding up down to nearest and towards zero",
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "perturb'",
           "normalized": "IEEE a)-\u003eIO(b,b,b,b)",
@@ -455,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven something that produces a Floating, returns the magnitude of instability\n introduced by perturbing the equation by rounding upwards and then downwards. This is\n the absolute difference between the results as calculated rounding upwards and downwards,\n and then divided by the averaged result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "perturbedMag",
           "package": "ieee-utils",
@@ -465,6 +504,7 @@
         "index": {
           "description": "Given something that produces Floating returns the magnitude of instability introduced by perturbing the equation by rounding upwards and then downwards This is the absolute difference between the results as calculated rounding upwards and downwards and then divided by the averaged result",
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "perturbedMag",
           "normalized": "IEEE a)-\u003eIO b",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "runIEEE",
           "package": "ieee-utils",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "runIEEE",
           "normalized": "IEEE a-\u003eIO a",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "setRound",
           "package": "ieee-utils",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "setRound",
           "normalized": "RoundMode-\u003eIEEE Bool",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "unIEEE",
           "package": "ieee-utils",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "unIEEE",
           "package": "ieee-utils",
@@ -551,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll uses of the IEEE monad need to be wrapped inside a top level call to\n withIeeeDo. This ensures that access to floating point internals\n is serialized properly, even between multiple threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "withIeeeDo",
           "package": "ieee-utils",
@@ -561,6 +608,7 @@
         "index": {
           "description": "All uses of the IEEE monad need to be wrapped inside top level call to withIeeeDo This ensures that access to floating point internals is serialized properly even between multiple threads",
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "withIeeeDo",
           "normalized": "IO a)-\u003eIO a",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the specified IEEE action within a specific round mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.Monad",
           "name": "withRoundMode",
           "package": "ieee-utils",
@@ -587,6 +636,7 @@
         "index": {
           "description": "Executes the specified IEEE action within specific round mode",
           "hierarchy": "Numeric IEEE Monad",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.Monad",
           "name": "withRoundMode",
           "normalized": "RoundMode-\u003eIEEE a-\u003eIEEE a",
@@ -602,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.RoundMode",
           "name": "RoundMode",
           "package": "ieee-utils",
@@ -610,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE RoundMode",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.RoundMode",
           "name": "RoundMode",
           "package": "ieee-utils",
@@ -623,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.RoundMode",
           "name": "RoundMode",
           "package": "ieee-utils",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE RoundMode",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.RoundMode",
           "name": "RoundMode",
           "package": "ieee-utils",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.RoundMode",
           "name": "Downward",
           "package": "ieee-utils",
@@ -653,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE RoundMode",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.RoundMode",
           "name": "Downward",
           "package": "ieee-utils",
@@ -666,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.RoundMode",
           "name": "ToNearest",
           "package": "ieee-utils",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE RoundMode",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.RoundMode",
           "name": "ToNearest",
           "package": "ieee-utils",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.RoundMode",
           "name": "TowardZero",
           "package": "ieee-utils",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE RoundMode",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.RoundMode",
           "name": "TowardZero",
           "package": "ieee-utils",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.RoundMode",
           "name": "Upward",
           "package": "ieee-utils",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Numeric IEEE RoundMode",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.RoundMode",
           "name": "Upward",
           "package": "ieee-utils",
@@ -733,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the fpu's current rounding mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.RoundMode",
           "name": "getRound",
           "package": "ieee-utils",
@@ -743,6 +806,7 @@
         "index": {
           "description": "Gets the fpu current rounding mode",
           "hierarchy": "Numeric IEEE RoundMode",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.RoundMode",
           "name": "getRound",
           "package": "ieee-utils",
@@ -757,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the fpu's rounding mode. Returns \u003ccode\u003eTrue\u003c/code\u003e if successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:06 UTC 2014",
           "module": "Numeric.IEEE.RoundMode",
           "name": "setRound",
           "package": "ieee-utils",
@@ -767,6 +832,7 @@
         "index": {
           "description": "Sets the fpu rounding mode Returns True if successful",
           "hierarchy": "Numeric IEEE RoundMode",
+          "indexed": "2014-03-11T18:56:06",
           "module": "Numeric.IEEE.RoundMode",
           "name": "setRound",
           "normalized": "RoundMode-\u003eIO Bool",

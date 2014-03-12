@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "concurrent-split"
+        "phrase": "concurrent-split",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Chan",
           "name": "Chan",
           "package": "concurrent-split",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Chan",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Chan",
           "name": "Chan",
           "package": "concurrent-split",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Chan",
           "name": "In",
           "package": "concurrent-split",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Chan",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Chan",
           "name": "In",
           "package": "concurrent-split",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Chan",
           "name": "Out",
           "package": "concurrent-split",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Chan",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Chan",
           "name": "Out",
           "package": "concurrent-split",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Chan",
           "name": "T",
           "package": "concurrent-split",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Chan",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Chan",
           "name": "T",
           "package": "concurrent-split",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Chan",
           "name": "new",
           "package": "concurrent-split",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Chan",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Chan",
           "name": "new",
           "normalized": "IO(In a,Out a)",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Chan",
           "name": "read",
           "package": "concurrent-split",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Chan",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Chan",
           "name": "read",
           "normalized": "Out a-\u003eIO a",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Chan",
           "name": "write",
           "package": "concurrent-split",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Chan",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Chan",
           "name": "write",
           "normalized": "In a-\u003ea-\u003eIO()",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Class",
           "name": "Class",
           "package": "concurrent-split",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Class",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Class",
           "name": "Class",
           "package": "concurrent-split",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Class",
           "name": "C",
           "package": "concurrent-split",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Class",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Class",
           "name": "C",
           "package": "concurrent-split",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Class",
           "name": "In",
           "package": "concurrent-split",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Class",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Class",
           "name": "In",
           "package": "concurrent-split",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Class",
           "name": "Out",
           "package": "concurrent-split",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Class",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Class",
           "name": "Out",
           "package": "concurrent-split",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Class",
           "name": "new",
           "package": "concurrent-split",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Class",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Class",
           "name": "new",
           "normalized": "IO(a In b,a Out b)",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Class",
           "name": "read",
           "package": "concurrent-split",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Class",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Class",
           "name": "read",
           "normalized": "a Out b-\u003eIO b",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.Class",
           "name": "write",
           "package": "concurrent-split",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split Class",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.Class",
           "name": "write",
           "normalized": "a In b-\u003eb-\u003eIO()",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.MVar",
           "name": "MVar",
           "package": "concurrent-split",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split MVar",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.MVar",
           "name": "MVar",
           "package": "concurrent-split",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.MVar",
           "name": "In",
           "package": "concurrent-split",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split MVar",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.MVar",
           "name": "In",
           "package": "concurrent-split",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.MVar",
           "name": "Out",
           "package": "concurrent-split",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split MVar",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.MVar",
           "name": "Out",
           "package": "concurrent-split",
@@ -385,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.MVar",
           "name": "T",
           "package": "concurrent-split",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split MVar",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.MVar",
           "name": "T",
           "package": "concurrent-split",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.MVar",
           "name": "newEmpty",
           "package": "concurrent-split",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split MVar",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.MVar",
           "name": "newEmpty",
           "normalized": "IO(In a,Out a)",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.MVar",
           "name": "put",
           "package": "concurrent-split",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split MVar",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.MVar",
           "name": "put",
           "normalized": "In a-\u003ea-\u003eIO()",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:13 UTC 2014",
           "module": "Control.Concurrent.Split.MVar",
           "name": "take",
           "package": "concurrent-split",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Split MVar",
+          "indexed": "2014-03-11T17:38:13",
           "module": "Control.Concurrent.Split.MVar",
           "name": "take",
           "normalized": "Out a-\u003eIO a",

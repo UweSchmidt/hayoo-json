@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NestedSampling"
+        "phrase": "NestedSampling",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:01 UTC 2014",
           "module": "Statistics.MiniNest",
           "name": "MiniNest",
           "package": "NestedSampling",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Statistics MiniNest",
+          "indexed": "2014-03-11T16:54:01",
           "module": "Statistics.MiniNest",
           "name": "MiniNest",
           "package": "NestedSampling",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:01 UTC 2014",
           "module": "Statistics.MiniNest",
           "name": "NestedSamplingResult",
           "package": "NestedSampling",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Statistics MiniNest",
+          "indexed": "2014-03-11T16:54:01",
           "module": "Statistics.MiniNest",
           "name": "NestedSamplingResult",
           "package": "NestedSampling",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:01 UTC 2014",
           "module": "Statistics.MiniNest",
           "name": "SamplingObject",
           "package": "NestedSampling",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Statistics MiniNest",
+          "indexed": "2014-03-11T16:54:01",
           "module": "Statistics.MiniNest",
           "name": "SamplingObject",
           "package": "NestedSampling",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:01 UTC 2014",
           "module": "Statistics.MiniNest",
           "name": "getLogL",
           "package": "NestedSampling",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Statistics MiniNest",
+          "indexed": "2014-03-11T16:54:01",
           "module": "Statistics.MiniNest",
           "name": "getLogL",
           "normalized": "a-\u003eDouble",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:01 UTC 2014",
           "module": "Statistics.MiniNest",
           "name": "getLogWt",
           "package": "NestedSampling",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Statistics MiniNest",
+          "indexed": "2014-03-11T16:54:01",
           "module": "Statistics.MiniNest",
           "name": "getLogWt",
           "normalized": "a-\u003eDouble",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enestedSampling computes the evidence Z and samples from the posterior.\n Args:\n   priorSamples: a list of samples from the prior.\n   explore: a function that evolves an object within a likelihood constraint.\n   iterations: number of iterations to run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:01 UTC 2014",
           "module": "Statistics.MiniNest",
           "name": "nestedSampling",
           "package": "NestedSampling",
@@ -140,6 +151,7 @@
         "index": {
           "description": "nestedSampling computes the evidence and samples from the posterior Args priorSamples list of samples from the prior explore function that evolves an object within likelihood constraint iterations number of iterations to run",
           "hierarchy": "Statistics MiniNest",
+          "indexed": "2014-03-11T16:54:01",
           "module": "Statistics.MiniNest",
           "name": "nestedSampling",
           "normalized": "[a]-\u003e(a-\u003eDouble-\u003eIO a)-\u003eInt-\u003eIO(NestedSamplingResult a)",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:01 UTC 2014",
           "module": "Statistics.MiniNest",
           "name": "setLogWt",
           "package": "NestedSampling",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Statistics MiniNest",
+          "indexed": "2014-03-11T16:54:01",
           "module": "Statistics.MiniNest",
           "name": "setLogWt",
           "normalized": "a-\u003eDouble-\u003ea",

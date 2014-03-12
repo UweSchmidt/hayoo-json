@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DataTreeView"
+        "phrase": "DataTreeView",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "CustomHandlers",
           "package": "DataTreeView",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "CustomHandlers",
           "package": "DataTreeView",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "AnyData",
           "package": "DataTreeView",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "AnyData",
           "package": "DataTreeView",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCell attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "CellAttr",
           "package": "DataTreeView",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Cell attributes",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "CellAttr",
           "package": "DataTreeView",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "CellData",
           "package": "DataTreeView",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "CellData",
           "package": "DataTreeView",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "ColorName",
           "package": "DataTreeView",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "ColorName",
           "package": "DataTreeView",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom handlers are used for overriding the generic formatting behaviour at some values (for example, printing a \u003ccode\u003eString\u003c/code\u003e directly into the \u003cem\u003eConstructor or value\u003c/em\u003e column rather than as a list of chars). \n\u003c/p\u003e\u003cp\u003eIf a custom handler matches (returns a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e), no recursion into its children is performed by default. You can recurse manually using \u003ccode\u003e\u003ca\u003eself\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "CustomHandler",
           "package": "DataTreeView",
@@ -135,6 +146,7 @@
         "index": {
           "description": "Custom handlers are used for overriding the generic formatting behaviour at some values for example printing String directly into the Constructor or value column rather than as list of chars If custom handler matches returns Just no recursion into its children is performed by default You can recurse manually using self",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "CustomHandler",
           "package": "DataTreeView",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "MCH",
           "package": "DataTreeView",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "MCH",
           "package": "DataTreeView",
@@ -170,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData for a row of the tree widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "Row",
           "package": "DataTreeView",
@@ -179,6 +194,7 @@
         "index": {
           "description": "Data for row of the tree widget",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "Row",
           "package": "DataTreeView",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "AnyData",
           "package": "DataTreeView",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "AnyData",
           "package": "DataTreeView",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "CH",
           "package": "DataTreeView",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "CH",
           "package": "DataTreeView",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "Row",
           "package": "DataTreeView",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "Row",
           "package": "DataTreeView",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "addFieldName",
           "package": "DataTreeView",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "addFieldName",
           "normalized": "String-\u003eRow-\u003eRow",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the given attribute to each cell of the given row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "addToAll",
           "package": "DataTreeView",
@@ -293,6 +318,7 @@
         "index": {
           "description": "Adds the given attribute to each cell of the given row",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "addToAll",
           "normalized": "Row-\u003e[CellAttr]-\u003eRow",
@@ -309,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackground color, by name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "bgcolor",
           "package": "DataTreeView",
@@ -319,6 +346,7 @@
         "index": {
           "description": "Background color by name",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "bgcolor",
           "normalized": "ColorName-\u003eCellAttr",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackground color, red/green/blue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "bgcolor'",
           "package": "DataTreeView",
@@ -344,6 +373,7 @@
         "index": {
           "description": "Background color red green blue",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "bgcolor'",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCellAttr",
@@ -359,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a \u003ccode\u003e\u003ca\u003eCustomHandler\u003c/a\u003e\u003c/code\u003e for container-like types. The given function should return:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The string for the \u003ccode\u003e\u003ca\u003erowCV\u003c/a\u003e\u003c/code\u003e cell\n\u003c/li\u003e\u003cli\u003e A list of arbitrary (key,value) pairs to be displayed in the \u003ccode\u003e\u003ca\u003erowCustomInfo\u003c/a\u003e\u003c/code\u003e cell (this should be things\n like the size of the collection, not a list of elements)\n\u003c/li\u003e\u003cli\u003e The list of elements\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "container0CH",
           "package": "DataTreeView",
@@ -369,6 +400,7 @@
         "index": {
           "description": "Makes CustomHandler for container-like types The given function should return The string for the rowCV cell list of arbitrary key value pairs to be displayed in the rowCustomInfo cell this should be things like the size of the collection not list of elements The list of elements",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "container0CH",
           "normalized": "(a-\u003e(String,[(String,String)],[AnyData]))-\u003eCustomHandler",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003econtainer0CH\u003c/a\u003e\u003c/code\u003e, but for type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "container1CH",
           "package": "DataTreeView",
@@ -395,6 +428,7 @@
         "index": {
           "description": "Like container0CH but for type constructors",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "container1CH",
           "normalized": "a b-\u003e(String,[(String,String)],[AnyData]))-\u003eCustomHandler",
@@ -411,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003econtainer1CH\u003c/a\u003e\u003c/code\u003e, but for binary type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "container2CH",
           "package": "DataTreeView",
@@ -421,6 +456,7 @@
         "index": {
           "description": "Like container1CH but for binary type constructor",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "container2CH",
           "normalized": "a b c-\u003e(String,[(String,String)],[AnyData]))-\u003eCustomHandler",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "dataToTree",
           "package": "DataTreeView",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "dataToTree",
           "normalized": "CustomHandler-\u003ea-\u003eIO(StrictTree Row)",
@@ -461,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForeground color, by name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "fgcolor",
           "package": "DataTreeView",
@@ -471,6 +510,7 @@
         "index": {
           "description": "Foreground color by name",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "fgcolor",
           "normalized": "ColorName-\u003eCellAttr",
@@ -486,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForeground color, red/green/blue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "fgcolor'",
           "package": "DataTreeView",
@@ -496,6 +537,7 @@
         "index": {
           "description": "Foreground color red green blue",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "fgcolor'",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCellAttr",
@@ -511,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the subtree using the \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e instance of the argument (calls \u003ccode\u003e\u003ca\u003eself\u003c/a\u003e\u003c/code\u003e on the children, not \u003ccode\u003e\u003ca\u003egenericHandler\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eYou can invoke this from your \u003ccode\u003e\u003ca\u003eCustomHandler\u003c/a\u003e\u003c/code\u003e and then override some attributes of the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "genericHandler",
           "package": "DataTreeView",
@@ -521,6 +564,7 @@
         "index": {
           "description": "Generates the subtree using the Data instance of the argument calls self on the children not genericHandler You can invoke this from your CustomHandler and then override some attributes of the result",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "genericHandler",
           "normalized": "a-\u003eMCH(StrictTree Row)",
@@ -537,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a custom handler that only applies at a fixed monomorphic type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "monoCH",
           "package": "DataTreeView",
@@ -547,6 +592,7 @@
         "index": {
           "description": "Creates custom handler that only applies at fixed monomorphic type",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "monoCH",
           "normalized": "(a-\u003eMCH(Maybe(StrictTree Row)))-\u003eCustomHandler",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a pure custom handler that only applies at a fixed monomorphic type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "monoPureCH",
           "package": "DataTreeView",
@@ -573,6 +620,7 @@
         "index": {
           "description": "Creates pure custom handler that only applies at fixed monomorphic type",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "monoPureCH",
           "normalized": "(a-\u003eMaybe(StrictTree Row))-\u003eCustomHandler",
@@ -589,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a pure custom handler that only and always applies at a fixed monomorphic type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "monoPureCH'",
           "package": "DataTreeView",
@@ -599,6 +648,7 @@
         "index": {
           "description": "Creates pure custom handler that only and always applies at fixed monomorphic type",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "monoPureCH'",
           "normalized": "(a-\u003eStrictTree Row)-\u003eCustomHandler",
@@ -615,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eRow\u003c/a\u003e\u003c/code\u003e with empty \u003ccode\u003e\u003ca\u003erowFieldName\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eYou usually can't know the field name for a node \u003ccode\u003ex\u003c/code\u003e during a recursive call with \u003ccode\u003ex\u003c/code\u003e at its root - the field name will be added \u003cem\u003eafterwards\u003c/em\u003e by the generic handler for the parent node of \u003ccode\u003ex\u003c/code\u003e if that parent node is a constructor with named fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "newRow",
           "package": "DataTreeView",
@@ -624,6 +675,7 @@
         "index": {
           "description": "Construct Row with empty rowFieldName You usually can know the field name for node during recursive call with at its root the field name will be added afterwards by the generic handler for the parent node of if that parent node is constructor with named fields",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "newRow",
           "normalized": "[CellAttr]-\u003e[CellAttr]-\u003e[CellAttr]-\u003eRow",
@@ -640,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a custom handler that applies at \u003ccode\u003ef a\u003c/code\u003e for a fixed type constructor \u003ccode\u003ef\u003c/code\u003e and for any \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "poly1CH",
           "package": "DataTreeView",
@@ -650,6 +703,7 @@
         "index": {
           "description": "Creates custom handler that applies at for fixed type constructor and for any",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "poly1CH",
           "normalized": "a b-\u003eMCH(Maybe(StrictTree Row)))-\u003eCustomHandler",
@@ -666,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a custom handler that applies at \u003ccode\u003ef a b\u003c/code\u003e for a fixed binary type constructor \u003ccode\u003ef\u003c/code\u003e and for any \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "poly2CH",
           "package": "DataTreeView",
@@ -676,6 +731,7 @@
         "index": {
           "description": "Creates custom handler that applies at for fixed binary type constructor and for any and",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "poly2CH",
           "normalized": "a b c-\u003eMCH(Maybe(StrictTree Row)))-\u003eCustomHandler",
@@ -692,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor name, literal value, or a placeholder like \u003ccode\u003e\"{List}\"\u003c/code\u003e for custom things \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "rowCV",
           "package": "DataTreeView",
@@ -702,6 +759,7 @@
         "index": {
           "description": "Constructor name literal value or placeholder like List for custom things",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "rowCV",
           "package": "DataTreeView",
@@ -716,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary information (left empty by the generic handler)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "rowCustomInfo",
           "package": "DataTreeView",
@@ -726,6 +785,7 @@
         "index": {
           "description": "Arbitrary information left empty by the generic handler",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "rowCustomInfo",
           "package": "DataTreeView",
@@ -740,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord field name. You can mostly ignore this, see the remark in \u003ccode\u003enewRow\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "rowFieldName",
           "package": "DataTreeView",
@@ -750,6 +811,7 @@
         "index": {
           "description": "Record field name You can mostly ignore this see the remark in newRow",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "rowFieldName",
           "package": "DataTreeView",
@@ -763,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "rowTypeName",
           "package": "DataTreeView",
@@ -772,6 +835,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "rowTypeName",
           "package": "DataTreeView",
@@ -785,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "runCH",
           "package": "DataTreeView",
@@ -794,6 +859,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "runCH",
           "normalized": "a-\u003eMCH(Maybe(StrictTree Row))",
@@ -810,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont scaling factor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "scale",
           "package": "DataTreeView",
@@ -820,6 +887,7 @@
         "index": {
           "description": "Font scaling factor",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "scale",
           "normalized": "Double-\u003eCellAttr",
@@ -835,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvokes the \u003cem\u003efinal\u003c/em\u003e Data-to-Tree conversion function, which includes the generic handler, the \u003ccode\u003e\u003ca\u003eCustomHandler\u003c/a\u003e\u003c/code\u003e being defined, and any \u003ccode\u003e\u003ca\u003eCustomHandler\u003c/a\u003e\u003c/code\u003es \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003eed to the one being defined.\n\u003c/p\u003e\u003cp\u003eThus, invoking \u003ccode\u003e\u003ccode\u003e\u003ca\u003eself\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e from your implementation of \u003ccode\u003e\u003ccode\u003e\u003ca\u003erunCH\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e will usually amount to an infinite loop, but invoking \u003ccode\u003e\u003ccode\u003e\u003ca\u003eself\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e on some child \u003ccode\u003ey\u003c/code\u003e of \u003ccode\u003ex\u003c/code\u003e is fine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "self",
           "package": "DataTreeView",
@@ -845,6 +914,7 @@
         "index": {
           "description": "Invokes the final Data-to-Tree conversion function which includes the generic handler the CustomHandler being defined and any CustomHandler mappend ed to the one being defined Thus invoking self from your implementation of runCH will usually amount to an infinite loop but invoking self on some child of is fine",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "self",
           "normalized": "a-\u003eMCH(StrictTree Row)",
@@ -860,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a type with some prettification like replacing \u003ccode\u003e[Char]\u003c/code\u003e with \u003ccode\u003eString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "showType",
           "package": "DataTreeView",
@@ -870,6 +941,7 @@
         "index": {
           "description": "Show type with some prettification like replacing Char with String",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "showType",
           "normalized": "TypeRep-\u003eString",
@@ -885,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "showTypeOf",
           "package": "DataTreeView",
@@ -894,6 +967,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "showTypeOf",
           "normalized": "a-\u003eString",
@@ -910,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eCustomHandler\u003c/a\u003e\u003c/code\u003e that only works at a fixed type (and always works there), and generates a node with no children and with the default text in the \u003cem\u003etype\u003c/em\u003e column. \n The function should return the \u003ccode\u003e\u003ca\u003erowCV\u003c/a\u003e\u003c/code\u003e in the first component and the \u003ccode\u003e\u003ca\u003erowCustomInfo\u003c/a\u003e\u003c/code\u003e in the second. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "simpleCH",
           "package": "DataTreeView",
@@ -920,6 +995,7 @@
         "index": {
           "description": "CustomHandler that only works at fixed type and always works there and generates node with no children and with the default text in the type column The function should return the rowCV in the first component and the rowCustomInfo in the second",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "simpleCH",
           "normalized": "(a-\u003eMCH([CellAttr],[CellAttr]))-\u003eCustomHandler",
@@ -936,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cell's text. If this attribute occurs multiple times for a single cell, the occurences are concatenated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.CustomHandlers",
           "name": "txt",
           "package": "DataTreeView",
@@ -946,6 +1023,7 @@
         "index": {
           "description": "The cell text If this attribute occurs multiple times for single cell the occurences are concatenated",
           "hierarchy": "DataTreeView CustomHandlers",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.CustomHandlers",
           "name": "txt",
           "normalized": "String-\u003eCellAttr",
@@ -961,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRemark: the heavy use of strictness here is for correctly catching exceptions, not for performance reasons\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "StrictTypes",
           "package": "DataTreeView",
@@ -970,6 +1049,7 @@
         "index": {
           "description": "Remark the heavy use of strictness here is for correctly catching exceptions not for performance reasons",
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "StrictTypes",
           "package": "DataTreeView",
@@ -983,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "StrictForest",
           "package": "DataTreeView",
@@ -991,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "StrictForest",
           "package": "DataTreeView",
@@ -1005,6 +1087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict lists (in both the head and tail)\n\u003c/p\u003e\u003cp\u003eNote: Most operations for this type are provided via the \u003ccode\u003e\u003ca\u003eListLike\u003c/a\u003e\u003c/code\u003e instance, but \u003ccode\u003e\u003ca\u003eListLike\u003c/a\u003e\u003c/code\u003e is not reexported here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "StrictList",
           "package": "DataTreeView",
@@ -1014,6 +1097,7 @@
         "index": {
           "description": "Strict lists in both the head and tail Note Most operations for this type are provided via the ListLike instance but ListLike is not reexported here",
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "StrictList",
           "package": "DataTreeView",
@@ -1027,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "StrictTree",
           "package": "DataTreeView",
@@ -1035,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "StrictTree",
           "package": "DataTreeView",
@@ -1048,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "ToStrictForest",
           "package": "DataTreeView",
@@ -1056,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "ToStrictForest",
           "package": "DataTreeView",
@@ -1069,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "ToStrictList",
           "package": "DataTreeView",
@@ -1077,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "ToStrictList",
           "package": "DataTreeView",
@@ -1090,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "ToStrictTree",
           "package": "DataTreeView",
@@ -1098,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "ToStrictTree",
           "package": "DataTreeView",
@@ -1111,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "fromStrictForest",
           "package": "DataTreeView",
@@ -1120,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "fromStrictForest",
           "normalized": "StrictForest a-\u003eForest a",
@@ -1135,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "fromStrictList",
           "package": "DataTreeView",
@@ -1144,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "fromStrictList",
           "normalized": "StrictList a-\u003e[a]",
@@ -1159,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "fromStrictTree",
           "package": "DataTreeView",
@@ -1168,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "fromStrictTree",
           "normalized": "StrictTree a-\u003eTree a",
@@ -1184,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: this function is not recursive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "modifyChildren",
           "package": "DataTreeView",
@@ -1194,6 +1293,7 @@
         "index": {
           "description": "Note this function is not recursive",
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "modifyChildren",
           "normalized": "StrictTree a-\u003e(StrictForest a-\u003eStrictForest a)-\u003eStrictTree a",
@@ -1210,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: this function is not recursive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "modifyValue",
           "package": "DataTreeView",
@@ -1220,6 +1321,7 @@
         "index": {
           "description": "Note this function is not recursive",
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "modifyValue",
           "normalized": "StrictTree a-\u003e(a-\u003ea)-\u003eStrictTree a",
@@ -1235,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "nodeChildren",
           "package": "DataTreeView",
@@ -1244,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "nodeChildren",
           "normalized": "StrictTree a-\u003e[StrictTree a]",
@@ -1259,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "nodeValue",
           "package": "DataTreeView",
@@ -1268,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "nodeValue",
           "normalized": "StrictTree a-\u003ea",
@@ -1283,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "strictForest",
           "package": "DataTreeView",
@@ -1292,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "strictForest",
           "normalized": "a-\u003eStrictForest b",
@@ -1307,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "strictList",
           "package": "DataTreeView",
@@ -1316,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "strictList",
           "normalized": "a-\u003eStrictList b",
@@ -1331,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView.StrictTypes",
           "name": "strictTree",
           "package": "DataTreeView",
@@ -1340,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView StrictTypes",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView.StrictTypes",
           "name": "strictTree",
           "normalized": "a-\u003eStrictTree b",
@@ -1355,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView",
           "name": "DataTreeView",
           "package": "DataTreeView",
@@ -1363,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView",
           "name": "DataTreeView",
           "package": "DataTreeView",
@@ -1376,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView",
           "name": "DataTreeView",
           "package": "DataTreeView",
@@ -1384,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView",
           "name": "DataTreeView",
           "package": "DataTreeView",
@@ -1397,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView",
           "name": "DataTreeView",
           "package": "DataTreeView",
@@ -1406,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView",
           "name": "DataTreeView",
           "package": "DataTreeView",
@@ -1419,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView",
           "name": "dtvNew",
           "package": "DataTreeView",
@@ -1428,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView",
           "name": "dtvNew",
           "normalized": "[a]-\u003eIO DataTreeView",
@@ -1443,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView",
           "name": "dtvNewWithCH",
           "package": "DataTreeView",
@@ -1452,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView",
           "name": "dtvNewWithCH",
           "normalized": "CustomHandler-\u003e[a]-\u003eIO DataTreeView",
@@ -1467,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView",
           "name": "dtvTreeView",
           "package": "DataTreeView",
@@ -1476,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView",
           "name": "dtvTreeView",
           "package": "DataTreeView",
@@ -1489,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView",
           "name": "simpleView",
           "package": "DataTreeView",
@@ -1498,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView",
           "name": "simpleView",
           "normalized": "[a]-\u003eIO()",
@@ -1513,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:30 UTC 2014",
           "module": "DataTreeView",
           "name": "simpleViewWithCH",
           "package": "DataTreeView",
@@ -1522,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "DataTreeView",
+          "indexed": "2014-03-11T16:38:30",
           "module": "DataTreeView",
           "name": "simpleViewWithCH",
           "normalized": "CustomHandler-\u003e[a]-\u003eIO()",

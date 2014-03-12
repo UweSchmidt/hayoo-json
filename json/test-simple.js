@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "test-simple"
+        "phrase": "test-simple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTest.Simple is yet another testing library for Haskell. It has testing primitives\n familiar to recovering Perl programmers :).\n\u003c/p\u003e\u003cp\u003eHaving \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e instance allows to cut tests early e.g using \u003ccode\u003e\u003ca\u003eguard\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003eBeing monad transformer it includes integration with \u003ccode\u003eQuickCheck\u003c/code\u003e by declaring \u003ccode\u003e\u003ca\u003eTestable\u003c/a\u003e\u003c/code\u003e instance \n on \u003ccode\u003eTestSimpleT Gen a\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTest.Simple also has the ability to run in pure context (see \u003ccode\u003e\u003ca\u003erunTestSimple\u003c/a\u003e\u003c/code\u003e function).\n\u003c/p\u003e\u003cp\u003eHere is an example suitable for cabal test-suite integration. Note that TemplateHaskell\n usage is optional and is needed for test failure locations only.\n\u003c/p\u003e\u003cpre\u003e\n{-# LANGUAGE TemplateHaskell #-}\n\nimport Test.Simple\nimport Control.Monad\n\nmain :: IO ()\nmain = testSimpleMain $ do\n          plan 7\n          ok True\n          is 1 1\n          isnt \"a\" \"b\"\n          like \"abcd\" \"bc\"\n          unlike \"a\" \"b\"\n          diag \"Successful so far, failures follow ...\"\n          $loc \u003e\u003e ok False -- location will be recorded\n          is \"a\" \"b\" \u003e\u003e= guard\n          diag \"I am not being called\" -- not reached because of the guard: MonadPlus FTW!\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "Simple",
           "package": "test-simple",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Test.Simple is yet another testing library for Haskell It has testing primitives familiar to recovering Perl programmers Having MonadPlus instance allows to cut tests early e.g using guard function Being monad transformer it includes integration with QuickCheck by declaring Testable instance on TestSimpleT Gen Test.Simple also has the ability to run in pure context see runTestSimple function Here is an example suitable for cabal test-suite integration Note that TemplateHaskell usage is optional and is needed for test failure locations only LANGUAGE TemplateHaskell import Test.Simple import Control.Monad main IO main testSimpleMain do plan ok True is isnt like abcd bc unlike diag Successful so far failures follow loc ok False location will be recorded is guard diag am not being called not reached because of the guard MonadPlus FTW",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "Simple",
           "package": "test-simple",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs used in \u003ccode\u003e\u003ca\u003elike\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunlike\u003c/a\u003e\u003c/code\u003e tests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "Likeable",
           "package": "test-simple",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Is used in like unlike tests",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "Likeable",
           "package": "test-simple",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest.Simple is implemented as monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "TestSimpleT",
           "package": "test-simple",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Test.Simple is implemented as monad transformer",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "TestSimpleT",
           "package": "test-simple",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs diagnostics message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "diag",
           "package": "test-simple",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Outputs diagnostics message",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "diag",
           "normalized": "String-\u003eTestSimpleT a()",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates and logs (through \u003ccode\u003e\u003ca\u003ediag\u003c/a\u003e\u003c/code\u003e) arbitrary value. Also outputs current location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "diagen",
           "package": "test-simple",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Generates and logs through diag arbitrary value Also outputs current location",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "diagen",
           "normalized": "String-\u003eGen a-\u003eTestSimpleT Gen a",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre values equal?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "is",
           "package": "test-simple",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Are values equal",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "is",
           "normalized": "a-\u003ea-\u003eTestSimpleT b Bool",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003ea\u003c/code\u003e is like \u003ccode\u003eb\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "isLike",
           "package": "test-simple",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Returns True if is like",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "isLike",
           "normalized": "a-\u003eb-\u003eBool",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e right?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "isRight",
           "package": "test-simple",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Is Either right",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "isRight",
           "normalized": "Either a b-\u003eTestSimpleT c Bool",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre values different?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "isnt",
           "package": "test-simple",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Are values different",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "isnt",
           "normalized": "a-\u003ea-\u003eTestSimpleT b Bool",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003ea\u003c/code\u003e like \u003ccode\u003eb\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "like",
           "package": "test-simple",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Is like",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "like",
           "normalized": "a-\u003eb-\u003eTestSimpleT c Bool",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecords current location to output in case of failures.\n Necessary caveat: failing later without updating location produces the last location recorded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "loc",
           "package": "test-simple",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Records current location to output in case of failures Necessary caveat failing later without updating location produces the last location recorded",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "loc",
           "package": "test-simple",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003eBool\u003c/code\u003e ok?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "ok",
           "package": "test-simple",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Is Bool ok",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "ok",
           "normalized": "Bool-\u003eTestSimpleT a Bool",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets expected number of tests. Running more or less tests is considered failure.\n Note, that plans are composable, e.g:\n\u003c/p\u003e\u003cpre\u003e\n (plan 1 \u003e\u003e ok True) \u003e\u003e (plan 1 \u003e\u003e ok True)\n\u003c/pre\u003e\u003cp\u003ewill expect 2 tests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "plan",
           "package": "test-simple",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Sets expected number of tests Running more or less tests is considered failure Note that plans are composable e.g plan ok True plan ok True will expect tests",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "plan",
           "normalized": "Int-\u003eTestSimpleT a()",
@@ -338,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun some \u003ccode\u003e\u003ca\u003eTestable\u003c/a\u003e\u003c/code\u003e monad through \u003ccode\u003eQuickCheck\u003c/code\u003e. Exit with failure on error.\n Equivalent to \u003ccode\u003e\u003ca\u003eqcTestSimpleWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003equickCheckResult\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "qcTestSimpleMain",
           "package": "test-simple",
@@ -348,6 +375,7 @@
         "index": {
           "description": "Run some Testable monad through QuickCheck Exit with failure on error Equivalent to qcTestSimpleWith quickCheckResult",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "qcTestSimpleMain",
           "normalized": "a b-\u003eIO()",
@@ -364,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun some \u003ccode\u003e\u003ca\u003eTestable\u003c/a\u003e\u003c/code\u003e monad through \u003ccode\u003eQuickCheck\u003c/code\u003e function. Exit with failure on error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "qcTestSimpleWith",
           "package": "test-simple",
@@ -374,6 +403,7 @@
         "index": {
           "description": "Run some Testable monad through QuickCheck function Exit with failure on error",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "qcTestSimpleWith",
           "normalized": "(a b-\u003eIO Result)-\u003ea b-\u003eIO()",
@@ -390,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns \u003ccode\u003e\u003ca\u003eTestSimpleT\u003c/a\u003e\u003c/code\u003e transformer. Returns whether the tests where successful and resulting\n output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "runTestSimple",
           "package": "test-simple",
@@ -400,6 +431,7 @@
         "index": {
           "description": "Runs TestSimpleT transformer Returns whether the tests where successful and resulting output",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "runTestSimple",
           "normalized": "TestSimpleT a b-\u003ea(Bool,[String])",
@@ -416,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns \u003ccode\u003e\u003ca\u003eTestSimpleT\u003c/a\u003e\u003c/code\u003e transformer in \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e. Outputs results in TAP format.\n Exits with error on test failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "testSimpleMain",
           "package": "test-simple",
@@ -426,6 +459,7 @@
         "index": {
           "description": "Runs TestSimpleT transformer in IO Outputs results in TAP format Exits with error on test failure",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "testSimpleMain",
           "normalized": "TestSimpleT a b-\u003ea()",
@@ -442,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003ea\u003c/code\u003e unlike \u003ccode\u003eb\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:48 UTC 2014",
           "module": "Test.Simple",
           "name": "unlike",
           "package": "test-simple",
@@ -452,6 +487,7 @@
         "index": {
           "description": "Is unlike",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:19:48",
           "module": "Test.Simple",
           "name": "unlike",
           "normalized": "a-\u003eb-\u003eTestSimpleT c Bool",

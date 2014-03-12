@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "X11-xfixes"
+        "phrase": "X11-xfixes",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "Xfixes",
           "package": "X11-xfixes",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "Xfixes",
           "package": "X11-xfixes",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "Region",
           "package": "X11-xfixes",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "Region",
           "package": "X11-xfixes",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "WindowRegion",
           "package": "X11-xfixes",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "WindowRegion",
           "package": "X11-xfixes",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "windowRegionBounding",
           "package": "X11-xfixes",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "windowRegionBounding",
           "package": "X11-xfixes",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "windowRegionClip",
           "package": "X11-xfixes",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "windowRegionClip",
           "package": "X11-xfixes",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesCopyRegion",
           "package": "X11-xfixes",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesCopyRegion",
           "normalized": "Display-\u003eRegion-\u003eRegion-\u003eIO()",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesCreateRegion",
           "package": "X11-xfixes",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesCreateRegion",
           "normalized": "Display-\u003ePtr Rectangle-\u003eCInt-\u003eIO Region",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesCreateRegionFromBitmap",
           "package": "X11-xfixes",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesCreateRegionFromBitmap",
           "normalized": "Display-\u003ePixmap-\u003eIO Region",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesCreateRegionFromGC",
           "package": "X11-xfixes",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesCreateRegionFromGC",
           "normalized": "Display-\u003eGC-\u003eIO Region",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesCreateRegionFromWindow",
           "package": "X11-xfixes",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesCreateRegionFromWindow",
           "normalized": "Display-\u003eWindow-\u003eWindowRegion-\u003eIO Region",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesDestroyRegion",
           "package": "X11-xfixes",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesDestroyRegion",
           "normalized": "Display-\u003eRegion-\u003eIO()",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesExpandRegion",
           "package": "X11-xfixes",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesExpandRegion",
           "normalized": "Display-\u003eRegion-\u003eRegion-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesFetchRegion",
           "package": "X11-xfixes",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesFetchRegion",
           "normalized": "Display-\u003eRegion-\u003eCInt-\u003eIO()",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesIntersectRegion",
           "package": "X11-xfixes",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesIntersectRegion",
           "normalized": "Display-\u003eRegion-\u003eRegion-\u003eRegion-\u003eIO()",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesInvertRegion",
           "package": "X11-xfixes",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesInvertRegion",
           "normalized": "Display-\u003eRegion-\u003ePtr Rectangle-\u003eRegion-\u003eIO()",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesQueryExtension",
           "package": "X11-xfixes",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesQueryExtension",
           "normalized": "Display-\u003eIO(Maybe(CInt,CInt))",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesQueryVersion",
           "package": "X11-xfixes",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesQueryVersion",
           "normalized": "Display-\u003eIO(Maybe(CInt,CInt))",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesRegionExtents",
           "package": "X11-xfixes",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesRegionExtents",
           "normalized": "Display-\u003eRegion-\u003eRegion-\u003eIO()",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesSetGCClipRegion",
           "package": "X11-xfixes",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesSetGCClipRegion",
           "normalized": "Display-\u003eGC-\u003eCInt-\u003eCInt-\u003eRegion-\u003eIO()",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesSetRegion",
           "package": "X11-xfixes",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesSetRegion",
           "normalized": "Display-\u003eRegion-\u003ePtr Rectangle-\u003eCInt-\u003eIO()",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesSubtractRegion",
           "package": "X11-xfixes",
@@ -494,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesSubtractRegion",
           "normalized": "Display-\u003eRegion-\u003eRegion-\u003eRegion-\u003eIO()",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesTranslateRegion",
           "package": "X11-xfixes",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesTranslateRegion",
           "normalized": "Display-\u003eRegion-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -533,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:20 UTC 2014",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesUnionRegion",
           "package": "X11-xfixes",
@@ -542,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xfixes",
+          "indexed": "2014-03-11T17:05:20",
           "module": "Graphics.X11.Xfixes",
           "name": "xfixesUnionRegion",
           "normalized": "Display-\u003eRegion-\u003eRegion-\u003eRegion-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tls"
+        "phrase": "tls",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "Cipher",
           "package": "tls",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "Cipher",
           "package": "tls",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (128 bit key), RSA key exchange and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_AES128_SHA1",
           "package": "tls",
@@ -50,6 +53,7 @@
         "index": {
           "description": "AES cipher bit key RSA key exchange and SHA1 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_AES128_SHA1",
           "package": "tls",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (128 bit key), RSA key exchange and SHA256 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_AES128_SHA256",
           "package": "tls",
@@ -74,6 +79,7 @@
         "index": {
           "description": "AES cipher bit key RSA key exchange and SHA256 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_AES128_SHA256",
           "package": "tls",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (256 bit key), RSA key exchange and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_AES256_SHA1",
           "package": "tls",
@@ -98,6 +105,7 @@
         "index": {
           "description": "AES cipher bit key RSA key exchange and SHA1 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_AES256_SHA1",
           "package": "tls",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (256 bit key), RSA key exchange and SHA256 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_AES256_SHA256",
           "package": "tls",
@@ -122,6 +131,7 @@
         "index": {
           "description": "AES cipher bit key RSA key exchange and SHA256 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_AES256_SHA256",
           "package": "tls",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (128 bit key), DHE key exchanged signed by DSA and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_DSS_AES128_SHA1",
           "package": "tls",
@@ -146,6 +157,7 @@
         "index": {
           "description": "AES cipher bit key DHE key exchanged signed by DSA and SHA1 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_DSS_AES128_SHA1",
           "package": "tls",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (256 bit key), DHE key exchanged signed by DSA and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_DSS_AES256_SHA1",
           "package": "tls",
@@ -170,6 +183,7 @@
         "index": {
           "description": "AES cipher bit key DHE key exchanged signed by DSA and SHA1 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_DSS_AES256_SHA1",
           "package": "tls",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_DSS_RC4_SHA1",
           "package": "tls",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_DSS_RC4_SHA1",
           "package": "tls",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (128 bit key), DHE key exchanged signed by RSA and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_RSA_AES128_SHA1",
           "package": "tls",
@@ -216,6 +233,7 @@
         "index": {
           "description": "AES cipher bit key DHE key exchanged signed by RSA and SHA1 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_RSA_AES128_SHA1",
           "package": "tls",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_RSA_AES128_SHA256",
           "package": "tls",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_RSA_AES128_SHA256",
           "package": "tls",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAES cipher (256 bit key), DHE key exchanged signed by RSA and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_RSA_AES256_SHA1",
           "package": "tls",
@@ -262,6 +283,7 @@
         "index": {
           "description": "AES cipher bit key DHE key exchanged signed by RSA and SHA1 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_RSA_AES256_SHA1",
           "package": "tls",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_RSA_AES256_SHA256",
           "package": "tls",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_DHE_RSA_AES256_SHA256",
           "package": "tls",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRC4 cipher, RSA key exchange and MD5 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_RC4_128_MD5",
           "package": "tls",
@@ -308,6 +333,7 @@
         "index": {
           "description": "RC4 cipher RSA key exchange and MD5 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_RC4_128_MD5",
           "package": "tls",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRC4 cipher, RSA key exchange and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_RC4_128_SHA1",
           "package": "tls",
@@ -332,6 +359,7 @@
         "index": {
           "description": "RC4 cipher RSA key exchange and SHA1 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_RC4_128_SHA1",
           "package": "tls",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunencrypted cipher using RSA for key exchange and MD5 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_null_MD5",
           "package": "tls",
@@ -356,6 +385,7 @@
         "index": {
           "description": "unencrypted cipher using RSA for key exchange and MD5 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_null_MD5",
           "package": "tls",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunencrypted cipher using RSA for key exchange and SHA1 for digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_null_SHA1",
           "package": "tls",
@@ -380,6 +411,7 @@
         "index": {
           "description": "unencrypted cipher using RSA for key exchange and SHA1 for digest",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "cipher_null_SHA1",
           "package": "tls",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall encrypted ciphers supported ordered from strong to weak.\n this choice of ciphersuite should satisfy most normal need\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_all",
           "package": "tls",
@@ -404,6 +437,7 @@
         "index": {
           "description": "all encrypted ciphers supported ordered from strong to weak this choice of ciphersuite should satisfy most normal need",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_all",
           "normalized": "[Cipher]",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_dhe_dss",
           "package": "tls",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_dhe_dss",
           "normalized": "[Cipher]",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDHE-RSA cipher suite\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_dhe_rsa",
           "package": "tls",
@@ -452,6 +489,7 @@
         "index": {
           "description": "DHE-RSA cipher suite",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_dhe_rsa",
           "normalized": "[Cipher]",
@@ -467,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of medium ciphers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_medium",
           "package": "tls",
@@ -477,6 +516,7 @@
         "index": {
           "description": "list of medium ciphers",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_medium",
           "normalized": "[Cipher]",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe strongest ciphers supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_strong",
           "package": "tls",
@@ -502,6 +543,7 @@
         "index": {
           "description": "the strongest ciphers supported",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_strong",
           "normalized": "[Cipher]",
@@ -517,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall unencrypted ciphers, do not use on insecure network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_unencrypted",
           "package": "tls",
@@ -527,6 +570,7 @@
         "index": {
           "description": "all unencrypted ciphers do not use on insecure network",
           "hierarchy": "Network TLS Extra Cipher",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra.Cipher",
           "name": "ciphersuite_unencrypted",
           "normalized": "[Cipher]",
@@ -542,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003edefault values and ciphers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS.Extra",
           "name": "Extra",
           "package": "tls",
@@ -551,6 +596,7 @@
         "index": {
           "description": "default values and ciphers",
           "hierarchy": "Network TLS Extra",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS.Extra",
           "name": "Extra",
           "package": "tls",
@@ -564,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "TLS",
           "package": "tls",
@@ -572,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "TLS",
           "package": "tls",
@@ -585,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "AlertDescription",
           "package": "tls",
@@ -593,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "AlertDescription",
           "package": "tls",
@@ -607,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection IO backend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Backend",
           "package": "tls",
@@ -616,6 +667,7 @@
         "index": {
           "description": "Connection IO backend",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Backend",
           "package": "tls",
@@ -629,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Bulk",
           "package": "tls",
@@ -637,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Bulk",
           "package": "tls",
@@ -650,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "BulkFunctions",
           "package": "tls",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "BulkFunctions",
           "package": "tls",
@@ -672,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCertificate and Chain rejection reason\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateRejectReason",
           "package": "tls",
@@ -681,6 +738,7 @@
         "index": {
           "description": "Certificate and Chain rejection reason",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateRejectReason",
           "package": "tls",
@@ -694,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateType",
           "package": "tls",
@@ -702,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateType",
           "package": "tls",
@@ -716,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCertificate Usage callback possible returns values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateUsage",
           "package": "tls",
@@ -725,6 +786,7 @@
         "index": {
           "description": "Certificate Usage callback possible returns values",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateUsage",
           "package": "tls",
@@ -739,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipher algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Cipher",
           "package": "tls",
@@ -748,6 +811,7 @@
         "index": {
           "description": "Cipher algorithm",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Cipher",
           "package": "tls",
@@ -762,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipher identification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherID",
           "package": "tls",
@@ -771,6 +836,7 @@
         "index": {
           "description": "Cipher identification",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherID",
           "package": "tls",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherKeyExchangeType",
           "package": "tls",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherKeyExchangeType",
           "package": "tls",
@@ -806,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of callbacks run by the clients for various corners of TLS establishment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ClientHooks",
           "package": "tls",
@@ -815,6 +884,7 @@
         "index": {
           "description": "set of callbacks run by the clients for various corners of TLS establishment",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ClientHooks",
           "package": "tls",
@@ -828,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ClientParams",
           "package": "tls",
@@ -836,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ClientParams",
           "package": "tls",
@@ -850,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevery compression need to be wrapped in this, to fit in structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Compression",
           "package": "tls",
@@ -859,6 +932,7 @@
         "index": {
           "description": "every compression need to be wrapped in this to fit in structure",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Compression",
           "package": "tls",
@@ -873,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esupported compression algorithms need to be part of this class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CompressionC",
           "package": "tls",
@@ -882,6 +957,7 @@
         "index": {
           "description": "supported compression algorithms need to be part of this class",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CompressionC",
           "package": "tls",
@@ -896,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompression identification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CompressionID",
           "package": "tls",
@@ -905,6 +982,7 @@
         "index": {
           "description": "Compression identification",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CompressionID",
           "package": "tls",
@@ -919,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA TLS Context keep tls specific state, parameters and backend information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Context",
           "package": "tls",
@@ -928,6 +1007,7 @@
         "index": {
           "description": "TLS Context keep tls specific state parameters and backend information",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Context",
           "package": "tls",
@@ -941,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Credential",
           "package": "tls",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Credential",
           "package": "tls",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Credentials",
           "package": "tls",
@@ -970,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Credentials",
           "package": "tls",
@@ -983,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Hash",
           "package": "tls",
@@ -991,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Hash",
           "package": "tls",
@@ -1004,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HashAlgorithm",
           "package": "tls",
@@ -1012,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HashAlgorithm",
           "package": "tls",
@@ -1025,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HashAndSignatureAlgorithm",
           "package": "tls",
@@ -1033,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HashAndSignatureAlgorithm",
           "package": "tls",
@@ -1046,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Header",
           "package": "tls",
@@ -1054,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Header",
           "package": "tls",
@@ -1068,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection of hooks actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Hooks",
           "package": "tls",
@@ -1077,6 +1170,7 @@
         "index": {
           "description": "collection of hooks actions",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Hooks",
           "package": "tls",
@@ -1090,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "IV",
           "package": "tls",
@@ -1098,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "IV",
           "package": "tls",
@@ -1112,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation related to a running context, e.g. current cipher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Information",
           "package": "tls",
@@ -1121,6 +1218,7 @@
         "index": {
           "description": "Information related to running context e.g current cipher",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Information",
           "package": "tls",
@@ -1134,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Key",
           "package": "tls",
@@ -1142,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Key",
           "package": "tls",
@@ -1155,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "KxError",
           "package": "tls",
@@ -1163,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "KxError",
           "package": "tls",
@@ -1177,6 +1279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHooks for logging\n\u003c/p\u003e\u003cp\u003eThis is called when sending and receiving packets and IO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Logging",
           "package": "tls",
@@ -1186,6 +1289,7 @@
         "index": {
           "description": "Hooks for logging This is called when sending and receiving packets and IO",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Logging",
           "package": "tls",
@@ -1199,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "MaxFragmentEnum",
           "package": "tls",
@@ -1207,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "MaxFragmentEnum",
           "package": "tls",
@@ -1221,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord some data about this connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Measurement",
           "package": "tls",
@@ -1230,6 +1337,7 @@
         "index": {
           "description": "record some data about this connection",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Measurement",
           "package": "tls",
@@ -1244,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the default compression which is a NOOP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "NullCompression",
           "package": "tls",
@@ -1253,6 +1362,7 @@
         "index": {
           "description": "This is the default compression which is NOOP",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "NullCompression",
           "package": "tls",
@@ -1267,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrivate key types known and used in X.509\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "PrivKey",
           "package": "tls",
@@ -1275,6 +1386,7 @@
         "index": {
           "description": "Private key types known and used in X.509",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "PrivKey",
           "package": "tls",
@@ -1288,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ProtocolType",
           "package": "tls",
@@ -1296,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ProtocolType",
           "package": "tls",
@@ -1310,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublic key types known and used in X.509\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "PubKey",
           "package": "tls",
@@ -1318,6 +1433,7 @@
         "index": {
           "description": "Public key types known and used in X.509",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "PubKey",
           "package": "tls",
@@ -1332,6 +1448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of callbacks run by the server for various corners of the TLS establishment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ServerHooks",
           "package": "tls",
@@ -1341,6 +1458,7 @@
         "index": {
           "description": "set of callbacks run by the server for various corners of the TLS establishment",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ServerHooks",
           "package": "tls",
@@ -1354,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ServerParams",
           "package": "tls",
@@ -1362,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ServerParams",
           "package": "tls",
@@ -1376,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession data to resume\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SessionData",
           "package": "tls",
@@ -1385,6 +1506,7 @@
         "index": {
           "description": "Session data to resume",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SessionData",
           "package": "tls",
@@ -1399,6 +1521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA session ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SessionID",
           "package": "tls",
@@ -1408,6 +1531,7 @@
         "index": {
           "description": "session ID",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SessionID",
           "package": "tls",
@@ -1422,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA session manager\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SessionManager",
           "package": "tls",
@@ -1431,6 +1556,7 @@
         "index": {
           "description": "session manager",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SessionManager",
           "package": "tls",
@@ -1444,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Shared",
           "package": "tls",
@@ -1452,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Shared",
           "package": "tls",
@@ -1465,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SignatureAlgorithm",
           "package": "tls",
@@ -1473,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SignatureAlgorithm",
           "package": "tls",
@@ -1487,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all the supported algorithms, versions, ciphers, etc supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Supported",
           "package": "tls",
@@ -1496,6 +1627,7 @@
         "index": {
           "description": "List all the supported algorithms versions ciphers etc supported",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Supported",
           "package": "tls",
@@ -1510,6 +1642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTLSError that might be returned through the TLS stack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "TLSError",
           "package": "tls",
@@ -1519,6 +1652,7 @@
         "index": {
           "description": "TLSError that might be returned through the TLS stack",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "TLSError",
           "package": "tls",
@@ -1533,6 +1667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTLS Exceptions related to bad user usage or\n asynchronous errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "TLSException",
           "package": "tls",
@@ -1542,6 +1677,7 @@
         "index": {
           "description": "TLS Exceptions related to bad user usage or asynchronous errors",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "TLSException",
           "package": "tls",
@@ -1556,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the callbacks needed for querying and adding to the cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ValidationCache",
           "package": "tls",
@@ -1564,6 +1701,7 @@
         "index": {
           "description": "All the callbacks needed for querying and adding to the cache",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ValidationCache",
           "package": "tls",
@@ -1578,6 +1716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a cache query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ValidationCacheResult",
           "package": "tls",
@@ -1586,6 +1725,7 @@
         "index": {
           "description": "The result of cache query",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ValidationCacheResult",
           "package": "tls",
@@ -1600,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of checks to activate or parametrize to perform on certificates.\n\u003c/p\u003e\u003cp\u003eIt's recommended to use \u003ccode\u003e\u003ca\u003edefaultChecks\u003c/a\u003e\u003c/code\u003e to create the structure,\n to better cope with future changes or expansion of the structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ValidationChecks",
           "package": "tls",
@@ -1608,6 +1749,7 @@
         "index": {
           "description": "set of checks to activate or parametrize to perform on certificates It recommended to use defaultChecks to create the structure to better cope with future changes or expansion of the structure",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ValidationChecks",
           "package": "tls",
@@ -1622,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of hooks to manipulate the way the verification works.\n\u003c/p\u003e\u003cp\u003eBEWARE, it's easy to change behavior leading to compromised security.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ValidationHooks",
           "package": "tls",
@@ -1630,6 +1773,7 @@
         "index": {
           "description": "set of hooks to manipulate the way the verification works BEWARE it easy to change behavior leading to compromised security",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ValidationHooks",
           "package": "tls",
@@ -1644,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersions known to TLS\n\u003c/p\u003e\u003cp\u003eSSL2 is just defined, but this version is and will not be supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Version",
           "package": "tls",
@@ -1653,6 +1798,7 @@
         "index": {
           "description": "Versions known to TLS SSL2 is just defined but this version is and will not be supported",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Version",
           "package": "tls",
@@ -1666,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "AccessDenied",
           "package": "tls",
@@ -1675,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "AccessDenied",
           "package": "tls",
@@ -1688,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Backend",
           "package": "tls",
@@ -1697,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Backend",
           "package": "tls",
@@ -1710,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "BadCertificate",
           "package": "tls",
@@ -1719,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "BadCertificate",
           "package": "tls",
@@ -1732,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "BadCertificateHashValue",
           "package": "tls",
@@ -1741,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "BadCertificateHashValue",
           "package": "tls",
@@ -1754,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "BadCertificateStatusResponse",
           "package": "tls",
@@ -1763,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "BadCertificateStatusResponse",
           "package": "tls",
@@ -1776,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "BadRecordMac",
           "package": "tls",
@@ -1785,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "BadRecordMac",
           "package": "tls",
@@ -1798,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Bulk",
           "package": "tls",
@@ -1807,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Bulk",
           "package": "tls",
@@ -1820,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "BulkBlockF",
           "package": "tls",
@@ -1829,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "BulkBlockF",
           "normalized": "BulkBlockF(Key-\u003eIV-\u003eByteString-\u003eByteString)(Key-\u003eIV-\u003eByteString-\u003eByteString)",
@@ -1844,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "BulkStreamF",
           "package": "tls",
@@ -1853,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "BulkStreamF",
           "normalized": "BulkStreamF(Key-\u003eIV)(IV-\u003eByteString-\u003e(ByteString,IV))(IV-\u003eByteString-\u003e(ByteString,IV))",
@@ -1868,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateExpired",
           "package": "tls",
@@ -1877,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateExpired",
           "package": "tls",
@@ -1890,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateRejectExpired",
           "package": "tls",
@@ -1899,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateRejectExpired",
           "package": "tls",
@@ -1912,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateRejectOther",
           "package": "tls",
@@ -1921,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateRejectOther",
           "package": "tls",
@@ -1934,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateRejectRevoked",
           "package": "tls",
@@ -1943,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateRejectRevoked",
           "package": "tls",
@@ -1956,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateRejectUnknownCA",
           "package": "tls",
@@ -1965,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateRejectUnknownCA",
           "package": "tls",
@@ -1978,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateRevoked",
           "package": "tls",
@@ -1987,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateRevoked",
           "package": "tls",
@@ -2000,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateType_DSS_Ephemeral_DH",
           "package": "tls",
@@ -2009,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateType_DSS_Ephemeral_DH",
           "package": "tls",
@@ -2022,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateType_DSS_Fixed_DH",
           "package": "tls",
@@ -2031,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateType_DSS_Fixed_DH",
           "package": "tls",
@@ -2044,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateType_DSS_Sign",
           "package": "tls",
@@ -2053,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateType_DSS_Sign",
           "package": "tls",
@@ -2066,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateType_RSA_Ephemeral_DH",
           "package": "tls",
@@ -2075,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateType_RSA_Ephemeral_DH",
           "package": "tls",
@@ -2088,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateType_RSA_Fixed_DH",
           "package": "tls",
@@ -2097,6 +2282,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateType_RSA_Fixed_DH",
           "package": "tls",
@@ -2110,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateType_RSA_Sign",
           "package": "tls",
@@ -2119,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateType_RSA_Sign",
           "package": "tls",
@@ -2132,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateType_Unknown",
           "package": "tls",
@@ -2141,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateType_Unknown",
           "package": "tls",
@@ -2154,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateType_fortezza_dms",
           "package": "tls",
@@ -2163,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateType_fortezza_dms",
           "package": "tls",
@@ -2176,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateUnknown",
           "package": "tls",
@@ -2185,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateUnknown",
           "package": "tls",
@@ -2198,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateUnobtainable",
           "package": "tls",
@@ -2207,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateUnobtainable",
           "package": "tls",
@@ -2221,6 +2417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eusage of certificate accepted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateUsageAccept",
           "package": "tls",
@@ -2231,6 +2428,7 @@
         "index": {
           "description": "usage of certificate accepted",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateUsageAccept",
           "package": "tls",
@@ -2245,6 +2443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eusage of certificate rejected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CertificateUsageReject",
           "package": "tls",
@@ -2255,6 +2454,7 @@
         "index": {
           "description": "usage of certificate rejected",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CertificateUsageReject",
           "package": "tls",
@@ -2268,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Cipher",
           "package": "tls",
@@ -2277,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Cipher",
           "package": "tls",
@@ -2290,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_DHE_DSS",
           "package": "tls",
@@ -2299,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_DHE_DSS",
           "package": "tls",
@@ -2312,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_DHE_RSA",
           "package": "tls",
@@ -2321,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_DHE_RSA",
           "package": "tls",
@@ -2334,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_DH_Anon",
           "package": "tls",
@@ -2343,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_DH_Anon",
           "package": "tls",
@@ -2356,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_DH_DSS",
           "package": "tls",
@@ -2365,6 +2574,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_DH_DSS",
           "package": "tls",
@@ -2378,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_DH_RSA",
           "package": "tls",
@@ -2387,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_DH_RSA",
           "package": "tls",
@@ -2400,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_ECDHE_ECDSA",
           "package": "tls",
@@ -2409,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_ECDHE_ECDSA",
           "package": "tls",
@@ -2422,6 +2636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_ECDHE_RSA",
           "package": "tls",
@@ -2431,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_ECDHE_RSA",
           "package": "tls",
@@ -2444,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_ECDH_ECDSA",
           "package": "tls",
@@ -2453,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_ECDH_ECDSA",
           "package": "tls",
@@ -2466,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_ECDH_RSA",
           "package": "tls",
@@ -2475,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_ECDH_RSA",
           "package": "tls",
@@ -2488,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_RSA",
           "package": "tls",
@@ -2497,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CipherKeyExchange_RSA",
           "package": "tls",
@@ -2510,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ClientHooks",
           "package": "tls",
@@ -2519,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ClientHooks",
           "package": "tls",
@@ -2532,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ClientParams",
           "package": "tls",
@@ -2541,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ClientParams",
           "package": "tls",
@@ -2554,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "CloseNotify",
           "package": "tls",
@@ -2563,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "CloseNotify",
           "package": "tls",
@@ -2576,6 +2804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Compression",
           "package": "tls",
@@ -2585,6 +2814,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Compression",
           "package": "tls",
@@ -2599,6 +2829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsage error when the connection has not been established\n   and the user is trying to send or receive data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ConnectionNotEstablished",
           "package": "tls",
@@ -2609,6 +2840,7 @@
         "index": {
           "description": "Usage error when the connection has not been established and the user is trying to send or receive data",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ConnectionNotEstablished",
           "package": "tls",
@@ -2622,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Credentials",
           "package": "tls",
@@ -2631,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Credentials",
           "normalized": "Credentials[Credential]",
@@ -2646,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "DecodeError",
           "package": "tls",
@@ -2655,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "DecodeError",
           "package": "tls",
@@ -2668,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "DecompressionFailure",
           "package": "tls",
@@ -2677,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "DecompressionFailure",
           "package": "tls",
@@ -2690,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "DecryptError",
           "package": "tls",
@@ -2699,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "DecryptError",
           "package": "tls",
@@ -2713,6 +2953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeprecated alert, should never be sent by compliant implementation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "DecryptionFailed",
           "package": "tls",
@@ -2723,6 +2964,7 @@
         "index": {
           "description": "deprecated alert should never be sent by compliant implementation",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "DecryptionFailed",
           "package": "tls",
@@ -2736,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Error_Certificate",
           "package": "tls",
@@ -2745,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Error_Certificate",
           "package": "tls",
@@ -2758,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Error_EOF",
           "package": "tls",
@@ -2767,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Error_EOF",
           "package": "tls",
@@ -2781,6 +3027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehandshake policy failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Error_HandshakePolicy",
           "package": "tls",
@@ -2791,6 +3038,7 @@
         "index": {
           "description": "handshake policy failed",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Error_HandshakePolicy",
           "package": "tls",
@@ -2805,6 +3053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emainly for instance of Error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Error_Misc",
           "package": "tls",
@@ -2815,6 +3064,7 @@
         "index": {
           "description": "mainly for instance of Error",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Error_Misc",
           "package": "tls",
@@ -2828,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Error_Packet",
           "package": "tls",
@@ -2837,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Error_Packet",
           "package": "tls",
@@ -2850,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Error_Packet_Parsing",
           "package": "tls",
@@ -2859,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Error_Packet_Parsing",
           "package": "tls",
@@ -2872,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Error_Packet_unexpected",
           "package": "tls",
@@ -2881,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Error_Packet_unexpected",
           "package": "tls",
@@ -2894,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Error_Protocol",
           "package": "tls",
@@ -2903,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Error_Protocol",
           "normalized": "Error_Protocol(String,Bool,AlertDescription)",
@@ -2918,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ExportRestriction",
           "package": "tls",
@@ -2927,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ExportRestriction",
           "package": "tls",
@@ -2941,6 +3201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandshake failed for the reason attached\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HandshakeFailed",
           "package": "tls",
@@ -2951,6 +3212,7 @@
         "index": {
           "description": "Handshake failed for the reason attached",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HandshakeFailed",
           "package": "tls",
@@ -2964,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HandshakeFailure",
           "package": "tls",
@@ -2973,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HandshakeFailure",
           "package": "tls",
@@ -2986,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Hash",
           "package": "tls",
@@ -2995,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Hash",
           "package": "tls",
@@ -3008,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HashMD5",
           "package": "tls",
@@ -3017,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HashMD5",
           "package": "tls",
@@ -3030,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HashNone",
           "package": "tls",
@@ -3039,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HashNone",
           "package": "tls",
@@ -3052,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HashOther",
           "package": "tls",
@@ -3061,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HashOther",
           "package": "tls",
@@ -3074,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HashSHA1",
           "package": "tls",
@@ -3083,6 +3356,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HashSHA1",
           "package": "tls",
@@ -3096,6 +3370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HashSHA224",
           "package": "tls",
@@ -3105,6 +3380,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HashSHA224",
           "package": "tls",
@@ -3118,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HashSHA256",
           "package": "tls",
@@ -3127,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HashSHA256",
           "package": "tls",
@@ -3140,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HashSHA384",
           "package": "tls",
@@ -3149,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HashSHA384",
           "package": "tls",
@@ -3162,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "HashSHA512",
           "package": "tls",
@@ -3171,6 +3452,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "HashSHA512",
           "package": "tls",
@@ -3184,6 +3466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Header",
           "package": "tls",
@@ -3193,6 +3476,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Header",
           "package": "tls",
@@ -3206,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Hooks",
           "package": "tls",
@@ -3215,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Hooks",
           "package": "tls",
@@ -3228,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "IllegalParameter",
           "package": "tls",
@@ -3237,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "IllegalParameter",
           "package": "tls",
@@ -3250,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Information",
           "package": "tls",
@@ -3259,6 +3548,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Information",
           "package": "tls",
@@ -3272,6 +3562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "InsufficientSecurity",
           "package": "tls",
@@ -3281,6 +3572,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "InsufficientSecurity",
           "package": "tls",
@@ -3294,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "InternalError",
           "package": "tls",
@@ -3303,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "InternalError",
           "package": "tls",
@@ -3316,6 +3610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "KxUnsupported",
           "package": "tls",
@@ -3325,6 +3620,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "KxUnsupported",
           "package": "tls",
@@ -3338,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Logging",
           "package": "tls",
@@ -3347,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Logging",
           "package": "tls",
@@ -3360,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "MaxFragment1024",
           "package": "tls",
@@ -3369,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "MaxFragment1024",
           "package": "tls",
@@ -3382,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "MaxFragment2048",
           "package": "tls",
@@ -3391,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "MaxFragment2048",
           "package": "tls",
@@ -3404,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "MaxFragment4096",
           "package": "tls",
@@ -3413,6 +3716,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "MaxFragment4096",
           "package": "tls",
@@ -3426,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "MaxFragment512",
           "package": "tls",
@@ -3435,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "MaxFragment512",
           "package": "tls",
@@ -3448,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Measurement",
           "package": "tls",
@@ -3457,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Measurement",
           "package": "tls",
@@ -3470,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "NoRenegotiation",
           "package": "tls",
@@ -3479,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "NoRenegotiation",
           "package": "tls",
@@ -3493,6 +3803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDSA private key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "PrivKeyDSA",
           "package": "tls",
@@ -3502,6 +3813,7 @@
         "index": {
           "description": "DSA private key",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "PrivKeyDSA",
           "package": "tls",
@@ -3516,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRSA private key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "PrivKeyRSA",
           "package": "tls",
@@ -3525,6 +3838,7 @@
         "index": {
           "description": "RSA private key",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "PrivKeyRSA",
           "package": "tls",
@@ -3538,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ProtocolType_Alert",
           "package": "tls",
@@ -3547,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ProtocolType_Alert",
           "package": "tls",
@@ -3560,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ProtocolType_AppData",
           "package": "tls",
@@ -3569,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ProtocolType_AppData",
           "package": "tls",
@@ -3582,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ProtocolType_ChangeCipherSpec",
           "package": "tls",
@@ -3591,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ProtocolType_ChangeCipherSpec",
           "package": "tls",
@@ -3604,6 +3924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ProtocolType_DeprecatedHandshake",
           "package": "tls",
@@ -3613,6 +3934,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ProtocolType_DeprecatedHandshake",
           "package": "tls",
@@ -3626,6 +3948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ProtocolType_Handshake",
           "package": "tls",
@@ -3635,6 +3958,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ProtocolType_Handshake",
           "package": "tls",
@@ -3648,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ProtocolVersion",
           "package": "tls",
@@ -3657,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ProtocolVersion",
           "package": "tls",
@@ -3671,6 +3997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDH format with (p,g,q,j,(seed,pgenCounter))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "PubKeyDH",
           "package": "tls",
@@ -3680,6 +4007,7 @@
         "index": {
           "description": "DH format with seed pgenCounter",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "PubKeyDH",
           "normalized": "PubKeyDH(Integer,Integer,Integer,Maybe Integer,([Word],Integer))",
@@ -3696,6 +4024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDSA public key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "PubKeyDSA",
           "package": "tls",
@@ -3705,6 +4034,7 @@
         "index": {
           "description": "DSA public key",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "PubKeyDSA",
           "package": "tls",
@@ -3718,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "PubKeyECDSA",
           "package": "tls",
@@ -3726,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "PubKeyECDSA",
           "package": "tls",
@@ -3740,6 +4072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRSA public key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "PubKeyRSA",
           "package": "tls",
@@ -3749,6 +4082,7 @@
         "index": {
           "description": "RSA public key",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "PubKeyRSA",
           "package": "tls",
@@ -3763,6 +4097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunrecognized format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "PubKeyUnknown",
           "package": "tls",
@@ -3772,6 +4107,7 @@
         "index": {
           "description": "unrecognized format",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "PubKeyUnknown",
           "package": "tls",
@@ -3785,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "RSAError",
           "package": "tls",
@@ -3794,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "RSAError",
           "package": "tls",
@@ -3807,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "RecordOverflow",
           "package": "tls",
@@ -3816,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "RecordOverflow",
           "package": "tls",
@@ -3829,6 +4169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SSL2",
           "package": "tls",
@@ -3838,6 +4179,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SSL2",
           "package": "tls",
@@ -3851,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SSL3",
           "package": "tls",
@@ -3860,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SSL3",
           "package": "tls",
@@ -3873,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ServerHooks",
           "package": "tls",
@@ -3882,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ServerHooks",
           "package": "tls",
@@ -3895,6 +4241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ServerParams",
           "package": "tls",
@@ -3904,6 +4251,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ServerParams",
           "package": "tls",
@@ -3917,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SessionData",
           "package": "tls",
@@ -3926,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SessionData",
           "package": "tls",
@@ -3939,6 +4289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SessionManager",
           "package": "tls",
@@ -3948,6 +4299,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SessionManager",
           "package": "tls",
@@ -3961,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Shared",
           "package": "tls",
@@ -3970,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Shared",
           "package": "tls",
@@ -3983,6 +4337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SignatureAnonymous",
           "package": "tls",
@@ -3992,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SignatureAnonymous",
           "package": "tls",
@@ -4005,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SignatureDSS",
           "package": "tls",
@@ -4014,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SignatureDSS",
           "package": "tls",
@@ -4027,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SignatureECDSA",
           "package": "tls",
@@ -4036,6 +4395,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SignatureECDSA",
           "package": "tls",
@@ -4049,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SignatureOther",
           "package": "tls",
@@ -4058,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SignatureOther",
           "package": "tls",
@@ -4071,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "SignatureRSA",
           "package": "tls",
@@ -4080,6 +4443,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "SignatureRSA",
           "package": "tls",
@@ -4093,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Supported",
           "package": "tls",
@@ -4102,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Supported",
           "package": "tls",
@@ -4115,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "TLS10",
           "package": "tls",
@@ -4124,6 +4491,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "TLS10",
           "package": "tls",
@@ -4137,6 +4505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "TLS11",
           "package": "tls",
@@ -4146,6 +4515,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "TLS11",
           "package": "tls",
@@ -4159,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "TLS12",
           "package": "tls",
@@ -4168,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "TLS12",
           "package": "tls",
@@ -4182,6 +4554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEarly termination exception with the reason\n   and the error associated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "Terminated",
           "package": "tls",
@@ -4192,6 +4565,7 @@
         "index": {
           "description": "Early termination exception with the reason and the error associated",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "Terminated",
           "package": "tls",
@@ -4205,6 +4579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "UnexpectedMessage",
           "package": "tls",
@@ -4214,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "UnexpectedMessage",
           "package": "tls",
@@ -4227,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "UnknownCa",
           "package": "tls",
@@ -4236,6 +4613,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "UnknownCa",
           "package": "tls",
@@ -4249,6 +4627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "UnrecognizedName",
           "package": "tls",
@@ -4258,6 +4637,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "UnrecognizedName",
           "package": "tls",
@@ -4271,6 +4651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "UnsupportedCertificate",
           "package": "tls",
@@ -4280,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "UnsupportedCertificate",
           "package": "tls",
@@ -4293,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "UnsupportedExtension",
           "package": "tls",
@@ -4302,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "UnsupportedExtension",
           "package": "tls",
@@ -4315,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "UserCanceled",
           "package": "tls",
@@ -4324,6 +4709,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "UserCanceled",
           "package": "tls",
@@ -4337,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ValidationCache",
           "package": "tls",
@@ -4345,6 +4732,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ValidationCache",
           "package": "tls",
@@ -4359,6 +4747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecache denied this fingerprint for further validation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ValidationCacheDenied",
           "package": "tls",
@@ -4368,6 +4757,7 @@
         "index": {
           "description": "cache denied this fingerprint for further validation",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ValidationCacheDenied",
           "package": "tls",
@@ -4382,6 +4772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecache allow this fingerprint to go through\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ValidationCachePass",
           "package": "tls",
@@ -4391,6 +4782,7 @@
         "index": {
           "description": "cache allow this fingerprint to go through",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ValidationCachePass",
           "package": "tls",
@@ -4405,6 +4797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunknown fingerprint in cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ValidationCacheUnknown",
           "package": "tls",
@@ -4414,6 +4807,7 @@
         "index": {
           "description": "unknown fingerprint in cache",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ValidationCacheUnknown",
           "package": "tls",
@@ -4427,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ValidationChecks",
           "package": "tls",
@@ -4435,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ValidationChecks",
           "package": "tls",
@@ -4448,6 +4844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ValidationHooks",
           "package": "tls",
@@ -4456,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ValidationHooks",
           "package": "tls",
@@ -4470,6 +4868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "backendClose",
           "package": "tls",
@@ -4480,6 +4879,7 @@
         "index": {
           "description": "Close the connection",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "backendClose",
           "normalized": "IO()",
@@ -4496,6 +4896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlush the connection sending buffer, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "backendFlush",
           "package": "tls",
@@ -4506,6 +4907,7 @@
         "index": {
           "description": "Flush the connection sending buffer if any",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "backendFlush",
           "normalized": "IO()",
@@ -4522,6 +4924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive specified number of bytes from the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "backendRecv",
           "package": "tls",
@@ -4532,6 +4935,7 @@
         "index": {
           "description": "Receive specified number of bytes from the connection",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "backendRecv",
           "normalized": "Int-\u003eIO ByteString",
@@ -4548,6 +4952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a bytestring through the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "backendSend",
           "package": "tls",
@@ -4558,6 +4963,7 @@
         "index": {
           "description": "Send bytestring through the connection",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "backendSend",
           "normalized": "ByteString-\u003eIO()",
@@ -4573,6 +4979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "bulkBlockSize",
           "package": "tls",
@@ -4582,6 +4989,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "bulkBlockSize",
           "package": "tls",
@@ -4595,6 +5003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "bulkF",
           "package": "tls",
@@ -4604,6 +5013,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "bulkF",
           "package": "tls",
@@ -4616,6 +5026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "bulkIVSize",
           "package": "tls",
@@ -4625,6 +5036,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "bulkIVSize",
           "package": "tls",
@@ -4638,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "bulkKeySize",
           "package": "tls",
@@ -4647,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "bulkKeySize",
           "package": "tls",
@@ -4660,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "bulkName",
           "package": "tls",
@@ -4669,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "bulkName",
           "package": "tls",
@@ -4683,6 +5099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enotify the context that this side wants to close connection.\n this is important that it is called before closing the handle, otherwise\n the session might not be resumable (for version \u003c TLS1.2).\n\u003c/p\u003e\u003cp\u003ethis doesn't actually close the handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "bye",
           "package": "tls",
@@ -4693,6 +5110,7 @@
         "index": {
           "description": "notify the context that this side wants to close connection this is important that it is called before closing the handle otherwise the session might not be resumable for version TLS1.2 this doesn actually close the handle",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "bye",
           "normalized": "Context-\u003ea()",
@@ -4708,6 +5126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebytes received since last handshake\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "bytesReceived",
           "package": "tls",
@@ -4718,6 +5137,7 @@
         "index": {
           "description": "bytes received since last handshake",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "bytesReceived",
           "package": "tls",
@@ -4732,6 +5152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebytes sent since last handshake\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "bytesSent",
           "package": "tls",
@@ -4742,6 +5163,7 @@
         "index": {
           "description": "bytes sent since last handshake",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "bytesSent",
           "package": "tls",
@@ -4756,6 +5178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecache adding callback\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "cacheAdd",
           "package": "tls",
@@ -4765,6 +5188,7 @@
         "index": {
           "description": "cache adding callback",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "cacheAdd",
           "package": "tls",
@@ -4779,6 +5203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecache querying callback\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "cacheQuery",
           "package": "tls",
@@ -4788,6 +5213,7 @@
         "index": {
           "description": "cache querying callback",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "cacheQuery",
           "package": "tls",
@@ -4802,6 +5228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe time when the validity check happens. When set to Nothing,\n the current time will be used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "checkAtTime",
           "package": "tls",
@@ -4811,6 +5238,7 @@
         "index": {
           "description": "The time when the validity check happens When set to Nothing the current time will be used",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "checkAtTime",
           "package": "tls",
@@ -4825,6 +5253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that signing certificate got the CA basic constraint.\n this is absolutely not recommended to turn it off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "checkCAConstraints",
           "package": "tls",
@@ -4834,6 +5263,7 @@
         "index": {
           "description": "Check that signing certificate got the CA basic constraint this is absolutely not recommended to turn it off",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "checkCAConstraints",
           "package": "tls",
@@ -4848,6 +5278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the whole certificate chain without stopping at the first failure.\n Allow gathering a exhaustive list of failure reasons. if this is\n turn off, it's absolutely not safe to ignore a failed reason even it doesn't look serious\n (e.g. Expired) as other more serious checks would not have been performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "checkExhaustive",
           "package": "tls",
@@ -4857,6 +5288,7 @@
         "index": {
           "description": "Check the whole certificate chain without stopping at the first failure Allow gathering exhaustive list of failure reasons if this is turn off it absolutely not safe to ignore failed reason even it doesn look serious e.g Expired as other more serious checks would not have been performed",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "checkExhaustive",
           "package": "tls",
@@ -4871,6 +5303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the top certificate names matching the fully qualified hostname (FQHN).\n it's not recommended to turn this check off, if no other name checks are performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "checkFQHN",
           "package": "tls",
@@ -4880,6 +5313,7 @@
         "index": {
           "description": "Check the top certificate names matching the fully qualified hostname FQHN it not recommended to turn this check off if no other name checks are performed",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "checkFQHN",
           "package": "tls",
@@ -4894,6 +5328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that the leaf certificate is authorized to be used for certain purpose.\n If set to empty list no check are performed, otherwise all the flags is the list\n need to exists in the extended key usage extension if present. If the extension is not\n present, then the check will pass and behave as if the certificate is not restricted\n to any specific purpose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "checkLeafKeyPurpose",
           "package": "tls",
@@ -4903,6 +5338,7 @@
         "index": {
           "description": "Check that the leaf certificate is authorized to be used for certain purpose If set to empty list no check are performed otherwise all the flags is the list need to exists in the extended key usage extension if present If the extension is not present then the check will pass and behave as if the certificate is not restricted to any specific purpose",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "checkLeafKeyPurpose",
           "normalized": "[ExtKeyUsagePurpose]",
@@ -4919,6 +5355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that the leaf certificate is authorized to be used for certain usage.\n If set to empty list no check are performed, otherwise all the flags is the list\n need to exists in the key usage extension. If the extension is not present,\n the check will pass and behave as if the certificate key is not restricted to\n any specific usage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "checkLeafKeyUsage",
           "package": "tls",
@@ -4928,6 +5365,7 @@
         "index": {
           "description": "Check that the leaf certificate is authorized to be used for certain usage If set to empty list no check are performed otherwise all the flags is the list need to exists in the key usage extension If the extension is not present the check will pass and behave as if the certificate key is not restricted to any specific usage",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "checkLeafKeyUsage",
           "normalized": "[ExtKeyUsageFlag]",
@@ -4944,6 +5382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that the leaf certificate is version 3. If disable, version 2 certificate\n is authorized in leaf position and key usage cannot be checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "checkLeafV3",
           "package": "tls",
@@ -4953,6 +5392,7 @@
         "index": {
           "description": "Check that the leaf certificate is version If disable version certificate is authorized in leaf position and key usage cannot be checked",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "checkLeafV3",
           "package": "tls",
@@ -4967,6 +5407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that no certificate is included that shouldn't be included.\n unfortunately despite the specification violation, a lots of\n real world server serves useless and usually old certificates\n that are not relevant to the certificate sent, in their chain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "checkStrictOrdering",
           "package": "tls",
@@ -4976,6 +5417,7 @@
         "index": {
           "description": "Check that no certificate is included that shouldn be included unfortunately despite the specification violation lots of real world server serves useless and usually old certificates that are not relevant to the certificate sent in their chain",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "checkStrictOrdering",
           "package": "tls",
@@ -4990,6 +5432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck time validity of every certificate in the chain.\n the make sure that current time is between each validity bounds\n in the certificate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "checkTimeValidity",
           "package": "tls",
@@ -4999,6 +5442,7 @@
         "index": {
           "description": "check time validity of every certificate in the chain the make sure that current time is between each validity bounds in the certificate",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "checkTimeValidity",
           "package": "tls",
@@ -5013,6 +5457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a specific \u003ccode\u003e\u003ca\u003eCipher\u003c/a\u003e\u003c/code\u003e is allowed to be used\n with the version specified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "cipherAllowedForVersion",
           "package": "tls",
@@ -5023,6 +5468,7 @@
         "index": {
           "description": "Check if specific Cipher is allowed to be used with the version specified",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "cipherAllowedForVersion",
           "normalized": "Version-\u003eCipher-\u003eBool",
@@ -5038,6 +5484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "cipherBulk",
           "package": "tls",
@@ -5047,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "cipherBulk",
           "package": "tls",
@@ -5060,6 +5508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "cipherExchangeNeedMoreData",
           "package": "tls",
@@ -5069,6 +5518,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "cipherExchangeNeedMoreData",
           "normalized": "CipherKeyExchangeType-\u003eBool",
@@ -5084,6 +5534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "cipherHash",
           "package": "tls",
@@ -5093,6 +5544,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "cipherHash",
           "package": "tls",
@@ -5106,6 +5558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "cipherID",
           "package": "tls",
@@ -5115,6 +5568,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "cipherID",
           "package": "tls",
@@ -5128,6 +5582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "cipherKeyBlockSize",
           "package": "tls",
@@ -5137,6 +5592,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "cipherKeyBlockSize",
           "normalized": "Cipher-\u003eInt",
@@ -5152,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "cipherKeyExchange",
           "package": "tls",
@@ -5161,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "cipherKeyExchange",
           "package": "tls",
@@ -5174,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "cipherMinVer",
           "package": "tls",
@@ -5183,6 +5642,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "cipherMinVer",
           "package": "tls",
@@ -5196,6 +5656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "cipherName",
           "package": "tls",
@@ -5205,6 +5666,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "cipherName",
           "package": "tls",
@@ -5218,6 +5680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "clientHooks",
           "package": "tls",
@@ -5227,6 +5690,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "clientHooks",
           "package": "tls",
@@ -5241,6 +5705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the name of the server, along with an extra service identification blob.\n this is important that the hostname part is properly filled for security reason,\n as it allow to properly associate the remote side with the given certificate\n during a handshake.\n\u003c/p\u003e\u003cp\u003eThe extra blob is useful to differentiate services running on the same host, but that\n might have different certificates given. It's only used as part of the X509 validation\n infrastructure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "clientServerIdentification",
           "package": "tls",
@@ -5251,6 +5716,7 @@
         "index": {
           "description": "Define the name of the server along with an extra service identification blob this is important that the hostname part is properly filled for security reason as it allow to properly associate the remote side with the given certificate during handshake The extra blob is useful to differentiate services running on the same host but that might have different certificates given It only used as part of the X509 validation infrastructure",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "clientServerIdentification",
           "normalized": "(HostName,Bytes)",
@@ -5266,6 +5732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "clientShared",
           "package": "tls",
@@ -5275,6 +5742,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "clientShared",
           "package": "tls",
@@ -5288,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "clientSupported",
           "package": "tls",
@@ -5297,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "clientSupported",
           "package": "tls",
@@ -5310,6 +5780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "clientUseMaxFragmentLength",
           "package": "tls",
@@ -5319,6 +5790,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "clientUseMaxFragmentLength",
           "package": "tls",
@@ -5333,6 +5805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow the use of the Server Name Indication TLS extension during handshake, which allow\n the client to specify which host name, it's trying to access. This is useful to distinguish\n CNAME aliasing (e.g. web virtual host).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "clientUseServerNameIndication",
           "package": "tls",
@@ -5343,6 +5816,7 @@
         "index": {
           "description": "Allow the use of the Server Name Indication TLS extension during handshake which allow the client to specify which host name it trying to access This is useful to distinguish CNAME aliasing e.g web virtual host",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "clientUseServerNameIndication",
           "package": "tls",
@@ -5357,6 +5831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etry to establish a connection using this session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "clientWantSessionResume",
           "package": "tls",
@@ -5367,6 +5842,7 @@
         "index": {
           "description": "try to establish connection using this session",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "clientWantSessionResume",
           "normalized": "Maybe(SessionID,SessionData)",
@@ -5382,6 +5858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "compressionCDeflate",
           "package": "tls",
@@ -5391,6 +5868,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "compressionCDeflate",
           "normalized": "a-\u003eByteString-\u003e(a,ByteString)",
@@ -5406,6 +5884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "compressionCID",
           "package": "tls",
@@ -5415,6 +5894,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "compressionCID",
           "normalized": "a-\u003eCompressionID",
@@ -5430,6 +5910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "compressionCInflate",
           "package": "tls",
@@ -5439,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "compressionCInflate",
           "normalized": "a-\u003eByteString-\u003e(a,ByteString)",
@@ -5455,6 +5937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeflate (compress) a bytestring using a compression context and return the result\n along with the new compression context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "compressionDeflate",
           "package": "tls",
@@ -5465,6 +5948,7 @@
         "index": {
           "description": "deflate compress bytestring using compression context and return the result along with the new compression context",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "compressionDeflate",
           "normalized": "ByteString-\u003eCompression-\u003e(Compression,ByteString)",
@@ -5481,6 +5965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the associated ID for this algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "compressionID",
           "package": "tls",
@@ -5491,6 +5976,7 @@
         "index": {
           "description": "return the associated ID for this algorithm",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "compressionID",
           "normalized": "Compression-\u003eCompressionID",
@@ -5507,6 +5993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einflate (decompress) a bytestring using a compression context and return the result\n along the new compression context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "compressionInflate",
           "package": "tls",
@@ -5517,6 +6004,7 @@
         "index": {
           "description": "inflate decompress bytestring using compression context and return the result along the new compression context",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "compressionInflate",
           "normalized": "ByteString-\u003eCompression-\u003e(Compression,ByteString)",
@@ -5533,6 +6021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eintersect a list of ids commonly given by the other side with a list of compression\n the function keeps the list of compression in order, to be able to find quickly the prefered\n compression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "compressionIntersectID",
           "package": "tls",
@@ -5543,6 +6032,7 @@
         "index": {
           "description": "intersect list of ids commonly given by the other side with list of compression the function keeps the list of compression in order to be able to find quickly the prefered compression",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "compressionIntersectID",
           "normalized": "[Compression]-\u003e[Word]-\u003e[Compression]",
@@ -5558,6 +6048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "contextClose",
           "package": "tls",
@@ -5567,6 +6058,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "contextClose",
           "normalized": "Context-\u003eIO()",
@@ -5582,6 +6074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "contextFlush",
           "package": "tls",
@@ -5591,6 +6084,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "contextFlush",
           "normalized": "Context-\u003eIO()",
@@ -5607,6 +6101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the current context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "contextGetInformation",
           "package": "tls",
@@ -5617,6 +6112,7 @@
         "index": {
           "description": "Information about the current context",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "contextGetInformation",
           "normalized": "Context-\u003eIO(Maybe Information)",
@@ -5632,6 +6128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "contextHookSetCertificateRecv",
           "package": "tls",
@@ -5641,6 +6138,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "contextHookSetCertificateRecv",
           "normalized": "Context-\u003e(CertificateChain-\u003eIO())-\u003eIO()",
@@ -5656,6 +6154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "contextHookSetHandshakeRecv",
           "package": "tls",
@@ -5665,6 +6164,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "contextHookSetHandshakeRecv",
           "normalized": "Context-\u003e(Handshake-\u003eIO Handshake)-\u003eIO()",
@@ -5680,6 +6180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "contextHookSetLogging",
           "package": "tls",
@@ -5689,6 +6190,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "contextHookSetLogging",
           "normalized": "Context-\u003eLogging-\u003eIO()",
@@ -5704,6 +6206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "contextModifyHooks",
           "package": "tls",
@@ -5713,6 +6216,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "contextModifyHooks",
           "normalized": "Context-\u003e(Hooks-\u003eHooks)-\u003eIO()",
@@ -5729,6 +6233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a new context using the backend and parameters specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "contextNew",
           "package": "tls",
@@ -5738,6 +6243,7 @@
         "index": {
           "description": "create new context using the backend and parameters specified",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "contextNew",
           "normalized": "a-\u003eb-\u003ec-\u003ed Context",
@@ -5754,6 +6260,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use contextNew\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003ecreate a new context on an handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "contextNewOnHandle",
           "package": "tls",
@@ -5763,6 +6270,7 @@
         "index": {
           "description": "Deprecated use contextNew create new context on an handle",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "contextNewOnHandle",
           "normalized": "Handle-\u003ea-\u003eb-\u003ec Context",
@@ -5779,6 +6287,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use contextNew\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003ecreate a new context on a socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "contextNewOnSocket",
           "package": "tls",
@@ -5788,6 +6297,7 @@
         "index": {
           "description": "Deprecated use contextNew create new context on socket",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "contextNewOnSocket",
           "normalized": "Socket-\u003ea-\u003eb-\u003ec Context",
@@ -5804,6 +6314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etry to create a new credential object from a public certificate\n and the associated private key that are stored on the filesystem\n in PEM format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "credentialLoadX509",
           "package": "tls",
@@ -5813,6 +6324,7 @@
         "index": {
           "description": "try to create new credential object from public certificate and the associated private key that are stored on the filesystem in PEM format",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "credentialLoadX509",
           "normalized": "FilePath-\u003eFilePath-\u003eIO(Either String Credential)",
@@ -5829,6 +6341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar to \u003ccode\u003e\u003ca\u003ecredentialLoadX509\u003c/a\u003e\u003c/code\u003e but take the certificate\n and private key from memory instead of from the filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "credentialLoadX509FromMemory",
           "package": "tls",
@@ -5839,6 +6352,7 @@
         "index": {
           "description": "similar to credentialLoadX509 but take the certificate and private key from memory instead of from the filesystem",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "credentialLoadX509FromMemory",
           "normalized": "Bytes-\u003eBytes-\u003eEither String Credential",
@@ -5855,6 +6369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the backend object associated with this context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "ctxConnection",
           "package": "tls",
@@ -5865,6 +6380,7 @@
         "index": {
           "description": "return the backend object associated with this context",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "ctxConnection",
           "normalized": "Context-\u003eBackend",
@@ -5880,6 +6396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "defaultParamsClient",
           "package": "tls",
@@ -5889,6 +6406,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "defaultParamsClient",
           "normalized": "HostName-\u003eBytes-\u003eClientParams",
@@ -5905,6 +6423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a simple constant cache that list exceptions to the certification\n validation. Typically this is use to allow self-signed certificates for\n specific use, with out-of-bounds user checks.\n\u003c/p\u003e\u003cp\u003eNo fingerprints will be added after the instance is created.\n\u003c/p\u003e\u003cp\u003eThe underlying structure for the check is kept as a list, as\n usually the exception list will be short, but when the list go above\n a dozen exceptions it's recommended to use another cache mechanism with\n a faster lookup mechanism (hashtable, map, etc).\n\u003c/p\u003e\u003cp\u003eNote that only one fingerprint is allowed per ServiceID, for other use,\n another cache mechanism need to be use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "exceptionValidationCache",
           "package": "tls",
@@ -5914,6 +6433,7 @@
         "index": {
           "description": "create simple constant cache that list exceptions to the certification validation Typically this is use to allow self-signed certificates for specific use with out-of-bounds user checks No fingerprints will be added after the instance is created The underlying structure for the check is kept as list as usually the exception list will be short but when the list go above dozen exceptions it recommended to use another cache mechanism with faster lookup mechanism hashtable map etc Note that only one fingerprint is allowed per ServiceID for other use another cache mechanism need to be use",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "exceptionValidationCache",
           "normalized": "[(ServiceID,Fingerprint)]-\u003eValidationCache",
@@ -5930,6 +6450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the Next Protocol Negotiation extension has been used, this will\n return get the protocol agreed upon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "getNegotiatedProtocol",
           "package": "tls",
@@ -5940,6 +6461,7 @@
         "index": {
           "description": "If the Next Protocol Negotiation extension has been used this will return get the protocol agreed upon",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "getNegotiatedProtocol",
           "normalized": "Context-\u003ea(Maybe ByteString)",
@@ -5956,6 +6478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandshake for a new TLS connection\n This is to be called at the beginning of a connection, and during renegotiation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "handshake",
           "package": "tls",
@@ -5966,6 +6489,7 @@
         "index": {
           "description": "Handshake for new TLS connection This is to be called at the beginning of connection and during renegotiation",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "handshake",
           "normalized": "Context-\u003ea()",
@@ -5980,6 +6504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "hashF",
           "package": "tls",
@@ -5989,6 +6514,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "hashF",
           "normalized": "ByteString-\u003eByteString",
@@ -6003,6 +6529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "hashName",
           "package": "tls",
@@ -6012,6 +6539,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "hashName",
           "package": "tls",
@@ -6025,6 +6553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "hashSize",
           "package": "tls",
@@ -6034,6 +6563,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "hashSize",
           "package": "tls",
@@ -6048,6 +6578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser filter to modify the list of failure reasons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "hookFilterReason",
           "package": "tls",
@@ -6057,6 +6588,7 @@
         "index": {
           "description": "user filter to modify the list of failure reasons",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "hookFilterReason",
           "normalized": "[FailedReason]-\u003e[FailedReason]",
@@ -6073,6 +6605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehooks on IO and packets, receiving and sending.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "hookLogging",
           "package": "tls",
@@ -6083,6 +6616,7 @@
         "index": {
           "description": "hooks on IO and packets receiving and sending",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "hookLogging",
           "package": "tls",
@@ -6097,6 +6631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck the the issuer \u003ccode\u003e\u003ca\u003eDistinguishedName\u003c/a\u003e\u003c/code\u003e match the subject \u003ccode\u003e\u003ca\u003eDistinguishedName\u003c/a\u003e\u003c/code\u003e\n of a certificate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "hookMatchSubjectIssuer",
           "package": "tls",
@@ -6106,6 +6641,7 @@
         "index": {
           "description": "check the the issuer DistinguishedName match the subject DistinguishedName of certificate",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "hookMatchSubjectIssuer",
           "normalized": "DistinguishedName-\u003eCertificate-\u003eBool",
@@ -6122,6 +6658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalled at each certificate chain message received\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "hookRecvCertificates",
           "package": "tls",
@@ -6132,6 +6669,7 @@
         "index": {
           "description": "called at each certificate chain message received",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "hookRecvCertificates",
           "normalized": "CertificateChain-\u003eIO()",
@@ -6148,6 +6686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalled at each handshake message received\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "hookRecvHandshake",
           "package": "tls",
@@ -6158,6 +6697,7 @@
         "index": {
           "description": "called at each handshake message received",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "hookRecvHandshake",
           "normalized": "Handshake-\u003eIO Handshake",
@@ -6174,6 +6714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalidate the certificate leaf name with the DNS named used to connect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "hookValidateName",
           "package": "tls",
@@ -6183,6 +6724,7 @@
         "index": {
           "description": "validate the certificate leaf name with the DNS named used to connect",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "hookValidateName",
           "normalized": "HostName-\u003eCertificate-\u003e[FailedReason]",
@@ -6199,6 +6741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalidate that the parametrized time valide with the certificate in argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "hookValidateTime",
           "package": "tls",
@@ -6208,6 +6751,7 @@
         "index": {
           "description": "validate that the parametrized time valide with the certificate in argument",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "hookValidateTime",
           "normalized": "UTCTime-\u003eCertificate-\u003e[FailedReason]",
@@ -6223,6 +6767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "infoCipher",
           "package": "tls",
@@ -6232,6 +6777,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "infoCipher",
           "package": "tls",
@@ -6245,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "infoCompression",
           "package": "tls",
@@ -6254,6 +6801,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "infoCompression",
           "package": "tls",
@@ -6267,6 +6815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "infoVersion",
           "package": "tls",
@@ -6276,6 +6825,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "infoVersion",
           "package": "tls",
@@ -6289,6 +6839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "loggingIORecv",
           "package": "tls",
@@ -6298,6 +6849,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "loggingIORecv",
           "normalized": "Header-\u003eByteString-\u003eIO()",
@@ -6313,6 +6865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "loggingIOSent",
           "package": "tls",
@@ -6322,6 +6875,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "loggingIOSent",
           "normalized": "ByteString-\u003eIO()",
@@ -6337,6 +6891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "loggingPacketRecv",
           "package": "tls",
@@ -6346,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "loggingPacketRecv",
           "normalized": "String-\u003eIO()",
@@ -6361,6 +6917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "loggingPacketSent",
           "package": "tls",
@@ -6370,6 +6927,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "loggingPacketSent",
           "normalized": "String-\u003eIO()",
@@ -6386,6 +6944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of handshakes on this context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "nbHandshakes",
           "package": "tls",
@@ -6396,6 +6955,7 @@
         "index": {
           "description": "number of handshakes on this context",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "nbHandshakes",
           "package": "tls",
@@ -6409,6 +6969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "noSessionManager",
           "package": "tls",
@@ -6418,6 +6979,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "noSessionManager",
           "package": "tls",
@@ -6432,6 +6994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault null compression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "nullCompression",
           "package": "tls",
@@ -6442,6 +7005,7 @@
         "index": {
           "description": "default null compression",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "nullCompression",
           "package": "tls",
@@ -6456,6 +7020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis action is called when the server sends a\n certificate request.  The parameter is the information\n from the request.  The action should select a certificate\n chain of one of the given certificate types where the\n last certificate in the chain should be signed by one of\n the given distinguished names.  Each certificate should\n be signed by the following one, except for the last.  At\n least the first of the certificates in the chain must\n have a corresponding private key, because that is used\n for signing the certificate verify message.\n\u003c/p\u003e\u003cp\u003eNote that is is the responsibility of this action to\n select a certificate matching one of the requested\n certificate types.  Returning a non-matching one will\n lead to handshake failure later.\n\u003c/p\u003e\u003cp\u003eReturning a certificate chain not matching the\n distinguished names may lead to problems or not,\n depending whether the server accepts it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "onCertificateRequest",
           "package": "tls",
@@ -6466,6 +7031,7 @@
         "index": {
           "description": "This action is called when the server sends certificate request The parameter is the information from the request The action should select certificate chain of one of the given certificate types where the last certificate in the chain should be signed by one of the given distinguished names Each certificate should be signed by the following one except for the last At least the first of the certificates in the chain must have corresponding private key because that is used for signing the certificate verify message Note that is is the responsibility of this action to select certificate matching one of the requested certificate types Returning non-matching one will lead to handshake failure later Returning certificate chain not matching the distinguished names may lead to problems or not depending whether the server accepts it",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "onCertificateRequest",
           "normalized": "([CertificateType],Maybe[HashAndSignatureAlgorithm],[DistinguishedName])-\u003eIO(Maybe(CertificateChain,PrivKey))",
@@ -6482,6 +7048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow the server to choose the cipher relative to the\n the client version and the client list of ciphers.\n\u003c/p\u003e\u003cp\u003eThis could be useful with old clients and as a workaround\n to the BEAST (where RC4 is sometimes prefered with TLS \u003c 1.1)\n\u003c/p\u003e\u003cp\u003eThe client cipher list cannot be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "onCipherChoosing",
           "package": "tls",
@@ -6492,6 +7059,7 @@
         "index": {
           "description": "Allow the server to choose the cipher relative to the the client version and the client list of ciphers This could be useful with old clients and as workaround to the BEAST where RC4 is sometimes prefered with TLS The client cipher list cannot be empty",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "onCipherChoosing",
           "normalized": "Version-\u003e[Cipher]-\u003eCipher",
@@ -6508,6 +7076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis action is called when a client certificate chain\n is received from the client.  When it returns a\n CertificateUsageReject value, the handshake is aborted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "onClientCertificate",
           "package": "tls",
@@ -6518,6 +7087,7 @@
         "index": {
           "description": "This action is called when client certificate chain is received from the client When it returns CertificateUsageReject value the handshake is aborted",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "onClientCertificate",
           "normalized": "CertificateChain-\u003eIO CertificateUsage",
@@ -6533,6 +7103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "onNPNServerSuggest",
           "package": "tls",
@@ -6542,6 +7113,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "onNPNServerSuggest",
           "normalized": "Maybe([ByteString]-\u003eIO ByteString)",
@@ -6558,6 +7130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eat each new handshake, we call this hook to see if we allow handshake to happens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "onNewHandshake",
           "package": "tls",
@@ -6568,6 +7141,7 @@
         "index": {
           "description": "at each new handshake we call this hook to see if we allow handshake to happens",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "onNewHandshake",
           "normalized": "Measurement-\u003eIO Bool",
@@ -6583,6 +7157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "onServerCertificate",
           "package": "tls",
@@ -6592,6 +7167,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "onServerCertificate",
           "normalized": "CertificateStore-\u003eValidationCache-\u003eServiceID-\u003eCertificateChain-\u003eIO[FailedReason]",
@@ -6608,6 +7184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esuggested next protocols accoring to the next protocol negotiation extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "onSuggestNextProtocols",
           "package": "tls",
@@ -6618,6 +7195,7 @@
         "index": {
           "description": "suggested next protocols accoring to the next protocol negotiation extension",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "onSuggestNextProtocols",
           "normalized": "IO(Maybe[ByteString])",
@@ -6634,6 +7212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis action is called when the client certificate\n cannot be verified.  A \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e argument indicates a\n wrong signature, a 'Just e' message signals a crypto\n error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "onUnverifiedClientCert",
           "package": "tls",
@@ -6644,6 +7223,7 @@
         "index": {
           "description": "This action is called when the client certificate cannot be verified Nothing argument indicates wrong signature Just message signals crypto error",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "onUnverifiedClientCert",
           "package": "tls",
@@ -6658,6 +7238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecvData get data out of Data packet, and automatically renegotiate if\n a Handshake ClientHello is received\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "recvData",
           "package": "tls",
@@ -6668,6 +7249,7 @@
         "index": {
           "description": "recvData get data out of Data packet and automatically renegotiate if Handshake ClientHello is received",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "recvData",
           "normalized": "Context-\u003ea ByteString",
@@ -6684,6 +7266,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use recvData that returns strict bytestring\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003esame as recvData but returns a lazy bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "recvData'",
           "package": "tls",
@@ -6694,6 +7277,7 @@
         "index": {
           "description": "Deprecated use recvData that returns strict bytestring same as recvData but returns lazy bytestring",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "recvData'",
           "normalized": "Context-\u003ea ByteString",
@@ -6710,6 +7294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esendData sends a bunch of data.\n It will automatically chunk data to acceptable packet size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "sendData",
           "package": "tls",
@@ -6720,6 +7305,7 @@
         "index": {
           "description": "sendData sends bunch of data It will automatically chunk data to acceptable packet size",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "sendData",
           "normalized": "Context-\u003eByteString-\u003ea()",
@@ -6736,6 +7322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a list of certificates from which the\n disinguished names are sent in certificate request\n messages.  For TLS1.0, it should not be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "serverCACertificates",
           "package": "tls",
@@ -6746,6 +7333,7 @@
         "index": {
           "description": "This is list of certificates from which the disinguished names are sent in certificate request messages For TLS1.0 it should not be empty",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "serverCACertificates",
           "normalized": "[SignedCertificate]",
@@ -6762,6 +7350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer Optional Diffie Hellman parameters. If this value is not\n properly set, no Diffie Hellman key exchange will take place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "serverDHEParams",
           "package": "tls",
@@ -6772,6 +7361,7 @@
         "index": {
           "description": "Server Optional Diffie Hellman parameters If this value is not properly set no Diffie Hellman key exchange will take place",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "serverDHEParams",
           "package": "tls",
@@ -6785,6 +7375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "serverHooks",
           "package": "tls",
@@ -6794,6 +7385,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "serverHooks",
           "package": "tls",
@@ -6807,6 +7399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "serverShared",
           "package": "tls",
@@ -6816,6 +7409,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "serverShared",
           "package": "tls",
@@ -6829,6 +7423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "serverSupported",
           "package": "tls",
@@ -6838,6 +7433,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "serverSupported",
           "package": "tls",
@@ -6852,6 +7448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erequest a certificate from client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "serverWantClientCert",
           "package": "tls",
@@ -6862,6 +7459,7 @@
         "index": {
           "description": "request certificate from client",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "serverWantClientCert",
           "package": "tls",
@@ -6875,6 +7473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "sessionCipher",
           "package": "tls",
@@ -6884,6 +7483,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "sessionCipher",
           "package": "tls",
@@ -6898,6 +7498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused when a session is established.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "sessionEstablish",
           "package": "tls",
@@ -6908,6 +7509,7 @@
         "index": {
           "description": "used when session is established",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "sessionEstablish",
           "normalized": "SessionID-\u003eSessionData-\u003eIO()",
@@ -6924,6 +7526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused when a session is invalidated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "sessionInvalidate",
           "package": "tls",
@@ -6934,6 +7537,7 @@
         "index": {
           "description": "used when session is invalidated",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "sessionInvalidate",
           "normalized": "SessionID-\u003eIO()",
@@ -6950,6 +7554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused on server side to decide whether to resume a client session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "sessionResume",
           "package": "tls",
@@ -6960,6 +7565,7 @@
         "index": {
           "description": "used on server side to decide whether to resume client session",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "sessionResume",
           "normalized": "SessionID-\u003eIO(Maybe SessionData)",
@@ -6975,6 +7581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "sessionSecret",
           "package": "tls",
@@ -6984,6 +7591,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "sessionSecret",
           "package": "tls",
@@ -6997,6 +7605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "sessionVersion",
           "package": "tls",
@@ -7006,6 +7615,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "sessionVersion",
           "package": "tls",
@@ -7019,6 +7629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "sharedCAStore",
           "package": "tls",
@@ -7028,6 +7639,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "sharedCAStore",
           "package": "tls",
@@ -7041,6 +7653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "sharedCredentials",
           "package": "tls",
@@ -7050,6 +7663,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "sharedCredentials",
           "package": "tls",
@@ -7063,6 +7677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "sharedSessionManager",
           "package": "tls",
@@ -7072,6 +7687,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "sharedSessionManager",
           "package": "tls",
@@ -7085,6 +7701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "sharedValidationCache",
           "package": "tls",
@@ -7094,6 +7711,7 @@
         },
         "index": {
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "sharedValidationCache",
           "package": "tls",
@@ -7108,6 +7726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported cipher methods\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "supportedCiphers",
           "package": "tls",
@@ -7118,6 +7737,7 @@
         "index": {
           "description": "Supported cipher methods",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "supportedCiphers",
           "normalized": "[Cipher]",
@@ -7134,6 +7754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esupported compressions methods\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "supportedCompressions",
           "package": "tls",
@@ -7144,6 +7765,7 @@
         "index": {
           "description": "supported compressions methods",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "supportedCompressions",
           "normalized": "[Compression]",
@@ -7160,6 +7782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll supported hash/signature algorithms pair for client\n certificate verification, ordered by decreasing priority.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "supportedHashSignatures",
           "package": "tls",
@@ -7170,6 +7793,7 @@
         "index": {
           "description": "All supported hash signature algorithms pair for client certificate verification ordered by decreasing priority",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "supportedHashSignatures",
           "normalized": "[HashAndSignatureAlgorithm]",
@@ -7186,6 +7810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet if we support secure renegotiation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "supportedSecureRenegotiation",
           "package": "tls",
@@ -7196,6 +7821,7 @@
         "index": {
           "description": "Set if we support secure renegotiation",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "supportedSecureRenegotiation",
           "package": "tls",
@@ -7210,6 +7836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet if we support session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "supportedSession",
           "package": "tls",
@@ -7220,6 +7847,7 @@
         "index": {
           "description": "Set if we support session",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "supportedSession",
           "package": "tls",
@@ -7234,6 +7862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported Versions by this context\n On the client side, the highest version will be used to establish the connection.\n On the server side, the highest version that is less or equal than the client version will be chosed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:35 UTC 2014",
           "module": "Network.TLS",
           "name": "supportedVersions",
           "package": "tls",
@@ -7244,6 +7873,7 @@
         "index": {
           "description": "Supported Versions by this context On the client side the highest version will be used to establish the connection On the server side the highest version that is less or equal than the client version will be chosed",
           "hierarchy": "Network TLS",
+          "indexed": "2014-03-11T20:23:35",
           "module": "Network.TLS",
           "name": "supportedVersions",
           "normalized": "[Version]",

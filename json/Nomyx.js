@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Nomyx"
+        "phrase": "Nomyx",
+        "type": "phrase"
       },
       "type": "context"
     }

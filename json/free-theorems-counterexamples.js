@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "free-theorems-counterexamples"
+        "phrase": "free-theorems-counterexamples",
+        "type": "phrase"
       },
       "type": "context"
     }

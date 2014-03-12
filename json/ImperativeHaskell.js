@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ImperativeHaskell"
+        "phrase": "ImperativeHaskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module which defines a function \u003ccode\u003e\u003ca\u003eliftOp\u003c/a\u003e\u003c/code\u003e which coverts pure functions \n into reference taking functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.FunctionFactory",
           "name": "FunctionFactory",
           "package": "ImperativeHaskell",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module which defines function liftOp which coverts pure functions into reference taking functions",
           "hierarchy": "Control Monad Imperative FunctionFactory",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.FunctionFactory",
           "name": "FunctionFactory",
           "package": "ImperativeHaskell",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.FunctionFactory",
           "name": "liftOp",
           "package": "ImperativeHaskell",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative FunctionFactory",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.FunctionFactory",
           "name": "liftOp",
           "normalized": "Name-\u003eQ Exp",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module which defines the monad for ImperativeHaskell,  \n and some control operator to interact with \u003ccode\u003e\u003ca\u003eMIO\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "Internals",
           "package": "ImperativeHaskell",
@@ -75,6 +80,7 @@
         "index": {
           "description": "module which defines the monad for ImperativeHaskell and some control operator to interact with MIO",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "Internals",
           "package": "ImperativeHaskell",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "CState",
           "package": "ImperativeHaskell",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "CState",
           "package": "ImperativeHaskell",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlthough the functional dependency \u003ccode\u003eb -\u003e i\u003c/code\u003e is declared, \n it does not do anything useful. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "HasValue",
           "package": "ImperativeHaskell",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Although the functional dependency is declared it does not do anything useful",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "HasValue",
           "package": "ImperativeHaskell",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "MIO",
           "package": "ImperativeHaskell",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "MIO",
           "package": "ImperativeHaskell",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "TyComp",
           "package": "ImperativeHaskell",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "TyComp",
           "package": "ImperativeHaskell",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "TyInFunc",
           "package": "ImperativeHaskell",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "TyInFunc",
           "package": "ImperativeHaskell",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "TyInLoop",
           "package": "ImperativeHaskell",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "TyInLoop",
           "package": "ImperativeHaskell",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "TyVal",
           "package": "ImperativeHaskell",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "TyVal",
           "package": "ImperativeHaskell",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "TyVar",
           "package": "ImperativeHaskell",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "TyVar",
           "package": "ImperativeHaskell",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "V",
           "package": "ImperativeHaskell",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "V",
           "package": "ImperativeHaskell",
@@ -279,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(\u003ccode\u003e\u003ca\u003e&\u003c/a\u003e\u003c/code\u003e)a\u003c/code\u003e gets a reference/pointer to the variable specified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "(&)",
           "package": "ImperativeHaskell",
@@ -289,6 +314,7 @@
         "index": {
           "description": "gets reference pointer to the variable specified",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "(&) &",
           "normalized": "V TyVar a b-\u003eV TyVar c b",
@@ -304,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evariable \u003ccode\u003e\u003ca\u003e=:\u003c/a\u003e\u003c/code\u003e value\u003c/code\u003e executes \u003ccode\u003evalue\u003c/code\u003e and writes it  \n to the location pointed to by \u003ccode\u003evariable\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "(=:)",
           "package": "ImperativeHaskell",
@@ -314,6 +341,7 @@
         "index": {
           "description": "variable value executes value and writes it to the location pointed to by variable",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "(=:) =:",
           "normalized": "V TyVar a b-\u003ec b-\u003eMIO d a()",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "C",
           "package": "ImperativeHaskell",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "C",
           "normalized": "MIO a b(V c b d)-\u003eV(TyComp a c)b d",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "Lit",
           "package": "ImperativeHaskell",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "Lit",
           "normalized": "a-\u003eV TyVal b a",
@@ -376,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eauto\u003c/a\u003e\u003c/code\u003e should just be used where the \n type can be automatically infered and we don't need an initial value\n Use caution, as it is simply an alternate name for \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "auto",
           "package": "ImperativeHaskell",
@@ -386,6 +419,7 @@
         "index": {
           "description": "auto should just be used where the type can be automatically infered and we don need an initial value Use caution as it is simply an alternate name for undefined",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "auto",
           "package": "ImperativeHaskell",
@@ -399,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ebreak'\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e exists the current loop.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "break'",
           "package": "ImperativeHaskell",
@@ -409,6 +444,7 @@
         "index": {
           "description": "break exists the current loop",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "break'",
           "normalized": "MIO TyInLoop a()",
@@ -424,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003econtinue'\u003c/a\u003e\u003c/code\u003e continues the current loop, passing over\n any control flow that is defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "continue'",
           "package": "ImperativeHaskell",
@@ -434,6 +471,7 @@
         "index": {
           "description": "continue continues the current loop passing over any control flow that is defined",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "continue'",
           "normalized": "MIO TyInLoop a()",
@@ -449,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edefer'\u003c/a\u003e\u003c/code\u003e executes the given action (or value) before the \n function returns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "defer'",
           "package": "ImperativeHaskell",
@@ -459,6 +498,7 @@
         "index": {
           "description": "defer executes the given action or value before the function returns",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "defer'",
           "normalized": "a b-\u003eMIO c d()",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003efor'\u003c/a\u003e\u003c/code\u003e(init, check, incr)\u003c/code\u003e acts like its imperative \u003ccode\u003efor\u003c/code\u003e counterpart\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "for'",
           "package": "ImperativeHaskell",
@@ -484,6 +525,7 @@
         "index": {
           "description": "for init check incr acts like its imperative for counterpart",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "for'",
           "normalized": "(MIO a b c,V d b Bool,MIO a b c)-\u003ee()-\u003eMIO a b()",
@@ -499,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003efunction\u003c/a\u003e\u003c/code\u003e foo\u003c/code\u003e takes an ImperativeMonad action and removes it from it's  \n specific function context, specifically making it applicable \n in the body of other functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "function",
           "package": "ImperativeHaskell",
@@ -509,6 +552,7 @@
         "index": {
           "description": "function foo takes an ImperativeMonad action and removes it from it specific function context specifically making it applicable in the body of other functions",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "function",
           "normalized": "MIO TyInFunc a a-\u003eMIO b c a",
@@ -524,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eif'\u003c/a\u003e\u003c/code\u003e(check) act\u003c/code\u003e only performs \u003ccode\u003eact\u003c/code\u003e if \u003ccode\u003echeck\u003c/code\u003e evaluates to true\n it is specifically a value in its argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "if'",
           "package": "ImperativeHaskell",
@@ -534,6 +579,7 @@
         "index": {
           "description": "if check act only performs act if check evaluates to true it is specifically value in its argument",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "if'",
           "normalized": "V a b Bool-\u003ec()-\u003eMIO d b()",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eio\u003c/a\u003e\u003c/code\u003e action\u003c/code\u003e takes a haskell \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eaction\u003c/code\u003e and makes it useable from within\n the MIO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "io",
           "package": "ImperativeHaskell",
@@ -559,6 +606,7 @@
         "index": {
           "description": "io action takes haskell IO action and makes it useable from within the MIO monad",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "io",
           "normalized": "IO a-\u003eMIO b c a",
@@ -574,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emodifyOp\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e makes a modification assignment operator \n out of a binary haskell function.\n The suggested use is to replicate functionality of assignments\n like \u003ccode\u003e-=\u003c/code\u003e or \u003ccode\u003e%=\u003c/code\u003e from C style languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "modifyOp",
           "package": "ImperativeHaskell",
@@ -584,6 +633,7 @@
         "index": {
           "description": "modifyOp makes modification assignment operator out of binary haskell function The suggested use is to replicate functionality of assignments like or from style languages",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "modifyOp",
           "normalized": "(a-\u003eb-\u003ea)-\u003eV TyVar c a-\u003eV d c b-\u003eMIO e c()",
@@ -600,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003enew\u003c/a\u003e\u003c/code\u003e constructs a new reference to the specified pure value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "new",
           "package": "ImperativeHaskell",
@@ -610,6 +661,7 @@
         "index": {
           "description": "new constructs new reference to the specified pure value",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "new",
           "normalized": "a-\u003eMIO b c(V TyVar c a)",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ereturn'\u003c/a\u003e\u003c/code\u003e value\u003c/code\u003e acts like an imperative return. It passes\n the given value to the return continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "return'",
           "package": "ImperativeHaskell",
@@ -635,6 +688,7 @@
         "index": {
           "description": "return value acts like an imperative return It passes the given value to the return continuation",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "return'",
           "normalized": "V a b b-\u003eMIO c b(RetTy c b)",
@@ -650,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003erunImperative\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e takes an MIO action as returned by a function, \n and lifts it into IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "runImperative",
           "package": "ImperativeHaskell",
@@ -660,6 +715,7 @@
         "index": {
           "description": "runImperative takes an MIO action as returned by function and lifts it into IO",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "runImperative",
           "normalized": "MIO TyInFunc a a-\u003eIO a",
@@ -675,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "val",
           "package": "ImperativeHaskell",
@@ -684,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "val",
           "normalized": "a b-\u003eMIO c d b",
@@ -699,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ewhile'\u003c/a\u003e\u003c/code\u003e(check)\u003c/code\u003e acts like its imperative \u003ccode\u003ewhile\u003c/code\u003e counterpart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Internals",
           "name": "while'",
           "package": "ImperativeHaskell",
@@ -709,6 +768,7 @@
         "index": {
           "description": "while check acts like its imperative while counterpart",
           "hierarchy": "Control Monad Imperative Internals",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Internals",
           "name": "while'",
           "normalized": "V a b Bool-\u003ec()-\u003eMIO d b()",
@@ -724,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome predefined operators for the imperative monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "Operators",
           "package": "ImperativeHaskell",
@@ -733,6 +794,7 @@
         "index": {
           "description": "Some predefined operators for the imperative monad",
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "Operators",
           "package": "ImperativeHaskell",
@@ -746,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(||.)",
           "package": "ImperativeHaskell",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(||.) ||.",
           "normalized": "V a b Bool-\u003eV a b Bool-\u003eV(TyComp c TyVal)b Bool",
@@ -769,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(~.)",
           "package": "ImperativeHaskell",
@@ -778,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(~.) ~.",
           "normalized": "V a b Bool-\u003eV(TyComp c TyVal)b Bool",
@@ -792,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(%=:)",
           "package": "ImperativeHaskell",
@@ -801,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(%=:) %=:",
           "normalized": "V TyVar a b-\u003eV c a b-\u003eMIO d a()",
@@ -815,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(%.)",
           "package": "ImperativeHaskell",
@@ -824,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(%.) %.",
           "normalized": "V a b c-\u003eV a b c-\u003eV(TyComp d TyVal)b c",
@@ -838,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(&&.)",
           "package": "ImperativeHaskell",
@@ -847,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(&&.) &&.",
           "normalized": "V a b Bool-\u003eV a b Bool-\u003eV(TyComp c TyVal)b Bool",
@@ -861,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(*=:)",
           "package": "ImperativeHaskell",
@@ -870,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(*=:) *=:",
           "normalized": "V TyVar a b-\u003eV c a b-\u003eMIO d a()",
@@ -884,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(*.)",
           "package": "ImperativeHaskell",
@@ -893,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(*.) *.",
           "normalized": "V a b c-\u003eV a b c-\u003eV(TyComp d TyVal)b c",
@@ -907,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(+=:)",
           "package": "ImperativeHaskell",
@@ -916,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(+=:) +=:",
           "normalized": "V TyVar a b-\u003eV c a b-\u003eMIO d a()",
@@ -930,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(+.)",
           "package": "ImperativeHaskell",
@@ -939,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(+.) +.",
           "normalized": "V a b c-\u003eV a b c-\u003eV(TyComp d TyVal)b c",
@@ -953,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(-=:)",
           "package": "ImperativeHaskell",
@@ -962,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(-=:) -=:",
           "normalized": "V TyVar a b-\u003eV c a b-\u003eMIO d a()",
@@ -976,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(-.)",
           "package": "ImperativeHaskell",
@@ -985,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(-.) -.",
           "normalized": "V a b c-\u003eV a b c-\u003eV(TyComp d TyVal)b c",
@@ -999,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(/.)",
           "package": "ImperativeHaskell",
@@ -1008,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(/.) /.",
           "normalized": "V a b c-\u003eV a b c-\u003eV(TyComp d TyVal)b c",
@@ -1022,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(\u003c=.)",
           "package": "ImperativeHaskell",
@@ -1031,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(\u003c=.) \u003c=.",
           "normalized": "V a b c-\u003eV a b c-\u003eV(TyComp d TyVal)b Bool",
@@ -1045,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(\u003c.)",
           "package": "ImperativeHaskell",
@@ -1054,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(\u003c.) \u003c.",
           "normalized": "V a b c-\u003eV a b c-\u003eV(TyComp d TyVal)b Bool",
@@ -1068,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(==.)",
           "package": "ImperativeHaskell",
@@ -1077,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(==.) ==.",
           "normalized": "V a b c-\u003eV a b c-\u003eV(TyComp d TyVal)b Bool",
@@ -1091,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(\u003e=.)",
           "package": "ImperativeHaskell",
@@ -1100,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(\u003e=.) \u003e=.",
           "normalized": "V a b c-\u003eV a b c-\u003eV(TyComp d TyVal)b Bool",
@@ -1114,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(\u003e.)",
           "package": "ImperativeHaskell",
@@ -1123,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "(\u003e.) \u003e.",
           "normalized": "V a b c-\u003eV a b c-\u003eV(TyComp d TyVal)b Bool",
@@ -1138,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eliftOp2\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e turns a pure function into one which\n gets executes its arguments and returns their value as a\n function.  It is defined using \u003ccode\u003eliftOp\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative.Operators",
           "name": "liftOp2",
           "package": "ImperativeHaskell",
@@ -1148,6 +1245,7 @@
         "index": {
           "description": "liftOp2 turns pure function into one which gets executes its arguments and returns their value as function It is defined using liftOp",
           "hierarchy": "Control Monad Imperative Operators",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative.Operators",
           "name": "liftOp2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eV b d a-\u003eV b d b-\u003eV(TyComp e TyVal)d c",
@@ -1164,6 +1262,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA front end for the ImperativeMonad\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:51 UTC 2014",
           "module": "Control.Monad.Imperative",
           "name": "Imperative",
           "package": "ImperativeHaskell",
@@ -1173,6 +1272,7 @@
         "index": {
           "description": "front end for the ImperativeMonad",
           "hierarchy": "Control Monad Imperative",
+          "indexed": "2014-03-11T16:49:51",
           "module": "Control.Monad.Imperative",
           "name": "Imperative",
           "package": "ImperativeHaskell",

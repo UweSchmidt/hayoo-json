@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hquantlib"
+        "phrase": "hquantlib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Currencies",
           "name": "Currencies",
           "package": "hquantlib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Currencies",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Currencies",
           "name": "Currencies",
           "package": "hquantlib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "Event",
           "package": "hquantlib",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "Event",
           "package": "hquantlib",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "Callability",
           "package": "hquantlib",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "Callability",
           "package": "hquantlib",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCash flows data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "CashFlow",
           "package": "hquantlib",
@@ -91,6 +98,7 @@
         "index": {
           "description": "Cash flows data type",
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "CashFlow",
           "package": "hquantlib",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "Event",
           "package": "hquantlib",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "Event",
           "package": "hquantlib",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence of cash-flows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "Leg",
           "package": "hquantlib",
@@ -135,6 +146,7 @@
         "index": {
           "description": "Sequence of cash-flows",
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "Leg",
           "package": "hquantlib",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "Call",
           "package": "hquantlib",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "Call",
           "package": "hquantlib",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "CashFlow",
           "package": "hquantlib",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "CashFlow",
           "package": "hquantlib",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "Put",
           "package": "hquantlib",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "Put",
           "package": "hquantlib",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "cDate",
           "package": "hquantlib",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "cDate",
           "package": "hquantlib",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "cPrice",
           "package": "hquantlib",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "cPrice",
           "package": "hquantlib",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "cfAmount",
           "package": "hquantlib",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "cfAmount",
           "package": "hquantlib",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "cfDate",
           "package": "hquantlib",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "cfDate",
           "package": "hquantlib",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "evCompare",
           "package": "hquantlib",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "evCompare",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "evDate",
           "package": "hquantlib",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "evDate",
           "normalized": "a-\u003eDate",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "evEqual",
           "package": "hquantlib",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "evEqual",
           "normalized": "a-\u003ea-\u003eBool",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "evOccured",
           "package": "hquantlib",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "evOccured",
           "normalized": "a-\u003eDate-\u003eBool",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Event",
           "name": "evOccuredInclude",
           "package": "hquantlib",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Event",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Event",
           "name": "evOccuredInclude",
           "normalized": "a-\u003eDate-\u003eBool",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Instruments",
           "name": "Instruments",
           "package": "hquantlib",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Instruments",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Instruments",
           "name": "Instruments",
           "package": "hquantlib",
@@ -444,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposite instrument is an aggregate of other instruments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Instruments",
           "name": "CompositeInstrument",
           "package": "hquantlib",
@@ -453,6 +492,7 @@
         "index": {
           "description": "Composite instrument is an aggregate of other instruments",
           "hierarchy": "QuantLib Instruments",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Instruments",
           "name": "CompositeInstrument",
           "package": "hquantlib",
@@ -467,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstrument type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Instruments",
           "name": "Instrument",
           "package": "hquantlib",
@@ -476,6 +517,7 @@
         "index": {
           "description": "Instrument type class",
           "hierarchy": "QuantLib Instruments",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Instruments",
           "name": "Instrument",
           "package": "hquantlib",
@@ -490,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle stock instrument \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Instruments",
           "name": "Stock",
           "package": "hquantlib",
@@ -499,6 +542,7 @@
         "index": {
           "description": "Single stock instrument",
           "hierarchy": "QuantLib Instruments",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Instruments",
           "name": "Stock",
           "package": "hquantlib",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Instruments",
           "name": "CompositeInstrument",
           "package": "hquantlib",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Instruments",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Instruments",
           "name": "CompositeInstrument",
           "package": "hquantlib",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Instruments",
           "name": "Stock",
           "package": "hquantlib",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Instruments",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Instruments",
           "name": "Stock",
           "package": "hquantlib",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Instruments",
           "name": "iDate",
           "package": "hquantlib",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Instruments",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Instruments",
           "name": "iDate",
           "normalized": "a-\u003eLocalTime",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Instruments",
           "name": "iIsExpired",
           "package": "hquantlib",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Instruments",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Instruments",
           "name": "iIsExpired",
           "normalized": "a-\u003eBool",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Instruments",
           "name": "sDate",
           "package": "hquantlib",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Instruments",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Instruments",
           "name": "sDate",
           "package": "hquantlib",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Instruments",
           "name": "sQuote",
           "package": "hquantlib",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Instruments",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Instruments",
           "name": "sQuote",
           "package": "hquantlib",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "Copulas",
           "package": "hquantlib",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "Copulas",
           "package": "hquantlib",
@@ -670,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopula type class. \n -| Normally instance should implement only copulaFunc.\n -| Method copula provides a precheck for [0..1] range for x and y but real implementation is in copulaFunc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "Copula",
           "package": "hquantlib",
@@ -679,6 +738,7 @@
         "index": {
           "description": "Copula type class Normally instance should implement only copulaFunc Method copula provides precheck for range for and but real implementation is in copulaFunc",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "Copula",
           "package": "hquantlib",
@@ -693,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopula data types with parameters required by the concrete copula definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "Copulas",
           "package": "hquantlib",
@@ -702,6 +763,7 @@
         "index": {
           "description": "Copula data types with parameters required by the concrete copula definition",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "Copulas",
           "package": "hquantlib",
@@ -716,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAli-Mikhail-Haq copula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "AliMikhailHaqCopula",
           "package": "hquantlib",
@@ -726,6 +789,7 @@
         "index": {
           "description": "Ali-Mikhail-Haq copula",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "AliMikhailHaqCopula",
           "package": "hquantlib",
@@ -740,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClayton copula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "ClaytonCopula",
           "package": "hquantlib",
@@ -750,6 +815,7 @@
         "index": {
           "description": "Clayton copula",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "ClaytonCopula",
           "package": "hquantlib",
@@ -764,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFarlie-Gumbel-Morgenstern copula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "FarlieGumbelMorgensternCopula",
           "package": "hquantlib",
@@ -774,6 +841,7 @@
         "index": {
           "description": "Farlie-Gumbel-Morgenstern copula",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "FarlieGumbelMorgensternCopula",
           "package": "hquantlib",
@@ -788,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrank copula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "FrankCopula",
           "package": "hquantlib",
@@ -798,6 +867,7 @@
         "index": {
           "description": "Frank copula",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "FrankCopula",
           "package": "hquantlib",
@@ -812,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGalambos copula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "GalambosCopula",
           "package": "hquantlib",
@@ -822,6 +893,7 @@
         "index": {
           "description": "Galambos copula",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "GalambosCopula",
           "package": "hquantlib",
@@ -836,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGaussian copula \u003cem\u003eNot implemented yet!\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "GaussianCopula",
           "package": "hquantlib",
@@ -846,6 +919,7 @@
         "index": {
           "description": "Gaussian copula Not implemented yet",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "GaussianCopula",
           "package": "hquantlib",
@@ -860,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGumbel copula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "GumbelCopula",
           "package": "hquantlib",
@@ -870,6 +945,7 @@
         "index": {
           "description": "Gumbel copula",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "GumbelCopula",
           "package": "hquantlib",
@@ -884,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHusler-Reiss copula \u003cem\u003eNot implemented yet!\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "HuslerReissCopula",
           "package": "hquantlib",
@@ -894,6 +971,7 @@
         "index": {
           "description": "Husler-Reiss copula Not implemented yet",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "HuslerReissCopula",
           "package": "hquantlib",
@@ -908,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndependent copula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "IndependentCopula",
           "package": "hquantlib",
@@ -918,6 +997,7 @@
         "index": {
           "description": "Independent copula",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "IndependentCopula",
           "package": "hquantlib",
@@ -932,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshall-Olkin copula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "MarshallOlkinCopula",
           "package": "hquantlib",
@@ -942,6 +1023,7 @@
         "index": {
           "description": "Marshall-Olkin copula",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "MarshallOlkinCopula",
           "package": "hquantlib",
@@ -956,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMax copula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "MaxCopula",
           "package": "hquantlib",
@@ -966,6 +1049,7 @@
         "index": {
           "description": "Max copula",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "MaxCopula",
           "package": "hquantlib",
@@ -980,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMin copula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "MinCopula",
           "package": "hquantlib",
@@ -990,6 +1075,7 @@
         "index": {
           "description": "Min copula",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "MinCopula",
           "package": "hquantlib",
@@ -1004,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlackett copula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math.Copulas",
           "name": "PlackettCopula",
           "package": "hquantlib",
@@ -1014,6 +1101,7 @@
         "index": {
           "description": "Plackett copula",
           "hierarchy": "QuantLib Math Copulas",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math.Copulas",
           "name": "PlackettCopula",
           "package": "hquantlib",
@@ -1027,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math",
           "name": "Math",
           "package": "hquantlib",
@@ -1035,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Math",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math",
           "name": "Math",
           "package": "hquantlib",
@@ -1049,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the inverse cumulative standard normal distribution N(0, 1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Math",
           "name": "inverseNormal",
           "package": "hquantlib",
@@ -1059,6 +1150,7 @@
         "index": {
           "description": "Computes the inverse cumulative standard normal distribution",
           "hierarchy": "QuantLib Math",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Math",
           "name": "inverseNormal",
           "normalized": "Double-\u003eDouble",
@@ -1074,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "MonteCarlo",
           "package": "hquantlib",
@@ -1082,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "MonteCarlo",
           "package": "hquantlib",
@@ -1096,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis pricer gets the last point of path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "LastPointPricer",
           "package": "hquantlib",
@@ -1105,6 +1200,7 @@
         "index": {
           "description": "This pricer gets the last point of path",
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "LastPointPricer",
           "package": "hquantlib",
@@ -1119,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath generator is a stochastic path generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "PathGenerator",
           "package": "hquantlib",
@@ -1128,6 +1225,7 @@
         "index": {
           "description": "Path generator is stochastic path generator",
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "PathGenerator",
           "package": "hquantlib",
@@ -1142,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath-dependant Monte Carlo engine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "PathMonteCarlo",
           "package": "hquantlib",
@@ -1151,6 +1250,7 @@
         "index": {
           "description": "Path-dependant Monte Carlo engine",
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "PathMonteCarlo",
           "package": "hquantlib",
@@ -1165,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath pricer provides a price for given path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "PathPricer",
           "package": "hquantlib",
@@ -1174,6 +1275,7 @@
         "index": {
           "description": "Path pricer provides price for given path",
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "PathPricer",
           "package": "hquantlib",
@@ -1188,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStochastic process generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "ProcessGenerator",
           "package": "hquantlib",
@@ -1197,6 +1300,7 @@
         "index": {
           "description": "Stochastic process generator",
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "ProcessGenerator",
           "package": "hquantlib",
@@ -1211,6 +1315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummary type class aggregates all priced values of paths\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "Summary",
           "package": "hquantlib",
@@ -1220,6 +1325,7 @@
         "index": {
           "description": "Summary type class aggregates all priced values of paths",
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "Summary",
           "package": "hquantlib",
@@ -1233,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "LastPointPricer",
           "package": "hquantlib",
@@ -1242,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "LastPointPricer",
           "package": "hquantlib",
@@ -1255,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "PathMonteCarlo",
           "package": "hquantlib",
@@ -1264,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "PathMonteCarlo",
           "package": "hquantlib",
@@ -1277,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "ProcessGenerator",
           "package": "hquantlib",
@@ -1286,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "ProcessGenerator",
           "package": "hquantlib",
@@ -1300,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonte Carlo engine function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "monteCarlo",
           "package": "hquantlib",
@@ -1310,6 +1423,7 @@
         "index": {
           "description": "Monte Carlo engine function",
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "monteCarlo",
           "normalized": "PathMonteCarlo a b c-\u003eInt-\u003eIO a",
@@ -1326,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonte Carlo engine function. Parallelized version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "monteCarloParallel",
           "package": "hquantlib",
@@ -1336,6 +1451,7 @@
         "index": {
           "description": "Monte Carlo engine function Parallelized version",
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "monteCarloParallel",
           "normalized": "PathMonteCarlo a b c-\u003eInt-\u003eIO a",
@@ -1351,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgDiscretize",
           "package": "hquantlib",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgDiscretize",
           "package": "hquantlib",
@@ -1373,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgGenerate",
           "package": "hquantlib",
@@ -1382,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgGenerate",
           "normalized": "a-\u003eIO Path",
@@ -1397,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgGenerator",
           "package": "hquantlib",
@@ -1406,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgGenerator",
           "package": "hquantlib",
@@ -1419,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgLength",
           "package": "hquantlib",
@@ -1428,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgLength",
           "package": "hquantlib",
@@ -1441,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgMkNew",
           "package": "hquantlib",
@@ -1450,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgMkNew",
           "normalized": "a-\u003eIO a",
@@ -1465,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgProcess",
           "package": "hquantlib",
@@ -1474,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgProcess",
           "package": "hquantlib",
@@ -1487,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgStart",
           "package": "hquantlib",
@@ -1496,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pgStart",
           "package": "hquantlib",
@@ -1509,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pmcGenerator",
           "package": "hquantlib",
@@ -1518,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pmcGenerator",
           "package": "hquantlib",
@@ -1531,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pmcPricer",
           "package": "hquantlib",
@@ -1540,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pmcPricer",
           "package": "hquantlib",
@@ -1553,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pmcSummary",
           "package": "hquantlib",
@@ -1562,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "pmcSummary",
           "package": "hquantlib",
@@ -1575,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "ppPrice",
           "package": "hquantlib",
@@ -1584,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "ppPrice",
           "normalized": "a-\u003ePath-\u003ea",
@@ -1600,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines a metric, i.e. calculate distance between 2 summaries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "sNorm",
           "package": "hquantlib",
@@ -1610,6 +1749,7 @@
         "index": {
           "description": "Defines metric i.e calculate distance between summaries",
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "sNorm",
           "normalized": "a-\u003ea-\u003eDouble",
@@ -1626,6 +1766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates summary with given priced pathes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "sSummarize",
           "package": "hquantlib",
@@ -1636,6 +1777,7 @@
         "index": {
           "description": "Updates summary with given priced pathes",
           "hierarchy": "QuantLib Methods MonteCarlo",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Methods.MonteCarlo",
           "name": "sSummarize",
           "normalized": "a-\u003e[b]-\u003ea",
@@ -1651,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "Volatility",
           "package": "hquantlib",
@@ -1659,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "Volatility",
           "package": "hquantlib",
@@ -1673,6 +1817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEstimation type with strictness as it is usually required only one \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e to process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "Estimation",
           "package": "hquantlib",
@@ -1682,6 +1827,7 @@
         "index": {
           "description": "Estimation type with strictness as it is usually required only one Double to process",
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "Estimation",
           "package": "hquantlib",
@@ -1696,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVolatility type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "Volatility",
           "package": "hquantlib",
@@ -1705,6 +1852,7 @@
         "index": {
           "description": "Volatility type",
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "Volatility",
           "package": "hquantlib",
@@ -1719,6 +1867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class of volatility estimators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "VolatilityEstimator",
           "package": "hquantlib",
@@ -1728,6 +1877,7 @@
         "index": {
           "description": "Type class of volatility estimators",
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "VolatilityEstimator",
           "package": "hquantlib",
@@ -1741,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "VolatilityEstimatorAlgorithm",
           "package": "hquantlib",
@@ -1749,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "VolatilityEstimatorAlgorithm",
           "package": "hquantlib",
@@ -1762,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "Estimation",
           "package": "hquantlib",
@@ -1771,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "Estimation",
           "package": "hquantlib",
@@ -1785,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGarman-Klass estimator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "GarmanKlass5Estimator",
           "package": "hquantlib",
@@ -1795,6 +1950,7 @@
         "index": {
           "description": "Garman-Klass estimator",
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "GarmanKlass5Estimator",
           "package": "hquantlib",
@@ -1809,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParkinson number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "ParkinsonEstimator",
           "package": "hquantlib",
@@ -1819,6 +1976,7 @@
         "index": {
           "description": "Parkinson number",
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "ParkinsonEstimator",
           "package": "hquantlib",
@@ -1833,6 +1991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRogers-Stachel estimator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "RogersSatchelEstimator",
           "package": "hquantlib",
@@ -1843,6 +2002,7 @@
         "index": {
           "description": "Rogers-Stachel estimator",
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "RogersSatchelEstimator",
           "package": "hquantlib",
@@ -1857,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple estimator without drift\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "SimpleDriftLessEstimator",
           "package": "hquantlib",
@@ -1867,6 +2028,7 @@
         "index": {
           "description": "Simple estimator without drift",
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "SimpleDriftLessEstimator",
           "package": "hquantlib",
@@ -1881,6 +2043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple estimator with drift\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "SimpleEstimator",
           "package": "hquantlib",
@@ -1891,6 +2054,7 @@
         "index": {
           "description": "Simple estimator with drift",
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "SimpleEstimator",
           "package": "hquantlib",
@@ -1905,6 +2069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYang-Zhang estimator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "YangZhangEstimator",
           "package": "hquantlib",
@@ -1915,6 +2080,7 @@
         "index": {
           "description": "Yang-Zhang estimator",
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "YangZhangEstimator",
           "package": "hquantlib",
@@ -1929,6 +2095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe estimation procedure that takes a series of \u003ccode\u003e\u003ca\u003eIntervalPrice\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models.Volatility",
           "name": "estimate",
           "package": "hquantlib",
@@ -1939,6 +2106,7 @@
         "index": {
           "description": "The estimation procedure that takes series of IntervalPrice",
           "hierarchy": "QuantLib Models Volatility",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models.Volatility",
           "name": "estimate",
           "normalized": "a-\u003eIntervalPriceSeries-\u003eEstimation",
@@ -1953,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Models",
           "name": "Models",
           "package": "hquantlib",
@@ -1961,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Models",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Models",
           "name": "Models",
           "package": "hquantlib",
@@ -1974,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Money",
           "name": "Money",
           "package": "hquantlib",
@@ -1982,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Money",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Money",
           "name": "Money",
           "package": "hquantlib",
@@ -1996,6 +2168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmount of cash. Please, note that currency conversion is not implemented yet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Money",
           "name": "Money",
           "package": "hquantlib",
@@ -2005,6 +2178,7 @@
         "index": {
           "description": "Amount of cash Please note that currency conversion is not implemented yet",
           "hierarchy": "QuantLib Money",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Money",
           "name": "Money",
           "package": "hquantlib",
@@ -2018,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Money",
           "name": "Money",
           "package": "hquantlib",
@@ -2027,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Money",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Money",
           "name": "Money",
           "package": "hquantlib",
@@ -2040,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Money",
           "name": "mCurrency",
           "package": "hquantlib",
@@ -2049,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Money",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Money",
           "name": "mCurrency",
           "package": "hquantlib",
@@ -2062,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Money",
           "name": "mValue",
           "package": "hquantlib",
@@ -2071,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Money",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Money",
           "name": "mValue",
           "package": "hquantlib",
@@ -2084,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Options",
           "name": "Options",
           "package": "hquantlib",
@@ -2092,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Options",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Options",
           "name": "Options",
           "package": "hquantlib",
@@ -2105,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Options",
           "name": "OptionType",
           "package": "hquantlib",
@@ -2113,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Options",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Options",
           "name": "OptionType",
           "package": "hquantlib",
@@ -2126,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Options",
           "name": "Call",
           "package": "hquantlib",
@@ -2135,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Options",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Options",
           "name": "Call",
           "package": "hquantlib",
@@ -2148,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Options",
           "name": "Put",
           "package": "hquantlib",
@@ -2157,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Options",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Options",
           "name": "Put",
           "package": "hquantlib",
@@ -2170,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Options",
           "name": "toDouble",
           "package": "hquantlib",
@@ -2179,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Options",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Options",
           "name": "toDouble",
           "normalized": "OptionType-\u003eDouble",
@@ -2194,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Options",
           "name": "toInt",
           "package": "hquantlib",
@@ -2203,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Options",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Options",
           "name": "toInt",
           "normalized": "OptionType-\u003eInt",
@@ -2218,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Position",
           "name": "Position",
           "package": "hquantlib",
@@ -2226,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Position",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Position",
           "name": "Position",
           "package": "hquantlib",
@@ -2240,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Position",
           "name": "Position",
           "package": "hquantlib",
@@ -2249,6 +2444,7 @@
         "index": {
           "description": "Position types",
           "hierarchy": "QuantLib Position",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Position",
           "name": "Position",
           "package": "hquantlib",
@@ -2262,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Position",
           "name": "Long",
           "package": "hquantlib",
@@ -2271,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Position",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Position",
           "name": "Long",
           "package": "hquantlib",
@@ -2284,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Position",
           "name": "Short",
           "package": "hquantlib",
@@ -2293,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Position",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Position",
           "name": "Short",
           "package": "hquantlib",
@@ -2306,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Priceable",
           "name": "Priceable",
           "package": "hquantlib",
@@ -2314,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Priceable",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Priceable",
           "name": "Priceable",
           "package": "hquantlib",
@@ -2328,6 +2530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll instruments and events have a net present value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Priceable",
           "name": "Priceable",
           "package": "hquantlib",
@@ -2337,6 +2540,7 @@
         "index": {
           "description": "All instruments and events have net present value",
           "hierarchy": "QuantLib Priceable",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Priceable",
           "name": "Priceable",
           "package": "hquantlib",
@@ -2350,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Priceable",
           "name": "errorEstimate",
           "package": "hquantlib",
@@ -2359,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Priceable",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Priceable",
           "name": "errorEstimate",
           "normalized": "a-\u003eDouble",
@@ -2374,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Priceable",
           "name": "npv",
           "package": "hquantlib",
@@ -2383,6 +2590,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Priceable",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Priceable",
           "name": "npv",
           "normalized": "a-\u003eDouble",
@@ -2397,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "Prices",
           "package": "hquantlib",
@@ -2405,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "Prices",
           "package": "hquantlib",
@@ -2419,6 +2629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall price\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "CallPrice",
           "package": "hquantlib",
@@ -2428,6 +2639,7 @@
         "index": {
           "description": "Call price",
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "CallPrice",
           "package": "hquantlib",
@@ -2442,6 +2654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval price\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "IntervalPrice",
           "package": "hquantlib",
@@ -2451,6 +2664,7 @@
         "index": {
           "description": "Interval price",
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "IntervalPrice",
           "package": "hquantlib",
@@ -2465,6 +2679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrice types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "PriceType",
           "package": "hquantlib",
@@ -2474,6 +2689,7 @@
         "index": {
           "description": "Price types",
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "PriceType",
           "package": "hquantlib",
@@ -2487,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "Ask",
           "package": "hquantlib",
@@ -2496,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "Ask",
           "package": "hquantlib",
@@ -2509,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "Bid",
           "package": "hquantlib",
@@ -2518,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "Bid",
           "package": "hquantlib",
@@ -2531,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "CleanPrice",
           "package": "hquantlib",
@@ -2540,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "CleanPrice",
           "package": "hquantlib",
@@ -2553,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "Close",
           "package": "hquantlib",
@@ -2562,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "Close",
           "package": "hquantlib",
@@ -2575,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "DirtyPrice",
           "package": "hquantlib",
@@ -2584,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "DirtyPrice",
           "package": "hquantlib",
@@ -2597,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "IntervalPrice",
           "package": "hquantlib",
@@ -2606,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "IntervalPrice",
           "package": "hquantlib",
@@ -2619,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "Last",
           "package": "hquantlib",
@@ -2628,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "Last",
           "package": "hquantlib",
@@ -2641,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "Mid",
           "package": "hquantlib",
@@ -2650,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "Mid",
           "package": "hquantlib",
@@ -2663,6 +2895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "MidEq",
           "package": "hquantlib",
@@ -2672,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "MidEq",
           "package": "hquantlib",
@@ -2685,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "MidSafe",
           "package": "hquantlib",
@@ -2694,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "MidSafe",
           "package": "hquantlib",
@@ -2707,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "cpPrice",
           "package": "hquantlib",
@@ -2716,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "cpPrice",
           "package": "hquantlib",
@@ -2729,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "ipClose",
           "package": "hquantlib",
@@ -2738,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "ipClose",
           "package": "hquantlib",
@@ -2751,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "ipHigh",
           "package": "hquantlib",
@@ -2760,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "ipHigh",
           "package": "hquantlib",
@@ -2773,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "ipLow",
           "package": "hquantlib",
@@ -2782,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "ipLow",
           "package": "hquantlib",
@@ -2795,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Prices",
           "name": "ipOpen",
           "package": "hquantlib",
@@ -2804,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Prices",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Prices",
           "name": "ipOpen",
           "package": "hquantlib",
@@ -2817,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.PricingEngines.BlackFormula",
           "name": "BlackFormula",
           "package": "hquantlib",
@@ -2825,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "QuantLib PricingEngines BlackFormula",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.PricingEngines.BlackFormula",
           "name": "BlackFormula",
           "package": "hquantlib",
@@ -2838,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.PricingEngines.BlackFormula",
           "name": "blackFormulaImpliedStdDev",
           "package": "hquantlib",
@@ -2847,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "QuantLib PricingEngines BlackFormula",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.PricingEngines.BlackFormula",
           "name": "blackFormulaImpliedStdDev",
           "normalized": "OptionType-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eMaybe Double-\u003eDouble-\u003eInt-\u003eMaybe Double",
@@ -2862,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.PricingEngines",
           "name": "PricingEngines",
           "package": "hquantlib",
@@ -2870,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "QuantLib PricingEngines",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.PricingEngines",
           "name": "PricingEngines",
           "package": "hquantlib",
@@ -2883,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.PricingEngines",
           "name": "PricingEngine",
           "package": "hquantlib",
@@ -2891,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "QuantLib PricingEngines",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.PricingEngines",
           "name": "PricingEngine",
           "package": "hquantlib",
@@ -2904,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.PricingEngines",
           "name": "peCalculate",
           "package": "hquantlib",
@@ -2913,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "QuantLib PricingEngines",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.PricingEngines",
           "name": "peCalculate",
           "normalized": "a-\u003eb-\u003ea",
@@ -2928,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "Quotes",
           "package": "hquantlib",
@@ -2936,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "Quotes",
           "package": "hquantlib",
@@ -2950,6 +3208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarket element whose value depends on two other market elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "CompositeQuote",
           "package": "hquantlib",
@@ -2959,6 +3218,7 @@
         "index": {
           "description": "Market element whose value depends on two other market elements",
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "CompositeQuote",
           "package": "hquantlib",
@@ -2973,6 +3233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarket element whose value depends on another quote\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "DerivedQuote",
           "package": "hquantlib",
@@ -2982,6 +3243,7 @@
         "index": {
           "description": "Market element whose value depends on another quote",
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "DerivedQuote",
           "package": "hquantlib",
@@ -2996,6 +3258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuote for the Eurodollar-future implied standard deviation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "EurodollarFutureQuote",
           "package": "hquantlib",
@@ -3005,6 +3268,7 @@
         "index": {
           "description": "Quote for the Eurodollar-future implied standard deviation",
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "EurodollarFutureQuote",
           "package": "hquantlib",
@@ -3019,6 +3283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuote for the implied standard deviation of an underlying\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "ImpliedStdDevQuote",
           "package": "hquantlib",
@@ -3028,6 +3293,7 @@
         "index": {
           "description": "Quote for the implied standard deviation of an underlying",
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "ImpliedStdDevQuote",
           "package": "hquantlib",
@@ -3042,6 +3308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase type class for market observables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "Quote",
           "package": "hquantlib",
@@ -3051,6 +3318,7 @@
         "index": {
           "description": "Base type class for market observables",
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "Quote",
           "package": "hquantlib",
@@ -3065,6 +3333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarket element returning a stored value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "SimpleQuote",
           "package": "hquantlib",
@@ -3074,6 +3343,7 @@
         "index": {
           "description": "Market element returning stored value",
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "SimpleQuote",
           "package": "hquantlib",
@@ -3087,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "CompositeQuote",
           "package": "hquantlib",
@@ -3096,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "CompositeQuote",
           "package": "hquantlib",
@@ -3109,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "DerivedQuote",
           "package": "hquantlib",
@@ -3118,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "DerivedQuote",
           "package": "hquantlib",
@@ -3131,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "EurodollarFutureQuote",
           "package": "hquantlib",
@@ -3140,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "EurodollarFutureQuote",
           "package": "hquantlib",
@@ -3153,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "ImpliedStdDevQuote",
           "package": "hquantlib",
@@ -3162,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "ImpliedStdDevQuote",
           "package": "hquantlib",
@@ -3175,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "SimpleQuote",
           "package": "hquantlib",
@@ -3184,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "SimpleQuote",
           "package": "hquantlib",
@@ -3198,6 +3478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "cqComposite",
           "package": "hquantlib",
@@ -3208,6 +3489,7 @@
         "index": {
           "description": "Composition function",
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "cqComposite",
           "normalized": "a-\u003ea-\u003eMaybe Double",
@@ -3224,6 +3506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "cqQuote1",
           "package": "hquantlib",
@@ -3234,6 +3517,7 @@
         "index": {
           "description": "First element",
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "cqQuote1",
           "package": "hquantlib",
@@ -3248,6 +3532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecond element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "cqQuote2",
           "package": "hquantlib",
@@ -3258,6 +3543,7 @@
         "index": {
           "description": "Second element",
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "cqQuote2",
           "package": "hquantlib",
@@ -3271,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "dqDerivateFunc",
           "package": "hquantlib",
@@ -3280,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "dqDerivateFunc",
           "normalized": "a-\u003eMaybe Double",
@@ -3295,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "dqQuote",
           "package": "hquantlib",
@@ -3304,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "dqQuote",
           "package": "hquantlib",
@@ -3317,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "efqCallPrice",
           "package": "hquantlib",
@@ -3326,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "efqCallPrice",
           "package": "hquantlib",
@@ -3339,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "efqForward",
           "package": "hquantlib",
@@ -3348,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "efqForward",
           "package": "hquantlib",
@@ -3361,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "efqGuess",
           "package": "hquantlib",
@@ -3370,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "efqGuess",
           "package": "hquantlib",
@@ -3383,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "efqPutPrice",
           "package": "hquantlib",
@@ -3392,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "efqPutPrice",
           "package": "hquantlib",
@@ -3405,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "efqStrike",
           "package": "hquantlib",
@@ -3414,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "efqStrike",
           "package": "hquantlib",
@@ -3427,6 +3727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "isdqForward",
           "package": "hquantlib",
@@ -3436,6 +3737,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "isdqForward",
           "package": "hquantlib",
@@ -3449,6 +3751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "isdqGuess",
           "package": "hquantlib",
@@ -3458,6 +3761,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "isdqGuess",
           "package": "hquantlib",
@@ -3471,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "isdqOptionType",
           "package": "hquantlib",
@@ -3480,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "isdqOptionType",
           "package": "hquantlib",
@@ -3493,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "isdqPrice",
           "package": "hquantlib",
@@ -3502,6 +3809,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "isdqPrice",
           "package": "hquantlib",
@@ -3515,6 +3823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "isdqStrike",
           "package": "hquantlib",
@@ -3524,6 +3833,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "isdqStrike",
           "package": "hquantlib",
@@ -3537,6 +3847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "pureValue",
           "package": "hquantlib",
@@ -3546,6 +3857,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "pureValue",
           "normalized": "a-\u003eDouble",
@@ -3561,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Quotes",
           "name": "qValue",
           "package": "hquantlib",
@@ -3570,6 +3883,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Quotes",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Quotes",
           "name": "qValue",
           "normalized": "a-\u003eMaybe Double",
@@ -3585,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Stochastic",
           "name": "Stochastic",
           "package": "hquantlib",
@@ -3593,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Stochastic",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Stochastic",
           "name": "Stochastic",
           "package": "hquantlib",
@@ -3606,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Time",
           "package": "hquantlib",
@@ -3614,6 +3931,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Time",
           "package": "hquantlib",
@@ -3628,6 +3946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBusiness Day conventions\n - These conventions specify the algorithm used to adjust a date in case it is not a valid business day.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "BusinessDayConvention",
           "package": "hquantlib",
@@ -3637,6 +3956,7 @@
         "index": {
           "description": "Business Day conventions These conventions specify the algorithm used to adjust date in case it is not valid business day",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "BusinessDayConvention",
           "package": "hquantlib",
@@ -3651,6 +3971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Date",
           "package": "hquantlib",
@@ -3660,6 +3981,7 @@
         "index": {
           "description": "Date",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Date",
           "package": "hquantlib",
@@ -3674,6 +3996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay counter type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "DayCounter",
           "package": "hquantlib",
@@ -3683,6 +4006,7 @@
         "index": {
           "description": "Day counter type class",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "DayCounter",
           "package": "hquantlib",
@@ -3697,6 +4021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines a holidays for given calendar. Corresponds to calendar class in QuantLib\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Holiday",
           "package": "hquantlib",
@@ -3706,6 +4031,7 @@
         "index": {
           "description": "Defines holidays for given calendar Corresponds to calendar class in QuantLib",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Holiday",
           "package": "hquantlib",
@@ -3720,6 +4046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThirty day counters as in QuantLib\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Thirty360",
           "package": "hquantlib",
@@ -3729,6 +4056,7 @@
         "index": {
           "description": "Thirty day counters as in QuantLib",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Thirty360",
           "package": "hquantlib",
@@ -3743,6 +4071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeek days\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "WeekDay",
           "package": "hquantlib",
@@ -3752,6 +4081,7 @@
         "index": {
           "description": "Week days",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "WeekDay",
           "package": "hquantlib",
@@ -3765,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Following",
           "package": "hquantlib",
@@ -3774,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Following",
           "package": "hquantlib",
@@ -3787,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Friday",
           "package": "hquantlib",
@@ -3796,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Friday",
           "package": "hquantlib",
@@ -3809,6 +4143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "ModifiedFollowing",
           "package": "hquantlib",
@@ -3818,6 +4153,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "ModifiedFollowing",
           "package": "hquantlib",
@@ -3831,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "ModifiedPreceding",
           "package": "hquantlib",
@@ -3840,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "ModifiedPreceding",
           "package": "hquantlib",
@@ -3853,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Monday",
           "package": "hquantlib",
@@ -3862,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Monday",
           "package": "hquantlib",
@@ -3875,6 +4215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Preceding",
           "package": "hquantlib",
@@ -3884,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Preceding",
           "package": "hquantlib",
@@ -3897,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Saturday",
           "package": "hquantlib",
@@ -3906,6 +4249,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Saturday",
           "package": "hquantlib",
@@ -3919,6 +4263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Sunday",
           "package": "hquantlib",
@@ -3928,6 +4273,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Sunday",
           "package": "hquantlib",
@@ -3941,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "ThirtyEuropean",
           "package": "hquantlib",
@@ -3950,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "ThirtyEuropean",
           "package": "hquantlib",
@@ -3963,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "ThirtyItalian",
           "package": "hquantlib",
@@ -3972,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "ThirtyItalian",
           "package": "hquantlib",
@@ -3985,6 +4335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "ThirtyUSA",
           "package": "hquantlib",
@@ -3994,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "ThirtyUSA",
           "package": "hquantlib",
@@ -4007,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Thursday",
           "package": "hquantlib",
@@ -4016,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Thursday",
           "package": "hquantlib",
@@ -4029,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Tuesday",
           "package": "hquantlib",
@@ -4038,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Tuesday",
           "package": "hquantlib",
@@ -4051,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Unadjusted",
           "package": "hquantlib",
@@ -4060,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Unadjusted",
           "package": "hquantlib",
@@ -4073,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "Wednesday",
           "package": "hquantlib",
@@ -4082,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "Wednesday",
           "package": "hquantlib",
@@ -4096,6 +4456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of business days inbetween\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "dcCount",
           "package": "hquantlib",
@@ -4106,6 +4467,7 @@
         "index": {
           "description": "Number of business days inbetween",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "dcCount",
           "normalized": "a-\u003eDate-\u003eDate-\u003eInt",
@@ -4122,6 +4484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of day counter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "dcName",
           "package": "hquantlib",
@@ -4132,6 +4495,7 @@
         "index": {
           "description": "Name of day counter",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "dcName",
           "normalized": "a-\u003eString",
@@ -4148,6 +4512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYear fraction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "dcYearFraction",
           "package": "hquantlib",
@@ -4158,6 +4523,7 @@
         "index": {
           "description": "Year fraction",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "dcYearFraction",
           "normalized": "a-\u003eDate-\u003eDate-\u003eDouble",
@@ -4174,6 +4540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a list of all dates inbetween\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "getDaysBetween",
           "package": "hquantlib",
@@ -4184,6 +4551,7 @@
         "index": {
           "description": "Generate list of all dates inbetween",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "getDaysBetween",
           "normalized": "(Day,Day)-\u003e[Day]",
@@ -4200,6 +4568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the next working day\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "getNextBusinessDay",
           "package": "hquantlib",
@@ -4210,6 +4579,7 @@
         "index": {
           "description": "Gets the next working day",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "getNextBusinessDay",
           "normalized": "a-\u003eDate-\u003eDate",
@@ -4226,6 +4596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a week day \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "getWeekDay",
           "package": "hquantlib",
@@ -4236,6 +4607,7 @@
         "index": {
           "description": "Gets week day",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "getWeekDay",
           "normalized": "Date-\u003eWeekDay",
@@ -4251,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "hBusinessDayBetween",
           "package": "hquantlib",
@@ -4260,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "hBusinessDayBetween",
           "normalized": "a-\u003e(Date,Date)-\u003eInt",
@@ -4275,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "intGregorian",
           "package": "hquantlib",
@@ -4284,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "intGregorian",
           "normalized": "Day-\u003e(Int,Int,Int)",
@@ -4299,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "isBusinessDay",
           "package": "hquantlib",
@@ -4308,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "isBusinessDay",
           "normalized": "a-\u003eDate-\u003eBool",
@@ -4323,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "isHoliday",
           "package": "hquantlib",
@@ -4332,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "isHoliday",
           "normalized": "a-\u003e(Integer,Int,Int)-\u003eBool",
@@ -4348,6 +4728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the day is a weekend, i.e. Saturday or Sunday\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.Time",
           "name": "isWeekEnd",
           "package": "hquantlib",
@@ -4358,6 +4739,7 @@
         "index": {
           "description": "Checks if the day is weekend i.e Saturday or Sunday",
           "hierarchy": "QuantLib Time",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.Time",
           "name": "isWeekEnd",
           "normalized": "Date-\u003eBool",
@@ -4373,6 +4755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.TimeSeries",
           "name": "TimeSeries",
           "package": "hquantlib",
@@ -4381,6 +4764,7 @@
         },
         "index": {
           "hierarchy": "QuantLib TimeSeries",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.TimeSeries",
           "name": "TimeSeries",
           "package": "hquantlib",
@@ -4395,6 +4779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval price time series\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.TimeSeries",
           "name": "IntervalPriceSeries",
           "package": "hquantlib",
@@ -4404,6 +4789,7 @@
         "index": {
           "description": "Interval price time series",
           "hierarchy": "QuantLib TimeSeries",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.TimeSeries",
           "name": "IntervalPriceSeries",
           "package": "hquantlib",
@@ -4418,6 +4804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime series\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib.TimeSeries",
           "name": "TimeSeries",
           "package": "hquantlib",
@@ -4427,6 +4814,7 @@
         "index": {
           "description": "Time series",
           "hierarchy": "QuantLib TimeSeries",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib.TimeSeries",
           "name": "TimeSeries",
           "package": "hquantlib",
@@ -4440,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:25 UTC 2014",
           "module": "QuantLib",
           "name": "QuantLib",
           "package": "hquantlib",
@@ -4448,6 +4837,7 @@
         },
         "index": {
           "hierarchy": "QuantLib",
+          "indexed": "2014-03-11T18:45:25",
           "module": "QuantLib",
           "name": "QuantLib",
           "package": "hquantlib",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "errors"
+        "phrase": "errors",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module extends the \u003ccode\u003esafe\u003c/code\u003e library's functions with corresponding\n    versions compatible with \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e, and also provides a few\n    \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e-compatible functions missing from \u003ccode\u003esafe\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eI suffix the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e-compatible functions with \u003ccode\u003eErr\u003c/code\u003e and prefix the\n    \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e-compatible functions with \u003ccode\u003etry\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that this library re-exports the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e compatible functions from\n    \u003ccode\u003esafe\u003c/code\u003e in the \u003ca\u003eControl.Error\u003c/a\u003e module, so they are not provided here.\n\u003c/p\u003e\u003cp\u003eThe '\u003ccode\u003eZ\u003c/code\u003e'-suffixed functions generalize the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e functions to also work\n    with anything that implements \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e, including:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Lists\n\u003c/li\u003e\u003cli\u003e Most parsers\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e (if the left value is a \u003ccode\u003eMonoid\u003c/code\u003e)\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "Safe",
           "package": "errors",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module extends the safe library functions with corresponding versions compatible with Either and EitherT and also provides few Maybe compatible functions missing from safe suffix the Either compatible functions with Err and prefix the EitherT compatible functions with try Note that this library re-exports the Maybe compatible functions from safe in the Control.Error module so they are not provided here The suffixed functions generalize the Maybe functions to also work with anything that implements MonadPlus including Lists Most parsers EitherT if the left value is Monoid",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "Safe",
           "package": "errors",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn assertion that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "assertErr",
           "package": "errors",
@@ -52,6 +55,7 @@
         "index": {
           "description": "An assertion that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "assertErr",
           "normalized": "a-\u003eBool-\u003eEither a()",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn assertion that fails in the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "assertMay",
           "package": "errors",
@@ -78,6 +83,7 @@
         "index": {
           "description": "An assertion that fails in the Maybe monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "assertMay",
           "normalized": "Bool-\u003eMaybe()",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn assertion that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "assertZ",
           "package": "errors",
@@ -104,6 +111,7 @@
         "index": {
           "description": "An assertion that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "assertZ",
           "normalized": "Bool-\u003ea()",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (\u003ccode\u003e\u003ca\u003e!!\u003c/a\u003e\u003c/code\u003e) that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "atErr",
           "package": "errors",
@@ -129,6 +138,7 @@
         "index": {
           "description": "that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "atErr",
           "normalized": "a-\u003e[b]-\u003eInt-\u003eEither a b",
@@ -145,6 +155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (\u003ccode\u003e\u003ca\u003e!!\u003c/a\u003e\u003c/code\u003e) that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "atZ",
           "package": "errors",
@@ -155,6 +166,7 @@
         "index": {
           "description": "that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "atZ",
           "normalized": "[a]-\u003eInt-\u003eb a",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003efoldl1\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "foldl1Err",
           "package": "errors",
@@ -180,6 +193,7 @@
         "index": {
           "description": "foldl1 that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "foldl1Err",
           "normalized": "a-\u003e(b-\u003eb-\u003eb)-\u003e[b]-\u003eEither a b",
@@ -196,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003efoldl1'\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "foldl1Err'",
           "package": "errors",
@@ -206,6 +221,7 @@
         "index": {
           "description": "foldl1 that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "foldl1Err'",
           "normalized": "a-\u003e(b-\u003eb-\u003eb)-\u003e[b]-\u003eEither a b",
@@ -222,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003efoldl1\u003c/a\u003e\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "foldl1Z",
           "package": "errors",
@@ -232,6 +249,7 @@
         "index": {
           "description": "foldl1 that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "foldl1Z",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003eb a",
@@ -247,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003efoldl1'\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "foldl1Z'",
           "package": "errors",
@@ -257,6 +276,7 @@
         "index": {
           "description": "foldl1 that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "foldl1Z'",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003eb a",
@@ -273,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003efoldr1\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "foldr1Err",
           "package": "errors",
@@ -283,6 +304,7 @@
         "index": {
           "description": "foldr1 that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "foldr1Err",
           "normalized": "a-\u003e(b-\u003eb-\u003eb)-\u003e[b]-\u003eEither a b",
@@ -299,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003efoldr1\u003c/a\u003e\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "foldr1Z",
           "package": "errors",
@@ -309,6 +332,7 @@
         "index": {
           "description": "foldr1 that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "foldr1Z",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003eb a",
@@ -324,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "headErr",
           "package": "errors",
@@ -334,6 +359,7 @@
         "index": {
           "description": "head that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "headErr",
           "normalized": "a-\u003e[b]-\u003eEither a b",
@@ -350,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "headZ",
           "package": "errors",
@@ -360,6 +387,7 @@
         "index": {
           "description": "head that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "headZ",
           "normalized": "[a]-\u003eb a",
@@ -375,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003einit\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "initErr",
           "package": "errors",
@@ -385,6 +414,7 @@
         "index": {
           "description": "An init that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "initErr",
           "normalized": "a-\u003e[b]-\u003eEither a[b]",
@@ -401,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003einit\u003c/a\u003e\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "initZ",
           "package": "errors",
@@ -411,6 +442,7 @@
         "index": {
           "description": "An init that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "initZ",
           "normalized": "[a]-\u003eb[a]",
@@ -426,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003efromJust\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "justErr",
           "package": "errors",
@@ -436,6 +469,7 @@
         "index": {
           "description": "fromJust that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "justErr",
           "normalized": "a-\u003eMaybe b-\u003eEither a b",
@@ -452,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003efromJust\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "justZ",
           "package": "errors",
@@ -462,6 +497,7 @@
         "index": {
           "description": "fromJust that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "justZ",
           "normalized": "Maybe a-\u003eb a",
@@ -477,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003elast\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "lastErr",
           "package": "errors",
@@ -487,6 +524,7 @@
         "index": {
           "description": "last that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "lastErr",
           "normalized": "a-\u003e[b]-\u003eEither a b",
@@ -503,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003elast\u003c/a\u003e\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "lastZ",
           "package": "errors",
@@ -513,6 +552,7 @@
         "index": {
           "description": "last that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "lastZ",
           "normalized": "[a]-\u003eb a",
@@ -528,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003emaximum\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "maximumErr",
           "package": "errors",
@@ -538,6 +579,7 @@
         "index": {
           "description": "maximum that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "maximumErr",
           "normalized": "a-\u003e[b]-\u003eEither a b",
@@ -554,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003emaximum\u003c/a\u003e\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "maximumZ",
           "package": "errors",
@@ -564,6 +607,7 @@
         "index": {
           "description": "maximum that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "maximumZ",
           "normalized": "[a]-\u003eb a",
@@ -579,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eminimum\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "minimumErr",
           "package": "errors",
@@ -589,6 +634,7 @@
         "index": {
           "description": "minimum that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "minimumErr",
           "normalized": "a-\u003e[b]-\u003eEither a b",
@@ -605,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eminimum\u003c/a\u003e\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "minimumZ",
           "package": "errors",
@@ -615,6 +662,7 @@
         "index": {
           "description": "minimum that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "minimumZ",
           "normalized": "[a]-\u003eb a",
@@ -630,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "readErr",
           "package": "errors",
@@ -640,6 +689,7 @@
         "index": {
           "description": "read that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "readErr",
           "normalized": "a-\u003eString-\u003eEither a b",
@@ -656,6 +706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "readZ",
           "package": "errors",
@@ -666,6 +717,7 @@
         "index": {
           "description": "read that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "readZ",
           "normalized": "String-\u003ea b",
@@ -681,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003efromRight\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "rightMay",
           "package": "errors",
@@ -691,6 +744,7 @@
         "index": {
           "description": "fromRight that fails in the Maybe monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "rightMay",
           "normalized": "Either a b-\u003eMaybe b",
@@ -707,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003efromRight\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "rightZ",
           "package": "errors",
@@ -717,6 +772,7 @@
         "index": {
           "description": "fromRight that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "rightZ",
           "normalized": "Either a b-\u003ec b",
@@ -732,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tailErr",
           "package": "errors",
@@ -742,6 +799,7 @@
         "index": {
           "description": "tail that fails in the Either monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tailErr",
           "normalized": "a-\u003e[b]-\u003eEither a[b]",
@@ -758,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e that fails using \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tailZ",
           "package": "errors",
@@ -768,6 +827,7 @@
         "index": {
           "description": "tail that fails using mzero",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tailZ",
           "normalized": "[a]-\u003eb[a]",
@@ -783,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn assertion that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryAssert",
           "package": "errors",
@@ -793,6 +854,7 @@
         "index": {
           "description": "An assertion that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryAssert",
           "normalized": "a-\u003eBool-\u003eEitherT a b()",
@@ -809,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (\u003ccode\u003e\u003ca\u003e!!\u003c/a\u003e\u003c/code\u003e) that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryAt",
           "package": "errors",
@@ -819,6 +882,7 @@
         "index": {
           "description": "that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryAt",
           "normalized": "a-\u003e[b]-\u003eInt-\u003eEitherT a c b",
@@ -835,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003efoldl1\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryFoldl1",
           "package": "errors",
@@ -845,6 +910,7 @@
         "index": {
           "description": "foldl1 that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryFoldl1",
           "normalized": "a-\u003e(b-\u003eb-\u003eb)-\u003e[b]-\u003eEitherT a c b",
@@ -861,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003efoldl1'\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryFoldl1'",
           "package": "errors",
@@ -871,6 +938,7 @@
         "index": {
           "description": "foldl1 that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryFoldl1'",
           "normalized": "a-\u003e(b-\u003eb-\u003eb)-\u003e[b]-\u003eEitherT a c b",
@@ -887,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003efoldr1\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryFoldr1",
           "package": "errors",
@@ -897,6 +966,7 @@
         "index": {
           "description": "foldr1 that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryFoldr1",
           "normalized": "a-\u003e(b-\u003eb-\u003eb)-\u003e[b]-\u003eEitherT a c b",
@@ -913,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryHead",
           "package": "errors",
@@ -923,6 +994,7 @@
         "index": {
           "description": "head that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryHead",
           "normalized": "a-\u003e[b]-\u003eEitherT a c b",
@@ -939,6 +1011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003einit\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryInit",
           "package": "errors",
@@ -949,6 +1022,7 @@
         "index": {
           "description": "An init that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryInit",
           "normalized": "a-\u003e[b]-\u003eEitherT a c[b]",
@@ -965,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003efromJust\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryJust",
           "package": "errors",
@@ -975,6 +1050,7 @@
         "index": {
           "description": "fromJust that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryJust",
           "normalized": "a-\u003eMaybe b-\u003eEitherT a c b",
@@ -991,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003elast\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryLast",
           "package": "errors",
@@ -1001,6 +1078,7 @@
         "index": {
           "description": "last that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryLast",
           "normalized": "a-\u003e[b]-\u003eEitherT a c b",
@@ -1017,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003emaximum\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryMaximum",
           "package": "errors",
@@ -1027,6 +1106,7 @@
         "index": {
           "description": "maximum that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryMaximum",
           "normalized": "a-\u003e[b]-\u003eEitherT a c b",
@@ -1043,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eminimum\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryMinimum",
           "package": "errors",
@@ -1053,6 +1134,7 @@
         "index": {
           "description": "minimum that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryMinimum",
           "normalized": "a-\u003e[b]-\u003eEitherT a c b",
@@ -1069,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryRead",
           "package": "errors",
@@ -1079,6 +1162,7 @@
         "index": {
           "description": "read that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryRead",
           "normalized": "a-\u003eString-\u003eEitherT a b c",
@@ -1095,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003efromRight\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryRight",
           "package": "errors",
@@ -1105,6 +1190,7 @@
         "index": {
           "description": "fromRight that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryRight",
           "normalized": "Either a b-\u003eEitherT a c b",
@@ -1121,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e that fails in the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Safe",
           "name": "tryTail",
           "package": "errors",
@@ -1131,6 +1218,7 @@
         "index": {
           "description": "tail that fails in the EitherT monad",
           "hierarchy": "Control Error Safe",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Safe",
           "name": "tryTail",
           "normalized": "a-\u003e[b]-\u003eEitherT a c[b]",
@@ -1147,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUse this module if you like to write simple scripts with \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e-based\n    errors, but you prefer to use \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e to handle errors rather than\n    \u003ccode\u003eControl.Exception\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e import Control.Error\n\n main = runScript $ do\n     str \u003c- scriptIO getLine\n     n   \u003c- tryRead \"Read failed\" str\n     scriptIO $ print (n + 1)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Script",
           "name": "Script",
           "package": "errors",
@@ -1156,6 +1245,7 @@
         "index": {
           "description": "Use this module if you like to write simple scripts with String based errors but you prefer to use EitherT to handle errors rather than Control.Exception import Control.Error main runScript do str scriptIO getLine tryRead Read failed str scriptIO print",
           "hierarchy": "Control Error Script",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Script",
           "name": "Script",
           "package": "errors",
@@ -1170,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action that can fail with a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Script",
           "name": "Script",
           "package": "errors",
@@ -1179,6 +1270,7 @@
         "index": {
           "description": "An IO action that can fail with String error message",
           "hierarchy": "Control Error Script",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Script",
           "name": "Script",
           "package": "errors",
@@ -1193,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e\u003cp\u003ePrints the first error to \u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e and exits with \u003ccode\u003e\u003ca\u003eexitFailure\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Script",
           "name": "runScript",
           "package": "errors",
@@ -1203,6 +1296,7 @@
         "index": {
           "description": "Runs the Script monad Prints the first error to stderr and exits with exitFailure",
           "hierarchy": "Control Error Script",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Script",
           "name": "runScript",
           "normalized": "Script a-\u003eIO a",
@@ -1219,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003escriptIO\u003c/a\u003e\u003c/code\u003e resembles \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e, except it catches all exceptions and converts\n    them to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003escriptIO\u003c/a\u003e\u003c/code\u003e is compatible with the \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Script",
           "name": "scriptIO",
           "package": "errors",
@@ -1229,6 +1324,7 @@
         "index": {
           "description": "scriptIO resembles lift except it catches all exceptions and converts them to String Note that scriptIO is compatible with the Script monad",
           "hierarchy": "Control Error Script",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Script",
           "name": "scriptIO",
           "normalized": "IO a-\u003eEitherT String b a",
@@ -1245,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports miscellaneous error-handling functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "Util",
           "package": "errors",
@@ -1254,6 +1351,7 @@
         "index": {
           "description": "This module exports miscellaneous error-handling functions",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "Util",
           "package": "errors",
@@ -1268,6 +1366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun multiple \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e computations and succeed if all of them succeed\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003es all successes or failures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "AllE",
           "package": "errors",
@@ -1277,6 +1376,7 @@
         "index": {
           "description": "Run multiple Either computations and succeed if all of them succeed mappend all successes or failures",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "AllE",
           "package": "errors",
@@ -1291,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun multiple \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e computations and succeed if any of them succeed\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003es all successes or failures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "AnyE",
           "package": "errors",
@@ -1300,6 +1401,7 @@
         "index": {
           "description": "Run multiple Either computations and succeed if any of them succeed mappend all successes or failures",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "AnyE",
           "package": "errors",
@@ -1314,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an applicative \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e value into the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "(!?)",
           "package": "errors",
@@ -1324,6 +1427,7 @@
         "index": {
           "description": "Convert an applicative Maybe value into the EitherT monad",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "(!?) !?",
           "normalized": "a(Maybe b)-\u003ec-\u003eEitherT c a b",
@@ -1339,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e value into the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "(??)",
           "package": "errors",
@@ -1349,6 +1454,7 @@
         "index": {
           "description": "Convert Maybe value into the EitherT monad",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "(??) ??",
           "normalized": "Maybe a-\u003eb-\u003eEitherT b c a",
@@ -1363,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "AllE",
           "package": "errors",
@@ -1372,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "AllE",
           "package": "errors",
@@ -1385,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "AnyE",
           "package": "errors",
@@ -1394,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "AnyE",
           "package": "errors",
@@ -1408,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to standard error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "err",
           "package": "errors",
@@ -1418,6 +1529,7 @@
         "index": {
           "description": "Write string to standard error",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "err",
           "normalized": "String-\u003eIO()",
@@ -1433,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string with a newline to standard error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "errLn",
           "package": "errors",
@@ -1443,6 +1556,7 @@
         "index": {
           "description": "Write string with newline to standard error",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "errLn",
           "normalized": "String-\u003eIO()",
@@ -1459,6 +1573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e value into the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e\u003cp\u003eNamed version of (\u003ccode\u003e\u003ca\u003e??\u003c/a\u003e\u003c/code\u003e) with arguments flipped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "failWith",
           "package": "errors",
@@ -1469,6 +1584,7 @@
         "index": {
           "description": "Convert Maybe value into the EitherT monad Named version of with arguments flipped",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "failWith",
           "normalized": "a-\u003eMaybe b-\u003eEitherT a c b",
@@ -1485,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an applicative \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e value into the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e\u003cp\u003eNamed version of (\u003ccode\u003e\u003ca\u003e!?\u003c/a\u003e\u003c/code\u003e) with arguments flipped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "failWithM",
           "package": "errors",
@@ -1495,6 +1612,7 @@
         "index": {
           "description": "Convert an applicative Maybe value into the EitherT monad Named version of with arguments flipped",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "failWithM",
           "normalized": "a-\u003eb(Maybe c)-\u003eEitherT a b c",
@@ -1511,6 +1629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e specialized to \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e, given a name symmetric to \u003ccode\u003e\u003ca\u003efmapL\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "fmapR",
           "package": "errors",
@@ -1521,6 +1640,7 @@
         "index": {
           "description": "fmap specialized to Either given name symmetric to fmapL",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "fmapR",
           "normalized": "(a-\u003eb)-\u003eEither c a-\u003eEither c b",
@@ -1536,6 +1656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e specialized to \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e, given a name symmetric to \u003ccode\u003e\u003ca\u003efmapLT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "fmapRT",
           "package": "errors",
@@ -1546,6 +1667,7 @@
         "index": {
           "description": "fmap specialized to EitherT given name symmetric to fmapLT",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "fmapRT",
           "normalized": "(a-\u003eb)-\u003eEitherT c d a-\u003eEitherT c d b",
@@ -1562,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e to the \u003ccode\u003e\u003ca\u003eMaybeT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "hoistMaybe",
           "package": "errors",
@@ -1572,6 +1695,7 @@
         "index": {
           "description": "Lift Maybe to the MaybeT monad",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "hoistMaybe",
           "normalized": "Maybe a-\u003eMaybeT b a",
@@ -1588,6 +1712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuppress the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e value of an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "hush",
           "package": "errors",
@@ -1598,6 +1723,7 @@
         "index": {
           "description": "Suppress the Left value of an Either",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "hush",
           "normalized": "Either a b-\u003eMaybe b",
@@ -1613,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuppress the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e value of an \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "hushT",
           "package": "errors",
@@ -1623,6 +1750,7 @@
         "index": {
           "description": "Suppress the Left value of an EitherT",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "hushT",
           "normalized": "EitherT a b c-\u003eMaybeT b c",
@@ -1638,6 +1766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether argument is a \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "isLeft",
           "package": "errors",
@@ -1648,6 +1777,7 @@
         "index": {
           "description": "Returns whether argument is Left",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "isLeft",
           "normalized": "Either a b-\u003eBool",
@@ -1664,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether argument is a \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "isRight",
           "package": "errors",
@@ -1674,6 +1805,7 @@
         "index": {
           "description": "Returns whether argument is Right",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "isRight",
           "normalized": "Either a b-\u003eBool",
@@ -1690,6 +1822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e and equivalent to \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "just",
           "package": "errors",
@@ -1700,6 +1833,7 @@
         "index": {
           "description": "Analogous to Just and equivalent to return",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "just",
           "normalized": "a-\u003eMaybeT b a",
@@ -1715,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase analysis for \u003ccode\u003e\u003ca\u003eMaybeT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eUse the first argument if the \u003ccode\u003e\u003ca\u003eMaybeT\u003c/a\u003e\u003c/code\u003e computation fails, otherwise apply\n    the function to the successful result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "maybeT",
           "package": "errors",
@@ -1725,6 +1860,7 @@
         "index": {
           "description": "Case analysis for MaybeT Use the first argument if the MaybeT computation fails otherwise apply the function to the successful result",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "maybeT",
           "normalized": "a b-\u003e(c-\u003ea b)-\u003eMaybeT a c-\u003ea b",
@@ -1740,6 +1876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag the \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e value of a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "note",
           "package": "errors",
@@ -1750,6 +1887,7 @@
         "index": {
           "description": "Tag the Nothing value of Maybe",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "note",
           "normalized": "a-\u003eMaybe b-\u003eEither a b",
@@ -1765,6 +1903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag the \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e value of a \u003ccode\u003e\u003ca\u003eMaybeT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "noteT",
           "package": "errors",
@@ -1775,6 +1914,7 @@
         "index": {
           "description": "Tag the Nothing value of MaybeT",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "noteT",
           "normalized": "a-\u003eMaybeT b c-\u003eEitherT a b c",
@@ -1790,6 +1930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e and equivalent to \u003ccode\u003emzero\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "nothing",
           "package": "errors",
@@ -1800,6 +1941,7 @@
         "index": {
           "description": "Analogous to Nothing and equivalent to mzero",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "nothing",
           "package": "errors",
@@ -1812,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "runAllE",
           "package": "errors",
@@ -1821,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "runAllE",
           "package": "errors",
@@ -1834,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "runAnyE",
           "package": "errors",
@@ -1843,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "runAnyE",
           "package": "errors",
@@ -1857,6 +2003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch all exceptions, except for asynchronous exceptions found in \u003ccode\u003ebase\u003c/code\u003e\n    and convert them to the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "syncIO",
           "package": "errors",
@@ -1867,6 +2014,7 @@
         "index": {
           "description": "Catch all exceptions except for asynchronous exceptions found in base and convert them to the EitherT monad",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "syncIO",
           "normalized": "IO a-\u003eEitherT SomeException b a",
@@ -1883,6 +2031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch \u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003es and convert them to the \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error.Util",
           "name": "tryIO",
           "package": "errors",
@@ -1893,6 +2042,7 @@
         "index": {
           "description": "Catch IOException and convert them to the EitherT monad",
           "hierarchy": "Control Error Util",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error.Util",
           "name": "tryIO",
           "normalized": "IO a-\u003eEitherT IOException b a",
@@ -1909,6 +2059,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImport this module in your code to access the entire library's\n    functionality:\n\u003c/p\u003e\u003cpre\u003e import Control.Error\n\u003c/pre\u003e\u003cp\u003eThis module exports the entire library as well as useful exports from other\n    standard error-handling libraries:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eControl.Error.Safe\u003c/a\u003e: Generalizes the \u003ccode\u003esafe\u003c/code\u003e library, including \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e,\n      \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003eMonadPlus\u003c/code\u003e variations on total functions\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eControl.Error.Script\u003c/a\u003e: Support for simple scripts that catch all errors\n      and transform them to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eControl.Error.Util\u003c/a\u003e: Utility functions and conversions between common\n      error-handling types\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eControl.Monad.Trans.Either\u003c/code\u003e: The \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e monad transformer\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eControl.Monad.Trans.Maybe\u003c/code\u003e: The \u003ccode\u003e\u003ca\u003eMaybeT\u003c/a\u003e\u003c/code\u003e monad transformer\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eData.Either\u003c/code\u003e: \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e utility functions\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.EitherR\u003c/a\u003e: throw and catch functions, and their corresponding\n      \"success\" monads\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eData.Maybe\u003c/code\u003e: \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e utility functions\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eSafe\u003c/code\u003e: Total versions of partial Prelude functions\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis module does not re-export partial functions from other libraries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Control.Error",
           "name": "Error",
           "package": "errors",
@@ -1918,6 +2069,7 @@
         "index": {
           "description": "Import this module in your code to access the entire library functionality import Control.Error This module exports the entire library as well as useful exports from other standard error-handling libraries Control.Error.Safe Generalizes the safe library including Either EitherT and MonadPlus variations on total functions Control.Error.Script Support for simple scripts that catch all errors and transform them to String Control.Error.Util Utility functions and conversions between common error-handling types Control.Monad.Trans.Either The EitherT monad transformer Control.Monad.Trans.Maybe The MaybeT monad transformer Data.Either Either utility functions Data.EitherR throw and catch functions and their corresponding success monads Data.Maybe Maybe utility functions Safe Total versions of partial Prelude functions This module does not re-export partial functions from other libraries",
           "hierarchy": "Control Error",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Control.Error",
           "name": "Error",
           "package": "errors",
@@ -1932,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides \u003ccode\u003e\u003ca\u003ethrowE\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecatchE\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e.  These two\n    functions reside here because \u003ccode\u003e\u003ca\u003ethrowE\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecatchE\u003c/a\u003e\u003c/code\u003e correspond to \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\n    and (\u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e) for the flipped \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad: \u003ccode\u003e\u003ca\u003eEitherR\u003c/a\u003e\u003c/code\u003e.  Similarly, this\n    module defines \u003ccode\u003e\u003ca\u003ethrowT\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecatchT\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e, which correspond to the\n    \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e operations for \u003ccode\u003e\u003ca\u003eEitherRT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThese throw and catch functions improve upon \u003ccode\u003eMonadError\u003c/code\u003e because:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ecatch\u003c/code\u003e is more general and allows you to change the left value's type\n\u003c/li\u003e\u003cli\u003e They are Haskell98\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMore advanced users can use \u003ccode\u003e\u003ca\u003eEitherR\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEitherRT\u003c/a\u003e\u003c/code\u003e to program in an\n    entirely symmetric \"success monad\" where exceptional results are the norm\n    and successful results terminate the computation.  This allows you to chain\n    error-handlers using \u003ccode\u003edo\u003c/code\u003e notation and pass around exceptional values of\n    varying types until you can finally recover from the error:\n\u003c/p\u003e\u003cpre\u003e runEitherRT $ do\n     e2   \u003c- ioExceptionHandler e1\n     bool \u003c- arithmeticExceptionhandler e2\n     when bool $ lift $ putStrLn \"DEBUG: Arithmetic handler did something\"\n\u003c/pre\u003e\u003cp\u003eIf any of the above error handlers \u003ccode\u003e\u003ca\u003esucceed\u003c/a\u003e\u003c/code\u003e, no other handlers are tried.\n\u003c/p\u003e\u003cp\u003eIf you choose not to typefully distinguish between the error and sucess\n    monad, then use \u003ccode\u003e\u003ca\u003eflipE\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eflipET\u003c/a\u003e\u003c/code\u003e, which swap the type variables without\n    changing the type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "EitherR",
           "package": "errors",
@@ -1941,6 +2094,7 @@
         "index": {
           "description": "This module provides throwE and catchE for Either These two functions reside here because throwE and catchE correspond to return and for the flipped Either monad EitherR Similarly this module defines throwT and catchT for EitherT which correspond to the Monad operations for EitherRT These throw and catch functions improve upon MonadError because catch is more general and allows you to change the left value type They are Haskell98 More advanced users can use EitherR and EitherRT to program in an entirely symmetric success monad where exceptional results are the norm and successful results terminate the computation This allows you to chain error-handlers using do notation and pass around exceptional values of varying types until you can finally recover from the error runEitherRT do e2 ioExceptionHandler e1 bool arithmeticExceptionhandler e2 when bool lift putStrLn DEBUG Arithmetic handler did something If any of the above error handlers succeed no other handlers are tried If you choose not to typefully distinguish between the error and sucess monad then use flipE and flipET which swap the type variables without changing the type",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "EitherR",
           "package": "errors",
@@ -1955,6 +2109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \"\u003ccode\u003eEither e r\u003c/code\u003e\" is the error monad, then \"\u003ccode\u003eEitherR r e\u003c/code\u003e\" is the\n    corresponding success monad, where:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003ethrowE\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e (\u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e) is \u003ccode\u003e\u003ca\u003ecatchE\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Successful results abort the computation\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "EitherR",
           "package": "errors",
@@ -1964,6 +2119,7 @@
         "index": {
           "description": "If Either is the error monad then EitherR is the corresponding success monad where return is throwE is catchE Successful results abort the computation",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "EitherR",
           "package": "errors",
@@ -1978,6 +2134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eEitherR\u003c/a\u003e\u003c/code\u003e converted into a monad transformer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "EitherRT",
           "package": "errors",
@@ -1987,6 +2144,7 @@
         "index": {
           "description": "EitherR converted into monad transformer",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "EitherRT",
           "package": "errors",
@@ -2000,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "EitherR",
           "package": "errors",
@@ -2009,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "EitherR",
           "package": "errors",
@@ -2022,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "EitherRT",
           "package": "errors",
@@ -2031,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "EitherRT",
           "package": "errors",
@@ -2045,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecatchE\u003c/a\u003e\u003c/code\u003e in the error monad corresponds to (\u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e) in the success monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "catchE",
           "package": "errors",
@@ -2055,6 +2218,7 @@
         "index": {
           "description": "catchE in the error monad corresponds to in the success monad",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "catchE",
           "normalized": "Either a b-\u003e(a-\u003eEither c b)-\u003eEither c b",
@@ -2070,6 +2234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecatchT\u003c/a\u003e\u003c/code\u003e in the error monad corresponds to (\u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e) in the success monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "catchT",
           "package": "errors",
@@ -2080,6 +2245,7 @@
         "index": {
           "description": "catchT in the error monad corresponds to in the success monad",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "catchT",
           "normalized": "EitherT a b c-\u003e(a-\u003eEitherT d b c)-\u003eEitherT d b c",
@@ -2095,6 +2261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip the type variables of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "flipE",
           "package": "errors",
@@ -2105,6 +2272,7 @@
         "index": {
           "description": "Flip the type variables of Either",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "flipE",
           "normalized": "Either a b-\u003eEither b a",
@@ -2120,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip the type variables of an \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "flipET",
           "package": "errors",
@@ -2130,6 +2299,7 @@
         "index": {
           "description": "Flip the type variables of an EitherT",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "flipET",
           "normalized": "EitherT a b c-\u003eEitherT c b a",
@@ -2146,6 +2316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e value of an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "fmapL",
           "package": "errors",
@@ -2156,6 +2327,7 @@
         "index": {
           "description": "Map function over the Left value of an Either",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "fmapL",
           "normalized": "(a-\u003eb)-\u003eEither a c-\u003eEither b c",
@@ -2171,6 +2343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e value of an \u003ccode\u003e\u003ca\u003eEitherT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "fmapLT",
           "package": "errors",
@@ -2181,6 +2354,7 @@
         "index": {
           "description": "Map function over the Left value of an EitherT",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "fmapLT",
           "normalized": "(a-\u003eb)-\u003eEitherT a c d-\u003eEitherT b c d",
@@ -2197,6 +2371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecatchE\u003c/a\u003e\u003c/code\u003e with the arguments flipped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "handleE",
           "package": "errors",
@@ -2207,6 +2382,7 @@
         "index": {
           "description": "catchE with the arguments flipped",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "handleE",
           "normalized": "(a-\u003eEither b c)-\u003eEither a c-\u003eEither b c",
@@ -2222,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecatchT\u003c/a\u003e\u003c/code\u003e with the arguments flipped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "handleT",
           "package": "errors",
@@ -2232,6 +2409,7 @@
         "index": {
           "description": "catchT with the arguments flipped",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "handleT",
           "normalized": "(a-\u003eEitherT b c d)-\u003eEitherT a c d-\u003eEitherT b c d",
@@ -2246,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "runEitherR",
           "package": "errors",
@@ -2255,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "runEitherR",
           "package": "errors",
@@ -2268,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "runEitherRT",
           "package": "errors",
@@ -2277,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "runEitherRT",
           "package": "errors",
@@ -2291,6 +2473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplete error handling, returning a result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "succeed",
           "package": "errors",
@@ -2301,6 +2484,7 @@
         "index": {
           "description": "Complete error handling returning result",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "succeed",
           "normalized": "a-\u003eEitherR a b",
@@ -2316,6 +2500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplete error handling, returning a result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "succeedT",
           "package": "errors",
@@ -2326,6 +2511,7 @@
         "index": {
           "description": "Complete error handling returning result",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "succeedT",
           "normalized": "a-\u003eEitherRT a b c",
@@ -2341,6 +2527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ethrowE\u003c/a\u003e\u003c/code\u003e in the error monad corresponds to \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e in the success monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "throwE",
           "package": "errors",
@@ -2351,6 +2538,7 @@
         "index": {
           "description": "throwE in the error monad corresponds to return in the success monad",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "throwE",
           "normalized": "a-\u003eEither a b",
@@ -2366,6 +2554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ethrowT\u003c/a\u003e\u003c/code\u003e in the error monad corresponds to \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e in the success monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:00 UTC 2014",
           "module": "Data.EitherR",
           "name": "throwT",
           "package": "errors",
@@ -2376,6 +2565,7 @@
         "index": {
           "description": "throwT in the error monad corresponds to return in the success monad",
           "hierarchy": "Data EitherR",
+          "indexed": "2014-03-11T18:04:00",
           "module": "Data.EitherR",
           "name": "throwT",
           "normalized": "a-\u003eEitherT a b c",

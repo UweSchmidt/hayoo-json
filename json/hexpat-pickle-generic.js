@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hexpat-pickle-generic"
+        "phrase": "hexpat-pickle-generic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "Generic",
           "package": "hexpat-pickle-generic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "Generic",
           "package": "hexpat-pickle-generic",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "IsXML",
           "package": "hexpat-pickle-generic",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "IsXML",
           "package": "hexpat-pickle-generic",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "Node",
           "package": "hexpat-pickle-generic",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "Node",
           "package": "hexpat-pickle-generic",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "XMLGeneric",
           "package": "hexpat-pickle-generic",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "XMLGeneric",
           "package": "hexpat-pickle-generic",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "XMLOptions",
           "package": "hexpat-pickle-generic",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "XMLOptions",
           "package": "hexpat-pickle-generic",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "XMLPU",
           "package": "hexpat-pickle-generic",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "XMLPU",
           "package": "hexpat-pickle-generic",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "XMLOptions",
           "package": "hexpat-pickle-generic",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "XMLOptions",
           "package": "hexpat-pickle-generic",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "XMLPU",
           "package": "hexpat-pickle-generic",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "XMLPU",
           "package": "hexpat-pickle-generic",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "defaultXMLOptions",
           "package": "hexpat-pickle-generic",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "defaultXMLOptions",
           "package": "hexpat-pickle-generic",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "fromXML",
           "package": "hexpat-pickle-generic",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "fromXML",
           "normalized": "ByteString-\u003eEither String a",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "genericXMLPickler",
           "package": "hexpat-pickle-generic",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "genericXMLPickler",
           "normalized": "XMLOptions-\u003ePU[Node]a",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "namespacedXMLOptions",
           "package": "hexpat-pickle-generic",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "namespacedXMLOptions",
           "normalized": "ByteString-\u003eXMLOptions",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "pickleTree",
           "package": "hexpat-pickle-generic",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "pickleTree",
           "normalized": "a-\u003eb",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "root",
           "package": "hexpat-pickle-generic",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "root",
           "package": "hexpat-pickle-generic",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "toIndentedXML",
           "package": "hexpat-pickle-generic",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "toIndentedXML",
           "normalized": "Int-\u003ea-\u003eByteString",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "toXML",
           "package": "hexpat-pickle-generic",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "toXML",
           "normalized": "a-\u003eByteString",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "unpickleTree",
           "package": "hexpat-pickle-generic",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "unpickleTree",
           "normalized": "a-\u003eEither String b",
@@ -400,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction applied to constructor tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xmlCtorModifier",
           "package": "hexpat-pickle-generic",
@@ -410,6 +445,7 @@
         "index": {
           "description": "Function applied to constructor tags",
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xmlCtorModifier",
           "normalized": "String-\u003eNName ByteString",
@@ -426,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction applied to record field labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xmlFieldModifier",
           "package": "hexpat-pickle-generic",
@@ -436,6 +473,7 @@
         "index": {
           "description": "Function applied to record field labels",
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xmlFieldModifier",
           "normalized": "String-\u003eNName ByteString",
@@ -452,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault element name to wrap list items with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xmlListElement",
           "package": "hexpat-pickle-generic",
@@ -462,6 +501,7 @@
         "index": {
           "description": "Default element name to wrap list items with",
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xmlListElement",
           "package": "hexpat-pickle-generic",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xmlPickler",
           "package": "hexpat-pickle-generic",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xmlPickler",
           "normalized": "PU[Node]a",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xp4Tuple",
           "package": "hexpat-pickle-generic",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xp4Tuple",
           "normalized": "PU[a]b-\u003ePU[a]c-\u003ePU[a]d-\u003ePU[a]e-\u003ePU[a](b,c,d,e)",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xp5Tuple",
           "package": "hexpat-pickle-generic",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xp5Tuple",
           "normalized": "PU[a]b-\u003ePU[a]c-\u003ePU[a]d-\u003ePU[a]e-\u003ePU[a]f-\u003ePU[a](b,c,d,e,f)",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xp6Tuple",
           "package": "hexpat-pickle-generic",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xp6Tuple",
           "normalized": "PU[a]b-\u003ePU[a]c-\u003ePU[a]d-\u003ePU[a]e-\u003ePU[a]f-\u003ePU[a]g-\u003ePU[a](b,c,d,e,f,g)",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpConst",
           "package": "hexpat-pickle-generic",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpConst",
           "normalized": "ByteString-\u003ea-\u003eXMLPU[Node]a",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpContent",
           "package": "hexpat-pickle-generic",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpContent",
           "normalized": "PU ByteString a-\u003ePU[Node]a",
@@ -619,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpEither",
           "package": "hexpat-pickle-generic",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpEither",
           "normalized": "PU[a]b-\u003ePU[a]c-\u003ePU[a](Either b c)",
@@ -643,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpElem",
           "package": "hexpat-pickle-generic",
@@ -652,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpElem",
           "normalized": "NName ByteString-\u003ePU[Node]a-\u003ePU[Node]a",
@@ -667,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpElemList",
           "package": "hexpat-pickle-generic",
@@ -676,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpElemList",
           "normalized": "NName ByteString-\u003ePU[Node]a-\u003ePU[Node][a]",
@@ -691,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpEmpty",
           "package": "hexpat-pickle-generic",
@@ -700,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpEmpty",
           "normalized": "Maybe ByteString-\u003ePU[Node]a",
@@ -715,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpLift",
           "package": "hexpat-pickle-generic",
@@ -724,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpLift",
           "normalized": "a-\u003ePU[b]a",
@@ -739,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpList",
           "package": "hexpat-pickle-generic",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpList",
           "normalized": "PU[Node]a-\u003ePU[Node][a]",
@@ -763,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpOption",
           "package": "hexpat-pickle-generic",
@@ -772,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpOption",
           "normalized": "PU[a]b-\u003ePU[a](Maybe b)",
@@ -787,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpPair",
           "package": "hexpat-pickle-generic",
@@ -796,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpPair",
           "normalized": "PU[a]b-\u003ePU[a]c-\u003ePU[a](b,c)",
@@ -811,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpPrim",
           "package": "hexpat-pickle-generic",
@@ -820,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpPrim",
           "package": "hexpat-pickle-generic",
@@ -833,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpSum",
           "package": "hexpat-pickle-generic",
@@ -842,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpSum",
           "normalized": "PU[a](b c)-\u003ePU[a](d c)-\u003ePU[a]((b d)c)",
@@ -857,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpText",
           "package": "hexpat-pickle-generic",
@@ -866,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpText",
           "package": "hexpat-pickle-generic",
@@ -879,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpText0",
           "package": "hexpat-pickle-generic",
@@ -888,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpText0",
           "package": "hexpat-pickle-generic",
@@ -901,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpTriple",
           "package": "hexpat-pickle-generic",
@@ -910,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpTriple",
           "normalized": "PU[a]b-\u003ePU[a]c-\u003ePU[a]d-\u003ePU[a](b,c,d)",
@@ -925,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpUnit",
           "package": "hexpat-pickle-generic",
@@ -934,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpUnit",
           "normalized": "PU[a]()",
@@ -949,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:50 UTC 2014",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpWrap",
           "package": "hexpat-pickle-generic",
@@ -958,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Pickle Generic",
+          "indexed": "2014-03-11T18:37:50",
           "module": "Text.XML.Expat.Pickle.Generic",
           "name": "xpWrap",
           "normalized": "(a-\u003eb,b-\u003ea)-\u003ePU[c]a-\u003ePU[c]b",

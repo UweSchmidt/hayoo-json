@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lzma-enumerator"
+        "phrase": "lzma-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor a high-level description of the C API, refer to the README file\nincluded in the liblinear archive, available for download at\n\u003ca\u003ehttp://www.csie.ntu.edu.tw/~cjlin/liblinear/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "Lzma",
           "package": "lzma-enumerator",
@@ -28,6 +29,7 @@
         "index": {
           "description": "For high-level description of the API refer to the README file included in the liblinear archive available for download at http www.csie.ntu.edu.tw cjlin liblinear",
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "Lzma",
           "package": "lzma-enumerator",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "C'lzma_action",
           "package": "lzma-enumerator",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "C'lzma_action",
           "package": "lzma-enumerator",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "C'lzma_check",
           "package": "lzma-enumerator",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "C'lzma_check",
           "package": "lzma-enumerator",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "C'lzma_ret",
           "package": "lzma-enumerator",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "C'lzma_ret",
           "package": "lzma-enumerator",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "C'lzma_stream",
           "package": "lzma-enumerator",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "C'lzma_stream",
           "package": "lzma-enumerator",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "C'lzma_stream",
           "package": "lzma-enumerator",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "C'lzma_stream",
           "package": "lzma-enumerator",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_BUF_ERROR",
           "package": "lzma-enumerator",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_BUF_ERROR",
           "package": "lzma-enumerator",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_CHECK_CRC32",
           "package": "lzma-enumerator",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_CHECK_CRC32",
           "package": "lzma-enumerator",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_CHECK_CRC64",
           "package": "lzma-enumerator",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_CHECK_CRC64",
           "package": "lzma-enumerator",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_CHECK_NONE",
           "package": "lzma-enumerator",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_CHECK_NONE",
           "package": "lzma-enumerator",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_CHECK_SHA256",
           "package": "lzma-enumerator",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_CHECK_SHA256",
           "package": "lzma-enumerator",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_DATA_ERROR",
           "package": "lzma-enumerator",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_DATA_ERROR",
           "package": "lzma-enumerator",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_FINISH",
           "package": "lzma-enumerator",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_FINISH",
           "package": "lzma-enumerator",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_FORMAT_ERROR",
           "package": "lzma-enumerator",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_FORMAT_ERROR",
           "package": "lzma-enumerator",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_FULL_FLUSH",
           "package": "lzma-enumerator",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_FULL_FLUSH",
           "package": "lzma-enumerator",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_GET_CHECK",
           "package": "lzma-enumerator",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_GET_CHECK",
           "package": "lzma-enumerator",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_MEMLIMIT_ERROR",
           "package": "lzma-enumerator",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_MEMLIMIT_ERROR",
           "package": "lzma-enumerator",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_MEM_ERROR",
           "package": "lzma-enumerator",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_MEM_ERROR",
           "package": "lzma-enumerator",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_NO_CHECK",
           "package": "lzma-enumerator",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_NO_CHECK",
           "package": "lzma-enumerator",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_OK",
           "package": "lzma-enumerator",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_OK",
           "package": "lzma-enumerator",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_OPTIONS_ERROR",
           "package": "lzma-enumerator",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_OPTIONS_ERROR",
           "package": "lzma-enumerator",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_PRESET_DEFAULT",
           "package": "lzma-enumerator",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_PRESET_DEFAULT",
           "package": "lzma-enumerator",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_PRESET_EXTREME",
           "package": "lzma-enumerator",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_PRESET_EXTREME",
           "package": "lzma-enumerator",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_PRESET_LEVEL_MASK",
           "package": "lzma-enumerator",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_PRESET_LEVEL_MASK",
           "package": "lzma-enumerator",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_PROG_ERROR",
           "package": "lzma-enumerator",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_PROG_ERROR",
           "package": "lzma-enumerator",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_RUN",
           "package": "lzma-enumerator",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_RUN",
           "package": "lzma-enumerator",
@@ -587,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_STREAM_END",
           "package": "lzma-enumerator",
@@ -596,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_STREAM_END",
           "package": "lzma-enumerator",
@@ -609,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_SYNC_FLUSH",
           "package": "lzma-enumerator",
@@ -618,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_SYNC_FLUSH",
           "package": "lzma-enumerator",
@@ -631,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_UNSUPPORTED_CHECK",
           "package": "lzma-enumerator",
@@ -640,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'LZMA_UNSUPPORTED_CHECK",
           "package": "lzma-enumerator",
@@ -653,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_auto_decoder",
           "package": "lzma-enumerator",
@@ -662,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_auto_decoder",
           "normalized": "Ptr C'lzma_stream-\u003eCULong-\u003eCUInt-\u003eIO C'lzma_ret",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_code",
           "package": "lzma-enumerator",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_code",
           "normalized": "Ptr C'lzma_stream-\u003eC'lzma_action-\u003eIO C'lzma_ret",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_easy_decoder_memusage",
           "package": "lzma-enumerator",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_easy_decoder_memusage",
           "normalized": "CInt-\u003eIO CULong",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_easy_encoder",
           "package": "lzma-enumerator",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_easy_encoder",
           "normalized": "Ptr C'lzma_stream-\u003eCInt-\u003eC'lzma_check-\u003eIO C'lzma_ret",
@@ -745,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_easy_encoder_memusage",
           "package": "lzma-enumerator",
@@ -754,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_easy_encoder_memusage",
           "normalized": "CInt-\u003eIO CULong",
@@ -768,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_end",
           "package": "lzma-enumerator",
@@ -777,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_end",
           "normalized": "Ptr C'lzma_stream-\u003eIO()",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_memlimit_get",
           "package": "lzma-enumerator",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_memlimit_get",
           "normalized": "Ptr C'lzma_stream-\u003eIO CULong",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_memlimit_set",
           "package": "lzma-enumerator",
@@ -823,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_memlimit_set",
           "normalized": "Ptr C'lzma_stream-\u003eCULong-\u003eIO C'lzma_ret",
@@ -837,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_memusage",
           "package": "lzma-enumerator",
@@ -846,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_memusage",
           "normalized": "Ptr C'lzma_stream-\u003eIO CULong",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'avail_in",
           "package": "lzma-enumerator",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'avail_in",
           "package": "lzma-enumerator",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'avail_out",
           "package": "lzma-enumerator",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'avail_out",
           "package": "lzma-enumerator",
@@ -902,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'next_in",
           "package": "lzma-enumerator",
@@ -911,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'next_in",
           "package": "lzma-enumerator",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'next_out",
           "package": "lzma-enumerator",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'next_out",
           "package": "lzma-enumerator",
@@ -944,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'total_in",
           "package": "lzma-enumerator",
@@ -953,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'total_in",
           "package": "lzma-enumerator",
@@ -965,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'total_out",
           "package": "lzma-enumerator",
@@ -974,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "c'lzma_stream'total_out",
           "package": "lzma-enumerator",
@@ -986,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_auto_decoder",
           "package": "lzma-enumerator",
@@ -995,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_auto_decoder",
           "normalized": "FunPtr(Ptr C'lzma_stream-\u003eCULong-\u003eCUInt-\u003eIO C'lzma_ret)",
@@ -1009,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_code",
           "package": "lzma-enumerator",
@@ -1018,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_code",
           "normalized": "FunPtr(Ptr C'lzma_stream-\u003eC'lzma_action-\u003eIO C'lzma_ret)",
@@ -1032,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_easy_decoder_memusage",
           "package": "lzma-enumerator",
@@ -1041,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_easy_decoder_memusage",
           "normalized": "FunPtr(CInt-\u003eIO CULong)",
@@ -1055,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_easy_encoder",
           "package": "lzma-enumerator",
@@ -1064,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_easy_encoder",
           "normalized": "FunPtr(Ptr C'lzma_stream-\u003eCInt-\u003eC'lzma_check-\u003eIO C'lzma_ret)",
@@ -1078,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_easy_encoder_memusage",
           "package": "lzma-enumerator",
@@ -1087,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_easy_encoder_memusage",
           "normalized": "FunPtr(CInt-\u003eIO CULong)",
@@ -1101,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_end",
           "package": "lzma-enumerator",
@@ -1110,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_end",
           "normalized": "FunPtr(Ptr C'lzma_stream-\u003eIO())",
@@ -1124,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_memlimit_get",
           "package": "lzma-enumerator",
@@ -1133,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_memlimit_get",
           "normalized": "FunPtr(Ptr C'lzma_stream-\u003eIO CULong)",
@@ -1147,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_memlimit_set",
           "package": "lzma-enumerator",
@@ -1156,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_memlimit_set",
           "normalized": "FunPtr(Ptr C'lzma_stream-\u003eCULong-\u003eIO C'lzma_ret)",
@@ -1170,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_memusage",
           "package": "lzma-enumerator",
@@ -1179,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_memusage",
           "normalized": "FunPtr(Ptr C'lzma_stream-\u003eIO CULong)",
@@ -1193,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'avail_in",
           "package": "lzma-enumerator",
@@ -1202,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'avail_in",
           "normalized": "Ptr C'lzma_stream-\u003ePtr CSize",
@@ -1216,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'avail_out",
           "package": "lzma-enumerator",
@@ -1225,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'avail_out",
           "normalized": "Ptr C'lzma_stream-\u003ePtr CSize",
@@ -1239,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'next_in",
           "package": "lzma-enumerator",
@@ -1248,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'next_in",
           "normalized": "Ptr C'lzma_stream-\u003ePtr(Ptr CUChar)",
@@ -1262,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'next_out",
           "package": "lzma-enumerator",
@@ -1271,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'next_out",
           "normalized": "Ptr C'lzma_stream-\u003ePtr(Ptr CUChar)",
@@ -1285,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'total_in",
           "package": "lzma-enumerator",
@@ -1294,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'total_in",
           "normalized": "Ptr C'lzma_stream-\u003ePtr CULong",
@@ -1308,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'total_out",
           "package": "lzma-enumerator",
@@ -1317,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "p'lzma_stream'total_out",
           "normalized": "Ptr C'lzma_stream-\u003ePtr CULong",
@@ -1331,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "peekAvailIn",
           "package": "lzma-enumerator",
@@ -1340,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "peekAvailIn",
           "normalized": "Ptr C'lzma_stream-\u003eIO CSize",
@@ -1355,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "peekAvailOut",
           "package": "lzma-enumerator",
@@ -1364,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "peekAvailOut",
           "normalized": "Ptr C'lzma_stream-\u003eIO CSize",
@@ -1379,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "peekNextIn",
           "package": "lzma-enumerator",
@@ -1388,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "peekNextIn",
           "normalized": "Ptr C'lzma_stream-\u003eIO(Ptr a)",
@@ -1403,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "peekNextOut",
           "package": "lzma-enumerator",
@@ -1412,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "peekNextOut",
           "normalized": "Ptr C'lzma_stream-\u003eIO(Ptr a)",
@@ -1427,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "pokeAvailIn",
           "package": "lzma-enumerator",
@@ -1436,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "pokeAvailIn",
           "normalized": "Ptr C'lzma_stream-\u003eCSize-\u003eIO()",
@@ -1451,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "pokeAvailOut",
           "package": "lzma-enumerator",
@@ -1460,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "pokeAvailOut",
           "normalized": "Ptr C'lzma_stream-\u003eCSize-\u003eIO()",
@@ -1475,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "pokeNextIn",
           "package": "lzma-enumerator",
@@ -1484,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "pokeNextIn",
           "normalized": "Ptr C'lzma_stream-\u003ePtr a-\u003eIO()",
@@ -1499,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Bindings.Lzma",
           "name": "pokeNextOut",
           "package": "lzma-enumerator",
@@ -1508,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Bindings Lzma",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Bindings.Lzma",
           "name": "pokeNextOut",
           "normalized": "Ptr C'lzma_stream-\u003ePtr a-\u003eIO()",
@@ -1523,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Codec.Compression.Lzma.Enumerator",
           "name": "Enumerator",
           "package": "lzma-enumerator",
@@ -1531,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Lzma Enumerator",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Codec.Compression.Lzma.Enumerator",
           "name": "Enumerator",
           "package": "lzma-enumerator",
@@ -1545,6 +1681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eEnumerator\u003c/a\u003e\u003c/code\u003e into an xz container stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Codec.Compression.Lzma.Enumerator",
           "name": "compress",
           "package": "lzma-enumerator",
@@ -1554,6 +1691,7 @@
         "index": {
           "description": "Compress ByteString Enumerator into an xz container stream",
           "hierarchy": "Codec Compression Lzma Enumerator",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Codec.Compression.Lzma.Enumerator",
           "name": "compress",
           "normalized": "Maybe Int-\u003eEnumeratee ByteString ByteString a b",
@@ -1569,6 +1707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompress a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eEnumerator\u003c/a\u003e\u003c/code\u003e from an lzma or xz container stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:20 UTC 2014",
           "module": "Codec.Compression.Lzma.Enumerator",
           "name": "decompress",
           "package": "lzma-enumerator",
@@ -1578,6 +1717,7 @@
         "index": {
           "description": "Decompress ByteString Enumerator from an lzma or xz container stream",
           "hierarchy": "Codec Compression Lzma Enumerator",
+          "indexed": "2014-03-11T19:13:20",
           "module": "Codec.Compression.Lzma.Enumerator",
           "name": "decompress",
           "normalized": "Maybe Word-\u003eEnumeratee ByteString ByteString a b",

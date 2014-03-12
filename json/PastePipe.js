@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PastePipe"
+        "phrase": "PastePipe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConfiguration and communication with lpaste.net\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "PastePipe",
           "package": "PastePipe",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Configuration and communication with lpaste.net",
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "PastePipe",
           "package": "PastePipe",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration type for PastePipe:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "Config",
           "package": "PastePipe",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Configuration type for PastePipe",
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "Config",
           "package": "PastePipe",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "Config",
           "package": "PastePipe",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "Config",
           "package": "PastePipe",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the request to post a chunk of content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "buildRequest",
           "package": "PastePipe",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Creates the request to post chunk of content",
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "buildRequest",
           "normalized": "Config-\u003eString-\u003eRequest String",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomposes the core uri and a string to create a usable URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "buildURI",
           "package": "PastePipe",
@@ -123,6 +132,7 @@
         "index": {
           "description": "composes the core uri and string to create usable URI",
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "buildURI",
           "normalized": "String-\u003eString-\u003eURI",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "config",
           "package": "PastePipe",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "config",
           "normalized": "String-\u003eConfig",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ca\u003eroot\u003c/a\u003e uri for lpaste.net\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "defaultUri",
           "package": "PastePipe",
@@ -172,6 +185,7 @@
         "index": {
           "description": "The root uri for lpaste.net",
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "defaultUri",
           "package": "PastePipe",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "fakePost",
           "package": "PastePipe",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "fakePost",
           "normalized": "Config-\u003eString-\u003eIO URI",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "language",
           "package": "PastePipe",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "language",
           "package": "PastePipe",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine an output handler based on the user-specified verbosity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "outHandler",
           "package": "PastePipe",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Define an output handler based on the user-specified verbosity",
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "outHandler",
           "normalized": "String-\u003eIO()",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosts the given content to lpaste.net, returning the new uri.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "post",
           "package": "PastePipe",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Posts the given content to lpaste.net returning the new uri",
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "post",
           "normalized": "Config-\u003eString-\u003eIO URI",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a string to post to the default and returns the URI.\n Client code is expected to catch any exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "postWithDefaults",
           "package": "PastePipe",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Takes string to post to the default and returns the URI Client code is expected to catch any exceptions",
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "postWithDefaults",
           "normalized": "String-\u003eIO URI",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe URI for posting new pastes to lpaste.\n This isn't guaranteed to trigger a failure on all execution paths, as-is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "saveUri",
           "package": "PastePipe",
@@ -318,6 +343,7 @@
         "index": {
           "description": "The URI for posting new pastes to lpaste This isn guaranteed to trigger failure on all execution paths as-is",
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "saveUri",
           "normalized": "String-\u003eURI",
@@ -333,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "test",
           "package": "PastePipe",
@@ -342,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "test",
           "package": "PastePipe",
@@ -354,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "title",
           "package": "PastePipe",
@@ -363,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "title",
           "package": "PastePipe",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "uri",
           "package": "PastePipe",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "uri",
           "package": "PastePipe",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:45 UTC 2014",
           "module": "Utils.PastePipe",
           "name": "userName",
           "package": "PastePipe",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Utils PastePipe",
+          "indexed": "2014-03-11T16:56:45",
           "module": "Utils.PastePipe",
           "name": "userName",
           "package": "PastePipe",

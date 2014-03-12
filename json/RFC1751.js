@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "RFC1751"
+        "phrase": "RFC1751",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRFC-1751 human-readable 128-bit keys\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:07 UTC 2014",
           "module": "Data.RFC1751",
           "name": "RFC1751",
           "package": "RFC1751",
@@ -28,6 +29,7 @@
         "index": {
           "description": "RFC-1751 human-readable bit keys",
           "hierarchy": "Data RFC1751",
+          "indexed": "2014-03-11T16:58:07",
           "module": "Data.RFC1751",
           "name": "RFC1751",
           "package": "RFC1751",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing 128-bit keys as 12 English words. Use with\n functions from Data.Binary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:07 UTC 2014",
           "module": "Data.RFC1751",
           "name": "HumanKey",
           "package": "RFC1751",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Data type representing bit keys as English words Use with functions from Data.Binary",
           "hierarchy": "Data RFC1751",
+          "indexed": "2014-03-11T16:58:07",
           "module": "Data.RFC1751",
           "name": "HumanKey",
           "package": "RFC1751",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a HumanKey instance. Validates input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:07 UTC 2014",
           "module": "Data.RFC1751",
           "name": "humanKey",
           "package": "RFC1751",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Build HumanKey instance Validates input",
           "hierarchy": "Data RFC1751",
+          "indexed": "2014-03-11T16:58:07",
           "module": "Data.RFC1751",
           "name": "humanKey",
           "normalized": "String-\u003eEither String HumanKey",

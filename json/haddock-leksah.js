@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haddock-leksah"
+        "phrase": "haddock-leksah",
+        "type": "phrase"
       },
       "type": "context"
     }

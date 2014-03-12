@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tag-stream"
+        "phrase": "tag-stream",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "Parser",
           "package": "tag-stream",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "Parser",
           "package": "tag-stream",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "(||.)",
           "package": "tag-stream",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "(||.) ||.",
           "normalized": "a Bool-\u003ea Bool-\u003ea Bool",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "atLeast",
           "package": "tag-stream",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "atLeast",
           "normalized": "Int-\u003eParser ByteString-\u003eParser ByteString",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "attr",
           "package": "tag-stream",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "attr",
           "package": "tag-stream",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "attrName",
           "package": "tag-stream",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "attrName",
           "package": "tag-stream",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "attrValue",
           "package": "tag-stream",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "attrValue",
           "package": "tag-stream",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "attrs",
           "package": "tag-stream",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "attrs",
           "normalized": "Parser([Attr],Bool)",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "boolP",
           "package": "tag-stream",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "boolP",
           "normalized": "Parser a-\u003eParser Bool",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "comment",
           "package": "tag-stream",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "comment",
           "package": "tag-stream",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "cond",
           "package": "tag-stream",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "cond",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -265,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "html",
           "package": "tag-stream",
@@ -274,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "html",
           "normalized": "Parser[Token]",
@@ -288,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "in2",
           "package": "tag-stream",
@@ -297,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "in2",
           "normalized": "(a,a)-\u003ea-\u003eBool",
@@ -311,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "in3",
           "package": "tag-stream",
@@ -320,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "in3",
           "normalized": "(a,a,a)-\u003ea-\u003eBool",
@@ -334,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "incomplete",
           "package": "tag-stream",
@@ -343,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "incomplete",
           "package": "tag-stream",
@@ -355,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "maybeP",
           "package": "tag-stream",
@@ -364,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "maybeP",
           "normalized": "Parser a-\u003eParser(Maybe a)",
@@ -378,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "quoted",
           "package": "tag-stream",
@@ -387,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "quoted",
           "normalized": "Char-\u003eParser ByteString",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "quotedOr",
           "package": "tag-stream",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "quotedOr",
           "normalized": "Parser ByteString-\u003eParser ByteString",
@@ -425,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "special",
           "package": "tag-stream",
@@ -434,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "special",
           "package": "tag-stream",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "tag",
           "package": "tag-stream",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "tag",
           "package": "tag-stream",
@@ -467,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "tagEnd",
           "package": "tag-stream",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "tagEnd",
           "package": "tag-stream",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "text",
           "package": "tag-stream",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "text",
           "package": "tag-stream",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "tillScriptEnd",
           "package": "tag-stream",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "tillScriptEnd",
           "normalized": "Token-\u003eParser[Token]",
@@ -534,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Parser",
           "name": "token",
           "package": "tag-stream",
@@ -543,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Parser",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Parser",
           "name": "token",
           "package": "tag-stream",
@@ -555,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Stream",
           "name": "Stream",
           "package": "tag-stream",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Stream",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Stream",
           "name": "Stream",
           "package": "tag-stream",
@@ -576,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Stream",
           "name": "accumParse",
           "package": "tag-stream",
@@ -585,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Stream",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Stream",
           "name": "accumParse",
           "normalized": "ByteString-\u003eByteString-\u003ea(ByteString,[Token])",
@@ -623,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Types",
           "package": "tag-stream",
@@ -631,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Types",
           "name": "Types",
           "package": "tag-stream",
@@ -644,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Attr",
           "package": "tag-stream",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Types",
           "name": "Attr",
           "package": "tag-stream",
@@ -665,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Attr'",
           "package": "tag-stream",
@@ -673,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Types",
           "name": "Attr'",
           "package": "tag-stream",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagType",
           "package": "tag-stream",
@@ -694,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagType",
           "package": "tag-stream",
@@ -707,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Token",
           "package": "tag-stream",
@@ -715,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Types",
           "name": "Token",
           "package": "tag-stream",
@@ -728,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Token'",
           "package": "tag-stream",
@@ -736,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Types",
           "name": "Token'",
           "package": "tag-stream",
@@ -866,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeClose",
           "package": "tag-stream",
@@ -875,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeClose",
           "package": "tag-stream",
@@ -888,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeNormal",
           "package": "tag-stream",
@@ -897,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeNormal",
           "package": "tag-stream",
@@ -910,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeSpecial",
           "package": "tag-stream",
@@ -919,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeSpecial",
           "package": "tag-stream",
@@ -955,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "cc",
           "package": "tag-stream",
@@ -964,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Types",
           "name": "cc",
           "normalized": "[ByteString]-\u003eBuilder",
@@ -1052,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Utils",
           "name": "Utils",
           "package": "tag-stream",
@@ -1060,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Utils",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Utils",
           "name": "Utils",
           "package": "tag-stream",
@@ -1073,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Utils",
           "name": "append",
           "package": "tag-stream",
@@ -1082,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Utils",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Utils",
           "name": "append",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -1096,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Utils",
           "name": "cons",
           "package": "tag-stream",
@@ -1105,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Utils",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Utils",
           "name": "cons",
           "normalized": "Char-\u003eByteString-\u003eByteString",
@@ -1119,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Utils",
           "name": "cons'",
           "package": "tag-stream",
@@ -1128,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Utils",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Utils",
           "name": "cons'",
           "normalized": "Word-\u003eByteString-\u003eByteString",
@@ -1142,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream.Utils",
           "name": "peekByteOff'",
           "package": "tag-stream",
@@ -1151,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Utils",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream.Utils",
           "name": "peekByteOff'",
           "normalized": "ForeignPtr a-\u003eInt-\u003eb",
@@ -1166,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream",
           "name": "TagStream",
           "package": "tag-stream",
@@ -1174,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream",
           "name": "TagStream",
           "package": "tag-stream",
@@ -1187,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream",
           "name": "Attr",
           "package": "tag-stream",
@@ -1195,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream",
           "name": "Attr",
           "package": "tag-stream",
@@ -1208,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream",
           "name": "Attr'",
           "package": "tag-stream",
@@ -1216,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream",
           "name": "Attr'",
           "package": "tag-stream",
@@ -1229,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream",
           "name": "Token",
           "package": "tag-stream",
@@ -1237,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream",
           "name": "Token",
           "package": "tag-stream",
@@ -1250,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:22 UTC 2014",
           "module": "Text.HTML.TagStream",
           "name": "Token'",
           "package": "tag-stream",
@@ -1258,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream",
+          "indexed": "2014-03-11T20:16:22",
           "module": "Text.HTML.TagStream",
           "name": "Token'",
           "package": "tag-stream",

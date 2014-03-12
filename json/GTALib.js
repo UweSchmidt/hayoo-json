@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GTALib"
+        "phrase": "GTALib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the core functionalities of the GTA (Generate, Test, and Aggregate) programming framework on Haskell (c.f., Kento Emoto, Sebastian Fischer, Zhenjiang Hu: Generate, Test, and Aggregate - A Calculation-based Framework for Systematic Parallel Programming with MapReduce. ESOP 2012: 254-273. The authors' version is available at \u003ca\u003ehttp://www.ipl-lab.org/~emoto/ESOP2012.pdf\u003c/a\u003e). \n\u003c/p\u003e\u003cp\u003e\u003cem\u003eExample of GTA program\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eThe following code is a GTA program to solve the 0-1 Knapsack problem (\u003ca\u003ehttp://en.wikipedia.org/wiki/Knapsack_problem\u003c/a\u003e). It \u003cem\u003eappears to be an exponential cost\u003c/em\u003e proram in the number of input items, because it appears to generate all item selections by \u003ccode\u003esubsP items\u003c/code\u003e (\u003cem\u003eGenerate\u003c/em\u003e), discard those with total weight heavier than the knapsack's capacity by \u003ccode\u003e\u003ccode\u003e\u003ca\u003efilterBy\u003c/a\u003e\u003c/code\u003e weightlimit capacity\u003c/code\u003e (\u003cem\u003eTest\u003c/em\u003e), and take the most valuable selection by \u003ccode\u003e\u003ccode\u003e\u003ca\u003eaggregateBy\u003c/a\u003e\u003c/code\u003e maxsumsolutionWith getValue\u003c/code\u003e (\u003cem\u003eAggregate\u003c/em\u003e). However, it \u003cem\u003eactually runs in a linear time\u003c/em\u003e owing to our proposed program transformation 'Filter-embedding Semiring Fusion' implemented in the library. In addition, it runs in \u003cem\u003eparallel\u003c/em\u003e so that you can get linear speedup. The predicate \u003ccode\u003eweightlimit\u003c/code\u003e is defined based on the join list algebra given in \u003ca\u003eGTA.Data.JoinList\u003c/a\u003e module. \n\u003c/p\u003e\u003cpre\u003e knapsack capacity items = \n  subsP items \n  `filterBy` weightlimit capacity\n  `aggregateBy` maxsumsolutionWith getValue\n \n getValue (_, v) = v\n getWeight (w, _) = w\n\n weightlimit w = (\u003c=w) \u003c.\u003e weightsum where\n   weightsum = homJ' times single nil\n   x1 `times` x2  = (   x1 +    x2) `min` (w+1)\n   single i  = getWeight i `min` (w+1)\n   nil = 0\n\u003c/pre\u003e\u003cp\u003eSeveral example GTA programs are found in \u003cem\u003eexamples\u003c/em\u003e directory at \u003ca\u003ehttps://bitbucket.org/emoto/gtalib/src\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis module provides generic functionalities in the GTA programming framework. Data-strructure-dependent definitions are found in GTA.Data.* modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "Core",
           "package": "GTALib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the core functionalities of the GTA Generate Test and Aggregate programming framework on Haskell c.f Kento Emoto Sebastian Fischer Zhenjiang Hu Generate Test and Aggregate Calculation-based Framework for Systematic Parallel Programming with MapReduce ESOP The authors version is available at http www.ipl-lab.org emoto ESOP2012.pdf Example of GTA program The following code is GTA program to solve the Knapsack problem http en.wikipedia.org wiki Knapsack problem It appears to be an exponential cost proram in the number of input items because it appears to generate all item selections by subsP items Generate discard those with total weight heavier than the knapsack capacity by filterBy weightlimit capacity Test and take the most valuable selection by aggregateBy maxsumsolutionWith getValue Aggregate However it actually runs in linear time owing to our proposed program transformation Filter-embedding Semiring Fusion implemented in the library In addition it runs in parallel so that you can get linear speedup The predicate weightlimit is defined based on the join list algebra given in GTA.Data.JoinList module knapsack capacity items subsP items filterBy weightlimit capacity aggregateBy maxsumsolutionWith getValue getValue getWeight weightlimit weightsum where weightsum homJ times single nil x1 times x2 x1 x2 min single getWeight min nil Several example GTA programs are found in examples directory at https bitbucket.org emoto gtalib src This module provides generic functionalities in the GTA programming framework Data-strructure-dependent definitions are found in GTA.Data modules",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "Core",
           "package": "GTALib",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduces an identity \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e to a given type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "AddIdentity",
           "package": "GTALib",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Introduces an identity Identity to given type",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "AddIdentity",
           "package": "GTALib",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bag is a multiset, i.e., a set in which members are allowed to appear more than one. The order of memebrs is ignored: e.g., \u003ccode\u003eBag [1,2] == Bag [2,1]\u003c/code\u003e is True. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "Bag",
           "package": "GTALib",
@@ -74,6 +79,7 @@
         "index": {
           "description": "bag is multiset i.e set in which members are allowed to appear more than one The order of memebrs is ignored e.g Bag Bag is True",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "Bag",
           "package": "GTALib",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommutative monoid is an algebra of an associative, commutative binary operator with its identity. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "CommutativeMonoid",
           "package": "GTALib",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Commutative monoid is an algebra of an associative commutative binary operator with its identity",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "CommutativeMonoid",
           "package": "GTALib",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic semiring is a combination of a commutative monoid and an algebra such that operators of the algebra distributes over \u003ccode\u003e\u003ca\u003eoplus\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eidentity\u003c/a\u003e\u003c/code\u003e is the zero of the operators. \n\u003c/p\u003e\u003cp\u003eFor example, the usual semiring is a combination of a commutative monoid and a \u003ccode\u003e\u003ca\u003eJoinListAlgebra\u003c/a\u003e\u003c/code\u003e, in which we have the distributivity and the zeroness:\n\u003c/p\u003e\u003cpre\u003e a `times` (b `oplus` c) == (a `times` b) `oplus` (a `times` c)\n (a `oplus` b) `times` c == (a `times` c) `oplus` (b `times` c)\n a `times` identity == identity `times` a == identity\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "GenericSemiring",
           "package": "GTALib",
@@ -120,6 +129,7 @@
         "index": {
           "description": "generic semiring is combination of commutative monoid and an algebra such that operators of the algebra distributes over oplus and identity is the zero of the operators For example the usual semiring is combination of commutative monoid and JoinListAlgebra in which we have the distributivity and the zeroness times oplus times oplus times oplus times times oplus times times identity identity times identity",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "GenericSemiring",
           "package": "GTALib",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollection of data-structure-dependent definitions necessary for the GTA framework, including the free algebra, lifting of a generic semirig with an algebra, construction of useful algebras, etc. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "GenericSemiringStructure",
           "package": "GTALib",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Collection of data-structure-dependent definitions necessary for the GTA framework including the free algebra lifting of generic semirig with an algebra construction of useful algebras etc",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "GenericSemiringStructure",
           "package": "GTALib",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverses the order of a given type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "RevOrd",
           "package": "GTALib",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Reverses the order of given type",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "RevOrd",
           "package": "GTALib",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator to build a pair of a judgement function and an algebra, which represents a Tester. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "(\u003c.\u003e)",
           "package": "GTALib",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Operator to build pair of judgement function and an algebra which represents Tester",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "a b c d(e-\u003eBool)-\u003eb e-\u003e(e-\u003eBool,b e)",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInefficient version of \u003ccode\u003e\u003ca\u003e\u003e==\u003c/a\u003e\u003c/code\u003e (i.e., it does not do optimziation at all). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "(\u003e##)",
           "package": "GTALib",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Inefficient version of i.e it does not do optimziation at all",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "(\u003e##) \u003e##",
           "normalized": "(GenericSemiring a(Bag b)-\u003eBag b)-\u003e(c-\u003eBool,a c)-\u003eGenericSemiring a(Bag b)-\u003eBag b",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInefficient version of \u003ccode\u003e\u003ca\u003e\u003e=\u003e\u003c/a\u003e\u003c/code\u003e (i.e., it does not do optimziation at all). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "(\u003e#\u003e)",
           "package": "GTALib",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Inefficient version of i.e it does not do optimziation at all",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "(\u003e#\u003e) \u003e#\u003e",
           "normalized": "(GenericSemiring a(Bag b)-\u003eBag b)-\u003eGenericSemiring a c-\u003ec",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for transforming a generator by a transformer. A transformer is an aggregator polymorphic over another generic semiring. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "(\u003e=\u003c)",
           "package": "GTALib",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Combinator for transforming generator by transformer transformer is an aggregator polymorphic over another generic semiring",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "(\u003e=\u003c) \u003e=\u003c",
           "normalized": "(GenericSemiring a b-\u003eb)-\u003e(GenericSemiring c b-\u003eGenericSemiring a b)-\u003eGenericSemiring c b-\u003eb",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for connecting a generator and a filter to build another generator. A fitler is represented by a pair of a judgement function and an algebra. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "(\u003e==)",
           "package": "GTALib",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Combinator for connecting generator and filter to build another generator fitler is represented by pair of judgement function and an algebra",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "(\u003e==) \u003e==",
           "normalized": "(GenericSemiring a(Map b c)-\u003eMap d c)-\u003e(d-\u003eBool,a b)-\u003eGenericSemiring a c-\u003ec",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for connecting a generator and an aggregator to get the result. An aggregator is represented by a generic semiring. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "(\u003e=\u003e)",
           "package": "GTALib",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Combinator for connecting generator and an aggregator to get the result An aggregator is represented by generic semiring",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "(\u003e=\u003e) \u003e=\u003e",
           "normalized": "(GenericSemiring a b-\u003eb)-\u003eGenericSemiring a b-\u003eb",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "AddIdentity",
           "package": "GTALib",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "AddIdentity",
           "package": "GTALib",
@@ -351,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "Bag",
           "package": "GTALib",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "Bag",
           "normalized": "Bag[a]",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "CommutativeMonoid",
           "package": "GTALib",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "CommutativeMonoid",
           "package": "GTALib",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "GenericSemiring",
           "package": "GTALib",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "GenericSemiring",
           "package": "GTALib",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "Identity",
           "package": "GTALib",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "Identity",
           "package": "GTALib",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "RevOrd",
           "package": "GTALib",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "RevOrd",
           "package": "GTALib",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduces an identity. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "addIdentity",
           "package": "GTALib",
@@ -474,6 +513,7 @@
         "index": {
           "description": "Introduces an identity",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "addIdentity",
           "normalized": "a b c-\u003eAddIdentity c",
@@ -490,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003e\u003e=\u003e\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "aggregateBy",
           "package": "GTALib",
@@ -500,6 +541,7 @@
         "index": {
           "description": "The same as",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "aggregateBy",
           "normalized": "(GenericSemiring a b-\u003eb)-\u003eGenericSemiring a b-\u003eb",
@@ -515,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "algebra",
           "package": "GTALib",
@@ -524,6 +567,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "algebra",
           "package": "GTALib",
@@ -537,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a bag that contains the given memebrs. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "bag",
           "package": "GTALib",
@@ -547,6 +592,7 @@
         "index": {
           "description": "Makes bag that contains the given memebrs",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "bag",
           "normalized": "a b[c]-\u003eBag c",
@@ -562,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003e\u003e==\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "filterBy",
           "package": "GTALib",
@@ -572,6 +619,7 @@
         "index": {
           "description": "The same as",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "filterBy",
           "normalized": "(GenericSemiring a(Map b c)-\u003eMap d c)-\u003e(d-\u003eBool,a b)-\u003eGenericSemiring a c-\u003ec",
@@ -587,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "foldingAlgebra",
           "package": "GTALib",
@@ -596,6 +645,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "foldingAlgebra",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eb a-\u003ec a",
@@ -611,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "freeAlgebra",
           "package": "GTALib",
@@ -620,6 +671,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "freeAlgebra",
           "package": "GTALib",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "freeSemiring",
           "package": "GTALib",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "freeSemiring",
           "package": "GTALib",
@@ -655,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "hom",
           "package": "GTALib",
@@ -664,6 +719,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "hom",
           "normalized": "a b-\u003ec-\u003eb",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "identity",
           "package": "GTALib",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "identity",
           "package": "GTALib",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts members from a bag. The order of members is undecidable. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "items",
           "package": "GTALib",
@@ -710,6 +769,7 @@
         "index": {
           "description": "Extracts members from bag The order of members is undecidable",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "items",
           "normalized": "Bag a-\u003e[a]",
@@ -724,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "liftedSemiring",
           "package": "GTALib",
@@ -733,6 +794,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "liftedSemiring",
           "normalized": "GenericSemiring a b-\u003ea c-\u003eGenericSemiring a(Map c b)",
@@ -748,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "makeAlgebra",
           "package": "GTALib",
@@ -757,6 +820,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "makeAlgebra",
           "normalized": "CommutativeMonoid a-\u003eb c-\u003e(a-\u003e[c])-\u003e(c-\u003ea)-\u003eb a",
@@ -773,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to take the maximum items under a given monotonic sum \u003ccode\u003emplus\u003c/code\u003e with its identity \u003ccode\u003emid\u003c/code\u003e after \u003cem\u003emap\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e c == a `max` b   =\u003e   d `mplus` (a `max` b) == (d `mplus` a) `max` (d `mplus` b)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxMonoSumBy",
           "package": "GTALib",
@@ -783,6 +848,7 @@
         "index": {
           "description": "The aggregator to take the maximum items under given monotonic sum mplus with its identity mid after map max mplus max mplus max mplus",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxMonoSumBy",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eb(AddIdentity a)-\u003eGenericSemiring c(AddIdentity a)",
@@ -799,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to find the best k maximum items under a given monotonic sum. An extension of \u003ccode\u003e\u003ca\u003emaxMonoSumBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxMonoSumKBy",
           "package": "GTALib",
@@ -809,6 +876,7 @@
         "index": {
           "description": "The aggregator to find the best maximum items under given monotonic sum An extension of maxMonoSumBy",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxMonoSumKBy",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eInt-\u003eb(AddIdentity a)-\u003eGenericSemiring c[AddIdentity a]",
@@ -825,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tupling of maxMonoSumBy and a given generic semiring. The second component of the result is the aggregation of the maximum items by the given generaic semiring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxMonoSumsolutionXBy",
           "package": "GTALib",
@@ -835,6 +904,7 @@
         "index": {
           "description": "The tupling of maxMonoSumBy and given generic semiring The second component of the result is the aggregation of the maximum items by the given generaic semiring",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxMonoSumsolutionXBy",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eGenericSemiring b c-\u003ed(AddIdentity a)-\u003eGenericSemiring b(AddIdentity a,c)",
@@ -851,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxMonoSumsolutionXBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxMonoSumsolutionXKBy",
           "package": "GTALib",
@@ -861,6 +932,7 @@
         "index": {
           "description": "The best-k extension of maxMonoSumsolutionXBy",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxMonoSumsolutionXKBy",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eGenericSemiring b c-\u003eInt-\u003ed(AddIdentity a)-\u003eGenericSemiring b[(AddIdentity a,c)]",
@@ -877,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to take the maximum product on \u003cem\u003enon-negative\u003c/em\u003e numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxprodBy",
           "package": "GTALib",
@@ -887,6 +960,7 @@
         "index": {
           "description": "The aggregator to take the maximum product on non-negative numbers",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxprodBy",
           "normalized": "a(AddIdentity b)-\u003eGenericSemiring c(AddIdentity b)",
@@ -903,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxprodBy\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxprodKBy",
           "package": "GTALib",
@@ -913,6 +988,7 @@
         "index": {
           "description": "The best-k extension of maxprodBy",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxprodKBy",
           "normalized": "Int-\u003ea(AddIdentity b)-\u003eGenericSemiring c[AddIdentity b]",
@@ -929,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to find the items with the maximum product on \u003cem\u003enon-negative\u003c/em\u003e numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxprodsolutionBy",
           "package": "GTALib",
@@ -939,6 +1016,7 @@
         "index": {
           "description": "The aggregator to find the items with the maximum product on non-negative numbers",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxprodsolutionBy",
           "normalized": "a(AddIdentity b)-\u003eGenericSemiring c(AddIdentity b,Bag d)",
@@ -955,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxprodsolutionBy\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxprodsolutionKBy",
           "package": "GTALib",
@@ -965,6 +1044,7 @@
         "index": {
           "description": "The best-k extension of maxprodsolutionBy",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxprodsolutionKBy",
           "normalized": "Int-\u003ea(AddIdentity b)-\u003eGenericSemiring c[(AddIdentity b,Bag d)]",
@@ -981,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tupling of \u003ccode\u003e\u003ca\u003emaxprodsolutionBy\u003c/a\u003e\u003c/code\u003e and a given generic semiring. The second component of the result is the aggregation of the best items by the given generic emiring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxprodsolutionXBy",
           "package": "GTALib",
@@ -991,6 +1072,7 @@
         "index": {
           "description": "The tupling of maxprodsolutionBy and given generic semiring The second component of the result is the aggregation of the best items by the given generic emiring",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxprodsolutionXBy",
           "normalized": "GenericSemiring a b-\u003ec(AddIdentity d)-\u003eGenericSemiring a(AddIdentity d,b)",
@@ -1007,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxprodsolutionXBy\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxprodsolutionXKBy",
           "package": "GTALib",
@@ -1017,6 +1100,7 @@
         "index": {
           "description": "The best-k extension of maxprodsolutionXBy",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxprodsolutionXKBy",
           "normalized": "GenericSemiring a b-\u003eInt-\u003ec(AddIdentity d)-\u003eGenericSemiring a[(AddIdentity d,b)]",
@@ -1033,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to the maximum sum after \u003cem\u003emap\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxsumBy",
           "package": "GTALib",
@@ -1043,6 +1128,7 @@
         "index": {
           "description": "The aggregator to the maximum sum after map",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxsumBy",
           "normalized": "a(AddIdentity b)-\u003eGenericSemiring c(AddIdentity b)",
@@ -1059,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxsumBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxsumKBy",
           "package": "GTALib",
@@ -1069,6 +1156,7 @@
         "index": {
           "description": "The best-k extension of maxsumBy",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxsumKBy",
           "normalized": "Int-\u003ea(AddIdentity b)-\u003eGenericSemiring c[AddIdentity b]",
@@ -1085,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance of \u003ccode\u003emaxMonoSumsolutionBy\u003c/code\u003e with the usual summation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxsumsolutionBy",
           "package": "GTALib",
@@ -1095,6 +1184,7 @@
         "index": {
           "description": "An instance of maxMonoSumsolutionBy with the usual summation",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxsumsolutionBy",
           "normalized": "a(AddIdentity b)-\u003eGenericSemiring c(AddIdentity b,Bag d)",
@@ -1111,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxsumsolutionBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxsumsolutionKBy",
           "package": "GTALib",
@@ -1121,6 +1212,7 @@
         "index": {
           "description": "The best-k extension of maxsumsolutionBy",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxsumsolutionKBy",
           "normalized": "Int-\u003ea(AddIdentity b)-\u003eGenericSemiring c[(AddIdentity b,Bag d)]",
@@ -1137,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance of \u003ccode\u003e\u003ca\u003emaxMonoSumsolutionXBy\u003c/a\u003e\u003c/code\u003e with the usual summation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxsumsolutionXBy",
           "package": "GTALib",
@@ -1147,6 +1240,7 @@
         "index": {
           "description": "An instance of maxMonoSumsolutionXBy with the usual summation",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxsumsolutionXBy",
           "normalized": "GenericSemiring a b-\u003ec(AddIdentity d)-\u003eGenericSemiring a(AddIdentity d,b)",
@@ -1163,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxsumsolutionXBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "maxsumsolutionXKBy",
           "package": "GTALib",
@@ -1173,6 +1268,7 @@
         "index": {
           "description": "The best-k extension of maxsumsolutionXBy",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "maxsumsolutionXKBy",
           "normalized": "GenericSemiring a b-\u003eInt-\u003ec(AddIdentity d)-\u003eGenericSemiring a[(AddIdentity d,b)]",
@@ -1188,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "monoid",
           "package": "GTALib",
@@ -1197,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "monoid",
           "package": "GTALib",
@@ -1209,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "oplus",
           "package": "GTALib",
@@ -1218,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "oplus",
           "normalized": "a-\u003ea-\u003ea",
@@ -1232,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "pairAlgebra",
           "package": "GTALib",
@@ -1241,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "pairAlgebra",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -1256,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "pairSemiring",
           "package": "GTALib",
@@ -1265,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "pairSemiring",
           "normalized": "GenericSemiring a b-\u003eGenericSemiring a c-\u003eGenericSemiring a(b,c)",
@@ -1281,6 +1385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to extract all items generated by a generator. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "result",
           "package": "GTALib",
@@ -1291,6 +1396,7 @@
         "index": {
           "description": "The aggregator to extract all items generated by generator",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "result",
           "package": "GTALib",
@@ -1304,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverses the order of the argument, so that we can use aggregators maxXXX to take the minimum XXX. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "revOrd",
           "package": "GTALib",
@@ -1314,6 +1421,7 @@
         "index": {
           "description": "Reverses the order of the argument so that we can use aggregators maxXXX to take the minimum XXX",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "revOrd",
           "normalized": "a b c-\u003eRevOrd c",
@@ -1329,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "shom",
           "package": "GTALib",
@@ -1338,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "shom",
           "normalized": "GenericSemiring a b-\u003eBag c-\u003eb",
@@ -1353,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to compute a sum of products. Each product is of all values in the data structure after \u003cem\u003emap\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "sumproductBy",
           "package": "GTALib",
@@ -1363,6 +1474,7 @@
         "index": {
           "description": "The aggregator to compute sum of products Each product is of all values in the data structure after map",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "sumproductBy",
           "normalized": "a b-\u003eGenericSemiring c b",
@@ -1379,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003e\u003e=\u003c\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Core",
           "name": "transformBy",
           "package": "GTALib",
@@ -1389,6 +1502,7 @@
         "index": {
           "description": "The same as",
           "hierarchy": "GTA Core",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Core",
           "name": "transformBy",
           "normalized": "(GenericSemiring a b-\u003eb)-\u003e(GenericSemiring c b-\u003eGenericSemiring a b)-\u003eGenericSemiring c b-\u003eb",
@@ -1405,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the GTA framework on binary (and\n leaf-valued) trees, such as definitions of the data structures\n and their algebras, generators, aggregators, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "BinTree",
           "package": "GTALib",
@@ -1414,6 +1529,7 @@
         "index": {
           "description": "This module provides the GTA framework on binary and leaf-valued trees such as definitions of the data structures and their algebras generators aggregators etc",
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "BinTree",
           "package": "GTALib",
@@ -1427,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "BinTree",
           "package": "GTALib",
@@ -1435,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "BinTree",
           "package": "GTALib",
@@ -1448,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "BinTreeAlgebra",
           "package": "GTALib",
@@ -1456,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "BinTreeAlgebra",
           "package": "GTALib",
@@ -1469,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "BinTreeMapFs",
           "package": "GTALib",
@@ -1477,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "BinTreeMapFs",
           "package": "GTALib",
@@ -1490,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "BinTreeSemiring",
           "package": "GTALib",
@@ -1498,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "BinTreeSemiring",
           "package": "GTALib",
@@ -1511,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "LVTree",
           "package": "GTALib",
@@ -1519,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "LVTree",
           "package": "GTALib",
@@ -1532,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "LVTreeAlgebra",
           "package": "GTALib",
@@ -1540,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "LVTreeAlgebra",
           "package": "GTALib",
@@ -1553,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "LVTreeMapFs",
           "package": "GTALib",
@@ -1561,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "LVTreeMapFs",
           "package": "GTALib",
@@ -1574,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "LVTreeSemiring",
           "package": "GTALib",
@@ -1582,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "LVTreeSemiring",
           "package": "GTALib",
@@ -1595,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "BinLeaf",
           "package": "GTALib",
@@ -1604,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "BinLeaf",
           "package": "GTALib",
@@ -1617,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "BinNode",
           "package": "GTALib",
@@ -1626,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "BinNode",
           "package": "GTALib",
@@ -1639,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "BinTreeAlgebra",
           "package": "GTALib",
@@ -1648,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "BinTreeAlgebra",
           "package": "GTALib",
@@ -1661,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "BinTreeMapFs",
           "package": "GTALib",
@@ -1670,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "BinTreeMapFs",
           "package": "GTALib",
@@ -1683,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "LVTreeAlgebra",
           "package": "GTALib",
@@ -1692,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "LVTreeAlgebra",
           "package": "GTALib",
@@ -1705,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "LVTreeMapFs",
           "package": "GTALib",
@@ -1714,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "LVTreeMapFs",
           "package": "GTALib",
@@ -1727,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "LeafLV",
           "package": "GTALib",
@@ -1736,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "LeafLV",
           "package": "GTALib",
@@ -1749,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "NodeLV",
           "package": "GTALib",
@@ -1758,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "NodeLV",
           "package": "GTALib",
@@ -1771,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "assignTrans",
           "package": "GTALib",
@@ -1780,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "assignTrans",
           "normalized": "[a]-\u003e[b]-\u003eBinTreeSemiring b(a,c)d-\u003eLVTreeSemiring c d",
@@ -1795,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "assignTrees",
           "package": "GTALib",
@@ -1804,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "assignTrees",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003eBinTreeSemiring b(a,c)d-\u003ed",
@@ -1819,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "binLeaf",
           "package": "GTALib",
@@ -1828,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "binLeaf",
           "normalized": "a-\u003eb",
@@ -1843,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "binLeafF",
           "package": "GTALib",
@@ -1852,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "binLeafF",
           "normalized": "a-\u003eb",
@@ -1867,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "binNode",
           "package": "GTALib",
@@ -1876,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "binNode",
           "normalized": "a-\u003eb-\u003eb-\u003eb",
@@ -1891,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "binNodeF",
           "package": "GTALib",
@@ -1900,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "binNodeF",
           "normalized": "a-\u003eb",
@@ -1915,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "count",
           "package": "GTALib",
@@ -1924,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "count",
           "package": "GTALib",
@@ -1936,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "leafLV",
           "package": "GTALib",
@@ -1945,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "leafLV",
           "normalized": "a-\u003eb",
@@ -1960,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "leafLVF",
           "package": "GTALib",
@@ -1969,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "leafLVF",
           "normalized": "a-\u003eb",
@@ -1984,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "lvtrees",
           "package": "GTALib",
@@ -1993,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "lvtrees",
           "normalized": "[a]-\u003eLVTreeSemiring a b-\u003eb",
@@ -2007,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "maxsum",
           "package": "GTALib",
@@ -2016,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "maxsum",
           "normalized": "BinTreeSemiring(Bool,a)(Bool,a)(AddIdentity a)",
@@ -2030,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "maxsumsolution",
           "package": "GTALib",
@@ -2039,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "maxsumsolution",
           "normalized": "BinTreeSemiring(Bool,a)(Bool,a)(AddIdentity a,Bag(BinTree(Bool,a)(Bool,a)))",
@@ -2053,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "nodeLV",
           "package": "GTALib",
@@ -2062,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "nodeLV",
           "normalized": "a-\u003ea-\u003ea",
@@ -2077,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "selects",
           "package": "GTALib",
@@ -2086,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "selects",
           "normalized": "BinTree a b-\u003eBinTreeSemiring(Bool,a)(Bool,b)c-\u003ec",
@@ -2100,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "subtreeSelects",
           "package": "GTALib",
@@ -2109,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "subtreeSelects",
           "normalized": "BinTree a b-\u003eBinTreeSemiring(Bool,a)(Bool,b)c-\u003ec",
@@ -2124,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.BinTree",
           "name": "subtreeSelectsWithRoot",
           "package": "GTALib",
@@ -2133,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "GTA Data BinTree",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.BinTree",
           "name": "subtreeSelectsWithRoot",
           "normalized": "BinTree a b-\u003eBinTreeSemiring(Bool,a)(Bool,b)c-\u003ec",
@@ -2149,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the GTA framework on cons lists, such as\n definitions of the data structure and its algebra, generators,\n aggregators, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "ConsList",
           "package": "GTALib",
@@ -2158,6 +2339,7 @@
         "index": {
           "description": "This module provides the GTA framework on cons lists such as definitions of the data structure and its algebra generators aggregators etc",
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "ConsList",
           "package": "GTALib",
@@ -2171,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "ConsList",
           "package": "GTALib",
@@ -2179,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "ConsList",
           "package": "GTALib",
@@ -2192,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "ConsListAlgebra",
           "package": "GTALib",
@@ -2200,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "ConsListAlgebra",
           "package": "GTALib",
@@ -2213,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "ConsListMapFs",
           "package": "GTALib",
@@ -2221,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "ConsListMapFs",
           "package": "GTALib",
@@ -2234,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "ConsSemiring",
           "package": "GTALib",
@@ -2242,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "ConsSemiring",
           "package": "GTALib",
@@ -2255,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "Cons",
           "package": "GTALib",
@@ -2264,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "Cons",
           "package": "GTALib",
@@ -2277,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "ConsListAlgebra",
           "package": "GTALib",
@@ -2286,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "ConsListAlgebra",
           "package": "GTALib",
@@ -2299,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "Nil",
           "package": "GTALib",
@@ -2308,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "Nil",
           "package": "GTALib",
@@ -2321,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "assigns",
           "package": "GTALib",
@@ -2330,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "assigns",
           "normalized": "[a]-\u003e[b]-\u003eConsSemiring(a,b)c-\u003ec",
@@ -2344,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "assignsBy",
           "package": "GTALib",
@@ -2353,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "assignsBy",
           "normalized": "(a-\u003e[b])-\u003e[a]-\u003eConsSemiring(b,a)c-\u003ec",
@@ -2368,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "bagOfNil",
           "package": "GTALib",
@@ -2377,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "bagOfNil",
           "package": "GTALib",
@@ -2390,6 +2592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "bagUnion",
           "package": "GTALib",
@@ -2399,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "bagUnion",
           "normalized": "Bag(ConsList a)-\u003eBag(ConsList a)-\u003eBag(ConsList a)",
@@ -2414,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "cons",
           "package": "GTALib",
@@ -2423,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "cons",
           "normalized": "a-\u003eb-\u003eb",
@@ -2437,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "consize",
           "package": "GTALib",
@@ -2446,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "consize",
           "normalized": "a b[c]-\u003eConsList c",
@@ -2460,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "count",
           "package": "GTALib",
@@ -2469,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "count",
           "package": "GTALib",
@@ -2481,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "crossCons",
           "package": "GTALib",
@@ -2490,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "crossCons",
           "normalized": "a-\u003eBag(ConsList a)-\u003eBag(ConsList a)",
@@ -2505,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "deconsize",
           "package": "GTALib",
@@ -2514,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "deconsize",
           "normalized": "a b ConsList c-\u003e[c]",
@@ -2528,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "emptyBag",
           "package": "GTALib",
@@ -2537,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "emptyBag",
           "package": "GTALib",
@@ -2550,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "foldr'",
           "package": "GTALib",
@@ -2559,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "foldr'",
           "normalized": "a b c(b-\u003ed-\u003ed)-\u003ed-\u003eConsListAlgebra b d",
@@ -2573,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "inits",
           "package": "GTALib",
@@ -2582,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "inits",
           "normalized": "[a]-\u003eConsSemiring a b-\u003eb",
@@ -2596,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "mapC",
           "package": "GTALib",
@@ -2605,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "mapC",
           "normalized": "a b c(b-\u003ed)-\u003eConsListMapFs b d",
@@ -2619,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "mapMap",
           "package": "GTALib",
@@ -2628,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "mapMap",
           "normalized": "(a-\u003eb)-\u003eGenericSemiring(ConsListAlgebra b)c-\u003eGenericSemiring(ConsListAlgebra a)c",
@@ -2643,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxprodKWith",
           "package": "GTALib",
@@ -2652,6 +2877,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxprodKWith",
           "normalized": "Int-\u003e(a-\u003eb)-\u003eConsSemiring a[AddIdentity b]",
@@ -2667,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxprodWith",
           "package": "GTALib",
@@ -2676,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxprodWith",
           "normalized": "(a-\u003eb)-\u003eConsSemiring a(AddIdentity b)",
@@ -2691,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxprodsolutionKWith",
           "package": "GTALib",
@@ -2700,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxprodsolutionKWith",
           "normalized": "Int-\u003e(a-\u003eb)-\u003eConsSemiring a[(AddIdentity b,Bag(ConsList a))]",
@@ -2715,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxprodsolutionWith",
           "package": "GTALib",
@@ -2724,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxprodsolutionWith",
           "normalized": "(a-\u003eb)-\u003eConsSemiring a(AddIdentity b,Bag(ConsList a))",
@@ -2739,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxprodsolutionXKWith",
           "package": "GTALib",
@@ -2748,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxprodsolutionXKWith",
           "normalized": "ConsSemiring a b-\u003eInt-\u003e(a-\u003ec)-\u003eConsSemiring a[(AddIdentity c,b)]",
@@ -2763,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxprodsolutionXWith",
           "package": "GTALib",
@@ -2772,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxprodsolutionXWith",
           "normalized": "ConsSemiring a b-\u003e(a-\u003ec)-\u003eConsSemiring a(AddIdentity c,b)",
@@ -2787,6 +3023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxsum",
           "package": "GTALib",
@@ -2796,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxsum",
           "package": "GTALib",
@@ -2808,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxsumKWith",
           "package": "GTALib",
@@ -2817,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxsumKWith",
           "normalized": "Int-\u003e(a-\u003eb)-\u003eConsSemiring a[AddIdentity b]",
@@ -2832,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxsumWith",
           "package": "GTALib",
@@ -2841,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxsumWith",
           "normalized": "(a-\u003eb)-\u003eConsSemiring a(AddIdentity b)",
@@ -2856,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxsumsolution",
           "package": "GTALib",
@@ -2865,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxsumsolution",
           "normalized": "ConsSemiring a(AddIdentity a,Bag(ConsList a))",
@@ -2879,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxsumsolutionKWith",
           "package": "GTALib",
@@ -2888,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxsumsolutionKWith",
           "normalized": "Int-\u003e(a-\u003eb)-\u003eConsSemiring a[(AddIdentity b,Bag(ConsList a))]",
@@ -2903,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxsumsolutionWith",
           "package": "GTALib",
@@ -2912,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxsumsolutionWith",
           "normalized": "(a-\u003eb)-\u003eConsSemiring a(AddIdentity b,Bag(ConsList a))",
@@ -2927,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxsumsolutionXKWith",
           "package": "GTALib",
@@ -2936,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxsumsolutionXKWith",
           "normalized": "ConsSemiring a b-\u003eInt-\u003e(a-\u003ec)-\u003eConsSemiring a[(AddIdentity c,b)]",
@@ -2951,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "maxsumsolutionXWith",
           "package": "GTALib",
@@ -2960,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "maxsumsolutionXWith",
           "normalized": "ConsSemiring a b-\u003e(a-\u003ec)-\u003eConsSemiring a(AddIdentity c,b)",
@@ -2975,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "nil",
           "package": "GTALib",
@@ -2984,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "nil",
           "package": "GTALib",
@@ -2996,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "paths",
           "package": "GTALib",
@@ -3005,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "paths",
           "normalized": "BinTree a a-\u003eConsSemiring a b-\u003eb",
@@ -3019,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "perms",
           "package": "GTALib",
@@ -3028,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "perms",
           "normalized": "[a]-\u003eConsSemiring a b-\u003eb",
@@ -3042,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "segs",
           "package": "GTALib",
@@ -3051,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "segs",
           "normalized": "[a]-\u003eConsSemiring a b-\u003eb",
@@ -3065,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "subs",
           "package": "GTALib",
@@ -3074,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "subs",
           "normalized": "[a]-\u003eConsSemiring a b-\u003eb",
@@ -3088,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.ConsList",
           "name": "tails",
           "package": "GTALib",
@@ -3097,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "GTA Data ConsList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.ConsList",
           "name": "tails",
           "normalized": "[a]-\u003eConsSemiring a b-\u003eb",
@@ -3112,6 +3376,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the GTA framework on join lists, such as\n definitions of the data structure and its algebra,\n parallel/serial generators, aggregators, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "JoinList",
           "package": "GTALib",
@@ -3121,6 +3386,7 @@
         "index": {
           "description": "This module provides the GTA framework on join lists such as definitions of the data structure and its algebra parallel serial generators aggregators etc",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "JoinList",
           "package": "GTALib",
@@ -3135,6 +3401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin lists. \n\u003c/p\u003e\u003cpre\u003e x ++ y ==\u003e x `Times` y\n [a]    ==\u003e Single a\n []     ==\u003e Nil\n\u003c/pre\u003e\u003cp\u003eWe assume that \u003ccode\u003e\u003ca\u003eTimes\u003c/a\u003e\u003c/code\u003e is associative and \u003ccode\u003e\u003ca\u003eNil\u003c/a\u003e\u003c/code\u003e is its identity:\n\u003c/p\u003e\u003cpre\u003e x `Times` (y `Times` z) == (x `Times` y) `Times` z\n x `Times` Nil == Nil `Times` x == x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "JoinList",
           "package": "GTALib",
@@ -3144,6 +3411,7 @@
         "index": {
           "description": "Join lists Times Single Nil We assume that Times is associative and Nil is its identity Times Times Times Times Times Nil Nil Times",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "JoinList",
           "package": "GTALib",
@@ -3158,6 +3426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe algebra of join lists.\n\u003c/p\u003e\u003cp\u003eWe assume that \u003ccode\u003e\u003ca\u003etimes\u003c/a\u003e\u003c/code\u003e is associative and \u003ccode\u003e\u003ca\u003enil\u003c/a\u003e\u003c/code\u003e is its identity, inheriting those of \u003ccode\u003e\u003ca\u003eTimes\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNil\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e x `times` (y `times` z) == (x `times` y) `times` z\n x `times` nil == nil `times` x == x\n\u003c/pre\u003e\u003cp\u003eThis can be generated automatically by \u003ccode\u003egenAllDecl ''JoinList\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "JoinListAlgebra",
           "package": "GTALib",
@@ -3167,6 +3436,7 @@
         "index": {
           "description": "The algebra of join lists We assume that times is associative and nil is its identity inheriting those of Times and Nil times times times times times nil nil times This can be generated automatically by genAllDecl JoinList",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "JoinListAlgebra",
           "package": "GTALib",
@@ -3181,6 +3451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record to hold a function to be applied to elements of a list.\n\u003c/p\u003e\u003cp\u003eThis can be generated automatically by \u003ccode\u003egenAllDecl ''JoinList\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "JoinListMapFs",
           "package": "GTALib",
@@ -3190,6 +3461,7 @@
         "index": {
           "description": "record to hold function to be applied to elements of list This can be generated automatically by genAllDecl JoinList",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "JoinListMapFs",
           "package": "GTALib",
@@ -3204,6 +3476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe usual semiring is a generic semiring of join lists:\n\u003c/p\u003e\u003cpre\u003e a `times` (b `oplus` c) == (a `times` b) `oplus` (a `times` c)\n (a `oplus` b) `times` c == (a `times` c) `oplus` (b `times` c)\n a `times` identity == identity `times` a == identity\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "Semiring",
           "package": "GTALib",
@@ -3213,6 +3486,7 @@
         "index": {
           "description": "The usual semiring is generic semiring of join lists times oplus times oplus times oplus times times oplus times times identity identity times identity",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "Semiring",
           "package": "GTALib",
@@ -3226,6 +3500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "JoinListAlgebra",
           "package": "GTALib",
@@ -3235,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "JoinListAlgebra",
           "package": "GTALib",
@@ -3248,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "Nil",
           "package": "GTALib",
@@ -3257,6 +3534,7 @@
         },
         "index": {
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "Nil",
           "package": "GTALib",
@@ -3270,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "Single",
           "package": "GTALib",
@@ -3279,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "Single",
           "package": "GTALib",
@@ -3292,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "Times",
           "package": "GTALib",
@@ -3301,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "Times",
           "package": "GTALib",
@@ -3315,6 +3597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis generates all assignments of elements of the first list to elements of the second list.\n\u003c/p\u003e\u003cp\u003eFor example, \n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eassigns [True,False] [1,2,3] `aggregateBy` result\n\u003c/code\u003e\u003c/strong\u003eBag [[(True,1),(True,2),(True,3)],[(True,1),(True,2),(False,3)],[(True,1),(False,2),(True,3)],[(True,1),(False,2),(False,3)],[(False,1),(True,2),(True,3)],[(False,1),(True,2),(False,3)],[(False,1),(False,2),(True,3)],[(False,1),(False,2),(False,3)]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "assigns",
           "package": "GTALib",
@@ -3325,6 +3608,7 @@
         "index": {
           "description": "This generates all assignments of elements of the first list to elements of the second list For example assigns True False aggregateBy result Bag True True True True True False True False True True False False False True True False True False False False True False False False",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "assigns",
           "normalized": "[a]-\u003e[b]-\u003eSemiring(a,b)c-\u003ec",
@@ -3340,6 +3624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a generalization of \u003ccode\u003e\u003ca\u003eassigns\u003c/a\u003e\u003c/code\u003e: the values to be assigned is dependent of the target.\n\u003c/p\u003e\u003cp\u003eFor example, \n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eassignsBy (\\a -\u003e if odd a then [True, False] else [True]) [1,2,3] `aggregateBy` result\n\u003c/code\u003e\u003c/strong\u003eBag [[(True,1),(True,2),(True,3)],[(True,1),(True,2),(False,3)],[(False,1),(True,2),(True,3)],[(False,1),(True,2),(False,3)]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "assignsBy",
           "package": "GTALib",
@@ -3350,6 +3635,7 @@
         "index": {
           "description": "This is generalization of assigns the values to be assigned is dependent of the target For example assignsBy if odd then True False else True aggregateBy result Bag True True True True True False False True True False True False",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "assignsBy",
           "normalized": "(a-\u003e[b])-\u003e[a]-\u003eSemiring(b,a)c-\u003ec",
@@ -3366,6 +3652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel version of \u003ccode\u003e\u003ca\u003eassignsBy\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "assignsByP",
           "package": "GTALib",
@@ -3376,6 +3663,7 @@
         "index": {
           "description": "Parallel version of assignsBy",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "assignsByP",
           "normalized": "(a-\u003e[b])-\u003e[a]-\u003eSemiring(b,a)c-\u003ec",
@@ -3392,6 +3680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel version of \u003ccode\u003e\u003ca\u003eassigns\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "assignsP",
           "package": "GTALib",
@@ -3402,6 +3691,7 @@
         "index": {
           "description": "Parallel version of assigns",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "assignsP",
           "normalized": "[a]-\u003e[b]-\u003eSemiring(a,b)c-\u003ec",
@@ -3417,6 +3707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor of a bag of join lists.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ebagOfNil\n\u003c/code\u003e\u003c/strong\u003eBag [[]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "bagOfNil",
           "package": "GTALib",
@@ -3427,6 +3718,7 @@
         "index": {
           "description": "Constructor of bag of join lists For example bagOfNil Bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "bagOfNil",
           "package": "GTALib",
@@ -3441,6 +3733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor of a bag of join lists.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ebagOfSingleton 1\n\u003c/code\u003e\u003c/strong\u003eBag [[1]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "bagOfSingleton",
           "package": "GTALib",
@@ -3451,6 +3744,7 @@
         "index": {
           "description": "Constructor of bag of join lists For example bagOfSingleton Bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "bagOfSingleton",
           "normalized": "a-\u003eBag(JoinList a)",
@@ -3467,6 +3761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor of a bag of join lists.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(bag (map joinize [[1,2], [3]])) `bagUnion` (bag (map joinize [[4,5], [6]]))\n\u003c/code\u003e\u003c/strong\u003eBag [[1,2],[3],[4,5],[6]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "bagUnion",
           "package": "GTALib",
@@ -3477,6 +3772,7 @@
         "index": {
           "description": "Constructor of bag of join lists For example bag map joinize bagUnion bag map joinize Bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "bagUnion",
           "normalized": "Bag(JoinList a)-\u003eBag(JoinList a)-\u003eBag(JoinList a)",
@@ -3493,6 +3789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to count the number of items in a generated bag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "count",
           "package": "GTALib",
@@ -3503,6 +3800,7 @@
         "index": {
           "description": "The aggregator to count the number of items in generated bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "count",
           "package": "GTALib",
@@ -3516,6 +3814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor of a bag of join lists.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(bag (map joinize [[1,2], [3]])) `crossConcat` (bag (map joinize [[4,5], [6]]))\n\u003c/code\u003e\u003c/strong\u003eBag [[1,2,4,5],[1,2,6],[3,4,5],[3,6]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "crossConcat",
           "package": "GTALib",
@@ -3526,6 +3825,7 @@
         "index": {
           "description": "Constructor of bag of join lists For example bag map joinize crossConcat bag map joinize Bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "crossConcat",
           "normalized": "Bag(JoinList a)-\u003eBag(JoinList a)-\u003eBag(JoinList a)",
@@ -3542,6 +3842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from a join list to a usual list. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "dejoinize",
           "package": "GTALib",
@@ -3552,6 +3853,7 @@
         "index": {
           "description": "Conversion from join list to usual list",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "dejoinize",
           "normalized": "a b JoinList c-\u003e[c]",
@@ -3567,6 +3869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor of a bag of join lists.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eemptyBag\n\u003c/code\u003e\u003c/strong\u003eBag []\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "emptyBag",
           "package": "GTALib",
@@ -3577,6 +3880,7 @@
         "index": {
           "description": "Constructor of bag of join lists For example emptyBag Bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "emptyBag",
           "package": "GTALib",
@@ -3591,6 +3895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper function for JoinList homomorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "homJ",
           "package": "GTALib",
@@ -3601,6 +3906,7 @@
         "index": {
           "description": "wrapper function for JoinList homomorphism",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "homJ",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(b-\u003ea)-\u003ea-\u003eJoinList b-\u003ea",
@@ -3616,6 +3922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fake function of homJ to build \u003ccode\u003e\u003ca\u003eJoinListAlgebra\u003c/a\u003e\u003c/code\u003e instead of executing the homomorphism with it. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "homJ'",
           "package": "GTALib",
@@ -3626,6 +3933,7 @@
         "index": {
           "description": "fake function of homJ to build JoinListAlgebra instead of executing the homomorphism with it",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "homJ'",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(b-\u003ea)-\u003ea-\u003eJoinListAlgebra b a",
@@ -3642,6 +3950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis generates all prefixes of a given list. \n\u003c/p\u003e\u003cp\u003eFor example, \n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003einits [1,2,3] `aggregateBy` result\n\u003c/code\u003e\u003c/strong\u003eBag [[],[1],[1,2],[1,2,3]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "inits",
           "package": "GTALib",
@@ -3652,6 +3961,7 @@
         "index": {
           "description": "This generates all prefixes of given list For example inits aggregateBy result Bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "inits",
           "normalized": "[a]-\u003eSemiring a b-\u003eb",
@@ -3667,6 +3977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel version of \u003ccode\u003e\u003ca\u003einits\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "initsP",
           "package": "GTALib",
@@ -3677,6 +3988,7 @@
         "index": {
           "description": "Parallel version of inits",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "initsP",
           "normalized": "[a]-\u003eSemiring a b-\u003eb",
@@ -3692,6 +4004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from a usual list to a join list. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "joinize",
           "package": "GTALib",
@@ -3702,6 +4015,7 @@
         "index": {
           "description": "Conversion from usual list to join list",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "joinize",
           "normalized": "a b[c]-\u003eJoinList c",
@@ -3717,6 +4031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for \u003ccode\u003e\u003ca\u003eJoinListMapFs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "mapJ",
           "package": "GTALib",
@@ -3727,6 +4042,7 @@
         "index": {
           "description": "Wrapper for JoinListMapFs",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "mapJ",
           "normalized": "a b c(b-\u003ed)-\u003eJoinListMapFs b d",
@@ -3742,6 +4058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transfomer that applies given function to every element in every list in a given bag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "mapMap",
           "package": "GTALib",
@@ -3752,6 +4069,7 @@
         "index": {
           "description": "transfomer that applies given function to every element in every list in given bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "mapMap",
           "normalized": "(a-\u003eb)-\u003eGenericSemiring(JoinListAlgebra b)c-\u003eGenericSemiring(JoinListAlgebra a)c",
@@ -3768,6 +4086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxprodWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxprodKWith",
           "package": "GTALib",
@@ -3778,6 +4097,7 @@
         "index": {
           "description": "The best-k extension of maxprodWith",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxprodKWith",
           "normalized": "Int-\u003e(a-\u003eb)-\u003eSemiring a[AddIdentity b]",
@@ -3794,6 +4114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to take the maximum product of \u003cem\u003enon-negative\u003c/em\u003e numbers after \u003ccode\u003emap f\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxprodWith",
           "package": "GTALib",
@@ -3804,6 +4125,7 @@
         "index": {
           "description": "The aggregator to take the maximum product of non-negative numbers after map",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxprodWith",
           "normalized": "(a-\u003eb)-\u003eSemiring a(AddIdentity b)",
@@ -3820,6 +4142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxprodsolutionWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxprodsolutionKWith",
           "package": "GTALib",
@@ -3830,6 +4153,7 @@
         "index": {
           "description": "The best-k extension of maxprodsolutionWith",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxprodsolutionKWith",
           "normalized": "Int-\u003e(a-\u003eb)-\u003eSemiring a[(AddIdentity b,Bag(JoinList a))]",
@@ -3846,6 +4170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to find items with the maximum product. The numbers have to be \u003cem\u003enon-negative\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxprodsolutionWith",
           "package": "GTALib",
@@ -3856,6 +4181,7 @@
         "index": {
           "description": "The aggregator to find items with the maximum product The numbers have to be non-negative",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxprodsolutionWith",
           "normalized": "(a-\u003eb)-\u003eSemiring a(AddIdentity b,Bag(JoinList a))",
@@ -3872,6 +4198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxprodsolutionXWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxprodsolutionXKWith",
           "package": "GTALib",
@@ -3882,6 +4209,7 @@
         "index": {
           "description": "The best-k extension of maxprodsolutionXWith",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxprodsolutionXKWith",
           "normalized": "Semiring a b-\u003eInt-\u003e(a-\u003ec)-\u003eSemiring a[(AddIdentity c,b)]",
@@ -3898,6 +4226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tupling of maxprodsolution and a given semiring. The second component is the aggregation of the maximum items by the given semiring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxprodsolutionXWith",
           "package": "GTALib",
@@ -3908,6 +4237,7 @@
         "index": {
           "description": "The tupling of maxprodsolution and given semiring The second component is the aggregation of the maximum items by the given semiring",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxprodsolutionXWith",
           "normalized": "Semiring a b-\u003e(a-\u003ec)-\u003eSemiring a(AddIdentity c,b)",
@@ -3924,6 +4254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to take the maximum sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxsum",
           "package": "GTALib",
@@ -3934,6 +4265,7 @@
         "index": {
           "description": "The aggregator to take the maximum sum",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxsum",
           "package": "GTALib",
@@ -3947,6 +4279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxsumWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxsumKWith",
           "package": "GTALib",
@@ -3957,6 +4290,7 @@
         "index": {
           "description": "The best-k extension of maxsumWith",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxsumKWith",
           "normalized": "Int-\u003e(a-\u003eb)-\u003eSemiring a[AddIdentity b]",
@@ -3973,6 +4307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to take the maximum sum after \u003ccode\u003emap f\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxsumWith",
           "package": "GTALib",
@@ -3983,6 +4318,7 @@
         "index": {
           "description": "The aggregator to take the maximum sum after map",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxsumWith",
           "normalized": "(a-\u003eb)-\u003eSemiring a(AddIdentity b)",
@@ -3999,6 +4335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to find items with the maximum sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxsumsolution",
           "package": "GTALib",
@@ -4009,6 +4346,7 @@
         "index": {
           "description": "The aggregator to find items with the maximum sum",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxsumsolution",
           "normalized": "Semiring a(AddIdentity a,Bag(JoinList a))",
@@ -4024,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxsumsolutionWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxsumsolutionKWith",
           "package": "GTALib",
@@ -4034,6 +4373,7 @@
         "index": {
           "description": "The best-k extension of maxsumsolutionWith",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxsumsolutionKWith",
           "normalized": "Int-\u003e(a-\u003eb)-\u003eSemiring a[(AddIdentity b,Bag(JoinList a))]",
@@ -4050,6 +4390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aggregator to find items with the maximum sum after \u003ccode\u003emap f\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxsumsolutionWith",
           "package": "GTALib",
@@ -4060,6 +4401,7 @@
         "index": {
           "description": "The aggregator to find items with the maximum sum after map",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxsumsolutionWith",
           "normalized": "(a-\u003eb)-\u003eSemiring a(AddIdentity b,Bag(JoinList a))",
@@ -4076,6 +4418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003ebest-k\u003c/em\u003e extension of \u003ccode\u003e\u003ca\u003emaxsumsolutionXWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxsumsolutionXKWith",
           "package": "GTALib",
@@ -4086,6 +4429,7 @@
         "index": {
           "description": "The best-k extension of maxsumsolutionXWith",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxsumsolutionXKWith",
           "normalized": "Semiring a b-\u003eInt-\u003e(a-\u003ec)-\u003eSemiring a[(AddIdentity c,b)]",
@@ -4102,6 +4446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tupling of maxsumsolution and a given semiring. The second component is the aggregation of the maximum items by the given semiring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "maxsumsolutionXWith",
           "package": "GTALib",
@@ -4112,6 +4457,7 @@
         "index": {
           "description": "The tupling of maxsumsolution and given semiring The second component is the aggregation of the maximum items by the given semiring",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "maxsumsolutionXWith",
           "normalized": "Semiring a b-\u003e(a-\u003ec)-\u003eSemiring a(AddIdentity c,b)",
@@ -4127,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "nil",
           "package": "GTALib",
@@ -4136,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "nil",
           "package": "GTALib",
@@ -4149,6 +4497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis generates all paths from the root to leaves of a given binary tree.\n\u003c/p\u003e\u003cp\u003eFor example, \n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e*Main GTA.Data.BinTree\u003e paths (BinNode 1 (BinLeaf 2) (BinNode 3 (BinLeaf 4) (BinLeaf 5))) `aggregateBy` result\n\u003c/code\u003e\u003c/strong\u003eBag [[1,2],[1,3,4],[1,3,5]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "paths",
           "package": "GTALib",
@@ -4159,6 +4508,7 @@
         "index": {
           "description": "This generates all paths from the root to leaves of given binary tree For example Main GTA.Data.BinTree paths BinNode BinLeaf BinNode BinLeaf BinLeaf aggregateBy result Bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "paths",
           "normalized": "BinTree a a-\u003eSemiring a b-\u003eb",
@@ -4174,6 +4524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis generates all permutations of a given list.\n\u003c/p\u003e\u003cp\u003eFor example, \n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eperms \"hoge\" `aggregateBy` result\n\u003c/code\u003e\u003c/strong\u003eBag [\"hoge\",\"hoeg\",\"ohge\",\"oheg\",\"hgoe\",\"hgeo\",\"ghoe\",\"gheo\",\"heog\",\"hego\",\"ehog\",\"ehgo\",\"oghe\",\"ogeh\",\"gohe\",\"goeh\",\"oehg\",\"oegh\",\"eohg\",\"eogh\",\"geho\",\"geoh\",\"egho\",\"egoh\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "perms",
           "package": "GTALib",
@@ -4184,6 +4535,7 @@
         "index": {
           "description": "This generates all permutations of given list For example perms hoge aggregateBy result Bag hoge hoeg ohge oheg hgoe hgeo ghoe gheo heog hego ehog ehgo oghe ogeh gohe goeh oehg oegh eohg eogh geho geoh egho egoh",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "perms",
           "normalized": "[a]-\u003eSemiring a b-\u003eb",
@@ -4199,6 +4551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel version of \u003ccode\u003e\u003ca\u003eperms\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "permsP",
           "package": "GTALib",
@@ -4209,6 +4562,7 @@
         "index": {
           "description": "Parallel version of perms",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "permsP",
           "normalized": "[a]-\u003eSemiring a b-\u003eb",
@@ -4224,6 +4578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty of \u003ccode\u003e\u003ca\u003etimes\u003c/a\u003e\u003c/code\u003e of a JoinListAlgebra:\n\u003c/p\u003e\u003cpre\u003e x `times` (y `times` z) == (x `times` y) `times` z\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "prop_Associativity",
           "package": "GTALib",
@@ -4234,6 +4589,7 @@
         "index": {
           "description": "Property of times of JoinListAlgebra times times times times",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "prop_Associativity",
           "normalized": "JoinListAlgebra a b-\u003e(b,b,b)-\u003eBool",
@@ -4250,6 +4606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty of \u003ccode\u003e\u003ca\u003etimes\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003enil\u003c/a\u003e\u003c/code\u003e of a JoinListAlgebra:\n\u003c/p\u003e\u003cpre\u003e (x `times` nil == x) && (nil `times` x == x)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "prop_Identity",
           "package": "GTALib",
@@ -4260,6 +4617,7 @@
         "index": {
           "description": "Property of times and nil of JoinListAlgebra times nil nil times",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "prop_Identity",
           "normalized": "JoinListAlgebra a b-\u003eb-\u003eBool",
@@ -4276,6 +4634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis generates all segments (continuous subsequences) of a given list. \n\u003c/p\u003e\u003cp\u003eFor example, \n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esegs [1,2,3] `aggregateBy` result\n\u003c/code\u003e\u003c/strong\u003eBag [[1],[2],[3],[2,3],[1,2],[1,2,3],[]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "segs",
           "package": "GTALib",
@@ -4286,6 +4645,7 @@
         "index": {
           "description": "This generates all segments continuous subsequences of given list For example segs aggregateBy result Bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "segs",
           "normalized": "[a]-\u003eSemiring a b-\u003eb",
@@ -4301,6 +4661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel version of \u003ccode\u003e\u003ca\u003esegs\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "segsP",
           "package": "GTALib",
@@ -4311,6 +4672,7 @@
         "index": {
           "description": "Parallel version of segs",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "segsP",
           "normalized": "[a]-\u003eSemiring a b-\u003eb",
@@ -4325,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "single",
           "package": "GTALib",
@@ -4334,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "single",
           "normalized": "a-\u003eb",
@@ -4349,6 +4713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis generates all subsequences of a given list. \n\u003c/p\u003e\u003cp\u003eFor example, \n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esubs [1,2,3] `aggregateBy` result\n\u003c/code\u003e\u003c/strong\u003eBag [[1,2,3],[1,2],[1,3],[1],[2,3],[2],[3],[]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "subs",
           "package": "GTALib",
@@ -4359,6 +4724,7 @@
         "index": {
           "description": "This generates all subsequences of given list For example subs aggregateBy result Bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "subs",
           "normalized": "[a]-\u003eSemiring a b-\u003eb",
@@ -4374,6 +4740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel version of \u003ccode\u003e\u003ca\u003esubs\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "subsP",
           "package": "GTALib",
@@ -4384,6 +4751,7 @@
         "index": {
           "description": "Parallel version of subs",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "subsP",
           "normalized": "[a]-\u003eSemiring a b-\u003eb",
@@ -4399,6 +4767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis generates all suffixes of a given list. \n\u003c/p\u003e\u003cp\u003eFor example, \n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etails [1,2,3] `aggregateBy` result\n\u003c/code\u003e\u003c/strong\u003eBag [[1,2,3],[2,3],[3],[]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "tails",
           "package": "GTALib",
@@ -4409,6 +4778,7 @@
         "index": {
           "description": "This generates all suffixes of given list For example tails aggregateBy result Bag",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "tails",
           "normalized": "[a]-\u003eSemiring a b-\u003eb",
@@ -4424,6 +4794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel version of \u003ccode\u003e\u003ca\u003etails\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "tailsP",
           "package": "GTALib",
@@ -4434,6 +4805,7 @@
         "index": {
           "description": "Parallel version of tails",
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "tailsP",
           "normalized": "[a]-\u003eSemiring a b-\u003eb",
@@ -4448,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Data.JoinList",
           "name": "times",
           "package": "GTALib",
@@ -4457,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "GTA Data JoinList",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Data.JoinList",
           "name": "times",
           "normalized": "a-\u003ea-\u003ea",
@@ -4472,6 +4846,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a mechanism for automatic generation of data-structure-dependent definitions necessary for the GTA framework (namely, an instance of \u003ccode\u003e\u003ca\u003eGenericSemiringStructure\u003c/a\u003e\u003c/code\u003e as well as definitions of algebras and structures for map functions). \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Util.GenericSemiringStructureTemplate",
           "name": "GenericSemiringStructureTemplate",
           "package": "GTALib",
@@ -4481,6 +4856,7 @@
         "index": {
           "description": "This module provides mechanism for automatic generation of data-structure-dependent definitions necessary for the GTA framework namely an instance of GenericSemiringStructure as well as definitions of algebras and structures for map functions",
           "hierarchy": "GTA Util GenericSemiringStructureTemplate",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Util.GenericSemiringStructureTemplate",
           "name": "GenericSemiringStructureTemplate",
           "package": "GTALib",
@@ -4495,6 +4871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a definition of the algebra of a given data structure. For example, given a data structure defined below,\n\u003c/p\u003e\u003cpre\u003e data BinTree n l = BinNode n (BinTree n l) (BinTree n l)\n                  | BinLeaf l\n\u003c/pre\u003e\u003cp\u003ethe following definition of the algebra is generated by \u003ccode\u003egenAlgebraDecl ''BinTree\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e data BinTreeAlgebra n l a = BinTreeAlgebra {\n       binNode :: n -\u003e a -\u003e a -\u003e a,\n       binLeaf :: l -\u003e a\n     }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Util.GenericSemiringStructureTemplate",
           "name": "genAlgebraDecl",
           "package": "GTALib",
@@ -4505,6 +4882,7 @@
         "index": {
           "description": "This function generates definition of the algebra of given data structure For example given data structure defined below data BinTree BinNode BinTree BinTree BinLeaf the following definition of the algebra is generated by genAlgebraDecl BinTree data BinTreeAlgebra BinTreeAlgebra binNode binLeaf",
           "hierarchy": "GTA Util GenericSemiringStructureTemplate",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Util.GenericSemiringStructureTemplate",
           "name": "genAlgebraDecl",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4521,6 +4899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a data structure, this function generates a definition of its algebra (by \u003ccode\u003egenAlgebraDecl\u003c/code\u003e), a record of map functions (by \u003ccode\u003egenMapFunctionsDecl\u003c/code\u003e), and an instance of \u003ccode\u003e\u003ca\u003eGenericSemiringStructure\u003c/a\u003e\u003c/code\u003e (by \u003ccode\u003egenInstanceDecl\u003c/code\u003e). Usage: \u003ccode\u003egenAllDecl ''BinTree\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Util.GenericSemiringStructureTemplate",
           "name": "genAllDecl",
           "package": "GTALib",
@@ -4531,6 +4910,7 @@
         "index": {
           "description": "Given data structure this function generates definition of its algebra by genAlgebraDecl record of map functions by genMapFunctionsDecl and an instance of GenericSemiringStructure by genInstanceDecl Usage genAllDecl BinTree",
           "hierarchy": "GTA Util GenericSemiringStructureTemplate",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Util.GenericSemiringStructureTemplate",
           "name": "genAllDecl",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4547,6 +4927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates an instance of \u003ccode\u003e\u003ca\u003eGenericSemiringStructure\u003c/a\u003e\u003c/code\u003e for a given data structure. For example, given a data structure defined below,\n\u003c/p\u003e\u003cpre\u003e data BinTree n l = BinNode n (BinTree n l) (BinTree n l)\n                  | BinLeaf l\n\u003c/pre\u003e\u003cp\u003ethe following record is generated by \u003ccode\u003egenInstanceDecl''BinTree\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e instance GenericSemiringStructure (BinTreeAlgebra n l) (BinTree n l) (BinTreeMapFs n l) where\n   freeAlgebra = BinTreeAlgebra {..} where\n       binNode = BinNode\n       binLeaf = BinLeaf\n   pairAlgebra lvta1 lvta2 = BinTreeAlgebra {..} where\n       binNode a (l1, l2) (r1, r2) = (binNode1 a l1 r1, binNode2 a l2 r2)\n       binLeaf a                   = (binLeaf1 a, binLeaf2 a)\n       (binNode1, binLeaf1) = let BinTreeAlgebra {..} = lvta1 in (binNode, binLeaf)\n       (binNode2, binLeaf2) = let BinTreeAlgebra {..} = lvta2 in (binNode, binLeaf)\n   makeAlgebra (CommutativeMonoid {..}) lvta frec fsingle = BinTreeAlgebra {..} where  \n       binNode a l r = foldr oplus identity [fsingle (binNode' a l' r') | l' \u003c- frec l, r' \u003c- frec r]\n       binLeaf a     = fsingle (binLeaf' a)\n       (binNode', binLeaf') = let BinTreeAlgebra {..} = lvta in (binNode, binLeaf)\n   foldingAlgebra op iop (BinTreeMapFs {..}) = BinTreeAlgebra {..} where\n       binNode a l r = binNodeF a `op` l `op` r\n       binLeaf a     = binLeafF a\n   hom (BinTreeAlgebra {..}) = h where\n       h (BinNode a l r) = binNode a (h l) (h r)\n       h (BinLeaf a)     = binLeaf a\n \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Util.GenericSemiringStructureTemplate",
           "name": "genInstanceDecl",
           "package": "GTALib",
@@ -4557,6 +4938,7 @@
         "index": {
           "description": "This function generates an instance of GenericSemiringStructure for given data structure For example given data structure defined below data BinTree BinNode BinTree BinTree BinLeaf the following record is generated by genInstanceDecl BinTree instance GenericSemiringStructure BinTreeAlgebra BinTree BinTreeMapFs where freeAlgebra BinTreeAlgebra where binNode BinNode binLeaf BinLeaf pairAlgebra lvta1 lvta2 BinTreeAlgebra where binNode l1 l2 r1 r2 binNode1 l1 r1 binNode2 l2 r2 binLeaf binLeaf1 binLeaf2 binNode1 binLeaf1 let BinTreeAlgebra lvta1 in binNode binLeaf binNode2 binLeaf2 let BinTreeAlgebra lvta2 in binNode binLeaf makeAlgebra CommutativeMonoid lvta frec fsingle BinTreeAlgebra where binNode foldr oplus identity fsingle binNode frec frec binLeaf fsingle binLeaf binNode binLeaf let BinTreeAlgebra lvta in binNode binLeaf foldingAlgebra op iop BinTreeMapFs BinTreeAlgebra where binNode binNodeF op op binLeaf binLeafF hom BinTreeAlgebra where BinNode binNode BinLeaf binLeaf",
           "hierarchy": "GTA Util GenericSemiringStructureTemplate",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Util.GenericSemiringStructureTemplate",
           "name": "genInstanceDecl",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4573,6 +4955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a definition of a record holding functions to be mapped to values in a given data structure. For example, given a data structure defined below,\n\u003c/p\u003e\u003cpre\u003e data BinTree n l = BinNode n (BinTree n l) (BinTree n l)\n                  | BinLeaf l\n\u003c/pre\u003e\u003cp\u003ethe following record is generated by \u003ccode\u003egenMapFunctionsDecl ''BinTree\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e data BinTreeMapFs n l b' = BinTreeMapFs {\n       binNodeF :: n -\u003e b',\n       binLeafF :: l -\u003e b'\n     }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Util.GenericSemiringStructureTemplate",
           "name": "genMapFunctionsDecl",
           "package": "GTALib",
@@ -4583,6 +4966,7 @@
         "index": {
           "description": "This function generates definition of record holding functions to be mapped to values in given data structure For example given data structure defined below data BinTree BinNode BinTree BinTree BinLeaf the following record is generated by genMapFunctionsDecl BinTree data BinTreeMapFs BinTreeMapFs binNodeF binLeafF",
           "hierarchy": "GTA Util GenericSemiringStructureTemplate",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Util.GenericSemiringStructureTemplate",
           "name": "genMapFunctionsDecl",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4599,6 +4983,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopied from \u003ca\u003ehttp://haskell.1045720.n5.nabble.com/Deriving-Read-with-Template-Haskell-Re-automatic-instances-for-pretty-printing-and-parsing-td3197647.html\u003c/a\u003e, and modified a bit.\n\u003c/p\u003e\u003cp\u003eObserving a structure of a datatype in a uniform way no matter\n   whether it was defined in infix, prefix or record form.\n\u003c/p\u003e\u003cp\u003eThis code is based on the \u003ccode\u003eDerive\u003c/code\u003e module from the SYB3 code distribution,\n   (C) 2005, Ralf Laemmel and Simon Peyton Jones, see\n   \u003ca\u003ehttp://homepages.cwi.nl/~ralf/syb3/code.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Util.TypeInfo",
           "name": "TypeInfo",
           "package": "GTALib",
@@ -4608,6 +4993,7 @@
         "index": {
           "description": "Copied from http haskell.1045720.n5.nabble.com Deriving-Read-with-Template-Haskell-Re-automatic-instances-for-pretty-printing-and-parsing-td3197647.html and modified bit Observing structure of datatype in uniform way no matter whether it was defined in infix prefix or record form This code is based on the Derive module from the SYB3 code distribution Ralf Laemmel and Simon Peyton Jones see http homepages.cwi.nl ralf syb3 code.html",
           "hierarchy": "GTA Util TypeInfo",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Util.TypeInfo",
           "name": "TypeInfo",
           "package": "GTALib",
@@ -4622,6 +5008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first part is the name, the second - a list of type parameters,\n   the third - a list of constructors. For each constructor we have a name\n   and a list describing constructor fields.\n\u003c/p\u003e\u003cp\u003etype TypeInfo = (Name, [Name], [(Name, [(Maybe Name, Type)])])\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Util.TypeInfo",
           "name": "TypeInfo",
           "package": "GTALib",
@@ -4631,6 +5018,7 @@
         "index": {
           "description": "The first part is the name the second list of type parameters the third list of constructors For each constructor we have name and list describing constructor fields type TypeInfo Name Name Name Maybe Name Type",
           "hierarchy": "GTA Util TypeInfo",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Util.TypeInfo",
           "name": "TypeInfo",
           "package": "GTALib",
@@ -4645,6 +5033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003ccode\u003e\u003ca\u003enameBase\u003c/a\u003e\u003c/code\u003e to the name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Util.TypeInfo",
           "name": "simpleName",
           "package": "GTALib",
@@ -4655,6 +5044,7 @@
         "index": {
           "description": "Apply nameBase to the name",
           "hierarchy": "GTA Util TypeInfo",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Util.TypeInfo",
           "name": "simpleName",
           "normalized": "Name-\u003eName",
@@ -4671,6 +5061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns type information of a given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:46 UTC 2014",
           "module": "GTA.Util.TypeInfo",
           "name": "typeInfo",
           "package": "GTALib",
@@ -4681,6 +5072,7 @@
         "index": {
           "description": "Returns type information of given type",
           "hierarchy": "GTA Util TypeInfo",
+          "indexed": "2014-03-11T16:42:46",
           "module": "GTA.Util.TypeInfo",
           "name": "typeInfo",
           "normalized": "Name-\u003eQ TypeInfo",

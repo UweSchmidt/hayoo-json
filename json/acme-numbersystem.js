@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-numbersystem"
+        "phrase": "acme-numbersystem",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:25 UTC 2014",
           "module": "Acme.NumberSystem",
           "name": "NumberSystem",
           "package": "acme-numbersystem",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Acme NumberSystem",
+          "indexed": "2014-03-11T17:07:25",
           "module": "Acme.NumberSystem",
           "name": "NumberSystem",
           "package": "acme-numbersystem",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:25 UTC 2014",
           "module": "Acme.NumberSystem",
           "name": "Add",
           "package": "acme-numbersystem",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Acme NumberSystem",
+          "indexed": "2014-03-11T17:07:25",
           "module": "Acme.NumberSystem",
           "name": "Add",
           "package": "acme-numbersystem",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:25 UTC 2014",
           "module": "Acme.NumberSystem",
           "name": "Less",
           "package": "acme-numbersystem",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Acme NumberSystem",
+          "indexed": "2014-03-11T17:07:25",
           "module": "Acme.NumberSystem",
           "name": "Less",
           "package": "acme-numbersystem",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:25 UTC 2014",
           "module": "Acme.NumberSystem",
           "name": "Sub",
           "package": "acme-numbersystem",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Acme NumberSystem",
+          "indexed": "2014-03-11T17:07:25",
           "module": "Acme.NumberSystem",
           "name": "Sub",
           "package": "acme-numbersystem",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the less than relation for numbers up to a number using Template Haskell.\n | Also define subtraction.\n | E.g. numberSystem 100\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:25 UTC 2014",
           "module": "Acme.NumberSystem",
           "name": "numberSystem",
           "package": "acme-numbersystem",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Define the less than relation for numbers up to number using Template Haskell Also define subtraction E.g numberSystem",
           "hierarchy": "Acme NumberSystem",
+          "indexed": "2014-03-11T17:07:25",
           "module": "Acme.NumberSystem",
           "name": "numberSystem",
           "normalized": "Integer-\u003eQ[Dec]",

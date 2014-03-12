@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "adict"
+        "phrase": "adict",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlternative cost representation with individual cost components\n divided into groups with respect to operation weights.  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "CostDiv",
           "package": "adict",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Alternative cost representation with individual cost components divided into groups with respect to operation weights",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "CostDiv",
           "package": "adict",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost function with edit operations divided with respect to weight.\n Two operations of the same type and with the same weight should be\n assigned to the same group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "CostDiv",
           "package": "adict",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Cost function with edit operations divided with respect to weight Two operations of the same type and with the same weight should be assigned to the same group",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "CostDiv",
           "package": "adict",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Group describes a weight of some edit operation in which a character\n satistying the predicate is involved.  This data structure is meant to\n collect all characters which determine the same operation weight.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "Group",
           "package": "adict",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Group describes weight of some edit operation in which character satistying the predicate is involved This data structure is meant to collect all characters which determine the same operation weight",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "Group",
           "package": "adict",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstition description for some unspecified source character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "Sub",
           "package": "adict",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Substition description for some unspecified source character",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "Sub",
           "package": "adict",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA susbtitution map which covers all substition operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "SubMap",
           "package": "adict",
@@ -120,6 +129,7 @@
         "index": {
           "description": "susbtitution map which covers all substition operations",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "SubMap",
           "package": "adict",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "CostDiv",
           "package": "adict",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "CostDiv",
           "package": "adict",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "Filter",
           "package": "adict",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "Filter",
           "package": "adict",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault cost with all edit operations having the unit weight.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "costDefault",
           "package": "adict",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Default cost with all edit operations having the unit weight",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "costDefault",
           "package": "adict",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost of the character deletion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "delete",
           "package": "adict",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Cost of the character deletion",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "delete",
           "normalized": "a-\u003eWeight",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost of the character insertion divided into groups with\n respect to operation weights.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "insert",
           "package": "adict",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Cost of the character insertion divided into groups with respect to operation weights",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "insert",
           "normalized": "[Group a]",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the substitution descrition from the list of (character \u003ccode\u003ey\u003c/code\u003e,\n substition weight from \u003ccode\u003ex\u003c/code\u003e to \u003ccode\u003ey\u003c/code\u003e) pairs for some unspecified character\n \u003ccode\u003ex\u003c/code\u003e.  Characters will be grouped with respect to weight.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "mkSub",
           "package": "adict",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Construct the substitution descrition from the list of character substition weight from to pairs for some unspecified character Characters will be grouped with respect to weight",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "mkSub",
           "normalized": "[(a,Weight)]-\u003eSub a",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the substitution map from the list of (\u003ccode\u003ex\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e, weight of\n \u003ccode\u003ex -\u003e y\u003c/code\u003e substitution) tuples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "mkSubMap",
           "package": "adict",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Construct the substitution map from the list of weight of substitution tuples",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "mkSubMap",
           "normalized": "[(a,a,Weight)]-\u003eSubMap a",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost of each edit operation is multiplied by the position modifier.\n For example, the cost of \u003ccode\u003e'a'\u003c/code\u003e character deletion on position \u003ccode\u003e3\u003c/code\u003e\n is computed as \u003ccode\u003edelete 'a' * posMod 3\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "posMod",
           "package": "adict",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Cost of each edit operation is multiplied by the position modifier For example the cost of character deletion on position is computed as delete posMod",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "posMod",
           "normalized": "Pos-\u003eWeight",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe predicate determines which characters belong to the group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "predic",
           "package": "adict",
@@ -340,6 +367,7 @@
         "index": {
           "description": "The predicate determines which characters belong to the group",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "predic",
           "normalized": "a-\u003eBool",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitution description for the given character in the substitution map.\n In other words, the function returns information how the input character can\n be replaced with other characters from the alphabet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "subOn",
           "package": "adict",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Substitution description for the given character in the substitution map In other words the function returns information how the input character can be replaced with other characters from the alphabet",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "subOn",
           "normalized": "a-\u003eSubMap a-\u003eSub a",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost of the character substitution.  For each source character\n there can be a different list of groups involved. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "subst",
           "package": "adict",
@@ -391,6 +422,7 @@
         "index": {
           "description": "Cost of the character substitution For each source character there can be different list of groups involved",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "subst",
           "normalized": "a-\u003e[Group a]",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform CostDiv to plain Cost function using the default weight value\n for all operations unspecified in the input cost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "toCost",
           "package": "adict",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Transform CostDiv to plain Cost function using the default weight value for all operations unspecified in the input cost",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "toCost",
           "normalized": "Double-\u003eCostDiv a-\u003eCost a",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform CostDiv to plain Cost function with default weight value\n set to \u003ccode\u003e+Infinity\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "toCostInf",
           "package": "adict",
@@ -442,6 +477,7 @@
         "index": {
           "description": "Transform CostDiv to plain Cost function with default weight value set to Infinity",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "toCostInf",
           "normalized": "CostDiv a-\u003eCost a",
@@ -458,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the list of groups (each group with unique weight) from the\n substitution description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "unSub",
           "package": "adict",
@@ -468,6 +505,7 @@
         "index": {
           "description": "Extract the list of groups each group with unique weight from the substitution description",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "unSub",
           "normalized": "Sub a-\u003e[Group a]",
@@ -484,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeight of the edit operation in which a character satisfying the\n predicate is involved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.CostDiv",
           "name": "weight",
           "package": "adict",
@@ -494,6 +533,7 @@
         "index": {
           "description": "Weight of the edit operation in which character satisfying the predicate is involved",
           "hierarchy": "NLP Adict CostDiv",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.CostDiv",
           "name": "weight",
           "package": "adict",
@@ -506,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.Dist",
           "name": "Dist",
           "package": "adict",
@@ -514,6 +555,7 @@
         },
         "index": {
           "hierarchy": "NLP Adict Dist",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.Dist",
           "name": "Dist",
           "package": "adict",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestricted generalized edit distance between two words with\n given cost function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict.Dist",
           "name": "editDist",
           "package": "adict",
@@ -538,6 +581,7 @@
         "index": {
           "description": "Restricted generalized edit distance between two words with given cost function",
           "hierarchy": "NLP Adict Dist",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict.Dist",
           "name": "editDist",
           "normalized": "Cost a-\u003eWord a-\u003eWord a-\u003eWeight",
@@ -554,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module re-exports main data types and functions from the adict library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "Adict",
           "package": "adict",
@@ -563,6 +608,7 @@
         "index": {
           "description": "This module re-exports main data types and functions from the adict library",
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "Adict",
           "package": "adict",
@@ -577,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost represents a cost (or weight) of a symbol insertion, deletion or\n substitution.  It can depend on edit operation position and on symbol\n values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "Cost",
           "package": "adict",
@@ -586,6 +633,7 @@
         "index": {
           "description": "Cost represents cost or weight of symbol insertion deletion or substitution It can depend on edit operation position and on symbol values",
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "Cost",
           "package": "adict",
@@ -600,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition in a sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "Pos",
           "package": "adict",
@@ -609,6 +658,7 @@
         "index": {
           "description": "Position in sentence",
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "Pos",
           "package": "adict",
@@ -623,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost of edit operation.  It has to be a non-negative value!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "Weight",
           "package": "adict",
@@ -632,6 +683,7 @@
         "index": {
           "description": "Cost of edit operation It has to be non-negative value",
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "Weight",
           "package": "adict",
@@ -646,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA word parametrized with character type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "Word",
           "package": "adict",
@@ -655,6 +708,7 @@
         "index": {
           "description": "word parametrized with character type",
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "Word",
           "package": "adict",
@@ -668,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "Cost",
           "package": "adict",
@@ -677,6 +732,7 @@
         },
         "index": {
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "Cost",
           "package": "adict",
@@ -691,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all words within a list with restricted generalized edit distance\n from x lower or equall to k.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "bruteSearch",
           "package": "adict",
@@ -701,6 +758,7 @@
         "index": {
           "description": "Find all words within list with restricted generalized edit distance from lower or equall to",
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "bruteSearch",
           "normalized": "Cost a-\u003eDouble-\u003eWord a-\u003e[(Word a,b)]-\u003e[(Word a,b,Double)]",
@@ -717,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple cost function: all edit operations cost 1 unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "costDefault",
           "package": "adict",
@@ -727,6 +786,7 @@
         "index": {
           "description": "Simple cost function all edit operations cost unit",
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "costDefault",
           "package": "adict",
@@ -740,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "delete",
           "package": "adict",
@@ -749,6 +810,7 @@
         },
         "index": {
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "delete",
           "normalized": "Pos-\u003ea-\u003eWeight",
@@ -764,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all words within a DAWG with restricted generalized edit distance\n lower than or equal to a given threshold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "findAll",
           "package": "adict",
@@ -773,6 +836,7 @@
         "index": {
           "description": "Find all words within DAWG with restricted generalized edit distance lower than or equal to given threshold",
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "findAll",
           "normalized": "Cost a-\u003eDouble-\u003eWord a-\u003eDAWG a b c-\u003e[([a],c,Double)]",
@@ -789,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe could check, if CostDiv satisfies basic properties.  On the other\n hand, we do not do this for plain Cost function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "findNearest",
           "package": "adict",
@@ -798,6 +863,7 @@
         "index": {
           "description": "We could check if CostDiv satisfies basic properties On the other hand we do not do this for plain Cost function",
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "findNearest",
           "normalized": "CostDiv a-\u003eDouble-\u003eWord a-\u003eDAWG a b c-\u003eMaybe([a],c,Double)",
@@ -813,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "insert",
           "package": "adict",
@@ -822,6 +889,7 @@
         },
         "index": {
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "insert",
           "normalized": "Pos-\u003ea-\u003eWeight",
@@ -836,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:17 UTC 2014",
           "module": "NLP.Adict",
           "name": "subst",
           "package": "adict",
@@ -845,6 +914,7 @@
         },
         "index": {
           "hierarchy": "NLP Adict",
+          "indexed": "2014-03-11T17:08:17",
           "module": "NLP.Adict",
           "name": "subst",
           "normalized": "Pos-\u003ea-\u003ea-\u003eWeight",

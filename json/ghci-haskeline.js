@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghci-haskeline"
+        "phrase": "ghci-haskeline",
+        "type": "phrase"
       },
       "type": "context"
     }

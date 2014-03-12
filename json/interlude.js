@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "interlude"
+        "phrase": "interlude",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEmpty module to trick Cabal into installing\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:58:27 UTC 2014",
           "module": "Interlude",
           "name": "Interlude",
           "package": "interlude",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Empty module to trick Cabal into installing",
           "hierarchy": "Interlude",
+          "indexed": "2014-03-11T18:58:27",
           "module": "Interlude",
           "name": "Interlude",
           "package": "interlude",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:27 UTC 2014",
           "module": "Interlude",
           "name": "report_bug",
           "package": "interlude",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Interlude",
+          "indexed": "2014-03-11T18:58:27",
           "module": "Interlude",
           "name": "report_bug",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003ea",

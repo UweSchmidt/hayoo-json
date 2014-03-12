@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "time-w3c"
+        "phrase": "time-w3c",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormat W3C Date and Time strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:57 UTC 2014",
           "module": "Data.Time.W3C.Format",
           "name": "Format",
           "package": "time-w3c",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Format W3C Date and Time strings",
           "hierarchy": "Data Time W3C Format",
+          "indexed": "2014-03-11T20:22:57",
           "module": "Data.Time.W3C.Format",
           "name": "Format",
           "package": "time-w3c",
@@ -68,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eW3C Date and Time parser combinator for \u003ca\u003eText.Parsec\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:57 UTC 2014",
           "module": "Data.Time.W3C.Parser.Parsec",
           "name": "Parsec",
           "package": "time-w3c",
@@ -77,6 +80,7 @@
         "index": {
           "description": "W3C Date and Time parser combinator for Text.Parsec",
           "hierarchy": "Data Time W3C Parser Parsec",
+          "indexed": "2014-03-11T20:22:57",
           "module": "Data.Time.W3C.Parser.Parsec",
           "name": "Parsec",
           "package": "time-w3c",
@@ -91,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a parser combinator for \u003ca\u003eText.Parsec\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:57 UTC 2014",
           "module": "Data.Time.W3C.Parser.Parsec",
           "name": "w3cDateTime",
           "package": "time-w3c",
@@ -101,6 +106,7 @@
         "index": {
           "description": "This is parser combinator for Text.Parsec",
           "hierarchy": "Data Time W3C Parser Parsec",
+          "indexed": "2014-03-11T20:22:57",
           "module": "Data.Time.W3C.Parser.Parsec",
           "name": "w3cDateTime",
           "package": "time-w3c",
@@ -115,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse W3C Date and Time string.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:57 UTC 2014",
           "module": "Data.Time.W3C.Parser",
           "name": "Parser",
           "package": "time-w3c",
@@ -124,6 +131,7 @@
         "index": {
           "description": "Parse W3C Date and Time string",
           "hierarchy": "Data Time W3C Parser",
+          "indexed": "2014-03-11T20:22:57",
           "module": "Data.Time.W3C.Parser",
           "name": "Parser",
           "package": "time-w3c",
@@ -164,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types defined by this package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:57 UTC 2014",
           "module": "Data.Time.W3C.Types",
           "name": "Types",
           "package": "time-w3c",
@@ -173,6 +182,7 @@
         "index": {
           "description": "Data types defined by this package",
           "hierarchy": "Data Time W3C Types",
+          "indexed": "2014-03-11T20:22:57",
           "module": "Data.Time.W3C.Types",
           "name": "Types",
           "package": "time-w3c",
@@ -187,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eW3CDateTime\u003c/a\u003e\u003c/code\u003e represents a W3C Date and Time format.\n\u003c/p\u003e\u003cp\u003eThe field \u003ccode\u003e\u003ca\u003ew3cYear\u003c/a\u003e\u003c/code\u003e is mandatory while other fields are\n optional. But you should be careful about combinations of such\n optional fields. No combinations are allowed except for the\n following list:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e YYYY\n\u003c/li\u003e\u003cli\u003e YYYY-MM\n\u003c/li\u003e\u003cli\u003e YYYY-MM-DD\n\u003c/li\u003e\u003cli\u003e YYYY-MM-DDThh:mmTZD\n\u003c/li\u003e\u003cli\u003e YYYY-MM-DDThh:mm:ss.sTZD\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis data type is \u003cem\u003epartially ordered\u003c/em\u003e so we can't make it an\n instance of Ord (e.g. \u003ccode\u003e\"2010\"\u003c/code\u003e and \u003ccode\u003e\"2010-01\"\u003c/code\u003e can't be\n compared).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:57 UTC 2014",
           "module": "Data.Time.W3C.Types",
           "name": "W3CDateTime",
           "package": "time-w3c",
@@ -196,6 +207,7 @@
         "index": {
           "description": "W3CDateTime represents W3C Date and Time format The field w3cYear is mandatory while other fields are optional But you should be careful about combinations of such optional fields No combinations are allowed except for the following list YYYY YYYY-MM YYYY-MM-DD YYYY-MM-DDThh mmTZD YYYY-MM-DDThh mm ss.sTZD This data type is partially ordered so we can make it an instance of Ord e.g and can be compared",
           "hierarchy": "Data Time W3C Types",
+          "indexed": "2014-03-11T20:22:57",
           "module": "Data.Time.W3C.Types",
           "name": "W3CDateTime",
           "package": "time-w3c",
@@ -394,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package provides functionalities to parse and format W3C\n Date and Time. The package can also be used to convert it from/to\n \u003ccode\u003eData.Time.Calendar.Day\u003c/code\u003e and \u003ccode\u003eData.Time.LocalTime.ZonedTime\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee: \u003ca\u003ehttp://www.w3.org/TR/NOTE-datetime\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:57 UTC 2014",
           "module": "Data.Time.W3C",
           "name": "W3C",
           "package": "time-w3c",
@@ -403,6 +416,7 @@
         "index": {
           "description": "This package provides functionalities to parse and format W3C Date and Time The package can also be used to convert it from to Data.Time.Calendar.Day and Data.Time.LocalTime.ZonedTime See http www.w3.org TR NOTE-datetime",
           "hierarchy": "Data Time W3C",
+          "indexed": "2014-03-11T20:22:57",
           "module": "Data.Time.W3C",
           "name": "W3C",
           "package": "time-w3c",
@@ -416,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eW3CDateTime\u003c/a\u003e\u003c/code\u003e represents a W3C Date and Time format.\n\u003c/p\u003e\u003cp\u003eThe field \u003ccode\u003e\u003ca\u003ew3cYear\u003c/a\u003e\u003c/code\u003e is mandatory while other fields are\n optional. But you should be careful about combinations of such\n optional fields. No combinations are allowed except for the\n following list:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e YYYY\n\u003c/li\u003e\u003cli\u003e YYYY-MM\n\u003c/li\u003e\u003cli\u003e YYYY-MM-DD\n\u003c/li\u003e\u003cli\u003e YYYY-MM-DDThh:mmTZD\n\u003c/li\u003e\u003cli\u003e YYYY-MM-DDThh:mm:ss.sTZD\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis data type is \u003cem\u003epartially ordered\u003c/em\u003e so we can't make it an\n instance of Ord (e.g. \u003ccode\u003e\"2010\"\u003c/code\u003e and \u003ccode\u003e\"2010-01\"\u003c/code\u003e can't be\n compared).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:57 UTC 2014",
           "module": "Data.Time.W3C",
           "name": "W3CDateTime",
           "package": "time-w3c",
@@ -425,6 +440,7 @@
         "index": {
           "description": "W3CDateTime represents W3C Date and Time format The field w3cYear is mandatory while other fields are optional But you should be careful about combinations of such optional fields No combinations are allowed except for the following list YYYY YYYY-MM YYYY-MM-DD YYYY-MM-DDThh mmTZD YYYY-MM-DDThh mm ss.sTZD This data type is partially ordered so we can make it an instance of Ord e.g and can be compared",
           "hierarchy": "Data Time W3C",
+          "indexed": "2014-03-11T20:22:57",
           "module": "Data.Time.W3C",
           "name": "W3CDateTime",
           "package": "time-w3c",

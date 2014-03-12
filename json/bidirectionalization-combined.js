@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bidirectionalization-combined"
+        "phrase": "bidirectionalization-combined",
+        "type": "phrase"
       },
       "type": "context"
     }

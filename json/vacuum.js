@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vacuum"
+        "phrase": "vacuum",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.ClosureType.V706",
           "name": "V706",
           "package": "vacuum",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum ClosureType V706",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.ClosureType.V706",
           "name": "V706",
           "package": "vacuum",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.ClosureType.V706",
           "name": "ClosureType",
           "package": "vacuum",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum ClosureType V706",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.ClosureType.V706",
           "name": "ClosureType",
           "package": "vacuum",
@@ -1486,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports the different kind of closure types there\n are per GHC version.\n\u003c/p\u003e\u003cp\u003eNOTE: the \u003ccode\u003e\u003ca\u003eClosureType\u003c/a\u003e\u003c/code\u003e datatype is automatically generated, based\n on the version of GHC, and the proper one is included for you.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.ClosureType",
           "name": "ClosureType",
           "package": "vacuum",
@@ -1495,6 +1500,7 @@
         "index": {
           "description": "This module exports the different kind of closure types there are per GHC version NOTE the ClosureType datatype is automatically generated based on the version of GHC and the proper one is included for you",
           "hierarchy": "GHC Vacuum ClosureType",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.ClosureType",
           "name": "ClosureType",
           "package": "vacuum",
@@ -1508,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.ClosureType",
           "name": "ClosureType",
           "package": "vacuum",
@@ -1516,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum ClosureType",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.ClosureType",
           "name": "ClosureType",
           "package": "vacuum",
@@ -1529,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.ClosureType",
           "name": "isCon",
           "package": "vacuum",
@@ -1538,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum ClosureType",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.ClosureType",
           "name": "isCon",
           "normalized": "ClosureType-\u003eBool",
@@ -1553,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.ClosureType",
           "name": "isFun",
           "package": "vacuum",
@@ -1562,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum ClosureType",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.ClosureType",
           "name": "isFun",
           "normalized": "ClosureType-\u003eBool",
@@ -1577,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.ClosureType",
           "name": "isThunk",
           "package": "vacuum",
@@ -1586,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum ClosureType",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.ClosureType",
           "name": "isThunk",
           "normalized": "ClosureType-\u003eBool",
@@ -1602,6 +1616,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal vacuum module. You probably shouldn't be here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "Internal",
           "package": "vacuum",
@@ -1611,6 +1626,7 @@
         "index": {
           "description": "Internal vacuum module You probably shouldn be here",
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "Internal",
           "package": "vacuum",
@@ -1624,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "HValue",
           "package": "vacuum",
@@ -1632,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "HValue",
           "package": "vacuum",
@@ -1645,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "HalfWord",
           "package": "vacuum",
@@ -1653,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "HalfWord",
           "package": "vacuum",
@@ -1666,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "ItblCode",
           "package": "vacuum",
@@ -1674,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "ItblCode",
           "package": "vacuum",
@@ -1687,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "S",
           "package": "vacuum",
@@ -1695,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "S",
           "package": "vacuum",
@@ -1707,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "StgInfoTable",
           "package": "vacuum",
@@ -1715,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "StgInfoTable",
           "package": "vacuum",
@@ -1728,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "S",
           "package": "vacuum",
@@ -1737,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "S",
           "package": "vacuum",
@@ -1749,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "StgInfoTable",
           "package": "vacuum",
@@ -1758,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "StgInfoTable",
           "package": "vacuum",
@@ -1771,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "code",
           "package": "vacuum",
@@ -1780,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "code",
           "normalized": "[ItblCode]",
@@ -1794,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "dataConInfoPtrToNames",
           "package": "vacuum",
@@ -1803,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "dataConInfoPtrToNames",
           "normalized": "Ptr()-\u003eIO(String,String,String)",
@@ -1818,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "get",
           "package": "vacuum",
@@ -1827,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "get",
           "package": "vacuum",
@@ -1839,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "gets",
           "package": "vacuum",
@@ -1848,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "gets",
           "normalized": "(a-\u003eb)-\u003eS a b",
@@ -1863,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is currently always True since\n i'm not sure how to get at the CPP define\n \"\" (or equiv) to tell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "ghciTablesNextToCode",
           "package": "vacuum",
@@ -1873,6 +1912,7 @@
         "index": {
           "description": "This is currently always True since not sure how to get at the CPP define or equiv to tell",
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "ghciTablesNextToCode",
           "package": "vacuum",
@@ -1886,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "hALF_WORD_SIZE",
           "package": "vacuum",
@@ -1895,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "hALF_WORD_SIZE",
           "package": "vacuum",
@@ -1908,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "io",
           "package": "vacuum",
@@ -1917,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "io",
           "normalized": "IO a-\u003eS b a",
@@ -1931,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "modify",
           "package": "vacuum",
@@ -1940,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eS a()",
@@ -1954,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "nptrs",
           "package": "vacuum",
@@ -1963,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "nptrs",
           "package": "vacuum",
@@ -1975,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "ptrs",
           "package": "vacuum",
@@ -1984,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "ptrs",
           "package": "vacuum",
@@ -1996,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "runS",
           "package": "vacuum",
@@ -2005,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "runS",
           "normalized": "S a b-\u003ea-\u003eIO(b,a)",
@@ -2019,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "set",
           "package": "vacuum",
@@ -2028,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "set",
           "normalized": "a-\u003eS a()",
@@ -2042,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "srtlen",
           "package": "vacuum",
@@ -2051,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "srtlen",
           "package": "vacuum",
@@ -2063,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "tipe",
           "package": "vacuum",
@@ -2072,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "tipe",
           "package": "vacuum",
@@ -2084,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "unS",
           "package": "vacuum",
@@ -2093,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "unS",
           "normalized": "a b(c-\u003ed-\u003eIO e)-\u003ed-\u003eIO e",
@@ -2107,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Internal",
           "name": "wORD_SIZE",
           "package": "vacuum",
@@ -2116,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Internal",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Internal",
           "name": "wORD_SIZE",
           "package": "vacuum",
@@ -2129,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Pretty",
           "name": "Pretty",
           "package": "vacuum",
@@ -2137,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Pretty",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Pretty",
           "name": "Pretty",
           "package": "vacuum",
@@ -2151,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo assist in \"rendering\"\n  the graph to some source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Pretty",
           "name": "Draw",
           "package": "vacuum",
@@ -2160,6 +2225,7 @@
         "index": {
           "description": "To assist in rendering the graph to some source",
           "hierarchy": "GHC Vacuum Pretty",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Pretty",
           "name": "Draw",
           "package": "vacuum",
@@ -2173,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Pretty",
           "name": "G",
           "package": "vacuum",
@@ -2181,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Pretty",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Pretty",
           "name": "G",
           "package": "vacuum",
@@ -2193,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Pretty",
           "name": "ShowHNode",
           "package": "vacuum",
@@ -2201,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Pretty",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Pretty",
           "name": "ShowHNode",
           "package": "vacuum",
@@ -2605,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "Q",
           "package": "vacuum",
@@ -2613,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "Q",
           "package": "vacuum",
@@ -2625,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "Q",
           "package": "vacuum",
@@ -2633,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "Q",
           "package": "vacuum",
@@ -2645,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "Ref",
           "package": "vacuum",
@@ -2653,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "Ref",
           "package": "vacuum",
@@ -2666,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "(!)",
           "package": "vacuum",
@@ -2675,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "(!) !",
           "normalized": "Ref a-\u003eIO a",
@@ -2689,6 +2767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "(!=)",
           "package": "vacuum",
@@ -2698,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "(!=) !=",
           "normalized": "Ref a-\u003e(a-\u003e(a,b))-\u003eIO b",
@@ -2712,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "(.=)",
           "package": "vacuum",
@@ -2721,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "(.=) .=",
           "normalized": "Ref a-\u003ea-\u003eIO()",
@@ -2735,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "drainQ",
           "package": "vacuum",
@@ -2744,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "drainQ",
           "normalized": "Q a-\u003eIO[a]",
@@ -2758,6 +2842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "getQContents",
           "package": "vacuum",
@@ -2767,6 +2852,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "getQContents",
           "normalized": "Q a-\u003eIO[a]",
@@ -2782,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "isEmptyQ",
           "package": "vacuum",
@@ -2791,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "isEmptyQ",
           "normalized": "Q a-\u003eIO Bool",
@@ -2806,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "newQ",
           "package": "vacuum",
@@ -2815,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "newQ",
           "package": "vacuum",
@@ -2827,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "putQ",
           "package": "vacuum",
@@ -2836,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "putQ",
           "normalized": "Q a-\u003ea-\u003eIO()",
@@ -2850,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "ref",
           "package": "vacuum",
@@ -2859,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "ref",
           "normalized": "a-\u003eIO(Ref a)",
@@ -2873,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "takeQ",
           "package": "vacuum",
@@ -2882,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "takeQ",
           "normalized": "Q a-\u003eIO a",
@@ -2896,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "takeWhileQ",
           "package": "vacuum",
@@ -2905,6 +3002,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "takeWhileQ",
           "normalized": "(a-\u003eBool)-\u003eQ a-\u003eIO[a]",
@@ -2920,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Q",
           "name": "tryTakeQ",
           "package": "vacuum",
@@ -2929,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Q",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Q",
           "name": "tryTakeQ",
           "normalized": "Q a-\u003eIO(Maybe a)",
@@ -2944,6 +3044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "Types",
           "package": "vacuum",
@@ -2952,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "Types",
           "package": "vacuum",
@@ -2965,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "Box",
           "package": "vacuum",
@@ -2973,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "Box",
           "package": "vacuum",
@@ -2986,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "Closure",
           "package": "vacuum",
@@ -2994,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "Closure",
           "package": "vacuum",
@@ -3007,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "Env",
           "package": "vacuum",
@@ -3015,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "Env",
           "package": "vacuum",
@@ -3028,6 +3136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "HNode",
           "package": "vacuum",
@@ -3036,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "HNode",
           "package": "vacuum",
@@ -3049,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "HNodeId",
           "package": "vacuum",
@@ -3057,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "HNodeId",
           "package": "vacuum",
@@ -3070,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "InfoTab",
           "package": "vacuum",
@@ -3078,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "InfoTab",
           "package": "vacuum",
@@ -3091,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "Box",
           "package": "vacuum",
@@ -3100,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "Box",
           "package": "vacuum",
@@ -3159,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "Env",
           "package": "vacuum",
@@ -3168,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "Env",
           "package": "vacuum",
@@ -3300,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "emptyEnv",
           "package": "vacuum",
@@ -3309,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "emptyEnv",
           "package": "vacuum",
@@ -3347,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "fst3",
           "package": "vacuum",
@@ -3356,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -3370,6 +3492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "graph",
           "package": "vacuum",
@@ -3379,6 +3502,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "graph",
           "package": "vacuum",
@@ -3391,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "hvals",
           "package": "vacuum",
@@ -3400,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "hvals",
           "package": "vacuum",
@@ -3771,6 +3897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "seen",
           "package": "vacuum",
@@ -3780,6 +3907,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "seen",
           "normalized": "IntMap[(StableName HValue,HNodeId)]",
@@ -3794,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "snd3",
           "package": "vacuum",
@@ -3803,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -3841,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "trd3",
           "package": "vacuum",
@@ -3850,6 +3981,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "trd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -3864,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum.Types",
           "name": "uniq",
           "package": "vacuum",
@@ -3873,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum Types",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum.Types",
           "name": "uniq",
           "package": "vacuum",
@@ -3886,6 +4020,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003evacuum\u003c/code\u003e is a library that allows you to look at the graph\n representation of an arbitrary value or expression.\n\u003c/p\u003e\u003cp\u003eEvaluation in Haskell proceeds by \u003cem\u003egraph reduction\u003c/em\u003e, where values\n on the GHC heap are represented in a graph structure, and where\n nodes in the graph represent things like constructors or regular\n values. With this library, you can extract the graph representation\n of said heap values, and display them in meaningful ways to observe\n properties like sharing, or a birds eye view of how much memory\n you're using.\n\u003c/p\u003e\u003cp\u003eBy itself, this module and package is not very useful to\n the end user - it is meant to be consumed by those who\n would want to visualise the abstract graph output in some\n meaningful way, using graphviz or ubigraph, for example.\n\u003c/p\u003e\u003cp\u003eIf you are an end user who wants to visualize their data\n structures and nothing more, please look at the \u003ccode\u003evacuum-graphviz\u003c/code\u003e\n package, which exports convenient APIs for rendering the output\n graphs into pretty PNG/SVG files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "Vacuum",
           "package": "vacuum",
@@ -3895,6 +4030,7 @@
         "index": {
           "description": "vacuum is library that allows you to look at the graph representation of an arbitrary value or expression Evaluation in Haskell proceeds by graph reduction where values on the GHC heap are represented in graph structure and where nodes in the graph represent things like constructors or regular values With this library you can extract the graph representation of said heap values and display them in meaningful ways to observe properties like sharing or birds eye view of how much memory you re using By itself this module and package is not very useful to the end user it is meant to be consumed by those who would want to visualise the abstract graph output in some meaningful way using graphviz or ubigraph for example If you are an end user who wants to visualize their data structures and nothing more please look at the vacuum-graphviz package which exports convenient APIs for rendering the output graphs into pretty PNG SVG files",
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "Vacuum",
           "package": "vacuum",
@@ -3908,6 +4044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "Closure",
           "package": "vacuum",
@@ -3916,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "Closure",
           "package": "vacuum",
@@ -3930,6 +4068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo assist in \"rendering\"\n  the graph to some source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "Draw",
           "package": "vacuum",
@@ -3939,6 +4078,7 @@
         "index": {
           "description": "To assist in rendering the graph to some source",
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "Draw",
           "package": "vacuum",
@@ -3952,6 +4092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "G",
           "package": "vacuum",
@@ -3960,6 +4101,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "G",
           "package": "vacuum",
@@ -3972,6 +4114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "HNode",
           "package": "vacuum",
@@ -3980,6 +4123,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "HNode",
           "package": "vacuum",
@@ -3993,6 +4137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "HNodeId",
           "package": "vacuum",
@@ -4001,6 +4146,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "HNodeId",
           "package": "vacuum",
@@ -4014,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "HValue",
           "package": "vacuum",
@@ -4022,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "HValue",
           "package": "vacuum",
@@ -4035,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "InfoTab",
           "package": "vacuum",
@@ -4043,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "InfoTab",
           "package": "vacuum",
@@ -4056,6 +4206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "ShowHNode",
           "package": "vacuum",
@@ -4064,6 +4215,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "ShowHNode",
           "package": "vacuum",
@@ -4077,6 +4229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "closureType",
           "package": "vacuum",
@@ -4086,6 +4239,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "closureType",
           "normalized": "a-\u003eIO ClosureType",
@@ -4101,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "dump",
           "package": "vacuum",
@@ -4110,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "dump",
           "normalized": "a-\u003eIO(IntMap HNode)",
@@ -4124,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "dumpLazy",
           "package": "vacuum",
@@ -4133,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "dumpLazy",
           "normalized": "a-\u003eIO(IntMap HNode)",
@@ -4148,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "dumpTo",
           "package": "vacuum",
@@ -4157,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "dumpTo",
           "normalized": "Int-\u003ea-\u003eIO(IntMap HNode)",
@@ -4173,6 +4333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is in part borrowed from \u003ccode\u003eRtClosureInspect.getClosureData\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "getClosure",
           "package": "vacuum",
@@ -4183,6 +4344,7 @@
         "index": {
           "description": "This is in part borrowed from RtClosureInspect.getClosureData",
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "getClosure",
           "normalized": "a-\u003eIO Closure",
@@ -4198,6 +4360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "getInfoPtr",
           "package": "vacuum",
@@ -4207,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "getInfoPtr",
           "normalized": "a-\u003ePtr StgInfoTable",
@@ -4222,6 +4386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "getInfoTab",
           "package": "vacuum",
@@ -4231,6 +4396,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "getInfoTab",
           "normalized": "a-\u003eIO InfoTab",
@@ -4246,6 +4412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "peekInfoTab",
           "package": "vacuum",
@@ -4255,6 +4422,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "peekInfoTab",
           "normalized": "Ptr StgInfoTable-\u003eIO InfoTab",
@@ -4271,6 +4439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVacuums the entire reachable heap subgraph rooted at the \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "vacuum",
           "package": "vacuum",
@@ -4281,6 +4450,7 @@
         "index": {
           "description": "Vacuums the entire reachable heap subgraph rooted at the",
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "vacuum",
           "normalized": "a-\u003eIntMap HNode",
@@ -4295,6 +4465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "vacuumDebug",
           "package": "vacuum",
@@ -4304,6 +4475,7 @@
         },
         "index": {
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "vacuumDebug",
           "normalized": "a-\u003eIntMap[(StableName HValue,HNodeId)]",
@@ -4320,6 +4492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoesn't force anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "vacuumLazy",
           "package": "vacuum",
@@ -4330,6 +4503,7 @@
         "index": {
           "description": "Doesn force anything",
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "vacuumLazy",
           "normalized": "a-\u003eIntMap HNode",
@@ -4346,6 +4520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns nodes as it encounters them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "vacuumStream",
           "package": "vacuum",
@@ -4356,6 +4531,7 @@
         "index": {
           "description": "Returns nodes as it encounters them",
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "vacuumStream",
           "normalized": "a-\u003e[(HNodeId,HNode)]",
@@ -4372,6 +4548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop after a given depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:03 UTC 2014",
           "module": "GHC.Vacuum",
           "name": "vacuumTo",
           "package": "vacuum",
@@ -4382,6 +4559,7 @@
         "index": {
           "description": "Stop after given depth",
           "hierarchy": "GHC Vacuum",
+          "indexed": "2014-03-11T20:33:03",
           "module": "GHC.Vacuum",
           "name": "vacuumTo",
           "normalized": "Int-\u003ea-\u003eIntMap HNode",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bpann"
+        "phrase": "bpann",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic backpropagation neuronal network\n inspired by hnn\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "BPANN",
           "package": "bpann",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Basic backpropagation neuronal network inspired by hnn",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "BPANN",
           "package": "bpann",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "ALayer",
           "package": "bpann",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "ALayer",
           "package": "bpann",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "ANetwork",
           "package": "bpann",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "ANetwork",
           "package": "bpann",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einformation generated during a simple forward pass\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "ForwardPassInfo",
           "package": "bpann",
@@ -93,6 +100,7 @@
         "index": {
           "description": "information generated during simple forward pass",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "ForwardPassInfo",
           "package": "bpann",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "Network",
           "package": "bpann",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "Network",
           "package": "bpann",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe neuron\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "Neuron",
           "package": "bpann",
@@ -137,6 +148,7 @@
         "index": {
           "description": "the neuron",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "Neuron",
           "package": "bpann",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "NeuronCreator",
           "package": "bpann",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "NeuronCreator",
           "package": "bpann",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "PackedNeuron",
           "package": "bpann",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "PackedNeuron",
           "package": "bpann",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "FPInfo",
           "package": "bpann",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "FPInfo",
           "package": "bpann",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "Neuron",
           "package": "bpann",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "Neuron",
           "package": "bpann",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "backprop",
           "package": "bpann",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "backprop",
           "normalized": "Double-\u003eNetwork-\u003e([Double],[Double])-\u003eNetwork",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "biasNeuron",
           "package": "bpann",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "biasNeuron",
           "normalized": "Int-\u003eNeuron",
@@ -282,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculate the weigtet input of the neuron\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "calcNet",
           "package": "bpann",
@@ -292,6 +317,7 @@
         "index": {
           "description": "calculate the weigtet input of the neuron",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "calcNet",
           "normalized": "[Double]-\u003e[Double]-\u003eDouble",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculates the output of a network for a given input vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "calculate",
           "package": "bpann",
@@ -318,6 +345,7 @@
         "index": {
           "description": "calculates the output of network for given input vector",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "calculate",
           "normalized": "Network-\u003e[Double]-\u003e[Double]",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculates the output of a layer for a given input vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "calculate'",
           "package": "bpann",
@@ -343,6 +372,7 @@
         "index": {
           "description": "calculates the output of layer for given input vector",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "calculate'",
           "normalized": "[Double]-\u003eALayer a-\u003e[Double]",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "createLayer",
           "package": "bpann",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "createLayer",
           "normalized": "[PackedNeuron]-\u003eNeuronCreator-\u003eALayer()",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "createRandomNetwork",
           "package": "bpann",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "createRandomNetwork",
           "normalized": "Int-\u003e[Int]-\u003eNetwork",
@@ -405,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eactivation function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "fun",
           "package": "bpann",
@@ -415,6 +450,7 @@
         "index": {
           "description": "activation function",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "fun",
           "normalized": "Double-\u003eDouble",
@@ -430,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efirst derivation of the activation function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "fun'",
           "package": "bpann",
@@ -440,6 +477,7 @@
         "index": {
           "description": "first derivation of the activation function",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "fun'",
           "normalized": "Double-\u003eDouble",
@@ -455,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equadratic error for for multiple pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "globalQuadError",
           "package": "bpann",
@@ -465,6 +504,7 @@
         "index": {
           "description": "quadratic error for for multiple pairs",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "globalQuadError",
           "normalized": "Network-\u003e[([Double],[Double])]-\u003eDouble",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "icNcToPackedNeurons",
           "package": "bpann",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "icNcToPackedNeurons",
           "normalized": "Int-\u003eInt-\u003e[Double]-\u003e([PackedNeuron],[Double])",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esum of weighted inputs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "net",
           "package": "bpann",
@@ -515,6 +558,7 @@
         "index": {
           "description": "sum of weighted inputs",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "net",
           "package": "bpann",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutput\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "o",
           "package": "bpann",
@@ -538,6 +583,7 @@
         "index": {
           "description": "output",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "o",
           "package": "bpann",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "outputLayer",
           "package": "bpann",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "outputLayer",
           "normalized": "[PackedNeuron]-\u003eALayer()",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eactivation function is \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "outputNeuron",
           "package": "bpann",
@@ -585,6 +634,7 @@
         "index": {
           "description": "activation function is id",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "outputNeuron",
           "normalized": "PackedNeuron-\u003eNeuron",
@@ -600,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "packNetwork",
           "package": "bpann",
@@ -609,6 +660,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "packNetwork",
           "normalized": "Network-\u003e[[PackedNeuron]]",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate forward pass info for a network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "passForward",
           "package": "bpann",
@@ -635,6 +688,7 @@
         "index": {
           "description": "generate forward pass info for network",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "passForward",
           "normalized": "Network-\u003e[Double]-\u003eANetwork ForwardPassInfo",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate forward pass info for a layer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "passForward'",
           "package": "bpann",
@@ -661,6 +716,7 @@
         "index": {
           "description": "generate forward pass info for layer",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "passForward'",
           "normalized": "ALayer a-\u003e[Double]-\u003eALayer ForwardPassInfo",
@@ -677,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate forward pass info for a neuron\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "passForward''",
           "package": "bpann",
@@ -687,6 +744,7 @@
         "index": {
           "description": "generate forward pass info for neuron",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "passForward''",
           "normalized": "Neuron-\u003e[Double]-\u003eForwardPassInfo",
@@ -703,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equadratic error for a single vector pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "quadErrorNet",
           "package": "bpann",
@@ -713,6 +772,7 @@
         "index": {
           "description": "quadratic error for single vector pair",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "quadErrorNet",
           "normalized": "Network-\u003e([Double],[Double])-\u003eDouble",
@@ -729,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1/(1+e^(-x))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "sigmoid",
           "package": "bpann",
@@ -738,6 +799,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "sigmoid",
           "normalized": "Double-\u003eDouble",
@@ -753,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efirst derivation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "sigmoid'",
           "package": "bpann",
@@ -763,6 +826,7 @@
         "index": {
           "description": "first derivation",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "sigmoid'",
           "normalized": "Double-\u003eDouble",
@@ -777,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "sigmoidLayer",
           "package": "bpann",
@@ -786,6 +851,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "sigmoidLayer",
           "normalized": "[PackedNeuron]-\u003eALayer()",
@@ -801,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "sigmoidNeuron",
           "package": "bpann",
@@ -810,6 +877,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "sigmoidNeuron",
           "normalized": "PackedNeuron-\u003eNeuron",
@@ -826,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etrains a network with a set of vector pairs until a the \u003ccode\u003e\u003ca\u003eglobalQuadError\u003c/a\u003e\u003c/code\u003e is smaller than epsilon\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "train",
           "package": "bpann",
@@ -835,6 +904,7 @@
         "index": {
           "description": "trains network with set of vector pairs until the globalQuadError is smaller than epsilon",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "train",
           "normalized": "Double-\u003eDouble-\u003eNetwork-\u003e[([Double],[Double])]-\u003eNetwork",
@@ -850,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproduces an indefinite sequence of networks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "trainAlot",
           "package": "bpann",
@@ -859,6 +930,7 @@
         "index": {
           "description": "produces an indefinite sequence of networks",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "trainAlot",
           "normalized": "Double-\u003eNetwork-\u003e[([Double],[Double])]-\u003e[Network]",
@@ -874,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "unpackNetwork",
           "package": "bpann",
@@ -883,6 +956,7 @@
         },
         "index": {
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "unpackNetwork",
           "normalized": "[[PackedNeuron]]-\u003eNetwork",
@@ -899,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates the weigts for an entire network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "weightUpdate",
           "package": "bpann",
@@ -908,6 +983,7 @@
         "index": {
           "description": "updates the weigts for an entire network",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "weightUpdate",
           "normalized": "Double-\u003eANetwork ForwardPassInfo-\u003e[Double]-\u003eNetwork",
@@ -924,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates the weigts for a layer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "weightUpdate'",
           "package": "bpann",
@@ -934,6 +1011,7 @@
         "index": {
           "description": "updates the weigts for layer",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "weightUpdate'",
           "normalized": "Double-\u003eALayer ForwardPassInfo-\u003e(Network,[Double])-\u003e(Network,[Double])",
@@ -950,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdates the weigts for a neuron\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "weightUpdate''",
           "package": "bpann",
@@ -960,6 +1039,7 @@
         "index": {
           "description": "updates the weigts for neuron",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "weightUpdate''",
           "normalized": "Double-\u003e(Neuron,ForwardPassInfo)-\u003eDouble-\u003e(Neuron,Double)",
@@ -976,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einput weights\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "ws",
           "package": "bpann",
@@ -986,6 +1067,7 @@
         "index": {
           "description": "input weights",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "ws",
           "normalized": "[Double]",
@@ -1001,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einputs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:18 UTC 2014",
           "module": "AI.BPANN",
           "name": "xs",
           "package": "bpann",
@@ -1011,6 +1094,7 @@
         "index": {
           "description": "inputs",
           "hierarchy": "AI BPANN",
+          "indexed": "2014-03-11T17:25:18",
           "module": "AI.BPANN",
           "name": "xs",
           "normalized": "[Double]",

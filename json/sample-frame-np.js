@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sample-frame-np"
+        "phrase": "sample-frame-np",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:04 UTC 2014",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "Stereo",
           "package": "sample-frame-np",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame NumericPrelude Stereo",
+          "indexed": "2014-03-11T19:57:04",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "Stereo",
           "package": "sample-frame-np",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:04 UTC 2014",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "T",
           "package": "sample-frame-np",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame NumericPrelude Stereo",
+          "indexed": "2014-03-11T19:57:04",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "T",
           "package": "sample-frame-np",
@@ -58,6 +62,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:04 UTC 2014",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "cons",
           "package": "sample-frame-np",
@@ -66,6 +71,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame NumericPrelude Stereo",
+          "indexed": "2014-03-11T19:57:04",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "cons",
           "normalized": "a-\u003ea-\u003eT a",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:04 UTC 2014",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "left",
           "package": "sample-frame-np",
@@ -88,6 +95,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame NumericPrelude Stereo",
+          "indexed": "2014-03-11T19:57:04",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "left",
           "normalized": "T a-\u003ea",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:04 UTC 2014",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "map",
           "package": "sample-frame-np",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame NumericPrelude Stereo",
+          "indexed": "2014-03-11T19:57:04",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eT a-\u003eT b",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:04 UTC 2014",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "right",
           "package": "sample-frame-np",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame NumericPrelude Stereo",
+          "indexed": "2014-03-11T19:57:04",
           "module": "Sound.Frame.NumericPrelude.Stereo",
           "name": "right",
           "normalized": "T a-\u003ea",

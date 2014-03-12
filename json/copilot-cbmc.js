@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "copilot-cbmc"
+        "phrase": "copilot-cbmc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:05 UTC 2014",
           "module": "Copilot.Tools.CBMC",
           "name": "CBMC",
           "package": "copilot-cbmc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Copilot Tools CBMC",
+          "indexed": "2014-03-11T17:41:05",
           "module": "Copilot.Tools.CBMC",
           "name": "CBMC",
           "package": "copilot-cbmc",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:05 UTC 2014",
           "module": "Copilot.Tools.CBMC",
           "name": "Params",
           "package": "copilot-cbmc",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Copilot Tools CBMC",
+          "indexed": "2014-03-11T17:41:05",
           "module": "Copilot.Tools.CBMC",
           "name": "Params",
           "package": "copilot-cbmc",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:05 UTC 2014",
           "module": "Copilot.Tools.CBMC",
           "name": "Params",
           "package": "copilot-cbmc",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Copilot Tools CBMC",
+          "indexed": "2014-03-11T17:41:05",
           "module": "Copilot.Tools.CBMC",
           "name": "Params",
           "package": "copilot-cbmc",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:05 UTC 2014",
           "module": "Copilot.Tools.CBMC",
           "name": "appendPrefix",
           "package": "copilot-cbmc",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Copilot Tools CBMC",
+          "indexed": "2014-03-11T17:41:05",
           "module": "Copilot.Tools.CBMC",
           "name": "appendPrefix",
           "normalized": "Maybe String-\u003eString-\u003eString",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:05 UTC 2014",
           "module": "Copilot.Tools.CBMC",
           "name": "atomPrefix",
           "package": "copilot-cbmc",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Copilot Tools CBMC",
+          "indexed": "2014-03-11T17:41:05",
           "module": "Copilot.Tools.CBMC",
           "name": "atomPrefix",
           "package": "copilot-cbmc",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:05 UTC 2014",
           "module": "Copilot.Tools.CBMC",
           "name": "defaultParams",
           "package": "copilot-cbmc",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Copilot Tools CBMC",
+          "indexed": "2014-03-11T17:41:05",
           "module": "Copilot.Tools.CBMC",
           "name": "defaultParams",
           "package": "copilot-cbmc",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:05 UTC 2014",
           "module": "Copilot.Tools.CBMC",
           "name": "genCBMC",
           "package": "copilot-cbmc",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Copilot Tools CBMC",
+          "indexed": "2014-03-11T17:41:05",
           "module": "Copilot.Tools.CBMC",
           "name": "genCBMC",
           "normalized": "Params-\u003eSpec-\u003eIO()",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:05 UTC 2014",
           "module": "Copilot.Tools.CBMC",
           "name": "numIterations",
           "package": "copilot-cbmc",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Copilot Tools CBMC",
+          "indexed": "2014-03-11T17:41:05",
           "module": "Copilot.Tools.CBMC",
           "name": "numIterations",
           "package": "copilot-cbmc",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:05 UTC 2014",
           "module": "Copilot.Tools.CBMC",
           "name": "sbvPrefix",
           "package": "copilot-cbmc",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Copilot Tools CBMC",
+          "indexed": "2014-03-11T17:41:05",
           "module": "Copilot.Tools.CBMC",
           "name": "sbvPrefix",
           "package": "copilot-cbmc",

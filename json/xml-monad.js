@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-monad"
+        "phrase": "xml-monad",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "Core",
           "package": "xml-monad",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "Core",
           "package": "xml-monad",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard Xml reader + exception monadic type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "Xml",
           "package": "xml-monad",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Standard Xml reader exception monadic type",
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "Xml",
           "package": "xml-monad",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard Xml reader + exception transformer type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "XmlT",
           "package": "xml-monad",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Standard Xml reader exception transformer type",
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "XmlT",
           "package": "xml-monad",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "XmlT",
           "package": "xml-monad",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "XmlT",
           "package": "xml-monad",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "attrKey",
           "package": "xml-monad",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "attrKey",
           "package": "xml-monad",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "attrVal",
           "package": "xml-monad",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "attrVal",
           "package": "xml-monad",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "cdData",
           "package": "xml-monad",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "cdData",
           "package": "xml-monad",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "cdLine",
           "package": "xml-monad",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "cdLine",
           "package": "xml-monad",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "cdVerbatim",
           "package": "xml-monad",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "cdVerbatim",
           "package": "xml-monad",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "elAttribs",
           "package": "xml-monad",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "elAttribs",
           "normalized": "a[Attr]",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "elContent",
           "package": "xml-monad",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "elContent",
           "normalized": "a[Content]",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "elLine",
           "package": "xml-monad",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "elLine",
           "package": "xml-monad",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "elName",
           "package": "xml-monad",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "elName",
           "package": "xml-monad",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "fromXmlT",
           "package": "xml-monad",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "fromXmlT",
           "package": "xml-monad",
@@ -332,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a reader inside a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "inList",
           "package": "xml-monad",
@@ -342,6 +371,7 @@
         "index": {
           "description": "Run reader inside list",
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "inList",
           "normalized": "a b-\u003ec[b]",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "qName",
           "package": "xml-monad",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "qName",
           "package": "xml-monad",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "qPrefix",
           "package": "xml-monad",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "qPrefix",
           "package": "xml-monad",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "qURI",
           "package": "xml-monad",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "qURI",
           "package": "xml-monad",
@@ -424,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003e\u003ca\u003eXml\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "runXml",
           "package": "xml-monad",
@@ -434,6 +471,7 @@
         "index": {
           "description": "Run an Xml",
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "runXml",
           "normalized": "Xml a b c-\u003eb-\u003eEither a c",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003e\u003ca\u003eXmlT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Core",
           "name": "runXmlT",
           "package": "xml-monad",
@@ -460,6 +499,7 @@
         "index": {
           "description": "Run an XmlT",
           "hierarchy": "Text XML Monad Core",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Core",
           "name": "runXmlT",
           "normalized": "XmlT a b c d-\u003eb-\u003ec(Either a d)",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "Error",
           "package": "xml-monad",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "Error",
           "package": "xml-monad",
@@ -497,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error type that can be constructed from \u003ccode\u003e\u003ca\u003eXmlError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "FromXmlError",
           "package": "xml-monad",
@@ -506,6 +549,7 @@
         "index": {
           "description": "An error type that can be constructed from XmlError",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "FromXmlError",
           "package": "xml-monad",
@@ -520,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML error type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "XmlError",
           "package": "xml-monad",
@@ -529,6 +574,7 @@
         "index": {
           "description": "XML error type",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "XmlError",
           "package": "xml-monad",
@@ -543,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn (invalid) empty input document was observed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "EmptyDocument",
           "package": "xml-monad",
@@ -553,6 +600,7 @@
         "index": {
           "description": "An invalid empty input document was observed",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "EmptyDocument",
           "package": "xml-monad",
@@ -567,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData was encoded wrongly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "EncodingError",
           "package": "xml-monad",
@@ -577,6 +626,7 @@
         "index": {
           "description": "Data was encoded wrongly",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "EncodingError",
           "package": "xml-monad",
@@ -591,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvalid XML, general parse error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "InvalidXml",
           "package": "xml-monad",
@@ -601,6 +652,7 @@
         "index": {
           "description": "Invalid XML general parse error",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "InvalidXml",
           "package": "xml-monad",
@@ -615,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA general error occured.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "OtherError",
           "package": "xml-monad",
@@ -625,6 +678,7 @@
         "index": {
           "description": "general error occured",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "OtherError",
           "package": "xml-monad",
@@ -639,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML element attribute name was different than expected, with actual and expected names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "UnexpectedAttributeNameQ",
           "package": "xml-monad",
@@ -649,6 +704,7 @@
         "index": {
           "description": "An XML element attribute name was different than expected with actual and expected names",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "UnexpectedAttributeNameQ",
           "package": "xml-monad",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML element attribute values was different than expected, with actual and expected values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "UnexpectedAttributeValueQ",
           "package": "xml-monad",
@@ -673,6 +730,7 @@
         "index": {
           "description": "An XML element attribute values was different than expected with actual and expected values",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "UnexpectedAttributeValueQ",
           "package": "xml-monad",
@@ -687,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML element content was different than expected, with actual and expected contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "UnexpectedElementContentQ",
           "package": "xml-monad",
@@ -697,6 +756,7 @@
         "index": {
           "description": "An XML element content was different than expected with actual and expected contents",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "UnexpectedElementContentQ",
           "package": "xml-monad",
@@ -711,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML element name was different than expected, with actual and expected names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "UnexpectedElementNameQ",
           "package": "xml-monad",
@@ -721,6 +782,7 @@
         "index": {
           "description": "An XML element name was different than expected with actual and expected names",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "UnexpectedElementNameQ",
           "package": "xml-monad",
@@ -735,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unspecified general error occured.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "UnspecifiedError",
           "package": "xml-monad",
@@ -745,6 +808,7 @@
         "index": {
           "description": "An unspecified general error occured",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "UnspecifiedError",
           "package": "xml-monad",
@@ -759,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML element attribute was not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "XmlAttributeNotFound",
           "package": "xml-monad",
@@ -769,6 +834,7 @@
         "index": {
           "description": "An XML element attribute was not found",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "XmlAttributeNotFound",
           "package": "xml-monad",
@@ -783,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML element attribute was not found, with name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "XmlAttributeNotFoundQ",
           "package": "xml-monad",
@@ -793,6 +860,7 @@
         "index": {
           "description": "An XML element attribute was not found with name",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "XmlAttributeNotFoundQ",
           "package": "xml-monad",
@@ -807,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn immediate child element in an XML tree was not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "XmlChildNotFound",
           "package": "xml-monad",
@@ -817,6 +886,7 @@
         "index": {
           "description": "An immediate child element in an XML tree was not found",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "XmlChildNotFound",
           "package": "xml-monad",
@@ -831,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn immediate child element in an XML tree was not found, with name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "XmlChildNotFoundQ",
           "package": "xml-monad",
@@ -841,6 +912,7 @@
         "index": {
           "description": "An immediate child element in an XML tree was not found with name",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "XmlChildNotFoundQ",
           "package": "xml-monad",
@@ -855,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn element in an XML tree was not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "XmlElementNotFound",
           "package": "xml-monad",
@@ -865,6 +938,7 @@
         "index": {
           "description": "An element in an XML tree was not found",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "XmlElementNotFound",
           "package": "xml-monad",
@@ -879,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn element in an XML tree was not found, with name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "XmlElementNotFoundQ",
           "package": "xml-monad",
@@ -889,6 +964,7 @@
         "index": {
           "description": "An element in an XML tree was not found with name",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "XmlElementNotFoundQ",
           "package": "xml-monad",
@@ -903,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA general XML error occured.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "XmlError",
           "package": "xml-monad",
@@ -913,6 +990,7 @@
         "index": {
           "description": "general XML error occured",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "XmlError",
           "package": "xml-monad",
@@ -927,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003easks\u003c/a\u003e\u003c/code\u003e for a function that can return an error, as \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "asksEither",
           "package": "xml-monad",
@@ -937,6 +1016,7 @@
         "index": {
           "description": "Like asks for function that can return an error as Left",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "asksEither",
           "normalized": "(a-\u003eEither b c)-\u003ed c",
@@ -953,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003easks\u003c/a\u003e\u003c/code\u003e for a function that can return an XML error, as \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "asksEitherXml",
           "package": "xml-monad",
@@ -963,6 +1044,7 @@
         "index": {
           "description": "Like asks for function that can return an XML error as Left",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "asksEitherXml",
           "normalized": "(a-\u003eEither XmlError b)-\u003ec b",
@@ -979,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003easks\u003c/a\u003e\u003c/code\u003e for a function that can return an error, as \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "asksMaybe",
           "package": "xml-monad",
@@ -989,6 +1072,7 @@
         "index": {
           "description": "Like asks for function that can return an error as Nothing",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "asksMaybe",
           "normalized": "a-\u003e(b-\u003eMaybe c)-\u003ed c",
@@ -1005,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003easks\u003c/a\u003e\u003c/code\u003e for a function that can return an error, as \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "asksMaybeXml",
           "package": "xml-monad",
@@ -1015,6 +1100,7 @@
         "index": {
           "description": "Like asks for function that can return an error as Nothing",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "asksMaybeXml",
           "normalized": "XmlError-\u003e(a-\u003eMaybe b)-\u003ec b",
@@ -1031,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct error value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "fromXmlError",
           "package": "xml-monad",
@@ -1041,6 +1128,7 @@
         "index": {
           "description": "Construct error value",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "fromXmlError",
           "normalized": "XmlError-\u003ea",
@@ -1057,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise a defined exception for \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "maybeRaise",
           "package": "xml-monad",
@@ -1067,6 +1156,7 @@
         "index": {
           "description": "Raise defined exception for Nothing return Just values",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "maybeRaise",
           "normalized": "a-\u003eMaybe b-\u003ec b",
@@ -1083,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise a defined XML exception for \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "maybeRaiseXml",
           "package": "xml-monad",
@@ -1093,6 +1184,7 @@
         "index": {
           "description": "Raise defined XML exception for Nothing return Just values",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "maybeRaiseXml",
           "normalized": "XmlError-\u003eMaybe a-\u003eb a",
@@ -1109,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "raise",
           "package": "xml-monad",
@@ -1119,6 +1212,7 @@
         "index": {
           "description": "Raise an exception",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "raise",
           "normalized": "a-\u003eb c",
@@ -1134,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise an XML exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "raiseXml",
           "package": "xml-monad",
@@ -1144,6 +1239,7 @@
         "index": {
           "description": "Raise an XML exception",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "raiseXml",
           "normalized": "XmlError-\u003ea b",
@@ -1160,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise an exception for \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e, return \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "raises",
           "package": "xml-monad",
@@ -1170,6 +1267,7 @@
         "index": {
           "description": "Raise an exception for Left return Right values",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "raises",
           "normalized": "Either a b-\u003ec b",
@@ -1185,6 +1283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise an exception for \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e, return \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "raisesXml",
           "package": "xml-monad",
@@ -1195,6 +1294,7 @@
         "index": {
           "description": "Raise an exception for Left return Right values",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "raisesXml",
           "normalized": "Either XmlError a-\u003eb a",
@@ -1211,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch errors, and return an \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e for errors, \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "try",
           "package": "xml-monad",
@@ -1221,6 +1322,7 @@
         "index": {
           "description": "Catch errors and return an Left for errors Right otherwise",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "try",
           "normalized": "a b-\u003ea(Either c b)",
@@ -1236,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch errors (like \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e), and return \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e for errors and \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e for success.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "tryBool",
           "package": "xml-monad",
@@ -1246,6 +1349,7 @@
         "index": {
           "description": "Catch errors like try and return False for errors and True for success",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "tryBool",
           "normalized": "a b-\u003ea Bool",
@@ -1262,6 +1366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch errors (like \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e), and return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e for errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Error",
           "name": "tryMaybe",
           "package": "xml-monad",
@@ -1272,6 +1377,7 @@
         "index": {
           "description": "Catch errors like try and return Nothing for errors",
           "hierarchy": "Text XML Monad Error",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Error",
           "name": "tryMaybe",
           "normalized": "a b-\u003ea(Maybe b)",
@@ -1287,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Input",
           "name": "Input",
           "package": "xml-monad",
@@ -1295,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Input",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Input",
           "name": "Input",
           "package": "xml-monad",
@@ -1308,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Input",
           "name": "parseXML",
           "package": "xml-monad",
@@ -1317,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Input",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Input",
           "name": "parseXML",
           "normalized": "a[Content]",
@@ -1332,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Input",
           "name": "parseXMLDoc",
           "package": "xml-monad",
@@ -1341,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Input",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Input",
           "name": "parseXMLDoc",
           "package": "xml-monad",
@@ -1354,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "Name",
           "package": "xml-monad",
@@ -1362,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "Name",
           "package": "xml-monad",
@@ -1375,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "findElementName",
           "package": "xml-monad",
@@ -1384,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "findElementName",
           "normalized": "QName-\u003ea Element",
@@ -1399,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "findElementNameG",
           "package": "xml-monad",
@@ -1408,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "findElementNameG",
           "normalized": "(QName-\u003eQName-\u003eBool)-\u003eQName-\u003ea Element",
@@ -1423,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "findElementNameU",
           "package": "xml-monad",
@@ -1432,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "findElementNameU",
           "normalized": "String-\u003ea Element",
@@ -1447,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "findElementNameUI",
           "package": "xml-monad",
@@ -1456,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "findElementNameUI",
           "normalized": "String-\u003ea Element",
@@ -1471,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "findElementsName",
           "package": "xml-monad",
@@ -1480,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "findElementsName",
           "normalized": "QName-\u003ea[Element]",
@@ -1495,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "findElementsNameG",
           "package": "xml-monad",
@@ -1504,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "findElementsNameG",
           "normalized": "(QName-\u003eQName-\u003eBool)-\u003eQName-\u003ea[Element]",
@@ -1519,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "findElementsNameU",
           "package": "xml-monad",
@@ -1528,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "findElementsNameU",
           "normalized": "String-\u003ea[Element]",
@@ -1543,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "findElementsNameUI",
           "package": "xml-monad",
@@ -1552,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "findElementsNameUI",
           "normalized": "String-\u003ea[Element]",
@@ -1567,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "testElementName",
           "package": "xml-monad",
@@ -1576,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "testElementName",
           "normalized": "QName-\u003ea()",
@@ -1591,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "testElementNameG",
           "package": "xml-monad",
@@ -1600,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "testElementNameG",
           "normalized": "(QName-\u003eQName-\u003eBool)-\u003eQName-\u003ea()",
@@ -1615,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "testElementNameU",
           "package": "xml-monad",
@@ -1624,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "testElementNameU",
           "normalized": "String-\u003ea()",
@@ -1639,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "testElementNameUI",
           "package": "xml-monad",
@@ -1648,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "testElementNameUI",
           "normalized": "String-\u003ea()",
@@ -1663,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "unqualEq",
           "package": "xml-monad",
@@ -1672,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "unqualEq",
           "normalized": "QName-\u003eQName-\u003eBool",
@@ -1687,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Name",
           "name": "unqualEqI",
           "package": "xml-monad",
@@ -1696,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Name",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Name",
           "name": "unqualEqI",
           "normalized": "QName-\u003eQName-\u003eBool",
@@ -1711,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "Output",
           "package": "xml-monad",
@@ -1719,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "Output",
           "package": "xml-monad",
@@ -1732,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "ppContent",
           "package": "xml-monad",
@@ -1741,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "ppContent",
           "package": "xml-monad",
@@ -1754,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "ppElement",
           "package": "xml-monad",
@@ -1763,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "ppElement",
           "package": "xml-monad",
@@ -1776,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "ppTopElement",
           "package": "xml-monad",
@@ -1785,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "ppTopElement",
           "package": "xml-monad",
@@ -1798,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "ppcContent",
           "package": "xml-monad",
@@ -1807,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "ppcContent",
           "normalized": "ConfigPP-\u003ea String",
@@ -1822,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "ppcElement",
           "package": "xml-monad",
@@ -1831,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "ppcElement",
           "normalized": "ConfigPP-\u003ea String",
@@ -1846,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "ppcTopElement",
           "package": "xml-monad",
@@ -1855,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "ppcTopElement",
           "normalized": "ConfigPP-\u003ea String",
@@ -1870,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "showAttr",
           "package": "xml-monad",
@@ -1879,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "showAttr",
           "package": "xml-monad",
@@ -1892,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "showCData",
           "package": "xml-monad",
@@ -1901,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "showCData",
           "package": "xml-monad",
@@ -1914,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "showContent",
           "package": "xml-monad",
@@ -1923,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "showContent",
           "package": "xml-monad",
@@ -1936,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "showElement",
           "package": "xml-monad",
@@ -1945,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "showElement",
           "package": "xml-monad",
@@ -1958,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Output",
           "name": "showTopElement",
           "package": "xml-monad",
@@ -1967,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Output",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Output",
           "name": "showTopElement",
           "package": "xml-monad",
@@ -1980,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "Proc",
           "package": "xml-monad",
@@ -1988,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "Proc",
           "package": "xml-monad",
@@ -2001,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "elChildren",
           "package": "xml-monad",
@@ -2010,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "elChildren",
           "normalized": "a[Element]",
@@ -2025,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "filterChild",
           "package": "xml-monad",
@@ -2034,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "filterChild",
           "normalized": "(Element-\u003eBool)-\u003ea Element",
@@ -2049,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "filterChildName",
           "package": "xml-monad",
@@ -2058,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "filterChildName",
           "normalized": "(QName-\u003eBool)-\u003ea Element",
@@ -2073,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "filterChildren",
           "package": "xml-monad",
@@ -2082,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "filterChildren",
           "normalized": "(Element-\u003eBool)-\u003ea[Element]",
@@ -2097,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "filterChildrenName",
           "package": "xml-monad",
@@ -2106,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "filterChildrenName",
           "normalized": "(QName-\u003eBool)-\u003ea[Element]",
@@ -2121,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "filterElement",
           "package": "xml-monad",
@@ -2130,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "filterElement",
           "normalized": "(Element-\u003eBool)-\u003ea Element",
@@ -2145,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "filterElementName",
           "package": "xml-monad",
@@ -2154,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "filterElementName",
           "normalized": "(QName-\u003eBool)-\u003ea Element",
@@ -2169,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "filterElements",
           "package": "xml-monad",
@@ -2178,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "filterElements",
           "normalized": "(Element-\u003eBool)-\u003ea[Element]",
@@ -2193,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "filterElementsName",
           "package": "xml-monad",
@@ -2202,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "filterElementsName",
           "normalized": "(QName-\u003eBool)-\u003ea[Element]",
@@ -2217,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "findAttr",
           "package": "xml-monad",
@@ -2226,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "findAttr",
           "normalized": "QName-\u003ea String",
@@ -2241,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "findAttrBy",
           "package": "xml-monad",
@@ -2250,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "findAttrBy",
           "normalized": "(QName-\u003eBool)-\u003ea String",
@@ -2265,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "findChild",
           "package": "xml-monad",
@@ -2274,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "findChild",
           "normalized": "QName-\u003ea Element",
@@ -2289,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "findChildren",
           "package": "xml-monad",
@@ -2298,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "findChildren",
           "normalized": "QName-\u003ea[Element]",
@@ -2313,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "findElement",
           "package": "xml-monad",
@@ -2322,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "findElement",
           "normalized": "QName-\u003ea Element",
@@ -2337,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "findElements",
           "package": "xml-monad",
@@ -2346,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "findElements",
           "normalized": "QName-\u003ea[Element]",
@@ -2361,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "lookupAttr",
           "package": "xml-monad",
@@ -2370,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "lookupAttr",
           "normalized": "QName-\u003ea String",
@@ -2385,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "lookupAttrBy",
           "package": "xml-monad",
@@ -2394,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "lookupAttrBy",
           "normalized": "(QName-\u003eBool)-\u003ea String",
@@ -2409,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "onlyElems",
           "package": "xml-monad",
@@ -2418,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "onlyElems",
           "normalized": "a[Element]",
@@ -2433,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "onlyText",
           "package": "xml-monad",
@@ -2442,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "onlyText",
           "normalized": "a[CData]",
@@ -2457,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "readContent",
           "package": "xml-monad",
@@ -2466,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "readContent",
           "package": "xml-monad",
@@ -2479,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad.Proc",
           "name": "strContent",
           "package": "xml-monad",
@@ -2488,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad Proc",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad.Proc",
           "name": "strContent",
           "package": "xml-monad",
@@ -2501,6 +2711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:27 UTC 2014",
           "module": "Text.XML.Monad",
           "name": "Monad",
           "package": "xml-monad",
@@ -2509,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "Text XML Monad",
+          "indexed": "2014-03-11T20:42:27",
           "module": "Text.XML.Monad",
           "name": "Monad",
           "package": "xml-monad",

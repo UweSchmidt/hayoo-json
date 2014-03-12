@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tls-debug"
+        "phrase": "tls-debug",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ZipFold"
+        "phrase": "ZipFold",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdd continuation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.WithCont",
           "name": "WithCont",
           "package": "ZipFold",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Add continuation",
           "hierarchy": "Data WithCont",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.WithCont",
           "name": "WithCont",
           "package": "ZipFold",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.WithCont",
           "name": "WithCont",
           "package": "ZipFold",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Add continuation",
           "hierarchy": "Data WithCont",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.WithCont",
           "name": "WithCont",
           "package": "ZipFold",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.WithCont",
           "name": "WC",
           "package": "ZipFold",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data WithCont",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.WithCont",
           "name": "WC",
           "normalized": "a b WC(c b)(b-\u003ed)",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eZipping of non-strict left folds.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://conal.net/blog/tag/zip\u003c/a\u003e.  Inspired by \u003ca\u003eBeautiful FoldLs\u003c/a\u003e by\n Max Rabkin \u003ca\u003ehttp://squing.blogspot.com/2008/11/beautiful-folding.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "FoldL",
           "package": "ZipFold",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Zipping of non-strict left folds See http conal.net blog tag zip Inspired by Beautiful FoldLs by Max Rabkin http squing.blogspot.com beautiful-folding.html",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "FoldL",
           "package": "ZipFold",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData representation of a left fold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "FoldL",
           "package": "ZipFold",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Data representation of left fold",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "FoldL",
           "package": "ZipFold",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-strict left fold with continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "FoldLC",
           "package": "ZipFold",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Non-strict left fold with continuation",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "FoldLC",
           "package": "ZipFold",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict left fold with continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "FoldLC'",
           "package": "ZipFold",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Strict left fold with continuation",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "FoldLC'",
           "package": "ZipFold",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "P",
           "package": "ZipFold",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Strict pairs",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "P",
           "package": "ZipFold",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "WithCont",
           "package": "ZipFold",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Add continuation",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "WithCont",
           "package": "ZipFold",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eWithCont\u003c/a\u003e\u003c/code\u003e but with pair-strict '(\u003ca\u003e*\u003c/a\u003e)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "WithCont'",
           "package": "ZipFold",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Like WithCont but with pair-strict",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "WithCont'",
           "package": "ZipFold",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict generalized zip\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "Zip'",
           "package": "ZipFold",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Strict generalized zip",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "Zip'",
           "package": "ZipFold",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "F",
           "package": "ZipFold",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "F",
           "normalized": "F(a-\u003eb-\u003ea)a",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "P",
           "package": "ZipFold",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "P",
           "package": "ZipFold",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpretation of a \u003ccode\u003e\u003ca\u003eFoldL\u003c/a\u003e\u003c/code\u003e as non-strict\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "cfoldl",
           "package": "ZipFold",
@@ -326,6 +353,7 @@
         "index": {
           "description": "Interpretation of FoldL as non-strict",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "cfoldl",
           "normalized": "FoldL a b-\u003e[a]-\u003eb",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpretation of a \u003ccode\u003e\u003ca\u003eFoldL\u003c/a\u003e\u003c/code\u003e as non-strict\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "cfoldl'",
           "package": "ZipFold",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Interpretation of FoldL as non-strict",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "cfoldl'",
           "normalized": "FoldL a b-\u003e[a]-\u003eb",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpretation of a \u003ccode\u003e\u003ca\u003eFoldLC\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "cfoldlc",
           "package": "ZipFold",
@@ -376,6 +407,7 @@
         "index": {
           "description": "Interpretation of FoldLC",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "cfoldlc",
           "normalized": "FoldLC a b-\u003e[a]-\u003eb",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpretation of a \u003ccode\u003e\u003ca\u003eFoldLC\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "cfoldlc'",
           "package": "ZipFold",
@@ -401,6 +434,7 @@
         "index": {
           "description": "Interpretation of FoldLC",
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "cfoldlc'",
           "normalized": "FoldLC' a b-\u003e[a]-\u003eb",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "unitL",
           "package": "ZipFold",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "unitL",
           "normalized": "FoldL a()",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldL",
           "name": "zip'",
           "package": "ZipFold",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Data Zip FoldL",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldL",
           "name": "zip'",
           "normalized": "a b-\u003ea c-\u003ea(P b c)",
@@ -462,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eZipping of non-strict right folds.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://conal.net/blog/tag/zip\u003c/a\u003e.  Inspired by \u003ca\u003eBeautiful Folds\u003c/a\u003e by\n Max Rabkin \u003ca\u003ehttp://squing.blogspot.com/2008/11/beautiful-folding.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldR",
           "name": "FoldR",
           "package": "ZipFold",
@@ -471,6 +510,7 @@
         "index": {
           "description": "Zipping of non-strict right folds See http conal.net blog tag zip Inspired by Beautiful Folds by Max Rabkin http squing.blogspot.com beautiful-folding.html",
           "hierarchy": "Data Zip FoldR",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldR",
           "name": "FoldR",
           "package": "ZipFold",
@@ -485,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData representation of a right fold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldR",
           "name": "FoldR",
           "package": "ZipFold",
@@ -494,6 +535,7 @@
         "index": {
           "description": "Data representation of right fold",
           "hierarchy": "Data Zip FoldR",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldR",
           "name": "FoldR",
           "package": "ZipFold",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-strict right fold with continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldR",
           "name": "FoldRC",
           "package": "ZipFold",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Non-strict right fold with continuation",
           "hierarchy": "Data Zip FoldR",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldR",
           "name": "FoldRC",
           "package": "ZipFold",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldR",
           "name": "WithCont",
           "package": "ZipFold",
@@ -540,6 +585,7 @@
         "index": {
           "description": "Add continuation",
           "hierarchy": "Data Zip FoldR",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldR",
           "name": "WithCont",
           "package": "ZipFold",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldR",
           "name": "F",
           "package": "ZipFold",
@@ -562,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Data Zip FoldR",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldR",
           "name": "F",
           "normalized": "F(a-\u003eb-\u003eb)b",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpretation of a \u003ccode\u003e\u003ca\u003eFoldR\u003c/a\u003e\u003c/code\u003e as non-strict\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldR",
           "name": "cfoldr",
           "package": "ZipFold",
@@ -587,6 +636,7 @@
         "index": {
           "description": "Interpretation of FoldR as non-strict",
           "hierarchy": "Data Zip FoldR",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldR",
           "name": "cfoldr",
           "normalized": "FoldR a b-\u003e[a]-\u003eb",
@@ -602,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpretation of a \u003ccode\u003e\u003ca\u003eFoldRC\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:11 UTC 2014",
           "module": "Data.Zip.FoldR",
           "name": "cfoldrc",
           "package": "ZipFold",
@@ -612,6 +663,7 @@
         "index": {
           "description": "Interpretation of FoldRC",
           "hierarchy": "Data Zip FoldR",
+          "indexed": "2014-03-11T17:06:11",
           "module": "Data.Zip.FoldR",
           "name": "cfoldrc",
           "normalized": "FoldRC a b-\u003e[a]-\u003eb",

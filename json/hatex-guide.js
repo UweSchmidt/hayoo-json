@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hatex-guide"
+        "phrase": "hatex-guide",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HaTeX User's Guide.\n\u003c/p\u003e\u003cp\u003eThis module generates the HaTeX User's Guides from its\n custom syntax to any available format.\n This format is specified feeding the function \u003ccode\u003e\u003ca\u003ewriteGuide\u003c/a\u003e\u003c/code\u003e\n with a value of type \u003ccode\u003e\u003ca\u003eBackend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMore information about how this library works can be found\n at the code repository on GitHub:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttps://github.com/Daniel-Diaz/hatex-guide\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:20 UTC 2014",
           "module": "Text.LaTeX.Guide",
           "name": "Guide",
           "package": "hatex-guide",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The HaTeX User Guide This module generates the HaTeX User Guides from its custom syntax to any available format This format is specified feeding the function writeGuide with value of type Backend More information about how this library works can be found at the code repository on GitHub https github.com Daniel-Diaz hatex-guide",
           "hierarchy": "Text LaTeX Guide",
+          "indexed": "2014-03-11T18:34:20",
           "module": "Text.LaTeX.Guide",
           "name": "Guide",
           "package": "hatex-guide",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:20 UTC 2014",
           "module": "Text.LaTeX.Guide",
           "name": "Backend",
           "package": "hatex-guide",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Available backends",
           "hierarchy": "Text LaTeX Guide",
+          "indexed": "2014-03-11T18:34:20",
           "module": "Text.LaTeX.Guide",
           "name": "Backend",
           "package": "hatex-guide",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:20 UTC 2014",
           "module": "Text.LaTeX.Guide",
           "name": "HTML",
           "package": "hatex-guide",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Guide",
+          "indexed": "2014-03-11T18:34:20",
           "module": "Text.LaTeX.Guide",
           "name": "HTML",
           "package": "hatex-guide",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:20 UTC 2014",
           "module": "Text.LaTeX.Guide",
           "name": "LaTeX",
           "package": "hatex-guide",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Guide",
+          "indexed": "2014-03-11T18:34:20",
           "module": "Text.LaTeX.Guide",
           "name": "LaTeX",
           "package": "hatex-guide",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:20 UTC 2014",
           "module": "Text.LaTeX.Guide",
           "name": "Wiki",
           "package": "hatex-guide",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text LaTeX Guide",
+          "indexed": "2014-03-11T18:34:20",
           "module": "Text.LaTeX.Guide",
           "name": "Wiki",
           "package": "hatex-guide",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of contributors. Please, insert your name here if you have contributed\n   in some way to the guide.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:20 UTC 2014",
           "module": "Text.LaTeX.Guide",
           "name": "contributors",
           "package": "hatex-guide",
@@ -141,6 +152,7 @@
         "index": {
           "description": "List of contributors Please insert your name here if you have contributed in some way to the guide",
           "hierarchy": "Text LaTeX Guide",
+          "indexed": "2014-03-11T18:34:20",
           "module": "Text.LaTeX.Guide",
           "name": "contributors",
           "normalized": "[String]",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version of the guide. Based on the version of the package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:20 UTC 2014",
           "module": "Text.LaTeX.Guide",
           "name": "guideVersion",
           "package": "hatex-guide",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The version of the guide Based on the version of the package",
           "hierarchy": "Text LaTeX Guide",
+          "indexed": "2014-03-11T18:34:20",
           "module": "Text.LaTeX.Guide",
           "name": "guideVersion",
           "package": "hatex-guide",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther resources (images).\n\u003c/p\u003e\u003cp\u003eFiles stored under the \u003cem\u003eres\u003c/em\u003e directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:20 UTC 2014",
           "module": "Text.LaTeX.Guide",
           "name": "otherResources",
           "package": "hatex-guide",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Other resources images Files stored under the res directory",
           "hierarchy": "Text LaTeX Guide",
+          "indexed": "2014-03-11T18:34:20",
           "module": "Text.LaTeX.Guide",
           "name": "otherResources",
           "normalized": "[String]",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered list of sections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:20 UTC 2014",
           "module": "Text.LaTeX.Guide",
           "name": "sectionList",
           "package": "hatex-guide",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Ordered list of sections",
           "hierarchy": "Text LaTeX Guide",
+          "indexed": "2014-03-11T18:34:20",
           "module": "Text.LaTeX.Guide",
           "name": "sectionList",
           "normalized": "[String]",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate files in the user \u003cem\u003ehatex-guide\u003c/em\u003e directory, using\n   the files contained in a given \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMore in detail, \u003ccode\u003eupdateGuide fp\u003c/code\u003e sets the current directory\n   to \u003ccode\u003efp\u003c/code\u003e, then it looks in the \u003ccode\u003esrc\u003c/code\u003e and \u003ccode\u003eres\u003c/code\u003e directories\n   for the files specified by \u003ccode\u003e\u003ca\u003esectionList\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eotherResources\u003c/a\u003e\u003c/code\u003e\n   respectively. Then, it copies these files overwriting those\n   in the user \u003cem\u003ehatex-guide\u003c/em\u003e directory. This way, the next time\n   that \u003ccode\u003ewriteGuide\u003c/code\u003e is called it will use the updated files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:20 UTC 2014",
           "module": "Text.LaTeX.Guide",
           "name": "updateGuide",
           "package": "hatex-guide",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Update files in the user hatex-guide directory using the files contained in given FilePath More in detail updateGuide fp sets the current directory to fp then it looks in the src and res directories for the files specified by sectionList and otherResources respectively Then it copies these files overwriting those in the user hatex-guide directory This way the next time that writeGuide is called it will use the updated files",
           "hierarchy": "Text LaTeX Guide",
+          "indexed": "2014-03-11T18:34:20",
           "module": "Text.LaTeX.Guide",
           "name": "updateGuide",
           "normalized": "FilePath-\u003eIO()",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite in the current directory the LaTeX User's Guide using\n   a determined backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:20 UTC 2014",
           "module": "Text.LaTeX.Guide",
           "name": "writeGuide",
           "package": "hatex-guide",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Write in the current directory the LaTeX User Guide using determined backend",
           "hierarchy": "Text LaTeX Guide",
+          "indexed": "2014-03-11T18:34:20",
           "module": "Text.LaTeX.Guide",
           "name": "writeGuide",
           "normalized": "Backend-\u003eIO()",

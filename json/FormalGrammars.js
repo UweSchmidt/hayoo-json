@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FormalGrammars"
+        "phrase": "FormalGrammars",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "IORefCAS"
+        "phrase": "IORefCAS",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type class capturing mutable storage cells that support CAS\n   operations in the IO monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Class",
           "name": "Class",
           "package": "IORefCAS",
@@ -28,6 +29,7 @@
         "index": {
           "description": "type class capturing mutable storage cells that support CAS operations in the IO monad",
           "hierarchy": "Data CAS Internal Class",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Class",
           "name": "Class",
           "package": "IORefCAS",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt would be nice to use an associated type family with this class\n   (for casref), but that would preclude overlapping instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Class",
           "name": "CASable",
           "package": "IORefCAS",
@@ -51,6 +54,7 @@
         "index": {
           "description": "It would be nice to use an associated type family with this class for casref but that would preclude overlapping instances",
           "hierarchy": "Data CAS Internal Class",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Class",
           "name": "CASable",
           "package": "IORefCAS",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Class",
           "name": "cas",
           "package": "IORefCAS",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data CAS Internal Class",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Class",
           "name": "cas",
           "normalized": "a b-\u003eb-\u003eb-\u003eIO(Bool,b)",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Class",
           "name": "newCASable",
           "package": "IORefCAS",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data CAS Internal Class",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Class",
           "name": "newCASable",
           "normalized": "a-\u003eIO(b a)",
@@ -136,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Class",
           "name": "readCASable",
           "package": "IORefCAS",
@@ -145,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Data CAS Internal Class",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Class",
           "name": "readCASable",
           "normalized": "a b-\u003eIO b",
@@ -160,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Class",
           "name": "unsafeName",
           "package": "IORefCAS",
@@ -169,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Data CAS Internal Class",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Class",
           "name": "unsafeName",
           "normalized": "a-\u003eInt",
@@ -184,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Class",
           "name": "writeCASable",
           "package": "IORefCAS",
@@ -193,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Data CAS Internal Class",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Class",
           "name": "writeCASable",
           "normalized": "a b-\u003eb-\u003eIO()",
@@ -209,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an attempt to imitate a CAS using normal Haskell/GHC operations.\n Useful for debugging.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Fake",
           "name": "Fake",
           "package": "IORefCAS",
@@ -218,6 +233,7 @@
         "index": {
           "description": "This is an attempt to imitate CAS using normal Haskell GHC operations Useful for debugging",
           "hierarchy": "Data CAS Internal Fake",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Fake",
           "name": "Fake",
           "package": "IORefCAS",
@@ -232,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of references supporting CAS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Fake",
           "name": "CASRef",
           "package": "IORefCAS",
@@ -241,6 +258,7 @@
         "index": {
           "description": "The type of references supporting CAS",
           "hierarchy": "Data CAS Internal Fake",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Fake",
           "name": "CASRef",
           "package": "IORefCAS",
@@ -254,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Fake",
           "name": "atomicModifyIORefCAS",
           "package": "IORefCAS",
@@ -263,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data CAS Internal Fake",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Fake",
           "name": "atomicModifyIORefCAS",
           "normalized": "IORef a-\u003e(a-\u003e(a,b))-\u003eIO b",
@@ -278,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Fake",
           "name": "atomicModifyIORefCAS_",
           "package": "IORefCAS",
@@ -287,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Data CAS Internal Fake",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Fake",
           "name": "atomicModifyIORefCAS_",
           "normalized": "IORef a-\u003e(a-\u003ea)-\u003eIO()",
@@ -302,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Fake",
           "name": "casIORef",
           "package": "IORefCAS",
@@ -311,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Data CAS Internal Fake",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Fake",
           "name": "casIORef",
           "normalized": "IORef a-\u003ea-\u003ea-\u003eIO(Bool,a)",
@@ -327,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a version of CAS that works outside of Haskell by using\n   the FFI (and the GCC intrinsics-based \u003ccode\u003e\u003ca\u003eAtomic\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Foreign",
           "name": "Foreign",
           "package": "IORefCAS",
@@ -336,6 +361,7 @@
         "index": {
           "description": "This is version of CAS that works outside of Haskell by using the FFI and the GCC intrinsics-based Atomic",
           "hierarchy": "Data CAS Internal Foreign",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Foreign",
           "name": "Foreign",
           "package": "IORefCAS",
@@ -349,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Foreign",
           "name": "CASRef",
           "package": "IORefCAS",
@@ -357,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data CAS Internal Foreign",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Foreign",
           "name": "CASRef",
           "package": "IORefCAS",
@@ -370,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Native",
           "name": "Native",
           "package": "IORefCAS",
@@ -378,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Data CAS Internal Native",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Native",
           "name": "Native",
           "package": "IORefCAS",
@@ -391,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS.Internal.Native",
           "name": "CASRef",
           "package": "IORefCAS",
@@ -399,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data CAS Internal Native",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS.Internal.Native",
           "name": "CASRef",
           "package": "IORefCAS",
@@ -493,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAtomic compare and swap for IORefs and STRefs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS",
           "name": "CAS",
           "package": "IORefCAS",
@@ -502,6 +535,7 @@
         "index": {
           "description": "Atomic compare and swap for IORefs and STRefs",
           "hierarchy": "Data CAS",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS",
           "name": "CAS",
           "package": "IORefCAS",
@@ -515,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:37 UTC 2014",
           "module": "Data.CAS",
           "name": "CASRef",
           "package": "IORefCAS",
@@ -523,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Data CAS",
+          "indexed": "2014-03-11T16:49:37",
           "module": "Data.CAS",
           "name": "CASRef",
           "package": "IORefCAS",

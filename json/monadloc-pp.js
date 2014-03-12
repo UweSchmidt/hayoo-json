@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadloc-pp"
+        "phrase": "monadloc-pp",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lambda-bridge"
+        "phrase": "lambda-bridge",
+        "type": "phrase"
       },
       "type": "context"
     }

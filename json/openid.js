@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "openid"
+        "phrase": "openid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBase64 decoding and encoding routines.\n\u003c/p\u003e\u003cp\u003eNote:\n  This module was taken from the mime package released by Galois, Inc.  The\n  original author is unknown.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Binary.Base64",
           "name": "Base64",
           "package": "openid",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Base64 decoding and encoding routines Note This module was taken from the mime package released by Galois Inc The original author is unknown",
           "hierarchy": "Codec Binary Base64",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Binary.Base64",
           "name": "Base64",
           "package": "openid",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Binary.Base64",
           "name": "decode",
           "package": "openid",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Base64",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Binary.Base64",
           "name": "decode",
           "normalized": "String-\u003e[Word]",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Binary.Base64",
           "name": "decodePrim",
           "package": "openid",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Base64",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Binary.Base64",
           "name": "decodePrim",
           "normalized": "Char-\u003eChar-\u003eString-\u003e[Word]",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Binary.Base64",
           "name": "decodeToString",
           "package": "openid",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Base64",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Binary.Base64",
           "name": "decodeToString",
           "normalized": "String-\u003eString",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Binary.Base64",
           "name": "encodeRaw",
           "package": "openid",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Base64",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Binary.Base64",
           "name": "encodeRaw",
           "normalized": "Bool-\u003e[Word]-\u003eString",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Binary.Base64",
           "name": "encodeRawPrim",
           "package": "openid",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Base64",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Binary.Base64",
           "name": "encodeRawPrim",
           "normalized": "Bool-\u003eChar-\u003eChar-\u003e[Word]-\u003eString",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Binary.Base64",
           "name": "encodeRawString",
           "package": "openid",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Base64",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Binary.Base64",
           "name": "encodeRawString",
           "normalized": "Bool-\u003eString-\u003eString",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'formatOutput n mbLT str' formats \u003ccode\u003estr\u003c/code\u003e, splitting it\n into lines of length \u003ccode\u003en\u003c/code\u003e. The optional value lets you control what\n line terminator sequence to use; the default is CRLF (as per MIME.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Binary.Base64",
           "name": "formatOutput",
           "package": "openid",
@@ -195,6 +210,7 @@
         "index": {
           "description": "formatOutput mbLT str formats str splitting it into lines of length The optional value lets you control what line terminator sequence to use the default is CRLF as per MIME",
           "hierarchy": "Codec Binary Base64",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Binary.Base64",
           "name": "formatOutput",
           "normalized": "Int-\u003eMaybe String-\u003eString-\u003eString",
@@ -210,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "DH",
           "package": "openid",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "DH",
           "package": "openid",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "DHParamError",
           "package": "openid",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "DHParamError",
           "package": "openid",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "DHParams",
           "package": "openid",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "DHParams",
           "package": "openid",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "Generator",
           "package": "openid",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "Generator",
           "package": "openid",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "Modulus",
           "package": "openid",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "Modulus",
           "package": "openid",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "DHParams",
           "package": "openid",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "DHParams",
           "package": "openid",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "NotSuitableGenerator",
           "package": "openid",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "NotSuitableGenerator",
           "package": "openid",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "PNotPrime",
           "package": "openid",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "PNotPrime",
           "package": "openid",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "PNotSafePrime",
           "package": "openid",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "PNotSafePrime",
           "package": "openid",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "UnableToCheckGenerator",
           "package": "openid",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "UnableToCheckGenerator",
           "package": "openid",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "checkDHParams",
           "package": "openid",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "checkDHParams",
           "normalized": "DHParams-\u003eIO[DHParamError]",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "computeKey",
           "package": "openid",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "computeKey",
           "normalized": "[Word]-\u003eDHParams-\u003e[Word]",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "dhGenerator",
           "package": "openid",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "dhGenerator",
           "package": "openid",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "dhModulus",
           "package": "openid",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "dhModulus",
           "package": "openid",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "dhPrivateKey",
           "package": "openid",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "dhPrivateKey",
           "normalized": "[Word]",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "dhPublicKey",
           "package": "openid",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "dhPublicKey",
           "normalized": "[Word]",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "generateKey",
           "package": "openid",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "generateKey",
           "normalized": "Modulus-\u003eGenerator-\u003eIO(Maybe DHParams)",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Codec.Encryption.DH",
           "name": "newDHParams",
           "package": "openid",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption DH",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Codec.Encryption.DH",
           "name": "newDHParams",
           "normalized": "Int-\u003eGenerator-\u003eIO(Maybe DHParams)",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "AlternativeHMAC",
           "package": "openid",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL AlternativeHMAC",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "AlternativeHMAC",
           "package": "openid",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "CryptoHashFunction",
           "package": "openid",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL AlternativeHMAC",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "CryptoHashFunction",
           "package": "openid",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "hmac",
           "package": "openid",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL AlternativeHMAC",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "hmac",
           "normalized": "CryptoHashFunction-\u003eByteString-\u003eByteString-\u003eIO String",
@@ -679,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the SHA digest, used by getDigestByName\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha",
           "package": "openid",
@@ -689,6 +748,7 @@
         "index": {
           "description": "Name of the SHA digest used by getDigestByName",
           "hierarchy": "Data Digest OpenSSL AlternativeHMAC",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha",
           "package": "openid",
@@ -702,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the SHA1 digest, used by getDigestByName\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha1",
           "package": "openid",
@@ -712,6 +773,7 @@
         "index": {
           "description": "Name of the SHA1 digest used by getDigestByName",
           "hierarchy": "Data Digest OpenSSL AlternativeHMAC",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha1",
           "package": "openid",
@@ -725,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the SHA224 digest, used by getDigestByName\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha224",
           "package": "openid",
@@ -735,6 +798,7 @@
         "index": {
           "description": "Name of the SHA224 digest used by getDigestByName",
           "hierarchy": "Data Digest OpenSSL AlternativeHMAC",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha224",
           "package": "openid",
@@ -748,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the SHA256 digest, used by getDigestByName\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha256",
           "package": "openid",
@@ -758,6 +823,7 @@
         "index": {
           "description": "Name of the SHA256 digest used by getDigestByName",
           "hierarchy": "Data Digest OpenSSL AlternativeHMAC",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha256",
           "package": "openid",
@@ -771,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the SHA384 digest, used by getDigestByName\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha384",
           "package": "openid",
@@ -781,6 +848,7 @@
         "index": {
           "description": "Name of the SHA384 digest used by getDigestByName",
           "hierarchy": "Data Digest OpenSSL AlternativeHMAC",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha384",
           "package": "openid",
@@ -794,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the SHA384 digest, used by getDigestByName\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha512",
           "package": "openid",
@@ -804,6 +873,7 @@
         "index": {
           "description": "Name of the SHA384 digest used by getDigestByName",
           "hierarchy": "Data Digest OpenSSL AlternativeHMAC",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "sha512",
           "package": "openid",
@@ -817,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the hex-string representation of an HMAC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "showHMAC",
           "package": "openid",
@@ -826,6 +897,7 @@
         "index": {
           "description": "Get the hex-string representation of an HMAC",
           "hierarchy": "Data Digest OpenSSL AlternativeHMAC",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "showHMAC",
           "normalized": "ByteString-\u003eString",
@@ -842,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper/rendering function for hmac\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "unsafeHMAC",
           "package": "openid",
@@ -851,6 +924,7 @@
         "index": {
           "description": "Wrapper rendering function for hmac",
           "hierarchy": "Data Digest OpenSSL AlternativeHMAC",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.AlternativeHMAC",
           "name": "unsafeHMAC",
           "normalized": "CryptoHashFunction-\u003eByteString-\u003eByteString-\u003eString",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.SHA",
           "name": "SHA",
           "package": "openid",
@@ -874,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL SHA",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.SHA",
           "name": "SHA",
           "package": "openid",
@@ -888,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSha1 hashing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.SHA",
           "name": "sha1",
           "package": "openid",
@@ -898,6 +975,7 @@
         "index": {
           "description": "Sha1 hashing",
           "hierarchy": "Data Digest OpenSSL SHA",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.SHA",
           "name": "sha1",
           "normalized": "[Word]-\u003e[Word]",
@@ -913,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSha256 hashing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Data.Digest.OpenSSL.SHA",
           "name": "sha256",
           "package": "openid",
@@ -923,6 +1002,7 @@
         "index": {
           "description": "Sha256 hashing",
           "hierarchy": "Data Digest OpenSSL SHA",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Data.Digest.OpenSSL.SHA",
           "name": "sha256",
           "normalized": "[Word]-\u003e[Word]",
@@ -937,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association.Manager",
           "name": "Manager",
           "package": "openid",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Association Manager",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association.Manager",
           "name": "Manager",
           "package": "openid",
@@ -959,6 +1041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManage pairs of Providers and Associations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association.Manager",
           "name": "AssociationManager",
           "package": "openid",
@@ -968,6 +1051,7 @@
         "index": {
           "description": "Manage pairs of Providers and Associations",
           "hierarchy": "Network OpenID Association Manager",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association.Manager",
           "name": "AssociationManager",
           "package": "openid",
@@ -982,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new association, and set its expiration to be relative to the \u003ca\u003enow\u003c/a\u003e\n   parameter passed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association.Manager",
           "name": "addAssociation",
           "package": "openid",
@@ -992,6 +1077,7 @@
         "index": {
           "description": "Add new association and set its expiration to be relative to the now parameter passed in",
           "hierarchy": "Network OpenID Association Manager",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association.Manager",
           "name": "addAssociation",
           "normalized": "a-\u003eUTCTime-\u003eProvider-\u003eAssociation-\u003ea",
@@ -1008,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpire associations in the manager that are older than the supplied \u003ca\u003enow\u003c/a\u003e\n   parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association.Manager",
           "name": "expire",
           "package": "openid",
@@ -1018,6 +1105,7 @@
         "index": {
           "description": "Expire associations in the manager that are older than the supplied now parameter",
           "hierarchy": "Network OpenID Association Manager",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association.Manager",
           "name": "expire",
           "normalized": "a-\u003eUTCTime-\u003ea",
@@ -1033,6 +1121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExport all associations, and their expirations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association.Manager",
           "name": "exportAssociations",
           "package": "openid",
@@ -1043,6 +1132,7 @@
         "index": {
           "description": "Export all associations and their expirations",
           "hierarchy": "Network OpenID Association Manager",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association.Manager",
           "name": "exportAssociations",
           "normalized": "a-\u003e[(String,UTCTime,Association)]",
@@ -1059,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind an association.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association.Manager",
           "name": "findAssociation",
           "package": "openid",
@@ -1069,6 +1160,7 @@
         "index": {
           "description": "Find an association",
           "hierarchy": "Network OpenID Association Manager",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association.Manager",
           "name": "findAssociation",
           "normalized": "a-\u003eProvider-\u003eMaybe Association",
@@ -1084,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association.Map",
           "name": "Map",
           "package": "openid",
@@ -1092,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Association Map",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association.Map",
           "name": "Map",
           "package": "openid",
@@ -1106,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple association manager based on Data.Map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association.Map",
           "name": "AssociationMap",
           "package": "openid",
@@ -1115,6 +1210,7 @@
         "index": {
           "description": "simple association manager based on Data.Map",
           "hierarchy": "Network OpenID Association Map",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association.Map",
           "name": "AssociationMap",
           "package": "openid",
@@ -1128,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association.Map",
           "name": "AM",
           "package": "openid",
@@ -1137,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Association Map",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association.Map",
           "name": "AM",
           "normalized": "AM(Map String(UTCTime,Association))",
@@ -1153,6 +1251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty association map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association.Map",
           "name": "emptyAssociationMap",
           "package": "openid",
@@ -1163,6 +1262,7 @@
         "index": {
           "description": "An empty association map",
           "hierarchy": "Network OpenID Association Map",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association.Map",
           "name": "emptyAssociationMap",
           "package": "openid",
@@ -1176,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association",
           "name": "Association",
           "package": "openid",
@@ -1184,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Association",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association",
           "name": "Association",
           "package": "openid",
@@ -1198,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociation monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association",
           "name": "Assoc",
           "package": "openid",
@@ -1207,6 +1310,7 @@
         "index": {
           "description": "Association monad",
           "hierarchy": "Network OpenID Association",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association",
           "name": "Assoc",
           "package": "openid",
@@ -1221,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociation environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association",
           "name": "AssocEnv",
           "package": "openid",
@@ -1230,6 +1335,7 @@
         "index": {
           "description": "Association environment",
           "hierarchy": "Network OpenID Association",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association",
           "name": "AssocEnv",
           "package": "openid",
@@ -1243,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association",
           "name": "AssocEnv",
           "package": "openid",
@@ -1252,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Association",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association",
           "name": "AssocEnv",
           "package": "openid",
@@ -1266,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociate with a provider.\n   By default, this tries to use DH-SHA256 and HMAC-SHA256, and falls back to\n   whatever the server recommends, if the Bool parameter is True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association",
           "name": "associate",
           "package": "openid",
@@ -1276,6 +1385,7 @@
         "index": {
           "description": "Associate with provider By default this tries to use DH-SHA256 and HMAC-SHA256 and falls back to whatever the server recommends if the Bool parameter is True",
           "hierarchy": "Network OpenID Association",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association",
           "name": "associate",
           "normalized": "a-\u003eBool-\u003eResolver IO-\u003eProvider-\u003eIO(Either Error a)",
@@ -1291,6 +1401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociate with a provider, attempting to use the provided association\n   methods.  The Bool specifies whether or not recovery should be attempted\n   upon a failed request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association",
           "name": "associate'",
           "package": "openid",
@@ -1301,6 +1412,7 @@
         "index": {
           "description": "Associate with provider attempting to use the provided association methods The Bool specifies whether or not recovery should be attempted upon failed request",
           "hierarchy": "Network OpenID Association",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association",
           "name": "associate'",
           "normalized": "a-\u003eBool-\u003eResolver IO-\u003eProvider-\u003eAssocType-\u003eSessionType-\u003eIO(Either Error a)",
@@ -1316,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ca\u003epure\u003c/a\u003e version of association.  It will run in whatever base monad is\n   provided, layering exception handling over that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association",
           "name": "associate_",
           "package": "openid",
@@ -1326,6 +1439,7 @@
         "index": {
           "description": "pure version of association It will run in whatever base monad is provided layering exception handling over that",
           "hierarchy": "Network OpenID Association",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association",
           "name": "associate_",
           "normalized": "a-\u003eBool-\u003eResolver b-\u003eProvider-\u003eAssocType-\u003eSessionType-\u003eAssoc b a",
@@ -1340,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association",
           "name": "createParams",
           "package": "openid",
@@ -1349,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Association",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association",
           "name": "createParams",
           "normalized": "SessionType-\u003ea(Maybe DHParams)",
@@ -1364,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association",
           "name": "currentTime",
           "package": "openid",
@@ -1373,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Association",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association",
           "name": "currentTime",
           "package": "openid",
@@ -1387,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRunning a computation in the association monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Association",
           "name": "runAssoc",
           "package": "openid",
@@ -1397,6 +1516,7 @@
         "index": {
           "description": "Running computation in the association monad",
           "hierarchy": "Network OpenID Association",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Association",
           "name": "runAssoc",
           "normalized": "AssocEnv a-\u003eAssoc a b-\u003ea(Either Error b)",
@@ -1412,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AttributeExchange",
           "package": "openid",
@@ -1420,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AttributeExchange",
           "package": "openid",
@@ -1434,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome common, useful Attribute Exchange specs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXFieldTy",
           "package": "openid",
@@ -1443,6 +1566,7 @@
         "index": {
           "description": "Some common useful Attribute Exchange specs",
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXFieldTy",
           "package": "openid",
@@ -1457,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to store responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXFieldVal",
           "package": "openid",
@@ -1466,6 +1591,7 @@
         "index": {
           "description": "Used to store responses",
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXFieldVal",
           "package": "openid",
@@ -1479,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXBirthdate",
           "package": "openid",
@@ -1488,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXBirthdate",
           "package": "openid",
@@ -1501,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXEmail",
           "package": "openid",
@@ -1510,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXEmail",
           "package": "openid",
@@ -1523,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXFirstName",
           "package": "openid",
@@ -1532,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXFirstName",
           "package": "openid",
@@ -1545,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXFullName",
           "package": "openid",
@@ -1554,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXFullName",
           "package": "openid",
@@ -1567,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXGender",
           "package": "openid",
@@ -1576,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXGender",
           "package": "openid",
@@ -1589,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXLanguage",
           "package": "openid",
@@ -1598,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXLanguage",
           "package": "openid",
@@ -1611,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXLastName",
           "package": "openid",
@@ -1620,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXLastName",
           "package": "openid",
@@ -1633,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXNickname",
           "package": "openid",
@@ -1642,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "AXNickname",
           "package": "openid",
@@ -1656,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe simplest use case is to request the user's email. This would be\n   used to replace traditional verification emails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axEmailRequired",
           "package": "openid",
@@ -1666,6 +1809,7 @@
         "index": {
           "description": "The simplest use case is to request the user email This would be used to replace traditional verification emails",
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axEmailRequired",
           "package": "openid",
@@ -1680,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse these functions to roll your own list of fields to request when\n   you send an auth request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axExtParams",
           "package": "openid",
@@ -1689,6 +1834,7 @@
         "index": {
           "description": "Use these functions to roll your own list of fields to request when you send an auth request",
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axExtParams",
           "normalized": "[AXFieldTy]-\u003eParams",
@@ -1705,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003especify the alias as well as the list of requested fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axExtParams'",
           "package": "openid",
@@ -1714,6 +1861,7 @@
         "index": {
           "description": "specify the alias as well as the list of requested fields",
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axExtParams'",
           "normalized": "String-\u003e[AXFieldTy]-\u003eParams",
@@ -1729,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axName",
           "package": "openid",
@@ -1738,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axName",
           "normalized": "AXFieldTy-\u003eString",
@@ -1753,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axSpec",
           "package": "openid",
@@ -1762,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axSpec",
           "normalized": "AXFieldTy-\u003eString",
@@ -1777,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axTyFromName",
           "package": "openid",
@@ -1786,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "axTyFromName",
           "normalized": "String-\u003eMaybe AXFieldTy",
@@ -1802,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the requested fields from the HTTP request params. Keep\n | in mind the spec does not require that the OpenID Provider return\n | any of our requested fields, even on a successful verification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.AttributeExchange",
           "name": "getAxFields",
           "package": "openid",
@@ -1812,6 +1967,7 @@
         "index": {
           "description": "Retrieve the requested fields from the HTTP request params Keep in mind the spec does not require that the OpenID Provider return any of our requested fields even on successful verification",
           "hierarchy": "Network OpenID AttributeExchange",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.AttributeExchange",
           "name": "getAxFields",
           "normalized": "Params-\u003e[AXFieldVal]",
@@ -1827,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Authentication",
           "name": "Authentication",
           "package": "openid",
@@ -1835,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Authentication",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Authentication",
           "name": "Authentication",
           "package": "openid",
@@ -1848,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Authentication",
           "name": "CheckIdMode",
           "package": "openid",
@@ -1856,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Authentication",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Authentication",
           "name": "CheckIdMode",
           "package": "openid",
@@ -1869,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Authentication",
           "name": "Immediate",
           "package": "openid",
@@ -1878,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Authentication",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Authentication",
           "name": "Immediate",
           "package": "openid",
@@ -1891,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Authentication",
           "name": "Setup",
           "package": "openid",
@@ -1900,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Authentication",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Authentication",
           "name": "Setup",
           "package": "openid",
@@ -1914,6 +2078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an authentication URL. The params field allows you to\n | specify any extensions, for example, AttributeExchange.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Authentication",
           "name": "authenticationURI",
           "package": "openid",
@@ -1923,6 +2088,7 @@
         "index": {
           "description": "Generate an authentication URL The params field allows you to specify any extensions for example AttributeExchange",
           "hierarchy": "Network OpenID Authentication",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Authentication",
           "name": "authenticationURI",
           "normalized": "a-\u003eCheckIdMode-\u003eProvider-\u003eIdentifier-\u003eReturnTo-\u003eMaybe Params-\u003eMaybe Realm-\u003eURI",
@@ -1939,6 +2105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify a signature on a set of params.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Authentication",
           "name": "verifyAuthentication",
           "package": "openid",
@@ -1949,6 +2116,7 @@
         "index": {
           "description": "Verify signature on set of params",
           "hierarchy": "Network OpenID Authentication",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Authentication",
           "name": "verifyAuthentication",
           "normalized": "a-\u003eParams-\u003eReturnTo-\u003eResolver b-\u003eb(Either Error())",
@@ -1964,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Discovery",
           "name": "Discovery",
           "package": "openid",
@@ -1972,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Discovery",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Discovery",
           "name": "Discovery",
           "package": "openid",
@@ -1986,6 +2156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to resolve an OpenID endpoint, and user identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Discovery",
           "name": "discover",
           "package": "openid",
@@ -1996,6 +2167,7 @@
         "index": {
           "description": "Attempt to resolve an OpenID endpoint and user identifier",
           "hierarchy": "Network OpenID Discovery",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Discovery",
           "name": "discover",
           "normalized": "Resolver a-\u003eIdentifier-\u003ea(Either Error(Provider,Identifier))",
@@ -2010,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.HTTP",
           "name": "HTTP",
           "package": "openid",
@@ -2018,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID HTTP",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.HTTP",
           "name": "HTTP",
           "package": "openid",
@@ -2032,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd Parameters to a URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.HTTP",
           "name": "addParams",
           "package": "openid",
@@ -2042,6 +2217,7 @@
         "index": {
           "description": "Add Parameters to URI",
           "hierarchy": "Network OpenID HTTP",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.HTTP",
           "name": "addParams",
           "normalized": "Params-\u003eURI-\u003eURI",
@@ -2058,6 +2234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape for the query string of a URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.HTTP",
           "name": "escapeParam",
           "package": "openid",
@@ -2068,6 +2245,7 @@
         "index": {
           "description": "Escape for the query string of URI",
           "hierarchy": "Network OpenID HTTP",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.HTTP",
           "name": "escapeParam",
           "normalized": "String-\u003eString",
@@ -2084,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat OpenID parameters as a direct response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.HTTP",
           "name": "formatDirectParams",
           "package": "openid",
@@ -2094,6 +2273,7 @@
         "index": {
           "description": "Format OpenID parameters as direct response",
           "hierarchy": "Network OpenID HTTP",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.HTTP",
           "name": "formatDirectParams",
           "normalized": "Params-\u003eString",
@@ -2110,6 +2290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat OpenID parameters as a query string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.HTTP",
           "name": "formatParams",
           "package": "openid",
@@ -2120,6 +2301,7 @@
         "index": {
           "description": "Format OpenID parameters as query string",
           "hierarchy": "Network OpenID HTTP",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.HTTP",
           "name": "formatParams",
           "normalized": "Params-\u003eString",
@@ -2135,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.HTTP",
           "name": "getRequest",
           "package": "openid",
@@ -2144,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID HTTP",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.HTTP",
           "name": "getRequest",
           "normalized": "URI-\u003eRequest String",
@@ -2160,6 +2344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an http request.\n   If the Bool parameter is set to True, redirects from the server will be\n   followed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.HTTP",
           "name": "makeRequest",
           "package": "openid",
@@ -2170,6 +2355,7 @@
         "index": {
           "description": "Perform an http request If the Bool parameter is set to True redirects from the server will be followed",
           "hierarchy": "Network OpenID HTTP",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.HTTP",
           "name": "makeRequest",
           "normalized": "Bool-\u003eResolver IO",
@@ -2186,6 +2372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a response body into a list of parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.HTTP",
           "name": "parseDirectResponse",
           "package": "openid",
@@ -2196,6 +2383,7 @@
         "index": {
           "description": "Turn response body into list of parameters",
           "hierarchy": "Network OpenID HTTP",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.HTTP",
           "name": "parseDirectResponse",
           "normalized": "String-\u003eParams",
@@ -2212,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse OpenID parameters out of a url string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.HTTP",
           "name": "parseParams",
           "package": "openid",
@@ -2222,6 +2411,7 @@
         "index": {
           "description": "Parse OpenID parameters out of url string",
           "hierarchy": "Network OpenID HTTP",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.HTTP",
           "name": "parseParams",
           "normalized": "String-\u003eParams",
@@ -2237,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.HTTP",
           "name": "postRequest",
           "package": "openid",
@@ -2246,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID HTTP",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.HTTP",
           "name": "postRequest",
           "normalized": "URI-\u003eString-\u003eRequest String",
@@ -2261,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Normalization",
           "name": "Normalization",
           "package": "openid",
@@ -2269,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Normalization",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Normalization",
           "name": "Normalization",
           "package": "openid",
@@ -2283,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize an identifier, discarding XRIs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Normalization",
           "name": "normalizeIdentifier",
           "package": "openid",
@@ -2293,6 +2488,7 @@
         "index": {
           "description": "Normalize an identifier discarding XRIs",
           "hierarchy": "Network OpenID Normalization",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Normalization",
           "name": "normalizeIdentifier",
           "normalized": "Identifier-\u003eMaybe Identifier",
@@ -2309,6 +2505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize the user supplied identifier, using a supplied function to\n normalize an XRI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Normalization",
           "name": "normalizeIdentifier'",
           "package": "openid",
@@ -2319,6 +2516,7 @@
         "index": {
           "description": "Normalize the user supplied identifier using supplied function to normalize an XRI",
           "hierarchy": "Network OpenID Normalization",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Normalization",
           "name": "normalizeIdentifier'",
           "normalized": "(String-\u003eMaybe String)-\u003eIdentifier-\u003eMaybe Identifier",
@@ -2334,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.SSL",
           "name": "SSL",
           "package": "openid",
@@ -2342,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID SSL",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.SSL",
           "name": "SSL",
           "package": "openid",
@@ -2355,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.SSL",
           "name": "SSLHandle",
           "package": "openid",
@@ -2363,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID SSL",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.SSL",
           "name": "SSLHandle",
           "package": "openid",
@@ -2376,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.SSL",
           "name": "sslConnect",
           "package": "openid",
@@ -2385,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID SSL",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.SSL",
           "name": "sslConnect",
           "normalized": "Socket-\u003eIO(Maybe SSLHandle)",
@@ -2400,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "Types",
           "package": "openid",
@@ -2408,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "Types",
           "package": "openid",
@@ -2422,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported association types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "AssocType",
           "package": "openid",
@@ -2431,6 +2638,7 @@
         "index": {
           "description": "Supported association types",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "AssocType",
           "package": "openid",
@@ -2445,6 +2653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn association with a provider.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "Association",
           "package": "openid",
@@ -2454,6 +2663,7 @@
         "index": {
           "description": "An association with provider",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "Association",
           "package": "openid",
@@ -2468,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "Error",
           "package": "openid",
@@ -2477,6 +2688,7 @@
         "index": {
           "description": "Errors",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "Error",
           "package": "openid",
@@ -2491,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA valid OpenID identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "Identifier",
           "package": "openid",
@@ -2500,6 +2713,7 @@
         "index": {
           "description": "valid OpenID identifier",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "Identifier",
           "package": "openid",
@@ -2514,6 +2728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameter lists for communication with the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "Params",
           "package": "openid",
@@ -2523,6 +2738,7 @@
         "index": {
           "description": "Parameter lists for communication with the server",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "Params",
           "package": "openid",
@@ -2537,6 +2753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn OpenID provider.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "Provider",
           "package": "openid",
@@ -2546,6 +2763,7 @@
         "index": {
           "description": "An OpenID provider",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "Provider",
           "package": "openid",
@@ -2560,6 +2778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA realm of uris for a provider to inform a user about\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "Realm",
           "package": "openid",
@@ -2569,6 +2788,7 @@
         "index": {
           "description": "realm of uris for provider to inform user about",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "Realm",
           "package": "openid",
@@ -2583,6 +2803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA way to resolve an HTTP request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "Resolver",
           "package": "openid",
@@ -2592,6 +2813,7 @@
         "index": {
           "description": "way to resolve an HTTP request",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "Resolver",
           "package": "openid",
@@ -2606,6 +2828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA return to path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "ReturnTo",
           "package": "openid",
@@ -2615,6 +2838,7 @@
         "index": {
           "description": "return to path",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "ReturnTo",
           "package": "openid",
@@ -2629,6 +2853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession types for association establishment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "SessionType",
           "package": "openid",
@@ -2638,6 +2863,7 @@
         "index": {
           "description": "Session types for association establishment",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "SessionType",
           "package": "openid",
@@ -2651,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "Association",
           "package": "openid",
@@ -2660,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "Association",
           "package": "openid",
@@ -2673,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "DhSha1",
           "package": "openid",
@@ -2682,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "DhSha1",
           "package": "openid",
@@ -2695,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "DhSha256",
           "package": "openid",
@@ -2704,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "DhSha256",
           "package": "openid",
@@ -2717,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "Error",
           "package": "openid",
@@ -2726,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "Error",
           "package": "openid",
@@ -2739,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "HmacSha1",
           "package": "openid",
@@ -2748,6 +2983,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "HmacSha1",
           "package": "openid",
@@ -2761,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "HmacSha256",
           "package": "openid",
@@ -2770,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "HmacSha256",
           "package": "openid",
@@ -2783,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "Identifier",
           "package": "openid",
@@ -2792,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "Identifier",
           "package": "openid",
@@ -2805,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "NoEncryption",
           "package": "openid",
@@ -2814,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "NoEncryption",
           "package": "openid",
@@ -2827,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "assocExpiresIn",
           "package": "openid",
@@ -2836,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "assocExpiresIn",
           "package": "openid",
@@ -2849,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "assocHandle",
           "package": "openid",
@@ -2858,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "assocHandle",
           "package": "openid",
@@ -2871,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "assocMacKey",
           "package": "openid",
@@ -2880,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "assocMacKey",
           "normalized": "[Word]",
@@ -2895,6 +3143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "assocString",
           "package": "openid",
@@ -2904,6 +3153,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "assocString",
           "normalized": "AssocType-\u003eString",
@@ -2919,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "assocType",
           "package": "openid",
@@ -2928,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "assocType",
           "package": "openid",
@@ -2941,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "getIdentifier",
           "package": "openid",
@@ -2950,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "getIdentifier",
           "package": "openid",
@@ -2964,6 +3218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the URI in a provider\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "modifyProvider",
           "package": "openid",
@@ -2974,6 +3229,7 @@
         "index": {
           "description": "Modify the URI in provider",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "modifyProvider",
           "normalized": "(URI-\u003eURI)-\u003eProvider-\u003eProvider",
@@ -2990,6 +3246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a provider\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "parseProvider",
           "package": "openid",
@@ -3000,6 +3257,7 @@
         "index": {
           "description": "Parse provider",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "parseProvider",
           "normalized": "String-\u003eMaybe Provider",
@@ -3015,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "providerURI",
           "package": "openid",
@@ -3024,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "providerURI",
           "normalized": "Provider-\u003eURI",
@@ -3040,6 +3300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a provider\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Types",
           "name": "showProvider",
           "package": "openid",
@@ -3050,6 +3311,7 @@
         "index": {
           "description": "Show provider",
           "hierarchy": "Network OpenID Types",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Types",
           "name": "showProvider",
           "normalized": "Provider-\u003eString",
@@ -3065,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "Utils",
           "package": "openid",
@@ -3073,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "Utils",
           "package": "openid",
@@ -3087,6 +3351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak up a string by a predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "breaks",
           "package": "openid",
@@ -3097,6 +3362,7 @@
         "index": {
           "description": "Break up string by predicate",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "breaks",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -3112,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad out a list of bytes to represent a positive, big-endian list of bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "btwoc",
           "package": "openid",
@@ -3122,6 +3389,7 @@
         "index": {
           "description": "Pad out list of bytes to represent positive big-endian list of bytes",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "btwoc",
           "normalized": "[Word]-\u003e[Word]",
@@ -3137,6 +3405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault modulus for Diffie-Hellman key exchange.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "defaultModulus",
           "package": "openid",
@@ -3147,6 +3416,7 @@
         "index": {
           "description": "Default modulus for Diffie-Hellman key exchange",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "defaultModulus",
           "package": "openid",
@@ -3161,6 +3431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup parameters inside an exception handling monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "lookupParam",
           "package": "openid",
@@ -3171,6 +3442,7 @@
         "index": {
           "description": "Lookup parameters inside an exception handling monad",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "lookupParam",
           "normalized": "String-\u003eParams-\u003ea String",
@@ -3187,6 +3459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe OpenID-2.0 namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "openidNS",
           "package": "openid",
@@ -3197,6 +3470,7 @@
         "index": {
           "description": "The OpenID-2.0 namespace",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "openidNS",
           "package": "openid",
@@ -3211,6 +3485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead inside of an Exception monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "readM",
           "package": "openid",
@@ -3221,6 +3496,7 @@
         "index": {
           "description": "Read inside of an Exception monad",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "readM",
           "normalized": "a-\u003eString-\u003eb c",
@@ -3236,6 +3512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead, maybe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "readMaybe",
           "package": "openid",
@@ -3246,6 +3523,7 @@
         "index": {
           "description": "Read maybe",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "readMaybe",
           "normalized": "String-\u003eMaybe a",
@@ -3262,6 +3540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "readParam",
           "package": "openid",
@@ -3272,6 +3551,7 @@
         "index": {
           "description": "Read field",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "readParam",
           "normalized": "String-\u003eParams-\u003ea b",
@@ -3288,6 +3568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an Integer out of a big-endian list of bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "roll",
           "package": "openid",
@@ -3298,6 +3579,7 @@
         "index": {
           "description": "Build an Integer out of big-endian list of bytes",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "roll",
           "normalized": "[Word]-\u003eInteger",
@@ -3313,6 +3595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpit a list into a pair, removing the element that caused the predicate to\n   succeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "split",
           "package": "openid",
@@ -3323,6 +3606,7 @@
         "index": {
           "description": "Spit list into pair removing the element that caused the predicate to succeed",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "split",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -3338,6 +3622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn an Integer into a big-endian list of bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "unroll",
           "package": "openid",
@@ -3348,6 +3633,7 @@
         "index": {
           "description": "Turn an Integer into big-endian list of bytes",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "unroll",
           "normalized": "Integer-\u003e[Word]",
@@ -3363,6 +3649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an HTTP request, and run a function with a successful response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID.Utils",
           "name": "withResponse",
           "package": "openid",
@@ -3373,6 +3660,7 @@
         "index": {
           "description": "Make an HTTP request and run function with successful response",
           "hierarchy": "Network OpenID Utils",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID.Utils",
           "name": "withResponse",
           "normalized": "Either ConnError(Response String)-\u003e(Response String-\u003ea b)-\u003ea b",
@@ -3388,6 +3676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Network.OpenID",
           "name": "OpenID",
           "package": "openid",
@@ -3396,6 +3685,7 @@
         },
         "index": {
           "hierarchy": "Network OpenID",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Network.OpenID",
           "name": "OpenID",
           "package": "openid",
@@ -3409,6 +3699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "XRDS",
           "package": "openid",
@@ -3417,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "XRDS",
           "package": "openid",
@@ -3430,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "Service",
           "package": "openid",
@@ -3438,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "Service",
           "package": "openid",
@@ -3451,6 +3745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "XRD",
           "package": "openid",
@@ -3459,6 +3754,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "XRD",
           "package": "openid",
@@ -3472,6 +3768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "XRDS",
           "package": "openid",
@@ -3480,6 +3777,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "XRDS",
           "package": "openid",
@@ -3493,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "Service",
           "package": "openid",
@@ -3502,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "Service",
           "package": "openid",
@@ -3516,6 +3816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a predicate over Service Types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "hasType",
           "package": "openid",
@@ -3526,6 +3827,7 @@
         "index": {
           "description": "Generate predicate over Service Types",
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "hasType",
           "normalized": "String-\u003eService-\u003eBool",
@@ -3542,6 +3844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to see if an XRDS service description is usable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "isUsable",
           "package": "openid",
@@ -3552,6 +3855,7 @@
         "index": {
           "description": "Check to see if an XRDS service description is usable",
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "isUsable",
           "normalized": "XRDS-\u003eBool",
@@ -3567,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "parseXRDS",
           "package": "openid",
@@ -3576,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "parseXRDS",
           "normalized": "String-\u003eMaybe XRDS",
@@ -3591,6 +3897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "serviceExtra",
           "package": "openid",
@@ -3600,6 +3907,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "serviceExtra",
           "normalized": "[Element]",
@@ -3615,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "serviceLocalIDs",
           "package": "openid",
@@ -3624,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "serviceLocalIDs",
           "normalized": "[String]",
@@ -3639,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "serviceMediaTypes",
           "package": "openid",
@@ -3648,6 +3959,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "serviceMediaTypes",
           "normalized": "[String]",
@@ -3663,6 +3975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "servicePriority",
           "package": "openid",
@@ -3672,6 +3985,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "servicePriority",
           "package": "openid",
@@ -3685,6 +3999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "serviceTypes",
           "package": "openid",
@@ -3694,6 +4009,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "serviceTypes",
           "normalized": "[String]",
@@ -3709,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:01 UTC 2014",
           "module": "Text.XRDS",
           "name": "serviceURIs",
           "package": "openid",
@@ -3718,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Text XRDS",
+          "indexed": "2014-03-11T19:32:01",
           "module": "Text.XRDS",
           "name": "serviceURIs",
           "normalized": "[String]",

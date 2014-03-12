@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "diagrams-lib"
+        "phrase": "diagrams-lib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003cem\u003ealignment\u003c/em\u003e of an object refers to the position of its local\n origin with respect to its envelope.  This module defines the\n \u003ccode\u003e\u003ca\u003eAlignable\u003c/a\u003e\u003c/code\u003e class for things which can be aligned, as well as a\n default implementation in terms of \u003ccode\u003e\u003ca\u003eHasOrigin\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEnveloped\u003c/a\u003e\u003c/code\u003e,\n along with several utility methods for alignment.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "Align",
           "package": "diagrams-lib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The alignment of an object refers to the position of its local origin with respect to its envelope This module defines the Alignable class for things which can be aligned as well as default implementation in terms of HasOrigin and Enveloped along with several utility methods for alignment",
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "Align",
           "package": "diagrams-lib",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of things which can be aligned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "Alignable",
           "package": "diagrams-lib",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Class of things which can be aligned",
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "Alignable",
           "package": "diagrams-lib",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ealign v\u003c/code\u003e aligns an enveloped object along the edge in the\n   direction of \u003ccode\u003ev\u003c/code\u003e.  That is, it moves the local origin in the\n   direction of \u003ccode\u003ev\u003c/code\u003e until it is on the edge of the envelope.  (Note\n   that if the local origin is outside the envelope to begin with,\n   it may have to move \"backwards\".)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "align",
           "package": "diagrams-lib",
@@ -75,6 +80,7 @@
         "index": {
           "description": "align aligns an enveloped object along the edge in the direction of That is it moves the local origin in the direction of until it is on the edge of the envelope Note that if the local origin is outside the envelope to begin with it may have to move backwards",
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "align",
           "normalized": "V a-\u003ea-\u003ea",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "alignBy",
           "package": "diagrams-lib",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "alignBy",
           "normalized": "V a-\u003eScalar(V a)-\u003ea-\u003ea",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ealignBy v d a\u003c/code\u003e moves the origin of \u003ccode\u003ea\u003c/code\u003e along the vector\n   \u003ccode\u003ev\u003c/code\u003e. If \u003ccode\u003ed = 1\u003c/code\u003e, the origin is moved to the edge of the\n   boundary in the direction of \u003ccode\u003ev\u003c/code\u003e; if \u003ccode\u003ed = -1\u003c/code\u003e, it moves to the\n   edge of the boundary in the direction of the negation of \u003ccode\u003ev\u003c/code\u003e.\n   Other values of \u003ccode\u003ed\u003c/code\u003e interpolate linearly (so for example, \u003ccode\u003ed =\n   0\u003c/code\u003e centers the origin along the direction of \u003ccode\u003ev\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "alignBy'",
           "package": "diagrams-lib",
@@ -124,6 +133,7 @@
         "index": {
           "description": "alignBy moves the origin of along the vector If the origin is moved to the edge of the boundary in the direction of if it moves to the edge of the boundary in the direction of the negation of Other values of interpolate linearly so for example centers the origin along the direction of",
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "alignBy'",
           "normalized": "(V a-\u003ea-\u003ePoint(V a))-\u003eV a-\u003eScalar(V a)-\u003ea-\u003ea",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault implementation of \u003ccode\u003e\u003ca\u003ealignBy\u003c/a\u003e\u003c/code\u003e for types with \u003ccode\u003e\u003ca\u003eHasOrigin\u003c/a\u003e\u003c/code\u003e\n   and \u003ccode\u003e\u003ca\u003eAdditiveGroup\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "alignBy'Default",
           "package": "diagrams-lib",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Default implementation of alignBy for types with HasOrigin and AdditiveGroup instances",
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "alignBy'Default",
           "normalized": "(V a-\u003ea-\u003ePoint(V a))-\u003eV a-\u003eScalar(V a)-\u003ea-\u003ea",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecenter v\u003c/code\u003e centers an enveloped object along the direction of\n   \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "center",
           "package": "diagrams-lib",
@@ -176,6 +189,7 @@
         "index": {
           "description": "center centers an enveloped object along the direction of",
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "center",
           "normalized": "V a-\u003ea-\u003ea",
@@ -190,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "defaultBoundary",
           "package": "diagrams-lib",
@@ -199,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "defaultBoundary",
           "normalized": "V a-\u003ea-\u003ePoint(V a)",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome standard functions which can be used as the \u003ccode\u003eboundary\u003c/code\u003e argument to\n  \u003ccode\u003e\u003ca\u003ealignBy'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "envelopeBoundary",
           "package": "diagrams-lib",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Some standard functions which can be used as the boundary argument to alignBy",
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "envelopeBoundary",
           "normalized": "V a-\u003ea-\u003ePoint(V a)",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike align but uses trace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "snug",
           "package": "diagrams-lib",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Like align but uses trace",
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "snug",
           "normalized": "V a-\u003ea-\u003ea",
@@ -266,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003ealignBy\u003c/code\u003e specialized to use \u003ccode\u003etraceBoundary\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "snugBy",
           "package": "diagrams-lib",
@@ -276,6 +297,7 @@
         "index": {
           "description": "Version of alignBy specialized to use traceBoundary",
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "snugBy",
           "normalized": "V a-\u003eScalar(V a)-\u003ea-\u003ea",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003ecenter\u003c/code\u003e using trace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "snugCenter",
           "package": "diagrams-lib",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Like center using trace",
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "snugCenter",
           "normalized": "V a-\u003ea-\u003ea",
@@ -317,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Align",
           "name": "traceBoundary",
           "package": "diagrams-lib",
@@ -326,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Align",
           "name": "traceBoundary",
           "normalized": "V a-\u003ea-\u003ePoint(V a)",
@@ -342,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA few utilities and class instances for \u003ccode\u003e\u003ca\u003eActive\u003c/a\u003e\u003c/code\u003e (from the \u003ccode\u003eactive\u003c/code\u003e\n package).  In particular, this module defines\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e An instance of \u003ccode\u003e\u003ca\u003eV\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eActive\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eV\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eActive\u003c/a\u003e\u003c/code\u003e a) = \u003ccode\u003e\u003ca\u003eV\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHasOrigin\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTransformable\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eHasStyle\u003c/a\u003e\u003c/code\u003e instances for\n     \u003ccode\u003e\u003ca\u003eActive\u003c/a\u003e\u003c/code\u003e which all work pointwise.\n\u003c/li\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eTrailLike\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eActive\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e where \u003ccode\u003ep\u003c/code\u003e is also\n     \u003ccode\u003e\u003ca\u003eTrailLike\u003c/a\u003e\u003c/code\u003e, which simply lifts a pathlike thing to a constant\n     active value.\n\u003c/li\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eJuxtaposable\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eActive\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e where \u003ccode\u003ea\u003c/code\u003e is also\n     \u003ccode\u003e\u003ca\u003eJuxtaposable\u003c/a\u003e\u003c/code\u003e.  An active value can be juxtaposed against\n     another by doing the juxtaposition pointwise over time.  The\n     era of \u003ccode\u003ejuxtapose v a1 a2\u003c/code\u003e will be the same as the era of \u003ccode\u003ea2\u003c/code\u003e,\n     unless \u003ccode\u003ea2\u003c/code\u003e is constant, in which case it will be the era of\n     \u003ccode\u003ea1\u003c/code\u003e.  (Note that \u003ccode\u003ejuxtapose v a1 a2\u003c/code\u003e and \u003ccode\u003eliftA2 (juxtapose v)\n     a1 a2\u003c/code\u003e therefore have different semantics: the second is an\n     active value whose era is the \u003cem\u003ecombination\u003c/em\u003e of the eras of \u003ccode\u003ea1\u003c/code\u003e\n     and \u003ccode\u003ea2\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e An \u003ccode\u003eAlignable\u003c/code\u003e instance for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eActive\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e where \u003ccode\u003ea\u003c/code\u003e is also\n     \u003ccode\u003eAlignable\u003c/code\u003e; the active value is aligned pointwise over time.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Animation.Active",
           "name": "Active",
           "package": "diagrams-lib",
@@ -351,6 +378,7 @@
         "index": {
           "description": "few utilities and class instances for Active from the active package In particular this module defines An instance of for Active Active HasOrigin Transformable and HasStyle instances for Active which all work pointwise TrailLike instance for Active where is also TrailLike which simply lifts pathlike thing to constant active value Juxtaposable instance for Active where is also Juxtaposable An active value can be juxtaposed against another by doing the juxtaposition pointwise over time The era of juxtapose a1 a2 will be the same as the era of a2 unless a2 is constant in which case it will be the era of a1 Note that juxtapose a1 a2 and liftA2 juxtapose a1 a2 therefore have different semantics the second is an active value whose era is the combination of the eras of a1 and a2 An Alignable instance for Active where is also Alignable the active value is aligned pointwise over time",
           "hierarchy": "Diagrams Animation Active",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Animation.Active",
           "name": "Active",
           "package": "diagrams-lib",
@@ -365,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn animation is a time-varying diagram, together with start and end\n times.  Most of the tools for working with animations can actually\n be found in the \u003ccode\u003eactive\u003c/code\u003e package, which defines the \u003ccode\u003e\u003ca\u003eActive\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003cp\u003eXXX more documentation and examples should go here\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Animation",
           "name": "Animation",
           "package": "diagrams-lib",
@@ -374,6 +403,7 @@
         "index": {
           "description": "An animation is time-varying diagram together with start and end times Most of the tools for working with animations can actually be found in the active package which defines the Active type XXX more documentation and examples should go here",
           "hierarchy": "Diagrams Animation",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Animation",
           "name": "Animation",
           "package": "diagrams-lib",
@@ -388,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003eAnimation b v\u003c/code\u003e is an animation (a time-varying\n   diagram with start and end times) in vector space \u003ccode\u003ev\u003c/code\u003e that can be\n   rendered by backspace \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003eAnimation\u003c/code\u003e is actually a synonym for \u003ccode\u003eQAnimation\u003c/code\u003e\n   where the type of the monoidal annotations has been fixed to\n   \u003ccode\u003e\u003ca\u003eAny\u003c/a\u003e\u003c/code\u003e (the default).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Animation",
           "name": "Animation",
           "package": "diagrams-lib",
@@ -397,6 +428,7 @@
         "index": {
           "description": "value of type Animation is an animation time-varying diagram with start and end times in vector space that can be rendered by backspace Note that Animation is actually synonym for QAnimation where the type of the monoidal annotations has been fixed to Any the default",
           "hierarchy": "Diagrams Animation",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Animation",
           "name": "Animation",
           "package": "diagrams-lib",
@@ -411,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003eQAnimation b v m\u003c/code\u003e is an animation (a\n   time-varying diagram with start and end times) that can be\n   rendered by backspace \u003ccode\u003eb\u003c/code\u003e, with vector space \u003ccode\u003ev\u003c/code\u003e and monoidal\n   annotations of type \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Animation",
           "name": "QAnimation",
           "package": "diagrams-lib",
@@ -420,6 +453,7 @@
         "index": {
           "description": "value of type QAnimation is an animation time-varying diagram with start and end times that can be rendered by backspace with vector space and monoidal annotations of type",
           "hierarchy": "Diagrams Animation",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Animation",
           "name": "QAnimation",
           "package": "diagrams-lib",
@@ -434,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutomatically assign fixed a envelope to the entirety of an\n   animation by sampling the envelope at a number of points in time\n   and taking the union of all the sampled envelopes to form the\n   \"hull\".  This hull is then used uniformly throughout the\n   animation.\n\u003c/p\u003e\u003cp\u003eThis is useful when you have an animation that grows and shrinks\n   in size or shape over time, but you want it to take up a fixed\n   amount of space, \u003cem\u003ee.g.\u003c/em\u003e so that the final rendered movie does not\n   zoom in and out, or so that it occupies a fixed location with\n   respect to another animation, when combining animations with\n   something like \u003ccode\u003e|||\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBy default, 30 samples per time unit are used; to adjust this\n   number see \u003ccode\u003e\u003ca\u003eanimEnvelope'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eanimRect\u003c/a\u003e\u003c/code\u003e for help constructing a background to go\n   behind an animation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Animation",
           "name": "animEnvelope",
           "package": "diagrams-lib",
@@ -444,6 +479,7 @@
         "index": {
           "description": "Automatically assign fixed envelope to the entirety of an animation by sampling the envelope at number of points in time and taking the union of all the sampled envelopes to form the hull This hull is then used uniformly throughout the animation This is useful when you have an animation that grows and shrinks in size or shape over time but you want it to take up fixed amount of space e.g so that the final rendered movie does not zoom in and out or so that it occupies fixed location with respect to another animation when combining animations with something like By default samples per time unit are used to adjust this number see animEnvelope See also animRect for help constructing background to go behind an animation",
           "hierarchy": "Diagrams Animation",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Animation",
           "name": "animEnvelope",
           "normalized": "QAnimation a b c-\u003eQAnimation a b c",
@@ -460,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eanimEnvelope\u003c/a\u003e\u003c/code\u003e, but with an adjustible sample rate.  The first\n   parameter is the number of samples per time unit to use.  Lower\n   rates will be faster but less accurate; higher rates are more\n   accurate but slower.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Animation",
           "name": "animEnvelope'",
           "package": "diagrams-lib",
@@ -470,6 +507,7 @@
         "index": {
           "description": "Like animEnvelope but with an adjustible sample rate The first parameter is the number of samples per time unit to use Lower rates will be faster but less accurate higher rates are more accurate but slower",
           "hierarchy": "Diagrams Animation",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Animation",
           "name": "animEnvelope'",
           "normalized": "Rational-\u003eQAnimation a b c-\u003eQAnimation a b c",
@@ -486,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eanimRect\u003c/code\u003e works similarly to \u003ccode\u003e\u003ca\u003eanimEnvelope\u003c/a\u003e\u003c/code\u003e for 2D diagrams, but\n   instead of adjusting the envelope, simply returns the smallest\n   bounding rectangle which encloses the entire animation.  Useful\n   for \u003cem\u003ee.g.\u003c/em\u003e creating a background to go behind an animation.\n\u003c/p\u003e\u003cp\u003eUses 30 samples per time unit by default; to adjust this number\n   see \u003ccode\u003e\u003ca\u003eanimRect'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Animation",
           "name": "animRect",
           "package": "diagrams-lib",
@@ -496,6 +535,7 @@
         "index": {
           "description": "animRect works similarly to animEnvelope for diagrams but instead of adjusting the envelope simply returns the smallest bounding rectangle which encloses the entire animation Useful for e.g creating background to go behind an animation Uses samples per time unit by default to adjust this number see animRect",
           "hierarchy": "Diagrams Animation",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Animation",
           "name": "animRect",
           "normalized": "QAnimation a R b-\u003ec",
@@ -512,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eanimRect\u003c/a\u003e\u003c/code\u003e, but with an adjustible sample rate.  The first\n   parameter is the number of samples per time unit to use.  Lower\n   rates will be faster but less accurate; higher rates are more\n   accurate but slower.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Animation",
           "name": "animRect'",
           "package": "diagrams-lib",
@@ -522,6 +563,7 @@
         "index": {
           "description": "Like animRect but with an adjustible sample rate The first parameter is the number of samples per time unit to use Lower rates will be faster but less accurate higher rates are more accurate but slower",
           "hierarchy": "Diagrams Animation",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Animation",
           "name": "animRect'",
           "normalized": "Rational-\u003eQAnimation a R b-\u003ec",
@@ -538,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiagrams may have \u003cem\u003eattributes\u003c/em\u003e which affect the way they are\n rendered.  This module defines some common attributes; particular\n backends may also define more backend-specific attributes.\n\u003c/p\u003e\u003cp\u003eEvery attribute type must have a \u003cem\u003esemigroup\u003c/em\u003e structure, that is, an\n associative binary operation for combining two attributes into one.\n Unless otherwise noted, all the attributes defined here use the\n \u003ccode\u003e\u003ca\u003eLast\u003c/a\u003e\u003c/code\u003e structure, that is, combining two attributes simply keeps\n the second one and throws away the first.  This means that child\n attributes always override parent attributes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "Attributes",
           "package": "diagrams-lib",
@@ -547,6 +590,7 @@
         "index": {
           "description": "Diagrams may have attributes which affect the way they are rendered This module defines some common attributes particular backends may also define more backend-specific attributes Every attribute type must have semigroup structure that is an associative binary operation for combining two attributes into one Unless otherwise noted all the attributes defined here use the Last structure that is combining two attributes simply keeps the second one and throws away the first This means that child attributes always override parent attributes",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "Attributes",
           "package": "diagrams-lib",
@@ -561,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e type class encompasses color representations which\n   can be used by the Diagrams library.  Instances are provided for\n   both the \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e types\n   from the \u003ca\u003eData.Colour\u003c/a\u003e library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "Color",
           "package": "diagrams-lib",
@@ -570,6 +615,7 @@
         "index": {
           "description": "The Color type class encompasses color representations which can be used by the Diagrams library Instances are provided for both the Colour and AlphaColour types from the Data.Colour library",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "Color",
           "package": "diagrams-lib",
@@ -584,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate lines that are dashing... er, dashed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "Dashing",
           "package": "diagrams-lib",
@@ -593,6 +640,7 @@
         "index": {
           "description": "Create lines that are dashing er dashed",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "Dashing",
           "package": "diagrams-lib",
@@ -606,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "DashingA",
           "package": "diagrams-lib",
@@ -614,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "DashingA",
           "package": "diagrams-lib",
@@ -628,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe color with which shapes are filled. Note that child\n   colors always override parent colors; that is, \u003ccode\u003e\u003ccode\u003e\u003ca\u003efillColor\u003c/a\u003e\u003c/code\u003e c1\n   . \u003ccode\u003e\u003ca\u003efillColor\u003c/a\u003e\u003c/code\u003e c2 $ d\u003c/code\u003e is equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003elineColor\u003c/a\u003e\u003c/code\u003e c2 $ d\u003c/code\u003e.\n   More precisely, the semigroup structure on fill color attributes\n   is that of \u003ccode\u003e\u003ca\u003eLast\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "FillColor",
           "package": "diagrams-lib",
@@ -637,6 +688,7 @@
         "index": {
           "description": "The color with which shapes are filled Note that child colors always override parent colors that is fillColor c1 fillColor c2 is equivalent to lineColor c2 More precisely the semigroup structure on fill color attributes is that of Last",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "FillColor",
           "package": "diagrams-lib",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat sort of shape should be placed at the endpoints of lines?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineCap",
           "package": "diagrams-lib",
@@ -660,6 +713,7 @@
         "index": {
           "description": "What sort of shape should be placed at the endpoints of lines",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineCap",
           "package": "diagrams-lib",
@@ -673,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineCapA",
           "package": "diagrams-lib",
@@ -681,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineCapA",
           "package": "diagrams-lib",
@@ -695,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe color with which lines (strokes) are drawn.  Note that child\n   colors always override parent colors; that is, \u003ccode\u003e\u003ccode\u003e\u003ca\u003elineColor\u003c/a\u003e\u003c/code\u003e c1\n   . \u003ccode\u003e\u003ca\u003elineColor\u003c/a\u003e\u003c/code\u003e c2 $ d\u003c/code\u003e is equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003elineColor\u003c/a\u003e\u003c/code\u003e c2 $ d\u003c/code\u003e.\n   More precisely, the semigroup structure on line color attributes\n   is that of \u003ccode\u003e\u003ca\u003eLast\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineColor",
           "package": "diagrams-lib",
@@ -704,6 +761,7 @@
         "index": {
           "description": "The color with which lines strokes are drawn Note that child colors always override parent colors that is lineColor c1 lineColor c2 is equivalent to lineColor c2 More precisely the semigroup structure on line color attributes is that of Last",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineColor",
           "package": "diagrams-lib",
@@ -718,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow should the join points between line segments be drawn?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineJoin",
           "package": "diagrams-lib",
@@ -727,6 +786,7 @@
         "index": {
           "description": "How should the join points between line segments be drawn",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineJoin",
           "package": "diagrams-lib",
@@ -740,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineJoinA",
           "package": "diagrams-lib",
@@ -748,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineJoinA",
           "package": "diagrams-lib",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMiter limit attribute affecting the \u003ccode\u003e\u003ca\u003eLineJoinMiter\u003c/a\u003e\u003c/code\u003e joins.\n   For some backends this value may have additional effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineMiterLimit",
           "package": "diagrams-lib",
@@ -771,6 +834,7 @@
         "index": {
           "description": "Miter limit attribute affecting the LineJoinMiter joins For some backends this value may have additional effects",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineMiterLimit",
           "package": "diagrams-lib",
@@ -785,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe width of lines.  By default, the line width is measured with\n   respect to the \u003cem\u003efinal\u003c/em\u003e coordinate system of a rendered diagram,\n   as opposed to the local coordinate systems in effect at the time\n   the line width was set for various subdiagrams.  This is so that\n   it is easy to combine a variety of shapes (some created by\n   scaling) and have them all drawn using a consistent line width.\n   However, sometimes it is desirable for scaling to affect line\n   width; the \u003ccode\u003e\u003ca\u003efreeze\u003c/a\u003e\u003c/code\u003e operation is provided for this purpose.  The\n   line width of frozen diagrams is affected by transformations.\n\u003c/p\u003e\u003cp\u003eLine widths specified on child nodes always override line widths\n   specified at parent nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineWidth",
           "package": "diagrams-lib",
@@ -794,6 +859,7 @@
         "index": {
           "description": "The width of lines By default the line width is measured with respect to the final coordinate system of rendered diagram as opposed to the local coordinate systems in effect at the time the line width was set for various subdiagrams This is so that it is easy to combine variety of shapes some created by scaling and have them all drawn using consistent line width However sometimes it is desirable for scaling to affect line width the freeze operation is provided for this purpose The line width of frozen diagrams is affected by transformations Line widths specified on child nodes always override line widths specified at parent nodes",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineWidth",
           "package": "diagrams-lib",
@@ -808,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlthough the individual colors in a diagram can have\n   transparency, the opacity/transparency of a diagram as a whole\n   can be specified with the \u003ccode\u003eOpacity\u003c/code\u003e attribute.  The opacity is a\n   value between 1 (completely opaque, the default) and 0\n   (completely transparent).  Opacity is multiplicative, that is,\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eopacity\u003c/a\u003e\u003c/code\u003e o1 . \u003ccode\u003e\u003ca\u003eopacity\u003c/a\u003e\u003c/code\u003e o2 === \u003ccode\u003e\u003ca\u003eopacity\u003c/a\u003e\u003c/code\u003e (o1 * o2)\u003c/code\u003e.  In other\n   words, for example, \u003ccode\u003eopacity 0.8\u003c/code\u003e means \"decrease this diagram's\n   opacity to 80% of its previous opacity\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "Opacity",
           "package": "diagrams-lib",
@@ -817,6 +884,7 @@
         "index": {
           "description": "Although the individual colors in diagram can have transparency the opacity transparency of diagram as whole can be specified with the Opacity attribute The opacity is value between completely opaque the default and completely transparent Opacity is multiplicative that is opacity o1 opacity o2 opacity o1 o2 In other words for example opacity means decrease this diagram opacity to of its previous opacity",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "Opacity",
           "package": "diagrams-lib",
@@ -831,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existential wrapper for instances of the \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "SomeColor",
           "package": "diagrams-lib",
@@ -840,6 +909,7 @@
         "index": {
           "description": "An existential wrapper for instances of the Color class",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "SomeColor",
           "package": "diagrams-lib",
@@ -853,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "Dashing",
           "package": "diagrams-lib",
@@ -862,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "Dashing",
           "normalized": "Dashing[Double]Double",
@@ -878,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLines end precisely at their endpoints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineCapButt",
           "package": "diagrams-lib",
@@ -888,6 +961,7 @@
         "index": {
           "description": "Lines end precisely at their endpoints",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineCapButt",
           "package": "diagrams-lib",
@@ -902,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLines are capped with semicircles\n   centered on endpoints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineCapRound",
           "package": "diagrams-lib",
@@ -912,6 +987,7 @@
         "index": {
           "description": "Lines are capped with semicircles centered on endpoints",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineCapRound",
           "package": "diagrams-lib",
@@ -926,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLines are capped with a squares\n   centered on endpoints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineCapSquare",
           "package": "diagrams-lib",
@@ -936,6 +1013,7 @@
         "index": {
           "description": "Lines are capped with squares centered on endpoints",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineCapSquare",
           "package": "diagrams-lib",
@@ -950,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a \"bevel\" shape (whatever\n   that is).  Are these...\n   carpentry terms?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineJoinBevel",
           "package": "diagrams-lib",
@@ -960,6 +1039,7 @@
         "index": {
           "description": "Use bevel shape whatever that is Are these carpentry terms",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineJoinBevel",
           "package": "diagrams-lib",
@@ -974,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a \"miter\" shape (whatever that is).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineJoinMiter",
           "package": "diagrams-lib",
@@ -984,6 +1065,7 @@
         "index": {
           "description": "Use miter shape whatever that is",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineJoinMiter",
           "package": "diagrams-lib",
@@ -998,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse rounded join points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineJoinRound",
           "package": "diagrams-lib",
@@ -1008,6 +1091,7 @@
         "index": {
           "description": "Use rounded join points",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineJoinRound",
           "package": "diagrams-lib",
@@ -1021,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "LineMiterLimit",
           "package": "diagrams-lib",
@@ -1030,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "LineMiterLimit",
           "package": "diagrams-lib",
@@ -1043,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "SomeColor",
           "package": "diagrams-lib",
@@ -1052,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "SomeColor",
           "package": "diagrams-lib",
@@ -1066,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Renamed to colorToSRGBA.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eConvert to sRGBA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "colorToRGBA",
           "package": "diagrams-lib",
@@ -1076,6 +1165,7 @@
         "index": {
           "description": "Deprecated Renamed to colorToSRGBA Convert to sRGBA",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "colorToRGBA",
           "normalized": "a-\u003e(Double,Double,Double,Double)",
@@ -1092,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to sRGBA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "colorToSRGBA",
           "package": "diagrams-lib",
@@ -1102,6 +1193,7 @@
         "index": {
           "description": "Convert to sRGBA",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "colorToSRGBA",
           "normalized": "a-\u003e(Double,Double,Double,Double)",
@@ -1118,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line dashing style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "dashing",
           "package": "diagrams-lib",
@@ -1127,6 +1220,7 @@
         "index": {
           "description": "Set the line dashing style",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "dashing",
           "normalized": "[Double]-\u003eDouble-\u003ea-\u003ea",
@@ -1142,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym for \u003ccode\u003e\u003ca\u003efillColor\u003c/a\u003e\u003c/code\u003e, specialized to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e Double\u003c/code\u003e\n   (i.e. opaque colors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "fc",
           "package": "diagrams-lib",
@@ -1152,6 +1247,7 @@
         "index": {
           "description": "synonym for fillColor specialized to Colour Double i.e opaque colors",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "fc",
           "normalized": "Colour Double-\u003ea-\u003ea",
@@ -1167,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym for \u003ccode\u003e\u003ca\u003efillColor\u003c/a\u003e\u003c/code\u003e, specialized to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e Double\u003c/code\u003e\n   (i.e. colors with transparency).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "fcA",
           "package": "diagrams-lib",
@@ -1177,6 +1274,7 @@
         "index": {
           "description": "synonym for fillColor specialized to AlphaColour Double i.e colors with transparency",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "fcA",
           "normalized": "AlphaColour Double-\u003ea-\u003ea",
@@ -1192,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the fill color.  This function is polymorphic in the color\n   type (so it can be used with either \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e),\n   but this can sometimes create problems for type inference, so the\n   \u003ccode\u003e\u003ca\u003efc\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efcA\u003c/a\u003e\u003c/code\u003e variants are provided with more concrete types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "fillColor",
           "package": "diagrams-lib",
@@ -1202,6 +1301,7 @@
         "index": {
           "description": "Set the fill color This function is polymorphic in the color type so it can be used with either Colour or AlphaColour but this can sometimes create problems for type inference so the fc and fcA variants are provided with more concrete types",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "fillColor",
           "normalized": "a-\u003eb-\u003eb",
@@ -1218,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from an AlphaColour Double.  Note that this direction\n   may lose some information. For example, the instance for\n   \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e drops the alpha channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "fromAlphaColour",
           "package": "diagrams-lib",
@@ -1228,6 +1329,7 @@
         "index": {
           "description": "Convert from an AlphaColour Double Note that this direction may lose some information For example the instance for Colour drops the alpha channel",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "fromAlphaColour",
           "normalized": "AlphaColour Double-\u003ea",
@@ -1243,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "getDashing",
           "package": "diagrams-lib",
@@ -1252,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "getDashing",
           "normalized": "DashingA-\u003eDashing",
@@ -1267,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "getFillColor",
           "package": "diagrams-lib",
@@ -1276,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "getFillColor",
           "normalized": "FillColor-\u003eSomeColor",
@@ -1291,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "getLineCap",
           "package": "diagrams-lib",
@@ -1300,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "getLineCap",
           "normalized": "LineCapA-\u003eLineCap",
@@ -1315,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "getLineColor",
           "package": "diagrams-lib",
@@ -1324,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "getLineColor",
           "normalized": "LineColor-\u003eSomeColor",
@@ -1339,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "getLineJoin",
           "package": "diagrams-lib",
@@ -1348,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "getLineJoin",
           "normalized": "LineJoinA-\u003eLineJoin",
@@ -1363,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "getLineMiterLimit",
           "package": "diagrams-lib",
@@ -1372,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "getLineMiterLimit",
           "normalized": "LineMiterLimit-\u003eDouble",
@@ -1387,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "getLineWidth",
           "package": "diagrams-lib",
@@ -1396,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "getLineWidth",
           "normalized": "LineWidth-\u003eDouble",
@@ -1411,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "getOpacity",
           "package": "diagrams-lib",
@@ -1420,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "getOpacity",
           "normalized": "Opacity-\u003eDouble",
@@ -1436,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym for \u003ccode\u003e\u003ca\u003elineColor\u003c/a\u003e\u003c/code\u003e, specialized to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e Double\u003c/code\u003e\n   (i.e. opaque colors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "lc",
           "package": "diagrams-lib",
@@ -1446,6 +1565,7 @@
         "index": {
           "description": "synonym for lineColor specialized to Colour Double i.e opaque colors",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "lc",
           "normalized": "Colour Double-\u003ea-\u003ea",
@@ -1461,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym for \u003ccode\u003e\u003ca\u003elineColor\u003c/a\u003e\u003c/code\u003e, specialized to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e Double\u003c/code\u003e\n   (i.e. colors with transparency).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "lcA",
           "package": "diagrams-lib",
@@ -1471,6 +1592,7 @@
         "index": {
           "description": "synonym for lineColor specialized to AlphaColour Double i.e colors with transparency",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "lcA",
           "normalized": "AlphaColour Double-\u003ea-\u003ea",
@@ -1486,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line end cap attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "lineCap",
           "package": "diagrams-lib",
@@ -1496,6 +1619,7 @@
         "index": {
           "description": "Set the line end cap attribute",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "lineCap",
           "normalized": "LineCap-\u003ea-\u003ea",
@@ -1512,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line (stroke) color.  This function is polymorphic in the\n   color type (so it can be used with either \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e), but this can sometimes create problems for type\n   inference, so the \u003ccode\u003e\u003ca\u003elc\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elcA\u003c/a\u003e\u003c/code\u003e variants are provided with more\n   concrete types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "lineColor",
           "package": "diagrams-lib",
@@ -1522,6 +1647,7 @@
         "index": {
           "description": "Set the line stroke color This function is polymorphic in the color type so it can be used with either Colour or AlphaColour but this can sometimes create problems for type inference so the lc and lcA variants are provided with more concrete types",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "lineColor",
           "normalized": "a-\u003eb-\u003eb",
@@ -1538,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003elineColor\u003c/a\u003e\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "lineColorA",
           "package": "diagrams-lib",
@@ -1548,6 +1675,7 @@
         "index": {
           "description": "Apply lineColor attribute",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "lineColorA",
           "normalized": "LineColor-\u003ea-\u003ea",
@@ -1564,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the segment join style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "lineJoin",
           "package": "diagrams-lib",
@@ -1574,6 +1703,7 @@
         "index": {
           "description": "Set the segment join style",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "lineJoin",
           "normalized": "LineJoin-\u003ea-\u003ea",
@@ -1590,6 +1720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the miter limit for joins with \u003ccode\u003e\u003ca\u003eLineJoinMiter\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "lineMiterLimit",
           "package": "diagrams-lib",
@@ -1600,6 +1731,7 @@
         "index": {
           "description": "Set the miter limit for joins with LineJoinMiter",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "lineMiterLimit",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1616,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eLineMiterLimit\u003c/a\u003e\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "lineMiterLimitA",
           "package": "diagrams-lib",
@@ -1626,6 +1759,7 @@
         "index": {
           "description": "Apply LineMiterLimit attribute",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "lineMiterLimitA",
           "normalized": "LineMiterLimit-\u003ea-\u003ea",
@@ -1642,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line (stroke) width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "lineWidth",
           "package": "diagrams-lib",
@@ -1652,6 +1787,7 @@
         "index": {
           "description": "Set the line stroke width",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "lineWidth",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1668,6 +1804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eLineWidth\u003c/a\u003e\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "lineWidthA",
           "package": "diagrams-lib",
@@ -1678,6 +1815,7 @@
         "index": {
           "description": "Apply LineWidth attribute",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "lineWidthA",
           "normalized": "LineWidth-\u003ea-\u003ea",
@@ -1694,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenient synonym for \u003ccode\u003e\u003ca\u003elineWidth\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "lw",
           "package": "diagrams-lib",
@@ -1704,6 +1843,7 @@
         "index": {
           "description": "convenient synonym for lineWidth",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "lw",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1718,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "mkFillColor",
           "package": "diagrams-lib",
@@ -1727,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "mkFillColor",
           "normalized": "a-\u003eFillColor",
@@ -1742,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "mkLineColor",
           "package": "diagrams-lib",
@@ -1751,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "mkLineColor",
           "normalized": "a-\u003eLineColor",
@@ -1767,6 +1911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply the opacity (see \u003ccode\u003e\u003ca\u003eOpacity\u003c/a\u003e\u003c/code\u003e) by the given value.  For\n   example, \u003ccode\u003eopacity 0.8\u003c/code\u003e means \"decrease this diagram's opacity to\n   80% of its previous opacity\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "opacity",
           "package": "diagrams-lib",
@@ -1777,6 +1922,7 @@
         "index": {
           "description": "Multiply the opacity see Opacity by the given value For example opacity means decrease this diagram opacity to of its previous opacity",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "opacity",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1792,6 +1938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a \"recommended\" fill color, to be used only if no explicit\n   calls to \u003ccode\u003e\u003ca\u003efillColor\u003c/a\u003e\u003c/code\u003e (or \u003ccode\u003e\u003ca\u003efc\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003efcA\u003c/a\u003e\u003c/code\u003e) are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "recommendFillColor",
           "package": "diagrams-lib",
@@ -1802,6 +1949,7 @@
         "index": {
           "description": "Set recommended fill color to be used only if no explicit calls to fillColor or fc or fcA are used",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "recommendFillColor",
           "normalized": "a-\u003eb-\u003eb",
@@ -1817,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "someToAlpha",
           "package": "diagrams-lib",
@@ -1826,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "someToAlpha",
           "normalized": "SomeColor-\u003eAlphaColour Double",
@@ -1841,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "styleFillColor",
           "package": "diagrams-lib",
@@ -1850,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "styleFillColor",
           "package": "diagrams-lib",
@@ -1863,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "styleLineColor",
           "package": "diagrams-lib",
@@ -1872,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "styleLineColor",
           "package": "diagrams-lib",
@@ -1886,6 +2040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a color to its standard representation, AlphaColour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "toAlphaColour",
           "package": "diagrams-lib",
@@ -1896,6 +2051,7 @@
         "index": {
           "description": "Convert color to its standard representation AlphaColour",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "toAlphaColour",
           "normalized": "a-\u003eAlphaColour Double",
@@ -1912,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to an RGB space while preserving the alpha channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Attributes",
           "name": "toRGBAUsingSpace",
           "package": "diagrams-lib",
@@ -1922,6 +2079,7 @@
         "index": {
           "description": "Convert to an RGB space while preserving the alpha channel",
           "hierarchy": "Diagrams Attributes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Attributes",
           "name": "toRGBAUsingSpace",
           "normalized": "RGBSpace Double-\u003ea-\u003e(Double,Double,Double,Double)",
@@ -1938,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenient creation of command-line-driven executables for\n rendering diagrams.  This module provides a general framework\n and default behaviors for parsing command-line arguments,\n records for diagram creation options in various forms, and\n classes and instances for a unified entry point to command-line-driven\n diagram creation executables.\n\u003c/p\u003e\u003cp\u003eFor a tutorial on command-line diagram creation see\n \u003ca\u003ehttp://projects.haskell.org/diagrams/doc/cmdline.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "CmdLine",
           "package": "diagrams-lib",
@@ -1947,6 +2106,7 @@
         "index": {
           "description": "Convenient creation of command-line-driven executables for rendering diagrams This module provides general framework and default behaviors for parsing command-line arguments records for diagram creation options in various forms and classes and instances for unified entry point to command-line-driven diagram creation executables For tutorial on command-line diagram creation see http projects.haskell.org diagrams doc cmdline.html",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "CmdLine",
           "package": "diagrams-lib",
@@ -1961,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra options for animations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramAnimOpts",
           "package": "diagrams-lib",
@@ -1970,6 +2131,7 @@
         "index": {
           "description": "Extra options for animations",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramAnimOpts",
           "package": "diagrams-lib",
@@ -1984,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra options for command-line looping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramLoopOpts",
           "package": "diagrams-lib",
@@ -1993,6 +2156,7 @@
         "index": {
           "description": "Extra options for command-line looping",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramLoopOpts",
           "package": "diagrams-lib",
@@ -2007,6 +2171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra options for a program that can offer a choice\n   between multiple diagrams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramMultiOpts",
           "package": "diagrams-lib",
@@ -2016,6 +2181,7 @@
         "index": {
           "description": "Extra options for program that can offer choice between multiple diagrams",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramMultiOpts",
           "package": "diagrams-lib",
@@ -2030,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard options most diagrams are likely to have.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramOpts",
           "package": "diagrams-lib",
@@ -2039,6 +2206,7 @@
         "index": {
           "description": "Standard options most diagrams are likely to have",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramOpts",
           "package": "diagrams-lib",
@@ -2053,6 +2221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class represents the various ways we want to support diagram creation\n   from the command line.  It has the right instances to select between creating\n   single static diagrams, multiple static diagrams, static animations, and\n   functions that produce diagrams as long as the arguments are \u003ccode\u003e\u003ca\u003eParseable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBackends are expected to create \u003ccode\u003eMainable\u003c/code\u003e instances for the types that are\n   suitable for generating output in the backend's format.  For instance,\n   Postscript can handle single diagrams, pages of diagrams, animations as\n   separate files, and association lists.  This implies instances for\n   \u003ccode\u003eDiagram Postscript R2\u003c/code\u003e, \u003ccode\u003e[Diagram Postscript R2]\u003c/code\u003e, \u003ccode\u003eAnimation Postscript R2\u003c/code\u003e,\n   and \u003ccode\u003e[(String,Diagram Postscript R2)]\u003c/code\u003e.  We can consider these as the base\n   cases for the function instance.\n\u003c/p\u003e\u003cp\u003eThe associated type \u003ccode\u003e\u003ca\u003eMainOpts\u003c/a\u003e\u003c/code\u003e describes the options which need to be parsed\n   from the command-line and passed to \u003ccode\u003emainRender\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "Mainable",
           "package": "diagrams-lib",
@@ -2062,6 +2231,7 @@
         "index": {
           "description": "This class represents the various ways we want to support diagram creation from the command line It has the right instances to select between creating single static diagrams multiple static diagrams static animations and functions that produce diagrams as long as the arguments are Parseable Backends are expected to create Mainable instances for the types that are suitable for generating output in the backend format For instance Postscript can handle single diagrams pages of diagrams animations as separate files and association lists This implies instances for Diagram Postscript R2 Diagram Postscript R2 Animation Postscript R2 and String Diagram Postscript R2 We can consider these as the base cases for the function instance The associated type MainOpts describes the options which need to be parsed from the command-line and passed to mainRender",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "Mainable",
           "package": "diagrams-lib",
@@ -2076,6 +2246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParseable instances give a command line parser for a type.  If a custom\n   parser for a common type is wanted a newtype wrapper could be used to make\n   a new \u003ccode\u003e\u003ca\u003eParseable\u003c/a\u003e\u003c/code\u003e instance.  Notice that we do \u003cem\u003enot\u003c/em\u003e want as many\n   instances as \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e because we want to limit ourselves to things that make\n   sense to parse from the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "Parseable",
           "package": "diagrams-lib",
@@ -2085,6 +2256,7 @@
         "index": {
           "description": "Parseable instances give command line parser for type If custom parser for common type is wanted newtype wrapper could be used to make new Parseable instance Notice that we do not want as many instances as Read because we want to limit ourselves to things that make sense to parse from the command line",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "Parseable",
           "package": "diagrams-lib",
@@ -2099,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class allows us to abstract over functions that take some arguments\n   and produce a final value.  When some \u003ccode\u003ed\u003c/code\u003e is an instance of\n   \u003ccode\u003e\u003ca\u003eToResult\u003c/a\u003e\u003c/code\u003e we get a type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eArgs\u003c/a\u003e\u003c/code\u003e d\u003c/code\u003e that is a type of \u003cem\u003eall\u003c/em\u003e the arguments\n   at once, and a type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eResultOf\u003c/a\u003e\u003c/code\u003e d\u003c/code\u003e that is the type of the final result from\n   some base case instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "ToResult",
           "package": "diagrams-lib",
@@ -2108,6 +2281,7 @@
         "index": {
           "description": "This class allows us to abstract over functions that take some arguments and produce final value When some is an instance of ToResult we get type Args that is type of all the arguments at once and type ResultOf that is the type of the final result from some base case instance",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "ToResult",
           "package": "diagrams-lib",
@@ -2121,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramAnimOpts",
           "package": "diagrams-lib",
@@ -2130,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramAnimOpts",
           "package": "diagrams-lib",
@@ -2143,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramLoopOpts",
           "package": "diagrams-lib",
@@ -2152,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramLoopOpts",
           "package": "diagrams-lib",
@@ -2165,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramMultiOpts",
           "package": "diagrams-lib",
@@ -2174,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramMultiOpts",
           "package": "diagrams-lib",
@@ -2187,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramOpts",
           "package": "diagrams-lib",
@@ -2196,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "DiagramOpts",
           "package": "diagrams-lib",
@@ -2210,6 +2392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of frames per unit time to generate for the animation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_fpu",
           "package": "diagrams-lib",
@@ -2220,6 +2403,7 @@
         "index": {
           "description": "Number of frames per unit time to generate for the animation",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_fpu",
           "package": "diagrams-lib",
@@ -2233,6 +2417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinal output height of diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_height",
           "package": "diagrams-lib",
@@ -2243,6 +2428,7 @@
         "index": {
           "description": "Final output height of diagram",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_height",
           "package": "diagrams-lib",
@@ -2256,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval in seconds at which to check for recompilation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_interval",
           "package": "diagrams-lib",
@@ -2266,6 +2453,7 @@
         "index": {
           "description": "Interval in seconds at which to check for recompilation",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_interval",
           "package": "diagrams-lib",
@@ -2279,6 +2467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlag to indicate that a list of available diagrams should\n   be printed to standard out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_list",
           "package": "diagrams-lib",
@@ -2289,6 +2478,7 @@
         "index": {
           "description": "Flag to indicate that list of available diagrams should be printed to standard out",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_list",
           "package": "diagrams-lib",
@@ -2302,6 +2492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlag to indicate that the program should loop creation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_loop",
           "package": "diagrams-lib",
@@ -2312,6 +2503,7 @@
         "index": {
           "description": "Flag to indicate that the program should loop creation",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_loop",
           "package": "diagrams-lib",
@@ -2325,6 +2517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput file path, format is typically chosen by extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_output",
           "package": "diagrams-lib",
@@ -2335,6 +2528,7 @@
         "index": {
           "description": "Output file path format is typically chosen by extension",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_output",
           "package": "diagrams-lib",
@@ -2348,6 +2542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelected diagram to render.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_selection",
           "package": "diagrams-lib",
@@ -2358,6 +2553,7 @@
         "index": {
           "description": "Selected diagram to render",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_selection",
           "package": "diagrams-lib",
@@ -2371,6 +2567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile path for the source file to recompile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_src",
           "package": "diagrams-lib",
@@ -2381,6 +2578,7 @@
         "index": {
           "description": "File path for the source file to recompile",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_src",
           "package": "diagrams-lib",
@@ -2394,6 +2592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinal output width of diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_width",
           "package": "diagrams-lib",
@@ -2404,6 +2603,7 @@
         "index": {
           "description": "Final output width of diagram",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "_width",
           "package": "diagrams-lib",
@@ -2417,6 +2617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edefaultAnimMainRender\u003c/code\u003e is an implementation of \u003ccode\u003e\u003ca\u003emainRender\u003c/a\u003e\u003c/code\u003e which renders\n   an animation as numbered frames, named by extending the given output file\n   name by consecutive integers.  For example if the given output file name is\n   \u003ccode\u003efoo/blah.ext\u003c/code\u003e, the frames will be saved in \u003ccode\u003efoo/blah001.ext\u003c/code\u003e,\n   \u003ccode\u003efoo/blah002.ext\u003c/code\u003e, and so on (the number of padding digits used depends on\n   the total number of frames).  It is up to the user to take these images and\n   stitch them together into an actual animation format (using, \u003cem\u003ee.g.\u003c/em\u003e\n   \u003ccode\u003effmpeg\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eOf course, this is a rather crude method of rendering animations;\n   more sophisticated methods will likely be added in the future.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003efpu\u003c/code\u003e option from \u003ccode\u003e\u003ca\u003eDiagramAnimOpts\u003c/a\u003e\u003c/code\u003e can be used to control how many frames will\n   be output for each second (unit time) of animation.\n\u003c/p\u003e\u003cp\u003eThis function requires a lens into the structure that the particular backend\n   uses for it's diagram base case.  If \u003ccode\u003eMainOpts (Diagram b v) ~ DiagramOpts\u003c/code\u003e\n   then this lens will simply be \u003ccode\u003e\u003ca\u003eoutput\u003c/a\u003e\u003c/code\u003e.  For a backend supporting looping\n   it will most likely be \u003ccode\u003e_1 . output\u003c/code\u003e.  This lens is required because the\n   implementation works by modifying the output field and running the base \u003ccode\u003emainRender\u003c/code\u003e.\n   Typically a backend can write its \u003ccode\u003eAnimation B V\u003c/code\u003e instance as\n\u003c/p\u003e\u003cpre\u003e instance Mainable (Animation B V) where\n     type MainOpts (Animation B V) = (DiagramOpts, DiagramAnimOpts)\n     mainRender = defaultAnimMainRender output\n\u003c/pre\u003e\u003cp\u003eWe do not provide this instance in general so that backends can choose to\n   opt-in to this form or provide a different instance that makes more sense.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "defaultAnimMainRender",
           "package": "diagrams-lib",
@@ -2426,6 +2627,7 @@
         "index": {
           "description": "defaultAnimMainRender is an implementation of mainRender which renders an animation as numbered frames named by extending the given output file name by consecutive integers For example if the given output file name is foo blah.ext the frames will be saved in foo blah001.ext foo blah002.ext and so on the number of padding digits used depends on the total number of frames It is up to the user to take these images and stitch them together into an actual animation format using e.g ffmpeg Of course this is rather crude method of rendering animations more sophisticated methods will likely be added in the future The fpu option from DiagramAnimOpts can be used to control how many frames will be output for each second unit time of animation This function requires lens into the structure that the particular backend uses for it diagram base case If MainOpts Diagram DiagramOpts then this lens will simply be output For backend supporting looping it will most likely be output This lens is required because the implementation works by modifying the output field and running the base mainRender Typically backend can write its Animation instance as instance Mainable Animation where type MainOpts Animation DiagramOpts DiagramAnimOpts mainRender defaultAnimMainRender output We do not provide this instance in general so that backends can choose to opt-in to this form or provide different instance that makes more sense",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "defaultAnimMainRender",
           "normalized": "Lens'(MainOpts(Diagram a b))FilePath-\u003e(MainOpts(Diagram a b),DiagramAnimOpts)-\u003eAnimation a b-\u003eIO()",
@@ -2442,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edefaultMultiMainRender\u003c/code\u003e is an implementation of \u003ccode\u003e\u003ca\u003emainRender\u003c/a\u003e\u003c/code\u003e where\n   instead of a single diagram it takes a list of diagrams paired with names\n   as input.  The generated executable then takes a \u003ccode\u003e--selection\u003c/code\u003e option\n   specifying the name of the diagram that should be rendered.  The list of\n   available diagrams may also be printed by passing the option \u003ccode\u003e--list\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTypically a backend can write its \u003ccode\u003e[(String,Diagram B V)]\u003c/code\u003e instance as\n\u003c/p\u003e\u003cpre\u003e instance Mainable [(String,Diagram B V)] where\n     type MainOpts [(String,Diagram B V)] = (DiagramOpts, DiagramMultiOpts)\n     mainRender = defaultMultiMainRender\n\u003c/pre\u003e\u003cp\u003eWe do not provide this instance in general so that backends can choose to\n   opt-in to this form or provide a different instance that makes more sense.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "defaultMultiMainRender",
           "package": "diagrams-lib",
@@ -2452,6 +2655,7 @@
         "index": {
           "description": "defaultMultiMainRender is an implementation of mainRender where instead of single diagram it takes list of diagrams paired with names as input The generated executable then takes selection option specifying the name of the diagram that should be rendered The list of available diagrams may also be printed by passing the option list Typically backend can write its String Diagram instance as instance Mainable String Diagram where type MainOpts String Diagram DiagramOpts DiagramMultiOpts mainRender defaultMultiMainRender We do not provide this instance in general so that backends can choose to opt-in to this form or provide different instance that makes more sense",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "defaultMultiMainRender",
           "normalized": "(MainOpts a,DiagramMultiOpts)-\u003e[(String,a)]-\u003eIO()",
@@ -2468,6 +2672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line parser for \u003ccode\u003e\u003ca\u003eDiagramAnimOpts\u003c/a\u003e\u003c/code\u003e\n   Frames per unit is \u003ccode\u003e--fpu\u003c/code\u003e or \u003ccode\u003e-f\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "diagramAnimOpts",
           "package": "diagrams-lib",
@@ -2478,6 +2683,7 @@
         "index": {
           "description": "Command line parser for DiagramAnimOpts Frames per unit is fpu or",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "diagramAnimOpts",
           "package": "diagrams-lib",
@@ -2492,6 +2698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommandLine parser for \u003ccode\u003e\u003ca\u003eDiagramLoopOpts\u003c/a\u003e\u003c/code\u003e\n   Loop is \u003ccode\u003e--loop\u003c/code\u003e or \u003ccode\u003e-l\u003c/code\u003e.\n   Source is \u003ccode\u003e--src\u003c/code\u003e or \u003ccode\u003e-s\u003c/code\u003e.\n   Interval is \u003ccode\u003e-i\u003c/code\u003e defaulting to one second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "diagramLoopOpts",
           "package": "diagrams-lib",
@@ -2502,6 +2709,7 @@
         "index": {
           "description": "CommandLine parser for DiagramLoopOpts Loop is loop or Source is src or Interval is defaulting to one second",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "diagramLoopOpts",
           "package": "diagrams-lib",
@@ -2516,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line parser for \u003ccode\u003e\u003ca\u003eDiagramMultiOpts\u003c/a\u003e\u003c/code\u003e.\n   Selection is option \u003ccode\u003e--selection\u003c/code\u003e or \u003ccode\u003e-s\u003c/code\u003e.\n   List is \u003ccode\u003e--list\u003c/code\u003e or \u003ccode\u003e-l\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "diagramMultiOpts",
           "package": "diagrams-lib",
@@ -2526,6 +2735,7 @@
         "index": {
           "description": "Command line parser for DiagramMultiOpts Selection is option selection or List is list or",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "diagramMultiOpts",
           "package": "diagrams-lib",
@@ -2540,6 +2750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line parser for \u003ccode\u003e\u003ca\u003eDiagramOpts\u003c/a\u003e\u003c/code\u003e.\n   Width is option \u003ccode\u003e--width\u003c/code\u003e or \u003ccode\u003e-w\u003c/code\u003e.\n   Height is option \u003ccode\u003e--height\u003c/code\u003e or \u003ccode\u003e-h\u003c/code\u003e (note we change help to be \u003ccode\u003e-?\u003c/code\u003e due to this).\n   Output is option \u003ccode\u003e--output\u003c/code\u003e or \u003ccode\u003e-o\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "diagramOpts",
           "package": "diagrams-lib",
@@ -2550,6 +2761,7 @@
         "index": {
           "description": "Command line parser for DiagramOpts Width is option width or Height is option height or note we change help to be due to this Output is option output or",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "diagramOpts",
           "package": "diagrams-lib",
@@ -2563,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "fpu",
           "package": "diagrams-lib",
@@ -2572,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "fpu",
           "package": "diagrams-lib",
@@ -2584,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "height",
           "package": "diagrams-lib",
@@ -2593,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "height",
           "package": "diagrams-lib",
@@ -2605,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "interval",
           "package": "diagrams-lib",
@@ -2614,6 +2831,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "interval",
           "package": "diagrams-lib",
@@ -2626,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "list",
           "package": "diagrams-lib",
@@ -2635,6 +2854,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "list",
           "package": "diagrams-lib",
@@ -2647,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "loop",
           "package": "diagrams-lib",
@@ -2656,6 +2877,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "loop",
           "package": "diagrams-lib",
@@ -2669,6 +2891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis method invokes the command-line parser resulting in an options\n value or ending the program with an error or help message.\n Typically the default instance will work.  If a different help message\n or parsing behavior is desired a new implementation is appropriate.\n\u003c/p\u003e\u003cp\u003eNote the \u003ccode\u003ed\u003c/code\u003e argument should only be needed to fix the type \u003ccode\u003ed\u003c/code\u003e.  Its\n value should not be relied on as a parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "mainArgs",
           "package": "diagrams-lib",
@@ -2679,6 +2902,7 @@
         "index": {
           "description": "This method invokes the command-line parser resulting in an options value or ending the program with an error or help message Typically the default instance will work If different help message or parsing behavior is desired new implementation is appropriate Note the argument should only be needed to fix the type Its value should not be relied on as parameter",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "mainArgs",
           "normalized": "a-\u003eIO(MainOpts a)",
@@ -2695,6 +2919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackend specific work of rendering with the given options and mainable\n value is done here.  All backend instances should implement this method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "mainRender",
           "package": "diagrams-lib",
@@ -2705,6 +2930,7 @@
         "index": {
           "description": "Backend specific work of rendering with the given options and mainable value is done here All backend instances should implement this method",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "mainRender",
           "normalized": "MainOpts a-\u003ea-\u003eIO()",
@@ -2721,6 +2947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain entry point for command-line diagram creation.  This is the method\n that users will call from their program \u003ccode\u003emain\u003c/code\u003e.  For instance an expected\n user program would take the following form.\n\u003c/p\u003e\u003cpre\u003e import Diagrams.Prelude\n import Diagrams.Backend.TheBestBackend.CmdLine\n\n d :: Diagram B R2\n d = ...\n\n main = mainWith d\n\u003c/pre\u003e\u003cp\u003eMost backends should be able to use the default implementation.  A different\n implementation should be used to handle more complex interactions with the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "mainWith",
           "package": "diagrams-lib",
@@ -2731,6 +2958,7 @@
         "index": {
           "description": "Main entry point for command-line diagram creation This is the method that users will call from their program main For instance an expected user program would take the following form import Diagrams.Prelude import Diagrams.Backend.TheBestBackend.CmdLine Diagram R2 main mainWith Most backends should be able to use the default implementation different implementation should be used to handle more complex interactions with the user",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "mainWith",
           "normalized": "a-\u003eIO()",
@@ -2746,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "output",
           "package": "diagrams-lib",
@@ -2755,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "output",
           "package": "diagrams-lib",
@@ -2767,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "parser",
           "package": "diagrams-lib",
@@ -2776,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "parser",
           "package": "diagrams-lib",
@@ -2789,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a hexadecimal color.  The string can start with \u003ccode\u003e\"0x\"\u003c/code\u003e or \u003ccode\u003e\"#\"\u003c/code\u003e\n   or just be a string of hexadecimal values.  If four or three digits are\n   given each digit is repeated to form a full 24 or 32 bit color.  For\n   example, \u003ccode\u003e\"0xfc4\"\u003c/code\u003e is the same as \u003ccode\u003e\"0xffcc44\"\u003c/code\u003e.  When eight or six\n   digits are given each pair of digits is a color or alpha channel with the\n   order being red, green, blue, alpha.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "readHexColor",
           "package": "diagrams-lib",
@@ -2799,6 +3032,7 @@
         "index": {
           "description": "Parses hexadecimal color The string can start with or or just be string of hexadecimal values If four or three digits are given each digit is repeated to form full or bit color For example xfc4 is the same as xffcc44 When eight or six digits are given each pair of digits is color or alpha channel with the order being red green blue alpha",
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "readHexColor",
           "normalized": "String-\u003eMaybe(AlphaColour Double)",
@@ -2814,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "selection",
           "package": "diagrams-lib",
@@ -2823,6 +3058,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "selection",
           "package": "diagrams-lib",
@@ -2835,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "src",
           "package": "diagrams-lib",
@@ -2844,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "src",
           "package": "diagrams-lib",
@@ -2856,6 +3094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "toResult",
           "package": "diagrams-lib",
@@ -2865,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "toResult",
           "normalized": "a-\u003eArgs a-\u003eResultOf a",
@@ -2880,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.CmdLine",
           "name": "width",
           "package": "diagrams-lib",
@@ -2889,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend CmdLine",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.CmdLine",
           "name": "width",
           "package": "diagrams-lib",
@@ -2902,6 +3144,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple Show-based diagrams backend, for testing purposes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.Show",
           "name": "Show",
           "package": "diagrams-lib",
@@ -2911,6 +3154,7 @@
         "index": {
           "description": "simple Show-based diagrams backend for testing purposes",
           "hierarchy": "Diagrams Backend Show",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.Show",
           "name": "Show",
           "package": "diagrams-lib",
@@ -2925,6 +3169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken for identifying this backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.Show",
           "name": "ShowBackend",
           "package": "diagrams-lib",
@@ -2934,6 +3179,7 @@
         "index": {
           "description": "Token for identifying this backend",
           "hierarchy": "Diagrams Backend Show",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.Show",
           "name": "ShowBackend",
           "package": "diagrams-lib",
@@ -2947,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.Show",
           "name": "ShowBackend",
           "package": "diagrams-lib",
@@ -2956,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend Show",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.Show",
           "name": "ShowBackend",
           "package": "diagrams-lib",
@@ -2969,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.Show",
           "name": "renderMat",
           "package": "diagrams-lib",
@@ -2978,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend Show",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.Show",
           "name": "renderMat",
           "normalized": "[[a]]-\u003eDoc",
@@ -2993,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Backend.Show",
           "name": "renderTransf",
           "package": "diagrams-lib",
@@ -3002,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Backend Show",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Backend.Show",
           "name": "renderTransf",
           "normalized": "Transformation a-\u003eDoc",
@@ -3018,6 +3270,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBounding boxes are not very compositional (\u003cem\u003ee.g.\u003c/em\u003e it is not\n possible to do anything sensible with them under rotation), so they\n are not used in the diagrams core.  However, they do have their\n uses; this module provides definitions and functions for working\n with them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "BoundingBox",
           "package": "diagrams-lib",
@@ -3027,6 +3280,7 @@
         "index": {
           "description": "Bounding boxes are not very compositional e.g it is not possible to do anything sensible with them under rotation so they are not used in the diagrams core However they do have their uses this module provides definitions and functions for working with them",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "BoundingBox",
           "package": "diagrams-lib",
@@ -3041,6 +3295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bounding box is an axis-aligned region determined by two points\n   indicating its \"lower\" and \"upper\" corners.  It can also represent\n   an empty bounding box - the points are wrapped in \u003ccode\u003eMaybe\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "BoundingBox",
           "package": "diagrams-lib",
@@ -3050,6 +3305,7 @@
         "index": {
           "description": "bounding box is an axis-aligned region determined by two points indicating its lower and upper corners It can also represent an empty bounding box the points are wrapped in Maybe",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "BoundingBox",
           "package": "diagrams-lib",
@@ -3064,6 +3320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a bounding box for any enveloped object (such as a diagram or path).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "boundingBox",
           "package": "diagrams-lib",
@@ -3074,6 +3331,7 @@
         "index": {
           "description": "Create bounding box for any enveloped object such as diagram or path",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "boundingBox",
           "normalized": "a-\u003eBoundingBox(V a)",
@@ -3090,6 +3348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the bounding box - the vector from the (component-wise)\n   lesser point to the greater point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "boxExtents",
           "package": "diagrams-lib",
@@ -3100,6 +3359,7 @@
         "index": {
           "description": "Get the size of the bounding box the vector from the component-wise lesser point to the greater point",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "boxExtents",
           "normalized": "BoundingBox a-\u003ea",
@@ -3116,6 +3376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms an enveloped thing to fit within a \u003ccode\u003eBoundingBox\u003c/code\u003e.  If it's\n   empty, then the result is also \u003ccode\u003emempty\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "boxFit",
           "package": "diagrams-lib",
@@ -3126,6 +3387,7 @@
         "index": {
           "description": "Transforms an enveloped thing to fit within BoundingBox If it empty then the result is also mempty",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "boxFit",
           "normalized": "BoundingBox(V a)-\u003ea-\u003ea",
@@ -3142,6 +3404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a transformation mapping points from one bounding box to the other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "boxTransform",
           "package": "diagrams-lib",
@@ -3152,6 +3415,7 @@
         "index": {
           "description": "Create transformation mapping points from one bounding box to the other",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "boxTransform",
           "normalized": "BoundingBox a-\u003eBoundingBox a-\u003eMaybe(Transformation a)",
@@ -3168,6 +3432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a point is contained in a bounding box (including its edges).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "contains",
           "package": "diagrams-lib",
@@ -3178,6 +3443,7 @@
         "index": {
           "description": "Check whether point is contained in bounding box including its edges",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "contains",
           "normalized": "BoundingBox a-\u003ePoint a-\u003eBool",
@@ -3193,6 +3459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a point is \u003cem\u003estrictly\u003c/em\u003e contained in a bounding box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "contains'",
           "package": "diagrams-lib",
@@ -3203,6 +3470,7 @@
         "index": {
           "description": "Check whether point is strictly contained in bounding box",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "contains'",
           "normalized": "BoundingBox a-\u003ePoint a-\u003eBool",
@@ -3218,6 +3486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty bounding box.  This is the same thing as \u003ccode\u003emempty\u003c/code\u003e, but it doesn't\n   require the same type constraints that the \u003ccode\u003eMonoid\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "emptyBox",
           "package": "diagrams-lib",
@@ -3228,6 +3497,7 @@
         "index": {
           "description": "An empty bounding box This is the same thing as mempty but it doesn require the same type constraints that the Monoid",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "emptyBox",
           "package": "diagrams-lib",
@@ -3242,6 +3512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a bounding box from a point that is component-wise \u003ccode\u003e(\u003c=)\u003c/code\u003e than the\n   other.  If this is not the case, then \u003ccode\u003emempty\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "fromCorners",
           "package": "diagrams-lib",
@@ -3252,6 +3523,7 @@
         "index": {
           "description": "Create bounding box from point that is component-wise than the other If this is not the case then mempty is returned",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "fromCorners",
           "normalized": "Point a-\u003ePoint a-\u003eBoundingBox a",
@@ -3268,6 +3540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a degenerate bounding \"box\" containing only a single point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "fromPoint",
           "package": "diagrams-lib",
@@ -3278,6 +3551,7 @@
         "index": {
           "description": "Create degenerate bounding box containing only single point",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "fromPoint",
           "normalized": "Point a-\u003eBoundingBox a",
@@ -3294,6 +3568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the smallest bounding box containing all the given points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "fromPoints",
           "package": "diagrams-lib",
@@ -3304,6 +3579,7 @@
         "index": {
           "description": "Create the smallest bounding box containing all the given points",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "fromPoints",
           "normalized": "[Point a]-\u003eBoundingBox a",
@@ -3320,6 +3596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes all of the corners of the bounding box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "getAllCorners",
           "package": "diagrams-lib",
@@ -3330,6 +3607,7 @@
         "index": {
           "description": "Computes all of the corners of the bounding box",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "getAllCorners",
           "normalized": "BoundingBox a-\u003e[Point a]",
@@ -3346,6 +3624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the lower and upper corners that define the bounding box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "getCorners",
           "package": "diagrams-lib",
@@ -3356,6 +3635,7 @@
         "index": {
           "description": "Gets the lower and upper corners that define the bounding box",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "getCorners",
           "normalized": "BoundingBox a-\u003eMaybe(Point a,Point a)",
@@ -3372,6 +3652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether the first bounding box is contained inside\n   the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "inside",
           "package": "diagrams-lib",
@@ -3382,6 +3663,7 @@
         "index": {
           "description": "Test whether the first bounding box is contained inside the second",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "inside",
           "normalized": "BoundingBox a-\u003eBoundingBox a-\u003eBool",
@@ -3397,6 +3679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether the first bounding box is \u003cem\u003estrictly\u003c/em\u003e contained\n   inside the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "inside'",
           "package": "diagrams-lib",
@@ -3407,6 +3690,7 @@
         "index": {
           "description": "Test whether the first bounding box is strictly contained inside the second",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "inside'",
           "normalized": "BoundingBox a-\u003eBoundingBox a-\u003eBool",
@@ -3422,6 +3706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm the largest bounding box contained within this given two\n   bounding boxes, or \u003ccode\u003eNothing\u003c/code\u003e if the two bounding boxes do not\n   overlap at all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "intersection",
           "package": "diagrams-lib",
@@ -3432,6 +3717,7 @@
         "index": {
           "description": "Form the largest bounding box contained within this given two bounding boxes or Nothing if the two bounding boxes do not overlap at all",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "intersection",
           "normalized": "BoundingBox a-\u003eBoundingBox a-\u003eBoundingBox a",
@@ -3447,6 +3733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueries whether the BoundingBox is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "isEmptyBox",
           "package": "diagrams-lib",
@@ -3457,6 +3744,7 @@
         "index": {
           "description": "Queries whether the BoundingBox is empty",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "isEmptyBox",
           "normalized": "BoundingBox a-\u003eBool",
@@ -3473,6 +3761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether the first bounding box lies outside the second\n   (although they may intersect in their boundaries).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "outside",
           "package": "diagrams-lib",
@@ -3483,6 +3772,7 @@
         "index": {
           "description": "Test whether the first bounding box lies outside the second although they may intersect in their boundaries",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "outside",
           "normalized": "BoundingBox a-\u003eBoundingBox a-\u003eBool",
@@ -3498,6 +3788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether the first bounding box lies \u003cem\u003estrictly\u003c/em\u003e outside the second\n   (they do not intersect at all).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "outside'",
           "package": "diagrams-lib",
@@ -3508,6 +3799,7 @@
         "index": {
           "description": "Test whether the first bounding box lies strictly outside the second they do not intersect at all",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "outside'",
           "normalized": "BoundingBox a-\u003eBoundingBox a-\u003eBool",
@@ -3523,6 +3815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm the smallest bounding box containing the given two bound union.  This\n   function is just an alias for \u003ccode\u003emappend\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.BoundingBox",
           "name": "union",
           "package": "diagrams-lib",
@@ -3533,6 +3826,7 @@
         "index": {
           "description": "Form the smallest bounding box containing the given two bound union This function is just an alias for mappend",
           "hierarchy": "Diagrams BoundingBox",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.BoundingBox",
           "name": "union",
           "normalized": "BoundingBox a-\u003eBoundingBox a-\u003eBoundingBox a",
@@ -3548,6 +3842,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigher-level tools for combining diagrams.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "Combinators",
           "package": "diagrams-lib",
@@ -3557,6 +3852,7 @@
         "index": {
           "description": "Higher-level tools for combining diagrams",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "Combinators",
           "package": "diagrams-lib",
@@ -3571,6 +3867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethods for concatenating diagrams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "CatMethod",
           "package": "diagrams-lib",
@@ -3580,6 +3877,7 @@
         "index": {
           "description": "Methods for concatenating diagrams",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "CatMethod",
           "package": "diagrams-lib",
@@ -3594,6 +3892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for \u003ccode\u003e\u003ca\u003ecat'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "CatOpts",
           "package": "diagrams-lib",
@@ -3603,6 +3902,7 @@
         "index": {
           "description": "Options for cat",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "CatOpts",
           "package": "diagrams-lib",
@@ -3617,6 +3917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal catenation: simply put diagrams\n   next to one another (possibly with a\n   certain distance in between each). The\n   distance between successive diagram\n   \u003cem\u003eenvelopes\u003c/em\u003e will be consistent; the\n   distance between \u003cem\u003eorigins\u003c/em\u003e may vary if\n   the diagrams are of different sizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "Cat",
           "package": "diagrams-lib",
@@ -3627,6 +3928,7 @@
         "index": {
           "description": "Normal catenation simply put diagrams next to one another possibly with certain distance in between each The distance between successive diagram envelopes will be consistent the distance between origins may vary if the diagrams are of different sizes",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "Cat",
           "package": "diagrams-lib",
@@ -3641,6 +3943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistribution: place the local origins of\n   diagrams at regular intervals.  With\n   this method, the distance between\n   successive \u003cem\u003eorigins\u003c/em\u003e will be consistent\n   but the distance between envelopes may\n   not be.  Indeed, depending on the amount\n   of separation, diagrams may overlap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "Distrib",
           "package": "diagrams-lib",
@@ -3651,6 +3954,7 @@
         "index": {
           "description": "Distribution place the local origins of diagrams at regular intervals With this method the distance between successive origins will be consistent but the distance between envelopes may not be Indeed depending on the amount of separation diagrams may overlap",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "Distrib",
           "package": "diagrams-lib",
@@ -3665,6 +3969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eappends x ys\u003c/code\u003e appends each of the objects in \u003ccode\u003eys\u003c/code\u003e to the object\n   \u003ccode\u003ex\u003c/code\u003e in the corresponding direction.  Note that each object in\n   \u003ccode\u003eys\u003c/code\u003e is positioned beside \u003ccode\u003ex\u003c/code\u003e \u003cem\u003ewithout\u003c/em\u003e reference to the other\n   objects in \u003ccode\u003eys\u003c/code\u003e, so this is not the same as iterating \u003ccode\u003e\u003ca\u003ebeside\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_Combinators_appendsEx.svg#diagram=appendsEx&width=200\"/\u003e\n\u003c/p\u003e\u003cpre\u003e appendsEx = appends c (zip (iterateN 6 (rotateBy (1/6)) unitX) (repeat c))\n             # centerXY # pad 1.1\n   where c = circle 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "appends",
           "package": "diagrams-lib",
@@ -3675,6 +3980,7 @@
         "index": {
           "description": "appends ys appends each of the objects in ys to the object in the corresponding direction Note that each object in ys is positioned beside without reference to the other objects in ys so this is not the same as iterating beside appendsEx appends zip iterateN rotateBy unitX repeat centerXY pad where circle",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "appends",
           "normalized": "a-\u003e[(V a,a)]-\u003ea",
@@ -3690,6 +3996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenient synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e on diagrams, designed to be\n   used infix (to help remember which diagram goes on top of which\n   when combining them, namely, the first on top of the second).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "atop",
           "package": "diagrams-lib",
@@ -3699,6 +4006,7 @@
         "index": {
           "description": "convenient synonym for mappend on diagrams designed to be used infix to help remember which diagram goes on top of which when combining them namely the first on top of the second",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "atop",
           "normalized": "QDiagram a b c-\u003eQDiagram a b c-\u003eQDiagram a b c",
@@ -3714,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebeneath\u003c/code\u003e is just a convenient synonym for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eatop\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; that is,\n   \u003ccode\u003ed1 `beneath` d2\u003c/code\u003e is the diagram with \u003ccode\u003ed2\u003c/code\u003e superimposed on top of\n   \u003ccode\u003ed1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "beneath",
           "package": "diagrams-lib",
@@ -3724,6 +4033,7 @@
         "index": {
           "description": "beneath is just convenient synonym for flip atop that is d1 beneath d2 is the diagram with d2 superimposed on top of d1",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "beneath",
           "normalized": "QDiagram a b c-\u003eQDiagram a b c-\u003eQDiagram a b c",
@@ -3739,6 +4049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace two monoidal objects (\u003cem\u003ei.e.\u003c/em\u003e diagrams, paths,\n   animations...) next to each other along the given vector.  In\n   particular, place the second object so that the vector points\n   from the local origin of the first object to the local origin of\n   the second object, at a distance so that their envelopes are just\n   tangent.  The local origin of the new, combined object is the\n   local origin of the first object (unless the first object is the\n   identity element, in which case the second object is returned\n   unchanged).\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_Combinators_besideEx.svg#diagram=besideEx&height=200\"/\u003e\n\u003c/p\u003e\u003cpre\u003e besideEx = beside (r2 (20,30))\n                   (circle 1 # fc orange)\n                   (circle 1.5 # fc purple)\n            # showOrigin\n            # centerXY # pad 1.1\n\u003c/pre\u003e\u003cp\u003eNote that \u003ccode\u003ebeside v\u003c/code\u003e is associative, so objects under \u003ccode\u003ebeside v\u003c/code\u003e\n   form a semigroup for any given vector \u003ccode\u003ev\u003c/code\u003e.  In fact, they also\n   form a monoid: \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e is clearly a right identity (\u003ccode\u003ebeside v d1\n   mempty === d1\u003c/code\u003e), and there should also be a special case to make\n   it a left identity, as described above.\n\u003c/p\u003e\u003cp\u003eIn older versions of diagrams, \u003ccode\u003ebeside\u003c/code\u003e put the local origin of\n   the result at the point of tangency between the two inputs.  That\n   semantics can easily be recovered by performing an alignment on\n   the first input before combining.  That is, if \u003ccode\u003ebeside'\u003c/code\u003e denotes\n   the old semantics,\n\u003c/p\u003e\u003cpre\u003e beside' v x1 x2 = beside v (x1 # align v) x2\n\u003c/pre\u003e\u003cp\u003eTo get something like \u003ccode\u003ebeside v x1 x2\u003c/code\u003e whose local origin is\n   identified with that of \u003ccode\u003ex2\u003c/code\u003e instead of \u003ccode\u003ex1\u003c/code\u003e, use \u003ccode\u003ebeside\n   (negateV v) x2 x1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "beside",
           "package": "diagrams-lib",
@@ -3749,6 +4060,7 @@
         "index": {
           "description": "Place two monoidal objects i.e diagrams paths animations next to each other along the given vector In particular place the second object so that the vector points from the local origin of the first object to the local origin of the second object at distance so that their envelopes are just tangent The local origin of the new combined object is the local origin of the first object unless the first object is the identity element in which case the second object is returned unchanged besideEx beside r2 circle fc orange circle fc purple showOrigin centerXY pad Note that beside is associative so objects under beside form semigroup for any given vector In fact they also form monoid mempty is clearly right identity beside d1 mempty d1 and there should also be special case to make it left identity as described above In older versions of diagrams beside put the local origin of the result at the point of tangency between the two inputs That semantics can easily be recovered by performing an alignment on the first input before combining That is if beside denotes the old semantics beside x1 x2 beside x1 align x2 To get something like beside x1 x2 whose local origin is identified with that of x2 instead of x1 use beside negateV x2 x1",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "beside",
           "normalized": "V a-\u003ea-\u003ea-\u003ea",
@@ -3764,6 +4076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecat v\u003c/code\u003e positions a list of objects so that their local origins\n   lie along a line in the direction of \u003ccode\u003ev\u003c/code\u003e.  Successive objects\n   will have their envelopes just touching.  The local origin\n   of the result will be the same as the local origin of the first\n   object.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003ecat'\u003c/a\u003e\u003c/code\u003e, which takes an extra options record allowing\n   certain aspects of the operation to be tweaked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "cat",
           "package": "diagrams-lib",
@@ -3774,6 +4087,7 @@
         "index": {
           "description": "cat positions list of objects so that their local origins lie along line in the direction of Successive objects will have their envelopes just touching The local origin of the result will be the same as the local origin of the first object See also cat which takes an extra options record allowing certain aspects of the operation to be tweaked",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "cat",
           "normalized": "V a-\u003e[a]-\u003ea",
@@ -3789,6 +4103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecat\u003c/a\u003e\u003c/code\u003e, but taking an extra \u003ccode\u003e\u003ca\u003eCatOpts\u003c/a\u003e\u003c/code\u003e arguments allowing the\n   user to specify\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The spacing method: catenation (uniform spacing between\n     envelopes) or distribution (uniform spacing between local\n     origins).  The default is catenation.\n\u003c/li\u003e\u003cli\u003e The amount of separation between successive diagram\n     envelopes/origins (depending on the spacing method).  The\n     default is 0.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eCatOpts\u003c/a\u003e\u003c/code\u003e is an instance of \u003ccode\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/code\u003e, so \u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e may be used for\n   the second argument, as in \u003ccode\u003ecat' (1,2) with {sep = 2}\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003ecat' v with {catMethod = Distrib} === mconcat\u003c/code\u003e\n   (distributing with a separation of 0 is the same as\n   superimposing).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "cat'",
           "package": "diagrams-lib",
@@ -3799,6 +4114,7 @@
         "index": {
           "description": "Like cat but taking an extra CatOpts arguments allowing the user to specify The spacing method catenation uniform spacing between envelopes or distribution uniform spacing between local origins The default is catenation The amount of separation between successive diagram envelopes origins depending on the spacing method The default is CatOpts is an instance of Default so with may be used for the second argument as in cat with sep Note that cat with catMethod Distrib mconcat distributing with separation of is the same as superimposing",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "cat'",
           "normalized": "V a-\u003eCatOpts(V a)-\u003e[a]-\u003ea",
@@ -3814,6 +4130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich \u003ccode\u003e\u003ca\u003eCatMethod\u003c/a\u003e\u003c/code\u003e should be used:\n   normal catenation (default), or distribution?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "catMethod",
           "package": "diagrams-lib",
@@ -3824,6 +4141,7 @@
         "index": {
           "description": "Which CatMethod should be used normal catenation default or distribution",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "catMethod",
           "package": "diagrams-lib",
@@ -3838,6 +4156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine a list of diagrams (or paths) by using them to\n   \"decorate\" a concretely located trail, placing the local origin\n   of one object at each successive vertex of the trail. If the\n   trail and list of objects have different lengths, the extra tail\n   of the longer one is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "decorateLocatedTrail",
           "package": "diagrams-lib",
@@ -3848,6 +4167,7 @@
         "index": {
           "description": "Combine list of diagrams or paths by using them to decorate concretely located trail placing the local origin of one object at each successive vertex of the trail If the trail and list of objects have different lengths the extra tail of the longer one is ignored",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "decorateLocatedTrail",
           "normalized": "Located(Trail(V a))-\u003e[a]-\u003ea",
@@ -3864,6 +4184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine a list of diagrams (or paths) by using them to\n   \"decorate\" a path, placing the local origin of one object at\n   each successive vertex of the path.  If the path and list of objects\n   have different lengths, the extra tail of the longer one is\n   ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "decoratePath",
           "package": "diagrams-lib",
@@ -3874,6 +4195,7 @@
         "index": {
           "description": "Combine list of diagrams or paths by using them to decorate path placing the local origin of one object at each successive vertex of the path If the path and list of objects have different lengths the extra tail of the longer one is ignored",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "decoratePath",
           "normalized": "Path(V a)-\u003e[a]-\u003ea",
@@ -3890,6 +4212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine a list of diagrams (or paths) by using them to\n   \"decorate\" a trail, placing the local origin of one object at\n   each successive vertex of the trail.  The first vertex of the\n   trail is placed at the origin.  If the trail and list of objects\n   have different lengths, the extra tail of the longer one is\n   ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "decorateTrail",
           "package": "diagrams-lib",
@@ -3900,6 +4223,7 @@
         "index": {
           "description": "Combine list of diagrams or paths by using them to decorate trail placing the local origin of one object at each successive vertex of the trail The first vertex of the trail is placed at the origin If the trail and list of objects have different lengths the extra tail of the longer one is ignored",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "decorateTrail",
           "normalized": "Trail(V a)-\u003e[a]-\u003ea",
@@ -4022,6 +4346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition things absolutely: combine a list of objects\n   (e.g. diagrams or paths) by assigning them absolute positions in\n   the vector space of the combined object.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_Combinators_positionEx.svg#diagram=positionEx&height=300\"/\u003e\n\u003c/p\u003e\u003cpre\u003e positionEx = position (zip (map mkPoint [-3, -2.8 .. 3]) (repeat dot))\n   where dot       = circle 0.2 # fc black\n         mkPoint x = p2 (x,x^2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "position",
           "package": "diagrams-lib",
@@ -4032,6 +4357,7 @@
         "index": {
           "description": "Position things absolutely combine list of objects e.g diagrams or paths by assigning them absolute positions in the vector space of the combined object positionEx position zip map mkPoint repeat dot where dot circle fc black mkPoint p2",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "position",
           "normalized": "[(Point(V a),a)]-\u003ea",
@@ -4047,6 +4373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow much separation should be used between successive diagrams\n   (default: 0)?  When \u003ccode\u003ecatMethod = Cat\u003c/code\u003e, this is the distance between\n   \u003cem\u003eenvelopes\u003c/em\u003e; when \u003ccode\u003ecatMethod = Distrib\u003c/code\u003e, this is the distance\n   between \u003cem\u003eorigins\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "sep",
           "package": "diagrams-lib",
@@ -4057,6 +4384,7 @@
         "index": {
           "description": "How much separation should be used between successive diagrams default When catMethod Cat this is the distance between envelopes when catMethod Distrib this is the distance between origins",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "sep",
           "package": "diagrams-lib",
@@ -4070,6 +4398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estrut v\u003c/code\u003e is a diagram which produces no output, but with respect\n   to alignment and envelope acts like a 1-dimensional segment\n   oriented along the vector \u003ccode\u003ev\u003c/code\u003e, with local origin at its\n   center. (Note, however, that it has an empty trace; for 2D struts\n   with a nonempty trace see \u003ccode\u003estrutR2\u003c/code\u003e, \u003ccode\u003estrutX\u003c/code\u003e, and \u003ccode\u003estrutY\u003c/code\u003e from\n   \u003ca\u003eDiagrams.TwoD.Combinators\u003c/a\u003e.) Useful for manually creating\n   separation between two diagrams.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_Combinators_strutEx.svg#diagram=strutEx&width=300\"/\u003e\n\u003c/p\u003e\u003cpre\u003e strutEx = (circle 1 ||| strut unitX ||| circle 1) # centerXY # pad 1.1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Combinators",
           "name": "strut",
           "package": "diagrams-lib",
@@ -4080,6 +4409,7 @@
         "index": {
           "description": "strut is diagram which produces no output but with respect to alignment and envelope acts like dimensional segment oriented along the vector with local origin at its center Note however that it has an empty trace for struts with nonempty trace see strutR2 strutX and strutY from Diagrams.TwoD.Combinators Useful for manually creating separation between two diagrams strutEx circle strut unitX circle centerXY pad",
           "hierarchy": "Diagrams Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Combinators",
           "name": "strut",
           "normalized": "a-\u003eQDiagram b a c",
@@ -4149,6 +4479,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNice syntax for constructing and pattern-matching on literal\n points and vectors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": "Coordinates",
           "package": "diagrams-lib",
@@ -4158,6 +4489,7 @@
         "index": {
           "description": "Nice syntax for constructing and pattern-matching on literal points and vectors",
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": "Coordinates",
           "package": "diagrams-lib",
@@ -4172,6 +4504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pair of values, with a convenient infix (left-associative)\n   data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": ":&",
           "package": "diagrams-lib",
@@ -4181,6 +4514,7 @@
         "index": {
           "description": "pair of values with convenient infix left-associative data constructor",
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": ":&",
           "package": "diagrams-lib",
@@ -4194,6 +4528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes which are instances of the \u003ccode\u003eCoordinates\u003c/code\u003e class can be\n   constructed using \u003ccode\u003e\u003ca\u003e^&\u003c/a\u003e\u003c/code\u003e (for example, a three-dimensional vector\n   could be constructed by \u003ccode\u003e1 ^& 6 ^& 3\u003c/code\u003e), and deconstructed using\n   \u003ccode\u003e\u003ca\u003ecoords\u003c/a\u003e\u003c/code\u003e.  A common pattern is to use \u003ccode\u003e\u003ca\u003ecoords\u003c/a\u003e\u003c/code\u003e in conjunction\n   with the \u003ccode\u003eViewPatterns\u003c/code\u003e extension, like so:\n\u003c/p\u003e\u003cpre\u003e\n foo :: Vector3 -\u003e ...\n foo (coords -\u003e x :& y :& z) = ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": "Coordinates",
           "package": "diagrams-lib",
@@ -4203,6 +4538,7 @@
         "index": {
           "description": "Types which are instances of the Coordinates class can be constructed using for example three-dimensional vector could be constructed by and deconstructed using coords common pattern is to use coords in conjunction with the ViewPatterns extension like so foo Vector3 foo coords",
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": "Coordinates",
           "package": "diagrams-lib",
@@ -4217,6 +4553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types with at least one coordinate, called _x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": "HasX",
           "package": "diagrams-lib",
@@ -4226,6 +4563,7 @@
         "index": {
           "description": "The class of types with at least one coordinate called",
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": "HasX",
           "package": "diagrams-lib",
@@ -4240,6 +4578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types with at least two coordinates, the second called _y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": "HasY",
           "package": "diagrams-lib",
@@ -4249,6 +4588,7 @@
         "index": {
           "description": "The class of types with at least two coordinates the second called",
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": "HasY",
           "package": "diagrams-lib",
@@ -4263,6 +4603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types with at least three coordinates, the third called _z.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": "HasZ",
           "package": "diagrams-lib",
@@ -4272,6 +4613,7 @@
         "index": {
           "description": "The class of types with at least three coordinates the third called",
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": "HasZ",
           "package": "diagrams-lib",
@@ -4286,6 +4628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a value of type \u003ccode\u003ec\u003c/code\u003e by providing something of one\n   less dimension (which is perhaps itself recursively constructed\n   using \u003ccode\u003e(^&)\u003c/code\u003e) and a final coordinate.  For example,\n\u003c/p\u003e\u003cpre\u003e\n 2 ^& 3 :: P2\n 3 ^& 5 ^& 6 :: R3\n\u003c/pre\u003e\u003cp\u003eNote that \u003ccode\u003e^&\u003c/code\u003e is left-associative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": "(^&)",
           "package": "diagrams-lib",
@@ -4296,6 +4639,7 @@
         "index": {
           "description": "Construct value of type by providing something of one less dimension which is perhaps itself recursively constructed using and final coordinate For example P2 R3 Note that is left-associative",
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": "(^&) ^&",
           "normalized": "PrevDim a-\u003eFinalCoord a-\u003ea",
@@ -4310,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": ":&",
           "package": "diagrams-lib",
@@ -4319,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": ":&",
           "package": "diagrams-lib",
@@ -4331,6 +4677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": "_x",
           "package": "diagrams-lib",
@@ -4340,6 +4687,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": "_x",
           "package": "diagrams-lib",
@@ -4352,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": "_y",
           "package": "diagrams-lib",
@@ -4361,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": "_y",
           "package": "diagrams-lib",
@@ -4373,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": "_z",
           "package": "diagrams-lib",
@@ -4382,6 +4733,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": "_z",
           "package": "diagrams-lib",
@@ -4395,6 +4747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a value of type \u003ccode\u003ec\u003c/code\u003e into its constituent coordinates,\n   stored in a nested \u003ccode\u003e(:&)\u003c/code\u003e structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": "coords",
           "package": "diagrams-lib",
@@ -4405,6 +4758,7 @@
         "index": {
           "description": "Decompose value of type into its constituent coordinates stored in nested structure",
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": "coords",
           "normalized": "a-\u003eDecomposition a",
@@ -4420,6 +4774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix synonym for \u003ccode\u003e^&\u003c/code\u003e. pr stands for pair of \u003ccode\u003ePrevDim\u003c/code\u003e, \u003ccode\u003eFinalCoord\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Coordinates",
           "name": "pr",
           "package": "diagrams-lib",
@@ -4430,6 +4785,7 @@
         "index": {
           "description": "Prefix synonym for pr stands for pair of PrevDim FinalCoord",
           "hierarchy": "Diagrams Coordinates",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Coordinates",
           "name": "pr",
           "normalized": "PrevDim a-\u003eFinalCoord a-\u003ea",
@@ -4445,6 +4801,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003cem\u003ecubic spline\u003c/em\u003e is a smooth, connected sequence of cubic curves\n passing through a given sequence of points.  This module implements\n a straightforward spline generation algorithm based on solving\n tridiagonal systems of linear equations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "Internal",
           "package": "diagrams-lib",
@@ -4454,6 +4811,7 @@
         "index": {
           "description": "cubic spline is smooth connected sequence of cubic curves passing through given sequence of points This module implements straightforward spline generation algorithm based on solving tridiagonal systems of linear equations",
           "hierarchy": "Diagrams CubicSpline Internal",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "Internal",
           "package": "diagrams-lib",
@@ -4468,6 +4826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the cyclic-tri-diagonal solver with the appropriate parameters for a closed cubic spline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "solveCubicSplineCoefficients",
           "package": "diagrams-lib",
@@ -4478,6 +4837,7 @@
         "index": {
           "description": "Use the cyclic-tri-diagonal solver with the appropriate parameters for closed cubic spline",
           "hierarchy": "Diagrams CubicSpline Internal",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "solveCubicSplineCoefficients",
           "normalized": "Bool-\u003e[a]-\u003e[[a]]",
@@ -4494,6 +4854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the tri-diagonal solver with the appropriate parameters for an open cubic spline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "solveCubicSplineDerivatives",
           "package": "diagrams-lib",
@@ -4504,6 +4865,7 @@
         "index": {
           "description": "Use the tri-diagonal solver with the appropriate parameters for an open cubic spline",
           "hierarchy": "Diagrams CubicSpline Internal",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "solveCubicSplineDerivatives",
           "normalized": "[a]-\u003e[a]",
@@ -4520,6 +4882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the cyclic-tri-diagonal solver with the appropriate parameters for a closed cubic spline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "solveCubicSplineDerivativesClosed",
           "package": "diagrams-lib",
@@ -4530,6 +4893,7 @@
         "index": {
           "description": "Use the cyclic-tri-diagonal solver with the appropriate parameters for closed cubic spline",
           "hierarchy": "Diagrams CubicSpline Internal",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "solveCubicSplineDerivativesClosed",
           "normalized": "[a]-\u003e[a]",
@@ -4546,6 +4910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves a system similar to the tri-diagonal system using a special case\n   of the Sherman-Morrison formula \u003ca\u003ehttp://en.wikipedia.org/wiki/Sherman-Morrison_formula\u003c/a\u003e.\n   This code is based on \u003cem\u003eNumerical Recpies in C\u003c/em\u003e's \u003ccode\u003ecyclic\u003c/code\u003e function in section 2.7.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "solveCyclicTriDiagonal",
           "package": "diagrams-lib",
@@ -4556,6 +4921,7 @@
         "index": {
           "description": "Solves system similar to the tri-diagonal system using special case of the Sherman-Morrison formula http en.wikipedia.org wiki Sherman-Morrison formula This code is based on Numerical Recpies in cyclic function in section",
           "hierarchy": "Diagrams CubicSpline Internal",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "solveCyclicTriDiagonal",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003e[a]-\u003ea-\u003ea-\u003e[a]",
@@ -4572,6 +4938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves a system of the form 'A*X=D' for \u003ccode\u003ex\u003c/code\u003e where \u003ccode\u003eA\u003c/code\u003e is an \n   \u003ccode\u003en\u003c/code\u003e by \u003ccode\u003en\u003c/code\u003e matrix with \u003ccode\u003ebs\u003c/code\u003e as the main diagonal and \n   \u003ccode\u003eas\u003c/code\u003e the diagonal below and \u003ccode\u003ecs\u003c/code\u003e the diagonal above.\n   See: \u003ca\u003ehttp://en.wikipedia.org/wiki/Tridiagonal_matrix_algorithm\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "solveTriDiagonal",
           "package": "diagrams-lib",
@@ -4582,6 +4949,7 @@
         "index": {
           "description": "Solves system of the form for where is an by matrix with bs as the main diagonal and as the diagonal below and cs the diagonal above See http en.wikipedia.org wiki Tridiagonal matrix algorithm",
           "hierarchy": "Diagrams CubicSpline Internal",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.CubicSpline.Internal",
           "name": "solveTriDiagonal",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -4598,6 +4966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003cem\u003ecubic spline\u003c/em\u003e is a smooth, connected sequence of cubic curves\n passing through a given sequence of points.  This module provides\n the \u003ccode\u003e\u003ca\u003ecubicSpline\u003c/a\u003e\u003c/code\u003e method, which can be used to create closed or\n open cubic splines from a list of points.  For access to the\n internals of the spline generation algorithm (including in\n particular a solver for cyclic tridiagonal systems of linear\n equations), see \u003ca\u003eDiagrams.CubicSpline.Internal\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.CubicSpline",
           "name": "CubicSpline",
           "package": "diagrams-lib",
@@ -4607,6 +4976,7 @@
         "index": {
           "description": "cubic spline is smooth connected sequence of cubic curves passing through given sequence of points This module provides the cubicSpline method which can be used to create closed or open cubic splines from list of points For access to the internals of the spline generation algorithm including in particular solver for cyclic tridiagonal systems of linear equations see Diagrams.CubicSpline.Internal",
           "hierarchy": "Diagrams CubicSpline",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.CubicSpline",
           "name": "CubicSpline",
           "package": "diagrams-lib",
@@ -4621,6 +4991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a spline path-like thing of cubic segments from a list of\n   vertices, with the first vertex as the starting point.  The first\n   argument specifies whether the path should be closed.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_CubicSpline_cubicSplineEx.svg#diagram=cubicSplineEx&width=600\"/\u003e\n\u003c/p\u003e\u003cpre\u003e pts = map p2 [(0,0), (2,3), (5,-2), (-4,1), (0,3)]\n dot = circle 0.2 # fc blue # lw 0\n mkPath closed = position (zip pts (repeat dot))\n              \u003c\u003e cubicSpline closed pts # lw 0.05\n cubicSplineEx = (mkPath False ||| strutX 2 ||| mkPath True)\n               # centerXY # pad 1.1\n\u003c/pre\u003e\u003cp\u003eFor more information, see \u003ca\u003ehttp://mathworld.wolfram.com/CubicSpline.html\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.CubicSpline",
           "name": "cubicSpline",
           "package": "diagrams-lib",
@@ -4631,6 +5002,7 @@
         "index": {
           "description": "Construct spline path-like thing of cubic segments from list of vertices with the first vertex as the starting point The first argument specifies whether the path should be closed pts map p2 dot circle fc blue lw mkPath closed position zip pts repeat dot cubicSpline closed pts lw cubicSplineEx mkPath False strutX mkPath True centerXY pad For more information see http mathworld.wolfram.com CubicSpline.html",
           "hierarchy": "Diagrams CubicSpline",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.CubicSpline",
           "name": "cubicSpline",
           "normalized": "Bool-\u003e[Point(V a)]-\u003ea",
@@ -4647,6 +5019,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Envelopes\", aka functional bounding regions.  See\n \u003ca\u003eDiagrams.Core.Envelope\u003c/a\u003e for internal implementation details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Envelope",
           "name": "Envelope",
           "package": "diagrams-lib",
@@ -4656,6 +5029,7 @@
         "index": {
           "description": "Envelopes aka functional bounding regions See Diagrams.Core.Envelope for internal implementation details",
           "hierarchy": "Diagrams Envelope",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Envelope",
           "name": "Envelope",
           "package": "diagrams-lib",
@@ -4670,6 +5044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery diagram comes equipped with an \u003cem\u003eenvelope\u003c/em\u003e.  What is an envelope?\n\u003c/p\u003e\u003cp\u003eConsider first the idea of a \u003cem\u003ebounding box\u003c/em\u003e. A bounding box\n   expresses the distance to a bounding plane in every direction\n   parallel to an axis.  That is, a bounding box can be thought of\n   as the intersection of a collection of half-planes, two\n   perpendicular to each axis.\n\u003c/p\u003e\u003cp\u003eMore generally, the intersection of half-planes in \u003cem\u003eevery\u003c/em\u003e\n   direction would give a tight \"bounding region\", or convex hull.\n   However, representing such a thing intensionally would be\n   impossible; hence bounding boxes are often used as an\n   approximation.\n\u003c/p\u003e\u003cp\u003eAn envelope is an \u003cem\u003eextensional\u003c/em\u003e representation of such a\n   \"bounding region\".  Instead of storing some sort of direct\n   representation, we store a \u003cem\u003efunction\u003c/em\u003e which takes a direction as\n   input and gives a distance to a bounding half-plane as output.\n   The important point is that envelopes can be composed, and\n   transformed by any affine transformation.\n\u003c/p\u003e\u003cp\u003eFormally, given a vector \u003ccode\u003ev\u003c/code\u003e, the envelope computes a scalar \u003ccode\u003es\u003c/code\u003e such\n   that\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e for every point \u003ccode\u003eu\u003c/code\u003e inside the diagram,\n       if the projection of \u003ccode\u003e(u - origin)\u003c/code\u003e onto \u003ccode\u003ev\u003c/code\u003e is \u003ccode\u003es' *^ v\u003c/code\u003e, then \u003ccode\u003es' \u003c= s\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003es\u003c/code\u003e is the smallest such scalar.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThere is also a special \"empty envelope\".\n\u003c/p\u003e\u003cp\u003eThe idea for envelopes came from\n   Sebastian Setzer; see\n   \u003ca\u003ehttp://byorgey.wordpress.com/2009/10/28/collecting-attributes/#comment-2030\u003c/a\u003e.  See also Brent Yorgey, \u003cem\u003eMonoids: Theme and Variations\u003c/em\u003e, published in the 2012 Haskell Symposium: \u003ca\u003ehttp://www.cis.upenn.edu/~byorgey/pub/monoid-pearl.pdf\u003c/a\u003e; video: \u003ca\u003ehttp://www.youtube.com/watch?v=X-8NCkD2vOw\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Envelope",
           "name": "Envelope",
           "package": "diagrams-lib",
@@ -4678,6 +5053,7 @@
         "index": {
           "description": "Every diagram comes equipped with an envelope What is an envelope Consider first the idea of bounding box bounding box expresses the distance to bounding plane in every direction parallel to an axis That is bounding box can be thought of as the intersection of collection of half-planes two perpendicular to each axis More generally the intersection of half-planes in every direction would give tight bounding region or convex hull However representing such thing intensionally would be impossible hence bounding boxes are often used as an approximation An envelope is an extensional representation of such bounding region Instead of storing some sort of direct representation we store function which takes direction as input and gives distance to bounding half-plane as output The important point is that envelopes can be composed and transformed by any affine transformation Formally given vector the envelope computes scalar such that for every point inside the diagram if the projection of origin onto is then is the smallest such scalar There is also special empty envelope The idea for envelopes came from Sebastian Setzer see http byorgey.wordpress.com collecting-attributes comment-2030 See also Brent Yorgey Monoids Theme and Variations published in the Haskell Symposium http www.cis.upenn.edu byorgey pub monoid-pearl.pdf video http www.youtube.com watch X-8NCkD2vOw",
           "hierarchy": "Diagrams Envelope",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Envelope",
           "name": "Envelope",
           "package": "diagrams-lib",
@@ -4692,6 +5068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eEnveloped\u003c/code\u003e abstracts over things which have an envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Envelope",
           "name": "Enveloped",
           "package": "diagrams-lib",
@@ -4700,6 +5077,7 @@
         "index": {
           "description": "Enveloped abstracts over things which have an envelope",
           "hierarchy": "Diagrams Envelope",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Envelope",
           "name": "Enveloped",
           "package": "diagrams-lib",
@@ -4714,6 +5092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the diameter of a enveloped object along a particular\n   vector.  Returns zero for the empty envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Envelope",
           "name": "diameter",
           "package": "diagrams-lib",
@@ -4723,6 +5102,7 @@
         "index": {
           "description": "Compute the diameter of enveloped object along particular vector Returns zero for the empty envelope",
           "hierarchy": "Diagrams Envelope",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Envelope",
           "name": "diameter",
           "normalized": "V a-\u003ea-\u003eScalar(V a)",
@@ -4738,6 +5118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the envelope of a diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Envelope",
           "name": "envelope",
           "package": "diagrams-lib",
@@ -4747,6 +5128,7 @@
         "index": {
           "description": "Get the envelope of diagram",
           "hierarchy": "Diagrams Envelope",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Envelope",
           "name": "envelope",
           "package": "diagrams-lib",
@@ -4760,6 +5142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the point on a separating hyperplane in the given\n   direction.  Returns the origin for the empty envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Envelope",
           "name": "envelopeP",
           "package": "diagrams-lib",
@@ -4769,6 +5152,7 @@
         "index": {
           "description": "Compute the point on separating hyperplane in the given direction Returns the origin for the empty envelope",
           "hierarchy": "Diagrams Envelope",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Envelope",
           "name": "envelopeP",
           "normalized": "V a-\u003ea-\u003ePoint(V a)",
@@ -4784,6 +5168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the point on a separating hyperplane in the given\n   direction, or \u003ccode\u003eNothing\u003c/code\u003e for the empty envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Envelope",
           "name": "envelopePMay",
           "package": "diagrams-lib",
@@ -4793,6 +5178,7 @@
         "index": {
           "description": "Compute the point on separating hyperplane in the given direction or Nothing for the empty envelope",
           "hierarchy": "Diagrams Envelope",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Envelope",
           "name": "envelopePMay",
           "normalized": "V a-\u003ea-\u003eMaybe(Point(V a))",
@@ -4809,6 +5195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the vector from the local origin to a separating\n   hyperplane in the given direction.  Returns the zero vector for\n   the empty envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Envelope",
           "name": "envelopeV",
           "package": "diagrams-lib",
@@ -4818,6 +5205,7 @@
         "index": {
           "description": "Compute the vector from the local origin to separating hyperplane in the given direction Returns the zero vector for the empty envelope",
           "hierarchy": "Diagrams Envelope",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Envelope",
           "name": "envelopeV",
           "normalized": "V a-\u003ea-\u003eV a",
@@ -4833,6 +5221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the vector from the local origin to a separating\n   hyperplane in the given direction, or \u003ccode\u003eNothing\u003c/code\u003e for the empty\n   envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Envelope",
           "name": "envelopeVMay",
           "package": "diagrams-lib",
@@ -4842,6 +5231,7 @@
         "index": {
           "description": "Compute the vector from the local origin to separating hyperplane in the given direction or Nothing for the empty envelope",
           "hierarchy": "Diagrams Envelope",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Envelope",
           "name": "envelopeVMay",
           "normalized": "V a-\u003ea-\u003eMaybe(V a)",
@@ -4858,6 +5248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the \"radius\" (1/2 the diameter) of an enveloped object\n   along a particular vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Envelope",
           "name": "radius",
           "package": "diagrams-lib",
@@ -4867,6 +5258,7 @@
         "index": {
           "description": "Compute the radius the diameter of an enveloped object along particular vector",
           "hierarchy": "Diagrams Envelope",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Envelope",
           "name": "radius",
           "normalized": "V a-\u003ea-\u003eScalar(V a)",
@@ -4882,6 +5274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the envelope of a diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Envelope",
           "name": "setEnvelope",
           "package": "diagrams-lib",
@@ -4891,6 +5284,7 @@
         "index": {
           "description": "Replace the envelope of diagram",
           "hierarchy": "Diagrams Envelope",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Envelope",
           "name": "setEnvelope",
           "normalized": "Envelope a-\u003eQDiagram b a c-\u003eQDiagram b a c",
@@ -4907,6 +5301,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Located\" things, \u003cem\u003ei.e.\u003c/em\u003e things with a concrete location:\n intuitively, \u003ccode\u003eLocated a ~ (a, Point)\u003c/code\u003e.  Wrapping a translationally\n invariant thing (\u003cem\u003ee.g.\u003c/em\u003e a \u003ccode\u003eSegment\u003c/code\u003e or \u003ccode\u003eTrail\u003c/code\u003e) in \u003ccode\u003eLocated\u003c/code\u003e pins\n it down to a particular location and makes it no longer\n translationally invariant.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Located",
           "name": "Located",
           "package": "diagrams-lib",
@@ -4916,6 +5311,7 @@
         "index": {
           "description": "Located things i.e things with concrete location intuitively Located Point Wrapping translationally invariant thing e.g Segment or Trail in Located pins it down to particular location and makes it no longer translationally invariant",
           "hierarchy": "Diagrams Located",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Located",
           "name": "Located",
           "package": "diagrams-lib",
@@ -4930,6 +5326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Located\" things, \u003cem\u003ei.e.\u003c/em\u003e things with a concrete location:\n   intuitively, \u003ccode\u003eLocated a ~ (Point, a)\u003c/code\u003e.  Wrapping a translationally\n   invariant thing (\u003cem\u003ee.g.\u003c/em\u003e a \u003ccode\u003eSegment\u003c/code\u003e or \u003ccode\u003eTrail\u003c/code\u003e) in \u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e pins\n   it down to a particular location and makes it no longer\n   translationally invariant.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eLocated\u003c/code\u003e is intentionally abstract.  To construct \u003ccode\u003eLocated\u003c/code\u003e\n   values, use \u003ccode\u003e\u003ca\u003eat\u003c/a\u003e\u003c/code\u003e.  To destruct, use \u003ccode\u003e\u003ca\u003eviewLoc\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunLoc\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eloc\u003c/a\u003e\u003c/code\u003e.\n   To map, use \u003ccode\u003e\u003ca\u003emapLoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMuch of the utility of having a concrete type for the \u003ccode\u003eLocated\u003c/code\u003e\n   concept lies in the type class instances we can give it.  The\n   \u003ccode\u003e\u003ca\u003eHasOrigin\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTransformable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEnveloped\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTraced\u003c/a\u003e\u003c/code\u003e, and\n   \u003ccode\u003eTrailLike\u003c/code\u003e instances are particularly useful; see the documented\n   instances below for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Located",
           "name": "Located",
           "package": "diagrams-lib",
@@ -4939,6 +5336,7 @@
         "index": {
           "description": "Located things i.e things with concrete location intuitively Located Point Wrapping translationally invariant thing e.g Segment or Trail in Located pins it down to particular location and makes it no longer translationally invariant Located is intentionally abstract To construct Located values use at To destruct use viewLoc unLoc or loc To map use mapLoc Much of the utility of having concrete type for the Located concept lies in the type class instances we can give it The HasOrigin Transformable Enveloped Traced and TrailLike instances are particularly useful see the documented instances below for more information",
           "hierarchy": "Diagrams Located",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Located",
           "name": "Located",
           "package": "diagrams-lib",
@@ -4953,6 +5351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003eLocated a\u003c/code\u003e from a value of type \u003ccode\u003ea\u003c/code\u003e and a location.\n   \u003ccode\u003eat\u003c/code\u003e is intended to be used infix, like \u003ccode\u003ex `at` origin\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Located",
           "name": "at",
           "package": "diagrams-lib",
@@ -4963,6 +5362,7 @@
         "index": {
           "description": "Construct Located from value of type and location at is intended to be used infix like at origin",
           "hierarchy": "Diagrams Located",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Located",
           "name": "at",
           "normalized": "a-\u003ePoint(V a)-\u003eLocated a",
@@ -4978,6 +5378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject out the\n   location of a \u003ccode\u003eLocated\u003c/code\u003e\n   value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Located",
           "name": "loc",
           "package": "diagrams-lib",
@@ -4988,6 +5389,7 @@
         "index": {
           "description": "Project out the location of Located value",
           "hierarchy": "Diagrams Located",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Located",
           "name": "loc",
           "normalized": "Located a-\u003ePoint(V a)",
@@ -5003,6 +5405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lens giving access to the object within a \u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e wrapper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Located",
           "name": "located",
           "package": "diagrams-lib",
@@ -5013,6 +5416,7 @@
         "index": {
           "description": "lens giving access to the object within Located wrapper",
           "hierarchy": "Diagrams Located",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Located",
           "name": "located",
           "package": "diagrams-lib",
@@ -5026,6 +5430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e is not a \u003ccode\u003eFunctor\u003c/code\u003e, since changing the type could\n   change the type of the associated vector space, in which case the\n   associated location would no longer have the right type. \u003ccode\u003e\u003ca\u003emapLoc\u003c/a\u003e\u003c/code\u003e\n   has an extra constraint specifying that the vector space must\n   stay the same.\n\u003c/p\u003e\u003cp\u003e(Technically, one can say that for every vector space \u003ccode\u003ev\u003c/code\u003e,\n   \u003ccode\u003eLocated\u003c/code\u003e is a little-f (endo)functor on the category of types\n   with associated vector space \u003ccode\u003ev\u003c/code\u003e; but that is not covered by the\n   standard \u003ccode\u003eFunctor\u003c/code\u003e class.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Located",
           "name": "mapLoc",
           "package": "diagrams-lib",
@@ -5036,6 +5441,7 @@
         "index": {
           "description": "Located is not Functor since changing the type could change the type of the associated vector space in which case the associated location would no longer have the right type mapLoc has an extra constraint specifying that the vector space must stay the same Technically one can say that for every vector space Located is little-f endo functor on the category of types with associated vector space but that is not covered by the standard Functor class",
           "hierarchy": "Diagrams Located",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Located",
           "name": "mapLoc",
           "normalized": "(a-\u003eb)-\u003eLocated a-\u003eLocated b",
@@ -5052,6 +5458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject the value\n   of type \u003ccode\u003ea\u003c/code\u003e out of\n   a \u003ccode\u003eLocated a\u003c/code\u003e,\n   discarding the\n   location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Located",
           "name": "unLoc",
           "package": "diagrams-lib",
@@ -5062,6 +5469,7 @@
         "index": {
           "description": "Project the value of type out of Located discarding the location",
           "hierarchy": "Diagrams Located",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Located",
           "name": "unLoc",
           "normalized": "Located a-\u003ea",
@@ -5078,6 +5486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstruct a \u003ccode\u003eLocated a\u003c/code\u003e into a location and a value of type\n   \u003ccode\u003ea\u003c/code\u003e.  \u003ccode\u003eviewLoc\u003c/code\u003e can be especially useful in conjunction with the\n   \u003ccode\u003eViewPatterns\u003c/code\u003e extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Located",
           "name": "viewLoc",
           "package": "diagrams-lib",
@@ -5088,6 +5497,7 @@
         "index": {
           "description": "Deconstruct Located into location and value of type viewLoc can be especially useful in conjunction with the ViewPatterns extension",
           "hierarchy": "Diagrams Located",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Located",
           "name": "viewLoc",
           "normalized": "Located a-\u003e(Point(V a),a)",
@@ -5104,6 +5514,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNames can be given to subdiagrams, and subdiagrams can later be\n queried by name.  This module exports types for representing names\n and subdiagrams, and various functions for working with them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "Names",
           "package": "diagrams-lib",
@@ -5113,6 +5524,7 @@
         "index": {
           "description": "Names can be given to subdiagrams and subdiagrams can later be queried by name This module exports types for representing names and subdiagrams and various functions for working with them",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "Names",
           "package": "diagrams-lib",
@@ -5127,6 +5539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic names.  \u003ccode\u003eAName\u003c/code\u003e is just an existential wrapper around\n   things which are \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "AName",
           "package": "diagrams-lib",
@@ -5135,6 +5548,7 @@
         "index": {
           "description": "Atomic names AName is just an existential wrapper around things which are Typeable Ord and Show",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "AName",
           "package": "diagrams-lib",
@@ -5149,6 +5563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for those types which can be used as names.  They must\n   support \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e (to facilitate extracting them from\n   existential wrappers), \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e (for comparison and efficient\n   storage) and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "IsName",
           "package": "diagrams-lib",
@@ -5157,6 +5572,7 @@
         "index": {
           "description": "Class for those types which can be used as names They must support Typeable to facilitate extracting them from existential wrappers Ord for comparison and efficient storage and Show",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "IsName",
           "package": "diagrams-lib",
@@ -5171,6 +5587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (qualified) name is a (possibly empty) sequence of atomic names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "Name",
           "package": "diagrams-lib",
@@ -5179,6 +5596,7 @@
         "index": {
           "description": "qualified name is possibly empty sequence of atomic names",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "Name",
           "package": "diagrams-lib",
@@ -5193,6 +5611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eQualifiable\u003c/a\u003e\u003c/code\u003e are things which can be qualified by\n   prefixing them with a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "Qualifiable",
           "package": "diagrams-lib",
@@ -5201,6 +5620,7 @@
         "index": {
           "description": "Instances of Qualifiable are things which can be qualified by prefixing them with name",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "Qualifiable",
           "package": "diagrams-lib",
@@ -5215,6 +5635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSubMap\u003c/a\u003e\u003c/code\u003e is a map associating names to subdiagrams. There can\n   be multiple associations for any given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "SubMap",
           "package": "diagrams-lib",
@@ -5223,6 +5644,7 @@
         "index": {
           "description": "SubMap is map associating names to subdiagrams There can be multiple associations for any given name",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "SubMap",
           "package": "diagrams-lib",
@@ -5237,6 +5659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eSubdiagram\u003c/code\u003e represents a diagram embedded within the context\n   of a larger diagram.  Essentially, it consists of a diagram\n   paired with any accumulated information from the larger context\n   (transformations, attributes, etc.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "Subdiagram",
           "package": "diagrams-lib",
@@ -5245,6 +5668,7 @@
         "index": {
           "description": "Subdiagram represents diagram embedded within the context of larger diagram Essentially it consists of diagram paired with any accumulated information from the larger context transformations attributes etc",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "Subdiagram",
           "package": "diagrams-lib",
@@ -5259,6 +5683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQualify with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "(|\u003e)",
           "package": "diagrams-lib",
@@ -5268,6 +5693,7 @@
         "index": {
           "description": "Qualify with the given name",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "(|\u003e) |\u003e",
           "normalized": "a-\u003eb-\u003eb",
@@ -5283,6 +5709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient operator for writing qualified names with atomic\n   components of different types.  Instead of writing \u003ccode\u003etoName a1 \u003c\u003e\n   toName a2 \u003c\u003e toName a3\u003c/code\u003e you can just write \u003ccode\u003ea1 .\u003e a2 .\u003e a3\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "(.\u003e)",
           "package": "diagrams-lib",
@@ -5292,6 +5719,7 @@
         "index": {
           "description": "Convenient operator for writing qualified names with atomic components of different types Instead of writing toName a1 toName a2 toName a3 you can just write a1 a2 a3",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "(.\u003e) .\u003e",
           "normalized": "a-\u003ea-\u003eName",
@@ -5307,6 +5735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eSubMap\u003c/a\u003e\u003c/code\u003e from a list of associations between names\n   and subdiagrams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "fromNames",
           "package": "diagrams-lib",
@@ -5316,6 +5745,7 @@
         "index": {
           "description": "Construct SubMap from list of associations between names and subdiagrams",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "fromNames",
           "normalized": "[(a,Subdiagram b c d)]-\u003eSubMap b c d",
@@ -5332,6 +5762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a subdiagram into a normal diagram, including the enclosing\n   context.  Concretely, a subdiagram is a pair of (1) a diagram and\n   (2) a \"context\" consisting of an extra transformation and\n   attributes.  \u003ccode\u003egetSub\u003c/code\u003e simply applies the transformation and\n   attributes to the diagram to get the corresponding \"top-level\"\n   diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "getSub",
           "package": "diagrams-lib",
@@ -5341,6 +5772,7 @@
         "index": {
           "description": "Turn subdiagram into normal diagram including the enclosing context Concretely subdiagram is pair of diagram and context consisting of an extra transformation and attributes getSub simply applies the transformation and attributes to the diagram to get the corresponding top-level diagram",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "getSub",
           "normalized": "Subdiagram a b c-\u003eQDiagram a b c",
@@ -5357,6 +5789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Localize\" a diagram by hiding all the names, so they are no\n   longer visible to the outside.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "localize",
           "package": "diagrams-lib",
@@ -5366,6 +5799,7 @@
         "index": {
           "description": "Localize diagram by hiding all the names so they are no longer visible to the outside",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "localize",
           "normalized": "QDiagram a b c-\u003eQDiagram a b c",
@@ -5381,6 +5815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the location of a subdiagram; that is, the location of its\n   local origin \u003cem\u003ewith respect to\u003c/em\u003e the vector space of its parent\n   diagram.  In other words, the point where its local origin\n   \"ended up\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "location",
           "package": "diagrams-lib",
@@ -5390,6 +5825,7 @@
         "index": {
           "description": "Get the location of subdiagram that is the location of its local origin with respect to the vector space of its parent diagram In other words the point where its local origin ended up",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "location",
           "normalized": "Subdiagram a b c-\u003ePoint b",
@@ -5405,6 +5841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the most recent diagram associated with (some\n   qualification of) the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "lookupName",
           "package": "diagrams-lib",
@@ -5414,6 +5851,7 @@
         "index": {
           "description": "Lookup the most recent diagram associated with some qualification of the given name",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "lookupName",
           "normalized": "a-\u003eQDiagram b c d-\u003eMaybe(Subdiagram b c d)",
@@ -5430,6 +5868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook for the given name in a name map, returning a list of\n   subdiagrams associated with that name.  If no names match the\n   given name exactly, return all the subdiagrams associated with\n   names of which the given name is a suffix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "lookupSub",
           "package": "diagrams-lib",
@@ -5439,6 +5878,7 @@
         "index": {
           "description": "Look for the given name in name map returning list of subdiagrams associated with that name If no names match the given name exactly return all the subdiagrams associated with names of which the given name is suffix",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "lookupSub",
           "normalized": "a-\u003eSubMap b c d-\u003eMaybe[Subdiagram b c d]",
@@ -5455,6 +5895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a diagram into a subdiagram with no accumulated context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "mkSubdiagram",
           "package": "diagrams-lib",
@@ -5464,6 +5905,7 @@
         "index": {
           "description": "Turn diagram into subdiagram with no accumulated context",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "mkSubdiagram",
           "normalized": "QDiagram a b c-\u003eSubdiagram a b c",
@@ -5480,6 +5922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach an atomic name to a certain point (which may be computed\n   from the given diagram), treated as a subdiagram with no content\n   and a point envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "namePoint",
           "package": "diagrams-lib",
@@ -5490,6 +5933,7 @@
         "index": {
           "description": "Attach an atomic name to certain point which may be computed from the given diagram treated as subdiagram with no content and point envelope",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "namePoint",
           "normalized": "(QDiagram a b c-\u003ePoint b)-\u003ed-\u003eQDiagram a b c-\u003eQDiagram a b c",
@@ -5506,6 +5950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach an atomic name to a certain subdiagram, computed from the\n   given diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "nameSub",
           "package": "diagrams-lib",
@@ -5515,6 +5960,7 @@
         "index": {
           "description": "Attach an atomic name to certain subdiagram computed from the given diagram",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "nameSub",
           "normalized": "(QDiagram a b c-\u003eSubdiagram a b c)-\u003ed-\u003eQDiagram a b c-\u003eQDiagram a b c",
@@ -5531,6 +5977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach an atomic name to a diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "named",
           "package": "diagrams-lib",
@@ -5541,6 +5988,7 @@
         "index": {
           "description": "Attach an atomic name to diagram",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "named",
           "normalized": "a-\u003eQDiagram b c d-\u003eQDiagram b c d",
@@ -5556,6 +6004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of names of subdiagrams and their locations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "names",
           "package": "diagrams-lib",
@@ -5565,6 +6014,7 @@
         "index": {
           "description": "Get list of names of subdiagrams and their locations",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "names",
           "normalized": "QDiagram a b c-\u003e[(Name,[Point b])]",
@@ -5580,6 +6030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the \"raw\" content of a subdiagram, by throwing away the\n   context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "rawSub",
           "package": "diagrams-lib",
@@ -5589,6 +6040,7 @@
         "index": {
           "description": "Extract the raw content of subdiagram by throwing away the context",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "rawSub",
           "normalized": "Subdiagram a b c-\u003eQDiagram a b c",
@@ -5605,6 +6057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a name/diagram association to a submap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "rememberAs",
           "package": "diagrams-lib",
@@ -5614,6 +6067,7 @@
         "index": {
           "description": "Add name diagram association to submap",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "rememberAs",
           "normalized": "a-\u003eQDiagram b c d-\u003eSubMap b c d-\u003eSubMap b c d",
@@ -5630,6 +6084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \"point subdiagram\", that is, a \u003ccode\u003e\u003ca\u003epointDiagram\u003c/a\u003e\u003c/code\u003e (with no\n   content and a point envelope) treated as a subdiagram with local\n   origin at the given point.  Note this is not the same as\n   \u003ccode\u003emkSubdiagram . pointDiagram\u003c/code\u003e, which would result in a subdiagram\n   with local origin at the parent origin, rather than at the given\n   point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "subPoint",
           "package": "diagrams-lib",
@@ -5639,6 +6094,7 @@
         "index": {
           "description": "Create point subdiagram that is pointDiagram with no content and point envelope treated as subdiagram with local origin at the given point Note this is not the same as mkSubdiagram pointDiagram which would result in subdiagram with local origin at the parent origin rather than at the given point",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "subPoint",
           "normalized": "Point a-\u003eSubdiagram b a c",
@@ -5654,6 +6110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "toName",
           "package": "diagrams-lib",
@@ -5662,6 +6119,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "toName",
           "normalized": "a-\u003eName",
@@ -5678,6 +6136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a name and a diagram transformation indexed by a\n   subdiagram, perform the transformation using the most recent\n   subdiagram associated with (some qualification of) the name,\n   or perform the identity transformation if the name does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "withName",
           "package": "diagrams-lib",
@@ -5687,6 +6146,7 @@
         "index": {
           "description": "Given name and diagram transformation indexed by subdiagram perform the transformation using the most recent subdiagram associated with some qualification of the name or perform the identity transformation if the name does not exist",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "withName",
           "normalized": "a-\u003e(Subdiagram b c d-\u003eQDiagram b c d-\u003eQDiagram b c d)-\u003eQDiagram b c d-\u003eQDiagram b c d",
@@ -5703,6 +6163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a name and a diagram transformation indexed by a list of\n   subdiagrams, perform the transformation using the\n   collection of all such subdiagrams associated with (some\n   qualification of) the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "withNameAll",
           "package": "diagrams-lib",
@@ -5712,6 +6173,7 @@
         "index": {
           "description": "Given name and diagram transformation indexed by list of subdiagrams perform the transformation using the collection of all such subdiagrams associated with some qualification of the given name",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "withNameAll",
           "normalized": "a-\u003e([Subdiagram b c d]-\u003eQDiagram b c d-\u003eQDiagram b c d)-\u003eQDiagram b c d-\u003eQDiagram b c d",
@@ -5728,6 +6190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of names and a diagram transformation indexed by a\n   list of subdiagrams, perform the transformation using the\n   list of most recent subdiagrams associated with (some qualification\n   of) each name.  Do nothing (the identity transformation) if any\n   of the names do not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Names",
           "name": "withNames",
           "package": "diagrams-lib",
@@ -5737,6 +6200,7 @@
         "index": {
           "description": "Given list of names and diagram transformation indexed by list of subdiagrams perform the transformation using the list of most recent subdiagrams associated with some qualification of each name Do nothing the identity transformation if any of the names do not exist",
           "hierarchy": "Diagrams Names",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Names",
           "name": "withNames",
           "normalized": "[a]-\u003e([Subdiagram b c d]-\u003eQDiagram b c d-\u003eQDiagram b c d)-\u003eQDiagram b c d-\u003eQDiagram b c d",
@@ -5753,6 +6217,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTools for adjusting the length of parametric objects such as\n segments and trails.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "Adjust",
           "package": "diagrams-lib",
@@ -5762,6 +6227,7 @@
         "index": {
           "description": "Tools for adjusting the length of parametric objects such as segments and trails",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "Adjust",
           "package": "diagrams-lib",
@@ -5776,6 +6242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat method should be used for adjusting a segment, trail, or\n   path?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "AdjustMethod",
           "package": "diagrams-lib",
@@ -5785,6 +6252,7 @@
         "index": {
           "description": "What method should be used for adjusting segment trail or path",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "AdjustMethod",
           "package": "diagrams-lib",
@@ -5799,6 +6267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow should a segment, trail, or path be adjusted?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "AdjustOpts",
           "package": "diagrams-lib",
@@ -5808,6 +6277,7 @@
         "index": {
           "description": "How should segment trail or path be adjusted",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "AdjustOpts",
           "package": "diagrams-lib",
@@ -5822,6 +6292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich side of a segment, trail, or path should be adjusted?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "AdjustSide",
           "package": "diagrams-lib",
@@ -5831,6 +6302,7 @@
         "index": {
           "description": "Which side of segment trail or path should be adjusted",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "AdjustSide",
           "package": "diagrams-lib",
@@ -5845,6 +6317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust both sides equally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "Both",
           "package": "diagrams-lib",
@@ -5855,6 +6328,7 @@
         "index": {
           "description": "Adjust both sides equally",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "Both",
           "package": "diagrams-lib",
@@ -5869,6 +6343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend by the given arc length\n   (use a negative length to shrink)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "ByAbsolute",
           "package": "diagrams-lib",
@@ -5879,6 +6354,7 @@
         "index": {
           "description": "Extend by the given arc length use negative length to shrink",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "ByAbsolute",
           "package": "diagrams-lib",
@@ -5893,6 +6369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend by the given parameter value\n   (use a negative parameter to shrink)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "ByParam",
           "package": "diagrams-lib",
@@ -5903,6 +6380,7 @@
         "index": {
           "description": "Extend by the given parameter value use negative parameter to shrink",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "ByParam",
           "package": "diagrams-lib",
@@ -5917,6 +6395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust only the end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "End",
           "package": "diagrams-lib",
@@ -5927,6 +6406,7 @@
         "index": {
           "description": "Adjust only the end",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "End",
           "package": "diagrams-lib",
@@ -5941,6 +6421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust only the beginning\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "Start",
           "package": "diagrams-lib",
@@ -5951,6 +6432,7 @@
         "index": {
           "description": "Adjust only the beginning",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "Start",
           "package": "diagrams-lib",
@@ -5965,6 +6447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend or shrink to the given\n   arc length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "ToAbsolute",
           "package": "diagrams-lib",
@@ -5975,6 +6458,7 @@
         "index": {
           "description": "Extend or shrink to the given arc length",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "ToAbsolute",
           "package": "diagrams-lib",
@@ -5989,6 +6473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTolerance to use when doing adjustment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "adjEps",
           "package": "diagrams-lib",
@@ -5999,6 +6484,7 @@
         "index": {
           "description": "Tolerance to use when doing adjustment",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "adjEps",
           "package": "diagrams-lib",
@@ -6013,6 +6499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich method should be used for adjusting?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "adjMethod",
           "package": "diagrams-lib",
@@ -6023,6 +6510,7 @@
         "index": {
           "description": "Which method should be used for adjusting",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "adjMethod",
           "package": "diagrams-lib",
@@ -6037,6 +6525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich end(s) of the object should be adjusted?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "adjSide",
           "package": "diagrams-lib",
@@ -6047,6 +6536,7 @@
         "index": {
           "description": "Which end of the object should be adjusted",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "adjSide",
           "package": "diagrams-lib",
@@ -6061,6 +6551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust the length of a parametric object such as a segment or\n   trail.  The second parameter is an option record which controls how\n   the adjustment should be performed; see \u003ccode\u003e\u003ca\u003eAdjustOpts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric.Adjust",
           "name": "adjust",
           "package": "diagrams-lib",
@@ -6071,6 +6562,7 @@
         "index": {
           "description": "Adjust the length of parametric object such as segment or trail The second parameter is an option record which controls how the adjustment should be performed see AdjustOpts",
           "hierarchy": "Diagrams Parametric Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric.Adjust",
           "name": "adjust",
           "normalized": "a-\u003eAdjustOpts(V a)-\u003ea",
@@ -6086,6 +6578,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType classes for things which are parameterized in some way, \u003cem\u003ee.g.\u003c/em\u003e\n segments and trails.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "Parametric",
           "package": "diagrams-lib",
@@ -6095,6 +6588,7 @@
         "index": {
           "description": "Type classes for things which are parameterized in some way e.g segments and trails",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "Parametric",
           "package": "diagrams-lib",
@@ -6109,6 +6603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCodomain of parametric classes.  This is usually either \u003ccode\u003e(V p)\u003c/code\u003e, for relative\n   vector results, or \u003ccode\u003e(Point (V p))\u003c/code\u003e, for functions with absolute coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "Codomain",
           "package": "diagrams-lib",
@@ -6118,6 +6613,7 @@
         "index": {
           "description": "Codomain of parametric classes This is usually either for relative vector results or Point for functions with absolute coordinates",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "Codomain",
           "package": "diagrams-lib",
@@ -6132,6 +6628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for parametric functions with a bounded domain.  The\n   default bounds are \u003ccode\u003e[0,1]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that this domain indicates the main \"interesting\" portion of the\n   function.  It must be defined within this range, but for some instances may\n   still have sensible values outside.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "DomainBounds",
           "package": "diagrams-lib",
@@ -6141,6 +6638,7 @@
         "index": {
           "description": "Type class for parametric functions with bounded domain The default bounds are Note that this domain indicates the main interesting portion of the function It must be defined within this range but for some instances may still have sensible values outside",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "DomainBounds",
           "package": "diagrams-lib",
@@ -6155,6 +6653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for querying the values of a parametric object at the\n   ends of its domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "EndValues",
           "package": "diagrams-lib",
@@ -6164,6 +6663,7 @@
         "index": {
           "description": "Type class for querying the values of parametric object at the ends of its domain",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "EndValues",
           "package": "diagrams-lib",
@@ -6178,6 +6678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for parametric things with a notion of arc length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "HasArcLength",
           "package": "diagrams-lib",
@@ -6187,6 +6688,7 @@
         "index": {
           "description": "Type class for parametric things with notion of arc length",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "HasArcLength",
           "package": "diagrams-lib",
@@ -6201,6 +6703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for parametric functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "Parametric",
           "package": "diagrams-lib",
@@ -6210,6 +6713,7 @@
         "index": {
           "description": "Type class for parametric functions",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "Parametric",
           "package": "diagrams-lib",
@@ -6224,6 +6728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for parametric objects which can be split into\n   subobjects.\n\u003c/p\u003e\u003cp\u003eMinimal definition: Either \u003ccode\u003e\u003ca\u003esplitAtParam\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003esection\u003c/a\u003e\u003c/code\u003e,\n   plus \u003ccode\u003e\u003ca\u003ereverseDomain\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "Sectionable",
           "package": "diagrams-lib",
@@ -6233,6 +6738,7 @@
         "index": {
           "description": "Type class for parametric objects which can be split into subobjects Minimal definition Either splitAtParam or section plus reverseDomain",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "Sectionable",
           "package": "diagrams-lib",
@@ -6247,6 +6753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003earcLength eps s\u003c/code\u003e approximates the arc length of \u003ccode\u003ex\u003c/code\u003e up to the\n   accuracy \u003ccode\u003eeps\u003c/code\u003e (plus or minus).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "arcLength",
           "package": "diagrams-lib",
@@ -6257,6 +6764,7 @@
         "index": {
           "description": "arcLength eps approximates the arc length of up to the accuracy eps plus or minus",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "arcLength",
           "normalized": "Scalar(V a)-\u003ea-\u003eScalar(V a)",
@@ -6273,6 +6781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003earcLengthBounded eps x\u003c/code\u003e approximates the arc length of \u003ccode\u003ex\u003c/code\u003e.\n   The true arc length is guaranteed to lie within the interval\n   returned, which will have a size of at most \u003ccode\u003eeps\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "arcLengthBounded",
           "package": "diagrams-lib",
@@ -6283,6 +6792,7 @@
         "index": {
           "description": "arcLengthBounded eps approximates the arc length of The true arc length is guaranteed to lie within the interval returned which will have size of at most eps",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "arcLengthBounded",
           "normalized": "Scalar(V a)-\u003ea-\u003eInterval(Scalar(V a))",
@@ -6299,6 +6809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003earcLengthToParam\u003c/a\u003e\u003c/code\u003e eps s l\u003c/code\u003e converts the absolute arc length\n   \u003ccode\u003el\u003c/code\u003e, measured from the start of the domain, to a parameter on\n   the object \u003ccode\u003es\u003c/code\u003e.  The true arc length at the parameter returned\n   is guaranteed to be within \u003ccode\u003eeps\u003c/code\u003e of the requested arc length.\n\u003c/p\u003e\u003cp\u003eThis should work for \u003cem\u003eany\u003c/em\u003e arc length, and may return any\n   parameter value (not just parameters in the domain).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "arcLengthToParam",
           "package": "diagrams-lib",
@@ -6309,6 +6820,7 @@
         "index": {
           "description": "arcLengthToParam eps converts the absolute arc length measured from the start of the domain to parameter on the object The true arc length at the parameter returned is guaranteed to be within eps of the requested arc length This should work for any arc length and may return any parameter value not just parameters in the domain",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "arcLengthToParam",
           "normalized": "Scalar(V a)-\u003ea-\u003eScalar(V a)-\u003eScalar(V a)",
@@ -6325,6 +6837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eatEnd\u003c/a\u003e\u003c/code\u003e is the value at the end of the domain. That is,\n\u003c/p\u003e\u003cpre\u003e atEnd x = x `atParam` domainUpper x\n\u003c/pre\u003e\u003cp\u003eThis is the default implementation, but some representations will\n   have a more efficient and/or precise implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "atEnd",
           "package": "diagrams-lib",
@@ -6335,6 +6848,7 @@
         "index": {
           "description": "atEnd is the value at the end of the domain That is atEnd atParam domainUpper This is the default implementation but some representations will have more efficient and or precise implementation",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "atEnd",
           "normalized": "a-\u003eCodomain a",
@@ -6351,6 +6865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eatParam\u003c/a\u003e\u003c/code\u003e yields a parameterized view of an object as a\n   continuous function. It is designed to be used infix, like \u003ccode\u003epath\n   `\u003ccode\u003e\u003ca\u003eatParam\u003c/a\u003e\u003c/code\u003e` 0.5\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "atParam",
           "package": "diagrams-lib",
@@ -6361,6 +6876,7 @@
         "index": {
           "description": "atParam yields parameterized view of an object as continuous function It is designed to be used infix like path atParam",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "atParam",
           "normalized": "a-\u003eScalar(V a)-\u003eCodomain a",
@@ -6377,6 +6893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eatStart\u003c/a\u003e\u003c/code\u003e is the value at the start of the domain.  That is,\n\u003c/p\u003e\u003cpre\u003e atStart x = x `atParam` domainLower x\n\u003c/pre\u003e\u003cp\u003eThis is the default implementation, but some representations will\n   have a more efficient and/or precise implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "atStart",
           "package": "diagrams-lib",
@@ -6387,6 +6904,7 @@
         "index": {
           "description": "atStart is the value at the start of the domain That is atStart atParam domainLower This is the default implementation but some representations will have more efficient and or precise implementation",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "atStart",
           "normalized": "a-\u003eCodomain a",
@@ -6403,6 +6921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the lower and upper bounds of a parametric domain together\n   as a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "domainBounds",
           "package": "diagrams-lib",
@@ -6413,6 +6932,7 @@
         "index": {
           "description": "Return the lower and upper bounds of parametric domain together as pair",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "domainBounds",
           "normalized": "a-\u003e(Scalar(V a),Scalar(V a))",
@@ -6429,6 +6949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edomainLower\u003c/a\u003e\u003c/code\u003e defaults to being constantly 0 (for vector spaces with\n   numeric scalars).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "domainLower",
           "package": "diagrams-lib",
@@ -6439,6 +6960,7 @@
         "index": {
           "description": "domainLower defaults to being constantly for vector spaces with numeric scalars",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "domainLower",
           "normalized": "a-\u003eScalar(V a)",
@@ -6455,6 +6977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edomainUpper\u003c/a\u003e\u003c/code\u003e defaults to being constantly 1 (for vector spaces\n   with numeric scalars).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "domainUpper",
           "package": "diagrams-lib",
@@ -6465,6 +6988,7 @@
         "index": {
           "description": "domainUpper defaults to being constantly for vector spaces with numeric scalars",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "domainUpper",
           "normalized": "a-\u003eScalar(V a)",
@@ -6481,6 +7005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip the parameterization on the domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "reverseDomain",
           "package": "diagrams-lib",
@@ -6491,6 +7016,7 @@
         "index": {
           "description": "Flip the parameterization on the domain",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "reverseDomain",
           "normalized": "a-\u003ea",
@@ -6507,6 +7033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a particular section of the domain, linearly\n   reparameterized to the same domain as the original.  Should\n   satisfy the property:\n\u003c/p\u003e\u003cpre\u003e prop_section x l u t =\n   let s = section x l u\n   in     domainBounds x == domainBounds x\n       && (x `atParam` lerp l u t) == (s `atParam` t)\n\u003c/pre\u003e\u003cp\u003eThat is, the section should have the same domain as the\n   original, and the reparameterization should be linear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "section",
           "package": "diagrams-lib",
@@ -6517,6 +7044,7 @@
         "index": {
           "description": "Extract particular section of the domain linearly reparameterized to the same domain as the original Should satisfy the property prop section let section in domainBounds domainBounds atParam lerp atParam That is the section should have the same domain as the original and the reparameterization should be linear",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "section",
           "normalized": "a-\u003eScalar(V a)-\u003eScalar(V a)-\u003ea",
@@ -6532,6 +7060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esplitAtParam\u003c/a\u003e\u003c/code\u003e splits an object \u003ccode\u003ep\u003c/code\u003e into two new objects\n   \u003ccode\u003e(l,r)\u003c/code\u003e at the parameter \u003ccode\u003et\u003c/code\u003e, where \u003ccode\u003el\u003c/code\u003e corresponds to the\n   portion of \u003ccode\u003ep\u003c/code\u003e for parameter values from \u003ccode\u003e0\u003c/code\u003e to \u003ccode\u003et\u003c/code\u003e and \u003ccode\u003er\u003c/code\u003e for\n   to that from \u003ccode\u003et\u003c/code\u003e to \u003ccode\u003e1\u003c/code\u003e.  The following property should hold:\n\u003c/p\u003e\u003cpre\u003e prop_splitAtParam f t u =\n   | u \u003c t     = atParam f u == atParam l (u / t)\n   | otherwise = atParam f u == atParam f t ??? atParam l ((u - t) / (domainUpper f - t))\n   where (l,r) = splitAtParam f t\n\u003c/pre\u003e\u003cp\u003ewhere \u003ccode\u003e(???) = (^+^)\u003c/code\u003e if the codomain is a vector type, or\n   \u003ccode\u003econst flip\u003c/code\u003e if the codomain is a point type.  Stated more\n   intuitively, all this is to say that the parameterization\n   scales linearly with splitting.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003esplitAtParam\u003c/a\u003e\u003c/code\u003e can also be used with parameters outside the\n   range of the domain.  For example, using the parameter \u003ccode\u003e2\u003c/code\u003e with\n   a path (where the domain is the default \u003ccode\u003e[0,1]\u003c/code\u003e) gives two\n   result paths where the first is the original path extended to\n   the parameter 2, and the second result path travels \u003cem\u003ebackwards\u003c/em\u003e\n   from the end of the first to the end of the original path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "splitAtParam",
           "package": "diagrams-lib",
@@ -6542,6 +7071,7 @@
         "index": {
           "description": "splitAtParam splits an object into two new objects at the parameter where corresponds to the portion of for parameter values from to and for to that from to The following property should hold prop splitAtParam atParam atParam otherwise atParam atParam atParam domainUpper where splitAtParam where if the codomain is vector type or const flip if the codomain is point type Stated more intuitively all this is to say that the parameterization scales linearly with splitting splitAtParam can also be used with parameters outside the range of the domain For example using the parameter with path where the domain is the default gives two result paths where the first is the original path extended to the parameter and the second result path travels backwards from the end of the first to the end of the original path",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "splitAtParam",
           "normalized": "a-\u003eScalar(V a)-\u003e(a,a)",
@@ -6558,6 +7088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate the arc length up to a standard accuracy of\n   \u003ccode\u003e\u003ca\u003estdTolerance\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e1e-6\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "stdArcLength",
           "package": "diagrams-lib",
@@ -6568,6 +7099,7 @@
         "index": {
           "description": "Approximate the arc length up to standard accuracy of stdTolerance e-6",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "stdArcLength",
           "normalized": "a-\u003eScalar(V a)",
@@ -6584,6 +7116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple interface to convert arc length to a parameter,\n   guaranteed to be accurate within \u003ccode\u003e\u003ca\u003estdTolerance\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e1e-6\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "stdArcLengthToParam",
           "package": "diagrams-lib",
@@ -6594,6 +7127,7 @@
         "index": {
           "description": "simple interface to convert arc length to parameter guaranteed to be accurate within stdTolerance or e-6",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "stdArcLengthToParam",
           "normalized": "a-\u003eScalar(V a)-\u003eScalar(V a)",
@@ -6610,6 +7144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard tolerance used by \u003ccode\u003estd...\u003c/code\u003e functions (like\n   \u003ccode\u003e\u003ca\u003estdArcLength\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003estdArcLengthToParam\u003c/a\u003e\u003c/code\u003e, currently set at\n   \u003ccode\u003e1e-6\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Parametric",
           "name": "stdTolerance",
           "package": "diagrams-lib",
@@ -6620,6 +7155,7 @@
         "index": {
           "description": "The standard tolerance used by std functions like stdArcLength and stdArcLengthToParam currently set at e-6",
           "hierarchy": "Diagrams Parametric",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Parametric",
           "name": "stdTolerance",
           "package": "diagrams-lib",
@@ -6634,6 +7170,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines \u003cem\u003epaths\u003c/em\u003e, which are collections of concretely\n located \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003es.  Many drawing systems (cairo, svg, ...) have a\n similar notion of \"path\".  Note that paths with multiple trails\n are necessary for being able to draw \u003cem\u003ee.g.\u003c/em\u003e filled objects with\n holes in them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "Path",
           "package": "diagrams-lib",
@@ -6643,6 +7180,7 @@
         "index": {
           "description": "This module defines paths which are collections of concretely located Trail Many drawing systems cairo svg have similar notion of path Note that paths with multiple trails are necessary for being able to draw e.g filled objects with holes in them",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "Path",
           "package": "diagrams-lib",
@@ -6657,6 +7195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003cem\u003epath\u003c/em\u003e is a (possibly empty) list of \u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003es.\n   Hence, unlike trails, paths are not translationally invariant,\n   and they form a monoid under \u003cem\u003esuperposition\u003c/em\u003e (placing one path on\n   top of another) rather than concatenation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "Path",
           "package": "diagrams-lib",
@@ -6666,6 +7205,7 @@
         "index": {
           "description": "path is possibly empty list of Located Trail Hence unlike trails paths are not translationally invariant and they form monoid under superposition placing one path on top of another rather than concatenation",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "Path",
           "package": "diagrams-lib",
@@ -6679,6 +7219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "Path",
           "package": "diagrams-lib",
@@ -6688,6 +7229,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "Path",
           "normalized": "Path[Located(Trail a)]",
@@ -6704,6 +7246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Explode\" a path by exploding every component trail (see\n   \u003ccode\u003e\u003ca\u003eexplodeTrail\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "explodePath",
           "package": "diagrams-lib",
@@ -6714,6 +7257,7 @@
         "index": {
           "description": "Explode path by exploding every component trail see explodeTrail",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "explodePath",
           "normalized": "Path(V a)-\u003e[[a]]",
@@ -6730,6 +7274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a path into a list of lists of \u003ccode\u003e\u003ca\u003eFixedSegment\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "fixPath",
           "package": "diagrams-lib",
@@ -6740,6 +7285,7 @@
         "index": {
           "description": "Convert path into list of lists of FixedSegment",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "fixPath",
           "normalized": "Path a-\u003e[[FixedSegment a]]",
@@ -6756,6 +7302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartition a path into two paths based on a predicate on trails:\n   the first containing all the trails for which the predicate returns\n   \u003ccode\u003eTrue\u003c/code\u003e, and the second containing the remaining trails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "partitionPath",
           "package": "diagrams-lib",
@@ -6766,6 +7313,7 @@
         "index": {
           "description": "Partition path into two paths based on predicate on trails the first containing all the trails for which the predicate returns True and the second containing the remaining trails",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "partitionPath",
           "normalized": "(Located(Trail a)-\u003eBool)-\u003ePath a-\u003e(Path a,Path a)",
@@ -6782,6 +7330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the \u003cem\u003ecentroid\u003c/em\u003e of a path (\u003cem\u003ei.e.\u003c/em\u003e the average location of\n   its vertices).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "pathCentroid",
           "package": "diagrams-lib",
@@ -6792,6 +7341,7 @@
         "index": {
           "description": "Compute the centroid of path i.e the average location of its vertices",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "pathCentroid",
           "normalized": "Path a-\u003ePoint a",
@@ -6808,6 +7358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a located trail to a singleton path.  This is equivalent\n   to \u003ccode\u003e\u003ca\u003etrailLike\u003c/a\u003e\u003c/code\u003e, but provided with a more specific name and type\n   for convenience.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "pathFromLocTrail",
           "package": "diagrams-lib",
@@ -6818,6 +7369,7 @@
         "index": {
           "description": "Convert located trail to singleton path This is equivalent to trailLike but provided with more specific name and type for convenience",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "pathFromLocTrail",
           "normalized": "Located(Trail a)-\u003ePath a",
@@ -6834,6 +7386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a trail to a path beginning at the origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "pathFromTrail",
           "package": "diagrams-lib",
@@ -6844,6 +7397,7 @@
         "index": {
           "description": "Convert trail to path beginning at the origin",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "pathFromTrail",
           "normalized": "Trail a-\u003ePath a",
@@ -6860,6 +7414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a trail to a path with a particular starting point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "pathFromTrailAt",
           "package": "diagrams-lib",
@@ -6870,6 +7425,7 @@
         "index": {
           "description": "Convert trail to path with particular starting point",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "pathFromTrailAt",
           "normalized": "Trail a-\u003ePoint a-\u003ePath a",
@@ -6886,6 +7442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the total offset of each trail comprising a path (see \u003ccode\u003e\u003ca\u003etrailOffset\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "pathOffsets",
           "package": "diagrams-lib",
@@ -6896,6 +7453,7 @@
         "index": {
           "description": "Compute the total offset of each trail comprising path see trailOffset",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "pathOffsets",
           "normalized": "Path a-\u003e[a]",
@@ -6912,6 +7470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the located trails making up a \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "pathTrails",
           "package": "diagrams-lib",
@@ -6922,6 +7481,7 @@
         "index": {
           "description": "Extract the located trails making up Path",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "pathTrails",
           "normalized": "Path a-\u003e[Located(Trail a)]",
@@ -6938,6 +7498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the vertices of a path, resulting in a separate list of\n   vertices for each component trail (see \u003ccode\u003e\u003ca\u003etrailVertices\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "pathVertices",
           "package": "diagrams-lib",
@@ -6948,6 +7509,7 @@
         "index": {
           "description": "Extract the vertices of path resulting in separate list of vertices for each component trail see trailVertices",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "pathVertices",
           "normalized": "Path a-\u003e[[Point a]]",
@@ -6964,6 +7526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse all the component trails of a path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "reversePath",
           "package": "diagrams-lib",
@@ -6974,6 +7537,7 @@
         "index": {
           "description": "Reverse all the component trails of path",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "reversePath",
           "normalized": "Path a-\u003ePath a",
@@ -6990,6 +7554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a path using its centroid (see \u003ccode\u003e\u003ca\u003epathCentroid\u003c/a\u003e\u003c/code\u003e) as the base\n   point for the scale.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Path",
           "name": "scalePath",
           "package": "diagrams-lib",
@@ -7000,6 +7565,7 @@
         "index": {
           "description": "Scale path using its centroid see pathCentroid as the base point for the scale",
           "hierarchy": "Diagrams Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Path",
           "name": "scalePath",
           "normalized": "Scalar a-\u003ePath a-\u003ePath a",
@@ -7016,6 +7582,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePoints in space.  For more tools for working with points and\n vectors, see \u003ca\u003eData.AffineSpace\u003c/a\u003e and \u003ca\u003eDiagrams.Coordinates\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Points",
           "name": "Points",
           "package": "diagrams-lib",
@@ -7025,6 +7592,7 @@
         "index": {
           "description": "Points in space For more tools for working with points and vectors see Data.AffineSpace and Diagrams.Coordinates",
           "hierarchy": "Diagrams Points",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Points",
           "name": "Points",
           "package": "diagrams-lib",
@@ -7039,6 +7607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePoint\u003c/code\u003e is a newtype wrapper around vectors used to represent\n   points, so we don't get them mixed up. The distinction between\n   vectors and points is important: translations affect points, but\n   leave vectors unchanged.  Points are instances of the\n   \u003ccode\u003e\u003ca\u003eAffineSpace\u003c/a\u003e\u003c/code\u003e class from \u003ca\u003eData.AffineSpace\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Points",
           "name": "Point",
           "package": "diagrams-lib",
@@ -7047,6 +7616,7 @@
         "index": {
           "description": "Point is newtype wrapper around vectors used to represent points so we don get them mixed up The distinction between vectors and points is important translations affect points but leave vectors unchanged Points are instances of the AffineSpace class from Data.AffineSpace",
           "hierarchy": "Diagrams Points",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Points",
           "name": "Point",
           "package": "diagrams-lib",
@@ -7061,6 +7631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a point by a scalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Points",
           "name": "(*.)",
           "package": "diagrams-lib",
@@ -7070,6 +7641,7 @@
         "index": {
           "description": "Scale point by scalar",
           "hierarchy": "Diagrams Points",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Points",
           "name": "(*.) *.",
           "normalized": "Scalar a-\u003ePoint a-\u003ePoint a",
@@ -7085,6 +7657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe centroid of a set of \u003cem\u003en\u003c/em\u003e points is their sum divided by \u003cem\u003en\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Points",
           "name": "centroid",
           "package": "diagrams-lib",
@@ -7095,6 +7668,7 @@
         "index": {
           "description": "The centroid of set of points is their sum divided by",
           "hierarchy": "Diagrams Points",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Points",
           "name": "centroid",
           "normalized": "[Point a]-\u003ePoint a",
@@ -7110,6 +7684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe origin of the vector space \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Points",
           "name": "origin",
           "package": "diagrams-lib",
@@ -7119,6 +7694,7 @@
         "index": {
           "description": "The origin of the vector space",
           "hierarchy": "Diagrams Points",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Points",
           "name": "origin",
           "package": "diagrams-lib",
@@ -7132,6 +7708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \"point diagram\", which has no content, no trace, an\n   empty query, and a point envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Points",
           "name": "pointDiagram",
           "package": "diagrams-lib",
@@ -7141,6 +7718,7 @@
         "index": {
           "description": "Create point diagram which has no content no trace an empty query and point envelope",
           "hierarchy": "Diagrams Points",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Points",
           "name": "pointDiagram",
           "normalized": "Point a-\u003eQDiagram b a c",
@@ -7157,6 +7735,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module to re-export most of the functionality of the diagrams\n core and standard library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "Prelude",
           "package": "diagrams-lib",
@@ -7166,6 +7745,7 @@
         "index": {
           "description": "module to re-export most of the functionality of the diagrams core and standard library",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "Prelude",
           "package": "diagrams-lib",
@@ -7180,6 +7760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA functor with application, providing operations to\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e embed pure expressions (\u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e), and\n\u003c/li\u003e\u003cli\u003e sequence computations and combine their results (\u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eA minimal complete definition must include implementations of these\n functions satisfying the following laws:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003cem\u003eidentity\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ccode\u003e\u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e v = v\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003cem\u003ecomposition\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ccode\u003e\u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e (.) \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e u \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e v \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e w = u \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e (v \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e w)\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003cem\u003ehomomorphism\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ccode\u003e\u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e x = \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e (f x)\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003cem\u003einterchange\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ccode\u003eu \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e y = \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e y) \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e u\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe other methods have the following default definitions, which may\n be overridden with equivalent specialized implementations:\n\u003c/p\u003e\u003cpre\u003e\n      u \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e v = \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e) \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e u \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e v\n      u \u003ccode\u003e\u003ca\u003e\u003c*\u003c/a\u003e\u003c/code\u003e v = \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e u \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e v\n\u003c/pre\u003e\u003cp\u003eAs a consequence of these laws, the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003ef\u003c/code\u003e will satisfy\n\u003c/p\u003e\u003cpre\u003e\n      \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e f x = \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e x\n\u003c/pre\u003e\u003cp\u003eIf \u003ccode\u003ef\u003c/code\u003e is also a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e, it should satisfy \u003ccode\u003e\u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and\n \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e) = \u003ccode\u003e\u003ca\u003eap\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (which implies that \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e satisfy the\n applicative functor laws).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "Applicative",
           "package": "diagrams-lib",
@@ -7188,6 +7769,7 @@
         "index": {
           "description": "functor with application providing operations to embed pure expressions pure and sequence computations and combine their results minimal complete definition must include implementations of these functions satisfying the following laws identity pure id composition pure homomorphism pure pure pure interchange pure pure The other methods have the following default definitions which may be overridden with equivalent specialized implementations pure const id pure const As consequence of these laws the Functor instance for will satisfy fmap pure If is also Monad it should satisfy pure return and ap which implies that pure and satisfy the applicative functor laws",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "Applicative",
           "package": "diagrams-lib",
@@ -7202,6 +7784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the target of a \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e or all of the targets of a \u003ccode\u003e\u003ca\u003eSetter\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eTraversal\u003c/a\u003e\u003c/code\u003e with a user supplied function.\n\u003c/p\u003e\u003cp\u003eThis is an infix version of \u003ccode\u003e\u003ca\u003eover\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e f &#8801; \u003ccode\u003e\u003ca\u003emapped\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e%~\u003c/a\u003e\u003c/code\u003e f\n \u003ccode\u003e\u003ca\u003efmapDefault\u003c/a\u003e\u003c/code\u003e f &#8801; \u003ccode\u003e\u003ca\u003etraverse\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e%~\u003c/a\u003e\u003c/code\u003e f\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(a,b,c) & _3 %~ f\n\u003c/code\u003e\u003c/strong\u003e(a,b,f c)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(a,b) & both %~ f\n\u003c/code\u003e\u003c/strong\u003e(f a,f b)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e_2 %~ length $ (1,\"hello\")\n\u003c/code\u003e\u003c/strong\u003e(1,5)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etraverse %~ f $ [a,b,c]\n\u003c/code\u003e\u003c/strong\u003e[f a,f b,f c]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etraverse %~ even $ [1,2,3]\n\u003c/code\u003e\u003c/strong\u003e[False,True,False]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etraverse.traverse %~ length $ [[\"hello\",\"world\"],[\"!!!\"]]\n\u003c/code\u003e\u003c/strong\u003e[[5,5],[3]]\n\u003c/pre\u003e\u003cpre\u003e\n (\u003ccode\u003e\u003ca\u003e%~\u003c/a\u003e\u003c/code\u003e) :: \u003ccode\u003e\u003ca\u003eSetter\u003c/a\u003e\u003c/code\u003e s t a b    -\u003e (a -\u003e b) -\u003e s -\u003e t\n (\u003ccode\u003e\u003ca\u003e%~\u003c/a\u003e\u003c/code\u003e) :: \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e s t a b       -\u003e (a -\u003e b) -\u003e s -\u003e t\n (\u003ccode\u003e\u003ca\u003e%~\u003c/a\u003e\u003c/code\u003e) :: \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e s t a b      -\u003e (a -\u003e b) -\u003e s -\u003e t\n (\u003ccode\u003e\u003ca\u003e%~\u003c/a\u003e\u003c/code\u003e) :: \u003ccode\u003e\u003ca\u003eTraversal\u003c/a\u003e\u003c/code\u003e s t a b -\u003e (a -\u003e b) -\u003e s -\u003e t\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "(%~)",
           "package": "diagrams-lib",
@@ -7211,6 +7794,7 @@
         "index": {
           "description": "Modifies the target of Lens or all of the targets of Setter or Traversal with user supplied function This is an infix version of over fmap mapped fmapDefault traverse both length hello traverse traverse even False True False traverse.traverse length hello world Setter Iso Lens Traversal",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "(%~) %~",
           "normalized": "Setting a b c d e-\u003ea d e-\u003eb-\u003ec",
@@ -7226,6 +7810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePasses the result of the left side to the function on the right side (forward pipe operator).\n\u003c/p\u003e\u003cp\u003eThis is the flipped version of (\u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e), which is more common in languages like F# as (\u003ccode\u003e|\u003e\u003c/code\u003e) where it is needed\n for inference. Here it is supplied for notational convenience and given a precedence that allows it\n to be nested inside uses of (\u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ea & f\n\u003c/code\u003e\u003c/strong\u003ef a\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"hello\" & length & succ\n\u003c/code\u003e\u003c/strong\u003e6\n\u003c/pre\u003e\u003cp\u003eThis combinator is commonly used when applying multiple \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e operations in sequence.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(\"hello\",\"world\") & _1.element 0 .~ 'j' & _1.element 4 .~ 'y'\n\u003c/code\u003e\u003c/strong\u003e(\"jelly\",\"world\")\n\u003c/pre\u003e\u003cp\u003eThis reads somewhat similar to:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eflip execState (\"hello\",\"world\") $ do _1.element 0 .= 'j'; _1.element 4 .= 'y'\n\u003c/code\u003e\u003c/strong\u003e(\"jelly\",\"world\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "(&)",
           "package": "diagrams-lib",
@@ -7235,6 +7820,7 @@
         "index": {
           "description": "Passes the result of the left side to the function on the right side forward pipe operator This is the flipped version of which is more common in languages like as where it is needed for inference Here it is supplied for notational convenience and given precedence that allows it to be nested inside uses of hello length succ This combinator is commonly used when applying multiple Lens operations in sequence hello world element element jelly world This reads somewhat similar to flip execState hello world do element element jelly world",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "(&) &",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -7250,6 +7836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence actions, discarding the value of the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "(*\u003e)",
           "package": "diagrams-lib",
@@ -7259,6 +7846,7 @@
         "index": {
           "description": "Sequence actions discarding the value of the first argument",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "(*\u003e) *\u003e",
           "normalized": "a b c d b-\u003ed e-\u003ed e",
@@ -7274,6 +7862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all locations in the input with the same value.\n The default definition is \u003ccode\u003e\u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, but this may be\n overridden with a more efficient version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "(\u003c$)",
           "package": "diagrams-lib",
@@ -7283,6 +7872,7 @@
         "index": {
           "description": "Replace all locations in the input with the same value The default definition is fmap const but this may be overridden with more efficient version",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "(\u003c$) \u003c$",
           "normalized": "a b c b-\u003ed e-\u003ed b",
@@ -7298,6 +7888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "(\u003c$\u003e)",
           "package": "diagrams-lib",
@@ -7307,6 +7898,7 @@
         "index": {
           "description": "An infix synonym for fmap",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -7322,6 +7914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence actions, discarding the value of the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "(\u003c*)",
           "package": "diagrams-lib",
@@ -7331,6 +7924,7 @@
         "index": {
           "description": "Sequence actions discarding the value of the second argument",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "(\u003c*) \u003c*",
           "normalized": "a b c d b-\u003ed e-\u003ed b",
@@ -7346,6 +7940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "(\u003c*\u003e)",
           "package": "diagrams-lib",
@@ -7355,6 +7950,7 @@
         "index": {
           "description": "Sequential application",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -7370,6 +7966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the target of a \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e or all of the targets of a \u003ccode\u003e\u003ca\u003eSetter\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003eTraversal\u003c/a\u003e\u003c/code\u003e with a constant value.\n\u003c/p\u003e\u003cp\u003eThis is an infix version of \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e, provided for consistency with (\u003ccode\u003e\u003ca\u003e.=\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cpre\u003e\n f \u003ccode\u003e\u003ca\u003e\u003c$\u003c/a\u003e\u003c/code\u003e a &#8801; \u003ccode\u003e\u003ca\u003emapped\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.~\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e a\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(a,b,c,d) & _4 .~ e\n\u003c/code\u003e\u003c/strong\u003e(a,b,c,e)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(42,\"world\") & _1 .~ \"hello\"\n\u003c/code\u003e\u003c/strong\u003e(\"hello\",\"world\")\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(a,b) & both .~ c\n\u003c/code\u003e\u003c/strong\u003e(c,c)\n\u003c/pre\u003e\u003cpre\u003e\n (\u003ccode\u003e\u003ca\u003e.~\u003c/a\u003e\u003c/code\u003e) :: \u003ccode\u003e\u003ca\u003eSetter\u003c/a\u003e\u003c/code\u003e s t a b    -\u003e b -\u003e s -\u003e t\n (\u003ccode\u003e\u003ca\u003e.~\u003c/a\u003e\u003c/code\u003e) :: \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e s t a b       -\u003e b -\u003e s -\u003e t\n (\u003ccode\u003e\u003ca\u003e.~\u003c/a\u003e\u003c/code\u003e) :: \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e s t a b      -\u003e b -\u003e s -\u003e t\n (\u003ccode\u003e\u003ca\u003e.~\u003c/a\u003e\u003c/code\u003e) :: \u003ccode\u003e\u003ca\u003eTraversal\u003c/a\u003e\u003c/code\u003e s t a b -\u003e b -\u003e s -\u003e t\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "(.~)",
           "package": "diagrams-lib",
@@ -7379,6 +7976,7 @@
         "index": {
           "description": "Replace the target of Lens or all of the targets of Setter or Traversal with constant value This is an infix version of set provided for consistency with mapped world hello hello world both Setter Iso Lens Traversal",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "(.~) .~",
           "normalized": "ASetter a b c d-\u003ed-\u003ea-\u003eb",
@@ -7394,6 +7992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a function to actions.\n This function may be used as a value for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "liftA",
           "package": "diagrams-lib",
@@ -7403,6 +8002,7 @@
         "index": {
           "description": "Lift function to actions This function may be used as value for fmap in Functor instance",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "liftA",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -7418,6 +8018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a binary function to actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "liftA2",
           "package": "diagrams-lib",
@@ -7427,6 +8028,7 @@
         "index": {
           "description": "Lift binary function to actions",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "liftA2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -7442,6 +8044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a ternary function to actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "liftA3",
           "package": "diagrams-lib",
@@ -7451,6 +8054,7 @@
         "index": {
           "description": "Lift ternary function to actions",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "liftA3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ee a-\u003ee b-\u003ee c-\u003ee d",
@@ -7466,6 +8070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Prelude",
           "name": "pure",
           "package": "diagrams-lib",
@@ -7475,6 +8080,7 @@
         "index": {
           "description": "Lift value",
           "hierarchy": "Diagrams Prelude",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Prelude",
           "name": "pure",
           "normalized": "a-\u003eb a",
@@ -7490,6 +8096,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA query is a function that maps points in a vector space to values\n in some monoid. Queries naturally form a monoid, with two queries\n being combined pointwise.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Query",
           "name": "Query",
           "package": "diagrams-lib",
@@ -7499,6 +8106,7 @@
         "index": {
           "description": "query is function that maps points in vector space to values in some monoid Queries naturally form monoid with two queries being combined pointwise",
           "hierarchy": "Diagrams Query",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Query",
           "name": "Query",
           "package": "diagrams-lib",
@@ -7513,6 +8121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query is a function that maps points in a vector space to\n   values in some monoid. Queries naturally form a monoid, with\n   two queries being combined pointwise.\n\u003c/p\u003e\u003cp\u003eThe idea for annotating diagrams with monoidal queries came from\n   the graphics-drawingcombinators package, \u003ca\u003ehttp://hackage.haskell.org/package/graphics-drawingcombinators\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Query",
           "name": "Query",
           "package": "diagrams-lib",
@@ -7521,6 +8130,7 @@
         "index": {
           "description": "query is function that maps points in vector space to values in some monoid Queries naturally form monoid with two queries being combined pointwise The idea for annotating diagrams with monoidal queries came from the graphics-drawingcombinators package http hackage.haskell.org package graphics-drawingcombinators",
           "hierarchy": "Diagrams Query",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Query",
           "name": "Query",
           "package": "diagrams-lib",
@@ -7534,6 +8144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Query",
           "name": "Query",
           "package": "diagrams-lib",
@@ -7542,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Query",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Query",
           "name": "Query",
           "package": "diagrams-lib",
@@ -7556,6 +8168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet all the query values of a diagram to \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Query",
           "name": "clearValue",
           "package": "diagrams-lib",
@@ -7565,6 +8178,7 @@
         "index": {
           "description": "Set all the query values of diagram to False",
           "hierarchy": "Diagrams Query",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Query",
           "name": "clearValue",
           "normalized": "QDiagram a b c-\u003eQDiagram a b Any",
@@ -7581,6 +8195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the query function associated with a diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Query",
           "name": "query",
           "package": "diagrams-lib",
@@ -7590,6 +8205,7 @@
         "index": {
           "description": "Get the query function associated with diagram",
           "hierarchy": "Diagrams Query",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Query",
           "name": "query",
           "normalized": "QDiagram a b c-\u003eQuery b c",
@@ -7605,6 +8221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the query values of a diagram to \u003ccode\u003eTrue\u003c/code\u003e/\u003ccode\u003eFalse\u003c/code\u003e: any values\n   equal to \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e are set to \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e; any other values are set to\n   \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Query",
           "name": "resetValue",
           "package": "diagrams-lib",
@@ -7614,6 +8231,7 @@
         "index": {
           "description": "Reset the query values of diagram to True False any values equal to mempty are set to False any other values are set to True",
           "hierarchy": "Diagrams Query",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Query",
           "name": "resetValue",
           "normalized": "QDiagram a b c-\u003eQDiagram a b Any",
@@ -7629,6 +8247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Query",
           "name": "runQuery",
           "package": "diagrams-lib",
@@ -7637,6 +8256,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Query",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Query",
           "name": "runQuery",
           "normalized": "Point a-\u003eb",
@@ -7653,6 +8273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample a diagram's query function at a given point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Query",
           "name": "sample",
           "package": "diagrams-lib",
@@ -7662,6 +8283,7 @@
         "index": {
           "description": "Sample diagram query function at given point",
           "hierarchy": "Diagrams Query",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Query",
           "name": "sample",
           "normalized": "QDiagram a b c-\u003ePoint b-\u003ec",
@@ -7677,6 +8299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the query value for \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e points in a diagram (\u003cem\u003ei.e.\u003c/em\u003e points\n   \"inside\" the diagram); \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e points will be set to \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Query",
           "name": "value",
           "package": "diagrams-lib",
@@ -7686,6 +8309,7 @@
         "index": {
           "description": "Set the query value for True points in diagram i.e points inside the diagram False points will be set to mempty",
           "hierarchy": "Diagrams Query",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Query",
           "name": "value",
           "normalized": "a-\u003eQDiagram b c Any-\u003eQDiagram b c a",
@@ -7701,6 +8325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003cem\u003esegment\u003c/em\u003e is a translation-invariant, atomic path.  Currently,\n there are two types: linear (\u003cem\u003ei.e.\u003c/em\u003e just a straight line to the\n endpoint) and cubic B&#233;zier curves (\u003cem\u003ei.e.\u003c/em\u003e a curve to an endpoint\n with two control points).  This module contains tools for creating\n and manipulating segments, as well as a definition of segments with\n a fixed location (useful for backend implementors).\n\u003c/p\u003e\u003cp\u003eGenerally speaking, casual users of diagrams should not need this\n module; the higher-level functionality provided by\n \u003ca\u003eDiagrams.Trail\u003c/a\u003e, \u003ca\u003eDiagrams.TrailLike\u003c/a\u003e, and \u003ca\u003eDiagrams.Path\u003c/a\u003e should\n usually suffice.  However, directly manipulating segments can\n occasionally be useful.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "Segment",
           "package": "diagrams-lib",
@@ -7710,6 +8335,7 @@
         "index": {
           "description": "segment is translation-invariant atomic path Currently there are two types linear i.e just straight line to the endpoint and cubic zier curves i.e curve to an endpoint with two control points This module contains tools for creating and manipulating segments as well as definition of segments with fixed location useful for backend implementors Generally speaking casual users of diagrams should not need this module the higher-level functionality provided by Diagrams.Trail Diagrams.TrailLike and Diagrams.Path should usually suffice However directly manipulating segments can occasionally be useful",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "Segment",
           "package": "diagrams-lib",
@@ -7724,6 +8350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type to represent the total arc length of a chain of\n   segments. The first component is a \"standard\" arc length,\n   computed to within a tolerance of \u003ccode\u003e10e-6\u003c/code\u003e.  The second component is\n   a generic arc length function taking the tolerance as an\n   argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "ArcLength",
           "package": "diagrams-lib",
@@ -7733,6 +8360,7 @@
         "index": {
           "description": "type to represent the total arc length of chain of segments The first component is standard arc length computed to within tolerance of e-6 The second component is generic arc length function taking the tolerance as an argument",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "ArcLength",
           "package": "diagrams-lib",
@@ -7747,6 +8375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType tag for closed segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "Closed",
           "package": "diagrams-lib",
@@ -7756,6 +8385,7 @@
         "index": {
           "description": "Type tag for closed segments",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "Closed",
           "package": "diagrams-lib",
@@ -7770,6 +8400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eFixedSegment\u003c/code\u003es are like \u003ccode\u003e\u003ca\u003eSegment\u003c/a\u003e\u003c/code\u003es except that they have\n   absolute locations.  \u003ccode\u003eFixedSegment v\u003c/code\u003e is isomorphic to \u003ccode\u003eLocated\n   (Segment Closed v)\u003c/code\u003e, as witnessed by \u003ccode\u003e\u003ca\u003emkFixedSeg\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003efromFixedSeg\u003c/a\u003e\u003c/code\u003e, but \u003ccode\u003eFixedSegment\u003c/code\u003e is convenient when one needs\n   the absolute locations of the vertices and control points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "FixedSegment",
           "package": "diagrams-lib",
@@ -7779,6 +8410,7 @@
         "index": {
           "description": "FixedSegment are like Segment except that they have absolute locations FixedSegment is isomorphic to Located Segment Closed as witnessed by mkFixedSeg and fromFixedSeg but FixedSegment is convenient when one needs the absolute locations of the vertices and control points",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "FixedSegment",
           "package": "diagrams-lib",
@@ -7793,6 +8425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003eoffset\u003c/em\u003e of a segment is the vector from its starting point\n   to its end.  The offset for an \u003cem\u003eopen\u003c/em\u003e segment is determined by\n   the context, \u003cem\u003ei.e.\u003c/em\u003e its endpoint is not fixed.  The offset for a\n   \u003cem\u003eclosed\u003c/em\u003e segment is stored explicitly, \u003cem\u003ei.e.\u003c/em\u003e its endpoint is at\n   a fixed offset from its start.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "Offset",
           "package": "diagrams-lib",
@@ -7802,6 +8435,7 @@
         "index": {
           "description": "The offset of segment is the vector from its starting point to its end The offset for an open segment is determined by the context i.e its endpoint is not fixed The offset for closed segment is stored explicitly i.e its endpoint is at fixed offset from its start",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "Offset",
           "package": "diagrams-lib",
@@ -7816,6 +8450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type to represent the offset and envelope of a chain of\n   segments.  They have to be paired into one data structure, since\n   combining the envelopes of two consecutive chains needs to take\n   the offset of the the offset of the first into account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "OffsetEnvelope",
           "package": "diagrams-lib",
@@ -7825,6 +8460,7 @@
         "index": {
           "description": "type to represent the offset and envelope of chain of segments They have to be paired into one data structure since combining the envelopes of two consecutive chains needs to take the offset of the the offset of the first into account",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "OffsetEnvelope",
           "package": "diagrams-lib",
@@ -7839,6 +8475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType tag for open segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "Open",
           "package": "diagrams-lib",
@@ -7848,6 +8485,7 @@
         "index": {
           "description": "Type tag for open segments",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "Open",
           "package": "diagrams-lib",
@@ -7862,6 +8500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type to track the count of segments in a \u003ccode\u003eTrail\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "SegCount",
           "package": "diagrams-lib",
@@ -7871,6 +8510,7 @@
         "index": {
           "description": "type to track the count of segments in Trail",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "SegCount",
           "package": "diagrams-lib",
@@ -7885,6 +8525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eSegMeasure\u003c/code\u003e collects up all the measurements over a chain of\n   segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "SegMeasure",
           "package": "diagrams-lib",
@@ -7894,6 +8535,7 @@
         "index": {
           "description": "SegMeasure collects up all the measurements over chain of segments",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "SegMeasure",
           "package": "diagrams-lib",
@@ -7908,6 +8550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe atomic constituents of the concrete representation currently\n   used for trails are \u003cem\u003esegments\u003c/em\u003e, currently limited to\n   single straight lines or cubic B&#233;zier curves.  Segments are\n   \u003cem\u003etranslationally invariant\u003c/em\u003e, that is, they have no particular\n   \"location\" and are unaffected by translations.  They are,\n   however, affected by other transformations such as rotations and\n   scales.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "Segment",
           "package": "diagrams-lib",
@@ -7917,6 +8560,7 @@
         "index": {
           "description": "The atomic constituents of the concrete representation currently used for trails are segments currently limited to single straight lines or cubic zier curves Segments are translationally invariant that is they have no particular location and are unaffected by translations They are however affected by other transformations such as rotations and scales",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "Segment",
           "package": "diagrams-lib",
@@ -7931,6 +8575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type to represent the total cumulative offset of a chain of\n   segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "TotalOffset",
           "package": "diagrams-lib",
@@ -7940,6 +8585,7 @@
         "index": {
           "description": "type to represent the total cumulative offset of chain of segments",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "TotalOffset",
           "package": "diagrams-lib",
@@ -7953,6 +8599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "ArcLength",
           "package": "diagrams-lib",
@@ -7962,6 +8609,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "ArcLength",
           "normalized": "ArcLength(Sum(Interval(Scalar a)),Scalar a-\u003eSum(Interval(Scalar a)))",
@@ -7978,6 +8626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cubic B&#233;zier segment specified by\n   three offsets from the starting\n   point to the first control point,\n   second control point, and ending\n   point, respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "Cubic",
           "package": "diagrams-lib",
@@ -7988,6 +8637,7 @@
         "index": {
           "description": "cubic zier segment specified by three offsets from the starting point to the first control point second control point and ending point respectively",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "Cubic",
           "package": "diagrams-lib",
@@ -8001,6 +8651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "FCubic",
           "package": "diagrams-lib",
@@ -8010,6 +8661,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "FCubic",
           "package": "diagrams-lib",
@@ -8023,6 +8675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "FLinear",
           "package": "diagrams-lib",
@@ -8032,6 +8685,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "FLinear",
           "package": "diagrams-lib",
@@ -8046,6 +8700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA linear segment with given offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "Linear",
           "package": "diagrams-lib",
@@ -8056,6 +8711,7 @@
         "index": {
           "description": "linear segment with given offset",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "Linear",
           "package": "diagrams-lib",
@@ -8069,6 +8725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "OffsetClosed",
           "package": "diagrams-lib",
@@ -8078,6 +8735,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "OffsetClosed",
           "normalized": "a-\u003eOffset Closed a",
@@ -8093,6 +8751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "OffsetEnvelope",
           "package": "diagrams-lib",
@@ -8102,6 +8761,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "OffsetEnvelope",
           "package": "diagrams-lib",
@@ -8115,6 +8775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "OffsetOpen",
           "package": "diagrams-lib",
@@ -8124,6 +8785,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "OffsetOpen",
           "package": "diagrams-lib",
@@ -8137,6 +8799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "SegCount",
           "package": "diagrams-lib",
@@ -8146,6 +8809,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "SegCount",
           "package": "diagrams-lib",
@@ -8159,6 +8823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "TotalOffset",
           "package": "diagrams-lib",
@@ -8168,6 +8833,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "TotalOffset",
           "package": "diagrams-lib",
@@ -8181,6 +8847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "_oeEnvelope",
           "package": "diagrams-lib",
@@ -8190,6 +8857,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "_oeEnvelope",
           "package": "diagrams-lib",
@@ -8203,6 +8871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "_oeOffset",
           "package": "diagrams-lib",
@@ -8212,6 +8881,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "_oeOffset",
           "package": "diagrams-lib",
@@ -8226,6 +8896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eb&#233;zier3\u003c/code\u003e is the same as \u003ccode\u003ebezier3\u003c/code\u003e, but with more snobbery.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "bézier3",
           "package": "diagrams-lib",
@@ -8236,6 +8907,7 @@
         "index": {
           "description": "zier3 is the same as bezier3 but with more snobbery",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "bézier3",
           "normalized": "a-\u003ea-\u003ea-\u003eSegment Closed a",
@@ -8251,6 +8923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebezier3 c1 c2 x\u003c/code\u003e constructs a translationally invariant cubic\n   B&#233;zier curve where the offsets from the first endpoint to the\n   first and second control point and endpoint are respectively\n   given by \u003ccode\u003ec1\u003c/code\u003e, \u003ccode\u003ec2\u003c/code\u003e, and \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "bezier3",
           "package": "diagrams-lib",
@@ -8261,6 +8934,7 @@
         "index": {
           "description": "bezier3 c1 c2 constructs translationally invariant cubic zier curve where the offsets from the first endpoint to the first and second control point and endpoint are respectively given by c1 c2 and",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "bezier3",
           "normalized": "a-\u003ea-\u003ea-\u003eSegment Closed a",
@@ -8276,6 +8950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eFixedSegment\u003c/a\u003e\u003c/code\u003e back into a located \u003ccode\u003e\u003ca\u003eSegment\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "fromFixedSeg",
           "package": "diagrams-lib",
@@ -8286,6 +8961,7 @@
         "index": {
           "description": "Convert FixedSegment back into located Segment",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "fromFixedSeg",
           "normalized": "FixedSegment a-\u003eLocated(Segment Closed a)",
@@ -8302,6 +8978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a specified tolerance, project out the cached arc length if\n   it is accurate enough; otherwise call the generic arc length\n   function with the given tolerance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "getArcLengthBounded",
           "package": "diagrams-lib",
@@ -8312,6 +8989,7 @@
         "index": {
           "description": "Given specified tolerance project out the cached arc length if it is accurate enough otherwise call the generic arc length function with the given tolerance",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "getArcLengthBounded",
           "normalized": "Scalar a-\u003eArcLength a-\u003eInterval(Scalar a)",
@@ -8328,6 +9006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject out the cached arc length, stored together with error\n   bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "getArcLengthCached",
           "package": "diagrams-lib",
@@ -8338,6 +9017,7 @@
         "index": {
           "description": "Project out the cached arc length stored together with error bounds",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "getArcLengthCached",
           "normalized": "ArcLength a-\u003eInterval(Scalar a)",
@@ -8354,6 +9034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject out the generic arc length function taking the tolerance as\n   an argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "getArcLengthFun",
           "package": "diagrams-lib",
@@ -8364,6 +9045,7 @@
         "index": {
           "description": "Project out the generic arc length function taking the tolerance as an argument",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "getArcLengthFun",
           "normalized": "ArcLength a-\u003eScalar a-\u003eInterval(Scalar a)",
@@ -8380,6 +9062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eFixedSegment\u003c/a\u003e\u003c/code\u003e from a located \u003ccode\u003e\u003ca\u003eSegment\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "mkFixedSeg",
           "package": "diagrams-lib",
@@ -8390,6 +9073,7 @@
         "index": {
           "description": "Create FixedSegment from located Segment",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "mkFixedSeg",
           "normalized": "Located(Segment Closed a)-\u003eFixedSegment a",
@@ -8405,6 +9089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "oeEnvelope",
           "package": "diagrams-lib",
@@ -8414,6 +9099,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "oeEnvelope",
           "package": "diagrams-lib",
@@ -8427,6 +9113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "oeOffset",
           "package": "diagrams-lib",
@@ -8436,6 +9123,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "oeOffset",
           "package": "diagrams-lib",
@@ -8450,6 +9138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse the direction of a segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "reverseSegment",
           "package": "diagrams-lib",
@@ -8460,6 +9149,7 @@
         "index": {
           "description": "Reverse the direction of segment",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "reverseSegment",
           "normalized": "Segment Closed a-\u003eSegment Closed a",
@@ -8476,6 +9166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the offset from the start of a segment to the\n   end.  Note that in the case of a B&#233;zier segment this is \u003cem\u003enot\u003c/em\u003e the\n   same as the length of the curve itself; for that, see \u003ccode\u003e\u003ca\u003earcLength\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "segOffset",
           "package": "diagrams-lib",
@@ -8486,6 +9177,7 @@
         "index": {
           "description": "Compute the offset from the start of segment to the end Note that in the case of zier segment this is not the same as the length of the curve itself for that see arcLength",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "segOffset",
           "normalized": "Segment Closed a-\u003ea",
@@ -8502,6 +9194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003estraight\u003c/a\u003e\u003c/code\u003e v\u003c/code\u003e constructs a translationally invariant linear\n   segment with direction and length given by the vector \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Segment",
           "name": "straight",
           "package": "diagrams-lib",
@@ -8512,6 +9205,7 @@
         "index": {
           "description": "straight constructs translationally invariant linear segment with direction and length given by the vector",
           "hierarchy": "Diagrams Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Segment",
           "name": "straight",
           "normalized": "a-\u003eSegment Closed a",
@@ -8527,6 +9221,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExact solving of low-degree (n \u003c= 3) polynomials.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Solve",
           "name": "Solve",
           "package": "diagrams-lib",
@@ -8536,6 +9231,7 @@
         "index": {
           "description": "Exact solving of low-degree polynomials",
           "hierarchy": "Diagrams Solve",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Solve",
           "name": "Solve",
           "package": "diagrams-lib",
@@ -8550,6 +9246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve the cubic equation ax^3 + bx^2 + cx + d = 0, returning a\n   list of all real roots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Solve",
           "name": "cubForm",
           "package": "diagrams-lib",
@@ -8560,6 +9257,7 @@
         "index": {
           "description": "Solve the cubic equation ax bx cx returning list of all real roots",
           "hierarchy": "Diagrams Solve",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Solve",
           "name": "cubForm",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003e[a]",
@@ -8576,6 +9274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe quadratic formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Solve",
           "name": "quadForm",
           "package": "diagrams-lib",
@@ -8586,6 +9285,7 @@
         "index": {
           "description": "The quadratic formula",
           "hierarchy": "Diagrams Solve",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Solve",
           "name": "quadForm",
           "normalized": "a-\u003ea-\u003ea-\u003e[a]",
@@ -8602,6 +9302,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComputing tangent and normal vectors for segments and trails.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Tangent",
           "name": "Tangent",
           "package": "diagrams-lib",
@@ -8611,6 +9312,7 @@
         "index": {
           "description": "Computing tangent and normal vectors for segments and trails",
           "hierarchy": "Diagrams Tangent",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Tangent",
           "name": "Tangent",
           "package": "diagrams-lib",
@@ -8625,6 +9327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper used to give different instances of\n   \u003ccode\u003e\u003ca\u003eParametric\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEndValues\u003c/a\u003e\u003c/code\u003e that compute tangent vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Tangent",
           "name": "Tangent",
           "package": "diagrams-lib",
@@ -8634,6 +9337,7 @@
         "index": {
           "description": "newtype wrapper used to give different instances of Parametric and EndValues that compute tangent vectors",
           "hierarchy": "Diagrams Tangent",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Tangent",
           "name": "Tangent",
           "package": "diagrams-lib",
@@ -8647,6 +9351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Tangent",
           "name": "Tangent",
           "package": "diagrams-lib",
@@ -8656,6 +9361,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Tangent",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Tangent",
           "name": "Tangent",
           "package": "diagrams-lib",
@@ -8670,6 +9376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the normal vector at the end of a segment or trail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Tangent",
           "name": "normalAtEnd",
           "package": "diagrams-lib",
@@ -8680,6 +9387,7 @@
         "index": {
           "description": "Compute the normal vector at the end of segment or trail",
           "hierarchy": "Diagrams Tangent",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Tangent",
           "name": "normalAtEnd",
           "normalized": "a-\u003eR",
@@ -8696,6 +9404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the (unit) normal vector to a segment or trail at a\n   particular parameter.\n\u003c/p\u003e\u003cp\u003eExamples of more specific types this function can have include\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003eSegment Closed R2 -\u003e Double -\u003e R2\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003eTrail' Line R2 -\u003e Double -\u003e R2\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003eLocated (Trail R2) -\u003e Double -\u003e P2\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSee the instances listed for the \u003ccode\u003e\u003ca\u003eTangent\u003c/a\u003e\u003c/code\u003e newtype for more.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Tangent",
           "name": "normalAtParam",
           "package": "diagrams-lib",
@@ -8706,6 +9415,7 @@
         "index": {
           "description": "Compute the unit normal vector to segment or trail at particular parameter Examples of more specific types this function can have include Segment Closed R2 Double R2 Trail Line R2 Double R2 Located Trail R2 Double P2 See the instances listed for the Tangent newtype for more",
           "hierarchy": "Diagrams Tangent",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Tangent",
           "name": "normalAtParam",
           "normalized": "a-\u003eScalar(V a)-\u003eR",
@@ -8722,6 +9432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the normal vector at the start of a segment or trail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Tangent",
           "name": "normalAtStart",
           "package": "diagrams-lib",
@@ -8732,6 +9443,7 @@
         "index": {
           "description": "Compute the normal vector at the start of segment or trail",
           "hierarchy": "Diagrams Tangent",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Tangent",
           "name": "normalAtStart",
           "normalized": "a-\u003eR",
@@ -8748,6 +9460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the tangent vector at the end of a segment or trail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Tangent",
           "name": "tangentAtEnd",
           "package": "diagrams-lib",
@@ -8758,6 +9471,7 @@
         "index": {
           "description": "Compute the tangent vector at the end of segment or trail",
           "hierarchy": "Diagrams Tangent",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Tangent",
           "name": "tangentAtEnd",
           "normalized": "a-\u003eCodomain(Tangent a)",
@@ -8774,6 +9488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the tangent vector to a segment or trail at a particular\n   parameter.\n\u003c/p\u003e\u003cp\u003eExamples of more specific types this function can have include\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003eSegment Closed R2 -\u003e Double -\u003e R2\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003eTrail' Line R2 -\u003e Double -\u003e R2\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003eLocated (Trail R2) -\u003e Double -\u003e R2\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSee the instances listed for the \u003ccode\u003e\u003ca\u003eTangent\u003c/a\u003e\u003c/code\u003e newtype for more.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Tangent",
           "name": "tangentAtParam",
           "package": "diagrams-lib",
@@ -8784,6 +9499,7 @@
         "index": {
           "description": "Compute the tangent vector to segment or trail at particular parameter Examples of more specific types this function can have include Segment Closed R2 Double R2 Trail Line R2 Double R2 Located Trail R2 Double R2 See the instances listed for the Tangent newtype for more",
           "hierarchy": "Diagrams Tangent",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Tangent",
           "name": "tangentAtParam",
           "normalized": "a-\u003eScalar(V a)-\u003eCodomain(Tangent a)",
@@ -8800,6 +9516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the tangent vector at the start of a segment or trail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Tangent",
           "name": "tangentAtStart",
           "package": "diagrams-lib",
@@ -8810,6 +9527,7 @@
         "index": {
           "description": "Compute the tangent vector at the start of segment or trail",
           "hierarchy": "Diagrams Tangent",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Tangent",
           "name": "tangentAtStart",
           "normalized": "a-\u003eCodomain(Tangent a)",
@@ -8826,6 +9544,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes to specify viewpoint for 3D rendering.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "Camera",
           "package": "diagrams-lib",
@@ -8835,6 +9554,7 @@
         "index": {
           "description": "Types to specify viewpoint for rendering",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "Camera",
           "package": "diagrams-lib",
@@ -8848,6 +9568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "Camera",
           "package": "diagrams-lib",
@@ -8856,6 +9577,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "Camera",
           "package": "diagrams-lib",
@@ -8870,6 +9592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn orthographic projection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "OrthoLens",
           "package": "diagrams-lib",
@@ -8879,6 +9602,7 @@
         "index": {
           "description": "An orthographic projection",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "OrthoLens",
           "package": "diagrams-lib",
@@ -8893,6 +9617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA perspective projection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "PerspectiveLens",
           "package": "diagrams-lib",
@@ -8902,6 +9627,7 @@
         "index": {
           "description": "perspective projection",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "PerspectiveLens",
           "package": "diagrams-lib",
@@ -8915,6 +9641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "OrthoLens",
           "package": "diagrams-lib",
@@ -8924,6 +9651,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "OrthoLens",
           "package": "diagrams-lib",
@@ -8937,6 +9665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "PerspectiveLens",
           "package": "diagrams-lib",
@@ -8946,6 +9675,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "PerspectiveLens",
           "package": "diagrams-lib",
@@ -8960,6 +9690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal field of view.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "_horizontalFieldOfView",
           "package": "diagrams-lib",
@@ -8970,6 +9701,7 @@
         "index": {
           "description": "Horizontal field of view",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "_horizontalFieldOfView",
           "package": "diagrams-lib",
@@ -8984,6 +9716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "_orthoHeight",
           "package": "diagrams-lib",
@@ -8994,6 +9727,7 @@
         "index": {
           "description": "Height",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "_orthoHeight",
           "package": "diagrams-lib",
@@ -9008,6 +9742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "_orthoWidth",
           "package": "diagrams-lib",
@@ -9018,6 +9753,7 @@
         "index": {
           "description": "Width",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "_orthoWidth",
           "package": "diagrams-lib",
@@ -9032,6 +9768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical field of view.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "_verticalFieldOfView",
           "package": "diagrams-lib",
@@ -9042,6 +9779,7 @@
         "index": {
           "description": "Vertical field of view",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "_verticalFieldOfView",
           "package": "diagrams-lib",
@@ -9056,6 +9794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe natural aspect ratio of the projection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "aspect",
           "package": "diagrams-lib",
@@ -9066,6 +9805,7 @@
         "index": {
           "description": "The natural aspect ratio of the projection",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "aspect",
           "normalized": "a-\u003eDouble",
@@ -9080,6 +9820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camAspect",
           "package": "diagrams-lib",
@@ -9089,6 +9830,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camAspect",
           "normalized": "Camera a-\u003eDouble",
@@ -9104,6 +9846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camForward",
           "package": "diagrams-lib",
@@ -9113,6 +9856,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camForward",
           "normalized": "Camera a-\u003eb",
@@ -9128,6 +9872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camLens",
           "package": "diagrams-lib",
@@ -9137,6 +9882,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camLens",
           "normalized": "Camera a-\u003ea",
@@ -9152,6 +9898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camLoc",
           "package": "diagrams-lib",
@@ -9161,6 +9908,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camLoc",
           "normalized": "Camera a-\u003eP",
@@ -9176,6 +9924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camRight",
           "package": "diagrams-lib",
@@ -9185,6 +9934,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camRight",
           "normalized": "Camera a-\u003eb",
@@ -9200,6 +9950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camUp",
           "package": "diagrams-lib",
@@ -9209,6 +9960,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "camUp",
           "normalized": "Camera a-\u003eb",
@@ -9225,6 +9977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'facing_ZCamera l' is a camera at the origin facing along the\n negative Z axis, with its up-axis coincident with the positive Y\n axis, with the projection defined by l.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "facing_ZCamera",
           "package": "diagrams-lib",
@@ -9235,6 +9988,7 @@
         "index": {
           "description": "facing ZCamera is camera at the origin facing along the negative axis with its up-axis coincident with the positive axis with the projection defined by",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "facing_ZCamera",
           "normalized": "a-\u003eDiagram b R",
@@ -9250,6 +10004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "horizontalFieldOfView",
           "package": "diagrams-lib",
@@ -9259,6 +10014,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "horizontalFieldOfView",
           "package": "diagrams-lib",
@@ -9273,6 +10029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emm50 has the field of view of a 50mm lens on standard 35mm film,\n hence an aspect ratio of 3:2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "mm50",
           "package": "diagrams-lib",
@@ -9283,6 +10040,7 @@
         "index": {
           "description": "mm50 has the field of view of mm lens on standard mm film hence an aspect ratio of",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "mm50",
           "package": "diagrams-lib",
@@ -9296,6 +10054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA camera at the origin facing along the negative Z axis, with its\n up-axis coincident with the positive Y axis.  The field of view is\n chosen to match a 50mm camera on 35mm film. Note that Cameras take\n up no space in the Diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "mm50Camera",
           "package": "diagrams-lib",
@@ -9306,6 +10065,7 @@
         "index": {
           "description": "camera at the origin facing along the negative axis with its up-axis coincident with the positive axis The field of view is chosen to match mm camera on mm film Note that Cameras take up no space in the Diagram",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "mm50Camera",
           "package": "diagrams-lib",
@@ -9320,6 +10080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emm50Narrow has the same vertical field of view as mm50, but an\n aspect ratio of 4:3, for VGA and similar computer resulotions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "mm50Narrow",
           "package": "diagrams-lib",
@@ -9330,6 +10091,7 @@
         "index": {
           "description": "mm50Narrow has the same vertical field of view as mm50 but an aspect ratio of for VGA and similar computer resulotions",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "mm50Narrow",
           "package": "diagrams-lib",
@@ -9344,6 +10106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emm50Wide has the same vertical field of view as mm50, but an\n aspect ratio of 1.6, suitable for wide screen computer monitors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "mm50Wide",
           "package": "diagrams-lib",
@@ -9354,6 +10117,7 @@
         "index": {
           "description": "mm50Wide has the same vertical field of view as mm50 but an aspect ratio of suitable for wide screen computer monitors",
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "mm50Wide",
           "package": "diagrams-lib",
@@ -9367,6 +10131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "orthoHeight",
           "package": "diagrams-lib",
@@ -9376,6 +10141,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "orthoHeight",
           "package": "diagrams-lib",
@@ -9389,6 +10155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "orthoWidth",
           "package": "diagrams-lib",
@@ -9398,6 +10165,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "orthoWidth",
           "package": "diagrams-lib",
@@ -9411,6 +10179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Camera",
           "name": "verticalFieldOfView",
           "package": "diagrams-lib",
@@ -9420,6 +10189,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Camera",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Camera",
           "name": "verticalFieldOfView",
           "package": "diagrams-lib",
@@ -9434,6 +10204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes to specify lighting for 3D rendering.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Light",
           "name": "Light",
           "package": "diagrams-lib",
@@ -9443,6 +10214,7 @@
         "index": {
           "description": "Types to specify lighting for rendering",
           "hierarchy": "Diagrams ThreeD Light",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Light",
           "name": "Light",
           "package": "diagrams-lib",
@@ -9456,6 +10228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Light",
           "name": "ParallelLight",
           "package": "diagrams-lib",
@@ -9464,6 +10237,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Light",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Light",
           "name": "ParallelLight",
           "package": "diagrams-lib",
@@ -9477,6 +10251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Light",
           "name": "PointLight",
           "package": "diagrams-lib",
@@ -9485,6 +10260,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Light",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Light",
           "name": "PointLight",
           "package": "diagrams-lib",
@@ -9498,6 +10274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Light",
           "name": "ParallelLight",
           "package": "diagrams-lib",
@@ -9507,6 +10284,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Light",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Light",
           "name": "ParallelLight",
           "package": "diagrams-lib",
@@ -9520,6 +10298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Light",
           "name": "PointLight",
           "package": "diagrams-lib",
@@ -9529,6 +10308,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Light",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Light",
           "name": "PointLight",
           "package": "diagrams-lib",
@@ -9543,6 +10323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a Diagram with a single ParallelLight, which takes up no space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Light",
           "name": "parallelLight",
           "package": "diagrams-lib",
@@ -9552,6 +10333,7 @@
         "index": {
           "description": "Construct Diagram with single ParallelLight which takes up no space",
           "hierarchy": "Diagrams ThreeD Light",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Light",
           "name": "parallelLight",
           "normalized": "a-\u003eColour Double-\u003eDiagram b R",
@@ -9568,6 +10350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a Diagram with a single PointLight at the origin, which\n takes up no space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Light",
           "name": "pointLight",
           "package": "diagrams-lib",
@@ -9577,6 +10360,7 @@
         "index": {
           "description": "Construct Diagram with single PointLight at the origin which takes up no space",
           "hierarchy": "Diagrams ThreeD Light",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Light",
           "name": "pointLight",
           "normalized": "Colour Double-\u003eDiagram a R",
@@ -9593,6 +10377,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious three-dimensional shapes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Shapes",
           "name": "Shapes",
           "package": "diagrams-lib",
@@ -9602,6 +10387,7 @@
         "index": {
           "description": "Various three-dimensional shapes",
           "hierarchy": "Diagrams ThreeD Shapes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Shapes",
           "name": "Shapes",
           "package": "diagrams-lib",
@@ -9615,6 +10401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Shapes",
           "name": "Ellipsoid",
           "package": "diagrams-lib",
@@ -9623,6 +10410,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Shapes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Shapes",
           "name": "Ellipsoid",
           "package": "diagrams-lib",
@@ -9636,6 +10424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Shapes",
           "name": "Ellipsoid",
           "package": "diagrams-lib",
@@ -9645,6 +10434,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Shapes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Shapes",
           "name": "Ellipsoid",
           "package": "diagrams-lib",
@@ -9658,6 +10448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Shapes",
           "name": "sphere",
           "package": "diagrams-lib",
@@ -9667,6 +10458,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Shapes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Shapes",
           "name": "sphere",
           "package": "diagrams-lib",
@@ -9680,6 +10472,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTransformations specific to three dimensions, with a few generic\n transformations (uniform scaling, translation) also re-exported for\n convenience.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "Transform",
           "package": "diagrams-lib",
@@ -9689,6 +10482,7 @@
         "index": {
           "description": "Transformations specific to three dimensions with few generic transformations uniform scaling translation also re-exported for convenience",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "Transform",
           "package": "diagrams-lib",
@@ -9703,6 +10497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eaboutZ\u003c/a\u003e\u003c/code\u003e, but rotates about the X axis, bringing positive y-values\n towards the positive z-axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "aboutX",
           "package": "diagrams-lib",
@@ -9713,6 +10508,7 @@
         "index": {
           "description": "Like aboutZ but rotates about the axis bringing positive y-values towards the positive z-axis",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "aboutX",
           "normalized": "a-\u003eT",
@@ -9728,6 +10524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eaboutZ\u003c/a\u003e\u003c/code\u003e, but rotates about the Y axis, bringing postive\n x-values towards the negative z-axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "aboutY",
           "package": "diagrams-lib",
@@ -9738,6 +10535,7 @@
         "index": {
           "description": "Like aboutZ but rotates about the axis bringing postive x-values towards the negative z-axis",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "aboutY",
           "normalized": "a-\u003eT",
@@ -9753,6 +10551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a transformation which rotates by the given angle about\n   a line parallel the Z axis passing through the local origin.\n   A positive angle brings positive x-values towards the positive-y axis.\n\u003c/p\u003e\u003cp\u003eThe angle can be expressed using any type which is an\n   instance of \u003ccode\u003e\u003ca\u003eAngle\u003c/a\u003e\u003c/code\u003e.  For example, \u003ccode\u003eaboutZ (1/4 ::\n   \u003ccode\u003e\u003ca\u003eTurn\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e, \u003ccode\u003eaboutZ (tau/4 :: \u003ccode\u003e\u003ca\u003eRad\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e, and \u003ccode\u003eaboutZ (90 ::\n   \u003ccode\u003e\u003ca\u003eDeg\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e all represent the same transformation, namely, a\n   counterclockwise rotation by a right angle.  For more general rotations,\n   see \u003ccode\u003e\u003ca\u003erotationAbout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that writing \u003ccode\u003eaboutZ (1/4)\u003c/code\u003e, with no type annotation, will\n   yield an error since GHC cannot figure out which sort of angle\n   you want to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "aboutZ",
           "package": "diagrams-lib",
@@ -9763,6 +10562,7 @@
         "index": {
           "description": "Create transformation which rotates by the given angle about line parallel the axis passing through the local origin positive angle brings positive x-values towards the positive-y axis The angle can be expressed using any type which is an instance of Angle For example aboutZ Turn aboutZ tau Rad and aboutZ Deg all represent the same transformation namely counterclockwise rotation by right angle For more general rotations see rotationAbout Note that writing aboutZ with no type annotation will yield an error since GHC cannot figure out which sort of angle you want to use",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "aboutZ",
           "normalized": "a-\u003eT",
@@ -9778,6 +10578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the matrix equivalent of an affine transform, as a triple of\n   columns paired with the translation vector.  This is mostly\n   useful for implementing backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "onBasis",
           "package": "diagrams-lib",
@@ -9788,6 +10589,7 @@
         "index": {
           "description": "Get the matrix equivalent of an affine transform as triple of columns paired with the translation vector This is mostly useful for implementing backends",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "onBasis",
           "normalized": "T-\u003e((R,R,R),R)",
@@ -9804,6 +10606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epointAt about initial final\u003c/code\u003e produces a rotation which brings\n the direction \u003ccode\u003einitial\u003c/code\u003e to point in the direction \u003ccode\u003efinal\u003c/code\u003e by first\n panning around \u003ccode\u003eabout\u003c/code\u003e, then tilting about the axis perpendicular\n to initial and final.  In particular, if this can be accomplished\n without tilting, it will be, otherwise if only tilting is\n necessary, no panning will occur.  The tilt will always be between\n &#177; /4 turn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "pointAt",
           "package": "diagrams-lib",
@@ -9814,6 +10617,7 @@
         "index": {
           "description": "pointAt about initial final produces rotation which brings the direction initial to point in the direction final by first panning around about then tilting about the axis perpendicular to initial and final In particular if this can be accomplished without tilting it will be otherwise if only tilting is necessary no panning will occur The tilt will always be between turn",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "pointAt",
           "normalized": "a-\u003ea-\u003ea-\u003eT",
@@ -9830,6 +10634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epointAt' has the same behavior as \u003ccode\u003e\u003ca\u003epointAt\u003c/a\u003e\u003c/code\u003e, but takes vectors\n instead of directions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "pointAt'",
           "package": "diagrams-lib",
@@ -9840,6 +10645,7 @@
         "index": {
           "description": "pointAt has the same behavior as pointAt but takes vectors instead of directions",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "pointAt'",
           "normalized": "R-\u003eR-\u003eR-\u003eT",
@@ -9856,6 +10662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erotationAbout p d a\u003c/code\u003e is a rotation about a line parallel to \u003ccode\u003ed\u003c/code\u003e\n   passing through \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "rotationAbout",
           "package": "diagrams-lib",
@@ -9865,6 +10672,7 @@
         "index": {
           "description": "rotationAbout is rotation about line parallel to passing through",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "rotationAbout",
           "normalized": "P-\u003ea-\u003eb-\u003eT",
@@ -9881,6 +10689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a diagram by the given factor in the x (horizontal)\n   direction.  To scale uniformly, use \u003ccode\u003e\u003ca\u003escale\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scaleX",
           "package": "diagrams-lib",
@@ -9891,6 +10700,7 @@
         "index": {
           "description": "Scale diagram by the given factor in the horizontal direction To scale uniformly use scale",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scaleX",
           "normalized": "Double-\u003ea-\u003ea",
@@ -9906,6 +10716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a diagram by the given factor in the y (vertical)\n   direction.  To scale uniformly, use \u003ccode\u003e\u003ca\u003escale\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scaleY",
           "package": "diagrams-lib",
@@ -9916,6 +10727,7 @@
         "index": {
           "description": "Scale diagram by the given factor in the vertical direction To scale uniformly use scale",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scaleY",
           "normalized": "Double-\u003ea-\u003ea",
@@ -9931,6 +10743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a diagram by the given factor in the z direction.  To scale\n uniformly, use \u003ccode\u003e\u003ca\u003escale\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scaleZ",
           "package": "diagrams-lib",
@@ -9941,6 +10754,7 @@
         "index": {
           "description": "Scale diagram by the given factor in the direction To scale uniformly use scale",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scaleZ",
           "normalized": "Double-\u003ea-\u003ea",
@@ -9956,6 +10770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a transformation which scales by the given factor in\n   the x direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scalingX",
           "package": "diagrams-lib",
@@ -9966,6 +10781,7 @@
         "index": {
           "description": "Construct transformation which scales by the given factor in the direction",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scalingX",
           "normalized": "Double-\u003eT",
@@ -9981,6 +10797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a transformation which scales by the given factor in\n   the y direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scalingY",
           "package": "diagrams-lib",
@@ -9991,6 +10808,7 @@
         "index": {
           "description": "Construct transformation which scales by the given factor in the direction",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scalingY",
           "normalized": "Double-\u003eT",
@@ -10006,6 +10824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a transformation which scales by the given factor in\n   the z direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scalingZ",
           "package": "diagrams-lib",
@@ -10016,6 +10835,7 @@
         "index": {
           "description": "Construct transformation which scales by the given factor in the direction",
           "hierarchy": "Diagrams ThreeD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Transform",
           "name": "scalingZ",
           "normalized": "Double-\u003eT",
@@ -10031,6 +10851,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types for three-dimensional Euclidean space.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "Types",
           "package": "diagrams-lib",
@@ -10040,6 +10861,7 @@
         "index": {
           "description": "Basic types for three-dimensional Euclidean space",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "Types",
           "package": "diagrams-lib",
@@ -10054,6 +10876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for types that measure angles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "Angle",
           "package": "diagrams-lib",
@@ -10063,6 +10886,7 @@
         "index": {
           "description": "Type class for types that measure angles",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "Angle",
           "package": "diagrams-lib",
@@ -10077,6 +10901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecated synonym for \u003ccode\u003e\u003ca\u003eTurn\u003c/a\u003e\u003c/code\u003e, retained for backwards compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "CircleFrac",
           "package": "diagrams-lib",
@@ -10086,6 +10911,7 @@
         "index": {
           "description": "Deprecated synonym for Turn retained for backwards compatibility",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "CircleFrac",
           "package": "diagrams-lib",
@@ -10100,6 +10926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper for representing angles in degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "Deg",
           "package": "diagrams-lib",
@@ -10109,6 +10936,7 @@
         "index": {
           "description": "Newtype wrapper for representing angles in degrees",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "Deg",
           "package": "diagrams-lib",
@@ -10123,6 +10951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirection is a type class representing directions in R3.  The interface is\n based on that of the Angle class in 2D.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "Direction",
           "package": "diagrams-lib",
@@ -10132,6 +10961,7 @@
         "index": {
           "description": "Direction is type class representing directions in R3 The interface is based on that of the Angle class in",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "Direction",
           "package": "diagrams-lib",
@@ -10146,6 +10976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoints in R^3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "P3",
           "package": "diagrams-lib",
@@ -10155,6 +10986,7 @@
         "index": {
           "description": "Points in",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "P3",
           "package": "diagrams-lib",
@@ -10168,6 +11000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe three-dimensional Euclidean vector space R^3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "R3",
           "package": "diagrams-lib",
@@ -10177,6 +11010,7 @@
         "index": {
           "description": "The three-dimensional Euclidean vector space",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "R3",
           "package": "diagrams-lib",
@@ -10190,6 +11024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper for representing angles in radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "Rad",
           "package": "diagrams-lib",
@@ -10199,6 +11034,7 @@
         "index": {
           "description": "Newtype wrapper for representing angles in radians",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "Rad",
           "package": "diagrams-lib",
@@ -10213,6 +11049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA direction expressed as a pair of spherical coordinates.\n `Spherical 0 0` is the direction of \u003ccode\u003eunitX\u003c/code\u003e.  The first coordinate\n represents rotation about the Z axis, the second rotation towards the Z axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "Spherical",
           "package": "diagrams-lib",
@@ -10222,6 +11059,7 @@
         "index": {
           "description": "direction expressed as pair of spherical coordinates Spherical is the direction of unitX The first coordinate represents rotation about the axis the second rotation towards the axis",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "Spherical",
           "package": "diagrams-lib",
@@ -10236,6 +11074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformations in R^3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "T3",
           "package": "diagrams-lib",
@@ -10245,6 +11084,7 @@
         "index": {
           "description": "Transformations in",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "T3",
           "package": "diagrams-lib",
@@ -10258,6 +11098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper used to represent angles as fractions of a\n   circle.  For example, 1/3 turn = tau/3 radians = 120 degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "Turn",
           "package": "diagrams-lib",
@@ -10267,6 +11108,7 @@
         "index": {
           "description": "Newtype wrapper used to represent angles as fractions of circle For example turn tau radians degrees",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "Turn",
           "package": "diagrams-lib",
@@ -10326,6 +11168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "Spherical",
           "package": "diagrams-lib",
@@ -10335,6 +11178,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "Spherical",
           "package": "diagrams-lib",
@@ -10453,6 +11297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity function with a restricted type, for conveniently\n restricting unwanted polymorphism.  For example, \u003ccode\u003efromDirection\n . asSpherical . camForward\u003c/code\u003e gives a unit vector pointing in the\n direction of the camera view.  Without \u003ccode\u003easSpherical\u003c/code\u003e, the\n intermediate type would be ambiguous.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "asSpherical",
           "package": "diagrams-lib",
@@ -10463,6 +11308,7 @@
         "index": {
           "description": "The identity function with restricted type for conveniently restricting unwanted polymorphism For example fromDirection asSpherical camForward gives unit vector pointing in the direction of the camera view Without asSpherical the intermediate type would be ambiguous",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "asSpherical",
           "normalized": "Spherical Turn-\u003eSpherical Turn",
@@ -10533,6 +11379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from polar angles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "fromSpherical",
           "package": "diagrams-lib",
@@ -10543,6 +11390,7 @@
         "index": {
           "description": "Convert from polar angles",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "fromSpherical",
           "normalized": "Spherical a-\u003eb",
@@ -10559,6 +11407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a turn, \u003cem\u003ei.e.\u003c/em\u003e a fraction of a circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "fromTurn",
           "package": "diagrams-lib",
@@ -10569,6 +11418,7 @@
         "index": {
           "description": "Convert from turn i.e fraction of circle",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "fromTurn",
           "normalized": "Turn-\u003ea",
@@ -10610,6 +11460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurried version of \u003ccode\u003e\u003ca\u003er3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "mkP3",
           "package": "diagrams-lib",
@@ -10620,6 +11471,7 @@
         "index": {
           "description": "Curried version of r3",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "mkP3",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eP",
@@ -10635,6 +11487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurried version of \u003ccode\u003e\u003ca\u003er3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "mkR3",
           "package": "diagrams-lib",
@@ -10645,6 +11498,7 @@
         "index": {
           "description": "Curried version of r3",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "mkR3",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eR",
@@ -10660,6 +11514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a 3D point from a triple of coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "p3",
           "package": "diagrams-lib",
@@ -10670,6 +11525,7 @@
         "index": {
           "description": "Construct point from triple of coordinates",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "p3",
           "normalized": "(Double,Double,Double)-\u003eP",
@@ -10684,6 +11540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "p3Iso",
           "package": "diagrams-lib",
@@ -10693,6 +11550,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "p3Iso",
           "normalized": "Iso' P(Double,Double,Double)",
@@ -10709,6 +11567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a 3D vector from a triple of components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "r3",
           "package": "diagrams-lib",
@@ -10719,6 +11578,7 @@
         "index": {
           "description": "Construct vector from triple of components",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "r3",
           "normalized": "(Double,Double,Double)-\u003eR",
@@ -10733,6 +11593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "r3Iso",
           "package": "diagrams-lib",
@@ -10742,6 +11603,7 @@
         },
         "index": {
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "r3Iso",
           "normalized": "Iso' R(Double,Double,Double)",
@@ -10758,6 +11620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to polar angles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "toSpherical",
           "package": "diagrams-lib",
@@ -10768,6 +11631,7 @@
         "index": {
           "description": "Convert to polar angles",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "toSpherical",
           "normalized": "a-\u003eSpherical b",
@@ -10784,6 +11648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a turn, \u003cem\u003ei.e.\u003c/em\u003e a fraction of a circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "toTurn",
           "package": "diagrams-lib",
@@ -10794,6 +11659,7 @@
         "index": {
           "description": "Convert to turn i.e fraction of circle",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "toTurn",
           "normalized": "a-\u003eTurn",
@@ -10810,6 +11676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a 3D point back into a triple of coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "unp3",
           "package": "diagrams-lib",
@@ -10820,6 +11687,7 @@
         "index": {
           "description": "Convert point back into triple of coordinates",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "unp3",
           "normalized": "P-\u003e(Double,Double,Double)",
@@ -10835,6 +11703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a 3D vector back into a triple of components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Types",
           "name": "unr3",
           "package": "diagrams-lib",
@@ -10845,6 +11714,7 @@
         "index": {
           "description": "Convert vector back into triple of components",
           "hierarchy": "Diagrams ThreeD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Types",
           "name": "unr3",
           "normalized": "R-\u003e(Double,Double,Double)",
@@ -10860,6 +11730,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThree-dimensional vectors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Vector",
           "name": "Vector",
           "package": "diagrams-lib",
@@ -10869,6 +11740,7 @@
         "index": {
           "description": "Three-dimensional vectors",
           "hierarchy": "Diagrams ThreeD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Vector",
           "name": "Vector",
           "package": "diagrams-lib",
@@ -10883,6 +11755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompute the positive angle between the two vectors in their common plane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Vector",
           "name": "angleBetween",
           "package": "diagrams-lib",
@@ -10893,6 +11766,7 @@
         "index": {
           "description": "compute the positive angle between the two vectors in their common plane",
           "hierarchy": "Diagrams ThreeD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Vector",
           "name": "angleBetween",
           "normalized": "R-\u003eR-\u003ea",
@@ -10909,6 +11783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompute the positive angle between the two vectors in their common plane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Vector",
           "name": "angleBetweenDirs",
           "package": "diagrams-lib",
@@ -10919,6 +11794,7 @@
         "index": {
           "description": "compute the positive angle between the two vectors in their common plane",
           "hierarchy": "Diagrams ThreeD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Vector",
           "name": "angleBetweenDirs",
           "normalized": "a-\u003ea-\u003eb",
@@ -10935,6 +11811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edirection v\u003c/code\u003e is the direction in which \u003ccode\u003ev\u003c/code\u003e points.  Returns an\n   unspecified value when given the zero vector as input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Vector",
           "name": "direction",
           "package": "diagrams-lib",
@@ -10945,6 +11822,7 @@
         "index": {
           "description": "direction is the direction in which points Returns an unspecified value when given the zero vector as input",
           "hierarchy": "Diagrams ThreeD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Vector",
           "name": "direction",
           "normalized": "R-\u003ea",
@@ -10960,6 +11838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efromDirection d\u003c/code\u003e is the unit vector in the direction \u003ccode\u003ed\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Vector",
           "name": "fromDirection",
           "package": "diagrams-lib",
@@ -10970,6 +11849,7 @@
         "index": {
           "description": "fromDirection is the unit vector in the direction",
           "hierarchy": "Diagrams ThreeD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Vector",
           "name": "fromDirection",
           "normalized": "a-\u003eR",
@@ -10986,6 +11866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit vector in the positive X direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unitX",
           "package": "diagrams-lib",
@@ -10996,6 +11877,7 @@
         "index": {
           "description": "The unit vector in the positive direction",
           "hierarchy": "Diagrams ThreeD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unitX",
           "package": "diagrams-lib",
@@ -11009,6 +11891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit vector in the positive Y direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unitY",
           "package": "diagrams-lib",
@@ -11019,6 +11902,7 @@
         "index": {
           "description": "The unit vector in the positive direction",
           "hierarchy": "Diagrams ThreeD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unitY",
           "package": "diagrams-lib",
@@ -11032,6 +11916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit vector in the positive Z direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unitZ",
           "package": "diagrams-lib",
@@ -11042,6 +11927,7 @@
         "index": {
           "description": "The unit vector in the positive direction",
           "hierarchy": "Diagrams ThreeD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unitZ",
           "package": "diagrams-lib",
@@ -11055,6 +11941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit vector in the negative X direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unit_X",
           "package": "diagrams-lib",
@@ -11065,6 +11952,7 @@
         "index": {
           "description": "The unit vector in the negative direction",
           "hierarchy": "Diagrams ThreeD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unit_X",
           "package": "diagrams-lib",
@@ -11078,6 +11966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit vector in the negative Y direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unit_Y",
           "package": "diagrams-lib",
@@ -11088,6 +11977,7 @@
         "index": {
           "description": "The unit vector in the negative direction",
           "hierarchy": "Diagrams ThreeD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unit_Y",
           "package": "diagrams-lib",
@@ -11101,6 +11991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit vector in the negative Z direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unit_Z",
           "package": "diagrams-lib",
@@ -11111,6 +12002,7 @@
         "index": {
           "description": "The unit vector in the negative direction",
           "hierarchy": "Diagrams ThreeD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD.Vector",
           "name": "unit_Z",
           "package": "diagrams-lib",
@@ -11124,6 +12016,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the three-dimensional vector space R^3,\n three-dimensional transformations, and various predefined\n three-dimensional shapes.  This module re-exports useful\n functionality from a group of more specific modules:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eDiagrams.ThreeD.Types\u003c/a\u003e defines basic types for two-dimensional\n     diagrams, including types representing the 3D Euclidean vector\n     space and various systems of representing directions.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.ThreeD.Transform\u003c/a\u003e defines R^3-specific transformations\n     such as rotation by an angle, and scaling, translation, and\n     reflection in the X, Y, and Z directions.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.ThreeD.Shapes\u003c/a\u003e defines three-dimensional solids,\n     e.g. spheres and cubes.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.ThreeD.Vector\u003c/a\u003e defines some special 3D vectors and\n     functions for converting between vectors and directions.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.ThreeD.Light\u003c/a\u003e and \u003ca\u003eDiagrams.ThreeD.Camera\u003c/a\u003e define types needed\n     for rendering 3D geometry to (2D) images.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.ThreeD",
           "name": "ThreeD",
           "package": "diagrams-lib",
@@ -11133,6 +12026,7 @@
         "index": {
           "description": "This module defines the three-dimensional vector space three-dimensional transformations and various predefined three-dimensional shapes This module re-exports useful functionality from group of more specific modules Diagrams.ThreeD.Types defines basic types for two-dimensional diagrams including types representing the Euclidean vector space and various systems of representing directions Diagrams.ThreeD.Transform defines specific transformations such as rotation by an angle and scaling translation and reflection in the and directions Diagrams.ThreeD.Shapes defines three-dimensional solids e.g spheres and cubes Diagrams.ThreeD.Vector defines some special vectors and functions for converting between vectors and directions Diagrams.ThreeD.Light and Diagrams.ThreeD.Camera define types needed for rendering geometry to images",
           "hierarchy": "Diagrams ThreeD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.ThreeD",
           "name": "ThreeD",
           "package": "diagrams-lib",
@@ -11147,6 +12041,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Traces\", aka embedded raytracers, for finding points on the edge\n of a diagram.  See \u003ca\u003eDiagrams.Core.Trace\u003c/a\u003e for internal\n implementation details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trace",
           "name": "Trace",
           "package": "diagrams-lib",
@@ -11156,6 +12051,7 @@
         "index": {
           "description": "Traces aka embedded raytracers for finding points on the edge of diagram See Diagrams.Core.Trace for internal implementation details",
           "hierarchy": "Diagrams Trace",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trace",
           "name": "Trace",
           "package": "diagrams-lib",
@@ -11170,6 +12066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery diagram comes equipped with a \u003cem\u003etrace\u003c/em\u003e.  Intuitively, the\n   trace for a diagram is like a raytracer: given a line\n   (represented as a base point and a direction), the trace computes\n   the distance from the base point along the line to the first\n   intersection with the diagram.  The distance can be negative if\n   the intersection is in the opposite direction from the base\n   point, or infinite if the ray never intersects the diagram.\n   Note: to obtain the distance to the \u003cem\u003efurthest\u003c/em\u003e intersection\n   instead of the \u003cem\u003eclosest\u003c/em\u003e, just negate the direction vector and\n   then negate the result.\n\u003c/p\u003e\u003cp\u003eNote that the output should actually be interpreted not as an\n   absolute distance, but as a multiplier relative to the input\n   vector.  That is, if the input vector is \u003ccode\u003ev\u003c/code\u003e and the returned\n   scalar is \u003ccode\u003es\u003c/code\u003e, the distance from the base point to the\n   intersection is given by \u003ccode\u003es * magnitude v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trace",
           "name": "Trace",
           "package": "diagrams-lib",
@@ -11178,6 +12075,7 @@
         "index": {
           "description": "Every diagram comes equipped with trace Intuitively the trace for diagram is like raytracer given line represented as base point and direction the trace computes the distance from the base point along the line to the first intersection with the diagram The distance can be negative if the intersection is in the opposite direction from the base point or infinite if the ray never intersects the diagram Note to obtain the distance to the furthest intersection instead of the closest just negate the direction vector and then negate the result Note that the output should actually be interpreted not as an absolute distance but as multiplier relative to the input vector That is if the input vector is and the returned scalar is the distance from the base point to the intersection is given by magnitude",
           "hierarchy": "Diagrams Trace",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trace",
           "name": "Trace",
           "package": "diagrams-lib",
@@ -11192,6 +12090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTraced\u003c/code\u003e abstracts over things which have a trace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trace",
           "name": "Traced",
           "package": "diagrams-lib",
@@ -11200,6 +12099,7 @@
         "index": {
           "description": "Traced abstracts over things which have trace",
           "hierarchy": "Diagrams Trace",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trace",
           "name": "Traced",
           "package": "diagrams-lib",
@@ -11214,6 +12114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the furthest point on the boundary of a subdiagram,\n   beginning from the location (local origin) of the subdiagram and\n   moving in the direction of the given vector.  If there is no such\n   point, the origin is returned; see also \u003ccode\u003e\u003ca\u003eboundaryFromMay\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trace",
           "name": "boundaryFrom",
           "package": "diagrams-lib",
@@ -11224,6 +12125,7 @@
         "index": {
           "description": "Compute the furthest point on the boundary of subdiagram beginning from the location local origin of the subdiagram and moving in the direction of the given vector If there is no such point the origin is returned see also boundaryFromMay",
           "hierarchy": "Diagrams Trace",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trace",
           "name": "boundaryFrom",
           "normalized": "Subdiagram a b c-\u003eb-\u003ePoint b",
@@ -11240,6 +12142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the furthest point on the boundary of a subdiagram,\n   beginning from the location (local origin) of the subdiagram and\n   moving in the direction of the given vector, or \u003ccode\u003eNothing\u003c/code\u003e if\n   there is no such point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trace",
           "name": "boundaryFromMay",
           "package": "diagrams-lib",
@@ -11250,6 +12153,7 @@
         "index": {
           "description": "Compute the furthest point on the boundary of subdiagram beginning from the location local origin of the subdiagram and moving in the direction of the given vector or Nothing if there is no such point",
           "hierarchy": "Diagrams Trace",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trace",
           "name": "boundaryFromMay",
           "normalized": "Subdiagram a b c-\u003eb-\u003eMaybe(Point b)",
@@ -11266,6 +12170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etraceP\u003c/a\u003e\u003c/code\u003e, but computes the *furthest* point on the boundary\n   instead of the closest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trace",
           "name": "maxTraceP",
           "package": "diagrams-lib",
@@ -11275,6 +12180,7 @@
         "index": {
           "description": "Like traceP but computes the furthest point on the boundary instead of the closest",
           "hierarchy": "Diagrams Trace",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trace",
           "name": "maxTraceP",
           "normalized": "Point(V a)-\u003eV a-\u003ea-\u003eMaybe(Point(V a))",
@@ -11291,6 +12197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etraceV\u003c/a\u003e\u003c/code\u003e, but computes a vector to the *furthest* point on\n   the boundary instead of the closest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trace",
           "name": "maxTraceV",
           "package": "diagrams-lib",
@@ -11300,6 +12207,7 @@
         "index": {
           "description": "Like traceV but computes vector to the furthest point on the boundary instead of the closest",
           "hierarchy": "Diagrams Trace",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trace",
           "name": "maxTraceV",
           "normalized": "Point(V a)-\u003eV a-\u003ea-\u003eMaybe(V a)",
@@ -11316,6 +12224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the trace of a diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trace",
           "name": "setTrace",
           "package": "diagrams-lib",
@@ -11325,6 +12234,7 @@
         "index": {
           "description": "Replace the trace of diagram",
           "hierarchy": "Diagrams Trace",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trace",
           "name": "setTrace",
           "normalized": "Trace a-\u003eQDiagram b a c-\u003eQDiagram b a c",
@@ -11341,6 +12251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the trace of a diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trace",
           "name": "trace",
           "package": "diagrams-lib",
@@ -11350,6 +12261,7 @@
         "index": {
           "description": "Get the trace of diagram",
           "hierarchy": "Diagrams Trace",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trace",
           "name": "trace",
           "package": "diagrams-lib",
@@ -11363,6 +12275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a base point and direction, compute the closest point on\n   the boundary of the given object, or \u003ccode\u003eNothing\u003c/code\u003e if there is no\n   intersection in the given direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trace",
           "name": "traceP",
           "package": "diagrams-lib",
@@ -11372,6 +12285,7 @@
         "index": {
           "description": "Given base point and direction compute the closest point on the boundary of the given object or Nothing if there is no intersection in the given direction",
           "hierarchy": "Diagrams Trace",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trace",
           "name": "traceP",
           "normalized": "Point(V a)-\u003eV a-\u003ea-\u003eMaybe(Point(V a))",
@@ -11387,6 +12301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the vector from the given point to the boundary of the\n   given object in the given direction, or \u003ccode\u003eNothing\u003c/code\u003e if there is no\n   intersection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trace",
           "name": "traceV",
           "package": "diagrams-lib",
@@ -11396,6 +12311,7 @@
         "index": {
           "description": "Compute the vector from the given point to the boundary of the given object in the given direction or Nothing if there is no intersection",
           "hierarchy": "Diagrams Trace",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trace",
           "name": "traceV",
           "normalized": "Point(V a)-\u003eV a-\u003ea-\u003eMaybe(V a)",
@@ -11411,6 +12327,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines \u003cem\u003etrails\u003c/em\u003e, translationally invariant paths\n through space.  Trails form a central part of the diagrams-lib API,\n so the documentation for this module merits careful study.\n\u003c/p\u003e\u003cp\u003eRelated modules include:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The \u003ccode\u003eTrailLike\u003c/code\u003e class (\u003ca\u003eDiagrams.TrailLike\u003c/a\u003e) exposes a generic\n   API for building a wide range of things out of trails.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ePath\u003c/code\u003es (\u003ca\u003eDiagrams.Path\u003c/a\u003e) are collections of \u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e\n   (\u003ca\u003eDiagrams.Located\u003c/a\u003e) trails.\n\u003c/li\u003e\u003cli\u003e Trails are composed of \u003ccode\u003e\u003ca\u003eSegment\u003c/a\u003e\u003c/code\u003es (see \u003ca\u003eDiagrams.Segment\u003c/a\u003e),\n   though most users should not need to work with segments directly.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "Trail",
           "package": "diagrams-lib",
@@ -11420,6 +12337,7 @@
         "index": {
           "description": "This module defines trails translationally invariant paths through space Trails form central part of the diagrams-lib API so the documentation for this module merits careful study Related modules include The TrailLike class Diagrams.TrailLike exposes generic API for building wide range of things out of trails Path Diagrams.Path are collections of Located Diagrams.Located trails Trails are composed of Segment see Diagrams.Segment though most users should not need to work with segments directly",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "Trail",
           "package": "diagrams-lib",
@@ -11434,6 +12352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper around trails which exists solely for its\n   \u003ccode\u003e\u003ca\u003eParametric\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDomainBounds\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEndValues\u003c/a\u003e\u003c/code\u003e instances.  The idea\n   is that if \u003ccode\u003etr\u003c/code\u003e is a trail, you can write, \u003cem\u003ee.g.\u003c/em\u003e\n\u003c/p\u003e\u003cpre\u003e\n   getSegment tr \u003ccode\u003e\u003ca\u003eatParam\u003c/a\u003e\u003c/code\u003e 0.6\n\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e\n   atStart (getSegment tr)\n\u003c/pre\u003e\u003cp\u003eto get the segment at parameter 0.6 or the first segment in the\n   trail, respectively.\n\u003c/p\u003e\u003cp\u003eThe codomain for \u003ccode\u003e\u003ca\u003eGetSegment\u003c/a\u003e\u003c/code\u003e, \u003cem\u003ei.e.\u003c/em\u003e the result you get from\n   calling \u003ccode\u003e\u003ca\u003eatParam\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eatStart\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eatEnd\u003c/a\u003e\u003c/code\u003e, is \u003ccode\u003eMaybe (v, Segment\n   Closed v, AnIso' (Scalar v) (Scalar v))\u003c/code\u003e.  \u003ccode\u003eNothing\u003c/code\u003e results if\n   the trail is empty; otherwise, you get:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e the offset from the start of the trail to the beginning of the\n     segment,\n\u003c/li\u003e\u003cli\u003e the segment itself, and\n\u003c/li\u003e\u003cli\u003e a reparameterization isomorphism: in the forward direction, it\n     translates from parameters on the whole trail to a parameters\n     on the segment.  Note that for technical reasons you have to\n     call \u003ccode\u003ecloneIso\u003c/code\u003e on the \u003ccode\u003eAnIso'\u003c/code\u003e value to get a real isomorphism\n     you can use.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "GetSegment",
           "package": "diagrams-lib",
@@ -11443,6 +12362,7 @@
         "index": {
           "description": "newtype wrapper around trails which exists solely for its Parametric DomainBounds and EndValues instances The idea is that if tr is trail you can write e.g getSegment tr atParam or atStart getSegment tr to get the segment at parameter or the first segment in the trail respectively The codomain for GetSegment i.e the result you get from calling atParam atStart or atEnd is Maybe Segment Closed AnIso Scalar Scalar Nothing results if the trail is empty otherwise you get the offset from the start of the trail to the beginning of the segment the segment itself and reparameterization isomorphism in the forward direction it translates from parameters on the whole trail to parameters on the segment Note that for technical reasons you have to call cloneIso on the AnIso value to get real isomorphism you can use",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "GetSegment",
           "package": "diagrams-lib",
@@ -11457,6 +12377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType tag for trails with distinct endpoints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "Line",
           "package": "diagrams-lib",
@@ -11466,6 +12387,7 @@
         "index": {
           "description": "Type tag for trails with distinct endpoints",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "Line",
           "package": "diagrams-lib",
@@ -11480,6 +12402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType tag for \"loopy\" trails which return to their starting\n   point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "Loop",
           "package": "diagrams-lib",
@@ -11489,6 +12412,7 @@
         "index": {
           "description": "Type tag for loopy trails which return to their starting point",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "Loop",
           "package": "diagrams-lib",
@@ -11503,6 +12427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eSegTree\u003c/code\u003e represents a sequence of closed segments, stored in a\n   fingertree so we can easily recover various monoidal measures of\n   the segments (number of segments, arc length, envelope...) and\n   also easily slice and dice them according to the measures\n   (\u003cem\u003ee.g.\u003c/em\u003e, split off the smallest number of segments from the\n   beginning which have a combined arc length of at least 5).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "SegTree",
           "package": "diagrams-lib",
@@ -11512,6 +12437,7 @@
         "index": {
           "description": "SegTree represents sequence of closed segments stored in fingertree so we can easily recover various monoidal measures of the segments number of segments arc length envelope and also easily slice and dice them according to the measures e.g split off the smallest number of segments from the beginning which have combined arc length of at least",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "SegTree",
           "package": "diagrams-lib",
@@ -11526,6 +12452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTrail\u003c/code\u003e is a wrapper around \u003ccode\u003eTrail'\u003c/code\u003e, hiding whether the\n   underlying \u003ccode\u003eTrail'\u003c/code\u003e is a line or loop (though which it is can be\n   recovered; see \u003cem\u003ee.g.\u003c/em\u003e \u003ccode\u003e\u003ca\u003ewithTrail\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "Trail",
           "package": "diagrams-lib",
@@ -11535,6 +12462,7 @@
         "index": {
           "description": "Trail is wrapper around Trail hiding whether the underlying Trail is line or loop though which it is can be recovered see e.g withTrail",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "Trail",
           "package": "diagrams-lib",
@@ -11549,6 +12477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntuitively, a trail is a single, continuous path through space.\n   However, a trail has no fixed starting point; it merely specifies\n   \u003cem\u003ehow\u003c/em\u003e to move through space, not \u003cem\u003ewhere\u003c/em\u003e.  For example, \"take\n   three steps forward, then turn right twenty degrees and take two\n   more steps\" is an intuitive analog of a trail; these\n   instructions specify a path through space from any given starting\n   location.  To be precise, trails are \u003cem\u003etranslation-invariant\u003c/em\u003e;\n   applying a translation to a trail has no effect.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e Trail\u003c/code\u003e, on the other hand, is a trail paired with\n   some concrete starting location (\"start at the big tree on the\n   corner, then take three steps forward, ...\").  See the\n   \u003ca\u003eDiagrams.Located\u003c/a\u003e module for help working with \u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e\u003cp\u003eFormally, the semantics of a trail is a continuous (though not\n   necessarily differentiable) function from the real interval [0,1]\n   to vectors in some vector space.  (In contrast, a \u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e trail\n   is a continuous function from [0,1] to \u003cem\u003epoints\u003c/em\u003e in some \u003cem\u003eaffine\u003c/em\u003e\n   space.)\n\u003c/p\u003e\u003cp\u003eThere are two types of trails:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A \"line\" (think of the \"train\", \"subway\", or \"bus\"\n     variety, rather than the \"straight\" variety...) is a trail\n     with two distinct endpoints.  Actually, a line can have the\n     same start and end points, but it is still \u003cem\u003edrawn\u003c/em\u003e as if it had\n     distinct endpoints: the two endpoints will have the appropriate\n     end caps, and the trail will not be filled.  Lines have a\n     \u003ccode\u003eMonoid\u003c/code\u003e instance where \u003ccode\u003emappend\u003c/code\u003e corresponds to concatenation,\n     \u003cem\u003ei.e.\u003c/em\u003e chaining one line after the other.\n\u003c/li\u003e\u003cli\u003e A \"loop\" is required to end in the same place it starts (that\n     is, t(0) = t(1)).  Loops are filled and are drawn as one\n     continuous loop, with the appropriate join at the\n     start/endpoint rather than end caps.  Loops do not have a\n     \u003ccode\u003eMonoid\u003c/code\u003e instance.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTo convert between lines and loops, see \u003ccode\u003e\u003ca\u003eglueLine\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003ecloseLine\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003ecutLoop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo construct trails, see \u003ccode\u003e\u003ca\u003eemptyTrail\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etrailFromSegments\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003etrailFromVertices\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etrailFromOffsets\u003c/a\u003e\u003c/code\u003e, and friends.  You can\n   also get any type of trail from any function which returns a\n   \u003ccode\u003eTrailLike\u003c/code\u003e (\u003cem\u003ee.g.\u003c/em\u003e functions in \u003ca\u003eDiagrams.TwoD.Shapes\u003c/a\u003e, and many\n   others; see \u003ca\u003eDiagrams.TrailLike\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eTo extract information from trails, see \u003ccode\u003e\u003ca\u003ewithLine\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eisLoop\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003etrailSegments\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etrailOffsets\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etrailVertices\u003c/a\u003e\u003c/code\u003e, and friends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "Trail'",
           "package": "diagrams-lib",
@@ -11558,6 +12487,7 @@
         "index": {
           "description": "Intuitively trail is single continuous path through space However trail has no fixed starting point it merely specifies how to move through space not where For example take three steps forward then turn right twenty degrees and take two more steps is an intuitive analog of trail these instructions specify path through space from any given starting location To be precise trails are translation-invariant applying translation to trail has no effect Located Trail on the other hand is trail paired with some concrete starting location start at the big tree on the corner then take three steps forward See the Diagrams.Located module for help working with Located values Formally the semantics of trail is continuous though not necessarily differentiable function from the real interval to vectors in some vector space In contrast Located trail is continuous function from to points in some affine space There are two types of trails line think of the train subway or bus variety rather than the straight variety is trail with two distinct endpoints Actually line can have the same start and end points but it is still drawn as if it had distinct endpoints the two endpoints will have the appropriate end caps and the trail will not be filled Lines have Monoid instance where mappend corresponds to concatenation i.e chaining one line after the other loop is required to end in the same place it starts that is Loops are filled and are drawn as one continuous loop with the appropriate join at the start endpoint rather than end caps Loops do not have Monoid instance To convert between lines and loops see glueLine closeLine and cutLoop To construct trails see emptyTrail trailFromSegments trailFromVertices trailFromOffsets and friends You can also get any type of trail from any function which returns TrailLike e.g functions in Diagrams.TwoD.Shapes and many others see Diagrams.TrailLike To extract information from trails see withLine isLoop trailSegments trailOffsets trailVertices and friends",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "Trail'",
           "package": "diagrams-lib",
@@ -11571,6 +12501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "GetSegment",
           "package": "diagrams-lib",
@@ -11580,6 +12511,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "GetSegment",
           "package": "diagrams-lib",
@@ -11593,6 +12525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "Line",
           "package": "diagrams-lib",
@@ -11602,6 +12535,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "Line",
           "normalized": "SegTree a-\u003eTrail' Line a",
@@ -11617,6 +12551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "Loop",
           "package": "diagrams-lib",
@@ -11626,6 +12561,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "Loop",
           "normalized": "SegTree a-\u003eSegment Open a-\u003eTrail' Loop a",
@@ -11641,6 +12577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "SegTree",
           "package": "diagrams-lib",
@@ -11650,6 +12587,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "SegTree",
           "package": "diagrams-lib",
@@ -11663,6 +12601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "Trail",
           "package": "diagrams-lib",
@@ -11672,6 +12611,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "Trail",
           "normalized": "Trail' a b-\u003eTrail b",
@@ -11688,6 +12628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a line into a loop by adding a new linear segment from the\n   line's end to its start.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ecloseLine\u003c/code\u003e does not have any particularly nice theoretical\n   properties, but can be useful \u003cem\u003ee.g.\u003c/em\u003e when you want to make a\n   closed polygon out of a list of points where the initial point is\n   not repeated at the end.  To use \u003ccode\u003e\u003ca\u003eglueLine\u003c/a\u003e\u003c/code\u003e, one would first have\n   to duplicate the initial vertex, like\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003eglueLine\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003elineFromVertices\u003c/a\u003e\u003c/code\u003e $ ps ++ [head ps]\n\u003c/pre\u003e\u003cp\u003eUsing \u003ccode\u003ecloseLine\u003c/code\u003e, however, one can simply\n\u003c/p\u003e\u003cpre\u003e\n closeLine . lineFromVertices $ ps\n\u003c/pre\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_Trail_closeLineEx.svg#diagram=closeLineEx&width=500\"/\u003e\n\u003c/p\u003e\u003cpre\u003e closeLineEx = pad 1.1 . centerXY . hcat' (with & sep .~ 1)\n   $ [almostClosed # strokeLine, almostClosed # closeLine # strokeLoop]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "closeLine",
           "package": "diagrams-lib",
@@ -11698,6 +12639,7 @@
         "index": {
           "description": "Make line into loop by adding new linear segment from the line end to its start closeLine does not have any particularly nice theoretical properties but can be useful e.g when you want to make closed polygon out of list of points where the initial point is not repeated at the end To use glueLine one would first have to duplicate the initial vertex like glueLine lineFromVertices ps head ps Using closeLine however one can simply closeLine lineFromVertices ps closeLineEx pad centerXY hcat with sep almostClosed strokeLine almostClosed closeLine strokeLoop",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "closeLine",
           "normalized": "Trail' Line a-\u003eTrail' Loop a",
@@ -11714,6 +12656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecloseTrail\u003c/code\u003e is a variant of \u003ccode\u003e\u003ca\u003ecloseLine\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e, which\n   performs \u003ccode\u003e\u003ca\u003ecloseLine\u003c/a\u003e\u003c/code\u003e on lines and is the identity on loops.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "closeTrail",
           "package": "diagrams-lib",
@@ -11724,6 +12667,7 @@
         "index": {
           "description": "closeTrail is variant of closeLine for Trail which performs closeLine on lines and is the identity on loops",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "closeTrail",
           "normalized": "Trail a-\u003eTrail a",
@@ -11740,6 +12684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a loop into a line by \"cutting\" it at the common start/end\n   point, resulting in a line which just happens to start and end at\n   the same place.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ecutLoop\u003c/code\u003e is right inverse to \u003ccode\u003e\u003ca\u003eglueLine\u003c/a\u003e\u003c/code\u003e, that is,\n\u003c/p\u003e\u003cpre\u003e\n   glueLine . cutLoop === id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "cutLoop",
           "package": "diagrams-lib",
@@ -11750,6 +12695,7 @@
         "index": {
           "description": "Turn loop into line by cutting it at the common start end point resulting in line which just happens to start and end at the same place cutLoop is right inverse to glueLine that is glueLine cutLoop id",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "cutLoop",
           "normalized": "Trail' Loop a-\u003eTrail' Line a",
@@ -11766,6 +12712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecutTrail\u003c/code\u003e is a variant of \u003ccode\u003e\u003ca\u003ecutLoop\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e; it is the is\n   the identity on lines and performs \u003ccode\u003e\u003ca\u003ecutLoop\u003c/a\u003e\u003c/code\u003e on loops.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "cutTrail",
           "package": "diagrams-lib",
@@ -11776,6 +12723,7 @@
         "index": {
           "description": "cutTrail is variant of cutLoop for Trail it is the is the identity on lines and performs cutLoop on loops",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "cutTrail",
           "normalized": "Trail a-\u003eTrail a",
@@ -11792,6 +12740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty line, which is the identity for concatenation of lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "emptyLine",
           "package": "diagrams-lib",
@@ -11802,6 +12751,7 @@
         "index": {
           "description": "The empty line which is the identity for concatenation of lines",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "emptyLine",
           "package": "diagrams-lib",
@@ -11816,6 +12766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapped variant of \u003ccode\u003e\u003ca\u003eemptyLine\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "emptyTrail",
           "package": "diagrams-lib",
@@ -11826,6 +12777,7 @@
         "index": {
           "description": "wrapped variant of emptyLine",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "emptyTrail",
           "package": "diagrams-lib",
@@ -11840,6 +12792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a concretely located trail into a list of fixed segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "fixTrail",
           "package": "diagrams-lib",
@@ -11850,6 +12803,7 @@
         "index": {
           "description": "Convert concretely located trail into list of fixed segments",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "fixTrail",
           "normalized": "Located(Trail a)-\u003e[FixedSegment a]",
@@ -11866,6 +12820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eGetSegment\u003c/a\u003e\u003c/code\u003e wrapper around a trail, after which you can\n   call \u003ccode\u003e\u003ca\u003eatParam\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eatStart\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eatEnd\u003c/a\u003e\u003c/code\u003e to extract a segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "getSegment",
           "package": "diagrams-lib",
@@ -11876,6 +12831,7 @@
         "index": {
           "description": "Create GetSegment wrapper around trail after which you can call atParam atStart or atEnd to extract segment",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "getSegment",
           "normalized": "a-\u003eGetSegment a",
@@ -11892,6 +12848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a line into a loop by \"gluing\" the endpoint to the\n   starting point.  In particular, the offset of the final segment\n   is modified so that it ends at the starting point of the entire\n   trail.  Typically, you would first construct a line which you\n   know happens to end where it starts, and then call \u003ccode\u003e\u003ca\u003eglueLine\u003c/a\u003e\u003c/code\u003e to\n   turn it into a loop.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_Trail_glueLineEx.svg#diagram=glueLineEx&width=500\"/\u003e\n\u003c/p\u003e\u003cpre\u003e glueLineEx = pad 1.1 . hcat' (with & sep .~ 1)\n   $ [almostClosed # strokeLine, almostClosed # glueLine # strokeLoop]\n\n almostClosed :: Trail' Line R2\n almostClosed = fromOffsets $ map r2 [(2, -1), (-3, -0.5), (-2, 1), (1, 0.5)]\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003eglueLine\u003c/code\u003e is left inverse to \u003ccode\u003e\u003ca\u003ecutLoop\u003c/a\u003e\u003c/code\u003e, that is,\n\u003c/p\u003e\u003cpre\u003e\n   glueLine . cutLoop === id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "glueLine",
           "package": "diagrams-lib",
@@ -11902,6 +12859,7 @@
         "index": {
           "description": "Make line into loop by gluing the endpoint to the starting point In particular the offset of the final segment is modified so that it ends at the starting point of the entire trail Typically you would first construct line which you know happens to end where it starts and then call glueLine to turn it into loop glueLineEx pad hcat with sep almostClosed strokeLine almostClosed glueLine strokeLoop almostClosed Trail Line R2 almostClosed fromOffsets map r2 glueLine is left inverse to cutLoop that is glueLine cutLoop id",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "glueLine",
           "normalized": "Trail' Line a-\u003eTrail' Loop a",
@@ -11918,6 +12876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eglueTrail\u003c/code\u003e is a variant of \u003ccode\u003e\u003ca\u003eglueLine\u003c/a\u003e\u003c/code\u003e which works on \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003es.\n   It performs \u003ccode\u003e\u003ca\u003eglueLine\u003c/a\u003e\u003c/code\u003e on lines and is the identity on loops.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "glueTrail",
           "package": "diagrams-lib",
@@ -11928,6 +12887,7 @@
         "index": {
           "description": "glueTrail is variant of glueLine which works on Trail It performs glueLine on lines and is the identity on loops",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "glueTrail",
           "normalized": "Trail a-\u003eTrail a",
@@ -11944,6 +12904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether a trail is a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "isLine",
           "package": "diagrams-lib",
@@ -11954,6 +12915,7 @@
         "index": {
           "description": "Determine whether trail is line",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "isLine",
           "normalized": "Trail a-\u003eBool",
@@ -11970,6 +12932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a line is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "isLineEmpty",
           "package": "diagrams-lib",
@@ -11980,6 +12943,7 @@
         "index": {
           "description": "Test whether line is empty",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "isLineEmpty",
           "normalized": "Trail' Line a-\u003eBool",
@@ -11996,6 +12960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether a trail is a loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "isLoop",
           "package": "diagrams-lib",
@@ -12006,6 +12971,7 @@
         "index": {
           "description": "Determine whether trail is loop",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "isLoop",
           "normalized": "Trail a-\u003eBool",
@@ -12022,6 +12988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a trail is empty.  Note that loops are never empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "isTrailEmpty",
           "package": "diagrams-lib",
@@ -12032,6 +12999,7 @@
         "index": {
           "description": "Test whether trail is empty Note that loops are never empty",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "isTrailEmpty",
           "normalized": "Trail a-\u003eBool",
@@ -12048,6 +13016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a line containing only linear segments from a list of\n   vectors, where each vector represents the offset from one vertex\n   to the next.  See also \u003ccode\u003efromOffsets\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_Trail_lineFromOffsetsEx.svg#diagram=lineFromOffsetsEx&width=300\"/\u003e\n\u003c/p\u003e\u003cpre\u003e import Diagrams.Coordinates\n lineFromOffsetsEx = strokeLine $ lineFromOffsets [ 2 ^& 1, 2 ^& (-1), 2 ^& 0.5 ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "lineFromOffsets",
           "package": "diagrams-lib",
@@ -12058,6 +13027,7 @@
         "index": {
           "description": "Construct line containing only linear segments from list of vectors where each vector represents the offset from one vertex to the next See also fromOffsets import Diagrams.Coordinates lineFromOffsetsEx strokeLine lineFromOffsets",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "lineFromOffsets",
           "normalized": "[a]-\u003eTrail' Line a",
@@ -12074,6 +13044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a line from a list of closed segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "lineFromSegments",
           "package": "diagrams-lib",
@@ -12084,6 +13055,7 @@
         "index": {
           "description": "Construct line from list of closed segments",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "lineFromSegments",
           "normalized": "[Segment Closed a]-\u003eTrail' Line a",
@@ -12100,6 +13072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a line containing only linear segments from a list of\n   vertices.  Note that only the relative offsets between the\n   vertices matters; the information about their absolute position\n   will be discarded.  That is, for all vectors \u003ccode\u003ev\u003c/code\u003e,\n\u003c/p\u003e\u003cpre\u003e\n lineFromVertices === lineFromVertices . \u003ccode\u003e\u003ca\u003etranslate\u003c/a\u003e\u003c/code\u003e v\n\u003c/pre\u003e\u003cp\u003eIf you want to retain the position information, you should\n   instead use the more general \u003ccode\u003efromVertices\u003c/code\u003e function to\n   construct, say, a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eTrail'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLine\u003c/a\u003e\u003c/code\u003e v)\u003c/code\u003e or a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e\n   (\u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e v)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_Trail_lineFromVerticesEx.svg#diagram=lineFromVerticesEx&width=300\"/\u003e\n\u003c/p\u003e\u003cpre\u003e import Diagrams.Coordinates\n lineFromVerticesEx = pad 1.1 . centerXY . strokeLine\n   $ lineFromVertices [origin, 0 ^& 1, 1 ^& 2, 5 ^& 1]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "lineFromVertices",
           "package": "diagrams-lib",
@@ -12110,6 +13083,7 @@
         "index": {
           "description": "Construct line containing only linear segments from list of vertices Note that only the relative offsets between the vertices matters the information about their absolute position will be discarded That is for all vectors lineFromVertices lineFromVertices translate If you want to retain the position information you should instead use the more general fromVertices function to construct say Located Trail Line or Located Trail import Diagrams.Coordinates lineFromVerticesEx pad centerXY strokeLine lineFromVertices origin",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "lineFromVertices",
           "normalized": "[Point a]-\u003eTrail' Line a",
@@ -12126,6 +13100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the offset from the start of a line to the end.  (Note,\n   there is no corresponding \u003ccode\u003eloopOffset\u003c/code\u003e function because by\n   definition it would be constantly zero.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "lineOffset",
           "package": "diagrams-lib",
@@ -12136,6 +13111,7 @@
         "index": {
           "description": "Compute the offset from the start of line to the end Note there is no corresponding loopOffset function because by definition it would be constantly zero",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "lineOffset",
           "normalized": "Trail' Line a-\u003ea",
@@ -12152,6 +13128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the offsets of the segments of a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "lineOffsets",
           "package": "diagrams-lib",
@@ -12162,6 +13139,7 @@
         "index": {
           "description": "Extract the offsets of the segments of line",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "lineOffsets",
           "normalized": "Trail' Line a-\u003e[a]",
@@ -12178,6 +13156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the segments comprising a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "lineSegments",
           "package": "diagrams-lib",
@@ -12188,6 +13167,7 @@
         "index": {
           "description": "Extract the segments comprising line",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "lineSegments",
           "normalized": "Trail' Line a-\u003e[Segment Closed a]",
@@ -12204,6 +13184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the vertices of a concretely located line.  See\n   \u003ccode\u003e\u003ca\u003etrailVertices\u003c/a\u003e\u003c/code\u003e for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "lineVertices",
           "package": "diagrams-lib",
@@ -12214,6 +13195,7 @@
         "index": {
           "description": "Extract the vertices of concretely located line See trailVertices for more information",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "lineVertices",
           "normalized": "Located(Trail' Line a)-\u003e[Point a]",
@@ -12230,6 +13212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the offsets of the segments of a loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "loopOffsets",
           "package": "diagrams-lib",
@@ -12240,6 +13223,7 @@
         "index": {
           "description": "Extract the offsets of the segments of loop",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "loopOffsets",
           "normalized": "Trail' Loop a-\u003e[a]",
@@ -12256,6 +13240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the segments comprising a loop: a list of closed\n   segments, and one final open segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "loopSegments",
           "package": "diagrams-lib",
@@ -12266,6 +13251,7 @@
         "index": {
           "description": "Extract the segments comprising loop list of closed segments and one final open segment",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "loopSegments",
           "normalized": "Trail' Loop a-\u003e([Segment Closed a],Segment Open a)",
@@ -12282,6 +13268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the vertices of a concretely located loop.  Note that the\n   initial vertex is not repeated at the end.  See \u003ccode\u003e\u003ca\u003etrailVertices\u003c/a\u003e\u003c/code\u003e for\n   more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "loopVertices",
           "package": "diagrams-lib",
@@ -12292,6 +13279,7 @@
         "index": {
           "description": "Extract the vertices of concretely located loop Note that the initial vertex is not repeated at the end See trailVertices for more information",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "loopVertices",
           "normalized": "Located(Trail' Loop a)-\u003e[Point a]",
@@ -12308,6 +13296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the number of segments of anything measured by\n   \u003ccode\u003e\u003ca\u003eSegMeasure\u003c/a\u003e\u003c/code\u003e (\u003cem\u003ee.g.\u003c/em\u003e \u003ccode\u003eSegMeasure\u003c/code\u003e itself, \u003ccode\u003eSegment\u003c/code\u003e, \u003ccode\u003eSegTree\u003c/code\u003e,\n   \u003ccode\u003eTrail\u003c/code\u003es...)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "numSegs",
           "package": "diagrams-lib",
@@ -12318,6 +13307,7 @@
         "index": {
           "description": "Compute the number of segments of anything measured by SegMeasure e.g SegMeasure itself Segment SegTree Trail",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "numSegs",
           "normalized": "a-\u003eb",
@@ -12334,6 +13324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the total offset of anything measured by \u003ccode\u003e\u003ca\u003eSegMeasure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "offset",
           "package": "diagrams-lib",
@@ -12344,6 +13335,7 @@
         "index": {
           "description": "Compute the total offset of anything measured by SegMeasure",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "offset",
           "normalized": "a-\u003eb",
@@ -12359,6 +13351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a \u003ccode\u003eTrail\u003c/code\u003e by specifying a transformation on lines.  If the\n   trail is a line, the transformation will be applied directly.  If\n   it is a loop, it will first be cut using \u003ccode\u003e\u003ca\u003ecutLoop\u003c/a\u003e\u003c/code\u003e, the\n   transformation applied, and then glued back into a loop with\n   \u003ccode\u003e\u003ca\u003eglueLine\u003c/a\u003e\u003c/code\u003e.  That is,\n\u003c/p\u003e\u003cpre\u003e\n   onLine f === onTrail f (glueLine . f . cutLoop)\n\u003c/pre\u003e\u003cp\u003eNote that there is no corresponding \u003ccode\u003eonLoop\u003c/code\u003e function, because\n   there is no nice way in general to convert a line into a loop,\n   operate on it, and then convert back.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "onLine",
           "package": "diagrams-lib",
@@ -12369,6 +13362,7 @@
         "index": {
           "description": "Modify Trail by specifying transformation on lines If the trail is line the transformation will be applied directly If it is loop it will first be cut using cutLoop the transformation applied and then glued back into loop with glueLine That is onLine onTrail glueLine cutLoop Note that there is no corresponding onLoop function because there is no nice way in general to convert line into loop operate on it and then convert back",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "onLine",
           "normalized": "(Trail' Line a-\u003eTrail' Line a)-\u003eTrail a-\u003eTrail a",
@@ -12385,6 +13379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a line by applying a function to its list of segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "onLineSegments",
           "package": "diagrams-lib",
@@ -12395,6 +13390,7 @@
         "index": {
           "description": "Modify line by applying function to its list of segments",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "onLineSegments",
           "normalized": "([Segment Closed a]-\u003e[Segment Closed a])-\u003eTrail' Line a-\u003eTrail' Line a",
@@ -12411,6 +13407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a \u003ccode\u003eTrail\u003c/code\u003e, specifying two separate transformations for the\n   cases of a line or a loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "onTrail",
           "package": "diagrams-lib",
@@ -12421,6 +13418,7 @@
         "index": {
           "description": "Modify Trail specifying two separate transformations for the cases of line or loop",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "onTrail",
           "normalized": "(Trail' Line a-\u003eTrail' b a)-\u003e(Trail' Loop a-\u003eTrail' b a)-\u003eTrail a-\u003eTrail a",
@@ -12437,6 +13435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse a line.  See \u003ccode\u003e\u003ca\u003ereverseTrail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "reverseLine",
           "package": "diagrams-lib",
@@ -12447,6 +13446,7 @@
         "index": {
           "description": "Reverse line See reverseTrail",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "reverseLine",
           "normalized": "Trail' Line a-\u003eTrail' Line a",
@@ -12463,6 +13463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse a concretely located line.  See \u003ccode\u003e\u003ca\u003ereverseLocTrail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "reverseLocLine",
           "package": "diagrams-lib",
@@ -12473,6 +13474,7 @@
         "index": {
           "description": "Reverse concretely located line See reverseLocTrail",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "reverseLocLine",
           "normalized": "Located(Trail' Line a)-\u003eLocated(Trail' Line a)",
@@ -12489,6 +13491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse a concretely located loop.  See \u003ccode\u003e\u003ca\u003ereverseLocTrail\u003c/a\u003e\u003c/code\u003e.  Note\n   that this is guaranteed to preserve the location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "reverseLocLoop",
           "package": "diagrams-lib",
@@ -12499,6 +13502,7 @@
         "index": {
           "description": "Reverse concretely located loop See reverseLocTrail Note that this is guaranteed to preserve the location",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "reverseLocLoop",
           "normalized": "Located(Trail' Loop a)-\u003eLocated(Trail' Loop a)",
@@ -12515,6 +13519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse a concretely located trail.  The endpoint of the original\n   trail becomes the starting point of the reversed trail, so the\n   original and reversed trails comprise exactly the same set of\n   points.  \u003ccode\u003ereverseLocTrail\u003c/code\u003e is an involution, \u003cem\u003ei.e.\u003c/em\u003e\n\u003c/p\u003e\u003cpre\u003e\n   reverseLocTrail . reverseLocTrail === id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "reverseLocTrail",
           "package": "diagrams-lib",
@@ -12525,6 +13530,7 @@
         "index": {
           "description": "Reverse concretely located trail The endpoint of the original trail becomes the starting point of the reversed trail so the original and reversed trails comprise exactly the same set of points reverseLocTrail is an involution i.e reverseLocTrail reverseLocTrail id",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "reverseLocTrail",
           "normalized": "Located(Trail a)-\u003eLocated(Trail a)",
@@ -12541,6 +13547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse a loop.  See \u003ccode\u003e\u003ca\u003ereverseTrail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "reverseLoop",
           "package": "diagrams-lib",
@@ -12551,6 +13558,7 @@
         "index": {
           "description": "Reverse loop See reverseTrail",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "reverseLoop",
           "normalized": "Trail' Loop a-\u003eTrail' Loop a",
@@ -12567,6 +13575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse a trail.  Semantically, if a trail given by a function t\n   from [0,1] to vectors, then the reverse of t is given by t'(s) =\n   t(1-s).  \u003ccode\u003ereverseTrail\u003c/code\u003e is an involution, that is,\n\u003c/p\u003e\u003cpre\u003e\n   reverseTrail . reverseTrail === id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "reverseTrail",
           "package": "diagrams-lib",
@@ -12577,6 +13586,7 @@
         "index": {
           "description": "Reverse trail Semantically if trail given by function from to vectors then the reverse of is given by reverseTrail is an involution that is reverseTrail reverseTrail id",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "reverseTrail",
           "normalized": "Trail a-\u003eTrail a",
@@ -12593,6 +13603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etrailFromOffsets === \u003ccode\u003e\u003ca\u003ewrapTrail\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003elineFromOffsets\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, for\n   conveniently constructing a \u003ccode\u003eTrail\u003c/code\u003e instead of a \u003ccode\u003eTrail' Line\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "trailFromOffsets",
           "package": "diagrams-lib",
@@ -12603,6 +13614,7 @@
         "index": {
           "description": "trailFromOffsets wrapTrail lineFromOffsets for conveniently constructing Trail instead of Trail Line",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "trailFromOffsets",
           "normalized": "[a]-\u003eTrail a",
@@ -12619,6 +13631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etrailFromSegments === \u003ccode\u003e\u003ca\u003ewrapTrail\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003elineFromSegments\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, for\n   conveniently constructing a \u003ccode\u003eTrail\u003c/code\u003e instead of a \u003ccode\u003eTrail'\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "trailFromSegments",
           "package": "diagrams-lib",
@@ -12629,6 +13642,7 @@
         "index": {
           "description": "trailFromSegments wrapTrail lineFromSegments for conveniently constructing Trail instead of Trail",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "trailFromSegments",
           "normalized": "[Segment Closed a]-\u003eTrail a",
@@ -12645,6 +13659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etrailFromVertices === \u003ccode\u003e\u003ca\u003ewrapTrail\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003elineFromVertices\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, for\n   conveniently constructing a \u003ccode\u003eTrail\u003c/code\u003e instead of a \u003ccode\u003eTrail' Line\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "trailFromVertices",
           "package": "diagrams-lib",
@@ -12655,6 +13670,7 @@
         "index": {
           "description": "trailFromVertices wrapTrail lineFromVertices for conveniently constructing Trail instead of Trail Line",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "trailFromVertices",
           "normalized": "[Point a]-\u003eTrail a",
@@ -12671,6 +13687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a default result (to be used in the case of an empty\n   trail), and a function to map a single measure to a result,\n   extract the given measure for a trail and use it to compute a\n   result.  Put another way, lift a function on a single measure\n   (along with a default value) to a function on an entire trail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "trailMeasure",
           "package": "diagrams-lib",
@@ -12681,6 +13698,7 @@
         "index": {
           "description": "Given default result to be used in the case of an empty trail and function to map single measure to result extract the given measure for trail and use it to compute result Put another way lift function on single measure along with default value to function on an entire trail",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "trailMeasure",
           "normalized": "a-\u003e(b-\u003ea)-\u003ec-\u003ea",
@@ -12697,6 +13715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the offset from the start of a trail to the end.  Satisfies\n\u003c/p\u003e\u003cpre\u003e\n   trailOffset === sumV . trailOffsets\n\u003c/pre\u003e\u003cp\u003ebut is more efficient.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_Trail_trailOffsetEx.svg#diagram=trailOffsetEx&width=300\"/\u003e\n\u003c/p\u003e\u003cpre\u003e trailOffsetEx = (strokeLine almostClosed \u003c\u003e showOffset) # centerXY # pad 1.1\n   where showOffset = fromOffsets [trailOffset (wrapLine almostClosed)]\n                    # stroke # lc red # lw 0.05\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "trailOffset",
           "package": "diagrams-lib",
@@ -12707,6 +13726,7 @@
         "index": {
           "description": "Compute the offset from the start of trail to the end Satisfies trailOffset sumV trailOffsets but is more efficient trailOffsetEx strokeLine almostClosed showOffset centerXY pad where showOffset fromOffsets trailOffset wrapLine almostClosed stroke lc red lw",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "trailOffset",
           "normalized": "Trail a-\u003ea",
@@ -12723,6 +13743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the offsets of the segments of a trail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "trailOffsets",
           "package": "diagrams-lib",
@@ -12733,6 +13754,7 @@
         "index": {
           "description": "Extract the offsets of the segments of trail",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "trailOffsets",
           "normalized": "Trail a-\u003e[a]",
@@ -12749,6 +13771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the segments of a trail.  If the trail is a loop it will\n   first have \u003ccode\u003e\u003ca\u003ecutLoop\u003c/a\u003e\u003c/code\u003e applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "trailSegments",
           "package": "diagrams-lib",
@@ -12759,6 +13782,7 @@
         "index": {
           "description": "Extract the segments of trail If the trail is loop it will first have cutLoop applied",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "trailSegments",
           "normalized": "Trail a-\u003e[Segment Closed a]",
@@ -12775,6 +13799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the vertices of a concretely located trail.  Note that\n   for loops, the starting vertex will \u003cem\u003enot\u003c/em\u003e be repeated at the end.\n   If you want this behavior, you can use \u003ccode\u003e\u003ca\u003ecutTrail\u003c/a\u003e\u003c/code\u003e to make the\n   loop into a line first, which happens to repeat the same vertex\n   at the start and end, \u003cem\u003ee.g.\u003c/em\u003e with \u003ccode\u003etrailVertices . mapLoc\n   cutTrail\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that it does not make sense to ask for the vertices of a\n   \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e by itself; if you want the vertices of a trail\n   with the first vertex at, say, the origin, you can use\n   \u003ccode\u003etrailVertices . (`at` origin)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "trailVertices",
           "package": "diagrams-lib",
@@ -12785,6 +13810,7 @@
         "index": {
           "description": "Extract the vertices of concretely located trail Note that for loops the starting vertex will not be repeated at the end If you want this behavior you can use cutTrail to make the loop into line first which happens to repeat the same vertex at the start and end e.g with trailVertices mapLoc cutTrail Note that it does not make sense to ask for the vertices of Trail by itself if you want the vertices of trail with the first vertex at say the origin you can use trailVertices at origin",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "trailVertices",
           "normalized": "Located(Trail a)-\u003e[Point a]",
@@ -12801,6 +13827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn eliminator for \u003ccode\u003eTrail\u003c/code\u003e based on eliminating lines: if the\n   trail is a line, the given function is applied; if it is a loop, it\n   is first converted to a line with \u003ccode\u003e\u003ca\u003ecutLoop\u003c/a\u003e\u003c/code\u003e.  That is,\n\u003c/p\u003e\u003cpre\u003e\n withLine f === \u003ccode\u003e\u003ca\u003ewithTrail\u003c/a\u003e\u003c/code\u003e f (f . \u003ccode\u003e\u003ca\u003ecutLoop\u003c/a\u003e\u003c/code\u003e)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "withLine",
           "package": "diagrams-lib",
@@ -12811,6 +13838,7 @@
         "index": {
           "description": "An eliminator for Trail based on eliminating lines if the trail is line the given function is applied if it is loop it is first converted to line with cutLoop That is withLine withTrail cutLoop",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "withLine",
           "normalized": "(Trail' Line a-\u003eb)-\u003eTrail a-\u003eb",
@@ -12827,6 +13855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic eliminator for \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e, taking functions specifying\n   what to do in the case of a line or a loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "withTrail",
           "package": "diagrams-lib",
@@ -12837,6 +13866,7 @@
         "index": {
           "description": "generic eliminator for Trail taking functions specifying what to do in the case of line or loop",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "withTrail",
           "normalized": "(Trail' Line a-\u003eb)-\u003e(Trail' Loop a-\u003eb)-\u003eTrail a-\u003eb",
@@ -12853,6 +13883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic eliminator for \u003ccode\u003e\u003ca\u003eTrail'\u003c/a\u003e\u003c/code\u003e, taking functions specifying\n   what to do in the case of a line or a loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "withTrail'",
           "package": "diagrams-lib",
@@ -12863,6 +13894,7 @@
         "index": {
           "description": "generic eliminator for Trail taking functions specifying what to do in the case of line or loop",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "withTrail'",
           "normalized": "(Trail' Line a-\u003eb)-\u003e(Trail' Loop a-\u003eb)-\u003eTrail' c a-\u003eb",
@@ -12879,6 +13911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a line into a \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e.  This is the same as \u003ccode\u003e\u003ca\u003ewrapTrail\u003c/a\u003e\u003c/code\u003e,\n   but with a more specific type, which can occasionally be\n   convenient for fixing the type of a polymorphic expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "wrapLine",
           "package": "diagrams-lib",
@@ -12889,6 +13922,7 @@
         "index": {
           "description": "Convert line into Trail This is the same as wrapTrail but with more specific type which can occasionally be convenient for fixing the type of polymorphic expression",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "wrapLine",
           "normalized": "Trail' Line a-\u003eTrail a",
@@ -12905,6 +13939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a loop into a \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e.  This is the same as \u003ccode\u003e\u003ca\u003ewrapTrail\u003c/a\u003e\u003c/code\u003e,\n   but with a more specific type, which can occasionally be\n   convenient for fixing the type of a polymorphic expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "wrapLoop",
           "package": "diagrams-lib",
@@ -12915,6 +13950,7 @@
         "index": {
           "description": "Convert loop into Trail This is the same as wrapTrail but with more specific type which can occasionally be convenient for fixing the type of polymorphic expression",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "wrapLoop",
           "normalized": "Trail' Loop a-\u003eTrail a",
@@ -12931,6 +13967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eTrail'\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e, hiding the type-level\n   distinction between lines and loops.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Trail",
           "name": "wrapTrail",
           "package": "diagrams-lib",
@@ -12941,6 +13978,7 @@
         "index": {
           "description": "Convert Trail into Trail hiding the type-level distinction between lines and loops",
           "hierarchy": "Diagrams Trail",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Trail",
           "name": "wrapTrail",
           "normalized": "Trail' a b-\u003eTrail b",
@@ -12957,6 +13995,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eTrailLike\u003c/a\u003e\u003c/code\u003e class abstracts over anything which can be\n constructed from a concretely located \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e, including\n lines, loops, trails, paths, vertex lists, and diagrams.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TrailLike",
           "name": "TrailLike",
           "package": "diagrams-lib",
@@ -12966,6 +14005,7 @@
         "index": {
           "description": "The TrailLike class abstracts over anything which can be constructed from concretely located Trail including lines loops trails paths vertex lists and diagrams",
           "hierarchy": "Diagrams TrailLike",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TrailLike",
           "name": "TrailLike",
           "package": "diagrams-lib",
@@ -12980,6 +14020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for trail-like things, \u003cem\u003ei.e.\u003c/em\u003e things which can be\n   constructed from a concretely located \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e.  Instances include\n   lines, loops, trails, paths, lists of vertices, two-dimensional\n   \u003ccode\u003e\u003ca\u003eDiagram\u003c/a\u003e\u003c/code\u003es, and \u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e variants of all the above.\n\u003c/p\u003e\u003cp\u003eUsually, type variables with \u003ccode\u003e\u003ca\u003eTrailLike\u003c/a\u003e\u003c/code\u003e constraints are used as\n   the \u003cem\u003eoutput\u003c/em\u003e types of functions, like\n\u003c/p\u003e\u003cpre\u003e\n   foo :: (TrailLike t) =\u003e ... -\u003e t\n\u003c/pre\u003e\u003cp\u003eFunctions with such a type can be used to construct trails,\n   paths, diagrams, lists of points, and so on, depending on the\n   context.\n\u003c/p\u003e\u003cp\u003eTo write a function with a signature like the above, you can of\n   course call \u003ccode\u003e\u003ca\u003etrailLike\u003c/a\u003e\u003c/code\u003e directly; more typically, one would use\n   one of the provided functions like \u003ccode\u003e\u003ca\u003efromOffsets\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efromVertices\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003efromSegments\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003e~~\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TrailLike",
           "name": "TrailLike",
           "package": "diagrams-lib",
@@ -12989,6 +14030,7 @@
         "index": {
           "description": "type class for trail-like things i.e things which can be constructed from concretely located Trail Instances include lines loops trails paths lists of vertices two-dimensional Diagram and Located variants of all the above Usually type variables with TrailLike constraints are used as the output types of functions like foo TrailLike Functions with such type can be used to construct trails paths diagrams lists of points and so on depending on the context To write function with signature like the above you can of course call trailLike directly more typically one would use one of the provided functions like fromOffsets fromVertices fromSegments or",
           "hierarchy": "Diagrams TrailLike",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TrailLike",
           "name": "TrailLike",
           "package": "diagrams-lib",
@@ -13003,6 +14045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a linear trail between two given points.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TrailLike_twiddleEx.svg#diagram=twiddleEx&width=300\"/\u003e\n\u003c/p\u003e\u003cpre\u003e twiddleEx\n   = mconcat ((~~) \u003c$\u003e hexagon 1 \u003c*\u003e hexagon 1)\n   # centerXY # pad 1.1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TrailLike",
           "name": "(~~)",
           "package": "diagrams-lib",
@@ -13013,6 +14056,7 @@
         "index": {
           "description": "Create linear trail between two given points twiddleEx mconcat hexagon hexagon centerXY pad",
           "hierarchy": "Diagrams TrailLike",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TrailLike",
           "name": "(~~) ~~",
           "normalized": "Point(V a)-\u003ePoint(V a)-\u003ea",
@@ -13028,6 +14072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a concretely located trail, \"explode\" it by turning each\n   segment into its own separate trail.  Useful for (say) applying a\n   different style to each segment.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TrailLike_explodeTrailEx.svg#diagram=explodeTrailEx&width=300\"/\u003e\n\u003c/p\u003e\u003cpre\u003e explodeTrailEx\n   = pentagon 1\n   # explodeTrail  -- generate a list of diagrams\n   # zipWith lc [orange, green, yellow, red, blue]\n   # mconcat # centerXY # pad 1.1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TrailLike",
           "name": "explodeTrail",
           "package": "diagrams-lib",
@@ -13038,6 +14083,7 @@
         "index": {
           "description": "Given concretely located trail explode it by turning each segment into its own separate trail Useful for say applying different style to each segment explodeTrailEx pentagon explodeTrail generate list of diagrams zipWith lc orange green yellow red blue mconcat centerXY pad",
           "hierarchy": "Diagrams TrailLike",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TrailLike",
           "name": "explodeTrail",
           "normalized": "Located(Trail(V a))-\u003e[a]",
@@ -13054,6 +14100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a trail-like thing of linear segments from a located\n   list of offsets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TrailLike",
           "name": "fromLocOffsets",
           "package": "diagrams-lib",
@@ -13064,6 +14111,7 @@
         "index": {
           "description": "Construct trail-like thing of linear segments from located list of offsets",
           "hierarchy": "Diagrams TrailLike",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TrailLike",
           "name": "fromLocOffsets",
           "normalized": "Located[V a]-\u003ea",
@@ -13080,6 +14128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a trail-like thing from a located list of segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TrailLike",
           "name": "fromLocSegments",
           "package": "diagrams-lib",
@@ -13090,6 +14139,7 @@
         "index": {
           "description": "Construct trail-like thing from located list of segments",
           "hierarchy": "Diagrams TrailLike",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TrailLike",
           "name": "fromLocSegments",
           "normalized": "Located[Segment Closed(V a)]-\u003ea",
@@ -13106,6 +14156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a trail-like thing of linear segments from a list\n   of offsets, with the origin as the location.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TrailLike_fromOffsetsEx.svg#diagram=fromOffsetsEx&width=300\"/\u003e\n\u003c/p\u003e\u003cpre\u003e fromOffsetsEx = fromOffsets\n   [ unitX\n   , unitX # rotateBy (1/6)\n   , unitX # rotateBy (-1/6)\n   , unitX\n   ]\n   # centerXY # pad 1.1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TrailLike",
           "name": "fromOffsets",
           "package": "diagrams-lib",
@@ -13116,6 +14167,7 @@
         "index": {
           "description": "Construct trail-like thing of linear segments from list of offsets with the origin as the location fromOffsetsEx fromOffsets unitX unitX rotateBy unitX rotateBy unitX centerXY pad",
           "hierarchy": "Diagrams TrailLike",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TrailLike",
           "name": "fromOffsets",
           "normalized": "[V a]-\u003ea",
@@ -13132,6 +14184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a trail-like thing from a list of segments, with the\n   origin as the location.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TrailLike_fromSegmentsEx.svg#diagram=fromSegmentsEx&height=200\"/\u003e\n\u003c/p\u003e\u003cpre\u003e fromSegmentsEx = fromSegments\n   [ straight (r2 (1,1))\n   , b&#233;zier3  (r2 (1,1)) unitX unit_Y\n   , straight unit_X\n   ]\n   # centerXY # pad 1.1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TrailLike",
           "name": "fromSegments",
           "package": "diagrams-lib",
@@ -13142,6 +14195,7 @@
         "index": {
           "description": "Construct trail-like thing from list of segments with the origin as the location fromSegmentsEx fromSegments straight r2 zier3 r2 unitX unit straight unit centerXY pad",
           "hierarchy": "Diagrams TrailLike",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TrailLike",
           "name": "fromSegments",
           "normalized": "[Segment Closed(V a)]-\u003ea",
@@ -13158,6 +14212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a trail-like thing connecting the given vertices with\n   linear segments, with the first vertex as the location.  If no\n   vertices are given, the empty trail is used with the origin as\n   the location.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TrailLike_fromVerticesEx.svg#diagram=fromVerticesEx&width=300\"/\u003e\n\u003c/p\u003e\u003cpre\u003e import Data.List (transpose)\n\n fromVerticesEx =\n   ( [ pentagon 1\n     , pentagon 1.3 # rotateBy (1/15)\n     , pentagon 1.5 # rotateBy (2/15)\n     ]\n     # transpose\n     # concat\n   )\n   # fromVertices\n   # closeTrail # strokeTrail\n   # centerXY # pad 1.1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TrailLike",
           "name": "fromVertices",
           "package": "diagrams-lib",
@@ -13168,6 +14223,7 @@
         "index": {
           "description": "Construct trail-like thing connecting the given vertices with linear segments with the first vertex as the location If no vertices are given the empty trail is used with the origin as the location import Data.List transpose fromVerticesEx pentagon pentagon rotateBy pentagon rotateBy transpose concat fromVertices closeTrail strokeTrail centerXY pad",
           "hierarchy": "Diagrams TrailLike",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TrailLike",
           "name": "fromVertices",
           "normalized": "[Point(V a)]-\u003ea",
@@ -13183,6 +14239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TrailLike",
           "name": "trailLike",
           "package": "diagrams-lib",
@@ -13192,6 +14249,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TrailLike",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TrailLike",
           "name": "trailLike",
           "package": "diagrams-lib",
@@ -13206,6 +14264,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAffine transformations, parameterized by any vector space.  For\n transformations on particular vector spaces, see \u003cem\u003ee.g.\u003c/em\u003e\n \u003ca\u003eDiagrams.TwoD.Transform\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "Transform",
           "package": "diagrams-lib",
@@ -13215,6 +14274,7 @@
         "index": {
           "description": "Affine transformations parameterized by any vector space For transformations on particular vector spaces see e.g Diagrams.TwoD.Transform",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "Transform",
           "package": "diagrams-lib",
@@ -13229,6 +14289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types which have an intrinsic notion of a \"local\n   origin\", i.e. things which are not invariant under translation,\n   and which allow the origin to be moved.\n\u003c/p\u003e\u003cp\u003eOne might wonder why not just use \u003ccode\u003eTransformable\u003c/code\u003e instead of\n   having a separate class for \u003ccode\u003e\u003ca\u003eHasOrigin\u003c/a\u003e\u003c/code\u003e; indeed, for types which\n   are instances of both we should have the identity\n\u003c/p\u003e\u003cpre\u003e moveOriginTo (origin .^+ v) === translate (negateV v)\n\u003c/pre\u003e\u003cp\u003eThe reason is that some things (e.g. vectors, \u003ccode\u003eTrail\u003c/code\u003es) are\n   transformable but are translationally invariant, i.e. have no\n   origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "HasOrigin",
           "package": "diagrams-lib",
@@ -13237,6 +14298,7 @@
         "index": {
           "description": "Class of types which have an intrinsic notion of local origin i.e things which are not invariant under translation and which allow the origin to be moved One might wonder why not just use Transformable instead of having separate class for HasOrigin indeed for types which are instances of both we should have the identity moveOriginTo origin translate negateV The reason is that some things e.g vectors Trail are transformable but are translationally invariant i.e have no origin",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "HasOrigin",
           "package": "diagrams-lib",
@@ -13251,6 +14313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for things \u003ccode\u003et\u003c/code\u003e which can be transformed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "Transformable",
           "package": "diagrams-lib",
@@ -13259,6 +14322,7 @@
         "index": {
           "description": "Type class for things which can be transformed",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "Transformable",
           "package": "diagrams-lib",
@@ -13273,6 +14337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral (affine) transformations, represented by an invertible\n   linear map, its \u003cem\u003etranspose\u003c/em\u003e, and a vector representing a\n   translation component.\n\u003c/p\u003e\u003cp\u003eBy the \u003cem\u003etranspose\u003c/em\u003e of a linear map we mean simply the linear map\n   corresponding to the transpose of the map's matrix\n   representation.  For example, any scale is its own transpose,\n   since scales are represented by matrices with zeros everywhere\n   except the diagonal.  The transpose of a rotation is the same as\n   its inverse.\n\u003c/p\u003e\u003cp\u003eThe reason we need to keep track of transposes is because it\n   turns out that when transforming a shape according to some linear\n   map L, the shape's \u003cem\u003enormal vectors\u003c/em\u003e transform according to L's\n   inverse transpose.  This is exactly what we need when\n   transforming bounding functions, which are defined in terms of\n   \u003cem\u003eperpendicular\u003c/em\u003e (i.e. normal) hyperplanes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "Transformation",
           "package": "diagrams-lib",
@@ -13281,6 +14346,7 @@
         "index": {
           "description": "General affine transformations represented by an invertible linear map its transpose and vector representing translation component By the transpose of linear map we mean simply the linear map corresponding to the transpose of the map matrix representation For example any scale is its own transpose since scales are represented by matrices with zeros everywhere except the diagonal The transpose of rotation is the same as its inverse The reason we need to keep track of transposes is because it turns out that when transforming shape according to some linear map the shape normal vectors transform according to inverse transpose This is exactly what we need when transforming bounding functions which are defined in terms of perpendicular i.e normal hyperplanes",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "Transformation",
           "package": "diagrams-lib",
@@ -13295,6 +14361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation to a vector.  Note that any translational\n   component of the transformation will not affect the vector, since\n   vectors are invariant under translation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "apply",
           "package": "diagrams-lib",
@@ -13304,6 +14371,7 @@
         "index": {
           "description": "Apply transformation to vector Note that any translational component of the transformation will not affect the vector since vectors are invariant under translation",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "apply",
           "normalized": "Transformation a-\u003ea-\u003ea",
@@ -13319,6 +14387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjugate one transformation by another. \u003ccode\u003econjugate t1 t2\u003c/code\u003e is the\n   transformation which performs first \u003ccode\u003et1\u003c/code\u003e, then \u003ccode\u003et2\u003c/code\u003e, then the\n   inverse of \u003ccode\u003et1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "conjugate",
           "package": "diagrams-lib",
@@ -13329,6 +14398,7 @@
         "index": {
           "description": "Conjugate one transformation by another conjugate t1 t2 is the transformation which performs first t1 then t2 then the inverse of t1",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "conjugate",
           "normalized": "Transformation a-\u003eTransformation a-\u003eTransformation a",
@@ -13344,6 +14414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvert a transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "inv",
           "package": "diagrams-lib",
@@ -13353,6 +14424,7 @@
         "index": {
           "description": "Invert transformation",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "inv",
           "normalized": "Transformation a-\u003eTransformation a",
@@ -13368,6 +14440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the local origin by a relative vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "moveOriginBy",
           "package": "diagrams-lib",
@@ -13377,6 +14450,7 @@
         "index": {
           "description": "Move the local origin by relative vector",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "moveOriginBy",
           "normalized": "V a-\u003ea-\u003ea",
@@ -13393,6 +14467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the local origin to another point.\n\u003c/p\u003e\u003cp\u003eNote that this function is in some sense dual to \u003ccode\u003etranslate\u003c/code\u003e\n   (for types which are also \u003ccode\u003eTransformable\u003c/code\u003e); moving the origin\n   itself while leaving the object \"fixed\" is dual to fixing the\n   origin and translating the diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "moveOriginTo",
           "package": "diagrams-lib",
@@ -13402,6 +14477,7 @@
         "index": {
           "description": "Move the local origin to another point Note that this function is in some sense dual to translate for types which are also Transformable moving the origin itself while leaving the object fixed is dual to fixing the origin and translating the diagram",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "moveOriginTo",
           "normalized": "Point(V a)-\u003ea-\u003ea",
@@ -13418,6 +14494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate the object by the translation that sends the origin to\n   the given point. Note that this is dual to \u003ccode\u003e\u003ca\u003emoveOriginTo\u003c/a\u003e\u003c/code\u003e, i.e. we\n   should have\n\u003c/p\u003e\u003cpre\u003e moveTo (origin .^+ v) === moveOriginTo (origin .^- v)\n\u003c/pre\u003e\u003cp\u003eFor types which are also \u003ccode\u003eTransformable\u003c/code\u003e, this is essentially the\n   same as \u003ccode\u003etranslate\u003c/code\u003e, i.e.\n\u003c/p\u003e\u003cpre\u003e moveTo (origin .^+ v) === translate v\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "moveTo",
           "package": "diagrams-lib",
@@ -13427,6 +14504,7 @@
         "index": {
           "description": "Translate the object by the translation that sends the origin to the given point Note that this is dual to moveOriginTo i.e we should have moveTo origin moveOriginTo origin For types which are also Transformable this is essentially the same as translate i.e moveTo origin translate",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "moveTo",
           "normalized": "Point(V a)-\u003ea-\u003ea",
@@ -13443,6 +14521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation to a point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "papply",
           "package": "diagrams-lib",
@@ -13452,6 +14531,7 @@
         "index": {
           "description": "Apply transformation to point",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "papply",
           "normalized": "Transformation a-\u003ePoint a-\u003ePoint a",
@@ -13467,6 +14547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA flipped variant of \u003ccode\u003e\u003ca\u003emoveTo\u003c/a\u003e\u003c/code\u003e, provided for convenience.  Useful\n   when writing a function which takes a point as an argument, such\n   as when using \u003ccode\u003ewithName\u003c/code\u003e and friends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "place",
           "package": "diagrams-lib",
@@ -13476,6 +14557,7 @@
         "index": {
           "description": "flipped variant of moveTo provided for convenience Useful when writing function which takes point as an argument such as when using withName and friends",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "place",
           "normalized": "a-\u003ePoint(V a)-\u003ea",
@@ -13541,6 +14623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation to an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "transform",
           "package": "diagrams-lib",
@@ -13550,6 +14633,7 @@
         "index": {
           "description": "Apply transformation to an object",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "transform",
           "normalized": "Transformation(V a)-\u003ea-\u003ea",
@@ -13565,6 +14649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the translational component of a transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "transl",
           "package": "diagrams-lib",
@@ -13574,6 +14659,7 @@
         "index": {
           "description": "Get the translational component of transformation",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "transl",
           "normalized": "Transformation a-\u003ea",
@@ -13639,6 +14725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCarry out some transformation \"under\" another one: \u003ccode\u003ef `\u003ccode\u003e\u003ca\u003eunder\u003c/a\u003e\u003c/code\u003e`\n   t\u003c/code\u003e first applies \u003ccode\u003et\u003c/code\u003e, then \u003ccode\u003ef\u003c/code\u003e, then the inverse of \u003ccode\u003et\u003c/code\u003e.  For\n   example, \u003ccode\u003e\u003ccode\u003escaleX\u003c/code\u003e 2 `\u003ccode\u003e\u003ca\u003eunder\u003c/a\u003e\u003c/code\u003e` \u003ccode\u003erotationBy\u003c/code\u003e (-1/8 :: Turn)\u003c/code\u003e\n   is the transformation which scales by a factor of 2 along the\n   diagonal line y = x.\n\u003c/p\u003e\u003cp\u003eNote that\n\u003c/p\u003e\u003cpre\u003e\n   (transform t2) \u003ccode\u003e\u003ca\u003eunder\u003c/a\u003e\u003c/code\u003e t1 == transform (conjugate t1 t2)\n\u003c/pre\u003e\u003cp\u003efor all transformations \u003ccode\u003et1\u003c/code\u003e and \u003ccode\u003et2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Transform",
           "name": "under",
           "package": "diagrams-lib",
@@ -13649,6 +14736,7 @@
         "index": {
           "description": "Carry out some transformation under another one under first applies then then the inverse of For example scaleX under rotationBy Turn is the transformation which scales by factor of along the diagonal line Note that transform t2 under t1 transform conjugate t1 t2 for all transformations t1 and t2",
           "hierarchy": "Diagrams Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Transform",
           "name": "under",
           "normalized": "(a-\u003ea)-\u003eTransformation(V a)-\u003ea-\u003ea",
@@ -13664,6 +14752,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA default diagram-adjustment implementation for two-dimensional\n diagrams, useful for backend implementors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Adjust",
           "name": "Adjust",
           "package": "diagrams-lib",
@@ -13673,6 +14762,7 @@
         "index": {
           "description": "default diagram-adjustment implementation for two-dimensional diagrams useful for backend implementors",
           "hierarchy": "Diagrams TwoD Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Adjust",
           "name": "Adjust",
           "package": "diagrams-lib",
@@ -13687,6 +14777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eadjustDia2D\u003c/code\u003e provides a useful default implementation of\n   the \u003ccode\u003e\u003ca\u003eadjustDia\u003c/a\u003e\u003c/code\u003e method from the \u003ccode\u003e\u003ca\u003eBackend\u003c/a\u003e\u003c/code\u003e type class.\n\u003c/p\u003e\u003cp\u003eAs its first two arguments it requires a method for extracting\n   the requested output size from the rendering options, and a way\n   of updating the rendering options with a new (more specific) size.\n\u003c/p\u003e\u003cp\u003eIt then performs the following adjustments:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Set default attributes (see \u003ccode\u003e\u003ca\u003esetDefault2DAttributes\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e Freeze the diagram in its final form\n\u003c/li\u003e\u003cli\u003e Scale and translate the diagram to fit within the requested\n     size (see \u003ccode\u003e\u003ca\u003eadjustDiaSize2D\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e Also return the actual adjusted size of the diagram.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Adjust",
           "name": "adjustDia2D",
           "package": "diagrams-lib",
@@ -13697,6 +14788,7 @@
         "index": {
           "description": "adjustDia2D provides useful default implementation of the adjustDia method from the Backend type class As its first two arguments it requires method for extracting the requested output size from the rendering options and way of updating the rendering options with new more specific size It then performs the following adjustments Set default attributes see setDefault2DAttributes Freeze the diagram in its final form Scale and translate the diagram to fit within the requested size see adjustDiaSize2D Also return the actual adjusted size of the diagram",
           "hierarchy": "Diagrams TwoD Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Adjust",
           "name": "adjustDia2D",
           "normalized": "(Options a R-\u003eSizeSpec D)-\u003e(SizeSpec D-\u003eOptions a R-\u003eOptions a R)-\u003ea-\u003eOptions a R-\u003eQDiagram a R b-\u003e(Options a R,QDiagram a R b)",
@@ -13713,6 +14805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust the size and position of a 2D diagram to fit within the\n   requested size. The first two arguments specify a method for\n   extracting the requested output size from the rendering options,\n   and a way of updating the rendering options with a new (more\n   specific) size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Adjust",
           "name": "adjustDiaSize2D",
           "package": "diagrams-lib",
@@ -13723,6 +14816,7 @@
         "index": {
           "description": "Adjust the size and position of diagram to fit within the requested size The first two arguments specify method for extracting the requested output size from the rendering options and way of updating the rendering options with new more specific size",
           "hierarchy": "Diagrams TwoD Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Adjust",
           "name": "adjustDiaSize2D",
           "normalized": "(Options a R-\u003eSizeSpec D)-\u003e(SizeSpec D-\u003eOptions a R-\u003eOptions a R)-\u003ea-\u003eOptions a R-\u003eQDiagram a R b-\u003e(Options a R,QDiagram a R b)",
@@ -13739,6 +14833,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Diagrams.TwoD.Size.requiredScaleT instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eRe-export \u003ccode\u003e\u003ca\u003erequiredScaleT\u003c/a\u003e\u003c/code\u003e with the name \u003ccode\u003e\u003ca\u003eadjustSize\u003c/a\u003e\u003c/code\u003e for\n   backwards compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Adjust",
           "name": "adjustSize",
           "package": "diagrams-lib",
@@ -13749,6 +14844,7 @@
         "index": {
           "description": "Deprecated Use Diagrams.TwoD.Size.requiredScaleT instead Re-export requiredScaleT with the name adjustSize for backwards compatibility",
           "hierarchy": "Diagrams TwoD Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Adjust",
           "name": "adjustSize",
           "normalized": "SizeSpec D-\u003e(Double,Double)-\u003eTransformation R",
@@ -13792,6 +14888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet default attributes of a 2D diagram (in case they have not\n   been set):\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Line width 0.01\n\u003c/li\u003e\u003cli\u003e Line color black\n\u003c/li\u003e\u003cli\u003e Font size 1\n\u003c/li\u003e\u003cli\u003e Line cap LineCapButt\n\u003c/li\u003e\u003cli\u003e line join miter\n\u003c/li\u003e\u003cli\u003e Miter limit 10\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Adjust",
           "name": "setDefault2DAttributes",
           "package": "diagrams-lib",
@@ -13802,6 +14899,7 @@
         "index": {
           "description": "Set default attributes of diagram in case they have not been set Line width Line color black Font size Line cap LineCapButt line join miter Miter limit",
           "hierarchy": "Diagrams TwoD Adjust",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Adjust",
           "name": "setDefault2DAttributes",
           "normalized": "QDiagram a R b-\u003eQDiagram a R b",
@@ -13818,6 +14916,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlignment combinators specialized for two dimensions.  See\n \u003ca\u003eDiagrams.Align\u003c/a\u003e for more general alignment combinators.\n\u003c/p\u003e\u003cp\u003eThe basic idea is that alignment is achieved by moving diagrams'\n local origins relative to their envelopes or traces (or some other\n sort of boundary).  For example, to align several diagrams along\n their tops, we first move their local origins to the upper edge of\n their boundary (using e.g. \u003ccode\u003emap \u003ccode\u003ealignTop\u003c/code\u003e\u003c/code\u003e), and then put them\n together with their local origins along a horizontal line (using\n e.g. \u003ccode\u003ehcat\u003c/code\u003e from \u003ca\u003eDiagrams.TwoD.Combinators\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Align",
           "name": "Align",
           "package": "diagrams-lib",
@@ -13827,6 +14926,7 @@
         "index": {
           "description": "Alignment combinators specialized for two dimensions See Diagrams.Align for more general alignment combinators The basic idea is that alignment is achieved by moving diagrams local origins relative to their envelopes or traces or some other sort of boundary For example to align several diagrams along their tops we first move their local origins to the upper edge of their boundary using e.g map alignTop and then put them together with their local origins along horizontal line using e.g hcat from Diagrams.TwoD.Combinators",
           "hierarchy": "Diagrams TwoD Align",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Align",
           "name": "Align",
           "package": "diagrams-lib",
@@ -14497,6 +15597,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTwo-dimensional arcs, approximated by cubic bezier curves.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arc",
           "name": "Arc",
           "package": "diagrams-lib",
@@ -14506,6 +15607,7 @@
         "index": {
           "description": "Two-dimensional arcs approximated by cubic bezier curves",
           "hierarchy": "Diagrams TwoD Arc",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arc",
           "name": "Arc",
           "package": "diagrams-lib",
@@ -14653,6 +15755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a start angle \u003ccode\u003es\u003c/code\u003e and an end angle \u003ccode\u003ee\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003earcT\u003c/a\u003e\u003c/code\u003e s e\u003c/code\u003e is the\n   \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e of a radius one arc counterclockwise between the two angles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arc",
           "name": "arcT",
           "package": "diagrams-lib",
@@ -14663,6 +15766,7 @@
         "index": {
           "description": "Given start angle and an end angle arcT is the Trail of radius one arc counterclockwise between the two angles",
           "hierarchy": "Diagrams TwoD Arc",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arc",
           "name": "arcT",
           "normalized": "a-\u003ea-\u003eTrail R",
@@ -14678,6 +15782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebezierFromSweep s\u003c/code\u003e constructs a series of \u003ccode\u003e\u003ca\u003eCubic\u003c/a\u003e\u003c/code\u003e segments that\n   start in the positive y direction and sweep counter clockwise\n   through \u003ccode\u003es\u003c/code\u003e radians.  If \u003ccode\u003es\u003c/code\u003e is negative, it will start in the\n   negative y direction and sweep clockwise.  When \u003ccode\u003es\u003c/code\u003e is less than\n   0.0001 the empty list results.  If the sweep is greater than tau\n   then it is truncated to tau.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arc",
           "name": "bezierFromSweep",
           "package": "diagrams-lib",
@@ -14688,6 +15793,7 @@
         "index": {
           "description": "bezierFromSweep constructs series of Cubic segments that start in the positive direction and sweep counter clockwise through radians If is negative it will start in the negative direction and sweep clockwise When is less than the empty list results If the sweep is greater than tau then it is truncated to tau",
           "hierarchy": "Diagrams TwoD Arc",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arc",
           "name": "bezierFromSweep",
           "normalized": "Rad-\u003e[Segment Closed R]",
@@ -14730,6 +15836,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDrawing arrows in two dimensions.  For a tutorial on drawing arrows\n using this module, see the diagrams website:\n \u003ca\u003ehttp://projects.haskell.org/diagrams/doc/arrow.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrow",
           "name": "Arrow",
           "package": "diagrams-lib",
@@ -14739,6 +15846,7 @@
         "index": {
           "description": "Drawing arrows in two dimensions For tutorial on drawing arrows using this module see the diagrams website http projects.haskell.org diagrams doc arrow.html",
           "hierarchy": "Diagrams TwoD Arrow",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrow",
           "name": "Arrow",
           "package": "diagrams-lib",
@@ -14752,6 +15860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrow",
           "name": "ArrowOpts",
           "package": "diagrams-lib",
@@ -14760,6 +15869,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrow",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrow",
           "name": "ArrowOpts",
           "package": "diagrams-lib",
@@ -15691,6 +16801,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStandard arrowheads and tails. Each arrowhead or tail is designed\n to be drawn filled, with a line width of 0, and is normalized to\n fit inside a circle of diameter 1.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "Arrowheads",
           "package": "diagrams-lib",
@@ -15700,6 +16811,7 @@
         "index": {
           "description": "Standard arrowheads and tails Each arrowhead or tail is designed to be drawn filled with line width of and is normalized to fit inside circle of diameter",
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "Arrowheads",
           "package": "diagrams-lib",
@@ -15713,6 +16825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "ArrowHT",
           "package": "diagrams-lib",
@@ -15721,6 +16834,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "ArrowHT",
           "package": "diagrams-lib",
@@ -15735,6 +16849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsoceles triangle with linear concave base. Inkscape type 1 - dart like.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowheadDart",
           "package": "diagrams-lib",
@@ -15745,6 +16860,7 @@
         "index": {
           "description": "Isoceles triangle with linear concave base Inkscape type dart like",
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowheadDart",
           "normalized": "a-\u003eArrowHT",
@@ -15760,6 +16876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowheadMissile",
           "package": "diagrams-lib",
@@ -15769,6 +16886,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowheadMissile",
           "normalized": "a-\u003eArrowHT",
@@ -15785,6 +16903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsoceles triangle with curved concave base. Inkscape type 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowheadSpike",
           "package": "diagrams-lib",
@@ -15795,6 +16914,7 @@
         "index": {
           "description": "Isoceles triangle with curved concave base Inkscape type",
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowheadSpike",
           "normalized": "a-\u003eArrowHT",
@@ -15811,6 +16931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurved sides, linear concave base. Illustrator CS5 #3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowheadThorn",
           "package": "diagrams-lib",
@@ -15821,6 +16942,7 @@
         "index": {
           "description": "Curved sides linear concave base Illustrator CS5",
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowheadThorn",
           "normalized": "a-\u003eDouble-\u003eArrowHT",
@@ -15837,6 +16959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsoceles triangle style. The above example specifies an angle of `2/5 Turn`.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_tri25Ex.svg#diagram=tri25Ex&width=120\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowheadTriangle",
           "package": "diagrams-lib",
@@ -15847,6 +16970,7 @@
         "index": {
           "description": "Isoceles triangle style The above example specifies an angle of Turn",
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowheadTriangle",
           "normalized": "a-\u003eArrowHT",
@@ -15862,6 +16986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowtailBlock",
           "package": "diagrams-lib",
@@ -15871,6 +16996,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowtailBlock",
           "normalized": "a-\u003eArrowHT",
@@ -15887,6 +17013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe angle is where the top left corner intersects the circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowtailQuill",
           "package": "diagrams-lib",
@@ -15897,6 +17024,7 @@
         "index": {
           "description": "The angle is where the top left corner intersects the circle",
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "arrowtailQuill",
           "normalized": "a-\u003eArrowHT",
@@ -15913,6 +17041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_blockEx.svg#diagram=blockEx&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "block",
           "package": "diagrams-lib",
@@ -15922,6 +17051,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "block",
           "package": "diagrams-lib",
@@ -15935,6 +17065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_dartEx.svg#diagram=dartEx&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "dart",
           "package": "diagrams-lib",
@@ -15944,6 +17075,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "dart",
           "package": "diagrams-lib",
@@ -15957,6 +17089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_dart'Ex.svg#diagram=dart'Ex&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "dart'",
           "package": "diagrams-lib",
@@ -15966,6 +17099,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "dart'",
           "package": "diagrams-lib",
@@ -15979,6 +17113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_missileEx.svg#diagram=missileEx&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "missile",
           "package": "diagrams-lib",
@@ -15988,6 +17123,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "missile",
           "package": "diagrams-lib",
@@ -16001,6 +17137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_missile'Ex.svg#diagram=missile'Ex&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "missile'",
           "package": "diagrams-lib",
@@ -16010,6 +17147,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "missile'",
           "package": "diagrams-lib",
@@ -16022,6 +17160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "noHead",
           "package": "diagrams-lib",
@@ -16031,6 +17170,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "noHead",
           "package": "diagrams-lib",
@@ -16044,6 +17184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "noTail",
           "package": "diagrams-lib",
@@ -16053,6 +17194,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "noTail",
           "package": "diagrams-lib",
@@ -16067,6 +17209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_quillEx.svg#diagram=quillEx&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "quill",
           "package": "diagrams-lib",
@@ -16076,6 +17219,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "quill",
           "package": "diagrams-lib",
@@ -16089,6 +17233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_spikeEx.svg#diagram=spikeEx&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "spike",
           "package": "diagrams-lib",
@@ -16098,6 +17243,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "spike",
           "package": "diagrams-lib",
@@ -16111,6 +17257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_spike'Ex.svg#diagram=spike'Ex&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "spike'",
           "package": "diagrams-lib",
@@ -16120,6 +17267,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "spike'",
           "package": "diagrams-lib",
@@ -16133,6 +17281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_thornEx.svg#diagram=thornEx&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "thorn",
           "package": "diagrams-lib",
@@ -16142,6 +17291,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "thorn",
           "package": "diagrams-lib",
@@ -16155,6 +17305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_thorn'Ex.svg#diagram=thorn'Ex&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "thorn'",
           "package": "diagrams-lib",
@@ -16164,6 +17315,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "thorn'",
           "package": "diagrams-lib",
@@ -16177,6 +17329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_triEx.svg#diagram=triEx&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "tri",
           "package": "diagrams-lib",
@@ -16186,6 +17339,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "tri",
           "package": "diagrams-lib",
@@ -16199,6 +17353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Arrowheads_tri'Ex.svg#diagram=tri'Ex&width=100\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "tri'",
           "package": "diagrams-lib",
@@ -16208,6 +17363,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Arrowheads",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Arrowheads",
           "name": "tri'",
           "package": "diagrams-lib",
@@ -16221,6 +17377,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiagram combinators specialized to two dimensions. For more general\n combinators, see \u003ca\u003eDiagrams.Combinators\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Combinators",
           "name": "Combinators",
           "package": "diagrams-lib",
@@ -16230,6 +17387,7 @@
         "index": {
           "description": "Diagram combinators specialized to two dimensions For more general combinators see Diagrams.Combinators",
           "hierarchy": "Diagrams TwoD Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Combinators",
           "name": "Combinators",
           "package": "diagrams-lib",
@@ -16588,6 +17746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estrutR2 v\u003c/code\u003e is a two-dimensional diagram which produces no\n   output, but with respect to alignment, envelope, \u003cem\u003eand trace\u003c/em\u003e acts\n   like a 1-dimensional segment oriented along the vector \u003ccode\u003ev\u003c/code\u003e, with\n   local origin at its center.  If you don't care about the trace\n   then there's no difference between \u003ccode\u003estrutR2\u003c/code\u003e and the more general\n   \u003ccode\u003e\u003ca\u003estrut\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Combinators",
           "name": "strutR2",
           "package": "diagrams-lib",
@@ -16598,6 +17757,7 @@
         "index": {
           "description": "strutR2 is two-dimensional diagram which produces no output but with respect to alignment envelope and trace acts like dimensional segment oriented along the vector with local origin at its center If you don care about the trace then there no difference between strutR2 and the more general strut",
           "hierarchy": "Diagrams TwoD Combinators",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Combinators",
           "name": "strutR2",
           "normalized": "R-\u003eQDiagram a R b",
@@ -16743,6 +17903,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompute curvature for segments in two dimensions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Curvature",
           "name": "Curvature",
           "package": "diagrams-lib",
@@ -16752,6 +17913,7 @@
         "index": {
           "description": "Compute curvature for segments in two dimensions",
           "hierarchy": "Diagrams TwoD Curvature",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Curvature",
           "name": "Curvature",
           "package": "diagrams-lib",
@@ -16766,6 +17928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurvature measures how curved the segment is at a point.  One intuition\n for the concept is how much you would turn the wheel when driving a car\n along the curve.  When the wheel is held straight there is zero curvature.\n When turning a corner to the left we will have positive curvature.  When\n turning to the right we will have negative curvature.\n\u003c/p\u003e\u003cp\u003eAnother way to measure this idea is to find the largest circle that we can\n push up against the curve and have it touch (locally) at exactly the point\n and not cross the curve.  This is a tangent circle.  The radius of that\n circle is the \"Radius of Curvature\" and it is the reciprocal of curvature.\n Note that if the circle is on the \"left\" of the curve, we have a positive\n radius, and if it is to the right we have a negative radius.  Straight\n segments have an infinite radius which leads us to our representation.  We\n result in a pair of numerator and denominator so we can include infinity and\n zero for both the radius and the curvature.\n\u003c/p\u003e\u003cp\u003eLets consider the following curve:\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Curvature_diagramA.svg#diagram=diagramA&height=200&width=400\"/\u003e\n\u003c/p\u003e\u003cp\u003eThe curve starts with positive curvature,\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Curvature_diagramPos.svg#diagram=diagramPos&height=200&width=400\"/\u003e\n\u003c/p\u003e\u003cp\u003eapproaches zero curvature\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Curvature_diagramZero.svg#diagram=diagramZero&height=200&width=400\"/\u003e\n\u003c/p\u003e\u003cp\u003ethen has negative curvature\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Curvature_diagramNeg.svg#diagram=diagramNeg&height=200&width=400\"/\u003e\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE GADTs #-}\n\n import Diagrams.TwoD.Curvature\n import Data.Monoid.Inf\n import Diagrams.Coordinates\n\n segmentA = Cubic (12 ^& 0) (8 ^& 10) (OffsetClosed (20 ^& 8))\n\n curveA = lw 0.1 . stroke . fromSegments $ [segmentA]\n\n diagramA = pad 1.1 . centerXY $ curveA\n\n diagramPos = diagramWithRadius 0.2\n\n diagramZero = diagramWithRadius 0.45\n\n diagramNeg = diagramWithRadius 0.8\n\n diagramWithRadius t = pad 1.1 . centerXY\n          $ curveA\n         \u003c\u003e showCurvature segmentA t\n          # withEnvelope (curveA :: D R2)\n          # lw 0.05 # lc red\n\n showCurvature bez@(Cubic b c (OffsetClosed d)) t\n   | v == 0    = mempty\n   | otherwise = go (radiusOfCurvature bez t)\n   where\n     v@(x,y) = unr2 $ firstDerivative b c d t\n     vp = (-y) ^& x\n\n     firstDerivative b c d t = let tt = t*t in (3*(3*tt-4*t+1))*^b + (3*(2-3*t)*t)*^c + (3*tt)*^d\n\n     go Infinity   = mempty\n     go (Finite r) = (circle (abs r) # translate vpr\n                  \u003c\u003e stroke (origin ~~ (origin .+^ vpr)))\n                   # moveTo (origin .+^ atParam bez t)\n       where\n         vpr = r2 (normalized vp ^* r)\n\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Curvature",
           "name": "curvature",
           "package": "diagrams-lib",
@@ -16775,6 +17938,7 @@
         "index": {
           "description": "Curvature measures how curved the segment is at point One intuition for the concept is how much you would turn the wheel when driving car along the curve When the wheel is held straight there is zero curvature When turning corner to the left we will have positive curvature When turning to the right we will have negative curvature Another way to measure this idea is to find the largest circle that we can push up against the curve and have it touch locally at exactly the point and not cross the curve This is tangent circle The radius of that circle is the Radius of Curvature and it is the reciprocal of curvature Note that if the circle is on the left of the curve we have positive radius and if it is to the right we have negative radius Straight segments have an infinite radius which leads us to our representation We result in pair of numerator and denominator so we can include infinity and zero for both the radius and the curvature Lets consider the following curve The curve starts with positive curvature approaches zero curvature then has negative curvature LANGUAGE GADTs import Diagrams.TwoD.Curvature import Data.Monoid.Inf import Diagrams.Coordinates segmentA Cubic OffsetClosed curveA lw stroke fromSegments segmentA diagramA pad centerXY curveA diagramPos diagramWithRadius diagramZero diagramWithRadius diagramNeg diagramWithRadius diagramWithRadius pad centerXY curveA showCurvature segmentA withEnvelope curveA R2 lw lc red showCurvature bez Cubic OffsetClosed mempty otherwise go radiusOfCurvature bez where unr2 firstDerivative vp firstDerivative let tt in tt-4 tt go Infinity mempty go Finite circle abs translate vpr stroke origin origin vpr moveTo origin atParam bez where vpr r2 normalized vp",
           "hierarchy": "Diagrams TwoD Curvature",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Curvature",
           "name": "curvature",
           "normalized": "Segment Closed R-\u003eDouble-\u003ePosInf Double",
@@ -16790,6 +17954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReciprocal of \u003ccode\u003ecurvature\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Curvature",
           "name": "radiusOfCurvature",
           "package": "diagrams-lib",
@@ -16799,6 +17964,7 @@
         "index": {
           "description": "Reciprocal of curvature",
           "hierarchy": "Diagrams TwoD Curvature",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Curvature",
           "name": "radiusOfCurvature",
           "normalized": "Segment Closed R-\u003eDouble-\u003ePosInf Double",
@@ -16815,6 +17981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith \u003ccode\u003esquaredCurvature\u003c/code\u003e we can compute values in spaces that do not support\n \u003ccode\u003e\u003ca\u003esqrt\u003c/a\u003e\u003c/code\u003e and it is just as useful for relative ordering of curvatures or looking\n for zeros.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Curvature",
           "name": "squaredCurvature",
           "package": "diagrams-lib",
@@ -16825,6 +17992,7 @@
         "index": {
           "description": "With squaredCurvature we can compute values in spaces that do not support sqrt and it is just as useful for relative ordering of curvatures or looking for zeros",
           "hierarchy": "Diagrams TwoD Curvature",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Curvature",
           "name": "squaredCurvature",
           "normalized": "Segment Closed R-\u003eDouble-\u003ePosInf Double",
@@ -16841,6 +18009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReciprocal of \u003ccode\u003esquaredCurvature\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Curvature",
           "name": "squaredRadiusOfCurvature",
           "package": "diagrams-lib",
@@ -16851,6 +18020,7 @@
         "index": {
           "description": "Reciprocal of squaredCurvature",
           "hierarchy": "Diagrams TwoD Curvature",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Curvature",
           "name": "squaredRadiusOfCurvature",
           "normalized": "Segment Closed R-\u003eDouble-\u003ePosInf Double",
@@ -16867,6 +18037,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTwo-dimensional ellipses (and, as a special case, circles).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Ellipse",
           "name": "Ellipse",
           "package": "diagrams-lib",
@@ -16876,6 +18047,7 @@
         "index": {
           "description": "Two-dimensional ellipses and as special case circles",
           "hierarchy": "Diagrams TwoD Ellipse",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Ellipse",
           "name": "Ellipse",
           "package": "diagrams-lib",
@@ -16994,6 +18166,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImporting external images into diagrams.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Image",
           "name": "Image",
           "package": "diagrams-lib",
@@ -17003,6 +18176,7 @@
         "index": {
           "description": "Importing external images into diagrams",
           "hierarchy": "Diagrams TwoD Image",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Image",
           "name": "Image",
           "package": "diagrams-lib",
@@ -17017,6 +18191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn external image primitive, representing an image the backend\n   should import from another file when rendering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Image",
           "name": "Image",
           "package": "diagrams-lib",
@@ -17026,6 +18201,7 @@
         "index": {
           "description": "An external image primitive representing an image the backend should import from another file when rendering",
           "hierarchy": "Diagrams TwoD Image",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Image",
           "name": "Image",
           "package": "diagrams-lib",
@@ -17039,6 +18215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Image",
           "name": "Image",
           "package": "diagrams-lib",
@@ -17048,6 +18225,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Image",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Image",
           "name": "Image",
           "package": "diagrams-lib",
@@ -17061,6 +18239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Image",
           "name": "_imgFile",
           "package": "diagrams-lib",
@@ -17070,6 +18249,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Image",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Image",
           "name": "_imgFile",
           "package": "diagrams-lib",
@@ -17083,6 +18263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Image",
           "name": "_imgSize",
           "package": "diagrams-lib",
@@ -17092,6 +18273,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Image",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Image",
           "name": "_imgSize",
           "package": "diagrams-lib",
@@ -17105,6 +18287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Image",
           "name": "_imgTransf",
           "package": "diagrams-lib",
@@ -17114,6 +18297,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Image",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Image",
           "name": "_imgTransf",
           "package": "diagrams-lib",
@@ -17153,6 +18337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Image",
           "name": "imgFile",
           "package": "diagrams-lib",
@@ -17162,6 +18347,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Image",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Image",
           "name": "imgFile",
           "package": "diagrams-lib",
@@ -17175,6 +18361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Image",
           "name": "imgSize",
           "package": "diagrams-lib",
@@ -17184,6 +18371,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Image",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Image",
           "name": "imgSize",
           "package": "diagrams-lib",
@@ -17197,6 +18385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Image",
           "name": "imgTransf",
           "package": "diagrams-lib",
@@ -17206,6 +18395,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Image",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Image",
           "name": "imgTransf",
           "package": "diagrams-lib",
@@ -17220,6 +18410,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTools for visualizing diagrams' internal model: local origins,\n envelopes, \u003cem\u003eetc.\u003c/em\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Model",
           "name": "Model",
           "package": "diagrams-lib",
@@ -17229,6 +18420,7 @@
         "index": {
           "description": "Tools for visualizing diagrams internal model local origins envelopes etc",
           "hierarchy": "Diagrams TwoD Model",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Model",
           "name": "Model",
           "package": "diagrams-lib",
@@ -17242,6 +18434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Model",
           "name": "OriginOpts",
           "package": "diagrams-lib",
@@ -17250,6 +18443,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Model",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Model",
           "name": "OriginOpts",
           "package": "diagrams-lib",
@@ -17504,6 +18698,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompute offsets to segments in two dimensions.  More details can be \n found in the manual at \n \u003ca\u003ehttp://projects.haskell.org/diagrams/doc/manual.html#offsets-of-segments-trails-and-paths\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "Offset",
           "package": "diagrams-lib",
@@ -17513,6 +18708,7 @@
         "index": {
           "description": "Compute offsets to segments in two dimensions More details can be found in the manual at http projects.haskell.org diagrams doc manual.html offsets-of-segments-trails-and-paths",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "Offset",
           "package": "diagrams-lib",
@@ -17527,6 +18723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for specifying how a \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e should be expanded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "ExpandOpts",
           "package": "diagrams-lib",
@@ -17536,6 +18733,7 @@
         "index": {
           "description": "Options for specifying how Trail should be expanded",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "ExpandOpts",
           "package": "diagrams-lib",
@@ -17550,6 +18748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the offset of a segment.  Given a segment compute the offset\n   curve that is a fixed distance from the original curve.  For linear\n   segments nothing special happens, the same linear segment is returned\n   with a point that is offset by a perpendicular vector of the given offset\n   length.\n\u003c/p\u003e\u003cp\u003eCubic segments require a search for a subdivision of cubic segments that\n   gives an approximation of the offset within the given epsilon factor\n   (the given epsilon factor is applied to the radius giving a concrete epsilon\n   value).\n   We must do this because the offset of a cubic is not a cubic itself (the\n   degree of the curve increases).  Cubics do, however, approach constant\n   curvature as we subdivide.  In light of this we scale the handles of\n   the offset cubic segment in proportion to the radius of curvature difference\n   between the original subsegment and the offset which will have a radius\n   increased by the offset parameter.\n\u003c/p\u003e\u003cp\u003eIn the following example the blue lines are the original segments and\n   the alternating green and red lines are the resulting offset trail segments.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Offset_cubicOffsetExample.svg#diagram=cubicOffsetExample&width=600\"/\u003e\n\u003c/p\u003e\u003cp\u003eNote that when the original curve has a cusp, the offset curve forms a\n   radius around the cusp, and when there is a loop in the original curve,\n   there can be two cusps in the offset curve.\n\u003c/p\u003e\u003cp\u003eOptions for specifying line join and segment epsilon for an offset\n   involving multiple segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "OffsetOpts",
           "package": "diagrams-lib",
@@ -17559,6 +18758,7 @@
         "index": {
           "description": "Compute the offset of segment Given segment compute the offset curve that is fixed distance from the original curve For linear segments nothing special happens the same linear segment is returned with point that is offset by perpendicular vector of the given offset length Cubic segments require search for subdivision of cubic segments that gives an approximation of the offset within the given epsilon factor the given epsilon factor is applied to the radius giving concrete epsilon value We must do this because the offset of cubic is not cubic itself the degree of the curve increases Cubics do however approach constant curvature as we subdivide In light of this we scale the handles of the offset cubic segment in proportion to the radius of curvature difference between the original subsegment and the offset which will have radius increased by the offset parameter In the following example the blue lines are the original segments and the alternating green and red lines are the resulting offset trail segments Note that when the original curve has cusp the offset curve forms radius around the cusp and when there is loop in the original curve there can be two cusps in the offset curve Options for specifying line join and segment epsilon for an offset involving multiple segments",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "OffsetOpts",
           "package": "diagrams-lib",
@@ -17572,6 +18772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "ExpandOpts",
           "package": "diagrams-lib",
@@ -17581,6 +18782,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "ExpandOpts",
           "package": "diagrams-lib",
@@ -17594,6 +18796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "OffsetOpts",
           "package": "diagrams-lib",
@@ -17603,6 +18806,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "OffsetOpts",
           "package": "diagrams-lib",
@@ -17616,6 +18820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "_expandCap",
           "package": "diagrams-lib",
@@ -17625,6 +18830,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "_expandCap",
           "package": "diagrams-lib",
@@ -17638,6 +18844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "_expandEpsilon",
           "package": "diagrams-lib",
@@ -17647,6 +18854,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "_expandEpsilon",
           "package": "diagrams-lib",
@@ -17660,6 +18868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "_expandJoin",
           "package": "diagrams-lib",
@@ -17669,6 +18878,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "_expandJoin",
           "package": "diagrams-lib",
@@ -17682,6 +18892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "_expandMiterLimit",
           "package": "diagrams-lib",
@@ -17691,6 +18902,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "_expandMiterLimit",
           "package": "diagrams-lib",
@@ -17704,6 +18916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "_offsetEpsilon",
           "package": "diagrams-lib",
@@ -17713,6 +18926,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "_offsetEpsilon",
           "package": "diagrams-lib",
@@ -17726,6 +18940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "_offsetJoin",
           "package": "diagrams-lib",
@@ -17735,6 +18950,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "_offsetJoin",
           "package": "diagrams-lib",
@@ -17748,6 +18964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "_offsetMiterLimit",
           "package": "diagrams-lib",
@@ -17757,6 +18974,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "_offsetMiterLimit",
           "package": "diagrams-lib",
@@ -17771,6 +18989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies how the ends are handled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandCap",
           "package": "diagrams-lib",
@@ -17781,6 +19000,7 @@
         "index": {
           "description": "Specifies how the ends are handled",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandCap",
           "package": "diagrams-lib",
@@ -17795,6 +19015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEpsilon perimeter for \u003ccode\u003e\u003ca\u003eoffsetSegment\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandEpsilon",
           "package": "diagrams-lib",
@@ -17805,6 +19026,7 @@
         "index": {
           "description": "Epsilon perimeter for offsetSegment",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandEpsilon",
           "package": "diagrams-lib",
@@ -17819,6 +19041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the style of join for between adjacent offset segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandJoin",
           "package": "diagrams-lib",
@@ -17829,6 +19052,7 @@
         "index": {
           "description": "Specifies the style of join for between adjacent offset segments",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandJoin",
           "package": "diagrams-lib",
@@ -17843,6 +19067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the miter limit for the join.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandMiterLimit",
           "package": "diagrams-lib",
@@ -17853,6 +19078,7 @@
         "index": {
           "description": "Specifies the miter limit for the join",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandMiterLimit",
           "package": "diagrams-lib",
@@ -17867,6 +19093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand a \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e with the given radius and default options.  See \u003ccode\u003e\u003ca\u003eexpandPath'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandPath",
           "package": "diagrams-lib",
@@ -17877,6 +19104,7 @@
         "index": {
           "description": "Expand Path with the given radius and default options See expandPath",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandPath",
           "normalized": "Double-\u003ePath R-\u003ePath R",
@@ -17893,6 +19121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand a \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eexpandTrail'\u003c/a\u003e\u003c/code\u003e on each trail in the path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandPath'",
           "package": "diagrams-lib",
@@ -17903,6 +19132,7 @@
         "index": {
           "description": "Expand Path using expandTrail on each trail in the path",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandPath'",
           "normalized": "ExpandOpts-\u003eDouble-\u003ePath R-\u003ePath R",
@@ -17919,6 +19149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand a \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e with the given radius and default options.  See \u003ccode\u003e\u003ca\u003eexpandTrail'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandTrail",
           "package": "diagrams-lib",
@@ -17929,6 +19160,7 @@
         "index": {
           "description": "Expand Trail with the given radius and default options See expandTrail",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandTrail",
           "normalized": "Double-\u003eLocated(Trail R)-\u003ePath R",
@@ -17945,6 +19177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand a \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e with the given options and radius \u003ccode\u003er\u003c/code\u003e around a given \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e.\n   Expanding can be thought of as generating the loop that, when filled, represents\n   stroking the trail with a radius \u003ccode\u003er\u003c/code\u003e brush.\n\u003c/p\u003e\u003cp\u003eThe cap styles applied to an outside corner can be seen here (with the original\n   trail in white and the result of \u003ccode\u003e\u003ca\u003eexpandTrail'\u003c/a\u003e\u003c/code\u003e filled in green):\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Offset_expandTrailExample.svg#diagram=expandTrailExample&width=600\"/\u003e\n\u003c/p\u003e\u003cp\u003eLoops result in a path with an inner and outer loop:\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Offset_expandLoopExample.svg#diagram=expandLoopExample&width=300\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandTrail'",
           "package": "diagrams-lib",
@@ -17954,6 +19187,7 @@
         "index": {
           "description": "Expand Trail with the given options and radius around given Trail Expanding can be thought of as generating the loop that when filled represents stroking the trail with radius brush The cap styles applied to an outside corner can be seen here with the original trail in white and the result of expandTrail filled in green Loops result in path with an inner and outer loop",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "expandTrail'",
           "normalized": "ExpandOpts-\u003eDouble-\u003eLocated(Trail R)-\u003ePath R",
@@ -17970,6 +19204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEpsilon perimeter for \u003ccode\u003e\u003ca\u003eoffsetSegment\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetEpsilon",
           "package": "diagrams-lib",
@@ -17980,6 +19215,7 @@
         "index": {
           "description": "Epsilon perimeter for offsetSegment",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetEpsilon",
           "package": "diagrams-lib",
@@ -17994,6 +19230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the style of join for between adjacent offset segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetJoin",
           "package": "diagrams-lib",
@@ -18004,6 +19241,7 @@
         "index": {
           "description": "Specifies the style of join for between adjacent offset segments",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetJoin",
           "package": "diagrams-lib",
@@ -18018,6 +19256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the miter limit for the join.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetMiterLimit",
           "package": "diagrams-lib",
@@ -18028,6 +19267,7 @@
         "index": {
           "description": "Specifies the miter limit for the join",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetMiterLimit",
           "package": "diagrams-lib",
@@ -18042,6 +19282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset a \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e with the default options and given radius.  See \u003ccode\u003e\u003ca\u003eoffsetPath'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetPath",
           "package": "diagrams-lib",
@@ -18052,6 +19293,7 @@
         "index": {
           "description": "Offset Path with the default options and given radius See offsetPath",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetPath",
           "normalized": "Double-\u003ePath R-\u003ePath R",
@@ -18068,6 +19310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset a \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e by applying \u003ccode\u003e\u003ca\u003eoffsetTrail'\u003c/a\u003e\u003c/code\u003e to each trail in the path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetPath'",
           "package": "diagrams-lib",
@@ -18078,6 +19321,7 @@
         "index": {
           "description": "Offset Path by applying offsetTrail to each trail in the path",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetPath'",
           "normalized": "OffsetOpts-\u003eDouble-\u003ePath R-\u003ePath R",
@@ -18093,6 +19337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetSegment",
           "package": "diagrams-lib",
@@ -18101,6 +19346,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetSegment",
           "normalized": "Double-\u003eDouble-\u003eSegment Closed R-\u003eLocated(Trail R)",
@@ -18117,6 +19363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset a \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e with the default options and a given radius.  See \u003ccode\u003e\u003ca\u003eoffsetTrail'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetTrail",
           "package": "diagrams-lib",
@@ -18127,6 +19374,7 @@
         "index": {
           "description": "Offset Trail with the default options and given radius See offsetTrail",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetTrail",
           "normalized": "Double-\u003eLocated(Trail R)-\u003eLocated(Trail R)",
@@ -18143,6 +19391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset a \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e with options and by a given radius.  This generates a new\n   trail that is always radius \u003ccode\u003er\u003c/code\u003e away from the given \u003ccode\u003e\u003ca\u003eTrail\u003c/a\u003e\u003c/code\u003e (depending on\n   the line join option) on the right.\n\u003c/p\u003e\u003cp\u003eThe styles applied to an outside corner can be seen here (with the original\n   trail in blue and the result of \u003ccode\u003e\u003ca\u003eoffsetTrail'\u003c/a\u003e\u003c/code\u003e in green):\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Offset_offsetTrailExample.svg#diagram=offsetTrailExample&width=600\"/\u003e\n\u003c/p\u003e\u003cp\u003eWhen a negative radius is given, the offset trail will be on the left:\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Offset_offsetTrailLeftExample.svg#diagram=offsetTrailLeftExample&width=200\"/\u003e\n\u003c/p\u003e\u003cp\u003eWhen offseting a counter-clockwise loop a positive radius gives an outer loop\n   while a negative radius gives an inner loop (both counter-clockwise).\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Diagrams_TwoD_Offset_offsetTrailOuterExample.svg#diagram=offsetTrailOuterExample&width=300\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetTrail'",
           "package": "diagrams-lib",
@@ -18152,6 +19401,7 @@
         "index": {
           "description": "Offset Trail with options and by given radius This generates new trail that is always radius away from the given Trail depending on the line join option on the right The styles applied to an outside corner can be seen here with the original trail in blue and the result of offsetTrail in green When negative radius is given the offset trail will be on the left When offseting counter-clockwise loop positive radius gives an outer loop while negative radius gives an inner loop both counter-clockwise",
           "hierarchy": "Diagrams TwoD Offset",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Offset",
           "name": "offsetTrail'",
           "normalized": "OffsetOpts-\u003eDouble-\u003eLocated(Trail R)-\u003eLocated(Trail R)",
@@ -18168,6 +19418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePaths in two dimensions are special since we may stroke them to\n create a 2D diagram, and (eventually) perform operations such as\n intersection and union.  They also have a trace, whereas paths in\n higher dimensions do not.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Path",
           "name": "Path",
           "package": "diagrams-lib",
@@ -18177,6 +19428,7 @@
         "index": {
           "description": "Paths in two dimensions are special since we may stroke them to create diagram and eventually perform operations such as intersection and union They also have trace whereas paths in higher dimensions do not",
           "hierarchy": "Diagrams TwoD Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Path",
           "name": "Path",
           "package": "diagrams-lib",
@@ -18191,6 +19443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eClip\u003c/code\u003e tracks the accumulated clipping paths applied to a\n   diagram.  Note that the semigroup structure on \u003ccode\u003eClip\u003c/code\u003e is list\n   concatenation, so applying multiple clipping paths is sensible.\n   The clipping region is the intersection of all the applied\n   clipping paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Path",
           "name": "Clip",
           "package": "diagrams-lib",
@@ -18200,6 +19453,7 @@
         "index": {
           "description": "Clip tracks the accumulated clipping paths applied to diagram Note that the semigroup structure on Clip is list concatenation so applying multiple clipping paths is sensible The clipping region is the intersection of all the applied clipping paths",
           "hierarchy": "Diagrams TwoD Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Path",
           "name": "Clip",
           "package": "diagrams-lib",
@@ -18214,6 +19468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of algorithms or \"rules\" for determining which\n   points lie in the interior of a (possibly self-intersecting)\n   closed path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Path",
           "name": "FillRule",
           "package": "diagrams-lib",
@@ -18223,6 +19478,7 @@
         "index": {
           "description": "Enumeration of algorithms or rules for determining which points lie in the interior of possibly self-intersecting closed path",
           "hierarchy": "Diagrams TwoD Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Path",
           "name": "FillRule",
           "package": "diagrams-lib",
@@ -18236,6 +19492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Path",
           "name": "FillRuleA",
           "package": "diagrams-lib",
@@ -18244,6 +19501,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Path",
           "name": "FillRuleA",
           "package": "diagrams-lib",
@@ -18258,6 +19516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record of options that control how a path is stroked.\n   \u003ccode\u003eStrokeOpts\u003c/code\u003e is an instance of \u003ccode\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/code\u003e, so a \u003ccode\u003eStrokeOpts\u003c/code\u003e\n   records can be created using \u003ccode\u003e\u003ccode\u003ewith\u003c/code\u003e { ... }\u003c/code\u003e notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Path",
           "name": "StrokeOpts",
           "package": "diagrams-lib",
@@ -18267,6 +19526,7 @@
         "index": {
           "description": "record of options that control how path is stroked StrokeOpts is an instance of Default so StrokeOpts records can be created using with notation",
           "hierarchy": "Diagrams TwoD Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Path",
           "name": "StrokeOpts",
           "package": "diagrams-lib",
@@ -18280,6 +19540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Path",
           "name": "Clip",
           "package": "diagrams-lib",
@@ -18289,6 +19550,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Path",
           "name": "Clip",
           "normalized": "Clip[Path R]",
@@ -18329,6 +19591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Path",
           "name": "FillRuleA",
           "package": "diagrams-lib",
@@ -18338,6 +19601,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Path",
           "name": "FillRuleA",
           "package": "diagrams-lib",
@@ -18502,6 +19766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the fill rule from a \u003ccode\u003e\u003ca\u003eFillRuleA\u003c/a\u003e\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Path",
           "name": "getFillRule",
           "package": "diagrams-lib",
@@ -18512,6 +19777,7 @@
         "index": {
           "description": "Extract the fill rule from FillRuleA attribute",
           "hierarchy": "Diagrams TwoD Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Path",
           "name": "getFillRule",
           "normalized": "FillRuleA-\u003eFillRule",
@@ -18528,6 +19794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether the given point is inside the given (closed) path,\n   by testing whether a ray extending from the point in the positive\n   x direction crosses the path an even (outside) or odd (inside)\n   number of times.  Note that \u003ccode\u003eFalse\u003c/code\u003e is \u003cem\u003ealways\u003c/em\u003e returned for\n   \u003cem\u003eopen\u003c/em\u003e paths, regardless of the number of crossings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Path",
           "name": "isInsideEvenOdd",
           "package": "diagrams-lib",
@@ -18538,6 +19805,7 @@
         "index": {
           "description": "Test whether the given point is inside the given closed path by testing whether ray extending from the point in the positive direction crosses the path an even outside or odd inside number of times Note that False is always returned for open paths regardless of the number of crossings",
           "hierarchy": "Diagrams TwoD Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Path",
           "name": "isInsideEvenOdd",
           "normalized": "P-\u003ePath R-\u003eBool",
@@ -18554,6 +19822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether the given point is inside the given (closed) path,\n   by testing whether the point's \u003cem\u003ewinding number\u003c/em\u003e is nonzero. Note\n   that \u003ccode\u003eFalse\u003c/code\u003e is \u003cem\u003ealways\u003c/em\u003e returned for \u003cem\u003eopen\u003c/em\u003e paths, regardless of\n   the winding number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Path",
           "name": "isInsideWinding",
           "package": "diagrams-lib",
@@ -18564,6 +19833,7 @@
         "index": {
           "description": "Test whether the given point is inside the given closed path by testing whether the point winding number is nonzero Note that False is always returned for open paths regardless of the winding number",
           "hierarchy": "Diagrams TwoD Path",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Path",
           "name": "isInsideWinding",
           "normalized": "P-\u003ePath R-\u003eBool",
@@ -18953,6 +20223,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a general API for creating various types of\n polygons.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "Polygons",
           "package": "diagrams-lib",
@@ -18962,6 +20233,7 @@
         "index": {
           "description": "This module defines general API for creating various types of polygons",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "Polygons",
           "package": "diagrams-lib",
@@ -18976,6 +20248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePieces of a function graph can either be cycles or \"hairs\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "GraphPart",
           "package": "diagrams-lib",
@@ -18985,6 +20258,7 @@
         "index": {
           "description": "Pieces of function graph can either be cycles or hairs",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "GraphPart",
           "package": "diagrams-lib",
@@ -18999,6 +20273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine how a polygon should be oriented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "PolyOrientation",
           "package": "diagrams-lib",
@@ -19008,6 +20283,7 @@
         "index": {
           "description": "Determine how polygon should be oriented",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "PolyOrientation",
           "package": "diagrams-lib",
@@ -19022,6 +20298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod used to determine the vertices of a polygon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "PolyType",
           "package": "diagrams-lib",
@@ -19031,6 +20308,7 @@
         "index": {
           "description": "Method used to determine the vertices of polygon",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "PolyType",
           "package": "diagrams-lib",
@@ -19045,6 +20323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for specifying a polygon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "PolygonOpts",
           "package": "diagrams-lib",
@@ -19054,6 +20333,7 @@
         "index": {
           "description": "Options for specifying polygon",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "PolygonOpts",
           "package": "diagrams-lib",
@@ -19068,6 +20348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for creating \"star\" polygons, where the edges connect\n   possibly non-adjacent vertices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "StarOpts",
           "package": "diagrams-lib",
@@ -19077,6 +20358,7 @@
         "index": {
           "description": "Options for creating star polygons where the edges connect possibly non-adjacent vertices",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "StarOpts",
           "package": "diagrams-lib",
@@ -19090,6 +20372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "Cycle",
           "package": "diagrams-lib",
@@ -19099,6 +20382,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "Cycle",
           "normalized": "Cycle[a]",
@@ -19114,6 +20398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "Hair",
           "package": "diagrams-lib",
@@ -19123,6 +20408,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "Hair",
           "normalized": "Hair[a]",
@@ -19462,6 +20748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a function graph from the given function and labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "mkGraph",
           "package": "diagrams-lib",
@@ -19472,6 +20759,7 @@
         "index": {
           "description": "Generate function graph from the given function and labels",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "mkGraph",
           "normalized": "(Int-\u003eInt)-\u003e[a]-\u003e[GraphPart a]",
@@ -19488,6 +20776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eorbits f n\u003c/code\u003e computes the graph of \u003ccode\u003ef\u003c/code\u003e on the integers mod \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "orbits",
           "package": "diagrams-lib",
@@ -19498,6 +20787,7 @@
         "index": {
           "description": "orbits computes the graph of on the integers mod",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "orbits",
           "normalized": "(Int-\u003eInt)-\u003eInt-\u003e[GraphPart Int]",
@@ -19513,6 +20803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a transformation to orient a trail.  \u003ccode\u003eorient v t\u003c/code\u003e\n   generates the smallest rotation such that one of the segments\n   adjacent to the vertex furthest in the direction of \u003ccode\u003ev\u003c/code\u003e is\n   perpendicular to \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "orient",
           "package": "diagrams-lib",
@@ -19523,6 +20814,7 @@
         "index": {
           "description": "Generate transformation to orient trail orient generates the smallest rotation such that one of the segments adjacent to the vertex furthest in the direction of is perpendicular to",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "orient",
           "normalized": "R-\u003eLocated(Trail R)-\u003eT",
@@ -19588,6 +20880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the located trail of a polygon specified by polar data\n   (central angles and radii). See \u003ccode\u003e\u003ca\u003ePolyPolar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "polyPolarTrail",
           "package": "diagrams-lib",
@@ -19598,6 +20891,7 @@
         "index": {
           "description": "Generate the located trail of polygon specified by polar data central angles and radii See PolyPolar",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "polyPolarTrail",
           "normalized": "[a]-\u003e[Double]-\u003eLocated(Trail R)",
@@ -19614,6 +20908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the vertices of a regular polygon.  See \u003ccode\u003e\u003ca\u003ePolyRegular\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "polyRegularTrail",
           "package": "diagrams-lib",
@@ -19624,6 +20919,7 @@
         "index": {
           "description": "Generate the vertices of regular polygon See PolyRegular",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "polyRegularTrail",
           "normalized": "Int-\u003eDouble-\u003eLocated(Trail R)",
@@ -19640,6 +20936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the vertices of a polygon specified by side length and\n   angles, and a starting point for the trail such that the origin\n   is at the centroid of the vertices.  See \u003ccode\u003e\u003ca\u003ePolySides\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Polygons",
           "name": "polySidesTrail",
           "package": "diagrams-lib",
@@ -19650,6 +20947,7 @@
         "index": {
           "description": "Generate the vertices of polygon specified by side length and angles and starting point for the trail such that the origin is at the centroid of the vertices See PolySides",
           "hierarchy": "Diagrams TwoD Polygons",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Polygons",
           "name": "polySidesTrail",
           "normalized": "[a]-\u003e[Double]-\u003eLocated(Trail R)",
@@ -19770,6 +21068,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSegments in two dimensions are special since we may meaningfully\n compute their point of intersection with a ray.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Segment",
           "name": "Segment",
           "package": "diagrams-lib",
@@ -19779,6 +21078,7 @@
         "index": {
           "description": "Segments in two dimensions are special since we may meaningfully compute their point of intersection with ray",
           "hierarchy": "Diagrams TwoD Segment",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Segment",
           "name": "Segment",
           "package": "diagrams-lib",
@@ -19793,6 +21093,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious two-dimensional shapes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Shapes",
           "name": "Shapes",
           "package": "diagrams-lib",
@@ -19802,6 +21103,7 @@
         "index": {
           "description": "Various two-dimensional shapes",
           "hierarchy": "Diagrams TwoD Shapes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Shapes",
           "name": "Shapes",
           "package": "diagrams-lib",
@@ -19815,6 +21117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Shapes",
           "name": "RoundedRectOpts",
           "package": "diagrams-lib",
@@ -19823,6 +21126,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Shapes",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Shapes",
           "name": "RoundedRectOpts",
           "package": "diagrams-lib",
@@ -20541,6 +21845,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for working with sizes of two-dimensional objects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Size",
           "name": "Size",
           "package": "diagrams-lib",
@@ -20550,6 +21855,7 @@
         "index": {
           "description": "Utilities for working with sizes of two-dimensional objects",
           "hierarchy": "Diagrams TwoD Size",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Size",
           "name": "Size",
           "package": "diagrams-lib",
@@ -20564,6 +21870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specification of a (requested) rectangular size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Size",
           "name": "SizeSpec2D",
           "package": "diagrams-lib",
@@ -20573,6 +21880,7 @@
         "index": {
           "description": "specification of requested rectangular size",
           "hierarchy": "Diagrams TwoD Size",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Size",
           "name": "SizeSpec2D",
           "package": "diagrams-lib",
@@ -20818,6 +22126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erequiredScaleT spec sz\u003c/code\u003e returns a transformation (a uniform scale)\n   which can be applied to something of size \u003ccode\u003esz\u003c/code\u003e to make it fit the\n   requested size \u003ccode\u003espec\u003c/code\u003e, without changing the aspect ratio.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Size",
           "name": "requiredScaleT",
           "package": "diagrams-lib",
@@ -20828,6 +22137,7 @@
         "index": {
           "description": "requiredScaleT spec sz returns transformation uniform scale which can be applied to something of size sz to make it fit the requested size spec without changing the aspect ratio",
           "hierarchy": "Diagrams TwoD Size",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Size",
           "name": "requiredScaleT",
           "normalized": "SizeSpec D-\u003e(Double,Double)-\u003eTransformation R",
@@ -20976,6 +22286,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVery basic text primitives along with associated attributes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "Text",
           "package": "diagrams-lib",
@@ -20985,6 +22296,7 @@
         "index": {
           "description": "Very basic text primitives along with associated attributes",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "Text",
           "package": "diagrams-lib",
@@ -20999,6 +22311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFont\u003c/code\u003e attribute specifies the name of a font family.  Inner\n   \u003ccode\u003eFont\u003c/code\u003e attributes override outer ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "Font",
           "package": "diagrams-lib",
@@ -21008,6 +22321,7 @@
         "index": {
           "description": "The Font attribute specifies the name of font family Inner Font attributes override outer ones",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "Font",
           "package": "diagrams-lib",
@@ -21022,6 +22336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFontSize\u003c/code\u003e attribute specifies the size of a font's\n   em-square, measured with respect to the current local vector space.\n   Inner \u003ccode\u003eFontSize\u003c/code\u003e attributes override outer ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSize",
           "package": "diagrams-lib",
@@ -21031,6 +22346,7 @@
         "index": {
           "description": "The FontSize attribute specifies the size of font em-square measured with respect to the current local vector space Inner FontSize attributes override outer ones",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSize",
           "package": "diagrams-lib",
@@ -21044,6 +22360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSlant",
           "package": "diagrams-lib",
@@ -21052,6 +22369,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSlant",
           "package": "diagrams-lib",
@@ -21066,6 +22384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFontSlantA\u003c/code\u003e attribute specifies the slant (normal, italic,\n   or oblique) that should be used for all text within a diagram.\n   Inner \u003ccode\u003eFontSlantA\u003c/code\u003e attributes override outer ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSlantA",
           "package": "diagrams-lib",
@@ -21075,6 +22394,7 @@
         "index": {
           "description": "The FontSlantA attribute specifies the slant normal italic or oblique that should be used for all text within diagram Inner FontSlantA attributes override outer ones",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSlantA",
           "package": "diagrams-lib",
@@ -21088,6 +22408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "FontWeight",
           "package": "diagrams-lib",
@@ -21096,6 +22417,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "FontWeight",
           "package": "diagrams-lib",
@@ -21110,6 +22432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFontWeightA\u003c/code\u003e attribute specifies the weight (normal or bold)\n   that should be used for all text within a diagram.  Inner\n   \u003ccode\u003eFontWeightA\u003c/code\u003e attributes override outer ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "FontWeightA",
           "package": "diagrams-lib",
@@ -21119,6 +22442,7 @@
         "index": {
           "description": "The FontWeightA attribute specifies the weight normal or bold that should be used for all text within diagram Inner FontWeightA attributes override outer ones",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "FontWeightA",
           "package": "diagrams-lib",
@@ -21133,6 +22457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA text primitive consists of the string contents and alignment\n   specification, along with a transformation mapping from the local\n   vector space of the text to the vector space in which it is\n   embedded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "Text",
           "package": "diagrams-lib",
@@ -21142,6 +22467,7 @@
         "index": {
           "description": "text primitive consists of the string contents and alignment specification along with transformation mapping from the local vector space of the text to the vector space in which it is embedded",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "Text",
           "package": "diagrams-lib",
@@ -21156,6 +22482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTextAlignment\u003c/code\u003e specifies the alignment of the text's origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "TextAlignment",
           "package": "diagrams-lib",
@@ -21165,6 +22492,7 @@
         "index": {
           "description": "TextAlignment specifies the alignment of the text origin",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "TextAlignment",
           "package": "diagrams-lib",
@@ -21178,6 +22506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "BaselineText",
           "package": "diagrams-lib",
@@ -21187,6 +22516,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "BaselineText",
           "package": "diagrams-lib",
@@ -21200,6 +22530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "BoxAlignedText",
           "package": "diagrams-lib",
@@ -21209,6 +22540,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "BoxAlignedText",
           "package": "diagrams-lib",
@@ -21222,6 +22554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "Font",
           "package": "diagrams-lib",
@@ -21231,6 +22564,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "Font",
           "package": "diagrams-lib",
@@ -21244,6 +22578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSize",
           "package": "diagrams-lib",
@@ -21253,6 +22588,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSize",
           "package": "diagrams-lib",
@@ -21266,6 +22602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSlantItalic",
           "package": "diagrams-lib",
@@ -21275,6 +22612,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSlantItalic",
           "package": "diagrams-lib",
@@ -21288,6 +22626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSlantNormal",
           "package": "diagrams-lib",
@@ -21297,6 +22636,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSlantNormal",
           "package": "diagrams-lib",
@@ -21310,6 +22650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSlantOblique",
           "package": "diagrams-lib",
@@ -21319,6 +22660,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "FontSlantOblique",
           "package": "diagrams-lib",
@@ -21332,6 +22674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "FontWeightBold",
           "package": "diagrams-lib",
@@ -21341,6 +22684,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "FontWeightBold",
           "package": "diagrams-lib",
@@ -21354,6 +22698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "FontWeightNormal",
           "package": "diagrams-lib",
@@ -21363,6 +22708,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "FontWeightNormal",
           "package": "diagrams-lib",
@@ -21376,6 +22722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "Text",
           "package": "diagrams-lib",
@@ -21385,6 +22732,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "Text",
           "package": "diagrams-lib",
@@ -21532,6 +22880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eFontSize\u003c/a\u003e\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "fontSizeA",
           "package": "diagrams-lib",
@@ -21542,6 +22891,7 @@
         "index": {
           "description": "Apply FontSize attribute",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "fontSizeA",
           "normalized": "FontSize-\u003ea-\u003ea",
@@ -21558,6 +22908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the slant (normal, italic, or oblique) that should be\n   used for all text within a diagram.  See also \u003ccode\u003e\u003ca\u003eitalic\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003eoblique\u003c/a\u003e\u003c/code\u003e for useful special cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "fontSlant",
           "package": "diagrams-lib",
@@ -21568,6 +22919,7 @@
         "index": {
           "description": "Specify the slant normal italic or oblique that should be used for all text within diagram See also italic and oblique for useful special cases",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "fontSlant",
           "normalized": "FontSlant-\u003ea-\u003ea",
@@ -21584,6 +22936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the weight (normal or bold) that should be\n   used for all text within a diagram.  See also \u003ccode\u003e\u003ca\u003ebold\u003c/a\u003e\u003c/code\u003e\n   for a useful special case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "fontWeight",
           "package": "diagrams-lib",
@@ -21594,6 +22947,7 @@
         "index": {
           "description": "Specify the weight normal or bold that should be used for all text within diagram See also bold for useful special case",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "fontWeight",
           "normalized": "FontWeight-\u003ea-\u003ea",
@@ -21610,6 +22964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the font family name from a \u003ccode\u003eFont\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "getFont",
           "package": "diagrams-lib",
@@ -21620,6 +22975,7 @@
         "index": {
           "description": "Extract the font family name from Font attribute",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "getFont",
           "normalized": "Font-\u003eString",
@@ -21636,6 +22992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the size from a \u003ccode\u003eFontSize\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "getFontSize",
           "package": "diagrams-lib",
@@ -21646,6 +23003,7 @@
         "index": {
           "description": "Extract the size from FontSize attribute",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "getFontSize",
           "normalized": "FontSize-\u003eDouble",
@@ -21662,6 +23020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the font slant from a \u003ccode\u003e\u003ca\u003eFontSlantA\u003c/a\u003e\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "getFontSlant",
           "package": "diagrams-lib",
@@ -21672,6 +23031,7 @@
         "index": {
           "description": "Extract the font slant from FontSlantA attribute",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "getFontSlant",
           "normalized": "FontSlantA-\u003eFontSlant",
@@ -21688,6 +23048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the font weight from a \u003ccode\u003e\u003ca\u003eFontWeightA\u003c/a\u003e\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Text",
           "name": "getFontWeight",
           "package": "diagrams-lib",
@@ -21698,6 +23059,7 @@
         "index": {
           "description": "Extract the font weight from FontWeightA attribute",
           "hierarchy": "Diagrams TwoD Text",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Text",
           "name": "getFontWeight",
           "normalized": "FontWeightA-\u003eFontWeight",
@@ -21819,6 +23181,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrapper for creating scale-invariant objects in two dimensions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "ScaleInv",
           "package": "diagrams-lib",
@@ -21828,6 +23191,7 @@
         "index": {
           "description": "Wrapper for creating scale-invariant objects in two dimensions",
           "hierarchy": "Diagrams TwoD Transform ScaleInv",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "ScaleInv",
           "package": "diagrams-lib",
@@ -21842,6 +23206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eScaleInv\u003c/code\u003e wrapper creates two-dimensional \u003cem\u003escale-invariant\u003c/em\u003e\n   objects.  Intuitively, a scale-invariant object is affected by\n   transformations like translations and rotations, but not by scales.\n\u003c/p\u003e\u003cp\u003eHowever, this is problematic when it comes to \u003cem\u003enon-uniform\u003c/em\u003e\n   scales (\u003cem\u003ee.g.\u003c/em\u003e \u003ccode\u003escaleX 2 . scaleY 3\u003c/code\u003e) since they can introduce a\n   perceived rotational component.  The prototypical example is an\n   arrowhead on the end of a path, which should be scale-invariant.\n   However, applying a non-uniform scale to the path but not the\n   arrowhead would leave the arrowhead pointing in the wrong\n   direction.\n\u003c/p\u003e\u003cp\u003eMoreover, for objects whose local origin is not at the local\n   origin of the parent diagram, any scale can result in a\n   translational component as well.\n\u003c/p\u003e\u003cp\u003eThe solution is to also store a point (indicating the location,\n   \u003cem\u003ei.e.\u003c/em\u003e the local origin) and a unit vector (indicating the\n   \u003cem\u003edirection\u003c/em\u003e) along with a scale-invariant object.  A\n   transformation to be applied is decomposed into rotational and\n   translational components as follows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The transformation is applied to the direction vector, and the\n   difference in angle between the original direction vector and its\n   image under the transformation determines the rotational\n   component.  The rotation is applied with respect to the stored\n   location, rather than the global origin.\n\u003c/li\u003e\u003cli\u003e The vector from the location to the image of the location under\n   the transformation determines the translational component.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "ScaleInv",
           "package": "diagrams-lib",
@@ -21851,6 +23216,7 @@
         "index": {
           "description": "The ScaleInv wrapper creates two-dimensional scale-invariant objects Intuitively scale-invariant object is affected by transformations like translations and rotations but not by scales However this is problematic when it comes to non-uniform scales e.g scaleX scaleY since they can introduce perceived rotational component The prototypical example is an arrowhead on the end of path which should be scale-invariant However applying non-uniform scale to the path but not the arrowhead would leave the arrowhead pointing in the wrong direction Moreover for objects whose local origin is not at the local origin of the parent diagram any scale can result in translational component as well The solution is to also store point indicating the location i.e the local origin and unit vector indicating the direction along with scale-invariant object transformation to be applied is decomposed into rotational and translational components as follows The transformation is applied to the direction vector and the difference in angle between the original direction vector and its image under the transformation determines the rotational component The rotation is applied with respect to the stored location rather than the global origin The vector from the location to the image of the location under the transformation determines the translational component",
           "hierarchy": "Diagrams TwoD Transform ScaleInv",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "ScaleInv",
           "package": "diagrams-lib",
@@ -21864,6 +23230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "ScaleInv",
           "package": "diagrams-lib",
@@ -21873,6 +23240,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Transform ScaleInv",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "ScaleInv",
           "package": "diagrams-lib",
@@ -21886,6 +23254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "_scaleInvDir",
           "package": "diagrams-lib",
@@ -21895,6 +23264,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Transform ScaleInv",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "_scaleInvDir",
           "package": "diagrams-lib",
@@ -21908,6 +23278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "_scaleInvLoc",
           "package": "diagrams-lib",
@@ -21917,6 +23288,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Transform ScaleInv",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "_scaleInvLoc",
           "package": "diagrams-lib",
@@ -21930,6 +23302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "_scaleInvObj",
           "package": "diagrams-lib",
@@ -21939,6 +23312,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Transform ScaleInv",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "_scaleInvObj",
           "package": "diagrams-lib",
@@ -21953,6 +23327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a scale-invariant object pointing in the given direction,\n   located at the origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "scaleInv",
           "package": "diagrams-lib",
@@ -21963,6 +23338,7 @@
         "index": {
           "description": "Create scale-invariant object pointing in the given direction located at the origin",
           "hierarchy": "Diagrams TwoD Transform ScaleInv",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "scaleInv",
           "normalized": "a-\u003eR-\u003eScaleInv a",
@@ -21978,6 +23354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "scaleInvDir",
           "package": "diagrams-lib",
@@ -21987,6 +23364,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Transform ScaleInv",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "scaleInvDir",
           "package": "diagrams-lib",
@@ -22000,6 +23378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "scaleInvLoc",
           "package": "diagrams-lib",
@@ -22009,6 +23388,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Transform ScaleInv",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "scaleInvLoc",
           "package": "diagrams-lib",
@@ -22022,6 +23402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "scaleInvObj",
           "package": "diagrams-lib",
@@ -22031,6 +23412,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Transform ScaleInv",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "scaleInvObj",
           "package": "diagrams-lib",
@@ -22045,6 +23427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a diagram from a single scale-invariant primitive.  The\n   vector argument specifies the direction in which the primitive is\n   \"pointing\" (for the purpose of keeping it rotated correctly\n   under non-uniform scaling).  The primitive is assumed to be\n   \"located\" at the origin (for the purpose of translating it\n   correctly under scaling).\n\u003c/p\u003e\u003cp\u003eNote that the resulting diagram will have an \u003cem\u003eempty\u003c/em\u003e envelope,\n   trace, and query.  The reason is that the envelope, trace, and\n   query cannot be cached---applying a transformation would cause\n   the cached envelope, etc. to get \"out of sync\" with the\n   scale-invariant object.  The intention, at any rate, is that\n   scale-invariant things will be used only as \"decorations\" (\u003cem\u003ee.g.\u003c/em\u003e\n   arrowheads) which should not affect the envelope, trace, and\n   query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "scaleInvPrim",
           "package": "diagrams-lib",
@@ -22055,6 +23438,7 @@
         "index": {
           "description": "Create diagram from single scale-invariant primitive The vector argument specifies the direction in which the primitive is pointing for the purpose of keeping it rotated correctly under non-uniform scaling The primitive is assumed to be located at the origin for the purpose of translating it correctly under scaling Note that the resulting diagram will have an empty envelope trace and query The reason is that the envelope trace and query cannot be cached---applying transformation would cause the cached envelope etc to get out of sync with the scale-invariant object The intention at any rate is that scale-invariant things will be used only as decorations e.g arrowheads which should not affect the envelope trace and query",
           "hierarchy": "Diagrams TwoD Transform ScaleInv",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform.ScaleInv",
           "name": "scaleInvPrim",
           "normalized": "a-\u003eR-\u003eQDiagram b R c",
@@ -22071,6 +23455,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTransformations specific to two dimensions, with a few generic\n transformations (uniform scaling, translation) also re-exported for\n convenience.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform",
           "name": "Transform",
           "package": "diagrams-lib",
@@ -22080,6 +23465,7 @@
         "index": {
           "description": "Transformations specific to two dimensions with few generic transformations uniform scaling translation also re-exported for convenience",
           "hierarchy": "Diagrams TwoD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform",
           "name": "Transform",
           "package": "diagrams-lib",
@@ -22094,6 +23480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the \"average\" amount of scaling performed by a\n   transformation.  Satisfies the properties\n\u003c/p\u003e\u003cpre\u003e\n   avgScale (scaling k) == k\n   avgScale (t1 \u003ca/\u003e t2)  == avgScale t1 * avgScale t2\n\u003c/pre\u003e\u003cp\u003eBackends which do not support stroking in the context of an\n   arbitrary transformation may instead call \u003ccode\u003e\u003ca\u003eavgScale\u003c/a\u003e\u003c/code\u003e on\n   \"frozen\" transformations and multiply the line width by the\n   resulting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform",
           "name": "avgScale",
           "package": "diagrams-lib",
@@ -22104,6 +23491,7 @@
         "index": {
           "description": "Compute the average amount of scaling performed by transformation Satisfies the properties avgScale scaling avgScale t1 t2 avgScale t1 avgScale t2 Backends which do not support stroking in the context of an arbitrary transformation may instead call avgScale on frozen transformations and multiply the line width by the resulting value",
           "hierarchy": "Diagrams TwoD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform",
           "name": "avgScale",
           "normalized": "T-\u003eDouble",
@@ -22120,6 +23508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the matrix equivalent of the linear transform,\n   (as a pair of columns) and the translation vector.  This\n   is mostly useful for implementing backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Transform",
           "name": "onBasis",
           "package": "diagrams-lib",
@@ -22130,6 +23519,7 @@
         "index": {
           "description": "Get the matrix equivalent of the linear transform as pair of columns and the translation vector This is mostly useful for implementing backends",
           "hierarchy": "Diagrams TwoD Transform",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Transform",
           "name": "onBasis",
           "normalized": "Transformation R-\u003e((R,R),R)",
@@ -22853,6 +24243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types for two-dimensional Euclidean space.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "Types",
           "package": "diagrams-lib",
@@ -22862,6 +24253,7 @@
         "index": {
           "description": "Basic types for two-dimensional Euclidean space",
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "Types",
           "package": "diagrams-lib",
@@ -22876,6 +24268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for types that measure angles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "Angle",
           "package": "diagrams-lib",
@@ -22885,6 +24278,7 @@
         "index": {
           "description": "Type class for types that measure angles",
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "Angle",
           "package": "diagrams-lib",
@@ -22899,6 +24293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecated synonym for \u003ccode\u003e\u003ca\u003eTurn\u003c/a\u003e\u003c/code\u003e, retained for backwards compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "CircleFrac",
           "package": "diagrams-lib",
@@ -22908,6 +24303,7 @@
         "index": {
           "description": "Deprecated synonym for Turn retained for backwards compatibility",
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "CircleFrac",
           "package": "diagrams-lib",
@@ -22922,6 +24318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper for representing angles in degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "Deg",
           "package": "diagrams-lib",
@@ -22931,6 +24328,7 @@
         "index": {
           "description": "Newtype wrapper for representing angles in degrees",
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "Deg",
           "package": "diagrams-lib",
@@ -22945,6 +24343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoints in R^2.  This type is intentionally abstract.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e To construct a point, use \u003ccode\u003e\u003ca\u003ep2\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003e^&\u003c/a\u003e\u003c/code\u003e (see\n     \u003ca\u003eDiagrams.Coordinates\u003c/a\u003e):\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n p2 (3,4)  :: P2\n 3 ^& 4    :: P2\n\u003c/pre\u003e\u003cul\u003e\u003cli\u003e To construct a point from a vector \u003ccode\u003ev\u003c/code\u003e, use \u003ccode\u003e\u003ccode\u003e\u003ca\u003eorigin\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.+^\u003c/a\u003e\u003c/code\u003e v\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e To convert a point \u003ccode\u003ep\u003c/code\u003e into the vector from the origin to \u003ccode\u003ep\u003c/code\u003e,\n   use \u003ccode\u003ep \u003ccode\u003e\u003ca\u003e.-.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eorigin\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e To convert a point back into a pair of coordinates, use \u003ccode\u003e\u003ca\u003eunp2\u003c/a\u003e\u003c/code\u003e,\n     or \u003ccode\u003e\u003ca\u003ecoords\u003c/a\u003e\u003c/code\u003e (from \u003ca\u003eDiagrams.Coordinates\u003c/a\u003e).  It's common to use\n     these in conjunction with the \u003ccode\u003eViewPatterns\u003c/code\u003e extension:\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n foo (unp2 -\u003e (x,y)) = ...\n foo (coords -\u003e x :& y) = ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "P2",
           "package": "diagrams-lib",
@@ -22954,6 +24353,7 @@
         "index": {
           "description": "Points in This type is intentionally abstract To construct point use p2 or see Diagrams.Coordinates p2 P2 P2 To construct point from vector use origin To convert point into the vector from the origin to use origin To convert point back into pair of coordinates use unp2 or coords from Diagrams.Coordinates It common to use these in conjunction with the ViewPatterns extension foo unp2 foo coords",
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "P2",
           "package": "diagrams-lib",
@@ -22967,6 +24367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe two-dimensional Euclidean vector space R^2.  This type is\n   intentionally abstract.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e To construct a vector, use \u003ccode\u003e\u003ca\u003er2\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003e^&\u003c/a\u003e\u003c/code\u003e (from \u003ca\u003eDiagrams.Coordinates\u003c/a\u003e):\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n r2 (3,4) :: R2\n 3 ^& 4    :: R2\n\u003c/pre\u003e\u003cp\u003eNote that \u003ca\u003eDiagrams.Coordinates\u003c/a\u003e is not re-exported by\n     \u003ca\u003eDiagrams.Prelude\u003c/a\u003e and must be explicitly imported.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e To construct the vector from the origin to a point \u003ccode\u003ep\u003c/code\u003e, use\n     \u003ccode\u003ep \u003ccode\u003e\u003ca\u003e.-.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eorigin\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e To convert a vector \u003ccode\u003ev\u003c/code\u003e into the point obtained by following\n     \u003ccode\u003ev\u003c/code\u003e from the origin, use \u003ccode\u003e\u003ccode\u003e\u003ca\u003eorigin\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.+^\u003c/a\u003e\u003c/code\u003e v\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e To convert a vector back into a pair of components, use \u003ccode\u003eunv2\u003c/code\u003e\n     or \u003ccode\u003e\u003ca\u003ecoords\u003c/a\u003e\u003c/code\u003e (from \u003ca\u003eDiagrams.Coordinates\u003c/a\u003e).  These are typically\n     used in conjunction with the \u003ccode\u003eViewPatterns\u003c/code\u003e extension:\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n foo (unr2 -\u003e (x,y)) = ...\n foo (coords -\u003e x :& y) = ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "R2",
           "package": "diagrams-lib",
@@ -22976,6 +24377,7 @@
         "index": {
           "description": "The two-dimensional Euclidean vector space This type is intentionally abstract To construct vector use r2 or from Diagrams.Coordinates r2 R2 R2 Note that Diagrams.Coordinates is not re-exported by Diagrams.Prelude and must be explicitly imported To construct the vector from the origin to point use origin To convert vector into the point obtained by following from the origin use origin To convert vector back into pair of components use unv2 or coords from Diagrams.Coordinates These are typically used in conjunction with the ViewPatterns extension foo unr2 foo coords",
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "R2",
           "package": "diagrams-lib",
@@ -22989,6 +24391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper for representing angles in radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "Rad",
           "package": "diagrams-lib",
@@ -22998,6 +24401,7 @@
         "index": {
           "description": "Newtype wrapper for representing angles in radians",
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "Rad",
           "package": "diagrams-lib",
@@ -23012,6 +24416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformations in R^2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "T2",
           "package": "diagrams-lib",
@@ -23021,6 +24426,7 @@
         "index": {
           "description": "Transformations in",
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "T2",
           "package": "diagrams-lib",
@@ -23034,6 +24440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper used to represent angles as fractions of a\n   circle.  For example, 1/3 turn = tau/3 radians = 120 degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "Turn",
           "package": "diagrams-lib",
@@ -23043,6 +24450,7 @@
         "index": {
           "description": "Newtype wrapper used to represent angles as fractions of circle For example turn tau radians degrees",
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "Turn",
           "package": "diagrams-lib",
@@ -23056,6 +24464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "R2",
           "package": "diagrams-lib",
@@ -23065,6 +24474,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "R2",
           "package": "diagrams-lib",
@@ -23078,6 +24488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a turn, \u003cem\u003ei.e.\u003c/em\u003e a fraction of a circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "fromTurn",
           "package": "diagrams-lib",
@@ -23088,6 +24499,7 @@
         "index": {
           "description": "Convert from turn i.e fraction of circle",
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "fromTurn",
           "normalized": "Turn-\u003ea",
@@ -23206,6 +24618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "p2Iso",
           "package": "diagrams-lib",
@@ -23215,6 +24628,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "p2Iso",
           "normalized": "Iso' P(Double,Double)",
@@ -23256,6 +24670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "r2Iso",
           "package": "diagrams-lib",
@@ -23265,6 +24680,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "r2Iso",
           "normalized": "Iso' R(Double,Double)",
@@ -23281,6 +24697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a turn, \u003cem\u003ei.e.\u003c/em\u003e a fraction of a circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Types",
           "name": "toTurn",
           "package": "diagrams-lib",
@@ -23291,6 +24708,7 @@
         "index": {
           "description": "Convert to turn i.e fraction of circle",
           "hierarchy": "Diagrams TwoD Types",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Types",
           "name": "toTurn",
           "normalized": "a-\u003eTurn",
@@ -23359,6 +24777,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTwo-dimensional vectors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Vector",
           "name": "Vector",
           "package": "diagrams-lib",
@@ -23368,6 +24787,7 @@
         "index": {
           "description": "Two-dimensional vectors",
           "hierarchy": "Diagrams TwoD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Vector",
           "name": "Vector",
           "package": "diagrams-lib",
@@ -23435,6 +24855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenient synonym for \u003ccode\u003e\u003ca\u003efromDirection\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Vector",
           "name": "e",
           "package": "diagrams-lib",
@@ -23445,6 +24866,7 @@
         "index": {
           "description": "convenient synonym for fromDirection",
           "hierarchy": "Diagrams TwoD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Vector",
           "name": "e",
           "normalized": "a-\u003eR",
@@ -23487,6 +24909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eleftTurn v1 v2\u003c/code\u003e tests whether the direction of \u003ccode\u003ev2\u003c/code\u003e is a left\n   turn from \u003ccode\u003ev1\u003c/code\u003e (that is, if the direction of \u003ccode\u003ev2\u003c/code\u003e can be obtained\n   from that of \u003ccode\u003ev1\u003c/code\u003e by adding an angle 0 \u003c= theta \u003c= tau/2).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Vector",
           "name": "leftTurn",
           "package": "diagrams-lib",
@@ -23497,6 +24920,7 @@
         "index": {
           "description": "leftTurn v1 v2 tests whether the direction of v2 is left turn from v1 that is if the direction of v2 can be obtained from that of v1 by adding an angle theta tau",
           "hierarchy": "Diagrams TwoD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Vector",
           "name": "leftTurn",
           "normalized": "R-\u003eR-\u003eBool",
@@ -23513,6 +24937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eperp v\u003c/code\u003e is perpendicular to and has the same magnitude as \u003ccode\u003ev\u003c/code\u003e.\n   In particular \u003ccode\u003eperp v == rotateBy (1/4) v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD.Vector",
           "name": "perp",
           "package": "diagrams-lib",
@@ -23523,6 +24948,7 @@
         "index": {
           "description": "perp is perpendicular to and has the same magnitude as In particular perp rotateBy",
           "hierarchy": "Diagrams TwoD Vector",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD.Vector",
           "name": "perp",
           "normalized": "R-\u003eR",
@@ -23634,6 +25060,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the two-dimensional vector space R^2,\n two-dimensional transformations, and various predefined\n two-dimensional shapes.  This module re-exports useful\n functionality from a group of more specific modules:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Types\u003c/a\u003e defines basic types for two-dimensional\n     diagrams, including types representing the 2D Euclidean vector\n     space and various systems of angle measurement.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Align\u003c/a\u003e defines alignment combinators specialized\n     to two dimensions (see \u003ca\u003eDiagrams.Align\u003c/a\u003e for more general\n     alignment).\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Combinators\u003c/a\u003e defines ways of combining diagrams\n     specialized to two dimensions (see also \u003ca\u003eDiagrams.Combinators\u003c/a\u003e\n     for more general combining).\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Transform\u003c/a\u003e defines R^2-specific transformations\n     such as rotation by an angle, and scaling, translation, and\n     reflection in the X and Y directions.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Ellipse\u003c/a\u003e defines circles and ellipses.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Arc\u003c/a\u003e defines circular arcs.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Path\u003c/a\u003e exports various operations on\n     two-dimensional paths when viewed as regions of the plane.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Polygons\u003c/a\u003e defines general algorithms for drawing\n     various types of polygons.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Shapes\u003c/a\u003e defines other two-dimensional shapes,\n     e.g. various polygons.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Arrow\u003c/a\u003e contains tools for drawing arrows between\n     things.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Text\u003c/a\u003e defines primitive text diagrams.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Image\u003c/a\u003e allows importing external images into diagrams.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Vector\u003c/a\u003e defines some special 2D vectors and\n     functions for converting between vectors and angles.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Size\u003c/a\u003e defines functions for working with the\n     size of 2D objects.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDiagrams.TwoD.Model\u003c/a\u003e defines some aids for visualizing\n     diagrams' internal model (local origins, envelopes, etc.)\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "TwoD",
           "package": "diagrams-lib",
@@ -23643,6 +25070,7 @@
         "index": {
           "description": "This module defines the two-dimensional vector space two-dimensional transformations and various predefined two-dimensional shapes This module re-exports useful functionality from group of more specific modules Diagrams.TwoD.Types defines basic types for two-dimensional diagrams including types representing the Euclidean vector space and various systems of angle measurement Diagrams.TwoD.Align defines alignment combinators specialized to two dimensions see Diagrams.Align for more general alignment Diagrams.TwoD.Combinators defines ways of combining diagrams specialized to two dimensions see also Diagrams.Combinators for more general combining Diagrams.TwoD.Transform defines specific transformations such as rotation by an angle and scaling translation and reflection in the and directions Diagrams.TwoD.Ellipse defines circles and ellipses Diagrams.TwoD.Arc defines circular arcs Diagrams.TwoD.Path exports various operations on two-dimensional paths when viewed as regions of the plane Diagrams.TwoD.Polygons defines general algorithms for drawing various types of polygons Diagrams.TwoD.Shapes defines other two-dimensional shapes e.g various polygons Diagrams.TwoD.Arrow contains tools for drawing arrows between things Diagrams.TwoD.Text defines primitive text diagrams Diagrams.TwoD.Image allows importing external images into diagrams Diagrams.TwoD.Vector defines some special vectors and functions for converting between vectors and angles Diagrams.TwoD.Size defines functions for working with the size of objects Diagrams.TwoD.Model defines some aids for visualizing diagrams internal model local origins envelopes etc",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "TwoD",
           "package": "diagrams-lib",
@@ -23657,6 +25085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for types that measure angles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "Angle",
           "package": "diagrams-lib",
@@ -23666,6 +25095,7 @@
         "index": {
           "description": "Type class for types that measure angles",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "Angle",
           "package": "diagrams-lib",
@@ -23679,6 +25109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "ArrowOpts",
           "package": "diagrams-lib",
@@ -23687,6 +25118,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "ArrowOpts",
           "package": "diagrams-lib",
@@ -23701,6 +25133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecated synonym for \u003ccode\u003e\u003ca\u003eTurn\u003c/a\u003e\u003c/code\u003e, retained for backwards compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "CircleFrac",
           "package": "diagrams-lib",
@@ -23710,6 +25143,7 @@
         "index": {
           "description": "Deprecated synonym for Turn retained for backwards compatibility",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "CircleFrac",
           "package": "diagrams-lib",
@@ -23724,6 +25158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper for representing angles in degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "Deg",
           "package": "diagrams-lib",
@@ -23733,6 +25168,7 @@
         "index": {
           "description": "Newtype wrapper for representing angles in degrees",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "Deg",
           "package": "diagrams-lib",
@@ -23747,6 +25183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of algorithms or \"rules\" for determining which\n   points lie in the interior of a (possibly self-intersecting)\n   closed path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "FillRule",
           "package": "diagrams-lib",
@@ -23756,6 +25193,7 @@
         "index": {
           "description": "Enumeration of algorithms or rules for determining which points lie in the interior of possibly self-intersecting closed path",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "FillRule",
           "package": "diagrams-lib",
@@ -23770,6 +25208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn external image primitive, representing an image the backend\n   should import from another file when rendering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "Image",
           "package": "diagrams-lib",
@@ -23779,6 +25218,7 @@
         "index": {
           "description": "An external image primitive representing an image the backend should import from another file when rendering",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "Image",
           "package": "diagrams-lib",
@@ -23792,6 +25232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "OriginOpts",
           "package": "diagrams-lib",
@@ -23800,6 +25241,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "OriginOpts",
           "package": "diagrams-lib",
@@ -23814,6 +25256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoints in R^2.  This type is intentionally abstract.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e To construct a point, use \u003ccode\u003e\u003ca\u003ep2\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003e^&\u003c/a\u003e\u003c/code\u003e (see\n     \u003ca\u003eDiagrams.Coordinates\u003c/a\u003e):\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n p2 (3,4)  :: P2\n 3 ^& 4    :: P2\n\u003c/pre\u003e\u003cul\u003e\u003cli\u003e To construct a point from a vector \u003ccode\u003ev\u003c/code\u003e, use \u003ccode\u003e\u003ccode\u003e\u003ca\u003eorigin\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.+^\u003c/a\u003e\u003c/code\u003e v\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e To convert a point \u003ccode\u003ep\u003c/code\u003e into the vector from the origin to \u003ccode\u003ep\u003c/code\u003e,\n   use \u003ccode\u003ep \u003ccode\u003e\u003ca\u003e.-.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eorigin\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e To convert a point back into a pair of coordinates, use \u003ccode\u003e\u003ca\u003eunp2\u003c/a\u003e\u003c/code\u003e,\n     or \u003ccode\u003e\u003ca\u003ecoords\u003c/a\u003e\u003c/code\u003e (from \u003ca\u003eDiagrams.Coordinates\u003c/a\u003e).  It's common to use\n     these in conjunction with the \u003ccode\u003eViewPatterns\u003c/code\u003e extension:\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n foo (unp2 -\u003e (x,y)) = ...\n foo (coords -\u003e x :& y) = ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "P2",
           "package": "diagrams-lib",
@@ -23823,6 +25266,7 @@
         "index": {
           "description": "Points in This type is intentionally abstract To construct point use p2 or see Diagrams.Coordinates p2 P2 P2 To construct point from vector use origin To convert point into the vector from the origin to use origin To convert point back into pair of coordinates use unp2 or coords from Diagrams.Coordinates It common to use these in conjunction with the ViewPatterns extension foo unp2 foo coords",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "P2",
           "package": "diagrams-lib",
@@ -23836,6 +25280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine how a polygon should be oriented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "PolyOrientation",
           "package": "diagrams-lib",
@@ -23845,6 +25290,7 @@
         "index": {
           "description": "Determine how polygon should be oriented",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "PolyOrientation",
           "package": "diagrams-lib",
@@ -23859,6 +25305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod used to determine the vertices of a polygon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "PolyType",
           "package": "diagrams-lib",
@@ -23868,6 +25315,7 @@
         "index": {
           "description": "Method used to determine the vertices of polygon",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "PolyType",
           "package": "diagrams-lib",
@@ -23882,6 +25330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for specifying a polygon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "PolygonOpts",
           "package": "diagrams-lib",
@@ -23891,6 +25340,7 @@
         "index": {
           "description": "Options for specifying polygon",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "PolygonOpts",
           "package": "diagrams-lib",
@@ -23905,6 +25355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe two-dimensional Euclidean vector space R^2.  This type is\n   intentionally abstract.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e To construct a vector, use \u003ccode\u003e\u003ca\u003er2\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003e^&\u003c/a\u003e\u003c/code\u003e (from \u003ca\u003eDiagrams.Coordinates\u003c/a\u003e):\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n r2 (3,4) :: R2\n 3 ^& 4    :: R2\n\u003c/pre\u003e\u003cp\u003eNote that \u003ca\u003eDiagrams.Coordinates\u003c/a\u003e is not re-exported by\n     \u003ca\u003eDiagrams.Prelude\u003c/a\u003e and must be explicitly imported.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e To construct the vector from the origin to a point \u003ccode\u003ep\u003c/code\u003e, use\n     \u003ccode\u003ep \u003ccode\u003e\u003ca\u003e.-.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eorigin\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e To convert a vector \u003ccode\u003ev\u003c/code\u003e into the point obtained by following\n     \u003ccode\u003ev\u003c/code\u003e from the origin, use \u003ccode\u003e\u003ccode\u003e\u003ca\u003eorigin\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.+^\u003c/a\u003e\u003c/code\u003e v\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e To convert a vector back into a pair of components, use \u003ccode\u003eunv2\u003c/code\u003e\n     or \u003ccode\u003e\u003ca\u003ecoords\u003c/a\u003e\u003c/code\u003e (from \u003ca\u003eDiagrams.Coordinates\u003c/a\u003e).  These are typically\n     used in conjunction with the \u003ccode\u003eViewPatterns\u003c/code\u003e extension:\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n foo (unr2 -\u003e (x,y)) = ...\n foo (coords -\u003e x :& y) = ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "R2",
           "package": "diagrams-lib",
@@ -23914,6 +25365,7 @@
         "index": {
           "description": "The two-dimensional Euclidean vector space This type is intentionally abstract To construct vector use r2 or from Diagrams.Coordinates r2 R2 R2 Note that Diagrams.Coordinates is not re-exported by Diagrams.Prelude and must be explicitly imported To construct the vector from the origin to point use origin To convert vector into the point obtained by following from the origin use origin To convert vector back into pair of components use unv2 or coords from Diagrams.Coordinates These are typically used in conjunction with the ViewPatterns extension foo unr2 foo coords",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "R2",
           "package": "diagrams-lib",
@@ -23927,6 +25379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper for representing angles in radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "Rad",
           "package": "diagrams-lib",
@@ -23936,6 +25389,7 @@
         "index": {
           "description": "Newtype wrapper for representing angles in radians",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "Rad",
           "package": "diagrams-lib",
@@ -23949,6 +25403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "RoundedRectOpts",
           "package": "diagrams-lib",
@@ -23957,6 +25412,7 @@
         },
         "index": {
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "RoundedRectOpts",
           "package": "diagrams-lib",
@@ -23971,6 +25427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specification of a (requested) rectangular size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "SizeSpec2D",
           "package": "diagrams-lib",
@@ -23980,6 +25437,7 @@
         "index": {
           "description": "specification of requested rectangular size",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "SizeSpec2D",
           "package": "diagrams-lib",
@@ -23994,6 +25452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for creating \"star\" polygons, where the edges connect\n   possibly non-adjacent vertices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "StarOpts",
           "package": "diagrams-lib",
@@ -24003,6 +25462,7 @@
         "index": {
           "description": "Options for creating star polygons where the edges connect possibly non-adjacent vertices",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "StarOpts",
           "package": "diagrams-lib",
@@ -24017,6 +25477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record of options that control how a path is stroked.\n   \u003ccode\u003eStrokeOpts\u003c/code\u003e is an instance of \u003ccode\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/code\u003e, so a \u003ccode\u003eStrokeOpts\u003c/code\u003e\n   records can be created using \u003ccode\u003e\u003ccode\u003ewith\u003c/code\u003e { ... }\u003c/code\u003e notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "StrokeOpts",
           "package": "diagrams-lib",
@@ -24026,6 +25487,7 @@
         "index": {
           "description": "record of options that control how path is stroked StrokeOpts is an instance of Default so StrokeOpts records can be created using with notation",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "StrokeOpts",
           "package": "diagrams-lib",
@@ -24040,6 +25502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformations in R^2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "T2",
           "package": "diagrams-lib",
@@ -24049,6 +25512,7 @@
         "index": {
           "description": "Transformations in",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "T2",
           "package": "diagrams-lib",
@@ -24062,6 +25526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper used to represent angles as fractions of a\n   circle.  For example, 1/3 turn = tau/3 radians = 120 degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "Turn",
           "package": "diagrams-lib",
@@ -24071,6 +25536,7 @@
         "index": {
           "description": "Newtype wrapper used to represent angles as fractions of circle For example turn tau radians degrees",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "Turn",
           "package": "diagrams-lib",
@@ -24085,6 +25551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a turn, \u003cem\u003ei.e.\u003c/em\u003e a fraction of a circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "fromTurn",
           "package": "diagrams-lib",
@@ -24095,6 +25562,7 @@
         "index": {
           "description": "Convert from turn i.e fraction of circle",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "fromTurn",
           "normalized": "Turn-\u003ea",
@@ -24135,6 +25603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a turn, \u003cem\u003ei.e.\u003c/em\u003e a fraction of a circle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.TwoD",
           "name": "toTurn",
           "package": "diagrams-lib",
@@ -24145,6 +25614,7 @@
         "index": {
           "description": "Convert to turn i.e fraction of circle",
           "hierarchy": "Diagrams TwoD",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.TwoD",
           "name": "toTurn",
           "normalized": "a-\u003eTurn",
@@ -24161,6 +25631,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome miscellaneous utilities provided by the diagrams-lib package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Util",
           "name": "Util",
           "package": "diagrams-lib",
@@ -24170,6 +25641,7 @@
         "index": {
           "description": "Some miscellaneous utilities provided by the diagrams-lib package",
           "hierarchy": "Diagrams Util",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Util",
           "name": "Util",
           "package": "diagrams-lib",
@@ -24184,6 +25656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostfix function application, for conveniently applying\n   attributes.  Unlike \u003ccode\u003e($)\u003c/code\u003e, \u003ccode\u003e(#)\u003c/code\u003e has a high precedence (8), so \u003ccode\u003ed\n   # foo # bar\u003c/code\u003e can be combined with other things using operators\n   like \u003ccode\u003e(|||)\u003c/code\u003e or \u003ccode\u003e(\u003c\u003e)\u003c/code\u003e without needing parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Util",
           "name": "(#)",
           "package": "diagrams-lib",
@@ -24194,6 +25667,7 @@
         "index": {
           "description": "Postfix function application for conveniently applying attributes Unlike has high precedence so foo bar can be combined with other things using operators like or without needing parentheses",
           "hierarchy": "Diagrams Util",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Util",
           "name": "(#) #",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -24209,6 +25683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eapplyAll\u003c/code\u003e takes a list of functions and applies them all to a\n   value, in sequence from the last function in the list to the first.\n   For example, \u003ccode\u003eapplyAll [f1, f2, f3] a == f1 . f2 . f3 $ a\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Util",
           "name": "applyAll",
           "package": "diagrams-lib",
@@ -24219,6 +25694,7 @@
         "index": {
           "description": "applyAll takes list of functions and applies them all to value in sequence from the last function in the list to the first For example applyAll f1 f2 f3 f1 f2 f3",
           "hierarchy": "Diagrams Util",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Util",
           "name": "applyAll",
           "normalized": "[a-\u003ea]-\u003ea-\u003ea",
@@ -24235,6 +25711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an associative binary operation and a default value to use\n   in the case of an empty list, perform a \u003cem\u003ebalanced\u003c/em\u003e fold over a\n   list.  For example,\n\u003c/p\u003e\u003cpre\u003e\n   foldB (+) z [a,b,c,d,e,f] == ((a+b) + (c+d)) + (e+f)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Util",
           "name": "foldB",
           "package": "diagrams-lib",
@@ -24245,6 +25722,7 @@
         "index": {
           "description": "Given an associative binary operation and default value to use in the case of an empty list perform balanced fold over list For example foldB",
           "hierarchy": "Diagrams Util",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Util",
           "name": "foldB",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003e[a]-\u003ea",
@@ -24260,6 +25738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eiterateN n f x\u003c/code\u003e returns the list of the first \u003ccode\u003en\u003c/code\u003e iterates of\n   \u003ccode\u003ef\u003c/code\u003e starting at \u003ccode\u003ex\u003c/code\u003e, that is, the list \u003ccode\u003e[x, f x, f (f x), ...]\u003c/code\u003e\n   of length \u003ccode\u003en\u003c/code\u003e. (Note that the last element of the list will be\n   \u003ccode\u003ef\u003c/code\u003e applied to \u003ccode\u003ex\u003c/code\u003e \u003ccode\u003e(n-1)\u003c/code\u003e times.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Util",
           "name": "iterateN",
           "package": "diagrams-lib",
@@ -24270,6 +25749,7 @@
         "index": {
           "description": "iterateN returns the list of the first iterates of starting at that is the list of length Note that the last element of the list will be applied to n-1 times",
           "hierarchy": "Diagrams Util",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Util",
           "name": "iterateN",
           "normalized": "Int-\u003e(a-\u003ea)-\u003ea-\u003e[a]",
@@ -24285,6 +25765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeveral functions exported by the diagrams library take a number\n   of arguments giving the user control to \"tweak\" various aspects\n   of their behavior.  Rather than give such functions a long list\n   of arguments, and to make it possible for the user to selectively\n   override only certain arguments and use default values for\n   others, such sets of arguments are collected into a record with\n   named fields (see \u003ccode\u003ePolygonOpts\u003c/code\u003e in \u003ca\u003eDiagrams.TwoD.Shapes\u003c/a\u003e for an\n   example).  Such record types are made instances of the \u003ccode\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/code\u003e\n   class, which provides a single record structure (\u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e)\n   collecting the \"default\" arguments to the function.  \u003ccode\u003ewith\u003c/code\u003e is\n   a synonym for \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e, which provides nice-looking syntax for\n   simulating optional, named arguments in Haskell.  For example,\n\u003c/p\u003e\u003cpre\u003e\n   polygon with {sides = 7, edgeSkip = 2}\n\u003c/pre\u003e\u003cp\u003ecalls the \u003ccode\u003epolygon\u003c/code\u003e function with a single argument (note that\n   record update binds more tightly than function application!),\n   namely, \u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e (the record of default arguments) where the\n   \u003ccode\u003esides\u003c/code\u003e and \u003ccode\u003eedgeSkip\u003c/code\u003e fields have been updated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:22 UTC 2014",
           "module": "Diagrams.Util",
           "name": "with",
           "package": "diagrams-lib",
@@ -24295,6 +25776,7 @@
         "index": {
           "description": "Several functions exported by the diagrams library take number of arguments giving the user control to tweak various aspects of their behavior Rather than give such functions long list of arguments and to make it possible for the user to selectively override only certain arguments and use default values for others such sets of arguments are collected into record with named fields see PolygonOpts in Diagrams.TwoD.Shapes for an example Such record types are made instances of the Default class which provides single record structure def collecting the default arguments to the function with is synonym for def which provides nice-looking syntax for simulating optional named arguments in Haskell For example polygon with sides edgeSkip calls the polygon function with single argument note that record update binds more tightly than function application namely with the record of default arguments where the sides and edgeSkip fields have been updated",
           "hierarchy": "Diagrams Util",
+          "indexed": "2014-03-11T17:54:22",
           "module": "Diagrams.Util",
           "name": "with",
           "package": "diagrams-lib",

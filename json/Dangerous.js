@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Dangerous"
+        "phrase": "Dangerous",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous.Extensions",
           "name": "Extensions",
           "package": "Dangerous",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous Extensions",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous.Extensions",
           "name": "Extensions",
           "package": "Dangerous",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "Dangerous",
           "package": "Dangerous",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "Dangerous",
           "package": "Dangerous",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "Dangerous",
           "package": "Dangerous",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "Dangerous",
           "package": "Dangerous",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "DangerousT",
           "package": "Dangerous",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "DangerousT",
           "package": "Dangerous",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "Errorable",
           "package": "Dangerous",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "Errorable",
           "package": "Dangerous",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "Exit",
           "package": "Dangerous",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "Exit",
           "package": "Dangerous",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "Warning",
           "package": "Dangerous",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "Warning",
           "package": "Dangerous",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "Dangerous",
           "package": "Dangerous",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "Dangerous",
           "package": "Dangerous",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "DangerousT",
           "package": "Dangerous",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "DangerousT",
           "package": "Dangerous",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "Exit",
           "package": "Dangerous",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "Exit",
           "package": "Dangerous",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "Failure",
           "package": "Dangerous",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "Failure",
           "package": "Dangerous",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "Stop",
           "package": "Dangerous",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "Stop",
           "package": "Dangerous",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "Warning",
           "package": "Dangerous",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "Warning",
           "package": "Dangerous",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "dangerize",
           "package": "Dangerous",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "dangerize",
           "normalized": "Either a b-\u003ec b",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "dangerously",
           "package": "Dangerous",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "dangerously",
           "normalized": "Dangerous a-\u003eIO a",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "die",
           "package": "Dangerous",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "die",
           "normalized": "Int-\u003ea-\u003eb c",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "die_",
           "package": "Dangerous",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "die_",
           "normalized": "Int-\u003ea-\u003eb()",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "execute",
           "package": "Dangerous",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "execute",
           "normalized": "(Either Exit a,[Warning])-\u003eIO a",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "exit",
           "package": "Dangerous",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "exit",
           "normalized": "Exit-\u003ea b",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "exit_",
           "package": "Dangerous",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "exit_",
           "normalized": "Exit-\u003ea()",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "exited",
           "package": "Dangerous",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "exited",
           "normalized": "(Either Exit a,[Warning])-\u003eBool",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "extract",
           "package": "Dangerous",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "extract",
           "normalized": "Either Exit a-\u003eIO a",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "failed",
           "package": "Dangerous",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "failed",
           "normalized": "(Either Exit a,[Warning])-\u003eBool",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "log",
           "package": "Dangerous",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "log",
           "normalized": "Warning-\u003ea()",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "result",
           "package": "Dangerous",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "result",
           "normalized": "(Either Exit a,[Warning])-\u003eEither Exit a",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "runDangerous",
           "package": "Dangerous",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "runDangerous",
           "normalized": "(Either Exit a,[Warning])",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "runDangerousT",
           "package": "Dangerous",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "runDangerousT",
           "normalized": "a(Either Exit b,[Warning])",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "stop",
           "package": "Dangerous",
@@ -630,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "stop",
           "normalized": "a-\u003eb c",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "stop_",
           "package": "Dangerous",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "stop_",
           "normalized": "a-\u003eb()",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "stopped",
           "package": "Dangerous",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "stopped",
           "normalized": "(Either Exit a,[Warning])-\u003eBool",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "succeeded",
           "package": "Dangerous",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "succeeded",
           "normalized": "(Either Exit a,[Warning])-\u003eBool",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "throw",
           "package": "Dangerous",
@@ -722,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "throw",
           "normalized": "a-\u003eb c",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "throw_",
           "package": "Dangerous",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "throw_",
           "normalized": "a-\u003eb()",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "warn",
           "package": "Dangerous",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "warn",
           "normalized": "a-\u003eb()",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:19 UTC 2014",
           "module": "Control.Dangerous",
           "name": "warnings",
           "package": "Dangerous",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Control Dangerous",
+          "indexed": "2014-03-11T16:38:19",
           "module": "Control.Dangerous",
           "name": "warnings",
           "normalized": "(Either Exit a,[Warning])-\u003e[Warning]",

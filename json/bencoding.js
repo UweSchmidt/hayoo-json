@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bencoding"
+        "phrase": "bencoding",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a simple key/value list ordered by keys\n   which both faster and more suitable for bencode dictionaries than\n   just [(k,v)].\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "BDict",
           "package": "bencoding",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines simple key value list ordered by keys which both faster and more suitable for bencode dictionaries than just",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "BDict",
           "package": "bencoding",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBDictMap is an ascending list of key/value pairs sorted by keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "BDictMap",
           "package": "bencoding",
@@ -51,6 +54,7 @@
         "index": {
           "description": "BDictMap is an ascending list of key value pairs sorted by keys",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "BDictMap",
           "package": "bencoding",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "BKey",
           "package": "bencoding",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "BKey",
           "package": "bencoding",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "Cons",
           "package": "bencoding",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "Cons",
           "package": "bencoding",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "Nil",
           "package": "bencoding",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "Nil",
           "package": "bencoding",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map each key/value pair to a monoid and fold resulting\n sequnce using \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "bifoldMap",
           "package": "bencoding",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Map each key value pair to monoid and fold resulting sequnce using mappend",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "bifoldMap",
           "normalized": "(BKey-\u003ea-\u003eb)-\u003eBDictMap a-\u003eb",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. The empty dicionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "empty",
           "package": "bencoding",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The empty dicionary",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "empty",
           "package": "bencoding",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Build a dictionary from a list of key/value pairs where\n the keys are in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "fromAscList",
           "package": "bencoding",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Build dictionary from list of key value pairs where the keys are in ascending order",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "fromAscList",
           "normalized": "[(BKey,a)]-\u003eBDictMap a",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Lookup the value at a key in the dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "lookup",
           "package": "bencoding",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Lookup the value at key in the dictionary",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "lookup",
           "normalized": "BKey-\u003eBDictMap a-\u003eMaybe a",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n).\u003c/em\u003e Map a function over all values in the dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "map",
           "package": "bencoding",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Map function over all values in the dictionary",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eBDictMap a-\u003eBDictMap b",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Is the key a member of the dictionary?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "member",
           "package": "bencoding",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Is the key member of the dictionary",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "member",
           "normalized": "BKey-\u003eBDictMap a-\u003eBool",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Is the dictionary empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "null",
           "package": "bencoding",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Is the dictionary empty",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "null",
           "normalized": "BDictMap a-\u003eBool",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Dictionary of one key-value pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "singleton",
           "package": "bencoding",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Dictionary of one key-value pair",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "singleton",
           "normalized": "BKey-\u003ea-\u003eBDictMap a",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Convert the dictionary to a list of key/value pairs\n where the keys are in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "toAscList",
           "package": "bencoding",
@@ -340,6 +367,7 @@
         "index": {
           "description": "Convert the dictionary to list of key value pairs where the keys are in ascending order",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "toAscList",
           "normalized": "BDictMap a-\u003e[(BKey,a)]",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n + m)\u003c/em\u003e. Merge two dictionaries by taking pair from both given\n dictionaries. Dublicated keys are \u003cem\u003enot\u003c/em\u003e filtered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.BDict",
           "name": "union",
           "package": "bencoding",
@@ -366,6 +395,7 @@
         "index": {
           "description": "Merge two dictionaries by taking pair from both given dictionaries Dublicated keys are not filtered",
           "hierarchy": "Data BEncode BDict",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.BDict",
           "name": "union",
           "normalized": "BDictMap a-\u003eBDictMap a-\u003eBDictMap a",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides bencode values serialization. Normally, you\n   don't need to import this module, use \u003ccode\u003e\u003ca\u003eBEncode\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Internal",
           "name": "Internal",
           "package": "bencoding",
@@ -390,6 +421,7 @@
         "index": {
           "description": "This module provides bencode values serialization Normally you don need to import this module use BEncode instead",
           "hierarchy": "Data BEncode Internal",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Internal",
           "name": "Internal",
           "package": "bencoding",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert bencoded value to raw bytestring according to the\n specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Internal",
           "name": "build",
           "package": "bencoding",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Convert bencoded value to raw bytestring according to the specification",
           "hierarchy": "Data BEncode Internal",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Internal",
           "name": "build",
           "normalized": "BValue-\u003eLazy.ByteString",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBEncode format encoder according to specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Internal",
           "name": "builder",
           "package": "bencoding",
@@ -439,6 +474,7 @@
         "index": {
           "description": "BEncode format encoder according to specification",
           "hierarchy": "Data BEncode Internal",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Internal",
           "name": "builder",
           "normalized": "BValue-\u003eB.Builder",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to convert raw bytestring to bencoded value according to\n specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Internal",
           "name": "parse",
           "package": "bencoding",
@@ -464,6 +501,7 @@
         "index": {
           "description": "Try to convert raw bytestring to bencoded value according to specification",
           "hierarchy": "Data BEncode Internal",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Internal",
           "name": "parse",
           "normalized": "B.ByteString-\u003eEither String BValue",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBEncode format parser according to specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Internal",
           "name": "parser",
           "package": "bencoding",
@@ -489,6 +528,7 @@
         "index": {
           "description": "BEncode format parser according to specification",
           "hierarchy": "Data BEncode Internal",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Internal",
           "name": "parser",
           "package": "bencoding",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to easily readable JSON-like document. Typically used for\n debugging purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Internal",
           "name": "ppBEncode",
           "package": "bencoding",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Convert to easily readable JSON-like document Typically used for debugging purposes",
           "hierarchy": "Data BEncode Internal",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Internal",
           "name": "ppBEncode",
           "normalized": "BValue-\u003eDoc",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for working with bencode data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Types",
           "name": "Types",
           "package": "bencoding",
@@ -537,6 +580,7 @@
         "index": {
           "description": "Types for working with bencode data",
           "hierarchy": "Data BEncode Types",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Types",
           "name": "Types",
           "package": "bencoding",
@@ -551,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bencode dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Types",
           "name": "BDict",
           "package": "bencoding",
@@ -560,6 +605,7 @@
         "index": {
           "description": "bencode dictionary",
           "hierarchy": "Data BEncode Types",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Types",
           "name": "BDict",
           "package": "bencoding",
@@ -574,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bencode \u003ca\u003einteger\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Types",
           "name": "BInteger",
           "package": "bencoding",
@@ -583,6 +630,7 @@
         "index": {
           "description": "bencode integer",
           "hierarchy": "Data BEncode Types",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Types",
           "name": "BInteger",
           "package": "bencoding",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plain bencode list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Types",
           "name": "BList",
           "package": "bencoding",
@@ -606,6 +655,7 @@
         "index": {
           "description": "plain bencode list",
           "hierarchy": "Data BEncode Types",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Types",
           "name": "BList",
           "package": "bencoding",
@@ -620,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA raw bencode string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Types",
           "name": "BString",
           "package": "bencoding",
@@ -629,6 +680,7 @@
         "index": {
           "description": "raw bencode string",
           "hierarchy": "Data BEncode Types",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Types",
           "name": "BString",
           "package": "bencoding",
@@ -643,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBValue\u003c/a\u003e\u003c/code\u003e is straightforward ADT for b-encoded values. Please\n note that since dictionaries are sorted, in most cases we can\n compare BEncoded values without serialization and vice versa.\n Lists is not required to be sorted through.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Types",
           "name": "BValue",
           "package": "bencoding",
@@ -652,6 +705,7 @@
         "index": {
           "description": "BValue is straightforward ADT for b-encoded values Please note that since dictionaries are sorted in most cases we can compare BEncoded values without serialization and vice versa Lists is not required to be sorted through",
           "hierarchy": "Data BEncode Types",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Types",
           "name": "BValue",
           "package": "bencoding",
@@ -766,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if bencoded value is a dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Types",
           "name": "isDict",
           "package": "bencoding",
@@ -776,6 +831,7 @@
         "index": {
           "description": "Test if bencoded value is dictionary",
           "hierarchy": "Data BEncode Types",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Types",
           "name": "isDict",
           "normalized": "BValue-\u003eBool",
@@ -792,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if bencoded value is an integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Types",
           "name": "isInteger",
           "package": "bencoding",
@@ -802,6 +859,7 @@
         "index": {
           "description": "Test if bencoded value is an integer",
           "hierarchy": "Data BEncode Types",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Types",
           "name": "isInteger",
           "normalized": "BValue-\u003eBool",
@@ -818,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if bencoded value is a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Types",
           "name": "isList",
           "package": "bencoding",
@@ -828,6 +887,7 @@
         "index": {
           "description": "Test if bencoded value is list",
           "hierarchy": "Data BEncode Types",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Types",
           "name": "isList",
           "normalized": "BValue-\u003eBool",
@@ -844,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if bencoded value is a string, both raw and utf8 encoded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode.Types",
           "name": "isString",
           "package": "bencoding",
@@ -854,6 +915,7 @@
         "index": {
           "description": "Test if bencoded value is string both raw and utf8 encoded",
           "hierarchy": "Data BEncode Types",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode.Types",
           "name": "isString",
           "normalized": "BValue-\u003eBool",
@@ -870,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides convinient and fast way to serialize,\n   deserealize and construct/destructure Bencoded values with\n   optional fields.\n\u003c/p\u003e\u003cp\u003eIt supports four different types of values:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e byte strings &#8212; represented as \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e;\n\u003c/li\u003e\u003cli\u003e integers     &#8212; represented as \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e;\n\u003c/li\u003e\u003cli\u003e lists        - represented as ordinary lists;\n\u003c/li\u003e\u003cli\u003e dictionaries &#8212; represented as \u003ccode\u003e\u003ca\u003eBDictMap\u003c/a\u003e\u003c/code\u003e;\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTo serialize any other types we need to make conversion.  To\n    make conversion more convenient there is type class for it:\n    \u003ccode\u003e\u003ca\u003eBEncode\u003c/a\u003e\u003c/code\u003e. Any textual strings are considered as UTF8 encoded\n    \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe complete Augmented BNF syntax for bencoding format is:\n\u003c/p\u003e\u003cpre\u003e \u003cBE\u003e    ::= \u003cDICT\u003e | \u003cLIST\u003e | \u003cINT\u003e | \u003cSTR\u003e\n\n \u003cDICT\u003e  ::= \"d\" 1 * (\u003cSTR\u003e \u003cBE\u003e) \"e\"\n \u003cLIST\u003e  ::= \"l\" 1 * \u003cBE\u003e         \"e\"\n \u003cINT\u003e   ::= \"i\"     \u003cSNUM\u003e       \"e\"\n \u003cSTR\u003e   ::= \u003cNUM\u003e \":\" n * \u003cCHAR\u003e; where n equals the \u003cNUM\u003e\n\n \u003cSNUM\u003e  ::= \"-\" \u003cNUM\u003e / \u003cNUM\u003e\n \u003cNUM\u003e   ::= 1 * \u003cDIGIT\u003e\n \u003cCHAR\u003e  ::= %\n \u003cDIGIT\u003e ::= \"0\" | \"1\" | \"2\" | \"3\" | \"4\" | \"5\" | \"6\" | \"7\" | \"8\" | \"9\"\n\u003c/pre\u003e\u003cp\u003eThis module is considered to be imported qualified, for example:\n\u003c/p\u003e\u003cpre\u003e import Data.BEncode as BE\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "BEncode",
           "package": "bencoding",
@@ -879,6 +942,7 @@
         "index": {
           "description": "This module provides convinient and fast way to serialize deserealize and construct destructure Bencoded values with optional fields It supports four different types of values byte strings represented as ByteString integers represented as Integer lists represented as ordinary lists dictionaries represented as BDictMap To serialize any other types we need to make conversion To make conversion more convenient there is type class for it BEncode Any textual strings are considered as UTF8 encoded Text The complete Augmented BNF syntax for bencoding format is BE DICT LIST INT STR DICT STR BE LIST BE INT SNUM STR NUM CHAR where equals the NUM SNUM NUM NUM NUM DIGIT CHAR DIGIT This module is considered to be imported qualified for example import Data.BEncode as BE",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "BEncode",
           "package": "bencoding",
@@ -893,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eAssoc\u003c/em\u003e used to easily build dictionaries with required and\n optional keys. Suppose we have we following datatype we want to\n serialize:\n\u003c/p\u003e\u003cpre\u003e\n   data FileInfo = FileInfo\n     { fileLength :: Integer\n     , fileMD5sum :: Maybe ByteString\n     , filePath   :: [ByteString]\n     , fileTags   :: Maybe [Text]\n     } deriving (Show, Read, Eq)\n\u003c/pre\u003e\u003cp\u003eWe need to make \u003ccode\u003einstance \u003ccode\u003e\u003ca\u003eBEncode\u003c/a\u003e\u003c/code\u003e FileInfo\u003c/code\u003e, though we don't want\n to check the both \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003es manually. The more declarative and\n convenient way to define the \u003ccode\u003e\u003ca\u003etoBEncode\u003c/a\u003e\u003c/code\u003e method is to use\n dictionary builders:\n\u003c/p\u003e\u003cpre\u003e\n   instance \u003ccode\u003e\u003ca\u003eBEncode\u003c/a\u003e\u003c/code\u003e FileInfo where\n     \u003ccode\u003e\u003ca\u003etoBEncode\u003c/a\u003e\u003c/code\u003e FileInfo {..} = \u003ccode\u003e\u003ca\u003etoDict\u003c/a\u003e\u003c/code\u003e $\n          \"length\" \u003ccode\u003e\u003ca\u003e.=!\u003c/a\u003e\u003c/code\u003e fileLength\n       \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e \"md5sum\" \u003ccode\u003e\u003ca\u003e.=?\u003c/a\u003e\u003c/code\u003e fileMD5sum\n       \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e \"path\"   \u003ccode\u003e\u003ca\u003e.=!\u003c/a\u003e\u003c/code\u003e filePath\n       \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e \"tags\"   \u003ccode\u003e\u003ca\u003e.=?\u003c/a\u003e\u003c/code\u003e fileTags\n       \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eendDict\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eNOTE: the list of pairs MUST be sorted lexicographically by keys,\n  like so:\n\u003c/p\u003e\u003cp\u003e\"length\" \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e \"md5sum\" \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e \"path\" \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e \"tags\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "Assoc",
           "package": "bencoding",
@@ -902,6 +967,7 @@
         "index": {
           "description": "Assoc used to easily build dictionaries with required and optional keys Suppose we have we following datatype we want to serialize data FileInfo FileInfo fileLength Integer fileMD5sum Maybe ByteString filePath ByteString fileTags Maybe Text deriving Show Read Eq We need to make instance BEncode FileInfo though we don want to check the both Maybe manually The more declarative and convenient way to define the toBEncode method is to use dictionary builders instance BEncode FileInfo where toBEncode FileInfo toDict length fileLength md5sum fileMD5sum path filePath tags fileTags endDict NOTE the list of pairs MUST be sorted lexicographically by keys like so length md5sum path tags",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "Assoc",
           "package": "bencoding",
@@ -916,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is used to define new datatypes that could be easily\n serialized using bencode format.\n\u003c/p\u003e\u003cp\u003eBy default \u003ccode\u003e\u003ca\u003eBEncode\u003c/a\u003e\u003c/code\u003e have a generic implementation; suppose\n   the following datatype:\n\u003c/p\u003e\u003cpre\u003e data List a = C { _head  :: a\n                 , __tail :: List a }\n             | N\n               deriving Generic\n\u003c/pre\u003e\u003cp\u003eIf we don't need to obey any particular specification or\n   standard, the default instance could be derived automatically\n   from the \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e instance:\n\u003c/p\u003e\u003cpre\u003e instance BEncode a =\u003e BEncode (List a)\n\u003c/pre\u003e\u003cp\u003eExample of derived \u003ccode\u003e\u003ca\u003etoBEncode\u003c/a\u003e\u003c/code\u003e result:\n\u003c/p\u003e\u003cpre\u003e \u003e toBEncode (C 123 $ C 1 N)\n BDict (fromList [(\"head\",BInteger 123),(\"tail\",BList [])])\n\u003c/pre\u003e\u003cp\u003eNote that prefixed underscore characters are omitted since they\n  are usually used for lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "BEncode",
           "package": "bencoding",
@@ -925,6 +992,7 @@
         "index": {
           "description": "This class is used to define new datatypes that could be easily serialized using bencode format By default BEncode have generic implementation suppose the following datatype data List head tail List deriving Generic If we don need to obey any particular specification or standard the default instance could be derived automatically from the Generic instance instance BEncode BEncode List Example of derived toBEncode result toBEncode BDict fromList head BInteger tail BList Note that prefixed underscore characters are omitted since they are usually used for lens",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "BEncode",
           "package": "bencoding",
@@ -939,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBValue\u003c/a\u003e\u003c/code\u003e is straightforward ADT for b-encoded values. Please\n note that since dictionaries are sorted, in most cases we can\n compare BEncoded values without serialization and vice versa.\n Lists is not required to be sorted through.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "BValue",
           "package": "bencoding",
@@ -948,6 +1017,7 @@
         "index": {
           "description": "BValue is straightforward ADT for b-encoded values Please note that since dictionaries are sorted in most cases we can compare BEncoded values without serialization and vice versa Lists is not required to be sorted through",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "BValue",
           "package": "bencoding",
@@ -962,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDictionary extractor are similar to dictionary builders, but play\n the opposite role: they are used to define \u003ccode\u003e\u003ca\u003efromBEncode\u003c/a\u003e\u003c/code\u003e method in\n declarative style. Using the same \u003cem\u003eFileInfo\u003c/em\u003e datatype the\n \u003ccode\u003e\u003ca\u003efromBEncode\u003c/a\u003e\u003c/code\u003e function instance looks like:\n\u003c/p\u003e\u003cpre\u003e\n   instance \u003ccode\u003e\u003ca\u003eBEncode\u003c/a\u003e\u003c/code\u003e FileInfo where\n     \u003ccode\u003e\u003ca\u003efromBEncode\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003efromDict\u003c/a\u003e\u003c/code\u003e $ do\n       FileInfo \u003ccode\u003e\u003ca\u003e\u003c$\u003e!\u003c/a\u003e\u003c/code\u003e \"length\"\n                \u003ccode\u003e\u003ca\u003e\u003c*\u003e?\u003c/a\u003e\u003c/code\u003e \"md5sum\"\n                \u003ccode\u003e\u003ca\u003e\u003c*\u003e!\u003c/a\u003e\u003c/code\u003e \"path\"\n                \u003ccode\u003e\u003ca\u003e\u003c*\u003e?\u003c/a\u003e\u003c/code\u003e \"tags\"\n\u003c/pre\u003e\u003cp\u003eThe \u003cem\u003ereqKey\u003c/em\u003e is used to extract required key &#8212; if lookup is failed\n  then whole destructuring fail.\n\u003c/p\u003e\u003cp\u003eNOTE: the actions MUST be sorted lexicographically by keys, like so:\n\u003c/p\u003e\u003cp\u003e\"length\" \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e \"md5sum\" \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e \"path\" \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e \"tags\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "Get",
           "package": "bencoding",
@@ -971,6 +1042,7 @@
         "index": {
           "description": "Dictionary extractor are similar to dictionary builders but play the opposite role they are used to define fromBEncode method in declarative style Using the same FileInfo datatype the fromBEncode function instance looks like instance BEncode FileInfo where fromBEncode fromDict do FileInfo length md5sum path tags The reqKey is used to extract required key if lookup is failed then whole destructuring fail NOTE the actions MUST be sorted lexicographically by keys like so length md5sum path tags",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "Get",
           "package": "bencoding",
@@ -985,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult used in decoding operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "Result",
           "package": "bencoding",
@@ -994,6 +1067,7 @@
         "index": {
           "description": "Result used in decoding operations",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "Result",
           "package": "bencoding",
@@ -1008,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for: \u003ccode\u003ef \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ereq\u003c/a\u003e\u003c/code\u003e k)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "(\u003c$\u003e!)",
           "package": "bencoding",
@@ -1018,6 +1093,7 @@
         "index": {
           "description": "Shorthand for field req",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "(\u003c$\u003e!) \u003c$\u003e!",
           "normalized": "(a-\u003eb)-\u003eBKey-\u003eGet b",
@@ -1033,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for: \u003ccode\u003ef \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptional\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ereq\u003c/a\u003e\u003c/code\u003e k))\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "(\u003c$\u003e?)",
           "package": "bencoding",
@@ -1043,6 +1120,7 @@
         "index": {
           "description": "Shorthand for optional field req",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "(\u003c$\u003e?) \u003c$\u003e?",
           "normalized": "(Maybe a-\u003eb)-\u003eBKey-\u003eGet b",
@@ -1058,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for: \u003ccode\u003ef \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ereq\u003c/a\u003e\u003c/code\u003e k)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "(\u003c*\u003e!)",
           "package": "bencoding",
@@ -1068,6 +1147,7 @@
         "index": {
           "description": "Shorthand for field req",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "(\u003c*\u003e!) \u003c*\u003e!",
           "normalized": "Get(a-\u003eb)-\u003eBKey-\u003eGet b",
@@ -1083,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for: \u003ccode\u003ef \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eoptional\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ereq\u003c/a\u003e\u003c/code\u003e k))\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "(\u003c*\u003e?)",
           "package": "bencoding",
@@ -1093,6 +1174,7 @@
         "index": {
           "description": "Shorthand for optional field req",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "(\u003c*\u003e?) \u003c*\u003e?",
           "normalized": "Get(Maybe a-\u003eb)-\u003eBKey-\u003eGet b",
@@ -1108,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake required key value pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "(.=!)",
           "package": "bencoding",
@@ -1118,6 +1201,7 @@
         "index": {
           "description": "Make required key value pair",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "(.=!) .=!",
           "normalized": "BKey-\u003ea-\u003eAssoc",
@@ -1133,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the (\u003ccode\u003e\u003ca\u003e.=!\u003c/a\u003e\u003c/code\u003e) operator but if the value is not present then\n the key do not appear in resulting bencode dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "(.=?)",
           "package": "bencoding",
@@ -1143,6 +1228,7 @@
         "index": {
           "description": "Like the operator but if the value is not present then the key do not appear in resulting bencode dictionary",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "(.=?) .=?",
           "normalized": "BKey-\u003eMaybe a-\u003eAssoc",
@@ -1158,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCons a key/value pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "(.:)",
           "package": "bencoding",
@@ -1168,6 +1255,7 @@
         "index": {
           "description": "Cons key value pair",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "(.:) .:",
           "normalized": "Assoc-\u003eBDict-\u003eBDict",
@@ -1183,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a value from a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e using bencode format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "decode",
           "package": "bencoding",
@@ -1193,6 +1282,7 @@
         "index": {
           "description": "Decode value from strict ByteString using bencode format",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "decode",
           "normalized": "ByteString-\u003eResult a",
@@ -1208,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypically used to throw an decoding error in fromBEncode; when\n BEncode value to match expected value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "decodingError",
           "package": "bencoding",
@@ -1218,6 +1309,7 @@
         "index": {
           "description": "Typically used to throw an decoding error in fromBEncode when BEncode value to match expected value",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "decodingError",
           "normalized": "String-\u003eResult a",
@@ -1234,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a value using bencode format to a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "encode",
           "package": "bencoding",
@@ -1244,6 +1337,7 @@
         "index": {
           "description": "Encode value using bencode format to lazy ByteString",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "encode",
           "normalized": "a-\u003eLazy.ByteString",
@@ -1259,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to specify end of dictionary. See \u003ccode\u003e\u003ca\u003eAssoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "endDict",
           "package": "bencoding",
@@ -1269,6 +1364,7 @@
         "index": {
           "description": "Used to specify end of dictionary See Assoc",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "endDict",
           "package": "bencoding",
@@ -1283,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReconstruct a bencodable value from bencode value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "field",
           "package": "bencoding",
@@ -1293,6 +1390,7 @@
         "index": {
           "description": "Reconstruct bencodable value from bencode value",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "field",
           "normalized": "Get BValue-\u003eGet a",
@@ -1308,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee an example of implementation here \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "fromBEncode",
           "package": "bencoding",
@@ -1318,6 +1417,7 @@
         "index": {
           "description": "See an example of implementation here Get",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "fromBEncode",
           "normalized": "BValue-\u003eResult a",
@@ -1334,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e monad. See \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e for usage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "fromDict",
           "package": "bencoding",
@@ -1344,6 +1445,7 @@
         "index": {
           "description": "Run Get monad See Get for usage",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "fromDict",
           "normalized": "Get a-\u003eBValue-\u003eResult a",
@@ -1360,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun action, but return without consuming and key/value pair.\n Fails if the action fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "lookAhead",
           "package": "bencoding",
@@ -1370,6 +1473,7 @@
         "index": {
           "description": "Run action but return without consuming and key value pair Fails if the action fails",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "lookAhead",
           "normalized": "Get a-\u003eGet a",
@@ -1386,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch key with value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "match",
           "package": "bencoding",
@@ -1396,6 +1501,7 @@
         "index": {
           "description": "Match key with value",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "match",
           "normalized": "BKey-\u003eBValue-\u003eGet()",
@@ -1411,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet lexicographical successor of the current key/value pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "next",
           "package": "bencoding",
@@ -1421,6 +1528,7 @@
         "index": {
           "description": "Get lexicographical successor of the current key value pair",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "next",
           "package": "bencoding",
@@ -1434,6 +1542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract optional value from the given key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "opt",
           "package": "bencoding",
@@ -1444,6 +1553,7 @@
         "index": {
           "description": "Extract optional value from the given key",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "opt",
           "normalized": "BKey-\u003eGet(Maybe BValue)",
@@ -1459,6 +1569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract \u003cem\u003erequired\u003c/em\u003e value from the given key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "req",
           "package": "bencoding",
@@ -1469,6 +1580,7 @@
         "index": {
           "description": "Extract required value from the given key",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "req",
           "normalized": "BKey-\u003eGet BValue",
@@ -1484,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee an example of implementation here \u003ccode\u003e\u003ca\u003eAssoc\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "toBEncode",
           "package": "bencoding",
@@ -1494,6 +1607,7 @@
         "index": {
           "description": "See an example of implementation here Assoc",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "toBEncode",
           "normalized": "a-\u003eBValue",
@@ -1510,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a bencode value from dictionary description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:49 UTC 2014",
           "module": "Data.BEncode",
           "name": "toDict",
           "package": "bencoding",
@@ -1520,6 +1635,7 @@
         "index": {
           "description": "Make bencode value from dictionary description",
           "hierarchy": "Data BEncode",
+          "indexed": "2014-03-11T17:17:49",
           "module": "Data.BEncode",
           "name": "toDict",
           "normalized": "BDict-\u003eBValue",

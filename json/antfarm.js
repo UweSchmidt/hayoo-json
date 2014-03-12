@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "antfarm"
+        "phrase": "antfarm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCardinality constraints\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Cardinality",
           "name": "Cardinality",
           "package": "antfarm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Cardinality constraints",
           "hierarchy": "NLP Antfarm Cardinality",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Cardinality",
           "name": "Cardinality",
           "package": "antfarm",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Cardinality",
           "name": "Constraint",
           "package": "antfarm",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Cardinality",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Cardinality",
           "name": "Constraint",
           "package": "antfarm",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Cardinality",
           "name": "AtLeast",
           "package": "antfarm",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Cardinality",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Cardinality",
           "name": "AtLeast",
           "package": "antfarm",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Cardinality",
           "name": "AtMost",
           "package": "antfarm",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Cardinality",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Cardinality",
           "name": "AtMost",
           "package": "antfarm",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Cardinality",
           "name": "Exactly",
           "package": "antfarm",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Cardinality",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Cardinality",
           "name": "Exactly",
           "package": "antfarm",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Cardinality",
           "name": "Unknown",
           "package": "antfarm",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Cardinality",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Cardinality",
           "name": "Unknown",
           "package": "antfarm",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Cardinality",
           "name": "lowerBound",
           "package": "antfarm",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Cardinality",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Cardinality",
           "name": "lowerBound",
           "normalized": "Constraint-\u003eMaybe Int",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Cardinality",
           "name": "unknown",
           "package": "antfarm",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Cardinality",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Cardinality",
           "name": "unknown",
           "normalized": "Constraint-\u003eMaybe Text",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Cardinality",
           "name": "upperBound",
           "package": "antfarm",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Cardinality",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Cardinality",
           "name": "upperBound",
           "normalized": "Constraint-\u003eMaybe Int",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHelper functions for the antfarm demonstrator.  You probably don't want to\n import this module unless you're doing something amusing like making a web\n app out of the antfarm demonstrator.  But it could be useful to look at the\n source if you're making something using antfarm\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "Demo",
           "package": "antfarm",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Helper functions for the antfarm demonstrator You probably don want to import this module unless you re doing something amusing like making web app out of the antfarm demonstrator But it could be useful to look at the source if you re making something using antfarm",
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "Demo",
           "package": "antfarm",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "Constr",
           "package": "antfarm",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "Constr",
           "package": "antfarm",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "DemoElem",
           "package": "antfarm",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "DemoElem",
           "package": "antfarm",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "Pretty",
           "package": "antfarm",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "Pretty",
           "package": "antfarm",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "RefState",
           "package": "antfarm",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "RefState",
           "package": "antfarm",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "RefStateT",
           "package": "antfarm",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "RefStateT",
           "package": "antfarm",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "ClassWide",
           "package": "antfarm",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "ClassWide",
           "package": "antfarm",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "Constr",
           "package": "antfarm",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "Constr",
           "package": "antfarm",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "DemoElem",
           "package": "antfarm",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "DemoElem",
           "package": "antfarm",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "Inst",
           "package": "antfarm",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "Inst",
           "package": "antfarm",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "buckets",
           "package": "antfarm",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "buckets",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[(b,[a])]",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "dClass",
           "package": "antfarm",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "dClass",
           "package": "antfarm",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "dConstr",
           "package": "antfarm",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "dConstr",
           "package": "antfarm",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "decode",
           "package": "antfarm",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "decode",
           "normalized": "String-\u003eEither ParseError[[DiscourseUnit]]",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "decodeRx",
           "package": "antfarm",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "decodeRx",
           "normalized": "String-\u003eEither ParseError[DiscourseUnit]",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "fromDemoElem",
           "package": "antfarm",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "fromDemoElem",
           "normalized": "DemoElem-\u003eRefGroup",
@@ -576,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegroup constraints and examples so that like are with like\n\u003c/p\u003e\u003cpre\u003e a1 b3 a4\n   ==\u003e [a1 a4] [b3]\n a1 b3 a4 (x \u003c= 3) b6\n   ==\u003e [a1 a4]([x \u003c= 3]) [b3 b6]\n a1 b3 a4 (x \u003c= 3) b6 (y \u003e= 8) a \u003c= 1 (x \u003e= 8)\n   ==\u003e [a1 a4]([x \u003c= 3 \u003e= 8]) [b3 b6]([y\u003e=8])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "fromDemoForest",
           "package": "antfarm",
@@ -586,6 +637,7 @@
         "index": {
           "description": "Regroup constraints and examples so that like are with like a1 b3 a4 a1 a4 b3 a1 b3 a4 b6 a1 a4 b3 b6 a1 b3 a4 b6 a1 a4 b3 b6",
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "fromDemoForest",
           "normalized": "[Tree DemoElem]-\u003e[DiscourseUnit]",
@@ -601,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "intercalateRx",
           "package": "antfarm",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "intercalateRx",
           "normalized": "[Text]-\u003eText",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "isClassWide",
           "package": "antfarm",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "isClassWide",
           "normalized": "Text-\u003eBool",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "itemToClass",
           "package": "antfarm",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "itemToClass",
           "normalized": "Text-\u003eText",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "lexMap",
           "package": "antfarm",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "lexMap",
           "normalized": "[(Text,Text)]",
@@ -697,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "mergeGroups",
           "package": "antfarm",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "mergeGroups",
           "normalized": "[RefGroup]-\u003eRefGroup",
@@ -721,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "nextRx",
           "package": "antfarm",
@@ -730,6 +793,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "nextRx",
           "normalized": "[DiscourseUnit]-\u003eRefStateT a Text",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "onSubTrees",
           "package": "antfarm",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "onSubTrees",
           "normalized": "(Tree a-\u003eb)-\u003eTree a-\u003eTree b",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "onWords",
           "package": "antfarm",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "onWords",
           "normalized": "(Text-\u003eMaybe Text)-\u003eText-\u003eText",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "opTable",
           "package": "antfarm",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "opTable",
           "normalized": "[(Int-\u003eConstraint,[Text])]",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "pConstr",
           "package": "antfarm",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "pConstr",
           "package": "antfarm",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "pDemoElem",
           "package": "antfarm",
@@ -848,6 +921,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "pDemoElem",
           "package": "antfarm",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "pDemoElemForest",
           "package": "antfarm",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "pDemoElemForest",
           "normalized": "Parser[Tree DemoElem]",
@@ -885,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "pDemoElemTree",
           "package": "antfarm",
@@ -894,6 +971,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "pDemoElemTree",
           "package": "antfarm",
@@ -907,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "pFilled",
           "package": "antfarm",
@@ -916,6 +995,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "pFilled",
           "normalized": "Parser a-\u003eParser a",
@@ -931,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "pLexeme",
           "package": "antfarm",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "pLexeme",
           "package": "antfarm",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "pNatural",
           "package": "antfarm",
@@ -962,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "pNatural",
           "package": "antfarm",
@@ -975,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "pOp",
           "package": "antfarm",
@@ -984,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "pOp",
           "package": "antfarm",
@@ -997,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "pSentence",
           "package": "antfarm",
@@ -1006,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "pSentence",
           "normalized": "Parser[[Tree DemoElem]]",
@@ -1021,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "parens",
           "package": "antfarm",
@@ -1030,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "parens",
           "normalized": "Text-\u003eText",
@@ -1044,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "pretty",
           "package": "antfarm",
@@ -1053,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "pretty",
           "normalized": "a-\u003eText",
@@ -1067,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "prettyForest",
           "package": "antfarm",
@@ -1076,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "prettyForest",
           "normalized": "[Tree a]-\u003eText",
@@ -1091,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "prettyTree",
           "package": "antfarm",
@@ -1100,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "prettyTree",
           "normalized": "Tree a-\u003eText",
@@ -1115,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "squares",
           "package": "antfarm",
@@ -1124,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "squares",
           "normalized": "Text-\u003eText",
@@ -1138,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "stripNonClassStuff",
           "package": "antfarm",
@@ -1147,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "stripNonClassStuff",
           "normalized": "Text-\u003eText",
@@ -1162,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Demo",
           "name": "toSubRxInput",
           "package": "antfarm",
@@ -1171,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Demo",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Demo",
           "name": "toSubRxInput",
           "normalized": "DiscourseUnit-\u003eTree SubRxInput",
@@ -1187,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to realise antfarm output in English.\n\u003c/p\u003e\u003cp\u003eWe're not under any illusions that antfarm will work well for\n languages other than English, but it could still be useful to\n try anyway.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.English",
           "name": "English",
           "package": "antfarm",
@@ -1196,6 +1299,7 @@
         "index": {
           "description": "Functions to realise antfarm output in English We re not under any illusions that antfarm will work well for languages other than English but it could still be useful to try anyway",
           "hierarchy": "NLP Antfarm English",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.English",
           "name": "English",
           "package": "antfarm",
@@ -1209,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.English",
           "name": "englishDiscriminator",
           "package": "antfarm",
@@ -1217,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm English",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.English",
           "name": "englishDiscriminator",
           "normalized": "SingPlu[Text]-\u003eDiscriminator-\u003e[Text]",
@@ -1287,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiscourse history tracking\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "History",
           "package": "antfarm",
@@ -1296,6 +1403,7 @@
         "index": {
           "description": "Discourse history tracking",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "History",
           "package": "antfarm",
@@ -1309,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "RefCount",
           "package": "antfarm",
@@ -1317,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "RefCount",
           "package": "antfarm",
@@ -1330,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "RefHistory",
           "package": "antfarm",
@@ -1338,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "RefHistory",
           "package": "antfarm",
@@ -1402,6 +1514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edistractorGroups st k\u003c/code\u003e returns all the distractor groups for \u003ccode\u003ek\u003c/code\u003e\n   in the discourse history.\n\u003c/p\u003e\u003cp\u003eA distractor is defined (here) as something that has the the same class\n   as \u003ccode\u003ek\u003c/code\u003e but a different index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "distractorGroups",
           "package": "antfarm",
@@ -1412,6 +1525,7 @@
         "index": {
           "description": "distractorGroups st returns all the distractor groups for in the discourse history distractor is defined here as something that has the the same class as but different index",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "distractorGroups",
           "normalized": "RefHistory-\u003eRefKey-\u003e[DiscourseUnit]",
@@ -1428,6 +1542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndividuals mentioned in a discourse unit\n   (see \u003ccode\u003e\u003ca\u003erefSingleton\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "duSingletons",
           "package": "antfarm",
@@ -1438,6 +1553,7 @@
         "index": {
           "description": "Individuals mentioned in discourse unit see refSingleton",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "duSingletons",
           "normalized": "DiscourseUnit-\u003e[RefKey]",
@@ -1478,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "fst3",
           "package": "antfarm",
@@ -1487,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -1502,6 +1620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehasDistractorGroup st k\u003c/code\u003e returns whether or not the discourse history\n   \u003ccode\u003est\u003c/code\u003e contains a group with distractors to \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003edistractorGroups\u003c/a\u003e\u003c/code\u003e for more details\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "hasDistractorGroup",
           "package": "antfarm",
@@ -1512,6 +1631,7 @@
         "index": {
           "description": "hasDistractorGroup st returns whether or not the discourse history st contains group with distractors to See distractorGroups for more details",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "hasDistractorGroup",
           "normalized": "RefHistory-\u003eRefKey-\u003eBool",
@@ -1528,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehasSupersetMention st g\u003c/code\u003e returns whether or not the discourse history\n   contains a group that includes all members of \u003ccode\u003eg\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eNote that if a group has already occured in the discourse history, this\n   returns a True (ie. not a strict superset)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "hasSupersetMention",
           "package": "antfarm",
@@ -1538,6 +1659,7 @@
         "index": {
           "description": "hasSupersetMention st returns whether or not the discourse history contains group that includes all members of Note that if group has already occured in the discourse history this returns True ie not strict superset",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "hasSupersetMention",
           "normalized": "RefHistory-\u003eDiscourseUnit-\u003eBool",
@@ -1554,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a subset of a previously mentioned group \u003ccode\u003eg\u003c/code\u003e where there are no\n distractors to \u003ccode\u003eg\u003c/code\u003e in the discourse history\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "hasTidyBackpointer",
           "package": "antfarm",
@@ -1564,6 +1687,7 @@
         "index": {
           "description": "Is subset of previously mentioned group where there are no distractors to in the discourse history",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "hasTidyBackpointer",
           "normalized": "RefHistory-\u003eDiscourseUnit-\u003eBool",
@@ -1580,6 +1704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the class itself, not any individual entity within that class\n   ie. &#8220;ants&#8221; instead of &#8220;an ant&#8221; or &#8220;some ants&#8221;\n\u003c/p\u003e\u003cp\u003eBy convention, any group which containts no indices or constraints\n   is considered to be classwide.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "isClasswide",
           "package": "antfarm",
@@ -1590,6 +1715,7 @@
         "index": {
           "description": "Is the class itself not any individual entity within that class ie ants instead of an ant or some ants By convention any group which containts no indices or constraints is considered to be classwide",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "isClasswide",
           "normalized": "RefGroup-\u003eBool",
@@ -1606,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eRefGroup\u003c/a\u003e\u003c/code\u003e is considered to refer exactly to its indices if it\n   has no bounds information or examples associated with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "isExact",
           "package": "antfarm",
@@ -1616,6 +1743,7 @@
         "index": {
           "description": "RefGroup is considered to refer exactly to its indices if it has no bounds information or examples associated with it",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "isExact",
           "normalized": "RefGroup-\u003eBool",
@@ -1631,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "isFirstMention",
           "package": "antfarm",
@@ -1640,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "isFirstMention",
           "normalized": "RefHistory-\u003eRefKey-\u003eBool",
@@ -1656,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eisTheOther st k\u003c/code\u003e returns whether or not there is a two-member group in\n   the discourse history which \u003ccode\u003ek\u003c/code\u003e is a member of such that the other\n   member has already been mentioned as a part of a singleton group.\n\u003c/p\u003e\u003cp\u003eThe idea is that if you have said \u003ca\u003eone of the X\u003c/a\u003e, you will want to say\n   \u003ca\u003ethe other X\u003c/a\u003e for the other member of that group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "isTheOther",
           "package": "antfarm",
@@ -1666,6 +1797,7 @@
         "index": {
           "description": "isTheOther st returns whether or not there is two-member group in the discourse history which is member of such that the other member has already been mentioned as part of singleton group The idea is that if you have said one of the you will want to say the other for the other member of that group",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "isTheOther",
           "normalized": "RefHistory-\u003eRefKey-\u003eBool",
@@ -1682,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elastMention st k\u003c/code\u003e returns the number of times \u003ccode\u003ek\u003c/code\u003e has been mentioned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "lastMention",
           "package": "antfarm",
@@ -1692,6 +1825,7 @@
         "index": {
           "description": "lastMention st returns the number of times has been mentioned",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "lastMention",
           "normalized": "RefHistory-\u003eRefKey-\u003eInt",
@@ -1708,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elastMention st g\u003c/code\u003e returns the number of times the group \u003ccode\u003eg\u003c/code\u003e has been\n   mentioned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "lastMentions",
           "package": "antfarm",
@@ -1718,6 +1853,7 @@
         "index": {
           "description": "lastMention st returns the number of times the group has been mentioned",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "lastMentions",
           "normalized": "RefHistory-\u003eDiscourseUnit-\u003eInt",
@@ -1734,6 +1870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf it makes sense to refer to a key using an ordinal expression,\n   the order we should assign it (Nothing if we either can't sensibly\n   assign one, or the history does not give us enough information to\n   do so)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "mentionOrder",
           "package": "antfarm",
@@ -1744,6 +1881,7 @@
         "index": {
           "description": "If it makes sense to refer to key using an ordinal expression the order we should assign it Nothing if we either can sensibly assign one or the history does not give us enough information to do so",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "mentionOrder",
           "normalized": "RefHistory-\u003eRefKey-\u003eMaybe Int",
@@ -1759,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "mkLeaf",
           "package": "antfarm",
@@ -1768,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "mkLeaf",
           "normalized": "a-\u003eTree a",
@@ -1784,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA discourse unit that would refer to just an element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "mkSingletonDu",
           "package": "antfarm",
@@ -1794,6 +1935,7 @@
         "index": {
           "description": "discourse unit that would refer to just an element",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "mkSingletonDu",
           "normalized": "RefKey-\u003eDiscourseUnit",
@@ -1836,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "plusRefCount",
           "package": "antfarm",
@@ -1845,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "plusRefCount",
           "normalized": "RefCount-\u003eRefCount-\u003eRefCount",
@@ -1861,6 +2005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003erefSingleton\u003c/a\u003e\u003c/code\u003e is an instance that appears by itself in a \u003ccode\u003e\u003ca\u003eRefGroup\u003c/a\u003e\u003c/code\u003e\n   without other items or constraints that imply that there could be other\n   items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "refSingleton",
           "package": "antfarm",
@@ -1871,6 +2016,7 @@
         "index": {
           "description": "refSingleton is an instance that appears by itself in RefGroup without other items or constraints that imply that there could be other items",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "refSingleton",
           "normalized": "RefGroup-\u003eMaybe RefKey",
@@ -1938,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "snd3",
           "package": "antfarm",
@@ -1947,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -1962,6 +2110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eflatten\u003c/a\u003e\u003c/code\u003e, but returns whole subtrees instead of\n   just nodes:\n\u003c/p\u003e\u003cpre\u003e a(b c(d e(f g)) h)\n b\n c(d e(f g))\n d\n e(f g)\n f\n g\n h\n\u003c/pre\u003e\u003cp\u003eInvariant: \u003ccode\u003emap rootLabel (subtrees x) == flatten x\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "subtrees",
           "package": "antfarm",
@@ -1972,6 +2121,7 @@
         "index": {
           "description": "Like flatten but returns whole subtrees instead of just nodes Invariant map rootLabel subtrees flatten",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "subtrees",
           "normalized": "Tree a-\u003e[Tree a]",
@@ -1987,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esupersetMentions g st\u003c/code\u003e returns the portion of discourse history \u003ccode\u003est\u003c/code\u003e\n   in which all groups are supersets of \u003ccode\u003eg\u003c/code\u003e (inclusive, not strict super)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "supersetMentions",
           "package": "antfarm",
@@ -1997,6 +2148,7 @@
         "index": {
           "description": "supersetMentions st returns the portion of discourse history st in which all groups are supersets of inclusive not strict super",
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "supersetMentions",
           "normalized": "DiscourseUnit-\u003eRefHistory-\u003eRefHistory",
@@ -2012,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.History",
           "name": "thd3",
           "package": "antfarm",
@@ -2021,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm History",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.History",
           "name": "thd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -2036,6 +2190,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe heart of the referring expression generation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Internal",
           "name": "Internal",
           "package": "antfarm",
@@ -2045,6 +2200,7 @@
         "index": {
           "description": "The heart of the referring expression generation",
           "hierarchy": "NLP Antfarm Internal",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Internal",
           "name": "Internal",
           "package": "antfarm",
@@ -2059,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf there are any unknown constraints, we pick the first one.\n   Otherwise, we generate an expression appropriate for the lower/upper bounds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Internal",
           "name": "boundsText",
           "package": "antfarm",
@@ -2069,6 +2226,7 @@
         "index": {
           "description": "If there are any unknown constraints we pick the first one Otherwise we generate an expression appropriate for the lower upper bounds",
           "hierarchy": "NLP Antfarm Internal",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Internal",
           "name": "boundsText",
           "normalized": "Bounds-\u003eMaybe BoundsExpr",
@@ -2085,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for \u003ccode\u003efromConcept\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eA discriminator is what we call the optional bit of text that helps\n   you distinguish one set instances of a class from another, eg,\n   &#8220;the same&#8221; or &#8220;another three&#8221;, or simply &#8220;the&#8220;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Internal",
           "name": "discriminate",
           "package": "antfarm",
@@ -2094,6 +2253,7 @@
         "index": {
           "description": "Helper for fromConcept discriminator is what we call the optional bit of text that helps you distinguish one set instances of class from another eg the same or another three or simply the",
           "hierarchy": "NLP Antfarm Internal",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Internal",
           "name": "discriminate",
           "normalized": "RefHistory-\u003eDiscourseUnit-\u003eDiscriminator",
@@ -2188,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for \u003ccode\u003efromConcept\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eWhether the noun in a \u003ccode\u003e\u003ca\u003eDiscourseUnit\u003c/a\u003e\u003c/code\u003e should be realised as singular\n   or plural.  Note the difference between this and\n   \u003ccode\u003eactualNumber\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Internal",
           "name": "surfaceNumber",
           "package": "antfarm",
@@ -2198,6 +2359,7 @@
         "index": {
           "description": "Helper for fromConcept Whether the noun in DiscourseUnit should be realised as singular or plural Note the difference between this and actualNumber",
           "hierarchy": "NLP Antfarm Internal",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Internal",
           "name": "surfaceNumber",
           "normalized": "RefHistory-\u003eDiscourseUnit-\u003eNumber",
@@ -2213,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "Refex",
           "package": "antfarm",
@@ -2221,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "Refex",
           "package": "antfarm",
@@ -2234,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "Bounds",
           "package": "antfarm",
@@ -2242,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "Bounds",
           "package": "antfarm",
@@ -2255,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "BoundsExpr",
           "package": "antfarm",
@@ -2263,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "BoundsExpr",
           "package": "antfarm",
@@ -2277,6 +2445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA discourse unit includes all instances and constraints needed\n   to uniquely identify it. (see note discourse tree)\n\u003c/p\u003e\u003cp\u003eIn the current implementation, a referring expression may contain\n   more than one discourse unit.  So in a referring expression &#8220;three cats\n   and at most two dogs (a poodle and a labrador)&#8221;, the &#8220;at most two dogs\n   (a poodle and a labrador)&#8221; and &#8220;three cats&#8221; would each correspond to\n   different \u003ccode\u003e\u003ca\u003eDiscourseUnit\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "DiscourseUnit",
           "package": "antfarm",
@@ -2286,6 +2455,7 @@
         "index": {
           "description": "discourse unit includes all instances and constraints needed to uniquely identify it see note discourse tree In the current implementation referring expression may contain more than one discourse unit So in referring expression three cats and at most two dogs poodle and labrador the at most two dogs poodle and labrador and three cats would each correspond to different DiscourseUnit",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "DiscourseUnit",
           "package": "antfarm",
@@ -2300,6 +2470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomewhat abstract representation of subrx discriminators\n   (but in reality just based on English)\n\u003c/p\u003e\u003cp\u003eA discriminator is what we call the optional bit of text that helps\n   you distinguish one set instances of a class from another, eg,\n   &#8220;the same&#8221; or &#8220;another three&#8221;, or simply &#8220;the&#8220;.  This isn't a\n   technical term as far as I'm aware, just a made-up convenience word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "Discriminator",
           "package": "antfarm",
@@ -2309,6 +2480,7 @@
         "index": {
           "description": "Somewhat abstract representation of subrx discriminators but in reality just based on English discriminator is what we call the optional bit of text that helps you distinguish one set instances of class from another eg the same or another three or simply the This isn technical term as far as aware just made-up convenience word",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "Discriminator",
           "package": "antfarm",
@@ -2323,6 +2495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFuzzy number is a variant on \u003ccode\u003e\u003ca\u003eNumber\u003c/a\u003e\u003c/code\u003e that allows us the option\n   of overriding what would otherwise be singular agreement\n\u003c/p\u003e\u003cp\u003eIf you don't need to, or have no idea why somebody would even want\n   to do such a thing, just \u003ccode\u003e\u003ca\u003edefuzz\u003c/a\u003e\u003c/code\u003e it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "FuzzyNumber",
           "package": "antfarm",
@@ -2332,6 +2505,7 @@
         "index": {
           "description": "Fuzzy number is variant on Number that allows us the option of overriding what would otherwise be singular agreement If you don need to or have no idea why somebody would even want to do such thing just defuzz it",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "FuzzyNumber",
           "package": "antfarm",
@@ -2346,6 +2520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sub-unit in a referring expression, instances of and/or constraints\n   over class.  So in a referring expression &#8220;three cats and at most two\n   dogs&#8221;, the &#8220;at most two dogs&#8221; and &#8220;three cats&#8221; would each be \u003ccode\u003e\u003ca\u003eRefGroup\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "RefGroup",
           "package": "antfarm",
@@ -2355,6 +2530,7 @@
         "index": {
           "description": "sub-unit in referring expression instances of and or constraints over class So in referring expression three cats and at most two dogs the at most two dogs and three cats would each be RefGroup",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "RefGroup",
           "package": "antfarm",
@@ -2369,6 +2545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unique object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "RefKey",
           "package": "antfarm",
@@ -2378,6 +2555,7 @@
         "index": {
           "description": "unique object",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "RefKey",
           "package": "antfarm",
@@ -2392,6 +2570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA referring expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "Rx",
           "package": "antfarm",
@@ -2401,6 +2580,7 @@
         "index": {
           "description": "referring expression",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "Rx",
           "package": "antfarm",
@@ -2415,6 +2595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single referring expression has subunits, each of which\n   potentially having examples\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "RxInput",
           "package": "antfarm",
@@ -2424,6 +2605,7 @@
         "index": {
           "description": "single referring expression has subunits each of which potentially having examples",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "RxInput",
           "package": "antfarm",
@@ -2438,6 +2620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput for a subunit of a referring expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "SubRx",
           "package": "antfarm",
@@ -2447,6 +2630,7 @@
         "index": {
           "description": "Output for subunit of referring expression",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "SubRx",
           "package": "antfarm",
@@ -2461,6 +2645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput needed to realise a subunit of a referring expression\n   A subunit corresponds to \u003ccode\u003e\u003ca\u003eRefGroup\u003c/a\u003e\u003c/code\u003e (but in practice,\n   we need the whole \u003ccode\u003e\u003ca\u003eDiscourseUnit\u003c/a\u003e\u003c/code\u003e, not just the \u003ccode\u003e\u003ca\u003eRefGroup\u003c/a\u003e\u003c/code\u003e\n   root)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "SubRxInput",
           "package": "antfarm",
@@ -2470,6 +2655,7 @@
         "index": {
           "description": "Input needed to realise subunit of referring expression subunit corresponds to RefGroup but in practice we need the whole DiscourseUnit not just the RefGroup root",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "SubRxInput",
           "package": "antfarm",
@@ -2483,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "Another",
           "package": "antfarm",
@@ -2492,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "Another",
           "package": "antfarm",
@@ -2505,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "Bounded",
           "package": "antfarm",
@@ -2514,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "Bounded",
           "package": "antfarm",
@@ -2527,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "Bounds",
           "package": "antfarm",
@@ -2536,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "Bounds",
           "package": "antfarm",
@@ -2549,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "CardinalOfThe",
           "package": "antfarm",
@@ -2558,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "CardinalOfThe",
           "package": "antfarm",
@@ -2571,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "FN_MaybeSingular",
           "package": "antfarm",
@@ -2580,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "FN_MaybeSingular",
           "package": "antfarm",
@@ -2593,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "FN_Plural",
           "package": "antfarm",
@@ -2602,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "FN_Plural",
           "package": "antfarm",
@@ -2615,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "FN_Singular",
           "package": "antfarm",
@@ -2624,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "FN_Singular",
           "package": "antfarm",
@@ -2637,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "NewOrdinal",
           "package": "antfarm",
@@ -2646,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "NewOrdinal",
           "package": "antfarm",
@@ -2659,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "NilDiscriminator",
           "package": "antfarm",
@@ -2668,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "NilDiscriminator",
           "package": "antfarm",
@@ -2681,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "PlainCardinal",
           "package": "antfarm",
@@ -2690,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "PlainCardinal",
           "package": "antfarm",
@@ -2703,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "RefGroup",
           "package": "antfarm",
@@ -2712,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "RefGroup",
           "package": "antfarm",
@@ -2725,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "SayArbitrary",
           "package": "antfarm",
@@ -2734,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "SayArbitrary",
           "package": "antfarm",
@@ -2747,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "SayAtLeast",
           "package": "antfarm",
@@ -2756,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "SayAtLeast",
           "package": "antfarm",
@@ -2769,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "SayAtMost",
           "package": "antfarm",
@@ -2778,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "SayAtMost",
           "package": "antfarm",
@@ -2791,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "SayBetween",
           "package": "antfarm",
@@ -2800,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "SayBetween",
           "package": "antfarm",
@@ -2813,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "SayExactly",
           "package": "antfarm",
@@ -2822,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "SayExactly",
           "package": "antfarm",
@@ -2835,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "SubRx",
           "package": "antfarm",
@@ -2844,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "SubRx",
           "package": "antfarm",
@@ -2857,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "SubRxInput",
           "package": "antfarm",
@@ -2866,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "SubRxInput",
           "package": "antfarm",
@@ -2879,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "The",
           "package": "antfarm",
@@ -2888,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "The",
           "package": "antfarm",
@@ -2901,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "TheOrdinal",
           "package": "antfarm",
@@ -2910,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "TheOrdinal",
           "package": "antfarm",
@@ -2923,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "TheOther",
           "package": "antfarm",
@@ -2932,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "TheOther",
           "package": "antfarm",
@@ -2945,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "TheSame",
           "package": "antfarm",
@@ -2954,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "TheSame",
           "package": "antfarm",
@@ -2968,6 +3198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elower\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "bLower",
           "package": "antfarm",
@@ -2978,6 +3209,7 @@
         "index": {
           "description": "lower",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "bLower",
           "package": "antfarm",
@@ -2991,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "bUnknown",
           "package": "antfarm",
@@ -3000,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "bUnknown",
           "normalized": "[Text]",
@@ -3016,6 +3250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "bUpper",
           "package": "antfarm",
@@ -3026,6 +3261,7 @@
         "index": {
           "description": "upper",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "bUpper",
           "package": "antfarm",
@@ -3040,6 +3276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edefuzz\u003c/code\u003e treats \u003ccode\u003e\u003ca\u003eFN_MaybeSingular\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003eSingular\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "defuzz",
           "package": "antfarm",
@@ -3050,6 +3287,7 @@
         "index": {
           "description": "defuzz treats FN MaybeSingular as Singular",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "defuzz",
           "normalized": "FuzzyNumber-\u003eNumber",
@@ -3064,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "emptyBounds",
           "package": "antfarm",
@@ -3073,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "emptyBounds",
           "package": "antfarm",
@@ -3086,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "explicitBounds",
           "package": "antfarm",
@@ -3095,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "explicitBounds",
           "normalized": "[Constraint]-\u003eBounds",
@@ -3111,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen two \u003ccode\u003e\u003ca\u003eBounds\u003c/a\u003e\u003c/code\u003e are combined the result is narrower: the highest low\n   and the lowest high.\n\u003c/p\u003e\u003cp\u003eThe unknown bounds are not really defined.  We concatenate them, for\n   what it's worth, which is at least sensible when none or only one of\n   them is defined, but not ideal when both are\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "narrow",
           "package": "antfarm",
@@ -3121,6 +3364,7 @@
         "index": {
           "description": "When two Bounds are combined the result is narrower the highest low and the lowest high The unknown bounds are not really defined We concatenate them for what it worth which is at least sensible when none or only one of them is defined but not ideal when both are",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "narrow",
           "normalized": "Bounds-\u003eBounds-\u003eBounds",
@@ -3135,6 +3379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "rgBounds",
           "package": "antfarm",
@@ -3144,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "rgBounds",
           "package": "antfarm",
@@ -3157,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "rgClass",
           "package": "antfarm",
@@ -3166,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "rgClass",
           "package": "antfarm",
@@ -3179,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "rgIdxList",
           "package": "antfarm",
@@ -3188,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "rgIdxList",
           "normalized": "RefGroup-\u003e[Text]",
@@ -3203,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "rgIdxes",
           "package": "antfarm",
@@ -3212,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "rgIdxes",
           "package": "antfarm",
@@ -3225,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "srxDet",
           "package": "antfarm",
@@ -3234,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "srxDet",
           "normalized": "SingPlu[Text]",
@@ -3249,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "srxDiscriminator",
           "package": "antfarm",
@@ -3258,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "srxDiscriminator",
           "package": "antfarm",
@@ -3272,6 +3528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeterminer (can be empty)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "srxInpDet",
           "package": "antfarm",
@@ -3282,6 +3539,7 @@
         "index": {
           "description": "determiner can be empty",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "srxInpDet",
           "normalized": "SingPlu[Text]",
@@ -3297,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "srxInpEntity",
           "package": "antfarm",
@@ -3306,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "srxInpEntity",
           "package": "antfarm",
@@ -3320,6 +3580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emain word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "srxInpWord",
           "package": "antfarm",
@@ -3330,6 +3591,7 @@
         "index": {
           "description": "main word",
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "srxInpWord",
           "package": "antfarm",
@@ -3343,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "srxNumber",
           "package": "antfarm",
@@ -3352,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "srxNumber",
           "package": "antfarm",
@@ -3365,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm.Refex",
           "name": "srxWord",
           "package": "antfarm",
@@ -3374,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm Refex",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm.Refex",
           "name": "srxWord",
           "package": "antfarm",
@@ -3388,6 +3654,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferring expression generation for definitions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm",
           "name": "Antfarm",
           "package": "antfarm",
@@ -3397,6 +3664,7 @@
         "index": {
           "description": "Referring expression generation for definitions",
           "hierarchy": "NLP Antfarm",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm",
           "name": "Antfarm",
           "package": "antfarm",
@@ -3410,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:15 UTC 2014",
           "module": "NLP.Antfarm",
           "name": "RefHistory",
           "package": "antfarm",
@@ -3418,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "NLP Antfarm",
+          "indexed": "2014-03-11T17:11:15",
           "module": "NLP.Antfarm",
           "name": "RefHistory",
           "package": "antfarm",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hosc-json"
+        "phrase": "hosc-json",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEncoding and decoding of OSC types as JSON values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "Aeson",
           "package": "hosc-json",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Encoding and decoding of OSC types as JSON values",
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "Aeson",
           "package": "hosc-json",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_assoc",
           "package": "hosc-json",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_assoc",
           "normalized": "Value-\u003eMaybe(String,Value)",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_datum",
           "package": "hosc-json",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_datum",
           "normalized": "Value-\u003eMaybe Datum",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_json",
           "package": "hosc-json",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Decode Value from ByteString",
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_json",
           "normalized": "ByteString-\u003eMaybe Value",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_list",
           "package": "hosc-json",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_list",
           "normalized": "Value-\u003eMaybe[Value]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_number",
           "package": "hosc-json",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_number",
           "normalized": "Value-\u003eMaybe(Either Integer Double)",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_str",
           "package": "hosc-json",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_str",
           "normalized": "Value-\u003eMaybe String",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_word8",
           "package": "hosc-json",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "decode_word8",
           "normalized": "Value-\u003eMaybe Word",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack \u003ccode\u003e(key,value)\u003c/code\u003e pair to \u003ccode\u003eJSObject\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e encode_assoc (\"a\",encode_int 0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_assoc",
           "package": "hosc-json",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Pack key value pair to JSObject encode assoc encode int",
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_assoc",
           "normalized": "(String,Value)-\u003eValue",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003ccode\u003e\u003ca\u003eFloating\u003c/a\u003e\u003c/code\u003e values are packed to \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_floating",
           "package": "hosc-json",
@@ -240,6 +259,7 @@
         "index": {
           "description": "All Floating values are packed to Double",
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_floating",
           "normalized": "a-\u003eValue",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e values are packed to \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_integral",
           "package": "hosc-json",
@@ -265,6 +286,7 @@
         "index": {
           "description": "All Integral values are packed to Integer",
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_integral",
           "normalized": "a-\u003eValue",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_json",
           "package": "hosc-json",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Encode Value to ByteString",
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_json",
           "normalized": "Value-\u003eByteString",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_list",
           "package": "hosc-json",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_list",
           "normalized": "[Value]-\u003eValue",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_string",
           "package": "hosc-json",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Pack String",
           "hierarchy": "Sound OSC Type JSON Aeson",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON.Aeson",
           "name": "encode_string",
           "normalized": "String-\u003eValue",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEncoding and decoding of OSC types as JSON values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "JSON",
           "package": "hosc-json",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Encoding and decoding of OSC types as JSON values",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "JSON",
           "package": "hosc-json",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON numbers are \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "Number",
           "package": "hosc-json",
@@ -385,6 +416,7 @@
         "index": {
           "description": "JSON numbers are Either Integer or Double",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "Number",
           "package": "hosc-json",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON value type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "Value",
           "package": "hosc-json",
@@ -408,6 +441,7 @@
         "index": {
           "description": "The JSON value type",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "Value",
           "package": "hosc-json",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let b = bundle 0.0 [message \"/m\" [Int32 1,Float 1]]\n in decode_bundle (encode_bundle b) == Just b\n\u003c/pre\u003e\u003cpre\u003e let {b = bundle 0 [c_set1 3 4,n_free [0]]\n     ;j = encode_bundle b}\n in (b,decode_bundle j)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "decode_bundle",
           "package": "hosc-json",
@@ -432,6 +467,7 @@
         "index": {
           "description": "Decode Bundle let bundle message Int32 Float in decode bundle encode bundle Just let bundle set1 free encode bundle in decode bundle",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "decode_bundle",
           "normalized": "Value-\u003eMaybe Bundle",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003e\u003ca\u003edecode_json\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "decode_json_str",
           "package": "hosc-json",
@@ -457,6 +494,7 @@
         "index": {
           "description": "String variant of decode json",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "decode_json_str",
           "normalized": "String-\u003eMaybe Value",
@@ -472,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let m = message \"/m\" [Int32 1,Float 1]\n in decode_message (encode_message m) == Just m\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "decode_message",
           "package": "hosc-json",
@@ -482,6 +521,7 @@
         "index": {
           "description": "Decode Message let message Int32 Float in decode message encode message Just",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "decode_message",
           "normalized": "Value-\u003eMaybe Message",
@@ -497,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "decode_packet",
           "package": "hosc-json",
@@ -507,6 +548,7 @@
         "index": {
           "description": "Decode Packet",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "decode_packet",
           "normalized": "Value-\u003eMaybe Packet",
@@ -522,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eBlob\u003c/a\u003e\u003c/code\u003e data (\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_blob",
           "package": "hosc-json",
@@ -532,6 +575,7 @@
         "index": {
           "description": "Encode Blob data ByteString",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_blob",
           "normalized": "ByteString-\u003eValue",
@@ -547,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e encoder, the representation is a flat array of \u003ccode\u003e#bundle\u003c/code\u003e\n tag, \u003ccode\u003e\u003ca\u003eTimeStamp\u003c/a\u003e\u003c/code\u003e and then message arrays.\n\u003c/p\u003e\u003cpre\u003e let b = bundle 0 [message \"/m\" []]\n in encode_json_str (encode_bundle b)\n\u003c/pre\u003e\u003cpre\u003e let {b = bundle 0 [c_set1 3 4,n_free [0]]\n     ;r = \"[\\\"#bundle\\\",{\\\"timestamp\\\":0.0}\" ++\n          \",[\\\"/c_set\\\",3,4.0],[\\\"/n_free\\\",0]]\"}\n in encode_json_str (encode_bundle b) == r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_bundle",
           "package": "hosc-json",
@@ -557,6 +602,7 @@
         "index": {
           "description": "Bundle encoder the representation is flat array of bundle tag TimeStamp and then message arrays let bundle message in encode json str encode bundle let bundle set1 free bundle timestamp set free in encode json str encode bundle",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_bundle",
           "normalized": "Bundle-\u003eValue",
@@ -572,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e encoder.  The encoding is shallow, \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e are all sent to \u003ccode\u003e\u003ca\u003eNumber\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003e\u003ca\u003eBlob\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTimeStamp\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eMidi\u003c/a\u003e\u003c/code\u003e are tagged.\n\u003c/p\u003e\u003cpre\u003e let {t = [(int32 0,\"0\")\n          ,(int64 0,\"0\")\n          ,(float 0.0,\"0.0\")\n          ,(double 0.1,\"0.1\")\n          ,(string \"s\",\"\\\"s\\\"\")\n          ,(Blob (Data.ByteString.Lazy.pack [0,1]),\"{\\\"blob\\\":[0,1]}\")\n          ,(TimeStamp 0.0,\"{\\\"timestamp\\\":0.0}\")\n          ,(midi (0,1,2,3),\"{\\\"midi\\\":[0,1,2,3]}\")]\n     ;r = map (\\(d,s) -\u003e encode_json_str (encode_datum d) == s) t}\n in all id r == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_datum",
           "package": "hosc-json",
@@ -582,6 +629,7 @@
         "index": {
           "description": "Datum encoder The encoding is shallow Int Float and Double are all sent to Number Blob TimeStamp and Midi are tagged let int32 int64 float double string Blob Data.ByteString.Lazy.pack blob TimeStamp timestamp midi midi map encode json str encode datum in all id True",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_datum",
           "normalized": "Datum-\u003eValue",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003e\u003ca\u003eencode_json\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_json_str",
           "package": "hosc-json",
@@ -607,6 +656,7 @@
         "index": {
           "description": "String variant of encode json",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_json_str",
           "normalized": "Value-\u003eString",
@@ -622,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e encoder, the representation is a flat array of\n \u003ccode\u003eaddress\u003c/code\u003e and then arguments.\n\u003c/p\u003e\u003cpre\u003e let m = message \"/m\" [Int32 0,Float 1,string \"s\"]\n in encode_json_str (encode_message m)\n\u003c/pre\u003e\u003cpre\u003e import Sound.SC3\n encode_json_str (encode_message (n_free [0])) == \"[\\\"/n_free\\\",0]\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_message",
           "package": "hosc-json",
@@ -632,6 +683,7 @@
         "index": {
           "description": "Message encoder the representation is flat array of address and then arguments let message Int32 Float string in encode json str encode message import Sound.SC3 encode json str encode message free free",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_message",
           "normalized": "Message-\u003eValue",
@@ -647,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eMidi\u003c/a\u003e\u003c/code\u003e data (\u003ccode\u003eWord8\u003c/code\u003e tuple).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_midi",
           "package": "hosc-json",
@@ -657,6 +710,7 @@
         "index": {
           "description": "Encode Midi data Word8 tuple",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_midi",
           "normalized": "MIDI-\u003eValue",
@@ -672,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eNumber\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_number",
           "package": "hosc-json",
@@ -682,6 +737,7 @@
         "index": {
           "description": "Encode Number",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_number",
           "normalized": "Number-\u003eValue",
@@ -697,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e encoder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_packet",
           "package": "hosc-json",
@@ -707,6 +764,7 @@
         "index": {
           "description": "Packet encoder",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_packet",
           "normalized": "Packet-\u003eValue",
@@ -722,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eTimeStamp\u003c/a\u003e\u003c/code\u003e data (\u003ccode\u003e\u003ca\u003eTime\u003c/a\u003e\u003c/code\u003e), ie. the \u003ccode\u003ehosc\u003c/code\u003e real-valued\n \u003ccode\u003eNRT\u003c/code\u003e representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:16 UTC 2014",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_timestamp",
           "package": "hosc-json",
@@ -732,6 +791,7 @@
         "index": {
           "description": "Encode TimeStamp data Time ie the hosc real-valued NRT representation",
           "hierarchy": "Sound OSC Type JSON",
+          "indexed": "2014-03-11T18:44:16",
           "module": "Sound.OSC.Type.JSON",
           "name": "encode_timestamp",
           "normalized": "Time-\u003eValue",

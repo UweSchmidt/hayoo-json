@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "proplang"
+        "phrase": "proplang",
+        "type": "phrase"
       },
       "type": "context"
     }

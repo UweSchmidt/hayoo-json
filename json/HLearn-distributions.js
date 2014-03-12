@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HLearn-distributions"
+        "phrase": "HLearn-distributions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the type classes for manipulating distributions.\n\u003c/p\u003e\u003cp\u003eWe use the same classes for both discrete and continuous distributions.  Unfortunately, we cannot use the type classes from the \u003ccode\u003estatistics\u003c/code\u003e package because we require more flexibility than they offer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "Common",
           "package": "HLearn-distributions",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains the type classes for manipulating distributions We use the same classes for both discrete and continuous distributions Unfortunately we cannot use the type classes from the statistics package because we require more flexibility than they offer",
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "Common",
           "package": "HLearn-distributions",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTechnically, every distribution has a Cumulative Distribution Function (CDF), and so this type class should be merged with the \u003ca\u003eDistribution\u003c/a\u003e type class.  However, I haven't had a chance to implement the CDF for most distributions yet, so this type class has been separated out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "CDF",
           "package": "HLearn-distributions",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Technically every distribution has Cumulative Distribution Function CDF and so this type class should be merged with the Distribution type class However haven had chance to implement the CDF for most distributions yet so this type class has been separated out",
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "CDF",
           "package": "HLearn-distributions",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "Mean",
           "package": "HLearn-distributions",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "Mean",
           "package": "HLearn-distributions",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot every distribution has a Probability Density Function (PDF), however most distributions in the HLearn library do.  For many applications, the PDF is much more intuitive and easier to work with than the CDF.  For discrete distributions, this is often called a Probability Mass Function (PMF); however, for simplicity we use the same type class for both continuous and discrete data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "PDF",
           "package": "HLearn-distributions",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Not every distribution has Probability Density Function PDF however most distributions in the HLearn library do For many applications the PDF is much more intuitive and easier to work with than the CDF For discrete distributions this is often called Probability Mass Function PMF however for simplicity we use the same type class for both continuous and discrete data",
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "PDF",
           "package": "HLearn-distributions",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "Probabilistic",
           "package": "HLearn-distributions",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "Probabilistic",
           "package": "HLearn-distributions",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "Variance",
           "package": "HLearn-distributions",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "Variance",
           "package": "HLearn-distributions",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "cdf",
           "package": "HLearn-distributions",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "cdf",
           "normalized": "a-\u003eDatapoint a-\u003eProbability a",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "cdfInverse",
           "package": "HLearn-distributions",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "cdfInverse",
           "normalized": "a-\u003eProbability a-\u003eDatapoint a",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "mean",
           "package": "HLearn-distributions",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "mean",
           "normalized": "a-\u003eDatapoint a",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf you were to plot a list of distributions, nonoverlap returns the amount of area that only a single distribution covers.  That is, it will be equal to number of distributions - the overlap.\n\u003c/p\u003e\u003cp\u003eThis function is used by the HomTree classifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "nonoverlap",
           "package": "HLearn-distributions",
@@ -231,6 +250,7 @@
         "index": {
           "description": "If you were to plot list of distributions nonoverlap returns the amount of area that only single distribution covers That is it will be equal to number of distributions the overlap This function is used by the HomTree classifier",
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "nonoverlap",
           "normalized": "[a]-\u003eProbability a",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "pdf",
           "package": "HLearn-distributions",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "pdf",
           "normalized": "a-\u003eDatapoint a-\u003eProbability a",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Common",
           "name": "variance",
           "package": "HLearn-distributions",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Common",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Common",
           "name": "variance",
           "normalized": "a-\u003eProbability a",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis list of kernels is take from wikipedia's: \u003ca\u003ehttps://en.wikipedia.org/wiki/Uniform_kernel#Kernel_functions_in_common_use\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Kernels",
           "package": "HLearn-distributions",
@@ -301,6 +326,7 @@
         "index": {
           "description": "This list of kernels is take from wikipedia https en.wikipedia.org wiki Uniform kernel Kernel functions in common use",
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Kernels",
           "package": "HLearn-distributions",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Cosine",
           "package": "HLearn-distributions",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Cosine",
           "package": "HLearn-distributions",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Epanechnikov",
           "package": "HLearn-distributions",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Epanechnikov",
           "package": "HLearn-distributions",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Gaussian",
           "package": "HLearn-distributions",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Gaussian",
           "package": "HLearn-distributions",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA kernel is function in one parameter that takes a value on the x axis and spits out a \u003ca\u003eprobability.\u003c/a\u003e  We create a data object for each kernel, and a corresponding class to make things play nice with the type system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Kernel",
           "package": "HLearn-distributions",
@@ -387,6 +420,7 @@
         "index": {
           "description": "kernel is function in one parameter that takes value on the axis and spits out probability We create data object for each kernel and corresponding class to make things play nice with the type system",
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Kernel",
           "package": "HLearn-distributions",
@@ -401,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA KernelBox is a universal object for storing kernels.  Whatever kernel it stores, it becomes a kernel with the same properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "KernelBox",
           "package": "HLearn-distributions",
@@ -410,6 +445,7 @@
         "index": {
           "description": "KernelBox is universal object for storing kernels Whatever kernel it stores it becomes kernel with the same properties",
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "KernelBox",
           "package": "HLearn-distributions",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Quartic",
           "package": "HLearn-distributions",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Quartic",
           "package": "HLearn-distributions",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Triangular",
           "package": "HLearn-distributions",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Triangular",
           "package": "HLearn-distributions",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Tricube",
           "package": "HLearn-distributions",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Tricube",
           "package": "HLearn-distributions",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Triweight",
           "package": "HLearn-distributions",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Triweight",
           "package": "HLearn-distributions",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Uniform",
           "package": "HLearn-distributions",
@@ -515,6 +560,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Uniform",
           "package": "HLearn-distributions",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Cosine",
           "package": "HLearn-distributions",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Cosine",
           "package": "HLearn-distributions",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Epanechnikov",
           "package": "HLearn-distributions",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Epanechnikov",
           "package": "HLearn-distributions",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Gaussian",
           "package": "HLearn-distributions",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Gaussian",
           "package": "HLearn-distributions",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "KernelBox",
           "package": "HLearn-distributions",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "KernelBox",
           "normalized": "a-\u003eKernelBox b",
@@ -618,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Quartic",
           "package": "HLearn-distributions",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Quartic",
           "package": "HLearn-distributions",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Triangular",
           "package": "HLearn-distributions",
@@ -649,6 +706,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Triangular",
           "package": "HLearn-distributions",
@@ -662,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Tricube",
           "package": "HLearn-distributions",
@@ -671,6 +730,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Tricube",
           "package": "HLearn-distributions",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Triweight",
           "package": "HLearn-distributions",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Triweight",
           "package": "HLearn-distributions",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Uniform",
           "package": "HLearn-distributions",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "Uniform",
           "package": "HLearn-distributions",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "evalKernel",
           "package": "HLearn-distributions",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Kernels",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Kernels",
           "name": "evalKernel",
           "normalized": "a-\u003eb-\u003eb",
@@ -753,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUsed for Multivariate distributions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "Interface",
           "package": "HLearn-distributions",
@@ -762,6 +829,7 @@
         "index": {
           "description": "Used for Multivariate distributions",
           "hierarchy": "HLearn Models Distributions Multivariate Interface",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "Interface",
           "package": "HLearn-distributions",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "Dependent",
           "package": "HLearn-distributions",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Interface",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "Dependent",
           "package": "HLearn-distributions",
@@ -796,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "Independent",
           "package": "HLearn-distributions",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Interface",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "Independent",
           "package": "HLearn-distributions",
@@ -817,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "Index",
           "package": "HLearn-distributions",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Interface",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "Index",
           "package": "HLearn-distributions",
@@ -838,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "MultiCategorical",
           "package": "HLearn-distributions",
@@ -846,6 +921,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Interface",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "MultiCategorical",
           "package": "HLearn-distributions",
@@ -860,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is the main type for specifying multivariate distributions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "Multivariate",
           "package": "HLearn-distributions",
@@ -869,6 +946,7 @@
         "index": {
           "description": "this is the main type for specifying multivariate distributions",
           "hierarchy": "HLearn Models Distributions Multivariate Interface",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Interface",
           "name": "Multivariate",
           "package": "HLearn-distributions",
@@ -883,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe categorical distribution is used for discrete data.  It is also sometimes called the discrete distribution or the multinomial distribution.  For more, see the wikipedia entry: \u003ca\u003ehttps://en.wikipedia.org/wiki/CatContainer_distribution\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "CatContainer",
           "package": "HLearn-distributions",
@@ -892,6 +971,7 @@
         "index": {
           "description": "The categorical distribution is used for discrete data It is also sometimes called the discrete distribution or the multinomial distribution For more see the wikipedia entry https en.wikipedia.org wiki CatContainer distribution",
           "hierarchy": "HLearn Models Distributions Multivariate Internal CatContainer",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "CatContainer",
           "package": "HLearn-distributions",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "CatContainer",
           "package": "HLearn-distributions",
@@ -913,6 +994,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal CatContainer",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "CatContainer",
           "package": "HLearn-distributions",
@@ -926,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "CatContainer",
           "package": "HLearn-distributions",
@@ -935,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal CatContainer",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "CatContainer",
           "package": "HLearn-distributions",
@@ -948,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "catnumdp",
           "package": "HLearn-distributions",
@@ -957,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal CatContainer",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "catnumdp",
           "package": "HLearn-distributions",
@@ -969,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "ds",
           "package": "HLearn-distributions",
@@ -978,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal CatContainer",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "ds",
           "normalized": "[HList(*[Char](*Char(*[Char]([]*))))]",
@@ -992,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "pdfmap",
           "package": "HLearn-distributions",
@@ -1001,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal CatContainer",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "pdfmap",
           "package": "HLearn-distributions",
@@ -1013,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "probmap",
           "package": "HLearn-distributions",
@@ -1022,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal CatContainer",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "probmap",
           "package": "HLearn-distributions",
@@ -1034,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "test",
           "package": "HLearn-distributions",
@@ -1043,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal CatContainer",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.CatContainer",
           "name": "test",
           "package": "HLearn-distributions",
@@ -1055,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Container",
           "name": "Container",
           "package": "HLearn-distributions",
@@ -1063,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Container",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Container",
           "name": "Container",
           "package": "HLearn-distributions",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Container",
           "name": "Container",
           "package": "HLearn-distributions",
@@ -1084,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Container",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Container",
           "name": "Container",
           "package": "HLearn-distributions",
@@ -1097,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Container",
           "name": "MultiContainer",
           "package": "HLearn-distributions",
@@ -1105,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Container",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Container",
           "name": "MultiContainer",
           "package": "HLearn-distributions",
@@ -1119,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUsed for ignoring data\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Ignore",
           "name": "Ignore",
           "package": "HLearn-distributions",
@@ -1128,6 +1229,7 @@
         "index": {
           "description": "Used for ignoring data",
           "hierarchy": "HLearn Models Distributions Multivariate Internal Ignore",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Ignore",
           "name": "Ignore",
           "package": "HLearn-distributions",
@@ -1141,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Ignore",
           "name": "Ignore",
           "package": "HLearn-distributions",
@@ -1149,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Ignore",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Ignore",
           "name": "Ignore",
           "package": "HLearn-distributions",
@@ -1162,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Ignore",
           "name": "Ignore'",
           "package": "HLearn-distributions",
@@ -1170,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Ignore",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Ignore",
           "name": "Ignore'",
           "package": "HLearn-distributions",
@@ -1183,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Ignore",
           "name": "Ignore'",
           "package": "HLearn-distributions",
@@ -1192,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Ignore",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Ignore",
           "name": "Ignore'",
           "package": "HLearn-distributions",
@@ -1206,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMarginalization is a tricky procedure involving a lot of type hackery.  All user-facing interfaces use the \u003ca\u003eMarginalize\u003c/a\u003e class, and all internal interfaces use the \u003ca\u003eMarginalize'\u003c/a\u003e class.  Essentially, \u003ca\u003eTypeLens\u003c/a\u003e class converts the \u003ca\u003eType lens\u003c/a\u003e for our user's data type into a type level number.  The  \u003ca\u003eMarginalize'\u003c/a\u003e class then takes this type number and uses it as an index into an appropriate type list that represents the data type.\n\u003c/p\u003e\u003cp\u003eThe TemplateHaskell module has more info.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "Marginalization",
           "package": "HLearn-distributions",
@@ -1215,6 +1324,7 @@
         "index": {
           "description": "Marginalization is tricky procedure involving lot of type hackery All user-facing interfaces use the Marginalize class and all internal interfaces use the Marginalize class Essentially TypeLens class converts the Type lens for our user data type into type level number The Marginalize class then takes this type number and uses it as an index into an appropriate type list that represents the data type The TemplateHaskell module has more info",
           "hierarchy": "HLearn Models Distributions Multivariate Internal Marginalization",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "Marginalization",
           "package": "HLearn-distributions",
@@ -1228,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "Marginalize",
           "package": "HLearn-distributions",
@@ -1236,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Marginalization",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "Marginalize",
           "package": "HLearn-distributions",
@@ -1249,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "Marginalize'",
           "package": "HLearn-distributions",
@@ -1257,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Marginalization",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "Marginalize'",
           "package": "HLearn-distributions",
@@ -1270,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "condition",
           "package": "HLearn-distributions",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Marginalization",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "condition",
           "normalized": "a-\u003eDatapoint(Margin'(TypeLensIndex a)b)-\u003eb-\u003eMarginalizeOut'(TypeLensIndex a)b",
@@ -1293,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "condition'",
           "package": "HLearn-distributions",
@@ -1302,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Marginalization",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "condition'",
           "normalized": "a-\u003eb-\u003eDatapoint(Margin' a b)-\u003eMarginalizeOut' a b",
@@ -1316,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "getMargin",
           "package": "HLearn-distributions",
@@ -1325,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Marginalization",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "getMargin",
           "normalized": "a-\u003eb-\u003eMargin a b",
@@ -1340,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "getMargin'",
           "package": "HLearn-distributions",
@@ -1349,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Marginalization",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "getMargin'",
           "normalized": "a-\u003eb-\u003eMargin' a b",
@@ -1364,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "marginalizeOut",
           "package": "HLearn-distributions",
@@ -1373,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Marginalization",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "marginalizeOut",
           "normalized": "a-\u003eb-\u003eMarginalizeOut a b",
@@ -1388,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "marginalizeOut'",
           "package": "HLearn-distributions",
@@ -1397,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Marginalization",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Marginalization",
           "name": "marginalizeOut'",
           "normalized": "a-\u003eb-\u003eMarginalizeOut' a b",
@@ -1413,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides convenient TemplateHaskell functions for making type lens suitable for use with multivariate distributions.\n\u003c/p\u003e\u003cp\u003eGiven a data type that looks like:\n\u003c/p\u003e\u003cpre\u003edata Character = Character\n    { _name      :: String\n    , _species   :: String\n    , _job       :: Job\n    , _isGood    :: Maybe Bool\n    , _age       :: Double -- in years\n    , _height    :: Double -- in feet\n    , _weight    :: Double -- in pounds\n    }\n    deriving (Read,Show,Eq,Ord)\n \ndata Job = Manager | Crew | Henchman | Other\n    deriving (Read,Show,Eq,Ord)\n\u003c/pre\u003e\u003cp\u003ewhen we run the command:\n\u003c/p\u003e\u003cpre\u003emakeTypeLenses ''Character\n\u003c/pre\u003e\u003cp\u003eWe generate the following type lenses automatically:\n\u003c/p\u003e\u003cpre\u003edata TH_name    = TH_name\ndata TH_species = TH_species\ndata TH_job     = TH_job\ndata TH_isGood  = TH_isGood\ndata TH_age     = TH_age\ndata TH_height  = TH_height\ndata TH_weight  = TH_weight\n\ninstance TypeLens TH_name where\n    type instance TypeLensIndex TH_name = Nat1Box Zero\ninstance TypeLens TH_species where\n    type instance TypeLensIndex TH_species = Nat1Box (Succ Zero)\ninstance TypeLens TH_job where\n    type instance TypeLensIndex TH_job = Nat1Box (Succ (Succ Zero))\ninstance TypeLens TH_isGood where\n    type instance TypeLensIndex TH_isGood = Nat1Box (Succ (Succ (Succ Zero)))\ninstance TypeLens TH_age where\n    type instance TypeLensIndex TH_age = Nat1Box (Succ (Succ (Succ (Succ Zero))))\ninstance TypeLens TH_height where\n    type instance TypeLensIndex TH_height = Nat1Box (Succ (Succ (Succ (Succ (Succ Zero)))))\ninstance TypeLens TH_weight where\n    type instance TypeLensIndex TH_weight = Nat1Box (Succ (Succ (Succ (Succ (Succ (Succ Zero))))))\n        \ninstance Trainable Character where\n    type instance GetHList Character = HList '[String,String,Job,Maybe Bool, Double,Double,Double]\n    getHList var = name var:::species var:::job var:::isGood var:::age var:::height var:::weight var:::HNil\n\ninstance MultivariateLabels Character where\n    getLabels dist = [\"TH_name\",\"TH_species\",\"TH_job\",\"TH_isGood\",\"TH_age\",\"TH_height\",\"TH_weight\"]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "TypeLens",
           "package": "HLearn-distributions",
@@ -1422,6 +1549,7 @@
         "index": {
           "description": "This module provides convenient TemplateHaskell functions for making type lens suitable for use with multivariate distributions Given data type that looks like data Character Character name String species String job Job isGood Maybe Bool age Double in years height Double in feet weight Double in pounds deriving Read Show Eq Ord data Job Manager Crew Henchman Other deriving Read Show Eq Ord when we run the command makeTypeLenses Character We generate the following type lenses automatically data TH name TH name data TH species TH species data TH job TH job data TH isGood TH isGood data TH age TH age data TH height TH height data TH weight TH weight instance TypeLens TH name where type instance TypeLensIndex TH name Nat1Box Zero instance TypeLens TH species where type instance TypeLensIndex TH species Nat1Box Succ Zero instance TypeLens TH job where type instance TypeLensIndex TH job Nat1Box Succ Succ Zero instance TypeLens TH isGood where type instance TypeLensIndex TH isGood Nat1Box Succ Succ Succ Zero instance TypeLens TH age where type instance TypeLensIndex TH age Nat1Box Succ Succ Succ Succ Zero instance TypeLens TH height where type instance TypeLensIndex TH height Nat1Box Succ Succ Succ Succ Succ Zero instance TypeLens TH weight where type instance TypeLensIndex TH weight Nat1Box Succ Succ Succ Succ Succ Succ Zero instance Trainable Character where type instance GetHList Character HList String String Job Maybe Bool Double Double Double getHList var name var species var job var isGood var age var height var weight var HNil instance MultivariateLabels Character where getLabels dist TH name TH species TH job TH isGood TH age TH height TH weight",
           "hierarchy": "HLearn Models Distributions Multivariate Internal TypeLens",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "TypeLens",
           "package": "HLearn-distributions",
@@ -1436,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Trainable class allows us to convert data types into an isomorphic \u003ca\u003eHList\u003c/a\u003e.  All of our multivariate distributions work on \u003ca\u003eHList\u003c/a\u003es, so they work on all instances of \u003ca\u003eTrainable\u003c/a\u003e as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "Trainable",
           "package": "HLearn-distributions",
@@ -1445,6 +1574,7 @@
         "index": {
           "description": "The Trainable class allows us to convert data types into an isomorphic HList All of our multivariate distributions work on HList so they work on all instances of Trainable as well",
           "hierarchy": "HLearn Models Distributions Multivariate Internal TypeLens",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "Trainable",
           "package": "HLearn-distributions",
@@ -1458,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "TypeFunction",
           "package": "HLearn-distributions",
@@ -1466,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal TypeLens",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "TypeFunction",
           "package": "HLearn-distributions",
@@ -1480,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis specifies a type level natural number (i.e. \u003ca\u003eNat1\u003c/a\u003e) that indexes at the right location into our HList\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "TypeLens",
           "package": "HLearn-distributions",
@@ -1489,6 +1622,7 @@
         "index": {
           "description": "This specifies type level natural number i.e Nat1 that indexes at the right location into our HList",
           "hierarchy": "HLearn Models Distributions Multivariate Internal TypeLens",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "TypeLens",
           "package": "HLearn-distributions",
@@ -1502,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "getHList",
           "package": "HLearn-distributions",
@@ -1511,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal TypeLens",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "getHList",
           "normalized": "a-\u003eGetHList a",
@@ -1527,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstructs the type lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "makeTypeLenses",
           "package": "HLearn-distributions",
@@ -1537,6 +1674,7 @@
         "index": {
           "description": "constructs the type lens",
           "hierarchy": "HLearn Models Distributions Multivariate Internal TypeLens",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "makeTypeLenses",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1553,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egiven the name of one of our records, transform it into the name of our type lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "nameTransform",
           "package": "HLearn-distributions",
@@ -1563,6 +1702,7 @@
         "index": {
           "description": "given the name of one of our records transform it into the name of our type lens",
           "hierarchy": "HLearn Models Distributions Multivariate Internal TypeLens",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "nameTransform",
           "normalized": "String-\u003eString",
@@ -1578,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "typefunc",
           "package": "HLearn-distributions",
@@ -1587,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal TypeLens",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.TypeLens",
           "name": "typefunc",
           "normalized": "a-\u003eDomain a-\u003eRange a",
@@ -1601,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Unital",
           "name": "Unital",
           "package": "HLearn-distributions",
@@ -1609,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Unital",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Unital",
           "name": "Unital",
           "package": "HLearn-distributions",
@@ -1622,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Unital",
           "name": "Unital",
           "package": "HLearn-distributions",
@@ -1630,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Unital",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Unital",
           "name": "Unital",
           "package": "HLearn-distributions",
@@ -1643,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Unital",
           "name": "Unital",
           "package": "HLearn-distributions",
@@ -1652,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate Internal Unital",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.Internal.Unital",
           "name": "Unital",
           "package": "HLearn-distributions",
@@ -1665,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.MultiNormal",
           "name": "MultiNormal",
           "package": "HLearn-distributions",
@@ -1673,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate MultiNormal",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.MultiNormal",
           "name": "MultiNormal",
           "package": "HLearn-distributions",
@@ -1686,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.MultiNormal",
           "name": "MultiNormal",
           "package": "HLearn-distributions",
@@ -1694,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate MultiNormal",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.MultiNormal",
           "name": "MultiNormal",
           "package": "HLearn-distributions",
@@ -1707,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Multivariate.MultiNormal",
           "name": "MultiNormal",
           "package": "HLearn-distributions",
@@ -1716,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Multivariate MultiNormal",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Multivariate.MultiNormal",
           "name": "MultiNormal",
           "package": "HLearn-distributions",
@@ -1729,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "Binomial",
           "package": "HLearn-distributions",
@@ -1737,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Binomial",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "Binomial",
           "package": "HLearn-distributions",
@@ -1750,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "Binomial",
           "package": "HLearn-distributions",
@@ -1758,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Binomial",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "Binomial",
           "package": "HLearn-distributions",
@@ -1771,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "Binomial",
           "package": "HLearn-distributions",
@@ -1780,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Binomial",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "Binomial",
           "package": "HLearn-distributions",
@@ -1793,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "bin_n",
           "package": "HLearn-distributions",
@@ -1802,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Binomial",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "bin_n",
           "normalized": "Binomial Double Int-\u003eInt",
@@ -1816,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "bin_p",
           "package": "HLearn-distributions",
@@ -1825,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Binomial",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "bin_p",
           "normalized": "Binomial Double Int-\u003eDouble",
@@ -1839,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "bmoments",
           "package": "HLearn-distributions",
@@ -1848,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Binomial",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Binomial",
           "name": "bmoments",
           "package": "HLearn-distributions",
@@ -1861,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe categorical distribution is used for discrete data.  It is also sometimes called the discrete distribution or the multinomial distribution.  For more, see the wikipedia entry: \u003ca\u003ehttps://en.wikipedia.org/wiki/Categorical_distribution\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Categorical",
           "name": "Categorical",
           "package": "HLearn-distributions",
@@ -1870,6 +2037,7 @@
         "index": {
           "description": "The categorical distribution is used for discrete data It is also sometimes called the discrete distribution or the multinomial distribution For more see the wikipedia entry https en.wikipedia.org wiki Categorical distribution",
           "hierarchy": "HLearn Models Distributions Univariate Categorical",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Categorical",
           "name": "Categorical",
           "package": "HLearn-distributions",
@@ -1883,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Categorical",
           "name": "Categorical",
           "package": "HLearn-distributions",
@@ -1891,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Categorical",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Categorical",
           "name": "Categorical",
           "package": "HLearn-distributions",
@@ -1904,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Categorical",
           "name": "Categorical",
           "package": "HLearn-distributions",
@@ -1913,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Categorical",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Categorical",
           "name": "Categorical",
           "package": "HLearn-distributions",
@@ -1927,6 +2099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a distribution into a list of (sample,probability) pai\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Categorical",
           "name": "dist2list",
           "package": "HLearn-distributions",
@@ -1937,6 +2110,7 @@
         "index": {
           "description": "Converts distribution into list of sample probability pai",
           "hierarchy": "HLearn Models Distributions Univariate Categorical",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Categorical",
           "name": "dist2list",
           "normalized": "Categorical a b-\u003e[(b,a)]",
@@ -1952,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the element in the distribution with the highest probability\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Categorical",
           "name": "mostLikely",
           "package": "HLearn-distributions",
@@ -1962,6 +2137,7 @@
         "index": {
           "description": "Extracts the element in the distribution with the highest probability",
           "hierarchy": "HLearn Models Distributions Univariate Categorical",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Categorical",
           "name": "mostLikely",
           "normalized": "Categorical a b-\u003eb",
@@ -1978,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe method of moments can be used to estimate a number of commonly used distributions.  This module is still under construction as I work out the best way to handle morphisms from the Moments3 type to types of other distributions.  For more information, see the wikipedia entry: \u003ca\u003ehttps://en.wikipedia.org/wiki/Method_of_moments_(statistics)\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Exponential",
           "name": "Exponential",
           "package": "HLearn-distributions",
@@ -1987,6 +2164,7 @@
         "index": {
           "description": "The method of moments can be used to estimate number of commonly used distributions This module is still under construction as work out the best way to handle morphisms from the Moments3 type to types of other distributions For more information see the wikipedia entry https en.wikipedia.org wiki Method of moments statistics",
           "hierarchy": "HLearn Models Distributions Univariate Exponential",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Exponential",
           "name": "Exponential",
           "package": "HLearn-distributions",
@@ -2000,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Exponential",
           "name": "Exponential",
           "package": "HLearn-distributions",
@@ -2008,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Exponential",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Exponential",
           "name": "Exponential",
           "package": "HLearn-distributions",
@@ -2022,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe method of moments can be used to estimate a number of commonly used distributions.  This module is still under construction as I work out the best way to handle morphisms from the Moments3 type to types of other distributions.  For more information, see the wikipedia entry: \u003ca\u003ehttps://en.wikipedia.org/wiki/Method_of_moments_(statistics)\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Geometric",
           "name": "Geometric",
           "package": "HLearn-distributions",
@@ -2031,6 +2212,7 @@
         "index": {
           "description": "The method of moments can be used to estimate number of commonly used distributions This module is still under construction as work out the best way to handle morphisms from the Moments3 type to types of other distributions For more information see the wikipedia entry https en.wikipedia.org wiki Method of moments statistics",
           "hierarchy": "HLearn Models Distributions Univariate Geometric",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Geometric",
           "name": "Geometric",
           "package": "HLearn-distributions",
@@ -2044,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Geometric",
           "name": "Geometric",
           "package": "HLearn-distributions",
@@ -2052,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Geometric",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Geometric",
           "name": "Geometric",
           "package": "HLearn-distributions",
@@ -2066,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdapts any distribution into one that can handle missing data\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Internal.MissingData",
           "name": "MissingData",
           "package": "HLearn-distributions",
@@ -2075,6 +2260,7 @@
         "index": {
           "description": "Adapts any distribution into one that can handle missing data",
           "hierarchy": "HLearn Models Distributions Univariate Internal MissingData",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Internal.MissingData",
           "name": "MissingData",
           "package": "HLearn-distributions",
@@ -2088,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Internal.MissingData",
           "name": "MissResponse",
           "package": "HLearn-distributions",
@@ -2096,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Internal MissingData",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Internal.MissingData",
           "name": "MissResponse",
           "package": "HLearn-distributions",
@@ -2109,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Internal.MissingData",
           "name": "MissingData",
           "package": "HLearn-distributions",
@@ -2117,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Internal MissingData",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Internal.MissingData",
           "name": "MissingData",
           "package": "HLearn-distributions",
@@ -2130,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Internal.MissingData",
           "name": "Ignore",
           "package": "HLearn-distributions",
@@ -2139,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Internal MissingData",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Internal.MissingData",
           "name": "Ignore",
           "package": "HLearn-distributions",
@@ -2153,6 +2345,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe method of moments can be used to estimate a number of commonly used distributions.  This module is still under construction as I work out the best way to handle morphisms from the Moments3 type to types of other distributions.  For more information, see the wikipedia entry: \u003ca\u003ehttps://en.wikipedia.org/wiki/Method_of_moments_(statistics)\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "Moments",
           "package": "HLearn-distributions",
@@ -2162,6 +2355,7 @@
         "index": {
           "description": "The method of moments can be used to estimate number of commonly used distributions This module is still under construction as work out the best way to handle morphisms from the Moments3 type to types of other distributions For more information see the wikipedia entry https en.wikipedia.org wiki Method of moments statistics",
           "hierarchy": "HLearn Models Distributions Univariate Internal Moments",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "Moments",
           "package": "HLearn-distributions",
@@ -2175,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "Moments3",
           "package": "HLearn-distributions",
@@ -2183,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Internal Moments",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "Moments3",
           "package": "HLearn-distributions",
@@ -2196,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "Moments3",
           "package": "HLearn-distributions",
@@ -2205,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Internal Moments",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "Moments3",
           "package": "HLearn-distributions",
@@ -2218,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "m0",
           "package": "HLearn-distributions",
@@ -2227,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Internal Moments",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "m0",
           "package": "HLearn-distributions",
@@ -2239,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "m1",
           "package": "HLearn-distributions",
@@ -2248,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Internal Moments",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "m1",
           "package": "HLearn-distributions",
@@ -2260,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "m2",
           "package": "HLearn-distributions",
@@ -2269,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Internal Moments",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Internal.Moments",
           "name": "m2",
           "package": "HLearn-distributions",
@@ -2282,6 +2486,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKernel Density Estimation (KDE) is a generic and powerful method for estimating a probability distribution.  See wikipedia for more information: \u003ca\u003ehttp://en.wikipedia.org/wiki/Kernel_density_estimation\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.KernelDensityEstimator",
           "name": "KernelDensityEstimator",
           "package": "HLearn-distributions",
@@ -2291,6 +2496,7 @@
         "index": {
           "description": "Kernel Density Estimation KDE is generic and powerful method for estimating probability distribution See wikipedia for more information http en.wikipedia.org wiki Kernel density estimation",
           "hierarchy": "HLearn Models Distributions Univariate KernelDensityEstimator",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.KernelDensityEstimator",
           "name": "KernelDensityEstimator",
           "package": "HLearn-distributions",
@@ -2305,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe KDE type is implemented as an isomorphism with the FreeModule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.KernelDensityEstimator",
           "name": "KDE",
           "package": "HLearn-distributions",
@@ -2314,6 +2521,7 @@
         "index": {
           "description": "The KDE type is implemented as an isomorphism with the FreeModule",
           "hierarchy": "HLearn Models Distributions Univariate KernelDensityEstimator",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.KernelDensityEstimator",
           "name": "KDE",
           "package": "HLearn-distributions",
@@ -2327,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.KernelDensityEstimator",
           "name": "KDE",
           "package": "HLearn-distributions",
@@ -2336,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate KernelDensityEstimator",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.KernelDensityEstimator",
           "name": "KDE",
           "package": "HLearn-distributions",
@@ -2349,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.KernelDensityEstimator",
           "name": "freemod",
           "package": "HLearn-distributions",
@@ -2358,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate KernelDensityEstimator",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.KernelDensityEstimator",
           "name": "freemod",
           "package": "HLearn-distributions",
@@ -2371,6 +2583,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLogNormal\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.LogNormal",
           "name": "LogNormal",
           "package": "HLearn-distributions",
@@ -2380,6 +2593,7 @@
         "index": {
           "description": "LogNormal",
           "hierarchy": "HLearn Models Distributions Univariate LogNormal",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.LogNormal",
           "name": "LogNormal",
           "package": "HLearn-distributions",
@@ -2393,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.LogNormal",
           "name": "LogNormal",
           "package": "HLearn-distributions",
@@ -2401,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate LogNormal",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.LogNormal",
           "name": "LogNormal",
           "package": "HLearn-distributions",
@@ -2415,6 +2631,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe method of moments can be used to estimate a number of commonly used distributions.  This module is still under construction as I work out the best way to handle morphisms from the Moments3 type to types of other distributions.  For more information, see the wikipedia entry: \u003ca\u003ehttps://en.wikipedia.org/wiki/Method_of_moments_(statistics)\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Normal",
           "name": "Normal",
           "package": "HLearn-distributions",
@@ -2424,6 +2641,7 @@
         "index": {
           "description": "The method of moments can be used to estimate number of commonly used distributions This module is still under construction as work out the best way to handle morphisms from the Moments3 type to types of other distributions For more information see the wikipedia entry https en.wikipedia.org wiki Method of moments statistics",
           "hierarchy": "HLearn Models Distributions Univariate Normal",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Normal",
           "name": "Normal",
           "package": "HLearn-distributions",
@@ -2437,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Normal",
           "name": "Normal",
           "package": "HLearn-distributions",
@@ -2445,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Normal",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Normal",
           "name": "Normal",
           "package": "HLearn-distributions",
@@ -2458,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Normal",
           "name": "Normal",
           "package": "HLearn-distributions",
@@ -2467,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Normal",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Normal",
           "name": "Normal",
           "package": "HLearn-distributions",
@@ -2481,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe method of moments can be used to estimate a number of commonly used distributions.  This module is still under construction as I work out the best way to handle morphisms from the Moments3 type to types of other distributions.  For more information, see the wikipedia entry: \u003ca\u003ehttps://en.wikipedia.org/wiki/Method_of_moments_(statistics)\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Poisson",
           "name": "Poisson",
           "package": "HLearn-distributions",
@@ -2490,6 +2713,7 @@
         "index": {
           "description": "The method of moments can be used to estimate number of commonly used distributions This module is still under construction as work out the best way to handle morphisms from the Moments3 type to types of other distributions For more information see the wikipedia entry https en.wikipedia.org wiki Method of moments statistics",
           "hierarchy": "HLearn Models Distributions Univariate Poisson",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Poisson",
           "name": "Poisson",
           "package": "HLearn-distributions",
@@ -2503,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Univariate.Poisson",
           "name": "Poisson",
           "package": "HLearn-distributions",
@@ -2511,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Univariate Poisson",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Univariate.Poisson",
           "name": "Poisson",
           "package": "HLearn-distributions",
@@ -2525,6 +2751,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the functions for plotting distributions using Gnuplot.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "Gnuplot",
           "package": "HLearn-distributions",
@@ -2534,6 +2761,7 @@
         "index": {
           "description": "This module contains the functions for plotting distributions using Gnuplot",
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "Gnuplot",
           "package": "HLearn-distributions",
@@ -2547,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PicType",
           "package": "HLearn-distributions",
@@ -2555,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PicType",
           "package": "HLearn-distributions",
@@ -2568,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PlotParams",
           "package": "HLearn-distributions",
@@ -2576,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PlotParams",
           "package": "HLearn-distributions",
@@ -2589,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PlotType",
           "package": "HLearn-distributions",
@@ -2597,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PlotType",
           "package": "HLearn-distributions",
@@ -2610,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "Plottable",
           "package": "HLearn-distributions",
@@ -2618,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "Plottable",
           "package": "HLearn-distributions",
@@ -2632,6 +2868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn order to plot a distribution, it must be an instance of this class.  You shouldn't need to know the details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PlottableDistribution",
           "package": "HLearn-distributions",
@@ -2641,6 +2878,7 @@
         "index": {
           "description": "In order to plot distribution it must be an instance of this class You shouldn need to know the details",
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PlottableDistribution",
           "package": "HLearn-distributions",
@@ -2654,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "Bar",
           "package": "HLearn-distributions",
@@ -2663,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "Bar",
           "package": "HLearn-distributions",
@@ -2676,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "Continuous",
           "package": "HLearn-distributions",
@@ -2685,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "Continuous",
           "package": "HLearn-distributions",
@@ -2698,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "EPS",
           "package": "HLearn-distributions",
@@ -2707,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "EPS",
           "package": "HLearn-distributions",
@@ -2720,6 +2964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PNG",
           "package": "HLearn-distributions",
@@ -2729,6 +2974,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PNG",
           "package": "HLearn-distributions",
@@ -2742,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PlotParams",
           "package": "HLearn-distributions",
@@ -2751,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "PlotParams",
           "package": "HLearn-distributions",
@@ -2764,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "Points",
           "package": "HLearn-distributions",
@@ -2773,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "Points",
           "package": "HLearn-distributions",
@@ -2786,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "dataFile",
           "package": "HLearn-distributions",
@@ -2795,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "dataFile",
           "package": "HLearn-distributions",
@@ -2809,6 +3061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprovided due to backwards compatibility with the nuclear weapons blog post.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "genPlotParams",
           "package": "HLearn-distributions",
@@ -2819,6 +3072,7 @@
         "index": {
           "description": "provided due to backwards compatibility with the nuclear weapons blog post",
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "genPlotParams",
           "normalized": "String-\u003ea-\u003ePlotParams",
@@ -2834,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "gnuFile",
           "package": "HLearn-distributions",
@@ -2843,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "gnuFile",
           "package": "HLearn-distributions",
@@ -2856,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "pdfL",
           "package": "HLearn-distributions",
@@ -2865,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "pdfL",
           "normalized": "a-\u003e[Probability a]",
@@ -2879,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "picFile",
           "package": "HLearn-distributions",
@@ -2888,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "picFile",
           "package": "HLearn-distributions",
@@ -2901,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "picType",
           "package": "HLearn-distributions",
@@ -2910,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "picType",
           "package": "HLearn-distributions",
@@ -2924,6 +3186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall this function to plot your distribution.  You can create the PlotParams manually, or you can use default parameter creating function below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "plotDistribution",
           "package": "HLearn-distributions",
@@ -2934,6 +3197,7 @@
         "index": {
           "description": "Call this function to plot your distribution You can create the PlotParams manually or you can use default parameter creating function below",
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "plotDistribution",
           "normalized": "PlotParams-\u003ea-\u003eIO()",
@@ -2949,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "plotFile",
           "package": "HLearn-distributions",
@@ -2958,6 +3223,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "plotFile",
           "normalized": "String-\u003ePicType-\u003ePlotParams",
@@ -2973,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "plotType",
           "package": "HLearn-distributions",
@@ -2982,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "plotType",
           "normalized": "a-\u003ePlotType",
@@ -2997,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "plotdata",
           "package": "HLearn-distributions",
@@ -3006,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "plotdata",
           "normalized": "a-\u003eString",
@@ -3020,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "pngHeight",
           "package": "HLearn-distributions",
@@ -3029,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "pngHeight",
           "package": "HLearn-distributions",
@@ -3042,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "pngWidth",
           "package": "HLearn-distributions",
@@ -3051,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "pngWidth",
           "package": "HLearn-distributions",
@@ -3064,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "samplePoints",
           "package": "HLearn-distributions",
@@ -3073,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "samplePoints",
           "normalized": "a-\u003e[Datapoint a]",
@@ -3088,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "samplesFromMinMax",
           "package": "HLearn-distributions",
@@ -3097,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Gnuplot",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Gnuplot",
           "name": "samplesFromMinMax",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -3113,6 +3391,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisplays Multivariate dependencies\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "Graphviz",
           "package": "HLearn-distributions",
@@ -3122,6 +3401,7 @@
         "index": {
           "description": "Displays Multivariate dependencies",
           "hierarchy": "HLearn Models Distributions Visualization Graphviz",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "Graphviz",
           "package": "HLearn-distributions",
@@ -3135,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "MarkovNetwork",
           "package": "HLearn-distributions",
@@ -3143,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Graphviz",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "MarkovNetwork",
           "package": "HLearn-distributions",
@@ -3156,6 +3438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "MultivariateLabels",
           "package": "HLearn-distributions",
@@ -3164,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Graphviz",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "MultivariateLabels",
           "package": "HLearn-distributions",
@@ -3177,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "getLabels",
           "package": "HLearn-distributions",
@@ -3186,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Graphviz",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "getLabels",
           "normalized": "a-\u003e[String]",
@@ -3201,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "graphL",
           "package": "HLearn-distributions",
@@ -3210,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Graphviz",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "graphL",
           "normalized": "a-\u003e[String]-\u003e[(String,[String])]",
@@ -3224,6 +3512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "plotNetwork",
           "package": "HLearn-distributions",
@@ -3233,6 +3522,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Distributions Visualization Graphviz",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions.Visualization.Graphviz",
           "name": "plotNetwork",
           "normalized": "FilePath-\u003ea-\u003eIO Bool",
@@ -3249,6 +3539,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis file exports the most commonly used modules within HLearn-distributions.  Most likely this is the only file you will have to import.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:43 UTC 2014",
           "module": "HLearn.Models.Distributions",
           "name": "Distributions",
           "package": "HLearn-distributions",
@@ -3258,6 +3549,7 @@
         "index": {
           "description": "This file exports the most commonly used modules within HLearn-distributions Most likely this is the only file you will have to import",
           "hierarchy": "HLearn Models Distributions",
+          "indexed": "2014-03-11T16:45:43",
           "module": "HLearn.Models.Distributions",
           "name": "Distributions",
           "package": "HLearn-distributions",

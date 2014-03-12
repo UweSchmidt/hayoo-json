@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "frame"
+        "phrase": "frame",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule to define a configuration to be provided when launching framework\n      applications\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Config",
           "name": "Config",
           "package": "frame",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module to define configuration to be provided when launching framework applications",
           "hierarchy": "Frame Config",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Config",
           "name": "Config",
           "package": "frame",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Config",
           "name": "Config",
           "package": "frame",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Frame Config",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Config",
           "name": "Config",
           "package": "frame",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Config",
           "name": "FrameConfig",
           "package": "frame",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Frame Config",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Config",
           "name": "FrameConfig",
           "package": "frame",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Config",
           "name": "Config",
           "package": "frame",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Frame Config",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Config",
           "name": "Config",
           "package": "frame",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves a function of the current environment. Parameters:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The selector function to apply to the environment.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSee an example in \u003ca\u003eControl.Monad.Reader\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Config",
           "name": "asks",
           "package": "frame",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Retrieves function of the current environment Parameters The selector function to apply to the environment See an example in Control.Monad.Reader",
           "hierarchy": "Frame Config",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Config",
           "name": "asks",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStylesheets to attach to the view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Config",
           "name": "css",
           "package": "frame",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Stylesheets to attach to the view",
           "hierarchy": "Frame Config",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Config",
           "name": "css",
           "normalized": "[String]",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe database info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Config",
           "name": "database",
           "package": "frame",
@@ -165,6 +178,7 @@
         "index": {
           "description": "The database info",
           "hierarchy": "Frame Config",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Config",
           "name": "database",
           "package": "frame",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name for the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Config",
           "name": "dbName",
           "package": "frame",
@@ -188,6 +203,7 @@
         "index": {
           "description": "The name for the database",
           "hierarchy": "Frame Config",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Config",
           "name": "dbName",
           "package": "frame",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ODBC URL for the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Config",
           "name": "dbURL",
           "package": "frame",
@@ -212,6 +229,7 @@
         "index": {
           "description": "The ODBC URL for the database",
           "hierarchy": "Frame Config",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Config",
           "name": "dbURL",
           "package": "frame",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Config",
           "name": "sessionId",
           "package": "frame",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Session ID",
           "hierarchy": "Frame Config",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Config",
           "name": "sessionId",
           "package": "frame",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile system path to sessions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Config",
           "name": "sessionPath",
           "package": "frame",
@@ -260,6 +281,7 @@
         "index": {
           "description": "File system path to sessions",
           "hierarchy": "Frame Config",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Config",
           "name": "sessionPath",
           "package": "frame",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Data",
           "name": "Data",
           "package": "frame",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Frame Data",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Data",
           "name": "Data",
           "package": "frame",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection of views which can be streamed to the client by the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Data",
           "name": "Data",
           "package": "frame",
@@ -304,6 +329,7 @@
         "index": {
           "description": "collection of views which can be streamed to the client by the server",
           "hierarchy": "Frame Data",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Data",
           "name": "Data",
           "package": "frame",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile not found, 404 HTTP response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Data",
           "name": "Error404",
           "package": "frame",
@@ -328,6 +355,7 @@
         "index": {
           "description": "File not found HTTP response",
           "hierarchy": "Frame Data",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Data",
           "name": "Error404",
           "package": "frame",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Data",
           "name": "File",
           "package": "frame",
@@ -352,6 +381,7 @@
         "index": {
           "description": "file",
           "hierarchy": "Frame Data",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Data",
           "name": "File",
           "package": "frame",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Data",
           "name": "Redirect",
           "package": "frame",
@@ -376,6 +407,7 @@
         "index": {
           "description": "Redirection",
           "hierarchy": "Frame Data",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Data",
           "name": "Redirect",
           "package": "frame",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA full view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Data",
           "name": "View",
           "package": "frame",
@@ -400,6 +433,7 @@
         "index": {
           "description": "full view",
           "hierarchy": "Frame Data",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Data",
           "name": "View",
           "package": "frame",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA partial view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Data",
           "name": "ViewPart",
           "package": "frame",
@@ -424,6 +459,7 @@
         "index": {
           "description": "partial view",
           "hierarchy": "Frame Data",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Data",
           "name": "ViewPart",
           "normalized": "ViewPart[Container]",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA subset of the GUI required to build a useful view\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "GUI",
           "package": "frame",
@@ -449,6 +486,7 @@
         "index": {
           "description": "subset of the GUI required to build useful view",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "GUI",
           "package": "frame",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Class",
           "package": "frame",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Class",
           "package": "frame",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Composable",
           "package": "frame",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Composable",
           "package": "frame",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains various 'block level' elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Container",
           "package": "frame",
@@ -514,6 +557,7 @@
         "index": {
           "description": "Contains various block level elements",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Container",
           "package": "frame",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Element",
           "package": "frame",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Element",
           "package": "frame",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Element'",
           "package": "frame",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Element'",
           "package": "frame",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "FormElement",
           "package": "frame",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "FormElement",
           "package": "frame",
@@ -591,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm values are just wrapped types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "FormValue",
           "package": "frame",
@@ -600,6 +651,7 @@
         "index": {
           "description": "Form values are just wrapped types",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "FormValue",
           "package": "frame",
@@ -614,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic GUI whose various instances define how it should be output (e.g. Show outputs HTML).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "GUI",
           "package": "frame",
@@ -623,6 +676,7 @@
         "index": {
           "description": "generic GUI whose various instances define how it should be output e.g Show outputs HTML",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "GUI",
           "package": "frame",
@@ -637,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Label",
           "package": "frame",
@@ -646,6 +701,7 @@
         "index": {
           "description": "label",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Label",
           "package": "frame",
@@ -660,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "URL",
           "package": "frame",
@@ -669,6 +726,7 @@
         "index": {
           "description": "URL",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "URL",
           "package": "frame",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "(+\u003e)",
           "package": "frame",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "(+\u003e) +\u003e",
           "normalized": "Container-\u003ea-\u003ea",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "(\u003c+)",
           "package": "frame",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "(\u003c+) \u003c+",
           "normalized": "a-\u003eContainer-\u003ea",
@@ -729,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine break\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Break",
           "package": "frame",
@@ -739,6 +802,7 @@
         "index": {
           "description": "Line break",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Break",
           "package": "frame",
@@ -753,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubmit button\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Button",
           "package": "frame",
@@ -763,6 +828,7 @@
         "index": {
           "description": "Submit button",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Button",
           "package": "frame",
@@ -777,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial textual button\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "ButtonLink",
           "package": "frame",
@@ -787,6 +854,7 @@
         "index": {
           "description": "Special textual button",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "ButtonLink",
           "package": "frame",
@@ -801,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Code",
           "package": "frame",
@@ -811,6 +880,7 @@
         "index": {
           "description": "Code",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Code",
           "package": "frame",
@@ -825,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Element",
           "package": "frame",
@@ -835,6 +906,7 @@
         "index": {
           "description": "Plain element",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Element",
           "package": "frame",
@@ -849,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement wrapped in a link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Emphasis",
           "package": "frame",
@@ -859,6 +932,7 @@
         "index": {
           "description": "Element wrapped in link",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Emphasis",
           "normalized": "Emphasis[Element]",
@@ -874,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Empty",
           "package": "frame",
@@ -883,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Empty",
           "package": "frame",
@@ -897,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError pane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Error",
           "package": "frame",
@@ -907,6 +984,7 @@
         "index": {
           "description": "Error pane",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Error",
           "normalized": "Error[Container]",
@@ -923,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Form",
           "package": "frame",
@@ -933,6 +1012,7 @@
         "index": {
           "description": "form",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Form",
           "normalized": "Form[FormElement][Class]",
@@ -949,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor grouping elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "FormGroup",
           "package": "frame",
@@ -959,6 +1040,7 @@
         "index": {
           "description": "For grouping elements",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "FormGroup",
           "normalized": "FormGroup[FormElement]Label",
@@ -975,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA frame with a title, some style and a set of containers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Frame",
           "package": "frame",
@@ -985,6 +1068,7 @@
         "index": {
           "description": "frame with title some style and set of containers",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Frame",
           "normalized": "Frame String[URL][Container]",
@@ -1001,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader (int is size)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Header",
           "package": "frame",
@@ -1011,6 +1096,7 @@
         "index": {
           "description": "Header int is size",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Header",
           "normalized": "Header Int[Element]",
@@ -1027,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHidden field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "HiddenField",
           "package": "frame",
@@ -1037,6 +1124,7 @@
         "index": {
           "description": "Hidden field",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "HiddenField",
           "package": "frame",
@@ -1051,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Image",
           "package": "frame",
@@ -1061,6 +1150,7 @@
         "index": {
           "description": "Image element",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Image",
           "package": "frame",
@@ -1074,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Line",
           "package": "frame",
@@ -1083,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Line",
           "package": "frame",
@@ -1097,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement wrapped in a link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Link",
           "package": "frame",
@@ -1107,6 +1200,7 @@
         "index": {
           "description": "Element wrapped in link",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Link",
           "package": "frame",
@@ -1121,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists contain list items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "List",
           "package": "frame",
@@ -1131,6 +1226,7 @@
         "index": {
           "description": "Lists contain list items",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "List",
           "normalized": "List[[Container]][Class]",
@@ -1147,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists contain list items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "NumList",
           "package": "frame",
@@ -1157,6 +1254,7 @@
         "index": {
           "description": "Lists contain list items",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "NumList",
           "normalized": "NumList[[Container]][Class]",
@@ -1173,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePanel matches up with a div when output as HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Panel",
           "package": "frame",
@@ -1183,6 +1282,7 @@
         "index": {
           "description": "Panel matches up with div when output as HTML",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Panel",
           "normalized": "Panel[Container][Class]",
@@ -1199,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParagraphs can only only contain elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Paragraph",
           "package": "frame",
@@ -1209,6 +1310,7 @@
         "index": {
           "description": "Paragraphs can only only contain elements",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Paragraph",
           "normalized": "Paragraph[Element][Class]",
@@ -1225,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuote\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Quote",
           "package": "frame",
@@ -1235,6 +1338,7 @@
         "index": {
           "description": "Quote",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Quote",
           "normalized": "Quote[Container]",
@@ -1251,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement wrapped in a link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Strong",
           "package": "frame",
@@ -1261,6 +1366,7 @@
         "index": {
           "description": "Element wrapped in link",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Strong",
           "normalized": "Strong[Element]",
@@ -1277,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTextual element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "Text",
           "package": "frame",
@@ -1287,6 +1394,7 @@
         "index": {
           "description": "Textual element",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "Text",
           "package": "frame",
@@ -1301,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLarger text box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "TextArea",
           "package": "frame",
@@ -1311,6 +1420,7 @@
         "index": {
           "description": "Larger text box",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "TextArea",
           "package": "frame",
@@ -1325,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard text box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.GUI",
           "name": "TextField",
           "package": "frame",
@@ -1335,6 +1446,7 @@
         "index": {
           "description": "Standard text box",
           "hierarchy": "Frame GUI",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.GUI",
           "name": "TextField",
           "package": "frame",
@@ -1349,6 +1461,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigh level model helpers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "Model",
           "package": "frame",
@@ -1358,6 +1471,7 @@
         "index": {
           "description": "High level model helpers",
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "Model",
           "package": "frame",
@@ -1371,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "FrameIO",
           "package": "frame",
@@ -1379,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "FrameIO",
           "package": "frame",
@@ -1392,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "FrameModel",
           "package": "frame",
@@ -1400,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "FrameModel",
           "package": "frame",
@@ -1438,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "field",
           "package": "frame",
@@ -1447,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "field",
           "normalized": "DBInfo-\u003eFieldName-\u003ea-\u003e(FieldName,WrapperType)",
@@ -1462,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function for creating a qualified attribute name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "fieldName",
           "package": "frame",
@@ -1471,6 +1592,7 @@
         "index": {
           "description": "Convenience function for creating qualified attribute name",
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "fieldName",
           "normalized": "String-\u003eString-\u003eString",
@@ -1486,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "liftIO",
           "package": "frame",
@@ -1494,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -1510,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the fields updated by some model action and merge them in to the state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "merge",
           "package": "frame",
@@ -1520,6 +1645,7 @@
         "index": {
           "description": "Take the fields updated by some model action and merge them in to the state",
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "merge",
           "normalized": "a(Maybe Fields)-\u003ea(Maybe Fields)",
@@ -1535,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould a form have been posted and all of the fields validate, run some\n      computation which maps fields to a model (with an empty return type)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "posted",
           "package": "frame",
@@ -1544,6 +1671,7 @@
         "index": {
           "description": "Should form have been posted and all of the fields validate run some computation which maps fields to model with an empty return type",
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "posted",
           "normalized": "(Fields-\u003ea b)-\u003ea Bool",
@@ -1559,6 +1687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a database function against the DB\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "run",
           "package": "frame",
@@ -1568,6 +1697,7 @@
         "index": {
           "description": "Execute database function against the DB",
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "run",
           "normalized": "(Database-\u003ea b)-\u003ea b",
@@ -1583,6 +1713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the name of a table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "tableName",
           "package": "frame",
@@ -1592,6 +1723,7 @@
         "index": {
           "description": "Get the name of table",
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "tableName",
           "normalized": "Table a-\u003eTableName",
@@ -1607,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "wrapBoolField",
           "package": "frame",
@@ -1616,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "wrapBoolField",
           "normalized": "FieldName-\u003eBool-\u003e(FieldName,WrapperType)",
@@ -1631,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "wrapIntField",
           "package": "frame",
@@ -1640,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "wrapIntField",
           "normalized": "FieldName-\u003eInt-\u003e(FieldName,WrapperType)",
@@ -1655,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "wrapMaybeIntField",
           "package": "frame",
@@ -1664,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "wrapMaybeIntField",
           "normalized": "FieldName-\u003eMaybe Int-\u003e(FieldName,WrapperType)",
@@ -1679,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Model",
           "name": "wrapStringField",
           "package": "frame",
@@ -1688,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Frame Model",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Model",
           "name": "wrapStringField",
           "normalized": "FieldName-\u003eBoundedList Char a-\u003e(FieldName,WrapperType)",
@@ -1704,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinitions and functions for building a router\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Router",
           "name": "Router",
           "package": "frame",
@@ -1713,6 +1854,7 @@
         "index": {
           "description": "Definitions and functions for building router",
           "hierarchy": "Frame Router",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Router",
           "name": "Router",
           "package": "frame",
@@ -1726,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Router",
           "name": "FrameRouter",
           "package": "frame",
@@ -1734,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Frame Router",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Router",
           "name": "FrameRouter",
           "package": "frame",
@@ -1748,6 +1892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA router maps from a path (list of URL parts) to some \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Router",
           "name": "Router",
           "package": "frame",
@@ -1757,6 +1902,7 @@
         "index": {
           "description": "router maps from path list of URL parts to some Data",
           "hierarchy": "Frame Router",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Router",
           "name": "Router",
           "package": "frame",
@@ -1771,6 +1917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efileFolder\u003c/a\u003e\u003c/code\u003e function maps a URL to a filesystem folder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Router",
           "name": "fileFolder",
           "package": "frame",
@@ -1780,6 +1927,7 @@
         "index": {
           "description": "The fileFolder function maps URL to filesystem folder",
           "hierarchy": "Frame Router",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Router",
           "name": "fileFolder",
           "normalized": "String-\u003e[String]-\u003ea Data",
@@ -1796,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a given router and validators against request information from the\n      server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Router",
           "name": "startRouter",
           "package": "frame",
@@ -1805,6 +1954,7 @@
         "index": {
           "description": "Executes given router and validators against request information from the server",
           "hierarchy": "Frame Router",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Router",
           "name": "startRouter",
           "normalized": "Router-\u003eConfig-\u003eValidators-\u003e[(FieldName,String)]-\u003eString-\u003eString-\u003eBool-\u003eIO Data",
@@ -1820,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Server",
           "name": "Server",
           "package": "frame",
@@ -1828,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Frame Server",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Server",
           "name": "Server",
           "package": "frame",
@@ -1842,6 +1994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart Frame using FastCGI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Server",
           "name": "server",
           "package": "frame",
@@ -1851,6 +2004,7 @@
         "index": {
           "description": "Start Frame using FastCGI",
           "hierarchy": "Frame Server",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Server",
           "name": "server",
           "normalized": "Router-\u003eConfig-\u003eValidators-\u003eIO()",
@@ -1866,6 +2020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a test server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Server",
           "name": "testServer",
           "package": "frame",
@@ -1875,6 +2030,7 @@
         "index": {
           "description": "Start test server",
           "hierarchy": "Frame Server",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Server",
           "name": "testServer",
           "normalized": "Router-\u003eConfig-\u003eValidators-\u003eIO()",
@@ -1891,6 +2047,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines functions for state that can persist accross server requests\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "Session",
           "package": "frame",
@@ -1900,6 +2057,7 @@
         "index": {
           "description": "Defines functions for state that can persist accross server requests",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "Session",
           "package": "frame",
@@ -1914,6 +2072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a particular field to the session from the fields in the state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "copyFromSession",
           "package": "frame",
@@ -1923,6 +2082,7 @@
         "index": {
           "description": "Copy particular field to the session from the fields in the state",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "copyFromSession",
           "normalized": "FieldName-\u003ea()",
@@ -1939,6 +2099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a particular field to the session from the fields in the state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "copyToSession",
           "package": "frame",
@@ -1948,6 +2109,7 @@
         "index": {
           "description": "Copy particular field to the session from the fields in the state",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "copyToSession",
           "normalized": "FieldName-\u003ea()",
@@ -1964,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes a specific field in the session by the given field name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "delSessionField",
           "package": "frame",
@@ -1973,6 +2136,7 @@
         "index": {
           "description": "Deletes specific field in the session by the given field name",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "delSessionField",
           "normalized": "FieldName-\u003ea()",
@@ -1989,6 +2153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes a session from persistent storage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "deleteSession",
           "package": "frame",
@@ -1999,6 +2164,7 @@
         "index": {
           "description": "Deletes session from persistent storage",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "deleteSession",
           "normalized": "a()",
@@ -2015,6 +2181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a router, flashes the current message to screen before deleting it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "flash",
           "package": "frame",
@@ -2024,6 +2191,7 @@
         "index": {
           "description": "Given router flashes the current message to screen before deleting it",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "flash",
           "normalized": "a Data-\u003ea Data",
@@ -2039,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a unique session ID \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "genSessionId",
           "package": "frame",
@@ -2049,6 +2218,7 @@
         "index": {
           "description": "Generate unique session ID",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "genSessionId",
           "package": "frame",
@@ -2062,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "getDelFlash",
           "package": "frame",
@@ -2071,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "getDelFlash",
           "package": "frame",
@@ -2085,6 +2257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a field from the session by FieldName\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "getSessionField",
           "package": "frame",
@@ -2094,6 +2267,7 @@
         "index": {
           "description": "Get field from the session by FieldName",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "getSessionField",
           "normalized": "FieldName-\u003ea(Maybe WrapperType)",
@@ -2110,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves a session to persistent storage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "saveSession",
           "package": "frame",
@@ -2120,6 +2295,7 @@
         "index": {
           "description": "Saves session to persistent storage",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "saveSession",
           "normalized": "a()",
@@ -2136,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecovers a session from persistent storage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "startSession",
           "package": "frame",
@@ -2146,6 +2323,7 @@
         "index": {
           "description": "Recovers session from persistent storage",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "startSession",
           "package": "frame",
@@ -2160,6 +2338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverwrite a message to be flashed to the screen (persisting across requests)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "updateFlash",
           "package": "frame",
@@ -2169,6 +2348,7 @@
         "index": {
           "description": "Overwrite message to be flashed to the screen persisting across requests",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "updateFlash",
           "normalized": "String-\u003ea()",
@@ -2185,6 +2365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function when running a router, starting and saving a function before\n      and after the router is run\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Session",
           "name": "withSession",
           "package": "frame",
@@ -2194,6 +2375,7 @@
         "index": {
           "description": "convenience function when running router starting and saving function before and after the router is run",
           "hierarchy": "Frame Session",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Session",
           "name": "withSession",
           "normalized": "([String]-\u003ea b)-\u003e[String]-\u003ea b",
@@ -2210,6 +2392,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe state contains mutable environmental variables such as posted form fields,\n      field validators and the session\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "State",
           "package": "frame",
@@ -2219,6 +2402,7 @@
         "index": {
           "description": "The state contains mutable environmental variables such as posted form fields field validators and the session",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "State",
           "package": "frame",
@@ -2232,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "FrameReader",
           "package": "frame",
@@ -2240,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "FrameReader",
           "package": "frame",
@@ -2253,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "FrameState",
           "package": "frame",
@@ -2261,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "FrameState",
           "package": "frame",
@@ -2275,6 +2463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "Vars",
           "package": "frame",
@@ -2284,6 +2473,7 @@
         "index": {
           "description": "The state record",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "Vars",
           "package": "frame",
@@ -2297,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "Vars",
           "package": "frame",
@@ -2306,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "Vars",
           "package": "frame",
@@ -2320,6 +2512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this an AJAX request?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "ajax",
           "package": "frame",
@@ -2330,6 +2523,7 @@
         "index": {
           "description": "Is this an AJAX request",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "ajax",
           "package": "frame",
@@ -2343,6 +2537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes a specific field in the state by the given field name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "delField",
           "package": "frame",
@@ -2352,6 +2547,7 @@
         "index": {
           "description": "Deletes specific field in the state by the given field name",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "delField",
           "normalized": "FieldName-\u003ea()",
@@ -2368,6 +2564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosted fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "fields",
           "package": "frame",
@@ -2378,6 +2575,7 @@
         "index": {
           "description": "Posted fields",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "fields",
           "package": "frame",
@@ -2391,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides get access to the state, mirroring Control.Monad.State.get\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "get",
           "package": "frame",
@@ -2401,6 +2600,7 @@
         "index": {
           "description": "Provides get access to the state mirroring Control.Monad.State.get",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "get",
           "package": "frame",
@@ -2414,6 +2614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooks up a specific field in the state by the given field name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "getField",
           "package": "frame",
@@ -2423,6 +2624,7 @@
         "index": {
           "description": "Looks up specific field in the state by the given field name",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "getField",
           "normalized": "FieldName-\u003ea(Maybe WrapperType)",
@@ -2439,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up validators functions for a particular field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "getValidator",
           "package": "frame",
@@ -2448,6 +2651,7 @@
         "index": {
           "description": "Look up validators functions for particular field",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "getValidator",
           "normalized": "FieldName-\u003ea(Maybe[WrapperType-\u003eMaybe String])",
@@ -2464,6 +2668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a specific component from the state, using the supplied projection function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "gets",
           "package": "frame",
@@ -2473,6 +2678,7 @@
         "index": {
           "description": "Gets specific component from the state using the supplied projection function",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "gets",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -2488,6 +2694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges the given fields with the existing state (existing state fields are favoured)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "mergeFields",
           "package": "frame",
@@ -2497,6 +2704,7 @@
         "index": {
           "description": "Merges the given fields with the existing state existing state fields are favoured",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "mergeFields",
           "normalized": "Maybe Fields-\u003ea()",
@@ -2513,6 +2721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHas a form been posted?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "post",
           "package": "frame",
@@ -2523,6 +2732,7 @@
         "index": {
           "description": "Has form been posted",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "post",
           "package": "frame",
@@ -2536,6 +2746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides get access to the state, mirroring Control.Monad.State.put\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "put",
           "package": "frame",
@@ -2546,6 +2757,7 @@
         "index": {
           "description": "Provides get access to the state mirroring Control.Monad.State.put",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "put",
           "normalized": "a-\u003eb()",
@@ -2561,6 +2773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociate a value with a FieldName in the state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "putField",
           "package": "frame",
@@ -2570,6 +2783,7 @@
         "index": {
           "description": "Associate value with FieldName in the state",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "putField",
           "normalized": "FieldName-\u003ea-\u003eb()",
@@ -2586,6 +2800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces the fields in the state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "putFields",
           "package": "frame",
@@ -2595,6 +2810,7 @@
         "index": {
           "description": "Replaces the fields in the state",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "putFields",
           "normalized": "Fields-\u003ea()",
@@ -2611,6 +2827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociate a set of validator functions with a FieldName in the state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "putValidator",
           "package": "frame",
@@ -2620,6 +2837,7 @@
         "index": {
           "description": "Associate set of validator functions with FieldName in the state",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "putValidator",
           "normalized": "FieldName-\u003e[WrapperType-\u003eMaybe String]-\u003ea()",
@@ -2636,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces the Validators in the state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "putValidators",
           "package": "frame",
@@ -2645,6 +2864,7 @@
         "index": {
           "description": "Replaces the Validators in the state",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "putValidators",
           "normalized": "Validators-\u003ea()",
@@ -2661,6 +2881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "session",
           "package": "frame",
@@ -2671,6 +2892,7 @@
         "index": {
           "description": "Session fields",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "session",
           "package": "frame",
@@ -2683,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "setPost",
           "package": "frame",
@@ -2692,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "setPost",
           "normalized": "Bool-\u003ea()",
@@ -2708,6 +2932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default empty start state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "startState",
           "package": "frame",
@@ -2718,6 +2943,7 @@
         "index": {
           "description": "default empty start state",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "startState",
           "package": "frame",
@@ -2732,6 +2958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField validation functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.State",
           "name": "validators",
           "package": "frame",
@@ -2742,6 +2969,7 @@
         "index": {
           "description": "Field validation functions",
           "hierarchy": "Frame State",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.State",
           "name": "validators",
           "package": "frame",
@@ -2755,6 +2983,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines a homogenous collection of field types to interface typeless\n      HTTP and HTML with the application and with HaskellDB\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "Types",
           "package": "frame",
@@ -2764,6 +2993,7 @@
         "index": {
           "description": "Defines homogenous collection of field types to interface typeless HTTP and HTML with the application and with HaskellDB",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "Types",
           "package": "frame",
@@ -2778,6 +3008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel for a specific field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "FieldName",
           "package": "frame",
@@ -2787,6 +3018,7 @@
         "index": {
           "description": "Label for specific field",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "FieldName",
           "package": "frame",
@@ -2801,6 +3033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollection of heterogenous fields associated by \u003ccode\u003e\u003ca\u003eFieldName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "Fields",
           "package": "frame",
@@ -2810,6 +3043,7 @@
         "index": {
           "description": "Collection of heterogenous fields associated by FieldName",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "Fields",
           "package": "frame",
@@ -2823,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "Wrappable",
           "package": "frame",
@@ -2831,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "Wrappable",
           "package": "frame",
@@ -2845,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeterogeneous type wrapper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "WrapperType",
           "package": "frame",
@@ -2854,6 +3091,7 @@
         "index": {
           "description": "Heterogeneous type wrapper",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "WrapperType",
           "package": "frame",
@@ -2868,6 +3106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBool wrapper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "WrapBool",
           "package": "frame",
@@ -2878,6 +3117,7 @@
         "index": {
           "description": "Bool wrapper",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "WrapBool",
           "package": "frame",
@@ -2892,6 +3132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "WrapEmpty",
           "package": "frame",
@@ -2902,6 +3143,7 @@
         "index": {
           "description": "Empty type",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "WrapEmpty",
           "package": "frame",
@@ -2916,6 +3158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType error (specific case of error)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "WrapError",
           "package": "frame",
@@ -2926,6 +3169,7 @@
         "index": {
           "description": "Type error specific case of error",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "WrapError",
           "package": "frame",
@@ -2940,6 +3184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInt wrappr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "WrapInt",
           "package": "frame",
@@ -2950,6 +3195,7 @@
         "index": {
           "description": "Int wrappr",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "WrapInt",
           "package": "frame",
@@ -2964,6 +3210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString wrapper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "WrapString",
           "package": "frame",
@@ -2974,6 +3221,7 @@
         "index": {
           "description": "String wrapper",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "WrapString",
           "package": "frame",
@@ -2988,6 +3236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial version of \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e that also wraps fields as it goes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "fromList'",
           "package": "frame",
@@ -2997,6 +3246,7 @@
         "index": {
           "description": "Special version of fromList that also wraps fields as it goes",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "fromList'",
           "normalized": "DBInfo-\u003e[(FieldName,String)]-\u003eMap FieldName WrapperType",
@@ -3012,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "isMandatory",
           "package": "frame",
@@ -3021,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "isMandatory",
           "normalized": "DBInfo-\u003eFieldName-\u003eMaybe Bool",
@@ -3037,6 +3289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA potential \u003ccode\u003e\u003ca\u003eWrapperType\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eWrapEmpty\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "maybeUnwrap",
           "package": "frame",
@@ -3046,6 +3299,7 @@
         "index": {
           "description": "potential WrapperType is WrapEmpty if Nothing",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "maybeUnwrap",
           "normalized": "Maybe WrapperType-\u003eWrapperType",
@@ -3062,6 +3316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePurge non mandatory empty fields \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "purge",
           "package": "frame",
@@ -3071,6 +3326,7 @@
         "index": {
           "description": "Purge non mandatory empty fields",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "purge",
           "normalized": "DBInfo-\u003eFields-\u003eFields",
@@ -3086,6 +3342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCasts the \u003ccode\u003e\u003ca\u003eFieldName\u003c/a\u003e\u003c/code\u003e in fields to string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "showField",
           "package": "frame",
@@ -3095,6 +3352,7 @@
         "index": {
           "description": "Casts the FieldName in fields to string",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "showField",
           "normalized": "FieldName-\u003eFields-\u003eString",
@@ -3111,6 +3369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to unwrap a \u003ccode\u003e\u003ca\u003eWrapperType\u003c/a\u003e\u003c/code\u003e to its original type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "unwrap",
           "package": "frame",
@@ -3121,6 +3380,7 @@
         "index": {
           "description": "Function to unwrap WrapperType to its original type",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "unwrap",
           "package": "frame",
@@ -3133,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "unwrapField",
           "package": "frame",
@@ -3142,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "unwrapField",
           "normalized": "FieldName-\u003eFields-\u003eMaybe a",
@@ -3158,6 +3420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to wrap a value associated with a given \u003ccode\u003e\u003ca\u003eFieldName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "wrap",
           "package": "frame",
@@ -3168,6 +3431,7 @@
         "index": {
           "description": "Function to wrap value associated with given FieldName",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "wrap",
           "package": "frame",
@@ -3181,6 +3445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e representation of a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "wrapBool",
           "package": "frame",
@@ -3191,6 +3456,7 @@
         "index": {
           "description": "Wrap String representation of Bool",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "wrapBool",
           "normalized": "String-\u003eWrapperType",
@@ -3207,6 +3473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an error message if there has been a wrapping error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "wrapError",
           "package": "frame",
@@ -3216,6 +3483,7 @@
         "index": {
           "description": "Returns an error message if there has been wrapping error",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "wrapError",
           "normalized": "WrapperType-\u003eString",
@@ -3232,6 +3500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e representation of an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Types",
           "name": "wrapInt",
           "package": "frame",
@@ -3242,6 +3511,7 @@
         "index": {
           "description": "Wrap String representation of an Int",
           "hierarchy": "Frame Types",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Types",
           "name": "wrapInt",
           "normalized": "String-\u003eWrapperType",
@@ -3258,6 +3528,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon helper functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "Utilities",
           "package": "frame",
@@ -3267,6 +3538,7 @@
         "index": {
           "description": "Common helper functions",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "Utilities",
           "package": "frame",
@@ -3281,6 +3553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCaptures failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "(?)",
           "package": "frame",
@@ -3290,6 +3563,7 @@
         "index": {
           "description": "Captures failure",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "(?) ?",
           "normalized": "Bool-\u003eString-\u003eMaybe String",
@@ -3305,6 +3579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as (?), always returns a string ('''' on success)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "(??)",
           "package": "frame",
@@ -3315,6 +3590,7 @@
         "index": {
           "description": "Same as always returns string on success",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "(??) ??",
           "normalized": "Bool-\u003eString-\u003eString",
@@ -3330,6 +3606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e == True\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "allNothing",
           "package": "frame",
@@ -3340,6 +3617,7 @@
         "index": {
           "description": "List of Nothing True",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "allNothing",
           "normalized": "[Maybe a]-\u003eBool",
@@ -3356,6 +3634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction application within \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "appMaybe",
           "package": "frame",
@@ -3366,6 +3645,7 @@
         "index": {
           "description": "Function application within Maybe",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "appMaybe",
           "normalized": "(a-\u003eb)-\u003eMaybe a-\u003eMaybe b",
@@ -3382,6 +3662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003ewords\u003c/a\u003e\u003c/code\u003e except splitting against arbitrary \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "explode",
           "package": "frame",
@@ -3391,6 +3672,7 @@
         "index": {
           "description": "Similar to words except splitting against arbitrary Char",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "explode",
           "normalized": "Char-\u003eString-\u003e[String]",
@@ -3406,6 +3688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplode for field names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "explodeFieldName",
           "package": "frame",
@@ -3415,6 +3698,7 @@
         "index": {
           "description": "Explode for field names",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "explodeFieldName",
           "normalized": "String-\u003e(Int,[String])",
@@ -3431,6 +3715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplode for URLs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "explodeURL",
           "package": "frame",
@@ -3441,6 +3726,7 @@
         "index": {
           "description": "Explode for URLs",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "explodeURL",
           "normalized": "String-\u003e[String]",
@@ -3457,6 +3743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafe head\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "headMaybe",
           "package": "frame",
@@ -3467,6 +3754,7 @@
         "index": {
           "description": "Safe head",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "headMaybe",
           "normalized": "[a]-\u003eMaybe a",
@@ -3483,6 +3771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e''hi there'' to ''Hi There''\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "humanise",
           "package": "frame",
@@ -3493,6 +3782,7 @@
         "index": {
           "description": "hi there to Hi There",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "humanise",
           "normalized": "String-\u003eString",
@@ -3508,6 +3798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e''camelCase'' to ''Camel Case''\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "humaniseCamel",
           "package": "frame",
@@ -3518,6 +3809,7 @@
         "index": {
           "description": "camelCase to Camel Case",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "humaniseCamel",
           "normalized": "String-\u003eString",
@@ -3534,6 +3826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e[''a'', ''url''] to ''A Url''\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "humanisePath",
           "package": "frame",
@@ -3544,6 +3837,7 @@
         "index": {
           "description": "url to Url",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "humanisePath",
           "normalized": "[String]-\u003eString-\u003eString",
@@ -3560,6 +3854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e''/a/url'' to ''A Url''\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "humaniseUrl",
           "package": "frame",
@@ -3570,6 +3865,7 @@
         "index": {
           "description": "url to Url",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "humaniseUrl",
           "normalized": "String-\u003eString-\u003eString",
@@ -3586,6 +3882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpposite of explode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "implode",
           "package": "frame",
@@ -3596,6 +3893,7 @@
         "index": {
           "description": "Opposite of explode",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "implode",
           "normalized": "Char-\u003e[String]-\u003eString",
@@ -3611,6 +3909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplode for URLs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "implodeUrl",
           "package": "frame",
@@ -3621,6 +3920,7 @@
         "index": {
           "description": "Implode for URLs",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "implodeUrl",
           "normalized": "[String]-\u003eString",
@@ -3637,6 +3937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e == \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "maybeMaybe",
           "package": "frame",
@@ -3647,6 +3948,7 @@
         "index": {
           "description": "Maybe Maybe Maybe",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "maybeMaybe",
           "normalized": "Maybe(Maybe a)-\u003eMaybe a",
@@ -3663,6 +3965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic safe head\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Utilities",
           "name": "pop",
           "package": "frame",
@@ -3673,6 +3976,7 @@
         "index": {
           "description": "Monadic safe head",
           "hierarchy": "Frame Utilities",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Utilities",
           "name": "pop",
           "normalized": "a[b]-\u003ea(Maybe b)",
@@ -3688,6 +3992,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for validation of fields\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Validation",
           "name": "Validation",
           "package": "frame",
@@ -3697,6 +4002,7 @@
         "index": {
           "description": "Functions for validation of fields",
           "hierarchy": "Frame Validation",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Validation",
           "name": "Validation",
           "package": "frame",
@@ -3711,6 +4017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA validator is a map associating field names to a list of functions taking a\n      wrapped type to a potential (error) string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Validation",
           "name": "Validators",
           "package": "frame",
@@ -3720,6 +4027,7 @@
         "index": {
           "description": "validator is map associating field names to list of functions taking wrapped type to potential error string",
           "hierarchy": "Frame Validation",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Validation",
           "name": "Validators",
           "package": "frame",
@@ -3734,6 +4042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if all fields validate against a set of validators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Validation",
           "name": "allValidated",
           "package": "frame",
@@ -3744,6 +4053,7 @@
         "index": {
           "description": "True if all fields validate against set of validators",
           "hierarchy": "Frame Validation",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Validation",
           "name": "allValidated",
           "normalized": "Validators-\u003eFields-\u003eBool",
@@ -3760,6 +4070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust be greater than a given number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Validation",
           "name": "greaterThan",
           "package": "frame",
@@ -3769,6 +4080,7 @@
         "index": {
           "description": "Must be greater than given number",
           "hierarchy": "Frame Validation",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Validation",
           "name": "greaterThan",
           "normalized": "Int-\u003eWrapperType-\u003eMaybe String",
@@ -3785,6 +4097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCannot be empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Validation",
           "name": "notEmpty",
           "package": "frame",
@@ -3794,6 +4107,7 @@
         "index": {
           "description": "Cannot be empty",
           "hierarchy": "Frame Validation",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Validation",
           "name": "notEmpty",
           "normalized": "WrapperType-\u003eMaybe String",
@@ -3810,6 +4124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust be shorter than a given length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Validation",
           "name": "shorterThan",
           "package": "frame",
@@ -3819,6 +4134,7 @@
         "index": {
           "description": "Must be shorter than given length",
           "hierarchy": "Frame Validation",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Validation",
           "name": "shorterThan",
           "normalized": "Int-\u003eWrapperType-\u003eMaybe String",
@@ -3835,6 +4151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate a whole set of fields against a set of validators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Validation",
           "name": "validate",
           "package": "frame",
@@ -3845,6 +4162,7 @@
         "index": {
           "description": "Validate whole set of fields against set of validators",
           "hierarchy": "Frame Validation",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Validation",
           "name": "validate",
           "normalized": "Validators-\u003eFields-\u003eMap FieldName[Maybe String]",
@@ -3860,6 +4178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate a particular field against a list of validators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Validation",
           "name": "validateField",
           "package": "frame",
@@ -3870,6 +4189,7 @@
         "index": {
           "description": "Validate particular field against list of validators",
           "hierarchy": "Frame Validation",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Validation",
           "name": "validateField",
           "normalized": "[WrapperType-\u003eMaybe String]-\u003eWrapperType-\u003e[Maybe String]",
@@ -3886,6 +4206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type level check to make sure a string is within the bounds defined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.Validation",
           "name": "withinBounds",
           "package": "frame",
@@ -3895,6 +4216,7 @@
         "index": {
           "description": "type level check to make sure string is within the bounds defined",
           "hierarchy": "Frame Validation",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.Validation",
           "name": "withinBounds",
           "normalized": "WrapperType-\u003eMaybe String",
@@ -3911,6 +4233,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigh level view helpers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "View",
           "package": "frame",
@@ -3920,6 +4243,7 @@
         "index": {
           "description": "High level view helpers",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "View",
           "package": "frame",
@@ -3933,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "FrameView",
           "package": "frame",
@@ -3941,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "FrameView",
           "package": "frame",
@@ -3955,6 +4281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for a cancel link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "cancelLink",
           "package": "frame",
@@ -3964,6 +4291,7 @@
         "index": {
           "description": "Helper function for cancel link",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "cancelLink",
           "normalized": "URL-\u003eFormElement",
@@ -3980,6 +4308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for a delete link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "deleteLink",
           "package": "frame",
@@ -3989,6 +4318,7 @@
         "index": {
           "description": "Helper function for delete link",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "deleteLink",
           "normalized": "URL-\u003eFormElement",
@@ -4005,6 +4335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for generating a potential error list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "errorList",
           "package": "frame",
@@ -4014,6 +4345,7 @@
         "index": {
           "description": "Helper function for generating potential error list",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "errorList",
           "normalized": "[String]-\u003eMaybe Container",
@@ -4030,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to create a simple form with a single group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "form",
           "package": "frame",
@@ -4039,6 +4372,7 @@
         "index": {
           "description": "Helper function to create simple form with single group",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "form",
           "normalized": "Label-\u003e[FormElement]-\u003e[String]-\u003eContainer",
@@ -4054,6 +4388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for creating a form field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "formField",
           "package": "frame",
@@ -4063,6 +4398,7 @@
         "index": {
           "description": "Helper function for creating form field",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "formField",
           "normalized": "FieldName-\u003eLabel-\u003eFormValue-\u003eMaybe Int-\u003e[String]-\u003eBool-\u003eFormElement",
@@ -4079,6 +4415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a form based on a database description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "formGen",
           "package": "frame",
@@ -4088,6 +4425,7 @@
         "index": {
           "description": "Generates form based on database description",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "formGen",
           "normalized": "Table a-\u003e[FormElement]-\u003e[String]-\u003eb Container",
@@ -4104,6 +4442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a link with just a text element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "link",
           "package": "frame",
@@ -4113,6 +4452,7 @@
         "index": {
           "description": "Creates link with just text element",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "link",
           "normalized": "URL-\u003eString-\u003eElement",
@@ -4128,6 +4468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract list generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "list",
           "package": "frame",
@@ -4137,6 +4478,7 @@
         "index": {
           "description": "Abstract list generator",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "list",
           "normalized": "(a-\u003eContainer)-\u003e[a]-\u003e[Class]-\u003eContainer",
@@ -4152,6 +4494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to create a single simple element paragraph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "paragraph",
           "package": "frame",
@@ -4161,6 +4504,7 @@
         "index": {
           "description": "Helper function to create single simple element paragraph",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "paragraph",
           "normalized": "Element-\u003eContainer",
@@ -4176,6 +4520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for a submit button\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "submitButton",
           "package": "frame",
@@ -4186,6 +4531,7 @@
         "index": {
           "description": "Helper function for submit button",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "submitButton",
           "package": "frame",
@@ -4200,6 +4546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates element level text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "text",
           "package": "frame",
@@ -4209,6 +4556,7 @@
         "index": {
           "description": "Creates element level text",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "text",
           "normalized": "String-\u003eElement",
@@ -4224,6 +4572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etitle\u003c/a\u003e\u003c/code\u003e function wraps a ViewPart in a View if not an Ajax request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame.View",
           "name": "title",
           "package": "frame",
@@ -4233,6 +4582,7 @@
         "index": {
           "description": "The title function wraps ViewPart in View if not an Ajax request",
           "hierarchy": "Frame View",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame.View",
           "name": "title",
           "normalized": "String-\u003ea Data-\u003ea Data",
@@ -4247,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:58 UTC 2014",
           "module": "Frame",
           "name": "Frame",
           "package": "frame",
@@ -4255,6 +4606,7 @@
         },
         "index": {
           "hierarchy": "Frame",
+          "indexed": "2014-03-11T18:11:58",
           "module": "Frame",
           "name": "Frame",
           "package": "frame",

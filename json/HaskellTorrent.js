@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HaskellTorrent"
+        "phrase": "HaskellTorrent",
+        "type": "phrase"
       },
       "type": "context"
     }

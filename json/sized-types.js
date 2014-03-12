@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sized-types"
+        "phrase": "sized-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic type-level arithmetic, using base two.\n\u003c/p\u003e\u003cp\u003eCopyright: (c) 2009 University of Kansas\n License: BSD3\n\u003c/p\u003e\u003cp\u003eMaintainer: Andy Gill \u003ca\u003eandygill@ku.edu\u003c/a\u003e\n Stability: unstable\n Portability: ghc\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "Arith",
           "package": "sized-types",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Basic type-level arithmetic using base two Copyright University of Kansas License BSD3 Maintainer Andy Gill andygill@ku.edu Stability unstable Portability ghc",
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "Arith",
           "package": "sized-types",
@@ -63,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "APP0",
           "package": "sized-types",
@@ -71,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "APP0",
           "package": "sized-types",
@@ -84,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "APP1",
           "package": "sized-types",
@@ -92,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "APP1",
           "package": "sized-types",
@@ -105,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "LOG",
           "package": "sized-types",
@@ -113,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "LOG",
           "package": "sized-types",
@@ -126,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "MUL",
           "package": "sized-types",
@@ -134,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "MUL",
           "package": "sized-types",
@@ -147,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "N1",
           "package": "sized-types",
@@ -155,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "N1",
           "package": "sized-types",
@@ -167,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "NOT",
           "package": "sized-types",
@@ -175,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "NOT",
           "package": "sized-types",
@@ -188,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "SUB",
           "package": "sized-types",
@@ -196,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "SUB",
           "package": "sized-types",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "SUCC",
           "package": "sized-types",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "SUCC",
           "package": "sized-types",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "X0",
           "package": "sized-types",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "X0",
           "package": "sized-types",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "X0_",
           "package": "sized-types",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "X0_",
           "package": "sized-types",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "X1_",
           "package": "sized-types",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "X1_",
           "package": "sized-types",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "X0",
           "package": "sized-types",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "X0",
           "package": "sized-types",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "X0_",
           "package": "sized-types",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "X0_",
           "package": "sized-types",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Arith",
           "name": "X1_",
           "package": "sized-types",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Arith",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Arith",
           "name": "X1_",
           "package": "sized-types",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSized types X0 to X256.\n\u003c/p\u003e\u003cp\u003eCopyright: (c) 2009 University of Kansas\n License: BSD3\n\u003c/p\u003e\u003cp\u003eMaintainer: Andy Gill \u003ca\u003eandygill@ku.edu\u003c/a\u003e\n Stability: unstable\n Portability: ghc\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "Ix",
           "package": "sized-types",
@@ -363,6 +394,7 @@
         "index": {
           "description": "Sized types X0 to X256 Copyright University of Kansas License BSD3 Maintainer Andy Gill andygill@ku.edu Stability unstable Portability ghc",
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "Ix",
           "package": "sized-types",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "Index",
           "package": "sized-types",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "Index",
           "package": "sized-types",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "SUB",
           "package": "sized-types",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "SUB",
           "package": "sized-types",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "Size",
           "package": "sized-types",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "Size",
           "package": "sized-types",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X0",
           "package": "sized-types",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X0",
           "package": "sized-types",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X1",
           "package": "sized-types",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X1",
           "package": "sized-types",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X10",
           "package": "sized-types",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X10",
           "package": "sized-types",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X100",
           "package": "sized-types",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X100",
           "package": "sized-types",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X101",
           "package": "sized-types",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X101",
           "package": "sized-types",
@@ -539,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X102",
           "package": "sized-types",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X102",
           "package": "sized-types",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X103",
           "package": "sized-types",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X103",
           "package": "sized-types",
@@ -579,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X104",
           "package": "sized-types",
@@ -587,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X104",
           "package": "sized-types",
@@ -599,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X105",
           "package": "sized-types",
@@ -607,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X105",
           "package": "sized-types",
@@ -619,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X106",
           "package": "sized-types",
@@ -627,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X106",
           "package": "sized-types",
@@ -639,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X107",
           "package": "sized-types",
@@ -647,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X107",
           "package": "sized-types",
@@ -659,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X108",
           "package": "sized-types",
@@ -667,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X108",
           "package": "sized-types",
@@ -679,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X109",
           "package": "sized-types",
@@ -687,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X109",
           "package": "sized-types",
@@ -699,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X11",
           "package": "sized-types",
@@ -707,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X11",
           "package": "sized-types",
@@ -719,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X110",
           "package": "sized-types",
@@ -727,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X110",
           "package": "sized-types",
@@ -739,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X111",
           "package": "sized-types",
@@ -747,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X111",
           "package": "sized-types",
@@ -759,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X112",
           "package": "sized-types",
@@ -767,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X112",
           "package": "sized-types",
@@ -779,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X113",
           "package": "sized-types",
@@ -787,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X113",
           "package": "sized-types",
@@ -799,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X114",
           "package": "sized-types",
@@ -807,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X114",
           "package": "sized-types",
@@ -819,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X115",
           "package": "sized-types",
@@ -827,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X115",
           "package": "sized-types",
@@ -839,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X116",
           "package": "sized-types",
@@ -847,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X116",
           "package": "sized-types",
@@ -859,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X117",
           "package": "sized-types",
@@ -867,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X117",
           "package": "sized-types",
@@ -879,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X118",
           "package": "sized-types",
@@ -887,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X118",
           "package": "sized-types",
@@ -899,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X119",
           "package": "sized-types",
@@ -907,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X119",
           "package": "sized-types",
@@ -919,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X12",
           "package": "sized-types",
@@ -927,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X12",
           "package": "sized-types",
@@ -939,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X120",
           "package": "sized-types",
@@ -947,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X120",
           "package": "sized-types",
@@ -959,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X121",
           "package": "sized-types",
@@ -967,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X121",
           "package": "sized-types",
@@ -979,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X122",
           "package": "sized-types",
@@ -987,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X122",
           "package": "sized-types",
@@ -999,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X123",
           "package": "sized-types",
@@ -1007,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X123",
           "package": "sized-types",
@@ -1019,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X124",
           "package": "sized-types",
@@ -1027,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X124",
           "package": "sized-types",
@@ -1039,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X125",
           "package": "sized-types",
@@ -1047,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X125",
           "package": "sized-types",
@@ -1059,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X126",
           "package": "sized-types",
@@ -1067,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X126",
           "package": "sized-types",
@@ -1079,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X127",
           "package": "sized-types",
@@ -1087,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X127",
           "package": "sized-types",
@@ -1099,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X128",
           "package": "sized-types",
@@ -1107,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X128",
           "package": "sized-types",
@@ -1119,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X129",
           "package": "sized-types",
@@ -1127,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X129",
           "package": "sized-types",
@@ -1139,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X13",
           "package": "sized-types",
@@ -1147,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X13",
           "package": "sized-types",
@@ -1159,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X130",
           "package": "sized-types",
@@ -1167,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X130",
           "package": "sized-types",
@@ -1179,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X131",
           "package": "sized-types",
@@ -1187,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X131",
           "package": "sized-types",
@@ -1199,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X132",
           "package": "sized-types",
@@ -1207,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X132",
           "package": "sized-types",
@@ -1219,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X133",
           "package": "sized-types",
@@ -1227,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X133",
           "package": "sized-types",
@@ -1239,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X134",
           "package": "sized-types",
@@ -1247,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X134",
           "package": "sized-types",
@@ -1259,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X135",
           "package": "sized-types",
@@ -1267,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X135",
           "package": "sized-types",
@@ -1279,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X136",
           "package": "sized-types",
@@ -1287,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X136",
           "package": "sized-types",
@@ -1299,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X137",
           "package": "sized-types",
@@ -1307,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X137",
           "package": "sized-types",
@@ -1319,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X138",
           "package": "sized-types",
@@ -1327,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X138",
           "package": "sized-types",
@@ -1339,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X139",
           "package": "sized-types",
@@ -1347,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X139",
           "package": "sized-types",
@@ -1359,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X14",
           "package": "sized-types",
@@ -1367,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X14",
           "package": "sized-types",
@@ -1379,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X140",
           "package": "sized-types",
@@ -1387,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X140",
           "package": "sized-types",
@@ -1399,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X141",
           "package": "sized-types",
@@ -1407,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X141",
           "package": "sized-types",
@@ -1419,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X142",
           "package": "sized-types",
@@ -1427,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X142",
           "package": "sized-types",
@@ -1439,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X143",
           "package": "sized-types",
@@ -1447,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X143",
           "package": "sized-types",
@@ -1459,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X144",
           "package": "sized-types",
@@ -1467,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X144",
           "package": "sized-types",
@@ -1479,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X145",
           "package": "sized-types",
@@ -1487,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X145",
           "package": "sized-types",
@@ -1499,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X146",
           "package": "sized-types",
@@ -1507,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X146",
           "package": "sized-types",
@@ -1519,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X147",
           "package": "sized-types",
@@ -1527,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X147",
           "package": "sized-types",
@@ -1539,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X148",
           "package": "sized-types",
@@ -1547,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X148",
           "package": "sized-types",
@@ -1559,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X149",
           "package": "sized-types",
@@ -1567,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X149",
           "package": "sized-types",
@@ -1579,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X15",
           "package": "sized-types",
@@ -1587,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X15",
           "package": "sized-types",
@@ -1599,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X150",
           "package": "sized-types",
@@ -1607,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X150",
           "package": "sized-types",
@@ -1619,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X151",
           "package": "sized-types",
@@ -1627,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X151",
           "package": "sized-types",
@@ -1639,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X152",
           "package": "sized-types",
@@ -1647,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X152",
           "package": "sized-types",
@@ -1659,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X153",
           "package": "sized-types",
@@ -1667,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X153",
           "package": "sized-types",
@@ -1679,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X154",
           "package": "sized-types",
@@ -1687,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X154",
           "package": "sized-types",
@@ -1699,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X155",
           "package": "sized-types",
@@ -1707,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X155",
           "package": "sized-types",
@@ -1719,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X156",
           "package": "sized-types",
@@ -1727,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X156",
           "package": "sized-types",
@@ -1739,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X157",
           "package": "sized-types",
@@ -1747,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X157",
           "package": "sized-types",
@@ -1759,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X158",
           "package": "sized-types",
@@ -1767,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X158",
           "package": "sized-types",
@@ -1779,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X159",
           "package": "sized-types",
@@ -1787,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X159",
           "package": "sized-types",
@@ -1799,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X16",
           "package": "sized-types",
@@ -1807,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X16",
           "package": "sized-types",
@@ -1819,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X160",
           "package": "sized-types",
@@ -1827,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X160",
           "package": "sized-types",
@@ -1839,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X161",
           "package": "sized-types",
@@ -1847,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X161",
           "package": "sized-types",
@@ -1859,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X162",
           "package": "sized-types",
@@ -1867,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X162",
           "package": "sized-types",
@@ -1879,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X163",
           "package": "sized-types",
@@ -1887,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X163",
           "package": "sized-types",
@@ -1899,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X164",
           "package": "sized-types",
@@ -1907,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X164",
           "package": "sized-types",
@@ -1919,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X165",
           "package": "sized-types",
@@ -1927,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X165",
           "package": "sized-types",
@@ -1939,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X166",
           "package": "sized-types",
@@ -1947,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X166",
           "package": "sized-types",
@@ -1959,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X167",
           "package": "sized-types",
@@ -1967,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X167",
           "package": "sized-types",
@@ -1979,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X168",
           "package": "sized-types",
@@ -1987,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X168",
           "package": "sized-types",
@@ -1999,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X169",
           "package": "sized-types",
@@ -2007,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X169",
           "package": "sized-types",
@@ -2019,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X17",
           "package": "sized-types",
@@ -2027,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X17",
           "package": "sized-types",
@@ -2039,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X170",
           "package": "sized-types",
@@ -2047,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X170",
           "package": "sized-types",
@@ -2059,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X171",
           "package": "sized-types",
@@ -2067,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X171",
           "package": "sized-types",
@@ -2079,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X172",
           "package": "sized-types",
@@ -2087,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X172",
           "package": "sized-types",
@@ -2099,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X173",
           "package": "sized-types",
@@ -2107,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X173",
           "package": "sized-types",
@@ -2119,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X174",
           "package": "sized-types",
@@ -2127,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X174",
           "package": "sized-types",
@@ -2139,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X175",
           "package": "sized-types",
@@ -2147,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X175",
           "package": "sized-types",
@@ -2159,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X176",
           "package": "sized-types",
@@ -2167,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X176",
           "package": "sized-types",
@@ -2179,6 +2391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X177",
           "package": "sized-types",
@@ -2187,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X177",
           "package": "sized-types",
@@ -2199,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X178",
           "package": "sized-types",
@@ -2207,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X178",
           "package": "sized-types",
@@ -2219,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X179",
           "package": "sized-types",
@@ -2227,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X179",
           "package": "sized-types",
@@ -2239,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X18",
           "package": "sized-types",
@@ -2247,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X18",
           "package": "sized-types",
@@ -2259,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X180",
           "package": "sized-types",
@@ -2267,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X180",
           "package": "sized-types",
@@ -2279,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X181",
           "package": "sized-types",
@@ -2287,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X181",
           "package": "sized-types",
@@ -2299,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X182",
           "package": "sized-types",
@@ -2307,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X182",
           "package": "sized-types",
@@ -2319,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X183",
           "package": "sized-types",
@@ -2327,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X183",
           "package": "sized-types",
@@ -2339,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X184",
           "package": "sized-types",
@@ -2347,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X184",
           "package": "sized-types",
@@ -2359,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X185",
           "package": "sized-types",
@@ -2367,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X185",
           "package": "sized-types",
@@ -2379,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X186",
           "package": "sized-types",
@@ -2387,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X186",
           "package": "sized-types",
@@ -2399,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X187",
           "package": "sized-types",
@@ -2407,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X187",
           "package": "sized-types",
@@ -2419,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X188",
           "package": "sized-types",
@@ -2427,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X188",
           "package": "sized-types",
@@ -2439,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X189",
           "package": "sized-types",
@@ -2447,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X189",
           "package": "sized-types",
@@ -2459,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X19",
           "package": "sized-types",
@@ -2467,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X19",
           "package": "sized-types",
@@ -2479,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X190",
           "package": "sized-types",
@@ -2487,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X190",
           "package": "sized-types",
@@ -2499,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X191",
           "package": "sized-types",
@@ -2507,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X191",
           "package": "sized-types",
@@ -2519,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X192",
           "package": "sized-types",
@@ -2527,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X192",
           "package": "sized-types",
@@ -2539,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X193",
           "package": "sized-types",
@@ -2547,6 +2796,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X193",
           "package": "sized-types",
@@ -2559,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X194",
           "package": "sized-types",
@@ -2567,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X194",
           "package": "sized-types",
@@ -2579,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X195",
           "package": "sized-types",
@@ -2587,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X195",
           "package": "sized-types",
@@ -2599,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X196",
           "package": "sized-types",
@@ -2607,6 +2862,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X196",
           "package": "sized-types",
@@ -2619,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X197",
           "package": "sized-types",
@@ -2627,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X197",
           "package": "sized-types",
@@ -2639,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X198",
           "package": "sized-types",
@@ -2647,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X198",
           "package": "sized-types",
@@ -2659,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X199",
           "package": "sized-types",
@@ -2667,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X199",
           "package": "sized-types",
@@ -2679,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X2",
           "package": "sized-types",
@@ -2687,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X2",
           "package": "sized-types",
@@ -2699,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X20",
           "package": "sized-types",
@@ -2707,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X20",
           "package": "sized-types",
@@ -2719,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X200",
           "package": "sized-types",
@@ -2727,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X200",
           "package": "sized-types",
@@ -2739,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X201",
           "package": "sized-types",
@@ -2747,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X201",
           "package": "sized-types",
@@ -2759,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X202",
           "package": "sized-types",
@@ -2767,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X202",
           "package": "sized-types",
@@ -2779,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X203",
           "package": "sized-types",
@@ -2787,6 +3060,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X203",
           "package": "sized-types",
@@ -2799,6 +3073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X204",
           "package": "sized-types",
@@ -2807,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X204",
           "package": "sized-types",
@@ -2819,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X205",
           "package": "sized-types",
@@ -2827,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X205",
           "package": "sized-types",
@@ -2839,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X206",
           "package": "sized-types",
@@ -2847,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X206",
           "package": "sized-types",
@@ -2859,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X207",
           "package": "sized-types",
@@ -2867,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X207",
           "package": "sized-types",
@@ -2879,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X208",
           "package": "sized-types",
@@ -2887,6 +3170,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X208",
           "package": "sized-types",
@@ -2899,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X209",
           "package": "sized-types",
@@ -2907,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X209",
           "package": "sized-types",
@@ -2919,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X21",
           "package": "sized-types",
@@ -2927,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X21",
           "package": "sized-types",
@@ -2939,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X210",
           "package": "sized-types",
@@ -2947,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X210",
           "package": "sized-types",
@@ -2959,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X211",
           "package": "sized-types",
@@ -2967,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X211",
           "package": "sized-types",
@@ -2979,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X212",
           "package": "sized-types",
@@ -2987,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X212",
           "package": "sized-types",
@@ -2999,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X213",
           "package": "sized-types",
@@ -3007,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X213",
           "package": "sized-types",
@@ -3019,6 +3315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X214",
           "package": "sized-types",
@@ -3027,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X214",
           "package": "sized-types",
@@ -3039,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X215",
           "package": "sized-types",
@@ -3047,6 +3346,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X215",
           "package": "sized-types",
@@ -3059,6 +3359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X216",
           "package": "sized-types",
@@ -3067,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X216",
           "package": "sized-types",
@@ -3079,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X217",
           "package": "sized-types",
@@ -3087,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X217",
           "package": "sized-types",
@@ -3099,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X218",
           "package": "sized-types",
@@ -3107,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X218",
           "package": "sized-types",
@@ -3119,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X219",
           "package": "sized-types",
@@ -3127,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X219",
           "package": "sized-types",
@@ -3139,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X22",
           "package": "sized-types",
@@ -3147,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X22",
           "package": "sized-types",
@@ -3159,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X220",
           "package": "sized-types",
@@ -3167,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X220",
           "package": "sized-types",
@@ -3179,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X221",
           "package": "sized-types",
@@ -3187,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X221",
           "package": "sized-types",
@@ -3199,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X222",
           "package": "sized-types",
@@ -3207,6 +3522,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X222",
           "package": "sized-types",
@@ -3219,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X223",
           "package": "sized-types",
@@ -3227,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X223",
           "package": "sized-types",
@@ -3239,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X224",
           "package": "sized-types",
@@ -3247,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X224",
           "package": "sized-types",
@@ -3259,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X225",
           "package": "sized-types",
@@ -3267,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X225",
           "package": "sized-types",
@@ -3279,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X226",
           "package": "sized-types",
@@ -3287,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X226",
           "package": "sized-types",
@@ -3299,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X227",
           "package": "sized-types",
@@ -3307,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X227",
           "package": "sized-types",
@@ -3319,6 +3645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X228",
           "package": "sized-types",
@@ -3327,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X228",
           "package": "sized-types",
@@ -3339,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X229",
           "package": "sized-types",
@@ -3347,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X229",
           "package": "sized-types",
@@ -3359,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X23",
           "package": "sized-types",
@@ -3367,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X23",
           "package": "sized-types",
@@ -3379,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X230",
           "package": "sized-types",
@@ -3387,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X230",
           "package": "sized-types",
@@ -3399,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X231",
           "package": "sized-types",
@@ -3407,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X231",
           "package": "sized-types",
@@ -3419,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X232",
           "package": "sized-types",
@@ -3427,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X232",
           "package": "sized-types",
@@ -3439,6 +3777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X233",
           "package": "sized-types",
@@ -3447,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X233",
           "package": "sized-types",
@@ -3459,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X234",
           "package": "sized-types",
@@ -3467,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X234",
           "package": "sized-types",
@@ -3479,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X235",
           "package": "sized-types",
@@ -3487,6 +3830,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X235",
           "package": "sized-types",
@@ -3499,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X236",
           "package": "sized-types",
@@ -3507,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X236",
           "package": "sized-types",
@@ -3519,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X237",
           "package": "sized-types",
@@ -3527,6 +3874,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X237",
           "package": "sized-types",
@@ -3539,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X238",
           "package": "sized-types",
@@ -3547,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X238",
           "package": "sized-types",
@@ -3559,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X239",
           "package": "sized-types",
@@ -3567,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X239",
           "package": "sized-types",
@@ -3579,6 +3931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X24",
           "package": "sized-types",
@@ -3587,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X24",
           "package": "sized-types",
@@ -3599,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X240",
           "package": "sized-types",
@@ -3607,6 +3962,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X240",
           "package": "sized-types",
@@ -3619,6 +3975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X241",
           "package": "sized-types",
@@ -3627,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X241",
           "package": "sized-types",
@@ -3639,6 +3997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X242",
           "package": "sized-types",
@@ -3647,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X242",
           "package": "sized-types",
@@ -3659,6 +4019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X243",
           "package": "sized-types",
@@ -3667,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X243",
           "package": "sized-types",
@@ -3679,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X244",
           "package": "sized-types",
@@ -3687,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X244",
           "package": "sized-types",
@@ -3699,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X245",
           "package": "sized-types",
@@ -3707,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X245",
           "package": "sized-types",
@@ -3719,6 +4085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X246",
           "package": "sized-types",
@@ -3727,6 +4094,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X246",
           "package": "sized-types",
@@ -3739,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X247",
           "package": "sized-types",
@@ -3747,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X247",
           "package": "sized-types",
@@ -3759,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X248",
           "package": "sized-types",
@@ -3767,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X248",
           "package": "sized-types",
@@ -3779,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X249",
           "package": "sized-types",
@@ -3787,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X249",
           "package": "sized-types",
@@ -3799,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X25",
           "package": "sized-types",
@@ -3807,6 +4182,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X25",
           "package": "sized-types",
@@ -3819,6 +4195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X250",
           "package": "sized-types",
@@ -3827,6 +4204,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X250",
           "package": "sized-types",
@@ -3839,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X251",
           "package": "sized-types",
@@ -3847,6 +4226,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X251",
           "package": "sized-types",
@@ -3859,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X252",
           "package": "sized-types",
@@ -3867,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X252",
           "package": "sized-types",
@@ -3879,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X253",
           "package": "sized-types",
@@ -3887,6 +4270,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X253",
           "package": "sized-types",
@@ -3899,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X254",
           "package": "sized-types",
@@ -3907,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X254",
           "package": "sized-types",
@@ -3919,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X255",
           "package": "sized-types",
@@ -3927,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X255",
           "package": "sized-types",
@@ -3939,6 +4327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X256",
           "package": "sized-types",
@@ -3947,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X256",
           "package": "sized-types",
@@ -3959,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X26",
           "package": "sized-types",
@@ -3967,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X26",
           "package": "sized-types",
@@ -3979,6 +4371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X27",
           "package": "sized-types",
@@ -3987,6 +4380,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X27",
           "package": "sized-types",
@@ -3999,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X28",
           "package": "sized-types",
@@ -4007,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X28",
           "package": "sized-types",
@@ -4019,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X29",
           "package": "sized-types",
@@ -4027,6 +4424,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X29",
           "package": "sized-types",
@@ -4039,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X3",
           "package": "sized-types",
@@ -4047,6 +4446,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X3",
           "package": "sized-types",
@@ -4059,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X30",
           "package": "sized-types",
@@ -4067,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X30",
           "package": "sized-types",
@@ -4079,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X31",
           "package": "sized-types",
@@ -4087,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X31",
           "package": "sized-types",
@@ -4099,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X32",
           "package": "sized-types",
@@ -4107,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X32",
           "package": "sized-types",
@@ -4119,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X33",
           "package": "sized-types",
@@ -4127,6 +4534,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X33",
           "package": "sized-types",
@@ -4139,6 +4547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X34",
           "package": "sized-types",
@@ -4147,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X34",
           "package": "sized-types",
@@ -4159,6 +4569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X35",
           "package": "sized-types",
@@ -4167,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X35",
           "package": "sized-types",
@@ -4179,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X36",
           "package": "sized-types",
@@ -4187,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X36",
           "package": "sized-types",
@@ -4199,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X37",
           "package": "sized-types",
@@ -4207,6 +4622,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X37",
           "package": "sized-types",
@@ -4219,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X38",
           "package": "sized-types",
@@ -4227,6 +4644,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X38",
           "package": "sized-types",
@@ -4239,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X39",
           "package": "sized-types",
@@ -4247,6 +4666,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X39",
           "package": "sized-types",
@@ -4259,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X4",
           "package": "sized-types",
@@ -4267,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X4",
           "package": "sized-types",
@@ -4279,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X40",
           "package": "sized-types",
@@ -4287,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X40",
           "package": "sized-types",
@@ -4299,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X41",
           "package": "sized-types",
@@ -4307,6 +4732,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X41",
           "package": "sized-types",
@@ -4319,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X42",
           "package": "sized-types",
@@ -4327,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X42",
           "package": "sized-types",
@@ -4339,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X43",
           "package": "sized-types",
@@ -4347,6 +4776,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X43",
           "package": "sized-types",
@@ -4359,6 +4789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X44",
           "package": "sized-types",
@@ -4367,6 +4798,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X44",
           "package": "sized-types",
@@ -4379,6 +4811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X45",
           "package": "sized-types",
@@ -4387,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X45",
           "package": "sized-types",
@@ -4399,6 +4833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X46",
           "package": "sized-types",
@@ -4407,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X46",
           "package": "sized-types",
@@ -4419,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X47",
           "package": "sized-types",
@@ -4427,6 +4864,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X47",
           "package": "sized-types",
@@ -4439,6 +4877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X48",
           "package": "sized-types",
@@ -4447,6 +4886,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X48",
           "package": "sized-types",
@@ -4459,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X49",
           "package": "sized-types",
@@ -4467,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X49",
           "package": "sized-types",
@@ -4479,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X5",
           "package": "sized-types",
@@ -4487,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X5",
           "package": "sized-types",
@@ -4499,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X50",
           "package": "sized-types",
@@ -4507,6 +4952,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X50",
           "package": "sized-types",
@@ -4519,6 +4965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X51",
           "package": "sized-types",
@@ -4527,6 +4974,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X51",
           "package": "sized-types",
@@ -4539,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X52",
           "package": "sized-types",
@@ -4547,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X52",
           "package": "sized-types",
@@ -4559,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X53",
           "package": "sized-types",
@@ -4567,6 +5018,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X53",
           "package": "sized-types",
@@ -4579,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X54",
           "package": "sized-types",
@@ -4587,6 +5040,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X54",
           "package": "sized-types",
@@ -4599,6 +5053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X55",
           "package": "sized-types",
@@ -4607,6 +5062,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X55",
           "package": "sized-types",
@@ -4619,6 +5075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X56",
           "package": "sized-types",
@@ -4627,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X56",
           "package": "sized-types",
@@ -4639,6 +5097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X57",
           "package": "sized-types",
@@ -4647,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X57",
           "package": "sized-types",
@@ -4659,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X58",
           "package": "sized-types",
@@ -4667,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X58",
           "package": "sized-types",
@@ -4679,6 +5141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X59",
           "package": "sized-types",
@@ -4687,6 +5150,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X59",
           "package": "sized-types",
@@ -4699,6 +5163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X6",
           "package": "sized-types",
@@ -4707,6 +5172,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X6",
           "package": "sized-types",
@@ -4719,6 +5185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X60",
           "package": "sized-types",
@@ -4727,6 +5194,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X60",
           "package": "sized-types",
@@ -4739,6 +5207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X61",
           "package": "sized-types",
@@ -4747,6 +5216,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X61",
           "package": "sized-types",
@@ -4759,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X62",
           "package": "sized-types",
@@ -4767,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X62",
           "package": "sized-types",
@@ -4779,6 +5251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X63",
           "package": "sized-types",
@@ -4787,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X63",
           "package": "sized-types",
@@ -4799,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X64",
           "package": "sized-types",
@@ -4807,6 +5282,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X64",
           "package": "sized-types",
@@ -4819,6 +5295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X65",
           "package": "sized-types",
@@ -4827,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X65",
           "package": "sized-types",
@@ -4839,6 +5317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X66",
           "package": "sized-types",
@@ -4847,6 +5326,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X66",
           "package": "sized-types",
@@ -4859,6 +5339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X67",
           "package": "sized-types",
@@ -4867,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X67",
           "package": "sized-types",
@@ -4879,6 +5361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X68",
           "package": "sized-types",
@@ -4887,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X68",
           "package": "sized-types",
@@ -4899,6 +5383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X69",
           "package": "sized-types",
@@ -4907,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X69",
           "package": "sized-types",
@@ -4919,6 +5405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X7",
           "package": "sized-types",
@@ -4927,6 +5414,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X7",
           "package": "sized-types",
@@ -4939,6 +5427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X70",
           "package": "sized-types",
@@ -4947,6 +5436,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X70",
           "package": "sized-types",
@@ -4959,6 +5449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X71",
           "package": "sized-types",
@@ -4967,6 +5458,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X71",
           "package": "sized-types",
@@ -4979,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X72",
           "package": "sized-types",
@@ -4987,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X72",
           "package": "sized-types",
@@ -4999,6 +5493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X73",
           "package": "sized-types",
@@ -5007,6 +5502,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X73",
           "package": "sized-types",
@@ -5019,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X74",
           "package": "sized-types",
@@ -5027,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X74",
           "package": "sized-types",
@@ -5039,6 +5537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X75",
           "package": "sized-types",
@@ -5047,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X75",
           "package": "sized-types",
@@ -5059,6 +5559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X76",
           "package": "sized-types",
@@ -5067,6 +5568,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X76",
           "package": "sized-types",
@@ -5079,6 +5581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X77",
           "package": "sized-types",
@@ -5087,6 +5590,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X77",
           "package": "sized-types",
@@ -5099,6 +5603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X78",
           "package": "sized-types",
@@ -5107,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X78",
           "package": "sized-types",
@@ -5119,6 +5625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X79",
           "package": "sized-types",
@@ -5127,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X79",
           "package": "sized-types",
@@ -5139,6 +5647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X8",
           "package": "sized-types",
@@ -5147,6 +5656,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X8",
           "package": "sized-types",
@@ -5159,6 +5669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X80",
           "package": "sized-types",
@@ -5167,6 +5678,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X80",
           "package": "sized-types",
@@ -5179,6 +5691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X81",
           "package": "sized-types",
@@ -5187,6 +5700,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X81",
           "package": "sized-types",
@@ -5199,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X82",
           "package": "sized-types",
@@ -5207,6 +5722,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X82",
           "package": "sized-types",
@@ -5219,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X83",
           "package": "sized-types",
@@ -5227,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X83",
           "package": "sized-types",
@@ -5239,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X84",
           "package": "sized-types",
@@ -5247,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X84",
           "package": "sized-types",
@@ -5259,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X85",
           "package": "sized-types",
@@ -5267,6 +5788,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X85",
           "package": "sized-types",
@@ -5279,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X86",
           "package": "sized-types",
@@ -5287,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X86",
           "package": "sized-types",
@@ -5299,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X87",
           "package": "sized-types",
@@ -5307,6 +5832,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X87",
           "package": "sized-types",
@@ -5319,6 +5845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X88",
           "package": "sized-types",
@@ -5327,6 +5854,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X88",
           "package": "sized-types",
@@ -5339,6 +5867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X89",
           "package": "sized-types",
@@ -5347,6 +5876,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X89",
           "package": "sized-types",
@@ -5359,6 +5889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X9",
           "package": "sized-types",
@@ -5367,6 +5898,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X9",
           "package": "sized-types",
@@ -5379,6 +5911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X90",
           "package": "sized-types",
@@ -5387,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X90",
           "package": "sized-types",
@@ -5399,6 +5933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X91",
           "package": "sized-types",
@@ -5407,6 +5942,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X91",
           "package": "sized-types",
@@ -5419,6 +5955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X92",
           "package": "sized-types",
@@ -5427,6 +5964,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X92",
           "package": "sized-types",
@@ -5439,6 +5977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X93",
           "package": "sized-types",
@@ -5447,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X93",
           "package": "sized-types",
@@ -5459,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X94",
           "package": "sized-types",
@@ -5467,6 +6008,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X94",
           "package": "sized-types",
@@ -5479,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X95",
           "package": "sized-types",
@@ -5487,6 +6030,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X95",
           "package": "sized-types",
@@ -5499,6 +6043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X96",
           "package": "sized-types",
@@ -5507,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X96",
           "package": "sized-types",
@@ -5519,6 +6065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X97",
           "package": "sized-types",
@@ -5527,6 +6074,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X97",
           "package": "sized-types",
@@ -5539,6 +6087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X98",
           "package": "sized-types",
@@ -5547,6 +6096,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X98",
           "package": "sized-types",
@@ -5559,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "X99",
           "package": "sized-types",
@@ -5567,6 +6118,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "X99",
           "package": "sized-types",
@@ -5580,6 +6132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd an arbitary index to a specific \u003ccode\u003eix\u003c/code\u003e position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "addIndex",
           "package": "sized-types",
@@ -5590,6 +6143,7 @@
         "index": {
           "description": "add an arbitary index to specific ix position",
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "addIndex",
           "normalized": "a-\u003eIndex a-\u003ea",
@@ -5606,6 +6160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of all possible indices.\n Unlike \u003ccode\u003eindices\u003c/code\u003e in Matrix, this does not need the \u003ccode\u003eMatrix\u003c/code\u003e\n argument, because the types determine the contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "all",
           "package": "sized-types",
@@ -5616,6 +6171,7 @@
         "index": {
           "description": "list of all possible indices Unlike indices in Matrix this does not need the Matrix argument because the types determine the contents",
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "all",
           "normalized": "[a]",
@@ -5631,6 +6187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA good way of converting from one index type to another index type, typically in another base.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "coerceSize",
           "package": "sized-types",
@@ -5641,6 +6198,7 @@
         "index": {
           "description": "good way of converting from one index type to another index type typically in another base",
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "coerceSize",
           "normalized": "a-\u003ea",
@@ -5657,6 +6215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the size (number of possible elements) in type \u003ccode\u003eix\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "size",
           "package": "sized-types",
@@ -5667,6 +6226,7 @@
         "index": {
           "description": "return the size number of possible elements in type ix",
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "size",
           "normalized": "a-\u003eInt",
@@ -5682,6 +6242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elook at an \u003ccode\u003eix\u003c/code\u003e as an \u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e, typically just an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Ix",
           "name": "toIndex",
           "package": "sized-types",
@@ -5692,6 +6253,7 @@
         "index": {
           "description": "look at an ix as an Index typically just an Int",
           "hierarchy": "Data Sized Ix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Ix",
           "name": "toIndex",
           "normalized": "a-\u003eIndex a",
@@ -5708,6 +6270,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSized matrixes.\n\u003c/p\u003e\u003cp\u003eCopyright: (c) 2009 University of Kansas\n License: BSD3\n\u003c/p\u003e\u003cp\u003eMaintainer: Andy Gill \u003ca\u003eandygill@ku.edu\u003c/a\u003e\n Stability: unstable\n Portability: ghc\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -5717,6 +6280,7 @@
         "index": {
           "description": "Sized matrixes Copyright University of Kansas License BSD3 Maintainer Andy Gill andygill@ku.edu Stability unstable Portability ghc",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -5731,6 +6295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e is an array with the sized determined uniquely by the \n \u003cem\u003etype\u003c/em\u003e of the index type, \u003ccode\u003eix\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -5740,6 +6305,7 @@
         "index": {
           "description": "Matrix is an array with the sized determined uniquely by the type of the index type ix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -5754,6 +6320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eS\u003c/a\u003e\u003c/code\u003e is shown as the contents, without the quotes.\n One use is a matrix of S, so that you can do show-style functions\n using fmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "S",
           "package": "sized-types",
@@ -5763,6 +6330,7 @@
         "index": {
           "description": "is shown as the contents without the quotes One use is matrix of so that you can do show-style functions using fmap",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "S",
           "package": "sized-types",
@@ -5776,6 +6344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e!\u003c/a\u003e\u003c/code\u003e looks up an element in the matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "(!)",
           "package": "sized-types",
@@ -5786,6 +6355,7 @@
         "index": {
           "description": "looks up an element in the matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "(!) !",
           "normalized": "Matrix a b-\u003ea-\u003eb",
@@ -5800,6 +6370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "(//)",
           "package": "sized-types",
@@ -5809,6 +6380,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "(//) //",
           "normalized": "Matrix a b-\u003e[(a,b)]-\u003eMatrix a b",
@@ -5823,6 +6395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -5832,6 +6405,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -5845,6 +6419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "NullMatrix",
           "package": "sized-types",
@@ -5854,6 +6429,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "NullMatrix",
           "package": "sized-types",
@@ -5867,6 +6443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "S",
           "package": "sized-types",
@@ -5876,6 +6453,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "S",
           "package": "sized-types",
@@ -5889,6 +6467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estack two matrixes \u003ccode\u003e\u003ca\u003eabove\u003c/a\u003e\u003c/code\u003e each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "above",
           "package": "sized-types",
@@ -5899,6 +6478,7 @@
         "index": {
           "description": "stack two matrixes above each other",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "above",
           "normalized": "Matrix(a,b)c-\u003eMatrix(d,b)c-\u003eMatrix(e,b)c",
@@ -5913,6 +6493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "accum",
           "package": "sized-types",
@@ -5922,6 +6503,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "accum",
           "normalized": "(a-\u003eb-\u003ea)-\u003eMatrix c a-\u003e[(c,b)]-\u003eMatrix c a",
@@ -5937,6 +6519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eappend two 1-d matrixes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "append",
           "package": "sized-types",
@@ -5947,6 +6530,7 @@
         "index": {
           "description": "append two matrixes",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "append",
           "normalized": "Matrix a b-\u003eMatrix c b-\u003eMatrix d b",
@@ -5962,6 +6546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eassocs\u003c/a\u003e\u003c/code\u003e extracts the index/value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "assocs",
           "package": "sized-types",
@@ -5972,6 +6557,7 @@
         "index": {
           "description": "assocs extracts the index value pairs",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "assocs",
           "normalized": "Matrix a b-\u003e[(a,b)]",
@@ -5987,6 +6573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estack two matrixes \u003ccode\u003e\u003ca\u003ebeside\u003c/a\u003e\u003c/code\u003e each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "beside",
           "package": "sized-types",
@@ -5997,6 +6584,7 @@
         "index": {
           "description": "stack two matrixes beside each other",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "beside",
           "normalized": "Matrix(a,b)c-\u003eMatrix(a,d)c-\u003eMatrix(a,e)c",
@@ -6012,6 +6600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eslice a 2D matrix into columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "columns",
           "package": "sized-types",
@@ -6022,6 +6611,7 @@
         "index": {
           "description": "slice matrix into columns",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "columns",
           "normalized": "Matrix(a,b)c-\u003eMatrix b(Matrix a c)",
@@ -6037,6 +6627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecoord\u003c/a\u003e\u003c/code\u003e returns a matrix filled with indexes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "coord",
           "package": "sized-types",
@@ -6047,6 +6638,7 @@
         "index": {
           "description": "coord returns matrix filled with indexes",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "coord",
           "package": "sized-types",
@@ -6060,6 +6652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egrab \u003cem\u003epart\u003c/em\u003e of a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "cropAt",
           "package": "sized-types",
@@ -6070,6 +6663,7 @@
         "index": {
           "description": "grab part of matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "cropAt",
           "normalized": "Matrix a b-\u003ea-\u003eMatrix c b",
@@ -6086,6 +6680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eforAll\u003c/a\u003e\u003c/code\u003e creates a matrix out of a mapping from the coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "forAll",
           "package": "sized-types",
@@ -6096,6 +6691,7 @@
         "index": {
           "description": "forAll creates matrix out of mapping from the coordinates",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "forAll",
           "normalized": "(a-\u003eb)-\u003eMatrix a b",
@@ -6112,6 +6708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eforEach\u003c/a\u003e\u003c/code\u003e takes a matrix, and calls a function for each element, to give a new matrix of the same size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "forEach",
           "package": "sized-types",
@@ -6122,6 +6719,7 @@
         "index": {
           "description": "forEach takes matrix and calls function for each element to give new matrix of the same size",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "forEach",
           "normalized": "Matrix a b-\u003e(a-\u003eb-\u003ec)-\u003eMatrix a c",
@@ -6138,6 +6736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e turns a finite list into a matrix. You often need to give the type of the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "fromList",
           "package": "sized-types",
@@ -6148,6 +6747,7 @@
         "index": {
           "description": "fromList turns finite list into matrix You often need to give the type of the result",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "fromList",
           "normalized": "[a]-\u003eMatrix b a",
@@ -6164,6 +6764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the identity for a specific matrix size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "identity",
           "package": "sized-types",
@@ -6174,6 +6775,7 @@
         "index": {
           "description": "return the identity for specific matrix size",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "identity",
           "normalized": "Matrix(a,a)b",
@@ -6189,6 +6791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eindices\u003c/a\u003e\u003c/code\u003e is a version of \u003ccode\u003e\u003ca\u003eall\u003c/a\u003e\u003c/code\u003e that takes a type, for forcing the result type using the Matrix type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "indices",
           "package": "sized-types",
@@ -6199,6 +6802,7 @@
         "index": {
           "description": "indices is version of all that takes type for forcing the result type using the Matrix type",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "indices",
           "normalized": "Matrix a b-\u003e[a]",
@@ -6214,6 +6818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elook at a matrix through a functor lens, to another matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "ixfmap",
           "package": "sized-types",
@@ -6224,6 +6829,7 @@
         "index": {
           "description": "look at matrix through functor lens to another matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "ixfmap",
           "normalized": "(a-\u003eb c)-\u003eMatrix c d-\u003eMatrix a(b d)",
@@ -6239,6 +6845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elook at a matrix through a lens to another matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "ixmap",
           "package": "sized-types",
@@ -6249,6 +6856,7 @@
         "index": {
           "description": "look at matrix through lens to another matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "ixmap",
           "normalized": "(a-\u003eb)-\u003eMatrix b c-\u003eMatrix a c",
@@ -6264,6 +6872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejoin a matrix of matrixes into a single matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "joinColumns",
           "package": "sized-types",
@@ -6274,6 +6883,7 @@
         "index": {
           "description": "join matrix of matrixes into single matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "joinColumns",
           "normalized": "Matrix a(Matrix b c)-\u003eMatrix(b,a)c",
@@ -6290,6 +6900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejoin a matrix of matrixes into a single matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "joinRows",
           "package": "sized-types",
@@ -6300,6 +6911,7 @@
         "index": {
           "description": "join matrix of matrixes into single matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "joinRows",
           "normalized": "Matrix a(Matrix b c)-\u003eMatrix(a,b)c",
@@ -6316,6 +6928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhat is the length of a matrix?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "length",
           "package": "sized-types",
@@ -6326,6 +6939,7 @@
         "index": {
           "description": "what is the length of matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "length",
           "normalized": "Matrix a b-\u003eInt",
@@ -6341,6 +6955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ematrix\u003c/a\u003e\u003c/code\u003e turns a finite list into a matrix. You often need to give the type of the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "matrix",
           "package": "sized-types",
@@ -6351,6 +6966,7 @@
         "index": {
           "description": "matrix turns finite list into matrix You often need to give the type of the result",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "matrix",
           "normalized": "[a]-\u003eMatrix b a",
@@ -6366,6 +6982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emm\u003c/a\u003e\u003c/code\u003e is the 2D matrix multiply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "mm",
           "package": "sized-types",
@@ -6376,6 +6993,7 @@
         "index": {
           "description": "mm is the matrix multiply",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "mm",
           "normalized": "Matrix(a,b)c-\u003eMatrix(d,e)c-\u003eMatrix(a,e)c",
@@ -6391,6 +7009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eslice a 2D matrix into rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "rows",
           "package": "sized-types",
@@ -6401,6 +7020,7 @@
         "index": {
           "description": "slice matrix into rows",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "rows",
           "normalized": "Matrix(a,b)c-\u003eMatrix a(Matrix b c)",
@@ -6415,6 +7035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "scanL",
           "package": "sized-types",
@@ -6424,6 +7045,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "scanL",
           "normalized": "((a,b)-\u003e(b,c))-\u003e(Matrix d a,b)-\u003e(b,Matrix d c)",
@@ -6438,6 +7060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "scanM",
           "package": "sized-types",
@@ -6447,6 +7070,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "scanM",
           "normalized": "((a,b,c)-\u003e(c,d,a))-\u003e(a,Matrix e b,c)-\u003e(c,Matrix e d,a)",
@@ -6461,6 +7085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "scanR",
           "package": "sized-types",
@@ -6470,6 +7095,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "scanR",
           "normalized": "((a,b)-\u003e(c,a))-\u003e(a,Matrix d b)-\u003e(Matrix d c,a)",
@@ -6484,6 +7110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "showAsE",
           "package": "sized-types",
@@ -6493,6 +7120,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "showAsE",
           "normalized": "Int-\u003ea-\u003eS",
@@ -6508,6 +7136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "showAsF",
           "package": "sized-types",
@@ -6517,6 +7146,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "showAsF",
           "normalized": "Int-\u003ea-\u003eS",
@@ -6533,6 +7163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eshowMatrix\u003c/a\u003e\u003c/code\u003e displays a 2D matrix, and is the worker for \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e GHCi\u003e matrix [1..42] :: Matrix (X7,X6) Int\n [  1,  2,  3,  4,  5,  6,\n    7,  8,  9, 10, 11, 12,\n   13, 14, 15, 16, 17, 18,\n   19, 20, 21, 22, 23, 24,\n   25, 26, 27, 28, 29, 30,\n   31, 32, 33, 34, 35, 36,\n   37, 38, 39, 40, 41, 42 ]\n\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "showMatrix",
           "package": "sized-types",
@@ -6543,6 +7174,7 @@
         "index": {
           "description": "showMatrix displays matrix and is the worker for show GHCi matrix Matrix X7 X6 Int",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "showMatrix",
           "normalized": "Matrix(a,b)String-\u003eString",
@@ -6559,6 +7191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003every general; required that m and n have the same number of elements, rebundle please.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "squash",
           "package": "sized-types",
@@ -6569,6 +7202,7 @@
         "index": {
           "description": "very general required that and have the same number of elements rebundle please",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "squash",
           "normalized": "Matrix a b-\u003eMatrix c b",
@@ -6584,6 +7218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etoList\u003c/a\u003e\u003c/code\u003e turns a matrix into an always finite list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "toList",
           "package": "sized-types",
@@ -6594,6 +7229,7 @@
         "index": {
           "description": "toList turns matrix into an always finite list",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "toList",
           "normalized": "Matrix a b-\u003e[b]",
@@ -6610,6 +7246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etranspose\u003c/a\u003e\u003c/code\u003e a 2D matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "transpose",
           "package": "sized-types",
@@ -6620,6 +7257,7 @@
         "index": {
           "description": "transpose matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "transpose",
           "normalized": "Matrix(a,b)c-\u003eMatrix(b,a)c",
@@ -6635,6 +7273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a 1D matrix from a 2D matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "unColumn",
           "package": "sized-types",
@@ -6645,6 +7284,7 @@
         "index": {
           "description": "generate matrix from matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "unColumn",
           "normalized": "Matrix(a,X)b-\u003eMatrix a b",
@@ -6661,6 +7301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a 1D matrix from a 2D matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "unRow",
           "package": "sized-types",
@@ -6671,6 +7312,7 @@
         "index": {
           "description": "generate matrix from matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "unRow",
           "normalized": "Matrix(X,a)b-\u003eMatrix a b",
@@ -6687,6 +7329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a 2D single column from a 1D matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "unitColumn",
           "package": "sized-types",
@@ -6697,6 +7340,7 @@
         "index": {
           "description": "generate single column from matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "unitColumn",
           "normalized": "Matrix a b-\u003eMatrix(a,X)b",
@@ -6713,6 +7357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a 2D single row from a 1D matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "unitRow",
           "package": "sized-types",
@@ -6723,6 +7368,7 @@
         "index": {
           "description": "generate single row from matrix",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "unitRow",
           "normalized": "Matrix a b-\u003eMatrix(X,a)b",
@@ -6739,6 +7385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ezeroOf\u003c/a\u003e\u003c/code\u003e is for use to force typing issues, and is 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "zeroOf",
           "package": "sized-types",
@@ -6749,6 +7396,7 @@
         "index": {
           "description": "zeroOf is for use to force typing issues and is",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "zeroOf",
           "normalized": "Matrix a b-\u003ea",
@@ -6765,6 +7413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as for lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Matrix",
           "name": "zipWith",
           "package": "sized-types",
@@ -6775,6 +7424,7 @@
         "index": {
           "description": "Same as for lists",
           "hierarchy": "Data Sized Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Matrix",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eMatrix d a-\u003eMatrix d b-\u003eMatrix d c",
@@ -6790,6 +7440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sampled",
           "name": "Sampled",
           "package": "sized-types",
@@ -6798,6 +7449,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sampled",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sampled",
           "name": "Sampled",
           "package": "sized-types",
@@ -6811,6 +7463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sampled",
           "name": "Sampled",
           "package": "sized-types",
@@ -6819,6 +7472,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sampled",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sampled",
           "name": "Sampled",
           "package": "sized-types",
@@ -6832,6 +7486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sampled",
           "name": "Sampled",
           "package": "sized-types",
@@ -6841,6 +7496,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sampled",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sampled",
           "name": "Sampled",
           "package": "sized-types",
@@ -6854,6 +7510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sampled",
           "name": "fromMatrix",
           "package": "sized-types",
@@ -6863,6 +7520,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sampled",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sampled",
           "name": "fromMatrix",
           "normalized": "Matrix a Bool-\u003eSampled b a",
@@ -6878,6 +7536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sampled",
           "name": "mkSampled",
           "package": "sized-types",
@@ -6887,6 +7546,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sampled",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sampled",
           "name": "mkSampled",
           "normalized": "Rational-\u003eSampled a b",
@@ -6902,6 +7562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sampled",
           "name": "toMatrix",
           "package": "sized-types",
@@ -6911,6 +7572,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sampled",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sampled",
           "name": "toMatrix",
           "normalized": "Sampled a b-\u003eMatrix b Bool",
@@ -6927,6 +7589,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSigned, fixed sized numbers.\n\u003c/p\u003e\u003cp\u003eCopyright: (c) 2009 University of Kansas\n License: BSD3\n\u003c/p\u003e\u003cp\u003eMaintainer: Andy Gill \u003ca\u003eandygill@ku.edu\u003c/a\u003e\n Stability: unstable\n Portability: ghc\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "Signed",
           "package": "sized-types",
@@ -6936,6 +7599,7 @@
         "index": {
           "description": "Signed fixed sized numbers Copyright University of Kansas License BSD3 Maintainer Andy Gill andygill@ku.edu Stability unstable Portability ghc",
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "Signed",
           "package": "sized-types",
@@ -6949,6 +7613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S10",
           "package": "sized-types",
@@ -6957,6 +7622,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S10",
           "package": "sized-types",
@@ -6969,6 +7635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S11",
           "package": "sized-types",
@@ -6977,6 +7644,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S11",
           "package": "sized-types",
@@ -6989,6 +7657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S12",
           "package": "sized-types",
@@ -6997,6 +7666,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S12",
           "package": "sized-types",
@@ -7009,6 +7679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S13",
           "package": "sized-types",
@@ -7017,6 +7688,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S13",
           "package": "sized-types",
@@ -7029,6 +7701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S14",
           "package": "sized-types",
@@ -7037,6 +7710,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S14",
           "package": "sized-types",
@@ -7049,6 +7723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S15",
           "package": "sized-types",
@@ -7057,6 +7732,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S15",
           "package": "sized-types",
@@ -7069,6 +7745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S16",
           "package": "sized-types",
@@ -7077,6 +7754,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S16",
           "package": "sized-types",
@@ -7089,6 +7767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S17",
           "package": "sized-types",
@@ -7097,6 +7776,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S17",
           "package": "sized-types",
@@ -7109,6 +7789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S18",
           "package": "sized-types",
@@ -7117,6 +7798,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S18",
           "package": "sized-types",
@@ -7129,6 +7811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S19",
           "package": "sized-types",
@@ -7137,6 +7820,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S19",
           "package": "sized-types",
@@ -7149,6 +7833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S2",
           "package": "sized-types",
@@ -7157,6 +7842,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S2",
           "package": "sized-types",
@@ -7169,6 +7855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S20",
           "package": "sized-types",
@@ -7177,6 +7864,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S20",
           "package": "sized-types",
@@ -7189,6 +7877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S21",
           "package": "sized-types",
@@ -7197,6 +7886,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S21",
           "package": "sized-types",
@@ -7209,6 +7899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S22",
           "package": "sized-types",
@@ -7217,6 +7908,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S22",
           "package": "sized-types",
@@ -7229,6 +7921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S23",
           "package": "sized-types",
@@ -7237,6 +7930,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S23",
           "package": "sized-types",
@@ -7249,6 +7943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S24",
           "package": "sized-types",
@@ -7257,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S24",
           "package": "sized-types",
@@ -7269,6 +7965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S25",
           "package": "sized-types",
@@ -7277,6 +7974,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S25",
           "package": "sized-types",
@@ -7289,6 +7987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S26",
           "package": "sized-types",
@@ -7297,6 +7996,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S26",
           "package": "sized-types",
@@ -7309,6 +8009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S27",
           "package": "sized-types",
@@ -7317,6 +8018,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S27",
           "package": "sized-types",
@@ -7329,6 +8031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S28",
           "package": "sized-types",
@@ -7337,6 +8040,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S28",
           "package": "sized-types",
@@ -7349,6 +8053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S29",
           "package": "sized-types",
@@ -7357,6 +8062,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S29",
           "package": "sized-types",
@@ -7369,6 +8075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S3",
           "package": "sized-types",
@@ -7377,6 +8084,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S3",
           "package": "sized-types",
@@ -7389,6 +8097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S30",
           "package": "sized-types",
@@ -7397,6 +8106,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S30",
           "package": "sized-types",
@@ -7409,6 +8119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S31",
           "package": "sized-types",
@@ -7417,6 +8128,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S31",
           "package": "sized-types",
@@ -7429,6 +8141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S32",
           "package": "sized-types",
@@ -7437,6 +8150,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S32",
           "package": "sized-types",
@@ -7449,6 +8163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S4",
           "package": "sized-types",
@@ -7457,6 +8172,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S4",
           "package": "sized-types",
@@ -7469,6 +8185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S5",
           "package": "sized-types",
@@ -7477,6 +8194,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S5",
           "package": "sized-types",
@@ -7489,6 +8207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S6",
           "package": "sized-types",
@@ -7497,6 +8216,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S6",
           "package": "sized-types",
@@ -7509,6 +8229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S7",
           "package": "sized-types",
@@ -7517,6 +8238,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S7",
           "package": "sized-types",
@@ -7529,6 +8251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S8",
           "package": "sized-types",
@@ -7537,6 +8260,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S8",
           "package": "sized-types",
@@ -7549,6 +8273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "S9",
           "package": "sized-types",
@@ -7557,6 +8282,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "S9",
           "package": "sized-types",
@@ -7569,6 +8295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "Signed",
           "package": "sized-types",
@@ -7577,6 +8304,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "Signed",
           "package": "sized-types",
@@ -7590,6 +8318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "fromMatrix",
           "package": "sized-types",
@@ -7599,6 +8328,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "fromMatrix",
           "normalized": "Matrix a Bool-\u003eSigned a",
@@ -7614,6 +8344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Signed",
           "name": "toMatrix",
           "package": "sized-types",
@@ -7623,6 +8354,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Signed",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Signed",
           "name": "toMatrix",
           "normalized": "Signed a-\u003eMatrix a Bool",
@@ -7639,6 +8371,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSparse Matrix.\n\u003c/p\u003e\u003cp\u003eCopyright: (c) 2009 University of Kansas\n License: BSD3\n\u003c/p\u003e\u003cp\u003eMaintainer: Andy Gill \u003ca\u003eandygill@ku.edu\u003c/a\u003e\n Stability: unstable\n Portability: ghc\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -7648,6 +8381,7 @@
         "index": {
           "description": "Sparse Matrix Copyright University of Kansas License BSD3 Maintainer Andy Gill andygill@ku.edu Stability unstable Portability ghc",
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -7661,6 +8395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -7669,6 +8404,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -7683,6 +8419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e!\u003c/a\u003e\u003c/code\u003e looks up an element in the sparse matrix. If the element is not found\n in the sparse matrix, \u003ccode\u003e\u003ca\u003e!\u003c/a\u003e\u003c/code\u003e returns the default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "(!)",
           "package": "sized-types",
@@ -7693,6 +8430,7 @@
         "index": {
           "description": "looks up an element in the sparse matrix If the element is not found in the sparse matrix returns the default value",
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "(!) !",
           "normalized": "Matrix a b-\u003ea-\u003eb",
@@ -7707,6 +8445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -7716,6 +8455,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "Matrix",
           "package": "sized-types",
@@ -7729,6 +8469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "columnSets",
           "package": "sized-types",
@@ -7738,6 +8479,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "columnSets",
           "normalized": "Set(a,b)-\u003eMatrix b(Set a)",
@@ -7753,6 +8495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "fill",
           "package": "sized-types",
@@ -7762,6 +8505,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "fill",
           "normalized": "Matrix a b-\u003eMatrix a b",
@@ -7776,6 +8520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "fromAssocList",
           "package": "sized-types",
@@ -7785,6 +8530,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "fromAssocList",
           "normalized": "a-\u003e[(b,a)]-\u003eMatrix b a",
@@ -7800,6 +8546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "mm",
           "package": "sized-types",
@@ -7809,6 +8556,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "mm",
           "normalized": "Matrix(a,b)c-\u003eMatrix(d,e)c-\u003eMatrix(a,e)c",
@@ -7823,6 +8571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "prune",
           "package": "sized-types",
@@ -7832,6 +8581,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "prune",
           "normalized": "a-\u003eMatrix b a-\u003eMatrix b a",
@@ -7846,6 +8596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "rowSets",
           "package": "sized-types",
@@ -7855,6 +8606,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "rowSets",
           "normalized": "Set(a,b)-\u003eMatrix a(Set b)",
@@ -7871,6 +8623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a Matrix sparse, with a default \u003ccode\u003ezero\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "sparse",
           "package": "sized-types",
@@ -7881,6 +8634,7 @@
         "index": {
           "description": "Make Matrix sparse with default zero value",
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "sparse",
           "normalized": "a-\u003eMatrix b a-\u003eMatrix b a",
@@ -7895,6 +8649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "toAssocList",
           "package": "sized-types",
@@ -7904,6 +8659,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "toAssocList",
           "normalized": "Matrix a b-\u003e(b,[(a,b)])",
@@ -7919,6 +8675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "transpose",
           "package": "sized-types",
@@ -7928,6 +8685,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "transpose",
           "normalized": "Matrix(a,b)c-\u003eMatrix(b,a)c",
@@ -7942,6 +8700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "zipWith",
           "package": "sized-types",
@@ -7951,6 +8710,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Sparse Matrix",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Sparse.Matrix",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eMatrix d a-\u003eMatrix d b-\u003eMatrix d c",
@@ -7967,6 +8727,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnsigned, fixed sized numbers.\n\u003c/p\u003e\u003cp\u003eCopyright: (c) 2009 University of Kansas\n License: BSD3\n\u003c/p\u003e\u003cp\u003eMaintainer: Andy Gill \u003ca\u003eandygill@ku.edu\u003c/a\u003e\n Stability: unstable\n Portability: ghc\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "Unsigned",
           "package": "sized-types",
@@ -7976,6 +8737,7 @@
         "index": {
           "description": "Unsigned fixed sized numbers Copyright University of Kansas License BSD3 Maintainer Andy Gill andygill@ku.edu Stability unstable Portability ghc",
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "Unsigned",
           "package": "sized-types",
@@ -7990,6 +8752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecommon; numerically boolean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U1",
           "package": "sized-types",
@@ -7999,6 +8762,7 @@
         "index": {
           "description": "common numerically boolean",
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U1",
           "package": "sized-types",
@@ -8011,6 +8775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U10",
           "package": "sized-types",
@@ -8019,6 +8784,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U10",
           "package": "sized-types",
@@ -8031,6 +8797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U11",
           "package": "sized-types",
@@ -8039,6 +8806,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U11",
           "package": "sized-types",
@@ -8051,6 +8819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U12",
           "package": "sized-types",
@@ -8059,6 +8828,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U12",
           "package": "sized-types",
@@ -8071,6 +8841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U13",
           "package": "sized-types",
@@ -8079,6 +8850,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U13",
           "package": "sized-types",
@@ -8091,6 +8863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U14",
           "package": "sized-types",
@@ -8099,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U14",
           "package": "sized-types",
@@ -8111,6 +8885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U15",
           "package": "sized-types",
@@ -8119,6 +8894,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U15",
           "package": "sized-types",
@@ -8131,6 +8907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U16",
           "package": "sized-types",
@@ -8139,6 +8916,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U16",
           "package": "sized-types",
@@ -8151,6 +8929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U17",
           "package": "sized-types",
@@ -8159,6 +8938,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U17",
           "package": "sized-types",
@@ -8171,6 +8951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U18",
           "package": "sized-types",
@@ -8179,6 +8960,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U18",
           "package": "sized-types",
@@ -8191,6 +8973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U19",
           "package": "sized-types",
@@ -8199,6 +8982,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U19",
           "package": "sized-types",
@@ -8211,6 +8995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U2",
           "package": "sized-types",
@@ -8219,6 +9004,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U2",
           "package": "sized-types",
@@ -8231,6 +9017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U20",
           "package": "sized-types",
@@ -8239,6 +9026,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U20",
           "package": "sized-types",
@@ -8251,6 +9039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U21",
           "package": "sized-types",
@@ -8259,6 +9048,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U21",
           "package": "sized-types",
@@ -8271,6 +9061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U22",
           "package": "sized-types",
@@ -8279,6 +9070,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U22",
           "package": "sized-types",
@@ -8291,6 +9083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U23",
           "package": "sized-types",
@@ -8299,6 +9092,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U23",
           "package": "sized-types",
@@ -8311,6 +9105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U24",
           "package": "sized-types",
@@ -8319,6 +9114,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U24",
           "package": "sized-types",
@@ -8331,6 +9127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U25",
           "package": "sized-types",
@@ -8339,6 +9136,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U25",
           "package": "sized-types",
@@ -8351,6 +9149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U26",
           "package": "sized-types",
@@ -8359,6 +9158,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U26",
           "package": "sized-types",
@@ -8371,6 +9171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U27",
           "package": "sized-types",
@@ -8379,6 +9180,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U27",
           "package": "sized-types",
@@ -8391,6 +9193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U28",
           "package": "sized-types",
@@ -8399,6 +9202,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U28",
           "package": "sized-types",
@@ -8411,6 +9215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U29",
           "package": "sized-types",
@@ -8419,6 +9224,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U29",
           "package": "sized-types",
@@ -8431,6 +9237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U3",
           "package": "sized-types",
@@ -8439,6 +9246,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U3",
           "package": "sized-types",
@@ -8451,6 +9259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U30",
           "package": "sized-types",
@@ -8459,6 +9268,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U30",
           "package": "sized-types",
@@ -8471,6 +9281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U31",
           "package": "sized-types",
@@ -8479,6 +9290,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U31",
           "package": "sized-types",
@@ -8491,6 +9303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U32",
           "package": "sized-types",
@@ -8499,6 +9312,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U32",
           "package": "sized-types",
@@ -8511,6 +9325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U4",
           "package": "sized-types",
@@ -8519,6 +9334,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U4",
           "package": "sized-types",
@@ -8531,6 +9347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U5",
           "package": "sized-types",
@@ -8539,6 +9356,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U5",
           "package": "sized-types",
@@ -8551,6 +9369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U6",
           "package": "sized-types",
@@ -8559,6 +9378,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U6",
           "package": "sized-types",
@@ -8571,6 +9391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U7",
           "package": "sized-types",
@@ -8579,6 +9400,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U7",
           "package": "sized-types",
@@ -8591,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U8",
           "package": "sized-types",
@@ -8599,6 +9422,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U8",
           "package": "sized-types",
@@ -8611,6 +9435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "U9",
           "package": "sized-types",
@@ -8619,6 +9444,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "U9",
           "package": "sized-types",
@@ -8631,6 +9457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "Unsigned",
           "package": "sized-types",
@@ -8639,6 +9466,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "Unsigned",
           "package": "sized-types",
@@ -8652,6 +9480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "fromMatrix",
           "package": "sized-types",
@@ -8661,6 +9490,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "fromMatrix",
           "normalized": "Matrix a Bool-\u003eUnsigned a",
@@ -8676,6 +9506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Unsigned",
           "name": "toMatrix",
           "package": "sized-types",
@@ -8685,6 +9516,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Unsigned",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Unsigned",
           "name": "toMatrix",
           "normalized": "Unsigned a-\u003eMatrix a Bool",
@@ -8700,6 +9532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "Vector",
           "package": "sized-types",
@@ -8708,6 +9541,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "Vector",
           "package": "sized-types",
@@ -8721,6 +9555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "Bounds",
           "package": "sized-types",
@@ -8729,6 +9564,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "Bounds",
           "package": "sized-types",
@@ -8742,6 +9578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "Vector",
           "package": "sized-types",
@@ -8750,6 +9587,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "Vector",
           "package": "sized-types",
@@ -8763,6 +9601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "(!)",
           "package": "sized-types",
@@ -8772,6 +9611,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "(!) !",
           "normalized": "Vector a b-\u003ea-\u003eb",
@@ -8786,6 +9626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "Vector",
           "package": "sized-types",
@@ -8795,6 +9636,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "Vector",
           "package": "sized-types",
@@ -8808,6 +9650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "above",
           "package": "sized-types",
@@ -8817,6 +9660,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "above",
           "normalized": "Vector(a,b)c-\u003eVector(a,b)c-\u003eVector(a,b)c",
@@ -8831,6 +9675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "assocs",
           "package": "sized-types",
@@ -8840,6 +9685,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "assocs",
           "normalized": "Vector a b-\u003e[(a,b)]",
@@ -8854,6 +9700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "beside",
           "package": "sized-types",
@@ -8863,6 +9710,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "beside",
           "normalized": "Vector(a,b)c-\u003eVector(a,b)c-\u003eVector(a,b)c",
@@ -8877,6 +9725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "cols",
           "package": "sized-types",
@@ -8886,6 +9735,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "cols",
           "normalized": "Vector(a,b)c-\u003eVector b(Vector a c)",
@@ -8900,6 +9750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "fromBounds",
           "package": "sized-types",
@@ -8909,6 +9760,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "fromBounds",
           "normalized": "(a,a)-\u003ea",
@@ -8924,6 +9776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "identity",
           "package": "sized-types",
@@ -8933,6 +9786,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "identity",
           "normalized": "a-\u003eVector(a,a)b",
@@ -8947,6 +9801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "indices",
           "package": "sized-types",
@@ -8956,6 +9811,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "indices",
           "normalized": "Vector a b-\u003e[a]",
@@ -8970,6 +9826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "ixmap",
           "package": "sized-types",
@@ -8979,6 +9836,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "ixmap",
           "normalized": "a-\u003e(a-\u003eb)-\u003eVector b c-\u003eVector a c",
@@ -8993,6 +9851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "range",
           "package": "sized-types",
@@ -9002,6 +9861,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "range",
           "normalized": "(a,a)-\u003e[a]",
@@ -9016,6 +9876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "rows",
           "package": "sized-types",
@@ -9025,6 +9886,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "rows",
           "normalized": "Vector(a,b)c-\u003eVector a(Vector b c)",
@@ -9039,6 +9901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "seeIn2D",
           "package": "sized-types",
@@ -9048,6 +9911,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "seeIn2D",
           "normalized": "Vector a b-\u003eVector(a,a)b",
@@ -9063,6 +9927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "showMatrix'",
           "package": "sized-types",
@@ -9072,6 +9937,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "showMatrix'",
           "normalized": "(a,a)-\u003e[[String]]-\u003eString",
@@ -9087,6 +9953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "size",
           "package": "sized-types",
@@ -9096,6 +9963,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "size",
           "normalized": "Vector a b-\u003ea",
@@ -9110,6 +9978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "toBounds",
           "package": "sized-types",
@@ -9119,6 +9988,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "toBounds",
           "normalized": "a-\u003e(a,a)",
@@ -9134,6 +10004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "toList",
           "package": "sized-types",
@@ -9143,6 +10014,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "toList",
           "normalized": "Vector a b-\u003e[b]",
@@ -9158,6 +10030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "transpose",
           "package": "sized-types",
@@ -9167,6 +10040,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "transpose",
           "normalized": "Vector(a,b)c-\u003eVector(b,a)c",
@@ -9181,6 +10055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:58 UTC 2014",
           "module": "Data.Sized.Vector",
           "name": "vector",
           "package": "sized-types",
@@ -9190,6 +10065,7 @@
         },
         "index": {
           "hierarchy": "Data Sized Vector",
+          "indexed": "2014-03-11T20:03:58",
           "module": "Data.Sized.Vector",
           "name": "vector",
           "normalized": "a-\u003e[b]-\u003eVector a b",

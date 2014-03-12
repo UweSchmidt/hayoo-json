@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "torrent"
+        "phrase": "torrent",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:16 UTC 2014",
           "module": "Data.Torrent.SHA1",
           "name": "3Asha1",
           "package": "torrent",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent SHA1",
+          "indexed": "2014-03-11T20:24:16",
           "module": "Data.Torrent.SHA1",
           "name": "3Asha1",
           "normalized": "ByteString-\u003eByteString",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:16 UTC 2014",
           "module": "Data.Torrent.Scrape",
           "name": "3AScrapeInfo",
           "package": "torrent",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Scrape",
+          "indexed": "2014-03-11T20:24:16",
           "module": "Data.Torrent.Scrape",
           "name": "3AScrapeInfo",
           "package": "torrent",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:16 UTC 2014",
           "module": "Data.Torrent.Scrape",
           "name": "3AparseScrapeInfo",
           "package": "torrent",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Scrape",
+          "indexed": "2014-03-11T20:24:16",
           "module": "Data.Torrent.Scrape",
           "name": "3AparseScrapeInfo",
           "normalized": "ByteString-\u003eMaybe ScrapeInfo",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:16 UTC 2014",
           "module": "Data.Torrent.Scrape",
           "name": "3AscrapeUrl",
           "package": "torrent",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Scrape",
+          "indexed": "2014-03-11T20:24:16",
           "module": "Data.Torrent.Scrape",
           "name": "3AscrapeUrl",
           "normalized": "ByteString-\u003e[String]-\u003eMaybe String",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:16 UTC 2014",
           "module": "Data.Torrent",
           "name": "3ATorrent",
           "package": "torrent",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T20:24:16",
           "module": "Data.Torrent",
           "name": "3ATorrent",
           "package": "torrent",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:16 UTC 2014",
           "module": "Data.Torrent",
           "name": "3ATorrentFile",
           "package": "torrent",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T20:24:16",
           "module": "Data.Torrent",
           "name": "3ATorrentFile",
           "package": "torrent",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:16 UTC 2014",
           "module": "Data.Torrent",
           "name": "3ATorrentInfo",
           "package": "torrent",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T20:24:16",
           "module": "Data.Torrent",
           "name": "3ATorrentInfo",
           "package": "torrent",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:16 UTC 2014",
           "module": "Data.Torrent",
           "name": "3AreadTorrent",
           "package": "torrent",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T20:24:16",
           "module": "Data.Torrent",
           "name": "3AreadTorrent",
           "normalized": "ByteString-\u003eEither String Torrent",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:16 UTC 2014",
           "module": "Data.Torrent",
           "name": "3AserializeTorrent",
           "package": "torrent",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T20:24:16",
           "module": "Data.Torrent",
           "name": "3AserializeTorrent",
           "normalized": "Torrent-\u003eBEncode",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:16 UTC 2014",
           "module": "Data.Torrent",
           "name": "3AtorrentSize",
           "package": "torrent",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T20:24:16",
           "module": "Data.Torrent",
           "name": "3AtorrentSize",
           "normalized": "Torrent-\u003eInt",

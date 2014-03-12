@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LogicGrowsOnTrees-MPI"
+        "phrase": "LogicGrowsOnTrees-MPI",
+        "type": "phrase"
       },
       "type": "context"
     }

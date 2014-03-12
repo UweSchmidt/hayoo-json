@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "poll"
+        "phrase": "poll",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "Poll",
           "package": "poll",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "Poll",
           "package": "poll",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "Event",
           "package": "poll",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "Event",
           "package": "poll",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "Events",
           "package": "poll",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "Events",
           "package": "poll",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "Fd",
           "package": "poll",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "Fd",
           "package": "poll",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "Err",
           "package": "poll",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "Err",
           "package": "poll",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "Fd",
           "package": "poll",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "Fd",
           "package": "poll",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "Hup",
           "package": "poll",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "Hup",
           "package": "poll",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "In",
           "package": "poll",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "In",
           "package": "poll",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "NVal",
           "package": "poll",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "NVal",
           "package": "poll",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "Other",
           "package": "poll",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "Other",
           "package": "poll",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "Out",
           "package": "poll",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "Out",
           "package": "poll",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "Pri",
           "package": "poll",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "Pri",
           "package": "poll",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "err",
           "package": "poll",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "err",
           "package": "poll",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "events",
           "package": "poll",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "events",
           "package": "poll",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "fd",
           "package": "poll",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "fd",
           "package": "poll",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "hup",
           "package": "poll",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "hup",
           "package": "poll",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "inp",
           "package": "poll",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "inp",
           "package": "poll",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "nVal",
           "package": "poll",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "nVal",
           "package": "poll",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "out",
           "package": "poll",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "out",
           "package": "poll",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "pri",
           "package": "poll",
@@ -435,6 +474,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "pri",
           "package": "poll",
@@ -447,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:02 UTC 2014",
           "module": "System.Posix.Poll",
           "name": "rEvents",
           "package": "poll",
@@ -456,6 +497,7 @@
         },
         "index": {
           "hierarchy": "System Posix Poll",
+          "indexed": "2014-03-11T19:41:02",
           "module": "System.Posix.Poll",
           "name": "rEvents",
           "package": "poll",

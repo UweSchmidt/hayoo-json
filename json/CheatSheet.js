@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CheatSheet"
+        "phrase": "CheatSheet",
+        "type": "phrase"
       },
       "type": "context"
     }

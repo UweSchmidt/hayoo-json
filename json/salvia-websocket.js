@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "salvia-websocket"
+        "phrase": "salvia-websocket",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "WebSocket",
           "package": "salvia-websocket",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "WebSocket",
           "package": "salvia-websocket",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "Protocol",
           "package": "salvia-websocket",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "Protocol",
           "package": "salvia-websocket",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "WebSocketT",
           "package": "salvia-websocket",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "WebSocketT",
           "package": "salvia-websocket",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hOnMessage",
           "package": "salvia-websocket",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hOnMessage",
           "normalized": "Int-\u003e(String-\u003ea())-\u003eWebSocketT a()",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hOnMessageUpdateTMVar",
           "package": "salvia-websocket",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hOnMessageUpdateTMVar",
           "normalized": "Int-\u003e(String-\u003ea-\u003ea)-\u003eTMVar a-\u003eWebSocketT b()",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hRecvFrameNonBlocking",
           "package": "salvia-websocket",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hRecvFrameNonBlocking",
           "normalized": "Int-\u003eStateT ByteString a(Maybe String)",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hSendFrame",
           "package": "salvia-websocket",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hSendFrame",
           "normalized": "String-\u003ea()",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hSendTMVar",
           "package": "salvia-websocket",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hSendTMVar",
           "normalized": "Int-\u003eTMVar a-\u003e(a-\u003eString)-\u003eb()",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hWebSocket",
           "package": "salvia-websocket",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "hWebSocket",
           "normalized": "Value-\u003eWebSocketT a b-\u003ea b",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "wsLocation",
           "package": "salvia-websocket",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "wsLocation",
           "normalized": "Http a-\u003eMaybe Value",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "wsOrigin",
           "package": "salvia-websocket",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "wsOrigin",
           "normalized": "Http a-\u003eMaybe Value",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:59 UTC 2014",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "wsProtocol",
           "package": "salvia-websocket",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler WebSocket",
+          "indexed": "2014-03-11T19:56:59",
           "module": "Network.Salvia.Handler.WebSocket",
           "name": "wsProtocol",
           "normalized": "Http a-\u003eMaybe Value",

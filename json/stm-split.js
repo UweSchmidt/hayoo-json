@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stm-split"
+        "phrase": "stm-split",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "Chan",
           "package": "stm-split",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Chan",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "Chan",
           "package": "stm-split",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "In",
           "package": "stm-split",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Chan",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "In",
           "package": "stm-split",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "Out",
           "package": "stm-split",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Chan",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "Out",
           "package": "stm-split",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "T",
           "package": "stm-split",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Chan",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "T",
           "package": "stm-split",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "new",
           "package": "stm-split",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Chan",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "new",
           "normalized": "STM(In a,Out a)",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "newIO",
           "package": "stm-split",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Chan",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "newIO",
           "normalized": "IO(In a,Out a)",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "read",
           "package": "stm-split",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Chan",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "read",
           "normalized": "Out a-\u003eSTM a",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "write",
           "package": "stm-split",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Chan",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "write",
           "normalized": "In a-\u003ea-\u003eSTM()",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "writeIO",
           "package": "stm-split",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Chan",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Chan",
           "name": "writeIO",
           "normalized": "In a-\u003ea-\u003eIO()",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "Class",
           "package": "stm-split",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Class",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "Class",
           "package": "stm-split",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "C",
           "package": "stm-split",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Class",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "C",
           "package": "stm-split",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "In",
           "package": "stm-split",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Class",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "In",
           "package": "stm-split",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "Out",
           "package": "stm-split",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Class",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "Out",
           "package": "stm-split",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "new",
           "package": "stm-split",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Class",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "new",
           "normalized": "STM(a In b,a Out b)",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "newIO",
           "package": "stm-split",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Class",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "newIO",
           "normalized": "IO(a In b,a Out b)",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "read",
           "package": "stm-split",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Class",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "read",
           "normalized": "a Out b-\u003eSTM b",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "write",
           "package": "stm-split",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split Class",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.Class",
           "name": "write",
           "normalized": "a In b-\u003eb-\u003eSTM()",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "MVar",
           "package": "stm-split",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split MVar",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "MVar",
           "package": "stm-split",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "In",
           "package": "stm-split",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split MVar",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "In",
           "package": "stm-split",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "Out",
           "package": "stm-split",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split MVar",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "Out",
           "package": "stm-split",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "T",
           "package": "stm-split",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split MVar",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "T",
           "package": "stm-split",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "new",
           "package": "stm-split",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split MVar",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "new",
           "normalized": "a-\u003eSTM(In a,Out a)",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "newEmpty",
           "package": "stm-split",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split MVar",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "newEmpty",
           "normalized": "STM(In a,Out a)",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "newEmptyIO",
           "package": "stm-split",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split MVar",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "newEmptyIO",
           "normalized": "IO(In a,Out a)",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "newIO",
           "package": "stm-split",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split MVar",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "newIO",
           "normalized": "a-\u003eIO(In a,Out a)",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "put",
           "package": "stm-split",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split MVar",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "put",
           "normalized": "In a-\u003ea-\u003eSTM()",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:18 UTC 2014",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "take",
           "package": "stm-split",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM Split MVar",
+          "indexed": "2014-03-11T20:11:18",
           "module": "Control.Concurrent.STM.Split.MVar",
           "name": "take",
           "normalized": "Out a-\u003eSTM a",

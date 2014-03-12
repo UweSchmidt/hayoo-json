@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "iptables-helpers"
+        "phrase": "iptables-helpers",
+        "type": "phrase"
       },
       "type": "context"
     }

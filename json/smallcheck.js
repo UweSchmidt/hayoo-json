@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "smallcheck"
+        "phrase": "smallcheck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eYou should only need this module if you wish to create your own way to\n run SmallCheck tests\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "Drivers",
           "package": "smallcheck",
@@ -28,6 +29,7 @@
         "index": {
           "description": "You should only need this module if you wish to create your own way to run SmallCheck tests",
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "Drivers",
           "package": "smallcheck",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "Argument",
           "package": "smallcheck",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "Argument",
           "package": "smallcheck",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "PropertyFailure",
           "package": "smallcheck",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "PropertyFailure",
           "package": "smallcheck",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "PropertySuccess",
           "package": "smallcheck",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "PropertySuccess",
           "package": "smallcheck",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explanation for the test outcome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "Reason",
           "package": "smallcheck",
@@ -114,6 +123,7 @@
         "index": {
           "description": "An explanation for the test outcome",
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "Reason",
           "package": "smallcheck",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "TestQuality",
           "package": "smallcheck",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "TestQuality",
           "package": "smallcheck",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "AtLeastTwo",
           "package": "smallcheck",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "AtLeastTwo",
           "normalized": "AtLeastTwo[Argument]PropertySuccess[Argument]PropertySuccess",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "BadTest",
           "package": "smallcheck",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "BadTest",
           "package": "smallcheck",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "CounterExample",
           "package": "smallcheck",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "CounterExample",
           "normalized": "CounterExample[Argument]PropertyFailure",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "Exist",
           "package": "smallcheck",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "Exist",
           "normalized": "Exist[Argument]PropertySuccess",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "ExistUnique",
           "package": "smallcheck",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "ExistUnique",
           "normalized": "ExistUnique[Argument]PropertySuccess",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "GoodTest",
           "package": "smallcheck",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "GoodTest",
           "package": "smallcheck",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "NotExist",
           "package": "smallcheck",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "NotExist",
           "package": "smallcheck",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "PropertyFalse",
           "package": "smallcheck",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "PropertyFalse",
           "package": "smallcheck",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "PropertyTrue",
           "package": "smallcheck",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "PropertyTrue",
           "package": "smallcheck",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "Vacuously",
           "package": "smallcheck",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "Vacuously",
           "package": "smallcheck",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "ppFailure",
           "package": "smallcheck",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "ppFailure",
           "normalized": "PropertyFailure-\u003eString",
@@ -428,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this if:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e You need to run a test in a monad different from \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e You need to analyse the results rather than just print them\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "smallCheckM",
           "package": "smallcheck",
@@ -438,6 +473,7 @@
         "index": {
           "description": "Use this if You need to run test in monad different from IO You need to analyse the results rather than just print them",
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "smallCheckM",
           "normalized": "Depth-\u003ea-\u003eb(Maybe PropertyFailure)",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esmallCheckM\u003c/a\u003e\u003c/code\u003e, but allows to specify a monadic hook that gets\n executed after each test is run.\n\u003c/p\u003e\u003cp\u003eUseful for applications that want to report progress information to the\n user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "smallCheckWithHook",
           "package": "smallcheck",
@@ -464,6 +501,7 @@
         "index": {
           "description": "Like smallCheckM but allows to specify monadic hook that gets executed after each test is run Useful for applications that want to report progress information to the user",
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "smallCheckWithHook",
           "normalized": "Depth-\u003e(TestQuality-\u003ea())-\u003eb-\u003ea(Maybe PropertyFailure)",
@@ -479,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Drivers",
           "name": "test",
           "package": "smallcheck",
@@ -488,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Drivers",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Drivers",
           "name": "test",
           "normalized": "a-\u003eProperty b",
@@ -503,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eYou need this module if you want to generate test values of your own\n types.\n\u003c/p\u003e\u003cp\u003eYou'll typically need the following extensions:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE FlexibleInstances, MultiParamTypeClasses #-}\n\u003c/pre\u003e\u003cp\u003eSmallCheck itself defines data generators for all the data types used\n by the \u003ca\u003ePrelude\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIn order to generate values and functions of your own types, you need\n to make them instances of \u003ccode\u003e\u003ca\u003eSerial\u003c/a\u003e\u003c/code\u003e (for values) and \u003ccode\u003e\u003ca\u003eCoSerial\u003c/a\u003e\u003c/code\u003e (for\n functions). There are two main ways to do so: using Generics or writing\n the instances by hand.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "Series",
           "package": "smallcheck",
@@ -512,6 +553,7 @@
         "index": {
           "description": "You need this module if you want to generate test values of your own types You ll typically need the following extensions LANGUAGE FlexibleInstances MultiParamTypeClasses SmallCheck itself defines data generators for all the data types used by the Prelude In order to generate values and functions of your own types you need to make them instances of Serial for values and CoSerial for functions There are two main ways to do so using Generics or writing the instances by hand",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "Series",
           "package": "smallcheck",
@@ -525,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "CoSerial",
           "package": "smallcheck",
@@ -533,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "CoSerial",
           "package": "smallcheck",
@@ -547,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum depth of generated test values.\n\u003c/p\u003e\u003cp\u003eFor data values, it is the depth of nested constructor applications.\n\u003c/p\u003e\u003cp\u003eFor functional values, it is both the depth of nested case analysis\n and the depth of results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "Depth",
           "package": "smallcheck",
@@ -556,6 +601,7 @@
         "index": {
           "description": "Maximum depth of generated test values For data values it is the depth of nested constructor applications For functional values it is both the depth of nested case analysis and the depth of results",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "Depth",
           "package": "smallcheck",
@@ -570,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNonEmpty xs\u003c/code\u003e: guarantees that \u003ccode\u003exs\u003c/code\u003e is not null\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "NonEmpty",
           "package": "smallcheck",
@@ -579,6 +626,7 @@
         "index": {
           "description": "NonEmpty xs guarantees that xs is not null",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "NonEmpty",
           "package": "smallcheck",
@@ -593,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNonNegative x\u003c/code\u003e: guarantees that \u003ccode\u003ex \u003e= 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "NonNegative",
           "package": "smallcheck",
@@ -602,6 +651,7 @@
         "index": {
           "description": "NonNegative guarantees that",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "NonNegative",
           "package": "smallcheck",
@@ -616,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePositive x\u003c/code\u003e: guarantees that \u003ccode\u003ex \u003e 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "Positive",
           "package": "smallcheck",
@@ -625,6 +676,7 @@
         "index": {
           "description": "Positive guarantees that",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "Positive",
           "package": "smallcheck",
@@ -638,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "Serial",
           "package": "smallcheck",
@@ -646,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "Serial",
           "package": "smallcheck",
@@ -660,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSeries\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eMonadLogic\u003c/a\u003e\u003c/code\u003e action that enumerates values of a certain\n type, up to some depth.\n\u003c/p\u003e\u003cp\u003eThe depth bound is tracked in the \u003ccode\u003eSC\u003c/code\u003e monad and can be extracted using\n \u003ccode\u003egetDepth\u003c/code\u003e and changed using \u003ccode\u003elocalDepth\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo manipulate series at the lowest level you can use its \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMonadLogic\u003c/a\u003e\u003c/code\u003e instances. This module provides some\n higher-level combinators which simplify creating series.\n\u003c/p\u003e\u003cp\u003eA proper \u003ccode\u003e\u003ca\u003eSeries\u003c/a\u003e\u003c/code\u003e should be monotonic with respect to the depth &#8212; i.e.\n \u003ccode\u003elocalDepth (+1) s\u003c/code\u003e should emit all the values that \u003ccode\u003es\u003c/code\u003e emits (and\n possibly some more).\n\u003c/p\u003e\u003cp\u003eIt is also desirable that values of smaller depth come before the values\n of greater depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "Series",
           "package": "smallcheck",
@@ -669,6 +724,7 @@
         "index": {
           "description": "Series is MonadLogic action that enumerates values of certain type up to some depth The depth bound is tracked in the SC monad and can be extracted using getDepth and changed using localDepth To manipulate series at the lowest level you can use its Monad MonadPlus and MonadLogic instances This module provides some higher-level combinators which simplify creating series proper Series should be monotonic with respect to the depth i.e localDepth should emit all the values that emits and possibly some more It is also desirable that values of smaller depth come before the values of greater depth",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "Series",
           "package": "smallcheck",
@@ -683,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFair version of \u003ccode\u003e\u003ca\u003eap\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "(\u003c~\u003e)",
           "package": "smallcheck",
@@ -693,6 +750,7 @@
         "index": {
           "description": "Fair version of ap and",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "(\u003c~\u003e) \u003c~\u003e",
           "normalized": "Series a(b-\u003ec)-\u003eSeries a b-\u003eSeries a c",
@@ -708,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct of series\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "(\u003e\u003c)",
           "package": "smallcheck",
@@ -718,6 +777,7 @@
         "index": {
           "description": "Product of series",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "Series a b-\u003eSeries a c-\u003eSeries a(b,c)",
@@ -733,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFair conjunction. Similarly to the previous function, consider\n   the distributivity law for MonadPlus:\n\u003c/p\u003e\u003cpre\u003e (mplus a b) \u003e\u003e= k = (a \u003e\u003e= k) `mplus` (b \u003e\u003e= k)\n\u003c/pre\u003e\u003cp\u003eIf 'a \u003e\u003e= k' can backtrack arbitrarily many tmes, (b \u003e\u003e= k) may never\n   be considered. (\u003e\u003e-) takes similar care to consider both branches of\n   a disjunctive computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "(\u003e\u003e-)",
           "package": "smallcheck",
@@ -742,6 +803,7 @@
         "index": {
           "description": "Fair conjunction Similarly to the previous function consider the distributivity law for MonadPlus mplus mplus If can backtrack arbitrarily many tmes may never be considered takes similar care to consider both branches of disjunctive computation",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "(\u003e\u003e-) \u003e\u003e-",
           "normalized": "a b c d b-\u003e(b-\u003ed e)-\u003ed e",
@@ -757,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum (union) of series\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "(\\/)",
           "package": "smallcheck",
@@ -767,6 +830,7 @@
         "index": {
           "description": "Sum union of series",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "(\\/) \\/",
           "normalized": "Series a b-\u003eSeries a b-\u003eSeries a b",
@@ -781,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "NonEmpty",
           "package": "smallcheck",
@@ -790,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "NonEmpty",
           "package": "smallcheck",
@@ -803,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "NonNegative",
           "package": "smallcheck",
@@ -812,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "NonNegative",
           "package": "smallcheck",
@@ -825,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "Positive",
           "package": "smallcheck",
@@ -834,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "Positive",
           "package": "smallcheck",
@@ -847,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "alts0",
           "package": "smallcheck",
@@ -856,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "alts0",
           "normalized": "Series a b-\u003eSeries a b",
@@ -870,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "alts1",
           "package": "smallcheck",
@@ -879,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "alts1",
           "normalized": "Series a b-\u003eSeries a(c-\u003eb)",
@@ -893,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "alts2",
           "package": "smallcheck",
@@ -902,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "alts2",
           "normalized": "Series a b-\u003eSeries a(c-\u003ed-\u003eb)",
@@ -916,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "alts3",
           "package": "smallcheck",
@@ -925,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "alts3",
           "normalized": "Series a b-\u003eSeries a(c-\u003ed-\u003ee-\u003eb)",
@@ -939,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "alts4",
           "package": "smallcheck",
@@ -948,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "alts4",
           "normalized": "Series a b-\u003eSeries a(c-\u003ed-\u003ee-\u003ef-\u003eb)",
@@ -962,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "cons0",
           "package": "smallcheck",
@@ -971,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "cons0",
           "normalized": "a-\u003eSeries b a",
@@ -985,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "cons1",
           "package": "smallcheck",
@@ -994,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "cons1",
           "normalized": "(a-\u003eb)-\u003eSeries c b",
@@ -1008,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "cons2",
           "package": "smallcheck",
@@ -1017,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "cons2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eSeries d c",
@@ -1031,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "cons3",
           "package": "smallcheck",
@@ -1040,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "cons3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eSeries e d",
@@ -1054,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "cons4",
           "package": "smallcheck",
@@ -1063,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "cons4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eSeries f e",
@@ -1078,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003econstM\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eliftM\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "constM",
           "package": "smallcheck",
@@ -1088,6 +1179,7 @@
         "index": {
           "description": "constM liftM const",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "constM",
           "normalized": "a b-\u003ea(c-\u003eb)",
@@ -1103,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proper \u003ccode\u003e\u003ca\u003ecoseries\u003c/a\u003e\u003c/code\u003e implementation should pass the depth unchanged to\n its first argument. Doing otherwise will make enumeration of curried\n functions non-uniform in their arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "coseries",
           "package": "smallcheck",
@@ -1113,6 +1206,7 @@
         "index": {
           "description": "proper coseries implementation should pass the depth unchanged to its first argument Doing otherwise will make enumeration of curried functions non-uniform in their arguments",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "coseries",
           "normalized": "Series a b-\u003eSeries a(c-\u003eb)",
@@ -1128,6 +1222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eSeries\u003c/a\u003e\u003c/code\u003e with the depth decreased by 1.\n\u003c/p\u003e\u003cp\u003eIf the current depth is less or equal to 0, the result is \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "decDepth",
           "package": "smallcheck",
@@ -1138,6 +1233,7 @@
         "index": {
           "description": "Run Series with the depth decreased by If the current depth is less or equal to the result is mzero",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "decDepth",
           "normalized": "Series a b-\u003eSeries a b",
@@ -1154,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the current depth is 0, evaluate the first argument. Otherwise,\n evaluate the second argument with decremented depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "decDepthChecked",
           "package": "smallcheck",
@@ -1164,6 +1261,7 @@
         "index": {
           "description": "If the current depth is evaluate the first argument Otherwise evaluate the second argument with decremented depth",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "decDepthChecked",
           "normalized": "Series a b-\u003eSeries a b-\u003eSeries a b",
@@ -1180,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFix the depth of a series at the current level. The resulting series\n will no longer depend on the \"ambient\" depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "fixDepth",
           "package": "smallcheck",
@@ -1190,6 +1289,7 @@
         "index": {
           "description": "Fix the depth of series at the current level The resulting series will no longer depend on the ambient depth",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "fixDepth",
           "normalized": "Series a b-\u003eSeries a(Series a b)",
@@ -1206,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple series specified by a function from depth to the list of\n values up to that depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "generate",
           "package": "smallcheck",
@@ -1216,6 +1317,7 @@
         "index": {
           "description": "simple series specified by function from depth to the list of values up to that depth",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "generate",
           "normalized": "(Depth-\u003e[a])-\u003eSeries b a",
@@ -1231,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the current depth\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "getDepth",
           "package": "smallcheck",
@@ -1241,6 +1344,7 @@
         "index": {
           "description": "Query the current depth",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "getDepth",
           "package": "smallcheck",
@@ -1254,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "getNonEmpty",
           "package": "smallcheck",
@@ -1263,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "getNonEmpty",
           "normalized": "[a]",
@@ -1278,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "getNonNegative",
           "package": "smallcheck",
@@ -1287,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "getNonNegative",
           "package": "smallcheck",
@@ -1300,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "getPositive",
           "package": "smallcheck",
@@ -1309,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "getPositive",
           "package": "smallcheck",
@@ -1323,6 +1433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the list of values generated by a \u003ccode\u003e\u003ca\u003eSeries\u003c/a\u003e\u003c/code\u003e. Useful for\n debugging \u003ccode\u003e\u003ca\u003eSerial\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "list",
           "package": "smallcheck",
@@ -1333,6 +1444,7 @@
         "index": {
           "description": "Return the list of values generated by Series Useful for debugging Serial instances",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "list",
           "normalized": "Depth-\u003eSeries Identity a-\u003e[a]",
@@ -1348,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003elist\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "listM",
           "package": "smallcheck",
@@ -1358,6 +1471,7 @@
         "index": {
           "description": "Monadic version of list",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "listM",
           "normalized": "Depth-\u003eSeries a b-\u003ea[b]",
@@ -1373,6 +1487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a series with a modified depth\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "localDepth",
           "package": "smallcheck",
@@ -1383,6 +1498,7 @@
         "index": {
           "description": "Run series with modified depth",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "localDepth",
           "normalized": "(Depth-\u003eDepth)-\u003eSeries a b-\u003eSeries a b",
@@ -1399,6 +1515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ealts1\u003c/a\u003e\u003c/code\u003e, but preserves the depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "newtypeAlts",
           "package": "smallcheck",
@@ -1409,6 +1526,7 @@
         "index": {
           "description": "Same as alts1 but preserves the depth",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "newtypeAlts",
           "normalized": "Series a b-\u003eSeries a(c-\u003eb)",
@@ -1425,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003econs1\u003c/a\u003e\u003c/code\u003e, but preserves the depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "newtypeCons",
           "package": "smallcheck",
@@ -1435,6 +1554,7 @@
         "index": {
           "description": "Same as cons1 but preserves the depth",
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "newtypeCons",
           "normalized": "(a-\u003eb)-\u003eSeries c b",
@@ -1450,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck.Series",
           "name": "series",
           "package": "smallcheck",
@@ -1459,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Test SmallCheck Series",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck.Series",
           "name": "series",
           "package": "smallcheck",
@@ -1472,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports the main pieces of SmallCheck functionality.\n\u003c/p\u003e\u003cp\u003eTo generate test cases for your own types, refer to\n \u003ca\u003eTest.SmallCheck.Series\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eFor pointers to other sources of information about SmallCheck, please refer\n to the README at\n \u003ca\u003ehttps://github.com/feuerbach/smallcheck/blob/master/README.md\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "SmallCheck",
           "package": "smallcheck",
@@ -1481,6 +1604,7 @@
         "index": {
           "description": "This module exports the main pieces of SmallCheck functionality To generate test cases for your own types refer to Test.SmallCheck.Series For pointers to other sources of information about SmallCheck please refer to the README at https github.com feuerbach smallcheck blob master README.md",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "SmallCheck",
           "package": "smallcheck",
@@ -1495,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum depth of generated test values.\n\u003c/p\u003e\u003cp\u003eFor data values, it is the depth of nested constructor applications.\n\u003c/p\u003e\u003cp\u003eFor functional values, it is both the depth of nested case analysis\n and the depth of results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "Depth",
           "package": "smallcheck",
@@ -1504,6 +1629,7 @@
         "index": {
           "description": "Maximum depth of generated test values For data values it is the depth of nested constructor applications For functional values it is both the depth of nested case analysis and the depth of results",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "Depth",
           "package": "smallcheck",
@@ -1518,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of properties over the monad \u003ccode\u003em\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "Property",
           "package": "smallcheck",
@@ -1527,6 +1654,7 @@
         "index": {
           "description": "The type of properties over the monad",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "Property",
           "package": "smallcheck",
@@ -1541,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explanation for the test outcome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "Reason",
           "package": "smallcheck",
@@ -1550,6 +1679,7 @@
         "index": {
           "description": "An explanation for the test outcome",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "Reason",
           "package": "smallcheck",
@@ -1564,6 +1694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of tests that can be run in a monad. For pure tests, it is\n recommended to keep their types polymorphic in \u003ccode\u003em\u003c/code\u003e rather than\n specialising it to \u003ccode\u003eIdentity\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "Testable",
           "package": "smallcheck",
@@ -1573,6 +1704,7 @@
         "index": {
           "description": "Class of tests that can be run in monad For pure tests it is recommended to keep their types polymorphic in rather than specialising it to Identity",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "Testable",
           "package": "smallcheck",
@@ -1587,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e==\u003e\u003c/a\u003e\u003c/code\u003e operator can be used to express a restricting condition\n under which a property should hold. It corresponds to implication in the\n classical logic.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003e==\u003e\u003c/a\u003e\u003c/code\u003e resets the quantification context for its operands to\n the default (universal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "(==\u003e)",
           "package": "smallcheck",
@@ -1597,6 +1730,7 @@
         "index": {
           "description": "The operator can be used to express restricting condition under which property should hold It corresponds to implication in the classical logic Note that resets the quantification context for its operands to the default universal",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "(==\u003e) ==\u003e",
           "normalized": "a-\u003eb-\u003eProperty c",
@@ -1612,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun property with a modified depth. Affects all quantified variables\n in the property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "changeDepth",
           "package": "smallcheck",
@@ -1622,6 +1757,7 @@
         "index": {
           "description": "Run property with modified depth Affects all quantified variables in the property",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "changeDepth",
           "normalized": "(Depth-\u003eDepth)-\u003ea-\u003eProperty b",
@@ -1638,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuantify the function's argument over its \u003ccode\u003e\u003ca\u003eseries\u003c/a\u003e\u003c/code\u003e, but adjust the\n depth. This doesn't affect any subsequent variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "changeDepth1",
           "package": "smallcheck",
@@ -1648,6 +1785,7 @@
         "index": {
           "description": "Quantify the function argument over its series but adjust the depth This doesn affect any subsequent variables",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "changeDepth1",
           "normalized": "(Depth-\u003eDepth)-\u003e(a-\u003eb)-\u003eProperty c",
@@ -1664,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the existential quantification context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "exists",
           "package": "smallcheck",
@@ -1674,6 +1813,7 @@
         "index": {
           "description": "Set the existential quantification context",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "exists",
           "normalized": "a-\u003eProperty b",
@@ -1689,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the uniqueness quantification context.\n\u003c/p\u003e\u003cp\u003eBear in mind that &#8707;! (x, y): p x y is not the same as &#8707;! x: &#8707;! y: p x y.\n\u003c/p\u003e\u003cp\u003eFor example, &#8707;! x: &#8707;! y: |x| = |y| is true (it holds only when x=0), but &#8707;! (x,y): |x| = |y| is false (there are many such pairs).\n\u003c/p\u003e\u003cp\u003eAs is customary in mathematics,\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eexistsUnique\u003c/a\u003e\u003c/code\u003e $ \\x y -\u003e p x y\u003c/code\u003e is equivalent to\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eexistsUnique\u003c/a\u003e\u003c/code\u003e $ \\(x,y) -\u003e p x y\u003c/code\u003e and not to\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eexistsUnique\u003c/a\u003e\u003c/code\u003e $ \\x -\u003e \u003ccode\u003e\u003ca\u003eexistsUnique\u003c/a\u003e\u003c/code\u003e $ \\y -\u003e p x y\u003c/code\u003e\n (the latter, of course, may be explicitly written when desired).\n\u003c/p\u003e\u003cp\u003eThat is, all the variables affected by the same uniqueness context are\n quantified simultaneously as a tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "existsUnique",
           "package": "smallcheck",
@@ -1699,6 +1840,7 @@
         "index": {
           "description": "Set the uniqueness quantification context Bear in mind that is not the same as For example is true it holds only when but is false there are many such pairs As is customary in mathematics existsUnique is equivalent to existsUnique and not to existsUnique existsUnique the latter of course may be explicitly written when desired That is all the variables affected by the same uniqueness context are quantified simultaneously as tuple",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "existsUnique",
           "normalized": "a-\u003eProperty b",
@@ -1715,6 +1857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the universal quantification context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "forAll",
           "package": "smallcheck",
@@ -1725,6 +1868,7 @@
         "index": {
           "description": "Set the universal quantification context",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "forAll",
           "normalized": "a-\u003eProperty b",
@@ -1741,6 +1885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a monadic test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "monadic",
           "package": "smallcheck",
@@ -1751,6 +1896,7 @@
         "index": {
           "description": "Execute monadic test",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "monadic",
           "normalized": "a b-\u003eProperty a",
@@ -1766,6 +1912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eover\u003c/a\u003e\u003c/code\u003e s $ \\x -\u003e p x\u003c/code\u003e makes \u003ccode\u003ex\u003c/code\u003e range over the \u003ccode\u003e\u003ca\u003eSeries\u003c/a\u003e\u003c/code\u003e \u003ccode\u003es\u003c/code\u003e (by\n default, all variables range over the \u003ccode\u003e\u003ca\u003eseries\u003c/a\u003e\u003c/code\u003e for their types).\n\u003c/p\u003e\u003cp\u003eNote that, unlike the quantification operators, this affects only the\n variable following the operator and not subsequent variables.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eover\u003c/a\u003e\u003c/code\u003e does not affect the quantification context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:20 UTC 2014",
           "module": "Test.SmallCheck",
           "name": "over",
           "package": "smallcheck",
@@ -1776,6 +1923,7 @@
         "index": {
           "description": "over makes range over the Series by default all variables range over the series for their types Note that unlike the quantification operators this affects only the variable following the operator and not subsequent variables over does not affect the quantification context",
           "hierarchy": "Test SmallCheck",
+          "indexed": "2014-03-11T20:04:20",
           "module": "Test.SmallCheck",
           "name": "over",
           "normalized": "Series a b-\u003e(b-\u003ec)-\u003eProperty a",

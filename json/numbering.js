@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "numbering"
+        "phrase": "numbering",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "Numbering",
           "package": "numbering",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "Numbering",
           "package": "numbering",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvariant: \n\u003c/p\u003e\u003cpre\u003e\n For all i in 0 .. \u003ccode\u003e\u003ca\u003enuLength\u003c/a\u003e\u003c/code\u003e - 1, \n     \u003ccode\u003e\u003ca\u003etoInt\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efromInt\u003c/a\u003e\u003c/code\u003e i) == i \n\u003c/pre\u003e\u003cp\u003eThis implies that \n\u003c/p\u003e\u003cpre\u003e\n For all a of the form \u003ccode\u003e\u003ca\u003efromInt\u003c/a\u003e\u003c/code\u003e i (with i in 0 .. \u003ccode\u003e\u003ca\u003enuLength\u003c/a\u003e\u003c/code\u003e - 1), \n     \u003ccode\u003e\u003ca\u003efromInt\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003etoInt\u003c/a\u003e\u003c/code\u003e a) = a\n\u003c/pre\u003e\u003cp\u003eThe behaviour of \u003ccode\u003efromInt\u003c/code\u003e for out-of-bounds indices and that of \u003ccode\u003etoInt\u003c/code\u003e for elements not occuring in the numbering is undefined. \n\u003c/p\u003e\u003cp\u003eThus, assuming the invariant holds, \u003ccode\u003etoInt\u003c/code\u003e is uniquely determined by \u003ccode\u003efromInt\u003c/code\u003e (on valid inputs).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "Numbering",
           "package": "numbering",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Invariant For all in nuLength toInt fromInt This implies that For all of the form fromInt with in nuLength fromInt toInt The behaviour of fromInt for out-of-bounds indices and that of toInt for elements not occuring in the numbering is undefined Thus assuming the invariant holds toInt is uniquely determined by fromInt on valid inputs",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "Numbering",
           "package": "numbering",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "NumberingBrokenInvariantException",
           "package": "numbering",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "NumberingBrokenInvariantException",
           "package": "numbering",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "NumberingBrokenInvariantException",
           "package": "numbering",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "NumberingBrokenInvariantException",
           "package": "numbering",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Unsafe\" because the invariant isn't checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "UnsafeMkNumbering",
           "package": "numbering",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Unsafe because the invariant isn checked",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "UnsafeMkNumbering",
           "package": "numbering",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "checkNu",
           "package": "numbering",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "checkNu",
           "normalized": "Numbering a-\u003eEither(NumberingBrokenInvariantException a)()",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSemantic \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e (for in-bounds inputs), but backs the numbering with a new vector and map having just the required length (example: \u003ccode\u003econsolidateNu (\u003ccode\u003e\u003ca\u003enuTake\u003c/a\u003e\u003c/code\u003e 1 (\u003ccode\u003e\u003ca\u003enuFromDistinctVector\u003c/a\u003e\u003c/code\u003e largeVector))\u003c/code\u003e). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "consolidateNu",
           "package": "numbering",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Semantic id for in-bounds inputs but backs the numbering with new vector and map having just the required length example consolidateNu nuTake nuFromDistinctVector largeVector",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "consolidateNu",
           "normalized": "Numbering a-\u003eNumbering a",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003econsolidateNu\u003c/a\u003e\u003c/code\u003e, but uses unboxed vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "consolidateUnboxNu",
           "package": "numbering",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Like consolidateNu but uses unboxed vectors",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "consolidateUnboxNu",
           "normalized": "Numbering a-\u003eNumbering a",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "eitherNu",
           "package": "numbering",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "eitherNu",
           "normalized": "Numbering a-\u003eNumbering b-\u003eNumbering(Either a b)",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "emptyNu",
           "package": "numbering",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "emptyNu",
           "package": "numbering",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eenumNu a b\u003c/code\u003e creates a numbering of the elements \u003ccode\u003e[a .. b]\u003c/code\u003e (inclusively). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "enumNu",
           "package": "numbering",
@@ -262,6 +283,7 @@
         "index": {
           "description": "enumNu creates numbering of the elements inclusively",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "enumNu",
           "normalized": "a-\u003ea-\u003eNumbering a",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eenumNu' i j\u003c/code\u003e creates a numbering of the elements \u003ccode\u003e[toEnum i .. toEnum j]\u003c/code\u003e (inclusively). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "enumNu'",
           "package": "numbering",
@@ -288,6 +311,7 @@
         "index": {
           "description": "enumNu creates numbering of the elements toEnum toEnum inclusively",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "enumNu'",
           "normalized": "Int-\u003eInt-\u003eNumbering a",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumbering of all elements of a finite type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "finiteTypeNu",
           "package": "numbering",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Numbering of all elements of finite type",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "finiteTypeNu",
           "package": "numbering",
@@ -327,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "fromInt",
           "package": "numbering",
@@ -336,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "fromInt",
           "normalized": "Int-\u003ea",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity numbering\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "idNu",
           "package": "numbering",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Identity numbering",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "idNu",
           "normalized": "Int-\u003eNumbering Int",
@@ -377,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn \u003ccode\u003emapNu f g nu\u003c/code\u003e, the arguments must satisfy\n\u003c/p\u003e\u003cpre\u003e\n For all i in 0 .. \u003ccode\u003e\u003ca\u003enuLength\u003c/a\u003e\u003c/code\u003e nu - 1, \n     (g . f) a == a\n          where\n              a = \u003ccode\u003e\u003ca\u003efromInt\u003c/a\u003e\u003c/code\u003e nu i\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "mapNu",
           "package": "numbering",
@@ -387,6 +418,7 @@
         "index": {
           "description": "In mapNu nu the arguments must satisfy For all in nuLength nu where fromInt nu",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "mapNu",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eNumbering a-\u003eNumbering b",
@@ -402,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nbie_fromIntOfIndex",
           "package": "numbering",
@@ -411,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nbie_fromIntOfIndex",
           "package": "numbering",
@@ -424,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nbie_index",
           "package": "numbering",
@@ -433,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nbie_index",
           "package": "numbering",
@@ -445,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nbie_toIntOfFromIntOfIndex",
           "package": "numbering",
@@ -454,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nbie_toIntOfFromIntOfIndex",
           "package": "numbering",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity for nonpositive arg.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuDrop",
           "package": "numbering",
@@ -478,6 +517,7 @@
         "index": {
           "description": "Identity for nonpositive arg",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuDrop",
           "normalized": "Int-\u003eNumbering a-\u003eNumbering a",
@@ -493,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuElements",
           "package": "numbering",
@@ -502,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuElements",
           "normalized": "Numbering a-\u003e[a]",
@@ -517,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuFromDistinctIntList",
           "package": "numbering",
@@ -526,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuFromDistinctIntList",
           "normalized": "[Int]-\u003eNumbering Int",
@@ -542,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003enuFromDistinctVector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuFromDistinctList",
           "package": "numbering",
@@ -552,6 +597,7 @@
         "index": {
           "description": "See nuFromDistinctVector",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuFromDistinctList",
           "normalized": "[a]-\u003eNumbering a",
@@ -568,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003enuFromDistinctVector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuFromDistinctUnboxList",
           "package": "numbering",
@@ -578,6 +625,7 @@
         "index": {
           "description": "See nuFromDistinctVector",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuFromDistinctUnboxList",
           "normalized": "[a]-\u003eNumbering a",
@@ -594,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe distinctness precondition is checked (we have to create a map anyway).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuFromDistinctVector",
           "package": "numbering",
@@ -604,6 +653,7 @@
         "index": {
           "description": "The distinctness precondition is checked we have to create map anyway",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuFromDistinctVector",
           "normalized": "a b-\u003eNumbering b",
@@ -620,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows customization of the map type used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuFromDistinctVectorG",
           "package": "numbering",
@@ -629,6 +680,7 @@
         "index": {
           "description": "Allows customization of the map type used",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuFromDistinctVectorG",
           "normalized": "a-\u003e((b-\u003eInt-\u003eInt-\u003ec)-\u003eb-\u003eInt-\u003ea-\u003ea)-\u003e(b-\u003ea-\u003eMaybe Int)-\u003ed b-\u003eNumbering b",
@@ -645,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniquifies the input first (resulting in an unspecified order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuFromIntList",
           "package": "numbering",
@@ -655,6 +708,7 @@
         "index": {
           "description": "Uniquifies the input first resulting in an unspecified order",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuFromIntList",
           "normalized": "[Int]-\u003eNumbering Int",
@@ -671,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniquifies the input first (resulting in an unspecified order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuFromList",
           "package": "numbering",
@@ -681,6 +736,7 @@
         "index": {
           "description": "Uniquifies the input first resulting in an unspecified order",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuFromList",
           "normalized": "[a]-\u003eNumbering a",
@@ -697,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Uses a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e because \u003ca\u003eData.Set\u003c/a\u003e doesn't expose the necessary index-based API)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuFromSet",
           "package": "numbering",
@@ -707,6 +764,7 @@
         "index": {
           "description": "Uses Map because Data.Set doesn expose the necessary index-based API",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuFromSet",
           "normalized": "Map Int a-\u003eNumbering Int",
@@ -723,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniquifies the input first (resulting in an unspecified order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuFromUnboxList",
           "package": "numbering",
@@ -733,6 +792,7 @@
         "index": {
           "description": "Uniquifies the input first resulting in an unspecified order",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuFromUnboxList",
           "normalized": "[a]-\u003eNumbering a",
@@ -748,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuIndices",
           "package": "numbering",
@@ -757,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuIndices",
           "normalized": "Numbering a-\u003e[Int]",
@@ -772,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuLength",
           "package": "numbering",
@@ -781,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuLength",
           "package": "numbering",
@@ -794,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuTake",
           "package": "numbering",
@@ -803,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuTake",
           "normalized": "Int-\u003eNumbering a-\u003eNumbering a",
@@ -819,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e= \u003ccode\u003e\u003ca\u003enuElements\u003c/a\u003e\u003c/code\u003e. Won't actually be distinct if the invariant is broken.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuToDistinctList",
           "package": "numbering",
@@ -829,6 +896,7 @@
         "index": {
           "description": "nuElements Won actually be distinct if the invariant is broken",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuToDistinctList",
           "normalized": "Numbering a-\u003e[a]",
@@ -845,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e= \u003ccode\u003e\u003ca\u003enuToVector\u003c/a\u003e\u003c/code\u003e. Won't actually be distinct if the invariant is broken.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuToDistinctVector",
           "package": "numbering",
@@ -855,6 +924,7 @@
         "index": {
           "description": "nuToVector Won actually be distinct if the invariant is broken",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuToDistinctVector",
           "normalized": "Numbering a-\u003eb a",
@@ -871,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e= \u003ccode\u003e\u003ca\u003enuElements\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuToList",
           "package": "numbering",
@@ -881,6 +952,7 @@
         "index": {
           "description": "nuElements",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuToList",
           "normalized": "Numbering a-\u003e[a]",
@@ -896,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "nuToVector",
           "package": "numbering",
@@ -905,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "nuToVector",
           "normalized": "Numbering a-\u003eb a",
@@ -920,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "pairNu",
           "package": "numbering",
@@ -929,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "pairNu",
           "normalized": "Numbering a-\u003eNumbering b-\u003eNumbering(a,b)",
@@ -945,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a numbering for an pair-like type, given numberings for the component types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "prodNu",
           "package": "numbering",
@@ -954,6 +1031,7 @@
         "index": {
           "description": "Creates numbering for an pair-like type given numberings for the component types",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "prodNu",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003eNumbering a-\u003eNumbering a-\u003eNumbering a",
@@ -970,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn \u003ccode\u003ereindexNu k f g nu\u003c/code\u003e, the arguments must satisfy\n\u003c/p\u003e\u003cpre\u003e\n For all i in 0 .. k,\n     (g . f) i == i\n\u003c/pre\u003e\u003cp\u003eNote: Decreasing the length with this function will \u003cem\u003enot\u003c/em\u003e release any memory retained\n by the closures in the input numbering (e.g. the vector, for numberings created by \u003ccode\u003e\u003ca\u003enuFromDistinctVector\u003c/a\u003e\u003c/code\u003e). Use \u003ccode\u003e\u003ca\u003econsolidateNu\u003c/a\u003e\u003c/code\u003e afterwards for that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "reindexNu",
           "package": "numbering",
@@ -979,6 +1058,7 @@
         "index": {
           "description": "In reindexNu nu the arguments must satisfy For all in Note Decreasing the length with this function will not release any memory retained by the closures in the input numbering e.g the vector for numberings created by nuFromDistinctVector Use consolidateNu afterwards for that",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "reindexNu",
           "normalized": "Int-\u003e(Int-\u003eInt)-\u003e(Int-\u003eInt)-\u003eNumbering a-\u003eNumbering a",
@@ -994,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "reverseNu",
           "package": "numbering",
@@ -1003,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "reverseNu",
           "normalized": "Numbering a-\u003eNumbering a",
@@ -1019,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a numbering for an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e-like type, given numberings for the summand types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "sumNu",
           "package": "numbering",
@@ -1028,6 +1111,7 @@
         "index": {
           "description": "Creates numbering for an Either like type given numberings for the summand types",
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "sumNu",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea)-\u003e((a-\u003eInt)-\u003e(a-\u003eInt)-\u003ea-\u003eInt)-\u003eNumbering a-\u003eNumbering a-\u003eNumbering a",
@@ -1043,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:21 UTC 2014",
           "module": "Data.Numbering",
           "name": "toInt",
           "package": "numbering",
@@ -1052,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Data Numbering",
+          "indexed": "2014-03-11T19:30:21",
           "module": "Data.Numbering",
           "name": "toInt",
           "normalized": "a-\u003eInt",

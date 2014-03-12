@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "interleavableGen"
+        "phrase": "interleavableGen",
+        "type": "phrase"
       },
       "type": "context"
     }

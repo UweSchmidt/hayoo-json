@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acid-state-tls"
+        "phrase": "acid-state-tls",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the same functionality as \u003ca\u003eData.Acid.Remote\u003c/a\u003e but\nover a secured TLS socket.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:06:58 UTC 2014",
           "module": "Data.Acid.Remote.TLS",
           "name": "TLS",
           "package": "acid-state-tls",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the same functionality as Data.Acid.Remote but over secured TLS socket",
           "hierarchy": "Data Acid Remote TLS",
+          "indexed": "2014-03-11T17:06:58",
           "module": "Data.Acid.Remote.TLS",
           "name": "TLS",
           "package": "acid-state-tls",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept connections on \u003ccode\u003eport\u003c/code\u003e and handle requests using the given \u003ccode\u003e\u003ca\u003eAcidState\u003c/a\u003e\u003c/code\u003e.\n     This call doesn't return.\n\u003c/p\u003e\u003cp\u003eThe connection is secured using TLS/SSL.\n\u003c/p\u003e\u003cp\u003eOn Unix&#174;-like systems you can use\u003ccode\u003e\u003ca\u003eUnixSocket\u003c/a\u003e\u003c/code\u003e to communicate\n     using a socket file. To control access, you can set the permissions of\n     the parent directory which contains the socket file.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003eopenRemoteStateTLS\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esharedSecretCheck\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:58 UTC 2014",
           "module": "Data.Acid.Remote.TLS",
           "name": "acidServerTLS",
           "package": "acid-state-tls",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Accept connections on port and handle requests using the given AcidState This call doesn return The connection is secured using TLS SSL On Unix like systems you can use UnixSocket to communicate using socket file To control access you can set the permissions of the parent directory which contains the socket file see also openRemoteStateTLS and sharedSecretCheck",
           "hierarchy": "Data Acid Remote TLS",
+          "indexed": "2014-03-11T17:06:58",
           "module": "Data.Acid.Remote.TLS",
           "name": "acidServerTLS",
           "normalized": "FilePath-\u003eFilePath-\u003e(CommChannel-\u003eIO Bool)-\u003ePortID-\u003eAcidState a-\u003eIO()",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to an acid-state server which is sharing an \u003ccode\u003e\u003ca\u003eAcidState\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe connection is secured using SSL/TLS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:58 UTC 2014",
           "module": "Data.Acid.Remote.TLS",
           "name": "openRemoteStateTLS",
           "package": "acid-state-tls",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Connect to an acid-state server which is sharing an AcidState The connection is secured using SSL TLS",
           "hierarchy": "Data Acid Remote TLS",
+          "indexed": "2014-03-11T17:06:58",
           "module": "Data.Acid.Remote.TLS",
           "name": "openRemoteStateTLS",
           "normalized": "(CommChannel-\u003eIO())-\u003eHostName-\u003ePortID-\u003eIO(AcidState a)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck that the client knows a shared secret.\n\u003c/p\u003e\u003cp\u003eThe function takes a \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e of shared secrets. If a client knows any\nof them, it is considered to be trusted.\n\u003c/p\u003e\u003cp\u003eThe shared secret is any \u003ccode\u003eByteString\u003c/code\u003e of your choice.\n\u003c/p\u003e\u003cp\u003eIf you give each client a different shared secret then you can\nrevoke access individually.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003esharedSecretPerform\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:58 UTC 2014",
           "module": "Data.Acid.Remote.TLS",
           "name": "sharedSecretCheck",
           "package": "acid-state-tls",
@@ -101,6 +108,7 @@
         "index": {
           "description": "check that the client knows shared secret The function takes Set of shared secrets If client knows any of them it is considered to be trusted The shared secret is any ByteString of your choice If you give each client different shared secret then you can revoke access individually see also sharedSecretPerform",
           "hierarchy": "Data Acid Remote TLS",
+          "indexed": "2014-03-11T17:06:58",
           "module": "Data.Acid.Remote.TLS",
           "name": "sharedSecretCheck",
           "normalized": "Set ByteString-\u003eCommChannel-\u003eIO Bool",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eattempt to authenticate with the server using a shared secret.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:58 UTC 2014",
           "module": "Data.Acid.Remote.TLS",
           "name": "sharedSecretPerform",
           "package": "acid-state-tls",
@@ -126,6 +135,7 @@
         "index": {
           "description": "attempt to authenticate with the server using shared secret",
           "hierarchy": "Data Acid Remote TLS",
+          "indexed": "2014-03-11T17:06:58",
           "module": "Data.Acid.Remote.TLS",
           "name": "sharedSecretPerform",
           "normalized": "ByteString-\u003eCommChannel-\u003eIO()",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eskip server-side authentication checking entirely. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:58 UTC 2014",
           "module": "Data.Acid.Remote.TLS",
           "name": "skipAuthenticationCheck",
           "package": "acid-state-tls",
@@ -151,6 +162,7 @@
         "index": {
           "description": "skip server-side authentication checking entirely",
           "hierarchy": "Data Acid Remote TLS",
+          "indexed": "2014-03-11T17:06:58",
           "module": "Data.Acid.Remote.TLS",
           "name": "skipAuthenticationCheck",
           "normalized": "CommChannel-\u003eIO Bool",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eskip client-side authentication entirely. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:58 UTC 2014",
           "module": "Data.Acid.Remote.TLS",
           "name": "skipAuthenticationPerform",
           "package": "acid-state-tls",
@@ -176,6 +189,7 @@
         "index": {
           "description": "skip client-side authentication entirely",
           "hierarchy": "Data Acid Remote TLS",
+          "indexed": "2014-03-11T17:06:58",
           "module": "Data.Acid.Remote.TLS",
           "name": "skipAuthenticationPerform",
           "normalized": "CommChannel-\u003eIO()",

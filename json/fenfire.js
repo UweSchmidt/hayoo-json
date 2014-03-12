@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fenfire"
+        "phrase": "fenfire",
+        "type": "phrase"
       },
       "type": "context"
     }

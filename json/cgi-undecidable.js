@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cgi-undecidable"
+        "phrase": "cgi-undecidable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eScary but useful type class instances for the cgi package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:22 UTC 2014",
           "module": "Network.CGI.Undecidable",
           "name": "Undecidable",
           "package": "cgi-undecidable",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Scary but useful type class instances for the cgi package",
           "hierarchy": "Network CGI Undecidable",
+          "indexed": "2014-03-11T17:31:22",
           "module": "Network.CGI.Undecidable",
           "name": "Undecidable",
           "package": "cgi-undecidable",

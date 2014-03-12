@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "llvm"
+        "phrase": "llvm",
+        "type": "phrase"
       },
       "type": "context"
     }

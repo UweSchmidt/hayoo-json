@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lat"
+        "phrase": "lat",
+        "type": "phrase"
       },
       "type": "context"
     }

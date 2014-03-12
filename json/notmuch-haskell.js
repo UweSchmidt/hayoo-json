@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "notmuch-haskell"
+        "phrase": "notmuch-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a very preliminary higher-level Haskell binding\n for the Notmuch (notmuchmail.org) email indexing library.\n There is no documentation here; see the Notmuch\n documentation for hints on how to use this.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "Notmuch",
           "package": "notmuch-haskell",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is very preliminary higher-level Haskell binding for the Notmuch notmuchmail.org email indexing library There is no documentation here see the Notmuch documentation for hints on how to use this",
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "Notmuch",
           "package": "notmuch-haskell",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "Database",
           "package": "notmuch-haskell",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "Database",
           "package": "notmuch-haskell",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "DatabaseMode",
           "package": "notmuch-haskell",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "DatabaseMode",
           "package": "notmuch-haskell",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "Directory",
           "package": "notmuch-haskell",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "Directory",
           "package": "notmuch-haskell",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "Message",
           "package": "notmuch-haskell",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "Message",
           "package": "notmuch-haskell",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "MessageFlag",
           "package": "notmuch-haskell",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "MessageFlag",
           "package": "notmuch-haskell",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "Messages",
           "package": "notmuch-haskell",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "Messages",
           "package": "notmuch-haskell",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "Query",
           "package": "notmuch-haskell",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "Query",
           "package": "notmuch-haskell",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "SortOrder",
           "package": "notmuch-haskell",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "SortOrder",
           "package": "notmuch-haskell",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "Tags",
           "package": "notmuch-haskell",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "Tags",
           "package": "notmuch-haskell",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "Thread",
           "package": "notmuch-haskell",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "Thread",
           "package": "notmuch-haskell",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "Threads",
           "package": "notmuch-haskell",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "Threads",
           "package": "notmuch-haskell",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "UpgradeCallback",
           "package": "notmuch-haskell",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "UpgradeCallback",
           "package": "notmuch-haskell",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "DatabaseModeReadOnly",
           "package": "notmuch-haskell",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "DatabaseModeReadOnly",
           "package": "notmuch-haskell",
@@ -315,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "DatabaseModeReadWrite",
           "package": "notmuch-haskell",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "DatabaseModeReadWrite",
           "package": "notmuch-haskell",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "MessageFlagMatch",
           "package": "notmuch-haskell",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "MessageFlagMatch",
           "package": "notmuch-haskell",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "SortMessageID",
           "package": "notmuch-haskell",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "SortMessageID",
           "package": "notmuch-haskell",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "SortNewestFirst",
           "package": "notmuch-haskell",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "SortNewestFirst",
           "package": "notmuch-haskell",
@@ -403,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "SortOldestFirst",
           "package": "notmuch-haskell",
@@ -412,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "SortOldestFirst",
           "package": "notmuch-haskell",
@@ -425,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseAddMessage",
           "package": "notmuch-haskell",
@@ -434,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseAddMessage",
           "normalized": "Database-\u003eFilePath-\u003eIO Message",
@@ -449,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseClose",
           "package": "notmuch-haskell",
@@ -458,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseClose",
           "normalized": "Database-\u003eIO()",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseCreate",
           "package": "notmuch-haskell",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseCreate",
           "normalized": "FilePath-\u003eIO Database",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseFindMessage",
           "package": "notmuch-haskell",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseFindMessage",
           "normalized": "Database-\u003eString-\u003eIO Message",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseGetAllTags",
           "package": "notmuch-haskell",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseGetAllTags",
           "normalized": "Database-\u003eIO Tags",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseGetDirectory",
           "package": "notmuch-haskell",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseGetDirectory",
           "normalized": "Database-\u003eFilePath-\u003eIO Directory",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseGetPath",
           "package": "notmuch-haskell",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseGetPath",
           "normalized": "Database-\u003eIO FilePath",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseGetVersion",
           "package": "notmuch-haskell",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseGetVersion",
           "normalized": "Database-\u003eIO Int",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseNeedsUpgrade",
           "package": "notmuch-haskell",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseNeedsUpgrade",
           "normalized": "Database-\u003eIO Bool",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseOpen",
           "package": "notmuch-haskell",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseOpen",
           "normalized": "FilePath-\u003eDatabaseMode-\u003eIO Database",
@@ -665,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseRemoveMessage",
           "package": "notmuch-haskell",
@@ -674,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseRemoveMessage",
           "normalized": "Database-\u003eFilePath-\u003eIO()",
@@ -689,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "databaseUpgrade",
           "package": "notmuch-haskell",
@@ -698,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "databaseUpgrade",
           "normalized": "Database-\u003eMaybe UpgradeCallback-\u003eIO()",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "directoryGetChildDirectories",
           "package": "notmuch-haskell",
@@ -722,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "directoryGetChildDirectories",
           "normalized": "Directory-\u003eIO[FilePath]",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "directoryGetChildFiles",
           "package": "notmuch-haskell",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "directoryGetChildFiles",
           "normalized": "Directory-\u003eIO[FilePath]",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "directoryGetMtime",
           "package": "notmuch-haskell",
@@ -770,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "directoryGetMtime",
           "normalized": "Directory-\u003eIO UTCTime",
@@ -785,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "directorySetMtime",
           "package": "notmuch-haskell",
@@ -794,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "directorySetMtime",
           "normalized": "Directory-\u003eUTCTime-\u003eIO()",
@@ -809,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "getThreadID",
           "package": "notmuch-haskell",
@@ -818,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "getThreadID",
           "normalized": "Thread-\u003eIO String",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageAddTag",
           "package": "notmuch-haskell",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageAddTag",
           "normalized": "Message-\u003eString-\u003eIO()",
@@ -857,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageFreeze",
           "package": "notmuch-haskell",
@@ -866,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageFreeze",
           "normalized": "Message-\u003eIO()",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageGetDate",
           "package": "notmuch-haskell",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageGetDate",
           "normalized": "Message-\u003eIO UTCTime",
@@ -905,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageGetFilePath",
           "package": "notmuch-haskell",
@@ -914,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageGetFilePath",
           "normalized": "Message-\u003eIO FilePath",
@@ -929,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageGetFlag",
           "package": "notmuch-haskell",
@@ -938,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageGetFlag",
           "normalized": "Message-\u003eMessageFlag-\u003eIO Bool",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageGetHeader",
           "package": "notmuch-haskell",
@@ -962,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageGetHeader",
           "normalized": "Message-\u003eString-\u003eIO String",
@@ -977,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageGetMessageID",
           "package": "notmuch-haskell",
@@ -986,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageGetMessageID",
           "normalized": "Message-\u003eIO String",
@@ -1001,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageGetReplies",
           "package": "notmuch-haskell",
@@ -1010,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageGetReplies",
           "normalized": "Message-\u003eIO Messages",
@@ -1025,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageGetTags",
           "package": "notmuch-haskell",
@@ -1034,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageGetTags",
           "normalized": "Message-\u003eIO Tags",
@@ -1049,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageGetThreadID",
           "package": "notmuch-haskell",
@@ -1058,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageGetThreadID",
           "normalized": "Message-\u003eIO String",
@@ -1073,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageRemoveAllTags",
           "package": "notmuch-haskell",
@@ -1082,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageRemoveAllTags",
           "normalized": "Message-\u003eIO()",
@@ -1097,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageRemoveTag",
           "package": "notmuch-haskell",
@@ -1106,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageRemoveTag",
           "normalized": "Message-\u003eString-\u003eIO()",
@@ -1121,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageSetFlag",
           "package": "notmuch-haskell",
@@ -1130,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageSetFlag",
           "normalized": "Message-\u003eMessageFlag-\u003eBool-\u003eIO()",
@@ -1145,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messageThaw",
           "package": "notmuch-haskell",
@@ -1154,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messageThaw",
           "normalized": "Message-\u003eIO()",
@@ -1169,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "messagesCollectTags",
           "package": "notmuch-haskell",
@@ -1178,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "messagesCollectTags",
           "normalized": "Messages-\u003eIO Tags",
@@ -1193,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "queryCountMessages",
           "package": "notmuch-haskell",
@@ -1202,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "queryCountMessages",
           "normalized": "Query-\u003eIO Word",
@@ -1217,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "queryCreate",
           "package": "notmuch-haskell",
@@ -1226,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "queryCreate",
           "normalized": "Database-\u003eString-\u003eIO Query",
@@ -1241,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "queryMessages",
           "package": "notmuch-haskell",
@@ -1250,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "queryMessages",
           "normalized": "Query-\u003eIO Messages",
@@ -1265,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "querySetSortOrder",
           "package": "notmuch-haskell",
@@ -1274,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "querySetSortOrder",
           "normalized": "Query-\u003eSortOrder-\u003eIO()",
@@ -1289,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "queryThreads",
           "package": "notmuch-haskell",
@@ -1298,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "queryThreads",
           "normalized": "Query-\u003eIO Threads",
@@ -1313,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "threadCountMatchedMessages",
           "package": "notmuch-haskell",
@@ -1322,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "threadCountMatchedMessages",
           "normalized": "Thread-\u003eIO Int",
@@ -1337,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "threadCountMessages",
           "package": "notmuch-haskell",
@@ -1346,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "threadCountMessages",
           "normalized": "Thread-\u003eIO Int",
@@ -1361,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "threadGetAuthors",
           "package": "notmuch-haskell",
@@ -1370,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "threadGetAuthors",
           "normalized": "Thread-\u003eIO String",
@@ -1385,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "threadGetNewestDate",
           "package": "notmuch-haskell",
@@ -1394,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "threadGetNewestDate",
           "normalized": "Thread-\u003eIO UTCTime",
@@ -1409,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "threadGetOldestDate",
           "package": "notmuch-haskell",
@@ -1418,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "threadGetOldestDate",
           "normalized": "Thread-\u003eIO UTCTime",
@@ -1433,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "threadGetSubject",
           "package": "notmuch-haskell",
@@ -1442,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "threadGetSubject",
           "normalized": "Thread-\u003eIO String",
@@ -1457,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "threadGetTags",
           "package": "notmuch-haskell",
@@ -1466,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "threadGetTags",
           "normalized": "Thread-\u003eIO Tags",
@@ -1481,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:03 UTC 2014",
           "module": "Foreign.Notmuch",
           "name": "threadGetToplevelMessages",
           "package": "notmuch-haskell",
@@ -1490,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Foreign Notmuch",
+          "indexed": "2014-03-11T19:30:03",
           "module": "Foreign.Notmuch",
           "name": "threadGetToplevelMessages",
           "normalized": "Thread-\u003eIO Messages",

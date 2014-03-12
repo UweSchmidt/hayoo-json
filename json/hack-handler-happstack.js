@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-handler-happstack"
+        "phrase": "hack-handler-happstack",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:24 UTC 2014",
           "module": "Hack.Handler.Happstack",
           "name": "Happstack",
           "package": "hack-handler-happstack",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Happstack",
+          "indexed": "2014-03-11T18:25:24",
           "module": "Hack.Handler.Happstack",
           "name": "Happstack",
           "package": "hack-handler-happstack",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:24 UTC 2014",
           "module": "Hack.Handler.Happstack",
           "name": "ServerConf",
           "package": "hack-handler-happstack",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Happstack",
+          "indexed": "2014-03-11T18:25:24",
           "module": "Hack.Handler.Happstack",
           "name": "ServerConf",
           "package": "hack-handler-happstack",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:24 UTC 2014",
           "module": "Hack.Handler.Happstack",
           "name": "ServerConf",
           "package": "hack-handler-happstack",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Happstack",
+          "indexed": "2014-03-11T18:25:24",
           "module": "Hack.Handler.Happstack",
           "name": "ServerConf",
           "package": "hack-handler-happstack",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:24 UTC 2014",
           "module": "Hack.Handler.Happstack",
           "name": "appToServerPart",
           "package": "hack-handler-happstack",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Happstack",
+          "indexed": "2014-03-11T18:25:24",
           "module": "Hack.Handler.Happstack",
           "name": "appToServerPart",
           "normalized": "ServerConf-\u003eApplication-\u003eServerPart Response",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:24 UTC 2014",
           "module": "Hack.Handler.Happstack",
           "name": "port",
           "package": "hack-handler-happstack",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Happstack",
+          "indexed": "2014-03-11T18:25:24",
           "module": "Hack.Handler.Happstack",
           "name": "port",
           "package": "hack-handler-happstack",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:24 UTC 2014",
           "module": "Hack.Handler.Happstack",
           "name": "run",
           "package": "hack-handler-happstack",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Happstack",
+          "indexed": "2014-03-11T18:25:24",
           "module": "Hack.Handler.Happstack",
           "name": "run",
           "normalized": "Application-\u003eIO()",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:24 UTC 2014",
           "module": "Hack.Handler.Happstack",
           "name": "runWithConfig",
           "package": "hack-handler-happstack",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Happstack",
+          "indexed": "2014-03-11T18:25:24",
           "module": "Hack.Handler.Happstack",
           "name": "runWithConfig",
           "normalized": "ServerConf-\u003eApplication-\u003eIO()",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:24 UTC 2014",
           "module": "Hack.Handler.Happstack",
           "name": "serverName",
           "package": "hack-handler-happstack",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Happstack",
+          "indexed": "2014-03-11T18:25:24",
           "module": "Hack.Handler.Happstack",
           "name": "serverName",
           "package": "hack-handler-happstack",

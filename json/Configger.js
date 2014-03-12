@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Configger"
+        "phrase": "Configger",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:10 UTC 2014",
           "module": "Data.Configger",
           "name": "Configger",
           "package": "Configger",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Configger",
+          "indexed": "2014-03-11T16:37:10",
           "module": "Data.Configger",
           "name": "Configger",
           "package": "Configger",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:10 UTC 2014",
           "module": "Data.Configger",
           "name": "Config",
           "package": "Configger",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Configger",
+          "indexed": "2014-03-11T16:37:10",
           "module": "Data.Configger",
           "name": "Config",
           "package": "Configger",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:10 UTC 2014",
           "module": "Data.Configger",
           "name": "from",
           "package": "Configger",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Configger",
+          "indexed": "2014-03-11T16:37:10",
           "module": "Data.Configger",
           "name": "from",
           "normalized": "String-\u003eString-\u003ea Config",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:10 UTC 2014",
           "module": "Data.Configger",
           "name": "get",
           "package": "Configger",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Configger",
+          "indexed": "2014-03-11T16:37:10",
           "module": "Data.Configger",
           "name": "get",
           "normalized": "String-\u003eString-\u003eConfig-\u003eMaybe String",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:10 UTC 2014",
           "module": "Data.Configger",
           "name": "items",
           "package": "Configger",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Configger",
+          "indexed": "2014-03-11T16:37:10",
           "module": "Data.Configger",
           "name": "items",
           "normalized": "String-\u003eConfig-\u003e[(String,String)]",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:10 UTC 2014",
           "module": "Data.Configger",
           "name": "load",
           "package": "Configger",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Configger",
+          "indexed": "2014-03-11T16:37:10",
           "module": "Data.Configger",
           "name": "load",
           "normalized": "FilePath-\u003eString-\u003ea Config",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:10 UTC 2014",
           "module": "Data.Configger",
           "name": "merge",
           "package": "Configger",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Configger",
+          "indexed": "2014-03-11T16:37:10",
           "module": "Data.Configger",
           "name": "merge",
           "normalized": "Config-\u003eConfig-\u003eConfig",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:10 UTC 2014",
           "module": "Data.Configger",
           "name": "mergeSection",
           "package": "Configger",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data Configger",
+          "indexed": "2014-03-11T16:37:10",
           "module": "Data.Configger",
           "name": "mergeSection",
           "normalized": "(String,[(String,String)])-\u003eConfig-\u003eConfig",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:10 UTC 2014",
           "module": "Data.Configger",
           "name": "set",
           "package": "Configger",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data Configger",
+          "indexed": "2014-03-11T16:37:10",
           "module": "Data.Configger",
           "name": "set",
           "normalized": "String-\u003eString-\u003eString-\u003eConfig-\u003eConfig",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:10 UTC 2014",
           "module": "Data.Configger",
           "name": "values",
           "package": "Configger",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Configger",
+          "indexed": "2014-03-11T16:37:10",
           "module": "Data.Configger",
           "name": "values",
           "normalized": "String-\u003eString-\u003eConfig-\u003e[String]",

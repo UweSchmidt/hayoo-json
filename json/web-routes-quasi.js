@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "web-routes-quasi"
+        "phrase": "web-routes-quasi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Classes",
           "name": "Classes",
           "package": "web-routes-quasi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Classes",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Classes",
           "name": "Classes",
           "package": "web-routes-quasi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Classes",
           "name": "MultiPiece",
           "package": "web-routes-quasi",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Classes",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Classes",
           "name": "MultiPiece",
           "package": "web-routes-quasi",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Classes",
           "name": "SinglePiece",
           "package": "web-routes-quasi",
@@ -66,6 +71,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Classes",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Classes",
           "name": "SinglePiece",
           "package": "web-routes-quasi",
@@ -79,6 +85,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Classes",
           "name": "Strings",
           "package": "web-routes-quasi",
@@ -87,6 +94,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Classes",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Classes",
           "name": "Strings",
           "package": "web-routes-quasi",
@@ -100,6 +108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Classes",
           "name": "fromMultiPiece",
           "package": "web-routes-quasi",
@@ -108,6 +117,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Classes",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Classes",
           "name": "fromMultiPiece",
           "normalized": "[Text]-\u003eMaybe a",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Classes",
           "name": "fromSinglePiece",
           "package": "web-routes-quasi",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Classes",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Classes",
           "name": "fromSinglePiece",
           "normalized": "Text-\u003eMaybe a",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Classes",
           "name": "toMultiPiece",
           "package": "web-routes-quasi",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Classes",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Classes",
           "name": "toMultiPiece",
           "normalized": "a-\u003e[Text]",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Classes",
           "name": "toSinglePiece",
           "package": "web-routes-quasi",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Classes",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Classes",
           "name": "toSinglePiece",
           "normalized": "a-\u003eText",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Parse",
           "name": "Parse",
           "package": "web-routes-quasi",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Parse",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Parse",
           "name": "Parse",
           "package": "web-routes-quasi",
@@ -214,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single piece of a URL, delimited by slashes.\n\u003c/p\u003e\u003cp\u003eIn the case of StaticPiece, the argument is the value of the piece; for the\n other constructors, it is the name of the parameter represented by this\n piece. That value is not used here, but may be useful elsewhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Parse",
           "name": "Piece",
           "package": "web-routes-quasi",
@@ -223,6 +242,7 @@
         "index": {
           "description": "single piece of URL delimited by slashes In the case of StaticPiece the argument is the value of the piece for the other constructors it is the name of the parameter represented by this piece That value is not used here but may be useful elsewhere",
           "hierarchy": "Web Routes Quasi Parse",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Parse",
           "name": "Piece",
           "package": "web-routes-quasi",
@@ -237,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single resource pattern.\n\u003c/p\u003e\u003cp\u003eFirst argument is the name of the constructor, second is the URL pattern to\n match, third is how to dispatch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Parse",
           "name": "Resource",
           "package": "web-routes-quasi",
@@ -246,6 +267,7 @@
         "index": {
           "description": "single resource pattern First argument is the name of the constructor second is the URL pattern to match third is how to dispatch",
           "hierarchy": "Web Routes Quasi Parse",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Parse",
           "name": "Resource",
           "package": "web-routes-quasi",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Parse",
           "name": "MultiPiece",
           "package": "web-routes-quasi",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Parse",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Parse",
           "name": "MultiPiece",
           "package": "web-routes-quasi",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Parse",
           "name": "Resource",
           "package": "web-routes-quasi",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Parse",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Parse",
           "name": "Resource",
           "normalized": "Resource String[Piece][String]",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Parse",
           "name": "SinglePiece",
           "package": "web-routes-quasi",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Parse",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Parse",
           "name": "SinglePiece",
           "package": "web-routes-quasi",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Parse",
           "name": "StaticPiece",
           "package": "web-routes-quasi",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Parse",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Parse",
           "name": "StaticPiece",
           "package": "web-routes-quasi",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Parse",
           "name": "parseRoutesFile",
           "package": "web-routes-quasi",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Parse",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Parse",
           "name": "parseRoutesFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.Parse",
           "name": "parseRoutesFileNoCheck",
           "package": "web-routes-quasi",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi Parse",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.Parse",
           "name": "parseRoutesFileNoCheck",
           "normalized": "FilePath-\u003eQ Exp",
@@ -447,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "TH",
           "package": "web-routes-quasi",
@@ -455,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "TH",
           "package": "web-routes-quasi",
@@ -468,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "Pieces",
           "package": "web-routes-quasi",
@@ -476,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "Pieces",
           "package": "web-routes-quasi",
@@ -489,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "THResource",
           "package": "web-routes-quasi",
@@ -497,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "THResource",
           "package": "web-routes-quasi",
@@ -511,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emethods\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "Simple",
           "package": "web-routes-quasi",
@@ -521,6 +562,7 @@
         "index": {
           "description": "methods",
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "Simple",
           "normalized": "Simple[Piece][String]",
@@ -536,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "SubSite",
           "package": "web-routes-quasi",
@@ -545,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "SubSite",
           "package": "web-routes-quasi",
@@ -558,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "createDispatch",
           "package": "web-routes-quasi",
@@ -566,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "createDispatch",
           "normalized": "Exp-\u003eExp-\u003e[THResource]-\u003eQ[Clause]",
@@ -660,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssDispatch",
           "package": "web-routes-quasi",
@@ -669,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssDispatch",
           "package": "web-routes-quasi",
@@ -682,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssParse",
           "package": "web-routes-quasi",
@@ -691,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssParse",
           "package": "web-routes-quasi",
@@ -704,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssPieces",
           "package": "web-routes-quasi",
@@ -713,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssPieces",
           "normalized": "[Piece]",
@@ -728,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssRender",
           "package": "web-routes-quasi",
@@ -737,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssRender",
           "package": "web-routes-quasi",
@@ -750,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssToMasterArg",
           "package": "web-routes-quasi",
@@ -759,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssToMasterArg",
           "package": "web-routes-quasi",
@@ -772,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssType",
           "package": "web-routes-quasi",
@@ -781,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi TH",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi.TH",
           "name": "ssType",
           "package": "web-routes-quasi",
@@ -794,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi",
           "name": "Quasi",
           "package": "web-routes-quasi",
@@ -802,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi",
           "name": "Quasi",
           "package": "web-routes-quasi",
@@ -815,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi",
           "name": "MultiPiece",
           "package": "web-routes-quasi",
@@ -822,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi",
           "name": "MultiPiece",
           "package": "web-routes-quasi",
@@ -835,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi",
           "name": "SinglePiece",
           "package": "web-routes-quasi",
@@ -842,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi",
           "name": "SinglePiece",
           "package": "web-routes-quasi",
@@ -855,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi",
           "name": "Strings",
           "package": "web-routes-quasi",
@@ -863,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi",
           "name": "Strings",
           "package": "web-routes-quasi",
@@ -876,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi",
           "name": "fromMultiPiece",
           "package": "web-routes-quasi",
@@ -884,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi",
           "name": "fromMultiPiece",
           "normalized": "[Text]-\u003eMaybe a",
@@ -899,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi",
           "name": "fromSinglePiece",
           "package": "web-routes-quasi",
@@ -907,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi",
           "name": "fromSinglePiece",
           "normalized": "Text-\u003eMaybe a",
@@ -922,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi",
           "name": "toMultiPiece",
           "package": "web-routes-quasi",
@@ -930,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi",
           "name": "toMultiPiece",
           "normalized": "a-\u003e[Text]",
@@ -945,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:57 UTC 2014",
           "module": "Web.Routes.Quasi",
           "name": "toSinglePiece",
           "package": "web-routes-quasi",
@@ -953,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Web Routes Quasi",
+          "indexed": "2014-03-11T20:37:57",
           "module": "Web.Routes.Quasi",
           "name": "toSinglePiece",
           "normalized": "a-\u003eText",

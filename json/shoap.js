@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shoap"
+        "phrase": "shoap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:45 UTC 2014",
           "module": "Network.Soap",
           "name": "Soap",
           "package": "shoap",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Soap",
+          "indexed": "2014-03-11T20:01:45",
           "module": "Network.Soap",
           "name": "Soap",
           "package": "shoap",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:45 UTC 2014",
           "module": "Network.Soap",
           "name": "soapPost",
           "package": "shoap",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Soap",
+          "indexed": "2014-03-11T20:01:45",
           "module": "Network.Soap",
           "name": "soapPost",
           "normalized": "URLString-\u003e[String]-\u003eIO(CurlCode,String)",

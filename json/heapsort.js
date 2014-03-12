@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "heapsort"
+        "phrase": "heapsort",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides heapsort for an \u003ccode\u003e\u003ca\u003eMArray\u003c/a\u003e\u003c/code\u003e\n with indices of \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e type.  See any good\n algorithms text for a description of heapsort.\n Heapsort is O(n lg n) comparisons and exchanges\n in the worst case, and is reasonably efficient.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:08 UTC 2014",
           "module": "Data.Array.MArray.Heapsort",
           "name": "Heapsort",
           "package": "heapsort",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides heapsort for an MArray with indices of Integral type See any good algorithms text for description of heapsort Heapsort is lg comparisons and exchanges in the worst case and is reasonably efficient",
           "hierarchy": "Data Array MArray Heapsort",
+          "indexed": "2014-03-11T18:36:08",
           "module": "Data.Array.MArray.Heapsort",
           "name": "Heapsort",
           "package": "heapsort",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort the elements of the given \u003ccode\u003e\u003ca\u003eMArray\u003c/a\u003e\u003c/code\u003e in increasing order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:08 UTC 2014",
           "module": "Data.Array.MArray.Heapsort",
           "name": "sort",
           "package": "heapsort",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Sort the elements of the given MArray in increasing order",
           "hierarchy": "Data Array MArray Heapsort",
+          "indexed": "2014-03-11T18:36:08",
           "module": "Data.Array.MArray.Heapsort",
           "name": "sort",
           "normalized": "a b c-\u003ed()",

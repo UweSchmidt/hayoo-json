@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hamid"
+        "phrase": "hamid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA lowest common denominator interface to the Win32 and MacOSX Midi bindings. \n Error handling is via \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e-s in the IO monad. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "Midi",
           "package": "hamid",
@@ -28,6 +29,7 @@
         "index": {
           "description": "lowest common denominator interface to the Win32 and MacOSX Midi bindings Error handling is via fail in the IO monad",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "Midi",
           "package": "hamid",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opaque data type representing a Midi destination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "Destination",
           "package": "hamid",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The opaque data type representing Midi destination",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "Destination",
           "package": "hamid",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "MidiEvent",
           "package": "hamid",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "MidiEvent",
           "package": "hamid",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "MidiHasName",
           "package": "hamid",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "MidiHasName",
           "package": "hamid",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "MidiMessage",
           "package": "hamid",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "MidiMessage",
           "package": "hamid",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "MidiTime",
           "package": "hamid",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "MidiTime",
           "package": "hamid",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opaque data type representing a Midi source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "Source",
           "package": "hamid",
@@ -158,6 +171,7 @@
         "index": {
           "description": "The opaque data type representing Midi source",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "Source",
           "package": "hamid",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opaque data type representing a Midi connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "Stream",
           "package": "hamid",
@@ -181,6 +196,7 @@
         "index": {
           "description": "The opaque data type representing Midi connection",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "Stream",
           "package": "hamid",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses a Midi Stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "close",
           "package": "hamid",
@@ -205,6 +222,7 @@
         "index": {
           "description": "Closes Midi Stream",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "close",
           "normalized": "Stream-\u003eIO()",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the time elapsed since the last \u003ccode\u003e\u003ca\u003estart\u003c/a\u003e\u003c/code\u003e call, in milisecs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "currentTime",
           "package": "hamid",
@@ -230,6 +249,7 @@
         "index": {
           "description": "Returns the time elapsed since the last start call in milisecs",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "currentTime",
           "normalized": "Stream-\u003eIO MidiTime",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates the Midi destinations present in the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "destinations",
           "package": "hamid",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Enumerates the Midi destinations present in the system",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "destinations",
           "normalized": "IO[Destination]",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all the events from the buffer (see also \u003ccode\u003e\u003ca\u003eopenSource\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "getEvents",
           "package": "hamid",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Gets all the events from the buffer see also openSource",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "getEvents",
           "normalized": "Stream-\u003eIO[MidiEvent]",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the next event from a buffered connection (see also \u003ccode\u003e\u003ca\u003eopenSource\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "getNextEvent",
           "package": "hamid",
@@ -307,6 +332,7 @@
         "index": {
           "description": "Gets the next event from buffered connection see also openSource",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "getNextEvent",
           "normalized": "Stream-\u003eIO(Maybe MidiEvent)",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "name",
           "package": "hamid",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "name",
           "normalized": "a-\u003eIO String",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a Midi Destination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "openDestination",
           "package": "hamid",
@@ -356,6 +385,7 @@
         "index": {
           "description": "Opens Midi Destination",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "openDestination",
           "normalized": "Destination-\u003eIO Stream",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a Midi Source.\n There are two possibilites to receive Midi messages. The user can either support a callback function,\n or get the messages from an asynchronous buffer. However, mixing the two approaches is not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "openSource",
           "package": "hamid",
@@ -382,6 +413,7 @@
         "index": {
           "description": "Opens Midi Source There are two possibilites to receive Midi messages The user can either support callback function or get the messages from an asynchronous buffer However mixing the two approaches is not allowed",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "openSource",
           "normalized": "Source-\u003eMaybe(MidiTime-\u003eMessage-\u003eIO())-\u003eIO Stream",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a short message. The connection must be a \u003ccode\u003e\u003ca\u003eDestination\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "send",
           "package": "hamid",
@@ -408,6 +441,7 @@
         "index": {
           "description": "Sends short message The connection must be Destination",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "send",
           "normalized": "Stream-\u003eMessage-\u003eIO()",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates the Midi sources present in the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "sources",
           "package": "hamid",
@@ -433,6 +468,7 @@
         "index": {
           "description": "Enumerates the Midi sources present in the system",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "sources",
           "normalized": "IO[Source]",
@@ -448,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a connection. This is required for receiving Midi messages, and also for starting the clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "start",
           "package": "hamid",
@@ -458,6 +495,7 @@
         "index": {
           "description": "Starts connection This is required for receiving Midi messages and also for starting the clock",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "start",
           "normalized": "Stream-\u003eIO()",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops a connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:31 UTC 2014",
           "module": "System.Midi",
           "name": "stop",
           "package": "hamid",
@@ -483,6 +522,7 @@
         "index": {
           "description": "Stops connection",
           "hierarchy": "System Midi",
+          "indexed": "2014-03-11T18:27:31",
           "module": "System.Midi",
           "name": "stop",
           "normalized": "Stream-\u003eIO()",

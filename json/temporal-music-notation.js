@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "temporal-music-notation"
+        "phrase": "temporal-music-notation",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module gives an example of complete musical structure.\n It defines the notion of note. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "Note",
           "package": "temporal-music-notation",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module gives an example of complete musical structure It defines the notion of note",
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "Note",
           "package": "temporal-music-notation",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDrum\u003c/a\u003e\u003c/code\u003e has only pitch and some timbral paramters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "Drum",
           "package": "temporal-music-notation",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Drum has only pitch and some timbral paramters",
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "Drum",
           "package": "temporal-music-notation",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e has volume, pitch and some timbral paramters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "Note",
           "package": "temporal-music-notation",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Note has volume pitch and some timbral paramters",
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "Note",
           "package": "temporal-music-notation",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "Drum",
           "package": "temporal-music-notation",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "Drum",
           "package": "temporal-music-notation",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "Note",
           "package": "temporal-music-notation",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "Note",
           "package": "temporal-music-notation",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs drum note with given accent. Level is set to the default\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "bam",
           "package": "temporal-music-notation",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Constructs drum note with given accent Level is set to the default value",
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "bam",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "bd",
           "package": "temporal-music-notation",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "bd",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "dbd",
           "package": "temporal-music-notation",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "dbd",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "ded",
           "package": "temporal-music-notation",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "ded",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "dhd",
           "package": "temporal-music-notation",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "dhd",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "dqd",
           "package": "temporal-music-notation",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "dqd",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "drumParam",
           "package": "temporal-music-notation",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "drumParam",
           "package": "temporal-music-notation",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "drumVolume",
           "package": "temporal-music-notation",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "drumVolume",
           "package": "temporal-music-notation",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "dsd",
           "package": "temporal-music-notation",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "dsd",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "dtd",
           "package": "temporal-music-notation",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "dtd",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "dwd",
           "package": "temporal-music-notation",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "dwd",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "ed",
           "package": "temporal-music-notation",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "ed",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "hd",
           "package": "temporal-music-notation",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "hd",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "mapDrumParam",
           "package": "temporal-music-notation",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "mapDrumParam",
           "normalized": "(Maybe a-\u003eMaybe b)-\u003eDrum a-\u003eDrum b",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "mapNoteParam",
           "package": "temporal-music-notation",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "mapNoteParam",
           "normalized": "(Maybe a-\u003eMaybe b)-\u003eNote a-\u003eNote b",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n0",
           "package": "temporal-music-notation",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n0",
           "package": "temporal-music-notation",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n1",
           "package": "temporal-music-notation",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n1",
           "package": "temporal-music-notation",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n10",
           "package": "temporal-music-notation",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n10",
           "package": "temporal-music-notation",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n11",
           "package": "temporal-music-notation",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n11",
           "package": "temporal-music-notation",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n12",
           "package": "temporal-music-notation",
@@ -571,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n12",
           "package": "temporal-music-notation",
@@ -583,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n13",
           "package": "temporal-music-notation",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n13",
           "package": "temporal-music-notation",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n14",
           "package": "temporal-music-notation",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n14",
           "package": "temporal-music-notation",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n15",
           "package": "temporal-music-notation",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n15",
           "package": "temporal-music-notation",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n16",
           "package": "temporal-music-notation",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n16",
           "package": "temporal-music-notation",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n17",
           "package": "temporal-music-notation",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n17",
           "package": "temporal-music-notation",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n18",
           "package": "temporal-music-notation",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n18",
           "package": "temporal-music-notation",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n19",
           "package": "temporal-music-notation",
@@ -718,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n19",
           "package": "temporal-music-notation",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n2",
           "package": "temporal-music-notation",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n2",
           "package": "temporal-music-notation",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n20",
           "package": "temporal-music-notation",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n20",
           "package": "temporal-music-notation",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n21",
           "package": "temporal-music-notation",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n21",
           "package": "temporal-music-notation",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n22",
           "package": "temporal-music-notation",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n22",
           "package": "temporal-music-notation",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n23",
           "package": "temporal-music-notation",
@@ -823,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n23",
           "package": "temporal-music-notation",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n3",
           "package": "temporal-music-notation",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n3",
           "package": "temporal-music-notation",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n4",
           "package": "temporal-music-notation",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n4",
           "package": "temporal-music-notation",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n5",
           "package": "temporal-music-notation",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n5",
           "package": "temporal-music-notation",
@@ -898,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n6",
           "package": "temporal-music-notation",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n6",
           "package": "temporal-music-notation",
@@ -919,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n7",
           "package": "temporal-music-notation",
@@ -928,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n7",
           "package": "temporal-music-notation",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n8",
           "package": "temporal-music-notation",
@@ -949,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n8",
           "package": "temporal-music-notation",
@@ -961,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "n9",
           "package": "temporal-music-notation",
@@ -970,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "n9",
           "package": "temporal-music-notation",
@@ -982,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "noteParam",
           "package": "temporal-music-notation",
@@ -991,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "noteParam",
           "package": "temporal-music-notation",
@@ -1004,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "notePitch",
           "package": "temporal-music-notation",
@@ -1013,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "notePitch",
           "package": "temporal-music-notation",
@@ -1026,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "noteVolume",
           "package": "temporal-music-notation",
@@ -1035,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "noteVolume",
           "package": "temporal-music-notation",
@@ -1049,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs default \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e with given step value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "nx",
           "package": "temporal-music-notation",
@@ -1059,6 +1154,7 @@
         "index": {
           "description": "Constructs default Note with given step value",
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "nx",
           "normalized": "Step-\u003eScore(Note a)",
@@ -1073,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "qd",
           "package": "temporal-music-notation",
@@ -1082,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "qd",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -1096,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "sd",
           "package": "temporal-music-notation",
@@ -1105,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "sd",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -1119,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "td",
           "package": "temporal-music-notation",
@@ -1128,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "td",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -1142,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Note",
           "name": "wd",
           "package": "temporal-music-notation",
@@ -1151,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Note",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Note",
           "name": "wd",
           "normalized": "Accent-\u003eScore(Drum a)",
@@ -1166,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines notion of pitch. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "Pitch",
           "package": "temporal-music-notation",
@@ -1175,6 +1280,7 @@
         "index": {
           "description": "This module defines notion of pitch",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "Pitch",
           "package": "temporal-music-notation",
@@ -1189,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBend\u003c/a\u003e\u003c/code\u003e represents tone's diversion from scale grid. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "Bend",
           "package": "temporal-music-notation",
@@ -1198,6 +1305,7 @@
         "index": {
           "description": "Bend represents tone diversion from scale grid",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "Bend",
           "package": "temporal-music-notation",
@@ -1212,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCycles per second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "Hz",
           "package": "temporal-music-notation",
@@ -1221,6 +1330,7 @@
         "index": {
           "description": "Cycles per second",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "Hz",
           "package": "temporal-music-notation",
@@ -1235,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplier of Hz\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "Interval",
           "package": "temporal-music-notation",
@@ -1244,6 +1355,7 @@
         "index": {
           "description": "Multiplier of Hz",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "Interval",
           "package": "temporal-music-notation",
@@ -1257,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "Octave",
           "package": "temporal-music-notation",
@@ -1265,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "Octave",
           "package": "temporal-music-notation",
@@ -1279,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e denotes \u003ccode\u003e\u003ca\u003eHz\u003c/a\u003e\u003c/code\u003e value. But it's not a double for ease of\n performing some musical transformations, transposition, bend, \n inversion, changing scales. \u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e can be converted to \u003ccode\u003e\u003ca\u003eHz\u003c/a\u003e\u003c/code\u003e with \n function \u003ccode\u003ehz\u003c/code\u003e. Pitch contains \u003ccode\u003e\u003ca\u003eScale\u003c/a\u003e\u003c/code\u003e, and point on the tone plane. \n The point is a triple \u003ccode\u003e(bend, octave, step)\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eBend\u003c/a\u003e\u003c/code\u003e\n denotes divergens from vertices of scale grid. \u003ccode\u003e\u003ca\u003eOctave\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eStep\u003c/a\u003e\u003c/code\u003e \n are integers. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "Pitch",
           "package": "temporal-music-notation",
@@ -1288,6 +1403,7 @@
         "index": {
           "description": "Pitch denotes Hz value But it not double for ease of performing some musical transformations transposition bend inversion changing scales Pitch can be converted to Hz with function hz Pitch contains Scale and point on the tone plane The point is triple bend octave step Bend denotes divergens from vertices of scale grid Octave and Step are integers",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "Pitch",
           "package": "temporal-music-notation",
@@ -1302,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e can be used alongside with many\n other parameters (they can define timbre or loudness). \n Class \u003ccode\u003e\u003ca\u003ePitchLike\u003c/a\u003e\u003c/code\u003e provides getters and setters for\n data types that contain value of type \u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e. \n In \u003ca\u003eTemporal.Music.Score\u003c/a\u003e module you can find many\n functions that are defined in terms of this class. Once you\n have chosen some note representation you can make an instance \n for it and use all pitch-modifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "PitchLike",
           "package": "temporal-music-notation",
@@ -1311,6 +1428,7 @@
         "index": {
           "description": "Pitch can be used alongside with many other parameters they can define timbre or loudness Class PitchLike provides getters and setters for data types that contain value of type Pitch In Temporal.Music.Score module you can find many functions that are defined in terms of this class Once you have chosen some note representation you can make an instance for it and use all pitch-modifiers",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "PitchLike",
           "package": "temporal-music-notation",
@@ -1325,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eScale\u003c/a\u003e\u003c/code\u003e defines 2D grid (octave, step) in space of \u003ccode\u003e\u003ca\u003eHz\u003c/a\u003e\u003c/code\u003e units. \n \u003ccode\u003e\u003ca\u003eBend\u003c/a\u003e\u003c/code\u003e is a level of diversion from grid vertices.\n 1-level bend is equal to 1 step. For tones with fractional bends frequency\n is calculated with linear interpolation by nearest values in scale.\n Example:\n\u003c/p\u003e\u003cpre\u003e s = Scale f0 d intervals\n\u003c/pre\u003e\u003cp\u003eHere scale \u003ccode\u003es\u003c/code\u003e defines 2D grid that mapps center point \u003ccode\u003e(0, 0)\u003c/code\u003e to\n frequency \u003ccode\u003ef0\u003c/code\u003e \u003ccode\u003e\u003ca\u003eHz\u003c/a\u003e\u003c/code\u003e. Value \u003ccode\u003ed\u003c/code\u003e is octave interval. Octave interval\n is divided on steps. Steps are \u003ccode\u003e\u003ca\u003eInterval\u003c/a\u003e\u003c/code\u003e s from base frequency \u003ccode\u003ef0\u003c/code\u003e \n to desired frequency. Let's define equal temperament scale:\n\u003c/p\u003e\u003cpre\u003e eqt = Scale c1 2 $ Vector.fromList $ (map ((2 **) . (/12)) [0..11])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "Scale",
           "package": "temporal-music-notation",
@@ -1334,6 +1453,7 @@
         "index": {
           "description": "Scale defines grid octave step in space of Hz units Bend is level of diversion from grid vertices level bend is equal to step For tones with fractional bends frequency is calculated with linear interpolation by nearest values in scale Example Scale f0 intervals Here scale defines grid that mapps center point to frequency f0 Hz Value is octave interval Octave interval is divided on steps Steps are Interval from base frequency f0 to desired frequency Let define equal temperament scale eqt Scale c1 Vector.fromList map",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "Scale",
           "package": "temporal-music-notation",
@@ -1347,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "Step",
           "package": "temporal-music-notation",
@@ -1355,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "Step",
           "package": "temporal-music-notation",
@@ -1368,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "Pitch",
           "package": "temporal-music-notation",
@@ -1377,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "Pitch",
           "package": "temporal-music-notation",
@@ -1390,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "Scale",
           "package": "temporal-music-notation",
@@ -1399,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "Scale",
           "package": "temporal-music-notation",
@@ -1413,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMiddle A (440 Hz) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "a1",
           "package": "temporal-music-notation",
@@ -1423,6 +1550,7 @@
         "index": {
           "description": "Middle Hz",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "a1",
           "package": "temporal-music-notation",
@@ -1436,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates cycles per second for a pitch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "absPitch",
           "package": "temporal-music-notation",
@@ -1446,6 +1575,7 @@
         "index": {
           "description": "Calculates cycles per second for pitch",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "absPitch",
           "normalized": "a-\u003eHz",
@@ -1462,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMiddle C (261.626 Hz) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "c1",
           "package": "temporal-music-notation",
@@ -1472,6 +1603,7 @@
         "index": {
           "description": "Middle Hz",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "c1",
           "package": "temporal-music-notation",
@@ -1485,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eScale\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "fromIntervals",
           "package": "temporal-music-notation",
@@ -1495,6 +1628,7 @@
         "index": {
           "description": "Scale constructor",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "fromIntervals",
           "normalized": "Interval-\u003e[Interval]-\u003eHz-\u003eScale",
@@ -1511,6 +1645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs \u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e from some step value. \u003ccode\u003e\u003ca\u003eBend\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eOctave\u003c/a\u003e\u003c/code\u003e are set to zeroes. \u003ccode\u003e\u003ca\u003eScale\u003c/a\u003e\u003c/code\u003e is set to default scale\n which is defined in \u003ccode\u003eHasScale\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "fromStep",
           "package": "temporal-music-notation",
@@ -1521,6 +1656,7 @@
         "index": {
           "description": "Constructs Pitch from some step value Bend and Octave are set to zeroes Scale is set to default scale which is defined in HasScale class",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "fromStep",
           "normalized": "Int-\u003ePitch",
@@ -1536,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "getPitch",
           "package": "temporal-music-notation",
@@ -1545,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "getPitch",
           "normalized": "a-\u003ePitch",
@@ -1561,6 +1699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePitch modifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "mapPitch",
           "package": "temporal-music-notation",
@@ -1571,6 +1710,7 @@
         "index": {
           "description": "Pitch modifier",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "mapPitch",
           "normalized": "(Pitch-\u003ePitch)-\u003ea-\u003ea",
@@ -1587,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates position on tone plane for value of type \u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "pitchAsDouble",
           "package": "temporal-music-notation",
@@ -1597,6 +1738,7 @@
         "index": {
           "description": "Calculates position on tone plane for value of type Pitch",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "pitchAsDouble",
           "normalized": "Pitch-\u003eDouble",
@@ -1612,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "pitchBend",
           "package": "temporal-music-notation",
@@ -1621,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "pitchBend",
           "package": "temporal-music-notation",
@@ -1634,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "pitchOctave",
           "package": "temporal-music-notation",
@@ -1643,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "pitchOctave",
           "package": "temporal-music-notation",
@@ -1656,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "pitchScale",
           "package": "temporal-music-notation",
@@ -1665,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "pitchScale",
           "package": "temporal-music-notation",
@@ -1678,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "pitchStep",
           "package": "temporal-music-notation",
@@ -1687,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "pitchStep",
           "package": "temporal-music-notation",
@@ -1701,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale value on doubles          \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "scaleAt",
           "package": "temporal-music-notation",
@@ -1711,6 +1862,7 @@
         "index": {
           "description": "Scale value on doubles",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "scaleAt",
           "normalized": "Scale-\u003eDouble-\u003eHz",
@@ -1726,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "scaleBase",
           "package": "temporal-music-notation",
@@ -1735,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "scaleBase",
           "package": "temporal-music-notation",
@@ -1749,6 +1903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives number of steps in one octave.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "scaleLength",
           "package": "temporal-music-notation",
@@ -1759,6 +1914,7 @@
         "index": {
           "description": "Gives number of steps in one octave",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "scaleLength",
           "normalized": "Scale-\u003eInt",
@@ -1774,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "scaleOctave",
           "package": "temporal-music-notation",
@@ -1783,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "scaleOctave",
           "package": "temporal-music-notation",
@@ -1797,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives scale multiplier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "scaleStep",
           "package": "temporal-music-notation",
@@ -1807,6 +1966,7 @@
         "index": {
           "description": "Gives scale multiplier",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "scaleStep",
           "normalized": "Scale-\u003eInt-\u003eInterval",
@@ -1822,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "scaleSteps",
           "package": "temporal-music-notation",
@@ -1831,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "scaleSteps",
           "package": "temporal-music-notation",
@@ -1844,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "setPitch",
           "package": "temporal-music-notation",
@@ -1853,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "setPitch",
           "normalized": "Pitch-\u003ea-\u003ea",
@@ -1869,6 +2033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose cycles per second by some interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Pitch",
           "name": "transpose",
           "package": "temporal-music-notation",
@@ -1879,6 +2044,7 @@
         "index": {
           "description": "Transpose cycles per second by some interval",
           "hierarchy": "Temporal Music Pitch",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Pitch",
           "name": "transpose",
           "normalized": "Interval-\u003eHz-\u003eHz",
@@ -1894,6 +2060,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpecific scales. Scale constructor makes scale that starts\n at the given frequency.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "Scales",
           "package": "temporal-music-notation",
@@ -1903,6 +2070,7 @@
         "index": {
           "description": "Specific scales Scale constructor makes scale that starts at the given frequency",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "Scales",
           "package": "temporal-music-notation",
@@ -1916,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "aeolian",
           "package": "temporal-music-notation",
@@ -1925,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "aeolian",
           "normalized": "Scale-\u003eScale",
@@ -1939,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "bluesMajor5",
           "package": "temporal-music-notation",
@@ -1948,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "bluesMajor5",
           "normalized": "Scale-\u003eScale",
@@ -1963,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "bluesMinor5",
           "package": "temporal-music-notation",
@@ -1972,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "bluesMinor5",
           "normalized": "Scale-\u003eScale",
@@ -1987,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "dorian",
           "package": "temporal-music-notation",
@@ -1996,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "dorian",
           "normalized": "Scale-\u003eScale",
@@ -2010,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "egyptian5",
           "package": "temporal-music-notation",
@@ -2019,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "egyptian5",
           "normalized": "Scale-\u003eScale",
@@ -2034,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eequal Bohlen-Pierce scale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "eqBP",
           "package": "temporal-music-notation",
@@ -2044,6 +2223,7 @@
         "index": {
           "description": "equal Bohlen-Pierce scale",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "eqBP",
           "normalized": "Hz-\u003eScale",
@@ -2060,6 +2240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e12 tone equal temperament scale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "eqt",
           "package": "temporal-music-notation",
@@ -2070,6 +2251,7 @@
         "index": {
           "description": "tone equal temperament scale",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "eqt",
           "normalized": "Hz-\u003eScale",
@@ -2085,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral equal temperament scale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "eqts",
           "package": "temporal-music-notation",
@@ -2095,6 +2278,7 @@
         "index": {
           "description": "general equal temperament scale",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "eqts",
           "normalized": "Hz-\u003eScale",
@@ -2110,6 +2294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWendy Carlos harmonic 12-tone scale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "harmonicJust",
           "package": "temporal-music-notation",
@@ -2120,6 +2305,7 @@
         "index": {
           "description": "Wendy Carlos harmonic tone scale",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "harmonicJust",
           "normalized": "Hz-\u003eScale",
@@ -2136,6 +2322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehindemithean scale with mean of fs and gb for tritone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "hind",
           "package": "temporal-music-notation",
@@ -2146,6 +2333,7 @@
         "index": {
           "description": "hindemithean scale with mean of fs and gb for tritone",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "hind",
           "normalized": "Hz-\u003eScale",
@@ -2161,6 +2349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehindemithean scale with fs for tritone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "hindFs",
           "package": "temporal-music-notation",
@@ -2171,6 +2360,7 @@
         "index": {
           "description": "hindemithean scale with fs for tritone",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "hindFs",
           "normalized": "Hz-\u003eScale",
@@ -2187,6 +2377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehindemithean scale with gb for tritone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "hindGb",
           "package": "temporal-music-notation",
@@ -2197,6 +2388,7 @@
         "index": {
           "description": "hindemithean scale with gb for tritone",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "hindGb",
           "normalized": "Hz-\u003eScale",
@@ -2212,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "ionian",
           "package": "temporal-music-notation",
@@ -2221,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "ionian",
           "normalized": "Scale-\u003eScale",
@@ -2236,6 +2430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3-limit basis \u003ccode\u003e(2, 3/2)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "ji3",
           "package": "temporal-music-notation",
@@ -2246,6 +2441,7 @@
         "index": {
           "description": "limit basis",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "ji3",
           "normalized": "(Int,Int)-\u003eInterval",
@@ -2261,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e5-limit basis \u003ccode\u003e(2, 3/2, 5/4)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "ji5",
           "package": "temporal-music-notation",
@@ -2271,6 +2468,7 @@
         "index": {
           "description": "limit basis",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "ji5",
           "normalized": "(Int,Int,Int)-\u003eInterval",
@@ -2286,6 +2484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e7-limit basis \u003ccode\u003e(2, 3/2, 5/4, 7/6)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "ji7",
           "package": "temporal-music-notation",
@@ -2296,6 +2495,7 @@
         "index": {
           "description": "limit basis",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "ji7",
           "normalized": "(Int,Int,Int,Int)-\u003eInterval",
@@ -2311,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejust Bohlen-Pierce scale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "justBP",
           "package": "temporal-music-notation",
@@ -2321,6 +2522,7 @@
         "index": {
           "description": "just Bohlen-Pierce scale",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "justBP",
           "normalized": "Hz-\u003eScale",
@@ -2336,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "locrian",
           "package": "temporal-music-notation",
@@ -2345,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "locrian",
           "normalized": "Scale-\u003eScale",
@@ -2360,6 +2564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChinese Lu 12-tone scale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "luScale",
           "package": "temporal-music-notation",
@@ -2370,6 +2575,7 @@
         "index": {
           "description": "Chinese Lu tone scale",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "luScale",
           "normalized": "Hz-\u003eScale",
@@ -2385,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "lydian",
           "package": "temporal-music-notation",
@@ -2394,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "lydian",
           "normalized": "Scale-\u003eScale",
@@ -2408,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "major",
           "package": "temporal-music-notation",
@@ -2417,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "major",
           "normalized": "Scale-\u003eScale",
@@ -2431,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "major5",
           "package": "temporal-music-notation",
@@ -2440,6 +2651,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "major5",
           "normalized": "Scale-\u003eScale",
@@ -2454,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "minor",
           "package": "temporal-music-notation",
@@ -2463,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "minor",
           "normalized": "Scale-\u003eScale",
@@ -2477,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "minor5",
           "package": "temporal-music-notation",
@@ -2486,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "minor5",
           "normalized": "Scale-\u003eScale",
@@ -2500,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "mixolydian",
           "package": "temporal-music-notation",
@@ -2509,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "mixolydian",
           "normalized": "Scale-\u003eScale",
@@ -2524,6 +2742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHarry Partch's 43-tone scale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "partchean",
           "package": "temporal-music-notation",
@@ -2534,6 +2753,7 @@
         "index": {
           "description": "Harry Partch tone scale",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "partchean",
           "normalized": "Hz-\u003eScale",
@@ -2548,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "phrygian",
           "package": "temporal-music-notation",
@@ -2557,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "phrygian",
           "normalized": "Scale-\u003eScale",
@@ -2572,6 +2794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epythagorean scale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "pyth",
           "package": "temporal-music-notation",
@@ -2582,6 +2805,7 @@
         "index": {
           "description": "pythagorean scale",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "pyth",
           "normalized": "Hz-\u003eScale",
@@ -2597,6 +2821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndian Sruti 22-tone scale \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "sruti",
           "package": "temporal-music-notation",
@@ -2607,6 +2832,7 @@
         "index": {
           "description": "Indian Sruti tone scale",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "sruti",
           "normalized": "Hz-\u003eScale",
@@ -2622,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWendy Carlos super just 12-tone scale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Scales",
           "name": "superJust",
           "package": "temporal-music-notation",
@@ -2632,6 +2859,7 @@
         "index": {
           "description": "Wendy Carlos super just tone scale",
           "hierarchy": "Temporal Music Scales",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Scales",
           "name": "superJust",
           "normalized": "Hz-\u003eScale",
@@ -2648,6 +2876,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposition and control.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "Score",
           "package": "temporal-music-notation",
@@ -2657,6 +2886,7 @@
         "index": {
           "description": "Composition and control",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "Score",
           "package": "temporal-music-notation",
@@ -2671,6 +2901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "Dur",
           "package": "temporal-music-notation",
@@ -2680,6 +2911,7 @@
         "index": {
           "description": "Duration",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "Dur",
           "package": "temporal-music-notation",
@@ -2694,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant time events. Value \u003ccode\u003ea\u003c/code\u003e starts at some time \n and lasts for some time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "Event",
           "package": "temporal-music-notation",
@@ -2702,6 +2935,7 @@
         "index": {
           "description": "Constant time events Value starts at some time and lasts for some time",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "Event",
           "package": "temporal-music-notation",
@@ -2716,6 +2950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eScore\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eScore\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003c/code\u003e\u003ccode\u003e\u003ca\u003eScore\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea)\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "Score",
           "package": "temporal-music-notation",
@@ -2725,6 +2960,7 @@
         "index": {
           "description": "Instances Functor Score Foldable Score Monoid Score",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "Score",
           "package": "temporal-music-notation",
@@ -2739,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003eflip setAcent\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "(!)",
           "package": "temporal-music-notation",
@@ -2749,6 +2986,7 @@
         "index": {
           "description": "Synonym for flip setAcent",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "(!) !",
           "normalized": "Score a-\u003eAccent-\u003eScore a",
@@ -2764,6 +3002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix \u003ccode\u003e\u003ca\u003estr\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "(*|)",
           "package": "temporal-music-notation",
@@ -2774,6 +3013,7 @@
         "index": {
           "description": "Infix str function",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "(*|) *|",
           "normalized": "Dur-\u003eScore a-\u003eScore a",
@@ -2789,6 +3029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix \u003ccode\u003e\u003ca\u003edel\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "(+|)",
           "package": "temporal-music-notation",
@@ -2799,6 +3040,7 @@
         "index": {
           "description": "Infix del function",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "(+|) +|",
           "normalized": "Dur-\u003eScore a-\u003eScore a",
@@ -2814,6 +3056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequent composition. Play first score then second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "(+:+)",
           "package": "temporal-music-notation",
@@ -2824,6 +3067,7 @@
         "index": {
           "description": "Sequent composition Play first score then second",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "(+:+) +:+",
           "normalized": "Score a-\u003eScore a-\u003eScore a",
@@ -2839,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurncating parallel composition. Total duration\n equals to minimum of the two scores. All events\n that goes beyond the lmimt are dropped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "(=:/)",
           "package": "temporal-music-notation",
@@ -2849,6 +3094,7 @@
         "index": {
           "description": "Turncating parallel composition Total duration equals to minimum of the two scores All events that goes beyond the lmimt are dropped",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "(=:/) =:/",
           "normalized": "Score a-\u003eScore a-\u003eScore a",
@@ -2864,6 +3110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel composition. Play two scores simultaneously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "(=:=)",
           "package": "temporal-music-notation",
@@ -2874,6 +3121,7 @@
         "index": {
           "description": "Parallel composition Play two scores simultaneously",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "(=:=) =:=",
           "normalized": "Score a-\u003eScore a-\u003eScore a",
@@ -2888,6 +3136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "Event",
           "package": "temporal-music-notation",
@@ -2896,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "Event",
           "package": "temporal-music-notation",
@@ -2910,6 +3160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncreases \u003ccode\u003e\u003ca\u003eAccent\u003c/a\u003e\u003c/code\u003e by the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "accent",
           "package": "temporal-music-notation",
@@ -2920,6 +3171,7 @@
         "index": {
           "description": "Increases Accent by the given value",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "accent",
           "normalized": "Accent-\u003eScore a-\u003eScore a",
@@ -2935,6 +3187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShifts all events so that minimal start time\n  equals to zero if first event has negative start time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "alignByZero",
           "package": "temporal-music-notation",
@@ -2944,6 +3197,7 @@
         "index": {
           "description": "Shifts all events so that minimal start time equals to zero if first event has negative start time",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "alignByZero",
           "normalized": "[Event a b]-\u003e[Event a b]",
@@ -2960,6 +3214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncreases \u003ccode\u003e\u003ca\u003eBend\u003c/a\u003e\u003c/code\u003e by given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "bend",
           "package": "temporal-music-notation",
@@ -2970,6 +3225,7 @@
         "index": {
           "description": "Increases Bend by given value",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "bend",
           "normalized": "Bend-\u003eScore a-\u003eScore a",
@@ -2984,6 +3240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "bn",
           "package": "temporal-music-notation",
@@ -2993,6 +3250,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "bn",
           "normalized": "Score a-\u003eScore a",
@@ -3007,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "bnr",
           "package": "temporal-music-notation",
@@ -3016,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "bnr",
           "package": "temporal-music-notation",
@@ -3029,6 +3289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets tempo in beats per minute, \n if 1 \u003ca\u003eDur\u003c/a\u003e is equal to 1 second before transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "bpm",
           "package": "temporal-music-notation",
@@ -3039,6 +3300,7 @@
         "index": {
           "description": "Sets tempo in beats per minute if Dur is equal to second before transformation",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "bpm",
           "normalized": "Dur-\u003eScore a-\u003eScore a",
@@ -3054,6 +3316,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use har\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in favour of \u003ccode\u003ehar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "chord",
           "package": "temporal-music-notation",
@@ -3064,6 +3327,7 @@
         "index": {
           "description": "Deprecated Use har Deprecated in favour of har",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "chord",
           "normalized": "[Score a]-\u003eScore a",
@@ -3078,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dbn",
           "package": "temporal-music-notation",
@@ -3087,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dbn",
           "normalized": "Score a-\u003eScore a",
@@ -3101,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dbnr",
           "package": "temporal-music-notation",
@@ -3110,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dbnr",
           "package": "temporal-music-notation",
@@ -3123,6 +3391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edouble \u003ccode\u003e\u003ca\u003edot\u003c/a\u003e\u003c/code\u003e, str with 1.75\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "ddot",
           "package": "temporal-music-notation",
@@ -3133,6 +3402,7 @@
         "index": {
           "description": "double dot str with",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "ddot",
           "normalized": "Score a-\u003eScore a",
@@ -3148,6 +3418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelays all events by given duration. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "del",
           "package": "temporal-music-notation",
@@ -3158,6 +3429,7 @@
         "index": {
           "description": "Delays all events by given duration",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "del",
           "normalized": "Dur-\u003eScore a-\u003eScore a",
@@ -3173,6 +3445,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use del\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in favour of \u003ccode\u003edel\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "delay",
           "package": "temporal-music-notation",
@@ -3183,6 +3456,7 @@
         "index": {
           "description": "Deprecated Use del Deprecated in favour of del",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "delay",
           "normalized": "Double-\u003eScore a-\u003eScore a",
@@ -3197,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "den",
           "package": "temporal-music-notation",
@@ -3206,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "den",
           "normalized": "Score a-\u003eScore a",
@@ -3220,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "denr",
           "package": "temporal-music-notation",
@@ -3229,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "denr",
           "package": "temporal-music-notation",
@@ -3241,6 +3519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dhn",
           "package": "temporal-music-notation",
@@ -3250,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dhn",
           "normalized": "Score a-\u003eScore a",
@@ -3264,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dhnr",
           "package": "temporal-music-notation",
@@ -3273,6 +3554,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dhnr",
           "package": "temporal-music-notation",
@@ -3286,6 +3568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym to \u003ccode\u003e\u003ccode\u003e\u003ca\u003estr\u003c/a\u003e\u003c/code\u003e (3/2)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dot",
           "package": "temporal-music-notation",
@@ -3296,6 +3579,7 @@
         "index": {
           "description": "Synonym to str",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dot",
           "normalized": "Score a-\u003eScore a",
@@ -3310,6 +3594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dqn",
           "package": "temporal-music-notation",
@@ -3319,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dqn",
           "normalized": "Score a-\u003eScore a",
@@ -3333,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dqnr",
           "package": "temporal-music-notation",
@@ -3342,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dqnr",
           "package": "temporal-music-notation",
@@ -3355,6 +3643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(\u003ccode\u003e\u003ca\u003edropS\u003c/a\u003e\u003c/code\u003e t m)\u003c/code\u003e is equivalent to \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eslice\u003c/a\u003e\u003c/code\u003e t (dur a) a)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dropS",
           "package": "temporal-music-notation",
@@ -3365,6 +3654,7 @@
         "index": {
           "description": "dropS is equivalent to slice dur",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dropS",
           "normalized": "Dur-\u003eScore a-\u003eScore a",
@@ -3379,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dsn",
           "package": "temporal-music-notation",
@@ -3388,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dsn",
           "normalized": "Score a-\u003eScore a",
@@ -3402,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dsnr",
           "package": "temporal-music-notation",
@@ -3411,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dsnr",
           "package": "temporal-music-notation",
@@ -3423,6 +3717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dtn",
           "package": "temporal-music-notation",
@@ -3432,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dtn",
           "normalized": "Score a-\u003eScore a",
@@ -3446,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dtnr",
           "package": "temporal-music-notation",
@@ -3455,6 +3752,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dtnr",
           "package": "temporal-music-notation",
@@ -3468,6 +3766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates duration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dur",
           "package": "temporal-music-notation",
@@ -3478,6 +3777,7 @@
         "index": {
           "description": "Calculates duration",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dur",
           "normalized": "Score a-\u003eDur",
@@ -3492,6 +3792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dwn",
           "package": "temporal-music-notation",
@@ -3501,6 +3802,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dwn",
           "normalized": "Score a-\u003eScore a",
@@ -3515,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "dwnr",
           "package": "temporal-music-notation",
@@ -3524,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "dwnr",
           "package": "temporal-music-notation",
@@ -3536,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "en",
           "package": "temporal-music-notation",
@@ -3545,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "en",
           "normalized": "Score a-\u003eScore a",
@@ -3559,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "enr",
           "package": "temporal-music-notation",
@@ -3568,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "enr",
           "package": "temporal-music-notation",
@@ -3580,6 +3888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "eventContent",
           "package": "temporal-music-notation",
@@ -3588,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "eventContent",
           "package": "temporal-music-notation",
@@ -3601,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "eventDur",
           "package": "temporal-music-notation",
@@ -3609,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "eventDur",
           "package": "temporal-music-notation",
@@ -3623,6 +3935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnd point of event (start time plus duration).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "eventEnd",
           "package": "temporal-music-notation",
@@ -3632,6 +3945,7 @@
         "index": {
           "description": "End point of event start time plus duration",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "eventEnd",
           "normalized": "Event a b-\u003ea",
@@ -3647,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "eventStart",
           "package": "temporal-music-notation",
@@ -3655,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "eventStart",
           "package": "temporal-music-notation",
@@ -3669,6 +3985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "filterEvents",
           "package": "temporal-music-notation",
@@ -3679,6 +3996,7 @@
         "index": {
           "description": "Filter score",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "filterEvents",
           "normalized": "(Event Dur a-\u003eBool)-\u003eScore a-\u003eScore a",
@@ -3694,6 +4012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "h'",
           "package": "temporal-music-notation",
@@ -3703,6 +4022,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "h'",
           "normalized": "Score a-\u003eScore a",
@@ -3718,6 +4038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel composition on list of scores.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "har",
           "package": "temporal-music-notation",
@@ -3728,6 +4049,7 @@
         "index": {
           "description": "Parallel composition on list of scores",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "har",
           "normalized": "[Score a]-\u003eScore a",
@@ -3743,6 +4065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a sequence and then applies a har.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "harMap",
           "package": "temporal-music-notation",
@@ -3753,6 +4076,7 @@
         "index": {
           "description": "Transforms sequence and then applies har",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "harMap",
           "normalized": "(a-\u003eScore b)-\u003e[a]-\u003eScore b",
@@ -3769,6 +4093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurncating parallel composition on list of scores.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "harT",
           "package": "temporal-music-notation",
@@ -3779,6 +4104,7 @@
         "index": {
           "description": "Turncating parallel composition on list of scores",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "harT",
           "normalized": "[Score a]-\u003eScore a",
@@ -3794,6 +4120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a sequence and then applies a harT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "harTMap",
           "package": "temporal-music-notation",
@@ -3804,6 +4131,7 @@
         "index": {
           "description": "Transforms sequence and then applies harT",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "harTMap",
           "normalized": "(a-\u003eScore b)-\u003e[a]-\u003eScore b",
@@ -3820,6 +4148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chord of events. Each of them lasts for one second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "harTemp",
           "package": "temporal-music-notation",
@@ -3830,6 +4159,7 @@
         "index": {
           "description": "chord of events Each of them lasts for one second",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "harTemp",
           "normalized": "[a]-\u003eScore a",
@@ -3845,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "hh'",
           "package": "temporal-music-notation",
@@ -3854,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "hh'",
           "normalized": "Score a-\u003eScore a",
@@ -3869,6 +4201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne octave higher.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "high",
           "package": "temporal-music-notation",
@@ -3879,6 +4212,7 @@
         "index": {
           "description": "One octave higher",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "high",
           "normalized": "Score a-\u003eScore a",
@@ -3894,6 +4228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransposition by given number of octaves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "higher",
           "package": "temporal-music-notation",
@@ -3904,6 +4239,7 @@
         "index": {
           "description": "Transposition by given number of octaves",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "higher",
           "normalized": "Int-\u003eScore a-\u003eScore a",
@@ -3918,6 +4254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "hn",
           "package": "temporal-music-notation",
@@ -3927,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "hn",
           "normalized": "Score a-\u003eScore a",
@@ -3941,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "hnr",
           "package": "temporal-music-notation",
@@ -3950,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "hnr",
           "package": "temporal-music-notation",
@@ -3962,6 +4302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "l'",
           "package": "temporal-music-notation",
@@ -3971,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "l'",
           "normalized": "Score a-\u003eScore a",
@@ -3986,6 +4328,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use mel\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in favour of \u003ccode\u003emel\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "line",
           "package": "temporal-music-notation",
@@ -3996,6 +4339,7 @@
         "index": {
           "description": "Deprecated Use mel Deprecated in favour of mel",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "line",
           "normalized": "[Score a]-\u003eScore a",
@@ -4011,6 +4355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear interpolation. Can be useful with \u003ccode\u003e\u003ca\u003emapEvents\u003c/a\u003e\u003c/code\u003e for \n envelope changes.\n\u003c/p\u003e\u003cpre\u003e linfun [a, da, b, db, c, ... ]\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003ea, b, c ...\u003c/code\u003e - values\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eda, db, ...\u003c/code\u003e - duration of segments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "linfun",
           "package": "temporal-music-notation",
@@ -4020,6 +4365,7 @@
         "index": {
           "description": "Linear interpolation Can be useful with mapEvents for envelope changes linfun da db values da db duration of segments",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "linfun",
           "normalized": "[a]-\u003ea-\u003ea",
@@ -4035,6 +4381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith \u003ccode\u003e\u003ca\u003elinfunRel\u003c/a\u003e\u003c/code\u003e you can make linear interpolation\n function that has equal distance between points.\n First argument gives total length of the interpolation function\n and second argument gives list of values. So call\n\u003c/p\u003e\u003cpre\u003e linfunRel dur [a1, a2, a3, ..., aN]\n\u003c/pre\u003e\u003cp\u003eis equivalent to:\n\u003c/p\u003e\u003cpre\u003e linfun [a1, dur/N, a2, dur/N, a3, ..., dur/N, aN]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "linfunRel",
           "package": "temporal-music-notation",
@@ -4044,6 +4391,7 @@
         "index": {
           "description": "With linfunRel you can make linear interpolation function that has equal distance between points First argument gives total length of the interpolation function and second argument gives list of values So call linfunRel dur a1 a2 a3 aN is equivalent to linfun a1 dur a2 dur a3 dur aN",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "linfunRel",
           "normalized": "a-\u003e[a]-\u003ea-\u003ea",
@@ -4059,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "ll'",
           "package": "temporal-music-notation",
@@ -4068,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "ll'",
           "normalized": "Score a-\u003eScore a",
@@ -4083,6 +4433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalog of \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e function for scores. Replicated\n scores are played sequentially.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "loop",
           "package": "temporal-music-notation",
@@ -4093,6 +4444,7 @@
         "index": {
           "description": "Analog of replicate function for scores Replicated scores are played sequentially",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "loop",
           "normalized": "Int-\u003eScore a-\u003eScore a",
@@ -4108,6 +4460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput becomes one level louder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "loud",
           "package": "temporal-music-notation",
@@ -4118,6 +4471,7 @@
         "index": {
           "description": "Input becomes one level louder",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "loud",
           "normalized": "Score a-\u003eScore a",
@@ -4133,6 +4487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput becomes louder by given number of levels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "louder",
           "package": "temporal-music-notation",
@@ -4143,6 +4498,7 @@
         "index": {
           "description": "Input becomes louder by given number of levels",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "louder",
           "normalized": "Int-\u003eScore a-\u003eScore a",
@@ -4158,6 +4514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne octave lower.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "low",
           "package": "temporal-music-notation",
@@ -4168,6 +4525,7 @@
         "index": {
           "description": "One octave lower",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "low",
           "normalized": "Score a-\u003eScore a",
@@ -4183,6 +4541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransposition by given number of octaves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "lower",
           "package": "temporal-music-notation",
@@ -4193,6 +4552,7 @@
         "index": {
           "description": "Transposition by given number of octaves",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "lower",
           "normalized": "Int-\u003eScore a-\u003eScore a",
@@ -4208,6 +4568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral mapping. Mapps not only values but events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "mapEvents",
           "package": "temporal-music-notation",
@@ -4218,6 +4579,7 @@
         "index": {
           "description": "General mapping Mapps not only values but events",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "mapEvents",
           "normalized": "(Event Dur a-\u003eEvent Dur b)-\u003eScore a-\u003eScore b",
@@ -4234,6 +4596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequent composition on list of scores.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "mel",
           "package": "temporal-music-notation",
@@ -4244,6 +4607,7 @@
         "index": {
           "description": "Sequent composition on list of scores",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "mel",
           "normalized": "[Score a]-\u003eScore a",
@@ -4259,6 +4623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a sequence and then applies a mel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "melMap",
           "package": "temporal-music-notation",
@@ -4269,6 +4634,7 @@
         "index": {
           "description": "Transforms sequence and then applies mel",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "melMap",
           "normalized": "(a-\u003eScore b)-\u003e[a]-\u003eScore b",
@@ -4285,6 +4651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA melody of events. Each of them lasts for one second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "melTemp",
           "package": "temporal-music-notation",
@@ -4295,6 +4662,7 @@
         "index": {
           "description": "melody of events Each of them lasts for one second",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "melTemp",
           "normalized": "[a]-\u003eScore a",
@@ -4311,6 +4679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for method \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "nil",
           "package": "temporal-music-notation",
@@ -4320,6 +4689,7 @@
         "index": {
           "description": "Synonym for method mempty",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "nil",
           "package": "temporal-music-notation",
@@ -4332,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "qn",
           "package": "temporal-music-notation",
@@ -4341,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "qn",
           "normalized": "Score a-\u003eScore a",
@@ -4355,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "qnr",
           "package": "temporal-music-notation",
@@ -4364,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "qnr",
           "package": "temporal-music-notation",
@@ -4377,6 +4751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput becomes one level quieter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "quiet",
           "package": "temporal-music-notation",
@@ -4387,6 +4762,7 @@
         "index": {
           "description": "Input becomes one level quieter",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "quiet",
           "normalized": "Score a-\u003eScore a",
@@ -4402,6 +4778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput becomes quieter by given number of levels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "quieter",
           "package": "temporal-music-notation",
@@ -4412,6 +4789,7 @@
         "index": {
           "description": "Input becomes quieter by given number of levels",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "quieter",
           "normalized": "Int-\u003eScore a-\u003eScore a",
@@ -4427,6 +4805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut for \u003ccode\u003e\u003ca\u003erest\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "r",
           "package": "temporal-music-notation",
@@ -4437,6 +4816,7 @@
         "index": {
           "description": "Shortcut for rest",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "r",
           "normalized": "Dur-\u003eScore a",
@@ -4452,6 +4832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReversing the scores\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "reflect",
           "package": "temporal-music-notation",
@@ -4462,6 +4843,7 @@
         "index": {
           "description": "Reversing the scores",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "reflect",
           "normalized": "Score a-\u003eScore a",
@@ -4477,6 +4859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all recordered events. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "render",
           "package": "temporal-music-notation",
@@ -4487,6 +4870,7 @@
         "index": {
           "description": "Gets all recordered events",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "render",
           "normalized": "Score a-\u003e[Event Dur a]",
@@ -4502,6 +4886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty \u003ccode\u003e\u003ca\u003eScore\u003c/a\u003e\u003c/code\u003e that lasts for some time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "rest",
           "package": "temporal-music-notation",
@@ -4512,6 +4897,7 @@
         "index": {
           "description": "Empty Score that lasts for some time",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "rest",
           "normalized": "Dur-\u003eScore a",
@@ -4527,6 +4913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets accent to the given value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "setAccent",
           "package": "temporal-music-notation",
@@ -4537,6 +4924,7 @@
         "index": {
           "description": "Sets accent to the given value",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "setAccent",
           "normalized": "Accent-\u003eScore a-\u003eScore a",
@@ -4553,6 +4941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets bend value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "setBend",
           "package": "temporal-music-notation",
@@ -4563,6 +4952,7 @@
         "index": {
           "description": "Sets bend value",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "setBend",
           "normalized": "Bend-\u003eScore a-\u003eScore a",
@@ -4579,6 +4969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets diapason to specified value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "setDiap",
           "package": "temporal-music-notation",
@@ -4589,6 +4980,7 @@
         "index": {
           "description": "Sets diapason to specified value",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "setDiap",
           "normalized": "(Double,Double)-\u003eScore a-\u003eScore a",
@@ -4605,6 +4997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelative update of diapason value in decibels, \n (0, 1) turns diapason interval into itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "setDiapRel",
           "package": "temporal-music-notation",
@@ -4615,6 +5008,7 @@
         "index": {
           "description": "Relative update of diapason value in decibels turns diapason interval into itself",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "setDiapRel",
           "normalized": "(Double,Double)-\u003eScore a-\u003eScore a",
@@ -4631,6 +5025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets level to the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "setLevel",
           "package": "temporal-music-notation",
@@ -4641,6 +5036,7 @@
         "index": {
           "description": "Sets level to the given value",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "setLevel",
           "normalized": "Level-\u003eScore a-\u003eScore a",
@@ -4657,6 +5053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets new scale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "setScale",
           "package": "temporal-music-notation",
@@ -4667,6 +5064,7 @@
         "index": {
           "description": "Sets new scale",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "setScale",
           "normalized": "Scale-\u003eScore a-\u003eScore a",
@@ -4683,6 +5081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets step value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "setStep",
           "package": "temporal-music-notation",
@@ -4693,6 +5092,7 @@
         "index": {
           "description": "Sets step value",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "setStep",
           "normalized": "Step-\u003eScore a-\u003eScore a",
@@ -4709,6 +5109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eslice\u003c/a\u003e\u003c/code\u003e cuts piece of value within given time interval.\n for \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eslice\u003c/a\u003e\u003c/code\u003e t0 t1 m)\u003c/code\u003e, if \u003ccode\u003et1 \u003c t0\u003c/code\u003e result is reversed.\n If \u003ccode\u003et0\u003c/code\u003e is negative or \u003ccode\u003et1\u003c/code\u003e goes beyond \u003ccode\u003e\u003ccode\u003e\u003ca\u003edur\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e blocks of\n nothing inserted so that duration of result equals to \n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e (t0 - t1)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "slice",
           "package": "temporal-music-notation",
@@ -4719,6 +5120,7 @@
         "index": {
           "description": "slice cuts piece of value within given time interval for slice t0 t1 if t1 t0 result is reversed If t0 is negative or t1 goes beyond dur blocks of nothing inserted so that duration of result equals to abs t0 t1",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "slice",
           "normalized": "Dur-\u003eDur-\u003eScore a-\u003eScore a",
@@ -4733,6 +5135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "sn",
           "package": "temporal-music-notation",
@@ -4742,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "sn",
           "normalized": "Score a-\u003eScore a",
@@ -4756,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "snr",
           "package": "temporal-music-notation",
@@ -4765,6 +5170,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "snr",
           "package": "temporal-music-notation",
@@ -4778,6 +5184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSorts all events by start time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "sortEvents",
           "package": "temporal-music-notation",
@@ -4787,6 +5194,7 @@
         "index": {
           "description": "Sorts all events by start time",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "sortEvents",
           "normalized": "[Event a b]-\u003e[Event a b]",
@@ -4803,6 +5211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransposition. Increases (octave, step) coordinate by\n given number of steps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "step",
           "package": "temporal-music-notation",
@@ -4813,6 +5222,7 @@
         "index": {
           "description": "Transposition Increases octave step coordinate by given number of steps",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "step",
           "normalized": "Int-\u003eScore a-\u003eScore a",
@@ -4828,6 +5238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStretches \u003ccode\u003e\u003ca\u003eScore\u003c/a\u003e\u003c/code\u003e in time domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "str",
           "package": "temporal-music-notation",
@@ -4838,6 +5249,7 @@
         "index": {
           "description": "Stretches Score in time domain",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "str",
           "normalized": "Dur-\u003eScore a-\u003eScore a",
@@ -4853,6 +5265,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use str\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in favour of \u003ccode\u003estr\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "stretch",
           "package": "temporal-music-notation",
@@ -4863,6 +5276,7 @@
         "index": {
           "description": "Deprecated Use str Deprecated in favour of str",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "stretch",
           "normalized": "Double-\u003eScore a-\u003eScore a",
@@ -4878,6 +5292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfter this transformation events last longer\n by some constant amount of time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "sustain",
           "package": "temporal-music-notation",
@@ -4888,6 +5303,7 @@
         "index": {
           "description": "After this transformation events last longer by some constant amount of time",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "sustain",
           "normalized": "Dur-\u003eScore a-\u003eScore a",
@@ -4903,6 +5319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProlongated events can not exceed total score duration.\n All event are sustained but those that are close to \n end of the score are clipped. It resembles sustain on piano,\n when score ends you release the pedal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "sustainT",
           "package": "temporal-music-notation",
@@ -4913,6 +5330,7 @@
         "index": {
           "description": "Prolongated events can not exceed total score duration All event are sustained but those that are close to end of the score are clipped It resembles sustain on piano when score ends you release the pedal",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "sustainT",
           "normalized": "Dur-\u003eScore a-\u003eScore a",
@@ -4928,6 +5346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(\u003ccode\u003e\u003ca\u003etakeS\u003c/a\u003e\u003c/code\u003e t)\u003c/code\u003e is equivalent to \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eslice\u003c/a\u003e\u003c/code\u003e 0 t)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "takeS",
           "package": "temporal-music-notation",
@@ -4938,6 +5357,7 @@
         "index": {
           "description": "takeS is equivalent to slice",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "takeS",
           "normalized": "Dur-\u003eScore a-\u003eScore a",
@@ -4953,6 +5373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etemp\u003c/a\u003e\u003c/code\u003e constructs just an event. \n Value of type \u003ccode\u003ea\u003c/code\u003e lasts for one time unit and starts at zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "temp",
           "package": "temporal-music-notation",
@@ -4963,6 +5384,7 @@
         "index": {
           "description": "temp constructs just an event Value of type lasts for one time unit and starts at zero",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "temp",
           "normalized": "a-\u003eScore a",
@@ -4978,6 +5400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapps values and time stamps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "tmap",
           "package": "temporal-music-notation",
@@ -4988,6 +5411,7 @@
         "index": {
           "description": "Mapps values and time stamps",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "tmap",
           "normalized": "(Event Dur a-\u003eb)-\u003eScore a-\u003eScore b",
@@ -5003,6 +5427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelative tmap. Time values are normalized by argument's duration. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "tmapRel",
           "package": "temporal-music-notation",
@@ -5013,6 +5438,7 @@
         "index": {
           "description": "Relative tmap Time values are normalized by argument duration",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "tmapRel",
           "normalized": "(Event Dur a-\u003eb)-\u003eScore a-\u003eScore b",
@@ -5028,6 +5454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "tn",
           "package": "temporal-music-notation",
@@ -5037,6 +5464,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "tn",
           "normalized": "Score a-\u003eScore a",
@@ -5051,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "tnr",
           "package": "temporal-music-notation",
@@ -5060,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "tnr",
           "package": "temporal-music-notation",
@@ -5073,6 +5503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeans 'three notes'. Plays three notes as fast as two.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "trn",
           "package": "temporal-music-notation",
@@ -5083,6 +5514,7 @@
         "index": {
           "description": "Means three notes Plays three notes as fast as two",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "trn",
           "normalized": "Score a-\u003eScore a",
@@ -5098,6 +5530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccent that depends on time of note, time is relative, \n so \u003ccode\u003e\u003ca\u003eScore\u003c/a\u003e\u003c/code\u003e starts at 't = 0' and ends at 't = 1'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "withAccent",
           "package": "temporal-music-notation",
@@ -5108,6 +5541,7 @@
         "index": {
           "description": "Accent that depends on time of note time is relative so Score starts at and ends at",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "withAccent",
           "normalized": "(Dur-\u003eAccent)-\u003eScore a-\u003eScore a",
@@ -5124,6 +5558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithAccentRel\u003c/a\u003e\u003c/code\u003e lifts function \u003ccode\u003e\u003ca\u003elinfunRel\u003c/a\u003e\u003c/code\u003e to dynamics level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "withAccentRel",
           "package": "temporal-music-notation",
@@ -5134,6 +5569,7 @@
         "index": {
           "description": "withAccentRel lifts function linfunRel to dynamics level",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "withAccentRel",
           "normalized": "[Accent]-\u003eScore a-\u003eScore a",
@@ -5150,6 +5586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithAccentSeg\u003c/a\u003e\u003c/code\u003e lifts function \u003ccode\u003e\u003ca\u003elinfun\u003c/a\u003e\u003c/code\u003e to dynamics level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "withAccentSeg",
           "package": "temporal-music-notation",
@@ -5160,6 +5597,7 @@
         "index": {
           "description": "withAccentSeg lifts function linfun to dynamics level",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "withAccentSeg",
           "normalized": "[Double]-\u003eScore a-\u003eScore a",
@@ -5176,6 +5614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests if given \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e happens between two time stamps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "within",
           "package": "temporal-music-notation",
@@ -5185,6 +5624,7 @@
         "index": {
           "description": "Tests if given Event happens between two time stamps",
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "within",
           "normalized": "a-\u003ea-\u003eEvent a b-\u003eBool",
@@ -5199,6 +5639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "wn",
           "package": "temporal-music-notation",
@@ -5208,6 +5649,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "wn",
           "normalized": "Score a-\u003eScore a",
@@ -5222,6 +5664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Score",
           "name": "wnr",
           "package": "temporal-music-notation",
@@ -5231,6 +5674,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Score",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Score",
           "name": "wnr",
           "package": "temporal-music-notation",
@@ -5244,6 +5688,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the notion of volume.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "Volume",
           "package": "temporal-music-notation",
@@ -5253,6 +5698,7 @@
         "index": {
           "description": "This module defines the notion of volume",
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "Volume",
           "package": "temporal-music-notation",
@@ -5267,6 +5713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAccent\u003c/a\u003e\u003c/code\u003e defines values between \u003ccode\u003e\u003ca\u003evolumeLevel\u003c/a\u003e\u003c/code\u003e values on logarithmic \n scale. 1 \u003ccode\u003e\u003ca\u003eAccent\u003c/a\u003e\u003c/code\u003e == 1 \u003ccode\u003e\u003ca\u003evolumeLevel\u003c/a\u003e\u003c/code\u003e 's step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "Accent",
           "package": "temporal-music-notation",
@@ -5276,6 +5723,7 @@
         "index": {
           "description": "Accent defines values between volumeLevel values on logarithmic scale Accent volumeLevel step",
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "Accent",
           "package": "temporal-music-notation",
@@ -5290,6 +5738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiapason defines minimum and maximum bound for \u003ccode\u003e\u003ca\u003eVolume\u003c/a\u003e\u003c/code\u003e level.\n Field \u003ccode\u003e\u003ca\u003ediapLim\u003c/a\u003e\u003c/code\u003e specifies volume limit. Value \u003ccode\u003e\u003ca\u003ediapLim\u003c/a\u003e\u003c/code\u003e is \n rendered to highest amplitude and \u003ccode\u003e-diapLim\u003c/code\u003e is rendered to \n the lowest amplitude. All values that go beyond the limit are clipped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "Diap",
           "package": "temporal-music-notation",
@@ -5299,6 +5748,7 @@
         "index": {
           "description": "Diapason defines minimum and maximum bound for Volume level Field diapLim specifies volume limit Value diapLim is rendered to highest amplitude and diapLim is rendered to the lowest amplitude All values that go beyond the limit are clipped",
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "Diap",
           "package": "temporal-music-notation",
@@ -5313,6 +5763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVolume levels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "Level",
           "package": "temporal-music-notation",
@@ -5322,6 +5773,7 @@
         "index": {
           "description": "Volume levels",
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "Level",
           "package": "temporal-music-notation",
@@ -5336,6 +5788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVolume\u003c/a\u003e\u003c/code\u003e denotes amplitude. It's not a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e \n for ease of performing some musical transformations, such as\n making notes louder or using accents. \u003ccode\u003e\u003ca\u003eVolume\u003c/a\u003e\u003c/code\u003e can be converted\n to \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e with function \u003ccode\u003eamp\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "Volume",
           "package": "temporal-music-notation",
@@ -5345,6 +5798,7 @@
         "index": {
           "description": "Volume denotes amplitude It not Double for ease of performing some musical transformations such as making notes louder or using accents Volume can be converted to Double with function amp",
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "Volume",
           "package": "temporal-music-notation",
@@ -5359,6 +5813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVolume\u003c/a\u003e\u003c/code\u003e can be used alongside with many\n other parameters (they can define timbre or pitch). \n Class \u003ccode\u003e\u003ca\u003eVolumeLike\u003c/a\u003e\u003c/code\u003e provides getters and setters for\n data types that contain value of type \u003ccode\u003e\u003ca\u003eVolume\u003c/a\u003e\u003c/code\u003e. \n In \u003ca\u003eTemporal.Music.Score\u003c/a\u003e module you can find many\n functions that are defined in terms of this class. Once you\n have chosen some note representation you can make an instance \n for it and use all volume-modifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "VolumeLike",
           "package": "temporal-music-notation",
@@ -5368,6 +5823,7 @@
         "index": {
           "description": "Volume can be used alongside with many other parameters they can define timbre or pitch Class VolumeLike provides getters and setters for data types that contain value of type Volume In Temporal.Music.Score module you can find many functions that are defined in terms of this class Once you have chosen some note representation you can make an instance for it and use all volume-modifiers",
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "VolumeLike",
           "package": "temporal-music-notation",
@@ -5381,6 +5837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "Diap",
           "package": "temporal-music-notation",
@@ -5390,6 +5847,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "Diap",
           "package": "temporal-music-notation",
@@ -5403,6 +5861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "Volume",
           "package": "temporal-music-notation",
@@ -5412,6 +5871,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "Volume",
           "package": "temporal-music-notation",
@@ -5426,6 +5886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates amplitude for a \u003ccode\u003e\u003ca\u003eVolume\u003c/a\u003e\u003c/code\u003e -like value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "absVolume",
           "package": "temporal-music-notation",
@@ -5436,6 +5897,7 @@
         "index": {
           "description": "Calculates amplitude for Volume like value",
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "absVolume",
           "normalized": "a-\u003eDouble",
@@ -5452,6 +5914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapps decibels to amplitudes within specified amplitude \n diapason, 0 turns to lower diapason value and 1 turns \n to higher diapason value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "diapAt",
           "package": "temporal-music-notation",
@@ -5462,6 +5925,7 @@
         "index": {
           "description": "Mapps decibels to amplitudes within specified amplitude diapason turns to lower diapason value and turns to higher diapason value",
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "diapAt",
           "normalized": "Diap-\u003eDouble-\u003eDouble",
@@ -5477,6 +5941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "diapLim",
           "package": "temporal-music-notation",
@@ -5486,6 +5951,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "diapLim",
           "package": "temporal-music-notation",
@@ -5499,6 +5965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "diapRange",
           "package": "temporal-music-notation",
@@ -5508,6 +5975,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "diapRange",
           "normalized": "(Double,Double)",
@@ -5523,6 +5991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "getVolume",
           "package": "temporal-music-notation",
@@ -5532,6 +6001,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "getVolume",
           "normalized": "a-\u003eVolume",
@@ -5548,6 +6018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVolume\u003c/a\u003e\u003c/code\u003e modifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "mapVolume",
           "package": "temporal-music-notation",
@@ -5558,6 +6029,7 @@
         "index": {
           "description": "Volume modifier",
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "mapVolume",
           "normalized": "(Volume-\u003eVolume)-\u003ea-\u003ea",
@@ -5573,6 +6045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "setVolume",
           "package": "temporal-music-notation",
@@ -5582,6 +6055,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "setVolume",
           "normalized": "Volume-\u003ea-\u003ea",
@@ -5597,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "volumeAccent",
           "package": "temporal-music-notation",
@@ -5606,6 +6081,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "volumeAccent",
           "package": "temporal-music-notation",
@@ -5620,6 +6096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates value of type \u003ccode\u003e\u003ca\u003eVolume\u003c/a\u003e\u003c/code\u003e as coordinate \n within specidfied diapason. 1 corresponds to maximum bound \n and 0 corresponds to minimum bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "volumeAsDouble",
           "package": "temporal-music-notation",
@@ -5630,6 +6107,7 @@
         "index": {
           "description": "Calculates value of type Volume as coordinate within specidfied diapason corresponds to maximum bound and corresponds to minimum bound",
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "volumeAsDouble",
           "normalized": "Volume-\u003eDouble",
@@ -5645,6 +6123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "volumeDiap",
           "package": "temporal-music-notation",
@@ -5654,6 +6133,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "volumeDiap",
           "package": "temporal-music-notation",
@@ -5667,6 +6147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music.Volume",
           "name": "volumeLevel",
           "package": "temporal-music-notation",
@@ -5676,6 +6157,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Volume",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music.Volume",
           "name": "volumeLevel",
           "package": "temporal-music-notation",
@@ -5689,6 +6171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:28 UTC 2014",
           "module": "Temporal.Music",
           "name": "Music",
           "package": "temporal-music-notation",
@@ -5697,6 +6180,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music",
+          "indexed": "2014-03-11T20:18:28",
           "module": "Temporal.Music",
           "name": "Music",
           "package": "temporal-music-notation",

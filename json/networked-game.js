@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "networked-game"
+        "phrase": "networked-game",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Handles",
           "name": "Handles",
           "package": "networked-game",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Handles",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Handles",
           "name": "Handles",
           "package": "networked-game",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Handles",
           "name": "ConnectionId",
           "package": "networked-game",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Handles",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Handles",
           "name": "ConnectionId",
           "package": "networked-game",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Handles",
           "name": "Handles",
           "package": "networked-game",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Handles",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Handles",
           "name": "Handles",
           "package": "networked-game",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Handles",
           "name": "ConnectionId",
           "package": "networked-game",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Handles",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Handles",
           "name": "ConnectionId",
           "package": "networked-game",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Handles",
           "name": "addHandle",
           "package": "networked-game",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Handles",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Handles",
           "name": "addHandle",
           "normalized": "ConnectionId-\u003eHandle-\u003eHandles-\u003eHandles",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Handles",
           "name": "emptyHandles",
           "package": "networked-game",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Handles",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Handles",
           "name": "emptyHandles",
           "package": "networked-game",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Handles",
           "name": "forHandles_",
           "package": "networked-game",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Handles",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Handles",
           "name": "forHandles_",
           "normalized": "Handles-\u003e(Handle-\u003ea b)-\u003ea()",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Handles",
           "name": "lookupHandle",
           "package": "networked-game",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Handles",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Handles",
           "name": "lookupHandle",
           "normalized": "ConnectionId-\u003eHandles-\u003eMaybe Handle",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Handles",
           "name": "nullHandles",
           "package": "networked-game",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Handles",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Handles",
           "name": "nullHandles",
           "normalized": "Handles-\u003eBool",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Handles",
           "name": "removeHandle",
           "package": "networked-game",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Handles",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Handles",
           "name": "removeHandle",
           "normalized": "ConnectionId-\u003eHandles-\u003eHandles",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Packet",
           "name": "Packet",
           "package": "networked-game",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Packet",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Packet",
           "name": "Packet",
           "package": "networked-game",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Packet",
           "name": "Packet",
           "package": "networked-game",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Packet",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Packet",
           "name": "Packet",
           "package": "networked-game",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Packet",
           "name": "Packet",
           "package": "networked-game",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Packet",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Packet",
           "name": "Packet",
           "package": "networked-game",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Packet",
           "name": "hGetPacketed",
           "package": "networked-game",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Packet",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Packet",
           "name": "hGetPacketed",
           "normalized": "Handle-\u003eIO a",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Packet",
           "name": "hPutPacket",
           "package": "networked-game",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Packet",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Packet",
           "name": "hPutPacket",
           "normalized": "Handle-\u003ePacket-\u003eIO()",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Packet",
           "name": "mkPacket",
           "package": "networked-game",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Packet",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Packet",
           "name": "mkPacket",
           "normalized": "a-\u003ePacket",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "Server",
           "package": "networked-game",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "Server",
           "package": "networked-game",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "ConnectionId",
           "package": "networked-game",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "ConnectionId",
           "package": "networked-game",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "Handles",
           "package": "networked-game",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "Handles",
           "package": "networked-game",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "NetworkServer",
           "package": "networked-game",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "NetworkServer",
           "package": "networked-game",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "NetworkServer",
           "package": "networked-game",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "NetworkServer",
           "package": "networked-game",
@@ -488,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a command to a collection of clients\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "announce",
           "package": "networked-game",
@@ -497,6 +540,7 @@
         "index": {
           "description": "Send command to collection of clients",
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "announce",
           "normalized": "Handles-\u003ea-\u003eb()",
@@ -512,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a command to a single client identified by id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "announceOne",
           "package": "networked-game",
@@ -521,6 +566,7 @@
         "index": {
           "description": "Send command to single client identified by id",
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "announceOne",
           "normalized": "Handles-\u003eConnectionId-\u003ea-\u003eb()",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "eventsPerSecond",
           "package": "networked-game",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "eventsPerSecond",
           "package": "networked-game",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "onCommand",
           "package": "networked-game",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "onCommand",
           "normalized": "Handles-\u003eConnectionId-\u003ea-\u003eb-\u003eIO b",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "onConnect",
           "package": "networked-game",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "onConnect",
           "normalized": "Handles-\u003eConnectionId-\u003ea-\u003eIO a",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "onDisconnect",
           "package": "networked-game",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "onDisconnect",
           "normalized": "Handles-\u003eConnectionId-\u003ea-\u003eIO a",
@@ -630,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "onTick",
           "package": "networked-game",
@@ -639,6 +694,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "onTick",
           "normalized": "Handles-\u003eFloat-\u003ea-\u003eIO a",
@@ -655,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain entry point for server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "serverMain",
           "package": "networked-game",
@@ -664,6 +721,7 @@
         "index": {
           "description": "Main entry point for server",
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "serverMain",
           "normalized": "NetworkServer a b-\u003eb-\u003eIO()",
@@ -679,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:50 UTC 2014",
           "module": "NetworkedGame.Server",
           "name": "serverPort",
           "package": "networked-game",
@@ -688,6 +747,7 @@
         },
         "index": {
           "hierarchy": "NetworkedGame Server",
+          "indexed": "2014-03-11T19:28:50",
           "module": "NetworkedGame.Server",
           "name": "serverPort",
           "package": "networked-game",

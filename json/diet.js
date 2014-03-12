@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "diet"
+        "phrase": "diet",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiscrete Interval Encoding Tree described by Martin Erwig in \u003cem\u003eDiets for Fat Sets, January 1993\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "Diet",
           "package": "diet",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Discrete Interval Encoding Tree described by Martin Erwig in Diets for Fat Sets January",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "Diet",
           "package": "diet",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Discrete Interval Encoding Tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "Diet",
           "package": "diet",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Discrete Interval Encoding Tree",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "Diet",
           "package": "diet",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn interval with discrete values between.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "Interval",
           "package": "diet",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An interval with discrete values between",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "Interval",
           "package": "diet",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete an element from the interval tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "delete",
           "package": "diet",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Delete an element from the interval tree",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "delete",
           "normalized": "a-\u003eDiet a-\u003eDiet a",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold on the interval tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "diet",
           "package": "diet",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Fold on the interval tree",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "diet",
           "normalized": "(a-\u003eInterval b-\u003ea-\u003ea)-\u003ea-\u003eDiet b-\u003ea",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an interval tree with no elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "empty",
           "package": "diet",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Construct an interval tree with no elements",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "empty",
           "package": "diet",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an interval tree with the elements of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "fromList",
           "package": "diet",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Construct an interval tree with the elements of the list",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "fromList",
           "normalized": "a b-\u003eDiet b",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an element into the interval tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "insert",
           "package": "diet",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Insert an element into the interval tree",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "insert",
           "normalized": "a-\u003eDiet a-\u003eDiet a",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an interval ensuring that the minimum is less than or equal to maximum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "interval",
           "package": "diet",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Construct an interval ensuring that the minimum is less than or equal to maximum",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "interval",
           "normalized": "a-\u003ea-\u003eInterval a",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum of the interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "intervalMax",
           "package": "diet",
@@ -247,6 +266,7 @@
         "index": {
           "description": "The maximum of the interval",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "intervalMax",
           "normalized": "Interval a-\u003ea",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minimum of the interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "intervalMin",
           "package": "diet",
@@ -273,6 +294,7 @@
         "index": {
           "description": "The minimum of the interval",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "intervalMin",
           "normalized": "Interval a-\u003ea",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the interval has the same minimum and maximum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "isPointed",
           "package": "diet",
@@ -299,6 +322,7 @@
         "index": {
           "description": "Returns whether or not the interval has the same minimum and maximum",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "isPointed",
           "normalized": "Interval a-\u003eBool",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function across the interval tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "mapD",
           "package": "diet",
@@ -325,6 +350,7 @@
         "index": {
           "description": "Map function across the interval tree",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "mapD",
           "normalized": "(a-\u003eb)-\u003eDiet a-\u003eDiet b",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function across the minimum and maximum of the interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "mapI",
           "package": "diet",
@@ -350,6 +377,7 @@
         "index": {
           "description": "Map function across the minimum and maximum of the interval",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "mapI",
           "normalized": "(a-\u003eb)-\u003eInterval a-\u003eInterval b",
@@ -365,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest for membership in the interval tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "member",
           "package": "diet",
@@ -375,6 +404,7 @@
         "index": {
           "description": "Test for membership in the interval tree",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "member",
           "normalized": "a-\u003eDiet a-\u003eBool",
@@ -390,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two intervals if they are overlapping or adjacent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "mergeI",
           "package": "diet",
@@ -400,6 +431,7 @@
         "index": {
           "description": "Merge two intervals if they are overlapping or adjacent",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "mergeI",
           "normalized": "Interval a-\u003eInterval a-\u003eMaybe(Interval a)",
@@ -415,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest for non-membership in the interval tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "notMember",
           "package": "diet",
@@ -425,6 +458,7 @@
         "index": {
           "description": "Test for non-membership in the interval tree",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "notMember",
           "normalized": "a-\u003eDiet a-\u003eBool",
@@ -441,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn interval with the same minimum and maximum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "point",
           "package": "diet",
@@ -451,6 +486,7 @@
         "index": {
           "description": "An interval with the same minimum and maximum",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "point",
           "normalized": "a-\u003eInterval a",
@@ -466,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an interval tree with a single element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "single",
           "package": "diet",
@@ -476,6 +513,7 @@
         "index": {
           "description": "Construct an interval tree with single element",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "single",
           "normalized": "a-\u003eDiet a",
@@ -491,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an interval tree with a single interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "singleI",
           "package": "diet",
@@ -501,6 +540,7 @@
         "index": {
           "description": "Construct an interval tree with single interval",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "singleI",
           "normalized": "Interval a-\u003eDiet a",
@@ -516,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of elements in the interval tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "size",
           "package": "diet",
@@ -526,6 +567,7 @@
         "index": {
           "description": "Return the number of elements in the interval tree",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "size",
           "normalized": "Diet a-\u003eInt",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all elements of the interval tree as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:46 UTC 2014",
           "module": "Data.Set.Diet",
           "name": "toList",
           "package": "diet",
@@ -551,6 +594,7 @@
         "index": {
           "description": "Return all elements of the interval tree as list",
           "hierarchy": "Data Set Diet",
+          "indexed": "2014-03-11T17:54:46",
           "module": "Data.Set.Diet",
           "name": "toList",
           "normalized": "Diet a-\u003e[a]",

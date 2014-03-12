@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uuid-aeson"
+        "phrase": "uuid-aeson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:40 UTC 2014",
           "module": "Data.UUID.Aeson",
           "name": "Aeson",
           "package": "uuid-aeson",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data UUID Aeson",
+          "indexed": "2014-03-11T20:32:40",
           "module": "Data.UUID.Aeson",
           "name": "Aeson",
           "package": "uuid-aeson",

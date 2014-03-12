@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "grm"
+        "phrase": "grm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Layout",
           "name": "Layout",
           "package": "grm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Grm Layout",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Layout",
           "name": "Layout",
           "package": "grm",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Layout",
           "name": "layout",
           "package": "grm",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Grm Layout",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Layout",
           "name": "layout",
           "normalized": "[Token Point]-\u003e[Token Point]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "Lex",
           "package": "grm",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "Lex",
           "package": "grm",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "Point",
           "package": "grm",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "Point",
           "package": "grm",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "Token",
           "package": "grm",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "Token",
           "package": "grm",
@@ -148,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "TChar",
           "package": "grm",
@@ -157,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "TChar",
           "package": "grm",
@@ -170,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "TLident",
           "package": "grm",
@@ -179,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "TLident",
           "package": "grm",
@@ -192,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "TMLComment",
           "package": "grm",
@@ -201,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "TMLComment",
           "package": "grm",
@@ -214,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "TNumber",
           "package": "grm",
@@ -223,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "TNumber",
           "package": "grm",
@@ -236,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "TSLComment",
           "package": "grm",
@@ -245,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "TSLComment",
           "package": "grm",
@@ -258,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "TString",
           "package": "grm",
@@ -267,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "TString",
           "package": "grm",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "TSymbol",
           "package": "grm",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "TSymbol",
           "package": "grm",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "TUident",
           "package": "grm",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "TUident",
           "package": "grm",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "TUsym",
           "package": "grm",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "TUsym",
           "package": "grm",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "TWhitespace",
           "package": "grm",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "TWhitespace",
           "package": "grm",
@@ -414,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "happyError",
           "package": "grm",
@@ -423,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "happyError",
           "normalized": "[Token Point]-\u003ea",
@@ -438,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "lexContents",
           "package": "grm",
@@ -447,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "lexContents",
           "normalized": "[String]-\u003eFilePath-\u003eString-\u003eIO[Token Point]",
@@ -462,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "lexFilePath",
           "package": "grm",
@@ -471,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "lexFilePath",
           "normalized": "[String]-\u003eFilePath-\u003eIO[Token Point]",
@@ -486,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "notWSToken",
           "package": "grm",
@@ -495,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "notWSToken",
           "normalized": "Token a-\u003eBool",
@@ -510,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "ppToken",
           "package": "grm",
@@ -519,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "ppToken",
           "normalized": "Token a-\u003eDoc",
@@ -534,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "ppTokenList",
           "package": "grm",
@@ -543,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "ppTokenList",
           "normalized": "[Token a]-\u003eDoc",
@@ -558,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "unTChar",
           "package": "grm",
@@ -567,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "unTChar",
           "normalized": "Token a-\u003eChar",
@@ -582,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "unTLident",
           "package": "grm",
@@ -591,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "unTLident",
           "normalized": "Token a-\u003eString",
@@ -606,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "unTMLComment",
           "package": "grm",
@@ -615,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "unTMLComment",
           "normalized": "Token a-\u003eString",
@@ -630,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "unTNumber",
           "package": "grm",
@@ -639,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "unTNumber",
           "normalized": "Token a-\u003eString",
@@ -654,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "unTSLComment",
           "package": "grm",
@@ -663,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "unTSLComment",
           "normalized": "Token a-\u003eString",
@@ -678,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "unTString",
           "package": "grm",
@@ -687,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "unTString",
           "normalized": "Token a-\u003eString",
@@ -702,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "unTSymbol",
           "package": "grm",
@@ -711,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "unTSymbol",
           "normalized": "Token a-\u003eString",
@@ -726,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "unTUident",
           "package": "grm",
@@ -735,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "unTUident",
           "normalized": "Token a-\u003eString",
@@ -750,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "unTUsym",
           "package": "grm",
@@ -759,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "unTUsym",
           "normalized": "Token a-\u003eString",
@@ -774,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Lex",
           "name": "unTWhitespace",
           "package": "grm",
@@ -783,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Grm Lex",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Lex",
           "name": "unTWhitespace",
           "normalized": "Token a-\u003eString",
@@ -798,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Prims",
           "package": "grm",
@@ -806,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Prims",
           "package": "grm",
@@ -819,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Empty",
           "package": "grm",
@@ -827,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Empty",
           "package": "grm",
@@ -840,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "HasMeta",
           "package": "grm",
@@ -848,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "HasMeta",
           "package": "grm",
@@ -861,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Horiz",
           "package": "grm",
@@ -869,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Horiz",
           "package": "grm",
@@ -882,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Lident",
           "package": "grm",
@@ -890,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Lident",
           "package": "grm",
@@ -903,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Loc",
           "package": "grm",
@@ -911,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Loc",
           "package": "grm",
@@ -924,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Mlcode",
           "package": "grm",
@@ -932,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Mlcode",
           "package": "grm",
@@ -945,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Number",
           "package": "grm",
@@ -953,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Number",
           "package": "grm",
@@ -966,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Point",
           "package": "grm",
@@ -974,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Point",
           "package": "grm",
@@ -987,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Terminator",
           "package": "grm",
@@ -995,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Terminator",
           "package": "grm",
@@ -1008,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Uident",
           "package": "grm",
@@ -1016,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Uident",
           "package": "grm",
@@ -1029,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Usym",
           "package": "grm",
@@ -1037,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Usym",
           "package": "grm",
@@ -1050,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Empty",
           "package": "grm",
@@ -1059,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Empty",
           "package": "grm",
@@ -1072,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Horiz",
           "package": "grm",
@@ -1081,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Horiz",
           "package": "grm",
@@ -1094,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Loc",
           "package": "grm",
@@ -1103,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Loc",
           "package": "grm",
@@ -1116,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "NonEmpty",
           "package": "grm",
@@ -1125,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "NonEmpty",
           "package": "grm",
@@ -1138,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Separator",
           "package": "grm",
@@ -1147,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Separator",
           "package": "grm",
@@ -1160,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Terminator",
           "package": "grm",
@@ -1169,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Terminator",
           "package": "grm",
@@ -1182,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "Vert",
           "package": "grm",
@@ -1191,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "Vert",
           "package": "grm",
@@ -1204,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "bitsToEncode",
           "package": "grm",
@@ -1213,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "bitsToEncode",
           "normalized": "Integer-\u003eInteger",
@@ -1228,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "commaSep",
           "package": "grm",
@@ -1237,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "commaSep",
           "normalized": "[String]-\u003eString",
@@ -1252,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "findFile",
           "package": "grm",
@@ -1261,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "findFile",
           "normalized": "[FilePath]-\u003eFilePath-\u003eIO(Maybe FilePath)",
@@ -1276,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "freshNm",
           "package": "grm",
@@ -1285,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "freshNm",
           "package": "grm",
@@ -1298,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "initLoc",
           "package": "grm",
@@ -1307,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "initLoc",
           "normalized": "FilePath-\u003eLoc",
@@ -1322,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "isBinary",
           "package": "grm",
@@ -1331,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "isBinary",
           "normalized": "String-\u003eBool",
@@ -1346,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "isFloat",
           "package": "grm",
@@ -1355,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "isFloat",
           "normalized": "String-\u003eBool",
@@ -1370,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "isOctal",
           "package": "grm",
@@ -1379,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "isOctal",
           "normalized": "String-\u003eBool",
@@ -1394,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "locColumn",
           "package": "grm",
@@ -1403,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "locColumn",
           "package": "grm",
@@ -1416,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "locFilePath",
           "package": "grm",
@@ -1425,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "locFilePath",
           "package": "grm",
@@ -1438,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "locLine",
           "package": "grm",
@@ -1447,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "locLine",
           "package": "grm",
@@ -1460,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "lowercase",
           "package": "grm",
@@ -1469,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "lowercase",
           "normalized": "String-\u003eString",
@@ -1483,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "lrPoint",
           "package": "grm",
@@ -1492,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "lrPoint",
           "normalized": "[Point]-\u003ePoint",
@@ -1507,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "lrPointList",
           "package": "grm",
@@ -1516,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "lrPointList",
           "normalized": "[a Point]-\u003ePoint",
@@ -1531,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "meta",
           "package": "grm",
@@ -1540,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "meta",
           "normalized": "a b-\u003eb",
@@ -1554,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "mySystem",
           "package": "grm",
@@ -1563,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "mySystem",
           "normalized": "String-\u003eIO()",
@@ -1578,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "noLoc",
           "package": "grm",
@@ -1587,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "noLoc",
           "package": "grm",
@@ -1600,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "noPoint",
           "package": "grm",
@@ -1609,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "noPoint",
           "package": "grm",
@@ -1622,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "nubSort",
           "package": "grm",
@@ -1631,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "nubSort",
           "normalized": "[a]-\u003e[a]",
@@ -1646,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "panic",
           "package": "grm",
@@ -1655,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "panic",
           "normalized": "String-\u003ea",
@@ -1669,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "point",
           "package": "grm",
@@ -1678,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "point",
           "normalized": "a Point-\u003ePoint",
@@ -1692,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppChar",
           "package": "grm",
@@ -1701,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppChar",
           "normalized": "Char-\u003eDoc",
@@ -1716,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppDouble",
           "package": "grm",
@@ -1725,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppDouble",
           "normalized": "Double-\u003eDoc",
@@ -1740,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppErr",
           "package": "grm",
@@ -1749,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppErr",
           "normalized": "Loc-\u003eString-\u003eString",
@@ -1764,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppInteger",
           "package": "grm",
@@ -1773,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppInteger",
           "normalized": "Integer-\u003eDoc",
@@ -1788,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppLident",
           "package": "grm",
@@ -1797,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppLident",
           "normalized": "String-\u003eDoc",
@@ -1812,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppList",
           "package": "grm",
@@ -1821,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppList",
           "normalized": "(a-\u003eDoc)-\u003eTerminator-\u003eString-\u003eHoriz-\u003e[a]-\u003eDoc",
@@ -1836,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppLoc",
           "package": "grm",
@@ -1845,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppLoc",
           "normalized": "Loc-\u003eString",
@@ -1860,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppMlcode",
           "package": "grm",
@@ -1869,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppMlcode",
           "normalized": "String-\u003eDoc",
@@ -1884,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppNumber",
           "package": "grm",
@@ -1893,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppNumber",
           "normalized": "Number-\u003eDoc",
@@ -1908,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppShow",
           "package": "grm",
@@ -1917,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppShow",
           "normalized": "a-\u003eString",
@@ -1932,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppString",
           "package": "grm",
@@ -1941,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppString",
           "normalized": "String-\u003eDoc",
@@ -1956,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppUident",
           "package": "grm",
@@ -1965,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppUident",
           "normalized": "String-\u003eDoc",
@@ -1980,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "ppUsym",
           "package": "grm",
@@ -1989,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "ppUsym",
           "normalized": "String-\u003eDoc",
@@ -2004,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "readBinary",
           "package": "grm",
@@ -2013,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "readBinary",
           "normalized": "String-\u003eInteger",
@@ -2028,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "readNumber",
           "package": "grm",
@@ -2037,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "readNumber",
           "normalized": "Number-\u003ea",
@@ -2052,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "singleton",
           "package": "grm",
@@ -2061,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "singleton",
           "normalized": "a-\u003e[a]",
@@ -2075,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "startLoc",
           "package": "grm",
@@ -2084,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "startLoc",
           "normalized": "a Point-\u003eLoc",
@@ -2099,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "stopLoc",
           "package": "grm",
@@ -2108,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "stopLoc",
           "normalized": "a Point-\u003eLoc",
@@ -2123,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "uId",
           "package": "grm",
@@ -2132,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "uId",
           "normalized": "a-\u003eString-\u003eString",
@@ -2147,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "unreachable",
           "package": "grm",
@@ -2156,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "unreachable",
           "package": "grm",
@@ -2168,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "unused",
           "package": "grm",
@@ -2177,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "unused",
           "package": "grm",
@@ -2189,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:25 UTC 2014",
           "module": "Grm.Prims",
           "name": "writeFileBinary",
           "package": "grm",
@@ -2198,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Grm Prims",
+          "indexed": "2014-03-11T18:21:25",
           "module": "Grm.Prims",
           "name": "writeFileBinary",
           "normalized": "FilePath-\u003eString-\u003eIO()",

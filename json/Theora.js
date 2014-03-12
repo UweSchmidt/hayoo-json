@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Theora"
+        "phrase": "Theora",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module calls the libtheora C library to generate video ogg files from YCbCr images.\n  As explained on \u003ca\u003ehttp://theora.org/doc/libtheora-1.0/group__encfuncs.html\u003c/a\u003e, the basic steps\n  for creating a video are the following :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e create in an \u003ccode\u003e\u003ca\u003eInfo\u003c/a\u003e\u003c/code\u003e record\n\u003c/li\u003e\u003cli\u003e call \u003ccode\u003e\u003ca\u003eencodeAlloc\u003c/a\u003e\u003c/code\u003e on it\n\u003c/li\u003e\u003cli\u003e call \u003ccode\u003e\u003ca\u003eflushHeader\u003c/a\u003e\u003c/code\u003e until it returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e For each uncompressed frame, submit it with \u003ccode\u003e\u003ca\u003eencodeIn\u003c/a\u003e\u003c/code\u003e, then retrieve potential packets \n with \u003ccode\u003e\u003ca\u003eencodeOut\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "Encoding",
           "package": "Theora",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module calls the libtheora library to generate video ogg files from YCbCr images As explained on http theora.org doc libtheora-1.0 group encfuncs.html the basic steps for creating video are the following create in an Info record call encodeAlloc on it call flushHeader until it returns Nothing For each uncompressed frame submit it with encodeIn then retrieve potential packets with encodeOut",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "Encoding",
           "package": "Theora",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "ColorSpace",
           "package": "Theora",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "ColorSpace",
           "package": "Theora",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "Comment",
           "package": "Theora",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "Comment",
           "package": "Theora",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "ImgPlane",
           "package": "Theora",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "ImgPlane",
           "package": "Theora",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "Info",
           "package": "Theora",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "Info",
           "package": "Theora",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "OggPacket",
           "package": "Theora",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "OggPacket",
           "package": "Theora",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "OggPage",
           "package": "Theora",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "OggPage",
           "package": "Theora",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTheora supports 4 different pixel formats, listed in \n  \u003ca\u003ehttp://theora.org/doc/Theora.pdf\u003c/a\u003e. YCbCr chroma frames (Cb and Cr) may be resized for\n  compression (see \u003ca\u003ehttp://en.wikipedia.org/Ycbcr\u003c/a\u003e). The resulting pixel formats\n  are as follows :\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "PixelFmt",
           "package": "Theora",
@@ -177,6 +192,7 @@
         "index": {
           "description": "Theora supports different pixel formats listed in http theora.org doc Theora.pdf YCbCr chroma frames Cb and Cr may be resized for compression see http en.wikipedia.org Ycbcr The resulting pixel formats are as follows",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "PixelFmt",
           "package": "Theora",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eYCbCrBuffer\u003c/a\u003e\u003c/code\u003e is the type of raw YCbCr frames\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "YCbCrBuffer",
           "package": "Theora",
@@ -200,6 +217,7 @@
         "index": {
           "description": "YCbCrBuffer is the type of raw YCbCr frames",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "YCbCrBuffer",
           "package": "Theora",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "Comment",
           "package": "Theora",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "Comment",
           "package": "Theora",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "Info",
           "package": "Theora",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "Info",
           "package": "Theora",
@@ -258,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color space designed for PAL/SECAM content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "ItuRec470BG",
           "package": "Theora",
@@ -268,6 +291,7 @@
         "index": {
           "description": "color space designed for PAL SECAM content",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "ItuRec470BG",
           "package": "Theora",
@@ -282,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color space designed for NTSC content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "ItuRec470M",
           "package": "Theora",
@@ -292,6 +317,7 @@
         "index": {
           "description": "color space designed for NTSC content",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "ItuRec470M",
           "package": "Theora",
@@ -306,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChroma decimation by 2 in both directions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "Pf420",
           "package": "Theora",
@@ -316,6 +343,7 @@
         "index": {
           "description": "Chroma decimation by in both directions",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "Pf420",
           "package": "Theora",
@@ -330,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChroma decimation by 2 in the \u003cem\u003ex\u003c/em\u003e direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "Pf422",
           "package": "Theora",
@@ -340,6 +369,7 @@
         "index": {
           "description": "Chroma decimation by in the direction",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "Pf422",
           "package": "Theora",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo chroma decimation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "Pf444",
           "package": "Theora",
@@ -364,6 +395,7 @@
         "index": {
           "description": "No chroma decimation",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "Pf444",
           "package": "Theora",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "Unspecified",
           "package": "Theora",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "Unspecified",
           "package": "Theora",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "YCbCr",
           "package": "Theora",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "YCbCr",
           "package": "Theora",
@@ -422,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe Cb plane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "cb",
           "package": "Theora",
@@ -432,6 +469,7 @@
         "index": {
           "description": "the Cb plane",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "cb",
           "package": "Theora",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "colorSpace",
           "package": "Theora",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "colorSpace",
           "package": "Theora",
@@ -467,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe Cr plane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "cr",
           "package": "Theora",
@@ -477,6 +518,7 @@
         "index": {
           "description": "the Cr plane",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "cr",
           "package": "Theora",
@@ -490,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes an encoder (\u003ccode\u003eEncCtx\u003c/code\u003e) instance out of an \u003ccode\u003e\u003ca\u003eInfo\u003c/a\u003e\u003c/code\u003e record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "encodeAlloc",
           "package": "Theora",
@@ -500,6 +543,7 @@
         "index": {
           "description": "Makes an encoder EncCtx instance out of an Info record",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "encodeAlloc",
           "normalized": "Info-\u003eIO(Maybe EncCtx)",
@@ -516,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubmits a frame for encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "encodeIn",
           "package": "Theora",
@@ -526,6 +571,7 @@
         "index": {
           "description": "Submits frame for encoding",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "encodeIn",
           "normalized": "EncCtx-\u003eYCbCrBuffer-\u003eIO()",
@@ -542,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all the ready encoded packets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "encodeOut",
           "package": "Theora",
@@ -552,6 +599,7 @@
         "index": {
           "description": "Retrieve all the ready encoded packets",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "encodeOut",
           "normalized": "EncCtx-\u003eBool-\u003eIO[OggPacket]",
@@ -568,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the last header packets. This function should be called before\n encoding actual video.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "flushHeader",
           "package": "Theora",
@@ -578,6 +627,7 @@
         "index": {
           "description": "Returns the last header packets This function should be called before encoding actual video",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "flushHeader",
           "normalized": "EncCtx-\u003eComment-\u003eIO[OggPacket]",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "frameHeight",
           "package": "Theora",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "frameHeight",
           "package": "Theora",
@@ -615,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "frameWidth",
           "package": "Theora",
@@ -624,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "frameWidth",
           "package": "Theora",
@@ -637,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "keyframeGranuleShift",
           "package": "Theora",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "keyframeGranuleShift",
           "package": "Theora",
@@ -660,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializes an Ogg container stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "newOggStreamState",
           "package": "Theora",
@@ -670,6 +727,7 @@
         "index": {
           "description": "Initializes an Ogg container stream",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "newOggStreamState",
           "normalized": "Int-\u003eIO OggStreamState",
@@ -686,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a new YCbCrBuffer object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "newYCbCr",
           "package": "Theora",
@@ -696,6 +755,7 @@
         "index": {
           "description": "Allocate new YCbCrBuffer object",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "newYCbCr",
           "normalized": "Int-\u003eInt-\u003ePixelFmt-\u003eIO YCbCrBuffer",
@@ -711,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "picHeight",
           "package": "Theora",
@@ -720,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "picHeight",
           "package": "Theora",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "picWidth",
           "package": "Theora",
@@ -742,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "picWidth",
           "package": "Theora",
@@ -755,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "picX",
           "package": "Theora",
@@ -764,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "picX",
           "package": "Theora",
@@ -776,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "picY",
           "package": "Theora",
@@ -785,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "picY",
           "package": "Theora",
@@ -797,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "pixelFmt",
           "package": "Theora",
@@ -806,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "pixelFmt",
           "package": "Theora",
@@ -819,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "quality",
           "package": "Theora",
@@ -828,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "quality",
           "package": "Theora",
@@ -841,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the last pages of the stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "streamFlush",
           "package": "Theora",
@@ -851,6 +924,7 @@
         "index": {
           "description": "Retrieve the last pages of the stream",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "streamFlush",
           "normalized": "OggStreamState-\u003eIO(Maybe OggPage)",
@@ -867,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubmits an encoded packet into the streams\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "streamPacketIn",
           "package": "Theora",
@@ -877,6 +952,7 @@
         "index": {
           "description": "Submits an encoded packet into the streams",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "streamPacketIn",
           "normalized": "OggStreamState-\u003eOggPacket-\u003eIO()",
@@ -893,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an outputable Ogg page               \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "streamPageOut",
           "package": "Theora",
@@ -903,6 +980,7 @@
         "index": {
           "description": "Get an outputable Ogg page",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "streamPageOut",
           "normalized": "OggStreamState-\u003eIO(Maybe OggPage)",
@@ -918,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "targetBitRate",
           "package": "Theora",
@@ -927,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "targetBitRate",
           "package": "Theora",
@@ -941,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYour comments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "user",
           "package": "Theora",
@@ -951,6 +1032,7 @@
         "index": {
           "description": "Your comments",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "user",
           "normalized": "[String]",
@@ -966,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the encoder, i.e. your application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "vendor",
           "package": "Theora",
@@ -976,6 +1059,7 @@
         "index": {
           "description": "Name of the encoder i.e your application",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "vendor",
           "package": "Theora",
@@ -989,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe Y plane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:14 UTC 2014",
           "module": "Theora.Encoding",
           "name": "y",
           "package": "Theora",
@@ -999,6 +1084,7 @@
         "index": {
           "description": "the plane",
           "hierarchy": "Theora Encoding",
+          "indexed": "2014-03-11T17:02:14",
           "module": "Theora.Encoding",
           "name": "y",
           "package": "Theora",

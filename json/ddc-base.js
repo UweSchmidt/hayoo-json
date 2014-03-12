@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ddc-base"
+        "phrase": "ddc-base",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser utilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "Parser",
           "package": "ddc-base",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parser utilities",
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "Parser",
           "package": "ddc-base",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic parser,\n   parameterised over token and return types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "Parser",
           "package": "ddc-base",
@@ -51,6 +54,7 @@
         "index": {
           "description": "generic parser parameterised over token and return types",
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "Parser",
           "package": "ddc-base",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser state that keeps track of the name of the source file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "ParserState",
           "package": "ddc-base",
@@ -74,6 +79,7 @@
         "index": {
           "description": "parser state that keeps track of the name of the source file",
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "ParserState",
           "package": "ddc-base",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position in a source file.        \n\u003c/p\u003e\u003cp\u003eIf there is no file path then we assume that the input has been read\n   from an interactive session and display ''\u003cinteractive\u003e'' when pretty printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "SourcePos",
           "package": "ddc-base",
@@ -97,6 +104,7 @@
         "index": {
           "description": "position in source file If there is no file path then we assume that the input has been read from an interactive session and display interactive when pretty printing",
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "SourcePos",
           "package": "ddc-base",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "ParseState",
           "package": "ddc-base",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "ParseState",
           "package": "ddc-base",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept the given token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "pTok",
           "package": "ddc-base",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Accept the given token",
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "pTok",
           "normalized": "a-\u003eParser a()",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept a token and return the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "pTokAs",
           "package": "ddc-base",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Accept token and return the given value",
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "pTokAs",
           "normalized": "a-\u003eb-\u003eParser a b",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept a token and return the given value, \n   along with the source position of the token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "pTokAsSP",
           "package": "ddc-base",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Accept token and return the given value along with the source position of the token",
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "pTokAsSP",
           "normalized": "a-\u003eb-\u003eParser a(b,SourcePos)",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept a token if the function returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "pTokMaybe",
           "package": "ddc-base",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Accept token if the function returns Just",
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "pTokMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eParser a b",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept a token if the function return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e, \n   also returning the source position of that token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "pTokMaybeSP",
           "package": "ddc-base",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Accept token if the function return Just also returning the source position of that token",
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "pTokMaybeSP",
           "normalized": "(a-\u003eMaybe b)-\u003eParser a(b,SourcePos)",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept the given token, returning its source position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "pTokSP",
           "package": "ddc-base",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Accept the given token returning its source position",
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "pTokSP",
           "normalized": "a-\u003eParser a SourcePos",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a generic parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "runTokenParser",
           "package": "ddc-base",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Run generic parser",
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "runTokenParser",
           "normalized": "(a-\u003eString)-\u003eString-\u003eParser a b-\u003e[Token a]-\u003eEither ParseError b",
@@ -313,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "stateFileName",
           "package": "ddc-base",
@@ -322,6 +347,7 @@
         },
         "index": {
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "stateFileName",
           "package": "ddc-base",
@@ -335,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Parser",
           "name": "stateTokenShow",
           "package": "ddc-base",
@@ -344,6 +371,7 @@
         },
         "index": {
           "hierarchy": "DDC Base Parser",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Parser",
           "name": "stateTokenShow",
           "normalized": "a-\u003eString",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printer utilities.\n\u003c/p\u003e\u003cp\u003eThis is a re-export of Daan Leijen's pretty printer package (\u003ccode\u003ewl-pprint\u003c/code\u003e),\n   but with a \u003ccode\u003e\u003ca\u003ePretty\u003c/a\u003e\u003c/code\u003e class that includes a \u003ccode\u003e\u003ca\u003epprPrec\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "Pretty",
           "package": "ddc-base",
@@ -369,6 +398,7 @@
         "index": {
           "description": "Pretty printer utilities This is re-export of Daan Leijen pretty printer package wl-pprint but with Pretty class that includes pprPrec function",
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "Pretty",
           "package": "ddc-base",
@@ -382,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "Pretty",
           "package": "ddc-base",
@@ -390,6 +421,7 @@
         },
         "index": {
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "Pretty",
           "package": "ddc-base",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to pretty print a doc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "RenderMode",
           "package": "ddc-base",
@@ -413,6 +446,7 @@
         "index": {
           "description": "How to pretty print doc",
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "RenderMode",
           "package": "ddc-base",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the doc without indenting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "RenderIndent",
           "package": "ddc-base",
@@ -437,6 +472,7 @@
         "index": {
           "description": "Render the doc without indenting",
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "RenderIndent",
           "package": "ddc-base",
@@ -451,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the doc with indenting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "RenderPlain",
           "package": "ddc-base",
@@ -461,6 +498,7 @@
         "index": {
           "description": "Render the doc with indenting",
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "RenderPlain",
           "package": "ddc-base",
@@ -474,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "ppr",
           "package": "ddc-base",
@@ -483,6 +522,7 @@
         },
         "index": {
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "ppr",
           "normalized": "a-\u003eDoc",
@@ -498,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e in parens if the predicate is true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "pprParen",
           "package": "ddc-base",
@@ -508,6 +549,7 @@
         "index": {
           "description": "Wrap Doc in parens if the predicate is true",
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "pprParen",
           "normalized": "Bool-\u003eDoc-\u003eDoc",
@@ -523,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "pprPrec",
           "package": "ddc-base",
@@ -532,6 +575,7 @@
         },
         "index": {
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "pprPrec",
           "normalized": "Int-\u003ea-\u003eDoc",
@@ -548,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003estdout\u003c/code\u003e using the given mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "putDoc",
           "package": "ddc-base",
@@ -558,6 +603,7 @@
         "index": {
           "description": "Put Doc to stdout using the given mode",
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "putDoc",
           "normalized": "RenderMode-\u003eDoc-\u003eIO()",
@@ -574,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003estdout\u003c/code\u003e using the given mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "putDocLn",
           "package": "ddc-base",
@@ -584,6 +631,7 @@
         "index": {
           "description": "Put Doc to stdout using the given mode",
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "putDocLn",
           "normalized": "RenderMode-\u003eDoc-\u003eIO()",
@@ -600,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a doc with the given mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "render",
           "package": "ddc-base",
@@ -610,6 +659,7 @@
         "index": {
           "description": "Render doc with the given mode",
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "render",
           "normalized": "RenderMode-\u003eDoc-\u003eString",
@@ -625,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e to a string with indentation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "renderIndent",
           "package": "ddc-base",
@@ -635,6 +686,7 @@
         "index": {
           "description": "Convert Doc to string with indentation",
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "renderIndent",
           "normalized": "Doc-\u003eString",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e to a string without indentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Base.Pretty",
           "name": "renderPlain",
           "package": "ddc-base",
@@ -661,6 +714,7 @@
         "index": {
           "description": "Convert Doc to string without indentation",
           "hierarchy": "DDC Base Pretty",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Base.Pretty",
           "name": "renderPlain",
           "normalized": "Doc-\u003eString",
@@ -677,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple exception monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Control.Monad.Check",
           "name": "Check",
           "package": "ddc-base",
@@ -686,6 +741,7 @@
         "index": {
           "description": "simple exception monad",
           "hierarchy": "DDC Control Monad Check",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Control.Monad.Check",
           "name": "Check",
           "package": "ddc-base",
@@ -699,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Control.Monad.Check",
           "name": "CheckM",
           "package": "ddc-base",
@@ -707,6 +764,7 @@
         },
         "index": {
           "hierarchy": "DDC Control Monad Check",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Control.Monad.Check",
           "name": "CheckM",
           "package": "ddc-base",
@@ -720,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Control.Monad.Check",
           "name": "CheckM",
           "package": "ddc-base",
@@ -729,6 +788,7 @@
         },
         "index": {
           "hierarchy": "DDC Control Monad Check",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Control.Monad.Check",
           "name": "CheckM",
           "package": "ddc-base",
@@ -743,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the result from a check monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Control.Monad.Check",
           "name": "result",
           "package": "ddc-base",
@@ -753,6 +814,7 @@
         "index": {
           "description": "Take the result from check monad",
           "hierarchy": "DDC Control Monad Check",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Control.Monad.Check",
           "name": "result",
           "normalized": "CheckM a b-\u003eEither a b",
@@ -768,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow a type error in the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Control.Monad.Check",
           "name": "throw",
           "package": "ddc-base",
@@ -778,6 +841,7 @@
         "index": {
           "description": "Throw type error in the monad",
           "hierarchy": "DDC Control Monad Check",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Control.Monad.Check",
           "name": "throw",
           "normalized": "a-\u003eCheckM a b",
@@ -792,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.Canned",
           "name": "Canned",
           "package": "ddc-base",
@@ -800,6 +865,7 @@
         },
         "index": {
           "hierarchy": "DDC Data Canned",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.Canned",
           "name": "Canned",
           "package": "ddc-base",
@@ -814,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function has a show instance that prints \"CANNED\" for any contained\n   type. We use it to wrap functional fields in data types that we still want\n   to derive Show instances for.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.Canned",
           "name": "Canned",
           "package": "ddc-base",
@@ -823,6 +890,7 @@
         "index": {
           "description": "This function has show instance that prints CANNED for any contained type We use it to wrap functional fields in data types that we still want to derive Show instances for",
           "hierarchy": "DDC Data Canned",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.Canned",
           "name": "Canned",
           "package": "ddc-base",
@@ -836,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.Canned",
           "name": "Canned",
           "package": "ddc-base",
@@ -845,6 +914,7 @@
         },
         "index": {
           "hierarchy": "DDC Data Canned",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.Canned",
           "name": "Canned",
           "package": "ddc-base",
@@ -859,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReplacements for unhelpful Haskell list functions.\n   If the standard versions are passed an empty list then we don't\n   get a proper source location.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.ListUtils",
           "name": "ListUtils",
           "package": "ddc-base",
@@ -868,6 +939,7 @@
         "index": {
           "description": "Replacements for unhelpful Haskell list functions If the standard versions are passed an empty list then we don get proper source location",
           "hierarchy": "DDC Data ListUtils",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.ListUtils",
           "name": "ListUtils",
           "package": "ddc-base",
@@ -882,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the element at the given index,\n   or `Nothing if it's not there.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.ListUtils",
           "name": "index",
           "package": "ddc-base",
@@ -892,6 +965,7 @@
         "index": {
           "description": "Retrieve the element at the given index or Nothing if it not there",
           "hierarchy": "DDC Data ListUtils",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.ListUtils",
           "name": "index",
           "normalized": "[a]-\u003eInt-\u003eMaybe a",
@@ -907,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the head of a list, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if it's empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.ListUtils",
           "name": "takeHead",
           "package": "ddc-base",
@@ -917,6 +992,7 @@
         "index": {
           "description": "Take the head of list or Nothing if it empty",
           "hierarchy": "DDC Data ListUtils",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.ListUtils",
           "name": "takeHead",
           "normalized": "[a]-\u003eMaybe a",
@@ -933,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the init of a list, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if it's empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.ListUtils",
           "name": "takeInit",
           "package": "ddc-base",
@@ -943,6 +1020,7 @@
         "index": {
           "description": "Take the init of list or Nothing if it empty",
           "hierarchy": "DDC Data ListUtils",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.ListUtils",
           "name": "takeInit",
           "normalized": "[a]-\u003eMaybe[a]",
@@ -959,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the tail of a list, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if it's empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.ListUtils",
           "name": "takeTail",
           "package": "ddc-base",
@@ -969,6 +1048,7 @@
         "index": {
           "description": "Take the tail of list or Nothing if it empty",
           "hierarchy": "DDC Data ListUtils",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.ListUtils",
           "name": "takeTail",
           "normalized": "[a]-\u003eMaybe[a]",
@@ -984,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.SourcePos",
           "name": "SourcePos",
           "package": "ddc-base",
@@ -992,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "DDC Data SourcePos",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.SourcePos",
           "name": "SourcePos",
           "package": "ddc-base",
@@ -1006,6 +1088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position in a source file.        \n\u003c/p\u003e\u003cp\u003eIf there is no file path then we assume that the input has been read\n   from an interactive session and display ''\u003cinteractive\u003e'' when pretty printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.SourcePos",
           "name": "SourcePos",
           "package": "ddc-base",
@@ -1015,6 +1098,7 @@
         "index": {
           "description": "position in source file If there is no file path then we assume that the input has been read from an interactive session and display interactive when pretty printing",
           "hierarchy": "DDC Data SourcePos",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.SourcePos",
           "name": "SourcePos",
           "package": "ddc-base",
@@ -1028,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.SourcePos",
           "name": "SourcePos",
           "package": "ddc-base",
@@ -1037,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "DDC Data SourcePos",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.SourcePos",
           "name": "SourcePos",
           "package": "ddc-base",
@@ -1050,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.SourcePos",
           "name": "sourcePosColumn",
           "package": "ddc-base",
@@ -1059,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "DDC Data SourcePos",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.SourcePos",
           "name": "sourcePosColumn",
           "package": "ddc-base",
@@ -1072,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.SourcePos",
           "name": "sourcePosLine",
           "package": "ddc-base",
@@ -1081,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "DDC Data SourcePos",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.SourcePos",
           "name": "sourcePosLine",
           "package": "ddc-base",
@@ -1094,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.SourcePos",
           "name": "sourcePosSource",
           "package": "ddc-base",
@@ -1103,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "DDC Data SourcePos",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.SourcePos",
           "name": "sourcePosSource",
           "package": "ddc-base",
@@ -1116,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.Token",
           "name": "Token",
           "package": "ddc-base",
@@ -1124,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "DDC Data Token",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.Token",
           "name": "Token",
           "package": "ddc-base",
@@ -1138,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for primitive token type that gives it a source position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.Token",
           "name": "Token",
           "package": "ddc-base",
@@ -1147,6 +1242,7 @@
         "index": {
           "description": "Wrapper for primitive token type that gives it source position",
           "hierarchy": "DDC Data Token",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.Token",
           "name": "Token",
           "package": "ddc-base",
@@ -1160,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.Token",
           "name": "Token",
           "package": "ddc-base",
@@ -1169,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "DDC Data Token",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.Token",
           "name": "Token",
           "package": "ddc-base",
@@ -1183,6 +1281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the parsec style source position from a token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.Token",
           "name": "takeParsecSourcePos",
           "package": "ddc-base",
@@ -1193,6 +1292,7 @@
         "index": {
           "description": "Take the parsec style source position from token",
           "hierarchy": "DDC Data Token",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.Token",
           "name": "takeParsecSourcePos",
           "normalized": "Token a-\u003eSourcePos",
@@ -1209,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the column number of a token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.Token",
           "name": "tokenColumn",
           "package": "ddc-base",
@@ -1219,6 +1320,7 @@
         "index": {
           "description": "Take the column number of token",
           "hierarchy": "DDC Data Token",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.Token",
           "name": "tokenColumn",
           "normalized": "Token a-\u003eInt",
@@ -1235,6 +1337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the line number of a token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.Token",
           "name": "tokenLine",
           "package": "ddc-base",
@@ -1245,6 +1348,7 @@
         "index": {
           "description": "Take the line number of token",
           "hierarchy": "DDC Data Token",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.Token",
           "name": "tokenLine",
           "normalized": "Token a-\u003eInt",
@@ -1260,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.Token",
           "name": "tokenSourcePos",
           "package": "ddc-base",
@@ -1269,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "DDC Data Token",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.Token",
           "name": "tokenSourcePos",
           "package": "ddc-base",
@@ -1282,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:13 UTC 2014",
           "module": "DDC.Data.Token",
           "name": "tokenTok",
           "package": "ddc-base",
@@ -1291,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "DDC Data Token",
+          "indexed": "2014-03-11T17:51:13",
           "module": "DDC.Data.Token",
           "name": "tokenTok",
           "package": "ddc-base",

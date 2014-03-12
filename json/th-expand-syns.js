@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "th-expand-syns"
+        "phrase": "th-expand-syns",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:02 UTC 2014",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "ExpandSyns",
           "package": "th-expand-syns",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH ExpandSyns",
+          "indexed": "2014-03-11T20:21:02",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "ExpandSyns",
           "package": "th-expand-syns",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a name (based on the first arg) that's distinct from every name in the second arg\n\u003c/p\u003e\u003cp\u003eExample why this is necessary:\n\u003c/p\u003e\u003cpre\u003e type E x = forall y. Either x y\n\n ... expandSyns [t| forall y. y -\u003e E y |]\n\u003c/pre\u003e\u003cp\u003eThe example as given may actually work correctly without any special capture-avoidance depending\n on how GHC handles the \u003ccode\u003ey\u003c/code\u003es, but in any case, the input type to expandSyns may be an explicit\n AST using \u003ccode\u003e\u003ca\u003emkName\u003c/a\u003e\u003c/code\u003e to ensure a collision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:02 UTC 2014",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "evade",
           "package": "th-expand-syns",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Make name based on the first arg that distinct from every name in the second arg Example why this is necessary type forall Either expandSyns forall The example as given may actually work correctly without any special capture-avoidance depending on how GHC handles the but in any case the input type to expandSyns may be an explicit AST using mkName to ensure collision",
           "hierarchy": "Language Haskell TH ExpandSyns",
+          "indexed": "2014-03-11T20:21:02",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "evade",
           "normalized": "Name-\u003ea-\u003eName",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a list of names (based on the first arg) such that every name in the result\n is distinct from every name in the second arg, and from the other results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:02 UTC 2014",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "evades",
           "package": "th-expand-syns",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Make list of names based on the first arg such that every name in the result is distinct from every name in the second arg and from the other results",
           "hierarchy": "Language Haskell TH ExpandSyns",
+          "indexed": "2014-03-11T20:21:02",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "evades",
           "normalized": "[Name]-\u003ea-\u003e[Name]",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpands all type synonyms in the given type. Type families currently won't be expanded (but will be passed through).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:02 UTC 2014",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "expandSyns",
           "package": "th-expand-syns",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Expands all type synonyms in the given type Type families currently won be expanded but will be passed through",
           "hierarchy": "Language Haskell TH ExpandSyns",
+          "indexed": "2014-03-11T20:21:02",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "expandSyns",
           "normalized": "Type-\u003eQ Type",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture-free substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:02 UTC 2014",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "substInCon",
           "package": "th-expand-syns",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Capture-free substitution",
           "hierarchy": "Language Haskell TH ExpandSyns",
+          "indexed": "2014-03-11T20:21:02",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "substInCon",
           "normalized": "(Name,Type)-\u003eCon-\u003eCon",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture-free substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:02 UTC 2014",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "substInType",
           "package": "th-expand-syns",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Capture-free substitution",
           "hierarchy": "Language Haskell TH ExpandSyns",
+          "indexed": "2014-03-11T20:21:02",
           "module": "Language.Haskell.TH.ExpandSyns",
           "name": "substInType",
           "normalized": "(Name,Type)-\u003eType-\u003eType",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "constructive-algebra"
+        "phrase": "constructive-algebra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe elliptic curve y^2 = 1 - x^4 in Q[x,y].\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.EllipticCurve",
           "name": "EllipticCurve",
           "package": "constructive-algebra",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The elliptic curve in",
           "hierarchy": "Algebra EllipticCurve",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.EllipticCurve",
           "name": "EllipticCurve",
           "package": "constructive-algebra",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe elliptic curve y^2=1-x^4 over Q[x,y].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.EllipticCurve",
           "name": "EllipticCurve",
           "package": "constructive-algebra",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The elliptic curve over",
           "hierarchy": "Algebra EllipticCurve",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.EllipticCurve",
           "name": "EllipticCurve",
           "package": "constructive-algebra",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.EllipticCurve",
           "name": "C",
           "package": "constructive-algebra",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Algebra EllipticCurve",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.EllipticCurve",
           "name": "C",
           "normalized": "C(Qx,Qx)",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe field of rational functions is the field of fractions of k[x].\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.FieldOfRationalFunctions",
           "name": "FieldOfRationalFunctions",
           "package": "constructive-algebra",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The field of rational functions is the field of fractions of",
           "hierarchy": "Algebra FieldOfRationalFunctions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.FieldOfRationalFunctions",
           "name": "FieldOfRationalFunctions",
           "package": "constructive-algebra",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField of rational functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.FieldOfRationalFunctions",
           "name": "FieldOfRationalFunctions",
           "package": "constructive-algebra",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Field of rational functions",
           "hierarchy": "Algebra FieldOfRationalFunctions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.FieldOfRationalFunctions",
           "name": "FieldOfRationalFunctions",
           "package": "constructive-algebra",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe field of fraction of Q[x].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.FieldOfRationalFunctions",
           "name": "QX",
           "package": "constructive-algebra",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The field of fraction of",
           "hierarchy": "Algebra FieldOfRationalFunctions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.FieldOfRationalFunctions",
           "name": "QX",
           "package": "constructive-algebra",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.FieldOfRationalFunctions",
           "name": "toQX",
           "package": "constructive-algebra",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Algebra FieldOfRationalFunctions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.FieldOfRationalFunctions",
           "name": "toQX",
           "normalized": "Qx-\u003eQX",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.FieldOfRationalFunctions",
           "name": "toQx",
           "package": "constructive-algebra",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Algebra FieldOfRationalFunctions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.FieldOfRationalFunctions",
           "name": "toQx",
           "normalized": "QX-\u003eQx",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFinitely generated ideals in commutative rings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Ideal",
           "name": "Ideal",
           "package": "constructive-algebra",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Finitely generated ideals in commutative rings",
           "hierarchy": "Algebra Ideal",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Ideal",
           "name": "Ideal",
           "package": "constructive-algebra",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdeals characterized by their list of generators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Ideal",
           "name": "Ideal",
           "package": "constructive-algebra",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Ideals characterized by their list of generators",
           "hierarchy": "Algebra Ideal",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Ideal",
           "name": "Ideal",
           "package": "constructive-algebra",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Ideal",
           "name": "Id",
           "package": "constructive-algebra",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ideal",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Ideal",
           "name": "Id",
           "normalized": "Id[a]",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition of ideals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Ideal",
           "name": "addId",
           "package": "constructive-algebra",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Addition of ideals",
           "hierarchy": "Algebra Ideal",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Ideal",
           "name": "addId",
           "normalized": "Ideal a-\u003eIdeal a-\u003eIdeal a",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the ideal at a certain point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Ideal",
           "name": "eval",
           "package": "constructive-algebra",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Evaluate the ideal at certain point",
           "hierarchy": "Algebra Ideal",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Ideal",
           "name": "eval",
           "normalized": "a-\u003eIdeal a-\u003ea",
@@ -325,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Ideal",
           "name": "fromId",
           "package": "constructive-algebra",
@@ -334,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Algebra Ideal",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Ideal",
           "name": "fromId",
           "normalized": "Ideal a-\u003e[a]",
@@ -350,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if an ideal is principal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Ideal",
           "name": "isPrincipal",
           "package": "constructive-algebra",
@@ -360,6 +389,7 @@
         "index": {
           "description": "Test if an ideal is principal",
           "hierarchy": "Algebra Ideal",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Ideal",
           "name": "isPrincipal",
           "normalized": "Ideal a-\u003eBool",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if an operations compute the correct ideal. \nThe operation should give a witness that the comuted ideal contains\nthe same elements.\n\u003c/p\u003e\u003cp\u003eIf [ x_1, ..., x_n ] `op` [ y_1, ..., y_m ] = [ z_1, ..., z_l ]\n\u003c/p\u003e\u003cp\u003eThen the witness should give that\n\u003c/p\u003e\u003cp\u003ez_k = a_k1 * x_1 + ... + a_kn * x_n\n    = b_k1 * y_1 + ... + b_km * y_m\n\u003c/p\u003e\u003cp\u003eThis is used to check that the intersection computed is correct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Ideal",
           "name": "isSameIdeal",
           "package": "constructive-algebra",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Test if an operations compute the correct ideal The operation should give witness that the comuted ideal contains the same elements If op Then the witness should give that k1 kn k1 km This is used to check that the intersection computed is correct",
           "hierarchy": "Algebra Ideal",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Ideal",
           "name": "isSameIdeal",
           "normalized": "(Ideal a-\u003eIdeal a-\u003e(Ideal a,[[a]],[[a]]))-\u003eIdeal a-\u003eIdeal a-\u003eBool",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication of ideals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Ideal",
           "name": "mulId",
           "package": "constructive-algebra",
@@ -412,6 +445,7 @@
         "index": {
           "description": "Multiplication of ideals",
           "hierarchy": "Algebra Ideal",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Ideal",
           "name": "mulId",
           "normalized": "Ideal a-\u003eIdeal a-\u003eIdeal a",
@@ -428,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe zero ideal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Ideal",
           "name": "zeroIdeal",
           "package": "constructive-algebra",
@@ -438,6 +473,7 @@
         "index": {
           "description": "The zero ideal",
           "hierarchy": "Algebra Ideal",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Ideal",
           "name": "zeroIdeal",
           "package": "constructive-algebra",
@@ -452,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute witnesses for two lists for the zero ideal. This is used when \n computing the intersection of two ideals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Ideal",
           "name": "zeroIdealWitnesses",
           "package": "constructive-algebra",
@@ -462,6 +499,7 @@
         "index": {
           "description": "Compute witnesses for two lists for the zero ideal This is used when computing the intersection of two ideals",
           "hierarchy": "Algebra Ideal",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Ideal",
           "name": "zeroIdealWitnesses",
           "normalized": "[a]-\u003e[a]-\u003e(Ideal a,[[a]],[[a]])",
@@ -478,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA small simple matrix library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "Matrix",
           "package": "constructive-algebra",
@@ -487,6 +526,7 @@
         "index": {
           "description": "small simple matrix library",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "Matrix",
           "package": "constructive-algebra",
@@ -501,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "Matrix",
           "package": "constructive-algebra",
@@ -510,6 +551,7 @@
         "index": {
           "description": "Matrices",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "Matrix",
           "package": "constructive-algebra",
@@ -524,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRow vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "Vector",
           "package": "constructive-algebra",
@@ -533,6 +576,7 @@
         "index": {
           "description": "Row vectors",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "Vector",
           "package": "constructive-algebra",
@@ -546,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "(!!!)",
           "package": "constructive-algebra",
@@ -555,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "(!!!) !!!",
           "normalized": "Matrix a-\u003e(Int,Int)-\u003ea",
@@ -569,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "M",
           "package": "constructive-algebra",
@@ -578,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "M",
           "normalized": "M[Vector a]",
@@ -592,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "Vec",
           "package": "constructive-algebra",
@@ -601,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "Vec",
           "normalized": "Vec[a]",
@@ -616,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "addCol",
           "package": "constructive-algebra",
@@ -625,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "addCol",
           "normalized": "Matrix a-\u003eVector a-\u003eInt-\u003eMatrix a",
@@ -641,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix addition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "addM",
           "package": "constructive-algebra",
@@ -651,6 +704,7 @@
         "index": {
           "description": "Matrix addition",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "addM",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -665,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "addRow",
           "package": "constructive-algebra",
@@ -674,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "addRow",
           "normalized": "Matrix a-\u003eVector a-\u003eInt-\u003eMatrix a",
@@ -690,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the dimension of a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "dimension",
           "package": "constructive-algebra",
@@ -700,6 +757,7 @@
         "index": {
           "description": "Compute the dimension of matrix",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "dimension",
           "normalized": "Matrix a-\u003e(Int,Int)",
@@ -714,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "findPivot",
           "package": "constructive-algebra",
@@ -723,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "findPivot",
           "normalized": "Matrix a-\u003e(Int,Int)-\u003eMaybe(a,Int)",
@@ -739,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute row echelon form of a system Ax=b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "forwardElim",
           "package": "constructive-algebra",
@@ -749,6 +810,7 @@
         "index": {
           "description": "Compute row echelon form of system Ax",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "forwardElim",
           "normalized": "(Matrix a,Vector a)-\u003e(Matrix a,Vector a)",
@@ -765,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGauss-Jordan elimination: Given A and B solve Ax=B.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "gaussElim",
           "package": "constructive-algebra",
@@ -775,6 +838,7 @@
         "index": {
           "description": "Gauss-Jordan elimination Given and solve Ax",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "gaussElim",
           "normalized": "(Matrix a,Vector a)-\u003e(Matrix a,Vector a)",
@@ -790,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "gaussElimCorrect",
           "package": "constructive-algebra",
@@ -799,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "gaussElimCorrect",
           "normalized": "(Matrix a,Vector a)-\u003eProperty",
@@ -815,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a nxn identity matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "identity",
           "package": "constructive-algebra",
@@ -825,6 +892,7 @@
         "index": {
           "description": "Construct nxn identity matrix",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "identity",
           "normalized": "Int-\u003eMatrix a",
@@ -839,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "isSquareMatrix",
           "package": "constructive-algebra",
@@ -848,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "isSquareMatrix",
           "normalized": "Matrix a-\u003eBool",
@@ -863,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "lengthVec",
           "package": "constructive-algebra",
@@ -872,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "lengthVec",
           "normalized": "Vector a-\u003eInt",
@@ -888,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a mxn matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "matrix",
           "package": "constructive-algebra",
@@ -898,6 +971,7 @@
         "index": {
           "description": "Construct mxn matrix",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "matrix",
           "normalized": "[[a]]-\u003eMatrix a",
@@ -912,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "matrixToVector",
           "package": "constructive-algebra",
@@ -921,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "matrixToVector",
           "normalized": "Matrix a-\u003eVector a",
@@ -937,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "mulM",
           "package": "constructive-algebra",
@@ -947,6 +1024,7 @@
         "index": {
           "description": "Matrix multiplication",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "mulM",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -961,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "pivot",
           "package": "constructive-algebra",
@@ -970,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "pivot",
           "normalized": "Matrix a-\u003ea-\u003eInt-\u003eInt-\u003eMatrix a",
@@ -984,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "propLeftIdentity",
           "package": "constructive-algebra",
@@ -993,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "propLeftIdentity",
           "normalized": "Matrix a-\u003eBool",
@@ -1008,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "propRightIdentity",
           "package": "constructive-algebra",
@@ -1017,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "propRightIdentity",
           "normalized": "Matrix a-\u003eBool",
@@ -1033,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a row in a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "scale",
           "package": "constructive-algebra",
@@ -1043,6 +1128,7 @@
         "index": {
           "description": "Scale row in matrix",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "scale",
           "normalized": "Matrix a-\u003eInt-\u003ea-\u003eMatrix a",
@@ -1057,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "subCol",
           "package": "constructive-algebra",
@@ -1066,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "subCol",
           "normalized": "Matrix a-\u003eVector a-\u003eInt-\u003eMatrix a",
@@ -1081,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "subRow",
           "package": "constructive-algebra",
@@ -1090,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "subRow",
           "normalized": "Matrix a-\u003eVector a-\u003eInt-\u003eMatrix a",
@@ -1106,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap two rows of a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "swap",
           "package": "constructive-algebra",
@@ -1116,6 +1207,7 @@
         "index": {
           "description": "Swap two rows of matrix",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "swap",
           "normalized": "Matrix a-\u003eInt-\u003eInt-\u003eMatrix a",
@@ -1131,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "transpose",
           "package": "constructive-algebra",
@@ -1141,6 +1234,7 @@
         "index": {
           "description": "Transpose matrix",
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "transpose",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -1155,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "unM",
           "package": "constructive-algebra",
@@ -1164,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "unM",
           "normalized": "Matrix a-\u003e[Vector a]",
@@ -1178,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "unMVec",
           "package": "constructive-algebra",
@@ -1187,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "unMVec",
           "normalized": "Matrix a-\u003e[[a]]",
@@ -1202,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "unVec",
           "package": "constructive-algebra",
@@ -1211,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "unVec",
           "normalized": "Vector a-\u003e[a]",
@@ -1226,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Matrix",
           "name": "vectorToMatrix",
           "package": "constructive-algebra",
@@ -1235,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Algebra Matrix",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Matrix",
           "name": "vectorToMatrix",
           "normalized": "Vector a-\u003eMatrix a",
@@ -1251,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpecification of principal localization matrices used in the coherence \n proof of Prufer domains. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.PLM",
           "name": "PLM",
           "package": "constructive-algebra",
@@ -1260,6 +1363,7 @@
         "index": {
           "description": "Specification of principal localization matrices used in the coherence proof of Prufer domains",
           "hierarchy": "Algebra PLM",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.PLM",
           "name": "PLM",
           "package": "constructive-algebra",
@@ -1274,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrincipal localization matrices for ideals are computable in Bezout domains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.PLM",
           "name": "computePLM_B",
           "package": "constructive-algebra",
@@ -1284,6 +1389,7 @@
         "index": {
           "description": "Principal localization matrices for ideals are computable in Bezout domains",
           "hierarchy": "Algebra PLM",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.PLM",
           "name": "computePLM_B",
           "normalized": "Ideal a-\u003eMatrix a",
@@ -1300,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA principal localization matrix for an ideal (x1,...,xn) is a matrix such \nthat:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The sum of the diagonal should equal 1.\n\u003c/li\u003e\u003cli\u003e For all i, j, l in {1..n}: a_lj * x_i = a_li * x_j\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.PLM",
           "name": "propPLM",
           "package": "constructive-algebra",
@@ -1310,6 +1417,7 @@
         "index": {
           "description": "principal localization matrix for an ideal x1 xn is matrix such that The sum of the diagonal should equal For all in lj li",
           "hierarchy": "Algebra PLM",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.PLM",
           "name": "propPLM",
           "normalized": "Ideal a-\u003eMatrix a-\u003eBool",
@@ -1326,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentation of rational numbers as the field of fractions of Z.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Q",
           "name": "Q",
           "package": "constructive-algebra",
@@ -1335,6 +1444,7 @@
         "index": {
           "description": "Representation of rational numbers as the field of fractions of",
           "hierarchy": "Algebra Q",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Q",
           "name": "Q",
           "package": "constructive-algebra",
@@ -1348,6 +1458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQ is the field of fractions of Z.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Q",
           "name": "Q",
           "package": "constructive-algebra",
@@ -1357,6 +1468,7 @@
         "index": {
           "description": "is the field of fractions of",
           "hierarchy": "Algebra Q",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Q",
           "name": "Q",
           "package": "constructive-algebra",
@@ -1369,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Q",
           "name": "toQ",
           "package": "constructive-algebra",
@@ -1378,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Algebra Q",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Q",
           "name": "toQ",
           "normalized": "Z-\u003eQ",
@@ -1392,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Q",
           "name": "toZ",
           "package": "constructive-algebra",
@@ -1401,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Algebra Q",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Q",
           "name": "toZ",
           "normalized": "Q-\u003eZ",
@@ -1416,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentation of Bezout domains. That is non-Noetherian analogues of\n principal ideal domains. This means that all finitely generated ideals are\n principal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "BezoutDomain",
           "package": "constructive-algebra",
@@ -1425,6 +1542,7 @@
         "index": {
           "description": "Representation of Bezout domains That is non-Noetherian analogues of principal ideal domains This means that all finitely generated ideals are principal",
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "BezoutDomain",
           "package": "constructive-algebra",
@@ -1439,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBezout domains\n\u003c/p\u003e\u003cp\u003eHas a Bezout function which given a and b give g, a1, b1, x and y such that:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e g = gcd(a,b)\n\u003c/li\u003e\u003cli\u003e a = g * a1 and b = g * b1\n\u003c/li\u003e\u003cli\u003e g = a * x + b * y\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "BezoutDomain",
           "package": "constructive-algebra",
@@ -1448,6 +1567,7 @@
         "index": {
           "description": "Bezout domains Has Bezout function which given and give a1 b1 and such that gcd a1 and b1",
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "BezoutDomain",
           "package": "constructive-algebra",
@@ -1461,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "bezout",
           "package": "constructive-algebra",
@@ -1470,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "bezout",
           "normalized": "a-\u003ea-\u003e(a,a,a,a,a)",
@@ -1485,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChinese remainder theorem\n\u003c/p\u003e\u003cp\u003eGiven a_1,...,a_n and m_1,...,m_n such that gcd(m_i,m_j) = 1.\n Let m = m_1*...*m_n compute a such that:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e a = a_i (mod m_i)\n\u003c/li\u003e\u003cli\u003e If b is such that b = a_i (mod m_i) then a = b (mod m)\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eThe function return (a,m).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "crt",
           "package": "constructive-algebra",
@@ -1495,6 +1618,7 @@
         "index": {
           "description": "Chinese remainder theorem Given and such that gcd Let compute such that mod If is such that mod then mod The function return",
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "crt",
           "normalized": "[a]-\u003e[a]-\u003e(a,a)",
@@ -1509,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "gcdB",
           "package": "constructive-algebra",
@@ -1518,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "gcdB",
           "normalized": "a-\u003ea-\u003ea",
@@ -1533,6 +1659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection without witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "intersectionB",
           "package": "constructive-algebra",
@@ -1543,6 +1670,7 @@
         "index": {
           "description": "Intersection without witness",
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "intersectionB",
           "normalized": "Ideal a-\u003eIdeal a-\u003eIdeal a",
@@ -1558,6 +1686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection of ideals with witness.\n\u003c/p\u003e\u003cp\u003eIf one of the ideals is the zero ideal then the intersection is the zero\n ideal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "intersectionBWitness",
           "package": "constructive-algebra",
@@ -1568,6 +1697,7 @@
         "index": {
           "description": "Intersection of ideals with witness If one of the ideals is the zero ideal then the intersection is the zero ideal",
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "intersectionBWitness",
           "normalized": "Ideal a-\u003eIdeal a-\u003e(Ideal a,[[a]],[[a]])",
@@ -1583,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "propBezoutDomain",
           "package": "constructive-algebra",
@@ -1592,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "propBezoutDomain",
           "normalized": "a-\u003ea-\u003eProperty",
@@ -1608,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest that the generated ideal generate the same elements as the given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "propIsSameIdeal",
           "package": "constructive-algebra",
@@ -1618,6 +1751,7 @@
         "index": {
           "description": "Test that the generated ideal generate the same elements as the given",
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "propIsSameIdeal",
           "normalized": "Ideal a-\u003eBool",
@@ -1634,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest that the generated ideal is principal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "propToPrincipal",
           "package": "constructive-algebra",
@@ -1644,6 +1779,7 @@
         "index": {
           "description": "Test that the generated ideal is principal",
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "propToPrincipal",
           "normalized": "Ideal a-\u003eBool",
@@ -1660,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoherence of Bezout domains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "solveB",
           "package": "constructive-algebra",
@@ -1670,6 +1807,7 @@
         "index": {
           "description": "Coherence of Bezout domains",
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "solveB",
           "normalized": "Vector a-\u003eMatrix a",
@@ -1685,6 +1823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a principal ideal from another ideal. Also give witness that the\nprincipal ideal is equal to the first ideal.\n\u003c/p\u003e\u003cp\u003etoPrincipal \u003ca_1,...,a_n\u003e = (\u003ca\u003e,u_i,v_i)\n  where\n\u003c/p\u003e\u003cp\u003esum (u_i * a_i) = a\n\u003c/p\u003e\u003cp\u003ea_i = v_i * a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "toPrincipal",
           "package": "constructive-algebra",
@@ -1695,6 +1834,7 @@
         "index": {
           "description": "Compute principal ideal from another ideal Also give witness that the principal ideal is equal to the first ideal toPrincipal where sum",
           "hierarchy": "Algebra Structures BezoutDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.BezoutDomain",
           "name": "toPrincipal",
           "normalized": "Ideal a-\u003e(Ideal a,[a],[a])",
@@ -1711,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentation of coherent rings. Traditionally a ring is coherent if every\n finitely generated ideal is finitely presented. This means that it is\n possible to solve homogenous linear equations in them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "Coherent",
           "package": "constructive-algebra",
@@ -1720,6 +1861,7 @@
         "index": {
           "description": "Representation of coherent rings Traditionally ring is coherent if every finitely generated ideal is finitely presented This means that it is possible to solve homogenous linear equations in them",
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "Coherent",
           "package": "constructive-algebra",
@@ -1734,6 +1876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of coherent rings.\n\u003c/p\u003e\u003cp\u003eWe say that R is coherent iff for any M, we can find L such that ML=0 and\n\u003c/p\u003e\u003cp\u003eMX=0   \u003c-\u003e  exists Y. X=LY\n\u003c/p\u003e\u003cp\u003ethat is, iff we can generate the solutions of any linear homogeous system\n of equations.\n\u003c/p\u003e\u003cp\u003eThe main point here is that ML=0, it is not clear how to represent the\n equivalence in Haskell. This would probably be possible in type theory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "Coherent",
           "package": "constructive-algebra",
@@ -1743,6 +1886,7 @@
         "index": {
           "description": "Definition of coherent rings We say that is coherent iff for any we can find such that ML and MX exists LY that is iff we can generate the solutions of any linear homogeous system of equations The main point here is that ML it is not clear how to represent the equivalence in Haskell This would probably be possible in type theory",
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "Coherent",
           "package": "constructive-algebra",
@@ -1757,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest that the second matrix is a solution to the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "isSolution",
           "package": "constructive-algebra",
@@ -1767,6 +1912,7 @@
         "index": {
           "description": "Test that the second matrix is solution to the first",
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "isSolution",
           "normalized": "Matrix a-\u003eMatrix a-\u003eBool",
@@ -1782,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "propCoherent",
           "package": "constructive-algebra",
@@ -1791,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "propCoherent",
           "normalized": "Vector a-\u003eBool",
@@ -1806,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "propSolveGeneral",
           "package": "constructive-algebra",
@@ -1815,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "propSolveGeneral",
           "normalized": "Matrix a-\u003eVector a-\u003eProperty",
@@ -1830,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "propSolveGeneralEquation",
           "package": "constructive-algebra",
@@ -1839,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "propSolveGeneralEquation",
           "normalized": "Vector a-\u003ea-\u003eBool",
@@ -1855,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest that the solution of an MxN system is in fact a solution of the system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "propSolveMxN",
           "package": "constructive-algebra",
@@ -1865,6 +2018,7 @@
         "index": {
           "description": "Test that the solution of an MxN system is in fact solution of the system",
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "propSolveMxN",
           "normalized": "Matrix a-\u003eBool",
@@ -1880,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "solve",
           "package": "constructive-algebra",
@@ -1889,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "solve",
           "normalized": "Vector a-\u003eMatrix a",
@@ -1904,6 +2060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves general linear systems of the kind AX = B.\n\u003c/p\u003e\u003cp\u003eA is given as a matrix and B is given as a row vector (it should be column\n vector).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "solveGeneral",
           "package": "constructive-algebra",
@@ -1914,6 +2071,7 @@
         "index": {
           "description": "Solves general linear systems of the kind AX is given as matrix and is given as row vector it should be column vector",
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "solveGeneral",
           "normalized": "Matrix a-\u003eVector a-\u003eMaybe(Matrix a,Matrix a)",
@@ -1930,6 +2088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrongly discrete coherent rings.\n\u003c/p\u003e\u003cp\u003eIf the ring is strongly discrete and coherent then we can solve arbitrary\n equations of the type AX=b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "solveGeneralEquation",
           "package": "constructive-algebra",
@@ -1940,6 +2099,7 @@
         "index": {
           "description": "Strongly discrete coherent rings If the ring is strongly discrete and coherent then we can solve arbitrary equations of the type AX",
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "solveGeneralEquation",
           "normalized": "Vector a-\u003ea-\u003eMaybe(Matrix a)",
@@ -1956,6 +2116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves a system of equations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "solveMxN",
           "package": "constructive-algebra",
@@ -1966,6 +2127,7 @@
         "index": {
           "description": "Solves system of equations",
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "solveMxN",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -1982,6 +2144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection computable -\u003e Coherence.\n\u003c/p\u003e\u003cp\u003eProof that if there is an algorithm to compute a f.g. set of generators for\n the intersection of two f.g. ideals then the ring is coherent.\n\u003c/p\u003e\u003cp\u003eTakes the vector to solve, [x1,...,xn], and a function (int) that computes\n the intersection of two ideals.\n\u003c/p\u003e\u003cp\u003eIf [ x_1, ..., x_n ] `int` [ y_1, ..., y_m ] = [ z_1, ..., z_l ]\n\u003c/p\u003e\u003cp\u003ethen int should give witnesses us and vs such that:\n\u003c/p\u003e\u003cp\u003ez_k = n_k1 * x_1 + ... + u_kn * x_n = u_k1 * y_1 + ... + n_km * y_m\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Coherent",
           "name": "solveWithIntersection",
           "package": "constructive-algebra",
@@ -1992,6 +2155,7 @@
         "index": {
           "description": "Intersection computable Coherence Proof that if there is an algorithm to compute f.g set of generators for the intersection of two f.g ideals then the ring is coherent Takes the vector to solve x1 xn and function int that computes the intersection of two ideals If int then int should give witnesses us and vs such that k1 kn k1 km",
           "hierarchy": "Algebra Structures Coherent",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Coherent",
           "name": "solveWithIntersection",
           "normalized": "Vector a-\u003e(Ideal a-\u003eIdeal a-\u003e(Ideal a,[[a]],[[a]]))-\u003eMatrix a",
@@ -2008,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStructure for commutative rings. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.CommutativeRing",
           "name": "CommutativeRing",
           "package": "constructive-algebra",
@@ -2017,6 +2182,7 @@
         "index": {
           "description": "Structure for commutative rings",
           "hierarchy": "Algebra Structures CommutativeRing",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.CommutativeRing",
           "name": "CommutativeRing",
           "package": "constructive-algebra",
@@ -2031,6 +2197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of commutative rings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.CommutativeRing",
           "name": "CommutativeRing",
           "package": "constructive-algebra",
@@ -2040,6 +2207,7 @@
         "index": {
           "description": "Definition of commutative rings",
           "hierarchy": "Algebra Structures CommutativeRing",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.CommutativeRing",
           "name": "CommutativeRing",
           "package": "constructive-algebra",
@@ -2054,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecification of commutative rings. Test that multiplication is \n commutative and that it satisfies the ring axioms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.CommutativeRing",
           "name": "propCommutativeRing",
           "package": "constructive-algebra",
@@ -2064,6 +2233,7 @@
         "index": {
           "description": "Specification of commutative rings Test that multiplication is commutative and that it satisfies the ring axioms",
           "hierarchy": "Algebra Structures CommutativeRing",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.CommutativeRing",
           "name": "propCommutativeRing",
           "normalized": "a-\u003ea-\u003ea-\u003eProperty",
@@ -2079,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.CommutativeRing",
           "name": "propMulComm",
           "package": "constructive-algebra",
@@ -2088,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures CommutativeRing",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.CommutativeRing",
           "name": "propMulComm",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2104,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentation of Euclidean domains. That is integral domains with an\n Euclidean functions and decidable division.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "EuclideanDomain",
           "package": "constructive-algebra",
@@ -2113,6 +2286,7 @@
         "index": {
           "description": "Representation of Euclidean domains That is integral domains with an Euclidean functions and decidable division",
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "EuclideanDomain",
           "package": "constructive-algebra",
@@ -2127,6 +2301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEuclidean domains\n\u003c/p\u003e\u003cp\u003eGiven a and b compute (q,r) such that a = bq + r and r = 0 || norm r \u003c norm b.\n Where norm is the Euclidean function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "EuclideanDomain",
           "package": "constructive-algebra",
@@ -2136,6 +2311,7 @@
         "index": {
           "description": "Euclidean domains Given and compute such that bq and norm norm Where norm is the Euclidean function",
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "EuclideanDomain",
           "package": "constructive-algebra",
@@ -2149,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "divides",
           "package": "constructive-algebra",
@@ -2158,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "divides",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2173,6 +2351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Euclidean algorithm for calculating the GCD of a and b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "euclidAlg",
           "package": "constructive-algebra",
@@ -2183,6 +2362,7 @@
         "index": {
           "description": "The Euclidean algorithm for calculating the GCD of and",
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "euclidAlg",
           "normalized": "a-\u003ea-\u003ea",
@@ -2199,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe extended Euclidean algorithm.\n\u003c/p\u003e\u003cp\u003eComputes x and y in ax + by = gcd(a,b).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "extendedEuclidAlg",
           "package": "constructive-algebra",
@@ -2209,6 +2390,7 @@
         "index": {
           "description": "The extended Euclidean algorithm Computes and in ax by gcd",
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "extendedEuclidAlg",
           "normalized": "a-\u003ea-\u003e(a,a)",
@@ -2225,6 +2407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized Euclidean algorithm to compute GCD of a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "genEuclidAlg",
           "package": "constructive-algebra",
@@ -2235,6 +2418,7 @@
         "index": {
           "description": "Generalized Euclidean algorithm to compute GCD of list of elements",
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "genEuclidAlg",
           "normalized": "[a]-\u003ea",
@@ -2251,6 +2435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized extended Euclidean algorithm.\n\u003c/p\u003e\u003cp\u003eSolves a_1 x_1 + ... + a_n x_n = gcd (a_1,...,a_n)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "genExtendedEuclidAlg",
           "package": "constructive-algebra",
@@ -2261,6 +2446,7 @@
         "index": {
           "description": "Generalized extended Euclidean algorithm Solves gcd",
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "genExtendedEuclidAlg",
           "normalized": "[a]-\u003e[a]",
@@ -2277,6 +2463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized lowest common multiple to compute lcm of a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "genLcmE",
           "package": "constructive-algebra",
@@ -2287,6 +2474,7 @@
         "index": {
           "description": "Generalized lowest common multiple to compute lcm of list of elements",
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "genLcmE",
           "normalized": "[a]-\u003ea",
@@ -2303,6 +2491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLowest common multiple, (a*b)/gcd(a,b).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "lcmE",
           "package": "constructive-algebra",
@@ -2313,6 +2502,7 @@
         "index": {
           "description": "Lowest common multiple gcd",
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "lcmE",
           "normalized": "a-\u003ea-\u003ea",
@@ -2327,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "modulo",
           "package": "constructive-algebra",
@@ -2336,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "modulo",
           "normalized": "a-\u003ea-\u003ea",
@@ -2350,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "norm",
           "package": "constructive-algebra",
@@ -2359,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "norm",
           "normalized": "a-\u003eInteger",
@@ -2373,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "propEuclideanDomain",
           "package": "constructive-algebra",
@@ -2382,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "propEuclideanDomain",
           "normalized": "a-\u003ea-\u003ea-\u003eProperty",
@@ -2398,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck both that |a| \u003ca\u003e= |ab| and |a| \u003c/a\u003e= 0 for all a,b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "propNorm",
           "package": "constructive-algebra",
@@ -2408,6 +2605,7 @@
         "index": {
           "description": "Check both that ab and for all",
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "propNorm",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2423,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "propQuotRem",
           "package": "constructive-algebra",
@@ -2432,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "propQuotRem",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2447,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "quotient",
           "package": "constructive-algebra",
@@ -2456,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "quotient",
           "normalized": "a-\u003ea-\u003ea",
@@ -2470,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "quotientRemainder",
           "package": "constructive-algebra",
@@ -2479,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures EuclideanDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.EuclideanDomain",
           "name": "quotientRemainder",
           "normalized": "a-\u003ea-\u003e(a,a)",
@@ -2495,6 +2699,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStructure of rings with explicit units. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "ExplicitUnits",
           "package": "constructive-algebra",
@@ -2504,6 +2709,7 @@
         "index": {
           "description": "Structure of rings with explicit units",
           "hierarchy": "Algebra Structures ExplicitUnits",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "ExplicitUnits",
           "package": "constructive-algebra",
@@ -2518,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ring has explicit units if there is a function that can test if an\n element is invertible and if this is the case give the inverse. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "ExplicitUnits",
           "package": "constructive-algebra",
@@ -2527,6 +2734,7 @@
         "index": {
           "description": "ring has explicit units if there is function that can test if an element is invertible and if this is the case give the inverse",
           "hierarchy": "Algebra Structures ExplicitUnits",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "ExplicitUnits",
           "package": "constructive-algebra",
@@ -2541,6 +2749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest for associatedness, i.e. a ~ b iff a | b /\\ b | a.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "(~=)",
           "package": "constructive-algebra",
@@ -2551,6 +2760,7 @@
         "index": {
           "description": "Test for associatedness i.e iff",
           "hierarchy": "Algebra Structures ExplicitUnits",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "(~=) ~=",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2566,6 +2776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecidable units is sufficient to decide divisibility in GCD domains. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "(%|)",
           "package": "constructive-algebra",
@@ -2576,6 +2787,7 @@
         "index": {
           "description": "Decidable units is sufficient to decide divisibility in GCD domains",
           "hierarchy": "Algebra Structures ExplicitUnits",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "(%|) %|",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2591,6 +2803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn element is a unit if it is invertible. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "isUnit",
           "package": "constructive-algebra",
@@ -2601,6 +2814,7 @@
         "index": {
           "description": "An element is unit if it is invertible",
           "hierarchy": "Algebra Structures ExplicitUnits",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "isUnit",
           "normalized": "a-\u003eBool",
@@ -2616,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "propUnit",
           "package": "constructive-algebra",
@@ -2625,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures ExplicitUnits",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "propUnit",
           "normalized": "a-\u003eBool",
@@ -2640,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "unit",
           "package": "constructive-algebra",
@@ -2649,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures ExplicitUnits",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.ExplicitUnits",
           "name": "unit",
           "normalized": "a-\u003eMaybe a",
@@ -2664,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStructure for fields.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Field",
           "name": "Field",
           "package": "constructive-algebra",
@@ -2673,6 +2892,7 @@
         "index": {
           "description": "Structure for fields",
           "hierarchy": "Algebra Structures Field",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Field",
           "name": "Field",
           "package": "constructive-algebra",
@@ -2687,6 +2907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Field",
           "name": "Field",
           "package": "constructive-algebra",
@@ -2696,6 +2917,7 @@
         "index": {
           "description": "Definition of fields",
           "hierarchy": "Algebra Structures Field",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Field",
           "name": "Field",
           "package": "constructive-algebra",
@@ -2710,6 +2932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Field",
           "name": "(\u003c/\u003e)",
           "package": "constructive-algebra",
@@ -2720,6 +2943,7 @@
         "index": {
           "description": "Division",
           "hierarchy": "Algebra Structures Field",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Field",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -2734,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Field",
           "name": "inv",
           "package": "constructive-algebra",
@@ -2743,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Field",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Field",
           "name": "inv",
           "normalized": "a-\u003ea",
@@ -2758,6 +2984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecification of fields. Test that the multiplicative inverses behave as \n expected and that it satisfies the axioms of integral domains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Field",
           "name": "propField",
           "package": "constructive-algebra",
@@ -2768,6 +2995,7 @@
         "index": {
           "description": "Specification of fields Test that the multiplicative inverses behave as expected and that it satisfies the axioms of integral domains",
           "hierarchy": "Algebra Structures Field",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Field",
           "name": "propField",
           "normalized": "a-\u003ea-\u003ea-\u003eProperty",
@@ -2783,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Field",
           "name": "propMulInv",
           "package": "constructive-algebra",
@@ -2792,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Field",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Field",
           "name": "propMulInv",
           "normalized": "a-\u003eBool",
@@ -2808,6 +3038,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe field of fractions over a GCD domain. The reason that it is an GCD \n domain is that we only want to work over reduced quotients.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "FieldOfFractions",
           "package": "constructive-algebra",
@@ -2817,6 +3048,7 @@
         "index": {
           "description": "The field of fractions over GCD domain The reason that it is an GCD domain is that we only want to work over reduced quotients",
           "hierarchy": "Algebra Structures FieldOfFractions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "FieldOfFractions",
           "package": "constructive-algebra",
@@ -2831,6 +3063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField of fractions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "FieldOfFractions",
           "package": "constructive-algebra",
@@ -2840,6 +3073,7 @@
         "index": {
           "description": "Field of fractions",
           "hierarchy": "Algebra Structures FieldOfFractions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "FieldOfFractions",
           "package": "constructive-algebra",
@@ -2853,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "F",
           "package": "constructive-algebra",
@@ -2862,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures FieldOfFractions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "F",
           "normalized": "F(a,a)",
@@ -2876,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "denominator",
           "package": "constructive-algebra",
@@ -2885,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures FieldOfFractions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "denominator",
           "normalized": "FieldOfFractions a-\u003ea",
@@ -2900,6 +3138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a value from the field of fractions. This is only possible if the\n divisor is one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "fromFieldOfFractions",
           "package": "constructive-algebra",
@@ -2910,6 +3149,7 @@
         "index": {
           "description": "Extract value from the field of fractions This is only possible if the divisor is one",
           "hierarchy": "Algebra Structures FieldOfFractions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "fromFieldOfFractions",
           "normalized": "FieldOfFractions a-\u003ea",
@@ -2925,6 +3165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "numerator",
           "package": "constructive-algebra",
@@ -2934,6 +3175,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures FieldOfFractions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "numerator",
           "normalized": "FieldOfFractions a-\u003ea",
@@ -2948,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "propReduce",
           "package": "constructive-algebra",
@@ -2957,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures FieldOfFractions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "propReduce",
           "normalized": "FieldOfFractions a-\u003eProperty",
@@ -2973,6 +3217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "reduce",
           "package": "constructive-algebra",
@@ -2983,6 +3228,7 @@
         "index": {
           "description": "Reduce an element",
           "hierarchy": "Algebra Structures FieldOfFractions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "reduce",
           "normalized": "FieldOfFractions a-\u003eFieldOfFractions a",
@@ -2998,6 +3244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed a value in the field of fractions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "toFieldOfFractions",
           "package": "constructive-algebra",
@@ -3008,6 +3255,7 @@
         "index": {
           "description": "Embed value in the field of fractions",
           "hierarchy": "Algebra Structures FieldOfFractions",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.FieldOfFractions",
           "name": "toFieldOfFractions",
           "normalized": "a-\u003eFieldOfFractions a",
@@ -3024,6 +3272,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGreatest common divisor (GCD) domains. \n\u003c/p\u003e\u003cp\u003eGCD domains are integral domains in which every pair of nonzero elements \n have a greatest common divisor. They can also be characterized as \n non-Noetherian analogues of unique factorization domains.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.GCDDomain",
           "name": "GCDDomain",
           "package": "constructive-algebra",
@@ -3033,6 +3282,7 @@
         "index": {
           "description": "Greatest common divisor GCD domains GCD domains are integral domains in which every pair of nonzero elements have greatest common divisor They can also be characterized as non-Noetherian analogues of unique factorization domains",
           "hierarchy": "Algebra Structures GCDDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.GCDDomain",
           "name": "GCDDomain",
           "package": "constructive-algebra",
@@ -3047,6 +3297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGCD domains\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.GCDDomain",
           "name": "GCDDomain",
           "package": "constructive-algebra",
@@ -3056,6 +3307,7 @@
         "index": {
           "description": "GCD domains",
           "hierarchy": "Algebra Structures GCDDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.GCDDomain",
           "name": "GCDDomain",
           "package": "constructive-algebra",
@@ -3070,6 +3322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute gcd(a,b) = (g,x,y) such that g = gcd(a,b) and\n   a = gx\n   b = gy\n and a, b /= 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.GCDDomain",
           "name": "gcd'",
           "package": "constructive-algebra",
@@ -3080,6 +3333,7 @@
         "index": {
           "description": "Compute gcd such that gcd and gx gy and",
           "hierarchy": "Algebra Structures GCDDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.GCDDomain",
           "name": "gcd'",
           "normalized": "a-\u003ea-\u003e(a,a,a)",
@@ -3094,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.GCDDomain",
           "name": "ggcd",
           "package": "constructive-algebra",
@@ -3103,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures GCDDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.GCDDomain",
           "name": "ggcd",
           "normalized": "[a]-\u003ea",
@@ -3117,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.GCDDomain",
           "name": "propGCD",
           "package": "constructive-algebra",
@@ -3126,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures GCDDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.GCDDomain",
           "name": "propGCD",
           "normalized": "a-\u003ea-\u003eBool",
@@ -3142,6 +3400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecification of GCD domains. They are integral domains in which every \n pair of nonzero elements have a greatest common divisor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.GCDDomain",
           "name": "propGCDDomain",
           "package": "constructive-algebra",
@@ -3152,6 +3411,7 @@
         "index": {
           "description": "Specification of GCD domains They are integral domains in which every pair of nonzero elements have greatest common divisor",
           "hierarchy": "Algebra Structures GCDDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.GCDDomain",
           "name": "propGCDDomain",
           "normalized": "a-\u003ea-\u003ea-\u003eProperty",
@@ -3167,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "Group",
           "package": "constructive-algebra",
@@ -3175,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "Group",
           "package": "constructive-algebra",
@@ -3189,6 +3451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbelian groups:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "AbelianGroup",
           "package": "constructive-algebra",
@@ -3198,6 +3461,7 @@
         "index": {
           "description": "Abelian groups",
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "AbelianGroup",
           "package": "constructive-algebra",
@@ -3211,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "Group",
           "package": "constructive-algebra",
@@ -3219,6 +3484,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "Group",
           "package": "constructive-algebra",
@@ -3232,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "(\u003c+\u003e)",
           "package": "constructive-algebra",
@@ -3241,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -3255,6 +3523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "neg",
           "package": "constructive-algebra",
@@ -3264,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "neg",
           "normalized": "a-\u003ea",
@@ -3278,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "propAbelianGroup",
           "package": "constructive-algebra",
@@ -3287,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "propAbelianGroup",
           "normalized": "a-\u003ea-\u003ea-\u003eProperty",
@@ -3302,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "propAssoc",
           "package": "constructive-algebra",
@@ -3311,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "propAssoc",
           "normalized": "a-\u003ea-\u003ea-\u003eBool",
@@ -3326,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "propComm",
           "package": "constructive-algebra",
@@ -3335,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "propComm",
           "normalized": "a-\u003ea-\u003eBool",
@@ -3350,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "propGroup",
           "package": "constructive-algebra",
@@ -3359,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "propGroup",
           "normalized": "a-\u003ea-\u003ea-\u003eProperty",
@@ -3374,6 +3652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "propId",
           "package": "constructive-algebra",
@@ -3383,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "propId",
           "normalized": "a-\u003eBool",
@@ -3398,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "propInv",
           "package": "constructive-algebra",
@@ -3407,6 +3688,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "propInv",
           "normalized": "a-\u003eBool",
@@ -3422,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "sumGroup",
           "package": "constructive-algebra",
@@ -3431,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "sumGroup",
           "normalized": "[a]-\u003ea",
@@ -3446,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Group",
           "name": "zero",
           "package": "constructive-algebra",
@@ -3455,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Group",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Group",
           "name": "zero",
           "package": "constructive-algebra",
@@ -3467,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.IntegralDomain",
           "name": "IntegralDomain",
           "package": "constructive-algebra",
@@ -3475,6 +3762,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures IntegralDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.IntegralDomain",
           "name": "IntegralDomain",
           "package": "constructive-algebra",
@@ -3489,6 +3777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of integral domains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.IntegralDomain",
           "name": "IntegralDomain",
           "package": "constructive-algebra",
@@ -3498,6 +3787,7 @@
         "index": {
           "description": "Definition of integral domains",
           "hierarchy": "Algebra Structures IntegralDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.IntegralDomain",
           "name": "IntegralDomain",
           "package": "constructive-algebra",
@@ -3512,6 +3802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecification of integral domains. Test that there are no zero-divisors\n and that it satisfies the axioms of commutative rings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.IntegralDomain",
           "name": "propIntegralDomain",
           "package": "constructive-algebra",
@@ -3522,6 +3813,7 @@
         "index": {
           "description": "Specification of integral domains Test that there are no zero-divisors and that it satisfies the axioms of commutative rings",
           "hierarchy": "Algebra Structures IntegralDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.IntegralDomain",
           "name": "propIntegralDomain",
           "normalized": "a-\u003ea-\u003ea-\u003eProperty",
@@ -3537,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.IntegralDomain",
           "name": "propZeroDivisors",
           "package": "constructive-algebra",
@@ -3546,6 +3839,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures IntegralDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.IntegralDomain",
           "name": "propZeroDivisors",
           "normalized": "a-\u003ea-\u003eBool",
@@ -3562,6 +3856,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eR-modules. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Module",
           "name": "Module",
           "package": "constructive-algebra",
@@ -3571,6 +3866,7 @@
         "index": {
           "description": "R-modules",
           "hierarchy": "Algebra Structures Module",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Module",
           "name": "Module",
           "package": "constructive-algebra",
@@ -3585,6 +3881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule over a commutative ring r.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Module",
           "name": "Module",
           "package": "constructive-algebra",
@@ -3594,6 +3891,7 @@
         "index": {
           "description": "Module over commutative ring",
           "hierarchy": "Algebra Structures Module",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Module",
           "name": "Module",
           "package": "constructive-algebra",
@@ -3608,6 +3906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Module",
           "name": "(*\u003e)",
           "package": "constructive-algebra",
@@ -3618,6 +3917,7 @@
         "index": {
           "description": "Scalar multiplication",
           "hierarchy": "Algebra Structures Module",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Module",
           "name": "(*\u003e) *\u003e",
           "normalized": "a-\u003eb-\u003eb",
@@ -3633,6 +3933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince the ring is commutative we can turn the scalar multiplication around.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Module",
           "name": "(\u003c*)",
           "package": "constructive-algebra",
@@ -3643,6 +3944,7 @@
         "index": {
           "description": "Since the ring is commutative we can turn the scalar multiplication around",
           "hierarchy": "Algebra Structures Module",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Module",
           "name": "(\u003c*) \u003c*",
           "normalized": "a-\u003eb-\u003ea",
@@ -3657,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Module",
           "name": "propModule",
           "package": "constructive-algebra",
@@ -3666,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Module",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Module",
           "name": "propModule",
           "normalized": "a-\u003ea-\u003eb-\u003eb-\u003eProperty",
@@ -3681,6 +3985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Module",
           "name": "propScalarAdd",
           "package": "constructive-algebra",
@@ -3690,6 +3995,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Module",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Module",
           "name": "propScalarAdd",
           "normalized": "a-\u003ea-\u003eb-\u003eBool",
@@ -3705,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Module",
           "name": "propScalarAssoc",
           "package": "constructive-algebra",
@@ -3714,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Module",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Module",
           "name": "propScalarAssoc",
           "normalized": "a-\u003ea-\u003eb-\u003eBool",
@@ -3729,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Module",
           "name": "propScalarMul",
           "package": "constructive-algebra",
@@ -3738,6 +4047,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures Module",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Module",
           "name": "propScalarMul",
           "normalized": "a-\u003eb-\u003eb-\u003eBool",
@@ -3754,6 +4064,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrufer domains are non-Noetherian analogues of Dedekind domains. That is\n integral domains in which every finitely generated ideal is invertible. This \n implementation is mainly based on:\n\u003c/p\u003e\u003cp\u003ehttp://hlombardi.free.fr/liens/salouThesis.pdf\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "PruferDomain",
           "package": "constructive-algebra",
@@ -3763,6 +4074,7 @@
         "index": {
           "description": "Prufer domains are non-Noetherian analogues of Dedekind domains That is integral domains in which every finitely generated ideal is invertible This implementation is mainly based on http hlombardi.free.fr liens salouThesis.pdf",
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "PruferDomain",
           "package": "constructive-algebra",
@@ -3777,6 +4089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a and b it computes u, v and we such that:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e au = bv\n\u003c/li\u003e\u003cli\u003e b(1-u) = aw\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "PruferDomain",
           "package": "constructive-algebra",
@@ -3786,6 +4099,7 @@
         "index": {
           "description": "Given and it computes and we such that au bv aw",
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "PruferDomain",
           "package": "constructive-algebra",
@@ -3799,6 +4113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "calcUVW",
           "package": "constructive-algebra",
@@ -3808,6 +4123,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "calcUVW",
           "normalized": "a-\u003ea-\u003e(a,a,a)",
@@ -3824,6 +4140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative characterization of Prufer domains, given a and b compute u, v, \n w, t such that:\n\u003c/p\u003e\u003cp\u003eua = vb && wa  = tb && u+t = 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "calcUVWT",
           "package": "constructive-algebra",
@@ -3834,6 +4151,7 @@
         "index": {
           "description": "Alternative characterization of Prufer domains given and compute such that ua vb wa tb",
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "calcUVWT",
           "normalized": "a-\u003ea-\u003e(a,a,a,a)",
@@ -3850,6 +4168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBezout domain -\u003e Prufer domain\n\u003c/p\u003e\u003cp\u003eProof that all Bezout domains are Prufer domains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "calcUVW_B",
           "package": "constructive-algebra",
@@ -3860,6 +4179,7 @@
         "index": {
           "description": "Bezout domain Prufer domain Proof that all Bezout domains are Prufer domains",
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "calcUVW_B",
           "normalized": "a-\u003ea-\u003e(a,a,a)",
@@ -3876,6 +4196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a principal localization matrix for an ideal in a Prufer domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "computePLM_PD",
           "package": "constructive-algebra",
@@ -3886,6 +4207,7 @@
         "index": {
           "description": "Compute principal localization matrix for an ideal in Prufer domain",
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "computePLM_PD",
           "normalized": "Ideal a-\u003eMatrix a",
@@ -3902,6 +4224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGo back to the original definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "fromUVWTtoUVW",
           "package": "constructive-algebra",
@@ -3912,6 +4235,7 @@
         "index": {
           "description": "Go back to the original definition",
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "fromUVWTtoUVW",
           "normalized": "(a,a,a,a)-\u003e(a,a,a)",
@@ -3927,6 +4251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "intersectionPD",
           "package": "constructive-algebra",
@@ -3936,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "intersectionPD",
           "normalized": "Ideal a-\u003eIdeal a-\u003eIdeal a",
@@ -3952,6 +4278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the intersection of I and J by:\n\u003c/p\u003e\u003cp\u003e(I \\cap J)(I + J) = IJ  =\u003e (I \\cap J)(I + J)(I + J)' = IJ(I + J)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "intersectionPDWitness",
           "package": "constructive-algebra",
@@ -3962,6 +4289,7 @@
         "index": {
           "description": "Compute the intersection of and by cap IJ cap IJ",
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "intersectionPDWitness",
           "normalized": "Ideal a-\u003eIdeal a-\u003e(Ideal a,[[a]],[[a]])",
@@ -3978,6 +4306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdeal inversion. Given I compute J such that IJ is principal.\n Uses the principal localization matrix for the ideal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "invertIdeal",
           "package": "constructive-algebra",
@@ -3988,6 +4317,7 @@
         "index": {
           "description": "Ideal inversion Given compute such that IJ is principal Uses the principal localization matrix for the ideal",
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "invertIdeal",
           "normalized": "Ideal a-\u003eIdeal a",
@@ -4004,6 +4334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty specifying that:\n au = bv and b(1-u) = aw\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "propCalcUVW",
           "package": "constructive-algebra",
@@ -4014,6 +4345,7 @@
         "index": {
           "description": "Property specifying that au bv and aw",
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "propCalcUVW",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4029,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "propCalcUVWT",
           "package": "constructive-algebra",
@@ -4038,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "propCalcUVWT",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4053,6 +4387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "propPruferDomain",
           "package": "constructive-algebra",
@@ -4062,6 +4397,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "propPruferDomain",
           "normalized": "a-\u003ea-\u003ea-\u003eProperty",
@@ -4078,6 +4414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoherence of Prufer domains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.PruferDomain",
           "name": "solvePD",
           "package": "constructive-algebra",
@@ -4088,6 +4425,7 @@
         "index": {
           "description": "Coherence of Prufer domains",
           "hierarchy": "Algebra Structures PruferDomain",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.PruferDomain",
           "name": "solvePD",
           "normalized": "Vector a-\u003eMatrix a",
@@ -4104,6 +4442,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe representation of the ring structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "Ring",
           "package": "constructive-algebra",
@@ -4113,6 +4452,7 @@
         "index": {
           "description": "The representation of the ring structure",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "Ring",
           "package": "constructive-algebra",
@@ -4127,6 +4467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of rings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "Ring",
           "package": "constructive-algebra",
@@ -4136,6 +4477,7 @@
         "index": {
           "description": "Definition of rings",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "Ring",
           "package": "constructive-algebra",
@@ -4150,6 +4492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "(\u003c*\u003e)",
           "package": "constructive-algebra",
@@ -4160,6 +4503,7 @@
         "index": {
           "description": "Multiplication",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -4175,6 +4519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "(\u003c+\u003e)",
           "package": "constructive-algebra",
@@ -4185,6 +4530,7 @@
         "index": {
           "description": "Addition",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -4200,6 +4546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtraction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "(\u003c-\u003e)",
           "package": "constructive-algebra",
@@ -4210,6 +4557,7 @@
         "index": {
           "description": "Subtraction",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -4225,6 +4573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExponentiation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "(\u003c^\u003e)",
           "package": "constructive-algebra",
@@ -4235,6 +4584,7 @@
         "index": {
           "description": "Exponentiation",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "(\u003c^\u003e) \u003c^\u003e",
           "normalized": "a-\u003eInteger-\u003ea",
@@ -4250,6 +4600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute additive inverse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "neg",
           "package": "constructive-algebra",
@@ -4260,6 +4611,7 @@
         "index": {
           "description": "Compute additive inverse",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "neg",
           "normalized": "a-\u003ea",
@@ -4275,6 +4627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe multiplicative identity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "one",
           "package": "constructive-algebra",
@@ -4285,6 +4638,7 @@
         "index": {
           "description": "The multiplicative identity",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "one",
           "package": "constructive-algebra",
@@ -4298,6 +4652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "productRing",
           "package": "constructive-algebra",
@@ -4308,6 +4663,7 @@
         "index": {
           "description": "Product",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "productRing",
           "normalized": "[a]-\u003ea",
@@ -4324,6 +4680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition is associative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "propAddAssoc",
           "package": "constructive-algebra",
@@ -4334,6 +4691,7 @@
         "index": {
           "description": "Addition is associative",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "propAddAssoc",
           "normalized": "a-\u003ea-\u003ea-\u003e(Bool,String)",
@@ -4350,6 +4708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition is commutative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "propAddComm",
           "package": "constructive-algebra",
@@ -4360,6 +4719,7 @@
         "index": {
           "description": "Addition is commutative",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "propAddComm",
           "normalized": "a-\u003ea-\u003e(Bool,String)",
@@ -4376,6 +4736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero is the additive identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "propAddIdentity",
           "package": "constructive-algebra",
@@ -4386,6 +4747,7 @@
         "index": {
           "description": "Zero is the additive identity",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "propAddIdentity",
           "normalized": "a-\u003e(Bool,String)",
@@ -4402,6 +4764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation give the additive inverse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "propAddInv",
           "package": "constructive-algebra",
@@ -4412,6 +4775,7 @@
         "index": {
           "description": "Negation give the additive inverse",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "propAddInv",
           "normalized": "a-\u003e(Bool,String)",
@@ -4428,6 +4792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication is left-ditributive over addition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "propLeftDist",
           "package": "constructive-algebra",
@@ -4438,6 +4803,7 @@
         "index": {
           "description": "Multiplication is left-ditributive over addition",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "propLeftDist",
           "normalized": "a-\u003ea-\u003ea-\u003e(Bool,String)",
@@ -4454,6 +4820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication is associative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "propMulAssoc",
           "package": "constructive-algebra",
@@ -4464,6 +4831,7 @@
         "index": {
           "description": "Multiplication is associative",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "propMulAssoc",
           "normalized": "a-\u003ea-\u003ea-\u003e(Bool,String)",
@@ -4480,6 +4848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne is the multiplicative identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "propMulIdentity",
           "package": "constructive-algebra",
@@ -4490,6 +4859,7 @@
         "index": {
           "description": "One is the multiplicative identity",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "propMulIdentity",
           "normalized": "a-\u003e(Bool,String)",
@@ -4506,6 +4876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication is right-distributive over addition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "propRightDist",
           "package": "constructive-algebra",
@@ -4516,6 +4887,7 @@
         "index": {
           "description": "Multiplication is right-distributive over addition",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "propRightDist",
           "normalized": "a-\u003ea-\u003ea-\u003e(Bool,String)",
@@ -4532,6 +4904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecification of rings. Test that the arguments satisfy the ring axioms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "propRing",
           "package": "constructive-algebra",
@@ -4542,6 +4915,7 @@
         "index": {
           "description": "Specification of rings Test that the arguments satisfy the ring axioms",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "propRing",
           "normalized": "a-\u003ea-\u003ea-\u003eProperty",
@@ -4558,6 +4932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "sumRing",
           "package": "constructive-algebra",
@@ -4568,6 +4943,7 @@
         "index": {
           "description": "Summation",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "sumRing",
           "normalized": "[a]-\u003ea",
@@ -4584,6 +4960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe additive identity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.Ring",
           "name": "zero",
           "package": "constructive-algebra",
@@ -4594,6 +4971,7 @@
         "index": {
           "description": "The additive identity",
           "hierarchy": "Algebra Structures Ring",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.Ring",
           "name": "zero",
           "package": "constructive-algebra",
@@ -4606,6 +4984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.StronglyDiscrete",
           "name": "StronglyDiscrete",
           "package": "constructive-algebra",
@@ -4614,6 +4993,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures StronglyDiscrete",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.StronglyDiscrete",
           "name": "StronglyDiscrete",
           "package": "constructive-algebra",
@@ -4628,6 +5008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrongly discrete rings\n\u003c/p\u003e\u003cp\u003eA ring is called strongly discrete if ideal membership is decidable.\n Nothing correspond to that x is not in the ideal and Just is the witness.\n Examples include all Bezout domains and polynomial rings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.StronglyDiscrete",
           "name": "StronglyDiscrete",
           "package": "constructive-algebra",
@@ -4637,6 +5018,7 @@
         "index": {
           "description": "Strongly discrete rings ring is called strongly discrete if ideal membership is decidable Nothing correspond to that is not in the ideal and Just is the witness Examples include all Bezout domains and polynomial rings",
           "hierarchy": "Algebra Structures StronglyDiscrete",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.StronglyDiscrete",
           "name": "StronglyDiscrete",
           "package": "constructive-algebra",
@@ -4650,6 +5032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.StronglyDiscrete",
           "name": "member",
           "package": "constructive-algebra",
@@ -4659,6 +5042,7 @@
         },
         "index": {
           "hierarchy": "Algebra Structures StronglyDiscrete",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.StronglyDiscrete",
           "name": "member",
           "normalized": "a-\u003eIdeal a-\u003eMaybe[a]",
@@ -4674,6 +5058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest that the witness is actually a witness that the element is in the \n ideal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Structures.StronglyDiscrete",
           "name": "propStronglyDiscrete",
           "package": "constructive-algebra",
@@ -4684,6 +5069,7 @@
         "index": {
           "description": "Test that the witness is actually witness that the element is in the ideal",
           "hierarchy": "Algebra Structures StronglyDiscrete",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Structures.StronglyDiscrete",
           "name": "propStronglyDiscrete",
           "normalized": "a-\u003eIdeal a-\u003eBool",
@@ -4700,6 +5086,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType level characters. Used for representing the variable name in \n univariate polynomials.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "Char",
           "package": "constructive-algebra",
@@ -4709,6 +5096,7 @@
         "index": {
           "description": "Type level characters Used for representing the variable name in univariate polynomials",
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "Char",
           "package": "constructive-algebra",
@@ -4722,6 +5110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "A",
           "package": "constructive-algebra",
@@ -4730,6 +5119,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "A",
           "package": "constructive-algebra",
@@ -4742,6 +5132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "A_",
           "package": "constructive-algebra",
@@ -4750,6 +5141,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "A_",
           "package": "constructive-algebra",
@@ -4762,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "B",
           "package": "constructive-algebra",
@@ -4770,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "B",
           "package": "constructive-algebra",
@@ -4782,6 +5176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "B_",
           "package": "constructive-algebra",
@@ -4790,6 +5185,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "B_",
           "package": "constructive-algebra",
@@ -4802,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "C",
           "package": "constructive-algebra",
@@ -4810,6 +5207,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "C",
           "package": "constructive-algebra",
@@ -4822,6 +5220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "C_",
           "package": "constructive-algebra",
@@ -4830,6 +5229,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "C_",
           "package": "constructive-algebra",
@@ -4842,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "D",
           "package": "constructive-algebra",
@@ -4850,6 +5251,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "D",
           "package": "constructive-algebra",
@@ -4862,6 +5264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "D_",
           "package": "constructive-algebra",
@@ -4870,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "D_",
           "package": "constructive-algebra",
@@ -4882,6 +5286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "E",
           "package": "constructive-algebra",
@@ -4890,6 +5295,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "E",
           "package": "constructive-algebra",
@@ -4902,6 +5308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "E_",
           "package": "constructive-algebra",
@@ -4910,6 +5317,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "E_",
           "package": "constructive-algebra",
@@ -4922,6 +5330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "F",
           "package": "constructive-algebra",
@@ -4930,6 +5339,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "F",
           "package": "constructive-algebra",
@@ -4942,6 +5352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "F_",
           "package": "constructive-algebra",
@@ -4950,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "F_",
           "package": "constructive-algebra",
@@ -4962,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "G",
           "package": "constructive-algebra",
@@ -4970,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "G",
           "package": "constructive-algebra",
@@ -4982,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "G_",
           "package": "constructive-algebra",
@@ -4990,6 +5405,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "G_",
           "package": "constructive-algebra",
@@ -5002,6 +5418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "H",
           "package": "constructive-algebra",
@@ -5010,6 +5427,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "H",
           "package": "constructive-algebra",
@@ -5022,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "H_",
           "package": "constructive-algebra",
@@ -5030,6 +5449,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "H_",
           "package": "constructive-algebra",
@@ -5042,6 +5462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "I",
           "package": "constructive-algebra",
@@ -5050,6 +5471,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "I",
           "package": "constructive-algebra",
@@ -5062,6 +5484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "I_",
           "package": "constructive-algebra",
@@ -5070,6 +5493,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "I_",
           "package": "constructive-algebra",
@@ -5082,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "J",
           "package": "constructive-algebra",
@@ -5090,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "J",
           "package": "constructive-algebra",
@@ -5102,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "J_",
           "package": "constructive-algebra",
@@ -5110,6 +5537,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "J_",
           "package": "constructive-algebra",
@@ -5122,6 +5550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "K",
           "package": "constructive-algebra",
@@ -5130,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "K",
           "package": "constructive-algebra",
@@ -5142,6 +5572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "K_",
           "package": "constructive-algebra",
@@ -5150,6 +5581,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "K_",
           "package": "constructive-algebra",
@@ -5162,6 +5594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "L",
           "package": "constructive-algebra",
@@ -5170,6 +5603,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "L",
           "package": "constructive-algebra",
@@ -5182,6 +5616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "L_",
           "package": "constructive-algebra",
@@ -5190,6 +5625,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "L_",
           "package": "constructive-algebra",
@@ -5202,6 +5638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "M",
           "package": "constructive-algebra",
@@ -5210,6 +5647,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "M",
           "package": "constructive-algebra",
@@ -5222,6 +5660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "M_",
           "package": "constructive-algebra",
@@ -5230,6 +5669,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "M_",
           "package": "constructive-algebra",
@@ -5242,6 +5682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "N",
           "package": "constructive-algebra",
@@ -5250,6 +5691,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "N",
           "package": "constructive-algebra",
@@ -5262,6 +5704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "N_",
           "package": "constructive-algebra",
@@ -5270,6 +5713,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "N_",
           "package": "constructive-algebra",
@@ -5282,6 +5726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "O",
           "package": "constructive-algebra",
@@ -5290,6 +5735,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "O",
           "package": "constructive-algebra",
@@ -5302,6 +5748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "O_",
           "package": "constructive-algebra",
@@ -5310,6 +5757,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "O_",
           "package": "constructive-algebra",
@@ -5322,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "P",
           "package": "constructive-algebra",
@@ -5330,6 +5779,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "P",
           "package": "constructive-algebra",
@@ -5342,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "P_",
           "package": "constructive-algebra",
@@ -5350,6 +5801,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "P_",
           "package": "constructive-algebra",
@@ -5362,6 +5814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "Q",
           "package": "constructive-algebra",
@@ -5370,6 +5823,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "Q",
           "package": "constructive-algebra",
@@ -5382,6 +5836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "Q_",
           "package": "constructive-algebra",
@@ -5390,6 +5845,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "Q_",
           "package": "constructive-algebra",
@@ -5402,6 +5858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "R",
           "package": "constructive-algebra",
@@ -5410,6 +5867,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "R",
           "package": "constructive-algebra",
@@ -5422,6 +5880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "R_",
           "package": "constructive-algebra",
@@ -5430,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "R_",
           "package": "constructive-algebra",
@@ -5442,6 +5902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "S",
           "package": "constructive-algebra",
@@ -5450,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "S",
           "package": "constructive-algebra",
@@ -5462,6 +5924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "S_",
           "package": "constructive-algebra",
@@ -5470,6 +5933,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "S_",
           "package": "constructive-algebra",
@@ -5482,6 +5946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "T",
           "package": "constructive-algebra",
@@ -5490,6 +5955,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "T",
           "package": "constructive-algebra",
@@ -5502,6 +5968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "T_",
           "package": "constructive-algebra",
@@ -5510,6 +5977,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "T_",
           "package": "constructive-algebra",
@@ -5522,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "U",
           "package": "constructive-algebra",
@@ -5530,6 +5999,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "U",
           "package": "constructive-algebra",
@@ -5542,6 +6012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "U_",
           "package": "constructive-algebra",
@@ -5550,6 +6021,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "U_",
           "package": "constructive-algebra",
@@ -5562,6 +6034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "V",
           "package": "constructive-algebra",
@@ -5570,6 +6043,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "V",
           "package": "constructive-algebra",
@@ -5582,6 +6056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "V_",
           "package": "constructive-algebra",
@@ -5590,6 +6065,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "V_",
           "package": "constructive-algebra",
@@ -5602,6 +6078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "W",
           "package": "constructive-algebra",
@@ -5610,6 +6087,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "W",
           "package": "constructive-algebra",
@@ -5622,6 +6100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "W_",
           "package": "constructive-algebra",
@@ -5630,6 +6109,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "W_",
           "package": "constructive-algebra",
@@ -5642,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "X",
           "package": "constructive-algebra",
@@ -5650,6 +6131,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "X",
           "package": "constructive-algebra",
@@ -5662,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "X_",
           "package": "constructive-algebra",
@@ -5670,6 +6153,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "X_",
           "package": "constructive-algebra",
@@ -5682,6 +6166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "Y",
           "package": "constructive-algebra",
@@ -5690,6 +6175,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "Y",
           "package": "constructive-algebra",
@@ -5702,6 +6188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "Y_",
           "package": "constructive-algebra",
@@ -5710,6 +6197,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "Y_",
           "package": "constructive-algebra",
@@ -5722,6 +6210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "Z",
           "package": "constructive-algebra",
@@ -5730,6 +6219,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "Z",
           "package": "constructive-algebra",
@@ -5742,6 +6232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.TypeChar.Char",
           "name": "Z_",
           "package": "constructive-algebra",
@@ -5750,6 +6241,7 @@
         },
         "index": {
           "hierarchy": "Algebra TypeChar Char",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.TypeChar.Char",
           "name": "Z_",
           "package": "constructive-algebra",
@@ -5763,6 +6255,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnivariate polynomials parametrised by the variable name.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "UPoly",
           "package": "constructive-algebra",
@@ -5772,6 +6265,7 @@
         "index": {
           "description": "Univariate polynomials parametrised by the variable name",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "UPoly",
           "package": "constructive-algebra",
@@ -5786,6 +6280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUseful shorthand for Q[x].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "Qx",
           "package": "constructive-algebra",
@@ -5795,6 +6290,7 @@
         "index": {
           "description": "Useful shorthand for",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "Qx",
           "package": "constructive-algebra",
@@ -5809,6 +6305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolynomials over a commutative ring, indexed by a phantom type x that\n denote the name of the variable that the polynomial is over. For example\n UPoly Q X_ is Q[x] and UPoly Q T_ is Q[t].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "UPoly",
           "package": "constructive-algebra",
@@ -5818,6 +6315,7 @@
         "index": {
           "description": "Polynomials over commutative ring indexed by phantom type that denote the name of the variable that the polynomial is over For example UPoly is and UPoly is",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "UPoly",
           "package": "constructive-algebra",
@@ -5831,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "UP",
           "package": "constructive-algebra",
@@ -5840,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "UP",
           "normalized": "UP[a]",
@@ -5856,6 +6356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the content of a polynomial, i.e. the gcd of the coefficients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "cont",
           "package": "constructive-algebra",
@@ -5866,6 +6367,7 @@
         "index": {
           "description": "Compute the content of polynomial i.e the gcd of the coefficients",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "cont",
           "normalized": "UPoly a b-\u003ea",
@@ -5881,6 +6383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe degree of the polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "deg",
           "package": "constructive-algebra",
@@ -5891,6 +6394,7 @@
         "index": {
           "description": "The degree of the polynomial",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "deg",
           "normalized": "UPoly a b-\u003eInteger",
@@ -5906,6 +6410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal derivative of polynomials in k[x].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "deriv",
           "package": "constructive-algebra",
@@ -5916,6 +6421,7 @@
         "index": {
           "description": "Formal derivative of polynomials in",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "deriv",
           "normalized": "UPoly a b-\u003eUPoly a b",
@@ -5931,6 +6437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGauss lemma says that if p and q are polynomials over a GCD domain then\n cont(pq) = cont(p) * cont(q).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "gaussLemma",
           "package": "constructive-algebra",
@@ -5941,6 +6448,7 @@
         "index": {
           "description": "Gauss lemma says that if and are polynomials over GCD domain then cont pq cont cont",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "gaussLemma",
           "normalized": "UPoly a b-\u003eUPoly a b-\u003eProperty",
@@ -5957,6 +6465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProof that if A is a GCD domain then A[x] also is a GCD domain. This also\n computes witnesses that the computed GCD divides the given polynomials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "gcdUPolyWitness",
           "package": "constructive-algebra",
@@ -5967,6 +6476,7 @@
         "index": {
           "description": "Proof that if is GCD domain then also is GCD domain This also computes witnesses that the computed GCD divides the given polynomials",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "gcdUPolyWitness",
           "normalized": "UPoly a b-\u003eUPoly a b-\u003e(UPoly a b,UPoly a b,UPoly a b)",
@@ -5983,6 +6493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf all coefficients are relatively prime then the polynomial is primitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "isPrimitive",
           "package": "constructive-algebra",
@@ -5993,6 +6504,7 @@
         "index": {
           "description": "If all coefficients are relatively prime then the polynomial is primitive",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "isPrimitive",
           "normalized": "UPoly a b-\u003eBool",
@@ -6009,6 +6521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the leading term of a polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "lt",
           "package": "constructive-algebra",
@@ -6019,6 +6532,7 @@
         "index": {
           "description": "Compute the leading term of polynomial",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "lt",
           "normalized": "UPoly a b-\u003ea",
@@ -6034,6 +6548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake an element of the ring and the degree of the desired monomial, for\n example: monomial 3 7 = 3x^7\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "monomial",
           "package": "constructive-algebra",
@@ -6044,6 +6559,7 @@
         "index": {
           "description": "Take an element of the ring and the degree of the desired monomial for example monomial",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "monomial",
           "normalized": "a-\u003eInteger-\u003eUPoly a b",
@@ -6058,6 +6574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "propToPrimitive",
           "package": "constructive-algebra",
@@ -6067,6 +6584,7 @@
         },
         "index": {
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "propToPrimitive",
           "normalized": "UPoly(FieldOfFractions a)b-\u003eProperty",
@@ -6083,6 +6601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquare free decomposition of a polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "sqfr",
           "package": "constructive-algebra",
@@ -6093,6 +6612,7 @@
         "index": {
           "description": "Square free decomposition of polynomial",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "sqfr",
           "normalized": "UPoly a b-\u003eUPoly a b",
@@ -6108,6 +6628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistinct power factorization, aka square free decomposition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "sqfrDec",
           "package": "constructive-algebra",
@@ -6118,6 +6639,7 @@
         "index": {
           "description": "Distinct power factorization aka square free decomposition",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "sqfrDec",
           "normalized": "UPoly a b-\u003e[UPoly a b]",
@@ -6134,6 +6656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLemma 4.2: Given a polynomial p in K[x] where K=Quot(A) we can find c in K\n and q primitive in A[x] such that p = cq.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "toPrimitive",
           "package": "constructive-algebra",
@@ -6144,6 +6667,7 @@
         "index": {
           "description": "Lemma Given polynomial in where Quot we can find in and primitive in such that cq",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "toPrimitive",
           "normalized": "UPoly(FieldOfFractions a)b-\u003e(FieldOfFractions a,UPoly a b)",
@@ -6160,6 +6684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a list and construct a polynomial by removing all zeroes in the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "toUPoly",
           "package": "constructive-algebra",
@@ -6170,6 +6695,7 @@
         "index": {
           "description": "Take list and construct polynomial by removing all zeroes in the end",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "toUPoly",
           "normalized": "[a]-\u003eUPoly a b",
@@ -6186,6 +6712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe variable x in Q[x].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.UPoly",
           "name": "x",
           "package": "constructive-algebra",
@@ -6196,6 +6723,7 @@
         "index": {
           "description": "The variable in",
           "hierarchy": "Algebra UPoly",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.UPoly",
           "name": "x",
           "package": "constructive-algebra",
@@ -6208,6 +6736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Z",
           "name": "Z",
           "package": "constructive-algebra",
@@ -6216,6 +6745,7 @@
         },
         "index": {
           "hierarchy": "Algebra Z",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Z",
           "name": "Z",
           "package": "constructive-algebra",
@@ -6229,6 +6759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of integral domains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Z",
           "name": "IntegralDomain",
           "package": "constructive-algebra",
@@ -6238,6 +6769,7 @@
         "index": {
           "description": "Definition of integral domains",
           "hierarchy": "Algebra Z",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Z",
           "name": "IntegralDomain",
           "package": "constructive-algebra",
@@ -6252,6 +6784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Z",
           "name": "Z",
           "package": "constructive-algebra",
@@ -6261,6 +6794,7 @@
         "index": {
           "description": "Type synonym for integers",
           "hierarchy": "Algebra Z",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Z",
           "name": "Z",
           "package": "constructive-algebra",
@@ -6274,6 +6808,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProof that Z[sqrt(-5)] is a Prufer domain. This implies that it is \n possible to solve systems of equations over Z[sqrt(-5)].\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.ZSqrt5",
           "name": "ZSqrt5",
           "package": "constructive-algebra",
@@ -6283,6 +6818,7 @@
         "index": {
           "description": "Proof that sqrt is Prufer domain This implies that it is possible to solve systems of equations over sqrt",
           "hierarchy": "Algebra ZSqrt5",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.ZSqrt5",
           "name": "ZSqrt5",
           "package": "constructive-algebra",
@@ -6297,6 +6833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZ[sqrt(-5)] is a pair such that (a,b) = a + b*sqrt(-5)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.ZSqrt5",
           "name": "ZSqrt5",
           "package": "constructive-algebra",
@@ -6306,6 +6843,7 @@
         "index": {
           "description": "sqrt is pair such that sqrt",
           "hierarchy": "Algebra ZSqrt5",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.ZSqrt5",
           "name": "ZSqrt5",
           "package": "constructive-algebra",
@@ -6319,6 +6857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.ZSqrt5",
           "name": "ZSqrt5",
           "package": "constructive-algebra",
@@ -6328,6 +6867,7 @@
         },
         "index": {
           "hierarchy": "Algebra ZSqrt5",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.ZSqrt5",
           "name": "ZSqrt5",
           "normalized": "ZSqrt(Z,Z)",
@@ -6344,6 +6884,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntegers modulo n parametrised by the n. This also has type-level primality\n testing used for instantiating integral domain and field type classes. The\n primality testing is very slow, but it seem to be working fine for relatively\n small numbers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Zn",
           "name": "Zn",
           "package": "constructive-algebra",
@@ -6353,6 +6894,7 @@
         "index": {
           "description": "Integers modulo parametrised by the This also has type-level primality testing used for instantiating integral domain and field type classes The primality testing is very slow but it seem to be working fine for relatively small numbers",
           "hierarchy": "Algebra Zn",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Zn",
           "name": "Zn",
           "package": "constructive-algebra",
@@ -6366,6 +6908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Zn",
           "name": "Z3",
           "package": "constructive-algebra",
@@ -6374,6 +6917,7 @@
         },
         "index": {
           "hierarchy": "Algebra Zn",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Zn",
           "name": "Z3",
           "package": "constructive-algebra",
@@ -6387,6 +6931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe phantom type n represents which modulo to work in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Zn",
           "name": "Zn",
           "package": "constructive-algebra",
@@ -6396,6 +6941,7 @@
         "index": {
           "description": "The phantom type represents which modulo to work in",
           "hierarchy": "Algebra Zn",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Zn",
           "name": "Zn",
           "package": "constructive-algebra",
@@ -6409,6 +6955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:26 UTC 2014",
           "module": "Algebra.Zn",
           "name": "Zn",
           "package": "constructive-algebra",
@@ -6418,6 +6965,7 @@
         },
         "index": {
           "hierarchy": "Algebra Zn",
+          "indexed": "2014-03-11T17:39:26",
           "module": "Algebra.Zn",
           "name": "Zn",
           "package": "constructive-algebra",

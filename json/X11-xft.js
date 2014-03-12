@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "X11-xft"
+        "phrase": "X11-xft",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "Xft",
           "package": "X11-xft",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "Xft",
           "package": "X11-xft",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "XftColor",
           "package": "X11-xft",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "XftColor",
           "package": "X11-xft",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "XftDraw",
           "package": "X11-xft",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "XftDraw",
           "package": "X11-xft",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "XftFont",
           "package": "X11-xft",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "XftFont",
           "package": "X11-xft",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "allocaXftColor",
           "package": "X11-xft",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "allocaXftColor",
           "normalized": "(Ptr XftColor-\u003eIO a)-\u003eIO a",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "withXftColorName",
           "package": "X11-xft",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "withXftColorName",
           "normalized": "Display-\u003eVisual-\u003eColormap-\u003eString-\u003e(XftColor-\u003eIO a)-\u003eIO a",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "withXftColorValue",
           "package": "X11-xft",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "withXftColorValue",
           "normalized": "Display-\u003eVisual-\u003eColormap-\u003eXRenderColor-\u003e(XftColor-\u003eIO a)-\u003eIO a",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "withXftDraw",
           "package": "X11-xft",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "withXftDraw",
           "normalized": "Display-\u003eDrawable-\u003eVisual-\u003eColormap-\u003e(XftDraw-\u003eIO a)-\u003eIO a",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawChange",
           "package": "X11-xft",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawChange",
           "normalized": "XftDraw-\u003eDrawable-\u003eIO()",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawColormap",
           "package": "X11-xft",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawColormap",
           "normalized": "XftDraw-\u003eIO Colormap",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawCreate",
           "package": "X11-xft",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawCreate",
           "normalized": "Display-\u003eDrawable-\u003eVisual-\u003eColormap-\u003eIO XftDraw",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawCreateAlpha",
           "package": "X11-xft",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawCreateAlpha",
           "normalized": "Display-\u003ePixmap-\u003ea-\u003eIO XftDraw",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawCreateBitmap",
           "package": "X11-xft",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawCreateBitmap",
           "normalized": "Display-\u003ePixmap-\u003eIO XftDraw",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawDestroy",
           "package": "X11-xft",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawDestroy",
           "normalized": "XftDraw-\u003eIO()",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawDisplay",
           "package": "X11-xft",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawDisplay",
           "normalized": "XftDraw-\u003eIO Display",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawDrawable",
           "package": "X11-xft",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawDrawable",
           "normalized": "XftDraw-\u003eIO Drawable",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawGlyphs",
           "package": "X11-xft",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawGlyphs",
           "normalized": "XftDraw-\u003eXftColor-\u003eXftFont-\u003ea-\u003ea-\u003e[a]-\u003eIO()",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawRect",
           "package": "X11-xft",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawRect",
           "normalized": "XftDraw-\u003eXftColor-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawSetClipRectangles",
           "package": "X11-xft",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawSetClipRectangles",
           "normalized": "XftDraw-\u003eInt-\u003eInt-\u003e[Rectangle]-\u003eIO Bool",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawSetSubwindowMode",
           "package": "X11-xft",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawSetSubwindowMode",
           "normalized": "XftDraw-\u003ea-\u003eIO()",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawString",
           "package": "X11-xft",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawString",
           "normalized": "XftDraw-\u003eXftColor-\u003eXftFont-\u003ea-\u003ea-\u003eString-\u003eIO()",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawVisual",
           "package": "X11-xft",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftDrawVisual",
           "normalized": "XftDraw-\u003eIO Visual",
@@ -534,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftFontClose",
           "package": "X11-xft",
@@ -543,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftFontClose",
           "normalized": "Display-\u003eXftFont-\u003eIO()",
@@ -558,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftFontCopy",
           "package": "X11-xft",
@@ -567,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftFontCopy",
           "normalized": "Display-\u003eXftFont-\u003eIO XftFont",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftFontOpen",
           "package": "X11-xft",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftFontOpen",
           "normalized": "Display-\u003eScreen-\u003eString-\u003eIO XftFont",
@@ -606,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftFontOpenXlfd",
           "package": "X11-xft",
@@ -615,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftFontOpenXlfd",
           "normalized": "Display-\u003eScreen-\u003eString-\u003eIO XftFont",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftInitFtLibrary",
           "package": "X11-xft",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftInitFtLibrary",
           "normalized": "IO()",
@@ -654,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftLockFace",
           "package": "X11-xft",
@@ -663,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftLockFace",
           "normalized": "XftFont-\u003eIO()",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftTextExtents",
           "package": "X11-xft",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftTextExtents",
           "normalized": "Display-\u003eXftFont-\u003eString-\u003eIO XGlyphInfo",
@@ -702,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftUnlockFace",
           "package": "X11-xft",
@@ -711,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftUnlockFace",
           "normalized": "XftFont-\u003eIO()",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftcolor_pixel",
           "package": "X11-xft",
@@ -735,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftcolor_pixel",
           "normalized": "XftColor-\u003eIO Int",
@@ -749,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftfont_ascent",
           "package": "X11-xft",
@@ -758,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftfont_ascent",
           "normalized": "XftFont-\u003eIO Int",
@@ -772,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftfont_descent",
           "package": "X11-xft",
@@ -781,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftfont_descent",
           "normalized": "XftFont-\u003eIO Int",
@@ -795,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftfont_height",
           "package": "X11-xft",
@@ -804,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftfont_height",
           "normalized": "XftFont-\u003eIO Int",
@@ -818,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xft",
           "name": "xftfont_max_advance_width",
           "package": "X11-xft",
@@ -827,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xft",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xft",
           "name": "xftfont_max_advance_width",
           "normalized": "XftFont-\u003eIO Int",
@@ -841,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "Xrender",
           "package": "X11-xft",
@@ -849,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "Xrender",
           "package": "X11-xft",
@@ -862,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "XGlyphInfo",
           "package": "X11-xft",
@@ -870,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "XGlyphInfo",
           "package": "X11-xft",
@@ -883,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "XRenderColor",
           "package": "X11-xft",
@@ -891,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "XRenderColor",
           "package": "X11-xft",
@@ -904,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "XRenderDirectFormat",
           "package": "X11-xft",
@@ -912,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "XRenderDirectFormat",
           "package": "X11-xft",
@@ -925,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "XGlyphInfo",
           "package": "X11-xft",
@@ -934,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "XGlyphInfo",
           "package": "X11-xft",
@@ -947,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "XRenderColor",
           "package": "X11-xft",
@@ -956,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "XRenderColor",
           "package": "X11-xft",
@@ -969,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "XRenderDirectFormat",
           "package": "X11-xft",
@@ -978,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "XRenderDirectFormat",
           "package": "X11-xft",
@@ -991,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "peekCShort",
           "package": "X11-xft",
@@ -1000,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "peekCShort",
           "normalized": "Ptr a-\u003eCInt-\u003eIO Int",
@@ -1015,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "peekCUShort",
           "package": "X11-xft",
@@ -1024,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "peekCUShort",
           "normalized": "Ptr a-\u003eCInt-\u003eIO Int",
@@ -1039,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "pokeCShort",
           "package": "X11-xft",
@@ -1048,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "pokeCShort",
           "normalized": "Ptr a-\u003eCInt-\u003eInt-\u003eIO()",
@@ -1063,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "pokeCUShort",
           "package": "X11-xft",
@@ -1072,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "pokeCUShort",
           "normalized": "Ptr a-\u003eCInt-\u003eInt-\u003eIO()",
@@ -1087,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_height",
           "package": "X11-xft",
@@ -1096,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_height",
           "package": "X11-xft",
@@ -1108,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_width",
           "package": "X11-xft",
@@ -1117,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_width",
           "package": "X11-xft",
@@ -1129,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_x",
           "package": "X11-xft",
@@ -1138,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_x",
           "package": "X11-xft",
@@ -1150,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_xOff",
           "package": "X11-xft",
@@ -1159,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_xOff",
           "package": "X11-xft",
@@ -1172,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_y",
           "package": "X11-xft",
@@ -1181,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_y",
           "package": "X11-xft",
@@ -1193,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_yOff",
           "package": "X11-xft",
@@ -1202,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xglyphinfo_yOff",
           "package": "X11-xft",
@@ -1215,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrendercolor_alpha",
           "package": "X11-xft",
@@ -1224,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrendercolor_alpha",
           "package": "X11-xft",
@@ -1236,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrendercolor_blue",
           "package": "X11-xft",
@@ -1245,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrendercolor_blue",
           "package": "X11-xft",
@@ -1257,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrendercolor_green",
           "package": "X11-xft",
@@ -1266,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrendercolor_green",
           "package": "X11-xft",
@@ -1278,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrendercolor_red",
           "package": "X11-xft",
@@ -1287,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrendercolor_red",
           "package": "X11-xft",
@@ -1299,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_alpha",
           "package": "X11-xft",
@@ -1308,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_alpha",
           "package": "X11-xft",
@@ -1320,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_alphaMask",
           "package": "X11-xft",
@@ -1329,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_alphaMask",
           "package": "X11-xft",
@@ -1342,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_blue",
           "package": "X11-xft",
@@ -1351,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_blue",
           "package": "X11-xft",
@@ -1363,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_blueMask",
           "package": "X11-xft",
@@ -1372,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_blueMask",
           "package": "X11-xft",
@@ -1385,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_green",
           "package": "X11-xft",
@@ -1394,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_green",
           "package": "X11-xft",
@@ -1406,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_greenMask",
           "package": "X11-xft",
@@ -1415,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_greenMask",
           "package": "X11-xft",
@@ -1428,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_red",
           "package": "X11-xft",
@@ -1437,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_red",
           "package": "X11-xft",
@@ -1449,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:22 UTC 2014",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_redMask",
           "package": "X11-xft",
@@ -1458,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xrender",
+          "indexed": "2014-03-11T17:05:22",
           "module": "Graphics.X11.Xrender",
           "name": "xrenderdirectformat_redMask",
           "package": "X11-xft",

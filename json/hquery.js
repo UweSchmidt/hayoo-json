@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hquery"
+        "phrase": "hquery",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNOTE: This exception should only be used to indicate an Hquery bug.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Error",
           "name": "Error",
           "package": "hquery",
@@ -28,6 +29,7 @@
         "index": {
           "description": "NOTE This exception should only be used to indicate an Hquery bug",
           "hierarchy": "Text Hquery Internal Error",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Error",
           "name": "Error",
           "package": "hquery",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Error",
           "name": "HqueryInternalException",
           "package": "hquery",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Error",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Error",
           "name": "HqueryInternalException",
           "package": "hquery",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Error",
           "name": "HqueryInternalException",
           "package": "hquery",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Error",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Error",
           "name": "HqueryInternalException",
           "package": "hquery",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnconditionally throw an HqueryInternalException with the specified error\n message. This should not be used for user errors, just internal hquery\n errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Error",
           "name": "raise",
           "package": "hquery",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Unconditionally throw an HqueryInternalException with the specified error message This should not be used for user errors just internal hquery errors",
           "hierarchy": "Text Hquery Internal Error",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Error",
           "name": "raise",
           "normalized": "String-\u003ea",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eADTs for representing what node operations to perform, and their parsers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Selector",
           "package": "hquery",
@@ -119,6 +128,7 @@
         "index": {
           "description": "ADTs for representing what node operations to perform and their parsers",
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Selector",
           "package": "hquery",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "AttrMod",
           "package": "hquery",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "AttrMod",
           "package": "hquery",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "AttrSel",
           "package": "hquery",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "AttrSel",
           "package": "hquery",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "CssSel",
           "package": "hquery",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "CssSel",
           "package": "hquery",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Append",
           "package": "hquery",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Append",
           "package": "hquery",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Attr",
           "package": "hquery",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Attr",
           "package": "hquery",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "AttrSel",
           "package": "hquery",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "AttrSel",
           "package": "hquery",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "CData",
           "package": "hquery",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "CData",
           "package": "hquery",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Class",
           "package": "hquery",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Class",
           "package": "hquery",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Elem",
           "package": "hquery",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Elem",
           "package": "hquery",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Id",
           "package": "hquery",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Id",
           "package": "hquery",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Name",
           "package": "hquery",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Name",
           "package": "hquery",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Remove",
           "package": "hquery",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Remove",
           "package": "hquery",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Set",
           "package": "hquery",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Set",
           "package": "hquery",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Star",
           "package": "hquery",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "Star",
           "package": "hquery",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "attrModParser",
           "package": "hquery",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "attrModParser",
           "package": "hquery",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "attrSelParser",
           "package": "hquery",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "attrSelParser",
           "package": "hquery",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "commandParser",
           "package": "hquery",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "commandParser",
           "normalized": "Parser(CssSel,Maybe AttrSel)",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Selector",
           "name": "cssSelParser",
           "package": "hquery",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Selector",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Selector",
           "name": "cssSelParser",
           "package": "hquery",
@@ -528,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains all of the actual tree traversal/matching code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Transform",
           "name": "Transform",
           "package": "hquery",
@@ -537,6 +584,7 @@
         "index": {
           "description": "This module contains all of the actual tree traversal matching code",
           "hierarchy": "Text Hquery Internal Transform",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Transform",
           "name": "Transform",
           "package": "hquery",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Transform",
           "name": "buildAttrMod",
           "package": "hquery",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Transform",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Transform",
           "name": "buildAttrMod",
           "normalized": "AttrSel-\u003eText-\u003eCursor-\u003eCursor",
@@ -574,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Internal.Transform",
           "name": "transform",
           "package": "hquery",
@@ -583,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Internal Transform",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Internal.Transform",
           "name": "transform",
           "normalized": "CssSel-\u003e(Cursor-\u003eMaybe Cursor)-\u003e[Node]-\u003e[Node]",
@@ -598,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports various useful utility functions for working with\n XmlHtml Nodes. For example, the equality operator on Node does a structural\n comparison of the nodes. However, this is not entirely useful, since\n transformed nodes may be equal but e.g. have their attributes in a different\n order in the list. Among other things, this module defines an EqNode type\n which has an Eq instance that does semantic equality instead of structural\n equality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Utils",
           "name": "Utils",
           "package": "hquery",
@@ -607,6 +660,7 @@
         "index": {
           "description": "This module exports various useful utility functions for working with XmlHtml Nodes For example the equality operator on Node does structural comparison of the nodes However this is not entirely useful since transformed nodes may be equal but e.g have their attributes in different order in the list Among other things this module defines an EqNode type which has an Eq instance that does semantic equality instead of structural equality",
           "hierarchy": "Text Hquery Utils",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Utils",
           "name": "Utils",
           "package": "hquery",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Utils",
           "name": "EqNode",
           "package": "hquery",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Utils",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Utils",
           "name": "EqNode",
           "package": "hquery",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Utils",
           "name": "EqNode",
           "package": "hquery",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery Utils",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Utils",
           "name": "EqNode",
           "package": "hquery",
@@ -664,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest a list of attributes for equality. This has special handling for the\n \u003ca\u003eclass\u003c/a\u003e attribute, so that the order in which the classes are applied to the\n node doesn't matter. Additionally, the oder of the attributes in either list\n is also ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Utils",
           "name": "attrsEq",
           "package": "hquery",
@@ -674,6 +733,7 @@
         "index": {
           "description": "Test list of attributes for equality This has special handling for the class attribute so that the order in which the classes are applied to the node doesn matter Additionally the oder of the attributes in either list is also ignored",
           "hierarchy": "Text Hquery Utils",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Utils",
           "name": "attrsEq",
           "normalized": "[(Text,Text)]-\u003e[(Text,Text)]-\u003eBool",
@@ -690,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA top level semantic node equality funciton.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Utils",
           "name": "nodeEq",
           "package": "hquery",
@@ -700,6 +761,7 @@
         "index": {
           "description": "top level semantic node equality funciton",
           "hierarchy": "Text Hquery Utils",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Utils",
           "name": "nodeEq",
           "normalized": "Node-\u003eNode-\u003eBool",
@@ -716,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip nodes that contain only whitespace. This can be useful when doing\n equality comparisons of trees (e.g. in testing). XmlHtml keeps all\n whitespace, which can cause structural equality differences in trees which\n were produced programattically vs. hand written and nicely formatted trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery.Utils",
           "name": "stripWhitespaceNodes",
           "package": "hquery",
@@ -726,6 +789,7 @@
         "index": {
           "description": "Strip nodes that contain only whitespace This can be useful when doing equality comparisons of trees e.g in testing XmlHtml keeps all whitespace which can cause structural equality differences in trees which were produced programattically vs hand written and nicely formatted trees",
           "hierarchy": "Text Hquery Utils",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery.Utils",
           "name": "stripWhitespaceNodes",
           "normalized": "Node-\u003eMaybe Node",
@@ -742,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports the top level constructors\nused for building node transformations.\nFor example, if your template is\n\u003c/p\u003e\u003cpre\u003e \u003cdiv class=\"person\"\u003e\n   \u003cdiv class=\"name\"\u003e\u003c/div\u003e\n   \u003cdiv class=\"occupation\"\u003e\u003c/div\u003e\n \u003c/div\u003e\n\u003c/pre\u003e\u003cp\u003eand you invoke hquery like this:\n\u003c/p\u003e\u003cpre\u003e import Text.Hquery\n template = ... -- parse your template here\n people = [ (\"Justin Bieber\", \"Celebrity\")\n          , (\"Jens Kidman\", \"Musician\")\n          ]\n bindPerson (n, o) = hq \".name *\" n . hq \".occupation *\" o\n f = hq \".person *\" $ map bindPerson people\n f template\n\u003c/pre\u003e\u003cp\u003eyou'll get markup like this:\n\u003c/p\u003e\u003cpre\u003e \u003cdiv class=\"person\"\u003e\n   \u003cdiv class=\"name\"\u003eJustin Bieber\u003c/div\u003e\n   \u003cdiv class=\"occupation\"\u003eCelebrity\u003c/div\u003e\n \u003c/div\u003e\n \u003cdiv class=\"person\"\u003e\n   \u003cdiv class=\"name\"\u003eJens Kidman\u003c/div\u003e\n   \u003cdiv class=\"occupation\"\u003eMusician\u003c/div\u003e\n \u003c/div\u003e\n\u003c/pre\u003e\u003cp\u003eYou can also add, remove, and append to element attributes. For example if we\nhave: \u003ccode\u003e \u003cdiv class=\"foo\"\u003e\u003c/div\u003e \u003c/code\u003e, below are some example\ntransformations:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e hq \"div [class+]\" \"hidden\" \u003c/code\u003e gives \u003ccode\u003e \u003cdiv class=\"foo hidden\"\u003e\u003c/div\u003e \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e hq \".foo [id]\" \"bar\" \u003c/code\u003e gives \u003ccode\u003e \u003cdiv id=\"bar\" class=\"foo\"\u003e\u003c/div\u003e \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e hq \"* [class!]\" \"foo\" \u003c/code\u003e gives \u003ccode\u003e \u003cdiv\u003e\u003c/div\u003e \u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis module exports several constructors for common types of node\ntransformations. These constructors simply give you back a \u003ccode\u003e \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e -\u003e \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e\n\u003c/code\u003e, which you can then apply however you choose.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery",
           "name": "Hquery",
           "package": "hquery",
@@ -751,6 +816,7 @@
         "index": {
           "description": "This module exports the top level constructors used for building node transformations For example if your template is div class person div class name div div class occupation div div and you invoke hquery like this import Text.Hquery template parse your template here people Justin Bieber Celebrity Jens Kidman Musician bindPerson hq name hq occupation hq person map bindPerson people template you ll get markup like this div class person div class name Justin Bieber div div class occupation Celebrity div div div class person div class name Jens Kidman div div class occupation Musician div div You can also add remove and append to element attributes For example if we have div class foo div below are some example transformations hq div class hidden gives div class foo hidden div hq foo id bar gives div id bar class foo div hq class foo gives div div This module exports several constructors for common types of node transformations These constructors simply give you back Node Node which you can then apply however you choose",
           "hierarchy": "Text Hquery",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery",
           "name": "Hquery",
           "package": "hquery",
@@ -764,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery",
           "name": "Group",
           "package": "hquery",
@@ -772,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery",
           "name": "Group",
           "package": "hquery",
@@ -785,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery",
           "name": "MakeTransformer",
           "package": "hquery",
@@ -793,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery",
           "name": "MakeTransformer",
           "package": "hquery",
@@ -806,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery",
           "name": "Group",
           "package": "hquery",
@@ -815,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery",
           "name": "Group",
           "normalized": "Group[Node]",
@@ -830,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery",
           "name": "hq",
           "package": "hquery",
@@ -839,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery",
           "name": "hq",
           "normalized": "String-\u003ea-\u003e[Node]-\u003e[Node]",
@@ -853,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:27 UTC 2014",
           "module": "Text.Hquery",
           "name": "nothing",
           "package": "hquery",
@@ -862,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Text Hquery",
+          "indexed": "2014-03-11T18:45:27",
           "module": "Text.Hquery",
           "name": "nothing",
           "normalized": "[Node]",

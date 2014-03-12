@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "corebot-bliki"
+        "phrase": "corebot-bliki",
+        "type": "phrase"
       },
       "type": "context"
     }

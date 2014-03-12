@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "comonad"
+        "phrase": "comonad",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Env.Class",
           "name": "Class",
           "package": "comonad",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Env Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Env.Class",
           "name": "Class",
           "package": "comonad",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Env.Class",
           "name": "ComonadEnv",
           "package": "comonad",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Env Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Env.Class",
           "name": "ComonadEnv",
           "package": "comonad",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Env.Class",
           "name": "ask",
           "package": "comonad",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Env Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Env.Class",
           "name": "ask",
           "normalized": "a b-\u003ec",
@@ -108,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Env comonad (aka the Coreader, Environment, or Product comonad)\n\u003c/p\u003e\u003cp\u003eA co-Kleisli arrow in the Env comonad is isomorphic to a Kleisli arrow\n in the reader monad.\n\u003c/p\u003e\u003cp\u003e(a -\u003e e -\u003e m) ~ (a, e) -\u003e m ~ Env e a -\u003e m\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Env",
           "name": "Env",
           "package": "comonad",
@@ -117,6 +124,7 @@
         "index": {
           "description": "The Env comonad aka the Coreader Environment or Product comonad co-Kleisli arrow in the Env comonad is isomorphic to Kleisli arrow in the reader monad Env",
           "hierarchy": "Control Comonad Env",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Env",
           "name": "Env",
           "package": "comonad",
@@ -130,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Env",
           "name": "ComonadEnv",
           "package": "comonad",
@@ -138,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Env",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Env",
           "name": "ComonadEnv",
           "package": "comonad",
@@ -151,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Env",
           "name": "Env",
           "package": "comonad",
@@ -159,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Env",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Env",
           "name": "Env",
           "package": "comonad",
@@ -172,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Env",
           "name": "EnvT",
           "package": "comonad",
@@ -180,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Env",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Env",
           "name": "EnvT",
           "package": "comonad",
@@ -216,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Env",
           "name": "ask",
           "package": "comonad",
@@ -225,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Env",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Env",
           "name": "ask",
           "normalized": "a b-\u003ec",
@@ -341,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Hoist.Class",
           "name": "Class",
           "package": "comonad",
@@ -349,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Hoist Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Hoist.Class",
           "name": "Class",
           "package": "comonad",
@@ -362,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Hoist.Class",
           "name": "ComonadHoist",
           "package": "comonad",
@@ -370,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Hoist Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Hoist.Class",
           "name": "ComonadHoist",
           "package": "comonad",
@@ -384,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven any comonad-homomorphism from \u003ccode\u003ew\u003c/code\u003e to \u003ccode\u003ev\u003c/code\u003e this yields a comonad\n homomorphism from \u003ccode\u003et w\u003c/code\u003e to \u003ccode\u003et v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Hoist.Class",
           "name": "cohoist",
           "package": "comonad",
@@ -394,6 +415,7 @@
         "index": {
           "description": "Given any comonad-homomorphism from to this yields comonad homomorphism from to",
           "hierarchy": "Control Comonad Hoist Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Hoist.Class",
           "name": "cohoist",
           "normalized": "(a b c d-\u003ee d)-\u003ef c g-\u003ef e g",
@@ -408,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Identity",
           "name": "Identity",
           "package": "comonad",
@@ -416,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Identity",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Identity",
           "name": "Identity",
           "package": "comonad",
@@ -429,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store.Class",
           "name": "Class",
           "package": "comonad",
@@ -437,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store.Class",
           "name": "Class",
           "package": "comonad",
@@ -450,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store.Class",
           "name": "ComonadStore",
           "package": "comonad",
@@ -458,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store.Class",
           "name": "ComonadStore",
           "package": "comonad",
@@ -471,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store.Class",
           "name": "experiment",
           "package": "comonad",
@@ -480,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store.Class",
           "name": "experiment",
           "normalized": "(a-\u003eb a)-\u003ec d-\u003eb d",
@@ -494,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store.Class",
           "name": "lowerPeek",
           "package": "comonad",
@@ -503,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store.Class",
           "name": "lowerPeek",
           "normalized": "a-\u003eb c d-\u003ed",
@@ -518,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store.Class",
           "name": "lowerPos",
           "package": "comonad",
@@ -527,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store.Class",
           "name": "lowerPos",
           "normalized": "a b c-\u003ed",
@@ -542,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store.Class",
           "name": "peek",
           "package": "comonad",
@@ -551,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store.Class",
           "name": "peek",
           "normalized": "a-\u003eb c-\u003ec",
@@ -565,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store.Class",
           "name": "peeks",
           "package": "comonad",
@@ -574,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store.Class",
           "name": "peeks",
           "normalized": "(a-\u003ea)-\u003eb c-\u003ec",
@@ -588,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store.Class",
           "name": "pos",
           "package": "comonad",
@@ -597,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store.Class",
           "name": "pos",
           "normalized": "a b-\u003ec",
@@ -611,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store.Class",
           "name": "seek",
           "package": "comonad",
@@ -620,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store.Class",
           "name": "seek",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -634,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store.Class",
           "name": "seeks",
           "package": "comonad",
@@ -643,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store.Class",
           "name": "seeks",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -657,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store",
           "name": "Store",
           "package": "comonad",
@@ -665,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store",
           "name": "Store",
           "package": "comonad",
@@ -678,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store",
           "name": "ComonadStore",
           "package": "comonad",
@@ -686,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store",
           "name": "ComonadStore",
           "package": "comonad",
@@ -699,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store",
           "name": "Store",
           "package": "comonad",
@@ -707,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store",
           "name": "Store",
           "package": "comonad",
@@ -720,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store",
           "name": "StoreT",
           "package": "comonad",
@@ -728,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store",
           "name": "StoreT",
           "package": "comonad",
@@ -766,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store",
           "name": "experiment",
           "package": "comonad",
@@ -775,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store",
           "name": "experiment",
           "normalized": "(a-\u003eb a)-\u003ec d-\u003eb d",
@@ -789,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store",
           "name": "peek",
           "package": "comonad",
@@ -798,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store",
           "name": "peek",
           "normalized": "a-\u003eb c-\u003ec",
@@ -812,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store",
           "name": "peeks",
           "package": "comonad",
@@ -821,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store",
           "name": "peeks",
           "normalized": "(a-\u003ea)-\u003eb c-\u003ec",
@@ -835,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store",
           "name": "pos",
           "package": "comonad",
@@ -844,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store",
           "name": "pos",
           "normalized": "a b-\u003ec",
@@ -908,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store",
           "name": "seek",
           "package": "comonad",
@@ -917,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store",
           "name": "seek",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -931,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Store",
           "name": "seeks",
           "package": "comonad",
@@ -940,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Store",
           "name": "seeks",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -980,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Traced.Class",
           "name": "Class",
           "package": "comonad",
@@ -988,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Traced Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Traced.Class",
           "name": "Class",
           "package": "comonad",
@@ -1001,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Traced.Class",
           "name": "ComonadTraced",
           "package": "comonad",
@@ -1009,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Traced Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Traced.Class",
           "name": "ComonadTraced",
           "package": "comonad",
@@ -1022,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Traced.Class",
           "name": "trace",
           "package": "comonad",
@@ -1031,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Traced Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Traced.Class",
           "name": "trace",
           "normalized": "a-\u003eb c-\u003ec",
@@ -1069,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Traced",
           "name": "Traced",
           "package": "comonad",
@@ -1077,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Traced",
           "name": "Traced",
           "package": "comonad",
@@ -1090,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Traced",
           "name": "ComonadTraced",
           "package": "comonad",
@@ -1098,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Traced",
           "name": "ComonadTraced",
           "package": "comonad",
@@ -1111,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Traced",
           "name": "Traced",
           "package": "comonad",
@@ -1119,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Traced",
           "name": "Traced",
           "package": "comonad",
@@ -1132,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Traced",
           "name": "TracedT",
           "package": "comonad",
@@ -1140,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Traced",
           "name": "TracedT",
           "package": "comonad",
@@ -1226,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Traced",
           "name": "trace",
           "package": "comonad",
@@ -1235,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Traced",
           "name": "trace",
           "normalized": "a-\u003eb c-\u003ec",
@@ -1273,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Class",
           "name": "Class",
           "package": "comonad",
@@ -1281,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Class",
           "name": "Class",
           "package": "comonad",
@@ -1294,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Class",
           "name": "ComonadTrans",
           "package": "comonad",
@@ -1302,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Class",
           "name": "ComonadTrans",
           "package": "comonad",
@@ -1315,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Class",
           "name": "lower",
           "package": "comonad",
@@ -1324,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Class",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Class",
           "name": "lower",
           "normalized": "a b c-\u003eb c",
@@ -1339,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe environment comonad holds a value along with some retrievable context.\n\u003c/p\u003e\u003cp\u003eThis module specifies the environment comonad transformer (aka coreader),\n which is left adjoint to the reader comonad.\n\u003c/p\u003e\u003cp\u003eThe following sets up an experiment that retains its initial value in the\n background:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet initial = env 0 0\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cp\u003eExtract simply retrieves the value:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eextract initial\n\u003c/code\u003e\u003c/strong\u003e0\n\u003c/pre\u003e\u003cp\u003ePlay around with the value, in our case producing a negative value:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet experiment = fmap (+ 10) initial\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eextract experiment\n\u003c/code\u003e\u003c/strong\u003e10\n\u003c/pre\u003e\u003cp\u003eOh noes, something went wrong, 10 isn't very negative! Better restore the\n initial value using the default:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet initialRestored = experiment =\u003e\u003e ask\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eextract initialRestored\n\u003c/code\u003e\u003c/strong\u003e0\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Env",
           "name": "Env",
           "package": "comonad",
@@ -1348,6 +1435,7 @@
         "index": {
           "description": "The environment comonad holds value along with some retrievable context This module specifies the environment comonad transformer aka coreader which is left adjoint to the reader comonad The following sets up an experiment that retains its initial value in the background let initial env Extract simply retrieves the value extract initial Play around with the value in our case producing negative value let experiment fmap initial extract experiment Oh noes something went wrong isn very negative Better restore the initial value using the default let initialRestored experiment ask extract initialRestored",
           "hierarchy": "Control Comonad Trans Env",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Env",
           "name": "Env",
           "package": "comonad",
@@ -1361,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Env",
           "name": "Env",
           "package": "comonad",
@@ -1369,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Env",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Env",
           "name": "Env",
           "package": "comonad",
@@ -1382,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Env",
           "name": "EnvT",
           "package": "comonad",
@@ -1390,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Env",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Env",
           "name": "EnvT",
           "package": "comonad",
@@ -1404,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Env",
           "name": "ask",
           "package": "comonad",
@@ -1414,6 +1507,7 @@
         "index": {
           "description": "Retrieves the environment",
           "hierarchy": "Control Comonad Trans Env",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Env",
           "name": "ask",
           "normalized": "EnvT a b c-\u003ea",
@@ -1429,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eask\u003c/a\u003e\u003c/code\u003e, but modifies the resulting value with a function.\n\u003c/p\u003e\u003cpre\u003e asks = f . ask\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Env",
           "name": "asks",
           "package": "comonad",
@@ -1439,6 +1534,7 @@
         "index": {
           "description": "Like ask but modifies the resulting value with function asks ask",
           "hierarchy": "Control Comonad Trans Env",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Env",
           "name": "asks",
           "normalized": "(a-\u003eb)-\u003eEnvT a c d-\u003eb",
@@ -1454,6 +1550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets rid of the environment. This differs from \u003ccode\u003e\u003ca\u003eextract\u003c/a\u003e\u003c/code\u003e in that it will\n   not continue extracting the value from the contained comonad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Env",
           "name": "lowerEnvT",
           "package": "comonad",
@@ -1464,6 +1561,7 @@
         "index": {
           "description": "Gets rid of the environment This differs from extract in that it will not continue extracting the value from the contained comonad",
           "hierarchy": "Control Comonad Trans Env",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Env",
           "name": "lowerEnvT",
           "normalized": "EnvT a b c-\u003eb c",
@@ -1479,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Identity",
           "name": "Identity",
           "package": "comonad",
@@ -1487,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Identity",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Identity",
           "name": "Identity",
           "package": "comonad",
@@ -1500,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Identity",
           "name": "IdentityT",
           "package": "comonad",
@@ -1507,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Identity",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Identity",
           "name": "IdentityT",
           "package": "comonad",
@@ -1520,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Identity",
           "name": "IdentityT",
           "package": "comonad",
@@ -1528,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Identity",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Identity",
           "name": "IdentityT",
           "package": "comonad",
@@ -1541,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Identity",
           "name": "runIdentityT",
           "package": "comonad",
@@ -1549,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Identity",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Identity",
           "name": "runIdentityT",
           "package": "comonad",
@@ -1562,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Store",
           "name": "Store",
           "package": "comonad",
@@ -1570,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Store",
           "name": "Store",
           "package": "comonad",
@@ -1583,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Store",
           "name": "Store",
           "package": "comonad",
@@ -1591,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Store",
           "name": "Store",
           "package": "comonad",
@@ -1604,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Store",
           "name": "StoreT",
           "package": "comonad",
@@ -1612,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Store",
           "name": "StoreT",
           "package": "comonad",
@@ -1626,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a functor-valued function to the stored value, and then uses the\n   new accessor to read the resulting focus.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet f x = if x \u003e 0 then Just (x^2) else Nothing\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eexperiment f $ store (+1) 2\n\u003c/code\u003e\u003c/strong\u003eJust 5\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eexperiment f $ store (+1) (-2)\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Store",
           "name": "experiment",
           "package": "comonad",
@@ -1636,6 +1749,7 @@
         "index": {
           "description": "Applies functor-valued function to the stored value and then uses the new accessor to read the resulting focus let if then Just else Nothing experiment store Just experiment store Nothing",
           "hierarchy": "Control Comonad Trans Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Store",
           "name": "experiment",
           "normalized": "(a-\u003eb a)-\u003eStoreT a c d-\u003eb d",
@@ -1651,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeek at what the current focus would be for a different stored value\n\u003c/p\u003e\u003cp\u003ePeek satisfies the law\n\u003c/p\u003e\u003cpre\u003e peek x . extend (peek y) = peek y\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Store",
           "name": "peek",
           "package": "comonad",
@@ -1661,6 +1776,7 @@
         "index": {
           "description": "Peek at what the current focus would be for different stored value Peek satisfies the law peek extend peek peek",
           "hierarchy": "Control Comonad Trans Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Store",
           "name": "peek",
           "normalized": "a-\u003eStoreT a b c-\u003ec",
@@ -1676,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeek at what the current focus would be if the stored value was\n   modified by some function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Store",
           "name": "peeks",
           "package": "comonad",
@@ -1686,6 +1803,7 @@
         "index": {
           "description": "Peek at what the current focus would be if the stored value was modified by some function",
           "hierarchy": "Control Comonad Trans Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Store",
           "name": "peeks",
           "normalized": "(a-\u003ea)-\u003eStoreT a b c-\u003ec",
@@ -1701,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the stored value\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003epos $ store fst (1,5)\n\u003c/code\u003e\u003c/strong\u003e(1,5)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Store",
           "name": "pos",
           "package": "comonad",
@@ -1711,6 +1830,7 @@
         "index": {
           "description": "Read the stored value pos store fst",
           "hierarchy": "Control Comonad Trans Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Store",
           "name": "pos",
           "normalized": "StoreT a b c-\u003ea",
@@ -1726,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the stored value\n\u003c/p\u003e\u003cpre\u003e pos . seek (3,7) $ store fst (1,5)\n (3,7)\n\u003c/pre\u003e\u003cp\u003eSeek satisfies the law\n\u003c/p\u003e\u003cpre\u003e seek s = peek s . duplicate\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Store",
           "name": "seek",
           "package": "comonad",
@@ -1736,6 +1857,7 @@
         "index": {
           "description": "Set the stored value pos seek store fst Seek satisfies the law seek peek duplicate",
           "hierarchy": "Control Comonad Trans Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Store",
           "name": "seek",
           "normalized": "a-\u003eStoreT a b c-\u003eStoreT a b c",
@@ -1750,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Store",
           "name": "seeks",
           "package": "comonad",
@@ -1759,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Store",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Store",
           "name": "seeks",
           "normalized": "(a-\u003ea)-\u003eStoreT a b c-\u003eStoreT a b c",
@@ -1774,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe trace comonad builds up a result by prepending monoidal values to each\n other.\n\u003c/p\u003e\u003cp\u003eThis module specifies the traced comonad transformer (aka the cowriter or\n exponential comonad transformer).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Traced",
           "name": "Traced",
           "package": "comonad",
@@ -1783,6 +1908,7 @@
         "index": {
           "description": "The trace comonad builds up result by prepending monoidal values to each other This module specifies the traced comonad transformer aka the cowriter or exponential comonad transformer",
           "hierarchy": "Control Comonad Trans Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Traced",
           "name": "Traced",
           "package": "comonad",
@@ -1796,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Traced",
           "name": "Traced",
           "package": "comonad",
@@ -1804,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Traced",
           "name": "Traced",
           "package": "comonad",
@@ -1817,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Traced",
           "name": "TracedT",
           "package": "comonad",
@@ -1825,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Traced",
           "name": "TracedT",
           "package": "comonad",
@@ -1838,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Traced",
           "name": "censor",
           "package": "comonad",
@@ -1847,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Traced",
           "name": "censor",
           "normalized": "(a-\u003ea)-\u003eTracedT a b c-\u003eTracedT a b c",
@@ -1861,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Traced",
           "name": "listen",
           "package": "comonad",
@@ -1870,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Traced",
           "name": "listen",
           "normalized": "TracedT a b c-\u003eTracedT a b(c,a)",
@@ -1884,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Traced",
           "name": "listens",
           "package": "comonad",
@@ -1893,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Traced",
           "name": "listens",
           "normalized": "(a-\u003eb)-\u003eTracedT a c d-\u003eTracedT a c(d,b)",
@@ -1907,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad.Trans.Traced",
           "name": "trace",
           "package": "comonad",
@@ -1916,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Traced",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad.Trans.Traced",
           "name": "trace",
           "normalized": "a-\u003eTracedT a b c-\u003ec",
@@ -1930,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "Comonad",
           "package": "comonad",
@@ -1938,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "Comonad",
           "package": "comonad",
@@ -1952,6 +2092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eCokleisli\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eArrow\u003c/a\u003e\u003c/code\u003es of a given \u003ccode\u003e\u003ca\u003eComonad\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "Cokleisli",
           "package": "comonad",
@@ -1961,6 +2102,7 @@
         "index": {
           "description": "The Cokleisli Arrow of given Comonad",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "Cokleisli",
           "package": "comonad",
@@ -1975,6 +2117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are two ways to define a comonad:\n\u003c/p\u003e\u003cp\u003eI. Provide definitions for \u003ccode\u003e\u003ca\u003eextract\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eextend\u003c/a\u003e\u003c/code\u003e\nsatisfying these laws:\n\u003c/p\u003e\u003cpre\u003e extend extract      = id\n extract . extend f  = f\n extend f . extend g = extend (f . extend g)\n\u003c/pre\u003e\u003cp\u003eIn this case, you may simply set \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eliftW\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThese laws are directly analogous to the laws for monads\nand perhaps can be made clearer by viewing them as laws stating\nthat Cokleisli composition must be associative, and has extract for\na unit:\n\u003c/p\u003e\u003cpre\u003e f =\u003e= extract   = f\n extract =\u003e= f   = f\n (f =\u003e= g) =\u003e= h = f =\u003e= (g =\u003e= h)\n\u003c/pre\u003e\u003cp\u003eII. Alternately, you may choose to provide definitions for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e,\n\u003ccode\u003e\u003ca\u003eextract\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eduplicate\u003c/a\u003e\u003c/code\u003e satisfying these laws:\n\u003c/p\u003e\u003cpre\u003e extract . duplicate      = id\n fmap extract . duplicate = id\n duplicate . duplicate    = fmap duplicate . duplicate\n\u003c/pre\u003e\u003cp\u003eIn this case you may not rely on the ability to define \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e in\nterms of \u003ccode\u003e\u003ca\u003eliftW\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou may of course, choose to define both \u003ccode\u003e\u003ca\u003eduplicate\u003c/a\u003e\u003c/code\u003e \u003cem\u003eand\u003c/em\u003e \u003ccode\u003e\u003ca\u003eextend\u003c/a\u003e\u003c/code\u003e.\nIn that case you must also satisfy these laws:\n\u003c/p\u003e\u003cpre\u003e extend f  = fmap f . duplicate\n duplicate = extend id\n fmap f    = extend (f . extract)\n\u003c/pre\u003e\u003cp\u003eThese are the default definitions of \u003ccode\u003e\u003ca\u003eextend\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eduplicate\u003c/a\u003e\u003c/code\u003e and\nthe definition of \u003ccode\u003e\u003ca\u003eliftW\u003c/a\u003e\u003c/code\u003e respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "Comonad",
           "package": "comonad",
@@ -1984,6 +2127,7 @@
         "index": {
           "description": "There are two ways to define comonad Provide definitions for extract and extend satisfying these laws extend extract id extract extend extend extend extend extend In this case you may simply set fmap liftW These laws are directly analogous to the laws for monads and perhaps can be made clearer by viewing them as laws stating that Cokleisli composition must be associative and has extract for unit extract extract II Alternately you may choose to provide definitions for fmap extract and duplicate satisfying these laws extract duplicate id fmap extract duplicate id duplicate duplicate fmap duplicate duplicate In this case you may not rely on the ability to define fmap in terms of liftW You may of course choose to define both duplicate and extend In that case you must also satisfy these laws extend fmap duplicate duplicate extend id fmap extend extract These are the default definitions of extend and duplicate and the definition of liftW respectively",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "Comonad",
           "package": "comonad",
@@ -1998,6 +2142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eComonadApply\u003c/code\u003e is to \u003ccode\u003eComonad\u003c/code\u003e like \u003ccode\u003eApplicative\u003c/code\u003e is to \u003ccode\u003eMonad\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMathematically, it is a strong lax symmetric semi-monoidal comonad on the\n category \u003ccode\u003eHask\u003c/code\u003e of Haskell types. That it to say that \u003ccode\u003ew\u003c/code\u003e is a strong lax\n symmetric semi-monoidal functor on Hask, where both extract and duplicate are\n symmetric monoidal natural transformations.\n\u003c/p\u003e\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e (.) \u003c$\u003e u \u003c@\u003e v \u003c@\u003e w = u \u003c@\u003e (v \u003c@\u003e w)\n extract (p \u003c@\u003e q) = extract p (extract q)\n duplicate (p \u003c@\u003e q) = (\u003c@\u003e) \u003c$\u003e duplicate p \u003c@\u003e duplicate q\n\u003c/pre\u003e\u003cp\u003eIf our type is both a ComonadApply and Applicative we further require\n\u003c/p\u003e\u003cpre\u003e (\u003c*\u003e) = (\u003c@\u003e)\n\u003c/pre\u003e\u003cp\u003eFinally, if you choose to define (\u003ccode\u003e\u003ca\u003e\u003c@\u003c/a\u003e\u003c/code\u003e) and (\u003ccode\u003e\u003ca\u003e@\u003e\u003c/a\u003e\u003c/code\u003e), the results of your\n definitions should match the following laws:\n\u003c/p\u003e\u003cpre\u003e a @\u003e b = const id \u003c$\u003e a \u003c@\u003e b\n a \u003c@ b = const \u003c$\u003e a \u003c@\u003e b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "ComonadApply",
           "package": "comonad",
@@ -2007,6 +2152,7 @@
         "index": {
           "description": "ComonadApply is to Comonad like Applicative is to Monad Mathematically it is strong lax symmetric semi-monoidal comonad on the category Hask of Haskell types That it to say that is strong lax symmetric semi-monoidal functor on Hask where both extract and duplicate are symmetric monoidal natural transformations Laws extract extract extract duplicate duplicate duplicate If our type is both ComonadApply and Applicative we further require Finally if you choose to define and the results of your definitions should match the following laws const id const",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "ComonadApply",
           "package": "comonad",
@@ -2021,6 +2167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e class is used for types that can be mapped over.\nInstances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e should satisfy the following laws:\n\u003c/p\u003e\u003cpre\u003e fmap id  ==  id\n fmap (f . g)  ==  fmap f . fmap g\n\u003c/pre\u003e\u003cp\u003eThe instances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e for lists, \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\nsatisfy these laws.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "Functor",
           "package": "comonad",
@@ -2029,6 +2176,7 @@
         "index": {
           "description": "The Functor class is used for types that can be mapped over Instances of Functor should satisfy the following laws fmap id id fmap fmap fmap The instances of Functor for lists Maybe and IO satisfy these laws",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "Functor",
           "package": "comonad",
@@ -2043,6 +2191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the contents of a functor uniformly with a constant value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "($\u003e)",
           "package": "comonad",
@@ -2053,6 +2202,7 @@
         "index": {
           "description": "Replace the contents of functor uniformly with constant value",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "($\u003e) $\u003e",
           "normalized": "a b-\u003ec-\u003ea c",
@@ -2068,6 +2218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all locations in the input with the same value.\n The default definition is \u003ccode\u003e\u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, but this may be\n overridden with a more efficient version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "(\u003c$)",
           "package": "comonad",
@@ -2077,6 +2228,7 @@
         "index": {
           "description": "Replace all locations in the input with the same value The default definition is fmap const but this may be overridden with more efficient version",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "(\u003c$) \u003c$",
           "normalized": "a-\u003eb c-\u003eb a",
@@ -2092,6 +2244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "(\u003c$\u003e)",
           "package": "comonad",
@@ -2101,6 +2254,7 @@
         "index": {
           "description": "An infix synonym for fmap",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -2116,6 +2270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eextend\u003c/a\u003e\u003c/code\u003e in operator form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "(\u003c\u003c=)",
           "package": "comonad",
@@ -2126,6 +2281,7 @@
         "index": {
           "description": "extend in operator form",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "(\u003c\u003c=) \u003c\u003c=",
           "normalized": "(a b-\u003ec)-\u003ea b-\u003ea c",
@@ -2140,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "(\u003c@)",
           "package": "comonad",
@@ -2149,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "(\u003c@) \u003c@",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -2163,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "(\u003c@\u003e)",
           "package": "comonad",
@@ -2172,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "(\u003c@\u003e) \u003c@\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -2187,6 +2347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003e\u003c@\u003e\u003c/a\u003e\u003c/code\u003e with the arguments reversed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "(\u003c@@\u003e)",
           "package": "comonad",
@@ -2197,6 +2358,7 @@
         "index": {
           "description": "variant of with the arguments reversed",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "(\u003c@@\u003e) \u003c@@\u003e",
           "normalized": "a b-\u003ea(b-\u003ec)-\u003ea c",
@@ -2212,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-to-left Cokleisli composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "(=\u003c=)",
           "package": "comonad",
@@ -2222,6 +2385,7 @@
         "index": {
           "description": "Right-to-left Cokleisli composition",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "(=\u003c=) =\u003c=",
           "normalized": "(a b-\u003ec)-\u003e(a d-\u003eb)-\u003ea d-\u003ec",
@@ -2237,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-to-right Cokleisli composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "(=\u003e=)",
           "package": "comonad",
@@ -2247,6 +2412,7 @@
         "index": {
           "description": "Left-to-right Cokleisli composition",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "(=\u003e=) =\u003e=",
           "normalized": "(a b-\u003ec)-\u003e(a c-\u003ed)-\u003ea b-\u003ed",
@@ -2262,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eextend\u003c/a\u003e\u003c/code\u003e with the arguments swapped. Dual to \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "(=\u003e\u003e)",
           "package": "comonad",
@@ -2272,6 +2439,7 @@
         "index": {
           "description": "extend with the arguments swapped Dual to for Monad",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "(=\u003e\u003e) =\u003e\u003e",
           "normalized": "a b-\u003e(a b-\u003ec)-\u003ea c",
@@ -2286,6 +2454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "(@\u003e)",
           "package": "comonad",
@@ -2295,6 +2464,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "(@\u003e) @\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -2309,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "Cokleisli",
           "package": "comonad",
@@ -2318,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "Cokleisli",
           "package": "comonad",
@@ -2332,6 +2504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComonadic fixed point &#224; la Orchard\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "cfix",
           "package": "comonad",
@@ -2342,6 +2515,7 @@
         "index": {
           "description": "Comonadic fixed point la Orchard",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "cfix",
           "normalized": "(a b-\u003eb)-\u003ea b",
@@ -2357,6 +2531,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e duplicate = extend id\n fmap (fmap f) . duplicate = duplicate . fmap f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "duplicate",
           "package": "comonad",
@@ -2367,6 +2542,7 @@
         "index": {
           "description": "duplicate extend id fmap fmap duplicate duplicate fmap",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "duplicate",
           "normalized": "a b-\u003ea(a b)",
@@ -2382,6 +2558,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e extend f = fmap f . duplicate\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "extend",
           "package": "comonad",
@@ -2392,6 +2569,7 @@
         "index": {
           "description": "extend fmap duplicate",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "extend",
           "normalized": "(a b-\u003ec)-\u003ea b-\u003ea c",
@@ -2407,6 +2585,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e extract . fmap f = f . extract\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "extract",
           "package": "comonad",
@@ -2417,6 +2596,7 @@
         "index": {
           "description": "extract fmap extract",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "extract",
           "normalized": "a b-\u003eb",
@@ -2431,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "fmap",
           "package": "comonad",
@@ -2439,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "fmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -2454,6 +2636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA suitable default definition for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eComonad\u003c/a\u003e\u003c/code\u003e.\n Promotes a function to a comonad.\n\u003c/p\u003e\u003cpre\u003e fmap f = liftW f = extend (f . extract)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "liftW",
           "package": "comonad",
@@ -2464,6 +2647,7 @@
         "index": {
           "description": "suitable default definition for fmap for Comonad Promotes function to comonad fmap liftW extend extract",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "liftW",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -2479,6 +2663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a binary function into a comonad with zipping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "liftW2",
           "package": "comonad",
@@ -2489,6 +2674,7 @@
         "index": {
           "description": "Lift binary function into comonad with zipping",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "liftW2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -2504,6 +2690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a ternary function into a comonad with zipping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "liftW3",
           "package": "comonad",
@@ -2514,6 +2701,7 @@
         "index": {
           "description": "Lift ternary function into comonad with zipping",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "liftW3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ee a-\u003ee b-\u003ee c-\u003ee d",
@@ -2528,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "runCokleisli",
           "package": "comonad",
@@ -2537,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "runCokleisli",
           "normalized": "a b-\u003ec",
@@ -2553,6 +2743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComonadic fixed point &#224; la Menendez\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Control.Comonad",
           "name": "wfix",
           "package": "comonad",
@@ -2563,6 +2754,7 @@
         "index": {
           "description": "Comonadic fixed point la Menendez",
           "hierarchy": "Control Comonad",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Control.Comonad",
           "name": "wfix",
           "normalized": "a(a b-\u003eb)-\u003eb",
@@ -2577,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Data.Functor.Composition",
           "name": "Composition",
           "package": "comonad",
@@ -2585,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Composition",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Data.Functor.Composition",
           "name": "Composition",
           "package": "comonad",
@@ -2599,6 +2793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe often need to distinguish between various forms of Functor-like composition in Haskell in order to please the type system.\n This lets us work with these representations uniformly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Data.Functor.Composition",
           "name": "Composition",
           "package": "comonad",
@@ -2608,6 +2803,7 @@
         "index": {
           "description": "We often need to distinguish between various forms of Functor-like composition in Haskell in order to please the type system This lets us work with these representations uniformly",
           "hierarchy": "Data Functor Composition",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Data.Functor.Composition",
           "name": "Composition",
           "package": "comonad",
@@ -2621,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Data.Functor.Composition",
           "name": "compose",
           "package": "comonad",
@@ -2630,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Composition",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Data.Functor.Composition",
           "name": "compose",
           "normalized": "a(b c)-\u003ed a b c",
@@ -2644,6 +2842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Data.Functor.Composition",
           "name": "decompose",
           "package": "comonad",
@@ -2653,6 +2852,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Composition",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Data.Functor.Composition",
           "name": "decompose",
           "normalized": "a b c d-\u003eb(c d)",
@@ -2667,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Data.Functor.Coproduct",
           "name": "Coproduct",
           "package": "comonad",
@@ -2675,6 +2876,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Coproduct",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Data.Functor.Coproduct",
           "name": "Coproduct",
           "package": "comonad",
@@ -2688,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Data.Functor.Coproduct",
           "name": "Coproduct",
           "package": "comonad",
@@ -2696,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Coproduct",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Data.Functor.Coproduct",
           "name": "Coproduct",
           "package": "comonad",
@@ -2709,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Data.Functor.Coproduct",
           "name": "Coproduct",
           "package": "comonad",
@@ -2718,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Coproduct",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Data.Functor.Coproduct",
           "name": "Coproduct",
           "package": "comonad",
@@ -2731,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Data.Functor.Coproduct",
           "name": "coproduct",
           "package": "comonad",
@@ -2740,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Coproduct",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Data.Functor.Coproduct",
           "name": "coproduct",
           "normalized": "(a b-\u003ec)-\u003e(d b-\u003ec)-\u003eCoproduct a d b-\u003ec",
@@ -2754,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Data.Functor.Coproduct",
           "name": "getCoproduct",
           "package": "comonad",
@@ -2763,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Coproduct",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Data.Functor.Coproduct",
           "name": "getCoproduct",
           "package": "comonad",
@@ -2776,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Data.Functor.Coproduct",
           "name": "left",
           "package": "comonad",
@@ -2785,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Coproduct",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Data.Functor.Coproduct",
           "name": "left",
           "normalized": "a b-\u003eCoproduct a c b",
@@ -2799,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:41 UTC 2014",
           "module": "Data.Functor.Coproduct",
           "name": "right",
           "package": "comonad",
@@ -2808,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Coproduct",
+          "indexed": "2014-03-11T17:36:41",
           "module": "Data.Functor.Coproduct",
           "name": "right",
           "normalized": "a b-\u003eCoproduct c a b",

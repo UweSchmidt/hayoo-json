@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rounding"
+        "phrase": "rounding",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "Rounding",
           "package": "rounding",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "Rounding",
           "package": "rounding",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "Down",
           "package": "rounding",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "Down",
           "package": "rounding",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "Precision",
           "package": "rounding",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "Precision",
           "package": "rounding",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "Round",
           "package": "rounding",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "Round",
           "package": "rounding",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "Rounding",
           "package": "rounding",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "Rounding",
           "package": "rounding",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "ToNearest",
           "package": "rounding",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "ToNearest",
           "package": "rounding",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "Trunc",
           "package": "rounding",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "Trunc",
           "package": "rounding",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "Up",
           "package": "rounding",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "Up",
           "package": "rounding",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "Round",
           "package": "rounding",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "Round",
           "package": "rounding",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "down",
           "package": "rounding",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "down",
           "normalized": "a-\u003eRound Down a",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "runDown",
           "package": "rounding",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "runDown",
           "normalized": "Round Down a-\u003ea",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "runTrunc",
           "package": "rounding",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "runTrunc",
           "normalized": "Round Trunc a-\u003ea",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "runUp",
           "package": "rounding",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "runUp",
           "normalized": "Round Up a-\u003ea",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "trunc",
           "package": "rounding",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "trunc",
           "normalized": "a-\u003eRound Trunc a",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:15 UTC 2014",
           "module": "Numeric.Rounding",
           "name": "up",
           "package": "rounding",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Numeric Rounding",
+          "indexed": "2014-03-11T19:55:15",
           "module": "Numeric.Rounding",
           "name": "up",
           "normalized": "a-\u003eRound Up a",

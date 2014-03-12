@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "QuadEdge"
+        "phrase": "QuadEdge",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Base",
           "package": "QuadEdge",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Base",
           "package": "QuadEdge",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Direction",
           "package": "QuadEdge",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Direction",
           "package": "QuadEdge",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Edge",
           "package": "QuadEdge",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Edge",
           "package": "QuadEdge",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "EdgeRef",
           "package": "QuadEdge",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "EdgeRef",
           "package": "QuadEdge",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "EdgeTable",
           "package": "QuadEdge",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "EdgeTable",
           "package": "QuadEdge",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Index",
           "package": "QuadEdge",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Index",
           "package": "QuadEdge",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Orientation",
           "package": "QuadEdge",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Orientation",
           "package": "QuadEdge",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Edge",
           "package": "QuadEdge",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Edge",
           "package": "QuadEdge",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Flipped",
           "package": "QuadEdge",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Flipped",
           "package": "QuadEdge",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Normal",
           "package": "QuadEdge",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Normal",
           "package": "QuadEdge",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Rot0",
           "package": "QuadEdge",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Rot0",
           "package": "QuadEdge",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Rot1",
           "package": "QuadEdge",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Rot1",
           "package": "QuadEdge",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Rot2",
           "package": "QuadEdge",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Rot2",
           "package": "QuadEdge",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "Rot3",
           "package": "QuadEdge",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "Rot3",
           "package": "QuadEdge",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "attributes",
           "package": "QuadEdge",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "attributes",
           "package": "QuadEdge",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "decrDir",
           "package": "QuadEdge",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "decrDir",
           "normalized": "Direction-\u003eDirection",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "edgeTable",
           "package": "QuadEdge",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "edgeTable",
           "package": "QuadEdge",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "edgesET",
           "package": "QuadEdge",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "edgesET",
           "normalized": "EdgeTable-\u003e[EdgeRef]",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "emptyET",
           "package": "QuadEdge",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "emptyET",
           "normalized": "Index-\u003eEdgeTable",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "flip",
           "package": "QuadEdge",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "flip",
           "normalized": "EdgeRef-\u003eEdgeRef",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "incrDir",
           "package": "QuadEdge",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "incrDir",
           "normalized": "Direction-\u003eDirection",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "isDual",
           "package": "QuadEdge",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "isDual",
           "normalized": "EdgeRef-\u003eBool",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "isFlipped",
           "package": "QuadEdge",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "isFlipped",
           "normalized": "EdgeRef-\u003eBool",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "isPrimal",
           "package": "QuadEdge",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "isPrimal",
           "normalized": "EdgeRef-\u003eBool",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "lookupET",
           "package": "QuadEdge",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "lookupET",
           "normalized": "Direction-\u003eEdgeTable-\u003eEdgeRef",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "rot",
           "package": "QuadEdge",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "rot",
           "normalized": "EdgeRef-\u003eEdgeRef",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "rotInv",
           "package": "QuadEdge",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "rotInv",
           "normalized": "EdgeRef-\u003eEdgeRef",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "sym",
           "package": "QuadEdge",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "sym",
           "normalized": "EdgeRef-\u003eEdgeRef",
@@ -647,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge.Base",
           "name": "updateET",
           "package": "QuadEdge",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge Base",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge.Base",
           "name": "updateET",
           "normalized": "EdgeTable-\u003eDirection-\u003eEdgeRef-\u003eEdgeTable",
@@ -672,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe quad-edge data structure is commonly used in computational geometry for representing triangulations.\n     It represents simultaneously both the map, its dual and mirror image.\n\u003c/p\u003e\u003cp\u003eThe fundamental idea behind the quad-edge structure is the recognition that a single edge, in a closed\n     polygonal mesh topology, sits between exactly two faces and exactly two vertices. Thus, it can represent\n     a dual of the graph simply by reversing the convention on what is a vertex and what is a face.\n\u003c/p\u003e\u003cp\u003eThe quad-edge data structure is described in the paper by Leonidas J. Guibas and Jorge Stolfi,\n     \"Primitives for the manipulation of general subdivisions and the computation of Voronoi diagrams\",\n     ACM Transactions on Graphics, 4(2), 1985, 75-123.\n\u003c/p\u003e\u003cp\u003eThis implementation is based on Stream Fusion and seems to yield similar performance to mutable implementations\n     in the ST monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "QuadEdge",
           "package": "QuadEdge",
@@ -681,6 +740,7 @@
         "index": {
           "description": "The quad-edge data structure is commonly used in computational geometry for representing triangulations It represents simultaneously both the map its dual and mirror image The fundamental idea behind the quad-edge structure is the recognition that single edge in closed polygonal mesh topology sits between exactly two faces and exactly two vertices Thus it can represent dual of the graph simply by reversing the convention on what is vertex and what is face The quad-edge data structure is described in the paper by Leonidas Guibas and Jorge Stolfi Primitives for the manipulation of general subdivisions and the computation of Voronoi diagrams ACM Transactions on Graphics This implementation is based on Stream Fusion and seems to yield similar performance to mutable implementations in the ST monad",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "QuadEdge",
           "package": "QuadEdge",
@@ -694,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "MQEDS",
           "package": "QuadEdge",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "MQEDS",
           "package": "QuadEdge",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "QEDS",
           "package": "QuadEdge",
@@ -723,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "QEDS",
           "package": "QuadEdge",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "comp",
           "package": "QuadEdge",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "comp",
           "normalized": "(EdgeRef-\u003ea)-\u003e(b-\u003eEdgeRef)-\u003eQEDS c-\u003eb-\u003ea",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "compM",
           "package": "QuadEdge",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "compM",
           "normalized": "(EdgeRef-\u003ea)-\u003e(b-\u003eEdgeRef)-\u003eMQEDS c d-\u003eb-\u003eST c a",
@@ -783,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete an edge while in mutate mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "deleteEdgeM",
           "package": "QuadEdge",
@@ -793,6 +862,7 @@
         "index": {
           "description": "Delete an edge while in mutate mode",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "deleteEdgeM",
           "normalized": "MQEDS a b-\u003eEdgeRef-\u003eST a()",
@@ -809,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a set of edges in one pass, using mutate and deleteEdgeM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "deleteEdges",
           "package": "QuadEdge",
@@ -819,6 +890,7 @@
         "index": {
           "description": "Delete set of edges in one pass using mutate and deleteEdgeM",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "deleteEdges",
           "normalized": "QEDS a-\u003eStream EdgeRef-\u003eQEDS a",
@@ -835,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCCW around the destination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "dnext",
           "package": "QuadEdge",
@@ -845,6 +918,7 @@
         "index": {
           "description": "CCW around the destination",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "dnext",
           "normalized": "QEDS a-\u003eEdgeRef-\u003eEdgeRef",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "dnextM",
           "package": "QuadEdge",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "dnextM",
           "normalized": "MQEDS a b-\u003eEdgeRef-\u003eST a EdgeRef",
@@ -883,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCW around the destination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "dprev",
           "package": "QuadEdge",
@@ -893,6 +970,7 @@
         "index": {
           "description": "CW around the destination",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "dprev",
           "normalized": "QEDS a-\u003eEdgeRef-\u003eEdgeRef",
@@ -907,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "dprevM",
           "package": "QuadEdge",
@@ -916,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "dprevM",
           "normalized": "MQEDS a b-\u003eEdgeRef-\u003eST a EdgeRef",
@@ -931,6 +1011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all valid edge references in the QEDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "edgerefs",
           "package": "QuadEdge",
@@ -941,6 +1022,7 @@
         "index": {
           "description": "Return all valid edge references in the QEDS",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "edgerefs",
           "normalized": "QEDS a-\u003eVector EdgeRef",
@@ -956,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all valid edges in the QEDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "edges",
           "package": "QuadEdge",
@@ -966,6 +1049,7 @@
         "index": {
           "description": "Return all valid edges in the QEDS",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "edges",
           "normalized": "QEDS a-\u003eVector(Edge a)",
@@ -981,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up the attributes of an edge. The edge must be valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "getAttr",
           "package": "QuadEdge",
@@ -991,6 +1076,7 @@
         "index": {
           "description": "Look up the attributes of an edge The edge must be valid",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "getAttr",
           "normalized": "QEDS a-\u003eEdgeRef-\u003ea",
@@ -1007,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up an edge. The edge must be valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "getEdge",
           "package": "QuadEdge",
@@ -1017,6 +1104,7 @@
         "index": {
           "description": "Look up an edge The edge must be valid",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "getEdge",
           "normalized": "QEDS a-\u003eEdgeRef-\u003eEdge a",
@@ -1033,6 +1121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if an EdgeRef points to an active Edge\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "isValid",
           "package": "QuadEdge",
@@ -1043,6 +1132,7 @@
         "index": {
           "description": "Check if an EdgeRef points to an active Edge",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "isValid",
           "normalized": "QEDS a-\u003eEdgeRef-\u003eBool",
@@ -1059,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCCW around the left face\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "lnext",
           "package": "QuadEdge",
@@ -1069,6 +1160,7 @@
         "index": {
           "description": "CCW around the left face",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "lnext",
           "normalized": "QEDS a-\u003eEdgeRef-\u003eEdgeRef",
@@ -1083,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "lnextM",
           "package": "QuadEdge",
@@ -1092,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "lnextM",
           "normalized": "MQEDS a b-\u003eEdgeRef-\u003eST a EdgeRef",
@@ -1107,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCW around the left face\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "lprev",
           "package": "QuadEdge",
@@ -1117,6 +1212,7 @@
         "index": {
           "description": "CW around the left face",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "lprev",
           "normalized": "QEDS a-\u003eEdgeRef-\u003eEdgeRef",
@@ -1131,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "lprevM",
           "package": "QuadEdge",
@@ -1140,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "lprevM",
           "normalized": "MQEDS a b-\u003eEdgeRef-\u003eST a EdgeRef",
@@ -1154,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "makeEdge",
           "package": "QuadEdge",
@@ -1163,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "makeEdge",
           "normalized": "QEDS a-\u003ea-\u003e(QEDS a,EdgeRef)",
@@ -1178,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "makeEdges",
           "package": "QuadEdge",
@@ -1187,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "makeEdges",
           "normalized": "QEDS a-\u003eStream a-\u003e(QEDS a,Stream EdgeRef)",
@@ -1203,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens up the QEDS for in-place toplogical modification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "mutate",
           "package": "QuadEdge",
@@ -1213,6 +1316,7 @@
         "index": {
           "description": "Opens up the QEDS for in-place toplogical modification",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "mutate",
           "normalized": "QEDS a-\u003e(b c MQEDS d a-\u003eST d())-\u003eQEDS a",
@@ -1228,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new edge and open up the QEDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "mutateNE",
           "package": "QuadEdge",
@@ -1238,6 +1343,7 @@
         "index": {
           "description": "Create new edge and open up the QEDS",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "mutateNE",
           "normalized": "QEDS a-\u003ea-\u003e(EdgeRef-\u003eb c MQEDS d a-\u003eST d())-\u003e(QEDS a,EdgeRef)",
@@ -1254,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a group of new edges and open up the QEDS \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "mutateNEs",
           "package": "QuadEdge",
@@ -1264,6 +1371,7 @@
         "index": {
           "description": "Create group of new edges and open up the QEDS",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "mutateNEs",
           "normalized": "QEDS a-\u003e[a]-\u003e([EdgeRef]-\u003eb c MQEDS d a-\u003eST d())-\u003e(QEDS a,[EdgeRef])",
@@ -1280,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty QEDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "new",
           "package": "QuadEdge",
@@ -1290,6 +1399,7 @@
         "index": {
           "description": "Create an empty QEDS",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "new",
           "package": "QuadEdge",
@@ -1303,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCCW around the origin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "onext",
           "package": "QuadEdge",
@@ -1313,6 +1424,7 @@
         "index": {
           "description": "CCW around the origin",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "onext",
           "normalized": "QEDS a-\u003eEdgeRef-\u003eEdgeRef",
@@ -1327,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "onextM",
           "package": "QuadEdge",
@@ -1336,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "onextM",
           "normalized": "MQEDS a b-\u003eEdgeRef-\u003eST a EdgeRef",
@@ -1351,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCW around the origin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "oprev",
           "package": "QuadEdge",
@@ -1361,6 +1476,7 @@
         "index": {
           "description": "CW around the origin",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "oprev",
           "normalized": "QEDS a-\u003eEdgeRef-\u003eEdgeRef",
@@ -1375,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "oprevM",
           "package": "QuadEdge",
@@ -1384,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "oprevM",
           "normalized": "MQEDS a b-\u003eEdgeRef-\u003eST a EdgeRef",
@@ -1399,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a random valid EdgeRef\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "randomEdgeRef",
           "package": "QuadEdge",
@@ -1409,6 +1528,7 @@
         "index": {
           "description": "Return random valid EdgeRef",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "randomEdgeRef",
           "normalized": "QEDS a-\u003eb-\u003e(EdgeRef,b)",
@@ -1425,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a stream of adjacent edges using the given Adjacency Operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "ring",
           "package": "QuadEdge",
@@ -1435,6 +1556,7 @@
         "index": {
           "description": "Returns stream of adjacent edges using the given Adjacency Operator",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "ring",
           "normalized": "QEDS a-\u003e(QEDS a-\u003eEdgeRef-\u003eEdgeRef)-\u003eEdgeRef-\u003eStream EdgeRef",
@@ -1450,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCCW around the right face\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "rnext",
           "package": "QuadEdge",
@@ -1460,6 +1583,7 @@
         "index": {
           "description": "CCW around the right face",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "rnext",
           "normalized": "QEDS a-\u003eEdgeRef-\u003eEdgeRef",
@@ -1474,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "rnextM",
           "package": "QuadEdge",
@@ -1483,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "rnextM",
           "normalized": "MQEDS a b-\u003eEdgeRef-\u003eST a EdgeRef",
@@ -1498,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCW around the right face\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "rprev",
           "package": "QuadEdge",
@@ -1508,6 +1635,7 @@
         "index": {
           "description": "CW around the right face",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "rprev",
           "normalized": "QEDS a-\u003eEdgeRef-\u003eEdgeRef",
@@ -1522,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "rprevM",
           "package": "QuadEdge",
@@ -1531,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "rprevM",
           "normalized": "MQEDS a b-\u003eEdgeRef-\u003eST a EdgeRef",
@@ -1546,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe QuadEdge splice operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "spliceM",
           "package": "QuadEdge",
@@ -1556,6 +1687,7 @@
         "index": {
           "description": "The QuadEdge splice operator",
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "spliceM",
           "normalized": "MQEDS a b-\u003eEdgeRef-\u003eEdgeRef-\u003eST a()",
@@ -1570,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "updateAttr",
           "package": "QuadEdge",
@@ -1579,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "updateAttr",
           "normalized": "QEDS a-\u003eEdgeRef-\u003ea-\u003eQEDS a",
@@ -1594,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:51 UTC 2014",
           "module": "Data.QuadEdge",
           "name": "updateEdge",
           "package": "QuadEdge",
@@ -1603,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Data QuadEdge",
+          "indexed": "2014-03-11T16:57:51",
           "module": "Data.QuadEdge",
           "name": "updateEdge",
           "normalized": "QEDS a-\u003eEdgeRef-\u003eEdge a-\u003eQEDS a",

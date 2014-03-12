@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskoin-script"
+        "phrase": "haskoin-script",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides arbitrary instances for data types in\n  \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script.Arbitrary",
           "name": "Arbitrary",
           "package": "haskoin-script",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides arbitrary instances for data types in Script",
           "hierarchy": "Network Haskoin Script Arbitrary",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script.Arbitrary",
           "name": "Arbitrary",
           "package": "haskoin-script",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for generating an arbitrary \u003ccode\u003e\u003ca\u003eScriptOp\u003c/a\u003e\u003c/code\u003e with a value in\n [OP_1 .. OP_16]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script.Arbitrary",
           "name": "ScriptOpInt",
           "package": "haskoin-script",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Data type for generating an arbitrary ScriptOp with value in OP OP",
           "hierarchy": "Network Haskoin Script Arbitrary",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script.Arbitrary",
           "name": "ScriptOpInt",
           "package": "haskoin-script",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script.Arbitrary",
           "name": "ScriptOpInt",
           "package": "haskoin-script",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script Arbitrary",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script.Arbitrary",
           "name": "ScriptOpInt",
           "package": "haskoin-script",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an arbitrary \u003ccode\u003e\u003ca\u003eScriptOutput\u003c/a\u003e\u003c/code\u003e of value PayMulSig.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script.Arbitrary",
           "name": "genPayMulSig",
           "package": "haskoin-script",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Generate an arbitrary ScriptOutput of value PayMulSig",
           "hierarchy": "Network Haskoin Script Arbitrary",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script.Arbitrary",
           "name": "genPayMulSig",
           "package": "haskoin-script",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an arbitrary \u003ccode\u003e\u003ca\u003eScriptInput\u003c/a\u003e\u003c/code\u003e of value SpendMulSig.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script.Arbitrary",
           "name": "genSpendMulSig",
           "package": "haskoin-script",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Generate an arbitrary ScriptInput of value SpendMulSig",
           "hierarchy": "Network Haskoin Script Arbitrary",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script.Arbitrary",
           "name": "genSpendMulSig",
           "package": "haskoin-script",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package provides functions for parsing and evaluating bitcoin\n  transaction scripts. Data types are provided for building and\n  deconstructing all of the standard input and output script types. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "Script",
           "package": "haskoin-script",
@@ -144,6 +155,7 @@
         "index": {
           "description": "This package provides functions for parsing and evaluating bitcoin transaction scripts Data types are provided for building and deconstructing all of the standard input and output script types",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "Script",
           "package": "haskoin-script",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "RedeemScript",
           "package": "haskoin-script",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "RedeemScript",
           "package": "haskoin-script",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type describing an input script spending a pay to script hash\n output. To spend a script hash output, an input script must provide\n both a redeem script and a regular input script spending the redeem \n script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "ScriptHashInput",
           "package": "haskoin-script",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Data type describing an input script spending pay to script hash output To spend script hash output an input script must provide both redeem script and regular input script spending the redeem script",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "ScriptHashInput",
           "package": "haskoin-script",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type describing standard transaction input scripts. Input scripts\n provide the signing data required to unlock the coins of the output they are\n trying to spend. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "ScriptInput",
           "package": "haskoin-script",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Data type describing standard transaction input scripts Input scripts provide the signing data required to unlock the coins of the output they are trying to spend",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "ScriptInput",
           "package": "haskoin-script",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type describing standard transaction output scripts. Output scripts\n provide the conditions that must be fulfilled for someone to spend the\n output coins. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "ScriptOutput",
           "package": "haskoin-script",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Data type describing standard transaction output scripts Output scripts provide the conditions that must be fulfilled for someone to spend the output coins",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "ScriptOutput",
           "package": "haskoin-script",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing the different ways a transaction can be signed.\n When producing a signature, a hash of the transaction is used as the message\n to be signed. The \u003ccode\u003e\u003ca\u003eSigHash\u003c/a\u003e\u003c/code\u003e parameter controls which parts of the\n transaction are used or ignored to produce the transaction hash. The idea is\n that if some part of a transaction is not used to produce the transaction\n hash, then you can change that part of the transaction after producing a\n signature without invalidating that signature.\n\u003c/p\u003e\u003cp\u003eIf the anyoneCanPay flag is True, then only the current input is signed.\n Otherwise, all of the inputs of a transaction are signed. The default value\n for anyoneCanPay is False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "SigHash",
           "package": "haskoin-script",
@@ -257,6 +278,7 @@
         "index": {
           "description": "Data type representing the different ways transaction can be signed When producing signature hash of the transaction is used as the message to be signed The SigHash parameter controls which parts of the transaction are used or ignored to produce the transaction hash The idea is that if some part of transaction is not used to produce the transaction hash then you can change that part of the transaction after producing signature without invalidating that signature If the anyoneCanPay flag is True then only the current input is signed Otherwise all of the inputs of transaction are signed The default value for anyoneCanPay is False",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "SigHash",
           "package": "haskoin-script",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing a \u003ccode\u003e\u003ca\u003eSignature\u003c/a\u003e\u003c/code\u003e together with a \u003ccode\u003e\u003ca\u003eSigHash\u003c/a\u003e\u003c/code\u003e. The\n \u003ccode\u003e\u003ca\u003eSigHash\u003c/a\u003e\u003c/code\u003e is serialized as one byte at the end of a regular ECDSA\n \u003ccode\u003e\u003ca\u003eSignature\u003c/a\u003e\u003c/code\u003e. All signatures in transaction inputs are of type \u003ccode\u003e\u003ca\u003eTxSignature\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "TxSignature",
           "package": "haskoin-script",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Data type representing Signature together with SigHash The SigHash is serialized as one byte at the end of regular ECDSA Signature All signatures in transaction inputs are of type TxSignature",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "TxSignature",
           "package": "haskoin-script",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePay to multiple public keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "PayMulSig",
           "package": "haskoin-script",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Pay to multiple public keys",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "PayMulSig",
           "package": "haskoin-script",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePay to a public key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "PayPK",
           "package": "haskoin-script",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Pay to public key",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "PayPK",
           "package": "haskoin-script",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePay to a public key hash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "PayPKHash",
           "package": "haskoin-script",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Pay to public key hash",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "PayPKHash",
           "package": "haskoin-script",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePay to a script hash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "PayScriptHash",
           "package": "haskoin-script",
@@ -376,6 +407,7 @@
         "index": {
           "description": "Pay to script hash",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "PayScriptHash",
           "package": "haskoin-script",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "ScriptHashInput",
           "package": "haskoin-script",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "ScriptHashInput",
           "package": "haskoin-script",
@@ -412,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign all of the outputs of a transaction (This is the default value).\n Changing any of the outputs of the transaction will invalidate the\n signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "SigAll",
           "package": "haskoin-script",
@@ -422,6 +457,7 @@
         "index": {
           "description": "Sign all of the outputs of transaction This is the default value Changing any of the outputs of the transaction will invalidate the signature",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "SigAll",
           "package": "haskoin-script",
@@ -436,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign none of the outputs of a transaction. This allows anyone to\n change any of the outputs of the transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "SigNone",
           "package": "haskoin-script",
@@ -446,6 +483,7 @@
         "index": {
           "description": "Sign none of the outputs of transaction This allows anyone to change any of the outputs of the transaction",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "SigNone",
           "package": "haskoin-script",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign only the output corresponding the the current transaction input.\n You care about your own output in the transaction but you don't\n care about any of the other outputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "SigSingle",
           "package": "haskoin-script",
@@ -470,6 +509,7 @@
         "index": {
           "description": "Sign only the output corresponding the the current transaction input You care about your own output in the transaction but you don care about any of the other outputs",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "SigSingle",
           "package": "haskoin-script",
@@ -484,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnrecognized sighash types will decode to SigUnknown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "SigUnknown",
           "package": "haskoin-script",
@@ -494,6 +535,7 @@
         "index": {
           "description": "Unrecognized sighash types will decode to SigUnknown",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "SigUnknown",
           "package": "haskoin-script",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpend the coins of a PayMulSig output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "SpendMulSig",
           "package": "haskoin-script",
@@ -518,6 +561,7 @@
         "index": {
           "description": "Spend the coins of PayMulSig output",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "SpendMulSig",
           "package": "haskoin-script",
@@ -532,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpend the coins of a PayPK output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "SpendPK",
           "package": "haskoin-script",
@@ -542,6 +587,7 @@
         "index": {
           "description": "Spend the coins of PayPK output",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "SpendPK",
           "package": "haskoin-script",
@@ -556,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpend the coins of a PayPKHash output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "SpendPKHash",
           "package": "haskoin-script",
@@ -566,6 +613,7 @@
         "index": {
           "description": "Spend the coins of PayPKHash output",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "SpendPKHash",
           "package": "haskoin-script",
@@ -579,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "TxSignature",
           "package": "haskoin-script",
@@ -588,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "TxSignature",
           "package": "haskoin-script",
@@ -601,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "anyoneCanPay",
           "package": "haskoin-script",
@@ -610,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "anyoneCanPay",
           "package": "haskoin-script",
@@ -624,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003e\u003ca\u003eTxSignature\u003c/a\u003e\u003c/code\u003e from a ByteString. This function will check if\n the signature is canonical and fail if it is not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "decodeCanonicalSig",
           "package": "haskoin-script",
@@ -634,6 +687,7 @@
         "index": {
           "description": "Decode TxSignature from ByteString This function will check if the signature is canonical and fail if it is not",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "decodeCanonicalSig",
           "normalized": "ByteString-\u003eEither String TxSignature",
@@ -650,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecodes a \u003ccode\u003e\u003ca\u003eScriptInput\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e. This function fails if the \n script can not be parsed as a standard script input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "decodeInput",
           "package": "haskoin-script",
@@ -660,6 +715,7 @@
         "index": {
           "description": "Decodes ScriptInput from Script This function fails if the script can not be parsed as standard script input",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "decodeInput",
           "normalized": "Script-\u003eEither String ScriptInput",
@@ -676,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to decode a \u003ccode\u003e\u003ca\u003eScriptOutput\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e. This can fail if the\n script is not recognized as any of the standard output types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "decodeOutput",
           "package": "haskoin-script",
@@ -686,6 +743,7 @@
         "index": {
           "description": "Tries to decode ScriptOutput from Script This can fail if the script is not recognized as any of the standard output types",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "decodeOutput",
           "normalized": "Script-\u003eEither String ScriptOutput",
@@ -702,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to decode a \u003ccode\u003e\u003ca\u003eScriptHashInput\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e. This function fails\n if the script can not be parsed as a script hash input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "decodeScriptHash",
           "package": "haskoin-script",
@@ -712,6 +771,7 @@
         "index": {
           "description": "Tries to decode ScriptHashInput from Script This function fails if the script can not be parsed as script hash input",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "decodeScriptHash",
           "normalized": "Script-\u003eEither String ScriptHashInput",
@@ -728,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003e\u003ca\u003eTxSignature\u003c/a\u003e\u003c/code\u003e from a ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "decodeSig",
           "package": "haskoin-script",
@@ -738,6 +799,7 @@
         "index": {
           "description": "Decode TxSignature from ByteString",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "decodeSig",
           "normalized": "ByteString-\u003eEither String TxSignature",
@@ -754,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes a \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eScriptInput\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e is a list of \n \u003ccode\u003e\u003ca\u003eScriptOp\u003c/a\u003e\u003c/code\u003e can can be used to build a \u003ccode\u003e\u003ca\u003eTx\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "encodeInput",
           "package": "haskoin-script",
@@ -764,6 +827,7 @@
         "index": {
           "description": "Computes Script from ScriptInput The Script is list of ScriptOp can can be used to build Tx",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "encodeInput",
           "normalized": "ScriptInput-\u003eScript",
@@ -780,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes a \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eScriptOutput\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e is a list of \n \u003ccode\u003e\u003ca\u003eScriptOp\u003c/a\u003e\u003c/code\u003e can can be used to build a \u003ccode\u003e\u003ca\u003eTx\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "encodeOutput",
           "package": "haskoin-script",
@@ -790,6 +855,7 @@
         "index": {
           "description": "Computes Script from ScriptOutput The Script is list of ScriptOp can can be used to build Tx",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "encodeOutput",
           "normalized": "ScriptOutput-\u003eScript",
@@ -806,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eScriptHashInput\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e is a list of \n \u003ccode\u003e\u003ca\u003eScriptOp\u003c/a\u003e\u003c/code\u003e can can be used to build a \u003ccode\u003e\u003ca\u003eTx\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "encodeScriptHash",
           "package": "haskoin-script",
@@ -816,6 +883,7 @@
         "index": {
           "description": "Compute Script from ScriptHashInput The Script is list of ScriptOp can can be used to build Tx",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "encodeScriptHash",
           "normalized": "ScriptHashInput-\u003eScript",
@@ -832,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a \u003ccode\u003e\u003ca\u003eTxSignature\u003c/a\u003e\u003c/code\u003e to a ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "encodeSig",
           "package": "haskoin-script",
@@ -842,6 +911,7 @@
         "index": {
           "description": "Serialize TxSignature to ByteString",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "encodeSig",
           "normalized": "TxSignature-\u003eByteString",
@@ -858,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes a \u003ccode\u003e\u003ca\u003eSigHash\u003c/a\u003e\u003c/code\u003e to a 32 bit-long bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "encodeSigHash32",
           "package": "haskoin-script",
@@ -868,6 +939,7 @@
         "index": {
           "description": "Encodes SigHash to bit-long bytestring",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "encodeSigHash32",
           "normalized": "SigHash-\u003eByteString",
@@ -883,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "getInputKey",
           "package": "haskoin-script",
@@ -892,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "getInputKey",
           "package": "haskoin-script",
@@ -905,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "getInputMulSigKeys",
           "package": "haskoin-script",
@@ -914,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "getInputMulSigKeys",
           "normalized": "[TxSignature]",
@@ -929,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "getInputMulSigRequired",
           "package": "haskoin-script",
@@ -938,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "getInputMulSigRequired",
           "package": "haskoin-script",
@@ -951,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "getInputSig",
           "package": "haskoin-script",
@@ -960,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "getInputSig",
           "package": "haskoin-script",
@@ -973,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "getOutputAddress",
           "package": "haskoin-script",
@@ -982,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "getOutputAddress",
           "package": "haskoin-script",
@@ -995,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "getOutputMulSigKeys",
           "package": "haskoin-script",
@@ -1004,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "getOutputMulSigKeys",
           "normalized": "[PubKey]",
@@ -1019,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "getOutputMulSigRequired",
           "package": "haskoin-script",
@@ -1028,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "getOutputMulSigRequired",
           "package": "haskoin-script",
@@ -1041,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "getOutputPubKey",
           "package": "haskoin-script",
@@ -1050,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "getOutputPubKey",
           "package": "haskoin-script",
@@ -1063,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "getSigCode",
           "package": "haskoin-script",
@@ -1072,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "getSigCode",
           "package": "haskoin-script",
@@ -1086,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms integers [1 .. 16] to \u003ccode\u003e\u003ca\u003eScriptOp\u003c/a\u003e\u003c/code\u003e [OP_1 .. OP_16]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "intToScriptOp",
           "package": "haskoin-script",
@@ -1096,6 +1187,7 @@
         "index": {
           "description": "Transforms integers to ScriptOp OP OP",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "intToScriptOp",
           "normalized": "Int-\u003eScriptOp",
@@ -1112,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the script is a pay to multiple public keys output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "isPayMulSig",
           "package": "haskoin-script",
@@ -1122,6 +1215,7 @@
         "index": {
           "description": "Returns True if the script is pay to multiple public keys output",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "isPayMulSig",
           "normalized": "ScriptOutput-\u003eBool",
@@ -1138,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the script is a pay to public key output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "isPayPK",
           "package": "haskoin-script",
@@ -1148,6 +1243,7 @@
         "index": {
           "description": "Returns True if the script is pay to public key output",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "isPayPK",
           "normalized": "ScriptOutput-\u003eBool",
@@ -1164,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the script is a pay to public key hash output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "isPayPKHash",
           "package": "haskoin-script",
@@ -1174,6 +1271,7 @@
         "index": {
           "description": "Returns True if the script is pay to public key hash output",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "isPayPKHash",
           "normalized": "ScriptOutput-\u003eBool",
@@ -1190,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the script is a pay to script hash output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "isPayScriptHash",
           "package": "haskoin-script",
@@ -1200,6 +1299,7 @@
         "index": {
           "description": "Returns true if the script is pay to script hash output",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "isPayScriptHash",
           "normalized": "ScriptOutput-\u003eBool",
@@ -1216,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eSigHash\u003c/a\u003e\u003c/code\u003e has the value SigAll.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "isSigAll",
           "package": "haskoin-script",
@@ -1226,6 +1327,7 @@
         "index": {
           "description": "Returns True if the SigHash has the value SigAll",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "isSigAll",
           "normalized": "SigHash-\u003eBool",
@@ -1242,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eSigHash\u003c/a\u003e\u003c/code\u003e has the value SigNone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "isSigNone",
           "package": "haskoin-script",
@@ -1252,6 +1355,7 @@
         "index": {
           "description": "Returns True if the SigHash has the value SigNone",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "isSigNone",
           "normalized": "SigHash-\u003eBool",
@@ -1268,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eSigHash\u003c/a\u003e\u003c/code\u003e has the value SigSingle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "isSigSingle",
           "package": "haskoin-script",
@@ -1278,6 +1383,7 @@
         "index": {
           "description": "Returns True if the SigHash has the value SigSingle",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "isSigSingle",
           "normalized": "SigHash-\u003eBool",
@@ -1294,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eSigHash\u003c/a\u003e\u003c/code\u003e has the value SigUnknown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "isSigUnknown",
           "package": "haskoin-script",
@@ -1304,6 +1411,7 @@
         "index": {
           "description": "Returns True if the SigHash has the value SigUnknown",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "isSigUnknown",
           "normalized": "SigHash-\u003eBool",
@@ -1320,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the input script is spending a multisignature output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "isSpendMulSig",
           "package": "haskoin-script",
@@ -1330,6 +1439,7 @@
         "index": {
           "description": "Returns True if the input script is spending multisignature output",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "isSpendMulSig",
           "normalized": "ScriptInput-\u003eBool",
@@ -1346,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the input script is spending a public key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "isSpendPK",
           "package": "haskoin-script",
@@ -1356,6 +1467,7 @@
         "index": {
           "description": "Returns True if the input script is spending public key",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "isSpendPK",
           "normalized": "ScriptInput-\u003eBool",
@@ -1372,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the input script is spending a public key hash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "isSpendPKHash",
           "package": "haskoin-script",
@@ -1382,6 +1495,7 @@
         "index": {
           "description": "Returns True if the input script is spending public key hash",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "isSpendPKHash",
           "normalized": "ScriptInput-\u003eBool",
@@ -1398,6 +1512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes a script address from a script output. This address can be used\n in a pay to script hash output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "scriptAddr",
           "package": "haskoin-script",
@@ -1408,6 +1523,7 @@
         "index": {
           "description": "Computes script address from script output This address can be used in pay to script hash output",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "scriptAddr",
           "normalized": "ScriptOutput-\u003eAddress",
@@ -1424,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eScriptOp\u003c/a\u003e\u003c/code\u003e [OP_1 .. OP_16] to integers [1 .. 16]. This functions\n fails for other values of \u003ccode\u003e\u003ca\u003eScriptOp\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "scriptOpToInt",
           "package": "haskoin-script",
@@ -1434,6 +1551,7 @@
         "index": {
           "description": "Decode ScriptOp OP OP to integers This functions fails for other values of ScriptOp",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "scriptOpToInt",
           "normalized": "ScriptOp-\u003eEither String Int",
@@ -1450,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the recipient address of a script. This function fails if the\n script could not be decoded as a pay to public key hash or pay to script\n hash. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "scriptRecipient",
           "package": "haskoin-script",
@@ -1460,6 +1579,7 @@
         "index": {
           "description": "Computes the recipient address of script This function fails if the script could not be decoded as pay to public key hash or pay to script hash",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "scriptRecipient",
           "normalized": "Script-\u003eEither String Address",
@@ -1476,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the sender address of a script. This function fails if the\n script could not be decoded as a spend public key hash or script hash\n input. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "scriptSender",
           "package": "haskoin-script",
@@ -1486,6 +1607,7 @@
         "index": {
           "description": "Computes the sender address of script This function fails if the script could not be decoded as spend public key hash or script hash input",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "scriptSender",
           "normalized": "Script-\u003eEither String Address",
@@ -1501,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "sigHashType",
           "package": "haskoin-script",
@@ -1510,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "sigHashType",
           "package": "haskoin-script",
@@ -1524,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSorts the public keys of a multisignature output in ascending order by\n comparing their serialized representations. This feature allows for easier\n multisignature account management as participants in a multisignature wallet\n will blindly agree on an ordering of the public keys without having to\n communicate. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "sortMulSig",
           "package": "haskoin-script",
@@ -1534,6 +1659,7 @@
         "index": {
           "description": "Sorts the public keys of multisignature output in ascending order by comparing their serialized representations This feature allows for easier multisignature account management as participants in multisignature wallet will blindly agree on an ordering of the public keys without having to communicate",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "sortMulSig",
           "normalized": "ScriptOutput-\u003eScriptOutput",
@@ -1550,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput script spending the redeem script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "spendSHInput",
           "package": "haskoin-script",
@@ -1560,6 +1687,7 @@
         "index": {
           "description": "Input script spending the redeem script",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "spendSHInput",
           "package": "haskoin-script",
@@ -1574,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedeem script\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "spendSHOutput",
           "package": "haskoin-script",
@@ -1584,6 +1713,7 @@
         "index": {
           "description": "Redeem script",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "spendSHOutput",
           "package": "haskoin-script",
@@ -1598,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the hash that will be used for signing a transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "txSigHash",
           "package": "haskoin-script",
@@ -1607,6 +1738,7 @@
         "index": {
           "description": "Computes the hash that will be used for signing transaction",
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "txSigHash",
           "normalized": "Tx-\u003eScript-\u003eInt-\u003eSigHash-\u003eHash",
@@ -1622,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:25 UTC 2014",
           "module": "Network.Haskoin.Script",
           "name": "txSignature",
           "package": "haskoin-script",
@@ -1631,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Network Haskoin Script",
+          "indexed": "2014-03-11T18:33:25",
           "module": "Network.Haskoin.Script",
           "name": "txSignature",
           "package": "haskoin-script",

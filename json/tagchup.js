@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tagchup"
+        "phrase": "tagchup",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert a tag soup to its text representation\nrespecting various conventions for merging open and close tags.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Format",
           "name": "Format",
           "package": "tagchup",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Convert tag soup to its text representation respecting various conventions for merging open and close tags",
           "hierarchy": "Text HTML Tagchup Format",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Format",
           "name": "Format",
           "package": "tagchup",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll tags that are defined being self-closing by the HTML standard\nare formatted only as open tag.\nE.g. \u003ccode\u003e\u003ca\u003ebr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Format",
           "name": "html",
           "package": "tagchup",
@@ -52,6 +55,7 @@
         "index": {
           "description": "All tags that are defined being self-closing by the HTML standard are formatted only as open tag E.g br",
           "hierarchy": "Text HTML Tagchup Format",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Format",
           "name": "html",
           "normalized": "[T a b]-\u003eShowS",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the first tag is \u003ccode\u003e\u003ca\u003e...?\u003c/a\u003e\u003c/code\u003e then format in XHTML style,\nelse in HTML style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Format",
           "name": "htmlOrXhtml",
           "package": "tagchup",
@@ -77,6 +82,7 @@
         "index": {
           "description": "If the first tag is then format in XHTML style else in HTML style",
           "hierarchy": "Text HTML Tagchup Format",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Format",
           "name": "htmlOrXhtml",
           "normalized": "[T a b]-\u003eShowS",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll tags that are defined being self-closing by the XHTML standard\nare formatted as self-closing open tag.\nE.g. \u003ccode\u003e\u003ca\u003ebr/\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Format",
           "name": "xhtml",
           "package": "tagchup",
@@ -103,6 +110,7 @@
         "index": {
           "description": "All tags that are defined being self-closing by the XHTML standard are formatted as self-closing open tag E.g br",
           "hierarchy": "Text HTML Tagchup Format",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Format",
           "name": "xhtml",
           "normalized": "[T a b]-\u003eShowS",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll tags are formatted as they are.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Format",
           "name": "xml",
           "package": "tagchup",
@@ -128,6 +137,7 @@
         "index": {
           "description": "All tags are formatted as they are",
           "hierarchy": "Text HTML Tagchup Format",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Format",
           "name": "xml",
           "normalized": "[T a b]-\u003eShowS",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjacent corresponding open and close tags are merged to a self-closing tag.\nE.g. \u003ccode\u003e\u003ca\u003ea\u003c/a\u003e\u003ca\u003e/a\u003c/a\u003e\u003c/code\u003e becomes \u003ccode\u003e\u003ca\u003ea/\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Format",
           "name": "xmlCondensed",
           "package": "tagchup",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Adjacent corresponding open and close tags are merged to self-closing tag E.g becomes",
           "hierarchy": "Text HTML Tagchup Format",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Format",
           "name": "xmlCondensed",
           "normalized": "[T a b]-\u003eShowS",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse a string into our custom tag soup data structure.\n\u003c/p\u003e\u003cp\u003eThe parser works only on proper Unicode texts.\nThat is, you must have decoded it before,\ne.g. using decoding functions from hxt or encoding package.\n\u003ccode\u003e\u003ca\u003efindMetaEncoding\u003c/a\u003e\u003c/code\u003e\ncan assist you retrieving the character set encoding\nfrom meta information of the document at hand.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "Parser",
           "package": "tagchup",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Parse string into our custom tag soup data structure The parser works only on proper Unicode texts That is you must have decoded it before e.g using decoding functions from hxt or encoding package findMetaEncoding can assist you retrieving the character set encoding from meta information of the document at hand",
           "hierarchy": "Text HTML Tagchup Parser",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "Parser",
           "package": "tagchup",
@@ -191,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "CharType",
           "package": "tagchup",
@@ -199,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Parser",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "CharType",
           "package": "tagchup",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the inner of a single tag.\nThat is, \u003ccode\u003erunTag \"\u003cbla\u003e\"\u003c/code\u003e is the same as \u003ccode\u003erunInnerOfTag \"bla\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "runInnerOfTag",
           "package": "tagchup",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Parse the inner of single tag That is runTag bla is the same as runInnerOfTag bla",
           "hierarchy": "Text HTML Tagchup Parser",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "runInnerOfTag",
           "normalized": "String-\u003eT a b",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erunSoupWithPositions\u003c/a\u003e\u003c/code\u003e but hides source file positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "runSoup",
           "package": "tagchup",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Like runSoupWithPositions but hides source file positions",
           "hierarchy": "Text HTML Tagchup Parser",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "runSoup",
           "normalized": "a-\u003e[T b c]",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an HTML document to a list of \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e.\n Automatically expands out escape characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "runSoupWithPositions",
           "package": "tagchup",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Parse an HTML document to list of Automatically expands out escape characters",
           "hierarchy": "Text HTML Tagchup Parser",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "runSoupWithPositions",
           "normalized": "a-\u003e[T b c]",
@@ -290,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "runSoupWithPositionsName",
           "package": "tagchup",
@@ -299,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Parser",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "runSoupWithPositionsName",
           "normalized": "FilePath-\u003ea-\u003e[T b c]",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single tag, throws an error if there is a syntax error.\nThis is useful for parsing a match pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "runTag",
           "package": "tagchup",
@@ -325,6 +350,7 @@
         "index": {
           "description": "Parse single tag throws an error if there is syntax error This is useful for parsing match pattern",
           "hierarchy": "Text HTML Tagchup Parser",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Parser",
           "name": "runTag",
           "normalized": "a-\u003eT b c",
@@ -340,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "PositionTag",
           "package": "tagchup",
@@ -348,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "PositionTag",
           "package": "tagchup",
@@ -361,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "T",
           "package": "tagchup",
@@ -369,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "T",
           "package": "tagchup",
@@ -381,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "Cons",
           "package": "tagchup",
@@ -390,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "Cons",
           "package": "tagchup",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge adjacent Text sections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "concatTexts",
           "package": "tagchup",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Merge adjacent Text sections",
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "concatTexts",
           "normalized": "[T a b]-\u003e[T a b]",
@@ -429,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "cons",
           "package": "tagchup",
@@ -438,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "cons",
           "normalized": "T-\u003eT a b-\u003eT a b",
@@ -452,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "lift",
           "package": "tagchup",
@@ -461,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "lift",
           "normalized": "(T a b-\u003eT a b)-\u003eT a b-\u003eT a b",
@@ -475,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "liftA",
           "package": "tagchup",
@@ -484,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "liftA",
           "normalized": "(T a b-\u003ec(T a b))-\u003eT a b-\u003ec(T a b)",
@@ -498,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "position",
           "package": "tagchup",
@@ -507,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "position",
           "package": "tagchup",
@@ -519,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "position_",
           "package": "tagchup",
@@ -528,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "position_",
           "package": "tagchup",
@@ -540,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "tag",
           "package": "tagchup",
@@ -549,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "tag",
           "package": "tagchup",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "tag_",
           "package": "tagchup",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "tag_",
           "package": "tagchup",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "textFromCData",
           "package": "tagchup",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup PositionTag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.PositionTag",
           "name": "textFromCData",
           "normalized": "T a[b]-\u003eT a[b]",
@@ -606,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "Process",
           "package": "tagchup",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "Process",
           "package": "tagchup",
@@ -628,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshould be [Word8]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "Encoded",
           "package": "tagchup",
@@ -636,6 +689,7 @@
         "index": {
           "description": "should be Word8",
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "Encoded",
           "package": "tagchup",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "Encoding",
           "package": "tagchup",
@@ -657,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "Encoding",
           "package": "tagchup",
@@ -671,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects a decoder dynamically according\nto xml-encoding and meta-http-equiv tags.\nThe \u003ccode\u003e?xml\u003c/code\u003e tag should only appear at the beginning of a document,\nbut we respect it at every occurence.\n\u003c/p\u003e\u003cpre\u003e import qualified Text.XML.HXT.DOM.Unicode as Unicode\n\u003c/pre\u003e\u003cpre\u003e evalDecodeAdaptive .\n decodeAdaptive\n    (maybe Unicode.latin1ToUnicode (fst.) .\n     Unicode.getDecodingFct)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "decodeAdaptive",
           "package": "tagchup",
@@ -681,6 +738,7 @@
         "index": {
           "description": "Selects decoder dynamically according to xml-encoding and meta-http-equiv tags The xml tag should only appear at the beginning of document but we respect it at every occurence import qualified Text.XML.HXT.DOM.Unicode as Unicode evalDecodeAdaptive decodeAdaptive maybe Unicode.latin1ToUnicode fst Unicode.getDecodingFct",
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "decodeAdaptive",
           "normalized": "(Encoding-\u003eEncoded-\u003eString)-\u003e[T a[T]]-\u003eState(Encoded-\u003eString)[T a String]",
@@ -697,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edecodeTagAdaptive decoderSelector tag\u003c/code\u003e generates a state monad,\nwith a decoder as state.\nIt decodes encoding specific byte sequences\nusing the current decoder\nand XML references using a fixed table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "decodeTagAdaptive",
           "package": "tagchup",
@@ -707,6 +766,7 @@
         "index": {
           "description": "decodeTagAdaptive decoderSelector tag generates state monad with decoder as state It decodes encoding specific byte sequences using the current decoder and XML references using fixed table",
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "decodeTagAdaptive",
           "normalized": "(Encoding-\u003eEncoded-\u003eString)-\u003eT a[T]-\u003eState(Encoded-\u003eString)(T a String)",
@@ -722,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "evalDecodeAdaptive",
           "package": "tagchup",
@@ -731,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "evalDecodeAdaptive",
           "normalized": "State(Encoded-\u003eString)a-\u003ea",
@@ -747,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRather the same as \u003ccode\u003ewraxml:HTML.Tree.findMetaEncoding\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "findMetaEncoding",
           "package": "tagchup",
@@ -757,6 +820,7 @@
         "index": {
           "description": "Rather the same as wraxml HTML.Tree.findMetaEncoding",
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "findMetaEncoding",
           "normalized": "[T a String]-\u003eMaybe String",
@@ -772,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "getHeadTags",
           "package": "tagchup",
@@ -781,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "getHeadTags",
           "normalized": "[T a b]-\u003e[T a b]",
@@ -797,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract META tags which contain HTTP-EQUIV attribute\nand present these values like HTTP headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "getMetaHTTPHeaders",
           "package": "tagchup",
@@ -807,6 +874,7 @@
         "index": {
           "description": "Extract META tags which contain HTTP-EQUIV attribute and present these values like HTTP headers",
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "getMetaHTTPHeaders",
           "normalized": "[T a b]-\u003e[(b,b)]",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the first tag is an \u003ccode\u003exml\u003c/code\u003e processing instruction tag\nand return the value of its \u003ccode\u003eencoding\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "getXMLEncoding",
           "package": "tagchup",
@@ -833,6 +902,7 @@
         "index": {
           "description": "Check whether the first tag is an xml processing instruction tag and return the value of its encoding attribute",
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "getXMLEncoding",
           "normalized": "[T a String]-\u003eMaybe String",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify attributes and tags of certain parts.\nFor limitations, see \u003ccode\u003e\u003ca\u003eparts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "partAttrs",
           "package": "tagchup",
@@ -859,6 +930,7 @@
         "index": {
           "description": "Modify attributes and tags of certain parts For limitations see parts",
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "partAttrs",
           "normalized": "(Name a-\u003eBool)-\u003e(([T a b],[T a b])-\u003e([T a b],[T a b]))-\u003e[T a b]-\u003e[T a b]",
@@ -875,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract parts from the tag soup\nthat are enclosed in corresponding open and close tags.\nIf a close tag is missing, the soup end is considered as end of the part.\nHowever nested tags are not supported,\ne.g. in \u003ccode\u003e\u003ca\u003ea\u003c/a\u003e\u003ca\u003ea\u003c/a\u003e\u003ca\u003e/a\u003c/a\u003e\u003ca\u003e/a\u003c/a\u003e\u003c/code\u003e the second \u003ccode\u003e\u003ca\u003ea\u003c/a\u003e\u003c/code\u003e is considered\nto be enclosed in the first \u003ccode\u003e\u003ca\u003ea\u003c/a\u003e\u003c/code\u003e and the first \u003ccode\u003e\u003ca\u003e/a\u003c/a\u003e\u003c/code\u003e\nand the second \u003ccode\u003e\u003ca\u003e/a\u003c/a\u003e\u003c/code\u003e is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Process",
           "name": "parts",
           "package": "tagchup",
@@ -885,6 +958,7 @@
         "index": {
           "description": "Extract parts from the tag soup that are enclosed in corresponding open and close tags If close tag is missing the soup end is considered as end of the part However nested tags are not supported e.g in the second is considered to be enclosed in the first and the first and the second is ignored",
           "hierarchy": "Text HTML Tagchup Process",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Process",
           "name": "parts",
           "normalized": "(Name a-\u003eBool)-\u003e[T a b]-\u003e[Either((Name a,[T a b]),[T a b])[T a b]]",
@@ -899,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "Match",
           "package": "tagchup",
@@ -907,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "Match",
           "package": "tagchup",
@@ -921,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch an closing tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "close",
           "package": "tagchup",
@@ -931,6 +1008,7 @@
         "index": {
           "description": "match an closing tag",
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "close",
           "normalized": "(Name a-\u003eBool)-\u003eT a b-\u003eBool",
@@ -946,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch a closing tag's name literally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "closeLit",
           "package": "tagchup",
@@ -956,6 +1035,7 @@
         "index": {
           "description": "match closing tag name literally",
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "closeLit",
           "normalized": "String-\u003eT a b-\u003eBool",
@@ -972,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eClose\u003c/a\u003e\u003c/code\u003e and matches the given name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "closeNameLit",
           "package": "tagchup",
@@ -982,6 +1063,7 @@
         "index": {
           "description": "Check whether the is Close and matches the given name",
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "closeNameLit",
           "normalized": "String-\u003eT a b-\u003eBool",
@@ -997,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "comment",
           "package": "tagchup",
@@ -1006,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "comment",
           "normalized": "(String-\u003eBool)-\u003eT a b-\u003eBool",
@@ -1020,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "ignore",
           "package": "tagchup",
@@ -1029,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "ignore",
           "normalized": "a-\u003eBool",
@@ -1044,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch an opening tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "open",
           "package": "tagchup",
@@ -1054,6 +1141,7 @@
         "index": {
           "description": "match an opening tag",
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "open",
           "normalized": "(Name a-\u003eBool)-\u003e([T a b]-\u003eBool)-\u003eT a b-\u003eBool",
@@ -1068,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "openAttrLit",
           "package": "tagchup",
@@ -1077,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "openAttrLit",
           "normalized": "String-\u003eString-\u003ea-\u003eT b a-\u003eBool",
@@ -1093,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a tag with given name, that contains an attribute\nwith given name, that satisfies a predicate.\nIf an attribute occurs multiple times,\nall occurrences are checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "openAttrNameLit",
           "package": "tagchup",
@@ -1103,6 +1194,7 @@
         "index": {
           "description": "Match tag with given name that contains an attribute with given name that satisfies predicate If an attribute occurs multiple times all occurrences are checked",
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "openAttrNameLit",
           "normalized": "String-\u003eString-\u003e(a-\u003eBool)-\u003eT b a-\u003eBool",
@@ -1119,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch a opening tag's name literally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "openLit",
           "package": "tagchup",
@@ -1129,6 +1222,7 @@
         "index": {
           "description": "match opening tag name literally",
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "openLit",
           "normalized": "String-\u003e([T a b]-\u003eBool)-\u003eT a b-\u003eBool",
@@ -1145,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eOpen\u003c/a\u003e\u003c/code\u003e and matches the given name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "openNameLit",
           "package": "tagchup",
@@ -1155,6 +1250,7 @@
         "index": {
           "description": "Check whether the is Open and matches the given name",
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "openNameLit",
           "normalized": "String-\u003eT a b-\u003eBool",
@@ -1170,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "special",
           "package": "tagchup",
@@ -1179,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "special",
           "normalized": "(Name a-\u003eBool)-\u003e(String-\u003eBool)-\u003eT a b-\u003eBool",
@@ -1194,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch a text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "text",
           "package": "tagchup",
@@ -1204,6 +1303,7 @@
         "index": {
           "description": "match text",
           "hierarchy": "Text HTML Tagchup Tag Match",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag.Match",
           "name": "text",
           "normalized": "(a-\u003eBool)-\u003eT b a-\u003eBool",
@@ -1218,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Tag",
           "package": "tagchup",
@@ -1226,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Tag",
           "package": "tagchup",
@@ -1239,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Name",
           "package": "tagchup",
@@ -1246,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Name",
           "package": "tagchup",
@@ -1260,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTML element, a document is \u003ccode\u003e[T]\u003c/code\u003e.\nThere is no requirement for \u003ccode\u003e\u003ca\u003eOpen\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eClose\u003c/a\u003e\u003c/code\u003e to match.\n\u003c/p\u003e\u003cp\u003eThe type parameter \u003ccode\u003estring\u003c/code\u003e lets you choose between\n\u003ccode\u003e[Char]\u003c/code\u003e for interpreted HTML entity references and\n\u003ccode\u003e[HTMLChar.T]\u003c/code\u003e for uninterpreted HTML entities.\nYou will most oftenly want plain \u003ccode\u003eChar\u003c/code\u003e,\nsince \u003ccode\u003eHTMLChar.T\u003c/code\u003e is only necessary if you want to know,\nwhether a non-ASCII character was encoded as HTML entity\nor as non-ASCII Unicode character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "T",
           "package": "tagchup",
@@ -1269,6 +1374,7 @@
         "index": {
           "description": "An HTML element document is There is no requirement for Open and Close to match The type parameter string lets you choose between Char for interpreted HTML entity references and HTMLChar.T for uninterpreted HTML entities You will most oftenly want plain Char since HTMLChar.T is only necessary if you want to know whether non-ASCII character was encoded as HTML entity or as non-ASCII Unicode character",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "T",
           "package": "tagchup",
@@ -1282,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA closing tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Close",
           "package": "tagchup",
@@ -1292,6 +1399,7 @@
         "index": {
           "description": "closing tag",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Close",
           "package": "tagchup",
@@ -1306,6 +1414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Comment",
           "package": "tagchup",
@@ -1316,6 +1425,7 @@
         "index": {
           "description": "comment",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Comment",
           "package": "tagchup",
@@ -1329,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Name",
           "package": "tagchup",
@@ -1337,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Name",
           "package": "tagchup",
@@ -1351,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn open tag with \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003es in their original order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Open",
           "package": "tagchup",
@@ -1361,6 +1474,7 @@
         "index": {
           "description": "An open tag with in their original order",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Open",
           "normalized": "Open(Name a)[T a b]",
@@ -1377,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tag like \u003ccode\u003e\u003c?xml ...\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Processing",
           "package": "tagchup",
@@ -1387,6 +1502,7 @@
         "index": {
           "description": "tag like xml",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Processing",
           "package": "tagchup",
@@ -1401,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tag like \u003ccode\u003e\u003c!DOCTYPE ...\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Special",
           "package": "tagchup",
@@ -1411,6 +1528,7 @@
         "index": {
           "description": "tag like DOCTYPE",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Special",
           "package": "tagchup",
@@ -1425,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA text node, guaranteed not to be the empty string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Text",
           "package": "tagchup",
@@ -1435,6 +1554,7 @@
         "index": {
           "description": "text node guaranteed not to be the empty string",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Text",
           "package": "tagchup",
@@ -1449,6 +1569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark a syntax error in the input file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Warning",
           "package": "tagchup",
@@ -1459,6 +1580,7 @@
         "index": {
           "description": "Mark syntax error in the input file",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "Warning",
           "package": "tagchup",
@@ -1472,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "cdata",
           "package": "tagchup",
@@ -1481,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "cdata",
           "normalized": "String-\u003eT a b",
@@ -1495,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "close",
           "package": "tagchup",
@@ -1504,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "close",
           "normalized": "Name a-\u003eT a b",
@@ -1518,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "comment",
           "package": "tagchup",
@@ -1527,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "comment",
           "normalized": "String-\u003eT a b",
@@ -1542,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge adjacent Text sections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "concatTexts",
           "package": "tagchup",
@@ -1552,6 +1681,7 @@
         "index": {
           "description": "Merge adjacent Text sections",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "concatTexts",
           "normalized": "[T a b]-\u003e[T a b]",
@@ -1567,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "formatClose",
           "package": "tagchup",
@@ -1576,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "formatClose",
           "normalized": "Name a-\u003eShowS",
@@ -1591,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "formatOpen",
           "package": "tagchup",
@@ -1600,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "formatOpen",
           "normalized": "Bool-\u003eName a-\u003e[T a b]-\u003eShowS",
@@ -1616,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all text content from tags (similar to Verbatim found in HaXml)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "innerText",
           "package": "tagchup",
@@ -1626,6 +1761,7 @@
         "index": {
           "description": "Extract all text content from tags similar to Verbatim found in HaXml",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "innerText",
           "normalized": "[T a b]-\u003eb",
@@ -1641,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isCData",
           "package": "tagchup",
@@ -1650,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isCData",
           "normalized": "T a b-\u003eBool",
@@ -1666,6 +1804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eClose\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isClose",
           "package": "tagchup",
@@ -1676,6 +1815,7 @@
         "index": {
           "description": "Test if is Close",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isClose",
           "normalized": "T a b-\u003eBool",
@@ -1691,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isComment",
           "package": "tagchup",
@@ -1700,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isComment",
           "normalized": "T a b-\u003eBool",
@@ -1716,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eOpen\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isOpen",
           "package": "tagchup",
@@ -1726,6 +1869,7 @@
         "index": {
           "description": "Test if is Open",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isOpen",
           "normalized": "T a b-\u003eBool",
@@ -1741,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isProcessing",
           "package": "tagchup",
@@ -1750,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isProcessing",
           "normalized": "T a b-\u003eBool",
@@ -1765,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isSpecial",
           "package": "tagchup",
@@ -1774,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isSpecial",
           "normalized": "T a b-\u003eBool",
@@ -1790,6 +1938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isText",
           "package": "tagchup",
@@ -1800,6 +1949,7 @@
         "index": {
           "description": "Test if is Text",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isText",
           "normalized": "T a b-\u003eBool",
@@ -1815,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isWarning",
           "package": "tagchup",
@@ -1824,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "isWarning",
           "normalized": "T a b-\u003eBool",
@@ -1839,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "mapName",
           "package": "tagchup",
@@ -1848,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "mapName",
           "normalized": "(Name a-\u003eName a)-\u003e(Name a-\u003eName a)-\u003eT a b-\u003eT a b",
@@ -1864,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify content of a Text or a CDATA part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "mapText",
           "package": "tagchup",
@@ -1874,6 +2029,7 @@
         "index": {
           "description": "Modify content of Text or CDATA part",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "mapText",
           "normalized": "(String-\u003eString)-\u003eT a String-\u003eT a String",
@@ -1889,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "mapTextA",
           "package": "tagchup",
@@ -1898,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "mapTextA",
           "normalized": "(String-\u003ea String)-\u003eT b String-\u003ea(T b String)",
@@ -1913,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeCData",
           "package": "tagchup",
@@ -1922,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeCData",
           "normalized": "T a b-\u003eMaybe String",
@@ -1937,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeClose",
           "package": "tagchup",
@@ -1946,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeClose",
           "normalized": "T a b-\u003eMaybe(Name a)",
@@ -1961,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeComment",
           "package": "tagchup",
@@ -1970,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeComment",
           "normalized": "T a b-\u003eMaybe String",
@@ -1985,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeOpen",
           "package": "tagchup",
@@ -1994,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeOpen",
           "normalized": "T a b-\u003eMaybe(Name a,[T a b])",
@@ -2009,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeProcessing",
           "package": "tagchup",
@@ -2018,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeProcessing",
           "normalized": "T a b-\u003eMaybe(Name a,T a b)",
@@ -2033,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeSpecial",
           "package": "tagchup",
@@ -2042,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeSpecial",
           "normalized": "T a b-\u003eMaybe(Name a,String)",
@@ -2058,6 +2228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the string from within \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, otherwise \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeText",
           "package": "tagchup",
@@ -2068,6 +2239,7 @@
         "index": {
           "description": "Extract the string from within Text otherwise Nothing",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeText",
           "normalized": "T a b-\u003eMaybe b",
@@ -2083,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeWarning",
           "package": "tagchup",
@@ -2092,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "maybeWarning",
           "normalized": "T a b-\u003eMaybe String",
@@ -2107,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "open",
           "package": "tagchup",
@@ -2116,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "open",
           "normalized": "Name a-\u003e[T a b]-\u003eT a b",
@@ -2130,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "processing",
           "package": "tagchup",
@@ -2139,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "processing",
           "normalized": "Name a-\u003eT a b-\u003eT a b",
@@ -2153,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "special",
           "package": "tagchup",
@@ -2162,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "special",
           "normalized": "Name a-\u003eString-\u003eT a b",
@@ -2176,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "text",
           "package": "tagchup",
@@ -2185,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "text",
           "normalized": "a-\u003eT b a",
@@ -2200,6 +2382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace CDATA sections by plain text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "textFromCData",
           "package": "tagchup",
@@ -2210,6 +2393,7 @@
         "index": {
           "description": "Replace CDATA sections by plain text",
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "textFromCData",
           "normalized": "T a[b]-\u003eT a[b]",
@@ -2225,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:25 UTC 2014",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "warning",
           "package": "tagchup",
@@ -2234,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Tagchup Tag",
+          "indexed": "2014-03-11T20:16:25",
           "module": "Text.HTML.Tagchup.Tag",
           "name": "warning",
           "normalized": "String-\u003eT a b",

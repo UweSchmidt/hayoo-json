@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "html-minimalist"
+        "phrase": "html-minimalist",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eXHTML attribute constructors.  Where an attribute name conflicts\n   with a haskell keyword the attribute name is written with a prime\n   suffix, ie. \u003ccode\u003eclass'\u003c/code\u003e.  Where an attribute name conflicts with an\n   element name the attribute name is written likewise.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "Attribute",
           "package": "html-minimalist",
@@ -28,6 +29,7 @@
         "index": {
           "description": "XHTML attribute constructors Where an attribute name conflicts with haskell keyword the attribute name is written with prime suffix ie class Where an attribute name conflicts with an element name the attribute name is written likewise",
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "Attribute",
           "package": "html-minimalist",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "action",
           "package": "html-minimalist",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "action",
           "normalized": "String-\u003eAttr",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "align",
           "package": "html-minimalist",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "align",
           "normalized": "String-\u003eAttr",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "alt",
           "package": "html-minimalist",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "alt",
           "normalized": "String-\u003eAttr",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "bgcolor",
           "package": "html-minimalist",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "bgcolor",
           "normalized": "String-\u003eAttr",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "border",
           "package": "html-minimalist",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "border",
           "normalized": "String-\u003eAttr",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrime suffixed since \u003cem\u003eclass\u003c/em\u003e is a reserved word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "class'",
           "package": "html-minimalist",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Prime suffixed since class is reserved word",
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "class'",
           "normalized": "String-\u003eAttr",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "classid",
           "package": "html-minimalist",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "classid",
           "normalized": "String-\u003eAttr",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "cols",
           "package": "html-minimalist",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "cols",
           "normalized": "String-\u003eAttr",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "colspan",
           "package": "html-minimalist",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "colspan",
           "normalized": "String-\u003eAttr",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "content",
           "package": "html-minimalist",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "content",
           "normalized": "String-\u003eAttr",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "controls",
           "package": "html-minimalist",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "controls",
           "package": "html-minimalist",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "coords",
           "package": "html-minimalist",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "coords",
           "normalized": "String-\u003eAttr",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrime suffixed since \u003cem\u003edata\u003c/em\u003e is a reserved word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "data'",
           "package": "html-minimalist",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Prime suffixed since data is reserved word",
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "data'",
           "normalized": "String-\u003eAttr",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "datetime",
           "package": "html-minimalist",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "datetime",
           "normalized": "String-\u003eAttr",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "enctype",
           "package": "html-minimalist",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "enctype",
           "normalized": "String-\u003eAttr",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "frameborder",
           "package": "html-minimalist",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "frameborder",
           "normalized": "String-\u003eAttr",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "height",
           "package": "html-minimalist",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "height",
           "normalized": "String-\u003eAttr",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "href",
           "package": "html-minimalist",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "href",
           "normalized": "String-\u003eAttr",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "http_equiv",
           "package": "html-minimalist",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "http_equiv",
           "normalized": "String-\u003eAttr",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "id",
           "package": "html-minimalist",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "id",
           "normalized": "String-\u003eAttr",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "lang",
           "package": "html-minimalist",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "lang",
           "normalized": "String-\u003eAttr",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "language",
           "package": "html-minimalist",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "language",
           "normalized": "String-\u003eAttr",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "media",
           "package": "html-minimalist",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "media",
           "normalized": "String-\u003eAttr",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "method",
           "package": "html-minimalist",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "method",
           "normalized": "String-\u003eAttr",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "mk_attr",
           "package": "html-minimalist",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "mk_attr",
           "normalized": "String-\u003eString-\u003eAttr",
@@ -619,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an \u003ccode\u003e\u003ca\u003eAttr\u003c/a\u003e\u003c/code\u003e where the \u003cem\u003ekey\u003c/em\u003e and \u003cem\u003evalue\u003c/em\u003e are equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "mk_bool_attr",
           "package": "html-minimalist",
@@ -629,6 +682,7 @@
         "index": {
           "description": "Make an Attr where the key and value are equal",
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "mk_bool_attr",
           "normalized": "String-\u003eAttr",
@@ -643,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "name",
           "package": "html-minimalist",
@@ -652,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "name",
           "normalized": "String-\u003eAttr",
@@ -666,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "onblur",
           "package": "html-minimalist",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "onblur",
           "normalized": "String-\u003eAttr",
@@ -689,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "onfocus",
           "package": "html-minimalist",
@@ -698,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "onfocus",
           "normalized": "String-\u003eAttr",
@@ -712,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "onkeydown",
           "package": "html-minimalist",
@@ -721,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "onkeydown",
           "normalized": "String-\u003eAttr",
@@ -735,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "onkeypress",
           "package": "html-minimalist",
@@ -744,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "onkeypress",
           "normalized": "String-\u003eAttr",
@@ -758,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "onkeyup",
           "package": "html-minimalist",
@@ -767,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "onkeyup",
           "normalized": "String-\u003eAttr",
@@ -781,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmousedown",
           "package": "html-minimalist",
@@ -790,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmousedown",
           "normalized": "String-\u003eAttr",
@@ -804,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmousemove",
           "package": "html-minimalist",
@@ -813,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmousemove",
           "normalized": "String-\u003eAttr",
@@ -827,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmouseout",
           "package": "html-minimalist",
@@ -836,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmouseout",
           "normalized": "String-\u003eAttr",
@@ -850,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmouseover",
           "package": "html-minimalist",
@@ -859,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmouseover",
           "normalized": "String-\u003eAttr",
@@ -873,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmouseup",
           "package": "html-minimalist",
@@ -882,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmouseup",
           "normalized": "String-\u003eAttr",
@@ -896,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmousewheel",
           "package": "html-minimalist",
@@ -905,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "onmousewheel",
           "normalized": "String-\u003eAttr",
@@ -919,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "quality",
           "package": "html-minimalist",
@@ -928,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "quality",
           "normalized": "String-\u003eAttr",
@@ -942,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "rel",
           "package": "html-minimalist",
@@ -951,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "rel",
           "normalized": "String-\u003eAttr",
@@ -965,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "rows",
           "package": "html-minimalist",
@@ -974,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "rows",
           "normalized": "String-\u003eAttr",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "rowspan",
           "package": "html-minimalist",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "rowspan",
           "normalized": "String-\u003eAttr",
@@ -1011,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "seamless",
           "package": "html-minimalist",
@@ -1020,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "seamless",
           "package": "html-minimalist",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "shape",
           "package": "html-minimalist",
@@ -1041,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "shape",
           "normalized": "String-\u003eAttr",
@@ -1056,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrime suffixed since \u003cem\u003espan\u003c/em\u003e is the name of both an attribute and\n element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "span'",
           "package": "html-minimalist",
@@ -1066,6 +1157,7 @@
         "index": {
           "description": "Prime suffixed since span is the name of both an attribute and element",
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "span'",
           "normalized": "String-\u003eAttr",
@@ -1080,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "src",
           "package": "html-minimalist",
@@ -1089,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "src",
           "normalized": "String-\u003eAttr",
@@ -1104,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrime suffixed since \u003cem\u003estyle\u003c/em\u003e is the name of both an attribute and\n element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "style'",
           "package": "html-minimalist",
@@ -1114,6 +1209,7 @@
         "index": {
           "description": "Prime suffixed since style is the name of both an attribute and element",
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "style'",
           "normalized": "String-\u003eAttr",
@@ -1128,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "tabindex",
           "package": "html-minimalist",
@@ -1137,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "tabindex",
           "normalized": "String-\u003eAttr",
@@ -1151,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "target",
           "package": "html-minimalist",
@@ -1160,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "target",
           "normalized": "String-\u003eAttr",
@@ -1175,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrime suffixed since \u003cem\u003etitle\u003c/em\u003e is the name of both an attribute and\n element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "title'",
           "package": "html-minimalist",
@@ -1185,6 +1286,7 @@
         "index": {
           "description": "Prime suffixed since title is the name of both an attribute and element",
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "title'",
           "normalized": "String-\u003eAttr",
@@ -1200,6 +1302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrime suffixed since \u003cem\u003etype\u003c/em\u003e is a reserved word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "type'",
           "package": "html-minimalist",
@@ -1210,6 +1313,7 @@
         "index": {
           "description": "Prime suffixed since type is reserved word",
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "type'",
           "normalized": "String-\u003eAttr",
@@ -1224,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "usemap",
           "package": "html-minimalist",
@@ -1233,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "usemap",
           "normalized": "String-\u003eAttr",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "user_data",
           "package": "html-minimalist",
@@ -1256,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "user_data",
           "normalized": "String-\u003eString-\u003eAttr",
@@ -1270,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "valign",
           "package": "html-minimalist",
@@ -1279,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "valign",
           "normalized": "String-\u003eAttr",
@@ -1293,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "value",
           "package": "html-minimalist",
@@ -1302,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "value",
           "normalized": "String-\u003eAttr",
@@ -1316,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "width",
           "package": "html-minimalist",
@@ -1325,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "width",
           "normalized": "String-\u003eAttr",
@@ -1339,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "xml_lang",
           "package": "html-minimalist",
@@ -1348,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "xml_lang",
           "normalized": "String-\u003eAttr",
@@ -1362,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Attribute",
           "name": "xmlns",
           "package": "html-minimalist",
@@ -1371,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Attribute",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Attribute",
           "name": "xmlns",
           "normalized": "String-\u003eAttr",
@@ -1386,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMenu constructors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "Menu",
           "package": "html-minimalist",
@@ -1395,6 +1514,7 @@
         "index": {
           "description": "Menu constructors",
           "hierarchy": "Text HTML Light Composite Menu",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "Menu",
           "package": "html-minimalist",
@@ -1409,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMenu constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "Menu_C",
           "package": "html-minimalist",
@@ -1418,6 +1539,7 @@
         "index": {
           "description": "Menu constructor",
           "hierarchy": "Text HTML Light Composite Menu",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "Menu_C",
           "package": "html-minimalist",
@@ -1432,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA menu entry is \u003cem\u003e(name,identifier,link)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "Menu_Entry",
           "package": "html-minimalist",
@@ -1441,6 +1564,7 @@
         "index": {
           "description": "menu entry is name identifier link",
           "hierarchy": "Text HTML Light Composite Menu",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "Menu_Entry",
           "package": "html-minimalist",
@@ -1454,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "Menu_P",
           "package": "html-minimalist",
@@ -1462,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite Menu",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "Menu_P",
           "package": "html-minimalist",
@@ -1475,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "nav_menu",
           "package": "html-minimalist",
@@ -1484,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite Menu",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "nav_menu",
           "normalized": "Element_C-\u003eElement_C-\u003eMenu_C",
@@ -1499,6 +1627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003enav\u003c/a\u003e\u003c/code\u003e menu of class \u003cem\u003ety\u003c/em\u003e with a \u003ccode\u003e\u003ca\u003eul\u003c/a\u003e\u003c/code\u003e structure.  The entry\n corresponding to identifier \u003cem\u003eh\u003c/em\u003e is marked with the class \u003ccode\u003ehere\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "nav_menu_list",
           "package": "html-minimalist",
@@ -1509,6 +1638,7 @@
         "index": {
           "description": "Make nav menu of class ty with ul structure The entry corresponding to identifier is marked with the class here",
           "hierarchy": "Text HTML Light Composite Menu",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "nav_menu_list",
           "package": "html-minimalist",
@@ -1522,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003enav_menu_list\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003espan\u003c/a\u003e\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "nav_menu_span",
           "package": "html-minimalist",
@@ -1532,6 +1663,7 @@
         "index": {
           "description": "Variant of nav menu list using span elements",
           "hierarchy": "Text HTML Light Composite Menu",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite.Menu",
           "name": "nav_menu_span",
           "package": "html-minimalist",
@@ -1545,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite constructors and constants.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Composite",
           "package": "html-minimalist",
@@ -1554,6 +1687,7 @@
         "index": {
           "description": "Composite constructors and constants",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Composite",
           "package": "html-minimalist",
@@ -1568,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of HTML5 input types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Input_Type",
           "package": "html-minimalist",
@@ -1577,6 +1712,7 @@
         "index": {
           "description": "Enumeration of HTML5 input types",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Input_Type",
           "package": "html-minimalist",
@@ -1591,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of HTML5 link types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Type",
           "package": "html-minimalist",
@@ -1600,6 +1737,7 @@
         "index": {
           "description": "Enumeration of HTML5 link types",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Type",
           "package": "html-minimalist",
@@ -1613,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Button",
           "package": "html-minimalist",
@@ -1622,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Button",
           "package": "html-minimalist",
@@ -1635,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Checkbox",
           "package": "html-minimalist",
@@ -1644,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Checkbox",
           "package": "html-minimalist",
@@ -1657,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Color",
           "package": "html-minimalist",
@@ -1666,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Color",
           "package": "html-minimalist",
@@ -1679,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Date",
           "package": "html-minimalist",
@@ -1688,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Date",
           "package": "html-minimalist",
@@ -1701,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "DateTime",
           "package": "html-minimalist",
@@ -1710,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "DateTime",
           "package": "html-minimalist",
@@ -1723,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "DateTime_Local",
           "package": "html-minimalist",
@@ -1732,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "DateTime_Local",
           "package": "html-minimalist",
@@ -1745,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Email",
           "package": "html-minimalist",
@@ -1754,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Email",
           "package": "html-minimalist",
@@ -1767,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "File",
           "package": "html-minimalist",
@@ -1776,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "File",
           "package": "html-minimalist",
@@ -1789,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Hidden",
           "package": "html-minimalist",
@@ -1798,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Hidden",
           "package": "html-minimalist",
@@ -1811,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Image",
           "package": "html-minimalist",
@@ -1820,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Image",
           "package": "html-minimalist",
@@ -1833,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Alternate",
           "package": "html-minimalist",
@@ -1842,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Alternate",
           "package": "html-minimalist",
@@ -1855,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Author",
           "package": "html-minimalist",
@@ -1864,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Author",
           "package": "html-minimalist",
@@ -1877,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Bookmark",
           "package": "html-minimalist",
@@ -1886,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Bookmark",
           "package": "html-minimalist",
@@ -1899,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Help",
           "package": "html-minimalist",
@@ -1908,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Help",
           "package": "html-minimalist",
@@ -1921,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Icon",
           "package": "html-minimalist",
@@ -1930,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Icon",
           "package": "html-minimalist",
@@ -1943,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_License",
           "package": "html-minimalist",
@@ -1952,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_License",
           "package": "html-minimalist",
@@ -1965,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Next",
           "package": "html-minimalist",
@@ -1974,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Next",
           "package": "html-minimalist",
@@ -1987,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_NoFollow",
           "package": "html-minimalist",
@@ -1996,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_NoFollow",
           "package": "html-minimalist",
@@ -2009,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_NoReferrer",
           "package": "html-minimalist",
@@ -2018,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_NoReferrer",
           "package": "html-minimalist",
@@ -2031,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Prefetch",
           "package": "html-minimalist",
@@ -2040,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Prefetch",
           "package": "html-minimalist",
@@ -2053,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Prev",
           "package": "html-minimalist",
@@ -2062,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Prev",
           "package": "html-minimalist",
@@ -2075,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Search",
           "package": "html-minimalist",
@@ -2084,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Search",
           "package": "html-minimalist",
@@ -2097,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Stylesheet",
           "package": "html-minimalist",
@@ -2106,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Link_Stylesheet",
           "package": "html-minimalist",
@@ -2119,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Month",
           "package": "html-minimalist",
@@ -2128,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Month",
           "package": "html-minimalist",
@@ -2141,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Number",
           "package": "html-minimalist",
@@ -2150,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Number",
           "package": "html-minimalist",
@@ -2163,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Password",
           "package": "html-minimalist",
@@ -2172,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Password",
           "package": "html-minimalist",
@@ -2185,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Radio",
           "package": "html-minimalist",
@@ -2194,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Radio",
           "package": "html-minimalist",
@@ -2207,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Range",
           "package": "html-minimalist",
@@ -2216,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Range",
           "package": "html-minimalist",
@@ -2229,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Reset",
           "package": "html-minimalist",
@@ -2238,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Reset",
           "package": "html-minimalist",
@@ -2251,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Search",
           "package": "html-minimalist",
@@ -2260,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Search",
           "package": "html-minimalist",
@@ -2273,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Submit",
           "package": "html-minimalist",
@@ -2282,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Submit",
           "package": "html-minimalist",
@@ -2295,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Tel",
           "package": "html-minimalist",
@@ -2304,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Tel",
           "package": "html-minimalist",
@@ -2317,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Text",
           "package": "html-minimalist",
@@ -2326,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Text",
           "package": "html-minimalist",
@@ -2339,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Time",
           "package": "html-minimalist",
@@ -2348,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Time",
           "package": "html-minimalist",
@@ -2361,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Url",
           "package": "html-minimalist",
@@ -2370,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Url",
           "package": "html-minimalist",
@@ -2383,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "Week",
           "package": "html-minimalist",
@@ -2392,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "Week",
           "package": "html-minimalist",
@@ -2406,6 +2616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003eadd_attrs\u003c/a\u003e\u003c/code\u003e lifted to \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "add_attrs_c",
           "package": "html-minimalist",
@@ -2416,6 +2627,7 @@
         "index": {
           "description": "Variant on add attrs lifted to Content",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "add_attrs_c",
           "normalized": "[Attr]-\u003eContent-\u003eContent",
@@ -2431,6 +2643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHidden\u003c/a\u003e\u003c/code\u003e input with \u003cem\u003ename\u003c/em\u003e and \u003cem\u003evalue\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "input_hidden",
           "package": "html-minimalist",
@@ -2441,6 +2654,7 @@
         "index": {
           "description": "Hidden input with name and value",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "input_hidden",
           "normalized": "String-\u003eString-\u003eContent",
@@ -2456,6 +2670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSubmit\u003c/a\u003e\u003c/code\u003e input with \u003cem\u003ename\u003c/em\u003e and \u003cem\u003evalue\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "input_submit",
           "package": "html-minimalist",
@@ -2466,6 +2681,7 @@
         "index": {
           "description": "Submit input with name and value",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "input_submit",
           "normalized": "String-\u003eString-\u003eContent",
@@ -2481,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003einput\u003c/a\u003e\u003c/code\u003e with enumerated \u003cem\u003etype\u003c/em\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "input_ty",
           "package": "html-minimalist",
@@ -2491,6 +2708,7 @@
         "index": {
           "description": "Variant on input with enumerated type value",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "input_ty",
           "normalized": "Input_Type-\u003e[Attr]-\u003eContent",
@@ -2506,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML name for \u003ccode\u003e\u003ca\u003eInput_Type\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "input_type_str",
           "package": "html-minimalist",
@@ -2516,6 +2735,7 @@
         "index": {
           "description": "HTML name for Input Type",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "input_type_str",
           "normalized": "Input_Type-\u003eString",
@@ -2531,6 +2751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet CSS \u003ccode\u003estylesheet\u003c/code\u003e for given \u003ccode\u003emedia\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "link_css",
           "package": "html-minimalist",
@@ -2541,6 +2762,7 @@
         "index": {
           "description": "Set CSS stylesheet for given media",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "link_css",
           "normalized": "String-\u003eString-\u003eContent",
@@ -2556,6 +2778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet RSS \u003ccode\u003ealternate\u003c/code\u003e with given \u003ccode\u003etitle\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "link_rss",
           "package": "html-minimalist",
@@ -2566,6 +2789,7 @@
         "index": {
           "description": "Set RSS alternate with given title",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "link_rss",
           "normalized": "String-\u003eString-\u003eContent",
@@ -2581,6 +2805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003elink\u003c/a\u003e\u003c/code\u003e with enumerated \u003cem\u003etype\u003c/em\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "link_ty",
           "package": "html-minimalist",
@@ -2591,6 +2816,7 @@
         "index": {
           "description": "Variant on link with enumerated type value",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "link_ty",
           "normalized": "Link_Type-\u003e[Attr]-\u003eContent",
@@ -2606,6 +2832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML name for \u003ccode\u003e\u003ca\u003eLink_Type\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e link_type_str Link_Stylesheet == \"stylesheet\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "link_type_str",
           "package": "html-minimalist",
@@ -2616,6 +2843,7 @@
         "index": {
           "description": "HTML name for Link Type link type str Link Stylesheet stylesheet",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "link_type_str",
           "normalized": "Link_Type-\u003eString",
@@ -2631,6 +2859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003eauthor\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "meta_author",
           "package": "html-minimalist",
@@ -2641,6 +2870,7 @@
         "index": {
           "description": "Set author",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "meta_author",
           "normalized": "String-\u003eContent",
@@ -2656,6 +2886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003econtent-type\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "meta_content_type",
           "package": "html-minimalist",
@@ -2666,6 +2897,7 @@
         "index": {
           "description": "Set content-type",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "meta_content_type",
           "normalized": "String-\u003eContent",
@@ -2681,6 +2913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003edescription\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "meta_description",
           "package": "html-minimalist",
@@ -2691,6 +2924,7 @@
         "index": {
           "description": "Set description",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "meta_description",
           "normalized": "String-\u003eContent",
@@ -2706,6 +2940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003emeta_viewport\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "meta_viewport",
           "package": "html-minimalist",
@@ -2716,6 +2951,7 @@
         "index": {
           "description": "Set meta viewport",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "meta_viewport",
           "normalized": "String-\u003eContent",
@@ -2731,6 +2967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed javascript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "script_js",
           "package": "html-minimalist",
@@ -2741,6 +2978,7 @@
         "index": {
           "description": "Embed javascript",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "script_js",
           "normalized": "String-\u003eContent",
@@ -2756,6 +2994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource javascript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "script_js_src",
           "package": "html-minimalist",
@@ -2766,6 +3005,7 @@
         "index": {
           "description": "Source javascript",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "script_js_src",
           "normalized": "FilePath-\u003eContent",
@@ -2781,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eW3.org\u003c/code\u003e CSS validator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "w3_css_validator",
           "package": "html-minimalist",
@@ -2791,6 +3032,7 @@
         "index": {
           "description": "W3.org CSS validator",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "w3_css_validator",
           "package": "html-minimalist",
@@ -2804,6 +3046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eW3.org\u003c/code\u003e HTML validator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "w3_html_validator",
           "package": "html-minimalist",
@@ -2814,6 +3057,7 @@
         "index": {
           "description": "W3.org HTML validator",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "w3_html_validator",
           "package": "html-minimalist",
@@ -2827,6 +3071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eW3.org\u003c/code\u003e CSS validator.\n\u003c/p\u003e\u003cpre\u003e w3_rss_validator \"http://haskell.org\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Composite",
           "name": "w3_rss_validator",
           "package": "html-minimalist",
@@ -2837,6 +3082,7 @@
         "index": {
           "description": "W3.org CSS validator w3 rss validator http haskell.org",
           "hierarchy": "Text HTML Light Composite",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Composite",
           "name": "w3_rss_validator",
           "normalized": "String-\u003eString",
@@ -2852,6 +3098,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e(x)html related constants.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "Constant",
           "package": "html-minimalist",
@@ -2861,6 +3108,7 @@
         "index": {
           "description": "html related constants",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "Constant",
           "package": "html-minimalist",
@@ -2875,6 +3123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym for document type strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "DocType",
           "package": "html-minimalist",
@@ -2884,6 +3133,7 @@
         "index": {
           "description": "type synonym for document type strings",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "DocType",
           "package": "html-minimalist",
@@ -2897,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "c_entity",
           "package": "html-minimalist",
@@ -2906,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "c_entity",
           "normalized": "String-\u003eContent",
@@ -2921,6 +3173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe copyright character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "copy",
           "package": "html-minimalist",
@@ -2931,6 +3184,7 @@
         "index": {
           "description": "The copyright character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "copy",
           "package": "html-minimalist",
@@ -2944,6 +3198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe double down arrow character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "dArr",
           "package": "html-minimalist",
@@ -2954,6 +3209,7 @@
         "index": {
           "description": "The double down arrow character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "dArr",
           "package": "html-minimalist",
@@ -2968,6 +3224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe down arrow character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "darr",
           "package": "html-minimalist",
@@ -2978,6 +3235,7 @@
         "index": {
           "description": "The down arrow character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "darr",
           "package": "html-minimalist",
@@ -2991,6 +3249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe degree character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "deg",
           "package": "html-minimalist",
@@ -3001,6 +3260,7 @@
         "index": {
           "description": "The degree character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "deg",
           "package": "html-minimalist",
@@ -3014,6 +3274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty set symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "empty",
           "package": "html-minimalist",
@@ -3024,6 +3285,7 @@
         "index": {
           "description": "The empty set symbol",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "empty",
           "package": "html-minimalist",
@@ -3037,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe horizontal ellipsis character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "hellip",
           "package": "html-minimalist",
@@ -3047,6 +3310,7 @@
         "index": {
           "description": "The horizontal ellipsis character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "hellip",
           "package": "html-minimalist",
@@ -3060,6 +3324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HTML5 document type string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "html5_dt",
           "package": "html-minimalist",
@@ -3070,6 +3335,7 @@
         "index": {
           "description": "The HTML5 document type string",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "html5_dt",
           "package": "html-minimalist",
@@ -3083,6 +3349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe left arrow character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "lArr",
           "package": "html-minimalist",
@@ -3093,6 +3360,7 @@
         "index": {
           "description": "The left arrow character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "lArr",
           "package": "html-minimalist",
@@ -3107,6 +3375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right double angle quote character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "laquo",
           "package": "html-minimalist",
@@ -3117,6 +3386,7 @@
         "index": {
           "description": "The right double angle quote character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "laquo",
           "package": "html-minimalist",
@@ -3130,6 +3400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe left double arrow character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "larr",
           "package": "html-minimalist",
@@ -3140,6 +3411,7 @@
         "index": {
           "description": "The left double arrow character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "larr",
           "package": "html-minimalist",
@@ -3153,6 +3425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mid (centre) dot character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "middot",
           "package": "html-minimalist",
@@ -3163,6 +3436,7 @@
         "index": {
           "description": "The mid centre dot character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "middot",
           "package": "html-minimalist",
@@ -3176,6 +3450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe non-breaking space character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "nbsp",
           "package": "html-minimalist",
@@ -3186,6 +3461,7 @@
         "index": {
           "description": "The non-breaking space character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "nbsp",
           "package": "html-minimalist",
@@ -3199,6 +3475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right double arrow character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "rArr",
           "package": "html-minimalist",
@@ -3209,6 +3486,7 @@
         "index": {
           "description": "The right double arrow character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "rArr",
           "package": "html-minimalist",
@@ -3223,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right double angle quote character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "raquo",
           "package": "html-minimalist",
@@ -3233,6 +3512,7 @@
         "index": {
           "description": "The right double angle quote character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "raquo",
           "package": "html-minimalist",
@@ -3246,6 +3526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right arrow character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "rarr",
           "package": "html-minimalist",
@@ -3256,6 +3537,7 @@
         "index": {
           "description": "The right arrow character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "rarr",
           "package": "html-minimalist",
@@ -3269,6 +3551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dot operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "sdot",
           "package": "html-minimalist",
@@ -3279,6 +3562,7 @@
         "index": {
           "description": "The dot operator",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "sdot",
           "package": "html-minimalist",
@@ -3292,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe up double arrow character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "uArr",
           "package": "html-minimalist",
@@ -3302,6 +3587,7 @@
         "index": {
           "description": "The up double arrow character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "uArr",
           "package": "html-minimalist",
@@ -3316,6 +3602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe up arrow character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "uarr",
           "package": "html-minimalist",
@@ -3326,6 +3613,7 @@
         "index": {
           "description": "The up arrow character",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "uarr",
           "package": "html-minimalist",
@@ -3339,6 +3627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe xhtml 1.0 strict document type string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "xhtml_1_0_strict",
           "package": "html-minimalist",
@@ -3349,6 +3638,7 @@
         "index": {
           "description": "The xhtml strict document type string",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "xhtml_1_0_strict",
           "package": "html-minimalist",
@@ -3362,6 +3652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe xhtml 1.0 transitional document type string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "xhtml_1_0_transitional",
           "package": "html-minimalist",
@@ -3372,6 +3663,7 @@
         "index": {
           "description": "The xhtml transitional document type string",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "xhtml_1_0_transitional",
           "package": "html-minimalist",
@@ -3385,6 +3677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe xml version 1.0 string with UTF-8 encoding set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Constant",
           "name": "xml_1_0",
           "package": "html-minimalist",
@@ -3395,6 +3688,7 @@
         "index": {
           "description": "The xml version string with UTF-8 encoding set",
           "hierarchy": "Text HTML Light Constant",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Constant",
           "name": "xml_1_0",
           "package": "html-minimalist",
@@ -3408,6 +3702,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eElement constructors.  The resulting elements are lifted to the\n   Content data type, with the exception of the \u003ccode\u003e\u003ca\u003ehtml\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "Element",
           "package": "html-minimalist",
@@ -3417,6 +3712,7 @@
         "index": {
           "description": "Element constructors The resulting elements are lifted to the Content data type with the exception of the html element",
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "Element",
           "package": "html-minimalist",
@@ -3431,6 +3727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement contructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "Element_C",
           "package": "html-minimalist",
@@ -3440,6 +3737,7 @@
         "index": {
           "description": "Element contructor",
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "Element_C",
           "package": "html-minimalist",
@@ -3454,6 +3752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty element contructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "Empty_Element_C",
           "package": "html-minimalist",
@@ -3463,6 +3762,7 @@
         "index": {
           "description": "Empty element contructor",
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "Empty_Element_C",
           "package": "html-minimalist",
@@ -3476,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "a",
           "package": "html-minimalist",
@@ -3485,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "a",
           "package": "html-minimalist",
@@ -3497,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "address",
           "package": "html-minimalist",
@@ -3506,6 +3809,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "address",
           "package": "html-minimalist",
@@ -3518,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "area",
           "package": "html-minimalist",
@@ -3527,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "area",
           "package": "html-minimalist",
@@ -3539,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "article",
           "package": "html-minimalist",
@@ -3548,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "article",
           "package": "html-minimalist",
@@ -3560,6 +3868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "aside",
           "package": "html-minimalist",
@@ -3569,6 +3878,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "aside",
           "package": "html-minimalist",
@@ -3581,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "audio",
           "package": "html-minimalist",
@@ -3590,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "audio",
           "package": "html-minimalist",
@@ -3602,6 +3914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "body",
           "package": "html-minimalist",
@@ -3611,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "body",
           "package": "html-minimalist",
@@ -3623,6 +3937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "br",
           "package": "html-minimalist",
@@ -3632,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "br",
           "package": "html-minimalist",
@@ -3644,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "caption",
           "package": "html-minimalist",
@@ -3653,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "caption",
           "package": "html-minimalist",
@@ -3666,6 +3984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdinary character data, subject to escaping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "cdata",
           "package": "html-minimalist",
@@ -3676,6 +3995,7 @@
         "index": {
           "description": "Ordinary character data subject to escaping",
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "cdata",
           "normalized": "String-\u003eContent",
@@ -3691,6 +4011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw character data, not subject to escaping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "cdata_raw",
           "package": "html-minimalist",
@@ -3701,6 +4022,7 @@
         "index": {
           "description": "Raw character data not subject to escaping",
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "cdata_raw",
           "normalized": "String-\u003eContent",
@@ -3715,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "cite",
           "package": "html-minimalist",
@@ -3724,6 +4047,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "cite",
           "package": "html-minimalist",
@@ -3736,6 +4060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "col",
           "package": "html-minimalist",
@@ -3745,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "col",
           "package": "html-minimalist",
@@ -3757,6 +4083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "colgroup",
           "package": "html-minimalist",
@@ -3766,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "colgroup",
           "package": "html-minimalist",
@@ -3778,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "dd",
           "package": "html-minimalist",
@@ -3787,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "dd",
           "package": "html-minimalist",
@@ -3799,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "div",
           "package": "html-minimalist",
@@ -3808,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "div",
           "package": "html-minimalist",
@@ -3820,6 +4152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "dl",
           "package": "html-minimalist",
@@ -3829,6 +4162,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "dl",
           "package": "html-minimalist",
@@ -3841,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "dt",
           "package": "html-minimalist",
@@ -3850,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "dt",
           "package": "html-minimalist",
@@ -3862,6 +4198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "embed",
           "package": "html-minimalist",
@@ -3871,6 +4208,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "embed",
           "package": "html-minimalist",
@@ -3883,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "figcaption",
           "package": "html-minimalist",
@@ -3892,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "figcaption",
           "package": "html-minimalist",
@@ -3904,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "figure",
           "package": "html-minimalist",
@@ -3913,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "figure",
           "package": "html-minimalist",
@@ -3925,6 +4267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "footer",
           "package": "html-minimalist",
@@ -3934,6 +4277,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "footer",
           "package": "html-minimalist",
@@ -3946,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "form",
           "package": "html-minimalist",
@@ -3955,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "form",
           "package": "html-minimalist",
@@ -3967,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "frame",
           "package": "html-minimalist",
@@ -3976,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "frame",
           "package": "html-minimalist",
@@ -3988,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "frameset",
           "package": "html-minimalist",
@@ -3997,6 +4346,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "frameset",
           "package": "html-minimalist",
@@ -4009,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "h1",
           "package": "html-minimalist",
@@ -4018,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "h1",
           "package": "html-minimalist",
@@ -4030,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "h2",
           "package": "html-minimalist",
@@ -4039,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "h2",
           "package": "html-minimalist",
@@ -4051,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "h3",
           "package": "html-minimalist",
@@ -4060,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "h3",
           "package": "html-minimalist",
@@ -4072,6 +4428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "h4",
           "package": "html-minimalist",
@@ -4081,6 +4438,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "h4",
           "package": "html-minimalist",
@@ -4093,6 +4451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "head",
           "package": "html-minimalist",
@@ -4102,6 +4461,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "head",
           "package": "html-minimalist",
@@ -4114,6 +4474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "header",
           "package": "html-minimalist",
@@ -4123,6 +4484,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "header",
           "package": "html-minimalist",
@@ -4135,6 +4497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "hgroup",
           "package": "html-minimalist",
@@ -4144,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "hgroup",
           "package": "html-minimalist",
@@ -4156,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "hr",
           "package": "html-minimalist",
@@ -4165,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "hr",
           "package": "html-minimalist",
@@ -4177,6 +4543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "html",
           "package": "html-minimalist",
@@ -4186,6 +4553,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "html",
           "normalized": "[Attr]-\u003e[Content]-\u003eElement",
@@ -4200,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "iframe",
           "package": "html-minimalist",
@@ -4209,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "iframe",
           "package": "html-minimalist",
@@ -4221,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "img",
           "package": "html-minimalist",
@@ -4230,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "img",
           "package": "html-minimalist",
@@ -4242,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "input",
           "package": "html-minimalist",
@@ -4251,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "input",
           "package": "html-minimalist",
@@ -4263,6 +4637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "li",
           "package": "html-minimalist",
@@ -4272,6 +4647,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "li",
           "package": "html-minimalist",
@@ -4284,6 +4660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "link",
           "package": "html-minimalist",
@@ -4293,6 +4670,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "link",
           "package": "html-minimalist",
@@ -4305,6 +4683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "map",
           "package": "html-minimalist",
@@ -4314,6 +4693,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "map",
           "package": "html-minimalist",
@@ -4326,6 +4706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "meta",
           "package": "html-minimalist",
@@ -4335,6 +4716,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "meta",
           "package": "html-minimalist",
@@ -4347,6 +4729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "mk_element",
           "package": "html-minimalist",
@@ -4356,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "mk_element",
           "normalized": "String-\u003eElement_C",
@@ -4370,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "mk_empty_element",
           "package": "html-minimalist",
@@ -4379,6 +4764,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "mk_empty_element",
           "normalized": "String-\u003eEmpty_Element_C",
@@ -4393,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "nav",
           "package": "html-minimalist",
@@ -4402,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "nav",
           "package": "html-minimalist",
@@ -4414,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "object",
           "package": "html-minimalist",
@@ -4423,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "object",
           "package": "html-minimalist",
@@ -4435,6 +4825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "ol",
           "package": "html-minimalist",
@@ -4444,6 +4835,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "ol",
           "package": "html-minimalist",
@@ -4456,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "p",
           "package": "html-minimalist",
@@ -4465,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "p",
           "package": "html-minimalist",
@@ -4477,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "param",
           "package": "html-minimalist",
@@ -4486,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "param",
           "package": "html-minimalist",
@@ -4498,6 +4894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "pre",
           "package": "html-minimalist",
@@ -4507,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "pre",
           "package": "html-minimalist",
@@ -4519,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "q",
           "package": "html-minimalist",
@@ -4528,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "q",
           "package": "html-minimalist",
@@ -4540,6 +4940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "script",
           "package": "html-minimalist",
@@ -4549,6 +4950,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "script",
           "package": "html-minimalist",
@@ -4561,6 +4963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "section",
           "package": "html-minimalist",
@@ -4570,6 +4973,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "section",
           "package": "html-minimalist",
@@ -4582,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "source",
           "package": "html-minimalist",
@@ -4591,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "source",
           "package": "html-minimalist",
@@ -4603,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "span",
           "package": "html-minimalist",
@@ -4612,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "span",
           "package": "html-minimalist",
@@ -4624,6 +5032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "style",
           "package": "html-minimalist",
@@ -4633,6 +5042,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "style",
           "package": "html-minimalist",
@@ -4645,6 +5055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "table",
           "package": "html-minimalist",
@@ -4654,6 +5065,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "table",
           "package": "html-minimalist",
@@ -4666,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "td",
           "package": "html-minimalist",
@@ -4675,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "td",
           "package": "html-minimalist",
@@ -4687,6 +5101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "textarea",
           "package": "html-minimalist",
@@ -4696,6 +5111,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "textarea",
           "package": "html-minimalist",
@@ -4708,6 +5124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "th",
           "package": "html-minimalist",
@@ -4717,6 +5134,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "th",
           "package": "html-minimalist",
@@ -4729,6 +5147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "thead",
           "package": "html-minimalist",
@@ -4738,6 +5157,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "thead",
           "package": "html-minimalist",
@@ -4750,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "time",
           "package": "html-minimalist",
@@ -4759,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "time",
           "package": "html-minimalist",
@@ -4771,6 +5193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "title",
           "package": "html-minimalist",
@@ -4780,6 +5203,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "title",
           "package": "html-minimalist",
@@ -4792,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "tr",
           "package": "html-minimalist",
@@ -4801,6 +5226,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "tr",
           "package": "html-minimalist",
@@ -4813,6 +5239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "ul",
           "package": "html-minimalist",
@@ -4822,6 +5249,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "ul",
           "package": "html-minimalist",
@@ -4834,6 +5262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light.Element",
           "name": "wbr",
           "package": "html-minimalist",
@@ -4843,6 +5272,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Light Element",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light.Element",
           "name": "wbr",
           "package": "html-minimalist",
@@ -4856,6 +5286,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides xhtml constructors for \u003ccode\u003e\u003ca\u003eLight\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light",
           "name": "Light",
           "package": "html-minimalist",
@@ -4865,6 +5296,7 @@
         "index": {
           "description": "Provides xhtml constructors for Light",
           "hierarchy": "Text HTML Light",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light",
           "name": "Light",
           "package": "html-minimalist",
@@ -4879,6 +5311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an HTML5 element with the given document type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light",
           "name": "renderHTML5",
           "package": "html-minimalist",
@@ -4889,6 +5322,7 @@
         "index": {
           "description": "Render an HTML5 element with the given document type",
           "hierarchy": "Text HTML Light",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light",
           "name": "renderHTML5",
           "normalized": "Element-\u003eString",
@@ -4905,6 +5339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printing variant (inserts whitespace).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light",
           "name": "renderHTML5_pp",
           "package": "html-minimalist",
@@ -4915,6 +5350,7 @@
         "index": {
           "description": "Pretty-printing variant inserts whitespace",
           "hierarchy": "Text HTML Light",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light",
           "name": "renderHTML5_pp",
           "normalized": "Element-\u003eString",
@@ -4931,6 +5367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an xhtml element with the given document type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light",
           "name": "renderXHTML",
           "package": "html-minimalist",
@@ -4941,6 +5378,7 @@
         "index": {
           "description": "Render an xhtml element with the given document type",
           "hierarchy": "Text HTML Light",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light",
           "name": "renderXHTML",
           "normalized": "DocType-\u003eElement-\u003eString",
@@ -4957,6 +5395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow HTML content (importantly an \u003ccode\u003e\u003ca\u003eiframe\u003c/a\u003e\u003c/code\u003e element must not be\n abbreviated).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:45 UTC 2014",
           "module": "Text.HTML.Light",
           "name": "showHTML5",
           "package": "html-minimalist",
@@ -4967,6 +5406,7 @@
         "index": {
           "description": "Show HTML content importantly an iframe element must not be abbreviated",
           "hierarchy": "Text HTML Light",
+          "indexed": "2014-03-11T18:51:45",
           "module": "Text.HTML.Light",
           "name": "showHTML5",
           "normalized": "Content-\u003eString",

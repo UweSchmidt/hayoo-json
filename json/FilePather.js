@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FilePather"
+        "phrase": "FilePather",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "FilePathPredicate",
           "package": "FilePather",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "FilePathPredicate",
           "package": "FilePather",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions that are common to predicates that work on \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "FilePathPredicate",
           "package": "FilePather",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Functions that are common to predicates that work on FilePath values",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "FilePathPredicate",
           "package": "FilePather",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a predicate that succeeds if any of the two given predicates succeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "(.||.)",
           "package": "FilePather",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Return predicate that succeeds if any of the two given predicates succeed",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "(.||.) .||.",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegates the given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "(.!.)",
           "package": "FilePather",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Negates the given predicate",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "(.!.) .!.",
           "normalized": "a b-\u003ea b",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a predicate that succeeds only if the two given predicates succeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "(.&&.)",
           "package": "FilePather",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Return predicate that succeeds only if the two given predicates succeed",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "(.&&.) .&&.",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "allof",
           "package": "FilePather",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "allof",
           "normalized": "a(b c)-\u003eb c",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that always succeeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "always",
           "package": "FilePather",
@@ -171,6 +184,7 @@
         "index": {
           "description": "predicate that always succeeds",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "always",
           "package": "FilePather",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFolds the predicates on disjunction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "anyof",
           "package": "FilePather",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Folds the predicates on disjunction",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "anyof",
           "normalized": "a(b c)-\u003eb c",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that computes its result based on the base name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "baseName",
           "package": "FilePather",
@@ -219,6 +236,7 @@
         "index": {
           "description": "predicate that computes its result based on the base name",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "baseName",
           "normalized": "(FilePath-\u003eBool)-\u003ea b",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that computes its result based on a directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "directory",
           "package": "FilePather",
@@ -245,6 +264,7 @@
         "index": {
           "description": "predicate that computes its result based on directory",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "directory",
           "normalized": "(FilePath-\u003eBool)-\u003ea b",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that computes its result based on a file name extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "extension",
           "package": "FilePather",
@@ -270,6 +291,7 @@
         "index": {
           "description": "predicate that computes its result based on file name extension",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "extension",
           "normalized": "(FilePath-\u003eBool)-\u003ea b",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that computes its result based on equivalence to a file name extension. This function matches with and without the preceding extension separator (.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "extensionEq",
           "package": "FilePather",
@@ -295,6 +318,7 @@
         "index": {
           "description": "predicate that computes its result based on equivalence to file name extension This function matches with and without the preceding extension separator",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "extensionEq",
           "normalized": "FilePath-\u003ea b",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that computes its result based on inequivalence to any of a list of file name extensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "extensionNoneof",
           "package": "FilePather",
@@ -321,6 +346,7 @@
         "index": {
           "description": "predicate that computes its result based on inequivalence to any of list of file name extensions",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "extensionNoneof",
           "normalized": "a FilePath-\u003eb c",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that computes its result based on equivalence to one of a list of file name extensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "extensionOneof",
           "package": "FilePather",
@@ -347,6 +374,7 @@
         "index": {
           "description": "predicate that computes its result based on equivalence to one of list of file name extensions",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "extensionOneof",
           "normalized": "a FilePath-\u003eb c",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that computes its result based on the file name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "fileName",
           "package": "FilePather",
@@ -373,6 +402,7 @@
         "index": {
           "description": "predicate that computes its result based on the file name",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "fileName",
           "normalized": "(FilePath-\u003eBool)-\u003ea b",
@@ -389,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that succeeds if its \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e has an extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "hasExtension",
           "package": "FilePather",
@@ -399,6 +430,7 @@
         "index": {
           "description": "predicate that succeeds if its FilePath has an extension",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "hasExtension",
           "package": "FilePather",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that succeeds if its \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e has a trailing path separator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "hasTrailingPathSeparator",
           "package": "FilePather",
@@ -423,6 +456,7 @@
         "index": {
           "description": "predicate that succeeds if its FilePath has trailing path separator",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "hasTrailingPathSeparator",
           "package": "FilePather",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that succeeds if its \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e is absolute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isAbsolute",
           "package": "FilePather",
@@ -447,6 +482,7 @@
         "index": {
           "description": "predicate that succeeds if its FilePath is absolute",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isAbsolute",
           "package": "FilePather",
@@ -461,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that succeeds if its \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e is not absolute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isNotAbsolute",
           "package": "FilePather",
@@ -471,6 +508,7 @@
         "index": {
           "description": "predicate that succeeds if its FilePath is not absolute",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isNotAbsolute",
           "package": "FilePather",
@@ -485,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that succeeds if its \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e is not relative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isNotRelative",
           "package": "FilePather",
@@ -495,6 +534,7 @@
         "index": {
           "description": "predicate that succeeds if its FilePath is not relative",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isNotRelative",
           "package": "FilePather",
@@ -509,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that succeeds if its \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e is not valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isNotValid",
           "package": "FilePather",
@@ -519,6 +560,7 @@
         "index": {
           "description": "predicate that succeeds if its FilePath is not valid",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isNotValid",
           "package": "FilePather",
@@ -533,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that succeeds if its \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e is relative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isRelative",
           "package": "FilePather",
@@ -543,6 +586,7 @@
         "index": {
           "description": "predicate that succeeds if its FilePath is relative",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isRelative",
           "package": "FilePather",
@@ -557,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that succeeds if its \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e is valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isValid",
           "package": "FilePather",
@@ -567,6 +612,7 @@
         "index": {
           "description": "predicate that succeeds if its FilePath is valid",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "isValid",
           "package": "FilePather",
@@ -581,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that computes its result based on the file name having been made valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "makeValid",
           "package": "FilePather",
@@ -591,6 +638,7 @@
         "index": {
           "description": "predicate that computes its result based on the file name having been made valid",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "makeValid",
           "normalized": "(FilePath-\u003eBool)-\u003ea b",
@@ -607,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that always fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "never",
           "package": "FilePather",
@@ -617,6 +666,7 @@
         "index": {
           "description": "predicate that always fails",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "never",
           "package": "FilePather",
@@ -630,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that computes its result based on the normalised file name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "normalise",
           "package": "FilePather",
@@ -640,6 +691,7 @@
         "index": {
           "description": "predicate that computes its result based on the normalised file name",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "normalise",
           "normalized": "(FilePath-\u003eBool)-\u003ea b",
@@ -655,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that succeeds if its \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e does not have an extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "notHasExtension",
           "package": "FilePather",
@@ -665,6 +718,7 @@
         "index": {
           "description": "predicate that succeeds if its FilePath does not have an extension",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "notHasExtension",
           "package": "FilePather",
@@ -679,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that succeeds if its \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e does not have a trailing path separator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "notHasTrailingPathSeparator",
           "package": "FilePather",
@@ -689,6 +744,7 @@
         "index": {
           "description": "predicate that succeeds if its FilePath does not have trailing path separator",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "notHasTrailingPathSeparator",
           "package": "FilePather",
@@ -703,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that computes its result based on the splitting of a name into directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "splitDirectories",
           "package": "FilePather",
@@ -713,6 +770,7 @@
         "index": {
           "description": "predicate that computes its result based on the splitting of name into directories",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "splitDirectories",
           "normalized": "([FilePath]-\u003eBool)-\u003ea b",
@@ -729,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that computes its result based on the splitting of a name and extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "splitExtension",
           "package": "FilePather",
@@ -739,6 +798,7 @@
         "index": {
           "description": "predicate that computes its result based on the splitting of name and extension",
           "hierarchy": "System FilePath FilePather FilePathPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilePathPredicate",
           "name": "splitExtension",
           "normalized": "(String-\u003eString-\u003eBool)-\u003ea b",
@@ -754,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FileType",
           "name": "FileType",
           "package": "FilePather",
@@ -762,6 +823,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather FileType",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FileType",
           "name": "FileType",
           "package": "FilePather",
@@ -776,6 +838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible types of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FileType",
           "name": "FileType",
           "package": "FilePather",
@@ -785,6 +848,7 @@
         "index": {
           "description": "The possible types of file",
           "hierarchy": "System FilePath FilePather FileType",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FileType",
           "name": "FileType",
           "package": "FilePather",
@@ -799,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type is a directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FileType",
           "name": "Directory",
           "package": "FilePather",
@@ -809,6 +874,7 @@
         "index": {
           "description": "The type is directory",
           "hierarchy": "System FilePath FilePather FileType",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FileType",
           "name": "Directory",
           "package": "FilePather",
@@ -823,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type is a normal file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FileType",
           "name": "File",
           "package": "FilePather",
@@ -833,6 +900,7 @@
         "index": {
           "description": "The type is normal file",
           "hierarchy": "System FilePath FilePather FileType",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FileType",
           "name": "File",
           "package": "FilePather",
@@ -847,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type is unknown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FileType",
           "name": "Unknown",
           "package": "FilePather",
@@ -857,6 +926,7 @@
         "index": {
           "description": "The type is unknown",
           "hierarchy": "System FilePath FilePather FileType",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FileType",
           "name": "Unknown",
           "package": "FilePather",
@@ -870,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FileType",
           "name": "isDirectory",
           "package": "FilePather",
@@ -879,6 +950,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather FileType",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FileType",
           "name": "isDirectory",
           "normalized": "FileType-\u003eBool",
@@ -894,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FileType",
           "name": "isFile",
           "package": "FilePather",
@@ -903,6 +976,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather FileType",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FileType",
           "name": "isFile",
           "normalized": "FileType-\u003eBool",
@@ -918,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FileType",
           "name": "isUnknown",
           "package": "FilePather",
@@ -927,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather FileType",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FileType",
           "name": "isUnknown",
           "normalized": "FileType-\u003eBool",
@@ -942,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "FilterPredicate",
           "package": "FilePather",
@@ -950,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "FilterPredicate",
           "package": "FilePather",
@@ -964,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA filter predicate that does not require effects to compute its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "FilterPredicate",
           "package": "FilePather",
@@ -973,6 +1052,7 @@
         "index": {
           "description": "filter predicate that does not require effects to compute its result",
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "FilterPredicate",
           "package": "FilePather",
@@ -986,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "FilterPredicateT",
           "package": "FilePather",
@@ -994,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "FilterPredicateT",
           "package": "FilePather",
@@ -1008,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a filter predicate that does not require effects to compute its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "filterPredicate",
           "package": "FilePather",
@@ -1018,6 +1101,7 @@
         "index": {
           "description": "Construct filter predicate that does not require effects to compute its result",
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "filterPredicate",
           "normalized": "(FilePath-\u003eFileType-\u003eBool)-\u003eFilterPredicate",
@@ -1034,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a filter predicate that does not require effects to compute its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "filterPredicate'",
           "package": "FilePather",
@@ -1044,6 +1129,7 @@
         "index": {
           "description": "Construct filter predicate that does not require effects to compute its result",
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "filterPredicate'",
           "normalized": "(FilePath-\u003eBool)-\u003eFilterPredicate",
@@ -1060,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA filter predicate takes a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e and a file type and returns whether or not to filter the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "filterPredicateT",
           "package": "FilePather",
@@ -1070,6 +1157,7 @@
         "index": {
           "description": "filter predicate takes FilePath and file type and returns whether or not to filter the value",
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "filterPredicateT",
           "normalized": "(FilePath-\u003eFileType-\u003ea Bool)-\u003eFilterPredicateT a",
@@ -1086,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA filter predicate takes a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e and returns whether or not to filter the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "filterPredicateT'",
           "package": "FilePather",
@@ -1096,6 +1185,7 @@
         "index": {
           "description": "filter predicate takes FilePath and returns whether or not to filter the value",
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "filterPredicateT'",
           "normalized": "(FilePath-\u003ea Bool)-\u003eFilterPredicateT a",
@@ -1111,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "isDirectoryType",
           "package": "FilePather",
@@ -1120,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "isDirectoryType",
           "package": "FilePather",
@@ -1133,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "isFileType",
           "package": "FilePather",
@@ -1142,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "isFileType",
           "package": "FilePather",
@@ -1155,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "isUnknownType",
           "package": "FilePather",
@@ -1164,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "isUnknownType",
           "package": "FilePather",
@@ -1178,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a filter predicate that does not require effects to compute its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "runFilterPredicate",
           "package": "FilePather",
@@ -1188,6 +1285,7 @@
         "index": {
           "description": "Construct filter predicate that does not require effects to compute its result",
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "runFilterPredicate",
           "normalized": "FilterPredicate-\u003eFilePath-\u003eFileType-\u003eBool",
@@ -1204,6 +1302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the filter predicate function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "runFilterPredicateT",
           "package": "FilePather",
@@ -1214,6 +1313,7 @@
         "index": {
           "description": "Extract the filter predicate function",
           "hierarchy": "System FilePath FilePather FilterPredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.FilterPredicate",
           "name": "runFilterPredicateT",
           "normalized": "FilterPredicateT a-\u003eFilePath-\u003eFileType-\u003ea Bool",
@@ -1229,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "Find",
           "package": "FilePather",
@@ -1237,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "Find",
           "package": "FilePather",
@@ -1250,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "Find",
           "package": "FilePather",
@@ -1258,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "Find",
           "package": "FilePather",
@@ -1272,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe results of a path find. One of\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003efound\u003c/code\u003e with the file path name and file type.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e with the file path name and file type.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003erecurse\u003c/code\u003e with the file path (the file type is always directory).\n\u003c/li\u003e\u003cli\u003e `no-recurse` with the file path (the file type is always directory).\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "FindR",
           "package": "FilePather",
@@ -1281,6 +1386,7 @@
         "index": {
           "description": "The results of path find One of found with the file path name and file type drop with the file path name and file type recurse with the file path the file type is always directory no-recurse with the file path the file type is always directory",
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "FindR",
           "package": "FilePather",
@@ -1294,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "dropL",
           "package": "FilePather",
@@ -1303,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "dropL",
           "normalized": "PartialLens FindR(FilePath,FileType)",
@@ -1317,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "dropR",
           "package": "FilePather",
@@ -1326,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "dropR",
           "normalized": "FilePath-\u003eFileType-\u003eFindR",
@@ -1341,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds all files using the given recurse predicate and filter predicate in the given file path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "find",
           "package": "FilePather",
@@ -1351,6 +1462,7 @@
         "index": {
           "description": "Finds all files using the given recurse predicate and filter predicate in the given file path",
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "find",
           "normalized": "FilterPredicateT a-\u003eRecursePredicateT a-\u003eFilePath-\u003eIO[FindR]",
@@ -1366,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind files in the current directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "findHere",
           "package": "FilePather",
@@ -1376,6 +1489,7 @@
         "index": {
           "description": "Find files in the current directory",
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "findHere",
           "normalized": "FilterPredicateT a-\u003eRecursePredicateT a-\u003eIO[FindR]",
@@ -1392,6 +1506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specialisation of \u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e to the \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e monad. Useful in assisting type-inference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "findi",
           "package": "FilePather",
@@ -1402,6 +1517,7 @@
         "index": {
           "description": "specialisation of find to the Identity monad Useful in assisting type-inference",
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "findi",
           "normalized": "FilterPredicate-\u003eRecursePredicate-\u003eFilePath-\u003eIO[FindR]",
@@ -1417,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds all files using the given recurse predicate and filter predicate in the given file path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "findp",
           "package": "FilePather",
@@ -1427,6 +1544,7 @@
         "index": {
           "description": "Finds all files using the given recurse predicate and filter predicate in the given file path",
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "findp",
           "normalized": "FilterPredicateT a-\u003eRecursePredicateT a-\u003eFilePath-\u003eIO[FilePath]",
@@ -1442,6 +1560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind files in the current directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "findpHere",
           "package": "FilePather",
@@ -1452,6 +1571,7 @@
         "index": {
           "description": "Find files in the current directory",
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "findpHere",
           "normalized": "FilterPredicateT a-\u003eRecursePredicateT a-\u003eIO[FilePath]",
@@ -1468,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specialisation of \u003ccode\u003e\u003ca\u003efindp\u003c/a\u003e\u003c/code\u003e to the \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e monad. Useful in assisting type-inference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "findpi",
           "package": "FilePather",
@@ -1478,6 +1599,7 @@
         "index": {
           "description": "specialisation of findp to the Identity monad Useful in assisting type-inference",
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "findpi",
           "normalized": "FilterPredicate-\u003eRecursePredicate-\u003eFilePath-\u003eIO[FilePath]",
@@ -1492,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "foundL",
           "package": "FilePather",
@@ -1501,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "foundL",
           "normalized": "PartialLens FindR(FilePath,FileType)",
@@ -1515,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "foundR",
           "package": "FilePather",
@@ -1524,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "foundR",
           "normalized": "FilePath-\u003eFileType-\u003eFindR",
@@ -1538,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "noRecurseL",
           "package": "FilePather",
@@ -1547,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "noRecurseL",
           "package": "FilePather",
@@ -1560,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "noRecurseR",
           "package": "FilePather",
@@ -1569,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "noRecurseR",
           "normalized": "FilePath-\u003eFindR",
@@ -1584,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "recurseL",
           "package": "FilePather",
@@ -1593,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "recurseL",
           "package": "FilePather",
@@ -1605,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.Find",
           "name": "recurseR",
           "package": "FilePather",
@@ -1614,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather Find",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.Find",
           "name": "recurseR",
           "normalized": "FilePath-\u003eFindR",
@@ -1628,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.LiftI",
           "name": "LiftI",
           "package": "FilePather",
@@ -1636,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather LiftI",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.LiftI",
           "name": "LiftI",
           "package": "FilePather",
@@ -1650,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type-class for lifting a value.\n This type-class probably belongs elsewhere (pointers appreciated!).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.LiftI",
           "name": "LiftI",
           "package": "FilePather",
@@ -1659,6 +1796,7 @@
         "index": {
           "description": "type-class for lifting value This type-class probably belongs elsewhere pointers appreciated",
           "hierarchy": "System FilePath FilePather LiftI",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.LiftI",
           "name": "LiftI",
           "package": "FilePather",
@@ -1672,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.LiftI",
           "name": "liftI",
           "package": "FilePather",
@@ -1681,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather LiftI",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.LiftI",
           "name": "liftI",
           "normalized": "a b-\u003ec a",
@@ -1695,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "RecursePredicate",
           "package": "FilePather",
@@ -1703,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather RecursePredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "RecursePredicate",
           "package": "FilePather",
@@ -1717,6 +1859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA recurse predicate that does not require effects to compute its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "RecursePredicate",
           "package": "FilePather",
@@ -1726,6 +1869,7 @@
         "index": {
           "description": "recurse predicate that does not require effects to compute its result",
           "hierarchy": "System FilePath FilePather RecursePredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "RecursePredicate",
           "package": "FilePather",
@@ -1740,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA recurse predicate takes a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e, which is a directory, and returns whether or not to continue recursing down on that directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "RecursePredicateT",
           "package": "FilePather",
@@ -1749,6 +1894,7 @@
         "index": {
           "description": "recurse predicate takes FilePath which is directory and returns whether or not to continue recursing down on that directory",
           "hierarchy": "System FilePath FilePather RecursePredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "RecursePredicateT",
           "package": "FilePather",
@@ -1763,6 +1909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a recurse predicate that does not require effects to compute its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "recursePredicate",
           "package": "FilePather",
@@ -1773,6 +1920,7 @@
         "index": {
           "description": "Construct recurse predicate that does not require effects to compute its result",
           "hierarchy": "System FilePath FilePather RecursePredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "recursePredicate",
           "normalized": "(FilePath-\u003eBool)-\u003eRecursePredicate",
@@ -1789,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a recurse predicate. The most general construction function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "recursePredicateT",
           "package": "FilePather",
@@ -1799,6 +1948,7 @@
         "index": {
           "description": "Construct recurse predicate The most general construction function",
           "hierarchy": "System FilePath FilePather RecursePredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "recursePredicateT",
           "normalized": "(FilePath-\u003ea Bool)-\u003eRecursePredicateT a",
@@ -1815,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the recurse predicate function that does not require effects to compute its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "runRecursePredicate",
           "package": "FilePather",
@@ -1825,6 +1976,7 @@
         "index": {
           "description": "Extract the recurse predicate function that does not require effects to compute its result",
           "hierarchy": "System FilePath FilePather RecursePredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "runRecursePredicate",
           "normalized": "RecursePredicate-\u003eFilePath-\u003eBool",
@@ -1841,6 +1993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the recurse predicate function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "runRecursePredicateT",
           "package": "FilePather",
@@ -1851,6 +2004,7 @@
         "index": {
           "description": "Extract the recurse predicate function",
           "hierarchy": "System FilePath FilePather RecursePredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "runRecursePredicateT",
           "normalized": "RecursePredicateT a-\u003eFilePath-\u003ea Bool",
@@ -1867,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the recurse predicate to a filter predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "toFilterPredicate",
           "package": "FilePather",
@@ -1877,6 +2032,7 @@
         "index": {
           "description": "Convert the recurse predicate to filter predicate",
           "hierarchy": "System FilePath FilePather RecursePredicate",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather.RecursePredicate",
           "name": "toFilterPredicate",
           "normalized": "RecursePredicateT a-\u003eFilterPredicateT a",
@@ -1892,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:07 UTC 2014",
           "module": "System.FilePath.FilePather",
           "name": "FilePather",
           "package": "FilePather",
@@ -1900,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FilePather",
+          "indexed": "2014-03-11T16:41:07",
           "module": "System.FilePath.FilePather",
           "name": "FilePather",
           "package": "FilePather",

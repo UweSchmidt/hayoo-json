@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AMI"
+        "phrase": "AMI",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "AMI",
           "package": "AMI",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "AMI",
           "package": "AMI",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AMI monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "AMI",
           "package": "AMI",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The AMI monad",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "AMI",
           "package": "AMI",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction packet (sent to Asterisk)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "Action",
           "package": "AMI",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Action packet sent to Asterisk",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "Action",
           "package": "AMI",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "ActionID",
           "package": "AMI",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "ActionID",
           "package": "AMI",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "ActionType",
           "package": "AMI",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "ActionType",
           "package": "AMI",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfo needed to connect and authenticate in Asterisk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "ConnectInfo",
           "package": "AMI",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Info needed to connect and authenticate in Asterisk",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "ConnectInfo",
           "package": "AMI",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent packet (received from Asterisk)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "Event",
           "package": "AMI",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Event packet received from Asterisk",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "Event",
           "package": "AMI",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "EventHandler",
           "package": "AMI",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "EventHandler",
           "package": "AMI",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "EventType",
           "package": "AMI",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "EventType",
           "package": "AMI",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction or response or event parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "Parameters",
           "package": "AMI",
@@ -225,6 +244,7 @@
         "index": {
           "description": "Action or response or event parameters",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "Parameters",
           "package": "AMI",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse packet (received from Asterisk)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "Response",
           "package": "AMI",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Response packet received from Asterisk",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "Response",
           "package": "AMI",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "ResponseType",
           "package": "AMI",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "ResponseType",
           "package": "AMI",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "Action",
           "package": "AMI",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "Action",
           "package": "AMI",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "ConnectInfo",
           "package": "AMI",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "ConnectInfo",
           "package": "AMI",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "Event",
           "package": "AMI",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "Event",
           "package": "AMI",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "Response",
           "package": "AMI",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "Response",
           "normalized": "Response ActionID ResponseType Parameters[ByteString]",
@@ -373,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost with Asterisk server (e.g. \u003ccode\u003elocalhost\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "ciHost",
           "package": "AMI",
@@ -383,6 +416,7 @@
         "index": {
           "description": "Host with Asterisk server e.g localhost",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "ciHost",
           "package": "AMI",
@@ -397,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort of Asterisk server (usually 5038)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "ciPort",
           "package": "AMI",
@@ -407,6 +442,7 @@
         "index": {
           "description": "Port of Asterisk server usually",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "ciPort",
           "package": "AMI",
@@ -421,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecret\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "ciSecret",
           "package": "AMI",
@@ -431,6 +468,7 @@
         "index": {
           "description": "Secret",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "ciSecret",
           "package": "AMI",
@@ -445,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsername\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "ciUsername",
           "package": "AMI",
@@ -455,6 +494,7 @@
         "index": {
           "description": "Username",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "ciUsername",
           "package": "AMI",
@@ -469,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an event handler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "handleEvent",
           "package": "AMI",
@@ -479,6 +520,7 @@
         "index": {
           "description": "Add an event handler",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "handleEvent",
           "normalized": "EventType-\u003eEventHandler-\u003eAMI()",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an Action packet and return the response.\n\u003c/p\u003e\u003cp\u003eCAUTION: the response value should be evaluated in order\n to be removed from internal responses queue. Leaving\n response value un-evaluated (e.g. unused) will cause\n memory leak.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "query",
           "package": "AMI",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Send an Action packet and return the response CAUTION the response value should be evaluated in order to be removed from internal responses queue Leaving response value un-evaluated e.g unused will cause memory leak",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "query",
           "normalized": "ActionType-\u003eParameters-\u003eAMI Response",
@@ -520,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect, execute acions, disconnect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "withAMI",
           "package": "AMI",
@@ -530,6 +575,7 @@
         "index": {
           "description": "Connect execute acions disconnect",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "withAMI",
           "normalized": "ConnectInfo-\u003eAMI a-\u003eIO a",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect (using MD5 challenge), execute acions, disconnect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:31 UTC 2014",
           "module": "Network.AMI",
           "name": "withAMI_MD5",
           "package": "AMI",
@@ -556,6 +603,7 @@
         "index": {
           "description": "Connect using MD5 challenge execute acions disconnect",
           "hierarchy": "Network AMI",
+          "indexed": "2014-03-11T16:32:31",
           "module": "Network.AMI",
           "name": "withAMI_MD5",
           "normalized": "ConnectInfo-\u003eAMI a-\u003eIO a",

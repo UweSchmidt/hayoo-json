@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "carboncopy"
+        "phrase": "carboncopy",
+        "type": "phrase"
       },
       "type": "context"
     }

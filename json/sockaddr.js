@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sockaddr"
+        "phrase": "sockaddr",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConverting an address in \u003ccode\u003eSockAddr\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:55 UTC 2014",
           "module": "Network.SockAddr",
           "name": "SockAddr",
           "package": "sockaddr",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Converting an address in SockAddr",
           "hierarchy": "Network SockAddr",
+          "indexed": "2014-03-11T20:06:55",
           "module": "Network.SockAddr",
           "name": "SockAddr",
           "package": "sockaddr",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003eSockAddr\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e. If the address is\n   an IPv4-embedded IPv6 address, the IPv4 is extracted.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Network.Socket\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eas \u003c- getAddrInfo (Just defaultHints) (Just \"example.org\") (Just \"http\")\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emap (showSockAddr.addrAddress) as\n\u003c/code\u003e\u003c/strong\u003e[\"93.184.216.119\",\"93.184.216.119\",\"2606:2800:220:6d:26bf:1447:1097:aa7\",\"2606:2800:220:6d:26bf:1447:1097:aa7\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:55 UTC 2014",
           "module": "Network.SockAddr",
           "name": "showSockAddr",
           "package": "sockaddr",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Convert SockAddr to String If the address is an IPv4-embedded IPv6 address the IPv4 is extracted import Network.Socket as getAddrInfo Just defaultHints Just example.org Just http map showSockAddr.addrAddress as bf aa7 bf aa7",
           "hierarchy": "Network SockAddr",
+          "indexed": "2014-03-11T20:06:55",
           "module": "Network.SockAddr",
           "name": "showSockAddr",
           "normalized": "SockAddr-\u003eString",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003eSockAddr\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. If the address is\n   an IPv4-embedded IPv6 address, the IPv4 is extracted.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Network.Socket\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eas \u003c- getAddrInfo (Just defaultHints) (Just \"localhost\") (Just \"http\")\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emap (showSockAddrBS.addrAddress) as\n\u003c/code\u003e\u003c/strong\u003e[\"127.0.0.1\",\"::1\",\"fe80:0:0:0:0:0:0:1\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:55 UTC 2014",
           "module": "Network.SockAddr",
           "name": "showSockAddrBS",
           "package": "sockaddr",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Convert SockAddr to ByteString If the address is an IPv4-embedded IPv6 address the IPv4 is extracted import Network.Socket as getAddrInfo Just defaultHints Just localhost Just http map showSockAddrBS.addrAddress as fe80",
           "hierarchy": "Network SockAddr",
+          "indexed": "2014-03-11T20:06:55",
           "module": "Network.SockAddr",
           "name": "showSockAddrBS",
           "normalized": "SockAddr-\u003eByteString",

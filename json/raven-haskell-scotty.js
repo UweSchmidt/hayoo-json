@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "raven-haskell-scotty"
+        "phrase": "raven-haskell-scotty",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities to log errors in Scotty actions using raven-haskell.\n\u003c/p\u003e\u003cpre\u003e import Web.Scotty\n\n import System.Log.Raven\n import System.Log.Raven.Transport.HttpConduit (sendRecord)\n import System.Log.Raven.Scotty\n\n main = do\n     raven \u003c- initRaven \"https://&#8230;\" id sendRecord stderrFallback\n     let hereBeDragons = guardIO raven \"my.logger\" (Just \"DragonsError\") (Just \"My.Inner.Dragons\")\n\n     scotty 8000 $ do\n         post \"/some/action/\" $ do\n             arg1 \u003c- param \"arg1\"\n             arg2 \u003c- param \"arg2\"\n             ds \u003c- hereBeDragons $ dragonsIO arg1 arg2\n             if null ds\n                 then text \"no dragons\"\n                 else do\n                     let msg = \"dragons! run!\"\n                     scottyHttpInterface \u003e\u003e= logError raven \"Main.main\" msg\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:47 UTC 2014",
           "module": "System.Log.Raven.Scotty",
           "name": "Scotty",
           "package": "raven-haskell-scotty",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Utilities to log errors in Scotty actions using raven-haskell import Web.Scotty import System.Log.Raven import System.Log.Raven.Transport.HttpConduit sendRecord import System.Log.Raven.Scotty main do raven initRaven https id sendRecord stderrFallback let hereBeDragons guardIO raven my.logger Just DragonsError Just My.Inner.Dragons scotty do post some action do arg1 param arg1 arg2 param arg2 ds hereBeDragons dragonsIO arg1 arg2 if null ds then text no dragons else do let msg dragons run scottyHttpInterface logError raven Main.main msg",
           "hierarchy": "System Log Raven Scotty",
+          "indexed": "2014-03-11T19:48:47",
           "module": "System.Log.Raven.Scotty",
           "name": "Scotty",
           "package": "raven-haskell-scotty",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA liftIO alternative that logs unhandled exceptions.\n   The function itself is verbose in arguments and designed to be curried and reused.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:47 UTC 2014",
           "module": "System.Log.Raven.Scotty",
           "name": "guardIO",
           "package": "raven-haskell-scotty",
@@ -51,6 +54,7 @@
         "index": {
           "description": "liftIO alternative that logs unhandled exceptions The function itself is verbose in arguments and designed to be curried and reused",
           "hierarchy": "System Log Raven Scotty",
+          "indexed": "2014-03-11T19:48:47",
           "module": "System.Log.Raven.Scotty",
           "name": "guardIO",
           "normalized": "SentryService-\u003eString-\u003eMaybe String-\u003eMaybe String-\u003eIO a-\u003eActionM a",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog an error in an ActionM monad, collecting request data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:47 UTC 2014",
           "module": "System.Log.Raven.Scotty",
           "name": "logError",
           "package": "raven-haskell-scotty",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Log an error in an ActionM monad collecting request data",
           "hierarchy": "System Log Raven Scotty",
+          "indexed": "2014-03-11T19:48:47",
           "module": "System.Log.Raven.Scotty",
           "name": "logError",
           "normalized": "SentryService-\u003eString-\u003eString-\u003e(SentryRecord-\u003eSentryRecord)-\u003eActionM()",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect request parameters for a HTTP sentry interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:47 UTC 2014",
           "module": "System.Log.Raven.Scotty",
           "name": "scottyHttpInterface",
           "package": "raven-haskell-scotty",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Collect request parameters for HTTP sentry interface",
           "hierarchy": "System Log Raven Scotty",
+          "indexed": "2014-03-11T19:48:47",
           "module": "System.Log.Raven.Scotty",
           "name": "scottyHttpInterface",
           "normalized": "ActionM(SentryRecord-\u003eSentryRecord)",

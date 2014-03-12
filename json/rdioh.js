@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rdioh"
+        "phrase": "rdioh",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Auth",
           "name": "Auth",
           "package": "rdioh",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Auth",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Auth",
           "name": "Auth",
           "package": "rdioh",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Auth",
           "name": "accUrl",
           "package": "rdioh",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Auth",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Auth",
           "name": "accUrl",
           "package": "rdioh",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Auth",
           "name": "app",
           "package": "rdioh",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Auth",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Auth",
           "name": "app",
           "normalized": "String-\u003eString-\u003eApplication",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Auth",
           "name": "authUrl",
           "package": "rdioh",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Auth",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Auth",
           "name": "authUrl",
           "normalized": "Token-\u003e[Char]",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Auth",
           "name": "reqUrl",
           "package": "rdioh",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Auth",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Auth",
           "name": "reqUrl",
           "package": "rdioh",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Auth",
           "name": "srvUrl",
           "package": "rdioh",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Auth",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Auth",
           "name": "srvUrl",
           "normalized": "ByteString-\u003eRequest",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a key and a secret. Does three-legged auth and returns an auth token. You can just use \u003ccode\u003erunRdioWithAuth\u003c/code\u003e in most cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Auth",
           "name": "threeLegToken",
           "package": "rdioh",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Takes key and secret Does three-legged auth and returns an auth token You can just use runRdioWithAuth in most cases",
           "hierarchy": "Rdioh Auth",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Auth",
           "name": "threeLegToken",
           "normalized": "String-\u003eString-\u003ea Token",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a key and a secret. Returns a two-legged auth token. You can\n just use \u003ccode\u003erunRdio\u003c/code\u003e in most cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Auth",
           "name": "twoLegToken",
           "package": "rdioh",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Takes key and secret Returns two-legged auth token You can just use runRdio in most cases",
           "hierarchy": "Rdioh Auth",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Auth",
           "name": "twoLegToken",
           "normalized": "String-\u003eString-\u003eToken",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Models",
           "package": "rdioh",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Models",
           "package": "rdioh",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Activity",
           "package": "rdioh",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Activity",
           "package": "rdioh",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Album",
           "package": "rdioh",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Album",
           "package": "rdioh",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "AlbumExtra",
           "package": "rdioh",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "AlbumExtra",
           "package": "rdioh",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Artist",
           "package": "rdioh",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Artist",
           "package": "rdioh",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ArtistExtra",
           "package": "rdioh",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ArtistExtra",
           "package": "rdioh",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ArtistStation",
           "package": "rdioh",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ArtistStation",
           "package": "rdioh",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ArtistTopSongsStation",
           "package": "rdioh",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ArtistTopSongsStation",
           "package": "rdioh",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "CollaborationMode",
           "package": "rdioh",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "CollaborationMode",
           "package": "rdioh",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "CollectionAlbum",
           "package": "rdioh",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "CollectionAlbum",
           "package": "rdioh",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "CollectionArtist",
           "package": "rdioh",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "CollectionArtist",
           "package": "rdioh",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Gender",
           "package": "rdioh",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Gender",
           "package": "rdioh",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "HeavyRotationStation",
           "package": "rdioh",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "HeavyRotationStation",
           "package": "rdioh",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "HeavyRotationUserStation",
           "package": "rdioh",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "HeavyRotationUserStation",
           "package": "rdioh",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Label",
           "package": "rdioh",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Label",
           "package": "rdioh",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "LabelStation",
           "package": "rdioh",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "LabelStation",
           "package": "rdioh",
@@ -542,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Playlist",
           "package": "rdioh",
@@ -550,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Playlist",
           "package": "rdioh",
@@ -563,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "PlaylistExtra",
           "package": "rdioh",
@@ -571,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "PlaylistExtra",
           "package": "rdioh",
@@ -584,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "PlaylistType",
           "package": "rdioh",
@@ -592,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "PlaylistType",
           "package": "rdioh",
@@ -605,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "RdioResponse",
           "package": "rdioh",
@@ -613,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "RdioResponse",
           "package": "rdioh",
@@ -626,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Reason",
           "package": "rdioh",
@@ -634,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Reason",
           "package": "rdioh",
@@ -647,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Scope",
           "package": "rdioh",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Scope",
           "package": "rdioh",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "SearchResults",
           "package": "rdioh",
@@ -676,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "SearchResults",
           "package": "rdioh",
@@ -689,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Timeframe",
           "package": "rdioh",
@@ -697,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Timeframe",
           "package": "rdioh",
@@ -710,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Track",
           "package": "rdioh",
@@ -718,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Track",
           "package": "rdioh",
@@ -731,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "TrackExtra",
           "package": "rdioh",
@@ -739,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "TrackExtra",
           "package": "rdioh",
@@ -752,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Update",
           "package": "rdioh",
@@ -760,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Update",
           "package": "rdioh",
@@ -773,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UpdateType",
           "package": "rdioh",
@@ -781,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UpdateType",
           "package": "rdioh",
@@ -794,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "User",
           "package": "rdioh",
@@ -802,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "User",
           "package": "rdioh",
@@ -815,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UserCollectionStation",
           "package": "rdioh",
@@ -823,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UserCollectionStation",
           "package": "rdioh",
@@ -836,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UserExtra",
           "package": "rdioh",
@@ -844,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UserExtra",
           "package": "rdioh",
@@ -857,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UserPlaylists",
           "package": "rdioh",
@@ -865,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UserPlaylists",
           "package": "rdioh",
@@ -878,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Activity",
           "package": "rdioh",
@@ -887,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Activity",
           "package": "rdioh",
@@ -900,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Album",
           "package": "rdioh",
@@ -909,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Album",
           "package": "rdioh",
@@ -922,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "AlbumBigIcon",
           "package": "rdioh",
@@ -931,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "AlbumBigIcon",
           "package": "rdioh",
@@ -944,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "AlbumCount",
           "package": "rdioh",
@@ -953,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "AlbumCount",
           "package": "rdioh",
@@ -966,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "AlbumIframeUrl",
           "package": "rdioh",
@@ -975,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "AlbumIframeUrl",
           "package": "rdioh",
@@ -988,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "AlbumIsCompilation",
           "package": "rdioh",
@@ -997,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "AlbumIsCompilation",
           "package": "rdioh",
@@ -1010,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "AlbumLabel",
           "package": "rdioh",
@@ -1019,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "AlbumLabel",
           "package": "rdioh",
@@ -1032,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "AlbumReleaseDateISO",
           "package": "rdioh",
@@ -1041,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "AlbumReleaseDateISO",
           "package": "rdioh",
@@ -1054,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "AllScope",
           "package": "rdioh",
@@ -1063,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "AllScope",
           "package": "rdioh",
@@ -1076,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Artist",
           "package": "rdioh",
@@ -1085,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Artist",
           "package": "rdioh",
@@ -1098,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ArtistAlbumCount",
           "package": "rdioh",
@@ -1107,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ArtistAlbumCount",
           "package": "rdioh",
@@ -1120,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ArtistCount",
           "package": "rdioh",
@@ -1129,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ArtistCount",
           "package": "rdioh",
@@ -1142,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ArtistStation",
           "package": "rdioh",
@@ -1151,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ArtistStation",
           "package": "rdioh",
@@ -1164,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ArtistTopSongsStation",
           "package": "rdioh",
@@ -1173,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ArtistTopSongsStation",
           "package": "rdioh",
@@ -1186,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Collab",
           "package": "rdioh",
@@ -1195,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Collab",
           "package": "rdioh",
@@ -1208,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "CollaborationWithAll",
           "package": "rdioh",
@@ -1217,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "CollaborationWithAll",
           "package": "rdioh",
@@ -1230,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "CollaborationWithFollowed",
           "package": "rdioh",
@@ -1239,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "CollaborationWithFollowed",
           "package": "rdioh",
@@ -1252,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "CollectionAlbum",
           "package": "rdioh",
@@ -1261,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "CollectionAlbum",
           "package": "rdioh",
@@ -1274,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "CollectionArtist",
           "package": "rdioh",
@@ -1283,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "CollectionArtist",
           "package": "rdioh",
@@ -1296,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "CollectionKey",
           "package": "rdioh",
@@ -1305,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "CollectionKey",
           "package": "rdioh",
@@ -1318,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "CollectionUrl",
           "package": "rdioh",
@@ -1327,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "CollectionUrl",
           "package": "rdioh",
@@ -1340,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "DisplayName",
           "package": "rdioh",
@@ -1349,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "DisplayName",
           "package": "rdioh",
@@ -1362,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Female",
           "package": "rdioh",
@@ -1371,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Female",
           "package": "rdioh",
@@ -1384,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "FollowersUrl",
           "package": "rdioh",
@@ -1393,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "FollowersUrl",
           "package": "rdioh",
@@ -1406,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "FollowingUrl",
           "package": "rdioh",
@@ -1415,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "FollowingUrl",
           "package": "rdioh",
@@ -1428,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "FriendScope",
           "package": "rdioh",
@@ -1437,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "FriendScope",
           "package": "rdioh",
@@ -1450,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "HeavyRotationKey",
           "package": "rdioh",
@@ -1459,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "HeavyRotationKey",
           "package": "rdioh",
@@ -1472,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "HeavyRotationStation",
           "package": "rdioh",
@@ -1481,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "HeavyRotationStation",
           "package": "rdioh",
@@ -1494,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "HeavyRotationUserStation",
           "package": "rdioh",
@@ -1503,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "HeavyRotationUserStation",
           "package": "rdioh",
@@ -1516,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "IsInCollection",
           "package": "rdioh",
@@ -1525,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "IsInCollection",
           "package": "rdioh",
@@ -1538,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "IsOnCompilation",
           "package": "rdioh",
@@ -1547,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "IsOnCompilation",
           "package": "rdioh",
@@ -1560,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "IsPublished",
           "package": "rdioh",
@@ -1569,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "IsPublished",
           "package": "rdioh",
@@ -1582,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "IsSubscriber",
           "package": "rdioh",
@@ -1591,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "IsSubscriber",
           "package": "rdioh",
@@ -1604,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "IsTrial",
           "package": "rdioh",
@@ -1613,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "IsTrial",
           "package": "rdioh",
@@ -1626,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "IsUnlimited",
           "package": "rdioh",
@@ -1635,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "IsUnlimited",
           "package": "rdioh",
@@ -1648,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "IsViewable",
           "package": "rdioh",
@@ -1657,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "IsViewable",
           "package": "rdioh",
@@ -1670,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Isrcs",
           "package": "rdioh",
@@ -1679,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Isrcs",
           "package": "rdioh",
@@ -1692,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Label",
           "package": "rdioh",
@@ -1701,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Label",
           "package": "rdioh",
@@ -1714,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "LabelStation",
           "package": "rdioh",
@@ -1723,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "LabelStation",
           "package": "rdioh",
@@ -1736,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "LastSongPlayTime",
           "package": "rdioh",
@@ -1745,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "LastSongPlayTime",
           "package": "rdioh",
@@ -1758,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "LastSongPlayed",
           "package": "rdioh",
@@ -1767,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "LastSongPlayed",
           "package": "rdioh",
@@ -1780,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "LastWeek",
           "package": "rdioh",
@@ -1789,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "LastWeek",
           "package": "rdioh",
@@ -1802,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Male",
           "package": "rdioh",
@@ -1811,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Male",
           "package": "rdioh",
@@ -1824,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "NetworkHeavyRotationKey",
           "package": "rdioh",
@@ -1833,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "NetworkHeavyRotationKey",
           "package": "rdioh",
@@ -1846,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "NoCollaboration",
           "package": "rdioh",
@@ -1855,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "NoCollaboration",
           "package": "rdioh",
@@ -1868,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "OrderedAlbum",
           "package": "rdioh",
@@ -1877,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "OrderedAlbum",
           "package": "rdioh",
@@ -1890,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Owned",
           "package": "rdioh",
@@ -1899,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Owned",
           "package": "rdioh",
@@ -1912,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "PlBigIcon",
           "package": "rdioh",
@@ -1921,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "PlBigIcon",
           "package": "rdioh",
@@ -1934,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "PlDescription",
           "package": "rdioh",
@@ -1943,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "PlDescription",
           "package": "rdioh",
@@ -1956,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "PlIframeUrl",
           "package": "rdioh",
@@ -1965,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "PlIframeUrl",
           "package": "rdioh",
@@ -1978,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "PlTrackKeys",
           "package": "rdioh",
@@ -1987,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "PlTrackKeys",
           "package": "rdioh",
@@ -2000,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "PlTracks",
           "package": "rdioh",
@@ -2009,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "PlTracks",
           "package": "rdioh",
@@ -2022,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "PlayCount",
           "package": "rdioh",
@@ -2031,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "PlayCount",
           "package": "rdioh",
@@ -2044,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Playlist",
           "package": "rdioh",
@@ -2053,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Playlist",
           "package": "rdioh",
@@ -2066,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "PlaylistsUrl",
           "package": "rdioh",
@@ -2075,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "PlaylistsUrl",
           "package": "rdioh",
@@ -2088,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "RdioResponse",
           "package": "rdioh",
@@ -2097,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "RdioResponse",
           "package": "rdioh",
@@ -2110,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ReasonNotViewable",
           "package": "rdioh",
@@ -2119,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ReasonNotViewable",
           "package": "rdioh",
@@ -2132,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ReviewCount",
           "package": "rdioh",
@@ -2141,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ReviewCount",
           "package": "rdioh",
@@ -2154,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "SearchResults",
           "package": "rdioh",
@@ -2163,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "SearchResults",
           "package": "rdioh",
@@ -2176,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Subscribed",
           "package": "rdioh",
@@ -2185,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Subscribed",
           "package": "rdioh",
@@ -2198,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ThisWeek",
           "package": "rdioh",
@@ -2207,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ThisWeek",
           "package": "rdioh",
@@ -2220,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "TooFewSongs",
           "package": "rdioh",
@@ -2229,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "TooFewSongs",
           "package": "rdioh",
@@ -2242,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Track",
           "package": "rdioh",
@@ -2251,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Track",
           "package": "rdioh",
@@ -2264,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "TrackBigIcon",
           "package": "rdioh",
@@ -2273,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "TrackBigIcon",
           "package": "rdioh",
@@ -2286,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "TrackCount",
           "package": "rdioh",
@@ -2295,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "TrackCount",
           "package": "rdioh",
@@ -2308,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "TrackIframeUrl",
           "package": "rdioh",
@@ -2317,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "TrackIframeUrl",
           "package": "rdioh",
@@ -2330,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "TwoWeeks",
           "package": "rdioh",
@@ -2339,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "TwoWeeks",
           "package": "rdioh",
@@ -2352,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UCommentOnAlbum",
           "package": "rdioh",
@@ -2361,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UCommentOnAlbum",
           "package": "rdioh",
@@ -2374,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UCommentOnArtist",
           "package": "rdioh",
@@ -2383,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UCommentOnArtist",
           "package": "rdioh",
@@ -2396,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UCommentOnPlaylist",
           "package": "rdioh",
@@ -2405,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UCommentOnPlaylist",
           "package": "rdioh",
@@ -2418,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UCommentOnTrack",
           "package": "rdioh",
@@ -2427,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UCommentOnTrack",
           "package": "rdioh",
@@ -2440,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UFriendAdded",
           "package": "rdioh",
@@ -2449,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UFriendAdded",
           "package": "rdioh",
@@ -2462,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UTrackAddedToCollection",
           "package": "rdioh",
@@ -2471,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UTrackAddedToCollection",
           "package": "rdioh",
@@ -2484,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UTrackAddedToPlaylist",
           "package": "rdioh",
@@ -2493,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UTrackAddedToPlaylist",
           "package": "rdioh",
@@ -2506,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UTrackAddedViaMatchCollection",
           "package": "rdioh",
@@ -2515,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UTrackAddedViaMatchCollection",
           "package": "rdioh",
@@ -2528,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UTrackSynced",
           "package": "rdioh",
@@ -2537,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UTrackSynced",
           "package": "rdioh",
@@ -2550,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UUserJoined",
           "package": "rdioh",
@@ -2559,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UUserJoined",
           "package": "rdioh",
@@ -2572,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UUserSubscribed",
           "package": "rdioh",
@@ -2581,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UUserSubscribed",
           "package": "rdioh",
@@ -2594,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Update",
           "package": "rdioh",
@@ -2603,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Update",
           "package": "rdioh",
@@ -2616,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "User",
           "package": "rdioh",
@@ -2625,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "User",
           "package": "rdioh",
@@ -2638,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UserCollectionStation",
           "package": "rdioh",
@@ -2647,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UserCollectionStation",
           "package": "rdioh",
@@ -2660,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UserPlaylists",
           "package": "rdioh",
@@ -2669,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UserPlaylists",
           "package": "rdioh",
@@ -2682,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UserPreference",
           "package": "rdioh",
@@ -2691,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UserPreference",
           "package": "rdioh",
@@ -2704,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "UserScope",
           "package": "rdioh",
@@ -2713,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "UserScope",
           "package": "rdioh",
@@ -2726,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Username",
           "package": "rdioh",
@@ -2735,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Username",
           "package": "rdioh",
@@ -2748,6 +2998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "Viewable",
           "package": "rdioh",
@@ -2757,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "Viewable",
           "package": "rdioh",
@@ -2770,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "activityUser",
           "package": "rdioh",
@@ -2779,6 +3032,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "activityUser",
           "package": "rdioh",
@@ -2792,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumArtist",
           "package": "rdioh",
@@ -2801,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumArtist",
           "package": "rdioh",
@@ -2814,6 +3070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumArtistKey",
           "package": "rdioh",
@@ -2823,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumArtistKey",
           "package": "rdioh",
@@ -2836,6 +3094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumArtistUrl",
           "package": "rdioh",
@@ -2845,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumArtistUrl",
           "package": "rdioh",
@@ -2858,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumBaseIcon",
           "package": "rdioh",
@@ -2867,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumBaseIcon",
           "package": "rdioh",
@@ -2880,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumBigIcon",
           "package": "rdioh",
@@ -2889,6 +3152,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumBigIcon",
           "package": "rdioh",
@@ -2902,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumCount",
           "package": "rdioh",
@@ -2911,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumCount",
           "package": "rdioh",
@@ -2924,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumIcon",
           "package": "rdioh",
@@ -2933,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumIcon",
           "package": "rdioh",
@@ -2946,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumKey",
           "package": "rdioh",
@@ -2955,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumKey",
           "package": "rdioh",
@@ -2968,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumLabel",
           "package": "rdioh",
@@ -2977,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumLabel",
           "package": "rdioh",
@@ -2990,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumLength",
           "package": "rdioh",
@@ -2999,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumLength",
           "package": "rdioh",
@@ -3012,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumName",
           "package": "rdioh",
@@ -3021,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumName",
           "package": "rdioh",
@@ -3034,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumShortUrl",
           "package": "rdioh",
@@ -3043,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumShortUrl",
           "package": "rdioh",
@@ -3056,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "albumUrl",
           "package": "rdioh",
@@ -3065,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "albumUrl",
           "package": "rdioh",
@@ -3078,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "artistAlbumCount",
           "package": "rdioh",
@@ -3087,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "artistAlbumCount",
           "package": "rdioh",
@@ -3100,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "artistBaseIcon",
           "package": "rdioh",
@@ -3109,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "artistBaseIcon",
           "package": "rdioh",
@@ -3122,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "artistCount",
           "package": "rdioh",
@@ -3131,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "artistCount",
           "package": "rdioh",
@@ -3144,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "artistIcon",
           "package": "rdioh",
@@ -3153,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "artistIcon",
           "package": "rdioh",
@@ -3166,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "artistKey",
           "package": "rdioh",
@@ -3175,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "artistKey",
           "package": "rdioh",
@@ -3188,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "artistLength",
           "package": "rdioh",
@@ -3197,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "artistLength",
           "package": "rdioh",
@@ -3210,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "artistName",
           "package": "rdioh",
@@ -3219,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "artistName",
           "package": "rdioh",
@@ -3232,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "artistShortUrl",
           "package": "rdioh",
@@ -3241,6 +3536,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "artistShortUrl",
           "package": "rdioh",
@@ -3254,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "artistUrl",
           "package": "rdioh",
@@ -3263,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "artistUrl",
           "package": "rdioh",
@@ -3276,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asAlbumCount",
           "package": "rdioh",
@@ -3285,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asAlbumCount",
           "package": "rdioh",
@@ -3298,6 +3598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asArtistName",
           "package": "rdioh",
@@ -3307,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asArtistName",
           "package": "rdioh",
@@ -3320,6 +3622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asArtistUrl",
           "package": "rdioh",
@@ -3329,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asArtistUrl",
           "package": "rdioh",
@@ -3342,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asBaseIcon",
           "package": "rdioh",
@@ -3351,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asBaseIcon",
           "package": "rdioh",
@@ -3364,6 +3670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asCount",
           "package": "rdioh",
@@ -3373,6 +3680,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asCount",
           "package": "rdioh",
@@ -3386,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asHasRadio",
           "package": "rdioh",
@@ -3395,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asHasRadio",
           "package": "rdioh",
@@ -3408,6 +3718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asIcon",
           "package": "rdioh",
@@ -3417,6 +3728,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asIcon",
           "package": "rdioh",
@@ -3430,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asKey",
           "package": "rdioh",
@@ -3439,6 +3752,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asKey",
           "package": "rdioh",
@@ -3452,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asLength",
           "package": "rdioh",
@@ -3461,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asLength",
           "package": "rdioh",
@@ -3474,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asName",
           "package": "rdioh",
@@ -3483,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asName",
           "package": "rdioh",
@@ -3496,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asRadioKey",
           "package": "rdioh",
@@ -3505,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asRadioKey",
           "package": "rdioh",
@@ -3518,6 +3838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asReloadOnRepeat",
           "package": "rdioh",
@@ -3527,6 +3848,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asReloadOnRepeat",
           "package": "rdioh",
@@ -3540,6 +3862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asShortUrl",
           "package": "rdioh",
@@ -3549,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asShortUrl",
           "package": "rdioh",
@@ -3562,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asTopSongsKey",
           "package": "rdioh",
@@ -3571,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asTopSongsKey",
           "package": "rdioh",
@@ -3584,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asTrackKeys",
           "package": "rdioh",
@@ -3593,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asTrackKeys",
           "normalized": "Maybe[String]",
@@ -3608,6 +3936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asTracks",
           "package": "rdioh",
@@ -3617,6 +3946,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asTracks",
           "normalized": "[String]",
@@ -3632,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "asUrl",
           "package": "rdioh",
@@ -3641,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "asUrl",
           "package": "rdioh",
@@ -3654,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssAlbumCount",
           "package": "rdioh",
@@ -3663,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssAlbumCount",
           "package": "rdioh",
@@ -3676,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssArtistName",
           "package": "rdioh",
@@ -3685,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssArtistName",
           "package": "rdioh",
@@ -3698,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssArtistUrl",
           "package": "rdioh",
@@ -3707,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssArtistUrl",
           "package": "rdioh",
@@ -3720,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssBaseIcon",
           "package": "rdioh",
@@ -3729,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssBaseIcon",
           "package": "rdioh",
@@ -3742,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssCount",
           "package": "rdioh",
@@ -3751,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssCount",
           "package": "rdioh",
@@ -3764,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssHasRadio",
           "package": "rdioh",
@@ -3773,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssHasRadio",
           "package": "rdioh",
@@ -3786,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssIcon",
           "package": "rdioh",
@@ -3795,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssIcon",
           "package": "rdioh",
@@ -3808,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssKey",
           "package": "rdioh",
@@ -3817,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssKey",
           "package": "rdioh",
@@ -3830,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssLength",
           "package": "rdioh",
@@ -3839,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssLength",
           "package": "rdioh",
@@ -3852,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssName",
           "package": "rdioh",
@@ -3861,6 +4212,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssName",
           "package": "rdioh",
@@ -3874,6 +4226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssRadioKey",
           "package": "rdioh",
@@ -3883,6 +4236,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssRadioKey",
           "package": "rdioh",
@@ -3896,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssReloadOnRepeat",
           "package": "rdioh",
@@ -3905,6 +4260,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssReloadOnRepeat",
           "package": "rdioh",
@@ -3918,6 +4274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssShortUrl",
           "package": "rdioh",
@@ -3927,6 +4284,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssShortUrl",
           "package": "rdioh",
@@ -3940,6 +4298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssTopSongsKey",
           "package": "rdioh",
@@ -3949,6 +4308,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssTopSongsKey",
           "package": "rdioh",
@@ -3962,6 +4322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssTrackKeys",
           "package": "rdioh",
@@ -3971,6 +4332,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssTrackKeys",
           "normalized": "Maybe[String]",
@@ -3986,6 +4348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssTracks",
           "package": "rdioh",
@@ -3995,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssTracks",
           "normalized": "[String]",
@@ -4010,6 +4374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "atssUrl",
           "package": "rdioh",
@@ -4019,6 +4384,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "atssUrl",
           "package": "rdioh",
@@ -4032,6 +4398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "canSample",
           "package": "rdioh",
@@ -4041,6 +4408,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "canSample",
           "package": "rdioh",
@@ -4054,6 +4422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "canStream",
           "package": "rdioh",
@@ -4063,6 +4432,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "canStream",
           "package": "rdioh",
@@ -4076,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "canTether",
           "package": "rdioh",
@@ -4085,6 +4456,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "canTether",
           "package": "rdioh",
@@ -4098,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colAlbumArtistKey",
           "package": "rdioh",
@@ -4107,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colAlbumArtistKey",
           "package": "rdioh",
@@ -4120,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colAlbumArtistUrl",
           "package": "rdioh",
@@ -4129,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colAlbumArtistUrl",
           "package": "rdioh",
@@ -4142,6 +4518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colAlbumCount",
           "package": "rdioh",
@@ -4151,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colAlbumCount",
           "package": "rdioh",
@@ -4164,6 +4542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colAlbumKey",
           "package": "rdioh",
@@ -4173,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colAlbumKey",
           "package": "rdioh",
@@ -4186,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colAlbumUrl",
           "package": "rdioh",
@@ -4195,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colAlbumUrl",
           "package": "rdioh",
@@ -4208,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtist",
           "package": "rdioh",
@@ -4217,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtist",
           "package": "rdioh",
@@ -4230,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistArtistKey",
           "package": "rdioh",
@@ -4239,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistArtistKey",
           "package": "rdioh",
@@ -4252,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistArtistUrl",
           "package": "rdioh",
@@ -4261,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistArtistUrl",
           "package": "rdioh",
@@ -4274,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistBaseIcon",
           "package": "rdioh",
@@ -4283,6 +4672,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistBaseIcon",
           "package": "rdioh",
@@ -4296,6 +4686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistCollectionUrl",
           "package": "rdioh",
@@ -4305,6 +4696,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistCollectionUrl",
           "package": "rdioh",
@@ -4318,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistHasRadio",
           "package": "rdioh",
@@ -4327,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistHasRadio",
           "package": "rdioh",
@@ -4340,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistIcon",
           "package": "rdioh",
@@ -4349,6 +4744,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistIcon",
           "package": "rdioh",
@@ -4362,6 +4758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistKey",
           "package": "rdioh",
@@ -4371,6 +4768,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistKey",
           "package": "rdioh",
@@ -4384,6 +4782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistLength",
           "package": "rdioh",
@@ -4393,6 +4792,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistLength",
           "package": "rdioh",
@@ -4406,6 +4806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistName",
           "package": "rdioh",
@@ -4415,6 +4816,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistName",
           "package": "rdioh",
@@ -4428,6 +4830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistRadioKey",
           "package": "rdioh",
@@ -4437,6 +4840,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistRadioKey",
           "package": "rdioh",
@@ -4450,6 +4854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistShortUrl",
           "package": "rdioh",
@@ -4459,6 +4864,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistShortUrl",
           "package": "rdioh",
@@ -4472,6 +4878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistTopSongsKey",
           "package": "rdioh",
@@ -4481,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistTopSongsKey",
           "normalized": "[String]",
@@ -4496,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistUrl",
           "package": "rdioh",
@@ -4505,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistUrl",
           "package": "rdioh",
@@ -4518,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistUserKey",
           "package": "rdioh",
@@ -4527,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistUserKey",
           "package": "rdioh",
@@ -4540,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colArtistUserName",
           "package": "rdioh",
@@ -4549,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colArtistUserName",
           "package": "rdioh",
@@ -4562,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colBaseIcon",
           "package": "rdioh",
@@ -4571,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colBaseIcon",
           "package": "rdioh",
@@ -4584,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colBigIcon",
           "package": "rdioh",
@@ -4593,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colBigIcon",
           "package": "rdioh",
@@ -4606,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colCanSample",
           "package": "rdioh",
@@ -4615,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colCanSample",
           "package": "rdioh",
@@ -4628,6 +5048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colCanStream",
           "package": "rdioh",
@@ -4637,6 +5058,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colCanStream",
           "package": "rdioh",
@@ -4650,6 +5072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colCanTether",
           "package": "rdioh",
@@ -4659,6 +5082,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colCanTether",
           "package": "rdioh",
@@ -4672,6 +5096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colCollectionUrl",
           "package": "rdioh",
@@ -4681,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colCollectionUrl",
           "package": "rdioh",
@@ -4694,6 +5120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colCount",
           "package": "rdioh",
@@ -4703,6 +5130,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colCount",
           "package": "rdioh",
@@ -4716,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colDisplayDate",
           "package": "rdioh",
@@ -4725,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colDisplayDate",
           "package": "rdioh",
@@ -4738,6 +5168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colDuration",
           "package": "rdioh",
@@ -4747,6 +5178,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colDuration",
           "package": "rdioh",
@@ -4760,6 +5192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colEmbedUrl",
           "package": "rdioh",
@@ -4769,6 +5202,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colEmbedUrl",
           "package": "rdioh",
@@ -4782,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colIcon",
           "package": "rdioh",
@@ -4791,6 +5226,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colIcon",
           "package": "rdioh",
@@ -4804,6 +5240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colIframeUrl",
           "package": "rdioh",
@@ -4813,6 +5250,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colIframeUrl",
           "package": "rdioh",
@@ -4826,6 +5264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colIsClean",
           "package": "rdioh",
@@ -4835,6 +5274,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colIsClean",
           "package": "rdioh",
@@ -4848,6 +5288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colIsCompilation",
           "package": "rdioh",
@@ -4857,6 +5298,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colIsCompilation",
           "package": "rdioh",
@@ -4870,6 +5312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colIsExplicit",
           "package": "rdioh",
@@ -4879,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colIsExplicit",
           "package": "rdioh",
@@ -4892,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colItemTrackKeys",
           "package": "rdioh",
@@ -4901,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colItemTrackKeys",
           "normalized": "[String]",
@@ -4916,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colKey",
           "package": "rdioh",
@@ -4925,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colKey",
           "package": "rdioh",
@@ -4938,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colLabel",
           "package": "rdioh",
@@ -4947,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colLabel",
           "package": "rdioh",
@@ -4960,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colLength",
           "package": "rdioh",
@@ -4969,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colLength",
           "package": "rdioh",
@@ -4982,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colName",
           "package": "rdioh",
@@ -4991,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colName",
           "package": "rdioh",
@@ -5004,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colPrice",
           "package": "rdioh",
@@ -5013,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colPrice",
           "package": "rdioh",
@@ -5026,6 +5482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colReleaseDate",
           "package": "rdioh",
@@ -5035,6 +5492,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colReleaseDate",
           "package": "rdioh",
@@ -5048,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colReleaseDateISO",
           "package": "rdioh",
@@ -5057,6 +5516,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colReleaseDateISO",
           "package": "rdioh",
@@ -5070,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colShortUrl",
           "package": "rdioh",
@@ -5079,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colShortUrl",
           "package": "rdioh",
@@ -5092,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colTrackKeys",
           "package": "rdioh",
@@ -5101,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colTrackKeys",
           "normalized": "[String]",
@@ -5116,6 +5580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colUpcs",
           "package": "rdioh",
@@ -5125,6 +5590,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colUpcs",
           "normalized": "Maybe[String]",
@@ -5140,6 +5606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colUrl",
           "package": "rdioh",
@@ -5149,6 +5616,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colUrl",
           "package": "rdioh",
@@ -5162,6 +5630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colUserGender",
           "package": "rdioh",
@@ -5171,6 +5640,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colUserGender",
           "package": "rdioh",
@@ -5184,6 +5654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colUserKey",
           "package": "rdioh",
@@ -5193,6 +5664,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colUserKey",
           "package": "rdioh",
@@ -5206,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "colUserName",
           "package": "rdioh",
@@ -5215,6 +5688,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "colUserName",
           "package": "rdioh",
@@ -5228,6 +5702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "collectionKey",
           "package": "rdioh",
@@ -5237,6 +5712,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "collectionKey",
           "package": "rdioh",
@@ -5250,6 +5726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "collectionUrl",
           "package": "rdioh",
@@ -5259,6 +5736,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "collectionUrl",
           "package": "rdioh",
@@ -5272,6 +5750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "date",
           "package": "rdioh",
@@ -5281,6 +5760,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "date",
           "package": "rdioh",
@@ -5293,6 +5773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "displayDate",
           "package": "rdioh",
@@ -5302,6 +5783,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "displayDate",
           "package": "rdioh",
@@ -5315,6 +5797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "displayName",
           "package": "rdioh",
@@ -5324,6 +5807,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "displayName",
           "package": "rdioh",
@@ -5337,6 +5821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "duration",
           "package": "rdioh",
@@ -5346,6 +5831,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "duration",
           "package": "rdioh",
@@ -5358,6 +5844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "embedUrl",
           "package": "rdioh",
@@ -5367,6 +5854,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "embedUrl",
           "package": "rdioh",
@@ -5380,6 +5868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "firstName",
           "package": "rdioh",
@@ -5389,6 +5878,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "firstName",
           "package": "rdioh",
@@ -5402,6 +5892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "followersUrl",
           "package": "rdioh",
@@ -5411,6 +5902,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "followersUrl",
           "package": "rdioh",
@@ -5424,6 +5916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "followingUrl",
           "package": "rdioh",
@@ -5433,6 +5926,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "followingUrl",
           "package": "rdioh",
@@ -5446,6 +5940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "gender",
           "package": "rdioh",
@@ -5455,6 +5950,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "gender",
           "package": "rdioh",
@@ -5467,6 +5963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hasRadio",
           "package": "rdioh",
@@ -5476,6 +5973,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hasRadio",
           "package": "rdioh",
@@ -5489,6 +5987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "heavyRotationKey",
           "package": "rdioh",
@@ -5498,6 +5997,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "heavyRotationKey",
           "package": "rdioh",
@@ -5511,6 +6011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrsBaseIcon",
           "package": "rdioh",
@@ -5520,6 +6021,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrsBaseIcon",
           "package": "rdioh",
@@ -5533,6 +6035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrsCount",
           "package": "rdioh",
@@ -5542,6 +6045,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrsCount",
           "package": "rdioh",
@@ -5555,6 +6059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrsIcon",
           "package": "rdioh",
@@ -5564,6 +6069,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrsIcon",
           "package": "rdioh",
@@ -5577,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrsKey",
           "package": "rdioh",
@@ -5586,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrsKey",
           "package": "rdioh",
@@ -5599,6 +6107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrsLength",
           "package": "rdioh",
@@ -5608,6 +6117,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrsLength",
           "package": "rdioh",
@@ -5621,6 +6131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrsName",
           "package": "rdioh",
@@ -5630,6 +6141,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrsName",
           "package": "rdioh",
@@ -5643,6 +6155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrsReloadOnRepeat",
           "package": "rdioh",
@@ -5652,6 +6165,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrsReloadOnRepeat",
           "package": "rdioh",
@@ -5665,6 +6179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrsTrackKeys",
           "package": "rdioh",
@@ -5674,6 +6189,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrsTrackKeys",
           "normalized": "Maybe[String]",
@@ -5689,6 +6205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrsTracks",
           "package": "rdioh",
@@ -5698,6 +6215,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrsTracks",
           "package": "rdioh",
@@ -5711,6 +6229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrsUser",
           "package": "rdioh",
@@ -5720,6 +6239,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrsUser",
           "package": "rdioh",
@@ -5733,6 +6253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrusBaseIcon",
           "package": "rdioh",
@@ -5742,6 +6263,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrusBaseIcon",
           "package": "rdioh",
@@ -5755,6 +6277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrusCount",
           "package": "rdioh",
@@ -5764,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrusCount",
           "package": "rdioh",
@@ -5777,6 +6301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrusIcon",
           "package": "rdioh",
@@ -5786,6 +6311,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrusIcon",
           "package": "rdioh",
@@ -5799,6 +6325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrusKey",
           "package": "rdioh",
@@ -5808,6 +6335,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrusKey",
           "package": "rdioh",
@@ -5821,6 +6349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrusLength",
           "package": "rdioh",
@@ -5830,6 +6359,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrusLength",
           "package": "rdioh",
@@ -5843,6 +6373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrusName",
           "package": "rdioh",
@@ -5852,6 +6383,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrusName",
           "package": "rdioh",
@@ -5865,6 +6397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrusReloadOnRepeat",
           "package": "rdioh",
@@ -5874,6 +6407,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrusReloadOnRepeat",
           "package": "rdioh",
@@ -5887,6 +6421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrusTrackKeys",
           "package": "rdioh",
@@ -5896,6 +6431,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrusTrackKeys",
           "normalized": "Maybe[String]",
@@ -5911,6 +6447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrusTracks",
           "package": "rdioh",
@@ -5920,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrusTracks",
           "package": "rdioh",
@@ -5933,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "hrusUser",
           "package": "rdioh",
@@ -5942,6 +6481,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "hrusUser",
           "package": "rdioh",
@@ -5955,6 +6495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "iframeUrl",
           "package": "rdioh",
@@ -5964,6 +6505,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "iframeUrl",
           "package": "rdioh",
@@ -5977,6 +6519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "isClean",
           "package": "rdioh",
@@ -5986,6 +6529,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "isClean",
           "package": "rdioh",
@@ -5999,6 +6543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "isCompilation",
           "package": "rdioh",
@@ -6008,6 +6553,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "isCompilation",
           "package": "rdioh",
@@ -6021,6 +6567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "isExplicit",
           "package": "rdioh",
@@ -6030,6 +6577,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "isExplicit",
           "package": "rdioh",
@@ -6043,6 +6591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "isInCollection",
           "package": "rdioh",
@@ -6052,6 +6601,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "isInCollection",
           "package": "rdioh",
@@ -6065,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "isOnCompilation",
           "package": "rdioh",
@@ -6074,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "isOnCompilation",
           "package": "rdioh",
@@ -6087,6 +6639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "isPublished",
           "package": "rdioh",
@@ -6096,6 +6649,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "isPublished",
           "package": "rdioh",
@@ -6109,6 +6663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "isSubscriber",
           "package": "rdioh",
@@ -6118,6 +6673,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "isSubscriber",
           "package": "rdioh",
@@ -6131,6 +6687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "isTrial",
           "package": "rdioh",
@@ -6140,6 +6697,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "isTrial",
           "package": "rdioh",
@@ -6153,6 +6711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "isUnlimited",
           "package": "rdioh",
@@ -6162,6 +6721,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "isUnlimited",
           "package": "rdioh",
@@ -6175,6 +6735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "isViewable",
           "package": "rdioh",
@@ -6184,6 +6745,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "isViewable",
           "package": "rdioh",
@@ -6197,6 +6759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "isrcs",
           "package": "rdioh",
@@ -6206,6 +6769,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "isrcs",
           "normalized": "Maybe[String]",
@@ -6220,6 +6784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "labelHasRadio",
           "package": "rdioh",
@@ -6229,6 +6794,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "labelHasRadio",
           "package": "rdioh",
@@ -6242,6 +6808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "labelKey",
           "package": "rdioh",
@@ -6251,6 +6818,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "labelKey",
           "package": "rdioh",
@@ -6264,6 +6832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "labelName",
           "package": "rdioh",
@@ -6273,6 +6842,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "labelName",
           "package": "rdioh",
@@ -6286,6 +6856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "labelRadioKey",
           "package": "rdioh",
@@ -6295,6 +6866,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "labelRadioKey",
           "package": "rdioh",
@@ -6308,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "labelShortUrl",
           "package": "rdioh",
@@ -6317,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "labelShortUrl",
           "package": "rdioh",
@@ -6330,6 +6904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "labelUrl",
           "package": "rdioh",
@@ -6339,6 +6914,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "labelUrl",
           "package": "rdioh",
@@ -6352,6 +6928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lastName",
           "package": "rdioh",
@@ -6361,6 +6938,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lastName",
           "package": "rdioh",
@@ -6374,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lastSongPlayTime",
           "package": "rdioh",
@@ -6383,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lastSongPlayTime",
           "package": "rdioh",
@@ -6396,6 +6976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lastSongPlayed",
           "package": "rdioh",
@@ -6405,6 +6986,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lastSongPlayed",
           "package": "rdioh",
@@ -6418,6 +7000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lastUpdated",
           "package": "rdioh",
@@ -6427,6 +7010,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lastUpdated",
           "package": "rdioh",
@@ -6440,6 +7024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "libraryVersion",
           "package": "rdioh",
@@ -6449,6 +7034,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "libraryVersion",
           "package": "rdioh",
@@ -6462,6 +7048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsCount",
           "package": "rdioh",
@@ -6471,6 +7058,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsCount",
           "package": "rdioh",
@@ -6484,6 +7072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsHasRadio",
           "package": "rdioh",
@@ -6493,6 +7082,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsHasRadio",
           "package": "rdioh",
@@ -6506,6 +7096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsKey",
           "package": "rdioh",
@@ -6515,6 +7106,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsKey",
           "package": "rdioh",
@@ -6528,6 +7120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsLabelName",
           "package": "rdioh",
@@ -6537,6 +7130,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsLabelName",
           "package": "rdioh",
@@ -6550,6 +7144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsLabelUrl",
           "package": "rdioh",
@@ -6559,6 +7154,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsLabelUrl",
           "package": "rdioh",
@@ -6572,6 +7168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsLength",
           "package": "rdioh",
@@ -6581,6 +7178,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsLength",
           "package": "rdioh",
@@ -6594,6 +7192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsName",
           "package": "rdioh",
@@ -6603,6 +7202,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsName",
           "package": "rdioh",
@@ -6616,6 +7216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsRadioKey",
           "package": "rdioh",
@@ -6625,6 +7226,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsRadioKey",
           "package": "rdioh",
@@ -6638,6 +7240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsReloadOnRepeat",
           "package": "rdioh",
@@ -6647,6 +7250,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsReloadOnRepeat",
           "package": "rdioh",
@@ -6660,6 +7264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsShortUrl",
           "package": "rdioh",
@@ -6669,6 +7274,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsShortUrl",
           "package": "rdioh",
@@ -6682,6 +7288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsTrackKeys",
           "package": "rdioh",
@@ -6691,6 +7298,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsTrackKeys",
           "normalized": "Maybe[String]",
@@ -6706,6 +7314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsTracks",
           "package": "rdioh",
@@ -6715,6 +7324,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsTracks",
           "normalized": "[String]",
@@ -6730,6 +7340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "lsUrl",
           "package": "rdioh",
@@ -6739,6 +7350,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "lsUrl",
           "package": "rdioh",
@@ -6752,6 +7364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "networkHeavyRotationKey",
           "package": "rdioh",
@@ -6761,6 +7374,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "networkHeavyRotationKey",
           "package": "rdioh",
@@ -6774,6 +7388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "owner",
           "package": "rdioh",
@@ -6783,6 +7398,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "owner",
           "package": "rdioh",
@@ -6795,6 +7411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plBaseIcon",
           "package": "rdioh",
@@ -6804,6 +7421,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plBaseIcon",
           "package": "rdioh",
@@ -6817,6 +7435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plBigIcon",
           "package": "rdioh",
@@ -6826,6 +7445,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plBigIcon",
           "package": "rdioh",
@@ -6839,6 +7459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plDescription",
           "package": "rdioh",
@@ -6848,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plDescription",
           "package": "rdioh",
@@ -6861,6 +7483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plEmbedUrl",
           "package": "rdioh",
@@ -6870,6 +7493,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plEmbedUrl",
           "package": "rdioh",
@@ -6883,6 +7507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plIFrameUrl",
           "package": "rdioh",
@@ -6892,6 +7517,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plIFrameUrl",
           "package": "rdioh",
@@ -6905,6 +7531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plIcon",
           "package": "rdioh",
@@ -6914,6 +7541,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plIcon",
           "package": "rdioh",
@@ -6927,6 +7555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plKey",
           "package": "rdioh",
@@ -6936,6 +7565,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plKey",
           "package": "rdioh",
@@ -6949,6 +7579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plLength",
           "package": "rdioh",
@@ -6958,6 +7589,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plLength",
           "package": "rdioh",
@@ -6971,6 +7603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plName",
           "package": "rdioh",
@@ -6980,6 +7613,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plName",
           "package": "rdioh",
@@ -6993,6 +7627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plOwner",
           "package": "rdioh",
@@ -7002,6 +7637,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plOwner",
           "package": "rdioh",
@@ -7015,6 +7651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plOwnerIcon",
           "package": "rdioh",
@@ -7024,6 +7661,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plOwnerIcon",
           "package": "rdioh",
@@ -7037,6 +7675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plOwnerKey",
           "package": "rdioh",
@@ -7046,6 +7685,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plOwnerKey",
           "package": "rdioh",
@@ -7059,6 +7699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plOwnerUrl",
           "package": "rdioh",
@@ -7068,6 +7709,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plOwnerUrl",
           "package": "rdioh",
@@ -7081,6 +7723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plShortUrl",
           "package": "rdioh",
@@ -7090,6 +7733,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plShortUrl",
           "package": "rdioh",
@@ -7103,6 +7747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plTrackKeys",
           "package": "rdioh",
@@ -7112,6 +7757,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plTrackKeys",
           "normalized": "Maybe[String]",
@@ -7127,6 +7773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plTracks",
           "package": "rdioh",
@@ -7136,6 +7783,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plTracks",
           "normalized": "Maybe[Track]",
@@ -7151,6 +7799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "plUrl",
           "package": "rdioh",
@@ -7160,6 +7809,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "plUrl",
           "package": "rdioh",
@@ -7173,6 +7823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "playCount",
           "package": "rdioh",
@@ -7182,6 +7833,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "playCount",
           "package": "rdioh",
@@ -7195,6 +7847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "playlistsUrl",
           "package": "rdioh",
@@ -7204,6 +7857,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "playlistsUrl",
           "package": "rdioh",
@@ -7217,6 +7871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "price",
           "package": "rdioh",
@@ -7226,6 +7881,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "price",
           "package": "rdioh",
@@ -7238,6 +7894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "radioKey",
           "package": "rdioh",
@@ -7247,6 +7904,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "radioKey",
           "package": "rdioh",
@@ -7260,6 +7918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "rdioResult",
           "package": "rdioh",
@@ -7269,6 +7928,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "rdioResult",
           "package": "rdioh",
@@ -7282,6 +7942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "rdioStatus",
           "package": "rdioh",
@@ -7291,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "rdioStatus",
           "package": "rdioh",
@@ -7304,6 +7966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "reasonNotViewable",
           "package": "rdioh",
@@ -7313,6 +7976,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "reasonNotViewable",
           "package": "rdioh",
@@ -7326,6 +7990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "releaseDate",
           "package": "rdioh",
@@ -7335,6 +8000,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "releaseDate",
           "package": "rdioh",
@@ -7348,6 +8014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "releaseDateISO",
           "package": "rdioh",
@@ -7357,6 +8024,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "releaseDateISO",
           "package": "rdioh",
@@ -7370,6 +8038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "results",
           "package": "rdioh",
@@ -7379,6 +8048,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "results",
           "normalized": "[a]",
@@ -7393,6 +8063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "reviewCount",
           "package": "rdioh",
@@ -7402,6 +8073,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "reviewCount",
           "package": "rdioh",
@@ -7415,6 +8087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "topSongsKey",
           "package": "rdioh",
@@ -7424,6 +8097,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "topSongsKey",
           "package": "rdioh",
@@ -7437,6 +8111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackAlbum",
           "package": "rdioh",
@@ -7446,6 +8121,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackAlbum",
           "package": "rdioh",
@@ -7459,6 +8135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackAlbumArtist",
           "package": "rdioh",
@@ -7468,6 +8145,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackAlbumArtist",
           "package": "rdioh",
@@ -7481,6 +8159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackAlbumArtistKey",
           "package": "rdioh",
@@ -7490,6 +8169,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackAlbumArtistKey",
           "package": "rdioh",
@@ -7503,6 +8183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackAlbumKey",
           "package": "rdioh",
@@ -7512,6 +8193,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackAlbumKey",
           "package": "rdioh",
@@ -7525,6 +8207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackAlbumUrl",
           "package": "rdioh",
@@ -7534,6 +8217,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackAlbumUrl",
           "package": "rdioh",
@@ -7547,6 +8231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackArtist",
           "package": "rdioh",
@@ -7556,6 +8241,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackArtist",
           "package": "rdioh",
@@ -7569,6 +8255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackArtistKey",
           "package": "rdioh",
@@ -7578,6 +8265,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackArtistKey",
           "package": "rdioh",
@@ -7591,6 +8279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackArtistUrl",
           "package": "rdioh",
@@ -7600,6 +8289,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackArtistUrl",
           "package": "rdioh",
@@ -7613,6 +8303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackBaseIcon",
           "package": "rdioh",
@@ -7622,6 +8313,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackBaseIcon",
           "package": "rdioh",
@@ -7635,6 +8327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackBigIcon",
           "package": "rdioh",
@@ -7644,6 +8337,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackBigIcon",
           "package": "rdioh",
@@ -7657,6 +8351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackCanDownload",
           "package": "rdioh",
@@ -7666,6 +8361,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackCanDownload",
           "package": "rdioh",
@@ -7679,6 +8375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackCanDownloadAlbumOnly",
           "package": "rdioh",
@@ -7688,6 +8385,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackCanDownloadAlbumOnly",
           "package": "rdioh",
@@ -7701,6 +8399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackCanSample",
           "package": "rdioh",
@@ -7710,6 +8409,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackCanSample",
           "package": "rdioh",
@@ -7723,6 +8423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackCanStream",
           "package": "rdioh",
@@ -7732,6 +8433,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackCanStream",
           "package": "rdioh",
@@ -7745,6 +8447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackCanTether",
           "package": "rdioh",
@@ -7754,6 +8457,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackCanTether",
           "package": "rdioh",
@@ -7767,6 +8471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackCount",
           "package": "rdioh",
@@ -7776,6 +8481,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackCount",
           "package": "rdioh",
@@ -7789,6 +8495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackDuration",
           "package": "rdioh",
@@ -7798,6 +8505,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackDuration",
           "package": "rdioh",
@@ -7811,6 +8519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackEmbedUrl",
           "package": "rdioh",
@@ -7820,6 +8529,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackEmbedUrl",
           "package": "rdioh",
@@ -7833,6 +8543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackIcon",
           "package": "rdioh",
@@ -7842,6 +8553,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackIcon",
           "package": "rdioh",
@@ -7855,6 +8567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackIframeUrl",
           "package": "rdioh",
@@ -7864,6 +8577,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackIframeUrl",
           "package": "rdioh",
@@ -7877,6 +8591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackIsClean",
           "package": "rdioh",
@@ -7886,6 +8601,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackIsClean",
           "package": "rdioh",
@@ -7899,6 +8615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackIsExplicit",
           "package": "rdioh",
@@ -7908,6 +8625,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackIsExplicit",
           "package": "rdioh",
@@ -7921,6 +8639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackKey",
           "package": "rdioh",
@@ -7930,6 +8649,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackKey",
           "package": "rdioh",
@@ -7943,6 +8663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackKeys",
           "package": "rdioh",
@@ -7952,6 +8673,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackKeys",
           "normalized": "[String]",
@@ -7967,6 +8689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackName",
           "package": "rdioh",
@@ -7976,6 +8699,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackName",
           "package": "rdioh",
@@ -7989,6 +8713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackNum",
           "package": "rdioh",
@@ -7998,6 +8723,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackNum",
           "package": "rdioh",
@@ -8011,6 +8737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackPrice",
           "package": "rdioh",
@@ -8020,6 +8747,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackPrice",
           "package": "rdioh",
@@ -8033,6 +8761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "trackUrl",
           "package": "rdioh",
@@ -8042,6 +8771,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "trackUrl",
           "package": "rdioh",
@@ -8055,6 +8785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ucsBaseIcon",
           "package": "rdioh",
@@ -8064,6 +8795,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ucsBaseIcon",
           "package": "rdioh",
@@ -8077,6 +8809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ucsCount",
           "package": "rdioh",
@@ -8086,6 +8819,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ucsCount",
           "package": "rdioh",
@@ -8099,6 +8833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ucsIcon",
           "package": "rdioh",
@@ -8108,6 +8843,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ucsIcon",
           "package": "rdioh",
@@ -8121,6 +8857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ucsKey",
           "package": "rdioh",
@@ -8130,6 +8867,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ucsKey",
           "package": "rdioh",
@@ -8143,6 +8881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ucsLength",
           "package": "rdioh",
@@ -8152,6 +8891,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ucsLength",
           "package": "rdioh",
@@ -8165,6 +8905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ucsName",
           "package": "rdioh",
@@ -8174,6 +8915,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ucsName",
           "package": "rdioh",
@@ -8187,6 +8929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ucsReloadOnRepeat",
           "package": "rdioh",
@@ -8196,6 +8939,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ucsReloadOnRepeat",
           "package": "rdioh",
@@ -8209,6 +8953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ucsTrackKeys",
           "package": "rdioh",
@@ -8218,6 +8963,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ucsTrackKeys",
           "normalized": "Maybe[String]",
@@ -8233,6 +8979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ucsTracks",
           "package": "rdioh",
@@ -8242,6 +8989,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ucsTracks",
           "normalized": "[String]",
@@ -8257,6 +9005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ucsUrl",
           "package": "rdioh",
@@ -8266,6 +9015,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ucsUrl",
           "package": "rdioh",
@@ -8279,6 +9029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "ucsUser",
           "package": "rdioh",
@@ -8288,6 +9039,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "ucsUser",
           "package": "rdioh",
@@ -8301,6 +9053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "upCollab",
           "package": "rdioh",
@@ -8310,6 +9063,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "upCollab",
           "normalized": "[Playlist]",
@@ -8325,6 +9079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "upOwned",
           "package": "rdioh",
@@ -8334,6 +9089,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "upOwned",
           "normalized": "[Playlist]",
@@ -8349,6 +9105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "upSubscribed",
           "package": "rdioh",
@@ -8358,6 +9115,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "upSubscribed",
           "normalized": "[Playlist]",
@@ -8373,6 +9131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "updateType",
           "package": "rdioh",
@@ -8382,6 +9141,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "updateType",
           "package": "rdioh",
@@ -8395,6 +9155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "updates",
           "package": "rdioh",
@@ -8404,6 +9165,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "updates",
           "normalized": "[Update]",
@@ -8418,6 +9180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "userBaseIcon",
           "package": "rdioh",
@@ -8427,6 +9190,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "userBaseIcon",
           "package": "rdioh",
@@ -8440,6 +9204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "userIcon",
           "package": "rdioh",
@@ -8449,6 +9214,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "userIcon",
           "package": "rdioh",
@@ -8462,6 +9228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "userKey",
           "package": "rdioh",
@@ -8471,6 +9238,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "userKey",
           "package": "rdioh",
@@ -8484,6 +9252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "userUrl",
           "package": "rdioh",
@@ -8493,6 +9262,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "userUrl",
           "package": "rdioh",
@@ -8506,6 +9276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Models",
           "name": "username",
           "package": "rdioh",
@@ -8515,6 +9286,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Models",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Models",
           "name": "username",
           "package": "rdioh",
@@ -8527,6 +9299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Util",
           "name": "Util",
           "package": "rdioh",
@@ -8535,6 +9308,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Util",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Util",
           "name": "Util",
           "package": "rdioh",
@@ -8549,6 +9323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused internally to easily convert different Rdio types to params for\n | requests. You can use \u003ccode\u003etoParam\u003c/code\u003e to do this if you want.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Util",
           "name": "Param",
           "package": "rdioh",
@@ -8558,6 +9333,7 @@
         "index": {
           "description": "used internally to easily convert different Rdio types to params for requests You can use toParam to do this if you want",
           "hierarchy": "Rdioh Util",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Util",
           "name": "Param",
           "package": "rdioh",
@@ -8572,6 +9348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused internally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Util",
           "name": "(\u003c+\u003e)",
           "package": "rdioh",
@@ -8582,6 +9359,7 @@
         "index": {
           "description": "used internally",
           "hierarchy": "Rdioh Util",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Util",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "[(String,String)]-\u003e(String,Maybe a)-\u003e[(String,String)]",
@@ -8596,6 +9374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Util",
           "name": "toParam",
           "package": "rdioh",
@@ -8605,6 +9384,7 @@
         },
         "index": {
           "hierarchy": "Rdioh Util",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Util",
           "name": "toParam",
           "normalized": "a-\u003eString",
@@ -8621,6 +9401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused internally to convert a list of parameters to a string that can be passed via GET/POST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh.Util",
           "name": "toParams",
           "package": "rdioh",
@@ -8631,6 +9412,7 @@
         "index": {
           "description": "used internally to convert list of parameters to string that can be passed via GET POST",
           "hierarchy": "Rdioh Util",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh.Util",
           "name": "toParams",
           "normalized": "[(String,String)]-\u003eString",
@@ -8646,6 +9428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "Rdioh",
           "package": "rdioh",
@@ -8654,6 +9437,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "Rdioh",
           "package": "rdioh",
@@ -8668,6 +9452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eRdio\u003c/code\u003e monad...just a wrapper around a \u003ccode\u003eReaderT\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "Rdio",
           "package": "rdioh",
@@ -8677,6 +9462,7 @@
         "index": {
           "description": "The Rdio monad...just wrapper around ReaderT monad",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "Rdio",
           "package": "rdioh",
@@ -8691,6 +9477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a user key. Requires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "addFriend",
           "package": "rdioh",
@@ -8701,6 +9488,7 @@
         "index": {
           "description": "Takes user key Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "addFriend",
           "normalized": "String-\u003eRdio(Either String Bool)",
@@ -8717,6 +9505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a list of keys of tracks or playlists. *Requires\n authentication*.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "addToCollection",
           "package": "rdioh",
@@ -8727,6 +9516,7 @@
         "index": {
           "description": "Takes list of keys of tracks or playlists Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "addToCollection",
           "normalized": "[String]-\u003eRdio(Either String Object)",
@@ -8743,6 +9533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a playlist key, a list of track keys to add to the playlist,\n [extras] (optional).\n Requires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "addToPlaylist",
           "package": "rdioh",
@@ -8753,6 +9544,7 @@
         "index": {
           "description": "Takes playlist key list of track keys to add to the playlist extras optional Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "addToPlaylist",
           "normalized": "String-\u003e[String]-\u003e[PlaylistExtra]-\u003eRdio(Either String Playlist)",
@@ -8769,6 +9561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a name, a description, a list of track keys to start the\n playlist with, [extras] (optional). Requires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "createPlaylist",
           "package": "rdioh",
@@ -8779,6 +9572,7 @@
         "index": {
           "description": "Takes name description list of track keys to start the playlist with extras optional Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "createPlaylist",
           "normalized": "String-\u003eString-\u003e[String]-\u003e[PlaylistExtra]-\u003eRdio(Either String Playlist)",
@@ -8795,6 +9589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "currentUser",
           "package": "rdioh",
@@ -8805,6 +9600,7 @@
         "index": {
           "description": "Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "currentUser",
           "normalized": "[UserExtra]-\u003eRdio(Either String User)",
@@ -8821,6 +9617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a playlist key. Requires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "deletePlaylist",
           "package": "rdioh",
@@ -8831,6 +9628,7 @@
         "index": {
           "description": "Takes playlist key Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "deletePlaylist",
           "normalized": "String-\u003eRdio(Either String Bool)",
@@ -8847,6 +9645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: an email address, [extras] (optional).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "findUserByEmail",
           "package": "rdioh",
@@ -8857,6 +9656,7 @@
         "index": {
           "description": "Takes an email address extras optional",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "findUserByEmail",
           "normalized": "String-\u003e[UserExtra]-\u003eRdio(Either String User)",
@@ -8873,6 +9673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: user name, [extras] (optional).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "findUserByName",
           "package": "rdioh",
@@ -8883,6 +9684,7 @@
         "index": {
           "description": "Takes user name extras optional",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "findUserByName",
           "normalized": "String-\u003e[UserExtra]-\u003eRdio(Either String User)",
@@ -8899,6 +9701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: [keys], [extras] (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "get",
           "package": "rdioh",
@@ -8909,6 +9712,7 @@
         "index": {
           "description": "Takes keys extras optional",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "get",
           "normalized": "[String]-\u003e[String]-\u003eRdio(Either String a)",
@@ -8924,6 +9728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a user key, a scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getActivityStream",
           "package": "rdioh",
@@ -8934,6 +9739,7 @@
         "index": {
           "description": "Takes user key scope",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getActivityStream",
           "normalized": "String-\u003eScope-\u003eRdio(Either String Activity)",
@@ -8949,6 +9755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getActivityStream'",
           "package": "rdioh",
@@ -8958,6 +9765,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getActivityStream'",
           "normalized": "String-\u003eScope-\u003eMaybe Int-\u003eMaybe Int-\u003eRdio(Either String Activity)",
@@ -8974,6 +9782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a UPC code, [extras] (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getAlbumsByUPC",
           "package": "rdioh",
@@ -8984,6 +9793,7 @@
         "index": {
           "description": "Takes UPC code extras optional",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getAlbumsByUPC",
           "normalized": "Int-\u003e[AlbumExtra]-\u003eRdio(Either String[Album])",
@@ -9000,6 +9810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: A key of an artist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getAlbumsForArtist",
           "package": "rdioh",
@@ -9010,6 +9821,7 @@
         "index": {
           "description": "Takes key of an artist",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getAlbumsForArtist",
           "normalized": "String-\u003eRdio(Either String[Album])",
@@ -9025,6 +9837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getAlbumsForArtist'",
           "package": "rdioh",
@@ -9034,6 +9847,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getAlbumsForArtist'",
           "normalized": "String-\u003eMaybe Bool-\u003e[AlbumExtra]-\u003eMaybe Int-\u003eMaybe Int-\u003eRdio(Either String[Album])",
@@ -9050,6 +9864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: an artist key. Requires authentication OR use \u003ccode\u003egetAlbumsForArtistInCollection'\u003c/code\u003e and pass in a user key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getAlbumsForArtistInCollection",
           "package": "rdioh",
@@ -9060,6 +9875,7 @@
         "index": {
           "description": "Takes an artist key Requires authentication OR use getAlbumsForArtistInCollection and pass in user key",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getAlbumsForArtistInCollection",
           "normalized": "String-\u003eRdio(Either String[Album])",
@@ -9075,6 +9891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getAlbumsForArtistInCollection'",
           "package": "rdioh",
@@ -9084,6 +9901,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getAlbumsForArtistInCollection'",
           "normalized": "String-\u003eMaybe String-\u003e[AlbumExtra]-\u003eMaybe String-\u003eRdio(Either String[Album])",
@@ -9100,6 +9918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a key of a label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getAlbumsForLabel",
           "package": "rdioh",
@@ -9110,6 +9929,7 @@
         "index": {
           "description": "Takes key of label",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getAlbumsForLabel",
           "normalized": "String-\u003eRdio(Either String[Album])",
@@ -9125,6 +9945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getAlbumsForLabel'",
           "package": "rdioh",
@@ -9134,6 +9955,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getAlbumsForLabel'",
           "normalized": "String-\u003e[AlbumExtra]-\u003eMaybe Int-\u003eMaybe Int-\u003eRdio(Either String[Album])",
@@ -9150,6 +9972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires authentication OR use \u003ccode\u003egetAlbumsInCollection'\u003c/code\u003e and pass in\n a user key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getAlbumsInCollection",
           "package": "rdioh",
@@ -9160,6 +9983,7 @@
         "index": {
           "description": "Requires authentication OR use getAlbumsInCollection and pass in user key",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getAlbumsInCollection",
           "normalized": "Rdio(Either String[Album])",
@@ -9175,6 +9999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getAlbumsInCollection'",
           "package": "rdioh",
@@ -9184,6 +10009,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getAlbumsInCollection'",
           "normalized": "Maybe String-\u003eMaybe Int-\u003eMaybe Int-\u003eMaybe String-\u003eMaybe String-\u003e[AlbumExtra]-\u003eRdio(Either String[Album])",
@@ -9200,6 +10026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a key of a label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getArtistsForLabel",
           "package": "rdioh",
@@ -9210,6 +10037,7 @@
         "index": {
           "description": "Takes key of label",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getArtistsForLabel",
           "normalized": "String-\u003eRdio(Either String[Artist])",
@@ -9225,6 +10053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getArtistsForLabel'",
           "package": "rdioh",
@@ -9234,6 +10063,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getArtistsForLabel'",
           "normalized": "String-\u003e[ArtistExtra]-\u003eMaybe Int-\u003eMaybe Int-\u003eRdio(Either String[Artist])",
@@ -9250,6 +10080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires authentication OR use \u003ccode\u003egetArtistsInCollection'\u003c/code\u003e and pass in\n a user key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getArtistsInCollection",
           "package": "rdioh",
@@ -9260,6 +10091,7 @@
         "index": {
           "description": "Requires authentication OR use getArtistsInCollection and pass in user key",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getArtistsInCollection",
           "normalized": "Rdio(Either String[Artist])",
@@ -9275,6 +10107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getArtistsInCollection'",
           "package": "rdioh",
@@ -9284,6 +10117,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getArtistsInCollection'",
           "normalized": "Maybe String-\u003eMaybe Int-\u003eMaybe Int-\u003eMaybe String-\u003eMaybe String-\u003e[ArtistExtra]-\u003eRdio(Either String[Artist])",
@@ -9299,6 +10133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getHeavyRotationAlbums",
           "package": "rdioh",
@@ -9308,6 +10143,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getHeavyRotationAlbums",
           "normalized": "Rdio(Either String[Album])",
@@ -9323,6 +10159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getHeavyRotationAlbums'",
           "package": "rdioh",
@@ -9332,6 +10169,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getHeavyRotationAlbums'",
           "normalized": "Maybe String-\u003eMaybe Bool-\u003eMaybe Int-\u003eMaybe Int-\u003eMaybe Int-\u003e[AlbumExtra]-\u003eRdio(Either String[Album])",
@@ -9347,6 +10185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getHeavyRotationArtists",
           "package": "rdioh",
@@ -9356,6 +10195,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getHeavyRotationArtists",
           "normalized": "Rdio(Either String[Artist])",
@@ -9371,6 +10211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getHeavyRotationArtists'",
           "package": "rdioh",
@@ -9380,6 +10221,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getHeavyRotationArtists'",
           "normalized": "Maybe String-\u003eMaybe Bool-\u003eMaybe Int-\u003eMaybe Int-\u003eMaybe Int-\u003e[ArtistExtra]-\u003eRdio(Either String[Artist])",
@@ -9395,6 +10237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getNewReleases",
           "package": "rdioh",
@@ -9404,6 +10247,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getNewReleases",
           "normalized": "Rdio(Either String[Album])",
@@ -9419,6 +10263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getNewReleases'",
           "package": "rdioh",
@@ -9428,6 +10273,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getNewReleases'",
           "normalized": "Maybe Timeframe-\u003eMaybe Int-\u003eMaybe Int-\u003e[AlbumExtra]-\u003eRdio(Either String[Album])",
@@ -9444,6 +10290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: short code (everything after the http:\u003cem/\u003erd.io\u003cem\u003ex\u003c/em\u003e), [extras]\n (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getObjectFromShortCode",
           "package": "rdioh",
@@ -9454,6 +10301,7 @@
         "index": {
           "description": "Takes short code everything after the http rd.io extras optional",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getObjectFromShortCode",
           "normalized": "String-\u003e[String]-\u003eRdio(Either String a)",
@@ -9470,6 +10318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: url (everything after http:\u003cem/\u003erdio.com/), [extras] (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getObjectFromUrl",
           "package": "rdioh",
@@ -9480,6 +10329,7 @@
         "index": {
           "description": "Takes url everything after http rdio.com extras optional",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getObjectFromUrl",
           "normalized": "String-\u003e[String]-\u003eRdio(Either String a)",
@@ -9496,6 +10346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getOfflineTracks",
           "package": "rdioh",
@@ -9506,6 +10357,7 @@
         "index": {
           "description": "Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getOfflineTracks",
           "normalized": "Rdio(Either String[Track])",
@@ -9521,6 +10373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getOfflineTracks'",
           "package": "rdioh",
@@ -9530,6 +10383,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getOfflineTracks'",
           "normalized": "Maybe Int-\u003eMaybe Int-\u003e[TrackExtra]-\u003eRdio(Either String[Track])",
@@ -9546,6 +10400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: the domain that the playback SWF will be embedded in\n (optional).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getPlaybackToken",
           "package": "rdioh",
@@ -9556,6 +10411,7 @@
         "index": {
           "description": "Takes the domain that the playback SWF will be embedded in optional",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getPlaybackToken",
           "normalized": "Maybe String-\u003eRdio(Either String String)",
@@ -9572,6 +10428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires authentication OR use \u003ccode\u003egetPlaylists'\u003c/code\u003e and pass in a user key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getPlaylists",
           "package": "rdioh",
@@ -9582,6 +10439,7 @@
         "index": {
           "description": "Requires authentication OR use getPlaylists and pass in user key",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getPlaylists",
           "package": "rdioh",
@@ -9595,6 +10453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getPlaylists'",
           "package": "rdioh",
@@ -9604,6 +10463,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getPlaylists'",
           "normalized": "Maybe String-\u003e[PlaylistExtra]-\u003eMaybe Bool-\u003eRdio(Either String UserPlaylists)",
@@ -9619,6 +10479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTopChartAlbums",
           "package": "rdioh",
@@ -9628,6 +10489,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTopChartAlbums",
           "normalized": "Rdio(Either String[Album])",
@@ -9643,6 +10505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTopChartAlbums'",
           "package": "rdioh",
@@ -9652,6 +10515,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTopChartAlbums'",
           "normalized": "Maybe Int-\u003eMaybe Int-\u003e[AlbumExtra]-\u003eRdio(Either String[Album])",
@@ -9667,6 +10531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTopChartArtists",
           "package": "rdioh",
@@ -9676,6 +10541,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTopChartArtists",
           "normalized": "Rdio(Either String[Artist])",
@@ -9691,6 +10557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTopChartArtists'",
           "package": "rdioh",
@@ -9700,6 +10567,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTopChartArtists'",
           "normalized": "Maybe Int-\u003eMaybe Int-\u003e[ArtistExtra]-\u003eRdio(Either String[Artist])",
@@ -9715,6 +10583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTopChartPlaylists",
           "package": "rdioh",
@@ -9724,6 +10593,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTopChartPlaylists",
           "normalized": "Rdio(Either String[Playlist])",
@@ -9739,6 +10609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTopChartPlaylists'",
           "package": "rdioh",
@@ -9748,6 +10619,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTopChartPlaylists'",
           "normalized": "Maybe Int-\u003eMaybe Int-\u003e[PlaylistExtra]-\u003eRdio(Either String[Playlist])",
@@ -9763,6 +10635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTopChartTracks",
           "package": "rdioh",
@@ -9772,6 +10645,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTopChartTracks",
           "normalized": "Rdio(Either String[Track])",
@@ -9787,6 +10661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTopChartTracks'",
           "package": "rdioh",
@@ -9796,6 +10671,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTopChartTracks'",
           "normalized": "Maybe Int-\u003eMaybe Int-\u003e[TrackExtra]-\u003eRdio(Either String[Track])",
@@ -9812,6 +10688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: an ISRC code, [extras] (optional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTracksByISRC",
           "package": "rdioh",
@@ -9822,6 +10699,7 @@
         "index": {
           "description": "Takes an ISRC code extras optional",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTracksByISRC",
           "normalized": "String-\u003e[TrackExtra]-\u003eRdio(Either String[Track])",
@@ -9838,6 +10716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: an album key. Requires authentication OR use \u003ccode\u003egetTracksForAlbumInCollection'\u003c/code\u003e and pass in a user key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTracksForAlbumInCollection",
           "package": "rdioh",
@@ -9848,6 +10727,7 @@
         "index": {
           "description": "Takes an album key Requires authentication OR use getTracksForAlbumInCollection and pass in user key",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTracksForAlbumInCollection",
           "normalized": "String-\u003eRdio(Either String[Track])",
@@ -9863,6 +10743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTracksForAlbumInCollection'",
           "package": "rdioh",
@@ -9872,6 +10753,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTracksForAlbumInCollection'",
           "normalized": "String-\u003eMaybe String-\u003e[TrackExtra]-\u003eRdio(Either String[Track])",
@@ -9888,6 +10770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: an artist key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTracksForArtist",
           "package": "rdioh",
@@ -9898,6 +10781,7 @@
         "index": {
           "description": "Takes an artist key",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTracksForArtist",
           "normalized": "String-\u003eRdio(Either String[Track])",
@@ -9913,6 +10797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTracksForArtist'",
           "package": "rdioh",
@@ -9922,6 +10807,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTracksForArtist'",
           "normalized": "String-\u003eMaybe Bool-\u003e[TrackExtra]-\u003eMaybe Int-\u003eMaybe Int-\u003eRdio(Either String[Track])",
@@ -9938,6 +10824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: an artist key. Requires authentication OR use \u003ccode\u003egetTracksForArtistInCollection'\u003c/code\u003e and pass in a user key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTracksForArtistInCollection",
           "package": "rdioh",
@@ -9948,6 +10835,7 @@
         "index": {
           "description": "Takes an artist key Requires authentication OR use getTracksForArtistInCollection and pass in user key",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTracksForArtistInCollection",
           "normalized": "String-\u003eRdio(Either String[Track])",
@@ -9963,6 +10851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTracksForArtistInCollection'",
           "package": "rdioh",
@@ -9972,6 +10861,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTracksForArtistInCollection'",
           "normalized": "String-\u003eMaybe String-\u003e[TrackExtra]-\u003eRdio(Either String[Track])",
@@ -9988,6 +10878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires authentication OR use \u003ccode\u003egetTracksInCollection'\u003c/code\u003e and pass in\n a user key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTracksInCollection",
           "package": "rdioh",
@@ -9998,6 +10889,7 @@
         "index": {
           "description": "Requires authentication OR use getTracksInCollection and pass in user key",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTracksInCollection",
           "normalized": "Rdio(Either String[Track])",
@@ -10013,6 +10905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getTracksInCollection'",
           "package": "rdioh",
@@ -10022,6 +10915,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getTracksInCollection'",
           "normalized": "Maybe String-\u003eMaybe Int-\u003eMaybe Int-\u003eMaybe String-\u003eMaybe String-\u003e[TrackExtra]-\u003eRdio(Either String[Track])",
@@ -10038,6 +10932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires authentication OR use \u003ccode\u003egetUserPlaylists'\u003c/code\u003e and pass in a user key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getUserPlaylists",
           "package": "rdioh",
@@ -10048,6 +10943,7 @@
         "index": {
           "description": "Requires authentication OR use getUserPlaylists and pass in user key",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getUserPlaylists",
           "normalized": "String-\u003eRdio(Either String[Playlist])",
@@ -10063,6 +10959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "getUserPlaylists'",
           "package": "rdioh",
@@ -10072,6 +10969,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "getUserPlaylists'",
           "normalized": "String-\u003eMaybe PlaylistType-\u003eMaybe String-\u003eMaybe Int-\u003eMaybe Int-\u003e[PlaylistExtra]-\u003eRdio(Either String[Playlist])",
@@ -10088,6 +10986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused internally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "mkExtras",
           "package": "rdioh",
@@ -10098,6 +10997,7 @@
         "index": {
           "description": "used internally",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "mkExtras",
           "normalized": "[a]-\u003e(String,String)",
@@ -10114,6 +11014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a user key. Requires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "removeFriend",
           "package": "rdioh",
@@ -10124,6 +11025,7 @@
         "index": {
           "description": "Takes user key Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "removeFriend",
           "normalized": "String-\u003eRdio(Either String Bool)",
@@ -10140,6 +11042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a list of track or playlist keys. Requires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "removeFromCollection",
           "package": "rdioh",
@@ -10150,6 +11053,7 @@
         "index": {
           "description": "Takes list of track or playlist keys Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "removeFromCollection",
           "normalized": "[String]-\u003eRdio(Either String Bool)",
@@ -10166,6 +11070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes:\n - a playlist key\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e the index of the first item to remove\n\u003c/li\u003e\u003cli\u003e number of tracks to remove\n\u003c/li\u003e\u003cli\u003e the keys of the tracks to remove (redundancy to prevent accidental\n deletion)\n\u003c/li\u003e\u003cli\u003e [extras] (optional)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eRequires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "removeFromPlaylist",
           "package": "rdioh",
@@ -10176,6 +11081,7 @@
         "index": {
           "description": "Takes playlist key the index of the first item to remove number of tracks to remove the keys of the tracks to remove redundancy to prevent accidental deletion extras optional Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "removeFromPlaylist",
           "normalized": "String-\u003eInt-\u003eInt-\u003eInt-\u003e[PlaylistExtra]-\u003eRdio(Either String Playlist)",
@@ -10192,6 +11098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a key, a secret, a function to run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "runRdio",
           "package": "rdioh",
@@ -10202,6 +11109,7 @@
         "index": {
           "description": "Takes key secret function to run",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "runRdio",
           "normalized": "String-\u003eString-\u003eRdio a-\u003eIO a",
@@ -10218,6 +11126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003erunRdio\u003c/code\u003e, but with 3-legged authentication i.e. the user will\n | have to authorize your app.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "runRdioWithAuth",
           "package": "rdioh",
@@ -10228,6 +11137,7 @@
         "index": {
           "description": "Same as runRdio but with legged authentication i.e the user will have to authorize your app",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "runRdioWithAuth",
           "normalized": "String-\u003eString-\u003eRdio a-\u003eIO a",
@@ -10244,6 +11154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a arbitrary request to rdio's api. Return type should\n | be an instance of \u003ccode\u003eFromJSON\u003c/code\u003e, and you need to specify the type. Example:\n\u003c/p\u003e\u003cpre\u003e result \u003c- (runRequest [(\"method\", \"getTopCharts\"), (\"type\", \"Artist\")] :: Rdio (Either String [Artist]))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "runRequest",
           "package": "rdioh",
@@ -10254,6 +11165,7 @@
         "index": {
           "description": "Send arbitrary request to rdio api Return type should be an instance of FromJSON and you need to specify the type Example result runRequest method getTopCharts type Artist Rdio Either String Artist",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "runRequest",
           "normalized": "[(String,String)]-\u003eRdio(Either String a)",
@@ -10270,6 +11182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a query, a type (\"Artist\", \"Album\", \"Track\", \"Playlist\", or\n \"User\")\n This method can return any of those types, so you need to specify what\n you want returned. Example:\n\u003c/p\u003e\u003cpre\u003e search \"Radiohead\" \"Artist\" :: Rdio (Either String [Artist])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "search",
           "package": "rdioh",
@@ -10280,6 +11193,7 @@
         "index": {
           "description": "Takes query type Artist Album Track Playlist or User This method can return any of those types so you need to specify what you want returned Example search Radiohead Artist Rdio Either String Artist",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "search",
           "normalized": "String-\u003eString-\u003eRdio(Either String[a])",
@@ -10294,6 +11208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "search'",
           "package": "rdioh",
@@ -10303,6 +11218,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "search'",
           "normalized": "String-\u003eString-\u003eMaybe Bool-\u003eMaybe Int-\u003eMaybe Int-\u003eRdio(Either String[a])",
@@ -10318,6 +11234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a list of track or playlist keys. Requires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "setAvailableOffline",
           "package": "rdioh",
@@ -10328,6 +11245,7 @@
         "index": {
           "description": "Takes list of track or playlist keys Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "setAvailableOffline",
           "normalized": "[String]-\u003eBool-\u003eRdio(Either String Object)",
@@ -10344,6 +11262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a playlist key, a boolean (true == collaborating, false == not\n collaborating). Requires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "setPlaylistCollaborating",
           "package": "rdioh",
@@ -10354,6 +11273,7 @@
         "index": {
           "description": "Takes playlist key boolean true collaborating false not collaborating Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "setPlaylistCollaborating",
           "normalized": "String-\u003eBool-\u003eRdio(Either String Bool)",
@@ -10370,6 +11290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a playlist key, a collaboration mode. Requires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "setPlaylistCollaborationMode",
           "package": "rdioh",
@@ -10380,6 +11301,7 @@
         "index": {
           "description": "Takes playlist key collaboration mode Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "setPlaylistCollaborationMode",
           "normalized": "String-\u003eCollaborationMode-\u003eRdio(Either String Bool)",
@@ -10396,6 +11318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a playlist key, a name, a description. Requires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "setPlaylistFields",
           "package": "rdioh",
@@ -10406,6 +11329,7 @@
         "index": {
           "description": "Takes playlist key name description Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "setPlaylistFields",
           "normalized": "String-\u003eString-\u003eString-\u003eRdio(Either String Bool)",
@@ -10422,6 +11346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a playlist key, a list of track keys, [extras] (optional).\n Requires authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "setPlaylistOrder",
           "package": "rdioh",
@@ -10432,6 +11357,7 @@
         "index": {
           "description": "Takes playlist key list of track keys extras optional Requires authentication",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "setPlaylistOrder",
           "normalized": "String-\u003e[String]-\u003e[PlaylistExtra]-\u003eRdio(Either String Playlist)",
@@ -10448,6 +11374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a user key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "userFollowers",
           "package": "rdioh",
@@ -10458,6 +11385,7 @@
         "index": {
           "description": "Takes user key",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "userFollowers",
           "normalized": "String-\u003eRdio(Either String[User])",
@@ -10473,6 +11401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "userFollowers'",
           "package": "rdioh",
@@ -10482,6 +11411,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "userFollowers'",
           "normalized": "String-\u003eMaybe Int-\u003eMaybe Int-\u003e[UserExtra]-\u003eMaybe String-\u003eRdio(Either String[User])",
@@ -10498,6 +11428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes: a user key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "userFollowing",
           "package": "rdioh",
@@ -10508,6 +11439,7 @@
         "index": {
           "description": "Takes user key",
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "userFollowing",
           "normalized": "String-\u003eRdio(Either String[User])",
@@ -10523,6 +11455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:59 UTC 2014",
           "module": "Rdioh",
           "name": "userFollowing'",
           "package": "rdioh",
@@ -10532,6 +11465,7 @@
         },
         "index": {
           "hierarchy": "Rdioh",
+          "indexed": "2014-03-11T19:48:59",
           "module": "Rdioh",
           "name": "userFollowing'",
           "normalized": "String-\u003eMaybe Int-\u003eMaybe Int-\u003e[UserExtra]-\u003eMaybe String-\u003eRdio(Either String[User])",

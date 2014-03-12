@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flippers"
+        "phrase": "flippers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions to rearrange arguments, such as rotate4 and\n flip4. Compose them to achive whatever ordering you like.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "Flippers",
           "package": "flippers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides functions to rearrange arguments such as rotate4 and flip4 Compose them to achive whatever ordering you like",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "Flippers",
           "package": "flippers",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes nothing, \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "flip1",
           "package": "flippers",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Does nothing id",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "flip1",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse both arguments, same as \u003ccode\u003e\u003ca\u003erotate2\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "flip2",
           "package": "flippers",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Reverse both arguments same as rotate2",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "flip2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eb-\u003ea-\u003ec",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse three arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "flip3",
           "package": "flippers",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Reverse three arguments",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "flip3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ec-\u003eb-\u003ea-\u003ed",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse four arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "flip4",
           "package": "flippers",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Reverse four arguments",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "flip4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003ed-\u003ec-\u003eb-\u003ea-\u003ee",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse five arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "flip5",
           "package": "flippers",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Reverse five arguments",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "flip5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003ee-\u003ed-\u003ec-\u003eb-\u003ea-\u003ef",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse six arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "flip6",
           "package": "flippers",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Reverse six arguments",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "flip6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003ef-\u003ee-\u003ed-\u003ec-\u003eb-\u003ea-\u003eg",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse seven arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "flip7",
           "package": "flippers",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Reverse seven arguments",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "flip7",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh)-\u003eg-\u003ef-\u003ee-\u003ed-\u003ec-\u003eb-\u003ea-\u003eh",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse eight arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "flip8",
           "package": "flippers",
@@ -227,6 +244,7 @@
         "index": {
           "description": "Reverse eight arguments",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "flip8",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh-\u003ei)-\u003eh-\u003eg-\u003ef-\u003ee-\u003ed-\u003ec-\u003eb-\u003ea-\u003ei",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse nine arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "flip9",
           "package": "flippers",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Reverse nine arguments",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "flip9",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh-\u003ei-\u003ej)-\u003ei-\u003eh-\u003eg-\u003ef-\u003ee-\u003ed-\u003ec-\u003eb-\u003ea-\u003ej",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes nothing, \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "rotate1",
           "package": "flippers",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Does nothing id",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "rotate1",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the second argument to the first place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "rotate2",
           "package": "flippers",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Move the second argument to the first place",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "rotate2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eb-\u003ea-\u003ec",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the third argument to the first place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "rotate3",
           "package": "flippers",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Move the third argument to the first place",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "rotate3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ec-\u003ea-\u003eb-\u003ed",
@@ -342,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the fourth argument to the first place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "rotate4",
           "package": "flippers",
@@ -352,6 +379,7 @@
         "index": {
           "description": "Move the fourth argument to the first place",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "rotate4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003ed-\u003ea-\u003eb-\u003ec-\u003ee",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the fifth argument to the first place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "rotate5",
           "package": "flippers",
@@ -377,6 +406,7 @@
         "index": {
           "description": "Move the fifth argument to the first place",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "rotate5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003ee-\u003ea-\u003eb-\u003ec-\u003ed-\u003ef",
@@ -392,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the sixth argument to the first place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "rotate6",
           "package": "flippers",
@@ -402,6 +433,7 @@
         "index": {
           "description": "Move the sixth argument to the first place",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "rotate6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003ef-\u003ea-\u003eb-\u003ec-\u003ed-\u003ee-\u003eg",
@@ -417,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the seventh argument to the first place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "rotate7",
           "package": "flippers",
@@ -427,6 +460,7 @@
         "index": {
           "description": "Move the seventh argument to the first place",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "rotate7",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh)-\u003eg-\u003ea-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eh",
@@ -442,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the eight argument to the first place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "rotate8",
           "package": "flippers",
@@ -452,6 +487,7 @@
         "index": {
           "description": "Move the eight argument to the first place",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "rotate8",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh-\u003ei)-\u003eh-\u003ea-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003ei",
@@ -467,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the ninth argument to the first place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:32 UTC 2014",
           "module": "Data.Function.Flippers",
           "name": "rotate9",
           "package": "flippers",
@@ -477,6 +514,7 @@
         "index": {
           "description": "Move the ninth argument to the first place",
           "hierarchy": "Data Function Flippers",
+          "indexed": "2014-03-11T18:10:32",
           "module": "Data.Function.Flippers",
           "name": "rotate9",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh-\u003ei-\u003ej)-\u003ei-\u003ea-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh-\u003ej",

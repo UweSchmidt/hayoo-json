@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "music-parts"
+        "phrase": "music-parts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:33 UTC 2014",
           "module": "Music.Parts",
           "name": "Parts",
           "package": "music-parts",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Music Parts",
+          "indexed": "2014-03-11T19:24:33",
           "module": "Music.Parts",
           "name": "Parts",
           "package": "music-parts",

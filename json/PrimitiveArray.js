@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PrimitiveArray"
+        "phrase": "PrimitiveArray",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdditional functions on shapes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.ExtShape",
           "name": "ExtShape",
           "package": "PrimitiveArray",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Additional functions on shapes",
           "hierarchy": "Data Array Repa ExtShape",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.ExtShape",
           "name": "ExtShape",
           "package": "PrimitiveArray",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA number of additional operations that are useful together with\n \u003ccode\u003ePrimitiveArray\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.ExtShape",
           "name": "ExtShape",
           "package": "PrimitiveArray",
@@ -51,6 +54,7 @@
         "index": {
           "description": "number of additional operations that are useful together with PrimitiveArray",
           "hierarchy": "Data Array Repa ExtShape",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.ExtShape",
           "name": "ExtShape",
           "package": "PrimitiveArray",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an index and an extend, return a list of all indices. For\n \u003ccode\u003erangeList (Z:.3) (Z:.2)\u003c/code\u003e this returns \u003ccode\u003e[(Z:.3), (Z:.4), (Z:.5)]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.ExtShape",
           "name": "rangeList",
           "package": "PrimitiveArray",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Given an index and an extend return list of all indices For rangeList this returns",
           "hierarchy": "Data Array Repa ExtShape",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.ExtShape",
           "name": "rangeList",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubtract the right coordinates from the left. Does not check if the\n resulting shape make sense.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.ExtShape",
           "name": "subDim",
           "package": "PrimitiveArray",
@@ -101,6 +108,7 @@
         "index": {
           "description": "subtract the right coordinates from the left Does not check if the resulting shape make sense",
           "hierarchy": "Data Array Repa ExtShape",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.ExtShape",
           "name": "subDim",
           "normalized": "a-\u003ea-\u003ea",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eOutside\u003c/a\u003e\u003c/code\u003e covers subwords for outside calculations. These types of\n calculations requires quite \u003ca\u003eweird\u003c/a\u003e index movements if you want to stay with\n usual grammars. This remains true if grammars are transformed to Chomsky\n normal form, only that in said form it is easier to write down the\n recursions.\n\u003c/p\u003e\u003cp\u003eTODO basically untested!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "Outside",
           "package": "PrimitiveArray",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Outside covers subwords for outside calculations These types of calculations requires quite weird index movements if you want to stay with usual grammars This remains true if grammars are transformed to Chomsky normal form only that in said form it is easier to write down the recursions TODO basically untested",
           "hierarchy": "Data Array Repa Index Outside",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "Outside",
           "package": "PrimitiveArray",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eOutside\u003c/a\u003e\u003c/code\u003e inverts the usual subword (i,j) system.\n\u003c/p\u003e\u003cp\u003eTODO do I need to store N ?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "Outside",
           "package": "PrimitiveArray",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Outside inverts the usual subword system TODO do need to store",
           "hierarchy": "Data Array Repa Index Outside",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "Outside",
           "package": "PrimitiveArray",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "Outside",
           "package": "PrimitiveArray",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Outside",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "Outside",
           "package": "PrimitiveArray",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "outside",
           "package": "PrimitiveArray",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Outside",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "outside",
           "normalized": "Int-\u003eInt-\u003eOutside",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "stage",
           "package": "PrimitiveArray",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Outside",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "stage",
           "normalized": "[Char]",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "subwordFromIndex",
           "package": "PrimitiveArray",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Outside",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "subwordFromIndex",
           "normalized": "Outside-\u003eInt-\u003eOutside",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutside indexing. Given the longest subword and the current subword,\n calculate a linear index \u003ca\u003e[0,..]\u003c/a\u003e. \u003ca\u003e(l,n)\u003c/a\u003e in this case means \u003ca\u003el\u003c/a\u003eower bound,\n length \u003ca\u003en\u003c/a\u003e. And \u003ca\u003e(i,j)\u003c/a\u003e is the normal index.\n\u003c/p\u003e\u003cp\u003eTODO probably doesn't work right with non-zero base ?!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "subwordIndex",
           "package": "PrimitiveArray",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Outside indexing Given the longest subword and the current subword calculate linear index in this case means ower bound length And is the normal index TODO probably doesn work right with non-zero base",
           "hierarchy": "Data Array Repa Index Outside",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "subwordIndex",
           "normalized": "Outside-\u003eOutside-\u003eInt",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of an upper triangle starting at \u003ccode\u003ei\u003c/code\u003e and ending at \u003ccode\u003ej\u003c/code\u003e. \u003ca\u003e(0,N)\u003c/a\u003e what\n be the normal thing to use. Internally, we stell upper triangular matrices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "upperTri",
           "package": "PrimitiveArray",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Size of an upper triangle starting at and ending at what be the normal thing to use Internally we stell upper triangular matrices",
           "hierarchy": "Data Array Repa Index Outside",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Outside",
           "name": "upperTri",
           "normalized": "Outside-\u003eInt",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Repa-compatible index of points in multi-dimensional space. A point\n represents the index of a left- or right-linear grammar.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Point",
           "name": "Point",
           "package": "PrimitiveArray",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Repa-compatible index of points in multi-dimensional space point represents the index of left or right-linear grammar",
           "hierarchy": "Data Array Repa Index Point",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Point",
           "name": "Point",
           "package": "PrimitiveArray",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Point",
           "name": "Point",
           "package": "PrimitiveArray",
@@ -337,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Point",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Point",
           "name": "Point",
           "package": "PrimitiveArray",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Point",
           "name": "Point",
           "package": "PrimitiveArray",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Point",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Point",
           "name": "Point",
           "package": "PrimitiveArray",
@@ -372,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Point",
           "name": "stage",
           "package": "PrimitiveArray",
@@ -381,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Point",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Point",
           "name": "stage",
           "normalized": "[Char]",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIndex structures for left- and right-linear grammars. Do not use this\n index for general linear- or context-free grammars.\n\u003c/p\u003e\u003cp\u003eInternally, both \u003ccode\u003e\u003ca\u003ePointL\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePointR\u003c/a\u003e\u003c/code\u003e work a lot like \u003ccode\u003e\u003ca\u003eSubword\u003c/a\u003e\u003c/code\u003es, but in\n non-terminals we only store the left- or right part.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Points",
           "name": "Points",
           "package": "PrimitiveArray",
@@ -405,6 +438,7 @@
         "index": {
           "description": "Index structures for left and right-linear grammars Do not use this index for general linear or context-free grammars Internally both PointL and PointR work lot like Subword but in non-terminals we only store the left or right part",
           "hierarchy": "Data Array Repa Index Points",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Points",
           "name": "Points",
           "package": "PrimitiveArray",
@@ -419,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point in left-linear grammars. In \u003ccode\u003e(i:.j)\u003c/code\u003e, \u003ccode\u003ej\u003c/code\u003e is the non-terminal\n storage point, \u003ccode\u003ei==0\u003c/code\u003e always for the non-terminal, while \u003ccode\u003ei\u003e=0\u003c/code\u003e for\n terminals, which are on the right of the non-terminal. (This is why\n left-linear grammars are called left-linear: they recurse on the left).\n\u003c/p\u003e\u003cp\u003ePS: all this left/right talk deals with the RHS of a production rule, the\n LHS is always a non-terminal ;-)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Points",
           "name": "PointL",
           "package": "PrimitiveArray",
@@ -428,6 +463,7 @@
         "index": {
           "description": "point in left-linear grammars In is the non-terminal storage point always for the non-terminal while for terminals which are on the right of the non-terminal This is why left-linear grammars are called left-linear they recurse on the left PS all this left right talk deals with the RHS of production rule the LHS is always non-terminal",
           "hierarchy": "Data Array Repa Index Points",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Points",
           "name": "PointL",
           "package": "PrimitiveArray",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point in right-linear grammars.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Points",
           "name": "PointR",
           "package": "PrimitiveArray",
@@ -451,6 +488,7 @@
         "index": {
           "description": "point in right-linear grammars",
           "hierarchy": "Data Array Repa Index Points",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Points",
           "name": "PointR",
           "package": "PrimitiveArray",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Points",
           "name": "PointL",
           "package": "PrimitiveArray",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Points",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Points",
           "name": "PointL",
           "package": "PrimitiveArray",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Points",
           "name": "PointR",
           "package": "PrimitiveArray",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Points",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Points",
           "name": "PointR",
           "package": "PrimitiveArray",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Points",
           "name": "pointL",
           "package": "PrimitiveArray",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Points",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Points",
           "name": "pointL",
           "normalized": "Int-\u003eInt-\u003ePointL",
@@ -531,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Points",
           "name": "pointR",
           "package": "PrimitiveArray",
@@ -540,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Points",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Points",
           "name": "pointR",
           "normalized": "Int-\u003eInt-\u003ePointR",
@@ -555,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSubwords span upper triangular tables. A subword (i,j) is legal iff i\u003c=j.\n\u003c/p\u003e\u003cp\u003eNOTE Using more complicated shapes has a number of benefits. We don't need\n to specify triangular or rectangular tables anymore. A rectangular\n one-dimensional table with a subword as shape actually \u003cem\u003edoes\u003c/em\u003e create space\n as required for subwords.\n\u003c/p\u003e\u003cp\u003eTODO subword indexing is currently hardcoded to be zero-based. See\n \u003ccode\u003e\u003ca\u003esubwordIndex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTODO consider replacing (\u003ccode\u003e\u003ca\u003equot\u003c/a\u003e\u003c/code\u003e 2) with (\u003ccode\u003eshiftR\u003c/code\u003e 1)\n\u003c/p\u003e\u003cp\u003eTODO all the QuickCheck stuff is missing\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "Subword",
           "package": "PrimitiveArray",
@@ -564,6 +611,7 @@
         "index": {
           "description": "Subwords span upper triangular tables subword is legal iff NOTE Using more complicated shapes has number of benefits We don need to specify triangular or rectangular tables anymore rectangular one-dimensional table with subword as shape actually does create space as required for subwords TODO subword indexing is currently hardcoded to be zero-based See subwordIndex TODO consider replacing quot with shiftR TODO all the QuickCheck stuff is missing",
           "hierarchy": "Data Array Repa Index Subword",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "Subword",
           "package": "PrimitiveArray",
@@ -578,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA subword wraps a simple pair.\n\u003c/p\u003e\u003cp\u003eSubwords always yield the upper-triangular part of a rect-angular array.\n This gives the quite curious effect that (0,N) points to the `\u003ccode\u003elargest'\u003c/code\u003e\n index, while (0,0) and (N,N) both point to the smallest. We do, however, use\n (0,0) as the smallest as (0,k) gives successively smaller upper triangular\n parts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "Subword",
           "package": "PrimitiveArray",
@@ -587,6 +636,7 @@
         "index": {
           "description": "subword wraps simple pair Subwords always yield the upper-triangular part of rect-angular array This gives the quite curious effect that points to the largest index while and both point to the smallest We do however use as the smallest as gives successively smaller upper triangular parts",
           "hierarchy": "Data Array Repa Index Subword",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "Subword",
           "package": "PrimitiveArray",
@@ -600,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "Subword",
           "package": "PrimitiveArray",
@@ -609,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Subword",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "Subword",
           "package": "PrimitiveArray",
@@ -622,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "stage",
           "package": "PrimitiveArray",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Subword",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "stage",
           "normalized": "[Char]",
@@ -645,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "subword",
           "package": "PrimitiveArray",
@@ -654,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Subword",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "subword",
           "normalized": "Int-\u003eInt-\u003eSubword",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "subwordFromIndex",
           "package": "PrimitiveArray",
@@ -677,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa Index Subword",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "subwordFromIndex",
           "normalized": "Subword-\u003eInt-\u003eSubword",
@@ -693,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubword indexing. Given the longest subword and the current subword,\n calculate a linear index \u003ca\u003e[0,..]\u003c/a\u003e. \u003ca\u003e(l,n)\u003c/a\u003e in this case means \u003ca\u003el\u003c/a\u003eower bound,\n length \u003ca\u003en\u003c/a\u003e. And \u003ca\u003e(i,j)\u003c/a\u003e is the normal index.\n\u003c/p\u003e\u003cp\u003eTODO probably doesn't work right with non-zero base ?!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "subwordIndex",
           "package": "PrimitiveArray",
@@ -703,6 +762,7 @@
         "index": {
           "description": "Subword indexing Given the longest subword and the current subword calculate linear index in this case means ower bound length And is the normal index TODO probably doesn work right with non-zero base",
           "hierarchy": "Data Array Repa Index Subword",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "subwordIndex",
           "normalized": "Subword-\u003eSubword-\u003eInt",
@@ -719,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etriangular numbers\n\u003c/p\u003e\u003cp\u003eA000217\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "triangularNumber",
           "package": "PrimitiveArray",
@@ -729,6 +790,7 @@
         "index": {
           "description": "triangular numbers A000217",
           "hierarchy": "Data Array Repa Index Subword",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "triangularNumber",
           "normalized": "Int-\u003eInt",
@@ -745,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of an upper triangle starting at \u003ccode\u003ei\u003c/code\u003e and ending at \u003ccode\u003ej\u003c/code\u003e. \u003ca\u003e(0,N)\u003c/a\u003e what\n be the normal thing to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "upperTri",
           "package": "PrimitiveArray",
@@ -755,6 +818,7 @@
         "index": {
           "description": "Size of an upper triangle starting at and ending at what be the normal thing to use",
           "hierarchy": "Data Array Repa Index Subword",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.Array.Repa.Index.Subword",
           "name": "upperTri",
           "normalized": "Subword-\u003eInt",
@@ -771,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations to fill primitive arrays. Arrays are combined just like indices\n using \u003ccode\u003e\u003ca\u003eZ\u003c/a\u003e\u003c/code\u003e and '(:.)'. This allows filling an unlimited number of tables.\n\u003c/p\u003e\u003cp\u003eTODO make explicit in which order the tables are filled.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "FillTables",
           "package": "PrimitiveArray",
@@ -780,6 +845,7 @@
         "index": {
           "description": "Operations to fill primitive arrays Arrays are combined just like indices using and This allows filling an unlimited number of tables TODO make explicit in which order the tables are filled",
           "hierarchy": "Data PrimitiveArray FillTables",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "FillTables",
           "package": "PrimitiveArray",
@@ -793,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "GeneralNonTerminal",
           "package": "PrimitiveArray",
@@ -801,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data PrimitiveArray FillTables",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "GeneralNonTerminal",
           "package": "PrimitiveArray",
@@ -815,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines how a single index in a stack of arrays + evaluation functions is\n handled. The instances *should* work for any index \u003ccode\u003eix\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "Stack",
           "package": "PrimitiveArray",
@@ -824,6 +893,7 @@
         "index": {
           "description": "Defines how single index in stack of arrays evaluation functions is handled The instances should work for any index ix",
           "hierarchy": "Data PrimitiveArray FillTables",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "Stack",
           "package": "PrimitiveArray",
@@ -837,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "SubwordNonTerminal",
           "package": "PrimitiveArray",
@@ -845,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Data PrimitiveArray FillTables",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "SubwordNonTerminal",
           "package": "PrimitiveArray",
@@ -858,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "UpperTriS",
           "package": "PrimitiveArray",
@@ -866,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Data PrimitiveArray FillTables",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "UpperTriS",
           "package": "PrimitiveArray",
@@ -879,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "upperTriS",
           "package": "PrimitiveArray",
@@ -888,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Data PrimitiveArray FillTables",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "upperTriS",
           "normalized": "a-\u003eb()",
@@ -903,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "writeStack",
           "package": "PrimitiveArray",
@@ -912,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Data PrimitiveArray FillTables",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.FillTables",
           "name": "writeStack",
           "normalized": "a-\u003eb-\u003ec()",
@@ -927,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.QuickCheck",
           "name": "QuickCheck",
           "package": "PrimitiveArray",
@@ -935,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Data PrimitiveArray QuickCheck",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.QuickCheck",
           "name": "QuickCheck",
           "package": "PrimitiveArray",
@@ -949,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimitive arrays where the lower index is zero (or the equivalent of zero\n for newtypes and enumerations).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.Zero",
           "name": "Zero",
           "package": "PrimitiveArray",
@@ -958,6 +1039,7 @@
         "index": {
           "description": "Primitive arrays where the lower index is zero or the equivalent of zero for newtypes and enumerations",
           "hierarchy": "Data PrimitiveArray Zero",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.Zero",
           "name": "Zero",
           "package": "PrimitiveArray",
@@ -971,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.Zero",
           "name": "Boxed",
           "package": "PrimitiveArray",
@@ -979,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Data PrimitiveArray Zero",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.Zero",
           "name": "Boxed",
           "package": "PrimitiveArray",
@@ -992,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.Zero",
           "name": "Unboxed",
           "package": "PrimitiveArray",
@@ -1000,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Data PrimitiveArray Zero",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.Zero",
           "name": "Unboxed",
           "package": "PrimitiveArray",
@@ -1013,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.Zero",
           "name": "Boxed",
           "package": "PrimitiveArray",
@@ -1022,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Data PrimitiveArray Zero",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.Zero",
           "name": "Boxed",
           "package": "PrimitiveArray",
@@ -1035,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray.Zero",
           "name": "Unboxed",
           "package": "PrimitiveArray",
@@ -1044,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Data PrimitiveArray Zero",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray.Zero",
           "name": "Unboxed",
           "package": "PrimitiveArray",
@@ -1058,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVastly extended primitive arrays. Some basic ideas are now modeled after\n the vector package, especially the monadic mutable / pure immutable array\n system.\n\u003c/p\u003e\u003cp\u003eNOTE all operations in MPrimArrayOps and PrimArrayOps are highly unsafe. No\n bounds-checking is performed at all.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "PrimitiveArray",
           "package": "PrimitiveArray",
@@ -1067,6 +1158,7 @@
         "index": {
           "description": "Vastly extended primitive arrays Some basic ideas are now modeled after the vector package especially the monadic mutable pure immutable array system NOTE all operations in MPrimArrayOps and PrimArrayOps are highly unsafe No bounds-checking is performed at all",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "PrimitiveArray",
           "package": "PrimitiveArray",
@@ -1081,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe core set of operations for monadic arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "MPrimArrayOps",
           "package": "PrimitiveArray",
@@ -1090,6 +1183,7 @@
         "index": {
           "description": "The core set of operations for monadic arrays",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "MPrimArrayOps",
           "package": "PrimitiveArray",
@@ -1104,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable version of an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "MutArr",
           "package": "PrimitiveArray",
@@ -1113,6 +1208,7 @@
         "index": {
           "description": "Mutable version of an array",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "MutArr",
           "package": "PrimitiveArray",
@@ -1126,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "PrimArrayMap",
           "package": "PrimitiveArray",
@@ -1134,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "PrimArrayMap",
           "package": "PrimitiveArray",
@@ -1148,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe core set of functions on immutable arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "PrimArrayOps",
           "package": "PrimitiveArray",
@@ -1157,6 +1256,7 @@
         "index": {
           "description": "The core set of functions on immutable arrays",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "PrimArrayOps",
           "package": "PrimitiveArray",
@@ -1171,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix index operator. Performs minimal bounds-checking using assert in\n non-optimized code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "(!)",
           "package": "PrimitiveArray",
@@ -1181,6 +1282,7 @@
         "index": {
           "description": "Infix index operator Performs minimal bounds-checking using assert in non-optimized code",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "(!) !",
           "normalized": "a b c-\u003eb-\u003ec",
@@ -1196,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all associations from an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "assocs",
           "package": "PrimitiveArray",
@@ -1206,6 +1309,7 @@
         "index": {
           "description": "Return all associations from an array",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "assocs",
           "normalized": "a b c-\u003e[(b,c)]",
@@ -1221,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the bounds of an immutable array, again inclusive bounds: \u003ccode\u003e [lb..ub] \u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "bounds",
           "package": "PrimitiveArray",
@@ -1231,6 +1336,7 @@
         "index": {
           "description": "Returns the bounds of an immutable array again inclusive bounds lb..ub",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "bounds",
           "normalized": "a b c-\u003e(b,b)",
@@ -1246,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the bounds of the array. All bounds are inclusive, as in\n \u003ccode\u003e[lb..ub]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "boundsM",
           "package": "PrimitiveArray",
@@ -1256,6 +1363,7 @@
         "index": {
           "description": "Return the bounds of the array All bounds are inclusive as in lb..ub",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "boundsM",
           "normalized": "MutArr a(b c d)-\u003e(c,c)",
@@ -1271,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFreezes a mutable array an returns its immutable version. This operation\n is \u003cem\u003eO(1)\u003c/em\u003e and both arrays share the same memory. Do not use the mutable\n array afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "freeze",
           "package": "PrimitiveArray",
@@ -1281,6 +1390,7 @@
         "index": {
           "description": "Freezes mutable array an returns its immutable version This operation is and both arrays share the same memory Do not use the mutable array afterwards",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "freeze",
           "normalized": "MutArr a(b c d)-\u003ea(b c d)",
@@ -1296,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an immutable array from lower and upper bounds, a default element,\n and a list of associations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "fromAssocs",
           "package": "PrimitiveArray",
@@ -1306,6 +1417,7 @@
         "index": {
           "description": "Creates an immutable array from lower and upper bounds default element and list of associations",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "fromAssocs",
           "normalized": "a-\u003ea-\u003eb-\u003e[(a,b)]-\u003ec a b",
@@ -1322,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a mutable primitive array from a lower and an upper bound, a\n default element, and a list of associations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "fromAssocsM",
           "package": "PrimitiveArray",
@@ -1332,6 +1445,7 @@
         "index": {
           "description": "Construct mutable primitive array from lower and an upper bound default element and list of associations",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "fromAssocsM",
           "normalized": "a-\u003ea-\u003eb-\u003e[(a,b)]-\u003ec(MutArr c(d a b))",
@@ -1348,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an immutable array from lower and upper bounds and a complete list\n of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "fromList",
           "package": "PrimitiveArray",
@@ -1358,6 +1473,7 @@
         "index": {
           "description": "Creates an immutable array from lower and upper bounds and complete list of elements",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "fromList",
           "normalized": "a-\u003ea-\u003e[b]-\u003ec a b",
@@ -1374,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven lower and upper bounds and a list of \u003cem\u003eall\u003c/em\u003e elements, produce a\n mutable array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "fromListM",
           "package": "PrimitiveArray",
@@ -1384,6 +1501,7 @@
         "index": {
           "description": "Given lower and upper bounds and list of all elements produce mutable array",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "fromListM",
           "normalized": "a-\u003ea-\u003e[b]-\u003ec(MutArr c(d a b))",
@@ -1400,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines if an index is valid for a given immutable array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "inBounds",
           "package": "PrimitiveArray",
@@ -1410,6 +1529,7 @@
         "index": {
           "description": "Determines if an index is valid for given immutable array",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "inBounds",
           "normalized": "a b c-\u003eb-\u003eBool",
@@ -1426,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the index is valid for the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "inBoundsM",
           "package": "PrimitiveArray",
@@ -1436,6 +1557,7 @@
         "index": {
           "description": "Returns true if the index is valid for the array",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "inBoundsM",
           "normalized": "MutArr a(b c d)-\u003ec-\u003eBool",
@@ -1452,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a single element from the array. Generally unsafe as not\n bounds-checking is performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "index",
           "package": "PrimitiveArray",
@@ -1462,6 +1585,7 @@
         "index": {
           "description": "Extract single element from the array Generally unsafe as not bounds-checking is performed",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "index",
           "normalized": "a b c-\u003eb-\u003ec",
@@ -1477,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over each element, keeping the shape intact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "map",
           "package": "PrimitiveArray",
@@ -1487,6 +1612,7 @@
         "index": {
           "description": "Map function over each element keeping the shape intact",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -1502,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new array with the given bounds with each element within the\n array being in an undefined state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "newM",
           "package": "PrimitiveArray",
@@ -1512,6 +1639,7 @@
         "index": {
           "description": "Creates new array with the given bounds with each element within the array being in an undefined state",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "newM",
           "normalized": "a-\u003ea-\u003eb(MutArr b(c a d))",
@@ -1527,6 +1655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new array with all elements being equal to \u003ccode\u003eelm\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "newWithM",
           "package": "PrimitiveArray",
@@ -1537,6 +1666,7 @@
         "index": {
           "description": "Creates new array with all elements being equal to elm",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "newWithM",
           "normalized": "a-\u003ea-\u003eb-\u003ec(MutArr c(d a b))",
@@ -1553,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a single element in the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "readM",
           "package": "PrimitiveArray",
@@ -1563,6 +1694,7 @@
         "index": {
           "description": "Reads single element in the array",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "readM",
           "normalized": "MutArr a(b c d)-\u003ec-\u003ea d",
@@ -1578,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven two arrays with the same dimensionality, their respective starting\n index, and how many steps to go in each dimension (in terms of a dimension\n again), determine if the multidimensional slices have the same value at\n all positions\n\u003c/p\u003e\u003cp\u003eTODO specialize for DIM1 (and maybe higher dim's) to use memcmp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "sliceEq",
           "package": "PrimitiveArray",
@@ -1588,6 +1721,7 @@
         "index": {
           "description": "Given two arrays with the same dimensionality their respective starting index and how many steps to go in each dimension in terms of dimension again determine if the multidimensional slices have the same value at all positions TODO specialize for DIM1 and maybe higher dim to use memcmp",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "sliceEq",
           "normalized": "a b c-\u003eb-\u003ea b c-\u003eb-\u003eb-\u003eBool",
@@ -1604,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all elements of an immutable array as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "toList",
           "package": "PrimitiveArray",
@@ -1614,6 +1749,7 @@
         "index": {
           "description": "Returns all elements of an immutable array as list",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "toList",
           "normalized": "a b c-\u003e[c]",
@@ -1630,6 +1766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a single element in the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:18 UTC 2014",
           "module": "Data.PrimitiveArray",
           "name": "writeM",
           "package": "PrimitiveArray",
@@ -1640,6 +1777,7 @@
         "index": {
           "description": "Writes single element in the array",
           "hierarchy": "Data PrimitiveArray",
+          "indexed": "2014-03-11T16:57:18",
           "module": "Data.PrimitiveArray",
           "name": "writeM",
           "normalized": "MutArr a(b c d)-\u003ec-\u003ed-\u003ea()",

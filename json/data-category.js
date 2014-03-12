@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-category"
+        "phrase": "data-category",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "Adjunction",
           "package": "data-category",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "Adjunction",
           "package": "data-category",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "AdjArrow",
           "package": "data-category",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "AdjArrow",
           "package": "data-category",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "Adjunction",
           "package": "data-category",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "Adjunction",
           "package": "data-category",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "AdjArrow",
           "package": "data-category",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "AdjArrow",
           "normalized": "Adjunction a b c d-\u003eAdjArrow(CatW a)(CatW b)",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "Adjunction",
           "package": "data-category",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "Adjunction",
           "package": "data-category",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "adjunctionInitialProp",
           "package": "data-category",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "adjunctionInitialProp",
           "normalized": "Adjunction a b c d-\u003eObj b e-\u003eInitialUniversal e d(c e)",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "adjunctionTerminalProp",
           "package": "data-category",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "adjunctionTerminalProp",
           "normalized": "Adjunction a b c d-\u003eObj a e-\u003eTerminalUniversal e c(d e)",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "composeAdj",
           "package": "data-category",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "composeAdj",
           "normalized": "Adjunction a b c d-\u003eAdjunction e a f g-\u003eAdjunction e b(f c)(d g)",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "contAdj",
           "package": "data-category",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "contAdj",
           "normalized": "Adjunction(Op(-\u003e))(-\u003e)(Opposite((-\u003e)*a)OpOpInv(-\u003e))((-\u003e)*a)",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "counit",
           "package": "data-category",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "counit",
           "package": "data-category",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "idAdj",
           "package": "data-category",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "idAdj",
           "package": "data-category",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "initialPropAdjunction",
           "package": "data-category",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "initialPropAdjunction",
           "normalized": "a-\u003eb-\u003e(c d Obj e f-\u003eInitialUniversal f b(a f))-\u003eAdjunction g e a b",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "leftAdjoint",
           "package": "data-category",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "leftAdjoint",
           "package": "data-category",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "leftAdjunct",
           "package": "data-category",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "leftAdjunct",
           "normalized": "Adjunction a b c d-\u003eObj b e-\u003ea(c e)f-\u003eb e(d f)",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "mkAdjunction",
           "package": "data-category",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "mkAdjunction",
           "normalized": "a-\u003eb-\u003e(c d Obj e f-\u003eComponent(Id e)(b a)f)-\u003e(c d Obj g f-\u003eComponent(a b)(Id g)f)-\u003eAdjunction g e a b",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "rightAdjoint",
           "package": "data-category",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "rightAdjoint",
           "package": "data-category",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "rightAdjunct",
           "package": "data-category",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "rightAdjunct",
           "normalized": "Adjunction a b c d-\u003eObj a e-\u003eb f(d e)-\u003ea(c f)e",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "terminalPropAdjunction",
           "package": "data-category",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "terminalPropAdjunction",
           "normalized": "a-\u003eb-\u003e(c d Obj e f-\u003eTerminalUniversal f a(b f))-\u003eAdjunction e g a b",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Adjunction",
           "name": "unit",
           "package": "data-category",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Data Category Adjunction",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Adjunction",
           "name": "unit",
           "package": "data-category",
@@ -452,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003e2\u003c/em\u003e, or the Boolean category.\n It contains 2 objects, one for true and one for false.\n It contains 3 arrows, 2 identity arrows and one from false to true.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "Boolean",
           "package": "data-category",
@@ -461,6 +500,7 @@
         "index": {
           "description": "or the Boolean category It contains objects one for true and one for false It contains arrows identity arrows and one from false to true",
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "Boolean",
           "package": "data-category",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "Boolean",
           "package": "data-category",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "Boolean",
           "package": "data-category",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "Fls",
           "package": "data-category",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "Fls",
           "package": "data-category",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "Tru",
           "package": "data-category",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "Tru",
           "package": "data-category",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "F2T",
           "package": "data-category",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "F2T",
           "package": "data-category",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "Fls",
           "package": "data-category",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "Fls",
           "package": "data-category",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "Tru",
           "package": "data-category",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "Tru",
           "package": "data-category",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "falseCoproductComonoid",
           "package": "data-category",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "falseCoproductComonoid",
           "package": "data-category",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "falseCoproductMonoid",
           "package": "data-category",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "falseCoproductMonoid",
           "package": "data-category",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "falseProductComonoid",
           "package": "data-category",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "falseProductComonoid",
           "package": "data-category",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "trueCoproductMonoid",
           "package": "data-category",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "trueCoproductMonoid",
           "package": "data-category",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "trueProductComonoid",
           "package": "data-category",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "trueProductComonoid",
           "package": "data-category",
@@ -712,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Boolean",
           "name": "trueProductMonoid",
           "package": "data-category",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Data Category Boolean",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Boolean",
           "name": "trueProductMonoid",
           "package": "data-category",
@@ -734,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "CartesianClosed",
           "package": "data-category",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "CartesianClosed",
           "package": "data-category",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "Apply",
           "package": "data-category",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "Apply",
           "package": "data-category",
@@ -777,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA category is cartesian closed if it has all products and exponentials for all objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "CartesianClosed",
           "package": "data-category",
@@ -786,6 +855,7 @@
         "index": {
           "description": "category is cartesian closed if it has all products and exponentials for all objects",
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "CartesianClosed",
           "package": "data-category",
@@ -799,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "Context",
           "package": "data-category",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "Context",
           "package": "data-category",
@@ -820,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "ExpFunctor",
           "package": "data-category",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "ExpFunctor",
           "package": "data-category",
@@ -842,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom every adjunction we get a monad, in this case the State monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "State",
           "package": "data-category",
@@ -851,6 +926,7 @@
         "index": {
           "description": "From every adjunction we get monad in this case the State monad",
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "State",
           "package": "data-category",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "ToTuple1",
           "package": "data-category",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "ToTuple1",
           "package": "data-category",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "ToTuple2",
           "package": "data-category",
@@ -893,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "ToTuple2",
           "package": "data-category",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "(^^^)",
           "package": "data-category",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "(^^^) ^^^",
           "normalized": "a b b-\u003ea c c-\u003ea(Exponential a c b)(Exponential a c b)",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "Apply",
           "package": "data-category",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "Apply",
           "package": "data-category",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "ExpFunctor",
           "package": "data-category",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "ExpFunctor",
           "package": "data-category",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "ToTuple1",
           "package": "data-category",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "ToTuple1",
           "package": "data-category",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "ToTuple2",
           "package": "data-category",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "ToTuple2",
           "package": "data-category",
@@ -1017,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "apply",
           "package": "data-category",
@@ -1026,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "apply",
           "normalized": "Obj a b-\u003eObj a c-\u003ea(BinaryProduct a(Exponential a b c)b)c",
@@ -1040,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "contextComonadDuplicate",
           "package": "data-category",
@@ -1049,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "contextComonadDuplicate",
           "normalized": "Obj a b-\u003eObj a c-\u003ea(Context a b c)(Context a b(Context a b c))",
@@ -1064,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "contextComonadExtract",
           "package": "data-category",
@@ -1073,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "contextComonadExtract",
           "normalized": "Obj a b-\u003eObj a c-\u003ea(Context a b c)c",
@@ -1089,6 +1185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom the adjunction between the product functor and the exponential functor we get the curry and uncurry functions,\n   generalized to any cartesian closed category.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "curry",
           "package": "data-category",
@@ -1099,6 +1196,7 @@
         "index": {
           "description": "From the adjunction between the product functor and the exponential functor we get the curry and uncurry functions generalized to any cartesian closed category",
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "curry",
           "normalized": "Obj a b-\u003eObj a c-\u003eObj a d-\u003ea(BinaryProduct a b c)d-\u003ea b(Exponential a c d)",
@@ -1114,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe product functor is left adjoint the the exponential functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "curryAdj",
           "package": "data-category",
@@ -1124,6 +1223,7 @@
         "index": {
           "description": "The product functor is left adjoint the the exponential functor",
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "curryAdj",
           "normalized": "Obj a b-\u003eAdjunction a a(ProductFunctor a Tuple a a b)(ExpFunctor a Tuple(Op a)a b)",
@@ -1139,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "stateMonadJoin",
           "package": "data-category",
@@ -1148,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "stateMonadJoin",
           "normalized": "Obj a b-\u003eObj a c-\u003ea(State a b(State a b c))(State a b c)",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "stateMonadReturn",
           "package": "data-category",
@@ -1172,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "stateMonadReturn",
           "normalized": "Obj a b-\u003eObj a c-\u003ea c(State a b c)",
@@ -1187,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "tuple",
           "package": "data-category",
@@ -1196,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "tuple",
           "normalized": "Obj a b-\u003eObj a c-\u003ea c(Exponential a b(BinaryProduct a c b))",
@@ -1210,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.CartesianClosed",
           "name": "uncurry",
           "package": "data-category",
@@ -1219,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Data Category CartesianClosed",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.CartesianClosed",
           "name": "uncurry",
           "normalized": "Obj a b-\u003eObj a c-\u003eObj a d-\u003ea b(Exponential a c d)-\u003ea(BinaryProduct a b c)d",
@@ -1234,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComma categories.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": "Comma",
           "package": "data-category",
@@ -1243,6 +1352,7 @@
         "index": {
           "description": "Comma categories",
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": "Comma",
           "package": "data-category",
@@ -1256,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": ":/\\:",
           "package": "data-category",
@@ -1264,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": ":/\\:",
           "package": "data-category",
@@ -1276,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": "CommaO",
           "package": "data-category",
@@ -1284,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": "CommaO",
           "package": "data-category",
@@ -1297,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": "ObjectsFOver",
           "package": "data-category",
@@ -1305,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": "ObjectsFOver",
           "package": "data-category",
@@ -1318,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": "ObjectsFUnder",
           "package": "data-category",
@@ -1326,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": "ObjectsFUnder",
           "package": "data-category",
@@ -1339,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": "ObjectsOver",
           "package": "data-category",
@@ -1347,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": "ObjectsOver",
           "package": "data-category",
@@ -1360,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": "ObjectsUnder",
           "package": "data-category",
@@ -1368,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": "ObjectsUnder",
           "package": "data-category",
@@ -1381,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": "CommaA",
           "package": "data-category",
@@ -1390,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": "CommaA",
           "normalized": "CommaO a b(c,d)-\u003eDom a c e-\u003eDom b d f-\u003eCommaO a b(e,f)-\u003e(a b)(c,d)(e,f)",
@@ -1405,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": "CommaO",
           "package": "data-category",
@@ -1414,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": "CommaO",
           "normalized": "Obj(Dom a)b-\u003ec(a b)(d e)-\u003eObj(Dom d)e-\u003eCommaO a d(b,e)",
@@ -1429,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": "commaId",
           "package": "data-category",
@@ -1438,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": "commaId",
           "normalized": "CommaO a b(c,d)-\u003eObj(a b)(c,d)",
@@ -1453,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": "initialUniversalComma",
           "package": "data-category",
@@ -1462,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": "initialUniversalComma",
           "normalized": "a-\u003eInitialUniversal b a c",
@@ -1477,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Comma",
           "name": "terminalUniversalComma",
           "package": "data-category",
@@ -1486,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Data Category Comma",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Comma",
           "name": "terminalUniversalComma",
           "normalized": "a-\u003eTerminalUniversal b a c",
@@ -1501,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "Coproduct",
           "package": "data-category",
@@ -1509,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "Coproduct",
           "package": "data-category",
@@ -1522,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": ":+++:",
           "package": "data-category",
@@ -1530,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": ":+++:",
           "package": "data-category",
@@ -1542,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": ":++:",
           "package": "data-category",
@@ -1550,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": ":++:",
           "package": "data-category",
@@ -1562,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": ":\u003e\u003e:",
           "package": "data-category",
@@ -1570,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": ":\u003e\u003e:",
           "package": "data-category",
@@ -1582,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "CodiagCoprod",
           "package": "data-category",
@@ -1590,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "CodiagCoprod",
           "package": "data-category",
@@ -1603,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "Cotuple1",
           "package": "data-category",
@@ -1611,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "Cotuple1",
           "package": "data-category",
@@ -1624,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "Cotuple2",
           "package": "data-category",
@@ -1632,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "Cotuple2",
           "package": "data-category",
@@ -1645,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "I1",
           "package": "data-category",
@@ -1653,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "I1",
           "package": "data-category",
@@ -1665,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "I2",
           "package": "data-category",
@@ -1673,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "I2",
           "package": "data-category",
@@ -1685,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "Inj1",
           "package": "data-category",
@@ -1693,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "Inj1",
           "package": "data-category",
@@ -1706,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "Inj2",
           "package": "data-category",
@@ -1714,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "Inj2",
           "package": "data-category",
@@ -1727,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "NatAsFunctor",
           "package": "data-category",
@@ -1735,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "NatAsFunctor",
           "package": "data-category",
@@ -1748,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": ":+++:",
           "package": "data-category",
@@ -1757,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": ":+++:",
           "package": "data-category",
@@ -1769,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "CodiagCoprod",
           "package": "data-category",
@@ -1778,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "CodiagCoprod",
           "package": "data-category",
@@ -1791,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "Cotuple1",
           "package": "data-category",
@@ -1800,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "Cotuple1",
           "package": "data-category",
@@ -1813,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "Cotuple2",
           "package": "data-category",
@@ -1822,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "Cotuple2",
           "package": "data-category",
@@ -1835,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "I1",
           "package": "data-category",
@@ -1844,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "I1",
           "normalized": "a b c-\u003ea a(I b)(I c)",
@@ -1858,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "I12",
           "package": "data-category",
@@ -1867,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "I12",
           "normalized": "Obj a b-\u003eObj a c-\u003ea a(I b)(I c)",
@@ -1881,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "I1A",
           "package": "data-category",
@@ -1890,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "I1A",
           "normalized": "a b c-\u003ea a(I b)(I c)",
@@ -1904,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "I2",
           "package": "data-category",
@@ -1913,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "I2",
           "normalized": "a b c-\u003ea a(I b)(I c)",
@@ -1927,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "I2A",
           "package": "data-category",
@@ -1936,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "I2A",
           "normalized": "a b c-\u003ea a(I b)(I c)",
@@ -1950,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "Inj1",
           "package": "data-category",
@@ -1959,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "Inj1",
           "package": "data-category",
@@ -1972,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "Inj2",
           "package": "data-category",
@@ -1981,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "Inj2",
           "package": "data-category",
@@ -1994,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Coproduct",
           "name": "NatAsFunctor",
           "package": "data-category",
@@ -2003,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Data Category Coproduct",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Coproduct",
           "name": "NatAsFunctor",
           "package": "data-category",
@@ -2017,6 +2197,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDialg(F,G), the category of (F,G)-dialgebras and (F,G)-homomorphisms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "Dialg",
           "package": "data-category",
@@ -2026,6 +2207,7 @@
         "index": {
           "description": "Dialg the category of dialgebras and homomorphisms",
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "Dialg",
           "package": "data-category",
@@ -2039,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "Alg",
           "package": "data-category",
@@ -2047,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "Alg",
           "package": "data-category",
@@ -2060,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "Algebra",
           "package": "data-category",
@@ -2068,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "Algebra",
           "package": "data-category",
@@ -2082,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA anamorphism of an F-coalgebra is the arrow from it to the terminal F-coalgebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "Ana",
           "package": "data-category",
@@ -2091,6 +2278,7 @@
         "index": {
           "description": "anamorphism of an F-coalgebra is the arrow from it to the terminal F-coalgebra",
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "Ana",
           "package": "data-category",
@@ -2105,6 +2293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA catamorphism of an F-algebra is the arrow to it from the initial F-algebra.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "Cata",
           "package": "data-category",
@@ -2114,6 +2303,7 @@
         "index": {
           "description": "catamorphism of an F-algebra is the arrow to it from the initial F-algebra",
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "Cata",
           "package": "data-category",
@@ -2127,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "Coalg",
           "package": "data-category",
@@ -2135,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "Coalg",
           "package": "data-category",
@@ -2148,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "Coalgebra",
           "package": "data-category",
@@ -2156,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "Coalgebra",
           "package": "data-category",
@@ -2170,6 +2364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrows of Dialg(F,G) are (F,G)-homomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "Dialg",
           "package": "data-category",
@@ -2179,6 +2374,7 @@
         "index": {
           "description": "Arrows of Dialg are homomorphisms",
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "Dialg",
           "package": "data-category",
@@ -2193,6 +2389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects of Dialg(F,G) are (F,G)-dialgebras.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "Dialgebra",
           "package": "data-category",
@@ -2202,6 +2399,7 @@
         "index": {
           "description": "Objects of Dialg are dialgebras",
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "Dialgebra",
           "package": "data-category",
@@ -2215,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "ForgetAlg",
           "package": "data-category",
@@ -2223,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "ForgetAlg",
           "package": "data-category",
@@ -2236,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "FreeAlg",
           "package": "data-category",
@@ -2244,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "FreeAlg",
           "package": "data-category",
@@ -2258,6 +2460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initial F-algebra is the initial object in the category of F-algebras.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "InitialFAlgebra",
           "package": "data-category",
@@ -2267,6 +2470,7 @@
         "index": {
           "description": "The initial F-algebra is the initial object in the category of F-algebras",
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "InitialFAlgebra",
           "package": "data-category",
@@ -2280,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "NatNum",
           "package": "data-category",
@@ -2288,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "NatNum",
           "package": "data-category",
@@ -2302,6 +2508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe terminal F-coalgebra is the terminal object in the category of F-coalgebras.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "TerminalFAlgebra",
           "package": "data-category",
@@ -2311,6 +2518,7 @@
         "index": {
           "description": "The terminal F-coalgebra is the terminal object in the category of F-coalgebras",
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "TerminalFAlgebra",
           "package": "data-category",
@@ -2324,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "DialgA",
           "package": "data-category",
@@ -2333,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "DialgA",
           "normalized": "Dialgebra a b c-\u003eDialgebra a b d-\u003ee c d-\u003eDialg a b c d",
@@ -2348,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "Dialgebra",
           "package": "data-category",
@@ -2357,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "Dialgebra",
           "normalized": "Obj a b-\u003ec(d b)(e b)-\u003eDialgebra d e b",
@@ -2372,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "ForgetAlg",
           "package": "data-category",
@@ -2381,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "ForgetAlg",
           "package": "data-category",
@@ -2394,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "FreeAlg",
           "package": "data-category",
@@ -2403,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "FreeAlg",
           "package": "data-category",
@@ -2416,6 +2632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "S",
           "package": "data-category",
@@ -2425,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "S",
           "package": "data-category",
@@ -2437,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "Z",
           "package": "data-category",
@@ -2446,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "Z",
           "normalized": "Z()",
@@ -2460,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "dialgId",
           "package": "data-category",
@@ -2469,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "dialgId",
           "normalized": "Dialgebra a b c-\u003eObj(Dialg a b)c",
@@ -2484,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "dialgebra",
           "package": "data-category",
@@ -2493,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "dialgebra",
           "normalized": "Obj(Dialg a b)c-\u003eDialgebra a b c",
@@ -2507,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "eilenbergMooreAdj",
           "package": "data-category",
@@ -2516,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "eilenbergMooreAdj",
           "normalized": "Monad a-\u003eAdjunction(Alg a)b(FreeAlg a)(ForgetAlg a)",
@@ -2531,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Dialg",
           "name": "primRec",
           "package": "data-category",
@@ -2540,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Data Category Dialg",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Dialg",
           "name": "primRec",
           "normalized": "(()-\u003ea)-\u003e(a-\u003ea)-\u003eNatNum-\u003ea",
@@ -2555,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Fix",
           "name": "Fix",
           "package": "data-category",
@@ -2563,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Data Category Fix",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Fix",
           "name": "Fix",
           "package": "data-category",
@@ -2576,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Fix",
           "name": "Fix",
           "package": "data-category",
@@ -2584,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Data Category Fix",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Fix",
           "name": "Fix",
           "package": "data-category",
@@ -2598,6 +2830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the \u003ccode\u003e\u003ca\u003eOmega\u003c/a\u003e\u003c/code\u003e category, add a new disctinct object, and an arrow from that object to every object in \u003ccode\u003e\u003ca\u003eOmega\u003c/a\u003e\u003c/code\u003e,\n   and you get \u003ccode\u003e\u003ca\u003eOmega\u003c/a\u003e\u003c/code\u003e again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Fix",
           "name": "Omega",
           "package": "data-category",
@@ -2607,6 +2840,7 @@
         "index": {
           "description": "Take the Omega category add new disctinct object and an arrow from that object to every object in Omega and you get Omega again",
           "hierarchy": "Data Category Fix",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Fix",
           "name": "Omega",
           "package": "data-category",
@@ -2620,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Fix",
           "name": "Wrap",
           "package": "data-category",
@@ -2628,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Data Category Fix",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Fix",
           "name": "Wrap",
           "package": "data-category",
@@ -2641,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Fix",
           "name": "Fix",
           "package": "data-category",
@@ -2650,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Data Category Fix",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Fix",
           "name": "Fix",
           "package": "data-category",
@@ -2663,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Fix",
           "name": "Wrap",
           "package": "data-category",
@@ -2672,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Data Category Fix",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Fix",
           "name": "Wrap",
           "package": "data-category",
@@ -2685,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Functor",
           "package": "data-category",
@@ -2693,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Functor",
           "package": "data-category",
@@ -2706,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": ":***:",
           "package": "data-category",
@@ -2714,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": ":***:",
           "package": "data-category",
@@ -2726,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": ":*-:",
           "package": "data-category",
@@ -2734,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": ":*-:",
           "package": "data-category",
@@ -2746,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": ":-*:",
           "package": "data-category",
@@ -2754,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": ":-*:",
           "package": "data-category",
@@ -2766,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": ":.:",
           "package": "data-category",
@@ -2774,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": ":.:",
           "package": "data-category",
@@ -2787,6 +3037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctors are arrows in the category Cat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Cat",
           "package": "data-category",
@@ -2796,6 +3047,7 @@
         "index": {
           "description": "Functors are arrows in the category Cat",
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Cat",
           "package": "data-category",
@@ -2810,6 +3062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe need a wrapper here because objects need to be of kind *, and categories are of kind * -\u003e * -\u003e *.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "CatW",
           "package": "data-category",
@@ -2819,6 +3072,7 @@
         "index": {
           "description": "We need wrapper here because objects need to be of kind and categories are of kind",
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "CatW",
           "package": "data-category",
@@ -2832,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Const",
           "package": "data-category",
@@ -2840,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Const",
           "package": "data-category",
@@ -2854,6 +3110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe constant functor with the same domain and codomain as f.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "ConstF",
           "package": "data-category",
@@ -2863,6 +3120,7 @@
         "index": {
           "description": "The constant functor with the same domain and codomain as",
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "ConstF",
           "package": "data-category",
@@ -2876,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "DiagProd",
           "package": "data-category",
@@ -2884,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "DiagProd",
           "package": "data-category",
@@ -2898,6 +3158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctors map objects and arrows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Functor",
           "package": "data-category",
@@ -2907,6 +3168,7 @@
         "index": {
           "description": "Functors map objects and arrows",
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Functor",
           "package": "data-category",
@@ -2920,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Hom",
           "package": "data-category",
@@ -2928,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Hom",
           "package": "data-category",
@@ -2941,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Id",
           "package": "data-category",
@@ -2949,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Id",
           "package": "data-category",
@@ -2962,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "OpOp",
           "package": "data-category",
@@ -2970,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "OpOp",
           "package": "data-category",
@@ -2983,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "OpOpInv",
           "package": "data-category",
@@ -2991,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "OpOpInv",
           "package": "data-category",
@@ -3004,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Opposite",
           "package": "data-category",
@@ -3012,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Opposite",
           "package": "data-category",
@@ -3025,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Proj1",
           "package": "data-category",
@@ -3033,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Proj1",
           "package": "data-category",
@@ -3046,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Proj2",
           "package": "data-category",
@@ -3054,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Proj2",
           "package": "data-category",
@@ -3067,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Tuple1",
           "package": "data-category",
@@ -3075,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Tuple1",
           "package": "data-category",
@@ -3088,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Tuple2",
           "package": "data-category",
@@ -3096,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Tuple2",
           "package": "data-category",
@@ -3110,6 +3390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e%\u003c/code\u003e maps arrows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "(%)",
           "package": "data-category",
@@ -3120,6 +3401,7 @@
         "index": {
           "description": "maps arrows",
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "(%) %",
           "normalized": "a-\u003eDom a b c-\u003eCod a(a b)(a c)",
@@ -3134,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": ":***:",
           "package": "data-category",
@@ -3143,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": ":***:",
           "package": "data-category",
@@ -3155,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": ":.:",
           "package": "data-category",
@@ -3164,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": ":.:",
           "normalized": "a-\u003eb-\u003ea b",
@@ -3178,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "CatA",
           "package": "data-category",
@@ -3187,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "CatA",
           "normalized": "a-\u003eCat(CatW(Dom a))(CatW(Cod a))",
@@ -3202,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Const",
           "package": "data-category",
@@ -3211,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Const",
           "normalized": "Obj a b-\u003eConst a a b",
@@ -3226,6 +3516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "DiagProd",
           "package": "data-category",
@@ -3235,6 +3526,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "DiagProd",
           "package": "data-category",
@@ -3248,6 +3540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Hom",
           "package": "data-category",
@@ -3257,6 +3550,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Hom",
           "package": "data-category",
@@ -3270,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Id",
           "package": "data-category",
@@ -3279,6 +3574,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Id",
           "package": "data-category",
@@ -3292,6 +3588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "OpOp",
           "package": "data-category",
@@ -3301,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "OpOp",
           "package": "data-category",
@@ -3314,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "OpOpInv",
           "package": "data-category",
@@ -3323,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "OpOpInv",
           "package": "data-category",
@@ -3336,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Opposite",
           "package": "data-category",
@@ -3345,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Opposite",
           "normalized": "a-\u003eOpposite a",
@@ -3360,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Proj1",
           "package": "data-category",
@@ -3369,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Proj1",
           "package": "data-category",
@@ -3382,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Proj2",
           "package": "data-category",
@@ -3391,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Proj2",
           "package": "data-category",
@@ -3404,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Tuple1",
           "package": "data-category",
@@ -3413,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Tuple1",
           "package": "data-category",
@@ -3426,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "Tuple2",
           "package": "data-category",
@@ -3435,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "Tuple2",
           "package": "data-category",
@@ -3449,6 +3759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe covariant functor Hom(X,--)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "homX_",
           "package": "data-category",
@@ -3459,6 +3770,7 @@
         "index": {
           "description": "The covariant functor Hom",
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "homX_",
           "normalized": "Obj a b-\u003eb*a",
@@ -3474,6 +3786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe contravariant functor Hom(--,X)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Functor",
           "name": "hom_X",
           "package": "data-category",
@@ -3484,6 +3797,7 @@
         "index": {
           "description": "The contravariant functor Hom",
           "hierarchy": "Data Category Functor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Functor",
           "name": "hom_X",
           "normalized": "Obj a b-\u003ea*b",
@@ -3499,6 +3813,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an attempt at the Kleisli category, and the construction\n of an adjunction for each monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Kleisli",
           "name": "Kleisli",
           "package": "data-category",
@@ -3508,6 +3823,7 @@
         "index": {
           "description": "This is an attempt at the Kleisli category and the construction of an adjunction for each monad",
           "hierarchy": "Data Category Kleisli",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Kleisli",
           "name": "Kleisli",
           "package": "data-category",
@@ -3521,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Kleisli",
           "name": "Kleisli",
           "package": "data-category",
@@ -3529,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "Data Category Kleisli",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Kleisli",
           "name": "Kleisli",
           "package": "data-category",
@@ -3542,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Kleisli",
           "name": "KleisliAdjF",
           "package": "data-category",
@@ -3550,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "Data Category Kleisli",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Kleisli",
           "name": "KleisliAdjF",
           "package": "data-category",
@@ -3563,6 +3883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Kleisli",
           "name": "KleisliAdjG",
           "package": "data-category",
@@ -3571,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Data Category Kleisli",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Kleisli",
           "name": "KleisliAdjG",
           "package": "data-category",
@@ -3584,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Kleisli",
           "name": "Kleisli",
           "package": "data-category",
@@ -3593,6 +3916,7 @@
         },
         "index": {
           "hierarchy": "Data Category Kleisli",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Kleisli",
           "name": "Kleisli",
           "normalized": "Monad a-\u003eObj b c-\u003eb d(a c)-\u003eKleisli a d c",
@@ -3608,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Kleisli",
           "name": "KleisliAdjF",
           "package": "data-category",
@@ -3617,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Data Category Kleisli",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Kleisli",
           "name": "KleisliAdjF",
           "package": "data-category",
@@ -3630,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Kleisli",
           "name": "KleisliAdjG",
           "package": "data-category",
@@ -3639,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "Data Category Kleisli",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Kleisli",
           "name": "KleisliAdjG",
           "package": "data-category",
@@ -3652,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Kleisli",
           "name": "kleisliAdj",
           "package": "data-category",
@@ -3661,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Data Category Kleisli",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Kleisli",
           "name": "kleisliAdj",
           "normalized": "Monad a-\u003eAdjunction(Kleisli a)b(KleisliAdjF a)(KleisliAdjG a)",
@@ -3676,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Kleisli",
           "name": "kleisliId",
           "package": "data-category",
@@ -3685,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Data Category Kleisli",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Kleisli",
           "name": "kleisliId",
           "normalized": "Monad a-\u003eObj b c-\u003eKleisli a c c",
@@ -3700,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "Limit",
           "package": "data-category",
@@ -3708,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "Limit",
           "package": "data-category",
@@ -3721,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": ":*:",
           "package": "data-category",
@@ -3729,6 +4064,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": ":*:",
           "package": "data-category",
@@ -3741,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": ":+:",
           "package": "data-category",
@@ -3749,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": ":+:",
           "package": "data-category",
@@ -3762,6 +4100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA co-cone from F to N is a natural transformation from F to the constant functor to N.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "Cocone",
           "package": "data-category",
@@ -3771,6 +4110,7 @@
         "index": {
           "description": "co-cone from to is natural transformation from to the constant functor to",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "Cocone",
           "package": "data-category",
@@ -3784,6 +4124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "Colimit",
           "package": "data-category",
@@ -3792,6 +4133,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "Colimit",
           "package": "data-category",
@@ -3806,6 +4148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColimits in a category \u003ccode\u003ek\u003c/code\u003e by means of a diagram of type \u003ccode\u003ej\u003c/code\u003e, which is a functor from \u003ccode\u003ej\u003c/code\u003e to \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "ColimitFam",
           "package": "data-category",
@@ -3815,6 +4158,7 @@
         "index": {
           "description": "Colimits in category by means of diagram of type which is functor from to",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "ColimitFam",
           "package": "data-category",
@@ -3828,6 +4172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "ColimitFunctor",
           "package": "data-category",
@@ -3836,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "ColimitFunctor",
           "package": "data-category",
@@ -3850,6 +4196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cone from N to F is a natural transformation from the constant functor to N to F.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "Cone",
           "package": "data-category",
@@ -3859,6 +4206,7 @@
         "index": {
           "description": "cone from to is natural transformation from the constant functor to to",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "Cone",
           "package": "data-category",
@@ -3872,6 +4220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "CoproductFunctor",
           "package": "data-category",
@@ -3880,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "CoproductFunctor",
           "package": "data-category",
@@ -3893,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "Diag",
           "package": "data-category",
@@ -3901,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "Diag",
           "package": "data-category",
@@ -3915,6 +4267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe diagonal functor with the same domain and codomain as \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "DiagF",
           "package": "data-category",
@@ -3924,6 +4277,7 @@
         "index": {
           "description": "The diagonal functor with the same domain and codomain as",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "DiagF",
           "package": "data-category",
@@ -3937,6 +4291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "HasBinaryCoproducts",
           "package": "data-category",
@@ -3945,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "HasBinaryCoproducts",
           "package": "data-category",
@@ -3958,6 +4314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "HasBinaryProducts",
           "package": "data-category",
@@ -3966,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "HasBinaryProducts",
           "package": "data-category",
@@ -3980,6 +4338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance of \u003ccode\u003eHasColimits j k\u003c/code\u003e says that \u003ccode\u003ek\u003c/code\u003e has all colimits of type \u003ccode\u003ej\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "HasColimits",
           "package": "data-category",
@@ -3989,6 +4348,7 @@
         "index": {
           "description": "An instance of HasColimits says that has all colimits of type",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "HasColimits",
           "package": "data-category",
@@ -4002,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "HasInitialObject",
           "package": "data-category",
@@ -4010,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "HasInitialObject",
           "package": "data-category",
@@ -4024,6 +4386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance of \u003ccode\u003eHasLimits j k\u003c/code\u003e says that \u003ccode\u003ek\u003c/code\u003e has all limits of type \u003ccode\u003ej\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "HasLimits",
           "package": "data-category",
@@ -4033,6 +4396,7 @@
         "index": {
           "description": "An instance of HasLimits says that has all limits of type",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "HasLimits",
           "package": "data-category",
@@ -4046,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "HasTerminalObject",
           "package": "data-category",
@@ -4054,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "HasTerminalObject",
           "package": "data-category",
@@ -4067,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "Limit",
           "package": "data-category",
@@ -4075,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "Limit",
           "package": "data-category",
@@ -4089,6 +4457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimits in a category \u003ccode\u003ek\u003c/code\u003e by means of a diagram of type \u003ccode\u003ej\u003c/code\u003e, which is a functor from \u003ccode\u003ej\u003c/code\u003e to \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "LimitFam",
           "package": "data-category",
@@ -4098,6 +4467,7 @@
         "index": {
           "description": "Limits in category by means of diagram of type which is functor from to",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "LimitFam",
           "package": "data-category",
@@ -4111,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "LimitFunctor",
           "package": "data-category",
@@ -4119,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "LimitFunctor",
           "package": "data-category",
@@ -4132,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "ProductFunctor",
           "package": "data-category",
@@ -4140,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "ProductFunctor",
           "package": "data-category",
@@ -4153,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "Zero",
           "package": "data-category",
@@ -4161,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "Zero",
           "package": "data-category",
@@ -4174,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "(|||)",
           "package": "data-category",
@@ -4183,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "(|||) |||",
           "normalized": "a b c-\u003ea d c-\u003ea(BinaryCoproduct a b d)c",
@@ -4197,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "(&&&)",
           "package": "data-category",
@@ -4206,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "(&&&) &&&",
           "normalized": "a b c-\u003ea b d-\u003ea b(BinaryProduct a c d)",
@@ -4220,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "(***)",
           "package": "data-category",
@@ -4229,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "(***) ***",
           "normalized": "a b c-\u003ea b c-\u003ea(BinaryProduct a b b)(BinaryProduct a c c)",
@@ -4243,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "(+++)",
           "package": "data-category",
@@ -4252,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "(+++) +++",
           "normalized": "a b c-\u003ea b c-\u003ea(BinaryCoproduct a b b)(BinaryCoproduct a c c)",
@@ -4266,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": ":*:",
           "package": "data-category",
@@ -4275,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": ":*:",
           "normalized": "a-\u003eb-\u003ea*b",
@@ -4289,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": ":+:",
           "package": "data-category",
@@ -4298,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": ":+:",
           "normalized": "a-\u003eb-\u003ea b",
@@ -4312,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "ColimitFunctor",
           "package": "data-category",
@@ -4321,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "ColimitFunctor",
           "package": "data-category",
@@ -4334,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "CoproductFunctor",
           "package": "data-category",
@@ -4343,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "CoproductFunctor",
           "package": "data-category",
@@ -4356,6 +4748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "Diag",
           "package": "data-category",
@@ -4365,6 +4758,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "Diag",
           "package": "data-category",
@@ -4378,6 +4772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "LimitFunctor",
           "package": "data-category",
@@ -4387,6 +4782,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "LimitFunctor",
           "package": "data-category",
@@ -4400,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "ProductFunctor",
           "package": "data-category",
@@ -4409,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "ProductFunctor",
           "package": "data-category",
@@ -4423,6 +4821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe vertex (or apex) of a co-cone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "coconeVertex",
           "package": "data-category",
@@ -4433,6 +4832,7 @@
         "index": {
           "description": "The vertex or apex of co-cone",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "coconeVertex",
           "normalized": "Cocone a b-\u003eObj(Cod a)b",
@@ -4449,6 +4849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecolimit\u003c/a\u003e\u003c/code\u003e returns the limiting co-cone for a functor \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "colimit",
           "package": "data-category",
@@ -4459,6 +4860,7 @@
         "index": {
           "description": "colimit returns the limiting co-cone for functor",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "colimit",
           "normalized": "Obj(Nat a b)c-\u003eCocone c(Colimit c)",
@@ -4474,6 +4876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe colimit functor is left adjoint to the diagonal functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "colimitAdj",
           "package": "data-category",
@@ -4484,6 +4887,7 @@
         "index": {
           "description": "The colimit functor is left adjoint to the diagonal functor",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "colimitAdj",
           "package": "data-category",
@@ -4498,6 +4902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecolimitFactorizer\u003c/a\u003e\u003c/code\u003e shows that the limiting co-cone is universal &#8211; i.e. any other co-cone of \u003ccode\u003ef\u003c/code\u003e factors through it\n   by returning the morphism between the vertices of the cones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "colimitFactorizer",
           "package": "data-category",
@@ -4508,6 +4913,7 @@
         "index": {
           "description": "colimitFactorizer shows that the limiting co-cone is universal i.e any other co-cone of factors through it by returning the morphism between the vertices of the cones",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "colimitFactorizer",
           "normalized": "Obj(Nat a b)c-\u003ed e Cocone c f-\u003eb(Colimit c)f",
@@ -4524,6 +4930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe vertex (or apex) of a cone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "coneVertex",
           "package": "data-category",
@@ -4534,6 +4941,7 @@
         "index": {
           "description": "The vertex or apex of cone",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "coneVertex",
           "normalized": "Cone a b-\u003eObj(Cod a)b",
@@ -4549,6 +4957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "initialObject",
           "package": "data-category",
@@ -4558,6 +4967,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "initialObject",
           "package": "data-category",
@@ -4571,6 +4981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "initialize",
           "package": "data-category",
@@ -4580,6 +4991,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "initialize",
           "normalized": "Obj a b-\u003ea(InitialObject a)b",
@@ -4594,6 +5006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "inj1",
           "package": "data-category",
@@ -4603,6 +5016,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "inj1",
           "normalized": "Obj a b-\u003eObj a c-\u003ea b(BinaryCoproduct a b c)",
@@ -4617,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "inj2",
           "package": "data-category",
@@ -4626,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "inj2",
           "normalized": "Obj a b-\u003eObj a c-\u003ea c(BinaryCoproduct a b c)",
@@ -4641,6 +5057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elimit\u003c/a\u003e\u003c/code\u003e returns the limiting cone for a functor \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "limit",
           "package": "data-category",
@@ -4651,6 +5068,7 @@
         "index": {
           "description": "limit returns the limiting cone for functor",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "limit",
           "normalized": "Obj(Nat a b)c-\u003eCone c(Limit c)",
@@ -4666,6 +5084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe limit functor is right adjoint to the diagonal functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "limitAdj",
           "package": "data-category",
@@ -4676,6 +5095,7 @@
         "index": {
           "description": "The limit functor is right adjoint to the diagonal functor",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "limitAdj",
           "package": "data-category",
@@ -4690,6 +5110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elimitFactorizer\u003c/a\u003e\u003c/code\u003e shows that the limiting cone is universal &#8211; i.e. any other cone of \u003ccode\u003ef\u003c/code\u003e factors through it\n   by returning the morphism between the vertices of the cones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "limitFactorizer",
           "package": "data-category",
@@ -4700,6 +5121,7 @@
         "index": {
           "description": "limitFactorizer shows that the limiting cone is universal i.e any other cone of factors through it by returning the morphism between the vertices of the cones",
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "limitFactorizer",
           "normalized": "Obj(Nat a b)c-\u003ed e Cone c f-\u003eb f(Limit c)",
@@ -4715,6 +5137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "proj1",
           "package": "data-category",
@@ -4724,6 +5147,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "proj1",
           "normalized": "Obj a b-\u003eObj a c-\u003ea(BinaryProduct a b c)b",
@@ -4738,6 +5162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "proj2",
           "package": "data-category",
@@ -4747,6 +5172,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "proj2",
           "normalized": "Obj a b-\u003eObj a c-\u003ea(BinaryProduct a b c)c",
@@ -4761,6 +5187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "terminalObject",
           "package": "data-category",
@@ -4770,6 +5197,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "terminalObject",
           "package": "data-category",
@@ -4783,6 +5211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Limit",
           "name": "terminate",
           "package": "data-category",
@@ -4792,6 +5221,7 @@
         },
         "index": {
           "hierarchy": "Data Category Limit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Limit",
           "name": "terminate",
           "normalized": "Obj a b-\u003ea b(TerminalObject a)",
@@ -4806,6 +5236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "Monoidal",
           "package": "data-category",
@@ -4814,6 +5245,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "Monoidal",
           "package": "data-category",
@@ -4828,6 +5260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comonad is a comonoid in the category of endofunctors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "Comonad",
           "package": "data-category",
@@ -4837,6 +5270,7 @@
         "index": {
           "description": "comonad is comonoid in the category of endofunctors",
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "Comonad",
           "package": "data-category",
@@ -4851,6 +5285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eComonoidObject f a\u003c/code\u003e defines a comonoid \u003ccode\u003ea\u003c/code\u003e in a comonoidal category with tensor product \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "ComonoidObject",
           "package": "data-category",
@@ -4860,6 +5295,7 @@
         "index": {
           "description": "ComonoidObject defines comonoid in comonoidal category with tensor product",
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "ComonoidObject",
           "package": "data-category",
@@ -4874,6 +5310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad is a monoid in the category of endofunctors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "Monad",
           "package": "data-category",
@@ -4883,6 +5320,7 @@
         "index": {
           "description": "monad is monoid in the category of endofunctors",
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "Monad",
           "package": "data-category",
@@ -4896,6 +5334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "MonoidAsCategory",
           "package": "data-category",
@@ -4904,6 +5343,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "MonoidAsCategory",
           "package": "data-category",
@@ -4918,6 +5358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eMonoidObject f a\u003c/code\u003e defines a monoid \u003ccode\u003ea\u003c/code\u003e in a monoidal category with tensor product \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "MonoidObject",
           "package": "data-category",
@@ -4927,6 +5368,7 @@
         "index": {
           "description": "MonoidObject defines monoid in monoidal category with tensor product",
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "MonoidObject",
           "package": "data-category",
@@ -4941,6 +5383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monoidal category is a category with some kind of tensor product.\n   A tensor product is a bifunctor, with a unit object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "TensorProduct",
           "package": "data-category",
@@ -4950,6 +5393,7 @@
         "index": {
           "description": "monoidal category is category with some kind of tensor product tensor product is bifunctor with unit object",
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "TensorProduct",
           "package": "data-category",
@@ -4963,6 +5407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "ComonoidObject",
           "package": "data-category",
@@ -4972,6 +5417,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "ComonoidObject",
           "package": "data-category",
@@ -4985,6 +5431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "MonoidObject",
           "package": "data-category",
@@ -4994,6 +5441,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "MonoidObject",
           "package": "data-category",
@@ -5007,6 +5455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "MonoidValue",
           "package": "data-category",
@@ -5016,6 +5465,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "MonoidValue",
           "normalized": "a-\u003eMonoidObject a b-\u003ec(Unit a)b-\u003eMonoidAsCategory a b b b",
@@ -5032,6 +5482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery adjunction gives rise to an associated comonad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "adjunctionComonad",
           "package": "data-category",
@@ -5042,6 +5493,7 @@
         "index": {
           "description": "Every adjunction gives rise to an associated comonad",
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "adjunctionComonad",
           "normalized": "Adjunction a b c d-\u003eComonad(c d)",
@@ -5058,6 +5510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery adjunction gives rise to an associated monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "adjunctionMonad",
           "package": "data-category",
@@ -5068,6 +5521,7 @@
         "index": {
           "description": "Every adjunction gives rise to an associated monad",
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "adjunctionMonad",
           "normalized": "Adjunction a b c d-\u003eMonad(d c)",
@@ -5083,6 +5537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "associator",
           "package": "data-category",
@@ -5092,6 +5547,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "associator",
           "normalized": "a-\u003eObj b c-\u003eObj b d-\u003eObj b e-\u003eb(a(a(c,d),e))(a(c,a(d,e)))",
@@ -5106,6 +5562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "associatorInv",
           "package": "data-category",
@@ -5115,6 +5572,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "associatorInv",
           "normalized": "a-\u003eObj b c-\u003eObj b d-\u003eObj b e-\u003eb(a(c,a(d,e)))(a(a(c,d),e))",
@@ -5130,6 +5588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "comultiply",
           "package": "data-category",
@@ -5139,6 +5598,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "comultiply",
           "normalized": "a b(c(b,b))",
@@ -5153,6 +5613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "counit",
           "package": "data-category",
@@ -5162,6 +5623,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "counit",
           "package": "data-category",
@@ -5174,6 +5636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "leftUnitor",
           "package": "data-category",
@@ -5183,6 +5646,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "leftUnitor",
           "normalized": "a-\u003eObj b c-\u003eb(a(Unit a,c))c",
@@ -5198,6 +5662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "leftUnitorInv",
           "package": "data-category",
@@ -5207,6 +5672,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "leftUnitorInv",
           "normalized": "a-\u003eObj b c-\u003eb c(a(Unit a,c))",
@@ -5222,6 +5688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "mkComonad",
           "package": "data-category",
@@ -5231,6 +5698,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "mkComonad",
           "normalized": "a-\u003e(b c Obj d e-\u003eComponent a(Id d)e)-\u003e(b c Obj d e-\u003eComponent a(a a)e)-\u003eComonad a",
@@ -5246,6 +5714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "mkMonad",
           "package": "data-category",
@@ -5255,6 +5724,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "mkMonad",
           "normalized": "a-\u003e(b c Obj d e-\u003eComponent(Id d)a e)-\u003e(b c Obj d e-\u003eComponent(a a)a e)-\u003eMonad a",
@@ -5270,6 +5740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "monadFunctor",
           "package": "data-category",
@@ -5279,6 +5750,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "monadFunctor",
           "normalized": "Monad a-\u003ea",
@@ -5294,6 +5766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "multiply",
           "package": "data-category",
@@ -5303,6 +5776,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "multiply",
           "normalized": "a(b(c,c))c",
@@ -5317,6 +5791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "rightUnitor",
           "package": "data-category",
@@ -5326,6 +5801,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "rightUnitor",
           "normalized": "a-\u003eObj b c-\u003eb(a(c,Unit a))c",
@@ -5341,6 +5817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "rightUnitorInv",
           "package": "data-category",
@@ -5350,6 +5827,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "rightUnitorInv",
           "normalized": "a-\u003eObj b c-\u003eb c(a(c,Unit a))",
@@ -5365,6 +5843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "unit",
           "package": "data-category",
@@ -5374,6 +5853,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "unit",
           "package": "data-category",
@@ -5386,6 +5866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Monoidal",
           "name": "unitObject",
           "package": "data-category",
@@ -5395,6 +5876,7 @@
         },
         "index": {
           "hierarchy": "Data Category Monoidal",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Monoidal",
           "name": "unitObject",
           "normalized": "a-\u003eObj(Cod a)(Unit a)",
@@ -5410,6 +5892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NNO",
           "name": "NNO",
           "package": "data-category",
@@ -5418,6 +5901,7 @@
         },
         "index": {
           "hierarchy": "Data Category NNO",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NNO",
           "name": "NNO",
           "package": "data-category",
@@ -5431,6 +5915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NNO",
           "name": "HasNaturalNumberObject",
           "package": "data-category",
@@ -5439,6 +5924,7 @@
         },
         "index": {
           "hierarchy": "Data Category NNO",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NNO",
           "name": "HasNaturalNumberObject",
           "package": "data-category",
@@ -5452,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NNO",
           "name": "Nat",
           "package": "data-category",
@@ -5460,6 +5947,7 @@
         },
         "index": {
           "hierarchy": "Data Category NNO",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NNO",
           "name": "Nat",
           "package": "data-category",
@@ -5473,6 +5961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NNO",
           "name": "NatNum",
           "package": "data-category",
@@ -5481,6 +5970,7 @@
         },
         "index": {
           "hierarchy": "Data Category NNO",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NNO",
           "name": "NatNum",
           "package": "data-category",
@@ -5494,6 +5984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NNO",
           "name": "PrimRec",
           "package": "data-category",
@@ -5502,6 +5993,7 @@
         },
         "index": {
           "hierarchy": "Data Category NNO",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NNO",
           "name": "PrimRec",
           "package": "data-category",
@@ -5515,6 +6007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NNO",
           "name": "PrimRec",
           "package": "data-category",
@@ -5524,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "Data Category NNO",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NNO",
           "name": "PrimRec",
           "package": "data-category",
@@ -5537,6 +6031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NNO",
           "name": "S",
           "package": "data-category",
@@ -5546,6 +6041,7 @@
         },
         "index": {
           "hierarchy": "Data Category NNO",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NNO",
           "name": "S",
           "package": "data-category",
@@ -5558,6 +6054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NNO",
           "name": "Z",
           "package": "data-category",
@@ -5567,6 +6064,7 @@
         },
         "index": {
           "hierarchy": "Data Category NNO",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NNO",
           "name": "Z",
           "package": "data-category",
@@ -5579,6 +6077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NNO",
           "name": "primRec",
           "package": "data-category",
@@ -5588,6 +6087,7 @@
         },
         "index": {
           "hierarchy": "Data Category NNO",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NNO",
           "name": "primRec",
           "normalized": "a(TerminalObject a)b-\u003ea b b-\u003ea(NaturalNumberObject a)b",
@@ -5603,6 +6103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NNO",
           "name": "succ",
           "package": "data-category",
@@ -5612,6 +6113,7 @@
         },
         "index": {
           "hierarchy": "Data Category NNO",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NNO",
           "name": "succ",
           "package": "data-category",
@@ -5624,6 +6126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NNO",
           "name": "zero",
           "package": "data-category",
@@ -5633,6 +6136,7 @@
         },
         "index": {
           "hierarchy": "Data Category NNO",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NNO",
           "name": "zero",
           "package": "data-category",
@@ -5645,6 +6149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "NaturalTransformation",
           "package": "data-category",
@@ -5653,6 +6158,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "NaturalTransformation",
           "package": "data-category",
@@ -5667,6 +6173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ef :~\u003e g\u003c/code\u003e is a natural transformation from functor f to functor g.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": ":~\u003e",
           "package": "data-category",
@@ -5676,6 +6183,7 @@
         "index": {
           "description": "is natural transformation from functor to functor",
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": ":~\u003e",
           "package": "data-category",
@@ -5689,6 +6197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper for components,\n   which can be useful for helper functions dealing with components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Com",
           "package": "data-category",
@@ -5698,6 +6207,7 @@
         "index": {
           "description": "newtype wrapper for components which can be useful for helper functions dealing with components",
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Com",
           "package": "data-category",
@@ -5712,6 +6222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA component for an object \u003ccode\u003ez\u003c/code\u003e is an arrow from \u003ccode\u003eF z\u003c/code\u003e to \u003ccode\u003eG z\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Component",
           "package": "data-category",
@@ -5721,6 +6232,7 @@
         "index": {
           "description": "component for an object is an arrow from to",
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Component",
           "package": "data-category",
@@ -5735,6 +6247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe category of endofunctors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Endo",
           "package": "data-category",
@@ -5744,6 +6257,7 @@
         "index": {
           "description": "The category of endofunctors",
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Endo",
           "package": "data-category",
@@ -5757,6 +6271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "FunctorCompose",
           "package": "data-category",
@@ -5765,6 +6280,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "FunctorCompose",
           "package": "data-category",
@@ -5779,6 +6295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNatural transformations are built up of components,\n one for each object \u003ccode\u003ez\u003c/code\u003e in the domain category of \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Nat",
           "package": "data-category",
@@ -5788,6 +6305,7 @@
         "index": {
           "description": "Natural transformations are built up of components one for each object in the domain category of and",
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Nat",
           "package": "data-category",
@@ -5801,6 +6319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Postcompose",
           "package": "data-category",
@@ -5809,6 +6328,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Postcompose",
           "package": "data-category",
@@ -5822,6 +6342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Precompose",
           "package": "data-category",
@@ -5830,6 +6351,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Precompose",
           "package": "data-category",
@@ -5843,6 +6365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Wrap",
           "package": "data-category",
@@ -5851,6 +6374,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Wrap",
           "package": "data-category",
@@ -5865,6 +6389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'n ! a' returns the component for the object \u003ccode\u003ea\u003c/code\u003e of a natural transformation \u003ccode\u003en\u003c/code\u003e.\n   This can be generalized to any arrow (instead of just identity arrows).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "(!)",
           "package": "data-category",
@@ -5875,6 +6400,7 @@
         "index": {
           "description": "returns the component for the object of natural transformation This can be generalized to any arrow instead of just identity arrows",
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "(!) !",
           "normalized": "Nat a b c d-\u003ea e f-\u003eb(c e)(d f)",
@@ -5889,6 +6415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Com",
           "package": "data-category",
@@ -5898,6 +6425,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Com",
           "package": "data-category",
@@ -5911,6 +6439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "FunctorCompose",
           "package": "data-category",
@@ -5920,6 +6449,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "FunctorCompose",
           "package": "data-category",
@@ -5933,6 +6463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Nat",
           "package": "data-category",
@@ -5942,6 +6473,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Nat",
           "normalized": "a-\u003eb-\u003e(c d Obj e f-\u003eComponent a b f)-\u003eNat e g a b",
@@ -5957,6 +6489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Postcompose",
           "package": "data-category",
@@ -5966,6 +6499,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Postcompose",
           "normalized": "a-\u003ePostcompose a b",
@@ -5981,6 +6515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Precompose",
           "package": "data-category",
@@ -5990,6 +6525,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Precompose",
           "normalized": "a-\u003ePrecompose a b",
@@ -6005,6 +6541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "Wrap",
           "package": "data-category",
@@ -6014,6 +6551,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "Wrap",
           "package": "data-category",
@@ -6027,6 +6565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "compAssoc",
           "package": "data-category",
@@ -6036,6 +6575,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "compAssoc",
           "normalized": "a-\u003eb-\u003ec-\u003eNat(Dom c)(Cod a)((a b)c)(a(b c))",
@@ -6051,6 +6591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "compAssocInv",
           "package": "data-category",
@@ -6060,6 +6601,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "compAssocInv",
           "normalized": "a-\u003eb-\u003ec-\u003eNat(Dom c)(Cod a)(a(b c))((a b)c)",
@@ -6075,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "constPostcomp",
           "package": "data-category",
@@ -6084,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "constPostcomp",
           "normalized": "Const(Cod a)b c-\u003ea-\u003eNat(Dom a)b(Const(Cod a)b c a)(Const(Dom a)b c)",
@@ -6099,6 +6643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "constPostcompInv",
           "package": "data-category",
@@ -6108,6 +6653,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "constPostcompInv",
           "normalized": "Const(Cod a)b c-\u003ea-\u003eNat(Dom a)b(Const(Dom a)b c)(Const(Cod a)b c a)",
@@ -6123,6 +6669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "constPrecomp",
           "package": "data-category",
@@ -6132,6 +6679,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "constPrecomp",
           "normalized": "Const a(Dom b)c-\u003eb-\u003eNat a(Cod b)(b Const a(Dom b)c)(Const a(Cod b)(b c))",
@@ -6147,6 +6695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "constPrecompInv",
           "package": "data-category",
@@ -6156,6 +6705,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "constPrecompInv",
           "normalized": "Const a(Dom b)c-\u003eb-\u003eNat a(Cod b)(Const a(Cod b)(b c))(b Const a(Dom b)c)",
@@ -6171,6 +6721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "idPostcomp",
           "package": "data-category",
@@ -6180,6 +6731,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "idPostcomp",
           "normalized": "a-\u003eNat(Dom a)(Cod a)(Id(Cod a)a)a",
@@ -6195,6 +6747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "idPostcompInv",
           "package": "data-category",
@@ -6204,6 +6757,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "idPostcompInv",
           "normalized": "a-\u003eNat(Dom a)(Cod a)a(Id(Cod a)a)",
@@ -6219,6 +6773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "idPrecomp",
           "package": "data-category",
@@ -6228,6 +6783,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "idPrecomp",
           "normalized": "a-\u003eNat(Dom a)(Cod a)(a Id(Dom a))a",
@@ -6243,6 +6799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "idPrecompInv",
           "package": "data-category",
@@ -6252,6 +6809,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "idPrecompInv",
           "normalized": "a-\u003eNat(Dom a)(Cod a)a(a Id(Dom a))",
@@ -6268,6 +6826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity natural transformation of a functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "natId",
           "package": "data-category",
@@ -6278,6 +6837,7 @@
         "index": {
           "description": "The identity natural transformation of functor",
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "natId",
           "normalized": "a-\u003eNat(Dom a)(Cod a)a a",
@@ -6294,6 +6854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal composition of natural transformations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "o",
           "package": "data-category",
@@ -6304,6 +6865,7 @@
         "index": {
           "description": "Horizontal composition of natural transformations",
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "o",
           "normalized": "Nat a b c d-\u003eNat e a f g-\u003eNat e b(c f)(d g)",
@@ -6318,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "srcF",
           "package": "data-category",
@@ -6327,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "srcF",
           "normalized": "Nat a b c d-\u003ec",
@@ -6341,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "tgtF",
           "package": "data-category",
@@ -6350,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "tgtF",
           "normalized": "Nat a b c d-\u003ed",
@@ -6364,6 +6930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.NaturalTransformation",
           "name": "unCom",
           "package": "data-category",
@@ -6373,6 +6940,7 @@
         },
         "index": {
           "hierarchy": "Data Category NaturalTransformation",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.NaturalTransformation",
           "name": "unCom",
           "package": "data-category",
@@ -6386,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Presheaf",
           "name": "Presheaf",
           "package": "data-category",
@@ -6394,6 +6963,7 @@
         },
         "index": {
           "hierarchy": "Data Category Presheaf",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Presheaf",
           "name": "Presheaf",
           "package": "data-category",
@@ -6407,6 +6977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Presheaf",
           "name": "PShExponential",
           "package": "data-category",
@@ -6415,6 +6986,7 @@
         },
         "index": {
           "hierarchy": "Data Category Presheaf",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Presheaf",
           "name": "PShExponential",
           "package": "data-category",
@@ -6428,6 +7000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Presheaf",
           "name": "Presheaves",
           "package": "data-category",
@@ -6436,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Data Category Presheaf",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Presheaf",
           "name": "Presheaves",
           "package": "data-category",
@@ -6449,6 +7023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Presheaf",
           "name": "pshExponential",
           "package": "data-category",
@@ -6458,6 +7033,7 @@
         },
         "index": {
           "hierarchy": "Data Category Presheaf",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Presheaf",
           "name": "pshExponential",
           "normalized": "Obj(Presheaves a)b-\u003eObj(Presheaves a)c-\u003ePShExponential a b c",
@@ -6473,6 +7049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Product",
           "name": "Product",
           "package": "data-category",
@@ -6481,6 +7058,7 @@
         },
         "index": {
           "hierarchy": "Data Category Product",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Product",
           "name": "Product",
           "package": "data-category",
@@ -6494,6 +7072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Product",
           "name": ":**:",
           "package": "data-category",
@@ -6502,6 +7081,7 @@
         },
         "index": {
           "hierarchy": "Data Category Product",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Product",
           "name": ":**:",
           "package": "data-category",
@@ -6514,6 +7094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Product",
           "name": ":**:",
           "package": "data-category",
@@ -6523,6 +7104,7 @@
         },
         "index": {
           "hierarchy": "Data Category Product",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Product",
           "name": ":**:",
           "normalized": "a b c-\u003ea b c-\u003e**a a(b,b)(c,c)",
@@ -6537,6 +7119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "RepresentableFunctor",
           "package": "data-category",
@@ -6545,6 +7128,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "RepresentableFunctor",
           "package": "data-category",
@@ -6558,6 +7142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "InitialUniversal",
           "package": "data-category",
@@ -6566,6 +7151,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "InitialUniversal",
           "package": "data-category",
@@ -6579,6 +7165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "Representable",
           "package": "data-category",
@@ -6587,6 +7174,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "Representable",
           "package": "data-category",
@@ -6600,6 +7188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "TerminalUniversal",
           "package": "data-category",
@@ -6608,6 +7197,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "TerminalUniversal",
           "package": "data-category",
@@ -6621,6 +7211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "Representable",
           "package": "data-category",
@@ -6630,6 +7221,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "Representable",
           "package": "data-category",
@@ -6643,6 +7235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "contravariantHomRepr",
           "package": "data-category",
@@ -6652,6 +7245,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "contravariantHomRepr",
           "normalized": "Obj a b-\u003eRepresentable(a*b)b",
@@ -6667,6 +7261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "covariantHomRepr",
           "package": "data-category",
@@ -6676,6 +7271,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "covariantHomRepr",
           "normalized": "Obj a b-\u003eRepresentable(b*a)b",
@@ -6692,6 +7288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn initial universal property, a universal morphism from x to u.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "initialUniversal",
           "package": "data-category",
@@ -6702,6 +7299,7 @@
         "index": {
           "description": "An initial universal property universal morphism from to",
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "initialUniversal",
           "normalized": "a-\u003eObj(Dom a)b-\u003eCod a c(a b)-\u003e(d e Obj(Dom a)f-\u003eCod a c(a f)-\u003eDom a b f)-\u003eInitialUniversal c a b",
@@ -6717,6 +7315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "represent",
           "package": "data-category",
@@ -6726,6 +7325,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "represent",
           "normalized": "Obj a b-\u003e(c b)-\u003ea d b",
@@ -6740,6 +7340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "representedFunctor",
           "package": "data-category",
@@ -6749,6 +7350,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "representedFunctor",
           "package": "data-category",
@@ -6762,6 +7364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "representingObject",
           "package": "data-category",
@@ -6771,6 +7374,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "representingObject",
           "package": "data-category",
@@ -6785,6 +7389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA terminal universal property, a universal morphism from u to x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "terminalUniversal",
           "package": "data-category",
@@ -6795,6 +7400,7 @@
         "index": {
           "description": "terminal universal property universal morphism from to",
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "terminalUniversal",
           "normalized": "a-\u003eObj(Dom a)b-\u003eCod a(a b)c-\u003e(d e Obj(Dom a)f-\u003eCod a(a f)c-\u003eDom a f b)-\u003eTerminalUniversal c a b",
@@ -6810,6 +7416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "universalElement",
           "package": "data-category",
@@ -6819,6 +7426,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "universalElement",
           "package": "data-category",
@@ -6832,6 +7440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.RepresentableFunctor",
           "name": "unrepresent",
           "package": "data-category",
@@ -6841,6 +7450,7 @@
         },
         "index": {
           "hierarchy": "Data Category RepresentableFunctor",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.RepresentableFunctor",
           "name": "unrepresent",
           "normalized": "Representable a b-\u003ec b d-\u003ea d",
@@ -6856,6 +7466,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe (augmented) simplex category.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Simplex",
           "package": "data-category",
@@ -6865,6 +7476,7 @@
         "index": {
           "description": "The augmented simplex category",
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Simplex",
           "package": "data-category",
@@ -6878,6 +7490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Add",
           "package": "data-category",
@@ -6886,6 +7499,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Add",
           "package": "data-category",
@@ -6899,6 +7513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Fin",
           "package": "data-category",
@@ -6907,6 +7522,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Fin",
           "package": "data-category",
@@ -6920,6 +7536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Forget",
           "package": "data-category",
@@ -6928,6 +7545,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Forget",
           "package": "data-category",
@@ -6941,6 +7559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Replicate",
           "package": "data-category",
@@ -6949,6 +7568,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Replicate",
           "package": "data-category",
@@ -6962,6 +7582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "S",
           "package": "data-category",
@@ -6970,6 +7591,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "S",
           "package": "data-category",
@@ -6982,6 +7604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Simplex",
           "package": "data-category",
@@ -6990,6 +7613,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Simplex",
           "package": "data-category",
@@ -7003,6 +7627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Z",
           "package": "data-category",
@@ -7011,6 +7636,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Z",
           "package": "data-category",
@@ -7023,6 +7649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Add",
           "package": "data-category",
@@ -7032,6 +7659,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Add",
           "package": "data-category",
@@ -7045,6 +7673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Forget",
           "package": "data-category",
@@ -7054,6 +7683,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Forget",
           "package": "data-category",
@@ -7067,6 +7697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Fs",
           "package": "data-category",
@@ -7076,6 +7707,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Fs",
           "normalized": "Fin a-\u003eFin(S a)",
@@ -7091,6 +7723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Fz",
           "package": "data-category",
@@ -7100,6 +7733,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Fz",
           "package": "data-category",
@@ -7113,6 +7747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Replicate",
           "package": "data-category",
@@ -7122,6 +7757,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Replicate",
           "package": "data-category",
@@ -7135,6 +7771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "X",
           "package": "data-category",
@@ -7144,6 +7781,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "X",
           "normalized": "Simplex a(S b)-\u003eSimplex(S a)(S b)",
@@ -7158,6 +7796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Y",
           "package": "data-category",
@@ -7167,6 +7806,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Y",
           "normalized": "Simplex a b-\u003eSimplex a(S b)",
@@ -7181,6 +7821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "Z",
           "package": "data-category",
@@ -7190,6 +7831,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "Z",
           "package": "data-category",
@@ -7202,6 +7844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "suc",
           "package": "data-category",
@@ -7211,6 +7854,7 @@
         },
         "index": {
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "suc",
           "normalized": "Obj Simplex a-\u003eObj Simplex(S a)",
@@ -7226,6 +7870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maps \u003ccode\u003e0 -\u003e 1\u003c/code\u003e and \u003ccode\u003e2 -\u003e 1\u003c/code\u003e form a monoid, which is universal, c.f. \u003ccode\u003e\u003ca\u003eReplicate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Simplex",
           "name": "universalMonoid",
           "package": "data-category",
@@ -7236,6 +7881,7 @@
         "index": {
           "description": "The maps and form monoid which is universal c.f Replicate",
           "hierarchy": "Data Category Simplex",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Simplex",
           "name": "universalMonoid",
           "package": "data-category",
@@ -7249,6 +7895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Unit",
           "name": "Unit",
           "package": "data-category",
@@ -7257,6 +7904,7 @@
         },
         "index": {
           "hierarchy": "Data Category Unit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Unit",
           "name": "Unit",
           "package": "data-category",
@@ -7270,6 +7918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Unit",
           "name": "Unit",
           "package": "data-category",
@@ -7278,6 +7927,7 @@
         },
         "index": {
           "hierarchy": "Data Category Unit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Unit",
           "name": "Unit",
           "package": "data-category",
@@ -7291,6 +7941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Unit",
           "name": "Unit",
           "package": "data-category",
@@ -7300,6 +7951,7 @@
         },
         "index": {
           "hierarchy": "Data Category Unit",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Unit",
           "name": "Unit",
           "normalized": "Unit()()",
@@ -7315,6 +7967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Void",
           "name": "Void",
           "package": "data-category",
@@ -7323,6 +7976,7 @@
         },
         "index": {
           "hierarchy": "Data Category Void",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Void",
           "name": "Void",
           "package": "data-category",
@@ -7336,6 +7990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Void",
           "name": "Magic",
           "package": "data-category",
@@ -7344,6 +7999,7 @@
         },
         "index": {
           "hierarchy": "Data Category Void",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Void",
           "name": "Magic",
           "package": "data-category",
@@ -7357,6 +8013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Void",
           "name": "Void",
           "package": "data-category",
@@ -7365,6 +8022,7 @@
         },
         "index": {
           "hierarchy": "Data Category Void",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Void",
           "name": "Void",
           "package": "data-category",
@@ -7378,6 +8036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Void",
           "name": "Magic",
           "package": "data-category",
@@ -7387,6 +8046,7 @@
         },
         "index": {
           "hierarchy": "Data Category Void",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Void",
           "name": "Magic",
           "package": "data-category",
@@ -7400,6 +8060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Void",
           "name": "magic",
           "package": "data-category",
@@ -7409,6 +8070,7 @@
         },
         "index": {
           "hierarchy": "Data Category Void",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Void",
           "name": "magic",
           "normalized": "Void a b-\u003ec",
@@ -7423,6 +8085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Void",
           "name": "voidNat",
           "package": "data-category",
@@ -7432,6 +8095,7 @@
         },
         "index": {
           "hierarchy": "Data Category Void",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Void",
           "name": "voidNat",
           "normalized": "a-\u003eb-\u003eNat Void c a b",
@@ -7447,6 +8111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Yoneda",
           "name": "Yoneda",
           "package": "data-category",
@@ -7455,6 +8120,7 @@
         },
         "index": {
           "hierarchy": "Data Category Yoneda",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Yoneda",
           "name": "Yoneda",
           "package": "data-category",
@@ -7468,6 +8134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Yoneda",
           "name": "Yoneda",
           "package": "data-category",
@@ -7476,6 +8143,7 @@
         },
         "index": {
           "hierarchy": "Data Category Yoneda",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Yoneda",
           "name": "Yoneda",
           "package": "data-category",
@@ -7489,6 +8157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Yoneda",
           "name": "YonedaEmbedding",
           "package": "data-category",
@@ -7497,6 +8166,7 @@
         },
         "index": {
           "hierarchy": "Data Category Yoneda",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Yoneda",
           "name": "YonedaEmbedding",
           "package": "data-category",
@@ -7510,6 +8180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Yoneda",
           "name": "Yoneda",
           "package": "data-category",
@@ -7519,6 +8190,7 @@
         },
         "index": {
           "hierarchy": "Data Category Yoneda",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Yoneda",
           "name": "Yoneda",
           "package": "data-category",
@@ -7533,6 +8205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efromYoneda\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etoYoneda\u003c/a\u003e\u003c/code\u003e are together the isomophism from the Yoneda lemma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Yoneda",
           "name": "fromYoneda",
           "package": "data-category",
@@ -7543,6 +8216,7 @@
         "index": {
           "description": "fromYoneda and toYoneda are together the isomophism from the Yoneda lemma",
           "hierarchy": "Data Category Yoneda",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Yoneda",
           "name": "fromYoneda",
           "normalized": "a-\u003eYoneda b a a",
@@ -7558,6 +8232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Yoneda",
           "name": "toYoneda",
           "package": "data-category",
@@ -7567,6 +8242,7 @@
         },
         "index": {
           "hierarchy": "Data Category Yoneda",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Yoneda",
           "name": "toYoneda",
           "normalized": "a-\u003ea Yoneda b a",
@@ -7583,6 +8259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Yoneda embedding functor, \u003ccode\u003eC -\u003e Set^(C^op)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category.Yoneda",
           "name": "yonedaEmbedding",
           "package": "data-category",
@@ -7593,6 +8270,7 @@
         "index": {
           "description": "The Yoneda embedding functor Set op",
           "hierarchy": "Data Category Yoneda",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category.Yoneda",
           "name": "yonedaEmbedding",
           "package": "data-category",
@@ -7606,6 +8284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category",
           "name": "Category",
           "package": "data-category",
@@ -7614,6 +8293,7 @@
         },
         "index": {
           "hierarchy": "Data Category",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category",
           "name": "Category",
           "package": "data-category",
@@ -7628,6 +8308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance of \u003ccode\u003eCategory k\u003c/code\u003e declares the arrow \u003ccode\u003ek\u003c/code\u003e as a category.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category",
           "name": "Category",
           "package": "data-category",
@@ -7637,6 +8318,7 @@
         "index": {
           "description": "An instance of Category declares the arrow as category",
           "hierarchy": "Data Category",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category",
           "name": "Category",
           "package": "data-category",
@@ -7651,6 +8333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhenever objects are required at value level, they are represented by their identity arrows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category",
           "name": "Obj",
           "package": "data-category",
@@ -7660,6 +8343,7 @@
         "index": {
           "description": "Whenever objects are required at value level they are represented by their identity arrows",
           "hierarchy": "Data Category",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category",
           "name": "Obj",
           "package": "data-category",
@@ -7673,6 +8357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category",
           "name": "Op",
           "package": "data-category",
@@ -7681,6 +8366,7 @@
         },
         "index": {
           "hierarchy": "Data Category",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category",
           "name": "Op",
           "package": "data-category",
@@ -7694,6 +8380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category",
           "name": "(.)",
           "package": "data-category",
@@ -7703,6 +8390,7 @@
         },
         "index": {
           "hierarchy": "Data Category",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category",
           "name": "(.) .",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -7717,6 +8405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category",
           "name": "Op",
           "package": "data-category",
@@ -7726,6 +8415,7 @@
         },
         "index": {
           "hierarchy": "Data Category",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category",
           "name": "Op",
           "package": "data-category",
@@ -7739,6 +8429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category",
           "name": "src",
           "package": "data-category",
@@ -7748,6 +8439,7 @@
         },
         "index": {
           "hierarchy": "Data Category",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category",
           "name": "src",
           "normalized": "a b c-\u003eObj a b",
@@ -7762,6 +8454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category",
           "name": "tgt",
           "package": "data-category",
@@ -7771,6 +8464,7 @@
         },
         "index": {
           "hierarchy": "Data Category",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category",
           "name": "tgt",
           "normalized": "a b c-\u003eObj a c",
@@ -7785,6 +8479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:38 UTC 2014",
           "module": "Data.Category",
           "name": "unOp",
           "package": "data-category",
@@ -7794,6 +8489,7 @@
         },
         "index": {
           "hierarchy": "Data Category",
+          "indexed": "2014-03-11T17:47:38",
           "module": "Data.Category",
           "name": "unOp",
           "package": "data-category",

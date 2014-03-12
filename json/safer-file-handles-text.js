@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "safer-file-handles-text"
+        "phrase": "safer-file-handles-text",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module lifts the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e IO operations into the region monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:40 UTC 2014",
           "module": "Data.Text.IO.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-text",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module lifts the Text IO operations into the region monad",
           "hierarchy": "Data Text IO SaferFileHandles",
+          "indexed": "2014-03-11T19:56:40",
           "module": "Data.Text.IO.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-text",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.Text.IO.\u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:40 UTC 2014",
           "module": "Data.Text.IO.SaferFileHandles",
           "name": "hGetContents",
           "package": "safer-file-handles-text",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Wraps Data.Text.IO hGetContents",
           "hierarchy": "Data Text IO SaferFileHandles",
+          "indexed": "2014-03-11T19:56:40",
           "module": "Data.Text.IO.SaferFileHandles",
           "name": "hGetContents",
           "normalized": "a b c-\u003ed Text",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.Text.IO.\u003ccode\u003e\u003ca\u003ehGetLine\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:40 UTC 2014",
           "module": "Data.Text.IO.SaferFileHandles",
           "name": "hGetLine",
           "package": "safer-file-handles-text",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Wraps Data.Text.IO hGetLine",
           "hierarchy": "Data Text IO SaferFileHandles",
+          "indexed": "2014-03-11T19:56:40",
           "module": "Data.Text.IO.SaferFileHandles",
           "name": "hGetLine",
           "normalized": "a b c-\u003ed Text",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.Text.IO.\u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:40 UTC 2014",
           "module": "Data.Text.IO.SaferFileHandles",
           "name": "hPutStr",
           "package": "safer-file-handles-text",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Wraps Data.Text.IO hPutStr",
           "hierarchy": "Data Text IO SaferFileHandles",
+          "indexed": "2014-03-11T19:56:40",
           "module": "Data.Text.IO.SaferFileHandles",
           "name": "hPutStr",
           "normalized": "a b c-\u003eText-\u003ed()",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.Text.IO.\u003ccode\u003e\u003ca\u003ehPutStrLn\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:40 UTC 2014",
           "module": "Data.Text.IO.SaferFileHandles",
           "name": "hPutStrLn",
           "package": "safer-file-handles-text",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Wraps Data.Text.IO hPutStrLn",
           "hierarchy": "Data Text IO SaferFileHandles",
+          "indexed": "2014-03-11T19:56:40",
           "module": "Data.Text.IO.SaferFileHandles",
           "name": "hPutStrLn",
           "normalized": "a b c-\u003eText-\u003ed()",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module lifts the lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e IO operations into the region monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:40 UTC 2014",
           "module": "Data.Text.Lazy.IO.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-text",
@@ -155,6 +166,7 @@
         "index": {
           "description": "This module lifts the lazy Text IO operations into the region monad",
           "hierarchy": "Data Text Lazy IO SaferFileHandles",
+          "indexed": "2014-03-11T19:56:40",
           "module": "Data.Text.Lazy.IO.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-text",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.Text.Lazy.IO.\u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:40 UTC 2014",
           "module": "Data.Text.Lazy.IO.SaferFileHandles",
           "name": "hGetContents",
           "package": "safer-file-handles-text",
@@ -179,6 +192,7 @@
         "index": {
           "description": "Wraps Data.Text.Lazy.IO hGetContents",
           "hierarchy": "Data Text Lazy IO SaferFileHandles",
+          "indexed": "2014-03-11T19:56:40",
           "module": "Data.Text.Lazy.IO.SaferFileHandles",
           "name": "hGetContents",
           "normalized": "a b c-\u003ed Text",
@@ -195,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.Text.Lazy.IO.\u003ccode\u003e\u003ca\u003ehGetLine\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:40 UTC 2014",
           "module": "Data.Text.Lazy.IO.SaferFileHandles",
           "name": "hGetLine",
           "package": "safer-file-handles-text",
@@ -205,6 +220,7 @@
         "index": {
           "description": "Wraps Data.Text.Lazy.IO hGetLine",
           "hierarchy": "Data Text Lazy IO SaferFileHandles",
+          "indexed": "2014-03-11T19:56:40",
           "module": "Data.Text.Lazy.IO.SaferFileHandles",
           "name": "hGetLine",
           "normalized": "a b c-\u003ed Text",
@@ -221,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.Text.Lazy.IO.\u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:40 UTC 2014",
           "module": "Data.Text.Lazy.IO.SaferFileHandles",
           "name": "hPutStr",
           "package": "safer-file-handles-text",
@@ -231,6 +248,7 @@
         "index": {
           "description": "Wraps Data.Text.Lazy.IO hPutStr",
           "hierarchy": "Data Text Lazy IO SaferFileHandles",
+          "indexed": "2014-03-11T19:56:40",
           "module": "Data.Text.Lazy.IO.SaferFileHandles",
           "name": "hPutStr",
           "normalized": "a b c-\u003eText-\u003ed()",
@@ -247,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.Text.Lazy.IO.\u003ccode\u003e\u003ca\u003ehPutStrLn\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:40 UTC 2014",
           "module": "Data.Text.Lazy.IO.SaferFileHandles",
           "name": "hPutStrLn",
           "package": "safer-file-handles-text",
@@ -257,6 +276,7 @@
         "index": {
           "description": "Wraps Data.Text.Lazy.IO hPutStrLn",
           "hierarchy": "Data Text Lazy IO SaferFileHandles",
+          "indexed": "2014-03-11T19:56:40",
           "module": "Data.Text.Lazy.IO.SaferFileHandles",
           "name": "hPutStrLn",
           "normalized": "a b c-\u003eText-\u003ed()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "imparse"
+        "phrase": "imparse",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImparse\n   Cross-platform and -language parser generator.\n\u003c/p\u003e\u003cpre\u003eText/Imparse/AbstractSyntax.hs\u003c/pre\u003e\u003cp\u003eData structure for Imparse parser definitions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "AbstractSyntax",
           "package": "imparse",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Imparse Cross-platform and language parser generator Text Imparse AbstractSyntax.hs Data structure for Imparse parser definitions",
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "AbstractSyntax",
           "package": "imparse",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Association",
           "package": "imparse",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Association",
           "package": "imparse",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Choice",
           "package": "imparse",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Choice",
           "package": "imparse",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Choices",
           "package": "imparse",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Choices",
           "package": "imparse",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Constructor",
           "package": "imparse",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Constructor",
           "package": "imparse",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Element",
           "package": "imparse",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Element",
           "package": "imparse",
@@ -147,6 +159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser data structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Import",
           "package": "imparse",
@@ -156,6 +169,7 @@
         "index": {
           "description": "Parser data structure",
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Import",
           "package": "imparse",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Minimum",
           "package": "imparse",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Minimum",
           "package": "imparse",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "NonTerminal",
           "package": "imparse",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "NonTerminal",
           "package": "imparse",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Parser",
           "package": "imparse",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Parser",
           "package": "imparse",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Production",
           "package": "imparse",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Production",
           "package": "imparse",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "RegularExpression",
           "package": "imparse",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "RegularExpression",
           "package": "imparse",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Separator",
           "package": "imparse",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Separator",
           "package": "imparse",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Terminal",
           "package": "imparse",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Terminal",
           "package": "imparse",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "TerminalString",
           "package": "imparse",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "TerminalString",
           "package": "imparse",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "WhitespaceParse",
           "package": "imparse",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "WhitespaceParse",
           "package": "imparse",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "AssocFlat",
           "package": "imparse",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "AssocFlat",
           "package": "imparse",
@@ -380,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "AssocLeft",
           "package": "imparse",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "AssocLeft",
           "package": "imparse",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "AssocNone",
           "package": "imparse",
@@ -411,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "AssocNone",
           "package": "imparse",
@@ -424,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "AssocRight",
           "package": "imparse",
@@ -433,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "AssocRight",
           "package": "imparse",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Choice",
           "package": "imparse",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Choice",
           "normalized": "Choice a(Maybe Constructor)Association[Element a]",
@@ -470,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Choices",
           "package": "imparse",
@@ -479,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Choices",
           "normalized": "Choices a[Choice a]",
@@ -494,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Constructor",
           "package": "imparse",
@@ -503,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Constructor",
           "package": "imparse",
@@ -516,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "DecimalLiteral",
           "package": "imparse",
@@ -525,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "DecimalLiteral",
           "package": "imparse",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Error",
           "package": "imparse",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Error",
           "package": "imparse",
@@ -560,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Explicit",
           "package": "imparse",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Explicit",
           "package": "imparse",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Flag",
           "package": "imparse",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Flag",
           "package": "imparse",
@@ -604,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Identifier",
           "package": "imparse",
@@ -613,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Identifier",
           "package": "imparse",
@@ -626,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Indented",
           "package": "imparse",
@@ -635,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Indented",
           "package": "imparse",
@@ -648,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Many",
           "package": "imparse",
@@ -657,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Many",
           "package": "imparse",
@@ -670,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "May",
           "package": "imparse",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "May",
           "package": "imparse",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "NaturalLiteral",
           "package": "imparse",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "NaturalLiteral",
           "package": "imparse",
@@ -714,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "NonTerminal",
           "package": "imparse",
@@ -723,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "NonTerminal",
           "package": "imparse",
@@ -736,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Parser",
           "package": "imparse",
@@ -745,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Parser",
           "normalized": "Parser a[Import][Production a]",
@@ -760,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Production",
           "package": "imparse",
@@ -769,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Production",
           "normalized": "Production a NonTerminal[Choices a]",
@@ -784,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "RegExp",
           "package": "imparse",
@@ -793,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "RegExp",
           "package": "imparse",
@@ -806,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "StringLiteral",
           "package": "imparse",
@@ -815,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "StringLiteral",
           "package": "imparse",
@@ -828,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Terminal",
           "package": "imparse",
@@ -837,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "Terminal",
           "package": "imparse",
@@ -850,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "isData",
           "package": "imparse",
@@ -859,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "isData",
           "normalized": "Element a-\u003eBool",
@@ -875,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions for inspecting parser instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "isOp",
           "package": "imparse",
@@ -885,6 +964,7 @@
         "index": {
           "description": "Functions for inspecting parser instances",
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "isOp",
           "normalized": "String-\u003eBool",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "productionNonTerminal",
           "package": "imparse",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "productionNonTerminal",
           "normalized": "Production a-\u003eNonTerminal",
@@ -924,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "terminals",
           "package": "imparse",
@@ -933,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse AbstractSyntax",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.AbstractSyntax",
           "name": "terminals",
           "normalized": "Parser a-\u003e[Terminal]",
@@ -948,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImparse\n   Cross-platform and -language parser generator.\n\u003c/p\u003e\u003cpre\u003eText/Imparse/Analysis.hs\u003c/pre\u003e\u003cp\u003eAnalyzer/validator for Imparse parsers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "Analysis",
           "package": "imparse",
@@ -957,6 +1042,7 @@
         "index": {
           "description": "Imparse Cross-platform and language parser generator Text Imparse Analysis.hs Analyzer validator for Imparse parsers",
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "Analysis",
           "package": "imparse",
@@ -970,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "Analysis",
           "package": "imparse",
@@ -978,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "Analysis",
           "package": "imparse",
@@ -991,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "Characterization",
           "package": "imparse",
@@ -999,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "Characterization",
           "package": "imparse",
@@ -1013,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalysis data structure, instance declarations, accessors,\n   and mutators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "InitialNonTerminals",
           "package": "imparse",
@@ -1022,6 +1113,7 @@
         "index": {
           "description": "Analysis data structure instance declarations accessors and mutators",
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "InitialNonTerminals",
           "package": "imparse",
@@ -1035,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "InitialTerminals",
           "package": "imparse",
@@ -1043,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "InitialTerminals",
           "package": "imparse",
@@ -1056,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ReachableNonTerminals",
           "package": "imparse",
@@ -1064,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ReachableNonTerminals",
           "package": "imparse",
@@ -1077,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "Tag",
           "package": "imparse",
@@ -1085,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "Tag",
           "package": "imparse",
@@ -1098,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "Analyzed",
           "package": "imparse",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "Analyzed",
           "normalized": "Analyzed[Tag]Characterization",
@@ -1122,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceBase",
           "package": "imparse",
@@ -1131,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceBase",
           "package": "imparse",
@@ -1144,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceConstructorDuplicate",
           "package": "imparse",
@@ -1153,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceConstructorDuplicate",
           "package": "imparse",
@@ -1166,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceNonRecursive",
           "package": "imparse",
@@ -1175,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceNonRecursive",
           "package": "imparse",
@@ -1188,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceRecursive",
           "package": "imparse",
@@ -1197,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceRecursive",
           "package": "imparse",
@@ -1210,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceRecursiveInfix",
           "package": "imparse",
@@ -1219,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceRecursiveInfix",
           "package": "imparse",
@@ -1232,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceRecursivePrefix",
           "package": "imparse",
@@ -1241,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ChoiceRecursivePrefix",
           "package": "imparse",
@@ -1254,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ChoicesBase",
           "package": "imparse",
@@ -1263,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ChoicesBase",
           "package": "imparse",
@@ -1276,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ChoicesDeterministic",
           "package": "imparse",
@@ -1285,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ChoicesDeterministic",
           "package": "imparse",
@@ -1298,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ChoicesNonRecursive",
           "package": "imparse",
@@ -1307,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ChoicesNonRecursive",
           "package": "imparse",
@@ -1320,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ChoicesRecursive",
           "package": "imparse",
@@ -1329,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ChoicesRecursive",
           "package": "imparse",
@@ -1342,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ChoicesRecursivePrefixInfix",
           "package": "imparse",
@@ -1351,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ChoicesRecursivePrefixInfix",
           "package": "imparse",
@@ -1364,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarCFG",
           "package": "imparse",
@@ -1373,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarCFG",
           "package": "imparse",
@@ -1386,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarLeftLinear",
           "package": "imparse",
@@ -1395,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarLeftLinear",
           "package": "imparse",
@@ -1408,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarLinear",
           "package": "imparse",
@@ -1417,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarLinear",
           "package": "imparse",
@@ -1430,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarNonRecursive",
           "package": "imparse",
@@ -1439,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarNonRecursive",
           "package": "imparse",
@@ -1452,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarRecursive",
           "package": "imparse",
@@ -1461,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarRecursive",
           "package": "imparse",
@@ -1474,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarRightLinear",
           "package": "imparse",
@@ -1483,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "GrammarRightLinear",
           "package": "imparse",
@@ -1496,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "NonTerminalUnbound",
           "package": "imparse",
@@ -1505,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "NonTerminalUnbound",
           "package": "imparse",
@@ -1518,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionBase",
           "package": "imparse",
@@ -1527,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionBase",
           "package": "imparse",
@@ -1540,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionDeterministic",
           "package": "imparse",
@@ -1549,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionDeterministic",
           "package": "imparse",
@@ -1562,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionDuplicate",
           "package": "imparse",
@@ -1571,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionDuplicate",
           "package": "imparse",
@@ -1584,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionInfixPrefixThenDeterministic",
           "package": "imparse",
@@ -1593,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionInfixPrefixThenDeterministic",
           "package": "imparse",
@@ -1606,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionNonRecursive",
           "package": "imparse",
@@ -1615,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionNonRecursive",
           "package": "imparse",
@@ -1628,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionRecursive",
           "package": "imparse",
@@ -1637,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionRecursive",
           "package": "imparse",
@@ -1650,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionUnreachable",
           "package": "imparse",
@@ -1659,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "ProductionUnreachable",
           "package": "imparse",
@@ -1672,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "allOps",
           "package": "imparse",
@@ -1681,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "allOps",
           "normalized": "Parser Analysis-\u003e[String]",
@@ -1696,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "analyze",
           "package": "imparse",
@@ -1705,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "analyze",
           "normalized": "Parser Analysis-\u003eParser Analysis",
@@ -1720,6 +1874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBaseline analysis (initial non-/terminals and reachable\n   non-terminals) and its closure (fully recursive\n   characterization of initial and reachable non-/terminals).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "baseline",
           "package": "imparse",
@@ -1730,6 +1885,7 @@
         "index": {
           "description": "Baseline analysis initial non terminals and reachable non-terminals and its closure fully recursive characterization of initial and reachable non terminals",
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "baseline",
           "normalized": "Parser Analysis-\u003eParser Analysis",
@@ -1744,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "characterization",
           "package": "imparse",
@@ -1753,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "characterization",
           "normalized": "a Analysis-\u003eCharacterization",
@@ -1767,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "closure",
           "package": "imparse",
@@ -1776,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "closure",
           "normalized": "Parser Analysis-\u003eParser Analysis",
@@ -1790,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "combine",
           "package": "imparse",
@@ -1799,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "combine",
           "normalized": "[Characterization]-\u003eCharacterization",
@@ -1814,6 +1976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther useful functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "infixPrefixOps",
           "package": "imparse",
@@ -1824,6 +1987,7 @@
         "index": {
           "description": "Other useful functions",
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "infixPrefixOps",
           "normalized": "Parser Analysis-\u003e[String]",
@@ -1839,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "initialNonTerminals",
           "package": "imparse",
@@ -1848,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "initialNonTerminals",
           "normalized": "a Analysis-\u003eInitialNonTerminals",
@@ -1863,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "initialTerminals",
           "package": "imparse",
@@ -1872,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "initialTerminals",
           "normalized": "a Analysis-\u003eInitialTerminals",
@@ -1887,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "mapCmb",
           "package": "imparse",
@@ -1896,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "mapCmb",
           "normalized": "(a-\u003e(a,Characterization))-\u003e[a]-\u003e([a],Characterization)",
@@ -1911,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "reachable",
           "package": "imparse",
@@ -1920,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "reachable",
           "normalized": "a Analysis-\u003eReachableNonTerminals",
@@ -1934,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "tag",
           "package": "imparse",
@@ -1943,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "tag",
           "normalized": "Analysis-\u003e[Tag]-\u003eAnalysis",
@@ -1958,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty derivation and tagging algorithms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "tagging",
           "package": "imparse",
@@ -1968,6 +2143,7 @@
         "index": {
           "description": "Property derivation and tagging algorithms",
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "tagging",
           "normalized": "Parser Analysis-\u003eParser Analysis",
@@ -1982,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Analysis",
           "name": "tags",
           "package": "imparse",
@@ -1991,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Analysis",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Analysis",
           "name": "tags",
           "normalized": "a Analysis-\u003e[Tag]",
@@ -2006,6 +2184,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImparse\n   Cross-platform and -language parser generator.\n\u003c/p\u003e\u003cpre\u003eText/Imparse/Compile/Haskell.hs\u003c/pre\u003e\u003cp\u003eCompilation from an Imparse parser definition to a Haskell\n   implementation of a abstract syntax data type and Parsec\n   parser.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "Haskell",
           "package": "imparse",
@@ -2015,6 +2194,7 @@
         "index": {
           "description": "Imparse Cross-platform and language parser generator Text Imparse Compile Haskell.hs Compilation from an Imparse parser definition to Haskell implementation of abstract syntax data type and Parsec parser",
           "hierarchy": "Text Imparse Compile Haskell",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "Haskell",
           "package": "imparse",
@@ -2029,6 +2209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState data structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "State",
           "package": "imparse",
@@ -2038,6 +2219,7 @@
         "index": {
           "description": "State data structure",
           "hierarchy": "Text Imparse Compile Haskell",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "State",
           "package": "imparse",
@@ -2051,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "State",
           "package": "imparse",
@@ -2060,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Compile Haskell",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "State",
           "package": "imparse",
@@ -2074,6 +2258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompilation to abstract syntax data type definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toAbstractSyntax",
           "package": "imparse",
@@ -2084,6 +2269,7 @@
         "index": {
           "description": "Compilation to abstract syntax data type definition",
           "hierarchy": "Text Imparse Compile Haskell",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toAbstractSyntax",
           "normalized": "String-\u003eParser a-\u003eCompile State()",
@@ -2099,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toDatatype",
           "package": "imparse",
@@ -2108,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Compile Haskell",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toDatatype",
           "normalized": "Parser a-\u003eCompile State()",
@@ -2124,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toLowerFirst",
           "package": "imparse",
@@ -2134,6 +2323,7 @@
         "index": {
           "description": "Helper functions",
           "hierarchy": "Text Imparse Compile Haskell",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toLowerFirst",
           "normalized": "String-\u003eString",
@@ -2150,6 +2340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompilation to Parsec parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toParsec",
           "package": "imparse",
@@ -2160,6 +2351,7 @@
         "index": {
           "description": "Compilation to Parsec parser",
           "hierarchy": "Text Imparse Compile Haskell",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toParsec",
           "normalized": "String-\u003eParser Analysis-\u003eCompile State()",
@@ -2175,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toParsecDefs",
           "package": "imparse",
@@ -2184,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Compile Haskell",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toParsecDefs",
           "normalized": "Parser Analysis-\u003eCompile State()",
@@ -2199,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toReportFuns",
           "package": "imparse",
@@ -2208,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse Compile Haskell",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toReportFuns",
           "normalized": "Parser a-\u003eCompile State()",
@@ -2224,6 +2420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompilation to rich reporting instance declarations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toRichReport",
           "package": "imparse",
@@ -2234,6 +2431,7 @@
         "index": {
           "description": "Compilation to rich reporting instance declarations",
           "hierarchy": "Text Imparse Compile Haskell",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Compile.Haskell",
           "name": "toRichReport",
           "normalized": "String-\u003eParser a-\u003eCompile State()",
@@ -2250,6 +2448,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImparse\n   Cross-platform and -language parser generator.\n\u003c/p\u003e\u003cpre\u003eText/Imparse/Parse.hs\u003c/pre\u003e\u003cp\u003eParser for Imparse parser specification concrete syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Parse",
           "name": "Parse",
           "package": "imparse",
@@ -2259,6 +2458,7 @@
         "index": {
           "description": "Imparse Cross-platform and language parser generator Text Imparse Parse.hs Parser for Imparse parser specification concrete syntax",
           "hierarchy": "Text Imparse Parse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Parse",
           "name": "Parse",
           "package": "imparse",
@@ -2273,6 +2473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExported functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Parse",
           "name": "parseParser",
           "package": "imparse",
@@ -2283,6 +2484,7 @@
         "index": {
           "description": "Exported functions",
           "hierarchy": "Text Imparse Parse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Parse",
           "name": "parseParser",
           "normalized": "String-\u003eEither String(Parser a)",
@@ -2299,6 +2501,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImparse\n   Cross-platform and -language parser generator.\n\u003c/p\u003e\u003cpre\u003eText/Imparse/Report.hs\u003c/pre\u003e\u003cp\u003eGeneration of rich reports from parser definitions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse.Report",
           "name": "Report",
           "package": "imparse",
@@ -2308,6 +2511,7 @@
         "index": {
           "description": "Imparse Cross-platform and language parser generator Text Imparse Report.hs Generation of rich reports from parser definitions",
           "hierarchy": "Text Imparse Report",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse.Report",
           "name": "Report",
           "package": "imparse",
@@ -2322,6 +2526,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImparse\n   Cross-platform and -language parser generator.\n\u003c/p\u003e\u003cpre\u003eText/Imparse.hs\u003c/pre\u003e\u003cp\u003eHaskell implementation of the Imparse parser parser.\n   Useful functions for the imparser parser generator.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "Imparse",
           "package": "imparse",
@@ -2331,6 +2536,7 @@
         "index": {
           "description": "Imparse Cross-platform and language parser generator Text Imparse.hs Haskell implementation of the Imparse parser parser Useful functions for the imparser parser generator",
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "Imparse",
           "package": "imparse",
@@ -2345,6 +2551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe target of the output, as specified by the command-line\n   arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "HaskellModulePrefix",
           "package": "imparse",
@@ -2354,6 +2561,7 @@
         "index": {
           "description": "The target of the output as specified by the command-line arguments",
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "HaskellModulePrefix",
           "package": "imparse",
@@ -2367,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "OutputTarget",
           "package": "imparse",
@@ -2375,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "OutputTarget",
           "package": "imparse",
@@ -2388,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "ASCII",
           "package": "imparse",
@@ -2397,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "ASCII",
           "package": "imparse",
@@ -2410,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "HASKELL",
           "package": "imparse",
@@ -2419,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "HASKELL",
           "package": "imparse",
@@ -2432,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "HTML",
           "package": "imparse",
@@ -2441,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "HTML",
           "package": "imparse",
@@ -2454,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "UXADT",
           "package": "imparse",
@@ -2463,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "UXADT",
           "package": "imparse",
@@ -2476,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "cmd",
           "package": "imparse",
@@ -2485,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "cmd",
           "normalized": "[OutputTarget]-\u003e[String]-\u003eIO()",
@@ -2499,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "createDirectoryIfNotExists",
           "package": "imparse",
@@ -2508,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "createDirectoryIfNotExists",
           "normalized": "FilePath-\u003eIO()",
@@ -2523,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "emitHaskell",
           "package": "imparse",
@@ -2532,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "emitHaskell",
           "normalized": "[OutputTarget]-\u003eMaybe HaskellModulePrefix",
@@ -2547,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "fileNameDir",
           "package": "imparse",
@@ -2556,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "fileNameDir",
           "normalized": "String-\u003eString",
@@ -2571,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "fileNamePrefix",
           "package": "imparse",
@@ -2580,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "fileNamePrefix",
           "normalized": "String-\u003eString",
@@ -2596,6 +2824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a file path in the form of a string, read it, and\n   process it as specified by the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "nothing",
           "package": "imparse",
@@ -2606,6 +2835,7 @@
         "index": {
           "description": "Take file path in the form of string read it and process it as specified by the command line",
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "nothing",
           "normalized": "IO()",
@@ -2620,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "parse",
           "package": "imparse",
@@ -2629,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "parse",
           "normalized": "String-\u003eIO(Maybe(Parser Analysis))",
@@ -2644,6 +2876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a file path in the form of a string, and try to parse\n   the contents of the file into abstract syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "parseShow",
           "package": "imparse",
@@ -2654,6 +2887,7 @@
         "index": {
           "description": "Take file path in the form of string and try to parse the contents of the file into abstract syntax",
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "parseShow",
           "normalized": "String-\u003eIO()",
@@ -2669,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "procWrite",
           "package": "imparse",
@@ -2678,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "procWrite",
           "normalized": "[OutputTarget]-\u003eMaybe String-\u003eIO()",
@@ -2693,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "removeIfExists",
           "package": "imparse",
@@ -2702,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "removeIfExists",
           "normalized": "FilePath-\u003eIO()",
@@ -2717,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "usage",
           "package": "imparse",
@@ -2726,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "usage",
           "normalized": "IO()",
@@ -2740,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:04 UTC 2014",
           "module": "Text.Imparse",
           "name": "writeAndPutStr",
           "package": "imparse",
@@ -2749,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "Text Imparse",
+          "indexed": "2014-03-11T18:57:04",
           "module": "Text.Imparse",
           "name": "writeAndPutStr",
           "normalized": "String-\u003eString-\u003eString-\u003eIO()",

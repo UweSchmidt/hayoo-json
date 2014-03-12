@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bitstream"
+        "phrase": "bitstream",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome functions currently missing from\n \u003ca\u003eData.Vector.Fusion.Stream.Monadic\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "Monadic",
           "package": "bitstream",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Some functions currently missing from Data.Vector.Fusion.Stream.Monadic",
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "Monadic",
           "package": "bitstream",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericDrop",
           "package": "bitstream",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericDrop",
           "normalized": "a-\u003eStream b c-\u003eStream b c",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericFindIndex",
           "package": "bitstream",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericFindIndex",
           "normalized": "(a-\u003eBool)-\u003eStream b a-\u003eb(Maybe c)",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericFindIndexM",
           "package": "bitstream",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericFindIndexM",
           "normalized": "(a-\u003eb Bool)-\u003eStream b a-\u003eb(Maybe c)",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericIndex",
           "package": "bitstream",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericIndex",
           "normalized": "Stream a b-\u003ec-\u003ea b",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericIndexed",
           "package": "bitstream",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericIndexed",
           "normalized": "Stream a b-\u003eStream a(c,b)",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericLength",
           "package": "bitstream",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericLength",
           "normalized": "Stream a b-\u003ea c",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericReplicate",
           "package": "bitstream",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericReplicate",
           "normalized": "a-\u003eb-\u003eStream c b",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericReplicateM",
           "package": "bitstream",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericReplicateM",
           "normalized": "a-\u003eb c-\u003eStream b c",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericTake",
           "package": "bitstream",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericTake",
           "normalized": "a-\u003eStream b c-\u003eStream b c",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericUnfoldrN",
           "package": "bitstream",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericUnfoldrN",
           "normalized": "a-\u003e(b-\u003eMaybe(c,b))-\u003eb-\u003eStream d c",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericUnfoldrNM",
           "package": "bitstream",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion Monadic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion.Monadic",
           "name": "genericUnfoldrNM",
           "normalized": "a-\u003e(b-\u003ec(Maybe(d,b)))-\u003eb-\u003eStream c d",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome functions currently missing from\n \u003ca\u003eData.Vector.Fusion.Stream\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion",
           "name": "Fusion",
           "package": "bitstream",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Some functions currently missing from Data.Vector.Fusion.Stream",
           "hierarchy": "Data Bitstream Fusion",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion",
           "name": "Fusion",
           "package": "bitstream",
@@ -328,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion",
           "name": "genericDrop",
           "package": "bitstream",
@@ -337,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion",
           "name": "genericDrop",
           "normalized": "a-\u003eStream b-\u003eStream b",
@@ -352,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion",
           "name": "genericFindIndex",
           "package": "bitstream",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion",
           "name": "genericFindIndex",
           "normalized": "(a-\u003eBool)-\u003eStream a-\u003eMaybe b",
@@ -376,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion",
           "name": "genericIndex",
           "package": "bitstream",
@@ -385,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion",
           "name": "genericIndex",
           "normalized": "Stream a-\u003eb-\u003ea",
@@ -400,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion",
           "name": "genericIndexed",
           "package": "bitstream",
@@ -409,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion",
           "name": "genericIndexed",
           "normalized": "Stream a-\u003eStream(b,a)",
@@ -424,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion",
           "name": "genericLength",
           "package": "bitstream",
@@ -433,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion",
           "name": "genericLength",
           "normalized": "Stream a-\u003eb",
@@ -448,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion",
           "name": "genericReplicate",
           "package": "bitstream",
@@ -457,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion",
           "name": "genericReplicate",
           "normalized": "a-\u003eb-\u003eStream b",
@@ -472,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion",
           "name": "genericTake",
           "package": "bitstream",
@@ -481,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion",
           "name": "genericTake",
           "normalized": "a-\u003eStream b-\u003eStream b",
@@ -496,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Fusion",
           "name": "genericUnfoldrN",
           "package": "bitstream",
@@ -505,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Fusion",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Fusion",
           "name": "genericUnfoldrN",
           "normalized": "a-\u003e(b-\u003eMaybe(c,b))-\u003eb-\u003eStream c",
@@ -521,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric interface to diverse types of \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "Generic",
           "package": "bitstream",
@@ -530,6 +573,7 @@
         "index": {
           "description": "Generic interface to diverse types of Bitstream",
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "Generic",
           "package": "bitstream",
@@ -544,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of diverse types of \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMethods of this class are functions of \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es that are either\n basic functions to implement other ones, or have to preserve their\n packet/chunk structure for efficiency and strictness behaviour.\n\u003c/p\u003e\u003cp\u003eMinimum complete implementation: \u003cem\u003eAll but\u003c/em\u003e \u003ccode\u003e\u003ca\u003ebasicCons'\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003ebasicConcat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003ebasicReplicate\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ebasicPartition\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003ebasicFromBits\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "Bitstream",
           "package": "bitstream",
@@ -553,6 +598,7 @@
         "index": {
           "description": "Class of diverse types of Bitstream Methods of this class are functions of Bitstream that are either basic functions to implement other ones or have to preserve their packet chunk structure for efficiency and strictness behaviour Minimum complete implementation All but basicCons basicConcat basicReplicate basicPartition and basicFromBits",
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "Bitstream",
           "package": "bitstream",
@@ -850,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicAppend",
           "package": "bitstream",
@@ -859,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicAppend",
           "normalized": "a-\u003ea-\u003ea",
@@ -874,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicConcat",
           "package": "bitstream",
@@ -883,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicConcat",
           "normalized": "[a]-\u003ea",
@@ -898,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicCons",
           "package": "bitstream",
@@ -907,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicCons",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -922,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicCons'",
           "package": "bitstream",
@@ -931,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicCons'",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -946,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicDrop",
           "package": "bitstream",
@@ -955,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicDrop",
           "normalized": "a-\u003eb-\u003eb",
@@ -970,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicDropWhile",
           "package": "bitstream",
@@ -979,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicDropWhile",
           "normalized": "(Bool-\u003eBool)-\u003ea-\u003ea",
@@ -994,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicFilter",
           "package": "bitstream",
@@ -1003,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicFilter",
           "normalized": "(Bool-\u003eBool)-\u003ea-\u003ea",
@@ -1018,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicFromNBits",
           "package": "bitstream",
@@ -1027,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicFromNBits",
           "normalized": "a-\u003eb-\u003ec",
@@ -1042,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicInit",
           "package": "bitstream",
@@ -1051,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicInit",
           "normalized": "a-\u003ea",
@@ -1066,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicMap",
           "package": "bitstream",
@@ -1075,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicMap",
           "normalized": "(Bool-\u003eBool)-\u003ea-\u003ea",
@@ -1090,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicPartition",
           "package": "bitstream",
@@ -1099,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicPartition",
           "normalized": "(Bool-\u003eBool)-\u003ea-\u003e(a,a)",
@@ -1114,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicReverse",
           "package": "bitstream",
@@ -1123,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicReverse",
           "normalized": "a-\u003ea",
@@ -1138,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicScanl",
           "package": "bitstream",
@@ -1147,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicScanl",
           "normalized": "(Bool-\u003eBool-\u003eBool)-\u003eBool-\u003ea-\u003ea",
@@ -1162,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicSnoc",
           "package": "bitstream",
@@ -1171,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicSnoc",
           "normalized": "a-\u003eBool-\u003ea",
@@ -1186,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicStream",
           "package": "bitstream",
@@ -1195,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicStream",
           "normalized": "a-\u003eStream Bool",
@@ -1210,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicTail",
           "package": "bitstream",
@@ -1219,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicTail",
           "normalized": "a-\u003ea",
@@ -1234,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicTake",
           "package": "bitstream",
@@ -1243,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicTake",
           "normalized": "a-\u003eb-\u003eb",
@@ -1258,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicTakeWhile",
           "package": "bitstream",
@@ -1267,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicTakeWhile",
           "normalized": "(Bool-\u003eBool)-\u003ea-\u003ea",
@@ -1282,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicToBits",
           "package": "bitstream",
@@ -1291,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicToBits",
           "normalized": "a-\u003eb",
@@ -1306,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Generic",
           "name": "basicUnstream",
           "package": "bitstream",
@@ -1315,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Data Bitstream Generic",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Generic",
           "name": "basicUnstream",
           "normalized": "Stream Bool-\u003ea",
@@ -3061,6 +3147,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast, packed, lazy bit streams (i.e. list of \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003es) with\n semi-automatic stream fusion.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported \u003ccode\u003equalified\u003c/code\u003e, to avoid name\n clashes with \u003ca\u003ePrelude\u003c/a\u003e functions. e.g.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.BitStream.Lazy as LS\n\u003c/pre\u003e\u003cp\u003eLazy \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es are made of possibly infinite list of strict\n \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es as chunks, and each chunks have at least 1 bit.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "Lazy",
           "package": "bitstream",
@@ -3070,6 +3157,7 @@
         "index": {
           "description": "Fast packed lazy bit streams i.e list of Bool with semi-automatic stream fusion This module is intended to be imported qualified to avoid name clashes with Prelude functions e.g import qualified Data.BitStream.Lazy as LS Lazy Bitstream are made of possibly infinite list of strict Bitstream as chunks and each chunks have at least bit",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "Lazy",
           "package": "bitstream",
@@ -3084,6 +3172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space-efficient representation of a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e vector, supporting\n many efficient operations. \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es have an idea of\n \u003cem\u003edirections\u003c/em\u003e controlling how octets are interpreted as bits. There\n are two types of concrete \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "Bitstream",
           "package": "bitstream",
@@ -3093,6 +3182,7 @@
         "index": {
           "description": "space-efficient representation of Bool vector supporting many efficient operations Bitstream have an idea of directions controlling how octets are interpreted as bits There are two types of concrete Bitstream Bitstream Left and Bitstream Right",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "Bitstream",
           "package": "bitstream",
@@ -3107,6 +3197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e bitstreams interpret an octet as a vector of bits whose\n LSB comes first and MSB comes last e.g.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 11110000 =\u003e [False, False, False, False, True, True , True , True]\n\u003c/li\u003e\u003cli\u003e 10010100 =\u003e [False, False, True , False, True, False, False, True]\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e operations (like \u003ccode\u003e\u003ca\u003etoBits\u003c/a\u003e\u003c/code\u003e) treat a \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e bitstream as a\n little-endian integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "Left",
           "package": "bitstream",
@@ -3116,6 +3207,7 @@
         "index": {
           "description": "Left bitstreams interpret an octet as vector of bits whose LSB comes first and MSB comes last e.g False False False False True True True True False False True False True False False True Bits operations like toBits treat Left bitstream as little-endian integer",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "Left",
           "package": "bitstream",
@@ -3130,6 +3222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e bitstreams interpret an octet as a vector of bits whose\n MSB comes first and LSB comes last e.g.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 11110000 =\u003e [True, True , True , True, False, False, False, False]\n\u003c/li\u003e\u003cli\u003e 10010100 =\u003e [True, False, False, True, False, True , False, False]\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e operations (like \u003ccode\u003e\u003ca\u003etoBits\u003c/a\u003e\u003c/code\u003e) treat a \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e bitstream as a\n big-endian integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "Right",
           "package": "bitstream",
@@ -3139,6 +3232,7 @@
         "index": {
           "description": "Right bitstreams interpret an octet as vector of bits whose MSB comes first and LSB comes last e.g True True True True False False False False True False False True False True False False Bits operations like toBits treat Right bitstream as big-endian integer",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "Right",
           "package": "bitstream",
@@ -3153,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Append a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "appendFile",
           "package": "bitstream",
@@ -3163,6 +3258,7 @@
         "index": {
           "description": "Append Bitstream to file",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "appendFile",
           "normalized": "FilePath-\u003eBitstream a-\u003eIO()",
@@ -3179,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ecycle\u003c/a\u003e\u003c/code\u003e ties a finite \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e into a circular one, or\n equivalently, the infinite repetition of the original \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e.\n It is the identity on infinite \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "cycle",
           "package": "bitstream",
@@ -3189,6 +3286,7 @@
         "index": {
           "description": "cycle ties finite Bitstream into circular one or equivalently the infinite repetition of the original Bitstream It is the identity on infinite Bitstream",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "cycle",
           "normalized": "Bitstream a-\u003eBitstream a",
@@ -3204,6 +3302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Bit directions only affect octet-based operations such as\n \u003ccode\u003e\u003ca\u003etoByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "directionLToR",
           "package": "bitstream",
@@ -3214,6 +3313,7 @@
         "index": {
           "description": "Convert Bitstream Left into Bitstream Right Bit directions only affect octet-based operations such as toByteString",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "directionLToR",
           "normalized": "Bitstream Left-\u003eBitstream Right",
@@ -3230,6 +3330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Bit directions only affect octet-based operations such as\n \u003ccode\u003e\u003ca\u003etoByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "directionRToL",
           "package": "bitstream",
@@ -3240,6 +3341,7 @@
         "index": {
           "description": "Convert Bitstream Right into Bitstream Left Bit directions only affect octet-based operations such as toByteString",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "directionRToL",
           "normalized": "Bitstream Right-\u003eBitstream Left",
@@ -3256,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a lazy \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "fromByteString",
           "package": "bitstream",
@@ -3266,6 +3369,7 @@
         "index": {
           "description": "Convert lazy ByteString into lazy Bitstream",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "fromByteString",
           "normalized": "ByteString-\u003eBitstream a",
@@ -3282,6 +3386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a list of chunks, strict \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es, into a\n lazy \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "fromChunks",
           "package": "bitstream",
@@ -3292,6 +3397,7 @@
         "index": {
           "description": "Convert list of chunks strict Bitstream into lazy Bitstream",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "fromChunks",
           "normalized": "[Bitstream a]-\u003eBitstream a",
@@ -3308,6 +3414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e is equivalent to \u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003estdin\u003c/code\u003e. Will read \u003cem\u003elazily\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "getContents",
           "package": "bitstream",
@@ -3318,6 +3425,7 @@
         "index": {
           "description": "getContents is equivalent to hGetContents stdin Will read lazily",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "getContents",
           "package": "bitstream",
@@ -3332,6 +3440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e h n\u003c/code\u003e reads a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e directly from the specified\n \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eh\u003c/code\u003e. First argument \u003ccode\u003eh\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e to read from, and\n the second \u003ccode\u003en\u003c/code\u003e is the number of \u003cem\u003eoctets\u003c/em\u003e to read, not \u003cem\u003ebits\u003c/em\u003e. It\n returns the octets read, up to \u003ccode\u003en\u003c/code\u003e, or null if EOF has been\n reached.\n\u003c/p\u003e\u003cp\u003eIf the handle is a pipe or socket, and the writing end is closed,\n \u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e will behave as if EOF was reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "hGet",
           "package": "bitstream",
@@ -3342,6 +3451,7 @@
         "index": {
           "description": "hGet reads Bitstream directly from the specified Handle First argument is the Handle to read from and the second is the number of octets to read not bits It returns the octets read up to or null if EOF has been reached If the handle is pipe or socket and the writing end is closed hGet will behave as if EOF was reached",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "hGet",
           "normalized": "Handle-\u003eInt-\u003eIO(Bitstream a)",
@@ -3358,6 +3468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Read entire handle contents \u003cem\u003elazily\u003c/em\u003e into a\n \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e. Chunks are read on demand, using the default chunk\n size.\n\u003c/p\u003e\u003cp\u003eOnce EOF is encountered, the \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "hGetContents",
           "package": "bitstream",
@@ -3368,6 +3479,7 @@
         "index": {
           "description": "Read entire handle contents lazily into Bitstream Chunks are read on demand using the default chunk size Once EOF is encountered the Handle is closed",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "hGetContents",
           "normalized": "Handle-\u003eIO(Bitstream a)",
@@ -3384,6 +3496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ehGetNonBlocking\u003c/a\u003e\u003c/code\u003e is similar to \u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e, except that it\n will never block waiting for data to become available, instead it\n returns only whatever data is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "hGetNonBlocking",
           "package": "bitstream",
@@ -3394,6 +3507,7 @@
         "index": {
           "description": "hGetNonBlocking is similar to hGet except that it will never block waiting for data to become available instead it returns only whatever data is available",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "hGetNonBlocking",
           "normalized": "Handle-\u003eInt-\u003eIO(Bitstream a)",
@@ -3410,6 +3524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Write a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e to the given \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "hPut",
           "package": "bitstream",
@@ -3420,6 +3535,7 @@
         "index": {
           "description": "Write Bitstream to the given Handle",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "hPut",
           "normalized": "Handle-\u003eBitstream a-\u003eIO()",
@@ -3436,6 +3552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003einteract\u003c/a\u003e\u003c/code\u003e function takes a function of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e d\n -\u003e \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e d\u003c/code\u003e as its argument. The entire input from the stdin\n is lazily passed to this function as its argument, and the\n resulting \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e is output on the stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "interact",
           "package": "bitstream",
@@ -3446,6 +3563,7 @@
         "index": {
           "description": "The interact function takes function of type Bitstream Bitstream as its argument The entire input from the stdin is lazily passed to this function as its argument and the resulting Bitstream is output on the stdout",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "interact",
           "normalized": "(Bitstream a-\u003eBitstream a)-\u003eIO()",
@@ -3461,6 +3579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef x\u003c/code\u003e returns an infinite \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e of\n repeated applications of \u003ccode\u003ef\u003c/code\u003e to \u003ccode\u003ex\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e f x == [x, f x, f (f x), ...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "iterate",
           "package": "bitstream",
@@ -3471,6 +3590,7 @@
         "index": {
           "description": "iterate returns an infinite Bitstream of repeated applications of to iterate",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "iterate",
           "normalized": "(Bool-\u003eBool)-\u003eBool-\u003eBitstream a",
@@ -3486,6 +3606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Write a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003estdout\u003c/code\u003e, equivalent to \u003ccode\u003e\u003ca\u003ehPut\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003estdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "putBits",
           "package": "bitstream",
@@ -3496,6 +3617,7 @@
         "index": {
           "description": "Write Bitstream to stdout equivalent to hPut stdout",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "putBits",
           "normalized": "Bitstream a-\u003eIO()",
@@ -3512,6 +3634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Read an entire file lazily into a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "readFile",
           "package": "bitstream",
@@ -3522,6 +3645,7 @@
         "index": {
           "description": "Read an entire file lazily into Bitstream",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO(Bitstream a)",
@@ -3538,6 +3662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003erepeat\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ex\u003c/code\u003e is an infinite \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e, with \u003ccode\u003ex\u003c/code\u003e the\n value of every bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "repeat",
           "package": "bitstream",
@@ -3548,6 +3673,7 @@
         "index": {
           "description": "repeat is an infinite Bitstream with the value of every bits",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "repeat",
           "normalized": "Bool-\u003eBitstream a",
@@ -3563,6 +3689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003etoByteString\u003c/a\u003e\u003c/code\u003e bits\u003c/code\u003e converts a lazy \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ebits\u003c/code\u003e\n into a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. The resulting octets will be padded\n with zeroes if \u003ccode\u003ebs\u003c/code\u003e is finite and its \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e is not multiple of\n 8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "toByteString",
           "package": "bitstream",
@@ -3573,6 +3700,7 @@
         "index": {
           "description": "toByteString bits converts lazy Bitstream bits into lazy ByteString The resulting octets will be padded with zeroes if bs is finite and its length is not multiple of",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "toByteString",
           "normalized": "Bitstream a-\u003eByteString",
@@ -3589,6 +3717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a lazy \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e into a list of chunks, strict\n \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "toChunks",
           "package": "bitstream",
@@ -3599,6 +3728,7 @@
         "index": {
           "description": "Convert lazy Bitstream into list of chunks strict Bitstream",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "toChunks",
           "normalized": "Bitstream a-\u003e[Bitstream a]",
@@ -3615,6 +3745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Write a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Lazy",
           "name": "writeFile",
           "package": "bitstream",
@@ -3625,6 +3756,7 @@
         "index": {
           "description": "Write Bitstream to file",
           "hierarchy": "Data Bitstream Lazy",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Lazy",
           "name": "writeFile",
           "normalized": "FilePath-\u003eBitstream a-\u003eIO()",
@@ -3641,6 +3773,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor internal use only.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Packet",
           "name": "Packet",
           "package": "bitstream",
@@ -3650,6 +3783,7 @@
         "index": {
           "description": "For internal use only",
           "hierarchy": "Data Bitstream Packet",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Packet",
           "name": "Packet",
           "package": "bitstream",
@@ -3664,6 +3798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e bitstreams interpret an octet as a vector of bits whose\n LSB comes first and MSB comes last e.g.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 11110000 =\u003e [False, False, False, False, True, True , True , True]\n\u003c/li\u003e\u003cli\u003e 10010100 =\u003e [False, False, True , False, True, False, False, True]\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e operations (like \u003ccode\u003e\u003ca\u003etoBits\u003c/a\u003e\u003c/code\u003e) treat a \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e bitstream as a\n little-endian integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Packet",
           "name": "Left",
           "package": "bitstream",
@@ -3673,6 +3808,7 @@
         "index": {
           "description": "Left bitstreams interpret an octet as vector of bits whose LSB comes first and MSB comes last e.g False False False False True True True True False False True False True False False True Bits operations like toBits treat Left bitstream as little-endian integer",
           "hierarchy": "Data Bitstream Packet",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Packet",
           "name": "Left",
           "package": "bitstream",
@@ -3687,6 +3823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003es are strict \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es having at most 8 bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Packet",
           "name": "Packet",
           "package": "bitstream",
@@ -3696,6 +3833,7 @@
         "index": {
           "description": "Packet are strict Bitstream having at most bits",
           "hierarchy": "Data Bitstream Packet",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Packet",
           "name": "Packet",
           "package": "bitstream",
@@ -3710,6 +3848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e bitstreams interpret an octet as a vector of bits whose\n MSB comes first and LSB comes last e.g.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 11110000 =\u003e [True, True , True , True, False, False, False, False]\n\u003c/li\u003e\u003cli\u003e 10010100 =\u003e [True, False, False, True, False, True , False, False]\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e operations (like \u003ccode\u003e\u003ca\u003etoBits\u003c/a\u003e\u003c/code\u003e) treat a \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e bitstream as a\n big-endian integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Packet",
           "name": "Right",
           "package": "bitstream",
@@ -3719,6 +3858,7 @@
         "index": {
           "description": "Right bitstreams interpret an octet as vector of bits whose MSB comes first and LSB comes last e.g True True True True False False False False True False False True False True False False Bits operations like toBits treat Right bitstream as big-endian integer",
           "hierarchy": "Data Bitstream Packet",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Packet",
           "name": "Right",
           "package": "bitstream",
@@ -3733,6 +3873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Convert an octet to \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Packet",
           "name": "fromOctet",
           "package": "bitstream",
@@ -3743,6 +3884,7 @@
         "index": {
           "description": "Convert an octet to Packet",
           "hierarchy": "Data Bitstream Packet",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Packet",
           "name": "fromOctet",
           "normalized": "Word-\u003ePacket a",
@@ -3759,6 +3901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003efull\u003c/a\u003e\u003c/code\u003e p == \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e iff \u003ccode\u003e\u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e p == 8\u003c/code\u003e, otherwise it\n returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Packet",
           "name": "full",
           "package": "bitstream",
@@ -3769,6 +3912,7 @@
         "index": {
           "description": "full True iff length otherwise it returns False",
           "hierarchy": "Data Bitstream Packet",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Packet",
           "name": "full",
           "normalized": "Packet a-\u003eBool",
@@ -3784,6 +3928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Change the direction of \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e to\n \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e. Bit directions only affect octet-based operations such as\n \u003ccode\u003e\u003ca\u003etoOctet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Packet",
           "name": "packetLToR",
           "package": "bitstream",
@@ -3794,6 +3939,7 @@
         "index": {
           "description": "Change the direction of Packet from Left to Right Bit directions only affect octet-based operations such as toOctet",
           "hierarchy": "Data Bitstream Packet",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Packet",
           "name": "packetLToR",
           "normalized": "Packet Left-\u003ePacket Right",
@@ -3810,6 +3956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Change the direction of \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e to\n \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e. Bit directions only affect octet-based operations such as\n \u003ccode\u003e\u003ca\u003etoOctet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Packet",
           "name": "packetRToL",
           "package": "bitstream",
@@ -3820,6 +3967,7 @@
         "index": {
           "description": "Change the direction of Packet from Right to Left Bit directions only affect octet-based operations such as toOctet",
           "hierarchy": "Data Bitstream Packet",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Packet",
           "name": "packetRToL",
           "normalized": "Packet Right-\u003ePacket Left",
@@ -3836,6 +3984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e \u003ccode\u003e\u003ca\u003etoOctet\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e converts a \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e to an octet, padding\n with zeroes if \u003ccode\u003e\u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e p \u003c 8\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream.Packet",
           "name": "toOctet",
           "package": "bitstream",
@@ -3846,6 +3995,7 @@
         "index": {
           "description": "toOctet converts Packet to an octet padding with zeroes if length",
           "hierarchy": "Data Bitstream Packet",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream.Packet",
           "name": "toOctet",
           "normalized": "Packet a-\u003eWord",
@@ -3862,6 +4012,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast, packed, strict bit streams (i.e. list of \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003es) with\n semi-automatic stream fusion.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported \u003ccode\u003equalified\u003c/code\u003e, to avoid name\n clashes with \u003ca\u003ePrelude\u003c/a\u003e functions. e.g.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.BitStream as BS\n\u003c/pre\u003e\u003cp\u003eStrict \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es are made of strict \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003es,\n and each \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003es have at least 1 bit.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "Bitstream",
           "package": "bitstream",
@@ -3871,6 +4022,7 @@
         "index": {
           "description": "Fast packed strict bit streams i.e list of Bool with semi-automatic stream fusion This module is intended to be imported qualified to avoid name clashes with Prelude functions e.g import qualified Data.BitStream as BS Strict Bitstream are made of strict Vector of Packet and each Packet have at least bit",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "Bitstream",
           "package": "bitstream",
@@ -3885,6 +4037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space-efficient representation of a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e vector, supporting\n many efficient operations. \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es have an idea of\n \u003cem\u003edirections\u003c/em\u003e controlling how octets are interpreted as bits. There\n are two types of concrete \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003es: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "Bitstream",
           "package": "bitstream",
@@ -3894,6 +4047,7 @@
         "index": {
           "description": "space-efficient representation of Bool vector supporting many efficient operations Bitstream have an idea of directions controlling how octets are interpreted as bits There are two types of concrete Bitstream Bitstream Left and Bitstream Right",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "Bitstream",
           "package": "bitstream",
@@ -3908,6 +4062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e bitstreams interpret an octet as a vector of bits whose\n LSB comes first and MSB comes last e.g.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 11110000 =\u003e [False, False, False, False, True, True , True , True]\n\u003c/li\u003e\u003cli\u003e 10010100 =\u003e [False, False, True , False, True, False, False, True]\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e operations (like \u003ccode\u003e\u003ca\u003etoBits\u003c/a\u003e\u003c/code\u003e) treat a \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e bitstream as a\n little-endian integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "Left",
           "package": "bitstream",
@@ -3917,6 +4072,7 @@
         "index": {
           "description": "Left bitstreams interpret an octet as vector of bits whose LSB comes first and MSB comes last e.g False False False False True True True True False False True False True False False True Bits operations like toBits treat Left bitstream as little-endian integer",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "Left",
           "package": "bitstream",
@@ -3931,6 +4087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e bitstreams interpret an octet as a vector of bits whose\n MSB comes first and LSB comes last e.g.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 11110000 =\u003e [True, True , True , True, False, False, False, False]\n\u003c/li\u003e\u003cli\u003e 10010100 =\u003e [True, False, False, True, False, True , False, False]\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e operations (like \u003ccode\u003e\u003ca\u003etoBits\u003c/a\u003e\u003c/code\u003e) treat a \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e bitstream as a\n big-endian integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "Right",
           "package": "bitstream",
@@ -3940,6 +4097,7 @@
         "index": {
           "description": "Right bitstreams interpret an octet as vector of bits whose MSB comes first and LSB comes last e.g True True True True False False False False True False False True False True False False Bits operations like toBits treat Right bitstream as big-endian integer",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "Right",
           "package": "bitstream",
@@ -3954,6 +4112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Append a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "appendFile",
           "package": "bitstream",
@@ -3964,6 +4123,7 @@
         "index": {
           "description": "Append Bitstream to file",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "appendFile",
           "normalized": "FilePath-\u003eBitstream a-\u003eIO()",
@@ -3980,6 +4140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Bit directions only affect octet-based operations such as\n \u003ccode\u003e\u003ca\u003etoByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "directionLToR",
           "package": "bitstream",
@@ -3990,6 +4151,7 @@
         "index": {
           "description": "Convert Bitstream Left into Bitstream Right Bit directions only affect octet-based operations such as toByteString",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "directionLToR",
           "normalized": "Bitstream Left-\u003eBitstream Right",
@@ -4006,6 +4168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Bit directions only affect octet-based operations such as\n \u003ccode\u003e\u003ca\u003etoByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "directionRToL",
           "package": "bitstream",
@@ -4016,6 +4179,7 @@
         "index": {
           "description": "Convert Bitstream Right into Bitstream Left Bit directions only affect octet-based operations such as toByteString",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "directionRToL",
           "normalized": "Bitstream Right-\u003eBitstream Left",
@@ -4032,6 +4196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a strict\n \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "fromByteString",
           "package": "bitstream",
@@ -4042,6 +4207,7 @@
         "index": {
           "description": "Convert strict ByteString into strict Bitstream",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "fromByteString",
           "normalized": "ByteString-\u003eBitstream a",
@@ -4058,6 +4224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003es into a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "fromPackets",
           "package": "bitstream",
@@ -4068,6 +4235,7 @@
         "index": {
           "description": "Convert Vector of Packet into Bitstream",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "fromPackets",
           "normalized": "Vector(Packet a)-\u003eBitstream a",
@@ -4084,6 +4252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Read a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e from the stdin strictly, equivalent to\n \u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e \u003ccode\u003estdin\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e is closed after the contents\n have been read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "getContents",
           "package": "bitstream",
@@ -4094,6 +4263,7 @@
         "index": {
           "description": "Read Bitstream from the stdin strictly equivalent to hGetContents stdin The Handle is closed after the contents have been read",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "getContents",
           "package": "bitstream",
@@ -4108,6 +4278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e h n\u003c/code\u003e reads a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e directly from the\n specified \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eh\u003c/code\u003e. First argument \u003ccode\u003eh\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e to read\n from, and the second \u003ccode\u003en\u003c/code\u003e is the number of \u003cem\u003eoctets\u003c/em\u003e to read, not\n \u003cem\u003ebits\u003c/em\u003e. It returns the octets read, up to \u003ccode\u003en\u003c/code\u003e, or null if EOF has\n been reached.\n\u003c/p\u003e\u003cp\u003eIf the handle is a pipe or socket, and the writing end is closed,\n \u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e will behave as if EOF was reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "hGet",
           "package": "bitstream",
@@ -4118,6 +4289,7 @@
         "index": {
           "description": "hGet reads Bitstream directly from the specified Handle First argument is the Handle to read from and the second is the number of octets to read not bits It returns the octets read up to or null if EOF has been reached If the handle is pipe or socket and the writing end is closed hGet will behave as if EOF was reached",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "hGet",
           "normalized": "Handle-\u003eInt-\u003eIO(Bitstream a)",
@@ -4134,6 +4306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Read entire handle contents strictly into a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function reads chunks at a time, doubling the chunksize on each\n read. The final buffer is then realloced to the appropriate size. For\n files \u003e half of available memory, this may lead to memory exhaustion.\n Consider using \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e in this case.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e is closed once the contents have been read, or if an\n exception is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "hGetContents",
           "package": "bitstream",
@@ -4144,6 +4317,7 @@
         "index": {
           "description": "Read entire handle contents strictly into Bitstream This function reads chunks at time doubling the chunksize on each read The final buffer is then realloced to the appropriate size For files half of available memory this may lead to memory exhaustion Consider using readFile in this case The Handle is closed once the contents have been read or if an exception is thrown",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "hGetContents",
           "normalized": "Handle-\u003eIO(Bitstream a)",
@@ -4160,6 +4334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ehGetNonBlocking\u003c/a\u003e\u003c/code\u003e is similar to \u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e, except that it\n will never block waiting for data to become available. If there is\n no data available to be read, \u003ccode\u003e\u003ca\u003ehGetNonBlocking\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "hGetNonBlocking",
           "package": "bitstream",
@@ -4170,6 +4345,7 @@
         "index": {
           "description": "hGetNonBlocking is similar to hGet except that it will never block waiting for data to become available If there is no data available to be read hGetNonBlocking returns empty",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "hGetNonBlocking",
           "normalized": "Handle-\u003eInt-\u003eIO(Bitstream a)",
@@ -4186,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Like \u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e, except that a shorter \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e may be\n returned if there are not enough octets immediately available to\n satisfy the whole request. \u003ccode\u003e\u003ca\u003ehGetSome\u003c/a\u003e\u003c/code\u003e only blocks if there is no\n data available, and EOF has not yet been reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "hGetSome",
           "package": "bitstream",
@@ -4196,6 +4373,7 @@
         "index": {
           "description": "Like hGet except that shorter Bitstream may be returned if there are not enough octets immediately available to satisfy the whole request hGetSome only blocks if there is no data available and EOF has not yet been reached",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "hGetSome",
           "normalized": "Handle-\u003eInt-\u003eIO(Bitstream a)",
@@ -4212,6 +4390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Write a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e to the given \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "hPut",
           "package": "bitstream",
@@ -4222,6 +4401,7 @@
         "index": {
           "description": "Write Bitstream to the given Handle",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "hPut",
           "normalized": "Handle-\u003eBitstream a-\u003eIO()",
@@ -4238,6 +4418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003einteract\u003c/a\u003e\u003c/code\u003e function takes a function of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e d\n -\u003e \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e d\u003c/code\u003e as its argument. The entire input from the stdin\n is passed to this function as its argument, and the resulting\n \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e is output on the stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "interact",
           "package": "bitstream",
@@ -4248,6 +4429,7 @@
         "index": {
           "description": "The interact function takes function of type Bitstream Bitstream as its argument The entire input from the stdin is passed to this function as its argument and the resulting Bitstream is output on the stdout",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "interact",
           "normalized": "(Bitstream a-\u003eBitstream a)-\u003eIO()",
@@ -4263,6 +4445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Write a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e to the stdout, equivalent to \u003ccode\u003e\u003ca\u003ehPut\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003estdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "putBits",
           "package": "bitstream",
@@ -4273,6 +4456,7 @@
         "index": {
           "description": "Write Bitstream to the stdout equivalent to hPut stdout",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "putBits",
           "normalized": "Bitstream a-\u003eIO()",
@@ -4289,6 +4473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Read an entire file strictly into a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "readFile",
           "package": "bitstream",
@@ -4299,6 +4484,7 @@
         "index": {
           "description": "Read an entire file strictly into Bitstream",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO(Bitstream a)",
@@ -4315,6 +4501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "streamPackets",
           "package": "bitstream",
@@ -4325,6 +4512,7 @@
         "index": {
           "description": "Convert Bitstream into Stream of Packet",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "streamPackets",
           "normalized": "Bitstream a-\u003eStream(Packet a)",
@@ -4341,6 +4529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003etoByteString\u003c/a\u003e\u003c/code\u003e bits\u003c/code\u003e converts a strict \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ebits\u003c/code\u003e\n into a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. The resulting octets will be padded\n with zeroes if the \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003ebs\u003c/code\u003e is not multiple of 8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "toByteString",
           "package": "bitstream",
@@ -4351,6 +4540,7 @@
         "index": {
           "description": "toByteString bits converts strict Bitstream bits into strict ByteString The resulting octets will be padded with zeroes if the length of bs is not multiple of",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "toByteString",
           "normalized": "Bitstream a-\u003eByteString",
@@ -4367,6 +4557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "toPackets",
           "package": "bitstream",
@@ -4377,6 +4568,7 @@
         "index": {
           "description": "Convert Bitstream into Vector of Packet",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "toPackets",
           "normalized": "Bitstream a-\u003eVector(Packet a)",
@@ -4393,6 +4585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003es into a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e,\n with provided overall bit length. The correctness of the bit length\n isn't checked, so you MUST be sure your bit length is absolutely\n correct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "unsafeFromPackets",
           "package": "bitstream",
@@ -4403,6 +4596,7 @@
         "index": {
           "description": "Convert Vector of Packet into Bitstream with provided overall bit length The correctness of the bit length isn checked so you MUST be sure your bit length is absolutely correct",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "unsafeFromPackets",
           "normalized": "Int-\u003eVector(Packet a)-\u003eBitstream a",
@@ -4419,6 +4613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003es into \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "unstreamPackets",
           "package": "bitstream",
@@ -4429,6 +4624,7 @@
         "index": {
           "description": "Convert Stream of Packet into Bitstream",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "unstreamPackets",
           "normalized": "Stream(Packet a)-\u003eBitstream a",
@@ -4445,6 +4641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Write a \u003ccode\u003e\u003ca\u003eBitstream\u003c/a\u003e\u003c/code\u003e to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:05 UTC 2014",
           "module": "Data.Bitstream",
           "name": "writeFile",
           "package": "bitstream",
@@ -4455,6 +4652,7 @@
         "index": {
           "description": "Write Bitstream to file",
           "hierarchy": "Data Bitstream",
+          "indexed": "2014-03-11T17:23:05",
           "module": "Data.Bitstream",
           "name": "writeFile",
           "normalized": "FilePath-\u003eBitstream a-\u003eIO()",

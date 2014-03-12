@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsmtpclient"
+        "phrase": "hsmtpclient",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA very simple SMTP Client library for sending emails.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:12 UTC 2014",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "HSmtpClient",
           "package": "hsmtpclient",
@@ -28,6 +29,7 @@
         "index": {
           "description": "very simple SMTP Client library for sending emails",
           "hierarchy": "Network SMTP Client HSmtpClient",
+          "indexed": "2014-03-11T18:49:12",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "HSmtpClient",
           "package": "hsmtpclient",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif True then display debug info\n\u003c/p\u003e\u003cp\u003eSMTP authorization method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:12 UTC 2014",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "SMTPAuthMethod",
           "package": "hsmtpclient",
@@ -51,6 +54,7 @@
         "index": {
           "description": "if True then display debug info SMTP authorization method",
           "hierarchy": "Network SMTP Client HSmtpClient",
+          "indexed": "2014-03-11T18:49:12",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "SMTPAuthMethod",
           "package": "hsmtpclient",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:12 UTC 2014",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "LoginSMTPAuth",
           "package": "hsmtpclient",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client HSmtpClient",
+          "indexed": "2014-03-11T18:49:12",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "LoginSMTPAuth",
           "package": "hsmtpclient",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:12 UTC 2014",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "NoSMTPAuth",
           "package": "hsmtpclient",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client HSmtpClient",
+          "indexed": "2014-03-11T18:49:12",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "NoSMTPAuth",
           "package": "hsmtpclient",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:12 UTC 2014",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "PlainSMTPAuth",
           "package": "hsmtpclient",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client HSmtpClient",
+          "indexed": "2014-03-11T18:49:12",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "PlainSMTPAuth",
           "package": "hsmtpclient",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an email using a SMTP email server.\n\u003c/p\u003e\u003cpre\u003e example = do\n  r \u003c- sendStringAsEmail \n               \"pippo  \"                  -- user\n               \"pluto\"                    -- password\n               PlainSMTPAuth              -- Auth method\n               \"pippo@qwerty.org\"         -- from\n               \"paperina@qwerty.org\"      -- to\n               \"test\"                     -- subject\n               \"\"                         -- cc\n               \"\"                         -- bcc\n               \"mail.qwerty.org\"          -- stmp_server\n               25                         -- default SMTP port\n               \"localhost\"                -- user domain \n               \"This is a test\"           -- content\n               [\"paperina@qwerty.org\",    -- rcpt_lines\n                \"minni@qwery.it.it\"]      \n\n  case r of \n    True -\u003e putStrLn \"Success\"\n    False -\u003e putStrLn \"Fail\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:12 UTC 2014",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "sendStringAsEMail",
           "package": "hsmtpclient",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Send an email using SMTP email server example do sendStringAsEmail pippo user pluto password PlainSMTPAuth Auth method pippo@qwerty.org from paperina@qwerty.org to test subject cc bcc mail.qwerty.org stmp server default SMTP port localhost user domain This is test content paperina@qwerty.org rcpt lines minni@qwery.it.it case of True putStrLn Success False putStrLn Fail",
           "hierarchy": "Network SMTP Client HSmtpClient",
+          "indexed": "2014-03-11T18:49:12",
           "module": "Network.SMTP.Client.HSmtpClient",
           "name": "sendStringAsEMail",
           "normalized": "String-\u003eString-\u003eSMTPAuthMethod-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003eString-\u003ePortNumber-\u003eString-\u003eString-\u003e[String]-\u003eIO Bool",

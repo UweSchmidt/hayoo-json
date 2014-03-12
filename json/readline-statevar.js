@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "readline-statevar"
+        "phrase": "readline-statevar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "StateVar",
           "package": "readline-statevar",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "StateVar",
           "package": "readline-statevar",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "Callback",
           "package": "readline-statevar",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "Callback",
           "package": "readline-statevar",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "Entry",
           "package": "readline-statevar",
@@ -66,6 +71,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "Entry",
           "package": "readline-statevar",
@@ -79,6 +85,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "Keymap",
           "package": "readline-statevar",
@@ -86,6 +93,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "Keymap",
           "package": "readline-statevar",
@@ -99,6 +107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "UndoCode",
           "package": "readline-statevar",
@@ -106,6 +115,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "UndoCode",
           "package": "readline-statevar",
@@ -119,6 +129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "Function",
           "package": "readline-statevar",
@@ -127,6 +138,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "Function",
           "package": "readline-statevar",
@@ -140,6 +152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "Keymap",
           "package": "readline-statevar",
@@ -148,6 +161,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "Keymap",
           "package": "readline-statevar",
@@ -161,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "Macro",
           "package": "readline-statevar",
@@ -169,6 +184,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "Macro",
           "package": "readline-statevar",
@@ -182,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "UndoBegin",
           "package": "readline-statevar",
@@ -190,6 +207,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "UndoBegin",
           "package": "readline-statevar",
@@ -203,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "UndoDelete",
           "package": "readline-statevar",
@@ -211,6 +230,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "UndoDelete",
           "package": "readline-statevar",
@@ -224,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "UndoEnd",
           "package": "readline-statevar",
@@ -232,6 +253,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "UndoEnd",
           "package": "readline-statevar",
@@ -245,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "UndoInsert",
           "package": "readline-statevar",
@@ -253,6 +276,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "UndoInsert",
           "package": "readline-statevar",
@@ -266,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "addDefun",
           "package": "readline-statevar",
@@ -274,6 +299,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "addDefun",
           "normalized": "String-\u003eCallback-\u003eMaybe Char-\u003eIO()",
@@ -290,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd this command to the history.  This allows users to search backward\n through history with C-r and step through with up and down arrows, among\n other things.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "addHistory",
           "package": "readline-statevar",
@@ -299,6 +326,7 @@
         "index": {
           "description": "Add this command to the history This allows users to search backward through history with C-r and step through with up and down arrows among other things",
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "addHistory",
           "normalized": "String-\u003eIO()",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "addUndo",
           "package": "readline-statevar",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "addUndo",
           "normalized": "UndoCode-\u003eInt-\u003eInt-\u003eString-\u003eIO()",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "alreadyPrompted",
           "package": "readline-statevar",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "alreadyPrompted",
           "package": "readline-statevar",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "attemptedCompletionFunction",
           "package": "readline-statevar",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "attemptedCompletionFunction",
           "normalized": "SettableStateVar(Maybe(String-\u003eInt-\u003eInt-\u003eIO(Maybe(String,[String]))))",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "attemptedCompletionOver",
           "package": "readline-statevar",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "attemptedCompletionOver",
           "package": "readline-statevar",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "basicQuoteCharacters",
           "package": "readline-statevar",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "basicQuoteCharacters",
           "package": "readline-statevar",
@@ -427,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "basicWordBreakCharacters",
           "package": "readline-statevar",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "basicWordBreakCharacters",
           "package": "readline-statevar",
@@ -449,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "beginUndoGroup",
           "package": "readline-statevar",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "beginUndoGroup",
           "normalized": "IO()",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "bindKey",
           "package": "readline-statevar",
@@ -480,6 +523,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "bindKey",
           "normalized": "Char-\u003eCallback-\u003eIO()",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "bindKeyInMap",
           "package": "readline-statevar",
@@ -503,6 +548,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "bindKeyInMap",
           "normalized": "Char-\u003eCallback-\u003eKeymap-\u003eIO()",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "bindingKeymap",
           "package": "readline-statevar",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "bindingKeymap",
           "package": "readline-statevar",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "callbackHandlerInstall",
           "package": "readline-statevar",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "callbackHandlerInstall",
           "normalized": "String-\u003e(String-\u003eIO())-\u003eIO(IO())",
@@ -563,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "callbackReadChar",
           "package": "readline-statevar",
@@ -571,6 +622,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "callbackReadChar",
           "normalized": "IO()",
@@ -586,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "catchSignals",
           "package": "readline-statevar",
@@ -595,6 +648,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "catchSignals",
           "package": "readline-statevar",
@@ -608,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "catchSigwinch",
           "package": "readline-statevar",
@@ -617,6 +672,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "catchSigwinch",
           "package": "readline-statevar",
@@ -630,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "charIsQuotedP",
           "package": "readline-statevar",
@@ -639,6 +696,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "charIsQuotedP",
           "normalized": "SettableStateVar(Maybe(String-\u003eInt-\u003eIO Bool))",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "cleanupAfterSignal",
           "package": "readline-statevar",
@@ -662,6 +721,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "cleanupAfterSignal",
           "normalized": "IO()",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "clearMessage",
           "package": "readline-statevar",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "clearMessage",
           "normalized": "IO()",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "clearSignals",
           "package": "readline-statevar",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "clearSignals",
           "normalized": "IO()",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "complete",
           "package": "readline-statevar",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "complete",
           "normalized": "Int-\u003eChar-\u003eIO Int",
@@ -745,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "completeInternal",
           "package": "readline-statevar",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "completeInternal",
           "normalized": "Char-\u003eIO()",
@@ -768,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "completerQuoteCharacters",
           "package": "readline-statevar",
@@ -777,6 +846,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "completerQuoteCharacters",
           "package": "readline-statevar",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "completerWordBreakCharacters",
           "package": "readline-statevar",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "completerWordBreakCharacters",
           "package": "readline-statevar",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "completionAppendCharacter",
           "package": "readline-statevar",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "completionAppendCharacter",
           "package": "readline-statevar",
@@ -834,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "completionDisplayMatchesHook",
           "package": "readline-statevar",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "completionDisplayMatchesHook",
           "normalized": "SettableStateVar(Maybe([String]-\u003eIO()))",
@@ -858,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "completionEntryFunction",
           "package": "readline-statevar",
@@ -867,6 +944,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "completionEntryFunction",
           "normalized": "SettableStateVar(Maybe(String-\u003eIO[String]))",
@@ -882,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "completionMatches",
           "package": "readline-statevar",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "completionMatches",
           "normalized": "String-\u003e(String-\u003eIO[String])-\u003eIO(Maybe(String,[String]))",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "completionQueryItems",
           "package": "readline-statevar",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "completionQueryItems",
           "package": "readline-statevar",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "completionWordBreakHook",
           "package": "readline-statevar",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "completionWordBreakHook",
           "package": "readline-statevar",
@@ -949,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "copyKeymap",
           "package": "readline-statevar",
@@ -957,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "copyKeymap",
           "normalized": "Keymap-\u003eIO Keymap",
@@ -972,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "copyText",
           "package": "readline-statevar",
@@ -980,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "copyText",
           "normalized": "Int-\u003eInt-\u003eIO String",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "deleteText",
           "package": "readline-statevar",
@@ -1003,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "deleteText",
           "normalized": "Int-\u003eInt-\u003eIO()",
@@ -1018,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "ding",
           "package": "readline-statevar",
@@ -1026,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "ding",
           "package": "readline-statevar",
@@ -1038,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "directoryCompletionHook",
           "package": "readline-statevar",
@@ -1047,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "directoryCompletionHook",
           "normalized": "SettableStateVar(Maybe(String-\u003eIO String))",
@@ -1062,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "displayMatchList",
           "package": "readline-statevar",
@@ -1070,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "displayMatchList",
           "normalized": "[String]-\u003eIO()",
@@ -1085,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "doUndo",
           "package": "readline-statevar",
@@ -1093,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "doUndo",
           "package": "readline-statevar",
@@ -1106,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "done",
           "package": "readline-statevar",
@@ -1115,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "done",
           "package": "readline-statevar",
@@ -1127,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "end",
           "package": "readline-statevar",
@@ -1136,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "end",
           "package": "readline-statevar",
@@ -1148,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "endUndoGroup",
           "package": "readline-statevar",
@@ -1156,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "endUndoGroup",
           "normalized": "IO()",
@@ -1171,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "eraseEmptyLine",
           "package": "readline-statevar",
@@ -1180,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "eraseEmptyLine",
           "package": "readline-statevar",
@@ -1193,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "eventHook",
           "package": "readline-statevar",
@@ -1202,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "eventHook",
           "normalized": "SettableStateVar(Maybe(IO()))",
@@ -1217,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "executingKeymap",
           "package": "readline-statevar",
@@ -1226,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "executingKeymap",
           "package": "readline-statevar",
@@ -1239,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameCompletionDesired",
           "package": "readline-statevar",
@@ -1248,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameCompletionDesired",
           "package": "readline-statevar",
@@ -1261,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameCompletionFunction",
           "package": "readline-statevar",
@@ -1269,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameCompletionFunction",
           "normalized": "String-\u003eIO[String]",
@@ -1284,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameDequotingFunction",
           "package": "readline-statevar",
@@ -1293,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameDequotingFunction",
           "normalized": "SettableStateVar(Maybe(String-\u003eMaybe Char-\u003eIO String))",
@@ -1308,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameQuoteCharacters",
           "package": "readline-statevar",
@@ -1317,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameQuoteCharacters",
           "package": "readline-statevar",
@@ -1330,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameQuotingDesired",
           "package": "readline-statevar",
@@ -1339,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameQuotingDesired",
           "package": "readline-statevar",
@@ -1352,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameQuotingFunction",
           "package": "readline-statevar",
@@ -1361,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "filenameQuotingFunction",
           "normalized": "SettableStateVar(Maybe(String-\u003eBool-\u003ePtr CChar-\u003eIO String))",
@@ -1376,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "forcedUpdateDisplay",
           "package": "readline-statevar",
@@ -1384,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "forcedUpdateDisplay",
           "normalized": "IO()",
@@ -1399,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "freeKeymap",
           "package": "readline-statevar",
@@ -1407,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "freeKeymap",
           "normalized": "Keymap-\u003eIO()",
@@ -1422,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "freeLineState",
           "package": "readline-statevar",
@@ -1430,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "freeLineState",
           "normalized": "IO()",
@@ -1445,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "freeUndoList",
           "package": "readline-statevar",
@@ -1453,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "freeUndoList",
           "normalized": "IO()",
@@ -1468,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "functionDumper",
           "package": "readline-statevar",
@@ -1476,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "functionDumper",
           "normalized": "Bool-\u003eIO()",
@@ -1491,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "functionOfKeyseq",
           "package": "readline-statevar",
@@ -1499,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "functionOfKeyseq",
           "normalized": "String-\u003eMaybe Keymap-\u003eIO Entry",
@@ -1514,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "funmapNames",
           "package": "readline-statevar",
@@ -1522,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "funmapNames",
           "normalized": "IO[String]",
@@ -1537,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "genericBind",
           "package": "readline-statevar",
@@ -1545,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "genericBind",
           "normalized": "String-\u003eEntry-\u003eKeymap-\u003eIO()",
@@ -1560,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "ignoreCompletionDuplicates",
           "package": "readline-statevar",
@@ -1569,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "ignoreCompletionDuplicates",
           "package": "readline-statevar",
@@ -1582,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "ignoreSomeCompletionsFunction",
           "package": "readline-statevar",
@@ -1591,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "ignoreSomeCompletionsFunction",
           "normalized": "SettableStateVar(Maybe([String]-\u003eIO[String]))",
@@ -1606,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "inStream",
           "package": "readline-statevar",
@@ -1615,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "inStream",
           "package": "readline-statevar",
@@ -1628,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "inhibitCompletion",
           "package": "readline-statevar",
@@ -1637,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "inhibitCompletion",
           "package": "readline-statevar",
@@ -1650,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "initialize",
           "package": "readline-statevar",
@@ -1658,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "initialize",
           "normalized": "IO()",
@@ -1672,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "insertCompletions",
           "package": "readline-statevar",
@@ -1680,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "insertCompletions",
           "normalized": "Int-\u003eChar-\u003eIO Int",
@@ -1695,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "insertText",
           "package": "readline-statevar",
@@ -1703,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "insertText",
           "normalized": "String-\u003eIO()",
@@ -1718,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "keymap",
           "package": "readline-statevar",
@@ -1727,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "keymap",
           "package": "readline-statevar",
@@ -1739,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "keymapByName",
           "package": "readline-statevar",
@@ -1748,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "keymapByName",
           "normalized": "String-\u003eGettableStateVar Keymap",
@@ -1763,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "keymapName",
           "package": "readline-statevar",
@@ -1772,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "keymapName",
           "normalized": "Keymap-\u003eGettableStateVar(Maybe String)",
@@ -1787,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "killText",
           "package": "readline-statevar",
@@ -1795,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "killText",
           "normalized": "Int-\u003eInt-\u003eIO()",
@@ -1810,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "libraryVersion",
           "package": "readline-statevar",
@@ -1819,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "libraryVersion",
           "package": "readline-statevar",
@@ -1832,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "lineBuffer",
           "package": "readline-statevar",
@@ -1841,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "lineBuffer",
           "package": "readline-statevar",
@@ -1854,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "listFunmapNames",
           "package": "readline-statevar",
@@ -1862,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "listFunmapNames",
           "normalized": "IO()",
@@ -1877,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "mark",
           "package": "readline-statevar",
@@ -1886,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "mark",
           "package": "readline-statevar",
@@ -1898,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "message",
           "package": "readline-statevar",
@@ -1906,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "message",
           "normalized": "String-\u003eIO()",
@@ -1920,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "modifying",
           "package": "readline-statevar",
@@ -1928,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "modifying",
           "normalized": "Int-\u003eInt-\u003eIO()",
@@ -1942,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "namedFunction",
           "package": "readline-statevar",
@@ -1950,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "namedFunction",
           "normalized": "String-\u003eIO(Maybe Callback)",
@@ -1965,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "newBareKeymap",
           "package": "readline-statevar",
@@ -1973,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "newBareKeymap",
           "package": "readline-statevar",
@@ -1986,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "newKeymap",
           "package": "readline-statevar",
@@ -1994,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "newKeymap",
           "package": "readline-statevar",
@@ -2007,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "onNewLine",
           "package": "readline-statevar",
@@ -2015,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "onNewLine",
           "normalized": "IO()",
@@ -2030,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "onNewLineWithPrompt",
           "package": "readline-statevar",
@@ -2038,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "onNewLineWithPrompt",
           "normalized": "IO()",
@@ -2053,6 +2235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "outStream",
           "package": "readline-statevar",
@@ -2062,6 +2245,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "outStream",
           "package": "readline-statevar",
@@ -2075,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "parseAndBind",
           "package": "readline-statevar",
@@ -2083,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "parseAndBind",
           "normalized": "String-\u003eIO()",
@@ -2098,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "pendingInput",
           "package": "readline-statevar",
@@ -2107,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "pendingInput",
           "package": "readline-statevar",
@@ -2120,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "point",
           "package": "readline-statevar",
@@ -2129,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "point",
           "package": "readline-statevar",
@@ -2141,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "possibleCompletions",
           "package": "readline-statevar",
@@ -2149,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "possibleCompletions",
           "normalized": "Int-\u003eChar-\u003eIO Int",
@@ -2164,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "preInputHook",
           "package": "readline-statevar",
@@ -2173,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "preInputHook",
           "normalized": "SettableStateVar(Maybe(IO()))",
@@ -2188,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "prompt",
           "package": "readline-statevar",
@@ -2197,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "prompt",
           "package": "readline-statevar",
@@ -2209,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "quoteFilename",
           "package": "readline-statevar",
@@ -2217,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "quoteFilename",
           "normalized": "String-\u003eBool-\u003ePtr CChar-\u003eIO String",
@@ -2232,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "readInitFile",
           "package": "readline-statevar",
@@ -2240,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "readInitFile",
           "normalized": "String-\u003eIO()",
@@ -2255,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "readKey",
           "package": "readline-statevar",
@@ -2263,6 +2464,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "readKey",
           "package": "readline-statevar",
@@ -2276,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "readLineName",
           "package": "readline-statevar",
@@ -2285,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "readLineName",
           "package": "readline-statevar",
@@ -2299,6 +2503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereadline is similar to \u003ccode\u003eSystem.IO.getLine\u003c/code\u003e, but with rich edit\n functionality and history capability.  readline will read a line\n from the terminal and return it, using \u003cem\u003eprompt\u003c/em\u003e as a prompt.  If\n prompt is the empty string, no prompt is issued.  The line returned\n has the final newline removed, so only the text of the line\n remains.  A blank line returns the empty string.  If EOF is\n encountered while reading a line, and the line is empty, Nothing is\n returned.  If an EOF is read with a non-empty line, it is treated\n as a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "readline",
           "package": "readline-statevar",
@@ -2308,6 +2513,7 @@
         "index": {
           "description": "readline is similar to System.IO.getLine but with rich edit functionality and history capability readline will read line from the terminal and return it using prompt as prompt If prompt is the empty string no prompt is issued The line returned has the final newline removed so only the text of the line remains blank line returns the empty string If EOF is encountered while reading line and the line is empty Nothing is returned If an EOF is read with non-empty line it is treated as newline",
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "readline",
           "normalized": "String-\u003eIO(Maybe String)",
@@ -2322,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "redisplay",
           "package": "readline-statevar",
@@ -2330,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "redisplay",
           "normalized": "IO()",
@@ -2344,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "redisplayFunction",
           "package": "readline-statevar",
@@ -2353,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "redisplayFunction",
           "normalized": "SettableStateVar(Maybe(IO()))",
@@ -2368,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "resetAfterSignal",
           "package": "readline-statevar",
@@ -2376,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "resetAfterSignal",
           "normalized": "IO()",
@@ -2391,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "resetLineState",
           "package": "readline-statevar",
@@ -2399,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "resetLineState",
           "normalized": "IO()",
@@ -2414,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "resetTerminal",
           "package": "readline-statevar",
@@ -2422,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "resetTerminal",
           "normalized": "Maybe String-\u003eIO()",
@@ -2437,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "resizeTerminal",
           "package": "readline-statevar",
@@ -2445,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "resizeTerminal",
           "normalized": "IO()",
@@ -2460,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "restorePrompt",
           "package": "readline-statevar",
@@ -2468,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "restorePrompt",
           "normalized": "IO()",
@@ -2483,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "savePrompt",
           "package": "readline-statevar",
@@ -2491,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "savePrompt",
           "normalized": "IO()",
@@ -2506,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "setSignals",
           "package": "readline-statevar",
@@ -2514,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "setSignals",
           "normalized": "IO()",
@@ -2529,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "specialPrefixes",
           "package": "readline-statevar",
@@ -2538,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "specialPrefixes",
           "package": "readline-statevar",
@@ -2551,6 +2777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "startupHook",
           "package": "readline-statevar",
@@ -2560,6 +2787,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "startupHook",
           "normalized": "SettableStateVar(Maybe(IO()))",
@@ -2575,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "stuffChar",
           "package": "readline-statevar",
@@ -2583,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "stuffChar",
           "normalized": "Char-\u003eIO Bool",
@@ -2598,6 +2828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "terminalName",
           "package": "readline-statevar",
@@ -2607,6 +2838,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "terminalName",
           "package": "readline-statevar",
@@ -2620,6 +2852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "unbindCommandInMap",
           "package": "readline-statevar",
@@ -2628,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "unbindCommandInMap",
           "normalized": "String-\u003eKeymap-\u003eIO()",
@@ -2643,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "unbindKey",
           "package": "readline-statevar",
@@ -2651,6 +2886,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "unbindKey",
           "normalized": "Char-\u003eIO()",
@@ -2666,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "unbindKeyInMap",
           "package": "readline-statevar",
@@ -2674,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "unbindKeyInMap",
           "normalized": "Char-\u003eKeymap-\u003eIO()",
@@ -2689,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:47 UTC 2014",
           "module": "System.Console.Readline.StateVar",
           "name": "usernameCompletionFunction",
           "package": "readline-statevar",
@@ -2697,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline StateVar",
+          "indexed": "2014-03-11T19:49:47",
           "module": "System.Console.Readline.StateVar",
           "name": "usernameCompletionFunction",
           "normalized": "String-\u003eIO[String]",
